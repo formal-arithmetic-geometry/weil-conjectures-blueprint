@@ -77,10 +77,11 @@ jobs:
       - name: Extract the Lean facts
         run: lake exe blueprint extract --root . --out lean-facts.json
 
-      # Informational: the site is published regardless, and the checks page
-      # shows the same findings. A content error still fails here so that it
-      # is visible in the run.
+      # Informational: the site is published regardless, and its checks page
+      # shows the same findings. A content error, such as a Lean name that no
+      # longer exists, marks the step red without blocking the deploy.
       - name: Check the blueprint against the facts
+        continue-on-error: true
         run: lake exe blueprint check --root . --lean
 
       - name: Build the snapshot
