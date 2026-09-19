@@ -37,8 +37,7 @@ jobs:
           ssh-private-key: ${{ secrets.WEIL_CONJECTURES_DEPLOY_KEY }}
 
       # A self-hosted runner has no known_hosts. GitHub's ed25519 host key,
-      # as published at docs.github.com/en/authentication/keychecking, so that
-      # the first ssh clone is verified rather than trusted on first use.
+      # as published at docs.github.com/en/authentication/keychecking.
       - name: Trust GitHub's host key
         run: |
           mkdir -p ~/.ssh
@@ -46,12 +45,6 @@ jobs:
             echo "github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl" >> ~/.ssh/known_hosts
 
       - name: Route the project's https URL through that key
-        # `insteadOf` matches by prefix|        # `insteadOf` matches by prefix, and this repository's own URL shares the
-        # project's as a prefix. Git takes the longest match, so a rule that maps
-        # this repository's URL to itself keeps its checkout on https. The global
-        # config persists on the runner between jobs, which is why the pair has to
-        # be complete rather than merely the first rule.
-        run: |      - name: Route the project's https URL through that key
         run: |
           git config --global \
             url."git@github.com:formal-arithmetic-geometry/weil-conjectures".insteadOf \
