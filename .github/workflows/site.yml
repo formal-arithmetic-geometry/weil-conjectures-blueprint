@@ -62,13 +62,6 @@ jobs:
           git config --global \
             url."git@github.com:formal-arithmetic-geometry/weil-conjectures".insteadOf \
             "https://github.com/formal-arithmetic-geometry/weil-conjectures"
-|
-          git config --global \
-            url."git@github.com:formal-arithmetic-geometry/weil-conjectures".insteadOf \
-            "https://github.com/formal-arithmetic-geometry/weil-conjectures"
-          git config --global \
-            url."https://github.com/formal-arithmetic-geometry/weil-conjectures-blueprint".insteadOf \
-            "https://github.com/formal-arithmetic-geometry/weil-conjectures-blueprint"
 
       # elan and the toolchain of lean-toolchain, plus the Mathlib cache for
       # the project's Mathlib dependency. Building is done explicitly below.
