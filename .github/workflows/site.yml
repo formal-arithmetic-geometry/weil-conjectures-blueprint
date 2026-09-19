@@ -1,0 +1,113 @@
+name: Site
+
+# Builds the website and commits it to the `site` branch, which fuxi follows
+# (fuxi/blueprint.nix in chrisflav/nixos-config) and serves at
+# https://blueprint.fuxi.merten.dev.
+#
+# On this repository's own runner, because the job builds the formalisation
+# project to read proof status out of its oleans: that needs the Mathlib
+# cache and benefits from a workspace that survives between runs.
+#
+# The project is private. `WEIL_CONJECTURES_DEPLOY_KEY` is a read-only deploy
+# key on formal-arithmetic-geometry/weil-conjectures; the `insteadOf` rewrite
+# below makes Lake's https clone of it go over ssh with that key.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # push the `site` branch
+
+# Two site builds must not race on the branch; a queued one must not be
+# cancelled either, or a snapshot would be missing from the history.
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  site:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Reach the project repository over ssh
+        uses: webfactory/ssh-agent@v0.9.1
+        with:
+          ssh-private-key: ${{ secrets.WEIL_CONJECTURES_DEPLOY_KEY }}
+
+      - name: Route the project's https URL through that key
+        run: |
+          git config --global \
+            url."git@github.com:formal-arithmetic-geometry/weil-conjectures".insteadOf \
+            "https://github.com/formal-arithmetic-geometry/weil-conjectures"
+
+      # elan and the toolchain of lean-toolchain, plus the Mathlib cache for
+      # the project's Mathlib dependency. Building is done explicitly below.
+      - uses: leanprover/lean-action@v1
+        with:
+          build: false
+          test: false
+          lint: false
+          use-mathlib-cache: true
+
+      - name: Build the project and the blueprint tool
+        run: lake build weil-conjectures/WeilConjectures blueprint/blueprint
+
+      # Proof status and the actual dependency graph, read out of the oleans.
+      # Modules come from `[lean] modules` in blueprint.toml.
+      - name: Extract the Lean facts
+        run: lake exe blueprint extract --root . --out lean-facts.json
+
+      # Informational: the site is published regardless, and the checks page
+      # shows the same findings. A content error still fails here so that it
+      # is visible in the run.
+      - name: Check the blueprint against the facts
+        run: lake exe blueprint check --root . --lean
+
+      - name: Build the snapshot
+        run: lake exe blueprint build --root . --facts lean-facts.json -o snapshot.json
+
+      # The history the time slider reads is whatever the `site` branch already
+      # serves as data/; every snapshot ever published stays in the index.
+      - name: Restore the snapshot history from the site branch
+        env:
+          REMOTE: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+        run: |
+          set -euo pipefail
+          rm -rf site-branch
+          if git ls-remote --exit-code --heads "$REMOTE" site > /dev/null 2>&1; then
+            git clone --quiet --depth 1 --branch site "$REMOTE" site-branch
+          else
+            echo "no site branch yet; starting one"
+            mkdir site-branch
+            git -C site-branch init -q -b site
+            git -C site-branch remote add origin "$REMOTE"
+          fi
+          mkdir -p history
+          if [ -d site-branch/data ]; then
+            cp -a site-branch/data/. history/
+          fi
+
+      - name: Add this commit's snapshot to the history
+        run: lake exe blueprint history add snapshot.json --dir history
+
+      - name: Assemble the site
+        run: lake exe blueprint site --root . --facts lean-facts.json --history history -o _site
+
+      - name: Publish to the site branch
+        run: |
+          set -euo pipefail
+          cd site-branch
+          git rm -rq --ignore-unmatch . 
+          cp -a ../_site/. .
+          git add -A
+          if git diff --cached --quiet; then
+            echo "the site did not change"
+          else
+            git -c user.name='github-actions[bot]' \
+                -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+                commit -q -m "site: ${GITHUB_SHA}"
+            git push origin HEAD:site
+          fi

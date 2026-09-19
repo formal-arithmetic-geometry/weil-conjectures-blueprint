@@ -1,0 +1,62 @@
+name: Follow the project
+
+# Moves the pinned revision of weil-conjectures (and of the blueprint tool)
+# forward once a day, so that proof status on the site tracks the
+# formalisation without anyone editing lake-manifest.json by hand. A push
+# made with the workflow token does not trigger other workflows, so the site
+# build is dispatched explicitly.
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # dispatch site.yml
+
+jobs:
+  bump:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: webfactory/ssh-agent@v0.9.1
+        with:
+          ssh-private-key: ${{ secrets.WEIL_CONJECTURES_DEPLOY_KEY }}
+
+      - run: |
+          git config --global \
+            url."git@github.com:formal-arithmetic-geometry/weil-conjectures".insteadOf \
+            "https://github.com/formal-arithmetic-geometry/weil-conjectures"
+
+      - uses: leanprover/lean-action@v1
+        with:
+          build: false
+          test: false
+          lint: false
+          use-mathlib-cache: false
+
+      # `lake update` raises lean-toolchain to the newest toolchain among the
+      # dependencies, which is the tool's and newer than the project's. The
+      # project's Mathlib oleans only match the project's toolchain, so that
+      # file follows the project, whatever the tool says.
+      - name: Update the pins, keeping the project's toolchain
+        run: |
+          lake update weil-conjectures blueprint
+          cp .lake/packages/weil-conjectures/lean-toolchain lean-toolchain
+
+      - name: Commit and rebuild the site if anything moved
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- lake-manifest.json lean-toolchain; then
+            echo "nothing moved"
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -q -m "bump: follow weil-conjectures and blueprint" -- lake-manifest.json lean-toolchain
+          git push origin HEAD:main
+          gh workflow run site.yml --ref main
