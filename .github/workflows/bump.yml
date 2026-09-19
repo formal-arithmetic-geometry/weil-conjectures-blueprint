@@ -19,6 +19,17 @@ jobs:
   bump:
     runs-on: self-hosted
     steps:
+      # Before the checkout, because the runner's global git config persists
+      # between jobs and carries the rewrite below that sends the project's URL
+      # over ssh. `insteadOf` matches by prefix and this repository's URL starts
+      # with the project's; git takes the longest match, so mapping this URL to
+      # itself keeps the checkout on https whatever else is configured.
+      - name: Keep this repository's checkout on https
+        run: |
+          git config --global \
+            url."https://github.com/formal-arithmetic-geometry/weil-conjectures-blueprint".insteadOf \
+            "https://github.com/formal-arithmetic-geometry/weil-conjectures-blueprint"
+
       - uses: actions/checkout@v5
 
       - uses: webfactory/ssh-agent@v0.9.1
@@ -40,13 +51,11 @@ jobs:
         # this repository's URL to itself keeps its checkout on https. The global
         # config persists on the runner between jobs, which is why the pair has to
         # be complete rather than merely the first rule.
+        run: |      - name: Route the project's https URL through that key
         run: |
           git config --global \
             url."git@github.com:formal-arithmetic-geometry/weil-conjectures".insteadOf \
             "https://github.com/formal-arithmetic-geometry/weil-conjectures"
-          git config --global \
-            url."https://github.com/formal-arithmetic-geometry/weil-conjectures-blueprint".insteadOf \
-            "https://github.com/formal-arithmetic-geometry/weil-conjectures-blueprint"
 
       - uses: leanprover/lean-action@v1
         with:
