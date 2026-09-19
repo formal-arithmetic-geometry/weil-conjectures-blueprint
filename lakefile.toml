@@ -1,0 +1,21 @@
+# The blueprint of the Weil conjectures project, as a Lake package.
+#
+# Nothing here is compiled. The package exists so that `lake exe blueprint` and
+# the project's oleans are both available from one directory: the blueprint tool
+# is built by Lake with the same toolchain as the project, which is what lets
+# `blueprint extract` import the project's modules and derive proof status from
+# them. Bump `rev` on weil-conjectures to move the blueprint to a newer state of
+# the formalisation.
+name = "weil-conjectures-blueprint"
+version = "0.1.0"
+defaultTargets = []
+
+[[require]]
+name = "blueprint"
+git = "https://github.com/chrisflav/blueprint"
+rev = "main"
+
+[[require]]
+name = "weil-conjectures"
+git = "https://github.com/formal-arithmetic-geometry/weil-conjectures"
+rev = "master"

@@ -1,0 +1,9 @@
+# Settings for the blueprint tool. See docs/cli.md in chrisflav/blueprint.
+
+[project]
+name = "weil-conjectures"
+title = "The Weil conjectures"
+dir = "blueprint"
+
+[lean]
+modules = ["WeilConjectures"]
