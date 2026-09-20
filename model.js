@@ -1,0 +1,985 @@
+// model.js — pure logic for the blueprint snapshot format.
+//
+// No DOM, no fetch, no globals. Everything here is a plain function over a
+// snapshot (docs/snapshot-format.md) so it can be unit tested under node.
+//
+// Vocabulary follows DESIGN.md sections 2-4:
+//   * an *object* is the only sort of thing; nodes, edges, hyperedges and
+//     edges-between-edges differ only in their `boundary`.
+//   * a *collapse kind* K is a kind with `collapse: true` and an acyclic
+//     src -> tgt relation.  `src` is the detail, `tgt` is the coarser object,
+//     so `x <=K y` means "x is a detail of y".
+//   * a *view* is an upward-closed set X of expanded ids.
+//   * the *quotient* of a view is what the graph draws.
+//
+// Cost.  A real blueprint is a few thousand objects, and the graph page rebuilds
+// its view on every expand, collapse, filter and keystroke, so everything here
+// is linear or near-linear in the snapshot and the repeated work is cached:
+//
+//   * `collapseOrder` precomputes the ancestor chain of every object once per
+//     collapse kind (topologically, so it is one pass), and memoises descendant
+//     sets on demand;
+//   * `makeView` is memoised on (collapse kind, normalised expanded set), so
+//     going back to a view you have seen — which is what collapse-then-expand
+//     is — costs a map lookup;
+//   * `quotient` is memoised on the view plus its options.
+//
+// Every cache is keyed by immutable data derived from the model, so it cannot go
+// stale: expanding or collapsing produces a *different* expanded set and hence a
+// different key.  The model itself is rebuilt whenever the snapshot changes.
+
+export const STATUSES = [
+  'absent',
+  'missing',
+  'stated',
+  'proved',
+  'proved_with_axioms',
+];
+
+export const STATUS_LABEL = {
+  absent: 'absent',
+  missing: 'missing',
+  stated: 'stated',
+  proved: 'proved',
+  proved_with_axioms: 'proved (extra axioms)',
+};
+
+export const CHECK_LEVELS = ['error', 'warning', 'info'];
+
+// ---------------------------------------------------------------------------
+// 1. Indexing
+// ---------------------------------------------------------------------------
+
+/**
+ * Build the derived indices for a snapshot.  Everything downstream takes the
+ * resulting `model` rather than the raw snapshot.
+ */
+export function buildModel(snapshot) {
+  if (!snapshot || typeof snapshot !== 'object') {
+    throw new Error('buildModel: snapshot is not an object');
+  }
+  const objects = Array.isArray(snapshot.objects) ? snapshot.objects : [];
+  const byId = new Map();
+  for (const o of objects) {
+    // Normalise the shape once so every consumer can be careless.
+    o.boundary = Array.isArray(o.boundary) ? o.boundary : [];
+    o.attrs = o.attrs && typeof o.attrs === 'object' ? o.attrs : {};
+    if (typeof o.body !== 'string') o.body = '';
+    byId.set(o.id, o);
+  }
+
+  // incidence: for an id, every (object, role) pair that mentions it in its
+  // boundary.  This is "everything incident to the object" on the object page.
+  const incidence = new Map();
+  for (const o of objects) {
+    for (const b of o.boundary) {
+      if (!incidence.has(b.id)) incidence.set(b.id, []);
+      incidence.get(b.id).push({ object: o, role: b.role });
+    }
+  }
+
+  const kinds = (snapshot.schema && snapshot.schema.kinds) || {};
+  const collapseKinds = Object.keys(kinds).filter((k) => kinds[k] && kinds[k].collapse);
+  const defaultCollapse =
+    (snapshot.schema && snapshot.schema.defaultCollapse) || collapseKinds[0] || null;
+
+  const byKind = new Map();
+  for (const o of objects) {
+    if (!byKind.has(o.kind)) byKind.set(o.kind, []);
+    byKind.get(o.kind).push(o);
+  }
+
+  // Kinds whose boundary is exactly {src, tgt}: asked about once per object in
+  // the quotient, so decide it once per kind instead.
+  const binaryKinds = new Set();
+  for (const [name, k] of Object.entries(kinds)) {
+    const b = k && k.boundary;
+    if (!b) continue;
+    const roles = Object.keys(b);
+    if (roles.length === 2 && roles.includes('src') && roles.includes('tgt')) binaryKinds.add(name);
+  }
+
+  const model = {
+    snapshot,
+    objects,
+    byId,
+    byKind,
+    incidence,
+    kinds,
+    binaryKinds,
+    collapseKinds,
+    defaultCollapse,
+    status: (snapshot.derived && snapshot.derived.status) || {},
+    progress: (snapshot.derived && snapshot.derived.progress) || {},
+    checks: (snapshot.derived && snapshot.derived.checks) || [],
+    facts: snapshot.facts || null,
+    project: snapshot.project || {},
+    _orders: new Map(), // memoised collapse orders
+    _views: new Map(), // memoised views, keyed by kind + normalised expanded set
+    _search: null, // lowercase search index, built on first search
+    _searchHits: new Map(), // memoised results per query string
+  };
+  return model;
+}
+
+/** How many views to keep around.  Each one is a few sets of ids. */
+const VIEW_CACHE_LIMIT = 24;
+const SEARCH_CACHE_LIMIT = 64;
+
+function cachePut(map, key, value, limit) {
+  map.set(key, value);
+  if (map.size > limit) {
+    // Maps iterate in insertion order, so the first key is the oldest.
+    const oldest = map.keys().next().value;
+    map.delete(oldest);
+  }
+  return value;
+}
+
+export function objectsOfKind(model, kind) {
+  return model.byKind.get(kind) || [];
+}
+
+/** Display title for an object. */
+export function titleOf(object) {
+  if (!object) return '(unknown)';
+  const t = object.attrs && object.attrs.title;
+  return typeof t === 'string' && t.length ? t : object.id;
+}
+
+/** Derived status, or null when the kind carries no Lean reference at all. */
+export function statusOf(model, id) {
+  const s = model.status[id];
+  return typeof s === 'string' ? s : null;
+}
+
+/** {proved, total} for a collapse kind, or null. */
+export function progressOf(model, kind, id) {
+  const table = model.progress[kind];
+  if (!table) return null;
+  const p = table[id];
+  if (!p || typeof p.total !== 'number') return null;
+  return { proved: p.proved || 0, total: p.total };
+}
+
+/** Everything whose boundary mentions `id`, as [{object, role}]. */
+export function incidentTo(model, id) {
+  return model.incidence.get(id) || [];
+}
+
+/** true when the kind is an ordinary directed edge (roles src and tgt). */
+export function isBinaryKind(model, kindName) {
+  if (model.binaryKinds) return model.binaryKinds.has(kindName);
+  const k = model.kinds[kindName];
+  if (!k || !k.boundary) return false;
+  const roles = Object.keys(k.boundary);
+  return roles.length === 2 && roles.includes('src') && roles.includes('tgt');
+}
+
+/** Kinds that can appear as an arc in the graph (nonempty boundary). */
+export function edgeKinds(model) {
+  return Object.keys(model.kinds).filter((k) => {
+    const b = model.kinds[k] && model.kinds[k].boundary;
+    return b && Object.keys(b).length > 0;
+  });
+}
+
+/** Kinds with an empty boundary: these are the nodes. */
+export function nodeKinds(model) {
+  return Object.keys(model.kinds).filter((k) => {
+    const b = model.kinds[k] && model.kinds[k].boundary;
+    return !b || Object.keys(b).length === 0;
+  });
+}
+
+export function boundaryEntry(object, role) {
+  for (const b of object.boundary) if (b.role === role) return b.id;
+  return null;
+}
+
+// ---------------------------------------------------------------------------
+// 2. Collapse orders (DESIGN 3)
+// ---------------------------------------------------------------------------
+
+/**
+ * The partial order induced by the edge objects of a collapsible kind.
+ * `src` is the detail, `tgt` the coarser object, so parents(src) contains tgt.
+ *
+ * Returns { kind, parents, children, roots, expandable, edgeFor, ancestors,
+ * expandableAncestors, cyclic } where the id -> id[] maps are defined for
+ * *every* object id (possibly empty).
+ *
+ * The ancestor chains are precomputed here, in one topological pass, because
+ * every view operation asks for them: upward-closing an expanded set, deciding
+ * what is visible, and walking from a hidden object up to its representatives.
+ */
+export function collapseOrder(model, kind) {
+  if (model._orders.has(kind)) return model._orders.get(kind);
+
+  const parents = new Map();
+  const children = new Map();
+  const edgeFor = new Map(); // "child parent" -> edge object id
+  for (const o of model.objects) {
+    parents.set(o.id, []);
+    children.set(o.id, []);
+  }
+
+  const seenPair = new Set();
+  for (const o of model.objects) {
+    if (o.kind !== kind) continue;
+    const src = boundaryEntry(o, 'src');
+    const tgt = boundaryEntry(o, 'tgt');
+    if (src == null || tgt == null) continue;
+    if (!parents.has(src) || !parents.has(tgt)) continue; // dangling ref
+    if (src === tgt) continue; // degenerate, ignore
+    // `includes` on the parent list would be quadratic in a wide fan-in, and a
+    // real blueprint has sections with hundreds of children.
+    if (!seenPair.has(src + ' ' + tgt)) {
+      seenPair.add(src + ' ' + tgt);
+      parents.get(src).push(tgt);
+      children.get(tgt).push(src);
+    }
+    edgeFor.set(src + ' ' + tgt, o.id);
+  }
+
+  const roots = new Set();
+  const expandable = new Set();
+  for (const o of model.objects) {
+    if (parents.get(o.id).length === 0) roots.add(o.id);
+    if (children.get(o.id).length > 0) expandable.add(o.id);
+  }
+
+  const order = {
+    kind,
+    parents,
+    children,
+    roots,
+    expandable,
+    edgeFor,
+    model,
+    _descendants: new Map(),
+  };
+  buildAncestors(order);
+  model._orders.set(kind, order);
+  return order;
+}
+
+/**
+ * Fill in `order.ancestors` (id -> all strict ancestors) and
+ * `order.expandableAncestors` (the same list, filtered), in a single
+ * topological sweep over the parent relation.  Every object's chain is then a
+ * map lookup rather than a walk, which is what makes `normalizeExpanded`,
+ * `expand` and `visibleSet` linear.
+ *
+ * The collapse kind is constrained `acyclic`, but a broken snapshot can still
+ * contain a cycle.  Those ids are collected in `order.cyclic` and fall back to
+ * a guarded walk; nothing derived from them is cached anywhere else.
+ */
+function buildAncestors(order) {
+  const { parents, children } = order;
+  const ancestors = new Map();
+  const expandableAncestors = new Map();
+
+  // Kahn over child -> parent: emit an object only once every parent is done,
+  // so its parents' chains are already known when we get to it.
+  const remaining = new Map();
+  const queue = [];
+  for (const [id, ps] of parents) {
+    remaining.set(id, ps.length);
+    if (ps.length === 0) queue.push(id);
+  }
+  let head = 0;
+  while (head < queue.length) {
+    const id = queue[head];
+    head += 1;
+    const ps = parents.get(id);
+    if (ps.length === 0) {
+      ancestors.set(id, []);
+      expandableAncestors.set(id, []);
+    } else {
+      const acc = new Set();
+      for (const p of ps) {
+        acc.add(p);
+        for (const a of ancestors.get(p) || []) acc.add(a);
+      }
+      const list = [...acc];
+      ancestors.set(id, list);
+      expandableAncestors.set(id, list.filter((x) => order.expandable.has(x)));
+    }
+    for (const c of children.get(id)) {
+      const n = remaining.get(c) - 1;
+      remaining.set(c, n);
+      if (n === 0) queue.push(c);
+    }
+  }
+
+  const cyclic = new Set();
+  if (queue.length !== parents.size) {
+    for (const id of parents.keys()) if (!ancestors.has(id)) cyclic.add(id);
+    for (const id of cyclic) {
+      const list = walkAncestors(order, id);
+      ancestors.set(id, list);
+      expandableAncestors.set(id, list.filter((x) => order.expandable.has(x)));
+    }
+  }
+
+  order.ancestors = ancestors;
+  order.expandableAncestors = expandableAncestors;
+  order.cyclic = cyclic;
+}
+
+/** The breadth-first ancestor walk, for the ids a cycle kept out of the sweep. */
+function walkAncestors(order, id) {
+  const out = [];
+  const seen = new Set([id]);
+  let frontier = order.parents.get(id) || [];
+  while (frontier.length) {
+    const next = [];
+    for (const p of frontier) {
+      if (seen.has(p)) continue;
+      seen.add(p);
+      out.push(p);
+      for (const q of order.parents.get(p) || []) if (!seen.has(q)) next.push(q);
+    }
+    frontier = next;
+  }
+  return out;
+}
+
+export function parentsOf(order, id) {
+  return order.parents.get(id) || [];
+}
+
+export function childrenOf(order, id) {
+  return order.children.get(id) || [];
+}
+
+/**
+ * All strict ancestors of `id` in the collapse order, nearest first-ish.
+ * Precomputed by `collapseOrder`, so this is a map lookup.  Treat the result as
+ * read-only: it is the order's own array.
+ */
+export function ancestorsOf(order, id) {
+  const a = order.ancestors && order.ancestors.get(id);
+  if (a) return a;
+  return order.parents.has(id) ? walkAncestors(order, id) : [];
+}
+
+/** The ancestors of `id` that have children of their own. */
+export function expandableAncestorsOf(order, id) {
+  const a = order.expandableAncestors && order.expandableAncestors.get(id);
+  if (a) return a;
+  return ancestorsOf(order, id).filter((x) => order.expandable.has(x));
+}
+
+/** All strict descendants of `id`, memoised on the order. */
+export function descendantsOf(order, id) {
+  const memo = order._descendants;
+  if (memo && memo.has(id)) return memo.get(id);
+  const out = [];
+  const seen = new Set([id]);
+  const stack = childrenOf(order, id).slice();
+  while (stack.length) {
+    const c = stack.pop();
+    if (seen.has(c)) continue;
+    seen.add(c);
+    out.push(c);
+    for (const g of childrenOf(order, c)) if (!seen.has(g)) stack.push(g);
+  }
+  if (memo) memo.set(id, out);
+  return out;
+}
+
+/**
+ * Chains of ancestors from `id` up to a root, for "position in the collapse
+ * order" on the object page.  One chain per branch, at most `limit` chains.
+ */
+export function ancestorChains(order, id, limit = 8) {
+  const chains = [];
+  const walk = (cur, acc) => {
+    if (chains.length >= limit) return;
+    const ps = parentsOf(order, cur);
+    if (ps.length === 0) {
+      chains.push(acc.slice().reverse());
+      return;
+    }
+    for (const p of ps) {
+      if (acc.includes(p)) continue; // defensive: cycle
+      walk(p, acc.concat([p]));
+    }
+  };
+  walk(id, []);
+  return chains;
+}
+
+// ---------------------------------------------------------------------------
+// 3. Views (DESIGN 3)
+// ---------------------------------------------------------------------------
+
+/**
+ * Upward-close a set of expanded ids and drop ids that cannot be expanded
+ * (they have no K-children) or do not exist.
+ */
+export function normalizeExpanded(order, ids) {
+  const out = new Set();
+  for (const id of ids || []) {
+    if (!order.expandable.has(id)) continue;
+    out.add(id);
+    for (const a of expandableAncestorsOf(order, id)) out.add(a);
+  }
+  return out;
+}
+
+/**
+ * Visible objects: not expanded, and either a K-root or with some K-parent
+ * expanded.  Objects outside the K-relation entirely are roots, hence visible.
+ */
+export function visibleSet(order, expanded) {
+  const vis = new Set();
+  for (const id of order.parents.keys()) {
+    if (expanded.has(id)) continue;
+    const ps = parentsOf(order, id);
+    if (ps.length === 0) {
+      vis.add(id);
+      continue;
+    }
+    for (const p of ps) {
+      if (expanded.has(p)) {
+        vis.add(id);
+        break;
+      }
+    }
+  }
+  return vis;
+}
+
+/** Expand a single object (keeping X upward closed). */
+export function expand(order, expanded, id) {
+  if (!order.expandable.has(id)) return new Set(expanded);
+  const next = new Set(expanded);
+  next.add(id);
+  for (const a of expandableAncestorsOf(order, id)) next.add(a);
+  return next;
+}
+
+/**
+ * Collapse an object: remove it and everything below it from X, which keeps X
+ * upward closed.
+ */
+export function collapse(order, expanded, id) {
+  const next = new Set(expanded);
+  next.delete(id);
+  for (const d of descendantsOf(order, id)) next.delete(d);
+  return next;
+}
+
+export function expandAll(order) {
+  return new Set(order.expandable);
+}
+
+export function collapseAll() {
+  return new Set();
+}
+
+/**
+ * A view bundles the order, the expanded set, the visible set and a memoised
+ * `rep`.  Treat it as immutable: expand/collapse produce a new one.
+ */
+export function makeView(model, kind, expandedIds = []) {
+  const order = collapseOrder(model, kind);
+  const expanded = normalizeExpanded(order, expandedIds);
+
+  // The normalised expanded set *is* the identity of a view, so it is also the
+  // cache key: collapsing and re-expanding lands back on the same view object,
+  // and no expand or collapse can ever return a view that was built for a
+  // different expanded set.
+  const key = kind + ' ' + [...expanded].sort().join('');
+  const cached = model._views && model._views.get(key);
+  if (cached) return cached;
+
+  const visible = visibleSet(order, expanded);
+  const repCache = new Map();
+  const EMPTY = new Set();
+
+  // rep(id): the visible objects that stand for `id`.  Walks up the collapse
+  // order from a hidden object; memoised, and bounded by the depth of the
+  // hierarchy rather than by its size.
+  function rep(id, onPath) {
+    const hit = repCache.get(id);
+    if (hit) return hit;
+    if (visible.has(id)) {
+      const s = new Set([id]);
+      repCache.set(id, s);
+      return s;
+    }
+    const parents = parentsOf(order, id);
+    if (parents.length === 0) return EMPTY;
+    // Only a snapshot with a cycle in the collapse kind can revisit an id, and
+    // then the answer depends on where the walk started, so it is not cached.
+    const cyclic = order.cyclic && order.cyclic.has(id);
+    if (cyclic) {
+      const seen = onPath || new Set();
+      if (seen.has(id)) return EMPTY;
+      seen.add(id);
+      const out = new Set();
+      for (const p of parents) for (const r of rep(p, seen)) out.add(r);
+      seen.delete(id);
+      return out;
+    }
+    const out = new Set();
+    for (const p of parents) for (const r of rep(p, onPath)) out.add(r);
+    repCache.set(id, out);
+    return out;
+  }
+
+  const view = {
+    model,
+    kind,
+    order,
+    expanded,
+    visible,
+    rep: (id) => rep(id),
+    isVisible: (id) => visible.has(id),
+    isExpanded: (id) => expanded.has(id),
+    isExpandable: (id) => order.expandable.has(id),
+    with: (ids) => makeView(model, kind, ids),
+    expand: (id) => makeView(model, kind, expand(order, expanded, id)),
+    collapse: (id) => makeView(model, kind, collapse(order, expanded, id)),
+    expandAll: () => makeView(model, kind, expandAll(order)),
+    collapseAll: () => makeView(model, kind, collapseAll()),
+    _quotients: new Map(),
+  };
+  if (model._views) cachePut(model._views, key, view, VIEW_CACHE_LIMIT);
+  return view;
+}
+
+// ---------------------------------------------------------------------------
+// 4. The quotient (DESIGN 3, display rule + consistency)
+// ---------------------------------------------------------------------------
+
+const SEP = ' ';
+
+export function pairKey(s, t, kind) {
+  return s + SEP + t + SEP + kind;
+}
+
+export function undirectedKey(a, b, kind) {
+  return (a < b ? a + SEP + b : b + SEP + a) + SEP + kind + SEP + 'u';
+}
+
+/**
+ * The three consistency states of DESIGN 3.  Fix a collapse kind K and an edge
+ * kind E; for visible objects s and t an E-edge s -> t is
+ *   *declared* when some E-object has both ends visible and equal to s and t,
+ *   *derived*  when some E-object whose ends are not both visible has
+ *              representative sets s and t.
+ *   declared &&  derived -> 'both'          (consistent)
+ *   declared && !derived -> 'declared-only' (planned, not elaborated)
+ *  !declared &&  derived -> 'derived-only'  (detail the coarse story omits)
+ */
+export function consistencyState(declared, derived) {
+  if (declared && derived) return 'both';
+  if (declared) return 'declared-only';
+  if (derived) return 'derived-only';
+  return null;
+}
+
+/**
+ * Compute the drawn quotient of a view.
+ *
+ * Display rule.  For every object `o` with a nonempty boundary let
+ * `R = union of rep(b)` over the boundary objects `b`.
+ *   |R| >= 2  ->  `o` is drawn as an arc or a junction among R
+ *   |R| == 1  ->  `o` is internal to that element and is hidden
+ *   |R| == 0  ->  every end is inside an expanded container; nothing to draw
+ *
+ * Returns
+ *   items        one entry per drawn object, faithful to the display rule
+ *   edges        the grouped drawing list used by graph.js: binary items with
+ *                the same (src, tgt, kind) share one arc, and derived-only
+ *                relations carried by junctions get a synthetic dashed arc
+ *   internal     visibleId -> [objectId] for |R| == 1 (prose is attributed there)
+ *   consistency  pairKey -> { s, t, kind, declared: [], derived: [], state }
+ */
+export function quotient(view, options = {}) {
+  const model = view.model;
+  const excludeKinds = new Set(options.excludeKinds || []);
+  const includeCollapseKind = options.includeCollapseKind === true;
+  if (!includeCollapseKind) excludeKinds.add(view.kind);
+
+  // Memoised per view.  The view is immutable and identified by its expanded
+  // set, so the only other thing the answer depends on is the options; both go
+  // into the key.
+  const cacheKey = [...excludeKinds].sort().join('');
+  if (view._quotients) {
+    const hit = view._quotients.get(cacheKey);
+    if (hit) return hit;
+  }
+
+  const items = [];
+  const internal = new Map(); // visible id -> [object id]
+  const dropped = []; // |R| == 0
+  const consistency = new Map();
+
+  const bump = (s, t, kind, which, objectId) => {
+    const key = pairKey(s, t, kind);
+    let rec = consistency.get(key);
+    if (!rec) {
+      rec = {
+        key,
+        s,
+        t,
+        kind,
+        declared: [],
+        derived: [],
+        state: null,
+        // `elaborable` is true when at least one end still has finer structure
+        // under K.  A declared edge between two K-leaves cannot be witnessed by
+        // anything finer, so "declared but not derived" is not interesting
+        // there; the `unwitnessed-edge` lint and the hollow arrow head are for
+        // the elaborable case.
+        elaborable: view.order.expandable.has(s) || view.order.expandable.has(t),
+      };
+      consistency.set(key, rec);
+    }
+    rec[which].push(objectId);
+  };
+
+  for (const o of model.objects) {
+    if (o.boundary.length === 0) continue;
+    if (excludeKinds.has(o.kind)) continue;
+
+    // R, with the roles that reach each element.
+    const endRoles = new Map();
+    for (const b of o.boundary) {
+      for (const r of view.rep(b.id)) {
+        if (!endRoles.has(r)) endRoles.set(r, []);
+        const roles = endRoles.get(r);
+        if (!roles.includes(b.role)) roles.push(b.role);
+      }
+    }
+
+    if (endRoles.size === 0) {
+      dropped.push(o.id);
+    } else if (endRoles.size === 1) {
+      const only = endRoles.keys().next().value;
+      if (!internal.has(only)) internal.set(only, []);
+      internal.get(only).push(o.id);
+    } else {
+      const ends = [];
+      for (const [id, roles] of endRoles) ends.push({ id, roles });
+      items.push({
+        id: o.id,
+        object: o,
+        kind: o.kind,
+        ends,
+        visible: view.isVisible(o.id),
+        junction: false, // filled in below
+        orientation: orientationOf(ends),
+        state: null,
+      });
+    }
+
+    // Consistency bookkeeping for ordinary directed edges (DESIGN 3).
+    //
+    // An E-edge s -> t is *declared* when some E-object has both of its ends
+    // visible and equal to s and t, and *derived* when some E-object whose ends
+    // are not both visible has representative sets s and t.  Whether the edge
+    // object itself is expanded, visible, or a K-root is irrelevant: what
+    // matters is whether the coarse story names the pair outright or only
+    // reaches it through the quotient.
+    if (isBinaryKind(model, o.kind)) {
+      const a = boundaryEntry(o, 'src');
+      const b = boundaryEntry(o, 'tgt');
+      if (a != null && b != null) {
+        if (view.isVisible(a) && view.isVisible(b)) {
+          if (a !== b) bump(a, b, o.kind, 'declared', o.id);
+        } else {
+          for (const s of view.rep(a)) {
+            for (const t of view.rep(b)) {
+              if (s === t) continue;
+              bump(s, t, o.kind, 'derived', o.id);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  for (const rec of consistency.values()) {
+    rec.state = consistencyState(rec.declared.length > 0, rec.derived.length > 0);
+  }
+
+  // A drawn object that is itself an end of another drawn object must become a
+  // junction node so the higher object has something to attach to.
+  const usedAsEnd = new Set();
+  for (const it of items) for (const e of it.ends) usedAsEnd.add(e.id);
+  for (const it of items) {
+    it.junction = !it.orientation || usedAsEnd.has(it.id);
+  }
+
+  // --- grouped drawing list -------------------------------------------------
+  const edges = [];
+  const groups = new Map();
+  for (const it of items) {
+    if (it.junction) {
+      edges.push({
+        type: 'junction',
+        id: 'j:' + it.id,
+        kind: it.kind,
+        ends: it.ends,
+        members: [it],
+        state: null,
+        synthetic: false,
+      });
+      continue;
+    }
+    const o = it.orientation;
+    const key = o.directed
+      ? pairKey(o.src, o.tgt, it.kind)
+      : undirectedKey(o.a, o.b, it.kind);
+    let g = groups.get(key);
+    if (!g) {
+      g = {
+        type: 'edge',
+        id: 'e:' + key,
+        kind: it.kind,
+        directed: o.directed,
+        src: o.directed ? o.src : o.a,
+        tgt: o.directed ? o.tgt : o.b,
+        members: [],
+        state: null,
+        synthetic: false,
+      };
+      groups.set(key, g);
+      edges.push(g);
+    }
+    g.members.push(it);
+  }
+
+  // Attach consistency states and synthesise the derived-only arcs that are
+  // not already carried by a grouped item (they belong to junction items).
+  for (const g of groups.values()) {
+    if (!g.directed) continue;
+    const rec = consistency.get(pairKey(g.src, g.tgt, g.kind));
+    if (rec) {
+      g.state = rec.state;
+      g.elaborable = rec.elaborable;
+      g.consistency = rec;
+      for (const m of g.members) m.state = rec.state;
+    }
+  }
+  for (const rec of consistency.values()) {
+    if (rec.state !== 'derived-only') continue;
+    const key = pairKey(rec.s, rec.t, rec.kind);
+    if (groups.has(key)) continue;
+    edges.push({
+      type: 'edge',
+      id: 'd:' + key,
+      kind: rec.kind,
+      directed: true,
+      src: rec.s,
+      tgt: rec.t,
+      members: [],
+      state: 'derived-only',
+      elaborable: rec.elaborable,
+      consistency: rec,
+      synthetic: true,
+    });
+  }
+
+  const result = { view, items, edges, internal, dropped, consistency };
+  if (view._quotients) cachePut(view._quotients, cacheKey, result, 8);
+  return result;
+}
+
+/**
+ * How to draw a set of ends as a plain arc, or null when it needs a junction.
+ * Exactly two ends, carrying either src/tgt disjointly, or no src/tgt at all.
+ */
+function orientationOf(ends) {
+  if (ends.length !== 2) return null;
+  const src = ends.filter((e) => e.roles.includes('src'));
+  const tgt = ends.filter((e) => e.roles.includes('tgt'));
+  if (src.length === 1 && tgt.length === 1 && src[0].id !== tgt[0].id &&
+      src[0].roles.length === 1 && tgt[0].roles.length === 1) {
+    return { directed: true, src: src[0].id, tgt: tgt[0].id };
+  }
+  if (src.length === 0 && tgt.length === 0) {
+    const [a, b] = ends.map((e) => e.id).sort();
+    return { directed: false, a, b };
+  }
+  return null;
+}
+
+/** Visible objects with an empty boundary — the nodes of the drawn graph. */
+export function visibleNodes(view) {
+  const out = [];
+  for (const id of view.visible) {
+    const o = view.model.byId.get(id);
+    if (o && o.boundary.length === 0) out.push(o);
+  }
+  return out;
+}
+
+// ---------------------------------------------------------------------------
+// 5. Reading order (DESIGN 6: "a blueprint still reads as a paper")
+// ---------------------------------------------------------------------------
+
+function orderKey(model, id) {
+  const o = model.byId.get(id);
+  const ord = o && o.attrs ? o.attrs.order : undefined;
+  const n = typeof ord === 'number' ? ord : Number.POSITIVE_INFINITY;
+  return [n, id];
+}
+
+function compareIds(model, a, b) {
+  const ka = orderKey(model, a);
+  const kb = orderKey(model, b);
+  if (ka[0] !== kb[0]) return ka[0] - kb[0];
+  return ka[1] < kb[1] ? -1 : ka[1] > kb[1] ? 1 : 0;
+}
+
+/**
+ * The linear document: roots of the collapse order sorted by `order` then id,
+ * recursively through their children.  Objects with several parents appear
+ * under each, the later occurrences flagged `duplicate`.
+ */
+export function readingOrder(model, kind) {
+  const order = collapseOrder(model, kind);
+  const seen = new Set();
+  const out = [];
+
+  const roots = [...order.roots].sort((a, b) => compareIds(model, a, b));
+
+  const walk = (id, depth, path) => {
+    const duplicate = seen.has(id);
+    seen.add(id);
+    out.push({ id, object: model.byId.get(id), depth, duplicate });
+    if (duplicate) return; // do not repeat a whole subtree
+    const kids = childrenOf(order, id)
+      .slice()
+      .sort((a, b) => compareIds(model, a, b));
+    for (const c of kids) {
+      if (path.includes(c)) continue; // defensive
+      walk(c, depth + 1, path.concat([id]));
+    }
+  };
+
+  for (const r of roots) walk(r, 0, []);
+  return out;
+}
+
+/** Top-level objects of the collapse order, in document order. */
+export function topLevel(model, kind) {
+  const order = collapseOrder(model, kind);
+  return [...order.roots].sort((a, b) => compareIds(model, a, b)).map((id) => model.byId.get(id));
+}
+
+// ---------------------------------------------------------------------------
+// 6. Search and aggregates
+// ---------------------------------------------------------------------------
+
+/**
+ * Substring search over id, title and body.  Returns objects ranked by where
+ * the match was found.  Empty query returns [].
+ */
+export function search(model, query, limit = 200) {
+  const q = (query || '').trim().toLowerCase();
+  if (!q) return [];
+  const hits = [];
+  for (const row of searchIndex(model)) {
+    let score = 0;
+    if (row.id === q || row.title === q) score = 100;
+    else if (row.id.includes(q)) score = 60;
+    else if (row.title.includes(q)) score = 50;
+    else if (row.body.includes(q)) score = 20;
+    if (score > 0) hits.push({ object: row.object, score });
+  }
+  hits.sort((a, b) => b.score - a.score || (a.object.id < b.object.id ? -1 : 1));
+  return hits.slice(0, limit);
+}
+
+/**
+ * The lowercase haystack, built once per model.  Lowercasing a few thousand
+ * bodies takes long enough to be felt between keystrokes; doing it per search
+ * was the whole cost of searching.
+ */
+function searchIndex(model) {
+  if (!model._search) {
+    model._search = model.objects.map((o) => ({
+      object: o,
+      id: o.id.toLowerCase(),
+      title: titleOf(o).toLowerCase(),
+      body: (o.body || '').toLowerCase(),
+    }));
+  }
+  return model._search;
+}
+
+/**
+ * Ids matching a query, as a Set — used to highlight graph nodes.  The graph
+ * asks for the same query more than once per keystroke (once while typing, once
+ * when the route settles), so the answer is memoised per query string.
+ */
+export function searchIds(model, query) {
+  const q = (query || '').trim().toLowerCase();
+  if (!q) return new Set();
+  if (model._searchHits) {
+    const hit = model._searchHits.get(q);
+    if (hit) return hit;
+  }
+  const ids = new Set(search(model, q).map((h) => h.object.id));
+  if (model._searchHits) cachePut(model._searchHits, q, ids, SEARCH_CACHE_LIMIT);
+  return ids;
+}
+
+/** Count of objects per derived status, over countable kinds only. */
+export function statusCounts(model) {
+  const counts = Object.create(null);
+  for (const s of STATUSES) counts[s] = 0;
+  let total = 0;
+  for (const o of model.objects) {
+    const k = model.kinds[o.kind];
+    if (!k || !k.countable) continue;
+    const s = statusOf(model, o.id) || 'absent';
+    if (!(s in counts)) counts[s] = 0;
+    counts[s] += 1;
+    total += 1;
+  }
+  return { counts, total };
+}
+
+/** Checks mentioning an object. */
+export function checksFor(model, id) {
+  return model.checks.filter((c) => Array.isArray(c.objects) && c.objects.includes(id));
+}
+
+export function checksByLevel(model) {
+  const out = new Map();
+  for (const lv of CHECK_LEVELS) out.set(lv, []);
+  for (const c of model.checks) {
+    const lv = CHECK_LEVELS.includes(c.level) ? c.level : 'info';
+    if (!out.has(lv)) out.set(lv, []);
+    out.get(lv).push(c);
+  }
+  return out;
+}
+
+/** Lean facts for the names an object declares, as [{name, fact|null}]. */
+export function leanFactsFor(model, object) {
+  const names = object && object.attrs ? object.attrs.lean : null;
+  const list = Array.isArray(names) ? names : typeof names === 'string' ? [names] : [];
+  return list.map((name) => ({ name, fact: model.facts ? model.facts[name] || null : null }));
+}
+
+/** `[slug]` links in a body, as a list of slugs (duplicates removed). */
+export function bodyLinks(body) {
+  const out = [];
+  const re = /\[([A-Za-z0-9][A-Za-z0-9._~/-]*)\](?!\()/g;
+  let m;
+  while ((m = re.exec(body || '')) !== null) {
+    if (!out.includes(m[1])) out.push(m[1]);
+  }
+  return out;
+}

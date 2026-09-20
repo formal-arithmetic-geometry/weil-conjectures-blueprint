@@ -1,0 +1,8 @@
+{"snapshots":
+ [{"summary":
+   {"total": 891,
+    "proved": 353,
+    "byStatus": {"stated": 1, "proved": 353, "missing": 1, "absent": 536}},
+   "sha": "25eb624e3ccac1aceb0266a8eaef25fa6e3e1163",
+   "file": "data/25eb624e3ccac1aceb0266a8eaef25fa6e3e1163.json",
+   "date": "2026-09-20"}]}
