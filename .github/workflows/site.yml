@@ -93,8 +93,15 @@ jobs:
         continue-on-error: true
         run: lake exe blueprint check --root . --lean
 
+      # `build` writes the snapshot even when error-level checks fire and then
+      # exits 1, so that a local run notices; here the checks page carries the
+      # findings and a missing Lean name must not keep the site from updating.
       - name: Build the snapshot
+        continue-on-error: true
         run: lake exe blueprint build --root . --facts lean-facts.json -o snapshot.json
+
+      - name: The snapshot must exist, whatever the checks said
+        run: test -s snapshot.json
 
       # The history the time slider reads is whatever the `site` branch already
       # serves as data/; every snapshot ever published stays in the index.
