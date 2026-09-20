@@ -72,11 +72,14 @@ jobs:
           lint: false
           use-mathlib-cache: true
 
-      # `-j3` rather than one job per vCPU: the algebraic-geometry files here
-      # peak at a few GiB each, and four of them at once exhausted the runner
-      # VM (Lean exited with code 137). Wall time matters less than finishing.
+      # Three concurrent jobs rather than one per vCPU: the algebraic-geometry
+      # files here peak at a few GiB each, and four at once exhausted the
+      # runner VM (Lean exited with code 137). This Lake has no jobs flag; its
+      # scheduler runs on Lean's thread pool, which this variable sizes.
       - name: Build the project and the blueprint tool
-        run: lake build -j3 weil-conjectures/WeilConjectures blueprint/blueprint
+        env:
+          LEAN_NUM_THREADS: "3"
+        run: lake build weil-conjectures/WeilConjectures blueprint/blueprint
 
       # Proof status and the actual dependency graph, read out of the oleans.
       # Modules come from `[lean] modules` in blueprint.toml.
