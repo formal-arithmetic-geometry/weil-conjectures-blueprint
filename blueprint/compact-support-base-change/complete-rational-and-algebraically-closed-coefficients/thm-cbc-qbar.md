@@ -1,7 +1,7 @@
 +++
 id = "thm-cbc-qbar"
 kind = "theorem"
-title = "$\Qlb$ compact-support base change"
+title = "$\\Qlb$ compact-support base change"
 order = 6627
 lean = ["AlgebraicGeometry.Proetale.compactSupportExchange_isIso_qlBar"]
 uses = ["thm-cbc-finite-extension", "lem-cbc-extension-zero-projection-formula"]
