@@ -1,7 +1,7 @@
 +++
 id = "lem-kun-0F0C"
 kind = "lemma"
-title = "Proper base change with $\mathbf Z/n\mathbf Z$-coefficients"
+title = "Proper base change with $\\mathbf Z/n\\mathbf Z$-coefficients"
 order = 6102
 lean = ["AlgebraicGeometry.Etale.IsProper.unboundedExchange_isIso"]
 uses = ["def-kun-unbounded-exchange", "lem-kun-hocolim-truncations", "lem-kun-0F10", "lem-kun-0F11", "def-kun-truncations", "def-kun-cd", "lem-kun-unbounded-exchange-natural"]

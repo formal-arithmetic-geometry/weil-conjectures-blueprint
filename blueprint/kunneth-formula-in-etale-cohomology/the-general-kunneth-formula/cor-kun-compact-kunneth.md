@@ -1,7 +1,7 @@
 +++
 id = "cor-kun-compact-kunneth"
 kind = "theorem"
-title = "K\"unneth formula for compactly supported cohomology"
+title = "Künneth formula for compactly supported cohomology"
 order = 6159
 lean = ["AlgebraicGeometry.Etale.kunnethMap_compactSupport_isIso"]
 tags = ["latex:corollary"]

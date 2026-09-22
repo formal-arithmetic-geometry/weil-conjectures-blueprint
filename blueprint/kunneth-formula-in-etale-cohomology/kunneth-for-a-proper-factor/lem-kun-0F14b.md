@@ -1,7 +1,7 @@
 +++
 id = "lem-kun-0F14b"
 kind = "lemma"
-title = "Kunneth formula, one proper factor, $\mathbf Z/n\mathbf Z$-coefficients"
+title = "Kunneth formula, one proper factor, $\\mathbf Z/n\\mathbf Z$-coefficients"
 order = 6139
 lean = ["AlgebraicGeometry.Etale.kunnethMap_isIso_of_properFactor_zmod"]
 uses = ["def-kun-separably-closed", "def-kun-kunneth-map", "lem-kun-0F0C", "lem-kun-0F0G", "lem-kun-0F10", "lem-kun-0F12", "lem-kun-0F14a", "lem-kun-cd-sep-closed-point", "lem-kun-kunneth-map-agrees", "lem-kun-leray-unbdd", "lem-kun-proper-stability", "lem-kun-pullback-constant", "lem-kun-tensor-sym", "lem-kun-tensor-unit"]

@@ -1,7 +1,7 @@
 +++
 id = "lem-kun-0F0E"
 kind = "lemma"
-title = "Tensor with a constant complex over $\mathbf Z$"
+title = "Tensor with a constant complex over $\\mathbf Z$"
 order = 6100
 lean = ["AlgebraicGeometry.Etale.RGamma_tensor_constant_Z_iso"]
 uses = ["def-kun-constant-sheaf", "def-kun-derived-tensor", "def-kun-truncations"]
