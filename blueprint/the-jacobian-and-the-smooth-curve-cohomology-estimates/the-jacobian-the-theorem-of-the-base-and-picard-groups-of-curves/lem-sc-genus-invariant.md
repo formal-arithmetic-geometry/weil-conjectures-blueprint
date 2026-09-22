@@ -1,0 +1,29 @@
++++
+id = "lem-sc-genus-invariant"
+kind = "lemma"
+title = "The genus is invariant under extension"
+order = 4508
+lean = ["AlgebraicGeometry.Curve.genus_baseChange"]
+uses = ["thm-sc-jacobian-representability", "def-sc-jacobian"]
++++
+Let $C$ be a proper smooth curve over $k$ and let $k\subseteq k'$ be
+algebraically closed. Then
+$$
+g(C_{k'})=g(C),
+$$
+compatibly with the Jacobian [def-sc-jacobian] of
+[thm-sc-jacobian-representability] (i.e. $J_{C_{k'}}\cong(J_C)_{k'}$, and
+the identifications of [def-sc-jacobian] are compatible with base change).
+
+## Proof
+
+By definition $g(C)=\dim_kH^1(C,\mathcal O_C)$, and by flat base change for
+coherent cohomology applied to $\mathcal F=\mathcal O_C$ and the flat
+extension $k\to k'$,
+$$
+\dim_{k'}H^1(C_{k'},\mathcal O_{C_{k'}})=\dim_kH^1(C,\mathcal O_C),
+$$
+i.e. $g(C_{k'})=g(C)$. The Jacobian compatibility is the base-change
+statement of [thm-sc-jacobian-representability].
+
+Unresolved dependencies: def:sc-curves, def:sc-genus, lem:sc-flat-base-change-coherent

@@ -1,0 +1,72 @@
++++
+id = "thm-sc-jacobian-representability"
+kind = "theorem"
+title = "The Jacobian over a separably closed field"
+order = 4504
+lean = ["AlgebraicGeometry.Curve.jacobian"]
+uses = ["lem-sc-pic-tangent-space", "thm-sc-theorem-of-the-base", "rem-sc-jacobian-scope"]
++++
+Let $k$ be a separably closed field and let $C$ be a smooth projective curve
+over $k$ which is geometrically integral, of genus
+$g=g(C)=\dim_kH^1(C,\mathcal O_C)$. There is an abelian variety $J_C$ over
+$k$, the *Jacobian* of $C$, of dimension $g$, together with a natural
+isomorphism of group-valued functors
+$$
+\operatorname{Pic}^0_{C/k}\cong h_{J_C},
+$$
+where $\operatorname{Pic}^0_{C/k}$ is the degree-zero part of the Picard
+functor; its $k$-points are the invertible modules of degree $0$ on $C$, and
+for algebraically closed $k$ they are $\operatorname{Pic}^0(C)$, so that
+$\operatorname{Pic}^0(C)=J_C(k)$ canonically in that case. Moreover $J_C$ is
+compatible with base change along extensions of separably closed fields:
+$J_{C_{k'}}\cong(J_C)_{k'}$ for $k\subseteq k'$ separably closed. The scope
+of this result, and the case of a general ground field, are discussed in
+[rem-sc-jacobian-scope].
+
+## Proof
+
+The representability theorem of the Picard chapter — the Picard functor of a
+smooth projective curve over a separably closed field is representable, with
+the full decomposition carried out there (*reference: Stacks Project, Picard
+Schemes of Curves, Proposition 44.6.6, [Tag
+0B9Z](https://stacks.math.columbia.edu/tag/0B9Z)*); cf. Mumford, *Abelian
+Varieties*; Milne, *Abelian Varieties*, Ch. 12. We outline the classical
+construction; the existence and property statements are theorems of the
+sources above.
+
+*(1) The Picard functor.* $\operatorname{Pic}_{C/k}$ and
+$\operatorname{Pic}^0_{C/k}\subseteq\operatorname{Pic}_{C/k}$ are as in the
+curve-calculation chapter; for $k$ algebraically closed,
+$\operatorname{Pic}^0_{C/k}(k)=\operatorname{Pic}^0(C)$.
+
+*(2) Representability.* Grothendieck's theorem states that
+$\operatorname{Pic}_{C/k}$ is represented by a group scheme locally of
+finite type over $k$ (the representability theorem of the Picard chapter).
+The subfunctor $\operatorname{Pic}^0_{C/k}$ is represented by an open and
+closed subgroup scheme.
+
+*(3) Smoothness and the tangent space.* By [lem-sc-pic-tangent-space], the
+tangent space of $\operatorname{Pic}_{C/k}$ at the identity is
+$H^1(C,\mathcal O_C)$, of dimension $g$; by
+[thm-sc-theorem-of-the-base], $\operatorname{Pic}_{C/k}$ is a disjoint union
+of smooth varieties of dimension $g$.
+
+*(4) Properness.* $\operatorname{Pic}^0_{C/k}$ is proper by
+[thm-sc-theorem-of-the-base] (the "theorem of the base").
+
+*(5) Abelian variety and base change.* By (2)–(4),
+$J_C:=\operatorname{Pic}^0_{C/k}$ is a proper smooth connected group scheme,
+i.e. an abelian variety, of dimension $g$. For $k$ algebraically closed,
+$J_C(k)=\operatorname{Pic}^0(C)$ by representability, and base-change
+compatibility $J_{C_{k'}}\cong(J_C)_{k'}$ holds because the Picard functor
+commutes with base change. Finally, $J_C$ is projective by the
+projectivity lemma for abelian varieties.
+
+The hypothesis that $k$ is separably closed enters this proof exactly as in
+the Picard chapter: it is what produces a $k$-rational point of $C$, from
+which the representability theorem of that chapter deduces the fppf sheaf
+property of the naive Picard presheaf and hence representability. For a
+curve over a general ground field the conclusion is not asserted in this
+blueprint; see [rem-sc-jacobian-scope].
+
+Unresolved dependencies: def:pc-smooth-projective-curve, def:pc-geometrically-irreducible, def:pc-genus, def:sc-picard-functor, def:sc-pic0, def:sc-abelian-variety, thm:pc-picard-representable, lem:sc-abelian-variety-projective

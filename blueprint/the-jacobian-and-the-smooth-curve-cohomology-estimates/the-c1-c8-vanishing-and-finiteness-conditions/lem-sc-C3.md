@@ -1,0 +1,22 @@
++++
+id = "lem-sc-C3"
+kind = "lemma"
+title = "C3: vanishing of $p$-primary torsion"
+order = 4544
+lean = ["AlgebraicGeometry.Curve.C3_constant"]
+uses = ["def-weil-pbc-eight-curve-assertions", "lem-sc-artin-schreier-dimension"]
++++
+Let $k$ be algebraically closed with $\operatorname{char}k=p>0$, let $C$ be
+a smooth separated curve over $k$, and let $n=p$. Then the constant sheaf
+$\mathbf F_p$ satisfies $\mathcal C_3(C,\mathbf F_p)$ of [def-weil-pbc-eight-curve-assertions]: for every $q>1$,
+$H^q(C_{\Et},\mathbf F_p)=0$.
+
+## Proof
+
+The sheaf $\mathbf F_p$ is $p$-primary, and
+[lem-sc-artin-schreier-dimension] gives the vanishing for $q>1$: via the
+Artin–Schreier sequence and the Lang–Steinberg surjectivity of $\wp=F-1$,
+the $p$-cohomological dimension of a smooth curve over the algebraically
+closed field $k$ is at most one.
+
+Unresolved dependencies: def:sc-curves, lem:sc-as-sequence, lem:sc-lang-steinberg

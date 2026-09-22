@@ -1,0 +1,46 @@
++++
+id = "thm-sc-affine-cohomology"
+kind = "theorem"
+title = "Kummer computation on an affine curve"
+order = 4539
+lean = ["AlgebraicGeometry.Curve.etaleCohomology_constant_of_isAffine"]
+uses = ["lem-sc-pic-affine", "thm-sc-proper-cohomology", "lem-sc-affine-unit-quotient", "lem-sc-affine-cohomological-dimension"]
++++
+Let $k$ be algebraically closed, let $C$ be a smooth affine curve over $k$,
+and let $n\geq1$ be prime to $\operatorname{char}k$. Then, under the
+canonical trivialization $\theta_\zeta$,
+$$
+H^0(C_{\Et},\mathbf F_n)\cong\mathbf Z/n\mathbf Z,\qquad
+\mathcal O_C(C)^\times/\mathcal O_C(C)^{\times\,n}\text{ is finite},
+$$
+and there is a canonical short exact sequence
+$$
+0\longrightarrow\mathcal O_C(C)^\times/\mathcal O_C(C)^{\times\,n}
+\longrightarrow H^1(C_{\Et},\mathbf F_n)\longrightarrow
+\operatorname{Pic}(C)[n]\longrightarrow0
+$$
+($\operatorname{Pic}(C)[n]$ finite, by [lem-sc-pic-affine]; the unit term
+vanishes when $\mathcal O_C(C)^\times$ is $n$-divisible, e.g. when
+$C=\mathbf A^1$), and $H^q(C_{\Et},\mathbf F_n)=0$ for all $q>1$.
+
+## Proof
+
+As in the proof of [thm-sc-proper-cohomology], the Kummer sequence together
+with $\operatorname{Pic}(C)=H^1(C,\mathbf G_m)$ and the vanishing
+$H^2(C,\mathbf G_m)=0$ in the affine case give the long exact sequence
+$$
+0\to\mu_n(k)\to\mathcal O_C(C)^\times\xrightarrow{\ n\ }
+\mathcal O_C(C)^\times\to H^1(C,\mu_n)\to
+\operatorname{Pic}(C)\xrightarrow{\ n\ }\operatorname{Pic}(C)\to
+H^2(C,\mu_n)\to0,
+$$
+whence the displayed exact sequence for $H^1(C,\mu_n)$, with
+$H^1(C,\mu_n)$ an extension of $\operatorname{Pic}(C)[n]$ by
+$\mathcal O_C(C)^\times/\mathcal O_C(C)^{\times\,n}$; the $H^2$-cokernel
+vanishes because $\operatorname{Pic}(C)$ is $n$-divisible
+([lem-sc-pic-affine]). The $H^0$-term is
+$\mu_n(k)=\mathbf Z/n\mathbf Z$; for $q>1$ the vanishing is
+[lem-sc-affine-cohomological-dimension]. The finiteness of the unit quotient
+is [lem-sc-affine-unit-quotient].
+
+Unresolved dependencies: def:sc-mu-trivialization, def:sc-curves, def:sc-kummer-sequence, lem:sc-h1-gm-pic, lem:sc-brauer-zero, lem:sc-primitive-root
