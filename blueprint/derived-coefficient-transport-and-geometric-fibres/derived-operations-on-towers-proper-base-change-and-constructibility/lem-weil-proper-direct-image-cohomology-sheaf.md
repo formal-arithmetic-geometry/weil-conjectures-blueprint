@@ -1,7 +1,7 @@
 +++
 id = "lem-weil-proper-direct-image-cohomology-sheaf"
 kind = "lemma"
-title = "Constructibility of the cohomology sheaves of $Rf_*\mathcal H^r(K)$"
+title = "Constructibility of the cohomology sheaves of $Rf_*\\mathcal H^r(K)$"
 order = 6813
 lean = ["AlgebraicGeometry.Proetale.isConstructible_directImage_cohomologySheaf"]
 uses = ["def-weil-small-proetale-site", "prop-weil-proper-direct-image-constructibility"]
