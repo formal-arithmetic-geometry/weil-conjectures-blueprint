@@ -1,0 +1,30 @@
++++
+id = "def-sp-truncation-couple"
+kind = "definition"
+title = "The truncation couple of a bounded-below complex"
+order = 1727
+lean = ["CategoryTheory.truncationCouple"]
+uses = ["def-sp-exact-couple", "def-sp-left-exact-additive", "def-sp-grothendieck-abelian"]
++++
+Let $v:\mathcal A\to\mathcal B$ be left exact and additive
+[def-sp-left-exact-additive] between Grothendieck abelian categories
+[def-sp-grothendieck-abelian], and let $K\in\operatorname{Ch}^+(\mathcal A)$
+be bounded below with $\mathcal H^q(K)=0$ for $q<a$. The *truncation couple*
+of $K$ is the pair of bigraded objects
+
+$$
+ D^{p,q}=\mathcal H^{p+q}\bigl(Rv(\tau_{\leq q}K)\bigr),\qquad
+ E^{p,q}=\mathcal H^{p+q}\bigl(Rv(\mathcal H^q(K)[-q])\bigr),
+$$
+
+obtained from the triangles
+
+$$
+ \tau_{\leq q-1}K\to\tau_{\leq q}K\to\mathcal H^q(K)[-q]\to
+$$
+
+by applying $Rv$ and taking cohomology, with the structure maps $\alpha$,
+$f$, $g$ of bidegrees $(-1,+1)$, $(+2,-1)$, $(0,0)$ as in
+[def-sp-exact-couple] (the map $f:E^{p,q}\to D^{p+2,q-1}$ is the boundary
+$\mathcal H^{p+q}(Rv\mathcal H^q(K)[-q])\to\mathcal H^{p+q+1}(Rv\,\tau_{\le
+q-1}K)$ of the triangle).

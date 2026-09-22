@@ -9,7 +9,11 @@ dir = "blueprint"
 modules = ["WeilConjectures"]
 
 [katex.macros]
+"\\Ab" = "\\mathsf{Ab}"
 "\\AffSch" = "\\operatorname{AffSch}"
+"\\Dplus" = "D^+"
+"\\Et" = "\\mathrm{et}"
+"\\Ex" = "\\operatorname{Ex}"
 "\\Fbar" = "\\overline{\\mathbf F}_q"
 "\\Fq" = "\\mathbf F_q"
 "\\Gal" = "\\operatorname{Gal}"
