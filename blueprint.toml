@@ -10,6 +10,9 @@ modules = ["WeilConjectures"]
 
 [katex.macros]
 "\\AffSch" = "\\operatorname{AffSch}"
+"\\Dplus" = "D^+"
+"\\Et" = "\\mathrm{et}"
+"\\Ex" = "\\operatorname{Ex}"
 "\\Fbar" = "\\overline{\\mathbf F}_q"
 "\\Fq" = "\\mathbf F_q"
 "\\Gal" = "\\operatorname{Gal}"
