@@ -1,0 +1,31 @@
++++
+id = "lem-fin-proper-bounded-constructible"
+kind = "lemma"
+title = "Bounded constructible complexes under a proper direct image"
+order = 5223
+lean = ["AlgebraicGeometry.Etale.mem_Dbc_derivedPushforward_of_isProper"]
+uses = ["sbc-def-coefficient-conventions", "thm-fin-proper-case"]
++++
+Let $b:Y\to S$ be proper between finite-type $k$-schemes, with the finite
+coefficients of [sbc-def-coefficient-conventions]. For an ordinary derived
+complex $K\in\Dbc(Y,\Lambda)$, its derived direct image $Rb_*K$ belongs to
+$\Dbc(S,\Lambda)$.
+
+## Proof
+
+Choose $[a,c]$ containing the cohomological support of $K$, and choose $d$
+bounding the dimensions of the geometric fibres of $b$. Such a $d$ exists
+for a finite-type morphism: a finite affine cover of source and target gives
+finite lists of algebra generators, bounding the fibre dimensions.
+
+The hypercohomology spectral sequence is
+$$
+E_2^{p,q}=R^pb_*\mathcal H^q(K)\Longrightarrow\mathcal H^{p+q}(Rb_*K).
+$$
+By [thm-fin-proper-case], its terms are constructible and zero unless
+$0\leq p\leq2d$ and $a\leq q\leq c$. Every page is constructible by kernels
+and cokernels. The bounded rectangle gives convergence with a finite
+filtration on every abutment. Extensions prove constructibility, and the
+same rectangle makes the abutment zero outside $[a,c+2d]$.
+
+Unresolved dependencies: def:weil-pbc-scheme-conventions, def:weil-pbc-derived-categories, def:weil-pbc-constructible-complexes, def:weil-pbc-direct-image, lem:weil-pbc-constructible-serre, thm:sp-truncation-e2

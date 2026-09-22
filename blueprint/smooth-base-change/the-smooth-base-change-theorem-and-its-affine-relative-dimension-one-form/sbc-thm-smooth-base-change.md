@@ -1,0 +1,68 @@
++++
+id = "sbc-thm-smooth-base-change"
+kind = "theorem"
+title = "Smooth base change"
+order = 5146
+lean = ["AlgebraicGeometry.smooth_base_change"]
+uses = ["sbc-def-base-change-map", "sbc-def-base-change-square", "def-sbc-smooth-morphisms", "sbc-lem-degree-zero-flat-base-change", "sbc-lem-etale-locality", "sbc-thm-etale-local-normal-form", "sbc-lem-base-change-composition", "sbc-lem-rel-dim-one-induction", "sbc-lem-smooth-criterion", "sbc-lem-smooth-geometrically-reduced", "sbc-def-base-change-property"]
++++
+Consider a cartesian diagram of schemes [sbc-def-base-change-square]
+$$
+\begin{array}{ccc}
+X & \xleftarrow{\;h\;} & Y\\
+f\big\downarrow & & \big\downarrow e\\
+S & \xleftarrow{\;g\;} & T
+\end{array}
+$$
+where $f$ is smooth [def-sbc-smooth-morphisms] and $g$ is quasi-compact and
+quasi-separated. Then
+$$
+f^{-1}R^qg_*\mathcal F=R^qh_*e^{-1}\mathcal F
+$$
+for any $q$ and any abelian sheaf $\mathcal F$ on $T_{\Et}$ all of whose
+stalks at geometric points are torsion of orders invertible on $S$, the
+isomorphism being the base-change map of [sbc-def-base-change-map].
+
+(*Stacks Project, Étale Cohomology, Theorem 59.89.2, [Tag
+0EYU](https://stacks.math.columbia.edu/tag/0EYU); this chapter follows the
+second, shorter proof of that theorem.*)
+
+## Proof
+
+The case $q=0$ is [sbc-lem-degree-zero-flat-base-change], since by
+[sbc-lem-smooth-criterion] a smooth morphism is flat of finite presentation
+and by [sbc-lem-smooth-geometrically-reduced] it has geometrically reduced
+fibres. We now assume $q>0$ and the theorem in all degrees $<q$.
+
+*(Filtered torsion.)* For every $n\geq1$ invertible on $S$, let
+$\mathcal F[n]$ be the subsheaf of sections of $\mathcal F$ annihilated by
+$n$; then $\mathcal F=\varinjlim_n\mathcal F[n]$ with $n$ ranging over the
+integers invertible on $S$. Inverse images ($f^{-1}$, $h^{-1}$, $e^{-1}$)
+commute with filtered colimits as left adjoints, and the higher direct
+images $R^qg_*$, $R^qh_*$ commute with filtered colimits (the morphisms $g$,
+$h$ being quasi-compact and quasi-separated), so the assertion for
+$\mathcal F$ reduces to the case of a sheaf $\mathcal F$ annihilated by some
+$n$ invertible on $S$; fix such an $n$.
+
+*(Étale locality and the normal form.)* By [sbc-lem-etale-locality] the
+question is étale-local on $X$ and $S$. By
+[sbc-thm-etale-local-normal-form] we may assume $X$ and $S$ are affine and
+that $X\to S$ factors through an étale morphism $X\to\mathbf A^d_S$. Writing
+$X\to S$ as the composition
+$X\to\mathbf A^{d-1}_S\to\mathbf A^{d-2}_S\to\dots\to\mathbf A^1_S\to S$,
+[sbc-lem-base-change-composition] shows that the theorem need only be proved
+when $X$ and $S$ are affine and $X\to S$ has relative dimension one.
+
+*(The induction step.)* For the affine smooth morphism of relative dimension
+one $f:X\to S$, the induction hypothesis (the theorem in degrees $<q$,
+applied after arbitrary base change) gives $\mathrm{BC}(f,n,q-1)$ in the
+sense of [sbc-def-base-change-property]; [sbc-lem-rel-dim-one-induction]
+then gives $\mathrm{BC}(f,n,q)$, and — a degree-$q$ statement being
+étale-local and stable under composition, by the first two steps — the
+theorem holds in degree $q$ for every smooth $f$, every quasi-compact
+quasi-separated $g$, and every $n$-torsion $\mathcal F$. Running the
+filtered colimit back over the $n$ gives the theorem in degree $q$ for every
+torsion $\mathcal F$ with orders invertible on $S$; induction on $q$
+finishes the proof.
+
+Unresolved dependencies: def:weil-pbc-scheme-conventions, lem:weil-pbc-torsion-filtered-union, lem:weil-pbc-direct-image-filtered-colimit

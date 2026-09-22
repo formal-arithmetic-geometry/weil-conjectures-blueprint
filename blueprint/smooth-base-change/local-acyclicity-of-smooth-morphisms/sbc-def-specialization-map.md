@@ -1,0 +1,18 @@
++++
+id = "sbc-def-specialization-map"
+kind = "definition"
+title = "Specialization map"
+order = 5230
+lean = ["AlgebraicGeometry.specializationMap"]
+uses = ["sbc-def-strict-localization", "sbc-def-milnor-tube"]
++++
+For $K\in D(X_{\Et})$ and the Milnor tube $F_{\bar x,\bar t}$ of
+[sbc-def-milnor-tube], the strictly henselian $X_{(\bar x)}$ of
+[sbc-def-strict-localization] gives $K_{\bar x}=R\Gamma(X_{(\bar x)},K)$;
+pulling back cohomology along $F_{\bar x,\bar t}\to X_{(\bar x)}$ gives the
+canonical *specialization map*
+$$
+\alpha_{K,\bar x,\bar t}:K_{\bar x}\longrightarrow R\Gamma(F_{\bar x,\bar t},K).
+$$
+
+Unresolved dependencies: def:weil-pbc-etale-cohomology
