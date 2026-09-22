@@ -10,6 +10,9 @@ modules = ["WeilConjectures"]
 
 [katex.macros]
 "\\AffSch" = "\\operatorname{AffSch}"
+"\\Dplus" = "D^+"
+"\\Et" = "\\mathrm{et}"
+"\\Ex" = "\\operatorname{Ex}"
 "\\Fbar" = "\\overline{\\mathbf F}_q"
 "\\Fq" = "\\mathbf F_q"
 "\\Gal" = "\\operatorname{Gal}"
@@ -68,3 +71,4 @@ modules = ["WeilConjectures"]
 "\\statusnote" = "\\begin{quote}\\small\\raggedright\\textbf{Status.} #1\\end{quote}"
 "\\tildeideal" = "\\ensuremath{\\widetilde{(#1, #2)}}"
 "\\tildering" = "\\ensuremath{#1_{\\widetilde{(#2, #3)}}}"
+"\\Zar" = "\\mathrm{Zar}"

@@ -1,0 +1,19 @@
++++
+id = "lem-sc-smooth-normal"
+kind = "lemma"
+title = "Smooth schemes are normal"
+order = 3626
+lean = ["AlgebraicGeometry.IsSmooth.isNormal"]
+uses = ["lem-sc-smooth-regular"]
++++
+A smooth curve over a field $k$ is normal at every point.
+
+## Proof
+
+By [lem-sc-smooth-regular] all local rings are regular; regular local rings
+are integrally closed (they are unique factorization domains: *reference:
+Stacks Project, More on Algebra, Lemma 15.123.2, [Tag
+0AG0](https://stacks.math.columbia.edu/tag/0AG0)*), hence the scheme is
+normal.
+
+Unresolved dependencies: def:sc-curves

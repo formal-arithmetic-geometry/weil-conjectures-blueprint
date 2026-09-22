@@ -1,0 +1,21 @@
++++
+id = "def-sc-ext-sheaf"
+kind = "definition"
+title = "Ext groups of O_X-modules"
+order = 3642
+lean = ["AlgebraicGeometry.Scheme.extGroup"]
++++
+Let $X$ be a scheme and $\mathcal F,\mathcal G$ be
+$\mathcal O_X$-modules. The *Ext groups* are the right derived functors of
+the contravariant functor
+$\operatorname{Hom}_{\mathcal O_X}(-,\mathcal G)$:
+$$
+ \operatorname{Ext}^i_X(\mathcal F,\mathcal G)
+ :=R^i\operatorname{Hom}_{\mathcal O_X}(-,\mathcal G)(\mathcal F)
+$$
+on the abelian category of $\mathcal O_X$-modules; in particular
+$\operatorname{Ext}^0_X(\mathcal F,\mathcal G)=\operatorname{Hom}_{\mathcal O_X}(\mathcal F,\mathcal G)$.
+
+The source records that this is the same convention as the Picard
+chapter's `def:pc-ext`, which uses the derived-category description; the
+right-derived-functor description above is the one used in this chapter.
