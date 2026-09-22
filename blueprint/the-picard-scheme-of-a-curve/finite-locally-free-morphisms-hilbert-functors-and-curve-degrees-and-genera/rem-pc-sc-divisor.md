@@ -1,0 +1,18 @@
++++
+id = "rem-pc-sc-divisor"
+kind = "remark"
+title = "Divisors and the divisor class group: imported"
+order = 4258
+tags = ["latex:remark"]
+uses = ["def-pc-divisor-line-bundle", "lem-pc-divisor-line-bundle-agrees-sc"]
++++
+For a curve $C$ over a field, the *divisors*
+($D=\sum_Pn_P[P]$, $\operatorname{Div}(C)$, principal divisors, the divisor
+class group $\operatorname{Cl}(C)$ and the associated module
+$\mathcal{O}_C(D)$ of a divisor, defined via $k(C)$) are those of the
+divisors chapter. In this blueprint they are used for the curve $X$ and its
+base changes $X_K$; the corresponding invertible module of an effective
+Cartier divisor is the one of [def-pc-divisor-line-bundle], by
+[lem-pc-divisor-line-bundle-agrees-sc].
+
+Unresolved dependencies: def:sc-divisor

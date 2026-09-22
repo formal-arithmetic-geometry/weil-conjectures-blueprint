@@ -1,0 +1,17 @@
++++
+id = "rem-pc-sc-ample"
+kind = "remark"
+title = "Ample and very ample: imported"
+order = 4256
+tags = ["latex:remark"]
++++
+The notions of *ample* and *very ample* invertible module are those of the
+curve-calculation chapter (with the Stacks Project references Properties of
+Schemes, Section 28.27, [Tag
+01PR](https://stacks.math.columbia.edu/tag/01PR), Proposition 28.27.13,
+[Tag 01Q3](https://stacks.math.columbia.edu/tag/01Q3), and Morphisms of
+Schemes, Definition 29.39.1, [Tag
+01VM](https://stacks.math.columbia.edu/tag/01VM)). We use that definition
+in its stated generality (any proper scheme over a field).
+
+Unresolved dependencies: def:sc-ample

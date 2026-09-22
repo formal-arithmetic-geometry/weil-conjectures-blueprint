@@ -1,0 +1,20 @@
++++
+id = "rem-ptr-pc-projective-space-twist-17"
+kind = "remark"
+title = "Pointer to the properties of the twists"
+order = 4320
+tags = ["latex:remark"]
+uses = ["def-pc-projective-space-twist", "lem-pc-twist-cocycle", "lem-pc-twist-tensor", "lem-pc-twist-zero"]
++++
+In the notation of [def-pc-projective-space-twist], the well-definedness of
+the gluing — the cocycle rule for the transition units on triple
+intersections — is [lem-pc-twist-cocycle]. The section denoted $x_i$ of
+$\mathcal O_P(1)$ has coefficient $x_i/x_j$ on $U_j$. For a quasi-coherent
+module $\mathcal F$, write $\mathcal F(d)=\mathcal F\otimes\mathcal O_P(d)$.
+The identifications of $\mathcal O_P(d)\otimes\mathcal O_P(e)$ with
+$\mathcal O_P(d+e)$ and of $\mathcal O_P(0)$ with $\mathcal O_P$ induced by
+the local bases are [lem-pc-twist-tensor] and [lem-pc-twist-zero]. For
+$A=k$ and $n=1$ this is the convention of the projective-line calculation
+of the divisors chapter.
+
+Unresolved dependencies: pqf-def-coherent, def:sc-p1-standard
