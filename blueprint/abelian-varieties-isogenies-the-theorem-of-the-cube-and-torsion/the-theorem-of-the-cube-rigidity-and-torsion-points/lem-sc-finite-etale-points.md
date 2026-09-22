@@ -1,0 +1,27 @@
++++
+id = "lem-sc-finite-etale-points"
+kind = "lemma"
+title = "Points of finite etale group schemes"
+order = 4028
+lean = ["AlgebraicGeometry.GroupScheme.card_rationalPoints_of_etale", "AlgebraicGeometry.GroupScheme.rationalPoints_baseChange_equiv"]
++++
+Let $G$ be a finite etale group scheme of order $m$ over an algebraically
+closed field $k$, and $k'\supseteq k$ an extension of algebraically closed
+fields. Then
+$$
+ |G(k)|=m,\qquad G(k)\xrightarrow{\ \sim\ }G(k').
+$$
+
+## Proof
+
+A finite etale $k$-algebra is a product of finite separable field
+extensions of $k$, as recalled in the geometric-fibre lemma of the
+finite-etale/Galois chapter (the geometric fibre of a finite etale cover is
+a disjoint union of copies of the geometric point); since $k$ is
+algebraically closed each of these extensions equals $k$. Hence
+$G\cong\coprod_{i=1}^{m}\operatorname{Spec}k$ as a $k$-scheme; the order of
+$G$ is the $k$-dimension of its coordinate ring, so the disjoint union has
+$m$ terms. Thus $G(k)$ is a set of $m$ points and the canonical map
+$G(k)\to G(k')$ is a bijection.
+
+Unresolved dependencies: def:sc-group-scheme, lem:galois-geometric-fibre
