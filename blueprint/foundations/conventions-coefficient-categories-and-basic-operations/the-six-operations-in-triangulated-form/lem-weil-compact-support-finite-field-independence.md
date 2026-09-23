@@ -2,7 +2,7 @@
 id = "lem-weil-compact-support-finite-field-independence"
 kind = "lemma"
 title = "Independence of the finite coefficient field"
-order = 1156
+order = 1167
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-integral-rational-qbar-compact-support", "def-weil-rationalization-karoubi", "lem-weil-scalar-extension-composition"]
 +++
 Let $K_0$ be a field, let $X,Y$ be finite-type

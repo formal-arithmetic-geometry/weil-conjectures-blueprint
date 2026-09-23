@@ -2,7 +2,7 @@
 id = "lem-sp-shift-identification"
 kind = "lemma"
 title = "Shift rule for derived functors"
-order = 1221
+order = 1232
 uses = ["def-sp-kinjective-bridge", "def-sp-left-exact-additive"]
 +++
 Let $v$ be a left exact additive [def-sp-left-exact-additive] functor, let

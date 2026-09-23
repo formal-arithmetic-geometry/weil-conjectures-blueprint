@@ -2,7 +2,7 @@
 id = "lem-weil-scalar-extension-well-defined"
 kind = "lemma"
 title = "Well-definedness of scalar extension"
-order = 1129
+order = 1140
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-rationalization-karoubi"]
 +++
 Let $E\subset L$ be a finite extension of $\Ql$, with rings of integers

@@ -9,8 +9,15 @@ blueprint. Nothing here is a geometric input to the Weil conjectures; it is
 the vocabulary in which the later parts are written, collected in one place so
 that no statement downstream rests on an unstated convention.
 
-Four chapters, in the order in which they are used:
+Five chapters, in the order in which they are used — the order is a
+topological order of the chapter dependency graph, so every chapter stands
+after everything it cites:
 
+- [the-karoubi-envelope-and-bounded-t-structures] is pure category theory:
+idempotent completion, t-structures, and the fact that a bounded t-structure
+makes a triangulated category Karoubian. It depends on nothing else in the
+part. The source files it as a subsection of chapter 4, which made chapters 1
+and 4 cite each other in both directions; it is a chapter of its own here.
 - [conventions-coefficient-categories-and-basic-operations] fixes the
 arithmetic and geometric conventions, builds the coefficient tower through
 its four stages ($A_{E,n}$, $\mathcal O_E$, $E$, $\Qlb$), and defines the six
@@ -26,6 +33,14 @@ base-change naturality.
 etale and pro-etale sites, direct and inverse image with the named exchange
 morphisms, the strict henselization as a limit, hypercover descent, the
 predicates $\mathrm{PBC}$ and $\mathrm{IA}$, and derived completion.
+
+At chapter level the part is a directed acyclic graph: the conventions
+chapter cites the Karoubi chapter, and the Weil-structure and ambient chapters
+cite the conventions chapter. The spectral-sequence chapter cites nothing
+outside itself. Three section-level cycles remain inside chapters 3 and 5, and
+one of them rests on a genuine circularity in the source between
+[thm-sp-if-e1] and [lem-sp-kinjective-computes], whose proofs cite each other;
+neither is repaired here.
 
 The part is self-contained: every `uses` edge recorded inside it resolves
 inside it, so this section cites nothing beyond itself and carries no `uses`

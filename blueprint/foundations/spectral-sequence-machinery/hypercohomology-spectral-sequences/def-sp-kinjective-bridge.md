@@ -2,7 +2,7 @@
 id = "def-sp-kinjective-bridge"
 kind = "definition"
 title = "The K-injective bridge"
-order = 1220
+order = 1231
 uses = ["def-sp-grothendieck-abelian"]
 +++
 A *K-injective resolution* of a complex $K$ is a quasi-isomorphism $K\to I$

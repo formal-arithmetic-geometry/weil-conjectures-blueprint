@@ -2,7 +2,7 @@
 id = "lem-weil-weil-complex-qbar-idempotent-complete"
 kind = "lemma"
 title = "Idempotent completeness of the common-stage Weil category"
-order = 1168
+order = 1179
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-constructible-heart", "def-weil-karoubi-envelope", "def-weil-weil-sheaf-complex", "prop-weil-heart-abelian", "thm-weil-karoubian-bounded-t"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, a

@@ -2,7 +2,7 @@
 id = "lem-sp-leray-acyclicity"
 kind = "lemma"
 title = "Leray acyclicity criterion"
-order = 1224
+order = 1235
 uses = ["def-sp-acyclic", "lem-sp-edge-collapse", "thm-sp-if-e1"]
 +++
 Let $F\in\mathcal A$ and let $F\to I^\bullet$ be a resolution of $F$ by

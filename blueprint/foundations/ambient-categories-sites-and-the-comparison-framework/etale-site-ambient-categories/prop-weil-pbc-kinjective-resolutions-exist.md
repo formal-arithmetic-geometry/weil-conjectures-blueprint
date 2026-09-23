@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-kinjective-resolutions-exist"
 kind = "theorem"
 title = "Existence of K-injective resolutions"
-order = 1244
+order = 1255
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-weil-pbc-kinjective-resolutions"]
 +++

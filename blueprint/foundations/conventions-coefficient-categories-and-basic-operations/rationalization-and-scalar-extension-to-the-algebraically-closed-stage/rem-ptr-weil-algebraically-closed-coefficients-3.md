@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-algebraically-closed-coefficients-3"
 kind = "remark"
 title = "Pointer to the properties of the common-stage category"
-order = 1135
+order = 1146
 uses = ["def-weil-algebraically-closed-coefficients", "lem-weil-qbar-idempotent-complete"]
 +++
 In the notation of [def-weil-algebraically-closed-coefficients], the

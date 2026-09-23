@@ -2,7 +2,7 @@
 id = "standard-closure-properties-of-morphisms"
 kind = "section"
 title = "Standard closure properties of morphisms"
-order = 1248
+order = 1259
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 The morphism-theoretic facts the rest of the blueprint uses without comment,

@@ -2,7 +2,7 @@
 id = "def-sp-acyclic"
 kind = "definition"
 title = "Acyclic objects for a left exact functor"
-order = 1198
+order = 1209
 uses = ["def-sp-left-exact-additive"]
 +++
 Let $v:\mathcal A\to\mathcal B$ be a left exact additive

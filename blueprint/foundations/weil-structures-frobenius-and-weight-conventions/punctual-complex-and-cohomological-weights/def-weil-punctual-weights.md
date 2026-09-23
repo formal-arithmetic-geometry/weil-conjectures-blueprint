@@ -2,7 +2,7 @@
 id = "def-weil-punctual-weights"
 kind = "definition"
 title = "Punctual weights"
-order = 1187
+order = 1198
 uses = ["def-weil-constructible-heart", "def-weil-finite-field-fiber", "def-weil-local-frobenius-trace", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$, $k_0=\Fq$,

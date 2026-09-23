@@ -2,7 +2,7 @@
 id = "rationalization-and-scalar-extension-to-the-algebraically-closed-stage"
 kind = "section"
 title = "Rationalization and scalar extension to the algebraically closed stage"
-order = 1125
+order = 1136
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-karoubi-envelope", "thm-weil-karoubian-bounded-t"]
 +++
 The two field stages. Rationalization inverts the uniformizer on Hom-groups

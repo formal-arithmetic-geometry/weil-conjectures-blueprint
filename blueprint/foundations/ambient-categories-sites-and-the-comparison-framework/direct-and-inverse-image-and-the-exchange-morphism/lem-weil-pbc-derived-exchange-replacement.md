@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-derived-exchange-replacement"
 kind = "lemma"
 title = "Replacement independence and naturality of derived exchange"
-order = 1274
+order = 1285
 uses = ["def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-kinjective-resolutions", "lem-weil-pbc-derived-exchange-termwise"]
 +++
 Let $K\to I$ and $K\to J$ be two K-injective resolutions

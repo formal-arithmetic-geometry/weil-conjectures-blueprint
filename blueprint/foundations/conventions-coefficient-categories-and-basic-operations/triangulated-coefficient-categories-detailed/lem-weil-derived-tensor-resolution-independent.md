@@ -2,7 +2,7 @@
 id = "lem-weil-derived-tensor-resolution-independent"
 kind = "lemma"
 title = "Resolution independence of the derived tensor product"
-order = 1114
+order = 1125
 uses = ["def-weil-derived-tensor", "def-weil-small-proetale-site-detailed"]
 +++
 Fix a scheme $Y$, a commutative ring $A$, and complexes $K_1,K_2$ of

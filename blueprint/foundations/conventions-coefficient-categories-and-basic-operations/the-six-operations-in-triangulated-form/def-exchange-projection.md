@@ -2,7 +2,7 @@
 id = "def-exchange-projection"
 kind = "definition"
 title = "Exchange and projection transformations"
-order = 1164
+order = 1175
 uses = ["def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf

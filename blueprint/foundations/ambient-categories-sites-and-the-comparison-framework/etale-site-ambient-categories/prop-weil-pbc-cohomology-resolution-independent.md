@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-cohomology-resolution-independent"
 kind = "theorem"
 title = "Resolution independence of etale cohomology"
-order = 1246
+order = 1257
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-site", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++

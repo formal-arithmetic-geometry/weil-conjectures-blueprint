@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-underived-exchange-naturality"
 kind = "lemma"
 title = "Naturality of the underived exchange morphism"
-order = 1270
+order = 1281
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-underived-exchange-detailed"]
 +++
 For every morphism $a:F\to G$ in $\Ab(X_{\Et})$, the square

@@ -2,7 +2,7 @@
 id = "conventions-coefficient-categories-and-basic-operations"
 kind = "section"
 title = "Conventions, coefficient categories, and basic operations"
-order = 1101
+order = 1112
 uses = ["def-weil-karoubi-envelope", "prop-weil-heart-abelian", "thm-weil-karoubian-bounded-t"]
 +++
 This chapter fixes the common language: the arithmetic and geometric

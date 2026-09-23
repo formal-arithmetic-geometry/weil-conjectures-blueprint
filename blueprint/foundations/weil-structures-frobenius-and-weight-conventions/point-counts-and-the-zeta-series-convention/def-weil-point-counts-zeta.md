@@ -2,7 +2,7 @@
 id = "def-weil-point-counts-zeta"
 kind = "definition"
 title = "Point counts and zeta function"
-order = 1182
+order = 1193
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties"]
 +++
 Fix the finite-field datum $p,a,q,k_0,k$, where $q=p^a$, and use geometric

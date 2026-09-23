@@ -2,7 +2,7 @@
 id = "the-six-operations-in-triangulated-form"
 kind = "section"
 title = "The six operations in triangulated form"
-order = 1142
+order = 1153
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-completed-integral-coefficients", "def-weil-constructible-intervals", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-limit", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-geometric-hypotheses", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-weil-scalar-extension-composition"]
 +++
 The operations themselves, each given at finite torsion level and then

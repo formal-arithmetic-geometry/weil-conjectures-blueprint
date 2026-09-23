@@ -2,7 +2,7 @@
 id = "def-sp-image-filtration"
 kind = "definition"
 title = "Image filtrations"
-order = 1208
+order = 1219
 uses = ["def-sp-abelian", "def-sp-filtration"]
 +++
 Let $(A,F)$ be a filtered object [def-sp-filtration] and let $A\to B$ be a

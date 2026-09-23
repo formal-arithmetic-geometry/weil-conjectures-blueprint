@@ -2,7 +2,7 @@
 id = "lem-weil-scalar-extension-composition"
 kind = "lemma"
 title = "Composition of scalar extensions"
-order = 1131
+order = 1142
 uses = ["def-weil-rationalization-karoubi"]
 +++
 Let $E\subset L\subset M$ be finite extensions of $\Ql$ and let $Y$ be a

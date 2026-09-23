@@ -2,7 +2,7 @@
 id = "thm-sp-if-e1"
 kind = "theorem"
 title = "Hypercohomology spectral sequence via a Cartan--Eilenberg resolution"
-order = 1223
+order = 1234
 uses = ["def-sp-convergence", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "def-sp-truncation-couple", "lem-sp-kinjective-computes", "thm-sp-spectral-object-yields"]
 +++
 Let $v$ be as in [def-sp-truncation-couple] and let $A^{\bullet,\bullet}$ be

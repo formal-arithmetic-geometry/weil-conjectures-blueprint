@@ -2,7 +2,7 @@
 id = "weil-structure-vocabulary-for-the-master-interface"
 kind = "section"
 title = "Weil-structure vocabulary for the master interface"
-order = 1165
+order = 1176
 uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-detailed", "def-weil-karoubi-envelope", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "prop-weil-heart-abelian", "thm-weil-karoubian-bounded-t"]
 +++
 The vocabulary in which the master statements are phrased. The constructible

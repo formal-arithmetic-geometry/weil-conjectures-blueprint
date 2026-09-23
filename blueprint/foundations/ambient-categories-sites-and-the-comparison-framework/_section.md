@@ -2,7 +2,7 @@
 id = "ambient-categories-sites-and-the-comparison-framework"
 kind = "section"
 title = "Ambient categories, sites, and the comparison framework"
-order = 1232
+order = 1243
 uses = ["def-weil-derived-limit", "lem-weil-derived-limit-existence"]
 +++
 The ambient language of the proper-base-change chapter, assembled so that
@@ -19,9 +19,9 @@ descent at an inverse limit
 $\mathrm{PBC}$ and $\mathrm{IA}$
 [comparison-predicates-and-injective-acyclicity], the affine covers used to
 compare the etale and pro-etale sites
-[affine-covers-for-the-comparison-of-sites], the coefficient conventions with
-Karoubi envelopes and bounded t-structures
-[complete-rational-and-algebraically-closed-coefficients], the degree-zero
+[affine-covers-for-the-comparison-of-sites], the pro-etale site and its finite
+coefficients [complete-rational-and-algebraically-closed-coefficients], the
+degree-zero
 henselian comparisons [henselian-comparisons-in-degree-zero], the continuity
 and acyclicity statements [continuity-exchange-and-the-acyclicity-criterion],
 and derived completion [derived-completion-and-inverse-limits].

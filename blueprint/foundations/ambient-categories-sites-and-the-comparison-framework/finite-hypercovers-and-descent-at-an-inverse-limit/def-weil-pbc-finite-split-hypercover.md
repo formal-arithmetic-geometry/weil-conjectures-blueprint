@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-split-hypercover"
 kind = "definition"
 title = "Finite split etale hypercovers"
-order = 1286
+order = 1297
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be quasi-compact and quasi-separated

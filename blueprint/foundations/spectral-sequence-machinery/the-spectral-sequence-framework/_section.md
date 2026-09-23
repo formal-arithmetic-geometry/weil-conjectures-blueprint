@@ -2,7 +2,7 @@
 id = "the-spectral-sequence-framework"
 kind = "section"
 title = "The spectral sequence framework"
-order = 1202
+order = 1213
 uses = ["def-sp-abelian", "def-sp-convergence", "def-sp-exact-couple", "def-sp-filtration", "lem-sp-couple-morphism", "lem-sp-long-exact-of-triangle", "lem-sp-page-induction"]
 +++
 What a spectral sequence is [def-sp-spectral-sequence], Verdier's spectral

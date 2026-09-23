@@ -2,7 +2,7 @@
 id = "lem-weil-compact-support-representative-independence"
 kind = "lemma"
 title = "Independence of the integral representative"
-order = 1155
+order = 1166
 uses = ["def-compact-support-direct-image-detailed", "def-weil-derived-complete-integral-detailed", "def-weil-derived-limit", "def-weil-integral-rational-qbar-compact-support", "def-weil-rationalization-karoubi", "lem-compact-support-direct-image-triangulated"]
 +++
 Let $K_0$ be a field, let $X,Y$ be finite-type

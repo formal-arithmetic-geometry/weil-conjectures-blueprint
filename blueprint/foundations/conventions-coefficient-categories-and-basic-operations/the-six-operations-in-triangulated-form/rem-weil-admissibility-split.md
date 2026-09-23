@@ -2,7 +2,7 @@
 id = "rem-weil-admissibility-split"
 kind = "remark"
 title = "Existence, preservation and geometric duality are separate"
-order = 1161
+order = 1172
 uses = ["def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility"]
 +++
 The three clauses of [def-weil-exceptional-adjoint-admissibility] separate

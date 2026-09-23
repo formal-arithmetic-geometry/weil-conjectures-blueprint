@@ -2,7 +2,7 @@
 id = "def-weil-pbc-retained-localization"
 kind = "definition"
 title = "Retaining a closed subset"
-order = 1311
+order = 1322
 uses = ["def-weil-pbc-w-local", "def-weil-pbc-w-localization"]
 +++
 Let $T$ be a closed subset of $\operatorname{Spec}R$. For a constructible

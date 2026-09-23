@@ -2,7 +2,7 @@
 id = "lem-sp-kinjective-computes"
 kind = "lemma"
 title = "K-injective resolutions compute derived functors"
-order = 1230
+order = 1241
 uses = ["def-sp-grothendieck-abelian", "def-sp-kinjective-bridge", "def-sp-left-exact-additive", "def-sp-truncation-couple", "thm-sp-if-e1"]
 +++
 Let $v$ be a left exact additive [def-sp-left-exact-additive] functor and let

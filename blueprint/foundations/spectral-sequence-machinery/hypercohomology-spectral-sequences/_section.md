@@ -2,7 +2,7 @@
 id = "hypercohomology-spectral-sequences"
 kind = "section"
 title = "Hypercohomology spectral sequences"
-order = 1216
+order = 1227
 uses = ["def-sp-acyclic", "def-sp-convergence", "def-sp-exact-couple", "def-sp-grothendieck-abelian", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "lem-sp-edge-collapse", "lem-sp-kinjective-computes", "lem-sp-long-exact-of-triangle", "thm-sp-half-plane-convergence", "thm-sp-spectral-object-yields"]
 +++
 The two hypercohomology spectral sequences of a bounded-below complex. The

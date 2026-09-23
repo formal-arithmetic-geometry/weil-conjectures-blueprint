@@ -2,7 +2,7 @@
 id = "def-weil-pbc-cartesian-square-detailed"
 kind = "definition"
 title = "Cartesian square with chosen identification"
-order = 1266
+order = 1277
 uses = ["def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions"]
 +++
 A *cartesian square* $\square=(f,f',g,g',\alpha)$ is a diagram

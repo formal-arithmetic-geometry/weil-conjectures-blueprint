@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-rationalization-karoubi-1"
 kind = "remark"
 title = "Pointer to the properties of the rationalization"
-order = 1128
+order = 1139
 uses = ["def-weil-rationalization-karoubi", "lem-weil-rationalization-idempotent-complete"]
 +++
 In the notation of [def-weil-rationalization-karoubi], the following holds.

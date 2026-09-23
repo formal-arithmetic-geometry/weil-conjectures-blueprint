@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-integral-rational-qbar-compact-support-5"
 kind = "remark"
 title = "Pointer to the properties of the compact-support functors"
-order = 1157
+order = 1168
 uses = ["def-weil-integral-rational-qbar-compact-support", "lem-weil-compact-support-finite-field-independence", "lem-weil-compact-support-representative-independence"]
 +++
 In the notation of [def-weil-integral-rational-qbar-compact-support], the

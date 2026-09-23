@@ -2,7 +2,7 @@
 id = "prop-weil-heart-abelian"
 kind = "theorem"
 title = "The heart is abelian"
-order = 1329
+order = 1109
 tags = ["latex:proposition"]
 uses = ["def-weil-t-structure"]
 +++

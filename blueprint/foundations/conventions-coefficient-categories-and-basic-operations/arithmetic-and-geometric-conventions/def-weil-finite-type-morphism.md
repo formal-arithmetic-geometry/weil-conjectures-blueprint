@@ -2,7 +2,7 @@
 id = "def-weil-finite-type-morphism"
 kind = "definition"
 title = "Morphisms of finite type"
-order = 1103
+order = 1114
 +++
 A morphism of schemes $f:X\to Y$ is *locally of finite type* if, for every
 affine open $V=\operatorname{Spec}A$ of $Y$, the preimage $f^{-1}(V)$ has an

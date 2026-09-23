@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-refinement-etale-cover"
 kind = "lemma"
 title = "Finite refinement of a surjective etale morphism"
-order = 1296
+order = 1307
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 Let $u:U\to T$ be a surjective etale morphism

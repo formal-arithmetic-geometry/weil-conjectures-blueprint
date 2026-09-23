@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proper-immersion-closed"
 kind = "lemma"
 title = "Proper immersions are closed immersions"
-order = 1255
+order = 1266
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-closed-image"]
 +++
 A proper [def-weil-pbc-scheme-conventions] morphism which is an immersion is

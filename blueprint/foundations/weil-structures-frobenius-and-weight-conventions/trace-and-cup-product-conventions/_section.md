@@ -2,7 +2,7 @@
 id = "trace-and-cup-product-conventions"
 kind = "section"
 title = "Trace and cup-product conventions"
-order = 1184
+order = 1195
 uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-ordinary-compact-cohomology"]
 +++
 The Poincare duality data, fixed as a convention rather than proved here: an

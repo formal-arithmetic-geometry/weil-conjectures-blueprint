@@ -2,7 +2,7 @@
 id = "def-weil-pbc-etale-site"
 kind = "definition"
 title = "Small etale site"
-order = 1235
+order = 1246
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 For a scheme $T$, the *small etale site* $T_{\Et}$ has as objects the etale

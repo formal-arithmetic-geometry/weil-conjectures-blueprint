@@ -2,7 +2,7 @@
 id = "def-weil-compact-support-candidate"
 kind = "definition"
 title = "Compact-support candidate attached to a compactification"
-order = 1151
+order = 1162
 uses = ["def-weil-compactifications-refinements", "def-weil-derived-direct-image", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties"]
 +++
 Let $K_0$ be a field, let $X,Y$ be finite-type
