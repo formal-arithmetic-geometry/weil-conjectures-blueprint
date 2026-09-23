@@ -2,7 +2,7 @@
 id = "obl-ba43-relative-coherent-core"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 921
+order = 1810
 tags = ["latex:openproblem"]
 uses = ["cat-ba30-rfstar-rebind", "cat-ba43-open-extension-composition", "cat-ba43-successive-witness-independence", "cat-ba43-triple-pasting", "cat-geo-ba43-open-proper-exchange", "ext-geo-ba43-dense-successive-witness", "geo-ba43-dense-refinement-uniqueness", "geo-ba43-pairwise-common-refinement", "geo-ba43-refinement-proper", "obl-ba43-refinement-exchange"]
 +++

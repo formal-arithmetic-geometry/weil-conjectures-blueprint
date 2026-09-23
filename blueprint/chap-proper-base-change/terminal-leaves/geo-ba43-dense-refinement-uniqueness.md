@@ -2,7 +2,7 @@
 id = "geo-ba43-dense-refinement-uniqueness"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 947
+order = 1836
 tags = ["latex:openproblem"]
 +++
 **Owner.**`GEO-BA43-DENSE-REFINEMENT-UNIQUENESS` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`GEO`.

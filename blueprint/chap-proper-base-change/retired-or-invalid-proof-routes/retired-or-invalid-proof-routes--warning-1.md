@@ -2,7 +2,7 @@
 id = "retired-or-invalid-proof-routes--warning-1"
 kind = "remark"
 title = "Stalk-family descent is not a proof of PBC"
-order = 965
+order = 1854
 tags = ["latex:warning"]
 +++
 The historical certificate that starts with arbitrary specialization-compatible

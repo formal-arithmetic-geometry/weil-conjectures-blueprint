@@ -2,7 +2,7 @@
 id = "ext-geo-ba31-gabber-affine"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 939
+order = 1828
 tags = ["latex:openproblem"]
 +++
 **Owner.**`EXT-GEO-BA31-GABBER-AFFINE` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`EXT-GEO`.

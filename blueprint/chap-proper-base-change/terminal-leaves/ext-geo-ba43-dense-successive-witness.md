@@ -2,7 +2,7 @@
 id = "ext-geo-ba43-dense-successive-witness"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 950
+order = 1839
 tags = ["latex:openproblem"]
 +++
 **Owner.**`EXT-GEO-BA43-DENSE-SUCCESSIVE-WITNESS` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`EXT-GEO`.

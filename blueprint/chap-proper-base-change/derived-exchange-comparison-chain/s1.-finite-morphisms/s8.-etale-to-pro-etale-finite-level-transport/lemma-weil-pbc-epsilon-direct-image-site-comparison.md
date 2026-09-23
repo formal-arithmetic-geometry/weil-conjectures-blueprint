@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-direct-image-site-comparison"
 kind = "lemma"
 title = "Site-local components of direct-image comparison"
-order = 821
+order = 1710
 uses = ["def-weil-pbc-epsilon-direct-image-comparison", "lemma-weil-pbc-epsilon-scheme-naturality"]
 +++
 Suppose $Y$ is affine and let

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-finite-free"
 kind = "lemma"
 title = "Finite-free projection formula"
-order = 847
+order = 1736
 uses = ["def-weil-pbc-projection-formula-arrows"]
 +++
 For $F=\Lambda^N[a]$, the maps $\pi_{h,E,F}$ and $\rho_{h,E,F}$ are inverse:

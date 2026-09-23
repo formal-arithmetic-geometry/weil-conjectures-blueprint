@@ -2,7 +2,7 @@
 id = "cat-ba31-derived-stalk-iso-conservativity"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 944
+order = 1833
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA31-DERIVED-STALK-ISO-CONSERVATIVITY` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT`.

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-completed-tensor-product"
 kind = "definition"
 title = "Completed tensor product"
-order = 859
+order = 1748
 uses = ["def-weil-pbc-adic-derived-inverse-limit", "def-weil-pbc-complete-coefficient-datum"]
 +++
 For $A,B$ on the same ringed pro-etale topos, define

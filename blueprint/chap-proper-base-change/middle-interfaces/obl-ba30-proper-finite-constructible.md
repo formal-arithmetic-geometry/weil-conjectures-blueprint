@@ -2,7 +2,7 @@
 id = "obl-ba30-proper-finite-constructible"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 910
+order = 1799
 tags = ["latex:openproblem"]
 uses = ["ext-ba30-relative-cohomological-dimension", "fa-ba30-bounded-postnikov-serre", "obl-ba30-a4-seed-to-proper-finite"]
 +++

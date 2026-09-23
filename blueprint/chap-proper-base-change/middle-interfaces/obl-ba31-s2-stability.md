@@ -2,7 +2,7 @@
 id = "obl-ba31-s2-stability"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 915
+order = 1804
 tags = ["latex:openproblem"]
 uses = ["cat-ba30-rfstar-rebind", "fa-cat-ba31-leray-cancellation", "obl-ba31-s0-global-mate"]
 +++

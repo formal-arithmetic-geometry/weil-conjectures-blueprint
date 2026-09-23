@@ -2,7 +2,7 @@
 id = "def-weil-pbc-etale-proetale-inclusion"
 kind = "definition"
 title = "Etale objects inside the pro-etale site"
-order = 760
+order = 1649
 +++
 For a scheme $X$, define the assignment
 

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-direct-image-constructible-bounds"
 kind = "lemma"
 title = "Finite constructibility and lower bounds"
-order = 823
+order = 1712
 uses = ["lemma-weil-pbc-epsilon-inverse-image-exact", "lemma-weil-pbc-epsilon-scheme-naturality"]
 +++
 Let $A$ be finite and let $L\in D_c^+(X_{\mathrm{et}},A)$ vanish in degrees

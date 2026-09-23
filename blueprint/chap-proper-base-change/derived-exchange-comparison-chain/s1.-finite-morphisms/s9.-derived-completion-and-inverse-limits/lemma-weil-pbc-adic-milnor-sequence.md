@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-adic-milnor-sequence"
 kind = "lemma"
 title = "Milnor sequence on pro-etale test objects"
-order = 830
+order = 1719
 uses = ["def-weil-pbc-adic-derived-inverse-limit"]
 +++
 Let $U$ be a weakly contractible quasi-compact object of the pro-etale site.

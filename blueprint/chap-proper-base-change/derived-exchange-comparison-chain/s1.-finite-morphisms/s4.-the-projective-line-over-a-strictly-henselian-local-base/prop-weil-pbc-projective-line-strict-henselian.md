@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-projective-line-strict-henselian"
 kind = "theorem"
 title = "Strict-henselian projective-line proper base change"
-order = 714
+order = 1525
 tags = ["latex:proposition"]
 uses = ["prop-weil-pbc-p1-strict-henselian-comparison"]
 +++

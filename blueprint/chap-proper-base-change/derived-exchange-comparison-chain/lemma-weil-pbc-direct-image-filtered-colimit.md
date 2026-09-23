@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-direct-image-filtered-colimit"
 kind = "lemma"
 title = "Filtered colimits and higher direct image"
-order = 668
+order = 1436
 +++
 For a quasi-compact and quasi-separated morphism of schemes $h:W\to V$ and a
 filtered system of torsion sheaves $(F_i)$, the canonical map

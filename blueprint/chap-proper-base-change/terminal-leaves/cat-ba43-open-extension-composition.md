@@ -2,7 +2,7 @@
 id = "cat-ba43-open-extension-composition"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 951
+order = 1840
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA43-OPEN-EXTENSION-COMPOSITION` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT`.

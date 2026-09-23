@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-derived-exchange-bounded-injective-kinjective-v5"
 kind = "lemma"
 title = "Bounded-below injectives are K-injective"
-order = 652
+order = 1420
 uses = ["def-weil-pbc-derived-exchange-hom-test-v5", "lemma-weil-pbc-derived-exchange-hom-differential-v5"]
 +++
 Every bounded-below complex whose terms are injective is K-injective.

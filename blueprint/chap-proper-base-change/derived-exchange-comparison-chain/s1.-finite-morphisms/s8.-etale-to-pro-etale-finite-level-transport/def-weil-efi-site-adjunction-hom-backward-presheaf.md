@@ -2,7 +2,7 @@
 id = "def-weil-efi-site-adjunction-hom-backward-presheaf"
 kind = "definition"
 title = "Representative formula for the reverse Hom map"
-order = 779
+order = 1668
 uses = ["def-weil-pbc-epsilon-comparison"]
 +++
 For $\beta:F\to\epsilon_{X,*}G$, assign to a left-Kan-extension

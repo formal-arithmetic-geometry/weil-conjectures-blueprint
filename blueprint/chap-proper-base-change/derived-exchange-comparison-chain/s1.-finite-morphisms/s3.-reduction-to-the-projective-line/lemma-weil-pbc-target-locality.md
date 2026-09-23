@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-target-locality"
 kind = "lemma"
 title = "Target locality"
-order = 685
+order = 1466
 uses = ["def-weil-pbc-property"]
 +++
 For proper $f:X\to Y$, the property $\mathsf{PBC}(f)$ is local for the etale

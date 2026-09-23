@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-factorization-index-filtered-v1"
 kind = "lemma"
 title = "The etale factorization index is filtered"
-order = 776
+order = 1665
 uses = ["def-weil-pbc-epsilon-factorization-index-v1", "lemma-weil-pbc-etale-proetale-left-exact"]
 +++
 For every $W$, the category $I_W$ is nonempty and filtered.

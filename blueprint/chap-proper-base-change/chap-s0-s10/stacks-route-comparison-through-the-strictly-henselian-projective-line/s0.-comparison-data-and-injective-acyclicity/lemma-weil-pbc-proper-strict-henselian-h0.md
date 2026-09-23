@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-proper-strict-henselian-h0"
 kind = "lemma"
 title = "Degree-zero comparison over a strictly henselian base"
-order = 645
+order = 1413
 uses = ["lemma-weil-pbc-finite-refinement-etale-cover"]
 +++
 Let $(A,\mathfrak m)$ be strictly henselian local, let

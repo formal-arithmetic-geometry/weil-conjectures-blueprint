@@ -2,7 +2,7 @@
 id = "prop-weil-efi-site-geometric-morphism-package"
 kind = "theorem"
 title = "Geometric-morphism package for the comparison"
-order = 790
+order = 1679
 tags = ["latex:proposition"]
 uses = ["def-weil-efi-site-geometric-morphism-certificate", "lemma-weil-efi-site-inverse-image-finite-limits", "prop-weil-efi-site-sheaf-adjunction-certificate"]
 +++

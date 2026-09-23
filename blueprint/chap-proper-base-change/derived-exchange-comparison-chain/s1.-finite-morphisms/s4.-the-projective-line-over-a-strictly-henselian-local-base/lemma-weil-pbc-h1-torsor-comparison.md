@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-h1-torsor-comparison"
 kind = "lemma"
 title = "Finite-etale torsor comparison"
-order = 710
+order = 1521
 uses = ["def-weil-pbc-strict-henselian-setup", "lemma-weil-pbc-etale-degree-zero", "lemma-weil-pbc-finite-etale-henselian-lifting", "lemma-weil-pbc-finite-locally-constant-etale-equivalence"]
 +++
 For a finite abelian group $M$ and proper $Y\to\operatorname{Spec}A$,

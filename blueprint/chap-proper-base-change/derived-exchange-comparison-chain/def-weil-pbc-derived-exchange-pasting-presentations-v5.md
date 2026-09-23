@@ -2,7 +2,7 @@
 id = "def-weil-pbc-derived-exchange-pasting-presentations-v5"
 kind = "definition"
 title = "Identity and pasted exchange presentations"
-order = 659
+order = 1427
 uses = ["def-weil-pbc-derived-exchange-presentation-v5"]
 +++
 For an identity or a horizontally or vertically pasted Cartesian square, use

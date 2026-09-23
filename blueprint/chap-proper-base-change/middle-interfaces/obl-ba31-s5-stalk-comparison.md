@@ -2,7 +2,7 @@
 id = "obl-ba31-s5-stalk-comparison"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 918
+order = 1807
 tags = ["latex:openproblem"]
 uses = ["cat-ba31-sheaf-stalk-faithfulness", "cat-geo-ba31-strict-hensel-stalk", "ext-geo-ba31-curve-field-invariance", "obl-ba31-s0-global-mate", "obl-ba31-s4-henselian-p1"]
 +++

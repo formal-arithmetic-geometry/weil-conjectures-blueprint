@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-finite-morphism"
 kind = "theorem"
 title = "Finite morphisms satisfy proper base change"
-order = 680
+order = 1448
 lean = ["AlgebraicGeometry.Etale.isBaseChangeIsoSheaf_of_isFinite", "AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite"]
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-property", "lemma-weil-pbc-finite-exchange", "lemma-weil-pbc-property-iff-acyclicity"]

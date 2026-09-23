@@ -2,7 +2,7 @@
 id = "obl-ba43-basechange-densification"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 923
+order = 1812
 tags = ["latex:openproblem"]
 uses = ["cat-ba30-rfstar-rebind", "cat-ba43-densification-identity", "cat-ba43-densification-iterated-coherence", "cat-ba43-densification-open-exchange", "cat-ba43-densification-refinement-naturality", "cat-geo-ba43-dense-to-raw-support", "geo-ba43-schematic-closure-densification", "obl-ba43-refinement-exchange"]
 +++

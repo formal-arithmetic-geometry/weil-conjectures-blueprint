@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-counit-naturality"
 kind = "lemma"
 title = "Naturality equation for the comparison counit"
-order = 798
+order = 1687
 uses = ["def-weil-pbc-epsilon-unit-counit", "lemma-weil-pbc-epsilon-counit-representative-descent-v1"]
 +++
 For $\beta:G\to G'$ on $X_{\mathrm{proet}}$,

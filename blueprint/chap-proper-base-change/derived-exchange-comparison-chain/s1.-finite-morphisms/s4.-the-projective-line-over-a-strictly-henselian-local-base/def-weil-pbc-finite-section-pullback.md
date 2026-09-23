@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-section-pullback"
 kind = "definition"
 title = "Pullback of a section along a finite morphism"
-order = 694
+order = 1505
 +++
 Let $u:T'\to T$ be finite and $F$ an etale sheaf on $T$. For an etale
 $V\to T$ and $s\in F(V)$, define

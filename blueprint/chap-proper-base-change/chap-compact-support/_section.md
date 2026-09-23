@@ -2,7 +2,7 @@
 id = "chap-compact-support"
 kind = "section"
 title = "Compact-support continuation"
-order = 904
+order = 1793
 +++
 **Status.** Ordinary proper base change is used here only as the proper part of the raw compact-support comparison. Densification, open exchange, refinement independence, and all four displayed coherence diagrams are additional inputs.
 

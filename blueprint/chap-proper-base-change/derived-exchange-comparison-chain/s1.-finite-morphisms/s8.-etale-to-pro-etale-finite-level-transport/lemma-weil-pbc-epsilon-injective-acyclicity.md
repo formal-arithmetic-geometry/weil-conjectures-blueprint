@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-injective-acyclicity"
 kind = "lemma"
 title = "Acyclicity of pulled-back injectives"
-order = 816
+order = 1705
 uses = ["lemma-weil-pbc-epsilon-scheme-naturality", "lemma-weil-pbc-epsilon-unit-isomorphism"]
 +++
 Let $U$ be affine and etale over $X$, and let $I$ be an injective

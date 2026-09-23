@@ -2,7 +2,7 @@
 id = "retired-or-invalid-proof-routes--warning-2"
 kind = "remark"
 title = "Certificate projection is conditional only"
-order = 966
+order = 1855
 tags = ["latex:warning"]
 +++
 An input record containing an inverse to the Beck–Chevalley map, both inverse

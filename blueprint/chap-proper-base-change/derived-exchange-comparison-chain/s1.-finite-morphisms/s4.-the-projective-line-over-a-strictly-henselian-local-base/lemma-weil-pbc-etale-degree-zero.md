@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-etale-degree-zero"
 kind = "lemma"
 title = "Etale henselian restriction in degree zero"
-order = 699
+order = 1510
 uses = ["def-weil-pbc-strict-henselian-setup", "lemma-weil-pbc-finite-pullback-closed-fibre", "lemma-weil-pbc-finite-pullback-composition", "lemma-weil-pbc-finite-pullback-descent", "lemma-weil-pbc-finite-pullback-identity", "lemma-weil-pbc-finite-refinement-etale-cover", "lemma-weil-pbc-stein-connectedness"]
 +++
 For every etale abelian sheaf $F$ on $X$, restriction induces

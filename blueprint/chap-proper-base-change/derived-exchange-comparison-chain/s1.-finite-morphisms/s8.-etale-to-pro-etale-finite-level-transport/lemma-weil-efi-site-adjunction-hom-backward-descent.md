@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-adjunction-hom-backward-descent"
 kind = "lemma"
 title = "Descent of the reverse Hom formula"
-order = 780
+order = 1669
 uses = ["def-weil-efi-site-adjunction-hom-backward-presheaf", "def-weil-pbc-epsilon-factorization-index-v1"]
 +++
 The representative formula factors uniquely through pro-etale

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-counit-representative-descent-v1"
 kind = "lemma"
 title = "Representative descent for the comparison counit"
-order = 796
+order = 1685
 uses = ["def-weil-pbc-epsilon-factorization-index-v1", "def-weil-pbc-epsilon-unit-counit", "lemma-weil-pbc-epsilon-geometric-morphism-construction-v1"]
 +++
 The rule $(W\xrightarrow a\iota_XU,s)\mapsto G(a)(s)$ respects the

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-torsion-filtered-union"
 kind = "lemma"
 title = "Filtered torsion union"
-order = 667
+order = 1435
 +++
 For every torsion sheaf $F$ the inclusions $F[n]\hookrightarrow F[mn]$ form a
 filtered system and the canonical map $\varinjlim_nF[n]\to F$ is an

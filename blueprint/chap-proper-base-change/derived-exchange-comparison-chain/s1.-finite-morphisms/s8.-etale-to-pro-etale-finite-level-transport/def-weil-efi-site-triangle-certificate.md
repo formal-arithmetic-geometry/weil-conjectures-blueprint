@@ -2,7 +2,7 @@
 id = "def-weil-efi-site-triangle-certificate"
 kind = "definition"
 title = "Triangle-certificate predicate for the comparison adjunction"
-order = 805
+order = 1694
 uses = ["def-weil-pbc-epsilon-unit-counit"]
 +++
 Let $\mathsf{TriangleCert}(\eta^X,\varepsilon^X)$ be the conjunction of the

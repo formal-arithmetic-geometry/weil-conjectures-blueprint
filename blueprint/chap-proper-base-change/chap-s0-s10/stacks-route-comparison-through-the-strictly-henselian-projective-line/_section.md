@@ -2,7 +2,7 @@
 id = "stacks-route-comparison-through-the-strictly-henselian-projective-line"
 kind = "section"
 title = "Stacks route: comparison through the strictly henselian projective line"
-order = 638
+order = 1406
 +++
 **Status.** This file is the S0–S4 core of the A3 DAG
 `research/a3_stacks_proper_base_change_dag.md`. The coefficient

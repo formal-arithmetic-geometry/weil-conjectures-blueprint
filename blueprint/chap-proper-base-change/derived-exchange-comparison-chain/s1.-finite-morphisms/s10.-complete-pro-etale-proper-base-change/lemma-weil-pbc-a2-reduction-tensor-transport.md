@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-a2-reduction-tensor-transport"
 kind = "lemma"
 title = "Reduction and completed-tensor transport to A2"
-order = 900
+order = 1789
 uses = ["def-weil-pbc-a2-constructible-rebind", "def-weil-pbc-complete-coefficient-datum", "def-weil-pbc-completed-tensor-product", "lemma-weil-pbc-completed-tensor-reduction", "lemma-weil-pbc-zl-reduction-perfect"]
 +++
 For every $K$ and $n$, there is a canonical natural isomorphism

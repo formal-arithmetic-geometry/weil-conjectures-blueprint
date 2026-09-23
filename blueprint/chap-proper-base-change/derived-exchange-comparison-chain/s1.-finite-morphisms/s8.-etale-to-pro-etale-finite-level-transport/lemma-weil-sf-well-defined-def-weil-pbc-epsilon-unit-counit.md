@@ -2,7 +2,7 @@
 id = "lemma-weil-sf-well-defined-def-weil-pbc-epsilon-unit-counit"
 kind = "lemma"
 title = "Well-definedness certificate for def:weil-pbc-epsilon-unit-counit"
-order = 808
+order = 1697
 uses = ["def-weil-pbc-epsilon-unit-counit", "lemma-weil-pbc-epsilon-adjunction-equations-v1", "lemma-weil-pbc-epsilon-counit-representative-descent-v1", "lemma-weil-pbc-epsilon-geometric-morphism-construction-v1"]
 +++
 The construction in Definition [def-weil-pbc-epsilon-unit-counit] is a typed raw datum. Its theorem-valued naturality, comparison, descent, or coherence fields are isolated in this property lemma.

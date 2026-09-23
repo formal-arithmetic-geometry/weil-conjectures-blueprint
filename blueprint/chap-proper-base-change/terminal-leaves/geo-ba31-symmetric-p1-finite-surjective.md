@@ -2,7 +2,7 @@
 id = "geo-ba31-symmetric-p1-finite-surjective"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 937
+order = 1826
 tags = ["latex:openproblem"]
 +++
 **Owner.**`GEO-BA31-SYMMETRIC-P1-FINITE-SURJECTIVE` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`GEO`.

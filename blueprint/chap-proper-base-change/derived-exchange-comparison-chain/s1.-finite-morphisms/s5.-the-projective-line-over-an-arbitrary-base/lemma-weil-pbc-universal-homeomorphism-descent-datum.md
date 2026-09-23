@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-universal-homeomorphism-descent-datum"
 kind = "lemma"
 title = "Canonical etale descent across a universal homeomorphism"
-order = 724
+order = 1566
 +++
 **Status.** Bypassed by the formalized route: Lemma [lemma-weil-pbc-universal-homeomorphism-site-equivalence] is proved in Lean following the second proof of Tag `04DZ` (graph descent, the section trick and fibre-degree induction), which does not go through the canonical descent datum.
 

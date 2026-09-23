@@ -2,7 +2,7 @@
 id = "cat-ba43-densification-iterated-coherence"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 959
+order = 1848
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA43-DENSIFICATION-ITERATED-COHERENCE` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT/GEO`.

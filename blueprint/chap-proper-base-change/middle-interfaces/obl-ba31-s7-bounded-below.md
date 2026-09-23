@@ -2,7 +2,7 @@
 id = "obl-ba31-s7-bounded-below"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 920
+order = 1809
 tags = ["latex:openproblem"]
 uses = ["fa-cat-ba31-bounded-below-postnikov", "obl-ba31-s0-global-mate", "obl-ba31-s6-sheaf-assembly"]
 +++

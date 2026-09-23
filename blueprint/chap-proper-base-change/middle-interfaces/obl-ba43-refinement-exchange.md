@@ -2,7 +2,7 @@
 id = "obl-ba43-refinement-exchange"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 922
+order = 1811
 tags = ["latex:openproblem"]
 uses = ["cat-ba30-rfstar-rebind", "cat-ba33-derived-open-exchange", "obl-ba31-finite-pbc"]
 +++

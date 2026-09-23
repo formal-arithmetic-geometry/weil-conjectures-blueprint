@@ -2,7 +2,7 @@
 id = "prop-weil-efi-site-derived-comparison-isomorphism"
 kind = "theorem"
 title = "Finite-level etale/pro-etale cohomology comparison"
-order = 818
+order = 1707
 tags = ["latex:proposition"]
 uses = ["def-weil-efi-site-derived-cohomology-comparison", "lemma-weil-efi-site-inverse-image-exact", "lemma-weil-pbc-epsilon-derived-unit"]
 +++

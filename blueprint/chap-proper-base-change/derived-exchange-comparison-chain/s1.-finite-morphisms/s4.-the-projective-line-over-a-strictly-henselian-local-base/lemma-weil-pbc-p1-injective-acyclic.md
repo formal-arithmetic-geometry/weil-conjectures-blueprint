@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-p1-injective-acyclic"
 kind = "lemma"
 title = "Acyclicity of injectives on $\\mathbf P^1_s$"
-order = 712
+order = 1523
 uses = ["lemma-weil-pbc-h1-constructible-representation", "lemma-weil-pbc-h1-torsor-comparison", "lemma-weil-pbc-injective-restriction-acyclicity"]
 +++
 For an injective sheaf $I$ of $\mathbf F_\ell$-modules on

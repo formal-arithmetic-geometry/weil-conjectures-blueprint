@@ -2,7 +2,7 @@
 id = "cat-geo-ba31-finite-fibre-product"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 934
+order = 1823
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-GEO-BA31-FINITE-FIBRE-PRODUCT` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT/GEO`.

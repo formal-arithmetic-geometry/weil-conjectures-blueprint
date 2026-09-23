@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-right-triangle"
 kind = "lemma"
 title = "Right triangle equation for the comparison adjunction"
-order = 804
+order = 1693
 uses = ["def-weil-pbc-epsilon-unit-counit"]
 +++
 For every pro-etale $A$-module sheaf $G$,

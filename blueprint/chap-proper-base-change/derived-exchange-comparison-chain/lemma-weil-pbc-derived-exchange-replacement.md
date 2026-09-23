@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-derived-exchange-replacement"
 kind = "lemma"
 title = "Derived exchange replacement independence"
-order = 663
+order = 1431
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_ext", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_fac_app"]
 uses = ["def-weil-pbc-derived-exchange", "lemma-weil-pbc-derived-exchange-source-comparison-v5", "lemma-weil-pbc-derived-exchange-target-comparison-exists-v5", "lemma-weil-pbc-derived-exchange-target-comparison-unique-v5", "lemma-weil-pbc-underived-exchange-naturality"]
 +++

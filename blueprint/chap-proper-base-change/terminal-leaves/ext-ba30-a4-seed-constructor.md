@@ -2,7 +2,7 @@
 id = "ext-ba30-a4-seed-constructor"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 927
+order = 1816
 tags = ["latex:openproblem"]
 +++
 **Owner.**`EXT-BA30-A4-SEED-CONSTRUCTOR` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`MIXED`.

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-frobenius-tower-datum"
 kind = "definition"
 title = "Frobenius-equivariant square and Weil tower"
-order = 881
+order = 1770
 uses = ["def-weil-pbc-level-map-arrows", "def-weil-pbc-level-map-corners"]
 +++
 A Frobenius-equivariant datum for the proper Cartesian square $\square$ and

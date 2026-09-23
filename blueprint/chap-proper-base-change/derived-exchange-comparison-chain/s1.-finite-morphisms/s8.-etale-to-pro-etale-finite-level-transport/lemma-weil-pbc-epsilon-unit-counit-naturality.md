@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-unit-counit-naturality"
 kind = "lemma"
 title = "Naturality of the comparison unit and counit"
-order = 809
+order = 1698
 uses = ["def-weil-pbc-epsilon-comparison", "def-weil-pbc-epsilon-unit-counit"]
 +++
 For $\alpha:F\to F'$ on $X_{\mathrm{et}}$ and $\beta:G\to G'$ on

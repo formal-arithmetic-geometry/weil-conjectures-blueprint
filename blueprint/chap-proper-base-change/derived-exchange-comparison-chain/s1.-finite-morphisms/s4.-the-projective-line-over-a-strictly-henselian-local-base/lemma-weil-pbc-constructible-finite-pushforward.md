@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-constructible-finite-pushforward"
 kind = "lemma"
 title = "Constructible sheaves reduce to finite pushforwards"
-order = 703
+order = 1514
 uses = ["lemma-weil-pbc-constructible-approximation"]
 +++
 If $U$ is quasi-compact and quasi-separated, every constructible torsion

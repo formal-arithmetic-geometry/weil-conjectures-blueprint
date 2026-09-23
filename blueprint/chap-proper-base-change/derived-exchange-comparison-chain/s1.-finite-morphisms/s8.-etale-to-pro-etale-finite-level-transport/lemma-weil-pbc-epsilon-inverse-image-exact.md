@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-inverse-image-exact"
 kind = "lemma"
 title = "Exactness of comparison inverse image"
-order = 794
+order = 1683
 uses = ["lemma-weil-pbc-epsilon-geometric-morphism"]
 +++
 For every commutative ring $A$, the functor

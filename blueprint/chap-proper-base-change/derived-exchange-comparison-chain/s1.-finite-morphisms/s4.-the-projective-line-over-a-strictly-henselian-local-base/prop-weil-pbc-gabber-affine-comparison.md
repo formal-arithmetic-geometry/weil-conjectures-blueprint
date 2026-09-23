@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-gabber-affine-comparison"
 kind = "theorem"
 title = "Gabber affine comparison"
-order = 706
+order = 1517
 tags = ["latex:proposition"]
 uses = ["lemma-weil-pbc-etale-degree-zero", "lemma-weil-pbc-gabber-effacement"]
 +++

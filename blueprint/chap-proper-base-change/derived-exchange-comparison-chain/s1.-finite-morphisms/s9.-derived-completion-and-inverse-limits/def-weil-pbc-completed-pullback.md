@@ -2,7 +2,7 @@
 id = "def-weil-pbc-completed-pullback"
 kind = "definition"
 title = "Completed pullback"
-order = 841
+order = 1730
 uses = ["def-weil-pbc-complete-coefficient-datum"]
 +++
 For $g:Y'\to Y$ define

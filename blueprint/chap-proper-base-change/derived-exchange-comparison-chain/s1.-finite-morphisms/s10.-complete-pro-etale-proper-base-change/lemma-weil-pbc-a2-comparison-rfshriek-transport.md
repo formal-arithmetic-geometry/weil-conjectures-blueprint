@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-a2-comparison-rfshriek-transport"
 kind = "lemma"
 title = "Site-comparison and exceptional-image transport to A2"
-order = 901
+order = 1790
 uses = ["def-weil-pbc-a2-constructible-rebind", "def-weil-pbc-epsilon-comparison", "def-weil-pbc-projection-compactification", "lemma-weil-pbc-epsilon-direct-image", "lemma-weil-pbc-epsilon-pullback", "lemma-weil-pbc-projection-formula-identity-compactification"]
 +++
 Under the identity-on-objects site functor of S8, the A2 notation

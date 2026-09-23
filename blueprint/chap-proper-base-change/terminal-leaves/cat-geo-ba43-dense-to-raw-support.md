@@ -2,7 +2,7 @@
 id = "cat-geo-ba43-dense-to-raw-support"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 956
+order = 1845
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-GEO-BA43-DENSE-TO-RAW-SUPPORT` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT/GEO`.

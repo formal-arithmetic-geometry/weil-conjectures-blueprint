@@ -2,7 +2,7 @@
 id = "a43.-dense-compactifications-and-composition"
 kind = "section"
 title = "A43. Dense compactifications and composition"
-order = 905
+order = 1794
 +++
 Let $f:X\to Y$ be separated and finitely presented. A dense
 compactification is data

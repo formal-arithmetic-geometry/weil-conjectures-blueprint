@@ -2,7 +2,7 @@
 id = "cat-ba31-sheaf-stalk-faithfulness"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 943
+order = 1832
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA31-SHEAF-STALK-FAITHFULNESS` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT`.

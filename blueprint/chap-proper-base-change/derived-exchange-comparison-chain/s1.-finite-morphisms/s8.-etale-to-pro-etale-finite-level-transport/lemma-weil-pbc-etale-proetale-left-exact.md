@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-etale-proetale-left-exact"
 kind = "lemma"
 title = "Finite-limit preservation of the inclusion"
-order = 773
+order = 1662
 uses = ["def-weil-pbc-etale-proetale-inclusion", "lemma-weil-pbc-etale-proetale-functor"]
 +++
 The functor $\iota_X$ preserves the terminal object and fiber products, hence

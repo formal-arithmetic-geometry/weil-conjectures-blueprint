@@ -2,7 +2,7 @@
 id = "obl-ba31-s1-finite"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 914
+order = 1803
 tags = ["latex:openproblem"]
 uses = ["cat-geo-ba31-finite-fibre-product", "obl-ba31-s0-global-mate"]
 +++

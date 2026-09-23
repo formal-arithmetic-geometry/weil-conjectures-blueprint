@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-open-comparison"
 kind = "definition"
 title = "Finite-open comparison map"
-order = 735
+order = 1577
 +++
 Consider a Cartesian square
 

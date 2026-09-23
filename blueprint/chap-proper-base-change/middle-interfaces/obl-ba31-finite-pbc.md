@@ -2,7 +2,7 @@
 id = "obl-ba31-finite-pbc"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 912
+order = 1801
 tags = ["latex:openproblem"]
 uses = ["obl-ba31-s0-global-mate", "obl-ba31-s1-finite", "obl-ba31-s2-stability", "obl-ba31-s3-projective-reduction", "obl-ba31-s4-henselian-p1", "obl-ba31-s5-stalk-comparison", "obl-ba31-s6-sheaf-assembly", "obl-ba31-s7-bounded-below"]
 +++

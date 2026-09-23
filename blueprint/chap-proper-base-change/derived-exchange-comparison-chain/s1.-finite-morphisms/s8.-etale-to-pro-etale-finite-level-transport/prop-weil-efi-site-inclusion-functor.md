@@ -2,7 +2,7 @@
 id = "prop-weil-efi-site-inclusion-functor"
 kind = "theorem"
 title = "The site assignment satisfies its functor laws"
-order = 764
+order = 1653
 tags = ["latex:proposition"]
 uses = ["def-weil-efi-site-inclusion-functor-certificate", "def-weil-pbc-etale-proetale-inclusion", "lemma-weil-efi-site-inclusion-composition", "lemma-weil-efi-site-inclusion-identity"]
 +++

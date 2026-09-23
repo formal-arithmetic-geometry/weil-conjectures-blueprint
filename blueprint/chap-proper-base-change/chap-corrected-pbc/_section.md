@@ -2,7 +2,7 @@
 id = "chap-corrected-pbc"
 kind = "section"
 title = "Corrected typed finite-level interface"
-order = 636
+order = 1404
 +++
 **Status.** This chapter is the authoritative typing boundary for the ordinary finite-level proof. It replaces the ill-typed historical sectionwise S0 formula. Every named S0–S7 middle owner remains OPEN/INCOMPLETE, and every atomic input is listed in Appendix [app-gap-ledger].
 

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-derived-unit"
 kind = "lemma"
 title = "Derived comparison for the epsilon unit"
-order = 817
+order = 1706
 uses = ["lemma-weil-pbc-epsilon-injective-acyclicity", "lemma-weil-pbc-epsilon-inverse-image-exact", "lemma-weil-pbc-epsilon-unit-isomorphism"]
 +++
 For $L\in D^+(X_{\mathrm{et}},A)$, the derived unit

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-eight-curve-assertions"
 kind = "definition"
 title = "The eight curve-cohomology assertions"
-order = 728
+order = 1570
 +++
 Let $k$ be algebraically closed, let $X$ be separated of finite type over
 $k$ with $\dim X\leq1$, and let $F$ be a torsion sheaf on $X_{\mathrm{et}}$.

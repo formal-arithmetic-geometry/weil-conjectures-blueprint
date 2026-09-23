@@ -2,7 +2,7 @@
 id = "obl-ba30-a4-seed-to-proper-finite"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 911
+order = 1800
 tags = ["latex:openproblem"]
 uses = ["cat-ba30-rfstar-rebind", "ext-ba30-a4-seed-constructor", "ext-ba30-relative-cohomological-dimension", "fa-ba30-bounded-postnikov-serre"]
 +++

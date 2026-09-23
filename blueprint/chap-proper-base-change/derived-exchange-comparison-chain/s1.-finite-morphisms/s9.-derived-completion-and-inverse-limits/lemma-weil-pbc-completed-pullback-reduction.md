@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-completed-pullback-reduction"
 kind = "lemma"
 title = "Reduction commutes with completed pullback"
-order = 842
+order = 1731
 uses = ["def-weil-pbc-completed-pullback", "lemma-weil-pbc-adic-completion-reduction"]
 +++
 For every $n$,

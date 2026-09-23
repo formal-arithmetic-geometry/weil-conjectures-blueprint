@@ -2,7 +2,7 @@
 id = "ext-ba30-relative-cohomological-dimension"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 929
+order = 1818
 tags = ["latex:openproblem"]
 +++
 **Owner.**`EXT-BA30-RELATIVE-COHOMOLOGICAL-DIMENSION` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`EXT-GEO`.

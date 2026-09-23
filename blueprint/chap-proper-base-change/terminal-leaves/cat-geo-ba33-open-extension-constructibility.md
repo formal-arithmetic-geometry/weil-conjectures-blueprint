@@ -2,7 +2,7 @@
 id = "cat-geo-ba33-open-extension-constructibility"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 961
+order = 1850
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-GEO-BA33-OPEN-EXTENSION-CONSTRUCTIBILITY` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT/GEO`.

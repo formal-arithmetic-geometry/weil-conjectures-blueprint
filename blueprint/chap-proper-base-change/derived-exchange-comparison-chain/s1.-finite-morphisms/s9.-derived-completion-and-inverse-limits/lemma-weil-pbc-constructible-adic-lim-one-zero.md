@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-constructible-adic-lim-one-zero"
 kind = "lemma"
 title = "Bounded constructible towers have no Milnor obstruction"
-order = 839
+order = 1728
 uses = ["def-weil-pbc-bounded-constructible-adic-tower", "lemma-weil-pbc-adic-lim-one-zero", "lemma-weil-pbc-adic-milnor-sequence"]
 +++
 If the reduction tower $K_\bullet$ attached to $K$ is uniformly bounded

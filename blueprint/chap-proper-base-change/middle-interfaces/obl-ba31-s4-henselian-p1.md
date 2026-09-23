@@ -2,7 +2,7 @@
 id = "obl-ba31-s4-henselian-p1"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 917
+order = 1806
 tags = ["latex:openproblem"]
 uses = ["ext-geo-ba31-gabber-affine", "ext-geo-ba31-henselian-h0", "ext-geo-ba31-torsor-h1"]
 +++

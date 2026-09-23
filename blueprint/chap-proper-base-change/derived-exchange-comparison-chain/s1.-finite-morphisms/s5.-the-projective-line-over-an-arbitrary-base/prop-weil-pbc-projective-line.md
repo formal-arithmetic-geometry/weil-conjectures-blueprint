@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-projective-line"
 kind = "theorem"
 title = "Projective-line proper base change"
-order = 746
+order = 1588
 tags = ["latex:proposition"]
 uses = ["lemma-weil-pbc-geometric-stalk-conservative", "lemma-weil-pbc-p1-exchange-geometric-stalk", "lemma-weil-pbc-property-iff-acyclicity", "prop-weil-pbc-proper-curve-sepclosed-invariance"]
 +++

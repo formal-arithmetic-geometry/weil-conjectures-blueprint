@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-cover-killing"
 kind = "lemma"
 title = "Finite-cover killing and finite pushforward monicity"
-order = 704
+order = 1515
 uses = ["lemma-weil-pbc-finite-stage-killing", "lemma-weil-pbc-finite-stalk-formula"]
 +++
 For a fixed $c\in H^q(T_0,C_0)$ with $q>0$ and constructible $C$, there is a
