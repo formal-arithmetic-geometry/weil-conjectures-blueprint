@@ -2,8 +2,8 @@
 id = "thm-sp-if-e1"
 kind = "theorem"
 title = "Hypercohomology spectral sequence via a Cartan--Eilenberg resolution"
-order = 1234
-uses = ["def-sp-convergence", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "def-sp-truncation-couple", "lem-sp-kinjective-computes", "thm-sp-spectral-object-yields"]
+order = 1235
+uses = ["def-sp-convergence", "def-sp-injective-resolutions", "def-sp-kinjective-bridge", "def-sp-left-exact-additive", "def-sp-truncation-couple", "lem-sp-kinjective-computes", "thm-sp-spectral-object-yields"]
 +++
 Let $v$ be as in [def-sp-truncation-couple] and let $A^{\bullet,\bullet}$ be
 a Cartan--Eilenberg resolution of a bounded-below complex $K^\bullet$: the
@@ -26,6 +26,15 @@ bicomplex spectral sequence without constructing it. It is now an application
 of [thm-sp-spectral-object-yields] to the total complex of the double complex
 with its second-degree filtration, together with the standard identification
 of the row cohomology with the derived functors.
+
+It also formerly asserted that a Cartan--Eilenberg resolution computes the
+derived functor of a complex, attributing that to
+[def-sp-left-exact-additive], which defines derived functors only on objects,
+and then took independence of the resolution from
+[lem-sp-kinjective-computes], whose own proof appealed back to this theorem.
+$Rv$ on complexes is now defined once, in [def-sp-kinjective-bridge], and both
+steps are readings of that definition. The dependence runs one way: this
+theorem uses the lemma, the lemma does not use this theorem.
 
 ## Proof
 
@@ -54,9 +63,33 @@ boundary homomorphism of the filtration, which is induced by the differential
 of $K^\bullet$ because the rows are resolutions of the $K^s$ and the maps
 between them come from $K^\bullet$. Item (b) of the same theorem identifies
 the abutment with the cohomology of the total complex, $\mathcal
-H^{r+s}(\operatorname{Tot}(v(A^{\bullet,\bullet})))$, and this is $\mathcal
-H^{r+s}(RvK^\bullet)$ because a Cartan--Eilenberg resolution computes the
-derived functor of the complex, as recorded in
-[def-sp-left-exact-additive]. Independence of the resolution follows by
-comparing any two of them with a K-injective representative,
-[lem-sp-kinjective-computes].
+H^{r+s}(\operatorname{Tot}(v(A^{\bullet,\bullet})))$.
+
+It remains to identify that with $\mathcal H^{r+s}(RvK^\bullet)$, for the
+derived functor on $\operatorname{Ch}^+$ of [def-sp-kinjective-bridge]. In
+total degree $n$,
+
+$$
+ \operatorname{Tot}(A^{\bullet,\bullet})^n=
+ \bigoplus_{r+s=n}A^{r,s},
+$$
+
+a *finite* direct sum: the rows are resolutions, so $A^{r,s}=0$ for $r<0$, and
+$K^\bullet$ is bounded below, so $A^{r,s}=0$ for $s$ below some $s_0$. A
+finite direct sum of injectives is injective, so
+$\operatorname{Tot}(A^{\bullet,\bullet})$ is a bounded-below complex of
+injectives, hence K-injective by part (2) of [lem-sp-kinjective-computes]. The
+augmentation $K^\bullet\to\operatorname{Tot}(A^{\bullet,\bullet})$ of a
+Cartan--Eilenberg resolution of a bounded-below complex is a
+quasi-isomorphism, so it is a K-injective resolution of $K^\bullet$ and
+
+$$
+ RvK^\bullet\cong v\bigl(\operatorname{Tot}(A^{\bullet,\bullet})\bigr)
+ =\operatorname{Tot}\bigl(v(A^{\bullet,\bullet})\bigr),
+$$
+
+the second equality because $v$ is additive
+[def-sp-left-exact-additive] and the total complex is a finite direct sum in
+each degree. Independence of the chosen Cartan--Eilenberg resolution is part
+(1) of [lem-sp-kinjective-computes]: any two K-injective resolutions of
+$K^\bullet$ give canonically isomorphic values.

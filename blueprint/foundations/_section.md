@@ -41,13 +41,15 @@ chapter cites nothing outside itself. Six objects the source files in a section
 that cites them but is cited by them are moved to the section they belong to;
 each such move is recorded in the body of both sections.
 
-Reading order is a topological order of the whole `uses` graph, with one
-exception. [thm-sp-if-e1] and [lem-sp-kinjective-computes] cite each other in
-their proofs in the source — the theorem's resolution-independence clause
-appeals to the K-injective comparison, and the comparison appeals to the
-theorem's Cartan--Eilenberg resolution. That is a genuine circularity, not a
-filing mistake, and it is the only one in the blueprint; it is reported rather
-than repaired, since repairing it means splitting the theorem.
+Reading order is a topological order of the whole `uses` graph: no object in
+the part cites anything that comes after it.
+
+One circular proof in the source was repaired rather than refiled.
+[thm-sp-if-e1] and [lem-sp-kinjective-computes] cited each other, because the
+chapter used $Rv$ on complexes while defining it only on objects, so each of
+the two was the only thing that could say what the other meant. The definition
+is now stated once, in [def-sp-kinjective-bridge]; the lemma is proved from
+K-injectivity alone, and the theorem from the lemma.
 
 The part is self-contained: every `uses` edge recorded inside it resolves
 inside it, so this section cites nothing beyond itself and carries no `uses`
