@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-strict-local-exchange"
 kind = "theorem"
 title = "Strict-local projective-line exchange"
-order = 1556
-tags = ["latex:proposition"]
+order = 1654
 uses = ["def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-henselian-terminology", "prop-weil-pbc-p1-cohomology-comparison"]
+tags = ["latex:proposition"]
 +++
 Let $A\to B$ be a local morphism of strictly henselian local rings inducing a
 specified extension of their separably closed residue fields. For the

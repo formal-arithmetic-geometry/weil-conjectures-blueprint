@@ -2,7 +2,7 @@
 id = "prop-weil-proet-finite-derived-proper-base-change"
 kind = "theorem"
 title = "Bounded-below finite derived proper base change"
-order = 1637
+order = 1735
 tags = ["latex:proposition"]
 uses = ["lemma-weil-pbc-hypercohomology-convergence", "lemma-weil-pbc-hypercohomology-map", "prop-weil-proet-finite-proper-base-change"]
 +++

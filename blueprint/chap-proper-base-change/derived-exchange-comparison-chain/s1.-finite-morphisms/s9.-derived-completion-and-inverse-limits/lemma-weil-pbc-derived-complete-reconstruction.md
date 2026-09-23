@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-derived-complete-reconstruction"
 kind = "lemma"
 title = "Derived-complete reconstruction"
-order = 1725
+order = 1827
 uses = ["def-weil-pbc-intrinsic-koszul-completion", "lemma-weil-pbc-koszul-quotient-limit"]
 +++
 If $K$ is intrinsically derived $I$-complete, then

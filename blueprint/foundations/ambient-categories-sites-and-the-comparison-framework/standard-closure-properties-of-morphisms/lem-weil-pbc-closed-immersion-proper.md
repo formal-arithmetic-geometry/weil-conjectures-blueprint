@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-closed-immersion-proper"
 kind = "lemma"
 title = "Closed immersions are proper"
-order = 1265
+order = 1178
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-composition"]
 +++
 A closed immersion [def-weil-pbc-scheme-conventions] is proper, and so is the

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-curve-dense-open-reduction"
 kind = "lemma"
 title = "Dense-open localization reduction"
-order = 1574
+order = 1672
 uses = ["lemma-weil-pbc-curve-constructible-primary-reduction", "lemma-weil-pbc-eight-curve-devissage"]
 +++
 Let $X$ be a reduced curve and $F$ a constructible $\mathbf F_\ell$-sheaf.

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-fibre-product-limit"
 kind = "lemma"
 title = "Fiber products commute with the neighborhood limit"
-order = 1295
+order = 1210
 uses = ["def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit-detailed"]
 +++
 If $f:X\to S$ is quasi-compact and quasi-separated

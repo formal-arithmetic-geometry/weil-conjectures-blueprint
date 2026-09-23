@@ -2,7 +2,7 @@
 id = "def-weil-pbc-underived-exchange"
 kind = "definition"
 title = "Underived exchange map: corrected categorical construction"
-order = 1409
+order = 1509
 lean = ["AlgebraicGeometry.Etale.baseChangeMap", "AlgebraicGeometry.Etale.upperStar_map_baseChangeMap_app_counit"]
 uses = ["def-weil-pbc-cartesian-square"]
 +++

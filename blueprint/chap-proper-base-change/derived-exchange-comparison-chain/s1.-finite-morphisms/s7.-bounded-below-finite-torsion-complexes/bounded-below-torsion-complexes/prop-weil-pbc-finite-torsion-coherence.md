@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-finite-torsion-coherence"
 kind = "theorem"
 title = "Coherence of the finite-torsion exchange"
-order = 1646
-tags = ["latex:proposition"]
+order = 1744
 uses = ["def-weil-pbc-derived-exchange-detailed", "lem-weil-pbc-exchange-identity-pasting", "thm-weil-pbc-finite-torsion"]
+tags = ["latex:proposition"]
 +++
 The exchange morphism $\Ex_{\square,F}$ of [thm-weil-pbc-finite-torsion] is
 natural in $F$, is the identity for identity squares, and satisfies horizontal

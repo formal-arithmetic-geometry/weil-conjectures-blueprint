@@ -2,7 +2,7 @@
 id = "finite-tor-amplitude-constructible-intervals-and-coefficient-tate-twists"
 kind = "section"
 title = "Finite Tor amplitude, constructible intervals, and coefficient Tate twists"
-order = 1147
+order = 1372
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-rationalization-karoubi", "def-weil-small-proetale-site-detailed"]
 +++
 Three pieces of bookkeeping used by the operations. Finite Tor amplitude

@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-direct-image-limits"
 kind = "theorem"
 title = "Direct image, derived limits, and completeness"
-order = 1376
-tags = ["latex:proposition"]
+order = 1291
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-projection-formula-map", "prop-weil-pbc-perfect-projection-formula", "prop-weil-pbc-roos-triangle"]
+tags = ["latex:proposition"]
 +++
 Levelwise direct image on tower categories has a total right derived functor
 

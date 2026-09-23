@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-perfect-projection-formula"
 kind = "theorem"
 title = "Perfect projection formula"
-order = 1375
-tags = ["latex:proposition"]
+order = 1290
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-proetale-operations", "def-weil-pbc-projection-formula-map"]
+tags = ["latex:proposition"]
 +++
 For fixed $f$ and $K$, the full subcategory of objects $P$ for which
 $\pi_{f,K,P}$ of [def-weil-pbc-projection-formula-map] is an isomorphism is a

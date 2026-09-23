@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-complete-constructible-restriction"
 kind = "lemma"
 title = "Constructible-subcategory restriction"
-order = 1792
+order = 1894
 uses = ["def-weil-pbc-a2-constructible-rebind", "lemma-weil-pbc-a2-comparison-rfshriek-transport", "lemma-weil-pbc-a2-reduction-tensor-transport", "lemma-weil-pbc-a2-s7-s10-endpoint-compatibility", "prop-weil-proet-complete-proper-base-change"]
 +++
 For every proper Cartesian square, the complete base-change isomorphism

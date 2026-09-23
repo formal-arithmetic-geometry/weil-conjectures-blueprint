@@ -2,8 +2,8 @@
 id = "def-compact-support-direct-image-detailed"
 kind = "definition"
 title = "Compactification-independent finite-level direct image"
-order = 1163
-uses = ["def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties"]
+order = 1388
+uses = ["def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties"]
 +++
 Let $K_0$ be a field, let $X,Y$ be finite-type
 [def-weil-scheme-morphism-properties] $K_0$-schemes, and let $f:X\to Y$ be a
@@ -37,4 +37,4 @@ refinement, are the compactification-coherence proposition; that $Rf_{!,n}$
 is a triangulated functor is
 [lem-compact-support-direct-image-triangulated].
 
-Unresolved dependencies: def:weil-pbc-etale-origin-witness, prop:compactification-coherence
+Unresolved dependencies: prop:compactification-coherence

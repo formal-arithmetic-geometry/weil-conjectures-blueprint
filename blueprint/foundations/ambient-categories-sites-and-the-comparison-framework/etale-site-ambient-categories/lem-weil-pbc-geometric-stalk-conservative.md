@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-geometric-stalk-conservative"
 kind = "lemma"
 title = "Conservativity of geometric stalks"
-order = 1250
+order = 1163
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 A morphism of etale sheaves of abelian groups is an isomorphism if and only

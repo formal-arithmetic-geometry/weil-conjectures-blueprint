@@ -11,13 +11,23 @@ that no statement downstream rests on an unstated convention.
 
 Five chapters, in the order in which they are used — the order is a
 topological order of the chapter dependency graph, so every chapter stands
-after everything it cites:
+after everything it cites. It is not the source's chapter order: the ambient
+site chapter stands before the coefficient chapter, because the coefficient
+tower is built on the sites.
 
 - [the-karoubi-envelope-and-bounded-t-structures] is pure category theory:
-idempotent completion, t-structures, and the fact that a bounded t-structure
-makes a triangulated category Karoubian. It depends on nothing else in the
-part. The source files it as a subsection of chapter 4, which made chapters 1
-and 4 cite each other in both directions; it is a chapter of its own here.
+idempotent completion, t-structures, the fact that a bounded t-structure makes
+a triangulated category Karoubian, and derived limits in a triangulated
+category. It depends on nothing else in the part. The source files all of it
+where first used, which made chapters cite each other in both directions; it
+is a chapter of its own here.
+- [spectral-sequence-machinery] builds the exact-couple and hypercohomology
+formalism from scratch, up to the Grothendieck spectral sequence and its
+base-change naturality.
+- [ambient-categories-sites-and-the-comparison-framework] sets up the small
+etale and pro-etale sites, direct and inverse image with the named exchange
+morphisms, the strict henselization as a limit, hypercover descent, the
+predicates $\mathrm{PBC}$ and $\mathrm{IA}$, and derived completion.
 - [conventions-coefficient-categories-and-basic-operations] fixes the
 arithmetic and geometric conventions, builds the coefficient tower through
 its four stages ($A_{E,n}$, $\mathcal O_E$, $E$, $\Qlb$), and defines the six
@@ -26,20 +36,22 @@ operations in triangulated form.
 vocabulary the conjectures are stated in: local Frobenius and its trace, the
 zeta-series normalization, the Poincare trace and cup product, and the three
 notions of weight.
-- [spectral-sequence-machinery] builds the exact-couple and hypercohomology
-formalism from scratch, up to the Grothendieck spectral sequence and its
-base-change naturality.
-- [ambient-categories-sites-and-the-comparison-framework] sets up the small
-etale and pro-etale sites, direct and inverse image with the named exchange
-morphisms, the strict henselization as a limit, hypercover descent, the
-predicates $\mathrm{PBC}$ and $\mathrm{IA}$, and derived completion.
 
 The dependency graph of the part is acyclic at chapter level and at section
 level: the conventions chapter cites the Karoubi chapter, the Weil-structure
 and ambient chapters cite the conventions chapter, and the spectral-sequence
-chapter cites nothing outside itself. Six objects the source files in a section
+chapter cites nothing outside itself. Objects the source files in a section
 that cites them but is cited by them are moved to the section they belong to;
 each such move is recorded in the body of both sections.
+
+The coefficient chapter also carries the construction half of chapter 6 of the
+source, *The pro-etale comparison and coefficient categories*: the comparison
+of sites, the constructible finiteness, the rational and $\Qlb$ stages, and
+the ambient open--closed recollement. Those six sections build the categories;
+the four theorems of that chapter which carry proper base change up them are
+not here but in [chap-proper-base-change], continuing its S0--S10 route. The
+split is one-way by construction: no object in this part cites the
+base-change half.
 
 Reading order is a topological order of the whole `uses` graph: no object in
 the part cites anything that comes after it.

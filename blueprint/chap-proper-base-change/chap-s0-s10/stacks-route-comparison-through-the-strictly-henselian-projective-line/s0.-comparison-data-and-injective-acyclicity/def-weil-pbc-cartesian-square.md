@@ -2,7 +2,7 @@
 id = "def-weil-pbc-cartesian-square"
 kind = "definition"
 title = "Cartesian square and chosen pullback identification"
-order = 1408
+order = 1508
 lean = ["AlgebraicGeometry.Etale.squareUpperStarIso"]
 +++
 For schemes and morphisms

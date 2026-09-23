@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-adjunction-hom-right-inverse"
 kind = "lemma"
 title = "Right inverse equation for the comparison Hom maps"
-order = 1672
+order = 1770
 uses = ["def-weil-efi-site-adjunction-hom-backward", "def-weil-efi-site-adjunction-hom-forward"]
 +++
 For every $\beta:F\to\epsilon_{X,*}G$,

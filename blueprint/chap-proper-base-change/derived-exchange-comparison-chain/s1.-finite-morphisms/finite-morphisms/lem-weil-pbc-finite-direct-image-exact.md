@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-direct-image-exact"
 kind = "lemma"
 title = "Exactness of finite direct image"
-order = 1451
+order = 1551
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-stalk-formula"]
 +++
 For finite $f$, the functor $f_*:\Ab(X_{\Et})\to\Ab(Y_{\Et})$ is exact.

@@ -2,7 +2,7 @@
 id = "ext-geo-ba31-henselian-h0"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1827
+order = 1956
 tags = ["latex:openproblem"]
 +++
 **Owner.**`EXT-GEO-BA31-HENSELIAN-H0` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`EXT-GEO`.

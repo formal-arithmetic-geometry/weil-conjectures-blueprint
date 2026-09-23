@@ -2,7 +2,7 @@
 id = "def-weil-pbc-projection-formula-arrows"
 kind = "definition"
 title = "Projection-formula arrows"
-order = 1735
+order = 1837
 uses = ["def-weil-pbc-strict-perfect-coefficient-package"]
 +++
 For a morphism of ringed topoi $h:\mathcal T\to\mathcal S$, an object

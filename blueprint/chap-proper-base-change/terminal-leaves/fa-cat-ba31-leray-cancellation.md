@@ -2,7 +2,7 @@
 id = "fa-cat-ba31-leray-cancellation"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1824
+order = 1953
 tags = ["latex:openproblem"]
 +++
 **Owner.**`FA-CAT-BA31-LERAY-CANCELLATION` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`FA/CAT`.

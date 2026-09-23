@@ -2,7 +2,7 @@
 id = "obl-ba33-refinement-basechange-naturality"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1813
+order = 1942
 tags = ["latex:openproblem"]
 uses = ["cat-ba33-derived-open-exchange", "cat-geo-ba33-open-extension-constructibility", "obl-ba31-s0-global-mate", "obl-ba43-basechange-densification", "obl-ba43-refinement-exchange"]
 +++

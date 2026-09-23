@@ -2,7 +2,7 @@
 id = "obl-ba33-finite-compact-support-base-change"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1814
+order = 1943
 tags = ["latex:openproblem"]
 uses = ["cat-ba33-derived-open-exchange", "cat-ba33-finite-bc-pasting", "cat-geo-ba33-open-extension-constructibility", "obl-ba31-finite-pbc", "obl-ba33-refinement-basechange-naturality", "obl-ba43-basechange-densification", "obl-ba43-relative-coherent-core"]
 +++

@@ -2,7 +2,7 @@
 id = "cat-ba33-derived-open-exchange"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1843
+order = 1972
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA33-DERIVED-OPEN-EXCHANGE` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT`.

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-constructible-finite-pushforward-approximation"
 kind = "lemma"
 title = "Noetherian approximation for finite-pushforward embeddings"
-order = 1543
+order = 1641
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-constructible-finite-pushforward-noetherian", "lem-weil-pbc-etale-finite-data-descent", "lem-weil-pbc-etale-section-continuity"]
 +++
 Let $U$ be quasi-compact and quasi-separated and $C$ a constructible torsion

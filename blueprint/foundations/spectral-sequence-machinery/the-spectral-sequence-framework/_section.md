@@ -2,7 +2,7 @@
 id = "the-spectral-sequence-framework"
 kind = "section"
 title = "The spectral sequence framework"
-order = 1213
+order = 1126
 uses = ["def-sp-abelian"]
 +++
 What a spectral sequence is [def-sp-spectral-sequence], and Verdier's

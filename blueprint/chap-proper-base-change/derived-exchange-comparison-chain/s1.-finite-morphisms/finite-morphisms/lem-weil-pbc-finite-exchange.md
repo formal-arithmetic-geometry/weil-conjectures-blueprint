@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-exchange"
 kind = "lemma"
 title = "Finite exchange"
-order = 1452
+order = 1552
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange-detailed", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-finite-stalk-formula"]
 +++
 In a cartesian square with $f$ finite, the underived exchange map is the

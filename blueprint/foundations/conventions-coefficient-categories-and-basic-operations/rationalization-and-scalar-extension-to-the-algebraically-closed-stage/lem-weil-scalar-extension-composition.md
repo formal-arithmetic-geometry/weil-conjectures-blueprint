@@ -2,8 +2,8 @@
 id = "lem-weil-scalar-extension-composition"
 kind = "lemma"
 title = "Composition of scalar extensions"
-order = 1142
-uses = ["def-weil-rationalization-karoubi"]
+order = 1367
+uses = ["def-weil-rationalization-karoubi", "prop-weil-pbc-scalar-extension"]
 +++
 Let $E\subset L\subset M$ be finite extensions of $\Ql$ and let $Y$ be a
 scheme. For every object $K$ of the rationalized category $D^b_c(Y,E)$ of
@@ -38,5 +38,3 @@ associators recorded in the scalar-extension proposition of the
 proper-base-change chapter, which also supplies naturality in the object and
 the unit and pentagon equations. All categories and functors involved are
 those of [def-weil-rationalization-karoubi].
-
-Unresolved dependencies: prop:weil-pbc-scalar-extension

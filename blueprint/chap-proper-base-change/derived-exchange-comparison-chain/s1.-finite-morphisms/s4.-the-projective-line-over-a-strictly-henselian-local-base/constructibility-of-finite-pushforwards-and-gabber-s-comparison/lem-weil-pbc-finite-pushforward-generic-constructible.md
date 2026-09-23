@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-pushforward-generic-constructible"
 kind = "lemma"
 title = "Generic finite pushforward is constructible"
-order = 1540
+order = 1638
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-exchange", "lem-weil-pbc-noetherian-finite-components", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $S$ be an integral Noetherian affine scheme, let $g:Z\to S$ be finite, and

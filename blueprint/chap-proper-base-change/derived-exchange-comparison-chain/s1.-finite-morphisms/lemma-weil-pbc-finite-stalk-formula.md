@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-stalk-formula"
 kind = "lemma"
 title = "Geometric stalk formula for finite direct image"
-order = 1444
+order = 1544
 lean = ["AlgebraicGeometry.Etale.lowerStarSheafFiberIsoPi", "AlgebraicGeometry.Etale.stalkRestrict"]
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-geometric-fibre", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++

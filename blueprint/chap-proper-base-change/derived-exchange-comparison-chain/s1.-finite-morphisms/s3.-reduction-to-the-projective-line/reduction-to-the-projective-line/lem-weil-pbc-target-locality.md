@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-target-locality"
 kind = "lemma"
 title = "Target locality"
-order = 1493
+order = 1593
 uses = ["def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-qcqs-higher-direct-image"]
 +++
 For proper $f:X\to Y$, the assertion $\mathrm{PBC}(f)$ of

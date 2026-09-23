@@ -2,7 +2,7 @@
 id = "def-weil-efi-site-covering-sieve-image"
 kind = "definition"
 title = "Image of an etale sieve in the pro-etale site"
-order = 1654
+order = 1752
 uses = ["def-weil-pbc-etale-proetale-inclusion"]
 +++
 For an etale object $U\to X$ and a sieve $R\subset h_U$, let

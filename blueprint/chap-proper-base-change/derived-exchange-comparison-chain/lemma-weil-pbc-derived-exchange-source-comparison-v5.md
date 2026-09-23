@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-derived-exchange-source-comparison-v5"
 kind = "lemma"
 title = "Source-resolution comparisons exist and invert"
-order = 1425
+order = 1525
 uses = ["def-weil-pbc-derived-exchange-hom-test-v5", "def-weil-pbc-derived-exchange-source-comparison-v5", "lemma-weil-pbc-derived-exchange-bounded-injective-kinjective-v5", "lemma-weil-pbc-derived-exchange-target-comparison-exists-v5", "lemma-weil-pbc-derived-exchange-target-comparison-unique-v5"]
 +++
 There are comparisons $a:I\to I'$ and $b:I'\to I$, unique up to homotopy,

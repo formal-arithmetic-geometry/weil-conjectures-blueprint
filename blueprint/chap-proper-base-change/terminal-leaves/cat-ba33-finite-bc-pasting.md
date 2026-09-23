@@ -2,7 +2,7 @@
 id = "cat-ba33-finite-bc-pasting"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1851
+order = 1980
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA33-FINITE-BC-PASTING` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT`.

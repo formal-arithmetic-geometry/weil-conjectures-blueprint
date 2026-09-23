@@ -2,7 +2,7 @@
 id = "geo-ba43-refinement-proper"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1835
+order = 1964
 tags = ["latex:openproblem"]
 +++
 **Owner.**`GEO-BA43-REFINEMENT-PROPER` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`GEO`.

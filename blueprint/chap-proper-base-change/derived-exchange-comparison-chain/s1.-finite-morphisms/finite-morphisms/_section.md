@@ -2,7 +2,7 @@
 id = "finite-morphisms"
 kind = "section"
 title = "Finite morphisms"
-order = 1449
+order = 1549
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange-detailed"]
 +++
 The base case of the whole chapter. For a finite morphism the direct image is

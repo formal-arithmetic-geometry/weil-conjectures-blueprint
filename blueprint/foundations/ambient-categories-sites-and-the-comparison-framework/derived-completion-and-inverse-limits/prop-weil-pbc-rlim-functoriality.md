@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-rlim-functoriality"
 kind = "theorem"
 title = "Functoriality of the sequential derived inverse limit"
-order = 1361
-tags = ["latex:proposition"]
+order = 1276
 uses = ["def-weil-derived-limit", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-derived-inverse-limit-computation"]
+tags = ["latex:proposition"]
 +++
 Let $\operatorname{Tow}_{A}(T)$ be the tower category of
 [def-weil-pbc-adic-coefficient-datum], an abelian category with enough

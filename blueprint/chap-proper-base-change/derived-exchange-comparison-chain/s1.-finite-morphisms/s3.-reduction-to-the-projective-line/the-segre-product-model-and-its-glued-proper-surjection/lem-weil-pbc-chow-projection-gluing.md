@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-projection-gluing"
 kind = "lemma"
 title = "Gluing the projections along the cover"
-order = 1484
+order = 1584
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-chow-product-image-model", "lem-weil-pbc-chow-separated-density-equality"]
 +++
 In the situation of [lem-weil-pbc-chow-product-image-model], put

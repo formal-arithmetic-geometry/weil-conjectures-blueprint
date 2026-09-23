@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-rationalization-karoubi-2"
 kind = "remark"
 title = "Pointer to the properties of scalar extension"
-order = 1143
+order = 1368
 uses = ["def-weil-rationalization-karoubi", "lem-weil-scalar-extension-composition", "lem-weil-scalar-extension-exact-triangulated", "lem-weil-scalar-extension-well-defined"]
 +++
 In the notation of [def-weil-rationalization-karoubi], the following holds.

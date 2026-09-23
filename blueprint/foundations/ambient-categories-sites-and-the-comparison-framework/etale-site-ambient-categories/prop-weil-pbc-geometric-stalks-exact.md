@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-geometric-stalks-exact"
 kind = "theorem"
 title = "Exactness of geometric stalks"
-order = 1249
-tags = ["latex:proposition"]
+order = 1162
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks"]
+tags = ["latex:proposition"]
 +++
 For every geometric point $\bar t$ of $T$, the stalk functor $F\mapsto
 F_{\bar t}$ of [def-weil-pbc-geometric-stalks]

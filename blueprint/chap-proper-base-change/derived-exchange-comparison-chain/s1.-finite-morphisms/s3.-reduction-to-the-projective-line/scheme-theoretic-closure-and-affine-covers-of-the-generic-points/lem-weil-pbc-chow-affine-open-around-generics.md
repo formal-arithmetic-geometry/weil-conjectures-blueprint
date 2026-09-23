@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-affine-open-around-generics"
 kind = "lemma"
 title = "Affine opens containing prescribed generic points"
-order = 1474
+order = 1574
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-chow-disjoint-affine-generics"]
 +++
 Let $X$ be quasi-separated, let $Z_1,\dots,Z_n$ be pairwise distinct

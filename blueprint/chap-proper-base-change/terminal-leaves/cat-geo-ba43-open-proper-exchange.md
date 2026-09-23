@@ -2,7 +2,7 @@
 id = "cat-geo-ba43-open-proper-exchange"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1838
+order = 1967
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-GEO-BA43-OPEN-PROPER-EXCHANGE` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT/GEO`.

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-geometric-morphism-construction-v1"
 kind = "lemma"
 title = "Construction of the comparison geometric morphism"
-order = 1666
+order = 1764
 uses = ["def-weil-pbc-epsilon-comparison", "def-weil-pbc-epsilon-factorization-index-v1", "lemma-weil-pbc-epsilon-factorization-index-filtered-v1", "lemma-weil-pbc-etale-proetale-continuous", "lemma-weil-pbc-etale-proetale-left-exact"]
 +++
 Restriction along $\iota_X^{\mathrm{op}}$, pro-etale sheafification of left

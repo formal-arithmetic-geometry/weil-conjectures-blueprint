@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-completed-projection-formula-composite"
 kind = "lemma"
 title = "Completed projection-formula composite"
-order = 1750
+order = 1852
 uses = ["def-weil-pbc-completed-tensor-product", "lemma-weil-pbc-direct-image-r-lim", "lemma-weil-pbc-projection-formula-totalization", "lemma-weil-pbc-projection-formula-tower-compatibility"]
 +++
 Let $B$ be an object on $Y_{\mathrm{proet}}$ such that

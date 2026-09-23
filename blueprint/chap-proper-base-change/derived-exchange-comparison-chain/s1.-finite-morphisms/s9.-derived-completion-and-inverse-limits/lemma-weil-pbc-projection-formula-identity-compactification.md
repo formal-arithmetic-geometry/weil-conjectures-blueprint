@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-identity-compactification"
 kind = "lemma"
 title = "Identity compactification recovers direct image"
-order = 1743
+order = 1845
 uses = ["lemma-weil-pbc-projection-formula-compactified"]
 +++
 If $f$ is proper, the identity compactification identifies $Rf_!^{(1,f)}$

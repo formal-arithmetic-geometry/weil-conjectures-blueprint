@@ -2,7 +2,7 @@
 id = "def-sp-spectral-sequence"
 kind = "definition"
 title = "Spectral sequences"
-order = 1214
+order = 1127
 uses = ["def-sp-abelian"]
 +++
 Let $\mathcal C$ be an abelian category [def-sp-abelian], let $\kappa$ be a

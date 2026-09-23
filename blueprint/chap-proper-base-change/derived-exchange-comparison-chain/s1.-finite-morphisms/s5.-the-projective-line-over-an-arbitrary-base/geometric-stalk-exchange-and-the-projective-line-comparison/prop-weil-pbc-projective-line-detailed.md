@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-projective-line-detailed"
 kind = "theorem"
 title = "Projective-line proper base change"
-order = 1622
-tags = ["latex:proposition"]
+order = 1720
 uses = ["def-weil-pbc-injective-acyclicity", "def-weil-pbc-property-detailed", "lem-weil-pbc-exchange-geometric-stalk", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-property-iff-acyclicity", "prop-weil-pbc-separably-closed-extension"]
+tags = ["latex:proposition"]
 +++
 For every scheme $S$, the projection $\mathbf P^1_S\to S$ satisfies
 $\mathrm{PBC}$ in the sense of [def-weil-pbc-property-detailed].

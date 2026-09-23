@@ -2,9 +2,9 @@
 id = "ex-weil-finite-field-zeta"
 kind = "remark"
 title = "Finite-field zeta normalization"
-order = 1194
-tags = ["latex:example"]
+order = 1446
 uses = ["def-weil-finite-field-fiber", "def-weil-point-counts-zeta"]
+tags = ["latex:example"]
 +++
 For the finite-field datum $p,a,q,k_0,k$, where $q=p^a$, fix an indeterminate
 $T$ and put $Y_0=\Spec\Fq$. The point-count and zeta definitions

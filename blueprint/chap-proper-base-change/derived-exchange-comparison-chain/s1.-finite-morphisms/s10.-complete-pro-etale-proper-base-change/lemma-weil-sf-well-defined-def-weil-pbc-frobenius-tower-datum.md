@@ -2,7 +2,7 @@
 id = "lemma-weil-sf-well-defined-def-weil-pbc-frobenius-tower-datum"
 kind = "lemma"
 title = "Well-definedness certificate for def:weil-pbc-frobenius-tower-datum"
-order = 1771
+order = 1873
 uses = ["def-weil-pbc-frobenius-tower-datum", "lemma-weil-pbc-derived-exchange-coherence", "prop-weil-pbc-proet-finite-level-transport"]
 +++
 The displayed Frobenius record has fields

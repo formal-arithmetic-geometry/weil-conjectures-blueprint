@@ -2,7 +2,7 @@
 id = "geo-ba43-schematic-closure-densification"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1844
+order = 1973
 tags = ["latex:openproblem"]
 +++
 **Owner.**`GEO-BA43-SCHEMATIC-CLOSURE-DENSIFICATION` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`GEO`.

@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-normalization-comparison"
 kind = "theorem"
 title = "Normalization comparison"
-order = 1617
-tags = ["latex:proposition"]
+order = 1715
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-extension-by-zero", "def-weil-pbc-finite-pushforward-extension-zero", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-direct-image-exact", "prop-weil-pbc-finite-pushforward-extension-zero-commute", "thm-weil-pbc-smooth-curve-calculations"]
+tags = ["latex:proposition"]
 +++
 Let $C$ be a reduced curve, let $\nu:\widetilde C\to C$ be its finite
 normalization, and let $j:U\hookrightarrow C$ be open. There is a natural

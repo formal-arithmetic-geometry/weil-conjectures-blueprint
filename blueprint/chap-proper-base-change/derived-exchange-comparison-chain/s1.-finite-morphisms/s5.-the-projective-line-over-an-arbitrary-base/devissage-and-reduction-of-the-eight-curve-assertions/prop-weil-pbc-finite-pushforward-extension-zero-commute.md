@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-finite-pushforward-extension-zero-commute"
 kind = "theorem"
 title = "Finite pushforward commutes with extension by zero"
-order = 1615
-tags = ["latex:proposition"]
+order = 1713
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-finite-pushforward-extension-zero", "lem-weil-pbc-finite-stalk-formula", "lem-weil-pbc-geometric-stalk-conservative"]
+tags = ["latex:proposition"]
 +++
 The morphism $\beta_{\bar v,j_V,G}$ of
 [def-weil-pbc-finite-pushforward-extension-zero] is an isomorphism. It is

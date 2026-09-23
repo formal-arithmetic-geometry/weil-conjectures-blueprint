@@ -2,7 +2,7 @@
 id = "lemma-weil-sf-well-defined-def-weil-pbc-strict-henselization-limit"
 kind = "lemma"
 title = "Well-definedness certificate for def:weil-pbc-strict-henselization-limit"
-order = 1561
+order = 1659
 uses = ["def-weil-pbc-strict-henselization-limit", "lemma-weil-pbc-affine-neighbourhood-cofinal"]
 +++
 The coordinate-ring rule of Definition

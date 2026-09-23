@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-coeff-completion-in-intrinsic-category"
 kind = "lemma"
 title = "Adic completion lands in the intrinsic candidate"
-order = 1762
+order = 1864
 uses = ["def-weil-efi-coeff-intrinsic-constructible-zl-category", "lemma-weil-pbc-adic-completion-reduction", "lemma-weil-pbc-bounded-constructible-reconstruction"]
 +++
 If the canonical reduction tower of $K$ is uniformly bounded constructible,

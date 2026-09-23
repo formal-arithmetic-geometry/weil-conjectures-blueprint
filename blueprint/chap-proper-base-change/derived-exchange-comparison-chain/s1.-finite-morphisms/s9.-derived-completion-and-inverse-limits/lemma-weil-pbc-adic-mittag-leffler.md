@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-adic-mittag-leffler"
 kind = "lemma"
 title = "Finite towers satisfy Mittag–Leffler"
-order = 1720
+order = 1822
 +++
 For an inverse system of finite abelian groups $(A_n)$, the images
 $\operatorname{Im}(A_m\to A_n)$ are constant for all sufficiently large

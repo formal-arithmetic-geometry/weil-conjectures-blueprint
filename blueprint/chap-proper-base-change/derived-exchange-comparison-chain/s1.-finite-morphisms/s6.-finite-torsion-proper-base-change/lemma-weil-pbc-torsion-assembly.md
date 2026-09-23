@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-torsion-assembly"
 kind = "lemma"
 title = "Torsion coefficient assembly"
-order = 1625
+order = 1723
 uses = ["lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-prime-factor-induction", "lemma-weil-pbc-prime-proper-base-change", "lemma-weil-pbc-torsion-filtered-union"]
 +++
 For every torsion abelian sheaf $F$ and every proper Cartesian square, the

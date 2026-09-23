@@ -2,8 +2,8 @@
 id = "lem-weil-qbar-idempotent-complete"
 kind = "lemma"
 title = "Idempotent completeness of the common-stage category"
-order = 1145
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-karoubi-envelope", "def-weil-rationalization-karoubi"]
+order = 1370
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-karoubi-envelope", "def-weil-rationalization-karoubi", "prop-weil-filtered-retract-descent", "thm-weil-pbc-finite-stage-karoubian"]
 +++
 Fix the global finite-field datum [def-weil-finite-field-fiber], a prime
 $\ell\neq p$, a scheme $Y$, and an algebraic closure $\Qlb$ of $\Ql$, and let
@@ -31,5 +31,3 @@ and a splitting may be represented over a single finite coefficient field.
 The canonical functor into the Karoubi envelope is fully faithful by
 definition of the envelope and essentially surjective because every
 idempotent splits, hence it is an exact equivalence.
-
-Unresolved dependencies: thm:weil-pbc-finite-stage-karoubian, prop:weil-filtered-retract-descent

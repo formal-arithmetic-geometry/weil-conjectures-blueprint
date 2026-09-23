@@ -2,7 +2,7 @@
 id = "def-weil-local-frobenius-trace"
 kind = "definition"
 title = "Local Frobenius and local alternating trace"
-order = 1187
+order = 1439
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-global-geometric-frobenius", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
 +++
 Fix the finite-field datum $p,a,q,k_0,k$, a prime $\ell\neq p$. Write

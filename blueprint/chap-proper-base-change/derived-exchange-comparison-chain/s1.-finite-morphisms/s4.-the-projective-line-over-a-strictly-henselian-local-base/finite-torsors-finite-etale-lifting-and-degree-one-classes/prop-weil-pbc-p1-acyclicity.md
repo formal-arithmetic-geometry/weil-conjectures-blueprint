@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-p1-acyclicity"
 kind = "theorem"
 title = "Acyclicity on the closed projective line"
-order = 1553
-tags = ["latex:proposition"]
+order = 1651
 uses = ["cor-weil-pbc-torsor-comparison", "def-weil-pbc-strict-henselian-p1-setup", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-finite-exchange", "lem-weil-pbc-h1-constructible-representation", "lem-weil-pbc-injective-restriction-acyclicity"]
+tags = ["latex:proposition"]
 +++
 For an injective sheaf $I$ of $\mathbf F_r$-modules on $X=\mathbf P^1_A$ in
 the setup of [def-weil-pbc-strict-henselian-p1-setup],

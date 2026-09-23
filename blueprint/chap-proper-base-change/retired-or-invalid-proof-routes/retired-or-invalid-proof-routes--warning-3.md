@@ -2,7 +2,7 @@
 id = "retired-or-invalid-proof-routes--warning-3"
 kind = "remark"
 title = "Completed coefficient shortcut"
-order = 1856
+order = 1985
 tags = ["latex:warning"]
 +++
 Coefficient reduction does not commute with proper direct image merely by

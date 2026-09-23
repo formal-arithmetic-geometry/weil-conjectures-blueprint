@@ -2,7 +2,7 @@
 id = "obl-ba31-s0-global-mate"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1802
+order = 1931
 tags = ["latex:openproblem"]
 uses = ["cat-ba31-mate-coherence", "cat-ba31-mate-replacement-independence", "cat-ba31-small-etale-mate"]
 +++

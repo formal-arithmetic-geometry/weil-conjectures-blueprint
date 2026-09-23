@@ -2,7 +2,7 @@
 id = "continuity-exchange-and-the-acyclicity-criterion"
 kind = "section"
 title = "Continuity, exchange, and the acyclicity criterion"
-order = 1345
+order = 1260
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-direct-image", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-finite-split-hypercover", "def-weil-pbc-injective-acyclicity", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit-detailed", "def-weil-pbc-underived-exchange-detailed", "lem-weil-pbc-degree-zero-strict-henselian", "lem-weil-pbc-derived-exchange-replacement", "lem-weil-pbc-etale-section-continuity", "lem-weil-pbc-fibre-product-limit", "lem-weil-pbc-finite-hypercover-descent", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-hypercover-refinement", "lem-weil-pbc-qcqs-higher-direct-image", "prop-weil-pbc-inverse-image-exact", "thm-weil-pbc-hypercover-cohomology"]
 +++
 Etale cohomology is continuous along an affine cofiltered limit

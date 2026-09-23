@@ -2,7 +2,7 @@
 id = "cat-ba43-successive-witness-independence"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1841
+order = 1970
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA43-SUCCESSIVE-WITNESS-INDEPENDENCE` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT`.

@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-underived-exchange-4"
 kind = "remark"
 title = "Pointer to the properties of the underived exchange morphism"
-order = 1282
+order = 1197
 uses = ["def-weil-pbc-underived-exchange-detailed", "lem-weil-pbc-underived-exchange-sectionwise"]
 +++
 In the notation of [def-weil-pbc-underived-exchange-detailed], the following

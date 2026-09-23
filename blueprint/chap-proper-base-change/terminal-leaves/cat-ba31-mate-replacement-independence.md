@@ -2,7 +2,7 @@
 id = "cat-ba31-mate-replacement-independence"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1821
+order = 1950
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA31-MATE-REPLACEMENT-INDEPENDENCE` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT/FA`.

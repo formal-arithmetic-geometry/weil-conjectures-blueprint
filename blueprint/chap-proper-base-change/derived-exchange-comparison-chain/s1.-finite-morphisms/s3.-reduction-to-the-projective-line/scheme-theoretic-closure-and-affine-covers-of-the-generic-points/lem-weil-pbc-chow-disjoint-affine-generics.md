@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-disjoint-affine-generics"
 kind = "lemma"
 title = "Disjoint affine neighbourhoods of generic points"
-order = 1473
+order = 1573
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be quasi-separated, let $Z_1,\dots,Z_n$ be pairwise distinct

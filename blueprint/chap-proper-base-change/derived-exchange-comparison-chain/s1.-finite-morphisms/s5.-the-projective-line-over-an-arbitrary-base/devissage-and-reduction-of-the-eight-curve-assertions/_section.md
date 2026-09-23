@@ -2,7 +2,7 @@
 id = "devissage-and-reduction-of-the-eight-curve-assertions"
 kind = "section"
 title = "Devissage and reduction of the eight curve assertions"
-order = 1604
+order = 1702
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-constructible-complexes", "def-weil-pbc-curve-setting", "def-weil-pbc-eight-curve-assertions-detailed", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange-detailed", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-finite-stalk-formula", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 The proof of assertion $\mathcal C_7$ for an arbitrary torsion sheaf on a

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-torsors"
 kind = "definition"
 title = "Finite torsors"
-order = 1549
+order = 1647
 uses = ["def-weil-pbc-etale-sheaves"]
 +++
 For a finite abelian group $M$, an $M$-torsor on $Y_{\Et}$ is a finite locally

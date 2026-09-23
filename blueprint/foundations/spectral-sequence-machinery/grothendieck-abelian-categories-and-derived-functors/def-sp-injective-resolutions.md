@@ -2,7 +2,7 @@
 id = "def-sp-injective-resolutions"
 kind = "definition"
 title = "Injective objects and injective resolutions"
-order = 1206
+order = 1119
 uses = ["def-sp-grothendieck-abelian"]
 +++
 An object $I$ of an *abelian category* is *injective* if for every

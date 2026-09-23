@@ -2,8 +2,8 @@
 id = "lem-weil-compact-support-finite-field-independence"
 kind = "lemma"
 title = "Independence of the finite coefficient field"
-order = 1167
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-integral-rational-qbar-compact-support", "def-weil-rationalization-karoubi", "lem-weil-scalar-extension-composition"]
+order = 1392
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-integral-rational-qbar-compact-support", "def-weil-rationalization-karoubi", "lem-weil-scalar-extension-composition", "prop-weil-pbc-descent-functors"]
 +++
 Let $K_0$ be a field, let $X,Y$ be finite-type
 [def-weil-scheme-morphism-properties] $K_0$-schemes, let $f:X\to Y$ be a
@@ -35,5 +35,3 @@ proposition of the proper-base-change chapter the compatible family therefore
 descends to a single exact functor on the common-stage category, so its value
 on the object $K_{\Qlb}$ is computed indifferently at the stage $E$ or at the
 larger stage $L$.
-
-Unresolved dependencies: prop:weil-pbc-descent-functors

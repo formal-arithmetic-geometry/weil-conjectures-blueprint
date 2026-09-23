@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-cohomology-resolution-independent"
 kind = "theorem"
 title = "Resolution independence of etale cohomology"
-order = 1257
-tags = ["latex:proposition"]
+order = 1170
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-site", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-kinjective-resolutions-exist"]
+tags = ["latex:proposition"]
 +++
 Let $T$ be a scheme and let $F$ be an etale abelian sheaf on the small etale
 site [def-weil-pbc-etale-site] of $T$. If $F\to I^\bullet$ and $F\to

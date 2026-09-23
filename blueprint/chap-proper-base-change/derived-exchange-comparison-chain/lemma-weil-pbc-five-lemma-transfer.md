@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-five-lemma-transfer"
 kind = "lemma"
 title = "Five-lemma transfer for exchange"
-order = 1438
+order = 1538
 uses = ["def-weil-pbc-derived-exchange", "lemma-weil-pbc-prime-factor-induction"]
 +++
 In a short exact sequence of torsion sheaves, if two of the three derived

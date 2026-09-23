@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-inverse-image-exact"
 kind = "lemma"
 title = "Exactness of the packaged comparison inverse image"
-order = 1680
+order = 1778
 uses = ["def-weil-pbc-epsilon-comparison", "lemma-weil-efi-site-inverse-image-finite-limits", "prop-weil-efi-site-sheaf-adjunction-certificate"]
 +++
 The functor $\epsilon_X^{-1}$ is exact on $A$-module sheaves.

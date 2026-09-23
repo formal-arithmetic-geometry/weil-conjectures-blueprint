@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-covering-sieve-image"
 kind = "lemma"
 title = "Etale covering sieves remain pro-etale covering"
-order = 1656
+order = 1754
 uses = ["def-weil-efi-site-covering-sieve-image", "lemma-weil-efi-site-covering-family-image"]
 +++
 If $R$ is covering on $U$ for the selected etale topology, then

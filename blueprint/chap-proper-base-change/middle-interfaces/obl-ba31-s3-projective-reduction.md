@@ -2,7 +2,7 @@
 id = "obl-ba31-s3-projective-reduction"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1805
+order = 1934
 tags = ["latex:openproblem"]
 uses = ["ext-geo-ba31-chow-proper-fp", "geo-ba31-symmetric-p1-finite-surjective", "obl-ba31-s1-finite", "obl-ba31-s2-stability"]
 +++

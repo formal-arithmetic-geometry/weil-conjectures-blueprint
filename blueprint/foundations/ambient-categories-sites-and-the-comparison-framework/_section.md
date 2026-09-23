@@ -2,7 +2,7 @@
 id = "ambient-categories-sites-and-the-comparison-framework"
 kind = "section"
 title = "Ambient categories, sites, and the comparison framework"
-order = 1243
+order = 1156
 uses = ["def-weil-derived-limit", "lem-weil-derived-limit-existence"]
 +++
 The ambient language of the proper-base-change chapter, assembled so that

@@ -2,7 +2,7 @@
 id = "arithmetic-and-geometric-conventions"
 kind = "section"
 title = "Arithmetic and geometric conventions"
-order = 1113
+order = 1295
 +++
 The global finite-field datum $(p,a,q,k_0,k)$
 [def-weil-finite-field-fiber], the scheme-theoretic vocabulary used

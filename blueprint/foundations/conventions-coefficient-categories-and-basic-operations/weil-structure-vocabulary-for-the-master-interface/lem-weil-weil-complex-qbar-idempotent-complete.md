@@ -2,8 +2,8 @@
 id = "lem-weil-weil-complex-qbar-idempotent-complete"
 kind = "lemma"
 title = "Idempotent completeness of the common-stage Weil category"
-order = 1179
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-constructible-heart", "def-weil-karoubi-envelope", "def-weil-weil-sheaf-complex", "prop-weil-heart-abelian", "thm-weil-karoubian-bounded-t"]
+order = 1404
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-constructible-heart", "def-weil-karoubi-envelope", "def-weil-weil-sheaf-complex", "prop-weil-filtered-retract-descent", "prop-weil-heart-abelian", "thm-weil-karoubian-bounded-t"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, a
 prime $\ell\neq p$, a finite-type $k_0$-scheme $Y_0$ with
@@ -38,5 +38,3 @@ in the common-stage construction of
 proposition it is idempotent complete, an idempotent of the colimit
 descending to a finite stage and splitting there, and its canonical functor
 into the Karoubi envelope is again an exact equivalence.
-
-Unresolved dependencies: prop:weil-filtered-retract-descent

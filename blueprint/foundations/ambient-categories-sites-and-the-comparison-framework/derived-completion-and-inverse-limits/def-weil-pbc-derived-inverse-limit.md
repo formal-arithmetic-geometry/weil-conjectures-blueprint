@@ -2,7 +2,7 @@
 id = "def-weil-pbc-derived-inverse-limit"
 kind = "definition"
 title = "Sequential derived inverse limit"
-order = 1359
+order = 1274
 uses = ["def-weil-derived-limit", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-kinjective-resolutions"]
 +++
 Let $\operatorname{Tow}_{A}(T)$ be the tower category of

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-scheme-conventions"
 kind = "definition"
 title = "Scheme and morphism conventions"
-order = 1245
+order = 1158
 +++
 Let $f:X\to Y$ be a morphism of schemes. It is *quasi-compact* if the
 preimage of every affine open of $Y$ is quasi-compact, and *quasi-separated*

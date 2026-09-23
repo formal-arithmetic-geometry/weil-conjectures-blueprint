@@ -2,7 +2,7 @@
 id = "geo-ba43-pairwise-common-refinement"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1837
+order = 1966
 tags = ["latex:openproblem"]
 +++
 **Owner.**`GEO-BA43-PAIRWISE-COMMON-REFINEMENT` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`GEO`.

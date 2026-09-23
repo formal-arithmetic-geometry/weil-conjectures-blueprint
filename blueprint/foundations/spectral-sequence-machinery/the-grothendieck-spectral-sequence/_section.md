@@ -2,7 +2,7 @@
 id = "the-grothendieck-spectral-sequence"
 kind = "section"
 title = "The Grothendieck spectral sequence"
-order = 1237
+order = 1150
 uses = ["def-sp-abelian", "def-sp-acyclic", "def-sp-convergence", "def-sp-exact-couple", "def-sp-grothendieck-abelian", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-kinjective-bridge", "def-sp-left-exact-additive", "lem-sp-couple-morphism", "lem-sp-edge-collapse", "thm-sp-if-e1", "thm-sp-spectral-object-yields"]
 +++
 The spectral sequence of a composite of left exact functors, under the

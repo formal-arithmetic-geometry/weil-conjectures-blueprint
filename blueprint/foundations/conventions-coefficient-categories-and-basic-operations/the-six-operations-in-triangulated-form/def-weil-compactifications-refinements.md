@@ -2,7 +2,7 @@
 id = "def-weil-compactifications-refinements"
 kind = "definition"
 title = "Compactifications and refinements"
-order = 1161
+order = 1386
 uses = ["def-weil-geometric-hypotheses", "def-weil-scheme-morphism-properties"]
 +++
 Let $S$ be a scheme; when $S$ is a finite-field scheme, impose the geometric

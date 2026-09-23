@@ -2,7 +2,7 @@
 id = "def-weil-pbc-property"
 kind = "definition"
 title = "Proper base-change property"
-order = 1433
+order = 1533
 lean = ["AlgebraicGeometry.Etale.IsBaseChangeIso"]
 uses = ["def-weil-pbc-derived-exchange"]
 +++

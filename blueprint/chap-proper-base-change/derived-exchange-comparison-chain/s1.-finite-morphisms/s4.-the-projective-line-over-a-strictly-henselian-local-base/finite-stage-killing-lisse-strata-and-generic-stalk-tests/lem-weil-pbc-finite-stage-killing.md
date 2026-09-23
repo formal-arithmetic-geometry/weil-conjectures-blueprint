@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-stage-killing"
 kind = "lemma"
 title = "Finite-stage killing"
-order = 1529
+order = 1629
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-etale-cohomology-continuity"]
 +++
 Let $(T,T_0)$ be an affine henselian pair, let $F$ be torsion, and let $c\in

@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-strict-henselization-stalk-formula-detailed"
 kind = "theorem"
 title = "Strict-henselization stalk formula"
-order = 1349
-tags = ["latex:proposition"]
+order = 1264
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit-detailed", "lem-weil-pbc-fibre-product-limit", "thm-weil-pbc-etale-cohomology-continuity"]
+tags = ["latex:proposition"]
 +++
 Let $f:X\to S$ be quasi-compact and quasi-separated
 [def-weil-pbc-scheme-conventions], let $F$ be a torsion etale sheaf

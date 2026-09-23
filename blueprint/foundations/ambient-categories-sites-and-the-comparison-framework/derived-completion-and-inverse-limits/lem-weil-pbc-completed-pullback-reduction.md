@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-completed-pullback-reduction"
 kind = "lemma"
 title = "Reduction of completed pullback"
-order = 1373
+order = 1288
 uses = ["def-weil-pbc-completed-pullback-detailed", "def-weil-pbc-intrinsic-completion", "lem-weil-pbc-finite-reduction-reconstruction"]
 +++
 The object $Lg^*_{\mathrm{comp}}K$ of

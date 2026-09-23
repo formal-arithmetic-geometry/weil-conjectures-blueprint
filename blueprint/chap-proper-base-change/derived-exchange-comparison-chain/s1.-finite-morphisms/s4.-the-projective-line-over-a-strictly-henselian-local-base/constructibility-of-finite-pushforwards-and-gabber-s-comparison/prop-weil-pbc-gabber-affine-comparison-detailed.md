@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-gabber-affine-comparison-detailed"
 kind = "theorem"
 title = "Gabber affine henselian-pair comparison"
-order = 1545
-tags = ["latex:proposition"]
+order = 1643
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions"]
+tags = ["latex:proposition"]
 +++
 Let $(A,I)$ be an affine henselian pair and let $X$ be an affine scheme of
 finite type over $\operatorname{Spec}A$, with closed fibre

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-completed-pullback-detailed"
 kind = "definition"
 title = "Completed pullback"
-order = 1372
+order = 1287
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-proetale-operations"]
 +++
 For $g:T'\to T$, levelwise inverse image on strict tower complexes has a

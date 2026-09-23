@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-finite-etale-lifting"
 kind = "theorem"
 title = "Finite-etale lifting over a proper henselian pair"
-order = 1550
+order = 1648
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions"]
 +++
 Let $(A,I)$ be henselian, let $Y\to\operatorname{Spec}A$ be proper, and let

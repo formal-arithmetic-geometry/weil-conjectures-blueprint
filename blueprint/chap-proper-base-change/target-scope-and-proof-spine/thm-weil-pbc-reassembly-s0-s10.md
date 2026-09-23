@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-reassembly-s0-s10"
 kind = "theorem"
 title = "Reassembly represented by S0–S10"
-order = 1402
+order = 1502
 tags = ["latex:conditionaltheorem"]
 uses = ["obl-ba31-finite-pbc"]
 +++

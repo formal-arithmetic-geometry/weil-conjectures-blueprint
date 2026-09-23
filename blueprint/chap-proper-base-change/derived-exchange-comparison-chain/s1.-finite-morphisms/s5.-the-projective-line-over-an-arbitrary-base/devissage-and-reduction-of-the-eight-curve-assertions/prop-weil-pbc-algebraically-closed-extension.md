@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-algebraically-closed-extension"
 kind = "theorem"
 title = "Algebraically closed extension for proper curves"
-order = 1618
-tags = ["latex:proposition"]
+order = 1716
 uses = ["def-weil-pbc-eight-curve-assertions-detailed", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-curve-constructible-reduction", "lem-weil-pbc-curve-dense-open-localization", "lem-weil-pbc-curve-filtered-cohomology", "lem-weil-pbc-eight-curve-devissage", "lem-weil-pbc-finite-r-group-filtration", "lem-weil-pbc-locally-constant-reduction", "lem-weil-pbc-zero-dimensional-field-extension", "prop-weil-pbc-finite-pushforward-extension-zero-commute", "prop-weil-pbc-normalization-comparison", "thm-weil-pbc-smooth-curve-calculations"]
+tags = ["latex:proposition"]
 +++
 Let $k\subset k'$ be algebraically closed, let $C$ be proper of dimension at
 most one over $k$, and let $F$ be a torsion etale sheaf. Then

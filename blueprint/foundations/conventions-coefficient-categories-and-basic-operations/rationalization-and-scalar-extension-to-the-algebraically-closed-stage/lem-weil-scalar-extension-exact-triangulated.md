@@ -2,8 +2,8 @@
 id = "lem-weil-scalar-extension-exact-triangulated"
 kind = "lemma"
 title = "Scalar extension is an exact triangulated functor"
-order = 1141
-uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-rationalization-karoubi", "lem-weil-scalar-extension-well-defined"]
+order = 1366
+uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-rationalization-karoubi", "lem-weil-scalar-extension-well-defined", "prop-weil-pbc-scalar-extension"]
 +++
 Let $E\subset L$ be a finite extension of $\Ql$ and let $Y$ be a scheme. The
 scalar-extension functor
@@ -30,5 +30,3 @@ of the normalized system, are recorded in the scalar-extension proposition of
 the proper-base-change chapter, to which the present functor is the transport
 along the identification of [def-weil-rationalization-karoubi] with the raw
 scalar localization there.
-
-Unresolved dependencies: prop:weil-pbc-scalar-extension

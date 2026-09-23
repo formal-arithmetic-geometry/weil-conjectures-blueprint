@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-cancellation"
 kind = "theorem"
 title = "Cancellation along a proper surjection"
-order = 1463
-tags = ["latex:proposition"]
+order = 1563
 uses = ["def-weil-pbc-injective-acyclicity", "def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-grothendieck-spectral-sequence", "lem-weil-pbc-retract-supplied", "lem-weil-pbc-underived-proper-exchange", "lem-weil-pbc-vanishing-descends-retract", "prop-weil-pbc-property-iff-acyclicity"]
+tags = ["latex:proposition"]
 +++
 Let $X\xrightarrow{f}Y\xrightarrow{h}Z$ be proper, with $f$ surjective. If
 $\mathrm{PBC}(f)$ and $\mathrm{PBC}(hf)$ hold, then $\mathrm{PBC}(h)$ holds.

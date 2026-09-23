@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-property-iff-acyclicity"
 kind = "lemma"
 title = "Equivalence of PBC and IA"
-order = 1441
+order = 1541
 uses = ["def-weil-pbc-injective-acyclicity-property", "def-weil-pbc-property", "lemma-weil-pbc-leray-acyclicity", "lemma-weil-pbc-prime-torsion-devissage", "lemma-weil-pbc-proper-underived-exchange"]
 +++
 For proper $f$, $\mathsf{PBC}(f)$ holds if and only if $\mathsf{IA}(f)$ holds.

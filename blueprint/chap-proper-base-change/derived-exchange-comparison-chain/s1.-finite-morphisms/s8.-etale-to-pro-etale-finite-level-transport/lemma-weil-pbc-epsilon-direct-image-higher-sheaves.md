@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-direct-image-higher-sheaves"
 kind = "lemma"
 title = "Higher direct-image comparison on finite sheaves"
-order = 1711
+order = 1809
 uses = ["lemma-weil-pbc-epsilon-derived-unit", "lemma-weil-pbc-epsilon-direct-image-site-comparison"]
 +++
 Let $A$ be finite, let $f:X\to Y$ be quasi-compact and quasi-separated, and

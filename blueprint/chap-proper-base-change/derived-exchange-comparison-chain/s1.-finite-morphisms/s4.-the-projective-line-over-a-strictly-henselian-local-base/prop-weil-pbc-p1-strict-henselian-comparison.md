@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-p1-strict-henselian-comparison"
 kind = "theorem"
 title = "Strictly henselian $\\mathbf P^1$ comparison"
-order = 1524
+order = 1624
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-strict-henselian-setup", "lemma-weil-pbc-etale-degree-zero", "lemma-weil-pbc-p1-injective-acyclic"]
 +++

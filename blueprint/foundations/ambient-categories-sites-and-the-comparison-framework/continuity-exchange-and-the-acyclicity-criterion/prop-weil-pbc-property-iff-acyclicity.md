@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-property-iff-acyclicity"
 kind = "theorem"
 title = "Equivalence of proper base change and acyclicity"
-order = 1356
-tags = ["latex:proposition"]
+order = 1271
 uses = ["def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-injective-acyclicity", "def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-direct-image-filtered-colimit", "lem-weil-pbc-five-lemma-transfer", "lem-weil-pbc-leray-acyclicity", "lem-weil-pbc-prime-factor-devissage", "lem-weil-pbc-torsion-filtered-union", "lem-weil-pbc-underived-proper-exchange"]
+tags = ["latex:proposition"]
 +++
 For a proper morphism [def-weil-pbc-scheme-conventions] $f$, the following
 conditions are equivalent.

@@ -2,9 +2,9 @@
 id = "thm-weil-pbc-finite-torsion"
 kind = "theorem"
 title = "Finite-torsion proper base change"
-order = 1645
-tags = ["latex:corollary"]
+order = 1743
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-bounded-below"]
+tags = ["latex:corollary"]
 +++
 Let
 

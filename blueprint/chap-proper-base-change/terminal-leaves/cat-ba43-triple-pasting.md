@@ -2,7 +2,7 @@
 id = "cat-ba43-triple-pasting"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1842
+order = 1971
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA43-TRIPLE-PASTING` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT`.

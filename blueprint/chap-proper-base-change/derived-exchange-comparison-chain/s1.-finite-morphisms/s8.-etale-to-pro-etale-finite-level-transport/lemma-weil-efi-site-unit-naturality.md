@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-unit-naturality"
 kind = "lemma"
 title = "Naturality equation for the comparison unit"
-order = 1686
+order = 1784
 uses = ["def-weil-pbc-epsilon-unit-counit"]
 +++
 For $\alpha:F\to F'$ on $X_{\mathrm{et}}$,

@@ -2,8 +2,8 @@
 id = "lem-weil-scalar-extension-well-defined"
 kind = "lemma"
 title = "Well-definedness of scalar extension"
-order = 1140
-uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-rationalization-karoubi"]
+order = 1365
+uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-rationalization-karoubi", "prop-weil-pbc-rational-transport"]
 +++
 Let $E\subset L$ be a finite extension of $\Ql$, with rings of integers
 $\mathcal O_E\subset\mathcal O_L$ and uniformizers $\varpi_E,\varpi_L$, and
@@ -36,5 +36,3 @@ integral constructible category extends uniquely to its rationalization
 $D^b_c(Y,E)$ of [def-weil-rationalization-karoubi], and a uniquely determined
 extension is computed indifferently from any integral representative of its
 argument.
-
-Unresolved dependencies: prop:weil-pbc-rational-transport

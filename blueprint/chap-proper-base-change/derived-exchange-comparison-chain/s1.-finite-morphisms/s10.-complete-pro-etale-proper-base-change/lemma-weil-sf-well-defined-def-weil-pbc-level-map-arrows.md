@@ -2,7 +2,7 @@
 id = "lemma-weil-sf-well-defined-def-weil-pbc-level-map-arrows"
 kind = "lemma"
 title = "Well-definedness certificate for def:weil-pbc-level-map-arrows"
-order = 1766
+order = 1868
 uses = ["def-weil-pbc-level-map-arrows", "lemma-weil-pbc-perfect-projection-formula", "prop-weil-pbc-proet-finite-level-transport"]
 +++
 For $n\geq1$, the tuple $(h_n,v_n,h'_n,v'_n)$ belongs to

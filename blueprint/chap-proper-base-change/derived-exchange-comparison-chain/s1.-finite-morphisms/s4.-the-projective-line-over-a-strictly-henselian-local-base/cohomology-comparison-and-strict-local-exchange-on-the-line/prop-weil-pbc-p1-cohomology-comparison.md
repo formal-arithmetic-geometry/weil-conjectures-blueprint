@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-p1-cohomology-comparison"
 kind = "theorem"
 title = "Cohomology comparison on the projective line"
-order = 1555
-tags = ["latex:proposition"]
+order = 1653
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-strict-henselian-p1-setup", "lem-weil-pbc-etale-degree-zero", "prop-weil-pbc-p1-acyclicity"]
+tags = ["latex:proposition"]
 +++
 In the setup of [def-weil-pbc-strict-henselian-p1-setup], for every torsion
 etale sheaf $F$ on $X$, restriction gives natural isomorphisms

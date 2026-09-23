@@ -2,7 +2,7 @@
 id = "ext-geo-ba31-chow-proper-fp"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1825
+order = 1954
 tags = ["latex:openproblem"]
 +++
 **Owner.**`EXT-GEO-BA31-CHOW-PROPER-FP` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`EXT-GEO`.

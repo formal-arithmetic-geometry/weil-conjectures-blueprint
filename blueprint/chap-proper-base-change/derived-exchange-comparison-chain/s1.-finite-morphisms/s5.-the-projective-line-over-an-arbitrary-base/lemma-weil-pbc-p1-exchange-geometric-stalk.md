@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-p1-exchange-geometric-stalk"
 kind = "lemma"
 title = "Exchange on a geometric stalk"
-order = 1586
+order = 1684
 uses = ["def-weil-pbc-derived-exchange", "prop-weil-pbc-p1-strict-henselian-comparison", "prop-weil-pbc-strict-henselization-stalk-formula"]
 +++
 For $p:\mathbf P^1_S\to S$, a base change $g:T\to S$, and

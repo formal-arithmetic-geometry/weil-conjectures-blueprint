@@ -2,7 +2,7 @@
 id = "cat-ba31-mate-coherence"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1822
+order = 1951
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA31-MATE-COHERENCE` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT`.

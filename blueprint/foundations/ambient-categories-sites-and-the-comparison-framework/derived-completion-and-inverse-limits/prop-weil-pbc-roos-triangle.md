@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-roos-triangle"
 kind = "theorem"
 title = "Roos triangle and Milnor exact sequence"
-order = 1365
-tags = ["latex:proposition"]
+order = 1280
 uses = ["def-weil-derived-limit", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "lem-weil-derived-limit-existence"]
+tags = ["latex:proposition"]
 +++
 For every $M_\bullet\in D(\operatorname{Tow}_{A}(T))$, the tower category
 being that of [def-weil-pbc-adic-coefficient-datum], the transition maps

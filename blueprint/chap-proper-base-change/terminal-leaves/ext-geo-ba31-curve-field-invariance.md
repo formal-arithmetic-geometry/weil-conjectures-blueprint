@@ -2,7 +2,7 @@
 id = "ext-geo-ba31-curve-field-invariance"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1831
+order = 1960
 tags = ["latex:openproblem"]
 +++
 **Owner.**`EXT-GEO-BA31-CURVE-FIELD-INVARIANCE` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`EXT-GEO`.

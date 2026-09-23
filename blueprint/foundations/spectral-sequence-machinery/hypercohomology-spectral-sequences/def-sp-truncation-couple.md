@@ -2,7 +2,7 @@
 id = "def-sp-truncation-couple"
 kind = "definition"
 title = "The truncation couple of a bounded-below complex"
-order = 1230
+order = 1143
 uses = ["def-sp-exact-couple", "def-sp-grothendieck-abelian", "def-sp-kinjective-bridge", "def-sp-left-exact-additive"]
 +++
 Let $v:\mathcal A\to\mathcal B$ be left exact and additive

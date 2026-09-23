@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-hypercohomology-convergence"
 kind = "lemma"
 title = "Half-plane convergence"
-order = 1640
+order = 1738
 uses = ["def-weil-pbc-hypercohomology-filtrations-detailed"]
 +++
 Both spectral sequences of

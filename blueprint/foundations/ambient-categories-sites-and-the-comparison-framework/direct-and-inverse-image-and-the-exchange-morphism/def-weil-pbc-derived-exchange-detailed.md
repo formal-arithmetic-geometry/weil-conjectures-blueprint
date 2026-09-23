@@ -2,7 +2,7 @@
 id = "def-weil-pbc-derived-exchange-detailed"
 kind = "definition"
 title = "Derived exchange morphism"
-order = 1284
+order = 1199
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-underived-exchange-detailed"]
 +++
 For $K\in\Dplus(X_{\Et})$, the *derived exchange morphism* is the adjoint

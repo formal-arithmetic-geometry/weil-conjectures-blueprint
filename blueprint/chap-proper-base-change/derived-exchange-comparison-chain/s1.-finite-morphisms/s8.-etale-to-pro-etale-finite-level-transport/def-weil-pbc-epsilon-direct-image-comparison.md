@@ -2,7 +2,7 @@
 id = "def-weil-pbc-epsilon-direct-image-comparison"
 kind = "definition"
 title = "Canonical direct-image comparison"
-order = 1708
+order = 1806
 uses = ["def-weil-pbc-epsilon-unit-counit"]
 +++
 Let $f:X\to Y$ be quasi-compact and quasi-separated. For an $A$-module

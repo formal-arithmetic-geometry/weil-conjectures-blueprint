@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-torsion-filtered-union"
 kind = "lemma"
 title = "Filtered torsion union"
-order = 1351
+order = 1266
 uses = ["def-weil-pbc-etale-sheaves"]
 +++
 For every torsion sheaf [def-weil-pbc-etale-sheaves] $F$ on $X_{\Et}$,

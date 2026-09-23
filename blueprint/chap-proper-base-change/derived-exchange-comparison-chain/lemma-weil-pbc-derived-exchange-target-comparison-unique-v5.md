@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-derived-exchange-target-comparison-unique-v5"
 kind = "lemma"
 title = "Target comparisons are unique up to homotopy"
-order = 1423
+order = 1523
 uses = ["def-weil-pbc-derived-exchange-hom-test-v5", "def-weil-pbc-derived-exchange-target-comparison-v5"]
 +++
 Two comparisons $c,d:J\to J'$ are homotopic. Comparisons in both directions

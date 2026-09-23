@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-geometric-morphism"
 kind = "lemma"
 title = "The comparison functors form a geometric morphism"
-order = 1682
+order = 1780
 uses = ["def-weil-pbc-epsilon-comparison", "lemma-weil-pbc-etale-proetale-continuous", "lemma-weil-pbc-etale-proetale-left-exact"]
 +++
 For $A$-module sheaves $F$ on $X_{\mathrm{et}}$ and $G$ on

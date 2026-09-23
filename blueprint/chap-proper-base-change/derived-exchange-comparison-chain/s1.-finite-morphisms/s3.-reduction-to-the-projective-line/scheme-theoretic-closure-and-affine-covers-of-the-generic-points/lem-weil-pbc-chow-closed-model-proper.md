@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-closed-model-proper"
 kind = "lemma"
 title = "Closed model of an immersion into projective space"
-order = 1478
+order = 1578
 uses = ["def-weil-pbc-chow-scheme-theoretic-closure", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-closed-immersion-proper", "lem-weil-pbc-proper-composition"]
 +++
 Let $Y$ be affine and let $j:U\hookrightarrow\mathbf P^n_Y$ be an immersion of

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-cohomology-filtered-colimit"
 kind = "lemma"
 title = "Filtered colimits of etale cohomology"
-order = 1348
+order = 1263
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-finite-split-hypercover", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-hypercover-cohomology"]
 +++
 Let $Y$ be quasi-compact and quasi-separated

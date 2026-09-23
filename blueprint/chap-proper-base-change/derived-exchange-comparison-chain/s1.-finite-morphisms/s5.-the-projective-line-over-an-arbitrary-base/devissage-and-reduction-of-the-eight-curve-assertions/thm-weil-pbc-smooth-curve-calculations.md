@@ -2,9 +2,9 @@
 id = "thm-weil-pbc-smooth-curve-calculations"
 kind = "theorem"
 title = "Smooth-curve calculations"
-order = 1616
-tags = ["latex:corollary"]
+order = 1714
 uses = ["def-weil-pbc-curve-setting"]
+tags = ["latex:corollary"]
 +++
 For $k$ algebraically closed and $C$ a smooth separated finite-type $k$-scheme
 of pure dimension one, the assertions of

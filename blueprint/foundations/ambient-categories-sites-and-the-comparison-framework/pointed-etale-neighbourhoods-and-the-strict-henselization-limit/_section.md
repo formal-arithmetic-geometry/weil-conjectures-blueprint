@@ -2,7 +2,7 @@
 id = "pointed-etale-neighbourhoods-and-the-strict-henselization-limit"
 kind = "section"
 title = "Pointed etale neighbourhoods and the strict henselization limit"
-order = 1291
+order = 1206
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 The strict henselization presented as a limit rather than as a black box:

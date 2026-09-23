@@ -2,9 +2,9 @@
 id = "thm-weil-pbc-stein-inputs"
 kind = "remark"
 title = "The two classical inputs of Stein connectedness"
-order = 1310
-tags = ["latex:openproblem"]
+order = 1225
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-stein-factorization", "lem-weil-pbc-spectral-restriction"]
+tags = ["latex:openproblem"]
 +++
 Let $(A,I)$ be an affine henselian pair with $S=\operatorname{Spec}A$, and in
 the Stein factorization $p=s\circ q$ of

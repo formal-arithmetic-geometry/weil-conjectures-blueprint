@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-constructible-approximation"
 kind = "lemma"
 title = "Constructible approximation for effacement"
-order = 1512
+order = 1612
 +++
 For a torsion sheaf $F$ on an affine henselian pair and a fixed class
 $c\in H^q(T_0,F_0)$, there is a quasi-compact etale neighbourhood $U\to T$

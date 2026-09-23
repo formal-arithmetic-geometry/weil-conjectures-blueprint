@@ -2,7 +2,7 @@
 id = "cat-ba30-rfstar-rebind"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1817
+order = 1946
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA30-RFSTAR-REBIND` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT/FA`.

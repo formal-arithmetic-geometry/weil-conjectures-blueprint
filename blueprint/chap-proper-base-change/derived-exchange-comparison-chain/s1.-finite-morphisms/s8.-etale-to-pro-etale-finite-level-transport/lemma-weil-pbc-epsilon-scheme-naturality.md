@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-scheme-naturality"
 kind = "lemma"
 title = "Naturality of the comparison in the scheme"
-order = 1700
+order = 1798
 uses = ["def-weil-pbc-epsilon-comparison", "def-weil-pbc-epsilon-unit-counit", "def-weil-pbc-etale-proetale-inclusion"]
 +++
 For a scheme morphism $u:X\to Y$, base change on the two sites gives a

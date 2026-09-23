@@ -2,7 +2,7 @@
 id = "hypercohomology-spectral-sequences"
 kind = "section"
 title = "Hypercohomology spectral sequences"
-order = 1227
+order = 1140
 uses = ["def-sp-acyclic", "def-sp-convergence", "def-sp-exact-couple", "def-sp-grothendieck-abelian", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "lem-sp-edge-collapse", "lem-sp-long-exact-of-triangle", "thm-sp-half-plane-convergence", "thm-sp-spectral-object-yields"]
 +++
 The section opens with the definition the rest of the chapter had been using

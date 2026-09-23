@@ -2,5 +2,5 @@
 id = "s0.-comparison-data-and-injective-acyclicity"
 kind = "section"
 title = "S0. Comparison data and injective acyclicity"
-order = 1407
+order = 1507
 +++

@@ -2,7 +2,7 @@
 id = "fa-ba30-bounded-postnikov-serre"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1819
+order = 1948
 tags = ["latex:openproblem"]
 +++
 **Owner.**`FA-BA30-BOUNDED-POSTNIKOV-SERRE` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`FA`.

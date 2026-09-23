@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-stein-connectedness"
 kind = "theorem"
 title = "Stein connectedness over a henselian pair"
-order = 1339
+order = 1254
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "def-weil-pbc-stein-factorization", "lem-weil-pbc-spectral-restriction", "thm-weil-pbc-stein-inputs"]
 +++
 Let $(A,I)$ be henselian [def-weil-pbc-henselian-terminology] and let

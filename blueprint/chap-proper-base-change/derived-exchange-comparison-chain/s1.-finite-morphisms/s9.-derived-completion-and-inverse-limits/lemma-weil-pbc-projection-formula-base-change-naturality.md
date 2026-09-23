@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-base-change-naturality"
 kind = "lemma"
 title = "Operator and base-change naturality of the formula"
-order = 1745
+order = 1847
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-projection-formula-arrows"]
 +++
 The projection-formula arrows are natural in $K$; hence for every

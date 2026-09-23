@@ -2,9 +2,9 @@
 id = "cor-weil-pbc-torsor-comparison"
 kind = "theorem"
 title = "Torsor comparison"
-order = 1551
-tags = ["latex:corollary"]
+order = 1649
 uses = ["def-weil-pbc-finite-torsors", "thm-weil-pbc-finite-etale-lifting"]
+tags = ["latex:corollary"]
 +++
 Under the hypotheses of [thm-weil-pbc-finite-etale-lifting], restriction is a
 bijection

@@ -2,7 +2,7 @@
 id = "a43-33.-densification-after-base-change"
 kind = "section"
 title = "A43/33. Densification after base change"
-order = 1795
+order = 1924
 +++
 Let $g:Y'\to Y$ be an arbitrary morphism with both $Y$ and $Y'$ noetherian
 and finite-dimensional. Put $X'=X\times_Y Y'$ and

@@ -2,7 +2,7 @@
 id = "henselian-comparisons-in-degree-zero"
 kind = "section"
 title = "Henselian comparisons in degree zero"
-order = 1338
+order = 1253
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-henselian-terminology", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-scheme-conventions", "def-weil-pbc-stein-factorization", "lem-weil-pbc-closed-immersion-products", "lem-weil-pbc-finite-proper", "lem-weil-pbc-finite-refinement-etale-cover", "lem-weil-pbc-spectral-restriction", "lem-weil-pbc-universal-homeomorphism-base-change", "prop-weil-pbc-kinjective-resolutions-exist", "thm-weil-pbc-stein-inputs"]
 +++
 Restriction to the closed fibre is a bijection on global sections, for a

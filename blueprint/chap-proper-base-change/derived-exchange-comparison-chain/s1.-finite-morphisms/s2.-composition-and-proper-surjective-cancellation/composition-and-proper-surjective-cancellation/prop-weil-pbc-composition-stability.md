@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-composition-stability"
 kind = "theorem"
 title = "Composition stability"
-order = 1460
-tags = ["latex:proposition"]
+order = 1560
 uses = ["def-weil-pbc-injective-acyclicity", "def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-direct-image-preserves-injectives", "lem-weil-pbc-grothendieck-spectral-sequence", "lem-weil-pbc-underived-proper-exchange", "prop-weil-pbc-property-iff-acyclicity"]
+tags = ["latex:proposition"]
 +++
 Let $X\xrightarrow{f}Y\xrightarrow{h}Z$ be proper. If $\mathrm{IA}(f)$ and
 $\mathrm{IA}(h)$ hold, then $\mathrm{IA}(hf)$ and hence $\mathrm{PBC}(hf)$

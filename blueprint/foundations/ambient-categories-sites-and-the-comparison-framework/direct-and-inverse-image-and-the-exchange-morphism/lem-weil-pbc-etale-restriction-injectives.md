@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-etale-restriction-injectives"
 kind = "lemma"
 title = "Etale restriction preserves injectives"
-order = 1276
+order = 1191
 uses = ["def-weil-pbc-etale-sum-extension", "def-weil-pbc-inverse-image", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 For an etale map $v:W\to X$, the functor $v_!$

@@ -3,8 +3,8 @@ id = "prop-weil-heart-abelian"
 kind = "theorem"
 title = "The heart is abelian"
 order = 1109
-tags = ["latex:proposition"]
 uses = ["def-weil-t-structure"]
+tags = ["latex:proposition"]
 +++
 For a t-structure $(\mathcal T^{\le0},\mathcal T^{\ge0})$ on a triangulated
 category, the heart $\mathcal T^{\le0}\cap\mathcal T^{\ge0}$ of

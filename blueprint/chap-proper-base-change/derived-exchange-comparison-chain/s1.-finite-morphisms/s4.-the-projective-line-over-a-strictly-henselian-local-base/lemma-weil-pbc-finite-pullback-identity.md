@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-pullback-identity"
 kind = "lemma"
 title = "Finite pullback identity"
-order = 1506
+order = 1606
 uses = ["def-weil-pbc-finite-section-pullback"]
 +++
 For $u=\operatorname{id}_T$, $u_V^\sharp(s)=s$ under the canonical identity

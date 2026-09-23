@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-geometric-stalk-conservative"
 kind = "lemma"
 title = "Conservativity of geometric stalks"
-order = 1587
+order = 1685
 lean = ["AlgebraicGeometry.Scheme.isIso_of_isIso_sheafFiber_map"]
 +++
 A morphism of etale abelian sheaves is an isomorphism if and only if it is an

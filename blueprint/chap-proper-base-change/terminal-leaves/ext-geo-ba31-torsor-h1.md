@@ -2,7 +2,7 @@
 id = "ext-geo-ba31-torsor-h1"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1829
+order = 1958
 tags = ["latex:openproblem"]
 +++
 **Owner.**`EXT-GEO-BA31-TORSOR-H1` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`EXT-GEO`.

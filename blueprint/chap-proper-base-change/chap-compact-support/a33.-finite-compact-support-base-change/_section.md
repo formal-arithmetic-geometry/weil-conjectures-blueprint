@@ -2,7 +2,7 @@
 id = "a33.-finite-compact-support-base-change"
 kind = "section"
 title = "A33. Finite compact-support base change"
-order = 1796
+order = 1925
 +++
 Continue with the same fixed $\Lambda_n$, ambient categories, and
 noetherian finite-dimensional $Y,Y'$. Let $f:X\to Y$ be separated and

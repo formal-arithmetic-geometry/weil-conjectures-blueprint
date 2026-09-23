@@ -2,7 +2,7 @@
 id = "cat-ba31-small-etale-mate"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1820
+order = 1949
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA31-SMALL-ETALE-MATE` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT`.

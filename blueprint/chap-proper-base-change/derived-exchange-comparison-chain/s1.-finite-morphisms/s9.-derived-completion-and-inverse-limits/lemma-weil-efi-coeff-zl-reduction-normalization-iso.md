@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-coeff-zl-reduction-normalization-iso"
 kind = "lemma"
 title = "The normalization comparison is invertible"
-order = 1759
+order = 1861
 uses = ["def-weil-efi-coeff-zl-reduction-normalization", "lemma-weil-pbc-zl-reduction-perfect"]
 +++
 The map $\nu_{b,a,K}$ is an isomorphism.

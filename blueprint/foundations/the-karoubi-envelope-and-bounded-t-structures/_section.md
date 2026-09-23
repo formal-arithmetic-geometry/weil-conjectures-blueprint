@@ -1,7 +1,7 @@
 +++
 id = "the-karoubi-envelope-and-bounded-t-structures"
 kind = "section"
-title = "The Karoubi envelope and bounded t-structures"
+title = "Karoubi envelopes, t-structures, and derived limits"
 order = 1101
 +++
 Pure category theory, placed first because the coefficient chapter needs it
@@ -44,3 +44,13 @@ Several statements here carry long *Source note* paragraphs recording that no
 Stacks Project entry states the form proved, together with the nearest entry
 and what the blueprint adds. They are kept verbatim: they say what is and is
 not discharged.
+
+The derived limit of an inverse system in a triangulated category
+[def-weil-derived-limit], and its existence [lem-weil-derived-limit-existence],
+stand here too. The source states them in the coefficient chapter, where they
+are first used, but they depend on nothing, and leaving them there was the only
+thing making the ambient chapter cite the coefficient chapter --- which, once
+the pro-etale coefficient tower is filed in the coefficient chapter, would have
+made those two chapters cite each other in both directions. The identifier of
+this chapter still reads `the-karoubi-envelope-and-bounded-t-structures`; only
+the title records the wider contents.

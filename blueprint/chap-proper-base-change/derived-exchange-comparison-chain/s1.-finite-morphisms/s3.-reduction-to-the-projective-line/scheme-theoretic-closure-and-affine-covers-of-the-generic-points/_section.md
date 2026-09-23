@@ -2,7 +2,7 @@
 id = "scheme-theoretic-closure-and-affine-covers-of-the-generic-points"
 kind = "section"
 title = "Scheme-theoretic closure and affine covers of the generic points"
-order = 1471
+order = 1571
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-closed-immersion-proper", "lem-weil-pbc-proper-composition"]
 +++
 The auxiliary statements of Chow's lemma, under the subsection heading

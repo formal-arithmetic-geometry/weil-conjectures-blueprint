@@ -2,7 +2,7 @@
 id = "def-weil-pbc-direct-image"
 kind = "definition"
 title = "Direct image and its derived functor"
-order = 1270
+order = 1185
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-scheme-conventions"]
 +++
 For a morphism [def-weil-pbc-scheme-conventions] $u:U\to V$, direct image is

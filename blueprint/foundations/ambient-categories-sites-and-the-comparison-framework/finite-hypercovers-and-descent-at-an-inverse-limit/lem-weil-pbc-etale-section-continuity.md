@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-etale-section-continuity"
 kind = "lemma"
 title = "Continuity of sections at an inverse limit"
-order = 1303
+order = 1218
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-etale-finite-data-descent"]
 +++
 Let $X=\varprojlim_jX_j$ be as in the quasi-compact quasi-separated

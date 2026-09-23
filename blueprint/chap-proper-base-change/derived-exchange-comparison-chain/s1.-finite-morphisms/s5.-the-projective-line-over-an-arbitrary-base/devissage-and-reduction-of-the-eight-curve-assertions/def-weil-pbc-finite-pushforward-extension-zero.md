@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-pushforward-extension-zero"
 kind = "definition"
 title = "Finite pushforward and extension by zero"
-order = 1614
+order = 1712
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange-detailed"]
 +++
 For a cartesian square [def-weil-pbc-cartesian-square-detailed]

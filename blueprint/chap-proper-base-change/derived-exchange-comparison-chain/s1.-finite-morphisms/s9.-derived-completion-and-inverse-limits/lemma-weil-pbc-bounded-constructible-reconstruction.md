@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-bounded-constructible-reconstruction"
 kind = "lemma"
 title = "Bounded constructibility survives reconstruction"
-order = 1729
+order = 1831
 uses = ["lemma-weil-pbc-adic-completion-reduction", "lemma-weil-pbc-constructible-adic-lim-one-zero", "lemma-weil-pbc-koszul-quotient-limit"]
 +++
 If the reduction tower $K_\bullet$ attached to $K$ is uniformly bounded

@@ -2,7 +2,7 @@
 id = "cat-ba43-densification-refinement-naturality"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1846
+order = 1975
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-BA43-DENSIFICATION-REFINEMENT-NATURALITY` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT`.

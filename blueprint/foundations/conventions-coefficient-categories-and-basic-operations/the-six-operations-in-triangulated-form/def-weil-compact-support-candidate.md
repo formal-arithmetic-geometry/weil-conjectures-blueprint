@@ -2,8 +2,8 @@
 id = "def-weil-compact-support-candidate"
 kind = "definition"
 title = "Compact-support candidate attached to a compactification"
-order = 1162
-uses = ["def-weil-compactifications-refinements", "def-weil-derived-direct-image", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties"]
+order = 1387
+uses = ["def-weil-compactifications-refinements", "def-weil-derived-direct-image", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties"]
 +++
 Let $K_0$ be a field, let $X,Y$ be finite-type
 [def-weil-scheme-morphism-properties] $K_0$-schemes, and let $f:X\to Y$ be a
@@ -38,5 +38,3 @@ that subcategory nothing beyond the displayed formula is asserted, and in
 particular no independence, base-change or constructibility claim is made.
 Here $R\bar f_{*,n}$ is computed by a K-injective resolution and $j_!$ is
 exact.
-
-Unresolved dependencies: def:weil-pbc-etale-origin-witness

@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-reduction-to-projective-line"
 kind = "theorem"
 title = "Reduction of proper base change to $\\mathbf P^1$"
-order = 1470
+order = 1570
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-derived-exchange", "lemma-weil-pbc-cancellation", "lemma-weil-pbc-chow-embedding-over-x", "lemma-weil-pbc-chow-factorization", "lemma-weil-pbc-composition", "lemma-weil-pbc-symmetric-product-p1", "lemma-weil-pbc-target-locality", "prop-weil-pbc-finite-morphism"]
 +++

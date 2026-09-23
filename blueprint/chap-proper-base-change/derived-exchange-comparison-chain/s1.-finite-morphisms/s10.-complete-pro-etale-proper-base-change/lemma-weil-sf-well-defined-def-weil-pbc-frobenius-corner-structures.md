@@ -2,7 +2,7 @@
 id = "lemma-weil-sf-well-defined-def-weil-pbc-frobenius-corner-structures"
 kind = "lemma"
 title = "Well-definedness certificate for def:weil-pbc-frobenius-corner-structures"
-order = 1773
+order = 1875
 uses = ["def-weil-pbc-frobenius-corner-structures", "lemma-weil-pbc-perfect-projection-formula", "lemma-weil-sf-well-defined-def-weil-pbc-frobenius-tower-datum", "lemma-weil-sf-well-defined-def-weil-pbc-level-map-arrows"]
 +++
 The tuple $(\Theta_{A,n},\Theta_{B,n},\Theta_{C,n},\Theta_{D,n})$ belongs to

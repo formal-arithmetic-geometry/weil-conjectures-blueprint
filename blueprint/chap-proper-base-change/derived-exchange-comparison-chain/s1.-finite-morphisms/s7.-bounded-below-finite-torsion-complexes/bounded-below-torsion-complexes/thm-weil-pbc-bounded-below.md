@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-bounded-below"
 kind = "theorem"
 title = "Bounded-below derived proper base change"
-order = 1644
+order = 1742
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-exact-couple-abutment", "lem-weil-pbc-exact-couple-differential", "lem-weil-pbc-hypercohomology-convergence", "prop-weil-pbc-torsion-assembly"]
 +++
 For a cartesian square [def-weil-pbc-cartesian-square-detailed] with $f$ proper and

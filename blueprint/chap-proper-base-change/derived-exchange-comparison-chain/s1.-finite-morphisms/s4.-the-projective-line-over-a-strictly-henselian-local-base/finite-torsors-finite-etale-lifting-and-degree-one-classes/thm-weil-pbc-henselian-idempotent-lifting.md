@@ -2,9 +2,9 @@
 id = "thm-weil-pbc-henselian-idempotent-lifting"
 kind = "remark"
 title = "Idempotent lifting for the structure sheaf over a henselian pair"
-order = 1548
-tags = ["latex:openproblem"]
+order = 1646
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-stein-inputs"]
+tags = ["latex:openproblem"]
 +++
 Let $(A,I)$ be a henselian pair and let $Z\to\operatorname{Spec}A$ be proper,
 with closed fibre $Z_0=Z\times_AA/I$. Then every idempotent of

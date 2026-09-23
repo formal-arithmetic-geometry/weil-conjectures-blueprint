@@ -2,7 +2,7 @@
 id = "fa-cat-ba31-bounded-below-postnikov"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1834
+order = 1963
 tags = ["latex:openproblem"]
 +++
 **Owner.**`FA-CAT-BA31-BOUNDED-BELOW-POSTNIKOV` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`FA/CAT`.

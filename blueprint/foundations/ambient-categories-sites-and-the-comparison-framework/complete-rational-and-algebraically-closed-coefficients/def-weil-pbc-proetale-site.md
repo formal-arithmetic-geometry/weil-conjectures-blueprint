@@ -2,7 +2,7 @@
 id = "def-weil-pbc-proetale-site"
 kind = "definition"
 title = "Small pro-etale site"
-order = 1332
+order = 1247
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 For a scheme $T$, the *small pro-etale site* $T_{\Proet}$ has as objects the

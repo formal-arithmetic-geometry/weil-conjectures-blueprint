@@ -2,8 +2,8 @@
 id = "lem-weil-rationalization-idempotent-complete"
 kind = "lemma"
 title = "Idempotent completeness of the rationalized category"
-order = 1138
-uses = ["def-weil-derived-complete-integral-detailed", "def-weil-karoubi-envelope", "def-weil-rationalization-karoubi", "thm-weil-karoubian-bounded-t"]
+order = 1363
+uses = ["def-weil-derived-complete-integral-detailed", "def-weil-karoubi-envelope", "def-weil-rationalization-karoubi", "thm-weil-karoubian-bounded-t", "thm-weil-pbc-finite-stage-karoubian"]
 +++
 Let $E/\Ql$ be a finite extension with valuation ring $\mathcal O_E$, let $Y$
 be a scheme, and let $D^b_c(Y,E)$ be the rationalized category of
@@ -31,5 +31,3 @@ The same conclusion follows from the bounded $t$-structure alone, every
 idempotent of a triangulated category with a bounded $t$-structure splitting
 by the Karoubian bounded-$t$ theorem. Both displayed assertions are therefore
 established.
-
-Unresolved dependencies: thm:weil-pbc-finite-stage-karoubian

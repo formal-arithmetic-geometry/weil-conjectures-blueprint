@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-left-triangle"
 kind = "lemma"
 title = "Left triangle equation for the comparison adjunction"
-order = 1692
+order = 1790
 uses = ["def-weil-pbc-epsilon-unit-counit"]
 +++
 For every etale $A$-module sheaf $F$,

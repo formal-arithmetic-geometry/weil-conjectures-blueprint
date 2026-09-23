@@ -2,8 +2,8 @@
 id = "lem-weil-compact-support-representative-independence"
 kind = "lemma"
 title = "Independence of the integral representative"
-order = 1166
-uses = ["def-compact-support-direct-image-detailed", "def-weil-derived-complete-integral-detailed", "def-weil-derived-limit", "def-weil-integral-rational-qbar-compact-support", "def-weil-rationalization-karoubi", "lem-compact-support-direct-image-triangulated"]
+order = 1391
+uses = ["def-compact-support-direct-image-detailed", "def-weil-derived-complete-integral-detailed", "def-weil-derived-limit", "def-weil-integral-rational-qbar-compact-support", "def-weil-rationalization-karoubi", "lem-compact-support-direct-image-triangulated", "prop-weil-pbc-rational-transport"]
 +++
 Let $K_0$ be a field, let $X,Y$ be finite-type
 [def-weil-scheme-morphism-properties] $K_0$-schemes, let $f:X\to Y$ be a
@@ -41,5 +41,3 @@ extends uniquely to its rationalization $D^b_c(X,E)$ of
 [def-weil-rationalization-karoubi]; a uniquely determined extension takes the
 same value on any two integral representatives $K,K'$ of one object, and that
 identification is the canonical isomorphism asserted.
-
-Unresolved dependencies: prop:weil-pbc-rational-transport

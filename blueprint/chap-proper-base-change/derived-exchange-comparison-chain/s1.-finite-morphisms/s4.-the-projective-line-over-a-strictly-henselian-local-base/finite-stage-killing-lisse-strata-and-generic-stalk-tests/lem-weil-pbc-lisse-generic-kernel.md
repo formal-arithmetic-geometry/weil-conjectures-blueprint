@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-lisse-generic-kernel"
 kind = "lemma"
 title = "A generic stalk detects kernels in a locally constant sheaf"
-order = 1535
+order = 1633
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-flat-lfp-open", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $S$ be a nonempty irreducible scheme with generic point $\eta$, and fix a

@@ -2,7 +2,7 @@
 id = "imported-dependency-registry"
 kind = "section"
 title = "Imported dependency registry"
-order = 1852
+order = 1981
 +++
 **Status.** These labels occur in an original `\\ uses` or cross-reference but
 are defined outside the extracted S0–S10 block. A red status is an additional explicit proof

@@ -2,7 +2,7 @@
 id = "comparison-predicates-and-injective-acyclicity"
 kind = "section"
 title = "Comparison predicates and injective acyclicity"
-order = 1304
+order = 1219
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions"]
 +++
 The two predicates the proper-base-change chapter argues with:

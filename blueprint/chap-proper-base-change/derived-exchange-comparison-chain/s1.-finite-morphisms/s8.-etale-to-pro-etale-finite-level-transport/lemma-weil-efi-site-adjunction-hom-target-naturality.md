@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-adjunction-hom-target-naturality"
 kind = "lemma"
 title = "Target naturality of the comparison Hom correspondence"
-order = 1674
+order = 1772
 uses = ["def-weil-efi-site-adjunction-hom-forward"]
 +++
 For $v:G\to G'$ and $\alpha:\epsilon_X^{-1}F\to G$,

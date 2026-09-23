@@ -2,9 +2,9 @@
 id = "cor-weil-pbc-geometric-fiber-finite"
 kind = "theorem"
 title = "Finite-coefficient geometric-fiber formula"
-order = 1647
-tags = ["latex:corollary"]
+order = 1745
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-finite-torsion"]
+tags = ["latex:corollary"]
 +++
 Let $f:X\to Y$ be proper, let $\bar y:\operatorname{Spec}\Omega\to Y$ be
 geometric, and let $i_{\bar y}:X_{\bar y}\to X$ and $a_{\bar y}:X_{\bar

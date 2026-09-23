@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-completed-map-reduction"
 kind = "lemma"
 title = "Finite reduction of the completed map"
-order = 1785
+order = 1887
 uses = ["def-weil-pbc-completed-frobenius-structures", "def-weil-pbc-completed-reduction-square", "lemma-weil-pbc-completed-frobenius-equivariance", "lemma-weil-pbc-frobenius-tower-compatibility", "lemma-weil-pbc-level-map-derived-limit"]
 +++
 For every $n$, the diagram

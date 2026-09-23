@@ -2,7 +2,7 @@
 id = "def-weil-pbc-C7"
 kind = "definition"
 title = "Assertion (C7): invariance under algebraically closed extension for a proper curve"
-order = 1601
+order = 1699
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-extension-pullback"]
 +++
 For every curve coefficient pair [def-weil-pbc-curve-setting] $(C,F)$ with $C$

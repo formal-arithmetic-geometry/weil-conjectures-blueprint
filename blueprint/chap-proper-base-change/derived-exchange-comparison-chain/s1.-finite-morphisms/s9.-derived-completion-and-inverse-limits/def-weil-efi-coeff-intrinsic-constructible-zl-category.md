@@ -2,7 +2,7 @@
 id = "def-weil-efi-coeff-intrinsic-constructible-zl-category"
 kind = "definition"
 title = "Intrinsic constructible integral category candidate"
-order = 1761
+order = 1863
 uses = ["def-weil-efi-coeff-zl-reduction-tower", "def-weil-pbc-bounded-constructible-adic-tower", "def-weil-pbc-intrinsic-koszul-completion"]
 +++
 Define $\mathscr A^{\mathrm{intr}}_{\mathbf Z_\ell}(X)$ to be the full

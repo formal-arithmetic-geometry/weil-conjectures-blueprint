@@ -2,9 +2,9 @@
 id = "prop-weil-pbc-finite-morphisms"
 kind = "theorem"
 title = "Finite morphisms satisfy proper base change"
-order = 1453
-tags = ["latex:proposition"]
+order = 1553
 uses = ["def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-exchange"]
+tags = ["latex:proposition"]
 +++
 Every finite morphism $f$ satisfies $\mathrm{PBC}(f)$ in the sense of
 [def-weil-pbc-property-detailed].

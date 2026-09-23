@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-chow-factorization"
 kind = "lemma"
 title = "Chow and projective factorization"
-order = 1467
+order = 1567
 uses = ["cor-chow-lemma-proper", "lemma-nagata-projective-space-base-change-proper", "lemma-weil-pbc-cancellation", "lemma-weil-pbc-target-locality", "thm-chow-lemma"]
 +++
 After replacing an affine target by an etale affine cover, every proper

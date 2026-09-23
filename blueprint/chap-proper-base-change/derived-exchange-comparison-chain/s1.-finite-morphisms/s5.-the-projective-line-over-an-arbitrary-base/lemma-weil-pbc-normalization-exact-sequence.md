@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-normalization-exact-sequence"
 kind = "lemma"
 title = "Normalization comparison exact sequence"
-order = 1582
+order = 1680
 uses = ["def-weil-pbc-finite-open-comparison", "lemma-weil-pbc-eight-curve-devissage", "lemma-weil-pbc-finite-pushforward-extension-zero"]
 +++
 Let $X$ be a reduced curve over an algebraically closed field,

@@ -2,7 +2,7 @@
 id = "cat-geo-ba31-strict-hensel-stalk"
 kind = "remark"
 title = "Exact unresolved interface"
-order = 1830
+order = 1959
 tags = ["latex:openproblem"]
 +++
 **Owner.**`CAT-GEO-BA31-STRICT-HENSEL-STALK` **Status.**`OPEN`; **reduction status.**`LEAF`; **class.**`CAT/GEO`.

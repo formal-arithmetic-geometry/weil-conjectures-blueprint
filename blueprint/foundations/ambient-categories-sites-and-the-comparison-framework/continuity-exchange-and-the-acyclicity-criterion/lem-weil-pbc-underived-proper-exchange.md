@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-underived-proper-exchange"
 kind = "lemma"
 title = "Underived proper exchange"
-order = 1350
+order = 1265
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange-detailed", "lem-weil-pbc-degree-zero-strict-henselian", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula-detailed"]
 +++
 For a cartesian square [def-weil-pbc-cartesian-square-detailed] with $f$
