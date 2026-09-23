@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-derived-exchange-5"
 kind = "remark"
 title = "Pointer to the properties of the derived exchange morphism"
-order = 1284
+order = 1286
 uses = ["def-weil-pbc-derived-exchange-detailed", "lem-weil-pbc-derived-exchange-termwise"]
 +++
 In the notation of [def-weil-pbc-derived-exchange-detailed], the following

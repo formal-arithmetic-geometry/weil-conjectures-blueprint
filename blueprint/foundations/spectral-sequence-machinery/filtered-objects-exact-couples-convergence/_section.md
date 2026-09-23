@@ -2,8 +2,8 @@
 id = "filtered-objects-exact-couples-convergence"
 kind = "section"
 title = "Filtered objects, exact couples, convergence"
-order = 1217
-uses = ["def-sp-abelian", "def-sp-spectral-sequence"]
+order = 1216
+uses = ["def-sp-abelian", "def-sp-spectral-sequence", "lem-sp-long-exact-of-triangle"]
 +++
 The exact-couple formalism in the bidegree convention the hypercohomology
 spectral sequence needs [def-sp-exact-couple], the recursive $Z_r/B_r$
@@ -15,3 +15,10 @@ lemmas that follow are the tools for comparing two spectral sequences
 [lem-sp-page-induction], [lem-sp-finite-filtration-induction],
 [lem-sp-couple-morphism], and for reading off an edge isomorphism when a
 sequence collapses to one column [lem-sp-edge-collapse].
+
+The section closes with what all of it was for, moved here from the preceding
+section because it is proved from everything above: the spectral sequence of a
+bounded filtered complex, with its $E_1$-page, its $Z_r/B_r$ description, its
+convergence, its functoriality and a first-quadrant variant
+[thm-sp-spectral-object-yields]. It is the theorem the rest of the chapter
+applies.

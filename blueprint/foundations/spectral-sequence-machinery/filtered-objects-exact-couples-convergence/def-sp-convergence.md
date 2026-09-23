@@ -2,7 +2,7 @@
 id = "def-sp-convergence"
 kind = "definition"
 title = "Convergence of a couple"
-order = 1221
+order = 1220
 uses = ["def-sp-exact-couple", "def-sp-filtration"]
 +++
 In the situation of [def-sp-exact-couple], regard all cycle and boundary

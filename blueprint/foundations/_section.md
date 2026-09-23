@@ -34,13 +34,20 @@ etale and pro-etale sites, direct and inverse image with the named exchange
 morphisms, the strict henselization as a limit, hypercover descent, the
 predicates $\mathrm{PBC}$ and $\mathrm{IA}$, and derived completion.
 
-At chapter level the part is a directed acyclic graph: the conventions
-chapter cites the Karoubi chapter, and the Weil-structure and ambient chapters
-cite the conventions chapter. The spectral-sequence chapter cites nothing
-outside itself. Three section-level cycles remain inside chapters 3 and 5, and
-one of them rests on a genuine circularity in the source between
-[thm-sp-if-e1] and [lem-sp-kinjective-computes], whose proofs cite each other;
-neither is repaired here.
+The dependency graph of the part is acyclic at chapter level and at section
+level: the conventions chapter cites the Karoubi chapter, the Weil-structure
+and ambient chapters cite the conventions chapter, and the spectral-sequence
+chapter cites nothing outside itself. Six objects the source files in a section
+that cites them but is cited by them are moved to the section they belong to;
+each such move is recorded in the body of both sections.
+
+Reading order is a topological order of the whole `uses` graph, with one
+exception. [thm-sp-if-e1] and [lem-sp-kinjective-computes] cite each other in
+their proofs in the source — the theorem's resolution-independence clause
+appeals to the K-injective comparison, and the comparison appeals to the
+theorem's Cartan--Eilenberg resolution. That is a genuine circularity, not a
+filing mistake, and it is the only one in the blueprint; it is reported rather
+than repaired, since repairing it means splitting the theorem.
 
 The part is self-contained: every `uses` edge recorded inside it resolves
 inside it, so this section cites nothing beyond itself and carries no `uses`

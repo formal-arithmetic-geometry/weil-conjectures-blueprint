@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-direct-image-2"
 kind = "remark"
 title = "Pointer to the properties of the direct image"
-order = 1272
+order = 1278
 uses = ["def-weil-pbc-direct-image", "lem-weil-pbc-qcqs-higher-direct-image"]
 +++
 In the notation of [def-weil-pbc-direct-image], the following holds. For

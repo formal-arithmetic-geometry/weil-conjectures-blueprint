@@ -3,11 +3,16 @@ id = "the-spectral-sequence-framework"
 kind = "section"
 title = "The spectral sequence framework"
 order = 1213
-uses = ["def-sp-abelian", "def-sp-convergence", "def-sp-exact-couple", "def-sp-filtration", "lem-sp-couple-morphism", "lem-sp-long-exact-of-triangle", "lem-sp-page-induction"]
+uses = ["def-sp-abelian"]
 +++
-What a spectral sequence is [def-sp-spectral-sequence], Verdier's spectral
-object as the indexing device that packages exact-couple data
-[def-sp-spectral-object], and the workhorse of the chapter: the spectral
-sequence of a bounded filtered complex, with its $E_1$-page, its
-$Z_r/B_r$ description, its convergence, its functoriality, and a
-first-quadrant variant [thm-sp-spectral-object-yields].
+What a spectral sequence is [def-sp-spectral-sequence], and Verdier's
+spectral object as the indexing device that packages exact-couple data
+[def-sp-spectral-object]. Two definitions, resting only on the abelian
+vocabulary of [grothendieck-abelian-categories-and-derived-functors].
+
+The source puts the workhorse of the chapter here too — the spectral sequence
+of a bounded filtered complex [thm-sp-spectral-object-yields] — but that
+theorem is proved from the exact couples, the convergence criterion and the
+comparison lemmas of the next section, so it stands at the end of
+[filtered-objects-exact-couples-convergence] instead. Leaving it here made the
+two sections cite each other in both directions.

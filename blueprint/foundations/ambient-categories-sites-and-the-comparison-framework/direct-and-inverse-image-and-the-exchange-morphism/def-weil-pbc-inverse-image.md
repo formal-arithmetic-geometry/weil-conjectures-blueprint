@@ -2,7 +2,7 @@
 id = "def-weil-pbc-inverse-image"
 kind = "definition"
 title = "Inverse image and the derived adjunction"
-order = 1273
+order = 1271
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 For a morphism [def-weil-pbc-scheme-conventions] $u:U\to V$, inverse image

@@ -2,7 +2,7 @@
 id = "thm-sp-grothendieck-base-change"
 kind = "theorem"
 title = "Base-change naturality of the Grothendieck spectral sequence"
-order = 1240
+order = 1241
 uses = ["def-sp-composite-acyclicity", "def-sp-injective-resolutions", "lem-sp-couple-morphism", "thm-sp-grothendieck", "thm-sp-spectral-object-yields"]
 +++
 Let $(F,G)$ and $(F',G')$ be composable pairs
