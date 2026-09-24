@@ -1,7 +1,0 @@
-+++
-id = "middle-interfaces"
-kind = "section"
-title = "Middle interfaces"
-order = 1927
-uses = ["cat-ba30-rfstar-rebind", "cat-ba31-derived-stalk-iso-conservativity", "cat-ba31-mate-coherence", "cat-ba31-mate-replacement-independence", "cat-ba31-sheaf-stalk-faithfulness", "cat-ba31-small-etale-mate", "cat-ba33-derived-open-exchange", "cat-ba33-finite-bc-pasting", "cat-ba43-densification-identity", "cat-ba43-densification-iterated-coherence", "cat-ba43-densification-open-exchange", "cat-ba43-densification-refinement-naturality", "cat-ba43-open-extension-composition", "cat-ba43-successive-witness-independence", "cat-ba43-triple-pasting", "cat-geo-ba31-finite-fibre-product", "cat-geo-ba31-strict-hensel-stalk", "cat-geo-ba33-open-extension-constructibility", "cat-geo-ba43-dense-to-raw-support", "cat-geo-ba43-open-proper-exchange", "ext-ba30-a4-seed-constructor", "ext-ba30-relative-cohomological-dimension", "ext-geo-ba31-chow-proper-fp", "ext-geo-ba31-curve-field-invariance", "ext-geo-ba31-gabber-affine", "ext-geo-ba31-henselian-h0", "ext-geo-ba31-torsor-h1", "ext-geo-ba43-dense-successive-witness", "fa-ba30-bounded-postnikov-serre", "fa-cat-ba31-bounded-below-postnikov", "fa-cat-ba31-leray-cancellation", "geo-ba31-symmetric-p1-finite-surjective", "geo-ba43-dense-refinement-uniqueness", "geo-ba43-pairwise-common-refinement", "geo-ba43-refinement-proper", "geo-ba43-schematic-closure-densification"]
-+++
