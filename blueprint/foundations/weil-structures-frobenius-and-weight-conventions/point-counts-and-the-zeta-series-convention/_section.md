@@ -2,7 +2,7 @@
 id = "point-counts-and-the-zeta-series-convention"
 kind = "section"
 title = "Point counts and the zeta-series convention"
-order = 1444
+order = 1456
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties"]
 +++
 The normalization of the Hasse--Weil zeta series used throughout

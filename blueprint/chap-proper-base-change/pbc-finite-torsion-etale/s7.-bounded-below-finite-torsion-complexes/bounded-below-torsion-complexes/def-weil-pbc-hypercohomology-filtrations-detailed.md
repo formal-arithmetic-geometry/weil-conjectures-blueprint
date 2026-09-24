@@ -2,7 +2,7 @@
 id = "def-weil-pbc-hypercohomology-filtrations-detailed"
 kind = "theorem"
 title = "Hypercohomology spectral sequences"
-order = 1731
+order = 1743
 uses = ["def-sp-etale-dictionary", "def-sp-truncation-couple", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-direct-image", "lem-sp-finite-filtration-induction", "lem-sp-shift-identification", "thm-sp-truncation-e2"]
 +++
 Let $K\in\Dplus(X_{\Et})$ have torsion cohomology and choose $a$ with

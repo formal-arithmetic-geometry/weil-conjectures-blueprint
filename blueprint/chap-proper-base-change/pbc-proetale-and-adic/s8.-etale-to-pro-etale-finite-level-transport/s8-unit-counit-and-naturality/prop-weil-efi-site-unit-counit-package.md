@@ -2,7 +2,7 @@
 id = "prop-weil-efi-site-unit-counit-package"
 kind = "theorem"
 title = "Natural unit-counit package for the comparison"
-order = 1787
+order = 1799
 tags = ["latex:proposition"]
 uses = ["def-weil-efi-site-unit-counit-certificate", "lemma-weil-efi-site-counit-naturality", "lemma-weil-efi-site-counit-restriction", "lemma-weil-efi-site-unit-naturality", "lemma-weil-efi-site-unit-restriction", "lemma-weil-pbc-epsilon-counit-representative-descent-v1"]
 +++

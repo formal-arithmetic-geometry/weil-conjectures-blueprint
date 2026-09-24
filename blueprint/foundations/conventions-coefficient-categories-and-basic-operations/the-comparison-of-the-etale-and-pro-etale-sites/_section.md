@@ -2,7 +2,7 @@
 id = "the-comparison-of-the-etale-and-pro-etale-sites"
 kind = "section"
 title = "The comparison of the etale and pro-etale sites"
-order = 1316
+order = 1317
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-etale-sum-extension", "def-weil-pbc-ind-etale-algebra", "def-weil-pbc-inverse-image", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-derived-cohomology-continuity", "lem-weil-pbc-etale-finite-data-descent", "lem-weil-pbc-etale-restriction-injectives", "lem-weil-pbc-etale-section-continuity", "lem-weil-pbc-ind-etale-stability", "prop-weil-pbc-inverse-image-exact", "prop-weil-pbc-kinjective-resolutions-exist", "prop-weil-pbc-proetale-constant-exact", "thm-weil-pbc-weak-etale-refinement"]
 +++
 The comparison morphism of sites $\nu_T:T_{\Proet}\to T_{\Et}$

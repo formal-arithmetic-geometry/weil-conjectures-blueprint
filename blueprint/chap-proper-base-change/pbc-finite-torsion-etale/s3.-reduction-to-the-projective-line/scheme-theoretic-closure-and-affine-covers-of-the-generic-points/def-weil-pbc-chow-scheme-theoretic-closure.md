@@ -2,7 +2,7 @@
 id = "def-weil-pbc-chow-scheme-theoretic-closure"
 kind = "definition"
 title = "Scheme-theoretic closure and dense opens"
-order = 1567
+order = 1579
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 For a morphism $u:W\to X$ of schemes, the *scheme-theoretic image* of $u$ is

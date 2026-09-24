@@ -2,7 +2,7 @@
 id = "def-chow-segre"
 kind = "definition"
 title = "Segre embedding"
-order = 619
+order = 620
 lean = ["AlgebraicGeometry.ProjectiveSpace.segre"]
 +++
 Let $S$ be a scheme and let $n$ and $m$ be index sets for the homogeneous

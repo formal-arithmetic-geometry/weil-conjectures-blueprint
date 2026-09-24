@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-finite-pushforward-extension-zero-commute"
 kind = "theorem"
 title = "Finite pushforward commutes with extension by zero"
-order = 1707
+order = 1719
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-finite-pushforward-extension-zero", "lem-weil-pbc-finite-stalk-formula", "lem-weil-pbc-geometric-stalk-conservative"]
 tags = ["latex:proposition"]
 +++

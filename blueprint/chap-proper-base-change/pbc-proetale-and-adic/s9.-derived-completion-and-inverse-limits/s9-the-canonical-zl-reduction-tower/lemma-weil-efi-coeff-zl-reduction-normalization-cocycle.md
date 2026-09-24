@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-coeff-zl-reduction-normalization-cocycle"
 kind = "lemma"
 title = "Cocycle equation for reduction normalization"
-order = 1866
+order = 1878
 uses = ["def-weil-efi-coeff-zl-reduction-normalization", "lemma-weil-efi-coeff-zl-reduction-composition"]
 +++
 For $c\geq b\geq a$, the direct normalization from level $c$ to level $a$

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-bounded-constructible-complete"
 kind = "definition"
 title = "Bounded constructible complete category"
-order = 1333
+order = 1334
 uses = ["def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-intrinsic-completion"]
 +++
 Assume $T$ is noetherian of finite dimension and the torsion orders are

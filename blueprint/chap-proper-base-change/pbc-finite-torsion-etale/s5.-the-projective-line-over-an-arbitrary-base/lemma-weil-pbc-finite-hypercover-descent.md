@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-hypercover-descent"
 kind = "lemma"
 title = "Finite etale hypercover skeleta descend"
-order = 1656
+order = 1668
 uses = ["lemma-weil-pbc-fibre-product-limit"]
 +++
 Let $X_\infty=\varprojlim_iX_i$ be as in the continuity lemma below and fix

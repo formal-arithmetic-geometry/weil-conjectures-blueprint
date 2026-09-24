@@ -2,7 +2,7 @@
 id = "def-weil-pbc-underived-exchange-detailed"
 kind = "definition"
 title = "Underived exchange morphism"
-order = 1195
+order = 1196
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image"]
 +++
 For $F\in\Ab(X_{\Et})$ and a cartesian square

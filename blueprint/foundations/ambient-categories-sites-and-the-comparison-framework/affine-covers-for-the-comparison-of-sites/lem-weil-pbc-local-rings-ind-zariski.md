@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-local-rings-ind-zariski"
 kind = "lemma"
 title = "Local-ring identifications with w-local target"
-order = 1243
+order = 1244
 uses = ["def-weil-pbc-ind-etale-algebra", "def-weil-pbc-w-local", "lem-weil-pbc-w-local-partition"]
 +++
 Suppose $A\to B$ identifies every local ring: for every prime $q\subset B$,

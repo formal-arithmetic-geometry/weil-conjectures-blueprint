@@ -2,7 +2,7 @@
 id = "lem-chow-glue"
 kind = "lemma"
 title = "Gluing the projections"
-order = 625
+order = 626
 lean = ["AlgebraicGeometry.ChowGraph.modificationMap", "AlgebraicGeometry.ChowGraph.projPreimage", "AlgebraicGeometry.ChowGraph.projRestrict"]
 uses = ["lem-chow-agree-on-dense-open", "lem-chow-graph"]
 +++

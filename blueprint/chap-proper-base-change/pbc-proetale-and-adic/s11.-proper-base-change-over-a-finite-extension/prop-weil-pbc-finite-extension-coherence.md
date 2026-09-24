@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-finite-extension-coherence"
 kind = "theorem"
 title = "Independence and coherence of the rational proper base change"
-order = 1921
+order = 1933
 uses = ["cor-weil-pbc-constructible-complete", "prop-weil-pbc-rational-transport", "thm-weil-pbc-finite-extension"]
 tags = ["latex:proposition"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-zl-reduction-perfect"
 kind = "lemma"
 title = "Perfectness of $\\mathbf Z/\\ell^n$"
-order = 1860
+order = 1872
 +++
 For $\Lambda=\mathbf Z_\ell$ and $I=(\ell)$, every
 $\Lambda/I^n$ is perfect over $\Lambda$.

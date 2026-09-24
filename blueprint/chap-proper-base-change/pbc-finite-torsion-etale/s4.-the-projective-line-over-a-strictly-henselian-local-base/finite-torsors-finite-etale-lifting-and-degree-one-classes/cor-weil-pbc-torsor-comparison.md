@@ -2,7 +2,7 @@
 id = "cor-weil-pbc-torsor-comparison"
 kind = "theorem"
 title = "Torsor comparison"
-order = 1644
+order = 1656
 uses = ["def-weil-pbc-finite-torsors", "thm-galois-lc-etale", "thm-weil-pbc-finite-etale-lifting"]
 tags = ["latex:corollary"]
 +++

@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-torsion-assembly"
 kind = "theorem"
 title = "Assembly for arbitrary torsion sheaves"
-order = 1721
+order = 1733
 uses = ["def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-direct-image-filtered-colimit", "lem-weil-pbc-five-lemma-transfer", "lem-weil-pbc-prime-factor-devissage", "lem-weil-pbc-torsion-filtered-union", "prop-weil-pbc-reduction-to-projective-line-detailed", "thm-weil-pbc-chow", "thm-weil-pbc-prime-coefficient", "thm-weil-pbc-stein-inputs"]
 tags = ["latex:proposition"]
 +++

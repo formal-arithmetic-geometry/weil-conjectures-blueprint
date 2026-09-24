@@ -2,7 +2,7 @@
 id = "def-weil-pbc-common-stage-cones"
 kind = "definition"
 title = "Common-stage cones and distinguished triangles"
-order = 1352
+order = 1353
 uses = ["def-weil-pbc-finite-stage-pair-category"]
 +++
 Let $f=[M,u]:(E,K)\to(F,L)$ be a morphism of the finite-stage pair category

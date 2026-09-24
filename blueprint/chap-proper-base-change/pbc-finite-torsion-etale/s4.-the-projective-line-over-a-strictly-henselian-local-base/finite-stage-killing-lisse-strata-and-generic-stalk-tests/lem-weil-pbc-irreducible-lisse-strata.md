@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-irreducible-lisse-strata"
 kind = "lemma"
 title = "Irreducible lisse strata"
-order = 1627
+order = 1639
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-noetherian-finite-components"]
 +++
 Let $X$ be Noetherian and $F$ a constructible abelian etale sheaf on $X$.

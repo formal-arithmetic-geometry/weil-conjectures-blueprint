@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-finite-torsion-coherence"
 kind = "theorem"
 title = "Coherence of the finite-torsion exchange"
-order = 1738
+order = 1750
 uses = ["def-weil-pbc-derived-exchange-detailed", "lem-weil-pbc-exchange-identity-pasting", "thm-weil-pbc-finite-torsion"]
 tags = ["latex:proposition"]
 +++

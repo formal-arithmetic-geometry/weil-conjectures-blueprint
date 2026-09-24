@@ -2,7 +2,7 @@
 id = "def-weil-pbc-injective-acyclicity"
 kind = "definition"
 title = "Injective-acyclicity property"
-order = 1221
+order = 1222
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions"]
 +++
 For a proper morphism [def-weil-pbc-scheme-conventions] $f:X\to Y$ and a

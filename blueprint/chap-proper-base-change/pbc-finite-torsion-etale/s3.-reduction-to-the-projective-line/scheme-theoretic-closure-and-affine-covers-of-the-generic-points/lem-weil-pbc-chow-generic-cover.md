@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-generic-cover"
 kind = "lemma"
 title = "Finite cover by affines containing the generic points"
-order = 1570
+order = 1582
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-chow-affine-open-around-generics"]
 +++
 Let $X$ be quasi-compact and quasi-separated and assume that $X$ has only

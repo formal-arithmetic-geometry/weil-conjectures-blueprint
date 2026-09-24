@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-direct-image-r-lim"
 kind = "lemma"
 title = "Direct image commutes with sequential homotopy limits"
-order = 1852
+order = 1864
 uses = ["def-weil-pbc-adic-derived-inverse-limit"]
 +++
 For an inverse tower $M_n$ on $X_{\mathrm{proet}}$,

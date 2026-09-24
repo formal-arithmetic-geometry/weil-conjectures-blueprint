@@ -2,7 +2,7 @@
 id = "local-frobenius-and-cohomological-conventions"
 kind = "section"
 title = "Local Frobenius and cohomological conventions"
-order = 1438
+order = 1450
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
 +++
 The local operator $F_y$ attached to a closed point

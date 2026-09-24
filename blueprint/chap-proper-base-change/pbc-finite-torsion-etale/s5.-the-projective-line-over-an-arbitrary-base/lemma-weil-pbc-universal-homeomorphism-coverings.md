@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-universal-homeomorphism-coverings"
 kind = "lemma"
 title = "Covering compatibility for universal homeomorphisms"
-order = 1661
+order = 1673
 lean = ["AlgebraicGeometry.Scheme.Hom.functorPushforward_mem_smallEtaleTopology_iff"]
 uses = ["lemma-weil-pbc-universal-homeomorphism-descent-datum"]
 +++

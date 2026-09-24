@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-cancellation"
 kind = "lemma"
 title = "Cancellation along a proper surjection"
-order = 1551
+order = 1563
 uses = ["lemma-weil-pbc-proper-underived-exchange", "lemma-weil-pbc-property-iff-acyclicity"]
 +++
 Let $f:X\to Y$ be proper and surjective and $h:Y\to Z$ proper. If $f$ and

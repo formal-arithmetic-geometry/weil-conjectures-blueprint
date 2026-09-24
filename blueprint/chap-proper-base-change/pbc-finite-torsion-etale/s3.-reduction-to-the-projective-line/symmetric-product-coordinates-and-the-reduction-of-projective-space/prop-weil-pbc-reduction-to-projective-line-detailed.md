@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-reduction-to-projective-line-detailed"
 kind = "theorem"
 title = "Reduction to the projective line"
-order = 1595
+order = 1607
 uses = ["def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-projective-embedding", "lem-weil-pbc-reduction-projective-space", "lem-weil-pbc-target-locality", "prop-weil-pbc-cancellation", "prop-weil-pbc-composition-stability", "prop-weil-pbc-finite-morphisms", "prop-weil-pbc-property-iff-acyclicity", "thm-weil-pbc-chow"]
 tags = ["latex:proposition"]
 +++

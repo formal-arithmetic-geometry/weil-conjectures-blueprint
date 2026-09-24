@@ -2,7 +2,7 @@
 id = "foundations"
 kind = "section"
 title = "Shared language and cohomological foundations"
-order = 1100
+order = 1101
 +++
 Part I of `weil_conjectures_detailed.tex`: the common language of the whole
 blueprint. Nothing here is a geometric input to the Weil conjectures; it is
@@ -88,7 +88,7 @@ become edges when the corresponding parts are imported. One of them never can:
 `prop:compactification-coherence` is now
 [prop-compactification-coherence-detailed] in [six-functors], but its proof
 rests on proper base change, which rests on this part, so an edge to it would
-be a cycle; see [compactification-comparison-and-coherence-for-compact-support].
+be a cycle; see [the-isomorphism-j-2-k-to-ru-j-1-k-and-its-base-change].
 
 Fifteen identifiers of this part already name objects imported earlier from
 the sketch sources, which read the same notions at a coarser grain. Those

@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-chow"
 kind = "theorem"
 title = "Chow and projective factorization"
-order = 1585
+order = 1597
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $f:X\to Y$ be proper *and locally of finite presentation*, and let $Y$ be

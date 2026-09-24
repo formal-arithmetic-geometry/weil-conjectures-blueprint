@@ -2,7 +2,7 @@
 id = "def-weil-full-cohomological-dimension"
 kind = "definition"
 title = "Full cohomological dimension"
-order = 1394
+order = 1395
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf

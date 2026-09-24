@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-prime-coefficient"
 kind = "theorem"
 title = "Prime-coefficient proper base change"
-order = 1720
+order = 1732
 uses = ["def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-projective-line-detailed", "prop-weil-pbc-reduction-to-projective-line-detailed"]
 +++
 For every prime $r$, every proper $f:X\to Y$ that is locally of finite

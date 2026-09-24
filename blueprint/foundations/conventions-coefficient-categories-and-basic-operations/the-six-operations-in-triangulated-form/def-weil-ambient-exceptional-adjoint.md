@@ -2,7 +2,7 @@
 id = "def-weil-ambient-exceptional-adjoint"
 kind = "definition"
 title = "Ambient exceptional right adjoint datum"
-order = 1396
+order = 1397
 uses = ["def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "def-weil-exceptional-adjoint-admissibility", "def-weil-full-cohomological-dimension", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf

@@ -2,7 +2,7 @@
 id = "thm-constructible-serre"
 kind = "theorem"
 title = "Constructible sheaves form a weak Serre subcategory"
-order = 1067
+order = 1068
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.cokernel", "AlgebraicGeometry.Scheme.IsConstructibleSheaf.kernel"]
 uses = ["def-constructible-constructible", "lemma-constructible-common-refinement", "lemma-constructible-flc-serre", "lemma-constructible-of-refines", "prop-constructible-pullback"]
 +++

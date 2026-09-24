@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-limit-descent"
 kind = "lemma"
 title = "Spreading out to a noetherian base"
-order = 1584
+order = 1596
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $Y=\operatorname{Spec}A$ be affine and let $f:X\to Y$ be proper *and

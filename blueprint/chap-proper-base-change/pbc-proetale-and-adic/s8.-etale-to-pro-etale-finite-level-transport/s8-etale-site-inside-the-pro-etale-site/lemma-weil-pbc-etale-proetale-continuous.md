@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-etale-proetale-continuous"
 kind = "lemma"
 title = "Continuity of the etale/pro-etale inclusion"
-order = 1755
+order = 1767
 uses = ["def-weil-pbc-etale-proetale-inclusion", "lemma-weil-pbc-etale-proetale-functor"]
 +++
 The functor $\iota_X:X_{\mathrm{et}}\to X_{\mathrm{proet}}$ is continuous

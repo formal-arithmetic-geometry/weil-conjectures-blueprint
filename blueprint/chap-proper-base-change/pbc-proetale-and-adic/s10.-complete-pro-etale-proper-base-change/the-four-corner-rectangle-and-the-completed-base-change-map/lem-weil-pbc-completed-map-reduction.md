@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-completed-map-reduction"
 kind = "lemma"
 title = "Finite reduction of the completed map"
-order = 1906
+order = 1918
 uses = ["def-weil-pbc-completed-base-change-map-detailed", "lem-weil-pbc-completed-pullback-reduction", "lem-weil-pbc-finite-reduction-reconstruction", "lem-weil-pbc-rectangle-derived-limit"]
 +++
 For every $n$, reduction of $\Ex^{\mathrm{comp}}_{\square,K}$ of

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-frobenius-product-cone-limit"
 kind = "lemma"
 title = "Frobenius structures pass through the product cone"
-order = 1883
+order = 1895
 uses = ["def-weil-pbc-adic-derived-inverse-limit", "lemma-weil-pbc-frobenius-level-rectangle", "lemma-weil-pbc-frobenius-tower-compatibility", "lemma-weil-pbc-level-map-derived-limit"]
 +++
 For $Z=A,B,C,D$, the product-cone limit carries the Weil structure

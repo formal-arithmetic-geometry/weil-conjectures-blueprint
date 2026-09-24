@@ -2,7 +2,7 @@
 id = "lem-chow-affine-cover"
 kind = "lemma"
 title = "Affine cover through the generic points"
-order = 613
+order = 614
 lean = ["AlgebraicGeometry.exists_isAffineOpen_cover_genericPoints_subset", "dense_iInf_of_genericPoints_subset"]
 uses = ["lem-chow-affine-through-generic-points"]
 +++

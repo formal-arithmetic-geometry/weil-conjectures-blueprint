@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-finite-morphisms"
 kind = "theorem"
 title = "Finite morphisms satisfy proper base change"
-order = 1548
+order = 1560
 uses = ["def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-exchange"]
 tags = ["latex:proposition"]
 +++

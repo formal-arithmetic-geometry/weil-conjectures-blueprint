@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-exchange-geometric-stalk"
 kind = "lemma"
 title = "Exchange on a geometric stalk"
-order = 1713
+order = 1725
 uses = ["def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-etale-sheaves", "prop-weil-pbc-strict-henselization-stalk-formula-detailed", "prop-weil-pbc-strict-local-exchange"]
 +++
 Let $p:\mathbf P^1_S\to S$, let $g:T\to S$, and let $\bar t\to T$ have image

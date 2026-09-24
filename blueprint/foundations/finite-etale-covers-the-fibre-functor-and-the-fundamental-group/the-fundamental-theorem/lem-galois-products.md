@@ -2,7 +2,7 @@
 id = "lem-galois-products"
 kind = "lemma"
 title = "Products of Galois covers"
-order = 1957
+order = 1969
 uses = ["def-galois-categories", "def-galois-object", "def-weil-pbc-scheme-conventions", "lem-fet-galois-category", "lem-galois-axioms", "lem-galois-object-degree"]
 +++
 Let $Y$ be connected with geometric point $\bar y$, and let $Q,Q'$ be

@@ -2,7 +2,7 @@
 id = "prop-weil-efi-site-triangle-certificate"
 kind = "theorem"
 title = "Triangle certificate for the comparison adjunction"
-order = 1791
+order = 1803
 tags = ["latex:proposition"]
 uses = ["def-weil-efi-site-triangle-certificate", "lemma-weil-efi-site-left-triangle", "lemma-weil-efi-site-right-triangle"]
 +++

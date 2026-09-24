@@ -2,7 +2,7 @@
 id = "s11.-proper-base-change-over-a-finite-extension"
 kind = "section"
 title = "S11. Proper base change over a finite extension"
-order = 1919
+order = 1931
 uses = ["cor-weil-pbc-constructible-complete", "cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-rational-transport"]
 +++
 Finite coefficient fields. The rational category is the raw scalar

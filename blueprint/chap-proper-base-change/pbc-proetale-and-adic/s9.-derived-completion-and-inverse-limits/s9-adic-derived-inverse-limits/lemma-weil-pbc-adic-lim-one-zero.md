@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-adic-lim-one-zero"
 kind = "lemma"
 title = "Mittag–Leffler kills the Milnor obstruction"
-order = 1823
+order = 1835
 uses = ["lemma-weil-pbc-adic-mittag-leffler"]
 +++
 For a countable Mittag–Leffler system $(A_n)$ one has

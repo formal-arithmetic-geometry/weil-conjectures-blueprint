@@ -2,7 +2,7 @@
 id = "lemma-constructible-flc-biproduct"
 kind = "lemma"
 title = "Finite direct sums"
-order = 1059
+order = 1060
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.biprod", "AlgebraicGeometry.Scheme.IsFiniteSheaf.biprod", "AlgebraicGeometry.Scheme.IsLocallyConstantSheaf.biprod", "CategoryTheory.Sheaf.IsConstant.biprod"]
 uses = ["def-constructible-finite-locally-constant", "lemma-constructible-common-refinement"]
 +++

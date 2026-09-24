@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-covering-sieve-pullback"
 kind = "lemma"
 title = "Pullback equation for the image-sieve operation"
-order = 1751
+order = 1763
 uses = ["def-weil-efi-site-covering-sieve-image", "def-weil-pbc-etale-proetale-inclusion"]
 +++
 For an etale arrow $f:V\to U$ and a sieve $R$ on $U$,

@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-geometric-stalks-exact"
 kind = "theorem"
 title = "Exactness of geometric stalks"
-order = 1162
+order = 1163
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks"]
 tags = ["latex:proposition"]
 +++

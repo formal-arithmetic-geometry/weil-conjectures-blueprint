@@ -2,7 +2,7 @@
 id = "etale-site-ambient-categories"
 kind = "section"
 title = "Etale-site ambient categories"
-order = 1157
+order = 1158
 +++
 The scheme-theoretic vocabulary [def-weil-pbc-scheme-conventions], the small
 etale site [def-weil-pbc-etale-site] and its sheaves

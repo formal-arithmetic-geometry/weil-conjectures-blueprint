@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-covering-family-image"
 kind = "lemma"
 title = "Etale covering families remain pro-etale covering"
-order = 1749
+order = 1761
 uses = ["def-weil-pbc-etale-proetale-inclusion"]
 +++
 The image under $\iota_X$ of an etale covering family is a pro-etale

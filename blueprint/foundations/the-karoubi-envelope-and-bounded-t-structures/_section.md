@@ -2,7 +2,7 @@
 id = "the-karoubi-envelope-and-bounded-t-structures"
 kind = "section"
 title = "Karoubi envelopes, t-structures, and derived limits"
-order = 1101
+order = 1102
 +++
 Pure category theory, placed first because the coefficient chapter needs it
 and it needs nothing in return. The Karoubi envelope

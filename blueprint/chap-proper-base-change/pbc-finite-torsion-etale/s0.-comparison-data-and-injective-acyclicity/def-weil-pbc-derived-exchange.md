@@ -2,7 +2,7 @@
 id = "def-weil-pbc-derived-exchange"
 kind = "definition"
 title = "Derived exchange map"
-order = 1509
+order = 1521
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus"]
 uses = ["def-weil-pbc-underived-exchange"]
 +++

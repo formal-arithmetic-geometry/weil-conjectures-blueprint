@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-inverse-image-finite-limits"
 kind = "lemma"
 title = "Finite-limit preservation by comparison inverse image"
-order = 1772
+order = 1784
 uses = ["def-weil-pbc-epsilon-comparison", "def-weil-pbc-epsilon-factorization-index-v1", "lemma-weil-pbc-epsilon-factorization-index-filtered-v1", "prop-weil-efi-site-continuity-certificate"]
 +++
 The functor $\epsilon_X^{-1}$ preserves finite limits of $A$-module sheaves.

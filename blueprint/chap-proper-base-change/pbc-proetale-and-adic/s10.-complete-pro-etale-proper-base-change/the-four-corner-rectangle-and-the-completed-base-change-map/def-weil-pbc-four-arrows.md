@@ -2,7 +2,7 @@
 id = "def-weil-pbc-four-arrows"
 kind = "definition"
 title = "Four finite-level arrows"
-order = 1901
+order = 1913
 uses = ["def-weil-pbc-ambient-ringed-exchange", "def-weil-pbc-four-corners", "def-weil-pbc-projection-formula-map"]
 +++
 Let

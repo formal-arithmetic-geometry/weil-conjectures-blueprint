@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-amplification-consequences"
 kind = "theorem"
 title = "Amplitude containments implied by amplification"
-order = 1912
+order = 1924
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-derived-categories", "def-weil-pbc-finite-level-amplification", "def-weil-pbc-proetale-operations", "lem-weil-pbc-pullback-preserves-bounded-constructible", "prop-weil-pbc-restriction-direct-image"]
 tags = ["latex:proposition"]
 +++

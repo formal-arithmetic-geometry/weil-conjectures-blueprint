@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-curve-normalization-constant"
 kind = "lemma"
 title = "Normalization and smooth constant case"
-order = 1677
+order = 1689
 uses = ["lemma-weil-pbc-curve-dense-open-reduction", "lemma-weil-pbc-normalization-exact-sequence", "lemma-weil-pbc-smooth-curve-artin-schreier", "lemma-weil-pbc-smooth-curve-kummer-localization"]
 +++
 For a reduced curve, extension-invariance for $j_!\underline{\mathbf F_\ell}$

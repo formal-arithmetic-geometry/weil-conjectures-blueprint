@@ -3,9 +3,14 @@ id = "lemma-nagata-projective-is-proper"
 kind = "lemma"
 title = "Projective morphisms are proper"
 order = 180
-lean = ["AlgebraicGeometry.RelativeProjectiveSpace.isProper_over"]
 uses = ["def-nagata-projective-morphism"]
 +++
+**Status.** Not formalized, and not needed: Mathlib has no class of
+projective morphisms of schemes, so the statement cannot be phrased in Lean.
+The formalized route proves the cases it uses directly:
+[lemma-nagata-projective-space-base-change-proper] for projective space and
+[lemma-nagata-affine-blowup-proper] for the affine blow-up.
+
 Every projective morphism of schemes is proper.
 
 ## Proof

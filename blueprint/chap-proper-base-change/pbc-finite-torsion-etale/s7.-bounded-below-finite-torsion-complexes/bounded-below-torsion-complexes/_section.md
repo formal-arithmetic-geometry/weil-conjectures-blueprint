@@ -2,7 +2,7 @@
 id = "bounded-below-torsion-complexes"
 kind = "section"
 title = "Bounded-below torsion complexes"
-order = 1730
+order = 1742
 uses = ["def-sp-convergence", "def-sp-etale-dictionary", "def-sp-exact-couple", "def-sp-truncation-couple", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-sp-couple-morphism", "lem-sp-finite-filtration-induction", "lem-sp-shift-identification", "lem-weil-pbc-exchange-identity-pasting", "prop-weil-pbc-torsion-assembly", "thm-sp-half-plane-convergence", "thm-sp-truncation-e2"]
 +++
 The upgrade from sheaves to bounded-below complexes with torsion cohomology.

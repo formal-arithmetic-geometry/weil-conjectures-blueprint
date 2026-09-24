@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-counit-restriction"
 kind = "lemma"
 title = "Restriction equation for the comparison counit"
-order = 1785
+order = 1797
 uses = ["def-weil-pbc-epsilon-unit-counit", "lemma-weil-pbc-epsilon-counit-representative-descent-v1"]
 +++
 For a pro-etale arrow $b:W'\to W$, restriction carries the counit value of

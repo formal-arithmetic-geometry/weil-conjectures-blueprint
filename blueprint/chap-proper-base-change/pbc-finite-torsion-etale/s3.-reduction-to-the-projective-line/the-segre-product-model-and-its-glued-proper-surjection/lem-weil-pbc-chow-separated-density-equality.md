@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-separated-density-equality"
 kind = "lemma"
 title = "Agreement on a dense open, for a separated target"
-order = 1578
+order = 1590
 uses = ["def-weil-pbc-chow-scheme-theoretic-closure", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-closed-immersion-products"]
 +++
 Let $Z$ be a scheme, $U\subseteq Z$ a scheme-theoretically dense

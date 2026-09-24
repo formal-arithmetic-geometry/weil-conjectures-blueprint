@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-completed-tensor-reduction"
 kind = "lemma"
 title = "Finite reduction of completed tensor"
-order = 1854
+order = 1866
 uses = ["def-weil-pbc-completed-tensor-product", "lemma-weil-pbc-adic-completion-reduction"]
 +++
 For every $a$ there is a functorial isomorphism

@@ -2,7 +2,7 @@
 id = "cor-galois-abelian-h1"
 kind = "theorem"
 title = "Abelian case: torsors, characters and $H^1$"
-order = 1961
+order = 1973
 uses = ["def-galois-fibre-functor", "def-weil-pbc-finite-torsors", "lem-galois-action-continuous", "lem-galois-axioms", "thm-galois-fundamental", "thm-galois-torsor-h1"]
 tags = ["latex:corollary"]
 +++

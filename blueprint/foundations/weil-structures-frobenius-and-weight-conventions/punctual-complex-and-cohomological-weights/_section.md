@@ -2,7 +2,7 @@
 id = "punctual-complex-and-cohomological-weights"
 kind = "section"
 title = "Punctual, complex, and cohomological weights"
-order = 1449
+order = 1461
 uses = ["def-weil-constructible-heart", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-local-frobenius-trace", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
 +++
 The three weight notions, all relative to a fixed isomorphism

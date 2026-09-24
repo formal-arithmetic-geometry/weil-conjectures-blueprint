@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-pullback-closed-fibre"
 kind = "lemma"
 title = "Finite pullback and closed-fibre restriction"
-order = 1603
+order = 1615
 uses = ["def-weil-pbc-finite-section-pullback", "lemma-weil-pbc-finite-pullback-composition"]
 +++
 For a closed immersion $i:Z\hookrightarrow T$ and

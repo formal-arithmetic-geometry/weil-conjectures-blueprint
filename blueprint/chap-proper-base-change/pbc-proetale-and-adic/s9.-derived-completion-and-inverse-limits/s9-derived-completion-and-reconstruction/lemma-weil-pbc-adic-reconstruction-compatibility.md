@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-adic-reconstruction-compatibility"
 kind = "lemma"
 title = "Reconstruction preserves operators and base change"
-order = 1836
+order = 1848
 uses = ["def-weil-pbc-adic-operator-base-change-datum", "lemma-weil-pbc-adic-completion-reduction"]
 +++
 An adic operator and base-change datum induces maps

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-completed-exchange-coherence"
 kind = "lemma"
 title = "Coherence of completed exchange"
-order = 1907
+order = 1919
 uses = ["def-weil-pbc-completed-base-change-map-detailed", "lem-weil-pbc-completed-map-reduction", "lem-weil-pbc-exchange-identity-pasting"]
 +++
 Completed exchange of [def-weil-pbc-completed-base-change-map-detailed] is

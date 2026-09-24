@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-smooth-curve-calculations"
 kind = "theorem"
 title = "Smooth-curve calculations"
-order = 1708
+order = 1720
 uses = ["def-weil-pbc-curve-setting"]
 tags = ["latex:corollary"]
 +++

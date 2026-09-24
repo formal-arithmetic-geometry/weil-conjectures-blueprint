@@ -2,7 +2,7 @@
 id = "lem-chow-affine-immersion"
 kind = "lemma"
 title = "An affine scheme of finite type immerses into projective space"
-order = 617
+order = 618
 lean = ["AlgebraicGeometry.exists_isImmersion_projectiveSpace"]
 +++
 Let $S$ be a scheme and let $V$ be an affine scheme equipped with a morphism

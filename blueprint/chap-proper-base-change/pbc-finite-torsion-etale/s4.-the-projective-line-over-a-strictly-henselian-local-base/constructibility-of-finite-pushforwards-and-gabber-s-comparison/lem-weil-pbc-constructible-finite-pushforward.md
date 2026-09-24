@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-constructible-finite-pushforward"
 kind = "lemma"
 title = "Embedding a constructible sheaf in finite pushforwards"
-order = 1637
+order = 1649
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-constructible-finite-pushforward-approximation"]
 +++
 If $U$ is quasi-compact and quasi-separated and $C$ is constructible torsion

@@ -2,5 +2,5 @@
 id = "sec-chow-graph"
 kind = "section"
 title = "The graph construction"
-order = 622
+order = 623
 +++

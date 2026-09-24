@@ -4,13 +4,13 @@ kind = "theorem"
 title = "Weil conjectures for a smooth proper variety"
 order = 129
 lean = ["AlgebraicGeometry.IsWeilFactorization", "AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.Scheme.zetaSeries_rational", "AlgebraicGeometry.WeilFunctionalEquation", "AlgebraicGeometry.WeilRiemannHypothesis"]
-uses = ["def-betti-numbers", "def-canonical-cohomological-factors", "def-determinant-constants", "def-euler-characteristic", "def-frobenius-characteristic-factors", "def-functional-equation-sign", "def-ordinary-reciprocal-roots", "def-point-count-zeta", "def-smooth-proper-cohomological-family", "def-smooth-proper-datum", "def-weil-numbers", "prop-arithmetic-roots", "prop-duality-reciprocity", "prop-endpoints", "prop-euler-product", "prop-functional-equation", "prop-functional-equation-parity", "prop-integral-recovery"]
+uses = ["def-weil-point-counts-zeta", "prop-euler-product"]
 +++
 Let $X_0$ be a smooth, proper, geometrically connected scheme of pure
 dimension $d$ over $\Fq$. Put $X=X_0\times_{\Fq}k$, let
 $\mathscr X$ be the resulting smooth-proper datum, and let
 $P_i=P_i(\mathscr X)$ be the canonical factors of
-Definition [def-canonical-cohomological-factors]. Then the following
+Definition *Canonical integral cohomological factors*. Then the following
 statements hold.
 
 1. The zeta series has both point-counting descriptions
@@ -100,20 +100,20 @@ $\Fq$.
 
 The hypotheses make $\mathscr X=(X_0,d,X)$ a smooth-proper datum, so all
 degreewise factors and Frobenius operators in Definitions
-[def-smooth-proper-cohomological-family] and
-[def-frobenius-characteristic-factors] are available.
+`def:weil-smooth-proper-cohomological-family` and
+*Frobenius characteristic factors* are available.
 
 *Clause (i).*
-Definition [def-point-count-zeta] is the exponential point-counting
+Definition [def-weil-point-counts-zeta] is the exponential point-counting
 description. Proposition [prop-euler-product] gives the closed-point
 Euler product and membership in $1+T\mathbf Z[[T]]$. Proposition
-[prop-integral-recovery] gives the factorization by integral
+`prop:integral-recovery` gives the factorization by integral
 polynomials and hence $Z(X_0,T)\in\mathbf Q(T)$.
 This proves exactly the two displayed descriptions and both coefficient
 claims in (i).
 
 *Clause (ii).*
-Proposition [prop-integral-recovery] applies to the fixed datum and says
+Proposition `prop:integral-recovery` applies to the fixed datum and says
 that the canonical $P_i\in\mathbf Z[T]$ have constant term one, satisfy
 
 $$
@@ -133,7 +133,7 @@ These are precisely all assertions of (ii).
 
 *Clause (iii).*
 Fix $0\leq i\leq2d$. Proposition
-[prop-arithmetic-roots] applies to the polynomial $P_i$ in the fixed
+`prop:arithmetic-roots` applies to the polynomial $P_i$ in the fixed
 algebraic closure. It states that every reciprocal root is an algebraic
 integer and a $q$-Weil number of weight $i$, with the displayed equality
 for every complex embedding. The same proposition identifies an ordinary
@@ -143,15 +143,15 @@ polynomial $P_i$, and gives $|\tau(\beta)|=q^{-i/2}$. This proves
 
 *Clause (iv).*
 Fix an integer $0\leq i\leq2d$. For every prime $\ell\neq p$,
-Proposition [prop-integral-recovery] gives
+Proposition `prop:integral-recovery` gives
 
 $$
 b_i=\deg P_i=\dim_{\Ql}H^i(X,\Ql),
 $$
 
 so the left-hand side is independent of $\ell$. Proposition
-[prop-duality-reciprocity] gives $b_i=b_{2d-i}$, and Proposition
-[prop-endpoints] gives
+`prop:duality-reciprocity` gives $b_i=b_{2d-i}$, and Proposition
+`prop:endpoints` gives
 
 $$
 b_0=b_{2d}=1,\qquad P_0(T)=1-T,\qquad P_{2d}(T)=1-q^dT.
@@ -161,13 +161,13 @@ This is exactly (iv).
 
 *Clause (v).*
 The definitions of $D_i,\chi,\varepsilon$ are respectively
-Definitions [def-determinant-constants],
-[def-euler-characteristic],
-and [def-functional-equation-sign]. Proposition
-[prop-duality-reciprocity] supplies, for every $i$, the asserted
+Definitions `def:weil-determinant-constants`,
+*Euler characteristic*,
+and `def:weil-functional-equation-sign`. Proposition
+`prop:duality-reciprocity` supplies, for every $i$, the asserted
 degreewise Laurent reciprocity. Proposition
-[prop-functional-equation-parity] verifies that $d\chi/2$ is an
-integer. Finally Proposition [prop-functional-equation] proves
+*Parity of the functional-equation exponent* verifies that $d\chi/2$ is an
+integer. Finally Proposition `prop:functional-equation` proves
 
 $$
 \varepsilon\in\{1,-1\},\qquad
@@ -179,3 +179,5 @@ in $\mathbf Q(T)$. Hence all assertions of (v) follow.
 
 The five independently verified clauses are exactly the conjunction stated
 in the theorem.
+
+Unresolved dependencies: def:weil-determinant-constants, def:weil-functional-equation-sign, def:weil-smooth-proper-cohomological-family, prop:arithmetic-roots, prop:duality-reciprocity, prop:endpoints, prop:functional-equation, prop:integral-recovery

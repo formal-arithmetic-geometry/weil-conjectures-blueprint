@@ -2,7 +2,7 @@
 id = "lem-chow-closed-model"
 kind = "lemma"
 title = "Closed model of a quasi-compact immersion"
-order = 618
+order = 619
 lean = ["AlgebraicGeometry.ProperClosedModel", "AlgebraicGeometry.nonempty_properClosedModel"]
 uses = ["lem-chow-affine-immersion"]
 +++

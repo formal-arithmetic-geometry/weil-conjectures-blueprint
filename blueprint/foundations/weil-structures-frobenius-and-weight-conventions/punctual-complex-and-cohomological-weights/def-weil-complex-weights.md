@@ -2,7 +2,7 @@
 id = "def-weil-complex-weights"
 kind = "definition"
 title = "Weights of a Weil complex"
-order = 1451
+order = 1463
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-punctual-weights", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$, $k_0=\Fq$,

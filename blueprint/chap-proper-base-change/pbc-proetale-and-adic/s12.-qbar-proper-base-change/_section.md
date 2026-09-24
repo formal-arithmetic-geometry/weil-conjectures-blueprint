@@ -2,7 +2,7 @@
 id = "s12.-qbar-proper-base-change"
 kind = "section"
 title = "S12. $\\Qlb$ proper base change"
-order = 1923
+order = 1935
 uses = ["cor-weil-pbc-geometric-fiber-finite", "cor-weil-pbc-geometric-fiber-finite-extension", "def-weil-pbc-finite-stage-pair-category", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-descent-functors", "thm-weil-pbc-finite-extension"]
 +++
 Three subsections of the source are flattened here.

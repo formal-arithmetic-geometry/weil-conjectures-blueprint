@@ -2,7 +2,7 @@
 id = "def-constructible-finite"
 kind = "definition"
 title = "Finite sheaves"
-order = 1038
+order = 1039
 lean = ["AlgebraicGeometry.Scheme.IsFiniteSheaf"]
 +++
 A sheaf $\mathcal F\in\shv{\et X}$ (with $\mathcal A$ concrete) is

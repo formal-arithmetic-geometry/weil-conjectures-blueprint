@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-gabber-effacement"
 kind = "lemma"
 title = "Affine Gabber effacement"
-order = 1611
+order = 1623
 uses = ["lemma-weil-pbc-constructible-approximation", "lemma-weil-pbc-constructible-finite-pushforward", "lemma-weil-pbc-finite-cover-killing", "lemma-weil-pbc-pushout-monicity"]
 +++
 For an affine henselian pair $(T,T_0)$ and a torsion sheaf $F$ on $T_{\mathrm{et}}$,

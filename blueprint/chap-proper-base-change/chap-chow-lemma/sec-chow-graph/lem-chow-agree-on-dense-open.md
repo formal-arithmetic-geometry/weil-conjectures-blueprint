@@ -2,7 +2,7 @@
 id = "lem-chow-agree-on-dense-open"
 kind = "lemma"
 title = "Two morphisms agreeing on a scheme-theoretically dense open"
-order = 623
+order = 624
 lean = ["AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant"]
 +++
 Let $T$ and $Y$ be schemes over $S$ with $Y\to S$ separated, let

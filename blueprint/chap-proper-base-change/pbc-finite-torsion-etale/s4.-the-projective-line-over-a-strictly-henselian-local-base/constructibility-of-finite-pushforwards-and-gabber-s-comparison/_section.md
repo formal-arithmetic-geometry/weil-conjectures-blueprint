@@ -2,7 +2,7 @@
 id = "constructibility-of-finite-pushforwards-and-gabber-s-comparison"
 kind = "section"
 title = "Constructibility of finite pushforwards and Gabber's comparison"
-order = 1630
+order = 1642
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit-detailed", "lem-weil-pbc-etale-finite-data-descent", "lem-weil-pbc-etale-section-continuity", "lem-weil-pbc-finite-exchange", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-noetherian-finite-components", "thm-weil-pbc-etale-cohomology-continuity", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Every constructible torsion sheaf on a quasi-compact quasi-separated scheme

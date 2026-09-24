@@ -2,7 +2,7 @@
 id = "sec-constructible-devissage"
 kind = "section"
 title = "The open–closed dévissage"
-order = 1063
+order = 1064
 +++
 Let $(j\colon U\to X,\ i\colon Z\to X)$ be a complementary pair on $X$
-([sec-openclosed-setting]).
+([etale-sheaves-along-a-complementary-open-closed-pair]).

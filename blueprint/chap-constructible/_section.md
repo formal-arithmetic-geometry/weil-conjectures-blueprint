@@ -2,7 +2,7 @@
 id = "chap-constructible"
 kind = "section"
 title = "Constructible sheaves"
-order = 1034
+order = 1035
 +++
 This chapter sets up the constructible sheaves on the small étale site of
 a scheme: the definitions, their stability under pullback, pushforward along

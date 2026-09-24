@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-locally-constant-reduction"
 kind = "lemma"
 title = "Locally constant reduction and trace splitting"
-order = 1704
+order = 1716
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-r-group-filtration", "lem-weil-pbc-finite-stalk-formula", "thm-galois-lc-etale"]
 +++
 Let $U$ be irreducible and let $G$ be a finite locally constant $\mathbf

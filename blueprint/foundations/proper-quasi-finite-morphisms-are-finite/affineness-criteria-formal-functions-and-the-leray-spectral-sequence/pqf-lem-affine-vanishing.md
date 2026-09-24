@@ -2,7 +2,7 @@
 id = "pqf-lem-affine-vanishing"
 kind = "lemma"
 title = "Vanishing of higher cohomology on affines"
-order = 1994
+order = 2006
 uses = ["pqf-def-coherent", "pqf-def-cohomology"]
 +++
 Let $X$ be a scheme and $\mathcal F$ a quasi-coherent

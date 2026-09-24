@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-constructible-serre"
 kind = "lemma"
 title = "Constructible sheaves form a weak Serre subcategory"
-order = 1335
+order = 1336
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-site", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 For a scheme $T$ and a finite ring $\Lambda$, the constructible

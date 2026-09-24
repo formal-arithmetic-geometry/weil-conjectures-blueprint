@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-leray-acyclicity"
 kind = "lemma"
 title = "Leray acyclicity criterion"
-order = 1270
+order = 1271
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-kinjective-resolutions"]
 +++
 Let $F\to I^\bullet$ be a resolution by $f'_*$-acyclic sheaves and let $v$ be

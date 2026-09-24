@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-stalk-formula"
 kind = "lemma"
 title = "Geometric stalk formula"
-order = 1545
+order = 1557
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions"]
 +++
 Let $f:X\to Y$ be finite, let $F$ be an etale sheaf of abelian groups on $X$,

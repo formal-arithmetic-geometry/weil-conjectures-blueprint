@@ -2,7 +2,7 @@
 id = "def-weil-pbc-epsilon-unit-counit"
 kind = "definition"
 title = "Unit and counit of the comparison"
-order = 1780
+order = 1792
 uses = ["def-weil-pbc-epsilon-comparison"]
 +++
 Write the unit and counit of the preceding adjunction as

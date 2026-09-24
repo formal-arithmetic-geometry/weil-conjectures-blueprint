@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-derived-exchange-termwise"
 kind = "lemma"
 title = "The termwise construction of the derived exchange morphism"
-order = 1200
+order = 1201
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-underived-exchange-detailed", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $\square$ be a cartesian square

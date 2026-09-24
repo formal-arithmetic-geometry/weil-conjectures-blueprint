@@ -2,7 +2,7 @@
 id = "def-galois-fibre-functor"
 kind = "definition"
 title = "The fibre functor"
-order = 1929
+order = 1941
 uses = ["def-galois-categories"]
 +++
 In the situation of [def-galois-categories], the *fibre functor*

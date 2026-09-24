@@ -2,7 +2,7 @@
 id = "lem-chow-graph"
 kind = "lemma"
 title = "The graph of the cover"
-order = 624
+order = 625
 lean = ["AlgebraicGeometry.ChowGraph", "AlgebraicGeometry.ChowGraph.emb", "AlgebraicGeometry.ChowGraph.exists_isClosedImmersion_over", "AlgebraicGeometry.ChowGraph.proj", "AlgebraicGeometry.ChowGraph.toGraph"]
 uses = ["lem-chow-affine-immersion", "lem-chow-closed-model", "lem-chow-segre", "lem-chow-tuple-immersion"]
 +++

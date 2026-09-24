@@ -2,7 +2,7 @@
 id = "def-weil-finite-field-fiber"
 kind = "definition"
 title = "Finite field and geometric fiber"
-order = 1297
+order = 1298
 uses = ["def-weil-finite-type-morphism"]
 +++
 Throughout this blueprint, fix a prime $p$ and an integer $a\in\mathbf

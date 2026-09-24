@@ -2,7 +2,7 @@
 id = "the-eight-curve-assertions-on-cohomology-base-change"
 kind = "section"
 title = "The eight curve assertions on cohomology base change"
-order = 1686
+order = 1698
 uses = ["def-weil-pbc-constructible-torsion", "def-weil-pbc-curve-setting", "def-weil-pbc-extension-pullback", "def-weil-pbc-primary-torsion"]
 +++
 The eight assertions $\mathcal C_1,\dots,\mathcal C_8$ about a curve

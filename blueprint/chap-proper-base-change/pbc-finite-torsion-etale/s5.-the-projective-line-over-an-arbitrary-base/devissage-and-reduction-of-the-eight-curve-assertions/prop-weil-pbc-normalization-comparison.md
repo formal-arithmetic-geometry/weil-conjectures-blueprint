@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-normalization-comparison"
 kind = "theorem"
 title = "Normalization comparison"
-order = 1709
+order = 1721
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-extension-by-zero", "def-weil-pbc-finite-pushforward-extension-zero", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-direct-image-exact", "prop-weil-pbc-finite-pushforward-extension-zero-commute", "thm-weil-pbc-smooth-curve-calculations"]
 tags = ["latex:proposition"]
 +++

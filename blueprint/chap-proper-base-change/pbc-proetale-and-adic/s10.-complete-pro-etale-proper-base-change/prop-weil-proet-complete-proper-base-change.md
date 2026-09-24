@@ -2,7 +2,7 @@
 id = "prop-weil-proet-complete-proper-base-change"
 kind = "theorem"
 title = "Complete pro-etale proper base change"
-order = 1893
+order = 1905
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-complete-coefficient-datum", "def-weil-pbc-completed-base-change-map", "lemma-weil-pbc-completed-exchange-coherence", "lemma-weil-pbc-completed-frobenius-equivariance", "lemma-weil-pbc-r-lim-levelwise-isomorphism", "prop-weil-pbc-proet-finite-level-transport"]
 +++

@@ -2,7 +2,7 @@
 id = "def-compact-support-direct-image-detailed"
 kind = "definition"
 title = "Compactification-independent finite-level direct image"
-order = 1388
+order = 1389
 uses = ["def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties"]
 +++
 Let $K_0$ be a field, let $X,Y$ be finite-type

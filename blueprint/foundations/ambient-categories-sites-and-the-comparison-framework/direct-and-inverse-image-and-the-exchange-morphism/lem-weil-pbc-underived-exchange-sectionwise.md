@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-underived-exchange-sectionwise"
 kind = "lemma"
 title = "Well-definedness of the sectionwise exchange rule"
-order = 1196
+order = 1197
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-underived-exchange-detailed"]
 +++
 Let $\square$ be a cartesian square

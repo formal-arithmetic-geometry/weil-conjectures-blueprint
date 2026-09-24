@@ -2,7 +2,7 @@
 id = "lem-chow-scheme-theoretic-closure"
 kind = "lemma"
 title = "Scheme-theoretic closure of a dense open"
-order = 615
+order = 616
 lean = ["AlgebraicGeometry.Scheme.Opens.iInf_preimage_imageι", "AlgebraicGeometry.Scheme.Opens.iSup_preimage_imageι_eq_top", "AlgebraicGeometry.Scheme.Opens.isAffineOpen_preimage_imageι", "AlgebraicGeometry.Scheme.Opens.isIso_morphismRestrict_imageι", "AlgebraicGeometry.Scheme.Opens.isSchemeTheoreticallyDominant_preimage_imageι", "AlgebraicGeometry.Scheme.Opens.surjective_imageι_ι"]
 +++
 Let $X$ be a scheme and let $U\subseteq X$ be a dense open subscheme such that

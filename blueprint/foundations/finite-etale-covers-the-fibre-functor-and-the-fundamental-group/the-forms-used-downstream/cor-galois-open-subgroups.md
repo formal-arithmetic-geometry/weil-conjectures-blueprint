@@ -2,7 +2,7 @@
 id = "cor-galois-open-subgroups"
 kind = "theorem"
 title = "Open subgroups and finite etale covers"
-order = 1960
+order = 1972
 tags = ["latex:corollary"]
 uses = ["def-galois-fibre-functor", "def-galois-object", "lem-galois-transitive", "thm-galois-fundamental"]
 +++

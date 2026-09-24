@@ -2,7 +2,7 @@
 id = "thm-sp-half-plane-convergence"
 kind = "theorem"
 title = "Half-plane convergence"
-order = 1134
+order = 1135
 uses = ["def-sp-convergence", "def-sp-exact-couple", "def-sp-filtration"]
 +++
 Let $(D,E_2,\alpha,f,g)$ be the exact couple of

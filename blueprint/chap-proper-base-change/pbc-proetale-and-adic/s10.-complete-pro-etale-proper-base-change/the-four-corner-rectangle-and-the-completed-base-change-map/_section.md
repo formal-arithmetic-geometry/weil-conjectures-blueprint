@@ -2,7 +2,7 @@
 id = "the-four-corner-rectangle-and-the-completed-base-change-map"
 kind = "section"
 title = "The four-corner rectangle and the completed base-change map"
-order = 1899
+order = 1911
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-ambient-ringed-exchange", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-completed-pullback-detailed", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-proetale-operations", "def-weil-pbc-projection-formula-map", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-completed-pullback-reduction", "lem-weil-pbc-exchange-identity-pasting", "lem-weil-pbc-finite-reduction-reconstruction", "lem-weil-pbc-levelwise-isomorphism-cones", "prop-weil-pbc-direct-image-limits", "prop-weil-pbc-perfect-projection-formula", "thm-weil-pbc-finite-level-proetale"]
 +++
 The complete pro-etale rectangle. Four objects of $D(Y'_{\Proet},P_n)$ are

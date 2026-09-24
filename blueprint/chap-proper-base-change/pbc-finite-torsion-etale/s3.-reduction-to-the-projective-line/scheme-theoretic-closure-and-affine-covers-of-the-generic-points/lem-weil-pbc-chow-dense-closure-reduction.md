@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-dense-closure-reduction"
 kind = "lemma"
 title = "Reduction to scheme-theoretically dense opens"
-order = 1571
+order = 1583
 uses = ["def-weil-pbc-chow-scheme-theoretic-closure", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be quasi-compact and let $U\subseteq X$ be a dense open subscheme. Let

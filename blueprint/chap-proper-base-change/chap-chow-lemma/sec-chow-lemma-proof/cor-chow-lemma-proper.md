@@ -2,7 +2,7 @@
 id = "cor-chow-lemma-proper"
 kind = "theorem"
 title = "Chow's lemma for proper morphisms"
-order = 629
+order = 630
 lean = ["AlgebraicGeometry.ChowModification.isClosedImmersion_toProjectiveSpace"]
 tags = ["latex:corollary"]
 uses = ["def-nagata-projective-space-base-change", "lemma-nagata-projective-space-base-change-proper", "thm-chow-lemma"]

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-derived-exchange-pasting-v5"
 kind = "lemma"
 title = "Horizontal and vertical exchange pasting"
-order = 1523
+order = 1535
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange-pasting-presentations-v5", "def-weil-pbc-underived-exchange", "lemma-weil-pbc-derived-exchange-target-comparison-unique-v5"]
 +++
 The exchange for a horizontal or vertical pasted square equals the composite

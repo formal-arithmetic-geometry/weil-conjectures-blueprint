@@ -2,7 +2,7 @@
 id = "lem-chow-segre"
 kind = "lemma"
 title = "The Segre embedding is a closed immersion"
-order = 620
+order = 621
 lean = ["AlgebraicGeometry.ProjectiveSpace.exists_isClosedImmersion_pi", "AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_segre", "AlgebraicGeometry.ProjectiveSpace.isProper_pi_hom"]
 uses = ["def-chow-segre"]
 +++

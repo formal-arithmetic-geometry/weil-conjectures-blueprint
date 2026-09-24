@@ -2,7 +2,7 @@
 id = "def-weil-efi-coeff-zl-reduction-normalization"
 kind = "definition"
 title = "Normalization comparison for the canonical reduction tower"
-order = 1864
+order = 1876
 uses = ["def-weil-efi-coeff-zl-reduction-tower"]
 +++
 For $b\geq a$, let

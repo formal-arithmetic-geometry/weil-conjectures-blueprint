@@ -2,7 +2,7 @@
 id = "lem-chow-preimage"
 kind = "lemma"
 title = "The preimages of the members of the cover"
-order = 626
+order = 627
 lean = ["AlgebraicGeometry.ChowGraph.isProper_morphismRestrict_modificationMap", "AlgebraicGeometry.ChowGraph.preimage_modificationMap"]
 uses = ["lem-chow-glue"]
 +++

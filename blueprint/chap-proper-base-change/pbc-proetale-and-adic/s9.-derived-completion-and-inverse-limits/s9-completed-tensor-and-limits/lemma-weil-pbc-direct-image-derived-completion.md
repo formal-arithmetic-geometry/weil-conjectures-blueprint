@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-direct-image-derived-completion"
 kind = "lemma"
 title = "Direct image commutes with derived completion"
-order = 1856
+order = 1868
 uses = ["lemma-weil-pbc-completed-projection-formula-composite", "lemma-weil-pbc-derived-complete-reconstruction"]
 +++
 There is a functorial isomorphism

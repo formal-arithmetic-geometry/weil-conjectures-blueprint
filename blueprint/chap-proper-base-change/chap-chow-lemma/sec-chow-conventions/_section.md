@@ -2,7 +2,7 @@
 id = "sec-chow-conventions"
 kind = "section"
 title = "Conventions and standing facts"
-order = 609
+order = 610
 +++
 Throughout, $S$ is a noetherian scheme. All schemes occurring in the proof are
 of finite type over $S$, hence noetherian by 01T6; in

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-derived-exchange-presentation-v5"
 kind = "definition"
 title = "Derived-exchange presentation"
-order = 1511
+order = 1523
 uses = ["def-weil-pbc-derived-exchange"]
 +++
 For a bounded-below complex $K$, a presentation consists of an injective

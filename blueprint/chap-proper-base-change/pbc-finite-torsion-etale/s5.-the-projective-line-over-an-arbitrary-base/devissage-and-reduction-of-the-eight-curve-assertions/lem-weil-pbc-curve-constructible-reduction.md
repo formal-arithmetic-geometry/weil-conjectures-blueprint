@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-curve-constructible-reduction"
 kind = "lemma"
 title = "Reduction to constructible prime torsion"
-order = 1701
+order = 1713
 uses = ["def-weil-pbc-eight-curve-assertions-detailed", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-curve-filtered-cohomology", "lem-weil-pbc-eight-curve-devissage", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 For a proper finite-type curve $C$ and a torsion sheaf $F$, assertion

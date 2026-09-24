@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-gabber-affine-comparison-detailed"
 kind = "theorem"
 title = "Gabber affine henselian-pair comparison"
-order = 1638
+order = 1650
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions"]
 tags = ["latex:proposition"]
 +++

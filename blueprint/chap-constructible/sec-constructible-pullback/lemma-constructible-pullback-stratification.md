@@ -2,7 +2,7 @@
 id = "lemma-constructible-pullback-stratification"
 kind = "lemma"
 title = "Pullback of a stratification"
-order = 1048
+order = 1049
 lean = ["AlgebraicGeometry.Scheme.Stratification.pullback"]
 uses = ["def-constructible-stratification"]
 +++

@@ -2,7 +2,7 @@
 id = "the-projective-line-over-an-arbitrary-base"
 kind = "section"
 title = "The projective line over an arbitrary base"
-order = 1681
+order = 1693
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions"]
 +++
 The vocabulary of the curve case, under the subsection heading *Proper curves

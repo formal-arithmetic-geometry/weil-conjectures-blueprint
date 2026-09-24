@@ -2,7 +2,7 @@
 id = "lem-weil-extension-by-zero-adjunction"
 kind = "lemma"
 title = "Adjunction for extension by zero"
-order = 1383
+order = 1384
 uses = ["def-weil-extension-by-zero", "def-weil-small-proetale-site-detailed"]
 +++
 The functor $j_!$ of [def-weil-extension-by-zero] is left adjoint to

@@ -2,7 +2,7 @@
 id = "pqf-lem-qf-locus-open"
 kind = "lemma"
 title = "The quasi-finite locus is open"
-order = 2007
+order = 2019
 uses = ["pqf-def-quasifinite"]
 +++
 Let $f:X\to S$ be a morphism of schemes. The set of points of $X$

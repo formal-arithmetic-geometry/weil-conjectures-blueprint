@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-a2-s7-s10-endpoint-compatibility"
 kind = "lemma"
 title = "A2 compatibility with every S7–S10 endpoint"
-order = 1897
+order = 1909
 uses = ["lemma-weil-pbc-a2-comparison-rfshriek-transport", "lemma-weil-pbc-a2-reduction-tensor-transport", "lemma-weil-pbc-bounded-constructible-reconstruction", "lemma-weil-pbc-completed-exchange-coherence", "lemma-weil-pbc-completed-map-reduction", "lemma-weil-pbc-completed-pullback-reduction", "lemma-weil-pbc-completed-tensor-reduction", "lemma-weil-pbc-projection-formula-identity-compactification", "prop-weil-pbc-proet-finite-level-transport", "prop-weil-proet-finite-derived-proper-base-change"]
 +++
 Let $K\in\mathsf C_\square(X)$. After the transports $\chi$ and $\omega$:

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-symmetric-product-p1"
 kind = "lemma"
 title = "Symmetric product map"
-order = 1564
+order = 1576
 uses = ["lemma-weil-pbc-cancellation", "lemma-weil-pbc-composition", "prop-weil-pbc-finite-morphism"]
 +++
 For $n\geq1$ the formula

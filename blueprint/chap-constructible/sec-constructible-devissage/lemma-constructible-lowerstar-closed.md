@@ -2,7 +2,7 @@
 id = "lemma-constructible-lowerstar-closed"
 kind = "lemma"
 title = "Pushforward along a closed immersion"
-order = 1065
+order = 1066
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.lowerStar_of_isClosedImmersion"]
 uses = ["lemma-openclosed-vanishing-lowerstar", "prop-constructible-open-closed", "prop-openclosed-lowerstar-fully-faithful"]
 +++

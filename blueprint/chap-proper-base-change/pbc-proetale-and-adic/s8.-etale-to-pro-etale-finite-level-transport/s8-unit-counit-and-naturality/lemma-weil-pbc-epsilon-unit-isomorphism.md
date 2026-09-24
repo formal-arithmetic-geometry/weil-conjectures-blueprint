@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-unit-isomorphism"
 kind = "lemma"
 title = "The comparison unit is an isomorphism"
-order = 1799
+order = 1811
 uses = ["def-weil-pbc-epsilon-comparison", "def-weil-pbc-epsilon-unit-counit"]
 +++
 For every $A$-module sheaf $F$ on $X_{\mathrm{et}}$, the unit

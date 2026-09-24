@@ -2,7 +2,7 @@
 id = "def-weil-pbc-property-detailed"
 kind = "definition"
 title = "Proper-base-change property"
-order = 1220
+order = 1221
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++
 For a proper morphism [def-weil-pbc-scheme-conventions] $f:X\to Y$, write

@@ -5,7 +5,7 @@ title = "Closed-point and integral-series identity"
 order = 103
 lean = ["AlgebraicGeometry.Scheme.Hom.pointCount_eq_sum", "AlgebraicGeometry.Scheme.Hom.zetaSeries_eq_tprod"]
 tags = ["latex:proposition"]
-uses = ["def-point-count-zeta"]
+uses = ["def-weil-point-counts-zeta"]
 +++
 For every finite-type $\Fq$-scheme $Y_0$ and every $n\geq1$, the
 closed points of degree dividing $n$ and the geometric Frobenius orbits give

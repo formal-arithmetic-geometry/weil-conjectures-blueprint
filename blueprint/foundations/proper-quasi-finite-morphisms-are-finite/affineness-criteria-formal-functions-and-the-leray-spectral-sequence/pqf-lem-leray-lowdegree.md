@@ -2,7 +2,7 @@
 id = "pqf-lem-leray-lowdegree"
 kind = "lemma"
 title = "Low degree terms of the Leray spectral sequence"
-order = 1993
+order = 2005
 uses = ["pqf-def-cohomology", "pqf-lem-leray"]
 +++
 Let $f:X\to Y$ be a morphism of schemes and $\mathcal F$ a

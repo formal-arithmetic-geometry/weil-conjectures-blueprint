@@ -2,7 +2,7 @@
 id = "def-coefficient-twists-detailed"
 kind = "definition"
 title = "Coefficient Tate twists"
-order = 1377
+order = 1378
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-small-proetale-site-detailed"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf

@@ -2,7 +2,7 @@
 id = "pqf-lem-limit-iso-descends"
 kind = "lemma"
 title = "Isomorphisms spread out from a filtered limit with closed immersions"
-order = 2013
+order = 2025
 uses = ["def-weil-pbc-scheme-conventions", "pqf-lem-limit-immersion-descends", "pqf-lem-limit-qc-open-descends"]
 +++
 Let $S$ be a scheme and let $X=\varprojlim_{i\in I}X_i$ be a filtered

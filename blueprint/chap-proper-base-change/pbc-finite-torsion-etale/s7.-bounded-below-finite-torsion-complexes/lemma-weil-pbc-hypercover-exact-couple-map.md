@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-hypercover-exact-couple-map"
 kind = "lemma"
 title = "Hypercover model and $E_1$-map"
-order = 1726
+order = 1738
 uses = ["def-weil-pbc-truncation-exact-couples", "prop-weil-proet-finite-proper-base-change"]
 +++
 On every split etale hypercover, the exchange maps define a morphism between

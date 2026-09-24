@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-curve-dense-open-localization"
 kind = "lemma"
 title = "Dense-open localization"
-order = 1702
+order = 1714
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-eight-curve-assertions-detailed", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-eight-curve-devissage", "lem-weil-pbc-zero-dimensional-cohomology", "lem-weil-pbc-zero-dimensional-field-extension", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $C$ be a reduced curve and $F$ a constructible $\mathbf F_r$-sheaf. There

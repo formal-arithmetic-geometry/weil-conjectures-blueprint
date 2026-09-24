@@ -2,7 +2,7 @@
 id = "lem-chow-disjoint-affines"
 kind = "lemma"
 title = "Disjoint affine neighbourhoods of generic points"
-order = 611
+order = 612
 lean = ["AlgebraicGeometry.exists_isAffineOpen_of_subset_genericPoints", "AlgebraicGeometry.exists_isAffineOpen_pairwise_disjoint"]
 +++
 Let $X$ be a quasi-separated scheme, let $Z_1,\dots,Z_n$ be pairwise distinct

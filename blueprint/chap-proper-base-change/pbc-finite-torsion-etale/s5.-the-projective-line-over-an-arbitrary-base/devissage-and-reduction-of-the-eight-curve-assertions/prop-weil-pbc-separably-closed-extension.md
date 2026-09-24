@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-separably-closed-extension"
 kind = "theorem"
 title = "Separably closed extension for proper curves"
-order = 1711
+order = 1723
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-algebraically-closed-extension", "thm-weil-pbc-universal-homeomorphism-invariance"]
 tags = ["latex:proposition"]
 +++

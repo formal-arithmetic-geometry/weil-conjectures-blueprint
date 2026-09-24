@@ -2,7 +2,7 @@
 id = "lem-galois-descent"
 kind = "lemma"
 title = "Effective etale descent for finite etale morphisms"
-order = 1934
+order = 1946
 uses = ["def-galois-categories", "def-weil-pbc-scheme-conventions", "lem-galois-glue"]
 +++
 Let $Y'\to Y$ be a surjective etale morphism with $Y'=\coprod_iY_i$,

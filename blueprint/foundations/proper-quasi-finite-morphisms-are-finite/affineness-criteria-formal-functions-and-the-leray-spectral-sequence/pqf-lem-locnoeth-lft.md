@@ -2,7 +2,7 @@
 id = "pqf-lem-locnoeth-lft"
 kind = "lemma"
 title = "Finite type over a locally Noetherian base"
-order = 1987
+order = 1999
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-locnoeth"]
 +++
 If $S$ is

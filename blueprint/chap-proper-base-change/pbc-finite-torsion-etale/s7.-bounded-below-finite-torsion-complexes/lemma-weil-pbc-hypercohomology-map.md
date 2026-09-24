@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-hypercohomology-map"
 kind = "lemma"
 title = "Morphism of hypercohomology spectral sequences"
-order = 1728
+order = 1740
 uses = ["def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-truncation-exact-couples", "lemma-weil-pbc-exact-couple-abutment", "lemma-weil-pbc-hypercohomology-convergence", "lemma-weil-pbc-hypercover-exact-couple-map", "prop-weil-proet-finite-proper-base-change"]
 +++
 The S0 exchange map induces a morphism from the inverse image of the first

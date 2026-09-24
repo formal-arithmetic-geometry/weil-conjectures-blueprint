@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-pushforward-constructible-noetherian"
 kind = "lemma"
 title = "Finite pushforward preserves constructibility on Noetherian schemes"
-order = 1634
+order = 1646
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-exchange", "lem-weil-pbc-finite-pushforward-generic-constructible", "lem-weil-pbc-noetherian-finite-components"]
 +++
 Let $U$ be Noetherian, let $h:V\to U$ be finite, and let $E$ be a

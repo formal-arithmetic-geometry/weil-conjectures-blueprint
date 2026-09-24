@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-spectral-restriction"
 kind = "lemma"
 title = "Zariski restriction on a spectral space"
-order = 1598
+order = 1610
 +++
 If $T$ is spectral, $T_0\subseteq T$ is closed, and every irreducible closed
 subset $C\subseteq T$ has $C\cap T_0$ connected and nonempty, then for every

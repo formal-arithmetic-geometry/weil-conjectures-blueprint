@@ -2,9 +2,9 @@
 id = "sec-constructible-setting"
 kind = "section"
 title = "Setting"
-order = 1035
+order = 1036
 +++
-We keep the conventions of [sec-openclosed-setting]: schemes live in a
+We keep the conventions of [etale-sheaves-along-a-complementary-open-closed-pair]: schemes live in a
 universe $u$; the coefficient category $\mathcal A$ is Grothendieck abelian
 with morphisms in $\mathrm{Type}\,(u+1)$; $\et X$ is the small étale site
 of $X$ and $\shv{\et X}$ the category of $\mathcal A$-valued sheaves on it;

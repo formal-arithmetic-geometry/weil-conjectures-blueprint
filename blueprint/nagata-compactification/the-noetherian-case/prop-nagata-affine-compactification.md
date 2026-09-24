@@ -5,7 +5,7 @@ title = "Property of the affine compactification construction"
 order = 508
 lean = ["AlgebraicGeometry.HasCompactification.of_isQuasiAffine"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-affine-compactification", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-immersion-into-proper", "lemma-nagata-projective-is-proper", "lemma-nagata-quasi-affine-immersion-affine-space", "lemma-nagata-relative-affine-space-open-immersion"]
+uses = ["def-nagata-affine-compactification", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-immersion-into-proper", "lemma-nagata-projective-space-base-change-proper", "lemma-nagata-quasi-affine-immersion-affine-space", "lemma-nagata-relative-affine-space-open-immersion"]
 +++
 The constructed factorization $\mathsf C_{\mathrm{aff}}(U/S)$ is a
 compactification of $U\to S$. Consequently, if $U$ is a quasi-affine
@@ -21,7 +21,7 @@ immersion $\iota_U\colon U\to\mathbb A^n_S$. Its composite with the
 standard open immersion of
 [lemma-nagata-relative-affine-space-open-immersion] is an immersion
 $U\to\mathbb P^n_S$. By
-[lemma-nagata-projective-is-proper], $\mathbb P^n_S\to S$ is proper.
+[lemma-nagata-projective-space-base-change-proper], $\mathbb P^n_S\to S$ is proper.
 The immersion-into-proper construction of
 [lemma-nagata-immersion-into-proper] therefore supplies a
 compactification, and this is exactly

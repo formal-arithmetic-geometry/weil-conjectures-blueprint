@@ -2,7 +2,8 @@
 id = "def-weil-point-counts-zeta"
 kind = "definition"
 title = "Point counts and zeta function"
-order = 1445
+order = 1457
+lean = ["AlgebraicGeometry.Scheme.Hom.X_mul_derivative_zetaSeries", "AlgebraicGeometry.Scheme.Hom.degreeOver", "AlgebraicGeometry.Scheme.Hom.pointCount", "AlgebraicGeometry.Scheme.Hom.zetaSeries"]
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties"]
 +++
 Fix the finite-field datum $p,a,q,k_0,k$, where $q=p^a$, and use geometric

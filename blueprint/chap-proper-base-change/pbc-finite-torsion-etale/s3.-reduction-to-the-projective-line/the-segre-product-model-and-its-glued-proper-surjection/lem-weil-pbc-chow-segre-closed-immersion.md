@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-segre-closed-immersion"
 kind = "lemma"
 title = "The Segre embedding is a closed immersion"
-order = 1576
+order = 1588
 uses = ["def-weil-pbc-chow-segre-embedding", "def-weil-pbc-scheme-conventions"]
 +++
 The Segre embedding of [def-weil-pbc-chow-segre-embedding] is a closed

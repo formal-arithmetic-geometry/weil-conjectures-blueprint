@@ -2,7 +2,7 @@
 id = "finite-torsors-finite-etale-lifting-and-degree-one-classes"
 kind = "section"
 title = "Finite torsors, finite-etale lifting and degree-one classes"
-order = 1640
+order = 1652
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-finite-torsors", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselian-p1-setup", "lem-weil-pbc-constructible-approximation", "lem-weil-pbc-constructible-finite-pushforward", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-finite-exchange", "lem-weil-pbc-injective-restriction-acyclicity", "thm-galois-lc-etale", "thm-weil-pbc-stein-inputs"]
 +++
 The degree-one half of the acyclicity on the closed projective line, under the

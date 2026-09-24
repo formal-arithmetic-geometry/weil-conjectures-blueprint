@@ -2,7 +2,7 @@
 id = "def-sp-filtration"
 kind = "definition"
 title = "Filtrations and graded pieces"
-order = 1130
+order = 1131
 uses = ["def-sp-abelian"]
 +++
 Let $\mathcal A$ be an abelian category [def-sp-abelian]. A *decreasing

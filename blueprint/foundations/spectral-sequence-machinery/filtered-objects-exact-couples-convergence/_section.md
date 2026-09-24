@@ -2,7 +2,7 @@
 id = "filtered-objects-exact-couples-convergence"
 kind = "section"
 title = "Filtered objects, exact couples, convergence"
-order = 1129
+order = 1130
 uses = ["def-sp-abelian", "def-sp-spectral-sequence", "lem-sp-long-exact-of-triangle"]
 +++
 The exact-couple formalism in the bidegree convention the hypercohomology

@@ -2,7 +2,7 @@
 id = "lem-fet-locally-trivial"
 kind = "theorem"
 title = "Finite etale covers are trivial after an etale base change"
-order = 1935
+order = 1947
 uses = ["def-galois-categories", "def-weil-pbc-scheme-conventions"]
 +++
 Let $P\to Y$ be finite etale. Then there is a surjective etale

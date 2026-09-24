@@ -2,7 +2,7 @@
 id = "def-weil-pbc-strict-henselization-limit"
 kind = "definition"
 title = "Strict henselization from pointed neighbourhoods"
-order = 1653
+order = 1665
 uses = ["def-weil-pbc-pointed-etale-neighbourhoods"]
 +++
 Let

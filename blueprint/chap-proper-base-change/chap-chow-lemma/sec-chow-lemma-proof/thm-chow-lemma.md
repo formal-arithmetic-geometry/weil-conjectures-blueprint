@@ -2,7 +2,7 @@
 id = "thm-chow-lemma"
 kind = "theorem"
 title = "Chow's lemma"
-order = 628
+order = 629
 lean = ["AlgebraicGeometry.ChowModification", "AlgebraicGeometry.ChowModification.exists_dense_isIso_restrict", "AlgebraicGeometry.ChowModification.index", "AlgebraicGeometry.ChowModification.isImmersion_toProjectiveSpace", "AlgebraicGeometry.ChowModification.isProper_modificationMap", "AlgebraicGeometry.ChowModification.modificationMap", "AlgebraicGeometry.ChowModification.surjective_modificationMap", "AlgebraicGeometry.ChowModification.toProjectiveSpace", "AlgebraicGeometry.ChowModification.toProjectiveSpace_over"]
 uses = ["def-nagata-projective-space-base-change", "lem-chow-affine-cover", "lem-chow-glue", "lem-chow-graph", "lem-chow-preimage", "lem-chow-scheme-theoretic-closure", "lem-chow-segre"]
 +++
