@@ -2,9 +2,9 @@
 id = "thm-weil-final"
 kind = "theorem"
 title = "Weil conjectures for a smooth proper variety"
-order = 129
+order = 4415
 lean = ["AlgebraicGeometry.IsWeilFactorization", "AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.Scheme.zetaSeries_rational", "AlgebraicGeometry.WeilFunctionalEquation", "AlgebraicGeometry.WeilRiemannHypothesis"]
-uses = ["def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-euler-product"]
+uses = ["def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-euler-product", "thm-weil-final-betti", "thm-weil-final-functional-equation", "thm-weil-final-integrality", "thm-weil-final-rationality", "thm-weil-final-rh"]
 +++
 Let $X_0$ be a smooth, proper, geometrically connected scheme of pure
 dimension $d$ over $\Fq$. Put $X=X_0\times_{\Fq}k$, let
