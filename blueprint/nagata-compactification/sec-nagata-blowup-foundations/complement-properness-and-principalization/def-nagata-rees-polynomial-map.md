@@ -2,7 +2,7 @@
 id = "def-nagata-rees-polynomial-map"
 kind = "definition"
 title = "Homogeneous polynomial map to the Rees algebra"
-order = 243
+order = 242
 lean = ["AlgebraicGeometry.reesGradedPresentation"]
 uses = ["def-nagata-rees-algebra"]
 +++

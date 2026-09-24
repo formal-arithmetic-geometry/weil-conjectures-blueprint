@@ -2,7 +2,7 @@
 id = "lemma-nagata-global-blowup-relative-projective-embedding"
 kind = "lemma"
 title = "Relative projective-space construction from a global presentation"
-order = 251
+order = 250
 uses = ["def-nagata-global-finite-free-generation", "def-nagata-rees-polynomial-map", "def-nagata-relative-projective-space", "lemma-nagata-affine-blowup-projective-embedding", "lemma-nagata-rees-polynomial-surjection", "lemma-nagata-relative-proj-exists", "prop-nagata-global-blowup-affine-restrict", "prop-nagata-relative-proj-functoriality"]
 +++
 **Status.** Bypassed by the formalized route: only properness of the global

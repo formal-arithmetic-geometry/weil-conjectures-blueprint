@@ -2,7 +2,7 @@
 id = "def-nagata-affine-blowup-projective-embedding"
 kind = "definition"
 title = "Projective-space map of an affine blow-up"
-order = 245
+order = 244
 lean = ["AlgebraicGeometry.AffineBlowup.toProjectiveSpace"]
 uses = ["def-nagata-affine-blowup", "def-nagata-rees-polynomial-map", "def-nagata-relative-proj", "def-nagata-relative-projective-space", "prop-nagata-relative-proj-functoriality"]
 +++

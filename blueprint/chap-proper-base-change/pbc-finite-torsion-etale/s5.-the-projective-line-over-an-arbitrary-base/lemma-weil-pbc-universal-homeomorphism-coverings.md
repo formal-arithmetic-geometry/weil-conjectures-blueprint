@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Covering compatibility for universal homeomorphisms"
 order = 1772
 lean = ["AlgebraicGeometry.Scheme.Hom.functorPushforward_mem_smallEtaleTopology_iff"]
-uses = ["lemma-weil-pbc-universal-homeomorphism-descent-datum"]
 +++
 Let $u:X_0\to X$ be a universal homeomorphism. A family $\{U_i\to U\}$ of
 etale $X$-schemes is jointly surjective if and only if its base change along

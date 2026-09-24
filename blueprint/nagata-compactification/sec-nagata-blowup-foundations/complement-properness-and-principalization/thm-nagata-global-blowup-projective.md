@@ -2,7 +2,7 @@
 id = "thm-nagata-global-blowup-projective"
 kind = "theorem"
 title = "Projectivity of the global blow-up"
-order = 252
+order = 251
 uses = ["def-nagata-global-finite-free-generation", "def-nagata-projective-morphism", "lemma-nagata-global-blowup-relative-projective-embedding"]
 +++
 **Status.** Bypassed by the formalized route: only properness of the global

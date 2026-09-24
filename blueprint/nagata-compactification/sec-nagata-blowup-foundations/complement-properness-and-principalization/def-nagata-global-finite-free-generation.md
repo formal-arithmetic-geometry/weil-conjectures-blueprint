@@ -2,7 +2,7 @@
 id = "def-nagata-global-finite-free-generation"
 kind = "definition"
 title = "Finite global free generation"
-order = 250
+order = 249
 +++
 **Status.** Bypassed by the formalized route: only properness of the global
 blow-up is needed, and it is proved directly as

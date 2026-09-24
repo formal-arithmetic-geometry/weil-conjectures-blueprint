@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-blowup-proper"
 kind = "lemma"
 title = "Properness of the affine blow-up"
-order = 248
+order = 247
 lean = ["AlgebraicGeometry.AffineBlowup.isProper_toSpec"]
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-proj", "lemma-nagata-rees-degree-zero", "prop-nagata-rees-finite-generation", "prop-nagata-rees-graded"]
 +++

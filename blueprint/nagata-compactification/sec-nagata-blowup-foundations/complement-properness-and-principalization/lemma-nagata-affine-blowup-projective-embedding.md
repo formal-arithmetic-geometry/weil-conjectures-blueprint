@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-blowup-projective-embedding"
 kind = "lemma"
 title = "Closed immersion into relative projective space"
-order = 246
+order = 245
 lean = ["AlgebraicGeometry.AffineBlowup.isClosedImmersion_toProjectiveSpace"]
 uses = ["def-nagata-affine-blowup-projective-embedding", "lemma-nagata-rees-polynomial-surjection", "prop-nagata-relative-proj-functoriality"]
 +++

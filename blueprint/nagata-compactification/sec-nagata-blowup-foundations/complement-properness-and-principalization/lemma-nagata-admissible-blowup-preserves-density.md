@@ -2,7 +2,7 @@
 id = "lemma-nagata-admissible-blowup-preserves-density"
 kind = "lemma"
 title = "Density is preserved by an admissible blow-up"
-order = 242
+order = 262
 lean = ["AlgebraicGeometry.IsAdmissible.isSchemeTheoreticallyDominant_preimage_ι", "AlgebraicGeometry.Scheme.IdealSheafData.isSchemeTheoreticallyDominant_blowupMap_preimage_compl_support"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup-map", "def-nagata-invertible-ideal", "def-nagata-scheme-theoretically-dense-open", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement"]
 +++

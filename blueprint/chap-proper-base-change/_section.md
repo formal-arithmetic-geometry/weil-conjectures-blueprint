@@ -53,6 +53,14 @@ the two state the same thing the titles agree, as with
 [prop-weil-pbc-finite-morphism] and [prop-weil-pbc-finite-morphisms], or
 [prop-weil-proet-finite-proper-base-change] and [thm-weil-pbc-finite-torsion].
 
+Unformalized sketch material that no route of the blueprint used was removed:
+the sketch statements of S8 and S10 with the material under them (the étale site
+inside the pro-étale site, the $\mathbf Z_\ell$-reduction tower of S9, the
+transport lemmas of S10, which cited definitions of a sketch appendix that is in
+neither source), and an alternative construction of the derived exchange map and
+a descent datum for universal homeomorphisms that the formalized statements do
+not need. The detailed argument of S8--S10 remains.
+
 **Formalized route.** The formalized statements of this chapter --- the exchange
 map of S0 ([def-weil-pbc-cartesian-square], [def-weil-pbc-underived-exchange],
 [def-weil-pbc-derived-exchange] with [lemma-weil-pbc-derived-exchange-replacement]

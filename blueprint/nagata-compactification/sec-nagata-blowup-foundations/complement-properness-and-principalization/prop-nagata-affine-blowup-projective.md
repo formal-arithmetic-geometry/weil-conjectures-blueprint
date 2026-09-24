@@ -2,7 +2,7 @@
 id = "prop-nagata-affine-blowup-projective"
 kind = "theorem"
 title = "Projectivity of the affine blow-up"
-order = 247
+order = 246
 lean = ["AlgebraicGeometry.AffineBlowup.exists_isClosedImmersion_comp_projectiveSpaceOverAffineToSpec"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-projective-morphism", "lemma-nagata-affine-blowup-projective-embedding"]

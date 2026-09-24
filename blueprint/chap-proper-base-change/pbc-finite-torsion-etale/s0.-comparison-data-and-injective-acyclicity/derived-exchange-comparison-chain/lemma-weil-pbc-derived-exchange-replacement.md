@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Derived exchange replacement independence"
 order = 1636
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_ext", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_fac_app"]
-uses = ["def-weil-pbc-derived-exchange", "lemma-weil-pbc-derived-exchange-source-comparison-v5", "lemma-weil-pbc-derived-exchange-target-comparison-exists-v5", "lemma-weil-pbc-derived-exchange-target-comparison-unique-v5", "lemma-weil-pbc-underived-exchange-naturality"]
+uses = ["def-weil-pbc-derived-exchange", "lemma-weil-pbc-underived-exchange-naturality"]
 +++
 The K-injective replacement used in Definition
 [def-weil-pbc-derived-exchange] gives a well-defined derived exchange

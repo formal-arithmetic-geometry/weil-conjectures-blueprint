@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-polynomial-surjection"
 kind = "lemma"
 title = "Properties of the homogeneous polynomial map"
-order = 244
+order = 243
 lean = ["AlgebraicGeometry.reesGradedPresentation_surjective"]
 uses = ["def-nagata-rees-polynomial-map", "lemma-nagata-rees-degree-one-element", "prop-nagata-rees-finite-generation"]
 +++

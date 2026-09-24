@@ -2,7 +2,7 @@
 id = "lemma-nagata-chart-generators-associated"
 kind = "lemma"
 title = "Transition between local exceptional generators"
-order = 257
+order = 256
 lean = ["AlgebraicGeometry.AffineBlowup.exists_units_awayAlgebraMap_eq_mul"]
 uses = ["lemma-nagata-chart-extended-ideal-principal"]
 +++
