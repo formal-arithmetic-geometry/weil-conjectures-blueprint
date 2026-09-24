@@ -84,7 +84,11 @@ list. The references that point outside it — to the six-functor interfaces, to
 coefficient biduality, to smooth purity, and to the later proper-base-change
 statements — are consumed, not proved, here; they are listed at the end of the
 body of the object that names them, under *Unresolved dependencies*, and will
-become edges when the corresponding parts are imported.
+become edges when the corresponding parts are imported. One of them never can:
+`prop:compactification-coherence` is now
+[prop-compactification-coherence-detailed] in [six-functors], but its proof
+rests on proper base change, which rests on this part, so an edge to it would
+be a cycle; see [compactification-comparison-and-coherence-for-compact-support].
 
 Fifteen identifiers of this part already name objects imported earlier from
 the sketch sources, which read the same notions at a coarser grain. Those
