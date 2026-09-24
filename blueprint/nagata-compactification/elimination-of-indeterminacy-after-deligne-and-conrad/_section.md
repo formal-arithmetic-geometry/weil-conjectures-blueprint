@@ -4,7 +4,7 @@ kind = "section"
 title = "Elimination of indeterminacy after Deligne and Conrad"
 order = 574
 +++
-This chapter is the formalized route to
+This section is the formalized route to
 [lemma-nagata-elimination-indeterminacy] (Stacks Tag 081S), the single
 primitive obligation of the modification layer. It follows Deligne's notes as
 written up by Conrad
@@ -17,10 +17,10 @@ after a single admissible blow-up of the source. The proof is a chain of four
 special cases, the last of which uses Zariski's Main Theorem to replace an
 arbitrary target by a quasi-affine one.
 
-The route written in the previous chapter — Raynaud–Gruson flattening by
+The route written in the preceding sections — Raynaud–Gruson flattening by
 blow-up (Stacks Tags 0815, 081R, 081P, 081L) — is not the formalized one;
 see the remark after [lemma-nagata-module-strict-transform-exact] and the
-route remark closing this chapter. This chapter is formalized: most statements
+route remark closing this section. This section is formalized: most statements
 below carry a non-empty `\lean` field naming the declaration that realizes
 them, up to Conrad's Theorem 2.4 itself
 (`AlgebraicGeometry.exists_admissibleBlowup_extend_partialSection`) and its

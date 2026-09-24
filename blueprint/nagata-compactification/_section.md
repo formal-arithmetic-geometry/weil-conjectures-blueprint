@@ -43,3 +43,8 @@ statement is written in ordinary mathematical language; a `\lean{...}` name is
 an implementation note, not part of the statement. Canonical comparison maps
 between chosen closed subschemes are written as isomorphisms unless a chosen
 equality has explicitly been fixed.
+
+The last section, [elimination-of-indeterminacy-after-deligne-and-conrad], is
+the formalized route to [lemma-nagata-elimination-indeterminacy], following
+Deligne and Conrad. It is built on the blow-up and scheme-theoretic-image
+sections above and nothing above cites it, so it stands last.
