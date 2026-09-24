@@ -2,7 +2,7 @@
 id = "lemma-nagata-dense-flat-pullback"
 kind = "lemma"
 title = "Scheme-theoretic density survives flat pullback"
-order = 183
+order = 257
 lean = ["AlgebraicGeometry.IsSchemeTheoreticallyDominant.of_isPullback"]
 uses = ["def-nagata-dense-compactification", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-flat-base-change"]
 +++

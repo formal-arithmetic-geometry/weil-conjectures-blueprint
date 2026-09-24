@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Stalks of a pullback"
 order = 1431
 lean = ["AlgebraicGeometry.Etale.upperStarCompSheafFiberIso", "AlgebraicGeometry.Etale.upperStarCompUliftSheafFiberIso"]
+uses = ["lemma-openclosed-point-ulift"]
 +++
 Let $f\colon Y\to X$ be a morphism of schemes, let $\bar y$ be a geometric
 point of $Y$ and let $\mathcal F\in\shv{\et X}$. Then

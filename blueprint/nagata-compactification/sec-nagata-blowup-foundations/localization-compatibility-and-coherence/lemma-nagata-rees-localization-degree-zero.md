@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-localization-degree-zero"
 kind = "lemma"
 title = "Compatibility with degree zero"
-order = 215
+order = 288
 uses = ["lemma-nagata-rees-degree-zero", "prop-nagata-rees-localization"]
 +++
 **Status.** Bypassed by the formalized route: the affine blow-up and its

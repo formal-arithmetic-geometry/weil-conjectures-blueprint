@@ -2,7 +2,7 @@
 id = "prop-nagata-rees-finite-generation"
 kind = "theorem"
 title = "Finite generation over degree zero"
-order = 195
+order = 269
 lean = ["AlgebraicGeometry.finiteType_reesGrading_zero"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-sum-components"]

@@ -2,7 +2,7 @@
 id = "the-dense-source-valuative-criterion--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 460
+order = 525
 uses = ["lemma-nagata-composite-valuation-ring", "lemma-nagata-dense-flat-pullback", "lemma-nagata-dense-valuation-probe", "lemma-nagata-reduced-dense-image-schematic", "lemma-nagata-valuation-intersection", "lemma-nagata-valuation-ring-extension"]
 +++
 In Lean the two conclusions are split into

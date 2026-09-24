@@ -2,9 +2,9 @@
 id = "lemma-nagata-strict-transform-restrict"
 kind = "lemma"
 title = "Strict transform over the complement of the center"
-order = 348
+order = 432
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isPullback_strictTransform_over_blowupMap"]
-uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-strict-transform", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-extended-ideal", "def-nagata-global-blowup-cover-comparison", "def-nagata-scheme-image-factor", "def-nagata-strict-transform", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X'\to X$ be the blow-up of a center $C\hookrightarrow X$. Over
 $X\setminus C$, the strict transform is canonically the ordinary pullback.

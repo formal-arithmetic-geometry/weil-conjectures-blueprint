@@ -2,9 +2,9 @@
 id = "def-nagata-blowup-product-comparison"
 kind = "definition"
 title = "Comparison maps for the product-ideal blow-up"
-order = 291
+order = 384
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_iso"]
-uses = ["def-nagata-blowup-universal-lift", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-cartier-total-transform-blowup", "lemma-nagata-effective-cartier-is-invertible", "lemma-nagata-invertible-ideal-mul", "lemma-nagata-invertible-product-factor", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center"]
+uses = ["def-nagata-blowup-universal-lift", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-blowup-universal-exists", "lemma-nagata-blowup-universal-unique", "lemma-nagata-cartier-total-transform-blowup", "lemma-nagata-effective-cartier-is-invertible", "lemma-nagata-invertible-ideal-mul", "lemma-nagata-invertible-product-factor", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
 +++
 Let $X$ be a scheme and let $\mathcal I,\mathcal J$ be finite-type
 quasi-coherent ideals on $X$. Let $X_{\mathcal I,\mathcal J}$ be the

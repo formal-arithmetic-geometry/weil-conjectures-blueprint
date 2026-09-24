@@ -2,7 +2,7 @@
 id = "lemma-nagata-projective-space-base-change-pullback"
 kind = "lemma"
 title = "Projective space commutes with base change"
-order = 178
+order = 254
 lean = ["AlgebraicGeometry.ProjectiveSpace.isPullback_map"]
 uses = ["def-nagata-projective-space-base-change"]
 +++

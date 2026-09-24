@@ -5,7 +5,7 @@ title = "Chow's lemma for proper morphisms"
 order = 631
 lean = ["AlgebraicGeometry.ChowModification.isClosedImmersion_toProjectiveSpace"]
 tags = ["latex:corollary"]
-uses = ["def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions", "lem-chow-graph", "lem-chow-segre", "lem-weil-pbc-closed-immersion-products", "lem-weil-pbc-proper-composition", "lem-weil-pbc-proper-immersion-closed", "lem-weil-pbc-proper-to-separated", "lemma-nagata-projective-space-base-change-proper", "thm-chow-lemma"]
+uses = ["def-nagata-dense-compactification", "def-nagata-extended-ideal", "def-nagata-projective-space-base-change", "def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-weil-pbc-scheme-conventions", "lem-chow-graph", "lem-chow-segre", "lem-weil-pbc-closed-immersion-products", "lem-weil-pbc-proper-composition", "lem-weil-pbc-proper-immersion-closed", "lem-weil-pbc-proper-to-separated", "lemma-nagata-dense-flat-pullback", "lemma-nagata-diagonal-base-change", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-projective-space-base-change-proper", "lemma-nagata-projective-target-local", "lemma-nagata-proper-to-separated-target", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "thm-chow-lemma"]
 +++
 Let $S$ be a noetherian scheme and let $f\colon X\to S$ be a proper morphism.
 Then there are an integer $n\geq0$, a proper surjective morphism

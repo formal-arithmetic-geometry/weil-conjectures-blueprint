@@ -2,9 +2,9 @@
 id = "lemma-nagata-valuation-pair-factors-comparison"
 kind = "lemma"
 title = "The pair of valuation extensions factors through $X_{12}$"
-order = 487
+order = 553
 lean = ["AlgebraicGeometry.TwoOpenSide.KeyDisjoint.avoids"]
-uses = ["def-nagata-two-open-comparison-space", "lemma-nagata-valuation-factor-closed"]
+uses = ["def-nagata-two-open-comparison-space", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-key-boundary-disjointness", "lemma-nagata-valuation-factor-closed"]
 +++
 Let $A$ be a valuation ring with fraction field $K$. Suppose
 $\operatorname{Spec}(K)\to U_1\cap U_2$ is an $S$-morphism and let

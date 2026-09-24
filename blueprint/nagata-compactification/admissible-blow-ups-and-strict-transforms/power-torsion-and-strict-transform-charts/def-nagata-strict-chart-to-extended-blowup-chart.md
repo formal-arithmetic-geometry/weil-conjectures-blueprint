@@ -2,7 +2,7 @@
 id = "def-nagata-strict-chart-to-extended-blowup-chart"
 kind = "definition"
 title = "Map to the blow-up chart of the extended ideal"
-order = 323
+order = 413
 uses = ["def-nagata-blowup-chart-ring", "def-nagata-strict-transform-basechange-chart-ring"]
 +++
 **Status.** Bypassed by the formalized route: the strict transform is

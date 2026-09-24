@@ -2,7 +2,7 @@
 id = "thm-nagata-blowup-product-ideal"
 kind = "theorem"
 title = "[stacks-project]"
-order = 292
+order = 385
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_iso"]
 uses = ["def-nagata-blowup-product-comparison", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-effective-cartier-is-invertible", "lemma-nagata-invertible-ideal-mul", "lemma-nagata-invertible-product-factor", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-universal-property"]
 +++

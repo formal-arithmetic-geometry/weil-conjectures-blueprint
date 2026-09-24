@@ -2,7 +2,7 @@
 id = "lemma-nagata-separate-closed-data-exists"
 kind = "lemma"
 title = "Preparation data for separating two closed boundaries, [stacks-project]"
-order = 421
+order = 487
 uses = ["def-nagata-admissible-blowup", "def-nagata-qc-open-complement-ideal", "def-nagata-strict-transform", "lemma-nagata-chart-generator-regular", "lemma-nagata-finite-type-nil-ideal-nilpotent"]
 +++
 **Status.** Bypassed by the formalized route: boundary separation is

@@ -2,7 +2,7 @@
 id = "lemma-nagata-proj-chart-ring-cocycle"
 kind = "lemma"
 title = "Coherence of the standard Proj chart rings"
-order = 170
+order = 238
 uses = ["def-nagata-homogeneous-localization-degree-zero"]
 +++
 **Status.** Bypassed by the formalized route: no separate relative-Proj

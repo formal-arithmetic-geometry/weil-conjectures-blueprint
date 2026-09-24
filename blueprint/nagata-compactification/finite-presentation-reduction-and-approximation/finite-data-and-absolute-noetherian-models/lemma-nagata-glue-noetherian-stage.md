@@ -2,7 +2,7 @@
 id = "lemma-nagata-glue-noetherian-stage"
 kind = "lemma"
 title = "Properties of the finite-type stages"
-order = 536
+order = 184
 uses = ["def-nagata-noetherian-inverse-system", "lemma-nagata-affine-gluing-identities-eventually", "lemma-nagata-valid-refinements-directed"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

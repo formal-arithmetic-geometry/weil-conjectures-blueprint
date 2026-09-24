@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-chart-map-kernel"
 kind = "lemma"
 title = "Kernel of the map to the extended-ideal chart"
-order = 326
+order = 416
 uses = ["def-nagata-power-torsion", "def-nagata-strict-chart-to-extended-blowup-chart", "lemma-nagata-power-torsion-kernel-localization", "lemma-nagata-strict-chart-map-surjective"]
 +++
 **Status.** Bypassed by the formalized route: the strict transform is

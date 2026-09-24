@@ -2,9 +2,9 @@
 id = "lemma-nagata-dense-valuation-probe-exists"
 kind = "lemma"
 title = "Existence of a valuation probe through a dense source"
-order = 449
+order = 520
 lean = ["AlgebraicGeometry.ValuativeCommSqWithPt.ofIsDominant"]
-uses = ["def-nagata-scheme-theoretic-image"]
+uses = ["def-nagata-scheme-theoretic-image", "lemma-nagata-local-domain-valuation-dominates"]
 +++
 Let $h\colon T\to P$ be quasi-compact, assume its image
 inclusion $\operatorname{SIm}(h)\hookrightarrow P$ is an isomorphism, assume

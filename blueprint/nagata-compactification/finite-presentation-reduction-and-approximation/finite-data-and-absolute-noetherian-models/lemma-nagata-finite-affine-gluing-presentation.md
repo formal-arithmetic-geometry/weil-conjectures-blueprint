@@ -2,7 +2,7 @@
 id = "lemma-nagata-finite-affine-gluing-presentation"
 kind = "lemma"
 title = "Properties of the selected finite affine presentation"
-order = 528
+order = 174
 uses = ["def-nagata-finite-affine-gluing-presentation"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

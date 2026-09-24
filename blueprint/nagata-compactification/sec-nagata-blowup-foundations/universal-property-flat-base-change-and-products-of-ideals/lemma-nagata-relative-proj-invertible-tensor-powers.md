@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-proj-invertible-tensor-powers"
 kind = "lemma"
 title = "Proj of the tensor powers of an invertible ideal"
-order = 275
+order = 350
 uses = ["def-nagata-invertible-ideal", "def-nagata-relative-proj", "lemma-nagata-relative-proj-exists", "lemma-nagata-relative-proj-invertible-tensor-powers-affine"]
 +++
 **Status.** Bypassed by the formalized route: no separate relative-Proj

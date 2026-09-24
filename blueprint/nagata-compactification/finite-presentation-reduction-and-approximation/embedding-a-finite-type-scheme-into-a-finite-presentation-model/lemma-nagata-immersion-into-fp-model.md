@@ -2,9 +2,9 @@
 id = "lemma-nagata-immersion-into-fp-model"
 kind = "lemma"
 title = "Immersion into a finite-presentation model, [stacks-project]"
-order = 545
+order = 192
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isImmersion_locallyOfFinitePresentation"]
-uses = ["lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-noetherian-inverse-system"]
+uses = ["lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-noetherian-inverse-system"]
 +++
 Let $S$ be quasi-compact and quasi-separated and let $f\colon X\to S$ be
 quasi-compact and locally of finite type with $X$ quasi-compact and

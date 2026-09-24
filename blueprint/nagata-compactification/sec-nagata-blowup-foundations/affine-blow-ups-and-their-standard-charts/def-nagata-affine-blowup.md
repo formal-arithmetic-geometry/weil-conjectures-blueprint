@@ -2,9 +2,9 @@
 id = "def-nagata-affine-blowup"
 kind = "definition"
 title = "Affine blow-up"
-order = 197
+order = 271
 lean = ["AlgebraicGeometry.AffineBlowup"]
-uses = ["def-nagata-affine-proj", "def-nagata-rees-algebra"]
+uses = ["def-nagata-affine-proj", "def-nagata-rees-algebra", "def-nagata-rees-piece", "prop-nagata-rees-graded"]
 +++
 For an ideal $I\subseteq A$, define
 

@@ -2,9 +2,9 @@
 id = "lemma-nagata-rees-components-unique"
 kind = "lemma"
 title = "Uniqueness of the homogeneous decomposition"
-order = 191
+order = 265
 lean = ["AlgebraicGeometry.reesGrading_isInternal"]
-uses = ["def-nagata-rees-piece", "lemma-nagata-rees-piece-membership"]
+uses = ["def-nagata-rees-piece", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul"]
 +++
 Let $E$ be a finite set of pairwise distinct degrees and choose one element
 $F_n\in\mathcal R_A(I)_n$ for each $n\in E$. If

@@ -2,7 +2,7 @@
 id = "lemma-nagata-flat-pullback-rees"
 kind = "lemma"
 title = "Flat pullback of the Rees algebra"
-order = 284
+order = 377
 uses = ["def-nagata-flat-pullback-rees-map", "lemma-nagata-flat-pullback-ideal-pow"]
 +++
 **Status.** Bypassed by the formalized route: blow-ups are never

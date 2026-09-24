@@ -2,7 +2,7 @@
 id = "def-nagata-morphism-equality-stage"
 kind = "definition"
 title = "Stage of equality for two descended morphisms"
-order = 570
+order = 218
 uses = ["def-nagata-directed-finite-upper-bound", "def-nagata-qc-open-equality-stage", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

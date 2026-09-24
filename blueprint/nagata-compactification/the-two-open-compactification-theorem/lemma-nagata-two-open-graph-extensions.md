@@ -2,9 +2,9 @@
 id = "lemma-nagata-two-open-graph-extensions"
 kind = "lemma"
 title = "Properties of the chosen graph extensions"
-order = 465
+order = 533
 lean = ["AlgebraicGeometry.exists_prepared_twoOpenSide"]
-uses = ["def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-graph-extensions", "lemma-nagata-graph-extension", "lemma-nagata-two-open-dense-compactifications", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-separate-constructible-closed", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-graph-extension", "lemma-nagata-separate-constructible-closed", "lemma-nagata-two-open-dense-compactifications", "prop-nagata-global-blowup-cover-independent"]
 +++
 Each replacement $X_i\to X_i^{\mathrm{old}}$ is $U_i$-admissible;
 the resulting structural morphism $X_i\to S$ is proper;

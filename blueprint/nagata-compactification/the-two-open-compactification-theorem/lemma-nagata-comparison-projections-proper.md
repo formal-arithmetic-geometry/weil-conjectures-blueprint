@@ -2,7 +2,7 @@
 id = "lemma-nagata-comparison-projections-proper"
 kind = "lemma"
 title = "Properness of the comparison projections"
-order = 472
+order = 537
 lean = ["AlgebraicGeometry.TwoOpenSide.isProper_comparisonFst"]
 uses = ["def-nagata-two-open-comparison-space", "lemma-nagata-prepared-boundaries", "lemma-nagata-scheme-image-universal"]
 +++

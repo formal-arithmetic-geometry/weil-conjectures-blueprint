@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-density"
 kind = "lemma"
 title = "Density after the final common modification"
-order = 497
+order = 563
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
 uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-compactification-candidate", "lemma-nagata-two-open-density-transport", "prop-nagata-global-blowup-cover-independent"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-nagata-two-open-final-modification"
 kind = "lemma"
 title = "Structural properties of the final common modification"
-order = 494
+order = 560
 lean = ["AlgebraicGeometry.nonempty_commonModification"]
 uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-final-modification", "lemma-nagata-common-modification", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-intermediate-separated", "prop-nagata-global-blowup-cover-independent"]
 +++

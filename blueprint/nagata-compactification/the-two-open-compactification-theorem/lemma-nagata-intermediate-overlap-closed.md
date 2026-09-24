@@ -2,7 +2,7 @@
 id = "lemma-nagata-intermediate-overlap-closed"
 kind = "lemma"
 title = "Closedness of the intermediate overlap"
-order = 485
+order = 551
 lean = ["AlgebraicGeometry.TwoOpenSide.isClosedImmersion_intermediateGraph"]
 uses = ["def-nagata-two-open-intermediate-schemes", "lemma-nagata-intermediate-overlap-constructible", "lemma-nagata-intermediate-overlap-specialization-closed"]
 +++

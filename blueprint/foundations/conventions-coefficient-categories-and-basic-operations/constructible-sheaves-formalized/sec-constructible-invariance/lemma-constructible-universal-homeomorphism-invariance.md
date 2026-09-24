@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Invariance under universal homeomorphisms"
 order = 1454
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.of_upperStar", "AlgebraicGeometry.Scheme.IsFiniteSheaf.of_upperStar", "AlgebraicGeometry.Scheme.IsLocallyConstantSheaf.of_upperStar", "AlgebraicGeometry.Scheme.exists_comp_eq_of_surjective", "AlgebraicGeometry.Scheme.isFiniteLocallyConstantSheaf_upperStar_iff", "CategoryTheory.Sheaf.isConstant_upperStar_iff"]
-uses = ["def-constructible-finite-locally-constant", "lemma-constructible-pullback-finite", "lemma-constructible-pullback-locally-constant", "thm-weil-pbc-universal-homeomorphism-invariance"]
+uses = ["def-constructible-finite-locally-constant", "lemma-constructible-pullback-finite", "lemma-constructible-pullback-locally-constant", "prop-constructible-pullback", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $u\colon Z'\to Z$ be a universal homeomorphism. Then
 $\mathcal G\in\shv{\et Z}$ is constant (locally constant) if and only if

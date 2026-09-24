@@ -2,7 +2,7 @@
 id = "lemma-nagata-glue-finite-type-ideals"
 kind = "lemma"
 title = "Gluing compatible finite-type ideals on two qc opens"
-order = 350
+order = 434
 +++
 **Status.** Bypassed by the formalized route: a finite-type ideal is
 extended from a quasi-compact open in one step by

@@ -2,7 +2,7 @@
 id = "two-blow-up-lemmas-of-deligne"
 kind = "section"
 title = "Two blow-up lemmas of Deligne"
-order = 385
+order = 451
 +++
 Note that $q$ is an isomorphism over $V$, since
 $V(\mathcal I_1+\mathcal I_2)\subseteq V(\mathcal I_2)=T_2$ is disjoint from

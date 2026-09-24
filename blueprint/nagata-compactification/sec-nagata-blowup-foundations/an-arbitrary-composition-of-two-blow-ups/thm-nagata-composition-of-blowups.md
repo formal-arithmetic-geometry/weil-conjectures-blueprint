@@ -2,7 +2,7 @@
 id = "thm-nagata-composition-of-blowups"
 kind = "theorem"
 title = "[stacks-project]"
-order = 307
+order = 399
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_comp"]
 uses = ["cor-nagata-blowup-cartier-iso", "def-nagata-composition-of-blowups-comparison", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-blowup-invertible-factor", "lemma-nagata-composition-center-ideal", "lemma-nagata-composition-extended-ideal-equality", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-product-ideal"]
 +++

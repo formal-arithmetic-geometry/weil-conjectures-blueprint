@@ -2,7 +2,7 @@
 id = "lemma-nagata-comparison-isiso-near-boundary"
 kind = "lemma"
 title = "Properties of the improved first comparison projection"
-order = 477
+order = 543
 lean = ["AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide"]
 uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-improved-comparison", "lemma-nagata-boundary-disjoint-persists", "lemma-nagata-boundary-loci", "lemma-nagata-comparison-projections-proper", "lemma-nagata-comparison-restrict-proper-open", "lemma-nagata-isomorphism-near-closure", "lemma-nagata-maximal-isomorphism-open", "lemma-nagata-scheme-image-strict-transform", "prop-nagata-global-blowup-cover-independent"]
 +++

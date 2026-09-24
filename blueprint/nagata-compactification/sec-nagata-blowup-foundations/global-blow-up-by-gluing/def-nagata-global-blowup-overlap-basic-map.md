@@ -2,7 +2,7 @@
 id = "def-nagata-global-blowup-overlap-basic-map"
 kind = "definition"
 title = "Basic-overlap comparison map"
-order = 223
+order = 297
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isPullback_blowupNatTrans_of_basicOpen"]
 uses = ["def-nagata-affine-blowup-restriction-map", "def-nagata-global-blowup-local-model", "prop-nagata-affine-blowup-restrict"]
 +++

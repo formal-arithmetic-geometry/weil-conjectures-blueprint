@@ -2,7 +2,7 @@
 id = "the-two-open-compactification-theorem"
 kind = "section"
 title = "The two-open compactification theorem"
-order = 461
+order = 526
 +++
 Throughout this section let $S$ be Noetherian, let $U\to S$ be separated and
 of finite type, and fix an open cover $U=U_1\cup U_2$ such that

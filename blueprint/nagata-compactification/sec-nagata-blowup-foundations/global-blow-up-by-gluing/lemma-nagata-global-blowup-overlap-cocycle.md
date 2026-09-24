@@ -2,7 +2,7 @@
 id = "lemma-nagata-global-blowup-overlap-cocycle"
 kind = "lemma"
 title = "Triple-overlap cocycle"
-order = 227
+order = 301
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowupNatTrans_equifibered"]
 uses = ["lemma-nagata-affine-blowup-restrict-cocycle", "lemma-nagata-global-blowup-overlap-independent"]
 +++

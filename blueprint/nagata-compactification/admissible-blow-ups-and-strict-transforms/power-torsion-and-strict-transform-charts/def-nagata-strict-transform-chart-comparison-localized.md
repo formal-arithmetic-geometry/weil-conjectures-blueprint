@@ -2,7 +2,7 @@
 id = "def-nagata-strict-transform-chart-comparison-localized"
 kind = "definition"
 title = "Localized strict-transform chart comparison"
-order = 329
+order = 420
 uses = ["def-nagata-strict-transform-chart-comparison"]
 +++
 **Status.** Bypassed by the formalized route: the strict transform is

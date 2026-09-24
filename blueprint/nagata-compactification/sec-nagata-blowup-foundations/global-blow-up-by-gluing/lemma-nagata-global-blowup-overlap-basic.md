@@ -2,7 +2,7 @@
 id = "lemma-nagata-global-blowup-overlap-basic"
 kind = "lemma"
 title = "The basic-overlap comparison is an isomorphism"
-order = 224
+order = 298
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isPullback_blowupNatTrans_of_basicOpen"]
 uses = ["def-nagata-global-blowup-overlap-basic-map", "prop-nagata-affine-blowup-restrict"]
 +++

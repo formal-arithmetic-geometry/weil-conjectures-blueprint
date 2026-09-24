@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Pushforward along a closed immersion"
 order = 1468
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.lowerStar_of_isClosedImmersion"]
-uses = ["lemma-openclosed-vanishing-lowerstar", "prop-constructible-open-closed", "prop-openclosed-lowerstar-fully-faithful"]
+uses = ["lemma-openclosed-vanishing-lowerstar", "lemma-weil-pbc-geometric-stalk-conservative", "prop-constructible-open-closed", "prop-openclosed-lowerstar-fully-faithful"]
 +++
 If $\mathcal G\in\shv{\et Z}$ is constructible, then so is
 $i_*\mathcal G$.

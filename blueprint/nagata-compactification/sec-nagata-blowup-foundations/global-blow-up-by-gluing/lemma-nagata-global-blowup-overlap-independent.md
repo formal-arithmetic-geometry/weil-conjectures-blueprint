@@ -2,7 +2,7 @@
 id = "lemma-nagata-global-blowup-overlap-independent"
 kind = "lemma"
 title = "Independence of the basic refinement"
-order = 225
+order = 299
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowupNatTrans_equifibered"]
 uses = ["lemma-nagata-affine-blowup-restrict-cocycle", "lemma-nagata-global-blowup-overlap-basic"]
 +++

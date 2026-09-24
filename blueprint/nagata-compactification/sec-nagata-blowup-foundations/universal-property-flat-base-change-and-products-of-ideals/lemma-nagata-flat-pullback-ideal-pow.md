@@ -2,7 +2,7 @@
 id = "lemma-nagata-flat-pullback-ideal-pow"
 kind = "lemma"
 title = "Flat pullback commutes with ideal powers"
-order = 282
+order = 357
 uses = ["def-nagata-extended-ideal"]
 +++
 **Status.** Bypassed by the formalized route: blow-ups are never

@@ -2,7 +2,7 @@
 id = "lemma-nagata-qc-open-complement-ideal"
 kind = "lemma"
 title = "Vanishing set of the open-complement ideal"
-order = 419
+order = 485
 lean = ["AlgebraicGeometry.Scheme.exists_finiteType_ideal_coe_support_eq_compl"]
 uses = ["def-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists"]
 +++

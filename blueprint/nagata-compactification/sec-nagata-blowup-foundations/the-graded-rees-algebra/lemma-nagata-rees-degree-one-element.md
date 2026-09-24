@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-degree-one-element"
 kind = "lemma"
 title = "Degree-one element associated to an ideal element"
-order = 194
+order = 268
 lean = ["AlgebraicGeometry.reesX"]
 uses = ["def-nagata-rees-piece", "lemma-nagata-rees-piece-membership"]
 +++

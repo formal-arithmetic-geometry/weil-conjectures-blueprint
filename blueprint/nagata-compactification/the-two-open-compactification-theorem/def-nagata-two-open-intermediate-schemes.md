@@ -2,7 +2,7 @@
 id = "def-nagata-two-open-intermediate-schemes"
 kind = "definition"
 title = "Intermediate two-open schemes"
-order = 480
+order = 546
 lean = ["AlgebraicGeometry.TwoOpenSide.interior"]
 uses = ["def-nagata-two-open-improved-comparison", "def-nagata-two-open-prepared-boundaries"]
 +++

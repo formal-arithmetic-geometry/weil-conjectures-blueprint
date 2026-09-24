@@ -5,7 +5,7 @@ title = "Topological invariance of the small etale topos"
 order = 1774
 lean = ["AlgebraicGeometry.Etale.cohomologyEquiv", "AlgebraicGeometry.Etale.cohomologyMap_bijective", "AlgebraicGeometry.Etale.isEquivalence_upperStar", "AlgebraicGeometry.Etale.sheafEquivalence"]
 tags = ["latex:proposition"]
-uses = ["lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence"]
+uses = ["def-pc-ext", "lemma-constructible-pullback-constant", "lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence"]
 +++
 Let $u:X_0\to X$ be a universal homeomorphism. Pullback along $u$ is an
 equivalence between the small etale topos of $X$ and that of $X_0$, and for

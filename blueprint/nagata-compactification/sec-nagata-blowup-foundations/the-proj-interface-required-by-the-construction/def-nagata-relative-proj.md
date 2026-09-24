@@ -2,7 +2,7 @@
 id = "def-nagata-relative-proj"
 kind = "definition"
 title = "Relative Proj"
-order = 173
+order = 241
 uses = ["def-nagata-affine-proj"]
 +++
 **Status.** Bypassed by the formalized route: no separate relative-Proj

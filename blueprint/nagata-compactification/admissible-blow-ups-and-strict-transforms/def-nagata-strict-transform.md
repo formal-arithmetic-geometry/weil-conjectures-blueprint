@@ -2,7 +2,7 @@
 id = "def-nagata-strict-transform"
 kind = "definition"
 title = "Strict transform"
-order = 310
+order = 402
 lean = ["AlgebraicGeometry.strictTransform"]
 uses = ["def-nagata-global-blowup", "def-nagata-scheme-theoretic-closure"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-proj-exists"
 kind = "lemma"
 title = "Existence and affine compatibility of relative Proj"
-order = 174
+order = 242
 uses = ["def-nagata-affine-proj", "def-nagata-relative-proj", "lemma-nagata-proj-chart-ring-cocycle"]
 +++
 **Status.** Bypassed by the formalized route: no separate relative-Proj

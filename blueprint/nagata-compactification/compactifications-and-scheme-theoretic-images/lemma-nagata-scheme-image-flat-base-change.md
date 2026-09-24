@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-image-flat-base-change"
 kind = "lemma"
 title = "Flat base change of a scheme-theoretic image, [stacks-project]"
-order = 150
+order = 152
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_pullback_snd"]
 uses = ["def-nagata-dense-compactification", "def-nagata-scheme-theoretic-image", "lemma-nagata-affine-image-kernel-flat"]
 +++

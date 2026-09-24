@@ -2,9 +2,9 @@
 id = "def-nagata-separate-constructible-closed"
 kind = "definition"
 title = "Constructible-boundary separation blow-up"
-order = 427
+order = 493
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
-uses = ["def-nagata-constructible-closed-support", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup-cover-comparison", "def-nagata-separate-closed-subschemes", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-constructible-closed-support", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup-cover-comparison", "def-nagata-separate-closed-subschemes", "lemma-nagata-constructible-closed-support", "lemma-nagata-extend-finite-type-ideal", "lemma-nagata-separate-closed-subschemes", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be qcqs, let $U\subseteq X$ be a quasi-compact open, and let
 $T_1,T_2\subseteq U$ be disjoint constructible subsets closed in $U$.

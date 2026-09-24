@@ -2,7 +2,7 @@
 id = "admissible-blow-ups-and-strict-transforms--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 311
+order = 403
 +++
 The formal development (`AlgebraicGeometry.StrictTransform`,
 specialized to blow-ups as

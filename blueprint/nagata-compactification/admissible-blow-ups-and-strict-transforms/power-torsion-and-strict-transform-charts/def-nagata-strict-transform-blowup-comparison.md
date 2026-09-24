@@ -2,9 +2,9 @@
 id = "def-nagata-strict-transform-blowup-comparison"
 kind = "definition"
 title = "Comparison from the extended-ideal blow-up to the base change"
-order = 338
+order = 426
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isClosedImmersion_pullbackLift_blowup_comap"]
-uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-strict-transform", "lemma-nagata-strict-chart-map-surjective", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-universal-property"]
+uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-strict-transform", "lemma-nagata-strict-chart-map-surjective", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
 +++
 Let $f\colon Y\to X$, let $\mathcal I$ be a quasi-coherent ideal on $X$,
 and put $X'=\operatorname{Bl}_{\mathcal I}(X)$. The pullback of

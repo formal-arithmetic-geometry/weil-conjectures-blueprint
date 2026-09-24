@@ -2,7 +2,7 @@
 id = "complement-properness-and-principalization--remark-2"
 kind = "remark"
 title = "Formalization route"
-order = 262
+order = 330
 +++
 The formal statement (`extendedToBlowup_isEffectiveCartier`) proves
 the effective-Cartier form only, directly from

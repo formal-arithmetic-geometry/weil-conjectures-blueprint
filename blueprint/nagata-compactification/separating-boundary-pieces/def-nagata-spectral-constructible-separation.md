@@ -2,7 +2,7 @@
 id = "def-nagata-spectral-constructible-separation"
 kind = "definition"
 title = "Constructible separation data in a spectral space"
-order = 430
+order = 496
 uses = ["lemma-nagata-spectral-constructible-separation-exists"]
 +++
 **Status.** Bypassed by the formalized route: the existence statement

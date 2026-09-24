@@ -2,9 +2,9 @@
 id = "lemma-nagata-valuation-factor-closed"
 kind = "lemma"
 title = "Factorization through a closed subscheme over a valuation ring"
-order = 455
+order = 518
 lean = ["AlgebraicGeometry.IsClosedImmersion.exists_lift_of_isFractionRing"]
-uses = ["def-nagata-dense-compactification", "lemma-nagata-reduced-dense-image-schematic", "lemma-nagata-scheme-theoretic-closure-minimal"]
+uses = ["def-nagata-dense-compactification", "def-nagata-extended-ideal", "lemma-nagata-reduced-dense-image-schematic", "lemma-nagata-scheme-theoretic-closure-minimal"]
 +++
 Let $A$ be a valuation ring with fraction field $K$, let $Z\hookrightarrow Y$
 be a closed immersion, and let $g\colon\operatorname{Spec}(A)\to Y$. If the

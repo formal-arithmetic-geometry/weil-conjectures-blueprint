@@ -2,9 +2,9 @@
 id = "lemma-nagata-relative-affine-space-open-immersion"
 kind = "lemma"
 title = "The standard affine chart in relative projective space"
-order = 503
+order = 569
 lean = ["AlgebraicGeometry.AffineSpace.isOpenImmersion_toRelativeProjectiveSpace"]
-uses = ["def-nagata-relative-affine-space", "def-nagata-relative-projective-space", "lemma-nagata-relative-affine-space-charts", "lemma-nagata-relative-proj-exists"]
+uses = ["def-nagata-projective-space-base-change", "def-nagata-relative-affine-space", "def-nagata-relative-projective-space", "lemma-nagata-relative-affine-space-charts", "lemma-nagata-relative-proj-exists", "prop-nagata-proj-standard-open"]
 +++
 For every $n$ and $S$, the map induced by
 $T_i\mapsto T_i/T_0$ identifies $\mathbb A^n_S$ with the standard open

@@ -2,9 +2,9 @@
 id = "lemma-nagata-conrad-affine-space-extension"
 kind = "lemma"
 title = "Extension to $\\mathbb A^n$ after one admissible blow-up, [ConradNagata]"
-order = 392
+order = 459
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_affineSpace"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup-cover-comparison", "def-nagata-relative-affine-space", "def-nagata-relative-projective-space", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup-cover-comparison", "def-nagata-relative-affine-space", "def-nagata-relative-projective-space", "prop-nagata-affine-blowup-chart", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X=\operatorname{Spec}(A)$ be affine, let $U\subseteq X$ be a
 quasi-compact open and let $f\colon U\to\mathbb A^n_X$ be an $X$-morphism.

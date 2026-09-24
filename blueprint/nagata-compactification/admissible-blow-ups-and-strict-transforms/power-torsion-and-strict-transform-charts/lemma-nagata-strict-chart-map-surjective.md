@@ -2,9 +2,9 @@
 id = "lemma-nagata-strict-chart-map-surjective"
 kind = "lemma"
 title = "Surjectivity onto the extended-ideal chart"
-order = 325
+order = 415
 lean = ["AlgebraicGeometry.AffineBlowup.closure_range_awayAlgebraMap_union_range_awayMap"]
-uses = ["def-nagata-strict-chart-to-extended-blowup-chart", "lemma-nagata-chart-ring-normal-form", "lemma-nagata-strict-chart-to-extended-blowup-chart"]
+uses = ["def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-strict-chart-to-extended-blowup-chart", "lemma-nagata-chart-ring-normal-form", "lemma-nagata-rees-degree-zero", "lemma-nagata-strict-chart-to-extended-blowup-chart", "prop-nagata-rees-graded"]
 +++
 The constructed homomorphism $\sigma_a$ is surjective.
 

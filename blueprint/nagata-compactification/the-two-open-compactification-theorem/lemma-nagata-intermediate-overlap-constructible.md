@@ -2,9 +2,9 @@
 id = "lemma-nagata-intermediate-overlap-constructible"
 kind = "lemma"
 title = "Constructibility of the overlap image"
-order = 482
+order = 548
 lean = ["AlgebraicGeometry.TwoOpenSide.isClosedImmersion_intermediateGraph"]
-uses = ["def-nagata-two-open-intermediate-schemes"]
+uses = ["def-nagata-two-open-intermediate-schemes", "lemma-nagata-proper-extension-graph-closed"]
 +++
 The image of
 

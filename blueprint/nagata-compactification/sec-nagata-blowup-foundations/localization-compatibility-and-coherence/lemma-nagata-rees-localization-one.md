@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-localization-one"
 kind = "lemma"
 title = "Localization at one"
-order = 216
+order = 289
 uses = ["lemma-nagata-rees-sum-components", "prop-nagata-rees-localization"]
 +++
 **Status.** Bypassed by the formalized route: the affine blow-up and its

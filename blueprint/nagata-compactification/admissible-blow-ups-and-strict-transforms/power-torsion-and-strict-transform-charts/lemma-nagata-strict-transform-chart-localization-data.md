@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-transform-chart-localization-data"
 kind = "lemma"
 title = "Localization data for strict-transform chart quotients"
-order = 331
+order = 422
 uses = ["def-nagata-strict-transform-chart-ring", "lemma-nagata-power-torsion-localization"]
 +++
 **Status.** Bypassed by the formalized route: the strict transform is

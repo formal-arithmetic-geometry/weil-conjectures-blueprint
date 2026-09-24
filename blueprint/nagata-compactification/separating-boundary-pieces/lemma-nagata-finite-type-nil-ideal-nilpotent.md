@@ -2,7 +2,7 @@
 id = "lemma-nagata-finite-type-nil-ideal-nilpotent"
 kind = "lemma"
 title = "A finite type nil ideal sheaf is uniformly nilpotent"
-order = 420
+order = 486
 +++
 **Status.** Bypassed by the formalized route: boundary separation is
 `AlgebraicGeometry.separationBlowup` with

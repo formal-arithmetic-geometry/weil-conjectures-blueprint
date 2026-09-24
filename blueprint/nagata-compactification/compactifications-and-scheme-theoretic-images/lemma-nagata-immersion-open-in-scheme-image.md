@@ -4,7 +4,7 @@ kind = "lemma"
 title = "[stacks-project]"
 order = 155
 lean = ["AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact"]
-uses = ["def-nagata-scheme-image-factor"]
+uses = ["def-nagata-scheme-image-factor", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Let $g\colon T\to Y$ be a quasi-compact immersion. The constructed map
 $g^{\mathrm{im}}\colon T\to\operatorname{SIm}(g)$ is a quasi-compact open

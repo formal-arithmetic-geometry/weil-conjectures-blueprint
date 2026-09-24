@@ -2,7 +2,7 @@
 id = "def-nagata-relative-affine-space"
 kind = "definition"
 title = "Relative affine space"
-order = 390
+order = 457
 lean = ["AlgebraicGeometry.AffineSpace"]
 +++
 For a scheme $S$ and $n\in\mathbb N$, define

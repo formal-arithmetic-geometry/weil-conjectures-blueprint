@@ -2,7 +2,7 @@
 id = "lemma-nagata-qc-open-eq-eventually"
 kind = "lemma"
 title = "Eventual equality of descended quasi-compact opens"
-order = 565
+order = 213
 uses = ["def-nagata-qc-open-equality-stage"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-image-affine-saturation"
 kind = "lemma"
 title = "Affine scheme-image saturation"
-order = 435
+order = 501
 uses = ["def-nagata-power-torsion", "lemma-nagata-power-torsion-kernel-localization", "lemma-nagata-strict-transform-closure-characterization"]
 +++
 Let $C\to B$ be a ring map, let $K=\ker(C\to B)$, and let $a\in C$ map

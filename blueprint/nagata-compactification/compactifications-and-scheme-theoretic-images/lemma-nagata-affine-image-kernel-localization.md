@@ -2,9 +2,9 @@
 id = "lemma-nagata-affine-image-kernel-localization"
 kind = "lemma"
 title = "Localization of the affine image kernel"
-order = 148
+order = 150
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_pullback_snd"]
-uses = ["def-nagata-dense-compactification", "def-nagata-scheme-theoretic-image"]
+uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Let $A$ be a ring, let $T\to\operatorname{Spec}(A)$ be quasi-compact and
 quasi-separated, and let $s\in A$. Put

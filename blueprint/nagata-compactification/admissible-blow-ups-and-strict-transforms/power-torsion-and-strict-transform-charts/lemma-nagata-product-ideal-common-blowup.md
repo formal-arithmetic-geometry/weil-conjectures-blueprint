@@ -2,9 +2,9 @@
 id = "lemma-nagata-product-ideal-common-blowup"
 kind = "lemma"
 title = "[stacks-project]"
-order = 357
+order = 439
 lean = ["AlgebraicGeometry.IsAdmissible.mul", "AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_iso"]
-uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-global-blowup-cover-comparison", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
+uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-admissible-blowup", "def-nagata-global-blowup-cover-comparison", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
 +++
 Let $X$ be qcqs, let $U\subseteq X$ be a quasi-compact open, and let
 $\mathcal I_1,\mathcal I_2$ be finite-type quasi-coherent ideals on $X$ with

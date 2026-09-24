@@ -2,9 +2,9 @@
 id = "lemma-nagata-projective-space-base-change-proper"
 kind = "lemma"
 title = "Projective space is proper over its base"
-order = 177
+order = 253
 lean = ["AlgebraicGeometry.ProjectiveSpace.instIsProper"]
-uses = ["def-nagata-affine-proj", "def-nagata-projective-space-base-change"]
+uses = ["def-nagata-affine-proj", "def-nagata-projective-space-base-change", "def-nagata-scheme-image-factor", "lemma-nagata-diagonal-base-change", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-proj-standard-open"]
 +++
 For every finite index set $n$ and every scheme $S$, the structural
 morphism $\mathbf P(n;S)\to S$ is proper.

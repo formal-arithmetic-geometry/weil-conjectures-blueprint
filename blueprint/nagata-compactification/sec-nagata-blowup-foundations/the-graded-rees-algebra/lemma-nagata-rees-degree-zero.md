@@ -2,9 +2,9 @@
 id = "lemma-nagata-rees-degree-zero"
 kind = "lemma"
 title = "The degree-zero piece"
-order = 193
+order = 267
 lean = ["AlgebraicGeometry.reesGradingZero"]
-uses = ["def-nagata-rees-piece", "lemma-nagata-rees-piece-membership"]
+uses = ["def-nagata-rees-piece", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul"]
 +++
 Taking the constant coefficient gives a ring equivalence
 

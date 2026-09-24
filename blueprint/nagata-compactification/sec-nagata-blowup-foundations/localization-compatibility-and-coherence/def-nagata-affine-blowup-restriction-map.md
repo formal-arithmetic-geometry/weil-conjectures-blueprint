@@ -2,9 +2,9 @@
 id = "def-nagata-affine-blowup-restriction-map"
 kind = "definition"
 title = "Affine blow-up restriction morphism"
-order = 218
+order = 291
 lean = ["AlgebraicGeometry.AffineBlowup.hom"]
-uses = ["def-nagata-affine-blowup", "def-nagata-rees-localization-map", "prop-nagata-relative-proj-functoriality"]
+uses = ["def-nagata-affine-blowup", "def-nagata-rees-localization-map", "lemma-nagata-localization-ideal-pow", "prop-nagata-relative-proj-functoriality"]
 +++
 Define
 

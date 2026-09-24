@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-transform-chart-cocycle"
 kind = "lemma"
 title = "Cocycle for strict-transform charts"
-order = 332
+order = 423
 uses = ["def-nagata-strict-transform-chart-comparison-localized", "lemma-nagata-affine-blowup-restrict-cocycle", "lemma-nagata-strict-transform-chart-localization", "lemma-nagata-strict-transform-chart-localization-data"]
 +++
 **Status.** Bypassed by the formalized route: the strict transform is

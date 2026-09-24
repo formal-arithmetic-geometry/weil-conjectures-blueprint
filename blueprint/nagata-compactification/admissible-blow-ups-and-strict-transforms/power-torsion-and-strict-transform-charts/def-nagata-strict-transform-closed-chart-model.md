@@ -2,7 +2,7 @@
 id = "def-nagata-strict-transform-closed-chart-model"
 kind = "definition"
 title = "Closed chart model of the global strict transform"
-order = 336
+order = 424
 uses = ["def-nagata-global-blowup", "def-nagata-strict-transform-chart-ring", "lemma-nagata-strict-transform-chart-localization-data"]
 +++
 **Status.** Bypassed by the formalized route: the strict transform is

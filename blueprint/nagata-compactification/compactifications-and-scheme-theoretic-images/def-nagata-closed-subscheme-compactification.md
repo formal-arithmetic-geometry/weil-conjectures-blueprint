@@ -4,7 +4,7 @@ kind = "definition"
 title = "Closed-subscheme compactification construction"
 order = 162
 lean = ["AlgebraicGeometry.Compactification.ofIsClosedImmersion"]
-uses = ["def-nagata-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image"]
+uses = ["def-nagata-compactification", "def-nagata-immersion-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Let $i\colon X\hookrightarrow X'$ be closed over $S$ and fix a
 compactification $C'=(X'\to\overline X'\to S)$. Define

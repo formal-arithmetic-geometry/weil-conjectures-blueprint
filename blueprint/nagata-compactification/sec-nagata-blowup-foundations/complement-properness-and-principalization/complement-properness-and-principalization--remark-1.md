@@ -2,7 +2,7 @@
 id = "complement-properness-and-principalization--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 254
+order = 322
 +++
 The formal proof (`isProper_blowupMap`) follows this target-local
 reduction and settles the affine case

@@ -2,7 +2,7 @@
 id = "lemma-nagata-valuation-intersection"
 kind = "lemma"
 title = "Intersection with a dominating valuation ring"
-order = 453
+order = 516
 lean = ["ValuationSubring.comap_eq_of_toLocalSubring_le"]
 +++
 Let $A$ be a valuation ring with fraction field $K$, let

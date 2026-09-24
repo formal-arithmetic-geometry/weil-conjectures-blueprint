@@ -2,7 +2,7 @@
 id = "lemma-nagata-quasi-affine-immersion-affine-space"
 kind = "lemma"
 title = "Property of the quasi-affine affine-space map, [stacks-project]"
-order = 505
+order = 571
 uses = ["def-nagata-quasi-affine-immersion-affine-space", "lemma-nagata-quasi-affine-immersion-affine-space-exists"]
 +++
 **Status.** Bypassed by the formalized route:

@@ -2,9 +2,9 @@
 id = "lemma-nagata-two-open-comparison-boundary"
 kind = "lemma"
 title = "The two descriptions of the comparison boundary agree"
-order = 474
+order = 541
 lean = ["AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide"]
-uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-comparison-boundary", "def-nagata-two-open-comparison-space", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-comparison-boundary", "def-nagata-two-open-comparison-space", "def-nagata-two-open-improved-comparison", "prop-nagata-global-blowup-cover-independent"]
 +++
 Inside $V_{12}$ one has
 

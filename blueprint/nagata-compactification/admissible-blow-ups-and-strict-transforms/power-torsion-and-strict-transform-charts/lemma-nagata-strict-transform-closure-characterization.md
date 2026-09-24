@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-transform-closure-characterization"
 kind = "lemma"
 title = "Scheme-theoretic closure characterization"
-order = 340
+order = 427
 lean = ["AlgebraicGeometry.strictTransform"]
 uses = ["lemma-nagata-power-torsion-kernel-localization", "lemma-nagata-power-torsion-quotient-torsionfree", "prop-nagata-strict-transform-closed-fiber-product"]
 +++

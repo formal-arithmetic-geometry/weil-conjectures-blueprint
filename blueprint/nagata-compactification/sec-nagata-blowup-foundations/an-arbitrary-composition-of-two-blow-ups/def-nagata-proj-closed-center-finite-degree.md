@@ -2,7 +2,7 @@
 id = "def-nagata-proj-closed-center-finite-degree"
 kind = "definition"
 title = "Finite-degree data attached to a closed center in Proj"
-order = 300
+order = 392
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteDegree_center"]
 uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-relative-proj", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-proj-closed-center-finite-degree-exists", "prop-nagata-global-blowup-cover-independent"]
 +++

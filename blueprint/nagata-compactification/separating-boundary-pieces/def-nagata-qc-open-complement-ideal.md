@@ -2,9 +2,9 @@
 id = "def-nagata-qc-open-complement-ideal"
 kind = "definition"
 title = "Finite-type ideal attached to a quasi-compact open"
-order = 418
+order = 484
 lean = ["AlgebraicGeometry.Scheme.exists_finiteType_ideal_coe_support_eq_compl"]
-uses = ["lemma-nagata-qc-open-complement-ideal-exists"]
+uses = ["def-nagata-extended-ideal", "lemma-nagata-qc-open-complement-ideal-exists"]
 +++
 Let $W\subseteq Y$ be a quasi-compact open in a qcqs scheme. Choose one
 witness supplied by

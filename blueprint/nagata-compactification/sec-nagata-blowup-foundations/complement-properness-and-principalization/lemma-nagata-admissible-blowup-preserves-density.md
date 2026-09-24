@@ -2,9 +2,9 @@
 id = "lemma-nagata-admissible-blowup-preserves-density"
 kind = "lemma"
 title = "Density is preserved by an admissible blow-up"
-order = 266
+order = 337
 lean = ["AlgebraicGeometry.IsAdmissible.isSchemeTheoreticallyDominant_preimage_ι", "AlgebraicGeometry.Scheme.IdealSheafData.isSchemeTheoreticallyDominant_blowupMap_preimage_compl_support"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-invertible-ideal", "def-nagata-scheme-theoretically-dense-open", "lemma-nagata-dense-flat-pullback", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-invertible-ideal", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretically-dense-open", "lemma-nagata-dense-flat-pullback", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement"]
 +++
 Let $U\hookrightarrow X$ be a quasi-compact scheme-theoretically dense open
 immersion, and let $\mathcal I$ be a finite type quasi-coherent ideal with

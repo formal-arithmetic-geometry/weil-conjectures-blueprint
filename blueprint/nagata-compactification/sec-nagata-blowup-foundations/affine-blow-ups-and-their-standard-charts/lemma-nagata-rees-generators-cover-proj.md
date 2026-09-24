@@ -2,9 +2,9 @@
 id = "lemma-nagata-rees-generators-cover-proj"
 kind = "lemma"
 title = "Degree-one generators cover Proj"
-order = 207
+order = 281
 lean = ["AlgebraicGeometry.Proj.iSup_basicOpen_eq_top"]
-uses = ["prop-nagata-rees-finite-generation"]
+uses = ["def-nagata-affine-proj", "prop-nagata-rees-finite-generation"]
 +++
 If $I=(f_0,\ldots,f_r)$, then the standard opens
 $D_+(f_it)$ cover $\operatorname{Proj}(\mathcal R_A(I))$.

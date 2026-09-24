@@ -2,7 +2,7 @@
 id = "def-nagata-fixed-base-separated-stage"
 kind = "definition"
 title = "Selected stage for fixed-base separatedness"
-order = 556
+order = 203
 uses = ["lemma-nagata-fixed-base-separated-stage-exists"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

@@ -2,7 +2,7 @@
 id = "compactifications-and-scheme-theoretic-images--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 152
+order = 144
 +++
 The formal proof (`Nagata.schemeImageFlatBaseChange`) does not run
 the affine kernel computations of

@@ -2,7 +2,7 @@
 id = "lemma-nagata-blowup-universal-graded-map"
 kind = "lemma"
 title = "The quotient construction is a graded algebra map"
-order = 273
+order = 348
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_lift_blowup"]
 uses = ["def-nagata-blowup-universal-graded-map", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-invertible-ideal-tensor-power", "prop-nagata-global-blowup-cover-independent"]
 +++

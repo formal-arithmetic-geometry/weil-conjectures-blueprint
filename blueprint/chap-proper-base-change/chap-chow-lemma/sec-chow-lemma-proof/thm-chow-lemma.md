@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Chow's lemma"
 order = 630
 lean = ["AlgebraicGeometry.ChowModification", "AlgebraicGeometry.ChowModification.exists_dense_isIso_restrict", "AlgebraicGeometry.ChowModification.index", "AlgebraicGeometry.ChowModification.isImmersion_toProjectiveSpace", "AlgebraicGeometry.ChowModification.isProper_modificationMap", "AlgebraicGeometry.ChowModification.modificationMap", "AlgebraicGeometry.ChowModification.surjective_modificationMap", "AlgebraicGeometry.ChowModification.toProjectiveSpace", "AlgebraicGeometry.ChowModification.toProjectiveSpace_over"]
-uses = ["def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions", "lem-chow-glue", "lem-chow-graph", "lem-chow-preimage", "lem-chow-scheme-theoretic-closure", "lem-chow-segre", "lem-weil-pbc-proper-closed-image", "lem-weil-pbc-proper-composition", "lem-weil-pbc-proper-immersion-closed", "lemma-nagata-dense-affine-cover-exists"]
+uses = ["def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions", "lem-chow-glue", "lem-chow-graph", "lem-chow-preimage", "lem-chow-scheme-theoretic-closure", "lem-chow-segre", "lem-weil-pbc-proper-closed-image", "lem-weil-pbc-proper-composition", "lem-weil-pbc-proper-immersion-closed", "lemma-nagata-dense-affine-cover-exists", "lemma-nagata-projective-target-local"]
 +++
 Let $S$ be a noetherian scheme and let $f\colon X\to S$ be a separated morphism
 of finite type. Then there are an integer $n\geq0$, a scheme $X'$ over $S$, a

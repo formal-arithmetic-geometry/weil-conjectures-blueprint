@@ -2,7 +2,7 @@
 id = "the-general-case-via-zariski-s-main-theorem--remark-2"
 kind = "remark"
 title = "Formalization route: Tag 081S from Theorem 2.4 and Zariski's Main Theorem"
-order = 413
+order = 480
 +++
 [lemma-nagata-elimination-indeterminacy] (Stacks Tag 081S) is
 formalized along this section, not along a module-flattening argument. The bridge is the

@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-affine-space-charts"
 kind = "lemma"
 title = "Relative affine-space charts and base change"
-order = 502
+order = 568
 uses = ["def-nagata-relative-affine-space"]
 +++
 **Status.** Bypassed by the formalized route: relative affine space is

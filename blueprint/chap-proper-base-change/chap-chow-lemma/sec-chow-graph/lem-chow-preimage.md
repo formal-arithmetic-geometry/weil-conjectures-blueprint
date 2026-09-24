@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The preimages of the members of the cover"
 order = 628
 lean = ["AlgebraicGeometry.ChowGraph.isProper_morphismRestrict_modificationMap", "AlgebraicGeometry.ChowGraph.preimage_modificationMap"]
-uses = ["def-weil-pbc-scheme-conventions", "lem-chow-glue", "lem-chow-graph"]
+uses = ["def-weil-pbc-scheme-conventions", "lem-chow-glue", "lem-chow-graph", "lemma-nagata-diagonal-base-change", "lemma-nagata-projective-space-base-change-proper", "lemma-nagata-proper-to-separated-target"]
 +++
 In the situation of [lem-chow-glue] one has $\pi^{-1}(U_i)=V_i$ for every
 $i$. Consequently $\pi^{-1}(U_i)\to U_i$ is the proper morphism

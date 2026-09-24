@@ -2,7 +2,7 @@
 id = "lemma-nagata-chart-ring-fraction-equality"
 kind = "lemma"
 title = "Equality criterion for chart fractions"
-order = 200
+order = 274
 uses = ["lemma-nagata-chart-ring-normal-form"]
 +++
 **Status.** Bypassed by the formalized route: the affine blow-up and its

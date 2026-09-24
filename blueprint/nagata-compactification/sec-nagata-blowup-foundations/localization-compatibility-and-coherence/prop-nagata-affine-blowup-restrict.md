@@ -2,10 +2,10 @@
 id = "prop-nagata-affine-blowup-restrict"
 kind = "theorem"
 title = "Restriction of an affine blow-up"
-order = 219
+order = 292
 lean = ["AlgebraicGeometry.AffineBlowup.isPullback_hom_of_isLocalization"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-affine-blowup-restriction-map", "lemma-nagata-rees-localization-degree-zero", "prop-nagata-rees-localization", "prop-nagata-relative-proj-functoriality"]
+uses = ["def-nagata-affine-blowup-chart-map", "def-nagata-affine-blowup-restriction-map", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-localization-degree-zero", "prop-nagata-affine-blowup-chart", "prop-nagata-rees-localization", "prop-nagata-relative-proj-functoriality"]
 +++
 The constructed morphism $r_s$ is an isomorphism over
 $\operatorname{Spec}(A_s)$.

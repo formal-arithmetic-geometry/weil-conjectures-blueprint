@@ -2,7 +2,7 @@
 id = "lemma-nagata-localization-rees-piece"
 kind = "lemma"
 title = "Localization of each Rees piece"
-order = 212
+order = 285
 uses = ["lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-piece-membership"]
 +++
 **Status.** Bypassed by the formalized route: the affine blow-up and its

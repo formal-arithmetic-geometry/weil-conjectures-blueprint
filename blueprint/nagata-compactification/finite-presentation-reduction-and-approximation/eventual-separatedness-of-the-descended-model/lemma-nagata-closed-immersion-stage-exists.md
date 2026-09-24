@@ -2,9 +2,9 @@
 id = "lemma-nagata-closed-immersion-stage-exists"
 kind = "lemma"
 title = "Existence of a stage where a finite-presentation map is closed"
-order = 581
+order = 229
 lean = ["AlgebraicGeometry.Scheme.exists_isClosedImmersion_overPullbackMap"]
-uses = ["lemma-nagata-filtered-colimit-finite-data", "lemma-nagata-scheme-theoretic-closure-minimal"]
+uses = ["lemma-nagata-diagonal-base-change", "lemma-nagata-filtered-colimit-finite-data", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-theoretic-closure-minimal"]
 +++
 Let $g_\lambda\colon Z_\lambda\to Y_\lambda$ be of finite presentation
 between finite-presentation $S_\lambda$-schemes. If its base change to the

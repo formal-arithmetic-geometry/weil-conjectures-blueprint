@@ -2,8 +2,9 @@
 id = "lemma-nagata-zmt-open-immersion-affine-factorization"
 kind = "lemma"
 title = "Zariski's Main Theorem as a factorization"
-order = 405
+order = 472
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isOpenImmersion_isAffineHom_of_locallyQuasiFinite"]
+uses = ["def-nagata-rees-algebra", "def-nagata-scheme-image-factor", "lemma-nagata-diagonal-base-change", "lemma-nagata-localization-ideal-pow", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Let $f\colon X\to Y$ be separated, quasi-compact, locally quasi-finite and
 locally of finite type. Then $f$ factors as

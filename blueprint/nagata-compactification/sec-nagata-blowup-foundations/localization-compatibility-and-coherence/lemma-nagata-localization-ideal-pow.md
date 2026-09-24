@@ -2,7 +2,7 @@
 id = "lemma-nagata-localization-ideal-pow"
 kind = "lemma"
 title = "Localization commutes with powers of an ideal"
-order = 211
+order = 284
 lean = ["Ideal.map_pow"]
 +++
 Let $s\in A$. For every $n$ there is a canonical equality

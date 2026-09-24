@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Scheme-theoretic image of a closed immersion"
 order = 147
 lean = ["AlgebraicGeometry.IsClosedImmersion.instIsIsoSchemeToImage"]
+uses = ["def-nagata-scheme-image-factor"]
 +++
 If $i\colon Z\hookrightarrow Y$ is a closed immersion, then the factor map
 $i^{\mathrm{im}}\colon Z\to\operatorname{SIm}(i)$ is an isomorphism. Thus

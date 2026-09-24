@@ -2,7 +2,7 @@
 id = "elimination-of-indeterminacy-after-deligne-and-conrad"
 kind = "section"
 title = "Elimination of indeterminacy after Deligne and Conrad"
-order = 378
+order = 444
 +++
 This section is the formalized route to
 [lemma-nagata-elimination-indeterminacy] (Stacks Tag 081S), which the

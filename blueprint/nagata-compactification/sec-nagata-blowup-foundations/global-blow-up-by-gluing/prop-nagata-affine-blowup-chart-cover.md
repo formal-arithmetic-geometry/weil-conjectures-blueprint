@@ -2,7 +2,7 @@
 id = "prop-nagata-affine-blowup-chart-cover"
 kind = "theorem"
 title = "Finite affine chart cover"
-order = 237
+order = 311
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.iSup_opensRange_blowupι_eq_top"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-global-blowup-cover-comparison", "lemma-nagata-rees-generators-cover-proj", "prop-nagata-affine-blowup-chart", "prop-nagata-global-blowup-cover-independent"]

@@ -2,7 +2,7 @@
 id = "lemma-nagata-key-boundary-disjointness"
 kind = "lemma"
 title = "Key boundary disjointness"
-order = 479
+order = 545
 lean = ["AlgebraicGeometry.TwoOpenSide.KeyDisjoint"]
 uses = ["lemma-nagata-comparison-boundary-density", "lemma-nagata-prepared-boundaries", "lemma-nagata-two-open-comparison-boundary"]
 +++

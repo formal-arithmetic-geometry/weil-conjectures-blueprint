@@ -2,7 +2,7 @@
 id = "lemma-nagata-extend-admissible-blowup"
 kind = "lemma"
 title = "Property of the extended admissible blow-up, [stacks-project]"
-order = 356
+order = 442
 lean = ["AlgebraicGeometry.IsAdmissible.exists_extend", "AlgebraicGeometry.IsAdmissible.exists_extend_of_disjoint", "AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_comap_eq_of_disjoint"]
 uses = ["def-nagata-extended-admissible-blowup", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-affine-image-kernel-flat", "lemma-nagata-extend-finite-type-ideal", "lemma-nagata-scheme-image-flat-base-change", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-flat-base-change"]
 +++

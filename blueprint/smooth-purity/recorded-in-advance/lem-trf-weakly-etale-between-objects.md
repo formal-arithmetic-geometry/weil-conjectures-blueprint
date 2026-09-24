@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Morphisms between weakly etale objects"
 order = 3514
 lean = ["AlgebraicGeometry.WeaklyEtale.of_comp"]
+uses = ["def-nagata-rees-algebra", "lemma-nagata-diagonal-base-change", "lemma-nagata-localization-ideal-pow"]
 +++
 Let $U\to S$ and $V\to S$ be weakly etale morphisms.
 Every $S$-morphism $f:U\to V$ is weakly etale.

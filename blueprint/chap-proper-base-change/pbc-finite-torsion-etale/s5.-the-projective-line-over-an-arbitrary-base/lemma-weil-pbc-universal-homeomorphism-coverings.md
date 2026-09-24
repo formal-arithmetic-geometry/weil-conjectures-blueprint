@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Covering compatibility for universal homeomorphisms"
 order = 1773
 lean = ["AlgebraicGeometry.Scheme.Hom.functorPushforward_mem_smallEtaleTopology_iff"]
+uses = ["lemma-nagata-diagonal-base-change", "lemma-nagata-localization-ideal-pow"]
 +++
 Let $u:X_0\to X$ be a universal homeomorphism. A family $\{U_i\to U\}$ of
 etale $X$-schemes is jointly surjective if and only if its base change along

@@ -2,7 +2,7 @@
 id = "lemma-nagata-one-valuation-avoids-boundary"
 kind = "lemma"
 title = "One valuation extension avoids the forbidden boundary"
-order = 489
+order = 555
 lean = ["AlgebraicGeometry.TwoOpenSide.KeyDisjoint.avoids"]
 uses = ["def-nagata-two-open-comparison-space", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-key-boundary-disjointness", "lemma-nagata-valuation-open-closed-point", "lemma-nagata-valuation-pair-factors-comparison"]
 +++

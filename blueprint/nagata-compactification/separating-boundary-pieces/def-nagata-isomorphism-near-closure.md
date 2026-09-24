@@ -2,9 +2,9 @@
 id = "def-nagata-isomorphism-near-closure"
 kind = "definition"
 title = "Modification making a proper map an isomorphism near a closure"
-order = 434
+order = 500
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isIso_strictTransformMap_near_closure"]
-uses = ["def-nagata-elimination-indeterminacy", "def-nagata-extended-admissible-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-maximal-isomorphism-open", "def-nagata-separate-constructible-closed", "def-nagata-spectral-constructible-separation", "lemma-nagata-ideal-unit-off-support", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-elimination-indeterminacy", "def-nagata-extended-admissible-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-maximal-isomorphism-open", "def-nagata-separate-constructible-closed", "def-nagata-spectral-constructible-separation", "lemma-nagata-elimination-indeterminacy", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-maximal-isomorphism-open", "lemma-nagata-product-ideal-common-blowup", "lemma-nagata-separate-constructible-closed", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be qcqs, let $q\colon Z\to X$ be proper, let $V\subseteq X$ be a
 quasi-compact open, set

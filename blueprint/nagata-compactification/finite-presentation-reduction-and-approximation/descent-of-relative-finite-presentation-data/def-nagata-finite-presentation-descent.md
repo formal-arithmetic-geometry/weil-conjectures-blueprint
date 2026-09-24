@@ -2,7 +2,7 @@
 id = "def-nagata-finite-presentation-descent"
 kind = "definition"
 title = "Finite-presentation descent construction"
-order = 577
+order = 225
 uses = ["def-nagata-relative-gluing-valid-stage"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

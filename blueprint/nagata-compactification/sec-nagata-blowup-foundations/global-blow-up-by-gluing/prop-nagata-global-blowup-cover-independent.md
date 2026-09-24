@@ -2,7 +2,7 @@
 id = "prop-nagata-global-blowup-cover-independent"
 kind = "theorem"
 title = "Independence of the affine cover"
-order = 236
+order = 310
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowup"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-global-blowup-cover-comparison", "lemma-nagata-global-blowup-overlap-cocycle", "prop-nagata-global-blowup-affine-restrict"]

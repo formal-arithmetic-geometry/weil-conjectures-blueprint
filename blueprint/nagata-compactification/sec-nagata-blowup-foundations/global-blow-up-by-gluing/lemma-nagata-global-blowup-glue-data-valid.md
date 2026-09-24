@@ -2,7 +2,7 @@
 id = "lemma-nagata-global-blowup-glue-data-valid"
 kind = "lemma"
 title = "Validity of the global blow-up gluing datum"
-order = 229
+order = 303
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowupNatTrans_equifibered"]
 uses = ["def-nagata-global-blowup-glue-data", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-global-blowup-overlap-cocycle", "lemma-nagata-global-blowup-overlap-id-symm"]
 +++

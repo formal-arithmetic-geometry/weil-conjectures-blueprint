@@ -2,9 +2,9 @@
 id = "def-nagata-scheme-image-comparison"
 kind = "definition"
 title = "Comparison map for a closed factorization"
-order = 145
+order = 148
 lean = ["AlgebraicGeometry.IsClosedImmersion.lift"]
-uses = ["def-nagata-scheme-theoretic-image"]
+uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Suppose $g$ is supplied with a factorization
 $T\xrightarrow{h}Z\xrightarrow{z}Y$, where $z$ is a closed immersion.

@@ -2,9 +2,9 @@
 id = "lemma-nagata-ideal-invertible-product-factor"
 kind = "lemma"
 title = "Factors of a finite-type effective Cartier product"
-order = 288
+order = 381
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.of_mul_left"]
-uses = ["def-nagata-effective-cartier-ideal"]
+uses = ["def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal"]
 +++
 Let $R$ be a ring and let $I,J\subseteq R$ be ideals. If $IJ$
 is an effective Cartier ideal, then $I$ and $J$ are effective Cartier ideals.

@@ -2,7 +2,7 @@
 id = "lem-chow-affine-through-generic-points"
 kind = "lemma"
 title = "An affine open containing a point and all generic points"
-order = 513
+order = 579
 lean = ["AlgebraicGeometry.exists_isAffineOpen_mem_of_subset_genericPoints"]
 uses = ["def-weil-pbc-scheme-conventions", "lem-chow-disjoint-affines"]
 +++

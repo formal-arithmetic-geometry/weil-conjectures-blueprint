@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The graph of the cover"
 order = 626
 lean = ["AlgebraicGeometry.ChowGraph", "AlgebraicGeometry.ChowGraph.emb", "AlgebraicGeometry.ChowGraph.exists_isClosedImmersion_over", "AlgebraicGeometry.ChowGraph.proj", "AlgebraicGeometry.ChowGraph.toGraph"]
-uses = ["def-chow-segre", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-chow-closed-model", "lem-chow-scheme-theoretic-closure", "lem-chow-segre", "lem-chow-tuple-immersion", "lem-weil-pbc-closed-immersion-products", "lemma-nagata-dense-affine-cover-exists"]
+uses = ["def-chow-segre", "def-nagata-extended-ideal", "def-nagata-scheme-image-comparison", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-chow-closed-model", "lem-chow-scheme-theoretic-closure", "lem-chow-segre", "lem-chow-tuple-immersion", "lem-weil-pbc-closed-immersion-products", "lemma-nagata-dense-affine-cover-exists", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
 +++
 Let $S$ be noetherian, let $X\to S$ be separated of finite type and let
 $X=U_1\cup\dots\cup U_m$ be a finite affine open covering such that

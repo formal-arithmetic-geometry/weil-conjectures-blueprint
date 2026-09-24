@@ -2,7 +2,7 @@
 id = "def-nagata-affine-neighbourhood-generic-points"
 kind = "definition"
 title = "Affine neighbourhood containing selected generic points"
-order = 510
+order = 576
 uses = ["lemma-nagata-affine-neighbourhood-generic-points-exists"]
 +++
 **Status.** Bypassed by the formalized route: the affine cover meeting the

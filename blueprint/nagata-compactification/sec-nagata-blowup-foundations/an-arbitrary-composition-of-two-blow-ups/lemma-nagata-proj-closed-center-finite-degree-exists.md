@@ -2,7 +2,7 @@
 id = "lemma-nagata-proj-closed-center-finite-degree-exists"
 kind = "lemma"
 title = "Existence of finite-degree equations for a closed center in Proj"
-order = 298
+order = 390
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteDegree_center_le_blowup"]
 uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-relative-proj", "lemma-nagata-affine-image-kernel-flat", "lemma-nagata-extended-ideal-affine-chart", "lemma-nagata-finite-type-ideal-extension-exists", "lemma-nagata-relative-proj-exists", "lemma-nagata-scheme-image-flat-base-change", "prop-nagata-affine-blowup-chart-cover", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement", "thm-nagata-global-blowup-proper"]
 +++

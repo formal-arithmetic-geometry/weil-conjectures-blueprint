@@ -2,7 +2,7 @@
 id = "an-arbitrary-composition-of-two-blow-ups--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 299
+order = 391
 +++
 The formal statement
 (`exists_finiteDegree_center_le_blowup`) recasts Tag 0803 purely

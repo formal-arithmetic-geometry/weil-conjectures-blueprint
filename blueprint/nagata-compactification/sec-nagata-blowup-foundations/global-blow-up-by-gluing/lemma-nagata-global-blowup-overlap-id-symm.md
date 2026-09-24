@@ -2,7 +2,7 @@
 id = "lemma-nagata-global-blowup-overlap-id-symm"
 kind = "lemma"
 title = "Identity and symmetry of overlap isomorphisms"
-order = 226
+order = 300
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowupNatTrans_equifibered"]
 uses = ["lemma-nagata-global-blowup-overlap-independent"]
 +++

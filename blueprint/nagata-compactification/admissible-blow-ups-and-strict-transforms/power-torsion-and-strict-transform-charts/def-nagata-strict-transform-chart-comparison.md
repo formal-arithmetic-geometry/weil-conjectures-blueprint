@@ -2,7 +2,7 @@
 id = "def-nagata-strict-transform-chart-comparison"
 kind = "definition"
 title = "Strict-transform chart comparison"
-order = 327
+order = 418
 uses = ["def-nagata-strict-chart-to-extended-blowup-chart", "def-nagata-strict-transform-chart-ring"]
 +++
 **Status.** Bypassed by the formalized route: the strict transform is

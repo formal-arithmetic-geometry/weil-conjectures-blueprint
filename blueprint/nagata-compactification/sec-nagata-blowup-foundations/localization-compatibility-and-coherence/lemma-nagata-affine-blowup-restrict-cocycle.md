@@ -2,9 +2,9 @@
 id = "lemma-nagata-affine-blowup-restrict-cocycle"
 kind = "lemma"
 title = "Identity and cocycle laws for affine restriction"
-order = 220
+order = 293
 lean = ["AlgebraicGeometry.AffineBlowup.hom_comp"]
-uses = ["lemma-nagata-rees-localization-mul", "lemma-nagata-rees-localization-one", "prop-nagata-affine-blowup-restrict"]
+uses = ["lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-localization-mul", "lemma-nagata-rees-localization-one", "prop-nagata-affine-blowup-restrict", "prop-nagata-proj-standard-open"]
 +++
 The restriction isomorphism is the identity for $s=1$, and its two possible
 composites on an iterated basic open $D(st)$ agree literally after the

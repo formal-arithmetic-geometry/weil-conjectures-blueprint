@@ -2,9 +2,9 @@
 id = "lemma-nagata-graph-extension"
 kind = "lemma"
 title = "Properties of the graph-extension construction, [stacks-project]"
-order = 447
+order = 513
 lean = ["AlgebraicGeometry.Compactification.nonempty_properExtension"]
-uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-graph-extension", "lemma-nagata-elimination-indeterminacy", "lemma-nagata-scheme-image-partial-section", "lemma-nagata-scheme-image-strict-transform", "lemma-nagata-strict-transform-ambient-closed", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-graph-extension", "lemma-nagata-elimination-indeterminacy", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-partial-section", "lemma-nagata-scheme-image-strict-transform", "lemma-nagata-strict-transform-ambient-closed", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
 The map $Y^{\mathrm{gr}}\to Y$ is $V$-admissible,
 $V\subseteq V^{\mathrm{gr}}\subseteq Y^{\mathrm{gr}}$ is open, and

@@ -2,9 +2,9 @@
 id = "thm-nagata-strict-transform-is-blowup"
 kind = "theorem"
 title = "[stacks-project]"
-order = 339
+order = 429
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_comap_iso_strictTransform"]
-uses = ["def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-scheme-theoretic-closure", "def-nagata-strict-transform-blowup-comparison", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-universal-property", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-scheme-theoretic-closure", "def-nagata-strict-transform-blowup-comparison", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-scheme-theoretic-closure-minimal", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-universal-property", "thm-nagata-global-blowup-complement"]
 +++
 Under the preceding hypotheses, the comparison morphism
 $\psi_{f,\mathcal I}$ identifies the blow-up of $Y$ in the extended ideal

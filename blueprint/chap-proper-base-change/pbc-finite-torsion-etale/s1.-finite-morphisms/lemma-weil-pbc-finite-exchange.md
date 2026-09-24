@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Finite exchange isomorphism"
 order = 1654
 lean = ["AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite", "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite"]
-uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-stalk-formula"]
+uses = ["def-nagata-rees-algebra", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange", "lemma-nagata-diagonal-base-change", "lemma-nagata-localization-ideal-pow", "lemma-openclosed-point-ulift", "lemma-openclosed-stalk-upperstar", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-stalk-formula", "rem-ptr-pc-separably-closed-1"]
 +++
 For a finite Cartesian square, the underived exchange map is an isomorphism;
 therefore all its derived exchange maps are isomorphisms.

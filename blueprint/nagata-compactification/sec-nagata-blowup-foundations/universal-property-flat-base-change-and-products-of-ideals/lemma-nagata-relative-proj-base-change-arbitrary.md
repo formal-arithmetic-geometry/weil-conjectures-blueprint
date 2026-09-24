@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-proj-base-change-arbitrary"
 kind = "lemma"
 title = "Relative Proj base change for an arbitrary morphism"
-order = 271
+order = 346
 uses = ["lemma-nagata-proj-chart-ring-cocycle", "prop-nagata-relative-proj-functoriality"]
 +++
 **Status.** Bypassed by the formalized route: no separate relative-Proj

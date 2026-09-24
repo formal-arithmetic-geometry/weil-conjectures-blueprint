@@ -2,7 +2,7 @@
 id = "def-nagata-noetherian-compactification"
 kind = "definition"
 title = "Recursive Noetherian compactification construction"
-order = 519
+order = 585
 lean = ["AlgebraicGeometry.noetherianCompactificationConstruction"]
 uses = ["def-nagata-affine-compactification", "def-nagata-dense-affine-cover", "def-nagata-partial-affine-unions", "def-nagata-two-open-compactification-candidate", "lemma-nagata-partial-union-overlap-dense", "prop-nagata-affine-compactification", "thm-nagata-two-open"]
 +++
