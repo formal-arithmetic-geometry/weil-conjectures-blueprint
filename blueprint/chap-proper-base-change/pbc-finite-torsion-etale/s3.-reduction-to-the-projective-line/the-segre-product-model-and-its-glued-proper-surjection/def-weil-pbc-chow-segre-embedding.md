@@ -2,7 +2,7 @@
 id = "def-weil-pbc-chow-segre-embedding"
 kind = "definition"
 title = "Segre embedding of a product of projective spaces"
-order = 1587
+order = 1686
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 For integers $n_1,\dots,n_m\geq0$, let $N=\prod_{i=1}^m(n_i+1)-1$ and let the

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-affine-immersion-projective"
 kind = "lemma"
 title = "Affine opens of finite type sit in a projective space"
-order = 1584
+order = 1683
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $Y=\operatorname{Spec}A$ be affine and let $U$ be an affine scheme of

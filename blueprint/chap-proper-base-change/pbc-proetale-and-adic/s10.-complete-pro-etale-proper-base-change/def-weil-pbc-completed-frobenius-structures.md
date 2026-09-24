@@ -2,7 +2,7 @@
 id = "def-weil-pbc-completed-frobenius-structures"
 kind = "definition"
 title = "Weil structures on the completed source and target"
-order = 1898
+order = 1997
 uses = ["def-weil-pbc-completed-base-change-map"]
 +++
 Write

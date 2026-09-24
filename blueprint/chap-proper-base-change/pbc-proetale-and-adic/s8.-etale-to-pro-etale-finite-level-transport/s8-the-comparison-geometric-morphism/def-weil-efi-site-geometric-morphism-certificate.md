@@ -2,7 +2,7 @@
 id = "def-weil-efi-site-geometric-morphism-certificate"
 kind = "definition"
 title = "Geometric-morphism certificate predicate"
-order = 1785
+order = 1884
 uses = ["def-weil-efi-site-sheaf-adjunction-certificate", "def-weil-pbc-epsilon-comparison"]
 +++
 Let $\mathsf{GeometricMorphismCert}(\epsilon_X^{-1},\epsilon_{X,*})$ mean

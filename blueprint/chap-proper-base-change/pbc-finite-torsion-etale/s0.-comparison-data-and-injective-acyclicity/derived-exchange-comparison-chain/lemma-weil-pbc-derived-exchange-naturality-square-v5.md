@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-derived-exchange-naturality-square-v5"
 kind = "lemma"
 title = "Exchange naturality is a homotopy square"
-order = 1532
+order = 1631
 uses = ["def-weil-pbc-derived-exchange-presentation-v5", "def-weil-pbc-derived-exchange-target-comparison-v5", "lemma-weil-pbc-derived-exchange-target-comparison-exists-v5", "lemma-weil-pbc-underived-exchange-naturality"]
 +++
 Let $(I,J,q)$ and $(I',J',q')$ be presentations and let $a:I\to I'$ be a

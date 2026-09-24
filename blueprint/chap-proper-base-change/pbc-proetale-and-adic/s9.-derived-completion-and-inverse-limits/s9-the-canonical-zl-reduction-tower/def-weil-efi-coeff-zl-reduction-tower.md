@@ -2,7 +2,7 @@
 id = "def-weil-efi-coeff-zl-reduction-tower"
 kind = "definition"
 title = "Canonical finite reduction tower over $\\mathbf Z_\\ell$"
-order = 1873
+order = 1972
 uses = ["def-weil-pbc-complete-coefficient-datum"]
 +++
 *Constructed by:* lemma:weil-pbc-zl-reduction-perfect

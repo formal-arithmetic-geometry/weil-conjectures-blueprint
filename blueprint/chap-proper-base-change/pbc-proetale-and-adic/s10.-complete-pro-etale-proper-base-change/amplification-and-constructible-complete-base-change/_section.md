@@ -2,7 +2,7 @@
 id = "amplification-and-constructible-complete-base-change"
 kind = "section"
 title = "Amplification and constructible complete base change"
-order = 1922
+order = 2021
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-complete", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-completed-map-reduction", "lem-weil-pbc-pullback-preserves-bounded-constructible", "lem-weil-pbc-reconstruction-uniform-tower", "prop-weil-pbc-direct-image-limits", "prop-weil-pbc-restriction-direct-image", "thm-weil-pbc-complete-proetale"]
 +++
 The complete proper base-change theorem of the previous section is cut down

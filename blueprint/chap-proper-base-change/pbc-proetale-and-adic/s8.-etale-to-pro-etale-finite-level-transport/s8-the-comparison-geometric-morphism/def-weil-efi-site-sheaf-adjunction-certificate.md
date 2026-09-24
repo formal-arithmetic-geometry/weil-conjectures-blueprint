@@ -2,7 +2,7 @@
 id = "def-weil-efi-site-sheaf-adjunction-certificate"
 kind = "definition"
 title = "Adjunction-certificate predicate for the comparison functors"
-order = 1782
+order = 1881
 uses = ["def-weil-efi-site-adjunction-hom-backward", "def-weil-efi-site-adjunction-hom-forward"]
 +++
 Let $\mathsf{AdjunctionCert}(\Phi,\Psi)$ be the conjunction of the left

@@ -2,7 +2,7 @@
 id = "geometric-stalk-exchange-and-the-projective-line-comparison"
 kind = "section"
 title = "Geometric-stalk exchange and the projective-line comparison"
-order = 1724
+order = 1823
 uses = ["def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-etale-sheaves", "def-weil-pbc-injective-acyclicity", "def-weil-pbc-property-detailed", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-property-iff-acyclicity", "prop-weil-pbc-separably-closed-extension", "prop-weil-pbc-strict-henselization-stalk-formula-detailed", "prop-weil-pbc-strict-local-exchange"]
 +++
 Where the two halves meet, under the subsection heading *Stalkwise

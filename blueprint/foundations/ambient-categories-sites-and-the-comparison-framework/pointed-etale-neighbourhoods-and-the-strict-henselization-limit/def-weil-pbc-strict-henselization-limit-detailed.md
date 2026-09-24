@@ -2,7 +2,7 @@
 id = "def-weil-pbc-strict-henselization-limit-detailed"
 kind = "definition"
 title = "Strict henselization as a limit"
-order = 1210
+order = 1216
 uses = ["def-weil-pbc-pointed-etale-neighbourhoods-detailed"]
 +++
 For affine $(V,\bar v)$ with $V=\operatorname{Spec}A_V$, put

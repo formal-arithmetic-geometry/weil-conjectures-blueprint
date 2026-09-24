@@ -2,7 +2,7 @@
 id = "def-weil-pbc-proetale-modules"
 kind = "definition"
 title = "Finite coefficients on the pro-etale site"
-order = 1249
+order = 1255
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-proetale-site"]
 +++
 For a finite discrete ring $\Lambda$, let $\Lambda_{T,\Proet}$ be the

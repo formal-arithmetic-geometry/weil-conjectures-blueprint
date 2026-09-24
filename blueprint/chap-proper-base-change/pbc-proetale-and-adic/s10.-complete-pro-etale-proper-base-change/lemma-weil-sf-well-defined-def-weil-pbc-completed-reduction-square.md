@@ -2,7 +2,7 @@
 id = "lemma-weil-sf-well-defined-def-weil-pbc-completed-reduction-square"
 kind = "lemma"
 title = "Well-definedness certificate for def:weil-pbc-completed-reduction-square"
-order = 1902
+order = 2001
 uses = ["def-weil-pbc-completed-reduction-square", "lemma-weil-pbc-completed-pullback-reduction", "lemma-weil-pbc-completed-tensor-reduction", "lemma-weil-pbc-direct-image-derived-completion", "lemma-weil-sf-well-defined-def-weil-pbc-completed-base-change-map", "lemma-weil-sf-well-defined-def-weil-pbc-level-map-arrows"]
 +++
 For $n\geq1$, $\sigma_n:S\otimes^LP_n\to A_n$ and

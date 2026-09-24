@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-completed-exchange-coherence"
 kind = "lemma"
 title = "Completed exchange coherence"
-order = 1904
+order = 2003
 uses = ["def-weil-pbc-completed-base-change-map", "lemma-weil-pbc-completed-map-reduction", "lemma-weil-pbc-r-lim-levelwise-isomorphism"]
 +++
 The completed exchange map is natural in $K$, is the identity for identity

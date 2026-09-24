@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-proet-finite-level-transport"
 kind = "theorem"
 title = "Finite-level pro-etale proper base change"
-order = 1824
+order = 1923
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-comes-from-etale", "lemma-weil-pbc-epsilon-direct-image", "lemma-weil-pbc-epsilon-pullback", "prop-weil-proet-finite-derived-proper-base-change"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-constructible-noetherian-finite-selection"
 kind = "lemma"
 title = "Noetherian finite selection of stalk tests"
-order = 1641
+order = 1740
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-irreducible-lisse-strata", "lem-weil-pbc-lisse-generic-kernel", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $X$ be Noetherian, let $F$ be a constructible abelian etale sheaf, and let

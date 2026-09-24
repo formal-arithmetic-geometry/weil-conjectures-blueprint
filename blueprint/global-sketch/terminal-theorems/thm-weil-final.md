@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Weil conjectures for a smooth proper variety"
 order = 129
 lean = ["AlgebraicGeometry.IsWeilFactorization", "AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.Scheme.zetaSeries_rational", "AlgebraicGeometry.WeilFunctionalEquation", "AlgebraicGeometry.WeilRiemannHypothesis"]
-uses = ["def-weil-point-counts-zeta", "prop-euler-product"]
+uses = ["def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-euler-product"]
 +++
 Let $X_0$ be a smooth, proper, geometrically connected scheme of pure
 dimension $d$ over $\Fq$. Put $X=X_0\times_{\Fq}k$, let
@@ -100,7 +100,7 @@ $\Fq$.
 
 The hypotheses make $\mathscr X=(X_0,d,X)$ a smooth-proper datum, so all
 degreewise factors and Frobenius operators in Definitions
-`def:weil-smooth-proper-cohomological-family` and
+`[def-weil-smooth-proper-cohomological-family]` and
 *Frobenius characteristic factors* are available.
 
 *Clause (i).*
@@ -180,4 +180,4 @@ in $\mathbf Q(T)$. Hence all assertions of (v) follow.
 The five independently verified clauses are exactly the conjunction stated
 in the theorem.
 
-Unresolved dependencies: def:weil-determinant-constants, def:weil-functional-equation-sign, def:weil-smooth-proper-cohomological-family, prop:arithmetic-roots, prop:duality-reciprocity, prop:endpoints, prop:functional-equation, prop:integral-recovery
+Unresolved dependencies: def:weil-determinant-constants, def:weil-functional-equation-sign, prop:arithmetic-roots, prop:duality-reciprocity, prop:endpoints, prop:functional-equation, prop:integral-recovery

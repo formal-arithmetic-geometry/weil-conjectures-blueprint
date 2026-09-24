@@ -2,8 +2,8 @@
 id = "weil-structures-frobenius-and-weight-conventions"
 kind = "section"
 title = "Weil structures, Frobenius, and weight conventions"
-order = 1449
-uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-constructible-heart", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
+order = 1489
+uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties"]
 +++
 The arithmetic vocabulary in which the Weil conjectures are stated: the local
 Frobenius at a closed point and its alternating trace

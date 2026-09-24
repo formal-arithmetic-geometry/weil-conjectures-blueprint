@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-composition-stability"
 kind = "theorem"
 title = "Composition stability"
-order = 1567
+order = 1666
 uses = ["def-weil-pbc-injective-acyclicity", "def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-direct-image-preserves-injectives", "lem-weil-pbc-grothendieck-spectral-sequence", "lem-weil-pbc-underived-proper-exchange", "prop-weil-pbc-property-iff-acyclicity"]
 tags = ["latex:proposition"]
 +++

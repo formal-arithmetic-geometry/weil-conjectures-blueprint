@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-adjunction-equations-v1"
 kind = "lemma"
 title = "Naturality and triangle equations for the comparison adjunction"
-order = 1804
+order = 1903
 uses = ["def-weil-pbc-epsilon-unit-counit", "lemma-weil-pbc-epsilon-counit-representative-descent-v1", "lemma-weil-pbc-epsilon-geometric-morphism-construction-v1"]
 +++
 The displayed unit and counit are natural in coefficient sheaves and satisfy

@@ -2,7 +2,7 @@
 id = "rem-ptr-galois-categories-1"
 kind = "remark"
 title = "Pointer to the properties of [def-galois-categories]"
-order = 1943
+order = 2057
 uses = ["def-galois-categories", "lem-galois-geometric-fibre"]
 +++
 In the notation of [def-galois-categories], the following holds. the second is the set of commutative

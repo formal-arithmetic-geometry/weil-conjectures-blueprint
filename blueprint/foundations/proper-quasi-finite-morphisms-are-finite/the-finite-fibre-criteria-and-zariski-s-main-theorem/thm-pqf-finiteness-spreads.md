@@ -2,7 +2,7 @@
 id = "thm-pqf-finiteness-spreads"
 kind = "theorem"
 title = "Finiteness spreads out from a finite fibre; Stacks Lemma 30.21.2"
-order = 2022
+order = 2136
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-base-change", "pqf-def-locnoeth", "pqf-def-quasifinite", "pqf-lem-locqf-fibre-discrete", "pqf-lem-locqf-restrict", "pqf-lem-proper-basic", "pqf-lem-proper-closed-map", "pqf-lem-qf-finitefibres", "pqf-lem-qf-locqf-qc", "pqf-lem-qf-locus-open", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++
 Let $f:X\to S$ be a morphism of schemes and $s\in S$. Assume that $S$

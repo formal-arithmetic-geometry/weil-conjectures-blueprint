@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-stage-killing"
 kind = "lemma"
 title = "Finite-stage killing of a class"
-order = 1618
+order = 1717
 +++
 In an affine henselian pair, if a positive-degree class $c$ dies on an
 integral strictly-local cover $T_\infty\to T_0$ represented by a filtered

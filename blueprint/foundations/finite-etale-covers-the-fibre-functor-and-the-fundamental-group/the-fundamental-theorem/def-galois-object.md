@@ -2,7 +2,7 @@
 id = "def-galois-object"
 kind = "definition"
 title = "Galois covers"
-order = 1965
+order = 2079
 uses = ["def-galois-categories", "def-galois-fibre-functor"]
 +++
 Let $Y$ be connected with geometric point $\bar y$. A finite etale

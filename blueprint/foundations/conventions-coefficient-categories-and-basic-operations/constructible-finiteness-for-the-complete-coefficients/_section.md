@@ -2,7 +2,7 @@
 id = "constructible-finiteness-for-the-complete-coefficients"
 kind = "section"
 title = "Constructible finiteness for the complete coefficients"
-order = 1333
+order = 1339
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-etale-site", "def-weil-pbc-intrinsic-completion", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "def-weil-pbc-site-comparison-morphism", "lem-sp-finite-filtration-induction", "lem-weil-pbc-comparison-pullback", "lem-weil-pbc-flat-lfp-open", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-noetherian-finite-components", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-geometric-stalks-exact", "prop-weil-pbc-inverse-image-exact", "thm-sp-truncation-e2"]
 +++
 The complete proper base-change theorem of the previous section is cut down

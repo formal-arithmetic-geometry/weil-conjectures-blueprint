@@ -2,7 +2,7 @@
 id = "lemma-weil-sf-well-defined-def-weil-pbc-epsilon-direct-image-comparison"
 kind = "lemma"
 title = "Well-definedness certificate for def:weil-pbc-epsilon-direct-image-comparison"
-order = 1818
+order = 1917
 uses = ["def-weil-pbc-epsilon-direct-image-comparison", "lemma-weil-pbc-epsilon-adjunction-equations-v1", "lemma-weil-pbc-epsilon-inverse-image-exact", "lemma-weil-pbc-epsilon-scheme-naturality"]
 +++
 The construction in Definition [def-weil-pbc-epsilon-direct-image-comparison] is a typed raw datum. Its theorem-valued naturality, comparison, descent, or coherence fields are isolated in this property lemma.

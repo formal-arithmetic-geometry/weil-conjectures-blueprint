@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-proper-underived-exchange"
 kind = "lemma"
 title = "Underived proper exchange is an isomorphism"
-order = 1520
+order = 1619
 uses = ["def-weil-pbc-underived-exchange", "lemma-weil-pbc-proper-strict-henselian-h0", "lemma-weil-pbc-underived-exchange-naturality"]
 +++
 If $f$ is proper, then

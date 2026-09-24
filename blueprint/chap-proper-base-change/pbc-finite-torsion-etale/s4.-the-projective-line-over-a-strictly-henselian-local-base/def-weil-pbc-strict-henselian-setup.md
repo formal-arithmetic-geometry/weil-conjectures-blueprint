@@ -2,7 +2,7 @@
 id = "def-weil-pbc-strict-henselian-setup"
 kind = "definition"
 title = "Strictly henselian setup"
-order = 1609
+order = 1708
 +++
 Let $(A,\mathfrak m)$ be strictly henselian local, $S=\operatorname{Spec}A$,
 $s=\operatorname{Spec}(A/\mathfrak m)$, $X=\mathbf P^1_S$, and

@@ -2,7 +2,7 @@
 id = "etale-sheaves-along-a-complementary-open-closed-pair"
 kind = "section"
 title = "Étale sheaves along a complementary open–closed pair"
-order = 1438
+order = 1444
 +++
 The étale-site counterpart of the two preceding sections: the vanishing
 statements, the stalks of pullbacks and of closed pushforwards, and the full

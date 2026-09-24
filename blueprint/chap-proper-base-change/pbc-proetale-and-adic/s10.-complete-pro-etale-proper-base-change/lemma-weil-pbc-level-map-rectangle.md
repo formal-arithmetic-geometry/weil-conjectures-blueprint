@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-level-map-rectangle"
 kind = "lemma"
 title = "The finite-level exchange rectangle"
-order = 1885
+order = 1984
 uses = ["def-weil-pbc-level-map-arrows", "lemma-weil-pbc-projection-formula-base-change-naturality"]
 +++
 For every $n$, the diagram

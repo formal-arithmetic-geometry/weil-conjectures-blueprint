@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-spectral-restriction"
 kind = "lemma"
 title = "Restriction on a spectral space, for locally constant sheaves"
-order = 1224
+order = 1230
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++
 Let $T$ be spectral [def-weil-pbc-scheme-conventions] and $T_0\subset T$

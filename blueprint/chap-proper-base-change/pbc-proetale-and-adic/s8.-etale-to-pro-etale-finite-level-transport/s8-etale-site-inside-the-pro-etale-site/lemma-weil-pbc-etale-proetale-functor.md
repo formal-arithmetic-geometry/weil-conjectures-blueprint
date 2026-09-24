@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-etale-proetale-functor"
 kind = "lemma"
 title = "The etale/pro-etale assignment is a functor"
-order = 1766
+order = 1865
 uses = ["def-weil-pbc-etale-proetale-inclusion"]
 +++
 The assignment $\iota_X$ preserves identity morphisms and composition.

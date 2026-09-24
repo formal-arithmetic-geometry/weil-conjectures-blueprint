@@ -2,7 +2,7 @@
 id = "prop-weil-proet-finite-proper-base-change"
 kind = "theorem"
 title = "Finite-torsion proper base change"
-order = 1730
+order = 1829
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-derived-exchange", "lemma-weil-pbc-derived-exchange-coherence", "lemma-weil-pbc-torsion-assembly"]
 +++

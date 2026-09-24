@@ -2,7 +2,7 @@
 id = "the-segre-product-model-and-its-glued-proper-surjection"
 kind = "section"
 title = "The Segre product model and its glued proper surjection"
-order = 1586
+order = 1685
 uses = ["def-weil-pbc-chow-scheme-theoretic-closure", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-chow-affine-immersion-projective", "lem-weil-pbc-chow-closed-model-proper", "lem-weil-pbc-chow-dense-closure-reduction", "lem-weil-pbc-chow-generic-cover", "lem-weil-pbc-closed-immersion-products", "lem-weil-pbc-proper-closed-image", "lem-weil-pbc-proper-composition", "lem-weil-pbc-proper-immersion-closed", "lem-weil-pbc-proper-to-separated"]
 +++
 The construction of the Chow modification. The Segre embedding

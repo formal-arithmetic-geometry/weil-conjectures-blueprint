@@ -2,7 +2,7 @@
 id = "def-weil-pbc-frobenius-corner-structures"
 kind = "definition"
 title = "Weil structures on the four finite corners"
-order = 1890
+order = 1989
 uses = ["def-weil-pbc-frobenius-tower-datum"]
 +++
 For $E_n=L(g')^*K_n$, define

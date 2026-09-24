@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-perfect-projection-formula"
 kind = "lemma"
 title = "Perfect projection formula for reductions"
-order = 1862
+order = 1961
 uses = ["def-weil-pbc-complete-coefficient-datum", "lemma-weil-pbc-projection-formula-base-change-naturality", "lemma-weil-pbc-projection-formula-identity-compactification", "lemma-weil-pbc-projection-formula-totalization", "lemma-weil-pbc-projection-formula-tower-compatibility"]
 +++
 For every $n$ there is a natural isomorphism

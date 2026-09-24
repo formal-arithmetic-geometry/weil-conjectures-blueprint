@@ -2,7 +2,7 @@
 id = "def-weil-pbc-epsilon-factorization-index-v1"
 kind = "definition"
 title = "Etale factorization index for a pro-etale object"
-order = 1771
+order = 1870
 uses = ["def-weil-pbc-epsilon-comparison"]
 +++
 For a pro-etale object $W\to X$, let $I_W$ be the category whose objects are

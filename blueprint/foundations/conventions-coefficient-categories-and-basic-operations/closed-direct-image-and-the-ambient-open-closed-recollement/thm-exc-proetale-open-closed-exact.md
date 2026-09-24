@@ -2,7 +2,7 @@
 id = "thm-exc-proetale-open-closed-exact"
 kind = "theorem"
 title = "The ambient open-closed short exact sequence"
-order = 1435
+order = 1441
 uses = ["def-weil-extension-by-zero", "def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "lem-exc-closed-restriction-extension-zero", "lem-exc-proetale-closed-essential-image", "lem-exc-proetale-open-unit", "lem-weil-extension-by-zero-adjunction", "prop-weil-pbc-proetale-constant-exact"]
 +++
 Let $i:Z\hookrightarrow X$ be a closed immersion with quasi-compact

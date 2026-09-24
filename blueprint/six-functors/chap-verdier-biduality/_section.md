@@ -1,0 +1,7 @@
++++
+id = "chap-verdier-biduality"
+kind = "section"
+title = "The coefficient pairing and Verdier biduality"
+order = 3459
+uses = ["cor-amb-affine-space-adjunction", "def-sf-orientation", "def-weil-completed-integral-coefficients", "def-weil-derived-complete", "def-weil-derived-complete-integral-detailed", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-integral-rational-qbar-compact-support", "def-weil-open-closed-recollement", "def-weil-pbc-derived-inverse-limit", "def-weil-site-perfect-complex", "lem-amb-etale-adjoint-locality", "lem-amb-proper-coproducts-projection", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "lem-exc-closed-support-triangle", "lem-exc-residue-tor-test", "lem-fin-coordinate-generic-dimension", "lem-fix-compact-support-coefficient-change", "lem-sf-comparison-tor-amplitude", "lem-sf-etale-direct-image-vanishing", "lem-sf-projection-finite-constant", "lem-weil-pbc-derived-cohomology-continuity", "prop-asd-internal-adjunction", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-roos-triangle", "sbc-thm-bounded-below-derived-smooth-base-change", "thm-amb-etale-exceptional-adjoint", "thm-asd-smooth-tensor", "thm-cbc-finite-level-proetale", "thm-dg-finite-type-constructibility", "thm-nagata-compactification", "thm-sf-direct-image-tor-amplitude", "thm-sp-truncation-e2", "thm-weil-pbc-universal-homeomorphism-invariance"]
++++

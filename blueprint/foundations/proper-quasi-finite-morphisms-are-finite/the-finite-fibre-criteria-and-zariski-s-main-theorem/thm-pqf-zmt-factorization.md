@@ -2,7 +2,7 @@
 id = "thm-pqf-zmt-factorization"
 kind = "theorem"
 title = "Zariski's main theorem: the quasi-finite factorization"
-order = 2023
+order = 2137
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-quasifinite", "thm-pqf-immersion-descent"]
 +++
 Let $f:X\to S$ be a

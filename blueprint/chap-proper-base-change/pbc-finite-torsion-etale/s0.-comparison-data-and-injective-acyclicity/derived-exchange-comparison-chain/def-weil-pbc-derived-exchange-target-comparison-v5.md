@@ -2,7 +2,7 @@
 id = "def-weil-pbc-derived-exchange-target-comparison-v5"
 kind = "definition"
 title = "Target-replacement comparison problem"
-order = 1527
+order = 1626
 uses = ["def-weil-pbc-derived-exchange-presentation-v5"]
 +++
 For two target replacements $q:A\to J$ and $q':A\to J'$ with $J,J'$

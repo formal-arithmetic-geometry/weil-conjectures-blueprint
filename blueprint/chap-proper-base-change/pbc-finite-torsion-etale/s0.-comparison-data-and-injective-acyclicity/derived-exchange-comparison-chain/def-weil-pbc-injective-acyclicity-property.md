@@ -2,7 +2,7 @@
 id = "def-weil-pbc-injective-acyclicity-property"
 kind = "definition"
 title = "Injective-acyclicity property"
-order = 1540
+order = 1639
 uses = ["def-weil-pbc-cartesian-square"]
 +++
 For a proper $f:X\to Y$, define $\mathsf{IA}(f)$ to mean: for every prime

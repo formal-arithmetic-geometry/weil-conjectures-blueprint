@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-adjunction-hom-source-naturality"
 kind = "lemma"
 title = "Source naturality of the comparison Hom correspondence"
-order = 1780
+order = 1879
 uses = ["def-weil-efi-site-adjunction-hom-forward"]
 +++
 For $u:F'\to F$ and $\alpha:\epsilon_X^{-1}F\to G$,

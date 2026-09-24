@@ -2,7 +2,7 @@
 id = "def-weil-pbc-completed-base-change-map-detailed"
 kind = "definition"
 title = "Completed base-change map"
-order = 1917
+order = 2016
 uses = ["def-weil-pbc-completed-pullback-detailed", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-projection-formula-map"]
 +++
 Assume that every $K_n$ carries a specified etale-origin witness

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-proper-surjective-isomorphism"
 kind = "lemma"
 title = "Properness and surjectivity of the glued morphism"
-order = 1593
+order = 1692
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-chow-fibres-proper-over-cover", "lem-weil-pbc-chow-product-image-model", "lem-weil-pbc-chow-projection-gluing", "lem-weil-pbc-chow-segre-closed-immersion", "lem-weil-pbc-proper-closed-image", "lem-weil-pbc-proper-composition", "lem-weil-pbc-proper-immersion-closed"]
 +++
 In the situation of [lem-weil-pbc-chow-projection-gluing], the morphism

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-completed-base-change-map"
 kind = "definition"
 title = "Completed base-change map"
-order = 1896
+order = 1995
 uses = ["def-weil-pbc-completed-pullback"]
 +++
 Let $K$ be derived complete and let every $K_n$ have a displayed witness

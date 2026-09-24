@@ -2,7 +2,7 @@
 id = "def-weil-scheme-morphism-properties"
 kind = "definition"
 title = "Scheme and morphism properties"
-order = 1299
+order = 1305
 uses = ["def-weil-finite-type-morphism"]
 +++
 Let $f:X\to Y$ be a morphism. Write $|Y|$ for the set of closed points of

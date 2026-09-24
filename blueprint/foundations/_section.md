@@ -9,7 +9,7 @@ blueprint. Nothing here is a geometric input to the Weil conjectures; it is
 the vocabulary in which the later parts are written, collected in one place so
 that no statement downstream rests on an unstated convention.
 
-Seven chapters, in the order in which they are used — the order is a
+Eight chapters, in the order in which they are used — the order is a
 topological order of the chapter dependency graph, so every chapter stands
 after everything it cites. It is not the source's chapter order: the ambient
 site chapter stands before the coefficient chapter, because the coefficient
@@ -43,6 +43,11 @@ downstream.
 - [proper-quasi-finite-morphisms-are-finite] (chapter 8 of the source) proves
 that proper quasi-finite morphisms are finite, and Zariski's main theorem in
 its quasi-finite form.
+- [curves] (the first two chapters of Part 3 of the source) is the language of
+curves the algebraic-group, abelian-variety, Picard and curve-estimate
+material is written in: curves and their constants, the Kummer sequence,
+Tsen's theorem, divisors and the Picard functor, Riemann--Roch, duality on
+curves, and the Brauer group of a curve.
 
 The dependency graph of the part is acyclic at chapter level and at section
 level: the conventions chapter cites the Karoubi chapter, the Weil-structure
@@ -63,13 +68,21 @@ base-change half.
 Reading order is a topological order of the whole `uses` graph: no object in
 the part cites anything that comes after it.
 
-The last two chapters cite only the ambient-site and spectral-sequence
-chapters, and nothing in the part cites them, so they stand last. Two
+Chapters 7 and 8 cite only the ambient-site and spectral-sequence
+chapters; [curves] cites them and the conventions, and nothing in the part
+cites [curves], so it stands last. Two
 general statements they need were filed in [chap-proper-base-change], where
 they were first used, and are moved here to keep the part self-contained:
 [def-weil-pbc-finite-torsors] to [etale-site-ambient-categories] and
 [lem-weil-pbc-surjective-nonempty-fibres] to
-[standard-closure-properties-of-morphisms].
+[standard-closure-properties-of-morphisms]. Two more, needed by the curve
+estimates, moved to [direct-and-inverse-image-and-the-exchange-morphism]:
+[lem-weil-pbc-finite-stalk-formula] and
+[lem-weil-pbc-finite-direct-image-exact]; and four, from the Künneth chapter
+and cited by [cohomological-dimension] as well, moved there too: the torsion
+cohomological dimension [def-kun-cd] and its vanishing at a separably closed
+point [lem-kun-cd-sep-closed-point], with [def-kun-separably-closed] and
+[lem-kun-03qu-sep-closed].
 
 One circular proof in the source was repaired rather than refiled.
 [thm-sp-if-e1] and [lem-sp-kinjective-computes] cited each other, because the
@@ -80,15 +93,21 @@ K-injectivity alone, and the theorem from the lemma.
 
 The part is self-contained: every `uses` edge recorded inside it resolves
 inside it, so this section cites nothing beyond itself and carries no `uses`
-list. The references that point outside it — to the six-functor interfaces, to
-coefficient biduality, to smooth purity, and to the later proper-base-change
-statements — are consumed, not proved, here; they are listed at the end of the
-body of the object that names them, under *Unresolved dependencies*, and will
-become edges when the corresponding parts are imported. One of them never can:
-`prop:compactification-coherence` is now
-[prop-compactification-coherence-detailed] in [six-functors], but its proof
-rests on proper base change, which rests on this part, so an edge to it would
-be a cycle; see [the-isomorphism-j-2-k-to-ru-j-1-k-and-its-base-change].
+list. Nothing in it cites a later part either. The source files some
+statements here that need later results; those moved out to where their inputs
+are available:
+
+- the compact-support direct image $Rf_!$, its coefficient stages, the
+ambient exceptional adjoint, the exceptional inverse image and the
+exchange-projection map, which need the compactification coherence
+[prop-compactification-coherence-detailed], together with the Weil-structure
+definitions on compactly supported cohomology built on them (local Frobenius
+traces, the global geometric Frobenius, the Poincare trace and cup product,
+weights), are in [compact-support-operations];
+- the smooth-proper cohomological family and its reciprocal roots, which need
+[prop-cohomological-finiteness], are in [direct-image-finiteness];
+- the remark on how exceptional-adjoint admissibility is discharged, which
+cites the results that discharge it, is in [verdier-biduality].
 
 Fifteen identifiers of this part already name objects imported earlier from
 the sketch sources, which read the same notions at a coarser grain. Those
@@ -108,5 +127,8 @@ carry the suffix `-detailed` here so that the two readings coexist:
 [def-weil-pbc-completed-pullback-detailed], and the section
 [triangulated-coefficient-categories-detailed].
 
-Nothing in this part is formalised yet, so no object carries a `lean`
-attribute.
+Few objects of this part carry a `lean` attribute: the point-count
+definition [def-weil-point-counts-zeta], the étale open--closed lemmas of
+[etale-sheaves-along-a-complementary-open-closed-pair], and the formalized
+account of constructible étale sheaves [constructible-sheaves-formalized],
+which the detailed route does not cite.

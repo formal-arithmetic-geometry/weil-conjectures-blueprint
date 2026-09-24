@@ -1,0 +1,7 @@
++++
+id = "sec-constructible-pullback"
+kind = "section"
+title = "Pullback stability"
+order = 1465
+uses = ["def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "lemma-constructible-pullback-constant", "lemma-openclosed-stalk-upperstar"]
++++

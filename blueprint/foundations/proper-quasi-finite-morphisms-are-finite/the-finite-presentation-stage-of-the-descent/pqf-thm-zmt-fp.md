@@ -2,7 +2,7 @@
 id = "pqf-thm-zmt-fp"
 kind = "theorem"
 title = "Zariski's main theorem: the finite-presentation refinement"
-order = 2026
+order = 2140
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-quasifinite", "pqf-lem-limit-iso-descends", "pqf-lem-limit-qc-open-descends", "thm-pqf-immersion-descent", "thm-pqf-zmt-factorization"]
 +++
 Let $f:X\to S$ be a

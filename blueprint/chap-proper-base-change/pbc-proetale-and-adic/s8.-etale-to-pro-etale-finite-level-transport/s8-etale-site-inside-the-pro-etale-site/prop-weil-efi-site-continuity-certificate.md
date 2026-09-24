@@ -2,7 +2,7 @@
 id = "prop-weil-efi-site-continuity-certificate"
 kind = "theorem"
 title = "Continuity certificate for the site inclusion"
-order = 1765
+order = 1864
 tags = ["latex:proposition"]
 uses = ["def-weil-efi-site-continuity-certificate", "lemma-weil-efi-site-covering-sieve-image", "lemma-weil-efi-site-covering-sieve-pullback"]
 +++

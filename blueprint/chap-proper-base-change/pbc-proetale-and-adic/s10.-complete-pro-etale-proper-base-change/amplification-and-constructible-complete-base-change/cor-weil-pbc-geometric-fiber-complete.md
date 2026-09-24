@@ -2,7 +2,7 @@
 id = "cor-weil-pbc-geometric-fiber-complete"
 kind = "theorem"
 title = "Complete-adic geometric-fiber formula"
-order = 1930
+order = 2029
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-etale-origin-witness", "lem-weil-pbc-completed-map-reduction", "thm-weil-pbc-complete-proetale"]
 tags = ["latex:corollary"]
 +++

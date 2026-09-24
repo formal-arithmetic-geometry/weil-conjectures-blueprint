@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-unit-restriction"
 kind = "lemma"
 title = "Restriction equation for the comparison unit"
-order = 1796
+order = 1895
 uses = ["def-weil-pbc-epsilon-unit-counit"]
 +++
 For an etale arrow $b:U'\to U$, restriction carries

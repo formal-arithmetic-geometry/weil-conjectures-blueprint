@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-smooth-curve-artin-schreier"
 kind = "lemma"
 title = "Smooth characteristic-$p$ Artin–Schreier calculation"
-order = 1686
+order = 1785
 uses = ["def-weil-pbc-eight-curve-assertions"]
 +++
 Let $k$ be algebraically closed of characteristic $p>0$ and let $C$ be a

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-exact-couple-abutment"
 kind = "lemma"
 title = "Abutment identification"
-order = 1747
+order = 1846
 uses = ["def-sp-convergence", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-hypercohomology-filtrations-detailed", "def-weil-pbc-truncation-exact-couples-detailed", "lem-sp-couple-morphism", "thm-sp-half-plane-convergence"]
 +++
 In total degree $n$, the map on the abutments of the spectral sequences of

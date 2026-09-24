@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-refinement-etale-cover"
 kind = "lemma"
 title = "Finite refinement of a surjective etale morphism"
-order = 1518
+order = 1617
 +++
 Let $U\to T$ be surjective and etale, with $T$ quasi-compact and
 quasi-separated. There is a finite, finitely presented, surjective morphism

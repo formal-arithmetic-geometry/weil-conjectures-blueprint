@@ -2,7 +2,7 @@
 id = "def-weil-pbc-hypercohomology-filtrations"
 kind = "definition"
 title = "Hypercohomology filtrations"
-order = 1735
+order = 1834
 uses = ["def-weil-pbc-derived-exchange"]
 +++
 Let $K\in D^+(X_{\mathrm{et}})$ have torsion cohomology sheaves and choose

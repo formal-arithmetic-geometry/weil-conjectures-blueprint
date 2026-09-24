@@ -2,7 +2,7 @@
 id = "pqf-def-quasifinite"
 kind = "definition"
 title = "Quasi-finite morphisms and finite fibres"
-order = 1979
+order = 2093
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $f:X\to S$ be a morphism of schemes.

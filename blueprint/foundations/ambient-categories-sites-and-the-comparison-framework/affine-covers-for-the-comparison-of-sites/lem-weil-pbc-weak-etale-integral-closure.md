@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-weak-etale-integral-closure"
 kind = "lemma"
 title = "Integral closure after weakly etale base change"
-order = 1232
+order = 1238
 uses = ["def-weil-pbc-ind-etale-algebra", "lem-weil-pbc-ind-etale-stability", "lem-weil-pbc-weak-etale-tor"]
 +++
 Let $A$ be an integrally closed domain with fraction field $K$, and let $B/A$

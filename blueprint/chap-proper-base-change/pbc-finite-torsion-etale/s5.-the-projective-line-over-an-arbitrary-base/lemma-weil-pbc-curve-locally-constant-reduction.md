@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-curve-locally-constant-reduction"
 kind = "lemma"
 title = "Locally constant sheaf reduction"
-order = 1681
+order = 1780
 uses = ["lemma-weil-pbc-finite-exchange", "lemma-weil-pbc-finite-l-group-filtration"]
 +++
 For irreducible $U$ and finite locally constant $G$ of

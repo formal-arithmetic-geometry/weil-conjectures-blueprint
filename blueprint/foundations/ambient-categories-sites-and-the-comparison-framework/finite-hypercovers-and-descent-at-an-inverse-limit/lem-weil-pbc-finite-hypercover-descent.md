@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-hypercover-descent"
 kind = "lemma"
 title = "Finite hypercover skeleta descend"
-order = 1218
+order = 1224
 uses = ["def-weil-pbc-finite-split-hypercover", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-etale-finite-data-descent"]
 +++
 Let $(X_i)$ be a cofiltered inverse system of quasi-compact quasi-separated

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-affine-neighbourhood-cofinal"
 kind = "lemma"
 title = "Affine neighborhoods are cofinal"
-order = 1209
+order = 1215
 uses = ["def-weil-pbc-pointed-etale-neighbourhoods-detailed", "def-weil-pbc-scheme-conventions"]
 +++
 The full subcategory of affine [def-weil-pbc-scheme-conventions] pointed

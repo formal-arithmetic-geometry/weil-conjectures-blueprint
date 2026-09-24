@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-direct-image"
 kind = "lemma"
 title = "Comparison direct-image transport"
-order = 1823
+order = 1922
 uses = ["def-weil-pbc-epsilon-direct-image-comparison", "lemma-weil-pbc-epsilon-direct-image-constructible-bounds", "lemma-weil-pbc-epsilon-direct-image-higher-sheaves", "lemma-weil-pbc-epsilon-direct-image-naturality", "lemma-weil-pbc-hypercohomology-convergence"]
 +++
 Let $A$ be finite, let $f:X\to Y$ be quasi-compact and quasi-separated, and

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-constructible-approximation"
 kind = "lemma"
 title = "Constructible approximation of one class"
-order = 1637
+order = 1736
 uses = ["def-weil-pbc-constructible-complexes", "lem-weil-pbc-finite-stage-killing"]
 +++
 Under the hypotheses of [lem-weil-pbc-finite-stage-killing], a cocycle

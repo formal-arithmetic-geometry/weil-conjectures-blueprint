@@ -2,7 +2,7 @@
 id = "def-galois-categories"
 kind = "definition"
 title = "Finite etale covers and finite locally constant sheaves"
-order = 1940
+order = 2054
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-finite-torsors", "def-weil-pbc-scheme-conventions"]
 +++
 Let $Y$ be a scheme with a geometric point $\bar y\to Y$. Write

@@ -2,7 +2,7 @@
 id = "spreading-out-chow-s-theorem-and-the-embedding-over-the-source"
 kind = "section"
 title = "Spreading out, Chow's theorem and the embedding over the source"
-order = 1595
+order = 1694
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-immersion-closed", "lem-weil-pbc-proper-to-separated"]
 +++
 The Segre construction of the previous section is carried out over a

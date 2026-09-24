@@ -2,7 +2,7 @@
 id = "lemma-openclosed-stalk-upperstar"
 kind = "lemma"
 title = "Stalks of a pullback"
-order = 1443
+order = 1449
 lean = ["AlgebraicGeometry.Etale.upperStarCompSheafFiberIso", "AlgebraicGeometry.Etale.upperStarCompUliftSheafFiberIso"]
 +++
 Let $f\colon Y\to X$ be a morphism of schemes, let $\bar y$ be a geometric

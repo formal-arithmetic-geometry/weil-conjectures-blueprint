@@ -2,7 +2,7 @@
 id = "thm-galois-fundamental"
 kind = "theorem"
 title = "The fibre functor is an equivalence"
-order = 1964
+order = 2078
 uses = ["def-galois-fibre-functor", "lem-fet-galois-category", "lem-galois-aut-profinite", "lem-galois-transitive", "thm-galois-abstract-equivalence", "thm-galois-lc-etale"]
 +++
 Let $Y$ be connected with a geometric point $\bar y\to Y$. Then the

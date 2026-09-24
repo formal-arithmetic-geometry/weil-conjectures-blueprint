@@ -2,8 +2,7 @@
 id = "trace-and-cup-product-conventions"
 kind = "section"
 title = "Trace and cup-product conventions"
-order = 1459
-uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-ordinary-compact-cohomology"]
+order = 1499
 +++
 The Poincare duality data, fixed as a convention rather than proved here: an
 orientation isomorphism $\eta_X:Ra_X^!\Ql\xrightarrow{\sim}(\Ql)_X(d)[2d]$

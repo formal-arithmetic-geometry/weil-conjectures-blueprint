@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-reduction-projective-space"
 kind = "lemma"
 title = "Reduction of projective space to products of lines"
-order = 1606
+order = 1705
 uses = ["def-weil-pbc-property-detailed", "def-weil-pbc-symmetric-product-morphism", "lem-weil-pbc-symmetric-product-finite", "lem-weil-pbc-symmetric-product-surjective", "prop-weil-pbc-cancellation", "prop-weil-pbc-composition-stability", "prop-weil-pbc-finite-morphisms"]
 +++
 Assume that for every scheme $S$ the projection $\mathbf P^1_S\to S$ satisfies

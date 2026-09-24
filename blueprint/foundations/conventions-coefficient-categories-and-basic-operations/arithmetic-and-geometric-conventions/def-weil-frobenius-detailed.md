@@ -2,7 +2,7 @@
 id = "def-weil-frobenius-detailed"
 kind = "definition"
 title = "Arithmetic and geometric Frobenius"
-order = 1301
+order = 1307
 uses = ["def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 For the global finite-field datum [def-weil-finite-field-fiber], the

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-fibre-product-limit"
 kind = "lemma"
 title = "Base change commutes with the neighbourhood limit"
-order = 1667
+order = 1766
 uses = ["def-weil-pbc-strict-henselization-limit"]
 +++
 For a quasi-compact and quasi-separated $f:X\to S$,

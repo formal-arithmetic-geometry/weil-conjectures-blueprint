@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-curve-filtered-cohomology"
 kind = "lemma"
 title = "Filtered cohomology on a curve"
-order = 1711
+order = 1810
 uses = ["def-weil-pbc-eight-curve-assertions-detailed", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-cohomology-filtered-colimit"]
 +++
 For a quasi-compact quasi-separated curve $C$ and a filtered system of torsion

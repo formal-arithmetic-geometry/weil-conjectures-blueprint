@@ -2,7 +2,7 @@
 id = "proper-quasi-finite-morphisms-are-finite"
 kind = "section"
 title = "Proper quasi-finite morphisms are finite"
-order = 1976
+order = 2090
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-proper", "lem-weil-pbc-proper-base-change", "lem-weil-pbc-proper-closed-image", "lem-weil-pbc-proper-to-separated", "lem-weil-pbc-surjective-nonempty-fibres", "thm-sp-grothendieck"]
 +++
 Chapter 8 of `weil_conjectures_detailed.tex`: a proper quasi-finite morphism

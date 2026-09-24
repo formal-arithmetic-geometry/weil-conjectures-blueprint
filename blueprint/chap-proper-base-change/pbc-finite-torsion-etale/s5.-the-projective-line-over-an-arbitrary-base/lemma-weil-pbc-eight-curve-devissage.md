@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-eight-curve-devissage"
 kind = "lemma"
 title = "Short-exact devissage for the eight assertions"
-order = 1677
+order = 1776
 uses = ["def-weil-pbc-eight-curve-assertions"]
 +++
 Let

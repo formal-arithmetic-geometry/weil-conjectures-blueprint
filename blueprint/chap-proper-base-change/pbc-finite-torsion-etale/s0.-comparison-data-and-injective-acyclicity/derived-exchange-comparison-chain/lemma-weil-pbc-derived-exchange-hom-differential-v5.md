@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-derived-exchange-hom-differential-v5"
 kind = "lemma"
 title = "The Hom differential squares to zero"
-order = 1525
+order = 1624
 uses = ["def-weil-pbc-derived-exchange-hom-test-v5"]
 +++
 The displayed Hom differential satisfies $d^2=0$.

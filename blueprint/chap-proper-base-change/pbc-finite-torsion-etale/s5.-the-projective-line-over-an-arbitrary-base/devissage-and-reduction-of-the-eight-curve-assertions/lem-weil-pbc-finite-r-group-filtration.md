@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-r-group-filtration"
 kind = "lemma"
 title = "Finite $r$-group filtration"
-order = 1715
+order = 1814
 +++
 Let $H$ be a finite $r$-group and let $V$ be a nonzero finite-dimensional
 $\mathbf F_r[H]$-module. Then $V^H\neq0$, and $V$ has an $H$-stable finite

@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-projective-line-detailed"
 kind = "theorem"
 title = "Projective-line proper base change"
-order = 1726
+order = 1825
 uses = ["def-weil-pbc-injective-acyclicity", "def-weil-pbc-property-detailed", "lem-weil-pbc-exchange-geometric-stalk", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-property-iff-acyclicity", "prop-weil-pbc-separably-closed-extension"]
 tags = ["latex:proposition"]
 +++

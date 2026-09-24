@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-pushout-monomorphism"
 kind = "lemma"
 title = "Pushout monomorphism"
-order = 1638
+order = 1737
 uses = ["def-weil-pbc-etale-sheaves"]
 +++
 If $A\hookrightarrow B$ and $A\hookrightarrow C$ are monomorphisms of etale

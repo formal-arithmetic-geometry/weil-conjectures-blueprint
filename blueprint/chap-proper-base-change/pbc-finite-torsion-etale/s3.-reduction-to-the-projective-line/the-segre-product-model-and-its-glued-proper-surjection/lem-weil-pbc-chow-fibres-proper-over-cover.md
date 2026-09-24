@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-fibres-proper-over-cover"
 kind = "lemma"
 title = "The fibres of the glued morphism"
-order = 1592
+order = 1691
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-chow-product-image-model", "lem-weil-pbc-chow-projection-gluing"]
 +++
 In the situation of [lem-weil-pbc-chow-projection-gluing],

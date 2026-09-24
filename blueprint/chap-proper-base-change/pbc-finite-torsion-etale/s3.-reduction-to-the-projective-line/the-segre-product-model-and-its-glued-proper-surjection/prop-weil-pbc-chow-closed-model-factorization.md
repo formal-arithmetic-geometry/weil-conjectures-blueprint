@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-chow-closed-model-factorization"
 kind = "theorem"
 title = "Closed model and factorization of the glued morphism"
-order = 1594
+order = 1693
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-chow-product-image-model", "lem-weil-pbc-chow-proper-surjective-isomorphism", "lem-weil-pbc-chow-segre-closed-immersion", "lem-weil-pbc-closed-immersion-products", "lem-weil-pbc-proper-composition", "lem-weil-pbc-proper-immersion-closed", "lem-weil-pbc-proper-to-separated"]
 tags = ["latex:proposition"]
 +++

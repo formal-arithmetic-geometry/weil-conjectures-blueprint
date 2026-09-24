@@ -2,7 +2,7 @@
 id = "def-weil-pbc-geometric-fibre"
 kind = "definition"
 title = "Geometric fibre of a finite morphism"
-order = 1549
+order = 1648
 lean = ["AlgebraicGeometry.Scheme.Hom.GeometricFiber"]
 +++
 Let $h:W\to V$ be a morphism and let $\bar v:\operatorname{Spec}\Omega\to V$ be a

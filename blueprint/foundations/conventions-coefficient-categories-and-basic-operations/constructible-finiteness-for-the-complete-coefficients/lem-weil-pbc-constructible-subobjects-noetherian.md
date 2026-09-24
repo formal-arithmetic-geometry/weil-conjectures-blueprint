@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-constructible-subobjects-noetherian"
 kind = "lemma"
 title = "Subsheaves of a constructible sheaf on a Noetherian scheme"
-order = 1337
+order = 1343
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-site", "lem-weil-pbc-flat-lfp-open", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-noetherian-finite-components", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $T$ be Noetherian and $\Lambda$ a finite commutative ring. Every

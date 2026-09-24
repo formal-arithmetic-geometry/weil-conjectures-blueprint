@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-smooth-curve-kummer-localization"
 kind = "lemma"
 title = "Smooth prime-to-characteristic curve calculation"
-order = 1685
+order = 1784
 uses = ["def-weil-pbc-eight-curve-assertions"]
 +++
 Let $k$ be algebraically closed, let $C$ be a smooth separated finite-type

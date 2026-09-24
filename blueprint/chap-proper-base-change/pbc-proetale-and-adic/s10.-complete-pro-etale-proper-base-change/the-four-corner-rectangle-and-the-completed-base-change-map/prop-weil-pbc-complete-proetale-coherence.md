@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-complete-proetale-coherence"
 kind = "theorem"
 title = "Coherence of the complete pro-etale exchange"
-order = 1921
+order = 2020
 uses = ["def-weil-pbc-completed-base-change-map-detailed", "thm-weil-pbc-complete-proetale", "thm-weil-pbc-finite-level-proetale"]
 tags = ["latex:proposition"]
 +++

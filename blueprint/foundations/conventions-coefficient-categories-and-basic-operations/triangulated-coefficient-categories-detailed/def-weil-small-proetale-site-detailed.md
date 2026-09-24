@@ -2,7 +2,7 @@
 id = "def-weil-small-proetale-site-detailed"
 kind = "definition"
 title = "Small pro-etale site"
-order = 1305
+order = 1311
 uses = ["def-weil-abstract-derived-category", "def-weil-scheme-morphism-properties", "def-weil-size-convention"]
 +++
 Fix a scheme $Y$. Choose Grothendieck universes $\mathcal U\in\mathcal V$ and

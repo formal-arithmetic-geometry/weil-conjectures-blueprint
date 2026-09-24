@@ -2,7 +2,7 @@
 id = "def-weil-efi-site-inclusion-functor-certificate"
 kind = "definition"
 title = "Functor-law certificate for the site assignment"
-order = 1758
+order = 1857
 uses = ["def-weil-pbc-etale-proetale-inclusion"]
 +++
 Let $\mathsf{FunctorLaw}(\iota_X)$ be the conjunction of the identity equation

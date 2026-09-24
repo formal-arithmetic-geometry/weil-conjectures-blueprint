@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-product-image-model"
 kind = "lemma"
 title = "The diagonal model and its projections"
-order = 1589
+order = 1688
 uses = ["def-weil-pbc-chow-scheme-theoretic-closure", "def-weil-pbc-chow-segre-embedding", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-chow-affine-immersion-projective", "lem-weil-pbc-chow-closed-model-proper", "lem-weil-pbc-chow-dense-closure-reduction", "lem-weil-pbc-chow-generic-cover", "lem-weil-pbc-chow-segre-closed-immersion", "lem-weil-pbc-closed-immersion-products"]
 +++
 Let $Y=\operatorname{Spec}A$ be affine, let $X\to Y$ be of finite type, and

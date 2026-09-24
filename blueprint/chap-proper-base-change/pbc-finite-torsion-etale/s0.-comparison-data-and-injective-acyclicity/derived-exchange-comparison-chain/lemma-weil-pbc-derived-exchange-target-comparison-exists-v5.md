@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-derived-exchange-target-comparison-exists-v5"
 kind = "lemma"
 title = "Target-replacement comparisons exist"
-order = 1528
+order = 1627
 uses = ["def-weil-pbc-derived-exchange-hom-test-v5", "def-weil-pbc-derived-exchange-target-comparison-v5"]
 +++
 Every target-replacement comparison problem has a comparison.

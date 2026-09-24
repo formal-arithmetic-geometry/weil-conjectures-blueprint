@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-triangle-identities"
 kind = "lemma"
 title = "Triangle identities for the comparison adjunction"
-order = 1807
+order = 1906
 uses = ["def-weil-pbc-epsilon-unit-counit", "lemma-weil-pbc-epsilon-unit-counit-naturality"]
 +++
 The unit and counit satisfy

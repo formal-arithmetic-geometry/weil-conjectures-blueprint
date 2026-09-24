@@ -2,7 +2,7 @@
 id = "def-weil-pbc-adic-operator-base-change-datum"
 kind = "definition"
 title = "Adic operator and base-change datum"
-order = 1847
+order = 1946
 uses = ["def-weil-pbc-completed-pullback"]
 +++
 Let $g:Y'\to Y$, let $K$ be on $Y_{\mathrm{proet}}$, and let $L$ be on

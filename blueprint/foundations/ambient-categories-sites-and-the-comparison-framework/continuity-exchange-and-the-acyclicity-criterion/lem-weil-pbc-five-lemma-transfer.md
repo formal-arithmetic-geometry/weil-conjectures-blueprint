@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-five-lemma-transfer"
 kind = "lemma"
 title = "Five-lemma transfer for exchange"
-order = 1270
+order = 1276
 uses = ["def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-derived-exchange-replacement"]
 +++
 For a short exact sequence $0\to F_1\to F\to F_2\to0$ of torsion sheaves

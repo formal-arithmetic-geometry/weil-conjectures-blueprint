@@ -2,7 +2,7 @@
 id = "lem-exc-closed-site-lift-coverings"
 kind = "lemma"
 title = "Lifted closed-site coverings"
-order = 1424
+order = 1430
 uses = ["def-exc-closed-site-lift", "def-weil-pbc-proetale-site", "lem-exc-closed-lift-jacobson", "lem-exc-closed-lift-reduction", "lem-weil-pbc-ind-etale-stability"]
 +++
 The functor $v$ of [def-exc-closed-site-lift] sends finite basis coverings

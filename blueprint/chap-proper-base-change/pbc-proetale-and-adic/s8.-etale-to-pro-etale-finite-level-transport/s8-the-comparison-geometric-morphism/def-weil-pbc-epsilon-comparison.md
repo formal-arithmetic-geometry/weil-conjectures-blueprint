@@ -2,7 +2,7 @@
 id = "def-weil-pbc-epsilon-comparison"
 kind = "definition"
 title = "Etale/pro-etale comparison morphism"
-order = 1770
+order = 1869
 +++
 The continuous left-exact functor $\iota_X$ induces the geometric morphism
 

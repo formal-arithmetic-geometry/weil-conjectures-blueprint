@@ -2,7 +2,7 @@
 id = "cor-pqf-proper-quasifinite-finite"
 kind = "theorem"
 title = "Proper quasi-finite morphisms are finite"
-order = 2017
+order = 2131
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-locnoeth", "pqf-def-quasifinite", "pqf-lem-qf-finitefibres", "thm-pqf-finite-iff-proper-finite-fibres"]
 tags = ["latex:corollary"]
 +++

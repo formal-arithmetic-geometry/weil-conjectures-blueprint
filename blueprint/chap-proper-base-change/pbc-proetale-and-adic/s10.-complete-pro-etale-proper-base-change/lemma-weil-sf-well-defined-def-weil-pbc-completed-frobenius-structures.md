@@ -2,7 +2,7 @@
 id = "lemma-weil-sf-well-defined-def-weil-pbc-completed-frobenius-structures"
 kind = "lemma"
 title = "Well-definedness certificate for def:weil-pbc-completed-frobenius-structures"
-order = 1899
+order = 1998
 uses = ["def-weil-pbc-completed-frobenius-structures", "lemma-weil-pbc-frobenius-product-cone-limit", "lemma-weil-sf-well-defined-def-weil-pbc-completed-base-change-map"]
 +++
 The pair $(\Theta_S,\Theta_T)$ belongs to

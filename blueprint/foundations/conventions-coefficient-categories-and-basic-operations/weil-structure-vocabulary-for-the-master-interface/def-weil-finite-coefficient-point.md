@@ -2,7 +2,7 @@
 id = "def-weil-finite-coefficient-point"
 kind = "definition"
 title = "Finite coefficient categories over a point"
-order = 1408
+order = 1414
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility"]
 +++
 Fix the global finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$,

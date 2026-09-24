@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-p1-cohomology-comparison"
 kind = "theorem"
 title = "Cohomology comparison on the projective line"
-order = 1660
+order = 1759
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-strict-henselian-p1-setup", "lem-weil-pbc-etale-degree-zero", "prop-weil-pbc-p1-acyclicity"]
 tags = ["latex:proposition"]
 +++

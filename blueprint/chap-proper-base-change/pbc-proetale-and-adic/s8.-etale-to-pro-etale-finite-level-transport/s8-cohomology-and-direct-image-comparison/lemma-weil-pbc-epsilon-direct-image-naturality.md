@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-epsilon-direct-image-naturality"
 kind = "lemma"
 title = "Naturality of direct-image comparison"
-order = 1822
+order = 1921
 uses = ["def-weil-pbc-epsilon-direct-image-comparison", "lemma-weil-pbc-epsilon-scheme-naturality", "lemma-weil-pbc-epsilon-unit-counit-naturality"]
 +++
 The maps $D_f(L)$ are natural in $L$, equal the identity for $f=1_X$, and

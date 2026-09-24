@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-curve-filtered-cohomology"
 kind = "lemma"
 title = "Filtered cohomology continuity on a curve"
-order = 1676
+order = 1775
 +++
 Let $X$ be quasi-compact and quasi-separated and let $(F_\lambda)$ be a
 filtered system of torsion etale sheaves. For every $q\geq0$ the canonical

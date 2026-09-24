@@ -2,7 +2,7 @@
 id = "def-weil-pbc-bounded-constructible-adic-tower"
 kind = "definition"
 title = "Uniformly bounded constructible adic tower"
-order = 1842
+order = 1941
 uses = ["def-weil-pbc-complete-coefficient-datum"]
 +++
 Say that the reduction tower $K_\bullet$ attached to $K$ is uniformly

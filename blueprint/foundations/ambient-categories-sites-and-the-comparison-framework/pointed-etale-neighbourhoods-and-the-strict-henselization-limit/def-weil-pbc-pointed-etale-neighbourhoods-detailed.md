@@ -2,7 +2,7 @@
 id = "def-weil-pbc-pointed-etale-neighbourhoods-detailed"
 kind = "definition"
 title = "Pointed etale neighborhoods"
-order = 1208
+order = 1214
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 For a geometric point [def-weil-pbc-scheme-conventions] $\bar

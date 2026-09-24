@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-derived-exchange-coherence"
 kind = "lemma"
 title = "Resolution independence, identities, and pasting"
-order = 1538
+order = 1637
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_ext", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
 uses = ["def-weil-pbc-derived-exchange"]
 +++

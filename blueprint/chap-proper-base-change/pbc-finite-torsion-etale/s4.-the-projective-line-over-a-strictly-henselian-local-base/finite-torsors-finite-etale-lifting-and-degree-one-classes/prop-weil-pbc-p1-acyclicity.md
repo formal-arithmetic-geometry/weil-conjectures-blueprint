@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-p1-acyclicity"
 kind = "theorem"
 title = "Acyclicity on the closed projective line"
-order = 1658
+order = 1757
 uses = ["cor-weil-pbc-torsor-comparison", "def-weil-pbc-strict-henselian-p1-setup", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-finite-exchange", "lem-weil-pbc-h1-constructible-representation", "lem-weil-pbc-injective-restriction-acyclicity"]
 tags = ["latex:proposition"]
 +++

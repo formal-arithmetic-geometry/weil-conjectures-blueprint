@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-surjective-nonempty-fibres"
 kind = "lemma"
 title = "Surjectivity criterion via nonempty geometric fibres"
-order = 1466
+order = 1510
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A finite-type morphism whose geometric fibres are all nonempty is surjective.

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-a2-constructible-rebind"
 kind = "definition"
 title = "A2 constructible rebinding certificate"
-order = 1906
+order = 2005
 uses = ["def-weil-pbc-completed-reduction-square", "def-weil-pbc-level-map-corners"]
 +++
 Specialize A2 to $\Lambda=\mathbf Z_\ell$, $I=(\ell)$, and

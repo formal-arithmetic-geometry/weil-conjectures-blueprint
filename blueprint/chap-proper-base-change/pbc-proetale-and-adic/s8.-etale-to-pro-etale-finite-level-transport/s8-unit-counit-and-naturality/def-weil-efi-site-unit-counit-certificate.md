@@ -2,7 +2,7 @@
 id = "def-weil-efi-site-unit-counit-certificate"
 kind = "definition"
 title = "Naturality predicate for the comparison unit and counit"
-order = 1798
+order = 1897
 uses = ["def-weil-pbc-epsilon-unit-counit"]
 +++
 Let $\mathsf{NaturalUnitCounit}(\eta^X,\varepsilon^X)$ be the conjunction of

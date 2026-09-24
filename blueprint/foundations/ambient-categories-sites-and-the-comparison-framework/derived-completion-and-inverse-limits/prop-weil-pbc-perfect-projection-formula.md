@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-perfect-projection-formula"
 kind = "theorem"
 title = "Perfect projection formula"
-order = 1291
+order = 1297
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-proetale-operations", "def-weil-pbc-projection-formula-map"]
 tags = ["latex:proposition"]
 +++

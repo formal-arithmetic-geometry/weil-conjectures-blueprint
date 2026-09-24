@@ -2,7 +2,7 @@
 id = "pro-etale-transport-of-the-exchange-map"
 kind = "section"
 title = "Pro-etale transport of the exchange map"
-order = 1825
+order = 1924
 uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-comparison-direct-image", "thm-weil-pbc-bounded-below", "thm-weil-pbc-site-comparison"]
 +++
 The comparison morphism of sites $\nu_T:T_{\Proet}\to T_{\Et}$

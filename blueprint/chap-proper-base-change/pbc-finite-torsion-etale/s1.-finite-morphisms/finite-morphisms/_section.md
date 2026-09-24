@@ -2,8 +2,8 @@
 id = "finite-morphisms"
 kind = "section"
 title = "Finite morphisms"
-order = 1556
-uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange-detailed"]
+order = 1655
+uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange-detailed", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-finite-stalk-formula"]
 +++
 The base case of the whole chapter. For a finite morphism the direct image is
 computed on geometric stalks by a finite product over the geometric fibre

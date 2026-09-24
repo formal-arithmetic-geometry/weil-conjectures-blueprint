@@ -2,7 +2,7 @@
 id = "lemma-weil-efi-site-inclusion-identity"
 kind = "lemma"
 title = "Identity law for the etale-to-pro-etale assignment"
-order = 1756
+order = 1855
 uses = ["def-weil-pbc-etale-proetale-inclusion"]
 +++
 For every etale object $U\to X$,

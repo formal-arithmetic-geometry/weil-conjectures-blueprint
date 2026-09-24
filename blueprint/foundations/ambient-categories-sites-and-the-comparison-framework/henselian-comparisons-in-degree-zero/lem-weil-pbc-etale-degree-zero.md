@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-etale-degree-zero"
 kind = "lemma"
 title = "Etale degree-zero henselian comparison"
-order = 1258
+order = 1264
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-finite-section-pullback-detailed", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-closed-immersion-products", "lem-weil-pbc-finite-proper", "lem-weil-pbc-finite-pullback-identities", "lem-weil-pbc-finite-refinement-etale-cover", "lem-weil-pbc-spectral-restriction", "thm-weil-pbc-stein-connectedness"]
 +++
 Let $(A,I)$ be henselian [def-weil-pbc-henselian-terminology] and let

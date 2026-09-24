@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-amplification-proper"
 kind = "theorem"
 title = "Amplification for proper base-change squares"
-order = 1927
+order = 2026
 uses = ["def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-finite-level-amplification", "def-weil-pbc-scheme-conventions", "def-weil-pbc-tower-preservation", "def-weil-pbc-witness-compatibility"]
 +++
 Let $\square$ be the cartesian square [def-weil-pbc-cartesian-square-detailed] with
