@@ -3,7 +3,7 @@ id = "lem-weil-pbc-locally-constant-reduction"
 kind = "lemma"
 title = "Locally constant reduction and trace splitting"
 order = 1704
-uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-r-group-filtration", "lem-weil-pbc-finite-stalk-formula"]
+uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-r-group-filtration", "lem-weil-pbc-finite-stalk-formula", "thm-galois-lc-etale"]
 +++
 Let $U$ be irreducible and let $G$ be a finite locally constant $\mathbf
 F_r$-sheaf. There is a connected finite etale map $v:V\to U$ of degree prime
@@ -20,7 +20,7 @@ so $G$ is a direct summand of $v_*v^{-1}G$.
 
 ## Proof
 
-Under the finite-etale correspondence, the finite locally constant $\mathbf
+Under the finite-etale correspondence of [thm-galois-lc-etale], the finite locally constant $\mathbf
 F_r$-sheaf $G$ on the irreducible $U$ corresponds to a finite etale
 $U$-scheme, and the (profinite) monodromy group is the finite group $H$ acting
 on the geometric stalk $G_{\bar u}$, acting through a finite quotient
@@ -34,5 +34,3 @@ a geometric point, the unit $G\to v_*v^{-1}G$ is the diagonal and the trace is
 the sum over the finite fibre, by [lem-weil-pbc-finite-stalk-formula], so
 their composite is $\deg(v)\operatorname{id}_G$ with
 $\deg(v)\not\equiv0\pmod r$, and $G$ is a direct summand of $v_*v^{-1}G$.
-
-Unresolved dependencies: lem:weil-pbc-finite-locally-constant-etale

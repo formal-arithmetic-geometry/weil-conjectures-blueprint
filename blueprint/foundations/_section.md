@@ -9,7 +9,7 @@ blueprint. Nothing here is a geometric input to the Weil conjectures; it is
 the vocabulary in which the later parts are written, collected in one place so
 that no statement downstream rests on an unstated convention.
 
-Five chapters, in the order in which they are used — the order is a
+Seven chapters, in the order in which they are used — the order is a
 topological order of the chapter dependency graph, so every chapter stands
 after everything it cites. It is not the source's chapter order: the ambient
 site chapter stands before the coefficient chapter, because the coefficient
@@ -36,6 +36,13 @@ operations in triangulated form.
 vocabulary the conjectures are stated in: local Frobenius and its trace, the
 zeta-series normalization, the Poincare trace and cup product, and the three
 notions of weight.
+- [finite-etale-covers-the-fibre-functor-and-the-fundamental-group]
+(chapter 7 of the source) proves the Galois dictionary for finite etale
+covers: the fibre functor, the fundamental group, and the forms of it used
+downstream.
+- [proper-quasi-finite-morphisms-are-finite] (chapter 8 of the source) proves
+that proper quasi-finite morphisms are finite, and Zariski's main theorem in
+its quasi-finite form.
 
 The dependency graph of the part is acyclic at chapter level and at section
 level: the conventions chapter cites the Karoubi chapter, the Weil-structure
@@ -55,6 +62,14 @@ base-change half.
 
 Reading order is a topological order of the whole `uses` graph: no object in
 the part cites anything that comes after it.
+
+The last two chapters cite only the ambient-site and spectral-sequence
+chapters, and nothing in the part cites them, so they stand last. Two
+general statements they need were filed in [chap-proper-base-change], where
+they were first used, and are moved here to keep the part self-contained:
+[def-weil-pbc-finite-torsors] to [etale-site-ambient-categories] and
+[lem-weil-pbc-surjective-nonempty-fibres] to
+[standard-closure-properties-of-morphisms].
 
 One circular proof in the source was repaired rather than refiled.
 [thm-sp-if-e1] and [lem-sp-kinjective-computes] cited each other, because the
