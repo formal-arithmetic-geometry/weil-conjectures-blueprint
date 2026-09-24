@@ -2,8 +2,8 @@
 id = "lem-weil-pbc-derived-stalk-conservative"
 kind = "lemma"
 title = "Conservativity of geometric stalks on the derived category"
-order = 1166
-uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
+order = 1171
+uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $T$ be a scheme and let $K\to L$ be a morphism of complexes in
 $\Dplus(T_{\Et})$ of [def-weil-pbc-derived-categories]. Then $K\to L$ is an
@@ -32,7 +32,7 @@ isomorphism for every geometric point $\bar t$ and every $i$. By
 commutes with the formation of cohomology sheaves and the stalk of the
 morphism $\mathcal H^i(K)\to\mathcal H^i(L)$ of sheaves of
 [def-weil-pbc-etale-sheaves] at $\bar t$ is the displayed isomorphism. By
-[lem-weil-pbc-geometric-stalk-conservative] each $\mathcal H^i(K)\to\mathcal
+[lemma-weil-pbc-geometric-stalk-conservative] each $\mathcal H^i(K)\to\mathcal
 H^i(L)$ is therefore an isomorphism of sheaves, so $K\to L$ is a
 quasi-isomorphism, hence an isomorphism of $\Dplus(T_{\Et})$.
 

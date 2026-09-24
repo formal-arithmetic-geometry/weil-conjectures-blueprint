@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-cone-independence"
 kind = "theorem"
 title = "Compatibility and independence of common-stage cones"
-order = 1360
+order = 1496
 uses = ["def-weil-pbc-common-stage-cones", "def-weil-pbc-finite-stage-pair-category", "prop-weil-pbc-common-stage-calculus", "prop-weil-pbc-scalar-extension"]
 tags = ["latex:proposition"]
 +++

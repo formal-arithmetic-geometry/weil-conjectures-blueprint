@@ -3,7 +3,7 @@ id = "lem-exc-proetale-support-triangle"
 kind = "lemma"
 title = "Pro-etale closed-support triangle before constructible restriction"
 order = 3332
-uses = ["def-weil-derived-direct-image", "def-weil-open-closed-recollement", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-exc-proetale-closed-essential-image", "lem-exc-proetale-closed-support", "prop-exc-open-adjoint", "prop-weil-pbc-kinjective-resolutions-exist"]
+uses = ["def-weil-derived-direct-image", "def-weil-open-closed-recollement", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-exc-proetale-closed-essential-image", "lem-exc-proetale-closed-support", "prop-exc-open-adjoint", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $T$ be Noetherian, let $i:Z\hookrightarrow T$ be a
 closed immersion, and

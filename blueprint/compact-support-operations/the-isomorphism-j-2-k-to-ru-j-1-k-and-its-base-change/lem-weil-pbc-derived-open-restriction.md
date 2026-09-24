@@ -3,7 +3,7 @@ id = "lem-weil-pbc-derived-open-restriction"
 kind = "lemma"
 title = "Derived direct image restricted to an open"
 order = 3161
-uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-inverse-image-exact", "prop-weil-pbc-kinjective-resolutions-exist"]
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-inverse-image-exact", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $f:T\to S$ be a scheme morphism and
 $a:U\hookrightarrow S$ an

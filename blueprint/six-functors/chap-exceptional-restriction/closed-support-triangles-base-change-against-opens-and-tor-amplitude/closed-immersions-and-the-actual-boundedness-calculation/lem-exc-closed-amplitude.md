@@ -3,7 +3,7 @@ id = "lem-exc-closed-amplitude"
 kind = "lemma"
 title = "Closed-support amplitude"
 order = 3314
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-closed-ambient", "lem-exc-closed-support-triangle", "lem-weil-pbc-constructible-serre"]
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-closed-ambient", "lem-exc-closed-support-triangle", "thm-constructible-serre"]
 +++
 Let $i:Z\hookrightarrow T$ be a
 closed immersion, with open
@@ -38,7 +38,7 @@ the same bounds on $Ri^!K$.
 Under the additional direct-image finiteness condition, the spectral
 sequence has constructible entries and a finite filtration in each
 degree. The Serre closure of
-[lem-weil-pbc-constructible-serre] makes its abutment constructible
+[thm-constructible-serre] makes its abutment constructible
 in the sense of [def-weil-pbc-constructible-complexes].
 The long exact sequence then makes the cohomology of $i_*Ri^!K$
 constructible. Apply the exact $i^*$, which pulls a finite

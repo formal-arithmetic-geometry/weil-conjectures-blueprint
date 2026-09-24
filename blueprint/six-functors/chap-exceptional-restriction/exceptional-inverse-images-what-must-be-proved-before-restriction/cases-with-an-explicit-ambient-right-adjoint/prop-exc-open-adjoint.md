@@ -4,7 +4,7 @@ kind = "theorem"
 title = "The right adjoint for an open immersion"
 order = 3307
 tags = ["latex:proposition"]
-uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-weil-extension-by-zero-adjunction", "lem-weil-extension-by-zero-exact"]
+uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-weil-extension-by-zero-adjunction", "lem-weil-extension-by-zero-exact"]
 +++
 Let $A$ be a finite commutative ring, including the
 finite coefficient rings
@@ -27,7 +27,7 @@ or finite-Tor hypothesis.
 ## Proof
 
 The site over the open $U$ is the localization of the site of
-[def-weil-small-proetale-site-detailed] at the subterminal sheaf represented by
+[def-weil-pbc-proetale-site] at the subterminal sheaf represented by
 $U$. Thus restriction $j^*$ is exact. For module sheaves $M,N$,
 the extension-by-zero adjunction of
 [lem-weil-extension-by-zero-adjunction] gives

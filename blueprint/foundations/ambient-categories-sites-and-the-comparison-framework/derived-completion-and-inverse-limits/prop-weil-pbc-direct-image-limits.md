@@ -2,8 +2,8 @@
 id = "prop-weil-pbc-direct-image-limits"
 kind = "theorem"
 title = "Direct image, derived limits, and completeness"
-order = 1298
-uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-projection-formula-map", "prop-weil-pbc-perfect-projection-formula", "prop-weil-pbc-roos-triangle"]
+order = 1362
+uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-projection-formula-map", "lemma-weil-pbc-perfect-projection-formula", "prop-weil-pbc-roos-triangle"]
 tags = ["latex:proposition"]
 +++
 Levelwise direct image on tower categories has a total right derived functor
@@ -65,7 +65,7 @@ topoi, and states that $Rf_*$ sends $D_{comp}$ into $D_{comp}$ and that
 $Rf_*K=\Rlim Rf_*(K\otimes^L_\Lambda\underline{\Lambda/I^n})$; the form used
 here is its tower-level refinement over $T_{\Proet}$, and the finite-level
 projection-formula isomorphisms coming from
-[prop-weil-pbc-perfect-projection-formula] are not part of the Stacks
+[lemma-weil-pbc-perfect-projection-formula] are not part of the Stacks
 statement.
 
 ## Proof
@@ -86,7 +86,7 @@ the displayed isomorphism $Rf_*\Rlim M_\bullet\xrightarrow{\sim}
 \Rlim(Rf_*^{\operatorname{Tow}}M_\bullet)$. If $K$ is derived $I$-complete
 then, applied to the tower $K_\bullet$, this shows $Rf_*K\xrightarrow{\sim}
 \Rlim Rf_*^{\operatorname{Tow}}K_\bullet$, so $Rf_*K$ is derived
-$I$-complete; [prop-weil-pbc-perfect-projection-formula] supplies the
+$I$-complete; [lemma-weil-pbc-perfect-projection-formula] supplies the
 projection-formula isomorphisms
 $(Rf_*K)\otimes_A^LP_n\xrightarrow{\sim}Rf_*(K\otimes_A^LP_n)=Rf_*K_n$ of
 [def-weil-pbc-projection-formula-map], commuting with $P_{n+1}\to P_n$ by the

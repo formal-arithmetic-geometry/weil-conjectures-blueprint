@@ -3,7 +3,7 @@ id = "def-trf-coefficient-conventions"
 kind = "definition"
 title = "Trace-formula coefficient conventions"
 order = 3298
-uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-ordinary-compact-cohomology", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, a prime $\ell\neq p$, and a finite

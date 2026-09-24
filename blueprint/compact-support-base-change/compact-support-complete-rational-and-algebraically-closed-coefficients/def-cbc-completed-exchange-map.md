@@ -3,7 +3,7 @@ id = "def-cbc-completed-exchange-map"
 kind = "definition"
 title = "Completed compact-support exchange map"
 order = 3139
-uses = ["def-cbc-exchange-map", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-completed-pullback-detailed", "def-weil-pbc-scheme-conventions", "lem-cbc-completed-extension-zero-comparison", "thm-weil-pbc-complete-proetale"]
+uses = ["def-cbc-exchange-map", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-completed-pullback", "def-weil-pbc-scheme-conventions", "lem-cbc-completed-extension-zero-comparison", "thm-weil-pbc-complete-proetale"]
 +++
 In the situation of [def-cbc-exchange-map], let $(A,I)$
 satisfy [def-weil-pbc-adic-coefficient-datum] and let

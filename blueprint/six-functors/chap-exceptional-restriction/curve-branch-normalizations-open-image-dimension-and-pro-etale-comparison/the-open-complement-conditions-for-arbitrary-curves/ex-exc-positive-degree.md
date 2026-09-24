@@ -4,7 +4,7 @@ kind = "remark"
 title = "Positive cohomology of a closed exceptional image"
 order = 3347
 tags = ["latex:example"]
-uses = ["def-sc-curves", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-direct-image", "lem-exc-closed-ambient", "lem-exc-closed-support-triangle", "lem-exc-dvr-galois", "prop-weil-pbc-strict-henselization-stalk-formula-detailed"]
+uses = ["def-sc-curves", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-direct-image", "lem-exc-closed-ambient", "lem-exc-closed-support-triangle", "lem-exc-dvr-galois", "prop-weil-pbc-strict-henselization-stalk-formula"]
 +++
 Let $k$ be an algebraic closure of a finite field of characteristic
 $p$, let $T=\mathbf A^1_k$, a
@@ -25,7 +25,7 @@ The long exact sequence of the triangle of
 of [lem-exc-closed-ambient], gives
 $i_*\mathcal H^2(Ri^!A_T)=R^1j_*A_U$, since $A_T$
 has no positive cohomology. By
-[prop-weil-pbc-strict-henselization-stalk-formula-detailed], the stalk
+[prop-weil-pbc-strict-henselization-stalk-formula], the stalk
 of its right side at zero is the first Galois cohomology of the
 fraction field of the strict local ring. In the two-term calculation
 of [lem-exc-dvr-galois], the constant module has trivial action,

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The closed graph is quasi-finite over the blow-up, [ConradNagata]"
 order = 404
 lean = ["AlgebraicGeometry.exists_isAdmissible_locallyQuasiFinite_image_graph"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-quasi-affine-morphism", "def-nagata-scheme-theoretic-image", "lemma-nagata-conrad-quasi-affine-general", "lemma-nagata-invertible-product-factor", "thm-nagata-blowup-universal-property"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-quasi-affine-morphism", "def-nagata-scheme-theoretic-image", "lemma-nagata-conrad-quasi-affine-general", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-invertible-product-factor", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-universal-property"]
 +++
 Let $X$ be qcqs, let $U\subseteq V\subseteq X$ be quasi-compact opens, let
 $p\colon Y\to X$ be separated and locally of finite type with $Y$ qcqs, and

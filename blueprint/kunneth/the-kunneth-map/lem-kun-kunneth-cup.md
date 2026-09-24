@@ -3,7 +3,7 @@ id = "lem-kun-kunneth-cup"
 kind = "lemma"
 title = "The Kunneth map via the relative cup product"
 order = 3061
-uses = ["def-kun-kunneth-map", "def-kun-rel-cup", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-inverse-image", "lem-kun-inverse-image-monoidal"]
+uses = ["def-kun-kunneth-map", "def-kun-rel-cup", "def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image", "lem-kun-inverse-image-monoidal"]
 +++
 In the situation of [def-kun-kunneth-map], the Kunneth map
 $\kappa_{E,K}$ is equal to the composite
@@ -46,7 +46,7 @@ $$
 
 Now $c=f\circ p$, so under the canonical identification
 $c^{-1}Rf_*E\cong p^{-1}f^{-1}Rf_*E$ of
-[def-weil-pbc-cartesian-square-detailed], the map $c^{-1}u$ is the
+[def-weil-pbc-cartesian-square], the map $c^{-1}u$ is the
 composite
 
 $$

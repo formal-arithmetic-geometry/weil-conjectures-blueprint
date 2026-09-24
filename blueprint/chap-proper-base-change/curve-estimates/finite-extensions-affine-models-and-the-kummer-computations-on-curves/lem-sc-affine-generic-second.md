@@ -2,8 +2,8 @@
 id = "lem-sc-affine-generic-second"
 kind = "lemma"
 title = "Second cohomology of a generic extension on an affine curve"
-order = 1594
-uses = ["def-sc-curves", "def-sc-function-field", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-exc-field-discrete-modules", "lem-sc-affine-constant-second", "lem-sc-finite-extension-affine-model", "lem-sc-sylow-module-filtration", "lem-sc-zero-generic-acyclic", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-finite-direct-image-exact"]
+order = 1595
+uses = ["def-sc-curves", "def-sc-function-field", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-exc-field-discrete-modules", "lem-sc-affine-constant-second", "lem-sc-finite-extension-affine-model", "lem-sc-sylow-module-filtration", "lem-sc-zero-generic-acyclic", "lem-weil-pbc-cohomology-filtered-colimit", "lemma-weil-pbc-finite-direct-image-exact"]
 +++
 Let $C/k$ be a smooth integral affine
 curve over algebraically closed $k$
@@ -39,7 +39,7 @@ The equality $h b=\eta a$ gives
 $\eta_*a_*M'=h_*b_*M'$. Applying $\eta_*$ to the splitting
 makes $\eta_*M$ a direct summand of this sheaf.
 Finite direct image is exact by
-[lem-weil-pbc-finite-direct-image-exact], so it remains to
+[lemma-weil-pbc-finite-direct-image-exact], so it remains to
 prove $H^2(C',b_*M')=0$.
 
 For a filtration step $0\to M_1\to M_2\to M_3\to0$, put

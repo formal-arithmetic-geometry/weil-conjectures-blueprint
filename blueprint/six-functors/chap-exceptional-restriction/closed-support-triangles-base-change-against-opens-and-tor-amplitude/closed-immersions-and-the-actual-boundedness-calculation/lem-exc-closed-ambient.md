@@ -3,7 +3,7 @@ id = "lem-exc-closed-ambient"
 kind = "lemma"
 title = "Closed-immersion right adjoint before restriction"
 order = 3312
-uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-kinjective-resolutions-exist"]
+uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $i:Z\hookrightarrow T$ be a
 closed immersion, with open
@@ -20,7 +20,7 @@ inverse image.
 For an etale module sheaf $N$, set
 $\Gamma_ZN=\ker(N\to j_*j^*N)$.
 The stalk description and the conservativity in
-[lem-weil-pbc-geometric-stalk-conservative] identify sheaves whose
+[lemma-weil-pbc-geometric-stalk-conservative] identify sheaves whose
 restriction to $U$ is zero with sheaves on $Z$, by the exact fully
 faithful $i_*$. Its inverse on these sheaves is the $i^*$ of
 [def-weil-pbc-inverse-image]. Every map $i_*M\to N$ factors

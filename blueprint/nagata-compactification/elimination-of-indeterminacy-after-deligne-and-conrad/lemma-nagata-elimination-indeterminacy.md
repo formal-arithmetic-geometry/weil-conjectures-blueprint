@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Elimination of indeterminacy, [stacks-project]"
 order = 415
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap"]
-uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-elimination-indeterminacy", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-strict-transform-over-complement", "thm-nagata-conrad-elimination"]
+uses = ["cor-nagata-blowup-product-common-refinement", "cor-nagata-conrad-proper-target-extension", "def-nagata-dense-compactification", "def-nagata-elimination-indeterminacy", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-dense-flat-pullback", "lemma-nagata-scheme-theoretic-closure-minimal", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent", "thm-nagata-conrad-elimination"]
 +++
 The morphism $X^{\mathrm{el}}(q,U)\to X$ is $U$-admissible, and the
 constructed strict-transform projection

@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Projective-line purity"
 order = 3575
 tags = ["latex:corollary"]
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-p1-integration", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "thm-pur-p1-decomposition", "thm-pur-p1-triangular", "thm-pur-td-criterion"]
+uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-p1-integration", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-p1-decomposition", "thm-pur-p1-triangular", "thm-pur-td-criterion"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $Y$ be separated finite type and $q:\mathbf P^1_Y\to Y$. For

@@ -2,9 +2,9 @@
 id = "lemma-nagata-composition-extended-ideal-equality"
 kind = "lemma"
 title = "Comparison of the two second-center ideals"
-order = 303
+order = 304
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_comp"]
-uses = ["def-nagata-composition-center-ideal", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-composition-center-ideal"]
+uses = ["def-nagata-composition-center-ideal", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-composition-center-ideal", "prop-nagata-global-blowup-cover-independent"]
 +++
 Under the hypotheses of
 [def-nagata-composition-center-ideal], let $E$ be the exceptional

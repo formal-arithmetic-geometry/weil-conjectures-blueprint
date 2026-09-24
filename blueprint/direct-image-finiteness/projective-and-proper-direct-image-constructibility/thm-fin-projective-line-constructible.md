@@ -3,7 +3,7 @@ id = "thm-fin-projective-line-constructible"
 kind = "theorem"
 title = "Constructible coefficients on the projective line"
 order = 3248
-uses = ["cor-fin-projective-curve-finite-group", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism", "lem-fin-finite-over-projective", "lem-fin-finite-type-pushforward-embedding", "lem-weil-pbc-constructible-serre", "lem-weil-pbc-grothendieck-spectral-sequence", "sbc-def-coefficient-conventions", "thm-sp-if-e1"]
+uses = ["cor-fin-projective-curve-finite-group", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism", "lem-fin-finite-over-projective", "lem-fin-finite-type-pushforward-embedding", "lem-weil-pbc-grothendieck-spectral-sequence", "sbc-def-coefficient-conventions", "thm-constructible-serre", "thm-sp-if-e1"]
 +++
 Let $S$ be of finite type
 over $k$, and let $\Lambda$ be the finite ring killed by an
@@ -21,7 +21,7 @@ into a finite sum $G^0$ of finite pushforwards of constant finite
 groups killed by $N$.
 The sheaf $G^0$ is constructible by [lem-fin-finite-morphism];
 its cokernel $Q_1$ is constructible by
-[lem-weil-pbc-constructible-serre].
+[thm-constructible-serre].
 Repeat with $Q_1$, and inductively with every subsequent cokernel.
 Factoring the differentials through those cokernels produces an exact
 augmented complex
@@ -58,7 +58,7 @@ All pages are constructible by kernels and cokernels.
 For any fixed total degree, first-quadrant convergence supplies
 a finite filtration by stable terms of this spectral sequence.
 Extensions therefore prove constructibility of the abutment by
-[lem-weil-pbc-constructible-serre].
+[thm-constructible-serre].
 This step establishes constructibility degree by degree.
 
 Finally these are also the underlying abelian higher direct images

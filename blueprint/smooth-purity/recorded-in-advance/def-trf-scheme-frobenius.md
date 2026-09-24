@@ -3,7 +3,7 @@ id = "def-trf-scheme-frobenius"
 kind = "definition"
 title = "Scheme and Galois Frobenius of the geometric fiber"
 order = 3512
-uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, let $X_0$ be a

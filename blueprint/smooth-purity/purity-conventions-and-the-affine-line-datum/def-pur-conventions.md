@@ -3,7 +3,7 @@ id = "def-pur-conventions"
 kind = "definition"
 title = "Purity coefficient conventions"
 order = 3519
-uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-sbc-smooth-morphisms", "def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-coefficient-twists", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-sbc-smooth-morphisms", "def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, a prime $\ell\neq p$, a finite

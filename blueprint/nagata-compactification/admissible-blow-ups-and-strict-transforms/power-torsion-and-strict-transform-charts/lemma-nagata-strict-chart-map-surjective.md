@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-chart-map-surjective"
 kind = "lemma"
 title = "Surjectivity onto the extended-ideal chart"
-order = 324
+order = 325
 lean = ["AlgebraicGeometry.AffineBlowup.closure_range_awayAlgebraMap_union_range_awayMap"]
 uses = ["def-nagata-strict-chart-to-extended-blowup-chart", "lemma-nagata-chart-ring-normal-form", "lemma-nagata-strict-chart-to-extended-blowup-chart"]
 +++

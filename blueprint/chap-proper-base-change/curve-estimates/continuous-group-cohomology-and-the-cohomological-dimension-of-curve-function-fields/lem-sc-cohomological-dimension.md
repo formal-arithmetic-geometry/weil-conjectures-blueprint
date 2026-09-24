@@ -2,8 +2,8 @@
 id = "lem-sc-cohomological-dimension"
 kind = "lemma"
 title = "Cohomological dimension of a smooth curve"
-order = 1586
-uses = ["def-sc-curves", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-sc-function-field-cd-one", "lem-sc-generic-cohomology-comparison", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "lem-sc-zero-generic-acyclic", "prop-weil-pbc-strict-henselization-stalk-formula-detailed", "thm-sp-grothendieck"]
+order = 1587
+uses = ["def-sc-curves", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-sc-function-field-cd-one", "lem-sc-generic-cohomology-comparison", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "lem-sc-zero-generic-acyclic", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-sp-grothendieck"]
 +++
 For a smooth separated curve $C$
 over an algebraically closed field and any torsion
@@ -22,7 +22,7 @@ of regularity and dimension under etale localization.
 Its fraction field is algebraic over $k(C)$: a strict
 henselization is a filtered union of etale neighborhoods and
 their fraction fields are finite separable extensions.
-By [prop-weil-pbc-strict-henselization-stalk-formula-detailed]
+By [prop-weil-pbc-strict-henselization-stalk-formula]
 and [lem-sc-function-field-cd-one],
 $R^q\eta_*M=0$ for $q>1$.
 The sheaf $R^1\eta_*M$ has zero generic restriction, hence

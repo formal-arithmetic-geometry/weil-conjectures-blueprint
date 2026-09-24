@@ -3,7 +3,7 @@ id = "sbc-lem-bc-injectivity"
 kind = "lemma"
 title = "Injectivity of the critical map and its cokernel"
 order = 2776
-uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "lem-weil-pbc-five-lemma-transfer", "lem-weil-pbc-leray-acyclicity", "sbc-def-base-change-map", "sbc-def-base-change-property"]
+uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-leray-acyclicity", "sbc-def-base-change-map", "sbc-def-base-change-property"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property], assume for
 some $q\geq1$ that $\mathrm{BC}(f,n,q-1)$ holds. Then for every
@@ -36,7 +36,7 @@ $$
 Choose a short exact sequence
 $0\to\mathcal F\to\mathcal I\to\mathcal Q\to0$ with $\mathcal I$ an
 injective sheaf of $\mathbf Z/n\mathbf Z$-modules on $T_{\Et}$. The
-injective-acyclicity input of [lem-weil-pbc-leray-acyclicity]
+injective-acyclicity input of [lemma-weil-pbc-leray-acyclicity]
 (using the adjunction of [def-weil-pbc-inverse-image]) gives
 $R^qg_*\mathcal I=0$ for $q>0$, so the two long exact sequences of
 higher direct images of [def-weil-pbc-direct-image] (in the
@@ -44,7 +44,7 @@ derived categories of [def-weil-pbc-derived-categories], the
 distinguished triangle of the short exact sequence) and the naturality
 of the base-change maps of [sbc-def-base-change-map] give the
 diagram with exact rows of the statement: the long exact sequences are
-the ones of [lem-weil-pbc-five-lemma-transfer]; the left two
+the ones of [lemma-weil-pbc-five-lemma-transfer]; the left two
 vertical arrows are isomorphisms by $\mathrm{BC}(f,n,q-1)$, the top
 right entry is zero, hence the middle vertical arrow is injective,
 which is (1), and the same diagram gives the inclusion of the cokernel

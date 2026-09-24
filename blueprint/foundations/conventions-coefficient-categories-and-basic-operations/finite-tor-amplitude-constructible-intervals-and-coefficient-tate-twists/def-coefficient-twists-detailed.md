@@ -2,12 +2,12 @@
 id = "def-coefficient-twists-detailed"
 kind = "definition"
 title = "Coefficient Tate twists"
-order = 1384
-uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-small-proetale-site-detailed"]
+order = 1646
+uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf
 Z_{\geq1}$, and a scheme $S$ on which $\ell$ is invertible. Use the small
-pro-etale site [def-weil-small-proetale-site-detailed] of $S$ and the derived
+pro-etale site [def-weil-pbc-proetale-site] of $S$ and the derived
 tensor product [def-weil-derived-tensor]. For every integer $r\geq1$, define
 the pro-etale sheaf $\mu_{\ell^r,S}$ by
 

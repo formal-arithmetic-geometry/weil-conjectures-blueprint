@@ -2,8 +2,8 @@
 id = "def-weil-full-cohomological-dimension"
 kind = "definition"
 title = "Full cohomological dimension"
-order = 1401
-uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+order = 1714
+uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf
 Z_{\geq1}$, and put $A=A_{E,n}$, with the finite-torsion coefficient
@@ -12,7 +12,7 @@ which $\ell$ is invertible, let $Y$ and $\overline X$ be finite-type
 [def-weil-scheme-morphism-properties] $S$-schemes, and let $p:\overline X\to
 Y$ be a proper $S$-morphism. Use finite-torsion $A$-coefficients and the
 derived direct image [def-weil-derived-direct-image] $Rp_*$. On the small
-pro-etale sites [def-weil-small-proetale-site-detailed], let $\mathcal H^r$
+pro-etale sites [def-weil-pbc-proetale-site], let $\mathcal H^r$
 denote the cohomology-sheaf functor
 [def-weil-derived-cohomology-sheaves]. For an integer $c\in\mathbf
 Z_{\geq0}$, write $\operatorname{FullCD}(p,A;c)$ if

@@ -3,7 +3,7 @@ id = "lem-cbc-extension-zero-composition"
 kind = "lemma"
 title = "Composition of open immersions"
 order = 3121
-uses = ["def-cbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
+uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
 +++
 For composable
 open immersions
@@ -24,4 +24,4 @@ same functor $((j_2j_1)^{-1}=(j_1)^{-1}(j_2)^{-1})$, so they are
 canonically isomorphic (the comparison being the mate of the
 identification of inverse images); naturality and the coherence
 equations follow from the adjunction calculus, as in
-[def-cbc-extension-by-zero].
+[def-weil-pbc-extension-by-zero].

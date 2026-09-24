@@ -3,7 +3,7 @@ id = "lem-kun-stalk-faithful-derived"
 kind = "lemma"
 title = "Stalk faithfulness for derived objects"
 order = 3013
-uses = ["def-weil-pbc-derived-categories", "lem-kun-d-zero-cohomology", "lem-kun-stalk-as-pullback", "lem-kun-stalks-of-cohomology", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-weil-pbc-derived-categories", "lem-kun-d-zero-cohomology", "lem-kun-stalk-as-pullback", "lem-kun-stalks-of-cohomology", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 A morphism in $D(T_{\Et})$ is an isomorphism if and only if its
 pullback to every geometric point of $T$ is an isomorphism.
@@ -16,6 +16,6 @@ iff $C=0$ by [lem-kun-d-zero-cohomology]. By
 [lem-kun-stalks-of-cohomology] and
 [lem-kun-stalk-as-pullback] the stalk of $\mathcal H^q(C)$ at
 $\bar t$ is $\mathcal H^q(C_{\bar t})$, and
-[lem-weil-pbc-geometric-stalk-conservative] detects vanishing of
+[lemma-weil-pbc-geometric-stalk-conservative] detects vanishing of
 sheaves on their stalks, so $C=0$ iff $C_{\bar t}=0$ for all
 $\bar t$, i.e. iff the pullbacks of $\alpha$ are isomorphisms.

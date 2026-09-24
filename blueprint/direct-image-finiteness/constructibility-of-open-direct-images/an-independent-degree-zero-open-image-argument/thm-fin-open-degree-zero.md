@@ -2,8 +2,8 @@
 id = "thm-fin-open-degree-zero"
 kind = "theorem"
 title = "Constructibility of the degree-zero open direct image"
-order = 3216
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-dense-normal-open", "lem-fin-normal-open-lisse-image", "lem-weil-pbc-constructible-serre", "lem-weil-pbc-constructible-subobjects-noetherian", "lem-weil-pbc-finite-stalk-formula", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-noetherian-finite-components", "thm-weil-pbc-universal-homeomorphism-invariance"]
+order = 3213
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-dense-normal-open", "lem-fin-normal-open-lisse-image", "lem-weil-pbc-constructible-subobjects-noetherian", "lem-weil-pbc-noetherian-finite-components", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative", "thm-constructible-serre", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $X$ be of finite type over a field, let
 $j:U\hookrightarrow X$ be an
@@ -52,8 +52,8 @@ $W_U=W\cap U$, with immersions $i:W\hookrightarrow X$,
 $i':W_U\hookrightarrow U$, and $j_W:W_U\hookrightarrow W$.
 The closed unit identifies $K=i'_*K'$, where
 $K'=i'^*K$: this is an isomorphism on all stalks by
-[lem-weil-pbc-finite-stalk-formula] and hence by
-[lem-weil-pbc-geometric-stalk-conservative].
+[lemma-weil-pbc-finite-stalk-formula] and hence by
+[lemma-weil-pbc-geometric-stalk-conservative].
 Direct-image composition in
 [def-weil-pbc-direct-image] gives
 $j_*K=i_*j_{W,*}K'$. Since $W$ is a proper closed
@@ -72,5 +72,5 @@ $$
 \longrightarrow I\longrightarrow0
 $$
 
-and [lem-weil-pbc-constructible-serre] prove the claim.
+and [thm-constructible-serre] prove the claim.
 This argument uses only the left exactness of $j_*$.

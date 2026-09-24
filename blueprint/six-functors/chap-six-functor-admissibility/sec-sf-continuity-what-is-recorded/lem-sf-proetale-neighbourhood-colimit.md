@@ -3,7 +3,7 @@ id = "lem-sf-proetale-neighbourhood-colimit"
 kind = "lemma"
 title = "The pro-étale form of the continuity statement: every class dies on the strict henselization limit"
 order = 3489
-uses = ["def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit-detailed", "lem-sf-stalk-limit-acyclic"]
+uses = ["def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit", "lem-sf-stalk-limit-acyclic"]
 +++
 Let $T$ be a scheme, let $\bar t\to T$ be a
 geometric point of $T$ and let
@@ -18,7 +18,7 @@ pro-étale neighbourhood of $\bar t$. Then:
 $T_{(\bar t)}\to W$ from the
 strict henselization
 limit $T_{(\bar t)}=\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{T,\bar t}$
-of [def-weil-pbc-strict-henselization-limit-detailed] to $W$, carrying the
+of [def-weil-pbc-strict-henselization-limit] to $W$, carrying the
 closed geometric point of $T_{(\bar t)}$ to $\bar w$;
 1. **(ii)** for every such morphism and every $q\geq1$ the induced map
 $$
@@ -44,7 +44,7 @@ pro-étale neighbourhoods of $\bar t$, the input of its proof being
 Olivier's theorem, Stacks Project, More on Algebra, Theorem 15.106.24,
 [Tag 092Z](https://stacks.math.columbia.edu/tag/092Z). Initiality
 supplies a $T$-morphism $T_{(\bar t)}\to W$ compatible with the chosen
-geometric points, and by [def-weil-pbc-strict-henselization-limit-detailed] the
+geometric points, and by [def-weil-pbc-strict-henselization-limit] the
 scheme $T_{(\bar t)}$ is the spectrum of the strict henselization, the limit
 of the affine pointed étale neighbourhoods of $\bar t$.
 

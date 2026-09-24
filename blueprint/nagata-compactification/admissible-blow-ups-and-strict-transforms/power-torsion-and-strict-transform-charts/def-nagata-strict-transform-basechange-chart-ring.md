@@ -2,7 +2,7 @@
 id = "def-nagata-strict-transform-basechange-chart-ring"
 kind = "definition"
 title = "Affine base-change chart ring"
-order = 318
+order = 319
 uses = ["def-nagata-blowup-chart-ring"]
 +++
 **Status.** Bypassed by the formalized route: the strict transform is

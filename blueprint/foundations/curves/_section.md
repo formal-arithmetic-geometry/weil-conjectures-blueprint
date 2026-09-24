@@ -2,7 +2,7 @@
 id = "curves"
 kind = "section"
 title = "Curves"
-order = 2142
+order = 2140
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-proper", "lem-weil-pbc-proper-closed-image", "pqf-def-coherent", "pqf-lem-affine-vanishing", "pqf-lem-fff-vanishing", "pqf-lem-finite-qf", "pqf-lem-image-proper", "pqf-lem-leray-lowdegree", "pqf-lem-qf-finitefibres", "pqf-lem-sheaf-zero-stalks", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++
 The first two chapters of Part 3 of `weil_conjectures_detailed.tex`, the

@@ -2,7 +2,7 @@
 id = "def-sc-kummer-sequence"
 kind = "definition"
 title = "The Kummer sequence"
-order = 2153
+order = 2151
 uses = ["def-sc-curves"]
 +++
 Let $C$ be a curve over $k$ and let

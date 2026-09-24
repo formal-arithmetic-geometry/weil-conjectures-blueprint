@@ -2,14 +2,14 @@
 id = "def-weil-finite-torsion-constructibility"
 kind = "definition"
 title = "Finite-torsion constructibility"
-order = 1316
-uses = ["def-weil-derived-cohomology-sheaves", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+order = 1374
+uses = ["def-weil-derived-cohomology-sheaves", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 For the global finite-field datum [def-weil-finite-field-fiber], fix a prime
 $\ell\neq p$, a finite extension $E/\Ql$, a uniformizer $\varpi_E$ of its
 valuation ring $\mathcal O_E$, an integer $n\in\mathbf Z_{\geq1}$, and a
 scheme $Y$. On the small pro-etale site
-[def-weil-small-proetale-site-detailed] $Y_{\mathrm{proet}}$, put
+[def-weil-pbc-proetale-site] $Y_{\mathrm{proet}}$, put
 
 $$
   A_{E,n}=\mathcal O_E/\varpi_E^n.

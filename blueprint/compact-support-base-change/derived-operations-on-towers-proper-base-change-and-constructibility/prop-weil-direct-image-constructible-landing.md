@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Derived direct image on the constructible categories"
 order = 3157
 tags = ["latex:proposition"]
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "prop-weil-pbc-direct-image-limits", "prop-weil-proper-direct-image-boundedness", "prop-weil-proper-direct-image-constructibility"]
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "prop-weil-pbc-direct-image-limits", "prop-weil-proper-direct-image-boundedness", "prop-weil-proper-direct-image-constructibility"]
 +++
 Fix the global finite-field datum
 $(p,a,q,k_0,k)$, choose a prime $\ell\neq p$, write

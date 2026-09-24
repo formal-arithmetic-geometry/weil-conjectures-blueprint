@@ -2,8 +2,8 @@
 id = "lem-weil-pbc-curve-dense-open-localization"
 kind = "lemma"
 title = "Dense-open localization"
-order = 1813
-uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-eight-curve-assertions-detailed", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-eight-curve-devissage", "lem-weil-pbc-zero-dimensional-cohomology", "lem-weil-pbc-zero-dimensional-field-extension", "prop-weil-pbc-geometric-stalks-exact"]
+order = 1786
+uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-zero-dimensional-cohomology", "lem-weil-pbc-zero-dimensional-field-extension", "lemma-weil-pbc-eight-curve-devissage", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $C$ be a reduced curve and $F$ a constructible $\mathbf F_r$-sheaf. There
 is a dense open $j:U\hookrightarrow C$, a finite disjoint union of irreducible
@@ -37,11 +37,11 @@ identity of the right term. For the equivalence: $j_!j^{-1}F$ decomposes as
 the finite direct sum of the $j_{a,!}(F|_{U_a})$ (the $U_a$ are open and
 closed in $U$), the terms $i_*i^{-1}F$ are constructible on the
 zero-dimensional $Z$, where all $\mathcal C_j$
-([def-weil-pbc-eight-curve-assertions-detailed]) hold: the vanishing and
+([def-weil-pbc-eight-curve-assertions]) hold: the vanishing and
 finite-stalk finiteness statements follow from
 [lem-weil-pbc-zero-dimensional-cohomology], field-extension invariance follows
 from [lem-weil-pbc-zero-dimensional-field-extension], and (C8) is a map
 between zero groups. Moreover, $\mathcal C(-,G_1\oplus G_2)$ is equivalent to
 $\mathcal C(-,G_1)\wedge\mathcal C(-,G_2)$ for the finite direct sums;
-together with [lem-weil-pbc-eight-curve-devissage] this gives the displayed
+together with [lemma-weil-pbc-eight-curve-devissage] this gives the displayed
 equivalence.

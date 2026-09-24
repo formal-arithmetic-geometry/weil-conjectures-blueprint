@@ -2,7 +2,7 @@
 id = "pqf-lem-locqf-restrict"
 kind = "lemma"
 title = "Restriction of locally quasi-finite morphisms"
-order = 2134
+order = 2132
 uses = ["pqf-def-quasifinite"]
 +++
 If $f:X\to S$ is locally quasi-finite, then for any open subschemes

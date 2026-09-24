@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-blowup-proper"
 kind = "lemma"
 title = "Properness of the affine blow-up"
-order = 247
+order = 248
 lean = ["AlgebraicGeometry.AffineBlowup.isProper_toSpec"]
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-proj", "lemma-nagata-rees-degree-zero", "prop-nagata-rees-finite-generation", "prop-nagata-rees-graded"]
 +++
@@ -21,6 +21,3 @@ verified properness instance for $\operatorname{Proj}$ of a graded ring of
 finite type over its degree-zero part ([def-nagata-affine-proj]) makes the
 structural morphism proper, and composing with an isomorphism keeps it
 proper.
-
-This route does not pass through projectivity: the projective embedding of
-[prop-nagata-affine-blowup-projective] is not needed for properness.

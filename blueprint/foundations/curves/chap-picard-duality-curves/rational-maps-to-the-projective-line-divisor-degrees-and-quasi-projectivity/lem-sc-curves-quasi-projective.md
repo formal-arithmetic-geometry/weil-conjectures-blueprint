@@ -3,7 +3,7 @@ id = "lem-sc-curves-quasi-projective"
 kind = "lemma"
 title = "Curves are quasi-projective"
 order = 2243
-uses = ["def-sc-curves", "def-sc-quasi-projective", "lem-sc-dim0-finite", "lem-sc-positive-degree-ample", "lem-sc-segre-embedding"]
+uses = ["def-sc-curves", "def-sc-quasi-projective", "lem-chow-segre", "lem-sc-dim0-finite", "lem-sc-positive-degree-ample"]
 +++
 Every smooth separated curve over a field
 $k$ is quasi-projective: there
@@ -38,5 +38,5 @@ on $W$. Combining the embedding of $V_{i-1}$ into
 $\mathbf P^N$, the embedding of $U_i$ into $\mathbf A^M$, and
 these sections gives an embedding of $V_i$ into
 $\mathbf P^N\times\mathbf P^M$, hence into a single projective
-space via the Segre embedding ([lem-sc-segre-embedding]). After $r$ steps one obtains a
+space via the Segre embedding ([lem-chow-segre]). After $r$ steps one obtains a
 locally closed immersion $C\hookrightarrow\mathbf P^{N'}_k$.

@@ -2,7 +2,7 @@
 id = "pqf-lem-finite-qf"
 kind = "lemma"
 title = "Finite morphisms are quasi-finite"
-order = 2103
+order = 2101
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-quasifinite", "pqf-lem-qf-finitefibres"]
 +++
 A finite morphism of

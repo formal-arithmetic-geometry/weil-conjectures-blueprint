@@ -2,15 +2,14 @@
 id = "def-nagata-sheaf-rees-algebra"
 kind = "definition"
 title = "Sheaf Rees algebra"
-order = 266
+order = 269
 uses = ["lemma-nagata-sheaf-ideal-powers-assoc"]
 +++
 **Status.** Bypassed by the formalized route: no separate relative-Proj
 primitive was formalized. The blow-up is glued from the affine Proj charts
 (`AlgebraicGeometry.Proj.basicOpenIsoSpec`,
 `AlgebraicGeometry.Proj.iSup_basicOpen_eq_top`) with
-`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`, as
-[lemma-nagata-relative-proj-current-api] explains.
+`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`.
 
 Let $\mathcal I\subseteq\mathcal O_X$ be a quasi-coherent ideal sheaf. Define
 its sheaf Rees algebra by

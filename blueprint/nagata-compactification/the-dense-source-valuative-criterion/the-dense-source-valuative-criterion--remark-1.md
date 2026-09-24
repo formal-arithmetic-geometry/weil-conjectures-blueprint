@@ -3,7 +3,7 @@ id = "the-dense-source-valuative-criterion--remark-1"
 kind = "remark"
 title = "Formalization route"
 order = 460
-uses = ["lemma-nagata-composite-valuation-ring", "lemma-nagata-dense-flat-pullback", "lemma-nagata-dense-valuation-probe", "lemma-nagata-field-point-polynomial-presentation", "lemma-nagata-reduced-dense-image-schematic", "lemma-nagata-valuation-intersection", "lemma-nagata-valuation-ring-extension"]
+uses = ["lemma-nagata-composite-valuation-ring", "lemma-nagata-dense-flat-pullback", "lemma-nagata-dense-valuation-probe", "lemma-nagata-reduced-dense-image-schematic", "lemma-nagata-valuation-intersection", "lemma-nagata-valuation-ring-extension"]
 +++
 In Lean the two conclusions are split into
 `ValuativeCriterion.universallyClosed_of_isDominant` and
@@ -23,8 +23,7 @@ scheme-theoretically dominant with no reducedness hypothesis, and the
 valuative data factors through the image because $\operatorname{Spec}$ of a
 valuation ring or of a field is reduced
 (`Scheme.IdealSheafData.le_ker_of_range_subset_support`); and the
-polynomial presentation of
-[lemma-nagata-field-point-polynomial-presentation] is inlined via
+polynomial presentation of a field-valued point is inlined via
 `MvPolynomial.eval₂Hom`. The flat-pullback and reduced-density
 inputs ([lemma-nagata-dense-flat-pullback],
 [lemma-nagata-reduced-dense-image-schematic]) are provided by Mathlib's
@@ -52,8 +51,7 @@ $\operatorname{Spec}(R)$.
 
 Choose an affine open $\operatorname{Spec}(B)\subseteq X$ through which
 the generic map factors. Choose the polynomial $B$-algebra $P$ and
-surjection $P\twoheadrightarrow K$ from
-[lemma-nagata-field-point-polynomial-presentation]. The map
+surjection $P\twoheadrightarrow K$ presenting the field-valued point. The map
 $\operatorname{Spec}(P)\to X$ is flat. Therefore
 
 $$

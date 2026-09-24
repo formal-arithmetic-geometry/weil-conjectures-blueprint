@@ -3,7 +3,7 @@ id = "lem-pur-smb-extraordinary"
 kind = "lemma"
 title = "Smooth base change for the exceptional inverse image"
 order = 3594
-uses = ["cor-sf-ambient-adjoint-discharge", "def-exchange-projection", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "prop-asd-smooth-base-change", "thm-cbc-finite-level-proetale", "thm-sf-ambient-adjoint-class", "thm-weil-pbc-site-comparison"]
+uses = ["cor-sf-ambient-adjoint-discharge", "def-exchange-projection", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-asd-smooth-base-change", "thm-cbc-finite-level-proetale", "thm-sf-ambient-adjoint-class", "thm-weil-pbc-site-comparison"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let

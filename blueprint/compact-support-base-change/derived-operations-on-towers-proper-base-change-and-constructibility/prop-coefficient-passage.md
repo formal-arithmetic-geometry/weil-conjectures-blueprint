@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Adic, rational, and algebraically closed passage"
 order = 3158
 tags = ["latex:proposition"]
-uses = ["def-exchange-projection", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "prop-weil-direct-image-constructible-landing", "prop-weil-finite-proper-base-change-exchange", "prop-weil-pbc-direct-image-limits", "prop-weil-pbc-rational-transport", "thm-weil-pbc-finite-extension", "thm-weil-pbc-qbar"]
+uses = ["def-exchange-projection", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "prop-weil-direct-image-constructible-landing", "prop-weil-finite-proper-base-change-exchange", "prop-weil-pbc-direct-image-limits", "prop-weil-pbc-rational-transport", "thm-weil-pbc-finite-extension", "thm-weil-pbc-qbar"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put
 $q=p^a$, $k_0=\Fq$, and let $k=\Fbar$ be the

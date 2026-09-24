@@ -2,7 +2,7 @@
 id = "local-frobenius-and-cohomological-conventions"
 kind = "section"
 title = "Local Frobenius and cohomological conventions"
-order = 1490
+order = 1953
 +++
 The local operator $F_y$ attached to a closed point
 [def-weil-local-frobenius-trace] is built by iterating the Weil isomorphism

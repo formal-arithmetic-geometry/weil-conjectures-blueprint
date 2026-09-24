@@ -2,8 +2,8 @@
 id = "fin2-lem-recollement-proper"
 kind = "lemma"
 title = "The recollement sequence and the direct images"
-order = 3219
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-constructible-serre", "lem-weil-pbc-geometric-stalk-conservative"]
+order = 3216
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative", "thm-constructible-serre"]
 +++
 Let $p:Y\to T$ be a morphism of schemes of finite type over $k$, let
 $j:U\hookrightarrow Y$ be a
@@ -43,7 +43,7 @@ vanishes, while at a geometric point $\bar y$ of $Z$ the first term
 vanishes and the last two agree, by the stalk descriptions of
 [def-weil-pbc-extension-by-zero] and of the inverse image of
 [def-weil-pbc-inverse-image]; the geometric stalk functors are
-jointly conservative ([lem-weil-pbc-geometric-stalk-conservative]).
+jointly conservative ([lemma-weil-pbc-geometric-stalk-conservative]).
 The long exact sequence of higher direct images of
 [def-weil-pbc-direct-image] for the exact sequence gives the
 displayed segment (the $R^q(p\circ i)_*$ appearing for the last term,
@@ -51,6 +51,6 @@ since $p\circ i$ is the composite). The extension description of the
 middle term is the interpretation of exactness of a
 three-term segment, and the submodule and quotient of constructible
 sheaves are constructible by the weak-Serre closure of
-[lem-weil-pbc-constructible-serre]; the vanishing $q>2e$ of the
+[thm-constructible-serre]; the vanishing $q>2e$ of the
 middle term follows from the vanishing of both outer terms at the
 same $q$.

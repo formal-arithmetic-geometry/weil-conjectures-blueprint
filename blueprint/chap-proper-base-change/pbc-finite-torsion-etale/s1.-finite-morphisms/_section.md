@@ -2,6 +2,6 @@
 id = "s1.-finite-morphisms"
 kind = "section"
 title = "S1. Finite morphisms"
-order = 1647
-uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-property", "def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange-detailed", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-property-iff-acyclicity"]
+order = 1651
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-property-iff-acyclicity"]
 +++

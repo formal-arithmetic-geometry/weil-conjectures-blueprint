@@ -20,10 +20,9 @@ after a single admissible blow-up of the source. The proof is a chain of four
 special cases, the last of which uses Zariski's Main Theorem to replace an
 arbitrary target by a quasi-affine one.
 
-The route written in the preceding sections — Raynaud–Gruson flattening by
-blow-up (Stacks Tags 0815, 081R, 081P, 081L) — is not the formalized one;
-see the remark after [lemma-nagata-module-strict-transform-exact] and the
-route remark closing this section. This section is formalized: most statements
+The Stacks Project's route through Raynaud–Gruson flattening by blow-up
+(Stacks Tags 0815, 081R, 081P, 081L) is not the formalized one and is not
+recorded; see the route remark closing this section. This section is formalized: most statements
 below carry a non-empty `\lean` field naming the declaration that realizes
 them, up to Conrad's Theorem 2.4 itself
 (`AlgebraicGeometry.exists_admissibleBlowup_extend_partialSection`) and its

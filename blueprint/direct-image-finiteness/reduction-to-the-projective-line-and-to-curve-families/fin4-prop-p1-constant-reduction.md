@@ -4,7 +4,7 @@ kind = "theorem"
 title = "The projective line: reduction to constant coefficients on curve families"
 order = 3261
 tags = ["latex:proposition"]
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "fin4-lem-domination-trick", "fin4-lem-fibrewise-cohomological-dimension", "fin4-thm-finite-morphisms-constructible", "lem-weil-pbc-constructible-finite-pushforward", "lem-weil-pbc-constructible-serre", "sbc-def-coefficient-conventions", "thm-fin-proper-case"]
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "fin4-lem-domination-trick", "fin4-lem-fibrewise-cohomological-dimension", "fin4-thm-finite-morphisms-constructible", "lemma-weil-pbc-constructible-finite-pushforward", "sbc-def-coefficient-conventions", "thm-constructible-serre", "thm-fin-proper-case"]
 +++
 Assume that $P$ (the assertion of
 [fin4-lem-domination-trick]) holds for every

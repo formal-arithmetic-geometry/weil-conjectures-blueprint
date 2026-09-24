@@ -2,9 +2,9 @@
 id = "lemma-nagata-effective-cartier-is-invertible"
 kind = "lemma"
 title = "An effective Cartier ideal is invertible"
-order = 259
+order = 260
 lean = ["AlgebraicGeometry.isEffectiveCartierCenter_iff_isInvertible_ker"]
-uses = ["def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal"]
+uses = ["def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal", "lemma-nagata-scheme-theoretic-closure-minimal"]
 +++
 Every effective Cartier ideal is invertible as an ideal sheaf.
 

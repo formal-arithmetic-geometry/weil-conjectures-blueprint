@@ -2,7 +2,7 @@
 id = "lem-sc-affine-unit-quotient"
 kind = "lemma"
 title = "Units modulo powers on an affine curve"
-order = 1598
+order = 1599
 uses = ["def-sc-curves", "lem-sc-compactification", "lem-sc-divisor-class-curve", "lem-sc-global-functions"]
 +++
 Let $C$ be a smooth affine curve

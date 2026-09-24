@@ -2,7 +2,7 @@
 id = "def-sc-invertible-module"
 kind = "definition"
 title = "Invertible modules and their duals"
-order = 2150
+order = 2148
 uses = ["def-sc-curves"]
 +++
 Let $C$ be a curve. An

@@ -3,7 +3,7 @@ id = "lem-kun-projective-implies-proper"
 kind = "lemma"
 title = "Projective morphisms are proper"
 order = 3019
-uses = ["def-kun-projective", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-chow-closed-model-proper", "lem-weil-pbc-closed-immersion-proper", "lem-weil-pbc-proper-composition"]
+uses = ["def-kun-projective", "def-weil-pbc-scheme-conventions", "lem-chow-closed-model", "lem-weil-pbc-closed-immersion-proper", "lem-weil-pbc-proper-composition"]
 +++
 Every projective morphism is
 proper (the structural
@@ -21,5 +21,5 @@ $\mathbf P^N_{\mathbf Z}\to\Spec\mathbf Z$, which is proper (Stacks
 Project,
 [Tag `01WC`](https://stacks.math.columbia.edu/tag/01WC),
 quoted in the proper-base-change chapter,
-[lem-weil-pbc-chow-closed-model-proper]). Hence $f=q\circ i$
+[lem-chow-closed-model]). Hence $f=q\circ i$
 is proper by lem:weil-pbc-proper-composition.

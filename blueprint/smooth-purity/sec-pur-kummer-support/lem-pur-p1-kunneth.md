@@ -3,7 +3,7 @@ id = "lem-pur-p1-kunneth"
 kind = "lemma"
 title = "Kunneth compatibility on the product"
 order = 3572
-uses = ["def-exchange-projection", "def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "thm-pur-p1-decomposition", "thm-weil-pbc-finite-torsion"]
+uses = ["def-exchange-projection", "def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-weil-proet-finite-proper-base-change", "thm-pur-p1-decomposition"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $Y$ be a separated finite-type $k$-scheme, let $P=\mathbf P^1_Y$, $W=P\times_YP$, with projections $p_1,p_2$, and let
@@ -49,7 +49,7 @@ class of the relative divisor at infinity, and the decomposition
 follows from the base-change compatibility of
 [thm-pur-p1-decomposition]. Item (2): the Kunneth comparison is
 the compatibility of $R(p_2)_!$ with the base change
-([def-exchange-projection], [thm-weil-pbc-finite-torsion])
+([def-exchange-projection], [prop-weil-proet-finite-proper-base-change])
 and the projection formula. The three displayed values: the class
 $h_2$ is the pullback $p_2^*h$, whose $(p_2)_*$-image is
 $h\cdot(p_2)_*(1_W)$ by the projection formula and the second

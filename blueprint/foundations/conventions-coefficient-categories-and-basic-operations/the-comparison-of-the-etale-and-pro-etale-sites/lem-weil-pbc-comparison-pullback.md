@@ -2,8 +2,8 @@
 id = "lem-weil-pbc-comparison-pullback"
 kind = "lemma"
 title = "Comparison inverse image commutes with scheme pullback"
-order = 1337
-uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-inverse-image", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-sections"]
+order = 1401
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-sections"]
 +++
 For $u:U\to V$ there is a natural isomorphism
 
@@ -13,7 +13,7 @@ $$
 $$
 
 It is compatible with identity maps, composites, and the cartesian
-identification in [def-weil-pbc-cartesian-square-detailed].
+identification in [def-weil-pbc-cartesian-square].
 
 ## Proof
 
@@ -36,6 +36,6 @@ the just specified identifications extend uniquely to an isomorphism on every
 sheaf for the morphism of [def-weil-pbc-site-comparison-morphism]. On
 representables the identity and composition equations are the identity and
 associativity of scheme base change, including the chosen cartesian
-identification in [def-weil-pbc-cartesian-square-detailed]. The colimit presentations
+identification in [def-weil-pbc-cartesian-square]. The colimit presentations
 extend these equations to all sheaves. Exactness gives the same coherent
 isomorphisms on complexes.

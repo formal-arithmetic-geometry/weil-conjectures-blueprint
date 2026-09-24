@@ -2,7 +2,7 @@
 id = "prop-compactification-refinement"
 kind = "theorem"
 title = "Existence and common refinement"
-order = 608
+order = 614
 tags = ["latex:proposition"]
 uses = ["def-weil-compactifications-refinements", "def-weil-scheme-morphism-properties", "thm-nagata-compactification"]
 +++

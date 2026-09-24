@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properties of the common modification, [stacks-project]"
 order = 444
 lean = ["AlgebraicGeometry.nonempty_commonModification"]
-uses = ["def-nagata-common-modification", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-elimination-indeterminacy", "lemma-nagata-extend-admissible-blowup", "lemma-nagata-product-ideal-common-blowup", "lemma-nagata-proper-to-separated-target", "lemma-nagata-scheme-image-partial-section", "lemma-nagata-separated-two-open-cover"]
+uses = ["def-nagata-common-modification", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-elimination-indeterminacy", "lemma-nagata-extend-admissible-blowup", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-product-ideal-common-blowup", "lemma-nagata-proper-to-separated-target", "lemma-nagata-scheme-image-partial-section", "lemma-nagata-separated-two-open-cover", "prop-nagata-global-blowup-cover-independent"]
 +++
 Each constructed map $X'_i\to X_i$ is a $U$-admissible blow-up. Each
 $X'_i\to\mathsf{CM}(X_1,X_2;U)$ is an open immersion, their two copies of

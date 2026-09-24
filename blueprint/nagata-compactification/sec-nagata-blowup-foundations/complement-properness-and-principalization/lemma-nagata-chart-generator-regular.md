@@ -2,7 +2,7 @@
 id = "lemma-nagata-chart-generator-regular"
 kind = "lemma"
 title = "Regularity of the chart generator"
-order = 255
+order = 256
 lean = ["AlgebraicGeometry.AffineBlowup.isRegular_awayAlgebraMap"]
 uses = ["def-nagata-blowup-chart-ring"]
 +++

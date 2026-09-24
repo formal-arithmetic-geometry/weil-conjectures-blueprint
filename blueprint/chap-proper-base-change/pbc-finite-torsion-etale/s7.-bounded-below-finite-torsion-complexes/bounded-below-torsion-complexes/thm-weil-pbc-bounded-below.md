@@ -2,10 +2,10 @@
 id = "thm-weil-pbc-bounded-below"
 kind = "theorem"
 title = "Bounded-below derived proper base change"
-order = 1847
-uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-exact-couple-abutment", "lem-weil-pbc-exact-couple-differential", "lem-weil-pbc-hypercohomology-convergence", "prop-weil-pbc-torsion-assembly"]
+order = 1840
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-exact-couple-differential", "lemma-weil-pbc-exact-couple-abutment", "lemma-weil-pbc-hypercohomology-convergence", "lemma-weil-pbc-torsion-assembly"]
 +++
-For a cartesian square [def-weil-pbc-cartesian-square-detailed] with $f$ proper and
+For a cartesian square [def-weil-pbc-cartesian-square] with $f$ proper and
 every $K\in\Dplus(X_{\Et})$ with torsion cohomology,
 
 $$
@@ -17,15 +17,15 @@ is an isomorphism in $\Dplus(Y'_{\Et})$.
 
 ## Proof
 
-The exchange morphism of [def-weil-pbc-derived-exchange-detailed] induces the morphism
+The exchange morphism of [def-weil-pbc-derived-exchange] induces the morphism
 of hypercohomology spectral sequences whose $E_2$ map is the exchange map for
 the torsion cohomology sheaf $\mathcal H^q(K)$, an isomorphism by
-[prop-weil-pbc-torsion-assembly]; the differential compatibility is
+[lemma-weil-pbc-torsion-assembly]; the differential compatibility is
 [lem-weil-pbc-exact-couple-differential]. If $\mathcal H^q(K)=0$ for $q<a$,
 then in fixed total degree $n$ only $a\leq q\leq n$ occurs by
-[lem-weil-pbc-hypercohomology-convergence], so both filtrations are finite,
+[lemma-weil-pbc-hypercohomology-convergence], so both filtrations are finite,
 exhaustive, and separated. Page induction gives an isomorphism on $E_\infty$,
 and induction on the finite filtration gives an isomorphism on each abutment;
-the abutment identification [lem-weil-pbc-exact-couple-abutment] identifies
+the abutment identification [lemma-weil-pbc-exact-couple-abutment] identifies
 that abutment map with the cohomology map of the named mate, which is
 therefore an isomorphism.

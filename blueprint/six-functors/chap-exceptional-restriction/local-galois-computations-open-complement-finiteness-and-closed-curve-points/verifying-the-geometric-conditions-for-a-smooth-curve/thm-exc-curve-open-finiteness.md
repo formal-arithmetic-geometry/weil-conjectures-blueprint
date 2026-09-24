@@ -3,7 +3,7 @@ id = "thm-exc-curve-open-finiteness"
 kind = "theorem"
 title = "Open-complement finiteness on a smooth curve"
 order = 3326
-uses = ["def-exc-continuous-cohomology", "def-sc-curves", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-dvr-galois", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula-detailed", "thm-galois-fundamental"]
+uses = ["def-exc-continuous-cohomology", "def-sc-curves", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-dvr-galois", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-galois-fundamental"]
 +++
 Let $k$ be a finite field or its algebraic closure, let $T/k$
 be a smooth curve, and let $Z$ be a
@@ -27,7 +27,7 @@ for every constructible sheaf $F$.
 At a geometric point over $U$, the functor $j^*j_*$ is the
 identity and restriction is exact, so all positive direct-image stalks
 are zero. At a geometric point $\bar z$ over $z\in Z$,
-[prop-weil-pbc-strict-henselization-stalk-formula-detailed] gives
+[prop-weil-pbc-strict-henselization-stalk-formula] gives
 
 $$
 (R^qj_*M)_{\bar z}=H^q(\operatorname{Spec}F_{\bar z},M|),
@@ -51,7 +51,7 @@ extends to an exact equivalence of the whole module categories.
 Sections are invariants, so their right derived functors are exactly
 [def-exc-continuous-cohomology]. The vanishing assertion now
 follows from [lem-exc-dvr-galois] and the conservative etale
-stalks of [lem-weil-pbc-geometric-stalk-conservative].
+stalks of [lemma-weil-pbc-geometric-stalk-conservative].
 
 For a constructible $F$, its restriction to each fraction field
 has finite module fibre. The same calculation makes the degree-zero

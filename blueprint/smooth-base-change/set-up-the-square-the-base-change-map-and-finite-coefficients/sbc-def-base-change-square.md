@@ -3,7 +3,7 @@ id = "sbc-def-base-change-square"
 kind = "definition"
 title = "Base-change square"
 order = 2761
-uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-scheme-conventions"]
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-scheme-conventions"]
 +++
 A *base-change square* is a diagram of schemes
 
@@ -29,4 +29,4 @@ $$
 $$
 
 of inverse-image functors, compatible with identity and pasted
-squares, as in [def-weil-pbc-cartesian-square-detailed].
+squares, as in [def-weil-pbc-cartesian-square].

@@ -2,8 +2,8 @@
 id = "lem-weil-pbc-etale-restriction-injectives"
 kind = "lemma"
 title = "Etale restriction preserves injectives"
-order = 1192
-uses = ["def-weil-pbc-etale-sum-extension", "def-weil-pbc-inverse-image", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
+order = 1201
+uses = ["def-weil-pbc-etale-sum-extension", "def-weil-pbc-inverse-image", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 For an etale map $v:W\to X$, the functor $v_!$
 [def-weil-pbc-etale-sum-extension] is exact and left adjoint to $v^*$
@@ -32,7 +32,7 @@ on a further neighbourhood. Thus taking the colimit over neighbourhoods gives
 exactly the displayed direct sum, whose elements have finite support.
 Geometric stalks are exact by
 [prop-weil-pbc-geometric-stalks-exact]; direct sums of modules are exact.
-Conservativity in [lem-weil-pbc-geometric-stalk-conservative] proves
+Conservativity in [lemma-weil-pbc-geometric-stalk-conservative] proves
 exactness of $v_!$. Finally
 $\operatorname{Hom}(-,v^*I)=\operatorname{Hom}(v_!(-),I)$ is exact when $I$
 is injective, proving the last assertion.

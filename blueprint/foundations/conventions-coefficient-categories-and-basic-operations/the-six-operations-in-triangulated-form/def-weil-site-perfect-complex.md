@@ -2,11 +2,11 @@
 id = "def-weil-site-perfect-complex"
 kind = "definition"
 title = "Perfect complexes on the coefficient site"
-order = 1387
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-completed-integral-coefficients", "def-weil-derived-pullback-tensor-hom", "def-weil-rationalization-karoubi", "def-weil-small-proetale-site-detailed"]
+order = 1650
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-completed-integral-coefficients", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi"]
 +++
 Let $Y$ have the small pro-etale site
-[def-weil-small-proetale-site-detailed], with the coefficient categories and
+[def-weil-pbc-proetale-site], with the coefficient categories and
 pullbacks of [def-weil-derived-pullback-tensor-hom]. For finite
 $\Lambda=A_{E,n}$, a complex $K$ is *perfect on the coefficient site* if a
 covering $\{U_\alpha\to Y\}$ makes each $K|_{U_\alpha}$ isomorphic to a

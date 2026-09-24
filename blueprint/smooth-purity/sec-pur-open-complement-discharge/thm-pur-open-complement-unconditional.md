@@ -3,7 +3,7 @@ id = "thm-pur-open-complement-unconditional"
 kind = "theorem"
 title = "The open-complement condition is unconditional and uniform in the coefficient ring"
 order = 3655
-uses = ["def-exc-direct-image-input", "def-exc-open-complement-bound", "def-pur-conventions", "def-sbc-affine-space", "def-weil-finite-field-fiber", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-exc-open-complement-known", "lem-kun-cd-sep-closed-point", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula-detailed", "thm-dg-finite-type-constructibility", "thm-exc-curve-open-constructible-general", "thm-exc-curve-open-dimension-general", "thm-exc-direct-image-input-holds", "thm-pur-general-admissibility", "thm-sc-finite-type-torsion-cd"]
+uses = ["def-exc-direct-image-input", "def-exc-open-complement-bound", "def-pur-conventions", "def-sbc-affine-space", "def-weil-finite-field-fiber", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-exc-open-complement-known", "lem-kun-cd-sep-closed-point", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-dg-finite-type-constructibility", "thm-exc-curve-open-constructible-general", "thm-exc-curve-open-dimension-general", "thm-exc-direct-image-input-holds", "thm-pur-general-admissibility", "thm-sc-finite-type-torsion-cd"]
 +++
 Let $k$ be a separably closed field, let $A$ be a finite commutative ring
 annihilated by a power of a prime $\ell\neq\operatorname{char}(k)$, let
@@ -56,7 +56,7 @@ the second clause of the open-complement condition, and it uses
 
 *Step 3: the vanishing clause.* Fix a geometric point
 $\bar t\to T$. The strict-henselization stalk formula
-[prop-weil-pbc-strict-henselization-stalk-formula-detailed] identifies the stalk of
+[prop-weil-pbc-strict-henselization-stalk-formula] identifies the stalk of
 the higher direct image with the cohomology of the open complement over the
 strict henselization at $\bar t$,
 
@@ -74,7 +74,7 @@ separably closed with characteristic prime to that power, so clause (2) of
 the input gives $H^q(V\times_TU,M)=0$ for every $q>2d$. A filtered
 colimit of zero groups is zero, so every geometric stalk of $R^qj_*M$
 vanishes for $q>2d$, and the conservativity of geometric stalks
-[lem-weil-pbc-geometric-stalk-conservative] makes the sheaf itself zero.
+[lemma-weil-pbc-geometric-stalk-conservative] makes the sheaf itself zero.
 This is the first clause of the open-complement condition, with $c=2d$.
 
 *Step 4: uniformity in the coefficient ring.* Steps 2 and 3 use of

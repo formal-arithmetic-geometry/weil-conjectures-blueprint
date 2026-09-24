@@ -2,8 +2,8 @@
 id = "finite-tor-amplitude-constructible-intervals-and-coefficient-tate-twists"
 kind = "section"
 title = "Finite Tor amplitude, constructible intervals, and coefficient Tate twists"
-order = 1379
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-rationalization-karoubi", "def-weil-small-proetale-site-detailed"]
+order = 1641
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi"]
 +++
 Three pieces of bookkeeping used by the operations. Finite Tor amplitude
 [def-weil-finite-tor-amplitude] is a genuine extra condition at finite

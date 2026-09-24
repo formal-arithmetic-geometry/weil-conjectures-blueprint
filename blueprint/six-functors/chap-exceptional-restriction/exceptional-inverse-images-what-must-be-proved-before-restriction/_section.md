@@ -3,7 +3,7 @@ id = "exceptional-inverse-images-what-must-be-proved-before-restriction"
 kind = "section"
 title = "Exceptional inverse images: what must be proved before restriction"
 order = 3305
-uses = ["def-weil-constructible-intervals", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-extension-by-zero", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-fet-locally-trivial", "lem-weil-extension-by-zero-adjunction", "lem-weil-extension-by-zero-exact"]
+uses = ["def-weil-constructible-intervals", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-extension-by-zero", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-fet-locally-trivial", "lem-weil-extension-by-zero-adjunction", "lem-weil-extension-by-zero-exact"]
 +++
 All derived categories in this section are ordinary categories of complexes
 localized at quasi-isomorphisms. The adjunction has direction

@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-generators-cover-proj"
 kind = "lemma"
 title = "Degree-one generators cover Proj"
-order = 206
+order = 207
 lean = ["AlgebraicGeometry.Proj.iSup_basicOpen_eq_top"]
 uses = ["prop-nagata-rees-finite-generation"]
 +++

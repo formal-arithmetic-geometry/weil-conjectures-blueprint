@@ -3,7 +3,7 @@ id = "prop-weil-pbc-composition-stability"
 kind = "theorem"
 title = "Composition stability"
 order = 1666
-uses = ["def-weil-pbc-injective-acyclicity", "def-weil-pbc-property-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-direct-image-preserves-injectives", "lem-weil-pbc-grothendieck-spectral-sequence", "lem-weil-pbc-underived-proper-exchange", "prop-weil-pbc-property-iff-acyclicity"]
+uses = ["def-weil-pbc-injective-acyclicity-property", "def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-direct-image-preserves-injectives", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-proper-underived-exchange", "lemma-weil-pbc-property-iff-acyclicity"]
 tags = ["latex:proposition"]
 +++
 Let $X\xrightarrow{f}Y\xrightarrow{h}Z$ be proper. If $\mathrm{IA}(f)$ and
@@ -23,4 +23,4 @@ sheaf $h'_*$-acyclic. The Grothendieck spectral sequence of
 [lem-weil-pbc-grothendieck-spectral-sequence] therefore vanishes in every
 positive total degree, giving $\mathrm{IA}_r(hf)$, and $\mathrm{PBC}(hf)$ by
 the equivalence between $\mathrm{PBC}$ and $\mathrm{IA}$ recorded with
-[def-weil-pbc-property-detailed].
+[def-weil-pbc-property].

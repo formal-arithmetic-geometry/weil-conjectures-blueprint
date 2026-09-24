@@ -2,7 +2,7 @@
 id = "lemma-nagata-noetherian-inverse-system-affine"
 kind = "lemma"
 title = "Noetherian approximation of an affine scheme"
-order = 537
+order = 539
 lean = ["AlgebraicGeometry.Scheme.NoetherianApproximation.ofIsAffine"]
 uses = ["def-nagata-noetherian-inverse-system", "lemma-nagata-ring-finite-type-subalgebras"]
 +++

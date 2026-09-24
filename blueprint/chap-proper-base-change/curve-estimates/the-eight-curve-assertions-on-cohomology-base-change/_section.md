@@ -9,7 +9,7 @@ The eight assertions $\mathcal C_1,\dots,\mathcal C_8$ about a curve
 coefficient pair, stated one per object so that the devissage in proper base change
 ([devissage-and-reduction-of-the-eight-curve-assertions]) can quote them
 individually, and their conjunction
-[def-weil-pbc-eight-curve-assertions-detailed]. Only $\mathcal C_7$
+[def-weil-pbc-eight-curve-assertions]. Only $\mathcal C_7$
 [def-weil-pbc-C7] is needed downstream; the other seven are carried because
 the devissage proves them simultaneously.
 

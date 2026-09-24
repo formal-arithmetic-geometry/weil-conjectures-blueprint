@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-etale-henselian-lifting"
 kind = "lemma"
 title = "Finite-etale lifting over a henselian pair"
-order = 1726
+order = 1720
 uses = ["def-weil-pbc-strict-henselian-setup", "lemma-weil-pbc-finite-locally-constant-etale-equivalence"]
 +++
 If $(A,\mathfrak m)$ is henselian and $Y\to\operatorname{Spec}A$ is proper,

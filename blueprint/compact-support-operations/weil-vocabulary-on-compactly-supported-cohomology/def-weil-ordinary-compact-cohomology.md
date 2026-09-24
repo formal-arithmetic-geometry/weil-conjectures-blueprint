@@ -3,7 +3,7 @@ id = "def-weil-ordinary-compact-cohomology"
 kind = "definition"
 title = "Ordinary and compactly supported cohomology"
 order = 3186
-uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "def-weil-weil-sheaf-complex"]
+uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, where
 $q=p^a$, and a prime $\ell\neq p$. Write $\Ql=\mathbf Q_\ell$, choose an
@@ -51,7 +51,7 @@ $$
 
 For a coefficient ring $\Lambda$ in the displayed list, let $\Lambda_Y$
 denote its coefficient object on the small pro-etale site
-[def-weil-small-proetale-site-detailed]: it is the finite-level constant
+[def-weil-pbc-proetale-site]: it is the finite-level constant
 sheaf $(A_{E,n})_Y$ for $\Lambda=A_{E,n}$, the completed coefficient sheaf
 $\widehat{\mathcal O}_{E,Y}$ from the derived-complete integral construction
 [def-weil-derived-complete-integral-detailed] for $\Lambda=\mathcal O_E$, and

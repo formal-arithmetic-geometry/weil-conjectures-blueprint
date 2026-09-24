@@ -2,7 +2,7 @@
 id = "lem-sc-point-cartier"
 kind = "lemma"
 title = "Closed points are Cartier divisors on smooth curves"
-order = 2208
+order = 2206
 uses = ["def-sc-curves", "def-sc-divisor", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
 Let $C$ be a smooth curve over $k$ and

@@ -3,7 +3,7 @@ id = "lem-sf-etale-neighbourhoods-not-cofinal"
 kind = "lemma"
 title = "The pointed étale neighbourhoods are not cofinal among the pointed pro-étale ones"
 order = 3737
-uses = ["def-weil-pbc-etale-site", "def-weil-pbc-pointed-etale-neighbourhoods-detailed", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "lem-sf-proetale-neighbourhood-colimit", "lem-weil-pbc-affine-neighbourhood-cofinal", "thm-sf-continuity-arbitrary-sheaves-vanishing"]
+uses = ["def-weil-pbc-etale-site", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "lem-sf-proetale-neighbourhood-colimit", "lemma-weil-pbc-affine-neighbourhood-cofinal", "thm-sf-continuity-arbitrary-sheaves-vanishing"]
 +++
 Let $k$ be a field that is not separably closed, let $\Omega$ be an
 algebraically closed field containing $k$, let
@@ -21,7 +21,7 @@ $\bar v$;
 $U\to\operatorname{Spec}k$ étale and
 $U$ nonempty; in particular no
 pointed étale neighbourhood of $\bar v$ in the sense of
-[def-weil-pbc-pointed-etale-neighbourhoods-detailed] admits a morphism to
+[def-weil-pbc-pointed-etale-neighbourhoods] admits a morphism to
 $(\operatorname{Spec}K,\bar v')$;
 1. **(iii)** consequently the colimit of the groups
 $H^q(U_{\Proet},\mathcal F|_U)$ over the pointed étale neighbourhoods of
@@ -69,7 +69,7 @@ $k$-morphism $U\to\operatorname{Spec}K$, so none exists.
 category when every object of the ambient category admits a morphism from an
 object of the subcategory: this is the criterion in whose form the affine
 pointed étale neighbourhoods are used in
-[lem-weil-pbc-affine-neighbourhood-cofinal]. By (ii) the pointed
+[lemma-weil-pbc-affine-neighbourhood-cofinal]. By (ii) the pointed
 pro-étale neighbourhood $(\operatorname{Spec}K,\bar v')$ receives no
 morphism from any pointed étale neighbourhood, so the criterion fails and the
 two colimits are not compared by it. Nothing here asserts that

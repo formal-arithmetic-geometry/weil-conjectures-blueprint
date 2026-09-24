@@ -2,9 +2,9 @@
 id = "lemma-nagata-blowup-universal-unique"
 kind = "lemma"
 title = "Uniqueness of the universal lift"
-order = 277
+order = 278
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.hom_ext_of_isInvertible_comap"]
-uses = ["def-nagata-blowup-universal-lift", "lemma-nagata-blowup-universal-graded-map", "lemma-nagata-proj-chart-ring-cocycle", "lemma-nagata-relative-proj-invertible-tensor-powers", "prop-nagata-proj-standard-open"]
+uses = ["def-nagata-blowup-universal-lift", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-blowup-universal-graded-map", "lemma-nagata-proj-chart-ring-cocycle", "lemma-nagata-relative-proj-invertible-tensor-powers", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open"]
 +++
 Under the data of [def-nagata-blowup-universal-lift], every $X$-morphism
 $h\colon Y\to\operatorname{Bl}_{\mathcal I}(X)$ inducing the chosen

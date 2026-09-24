@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-closed-immersion-products"
 kind = "lemma"
 title = "Closure of the closed-immersion and finite-type properties"
-order = 1174
+order = 1178
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 The composite of closed immersions [def-weil-pbc-scheme-conventions] is a

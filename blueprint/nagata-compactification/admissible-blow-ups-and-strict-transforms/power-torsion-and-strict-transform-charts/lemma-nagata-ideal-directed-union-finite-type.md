@@ -2,9 +2,9 @@
 id = "lemma-nagata-ideal-directed-union-finite-type"
 kind = "lemma"
 title = "An ideal is the directed union of its finite type subideals, [stacks-project]"
-order = 353
+order = 354
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.directedOn_ofFiniteType_le", "AlgebraicGeometry.Scheme.IdealSheafData.exists_ofFiniteType_le_comap_eq_top_of_le", "AlgebraicGeometry.Scheme.IdealSheafData.sSup_ofFiniteType_le_comap_eq_top_eq", "AlgebraicGeometry.Scheme.IdealSheafData.sSup_ofFiniteType_le_eq"]
-uses = ["lemma-nagata-finite-type-ideal-extension-exists"]
+uses = ["lemma-nagata-affine-image-kernel-flat", "lemma-nagata-finite-type-ideal-extension-exists", "lemma-nagata-scheme-image-flat-base-change"]
 +++
 Let $X$ be qcqs and let $\mathcal H\subseteq\mathcal O_X$ be a quasi-coherent
 ideal. The finite type quasi-coherent subideals of $\mathcal H$ form a family

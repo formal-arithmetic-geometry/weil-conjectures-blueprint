@@ -3,7 +3,7 @@ id = "lem-kun-0f11"
 kind = "lemma"
 title = "Direct sums and finite cohomological dimension"
 order = 3047
-uses = ["def-kun-cd", "def-weil-pbc-derived-categories", "def-weil-pbc-hypercohomology-filtrations-detailed", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-direct-image-filtered-colimit", "lem-weil-pbc-hypercohomology-convergence"]
+uses = ["def-kun-cd", "def-weil-pbc-derived-categories", "def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-hypercohomology-convergence"]
 +++
 Let $n\ge1$, and let $f:X\to Y$ be a
 quasi-compact and
@@ -27,12 +27,12 @@ R^qf_*\Bigl(\bigoplus_iF_i\Bigr)
 $$
 
 is an isomorphism by
-[lem-weil-pbc-direct-image-filtered-colimit] (and the same argument
+[lemma-weil-pbc-direct-image-filtered-colimit] (and the same argument
 with $f$ the structure morphism gives the statement for
 $\RGamma(X_{\Et},-)$).
 *Step 2 (complexes).* For $K_i\in D(X_{\Et},\kunZn)$ ([def-weil-pbc-derived-categories]) the
 hypercohomology spectral sequences of
-[def-weil-pbc-hypercohomology-filtrations-detailed] for the $K_i$ and for
+[def-weil-pbc-hypercohomology-filtrations] for the $K_i$ and for
 $\bigoplus_iK_i$ have $E_2$-pages $R^pf_*\mathcal H^q(K_i)$
 respectively $R^pf_*\mathcal H^q(\bigoplus_iK_i)$, and
 $\mathcal H^q(\bigoplus_iK_i)=\bigoplus_i\mathcal H^q(K_i)$, so Step 1
@@ -40,7 +40,7 @@ identifies the second $E_2$-page with the direct sum of the first.
 The truncation construction of the spectral sequence is compatible with
 direct sums, so the spectral sequence of the direct sum is the direct
 sum of the spectral sequences; both converge in the half-plane sense of
-[lem-weil-pbc-hypercohomology-convergence] (half-plane, since
+[lemma-weil-pbc-hypercohomology-convergence] (half-plane, since
 $p\ge0$), and a direct sum of separated exhaustive filtrations is
 separated and exhaustive. Hence the abutments agree, i.e.
 

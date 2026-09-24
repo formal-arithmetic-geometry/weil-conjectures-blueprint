@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Coherence of the proper base-change exchange"
 order = 3156
 tags = ["latex:proposition"]
-uses = ["def-exchange-projection", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "prop-weil-finite-proper-base-change-exchange"]
+uses = ["def-exchange-projection", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-weil-finite-proper-base-change-exchange"]
 +++
 In the setting of [prop-weil-finite-proper-base-change-exchange], the
 exchange transformation

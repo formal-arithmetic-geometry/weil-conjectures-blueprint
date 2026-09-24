@@ -3,7 +3,7 @@ id = "sbc-lem-bc-integral-base"
 kind = "lemma"
 title = "Integral base change on the source"
 order = 2780
-uses = ["lem-weil-pbc-finite-direct-image-exact", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-integral-etale-direct-image-exact"]
+uses = ["lemma-weil-pbc-finite-direct-image-exact", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-integral-etale-direct-image-exact"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] assume for
 some $q\geq1$ that $\mathrm{BC}(f,n,q-1)$ holds. Consider commutative
@@ -39,7 +39,7 @@ isomorphism.
 
 Since $\pi$ and $\pi'$ are integral, $\pi_*$ and $\pi'_*$ are exact
 by [sbc-lem-integral-etale-direct-image-exact] (finite case
-[lem-weil-pbc-finite-direct-image-exact]) and
+[lemma-weil-pbc-finite-direct-image-exact]) and
 $(f')^{-1}\pi_*=\pi'_*(f'')^{-1}$, so
 $\pi'_*(f'')^{-1}R^qg'_*\mathcal F=(f')^{-1}R^qg_*\mathcal F$ and
 $\pi'_*R^qh'_*e^{-1}\mathcal F=R^qh_*e^{-1}\mathcal F$; hence the

@@ -3,7 +3,7 @@ id = "lem-kun-04ca"
 kind = "lemma"
 title = "Pushforward along a closed immersion"
 order = 3002
-uses = ["def-kun-support", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-kun-support", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $i:Z\to X$ be a
 closed immersion of

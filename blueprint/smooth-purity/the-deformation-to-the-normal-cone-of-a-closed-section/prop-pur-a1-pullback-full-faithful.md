@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Full faithfulness of the pullback along the affine line"
 order = 3606
 tags = ["latex:proposition"]
-uses = ["def-pur-conventions", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "fix-prop-adjunctions", "lem-pur-a1-direct-image", "prop-weil-pbc-inverse-image-derived-adjunction", "prop-weil-pbc-perfect-projection-formula"]
+uses = ["def-pur-conventions", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "fix-prop-adjunctions", "lem-pur-a1-direct-image", "lemma-weil-pbc-perfect-projection-formula", "prop-weil-pbc-inverse-image-derived-adjunction"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $B$ be a separated
@@ -36,7 +36,7 @@ $$
 
 The target object $M$ here is a shift of a finite locally free
 coefficient sheaf, hence is site-perfect. The ordinary projection
-formula [prop-weil-pbc-perfect-projection-formula] therefore gives
+formula [lemma-weil-pbc-perfect-projection-formula] therefore gives
 
 $$
 (R\pi_*\Lambda)\otimes^L M\xrightarrow{\sim}R\pi_*L\pi^*M.

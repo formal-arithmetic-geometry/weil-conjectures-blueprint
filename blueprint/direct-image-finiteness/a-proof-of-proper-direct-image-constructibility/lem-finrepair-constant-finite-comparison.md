@@ -3,7 +3,7 @@ id = "lem-finrepair-constant-finite-comparison"
 kind = "lemma"
 title = "Constant coefficients under a finite normalization comparison"
 order = 3244
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-finite-morphism", "lem-weil-pbc-constructible-serre", "lem-weil-pbc-finite-stalk-formula", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-grothendieck-spectral-sequence", "sbc-def-coefficient-conventions"]
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-finite-morphism", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-coefficient-conventions", "thm-constructible-serre"]
 +++
 Let $f:X\to S$ be proper between finite-type $k$-schemes and
 let $\nu:Y\to X$ be finite and surjective, in the conventions of
@@ -26,15 +26,15 @@ Here constructibility and direct image have the meanings of
 
 The unit $\underline M_X\to\nu_*\underline M_Y$ is injective
 by the diagonal description of
-[lem-weil-pbc-finite-stalk-formula]; the fibre of the
+[lemma-weil-pbc-finite-stalk-formula]; the fibre of the
 surjective finite $\nu$ is nonempty at every geometric point.
 Let $Q$ be its cokernel. Both sheaves in this monomorphism are
 constructible by [lem-fin-finite-morphism], so $Q$ is
-constructible by [lem-weil-pbc-constructible-serre].
+constructible by [thm-constructible-serre].
 Outside $Z$ the unit is an isomorphism; hence $Q$ restricts to
 zero there, and its canonical map $Q\to i_*i^*Q$ is an
 isomorphism on all geometric stalks. Use
-[lem-weil-pbc-geometric-stalk-conservative] to identify them.
+[lemma-weil-pbc-geometric-stalk-conservative] to identify them.
 
 Closed-immersion exactness in [lem-fin-closed-immersion] and
 the composition spectral sequence
@@ -70,7 +70,7 @@ $$
 All sheaves used to take the indicated kernel and cokernel are
 constructible, and the rightmost term in the short exact sequence
 is constructible by hypothesis. The weak-Serre property of
-[lem-weil-pbc-constructible-serre] proves constructibility
+[thm-constructible-serre] proves constructibility
 in degrees zero and one. In every degree $q\geq2$, the adjacent
 terms $R^{q-1}f_*Q$ and $R^qf_*Q$ are zero, so the same long
 exact sequence gives the claimed isomorphism. This proves the

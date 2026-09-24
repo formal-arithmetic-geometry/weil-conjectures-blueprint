@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Open direct images with arbitrary finite allowable coefficients"
 order = 3283
 tags = ["latex:corollary"]
-uses = ["cor-fin-deligne-open-over-field", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions", "lem-fin-coefficients-forgetful-direct-image", "lem-weil-pbc-constructible-serre", "sbc-def-coefficient-conventions", "thm-sp-truncation-e2"]
+uses = ["cor-fin-deligne-open-over-field", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions", "lem-fin-coefficients-forgetful-direct-image", "sbc-def-coefficient-conventions", "thm-constructible-serre", "thm-sp-truncation-e2"]
 +++
 Let $k$ be a field, let $A$ be a finite ring annihilated by
 an integer invertible in $k$, and let $j:X\hookrightarrow Y$
@@ -19,7 +19,7 @@ torsion group into its finitely many primary parts, and filter
 the $\ell$-primary part by
 $F\supset\ell F\supset\ell^2F\supset\cdots\supset0$.
 These subsheaves and quotients are constructible by
-[lem-weil-pbc-constructible-serre]; each quotient is
+[thm-constructible-serre]; each quotient is
 annihilated by $\ell$. Its derived direct image is computed
 over $\mathbf F_\ell$ by
 [lem-fin-coefficients-forgetful-direct-image], and is bounded
@@ -37,4 +37,4 @@ For bounded $K$, use its finitely many cohomology sheaves and
 the finite truncation triangles, equivalently
 [thm-sp-truncation-e2]. The finite union of their ranges
 bounds $Rj_*K$; kernels, cokernels and extensions preserve
-constructibility by [lem-weil-pbc-constructible-serre].
+constructibility by [thm-constructible-serre].

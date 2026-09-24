@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Milnor triangle"
 order = 3145
 tags = ["latex:proposition"]
-uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-small-proetale-site-detailed", "lem-weil-pbc-mittag-leffler", "prop-weil-pbc-roos-triangle"]
+uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-pbc-proetale-site", "lem-weil-pbc-mittag-leffler", "prop-weil-pbc-roos-triangle"]
 +++
 For a strict tower of complexes $C=(C_n)$ in
 $\operatorname{Tow}_E(Y)$ of

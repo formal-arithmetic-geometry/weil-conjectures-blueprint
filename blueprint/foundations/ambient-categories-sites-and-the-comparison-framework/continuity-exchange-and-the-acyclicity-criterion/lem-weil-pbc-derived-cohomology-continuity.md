@@ -2,8 +2,8 @@
 id = "lem-weil-pbc-derived-cohomology-continuity"
 kind = "lemma"
 title = "Continuity for bounded-below etale complexes"
-order = 1269
-uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-inverse-image-exact", "thm-weil-pbc-etale-cohomology-continuity", "thm-weil-pbc-hypercover-cohomology"]
+order = 1318
+uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-etale-cohomology-continuity", "prop-weil-pbc-inverse-image-exact", "thm-weil-pbc-hypercover-cohomology"]
 +++
 Let $X=\varprojlim_jX_j$ be a cofiltered system of quasi-compact
 quasi-separated schemes [def-weil-pbc-scheme-conventions] with affine
@@ -29,7 +29,7 @@ complementary truncation starts in degree $n+1$, and its injective resolution
 and derived sections have no cohomology in degrees at most $n$.
 
 For a single sheaf in one degree, the assertion is
-[thm-weil-pbc-etale-cohomology-continuity]. Its proof works in
+[lemma-weil-pbc-etale-cohomology-continuity]. Its proof works in
 $\Lambda$-module sheaves by the module version of
 [thm-weil-pbc-hypercover-cohomology]; its cochains and refinements are
 unchanged. Build a bounded truncation by its finite sequence of triangles

@@ -3,7 +3,7 @@ id = "lem-cbc-open-closed-recollement"
 kind = "lemma"
 title = "Open-closed recollement"
 order = 3122
-uses = ["def-cbc-extension-by-zero", "def-weil-open-closed-recollement", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-direct-image-exact", "prop-weil-open-closed-recollement-adjunctions"]
+uses = ["def-weil-open-closed-recollement", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-direct-image-exact", "prop-weil-open-closed-recollement-adjunctions"]
 +++
 Let $i:Z\hookrightarrow X$ be a
 closed immersion with
@@ -26,10 +26,10 @@ $j_!\dashv j^{-1}$, $i^{-1}\dashv i_*$ of
 ## Proof
 
 The closed immersion $i$ is finite,
-so $i_*$ is exact by [lem-weil-pbc-finite-direct-image-exact].
+so $i_*$ is exact by [lemma-weil-pbc-finite-direct-image-exact].
 A short exact sequence of sheaves
 $0\to j_!j^{-1}F\to F\to i_*i^{-1}F\to0$ is obtained from the
-stalkwise description of [def-cbc-extension-by-zero]: on $U$
+stalkwise description of [def-weil-pbc-extension-by-zero]: on $U$
 the first map is the counit of $j_!\dashv j^{-1}$, an isomorphism
 by the identity $j^*j_!\cong\operatorname{id}$ of
 [prop-weil-open-closed-recollement-adjunctions], and the third map is

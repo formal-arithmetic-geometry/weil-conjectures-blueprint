@@ -2,8 +2,8 @@
 id = "def-weil-weil-sheaf-complex"
 kind = "definition"
 title = "Weil sheaf and Weil complex"
-order = 1410
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-constructible-heart", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+order = 1763
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-constructible-heart", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-detailed", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, where
 $q=p^a$, and a prime $\ell\neq p$. Write $\Ql=\mathbf Q_\ell$, choose an
@@ -14,7 +14,7 @@ $Y=Y_0\times_{k_0}k$, and let $g_Y:Y\to Y$ be the geometric-Frobenius
 automorphism from the geometric Frobenius convention
 [def-weil-frobenius-detailed]. The category $\Sh_c(Y,E)$ is the
 constructible heart [def-weil-constructible-heart]. On the small pro-etale
-site [def-weil-small-proetale-site-detailed], its underlying constructibility
+site [def-weil-pbc-proetale-site], its underlying constructibility
 uses the finite-torsion constructibility convention
 [def-weil-finite-torsion-constructibility]; a constructible $E$-Weil sheaf is
 an object $\mathcal F\in\Sh_c(Y,E)$ together with an isomorphism formed using

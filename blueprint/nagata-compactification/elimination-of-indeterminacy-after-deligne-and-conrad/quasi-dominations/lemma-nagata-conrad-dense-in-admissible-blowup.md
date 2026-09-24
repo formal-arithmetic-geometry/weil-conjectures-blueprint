@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Density in an admissible blow-up"
 order = 383
 lean = ["AlgebraicGeometry.IsAdmissible.dense_coe_preimage_blowupMap", "AlgebraicGeometry.IsAdmissible.dense_preimage_blowupMap_of_qcqs"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-scheme-theoretically-dense-open", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-scheme-theoretically-dense-open", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement"]
 +++
 Let $X$ be qcqs, let $U\subseteq X$ be a dense quasi-compact open and let
 $\pi\colon\widetilde X=\operatorname{Bl}_{\mathcal I}(X)\to X$ be a

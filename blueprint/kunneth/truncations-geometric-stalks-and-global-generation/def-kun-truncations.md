@@ -3,7 +3,7 @@ id = "def-kun-truncations"
 kind = "definition"
 title = "Truncations and homotopy colimits"
 order = 2997
-uses = ["def-sp-truncation-couple", "def-weil-pbc-hypercohomology-filtrations-detailed"]
+uses = ["def-sp-truncation-couple", "def-weil-pbc-hypercohomology-filtrations"]
 +++
 For a complex $\mathcal E^\bullet$ of etale sheaves, the
 *stupid truncations* $\sigma_{\ge n}$ and $\sigma_{\le n}$

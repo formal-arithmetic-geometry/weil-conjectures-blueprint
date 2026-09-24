@@ -2,9 +2,9 @@
 id = "def-nagata-proj-closed-center-finite-degree"
 kind = "definition"
 title = "Finite-degree data attached to a closed center in Proj"
-order = 299
+order = 300
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteDegree_center"]
-uses = ["def-nagata-relative-proj", "lemma-nagata-proj-closed-center-finite-degree-exists"]
+uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-relative-proj", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-proj-closed-center-finite-degree-exists", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $\mathcal I$ be a finite type quasi-coherent ideal on a qcqs scheme
 $X$, let $\mathcal A=\bigoplus_{n\geq0}\mathcal I^n$, let

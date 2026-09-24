@@ -3,7 +3,7 @@ id = "lem-amb-proper-coproducts-projection"
 kind = "lemma"
 title = "The proper projection formula on the ambient category"
 order = 2832
-uses = ["def-weil-derived-tensor", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-projection-formula-map", "def-weil-scheme-morphism-properties", "lem-amb-proper-coproducts", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-weil-derived-tensor", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-projection-formula-map", "def-weil-scheme-morphism-properties", "lem-amb-proper-coproducts", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $r:V\to T$ be a proper
 morphism of finite type between Noetherian schemes. For all complexes
@@ -36,4 +36,4 @@ and preserve coproducts. This follows on the right from the coproduct result
 identity for $K_{\bar t}=A$. The shifts of $A$ generate
 $D(A)$ under coproducts and cones: free resolutions and their
 truncations give the usual explicit construction. Hence the map
-is an isomorphism for every $K_{\bar t}$. [lem-weil-pbc-geometric-stalk-conservative] proves the assertion on $T$.
+is an isomorphism for every $K_{\bar t}$. [lemma-weil-pbc-geometric-stalk-conservative] proves the assertion on $T$.

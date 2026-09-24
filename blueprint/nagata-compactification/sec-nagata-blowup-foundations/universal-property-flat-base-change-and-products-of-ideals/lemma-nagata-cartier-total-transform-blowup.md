@@ -2,9 +2,9 @@
 id = "lemma-nagata-cartier-total-transform-blowup"
 kind = "lemma"
 title = "Total transform of a Cartier ideal under a blow-up"
-order = 289
+order = 290
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.comap_blowupMap"]
-uses = ["def-nagata-blowup-chart-ring", "def-nagata-effective-cartier-ideal"]
+uses = ["def-nagata-blowup-chart-ring", "def-nagata-effective-cartier-ideal", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-extended-ideal-affine-chart", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $\mathcal L\subseteq\mathcal O_T$ be an effective Cartier ideal and let
 $T'\to T$ be a blow-up. Then the extended ideal

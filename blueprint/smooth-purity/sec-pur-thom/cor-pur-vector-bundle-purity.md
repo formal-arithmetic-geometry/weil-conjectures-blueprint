@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Vector-bundle purity"
 order = 3587
 tags = ["latex:corollary"]
-uses = ["cor-amb-affine-space-adjunction", "def-amb-p1-trace", "def-amb-vector-integration", "def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-amb-affine-space-top-trace", "lem-amb-linear-trace-invariance", "thm-amb-vector-bundle-purity", "thm-sf-ambient-adjoint-class", "thm-weil-pbc-site-comparison"]
+uses = ["cor-amb-affine-space-adjunction", "def-amb-p1-trace", "def-amb-vector-integration", "def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-amb-affine-space-top-trace", "lem-amb-linear-trace-invariance", "thm-amb-vector-bundle-purity", "thm-sf-ambient-adjoint-class", "thm-weil-pbc-site-comparison"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $\pi:E\to B$ be a vector bundle of constant rank $r$ with zero

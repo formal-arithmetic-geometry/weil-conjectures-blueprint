@@ -2,7 +2,7 @@
 id = "lemma-nagata-homogeneous-away-to-chart"
 kind = "lemma"
 title = "Well-definedness of the homogeneous-localization chart map"
-order = 201
+order = 202
 uses = ["def-nagata-homogeneous-away-to-chart", "lemma-nagata-chart-ring-fraction-equality"]
 +++
 **Status.** Bypassed by the formalized route: the affine blow-up and its

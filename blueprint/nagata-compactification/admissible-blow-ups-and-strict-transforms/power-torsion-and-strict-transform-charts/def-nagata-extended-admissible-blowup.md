@@ -2,9 +2,9 @@
 id = "def-nagata-extended-admissible-blowup"
 kind = "definition"
 title = "Extension construction for an admissible blow-up"
-order = 354
+order = 355
 lean = ["AlgebraicGeometry.IsAdmissible.exists_extend"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "lemma-nagata-glue-finite-type-ideals"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-glue-finite-type-ideals", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be quasi-compact and quasi-separated and let $U,W\subseteq X$ be
 quasi-compact opens. Write a given $(U\cap W)$-admissible blow-up of $W$

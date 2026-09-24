@@ -2,7 +2,7 @@
 id = "thm-galois-lc-etale"
 kind = "theorem"
 title = "Finite locally constant sheaves and finite etale schemes"
-order = 2062
+order = 2060
 uses = ["def-galois-categories", "def-weil-pbc-finite-torsors", "lem-fet-locally-trivial", "lem-galois-descent"]
 +++
 In the situation of [def-galois-categories], the functor

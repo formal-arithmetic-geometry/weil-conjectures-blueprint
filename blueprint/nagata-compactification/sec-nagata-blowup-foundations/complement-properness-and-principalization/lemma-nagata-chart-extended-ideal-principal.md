@@ -2,7 +2,7 @@
 id = "lemma-nagata-chart-extended-ideal-principal"
 kind = "lemma"
 title = "Principalization on one affine chart"
-order = 254
+order = 255
 lean = ["AlgebraicGeometry.AffineBlowup.map_awayAlgebraMap_eq_span_singleton"]
 uses = ["def-nagata-blowup-chart-ring"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sc-mu-trivialization"
 kind = "definition"
 title = "The canonical trivialization of the constant sheaf"
-order = 2147
+order = 2145
 uses = ["def-sc-curves", "def-weil-pbc-etale-sheaves"]
 +++
 Let $k$ be algebraically closed, let $C$ be a

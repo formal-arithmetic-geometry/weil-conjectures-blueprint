@@ -2,7 +2,7 @@
 id = "cor-weil-pbc-geometric-fiber-finite-extension"
 kind = "theorem"
 title = "Finite-extension geometric-fiber formula"
-order = 2033
+order = 2034
 uses = ["cor-weil-pbc-geometric-fiber-finite", "thm-weil-pbc-finite-extension"]
 tags = ["latex:corollary"]
 +++

@@ -3,7 +3,7 @@ id = "lem-pur-td-kernel"
 kind = "lemma"
 title = "Kernel identification"
 order = 3562
-uses = ["def-exchange-projection", "def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "thm-cbc-finite-torsion"]
+uses = ["def-exchange-projection", "def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-cbc-finite-torsion"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $f:X\to Y$ be a

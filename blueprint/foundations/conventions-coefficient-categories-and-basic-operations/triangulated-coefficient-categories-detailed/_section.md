@@ -2,11 +2,11 @@
 id = "triangulated-coefficient-categories-detailed"
 kind = "section"
 title = "Triangulated coefficient categories"
-order = 1308
-uses = ["def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
+order = 1368
+uses = ["def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 The finite-torsion stage of the coefficient tower. The ambient site is the
-small pro-etale site [def-weil-small-proetale-site-detailed], formed inside a
+small pro-etale site [def-weil-pbc-proetale-site], formed inside a
 fixed pair of universes [def-weil-size-convention]; the derived category is
 the abstract one [def-weil-abstract-derived-category]; and the derived tensor
 product is computed by K-flat resolutions [def-weil-derived-tensor], which is

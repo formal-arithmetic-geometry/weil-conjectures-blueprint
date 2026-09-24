@@ -2,9 +2,9 @@
 id = "lemma-nagata-affine-blowup-complement"
 kind = "lemma"
 title = "Affine complement-of-center isomorphism"
-order = 239
+order = 240
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isIso_blowupMap_restrict_of_ideal_eq_top"]
-uses = ["def-nagata-affine-blowup", "lemma-nagata-affine-blowup-restrict-cocycle", "lemma-nagata-affine-blowup-top", "prop-nagata-affine-blowup-restrict"]
+uses = ["def-nagata-affine-blowup", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-affine-blowup-restrict-cocycle", "lemma-nagata-affine-blowup-top", "prop-nagata-affine-blowup-restrict", "prop-nagata-global-blowup-cover-independent"]
 +++
 For $Z=V(I)\subseteq\operatorname{Spec}(A)$, the affine blow-up morphism
 restricts to an isomorphism over $\operatorname{Spec}(A)\setminus Z$.

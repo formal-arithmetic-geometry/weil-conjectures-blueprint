@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-sum-components"
 kind = "lemma"
 title = "Reconstruction from homogeneous components"
-order = 189
+order = 190
 lean = ["AlgebraicGeometry.reesGrading_isInternal"]
 uses = ["def-nagata-rees-piece", "lemma-nagata-rees-component-finite-support", "lemma-nagata-rees-piece-membership"]
 +++

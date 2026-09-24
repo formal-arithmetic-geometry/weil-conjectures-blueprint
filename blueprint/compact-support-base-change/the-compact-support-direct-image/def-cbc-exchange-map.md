@@ -3,7 +3,7 @@ id = "def-cbc-exchange-map"
 kind = "definition"
 title = "Compact-support exchange map"
 order = 3125
-uses = ["cor-cbc-derived-extension-zero-base-change", "def-cbc-compact-support-square", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-exchange-detailed"]
+uses = ["cor-cbc-derived-extension-zero-base-change", "def-cbc-compact-support-square", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange"]
 +++
 Let $\square$ be a
 compact-support
@@ -26,7 +26,7 @@ $$
 
 the composite of the
 derived exchange morphism
-of [def-weil-pbc-cartesian-square-detailed] for the proper $p$ and the
+of [def-weil-pbc-cartesian-square] for the proper $p$ and the
 cartesian square $(\bar g',p')$, applied to $j_!K$, with the
 extension-by-zero identification
 $g^{-1}j_!K\xrightarrow{\sim}j'_!g_U^{-1}K=j'_!g'^{-1}K$ of

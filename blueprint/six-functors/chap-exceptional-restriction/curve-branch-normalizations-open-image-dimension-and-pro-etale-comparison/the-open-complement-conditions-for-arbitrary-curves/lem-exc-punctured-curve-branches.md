@@ -3,7 +3,7 @@ id = "lem-exc-punctured-curve-branches"
 kind = "lemma"
 title = "The punctured strictly local curve has DVR branches"
 order = 3339
-uses = ["def-exc-local-curve-branches", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-stalk-formula"]
+uses = ["def-exc-local-curve-branches", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-stalk-formula"]
 +++
 Let $R$ be a reduced excellent one-dimensional
 strictly henselian
@@ -31,7 +31,7 @@ A finite algebra over a henselian local ring decomposes
 as a finite product of local algebras, by lifting the
 idempotents of its Artinian closed fibre. This is the
 algebra calculation in
-[lem-weil-pbc-finite-stalk-formula], using the henselian
+[lemma-weil-pbc-finite-stalk-formula], using the henselian
 property of [def-weil-pbc-henselian-terminology].
 Each factor $B_b$ here is a Noetherian normal local
 domain of dimension one. Indeed its integral finite

@@ -3,7 +3,7 @@ id = "lem-kun-03qu-sep-closed"
 kind = "lemma"
 title = "Vanishing on a separably closed point"
 order = 1211
-uses = ["def-kun-separably-closed", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
+uses = ["def-kun-separably-closed", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 If $K$ is separably closed and $F$ is an abelian sheaf on
 $\Spec(K)_{\Et}$, then

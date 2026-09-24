@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Adic and rational smooth dualizing complexes"
 order = 3653
 tags = ["latex:corollary"]
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "thm-pur-rational-and-qbar-purity", "thm-pur-trace-normalization-transitivity"]
+uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-rational-and-qbar-purity", "thm-pur-trace-normalization-transitivity"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $\Lambda\in\{\mathcal O_E,E,\Qlb\}$, and let $a_X:X\to\Spec k$ be a

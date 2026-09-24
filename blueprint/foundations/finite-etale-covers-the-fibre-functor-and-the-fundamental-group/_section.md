@@ -2,7 +2,7 @@
 id = "finite-etale-covers-the-fibre-functor-and-the-fundamental-group"
 kind = "section"
 title = "Finite etale covers, the fibre functor, and the fundamental group"
-order = 2052
+order = 1960
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-finite-torsors", "def-weil-pbc-scheme-conventions"]
 +++
 Chapter 7 of `weil_conjectures_detailed.tex`: the Galois-theoretic dictionary

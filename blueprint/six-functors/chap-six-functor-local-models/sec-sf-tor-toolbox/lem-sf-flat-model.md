@@ -3,7 +3,7 @@ id = "lem-sf-flat-model"
 kind = "lemma"
 title = "Bounded flat model of finite Tor amplitude"
 order = 3417
-uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-small-proetale-site-detailed", "lem-exc-constant-inverse-image-flat"]
+uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "lem-exc-constant-inverse-image-flat"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, an integer
 $n\in\mathbf Z_{\geq1}$, and put $A=A_{E,n}$. Let $T$ be a scheme on

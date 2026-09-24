@@ -3,7 +3,7 @@ id = "thm-pur-thom-class"
 kind = "theorem"
 title = "Zero-section purity for a vector bundle"
 order = 3588
-uses = ["cor-pur-vector-bundle-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-vector-bundle-thom-class", "def-pur-vector-bundle-zero-section", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["cor-pur-vector-bundle-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-vector-bundle-thom-class", "def-pur-vector-bundle-zero-section", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $A=A_{E,n}$, and let $p:E\to Z$ be a

@@ -2,7 +2,7 @@
 id = "def-nagata-finite-type-fp-model-system"
 kind = "definition"
 title = "Finite-presentation model system of a finite-type morphism"
-order = 549
+order = 551
 lean = ["AlgebraicGeometry.Scheme.Hom.FinitePresentationApproximation"]
 uses = ["def-nagata-closed-subscheme-fp-system", "def-nagata-immersion-into-fp-model", "def-nagata-immersion-shrink-to-closed"]
 +++

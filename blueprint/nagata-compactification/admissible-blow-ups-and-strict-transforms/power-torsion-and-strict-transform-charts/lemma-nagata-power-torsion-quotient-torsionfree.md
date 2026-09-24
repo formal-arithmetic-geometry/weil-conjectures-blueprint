@@ -2,7 +2,7 @@
 id = "lemma-nagata-power-torsion-quotient-torsionfree"
 kind = "lemma"
 title = "The power-torsion quotient has no exceptional torsion"
-order = 317
+order = 318
 lean = ["Submodule.powTorsion_quotient_eq_bot"]
 uses = ["def-nagata-power-torsion"]
 +++

@@ -2,10 +2,10 @@
 id = "cor-nagata-blowup-product-common-refinement"
 kind = "theorem"
 title = "Common refinement by the product ideal"
-order = 293
+order = 294
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_iso"]
 tags = ["latex:corollary"]
-uses = ["def-nagata-blowup-product-domination-maps", "thm-nagata-blowup-product-ideal", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-blowup-product-domination-maps", "def-nagata-global-blowup-cover-comparison", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-product-ideal", "thm-nagata-global-blowup-complement"]
 +++
 The constructed $d_{\mathcal I}$ and $d_{\mathcal J}$ are morphisms over
 $X$. If both ideals restrict to the unit ideal on an open $U$, the product

@@ -2,7 +2,7 @@
 id = "lem-sf-trace-base-change"
 kind = "lemma"
 title = "Base change for the trace"
-order = 3865
+order = 3960
 uses = ["def-exchange-projection", "def-trf-admissibility", "lem-trf-trace-map-exchange", "lem-trf-trace-map-from-external-duality", "lem-trf-trace-source-exchange", "thm-sf-dual-base-change", "thm-sf-relative-trace"]
 +++
 In the setting of [def-sf-datum], let the Cartesian square of

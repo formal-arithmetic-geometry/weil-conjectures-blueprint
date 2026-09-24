@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Quasi-affine target over an affine base, [ConradNagata]"
 order = 395
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_of_isQuasiAffine"]
-uses = ["def-nagata-conrad-quasi-domination", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-affine-space-extension", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-quasi-affine-immersion-affine-space-exists"]
+uses = ["def-nagata-conrad-quasi-domination", "def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-affine-space-extension", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-dense-flat-pullback", "lemma-nagata-quasi-affine-immersion-affine-space-exists", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be affine, let $U\subseteq X$ be a quasi-compact open, let
 $p\colon Y\to X$ be quasi-affine and of finite type, and let $f\colon U\to Y$

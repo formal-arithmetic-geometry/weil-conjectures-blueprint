@@ -2,8 +2,8 @@
 id = "lem-fin-finite-reflects-constructibility"
 kind = "lemma"
 title = "Finite direct image reflects constructibility"
-order = 3205
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-constructible-serre", "lem-weil-pbc-constructible-subobjects-noetherian", "lem-weil-pbc-finite-stalk-formula", "lem-weil-pbc-geometric-stalk-conservative"]
+order = 3202
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-constructible-subobjects-noetherian", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative", "thm-constructible-serre"]
 +++
 Let $p:Z\to S$ be a
 finite morphism of
@@ -24,13 +24,13 @@ $$
 \longrightarrow F_{\bar z},
 $$
 
-the projection of [lem-weil-pbc-finite-stalk-formula].
+the projection of [lemma-weil-pbc-finite-stalk-formula].
 It is surjective for modules, hence the counit is surjective by
-[lem-weil-pbc-geometric-stalk-conservative].
+[lemma-weil-pbc-geometric-stalk-conservative].
 Pulling back a finite partition and its etale trivializations proves
 that $p^*p_*F$ is constructible, by
 [def-weil-pbc-constructible-complexes].
 Its kernel is constructible by
 [lem-weil-pbc-constructible-subobjects-noetherian].
-Now take its cokernel using [lem-weil-pbc-constructible-serre].
+Now take its cokernel using [thm-constructible-serre].
 No surjectivity of $p$ onto $S$ is required.

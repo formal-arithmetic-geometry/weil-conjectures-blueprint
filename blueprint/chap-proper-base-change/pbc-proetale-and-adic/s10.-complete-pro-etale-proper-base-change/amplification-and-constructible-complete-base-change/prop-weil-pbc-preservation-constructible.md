@@ -2,11 +2,11 @@
 id = "prop-weil-pbc-preservation-constructible"
 kind = "theorem"
 title = "Preservation before constructible restriction"
-order = 2027
-uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-complete", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-finite-level-amplification", "def-weil-pbc-scheme-conventions", "def-weil-pbc-tower-preservation", "def-weil-pbc-witness-compatibility", "lem-weil-pbc-reconstruction-uniform-tower", "prop-weil-pbc-direct-image-limits", "thm-weil-pbc-amplification-proper"]
+order = 2028
+uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-complete", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-cartesian-square", "def-weil-pbc-finite-level-amplification", "def-weil-pbc-scheme-conventions", "def-weil-pbc-tower-preservation", "def-weil-pbc-witness-compatibility", "lem-weil-pbc-reconstruction-uniform-tower", "prop-weil-pbc-direct-image-limits", "thm-weil-pbc-amplification-proper"]
 tags = ["latex:proposition"]
 +++
-Let $\square$ be the cartesian square [def-weil-pbc-cartesian-square-detailed] with
+Let $\square$ be the cartesian square [def-weil-pbc-cartesian-square] with
 $X,Y,X',Y'$ noetherian of finite dimension, $f$ and $f'$ proper, and suppose
 there is a positive integer $N$ annihilating $A/I$ which is invertible on
 all four schemes. Assume that the geometric fibers of $f$ have dimension at

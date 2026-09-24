@@ -2,9 +2,9 @@
 id = "lemma-nagata-reduced-dense-image-schematic"
 kind = "lemma"
 title = "Dense image into a reduced scheme is schematically dense"
-order = 455
+order = 454
 lean = ["AlgebraicGeometry.IsSchemeTheoreticallyDominant.of_isDominant"]
-uses = ["def-nagata-scheme-theoretic-image"]
+uses = ["def-nagata-dense-compactification", "def-nagata-scheme-theoretic-image"]
 +++
 Let $X$ be reduced and let $h\colon U\to X$ be quasi-compact and
 quasi-separated with dense topological image. Then the image inclusion

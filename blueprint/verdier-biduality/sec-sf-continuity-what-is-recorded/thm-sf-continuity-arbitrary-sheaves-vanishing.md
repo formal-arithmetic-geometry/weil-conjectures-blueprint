@@ -3,7 +3,7 @@ id = "thm-sf-continuity-arbitrary-sheaves-vanishing"
 kind = "theorem"
 title = "Continuity for arbitrary sheaves implies the vanishing"
 order = 3734
-uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods-detailed", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-pbc-strict-henselization-limit-detailed", "lem-sf-associated-sheaf-local-lifting", "lem-sf-stalk-limit-acyclic", "lem-weil-pbc-geometric-stalk-conservative", "rem-sf-fullcd-general-form", "thm-sf-fullcd-etale-origin"]
+uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-pbc-strict-henselization-limit", "lem-sf-associated-sheaf-local-lifting", "lem-sf-stalk-limit-acyclic", "lemma-weil-pbc-geometric-stalk-conservative", "rem-sf-fullcd-general-form", "thm-sf-fullcd-etale-origin"]
 +++
 Let $V$ be a scheme with comparison morphism
 $\nu_V:V_{\Proet}\to V_{\Et}$ as in
@@ -19,7 +19,7 @@ $\bar v\to V$ in the sense of [def-weil-pbc-geometric-stalks], every
 cohomology class on an étale neighbourhood of
 $\bar v$ dies after refinement: for every étale $U\to V$ with a lift
 $\bar u$ of $\bar v$ as in
-[def-weil-pbc-pointed-etale-neighbourhoods-detailed], and every class
+[def-weil-pbc-pointed-etale-neighbourhoods], and every class
 $c\in H^q(U_{\Proet},\mathcal F|_U)$, there is a pointed refinement
 $(U',\bar u')\to(U,\bar u)$ with $c|_{U'}=0$.
 Equivalently, the canonical map
@@ -32,7 +32,7 @@ $$
 is an isomorphism for every $\mathcal F$ and every $\bar v$, the colimit
 running over the pointed étale neighbourhoods of $\bar v$; here
 $\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{V,\bar v}$ is the strict
-henselization limit of [def-weil-pbc-strict-henselization-limit-detailed].
+henselization limit of [def-weil-pbc-strict-henselization-limit].
 
 Then $(\mathrm{C}_q)$ implies
 
@@ -54,7 +54,7 @@ geometric point $\bar v$. A filtered colimit of abelian groups is zero if
 and only if every element of every term is killed by some structure map of the
 system, and the structure maps here are the restriction maps along pointed
 refinements of
-[def-weil-pbc-pointed-etale-neighbourhoods-detailed]; hence the displayed map is an
+[def-weil-pbc-pointed-etale-neighbourhoods]; hence the displayed map is an
 isomorphism if and only if every class dies after refinement, which is the
 first formulation.
 
@@ -78,7 +78,7 @@ $P^{\#}=R^q\nu_{V,*}\mathcal F$.
 *Every geometric stalk of $P^{\#}$ vanishes.* Fix $\bar v\to V$ and
 let $s\in(P^{\#})_{\bar v}$ be a class in the
 stalk; by
-[def-weil-pbc-pointed-etale-neighbourhoods-detailed] it is represented by a section
+[def-weil-pbc-pointed-etale-neighbourhoods] it is represented by a section
 $s_0\in P^{\#}(U)$ over a pointed étale neighbourhood $(U,\bar u)$ of
 $\bar v$. Apply [lem-sf-associated-sheaf-local-lifting] to $P$,
 $P^{\#}$ and $s_0$: there are an étale covering
@@ -107,5 +107,5 @@ $(P^{\#})_{\bar v}=0$ for every geometric point $\bar v$ of $V$.
 
 *Conclusion.* The etale sheaf $P^{\#}=R^q\nu_{V,*}\mathcal F$ has all
 geometric stalks zero, so it is zero by the conservativity of the geometric
-stalks of [lem-weil-pbc-geometric-stalk-conservative]. As
+stalks of [lemma-weil-pbc-geometric-stalk-conservative]. As
 $\mathcal F$ was arbitrary this is the assertion.

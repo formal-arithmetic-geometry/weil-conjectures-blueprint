@@ -3,7 +3,7 @@ id = "lem-kun-0f1f-vanish"
 kind = "lemma"
 title = "Vanishing for sheaves supported on closed points"
 order = 3090
-uses = ["def-kun-separably-closed", "def-kun-support", "lem-kun-03qu-sep-closed", "lem-kun-04ca", "lem-kun-closed-point-field", "lem-kun-cp-approximation", "lem-kun-leray-bdd", "lem-kun-leray-finite", "lem-weil-pbc-finite-direct-image-exact", "sbc-lem-higher-direct-image-limit"]
+uses = ["def-kun-separably-closed", "def-kun-support", "lem-kun-03qu-sep-closed", "lem-kun-04ca", "lem-kun-closed-point-field", "lem-kun-cp-approximation", "lem-kun-leray-bdd", "lem-kun-leray-finite", "lemma-weil-pbc-finite-direct-image-exact", "sbc-lem-higher-direct-image-limit"]
 +++
 Let $K$ be a separably closed
 field and $X$ a scheme of finite type over $K$. Let $F$ be an
@@ -34,7 +34,7 @@ By [lem-kun-03qu-sep-closed] (on each component, with
 $H^q$ of a disjoint union being the direct sum of the $H^q$ of the
 components) we get $H^q((Z_i)_{\Et},\mathcal G_i)=0$ for $q>0$.
 Since $i$ is finite,
-[lem-weil-pbc-finite-direct-image-exact] and
+[lemma-weil-pbc-finite-direct-image-exact] and
 [lem-kun-leray-bdd] (or [lem-kun-leray-finite]) give
 $H^q(X_{\Et},F_i)=H^q((Z_i)_{\Et},\mathcal G_i)=0$ for $q>0$.
 Finally, the higher-direct-image limit formula

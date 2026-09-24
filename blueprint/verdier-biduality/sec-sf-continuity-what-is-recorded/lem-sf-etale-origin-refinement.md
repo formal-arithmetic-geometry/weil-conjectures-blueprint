@@ -3,7 +3,7 @@ id = "lem-sf-etale-origin-refinement"
 kind = "lemma"
 title = "Continuity for sheaves of étale origin: every class dies on a single pointed refinement"
 order = 3736
-uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods-detailed", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-pbc-site-comparison-morphism", "lem-sf-associated-sheaf-local-lifting", "lem-sf-disjoint-union-cohomology", "lem-weil-pbc-comparison-pullback", "thm-sf-continuity-arbitrary-sheaves-vanishing"]
+uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-pbc-site-comparison-morphism", "lem-sf-associated-sheaf-local-lifting", "lem-sf-disjoint-union-cohomology", "lem-weil-pbc-comparison-pullback", "thm-sf-continuity-arbitrary-sheaves-vanishing"]
 +++
 Let $V$ be a scheme with comparison morphism
 $\nu_V:V_{\Proet}\to V_{\Et}$ as in
@@ -15,7 +15,7 @@ of [def-weil-pbc-geometric-stalks], let $U\to V$ be étale with a lift
 $\bar u$ of $\bar v$, so that $(U,\bar u)$ is a
 pointed étale
 neighbourhood of $\bar v$ in the sense of
-[def-weil-pbc-pointed-etale-neighbourhoods-detailed], let $q\geq1$ and let
+[def-weil-pbc-pointed-etale-neighbourhoods], let $q\geq1$ and let
 
 $$
 c\in H^q\bigl(U_{\Proet},\nu_U^*(\mathcal G|_U)\bigr)
@@ -115,7 +115,7 @@ and composing it with the open immersion of $\operatorname{Spec}S$ gives a
 section $\bar u'$ of $U'\times_U\operatorname{Spec}\Omega\to \operatorname{Spec}\Omega$. By the universal property of the fibre product
 the composite $\operatorname{Spec}\Omega\xrightarrow{\bar u'}U'\xrightarrow{\pi} U$ is the given geometric point $\bar u$, so
 $(U',\bar u')\to(U,\bar u)$ is a pointed refinement in the sense of
-[def-weil-pbc-pointed-etale-neighbourhoods-detailed], and $c|_{U'}=0$ by Step 3.
+[def-weil-pbc-pointed-etale-neighbourhoods], and $c|_{U'}=0$ by Step 3.
 
 *Conclusion.* Let $\mathcal F=\nu_V^*\mathcal G$ be of étale origin.
 For étale $U\to V$ the restriction of $\mathcal F$ to $U$ is

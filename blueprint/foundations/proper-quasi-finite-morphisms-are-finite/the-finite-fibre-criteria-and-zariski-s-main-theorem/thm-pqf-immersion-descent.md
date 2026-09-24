@@ -2,7 +2,7 @@
 id = "thm-pqf-immersion-descent"
 kind = "theorem"
 title = "Descent of the immersion to a finite stage"
-order = 2129
+order = 2127
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-locnoeth", "pqf-def-quasifinite", "pqf-lem-finite-fp-locnoeth", "pqf-lem-limit-immersion-descends", "pqf-lem-limit-qc-open-descends", "pqf-lem-qs-intersection-qc"]
 +++
 Let $f:X\to S$ be a separated morphism of finite type which is

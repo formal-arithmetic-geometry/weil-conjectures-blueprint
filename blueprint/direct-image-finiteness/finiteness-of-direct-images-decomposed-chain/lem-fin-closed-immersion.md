@@ -2,7 +2,7 @@
 id = "lem-fin-closed-immersion"
 kind = "theorem"
 title = "Closed immersions preserve constructibility"
-order = 3207
+order = 3204
 tags = ["latex:corollary"]
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism"]
 +++

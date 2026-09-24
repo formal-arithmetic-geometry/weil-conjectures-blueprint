@@ -3,7 +3,7 @@ id = "lem-fin-finite-boundary-comparison"
 kind = "lemma"
 title = "A proper direct image detects a comparison off a finite boundary"
 order = 3268
-uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-finite-stalk-formula", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $b:Y\to S$ be proper, let $a:G\hookrightarrow Y$ be open
 with closed complement $i:Z\hookrightarrow Y$, and suppose $bi$
@@ -21,7 +21,7 @@ Let $M$ be the cone of $c$.
 Its restriction to $G$ is zero. The termwise localization
 sequence for extension by zero in
 [def-weil-pbc-extension-by-zero], verified on stalks by
-[lem-weil-pbc-geometric-stalk-conservative], identifies
+[lemma-weil-pbc-geometric-stalk-conservative], identifies
 $M=i_*i^*M$.
 Therefore
 
@@ -30,9 +30,9 @@ $$
 $$
 
 the last equality using finite exactness in
-[lem-weil-pbc-finite-direct-image-exact].
+[lemma-weil-pbc-finite-direct-image-exact].
 Finite direct image is conservative: its stalks are the products
-in [lem-weil-pbc-finite-stalk-formula], so a zero direct image
+in [lemma-weil-pbc-finite-stalk-formula], so a zero direct image
 forces every stalk on its source to be zero.
 Apply this to every cohomology sheaf of $i^*M$.
 It follows that $i^*M=0$, hence $M=0$ and $c$ is an isomorphism.

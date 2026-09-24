@@ -2,7 +2,7 @@
 id = "pqf-rem-fp-stage-status"
 kind = "remark"
 title = "Status of the finite-presentation clause of the interface"
-order = 2141
+order = 2139
 uses = ["pqf-def-locnoeth", "pqf-lem-finite-fp-locnoeth", "pqf-thm-zmt-fp", "thm-pqf-immersion-descent"]
 +++
 [pqf-thm-zmt-fp] settles the finiteness-and-finite-presentation

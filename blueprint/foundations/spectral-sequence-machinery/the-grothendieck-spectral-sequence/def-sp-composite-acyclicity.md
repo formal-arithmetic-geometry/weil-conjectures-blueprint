@@ -2,7 +2,7 @@
 id = "def-sp-composite-acyclicity"
 kind = "definition"
 title = "Composable pairs with an acyclicity condition"
-order = 1152
+order = 1149
 uses = ["def-sp-acyclic", "def-sp-grothendieck-abelian", "def-sp-injective-resolutions", "def-sp-left-exact-additive"]
 +++
 A *composable pair* $(F,G)$ consists of left exact additive

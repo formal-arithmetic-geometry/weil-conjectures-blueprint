@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Proper base change on geometric fibers"
 order = 3151
 tags = ["latex:proposition"]
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "thm-weil-pbc-finite-level-proetale", "thm-weil-pbc-finite-torsion"]
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-weil-proet-finite-proper-base-change", "thm-weil-pbc-finite-level-proetale"]
 +++
 Fix a prime $\ell$, write $\Ql=\mathbf Q_\ell$, choose an algebraic
 closure $\Qlb$ of $\Ql$, and fix a finite extension $E/\Ql$ contained in
@@ -51,5 +51,5 @@ point.*)
 This is the decomposed form of the classical input of the source note:
 the geometric-fiber proper base change is proved in the proper-base-change chapter as
 [cor-weil-pbc-geometric-fiber-finite] by specializing
-[thm-weil-pbc-finite-torsion] to a geometric fiber, and the
+[prop-weil-proet-finite-proper-base-change] to a geometric fiber, and the
 pro-etale level transport is [thm-weil-pbc-finite-level-proetale].

@@ -2,7 +2,7 @@
 id = "def-fd-additive-character"
 kind = "definition"
 title = "Additive characters"
-order = 3196
+order = 1729
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be a finite field or an algebraic closure of one, and let

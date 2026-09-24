@@ -2,9 +2,9 @@
 id = "def-nagata-blowup-universal-lift"
 kind = "definition"
 title = "Universal lift construction"
-order = 275
+order = 276
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_lift_blowup"]
-uses = ["def-nagata-blowup-universal-graded-map", "def-nagata-global-blowup", "def-nagata-relative-proj", "def-nagata-sheaf-rees-algebra", "lemma-nagata-relative-proj-base-change-arbitrary", "lemma-nagata-relative-proj-invertible-tensor-powers"]
+uses = ["def-nagata-blowup-universal-graded-map", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-relative-proj", "def-nagata-sheaf-rees-algebra", "lemma-nagata-relative-proj-base-change-arbitrary", "lemma-nagata-relative-proj-invertible-tensor-powers", "prop-nagata-global-blowup-cover-independent"]
 +++
 Under the data of
 [def-nagata-blowup-universal-graded-map], use the inverse of the canonical isomorphism in

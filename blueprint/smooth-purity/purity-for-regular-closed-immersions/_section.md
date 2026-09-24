@@ -3,7 +3,7 @@ id = "purity-for-regular-closed-immersions"
 kind = "section"
 title = "Purity for regular closed immersions"
 order = 3622
-uses = ["cor-pur-affine-space-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-frame-class", "def-pur-regular-immersion", "def-sbc-smooth-morphisms", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-pur-coprojection", "lem-pur-frame-independence", "lem-pur-kunneth-supported", "lem-pur-regular-immersion-linearization", "lem-sc-smooth-regular", "thm-pur-diagonal-dualizing-object"]
+uses = ["cor-pur-affine-space-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-frame-class", "def-pur-regular-immersion", "def-sbc-smooth-morphisms", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-coprojection", "lem-pur-frame-independence", "lem-pur-kunneth-supported", "lem-pur-regular-immersion-linearization", "lem-sc-smooth-regular", "thm-pur-diagonal-dualizing-object"]
 +++
 The statement of this section is the interface used by the weight-foundations chapter:
 purity for a regular closed immersion $i:Z\hookrightarrow X$ with

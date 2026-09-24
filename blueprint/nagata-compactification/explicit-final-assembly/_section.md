@@ -2,7 +2,7 @@
 id = "explicit-final-assembly"
 kind = "section"
 title = "Explicit final assembly"
-order = 590
+order = 592
 +++
 In this final section let $S$ be quasi-compact and quasi-separated and let
 $f\colon X\to S$ be separated and of finite type. Every object used below is

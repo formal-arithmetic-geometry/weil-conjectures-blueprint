@@ -26,6 +26,4 @@ This is the same scheme over $S$ as
 gluing, so it does not come with the standard-chart interface required
 there; only the properties of $\mathbf P(n;S)$ as a scheme over $S$ are
 available from it. In particular it gives no way to construct morphisms
-*into* $\mathbf P(n;S)$, which is what
-[lemma-nagata-global-blowup-relative-projective-embedding] needs; the
-comparison of the two nodes is left to whoever builds relative Proj.
+*into* $\mathbf P(n;S)$; the route does not need such morphisms.

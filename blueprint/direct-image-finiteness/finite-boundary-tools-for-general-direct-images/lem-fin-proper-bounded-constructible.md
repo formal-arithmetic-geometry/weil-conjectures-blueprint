@@ -3,7 +3,7 @@ id = "lem-fin-proper-bounded-constructible"
 kind = "lemma"
 title = "Bounded constructible complexes under a proper direct image"
 order = 3266
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-constructible-serre", "sbc-def-coefficient-conventions", "thm-fin-proper-case", "thm-sp-truncation-e2"]
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "sbc-def-coefficient-conventions", "thm-constructible-serre", "thm-fin-proper-case", "thm-sp-truncation-e2"]
 +++
 Let $b:Y\to S$ be proper
 between finite-type $k$-schemes, with the finite coefficients of
@@ -30,7 +30,7 @@ $$
 By [thm-fin-proper-case], its terms are constructible and zero
 unless $0\leq p\leq2d$ and $a\leq q\leq c$.
 Every page is constructible by kernels and cokernels in
-[lem-weil-pbc-constructible-serre].
+[thm-constructible-serre].
 The bounded rectangle gives convergence with a finite filtration
 on every abutment. Extensions prove constructibility, and the
 same rectangle makes the abutment zero outside $[a,c+2d]$.

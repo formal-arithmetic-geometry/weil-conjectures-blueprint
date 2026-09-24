@@ -3,7 +3,7 @@ id = "lem-cbc-extension-zero-projection-formula"
 kind = "lemma"
 title = "Projection formula for extension by zero"
 order = 3136
-uses = ["def-cbc-extension-by-zero", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-scheme-conventions", "lem-cbc-proetale-extension-zero"]
+uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-cbc-proetale-extension-zero"]
 +++
 For an open immersion
 $j:U\hookrightarrow X$, a finite coefficient ring $\Lambda$, a

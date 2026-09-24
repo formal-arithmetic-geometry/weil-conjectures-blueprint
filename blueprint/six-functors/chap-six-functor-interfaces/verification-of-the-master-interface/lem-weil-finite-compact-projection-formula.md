@@ -3,7 +3,7 @@ id = "lem-weil-finite-compact-projection-formula"
 kind = "lemma"
 title = "Finite-coefficient compact-support projection formula"
 order = 3366
-uses = ["def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-etale-sheaves", "def-weil-scheme-morphism-properties", "fix-lem-finite-tor-perfect", "lem-weil-pbc-geometric-stalk-conservative", "thm-cbc-finite-level-proetale", "thm-cbc-finite-torsion", "thm-weil-pbc-site-comparison"]
+uses = ["def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-etale-sheaves", "def-weil-scheme-morphism-properties", "fix-lem-finite-tor-perfect", "lemma-weil-pbc-geometric-stalk-conservative", "thm-cbc-finite-level-proetale", "thm-cbc-finite-torsion", "thm-weil-pbc-site-comparison"]
 +++
 Fix the finite-field datum
 and finite coefficient ring $A=A_{E,n}$.
@@ -100,7 +100,7 @@ complex from finite sums of shifts of $A$.
 It follows that the fiber map is an isomorphism for this $P$.
 Every geometric stalk of the cone of the original projection map
 therefore vanishes. Conservativity on the etale site,
-[lem-weil-pbc-geometric-stalk-conservative], proves that its
+[lemma-weil-pbc-geometric-stalk-conservative], proves that its
 cone is zero. Naturality follows from the construction.
 
 For the pro-etale assertion, use the specified representatives in

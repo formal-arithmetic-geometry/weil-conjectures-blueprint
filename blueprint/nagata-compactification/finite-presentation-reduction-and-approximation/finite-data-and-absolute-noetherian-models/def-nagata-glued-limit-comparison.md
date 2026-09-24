@@ -2,7 +2,7 @@
 id = "def-nagata-glued-limit-comparison"
 kind = "definition"
 title = "Comparison from the original scheme to the inverse limit"
-order = 535
+order = 537
 uses = ["def-nagata-noetherian-inverse-system"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

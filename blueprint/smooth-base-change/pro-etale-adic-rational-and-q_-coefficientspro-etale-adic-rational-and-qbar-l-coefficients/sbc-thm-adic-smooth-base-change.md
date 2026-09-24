@@ -3,7 +3,7 @@ id = "sbc-thm-adic-smooth-base-change"
 kind = "theorem"
 title = "Adic smooth base change"
 order = 2821
-uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-completed-pullback-detailed", "prop-weil-pbc-perfect-projection-formula", "sbc-def-base-change-square", "sbc-thm-finite-proetale-smooth-base-change", "sbc-thm-smooth-base-change", "thm-weil-pbc-complete-proetale"]
+uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-completed-pullback", "lemma-weil-pbc-perfect-projection-formula", "sbc-def-base-change-square", "sbc-thm-finite-proetale-smooth-base-change", "sbc-thm-smooth-base-change", "thm-weil-pbc-complete-proetale"]
 +++
 In the square of
 [sbc-thm-smooth-base-change], assume $f$ smooth, $g$ quasi-compact
@@ -26,11 +26,11 @@ interval.
 
 ## Proof
 
-The completed actions of [def-weil-pbc-completed-pullback-detailed] are the
+The completed actions of [def-weil-pbc-completed-pullback] are the
 derived inverse limits of their finite levels; direct image commutes
 with derived limits and derived completion
 ([thm-weil-pbc-complete-proetale]), the perfect projection formula
-of [prop-weil-pbc-perfect-projection-formula] identifies the
+of [lemma-weil-pbc-perfect-projection-formula] identifies the
 finite levels of the two sides with the finite-level exchanges, and
 each finite-level exchange is an isomorphism by
 [sbc-thm-finite-proetale-smooth-base-change]; derived inverse

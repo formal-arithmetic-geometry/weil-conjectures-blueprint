@@ -2,7 +2,7 @@
 id = "lem-galois-geometric-fibre"
 kind = "lemma"
 title = "The geometric fibre of a finite etale cover"
-order = 2056
+order = 2054
 uses = ["def-galois-categories"]
 +++
 Let $Y$ be a scheme with a geometric point $\bar y\to Y$, and let

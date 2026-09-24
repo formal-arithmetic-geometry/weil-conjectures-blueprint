@@ -3,7 +3,7 @@ id = "thm-pur-p1-decomposition"
 kind = "theorem"
 title = "The projective-line decomposition"
 order = 3570
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-support-cohomology", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-pur-divisor-class", "thm-pur-affine-line-orientation", "thm-pur-kummer-affine-line", "thm-pur-rank-one-local-calculation", "thm-pur-with-support-exactness", "thm-weil-pbc-finite-torsion"]
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-support-cohomology", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-divisor-class", "prop-weil-proet-finite-proper-base-change", "thm-pur-affine-line-orientation", "thm-pur-kummer-affine-line", "thm-pur-rank-one-local-calculation", "thm-pur-with-support-exactness"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $Y$ be a
@@ -69,7 +69,7 @@ Step 2: the map is an isomorphism. The morphism $(1,h)$ of the
 statement is defined globally, $h$ being the class of the divisor
 $D_\infty\subset\mathbf P^1_Y$ ([lem-pur-divisor-class]). For a
 base change $Y'\to Y$, the proper base change of
-[thm-weil-pbc-finite-torsion] and the
+[prop-weil-proet-finite-proper-base-change] and the
 [cor-weil-pbc-geometric-fiber-finite] identify the pullback of
 $(1,h)$ at each geometric point of $Y'$ with the fiberwise
 calculation of Step 1 (the class of $D_\infty$ restricts to the

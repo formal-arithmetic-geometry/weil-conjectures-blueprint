@@ -2,7 +2,7 @@
 id = "lem-sc-affine-constant-second"
 kind = "lemma"
 title = "Second cohomology of a constant sheaf on an affine curve"
-order = 1589
+order = 1590
 uses = ["def-sc-curves", "def-weil-pbc-etale-cohomology", "lem-sc-as-sequence", "lem-sc-etale-affine-qcoherent", "lem-sc-pic-affine", "lem-sc-second-kummer-divisors"]
 +++
 Let $C$ be a smooth affine curve

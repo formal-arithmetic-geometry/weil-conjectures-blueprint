@@ -3,7 +3,7 @@ id = "rem-sc-cd-standard-inputs"
 kind = "remark"
 title = "The standard inputs used above"
 order = 2749
-uses = ["def-sc-etale-torsion-cd", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-sc-etale-torsion-cd", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Four standard facts are used in the proofs above; each is either basic
 mathematics, which the decomposition rules allow to be quoted, or a
@@ -13,7 +13,7 @@ argument is left implicit.
 1. A finite morphism has exact direct image with no higher direct
 images, and its direct image preserves injective sheaves because its
 inverse image is exact and left adjoint to it; this is
-[lem-weil-pbc-finite-direct-image-exact], and it is used in the
+[lemma-weil-pbc-finite-direct-image-exact], and it is used in the
 dimension-zero case and in the reduction by Noether normalization.
 1. A separably closed residue field and a polynomial with a simple root
 there admit a unique lift of that root, by the Hensel lifting lemma
@@ -23,7 +23,7 @@ unit in the strict local ring. This is the local-algebra input of
 the strict-local dimension-drop computation.
 1. Vanishing of all geometric stalks of an etale sheaf forces the sheaf
 to vanish; this is
-[lem-weil-pbc-geometric-stalk-conservative], and it is what
+[lemma-weil-pbc-geometric-stalk-conservative], and it is what
 converts the stalkwise bounds above into the stated vanishing of
 $R^qj_*M$ and of $H^q(X,F)$.
 1. For a finite-type algebra over a field, the transcendence degree of

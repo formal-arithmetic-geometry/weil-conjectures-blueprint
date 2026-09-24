@@ -3,7 +3,7 @@ id = "lem-amb-linear-trace-invariance"
 kind = "lemma"
 title = "Linear changes of coordinates preserve integration"
 order = 2856
-uses = ["def-amb-etale-compact-support", "def-coefficient-twists-detailed", "def-sbc-affine-space", "def-weil-pbc-derived-categories", "lem-amb-affine-space-top-trace", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-amb-etale-compact-support", "def-coefficient-twists-detailed", "def-sbc-affine-space", "def-weil-pbc-derived-categories", "lem-amb-affine-space-top-trace", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 For every $g\in\operatorname{GL}_d(\mathcal O_S(S))$,
 the linear automorphism of $\mathbf A^d_S$ induced
@@ -36,7 +36,7 @@ At its identity matrix $a$ is the identity
 automorphism, so $b=1$ there and therefore on the
 whole fibre. Every geometric point of $G$ belongs
 to one of these fibres; conservativity of stalks in
-[lem-weil-pbc-geometric-stalk-conservative] gives
+[lemma-weil-pbc-geometric-stalk-conservative] gives
 $b=1$ globally. Finally the given matrix $g$
 is a section $S\to G$. Pulling back this equality
 and using the base-change compatibility in

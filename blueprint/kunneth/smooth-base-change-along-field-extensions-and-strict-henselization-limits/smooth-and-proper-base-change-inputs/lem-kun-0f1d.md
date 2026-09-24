@@ -3,7 +3,7 @@ id = "lem-kun-0f1d"
 kind = "lemma"
 title = "Failure of base change produces an integral normal base"
 order = 3081
-uses = ["def-kun-bc-property", "def-weil-pbc-cartesian-square-detailed"]
+uses = ["def-kun-bc-property", "def-weil-pbc-cartesian-square"]
 +++
 Let $f:X\to S$ be a morphism of schemes and $n\ge1$ an integer
 invertible on $S$ (notation of [def-kun-bc-property]). Assume

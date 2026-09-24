@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-derived-categories-1"
 kind = "remark"
 title = "Pointer to the properties of the derived categories"
-order = 1167
+order = 1172
 uses = ["def-weil-pbc-derived-categories", "lem-weil-pbc-derived-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 In the notation of [def-weil-pbc-derived-categories], the following holds.

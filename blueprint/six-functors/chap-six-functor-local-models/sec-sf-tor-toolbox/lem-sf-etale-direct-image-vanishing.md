@@ -3,7 +3,7 @@ id = "lem-sf-etale-direct-image-vanishing"
 kind = "lemma"
 title = "Vanishing of the higher direct images above the dimension"
 order = 3425
-uses = ["def-sc-etale-torsion-cd", "def-sf-uniform-direct-image-vanishing", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "fin4-lem-fibrewise-cohomological-dimension", "lem-kun-dimension-formula", "lem-sf-separably-closed-torsion-cd", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-qcqs-higher-direct-image", "thm-sc-finite-type-torsion-cd"]
+uses = ["def-sc-etale-torsion-cd", "def-sf-uniform-direct-image-vanishing", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "fin4-lem-fibrewise-cohomological-dimension", "lem-kun-dimension-formula", "lem-sf-separably-closed-torsion-cd", "lem-weil-pbc-qcqs-higher-direct-image", "lemma-weil-pbc-geometric-stalk-conservative", "thm-sc-finite-type-torsion-cd"]
 +++
 Let $k$ be an algebraically closed field, let $X,Y$ be finite-type
 $k$-schemes with $\dim X\leq d$, let $f:X\to Y$ be a finite-type
@@ -18,7 +18,7 @@ not needed.
 ## Proof
 
 A sheaf of $A$-modules is a torsion sheaf of abelian groups, $A$ being
-finite. By [lem-weil-pbc-geometric-stalk-conservative] a sheaf on the
+finite. By [lemma-weil-pbc-geometric-stalk-conservative] a sheaf on the
 small étale site of $Y$ vanishes as
 soon as all of its geometric stalks do, so it suffices to prove that
 $(R^qf_*M)_{\bar y}=0$ for $q>2d$ at every geometric point

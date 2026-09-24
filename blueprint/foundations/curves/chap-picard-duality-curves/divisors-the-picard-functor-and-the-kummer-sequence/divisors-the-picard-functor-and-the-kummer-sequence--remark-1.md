@@ -2,7 +2,7 @@
 id = "divisors-the-picard-functor-and-the-kummer-sequence--remark-1"
 kind = "remark"
 title = "Higher multiplicities"
-order = 2212
+order = 2210
 +++
 Effective Cartier divisors on a smooth curve need not be reduced:
 on $\mathbf A^1_k=\Spec k[t]$ the closed subscheme

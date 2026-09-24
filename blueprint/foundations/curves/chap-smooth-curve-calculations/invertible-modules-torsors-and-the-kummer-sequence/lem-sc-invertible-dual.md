@@ -2,7 +2,7 @@
 id = "lem-sc-invertible-dual"
 kind = "lemma"
 title = "Duals of invertible modules"
-order = 2155
+order = 2153
 uses = ["def-sc-curves", "def-sc-invertible-module"]
 +++
 Let $C$ be a curve and $\mathcal L$ an

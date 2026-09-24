@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Fibrewise cohomology of a smooth projective curve family"
 order = 3263
 tags = ["latex:proposition"]
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-sbc-smooth-morphisms", "def-sc-curves", "def-sc-genus", "def-sc-mu-trivialization", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-eight-curve-assertions-detailed", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "fin4-lem-stalk-constructibility-criterion", "lem-fd-as-cover", "lem-sc-artin-schreier-dimension", "lem-sc-as-sequence", "lem-sc-c1", "lem-sc-c3", "lem-sc-c5", "lem-sc-cohomological-dimension", "lem-sc-isogeny-facts", "lem-sc-lang-steinberg", "lem-sc-mult-n-finite-flat", "sbc-def-coefficient-conventions", "thm-sc-affine-cohomology", "thm-sc-constant-invariance", "thm-sc-proper-cohomology"]
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-sbc-smooth-morphisms", "def-sc-curves", "def-sc-genus", "def-sc-mu-trivialization", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "fin4-lem-stalk-constructibility-criterion", "lem-fd-as-cover", "lem-sc-artin-schreier-dimension", "lem-sc-as-sequence", "lem-sc-c1", "lem-sc-c3", "lem-sc-c5", "lem-sc-cohomological-dimension", "lem-sc-isogeny-facts", "lem-sc-lang-steinberg", "lem-sc-mult-n-finite-flat", "sbc-def-coefficient-conventions", "thm-sc-affine-cohomology", "thm-sc-constant-invariance", "thm-sc-proper-cohomology"]
 +++
 Let $f:X\to S$ be an smooth
 proper morphism with $S$ of finite type over $k$, whose
@@ -64,7 +64,7 @@ gives $H^0=\mathbf Z/l$,
 $H^1=(\mathbf Z/l)^{2g_{C_0}}$, $H^2=\mathbf Z/l$, and the vanishing
 above degree two of [lem-sc-cohomological-dimension]
 (and [lem-sc-c1], [lem-sc-c5] of the eight curve assertions
-[def-weil-pbc-eight-curve-assertions-detailed]); summing over the
+[def-weil-pbc-eight-curve-assertions]); summing over the
 components gives the first, third and fourth column values.
 
 *Bad primes* ($l=p=\operatorname{char}\kappa(\bar s)>0$): the

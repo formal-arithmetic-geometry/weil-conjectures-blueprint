@@ -2,7 +2,7 @@
 id = "lem-sc-second-kummer-divisors"
 kind = "lemma"
 title = "Second Kummer cohomology without a dimension assumption"
-order = 1588
+order = 1589
 uses = ["def-sc-curves", "def-sc-kummer-sequence", "def-sc-picard-group", "def-weil-pbc-etale-cohomology", "lem-sc-divisor-class-curve", "lem-sc-function-field-cd-one", "lem-sc-generic-kummer-residues", "lem-sc-smooth-normal", "thm-sp-grothendieck"]
 +++
 For a smooth separated curve $C$

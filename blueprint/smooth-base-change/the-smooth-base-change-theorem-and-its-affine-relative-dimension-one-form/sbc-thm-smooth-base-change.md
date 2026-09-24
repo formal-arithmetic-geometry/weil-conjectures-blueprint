@@ -3,7 +3,7 @@ id = "sbc-thm-smooth-base-change"
 kind = "theorem"
 title = "Smooth base change"
 order = 2796
-uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-direct-image-filtered-colimit", "lem-weil-pbc-torsion-filtered-union", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-lem-base-change-composition", "sbc-lem-degree-zero-flat-base-change", "sbc-lem-etale-locality", "sbc-lem-rel-dim-one-induction", "sbc-lem-smooth-criterion", "sbc-lem-smooth-geometrically-reduced", "sbc-thm-etale-local-normal-form"]
+uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-torsion-filtered-union", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-lem-base-change-composition", "sbc-lem-degree-zero-flat-base-change", "sbc-lem-etale-locality", "sbc-lem-rel-dim-one-induction", "sbc-lem-smooth-criterion", "sbc-lem-smooth-geometrically-reduced", "sbc-thm-etale-local-normal-form"]
 +++
 Consider a cartesian diagram of
 schemes
@@ -42,12 +42,12 @@ $<q$.
 
 *(Filtered torsion.)* For every $n\geq1$ invertible on $S$, let
 $\mathcal F[n]$ be the subsheaf of sections of $\mathcal F$ annihilated
-by $n$; by [lem-weil-pbc-torsion-filtered-union]
+by $n$; by [lemma-weil-pbc-torsion-filtered-union]
 $\mathcal F=\varinjlim_n\mathcal F[n]$ with $n$ ranging over the
 integers invertible on $S$. Inverse images ($f^{-1}$, $h^{-1}$,
 $e^{-1}$) commute with filtered colimits as left adjoints, and the
 higher direct images $R^qg_*$, $R^qh_*$ commute with filtered colimits
-by [lem-weil-pbc-direct-image-filtered-colimit] (the morphisms
+by [lemma-weil-pbc-direct-image-filtered-colimit] (the morphisms
 $g$, $h$ being quasi-compact and quasi-separated), so the assertion
 for $\mathcal F$ reduces to the case of a sheaf $\mathcal F$
 annihilated by some $n$ invertible on $S$; fix such an $n$.

@@ -3,7 +3,7 @@ id = "lem-cbc-extension-zero-base-change"
 kind = "lemma"
 title = "Extension by zero commutes with arbitrary base change"
 order = 3119
-uses = ["def-cbc-extension-by-zero", "def-cbc-open-immersion-square", "def-weil-pbc-extension-by-zero", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-cbc-open-immersion-square", "def-weil-pbc-extension-by-zero", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let
 
@@ -33,7 +33,7 @@ holds degreewise.
 
 Fix a geometric point $\bar x'$ of $X'$ with image
 $\bar x=g(\bar x')$. By the stalk characterization of
-[def-cbc-extension-by-zero], whose underived form is
+[def-weil-pbc-extension-by-zero], whose underived form is
 [def-weil-pbc-extension-by-zero],
 
 $$
@@ -55,6 +55,6 @@ is cartesian. Under these identifications the two stalks of the map
 agree (the adjoint construction of the map is precisely the
 corresponding restriction of sections); the inverse image functors
 are exact, and
-[lem-weil-pbc-geometric-stalk-conservative] makes the map an
+[lemma-weil-pbc-geometric-stalk-conservative] makes the map an
 isomorphism. For complexes the argument applies termwise, exactness
 of $j_!$ giving the derived statement.

@@ -3,7 +3,7 @@ id = "lem-kun-kunneth-map-natural"
 kind = "lemma"
 title = "Naturality of the Kunneth map"
 order = 3058
-uses = ["def-kun-kunneth-map", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-inverse-image"]
+uses = ["def-kun-kunneth-map", "def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image"]
 +++
 Let
 

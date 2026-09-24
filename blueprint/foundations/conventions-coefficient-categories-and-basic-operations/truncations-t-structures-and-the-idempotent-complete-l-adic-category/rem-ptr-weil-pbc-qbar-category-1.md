@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-qbar-category-1"
 kind = "remark"
 title = "Pointer to the properties of the Qbar-l coefficient category"
-order = 1365
+order = 1504
 uses = ["def-weil-pbc-qbar-category", "thm-weil-pbc-qbar-idempotent-complete"]
 +++
 In the notation of [def-weil-pbc-qbar-category], the property deferred there

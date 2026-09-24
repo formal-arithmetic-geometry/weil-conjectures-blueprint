@@ -2,9 +2,9 @@
 id = "thm-nagata-global-blowup-proper"
 kind = "theorem"
 title = "Properness of the global blow-up"
-order = 252
+order = 253
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isProper_blowupMap"]
-uses = ["lemma-nagata-global-blowup-proper-local", "lemma-nagata-projective-target-local"]
+uses = ["def-nagata-global-blowup-cover-comparison", "lemma-nagata-global-blowup-proper-local", "lemma-nagata-projective-target-local", "prop-nagata-global-blowup-cover-independent"]
 +++
 If $\mathcal I$ is of finite type, then
 $b_{X,\mathcal I}$ is proper.

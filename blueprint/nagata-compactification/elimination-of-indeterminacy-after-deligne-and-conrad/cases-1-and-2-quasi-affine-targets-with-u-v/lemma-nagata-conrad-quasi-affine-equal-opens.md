@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Quasi-affine target over a qcqs base, $U=V$, [ConradNagata]"
 order = 397
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_of_isQuasiAffineHom"]
-uses = ["def-nagata-conrad-quasi-domination", "def-nagata-quasi-affine-morphism", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-quasi-affine-affine-base", "lemma-nagata-ext-scheme-theoretically-dominant-separated", "lemma-nagata-extend-admissible-blowup", "lemma-nagata-qc-open-complement-ideal-exists", "thm-nagata-blowup-product-ideal", "thm-nagata-blowup-universal-property"]
+uses = ["def-nagata-conrad-quasi-domination", "def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-quasi-affine-morphism", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-quasi-affine-affine-base", "lemma-nagata-dense-flat-pullback", "lemma-nagata-ext-scheme-theoretically-dominant-separated", "lemma-nagata-extend-admissible-blowup", "lemma-nagata-qc-open-complement-ideal-exists", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-product-ideal", "thm-nagata-blowup-universal-property"]
 +++
 Let $X$ be qcqs, let $U\subseteq X$ be a quasi-compact open, let
 $p\colon Y\to X$ be separated, quasi-affine and locally of finite type, and

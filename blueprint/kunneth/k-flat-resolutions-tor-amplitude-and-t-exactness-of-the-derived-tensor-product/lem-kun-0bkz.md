@@ -3,7 +3,7 @@ id = "lem-kun-0bkz"
 kind = "lemma"
 title = "Cohomology of unbounded complexes"
 order = 3029
-uses = ["def-kun-rgamma-unbounded", "def-weil-pbc-etale-cohomology", "def-weil-pbc-hypercohomology-filtrations-detailed"]
+uses = ["def-kun-rgamma-unbounded", "def-weil-pbc-etale-cohomology", "def-weil-pbc-hypercohomology-filtrations"]
 +++
 Let $X$ be a scheme, $K\in D(X_{\Et})$, and $\mathcal B$ a class
 of objects of $X_{\Et}$ such that (1) every object of $X_{\Et}$
@@ -18,7 +18,7 @@ $U\in\mathcal B$. (*Source:* Stacks Project,
 ## Proof
 
 For $U\in\mathcal B$ the hypercohomology spectral sequence of
-[def-weil-pbc-hypercohomology-filtrations-detailed] (in the global-section
+[def-weil-pbc-hypercohomology-filtrations] (in the global-section
 form) has
 $E_2^{p,q}=H^p(U_{\Et},\mathcal H^q(K))\Rightarrow H^{p+q}(U_{\Et},K)$. Hypothesis (2) kills the columns $p>0$, so
 only the column $p=0$ survives and there are no differentials to or

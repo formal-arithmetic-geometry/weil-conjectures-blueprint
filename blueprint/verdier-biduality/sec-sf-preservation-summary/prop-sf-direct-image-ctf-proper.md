@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Direct image in the proper case"
 order = 3755
 tags = ["latex:proposition"]
-uses = ["def-compact-support-direct-image-detailed", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "open-sf-preservation-gaps"]
+uses = ["def-compact-support-direct-image-detailed", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "open-sf-preservation-gaps"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, $n\geq1$, put
 $A=A_{E,n}$, and let $f:X\to Y$ be a

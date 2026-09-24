@@ -3,7 +3,7 @@ id = "lem-amb-proper-coproducts"
 kind = "lemma"
 title = "Proper direct image preserves arbitrary coproducts"
 order = 2831
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-scheme-morphism-properties", "lem-exc-direct-image-coproducts", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-geometric-stalk-conservative", "thm-sc-finite-type-torsion-cd"]
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-scheme-morphism-properties", "lem-exc-direct-image-coproducts", "lem-weil-pbc-cohomology-filtered-colimit", "lemma-weil-pbc-geometric-stalk-conservative", "thm-sc-finite-type-torsion-cd"]
 +++
 Let $r:V\to T$ be a proper
 morphism of finite type between Noetherian schemes. On the
@@ -21,7 +21,7 @@ $R^a r_*F=0$ for $a>2e$, for every sheaf $F$.
 The functors $R^a r_*$ commute with filtered colimits: on each
 geometric fibre this is
 [lem-weil-pbc-cohomology-filtered-colimit], and
-[lem-weil-pbc-geometric-stalk-conservative] detects the comparison.
+[lemma-weil-pbc-geometric-stalk-conservative] detects the comparison.
 They therefore commute with direct sums, a direct sum being the
 filtered colimit of its finite subsums. The finite acyclic-resolution argument of
 [lem-exc-direct-image-coproducts] applies on the unbounded

@@ -2,7 +2,7 @@
 id = "pqf-def-locnoeth"
 kind = "definition"
 title = "Locally Noetherian schemes"
-order = 2094
+order = 2092
 +++
 A scheme $X$ is *locally Noetherian* if it admits an affine open
 covering $X=\bigcup_iU_i$ with $\mathcal O_X(U_i)$ Noetherian for all

@@ -2,7 +2,7 @@
 id = "foundations"
 kind = "section"
 title = "Shared language and cohomological foundations"
-order = 1101
+order = 621
 +++
 Part I of `weil_conjectures_detailed.tex`: the common language of the whole
 blueprint. Nothing here is a geometric input to the Weil conjectures; it is
@@ -77,8 +77,8 @@ they were first used, and are moved here to keep the part self-contained:
 [lem-weil-pbc-surjective-nonempty-fibres] to
 [standard-closure-properties-of-morphisms]. Two more, needed by the curve
 estimates, moved to [direct-and-inverse-image-and-the-exchange-morphism]:
-[lem-weil-pbc-finite-stalk-formula] and
-[lem-weil-pbc-finite-direct-image-exact]; and four, from the Künneth chapter
+[lemma-weil-pbc-finite-stalk-formula] and
+[lemma-weil-pbc-finite-direct-image-exact]; and four, from the Künneth chapter
 and cited by [cohomological-dimension] as well, moved there too: the torsion
 cohomological dimension [def-kun-cd] and its vanishing at a separably closed
 point [lem-kun-cd-sep-closed-point], with [def-kun-separably-closed] and
@@ -112,19 +112,19 @@ cites the results that discharge it, is in [verdier-biduality].
 Fifteen identifiers of this part already name objects imported earlier from
 the sketch sources, which read the same notions at a coarser grain. Those
 carry the suffix `-detailed` here so that the two readings coexist:
-[def-weil-frobenius-detailed], [def-weil-small-proetale-site-detailed],
+[def-weil-frobenius-detailed], [def-weil-pbc-proetale-site],
 [def-weil-derived-complete-integral-detailed],
 [def-coefficient-twists-detailed],
 [def-compact-support-direct-image-detailed],
-[def-weil-pbc-cartesian-square-detailed],
-[def-weil-pbc-underived-exchange-detailed],
-[def-weil-pbc-derived-exchange-detailed],
-[def-weil-pbc-pointed-etale-neighbourhoods-detailed],
-[def-weil-pbc-strict-henselization-limit-detailed],
-[def-weil-pbc-property-detailed],
-[prop-weil-pbc-strict-henselization-stalk-formula-detailed],
-[def-weil-pbc-finite-section-pullback-detailed],
-[def-weil-pbc-completed-pullback-detailed], and the section
+[def-weil-pbc-cartesian-square],
+[def-weil-pbc-underived-exchange],
+[def-weil-pbc-derived-exchange],
+[def-weil-pbc-pointed-etale-neighbourhoods],
+[def-weil-pbc-strict-henselization-limit],
+[def-weil-pbc-property],
+[prop-weil-pbc-strict-henselization-stalk-formula],
+[def-weil-pbc-finite-section-pullback],
+[def-weil-pbc-completed-pullback], and the section
 [triangulated-coefficient-categories-detailed].
 
 Few objects of this part carry a `lean` attribute: the point-count

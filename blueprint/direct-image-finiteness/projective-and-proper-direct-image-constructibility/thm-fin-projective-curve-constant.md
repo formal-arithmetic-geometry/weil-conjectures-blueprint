@@ -3,7 +3,7 @@ id = "thm-fin-projective-curve-constant"
 kind = "theorem"
 title = "Constant coefficients on projective families of dimension at most one"
 order = 3246
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-pc-projective-morphism", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism", "lem-fin-generic-curve-model", "lem-finrepair-constant-finite-comparison", "lem-weil-pbc-constructible-subobjects-noetherian", "lem-weil-pbc-finite-stalk-formula", "lem-weil-pbc-noetherian-finite-components", "thm-fin-projective-smooth-curve-finiteness", "thm-weil-pbc-universal-homeomorphism-invariance"]
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-pc-projective-morphism", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism", "lem-fin-generic-curve-model", "lem-finrepair-constant-finite-comparison", "lem-weil-pbc-constructible-subobjects-noetherian", "lem-weil-pbc-noetherian-finite-components", "lemma-weil-pbc-finite-stalk-formula", "thm-fin-projective-smooth-curve-finiteness", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $f:X\to S$ be projective
 between schemes of finite type
@@ -38,7 +38,7 @@ Finite direct image preserves constructibility by
 [lem-fin-finite-morphism], so $p_*p^*E_q$ is constructible.
 The unit $E_q\to p_*p^*E_q$ is injective: on stalks it is the
 diagonal into a nonempty finite product, by
-[lem-weil-pbc-finite-stalk-formula].
+[lemma-weil-pbc-finite-stalk-formula].
 Consequently [lem-weil-pbc-constructible-subobjects-noetherian]
 makes $E_q$ constructible on this open of $S$.
 This proves the required dense-open assertion over every integral base.

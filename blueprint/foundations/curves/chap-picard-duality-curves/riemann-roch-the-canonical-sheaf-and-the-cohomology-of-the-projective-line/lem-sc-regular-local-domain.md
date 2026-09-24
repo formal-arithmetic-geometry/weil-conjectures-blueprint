@@ -2,7 +2,7 @@
 id = "lem-sc-regular-local-domain"
 kind = "lemma"
 title = "Regular local rings are domains"
-order = 2184
+order = 2182
 +++
 A regular local ring $R$ is a domain.
 

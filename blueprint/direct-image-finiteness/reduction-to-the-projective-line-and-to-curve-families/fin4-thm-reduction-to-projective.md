@@ -3,7 +3,7 @@ id = "fin4-thm-reduction-to-projective"
 kind = "theorem"
 title = "Reduction of the proper case to projective morphisms"
 order = 3259
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "fin4-lem-domination-trick", "sbc-def-coefficient-conventions", "thm-fin-proper-case", "thm-weil-pbc-chow"]
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "fin4-lem-domination-trick", "lemma-weil-pbc-chow-factorization", "sbc-def-coefficient-conventions", "thm-fin-proper-case"]
 +++
 Assume that $P$ (the assertion of
 [fin4-lem-domination-trick]) holds for every

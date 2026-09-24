@@ -2,7 +2,7 @@
 id = "def-sc-ample"
 kind = "definition"
 title = "Very ample and ample line bundles"
-order = 2170
+order = 2168
 +++
 Let $X$ be a proper scheme over $k$ and $\mathcal L$ a line
 bundle on $X$. $\mathcal L$ is *very ample* if the complete

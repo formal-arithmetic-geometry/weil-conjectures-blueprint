@@ -4,7 +4,7 @@ kind = "definition"
 title = "Distinguished comparison boundary"
 order = 473
 lean = ["AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide"]
-uses = ["def-nagata-two-open-boundary-loci", "def-nagata-two-open-comparison-space"]
+uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-comparison-space", "prop-nagata-global-blowup-cover-independent"]
 +++
 Define
 

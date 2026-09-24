@@ -2,7 +2,7 @@
 id = "lem-sc-primitive-root"
 kind = "lemma"
 title = "Primitive roots of unity"
-order = 2163
+order = 2161
 uses = ["def-sc-curves", "def-sc-mu-trivialization"]
 +++
 Let $k$ be algebraically closed and let $n\geq1$ be prime to

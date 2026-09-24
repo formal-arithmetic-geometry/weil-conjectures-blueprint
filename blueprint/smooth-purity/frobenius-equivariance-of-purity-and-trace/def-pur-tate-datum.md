@@ -3,7 +3,7 @@ id = "def-pur-tate-datum"
 kind = "definition"
 title = "Strict Weil data and the Tate datum"
 order = 3660
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-scheme-geometric-frobenius", "def-pur-smooth-pullback-exchange", "def-sbc-smooth-morphisms", "def-weil-algebraically-closed-coefficients", "def-weil-frobenius-coefficient-twists", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "def-weil-weil-sheaf-complex"]
+uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-scheme-geometric-frobenius", "def-pur-smooth-pullback-exchange", "def-sbc-smooth-morphisms", "def-weil-algebraically-closed-coefficients", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 geometric-Frobenius datum,

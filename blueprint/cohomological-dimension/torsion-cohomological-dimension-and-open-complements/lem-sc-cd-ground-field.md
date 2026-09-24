@@ -3,7 +3,7 @@ id = "lem-sc-cd-ground-field"
 kind = "lemma"
 title = "Descent of a geometric cohomological dimension bound"
 order = 2735
-uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-torsion-filtered-union", "prop-weil-pbc-strict-henselization-stalk-formula-detailed", "thm-sp-grothendieck", "thm-weil-pbc-universal-homeomorphism-invariance"]
+uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-cohomology-filtered-colimit", "lemma-weil-pbc-torsion-filtered-union", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-sp-grothendieck", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $X$ be a finite-type
 scheme over a field $K$, and let $\overline K$ be an algebraic
@@ -15,7 +15,7 @@ $\operatorname{cd}_{\rm tor}(X)\leq c+e$, using
 ## Proof
 
 For the structure map $f:X\to\operatorname{Spec}K$, the stalk
-formula [prop-weil-pbc-strict-henselization-stalk-formula-detailed]
+formula [prop-weil-pbc-strict-henselization-stalk-formula]
 identifies the unique geometric stalk of $R^qf_*F$ with
 $H^q(X_{K^{\rm sep}},F|)$. Passing from $K^{\rm sep}$ to
 $\overline K$ is a purely inseparable algebraic extension,
@@ -27,4 +27,4 @@ $n$. The spectral sequence of [thm-sp-grothendieck]
 has terms $H^p(K,R^qf_*F)$, zero unless $p\leq c$ and
 $q\leq e$; its total degrees are at most $c+e$.
 For arbitrary torsion $F$, pass to the union of the $F[n]$
-using [lem-weil-pbc-torsion-filtered-union], [lem-weil-pbc-cohomology-filtered-colimit].
+using [lemma-weil-pbc-torsion-filtered-union], [lem-weil-pbc-cohomology-filtered-colimit].

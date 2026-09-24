@@ -2,15 +2,14 @@
 id = "lemma-nagata-relative-proj-invertible-tensor-powers"
 kind = "lemma"
 title = "Proj of the tensor powers of an invertible ideal"
-order = 274
+order = 275
 uses = ["def-nagata-invertible-ideal", "def-nagata-relative-proj", "lemma-nagata-relative-proj-exists", "lemma-nagata-relative-proj-invertible-tensor-powers-affine"]
 +++
 **Status.** Bypassed by the formalized route: no separate relative-Proj
 primitive was formalized. The blow-up is glued from the affine Proj charts
 (`AlgebraicGeometry.Proj.basicOpenIsoSpec`,
 `AlgebraicGeometry.Proj.iSup_basicOpen_eq_top`) with
-`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`, as
-[lemma-nagata-relative-proj-current-api] explains.
+`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`.
 
 If $\mathcal L$ is an invertible ideal on $Y$, the relative Proj of
 $\bigoplus_{n\geq0}\mathcal L^{\otimes n}$ is canonically isomorphic to $Y$.

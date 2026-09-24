@@ -3,7 +3,7 @@ id = "thm-sf-dual-base-change"
 kind = "theorem"
 title = "Dual base change"
 order = 3412
-uses = ["def-exchange-projection", "def-sf-datum", "fix-prop-adjunctions", "lem-sf-mate", "sbc-thm-smooth-base-change", "thm-cbc-complete-proetale", "thm-cbc-finite-extension", "thm-cbc-finite-level-proetale", "thm-cbc-finite-torsion", "thm-cbc-qbar", "thm-weil-pbc-bounded-below", "thm-weil-pbc-complete-proetale", "thm-weil-pbc-finite-level-proetale", "thm-weil-pbc-prime-coefficient", "thm-weil-pbc-qbar"]
+uses = ["def-exchange-projection", "def-sf-datum", "fix-prop-adjunctions", "lem-sf-mate", "lemma-weil-pbc-prime-proper-base-change", "sbc-thm-smooth-base-change", "thm-cbc-complete-proetale", "thm-cbc-finite-extension", "thm-cbc-finite-level-proetale", "thm-cbc-finite-torsion", "thm-cbc-qbar", "thm-weil-pbc-bounded-below", "thm-weil-pbc-complete-proetale", "thm-weil-pbc-finite-level-proetale", "thm-weil-pbc-qbar"]
 +++
 In the setting of [def-sf-datum], let
 
@@ -41,7 +41,7 @@ base-change theorem of the compact-support chapter
 ([thm-cbc-qbar], with the finite-coefficient, pro-étale and finite-extension forms [thm-cbc-finite-torsion], [thm-cbc-finite-level-proetale], [thm-cbc-complete-proetale], [thm-cbc-finite-extension]) at the coefficient stage
 $\Lambda$, with the proper case and the finite-type case supplied by the
 proper-base-change theorems of the proper-base-change chapter
-([thm-weil-pbc-prime-coefficient], [thm-weil-pbc-bounded-below], [thm-weil-pbc-finite-level-proetale], [thm-weil-pbc-complete-proetale], [thm-weil-pbc-qbar]) and the smooth case by the
+([lemma-weil-pbc-prime-proper-base-change], [thm-weil-pbc-bounded-below], [thm-weil-pbc-finite-level-proetale], [thm-weil-pbc-complete-proetale], [thm-weil-pbc-qbar]) and the smooth case by the
 smooth-base-change theorems of the smooth-base-change chapter
 ([sbc-thm-smooth-base-change]). The right adjoint of the composite
 $Lg^*Rf_!$ is the composite of the right adjoints in the reverse order,
@@ -54,4 +54,4 @@ $\operatorname{Ex}_!$ along the two pasted adjunctions, hence natural and
 compatible with pasting by [lem-sf-mate]. The second assertion
 substitutes the properness identification $Rg_!=Rg_*$ of
 [fix-prop-adjunctions], which is stable under base change because
-properness is ([thm-weil-pbc-prime-coefficient] for the square).
+properness is ([lemma-weil-pbc-prime-proper-base-change] for the square).

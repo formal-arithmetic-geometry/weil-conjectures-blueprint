@@ -3,7 +3,7 @@ id = "sbc-thm-bounded-derived-smooth-base-change"
 kind = "theorem"
 title = "Bounded derived smooth base change"
 order = 2803
-uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-five-lemma-transfer", "lem-weil-pbc-hypercohomology-convergence", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-lem-finite-range-comparison", "sbc-prop-extension-by-zero-and-arbitrary-base-change", "sbc-thm-smooth-base-change"]
+uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-hypercohomology-convergence", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-lem-finite-range-comparison", "sbc-prop-extension-by-zero-and-arbitrary-base-change", "sbc-thm-smooth-base-change"]
 +++
 In the square of
 [sbc-thm-smooth-base-change] with $f$ smooth and $g$ quasi-compact
@@ -26,9 +26,9 @@ sheaves; finite locally constant sheaves are torsion with orders
 invertible on $S$ (the ring $\Lambda$ is annihilated by $N$), so
 [sbc-thm-smooth-base-change] together with the compatibility of
 the base-change map with short exact sequences
-([lem-weil-pbc-five-lemma-transfer]) gives the isomorphism on the
+([lemma-weil-pbc-five-lemma-transfer]) gives the isomorphism on the
 $E_2$ page of the hypercohomology spectral sequences of
-[lem-weil-pbc-hypercohomology-convergence]; since $K$ is bounded,
+[lemma-weil-pbc-hypercohomology-convergence]; since $K$ is bounded,
 [sbc-lem-finite-range-comparison] transfers the isomorphisms to
 the abutments and gives the displayed isomorphism in the ambient
 derived category.

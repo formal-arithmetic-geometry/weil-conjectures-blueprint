@@ -3,7 +3,7 @@ id = "lem-finrepair-modification-c"
 kind = "lemma"
 title = "Proper modification transfer without an amplitude claim"
 order = 3243
-uses = ["def-finrepair-property-c", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-extension-by-zero", "lem-finrepair-modification-extension-zero", "lem-weil-pbc-constructible-serre", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-grothendieck-spectral-sequence"]
+uses = ["def-finrepair-property-c", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-extension-by-zero", "lem-finrepair-modification-extension-zero", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-geometric-stalk-conservative", "thm-constructible-serre"]
 +++
 Let $f:X\to S$ and $\pi:Y\to X$ be proper finite-type morphisms,
 and suppose $\pi$ is an isomorphism over the open $U\subset X$.
@@ -17,7 +17,7 @@ then $\mathcal C(f)$ holds, with the conventions of
 For a constructible $F$ on $X$, put $G=F|_U$.
 The stalk descriptions of
 [def-weil-pbc-extension-by-zero], [def-weil-pbc-inverse-image],
-with [lem-weil-pbc-geometric-stalk-conservative], give
+with [lemma-weil-pbc-geometric-stalk-conservative], give
 
 $$
 0\longrightarrow j_!G\longrightarrow F
@@ -50,4 +50,4 @@ $$
 
 All four sheaves defining the kernel and cokernel are constructible.
 The kernel, cokernel, and extension clauses of
-[lem-weil-pbc-constructible-serre] prove $\mathcal C(f)$.
+[thm-constructible-serre] prove $\mathcal C(f)$.

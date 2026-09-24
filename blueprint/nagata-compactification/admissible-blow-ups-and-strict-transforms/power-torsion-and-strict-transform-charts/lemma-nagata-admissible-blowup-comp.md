@@ -2,9 +2,9 @@
 id = "lemma-nagata-admissible-blowup-comp"
 kind = "lemma"
 title = "Composition of admissible blow-ups, [stacks-project]"
-order = 345
+order = 346
 lean = ["AlgebraicGeometry.IsAdmissible.exists_comp"]
-uses = ["def-nagata-admissible-blowup", "lemma-nagata-admissible-blowup-over-open", "thm-nagata-composition-of-blowups"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-admissible-blowup-over-open", "prop-nagata-global-blowup-cover-independent", "thm-nagata-composition-of-blowups"]
 +++
 Let $X$ be quasi-compact and quasi-separated and let $U\subseteq X$ be
 quasi-compact. A composition of two $U$-admissible blow-ups is a

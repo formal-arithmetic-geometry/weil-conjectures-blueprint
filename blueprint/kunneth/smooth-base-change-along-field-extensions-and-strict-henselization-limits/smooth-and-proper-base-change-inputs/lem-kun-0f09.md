@@ -3,7 +3,7 @@ id = "lem-kun-0f09"
 kind = "lemma"
 title = "Smooth base change for limits of smooth schemes"
 order = 3076
-uses = ["def-kun-torsion-invertible", "def-kun-unbounded-exchange", "def-sbc-smooth-morphisms", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-derived-categories", "def-weil-pbc-hypercohomology-filtrations-detailed", "def-weil-pbc-scheme-conventions", "lem-kun-0ezt", "lem-kun-bc-base-change", "lem-kun-fibre-product-limits", "lem-sp-finite-filtration-induction", "lem-weil-pbc-hypercohomology-convergence", "sbc-thm-smooth-base-change"]
+uses = ["def-kun-torsion-invertible", "def-kun-unbounded-exchange", "def-sbc-smooth-morphisms", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-scheme-conventions", "lem-kun-0ezt", "lem-kun-bc-base-change", "lem-kun-fibre-product-limits", "lem-sp-finite-filtration-induction", "lemma-weil-pbc-hypercohomology-convergence", "sbc-thm-smooth-base-change"]
 +++
 Let $S$ be a scheme and $S'=\varprojlim_iS_i$ a directed inverse
 limit of schemes $S_i$ which are
@@ -77,7 +77,7 @@ g^{-1}R^pf_*F\xrightarrow{\ \sim\ }R^pf'_*(g')^{-1}F .
 $$
 
 *Step 2 (the complex case).* Let $E\in\Dplus(X_{\Et})$ be as in the
-statement. By [def-weil-pbc-hypercohomology-filtrations-detailed] the two
+statement. By [def-weil-pbc-hypercohomology-filtrations] the two
 hypercohomology spectral sequences
 
 $$
@@ -88,7 +88,7 @@ E_2'^{p,q}=R^pf'_*(g')^{-1}\mathcal H^q(E)
 $$
 
 are defined by the truncation filtrations, and by
-[lem-weil-pbc-hypercohomology-convergence] the induced filtrations in
+[lemma-weil-pbc-hypercohomology-convergence] the induced filtrations in
 each degree are finite, exhaustive and separated. The exchange morphism
 $g^{-1}Rf_*E\to Rf'_*(g')^{-1}E$ of [def-kun-unbounded-exchange] is
 natural in the coefficient object

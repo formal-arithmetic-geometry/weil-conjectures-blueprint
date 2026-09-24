@@ -2,9 +2,9 @@
 id = "lemma-nagata-blowup-universal-graded-map"
 kind = "lemma"
 title = "The quotient construction is a graded algebra map"
-order = 272
+order = 273
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_lift_blowup"]
-uses = ["def-nagata-blowup-universal-graded-map", "lemma-nagata-invertible-ideal-tensor-power"]
+uses = ["def-nagata-blowup-universal-graded-map", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-invertible-ideal-tensor-power", "prop-nagata-global-blowup-cover-independent"]
 +++
 The degreewise map $\alpha_f$ respects the unit and multiplication and is a
 graded algebra morphism.

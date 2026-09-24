@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Symmetry and compatibilities of affine-space purity"
 order = 3546
 tags = ["latex:proposition"]
-uses = ["cor-pur-affine-space-purity", "def-coefficient-twists-detailed", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "prop-pur-affine-space-composition-law", "thm-pur-affine-line-purity"]
+uses = ["cor-pur-affine-space-purity", "def-coefficient-twists-detailed", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-pur-affine-space-composition-law", "thm-pur-affine-line-purity"]
 +++
 In the situation of [cor-pur-affine-space-purity], the comparison
 $\gamma_{p_d,K}$ is symmetric under permutation of the affine

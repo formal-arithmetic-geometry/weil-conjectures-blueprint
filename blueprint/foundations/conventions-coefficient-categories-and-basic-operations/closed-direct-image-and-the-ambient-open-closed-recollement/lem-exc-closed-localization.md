@@ -2,8 +2,8 @@
 id = "lem-exc-closed-localization"
 kind = "lemma"
 title = "Closed-site operations under weakly etale localization"
-order = 1433
-uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-proetale-operations", "lem-weil-pbc-proetale-restriction-injectives"]
+order = 1930
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-proetale-operations", "lem-weil-pbc-proetale-restriction-injectives"]
 +++
 For the cartesian square obtained by a weakly etale $W\to X$ and a closed
 immersion $Z\to X$, restriction to $W$ commutes with the underived closed
@@ -18,7 +18,7 @@ objects over $W$. Both closed direct images evaluate a sheaf $G$ on such an
 object $W'$ as $G(W'\times_XZ)$, so they agree with their restriction maps.
 For inverse images, both composites carry a representable sheaf to the sheaf
 of its base change by the same cartesian square of
-[def-weil-pbc-cartesian-square-detailed]. All sheaves are colimits of
+[def-weil-pbc-cartesian-square]. All sheaves are colimits of
 representables; for modules use free module sheaves on representables and a
 cokernel presentation. Inverse images preserve these colimits, so the
 identifications extend to all sheaves. In the sectionwise adjunction of the

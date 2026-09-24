@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-integral-tstructure"
 kind = "theorem"
 title = "The standard t-structure on the integral category"
-order = 1354
+order = 1485
 uses = ["def-weil-pbc-bounded-constructible-complete", "def-weil-t-structure", "lem-weil-pbc-reconstruction-uniform-tower", "thm-weil-pbc-integral-truncations"]
 tags = ["latex:proposition"]
 +++

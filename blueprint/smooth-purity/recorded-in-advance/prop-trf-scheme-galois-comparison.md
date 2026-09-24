@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Comparison of scheme and Galois pullbacks"
 order = 3517
 tags = ["latex:proposition"]
-uses = ["def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-pbc-scheme-conventions", "def-weil-small-proetale-site-detailed", "lem-trf-absolute-frobenius-site", "prop-trf-frobenius-factorization"]
+uses = ["def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "lem-trf-absolute-frobenius-site", "prop-trf-frobenius-factorization"]
 +++
 Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, let $X_0$ be a

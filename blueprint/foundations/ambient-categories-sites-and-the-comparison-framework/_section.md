@@ -2,8 +2,8 @@
 id = "ambient-categories-sites-and-the-comparison-framework"
 kind = "section"
 title = "Ambient categories, sites, and the comparison framework"
-order = 1157
-uses = ["def-weil-derived-limit", "lem-weil-derived-limit-existence"]
+order = 1155
+uses = ["def-sp-acyclic", "def-weil-derived-limit", "lem-sp-edge-collapse", "lem-weil-derived-limit-existence", "thm-sp-if-e1"]
 +++
 The ambient language of the proper-base-change chapter, assembled so that
 nothing there rests on an unstated convention: the small etale site and its
@@ -31,8 +31,8 @@ statements: a section stands after the material it uses.
 
 The two results the proper-base-change chapter uses most are the equivalence
 of $\mathrm{PBC}$ with injective acyclicity
-[prop-weil-pbc-property-iff-acyclicity] and the strict-henselization stalk
-formula [prop-weil-pbc-strict-henselization-stalk-formula-detailed].
+[lemma-weil-pbc-property-iff-acyclicity] and the strict-henselization stalk
+formula [prop-weil-pbc-strict-henselization-stalk-formula].
 
 This chapter is chapter 4 of `weil_conjectures_detailed.tex`. Nine of its
 identifiers already name objects imported earlier from the sketch sources;

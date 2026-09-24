@@ -2,9 +2,9 @@
 id = "def-nagata-blowup-universal-graded-map"
 kind = "definition"
 title = "Graded map induced by an invertible quotient"
-order = 271
+order = 272
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_lift_blowup"]
-uses = ["def-nagata-extended-ideal", "def-nagata-invertible-ideal", "def-nagata-sheaf-rees-algebra"]
+uses = ["def-nagata-extended-ideal", "def-nagata-global-blowup-cover-comparison", "def-nagata-invertible-ideal", "def-nagata-sheaf-rees-algebra", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $f\colon Y\to X$, let $\mathcal I\subseteq\mathcal O_X$ be a
 quasi-coherent ideal, and let

@@ -3,7 +3,7 @@ id = "lem-kun-global-generated-stalkwise"
 kind = "lemma"
 title = "Global generation is stalkwise surjectivity"
 order = 2999
-uses = ["def-kun-constant-sheaf", "def-kun-global-generated", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
+uses = ["def-kun-constant-sheaf", "def-kun-global-generated", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $T$ be a scheme, $\Lambda$ a commutative ring and $F$ a sheaf
 of $\Lambda_T$-modules on $T_{\Et}$, with evaluation morphism
@@ -20,7 +20,7 @@ stalk of $T$.
 The stalk functors are exact by
 [prop-weil-pbc-geometric-stalks-exact], so the geometric stalks of
 the cokernel of the evaluation morphism are the cokernels of its maps
-on stalks. By [lem-weil-pbc-geometric-stalk-conservative] a
+on stalks. By [lemma-weil-pbc-geometric-stalk-conservative] a
 sheaf is zero if and only if all its geometric stalks are zero, so the
 cokernel vanishes – that is, the evaluation morphism is an
 epimorphism, the defining condition of

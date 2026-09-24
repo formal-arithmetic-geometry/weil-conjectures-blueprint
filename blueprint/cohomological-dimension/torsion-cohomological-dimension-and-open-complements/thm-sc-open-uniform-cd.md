@@ -3,7 +3,7 @@ id = "thm-sc-open-uniform-cd"
 kind = "theorem"
 title = "A uniform bound for direct image by an open immersion"
 order = 2740
-uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-sc-cech-spectral", "prop-weil-pbc-strict-henselization-stalk-formula-detailed", "thm-sc-affine-torsion-cd", "thm-weil-pbc-etale-cohomology-continuity"]
+uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-sc-cech-spectral", "lemma-weil-pbc-etale-cohomology-continuity", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-sc-affine-torsion-cd"]
 +++
 Let $T$ be a finite-type scheme over $K$, with
 $\operatorname{cd}_{\rm tor}(K)\leq c$, and let
@@ -39,7 +39,7 @@ The alternating finite-cover Cech spectral sequence of
 $0\leq p\leq r_\alpha-1$. Its total degrees are therefore
 at most $D+c+r_\alpha-1\leq N$.
 Take the filtered colimit over $V$. By
-[thm-weil-pbc-etale-cohomology-continuity], [prop-weil-pbc-strict-henselization-stalk-formula-detailed]
+[lemma-weil-pbc-etale-cohomology-continuity], [prop-weil-pbc-strict-henselization-stalk-formula]
 this colimit is the geometric stalk of $R^qj_*M$.
 It is zero for $q>N$, uniformly in the point and in $M$.
 All stalks vanish, so the sheaf is zero.

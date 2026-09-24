@@ -3,7 +3,7 @@ id = "lem-weil-pbc-proper-open-comparison-iso"
 kind = "lemma"
 title = "Proper pushforward of extension by zero"
 order = 3169
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-extension-by-zero", "def-weil-pbc-proper-open-comparison", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-proper-open-identification", "lem-weil-pbc-proper-open-section"]
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-extension-by-zero", "def-weil-pbc-proper-open-comparison", "lem-weil-pbc-proper-open-identification", "lem-weil-pbc-proper-open-section", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 For every datum in
 the comparison-map
@@ -37,5 +37,5 @@ $$
 
 The source $j_{2!}K$ also has zero stalk there. Thus the map is a
 quasi-isomorphism on every geometric stalk.
-[lem-weil-pbc-geometric-stalk-conservative], applied to the
+[lemma-weil-pbc-geometric-stalk-conservative], applied to the
 cohomology sheaves of its cone, proves the assertion.

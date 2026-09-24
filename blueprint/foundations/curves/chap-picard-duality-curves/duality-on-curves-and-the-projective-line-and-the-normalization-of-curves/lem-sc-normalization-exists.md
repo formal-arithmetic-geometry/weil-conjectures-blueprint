@@ -2,7 +2,7 @@
 id = "lem-sc-normalization-exists"
 kind = "lemma"
 title = "Existence and finiteness of the normalization"
-order = 2220
+order = 2218
 uses = ["def-sc-normalization"]
 +++
 Let $X$ be an integral scheme of finite type over a field $k$

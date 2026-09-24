@@ -3,7 +3,7 @@ id = "thm-pur-rank-one-local-calculation"
 kind = "theorem"
 title = "Rank-one local calculation"
 order = 3528
-uses = ["def-coefficient-twists-detailed", "def-pur-affine-line-datum", "def-pur-conventions", "def-pur-support-cohomology", "def-sbc-smooth-morphisms", "def-sc-curves", "def-sc-mu-trivialization", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-sc-primitive-root", "thm-pur-kummer-affine-line", "thm-pur-with-support-exactness", "thm-weil-pbc-site-comparison"]
+uses = ["def-coefficient-twists-detailed", "def-pur-affine-line-datum", "def-pur-conventions", "def-pur-support-cohomology", "def-sbc-smooth-morphisms", "def-sc-curves", "def-sc-mu-trivialization", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties", "lem-sc-primitive-root", "thm-pur-kummer-affine-line", "thm-pur-with-support-exactness", "thm-weil-pbc-site-comparison"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $A=A_{E,n}$, let $\bar y\to Y$ be a

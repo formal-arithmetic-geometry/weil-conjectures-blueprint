@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Boundedness of the proper derived direct image"
 order = 3153
 tags = ["latex:proposition"]
-uses = ["def-weil-constructible-intervals", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-weil-constructible-intervals", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix a prime $\ell$, write $\Ql=\mathbf Q_\ell$, choose an algebraic
 closure $\Qlb$ of $\Ql$, and fix a finite extension $E/\Ql$ contained in

@@ -3,7 +3,7 @@ id = "thm-pur-projective-bundle-formula"
 kind = "theorem"
 title = "Projective-bundle formula without purity"
 order = 3579
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-open-closed-recollement", "def-weil-scheme-morphism-properties", "lem-pur-divisor-class", "lem-pur-frame-independence", "lem-pur-kummer-additivity", "lem-pur-kunneth-supported", "thm-pur-rank-one-local-calculation", "thm-pur-rank-one-thom", "thm-weil-pbc-finite-torsion"]
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-open-closed-recollement", "def-weil-scheme-morphism-properties", "lem-pur-divisor-class", "lem-pur-frame-independence", "lem-pur-kummer-additivity", "lem-pur-kunneth-supported", "prop-weil-proet-finite-proper-base-change", "thm-pur-rank-one-local-calculation", "thm-pur-rank-one-thom"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $F$ be a
@@ -67,7 +67,7 @@ class of the divisors in Step 1 is the one of
 $\mathbf P^n$-bundle, with the independence of
 [lem-pur-frame-independence]), so the morphism of the statement
 is defined before taking any fiber. Proper base change
-([thm-weil-pbc-finite-torsion]) with
+([prop-weil-proet-finite-proper-base-change]) with
 [cor-weil-pbc-geometric-fiber-finite] identifies its pullback to
 each geometric point of $B$ with the calculation of Step 1; the
 cone is bounded constructible with zero geometric stalks, hence zero.

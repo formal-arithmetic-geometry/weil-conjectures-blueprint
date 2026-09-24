@@ -3,7 +3,7 @@ id = "sbc-thm-truncated-open-immersion-base-change"
 kind = "theorem"
 title = "Base change for open immersions under local acyclicity"
 order = 2817
-uses = ["lem-weil-pbc-finite-stalk-formula", "lem-weil-pbc-torsion-filtered-union", "sbc-def-local-acyclicity", "sbc-def-milnor-tube", "sbc-def-specialization-map", "sbc-def-strict-localization", "sbc-def-universal-local-acyclicity", "sbc-lem-strict-henselian-constant-cohomology", "sbc-thm-smooth-base-change"]
+uses = ["lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-torsion-filtered-union", "sbc-def-local-acyclicity", "sbc-def-milnor-tube", "sbc-def-specialization-map", "sbc-def-strict-localization", "sbc-def-universal-local-acyclicity", "sbc-lem-strict-henselian-constant-cohomology", "sbc-thm-smooth-base-change"]
 +++
 Let $j:U\hookrightarrow Z$ be a quasi-compact open immersion, let
 $a:Z'\to Z$ be
@@ -35,10 +35,10 @@ the use of the smooth-base-change chapter, and is not needed for the proof of
 ## Proof
 
 The assertion is local on $Z$ for the etale topology; by the filtered
-torsion reduction of [lem-weil-pbc-torsion-filtered-union] we may
+torsion reduction of [lemma-weil-pbc-torsion-filtered-union] we may
 assume $F$ killed by one integer invertible on $Z'$, and after an
 etale covering and by the finite stalk formula of
-[lem-weil-pbc-finite-stalk-formula] we may assume $F$ finite
+[lemma-weil-pbc-finite-stalk-formula] we may assume $F$ finite
 locally constant, hence constant equal to $\underline A$ for a finite
 group $A$ of order invertible on $Z'$ after a further etale covering.
 For a geometric point $\bar z'$ of $Z'$ with image

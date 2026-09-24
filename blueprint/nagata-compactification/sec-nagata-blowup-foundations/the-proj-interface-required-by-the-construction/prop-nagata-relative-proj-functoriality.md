@@ -10,8 +10,7 @@ uses = ["def-nagata-relative-proj", "lemma-nagata-proj-chart-ring-cocycle", "lem
 primitive was formalized. The blow-up is glued from the affine Proj charts
 (`AlgebraicGeometry.Proj.basicOpenIsoSpec`,
 `AlgebraicGeometry.Proj.iSup_basicOpen_eq_top`) with
-`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`, as
-[lemma-nagata-relative-proj-current-api] explains.
+`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`.
 
 Relative Proj has the following properties.
 

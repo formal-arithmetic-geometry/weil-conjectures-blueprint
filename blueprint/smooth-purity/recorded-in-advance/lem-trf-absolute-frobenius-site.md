@@ -3,7 +3,7 @@ id = "lem-trf-absolute-frobenius-site"
 kind = "lemma"
 title = "Canonical trivialization of absolute Frobenius pullback"
 order = 3516
-uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-trf-weakly-etale-between-objects", "lem-trf-weakly-etale-homeomorphism"]
+uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-trf-weakly-etale-between-objects", "lem-trf-weakly-etale-homeomorphism"]
 +++
 Let $X$ be a scheme in characteristic $p>0$. On its
 small pro-etale site, the
@@ -19,7 +19,7 @@ restriction and with the iterates are the content of the proof below.)
 
 ## Proof
 
-An object $v:V\to X$ of [def-weil-small-proetale-site-detailed] is weakly
+An object $v:V\to X$ of [def-weil-pbc-proetale-site] is weakly
 etale. Its relative Frobenius is
 
 $$

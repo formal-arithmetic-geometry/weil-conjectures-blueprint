@@ -2,7 +2,7 @@
 id = "lem-sp-couple-morphism"
 kind = "lemma"
 title = "Morphisms of couples give morphisms of spectral sequences"
-order = 1138
+order = 1136
 uses = ["def-sp-convergence", "def-sp-exact-couple", "def-sp-filtration", "thm-sp-half-plane-convergence"]
 +++
 A morphism $(t_D,t_E):(D,E,\alpha,f,g)\to(D',E',\alpha',f',g')$ of exact

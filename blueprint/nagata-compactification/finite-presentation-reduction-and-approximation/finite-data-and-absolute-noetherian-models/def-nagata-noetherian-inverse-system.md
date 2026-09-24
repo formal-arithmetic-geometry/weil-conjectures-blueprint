@@ -2,7 +2,7 @@
 id = "def-nagata-noetherian-inverse-system"
 kind = "definition"
 title = "Noetherian approximation"
-order = 533
+order = 535
 lean = ["AlgebraicGeometry.Scheme.NoetherianApproximation"]
 +++
 A *Noetherian approximation* of a scheme $S$ consists of a cofiltered

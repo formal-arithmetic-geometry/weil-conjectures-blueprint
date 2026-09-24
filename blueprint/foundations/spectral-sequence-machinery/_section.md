@@ -2,7 +2,7 @@
 id = "spectral-sequence-machinery"
 kind = "section"
 title = "Spectral sequence machinery"
-order = 1115
+order = 1113
 +++
 The spectral-sequence devices used by the proper-base-change chapter, built
 from scratch so that nothing there rests on an unstated convention. The
@@ -18,7 +18,7 @@ naturality [the-grothendieck-spectral-sequence].
 The items the proper-base-change chapter consumes are
 [thm-sp-truncation-e2], [thm-sp-half-plane-convergence],
 [lem-sp-couple-morphism], [lem-sp-shift-identification],
-[lem-sp-finite-filtration-induction], [lem-sp-leray-acyclicity],
+[lem-sp-finite-filtration-induction], [lemma-weil-pbc-leray-acyclicity],
 [thm-sp-grothendieck] and [thm-sp-grothendieck-base-change], read through the
 dictionary [def-sp-etale-dictionary].
 

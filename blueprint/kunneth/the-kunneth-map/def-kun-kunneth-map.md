@@ -3,7 +3,7 @@ id = "def-kun-kunneth-map"
 kind = "definition"
 title = "The Kunneth map"
 order = 3057
-uses = ["def-kun-derived-tensor", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-inverse-image", "prop-weil-pbc-kinjective-resolutions-exist"]
+uses = ["def-kun-derived-tensor", "def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Consider a
 cartesian square in the

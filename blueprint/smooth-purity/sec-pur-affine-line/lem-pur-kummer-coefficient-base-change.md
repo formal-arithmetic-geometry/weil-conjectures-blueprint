@@ -3,7 +3,7 @@ id = "lem-pur-kummer-coefficient-base-change"
 kind = "lemma"
 title = "Base change of the Kummer coefficients"
 order = 3525
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-sc-curves", "def-weil-pbc-etale-sheaves", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-pur-finite-kummer-level"]
+uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-sc-curves", "def-weil-pbc-etale-sheaves", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-finite-kummer-level"]
 +++
 Fix the finite-field datum of [def-pur-conventions], let $k$ be
 algebraically closed, let $N\geq1$, and let $A$ be a finite

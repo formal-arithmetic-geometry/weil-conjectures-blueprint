@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Morphisms into a separated target agreeing on a scheme-theoretically dominant subscheme"
 order = 396
 lean = ["AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant_of_isSeparated", "AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant_of_isSeparated'"]
-uses = ["def-nagata-scheme-theoretically-dense-open"]
+uses = ["def-nagata-dense-compactification", "def-nagata-scheme-theoretically-dense-open"]
 +++
 Let $s\colon Y\to Z$ be separated and let $f,g\colon T\to Y$ satisfy
 $s\circ f=s\circ g$. If $\iota\colon W\to T$ is scheme-theoretically

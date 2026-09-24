@@ -3,7 +3,7 @@ id = "thm-pur-finite-reduction-of-purity"
 kind = "theorem"
 title = "Finite reduction of purity"
 order = 3644
-uses = ["cor-pur-affine-space-zero-section-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-purity-map", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-cbc-proetale-stalk-conservative", "lem-pur-kunneth-supported", "lem-pur-lisse-uniqueness", "thm-pur-affine-line-orientation", "thm-pur-composition-coherence", "thm-pur-smooth-base-change-coherence"]
+uses = ["cor-pur-affine-space-zero-section-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-purity-map", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative", "lem-pur-kunneth-supported", "lem-pur-lisse-uniqueness", "thm-pur-affine-line-orientation", "thm-pur-composition-coherence", "thm-pur-smooth-base-change-coherence"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $m\leq n$, and write $\operatorname{red}_{n,m,T}$ for the finite

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Density after the final common modification"
 order = 497
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
-uses = ["def-nagata-two-open-compactification-candidate", "lemma-nagata-two-open-density-transport"]
+uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-compactification-candidate", "lemma-nagata-two-open-density-transport", "prop-nagata-global-blowup-cover-independent"]
 +++
 The constructed map $U_1\cap U_2\to W$ is quasi-compact and has dense
 image.

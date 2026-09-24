@@ -4,7 +4,7 @@ kind = "theorem"
 title = "The local finite projective model"
 order = 3788
 tags = ["latex:proposition"]
-uses = ["def-pod-conventions", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-small-proetale-site-detailed", "lem-weil-pbc-constructible-serre"]
+uses = ["def-pod-conventions", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "thm-constructible-serre"]
 +++
 In the Poincare duality conventions of
 this chapter, let $\Lambda=A_{E,n}$ be a finite ring and let $P$ be a
@@ -33,7 +33,7 @@ $\Lambda=\Lambda_{E,n}$ is a finite ring, so $\Lambda_X^r$ is locally
 constant with finite stalks and therefore constructible in the sense of
 [def-weil-finite-torsion-constructibility]. The constructible
 $\Lambda$-sheaves form a weak Serre subcategory
-([lem-weil-pbc-constructible-serre]), so the kernel of the
+([thm-constructible-serre]), so the kernel of the
 idempotent $e$ is constructible as well, and its stalks, being
 subgroups of the finite stalks of $\Lambda_X^r$, are finite; this
 proves the first two assertions. For the last one, a bounded complex of

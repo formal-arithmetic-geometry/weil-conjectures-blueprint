@@ -2,13 +2,13 @@
 id = "def-weil-extension-by-zero"
 kind = "definition"
 title = "Extension by zero"
-order = 1389
-uses = ["def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+order = 1708
+uses = ["def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Let $A$ be a finite commutative ring, let $U$ and $\overline X$ be schemes,
 and let $j:U\hookrightarrow\overline X$ be an open immersion
 [def-weil-scheme-morphism-properties] of schemes, and use the small pro-etale
-sites [def-weil-small-proetale-site-detailed]. Use the constant coefficient
+sites [def-weil-pbc-proetale-site]. Use the constant coefficient
 sheaf $A$. This includes the rings $A_{E,n}$ of the finite-torsion
 coefficient construction [def-weil-finite-torsion-constructibility]. For a
 module sheaf $M$ on $U_{\mathrm{proet}}$, define extension by zero by

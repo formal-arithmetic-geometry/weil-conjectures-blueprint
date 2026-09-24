@@ -3,7 +3,7 @@ id = "lem-kun-0f1i"
 kind = "lemma"
 title = "Base change towards spectra of fields"
 order = 3105
-uses = ["def-kun-bc-property", "def-kun-separably-closed", "def-kun-torsion-invertible", "def-kun-unbounded-exchange", "def-weil-pbc-hypercohomology-filtrations-detailed", "def-weil-pbc-scheme-conventions", "lem-kun-0eys", "lem-kun-0f1c", "lem-kun-0f1d", "lem-kun-0f1i-normal", "lem-kun-bc-base-change", "lem-kun-bc-map-on-cohomology", "lem-kun-geometric-reduced-perfect", "lem-kun-invertible-orders-colimit", "lem-kun-sep-closure-conservative", "lem-kun-stalk-faithful-derived", "lem-kun-unbounded-exchange-agrees", "lem-kun-zn-sheaf-invertible-orders", "lem-weil-pbc-direct-image-filtered-colimit", "thm-weil-pbc-universal-homeomorphism-invariance"]
+uses = ["def-kun-bc-property", "def-kun-separably-closed", "def-kun-torsion-invertible", "def-kun-unbounded-exchange", "def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-scheme-conventions", "lem-kun-0eys", "lem-kun-0f1c", "lem-kun-0f1d", "lem-kun-0f1i-normal", "lem-kun-bc-base-change", "lem-kun-bc-map-on-cohomology", "lem-kun-geometric-reduced-perfect", "lem-kun-invertible-orders-colimit", "lem-kun-sep-closure-conservative", "lem-kun-stalk-faithful-derived", "lem-kun-unbounded-exchange-agrees", "lem-kun-zn-sheaf-invertible-orders", "lemma-weil-pbc-direct-image-filtered-colimit", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $K$ be a field and let $X$ be a scheme of finite type over
 $K$. For any commutative diagram
@@ -43,7 +43,7 @@ write $F=\varinjlim_{n\in I_K}F[n]$
 ([def-kun-torsion-invertible] and
 [lem-kun-invertible-orders-colimit]); since both sides of the exchange
 morphism commute with filtered colimits in $F$
-([lem-weil-pbc-direct-image-filtered-colimit] for the
+([lemma-weil-pbc-direct-image-filtered-colimit] for the
 quasi-compact quasi-separated $g,h$, and exactness of the
 inverse images), the same argument reduces us to the case where
 $F$ is a sheaf of $\kunZn$-modules for some $n$ invertible in
@@ -76,7 +76,7 @@ exchange morphism being [lem-kun-unbounded-exchange-agrees].
 *Conclusion by contraposition.* Suppose for contradiction
 that the derived exchange morphism is not an isomorphism for some
 $F$ as above. By the spectral sequences of
-[def-weil-pbc-hypercohomology-filtrations-detailed] (and
+[def-weil-pbc-hypercohomology-filtrations] (and
 [lem-kun-bc-base-change] together with
 [lem-kun-bc-map-on-cohomology], which identify the induced maps on
 $\mathcal H^q$ with the maps of

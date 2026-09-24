@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-noetherian-compactification"
 kind = "lemma"
 title = "Property of the selected Noetherian compactification"
-order = 598
+order = 600
 uses = ["def-nagata-final-noetherian-compactification", "lemma-nagata-final-descended-model", "thm-nagata-noetherian"]
 +++
 **Status.** Bypassed by the formalized route: the final assembly is carried

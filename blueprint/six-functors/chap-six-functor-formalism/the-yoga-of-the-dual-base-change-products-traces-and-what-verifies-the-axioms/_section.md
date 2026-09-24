@@ -3,7 +3,7 @@ id = "the-yoga-of-the-dual-base-change-products-traces-and-what-verifies-the-axi
 kind = "section"
 title = "The yoga of the dual: base change, products, traces, and what verifies the axioms"
 order = 3411
-uses = ["cor-sf-trace", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-sf-datum", "def-sf-orientation", "fix-prop-adjunctions", "lem-sf-mate", "prop-compactification-coherence-detailed", "sbc-thm-smooth-base-change", "thm-cbc-complete-proetale", "thm-cbc-finite-extension", "thm-cbc-finite-level-proetale", "thm-cbc-finite-torsion", "thm-cbc-qbar", "thm-weil-pbc-bounded-below", "thm-weil-pbc-complete-proetale", "thm-weil-pbc-finite-level-proetale", "thm-weil-pbc-prime-coefficient", "thm-weil-pbc-qbar"]
+uses = ["cor-sf-trace", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-sf-datum", "def-sf-orientation", "fix-prop-adjunctions", "lem-sf-mate", "lemma-weil-pbc-prime-proper-base-change", "prop-compactification-coherence-detailed", "sbc-thm-smooth-base-change", "thm-cbc-complete-proetale", "thm-cbc-finite-extension", "thm-cbc-finite-level-proetale", "thm-cbc-finite-torsion", "thm-cbc-qbar", "thm-weil-pbc-bounded-below", "thm-weil-pbc-complete-proetale", "thm-weil-pbc-finite-level-proetale", "thm-weil-pbc-qbar"]
 +++
 The axioms (A1)–(A6) of [def-sf-datum] are not hypotheses of this
 manuscript: each of them is a theorem of the concrete setting, verified in

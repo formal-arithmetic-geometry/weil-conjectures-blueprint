@@ -3,7 +3,7 @@ id = "lem-sf-tensor-ctf"
 kind = "lemma"
 title = "The derived tensor product on the finite-Tor subcategories"
 order = 3419
-uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-sf-flat-model", "lem-sf-tor-sheaf-constructible", "lem-weil-pbc-constructible-serre"]
+uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-sf-flat-model", "lem-sf-tor-sheaf-constructible", "thm-constructible-serre"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, $n\geq1$, put
 $A=A_{E,n}$, and let $X$ be a
@@ -59,7 +59,7 @@ triangle, in which each cohomology sheaf of the middle term is an extension
 of a subobject of a cohomology sheaf of one outer term by a quotient of a
 cohomology sheaf of the other; constructible sheaves are closed under
 kernels, cokernels and extensions, which is the weak Serre property of
-[lem-weil-pbc-constructible-serre] of the proper-base-change chapter,
+[thm-constructible-serre] of the proper-base-change chapter,
 in the definition-level form of
 [def-weil-finite-torsion-constructibility] on the pro-étale site
 (local constancy is a condition local for the topology, and the constant

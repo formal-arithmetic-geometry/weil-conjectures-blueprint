@@ -2,8 +2,8 @@
 id = "def-weil-completed-integral-coefficients"
 kind = "definition"
 title = "Completed integral coefficient sheaf"
-order = 1318
-uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-small-proetale-site-detailed"]
+order = 1376
+uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site"]
 +++
 For the global finite-field datum [def-weil-finite-field-fiber], fix a prime
 $\ell\neq p$, a finite extension $E/\Ql$, a scheme $Y$, and a uniformizer
@@ -11,7 +11,7 @@ $\varpi_E$ of the valuation ring $\mathcal O_E$. For each $n\in\mathbf
 Z_{\geq1}$, set $A_{E,n}=\mathcal O_E/\varpi_E^n$ as in the finite-torsion
 constructibility condition [def-weil-finite-torsion-constructibility], and
 use the derived tensor product [def-weil-derived-tensor] on the small
-pro-etale site [def-weil-small-proetale-site-detailed] of $Y$. The completed
+pro-etale site [def-weil-pbc-proetale-site] of $Y$. The completed
 coefficient sheaf is
 
 $$

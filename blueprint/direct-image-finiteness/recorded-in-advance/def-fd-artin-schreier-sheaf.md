@@ -2,7 +2,7 @@
 id = "def-fd-artin-schreier-sheaf"
 kind = "definition"
 title = "The Artin–Schreier sheaf"
-order = 3197
+order = 1732
 uses = ["def-fd-additive-character", "def-weil-pbc-etale-site", "def-weil-pbc-finite-torsors", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X_0$ be a separated

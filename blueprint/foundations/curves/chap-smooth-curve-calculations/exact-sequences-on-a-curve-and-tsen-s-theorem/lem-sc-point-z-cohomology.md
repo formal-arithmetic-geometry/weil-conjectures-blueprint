@@ -2,7 +2,7 @@
 id = "lem-sc-point-z-cohomology"
 kind = "lemma"
 title = "Cohomology of the constant sheaf $\\mathbf Z$ on a point"
-order = 2176
+order = 2174
 +++
 Let $k$ be an algebraically closed field. Then
 $H^q(\operatorname{Spec}k_{\Et},\mathbf Z)=0$ for all $q\geq1$.

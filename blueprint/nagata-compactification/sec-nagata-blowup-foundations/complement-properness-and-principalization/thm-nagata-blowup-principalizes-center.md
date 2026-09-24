@@ -2,9 +2,9 @@
 id = "thm-nagata-blowup-principalizes-center"
 kind = "theorem"
 title = "Principalization of the center ideal"
-order = 261
+order = 265
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isInvertible_comap_blowupMap"]
-uses = ["def-nagata-effective-cartier-ideal", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-chart-generator-regular", "lemma-nagata-chart-generators-associated", "prop-nagata-affine-blowup-chart-cover"]
+uses = ["def-nagata-effective-cartier-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-invertible-ideal", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-chart-generator-regular", "lemma-nagata-chart-generators-associated", "lemma-nagata-extended-ideal-affine-chart", "prop-nagata-affine-blowup-chart-cover", "prop-nagata-global-blowup-cover-independent"]
 +++
 If $\mathcal I$ is a finite type quasi-coherent ideal on $X$, then on
 $\operatorname{Bl}_{\mathcal I}(X)$ the extended ideal

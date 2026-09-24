@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-cech-criterion"
 kind = "lemma"
 title = "Injectives and the Cech acyclicity criterion"
-order = 1329
+order = 1387
 uses = ["def-weil-pbc-cover-cech", "def-weil-pbc-etale-cohomology"]
 +++
 On a site with a basis closed under fibre products, suppose every covering of

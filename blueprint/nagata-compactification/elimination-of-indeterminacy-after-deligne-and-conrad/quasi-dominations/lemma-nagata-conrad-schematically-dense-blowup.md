@@ -4,7 +4,7 @@ kind = "lemma"
 title = "An admissible blow-up making the open scheme-theoretically dense"
 order = 384
 lean = ["AlgebraicGeometry.IsAdmissible.exists_comp_isSchemeTheoreticallyDominant_preimage", "AlgebraicGeometry.exists_isAdmissible_isSchemeTheoreticallyDominant_preimage"]
-uses = ["def-nagata-admissible-blowup", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-qc-open-complement-ideal-exists"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-qc-open-complement-ideal-exists", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be qcqs and let $U\subseteq X$ be a quasi-compact open. There is a
 $U$-admissible blow-up $X_1\to X$ in which $U$ is scheme-theoretically

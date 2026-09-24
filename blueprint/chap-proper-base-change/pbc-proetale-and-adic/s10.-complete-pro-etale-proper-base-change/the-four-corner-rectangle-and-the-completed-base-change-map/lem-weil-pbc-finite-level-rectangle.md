@@ -2,8 +2,8 @@
 id = "lem-weil-pbc-finite-level-rectangle"
 kind = "lemma"
 title = "Finite-level exchange rectangle"
-order = 2013
-uses = ["def-weil-pbc-four-arrows", "prop-weil-pbc-perfect-projection-formula"]
+order = 2010
+uses = ["def-weil-pbc-four-arrows", "lemma-weil-pbc-perfect-projection-formula"]
 +++
 For every $n$, the diagram
 $$

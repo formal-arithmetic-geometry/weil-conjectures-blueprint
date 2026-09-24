@@ -2,7 +2,7 @@
 id = "truncations-t-structures-and-the-idempotent-complete-l-adic-category"
 kind = "section"
 title = "Truncations, t-structures and the idempotent-complete l-adic category"
-order = 1351
+order = 1482
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-karoubi-envelope", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-complete", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-intrinsic-completion", "def-weil-pbc-rational-category", "def-weil-t-structure", "lem-weil-karoubi-envelope-fully-faithful", "lem-weil-karoubi-envelope-triangulated", "lem-weil-pbc-finite-reduction-reconstruction", "lem-weil-pbc-reconstruction-uniform-tower", "prop-weil-pbc-scalar-extension", "thm-weil-karoubian-bounded-t"]
 +++
 Three subsections of the source are flattened here.

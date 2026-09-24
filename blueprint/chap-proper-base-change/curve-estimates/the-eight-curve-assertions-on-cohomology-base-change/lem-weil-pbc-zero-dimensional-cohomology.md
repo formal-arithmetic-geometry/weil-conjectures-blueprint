@@ -7,7 +7,7 @@ uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-etale-cohomology", "def-weil
 +++
 Let $k$ be algebraically closed and let $C$ be a separated finite-type
 $k$-scheme of dimension at most zero, as allowed in
-[def-weil-pbc-eight-curve-assertions-detailed]. For an abelian etale sheaf
+[def-weil-pbc-eight-curve-assertions]. For an abelian etale sheaf
 $F$, its etale cohomology is canonically
 
 $$

@@ -2,7 +2,7 @@
 id = "def-nagata-final-fp-envelope"
 kind = "definition"
 title = "Finite-presentation envelope used in the final assembly"
-order = 591
+order = 593
 uses = ["def-nagata-finite-type-closed-in-fp"]
 +++
 **Status.** Bypassed by the formalized route: the final assembly is carried

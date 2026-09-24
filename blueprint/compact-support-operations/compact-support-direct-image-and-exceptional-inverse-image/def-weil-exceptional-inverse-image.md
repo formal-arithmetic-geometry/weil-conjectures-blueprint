@@ -3,7 +3,7 @@ id = "def-weil-exceptional-inverse-image"
 kind = "definition"
 title = "Exceptional inverse image notation"
 order = 3182
-uses = ["def-compact-support-direct-image-detailed", "def-weil-algebraically-closed-coefficients", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-compact-support-direct-image-detailed", "def-weil-algebraically-closed-coefficients", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$ with valuation ring $\mathcal
 O_E$ and uniformizer $\varpi_E$, and an integer $n\in\mathbf Z_{\geq1}$, with
@@ -17,7 +17,7 @@ exists on the ordinary derived categories. Use finite-torsion
 constructibility [def-weil-finite-torsion-constructibility] and the
 compact-support direct image
 [def-compact-support-direct-image-detailed]. On the small pro-etale sites
-[def-weil-small-proetale-site-detailed], set
+[def-weil-pbc-proetale-site], set
 
 $$
  Rf_n^!=Rf_n^{\times}|_{D^b_c(Y,A_{E,n})}:

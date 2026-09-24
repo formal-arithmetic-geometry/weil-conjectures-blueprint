@@ -3,7 +3,7 @@ id = "thm-amb-p1-decomposition"
 kind = "theorem"
 title = "The projective-line calculation before purity"
 order = 2841
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-sc-p1-standard", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "lem-amb-cartier-kummer-map", "lem-amb-proper-coproducts-projection", "lem-weil-pbc-geometric-stalk-conservative", "thm-sc-proper-cohomology"]
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-sc-p1-standard", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "lem-amb-cartier-kummer-map", "lem-amb-proper-coproducts-projection", "lemma-weil-pbc-geometric-stalk-conservative", "thm-sc-proper-cohomology"]
 +++
 Let $q:P=\mathbf P^1_S\to S$, with $S$ Noetherian.
 Let $h$ be the Kummer first Chern class of $\mathcal O_P(1)$.
@@ -27,7 +27,7 @@ In its Kummer description, the degree-two map is
 $\operatorname{Pic}(\mathbf P^1)/n\to H^2(\mathbf P^1,\mu_n)$,
 and the class of $\mathcal O(1)$, of degree one, generates.
 Thus $(1,h)$ is an isomorphism on every geometric fibre.
-By [cor-weil-pbc-geometric-fiber-finite], [lem-weil-pbc-geometric-stalk-conservative]
+By [cor-weil-pbc-geometric-fiber-finite], [lemma-weil-pbc-geometric-stalk-conservative]
 it is an isomorphism on $S$. Both defining components
 commute with base change, so the isomorphism does too. For
 general $A$, tensor this isomorphism over $\mathbf Z/n$

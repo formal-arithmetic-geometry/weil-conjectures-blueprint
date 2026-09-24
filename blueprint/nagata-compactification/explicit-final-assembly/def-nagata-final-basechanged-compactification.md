@@ -2,7 +2,7 @@
 id = "def-nagata-final-basechanged-compactification"
 kind = "definition"
 title = "Base-changed compactification of the finite-presentation envelope"
-order = 599
+order = 601
 uses = ["def-nagata-compactification-base-change", "def-nagata-final-descended-model", "def-nagata-final-noetherian-compactification", "lemma-nagata-final-descended-model", "lemma-nagata-final-noetherian-compactification"]
 +++
 **Status.** Bypassed by the formalized route: the final assembly is carried

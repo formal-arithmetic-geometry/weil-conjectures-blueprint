@@ -2,9 +2,9 @@
 id = "def-nagata-blowup-product-domination-maps"
 kind = "definition"
 title = "Domination maps from the product blow-up"
-order = 292
+order = 293
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_iso"]
-uses = ["def-nagata-blowup-product-comparison"]
+uses = ["def-nagata-blowup-product-comparison", "def-nagata-global-blowup-cover-comparison", "prop-nagata-global-blowup-cover-independent"]
 +++
 Define
 

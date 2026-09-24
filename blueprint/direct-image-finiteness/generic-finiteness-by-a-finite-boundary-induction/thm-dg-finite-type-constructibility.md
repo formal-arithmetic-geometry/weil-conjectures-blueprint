@@ -3,7 +3,7 @@ id = "thm-dg-finite-type-constructibility"
 kind = "theorem"
 title = "Bounded constructibility of every finite-type direct image"
 order = 3284
-uses = ["cor-fin-deligne-open-finite-coefficients", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-fin-proper-bounded-constructible", "lem-weil-pbc-constructible-serre", "lem-weil-pbc-grothendieck-spectral-sequence", "sbc-def-coefficient-conventions"]
+uses = ["cor-fin-deligne-open-finite-coefficients", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-fin-proper-bounded-constructible", "lem-weil-pbc-grothendieck-spectral-sequence", "sbc-def-coefficient-conventions", "thm-constructible-serre"]
 +++
 Let $f:X\to Y$ be a morphism between finite-type schemes over
 a field $k$, and let $A$ be a finite ring annihilated by an
@@ -68,7 +68,7 @@ direct image has a finite range already proved above. Hence this
 spectral sequence lies in a bounded rectangle. Every term on
 every page is constructible by kernels and cokernels, and each
 abutment has a finite constructible filtration, using
-[lem-weil-pbc-constructible-serre]. Outside the finite sum
+[thm-constructible-serre]. Outside the finite sum
 of the two ranges the abutment vanishes. This proves the theorem
 without an unbounded Cech argument, an affine-intersection
 assumption, or a closed-base-change identification for $Rj_*$.

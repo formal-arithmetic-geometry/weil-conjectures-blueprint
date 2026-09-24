@@ -3,7 +3,7 @@ id = "lem-kun-095r"
 kind = "lemma"
 title = "Pushforward of constructible sheaves along finite morphisms"
 order = 3101
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "fin4-thm-finite-morphisms-constructible", "lem-weil-pbc-finite-direct-image-exact", "sbc-def-coefficient-conventions"]
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "fin4-thm-finite-morphisms-constructible", "lemma-weil-pbc-finite-direct-image-exact", "sbc-def-coefficient-conventions"]
 +++
 Let $k$ be a field, $X$ and $Y$ schemes of
 finite type over $k$,
@@ -23,4 +23,4 @@ images, is [fin4-thm-finite-morphisms-constructible] of the smooth-base-change c
 [sbc-def-coefficient-conventions], under exactly the hypotheses on
 $X$, $Y$ and $\Lambda$ displayed above); the vanishing of the
 higher direct images is
-[lem-weil-pbc-finite-direct-image-exact].
+[lemma-weil-pbc-finite-direct-image-exact].

@@ -2,8 +2,8 @@
 id = "lem-weil-restriction-of-scalars-exact"
 kind = "lemma"
 title = "Exactness of restriction of scalars"
-order = 1319
-uses = ["def-weil-completed-integral-coefficients", "def-weil-small-proetale-site-detailed"]
+order = 1377
+uses = ["def-weil-completed-integral-coefficients", "def-weil-pbc-proetale-site"]
 +++
 Fix a prime $\ell\neq p$, a finite extension $E/\Ql$ with valuation ring
 $\mathcal O_E$ and uniformizer $\varpi_E$, a scheme $Y$, and an integer
@@ -19,12 +19,12 @@ $$
 $$
 
 between the categories of sheaves on the small pro-etale site
-[def-weil-small-proetale-site-detailed].
+[def-weil-pbc-proetale-site].
 
 ## Proof
 
 Kernels, images and cokernels of morphisms of sheaves of modules on the small
-pro-etale site [def-weil-small-proetale-site-detailed] are formed termwise on
+pro-etale site [def-weil-pbc-proetale-site] are formed termwise on
 the underlying sheaves of abelian groups, and $\operatorname{Res}_n$ of
 [def-weil-completed-integral-coefficients] is the identity on underlying
 sheaves of abelian groups: the $\widehat{\mathcal O}_{E,Y}$-module structure

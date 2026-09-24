@@ -2,7 +2,7 @@
 id = "lem-exc-closed-restriction-extension-zero"
 kind = "lemma"
 title = "Closed restriction of open extension by zero"
-order = 1440
+order = 1945
 uses = ["def-weil-extension-by-zero", "def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "lem-weil-extension-by-zero-adjunction", "prop-weil-pbc-proetale-constant-ring-map"]
 +++
 For complementary open and closed immersions $j:U\hookrightarrow X$ and

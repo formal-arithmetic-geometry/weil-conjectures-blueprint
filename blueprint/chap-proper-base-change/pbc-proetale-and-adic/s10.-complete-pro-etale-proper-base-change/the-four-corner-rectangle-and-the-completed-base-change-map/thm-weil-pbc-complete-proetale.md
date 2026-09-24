@@ -2,8 +2,8 @@
 id = "thm-weil-pbc-complete-proetale"
 kind = "theorem"
 title = "Complete pro-etale proper base change"
-order = 2019
-uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-completed-base-change-map-detailed", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-completed-exchange-coherence", "lem-weil-pbc-completed-map-reduction", "lem-weil-pbc-levelwise-isomorphism-cones", "prop-weil-pbc-direct-image-limits", "thm-weil-pbc-finite-level-proetale"]
+order = 2015
+uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-completed-base-change-map", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-levelwise-isomorphism-cones", "lemma-weil-pbc-completed-exchange-coherence", "lemma-weil-pbc-completed-map-reduction", "prop-weil-pbc-direct-image-limits", "thm-weil-pbc-finite-level-proetale"]
 +++
 Let $A$ and $I$ satisfy the adic coefficient datum, let $f:X\to Y$ be
 proper, and let $g:Y'\to Y$ be arbitrary. Suppose $K\in D(X_{\Proet},A)$ is
@@ -34,7 +34,7 @@ be bounded below and of etale origin, and the perfectness of $P_n=A/I^n$ is
 required in the adic coefficient datum; what the blueprint adds is the
 tower-level form, in which the witnesses are required to be compatible over
 $n$ and the completed pullback is the one defined in
-[def-weil-pbc-completed-pullback-detailed] from Lemma 61.20.2 ([Tag
+[def-weil-pbc-completed-pullback] from Lemma 61.20.2 ([Tag
 099N](https://stacks.math.columbia.edu/tag/099N)), the proof running through
 the finite-level rectangle and the completed-map reduction rather than
 through Stacks' reduction to etale cohomology.
@@ -43,11 +43,11 @@ through Stacks' reduction to etale cohomology.
 
 By the finite-level theorem [thm-weil-pbc-finite-level-proetale], each
 finite-level exchange map $\Ex_{\square,K_n}$ is an isomorphism. By
-[lem-weil-pbc-completed-map-reduction], the evaluations of the tower
+[lemma-weil-pbc-completed-map-reduction], the evaluations of the tower
 morphism $V'$ are exactly these isomorphisms, so the levelwise-isomorphism
 criterion for cones makes $V'$, and hence the composite defining
 $\Ex^{\mathrm{comp}}_{\square,K}$ in
-[def-weil-pbc-completed-base-change-map-detailed], an isomorphism; the
+[def-weil-pbc-completed-base-change-map], an isomorphism; the
 direct-image/limit commutation used there is the direct-image-limits
 proposition. Naturality and coherence are
-[lem-weil-pbc-completed-exchange-coherence].
+[lemma-weil-pbc-completed-exchange-coherence].

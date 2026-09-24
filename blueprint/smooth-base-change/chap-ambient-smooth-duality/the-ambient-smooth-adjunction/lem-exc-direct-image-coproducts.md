@@ -3,7 +3,7 @@ id = "lem-exc-direct-image-coproducts"
 kind = "lemma"
 title = "Finite cohomological dimension gives derived coproduct compatibility"
 order = 2830
-uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-direct-image-filtered-colimit"]
+uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-direct-image-filtered-colimit"]
 +++
 Let $u:U\to T$ be
 quasi-compact and
@@ -17,7 +17,7 @@ ordinary derived categories.
 ## Proof
 
 A direct sum is the filtered colimit of its finite subsums.
-Additivity and [lem-weil-pbc-direct-image-filtered-colimit]
+Additivity and [lemma-weil-pbc-direct-image-filtered-colimit]
 therefore show that every $R^pu_*$ commutes with direct sums of
 sheaves. We explain why the sheaf assertion also gives the unbounded
 derived assertion, which does not follow from additivity alone.

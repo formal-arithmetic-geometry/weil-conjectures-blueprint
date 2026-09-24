@@ -3,7 +3,7 @@ id = "lem-sc-arbitrary-curve-cd"
 kind = "lemma"
 title = "The torsion bound on an arbitrary algebraic curve"
 order = 2733
-uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-fin-normalization-extension-finite", "lem-sc-affine-cohomological-dimension", "lem-sc-cohomological-dimension", "lem-sc-normal-dim1-dvr", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-zero-dimensional-cohomology", "thm-weil-pbc-universal-homeomorphism-invariance"]
+uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-fin-normalization-extension-finite", "lem-sc-affine-cohomological-dimension", "lem-sc-cohomological-dimension", "lem-sc-normal-dim1-dvr", "lem-weil-pbc-zero-dimensional-cohomology", "lemma-weil-pbc-finite-direct-image-exact", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $X$ be a
 separated finite-type
@@ -37,7 +37,7 @@ For any torsion $F$, the kernel and cokernel of
 $F\to h_*h^*F$ are supported on $S$.
 Such sheaves equal their direct images from $S$, by checking
 stalks, and are acyclic by
-[lem-weil-pbc-finite-direct-image-exact], [lem-weil-pbc-zero-dimensional-cohomology].
+[lemma-weil-pbc-finite-direct-image-exact], [lem-weil-pbc-zero-dimensional-cohomology].
 The two long exact sequences give
 $H^q(X,F)\simeq H^q(X,h_*h^*F)$ for $q\geq2$.
 Finite direct image gives

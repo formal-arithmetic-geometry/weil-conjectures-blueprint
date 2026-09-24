@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properness of the two-open candidate"
 order = 499
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
-uses = ["def-nagata-two-open-compactification-candidate", "lemma-nagata-dense-source-valuative", "lemma-nagata-final-density", "lemma-nagata-two-open-final-modification", "lemma-nagata-two-open-valuative-lifting"]
+uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-compactification-candidate", "lemma-nagata-dense-source-valuative", "lemma-nagata-final-density", "lemma-nagata-two-open-final-modification", "lemma-nagata-two-open-valuative-lifting", "prop-nagata-global-blowup-cover-independent"]
 +++
 The constructed structural morphism $W\to S$ is proper.
 

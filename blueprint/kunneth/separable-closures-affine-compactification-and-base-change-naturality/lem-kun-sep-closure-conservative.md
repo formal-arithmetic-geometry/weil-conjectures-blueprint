@@ -3,7 +3,7 @@ id = "lem-kun-sep-closure-conservative"
 kind = "lemma"
 title = "Conservativity of base change to a separable closure"
 order = 3064
-uses = ["def-kun-separably-closed", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-kun-stalk-as-pullback", "lem-kun-stalk-faithful-derived", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-kun-separably-closed", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-kun-stalk-as-pullback", "lem-kun-stalk-faithful-derived", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $X$ be a scheme over a field $K$. Every geometric point of
 $X$ factors through $X_{K^{\mathrm{sep}}}$, and consequently the
@@ -24,5 +24,5 @@ stalk at $\bar x$ (the pullback along $\bar x$, see
 through the pullback along
 $\Spec(\Omega)\to X_{K^{\mathrm{sep}}}$; all stalks are
 isomorphic, so $\alpha$ is an isomorphism by
-[lem-weil-pbc-geometric-stalk-conservative] (and
+[lemma-weil-pbc-geometric-stalk-conservative] (and
 [lem-kun-stalk-faithful-derived] in the derived case).

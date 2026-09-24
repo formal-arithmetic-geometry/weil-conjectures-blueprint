@@ -3,7 +3,7 @@ id = "def-pur-scheme-geometric-frobenius"
 kind = "definition"
 title = "Scheme and geometric Frobenius of the purity datum"
 order = 3659
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "prop-trf-frobenius-factorization", "prop-trf-scheme-galois-comparison", "thm-weil-pbc-universal-homeomorphism-invariance"]
+uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-trf-frobenius-factorization", "prop-trf-scheme-galois-comparison", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 global finite-field datum

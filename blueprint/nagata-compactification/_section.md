@@ -55,6 +55,6 @@ This is the order of the route map of the Nagata blueprint: Conrad 2.4
 $\to$ 081S $\to$ the modifications $\to$ the two-open theorem $\to$ the
 Noetherian case $\to$ Nagata.
 
-The Stacks Project's own proof of 081S, by Raynaud–Gruson flattening, is still
-recorded in [admissible-blow-ups-and-strict-transforms], but it is not the
-route: nothing cites [lemma-nagata-flattening-ideal] any more.
+The Stacks Project's own proof of 081S, by Raynaud–Gruson flattening, was
+recorded here but is not the route; it and the projectivity of blow-ups, which
+the route also bypasses, were removed where nothing formalized used them.

@@ -4,6 +4,7 @@ kind = "lemma"
 title = "[stacks-project]"
 order = 459
 lean = ["AlgebraicGeometry.IsSeparated.of_valuativeCriterion_of_isDominant", "AlgebraicGeometry.UniversallyClosed.of_valuativeCriterion_of_isDominant"]
+uses = ["def-nagata-dense-compactification", "def-nagata-dense-valuation-probe", "lemma-nagata-composite-valuation-ring", "lemma-nagata-dense-flat-pullback", "lemma-nagata-dense-valuation-probe", "lemma-nagata-dense-valuation-probe-exists", "lemma-nagata-scheme-theoretic-closure-minimal", "lemma-nagata-valuation-ring-extension"]
 +++
 Let $f\colon X\to S$ be quasi-compact and let
 $h\colon U\to X$ be quasi-compact and quasi-separated,

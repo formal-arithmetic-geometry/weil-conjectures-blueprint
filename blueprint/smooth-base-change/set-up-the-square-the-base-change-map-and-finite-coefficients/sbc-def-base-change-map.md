@@ -3,7 +3,7 @@ id = "sbc-def-base-change-map"
 kind = "definition"
 title = "Base-change map"
 order = 2762
-uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange-detailed", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "sbc-def-base-change-square"]
+uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "sbc-def-base-change-square"]
 +++
 For a base-change square and
 $K\in D(T_{\Et},\Lambda)$, the *derived base-change map* is the
@@ -33,7 +33,7 @@ $Le^*\dashv Re_*$, where $ge=fh$ gives the two canonical
 identifications of the composite functors, and where
 $\varepsilon_f$ is the counit of $Lf^*\dashv Rf_*$; it is
 the derived exchange morphism of
-[def-weil-pbc-derived-exchange-detailed] read on the same
+[def-weil-pbc-derived-exchange] read on the same
 square with the vertical and horizontal sides exchanged. Its
 naturality in $K$ is the corresponding statement below, and its
 compatibility with the composition of squares and with base change

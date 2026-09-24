@@ -3,7 +3,7 @@ id = "lem-exc-residue-tor-test"
 kind = "lemma"
 title = "Testing finite Tor amplitude at the residue field"
 order = 3318
-uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $A=\mathcal O_E/\varpi_E^n$, let $\kappa=A/(\varpi_E)$,
 and let $K$ be a bounded complex with
@@ -36,7 +36,7 @@ For an arbitrary module sheaf $M$, stalks commute with the derived
 tensor product of [def-weil-derived-tensor], since they are exact
 tensor functors preserving flat resolutions. The stalk of
 $K\otimes_A^L M$ is consequently zero outside $[a,b]$.
-Conservativity in [lem-weil-pbc-geometric-stalk-conservative]
+Conservativity in [lemma-weil-pbc-geometric-stalk-conservative]
 proves the required uniform sheafwise Tor bound. This proof applies
 to etale stalks; it does not assert their conservativity on the entire
 pro-etale topos.

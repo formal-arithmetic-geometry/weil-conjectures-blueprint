@@ -2,7 +2,7 @@
 id = "def-nagata-closed-subscheme-fp-system"
 kind = "definition"
 title = "Finite-presentation closed-subscheme system"
-order = 547
+order = 549
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.FGSub", "AlgebraicGeometry.Scheme.IdealSheafData.fgSubCone", "AlgebraicGeometry.Scheme.IdealSheafData.fgSubDiagram"]
 +++
 Let $X=V(\mathcal I)\hookrightarrow Y$ be closed with $Y$ qcqs. Let

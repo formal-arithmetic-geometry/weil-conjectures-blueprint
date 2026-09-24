@@ -3,7 +3,7 @@ id = "sbc-lem-bc-integral-surjective"
 kind = "lemma"
 title = "Integral surjective base change on the target"
 order = 2779
-uses = ["lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-five-lemma-transfer", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-injectivity", "sbc-lem-integral-etale-direct-image-exact"]
+uses = ["lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-five-lemma-transfer", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-injectivity", "sbc-lem-integral-etale-direct-image-exact"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] assume for
 some $q\geq1$ that $\mathrm{BC}(f,n,q-1)$ holds. Consider commutative
@@ -46,11 +46,11 @@ is surjective, so by [sbc-lem-bc-injectivity] the task reduces to
 showing the base-change map for $\pi_*\mathcal F'$ is an isomorphism.
 For an integral morphism $\pi$ the direct image is exact by
 [sbc-lem-integral-etale-direct-image-exact] (the finite case being
-the one noted in [lem-weil-pbc-finite-direct-image-exact]),
+the one noted in [lemma-weil-pbc-finite-direct-image-exact]),
 $R^qg_*\pi_*\mathcal F'=R^qg'_*\mathcal F'$ by the Grothendieck
 spectral sequence for the composite, the Cartesian identification gives
 $e^{-1}\pi_*\mathcal F'=\pi'_*(e')^{-1}\mathcal F'$, and
 $R^qh_*\pi'_*(e')^{-1}\mathcal F'=R^qh'_*(e')^{-1}\mathcal F'$ by that
 spectral sequence; the assumption on $\mathcal F'$ then gives the
 isomorphism for $\pi_*\mathcal F'$, hence for $\mathcal F$ by the
-five-lemma transfer of [lem-weil-pbc-five-lemma-transfer].
+five-lemma transfer of [lemma-weil-pbc-five-lemma-transfer].

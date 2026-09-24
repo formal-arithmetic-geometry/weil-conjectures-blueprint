@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Finite-level bounded constructibility for proper support"
 order = 3290
 tags = ["latex:proposition"]
-uses = ["def-compact-support-direct-image-detailed", "def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-fin-extension-by-zero", "lem-weil-pbc-constructible-serre", "obl-fin-comparison", "prop-weil-pbc-comparison-direct-image", "sbc-thm-finiteness-finite-type"]
+uses = ["def-compact-support-direct-image-detailed", "def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-fin-extension-by-zero", "obl-fin-comparison", "prop-weil-pbc-comparison-direct-image", "sbc-thm-finiteness-finite-type", "thm-constructible-serre"]
 +++
 Let $K_0$ be a field, let $X,Y$ be
 finite-type $K_0$-schemes, and let
@@ -106,7 +106,7 @@ $A$-sheaf $F$ on $\bar X_{{\mathrm{et}}}$ the sheaves
 $R^q\bar f_*F$ are constructible and vanish for $q>2e$. For a
 complex whose cohomology sheaves lie in degrees $[a,b]$ the conclusion
 holds degreewise, the constructible sheaves forming a weak Serre
-subcategory ([lem-weil-pbc-constructible-serre]), so that
+subcategory ([thm-constructible-serre]), so that
 $Rf_{!,n}K\in D_c^{[a,b+2e]}(Y,A)$ for the
 constructible cohomological
 interval ([def-weil-constructible-intervals]) $D_c^{[a,b+2e]}(Y,A)$.

@@ -2,7 +2,7 @@
 id = "def-sc-hilbert-degree"
 kind = "definition"
 title = "The Hilbert degree of an ample line bundle"
-order = 2172
+order = 2170
 uses = ["def-sc-ample"]
 +++
 Let $X$ be a proper scheme of dimension $g$ over a field $k$

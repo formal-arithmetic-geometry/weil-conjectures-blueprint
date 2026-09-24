@@ -2,13 +2,13 @@
 id = "constructible-sheaves-formalized"
 kind = "section"
 title = "Constructible sheaves on the étale site (formalized account)"
-order = 1455
-uses = ["lemma-openclosed-stalk-upperstar", "lemma-openclosed-vanishing-lowerstar", "prop-openclosed-lowerstar-fully-faithful", "thm-weil-pbc-universal-homeomorphism-invariance"]
+order = 1437
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "lemma-openclosed-stalk-upperstar", "lemma-openclosed-vanishing-lowerstar", "lemma-weil-pbc-geometric-stalk-conservative", "prop-openclosed-lowerstar-fully-faithful", "prop-weil-pbc-geometric-stalks-exact", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 The Lean development's account of constructible étale sheaves: nearly all of
 it is formalized. The detailed route of this blueprint does not cite it; it
 works with its own statements, [def-weil-pbc-constructible-complexes],
-[lem-weil-pbc-constructible-serre] and the finiteness lemmas of
+[thm-constructible-serre] and the finiteness lemmas of
 [direct-image-finiteness]. Where a statement here is the same as one there,
 its Lean names were moved onto the detailed statement and the copy was
 removed: $j_!$ preserves constructibility is now

@@ -3,7 +3,7 @@ id = "thm-sc-affine-torsion-cd"
 kind = "theorem"
 title = "The affine torsion cohomological dimension bound"
 order = 2738
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-kun-cd-sep-closed-point", "lem-sc-arbitrary-curve-cd", "lem-sc-cd-affine-limit", "lem-sc-cd-ground-field", "lem-sc-one-variable-field-cd", "lem-sc-support-dimension-union", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-torsion-filtered-union", "prop-weil-pbc-strict-henselization-stalk-formula-detailed", "thm-sp-grothendieck"]
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-kun-cd-sep-closed-point", "lem-sc-arbitrary-curve-cd", "lem-sc-cd-affine-limit", "lem-sc-cd-ground-field", "lem-sc-one-variable-field-cd", "lem-sc-support-dimension-union", "lem-weil-pbc-cohomology-filtered-colimit", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-torsion-filtered-union", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-sp-grothendieck"]
 +++
 Let $K$ be a field with $\operatorname{cd}_{\rm tor}(K)\leq c$.
 For any affine finite-type
@@ -19,7 +19,7 @@ with both bounds understood as in [def-sc-etale-torsion-cd].
 
 We induct on $d=\dim X$, simultaneously over all ground fields.
 Dimension zero follows from exact finite direct image
-([lem-weil-pbc-finite-direct-image-exact]) for the finite
+([lemma-weil-pbc-finite-direct-image-exact]) for the finite
 structure map. Dimension one over an algebraically closed field
 is [lem-sc-arbitrary-curve-cd], and
 [lem-sc-cd-ground-field] gives it over all fields.
@@ -64,7 +64,7 @@ $d-a-1<d$. The lower-dimensional induction hypothesis,
 [lem-sc-cd-affine-limit] give
 $\operatorname{cd}_{\rm tor}(R[1/f])\leq d-a$.
 The stalk formula
-[prop-weil-pbc-strict-henselization-stalk-formula-detailed]
+[prop-weil-pbc-strict-henselization-stalk-formula]
 therefore gives $(R^qj_*M)_{\bar y}=0$ for $q>d-a$.
 This calculation uses separating bases only over the
 algebraically closed ground field.
@@ -132,5 +132,5 @@ $$
 has $p+q\leq d$. This proves the induction over algebraically
 closed fields, and the earlier descent step completes it
 over every field with the stated bound $c$.
-Finally [lem-weil-pbc-torsion-filtered-union], [lem-weil-pbc-cohomology-filtered-colimit]
+Finally [lemma-weil-pbc-torsion-filtered-union], [lem-weil-pbc-cohomology-filtered-colimit]
 removes the exponent bound on $M$.

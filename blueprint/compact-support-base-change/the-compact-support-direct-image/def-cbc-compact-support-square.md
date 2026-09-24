@@ -3,7 +3,7 @@ id = "def-cbc-compact-support-square"
 kind = "definition"
 title = "Compact-support base-change square"
 order = 3124
-uses = ["def-weil-compactifications-refinements", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-scheme-conventions", "thm-nagata-compactification"]
+uses = ["def-weil-compactifications-refinements", "def-weil-pbc-cartesian-square", "def-weil-pbc-scheme-conventions", "thm-nagata-compactification"]
 +++
 Let $S$ be a scheme and let
 

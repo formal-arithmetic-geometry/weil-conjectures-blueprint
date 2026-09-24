@@ -2,8 +2,8 @@
 id = "cor-weil-pbc-geometric-fiber-finite"
 kind = "theorem"
 title = "Finite-coefficient geometric-fiber formula"
-order = 1850
-uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-finite-torsion"]
+order = 1851
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-scheme-conventions", "prop-weil-proet-finite-proper-base-change"]
 tags = ["latex:corollary"]
 +++
 Let $f:X\to Y$ be proper, let $\bar y:\operatorname{Spec}\Omega\to Y$ be
@@ -26,7 +26,7 @@ $$
 
 ## Proof
 
-Specialize [thm-weil-pbc-finite-torsion] to the cartesian square
-[def-weil-pbc-cartesian-square-detailed] defined by the geometric point $\bar y$, whose
+Specialize [prop-weil-proet-finite-proper-base-change] to the cartesian square
+[def-weil-pbc-cartesian-square] defined by the geometric point $\bar y$, whose
 base change is $\operatorname{Spec}\Omega\to Y$; the second formula is the
 cohomological consequence for the sheaf $F$ placed in degree zero.

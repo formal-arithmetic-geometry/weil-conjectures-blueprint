@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Density over the prepared boundary"
 order = 478
 lean = ["AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide"]
-uses = ["lemma-nagata-comparison-isiso-near-boundary"]
+uses = ["def-nagata-global-blowup-cover-comparison", "lemma-nagata-comparison-isiso-near-boundary", "prop-nagata-global-blowup-cover-independent"]
 +++
 The subset $Z_{12,2}$ is dense in
 $p_1^{-1}(\overline Z_{1,2})$.

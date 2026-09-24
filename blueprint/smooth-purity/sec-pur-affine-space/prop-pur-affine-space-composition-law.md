@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Affine-space composition law"
 order = 3544
 tags = ["latex:proposition"]
-uses = ["def-coefficient-twists-detailed", "def-pur-affine-space-comparison", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-coefficient-twists-detailed", "def-pur-affine-space-comparison", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $A=A_{E,n}$, and let $d,e\geq1$. Under the canonical identification

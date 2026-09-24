@@ -2,7 +2,7 @@
 id = "def-nagata-admissible-blowup"
 kind = "definition"
 title = "$U$-admissible blow-up, [stacks-project]"
-order = 241
+order = 242
 lean = ["AlgebraicGeometry.IsAdmissible"]
 uses = ["def-nagata-global-blowup"]
 +++

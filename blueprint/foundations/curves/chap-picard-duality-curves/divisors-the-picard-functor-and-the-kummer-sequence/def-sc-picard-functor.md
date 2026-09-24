@@ -2,7 +2,7 @@
 id = "def-sc-picard-functor"
 kind = "definition"
 title = "The Picard functor of a proper curve"
-order = 2205
+order = 2203
 uses = ["def-sc-curves", "def-sc-invertible-module", "def-sc-pic0", "def-sc-picard-group"]
 +++
 Let $C$ be a proper smooth curve over a

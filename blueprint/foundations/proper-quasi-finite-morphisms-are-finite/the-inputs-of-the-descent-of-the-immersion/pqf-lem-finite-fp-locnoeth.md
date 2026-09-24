@@ -2,7 +2,7 @@
 id = "pqf-lem-finite-fp-locnoeth"
 kind = "lemma"
 title = "Finite over a locally Noetherian base is finitely presented"
-order = 2127
+order = 2125
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-locnoeth", "pqf-lem-affine-open-locnoeth"]
 +++
 Let $S$ be a locally Noetherian scheme and

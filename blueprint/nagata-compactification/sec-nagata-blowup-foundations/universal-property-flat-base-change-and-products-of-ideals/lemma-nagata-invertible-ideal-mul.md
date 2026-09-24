@@ -2,7 +2,7 @@
 id = "lemma-nagata-invertible-ideal-mul"
 kind = "lemma"
 title = "Product of invertible ideals is invertible"
-order = 286
+order = 287
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.mul"]
 uses = ["def-nagata-invertible-ideal", "lemma-nagata-invertible-ideal-is-effective-cartier"]
 +++

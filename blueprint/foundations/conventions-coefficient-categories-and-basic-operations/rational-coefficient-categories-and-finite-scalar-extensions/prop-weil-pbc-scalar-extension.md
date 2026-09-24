@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-scalar-extension"
 kind = "theorem"
 title = "Compatibility with finite scalar extension"
-order = 1350
+order = 1481
 uses = ["def-weil-pbc-rational-category"]
 tags = ["latex:proposition"]
 +++

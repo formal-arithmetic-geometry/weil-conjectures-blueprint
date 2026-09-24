@@ -2,8 +2,8 @@
 id = "the-six-operations-in-triangulated-form"
 kind = "section"
 title = "The six operations in triangulated form"
-order = 1385
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-completed-integral-coefficients", "def-weil-constructible-intervals", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-geometric-hypotheses", "def-weil-pbc-etale-origin-witness", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+order = 1648
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-completed-integral-coefficients", "def-weil-constructible-intervals", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-geometric-hypotheses", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties"]
 +++
 The operations themselves, each given at finite torsion level and then
 transported up the coefficient tower by derived inverse limit,

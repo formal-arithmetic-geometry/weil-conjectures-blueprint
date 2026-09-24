@@ -4,7 +4,7 @@ kind = "definition"
 title = "Elimination-of-indeterminacy construction"
 order = 414
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap"]
-uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-strict-transform", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-schematically-dense-blowup", "thm-nagata-conrad-elimination"]
+uses = ["cor-nagata-blowup-product-common-refinement", "cor-nagata-conrad-proper-target-extension", "def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-strict-transform", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-dense-flat-pullback", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-global-blowup-cover-independent", "thm-nagata-conrad-elimination"]
 +++
 Let $q\colon Z\to X$ be separated and of finite type, let $X$ be qcqs, and
 let $U\subseteq X$ be quasi-compact. Fix an isomorphism

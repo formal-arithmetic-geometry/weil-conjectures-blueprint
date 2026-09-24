@@ -3,7 +3,7 @@ id = "lem-kun-leray-finite"
 kind = "lemma"
 title = "Leray through a finite morphism"
 order = 3008
-uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-grothendieck-spectral-sequence"]
+uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-finite-direct-image-exact"]
 +++
 Let $\pi:X'\to X$ and $h:Z\to X'$ be morphisms of schemes with
 $\pi$ finite. For every
@@ -20,6 +20,6 @@ The Grothendieck spectral sequence of
 $Z\xrightarrow{h}X'\xrightarrow{\pi}X$ has
 $E_2^{p,q}=R^p\pi_*R^qh_*G$. As $\pi$ is finite,
 $R^p\pi_*=0$ for $p>0$ by
-[lem-weil-pbc-finite-direct-image-exact], so the spectral
+[lemma-weil-pbc-finite-direct-image-exact], so the spectral
 sequence degenerates at $E_2$ and its abutment in total degree $q$
 is the edge term $E_2^{0,q}=\pi_*R^qh_*G$, which is the assertion.

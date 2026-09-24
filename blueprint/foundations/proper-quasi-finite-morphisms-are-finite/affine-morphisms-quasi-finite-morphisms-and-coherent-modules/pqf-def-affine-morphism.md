@@ -2,7 +2,7 @@
 id = "pqf-def-affine-morphism"
 kind = "definition"
 title = "Affine morphisms"
-order = 2092
+order = 2090
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A morphism of schemes $f:X\to S$ is *affine* if for every affine

@@ -2,7 +2,7 @@
 id = "lem-sp-derived-well-defined"
 kind = "lemma"
 title = "Well-definedness of right derived functors"
-order = 1122
+order = 1120
 uses = ["def-sp-grothendieck-abelian", "def-sp-injective-resolutions", "def-sp-left-exact-additive"]
 +++
 Let $v$ be a left exact additive [def-sp-left-exact-additive] functor and let

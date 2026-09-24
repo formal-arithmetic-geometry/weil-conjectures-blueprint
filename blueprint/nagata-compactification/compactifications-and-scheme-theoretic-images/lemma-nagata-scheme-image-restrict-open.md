@@ -2,9 +2,9 @@
 id = "lemma-nagata-scheme-image-restrict-open"
 kind = "lemma"
 title = "Restriction of a scheme-theoretic image to an open target"
-order = 150
+order = 151
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_morphismRestrict"]
-uses = ["def-nagata-scheme-theoretic-image", "lemma-nagata-affine-image-kernel-localization"]
+uses = ["def-nagata-scheme-theoretic-image", "lemma-nagata-affine-image-kernel-flat", "lemma-nagata-affine-image-kernel-localization", "lemma-nagata-scheme-image-flat-base-change"]
 +++
 Let $g\colon T\to Y$ be quasi-compact and quasi-separated, let
 $W\subseteq Y$ be open, let $T_W=T\times_YW$, and let

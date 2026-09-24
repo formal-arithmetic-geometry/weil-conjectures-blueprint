@@ -3,7 +3,7 @@ id = "lem-finrepair-finite-surjection-cancellation"
 kind = "lemma"
 title = "Constructibility descends through a finite surjection"
 order = 3239
-uses = ["def-finrepair-property-c", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism", "lem-weil-pbc-constructible-serre", "lem-weil-pbc-finite-stalk-formula", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-grothendieck-spectral-sequence", "thm-sp-if-e1"]
+uses = ["def-finrepair-property-c", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative", "thm-constructible-serre", "thm-sp-if-e1"]
 +++
 Let $f:X\to S$ be a morphism between schemes of finite type over $k$,
 and let $\pi:Y\to X$ be finite and surjective, in the sense of
@@ -16,7 +16,7 @@ then $\mathcal C(f)$ holds, with $\mathcal C$ as in
 Let $Q_0=F$ be any constructible $\Lambda$-sheaf on $X$.
 For every sheaf $Q$, the unit
 $Q\to\pi_*\pi^*Q$ is injective: by
-[lem-weil-pbc-finite-stalk-formula], at a geometric point
+[lemma-weil-pbc-finite-stalk-formula], at a geometric point
 $\bar x$ it is the diagonal map
 
 $$
@@ -25,7 +25,7 @@ Q_{\bar x}\longrightarrow
 $$
 
 and the finite indexing set is nonempty by surjectivity.
-Use [lem-weil-pbc-geometric-stalk-conservative] to detect
+Use [lemma-weil-pbc-geometric-stalk-conservative] to detect
 this injectivity.
 The pullback of a constructible sheaf is constructible, by pulling
 back its finite locally closed stratification. Thus
@@ -38,7 +38,7 @@ G^a=\pi_*\pi^*Q_a,\qquad Q_{a+1}=\operatorname{coker}(Q_a\to G^a).
 $$
 
 Every $G^a$ and $Q_{a+1}$ is constructible by induction and
-[lem-weil-pbc-constructible-serre]. Define the differential
+[thm-constructible-serre]. Define the differential
 $G^a\to G^{a+1}$ as the quotient $G^a\to Q_{a+1}$ followed by
 the injective unit $Q_{a+1}\to G^{a+1}$.
 Its kernel is the image of $Q_a$, and the preceding differential
@@ -70,7 +70,7 @@ $$
 
 Every successive page is formed by kernels and cokernels of maps
 between constructible sheaves, so all its terms are constructible by
-[lem-weil-pbc-constructible-serre].
+[thm-constructible-serre].
 For fixed total degree $n$, only $0\leq a,b\leq n$ can contribute,
 and differentials entering or leaving these terms vanish for
 sufficiently large page number by the first-quadrant condition.

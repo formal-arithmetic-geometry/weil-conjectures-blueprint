@@ -3,7 +3,7 @@ id = "lem-kun-0f1j"
 kind = "lemma"
 title = "Base change for pushforward tensored with a bounded-below complex of finite tor amplitude"
 order = 3107
-uses = ["def-kun-derived-tensor", "def-kun-tor-amplitude", "def-kun-truncations", "def-kun-unbounded-exchange", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "lem-kun-03rz", "lem-kun-03sa", "lem-kun-095r", "lem-kun-0f0g", "lem-kun-0f1i", "lem-kun-0f1m", "lem-kun-bc-base-change", "lem-kun-change-of-rings-tensor", "lem-kun-constant-constructible", "lem-kun-derived-tensor-t-est", "lem-kun-derived-tensor-triangulated", "lem-kun-leray-finite", "lem-kun-proj-formula-natural", "lem-kun-stalk-faithful-derived", "lem-kun-tensor-t-est", "lem-kun-zn-sheaf-invertible-orders", "lem-weil-pbc-constructible-finite-pushforward", "lem-weil-pbc-direct-image-filtered-colimit", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-finite-exchange"]
+uses = ["def-kun-derived-tensor", "def-kun-tor-amplitude", "def-kun-truncations", "def-kun-unbounded-exchange", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "lem-kun-03sa", "lem-kun-095r", "lem-kun-0f0g", "lem-kun-0f1i", "lem-kun-0f1m", "lem-kun-bc-base-change", "lem-kun-change-of-rings-tensor", "lem-kun-constant-constructible", "lem-kun-derived-tensor-t-est", "lem-kun-derived-tensor-triangulated", "lem-kun-leray-finite", "lem-kun-proj-formula-natural", "lem-kun-stalk-faithful-derived", "lem-kun-tensor-t-est", "lem-kun-zn-sheaf-invertible-orders", "lemma-weil-pbc-constructible-finite-pushforward", "lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-exchange", "thm-constructible-serre"]
 +++
 Let $K$ be a field and $n\ge1$ an integer invertible in $K$.
 Consider a commutative diagram
@@ -131,9 +131,9 @@ $\kunFl$-vector spaces on $X_{\Et}$
 ([lem-kun-03sa], with the Noetherian ring
 $\Lambda=\kunFl$). Since tensor products commute with filtered
 colimits and since higher direct images do too
-([lem-weil-pbc-direct-image-filtered-colimit]), we may assume
+([lemma-weil-pbc-direct-image-filtered-colimit]), we may assume
 $\mathcal E$ is a constructible sheaf of $\kunFl$-vector spaces
-on $X_{\Et}$. Then [lem-weil-pbc-constructible-finite-pushforward],
+on $X_{\Et}$. Then [lemma-weil-pbc-constructible-finite-pushforward],
 with $\Lambda=\kunFl$, gives an integer $m$, finite and finitely
 presented morphisms $\pi_i:X_i\to X$, and a monomorphism
 
@@ -144,7 +144,7 @@ $$
 Each summand is constructible by
 [lem-kun-095r] and [lem-kun-constant-constructible]; hence
 $P$ and the cokernel of $\mathcal E\to P$ are constructible by
-[lem-kun-03rz]. We first prove the assertion for each
+[thm-constructible-serre]. We first prove the assertion for each
 $\pi_{i,*}\underline{\kunFl}$; finite additivity gives it for
 $P$, after which the dimension-shifting argument recovers the
 assertion for $\mathcal E$.
@@ -165,10 +165,10 @@ with all squares cartesian (so $X'_i=X_i\times_XX'$ and
 $Y_i=X'_i\times_{X'}Y$; here $\rho_i:Y_i\to Y$ and the unlabelled
 maps are the projections). In the equations below we use that
 $R\pi_{i,*}=\pi_{i,*}$ and similarly for $\pi'_i$ and $\rho_i$
-(finite morphisms, [lem-weil-pbc-finite-direct-image-exact]);
+(finite morphisms, [lemma-weil-pbc-finite-direct-image-exact]);
 we use the Leray spectral sequence through the finite morphisms
 ([lem-kun-leray-finite]); we use
-[lem-weil-pbc-finite-exchange] and [lem-kun-0f0g] (the
+[lemma-weil-pbc-finite-exchange] and [lem-kun-0f0g] (the
 projection formula, almost trivial for finite morphisms) for
 $\pi_i$, $\pi'_i$, $\rho_i$. Doing so we see that
 
@@ -177,7 +177,7 @@ $$
 &p^{-1}\pi_{i,*}\underline{\kunFl}\kunotimes{\kunFl}
 (f')^{-1}R^qg_*\mathcal F\\
 &\qquad=\pi'_{i,*}\underline{\kunFl}\kunotimes{\kunFl}
-(f')^{-1}R^qg_*\mathcal F\bigr)\qquad(\text{\Cref{[lem-weil-pbc-finite-exchange]}})\\
+(f')^{-1}R^qg_*\mathcal F\bigr)\qquad(\text{\Cref{[lemma-weil-pbc-finite-exchange]}})\\
 &\qquad=\pi'_{i,*}\bigl((\pi'_i)^{-1}(f')^{-1}R^qg_*\mathcal F\bigr)
 \qquad(\text{\Cref{lem:kun-0F0G}}).
 \end{aligned}
@@ -191,7 +191,7 @@ $$
 \kunotimes{\kunFl}e^{-1}\mathcal F\bigr)\\
 &\qquad=R^qh_*\bigl(\rho_{i,*}\underline{\kunFl}
 \kunotimes{\kunFl}e^{-1}\mathcal F\bigr)
-\qquad(\text{\Cref{[lem-weil-pbc-finite-exchange]}})\\
+\qquad(\text{\Cref{[lemma-weil-pbc-finite-exchange]}})\\
 &\qquad=R^qh_*\bigl(\rho_{i,*}\rho_i^{-1}e^{-1}\mathcal F\bigr)
 \qquad(\text{\Cref{lem:kun-0F0G}})\\
 &\qquad=\pi'_{i,*}R^qh_{i,*}\rho_i^{-1}e^{-1}\mathcal F

@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-finite-tor-amplitude-4"
 kind = "remark"
 title = "Pointer to the properties of finite Tor amplitude"
-order = 1382
+order = 1644
 uses = ["def-weil-finite-tor-amplitude", "lem-weil-field-tor-amplitude"]
 +++
 In the notation of [def-weil-finite-tor-amplitude], the following holds. This

@@ -2,9 +2,9 @@
 id = "lem-chow-closed-model"
 kind = "lemma"
 title = "Closed model of a quasi-compact immersion"
-order = 619
+order = 620
 lean = ["AlgebraicGeometry.ProperClosedModel", "AlgebraicGeometry.nonempty_properClosedModel"]
-uses = ["lem-chow-affine-immersion"]
+uses = ["def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-weil-pbc-closed-immersion-proper", "lem-weil-pbc-proper-composition"]
 +++
 Let $S$ be a scheme and let $j\colon V\to\mathbf P^n_S$ be a quasi-compact
 immersion. Let $Z\subseteq\mathbf P^n_S$ be the scheme-theoretic image of $j$.
@@ -24,3 +24,36 @@ The first two assertions are 01RG applied to the quasi-compact
 immersion $j$. For the last one, $\mathbf P^n_S\to S$ is proper by
 01WC, a closed immersion is proper by 01W5, and
 a composition of proper morphisms is proper; hence $Z\to S$ is proper.
+
+## Detailed form
+
+Let $Y$ be affine and let $j:U\hookrightarrow\mathbf P^n_Y$ be an immersion of
+a quasi-compact scheme $U$. Let $Z\subseteq\mathbf P^n_Y$ be the
+scheme-theoretic closure of the image of $j$, in the sense of
+[def-nagata-scheme-theoretic-image]. Then $j$ factors as
+
+$$
+ U\hookrightarrow Z\hookrightarrow\mathbf P^n_Y,
+$$
+
+where $U\hookrightarrow Z$ is a scheme-theoretically dense open immersion and
+$Z\hookrightarrow\mathbf P^n_Y$ is the closed immersion; in particular $Z\to
+Y$ is proper, as the composite of the closed immersion
+$Z\hookrightarrow\mathbf P^n_Y$ with the proper $\mathbf P^n_Y\to Y$.
+
+## Proof
+
+By [def-nagata-scheme-theoretic-image], $Z$ is the largest closed
+subscheme of $\mathbf P^n_Y$ through which $j$ factors, so the factorization
+into the closed immersion $Z\hookrightarrow\mathbf P^n_Y$ and the induced
+morphism $U\to Z$ exists. The latter is an open immersion with $U$
+scheme-theoretically dense in $Z$: this is exactly Stacks Project, Morphisms,
+Lemma 29.7.7 (Tag [01RG](https://stacks.math.columbia.edu/tag/01RG)), applied
+to the immersion $j$ (which is quasi-compact because $U$ is quasi-compact),
+whose conclusion is that the scheme-theoretic image $Z$ of an immersion
+contains $U$ as a scheme-theoretically dense open subscheme (and
+topologically dense). Finally: a closed immersion is proper; the
+projective-space morphism is proper (Stacks Project, Morphisms, Lemma 29.44.5,
+Tag [01WC](https://stacks.math.columbia.edu/tag/01WC), applied to $\mathbf
+P^n_Y\to Y$); composites of proper morphisms are proper. Hence $Z\to Y$ is the
+composite of two proper morphisms, hence proper.

@@ -3,7 +3,7 @@ id = "lem-finrepair-modification-extension-zero"
 kind = "lemma"
 title = "Extension by zero under a proper modification"
 order = 3242
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $\pi:Y\to X$ be proper and let $j:U\hookrightarrow X$ be open
 such that $\pi^{-1}(U)\to U$ is an isomorphism, with morphisms as in
@@ -29,7 +29,7 @@ outside $U'$ both are zero.
 This uses the stalk descriptions in
 [def-weil-pbc-inverse-image], [def-weil-pbc-extension-by-zero]
 and conservativity in
-[lem-weil-pbc-geometric-stalk-conservative].
+[lemma-weil-pbc-geometric-stalk-conservative].
 Adjunction supplies $j_!G\to\pi_*j'_!G'$.
 
 At a geometric point $\bar x$ of $U$, the fibre of $\pi$ is
@@ -41,4 +41,4 @@ The proper geometric-fibre formula of
 the displayed adjunction morphism with an isomorphism on all
 stalks, and makes every positive-degree stalk $R^q\pi_*j'_!G'$
 zero. Apply
-[lem-weil-pbc-geometric-stalk-conservative] once more.
+[lemma-weil-pbc-geometric-stalk-conservative] once more.

@@ -2,7 +2,7 @@
 id = "universal-property-flat-base-change-and-products-of-ideals--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 279
+order = 280
 +++
 The formal proof (`exists_lift_blowup` together with
 `hom_ext_of_isInvertible_comap`) takes the

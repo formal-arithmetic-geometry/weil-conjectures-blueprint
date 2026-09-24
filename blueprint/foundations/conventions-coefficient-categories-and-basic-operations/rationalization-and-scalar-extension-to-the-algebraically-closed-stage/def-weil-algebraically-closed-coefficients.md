@@ -2,7 +2,7 @@
 id = "def-weil-algebraically-closed-coefficients"
 kind = "definition"
 title = "Algebraically closed coefficient category"
-order = 1376
+order = 1638
 uses = ["def-weil-finite-field-fiber", "def-weil-rationalization-karoubi"]
 +++
 Fix the global finite-field datum [def-weil-finite-field-fiber]

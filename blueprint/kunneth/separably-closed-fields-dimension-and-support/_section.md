@@ -3,7 +3,7 @@ id = "separably-closed-fields-dimension-and-support"
 kind = "section"
 title = "Separably closed fields, dimension, and support"
 order = 2974
-uses = ["def-kun-separably-closed", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "def-weil-pbc-pointed-etale-neighbourhoods-detailed", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-geometric-stalks-exact"]
+uses = ["def-kun-separably-closed", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Throughout, all schemes are assumed to have a small etale site in the
 sense of def:weil-pbc-etale-site, written $T_{\Et}$; sheaves

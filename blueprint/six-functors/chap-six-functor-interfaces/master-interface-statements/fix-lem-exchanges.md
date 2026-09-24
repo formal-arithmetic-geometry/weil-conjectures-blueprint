@@ -3,7 +3,7 @@ id = "fix-lem-exchanges"
 kind = "lemma"
 title = "Exchange functoriality: naturality, identities, and pasting"
 order = 3359
-uses = ["cor-cbc-proper-coincidence", "def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-cartesian-square-detailed", "def-weil-scheme-morphism-properties", "lem-weil-pbc-exchange-identity-pasting", "prop-compactification-coherence-detailed", "sbc-def-base-change-map", "sbc-lem-identity-and-base-change-composition", "sbc-thm-bounded-below-derived-smooth-base-change", "sbc-thm-overline-mathbf-q-ell-coefficient-smooth-base-ch", "thm-cbc-finite-extension", "thm-cbc-finite-torsion", "thm-cbc-qbar"]
+uses = ["cor-cbc-proper-coincidence", "def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-cartesian-square", "def-weil-scheme-morphism-properties", "lem-weil-pbc-exchange-identity-pasting", "prop-compactification-coherence-detailed", "sbc-def-base-change-map", "sbc-lem-identity-and-base-change-composition", "sbc-thm-bounded-below-derived-smooth-base-change", "sbc-thm-overline-mathbf-q-ell-coefficient-smooth-base-ch", "thm-cbc-finite-extension", "thm-cbc-finite-torsion", "thm-cbc-qbar"]
 +++
 In the six-functor datum of
 [def-fix-six-functor-datum], let
@@ -64,7 +64,7 @@ composition law of [def-compact-support-direct-image-detailed].
 Step 1: construction. By [def-exchange-projection],
 $\operatorname{Ex}_*$ is the adjoint of the composite of the
 canonical identification $Lf'^*Lg^*\cong Lg'^*Lf^*$ of the
-cartesian square ([def-weil-pbc-cartesian-square-detailed]) with the
+cartesian square ([def-weil-pbc-cartesian-square]) with the
 counit of $Lf^*\dashv Rf_*$ of [def-weil-derived-direct-image],
 and $\operatorname{Ex}_!$ is represented by $\operatorname{Ex}_*$
 for a proper compactification $\bar f$, followed by the
@@ -75,7 +75,7 @@ a finite coefficient level the latter is the map of
 Step 2: naturality. Each ingredient of these composites is a natural
 transformation: the identification of the cartesian square is natural
 in the square and the coefficient ring
-([def-weil-pbc-cartesian-square-detailed]), the counit is natural by
+([def-weil-pbc-cartesian-square]), the counit is natural by
 [def-weil-derived-pullback-tensor-hom] and
 [def-weil-derived-direct-image], and the extension-by-zero
 identification is natural by [def-cbc-exchange-map]; the

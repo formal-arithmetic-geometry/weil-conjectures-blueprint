@@ -3,7 +3,7 @@ id = "smooth-purity-recorded-in-advance"
 kind = "section"
 title = "Recorded in advance from later chapters"
 order = 3511
-uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties"]
 +++
 Statements of later chapters of `weil_conjectures_detailed.tex` that this block
 cites, recorded here ahead of the import of their chapters so that the

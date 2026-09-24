@@ -2,7 +2,7 @@
 id = "lem-sc-hilbert-polynomial"
 kind = "lemma"
 title = "The Hilbert polynomial"
-order = 2171
+order = 2169
 +++
 Let $X$ be a proper scheme of dimension $g$ over a field $k$
 and $\mathcal M$ an ample invertible

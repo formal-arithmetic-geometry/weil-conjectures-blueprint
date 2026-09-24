@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Twists preserve finiteness conditions"
 order = 3146
 tags = ["latex:proposition"]
-uses = ["def-coefficient-twists-detailed", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-small-proetale-site-detailed"]
+uses = ["def-coefficient-twists-detailed", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site"]
 +++
 In the notation of
 [def-coefficient-twists-detailed], each $\Lambda(m)$ is an

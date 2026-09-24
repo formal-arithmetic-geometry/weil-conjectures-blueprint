@@ -2,7 +2,7 @@
 id = "affine-covers-for-the-comparison-of-sites"
 kind = "section"
 title = "Affine covers for the comparison of sites"
-order = 1233
+order = 1255
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-etale-finite-data-descent"]
 +++
 The construction that lets a weakly etale map be refined by an ind-etale one

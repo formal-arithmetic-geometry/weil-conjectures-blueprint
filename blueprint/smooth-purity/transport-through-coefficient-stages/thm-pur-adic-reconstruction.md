@@ -3,7 +3,7 @@ id = "thm-pur-adic-reconstruction"
 kind = "theorem"
 title = "Adic reconstruction"
 order = 3645
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-complete-integral-detailed", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-tower", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-weil-pbc-reconstruction-uniform-tower", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-finite-reduction-of-purity"]
+uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-complete-integral-detailed", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-weil-pbc-reconstruction-uniform-tower", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-finite-reduction-of-purity"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $f:X\to Y$ be smooth separated of relative dimension $d$, and let

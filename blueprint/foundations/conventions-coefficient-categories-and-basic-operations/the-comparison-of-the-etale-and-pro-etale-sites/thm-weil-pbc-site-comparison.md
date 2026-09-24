@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-site-comparison"
 kind = "theorem"
 title = "Bounded-below site comparison"
-order = 1333
+order = 1391
 uses = ["def-weil-pbc-proetale-modules", "def-weil-pbc-site-comparison-morphism", "prop-weil-pbc-kinjective-resolutions-exist", "prop-weil-pbc-site-comparison-finite-level"]
 +++
 For finite $\Lambda$, the inverse image of the comparison morphism of

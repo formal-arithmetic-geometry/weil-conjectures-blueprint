@@ -9,8 +9,7 @@ uses = ["def-nagata-affine-proj"]
 primitive was formalized. The blow-up is glued from the affine Proj charts
 (`AlgebraicGeometry.Proj.basicOpenIsoSpec`,
 `AlgebraicGeometry.Proj.iSup_basicOpen_eq_top`) with
-`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`, as
-[lemma-nagata-relative-proj-current-api] explains.
+`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`.
 
 Let $X$ be a scheme and
 $\mathcal A=\bigoplus_{n\geq0}\mathcal A_n$ a quasi-coherent graded

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Reduction to a closed subscheme of the target"
 order = 409
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_partialSection_of_isClosedImmersion"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup-cover-comparison", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $i\colon Y'\hookrightarrow Y$ be a closed immersion of $X$-schemes and
 suppose the section $f\colon U\to Y$ factors as $f=i\circ f'$ through $Y'$.

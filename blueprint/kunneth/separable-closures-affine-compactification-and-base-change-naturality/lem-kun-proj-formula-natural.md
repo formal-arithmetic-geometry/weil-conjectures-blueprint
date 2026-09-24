@@ -3,11 +3,11 @@ id = "lem-kun-proj-formula-natural"
 kind = "lemma"
 title = "Naturality of the projection formula"
 order = 3073
-uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-inverse-image", "lem-kun-inverse-image-monoidal"]
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image", "lem-kun-inverse-image-monoidal"]
 +++
 Consider a
 cartesian square as in
-[def-weil-pbc-cartesian-square-detailed]. Let $\Lambda$ be a ring,
+[def-weil-pbc-cartesian-square]. Let $\Lambda$ be a ring,
 $E\in D(X_{\Et},\Lambda)$, and $K\in D(Y_{\Et},\Lambda)$. The
 following square commutes:
 

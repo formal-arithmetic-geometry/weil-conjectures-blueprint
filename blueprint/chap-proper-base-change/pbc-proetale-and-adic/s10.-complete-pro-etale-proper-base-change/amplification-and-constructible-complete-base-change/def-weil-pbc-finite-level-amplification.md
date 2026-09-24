@@ -2,10 +2,10 @@
 id = "def-weil-pbc-finite-level-amplification"
 kind = "definition"
 title = "Finite-level amplification condition"
-order = 2022
-uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-proetale-operations"]
+order = 2023
+uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-cartesian-square", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-proetale-operations"]
 +++
-For a cartesian square [def-weil-pbc-cartesian-square-detailed] $\square$ with
+For a cartesian square [def-weil-pbc-cartesian-square] $\square$ with
 $\Lambda$-coefficient data as in the adic coefficient datum, write
 $\mathrm{AMP}(\square;c)$ if, for every $n\geq1$, with $P_n=A/I^n$ and
 $\Lambda=P_n$:

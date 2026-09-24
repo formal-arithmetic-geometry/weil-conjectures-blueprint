@@ -3,7 +3,7 @@ id = "lem-sf-ext-sheaf-constructible"
 kind = "lemma"
 title = "Constructible internal Hom with a site-perfect first variable"
 order = 3447
-uses = ["def-weil-site-perfect-complex", "lem-sf-hom-finite-projective", "lem-weil-pbc-constructible-serre"]
+uses = ["def-weil-site-perfect-complex", "lem-sf-hom-finite-projective", "thm-constructible-serre"]
 +++
 If $K$ is site-perfect and $M$ is bounded constructible on
 $X_{\Et}$, then every cohomology sheaf of
@@ -19,6 +19,6 @@ using [def-weil-site-perfect-complex]. Then
 $R\mathcal Hom_A(K,M)=P^\vee\otimes_A^LM$ by
 [lem-sf-hom-finite-projective]. Finite sums, shifts and cones of
 constructible cohomology sheaves remain constructible by
-[lem-weil-pbc-constructible-serre]. This proves the local assertion,
+[thm-constructible-serre]. This proves the local assertion,
 which descends on the site. For $F$ concentrated in degree zero the
 same model has only one term, giving the last assertion.

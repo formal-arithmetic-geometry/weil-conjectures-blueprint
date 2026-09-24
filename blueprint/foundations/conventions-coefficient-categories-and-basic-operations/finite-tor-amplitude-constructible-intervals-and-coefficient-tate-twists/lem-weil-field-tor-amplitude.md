@@ -2,7 +2,7 @@
 id = "lem-weil-field-tor-amplitude"
 kind = "lemma"
 title = "Finite Tor amplitude at field coefficients"
-order = 1381
+order = 1643
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-rationalization-karoubi"]
 +++
 Let $F$ be a field, let $Y$ be a scheme, and let $K$ be a bounded

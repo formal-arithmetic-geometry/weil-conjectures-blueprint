@@ -2,7 +2,7 @@
 id = "power-torsion-and-strict-transform-charts"
 kind = "section"
 title = "Power torsion and strict-transform charts"
-order = 311
+order = 312
 +++
 The affine power-torsion quotient and its localization formula are proved
 below. The only remaining strict-transform infrastructure is the transport

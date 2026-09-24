@@ -2,7 +2,7 @@
 id = "lem-weil-scalar-extension-exact-triangulated"
 kind = "lemma"
 title = "Scalar extension is an exact triangulated functor"
-order = 1373
+order = 1619
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-rationalization-karoubi", "lem-weil-scalar-extension-well-defined", "prop-weil-pbc-scalar-extension"]
 +++
 Let $E\subset L$ be a finite extension of $\Ql$ and let $Y$ be a scheme. The

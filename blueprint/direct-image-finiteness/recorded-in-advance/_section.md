@@ -2,7 +2,7 @@
 id = "direct-image-finiteness-recorded-in-advance"
 kind = "section"
 title = "Recorded in advance from later chapters"
-order = 3195
+order = 1728
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-finite-torsors", "def-weil-pbc-scheme-conventions"]
 +++
 Statements of later chapters of `weil_conjectures_detailed.tex` that this block

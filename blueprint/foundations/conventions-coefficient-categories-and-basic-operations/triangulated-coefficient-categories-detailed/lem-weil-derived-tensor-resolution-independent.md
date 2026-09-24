@@ -2,12 +2,12 @@
 id = "lem-weil-derived-tensor-resolution-independent"
 kind = "lemma"
 title = "Resolution independence of the derived tensor product"
-order = 1314
-uses = ["def-weil-derived-tensor", "def-weil-small-proetale-site-detailed"]
+order = 1372
+uses = ["def-weil-derived-tensor", "def-weil-pbc-proetale-site"]
 +++
 Fix a scheme $Y$, a commutative ring $A$, and complexes $K_1,K_2$ of
 $A_Y$-modules on the small pro-etale site
-[def-weil-small-proetale-site-detailed] $Y_{\mathrm{proet}}$. Let $P\to K_1$
+[def-weil-pbc-proetale-site] $Y_{\mathrm{proet}}$. Let $P\to K_1$
 and $P'\to K_1$ be quasi-isomorphisms of complexes of $A_Y$-modules whose
 sources are K-flat [def-weil-derived-tensor]. Then the induced map
 
@@ -33,7 +33,7 @@ K-flat resolutions (Tag
 K-flatness under tensoring (Tag
 [06Y0](https://stacks.math.columbia.edu/tag/06Y0)). For complexes of
 $A_Y$-modules on the small pro-etale site
-[def-weil-small-proetale-site-detailed] the same argument applies: tensor
+[def-weil-pbc-proetale-site] the same argument applies: tensor
 products, total complexes and truncations are formed termwise in the abelian
 category of sheaves of $A_Y$-modules, in which filtered colimits are exact,
 and K-flat resolutions exist by the functorial flat-resolution construction.

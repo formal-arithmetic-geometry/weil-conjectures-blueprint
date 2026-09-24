@@ -3,7 +3,7 @@ id = "fix-lem-tensor-adjunction"
 kind = "lemma"
 title = "Tensor–adjunction form of the exchange"
 order = 3398
-uses = ["def-fix-six-functor-datum", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "fix-prop-adjunctions", "fix-prop-projection-formula", "lem-weil-pbc-geometric-stalk-conservative", "thm-weil-pbc-site-comparison"]
+uses = ["def-fix-six-functor-datum", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "fix-prop-adjunctions", "fix-prop-projection-formula", "lemma-weil-pbc-geometric-stalk-conservative", "thm-weil-pbc-site-comparison"]
 +++
 In the six-functor datum of
 [def-fix-six-functor-datum], let $f$ be
@@ -54,7 +54,7 @@ constructible and flat, so it is in the finite-Tor domain used in
 step 1. The resulting Hom groups are the cohomology of the two
 objects on $V$. The cone therefore has zero cohomology on every
 such $V$, and hence has zero geometric stalks. Conservativity in
-[lem-weil-pbc-geometric-stalk-conservative] proves the map is
+[lemma-weil-pbc-geometric-stalk-conservative] proves the map is
 an isomorphism without first assuming that either output belongs to
 the finite-Tor subcategory. The site equivalence on the stipulated
 coefficient categories in [thm-weil-pbc-site-comparison] and

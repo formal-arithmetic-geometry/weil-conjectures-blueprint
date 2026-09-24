@@ -2,8 +2,8 @@
 id = "lem-sc-zero-generic-acyclic"
 kind = "lemma"
 title = "Acyclicity of a sheaf with zero generic restriction"
-order = 1584
-uses = ["def-sc-curves", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-zero-dimensional-cohomology", "prop-weil-pbc-geometric-stalks-exact"]
+order = 1585
+uses = ["def-sc-curves", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-zero-dimensional-cohomology", "lemma-weil-pbc-finite-direct-image-exact", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $C$ be an integral separated
 curve over an algebraically closed field,
@@ -39,7 +39,7 @@ This proves the claim on a basis, or on geometric stalks using
 For $i_S:S\to C$, the map $F_S\to i_{S*}i_S^*F_S$ is an
 isomorphism: at a point of $S$ it is the identity, and outside
 $S$ both stalks vanish. Finite direct image is exact by
-[lem-weil-pbc-finite-direct-image-exact], so its cohomology
+[lemma-weil-pbc-finite-direct-image-exact], so its cohomology
 is the cohomology on $S$. That is zero in positive degrees
 by [lem-weil-pbc-zero-dimensional-cohomology], since
 $S$ is a finite disjoint union of spectra of algebraically

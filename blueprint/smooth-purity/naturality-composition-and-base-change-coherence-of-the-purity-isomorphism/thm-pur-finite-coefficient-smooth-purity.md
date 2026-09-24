@@ -3,7 +3,7 @@ id = "thm-pur-finite-coefficient-smooth-purity"
 kind = "theorem"
 title = "Finite-coefficient smooth purity"
 order = 3630
-uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-pur-conventions", "def-pur-smooth-purity-map", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object"]
+uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-pur-conventions", "def-pur-smooth-purity-map", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object"]
 +++
 Fix the purity conventions with its
 explicit ingredients: the global finite-field datum $(p,a,q,k_0,k)$,

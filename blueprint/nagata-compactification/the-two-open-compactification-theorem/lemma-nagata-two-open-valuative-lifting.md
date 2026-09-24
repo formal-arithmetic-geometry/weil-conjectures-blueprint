@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Valuative lifting for the two-open candidate"
 order = 498
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
-uses = ["def-nagata-two-open-compactification-candidate", "lemma-nagata-blowup-proper", "lemma-nagata-one-valuation-avoids-boundary", "lemma-nagata-proper-separated-valuation-extension", "lemma-nagata-separated-valuation-lift-unique", "lemma-nagata-two-open-final-modification"]
+uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-compactification-candidate", "lemma-nagata-blowup-proper", "lemma-nagata-one-valuation-avoids-boundary", "lemma-nagata-proper-separated-valuation-extension", "lemma-nagata-separated-valuation-lift-unique", "lemma-nagata-two-open-final-modification", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $A$ be a valuation ring with fraction field $K$. Every commutative
 diagram whose generic map

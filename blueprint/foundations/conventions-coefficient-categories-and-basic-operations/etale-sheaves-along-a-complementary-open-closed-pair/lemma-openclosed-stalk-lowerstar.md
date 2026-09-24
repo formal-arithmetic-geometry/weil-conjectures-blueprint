@@ -2,7 +2,7 @@
 id = "lemma-openclosed-stalk-lowerstar"
 kind = "lemma"
 title = "Stalks of $i_*$ on $Z$"
-order = 1453
+order = 1435
 lean = ["AlgebraicGeometry.Etale.lowerStarCompSheafFiberIso", "AlgebraicGeometry.Scheme.initial_pointSmallEtaleElementsBaseChange"]
 uses = ["lemma-openclosed-etale-lifts-locally"]
 +++

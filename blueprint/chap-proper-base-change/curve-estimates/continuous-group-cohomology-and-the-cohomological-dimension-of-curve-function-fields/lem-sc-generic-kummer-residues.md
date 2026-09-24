@@ -2,8 +2,8 @@
 id = "lem-sc-generic-kummer-residues"
 kind = "lemma"
 title = "The generic Kummer residue sheaf"
-order = 1587
-uses = ["def-sc-curves", "def-sc-divisor", "def-sc-function-field", "def-sc-kummer-sequence", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "prop-weil-pbc-geometric-stalks-exact", "prop-weil-pbc-strict-henselization-stalk-formula-detailed"]
+order = 1588
+uses = ["def-sc-curves", "def-sc-divisor", "def-sc-function-field", "def-sc-kummer-sequence", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "prop-weil-pbc-geometric-stalks-exact", "prop-weil-pbc-strict-henselization-stalk-formula"]
 +++
 Let $C/k$ be a smooth integral separated
 curve, with $k$ algebraically closed.
@@ -33,7 +33,7 @@ index one. They therefore define the displayed map after
 sheafification of the cohomology presheaf.
 
 At a geometric closed point the stalk formula
-[prop-weil-pbc-strict-henselization-stalk-formula-detailed]
+[prop-weil-pbc-strict-henselization-stalk-formula]
 identifies the map with
 
 $$

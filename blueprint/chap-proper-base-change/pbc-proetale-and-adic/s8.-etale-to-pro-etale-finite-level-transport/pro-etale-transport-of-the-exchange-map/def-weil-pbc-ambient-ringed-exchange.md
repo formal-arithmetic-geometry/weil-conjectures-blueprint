@@ -2,10 +2,10 @@
 id = "def-weil-pbc-ambient-ringed-exchange"
 kind = "definition"
 title = "Ambient ringed exchange"
-order = 1925
-uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-proetale-operations"]
+order = 1926
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-proetale-operations"]
 +++
-For a cartesian square [def-weil-pbc-cartesian-square-detailed] with its chosen
+For a cartesian square [def-weil-pbc-cartesian-square] with its chosen
 identification, and a coefficient sheaf $R$, define the ambient pro-etale
 exchange transformation
 

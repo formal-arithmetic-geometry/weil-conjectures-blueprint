@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Derived extension-by-zero base change"
 order = 3120
 tags = ["latex:corollary"]
-uses = ["def-cbc-extension-by-zero", "def-cbc-open-immersion-square", "def-weil-pbc-derived-categories", "lem-cbc-extension-zero-base-change"]
+uses = ["def-cbc-open-immersion-square", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "lem-cbc-extension-zero-base-change"]
 +++
 Let $\square$ be an
 open-immersion square and let
@@ -23,7 +23,7 @@ pasting of open-immersion squares.
 ## Proof
 
 Both $g^{-1}$, $g_U^{-1}$ are exact inverse images, and $j_!$,
-$j'_!$ are exact by [def-cbc-extension-by-zero], so the
+$j'_!$ are exact by [def-weil-pbc-extension-by-zero], so the
 degreewise isomorphisms of [lem-cbc-extension-zero-base-change]
 give a termwise isomorphism of complexes, i.e. an isomorphism in the
 derived category; the

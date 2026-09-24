@@ -2,7 +2,7 @@
 id = "lemma-nagata-partial-union-overlap-dense"
 kind = "lemma"
 title = "Density needed for induction on the affine cover"
-order = 516
+order = 518
 lean = ["Dense.preimage_val_inter"]
 uses = ["def-nagata-partial-affine-unions", "lemma-nagata-dense-affine-cover"]
 +++

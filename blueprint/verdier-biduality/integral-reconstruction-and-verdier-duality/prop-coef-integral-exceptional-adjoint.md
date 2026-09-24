@@ -4,7 +4,7 @@ kind = "theorem"
 title = "The integral exceptional adjoint on constructible complexes"
 order = 3693
 tags = ["latex:proposition"]
-uses = ["lem-coef-finite-exceptional", "lem-coef-integral-compact-support", "lem-coef-normalized-dvr-effectivity", "lem-weil-pbc-completed-pullback-reduction", "prop-coef-integral-dualizing", "thm-coef-integral-verdier"]
+uses = ["lem-coef-finite-exceptional", "lem-coef-integral-compact-support", "lem-coef-normalized-dvr-effectivity", "lemma-weil-pbc-completed-pullback-reduction", "prop-coef-integral-dualizing", "thm-coef-integral-verdier"]
 +++
 For a separated finite-type $f:X\to Y$, define
 
@@ -36,7 +36,7 @@ consider the integral object
 $H=D_{X,R}f^*_{\mathrm{comp}}D_{Y,R}L$.
 It exists in the integral category by
 [thm-coef-integral-verdier] and
-[lem-weil-pbc-completed-pullback-reduction].
+[lemma-weil-pbc-completed-pullback-reduction].
 The latter gives finite reductions equal to ordinary pullback;
 pullback preserves the reduction Tor interval. Applying the two
 duality bounds gives $[a-2\dim X,b+2\dim Y]$.

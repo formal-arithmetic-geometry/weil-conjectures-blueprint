@@ -2,8 +2,8 @@
 id = "fin2-lem-constructible-reduction"
 kind = "lemma"
 title = "Reduction of the constructible case to lisse pieces"
-order = 3220
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "fin2-lem-lisse-dense-open", "lem-fin-closed-immersion", "lem-weil-pbc-constructible-serre", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-grothendieck-spectral-sequence", "lem-weil-pbc-proper-composition", "sbc-def-coefficient-conventions"]
+order = 3217
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "fin2-lem-lisse-dense-open", "lem-fin-closed-immersion", "lem-weil-pbc-grothendieck-spectral-sequence", "lem-weil-pbc-proper-composition", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-coefficient-conventions", "thm-constructible-serre"]
 +++
 Let $V$ be the assertion: for every proper morphism $p:Y\to T$ with
 $T$ of finite type over $k$, every
@@ -50,7 +50,7 @@ $0\to F_{\bar y}\xrightarrow{1}F_{\bar y}\to0\to0$;
 at a geometric point of $Z$ it is
 $0\to0\to F_{\bar y}\xrightarrow{1}F_{\bar y}\to0$.
 Exactness follows from
-[lem-weil-pbc-geometric-stalk-conservative].
+[lemma-weil-pbc-geometric-stalk-conservative].
 
 The assertion $V$ applies to $p$, the open (hence locally closed)
 immersion $j$, and the lisse $G$. Thus
@@ -83,7 +83,7 @@ $$
 where $B_{-1}=0$.
 Both the kernel and the cokernel are constructible: they are kernels
 and cokernels of morphisms between constructible sheaves.
-The weak-Serre property of [lem-weil-pbc-constructible-serre]
+The weak-Serre property of [thm-constructible-serre]
 then makes their extension $R^qp_*F$ constructible.
 For $q>2d$ both outer terms are zero, whence the middle term is
 zero as well. This completes the induction and proves the full

@@ -2,7 +2,7 @@
 id = "def-fin-normalization-extension"
 kind = "definition"
 title = "Normalization in a finite extension"
-order = 1591
+order = 1592
 uses = ["def-sc-normalization", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be an

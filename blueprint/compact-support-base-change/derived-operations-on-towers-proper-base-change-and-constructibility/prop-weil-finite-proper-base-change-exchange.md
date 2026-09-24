@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Finite-torsion proper base change"
 order = 3152
 tags = ["latex:proposition"]
-uses = ["def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix a prime $\ell$, write $\Ql=\mathbf Q_\ell$, choose an algebraic
 closure $\Qlb$ of $\Ql$, and fix a finite extension $E/\Ql$ contained in

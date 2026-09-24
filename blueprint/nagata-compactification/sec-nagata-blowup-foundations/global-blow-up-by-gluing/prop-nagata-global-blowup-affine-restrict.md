@@ -2,10 +2,10 @@
 id = "prop-nagata-global-blowup-affine-restrict"
 kind = "theorem"
 title = "Affine restriction of the global blow-up"
-order = 234
+order = 235
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isPullback_blowupι"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-global-blowup-affine-restriction-map", "lemma-nagata-global-blowup-local-maps-agree", "lemma-nagata-global-blowup-overlap-cocycle", "prop-nagata-affine-blowup-restrict"]
+uses = ["def-nagata-global-blowup-affine-restriction-map", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-global-blowup-local-maps-agree", "lemma-nagata-global-blowup-overlap-cocycle", "prop-nagata-affine-blowup-restrict"]
 +++
 The constructed comparison $q_V$ is an isomorphism over $V$.
 

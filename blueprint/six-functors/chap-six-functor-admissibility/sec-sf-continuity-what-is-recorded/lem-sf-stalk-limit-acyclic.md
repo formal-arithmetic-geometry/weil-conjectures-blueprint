@@ -3,16 +3,16 @@ id = "lem-sf-stalk-limit-acyclic"
 kind = "lemma"
 title = "The strictly henselian limit has no higher cohomology"
 order = 3486
-uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods-detailed", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-strict-henselization-limit-detailed"]
+uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-strict-henselization-limit"]
 +++
 Let $S$ be a scheme, let $\bar s\to S$ be a
 geometric point in the sense of
 [def-weil-pbc-geometric-stalks], and let
 $S_{(\bar s)}=\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{S,\bar s}$ be the
 strict henselization
-limit of [def-weil-pbc-strict-henselization-limit-detailed], the inverse limit of
+limit of [def-weil-pbc-strict-henselization-limit], the inverse limit of
 the pointed étale neighbourhoods of
-[def-weil-pbc-pointed-etale-neighbourhoods-detailed]. Then:
+[def-weil-pbc-pointed-etale-neighbourhoods]. Then:
 
 1. **(i)** $S_{(\bar s)}$ is an object of the
 small pro-étale site
@@ -39,7 +39,7 @@ without any hypothesis of constructibility or of étale origin.
 *(i).* The scheme $S_{(\bar s)}$ is the spectrum of the filtered
 colimit of the etale algebras $\mathcal O(V)$ over the affine pointed etale
 neighbourhoods, by
-[def-weil-pbc-strict-henselization-limit-detailed]; each of those maps is etale,
+[def-weil-pbc-strict-henselization-limit]; each of those maps is etale,
 hence weakly etale, and a filtered colimit of weakly etale maps is weakly
 etale, so $\mathcal O^{\mathrm{sh}}_{S,\bar s}$ is weakly etale over
 $\mathcal O(S)$ and $S_{(\bar s)}\to S$ is an object of the

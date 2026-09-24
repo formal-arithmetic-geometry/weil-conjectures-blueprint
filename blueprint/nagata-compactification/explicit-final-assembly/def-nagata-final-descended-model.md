@@ -2,7 +2,7 @@
 id = "def-nagata-final-descended-model"
 kind = "definition"
 title = "Separated descended model used in the final assembly"
-order = 595
+order = 597
 uses = ["def-nagata-final-fp-envelope", "def-nagata-final-noetherian-base-system", "def-nagata-separated-descent-stage", "lemma-nagata-final-fp-envelope", "lemma-nagata-final-noetherian-base-system"]
 +++
 **Status.** Bypassed by the formalized route: the final assembly is carried

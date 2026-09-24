@@ -3,7 +3,7 @@ id = "lem-fin-symmetric-product-finite"
 kind = "lemma"
 title = "A finite symmetric-product cover over a Noetherian base"
 order = 3234
-uses = ["def-pc-projective-morphism", "def-weil-pbc-scheme-conventions", "def-weil-pbc-symmetric-product-morphism", "lem-fin-projective-finite-fibres", "lem-weil-pbc-chow-segre-closed-immersion", "lem-weil-pbc-symmetric-product-properties"]
+uses = ["def-pc-projective-morphism", "def-weil-pbc-scheme-conventions", "def-weil-pbc-symmetric-product-morphism", "lem-chow-segre", "lem-fin-projective-finite-fibres", "lem-weil-pbc-symmetric-product-properties"]
 +++
 For a Noetherian scheme $S$ and $n\geq1$, the
 symmetric-product map
@@ -16,7 +16,7 @@ Write $X=(\mathbf P^1_S)^n$, $T=\mathbf P^n_S$, and let
 $\sigma_n:X\to T$ be the morphism of
 [lem-weil-pbc-symmetric-product-properties].
 The Segre closed immersion of
-[lem-weil-pbc-chow-segre-closed-immersion] embeds
+[lem-chow-segre] embeds
 $X$ in a projective space $\mathbf P^M_S$.
 The graph $X\to X\times_S T$ of $\sigma_n$ is closed:
 it is the inverse image of the closed diagonal of the

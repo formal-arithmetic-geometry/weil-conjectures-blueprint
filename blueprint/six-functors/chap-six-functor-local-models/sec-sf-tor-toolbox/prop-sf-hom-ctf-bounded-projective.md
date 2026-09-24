@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Derived internal Hom with a bounded projective complex"
 order = 3422
 tags = ["latex:proposition"]
-uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "def-weil-site-perfect-complex", "def-weil-small-proetale-site-detailed", "lem-sf-flat-model", "lem-sf-hom-finite-projective", "lem-sf-tensor-ctf", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
+uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "def-weil-site-perfect-complex", "lem-sf-flat-model", "lem-sf-hom-finite-projective", "lem-sf-tensor-ctf", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, $n\geq1$, and put
 $\Lambda=A_{E,n}$. Let $X$ be a finite-type $k$-scheme and let

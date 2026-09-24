@@ -2,8 +2,8 @@
 id = "lem-fin-constructible-devissage"
 kind = "lemma"
 title = "Devissage of a constructible sheaf"
-order = 3200
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-extension-by-zero", "lem-weil-pbc-geometric-stalk-conservative", "sbc-def-coefficient-conventions"]
+order = 3197
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-extension-by-zero", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-coefficient-conventions"]
 +++
 Let $X$ be of finite type over $k$ and let $F$ be a
 constructible
@@ -52,7 +52,7 @@ Indeed, the stalk descriptions of
 point of $U$ with $0\to F_{\bar x}\to F_{\bar x}\to0$, and at a
 point of $Z$ with $0\to0\to F_{\bar x}\to F_{\bar x}\to0$.
 Exactness follows from the conservativity and exactness of geometric
-stalks in [lem-weil-pbc-geometric-stalk-conservative].
+stalks in [lemma-weil-pbc-geometric-stalk-conservative].
 Induct on dimension for the constructible restriction $i^*F$ on
 $Z$. The functor $i_*$ is exact by the same stalk description.
 Push its finite filtration to $X$, take its inverse images under

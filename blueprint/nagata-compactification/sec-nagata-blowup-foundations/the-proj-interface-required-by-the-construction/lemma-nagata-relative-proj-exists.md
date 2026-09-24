@@ -9,8 +9,7 @@ uses = ["def-nagata-affine-proj", "def-nagata-relative-proj", "lemma-nagata-proj
 primitive was formalized. The blow-up is glued from the affine Proj charts
 (`AlgebraicGeometry.Proj.basicOpenIsoSpec`,
 `AlgebraicGeometry.Proj.iSup_basicOpen_eq_top`) with
-`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`, as
-[lemma-nagata-relative-proj-current-api] explains.
+`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`.
 
 The relative Proj construction in
 [def-nagata-relative-proj] exists as a scheme, is independent up to a

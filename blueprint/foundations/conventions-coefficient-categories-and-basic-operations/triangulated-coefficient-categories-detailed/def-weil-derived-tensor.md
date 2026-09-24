@@ -2,11 +2,11 @@
 id = "def-weil-derived-tensor"
 kind = "definition"
 title = "Derived tensor notation"
-order = 1313
-uses = ["def-weil-small-proetale-site-detailed"]
+order = 1370
+uses = ["def-weil-pbc-proetale-site"]
 +++
 Fix a scheme $Y$ and a commutative ring $A$, and use the small pro-etale site
-[def-weil-small-proetale-site-detailed] $Y_{\mathrm{proet}}$. A complex $P$
+[def-weil-pbc-proetale-site] $Y_{\mathrm{proet}}$. A complex $P$
 of $A_Y$-modules is *K-flat* if tensoring it with every acyclic complex
 preserves acyclicity. For complexes $K_1,K_2$ of $A_Y$-modules, choose a
 quasi-isomorphism $P\to K_1$ with $P$ K-flat and define

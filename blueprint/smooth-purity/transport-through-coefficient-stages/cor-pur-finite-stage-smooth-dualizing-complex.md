@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Finite-stage smooth dualizing complex"
 order = 3652
 tags = ["latex:corollary"]
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-trace-normalization-transitivity"]
+uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-trace-normalization-transitivity"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $A=A_{E,n}$, and let $a_X:X\to\Spec k$ be a

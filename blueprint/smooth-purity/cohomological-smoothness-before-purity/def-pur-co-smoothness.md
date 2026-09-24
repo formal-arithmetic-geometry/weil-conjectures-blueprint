@@ -3,7 +3,7 @@ id = "def-pur-co-smoothness"
 kind = "definition"
 title = "Cohomological smoothness"
 order = 3591
-uses = ["def-exchange-projection", "def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-exchange-projection", "def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 a separated finite-type

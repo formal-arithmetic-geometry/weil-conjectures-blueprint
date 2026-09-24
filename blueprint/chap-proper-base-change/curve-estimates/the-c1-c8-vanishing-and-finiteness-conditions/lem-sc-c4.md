@@ -2,8 +2,8 @@
 id = "lem-sc-c4"
 kind = "lemma"
 title = "C4: finiteness for constructible prime-to-char sheaves"
-order = 1605
-uses = ["def-sc-curves", "def-weil-pbc-eight-curve-assertions-detailed", "def-weil-pbc-etale-sheaves", "lem-sc-affine-open-proper", "lem-sc-affine-unit-quotient", "lem-sc-compactification", "lem-sc-pic-affine", "thm-sc-affine-cohomology", "thm-sc-proper-cohomology"]
+order = 1606
+uses = ["def-sc-curves", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lem-sc-affine-open-proper", "lem-sc-affine-unit-quotient", "lem-sc-compactification", "lem-sc-pic-affine", "thm-sc-affine-cohomology", "thm-sc-proper-cohomology"]
 +++
 Let $k$ be algebraically closed, let $C$ be a
 smooth separated curve over $k$, let
@@ -11,7 +11,7 @@ $r$ be prime to $\operatorname{char}k$, and let the constant sheaf
 $\mathbf F_r$ be viewed as a
 constructible sheaf. Then
 $\mathbf F_r$ satisfies $\mathcal C_4(C,\mathbf F_r)$ of
-[def-weil-pbc-eight-curve-assertions-detailed]: $H^q(C_{\Et},\mathbf F_r)$
+[def-weil-pbc-eight-curve-assertions]: $H^q(C_{\Et},\mathbf F_r)$
 is a finite abelian group for every $q\geq0$.
 
 ## Proof

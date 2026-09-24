@@ -3,7 +3,7 @@ id = "thm-pur-smooth-base-change-coherence"
 kind = "theorem"
 title = "Smooth base-change coherence"
 order = 3635
-uses = ["cor-pur-vector-bundle-purity", "def-coefficient-twists-detailed", "def-exchange-projection", "def-pur-conventions", "def-pur-smooth-purity-map", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-pur-coprojection", "lem-pur-diagonal-base-change", "lem-pur-smb-extraordinary", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance"]
+uses = ["cor-pur-vector-bundle-purity", "def-coefficient-twists-detailed", "def-exchange-projection", "def-pur-conventions", "def-pur-smooth-purity-map", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-coprojection", "lem-pur-diagonal-base-change", "lem-pur-smb-extraordinary", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $A=A_{E,n}$, and let

@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Continuity for arbitrary sheaves gives the full cohomological-dimension bound"
 order = 3735
 tags = ["latex:corollary"]
-uses = ["def-weil-full-cohomological-dimension", "def-weil-pbc-etale-site", "def-weil-pbc-ind-etale-algebra", "def-weil-pbc-pointed-etale-neighbourhoods-detailed", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-pbc-strict-henselization-limit-detailed", "def-weil-scheme-morphism-properties", "lem-sf-etale-direct-image-vanishing", "lem-sf-fullcd-detection-equivalence", "lem-sf-stalk-limit-acyclic", "lem-weil-pbc-affine-neighbourhood-cofinal", "lem-weil-pbc-ind-etale-basis", "lem-weil-pbc-proetale-restriction-injectives", "rem-sf-fullcd-general-form", "thm-sf-continuity-arbitrary-sheaves-vanishing", "thm-sp-grothendieck", "thm-weil-pbc-weak-etale-refinement"]
+uses = ["def-weil-full-cohomological-dimension", "def-weil-pbc-etale-site", "def-weil-pbc-ind-etale-algebra", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-pbc-strict-henselization-limit", "def-weil-scheme-morphism-properties", "lem-sf-etale-direct-image-vanishing", "lem-sf-fullcd-detection-equivalence", "lem-sf-stalk-limit-acyclic", "lem-weil-pbc-ind-etale-basis", "lem-weil-pbc-proetale-restriction-injectives", "lemma-weil-pbc-affine-neighbourhood-cofinal", "rem-sf-fullcd-general-form", "thm-sf-continuity-arbitrary-sheaves-vanishing", "thm-sp-grothendieck", "thm-weil-pbc-weak-etale-refinement"]
 +++
 Fix $d\geq0$ and assume the following continuity statement.
 
@@ -50,15 +50,15 @@ $\mathcal F$ be a sheaf of $A$-modules on $V_{\Proet}$, in the sense of
 [def-weil-pbc-proetale-site]. For a geometric
 point $\bar v\to V$, the pointed étale neighbourhoods $(U,\bar u)$ with
 $U$ affine form a cofinal subsystem of the system of
-[def-weil-pbc-pointed-etale-neighbourhoods-detailed], by
-[lem-weil-pbc-affine-neighbourhood-cofinal]; each $U$ is a finite-type
+[def-weil-pbc-pointed-etale-neighbourhoods], by
+[lemma-weil-pbc-affine-neighbourhood-cofinal]; each $U$ is a finite-type
 $k$-scheme with $\dim U\leq d$ (an étale morphism is weakly étale, and a
 weakly étale morphism induces isomorphisms of the strict henselizations of
 the local rings, Stacks Project, More on Morphisms, Lemma 37.64.11,
 [Tag 094Z](https://stacks.math.columbia.edu/tag/094Z), so that
 $\dim U\leq\dim V$), and the affine pointed neighbourhoods are the finite
 type models of the limit $\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{V,\bar v}$ of
-[def-weil-pbc-strict-henselization-limit-detailed]. The continuity hypothesis
+[def-weil-pbc-strict-henselization-limit]. The continuity hypothesis
 $(\mathrm{Co})$ therefore applies to this system, whose transition maps are
 affine because the neighbourhoods are affine, and, together with
 [lem-sf-stalk-limit-acyclic](iii), gives that every cohomology class on an

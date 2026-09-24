@@ -3,7 +3,7 @@ id = "lem-kun-0f1f-gen"
 kind = "lemma"
 title = "Global generation for sheaves supported on closed points"
 order = 3091
-uses = ["def-kun-global-generated", "def-kun-separably-closed", "def-weil-pbc-direct-image", "lem-kun-03qu-global-generation", "lem-kun-04ca", "lem-kun-closed-point-field", "lem-kun-colim-gbl-gen", "lem-kun-cp-approximation", "lem-kun-global-generated-stalkwise", "lem-weil-pbc-finite-stalk-formula"]
+uses = ["def-kun-global-generated", "def-kun-separably-closed", "def-weil-pbc-direct-image", "lem-kun-03qu-global-generation", "lem-kun-04ca", "lem-kun-closed-point-field", "lem-kun-colim-gbl-gen", "lem-kun-cp-approximation", "lem-kun-global-generated-stalkwise", "lemma-weil-pbc-finite-stalk-formula"]
 +++
 Let $K$ be a separably closed
 field and $X$ a scheme of finite type over $K$. Let $F$ be an
@@ -34,7 +34,7 @@ $$
 of [def-kun-global-generated] is surjective. A geometric stalk
 away from $Z_i$ is zero. At a geometric point over
 $z\in Z_i$, the finite-direct-image stalk formula
-[lem-weil-pbc-finite-stalk-formula] identifies the target with
+[lemma-weil-pbc-finite-stalk-formula] identifies the target with
 the corresponding stalk of $\mathcal G_i$ on
 $\Spec(\kappa(z))$. The residue field $\kappa(z)$ is a finite
 purely inseparable extension of the separably closed field $K$,

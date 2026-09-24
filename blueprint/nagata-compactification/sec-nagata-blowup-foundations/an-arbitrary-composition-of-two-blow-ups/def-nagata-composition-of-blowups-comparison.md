@@ -2,9 +2,9 @@
 id = "def-nagata-composition-of-blowups-comparison"
 kind = "definition"
 title = "Comparison for a composite of arbitrary blow-ups"
-order = 305
+order = 306
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_comp"]
-uses = ["def-nagata-blowup-product-comparison", "def-nagata-composition-center-ideal", "def-nagata-global-blowup", "lemma-nagata-blowup-invertible-factor"]
+uses = ["def-nagata-blowup-product-comparison", "def-nagata-composition-center-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-blowup-invertible-factor", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$, $\mathcal I$, $X'$, $b$, $Z'$, $d$, and $\mathcal J(Z')$ be as in
 [def-nagata-composition-center-ideal], and let the second blow-up be

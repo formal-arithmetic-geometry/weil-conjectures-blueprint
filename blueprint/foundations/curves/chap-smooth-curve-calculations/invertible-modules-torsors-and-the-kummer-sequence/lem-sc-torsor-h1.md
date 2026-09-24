@@ -2,7 +2,7 @@
 id = "lem-sc-torsor-h1"
 kind = "lemma"
 title = "First cohomology classifies torsors"
-order = 2159
+order = 2157
 uses = ["def-sc-curves", "lem-sc-ext-torsor"]
 +++
 Let $C$ be a curve and $G$ a sheaf of

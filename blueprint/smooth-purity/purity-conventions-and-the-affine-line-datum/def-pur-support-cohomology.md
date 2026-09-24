@@ -3,7 +3,7 @@ id = "def-pur-support-cohomology"
 kind = "definition"
 title = "Cohomology with support"
 order = 3521
-uses = ["def-coefficient-twists-detailed", "def-sbc-smooth-morphisms", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-coefficient-twists-detailed", "def-sbc-smooth-morphisms", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-site", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties"]
 +++
 Let $X$ be a scheme, let
 $i:Z\hookrightarrow X$ be a closed subscheme with open complement

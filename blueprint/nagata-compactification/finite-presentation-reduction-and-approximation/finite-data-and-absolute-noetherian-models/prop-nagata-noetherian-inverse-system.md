@@ -2,10 +2,10 @@
 id = "prop-nagata-noetherian-inverse-system"
 kind = "theorem"
 title = "[stacks-project]"
-order = 538
+order = 540
 lean = ["AlgebraicGeometry.Scheme.nonempty_noetherianApproximation"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-glued-limit-comparison", "def-nagata-noetherian-inverse-system", "lemma-nagata-glue-noetherian-stage", "lemma-nagata-valid-refinements-directed"]
+uses = ["def-nagata-glued-limit-comparison", "def-nagata-noetherian-inverse-system", "lemma-nagata-glue-noetherian-stage", "lemma-nagata-noetherian-inverse-system-affine", "lemma-nagata-scheme-theoretic-closure-minimal", "lemma-nagata-valid-refinements-directed"]
 +++
 Every quasi-compact quasi-separated scheme $S$ admits a Noetherian
 approximation. Concretely, the constructed system $\mathsf N(S)$ has affine

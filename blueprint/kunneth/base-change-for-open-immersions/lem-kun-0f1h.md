@@ -3,7 +3,7 @@ id = "lem-kun-0f1h"
 kind = "lemma"
 title = "Base change for open immersions"
 order = 3096
-uses = ["def-kun-torsion-invertible", "def-kun-truncations", "def-kun-unbounded-exchange", "def-weil-pbc-strict-henselization-limit-detailed", "lem-kun-0ezt", "lem-kun-0f09", "lem-kun-0f0u", "lem-kun-0f14b", "lem-kun-0f1c", "lem-kun-0f1g", "lem-kun-0f1h-sep-reduction", "lem-kun-base-change-open-closed", "lem-kun-bc-base-change", "lem-kun-bc-kunneth-compat", "lem-kun-closed-points-of-product", "lem-kun-compactification-affine", "lem-kun-descent-limit", "lem-kun-descent-limit-open", "lem-kun-dimension-extension", "lem-kun-fibre-product-limits", "lem-kun-finite-closed-subscheme", "lem-kun-invertible-orders-colimit", "lem-kun-leray-bdd", "lem-kun-projective-implies-proper", "lem-kun-proper-stability", "lem-kun-stalk-as-pullback", "lem-kun-stalk-faithful-derived", "lem-kun-tensor-unit", "lem-kun-zn-sheaf-invertible-orders", "lem-weil-pbc-direct-image-filtered-colimit", "lem-weil-pbc-exchange-identity-pasting"]
+uses = ["def-kun-torsion-invertible", "def-kun-truncations", "def-kun-unbounded-exchange", "def-weil-pbc-strict-henselization-limit", "lem-kun-0ezt", "lem-kun-0f09", "lem-kun-0f0u", "lem-kun-0f14b", "lem-kun-0f1c", "lem-kun-0f1g", "lem-kun-0f1h-sep-reduction", "lem-kun-base-change-open-closed", "lem-kun-bc-base-change", "lem-kun-bc-kunneth-compat", "lem-kun-closed-points-of-product", "lem-kun-compactification-affine", "lem-kun-descent-limit", "lem-kun-descent-limit-open", "lem-kun-dimension-extension", "lem-kun-fibre-product-limits", "lem-kun-finite-closed-subscheme", "lem-kun-invertible-orders-colimit", "lem-kun-leray-bdd", "lem-kun-projective-implies-proper", "lem-kun-proper-stability", "lem-kun-stalk-as-pullback", "lem-kun-stalk-faithful-derived", "lem-kun-tensor-unit", "lem-kun-zn-sheaf-invertible-orders", "lem-weil-pbc-exchange-identity-pasting", "lemma-weil-pbc-direct-image-filtered-colimit"]
 +++
 Let $K$ be a field. Let $j:U\to X$ be an open immersion of
 schemes of finite type over $K$ and let $Y$ be a scheme of finite
@@ -32,7 +32,7 @@ invertible in $K$ ([def-kun-torsion-invertible] and
 of the exchange morphism of [def-kun-unbounded-exchange] commute
 with filtered colimits in $F$: $Rj_*$ and $Rh_*$ by the
 sheaf-level filtered-colimit property of
-[lem-weil-pbc-direct-image-filtered-colimit] in each degree
+[lemma-weil-pbc-direct-image-filtered-colimit] in each degree
 (together with the truncation triangles of
 [def-kun-truncations]), and the inverse images are exact.
 Hence it suffices to prove the lemma for each $F[n]$, a sheaf of
@@ -70,7 +70,7 @@ $$
 
 of our diagram by $X'\to X$. The morphism $X'\to X$ is a filtered
 colimit of etale (in particular smooth) morphisms
-([def-weil-pbc-strict-henselization-limit-detailed]), so by smooth base
+([def-weil-pbc-strict-henselization-limit]), so by smooth base
 change in the form of [lem-kun-0f09] applied to
 $q:Y\times_KX\to X$ with $E:=Rj_*F$, and to
 $h:Y\times_KU\to Y\times_KX$ with $E:=p^{-1}F$ (both

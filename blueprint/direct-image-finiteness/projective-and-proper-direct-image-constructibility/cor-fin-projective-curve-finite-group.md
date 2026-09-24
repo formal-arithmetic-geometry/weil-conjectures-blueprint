@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Finite constant groups on projective curve families"
 order = 3247
 tags = ["latex:corollary"]
-uses = ["def-pc-projective-morphism", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-constructible-serre", "thm-fin-projective-curve-constant"]
+uses = ["def-pc-projective-morphism", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "thm-constructible-serre", "thm-fin-projective-curve-constant"]
 +++
 Let $f:X\to S$ be a projective
 morphism of finite-type
@@ -33,4 +33,4 @@ $$
 
 All four sheaves are constructible by induction, with the
 negative-degree term zero. The kernel, cokernel and extension
-clauses of [lem-weil-pbc-constructible-serre] finish the induction.
+clauses of [thm-constructible-serre] finish the induction.

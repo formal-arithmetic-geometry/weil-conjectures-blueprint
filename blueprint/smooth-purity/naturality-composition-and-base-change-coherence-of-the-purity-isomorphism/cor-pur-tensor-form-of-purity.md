@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Tensor form of purity"
 order = 3640
 tags = ["latex:corollary"]
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "thm-pur-cohomological-smoothness", "thm-pur-finite-coefficient-smooth-purity"]
+uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-cohomological-smoothness", "thm-pur-finite-coefficient-smooth-purity"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $A=A_{E,n}$, let $f:X\to Y$ be smooth of relative dimension $d$, and

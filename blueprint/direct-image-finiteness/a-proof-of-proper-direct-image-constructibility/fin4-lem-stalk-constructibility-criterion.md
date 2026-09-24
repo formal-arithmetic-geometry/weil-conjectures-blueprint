@@ -3,7 +3,7 @@ id = "fin4-lem-stalk-constructibility-criterion"
 kind = "lemma"
 title = "Constructibility from the cardinalities of finite stalks"
 order = 3224
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-flat-lfp-open", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-noetherian-finite-components", "prop-weil-pbc-geometric-stalks-exact"]
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-flat-lfp-open", "lem-weil-pbc-noetherian-finite-components", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $X$ be a Noetherian
 scheme and let $F$ be an
@@ -55,7 +55,7 @@ It omits the generic point because $\varphi_{\bar\eta}$ is injective.
 An open subset of irreducible $V$ omitting its generic point is
 empty. Consequently $\varphi$ is injective at every geometric
 stalk. Both sides have $m$ elements at each stalk, so it is an
-isomorphism by [lem-weil-pbc-geometric-stalk-conservative].
+isomorphism by [lemma-weil-pbc-geometric-stalk-conservative].
 The image $W$ of $V\to X$ is nonempty and open by
 [lem-weil-pbc-flat-lfp-open], and the etale cover $V\to W$
 trivializes $F|_W$. Induction supplies a finite partition on

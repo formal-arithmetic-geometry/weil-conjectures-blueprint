@@ -3,7 +3,7 @@ id = "lem-fix-compact-support-coefficient-change"
 kind = "lemma"
 title = "Change of finite coefficients for compact support"
 order = 3361
-uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "lem-weil-pbc-geometric-stalk-conservative", "thm-cbc-finite-level-proetale", "thm-cbc-finite-torsion", "thm-sc-finite-type-torsion-cd"]
+uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "lemma-weil-pbc-geometric-stalk-conservative", "thm-cbc-finite-level-proetale", "thm-cbc-finite-torsion", "thm-sc-finite-type-torsion-cd"]
 +++
 Let $f:X\to Y$ be a
 separated finite-type
@@ -51,7 +51,7 @@ degree once $t$ is large. On the tensor side the same assertion
 follows from boundedness above of $R\Gamma_c(K)$.
 The finite-free comparison therefore proves the required isomorphism
 in every degree. Stalk conservativity
-[lem-weil-pbc-geometric-stalk-conservative] proves it on the
+[lemma-weil-pbc-geometric-stalk-conservative] proves it on the
 etale site, and the compact-support site comparison of
 [thm-cbc-finite-level-proetale] transports the construction to the
 specified pro-etale realizations. All compatibility identities hold

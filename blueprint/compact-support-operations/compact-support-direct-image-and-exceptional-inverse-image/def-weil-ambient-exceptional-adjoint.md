@@ -3,7 +3,7 @@ id = "def-weil-ambient-exceptional-adjoint"
 kind = "definition"
 title = "Ambient exceptional right adjoint datum"
 order = 3181
-uses = ["def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "def-weil-exceptional-adjoint-admissibility", "def-weil-full-cohomological-dimension", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "def-weil-exceptional-adjoint-admissibility", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf
 Z_{\geq1}$, and put $A=A_{E,n}$. Let $S$ be a scheme on which $\ell$ is
@@ -19,7 +19,7 @@ $\operatorname{FullCD}(p,A;c_{\mathrm{cd}})$ holds for some
 $c_{\mathrm{cd}}\in\mathbf Z_{\geq0}$, the compact-support direct image
 [def-compact-support-direct-image-detailed] $Rf_{!,n}$ has a right adjoint
 $Rf_n^{\times}$ on the *ordinary* derived categories of the small pro-etale
-sites [def-weil-small-proetale-site-detailed],
+sites [def-weil-pbc-proetale-site],
 
 $$
  \operatorname{Hom}_Y\bigl(Rf_{!,n}K,L\bigr)\cong

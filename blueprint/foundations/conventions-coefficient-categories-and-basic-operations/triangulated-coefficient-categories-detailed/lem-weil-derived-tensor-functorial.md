@@ -2,11 +2,11 @@
 id = "lem-weil-derived-tensor-functorial"
 kind = "lemma"
 title = "Functoriality of the derived tensor product"
-order = 1315
-uses = ["def-weil-derived-tensor", "def-weil-small-proetale-site-detailed", "lem-weil-derived-tensor-resolution-independent"]
+order = 1373
+uses = ["def-weil-derived-tensor", "def-weil-pbc-proetale-site", "lem-weil-derived-tensor-resolution-independent"]
 +++
 Fix a scheme $Y$ and a commutative ring $A$, and use the small pro-etale site
-[def-weil-small-proetale-site-detailed] $Y_{\mathrm{proet}}$. For complexes
+[def-weil-pbc-proetale-site] $Y_{\mathrm{proet}}$. For complexes
 $K_1,K_2,K_1',K_2'$ of $A_Y$-modules, every pair of morphisms $K_1\to K_1'$
 and $K_2\to K_2'$ in $D(Y_{\mathrm{proet}},A)$ induces a morphism
 
@@ -19,7 +19,7 @@ identities to identities and composites to composites in each variable.
 
 ## Proof
 
-On the small pro-etale site [def-weil-small-proetale-site-detailed], choose
+On the small pro-etale site [def-weil-pbc-proetale-site], choose
 K-flat resolutions $P\to K_1$ and $P'\to K_1'$, so that
 $K_1\otimes_A^LK_2=P\otimes_AK_2$ and $K_1'\otimes_A^LK_2'=P'\otimes_AK_2'$
 by [def-weil-derived-tensor]. For a morphism $K_2\to K_2'$ the ordinary

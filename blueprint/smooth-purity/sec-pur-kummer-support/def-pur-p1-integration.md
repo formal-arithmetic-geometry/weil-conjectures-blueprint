@@ -3,7 +3,7 @@ id = "def-pur-p1-integration"
 kind = "definition"
 title = "Projective-line integration"
 order = 3571
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "thm-pur-p1-decomposition"]
+uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-p1-decomposition"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 in the situation of [thm-pur-p1-decomposition], the

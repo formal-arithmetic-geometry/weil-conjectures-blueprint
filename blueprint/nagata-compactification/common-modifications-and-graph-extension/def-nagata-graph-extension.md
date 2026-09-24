@@ -4,7 +4,7 @@ kind = "definition"
 title = "Graph-extension construction"
 order = 446
 lean = ["AlgebraicGeometry.Compactification.ProperExtension"]
-uses = ["def-nagata-elimination-indeterminacy", "def-nagata-scheme-theoretic-image"]
+uses = ["def-nagata-elimination-indeterminacy", "def-nagata-global-blowup-cover-comparison", "def-nagata-scheme-theoretic-image", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $U\to S$ be separated and of finite type, let $V\subseteq U$ be
 quasi-compact, and fix a compactification

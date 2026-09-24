@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-hypercover-refinement"
 kind = "lemma"
 title = "Finite refinements and local lifting"
-order = 1220
+order = 1242
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-finite-split-hypercover"]
 +++
 For a quasi-compact quasi-separated $X$, split etale hypercovers finite in

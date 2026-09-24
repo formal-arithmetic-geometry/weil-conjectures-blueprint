@@ -3,7 +3,7 @@ id = "lem-pur-concentrated-complex-shift"
 kind = "lemma"
 title = "Complexes with cohomology in a single degree"
 order = 3597
-uses = ["def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-cbc-proetale-stalk-conservative"]
+uses = ["def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $T$ be a separated
@@ -36,7 +36,7 @@ t-structure, and for every $a\in\mathbf Z$ there are exact triangles
 $\tau_{\leq a-1}K\to\tau_{\leq a}K\to\mathcal H^a(K)[-a]\to$ and
 $\tau_{\leq a}K\to K\to\tau_{\geq a+1}K\to$. A complex all of whose
 cohomology sheaves vanish is zero in the derived category of
-[def-weil-small-proetale-site-detailed], that category being the
+[def-weil-pbc-proetale-site], that category being the
 localization at the quasi-isomorphisms. If therefore
 $\mathcal H^i(K)=0$ for every $i\neq r$, then
 $\tau_{\geq r+1}K\simeq0$ and $\tau_{\leq r-1}K\simeq0$, and the two
@@ -45,7 +45,7 @@ and the same object; this is (1).
 Step 2: an etale cover. Pullback of sheaves is exact, so the derived
 pullback $Lu^*$ commutes with cohomology sheaves, and etale
 morphisms are weakly etale, hence covering families in the sense of
-[def-weil-small-proetale-site-detailed] (an etale morphism is flat with
+[def-weil-pbc-proetale-site] (an etale morphism is flat with
 flat diagonal, which is the description of weakly etale in
 [def-weil-scheme-morphism-properties]); the description of etale
 morphisms is that of [def-sbc-smooth-morphisms]. Since $u$ is a

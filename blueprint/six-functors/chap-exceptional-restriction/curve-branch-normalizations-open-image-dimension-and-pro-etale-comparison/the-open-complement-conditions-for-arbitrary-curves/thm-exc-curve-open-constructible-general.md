@@ -3,7 +3,7 @@ id = "thm-exc-curve-open-constructible-general"
 kind = "theorem"
 title = "Open direct-image constructibility on arbitrary curves"
 order = 3341
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-dvr-galois", "lem-exc-field-discrete-modules", "lem-exc-punctured-curve-branches", "prop-weil-pbc-strict-henselization-stalk-formula-detailed", "thm-exc-curve-open-dimension-general", "thm-fin-open-degree-zero"]
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-dvr-galois", "lem-exc-field-discrete-modules", "lem-exc-punctured-curve-branches", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-exc-curve-open-dimension-general", "thm-fin-open-degree-zero"]
 +++
 Let $T$ be of finite type of dimension at most one over
 a finite field or its algebraic closure, let
@@ -20,7 +20,7 @@ Degree zero is [thm-fin-open-degree-zero]; degrees
 greater than one vanish by
 [thm-exc-curve-open-dimension-general].
 For degree one, the stalk calculation just used, namely
-[prop-weil-pbc-strict-henselization-stalk-formula-detailed], [lem-exc-punctured-curve-branches],
+[prop-weil-pbc-strict-henselization-stalk-formula], [lem-exc-punctured-curve-branches],
 reduces a stalk at a closed boundary point to the finite
 product of the first cohomology groups of its branch fields.
 The pullback of $F$ to each field has a finite geometric

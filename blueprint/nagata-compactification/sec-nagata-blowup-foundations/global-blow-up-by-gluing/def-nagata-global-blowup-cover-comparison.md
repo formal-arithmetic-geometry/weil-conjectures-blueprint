@@ -2,7 +2,7 @@
 id = "def-nagata-global-blowup-cover-comparison"
 kind = "definition"
 title = "Comparison between two affine-cover constructions"
-order = 235
+order = 234
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowup"]
 uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-affine-restriction-map", "lemma-nagata-global-blowup-overlap-cocycle"]
 +++

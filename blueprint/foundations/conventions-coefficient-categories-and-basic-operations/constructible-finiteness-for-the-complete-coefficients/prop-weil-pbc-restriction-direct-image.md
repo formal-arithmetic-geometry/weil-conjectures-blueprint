@@ -2,8 +2,8 @@
 id = "prop-weil-pbc-restriction-direct-image"
 kind = "theorem"
 title = "Restriction of the direct image to bounded constructibles"
-order = 1344
-uses = ["def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "lem-sp-finite-filtration-induction", "lem-weil-pbc-constructible-serre", "thm-sp-truncation-e2"]
+order = 1475
+uses = ["def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "lem-sp-finite-filtration-induction", "thm-constructible-serre", "thm-sp-truncation-e2"]
 tags = ["latex:proposition"]
 +++
 Let $\Lambda=P_n$ be as in
@@ -49,7 +49,7 @@ with $E_2^{p,q}$ constructible for all $p,q$ by clause (i) of
 clause (ii). For fixed $n=p+q$, the finite filtration of a convergent
 spectral sequence exhibits $\mathcal H^n(Ru_*K)$ as a subquotient of a
 finite extension of the constructible $E_\infty$-terms, hence constructible
-by [lem-weil-pbc-constructible-serre]; only $a\leq q\leq n$ and $p\leq c$
+by [thm-constructible-serre]; only $a\leq q\leq n$ and $p\leq c$
 contribute, so $\mathcal H^n(Ru_*K)=0$ for $n\notin[a,b+c]$. Exactness is
 the exactness of the ambient $Ru_*$ on the full triangulated subcategory
 $\Dbc(S_{\Proet},\Lambda)$.

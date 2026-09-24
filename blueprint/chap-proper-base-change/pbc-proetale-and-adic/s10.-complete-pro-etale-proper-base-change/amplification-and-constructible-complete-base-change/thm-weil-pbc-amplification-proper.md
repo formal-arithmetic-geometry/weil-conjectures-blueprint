@@ -2,10 +2,10 @@
 id = "thm-weil-pbc-amplification-proper"
 kind = "theorem"
 title = "Amplification for proper base-change squares"
-order = 2026
-uses = ["def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-finite-level-amplification", "def-weil-pbc-scheme-conventions", "def-weil-pbc-tower-preservation", "def-weil-pbc-witness-compatibility"]
+order = 2027
+uses = ["def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-cartesian-square", "def-weil-pbc-finite-level-amplification", "def-weil-pbc-scheme-conventions", "def-weil-pbc-tower-preservation", "def-weil-pbc-witness-compatibility"]
 +++
-Let $\square$ be the cartesian square [def-weil-pbc-cartesian-square-detailed] with
+Let $\square$ be the cartesian square [def-weil-pbc-cartesian-square] with
 $X,Y,X',Y'$ noetherian of finite dimension, $f$ and $f'$ proper, and suppose
 there is a positive integer $N$ annihilating $A/I$ which is invertible on
 all four schemes. Assume that the geometric fibers of $f$ have dimension at
@@ -65,7 +65,7 @@ finite lisse cohomology reductions, and step (b) transports the witnesses.
 The levelwise direct images are therefore etale-origin; their reduction
 cohomology is bounded constructible by
 [thm-weil-pbc-direct-image-finiteness-proper] with the amplitude containment
-of [prop-weil-pbc-amplification-consequences], and the local models are
+of `prop-weil-pbc-amplification-consequences`, and the local models are
 obtained from the etale-origin descriptions: a finite lisse module is finite
 locally constant, which is exactly what the tower condition requires, while
 no freeness is needed or available, a finite module over a finite local ring

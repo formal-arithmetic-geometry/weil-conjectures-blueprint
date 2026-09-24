@@ -2,8 +2,8 @@
 id = "finiteness-of-direct-images-decomposed-chain"
 kind = "section"
 title = "Finiteness of direct images: decomposed chain"
-order = 3199
-uses = ["cor-galois-open-subgroups", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-extension-by-zero", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit-detailed", "lem-weil-pbc-constructible-serre", "lem-weil-pbc-constructible-subobjects-noetherian", "lem-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-finite-pushforward-constructible-noetherian", "lem-weil-pbc-finite-stalk-formula", "lem-weil-pbc-geometric-stalk-conservative", "sbc-def-coefficient-conventions", "thm-galois-fundamental", "thm-galois-lc-etale"]
+order = 3194
+uses = ["cor-galois-open-subgroups", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-extension-by-zero", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit", "lem-weil-pbc-constructible-subobjects-noetherian", "lem-weil-pbc-noetherian-finite-components", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-exchange", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-coefficient-conventions", "thm-constructible-serre", "thm-galois-fundamental", "thm-galois-lc-etale", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Throughout this section $k$ is a field of characteristic prime to $N$,
 $\Lambda$ is the finite commutative ring annihilated by $N$ of

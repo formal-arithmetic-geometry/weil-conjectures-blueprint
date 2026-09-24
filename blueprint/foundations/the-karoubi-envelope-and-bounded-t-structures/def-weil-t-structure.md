@@ -2,7 +2,7 @@
 id = "def-weil-t-structure"
 kind = "definition"
 title = "t-structure"
-order = 1109
+order = 1107
 +++
 A *t-structure* on a triangulated category $\mathcal T$ is a pair $(\mathcal
 T^{\le0},\mathcal T^{\ge0})$ of strictly full subcategories such that

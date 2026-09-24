@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properties of the prepared boundary closures"
 order = 469
 lean = ["AlgebraicGeometry.exists_prepared_twoOpenSide"]
-uses = ["def-nagata-two-open-prepared-boundaries", "lemma-nagata-blowup-proper", "lemma-nagata-boundary-loci", "lemma-nagata-separate-constructible-closed"]
+uses = ["def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-blowup-proper", "lemma-nagata-boundary-loci", "lemma-nagata-separate-constructible-closed", "lemma-nagata-two-open-dense-compactifications", "prop-nagata-global-blowup-cover-independent"]
 +++
 The constructed replacement $X_i^{\mathrm{prep}}\to X_i^{\mathrm{old}}$
 is $V_i$-admissible, the closures

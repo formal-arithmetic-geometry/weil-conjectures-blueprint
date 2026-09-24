@@ -3,7 +3,7 @@ id = "thm-amb-vector-bundle-purity"
 kind = "theorem"
 title = "Vector-bundle purity before smooth orientation"
 order = 2858
-uses = ["cor-amb-affine-space-adjunction", "def-amb-vector-integration", "def-asd-vector-bundle-zero-section", "def-coefficient-twists-detailed", "def-weil-pbc-derived-categories", "lem-amb-etale-adjoint-locality", "lem-amb-proper-coproducts-projection", "lem-weil-pbc-geometric-stalk-conservative", "thm-amb-etale-exceptional-adjoint"]
+uses = ["cor-amb-affine-space-adjunction", "def-amb-vector-integration", "def-asd-vector-bundle-zero-section", "def-coefficient-twists-detailed", "def-weil-pbc-derived-categories", "lem-amb-etale-adjoint-locality", "lem-amb-proper-coproducts-projection", "lemma-weil-pbc-geometric-stalk-conservative", "thm-amb-etale-exceptional-adjoint"]
 +++
 Let $\pi:E\to S$ be a vector bundle of rank $d$
 over a Noetherian scheme. For every complex $K$ of
@@ -42,7 +42,7 @@ this map is the identity under the affine-space
 identification of the right adjoint. Hence it is an
 isomorphism on the inverse image of every trivializing
 open set. These opens cover $E$, so
-[lem-weil-pbc-geometric-stalk-conservative] proves
+[lemma-weil-pbc-geometric-stalk-conservative] proves
 that it is an isomorphism everywhere.
 The construction used only the projective-line diagonal,
 compact supports, and ordinary adjunctions; it did not

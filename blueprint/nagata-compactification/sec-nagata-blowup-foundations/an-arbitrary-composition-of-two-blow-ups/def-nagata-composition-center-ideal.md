@@ -2,9 +2,9 @@
 id = "def-nagata-composition-center-ideal"
 kind = "definition"
 title = "Center ideal representing a second blow-up"
-order = 301
+order = 302
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_comp"]
-uses = ["def-nagata-proj-closed-center-finite-degree"]
+uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-proj-closed-center-finite-degree", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be qcqs, let $\mathcal I\subseteq\mathcal O_X$ be a finite-type
 quasi-coherent ideal, put

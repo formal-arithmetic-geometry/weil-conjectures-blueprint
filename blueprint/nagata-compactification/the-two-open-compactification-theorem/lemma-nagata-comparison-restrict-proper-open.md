@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Restriction of the comparison image over the proper-extension open"
 order = 475
 lean = ["AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide"]
-uses = ["def-nagata-two-open-comparison-space", "lemma-nagata-proper-to-separated-target", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-restrict-open"]
+uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-comparison-space", "lemma-nagata-proper-to-separated-target", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-restrict-open", "prop-nagata-global-blowup-cover-independent"]
 +++
 For $\{i,j\}=\{1,2\}$, the canonical morphism
 

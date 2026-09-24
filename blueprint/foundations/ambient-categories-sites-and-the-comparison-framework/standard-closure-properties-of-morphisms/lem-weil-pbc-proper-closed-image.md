@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proper-closed-image"
 kind = "lemma"
 title = "A proper morphism has closed image"
-order = 1178
+order = 1182
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 The image of a proper [def-weil-pbc-scheme-conventions] morphism $f:X\to Y$

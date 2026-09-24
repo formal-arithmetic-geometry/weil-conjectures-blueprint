@@ -4,7 +4,7 @@ kind = "lemma"
 title = "[stacks-project]"
 order = 445
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_lift_admissibleBlowup"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "lemma-nagata-scheme-image-transport-strict-transform", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "lemma-nagata-dense-flat-pullback", "lemma-nagata-scheme-image-transport-strict-transform", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
 +++
 Let $V\to X\times_SY$ be quasi-compact and quasi-separated, and assume its
 projection to $X$ factors through an open $U\subseteq X$. Let $Z$ be its

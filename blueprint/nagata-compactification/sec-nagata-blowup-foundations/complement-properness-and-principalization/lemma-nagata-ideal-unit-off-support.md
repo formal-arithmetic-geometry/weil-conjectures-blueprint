@@ -2,7 +2,7 @@
 id = "lemma-nagata-ideal-unit-off-support"
 kind = "lemma"
 title = "The center ideal is the unit ideal off its support"
-order = 238
+order = 239
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.ideal_eq_top_of_disjoint_support"]
 +++
 If $Z=V(\mathcal I)$ and $U=X\setminus Z$, then

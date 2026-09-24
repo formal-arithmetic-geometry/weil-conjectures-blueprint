@@ -2,7 +2,7 @@
 id = "lem-sc-finite-extension-affine-model"
 kind = "lemma"
 title = "An affine curve model for a finite extension"
-order = 1593
+order = 1594
 uses = ["def-fin-normalization-extension", "def-sc-curves", "def-sc-function-field", "def-weil-pbc-scheme-conventions", "lem-fin-normalization-extension-finite", "lem-sc-normal-dim1-dvr"]
 +++
 Let $C/k$ be a smooth integral affine

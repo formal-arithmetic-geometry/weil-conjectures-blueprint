@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Elimination of indeterminacy for quasi-dominations, [ConradNagata]"
 order = 410
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_partialSection"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-scheme-theoretic-image", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-blowup-base-change-reduction", "lemma-nagata-conrad-closed-target-reduction", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-graph-closure-quasi-finite", "lemma-nagata-conrad-quasi-affine-general", "lemma-nagata-quasi-affine-morphism-of-quasi-finite"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup-cover-comparison", "def-nagata-scheme-theoretic-image", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-blowup-base-change-reduction", "lemma-nagata-conrad-closed-target-reduction", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-graph-closure-quasi-finite", "lemma-nagata-conrad-quasi-affine-general", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-quasi-affine-morphism-of-quasi-finite", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $S$ be qcqs and let $X$ and $Y$ be qcqs $S$-schemes with $Y\to S$
 separated and of finite type. Let $U\subseteq V\subseteq X$ be dense open

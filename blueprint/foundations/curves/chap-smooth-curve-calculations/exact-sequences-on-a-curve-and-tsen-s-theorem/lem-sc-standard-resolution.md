@@ -2,7 +2,7 @@
 id = "lem-sc-standard-resolution"
 kind = "lemma"
 title = "The standard resolution of constructible sheaves on curves"
-order = 2181
+order = 2179
 uses = ["def-sc-curves", "def-weil-pbc-etale-sheaves", "lem-sc-dim0-finite"]
 +++
 Let $C$ be a smooth curve over an

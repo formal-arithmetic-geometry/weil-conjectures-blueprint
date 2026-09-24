@@ -2,7 +2,7 @@
 id = "lemma-openclosed-point-ulift"
 kind = "lemma"
 title = "Raising a point a universe"
-order = 1448
+order = 1430
 lean = ["AlgebraicGeometry.Scheme.isConservativeFamilyOfPoints_ulift_pointSmallEtale", "CategoryTheory.GrothendieckTopology.Point.ulift"]
 +++
 Let $(\mathcal C,J)$ be a site and let $p$ be a point of it: a stalk functor

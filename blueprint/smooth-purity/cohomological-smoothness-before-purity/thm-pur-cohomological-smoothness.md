@@ -3,7 +3,7 @@ id = "thm-pur-cohomological-smoothness"
 kind = "theorem"
 title = "Cohomological smoothness of smooth morphisms"
 order = 3595
-uses = ["def-coefficient-twists-detailed", "def-pur-co-smoothness", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-pur-co-smooth-composition", "lem-pur-co-smooth-etale-locality", "lem-pur-smb-extraordinary", "prop-asd-smooth-base-change", "sbc-thm-etale-local-normal-form", "thm-asd-smooth-tensor", "thm-sf-ambient-adjoint-class", "thm-weil-pbc-site-comparison"]
+uses = ["def-coefficient-twists-detailed", "def-pur-co-smoothness", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-co-smooth-composition", "lem-pur-co-smooth-etale-locality", "lem-pur-smb-extraordinary", "prop-asd-smooth-base-change", "sbc-thm-etale-local-normal-form", "thm-asd-smooth-tensor", "thm-sf-ambient-adjoint-class", "thm-weil-pbc-site-comparison"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 for every smooth separated morphism $f:X\to Y$ of relative dimension

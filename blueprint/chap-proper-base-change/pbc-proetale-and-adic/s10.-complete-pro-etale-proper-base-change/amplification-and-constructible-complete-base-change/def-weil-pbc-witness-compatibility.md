@@ -2,8 +2,8 @@
 id = "def-weil-pbc-witness-compatibility"
 kind = "definition"
 title = "Witness compatibility condition"
-order = 2024
-uses = ["def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-finite-level-amplification"]
+order = 2025
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-finite-level-amplification"]
 +++
 For such a cartesian square $\square$, write $\mathrm{WIT}(\square)$ if the
 four finite-level functors of [def-weil-pbc-finite-level-amplification]

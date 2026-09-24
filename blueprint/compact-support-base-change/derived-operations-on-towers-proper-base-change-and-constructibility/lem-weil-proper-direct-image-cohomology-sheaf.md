@@ -3,7 +3,7 @@ id = "lem-weil-proper-direct-image-cohomology-sheaf"
 kind = "lemma"
 title = "Constructibility of the cohomology sheaves of $Rf_*\\mathcal H^r(K)$"
 order = 3155
-uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "prop-weil-proper-direct-image-constructibility"]
+uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-weil-proper-direct-image-constructibility"]
 +++
 In the situation of
 [prop-weil-proper-direct-image-constructibility], let

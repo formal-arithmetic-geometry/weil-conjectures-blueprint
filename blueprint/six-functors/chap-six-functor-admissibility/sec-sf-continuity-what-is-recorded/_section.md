@@ -3,7 +3,7 @@ id = "sec-sf-continuity-what-is-recorded"
 kind = "section"
 title = "Continuity of the pro-étale cohomology for arbitrary sheaves: what is recorded"
 order = 3485
-uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-etale-sum-extension", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods-detailed", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit-detailed", "lem-cbc-proetale-stalk-conservative", "lem-weil-pbc-etale-restriction-injectives"]
+uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-etale-sum-extension", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit", "lem-cbc-proetale-stalk-conservative", "lem-weil-pbc-etale-restriction-injectives"]
 +++
 The items below settle what the passage from the étale site to the
 pro-étale site costs. They are the reason why $\operatorname{FullCD}$ is

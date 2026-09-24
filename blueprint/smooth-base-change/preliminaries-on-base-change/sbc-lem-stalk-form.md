@@ -3,7 +3,7 @@ id = "sbc-lem-stalk-form"
 kind = "lemma"
 title = "Stalk form of the base-change map"
 order = 2772
-uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula-detailed", "sbc-def-base-change-map", "sbc-def-base-change-square"]
+uses = ["def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula", "sbc-def-base-change-map", "sbc-def-base-change-square"]
 +++
 Consider a base-change square
 where $g:T\to S$ is
@@ -32,7 +32,7 @@ is an isomorphism.
 
 Since $Y=X\times_ST$, the strict-local base changes satisfy
 $\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{X,\bar x}\times_XY =\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{X,\bar x}\times_ST$; by
-[prop-weil-pbc-strict-henselization-stalk-formula-detailed] the stalk at
+[prop-weil-pbc-strict-henselization-stalk-formula] the stalk at
 $\bar x$ of $f^{-1}R^qg_*\mathcal F$ is
 $H^q(\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{S,\bar s}\times_ST,\mathcal F)$ and the stalk of
 $R^qh_*e^{-1}\mathcal F$ is
@@ -40,4 +40,4 @@ $H^q(\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{X,\bar x}\times_ST,\mathcal F)
 that the stalk of the base-change map of
 [sbc-def-base-change-map] at every geometric point $\bar x$ is an
 isomorphism. Geometric stalks are conservative
-([lem-weil-pbc-geometric-stalk-conservative]), which is (2).
+([lemma-weil-pbc-geometric-stalk-conservative]), which is (2).

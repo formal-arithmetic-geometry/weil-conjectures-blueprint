@@ -2,7 +2,7 @@
 id = "lemma-nagata-finite-type-fp-model-system"
 kind = "lemma"
 title = "Properties of the finite-presentation model system, [stacks-project]"
-order = 550
+order = 552
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_locallyOfFinitePresentation", "AlgebraicGeometry.Scheme.Hom.nonempty_finitePresentationApproximation"]
 uses = ["def-nagata-finite-type-fp-model-system", "lemma-nagata-closed-subscheme-fp-system", "lemma-nagata-immersion-into-fp-model", "lemma-nagata-immersion-shrink-to-closed"]
 +++

@@ -3,7 +3,7 @@ id = "thm-pur-p1-triangular"
 kind = "theorem"
 title = "Projective-line triangular identities"
 order = 3574
-uses = ["def-exchange-projection", "def-pur-conventions", "def-pur-p1-integration", "def-pur-td-datum", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-pur-p1-diagonal-class", "lem-pur-p1-kunneth", "lem-pur-td-kernel", "thm-pur-p1-decomposition", "thm-pur-td-criterion"]
+uses = ["def-exchange-projection", "def-pur-conventions", "def-pur-p1-integration", "def-pur-td-datum", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-p1-diagonal-class", "lem-pur-p1-kunneth", "lem-pur-td-kernel", "thm-pur-p1-decomposition", "thm-pur-td-criterion"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $Y$ be separated finite type, $q:\mathbf P^1_Y\to Y$, and

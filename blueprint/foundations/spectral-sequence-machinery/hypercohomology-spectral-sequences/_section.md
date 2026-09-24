@@ -2,8 +2,8 @@
 id = "hypercohomology-spectral-sequences"
 kind = "section"
 title = "Hypercohomology spectral sequences"
-order = 1141
-uses = ["def-sp-acyclic", "def-sp-convergence", "def-sp-exact-couple", "def-sp-grothendieck-abelian", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "lem-sp-edge-collapse", "lem-sp-long-exact-of-triangle", "thm-sp-half-plane-convergence", "thm-sp-spectral-object-yields"]
+order = 1139
+uses = ["def-sp-convergence", "def-sp-exact-couple", "def-sp-grothendieck-abelian", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "lem-sp-long-exact-of-triangle", "thm-sp-half-plane-convergence", "thm-sp-spectral-object-yields"]
 +++
 The section opens with the definition the rest of the chapter had been using
 without stating: $Rv$ on a bounded-below *complex*, by K-injective resolution
@@ -19,7 +19,7 @@ spectral sequence has $E_2^{p,q}=R^pv(\mathcal H^q K)$ and converges
 unconditionally because it lives in a half plane
 [thm-sp-truncation-e2]. The second comes from a Cartan--Eilenberg
 resolution and has $E_1^{r,s}=R^rv(K^s)$ [thm-sp-if-e1]; collapsing it gives
-the Leray acyclicity criterion [lem-sp-leray-acyclicity], which is how
+the Leray acyclicity criterion [lemma-weil-pbc-leray-acyclicity], which is how
 acyclic resolutions are allowed to compute derived functors.
 
 The K-injective comparison [lem-sp-kinjective-computes] is filed under the

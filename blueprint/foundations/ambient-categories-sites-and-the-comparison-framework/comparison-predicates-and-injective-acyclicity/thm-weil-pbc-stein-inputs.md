@@ -2,8 +2,8 @@
 id = "thm-weil-pbc-stein-inputs"
 kind = "remark"
 title = "The two classical inputs of Stein connectedness"
-order = 1232
-uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-stein-factorization", "lem-weil-pbc-spectral-restriction"]
+order = 1254
+uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-stein-factorization", "lemma-weil-pbc-spectral-restriction"]
 tags = ["latex:openproblem"]
 +++
 Let $(A,I)$ be an affine henselian pair with $S=\operatorname{Spec}A$, and in
@@ -37,6 +37,6 @@ $S'=\operatorname{Spec}B$. The two inputs are:
 A third input, used by Stage 1 of the degree-zero comparison, is the Zariski
 comparison $\Gamma(Y,G)\cong\Gamma(Y_0,G|_{Y_0})$ for the *constructible*
 torsion sheaf $G$ that occurs there. The locally constant form proved in
-[lem-weil-pbc-spectral-restriction] does not give it, its statement carrying
+[lemma-weil-pbc-spectral-restriction] does not give it, its statement carrying
 a counterexample for sheaves that are not locally constant, so that
 comparison is an obligation as well.

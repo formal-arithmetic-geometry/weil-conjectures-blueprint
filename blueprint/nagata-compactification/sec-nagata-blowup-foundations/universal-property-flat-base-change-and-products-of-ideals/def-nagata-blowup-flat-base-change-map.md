@@ -2,7 +2,7 @@
 id = "def-nagata-blowup-flat-base-change-map"
 kind = "definition"
 title = "Flat base-change comparison for blow-ups"
-order = 284
+order = 285
 uses = ["def-nagata-extended-ideal", "def-nagata-flat-pullback-rees-map", "def-nagata-global-blowup", "lemma-nagata-flat-pullback-rees", "prop-nagata-relative-proj-functoriality"]
 +++
 **Status.** Bypassed by the formalized route: blow-ups are never

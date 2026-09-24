@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-constructible-finite-pushforward-noetherian"
 kind = "lemma"
 title = "Noetherian finite-pushforward embedding"
-order = 1746
+order = 1738
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves"]
 +++
 Let $U$ be Noetherian and let $C$ be a constructible torsion abelian sheaf on
@@ -12,11 +12,11 @@ $C\hookrightarrow\bigoplus_i(h_i)_*\underline{M_i}$.
 
 **Status.** The two sub-gaps this statement used to carry are closed. (a) The
 extension of the generic map is valid because the normalization $V$ is normal:
-the extension lemma is [lem-weil-pbc-normal-constant-generic]; no locally
+the extension lemma is `lem-weil-pbc-normal-constant-generic`; no locally
 constant sheaf is extended across a boundary, the sheaf extended is the
 constant sheaf. (b) The factorization of $C\to h_*\underline M$ through one
 finite stage is the finite-presentation property of constructible sheaves in
-the category of sheaves, [lem-weil-pbc-constructible-finitely-presented],
+the category of sheaves, `lem-weil-pbc-constructible-finitely-presented`,
 recorded as the classical input Tag 09Z4.
 
 ## Proof
@@ -35,7 +35,7 @@ field (Stacks Project, Morphisms, Lemma 29.54.13, Tag
 *Step 2: the generic map.* The identification
 $C|_{\operatorname{Spec}K}\cong\underline M$ is a map
 $C|_{\operatorname{Spec}K}\to\underline M$, and
-[lem-weil-pbc-normal-constant-generic], applied to the normal integral $V$ and
+`lem-weil-pbc-normal-constant-generic`, applied to the normal integral $V$ and
 the inclusion $g:\operatorname{Spec}K\to V$ of its generic point, identifies
 $g_*\underline M$ with $\underline M$. Hence that map adjoints to
 $C|_V\to\underline M$, and adjoints again to a map
@@ -78,7 +78,7 @@ the affine limit $V=\varprojlim_iV_i$.
 
 *Step 5: factorization through one finite stage.* The map $C\to h_*\underline
 M$ of Step 2 is a morphism from a constructible sheaf into a filtered colimit
-of sheaves, so by [lem-weil-pbc-constructible-finitely-presented] it factors
+of sheaves, so by `lem-weil-pbc-constructible-finitely-presented` it factors
 through one stage: there are an index $i$ and a map $C\to(h_i)_*\underline M$
 whose composite with the transition map is the given map. Hence $\bar x$
 admits a finite pushforward $h_i:V_i\to U$, the morphism $V_i\to Z$ being

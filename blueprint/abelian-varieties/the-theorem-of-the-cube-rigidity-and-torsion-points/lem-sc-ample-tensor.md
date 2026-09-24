@@ -3,7 +3,7 @@ id = "lem-sc-ample-tensor"
 kind = "lemma"
 title = "Tensor products of ample modules"
 order = 2406
-uses = ["def-sc-abelian-variety", "def-sc-ample", "lem-sc-segre-embedding"]
+uses = ["def-sc-abelian-variety", "def-sc-ample", "lem-chow-segre"]
 +++
 Let $X$ be a scheme over a field $k$ and let $\mathcal L$ and
 $\mathcal M$ be ample invertible
@@ -23,7 +23,7 @@ $\mathcal M^{\otimes b}$ very ample; then
 $(\mathcal L\otimes\mathcal M)^{\otimes ab}$ is very ample: the
 tensor product of very ample modules is very ample, being the
 pullback of $\mathcal O(1)\boxtimes\mathcal O(1)$ along the Segre
-embedding ([lem-sc-segre-embedding]). Hence
+embedding ([lem-chow-segre]). Hence
 $\mathcal L\otimes\mathcal M$ is ample. For the second part,
 $[-1]$ is an automorphism of $A$, so $[-1]^*\mathcal L$ is
 ample and $[-1]^*[-1]^*\mathcal L\cong\mathcal L$; therefore

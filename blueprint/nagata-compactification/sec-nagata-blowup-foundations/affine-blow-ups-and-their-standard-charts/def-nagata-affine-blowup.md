@@ -2,7 +2,7 @@
 id = "def-nagata-affine-blowup"
 kind = "definition"
 title = "Affine blow-up"
-order = 196
+order = 197
 lean = ["AlgebraicGeometry.AffineBlowup"]
 uses = ["def-nagata-affine-proj", "def-nagata-rees-algebra"]
 +++

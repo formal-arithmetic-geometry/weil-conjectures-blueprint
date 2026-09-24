@@ -3,7 +3,7 @@ id = "lem-fin-lisse-field-dual"
 kind = "lemma"
 title = "Duals of complexes with finite locally constant cohomology"
 order = 3273
-uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "lem-weil-pbc-geometric-stalk-conservative", "thm-sp-truncation-e2"]
+uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "lemma-weil-pbc-geometric-stalk-conservative", "thm-sp-truncation-e2"]
 +++
 Let $\lambda=\mathbf F_\ell$, let $T$ be a scheme on which
 $\ell$ is invertible, and let $C$ be an ordinary
@@ -38,7 +38,7 @@ except row zero vanish by this calculation, giving the formula
 in the statement and boundedness. For a sheaf $E$ the pullback
 comparison is the identity between the two duals of $\lambda^r$
 on each trivializing etale neighborhood. It is therefore an
-isomorphism by [lem-weil-pbc-geometric-stalk-conservative].
+isomorphism by [lemma-weil-pbc-geometric-stalk-conservative].
 Apply the exact pullback functor to the finite truncation triangles
 of $C$; induction through these triangles proves the comparison
 for $C$. No assertion about global Ext vanishing is used.

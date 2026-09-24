@@ -3,7 +3,7 @@ id = "lem-cbc-proetale-stalk-conservative"
 kind = "lemma"
 title = "Detecting isomorphisms on the pro-etale site"
 order = 3130
-uses = ["def-weil-pbc-ind-etale-basis", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-geometric-stalk-conservative", "lem-weil-pbc-ind-etale-basis", "thm-weil-pbc-site-comparison"]
+uses = ["def-weil-pbc-ind-etale-basis", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-ind-etale-basis", "lemma-weil-pbc-geometric-stalk-conservative", "thm-weil-pbc-site-comparison"]
 +++
 Let $\Lambda$ be a finite discrete ring and let $T$ be a scheme.
 
@@ -81,7 +81,7 @@ $(\nu_T^*\mathcal G')_{\bar t}=\mathcal G'_{\bar t}$, naturally in
 $\mathcal G'$. If $\nu_T^*F'\to\nu_T^*G'$ is an isomorphism at
 every geometric point, then $F'\to G'$ is an isomorphism at every
 geometric point, hence an isomorphism by
-[lem-weil-pbc-geometric-stalk-conservative]; applying the functor
+[lemma-weil-pbc-geometric-stalk-conservative]; applying the functor
 $\nu_T^*$ exhibits $\nu_T^*F'\to\nu_T^*G'$ as an isomorphism. The
 converse follows from functoriality. For bounded-below complexes one
 applies this degreewise to the cohomology sheaves, inverse image being

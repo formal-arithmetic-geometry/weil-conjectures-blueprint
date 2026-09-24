@@ -2,15 +2,15 @@
 id = "def-weil-derived-direct-image"
 kind = "definition"
 title = "Derived direct image"
-order = 1388
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+order = 1652
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf
 Z_{\geq1}$, and put $A=A_{E,n}$. Let $X,Y$ be schemes on which $\ell$ is
 invertible, and let $f:X\to Y$ be a morphism
 [def-weil-scheme-morphism-properties]; write $f_n$ for this morphism at
 coefficient level $A_{E,n}$. On the small pro-etale sites
-[def-weil-small-proetale-site-detailed], with derived pullback and internal
+[def-weil-pbc-proetale-site], with derived pullback and internal
 Hom notation [def-weil-derived-pullback-tensor-hom] and derived tensor
 notation [def-weil-derived-tensor], the functor
 $f_*:\Sh(X_{\mathrm{proet}},A)\to\Sh(Y_{\mathrm{proet}},A)$ is left exact. At

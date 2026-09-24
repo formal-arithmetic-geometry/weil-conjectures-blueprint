@@ -2,7 +2,7 @@
 id = "lemma-nagata-fixed-base-separated-stage-exists"
 kind = "lemma"
 title = "Existence of a separated stage over a fixed base"
-order = 553
+order = 555
 lean = ["AlgebraicGeometry.Scheme.exists_isSeparated_app_of_isLimit"]
 uses = ["lemma-nagata-separated-stage-exists-absolute"]
 +++

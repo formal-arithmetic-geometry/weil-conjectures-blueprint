@@ -4,7 +4,7 @@ kind = "theorem"
 title = "The right adjoint for a finite etale morphism"
 order = 3308
 tags = ["latex:proposition"]
-uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "lem-fet-locally-trivial"]
+uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-fet-locally-trivial"]
 +++
 Let $A=A_{E,n}$ be a
 finite coefficient ring,
@@ -25,7 +25,7 @@ inverse image.
 
 By [lem-fet-locally-trivial], there is an etale covering of $X$
 over which $V$ is a finite disjoint union of copies of the base.
-This is also a covering for [def-weil-small-proetale-site-detailed].
+This is also a covering for [def-weil-pbc-proetale-site].
 On such a member, write the sheets as $1,\ldots,r$. A sheaf on $V$
 is a tuple $(M_1,\ldots,M_r)$; direct image and inverse image of
 [def-weil-derived-direct-image], [def-weil-derived-pullback-tensor-hom]

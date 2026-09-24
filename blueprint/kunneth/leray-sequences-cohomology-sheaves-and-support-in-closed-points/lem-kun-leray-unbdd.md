@@ -3,7 +3,7 @@ id = "lem-kun-leray-unbdd"
 kind = "lemma"
 title = "Unbounded Leray for finite cohomological dimension"
 order = 3007
-uses = ["def-kun-cd", "def-kun-rgamma-unbounded", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-hypercohomology-filtrations-detailed", "def-weil-pbc-scheme-conventions", "lem-kun-leray-bdd"]
+uses = ["def-kun-cd", "def-kun-rgamma-unbounded", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-scheme-conventions", "lem-kun-leray-bdd"]
 +++
 Let $f:X\to Y$ be a qcqs morphism of schemes with
 $\kuncd(f)<\infty$ and let $n\ge1$. Then
@@ -18,7 +18,7 @@ canonically for every $E\in D(X_{\Et},\kunZn)$.
 
 For $E\in D(X_{\Et},\kunZn)$ the Grothendieck spectral sequence of
 the composite $\Gamma(Y_{\Et},-)\circ Rf_*$
-([def-weil-pbc-hypercohomology-filtrations-detailed] in the
+([def-weil-pbc-hypercohomology-filtrations] in the
 global-section form) has
 
 $$

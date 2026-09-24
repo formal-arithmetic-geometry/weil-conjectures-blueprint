@@ -3,7 +3,7 @@ id = "lem-sc-cd-affine-limit"
 kind = "lemma"
 title = "Passing a uniform torsion bound to an affine limit"
 order = 2734
-uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-torsion-filtered-union", "thm-weil-pbc-etale-cohomology-continuity"]
+uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-cohomology-filtered-colimit", "lemma-weil-pbc-etale-cohomology-continuity", "lemma-weil-pbc-torsion-filtered-union"]
 +++
 Let $X=\varprojlim_i X_i$ be a filtered inverse limit of
 quasi-compact
@@ -30,7 +30,7 @@ pullback, their equality is witnessed on a finite etale covering;
 the covering and the finitely many maps in it descend to a
 later stage. This proves injectivity after sheafification.
 These are the same finite-presentation descent and finite-cover
-arguments used in [thm-weil-pbc-etale-cohomology-continuity].
+arguments used in [lemma-weil-pbc-etale-cohomology-continuity].
 
 For each fixed $i$, that theorem gives
 
@@ -41,5 +41,5 @@ $$
 
 Now apply [lem-weil-pbc-cohomology-filtered-colimit] to
 the preceding sheaf colimit. Finally remove the fixed exponent
-using [lem-weil-pbc-torsion-filtered-union] and the same
+using [lemma-weil-pbc-torsion-filtered-union] and the same
 commutation of cohomology with filtered colimits.

@@ -3,7 +3,7 @@ id = "lem-weil-pbc-retract-supplied"
 kind = "lemma"
 title = "Retract supplied by a proper surjection"
 order = 1667
-uses = ["def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $f:X\to Y$ be proper and surjective, let $I$ be injective on $Y_{\Et}$,
 and choose a monomorphism $f^{-1}I\hookrightarrow J$ with $J$ injective on

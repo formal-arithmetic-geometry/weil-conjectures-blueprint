@@ -3,7 +3,7 @@ id = "lem-pur-finite-kummer-level"
 kind = "lemma"
 title = "Finite Kummer level of the Tate twist"
 order = 3520
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix the finite-field datum and $A=A_{E,n}$ of
 [def-pur-conventions]; write $e=e(E/\Ql)$ for the ramification

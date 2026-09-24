@@ -3,7 +3,7 @@ id = "lem-exc-open-complement-known"
 kind = "lemma"
 title = "The open-complement condition from the direct-image input"
 order = 3354
-uses = ["def-exc-open-complement-bound", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula-detailed", "thm-exc-curve-open-constructible-general", "thm-exc-curve-open-dimension-general", "thm-exc-direct-image-input-holds"]
+uses = ["def-exc-open-complement-bound", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-exc-curve-open-constructible-general", "thm-exc-curve-open-dimension-general", "thm-exc-direct-image-input-holds"]
 +++
 Let $k$ be the algebraic closure of a finite field, let $T$ be a
 finite-type $k$-scheme of dimension at most $d$, let
@@ -29,7 +29,7 @@ which is of finite type because it is quasi-compact and $T$ is of finite
 type over $k$.
 For the vanishing clause, fix a geometric point $\bar t$ of $T$. The
 strict-henselization stalk formula
-[prop-weil-pbc-strict-henselization-stalk-formula-detailed] identifies the
+[prop-weil-pbc-strict-henselization-stalk-formula] identifies the
 stalk of the higher direct image with the cohomology of the open
 complement over the strict henselization at $\bar t$,
 
@@ -46,5 +46,5 @@ clause (2) of that input gives
 $H^q(V\times_TU,M)=0$ for $q>2d$ and every torsion sheaf $M$, and
 vanishing is preserved by the filtered colimit. Hence every geometric
 stalk of $R^qj_*M$ vanishes for $q>2d$, and conservativity of
-geometric stalks ([lem-weil-pbc-geometric-stalk-conservative]) makes
+geometric stalks ([lemma-weil-pbc-geometric-stalk-conservative]) makes
 the sheaf itself zero, which is the vanishing clause with $c=2d$.

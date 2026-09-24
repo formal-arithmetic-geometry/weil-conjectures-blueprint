@@ -2,9 +2,9 @@
 id = "thm-nagata-global-blowup-complement"
 kind = "theorem"
 title = "Complement of the center"
-order = 240
+order = 241
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isIso_blowupMap_restrict_support_compl"]
-uses = ["lemma-nagata-affine-blowup-complement", "prop-nagata-global-blowup-affine-restrict"]
+uses = ["def-nagata-global-blowup-cover-comparison", "lemma-nagata-affine-blowup-complement", "lemma-nagata-ideal-unit-off-support", "prop-nagata-global-blowup-affine-restrict", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $U=X\setminus V(\mathcal I)$. The restriction
 

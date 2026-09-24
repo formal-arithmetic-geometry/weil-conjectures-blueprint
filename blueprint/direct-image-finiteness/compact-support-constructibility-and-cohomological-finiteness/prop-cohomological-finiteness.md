@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Compact-support finiteness and Frobenius"
 order = 3292
 tags = ["latex:proposition"]
-uses = ["cor-galois-lisse-representations", "cor-weil-pbc-geometric-fiber-finite", "def-weil-derived-complete-integral-detailed", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed", "def-weil-weil-sheaf-complex", "fin4-lem-fibrewise-cohomological-dimension", "prop-finite-compact-support-constructibility", "sbc-thm-finiteness-finite-type", "thm-galois-fundamental"]
+uses = ["cor-galois-lisse-representations", "cor-weil-pbc-geometric-fiber-finite", "def-weil-derived-complete-integral-detailed", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "fin4-lem-fibrewise-cohomological-dimension", "prop-finite-compact-support-constructibility", "sbc-thm-finiteness-finite-type", "thm-galois-fundamental"]
 +++
 Fix the finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, choose a prime $\ell\neq p$, write
@@ -58,7 +58,7 @@ identity on this group.
 *Step 1 (the finite level).* Work with the
 finite-field datum ([def-weil-finite-field-fiber]) $p,a,q,k_0,k$ of
 the statement, the
-small pro-etale site ([def-weil-small-proetale-site-detailed]) of $Y$, and
+small pro-etale site ([def-weil-pbc-proetale-site]) of $Y$, and
 the geometric hypotheses ([def-weil-geometric-hypotheses]) imposed on
 $Y_0$. Write $a_Y:Y\to s=\Spec k$ for the
 structure morphism, a

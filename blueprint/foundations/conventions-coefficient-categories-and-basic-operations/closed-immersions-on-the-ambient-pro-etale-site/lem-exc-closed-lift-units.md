@@ -2,7 +2,7 @@
 id = "lem-exc-closed-lift-units"
 kind = "lemma"
 title = "Units of the ind-etale lift"
-order = 1424
+order = 1418
 uses = ["def-exc-ind-etale-closed-lift", "lem-exc-closed-lift-filtered"]
 +++
 An element of $H_A(\overline C)$, as constructed in

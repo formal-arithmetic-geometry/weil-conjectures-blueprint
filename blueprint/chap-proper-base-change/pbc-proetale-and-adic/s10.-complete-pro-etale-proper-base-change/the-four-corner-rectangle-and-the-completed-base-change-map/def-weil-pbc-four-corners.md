@@ -2,10 +2,10 @@
 id = "def-weil-pbc-four-corners"
 kind = "definition"
 title = "Four finite-level corners"
-order = 2011
-uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-cartesian-square-detailed", "def-weil-pbc-completed-pullback-detailed", "def-weil-pbc-proetale-operations"]
+order = 2002
+uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-cartesian-square", "def-weil-pbc-completed-pullback", "def-weil-pbc-proetale-operations"]
 +++
-Let $\square$ be cartesian [def-weil-pbc-cartesian-square-detailed] with $f$ proper,
+Let $\square$ be cartesian [def-weil-pbc-cartesian-square] with $f$ proper,
 let $K$ be derived $I$-complete in the sense of the adic coefficient datum,
 put $K_n=K\otimes_A^LP_n$, and put
 $$

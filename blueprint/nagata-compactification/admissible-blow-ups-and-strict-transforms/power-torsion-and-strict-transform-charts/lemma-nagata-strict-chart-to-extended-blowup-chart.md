@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-chart-to-extended-blowup-chart"
 kind = "lemma"
 title = "Well-definedness of the extended-ideal chart map"
-order = 323
+order = 324
 uses = ["def-nagata-strict-chart-to-extended-blowup-chart"]
 +++
 **Status.** Bypassed by the formalized route: the strict transform is

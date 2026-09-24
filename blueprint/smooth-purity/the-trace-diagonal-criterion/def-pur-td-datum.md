@@ -3,7 +3,7 @@ id = "def-pur-td-datum"
 kind = "definition"
 title = "Trace–diagonal datum"
 order = 3563
-uses = ["def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "def-weil-small-proetale-site-detailed"]
+uses = ["def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $f:X\to Y$ be separated finite type; Put

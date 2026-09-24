@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-ambient-proper"
 kind = "lemma"
 title = "The final ambient morphism is proper"
-order = 604
+order = 606
 uses = ["def-nagata-final-compactification", "lemma-nagata-final-basechanged-compactification", "lemma-nagata-final-compactification-spec", "prop-nagata-closed-subscheme-compactifiable"]
 +++
 **Status.** Bypassed by the formalized route: the final assembly is carried

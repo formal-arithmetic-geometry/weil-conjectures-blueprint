@@ -2,7 +2,7 @@
 id = "lem-sc-sylow-module-filtration"
 kind = "lemma"
 title = "Sylow reduction of a finite torsion module"
-order = 1581
+order = 1582
 uses = ["def-exc-continuous-cohomology"]
 +++
 Let $G$ be profinite, $\ell$ a prime, and $M$ a finite

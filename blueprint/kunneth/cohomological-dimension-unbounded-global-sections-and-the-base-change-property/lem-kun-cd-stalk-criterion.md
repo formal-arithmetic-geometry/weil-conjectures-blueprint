@@ -3,7 +3,7 @@ id = "lem-kun-cd-stalk-criterion"
 kind = "lemma"
 title = "Vanishing of a higher direct image, checked at a geometric point"
 order = 2962
-uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit-detailed", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $f:X\to Y$ be a
 quasi-compact and
@@ -14,7 +14,7 @@ point $\bar y$ of $Y$ the filtered colimit of the groups
 $H^q(W\times_YX,F)$, taken over the
 pointed etale
 neighbourhoods $(W,\bar w)$ of $\bar y$ (the strict local test
-schemes of [def-weil-pbc-strict-henselization-limit-detailed]), vanishes.
+schemes of [def-weil-pbc-strict-henselization-limit]), vanishes.
 
 ## Proof
 
@@ -24,5 +24,5 @@ $Y_{\Et}$, and by [def-weil-pbc-geometric-stalks] its stalk at
 a geometric point $\bar y$ of $Y$ is precisely the filtered colimit
 of these groups over the pointed etale neighbourhoods of $\bar y$.
 The sheaf $R^qf_*F$ vanishes if and only if all its geometric stalks
-vanish, by [lem-weil-pbc-geometric-stalk-conservative]; hence the
+vanish, by [lemma-weil-pbc-geometric-stalk-conservative]; hence the
 stated equivalence.

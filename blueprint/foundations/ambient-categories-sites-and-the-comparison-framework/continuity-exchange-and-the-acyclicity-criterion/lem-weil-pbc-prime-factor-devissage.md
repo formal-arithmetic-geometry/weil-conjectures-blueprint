@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-prime-factor-devissage"
 kind = "lemma"
 title = "Prime-factor devissage"
-order = 1275
+order = 1310
 uses = ["def-weil-pbc-etale-sheaves"]
 +++
 Let $n>1$, choose a prime $r\mid n$, and let $F$ be killed by $n$. There is a

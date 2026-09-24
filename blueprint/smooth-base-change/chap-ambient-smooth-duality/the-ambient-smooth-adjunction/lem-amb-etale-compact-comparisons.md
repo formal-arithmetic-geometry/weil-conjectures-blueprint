@@ -3,7 +3,7 @@ id = "lem-amb-etale-compact-comparisons"
 kind = "lemma"
 title = "The etale compact-support comparisons"
 order = 2833
-uses = ["def-amb-etale-compact-support", "def-asd-compactifiable", "def-weil-compactifications-refinements", "lem-weil-pbc-proper-open-comparison-composition", "lem-weil-pbc-proper-open-comparison-iso", "thm-nagata-compactification", "thm-weil-pbc-finite-torsion"]
+uses = ["def-amb-etale-compact-support", "def-asd-compactifiable", "def-weil-compactifications-refinements", "lem-weil-pbc-proper-open-comparison-composition", "lem-weil-pbc-proper-open-comparison-iso", "prop-weil-proet-finite-proper-base-change", "thm-nagata-compactification"]
 +++
 The proper-refinement comparisons for
 [def-amb-etale-compact-support] are coherent
@@ -52,7 +52,7 @@ is an isomorphism: over $Y$ it is proper base
 change, and at a geometric point outside $Y$
 both sides vanish, since the corresponding fibre
 misses $V$. These assertions use
-[thm-weil-pbc-finite-torsion], with the same
+[prop-weil-proet-finite-proper-base-change], with the same
 finite-amplitude extension as above. Apply this map
 to the extension by zero of a complex on $X$,
 then apply the proper direct image $R\overline g_*$.

@@ -2,7 +2,7 @@
 id = "fin2-lem-curve-family-betti"
 kind = "lemma"
 title = "The cohomology of the fibres of a family of curves"
-order = 3222
+order = 3219
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-sbc-normal-dominant-galois", "def-sbc-smooth-morphisms", "def-sc-genus", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-sc-cohomological-dimension", "sbc-def-coefficient-conventions", "thm-sc-proper-cohomology"]
 +++
 Let $f:X\to S$ be a

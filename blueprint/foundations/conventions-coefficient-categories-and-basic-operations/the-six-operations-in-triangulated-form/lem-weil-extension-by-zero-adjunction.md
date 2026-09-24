@@ -2,8 +2,8 @@
 id = "lem-weil-extension-by-zero-adjunction"
 kind = "lemma"
 title = "Adjunction for extension by zero"
-order = 1390
-uses = ["def-weil-extension-by-zero", "def-weil-small-proetale-site-detailed"]
+order = 1709
+uses = ["def-weil-extension-by-zero", "def-weil-pbc-proetale-site"]
 +++
 The functor $j_!$ of [def-weil-extension-by-zero] is left adjoint to
 restriction $j^*$ on pro-etale module sheaves.
@@ -11,7 +11,7 @@ restriction $j^*$ on pro-etale module sheaves.
 ## Proof
 
 For an open immersion the site over $U$ is the slice of
-[def-weil-small-proetale-site-detailed] over $U$: maps into $U$ are unique
+[def-weil-pbc-proetale-site] over $U$: maps into $U$ are unique
 when they exist, and the coverings are the same coverings over the larger
 scheme. A morphism from the presheaf $P_M$ of [def-weil-extension-by-zero] to
 a sheaf $N$ is therefore precisely a compatible family $M(V)\to N(V)$ on

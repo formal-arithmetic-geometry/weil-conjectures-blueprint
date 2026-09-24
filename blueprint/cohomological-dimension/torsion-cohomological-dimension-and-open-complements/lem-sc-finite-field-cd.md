@@ -3,7 +3,7 @@ id = "lem-sc-finite-field-cd"
 kind = "lemma"
 title = "The torsion cohomological dimension of a finite field"
 order = 2739
-uses = ["def-exc-continuous-cohomology", "def-sc-etale-torsion-cd", "lem-exc-field-discrete-modules", "lem-sc-group-cd-one", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-torsion-filtered-union"]
+uses = ["def-exc-continuous-cohomology", "def-sc-etale-torsion-cd", "lem-exc-field-discrete-modules", "lem-sc-group-cd-one", "lem-weil-pbc-cohomology-filtered-colimit", "lemma-weil-pbc-torsion-filtered-union"]
 +++
 For a finite field $k$, one has
 $\operatorname{cd}_{\rm tor}(k)\leq1$, in the sense of
@@ -29,5 +29,5 @@ Therefore $H^2(\widehat{\mathbf Z},\mathbf F_\ell)=0$.
 Apply [lem-sc-group-cd-one] for each prime and use the
 field equivalence of [lem-exc-field-discrete-modules].
 Primary decomposition and
-[lem-weil-pbc-torsion-filtered-union], [lem-weil-pbc-cohomology-filtered-colimit]
+[lemma-weil-pbc-torsion-filtered-union], [lem-weil-pbc-cohomology-filtered-colimit]
 give the assertion for every torsion sheaf.

@@ -2,7 +2,7 @@
 id = "lemma-nagata-invertible-ideal-tensor-power"
 kind = "lemma"
 title = "Tensor powers of an invertible ideal"
-order = 269
+order = 270
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.pow"]
 uses = ["def-nagata-invertible-ideal", "lemma-nagata-invertible-ideal-is-effective-cartier"]
 +++

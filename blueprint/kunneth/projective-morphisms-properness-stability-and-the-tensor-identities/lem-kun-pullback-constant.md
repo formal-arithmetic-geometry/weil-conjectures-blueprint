@@ -3,7 +3,7 @@ id = "lem-kun-pullback-constant"
 kind = "lemma"
 title = "Inverse image of a constant sheaf"
 order = 3023
-uses = ["def-kun-constant-sheaf", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "lem-kun-stalk-as-pullback", "lem-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-kun-constant-sheaf", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "lem-kun-stalk-as-pullback", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 For a morphism of schemes $f:X\to Y$ and a $\Lambda$-module (or
 complex of $\Lambda$-modules) $M$, the canonical morphism
@@ -17,5 +17,5 @@ stalk functor is the inverse
 image of the point (see [lem-kun-stalk-as-pullback]), so
 $(f^{-1}\underline{M})_{\bar x}=(\underline{M})_{f(\bar x)}=M= (\underline{M})_{\bar x}$; the canonical map is an isomorphism on
 every stalk hence an isomorphism of sheaves by
-[lem-weil-pbc-geometric-stalk-conservative]; for a complex the
+[lemma-weil-pbc-geometric-stalk-conservative]; for a complex the
 same argument applies degreewise.

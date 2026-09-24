@@ -2,7 +2,7 @@
 id = "lemma-nagata-ideal-invertible-product-factor"
 kind = "lemma"
 title = "Factors of a finite-type effective Cartier product"
-order = 287
+order = 288
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.of_mul_left"]
 uses = ["def-nagata-effective-cartier-ideal"]
 +++

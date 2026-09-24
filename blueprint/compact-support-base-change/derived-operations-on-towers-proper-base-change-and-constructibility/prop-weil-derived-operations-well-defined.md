@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Well-definedness of the derived operations"
 order = 3147
 tags = ["latex:proposition"]
-uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-small-proetale-site-detailed"]
+uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site"]
 +++
 The functors of
 [def-weil-derived-pullback-tensor-hom] – derived pullback,
