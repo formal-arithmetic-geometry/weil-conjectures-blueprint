@@ -1,0 +1,93 @@
++++
+id = "cor-mg-det-weight-exterior"
+kind = "theorem"
+title = "Determinant weights of an exterior power"
+order = 4124
+tags = ["latex:corollary"]
+uses = ["cor-mg-central-determinant-weight", "def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-wf-determinantal-weight", "def-wf-geometric-semisimplicity", "def-wf-monodromy-data", "def-wf-weil-category", "lem-mg-common-positive-central-element", "lem-mg-composition-series-exists", "lem-mg-degree-component-functoriality", "lem-mg-filtered-exterior-power", "lem-mg-filtration-refinement", "lem-wf-schur-scalar"]
++++
+Let $X_0$ be a normal geometrically connected curve over $k_0$, put
+$|k_0|=q$, fix $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and let
+$\mathcal F_0$ be a nonzero lisse
+Weil sheaf on $X_0$ with
+semisimple geometric
+representation. Choose a
+composition series in the sense of
+[def-mg-weil-composition-series], with simple factors
+$A_1,\ldots,A_t$. Write $d_a=\dim A_a$ and let $\gamma_a$ be the
+determinantal weight of $A_a$.
+Let $R$ be the set of distinct values among the $\gamma_a$, and put
+
+$$
+r(\gamma):=\sum_{\gamma_a=\gamma}d_a,
+$$
+
+Thus $\dim V=\sum_{\gamma\in R}r(\gamma)$. For every
+$0\le r\le\dim V$, every Jordan–Holder constituent of
+$\bigwedge^r\mathcal F_0$ has
+determinant weight
+
+$$
+\sum_{\gamma\in R}n_\gamma\gamma,
+\qquad 0\le n_\gamma\le r(\gamma),
+\qquad \sum_{\gamma\in R}n_\gamma=r.
+$$
+
+Conversely every admissible tuple $(n_\gamma)$ occurs as the
+determinant weight of at least one
+Jordan–Holder constituent. The input factors
+$\gamma_a$ are counted with multiplicity as in
+[def-mg-determinantal-weight-multiset]; the assertion concerns the
+possible weights and their non-emptiness, not an equality of output
+multiplicities for coincident sums.
+
+## Proof
+
+Write $V$ for the Weil representation. The factors and their weights
+are those of
+[def-mg-weil-composition-series],
+[def-mg-determinantal-weight-multiset], and
+[def-wf-determinantal-weight]. The assumed geometric
+semisimplicity in [def-wf-geometric-semisimplicity] allows us to apply
+[lem-mg-common-positive-central-element] directly to $V$, obtaining
+a central element $z$ of degree $d>0$. For each simple
+factor $A_a$, its image is
+central by [lem-mg-degree-component-functoriality]. Its matrix
+commutes with the Weil-group image on $A_a$, so
+[lem-wf-schur-scalar] applies to this Weil-simple representation and
+gives a scalar $c_a$. The central-element formula
+[cor-mg-central-determinant-weight] gives
+
+$$
+\gamma_a=\frac{2\log_q|\iota(c_a)|}{d}.
+$$
+
+By [lem-mg-filtered-exterior-power], $\bigwedge^rV$ has a finite
+Weil-stable filtration with nonzero successive quotients
+
+$$
+Q_{\boldsymbol n}=\bigotimes_{a=1}^t\bigwedge^{n_a}A_a,
+\qquad 0\le n_a\le d_a,
+\qquad \sum_a n_a=r.
+$$
+
+The refinement lemma [lem-mg-filtration-refinement] reduces all
+composition factors to these quotients. On $Q_{\boldsymbol n}$, the
+central element acts by $c_{\boldsymbol n}:=\prod_a c_a^{n_a}$. Every
+simple factor $C$ of this quotient receives a central degree-$d$ element
+by [lem-mg-degree-component-functoriality]; its matrix commutes with
+the Weil-group image on $C$, and therefore is scalar by Schur's lemma.
+Hence
+[cor-mg-central-determinant-weight] gives
+
+$$
+\dw_\iota(C)=\frac{2\log_q|\iota(c_{\boldsymbol n})|}{d}
+=\sum_a n_a\gamma_a.
+$$
+
+Grouping equal $\gamma_a$'s gives the asserted aggregate tuple and its
+capacity bounds. Conversely, for an admissible tuple $(n_\gamma)$,
+distribute each $n_\gamma$ among the indices with $\gamma_a=\gamma$,
+never exceeding $d_a$. The resulting $Q_{\boldsymbol n}$ is nonzero,
+so [lem-mg-composition-series-exists] gives a simple factor, whose
+weight is the required sum. This proves the converse.
