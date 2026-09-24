@@ -2,5 +2,5 @@
 id = "finite-data-and-absolute-noetherian-models"
 kind = "section"
 title = "Finite data and absolute Noetherian models"
-order = 168
+order = 174
 +++

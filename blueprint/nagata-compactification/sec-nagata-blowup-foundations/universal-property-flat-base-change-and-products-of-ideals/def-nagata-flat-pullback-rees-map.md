@@ -2,7 +2,7 @@
 id = "def-nagata-flat-pullback-rees-map"
 kind = "definition"
 title = "Flat pullback map for Rees algebras"
-order = 358
+order = 379
 uses = ["def-nagata-extended-ideal", "def-nagata-sheaf-rees-algebra"]
 +++
 **Status.** Bypassed by the formalized route: blow-ups are never

@@ -2,7 +2,7 @@
 id = "lem-sp-truncation-couple-exact"
 kind = "lemma"
 title = "The truncation couple is an exact couple"
-order = 1143
+order = 1144
 uses = ["def-sp-exact-couple", "def-sp-grothendieck-abelian", "def-sp-left-exact-additive", "def-sp-truncation-couple", "lem-sp-long-exact-of-triangle"]
 +++
 Let $v:\mathcal A\to\mathcal B$ be left exact and additive

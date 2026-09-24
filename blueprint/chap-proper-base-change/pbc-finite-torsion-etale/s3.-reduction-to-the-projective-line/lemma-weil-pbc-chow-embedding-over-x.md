@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Projective embedding over $X$"
 order = 1697
 lean = ["AlgebraicGeometry.ChowModification.isClosedImmersion_toProjectiveSpaceSource", "AlgebraicGeometry.ChowModification.toProjectiveSpaceSource", "AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_liftBaseChange"]
-uses = ["cor-chow-lemma-proper", "def-nagata-affine-proj", "def-nagata-projective-space-base-change", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-diagonal-base-change", "lemma-nagata-projective-space-base-change-pullback", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-weil-pbc-chow-factorization", "thm-chow-lemma"]
+uses = ["cor-chow-lemma-proper", "def-nagata-affine-proj", "def-nagata-projective-space-base-change", "lem-weil-pbc-closed-immersion-from-composite", "lemma-nagata-projective-space-base-change-pullback", "lemma-weil-pbc-chow-factorization", "thm-chow-lemma"]
 +++
 Let $\iota_Y:X'\hookrightarrow\mathbf P^n_Y$ be the closed immersion and
 $\pi:X'\to X$ the Chow modification. Then

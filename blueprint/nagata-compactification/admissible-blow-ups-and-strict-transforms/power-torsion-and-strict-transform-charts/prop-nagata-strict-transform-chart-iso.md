@@ -2,7 +2,7 @@
 id = "prop-nagata-strict-transform-chart-iso"
 kind = "theorem"
 title = "Affine strict-transform chart formula"
-order = 419
+order = 423
 tags = ["latex:proposition"]
 uses = ["def-nagata-strict-transform-chart-comparison", "lemma-nagata-strict-chart-map-kernel", "lemma-nagata-strict-chart-map-surjective"]
 +++

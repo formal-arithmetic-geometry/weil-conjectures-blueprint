@@ -2,9 +2,9 @@
 id = "lemma-nagata-finite-type-ideal-extension-exists"
 kind = "lemma"
 title = "Existence of a finite-type extension of an ideal"
-order = 388
+order = 391
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_le_comap_eq"]
-uses = ["def-nagata-extended-ideal", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-affine-image-kernel-flat", "lemma-nagata-affine-image-kernel-localization", "lemma-nagata-scheme-image-flat-base-change", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
+uses = ["def-nagata-extended-ideal", "lemma-nagata-dense-flat-pullback"]
 +++
 Let $X$ be quasi-compact and quasi-separated, let $W\subseteq X$ be a
 quasi-compact open, and let

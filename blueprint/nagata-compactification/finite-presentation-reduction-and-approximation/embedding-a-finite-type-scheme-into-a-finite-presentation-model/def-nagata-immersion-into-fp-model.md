@@ -2,7 +2,7 @@
 id = "def-nagata-immersion-into-fp-model"
 kind = "definition"
 title = "Finite-presentation immersion model"
-order = 191
+order = 197
 uses = ["def-nagata-relative-stage-morphism-data", "lemma-nagata-relative-stage-morphism-data-exists"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

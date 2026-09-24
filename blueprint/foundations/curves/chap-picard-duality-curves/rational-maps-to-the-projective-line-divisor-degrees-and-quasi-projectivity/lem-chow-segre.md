@@ -2,9 +2,9 @@
 id = "lem-chow-segre"
 kind = "lemma"
 title = "The Segre embedding is a closed immersion"
-order = 2224
+order = 2226
 lean = ["AlgebraicGeometry.ProjectiveSpace.exists_isClosedImmersion_pi", "AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_segre", "AlgebraicGeometry.ProjectiveSpace.isProper_pi_hom"]
-uses = ["def-chow-segre", "def-weil-pbc-scheme-conventions"]
+uses = ["def-chow-segre", "def-nagata-affine-proj", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions", "lemma-nagata-projective-space-base-change-proper", "prop-nagata-proj-standard-open"]
 +++
 The morphism $s$ of [def-chow-segre] is a closed immersion. Consequently,
 for index sets $n_1,\dots,n_m$ there are an index set $N$ and a closed

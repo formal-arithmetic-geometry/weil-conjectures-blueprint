@@ -2,7 +2,7 @@
 id = "lem-galois-object-categorical"
 kind = "lemma"
 title = "Galois covers are the connected Galois objects"
-order = 2079
+order = 2081
 uses = ["def-galois-category", "def-galois-fibre-functor", "def-galois-object", "lem-fet-galois-category", "lem-galois-axioms"]
 +++
 Let $Y$ be connected with a geometric point $\bar y$. Then a finite

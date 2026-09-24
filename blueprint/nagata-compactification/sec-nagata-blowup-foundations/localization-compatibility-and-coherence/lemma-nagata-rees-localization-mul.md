@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-localization-mul"
 kind = "lemma"
 title = "Iterated localization coherence"
-order = 290
+order = 294
 uses = ["prop-nagata-rees-localization"]
 +++
 **Status.** Bypassed by the formalized route: the affine blow-up and its

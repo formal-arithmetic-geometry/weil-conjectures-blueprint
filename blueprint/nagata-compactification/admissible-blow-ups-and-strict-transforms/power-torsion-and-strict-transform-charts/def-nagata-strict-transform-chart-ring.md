@@ -2,7 +2,7 @@
 id = "def-nagata-strict-transform-chart-ring"
 kind = "definition"
 title = "Affine strict-transform chart ring"
-order = 411
+order = 415
 uses = ["def-nagata-power-torsion", "def-nagata-strict-transform-basechange-chart-ring"]
 +++
 **Status.** Bypassed by the formalized route: the strict transform is

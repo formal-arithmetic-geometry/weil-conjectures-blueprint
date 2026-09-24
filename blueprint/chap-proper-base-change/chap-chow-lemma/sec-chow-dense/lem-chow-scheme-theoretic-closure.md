@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Scheme-theoretic closure of a dense open"
 order = 617
 lean = ["AlgebraicGeometry.Scheme.Opens.iInf_preimage_imageι", "AlgebraicGeometry.Scheme.Opens.iSup_preimage_imageι_eq_top", "AlgebraicGeometry.Scheme.Opens.isAffineOpen_preimage_imageι", "AlgebraicGeometry.Scheme.Opens.isIso_morphismRestrict_imageι", "AlgebraicGeometry.Scheme.Opens.isSchemeTheoreticallyDominant_preimage_imageι", "AlgebraicGeometry.Scheme.Opens.surjective_imageι_ι"]
-uses = ["def-nagata-dense-compactification", "def-nagata-extended-ideal", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
+uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++
 Let $X$ be a scheme and let $U\subseteq X$ be a dense open subscheme such that
 the inclusion $u\colon U\to X$ is quasi-compact and quasi-separated. Let

@@ -2,7 +2,7 @@
 id = "def-sc-kahler-differentials"
 kind = "definition"
 title = "Kähler differentials and the canonical sheaf of a smooth curve"
-order = 2185
+order = 2187
 uses = ["def-sc-curves"]
 +++
 Let $C$ be a smooth curve over $k$.

@@ -2,9 +2,9 @@
 id = "lemma-nagata-scheme-image-restrict-open"
 kind = "lemma"
 title = "Restriction of a scheme-theoretic image to an open target"
-order = 153
+order = 171
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_morphismRestrict"]
-uses = ["def-nagata-scheme-theoretic-image", "lemma-nagata-affine-image-kernel-flat", "lemma-nagata-affine-image-kernel-localization", "lemma-nagata-scheme-image-flat-base-change"]
+uses = ["def-nagata-extended-ideal", "def-nagata-scheme-theoretic-image", "lemma-nagata-dense-flat-pullback"]
 +++
 Let $g\colon T\to Y$ be quasi-compact and quasi-separated, let
 $W\subseteq Y$ be open, let $T_W=T\times_YW$, and let
@@ -23,7 +23,7 @@ On an affine open $V=\operatorname{Spec}(A)\subseteq Y$, the image ideal is
 the kernel of
 $A\to\Gamma(T\times_YV,\mathcal O)$. On every principal open
 $D(s)\subseteq V\cap W$,
-[lemma-nagata-affine-image-kernel-localization] identifies the image
+[lemma-nagata-dense-flat-pullback] identifies the image
 kernel of the restricted morphism with the localization of this ideal.
 The declaration
 `AlgebraicGeometry.Scheme.IdealSheafData.ideal_comap_of_isOpenImmersion`

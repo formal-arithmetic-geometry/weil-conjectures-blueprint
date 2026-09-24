@@ -2,7 +2,7 @@
 id = "lem-sc-brauer-injectivity"
 kind = "lemma"
 title = "Brauer classes are determined by the generic fibre"
-order = 2248
+order = 2250
 uses = ["lem-sc-divisor-exact-sequence", "lem-sc-point-z-cohomology"]
 +++
 Let $X$ be a smooth proper scheme over a field $k$. The

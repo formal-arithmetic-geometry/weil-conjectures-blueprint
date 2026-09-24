@@ -2,9 +2,9 @@
 id = "lemma-nagata-conrad-schematically-dense-blowup"
 kind = "lemma"
 title = "An admissible blow-up making the open scheme-theoretically dense"
-order = 450
+order = 460
 lean = ["AlgebraicGeometry.IsAdmissible.exists_comp_isSchemeTheoreticallyDominant_preimage", "AlgebraicGeometry.exists_isAdmissible_isSchemeTheoreticallyDominant_preimage"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-constructible-closed-support", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-qc-open-complement-ideal", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-constructible-closed-support", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
 Let $X$ be qcqs and let $U\subseteq X$ be a quasi-compact open. There is a
 $U$-admissible blow-up $X_1\to X$ in which $U$ is scheme-theoretically

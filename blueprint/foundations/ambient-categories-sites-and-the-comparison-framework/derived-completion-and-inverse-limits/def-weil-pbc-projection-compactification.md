@@ -2,8 +2,9 @@
 id = "def-weil-pbc-projection-compactification"
 kind = "definition"
 title = "Chosen compactification and compact-support image"
-order = 1354
+order = 1356
 lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactification"]
+uses = ["def-nagata-compactification"]
 +++
 Let $f:X\to Y$ admit a chosen compactification
 

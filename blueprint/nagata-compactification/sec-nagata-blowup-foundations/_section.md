@@ -2,7 +2,7 @@
 id = "sec-nagata-blowup-foundations"
 kind = "section"
 title = "Construction of blow-ups from Rees algebras"
-order = 235
+order = 261
 +++
 This section expands the blow-up package down to the algebraic and gluing
 lemmas needed by Lean. The later Nagata argument only uses the public

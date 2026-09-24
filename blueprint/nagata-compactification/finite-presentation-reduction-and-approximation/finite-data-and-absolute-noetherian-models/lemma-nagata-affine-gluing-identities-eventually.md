@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-gluing-identities-eventually"
 kind = "lemma"
 title = "The selected finite-stage datum satisfies the gluing axioms"
-order = 178
+order = 186
 uses = ["def-nagata-affine-gluing-valid-stage", "lemma-nagata-affine-gluing-coefficients-descend", "lemma-nagata-directed-finite-upper-bound"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

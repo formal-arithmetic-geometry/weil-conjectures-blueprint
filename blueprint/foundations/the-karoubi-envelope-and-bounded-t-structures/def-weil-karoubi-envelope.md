@@ -2,7 +2,7 @@
 id = "def-weil-karoubi-envelope"
 kind = "definition"
 title = "Karoubi envelope"
-order = 1101
+order = 1102
 +++
 For an additive category $\mathcal T$, the *Karoubi envelope*
 $\Kar(\mathcal T)$ has objects $(K,e)$, where $K\in\mathcal T$ and

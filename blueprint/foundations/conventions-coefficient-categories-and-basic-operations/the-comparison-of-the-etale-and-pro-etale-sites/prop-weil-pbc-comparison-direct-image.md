@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-comparison-direct-image"
 kind = "theorem"
 title = "Comparison direct image"
-order = 1402
+order = 1409
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-basis-derived-detection", "lem-weil-pbc-comparison-global-cohomology", "lem-weil-pbc-comparison-injective-acyclicity", "lem-weil-pbc-comparison-pullback", "lem-weil-pbc-comparison-sections", "lem-weil-pbc-derived-cohomology-continuity", "lem-weil-pbc-etale-restriction-injectives", "lem-weil-pbc-proetale-restriction-injectives", "prop-weil-pbc-inverse-image-exact", "prop-weil-pbc-proetale-constant-exact"]
 tags = ["latex:proposition"]
 +++

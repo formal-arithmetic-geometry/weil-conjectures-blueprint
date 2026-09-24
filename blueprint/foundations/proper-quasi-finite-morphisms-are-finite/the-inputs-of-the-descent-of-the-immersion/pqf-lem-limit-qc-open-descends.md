@@ -2,7 +2,7 @@
 id = "pqf-lem-limit-qc-open-descends"
 kind = "lemma"
 title = "Quasi-compact opens of a filtered limit descend"
-order = 2122
+order = 2124
 uses = ["def-weil-pbc-scheme-conventions", "pqf-lem-qs-intersection-qc"]
 +++
 Let $S=\varprojlim_{i\in I}S_i$ be a filtered limit of

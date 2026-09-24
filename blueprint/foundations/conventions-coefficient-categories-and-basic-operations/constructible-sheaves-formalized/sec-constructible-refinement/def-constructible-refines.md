@@ -2,7 +2,7 @@
 id = "def-constructible-refines"
 kind = "definition"
 title = "Refinement"
-order = 1457
+order = 1462
 lean = ["AlgebraicGeometry.Scheme.Stratification.Refines"]
 uses = ["def-constructible-stratification"]
 +++

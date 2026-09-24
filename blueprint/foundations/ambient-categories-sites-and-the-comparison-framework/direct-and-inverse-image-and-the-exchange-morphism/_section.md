@@ -2,8 +2,8 @@
 id = "direct-and-inverse-image-and-the-exchange-morphism"
 kind = "section"
 title = "Direct and inverse image and the exchange morphism"
-order = 1190
-uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-cohomology-resolution-independent", "prop-weil-pbc-geometric-stalks-exact", "prop-weil-pbc-kinjective-resolutions-exist"]
+order = 1193
+uses = ["def-kun-separably-closed", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-scheme-conventions", "lemma-openclosed-point-ulift", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-cohomology-resolution-independent", "prop-weil-pbc-geometric-stalks-exact", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 The two functors and the comparison map that the whole proper-base-change
 question is about. Direct image [def-weil-pbc-direct-image]; inverse image

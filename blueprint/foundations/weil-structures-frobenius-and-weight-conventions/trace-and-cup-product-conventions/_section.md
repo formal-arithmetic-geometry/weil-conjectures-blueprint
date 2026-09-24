@@ -2,7 +2,7 @@
 id = "trace-and-cup-product-conventions"
 kind = "section"
 title = "Trace and cup-product conventions"
-order = 1957
+order = 1959
 +++
 The Poincare duality data, fixed as a convention rather than proved here: an
 orientation isomorphism $\eta_X:Ra_X^!\Ql\xrightarrow{\sim}(\Ql)_X(d)[2d]$

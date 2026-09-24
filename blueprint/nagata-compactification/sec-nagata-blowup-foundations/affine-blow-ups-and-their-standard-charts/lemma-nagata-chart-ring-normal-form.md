@@ -2,7 +2,7 @@
 id = "lemma-nagata-chart-ring-normal-form"
 kind = "lemma"
 title = "Normal form in a chart algebra"
-order = 273
+order = 277
 uses = ["def-nagata-blowup-chart-ring"]
 +++
 **Status.** Bypassed by the formalized route: the affine blow-up and its

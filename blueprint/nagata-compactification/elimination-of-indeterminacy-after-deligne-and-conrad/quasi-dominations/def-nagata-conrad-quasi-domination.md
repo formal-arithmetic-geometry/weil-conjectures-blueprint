@@ -1,8 +1,8 @@
 +++
 id = "def-nagata-conrad-quasi-domination"
 kind = "definition"
-title = "Quasi-domination, [ConradNagata]"
-order = 446
+title = "Quasi-domination (Conrad)"
+order = 453
 +++
 **Status.** Bypassed by the formalized route: quasi-dominations are not
 introduced in Lean. The extension statements are proved directly from

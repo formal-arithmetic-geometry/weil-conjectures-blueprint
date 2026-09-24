@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-derived-inverse-limit-9"
 kind = "remark"
 title = "Pointer to the computation of the derived inverse limit"
-order = 1328
+order = 1330
 uses = ["def-weil-derived-limit", "def-weil-pbc-derived-inverse-limit", "prop-weil-pbc-derived-inverse-limit-computation", "prop-weil-pbc-rlim-functoriality"]
 +++
 In the notation of [def-weil-pbc-derived-inverse-limit], the following holds.

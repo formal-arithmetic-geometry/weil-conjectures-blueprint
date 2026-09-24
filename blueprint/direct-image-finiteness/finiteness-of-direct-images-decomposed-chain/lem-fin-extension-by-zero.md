@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Extension by zero preserves constructibility"
 order = 3198
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.openImmersionLowerShriek"]
-uses = ["def-constructible-constant", "def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "def-weil-pbc-constructible-complexes", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "lemma-nagata-diagonal-base-change", "lemma-nagata-localization-ideal-pow", "lemma-openclosed-vanishing-lowershriek", "prop-constructible-open-closed", "rem-ptr-pc-separably-closed-1", "sbc-def-coefficient-conventions"]
+uses = ["def-constructible-constant", "def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "def-kun-separably-closed", "def-weil-pbc-constructible-complexes", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "lemma-openclosed-vanishing-lowershriek", "prop-constructible-open-closed", "sbc-def-coefficient-conventions"]
 +++
 Let $X$ be of finite type over $k$, let $j:U\hookrightarrow X$ be an
 open immersion, and let $F$

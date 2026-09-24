@@ -2,7 +2,7 @@
 id = "def-weil-size-convention"
 kind = "definition"
 title = "Size convention"
-order = 1176
+order = 1174
 +++
 Fix Grothendieck universes $\mathcal U\in\mathcal V$ containing the schemes
 and coefficient rings under consideration. Replace every site by a

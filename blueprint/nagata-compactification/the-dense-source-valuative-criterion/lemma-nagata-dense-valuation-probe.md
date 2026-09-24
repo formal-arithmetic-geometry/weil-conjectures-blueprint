@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properties of the valuation probe"
 order = 522
 lean = ["AlgebraicGeometry.ValuativeCommSqWithPt.ofIsDominant"]
-uses = ["def-nagata-dense-valuation-probe", "lemma-nagata-dense-valuation-probe-exists", "lemma-nagata-local-domain-valuation-dominates"]
+uses = ["def-nagata-dense-valuation-probe"]
 +++
 The maps in $\mathsf{VP}(h,z)$ form a commutative diagram
 
@@ -22,4 +22,4 @@ and the closed point of $\operatorname{Spec}(A'_{h,z})$ maps to $z$.
 
 These are exactly the fields of the witness selected in
 [def-nagata-dense-valuation-probe]; nonemptiness is
-[lemma-nagata-dense-valuation-probe-exists].
+[def-nagata-dense-valuation-probe].

@@ -2,7 +2,7 @@
 id = "lemma-nagata-power-torsion-localization"
 kind = "lemma"
 title = "Localization of power torsion"
-order = 408
+order = 412
 lean = ["Submodule.localized'_powTorsion"]
 uses = ["def-nagata-power-torsion", "lemma-nagata-power-torsion-kernel-localization", "lemma-nagata-power-torsion-submodule"]
 +++

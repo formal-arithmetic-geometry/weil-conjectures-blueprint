@@ -2,7 +2,7 @@
 id = "def-weil-pbc-completed-pullback"
 kind = "definition"
 title = "Completed pullback"
-order = 1347
+order = 1349
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-complete-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-proetale-operations"]
 +++
 For $g:Y'\to Y$ define

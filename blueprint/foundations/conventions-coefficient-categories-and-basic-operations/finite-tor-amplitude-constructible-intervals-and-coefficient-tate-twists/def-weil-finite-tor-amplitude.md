@@ -2,7 +2,7 @@
 id = "def-weil-finite-tor-amplitude"
 kind = "definition"
 title = "Finite Tor amplitude"
-order = 1642
+order = 1648
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-rationalization-karoubi"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf

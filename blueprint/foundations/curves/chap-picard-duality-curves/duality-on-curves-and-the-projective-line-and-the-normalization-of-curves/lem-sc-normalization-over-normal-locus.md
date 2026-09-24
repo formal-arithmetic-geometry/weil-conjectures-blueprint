@@ -2,7 +2,7 @@
 id = "lem-sc-normalization-over-normal-locus"
 kind = "lemma"
 title = "The normalization over the normal locus"
-order = 2219
+order = 2221
 uses = ["def-sc-normalization"]
 +++
 Let $X$ be an integral scheme of finite type over a field $k$

@@ -2,7 +2,7 @@
 id = "pqf-lem-qf-finitefibres"
 kind = "lemma"
 title = "Quasi-finite = finite type + quasi-compact + finite fibres"
-order = 2098
+order = 2100
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-quasifinite"]
 +++
 Let $f:X\to S$ be a morphism of schemes. Then $f$ is

@@ -2,7 +2,7 @@
 id = "closed-direct-image-and-the-ambient-open-closed-recollement"
 kind = "section"
 title = "Closed direct image and the ambient open--closed recollement"
-order = 1769
+order = 1931
 uses = ["def-exc-closed-site-lift", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-open-closed-recollement", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-proetale-operations", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties", "lem-exc-closed-inverse-image-formula", "lem-exc-closed-lift-reduction", "lem-exc-closed-site-adjunction", "lem-weil-extension-by-zero-adjunction", "lem-weil-extension-by-zero-exact", "lem-weil-pbc-ind-etale-basis", "lem-weil-pbc-proetale-restriction-injectives", "prop-weil-pbc-kinjective-resolutions-exist", "prop-weil-pbc-proetale-constant-exact", "prop-weil-pbc-proetale-constant-ring-map"]
 +++
 The presheaf formula of the previous section is turned into the recollement

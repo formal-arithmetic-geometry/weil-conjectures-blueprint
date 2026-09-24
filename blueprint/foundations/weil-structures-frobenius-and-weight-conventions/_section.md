@@ -2,7 +2,7 @@
 id = "weil-structures-frobenius-and-weight-conventions"
 kind = "section"
 title = "Weil structures, Frobenius, and weight conventions"
-order = 1952
+order = 1954
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties"]
 +++
 The arithmetic vocabulary in which the Weil conjectures are stated: the local

@@ -2,7 +2,7 @@
 id = "def-sc-picard-group"
 kind = "definition"
 title = "The Picard group"
-order = 2149
+order = 2151
 uses = ["def-sc-curves", "def-sc-invertible-module"]
 +++
 Let $C$ be a curve. The

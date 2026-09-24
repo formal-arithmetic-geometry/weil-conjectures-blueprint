@@ -2,7 +2,7 @@
 id = "lem-sc-proper-affine-finite"
 kind = "lemma"
 title = "Proper affine curves are finite"
-order = 2234
+order = 2236
 uses = ["def-sc-curves", "lem-weil-pbc-proper-closed-image", "pqf-lem-image-proper"]
 +++
 Let $C$ be a curve over $k$ which is

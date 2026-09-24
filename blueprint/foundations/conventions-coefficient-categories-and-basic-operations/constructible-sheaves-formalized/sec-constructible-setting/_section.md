@@ -2,7 +2,7 @@
 id = "sec-constructible-setting"
 kind = "section"
 title = "Setting"
-order = 1438
+order = 1439
 +++
 We keep the conventions of [etale-sheaves-along-a-complementary-open-closed-pair]: schemes live in a
 universe $u$; the coefficient category $\mathcal A$ is Grothendieck abelian

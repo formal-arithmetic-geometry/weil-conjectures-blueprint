@@ -2,7 +2,7 @@
 id = "def-nagata-scheme-theoretic-closure"
 kind = "definition"
 title = "Scheme-theoretic closure"
-order = 145
+order = 148
 lean = ["AlgebraicGeometry.Scheme.Hom.image"]
 uses = ["def-nagata-scheme-theoretic-image"]
 +++

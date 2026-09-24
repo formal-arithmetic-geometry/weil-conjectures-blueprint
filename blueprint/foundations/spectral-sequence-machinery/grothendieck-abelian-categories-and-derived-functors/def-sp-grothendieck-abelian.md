@@ -2,7 +2,7 @@
 id = "def-sp-grothendieck-abelian"
 kind = "definition"
 title = "Grothendieck abelian categories"
-order = 1116
+order = 1117
 uses = ["def-sp-abelian"]
 +++
 A Grothendieck abelian category is an *abelian category* [def-sp-abelian]

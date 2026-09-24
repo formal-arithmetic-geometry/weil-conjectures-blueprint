@@ -2,7 +2,7 @@
 id = "lem-sc-p1-twist-tensor"
 kind = "lemma"
 title = "Tensor powers of $\\mathcal O(1)$"
-order = 2193
+order = 2195
 uses = ["def-sc-p1-standard", "lem-sc-p1-twist-exists"]
 +++
 Let $k$ be a field and $d\geq0$. With the twists of

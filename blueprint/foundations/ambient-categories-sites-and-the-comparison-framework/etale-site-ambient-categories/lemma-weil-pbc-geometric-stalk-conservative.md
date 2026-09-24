@@ -2,9 +2,9 @@
 id = "lemma-weil-pbc-geometric-stalk-conservative"
 kind = "lemma"
 title = "Conservativity of geometric stalks"
-order = 1170
+order = 1177
 lean = ["AlgebraicGeometry.Scheme.isIso_of_isIso_sheafFiber_map"]
-uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "prop-weil-pbc-geometric-stalks-exact"]
+uses = ["def-kun-separably-closed", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "lemma-openclosed-point-ulift", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 A morphism of etale abelian sheaves is an isomorphism if and only if it is an
 isomorphism at every geometric stalk.

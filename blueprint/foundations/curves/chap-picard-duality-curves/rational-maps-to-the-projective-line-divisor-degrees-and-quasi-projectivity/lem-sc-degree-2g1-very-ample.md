@@ -2,7 +2,7 @@
 id = "lem-sc-degree-2g1-very-ample"
 kind = "lemma"
 title = "Line bundles of large degree are very ample"
-order = 2241
+order = 2243
 uses = ["def-sc-ample", "def-sc-curves", "def-sc-genus", "def-sc-pic0", "lem-sc-canonical-degree", "lem-sc-dim0-finite", "lem-sc-negative-degree-no-sections", "lem-sc-riemann-roch", "thm-pqf-finite-iff-proper-finite-fibres", "thm-sc-serre-duality-curve"]
 +++
 Let $C$ be a proper smooth curve of

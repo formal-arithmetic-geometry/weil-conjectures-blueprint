@@ -2,7 +2,7 @@
 id = "cor-galois-cofinal"
 kind = "theorem"
 title = "Galois covers are cofinal and pro-represent the fibre functor"
-order = 2082
+order = 2084
 tags = ["latex:corollary"]
 uses = ["def-galois-object", "lem-fet-galois-category", "lem-galois-aut-profinite", "lem-galois-object-exists", "lem-galois-products", "lem-galois-transitive", "thm-galois-fundamental"]
 +++

@@ -2,9 +2,9 @@
 id = "lemma-nagata-finite-presentation-descends"
 kind = "lemma"
 title = "Property of finite-presentation descent, [stacks-project]"
-order = 226
+order = 232
 lean = ["AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation"]
-uses = ["def-nagata-finite-presentation-descent", "def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-relative-gluing-axioms-eventually", "lemma-nagata-relative-gluing-datum-descends", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
+uses = ["def-nagata-finite-presentation-descent", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-relative-gluing-axioms-eventually", "lemma-nagata-relative-gluing-datum-descends"]
 +++
 The constructed
 $X^{\mathrm{desc}}_{\lambda_{\mathrm{rel}}}\to S_{\lambda_{\mathrm{rel}}}$ is of finite presentation, and

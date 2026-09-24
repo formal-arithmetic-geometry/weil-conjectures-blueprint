@@ -2,7 +2,7 @@
 id = "def-nagata-affine-gluing-valid-stage"
 kind = "definition"
 title = "Cocycle-valid stage of an affine gluing presentation"
-order = 177
+order = 185
 uses = ["def-nagata-affine-gluing-coefficient-stage", "def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

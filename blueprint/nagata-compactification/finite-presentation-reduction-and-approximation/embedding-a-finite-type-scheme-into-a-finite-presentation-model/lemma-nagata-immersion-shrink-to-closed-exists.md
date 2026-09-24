@@ -2,8 +2,9 @@
 id = "lemma-nagata-immersion-shrink-to-closed-exists"
 kind = "lemma"
 title = "Existence of a quasi-compact closed-immersion neighbourhood"
-order = 193
+order = 199
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isCompact_isClosedImmersion"]
+uses = ["lem-weil-pbc-closed-immersion-from-composite"]
 +++
 Let $i\colon X\to Y$ be an immersion with $X$ quasi-compact. There is a
 quasi-compact open $W\subseteq Y$ containing $i(X)$ such that $X\to W$ is a

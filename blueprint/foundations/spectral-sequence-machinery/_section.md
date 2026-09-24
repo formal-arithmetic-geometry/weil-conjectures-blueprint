@@ -2,7 +2,7 @@
 id = "spectral-sequence-machinery"
 kind = "section"
 title = "Spectral sequence machinery"
-order = 1113
+order = 1114
 +++
 The spectral-sequence devices used by the proper-base-change chapter, built
 from scratch so that nothing there rests on an unstated convention. The

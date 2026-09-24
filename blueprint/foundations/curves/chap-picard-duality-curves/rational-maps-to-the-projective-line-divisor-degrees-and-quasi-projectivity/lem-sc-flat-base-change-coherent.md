@@ -2,7 +2,7 @@
 id = "lem-sc-flat-base-change-coherent"
 kind = "lemma"
 title = "Flat base change for coherent cohomology"
-order = 2237
+order = 2239
 uses = ["lem-sc-cech-spectral"]
 +++
 Let $X$ be a proper scheme over a field $k$, $k\to k'$ a flat

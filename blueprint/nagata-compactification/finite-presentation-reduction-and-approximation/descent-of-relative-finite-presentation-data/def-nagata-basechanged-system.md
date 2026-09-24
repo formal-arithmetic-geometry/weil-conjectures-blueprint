@@ -2,7 +2,7 @@
 id = "def-nagata-basechanged-system"
 kind = "definition"
 title = "Base-changed system over a chosen stage"
-order = 208
+order = 215
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and
 Noetherian descent is done in one step by

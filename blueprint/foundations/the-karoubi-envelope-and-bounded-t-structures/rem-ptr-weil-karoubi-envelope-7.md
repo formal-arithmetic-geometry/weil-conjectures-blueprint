@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-karoubi-envelope-7"
 kind = "remark"
 title = "The two inputs of the bounded-t-structure argument"
-order = 1105
+order = 1106
 uses = ["def-weil-karoubi-envelope", "lem-weil-karoubi-envelope-fully-faithful", "lem-weil-karoubi-envelope-idempotent-complete"]
 +++
 In the notation of [def-weil-karoubi-envelope], the following holds. The

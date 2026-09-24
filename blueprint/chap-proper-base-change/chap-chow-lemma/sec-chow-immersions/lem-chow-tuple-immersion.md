@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Tuples of morphisms with one immersion"
 order = 623
 lean = ["AlgebraicGeometry.isImmersion_left_pi_lift"]
-uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Let $S$ be a scheme, let $Y_1,\dots,Y_m$ be schemes over $S$ and let
 $f_i\colon T\to Y_i$ be morphisms of $S$-schemes. If some $f_k$ is an

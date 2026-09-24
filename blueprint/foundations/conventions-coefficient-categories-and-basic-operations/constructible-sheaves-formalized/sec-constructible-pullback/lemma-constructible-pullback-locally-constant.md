@@ -2,7 +2,7 @@
 id = "lemma-constructible-pullback-locally-constant"
 kind = "lemma"
 title = "Pullback of locally constant sheaves"
-order = 1449
+order = 1450
 lean = ["AlgebraicGeometry.Scheme.Etale.overEquiv", "AlgebraicGeometry.Scheme.IsLocallyConstantSheaf.upperStar", "AlgebraicGeometry.Scheme.isConstant_over_iff_upperStar"]
 uses = ["def-constructible-constant", "def-constructible-locally-constant", "lemma-constructible-pullback-constant"]
 +++

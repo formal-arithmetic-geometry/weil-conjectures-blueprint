@@ -2,7 +2,7 @@
 id = "def-nagata-morphism-descent"
 kind = "definition"
 title = "Finite-stage model of a morphism"
-order = 216
+order = 222
 uses = ["def-nagata-affine-fp-descent", "def-nagata-directed-finite-upper-bound", "def-nagata-qc-open-descent", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

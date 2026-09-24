@@ -2,7 +2,7 @@
 id = "def-weil-pbc-etale-cohomology"
 kind = "definition"
 title = "Etale cohomology of sheaves"
-order = 1166
+order = 1167
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-kinjective-resolutions"]
 +++
 Let $T$ be a scheme and let $F$ be an etale abelian sheaf on the small etale

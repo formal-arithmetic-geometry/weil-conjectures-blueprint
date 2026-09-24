@@ -2,7 +2,7 @@
 id = "def-weil-pbc-intrinsic-koszul-completion"
 kind = "definition"
 title = "Intrinsic Koszul completion"
-order = 1343
+order = 1345
 uses = ["def-weil-pbc-adic-derived-inverse-limit"]
 +++
 Let

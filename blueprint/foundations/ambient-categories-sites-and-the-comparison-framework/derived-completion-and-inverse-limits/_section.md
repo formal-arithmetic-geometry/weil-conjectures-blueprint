@@ -2,8 +2,8 @@
 id = "derived-completion-and-inverse-limits"
 kind = "section"
 title = "Derived completion and inverse limits"
-order = 1323
-uses = ["def-weil-derived-limit", "def-weil-pbc-cartesian-square", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-proetale-site", "lem-weil-derived-limit-existence"]
+order = 1325
+uses = ["def-nagata-compactification", "def-weil-derived-limit", "def-weil-pbc-cartesian-square", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-proetale-site", "lem-weil-derived-limit-existence"]
 +++
 The adic coefficient machinery: the tower category and its reduction tower
 [def-weil-pbc-adic-coefficient-datum], the sequential derived inverse limit

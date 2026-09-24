@@ -2,7 +2,7 @@
 id = "lemma-nagata-homogeneous-away-to-chart-surjective"
 kind = "lemma"
 title = "Surjectivity of the chart map"
-order = 277
+order = 281
 uses = ["lemma-nagata-chart-ring-normal-form", "lemma-nagata-homogeneous-away-to-chart"]
 +++
 **Status.** Bypassed by the formalized route: the affine blow-up and its

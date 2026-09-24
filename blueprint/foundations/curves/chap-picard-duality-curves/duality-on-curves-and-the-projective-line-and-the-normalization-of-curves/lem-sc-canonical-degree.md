@@ -2,7 +2,7 @@
 id = "lem-sc-canonical-degree"
 kind = "lemma"
 title = "Degree of the canonical bundle"
-order = 2217
+order = 2219
 uses = ["def-sc-curves"]
 +++
 Let $k$ be algebraically closed and $C$ a

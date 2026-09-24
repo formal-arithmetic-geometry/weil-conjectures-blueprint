@@ -2,7 +2,7 @@
 id = "def-sc-p1-standard"
 kind = "definition"
 title = "The standard affine cover and the twists on $\\mathbf P^1_k$"
-order = 2190
+order = 2192
 +++
 Let $k$ be a field and
 $\mathbf P^1_k=\operatorname{Proj}k[x_0,x_1]$. The

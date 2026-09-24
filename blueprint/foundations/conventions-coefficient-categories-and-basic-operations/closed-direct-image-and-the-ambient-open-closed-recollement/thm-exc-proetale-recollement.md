@@ -2,7 +2,7 @@
 id = "thm-exc-proetale-recollement"
 kind = "theorem"
 title = "The ambient open-closed derived triangle"
-order = 1950
+order = 1952
 uses = ["def-weil-open-closed-recollement", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions", "lem-exc-proetale-closed-exact", "lem-weil-extension-by-zero-exact", "prop-weil-pbc-proetale-constant-exact", "thm-exc-proetale-open-closed-exact"]
 +++
 For a closed immersion with quasi-compact complementary open immersion, the

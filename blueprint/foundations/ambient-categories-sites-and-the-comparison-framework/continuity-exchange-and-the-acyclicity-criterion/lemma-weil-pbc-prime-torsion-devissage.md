@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-prime-torsion-devissage"
 kind = "lemma"
 title = "Prime-torsion devissage"
-order = 1316
+order = 1318
 uses = ["lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-prime-factor-induction", "lemma-weil-pbc-torsion-filtered-union"]
 +++
 For a torsion sheaf $F$, write $F[n]=\ker(n:F\to F)$. Then

@@ -2,7 +2,7 @@
 id = "triangulated-coefficient-categories-detailed"
 kind = "section"
 title = "Triangulated coefficient categories"
-order = 1368
+order = 1370
 uses = ["def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 The finite-torsion stage of the coefficient tower. The ambient site is the

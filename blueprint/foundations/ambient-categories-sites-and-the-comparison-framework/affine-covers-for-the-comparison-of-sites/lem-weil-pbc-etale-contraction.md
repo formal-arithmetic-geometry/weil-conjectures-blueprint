@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-etale-contraction"
 kind = "lemma"
 title = "Strict henselian local rings in the etale contraction"
-order = 1280
+order = 1282
 uses = ["def-weil-pbc-etale-contraction", "def-weil-pbc-henselian-terminology", "def-weil-pbc-ind-etale-algebra", "lem-weil-pbc-etale-finite-data-descent", "lem-weil-pbc-ind-etale-stability"]
 +++
 The map $R\to R^{\mathrm e}$ is faithfully flat and ind-etale

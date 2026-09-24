@@ -2,7 +2,7 @@
 id = "punctual-complex-and-cohomological-weights"
 kind = "section"
 title = "Punctual, complex, and cohomological weights"
-order = 1958
+order = 1960
 uses = ["def-weil-finite-field-fiber"]
 +++
 The three weight notions, all relative to a fixed isomorphism

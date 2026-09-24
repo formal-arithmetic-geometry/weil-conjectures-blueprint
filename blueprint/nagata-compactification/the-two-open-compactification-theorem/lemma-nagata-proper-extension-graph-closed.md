@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Closed image of the proper extension graph"
 order = 547
 lean = ["AlgebraicGeometry.TwoOpenSide.isProper_graph"]
-uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-graph-extensions", "lemma-nagata-diagonal-base-change", "lemma-nagata-proper-to-separated-target", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
+uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-two-open-graph-extensions", "lemma-nagata-proper-to-separated-target"]
 +++
 The morphism
 

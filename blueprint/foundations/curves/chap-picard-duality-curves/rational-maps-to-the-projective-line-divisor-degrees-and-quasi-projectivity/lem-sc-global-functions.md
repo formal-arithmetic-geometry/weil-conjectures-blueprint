@@ -2,7 +2,7 @@
 id = "lem-sc-global-functions"
 kind = "lemma"
 title = "Global functions on a proper curve"
-order = 2235
+order = 2237
 uses = ["def-sc-curves", "lem-sc-morphism-from-function", "lem-sc-proper-affine-finite"]
 +++
 Let $k$ be algebraically closed and let $C$ be a

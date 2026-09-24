@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Closedness of the intermediate overlap"
 order = 551
 lean = ["AlgebraicGeometry.TwoOpenSide.isClosedImmersion_intermediateGraph"]
-uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-boundary-loci", "lemma-nagata-intermediate-overlap-constructible", "lemma-nagata-intermediate-overlap-specialization-closed", "lemma-nagata-proper-extension-graph-closed", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
+uses = ["def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-boundary-loci", "lemma-nagata-intermediate-overlap-constructible", "lemma-nagata-intermediate-overlap-specialization-closed", "lemma-nagata-proper-extension-graph-closed"]
 +++
 The canonical immersion
 

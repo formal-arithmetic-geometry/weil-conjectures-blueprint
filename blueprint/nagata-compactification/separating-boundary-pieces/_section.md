@@ -2,5 +2,5 @@
 id = "separating-boundary-pieces"
 kind = "section"
 title = "Separating boundary pieces"
-order = 483
+order = 490
 +++

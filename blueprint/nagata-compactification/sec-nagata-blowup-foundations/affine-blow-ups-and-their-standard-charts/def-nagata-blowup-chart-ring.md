@@ -2,7 +2,7 @@
 id = "def-nagata-blowup-chart-ring"
 kind = "definition"
 title = "Affine blow-up chart algebra"
-order = 272
+order = 276
 +++
 **Status.** Bypassed by the formalized route: the affine blow-up and its
 charts are the construction `AlgebraicGeometry.AffineBlowup`, with

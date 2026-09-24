@@ -2,7 +2,7 @@
 id = "def-sc-gm-torsor"
 kind = "definition"
 title = "$\\mathbf G_m$-torsors"
-order = 2150
+order = 2152
 uses = ["def-sc-curves"]
 +++
 Let $C$ be a curve. A

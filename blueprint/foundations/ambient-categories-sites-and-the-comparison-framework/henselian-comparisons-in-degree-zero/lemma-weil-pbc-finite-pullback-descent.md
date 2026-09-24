@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-pullback-descent"
 kind = "lemma"
 title = "Finite descent compatibility"
-order = 1305
+order = 1307
 uses = ["def-weil-pbc-finite-section-pullback", "lemma-weil-pbc-finite-pullback-closed-fibre", "lemma-weil-pbc-finite-pullback-composition"]
 +++
 Let $u:T'\to T$ be finite surjective. Suppose $s'\in(u^{-1}F)(T')$ is

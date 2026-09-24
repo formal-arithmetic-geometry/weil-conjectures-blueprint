@@ -2,7 +2,7 @@
 id = "pqf-lem-finite-integral-lft"
 kind = "lemma"
 title = "Finite morphisms are integral"
-order = 2106
+order = 2108
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A finite morphism of

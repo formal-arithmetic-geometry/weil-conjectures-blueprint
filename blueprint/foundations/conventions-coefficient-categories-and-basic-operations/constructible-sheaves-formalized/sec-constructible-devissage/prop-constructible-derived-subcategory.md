@@ -2,10 +2,10 @@
 id = "prop-constructible-derived-subcategory"
 kind = "theorem"
 title = "The constructible derived category"
-order = 1470
+order = 1475
 lean = ["AlgebraicGeometry.Etale.DerivedCategory.boundedConstructible_isTriangulated", "AlgebraicGeometry.Etale.DerivedCategory.constructibleHomology_isTriangulated", "DerivedCategory.homologyProperty_isTriangulated"]
 tags = ["latex:proposition"]
-uses = ["def-constructible-constant", "def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "thm-constructible-serre"]
+uses = ["def-constructible-constant", "def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "def-kun-separably-closed", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "thm-constructible-serre"]
 +++
 Let $\mathcal A=\mathrm{Mod}_\Lambda$ with $\Lambda$ a finite ring. The
 full subcategory $D^b_c(\et X)$ of the bounded derived category

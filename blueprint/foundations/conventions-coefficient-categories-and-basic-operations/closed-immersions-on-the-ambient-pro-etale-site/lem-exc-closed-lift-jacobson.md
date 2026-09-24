@@ -2,7 +2,7 @@
 id = "lem-exc-closed-lift-jacobson"
 kind = "lemma"
 title = "The closed ideal in the lifted algebra"
-order = 1420
+order = 1422
 uses = ["def-exc-ind-etale-closed-lift", "lem-exc-closed-lift-units"]
 +++
 For $C=H_A(\overline C)$ in [def-exc-ind-etale-closed-lift], the ideal $IC$

@@ -2,9 +2,9 @@
 id = "lemma-constructible-lowerstar-closed"
 kind = "lemma"
 title = "Pushforward along a closed immersion"
-order = 1468
+order = 1473
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.lowerStar_of_isClosedImmersion"]
-uses = ["def-constructible-constant", "def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "lemma-openclosed-point-ulift", "lemma-openclosed-stalk-lowerstar", "lemma-openclosed-vanishing-lowerstar", "lemma-weil-pbc-geometric-stalk-conservative", "prop-constructible-open-closed", "prop-openclosed-lowerstar-fully-faithful"]
+uses = ["def-constructible-constant", "def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "def-kun-separably-closed", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "lemma-openclosed-point-ulift", "lemma-openclosed-stalk-lowerstar", "lemma-openclosed-vanishing-lowerstar", "lemma-weil-pbc-geometric-stalk-conservative", "prop-constructible-open-closed", "prop-openclosed-lowerstar-fully-faithful"]
 +++
 If $\mathcal G\in\shv{\et Z}$ is constructible, then so is
 $i_*\mathcal G$.

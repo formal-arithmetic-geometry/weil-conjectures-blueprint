@@ -2,7 +2,7 @@
 id = "pqf-lem-affine-local-target"
 kind = "lemma"
 title = "Affineness is local on the target"
-order = 2110
+order = 2112
 uses = ["pqf-def-affine-morphism"]
 +++
 A morphism of schemes $f:X\to S$ is

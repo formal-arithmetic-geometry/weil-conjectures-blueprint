@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-image-ideal-qc"
 kind = "lemma"
 title = "Mathlib scheme-theoretic image interface"
-order = 139
+order = 142
 lean = ["AlgebraicGeometry.Scheme.Hom.image"]
 +++
 For a morphism $g\colon T\to Y$, Mathlib defines its scheme-theoretic image

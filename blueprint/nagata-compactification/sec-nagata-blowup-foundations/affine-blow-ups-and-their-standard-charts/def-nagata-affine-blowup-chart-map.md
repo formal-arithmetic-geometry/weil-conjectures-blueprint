@@ -2,9 +2,9 @@
 id = "def-nagata-affine-blowup-chart-map"
 kind = "definition"
 title = "Canonical affine blow-up chart morphism"
-order = 279
+order = 283
 lean = ["AlgebraicGeometry.AffineBlowup.chart"]
-uses = ["def-nagata-affine-blowup", "def-nagata-affine-proj", "def-nagata-homogeneous-away-to-chart", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-piece", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded"]
+uses = ["def-nagata-affine-blowup", "def-nagata-homogeneous-away-to-chart", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-piece", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded"]
 +++
 Define
 

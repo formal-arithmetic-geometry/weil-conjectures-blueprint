@@ -2,7 +2,7 @@
 id = "finite-presentation-reduction-and-approximation"
 kind = "section"
 title = "Finite-presentation reduction and approximation"
-order = 167
+order = 173
 +++
 The following constructions make the finite coefficient choices and all
 eventual assertions explicit; each stage is obtained from finitely many

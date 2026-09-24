@@ -2,8 +2,8 @@
 id = "constructible-sheaves-formalized"
 kind = "section"
 title = "Constructible sheaves on the étale site (formalized account)"
-order = 1437
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "lemma-openclosed-point-ulift", "lemma-openclosed-stalk-lowerstar", "lemma-openclosed-stalk-upperstar", "lemma-openclosed-vanishing-lowerstar", "lemma-weil-pbc-geometric-stalk-conservative", "prop-openclosed-lowerstar-fully-faithful", "prop-weil-pbc-geometric-stalks-exact", "thm-weil-pbc-universal-homeomorphism-invariance"]
+order = 1438
+uses = ["def-kun-separably-closed", "def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "lem-weil-pbc-closed-immersion-from-composite", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-openclosed-point-ulift", "lemma-openclosed-stalk-lowerstar", "lemma-openclosed-stalk-upperstar", "lemma-openclosed-vanishing-lowerstar", "lemma-weil-pbc-geometric-stalk-conservative", "prop-openclosed-lowerstar-fully-faithful", "prop-weil-pbc-geometric-stalks-exact", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 The Lean development's account of constructible étale sheaves: nearly all of
 it is formalized. The detailed route of this blueprint does not cite it; it
@@ -24,7 +24,7 @@ a scheme: the definitions, their stability under pullback, pushforward along
 a closed immersion and extension by zero along an open immersion, the
 open–closed dévissage, and the closure under kernels, cokernels and
 extensions. Everything is classical; the references are
-[SGA4] and the Stacks Project (Tags `03RW`–`03RZ`,
+SGA 4 and the Stacks Project (Tags `03RW`–`03RZ`,
 `05BE`, `095K`, `09YJ`). The statements are arranged
 in the order in which they are formalised, and the proofs are written at
 the level of detail of the Stacks Project.

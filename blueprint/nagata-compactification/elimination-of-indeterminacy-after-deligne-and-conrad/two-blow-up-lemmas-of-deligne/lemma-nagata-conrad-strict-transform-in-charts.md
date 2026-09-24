@@ -1,8 +1,8 @@
 +++
 id = "lemma-nagata-conrad-strict-transform-in-charts"
 kind = "lemma"
-title = "Strict transforms live in the charts of the other centre (Deligne, *Lemme* 0.2), [ConradNagata]"
-order = 452
+title = "Strict transforms live in the charts of the other centre (Deligne, *Lemme* 0.2) (Conrad)"
+order = 462
 uses = ["def-nagata-blowup-chart-ring", "def-nagata-strict-transform", "lemma-nagata-strict-transform-chart-closed", "prop-nagata-affine-blowup-chart-cover"]
 +++
 **Status.** Bypassed by the formalized route: Deligne's disjointness blow-up

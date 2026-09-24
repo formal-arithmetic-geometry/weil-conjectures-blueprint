@@ -1,10 +1,10 @@
 +++
 id = "lemma-nagata-conrad-quasi-affine-general"
 kind = "lemma"
-title = "Quasi-affine target, $U\\subseteq V$, [ConradNagata]"
-order = 469
+title = "Quasi-affine target, $U\\subseteq V$ (Conrad)"
+order = 476
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_of_isQuasiAffineHom_of_le"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-quasi-affine-morphism", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-case3-disjointness-reduction", "lemma-nagata-conrad-case3-smaller-base", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-quasi-affine-equal-opens", "lemma-nagata-diagonal-base-change", "lemma-nagata-extend-admissible-blowup", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-quasi-affine-morphism", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-case3-disjointness-reduction", "lemma-nagata-conrad-case3-smaller-base", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-quasi-affine-equal-opens", "lemma-nagata-extend-admissible-blowup", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
 Let $X$ be qcqs, let $U\subseteq V\subseteq X$ be quasi-compact open
 subschemes, let $Y$ be qcqs and let $p\colon Y\to X$ be separated,
@@ -60,7 +60,7 @@ $Y^{\circ}\times_{X^{\circ}}\widetilde X^{\circ}$; moreover the inverse image
 of $U$ in $\widetilde X^{\circ}$ is scheme-theoretically dense.
 
 Note that it is *not* necessary to replace $Y^{\circ}$ by the
-scheme-theoretic image of $f$ here, as [ConradNagata] does. That
+scheme-theoretic image of $f$ here, as Conrad does. That
 replacement is only used to make the graph closed in Step 5, and for that
 purpose the closed *subset* $\overline{f_1(U)}$ of $Y_1$ suffices.
 

@@ -1,8 +1,8 @@
 +++
 id = "lemma-nagata-conrad-morphism-is-quasi-domination"
 kind = "lemma"
-title = "A morphism on a dense open of a separated target is a quasi-domination of that open, [ConradNagata]"
-order = 447
+title = "A morphism on a dense open of a separated target is a quasi-domination of that open (Conrad)"
+order = 454
 uses = ["def-nagata-conrad-quasi-domination"]
 +++
 **Status.** Bypassed by the formalized route: quasi-dominations are not

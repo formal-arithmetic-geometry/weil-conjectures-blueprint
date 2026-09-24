@@ -2,9 +2,9 @@
 id = "lemma-nagata-conrad-dense-in-admissible-blowup"
 kind = "lemma"
 title = "Density in an admissible blow-up"
-order = 449
+order = 459
 lean = ["AlgebraicGeometry.IsAdmissible.dense_coe_preimage_blowupMap", "AlgebraicGeometry.IsAdmissible.dense_preimage_blowupMap_of_qcqs"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-scheme-theoretically-dense-open", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-scheme-theoretically-dense-open", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement", "thm-nagata-global-blowup-proper"]
 +++
 Let $X$ be qcqs, let $U\subseteq X$ be a dense quasi-compact open and let
 $\pi\colon\widetilde X=\operatorname{Bl}_{\mathcal I}(X)\to X$ be a

@@ -2,7 +2,7 @@
 id = "rational-coefficient-categories-and-finite-scalar-extensions"
 kind = "section"
 title = "Rational coefficient categories and finite scalar extensions"
-order = 1478
+order = 1483
 uses = ["def-weil-karoubi-envelope", "def-weil-pbc-bounded-constructible-complete"]
 +++
 Finite coefficient fields. The rational category is the raw scalar

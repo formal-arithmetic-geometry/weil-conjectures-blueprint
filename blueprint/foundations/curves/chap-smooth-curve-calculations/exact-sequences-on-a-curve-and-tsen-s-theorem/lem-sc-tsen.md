@@ -2,7 +2,7 @@
 id = "lem-sc-tsen"
 kind = "lemma"
 title = "Tsen's theorem"
-order = 2177
+order = 2179
 uses = ["def-sc-cr-field", "def-sc-curves", "def-sc-function-field", "lem-sc-c1-brauer-trivial", "lem-sc-c1-finite-extension"]
 +++
 Let $C$ be a curve over an

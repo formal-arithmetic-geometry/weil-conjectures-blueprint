@@ -2,9 +2,9 @@
 id = "def-nagata-extended-admissible-blowup"
 kind = "definition"
 title = "Extension construction for an admissible blow-up"
-order = 441
+order = 449
 lean = ["AlgebraicGeometry.IsAdmissible.exists_extend"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-blowup-universal-graded-map", "def-nagata-blowup-universal-lift", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-invertible-ideal", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-blowup-universal-exists", "lemma-nagata-blowup-universal-graded-map", "lemma-nagata-blowup-universal-unique", "lemma-nagata-extend-finite-type-ideal", "lemma-nagata-glue-finite-type-ideals", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-constructible-closed-support", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "def-nagata-qc-open-complement-ideal", "lemma-nagata-constructible-closed-support", "lemma-nagata-extend-finite-type-ideal", "lemma-nagata-glue-finite-type-ideals", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
 +++
 Let $X$ be quasi-compact and quasi-separated and let $U,W\subseteq X$ be
 quasi-compact opens. Write a given $(U\cap W)$-admissible blow-up of $W$

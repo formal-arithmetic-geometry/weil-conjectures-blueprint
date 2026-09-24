@@ -2,7 +2,7 @@
 id = "lem-sc-cech-spectral"
 kind = "lemma"
 title = "The Cech-to-cohomology spectral sequence"
-order = 2155
+order = 2157
 +++
 Let $X$ be a scheme, $\mathfrak U=\{U_i\to X\}$ an etale covering
 (or any covering of a site; we apply the statement below also to the

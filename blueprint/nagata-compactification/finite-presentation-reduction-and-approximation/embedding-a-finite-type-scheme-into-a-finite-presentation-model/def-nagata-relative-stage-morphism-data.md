@@ -2,7 +2,7 @@
 id = "def-nagata-relative-stage-morphism-data"
 kind = "definition"
 title = "Finite-stage data for a morphism"
-order = 189
+order = 195
 uses = ["def-nagata-glued-limit-comparison", "def-nagata-noetherian-inverse-system"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

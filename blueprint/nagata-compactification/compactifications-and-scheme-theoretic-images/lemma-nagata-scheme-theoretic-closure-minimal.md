@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-theoretic-closure-minimal"
 kind = "lemma"
 title = "Minimality of the scheme-theoretic closure"
-order = 154
+order = 153
 lean = ["AlgebraicGeometry.IsClosedImmersion.lift"]
 uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-universal"]
 +++

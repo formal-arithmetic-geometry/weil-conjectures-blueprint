@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-section-pullback"
 kind = "definition"
 title = "Pullback of a section along a finite morphism"
-order = 1300
+order = 1302
 uses = ["def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions"]
 +++
 Let $u:T'\to T$ be finite and $F$ an etale sheaf on $T$. For an etale

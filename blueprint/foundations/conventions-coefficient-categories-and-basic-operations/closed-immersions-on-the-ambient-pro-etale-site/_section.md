@@ -2,7 +2,7 @@
 id = "closed-immersions-on-the-ambient-pro-etale-site"
 kind = "section"
 title = "Closed immersions on the ambient pro-etale site"
-order = 1408
+order = 1410
 uses = ["def-weil-pbc-ind-etale-algebra", "def-weil-pbc-ind-etale-basis", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-ind-etale-basis", "lem-weil-pbc-ind-etale-stability"]
 +++
 In the sheaf and derived statements of this section, coefficients are in a

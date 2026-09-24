@@ -4,7 +4,7 @@ kind = "definition"
 title = "Common-modification construction"
 order = 509
 lean = ["AlgebraicGeometry.CommonModification"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-elimination-indeterminacy", "def-nagata-extended-admissible-blowup", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-scheme-theoretic-image", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-elimination-indeterminacy", "def-nagata-extended-admissible-blowup", "def-nagata-global-blowup", "def-nagata-scheme-theoretic-image", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $U\hookrightarrow X_i$ be open immersions over $S$, with
 $U,X_1,X_2$ separated and of finite type over the qcqs scheme $S$.

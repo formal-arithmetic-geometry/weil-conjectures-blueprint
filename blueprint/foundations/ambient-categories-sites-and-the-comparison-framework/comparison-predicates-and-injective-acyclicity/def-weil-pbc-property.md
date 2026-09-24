@@ -2,7 +2,7 @@
 id = "def-weil-pbc-property"
 kind = "definition"
 title = "Proper base-change property"
-order = 1251
+order = 1253
 lean = ["AlgebraicGeometry.Etale.IsBaseChangeIso"]
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++

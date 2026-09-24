@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-proper-piece"
 kind = "lemma"
 title = "Proper compactification piece"
-order = 1356
+order = 1358
 uses = ["def-weil-pbc-projection-compactification", "lemma-weil-pbc-projection-formula-totalization"]
 +++
 For the proper piece $p$ and every strict-perfect $F^\bullet$ on $Y$,

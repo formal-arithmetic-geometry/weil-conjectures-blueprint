@@ -4,7 +4,7 @@ kind = "definition"
 title = "Affine compactification construction"
 order = 573
 lean = ["AlgebraicGeometry.Compactification.ofIsImmersionAffineSpace"]
-uses = ["def-nagata-affine-proj", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-immersion-compactification", "def-nagata-projective-space-base-change", "def-nagata-quasi-affine-immersion-affine-space", "def-nagata-relative-affine-space", "def-nagata-relative-projective-space", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-projective-space-base-change-proper", "lemma-nagata-relative-affine-space-open-immersion", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-proj-standard-open"]
+uses = ["def-nagata-affine-proj", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-immersion-compactification", "def-nagata-projective-space-base-change", "def-nagata-quasi-affine-immersion-affine-space", "def-nagata-relative-affine-space", "def-nagata-relative-projective-space", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-projective-space-base-change-proper", "lemma-nagata-relative-affine-space-open-immersion"]
 +++
 Let $U\to S$ be quasi-compact and of finite type and let
 $\iota_U\colon U\to\mathbb A^n_S$ be an immersion over $S$, as supplied by

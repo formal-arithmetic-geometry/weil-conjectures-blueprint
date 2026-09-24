@@ -2,7 +2,7 @@
 id = "def-weil-pbc-projection-formula-map"
 kind = "definition"
 title = "Projection-formula map"
-order = 1338
+order = 1340
 uses = ["def-weil-pbc-proetale-operations"]
 +++
 For $f:X\to Y$, $K\in D(X_{\Proet},A)$, and $P\in D(Y_{\Proet},A)$, define

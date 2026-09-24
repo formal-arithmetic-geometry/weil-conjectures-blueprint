@@ -2,7 +2,7 @@
 id = "the-inputs-of-the-descent-of-the-immersion"
 kind = "section"
 title = "The inputs of the descent of the immersion"
-order = 2120
+order = 2122
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-locnoeth", "pqf-lem-affine-local-target"]
 +++
 The proof of [thm-pqf-immersion-descent] uses the five elementary

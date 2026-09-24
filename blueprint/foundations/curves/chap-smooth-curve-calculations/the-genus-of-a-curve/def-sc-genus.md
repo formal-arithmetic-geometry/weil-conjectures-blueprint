@@ -2,7 +2,7 @@
 id = "def-sc-genus"
 kind = "definition"
 title = "The genus of a curve"
-order = 2164
+order = 2166
 uses = ["def-sc-curves"]
 +++
 Let $C$ be a proper smooth curve over

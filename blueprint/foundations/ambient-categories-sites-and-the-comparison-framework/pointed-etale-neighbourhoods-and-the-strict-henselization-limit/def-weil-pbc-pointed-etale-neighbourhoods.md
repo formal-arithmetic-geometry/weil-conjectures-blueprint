@@ -2,7 +2,7 @@
 id = "def-weil-pbc-pointed-etale-neighbourhoods"
 kind = "definition"
 title = "Pointed etale neighbourhood category"
-order = 1236
+order = 1238
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 Let $\bar s:\operatorname{Spec}\Omega\to S$ be a geometric point. Define

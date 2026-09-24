@@ -2,7 +2,7 @@
 id = "foundations"
 kind = "section"
 title = "Shared language and cohomological foundations"
-order = 621
+order = 0
 +++
 Part I of `weil_conjectures_detailed.tex`: the common language of the whole
 blueprint. Nothing here is a geometric input to the Weil conjectures; it is

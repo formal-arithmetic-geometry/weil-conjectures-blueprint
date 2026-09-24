@@ -2,9 +2,9 @@
 id = "lemma-nagata-affine-blowup-proper"
 kind = "lemma"
 title = "Properness of the affine blow-up"
-order = 318
+order = 323
 lean = ["AlgebraicGeometry.AffineBlowup.isProper_toSpec"]
-uses = ["def-nagata-affine-blowup", "def-nagata-affine-proj", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-mul", "prop-nagata-proj-standard-open", "prop-nagata-rees-finite-generation", "prop-nagata-rees-graded"]
+uses = ["def-nagata-affine-blowup", "def-nagata-affine-proj", "def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-piece-mul", "prop-nagata-rees-finite-generation", "prop-nagata-rees-graded"]
 +++
 If $I$ is finitely generated, the affine blow-up morphism is proper.
 

@@ -2,7 +2,7 @@
 id = "quasi-dominations"
 kind = "section"
 title = "Quasi-dominations"
-order = 445
+order = 452
 +++
 Since $Y\to S$ is separated, $\Gamma_f$ is automatically closed in
 $U\times_SY$; the condition above is the stronger requirement that it stay

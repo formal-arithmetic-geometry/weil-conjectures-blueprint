@@ -2,7 +2,7 @@
 id = "lem-sc-c1-brauer-trivial"
 kind = "lemma"
 title = "The Brauer group of a $C_1$ field"
-order = 2176
+order = 2178
 uses = ["def-sc-cr-field"]
 +++
 Let $K$ be a $C_1$ field. Then

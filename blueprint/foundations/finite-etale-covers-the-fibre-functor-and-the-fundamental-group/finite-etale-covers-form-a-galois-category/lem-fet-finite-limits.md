@@ -2,7 +2,7 @@
 id = "lem-fet-finite-limits"
 kind = "theorem"
 title = "Finite limits and colimits of finite etale covers"
-order = 2073
+order = 2075
 uses = ["def-galois-categories", "def-weil-pbc-scheme-conventions", "lem-fet-locally-trivial"]
 +++
 Let $Y$ be a scheme. Then $\mathrm{F\acute Et}(Y)$ has finite limits and

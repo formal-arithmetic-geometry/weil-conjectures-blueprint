@@ -1,10 +1,10 @@
 +++
 id = "lemma-nagata-conrad-quasi-affine-affine-base"
 kind = "lemma"
-title = "Quasi-affine target over an affine base, [ConradNagata]"
-order = 462
+title = "Quasi-affine target over an affine base (Conrad)"
+order = 469
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_of_isQuasiAffine"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-dense-compactification", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-relative-affine-space", "def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-affine-space-extension", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-dense-flat-pullback", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-quasi-affine-immersion-affine-space-exists", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-relative-affine-space", "def-nagata-scheme-image-comparison", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-affine-space-extension", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-dense-flat-pullback", "lemma-nagata-quasi-affine-immersion-affine-space-exists", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
 Let $X$ be affine, let $U\subseteq X$ be a quasi-compact open, let
 $p\colon Y\to X$ be quasi-affine and of finite type, and let $f\colon U\to Y$

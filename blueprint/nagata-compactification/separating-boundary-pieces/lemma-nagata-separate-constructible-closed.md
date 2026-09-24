@@ -2,9 +2,9 @@
 id = "lemma-nagata-separate-constructible-closed"
 kind = "lemma"
 title = "Properties of constructible-boundary separation"
-order = 494
+order = 497
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-constructible-closed-support", "def-nagata-extended-ideal", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-qc-open-complement-ideal", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-separate-closed-subschemes", "def-nagata-separate-constructible-closed", "def-nagata-strict-transform", "lemma-nagata-constructible-closed-support", "lemma-nagata-extend-finite-type-ideal", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-separate-closed-subschemes", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-constructible-closed-support", "def-nagata-extended-ideal", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "def-nagata-qc-open-complement-ideal", "def-nagata-scheme-image-factor", "def-nagata-separate-closed-subschemes", "def-nagata-separate-constructible-closed", "def-nagata-strict-transform", "lemma-nagata-constructible-closed-support", "lemma-nagata-extend-finite-type-ideal", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-separate-closed-subschemes", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent"]
 +++
 The constructed blow-up $\mathsf{CSepBl}_U(T_1,T_2)\to X$ is
 $U$-admissible, and the closures of the inverse images of $T_1$ and $T_2$

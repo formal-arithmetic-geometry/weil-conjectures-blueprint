@@ -2,7 +2,7 @@
 id = "lem-exc-open-closed-detection"
 kind = "lemma"
 title = "Detection by the open and the closed restriction"
-order = 1938
+order = 1944
 uses = ["def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "lem-exc-closed-cover-extension", "lem-exc-closed-inverse-image-formula", "lem-exc-closed-localization", "lem-exc-closed-site-adjunction", "lem-weil-pbc-ind-etale-basis"]
 +++
 Let $i:Z\hookrightarrow X$ be closed, with quasi-compact open complement

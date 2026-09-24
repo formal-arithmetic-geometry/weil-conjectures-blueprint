@@ -2,7 +2,7 @@
 id = "lem-weil-derived-tensor-functorial"
 kind = "lemma"
 title = "Functoriality of the derived tensor product"
-order = 1373
+order = 1375
 uses = ["def-weil-derived-tensor", "def-weil-pbc-proetale-site", "lem-weil-derived-tensor-resolution-independent"]
 +++
 Fix a scheme $Y$ and a commutative ring $A$, and use the small pro-etale site

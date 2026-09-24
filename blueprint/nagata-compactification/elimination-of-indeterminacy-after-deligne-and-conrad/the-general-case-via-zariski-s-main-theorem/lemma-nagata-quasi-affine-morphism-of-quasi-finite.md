@@ -2,9 +2,9 @@
 id = "lemma-nagata-quasi-affine-morphism-of-quasi-finite"
 kind = "lemma"
 title = "A quasi-finite morphism is quasi-affine"
-order = 474
+order = 481
 lean = ["AlgebraicGeometry.IsQuasiAffineHom.of_locallyQuasiFinite"]
-uses = ["def-nagata-quasi-affine-morphism", "lemma-nagata-zmt-quasi-affine-source"]
+uses = ["def-nagata-quasi-affine-morphism", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-zmt-quasi-affine-source"]
 +++
 Let $f\colon X\to Y$ be separated, quasi-compact, locally quasi-finite and
 locally of finite type. Then $f$ is quasi-affine in the sense of

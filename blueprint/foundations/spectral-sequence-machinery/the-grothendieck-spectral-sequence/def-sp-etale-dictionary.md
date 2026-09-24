@@ -2,7 +2,7 @@
 id = "def-sp-etale-dictionary"
 kind = "definition"
 title = "The proper-base-change dictionary"
-order = 1154
+order = 1155
 uses = ["def-sp-abelian", "def-sp-grothendieck-abelian", "def-sp-kinjective-bridge", "def-sp-left-exact-additive"]
 +++
 The spectral sequence statements used in the proper-base-change chapter are

@@ -2,7 +2,7 @@
 id = "lem-sc-as-sequence"
 kind = "lemma"
 title = "The Artin–Schreier sequence"
-order = 2178
+order = 2180
 uses = ["def-sc-curves"]
 +++
 Let $C$ be a curve over a field $k$ of

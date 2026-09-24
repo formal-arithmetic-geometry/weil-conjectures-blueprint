@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-mittag-leffler"
 kind = "lemma"
 title = "Mittag--Leffler vanishing"
-order = 1332
+order = 1334
 uses = ["def-weil-pbc-derived-inverse-limit", "prop-weil-pbc-roos-triangle"]
 +++
 A tower of finite abelian groups satisfies the Mittag--Leffler condition and

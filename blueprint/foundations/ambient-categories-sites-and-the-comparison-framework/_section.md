@@ -2,8 +2,8 @@
 id = "ambient-categories-sites-and-the-comparison-framework"
 kind = "section"
 title = "Ambient categories, sites, and the comparison framework"
-order = 1155
-uses = ["def-sp-acyclic", "def-weil-derived-limit", "lem-sp-edge-collapse", "lem-weil-derived-limit-existence", "thm-sp-if-e1"]
+order = 1156
+uses = ["def-nagata-compactification", "def-sp-acyclic", "def-weil-derived-limit", "lem-sp-edge-collapse", "lem-weil-derived-limit-existence", "thm-sp-if-e1"]
 +++
 The ambient language of the proper-base-change chapter, assembled so that
 nothing there rests on an unstated convention: the small etale site and its

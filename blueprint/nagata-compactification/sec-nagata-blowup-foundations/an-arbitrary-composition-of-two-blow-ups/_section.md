@@ -2,7 +2,7 @@
 id = "an-arbitrary-composition-of-two-blow-ups"
 kind = "section"
 title = "An arbitrary composition of two blow-ups"
-order = 389
+order = 393
 +++
 The product-ideal theorem treats a second center pulled back from the original
 scheme. Stability of admissible blow-ups under composition needs the more

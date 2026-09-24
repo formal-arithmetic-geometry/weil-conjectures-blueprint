@@ -2,7 +2,7 @@
 id = "lem-sc-p1-twist-exists"
 kind = "lemma"
 title = "The twists $\\mathcal O(d)$ exist"
-order = 2191
+order = 2193
 uses = ["def-sc-invertible-module", "def-sc-p1-standard"]
 +++
 Let $k$ be a field, $d\in\mathbf Z$, and let

@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-degree-zero"
 kind = "lemma"
 title = "The degree-zero piece"
-order = 267
+order = 271
 lean = ["AlgebraicGeometry.reesGradingZero"]
 uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul"]
 +++

@@ -2,7 +2,7 @@
 id = "def-nagata-sheaf-rees-algebra"
 kind = "definition"
 title = "Sheaf Rees algebra"
-order = 340
+order = 347
 uses = ["lemma-nagata-sheaf-ideal-powers-assoc"]
 +++
 **Status.** Bypassed by the formalized route: no separate relative-Proj

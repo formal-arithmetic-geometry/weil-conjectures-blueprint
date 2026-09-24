@@ -2,7 +2,7 @@
 id = "lemma-nagata-filtered-colimit-finite-data"
 kind = "lemma"
 title = "Finite data and finite relations descend in a filtered colimit"
-order = 172
+order = 178
 uses = ["lemma-nagata-directed-finite-upper-bound"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

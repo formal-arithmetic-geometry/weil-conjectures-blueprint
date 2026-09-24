@@ -2,7 +2,7 @@
 id = "prop-nagata-finite-type-closed-in-fp"
 kind = "theorem"
 title = "Properties of the separated finite-presentation envelope, [stacks-project]"
-order = 206
+order = 213
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_isSeparated_locallyOfFinitePresentation"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-finite-type-closed-in-fp", "def-nagata-finite-type-fp-model-system", "lemma-nagata-finite-type-fp-model-system", "lemma-nagata-fixed-base-separated-eventually", "lemma-nagata-fixed-base-separated-stage-exists"]

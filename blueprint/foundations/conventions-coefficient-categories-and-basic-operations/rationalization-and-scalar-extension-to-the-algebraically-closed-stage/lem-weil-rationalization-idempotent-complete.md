@@ -2,7 +2,7 @@
 id = "lem-weil-rationalization-idempotent-complete"
 kind = "lemma"
 title = "Idempotent completeness of the rationalized category"
-order = 1616
+order = 1636
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-karoubi-envelope", "def-weil-rationalization-karoubi", "thm-weil-karoubian-bounded-t", "thm-weil-pbc-finite-stage-karoubian"]
 +++
 Let $E/\Ql$ be a finite extension with valuation ring $\mathcal O_E$, let $Y$

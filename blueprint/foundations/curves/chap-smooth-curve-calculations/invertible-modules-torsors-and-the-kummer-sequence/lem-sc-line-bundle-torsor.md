@@ -2,7 +2,7 @@
 id = "lem-sc-line-bundle-torsor"
 kind = "lemma"
 title = "Line bundles and $\\mathbf G_m$-torsors"
-order = 2158
+order = 2160
 uses = ["def-sc-curves", "def-sc-gm-torsor", "def-sc-invertible-module", "def-sc-picard-group"]
 +++
 Let $C$ be a curve. The construction

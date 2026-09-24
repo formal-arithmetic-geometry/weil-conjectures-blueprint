@@ -2,7 +2,7 @@
 id = "lem-sc-kummer-les"
 kind = "lemma"
 title = "Consequences of the Kummer sequence"
-order = 2250
+order = 3165
 uses = ["def-sc-curves", "def-sc-kummer-sequence", "lem-sc-brauer-zero", "lem-sc-h1-gm-pic", "lem-sc-kummer-exact", "lem-sc-primitive-root"]
 +++
 Let $C$ be a curve over algebraically

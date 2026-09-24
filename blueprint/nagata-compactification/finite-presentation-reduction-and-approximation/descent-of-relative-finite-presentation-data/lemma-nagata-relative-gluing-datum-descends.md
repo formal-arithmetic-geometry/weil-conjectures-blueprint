@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-gluing-datum-descends"
 kind = "lemma"
 title = "Property of the descended finite affine presentation"
-order = 222
+order = 228
 uses = ["def-nagata-relative-gluing-datum-descent", "lemma-nagata-affine-fp-descends", "lemma-nagata-morphism-descends", "lemma-nagata-qc-open-descends"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

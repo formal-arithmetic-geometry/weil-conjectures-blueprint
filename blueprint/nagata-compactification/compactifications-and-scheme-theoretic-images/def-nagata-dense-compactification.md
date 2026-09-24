@@ -2,7 +2,7 @@
 id = "def-nagata-dense-compactification"
 kind = "definition"
 title = "Scheme-theoretically dense compactification"
-order = 142
+order = 146
 lean = ["AlgebraicGeometry.IsSchemeTheoreticallyDominant"]
 uses = ["def-nagata-compactification", "def-nagata-scheme-theoretically-dense-open"]
 +++

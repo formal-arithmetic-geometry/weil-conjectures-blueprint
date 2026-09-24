@@ -2,7 +2,7 @@
 id = "def-nagata-homogeneous-away-to-chart"
 kind = "definition"
 title = "Homogeneous-localization chart map"
-order = 275
+order = 279
 uses = ["def-nagata-blowup-chart-ring", "def-nagata-rees-algebra"]
 +++
 **Status.** Bypassed by the formalized route: the affine blow-up and its

@@ -2,7 +2,7 @@
 id = "separating-boundary-pieces--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 490
+order = 495
 +++
 The formal proof
 (`separationBlowup_disjoint_strictTransforms`) blows up the sum

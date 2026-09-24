@@ -2,7 +2,7 @@
 id = "def-sc-cr-field"
 kind = "definition"
 title = "$C_r$ fields"
-order = 2172
+order = 2174
 +++
 Let $r\geq0$. A field $K$ is *$C_r$* if every
 homogeneous polynomial form $F\in K[x_1,\dots,x_N]$ of degree

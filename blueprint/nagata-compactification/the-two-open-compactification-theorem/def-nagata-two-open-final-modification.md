@@ -3,8 +3,7 @@ id = "def-nagata-two-open-final-modification"
 kind = "definition"
 title = "Final common modification for the two-open construction"
 order = 559
-lean = ["AlgebraicGeometry.CommonModification"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-common-modification", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-two-open-intermediate-schemes", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-common-modification", "def-nagata-two-open-intermediate-schemes"]
 +++
 Apply the common-modification construction to the two open immersions
 $U\hookrightarrow W_1$ and $U\hookrightarrow W_2$. Denote its output by

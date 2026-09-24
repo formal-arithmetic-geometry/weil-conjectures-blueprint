@@ -2,7 +2,7 @@
 id = "lemma-nagata-diagonal-mixed-open"
 kind = "lemma"
 title = "The diagonal on a mixed open"
-order = 165
+order = 138
 lean = ["AlgebraicGeometry.diagonalRestrictChartArrowIso"]
 +++
 Let $X=U\cup V$ be an open cover over $S$. The pullback of

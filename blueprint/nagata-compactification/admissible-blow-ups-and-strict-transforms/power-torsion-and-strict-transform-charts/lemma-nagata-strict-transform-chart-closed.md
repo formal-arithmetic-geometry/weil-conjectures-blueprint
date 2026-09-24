@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-transform-chart-closed"
 kind = "lemma"
 title = "Closedness of the strict-transform chart"
-order = 412
+order = 416
 uses = ["def-nagata-strict-transform-chart-ring", "lemma-nagata-power-torsion-submodule"]
 +++
 **Status.** Bypassed by the formalized route: the strict transform is

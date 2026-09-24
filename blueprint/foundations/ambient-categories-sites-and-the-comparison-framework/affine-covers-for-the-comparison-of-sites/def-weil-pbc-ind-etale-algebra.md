@@ -2,7 +2,7 @@
 id = "def-weil-pbc-ind-etale-algebra"
 kind = "definition"
 title = "Ind-etale and ind-Zariski algebras"
-order = 1256
+order = 1258
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 An $A$-algebra is *ind-etale* if it is a filtered colimit of etale algebras

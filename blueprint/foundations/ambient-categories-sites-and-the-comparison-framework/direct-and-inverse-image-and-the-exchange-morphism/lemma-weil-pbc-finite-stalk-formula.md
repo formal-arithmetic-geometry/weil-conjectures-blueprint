@@ -2,9 +2,9 @@
 id = "lemma-weil-pbc-finite-stalk-formula"
 kind = "lemma"
 title = "Geometric stalk formula for finite direct image"
-order = 1233
+order = 1235
 lean = ["AlgebraicGeometry.Etale.lowerStarSheafFiberIsoPi", "AlgebraicGeometry.Etale.stalkRestrict"]
-uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-fibre", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-kun-separably-closed", "def-weil-pbc-cartesian-square", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-fibre", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $h:W\to V$ be finite and let $\bar v:\operatorname{Spec}\Omega\to V$ be a geometric
 point with $\Omega$ algebraically closed. For every sheaf $F$ on $W_{\mathrm{et}}$ there

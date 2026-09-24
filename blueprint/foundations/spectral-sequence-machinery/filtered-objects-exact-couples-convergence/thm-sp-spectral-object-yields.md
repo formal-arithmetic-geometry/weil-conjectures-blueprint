@@ -2,7 +2,7 @@
 id = "thm-sp-spectral-object-yields"
 kind = "theorem"
 title = "The spectral sequence of a filtered complex"
-order = 1138
+order = 1139
 uses = ["def-sp-convergence", "def-sp-exact-couple", "def-sp-filtration", "def-sp-spectral-sequence", "lem-sp-couple-morphism", "lem-sp-long-exact-of-triangle", "lem-sp-page-induction"]
 +++
 Let $\mathcal A$ be an abelian category and let $K^\bullet$ be a complex in

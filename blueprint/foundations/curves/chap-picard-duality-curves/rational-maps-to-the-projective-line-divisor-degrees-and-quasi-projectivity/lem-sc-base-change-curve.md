@@ -2,7 +2,7 @@
 id = "lem-sc-base-change-curve"
 kind = "lemma"
 title = "Base change of a curve"
-order = 2229
+order = 2232
 uses = ["def-sc-curves", "def-weil-pbc-scheme-conventions"]
 +++
 Let $k\subseteq k'$ be algebraically closed and let $C$ be a

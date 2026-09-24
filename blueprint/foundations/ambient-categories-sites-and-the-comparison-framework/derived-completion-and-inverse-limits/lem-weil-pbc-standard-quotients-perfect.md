@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-standard-quotients-perfect"
 kind = "lemma"
 title = "Perfectness of the standard quotients"
-order = 1340
+order = 1342
 uses = ["def-weil-pbc-adic-coefficient-datum"]
 +++
 For $A=\Zl$ and $I=(\ell)$, the quotient $P_n=\mathbf Z/\ell^n\mathbf Z$ is

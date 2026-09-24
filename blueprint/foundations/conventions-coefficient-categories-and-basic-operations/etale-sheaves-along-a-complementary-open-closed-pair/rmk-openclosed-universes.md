@@ -2,7 +2,7 @@
 id = "rmk-openclosed-universes"
 kind = "remark"
 title = "Universes"
-order = 1427
+order = 1429
 +++
 Schemes live in a universe $u$ and the coefficient category $\mathcal A$ is
 large relative to it: $\mathcal A$ has morphisms in $\mathrm{Type}\,(u+1)$

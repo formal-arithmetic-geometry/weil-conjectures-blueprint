@@ -2,7 +2,7 @@
 id = "lem-sc-kummer-exact"
 kind = "lemma"
 title = "Exactness of the Kummer sequence"
-order = 2160
+order = 2162
 uses = ["def-sc-curves", "def-sc-kummer-sequence"]
 +++
 Let $C$ be a curve over algebraically

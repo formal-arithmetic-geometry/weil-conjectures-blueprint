@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-leray-acyclicity"
 kind = "lemma"
 title = "Leray acyclicity criterion"
-order = 1315
+order = 1317
 uses = ["def-sp-acyclic", "def-weil-pbc-direct-image", "def-weil-pbc-injective-acyclicity-property", "def-weil-pbc-kinjective-resolutions", "lem-sp-edge-collapse", "thm-sp-if-e1"]
 +++
 If a complex $I^\bullet$ consists of $f'_*$-acyclic sheaves, then the natural

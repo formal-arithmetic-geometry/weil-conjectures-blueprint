@@ -2,7 +2,7 @@
 id = "lemma-nagata-qc-open-complement-ideal-exists"
 kind = "lemma"
 title = "Existence of an ideal defining the complement of a qc open"
-order = 440
+order = 443
 lean = ["AlgebraicGeometry.Scheme.exists_finiteType_ideal_coe_support_eq_compl"]
 uses = ["def-nagata-extended-ideal", "lemma-nagata-finite-type-ideal-extension-exists"]
 +++

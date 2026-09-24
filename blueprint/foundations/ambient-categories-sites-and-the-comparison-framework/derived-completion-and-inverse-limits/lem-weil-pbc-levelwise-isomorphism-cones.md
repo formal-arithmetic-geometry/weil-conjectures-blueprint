@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-levelwise-isomorphism-cones"
 kind = "lemma"
 title = "Levelwise isomorphisms and complete cones"
-order = 1339
+order = 1341
 uses = ["def-weil-pbc-derived-inverse-limit", "prop-weil-pbc-koszul-reconstruction"]
 +++
 A morphism in $D(\operatorname{Tow}_{A}(T))$ whose evaluation at every $n$ is

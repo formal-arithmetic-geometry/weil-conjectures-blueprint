@@ -2,7 +2,7 @@
 id = "lemma-nagata-sheaf-ideal-powers-assoc"
 kind = "lemma"
 title = "Associativity of ideal-power multiplication"
-order = 339
+order = 346
 +++
 **Status.** Bypassed by the formalized route: no separate relative-Proj
 primitive was formalized. The blow-up is glued from the affine Proj charts

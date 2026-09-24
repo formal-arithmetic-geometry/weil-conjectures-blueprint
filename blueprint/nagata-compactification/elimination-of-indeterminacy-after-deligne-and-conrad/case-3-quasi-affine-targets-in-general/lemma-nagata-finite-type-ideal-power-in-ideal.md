@@ -2,9 +2,8 @@
 id = "lemma-nagata-finite-type-ideal-power-in-ideal"
 kind = "lemma"
 title = "A power of a finite type ideal inside an ideal with larger zero set"
-order = 466
+order = 473
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_pow_le"]
-uses = ["lemma-nagata-localization-ideal-pow"]
 +++
 Let $X$ be quasi-compact and let $\mathcal A,\mathcal B\subseteq\mathcal O_X$ be
 quasi-coherent ideals with $\mathcal B$ of finite type and

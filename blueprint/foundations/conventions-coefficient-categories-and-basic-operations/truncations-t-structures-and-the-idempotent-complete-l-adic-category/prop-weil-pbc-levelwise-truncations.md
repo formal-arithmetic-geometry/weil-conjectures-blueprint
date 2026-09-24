@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-levelwise-truncations"
 kind = "theorem"
 title = "Levelwise truncations of the adic tower"
-order = 1483
+order = 1488
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-etale-origin-witness"]
 tags = ["latex:proposition"]
 +++

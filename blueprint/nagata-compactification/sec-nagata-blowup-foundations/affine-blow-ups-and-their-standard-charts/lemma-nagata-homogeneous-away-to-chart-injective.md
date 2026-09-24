@@ -2,7 +2,7 @@
 id = "lemma-nagata-homogeneous-away-to-chart-injective"
 kind = "lemma"
 title = "Injectivity of the chart map"
-order = 278
+order = 282
 uses = ["lemma-nagata-chart-ring-fraction-equality", "lemma-nagata-homogeneous-away-to-chart"]
 +++
 **Status.** Bypassed by the formalized route: the affine blow-up and its

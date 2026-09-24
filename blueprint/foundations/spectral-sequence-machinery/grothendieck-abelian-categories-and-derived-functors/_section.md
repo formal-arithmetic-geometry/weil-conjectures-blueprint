@@ -2,7 +2,7 @@
 id = "grothendieck-abelian-categories-and-derived-functors"
 kind = "section"
 title = "Grothendieck abelian categories and derived functors"
-order = 1114
+order = 1115
 +++
 The homological-algebra vocabulary the rest of the chapter uses: abelian
 [def-sp-abelian] and Grothendieck abelian [def-sp-grothendieck-abelian]

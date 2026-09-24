@@ -4,7 +4,7 @@ kind = "definition"
 title = "Intermediate two-open schemes"
 order = 546
 lean = ["AlgebraicGeometry.TwoOpenSide.interior"]
-uses = ["def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-improved-comparison", "def-nagata-two-open-prepared-boundaries"]
+uses = ["def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-key-boundary-disjointness"]
 +++
 For $\{i,j\}=\{1,2\}$, define
 

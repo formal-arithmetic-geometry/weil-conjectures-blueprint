@@ -2,7 +2,7 @@
 id = "def-nagata-scheme-theoretically-dense-open"
 kind = "definition"
 title = "Scheme-theoretically dense open immersion"
-order = 141
+order = 145
 +++
 **Status.** Bypassed by the formalized route: scheme-theoretic density is
 the predicate `AlgebraicGeometry.IsSchemeTheoreticallyDominant`,
