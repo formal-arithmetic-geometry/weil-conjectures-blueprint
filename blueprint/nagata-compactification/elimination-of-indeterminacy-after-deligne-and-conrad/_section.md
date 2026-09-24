@@ -2,11 +2,14 @@
 id = "elimination-of-indeterminacy-after-deligne-and-conrad"
 kind = "section"
 title = "Elimination of indeterminacy after Deligne and Conrad"
-order = 574
+order = 378
 +++
 This section is the formalized route to
-[lemma-nagata-elimination-indeterminacy] (Stacks Tag 081S), the single
-primitive obligation of the modification layer. It follows Deligne's notes as
+[lemma-nagata-elimination-indeterminacy] (Stacks Tag 081S), which the
+modification layer consumes: the common modification, the graph extension and
+the isomorphism near the closure of a boundary piece are all built from its
+construction [def-nagata-elimination-indeterminacy]. Both stand at the end of
+this section, after Conrad's Theorem 2.4 that proves them. It follows Deligne's notes as
 written up by Conrad
 [ConradNagata]: two blow-up lemmas of Deligne
 (*Lemme* 0.2 and *Lemme* 0.3, which are Lemmas 1.4 and 1.5 of

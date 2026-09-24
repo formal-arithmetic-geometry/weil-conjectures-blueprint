@@ -2,7 +2,7 @@
 id = "def-nagata-separated-descent-stage"
 kind = "definition"
 title = "Separated stage of a descended finite-presentation model"
-order = 549
+order = 583
 uses = ["def-nagata-finite-presentation-descent", "lemma-nagata-separated-descent-stage-exists"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

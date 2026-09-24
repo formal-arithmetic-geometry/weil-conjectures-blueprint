@@ -2,7 +2,7 @@
 id = "lemma-nagata-dense-affine-cover-exists"
 kind = "lemma"
 title = "Existence of a finite affine cover with dense total intersection"
-order = 478
+order = 512
 lean = ["AlgebraicGeometry.exists_isAffineOpen_iSup_eq_top_and_genericPoints_subset_iInter"]
 uses = ["lemma-nagata-affine-neighbourhood-generic-points"]
 +++

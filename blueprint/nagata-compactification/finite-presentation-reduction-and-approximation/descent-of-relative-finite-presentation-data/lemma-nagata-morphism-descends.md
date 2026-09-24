@@ -2,7 +2,7 @@
 id = "lemma-nagata-morphism-descends"
 kind = "lemma"
 title = "Property of the descended morphism, [stacks-project]"
-order = 533
+order = 567
 uses = ["def-nagata-morphism-descent", "lemma-nagata-affine-fp-descends", "lemma-nagata-qc-open-descends"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

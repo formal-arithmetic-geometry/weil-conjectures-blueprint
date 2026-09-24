@@ -2,7 +2,7 @@
 id = "def-nagata-final-noetherian-base-system"
 kind = "definition"
 title = "Noetherian base system used in the final assembly"
-order = 559
+order = 593
 uses = ["def-nagata-glued-limit-comparison", "def-nagata-noetherian-inverse-system"]
 +++
 **Status.** Bypassed by the formalized route: the final assembly is carried

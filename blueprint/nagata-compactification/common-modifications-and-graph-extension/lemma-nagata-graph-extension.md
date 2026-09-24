@@ -2,7 +2,7 @@
 id = "lemma-nagata-graph-extension"
 kind = "lemma"
 title = "Properties of the graph-extension construction, [stacks-project]"
-order = 411
+order = 447
 lean = ["AlgebraicGeometry.Compactification.nonempty_properExtension"]
 uses = ["def-nagata-graph-extension", "lemma-nagata-elimination-indeterminacy", "lemma-nagata-scheme-image-partial-section", "lemma-nagata-scheme-image-strict-transform", "lemma-nagata-strict-transform-ambient-closed", "lemma-nagata-strict-transform-over-complement", "thm-nagata-global-blowup-proper"]
 +++

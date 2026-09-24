@@ -2,7 +2,7 @@
 id = "prop-nagata-noetherian-inverse-system"
 kind = "theorem"
 title = "[stacks-project]"
-order = 504
+order = 538
 lean = ["AlgebraicGeometry.Scheme.nonempty_noetherianApproximation"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-glued-limit-comparison", "def-nagata-noetherian-inverse-system", "lemma-nagata-glue-noetherian-stage", "lemma-nagata-valid-refinements-directed"]

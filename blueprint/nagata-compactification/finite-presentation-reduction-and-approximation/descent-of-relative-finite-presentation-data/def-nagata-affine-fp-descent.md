@@ -2,7 +2,7 @@
 id = "def-nagata-affine-fp-descent"
 kind = "definition"
 title = "Finite-stage model of a finitely presented affine algebra"
-order = 530
+order = 564
 uses = ["def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

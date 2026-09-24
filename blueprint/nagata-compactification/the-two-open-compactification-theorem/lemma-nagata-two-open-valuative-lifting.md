@@ -2,7 +2,7 @@
 id = "lemma-nagata-two-open-valuative-lifting"
 kind = "lemma"
 title = "Valuative lifting for the two-open candidate"
-order = 462
+order = 498
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
 uses = ["def-nagata-two-open-compactification-candidate", "lemma-nagata-blowup-proper", "lemma-nagata-one-valuation-avoids-boundary", "lemma-nagata-proper-separated-valuation-extension", "lemma-nagata-separated-valuation-lift-unique", "lemma-nagata-two-open-final-modification"]
 +++

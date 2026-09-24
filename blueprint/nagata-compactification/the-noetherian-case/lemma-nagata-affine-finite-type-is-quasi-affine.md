@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-finite-type-is-quasi-affine"
 kind = "lemma"
 title = "Affine schemes are quasi-affine"
-order = 472
+order = 506
 lean = ["AlgebraicGeometry.Scheme.instIsQuasiAffineOfIsAffine"]
 uses = ["lemma-nagata-quasi-affine-immersion-affine-space-exists"]
 +++

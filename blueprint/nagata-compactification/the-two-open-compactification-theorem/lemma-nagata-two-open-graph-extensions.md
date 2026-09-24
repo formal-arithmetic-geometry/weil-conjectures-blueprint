@@ -2,7 +2,7 @@
 id = "lemma-nagata-two-open-graph-extensions"
 kind = "lemma"
 title = "Properties of the chosen graph extensions"
-order = 429
+order = 465
 lean = ["AlgebraicGeometry.exists_prepared_twoOpenSide"]
 uses = ["def-nagata-two-open-graph-extensions", "lemma-nagata-graph-extension"]
 +++

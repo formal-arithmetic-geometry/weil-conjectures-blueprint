@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-open-immersion"
 kind = "lemma"
 title = "The final source map is a quasi-compact open immersion"
-order = 571
+order = 605
 uses = ["def-nagata-final-compactification", "lemma-nagata-final-basechanged-compactification", "lemma-nagata-final-compactification-spec", "lemma-nagata-final-fp-envelope", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-restrict-open", "lemma-nagata-scheme-image-universal", "prop-nagata-closed-subscheme-compactifiable"]
 +++
 **Status.** Bypassed by the formalized route: the final assembly is carried

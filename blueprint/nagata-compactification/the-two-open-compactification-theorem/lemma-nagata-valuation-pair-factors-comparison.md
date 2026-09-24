@@ -2,7 +2,7 @@
 id = "lemma-nagata-valuation-pair-factors-comparison"
 kind = "lemma"
 title = "The pair of valuation extensions factors through $X_{12}$"
-order = 451
+order = 487
 lean = ["AlgebraicGeometry.TwoOpenSide.KeyDisjoint.avoids"]
 uses = ["def-nagata-two-open-comparison-space", "lemma-nagata-valuation-factor-closed"]
 +++

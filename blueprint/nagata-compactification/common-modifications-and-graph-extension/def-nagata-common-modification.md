@@ -2,7 +2,7 @@
 id = "def-nagata-common-modification"
 kind = "definition"
 title = "Common-modification construction"
-order = 407
+order = 443
 lean = ["AlgebraicGeometry.CommonModification"]
 uses = ["def-nagata-elimination-indeterminacy", "def-nagata-extended-admissible-blowup", "def-nagata-global-blowup", "def-nagata-scheme-theoretic-image"]
 +++

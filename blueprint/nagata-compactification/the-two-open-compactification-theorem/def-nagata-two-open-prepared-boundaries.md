@@ -2,7 +2,7 @@
 id = "def-nagata-two-open-prepared-boundaries"
 kind = "definition"
 title = "Prepared ambient schemes with separated boundary closures"
-order = 432
+order = 468
 lean = ["AlgebraicGeometry.TwoOpenSide.Prepared"]
 uses = ["def-nagata-separate-constructible-closed", "def-nagata-two-open-boundary-loci"]
 +++

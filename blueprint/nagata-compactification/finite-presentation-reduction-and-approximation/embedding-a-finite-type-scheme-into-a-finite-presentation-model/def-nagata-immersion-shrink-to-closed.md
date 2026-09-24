@@ -2,7 +2,7 @@
 id = "def-nagata-immersion-shrink-to-closed"
 kind = "definition"
 title = "Quasi-compact open on which an immersion is closed"
-order = 511
+order = 545
 uses = ["lemma-nagata-immersion-shrink-to-closed-exists"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

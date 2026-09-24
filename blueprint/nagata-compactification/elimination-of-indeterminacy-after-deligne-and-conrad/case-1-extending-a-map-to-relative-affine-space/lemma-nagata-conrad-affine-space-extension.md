@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-affine-space-extension"
 kind = "lemma"
 title = "Extension to $\\mathbb A^n$ after one admissible blow-up, [ConradNagata]"
-order = 586
+order = 392
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_affineSpace"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-relative-affine-space", "def-nagata-relative-projective-space"]
 +++

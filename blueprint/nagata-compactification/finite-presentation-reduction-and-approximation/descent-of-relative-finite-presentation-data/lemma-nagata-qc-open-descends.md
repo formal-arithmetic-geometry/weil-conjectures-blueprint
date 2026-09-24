@@ -2,7 +2,7 @@
 id = "lemma-nagata-qc-open-descends"
 kind = "lemma"
 title = "Property of the descended quasi-compact open"
-order = 527
+order = 561
 uses = ["def-nagata-qc-open-descent", "lemma-nagata-directed-finite-upper-bound"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

@@ -2,7 +2,7 @@
 id = "lemma-nagata-comparison-boundary-density"
 kind = "lemma"
 title = "Density over the prepared boundary"
-order = 442
+order = 478
 lean = ["AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide"]
 uses = ["lemma-nagata-comparison-isiso-near-boundary"]
 +++

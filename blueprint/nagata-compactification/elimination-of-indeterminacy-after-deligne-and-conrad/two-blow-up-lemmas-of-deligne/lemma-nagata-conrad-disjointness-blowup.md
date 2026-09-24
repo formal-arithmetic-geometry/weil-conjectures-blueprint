@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-disjointness-blowup"
 kind = "lemma"
 title = "Deligne's disjointness blow-up (Deligne, *Lemme* 0.3), [ConradNagata]"
-order = 584
+order = 388
 lean = ["AlgebraicGeometry.disjoint_closure_range_of_blowupMap_sup"]
 uses = ["def-nagata-conrad-disjointness-setup", "def-nagata-scheme-theoretic-closure", "lemma-nagata-conrad-strict-transform-in-charts", "lemma-nagata-scheme-image-restrict-open"]
 +++

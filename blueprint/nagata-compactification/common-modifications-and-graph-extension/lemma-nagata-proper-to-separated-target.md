@@ -2,7 +2,7 @@
 id = "lemma-nagata-proper-to-separated-target"
 kind = "lemma"
 title = "[stacks-project]"
-order = 404
+order = 440
 lean = ["AlgebraicGeometry.IsProper.of_comp"]
 +++
 In a commutative triangle $T\to Y\to B$, if $T\to B$ is proper and

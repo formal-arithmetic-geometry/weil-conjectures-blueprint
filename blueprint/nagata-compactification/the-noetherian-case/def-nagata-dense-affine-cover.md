@@ -2,7 +2,7 @@
 id = "def-nagata-dense-affine-cover"
 kind = "definition"
 title = "Finite affine cover with selected dense intersection"
-order = 479
+order = 513
 lean = ["AlgebraicGeometry.Scheme.finiteAffineOpenCoverDenseIInter"]
 uses = ["lemma-nagata-dense-affine-cover-exists"]
 +++

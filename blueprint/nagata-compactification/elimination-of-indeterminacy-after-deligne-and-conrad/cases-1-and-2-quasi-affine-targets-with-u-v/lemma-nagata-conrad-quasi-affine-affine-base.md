@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-quasi-affine-affine-base"
 kind = "lemma"
 title = "Quasi-affine target over an affine base, [ConradNagata]"
-order = 589
+order = 395
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_of_isQuasiAffine"]
 uses = ["def-nagata-conrad-quasi-domination", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-affine-space-extension", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-quasi-affine-immersion-affine-space-exists"]
 +++

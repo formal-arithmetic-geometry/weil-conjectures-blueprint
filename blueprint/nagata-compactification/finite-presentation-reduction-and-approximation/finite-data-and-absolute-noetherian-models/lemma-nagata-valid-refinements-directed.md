@@ -2,7 +2,7 @@
 id = "lemma-nagata-valid-refinements-directed"
 kind = "lemma"
 title = "Valid finite coefficient refinements form a directed set"
-order = 498
+order = 532
 uses = ["def-nagata-noetherian-stage", "lemma-nagata-affine-gluing-identities-eventually", "lemma-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

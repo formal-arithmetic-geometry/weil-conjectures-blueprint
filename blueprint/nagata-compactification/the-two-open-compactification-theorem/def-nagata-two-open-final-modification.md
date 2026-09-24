@@ -2,7 +2,7 @@
 id = "def-nagata-two-open-final-modification"
 kind = "definition"
 title = "Final common modification for the two-open construction"
-order = 457
+order = 493
 lean = ["AlgebraicGeometry.CommonModification"]
 uses = ["def-nagata-common-modification", "def-nagata-two-open-intermediate-schemes"]
 +++

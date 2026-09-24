@@ -2,7 +2,7 @@
 id = "lemma-nagata-proper-open-dense-iso"
 kind = "lemma"
 title = "A proper dense open immersion is an isomorphism"
-order = 379
+order = 377
 +++
 **Status.** Bypassed by the formalized route: the two-open theorem is
 concluded by

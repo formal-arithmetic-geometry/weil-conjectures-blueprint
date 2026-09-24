@@ -2,7 +2,7 @@
 id = "lemma-nagata-valuation-open-closed-point"
 kind = "lemma"
 title = "An open containing the closed point of a valuation spectrum is total"
-order = 452
+order = 488
 lean = ["AlgebraicGeometry.TwoOpenSide.KeyDisjoint.avoids"]
 +++
 Let $A$ be a valuation ring and let $O\subseteq\operatorname{Spec}(A)$ be

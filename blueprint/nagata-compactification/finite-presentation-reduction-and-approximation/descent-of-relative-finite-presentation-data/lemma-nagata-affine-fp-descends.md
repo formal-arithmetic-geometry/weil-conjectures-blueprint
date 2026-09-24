@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-fp-descends"
 kind = "lemma"
 title = "Property of affine finite-presentation descent"
-order = 531
+order = 565
 uses = ["def-nagata-affine-fp-descent"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

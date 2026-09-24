@@ -2,7 +2,7 @@
 id = "def-nagata-graph-extension"
 kind = "definition"
 title = "Graph-extension construction"
-order = 410
+order = 446
 lean = ["AlgebraicGeometry.Compactification.ProperExtension"]
 uses = ["def-nagata-elimination-indeterminacy", "def-nagata-scheme-theoretic-image"]
 +++

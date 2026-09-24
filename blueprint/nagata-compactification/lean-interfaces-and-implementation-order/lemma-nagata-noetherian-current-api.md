@@ -2,7 +2,7 @@
 id = "lemma-nagata-noetherian-current-api"
 kind = "lemma"
 title = "Noetherian approximation is covered by the current limit APIs"
-order = 553
+order = 587
 uses = ["lemma-nagata-closed-immersion-stage-exists", "lemma-nagata-finite-presentation-descends", "lemma-nagata-relative-gluing-datum-descends", "prop-nagata-noetherian-inverse-system"]
 +++
 **Status.** Bypassed by the formalized route: this lemma is the record of

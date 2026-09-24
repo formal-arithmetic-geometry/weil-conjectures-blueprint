@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-compactification-spec"
 kind = "lemma"
 title = "Components of the final compactification candidate"
-order = 569
+order = 603
 uses = ["def-nagata-closed-subscheme-compactification", "def-nagata-final-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-universal"]
 +++
 **Status.** Bypassed by the formalized route: the final assembly is carried

@@ -2,7 +2,7 @@
 id = "lemma-nagata-two-open-comparison-boundary"
 kind = "lemma"
 title = "The two descriptions of the comparison boundary agree"
-order = 438
+order = 474
 lean = ["AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide"]
 uses = ["def-nagata-two-open-comparison-boundary", "def-nagata-two-open-comparison-space"]
 +++

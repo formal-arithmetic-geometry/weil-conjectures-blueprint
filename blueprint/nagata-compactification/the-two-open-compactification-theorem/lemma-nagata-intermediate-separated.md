@@ -2,7 +2,7 @@
 id = "lemma-nagata-intermediate-separated"
 kind = "lemma"
 title = "Separatedness of the intermediate schemes"
-order = 450
+order = 486
 lean = ["AlgebraicGeometry.TwoOpenSide.isSeparated_intermediateHom"]
 uses = ["def-nagata-two-open-intermediate-schemes", "lemma-nagata-intermediate-overlap-closed", "lemma-nagata-separated-two-open-cover"]
 +++

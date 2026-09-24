@@ -2,7 +2,7 @@
 id = "lemma-nagata-ext-scheme-theoretically-dominant-separated"
 kind = "lemma"
 title = "Morphisms into a separated target agreeing on a scheme-theoretically dominant subscheme"
-order = 590
+order = 396
 lean = ["AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant_of_isSeparated", "AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant_of_isSeparated'"]
 uses = ["def-nagata-scheme-theoretically-dense-open"]
 +++

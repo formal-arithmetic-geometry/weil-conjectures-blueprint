@@ -2,7 +2,7 @@
 id = "def-nagata-conrad-disjointness-setup"
 kind = "definition"
 title = "The disjointness situation, [ConradNagata]"
-order = 583
+order = 387
 uses = ["def-nagata-global-blowup", "def-nagata-scheme-theoretic-image"]
 +++
 **Status.** Bypassed by the formalized route: Deligne's disjointness blow-up

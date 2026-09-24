@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-dense-in-admissible-blowup"
 kind = "lemma"
 title = "Density in an admissible blow-up"
-order = 579
+order = 383
 lean = ["AlgebraicGeometry.IsAdmissible.dense_coe_preimage_blowupMap", "AlgebraicGeometry.IsAdmissible.dense_preimage_blowupMap_of_qcqs"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-scheme-theoretically-dense-open", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement"]
 +++

@@ -2,7 +2,7 @@
 id = "lean-interfaces-and-implementation-order"
 kind = "section"
 title = "Lean interfaces and implementation order"
-order = 551
+order = 585
 +++
 The basic bundled structure should expose all construction data rather than
 only a proposition.

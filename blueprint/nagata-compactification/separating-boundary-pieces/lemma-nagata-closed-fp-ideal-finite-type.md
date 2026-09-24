@@ -2,7 +2,7 @@
 id = "lemma-nagata-closed-fp-ideal-finite-type"
 kind = "lemma"
 title = "Finite-presentation closed immersions and finite type ideals"
-order = 381
+order = 417
 +++
 **Status.** Bypassed by the formalized route: centres are carried as
 finite-type ideal sheaves (`AlgebraicGeometry.Scheme.IdealSheafData`)

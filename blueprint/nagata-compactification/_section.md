@@ -44,7 +44,17 @@ an implementation note, not part of the statement. Canonical comparison maps
 between chosen closed subschemes are written as isomorphisms unless a chosen
 equality has explicitly been fixed.
 
-The last section, [elimination-of-indeterminacy-after-deligne-and-conrad], is
-the formalized route to [lemma-nagata-elimination-indeterminacy], following
-Deligne and Conrad. It is built on the blow-up and scheme-theoretic-image
-sections above and nothing above cites it, so it stands last.
+[elimination-of-indeterminacy-after-deligne-and-conrad] proves elimination of
+indeterminacy (Stacks Tag 081S) along Deligne and Conrad, and ends with it:
+[def-nagata-elimination-indeterminacy] and
+[lemma-nagata-elimination-indeterminacy]. It stands after the blow-up and
+strict-transform sections it is built on and before
+[separating-boundary-pieces] and [common-modifications-and-graph-extension],
+whose three modification theorems (Tags 0F3W, 0F3X, 0F3Z) are its consumers.
+This is the order of the route map of the Nagata blueprint: Conrad 2.4
+$\to$ 081S $\to$ the modifications $\to$ the two-open theorem $\to$ the
+Noetherian case $\to$ Nagata.
+
+The Stacks Project's own proof of 081S, by Raynaud–Gruson flattening, is still
+recorded in [admissible-blow-ups-and-strict-transforms], but it is not the
+route: nothing cites [lemma-nagata-flattening-ideal] any more.

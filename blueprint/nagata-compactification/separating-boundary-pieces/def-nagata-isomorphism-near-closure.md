@@ -2,7 +2,7 @@
 id = "def-nagata-isomorphism-near-closure"
 kind = "definition"
 title = "Modification making a proper map an isomorphism near a closure"
-order = 398
+order = 434
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isIso_strictTransformMap_near_closure"]
 uses = ["def-nagata-elimination-indeterminacy", "def-nagata-extended-admissible-blowup", "def-nagata-maximal-isomorphism-open", "def-nagata-separate-constructible-closed", "def-nagata-spectral-constructible-separation"]
 +++

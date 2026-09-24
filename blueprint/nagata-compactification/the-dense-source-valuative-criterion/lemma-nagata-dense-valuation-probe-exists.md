@@ -2,7 +2,7 @@
 id = "lemma-nagata-dense-valuation-probe-exists"
 kind = "lemma"
 title = "Existence of a valuation probe through a dense source"
-order = 414
+order = 450
 lean = ["AlgebraicGeometry.ValuativeCommSqWithPt.ofIsDominant"]
 uses = ["def-nagata-scheme-theoretic-image"]
 +++

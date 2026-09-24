@@ -2,7 +2,7 @@
 id = "def-nagata-qc-open-equality-stage"
 kind = "definition"
 title = "Stage of equality for descended quasi-compact opens"
-order = 528
+order = 562
 uses = ["def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

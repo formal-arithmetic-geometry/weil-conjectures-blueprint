@@ -2,7 +2,7 @@
 id = "def-nagata-affine-compactification"
 kind = "definition"
 title = "Affine compactification construction"
-order = 473
+order = 507
 lean = ["AlgebraicGeometry.Compactification.ofIsImmersionAffineSpace"]
 uses = ["def-nagata-immersion-compactification", "def-nagata-quasi-affine-immersion-affine-space", "def-nagata-relative-affine-space", "def-nagata-relative-projective-space"]
 +++

@@ -2,7 +2,7 @@
 id = "def-nagata-two-open-improved-comparison"
 kind = "definition"
 title = "Improved first comparison projection"
-order = 440
+order = 476
 lean = ["AlgebraicGeometry.TwoOpenSide.admissibleBlowup"]
 uses = ["def-nagata-isomorphism-near-closure", "def-nagata-maximal-isomorphism-open", "def-nagata-strict-transform", "def-nagata-two-open-comparison-boundary", "def-nagata-two-open-comparison-space"]
 +++

@@ -2,7 +2,7 @@
 id = "def-nagata-closed-immersion-stage"
 kind = "definition"
 title = "Stage at which a finite-presentation map is closed"
-order = 546
+order = 580
 uses = ["lemma-nagata-closed-immersion-stage-exists"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

@@ -2,7 +2,7 @@
 id = "lemma-nagata-valuation-factor-closed"
 kind = "lemma"
 title = "Factorization through a closed subscheme over a valuation ring"
-order = 413
+order = 449
 lean = ["AlgebraicGeometry.IsClosedImmersion.exists_lift_of_isFractionRing"]
 +++
 Let $A$ be a valuation ring with fraction field $K$, let $Z\hookrightarrow Y$

@@ -2,7 +2,7 @@
 id = "def-nagata-finite-affine-gluing-presentation"
 kind = "definition"
 title = "Selected finite affine gluing presentation"
-order = 491
+order = 525
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and
 Noetherian descent is done in one step by

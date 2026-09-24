@@ -2,7 +2,7 @@
 id = "sec-nagata-gap-registry"
 kind = "section"
 title = "Formalization gap registry"
-order = 554
+order = 588
 +++
 This registry no longer lists open obligations. The chapter is formalized
 along a route that never passes through several of the blocks developed
@@ -37,8 +37,7 @@ into the base change and the pullback square over the preserved open.
 - **The Raynaud–Gruson flattening chain.** The module strict transform,
 the flattening theorem, and the selected flattening ideal are not
 formalized. Elimination of indeterminacy is obtained instead by the
-route of the chapter *Elimination of indeterminacy after Deligne and
-Conrad*, whose output is
+route of [elimination-of-indeterminacy-after-deligne-and-conrad], whose output is
 `AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap`.
 - **Boundary-separation preparation.** The preparation data of
 [lemma-nagata-separate-closed-data-exists] is replaced by

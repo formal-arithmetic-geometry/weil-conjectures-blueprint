@@ -2,7 +2,7 @@
 id = "def-nagata-separate-closed-subschemes"
 kind = "definition"
 title = "Closed-boundary separation blow-up"
-order = 386
+order = 422
 lean = ["AlgebraicGeometry.separationBlowup"]
 uses = ["def-nagata-global-blowup", "def-nagata-strict-transform", "lemma-nagata-separate-closed-data-exists"]
 +++

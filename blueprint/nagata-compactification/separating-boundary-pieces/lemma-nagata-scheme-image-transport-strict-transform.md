@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-image-transport-strict-transform"
 kind = "lemma"
 title = "Scheme-image transport to a strict transform"
-order = 400
+order = 436
 uses = ["lemma-nagata-scheme-image-affine-saturation", "lemma-nagata-scheme-image-restrict-open", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-strict-transform-closed-fiber-product", "thm-nagata-global-blowup-complement"]
 +++
 Let $h\colon T\to X\times_SY$ be quasi-compact, with

@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-quasi-affine-equal-opens"
 kind = "lemma"
 title = "Quasi-affine target over a qcqs base, $U=V$, [ConradNagata]"
-order = 591
+order = 397
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_of_isQuasiAffineHom"]
 uses = ["def-nagata-conrad-quasi-domination", "def-nagata-quasi-affine-morphism", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-quasi-affine-affine-base", "lemma-nagata-ext-scheme-theoretically-dominant-separated", "lemma-nagata-extend-admissible-blowup", "lemma-nagata-qc-open-complement-ideal-exists", "thm-nagata-blowup-product-ideal", "thm-nagata-blowup-universal-property"]
 +++

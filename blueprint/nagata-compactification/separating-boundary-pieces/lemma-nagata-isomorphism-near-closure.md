@@ -2,7 +2,7 @@
 id = "lemma-nagata-isomorphism-near-closure"
 kind = "lemma"
 title = "Property of the isomorphism-near-closure construction, [stacks-project]"
-order = 401
+order = 437
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isIso_strictTransformMap_near_closure"]
 uses = ["def-nagata-isomorphism-near-closure", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-elimination-indeterminacy", "lemma-nagata-extend-admissible-blowup", "lemma-nagata-maximal-isomorphism-open", "lemma-nagata-proper-open-dense-iso", "lemma-nagata-separate-constructible-closed", "lemma-nagata-spectral-constructible-separation", "lemma-nagata-strict-transform-over-complement", "prop-nagata-strict-transform-closed-fiber-product"]
 +++

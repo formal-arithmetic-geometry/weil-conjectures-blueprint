@@ -2,7 +2,7 @@
 id = "def-nagata-final-compactification"
 kind = "definition"
 title = "Final Nagata compactification candidate"
-order = 568
+order = 602
 lean = ["AlgebraicGeometry.NagataCompactification"]
 uses = ["def-nagata-closed-subscheme-compactification", "def-nagata-final-basechanged-compactification", "def-nagata-final-fp-envelope", "lemma-nagata-final-basechanged-compactification", "lemma-nagata-final-fp-envelope"]
 +++

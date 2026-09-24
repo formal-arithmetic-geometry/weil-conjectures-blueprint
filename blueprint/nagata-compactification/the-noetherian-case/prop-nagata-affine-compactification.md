@@ -2,7 +2,7 @@
 id = "prop-nagata-affine-compactification"
 kind = "theorem"
 title = "Property of the affine compactification construction"
-order = 474
+order = 508
 lean = ["AlgebraicGeometry.HasCompactification.of_isQuasiAffine"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-affine-compactification", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-immersion-into-proper", "lemma-nagata-projective-is-proper", "lemma-nagata-quasi-affine-immersion-affine-space", "lemma-nagata-relative-affine-space-open-immersion"]

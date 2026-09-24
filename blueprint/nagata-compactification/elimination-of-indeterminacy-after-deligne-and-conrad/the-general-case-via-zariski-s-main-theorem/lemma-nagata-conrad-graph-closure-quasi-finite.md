@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-graph-closure-quasi-finite"
 kind = "lemma"
 title = "The closed graph is quasi-finite over the blow-up, [ConradNagata]"
-order = 598
+order = 404
 lean = ["AlgebraicGeometry.exists_isAdmissible_locallyQuasiFinite_image_graph"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-quasi-affine-morphism", "def-nagata-scheme-theoretic-image", "lemma-nagata-conrad-quasi-affine-general", "lemma-nagata-invertible-product-factor", "thm-nagata-blowup-universal-property"]
 +++

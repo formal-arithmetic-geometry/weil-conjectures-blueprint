@@ -2,7 +2,7 @@
 id = "def-nagata-two-open-comparison-boundary"
 kind = "definition"
 title = "Distinguished comparison boundary"
-order = 437
+order = 473
 lean = ["AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide"]
 uses = ["def-nagata-two-open-boundary-loci", "def-nagata-two-open-comparison-space"]
 +++

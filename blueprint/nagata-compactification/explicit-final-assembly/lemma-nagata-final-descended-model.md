@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-descended-model"
 kind = "lemma"
 title = "Properties of the final descended model"
-order = 562
+order = 596
 uses = ["def-nagata-final-descended-model", "lemma-nagata-final-noetherian-base-system", "lemma-nagata-separated-eventually"]
 +++
 **Status.** Bypassed by the formalized route: the final assembly is carried

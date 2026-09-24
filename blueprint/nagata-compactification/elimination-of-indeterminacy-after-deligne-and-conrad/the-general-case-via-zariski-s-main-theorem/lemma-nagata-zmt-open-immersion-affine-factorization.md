@@ -2,7 +2,7 @@
 id = "lemma-nagata-zmt-open-immersion-affine-factorization"
 kind = "lemma"
 title = "Zariski's Main Theorem as a factorization"
-order = 599
+order = 405
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isOpenImmersion_isAffineHom_of_locallyQuasiFinite"]
 +++
 Let $f\colon X\to Y$ be separated, quasi-compact, locally quasi-finite and

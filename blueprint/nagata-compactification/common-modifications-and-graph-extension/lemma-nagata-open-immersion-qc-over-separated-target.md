@@ -2,7 +2,7 @@
 id = "lemma-nagata-open-immersion-qc-over-separated-target"
 kind = "lemma"
 title = "Quasi-compactness of an open map to a separated target"
-order = 406
+order = 442
 lean = ["AlgebraicGeometry.QuasiCompact.of_comp"]
 uses = ["lemma-nagata-finite-type-to-separated-target"]
 +++

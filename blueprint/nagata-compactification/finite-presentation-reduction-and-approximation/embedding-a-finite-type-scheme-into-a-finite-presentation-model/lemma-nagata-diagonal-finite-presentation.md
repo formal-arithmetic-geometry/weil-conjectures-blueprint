@@ -2,7 +2,7 @@
 id = "lemma-nagata-diagonal-finite-presentation"
 kind = "lemma"
 title = "Diagonal of a finite-presentation morphism"
-order = 517
+order = 551
 lean = ["AlgebraicGeometry.Scheme.Hom.diagonal_finitePresentation"]
 +++
 If $f\colon X\to S$ is of finite presentation, then the diagonal

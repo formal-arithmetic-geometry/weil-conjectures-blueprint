@@ -2,7 +2,7 @@
 id = "lemma-nagata-dense-source-valuative"
 kind = "lemma"
 title = "[stacks-project]"
-order = 423
+order = 459
 lean = ["AlgebraicGeometry.IsSeparated.of_valuativeCriterion_of_isDominant", "AlgebraicGeometry.UniversallyClosed.of_valuativeCriterion_of_isDominant"]
 +++
 Let $f\colon X\to S$ be quasi-compact and let

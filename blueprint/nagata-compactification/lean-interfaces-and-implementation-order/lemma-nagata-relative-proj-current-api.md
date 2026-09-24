@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-proj-current-api"
 kind = "lemma"
 title = "Relative Proj is realized by the current gluing API"
-order = 552
+order = 586
 uses = ["lemma-nagata-relative-proj-exists", "lemma-nagata-relative-proj-invertible-tensor-powers", "prop-nagata-relative-proj-functoriality", "thm-nagata-global-blowup-projective"]
 +++
 **Status.** Bypassed by the formalized route: this lemma is the record of

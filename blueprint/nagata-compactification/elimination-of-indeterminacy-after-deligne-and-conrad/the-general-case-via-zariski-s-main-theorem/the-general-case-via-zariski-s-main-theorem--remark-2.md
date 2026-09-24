@@ -2,13 +2,15 @@
 id = "the-general-case-via-zariski-s-main-theorem--remark-2"
 kind = "remark"
 title = "Formalization route: Tag 081S from Theorem 2.4 and Zariski's Main Theorem"
-order = 607
+order = 413
 +++
 [lemma-nagata-elimination-indeterminacy] (Stacks Tag 081S) is
-formalized along this chapter, not along the module-flattening chain
+formalized along this section, not along the module-flattening chain
 ([lemma-nagata-finite-data-flattening-package] to
 [lemma-nagata-dense-open-dimension-package]). The bridge is the
-following argument, which uses no further input.
+following argument, which uses no further input; it is carried out as the
+construction [def-nagata-elimination-indeterminacy] and the proof of
+[lemma-nagata-elimination-indeterminacy] at the end of this section.
 
 Let $X$ be qcqs, let $U\subseteq X$ be a quasi-compact open and let
 $q\colon Z\to X$ be separated and of finite type with a chosen isomorphism

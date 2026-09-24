@@ -2,7 +2,7 @@
 id = "lemma-nagata-prepared-boundaries"
 kind = "lemma"
 title = "Properties of the prepared boundary closures"
-order = 433
+order = 469
 lean = ["AlgebraicGeometry.exists_prepared_twoOpenSide"]
 uses = ["def-nagata-two-open-prepared-boundaries", "lemma-nagata-blowup-proper", "lemma-nagata-boundary-loci", "lemma-nagata-separate-constructible-closed"]
 +++

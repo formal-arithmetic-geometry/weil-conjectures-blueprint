@@ -2,7 +2,7 @@
 id = "lemma-nagata-intermediate-overlap-specialization-closed"
 kind = "lemma"
 title = "Specialization stability inside the boundary complement"
-order = 448
+order = 484
 lean = ["AlgebraicGeometry.TwoOpenSide.isClosedImmersion_intermediateGraph"]
 uses = ["def-nagata-two-open-intermediate-schemes", "lemma-nagata-intermediate-specialization-boundary", "lemma-nagata-two-open-graph-extensions"]
 +++

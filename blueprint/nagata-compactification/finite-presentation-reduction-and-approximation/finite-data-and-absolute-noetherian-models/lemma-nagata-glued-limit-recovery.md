@@ -2,7 +2,7 @@
 id = "lemma-nagata-glued-limit-recovery"
 kind = "lemma"
 title = "Recovery of the glued limit"
-order = 502
+order = 536
 uses = ["def-nagata-glued-limit-comparison", "lemma-nagata-glue-noetherian-stage", "lemma-nagata-ring-finite-type-subalgebras"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

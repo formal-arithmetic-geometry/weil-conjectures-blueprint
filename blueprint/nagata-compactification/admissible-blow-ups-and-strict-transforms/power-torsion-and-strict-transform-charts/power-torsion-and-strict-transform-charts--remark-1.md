@@ -17,8 +17,7 @@ in the dévissage sections of Stacks §§38.4–38.10, which exist neither
 in Mathlib nor in this blueprint.
 
 Tag 081S is instead formalized along Conrad's Theorem 2.4 and Zariski's Main
-Theorem: see the chapter ``Elimination of indeterminacy after Deligne and
-Conrad'', whose main results are
+Theorem: see [elimination-of-indeterminacy-after-deligne-and-conrad], whose main results are
 [thm-nagata-conrad-elimination] and
 [cor-nagata-conrad-proper-target-extension], and the route remark that
 closes it. Both external inputs are available: Zariski's Main Theorem is in

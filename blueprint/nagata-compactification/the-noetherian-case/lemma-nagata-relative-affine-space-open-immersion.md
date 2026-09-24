@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-affine-space-open-immersion"
 kind = "lemma"
 title = "The standard affine chart in relative projective space"
-order = 468
+order = 503
 lean = ["AlgebraicGeometry.AffineSpace.isOpenImmersion_toRelativeProjectiveSpace"]
 uses = ["def-nagata-relative-affine-space", "def-nagata-relative-projective-space", "lemma-nagata-relative-affine-space-charts", "lemma-nagata-relative-proj-exists"]
 +++

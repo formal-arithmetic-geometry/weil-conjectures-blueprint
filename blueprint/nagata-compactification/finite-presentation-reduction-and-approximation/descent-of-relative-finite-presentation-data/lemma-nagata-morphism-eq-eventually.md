@@ -2,7 +2,7 @@
 id = "lemma-nagata-morphism-eq-eventually"
 kind = "lemma"
 title = "Eventual equality of morphisms, [stacks-project]"
-order = 535
+order = 569
 uses = ["def-nagata-morphism-equality-stage", "lemma-nagata-directed-finite-upper-bound", "lemma-nagata-qc-open-eq-eventually"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

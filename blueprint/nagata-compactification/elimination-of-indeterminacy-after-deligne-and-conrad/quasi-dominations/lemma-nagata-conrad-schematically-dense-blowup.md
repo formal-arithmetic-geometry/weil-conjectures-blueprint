@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-schematically-dense-blowup"
 kind = "lemma"
 title = "An admissible blow-up making the open scheme-theoretically dense"
-order = 580
+order = 384
 lean = ["AlgebraicGeometry.IsAdmissible.exists_comp_isSchemeTheoreticallyDominant_preimage", "AlgebraicGeometry.exists_isAdmissible_isSchemeTheoreticallyDominant_preimage"]
 uses = ["def-nagata-admissible-blowup", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-qc-open-complement-ideal-exists"]
 +++

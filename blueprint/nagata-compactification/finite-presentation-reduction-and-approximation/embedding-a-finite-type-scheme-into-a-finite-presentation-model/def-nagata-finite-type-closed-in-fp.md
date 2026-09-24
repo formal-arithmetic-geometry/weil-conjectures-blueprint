@@ -2,7 +2,7 @@
 id = "def-nagata-finite-type-closed-in-fp"
 kind = "definition"
 title = "Separated finite-presentation envelope"
-order = 522
+order = 556
 uses = ["def-nagata-finite-type-fp-model-system", "def-nagata-fixed-base-separated-stage"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

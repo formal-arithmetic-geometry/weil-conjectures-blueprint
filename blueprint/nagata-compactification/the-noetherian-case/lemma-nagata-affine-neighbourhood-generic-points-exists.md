@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-neighbourhood-generic-points-exists"
 kind = "lemma"
 title = "Existence of an affine neighbourhood through finitely many generic points, [stacks-project]"
-order = 475
+order = 509
 +++
 **Status.** Bypassed by the formalized route: the affine cover meeting the
 selected generic points is produced in one step by
