@@ -4,7 +4,7 @@ kind = "definition"
 title = "Prepared ambient schemes with separated boundary closures"
 order = 532
 lean = ["AlgebraicGeometry.TwoOpenSide.Prepared"]
-uses = ["def-nagata-separate-constructible-closed", "def-nagata-two-open-boundary-loci"]
+uses = ["def-nagata-separate-constructible-closed", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions"]
 +++
 For $\{i,j\}=\{1,2\}$, define
 

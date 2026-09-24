@@ -3,7 +3,7 @@ id = "constructible-sheaves-formalized"
 kind = "section"
 title = "Constructible sheaves on the étale site (formalized account)"
 order = 1437
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "lemma-openclosed-stalk-upperstar", "lemma-openclosed-vanishing-lowerstar", "lemma-weil-pbc-geometric-stalk-conservative", "prop-openclosed-lowerstar-fully-faithful", "prop-weil-pbc-geometric-stalks-exact", "thm-weil-pbc-universal-homeomorphism-invariance"]
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "lemma-openclosed-point-ulift", "lemma-openclosed-stalk-lowerstar", "lemma-openclosed-stalk-upperstar", "lemma-openclosed-vanishing-lowerstar", "lemma-weil-pbc-geometric-stalk-conservative", "prop-openclosed-lowerstar-fully-faithful", "prop-weil-pbc-geometric-stalks-exact", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 The Lean development's account of constructible étale sheaves: nearly all of
 it is formalized. The detailed route of this blueprint does not cite it; it

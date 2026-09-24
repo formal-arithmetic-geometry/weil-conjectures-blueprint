@@ -5,7 +5,7 @@ title = "Finite generation over degree zero"
 order = 269
 lean = ["AlgebraicGeometry.finiteType_reesGrading_zero"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-sum-components"]
+uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-piece-mul", "lemma-nagata-rees-sum-components"]
 +++
 If $I=(f_0,\ldots,f_r)$, then $\mathcal R_A(I)$ is generated as an algebra
 over its degree-zero piece by $f_0t,\ldots,f_rt$. In particular it is of

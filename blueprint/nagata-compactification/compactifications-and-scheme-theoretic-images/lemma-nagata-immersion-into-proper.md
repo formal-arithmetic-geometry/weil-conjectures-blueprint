@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The immersion construction is a compactification"
 order = 157
 lean = ["AlgebraicGeometry.HasCompactification.of_isImmersion"]
-uses = ["def-nagata-compactifiable", "def-nagata-immersion-compactification", "lemma-nagata-immersion-open-in-scheme-image"]
+uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-immersion-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 The constructed factorization $\mathsf C(g)$ is a compactification of
 $X\to S$.

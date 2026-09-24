@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Gluing the projections"
 order = 627
 lean = ["AlgebraicGeometry.ChowGraph.modificationMap", "AlgebraicGeometry.ChowGraph.projPreimage", "AlgebraicGeometry.ChowGraph.projRestrict"]
-uses = ["def-nagata-extended-ideal", "def-nagata-scheme-image-comparison", "def-weil-pbc-scheme-conventions", "lem-chow-agree-on-dense-open", "lem-chow-graph", "lemma-nagata-dense-flat-pullback", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
+uses = ["def-nagata-affine-proj", "def-nagata-dense-compactification", "def-nagata-extended-ideal", "def-nagata-projective-space-base-change", "def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-chow-agree-on-dense-open", "lem-chow-closed-model", "lem-chow-graph", "lem-chow-tuple-immersion", "lemma-nagata-dense-flat-pullback", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
 +++
 In the situation of [lem-chow-graph] put $V_i:=p_i^{-1}(U_i)$ and
 $X':=V_1\cup\dots\cup V_m$, an open subscheme of $Z$. Then the morphisms

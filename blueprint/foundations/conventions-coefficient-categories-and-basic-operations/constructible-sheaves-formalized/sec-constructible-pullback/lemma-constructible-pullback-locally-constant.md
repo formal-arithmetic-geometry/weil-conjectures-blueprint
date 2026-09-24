@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Pullback of locally constant sheaves"
 order = 1449
 lean = ["AlgebraicGeometry.Scheme.Etale.overEquiv", "AlgebraicGeometry.Scheme.IsLocallyConstantSheaf.upperStar", "AlgebraicGeometry.Scheme.isConstant_over_iff_upperStar"]
-uses = ["def-constructible-locally-constant", "lemma-constructible-pullback-constant"]
+uses = ["def-constructible-constant", "def-constructible-locally-constant", "lemma-constructible-pullback-constant"]
 +++
 Let $g\colon Y\to X$ be a morphism and let $\mathcal F\in\shv{\et X}$ be
 locally constant. Then $g^*\mathcal F$ is locally constant.

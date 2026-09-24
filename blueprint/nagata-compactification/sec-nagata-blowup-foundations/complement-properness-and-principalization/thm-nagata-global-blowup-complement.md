@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Complement of the center"
 order = 316
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isIso_blowupMap_restrict_support_compl"]
-uses = ["def-nagata-global-blowup-cover-comparison", "lemma-nagata-affine-blowup-complement", "lemma-nagata-ideal-unit-off-support", "prop-nagata-global-blowup-affine-restrict", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "lemma-nagata-affine-blowup-complement", "lemma-nagata-ideal-unit-off-support", "prop-nagata-global-blowup-affine-restrict", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $U=X\setminus V(\mathcal I)$. The restriction
 

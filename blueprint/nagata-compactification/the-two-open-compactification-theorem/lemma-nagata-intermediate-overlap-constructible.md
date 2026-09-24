@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Constructibility of the overlap image"
 order = 548
 lean = ["AlgebraicGeometry.TwoOpenSide.isClosedImmersion_intermediateGraph"]
-uses = ["def-nagata-two-open-intermediate-schemes", "lemma-nagata-proper-extension-graph-closed"]
+uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-boundary-loci", "lemma-nagata-proper-extension-graph-closed", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 The image of
 

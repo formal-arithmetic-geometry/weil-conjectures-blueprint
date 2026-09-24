@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Nagata compactification over a Noetherian base"
 order = 586
 lean = ["AlgebraicGeometry.nagataCompactification_of_isNoetherian"]
-uses = ["def-nagata-compactification", "def-nagata-noetherian-compactification"]
+uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-dense-affine-cover", "def-nagata-noetherian-compactification", "def-nagata-partial-affine-unions", "lemma-nagata-dense-affine-cover"]
 +++
 The recursively constructed factorization
 $\mathsf C_{\mathrm{Noeth}}(X/S)$ is a compactification of $X\to S$.

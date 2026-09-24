@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Immersion into a finite-presentation model, [stacks-project]"
 order = 192
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isImmersion_locallyOfFinitePresentation"]
-uses = ["lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-noetherian-inverse-system"]
+uses = ["def-nagata-noetherian-inverse-system", "def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-noetherian-inverse-system"]
 +++
 Let $S$ be quasi-compact and quasi-separated and let $f\colon X\to S$ be
 quasi-compact and locally of finite type with $X$ quasi-compact and

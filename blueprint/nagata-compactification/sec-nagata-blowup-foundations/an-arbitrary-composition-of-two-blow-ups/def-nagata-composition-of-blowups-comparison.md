@@ -4,7 +4,7 @@ kind = "definition"
 title = "Comparison for a composite of arbitrary blow-ups"
 order = 398
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_comp"]
-uses = ["def-nagata-blowup-product-comparison", "def-nagata-composition-center-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-blowup-invertible-factor", "lemma-nagata-composition-center-ideal", "prop-nagata-global-blowup-cover-independent"]
+uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-blowup-product-comparison", "def-nagata-blowup-product-domination-maps", "def-nagata-composition-center-ideal", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-invertible-ideal", "def-nagata-proj-closed-center-finite-degree", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-blowup-invertible-factor", "lemma-nagata-blowup-universal-unique", "lemma-nagata-composition-center-ideal", "lemma-nagata-invertible-ideal-tensor-power", "lemma-nagata-localization-ideal-pow", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-product-ideal", "thm-nagata-blowup-universal-property"]
 +++
 Let $X$, $\mathcal I$, $X'$, $b$, $Z'$, $d$, and $\mathcal J(Z')$ be as in
 [def-nagata-composition-center-ideal], and let the second blow-up be

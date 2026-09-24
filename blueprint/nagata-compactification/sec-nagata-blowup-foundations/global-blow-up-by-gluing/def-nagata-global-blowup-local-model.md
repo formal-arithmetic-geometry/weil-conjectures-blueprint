@@ -4,7 +4,7 @@ kind = "definition"
 title = "Local blow-up model on an affine open"
 order = 295
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowupFunctor"]
-uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "lemma-nagata-affine-blowup-restrict-cocycle", "lemma-nagata-rees-generators-cover-proj", "prop-nagata-proj-standard-open"]
+uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-affine-blowup-restrict-cocycle", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded"]
 +++
 Let $\mathcal I\subseteq\mathcal O_X$ be quasi-coherent and let
 $V=\operatorname{Spec}(A)\subseteq X$ be affine. Put

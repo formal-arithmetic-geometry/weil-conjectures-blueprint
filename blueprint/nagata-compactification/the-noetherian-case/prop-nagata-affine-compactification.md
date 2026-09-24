@@ -5,7 +5,7 @@ title = "Property of the affine compactification construction"
 order = 574
 lean = ["AlgebraicGeometry.HasCompactification.of_isQuasiAffine"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-affine-compactification", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-immersion-into-proper", "lemma-nagata-projective-space-base-change-proper", "lemma-nagata-quasi-affine-immersion-affine-space", "lemma-nagata-relative-affine-space-open-immersion"]
+uses = ["def-nagata-affine-compactification", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-relative-affine-space", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-immersion-into-proper", "lemma-nagata-projective-space-base-change-proper", "lemma-nagata-quasi-affine-immersion-affine-space", "lemma-nagata-quasi-affine-immersion-affine-space-exists", "lemma-nagata-relative-affine-space-open-immersion"]
 +++
 The constructed factorization $\mathsf C_{\mathrm{aff}}(U/S)$ is a
 compactification of $U\to S$. Consequently, if $U$ is a quasi-affine

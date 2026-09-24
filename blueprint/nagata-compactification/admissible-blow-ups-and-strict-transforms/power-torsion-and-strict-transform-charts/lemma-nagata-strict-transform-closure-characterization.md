@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Scheme-theoretic closure characterization"
 order = 427
 lean = ["AlgebraicGeometry.strictTransform"]
-uses = ["lemma-nagata-power-torsion-kernel-localization", "lemma-nagata-power-torsion-quotient-torsionfree", "prop-nagata-strict-transform-closed-fiber-product"]
+uses = ["def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-power-torsion-kernel-localization", "lemma-nagata-power-torsion-quotient-torsionfree", "lemma-nagata-scheme-image-ideal-qc", "prop-nagata-strict-transform-closed-fiber-product"]
 +++
 Let $f\colon Y\to X$, let $\mathcal I$ be a finite-type quasi-coherent
 ideal on $X$, put $X'=\operatorname{Bl}_{\mathcal I}(X)$, and let

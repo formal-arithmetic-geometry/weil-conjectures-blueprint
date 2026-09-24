@@ -5,7 +5,7 @@ title = "Graded localization of the Rees algebra"
 order = 287
 lean = ["AlgebraicGeometry.AffineBlowup.isLocalization_away_map"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-localization-map", "lemma-nagata-localization-ideal-pow", "lemma-nagata-localization-rees-piece", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "prop-nagata-rees-graded"]
+uses = ["def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-localization-ideal-pow", "lemma-nagata-localization-rees-piece", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-rees-graded"]
 +++
 The map $\rho_s$ is a graded ring equivalence.
 

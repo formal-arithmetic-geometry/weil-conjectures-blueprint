@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Independence of the scheme structure"
 order = 1455
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.upperStar_of_range_subset", "AlgebraicGeometry.Scheme.isFiniteLocallyConstantSheaf_upperStar_iff_of_range_eq"]
-uses = ["lemma-constructible-iso-invariance", "lemma-constructible-pullback-stratification", "lemma-constructible-universal-homeomorphism-invariance", "prop-constructible-pullback"]
+uses = ["def-constructible-finite-locally-constant", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-stratification", "lemma-constructible-universal-homeomorphism-invariance", "prop-constructible-pullback"]
 +++
 Let $a\colon Z\to X$ and $b\colon Z'\to X$ be immersions with the same
 image. Then $a^*\mathcal F$ is finite locally constant if and only if

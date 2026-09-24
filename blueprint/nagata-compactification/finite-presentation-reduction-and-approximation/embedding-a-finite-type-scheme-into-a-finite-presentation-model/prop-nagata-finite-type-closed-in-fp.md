@@ -5,7 +5,7 @@ title = "Properties of the separated finite-presentation envelope, [stacks-proje
 order = 206
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_isSeparated_locallyOfFinitePresentation"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-finite-type-closed-in-fp", "lemma-nagata-finite-type-fp-model-system", "lemma-nagata-fixed-base-separated-eventually"]
+uses = ["def-nagata-finite-type-closed-in-fp", "def-nagata-finite-type-fp-model-system", "lemma-nagata-finite-type-fp-model-system", "lemma-nagata-fixed-base-separated-eventually", "lemma-nagata-fixed-base-separated-stage-exists"]
 +++
 The constructed morphism $X^{\mathrm{fp}}\to S$ is separated and of
 finite presentation, and the constructed map

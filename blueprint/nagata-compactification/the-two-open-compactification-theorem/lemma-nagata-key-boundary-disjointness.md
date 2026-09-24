@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Key boundary disjointness"
 order = 545
 lean = ["AlgebraicGeometry.TwoOpenSide.KeyDisjoint"]
-uses = ["lemma-nagata-comparison-boundary-density", "lemma-nagata-prepared-boundaries", "lemma-nagata-two-open-comparison-boundary"]
+uses = ["def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-comparison-space", "def-nagata-two-open-graph-extensions", "lemma-nagata-comparison-boundary-density", "lemma-nagata-prepared-boundaries", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-two-open-comparison-boundary"]
 +++
 Inside $X_1\times_SX_2$ one has
 

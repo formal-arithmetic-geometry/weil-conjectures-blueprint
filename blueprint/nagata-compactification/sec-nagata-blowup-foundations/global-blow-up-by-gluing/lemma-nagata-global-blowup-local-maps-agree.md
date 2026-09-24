@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Compatibility of the local structure maps"
 order = 305
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowupι_blowupMap"]
-uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "prop-nagata-affine-blowup-restrict"]
+uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-global-blowup", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-diagonal-base-change", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-affine-blowup-restrict", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded"]
 +++
 On every overlap, the two local structure maps to $X$ agree after applying
 the constructed overlap map $\omega_{ij}$.

@@ -4,7 +4,7 @@ kind = "definition"
 title = "Recursive Noetherian compactification construction"
 order = 585
 lean = ["AlgebraicGeometry.noetherianCompactificationConstruction"]
-uses = ["def-nagata-affine-compactification", "def-nagata-dense-affine-cover", "def-nagata-partial-affine-unions", "def-nagata-two-open-compactification-candidate", "lemma-nagata-partial-union-overlap-dense", "prop-nagata-affine-compactification", "thm-nagata-two-open"]
+uses = ["def-nagata-affine-compactification", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-dense-affine-cover", "def-nagata-partial-affine-unions", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-compactification-candidate", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-final-density", "lemma-nagata-partial-union-overlap-dense", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-two-open-candidate-proper", "lemma-nagata-two-open-valuative-lifting", "prop-nagata-affine-compactification", "thm-nagata-two-open"]
 +++
 Let $S$ be Noetherian and let $X\to S$ be separated and of finite type.
 Then $X$ is Noetherian, hence qcqs, and the finite generic-point argument

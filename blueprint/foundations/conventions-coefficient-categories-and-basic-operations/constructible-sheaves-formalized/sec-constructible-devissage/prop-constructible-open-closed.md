@@ -5,7 +5,7 @@ title = "Open–closed criterion"
 order = 1467
 lean = ["AlgebraicGeometry.Scheme.Stratification.openClosed", "AlgebraicGeometry.Scheme.isConstructibleSheaf_iff_upperStar"]
 tags = ["latex:proposition"]
-uses = ["def-constructible-constructible", "lemma-constructible-iso-invariance", "prop-constructible-pullback"]
+uses = ["def-constructible-constructible", "def-constructible-finite-locally-constant", "def-constructible-stratification", "lemma-constructible-iso-invariance", "prop-constructible-pullback"]
 +++
 A sheaf $\mathcal F\in\shv{\et X}$ is constructible if and only if
 $j^*\mathcal F$ and $i^*\mathcal F$ are constructible.

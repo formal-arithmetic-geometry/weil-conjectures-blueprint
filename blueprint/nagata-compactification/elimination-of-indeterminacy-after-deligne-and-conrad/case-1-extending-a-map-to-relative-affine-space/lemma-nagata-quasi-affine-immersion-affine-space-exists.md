@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Existence of an affine-space immersion for a quasi-affine scheme, [stacks-project]"
 order = 458
 lean = ["AlgebraicGeometry.exists_immersion_affineSpace_of_quasiAffine"]
-uses = ["def-nagata-relative-affine-space", "def-nagata-scheme-image-factor", "lemma-nagata-immersion-open-in-scheme-image"]
+uses = ["def-nagata-relative-affine-space", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Let $X$ be a quasi-affine scheme and let $X\to S$ be a morphism that is
 locally of finite type. There is an integer $n$ and an immersion

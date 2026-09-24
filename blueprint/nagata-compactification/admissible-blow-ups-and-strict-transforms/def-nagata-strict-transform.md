@@ -4,7 +4,7 @@ kind = "definition"
 title = "Strict transform"
 order = 402
 lean = ["AlgebraicGeometry.strictTransform"]
-uses = ["def-nagata-global-blowup", "def-nagata-scheme-theoretic-closure"]
+uses = ["def-nagata-global-blowup", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++
 Let $Z\to X$ be a morphism and let $X'\to X$ be the blow-up of a
 finite-presentation center $C\subseteq X$. Put $U=X\setminus C$; then

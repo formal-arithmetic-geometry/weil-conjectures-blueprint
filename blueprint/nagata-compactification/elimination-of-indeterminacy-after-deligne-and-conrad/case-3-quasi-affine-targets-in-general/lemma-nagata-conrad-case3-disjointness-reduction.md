@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The disjointness reduction in Case 3, [ConradNagata]"
 order = 467
 lean = ["AlgebraicGeometry.exists_isAdmissible_disjoint_closure_range_of_le"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-scheme-theoretic-image", "lemma-nagata-conrad-disjointness-blowup", "lemma-nagata-finite-type-ideal-compact", "lemma-nagata-finite-type-ideal-power-in-ideal", "lemma-nagata-ideal-directed-union-finite-type", "lemma-nagata-qc-open-complement-ideal-exists", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-conrad-disjointness-blowup", "lemma-nagata-finite-type-ideal-compact", "lemma-nagata-finite-type-ideal-power-in-ideal", "lemma-nagata-ideal-directed-union-finite-type", "lemma-nagata-localization-ideal-pow", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be qcqs, let $U\subseteq V\subseteq X$ be quasi-compact open
 subschemes, let $p\colon Y\to X$ be a morphism with $Y$ qcqs, and let

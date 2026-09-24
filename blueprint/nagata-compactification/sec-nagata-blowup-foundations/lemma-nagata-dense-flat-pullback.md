@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Scheme-theoretic density survives flat pullback"
 order = 257
 lean = ["AlgebraicGeometry.IsSchemeTheoreticallyDominant.of_isPullback"]
-uses = ["def-nagata-dense-compactification", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-flat-base-change"]
+uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-flat-base-change", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Let $h\colon U\to X$ be quasi-compact and quasi-separated with
 scheme-theoretic image $X$, and let

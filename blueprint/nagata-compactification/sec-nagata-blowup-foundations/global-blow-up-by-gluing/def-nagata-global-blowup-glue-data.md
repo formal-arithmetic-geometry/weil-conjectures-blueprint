@@ -4,7 +4,7 @@ kind = "definition"
 title = "Raw global blow-up gluing datum"
 order = 302
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowupGluingData"]
-uses = ["def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "lemma-nagata-global-blowup-overlap-cocycle", "lemma-nagata-global-blowup-overlap-id-symm", "lemma-nagata-global-blowup-overlap-independent", "lemma-nagata-rees-generators-cover-proj", "prop-nagata-proj-standard-open"]
+uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-global-blowup-overlap-cocycle", "lemma-nagata-global-blowup-overlap-id-symm", "lemma-nagata-global-blowup-overlap-independent", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded"]
 +++
 Fix an affine cover $(V_i)_i$ of $X$. Define
 $\mathsf G(X,\mathcal I,(V_i))$ to consist of the local schemes

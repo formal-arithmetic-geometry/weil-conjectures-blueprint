@@ -4,7 +4,7 @@ kind = "lemma"
 title = "[stacks-project]"
 order = 382
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.of_mul_left"]
-uses = ["def-nagata-effective-cartier-ideal", "lemma-nagata-ideal-invertible-product-factor"]
+uses = ["def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal", "lemma-nagata-ideal-invertible-product-factor"]
 +++
 Let $X$ be a scheme and let $\mathcal I,\mathcal J$ be quasi-coherent
 ideals on $X$. If the product

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Existence of a separated stage, absolute case, [stacks-project]"
 order = 201
 lean = ["AlgebraicGeometry.Scheme.exists_isSeparated_of_isLimit"]
-uses = ["lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-theoretic-closure-minimal"]
+uses = ["def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
 +++
 Let $Y=\varprojlim_\alpha Y_\alpha$ be a cofiltered limit of qcqs schemes with
 affine transition maps. If $Y$ is separated, then there is an index

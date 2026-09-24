@@ -4,7 +4,7 @@ kind = "definition"
 title = "Affine blow-up restriction morphism"
 order = 291
 lean = ["AlgebraicGeometry.AffineBlowup.hom"]
-uses = ["def-nagata-affine-blowup", "def-nagata-rees-localization-map", "lemma-nagata-localization-ideal-pow", "prop-nagata-relative-proj-functoriality"]
+uses = ["def-nagata-affine-blowup", "def-nagata-affine-proj", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-piece-membership", "prop-nagata-rees-graded", "prop-nagata-relative-proj-functoriality"]
 +++
 Define
 

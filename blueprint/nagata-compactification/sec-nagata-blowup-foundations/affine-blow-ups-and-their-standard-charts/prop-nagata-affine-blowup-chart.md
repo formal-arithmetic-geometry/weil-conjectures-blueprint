@@ -5,7 +5,7 @@ title = "Affine chart identification"
 order = 280
 lean = ["AlgebraicGeometry.AffineBlowup.chart"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-affine-blowup-chart-map", "lemma-nagata-homogeneous-away-to-chart-injective", "lemma-nagata-homogeneous-away-to-chart-surjective"]
+uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-affine-proj", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-homogeneous-away-to-chart-injective", "lemma-nagata-homogeneous-away-to-chart-surjective", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded"]
 +++
 The constructed morphism $\chi_a$ is an isomorphism over
 $\operatorname{Spec}(A)$.

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Separatedness of the intermediate schemes"
 order = 552
 lean = ["AlgebraicGeometry.TwoOpenSide.isSeparated_intermediateHom"]
-uses = ["def-nagata-two-open-intermediate-schemes", "lemma-nagata-intermediate-overlap-closed", "lemma-nagata-separated-two-open-cover"]
+uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-boundary-loci", "lemma-nagata-intermediate-overlap-closed", "lemma-nagata-intermediate-overlap-constructible", "lemma-nagata-intermediate-overlap-specialization-closed", "lemma-nagata-intermediate-specialization-boundary", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-separated-two-open-cover"]
 +++
 Each $W_i\to S$ is separated and of finite type.
 

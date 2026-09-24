@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Reduction to a closed subscheme of the target"
 order = 476
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_partialSection_of_isClosedImmersion"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup-cover-comparison", "def-nagata-scheme-image-factor", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $i\colon Y'\hookrightarrow Y$ be a closed immersion of $X$-schemes and
 suppose the section $f\colon U\to Y$ factors as $f=i\circ f'$ through $Y'$.

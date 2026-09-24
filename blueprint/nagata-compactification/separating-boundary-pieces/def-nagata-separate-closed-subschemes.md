@@ -4,7 +4,7 @@ kind = "definition"
 title = "Closed-boundary separation blow-up"
 order = 488
 lean = ["AlgebraicGeometry.separationBlowup"]
-uses = ["def-nagata-global-blowup", "def-nagata-strict-transform", "lemma-nagata-separate-closed-data-exists"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "def-nagata-strict-transform", "lemma-nagata-localization-ideal-pow", "lemma-nagata-separate-closed-data-exists"]
 +++
 Under the hypotheses of
 [lemma-nagata-separate-closed-data-exists], choose its center

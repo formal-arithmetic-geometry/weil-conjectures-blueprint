@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Flat base change of the affine image kernel"
 order = 151
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_pullback_snd"]
-uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-factor", "lemma-nagata-affine-image-kernel-localization", "lemma-nagata-scheme-image-of-closed-immersion"]
+uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-affine-image-kernel-localization", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Let $A\to B$ be flat, let $T\to\operatorname{Spec}(A)$ be quasi-compact
 and quasi-separated, and put

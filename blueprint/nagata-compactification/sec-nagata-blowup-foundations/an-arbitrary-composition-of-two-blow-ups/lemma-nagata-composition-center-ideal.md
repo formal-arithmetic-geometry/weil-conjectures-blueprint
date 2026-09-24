@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Support of the constructed composition center"
 order = 396
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteDegree_center"]
-uses = ["def-nagata-composition-center-ideal", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-proj-closed-center-finite-degree", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-composition-center-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "lemma-nagata-affine-blowup-complement", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-localization-ideal-pow", "lemma-nagata-proj-closed-center-finite-degree", "lemma-nagata-proj-closed-center-finite-degree-exists", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement", "thm-nagata-global-blowup-proper"]
 +++
 Under the hypotheses of
 [def-nagata-composition-center-ideal], the ideal $\mathcal K(Z')$ is

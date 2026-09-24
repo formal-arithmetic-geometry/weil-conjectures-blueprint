@@ -4,7 +4,7 @@ kind = "lemma"
 title = "[stacks-project]"
 order = 511
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_lift_admissibleBlowup"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-extended-ideal", "def-nagata-global-blowup-cover-comparison", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "lemma-nagata-dense-flat-pullback", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-transport-strict-transform", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "lemma-nagata-dense-flat-pullback", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-transport-strict-transform", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
 +++
 Let $V\to X\times_SY$ be quasi-compact and quasi-separated, and assume its
 projection to $X$ factors through an open $U\subseteq X$. Let $Z$ be its

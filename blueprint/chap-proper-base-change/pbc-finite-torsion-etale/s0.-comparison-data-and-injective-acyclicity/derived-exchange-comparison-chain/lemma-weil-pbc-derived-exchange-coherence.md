@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Resolution independence, identities, and pasting"
 order = 1647
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_ext", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
-uses = ["def-weil-pbc-derived-exchange", "lemma-nagata-diagonal-base-change", "lemma-nagata-localization-ideal-pow", "lemma-weil-pbc-derived-exchange-replacement"]
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-underived-exchange", "lemma-nagata-diagonal-base-change", "lemma-nagata-localization-ideal-pow", "lemma-weil-pbc-derived-exchange-replacement"]
 +++
 The class $\operatorname{Ex}_{\square,K}$ is independent of the injective
 resolution and is compatible with identity squares, horizontal pasting, and

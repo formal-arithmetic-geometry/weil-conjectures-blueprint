@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Base change equivalence for universal homeomorphisms"
 order = 1772
 lean = ["AlgebraicGeometry.Scheme.Hom.etaleEquivalence", "AlgebraicGeometry.Scheme.Hom.isEquivalence_etale"]
-uses = ["def-nagata-rees-algebra", "def-nagata-scheme-image-factor", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-diagonal-base-change", "lemma-nagata-localization-ideal-pow", "lemma-nagata-open-immersion-qc-over-separated-target"]
+uses = ["def-nagata-rees-algebra", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-diagonal-base-change", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-localization-ideal-pow", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Let $u:X_0\to X$ be a universal homeomorphism. Base change gives an
 equivalence between etale $X$-schemes and etale $X_0$-schemes.

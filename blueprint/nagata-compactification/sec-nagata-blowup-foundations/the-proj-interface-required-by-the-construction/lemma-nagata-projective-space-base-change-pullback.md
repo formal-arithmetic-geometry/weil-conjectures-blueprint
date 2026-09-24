@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Projective space commutes with base change"
 order = 254
 lean = ["AlgebraicGeometry.ProjectiveSpace.isPullback_map"]
-uses = ["def-nagata-projective-space-base-change"]
+uses = ["def-nagata-affine-proj", "def-nagata-projective-space-base-change"]
 +++
 For every index set $n$ and every morphism of schemes $g\colon X\to S$, the
 square

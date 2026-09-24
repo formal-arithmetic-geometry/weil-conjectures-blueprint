@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properties of the chosen graph extensions"
 order = 533
 lean = ["AlgebraicGeometry.exists_prepared_twoOpenSide"]
-uses = ["def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-separate-constructible-closed", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-graph-extension", "lemma-nagata-separate-constructible-closed", "lemma-nagata-two-open-dense-compactifications", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-graph-extension", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-separate-constructible-closed", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-dense-compactifications", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-admissible-blowup-over-open", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-graph-extension", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-separate-constructible-closed", "lemma-nagata-two-open-dense-compactifications", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
 Each replacement $X_i\to X_i^{\mathrm{old}}$ is $U_i$-admissible;
 the resulting structural morphism $X_i\to S$ is proper;

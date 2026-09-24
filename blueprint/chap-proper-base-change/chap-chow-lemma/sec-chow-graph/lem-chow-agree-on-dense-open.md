@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Two morphisms agreeing on a scheme-theoretically dense open"
 order = 625
 lean = ["AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant"]
-uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-closed-immersion-products", "lemma-nagata-scheme-image-of-closed-immersion"]
+uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-closed-immersion-products", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Let $T$ and $Y$ be schemes over $S$ with $Y\to S$ separated, let
 $a,b\colon T\to Y$ be morphisms of $S$-schemes and let $V\subseteq T$ be a

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Disjoint boundary closures persist"
 order = 535
 lean = ["AlgebraicGeometry.disjoint_range_strictTransformMap_of_disjoint"]
-uses = ["lemma-nagata-strict-transform-restrict"]
+uses = ["def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-strict-transform-restrict"]
 +++
 If $\overline Z_{i,i}$ and $\overline Z_{i,j}$ are disjoint, then their
 strict transforms remain disjoint after every further $V_i$-admissible

@@ -5,7 +5,7 @@ title = "Finite affine chart cover"
 order = 311
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.iSup_opensRange_blowupι_eq_top"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-global-blowup-cover-comparison", "lemma-nagata-rees-generators-cover-proj", "prop-nagata-affine-blowup-chart", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-global-blowup", "def-nagata-global-blowup-affine-restriction-map", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-map", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-diagonal-base-change", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-affine-blowup-chart", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded"]
 +++
 If $I=(f_0,\ldots,f_r)$, the affine opens
 

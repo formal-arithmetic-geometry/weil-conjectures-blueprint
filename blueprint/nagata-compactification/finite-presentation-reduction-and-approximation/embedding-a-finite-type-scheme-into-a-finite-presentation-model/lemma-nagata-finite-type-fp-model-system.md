@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properties of the finite-presentation model system, [stacks-project]"
 order = 199
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_locallyOfFinitePresentation", "AlgebraicGeometry.Scheme.Hom.nonempty_finitePresentationApproximation"]
-uses = ["def-nagata-finite-type-fp-model-system", "lemma-nagata-closed-subscheme-fp-system", "lemma-nagata-immersion-into-fp-model", "lemma-nagata-immersion-shrink-to-closed"]
+uses = ["def-nagata-closed-subscheme-fp-system", "def-nagata-finite-type-fp-model-system", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-closed-subscheme-fp-system", "lemma-nagata-immersion-into-fp-model", "lemma-nagata-immersion-shrink-to-closed", "lemma-nagata-immersion-shrink-to-closed-exists", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Every $X_\alpha\to S$ is of finite presentation, every transition map is a
 closed immersion, every $i_\alpha$ is a closed immersion, and

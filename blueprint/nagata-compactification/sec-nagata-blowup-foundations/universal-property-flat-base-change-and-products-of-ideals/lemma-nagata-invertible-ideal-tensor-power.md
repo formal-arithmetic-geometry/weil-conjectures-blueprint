@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Tensor powers of an invertible ideal"
 order = 343
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.pow"]
-uses = ["def-nagata-invertible-ideal", "lemma-nagata-invertible-ideal-is-effective-cartier", "lemma-nagata-localization-ideal-pow"]
+uses = ["def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal", "lemma-nagata-invertible-ideal-is-effective-cartier", "lemma-nagata-localization-ideal-pow"]
 +++
 If $\mathcal L\subseteq\mathcal O_Y$ is an invertible ideal, then for every
 $n\geq0$ the multiplication map

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properness of the comparison projections"
 order = 537
 lean = ["AlgebraicGeometry.TwoOpenSide.isProper_comparisonFst"]
-uses = ["def-nagata-two-open-comparison-space", "lemma-nagata-prepared-boundaries", "lemma-nagata-scheme-image-universal"]
+uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-comparison-space", "def-nagata-two-open-graph-extensions", "lemma-nagata-diagonal-base-change", "lemma-nagata-prepared-boundaries", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-universal"]
 +++
 Both projections $p_i\colon X_{12}\to X_i$ are proper.
 

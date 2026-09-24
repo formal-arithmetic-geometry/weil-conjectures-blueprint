@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Scheme-theoretic image of a partial section"
 order = 508
 lean = ["AlgebraicGeometry.isIso_restrict_imageι_comp_fst", "AlgebraicGeometry.isPullback_toImage_partialSection"]
-uses = ["def-nagata-extended-ideal", "def-nagata-scheme-theoretic-image", "lemma-nagata-affine-image-kernel-flat", "lemma-nagata-diagonal-base-change", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-flat-base-change", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-restrict-open"]
+uses = ["def-nagata-extended-ideal", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-affine-image-kernel-flat", "lemma-nagata-affine-image-kernel-localization", "lemma-nagata-diagonal-base-change", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-flat-base-change", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-restrict-open"]
 +++
 Let $U\hookrightarrow X$ be a quasi-compact open immersion, let
 $Y\to S$ be separated, and let

@@ -4,7 +4,7 @@ kind = "definition"
 title = "Comparison between two affine-cover constructions"
 order = 308
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowup"]
-uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-affine-restriction-map", "lemma-nagata-global-blowup-overlap-cocycle"]
+uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-affine-restriction-map", "def-nagata-global-blowup-glue-data", "lemma-nagata-diagonal-base-change", "lemma-nagata-global-blowup-overlap-cocycle"]
 +++
 Given two affine covers of $X$, choose their intersection refinement. On
 every refined affine chart use the two affine-restriction isomorphisms to

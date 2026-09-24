@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Degree-one element associated to an ideal element"
 order = 268
 lean = ["AlgebraicGeometry.reesX"]
-uses = ["def-nagata-rees-piece", "lemma-nagata-rees-piece-membership"]
+uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-piece-membership"]
 +++
 Every $a\in I$ determines a homogeneous element $at$ of degree one. Its
 underlying polynomial and its coefficient in degree one are recorded by

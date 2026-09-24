@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Multiplication of Rees pieces"
 order = 262
 lean = ["AlgebraicGeometry.reesGrading.instGradedMonoid"]
-uses = ["def-nagata-rees-piece", "lemma-nagata-rees-piece-membership"]
+uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-piece-membership"]
 +++
 Multiplication maps
 

@@ -5,7 +5,7 @@ title = "Generic constancy"
 order = 1460
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.exists_dense_open", "AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.of_openCover", "Topology.Stratification.dense_iUnion_interior_stratum"]
 tags = ["latex:proposition"]
-uses = ["def-constructible-constructible", "lemma-constructible-immersion-independence", "prop-constructible-pullback"]
+uses = ["def-constructible-constant", "def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "lemma-constructible-immersion-independence", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "lemma-openclosed-stalk-upperstar", "prop-constructible-pullback"]
 +++
 Let $X$ be a scheme and let $\mathcal F\in\shv{\et X}$ be constructible.
 Then there is a dense open $U\subseteq X$ such that $\mathcal F|_U$ is

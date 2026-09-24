@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Closedness and disjointness of the four boundary loci"
 order = 531
 lean = ["AlgebraicGeometry.TwoOpenSide.closure_image_preimage_inter"]
-uses = ["def-nagata-two-open-boundary-loci", "lemma-nagata-graph-extension"]
+uses = ["def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "lemma-nagata-graph-extension"]
 +++
 The subschemes $Z_i$ are closed in $U$. Each $Z_{i,k}$ is closed in
 $V_i$, their underlying closed sets are disjoint, and $\psi_i$ is an

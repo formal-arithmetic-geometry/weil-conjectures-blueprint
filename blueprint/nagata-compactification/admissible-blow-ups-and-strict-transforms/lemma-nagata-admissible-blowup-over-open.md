@@ -4,7 +4,7 @@ kind = "lemma"
 title = "An admissible blow-up is unchanged over the preserved open"
 order = 401
 lean = ["AlgebraicGeometry.IsAdmissible.isIso_blowupMap_restrict"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-ideal-unit-off-support", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "lemma-nagata-affine-blowup-complement", "lemma-nagata-ideal-unit-off-support", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
 +++
 If $\pi\colon X'\to X$ is $U$-admissible, then its center ideal restricts to
 the unit ideal on $U$, and the induced morphism

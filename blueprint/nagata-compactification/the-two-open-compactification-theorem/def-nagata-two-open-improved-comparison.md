@@ -4,7 +4,7 @@ kind = "definition"
 title = "Improved first comparison projection"
 order = 540
 lean = ["AlgebraicGeometry.TwoOpenSide.admissibleBlowup"]
-uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-isomorphism-near-closure", "def-nagata-maximal-isomorphism-open", "def-nagata-strict-transform", "def-nagata-two-open-comparison-boundary", "def-nagata-two-open-comparison-space", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-isomorphism-near-closure", "def-nagata-maximal-isomorphism-open", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "def-nagata-two-open-comparison-boundary", "def-nagata-two-open-comparison-space", "def-nagata-two-open-graph-extensions", "lemma-nagata-admissible-blowup-over-open", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
 Let $N_2=\operatorname{IsoOpen}(\psi_2)\subseteq U$. Apply
 $\mathsf{IsoBl}_{V_1,Z_{1,2}}(p_1)$ to the proper projection

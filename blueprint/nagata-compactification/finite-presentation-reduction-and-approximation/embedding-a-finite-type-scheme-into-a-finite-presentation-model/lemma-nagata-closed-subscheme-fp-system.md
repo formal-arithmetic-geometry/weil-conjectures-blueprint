@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properties of the closed-subscheme system, [stacks-project]"
 order = 197
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_le_of_mem", "AlgebraicGeometry.Scheme.IdealSheafData.isClosedImmersion_fgSubDiagram_map", "AlgebraicGeometry.Scheme.IdealSheafData.isLimitFgSubCone", "AlgebraicGeometry.Scheme.IdealSheafData.locallyOfFinitePresentation_fgSub_subschemeι"]
-uses = ["def-nagata-closed-subscheme-fp-system", "def-nagata-noetherian-inverse-system", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-noetherian-inverse-system"]
+uses = ["def-nagata-closed-subscheme-fp-system", "def-nagata-noetherian-inverse-system", "def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-noetherian-inverse-system"]
 +++
 Every $X_\alpha\hookrightarrow Y$ is of finite presentation, all
 transitions are closed immersions, and the canonical map

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properties of the chosen dense compactifications"
 order = 528
 lean = ["AlgebraicGeometry.exists_compactification_isSchemeTheoreticallyDominant"]
-uses = ["def-nagata-dense-compactification", "def-nagata-two-open-dense-compactifications", "prop-nagata-dense-refinement"]
+uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-dense-compactification", "def-nagata-dense-refinement", "def-nagata-two-open-dense-compactifications", "prop-nagata-dense-refinement"]
 +++
 For $i=1,2$, the constructed $C_i$ is a scheme-theoretically dense
 compactification of $U_i\to S$; in particular $X_i\to S$ is proper and

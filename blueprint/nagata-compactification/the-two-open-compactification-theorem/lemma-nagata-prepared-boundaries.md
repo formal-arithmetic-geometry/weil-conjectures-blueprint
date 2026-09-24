@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properties of the prepared boundary closures"
 order = 534
 lean = ["AlgebraicGeometry.exists_prepared_twoOpenSide"]
-uses = ["def-nagata-dense-compactification", "def-nagata-global-blowup-cover-comparison", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-blowup-proper", "lemma-nagata-boundary-loci", "lemma-nagata-separate-constructible-closed", "lemma-nagata-two-open-dense-compactifications", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "def-nagata-graph-extension", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-separate-constructible-closed", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-dense-compactifications", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-admissible-blowup-over-open", "lemma-nagata-blowup-proper", "lemma-nagata-boundary-loci", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-graph-extension", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-separate-constructible-closed", "lemma-nagata-two-open-dense-compactifications", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
 The constructed replacement $X_i^{\mathrm{prep}}\to X_i^{\mathrm{old}}$
 is $V_i$-admissible, the closures

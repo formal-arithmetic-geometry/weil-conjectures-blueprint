@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Existence of a separated stage over a fixed base"
 order = 202
 lean = ["AlgebraicGeometry.Scheme.exists_isSeparated_app_of_isLimit"]
-uses = ["lemma-nagata-separated-stage-exists-absolute"]
+uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-separated-stage-exists-absolute"]
 +++
 Let $X=\varprojlim_\alpha X_\alpha$ over a base $S$, where the terms are
 qcqs, the transition maps are affine, and every $X_\alpha\to S$ is

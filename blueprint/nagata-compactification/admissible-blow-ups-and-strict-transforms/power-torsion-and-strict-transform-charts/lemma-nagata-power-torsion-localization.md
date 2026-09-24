@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Localization of power torsion"
 order = 408
 lean = ["Submodule.localized'_powTorsion"]
-uses = ["def-nagata-power-torsion", "lemma-nagata-power-torsion-kernel-localization"]
+uses = ["def-nagata-power-torsion", "lemma-nagata-power-torsion-kernel-localization", "lemma-nagata-power-torsion-submodule"]
 +++
 Let $s\in R$. Under localization at $s$, the image of
 $\Gamma_{(a)}(M)$ is

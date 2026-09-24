@@ -5,7 +5,7 @@ title = "Independence of the affine cover"
 order = 310
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowup"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-global-blowup-cover-comparison", "lemma-nagata-global-blowup-overlap-cocycle", "prop-nagata-global-blowup-affine-restrict"]
+uses = ["def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-glue-data", "lemma-nagata-diagonal-base-change", "lemma-nagata-global-blowup-overlap-cocycle", "prop-nagata-global-blowup-affine-restrict"]
 +++
 The constructed comparison is the unique isomorphism over $X$ restricting
 to the identity comparison on every common affine refinement.

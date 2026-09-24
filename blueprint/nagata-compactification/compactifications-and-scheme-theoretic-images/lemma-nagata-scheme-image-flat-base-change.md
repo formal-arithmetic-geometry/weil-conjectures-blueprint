@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Flat base change of a scheme-theoretic image, [stacks-project]"
 order = 152
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_pullback_snd"]
-uses = ["def-nagata-dense-compactification", "def-nagata-scheme-theoretic-image", "lemma-nagata-affine-image-kernel-flat"]
+uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-affine-image-kernel-flat", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 Let $g\colon T\to Y$ be quasi-compact and quasi-separated and let
 $q\colon Y'\to Y$ be flat. For the base change

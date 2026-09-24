@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Reduction by base change along an admissible blow-up"
 order = 475
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_partialSection_of_blowup"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup-cover-comparison", "lemma-nagata-admissible-blowup-comp", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup", "def-nagata-global-blowup-cover-comparison", "def-nagata-global-blowup-map", "lemma-nagata-admissible-blowup-comp", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be qcqs, let $U,V\subseteq X$ be open, let $p\colon Y\to X$ be a
 morphism and let $f\colon U\to Y$ be a section of $p$ over $U$. Let

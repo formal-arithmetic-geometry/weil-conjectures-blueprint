@@ -5,7 +5,7 @@ title = "The closed-subscheme construction is a compactification"
 order = 163
 lean = ["AlgebraicGeometry.HasCompactification.of_isClosedImmersion"]
 tags = ["latex:proposition"]
-uses = ["def-nagata-closed-subscheme-compactification", "def-nagata-compactifiable", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-restrict-open"]
+uses = ["def-nagata-closed-subscheme-compactification", "def-nagata-compactifiable", "def-nagata-compactification", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-restrict-open"]
 +++
 The constructed factorization $\mathsf{Closed}(i,C')$ is a compactification
 of $X\to S$.

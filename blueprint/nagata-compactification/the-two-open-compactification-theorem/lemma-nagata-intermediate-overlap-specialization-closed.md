@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Specialization stability inside the boundary complement"
 order = 550
 lean = ["AlgebraicGeometry.TwoOpenSide.isClosedImmersion_intermediateGraph"]
-uses = ["def-nagata-two-open-intermediate-schemes", "lemma-nagata-intermediate-specialization-boundary", "lemma-nagata-two-open-graph-extensions"]
+uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-boundary-loci", "lemma-nagata-intermediate-specialization-boundary", "lemma-nagata-proper-extension-graph-closed", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-two-open-graph-extensions"]
 +++
 The image of $U_i$ in
 $U\times_S(X_i\setminus\overline Z_{i,j})$ is stable under specialization.

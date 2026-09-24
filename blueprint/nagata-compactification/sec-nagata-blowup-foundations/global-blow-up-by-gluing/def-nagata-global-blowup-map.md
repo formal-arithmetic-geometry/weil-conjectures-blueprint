@@ -4,7 +4,7 @@ kind = "definition"
 title = "Global blow-up morphism"
 order = 306
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowupMap"]
-uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-local-model", "lemma-nagata-global-blowup-local-maps-agree"]
+uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "lemma-nagata-diagonal-base-change", "lemma-nagata-global-blowup-local-maps-agree"]
 +++
 Define
 

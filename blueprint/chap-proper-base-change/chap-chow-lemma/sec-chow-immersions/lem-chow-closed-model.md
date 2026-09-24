@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Closed model of a quasi-compact immersion"
 order = 620
 lean = ["AlgebraicGeometry.ProperClosedModel", "AlgebraicGeometry.nonempty_properClosedModel"]
-uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-weil-pbc-closed-immersion-proper", "lem-weil-pbc-proper-composition", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-open-immersion-qc-over-separated-target"]
+uses = ["def-nagata-affine-proj", "def-nagata-dense-compactification", "def-nagata-projective-space-base-change", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-weil-pbc-closed-immersion-proper", "lem-weil-pbc-proper-composition", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-ideal-qc"]
 +++
 Let $S$ be a scheme and let $j\colon V\to\mathbf P^n_S$ be a quasi-compact
 immersion. Let $Z\subseteq\mathbf P^n_S$ be the scheme-theoretic image of $j$.
