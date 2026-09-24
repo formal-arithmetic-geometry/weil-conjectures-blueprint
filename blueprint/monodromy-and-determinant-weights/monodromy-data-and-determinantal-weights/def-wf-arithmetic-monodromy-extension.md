@@ -3,7 +3,7 @@ id = "def-wf-arithmetic-monodromy-extension"
 kind = "definition"
 title = "Arithmetic monodromy extension"
 order = 3998
-uses = ["def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-conjugation-geometric-monodromy"]
+uses = ["def-wf-geometric-monodromy-group", "def-wf-weil-group"]
 +++
 Choose $s\in W(X_0)$ with $\deg(s)=1$, and let
 $\alpha(h)=\rho(s)h\rho(s)^{-1}$ be the automorphism of

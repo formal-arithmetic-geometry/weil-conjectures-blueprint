@@ -3,7 +3,7 @@ id = "def-mg-weil-semisimplification"
 kind = "definition"
 title = "Semisimplification of a Weil representation"
 order = 4093
-uses = ["def-mg-weil-composition-series", "lem-mg-jordan-holder"]
+uses = ["def-mg-weil-composition-series"]
 +++
 For a composition series
 $V_\bullet$, the *semisimplification* is

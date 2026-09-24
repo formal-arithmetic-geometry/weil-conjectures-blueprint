@@ -3,7 +3,7 @@ id = "def-wf-determinantal-weight"
 kind = "definition"
 title = "Determinantal weight"
 order = 4100
-uses = ["def-mg-determinant-line", "def-weil-punctual-weights", "lem-wf-determinantal-weight-coefficient-field", "lem-wf-determinantal-weight-exists"]
+uses = ["def-mg-determinant-line", "def-weil-punctual-weights"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, fix
 $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and let $\mathcal V$ be an

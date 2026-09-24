@@ -3,7 +3,7 @@ id = "def-mg-determinantal-weight-multiset"
 kind = "definition"
 title = "Determinantal-weight multiset"
 order = 4101
-uses = ["def-mg-weil-semisimplification", "def-wf-determinantal-weight", "lem-mg-semisimplification-independent"]
+uses = ["def-mg-weil-semisimplification", "def-wf-determinantal-weight"]
 +++
 Let $V$ be a finite-dimensional Weil representation on the preceding
 normal geometrically connected curve $X_0$. Its *determinantal-weight

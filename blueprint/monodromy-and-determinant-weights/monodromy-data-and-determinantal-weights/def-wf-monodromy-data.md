@@ -3,7 +3,7 @@ id = "def-wf-monodromy-data"
 kind = "definition"
 title = "Monodromy data"
 order = 4005
-uses = ["def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-geometric-monodromy-group", "lem-wf-degree-component-image", "lem-wf-degree-components-grading"]
+uses = ["def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-geometric-monodromy-group"]
 +++
 The tuple consisting of $\rho$, the geometric group
 $H_{\mathrm{geom}}$, the locally finite-type extension

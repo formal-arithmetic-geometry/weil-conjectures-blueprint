@@ -3,7 +3,7 @@ id = "def-wf-geometric-monodromy-group"
 kind = "definition"
 title = "Geometric monodromy group"
 order = 3996
-uses = ["def-wf-fundamental-representation", "def-wf-weil-group", "lem-wf-zariski-closure-subgroup"]
+uses = ["def-wf-fundamental-representation", "def-wf-weil-group"]
 +++
 Let $\Pi=\pi_1(X,\bar x)$ be the geometric subgroup of the
 Weil group and let
