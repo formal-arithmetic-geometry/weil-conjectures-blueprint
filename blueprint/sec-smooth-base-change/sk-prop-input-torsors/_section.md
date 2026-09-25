@@ -1,0 +1,95 @@
++++
+id = "sk-prop-input-torsors"
+kind = "section"
+title = "Torsors and étale $H^1$"
+order = 1411
+uses = ["sk-def-smooth"]
++++
+*Proposition (sketch).*
+
+Let $Y$ be a scheme and $M$ a finite abelian group. Then there is a
+canonical bijection, natural in $(Y,M)$,
+
+$$
+\mathrm{Tor}^1(Y,M)\xrightarrow{\ \sim\ }H^1(Y_{\Et},\underline M)
+$$
+
+between the isomorphism classes of $M$-torsors on $Y_{\Et}$ and
+$H^1(Y_{\Et},\underline M)$, and an $M$-torsor is the same thing as a
+finite étale $Y$-scheme with a simply transitive $M$-action. For
+$M=\Z/d\Z$ and $Y$ connected with geometric point $\bar y$, the
+torsor attached to a class is connected — that is, a Galois cover
+with group $\Z/d\Z$, the input taken by [sk-prop-input-spreading]
+— exactly when the corresponding continuous homomorphism
+$\pi_1(Y,\bar y)\to\Z/d\Z$ is surjective.
+(02NE, together with the finite-étale correspondence;
+cf. Milne, *Lectures on Étale Cohomology*, III.3.)
+The sketch below condenses the proofs of the detailed blueprint,
+Ch. 02b.
+
+## Proof
+
+*A flasque embedding.* For a sheaf $\mathcal G$ on $Y_{\Et}$
+the Godement sheaf $G(\mathcal G)(U)=\prod_{u\in U}\mathcal G_u$
+contains $\mathcal G$ and is flasque, its restriction maps only
+discarding coordinates. A flasque sheaf is acyclic: in
+$0\to\mathcal A\to\mathcal B\to\mathcal C\to0$ with $\mathcal A$
+flasque, local liftings of a section of $\mathcal C$ patch, so global
+sections are right exact on such sequences and dimension shifting
+gives $H^q(\mathcal A)=0$ for $q\ge1$. Truncating a flasque
+resolution of $\underline M$ in degrees $\le1$ gives
+$0\to\underline M\to I\xrightarrow{d}J\to0$ with $I,J$ acyclic, hence
+$H^1(Y_{\Et},\underline M)=\operatorname{coker}(d_Y)$.
+
+*From a class to a torsor.* For $s\in J(Y)$ put
+$P_s(U)=\{x\in I(U):d(x)=s|_U\}$, with $M$ acting by translation.
+Two lifts of $s$ differ by a section of $\ker d=\underline M$, so the
+action is simply transitive; $P_s$ is locally nonempty because $J$ is
+the quotient sheaf of $I$, and over a cover trivializing it
+$P_s\cong\underline M$. So $P_s$ is an $M$-torsor. Translation by
+$x\in I(Y)$ gives $P_{s+d(x)}\cong P_s$, so $s\mapsto[P_s]$ is
+defined on $\operatorname{coker}(d_Y)$, and functoriality of
+$I,J,d$ and of pullback makes it natural in $(Y,M)$.
+
+*Injectivity.* An isomorphism $P_s\cong P_{s'}$ is, over a
+cover trivializing both by sections $p_i,p_i'$, translation by
+$a_i=p_i'-p_i\in I(U_i)$. Compatibility with the torsor structures
+says exactly that the $a_i$ agree on overlaps, so they glue to $a\in I(Y)$ with $d(a)=s'-s$, i.e. $s$ and $s'$ have the same class.
+
+*Surjectivity.* Trivialize an $M$-torsor $P$ over a cover
+$\{U_i\to Y\}$ by sections $p_i$ and put
+$c_{ij}=p_i-p_j\in\underline M(U_{ij})$, a Čech $1$-cocycle. The
+five-term sequence of the Čech double complex of
+$0\to\underline M\to I\to J\to0$ identifies
+$\check H^1(\mathcal U,\underline M)$ with the classes in
+$H^1(Y_{\Et},\underline M)$ restricting to $0$ on each $U_i$, and the
+class $\alpha$ of $(c_{ij})$ is one of these; $P$ and the lifting
+torsor $P_s$ of a representative $s$ of $\alpha$ are glued from the
+same trivializations and the same cocycle, so $P\cong P_s$.
+
+*Torsors are finite étale covers.* The functor
+$P\mapsto\underline{\operatorname{Hom}}_Y(-,P)$ from finite étale
+$Y$-schemes to finite locally constant sheaves is an equivalence: a
+finite étale cover is trivialized by a surjective étale base
+change, which makes the sheaf locally constant, and effective étale
+descent for finite étale morphisms produces the inverse. It is
+compatible with base change and carries simply transitive
+$M$-actions to simply transitive ones, so an $M$-torsor sheaf is
+represented by a finite étale $Y$-scheme with a simply transitive
+$M$-action, and conversely.
+
+*Connectedness.* Let $Y$ be connected. Under the fibre-functor
+equivalence a torsor $P$ is a finite continuous
+$\pi_1(Y,\bar y)$-set whose $M$-action is simply transitive and
+commutes with the $\pi_1$-action; choosing $p\in P_{\bar y}$ there is
+a unique $f_P(g)\in M$ with $g\cdot p=p+f_P(g)$, and commutation
+makes $f_P$ a homomorphism, continuous because $g\mapsto g\cdot p$ is
+continuous into the finite discrete $P_{\bar y}$. Since $M$ is
+abelian, $f_P$ does not depend on $p$. Now $P$ is connected exactly
+when $\pi_1(Y,\bar y)$ acts transitively on $P_{\bar y}$, i.e. when
+$f_P$ is surjective; for $M=\Z/d\Z$ a surjective $f_P$ is a connected
+finite étale cover whose automorphism group $\Z/d\Z$ acts simply
+transitively on the fibre, that is, a Galois cover with group
+$\Z/d\Z$.
+
+Uses: `cor:galois-abelian-h1`, [sk-def-smooth], `thm:galois-lc-etale`, `thm:galois-torsor-h1`

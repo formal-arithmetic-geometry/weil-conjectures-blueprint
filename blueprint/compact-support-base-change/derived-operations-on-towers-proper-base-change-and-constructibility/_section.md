@@ -1,7 +1,0 @@
-+++
-id = "derived-operations-on-towers-proper-base-change-and-constructibility"
-kind = "section"
-title = "Derived operations on towers, proper base change, and constructibility"
-order = 3143
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-algebraically-closed-coefficients", "def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-direct-image", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative", "lem-weil-pbc-mittag-leffler", "obl-fin-comparison", "prop-compactification-coherence-detailed", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-direct-image-limits", "prop-weil-pbc-rational-transport", "prop-weil-pbc-roos-triangle", "prop-weil-proet-finite-proper-base-change", "sbc-thm-finiteness-finite-type", "thm-dg-finite-type-constructibility", "thm-sc-finite-type-torsion-cd", "thm-weil-pbc-finite-extension", "thm-weil-pbc-finite-level-proetale", "thm-weil-pbc-qbar"]
-+++

@@ -1,7 +1,0 @@
-+++
-id = "reduction-to-the-projective-line-and-to-curve-families"
-kind = "section"
-title = "Reduction to the projective line and to curve families"
-order = 3255
-uses = ["cor-pqf-proper-quasifinite-finite", "cor-weil-pbc-geometric-fiber-finite", "def-sbc-normal-dominant-galois", "def-sbc-smooth-morphisms", "def-sc-curves", "def-sc-genus", "def-sc-mu-trivialization", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-extension-by-zero", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "fin4-lem-fibrewise-cohomological-dimension", "fin4-lem-stalk-constructibility-criterion", "lem-fd-as-cover", "lem-fin-closed-immersion", "lem-fin-finite-morphism", "lem-finrepair-composition-c", "lem-finrepair-modification-c", "lem-finrepair-modification-extension-zero", "lem-sc-artin-schreier-dimension", "lem-sc-as-sequence", "lem-sc-c1", "lem-sc-c3", "lem-sc-c5", "lem-sc-cohomological-dimension", "lem-sc-isogeny-facts", "lem-sc-lang-steinberg", "lem-sc-mult-n-finite-flat", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-chow-factorization", "lemma-weil-pbc-constructible-finite-pushforward", "lemma-weil-pbc-geometric-stalk-conservative", "pqf-lem-locqf-fibre-discrete", "sbc-def-coefficient-conventions", "thm-constructible-serre", "thm-fin-proper-case", "thm-fin-proper-constructibility-complete", "thm-sc-affine-cohomology", "thm-sc-constant-invariance", "thm-sc-proper-cohomology", "thm-weil-pbc-universal-homeomorphism-invariance"]
-+++
