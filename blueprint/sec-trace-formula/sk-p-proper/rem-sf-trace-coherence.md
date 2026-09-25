@@ -2,7 +2,7 @@
 id = "rem-sf-trace-coherence"
 kind = "remark"
 title = "Why this coherence is not in the axiom list"
-order = 2460
+order = 2487
 uses = ["def-sf-datum", "lem-sf-trace-base-change", "lem-trf-trace-map-exchange", "lem-trf-trace-source-exchange", "prop-compactification-coherence-detailed"]
 +++
 The identity of [lem-sf-trace-base-change] is not a consequence of

@@ -2,7 +2,7 @@
 id = "lem-sf-etale-neighbourhoods-not-cofinal"
 kind = "lemma"
 title = "The pointed étale neighbourhoods are not cofinal among the pointed pro-étale ones"
-order = 2141
+order = 2160
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "lem-sf-proetale-neighbourhood-colimit", "lemma-weil-pbc-affine-neighbourhood-cofinal", "thm-sf-continuity-arbitrary-sheaves-vanishing"]
 +++
 Let $k$ be a field that is not separably closed, let $\Omega$ be an

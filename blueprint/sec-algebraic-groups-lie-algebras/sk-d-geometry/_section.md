@@ -2,7 +2,7 @@
 id = "sk-d-geometry"
 kind = "section"
 title = "Affine geometry and matrix groups"
-order = 2620
+order = 2658
 uses = ["sk-d-linear"]
 +++
 *Definition (sketch).*

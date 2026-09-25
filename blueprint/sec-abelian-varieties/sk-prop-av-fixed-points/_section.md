@@ -2,7 +2,7 @@
 id = "sk-prop-av-fixed-points"
 kind = "section"
 title = "Fixed points of $p$-linear maps are finite"
-order = 565
+order = 569
 uses = ["sk-def-av"]
 +++
 *Proposition (sketch).*

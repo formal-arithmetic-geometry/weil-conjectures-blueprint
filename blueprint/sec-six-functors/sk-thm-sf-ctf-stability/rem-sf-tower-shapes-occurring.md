@@ -2,7 +2,7 @@
 id = "rem-sf-tower-shapes-occurring"
 kind = "remark"
 title = "Normalized DVR systems and additional local models"
-order = 2330
+order = 2346
 uses = ["cor-sf-direct-image-ctf-proetale", "cor-sf-finite-level-comparison-two-cases", "def-coef-normalized-dvr-tower", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "lem-coef-finite-direct-image", "lem-coef-integral-compact-support", "lem-coef-integral-residue-tor", "lem-coef-normalized-dvr-effectivity", "prop-coef-integral-exceptional-adjoint", "thm-sf-uniform-models-constant-tower", "thm-sf-uniform-models-lisse-tower"]
 +++
 For an integral object of [def-weil-derived-complete-integral-detailed],

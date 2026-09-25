@@ -2,7 +2,7 @@
 id = "lem-kun-bounded-flat-replacement"
 kind = "lemma"
 title = "Functorial bounded-above flat replacement"
-order = 1749
+order = 1763
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves"]
 +++
 There is a construction which assigns to every bounded-above complex

@@ -2,7 +2,7 @@
 id = "thm-exc-curve-open-finiteness"
 kind = "theorem"
 title = "Open-complement finiteness on a smooth curve"
-order = 1969
+order = 1985
 uses = ["def-exc-continuous-cohomology", "def-sc-curves", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-dvr-galois", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-galois-fundamental"]
 +++
 Let $k$ be a finite field or its algebraic closure, let $T/k$

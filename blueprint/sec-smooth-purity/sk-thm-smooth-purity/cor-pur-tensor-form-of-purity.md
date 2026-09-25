@@ -2,7 +2,7 @@
 id = "cor-pur-tensor-form-of-purity"
 kind = "theorem"
 title = "Tensor form of purity"
-order = 2096
+order = 2114
 tags = ["latex:corollary"]
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-cohomological-smoothness", "thm-pur-finite-coefficient-smooth-purity"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-thm-dnc"
 kind = "section"
 title = "DNC invariance of the section dualizing line"
-order = 2073
+order = 2091
 uses = ["sk-def-purity-conv", "sk-lem-geometry", "sk-prop-a1-inv", "sk-prop-an", "sk-prop-cohsm"]
 +++
 *Theorem (sketch).*

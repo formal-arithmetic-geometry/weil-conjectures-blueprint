@@ -2,7 +2,7 @@
 id = "sk-i-restriction"
 kind = "section"
 title = "Normal restriction and passage to closure"
-order = 2655
+order = 2702
 uses = ["sk-d-geometry", "sk-d-linear", "sk-d-monodromy", "sk-d-tangent", "sk-i-cartier", "sk-i-geometry"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "thm-pd-spreading-out"
 kind = "theorem"
 title = "Descent of finitely presented data at a filtered limit"
-order = 867
+order = 871
 uses = ["def-pc-base-change", "def-pc-morphism-conventions"]
 +++
 Let $I$ be a directed set, let $(S_i,f_{ii'})$ be an inverse system of schemes

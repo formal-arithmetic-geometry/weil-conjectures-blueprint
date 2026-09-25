@@ -2,7 +2,7 @@
 id = "lem-zl-log-det-identity"
 kind = "lemma"
 title = "Logarithm of the Frobenius determinant"
-order = 3092
+order = 3159
 uses = ["def-zl-frobenius-trace-series", "p-linear-triangular"]
 +++
 Let $(V,F)$ be a Frobenius module, as in

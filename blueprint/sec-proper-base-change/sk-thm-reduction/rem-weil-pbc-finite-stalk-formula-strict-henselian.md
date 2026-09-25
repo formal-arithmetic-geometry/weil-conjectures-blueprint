@@ -2,7 +2,7 @@
 id = "rem-weil-pbc-finite-stalk-formula-strict-henselian"
 kind = "remark"
 title = "The classical argument, which is not the one formalised"
-order = 1177
+order = 1185
 +++
 The strict henselian local scheme $V_{(\bar v)}$ has the property that a
 finite $V$-scheme becomes a finite disjoint union of finite local schemes

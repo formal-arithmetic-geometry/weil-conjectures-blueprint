@@ -2,8 +2,8 @@
 id = "sk-prop-hilbert90"
 kind = "section"
 title = "Hilbert 90"
-order = 882
-uses = ["sk-def-curve"]
+order = 886
+uses = ["sk-def-av-pic", "sk-def-curve"]
 +++
 *Proposition (sketch).*
 

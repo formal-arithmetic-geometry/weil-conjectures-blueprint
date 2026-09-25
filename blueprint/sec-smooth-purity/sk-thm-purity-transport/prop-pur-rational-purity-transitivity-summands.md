@@ -2,7 +2,7 @@
 id = "prop-pur-rational-purity-transitivity-summands"
 kind = "theorem"
 title = "Transitivity and summand preservation of rational purity"
-order = 2103
+order = 2121
 tags = ["latex:proposition"]
 uses = ["prop-weil-pbc-descent-functors", "prop-weil-pbc-rational-transport", "thm-weil-pbc-idempotent-complete-triangulation"]
 +++

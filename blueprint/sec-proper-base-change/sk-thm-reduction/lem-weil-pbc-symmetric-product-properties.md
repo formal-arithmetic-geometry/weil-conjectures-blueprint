@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-symmetric-product-properties"
 kind = "lemma"
 title = "No common zero and permutation invariance"
-order = 1185
+order = 1193
 uses = ["def-weil-pbc-symmetric-product-morphism"]
 +++
 The polynomials $F_0,\dots,F_n$ of [def-weil-pbc-symmetric-product-morphism]

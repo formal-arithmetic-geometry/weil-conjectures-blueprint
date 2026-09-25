@@ -2,8 +2,8 @@
 id = "lem-zl-affine-curve-hc2-purity"
 kind = "lemma"
 title = "Purity of the top affine-curve factor"
-order = 3045
-uses = ["def-weil-frobenius-module-weights", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "lem-a1-affine-hc2", "lem-wf-tate-twist-frobenius", "lem-zl-geometric-coinvariants-pure-zero"]
+order = 3111
+uses = ["def-weil-frobenius-module-weights", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "lem-a1-affine-hc2-pure"]
 +++
 Let $C_0$ be a smooth affine curve and let $\mathcal E$ be lisse and
 punctually $\iota$-pure of weight zero. Every nonzero Frobenius
@@ -11,20 +11,11 @@ eigenvalue on $H_c^2(C,\mathcal E)$ has weight two.
 
 ## Proof
 
-First assume that $C_0$ is geometrically connected. By
-[lem-a1-affine-hc2], there is a canonical
-Frobenius-equivariant isomorphism
-
-$$
-H_c^2(C,\mathcal E)\;\cong\;V_{\pi_1(C)}(-1),
-$$
-
-where $V=\mathcal E_{\bar\eta}$. The Frobenius eigenvalues on the
-coinvariant quotient have modulus one by
-[lem-zl-geometric-coinvariants-pure-zero].
-The twist $(-1)$ multiplies them by $q$, by
-[lem-wf-tate-twist-frobenius]; hence the displayed cohomology is
-pure of weight two in [def-weil-frobenius-module-weights].
+First assume that $C_0$ is geometrically connected. Then
+[lem-a1-affine-hc2-pure], applied with $w=0$, shows that
+$H_c^2(C,\mathcal E)$ is $\iota$-pure of weight two in
+[def-weil-frobenius-module-weights]: every Frobenius eigenvalue on it
+has $\iota$-modulus $q$.
 
 For a general smooth affine curve, choose a finite extension
 $\mathbf F_{q^e}/\mathbf F_q$ over which all its finitely many

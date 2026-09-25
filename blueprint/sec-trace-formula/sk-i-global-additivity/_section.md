@@ -2,8 +2,8 @@
 id = "sk-i-global-additivity"
 kind = "section"
 title = "Compact trace additivity"
-order = 2510
-uses = ["sk-d-six", "sk-d-trace", "sk-d-weil", "sk-p-trace", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-package"]
+order = 2542
+uses = ["sk-d-operator", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-p-trace", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-package"]
 +++
 *Proposition (sketch).*
 

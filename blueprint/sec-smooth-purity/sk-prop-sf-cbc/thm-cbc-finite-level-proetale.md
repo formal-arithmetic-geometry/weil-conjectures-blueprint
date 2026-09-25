@@ -2,7 +2,7 @@
 id = "thm-cbc-finite-level-proetale"
 kind = "theorem"
 title = "Finite-level pro-etale compact-support base change"
-order = 1667
+order = 1681
 uses = ["def-cbc-compact-support-square", "def-cbc-exchange-map", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-scheme-conventions", "lem-cbc-proetale-extension-zero-base-change", "lem-cbc-proetale-extension-zero-comparison", "lem-weil-pbc-transport-identifies-exchange", "prop-weil-pbc-comparison-direct-image", "thm-cbc-finite-torsion", "thm-weil-pbc-site-comparison"]
 +++
 Let $\Lambda$ be finite, let $\square$ be a

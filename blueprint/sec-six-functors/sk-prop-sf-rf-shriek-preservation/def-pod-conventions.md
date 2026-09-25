@@ -2,7 +2,7 @@
 id = "def-pod-conventions"
 kind = "definition"
 title = "Poincare duality conventions"
-order = 2183
+order = 2202
 uses = ["cor-pur-finite-stage-smooth-dualizing-complex", "def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-trf-frobenius-operators", "def-weil-algebraically-closed-coefficients", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-coefficient-twists", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-weil-sheaf-complex"]
 +++
 Fix the global finite-field datum
@@ -10,8 +10,9 @@ $p,a,q,k_0,k$, where $q=p^a$, a prime $\ell\neq p$, a finite
 extension $E/\Ql$ contained in a fixed algebraic closure $\Qlb$, with
 valuation ring $\mathcal O_E$, a uniformizer $\varpi_E$, and an
 integer $n\in\mathbf Z_{\geq1}$. Put $A=A_{E,n}$. Let $X_0$ be a
-smooth, proper, geometrically
-connected $k_0$-scheme of pure dimension $d\in\mathbf Z_{\geq0}$, put
+smooth, separated finite-type, geometrically
+connected $k_0$-scheme of pure dimension $d\in\mathbf Z_{\geq0}$ (not
+necessarily proper), put
 $X=X_0\times_{k_0}k$, set $s=\Spec k$, and let
 $a_X:X\to s$ be the structure morphism, assumed
 exceptional-adjoint
@@ -85,3 +86,10 @@ K^\vee=R\mathcal Hom_X\bigl(K,\Lambda_X\bigr),
 $$
 
 the *Verdier dual* and the *coefficient dual*.
+
+Properness of $X_0$ is not part of this setting: the duality statements
+formulated in it use compact supports $R\Gamma_c$ against ordinary
+cohomology $R\Gamma$ and never compare the two. Properness is imposed
+explicitly, and only, in the statements that need
+$Ra_{X!}\cong Ra_{X*}$ (the untwisted trace on $H^{2d}$, the trace–cup
+pairing on ordinary cohomology, and proper Poincare duality).

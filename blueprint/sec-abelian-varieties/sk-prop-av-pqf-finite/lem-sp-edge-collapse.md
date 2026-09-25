@@ -2,7 +2,7 @@
 id = "lem-sp-edge-collapse"
 kind = "lemma"
 title = "Edge collapse and edge maps"
-order = 519
+order = 521
 uses = ["def-sp-convergence", "def-sp-exact-couple"]
 +++
 Let $(D,E,\alpha,f,g)$ be an exact couple [def-sp-exact-couple] whose

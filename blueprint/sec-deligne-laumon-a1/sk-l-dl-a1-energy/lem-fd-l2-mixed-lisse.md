@@ -2,7 +2,7 @@
 id = "lem-fd-l2-mixed-lisse"
 kind = "lemma"
 title = "The $L^2$-weight of a mixed lisse sheaf"
-order = 2963
+order = 3021
 uses = ["def-weil-punctual-weights", "def-wf-l2-norm", "lem-wf-l2-purity-rigidity", "lem-wf-l2-upper"]
 +++
 Let $\mathcal A\neq0$ be lisse on a smooth geometrically connected

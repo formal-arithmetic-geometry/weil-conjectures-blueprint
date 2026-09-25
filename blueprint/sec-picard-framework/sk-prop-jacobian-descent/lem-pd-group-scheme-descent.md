@@ -2,7 +2,7 @@
 id = "lem-pd-group-scheme-descent"
 kind = "lemma"
 title = "The descended scheme is a group scheme"
-order = 871
+order = 875
 uses = ["def-pc-base-change", "def-pd-descent-datum", "def-sc-group-scheme", "lem-pd-morphisms-descend"]
 +++
 Let $k\subseteq K$ be a finite separable field extension, let $J_K$ be a scheme

@@ -2,7 +2,7 @@
 id = "rem-ptr-wf-tate-twist-5"
 kind = "remark"
 title = "Pointer to the properties of [def-wf-tate-twist]"
-order = 2723
+order = 2771
 uses = ["def-wf-tate-twist"]
 +++
 In the notation of [def-wf-tate-twist], the following holds. The functorial pullback of

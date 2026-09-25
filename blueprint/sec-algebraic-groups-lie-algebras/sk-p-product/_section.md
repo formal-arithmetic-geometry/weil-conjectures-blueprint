@@ -2,7 +2,7 @@
 id = "sk-p-product"
 kind = "section"
 title = "The central–geometric product"
-order = 2666
+order = 2713
 uses = ["sk-d-geometry", "sk-d-monodromy", "sk-d-tangent", "sk-i-cartier", "sk-i-restriction", "sk-p-comparison", "sk-p-geometry", "sk-p-lie"]
 +++
 *Proposition (sketch).*

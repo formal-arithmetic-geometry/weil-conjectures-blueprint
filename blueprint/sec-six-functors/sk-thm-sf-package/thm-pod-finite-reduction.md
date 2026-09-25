@@ -2,10 +2,10 @@
 id = "thm-pod-finite-reduction"
 kind = "theorem"
 title = "Finite reduction of the Poincare pairing"
-order = 2384
+order = 2401
 uses = ["def-pod-coefficient-dual-on-x", "def-pod-conventions", "def-pod-derived-poincare-pairing", "def-pur-smooth-trace", "def-weil-site-perfect-complex", "lem-fix-operation-reduction", "prop-pod-verdier-dual-on-smooth", "thm-pod-identification-of-the-comparison", "thm-pod-point-perfectness", "thm-pur-finite-reduction-of-purity"]
 +++
-Use the smooth proper Poincare setting, with
+Use the smooth Poincare setting, with
 the admissible structure morphism and normalized smooth orientation.
 Let $n\geq m\geq1$, put $A_n=\mathcal O_E/\varpi_E^n$ and
 $A_m=\mathcal O_E/\varpi_E^m$, and let $K_n$ be a

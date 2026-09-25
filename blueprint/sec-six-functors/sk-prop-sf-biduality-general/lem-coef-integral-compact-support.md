@@ -2,7 +2,7 @@
 id = "lem-coef-integral-compact-support"
 kind = "lemma"
 title = "Integral compact supports have the prescribed reductions"
-order = 2230
+order = 2249
 uses = ["def-weil-integral-rational-qbar-compact-support", "lem-coef-integral-residue-tor", "lem-coef-normalized-dvr-effectivity", "lem-fix-compact-support-coefficient-change", "lem-sf-etale-direct-image-vanishing", "thm-cbc-finite-level-proetale", "thm-sf-direct-image-tor-amplitude"]
 +++
 Let $f:X\to Y$ be separated of finite type, with

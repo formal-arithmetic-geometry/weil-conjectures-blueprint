@@ -2,7 +2,7 @@
 id = "prop-trf-levelwise-compact-support"
 kind = "theorem"
 title = "Levelwise compact support and stalk compatibility"
-order = 2524
+order = 2560
 tags = ["latex:proposition"]
 uses = ["def-trf-adic-system", "def-trf-coefficient-conventions", "def-trf-frobenius-operators", "def-weil-finite-field-fiber", "def-weil-pbc-bounded-constructible-tower", "lem-weil-pbc-reconstruction-uniform-tower", "prop-trf-compact-support-perfectness", "prop-trf-trace-formal-laws"]
 +++

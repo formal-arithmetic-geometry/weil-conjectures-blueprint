@@ -2,7 +2,7 @@
 id = "lem-pc-cartier-criterion"
 kind = "lemma"
 title = "The Cartier criterion on smooth one-dimensional fibres"
-order = 790
+order = 794
 uses = ["def-pc-finite-locally-free", "def-pc-morphism-conventions", "def-pc-relative-effective-cartier", "def-sc-effective-cartier-divisor", "lem-pc-recd-locally-principal", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "rem-pc-regularity-sc"]
 +++
 (Picard Schemes of Curves, Lemma 44.3.1, Tag

@@ -2,7 +2,7 @@
 id = "lem-pod-perfect-pairing-symmetry"
 kind = "lemma"
 title = "Symmetry of perfect pairings"
-order = 2553
+order = 2589
 uses = ["def-pod-perfect-derived-pairing", "def-pod-perfect-point-complex", "lem-pod-perfect-point-double-dual"]
 +++
 In the Poincare duality conventions of this chapter, let

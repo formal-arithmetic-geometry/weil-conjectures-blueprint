@@ -2,7 +2,7 @@
 id = "sk-d-operator"
 kind = "section"
 title = "Global operators"
-order = 2412
+order = 2434
 uses = ["sk-d-corr", "sk-d-six"]
 +++
 *Definition (sketch).*

@@ -2,8 +2,8 @@
 id = "lem-zl-open-closed-weight"
 kind = "lemma"
 title = "Open–closed weight devissage"
-order = 3021
-uses = ["def-weil-complex-weights", "def-weil-open-closed-recollement", "lem-zl-complex-extension", "lem-zl-finite-pushforward"]
+order = 3085
+uses = ["def-weil-complex-weights", "def-weil-open-closed-recollement", "lem-zl-complex-extension", "lem-zl-finite-pushforward", "prop-sf-open-closed-triangle-all-stages"]
 +++
 Let $j:U_0\hookrightarrow X_0$ be open with closed complement
 $i:Z_0\hookrightarrow X_0$. If the two outer terms
@@ -14,7 +14,7 @@ does $K$.
 ## Proof
 
 The localization triangle is the open–closed recollement triangle of
-[def-weil-open-closed-recollement]; by hypothesis its two outer
+[def-weil-open-closed-recollement], which exists for $\Qlb$-Weil complexes by [prop-sf-open-closed-triangle-all-stages]; by hypothesis its two outer
 terms lie in $D_{\le w}(X_0)$, so the extension stability of complex
 weights [lem-zl-complex-extension] gives $K\in D_{\le w}(X_0)$.
 (The closed-immersion term $i_*i^*K$ is a finite-pushforward, hence

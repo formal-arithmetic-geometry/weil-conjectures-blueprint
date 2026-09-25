@@ -2,7 +2,7 @@
 id = "lem-sc-isogeny-facts"
 kind = "lemma"
 title = "Basic facts about isogenies"
-order = 564
+order = 568
 uses = ["def-sc-abelian-variety", "def-sc-hilbert-degree", "def-sc-isogeny", "def-sc-mult-n", "lem-sc-abelian-variety-projective", "lem-sc-ample-tensor", "lem-sc-deg-pullback-finite", "lem-sc-finite-constant-length-flat", "lem-sc-hilbert-polynomial", "lem-sc-isogeny-degree", "lem-sc-mult-n-finite-flat", "lem-sc-mult-n-isogeny", "lem-sc-mult-n-pullback", "thm-sc-theorem-of-cube"]
 +++
 Let $A$ be an abelian variety of

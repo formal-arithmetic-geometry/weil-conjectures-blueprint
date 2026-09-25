@@ -2,8 +2,8 @@
 id = "sk-def-trace-cup"
 kind = "section"
 title = "Trace and trace–cup pairing"
-order = 2555
-uses = ["sk-def-ops", "sk-def-orientation"]
+order = 2591
+uses = ["sk-def-ops", "sk-def-sf-orientation"]
 +++
 *Definition (sketch).*
 
@@ -20,4 +20,4 @@ $$
 
 (Blueprint 1, def:weil-poincare-trace-cup.)
 
-Uses: [sk-def-ops], [sk-def-orientation]
+Uses: [sk-def-ops], [sk-def-sf-orientation]

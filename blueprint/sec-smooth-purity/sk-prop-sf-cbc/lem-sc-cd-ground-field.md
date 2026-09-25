@@ -2,7 +2,7 @@
 id = "lem-sc-cd-ground-field"
 kind = "lemma"
 title = "Descent of a geometric cohomological dimension bound"
-order = 1563
+order = 1577
 uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-cohomology-filtered-colimit", "lemma-weil-pbc-torsion-filtered-union", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-sp-grothendieck", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $X$ be a finite-type

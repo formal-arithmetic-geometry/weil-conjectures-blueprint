@@ -2,7 +2,7 @@
 id = "lem-kun-minimal-cohomology"
 kind = "lemma"
 title = "First cohomology of a bounded-below complex"
-order = 1727
+order = 1741
 uses = ["def-kun-rgamma-unbounded", "def-weil-pbc-derived-categories", "def-weil-pbc-hypercohomology-filtrations"]
 +++
 Let $X$ be a scheme and $E\in\Dplus(X_{\Et})$. If $i$ is minimal

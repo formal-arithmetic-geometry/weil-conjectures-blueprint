@@ -2,7 +2,7 @@
 id = "sk-prop-av-rigidity"
 kind = "section"
 title = "The rigidity lemma"
-order = 492
+order = 494
 uses = ["sk-prop-av-const-locus", "sk-prop-av-image-open"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "prop-weil-sixops-purity"
 kind = "theorem"
 title = "Smooth purity of the exceptional inverse image"
-order = 3162
+order = 3230
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "prop-functor-package"]
 +++

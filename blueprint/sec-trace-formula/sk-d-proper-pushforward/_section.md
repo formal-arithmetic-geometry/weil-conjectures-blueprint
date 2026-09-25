@@ -2,7 +2,7 @@
 id = "sk-d-proper-pushforward"
 kind = "section"
 title = "Proper pushforward of a correspondence and its trace"
-order = 2449
+order = 2474
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-d-trace-class"]
 +++
 *Definition (sketch).*

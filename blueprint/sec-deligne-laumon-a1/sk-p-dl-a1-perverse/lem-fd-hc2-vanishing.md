@@ -2,8 +2,8 @@
 id = "lem-fd-hc2-vanishing"
 kind = "lemma"
 title = "Vanishing of the top compact-support group of the input"
-order = 2943
-uses = ["def-fd-nonexceptional", "def-weil-ordinary-compact-cohomology", "def-wf-fundamental-representation", "lem-a1-affine-hc2"]
+order = 2994
+uses = ["def-fd-nonexceptional", "def-weil-ordinary-compact-cohomology", "def-wf-fundamental-representation", "lem-a1-middle-extension-endpoints"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion
 with $U_0=\mathbf A^1_{k_0}\setminus S_0$, and let $\mathcal M$ be an
@@ -21,24 +21,14 @@ $$
 
 ## Proof
 
-The middle extension $j_*\mathcal M$ differs from $j_!\mathcal M$ by
-the extension by zero of the restriction to the finite set $S_0$,
-which is zero-dimensional: $H_c^q(\mathbf A^1,i_*B)=H^q(S_0,B)=0$ for
-$q\ge1$ because $S_0$ has dimension zero. Hence
+The affine line is a smooth geometrically connected affine curve, so
+the endpoint lemma [lem-a1-middle-extension-endpoints], applied with
+$C_0=\mathbf A^1_{k_0}$, identifies the top group with the Tate twist
+of the coinvariants of the geometric monodromy action of
+[def-wf-fundamental-representation],
 
 $$
-H_c^2\bigl(\mathbf A^1_{k_0},j_*\mathcal M\bigr)
-=H_c^2\bigl(\mathbf A^1_{k_0},j_!\mathcal M\bigr)
-=H_c^2(U,\mathcal M),
-$$
-
-the last group being taken on the affine curve $U$. The description
-of the top group on an affine curve [lem-a1-affine-hc2] identifies
-it with the Tate twist of the coinvariants of the geometric monodromy
-action of [def-wf-fundamental-representation],
-
-$$
-H_c^2(U,\mathcal M)\cong V_{\pi_1(U)}(-1).
+H_c^2\bigl(\mathbf A^1_{k_0},j_*\mathcal M\bigr)\cong V_{\pi_1(U)}(-1).
 $$
 
 It remains to see that those coinvariants vanish. A
@@ -47,9 +37,9 @@ invariant space $(V^\vee)^{\pi_1(U)}$, which is nonzero only if
 $V^\vee$ admits the trivial module as a subquotient, hence — $V^\vee$
 being irreducible — only if $V^\vee$ is the trivial module, that is,
 only if $V$ is. But $V$ is irreducible and nontrivial: irreducibility
-is a hypothesis, and nontriviality holds because a geometrically
-constant irreducible lisse sheaf is a constant sheaf up to a constant
-Weil twist, which
-Fourier-nonexceptionality excludes.
+is a hypothesis, and nontriviality holds because a trivial $V$ means
+that $\pi_1(U)$ acts trivially, i.e. that $\mathcal M$ is geometrically
+constant, which is excluded by hypothesis (and by
+Fourier-nonexceptionality).
 Therefore $V_{\pi_1(U)}=0$ and
 $H_c^2(\mathbf A^1_{k_0},j_*\mathcal M)=0$.

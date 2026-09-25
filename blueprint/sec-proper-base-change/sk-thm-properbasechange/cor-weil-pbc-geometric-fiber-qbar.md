@@ -2,7 +2,7 @@
 id = "cor-weil-pbc-geometric-fiber-qbar"
 kind = "theorem"
 title = "Qbar-l geometric-fiber formula"
-order = 1363
+order = 1371
 uses = ["cor-weil-pbc-geometric-fiber-finite", "cor-weil-pbc-geometric-fiber-finite-extension", "thm-weil-pbc-qbar"]
 tags = ["latex:corollary"]
 +++

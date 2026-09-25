@@ -2,7 +2,7 @@
 id = "prop-pod-perfect-dualizable"
 kind = "theorem"
 title = "Dualizability of a perfect complex"
-order = 2374
+order = 2391
 tags = ["latex:proposition"]
 uses = ["def-pod-conventions", "def-pod-perfect-complex-on-x", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-geometric-hypotheses", "lem-pod-finite-projective-tensor-hom"]
 +++

@@ -2,7 +2,7 @@
 id = "cor-wf-inertia-invariants"
 kind = "theorem"
 title = "Weights of inertia invariants"
-order = 2846
+order = 2893
 tags = ["latex:corollary"]
 uses = ["def-weil-punctual-weights", "def-wf-middle-extension", "lem-wf-boundary-semicontinuity", "lem-wf-boundary-stalk-invariants"]
 +++

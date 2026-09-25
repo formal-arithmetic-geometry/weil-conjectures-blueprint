@@ -2,7 +2,7 @@
 id = "thm-zl-relative-affine-curve-core"
 kind = "theorem"
 title = "Pure lisse relative affine-curve step"
-order = 3049
+order = 3115
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "def-weil-scheme-morphism-properties", "lem-zl-mixed-punctual-cutoff", "lem-zl-relative-curve-mixedness", "lem-zl-relative-curve-punctual"]
 +++
 Fix the coefficient and weight conventions of

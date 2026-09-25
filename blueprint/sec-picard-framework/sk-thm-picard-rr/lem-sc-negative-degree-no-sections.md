@@ -2,7 +2,7 @@
 id = "lem-sc-negative-degree-no-sections"
 kind = "lemma"
 title = "Line bundles of negative degree"
-order = 724
+order = 725
 uses = ["def-sc-pic0", "lem-sc-deg-principal-zero", "lem-sc-line-bundle-rational-section"]
 +++
 Let $C$ be a proper smooth curve over an algebraically closed

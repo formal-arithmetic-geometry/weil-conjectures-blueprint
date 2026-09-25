@@ -2,7 +2,7 @@
 id = "lem-sp-grothendieck-enough-injectives"
 kind = "lemma"
 title = "Grothendieck abelian categories have enough injectives"
-order = 503
+order = 505
 uses = ["def-sp-grothendieck-abelian"]
 +++
 Every Grothendieck abelian category [def-sp-grothendieck-abelian] has enough

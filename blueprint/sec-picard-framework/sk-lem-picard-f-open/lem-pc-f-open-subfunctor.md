@@ -2,7 +2,7 @@
 id = "lem-pc-f-open-subfunctor"
 kind = "lemma"
 title = "$F$ is an open subfunctor"
-order = 829
+order = 833
 uses = ["def-pc-derived-category", "def-pc-f-subfunctor", "def-pc-pic-sigma-functor", "def-pc-subfunctor", "def-sc-invertible-module", "lem-pc-flat-rf-open", "lem-pc-rf-base-change-flat-module", "lem-pc-smooth-flat"]
 +++
 (Picard Schemes of Curves, Lemma 44.6.2, Tag

@@ -2,7 +2,7 @@
 id = "lem-sc-constant-locus-closed"
 kind = "lemma"
 title = "The locus of parameters with constant fibre is closed"
-order = 489
+order = 491
 +++
 Let $k$ be a field, $X$ a $k$-scheme proper over $k$, $Z$ a
 $k$-scheme separated over $k$, $Y$ a $k$-scheme and

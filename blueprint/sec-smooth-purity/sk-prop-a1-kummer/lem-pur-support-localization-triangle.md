@@ -2,7 +2,7 @@
 id = "lem-pur-support-localization-triangle"
 kind = "theorem"
 title = "Localization triangle for the exceptional inverse image"
-order = 1988
+order = 2004
 uses = ["def-pur-flasque-support", "def-pur-support-triangle", "def-pur-triangle-meaning", "def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-weil-pbc-kinjective-resolutions", "lem-pur-support-exact"]
 +++
 Let $s:Z\hookrightarrow X$, $j:U\hookrightarrow X$ be the

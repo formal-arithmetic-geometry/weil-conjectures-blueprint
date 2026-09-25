@@ -2,7 +2,8 @@
 id = "sk-thm-picard-hilb-curves"
 kind = "section"
 title = "Hilbert schemes of smooth projective curves"
-order = 787
+order = 791
+uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Theorem (sketch).*
 

@@ -2,7 +2,7 @@
 id = "thm-trf-fixed-point-localization"
 kind = "theorem"
 title = "Fixed-point localization"
-order = 2485
+order = 2513
 uses = ["def-trf-admissibility", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-fixed-scheme", "def-trf-global-operator", "def-trf-integration", "def-trf-trace-class", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "lem-trf-contracting-trace-stalk", "lem-trf-localization-contracting", "lem-trf-localization-diagonal", "lem-trf-localization-normal-cone"]
 +++
 Fix the global finite-field datum

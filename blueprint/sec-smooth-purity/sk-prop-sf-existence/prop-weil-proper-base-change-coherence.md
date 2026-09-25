@@ -2,7 +2,7 @@
 id = "prop-weil-proper-base-change-coherence"
 kind = "theorem"
 title = "Coherence of the proper base-change exchange"
-order = 1843
+order = 1857
 tags = ["latex:proposition"]
 uses = ["def-exchange-projection", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-weil-finite-proper-base-change-exchange"]
 +++

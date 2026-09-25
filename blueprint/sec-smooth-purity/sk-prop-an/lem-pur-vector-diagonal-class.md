@@ -2,7 +2,7 @@
 id = "lem-pur-vector-diagonal-class"
 kind = "lemma"
 title = "Diagonal class of a vector bundle"
-order = 2059
+order = 2077
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-vector-bundle-thom-class", "def-weil-derived-tensor", "thm-pur-localized-top-chern"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

@@ -2,7 +2,7 @@
 id = "lem-wf-pure-realizable"
 kind = "lemma"
 title = "A pure sheaf is realizable"
-order = 2948
+order = 3002
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist", "def-wf-iota-real"]
 +++
 Let $\mathcal F$ be a lisse Weil sheaf which is punctually

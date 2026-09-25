@@ -2,7 +2,7 @@
 id = "lem-a1-reduction-estimate-equivalence"
 kind = "lemma"
 title = "The curve estimate is the line estimate for the transported datum"
-order = 3005
+order = 3067
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "lem-a1-reduction-composition"]
 +++
 Let $C_0$ be a smooth geometrically connected affine curve, let

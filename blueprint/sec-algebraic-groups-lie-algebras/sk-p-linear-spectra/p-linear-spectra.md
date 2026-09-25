@@ -2,8 +2,8 @@
 id = "p-linear-spectra"
 kind = "theorem"
 title = "Spectra of the operations"
-order = 2707
-uses = ["d-weights", "def-mg-determinant-line", "def-wf-algebraic-representations", "def-wf-semisimple-module", "def-wf-simple-module", "p-linear-triangular"]
+order = 2754
+uses = ["d-weights", "p-linear-triangular"]
 tags = ["latex:proposition"]
 +++
 If $f$ has eigenvalue multiset
@@ -20,8 +20,8 @@ $$
 (the last for invertible $f$); in particular $\alpha^n$ is an eigenvalue of
 $f^{\otimes n}$. Concretely, in an exterior basis a diagonal map with
 entries $c_1,\ldots,c_r$ has entries $c_{i_1}\cdots c_{i_s}$ with
-$i_1<\cdots<i_s$. These are used with the operations of [def-wf-algebraic-representations], [def-wf-semisimple-module], [def-wf-simple-module],
-[def-mg-determinant-line], [d-weights].
+$i_1<\cdots<i_s$. Applied to $\rho_V(w)$ and $\rho_W(w)$, these compute the spectra of the
+tensor, exterior-power and determinant representations of [d-weights].
 lem:exterior-basis
 
 ## Proof
@@ -49,4 +49,4 @@ The exterior basis and the sign rule are Mathlib's
 `AlternatingMap.map_perm`; the tensor, exterior and dual spectra
 themselves are absent there.
 
-Uses: [def-wf-algebraic-representations], [def-wf-semisimple-module], [def-wf-simple-module], [def-mg-determinant-line], [d-weights], [p-linear-triangular]
+Uses: [d-weights], [p-linear-triangular]

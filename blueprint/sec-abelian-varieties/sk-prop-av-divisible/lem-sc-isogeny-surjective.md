@@ -2,7 +2,7 @@
 id = "lem-sc-isogeny-surjective"
 kind = "lemma"
 title = "Surjectivity of the multiplication map on points"
-order = 575
+order = 579
 uses = ["def-sc-abelian-variety", "def-sc-mult-n", "lem-sc-finite-flat-surj-points", "lem-sc-isogeny-facts"]
 +++
 Let $A$ be an abelian variety

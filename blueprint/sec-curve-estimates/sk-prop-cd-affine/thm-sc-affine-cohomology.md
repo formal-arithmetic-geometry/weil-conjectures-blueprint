@@ -2,7 +2,7 @@
 id = "thm-sc-affine-cohomology"
 kind = "theorem"
 title = "Kummer computation on an affine curve"
-order = 1021
+order = 1029
 uses = ["def-sc-curves", "def-sc-kummer-sequence", "def-sc-mu-trivialization", "lem-sc-affine-cohomological-dimension", "lem-sc-affine-unit-quotient", "lem-sc-brauer-zero", "lem-sc-h1-gm-pic", "lem-sc-pic-affine", "lem-sc-primitive-root"]
 +++
 Let $k$ be algebraically closed, let $C$ be a

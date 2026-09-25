@@ -2,7 +2,7 @@
 id = "lem-wf-semisimple-group-lie-algebra"
 kind = "lemma"
 title = "The Lie algebra of a semisimple matrix group"
-order = 2640
+order = 2687
 uses = ["def-wf-algebraic-representations", "def-wf-lie-radical-centre", "def-wf-semisimple-lie-algebra", "def-wf-semisimple-module", "def-wf-simple-module", "lem-ag-connected-group-central-radical", "lem-ag-lie-centre", "lem-wf-zero-dimensional-matrix-group-finite"]
 +++
 If $H\subseteq\operatorname{GL}(V)$ is connected, $Z(H)$ is finite,

@@ -2,7 +2,7 @@
 id = "lem-pc-recd-locally-principal"
 kind = "lemma"
 title = "Effective Cartier divisors from local equations"
-order = 789
+order = 793
 uses = ["def-pc-morphism-conventions", "def-pc-relative-effective-cartier", "def-sc-effective-cartier-divisor"]
 +++
 (Divisors, Lemma 31.19.9, Tag

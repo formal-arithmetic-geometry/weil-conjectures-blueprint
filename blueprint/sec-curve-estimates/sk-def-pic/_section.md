@@ -2,8 +2,8 @@
 id = "sk-def-pic"
 kind = "section"
 title = "Picard group, degree, $\\Pic^0$"
-order = 888
-uses = ["sk-def-curve", "sk-prop-hilbert90"]
+order = 894
+uses = ["sk-def-av-pic", "sk-def-curve", "sk-prop-hilbert90"]
 +++
 *Definition (sketch).*
 

@@ -2,7 +2,7 @@
 id = "lem-pd-canonical-descent-datum"
 kind = "lemma"
 title = "The Picard functor produces a canonical descent datum"
-order = 865
+order = 869
 uses = ["cor-pd-pic0-base-change", "def-pc-base-change", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-pd-descent-datum", "def-pd-separable-closure", "def-sc-jacobian", "lem-sc-jacobian-unique", "thm-pd-geometric-pic0"]
 +++
 Let $k$ be a field, let $C$ be a

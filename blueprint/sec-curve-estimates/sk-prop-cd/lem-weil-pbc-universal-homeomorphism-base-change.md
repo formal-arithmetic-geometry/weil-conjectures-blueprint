@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-universal-homeomorphism-base-change"
 kind = "lemma"
 title = "Base change of universal homeomorphisms"
-order = 994
+order = 1002
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Base changes of universal homeomorphisms

@@ -2,7 +2,7 @@
 id = "lem-zl-mixed-punctual-cutoff"
 kind = "lemma"
 title = "Punctual cutoff for an already mixed sheaf"
-order = 3047
+order = 3113
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "p-linear-filtration"]
 +++
 Fix the finite field, coefficient field and embedding $\iota$ of

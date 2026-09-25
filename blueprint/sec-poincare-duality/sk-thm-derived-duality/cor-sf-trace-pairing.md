@@ -2,7 +2,7 @@
 id = "cor-sf-trace-pairing"
 kind = "theorem"
 title = "Perfectness of the trace–cup pairing"
-order = 2578
+order = 2614
 tags = ["latex:corollary"]
 uses = ["def-sf-datum", "def-sf-orientation", "thm-sf-identification"]
 +++

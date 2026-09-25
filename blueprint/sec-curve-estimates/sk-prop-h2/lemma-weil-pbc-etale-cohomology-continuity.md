@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-etale-cohomology-continuity"
 kind = "lemma"
 title = "Etale cohomology continuity"
-order = 958
+order = 965
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-etale-section-continuity", "lem-weil-pbc-hypercover-refinement", "lemma-weil-pbc-fibre-product-limit", "lemma-weil-pbc-finite-hypercover-descent", "thm-weil-pbc-hypercover-cohomology"]
 +++
 Let $(X_i)$ be a cofiltered inverse system of quasi-compact and

@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-middle"
 kind = "section"
 title = "Irreducible middle extensions under Fourier"
-order = 2947
+order = 3001
 uses = ["sk-d-dl-a1-setup", "sk-i-dl-a1-local", "sk-p-dl-a1-perverse", "sk-thm-inversion"]
 +++
 *Proposition (sketch).*

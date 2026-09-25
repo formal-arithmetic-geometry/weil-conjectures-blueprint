@@ -2,7 +2,8 @@
 id = "sk-thm-picard-rr"
 kind = "section"
 title = "Riemann–Roch for curves, and its geometric corollary"
-order = 713
+order = 714
+uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Theorem (sketch).*
 
@@ -23,9 +24,13 @@ $X\setminus\operatorname{Supp}(D)$ is affine.
 
 ## Proof
 
-(RR) is the formal consequence of [sk-thm-picard-duality] (apply it to
-$\cF$ and use the additivity of $\chi$) combined with
-$\chi(\cO_X)=1-g$. (G): by (RR), $h^0(\cL^{\otimes m})\ge m\deg\cL+1-g\to\infty$; reducing the degree by a point $P$ lowers
+(RR): by additivity of $\chi$ in short exact sequences, the torsion
+part of $\cF$ (for which $\chi$ is the length, i.e. the degree) and a
+filtration of the locally free quotient reduce the formula to line
+bundles, where it is $\chi(\cO_X(D))=\deg D+\chi(\cO_X)$ with
+$\chi(\cO_X)=1-g$; for $d\ge2g-1$, [sk-thm-picard-duality] gives
+$H^1(\cL)^\vee\cong H^0(\omega_X\otimes\cL^{-1})=0$, the latter of
+negative degree, whence $h^0(\cL)=d+1-g$. (G): by (RR), $h^0(\cL^{\otimes m})\ge m\deg\cL+1-g\to\infty$; reducing the degree by a point $P$ lowers
 $h^0$ by exactly $1$ until $h^0\le1$, whence the base-point-free
 statement for $m\gg0$ and then the very-ample statement, exactly as
 in the twist lemma below. (H): classical (the complement of an

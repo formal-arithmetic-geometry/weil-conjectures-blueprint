@@ -2,7 +2,7 @@
 id = "prop-wf-positive-degree-centre"
 kind = "theorem"
 title = "Central element of positive degree"
-order = 2679
+order = 2726
 tags = ["latex:proposition"]
 uses = ["def-wf-algebraic-components", "def-wf-algebraic-radicals", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-geometric-semisimplicity", "lem-wf-disconnected-geometric-centre", "lem-wf-inner-correction"]
 +++

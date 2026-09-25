@@ -2,7 +2,7 @@
 id = "lem-pc-smooth-characterization"
 kind = "lemma"
 title = "Smoothness versus flatness"
-order = 827
+order = 831
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-weil-scheme-morphism-properties"]
 +++
 Let $f:X\to S$ be a morphism of

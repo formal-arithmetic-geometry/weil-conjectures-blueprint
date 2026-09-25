@@ -2,7 +2,7 @@
 id = "prop-weil-derived-extension-by-zero"
 kind = "theorem"
 title = "The derived extension-by-zero functor"
-order = 1837
+order = 1851
 tags = ["latex:proposition"]
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero"]
 +++

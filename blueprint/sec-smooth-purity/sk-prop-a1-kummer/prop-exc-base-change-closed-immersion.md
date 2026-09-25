@@ -2,7 +2,7 @@
 id = "prop-exc-base-change-closed-immersion"
 kind = "theorem"
 title = "Base change for a closed immersion, against an open immersion"
-order = 1951
+order = 1967
 tags = ["latex:proposition"]
 uses = ["def-cbc-exchange-map", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "lem-exc-closed-ambient", "lem-exc-closed-support-triangle", "lem-exc-open-locality-direct-image"]
 +++

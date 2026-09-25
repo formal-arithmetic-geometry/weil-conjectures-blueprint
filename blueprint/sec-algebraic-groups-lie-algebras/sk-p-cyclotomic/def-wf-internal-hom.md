@@ -2,7 +2,7 @@
 id = "def-wf-internal-hom"
 kind = "definition"
 title = "Internal Hom"
-order = 2726
+order = 2774
 uses = ["def-wf-weil-category"]
 +++
 On $D(X,E)$ the internal Hom

@@ -2,8 +2,8 @@
 id = "thm-amb-p1-adjunction"
 kind = "theorem"
 title = "The full projective-line adjunction"
-order = 1590
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-amb-p1-trace", "def-coefficient-twists-detailed", "def-sc-p1-standard", "def-weil-pbc-derived-categories", "lem-amb-p1-diagonal-integrals", "lem-amb-proper-coproducts-projection", "thm-amb-p1-decomposition"]
+order = 1604
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-amb-p1-trace", "def-coefficient-twists-detailed", "def-sc-p1-standard", "def-weil-pbc-derived-categories", "lem-amb-p1-diagonal-integrals", "lem-amb-proper-coproducts-projection", "lem-weil-derived-direct-image-composition", "thm-amb-p1-decomposition"]
 +++
 On the whole ordinary derived categories of etale $A$-modules,
 
@@ -40,8 +40,10 @@ Set $\epsilon$ equal to the natural transformation in
 
 We verify both triangles, keeping track of the coordinate
 integrated in each. For the first triangle, the composite
-$\epsilon_{FM}\circ F\eta_M$, after proper base change
-and the projection formula, is
+$\epsilon_{FM}\circ F\eta_M$, after proper base change,
+the projection formula and the composition
+$R(qp_1)_*\cong Rq_*Rp_{1*}$ of
+[lem-weil-derived-direct-image-composition] (item (5)), is
 
 $$
 \begin{split}

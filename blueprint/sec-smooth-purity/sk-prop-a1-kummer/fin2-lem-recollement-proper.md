@@ -2,7 +2,7 @@
 id = "fin2-lem-recollement-proper"
 kind = "lemma"
 title = "The recollement sequence and the direct images"
-order = 1948
+order = 1964
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative", "thm-constructible-serre"]
 +++
 Let $p:Y\to T$ be a morphism of schemes of finite type over $k$, let

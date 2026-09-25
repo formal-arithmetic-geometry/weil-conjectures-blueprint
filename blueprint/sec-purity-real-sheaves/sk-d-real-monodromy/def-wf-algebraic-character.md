@@ -2,7 +2,7 @@
 id = "def-wf-algebraic-character"
 kind = "definition"
 title = "Algebraic characters"
-order = 2795
+order = 2844
 uses = ["def-wf-algebraic-torus"]
 +++
 For an algebraic group $H$ over $\overline{\mathbf Q}_\ell$, an

@@ -2,13 +2,14 @@
 id = "i-topology"
 kind = "theorem"
 title = "Topological invariance"
-order = 2496
-uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-dualizing-complex", "def-trf-external-product", "fix-prop-coherence", "prop-functor-package", "rem-ptr-trf-coefficient-conventions-1", "rem-sf-axiom-verification", "rem-sf-yoga", "rem-trf-classical-framework", "thm-sf-dual-base-change", "thm-trf-dualizing-complex-composition", "thm-trf-verdier-biduality"]
+order = 2525
+uses = ["def-trf-coefficient-conventions", "prop-functor-package"]
 tags = ["latex:proposition"]
 +++
 For a finite universal homeomorphism $r:X\to Y$,
 pullback is an equivalence
-$r^*:D^b_{ctf}(Y,A)\simeq D^b_{ctf}(X,A)$, with inverse $Rr_*=Rr_!$ and
+$r^*:D^b_{ctf}(Y,A)\simeq D^b_{ctf}(X,A)$ (the categories of
+[def-trf-coefficient-conventions]), with inverse $Rr_*=Rr_!$ and
 invertible unit and counit. This includes reduction.
 
 ## Proof
@@ -24,7 +25,7 @@ injective resolution, which gives the compatibility with cohomology and
 hence the statement on derived categories. Constructibility and finite
 Tor amplitude are preserved on both sides, so the equivalence restricts to
 $D^b_{ctf}$; $Rr_*=Rr_!$ because $r$ is finite, hence proper, by
-[fix-prop-coherence], [prop-functor-package], [rem-sf-axiom-verification], [rem-sf-yoga], [thm-sf-dual-base-change]. A reduction is a finite universal homeomorphism, so the
+[prop-functor-package]. A reduction is a finite universal homeomorphism, so the
 reduction clause is a special case.
 
-Uses: [def-trf-coefficient-conventions], [rem-ptr-trf-coefficient-conventions-1], [def-trf-admissibility], [def-trf-dualizing-complex], [def-trf-external-product], [rem-trf-classical-framework], [thm-trf-dualizing-complex-composition], [thm-trf-verdier-biduality], [fix-prop-coherence], [prop-functor-package], [rem-sf-axiom-verification], [rem-sf-yoga], [thm-sf-dual-base-change]
+Uses: [def-trf-coefficient-conventions], [prop-functor-package]

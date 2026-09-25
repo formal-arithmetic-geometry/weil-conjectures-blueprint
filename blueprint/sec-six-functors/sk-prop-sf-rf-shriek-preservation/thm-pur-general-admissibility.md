@@ -2,7 +2,7 @@
 id = "thm-pur-general-admissibility"
 kind = "theorem"
 title = "Preservation for an affine base, modulo the open-complement condition"
-order = 2172
+order = 2191
 uses = ["cor-exc-base-change-open-immersion-general", "cor-pur-smooth-admissibility", "cor-sf-ambient-adjoint-discharge", "def-exc-open-complement-bound", "def-pur-conventions", "def-sbc-affine-space", "def-weil-ambient-exceptional-adjoint", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "prop-exc-closed-tor", "prop-exc-open-adjoint"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

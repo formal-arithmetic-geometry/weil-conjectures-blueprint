@@ -2,7 +2,7 @@
 id = "rem-ptr-sf-orientation-2"
 kind = "remark"
 title = "Pointer to the properties of [def-sf-orientation]"
-order = 2127
+order = 2146
 uses = ["def-coefficient-twists-detailed", "def-sf-datum", "def-sf-orientation", "rem-sf-orientation-pointer"]
 +++
 In the notation of [def-sf-orientation], the following holds. together with the

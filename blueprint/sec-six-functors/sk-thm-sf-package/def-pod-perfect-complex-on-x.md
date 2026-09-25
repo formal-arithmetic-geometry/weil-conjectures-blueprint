@@ -2,7 +2,7 @@
 id = "def-pod-perfect-complex-on-x"
 kind = "definition"
 title = "Perfect complex over the coefficient ring on $X$"
-order = 2373
+order = 2390
 uses = ["def-pod-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-geometric-hypotheses", "def-weil-pbc-proetale-site"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting),

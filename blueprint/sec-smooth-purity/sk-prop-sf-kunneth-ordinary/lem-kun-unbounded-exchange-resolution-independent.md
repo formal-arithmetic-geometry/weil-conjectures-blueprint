@@ -2,7 +2,7 @@
 id = "lem-kun-unbounded-exchange-resolution-independent"
 kind = "lemma"
 title = "The unbounded exchange morphism is independent of the K-injective models"
-order = 1691
+order = 1705
 uses = ["def-kun-unbounded-exchange", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $\square=(f,f',g,g',\alpha)$ be a cartesian square, $\Lambda$ a

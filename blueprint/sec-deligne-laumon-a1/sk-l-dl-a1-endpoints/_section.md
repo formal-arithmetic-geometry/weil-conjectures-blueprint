@@ -2,8 +2,8 @@
 id = "sk-l-dl-a1-endpoints"
 kind = "section"
 title = "Degree zero and degree two"
-order = 2926
-uses = ["sk-d-dl-a1-setup", "sk-thm-derived-duality", "sk-thm-sf-dual-perfect", "sk-thm-sf-global-duality"]
+order = 2975
+uses = ["sk-d-dl-a1-setup", "sk-p-linear-filtration", "sk-thm-derived-duality", "sk-thm-sf-dual-perfect", "sk-thm-sf-global-duality"]
 +++
 *Lemma (sketch).*
 

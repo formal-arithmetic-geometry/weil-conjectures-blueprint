@@ -2,7 +2,7 @@
 id = "thm-pd-geometric-pic0"
 kind = "theorem"
 title = "The degree-zero Picard functor over a separable closure"
-order = 863
+order = 867
 uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-pd-degree-morphism", "def-pd-separable-closure", "def-sc-abelian-variety", "def-sc-jacobian", "def-sc-pic0", "lem-pd-geometric-curve", "thm-sc-jacobian-representability", "thm-sc-theorem-of-the-base"]
 +++
 Let $k$ be a field, let $C$ be a

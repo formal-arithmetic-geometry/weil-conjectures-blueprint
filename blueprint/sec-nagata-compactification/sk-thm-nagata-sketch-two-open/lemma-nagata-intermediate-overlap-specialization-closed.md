@@ -15,7 +15,7 @@ Let a point of the image specialize to $(u,x)$ in the displayed target. If
 $u\notin U_i$, then
 [lemma-nagata-intermediate-specialization-boundary] gives
 $x\in\overline Z_{i,j}$, contradicting the definition of the target.
-Hence $u\in U_i$. By
+Hence $u\in U_i$. By part (1) of
 [lemma-nagata-key-boundary-disjointness], the identity
 $\psi_i^{-1}(U_i)=U_i$ forces the point $v$ supplied by
 [lemma-nagata-intermediate-specialization-boundary] to lie in $U_i$.

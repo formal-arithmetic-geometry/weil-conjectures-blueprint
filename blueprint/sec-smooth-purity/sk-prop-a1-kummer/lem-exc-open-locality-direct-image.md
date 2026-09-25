@@ -2,7 +2,7 @@
 id = "lem-exc-open-locality-direct-image"
 kind = "lemma"
 title = "Locality of direct images for open immersions"
-order = 1947
+order = 1963
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let

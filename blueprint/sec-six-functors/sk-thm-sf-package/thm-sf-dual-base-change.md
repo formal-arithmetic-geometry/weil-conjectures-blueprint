@@ -2,7 +2,7 @@
 id = "thm-sf-dual-base-change"
 kind = "theorem"
 title = "Dual base change"
-order = 2361
+order = 2378
 uses = ["def-exchange-projection", "def-sf-datum", "fix-prop-adjunctions", "lem-sf-mate", "lemma-weil-pbc-prime-proper-base-change", "sbc-thm-smooth-base-change", "thm-cbc-complete-proetale", "thm-cbc-finite-extension", "thm-cbc-finite-level-proetale", "thm-cbc-finite-torsion", "thm-cbc-qbar", "thm-weil-pbc-bounded-below", "thm-weil-pbc-complete-proetale", "thm-weil-pbc-finite-level-proetale", "thm-weil-pbc-qbar"]
 +++
 In the setting of [def-sf-datum], let

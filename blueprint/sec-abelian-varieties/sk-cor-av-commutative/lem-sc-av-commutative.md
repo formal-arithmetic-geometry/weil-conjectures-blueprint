@@ -2,7 +2,7 @@
 id = "lem-sc-av-commutative"
 kind = "lemma"
 title = "Abelian varieties are commutative"
-order = 495
+order = 497
 uses = ["def-sc-abelian-variety", "lem-sc-rigidity"]
 +++
 Let $A$ be an abelian variety

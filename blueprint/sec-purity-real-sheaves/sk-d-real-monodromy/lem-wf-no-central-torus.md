@@ -2,7 +2,7 @@
 id = "lem-wf-no-central-torus"
 kind = "lemma"
 title = "No central torus in geometrically semisimple monodromy"
-order = 2805
+order = 2854
 uses = ["def-sbc-normal-dominant-galois", "def-weil-pbc-scheme-conventions", "def-wf-algebraic-torus", "def-wf-geometric-monodromy-group", "def-wf-geometric-semisimplicity", "lem-wf-central-weight-determinant-character", "lem-wf-faithful-semisimple-reductive", "lem-wf-geometric-closure-semisimple", "lem-wf-invariant-character-extension", "lem-wf-reductive-connected-centre", "lem-wf-torus-central-power-trivial", "thm-wf-rank-one-finite-geometric-image-curve"]
 +++
 Let $X_0$ be a

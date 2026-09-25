@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-karoubi-envelope-6"
 kind = "remark"
 title = "Pointer to the properties of the Karoubi envelope"
-order = 1427
+order = 1435
 uses = ["def-weil-karoubi-envelope", "lem-weil-karoubi-envelope-fully-faithful", "lem-weil-karoubi-envelope-idempotent-complete"]
 +++
 In the notation of [def-weil-karoubi-envelope], the following holds. That

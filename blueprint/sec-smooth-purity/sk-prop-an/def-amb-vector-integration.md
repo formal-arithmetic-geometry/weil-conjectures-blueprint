@@ -2,7 +2,7 @@
 id = "def-amb-vector-integration"
 kind = "definition"
 title = "Integration along a vector bundle"
-order = 2037
+order = 2055
 uses = ["def-asd-vector-bundle-zero-section", "def-coefficient-twists-detailed", "lem-amb-affine-space-top-trace", "lem-amb-linear-trace-invariance"]
 +++
 Let $\pi:E\to S$ be a vector bundle of constant

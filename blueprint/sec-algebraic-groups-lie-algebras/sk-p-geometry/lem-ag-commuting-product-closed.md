@@ -2,7 +2,7 @@
 id = "lem-ag-commuting-product-closed"
 kind = "lemma"
 title = "The product of two commuting connected closed subgroups is closed"
-order = 2633
+order = 2678
 uses = ["def-wf-algebraic-components", "lem-wf-dominant-affine-open-piece", "lem-wf-same-lie-closed-subgroup"]
 +++
 Let $A,B\subseteq\operatorname{GL}(V)$ be connected closed matrix groups

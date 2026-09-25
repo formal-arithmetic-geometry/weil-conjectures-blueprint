@@ -2,7 +2,7 @@
 id = "def-pc-curve"
 kind = "definition"
 title = "Curves"
-order = 457
+order = 459
 uses = ["def-pc-dimension", "def-pc-morphism-conventions", "def-pc-scheme", "def-sc-curves", "def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be a field. A *variety over $k$* is a scheme $X$ over $k$

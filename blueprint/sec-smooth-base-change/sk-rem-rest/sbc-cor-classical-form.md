@@ -2,7 +2,7 @@
 id = "sbc-cor-classical-form"
 kind = "theorem"
 title = "Classical form: base change along a smooth morphism"
-order = 1440
+order = 1448
 tags = ["latex:corollary"]
 uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-scheme-conventions", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-thm-smooth-base-change"]
 +++

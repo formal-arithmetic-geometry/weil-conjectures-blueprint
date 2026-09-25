@@ -2,7 +2,7 @@
 id = "def-weil-pbc-intrinsic-completion"
 kind = "definition"
 title = "Intrinsic derived completion"
-order = 1232
+order = 1240
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit"]
 +++
 For $m\geq1$, let

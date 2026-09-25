@@ -2,7 +2,7 @@
 id = "lem-pc-twist-zero"
 kind = "lemma"
 title = "The trivial twist"
-order = 626
+order = 624
 uses = ["def-pc-proj", "def-pc-projective-space-twist", "def-sc-invertible-module"]
 +++
 Let $A$ be a commutative ring, $n\ge0$ and

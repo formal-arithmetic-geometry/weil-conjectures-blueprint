@@ -2,8 +2,8 @@
 id = "thm-sc-theorem-of-the-base"
 kind = "theorem"
 title = "The theorem of the base"
-order = 854
-uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-picard-functor", "lem-sc-riemann-roch", "thm-pc-picard-representable"]
+order = 858
+uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-picard-functor", "lem-sc-riemann-roch", "prop-pd-picard-degree-decomposition", "thm-pc-picard-representable"]
 +++
 Let $k$ be a separably closed field and let $C$ be a
 smooth projective curve over $k$
@@ -46,7 +46,9 @@ projective), and the image of a proper scheme in a separated target
 is proper (Morphisms of Schemes, Lemma 29.42.10,
 [Tag 0AH6](https://stacks.math.columbia.edu/tag/0AH6)), so
 $\operatorname{Pic}^d_{C/k}$ is proper for $d\geq g$; every
-other component is a translate of one of these under the group law,
-hence proper. Therefore the open and closed subgroup scheme
+other component is isomorphic to one of these by a translation under
+the group law ([prop-pd-picard-degree-decomposition](4): translation by
+$\mathcal O_C(eP)$ maps $\operatorname{Pic}^d_{C/k}$ isomorphically onto
+$\operatorname{Pic}^{d+e}_{C/k}$), hence proper. Therefore the open and closed subgroup scheme
 $\operatorname{Pic}^0_{C/k}$ is proper and smooth of dimension
 $g$.

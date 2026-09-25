@@ -2,7 +2,7 @@
 id = "lem-wf-dominant-affine-open-piece"
 kind = "lemma"
 title = "A dominant affine morphism hits an open set"
-order = 2628
+order = 2672
 +++
 Let $f:X\to Y$ be a dominant morphism of nonempty irreducible affine
 varieties of finite type over an algebraically closed field. Then

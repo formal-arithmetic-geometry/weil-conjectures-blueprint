@@ -2,7 +2,7 @@
 id = "def-weil-derived-complete-integral-detailed"
 kind = "definition"
 title = "Bounded constructible derived-complete integral coefficients"
-order = 1476
+order = 1485
 uses = ["def-weil-cohomological-support", "def-weil-completed-integral-coefficients", "def-weil-derived-complete", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility"]
 +++
 Let $D^b_c(Y,\mathcal O_E)$ be the full triangulated subcategory of

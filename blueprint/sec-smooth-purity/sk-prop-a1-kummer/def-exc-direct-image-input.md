@@ -2,7 +2,7 @@
 id = "def-exc-direct-image-input"
 kind = "definition"
 title = "The classical direct-image finiteness input"
-order = 1976
+order = 1992
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be a field, let $N$ be an integer prime to

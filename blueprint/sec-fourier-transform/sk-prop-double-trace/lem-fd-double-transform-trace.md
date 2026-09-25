@@ -2,7 +2,7 @@
 id = "lem-fd-double-transform-trace"
 kind = "lemma"
 title = "The double transform has the trace function of the Tate twist"
-order = 2907
+order = 2954
 uses = ["def-fd-additive-character", "def-fd-trace-function", "def-fd-transform", "def-wf-tate-twist", "lem-fd-additive-orthogonality", "lem-wf-tate-twist-frobenius", "thm-fd-fourier-trace"]
 +++
 Let $k_0=\mathbf F_q$ and $V=\mathbf A^1_k$ with $k=\bar k_0$, and let
@@ -32,18 +32,18 @@ complex $\operatorname{FT}_\psi(K)$ and to the character $\psi^{-1}$,
 $$
 t_{\operatorname{FT}_{\psi^{-1}}\operatorname{FT}_\psi(K)}(y)
 =-\sum_{x\in\mathbf F_{q^n}}t_{\operatorname{FT}_\psi(K)}(x)\,
-\psi\Bigl(-\operatorname{Tr}_{\mathbf F_{q^n}/\mathbf F_p}(xy)\Bigr),
+\psi\Bigl(-\operatorname{Tr}_{\mathbf F_{q^n}/k_0}(xy)\Bigr),
 $$
 
 while the same formula applied to $K$ gives
-$t_{\operatorname{FT}_\psi(K)}(x) =-\sum_{z\in\mathbf F_{q^n}}t_K(z)\psi(\operatorname{Tr}(xz))$.
+$t_{\operatorname{FT}_\psi(K)}(x) =-\sum_{z\in\mathbf F_{q^n}}t_K(z)\psi(\operatorname{Tr}_{\mathbf F_{q^n}/k_0}(xz))$.
 Substituting and exchanging the two finite sums,
 
 $$
 t_{\operatorname{FT}_{\psi^{-1}}\operatorname{FT}_\psi(K)}(y)
 =\sum_{z\in\mathbf F_{q^n}}t_K(z)
 \sum_{x\in\mathbf F_{q^n}}
-\psi\bigl(\operatorname{Tr}_{\mathbf F_{q^n}/\mathbf F_p}(x(z-y))\bigr),
+\psi\bigl(\operatorname{Tr}_{\mathbf F_{q^n}/k_0}(x(z-y))\bigr),
 $$
 
 the two signs cancelling. The inner sum is evaluated by the additive

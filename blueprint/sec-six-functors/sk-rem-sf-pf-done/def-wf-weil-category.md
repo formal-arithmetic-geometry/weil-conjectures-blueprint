@@ -2,7 +2,7 @@
 id = "def-wf-weil-category"
 kind = "definition"
 title = "The Weil category"
-order = 2199
+order = 2218
 uses = ["def-tw-frobenius-action", "def-weil-pbc-bounded-constructible-complete", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++
 Let $E/\mathbf Q_\ell$ be finite and let $X_0$ be a

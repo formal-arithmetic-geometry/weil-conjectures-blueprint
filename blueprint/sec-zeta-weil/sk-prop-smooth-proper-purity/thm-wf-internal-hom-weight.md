@@ -2,7 +2,7 @@
 id = "thm-wf-internal-hom-weight"
 kind = "theorem"
 title = "Internal-Hom weight theorem"
-order = 3079
+order = 3145
 uses = ["def-wf-internal-hom", "def-wf-tensor-product", "def-wf-wtle", "lem-tw-multiplicativity"]
 +++
 Let $K,L\in\mathrm{WeilD}(X_0,E)$. Assume that $K$ is

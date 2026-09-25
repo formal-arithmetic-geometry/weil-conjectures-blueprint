@@ -2,7 +2,7 @@
 id = "def-weil-pbc-witness-compatibility"
 kind = "definition"
 title = "Witness compatibility condition"
-order = 1355
+order = 1363
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-finite-level-amplification"]
 +++
 For such a cartesian square $\square$, write $\mathrm{WIT}(\square)$ if the

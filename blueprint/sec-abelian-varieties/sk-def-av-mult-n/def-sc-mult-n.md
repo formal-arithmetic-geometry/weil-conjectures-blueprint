@@ -2,7 +2,7 @@
 id = "def-sc-mult-n"
 kind = "definition"
 title = "Multiplication by $n$ and $n$-torsion"
-order = 437
+order = 439
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme"]
 +++
 Let $A$ be an abelian variety

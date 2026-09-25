@@ -2,7 +2,7 @@
 id = "thm-trf-integral-adic-trace-formula"
 kind = "theorem"
 title = "Integral adic trace formula"
-order = 2526
+order = 2563
 uses = ["def-trf-adic-system", "def-trf-coefficient-conventions", "def-weil-finite-field-fiber", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "prop-trf-levelwise-compact-support", "prop-trf-trace-formal-laws", "thm-trf-finite-coefficient-map", "thm-trf-grothendieck-lefschetz-finite-ring"]
 +++
 Fix the global finite-field datum

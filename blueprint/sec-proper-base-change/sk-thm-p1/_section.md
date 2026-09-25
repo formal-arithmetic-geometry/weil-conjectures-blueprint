@@ -2,8 +2,8 @@
 id = "sk-thm-p1"
 kind = "section"
 title = "Curve calculations $\\Rightarrow$ PBC($\\Pone$)"
-order = 1109
-uses = ["sk-def-conv", "sk-def-ia", "sk-def-pbc", "sk-thm-curveestimate", "sk-thm-iff"]
+order = 1117
+uses = ["sk-def-br", "sk-def-conv", "sk-def-ia", "sk-def-pbc", "sk-thm-curveestimate", "sk-thm-iff"]
 +++
 *Theorem (sketch).*
 

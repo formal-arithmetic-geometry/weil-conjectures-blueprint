@@ -2,7 +2,7 @@
 id = "def-wf-normalized-real-envelope"
 kind = "definition"
 title = "Normalized real envelope"
-order = 2960
+order = 3018
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist"]
 +++
 Let $\mathcal F$ be a lisse Weil sheaf punctually $\iota$-pure of

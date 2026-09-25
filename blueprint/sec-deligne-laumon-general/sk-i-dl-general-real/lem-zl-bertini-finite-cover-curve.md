@@ -2,7 +2,7 @@
 id = "lem-zl-bertini-finite-cover-curve"
 kind = "lemma"
 title = "Curves through prescribed points preserving a finite cover"
-order = 3034
+order = 3100
 uses = ["def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties"]
 +++
 Let $k$ be an algebraically closed field, let $X$ be a smooth

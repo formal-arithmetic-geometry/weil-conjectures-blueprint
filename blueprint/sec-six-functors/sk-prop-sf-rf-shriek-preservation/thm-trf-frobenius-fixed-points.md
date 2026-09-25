@@ -2,7 +2,7 @@
 id = "thm-trf-frobenius-fixed-points"
 kind = "theorem"
 title = "Scheme-theoretic Frobenius fixed points"
-order = 2181
+order = 2200
 uses = ["def-trf-fixed-scheme", "def-trf-graph-correspondence", "def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum

@@ -2,7 +2,7 @@
 id = "def-sf-fullcd-used-class"
 kind = "definition"
 title = "The coefficient class of the blueprint"
-order = 1829
+order = 1843
 uses = ["def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, $n\geq1$,

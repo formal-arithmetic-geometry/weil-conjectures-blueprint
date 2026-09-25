@@ -2,7 +2,7 @@
 id = "def-tw-conventions"
 kind = "definition"
 title = "Base conventions for weight theory"
-order = 2197
+order = 2216
 uses = ["def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++
 Let $q=p^r$ be a prime power, let $k=\mathbf F_q$, and let

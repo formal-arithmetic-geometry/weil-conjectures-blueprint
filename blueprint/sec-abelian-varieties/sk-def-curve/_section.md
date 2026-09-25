@@ -2,7 +2,7 @@
 id = "sk-def-curve"
 kind = "section"
 title = "Curves and genus"
-order = 421
+order = 422
 +++
 *Definition (sketch).*
 

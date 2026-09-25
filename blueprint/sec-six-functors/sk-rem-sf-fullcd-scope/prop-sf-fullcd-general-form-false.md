@@ -2,7 +2,7 @@
 id = "prop-sf-fullcd-general-form-false"
 kind = "theorem"
 title = "The all-sheaves, uniform-in-the-base-change form of the comparison bound is false"
-order = 2143
+order = 2162
 tags = ["latex:proposition"]
 uses = ["def-sf-fullcd-used-class", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "prop-sf-comparison-bound-zero", "rem-sf-fullcd-counterexample", "rem-sf-fullcd-general-form", "thm-sf-fullcd-used-class"]
 +++

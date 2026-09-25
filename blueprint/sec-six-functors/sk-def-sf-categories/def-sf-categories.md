@@ -1,8 +1,8 @@
 +++
 id = "def-sf-categories"
-kind = "definition"
+kind = "remark"
 title = "Ambient categories and small subcategories"
-order = 2119
+order = 2138
 +++
 Fix a scheme $T$ carrying a coefficient stage $\Lambda$ and a site — the
 *small étale* or the *small pro-étale* site of

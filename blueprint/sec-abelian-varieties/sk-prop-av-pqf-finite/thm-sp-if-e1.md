@@ -2,8 +2,8 @@
 id = "thm-sp-if-e1"
 kind = "theorem"
 title = "Hypercohomology spectral sequence via a Cartan--Eilenberg resolution"
-order = 525
-uses = ["def-sp-convergence", "def-sp-injective-resolutions", "def-sp-kinjective-bridge", "def-sp-left-exact-additive", "def-sp-truncation-couple", "lem-sp-kinjective-computes", "thm-sp-spectral-object-yields"]
+order = 529
+uses = ["def-sp-convergence", "def-sp-double-complex-total", "def-sp-injective-resolutions", "def-sp-kinjective-bridge", "def-sp-left-exact-additive", "def-sp-truncation-couple", "lem-sp-kinjective-computes", "thm-sp-double-complex-spectral-sequences", "thm-sp-spectral-object-yields"]
 +++
 Let $v$ be as in [def-sp-truncation-couple] and let $A^{\bullet,\bullet}$ be
 a Cartan--Eilenberg resolution of a bounded-below complex $K^\bullet$: the
@@ -24,7 +24,8 @@ independent of the resolution.
 **Status.** The proof formerly invoked Stacks Tags 0130/0131 for the whole
 bicomplex spectral sequence without constructing it. It is now an application
 of [thm-sp-spectral-object-yields] to the total complex of the double complex
-with its second-degree filtration, together with the standard identification
+with its second-degree filtration ([def-sp-double-complex-total],
+[thm-sp-double-complex-spectral-sequences] (II)), together with the standard identification
 of the row cohomology with the derived functors.
 
 It also formerly asserted that a Cartan--Eilenberg resolution computes the

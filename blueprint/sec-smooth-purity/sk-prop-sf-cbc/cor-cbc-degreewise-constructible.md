@@ -2,7 +2,7 @@
 id = "cor-cbc-degreewise-constructible"
 kind = "theorem"
 title = "Degreewise and constructible forms"
-order = 1668
+order = 1682
 tags = ["latex:corollary"]
 uses = ["def-cbc-compact-support-square", "def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-inverse-image", "prop-finite-compact-support-constructibility", "thm-cbc-finite-torsion"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-trf-exceptional-projection-formula"
 kind = "lemma"
 title = "Exceptional projection formula: $f^!$ is $f^*$-linear up to the twist"
-order = 2433
+order = 2457
 uses = ["def-trf-admissibility", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-site-perfect-complex", "lem-trf-chain-supertrace", "prop-functor-package"]
 +++
 Fix the coefficient

@@ -2,7 +2,7 @@
 id = "def-trf-etale-base-change"
 kind = "definition"
 title = "Etale base change of a correspondence"
-order = 2471
+order = 2499
 uses = ["def-trf-correspondence", "def-weil-scheme-morphism-properties"]
 +++
 In the setting of [def-trf-correspondence], let $e:X'\to X$ be

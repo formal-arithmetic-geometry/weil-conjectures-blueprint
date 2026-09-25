@@ -2,7 +2,7 @@
 id = "def-asd-vector-bundle-zero-section"
 kind = "definition"
 title = "Vector bundle with zero section"
-order = 2033
+order = 2051
 uses = ["def-amb-finite-locally-free-module", "def-weil-scheme-morphism-properties"]
 +++
 Let $S$ be a Noetherian scheme and let $\mathcal E$ be a

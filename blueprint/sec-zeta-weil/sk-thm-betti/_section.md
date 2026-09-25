@@ -2,7 +2,7 @@
 id = "sk-thm-betti"
 kind = "section"
 title = "Betti symmetry and the endpoint factors"
-order = 3146
+order = 3214
 uses = ["sk-def-cohfamily", "sk-def-roots", "sk-thm-intfactors", "sk-thm-poincare-duality", "sk-thm-rationality"]
 +++
 *Theorem (sketch).*

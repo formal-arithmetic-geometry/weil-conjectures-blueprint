@@ -2,7 +2,7 @@
 id = "def-sbc-normal-dominant-galois"
 kind = "definition"
 title = "Integral, normal, dominant, Galois covers, and geometrical connectedness"
-order = 1383
+order = 1391
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A scheme $S$ is *integral* if it is nonempty, reduced, and

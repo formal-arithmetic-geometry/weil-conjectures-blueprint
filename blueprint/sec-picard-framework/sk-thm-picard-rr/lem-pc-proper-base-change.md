@@ -2,7 +2,7 @@
 id = "lem-pc-proper-base-change"
 kind = "lemma"
 title = "Proper and smooth morphisms are stable under base change"
-order = 738
+order = 740
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-scheme", "def-weil-scheme-morphism-properties"]
 +++
 Let $f:X\to S$ be a proper morphism, let $g:S'\to S$ be arbitrary, and

@@ -2,7 +2,7 @@
 id = "def-sc-isogeny"
 kind = "definition"
 title = "Isogenies"
-order = 434
+order = 436
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme"]
 +++
 Let $A,B$ be abelian varieties

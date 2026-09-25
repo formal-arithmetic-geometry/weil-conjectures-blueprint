@@ -2,7 +2,7 @@
 id = "lem-pc-flat-field"
 kind = "lemma"
 title = "Every morphism to a field is flat"
-order = 763
+order = 766
 uses = ["def-pc-morphism-conventions"]
 +++
 Let $k$ be a field and $T$ a scheme over $k$. Then $T\to\operatorname{Spec}(k)$ is

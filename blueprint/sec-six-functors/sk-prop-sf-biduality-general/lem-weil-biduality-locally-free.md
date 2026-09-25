@@ -2,7 +2,7 @@
 id = "lem-weil-biduality-locally-free"
 kind = "lemma"
 title = "Biduality for locally free objects on a smooth scheme"
-order = 2218
+order = 2237
 uses = ["def-sf-orientation", "def-weil-site-perfect-complex", "lem-weil-coefficient-frobenius"]
 +++
 Let $X$ be a smooth separated finite-type $k$-scheme of pure dimension

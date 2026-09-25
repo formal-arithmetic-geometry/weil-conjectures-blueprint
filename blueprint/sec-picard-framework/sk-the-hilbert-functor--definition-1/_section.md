@@ -2,7 +2,8 @@
 id = "sk-the-hilbert-functor--definition-1"
 kind = "section"
 title = "Hilbert functor"
-order = 769
+order = 773
+uses = ["sk-def-av-jacobian"]
 +++
 *Definition (sketch).*
 

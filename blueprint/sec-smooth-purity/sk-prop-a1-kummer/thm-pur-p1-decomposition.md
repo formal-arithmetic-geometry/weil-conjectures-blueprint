@@ -2,7 +2,7 @@
 id = "thm-pur-p1-decomposition"
 kind = "theorem"
 title = "The projective-line decomposition"
-order = 2001
+order = 2017
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-support-cohomology", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-divisor-class", "prop-weil-proet-finite-proper-base-change", "thm-pur-affine-line-orientation", "thm-pur-kummer-affine-line", "thm-pur-rank-one-local-calculation", "thm-pur-with-support-exactness"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

@@ -2,7 +2,7 @@
 id = "thm-pur-with-support-exactness"
 kind = "theorem"
 title = "Long exact sequence for cohomology with support"
-order = 1981
+order = 1997
 uses = ["def-pur-support-cohomology", "def-weil-open-closed-recollement", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-site-comparison"]
 +++
 Let $X$ be a scheme, let

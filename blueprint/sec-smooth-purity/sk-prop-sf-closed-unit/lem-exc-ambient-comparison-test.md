@@ -2,7 +2,7 @@
 id = "lem-exc-ambient-comparison-test"
 kind = "lemma"
 title = "The ambient comparison test"
-order = 1895
+order = 1910
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-site-comparison-morphism"]
 +++
 Use the ordinary derived

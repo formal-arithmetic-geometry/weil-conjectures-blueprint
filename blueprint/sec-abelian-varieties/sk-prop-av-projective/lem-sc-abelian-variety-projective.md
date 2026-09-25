@@ -2,7 +2,7 @@
 id = "lem-sc-abelian-variety-projective"
 kind = "lemma"
 title = "Abelian varieties are projective"
-order = 477
+order = 479
 uses = ["def-sc-abelian-variety"]
 +++
 Every abelian variety $A$ over

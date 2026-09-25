@@ -2,7 +2,7 @@
 id = "lem-trf-weil-extension-functorial"
 kind = "lemma"
 title = "Functoriality of the Weil extension by zero"
-order = 2507
+order = 2539
 uses = ["def-trf-strict-weil-complex", "def-trf-weil-extension-zero", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "lem-trf-open-square-exchange", "lem-trf-weil-extension-strict"]
 +++
 Let $j_0:X_0\hookrightarrow Y_0$ be an

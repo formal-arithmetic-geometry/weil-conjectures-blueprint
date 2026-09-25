@@ -2,8 +2,8 @@
 id = "sk-d-corr"
 kind = "section"
 title = "Correspondences and supported classes"
-order = 2405
-uses = ["sk-d-setup", "sk-d-six"]
+order = 2422
+uses = ["sk-d-setup", "sk-d-six", "sk-thm-sf-comp-composition"]
 +++
 *Definition (sketch).*
 

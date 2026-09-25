@@ -2,7 +2,7 @@
 id = "lem-wf-weil-group-constant-extension"
 kind = "lemma"
 title = "Weil group after a finite constant-field extension"
-order = 2734
+order = 2782
 uses = ["def-tw-frobenius-action", "def-weil-finite-field-fiber", "def-weil-pbc-scheme-conventions", "def-wf-weil-group", "lem-wf-weil-group-exact-sequence"]
 +++
 Let $X_0$ be a

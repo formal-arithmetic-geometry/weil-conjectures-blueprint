@@ -2,7 +2,7 @@
 id = "sk-the-final-theorem-the-abelian-variety-estimate--remark-1"
 kind = "section"
 title = "Remark"
-order = 603
+order = 601
 +++
 *Remark (sketch).*
 
@@ -24,17 +24,18 @@ $p$-linear fixed-point comparison in characteristic $p$.
 $A[\ell^n](k)\cong(\Z/\ell^n\Z)^{2g}$ and its base-change invariance
 (blueprint lem:sc-ntorsion-etale); clause (d) gives the
 divisibility used to see that the transition maps are surjective
-(lem:sc-isogeny-surjective) and $T_\ell J\cong\Z_\ell^{2g}$;
-clause (e) is the Kummer identification
+(lem:sc-isogeny-surjective) and $T_\ell J\cong\Z_\ell^{2g}$.
+The Kummer identification
 $H^1(C,A_n(1))\cong J[\ell^n](\overline{k}_0)$ and the dual form
 $\varprojlim H^1(C,A_n)\cong\Hom_{\Z_\ell}(T_\ell J,\Z_\ell)$ that the
-whole real-purity argument runs on (blueprint
+whole real-purity argument runs on are not part of this section; they
+belong to the real-purity section, built on [sk-d-real-jacobian] (blueprint
 lem:wf-curve-kummer-jacobian-tate-module,
 lem:wf-curve-h1-dual-tate-module), with the semilinear Galois
 action coming from the functoriality of the Jacobian.
-- **Jacobian**: [sk-prop-av-jacobian] is
+- **Jacobian**: the Jacobian itself is constructed later, in
 [sk-prop-jacobian] of [sec-picard-framework], resting on
-[sk-thm-picard-main], and [sk-prop-av-jacobian-general] is
+[sk-thm-picard-main], and over an arbitrary field in
 [sk-prop-jacobian-descent]. In the detailed blueprint these are
 thm:sc-jacobian-representability (with thm:sc-theorem-of-the-base,
 lem:sc-pic-tangent-space, def:sc-jacobian,
@@ -47,10 +48,7 @@ cube ([sk-prop-av-cube]), projectivity ([sk-prop-av-projective]),
 the rigidity lemma ([sk-prop-av-rigidity]), the quoted isogeny facts
 ([sk-prop-av-isogeny]), the $p$-power order of connected finite group
 schemes ([sk-prop-av-connected-order]), Cartier's theorem
-([sk-prop-av-prime-p-etale]), the Jacobian representability input
-([sk-prop-av-jacobian]), its general-field descent
-([sk-prop-av-jacobian-general]) and the Kummer/duality input of
-[sk-prop-av-kummer-tate]. Corresponding detailed blueprint source:
+([sk-prop-av-prime-p-etale]). Corresponding detailed blueprint source:
 06e\_abelian\_varieties.tex (chapter chap:abelian-varieties),
 with 06d\_group\_schemes.tex, 06f\_divisors\_picard\_riemann\_roch.tex,
 50\_picard\_scheme\_of\_a\_curve\_new.tex, 06b\_jacobian.tex and
@@ -83,6 +81,3 @@ with 06d\_group\_schemes.tex, 06f\_divisors\_picard\_riemann\_roch.tex,
 | [sk-prop-av-divisible-structure] | lem:sc-divisible-group-structure | `03RP` (proof of (7)) |
 | [sk-prop-av-tate-rank] | def:wf-abelian-tate-module (`52`) with lem:sc-ntorsion-etale | — |
 | [sk-prop-av-fixed-points], [sk-prop-av-lang-steinberg], [sk-prop-av-fixed-base-change] | lem:sc-fixed-points-finite, lem:sc-lang-steinberg, lem:sc-frobenius-fixed-invariance | `0ASV` |
-| [sk-prop-av-jacobian] | def:sc-jacobian, thm:sc-jacobian-representability, thm:sc-theorem-of-the-base (`06b`) | `0B92`, `0B9Z`, `0BA0` |
-| [sk-prop-av-jacobian-general] | thm:pd-jacobian-general-field (`51`) | `0CCJ`, `01ZM` |
-| [sk-prop-av-kummer-tate] | lem:wf-curve-kummer-jacobian-tate-module, lem:wf-curve-h1-dual-tate-module (`52`) | Poincaré duality ([sec-poincare-duality]) |

@@ -2,7 +2,7 @@
 id = "lem-wf-central-torus-weight-decomposition"
 kind = "lemma"
 title = "Weight decomposition for a central torus"
-order = 2796
+order = 2845
 uses = ["def-wf-algebraic-character", "def-wf-algebraic-representations", "def-wf-algebraic-torus"]
 +++
 Let $T\subseteq Z(H)$ be a central torus and let $M$ be an

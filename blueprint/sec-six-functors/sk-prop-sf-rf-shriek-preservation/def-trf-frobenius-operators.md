@@ -2,7 +2,7 @@
 id = "def-trf-frobenius-operators"
 kind = "definition"
 title = "Global and local geometric Frobenius operators"
-order = 2182
+order = 2201
 uses = ["def-trf-coefficient-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "prop-trf-scheme-galois-comparison", "thm-trf-frobenius-fixed-points", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Fix the global finite-field datum

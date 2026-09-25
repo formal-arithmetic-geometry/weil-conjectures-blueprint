@@ -2,7 +2,7 @@
 id = "def-wf-algebraic-torus"
 kind = "definition"
 title = "Algebraic torus"
-order = 2794
+order = 2843
 +++
 A *torus* over $\overline{\mathbf Q}_\ell$ is an algebraic group
 isomorphic to $\mathbf G_m^d$ for some $d\geq0$. Its algebraic

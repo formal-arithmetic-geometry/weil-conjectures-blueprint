@@ -2,7 +2,7 @@
 id = "lem-wf-weil-group-exact-sequence"
 kind = "lemma"
 title = "Exactness of the Weil-group sequence"
-order = 2685
+order = 2732
 uses = ["def-tw-frobenius-action", "def-wf-fundamental-representation", "def-wf-weil-group"]
 +++
 Let $X_0$ be a geometrically connected separated finite-type

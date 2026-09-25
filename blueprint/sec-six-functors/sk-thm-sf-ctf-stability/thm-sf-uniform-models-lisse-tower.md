@@ -2,7 +2,7 @@
 id = "thm-sf-uniform-models-lisse-tower"
 kind = "theorem"
 title = "Stage-independent local models for a lisse tower with a uniform trivializing cover"
-order = 2328
+order = 2344
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-finite-tor-amplitude", "def-weil-pbc-bounded-constructible-tower", "lem-sf-finite-level-comparison", "lem-sf-stage-independent-model-criterion", "lem-weil-pbc-reconstruction-uniform-tower"]
 +++
 Let $T$ be a scheme on which $\ell$ is invertible, let $M_\bullet$ be

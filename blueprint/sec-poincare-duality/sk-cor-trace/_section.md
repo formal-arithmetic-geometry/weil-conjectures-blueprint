@@ -2,7 +2,7 @@
 id = "sk-cor-trace"
 kind = "section"
 title = "The trace isomorphism"
-order = 2586
+order = 2622
 uses = ["sk-def-trace-cup", "sk-lem-finite", "sk-thm-sf-identification"]
 +++
 *Corollary (sketch).*
@@ -25,6 +25,11 @@ cor:pod-constant-coefficients, thm:pod-trace-isomorphism.)
 Take $K=\Lambda_X$ in the proper case of [sk-thm-sf-identification]
 and $i=0$: the
 degreewise form reads $H^0_c(X,\Lambda)^\vee\cong H^{2d}(X,\Lambda)(d)$.
+(At $\Lambda\in\{A_{E,n},E,\Qlb\}$ this is the degreewise clause. At
+$\Lambda=\Oe$ the derived form gives
+$H^{2d}(X,\Oe)(d)\cong\operatorname{Hom}(H^0,\Oe)\oplus\operatorname{Ext}^1(H^1,\Oe)$,
+and the Ext term vanishes: $H^1(X,\Oe)$ is torsion-free, since
+$H^0(X,\Oe)\to H^0(X,A_{E,1})$ is surjective, $X$ being connected.)
 Since $X$ is proper, $Ra_{X!}\cong Ra_{X*}$ by [sk-def-ops] and hence
 $H^0_c=H^0$; since $X$ is geometrically connected, $H^0(X,\Lambda)\cong \Lambda$ with the geometric Frobenius acting as the identity, which is the
 $H^0$-clause of the finiteness interface

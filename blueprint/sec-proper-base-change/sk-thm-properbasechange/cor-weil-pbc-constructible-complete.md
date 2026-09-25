@@ -2,7 +2,7 @@
 id = "cor-weil-pbc-constructible-complete"
 kind = "theorem"
 title = "Constructible complete proper base change"
-order = 1359
+order = 1367
 uses = ["def-weil-pbc-bounded-constructible-complete", "prop-weil-pbc-preservation-constructible", "thm-weil-pbc-complete-proetale"]
 tags = ["latex:corollary"]
 +++

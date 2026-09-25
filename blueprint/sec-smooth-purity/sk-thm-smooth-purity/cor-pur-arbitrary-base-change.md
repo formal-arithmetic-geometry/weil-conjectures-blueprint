@@ -2,7 +2,7 @@
 id = "cor-pur-arbitrary-base-change"
 kind = "theorem"
 title = "Smooth base-change coherence needs no smoothness of the base change"
-order = 2093
+order = 2111
 tags = ["latex:corollary"]
 uses = ["cor-pur-vector-bundle-purity", "def-exchange-projection", "def-pur-conventions", "def-pur-smooth-purity-map", "def-sbc-smooth-morphisms", "lem-pur-diagonal-base-change", "lem-pur-smb-extraordinary", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance", "thm-pur-smooth-base-change-coherence"]
 +++

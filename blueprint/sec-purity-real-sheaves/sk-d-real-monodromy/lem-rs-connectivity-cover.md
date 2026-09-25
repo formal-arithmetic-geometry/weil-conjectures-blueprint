@@ -2,7 +2,7 @@
 id = "lem-rs-connectivity-cover"
 kind = "lemma"
 title = "The finite etale cover realising the identity-component subgroup"
-order = 2808
+order = 2857
 uses = ["cor-galois-open-subgroups", "def-sbc-normal-dominant-galois", "def-weil-pbc-scheme-conventions", "def-wf-algebraic-components", "def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-geometric-semisimplicity", "def-wf-weil-group", "lem-rs-connectivity-reduction"]
 +++
 Let $X_0$ be a normal,

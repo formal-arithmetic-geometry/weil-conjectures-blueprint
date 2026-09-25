@@ -2,7 +2,7 @@
 id = "lem-a1-reduction-upper-weight"
 kind = "lemma"
 title = "Upper-weight bound for the transported complex"
-order = 3003
+order = 3065
 uses = ["def-weil-complex-weights", "def-weil-punctual-weights", "lem-zl-finite-pushforward"]
 +++
 Let $C_0$ be a smooth geometrically connected affine curve, let

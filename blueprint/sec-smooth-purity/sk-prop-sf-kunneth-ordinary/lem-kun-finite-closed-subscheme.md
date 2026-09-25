@@ -2,7 +2,7 @@
 id = "lem-kun-finite-closed-subscheme"
 kind = "lemma"
 title = "Closed subsets consisting of closed points"
-order = 1731
+order = 1745
 uses = ["def-kun-support"]
 +++
 Let $X$ be a scheme of finite type over a field $K$. A closed

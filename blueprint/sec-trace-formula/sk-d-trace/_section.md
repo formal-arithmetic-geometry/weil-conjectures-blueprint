@@ -2,7 +2,7 @@
 id = "sk-d-trace"
 kind = "section"
 title = "Ordinary categorical trace"
-order = 2403
+order = 2420
 uses = ["sk-d-setup"]
 +++
 *Definition (sketch).*

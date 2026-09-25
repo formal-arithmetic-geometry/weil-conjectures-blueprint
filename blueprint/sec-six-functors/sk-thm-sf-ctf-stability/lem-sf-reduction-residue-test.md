@@ -2,7 +2,7 @@
 id = "lem-sf-reduction-residue-test"
 kind = "lemma"
 title = "Reduction, geometric stalks, and the residue test"
-order = 2320
+order = 2336
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-pbc-geometric-stalks", "lem-exc-residue-tor-test", "lem-sf-flat-model", "lem-sf-stalk-free-model", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $A_{E,m}$ and $A_{E,n}$ be two finite coefficient stages with

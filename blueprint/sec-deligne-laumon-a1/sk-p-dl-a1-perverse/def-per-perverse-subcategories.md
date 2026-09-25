@@ -2,7 +2,7 @@
 id = "def-per-perverse-subcategories"
 kind = "definition"
 title = "Perverse subcategories of the first kind"
-order = 2935
+order = 2986
 uses = ["def-per-support-condition", "def-weil-pbc-qbar-category"]
 +++
 In the setting of [def-per-support-condition], put

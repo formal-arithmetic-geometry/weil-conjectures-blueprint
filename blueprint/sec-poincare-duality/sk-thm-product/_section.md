@@ -2,7 +2,7 @@
 id = "sk-thm-product"
 kind = "section"
 title = "Supported product over a relative base"
-order = 2574
+order = 2610
 uses = ["sk-def-ops", "sk-thm-sf-kunneth-relative"]
 +++
 *Theorem (sketch).*

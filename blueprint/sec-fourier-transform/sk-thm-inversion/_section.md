@@ -2,7 +2,7 @@
 id = "sk-thm-inversion"
 kind = "section"
 title = "P13: invertibility of the transform"
-order = 2912
+order = 2959
 uses = ["sk-lem-kernel-composition", "sk-prop-convolution-kernel"]
 +++
 *Theorem (sketch).*

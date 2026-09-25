@@ -2,17 +2,20 @@
 id = "def-sf-kv-maps"
 kind = "definition"
 title = "The product comparison maps"
-order = 2349
-uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-fix-six-functor-datum", "def-sf-datum", "def-sf-pf", "def-weil-exceptional-inverse-image", "def-weil-integral-rational-qbar-compact-support", "lem-compact-support-direct-image-triangulated", "lem-sf-kunneth-coherence", "lem-weil-compact-support-finite-field-independence", "lem-weil-compact-support-representative-independence", "rem-ptr-exchange-projection-17", "rem-ptr-weil-integral-rational-qbar-compact-support-5", "rem-sf-summary", "thm-sf-kunneth-relative"]
+order = 2365
+uses = ["def-compact-support-direct-image-detailed", "def-sf-datum", "def-sf-pf", "def-trf-admissibility", "def-weil-exceptional-inverse-image", "def-weil-integral-rational-qbar-compact-support", "thm-sf-kunneth-relative"]
 +++
 For $i=1,2$ let $f_i:X_i\to Y_i$ be separated of finite type between
 finite-type $k$-schemes, carrying the ambient datum of
-[sk-def-sf-admissible] where $Rf^!$ occurs, put $f=f_1\times f_2$, and let
+[def-trf-admissibility] where $Rf^!$ occurs (with $Rf^!$ the exceptional
+inverse image of [def-weil-exceptional-inverse-image] and $Rf_!$ the
+compact-support direct image of [def-compact-support-direct-image-detailed],
+[def-weil-integral-rational-qbar-compact-support]), put $f=f_1\times f_2$, and let
 $L_i\in\Dctf(Y_i,\Lambda)$, $B_i\in\Dctf(X_i,\Lambda)$.
 
 3pt
 1. **(i)** The $!$-Künneth
-$\mathrm{Ku}_!:Rf_!(B_1\boxtimes B_2)\xrightarrow{\ \sim\ } Rf_{1!}B_1\boxtimes Rf_{2!}B_2$ is [lem-sf-kunneth-coherence], [thm-sf-kunneth-relative] for the base
+$\mathrm{Ku}_!:Rf_!(B_1\boxtimes B_2)\xrightarrow{\ \sim\ } Rf_{1!}B_1\boxtimes Rf_{2!}B_2$ is [thm-sf-kunneth-relative] for the base
 $B=Y_1\times Y_2$, using
 $X_1\times X_2=(X_1\times Y_2)\times_B(Y_1\times X_2)$. It is an isomorphism.
 1. **(ii)** The *exceptional Künneth*
@@ -25,7 +28,8 @@ Rf_{1!}Rf_1^!L_1\boxtimes Rf_{2!}Rf_2^!L_2
 \xrightarrow{\ \varepsilon_1\boxtimes\varepsilon_2\ }
 L_1\boxtimes L_2 ,
 $$
-where the $\varepsilon_i$ are the counits of $Rf_{i!}\dashv Rf_i^!$.
+where the $\varepsilon_i$ are the counits of $Rf_{i!}\dashv Rf_i^!$
+(axiom (A1) of [def-sf-datum]).
 1. **(iii)** The *external Hom* map
 $$
 \beta:\RHom(E_1,L_1)\boxtimes\RHom(E_2,L_2)
@@ -34,7 +38,9 @@ $$
 is the tensor–Hom transpose of the two evaluations, with the tensor symmetry
 and its Koszul signs.
 1. **(iv)** For $M\in\Dctf(X,\Lambda)$ and $N\in\Dctf(Y,\Lambda)$, with
-$p_X,p_Y$ the projections of $X\times Y$, the *Künneth–Verdier* map is
+$p_X,p_Y$ the projections of $X\times Y$, and with the Verdier dual
+$\mathbb D_Y$ and dualizing complex $\omega_Y=Ra_Y^!\Lambda$ of [def-sf-pf], the
+*Künneth–Verdier* map is
 $$
 \begin{aligned}
 \kappa_{M,N}:M\boxtimes\mathbb D_YN
@@ -47,6 +53,7 @@ using the unit identifications $\RHom(\Lambda_X,M)=M$ and
 $\Lambda_X\boxtimes N=p_Y^*N$.
 
 Only $\mathrm{Ku}_!$ is built from isomorphisms; invertibility of
-$\alpha,\beta,\kappa$ is the content of [sk-thm-sf-kunneth-verdier].
+$\alpha,\beta,\kappa$ is the content of [prop-trf-exceptional-kunneth], [prop-trf-external-hom]
+and [thm-trf-kunneth-verdier].
 
-Uses: `\Cref{def:sf-exchanges}`, `\Cref{def:sf-operations}`, `\Cref{thm:sf-kunneth-relative}`
+Uses: [def-compact-support-direct-image-detailed], [def-sf-datum], [def-sf-pf], [def-trf-admissibility], [def-weil-exceptional-inverse-image], [def-weil-integral-rational-qbar-compact-support], [thm-sf-kunneth-relative]

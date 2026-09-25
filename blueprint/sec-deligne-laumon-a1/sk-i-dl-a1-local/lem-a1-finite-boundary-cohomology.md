@@ -2,7 +2,7 @@
 id = "lem-a1-finite-boundary-cohomology"
 kind = "lemma"
 title = "Cohomology of a finite boundary"
-order = 2922
+order = 2969
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights"]
 +++
 Let $Z_0$ be finite over $k_0$ and let $\mathcal G$ be a

@@ -2,7 +2,7 @@
 id = "lem-pc-zero-scheme-recd"
 kind = "lemma"
 title = "The zero scheme of the adjoint section"
-order = 832
+order = 836
 uses = ["cor-picard-degree-g", "def-pc-curve", "def-pc-degree-line-bundle", "def-pc-euler-characteristic", "def-pc-f-subfunctor", "def-pc-finite-locally-free", "def-pc-genus", "def-pc-rational-point", "def-pc-relative-effective-cartier", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-zero-scheme", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "lem-pc-cartier-criterion", "lem-pc-coherent-hi", "lem-pc-degree-base-change", "lem-pc-dim-base-change", "lem-pc-f-open-subfunctor", "lem-pc-flat-base-change-cohom", "lem-pc-proper-base-change", "lem-pc-rational-hyp", "lem-pc-recd-locally-principal", "lem-pc-rf-base-change-flat-module", "lem-pc-smooth-flat", "lem-pc-vanishing-above-dim", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "prop-pc-xk-integral"]
 +++
 Let $k$ be a separably closed field,

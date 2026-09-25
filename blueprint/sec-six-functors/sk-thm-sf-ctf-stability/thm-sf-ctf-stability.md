@@ -2,8 +2,8 @@
 id = "thm-sf-ctf-stability"
 kind = "theorem"
 title = "Preservation on the proved finite-Tor domains"
-order = 2339
-uses = ["cor-coef-finite-verdier", "cor-coef-integral-internal-hom", "cor-sf-direct-image-ctf-proetale", "cor-weil-finite-constructible-hom", "def-compact-support-direct-image-detailed", "def-weil-derived-complete-integral-detailed", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-site-perfect-complex", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-coef-integral-hom-reduction", "lem-coef-integral-residue-tor", "lem-coef-rational-operations", "lem-exc-constant-inverse-image-flat", "lem-fix-operation-reduction", "lem-sf-etale-direct-image-vanishing", "lem-weil-pbc-pullback-preserves-bounded-constructible", "prop-coef-integral-exceptional-adjoint", "prop-sf-dualizable-hom", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-sf-direct-image-tor-amplitude"]
+order = 2355
+uses = ["cor-coef-finite-verdier", "cor-coef-integral-internal-hom", "cor-sf-direct-image-ctf-proetale", "cor-weil-finite-constructible-hom", "def-compact-support-direct-image-detailed", "def-weil-derived-complete-integral-detailed", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-site-perfect-complex", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-coef-integral-hom-reduction", "lem-coef-integral-residue-tor", "lem-coef-rational-operations", "lem-exc-constant-inverse-image-flat", "lem-fix-operation-reduction", "lem-sf-etale-direct-image-vanishing", "lem-weil-pbc-pullback-preserves-bounded-constructible", "prop-coef-integral-exceptional-adjoint", "prop-sf-dualizable-hom", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-sf-direct-image-tor-amplitude", "thm-sf-hom-ctf"]
 +++
 Fix the finite-field datum,
 $A=A_{E,n}$, and separated finite-type morphisms between separated finite-type
@@ -15,11 +15,21 @@ At this finite coefficient stage the following hold:
 1. **(i)** $Lf^*$ carries $D^b_{ctf}(Y,A)$ into
 $D^b_{ctf}(X,A)$.
 1. **(ii)** Derived tensor carries
-$D^b_{ctf}\times D^b_{ctf}$ into $D^b_{ctf}$.
+$D^b_{ctf}\times D^b_{ctf}$ into $D^b_{ctf}$; if the two inputs have
+Tor amplitude in $[a,b]$ and $[c,d]$, the output has Tor amplitude in
+$[a+c,b+d]$.
 For $K,L\in D^b_{ctf}(X,A)$, internal Hom has this same conclusion.
+If $K,L$ have Tor amplitude in $[a,b]$ and $[c,d]$ and
+$\dim X\leq m$, then $R\mathcal Hom(K,L)$ has Tor amplitude in
+$[c-b-2m,d-a+2m]$; if moreover $K$ is site-perfect, it has Tor
+amplitude in the sharper interval $[c-b,d-a]$.
 The elementary formula $R\mathcal Hom(K,L)=K^\vee\otimes^L L$
-with coefficient dual $K^\vee=R\mathcal Hom(K,A_X)$ still requires
-a site-perfect first argument;
+with coefficient dual $K^\vee=R\mathcal Hom(K,A_X)$, and the
+dimension-free interval $[c-b,d-a]$, still require
+a site-perfect first argument (for the origin
+$i:\{0\}\hookrightarrow\mathbf A^1$, both $i_*A$ and $A$ have Tor
+amplitude $[0,0]$, while $R\mathcal Hom(i_*A,A)=i_*A(-1)[-2]$ has
+cohomology in degree $2$);
 the general preservation assertion uses geometric Verdier duality.
 1. **(iii)** $Rf_*$ carries $D^b_{ctf}(X,A)$ into
 $D^b_{ctf}(Y,A)$; for input Tor amplitude $[a,b]$ and
@@ -57,18 +67,27 @@ For (i), bounded constructibility is
 flat inverse image in [lem-exc-constant-inverse-image-flat]
 preserves the Tor interval of
 [def-weil-finite-tor-amplitude].
-For (ii), the Tor intervals add under derived tensor. Refine the
+For (ii), the Tor intervals add under derived tensor: with bounded
+flat models of $K$ in $[a,b]$ and of $L$ in $[c,d]$, the total tensor
+complex is a bounded flat model in $[a+c,b+d]$. Refine the
 finite constructible stratifications for the two complexes; the
 bounded tensor complexes on each stratum have finite locally constant
 cohomology, which gives constructibility. If $K$ is site-perfect
 in [def-weil-site-perfect-complex], a bounded finite-projective
-local model computes its dual and identifies
+local model $P$ in $[a,b]$ computes its dual and identifies
 $R\mathcal Hom(K,L)=K^\vee\otimes^L L$ by
 [prop-sf-dualizable-hom]. The tensor argument proves Hom
-preservation in that case. For a general constructible finite-Tor
+preservation in that case, and since $P^\vee$ is a bounded
+finite-projective complex in $[-b,-a]$, the tensor bound gives the
+interval $[c-b,d-a]$; this is the sharper assertion of
+[thm-sf-hom-ctf], whose argument is local on the site and so applies
+on either site. For a general constructible finite-Tor
 first argument, use [cor-weil-finite-constructible-hom], whose
-proof uses geometric Verdier biduality and a dimension-dependent
-Tor bound.
+proof uses geometric Verdier biduality and gives the
+dimension-dependent interval $[c-b-2m,d-a+2m]$. The displayed
+example shows the dimension-free interval fails without
+site-perfectness: $R\mathcal Hom(i_*A,A)=i_*Ri^!A$ by adjunction, and
+$Ri^!A=A(-1)[-2]$ by purity for the point in the smooth curve.
 
 Clause (iii) is [cor-sf-direct-image-ctf-proetale]: its etale
 calculation is [thm-sf-direct-image-tor-amplitude], with the

@@ -2,7 +2,7 @@
 id = "lem-wf-l2-upper"
 kind = "lemma"
 title = "The $L^2$-weight is at most the weight"
-order = 2955
+order = 3013
 uses = ["def-weil-punctual-weights", "def-wf-l2-norm", "lem-wf-point-count-linear-growth"]
 +++
 Let $\mathcal F$ be a lisse Weil sheaf of rank $r$ on the affine

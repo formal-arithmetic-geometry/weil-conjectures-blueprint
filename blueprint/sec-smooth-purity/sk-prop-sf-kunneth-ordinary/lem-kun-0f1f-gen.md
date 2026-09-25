@@ -2,7 +2,7 @@
 id = "lem-kun-0f1f-gen"
 kind = "lemma"
 title = "Global generation for sheaves supported on closed points"
-order = 1798
+order = 1812
 uses = ["def-kun-global-generated", "def-kun-separably-closed", "def-weil-pbc-direct-image", "lem-kun-03qu-global-generation", "lem-kun-04ca", "lem-kun-closed-point-field", "lem-kun-colim-gbl-gen", "lem-kun-cp-approximation", "lem-kun-global-generated-stalkwise", "lemma-weil-pbc-finite-stalk-formula"]
 +++
 Let $K$ be a separably closed

@@ -2,8 +2,8 @@
 id = "sk-prop-logdet"
 kind = "section"
 title = "Logarithm of the Frobenius determinant"
-order = 3091
-uses = ["sk-def-frobmod"]
+order = 3158
+uses = ["sk-def-frobmod", "sk-p-linear-triangular"]
 +++
 *Proposition (sketch).*
 

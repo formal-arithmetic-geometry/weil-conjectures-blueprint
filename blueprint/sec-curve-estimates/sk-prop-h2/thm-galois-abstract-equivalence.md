@@ -2,7 +2,7 @@
 id = "thm-galois-abstract-equivalence"
 kind = "theorem"
 title = "The abstract equivalence theorem"
-order = 974
+order = 982
 uses = ["def-galois-category", "lem-galois-aut-profinite", "lem-galois-axioms", "lem-galois-object-exists", "lem-galois-transitive"]
 +++
 Let $(\mathcal C,F)$ be a Galois category and

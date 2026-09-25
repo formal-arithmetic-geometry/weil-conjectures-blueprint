@@ -2,7 +2,7 @@
 id = "pqf-lem-sheaf-zero-stalks"
 kind = "lemma"
 title = "A sheaf with vanishing stalks is zero"
-order = 548
+order = 552
 uses = ["pqf-def-coherent"]
 +++
 Let $\mathcal F$ be a sheaf of modules on a scheme $X$. If

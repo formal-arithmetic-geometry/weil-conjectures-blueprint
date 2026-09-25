@@ -2,8 +2,8 @@
 id = "lem-a1-exceptional-constituents"
 kind = "lemma"
 title = "Exceptional rank-one constituents"
-order = 3007
-uses = ["def-fd-artin-schreier-sheaf", "def-weil-extension-by-zero", "def-weil-open-closed-recollement", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-constant-weil-twist", "lem-a1-finite-boundary-cohomology", "lem-a1-finite-boundary-weights", "lem-a1-subquotient-extension-bounds", "lem-fd-as-purity", "lem-fd-cohomology-affine-line-character", "lem-fd-stalk-formula", "lem-wf-constant-twist-weight", "lem-zl-affine-curve-range", "thm-weil-poincare-duality"]
+order = 3069
+uses = ["cor-pod-untwisted-similitude", "def-fd-artin-schreier-sheaf", "def-pod-perfect-complex-on-x", "def-weil-extension-by-zero", "def-weil-open-closed-recollement", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-constant-weil-twist", "lem-a1-finite-boundary-cohomology", "lem-a1-finite-boundary-weights", "lem-a1-subquotient-extension-bounds", "lem-fd-affine-line-constant-cohomology", "lem-fd-as-lisse", "lem-fd-as-purity", "lem-fd-cohomology-affine-line-character", "lem-wf-constant-twist-weight", "lem-zl-affine-curve-range", "prop-sf-open-closed-triangle-all-stages", "thm-pod-degreewise-perfectness-over-a-field"]
 +++
 Let $\mathcal E$ be either a rank-one constant
 Weil sheaf or its tensor product
@@ -29,18 +29,32 @@ $j_*\mathcal E=\mathcal E_0$ and $i^*j_*\mathcal E= i^*\mathcal E_0$.
 
 Step 1 (the cohomology of the line). The compactly supported cohomology
 of $\mathcal E_0$ on the affine line is concentrated in degree $2$
-for $a=0$ and vanishes altogether for $a\neq0$: for $a\neq0$,
-the vanishing of the ordinary cohomology of $\mathcal L_{\psi,ax}$ is
-[lem-fd-cohomology-affine-line-character], and its compactly
-supported cohomology vanishes by the Frobenius-equivariant Poincare
-duality [thm-weil-poincare-duality] of the Poincare-duality chapter (the dual of a
-lisse sheaf is lisse, and the ordinary cohomology of the dual vanishes by
-the same computation); the tensor with the constant twist
-$\mathcal B_b$ only scales the Frobenius eigenvalues by a constant of
-weight $w$ ([lem-wf-constant-twist-weight]), so it does not
-affect vanishing. For $a=0$, $j_*\mathcal E=\mathcal E_0= \mathcal B_b$ is lisse and constant, and the compactly supported
-cohomology of the affine line computed in the proof of
-[lem-fd-stalk-formula] (Poincare duality: $R\Gamma_c(\mathbf A^1, \overline{\mathbf Q}_\ell)\cong\overline{\mathbf Q}_\ell(-1)[-2]$) gives
+for $a=0$ and vanishes altogether for $a\neq0$. Both cases use the
+degreewise Poincare duality [thm-pod-degreewise-perfectness-over-a-field]
+of the Poincare-duality chapter for the smooth, separated (not proper)
+curve $\mathbf A^1_{k_0}$, of dimension $d=1$, at the field stage
+$\overline{\mathbf Q}_\ell$: the lisse rank-one sheaf $\mathcal E_0$ is
+perfect ([def-pod-perfect-complex-on-x]), so
+$H_c^i(\mathbf A^1,\mathcal E_0)^\vee\cong
+H^{2-i}(\mathbf A^1,\mathcal E_0^\vee(1))$. For $a\neq0$, the coefficient
+dual is $\mathcal E_0^\vee=\mathcal B_b^{-1}\otimes\mathcal L_{\psi,-ax}$
+([lem-fd-as-lisse]); over $\mathbf A^1_k$ the constant factor
+$\mathcal B_b^{-1}$ is geometrically trivial (it only rescales the
+Frobenius eigenvalues by a constant, [lem-wf-constant-twist-weight]),
+so the ordinary cohomology of $\mathcal E_0^\vee$ is that of
+$\mathcal L_{\psi,-ax}$ and vanishes by
+[lem-fd-cohomology-affine-line-character], $-a\neq0$; hence all
+$H_c^i(\mathbf A^1,\mathcal E_0)$ vanish. For $a=0$,
+$j_*\mathcal E=\mathcal E_0= \mathcal B_b$ is lisse and constant;
+for the constant sheaf, $H^j(\mathbf A^1,\overline{\mathbf Q}_\ell)$ is
+$\overline{\mathbf Q}_\ell$ for $j=0$ and zero otherwise
+([lem-fd-affine-line-constant-cohomology]), so the duality leaves only
+$H^2_c(\mathbf A^1,\overline{\mathbf Q}_\ell)$, one-dimensional, and the
+Frobenius similitude of [cor-pod-untwisted-similitude],
+$\langle Fx,Fy\rangle_2=q\langle x,y\rangle_2$ with $y=1\in H^0$ fixed by
+$F$, shows that $F$ acts on it by $q$:
+$R\Gamma_c(\mathbf A^1,\overline{\mathbf Q}_\ell)\cong
+\overline{\mathbf Q}_\ell(-1)[-2]$. Tensoring with the constant twist gives
 $H_c^0=H_c^1=0$ and $H_c^2=\mathcal B_b(-1)$ with weights
 $w+2$ by the weight-shift and constant-twist rules. Hence, in all
 cases, $H_c^i(\mathbf A^1,\mathcal E_0)=0$ for $i\neq0,2$ and
@@ -57,7 +71,7 @@ $H_c^r(Z,B)=0$ for $r\neq0$, and $H_c^0(Z,B)$ has weights at most
 $w$ by [lem-a1-finite-boundary-weights].
 
 Step 3 (the localization sequence). The open–closed recollement
-triangle of [def-weil-open-closed-recollement], applied with
+triangle of [def-weil-open-closed-recollement] (at $\Qlb$ for Weil sheaves, [prop-sf-open-closed-triangle-all-stages]), applied with
 $K=j_*\mathcal E=\mathcal E_0$ and the extension-by-zero functor
 [def-weil-extension-by-zero] of the framework chapter, gives the exact
 sequence

@@ -2,8 +2,8 @@
 id = "sk-d-real-jacobian"
 kind = "section"
 title = "Jacobian torsion data and Kummer coefficients"
-order = 2766
-uses = ["sk-d-real-cohom", "sk-d-real-setup"]
+order = 2815
+uses = ["sk-d-real-cohom", "sk-d-real-setup", "sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Definition (sketch).*
 

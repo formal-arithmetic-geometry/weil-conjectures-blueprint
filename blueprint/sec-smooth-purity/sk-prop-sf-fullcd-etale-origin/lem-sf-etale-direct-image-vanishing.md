@@ -2,7 +2,7 @@
 id = "lem-sf-etale-direct-image-vanishing"
 kind = "lemma"
 title = "Vanishing of the higher direct images above the dimension"
-order = 1824
+order = 1838
 uses = ["def-sc-etale-torsion-cd", "def-sf-uniform-direct-image-vanishing", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "fin4-lem-fibrewise-cohomological-dimension", "lem-kun-dimension-formula", "lem-sf-separably-closed-torsion-cd", "lem-weil-pbc-qcqs-higher-direct-image", "lemma-weil-pbc-geometric-stalk-conservative", "thm-sc-finite-type-torsion-cd"]
 +++
 Let $k$ be an algebraically closed field, let $X,Y$ be finite-type

@@ -2,7 +2,7 @@
 id = "lem-zl-finite-matrix-irreducibility"
 kind = "lemma"
 title = "Absolute irreducibility has a finite matrix witness"
-order = 3035
+order = 3101
 uses = ["lem-wf-schur-scalar", "p-real-integral"]
 +++
 Let $E/\mathbf Q_\ell$ be finite, let $V$ be an $n$-dimensional

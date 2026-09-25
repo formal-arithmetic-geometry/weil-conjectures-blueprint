@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-refinement-etale-cover"
 kind = "lemma"
 title = "Finite refinement of a surjective etale morphism"
-order = 1076
+order = 1084
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 Let $U\to T$ be surjective and etale, with $T$ quasi-compact and

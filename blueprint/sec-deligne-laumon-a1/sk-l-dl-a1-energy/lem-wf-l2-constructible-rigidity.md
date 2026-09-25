@@ -2,7 +2,7 @@
 id = "lem-wf-l2-constructible-rigidity"
 kind = "lemma"
 title = "The $L^2$-weight of a sheaf without punctual sections"
-order = 2964
+order = 3022
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-pbc-constructible-complexes", "def-weil-punctual-weights", "def-wf-l2-norm", "def-wf-middle-extension", "lem-fd-l2-mixed-lisse", "lem-wf-boundary-semicontinuity"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve and let

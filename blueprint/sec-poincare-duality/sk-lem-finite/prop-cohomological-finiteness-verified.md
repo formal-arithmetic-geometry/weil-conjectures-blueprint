@@ -2,7 +2,7 @@
 id = "prop-cohomological-finiteness-verified"
 kind = "theorem"
 title = "Verification of Compact-support finiteness and Frobenius"
-order = 2573
+order = 2609
 tags = ["latex:proposition"]
 uses = ["def-weil-local-frobenius-trace", "prop-cohomological-finiteness", "prop-weil-operations", "thm-weil-cohomological-finiteness"]
 +++

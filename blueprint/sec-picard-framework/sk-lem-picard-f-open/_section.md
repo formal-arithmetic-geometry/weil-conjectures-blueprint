@@ -2,7 +2,8 @@
 id = "sk-lem-picard-f-open"
 kind = "section"
 title = "$F$ is an open subfunctor"
-order = 826
+order = 830
+uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Lemma (sketch).*
 

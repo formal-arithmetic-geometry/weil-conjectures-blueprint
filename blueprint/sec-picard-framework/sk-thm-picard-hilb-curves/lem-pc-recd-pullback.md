@@ -2,7 +2,7 @@
 id = "lem-pc-recd-pullback"
 kind = "lemma"
 title = "Pullback of relative effective Cartier divisors"
-order = 798
+order = 802
 uses = ["def-pc-base-change", "def-pc-divisor-line-bundle", "def-pc-morphism-conventions", "def-pc-relative-effective-cartier", "def-sc-effective-cartier-divisor", "lem-pc-closed-imm-base-change", "lem-pc-divisor-line-bundle-properties", "lem-pc-flat-compose"]
 +++
 Let $f:X\to S$ be a flat morphism of finite presentation, let

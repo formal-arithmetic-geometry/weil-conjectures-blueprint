@@ -2,7 +2,7 @@
 id = "lem-trf-frobenius-differential-vanishing"
 kind = "lemma"
 title = "The differential of the Frobenius vanishes"
-order = 2476
+order = 2504
 uses = ["def-trf-scheme-frobenius"]
 +++
 Let $X_0$ be a scheme over $\mathbf F_q$, $q=p^a$, and let

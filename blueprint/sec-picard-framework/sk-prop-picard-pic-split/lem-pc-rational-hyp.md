@@ -2,7 +2,7 @@
 id = "lem-pc-rational-hyp"
 kind = "lemma"
 title = "Curves with a rational point satisfy the hypotheses"
-order = 821
+order = 825
 uses = ["def-pc-rational-point", "def-pc-smooth-projective-curve", "lem-pc-flat-base-change-cohom", "lem-pc-flat-field", "lem-pc-h0-proper-variety", "thm-pc-pic-split"]
 +++
 (Picard Schemes of Curves, Lemma 44.6.1, Tag

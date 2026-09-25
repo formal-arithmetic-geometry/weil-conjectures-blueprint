@@ -2,7 +2,7 @@
 id = "lem-wf-rank-one-component-modulus"
 kind = "lemma"
 title = "A rank-one character has constant modulus on a degree component"
-order = 2711
+order = 2758
 uses = ["def-wf-degree-components", "lem-wf-rank-one-algebraic-extension"]
 +++
 Let $A,c,j_\chi$ be as in

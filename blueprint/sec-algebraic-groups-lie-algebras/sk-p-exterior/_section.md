@@ -2,7 +2,7 @@
 id = "sk-p-exterior"
 kind = "section"
 title = "Exterior-power weights"
-order = 2716
+order = 2764
 uses = ["sk-d-linear", "sk-d-monodromy", "sk-d-weights", "sk-i-restriction", "sk-p-central", "sk-p-linear-filtration", "sk-p-linear-spectra", "sk-p-readout"]
 +++
 *Proposition (sketch).*

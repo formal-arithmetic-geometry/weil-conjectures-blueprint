@@ -2,7 +2,7 @@
 id = "sk-lem-sf-flat-model"
 kind = "section"
 title = "Bounded flat model of finite Tor amplitude"
-order = 2291
+order = 2308
 +++
 *Lemma (sketch).*
 

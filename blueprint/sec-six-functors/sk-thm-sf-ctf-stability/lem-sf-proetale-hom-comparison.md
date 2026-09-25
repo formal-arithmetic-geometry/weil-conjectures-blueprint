@@ -2,7 +2,7 @@
 id = "lem-sf-proetale-hom-comparison"
 kind = "lemma"
 title = "The internal-Hom comparison along the site comparison"
-order = 2316
+order = 2332
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-site-perfect-complex", "lem-sf-comparison-tor-amplitude", "lem-sf-hom-finite-projective", "prop-sf-dualizable"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, an integer

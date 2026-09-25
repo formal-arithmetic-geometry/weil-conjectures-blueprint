@@ -2,7 +2,7 @@
 id = "def-wf-degree-components"
 kind = "definition"
 title = "Degree components and algebraic-monodromy elements"
-order = 2646
+order = 2693
 uses = ["def-wf-arithmetic-monodromy-extension", "def-wf-geometric-monodromy-group", "def-wf-weil-group"]
 +++
 For $m\in\mathbf Z$, put

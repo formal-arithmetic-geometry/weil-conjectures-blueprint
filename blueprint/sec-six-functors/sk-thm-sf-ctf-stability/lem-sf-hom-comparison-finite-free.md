@@ -2,7 +2,7 @@
 id = "lem-sf-hom-comparison-finite-free"
 kind = "lemma"
 title = "The internal-Hom comparison for a bounded free model"
-order = 2317
+order = 2333
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-constructible-complexes", "def-weil-pbc-site-comparison-morphism", "def-weil-site-perfect-complex", "lem-sf-hom-finite-projective", "lem-sf-proetale-hom-comparison"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, an integer

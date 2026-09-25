@@ -2,7 +2,7 @@
 id = "sk-p-linear-spectra"
 kind = "section"
 title = "Spectra of the operations"
-order = 2706
+order = 2753
 uses = ["sk-d-linear", "sk-d-weights", "sk-p-linear-triangular"]
 +++
 *Proposition (sketch).*

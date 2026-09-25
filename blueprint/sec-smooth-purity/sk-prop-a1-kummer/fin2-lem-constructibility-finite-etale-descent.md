@@ -2,7 +2,7 @@
 id = "fin2-lem-constructibility-finite-etale-descent"
 kind = "lemma"
 title = "Descent of constructibility along finite etale surjections"
-order = 1950
+order = 1966
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-stalk-formula", "thm-constructible-serre"]
 +++
 Let $\sigma:S'\to S$ be a

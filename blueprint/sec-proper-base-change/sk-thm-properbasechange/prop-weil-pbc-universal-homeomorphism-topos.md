@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-universal-homeomorphism-topos"
 kind = "theorem"
 title = "Topological invariance of the small etale topos"
-order = 1291
+order = 1299
 lean = ["AlgebraicGeometry.Etale.cohomologyEquiv", "AlgebraicGeometry.Etale.cohomologyMap_bijective", "AlgebraicGeometry.Etale.isEquivalence_upperStar", "AlgebraicGeometry.Etale.sheafEquivalence"]
 tags = ["latex:proposition"]
 uses = ["def-pc-ext", "lemma-constructible-pullback-constant", "lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence"]

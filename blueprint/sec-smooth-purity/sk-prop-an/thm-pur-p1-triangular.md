@@ -2,7 +2,7 @@
 id = "thm-pur-p1-triangular"
 kind = "theorem"
 title = "Projective-line triangular identities"
-order = 2051
+order = 2069
 uses = ["def-exchange-projection", "def-pur-conventions", "def-pur-p1-integration", "def-pur-td-datum", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-p1-diagonal-class", "lem-pur-p1-kunneth", "lem-pur-td-kernel", "thm-pur-p1-decomposition", "thm-pur-td-criterion"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

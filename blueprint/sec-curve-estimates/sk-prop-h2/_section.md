@@ -2,8 +2,8 @@
 id = "sk-prop-h2"
 kind = "section"
 title = "$H^2$ via Kummer"
-order = 933
-uses = ["sk-def-br", "sk-def-kummer", "sk-def-pic", "sk-prop-kummer-exact", "sk-thm-br"]
+order = 940
+uses = ["sk-def-av-pic", "sk-def-br", "sk-def-kummer", "sk-def-pic", "sk-prop-kummer-exact", "sk-thm-br"]
 +++
 *Proposition (sketch).*
 

@@ -2,7 +2,7 @@
 id = "lem-kun-kunneth-map-compatible"
 kind = "lemma"
 title = "Compatibility of the Kunneth map with the cartesian identifications"
-order = 1771
+order = 1785
 uses = ["def-kun-kunneth-map", "def-weil-pbc-cartesian-square"]
 +++
 Let $f:X\to S$ and $g:Y\to S$ be morphisms of schemes and let

@@ -2,7 +2,7 @@
 id = "rem-sf-constant-tower-trivial-model"
 kind = "remark"
 title = "The trivial coefficient case, in one line"
-order = 2327
+order = 2343
 uses = ["def-weil-pbc-bounded-constructible-tower", "thm-sf-uniform-models-constant-tower"]
 +++
 If the complex $M_0$ of

@@ -2,7 +2,7 @@
 id = "cor-pod-supports-kunneth"
 kind = "theorem"
 title = "Künneth for cohomology with supports, by duality"
-order = 2576
+order = 2612
 tags = ["latex:corollary"]
 uses = ["cor-sf-duality-pullback", "def-pur-support-cohomology", "def-sf-pf", "def-trf-dualizing-complex", "lem-sf-tensor-hom", "prop-pod-biduality-at-the-point", "prop-trf-compact-support-perfectness", "thm-pod-compact-product-closed", "thm-sf-biduality", "thm-trf-kunneth-verdier"]
 +++

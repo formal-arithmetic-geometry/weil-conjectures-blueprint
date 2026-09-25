@@ -2,7 +2,7 @@
 id = "lem-wf-envelope-summand"
 kind = "lemma"
 title = "The normalized summand is a summand"
-order = 2972
+order = 3031
 uses = ["def-wf-iota-real", "def-wf-normalized-real-envelope", "lem-wf-envelope-real"]
 +++
 The normalized sheaf $\mathcal F^0$ of

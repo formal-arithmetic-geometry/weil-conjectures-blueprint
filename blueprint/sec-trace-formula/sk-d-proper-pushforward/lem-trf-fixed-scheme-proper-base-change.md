@@ -2,7 +2,7 @@
 id = "lem-trf-fixed-scheme-proper-base-change"
 kind = "lemma"
 title = "Fixed scheme of a base-changed correspondence"
-order = 2450
+order = 2475
 uses = ["def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-fixed-scheme", "def-weil-scheme-morphism-properties"]
 +++
 Fix the coefficient

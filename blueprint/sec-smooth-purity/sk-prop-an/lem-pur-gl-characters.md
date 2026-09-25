@@ -2,7 +2,7 @@
 id = "lem-pur-gl-characters"
 kind = "lemma"
 title = "Characters of the general linear group"
-order = 2061
+order = 2079
 uses = ["def-pur-conventions", "def-sc-general-linear-group", "def-sc-gm-ga", "lem-sc-gl-characters"]
 +++
 Let $k$ be a field and $c\geq1$. Every morphism of algebraic groups

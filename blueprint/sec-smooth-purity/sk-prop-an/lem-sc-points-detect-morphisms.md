@@ -2,7 +2,7 @@
 id = "lem-sc-points-detect-morphisms"
 kind = "lemma"
 title = "Morphisms are detected on rational points"
-order = 2030
+order = 2048
 +++
 Let $k$ be an algebraically closed field, $X$ a reduced $k$-scheme
 of finite type, $Y$ a separated $k$-scheme, and let

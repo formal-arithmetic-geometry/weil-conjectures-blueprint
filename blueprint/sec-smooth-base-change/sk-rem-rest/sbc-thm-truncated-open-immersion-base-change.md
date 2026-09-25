@@ -2,7 +2,7 @@
 id = "sbc-thm-truncated-open-immersion-base-change"
 kind = "theorem"
 title = "Base change for open immersions under local acyclicity"
-order = 1457
+order = 1465
 uses = ["lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-torsion-filtered-union", "sbc-def-local-acyclicity", "sbc-def-milnor-tube", "sbc-def-specialization-map", "sbc-def-strict-localization", "sbc-def-universal-local-acyclicity", "sbc-lem-strict-henselian-constant-cohomology", "sbc-thm-smooth-base-change"]
 +++
 Let $j:U\hookrightarrow Z$ be a quasi-compact open immersion, let

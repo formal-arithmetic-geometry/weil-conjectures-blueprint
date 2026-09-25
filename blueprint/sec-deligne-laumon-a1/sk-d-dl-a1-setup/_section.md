@@ -2,7 +2,7 @@
 id = "sk-d-dl-a1-setup"
 kind = "section"
 title = "Affine-line and weight conventions"
-order = 2919
+order = 2966
 +++
 *Remark (sketch).*
 

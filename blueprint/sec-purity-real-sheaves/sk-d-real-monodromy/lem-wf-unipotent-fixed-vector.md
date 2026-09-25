@@ -2,7 +2,7 @@
 id = "lem-wf-unipotent-fixed-vector"
 kind = "lemma"
 title = "A connected unipotent group has a fixed vector"
-order = 2797
+order = 2846
 uses = ["def-wf-unipotent-group"]
 +++
 Let $U$ be a (possibly trivial) connected unipotent subgroup of

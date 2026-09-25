@@ -2,7 +2,7 @@
 id = "thm-weil-grothendieck-lefschetz-trace"
 kind = "theorem"
 title = "Grothendieck–Lefschetz trace formula"
-order = 3098
+order = 3165
 uses = ["cor-trf-point-counting", "def-trf-frobenius-operators", "def-trf-karoubi-trace", "def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "prop-trf-karoubi-independence", "prop-weil-proper-compact-coincidence", "thm-trf-frobenius-fixed-points", "thm-trf-frobenius-local-term", "thm-trf-grothendieck-lefschetz-finite-ring", "thm-trf-grothendieck-lefschetz-qbar", "thm-trf-lefschetz-verdier", "thm-trf-trace-formula-e", "thm-zl-lefschetz-weil-identity"]
 +++
 Fix the finite-field datum
@@ -80,13 +80,15 @@ and the $\Qlb$-form over the common-stage coefficients of
 fixed-point and local-term computations of
 [thm-trf-frobenius-fixed-points] and
 [thm-trf-frobenius-local-term] through the
-[thm-trf-lefschetz-verdier] comparison on a proper compactification,
+[thm-trf-lefschetz-verdier] comparison on the projective line, in the
+trace-formula chapter's reduction to curves (affine line, Weil
+$!$-pushforward along the relative Frobenius, localization),
 with the trace classes of
 [def-trf-karoubi-trace] and the independence of
 [prop-trf-karoubi-independence]. This step inherits the inputs of
 the finite-ring trace formula, the construction of the Verdier local trace
-and its compatibility with the compactification, both of which are proved
-in the trace-formula chapter.
+and its compatibility with extension by zero to the projective line, both
+of which are proved in the trace-formula chapter.
 The properness hypothesis in the Lefschetz–Verdier comparison cannot be
 dropped for an arbitrary correspondence on a non-proper scheme.
 The displayed identity,

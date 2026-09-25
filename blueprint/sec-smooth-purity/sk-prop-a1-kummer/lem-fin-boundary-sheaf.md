@@ -2,7 +2,7 @@
 id = "lem-fin-boundary-sheaf"
 kind = "lemma"
 title = "Boundary sheaf of an open immersion"
-order = 1962
+order = 1978
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "sbc-def-coefficient-conventions", "thm-fin-open-degree-zero"]
 +++
 Let $X$ be of finite type over $k$, let $j:U\hookrightarrow X$ be an

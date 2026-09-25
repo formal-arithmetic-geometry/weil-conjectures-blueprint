@@ -2,7 +2,7 @@
 id = "sk-p-trace-coeff"
 kind = "section"
 title = "Finite-level coefficient change"
-order = 2520
+order = 2555
 uses = ["sk-d-setup", "sk-d-six", "sk-d-weil", "sk-thm-sf-ctf-stability"]
 +++
 *Proposition (sketch).*

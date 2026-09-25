@@ -1,21 +1,62 @@
 +++
 id = "thm-rp-real-lisse-purity-affine"
 kind = "theorem"
-title = "Purity of real lisse sheaves on an affine curve"
-order = 2859
-uses = ["cor-mg-det-weight-exterior", "def-weil-punctual-weights", "def-wf-determinantal-weight", "def-wf-iota-real", "def-wf-weil-category", "lem-mg-exterior-direct-sum", "lem-mg-normal-restriction-semisimple", "lem-rp-exterior-reality", "lem-rp-upper-bound", "lem-tw-dual-negation", "lem-wf-determinantal-weight-exists", "lem-wf-real-semisimplification", "p-linear-spectra"]
+title = "Purity of real lisse sheaves on curves"
+order = 2906
+uses = ["cor-mg-det-weight-exterior", "d-real-setup", "def-real-weil-representation-operations", "def-rp-weight-blocks", "def-weil-punctual-weights", "def-wf-determinantal-weight", "def-wf-iota-real", "def-wf-weil-category", "lem-mg-exterior-direct-sum", "lem-mg-normal-restriction-semisimple", "lem-rp-exterior-reality", "lem-rp-upper-bound", "lem-tw-dual-negation", "lem-wf-dense-open-pi1-surjective", "lem-wf-determinantal-weight-exists", "lem-wf-real-semisimplification", "p-linear-spectra"]
 +++
-Let $U_0$ be a smooth geometrically connected affine curve and let
+Let $C_0/\mathbf F_q$ be a smooth geometrically connected curve in the
+sense of [d-real-setup] (not necessarily affine; e.g. proper) and let
 $\mathcal G_0$ be a lisse
-Weil sheaf on $U_0$ which is
+Weil sheaf on $C_0$ which is
 $\iota$-real. Then every irreducible
-constituent $\mathcal W$ of $\mathcal G_0$ is
+constituent $\mathcal W$ of $\mathcal G_0$ (in the sense of
+[def-real-weil-representation-operations]) is
 punctually $\iota$-pure of
 weight $\dw_\iota(\mathcal W)$, its
 determinant weight with
 respect to $\iota$.
 
 ## Proof
+
+Step 0 (reduction to an affine curve). Punctual purity is a condition
+at each closed point separately ([def-weil-punctual-weights]), so fix a
+closed point $x$ of $C_0$ and an irreducible constituent $\mathcal W$
+of $\mathcal G_0$, of rank $r$. Choose an affine open
+$U_0\subseteq C_0$ containing $x$ (every point of a scheme has one). It
+is again a smooth geometrically connected curve: $U=U_0\times_{\mathbf F_q}k$
+is a nonempty open of the smooth connected, hence irreducible, curve
+$C=C_0\times_{\mathbf F_q}k$, so it is connected. Let
+$u:U_0\hookrightarrow C_0$ be the inclusion.
+
+(a) *Reality.* $\iota$-reality in the sense of [def-wf-iota-real] is a
+condition on the local characteristic polynomials at the closed points,
+so $u^*\mathcal G_0$ is an $\iota$-real lisse Weil sheaf on $U_0$.
+
+(b) *Constituents.* Restriction $u^*$ is exact, and by
+[lem-wf-dense-open-pi1-surjective] (4) it carries irreducible lisse
+Weil sheaves on $C_0$ to irreducible ones on $U_0$. Hence it carries a
+composition series of $\mathcal G_0$ through which $\mathcal W$ occurs
+as a successive quotient to a composition series of $u^*\mathcal G_0$,
+and $u^*\mathcal W$ is an irreducible constituent of
+$u^*\mathcal G_0$.
+
+(c) *Determinant weight.* $\det(u^*\mathcal W)=u^*\det(\mathcal W)$,
+and $\det(\mathcal W)$ is punctually $\iota$-pure of weight $a$ with
+$\dw_\iota(\mathcal W)=a/r$ by [lem-wf-determinantal-weight-exists] and
+[def-wf-determinantal-weight]; its restriction is punctually pure of the
+same weight $a$ at the closed points of $U_0$, so by the uniqueness in
+[lem-wf-determinantal-weight-exists] on $U_0$ we get
+$\dw_\iota(u^*\mathcal W)=a/r=\dw_\iota(\mathcal W)$.
+
+The local Frobenius $F_x$ on $\mathcal W_{\bar x}$ is the same as on
+$(u^*\mathcal W)_{\bar x}$. Therefore it suffices to prove the theorem
+for the smooth geometrically connected affine curve $U_0$ and the
+$\iota$-real lisse sheaf $u^*\mathcal G_0$: its conclusion at $x$ for
+the constituent $u^*\mathcal W$ is the required purity of
+$\mathcal W$ of weight $\dw_\iota(\mathcal W)$ at $x$. In Steps 1–4 we
+thus assume that $C_0=U_0$ is affine, and write $\mathcal G_0$ for the
+sheaf on $U_0$.
 
 Step 1 (reduction to the semisimple case). Replacing
 $\mathcal G_0$ by its semisimplification does not change the local
@@ -35,7 +76,10 @@ $$
 and write $\mathcal G_0=\bigoplus_{i=1}^{r}\mathcal G_0(i)$ where
 $\mathcal G_0(i)$ is the direct sum of the irreducible constituents
 of determinant weight $\gamma_i$, of total rank $r(i)$; note
-$\sum_i r(i)=\dim V$.
+$\sum_i r(i)=\operatorname{rank}\mathcal G_0$. In the notation of
+[def-rp-weight-blocks], $\mathcal G_0(i)=\mathcal G_0(\gamma_i)$ is the
+weight block of weight $\gamma_i$, so this decomposition does not
+depend on the choice of decomposition into irreducible summands.
 Step 2 (the global upper and lower bounds). Applying
 [lem-rp-upper-bound] to $\mathcal G_0$ (of largest determinant
 weight $\gamma_1$) gives, at every closed point $x$ and every
@@ -70,6 +114,9 @@ $$
 N:=\sum_{i=1}^{n}r(i),\qquad
 \mathcal T_0:=\bigwedge\nolimits^{N+1}\mathcal G_0.
 $$
+
+In the notation of [def-rp-weight-blocks], $N=N_{\gamma_{n+1}}$ and
+$\sum_{i\le n}r(i)\gamma_i=B_{\gamma_{n+1}}$.
 
 By [cor-mg-det-weight-exterior] the determinant weights of
 $\mathcal T_0$ are the sums $\sum_{i}n_i\gamma_i$ with

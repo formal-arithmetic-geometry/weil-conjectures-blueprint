@@ -2,7 +2,7 @@
 id = "def-sp-spectral-object"
 kind = "definition"
 title = "Spectral objects"
-order = 511
+order = 513
 uses = ["def-sp-abelian"]
 +++
 Let $\iota$ be a small category and $\mathcal C$ an abelian category

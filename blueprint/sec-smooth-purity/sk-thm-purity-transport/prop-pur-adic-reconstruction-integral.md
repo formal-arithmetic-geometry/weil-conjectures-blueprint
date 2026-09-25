@@ -2,7 +2,7 @@
 id = "prop-pur-adic-reconstruction-integral"
 kind = "theorem"
 title = "Adic reconstruction for derived-complete integral coefficients"
-order = 2101
+order = 2119
 tags = ["latex:proposition"]
 uses = ["def-pur-conventions", "def-weil-derived-complete-integral-detailed", "def-weil-pbc-adic-coefficient-datum", "lem-weil-pbc-reconstruction-uniform-tower", "thm-pur-adic-reconstruction"]
 +++

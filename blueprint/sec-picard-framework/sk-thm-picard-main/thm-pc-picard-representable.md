@@ -2,7 +2,7 @@
 id = "thm-pc-picard-representable"
 kind = "theorem"
 title = "The Picard scheme of a curve is representable"
-order = 842
+order = 846
 uses = ["cor-pc-sigma-pic-iso", "def-pc-genus", "def-pc-pic-sigma-functor", "def-pc-picard-functor", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-subfunctor", "lem-pc-f-open-subfunctor", "lem-pc-k-sheaf", "lem-pc-rational-hyp", "lem-pc-rational-points-dense", "lem-pc-twist", "lem-pc-vanishing-above-dim", "prop-pc-xk-integral", "thm-pc-criterion", "thm-pc-f-representable", "thm-pc-pic-split"]
 +++
 (Stacks Project, Picard Schemes of Curves, Proposition 44.6.6, Tag

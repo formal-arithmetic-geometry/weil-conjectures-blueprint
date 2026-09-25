@@ -2,8 +2,8 @@
 id = "lem-rp-upper-bound"
 kind = "lemma"
 title = "Upper bound via the largest determinant weight"
-order = 2855
-uses = ["cor-mg-det-weight-finite-tensor", "cor-rp-euler-product", "d-real-cohom", "def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-mg-weil-semisimplification", "def-wf-determinantal-weight", "def-wf-iota-real", "def-wf-weil-category", "lem-mg-normal-restriction-semisimple", "lem-mg-semisimplification-independent", "lem-rp-even-tensor-positivity", "lem-rp-hc2-eigenvalue-determinant-weight", "lem-rp-positive-product-radius", "p-linear-filtration", "p-linear-spectra"]
+order = 2902
+uses = ["cor-mg-det-weight-finite-tensor", "cor-rp-euler-product", "d-real-cohom", "def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-mg-weil-semisimplification", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "def-wf-iota-real", "def-wf-weil-category", "lem-mg-normal-restriction-semisimple", "lem-mg-semisimplification-independent", "lem-rp-even-tensor-positivity", "lem-rp-hc2-eigenvalue-determinant-weight", "lem-rp-positive-product-radius", "p-linear-filtration", "p-linear-spectra"]
 +++
 Let $U_0$ be a smooth geometrically connected affine curve, let
 $U=U_0\times_{k_0}k$, let $\mathcal G_0$ be a lisse
@@ -38,7 +38,8 @@ representation is geometrically semisimple by
 [lem-mg-normal-restriction-semisimple].
 
 Fix $k\ge1$ and put
-$\mathcal G^{(2k)}_0:=\mathcal G_0^{\otimes 2k}$. By
+$\mathcal G^{(2k)}_0:=\mathcal G_0^{\otimes 2k}$, the tensor power of
+[def-real-weil-representation-operations]. By
 [cor-mg-det-weight-finite-tensor], whose geometric-semisimplicity
 hypothesis has just been verified, the largest determinant weight of
 $\mathcal G^{(2k)}_0$ is $2k\beta$.

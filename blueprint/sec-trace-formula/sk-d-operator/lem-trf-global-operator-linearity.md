@@ -2,7 +2,7 @@
 id = "lem-trf-global-operator-linearity"
 kind = "lemma"
 title = "Linearity of the global operator in the correspondence"
-order = 2417
+order = 2439
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-global-operator"]
 +++
 Fix the coefficient

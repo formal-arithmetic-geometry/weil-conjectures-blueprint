@@ -2,7 +2,7 @@
 id = "lem-sc-gl-characters"
 kind = "lemma"
 title = "Homomorphisms $\\mathrm{GL}_{c}\\to\\mathbf G_m$ are powers of the determinant"
-order = 2031
+order = 2049
 uses = ["def-sc-general-linear-group", "def-sc-gm-ga", "def-sc-group-scheme", "def-sc-group-scheme-subgroup", "def-sc-group-scheme-translate", "lem-sc-elementary-generation", "lem-sc-ga-gm-homomorphism", "lem-sc-points-detect-morphisms", "lem-sc-torus-homomorphism-monomial", "lem-sc-translation-automorphism"]
 +++
 Let $k$ be a field and $c\geq1$. Every morphism of $k$-group

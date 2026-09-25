@@ -2,7 +2,7 @@
 id = "sbc-lem-higher-direct-image-limit"
 kind = "lemma"
 title = "Higher direct images and limits of schemes"
-order = 1393
+order = 1401
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-cohomology", "def-weil-pbc-scheme-conventions", "sbc-lem-higher-direct-image-presheaf"]
 +++
 Let $S$ be a scheme and let

@@ -2,11 +2,11 @@
 id = "thm-wf-real-mixed-curve"
 kind = "theorem"
 title = "An $\\iota$-real constructible sheaf on a curve is $\\iota$-mixed; the curve case of Kiehl–Weissauer 1.4.3(1)"
-order = 2860
-uses = ["def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "def-wf-iota-real", "def-wf-middle-extension", "fin2-lem-lisse-dense-open", "thm-rp-real-lisse-purity-affine"]
+order = 2907
+uses = ["def-real-weil-representation-operations", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "def-wf-iota-real", "def-wf-middle-extension", "fin2-lem-lisse-dense-open", "thm-rp-real-lisse-purity-affine"]
 +++
-Let $X_0$ be a smooth geometrically connected affine curve over
-$k_0=\mathbf F_q$, and let $\mathcal H$ be a
+Let $X_0$ be a smooth geometrically connected curve over
+$k_0=\mathbf F_q$ (affine or not), and let $\mathcal H$ be a
 constructible Weil sheaf on
 $X_0$ which is $\iota$-real. Then
 $\mathcal H$ is $\iota$-mixed
@@ -21,12 +21,17 @@ the restriction $\mathcal H|_{U_0}$ is lisse. Reality is a pointwise
 condition on the local characteristic factors
 ([def-wf-iota-real]), so the restriction of an $\iota$-real sheaf
 is $\iota$-real, and $\mathcal H|_{U_0}$ is an $\iota$-real lisse
-sheaf on the smooth geometrically connected affine curve $U_0$.
+sheaf on $U_0$, which is again a smooth geometrically connected curve
+($U_0\times_{k_0}\bar k$ is a nonempty open of the irreducible curve
+$X_0\times_{k_0}\bar k$ when $X_0\neq\emptyset$, the empty case being
+trivial).
 
 Step 2 (the open part is mixed). By
 [thm-rp-real-lisse-purity-affine] every irreducible constituent
 $\mathcal W$ of $\mathcal H|_{U_0}$ is punctually $\iota$-pure of
-its determinant weight. The constituents form a finite composition
+its determinant weight. The constituents
+([def-real-weil-representation-operations]) are the successive
+quotients of a finite composition
 series of the lisse sheaf $\mathcal H|_{U_0}$ whose successive
 quotients are punctually $\iota$-pure, which is exactly the mixedness
 of [def-weil-punctual-weights]; hence $\mathcal H|_{U_0}$ is

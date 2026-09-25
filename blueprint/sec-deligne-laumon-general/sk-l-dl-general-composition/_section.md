@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-composition"
 kind = "section"
 title = "Composition"
-order = 3024
+order = 3089
 uses = ["sk-d-dl-general-weights", "sk-thm-sf-comp-composition"]
 +++
 *Lemma (sketch).*

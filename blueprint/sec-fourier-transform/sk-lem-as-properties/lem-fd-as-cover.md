@@ -2,7 +2,7 @@
 id = "lem-fd-as-cover"
 kind = "lemma"
 title = "The Artin–Schreier covering"
-order = 2875
+order = 2922
 uses = ["def-fd-artin-schreier-sheaf", "def-weil-pbc-etale-site"]
 +++
 The morphism $\pi:Y\to X_0$, $\operatorname{Spec}\mathcal O[T]/(T^p-T-f)\to X_0$, is finite etale of degree $p$, and $\mathrm{Aut}(Y/X_0)\cong\mathbf F_p$, acting by $T\mapsto T+a$.

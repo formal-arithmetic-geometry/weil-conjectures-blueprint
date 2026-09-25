@@ -2,7 +2,7 @@
 id = "lem-ag-killing-nondegenerate"
 kind = "lemma"
 title = "The Killing form of a semisimple Lie algebra is nondegenerate"
-order = 2615
+order = 2652
 uses = ["def-wf-semisimple-lie-algebra", "lem-wf-cartan-trace-criterion"]
 +++
 Let $\mathfrak h$ be a finite-dimensional semisimple Lie algebra over

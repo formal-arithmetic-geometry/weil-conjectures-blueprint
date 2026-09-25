@@ -2,7 +2,7 @@
 id = "sk-prop-av-mult-surjective"
 kind = "section"
 title = "Surjectivity of the multiplication map"
-order = 556
+order = 560
 uses = ["sk-cor-av-commutative", "sk-def-av", "sk-def-av-mult-n", "sk-prop-av-char", "sk-prop-av-mult-finite", "sk-prop-av-mult-hom"]
 +++
 *Proposition (sketch).*

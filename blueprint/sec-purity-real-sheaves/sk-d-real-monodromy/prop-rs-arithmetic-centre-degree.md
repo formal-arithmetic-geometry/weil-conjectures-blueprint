@@ -2,7 +2,7 @@
 id = "prop-rs-arithmetic-centre-degree"
 kind = "theorem"
 title = "Curve form of Rosengarten Prop. 2.1: the centre of arithmetic monodromy"
-order = 2812
+order = 2861
 tags = ["latex:proposition"]
 uses = ["def-sbc-normal-dominant-galois", "def-tw-frobenius-action", "def-weil-finite-field-fiber", "def-weil-pbc-scheme-conventions", "def-wf-algebraic-components", "def-wf-algebraic-radicals", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-geometric-semisimplicity", "def-wf-monodromy-data", "def-wf-weil-group", "lem-wf-disconnected-geometric-centre", "lem-wf-inner-correction", "lem-wf-zero-dimensional-matrix-group-finite", "prop-rs-rosengarten-21", "rem-rs-route-note"]
 +++

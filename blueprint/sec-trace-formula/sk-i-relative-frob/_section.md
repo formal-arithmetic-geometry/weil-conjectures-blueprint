@@ -2,7 +2,7 @@
 id = "sk-i-relative-frob"
 kind = "section"
 title = "Relative Frobenius"
-order = 2499
+order = 2528
 uses = ["sk-d-relative-frob", "sk-d-setup"]
 +++
 *Proposition (sketch).*

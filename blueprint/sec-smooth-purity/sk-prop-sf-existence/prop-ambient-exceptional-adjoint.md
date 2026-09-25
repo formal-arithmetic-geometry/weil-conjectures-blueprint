@@ -2,7 +2,7 @@
 id = "prop-ambient-exceptional-adjoint"
 kind = "theorem"
 title = "Ambient exceptional right adjoint"
-order = 1853
+order = 1867
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative", "prop-compactification-coherence-detailed"]
 +++

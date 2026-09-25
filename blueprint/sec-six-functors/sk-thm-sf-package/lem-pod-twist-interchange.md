@@ -2,7 +2,7 @@
 id = "lem-pod-twist-interchange"
 kind = "lemma"
 title = "Internal Hom with an invertible twist"
-order = 2379
+order = 2396
 uses = ["def-coefficient-twists-detailed", "def-weil-derived-pullback-tensor-hom", "lem-pod-finite-projective-tensor-hom", "prop-pod-perfect-dualizable"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), let $K\in D^b_{ctf}(X,\Lambda)$ be perfect over $\Lambda _X$, let $M\in D^b_{ctf}(X,\Lambda )$, and let $m\in \mathbf Z$. The twist $\Lambda (m)_X$ is an invertible locally constant rank-one sheaf, and the canonical natural map

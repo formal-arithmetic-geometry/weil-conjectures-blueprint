@@ -2,7 +2,7 @@
 id = "sk-prop-kummer-exact"
 kind = "section"
 title = "Exactness of the Kummer sequence"
-order = 880
+order = 884
 uses = ["sk-def-curve", "sk-def-kummer"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-exc-closed-cover-extension"
 kind = "lemma"
 title = "Lifting a covering of a closed fibre"
-order = 1898
+order = 1913
 uses = ["def-exc-closed-site-lift", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "lem-exc-closed-lift-reduction"]
 +++
 Let $W$ be affine, let $Z_W\subset W$ be closed, and assume $W\setminus Z_W$

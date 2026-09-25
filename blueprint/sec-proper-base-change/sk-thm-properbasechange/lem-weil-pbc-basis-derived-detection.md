@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-basis-derived-detection"
 kind = "lemma"
 title = "Derived sections on the basis detect isomorphisms"
-order = 1273
+order = 1281
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-ind-etale-basis", "lem-weil-pbc-ind-etale-basis", "lem-weil-pbc-proetale-restriction-injectives"]
 +++
 Let $X$ be affine. A morphism between bounded-below complexes of pro-etale

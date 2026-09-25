@@ -2,7 +2,7 @@
 id = "cor-zl-functional-equation-sign"
 kind = "theorem"
 title = "The normalized sign of the functional equation"
-order = 3143
+order = 3211
 tags = ["latex:corollary"]
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "lem-weil-alternating-form-dimension", "lem-zl-poincare-duality-roots", "prop-poincare-pairing"]
 +++

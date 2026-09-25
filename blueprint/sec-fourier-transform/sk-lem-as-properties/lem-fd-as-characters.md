@@ -2,8 +2,8 @@
 id = "lem-fd-as-characters"
 kind = "lemma"
 title = "Isotypic decomposition of the Artin–Schreier pushforward"
-order = 2878
-uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-finite-torsors", "lem-fd-as-cover", "lem-fd-character-orthogonality"]
+order = 2925
+uses = ["def-fd-artin-schreier-sheaf", "def-weil-pbc-etale-sheaves", "def-weil-pbc-finite-torsors", "lem-fd-as-cover", "lem-fd-character-orthogonality"]
 +++
 With the $\mathbf F_p$-action of [lem-fd-as-cover], there is a canonical decomposition
 
@@ -11,8 +11,8 @@ $$
 \pi_*\overline{\mathbf Q}_\ell\cong\bigoplus_{\chi\in\widehat{\mathbf F}_p}\mathcal L_\chi,
 $$
 
-where each $\mathcal L_\chi$ is lisse of rank one on $X_0$, and $\mathcal L_\chi=1$ if and only if $\chi=0$. In particular
-$\mathcal L_{\psi,f}\otimes\mathcal L_{\psi,g}\cong\mathcal L_{\psi,f+g}$ and $(\mathcal L_{\psi,f})^{-1}\cong\mathcal L_{-\psi,f}$.
+where each $\mathcal L_\chi$ is lisse of rank one on $X_0$, and $\mathcal L_0=1$ (for $\chi\neq0$ the summand $\mathcal L_\chi$ need not be nonconstant: all are constant when $f=0$). In particular
+$\mathcal L_{\psi,f}\otimes\mathcal L_{\psi,g}\cong\mathcal L_{\psi,f+g}$, $(\mathcal L_{\psi,f})^{-1}\cong\mathcal L_{\psi,-f}$, and $\mathcal L_{\psi^{-1},f}\cong\mathcal L_{\psi,-f}$.
 
 ## Proof
 
@@ -65,8 +65,7 @@ $$
 
 a direct sum decomposition by idempotents, with no appeal to a splitting
 theorem for group algebras.
-*Step 4 (each summand is lisse of rank one; $\mathcal L_\chi=1$ iff
-$\chi=0$).* Pulling $\mathcal L_\chi$ back along $\pi$ gives the constant
+*Step 4 (each summand is lisse of rank one; $\mathcal L_0=1$).* Pulling $\mathcal L_\chi$ back along $\pi$ gives the constant
 subsheaf $e_\chi\overline{\mathbf Q}_\ell[\mathbf F_p]$ of the regular
 representation; the rank of an idempotent equals its trace, and
 $\operatorname{tr}\sigma_a=p\delta_{a,0}$, so
@@ -75,16 +74,39 @@ of rank one, and $\mathcal L_\chi$ is lisse of rank one by
 [def-weil-pbc-etale-sheaves]. The summand $\chi=0$ is the invariant part
 $(\pi_*\overline{\mathbf Q}_\ell)^{\mathbf F_p}$, i.e. the invariants of the
 pushforward along a torsor, which is the constant sheaf
-$\overline{\mathbf Q}_\ell$; so $\mathcal L_\chi=1$ if and only if $\chi=0$.
-*Step 5 (multiplicativity).* Let $f,g\in\mathcal O_{X_0}$ with covers
-$Y_f,Y_g$. Over the étale cover $Y_f\times_{X_0}Y_g\to X_0$ the two sheaves
-$\mathcal L_{\psi,f}$ and $\mathcal L_{\psi,g}$ become constant of rank one
-with the characters $\chi_f(a)=\psi(af)$ and $\chi_g(a)=\psi(ag)$ (Step 4),
-and $T_f+T_g$ satisfies $(T_f+T_g)^p-(T_f+T_g)=f+g$, so the same
-trivialization exhibits their tensor product as the constant sheaf with
-character $\chi_f\chi_g=\chi_{f+g}$, namely the pullback of
-$\mathcal L_{\psi,f+g}$. A morphism of sheaves on the étale site is an
-isomorphism as soon as it becomes one after pullback along a cover, so
-$\mathcal L_{\psi,f}\otimes\mathcal L_{\psi,g}\cong\mathcal L_{\psi,f+g}$;
-the same argument with $g=-f$ gives
-$(\mathcal L_{\psi,f})^{-1}\cong\mathcal L_{-\psi,f}$.
+$\overline{\mathbf Q}_\ell$; so $\mathcal L_0=1$.
+*Step 5 (multiplicativity).* By [def-fd-artin-schreier-sheaf],
+$\mathcal L_{\psi,f}=e_\Psi\pi_*\overline{\mathbf Q}_\ell$ is the summand
+$\mathcal L_\chi$ for $\chi=\Psi$, so it is lisse of rank one by Step 4. Let
+$f,g\in\Gamma(X_0,\mathcal O_{X_0})$ with covers $\pi_f:Y_f\to X_0$,
+$\pi_g:Y_g\to X_0$, and put $W=Y_f\times_{X_0}Y_g$, $\pi_W:W\to X_0$. At a
+geometric point the stalk of $\pi_{W*}\overline{\mathbf Q}_\ell$ is the space
+of functions on the product of the two fibres, i.e. the tensor product of the
+stalks, so
+$\pi_{W*}\overline{\mathbf Q}_\ell\cong\pi_{f*}\overline{\mathbf Q}_\ell\otimes\pi_{g*}\overline{\mathbf Q}_\ell$,
+compatibly with the action of $\mathbf F_p\times\mathbf F_p$; hence
+$\mathcal L_{\psi,f}\otimes\mathcal L_{\psi,g}$ is the rank-one subsheaf on
+which $(a,b)$ acts by $\Psi(a)\Psi(b)$. Since
+$(T_f+T_g)^p-(T_f+T_g)=f+g$, the element $T_f+T_g$ defines
+$h:W\to Y_{f+g}$ over $X_0$ with $h\circ\sigma_{(a,b)}=\sigma_{a+b}\circ h$.
+Pullback $h^*:\pi_{f+g,*}\overline{\mathbf Q}_\ell\to\pi_{W*}\overline{\mathbf Q}_\ell$
+is injective on stalks, $h$ being surjective on geometric fibres (the action
+on the fibre of $Y_{f+g}$ is transitive), and it carries a section $\varphi$
+with $\sigma_c^*\varphi=\Psi(c)\varphi$ to one with
+$\sigma_{(a,b)}^*h^*\varphi=h^*\sigma_{a+b}^*\varphi=\Psi(a)\Psi(b)\,h^*\varphi$.
+So $h^*$ maps $\mathcal L_{\psi,f+g}$ injectively on stalks into
+$\mathcal L_{\psi,f}\otimes\mathcal L_{\psi,g}$; both are lisse of rank one,
+so this is an isomorphism
+$\mathcal L_{\psi,f}\otimes\mathcal L_{\psi,g}\cong\mathcal L_{\psi,f+g}$.
+For $f=0$ the covering is the trivial torsor $X_0\times\mathbf F_p$ and the
+$\Psi$-isotypic part of the functions on $\mathbf F_p$ is spanned by the
+nowhere vanishing function $a\mapsto\Psi(a)$, so
+$\mathcal L_{\psi,0}\cong\overline{\mathbf Q}_\ell$; taking $g=-f$ gives
+$\mathcal L_{\psi,f}\otimes\mathcal L_{\psi,-f}\cong\overline{\mathbf Q}_\ell$,
+i.e. $(\mathcal L_{\psi,f})^{-1}\cong\mathcal L_{\psi,-f}$.
+Finally, $T\mapsto-T$ defines an isomorphism $Y_{-f}\to Y_f$ over $X_0$
+(as $(-T)^p-(-T)=-(T^p-T)$ for $p$ odd, and $-T=T$ for $p=2$) which
+intertwines $\sigma_a$ on $Y_f$ with $\sigma_{-a}$ on $Y_{-f}$; it therefore
+carries the $\Psi^{-1}$-isotypic part of $\pi_{f*}\overline{\mathbf Q}_\ell$
+onto the $\Psi$-isotypic part of $\pi_{-f,*}\overline{\mathbf Q}_\ell$, i.e.
+$\mathcal L_{\psi^{-1},f}\cong\mathcal L_{\psi,-f}$.

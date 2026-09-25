@@ -2,7 +2,7 @@
 id = "thm-sf-preservation-class"
 kind = "theorem"
 title = "The preservation clauses of exceptional-adjoint admissibility are theorems on the coefficient class"
-order = 2177
+order = 2196
 uses = ["cor-pur-general-admissibility-datum", "cor-sf-ambient-adjoint-discharge", "def-compact-support-direct-image-detailed", "def-exc-open-complement-bound", "def-pur-conventions", "def-sbc-affine-space", "def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-exc-open-complement-known", "lem-sf-proetale-constructible-origin", "prop-sf-comparison-bound-zero", "thm-pur-general-admissibility", "thm-pur-open-complement-unconditional", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, the algebraic

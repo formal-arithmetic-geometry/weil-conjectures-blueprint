@@ -2,7 +2,7 @@
 id = "lem-sc-affine-cohomological-dimension"
 kind = "lemma"
 title = "Cohomological dimension of a smooth affine curve"
-order = 1018
+order = 1026
 uses = ["def-sc-curves", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-sc-affine-generic-second", "lem-sc-cohomological-dimension", "lem-sc-generic-cohomology-comparison"]
 +++
 For a smooth affine connected curve $C$

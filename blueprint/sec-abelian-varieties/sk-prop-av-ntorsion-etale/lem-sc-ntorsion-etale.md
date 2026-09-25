@@ -2,7 +2,7 @@
 id = "lem-sc-ntorsion-etale"
 kind = "lemma"
 title = "The $n$-torsion of an abelian variety is etale"
-order = 592
+order = 596
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-mult-n", "lem-sc-av-commutative", "lem-sc-divisible-group-structure", "lem-sc-fg-order-prime-etale", "lem-sc-finite-etale-points", "lem-sc-isogeny-facts", "lem-sc-isogeny-surjective", "lem-sc-mult-n-etale-kernel", "lem-sc-mult-n-finite-flat"]
 +++
 Let $A$ be an abelian variety

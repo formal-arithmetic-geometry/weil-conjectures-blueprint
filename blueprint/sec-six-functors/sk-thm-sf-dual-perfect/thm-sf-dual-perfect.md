@@ -2,7 +2,7 @@
 id = "thm-sf-dual-perfect"
 kind = "theorem"
 title = "The dual of a perfect complex"
-order = 2279
+order = 2296
 uses = ["def-sf-datum", "def-sf-orientation", "def-sf-pf", "lem-sf-twist-interchange", "prop-sf-dualizable-biduality"]
 +++
 In the setting of [def-sf-datum], let $X$ be separated of finite type

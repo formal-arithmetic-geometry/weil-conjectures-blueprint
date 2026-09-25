@@ -2,9 +2,9 @@
 id = "fin4-prop-curve-family-betti"
 kind = "theorem"
 title = "Fibrewise cohomology of a smooth projective curve family"
-order = 2876
+order = 2923
 tags = ["latex:proposition"]
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-sbc-smooth-morphisms", "def-sc-curves", "def-sc-genus", "def-sc-mu-trivialization", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "fin4-lem-stalk-constructibility-criterion", "lem-fd-as-cover", "lem-sc-artin-schreier-dimension", "lem-sc-as-sequence", "lem-sc-c1", "lem-sc-c3", "lem-sc-c5", "lem-sc-cohomological-dimension", "lem-sc-isogeny-facts", "lem-sc-lang-steinberg", "lem-sc-mult-n-finite-flat", "sbc-def-coefficient-conventions", "thm-sc-affine-cohomology", "thm-sc-constant-invariance", "thm-sc-proper-cohomology"]
+uses = ["cor-weil-pbc-geometric-fiber-finite", "def-sbc-smooth-morphisms", "def-sc-curves", "def-sc-genus", "def-sc-mu-trivialization", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "fin4-lem-stalk-constructibility-criterion", "lem-fd-as-cover", "lem-sc-artin-schreier-dimension", "lem-sc-as-sequence", "lem-sc-c1", "lem-sc-c3", "lem-sc-c5", "lem-sc-cohomological-dimension", "lem-sc-lang-steinberg", "sbc-def-coefficient-conventions", "thm-av-final", "thm-sc-affine-cohomology", "thm-sc-constant-invariance", "thm-sc-proper-cohomology"]
 +++
 Let $f:X\to S$ be an smooth
 proper morphism with $S$ of finite type over $k$, whose
@@ -80,8 +80,7 @@ The kernel is finite: an $\mathbf F_p$-space of dimension the
 $p$-rank of $C_0$, at most $g_{C_0}$ by [lem-sc-c5]; the same
 finiteness is visible through the $p$-torsion group scheme of the
 Jacobian (finite flat of order $p^{2g_{C_0}}$,
-[lem-sc-isogeny-facts] (b) with
-[lem-sc-mult-n-finite-flat]) and through the Artin-Schreier
+[thm-av-final](b)) and through the Artin-Schreier
 transfer: the covering
 $\operatorname{Spec}\mathcal O[T]/(T^p-T-p\text{-free})$ of
 the Fourier–Deligne chapter ([lem-fd-as-cover]) is finite etale of degree $p$

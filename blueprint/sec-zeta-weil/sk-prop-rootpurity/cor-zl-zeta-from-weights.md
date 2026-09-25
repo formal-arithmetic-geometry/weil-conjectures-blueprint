@@ -2,7 +2,7 @@
 id = "cor-zl-zeta-from-weights"
 kind = "theorem"
 title = "Root bound"
-order = 3115
+order = 3182
 tags = ["latex:corollary"]
 uses = ["cor-zl-purity-smooth-proper", "def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-reciprocal-roots", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-weil-operations", "prop-weil-reciprocal-roots-eigenvalues"]
 +++

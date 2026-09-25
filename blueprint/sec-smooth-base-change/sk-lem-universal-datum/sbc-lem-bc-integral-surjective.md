@@ -2,11 +2,14 @@
 id = "sbc-lem-bc-integral-surjective"
 kind = "lemma"
 title = "Integral surjective base change on the target"
-order = 1398
+order = 1406
 uses = ["lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-five-lemma-transfer", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-injectivity", "sbc-lem-integral-etale-direct-image-exact"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] assume for
-some $q\geq1$ that $\mathrm{BC}(f,n,q-1)$ holds. Consider commutative
+some $q\geq1$ that $\mathrm{BC}(f,n,q-1)$ holds universally (in the
+single degree $q-1$, which is all that [sbc-lem-bc-injectivity]
+needs).
+Consider commutative
 diagrams
 
 $$
@@ -42,7 +45,9 @@ $f'^{-1}R^qg_*\mathcal F\to R^qh_*e^{-1}\mathcal F$ is an isomorphism.
 ## Proof
 
 The maps $\mathcal F\to\pi_*\pi^{-1}\mathcal F$ are injective as $\pi$
-is surjective, so by [sbc-lem-bc-injectivity] the task reduces to
+is surjective, so by [sbc-lem-bc-injectivity] (2), applied to the base
+change $f'$ of $f$ along $S'\to S$ and the quasi-compact
+quasi-separated $g:T\to S'$, the task reduces to
 showing the base-change map for $\pi_*\mathcal F'$ is an isomorphism.
 For an integral morphism $\pi$ the direct image is exact by
 [sbc-lem-integral-etale-direct-image-exact] (the finite case being

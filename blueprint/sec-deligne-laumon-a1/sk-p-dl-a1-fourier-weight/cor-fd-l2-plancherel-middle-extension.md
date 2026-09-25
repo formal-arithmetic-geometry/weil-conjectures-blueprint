@@ -2,9 +2,9 @@
 id = "cor-fd-l2-plancherel-middle-extension"
 kind = "theorem"
 title = "Plancherel for a middle extension: the transform shifts the weight of a pure lisse sheaf by exactly one"
-order = 2980
+order = 3041
 tags = ["latex:corollary"]
-uses = ["def-fd-trace-function", "def-fd-transform", "def-weil-punctual-weights", "def-wf-l2-norm", "def-wf-middle-extension", "lem-fd-l2-middle-extension", "lem-fd-l2-plancherel-shift", "lem-wf-l2-purity-rigidity"]
+uses = ["def-fd-trace-function", "def-fd-transform", "def-weil-punctual-weights", "def-wf-l2-norm", "def-wf-middle-extension", "lem-fd-l2-middle-extension", "lem-fd-l2-plancherel-shift", "lem-wf-l2-purity-rigidity", "prop-a1-fourier-middle-extension", "thm-fd-generic-fourier-sheaf-pure"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion
 with finite complement, and let $\mathcal M$ be a lisse Weil sheaf on
@@ -24,6 +24,15 @@ weight $v$. Then
 $$
 v=w+1 .
 $$
+
+The middle-extension shape holds, with $\mathcal M'$ irreducible,
+whenever $\mathcal M$ is irreducible and constituent-nonexceptional
+([prop-a1-fourier-middle-extension]). In that case the purity of
+$\mathcal M'$ is automatic as well: if $\mathcal M$ is nonzero,
+irreducible, constituent-nonexceptional and punctually $\iota$-pure of
+weight $w$, then the sheaf $\mathcal M'$ of
+[prop-a1-fourier-middle-extension] is punctually $\iota$-pure of weight
+exactly $w+1$.
 
 ## Proof
 
@@ -47,3 +56,9 @@ $\|j'_*\mathcal M'\|=\|\mathcal M'\|=v$, the second equality in each
 case being the rigidity [lem-wf-l2-purity-rigidity] applied to the
 punctually pure lisse sheaf $\mathcal M$ respectively $\mathcal M'$.
 Substituting, $v=w+1$.
+
+For the last assertion, [prop-a1-fourier-middle-extension] supplies the
+middle-extension shape with $\mathcal M'$ lisse on the dense open
+$U'_0$, and [thm-fd-generic-fourier-sheaf-pure] shows that
+$\mathcal M'$ is punctually $\iota$-pure of some real weight $v$ on all
+of $U'_0$. All hypotheses of the first part are then met, so $v=w+1$.

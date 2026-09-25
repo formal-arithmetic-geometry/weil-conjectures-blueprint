@@ -2,7 +2,7 @@
 id = "def-pc-separably-closed"
 kind = "definition"
 title = "Separably closed fields"
-order = 753
+order = 755
 +++
 A field $k$ is *separably closed* if every nonconstant separable
 polynomial $f\in k[T]$ has a root in $k$ (equivalently, $k$ has no

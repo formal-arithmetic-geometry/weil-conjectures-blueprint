@@ -2,7 +2,7 @@
 id = "rem-sf-yoga"
 kind = "remark"
 title = "The yoga: which classical theorem is which"
-order = 2360
+order = 2377
 +++
 The point of the axiomatization is the following dictionary, each entry of
 which is proved, as listed in the right-hand column, from
@@ -14,7 +14,7 @@ which is proved, as listed in the right-hand column, from
 | biduality $D_XD_X\cong\operatorname{id}$ | proved in the framework chapter, [thm-fix-general-biduality] | [thm-sf-biduality] |
 | global duality $R\Gamma_c^\vee\cong R\Gamma\mathbb D_X$ | (A1) $+$ (A3) $+$ point | [thm-sf-global-duality] |
 | trace–cup pairing perfect | the above $+$ orientation | [thm-sf-identification] |
-| trace isomorphism $H^{2d}\cong\Lambda(-d)$ | the above $+$ connectedness | [cor-sf-trace-isomorphism] |
+| trace isomorphism $H_c^{2d}\cong\Lambda(-d)$ ($H^{2d}$ if proper) | the above $+$ connectedness | [cor-sf-trace-isomorphism] |
 | Künneth / product formula | (A2) $+$ (A3) $+$ (A4) | [thm-sf-kunneth-relative] |
 | dual base change $Rf^!Rg_*\cong Rg'_*Rf'^!$ | (A1) $+$ (A2) | [thm-sf-dual-base-change] |
 | duality against pullback $D_XLf^*\cong Rf^!D_Y$ | (A1) $+$ (A3) $+$ (A6) | [cor-sf-duality-pullback] |

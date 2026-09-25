@@ -1,8 +1,8 @@
 +++
 id = "def-sf-setting"
-kind = "definition"
+kind = "remark"
 title = "Coefficients and sites"
-order = 1469
+order = 1478
 +++
 Fix the global finite-field datum $(p,a,q,k_0,k)$ with $k=\overline{\mathbf F}_q$, a prime $\ell\neq p$, a finite extension $E/\Ql$ with valuation ring
 $\mathcal O_E$ and uniformizer $\varpi_E$, an integer $n\ge1$, and put

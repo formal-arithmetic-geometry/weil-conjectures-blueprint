@@ -2,7 +2,7 @@
 id = "sk-def-ia"
 kind = "section"
 title = "Injective acyclicity"
-order = 1050
+order = 1058
 uses = ["sk-def-conv", "sk-def-exchange"]
 +++
 *Definition (sketch).*

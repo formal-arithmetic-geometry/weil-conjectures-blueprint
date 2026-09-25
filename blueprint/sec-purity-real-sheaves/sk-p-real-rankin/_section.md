@@ -2,8 +2,8 @@
 id = "sk-p-real-rankin"
 kind = "section"
 title = "Rankin–Selberg upper bound"
-order = 2848
-uses = ["sk-d-real-cohom", "sk-d-real-detweights", "sk-d-real-operations", "sk-d-real-series", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil", "sk-p-linear-spectra", "sk-p-linear-triangular", "sk-p-real-rankone", "sk-p-tensor", "sk-thm-derived-duality", "sk-thm-trace-transport"]
+order = 2895
+uses = ["sk-d-real-cohom", "sk-d-real-detweights", "sk-d-real-operations", "sk-d-real-series", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil", "sk-p-linear-filtration", "sk-p-linear-spectra", "sk-p-linear-triangular", "sk-p-real-operations", "sk-p-real-rankone", "sk-p-tensor", "sk-thm-derived-duality", "sk-thm-trace-transport"]
 +++
 *Proposition (sketch).*
 

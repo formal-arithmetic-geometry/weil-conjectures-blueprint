@@ -2,12 +2,12 @@
 id = "sbc-lem-bc-universal-test"
 kind = "lemma"
 title = "Universal curve-test datum for a failure"
-order = 1400
+order = 1408
 uses = ["sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-failure-field", "sbc-lem-bc-integral-base", "sbc-lem-bc-integral-surjective"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] assume for
-some $q\geq1$ that $\mathrm{BC}(f,n,q-1)$ is true, but
-$\mathrm{BC}(f,n,q)$ is not. Then there exist a commutative diagram
+some $q\geq1$ that $\mathrm{BC}(f,n,q')$ holds universally for all
+$q'\leq q-1$, but $\mathrm{BC}(f,n,q)$ does not hold universally. Then there exist a commutative diagram
 
 $$
 \begin{array}{ccccc}
@@ -31,9 +31,13 @@ $R^qh_*(\mathbf Z/d\mathbf Z)$ is nonzero.
 
 ## Proof
 
-By [sbc-lem-bc-failure-field], after replacing $S'$ by an affine
-open, we may and do assume $S'$ is affine and $T=\operatorname{Spec}K$
-for a field $K$. By [sbc-lem-bc-integral-surjective] applied to
+By [sbc-lem-bc-failure-field] there are a morphism $S'\to S$ with
+$S'$ affine, the base change $f':X'\to S'$, a field $K$ with a morphism
+$T=\operatorname{Spec}K\to S'$, and a sheaf $\mathcal F$ on $T$
+annihilated by $n$ for which the degree-$q$ base-change map of $f'$
+along $T\to S'$ is not an isomorphism. By
+[sbc-lem-bc-integral-surjective] (whose hypothesis, $\mathrm{BC}(f,n,q-1)$
+universally, is part of ours) applied to
 the base change $\pi:\operatorname{Spec}K'\to\operatorname{Spec}K$
 to an algebraic closure $K'$ of $K$ (an integral surjective morphism),
 we may assume $K$ is algebraically closed. A sheaf of

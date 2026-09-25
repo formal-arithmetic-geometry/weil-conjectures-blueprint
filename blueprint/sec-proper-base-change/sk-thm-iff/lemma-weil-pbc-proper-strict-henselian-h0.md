@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-proper-strict-henselian-h0"
 kind = "lemma"
 title = "Degree-zero comparison over a strictly henselian base"
-order = 1087
+order = 1095
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-pullback-identities", "lem-weil-pbc-universal-homeomorphism-base-change", "lemma-weil-pbc-etale-degree-zero", "lemma-weil-pbc-finite-refinement-etale-cover", "lemma-weil-pbc-spectral-restriction", "lemma-weil-pbc-stein-connectedness", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $(A,\mathfrak m)$ be strictly henselian local, let

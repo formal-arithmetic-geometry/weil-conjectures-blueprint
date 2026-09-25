@@ -2,8 +2,8 @@
 id = "lem-sc-finite-etale-points"
 kind = "lemma"
 title = "Points of finite etale group schemes"
-order = 589
-uses = ["def-sc-group-scheme", "lem-galois-geometric-fibre"]
+order = 593
+uses = ["def-sc-group-scheme", "lem-sc-finite-etale-algebra-criterion"]
 +++
 Let $G$ be a finite etale group
 scheme of order $m$ over an algebraically closed field $k$, and
@@ -15,12 +15,10 @@ $$
 
 ## Proof
 
-A finite etale $k$-algebra is a product of finite separable field
-extensions of $k$, as recalled in
-[lem-galois-geometric-fibre] of the finite-etale/Galois chapter
-(the geometric fibre of a finite etale cover is a disjoint union of
-copies of the geometric point); since $k$ is algebraically closed
-each of these extensions equals $k$. Hence
+By [lem-sc-finite-etale-algebra-criterion], the coordinate ring
+$\Gamma(G,\mathcal O_G)$ of the finite etale $G$ is a finite product of
+finite separable field extensions of $k$; since $k$ is algebraically
+closed each of these extensions equals $k$. Hence
 $G\cong\coprod_{i=1}^{m}\operatorname{Spec}k$ as a $k$-scheme; the
 order of $G$ is the $k$-dimension of its coordinate ring
 ([def-sc-group-scheme] fixes the group scheme structure of $G$,

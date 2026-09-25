@@ -2,7 +2,7 @@
 id = "fin4-prop-p1-constant-reduction"
 kind = "theorem"
 title = "The projective line: reduction to constant coefficients on curve families"
-order = 1817
+order = 1831
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "fin4-lem-domination-trick", "fin4-lem-fibrewise-cohomological-dimension", "fin4-thm-finite-morphisms-constructible", "lemma-weil-pbc-constructible-finite-pushforward", "sbc-def-coefficient-conventions", "thm-constructible-serre", "thm-fin-proper-case"]
 +++

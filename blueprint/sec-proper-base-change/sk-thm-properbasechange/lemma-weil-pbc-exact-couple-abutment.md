@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-exact-couple-abutment"
 kind = "lemma"
 title = "Finite rows and the abutment comparison"
-order = 1321
+order = 1329
 uses = ["def-sp-convergence", "def-weil-pbc-derived-exchange", "def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-truncation-exact-couples", "lem-sp-couple-morphism", "lemma-weil-pbc-hypercohomology-convergence", "thm-sp-half-plane-convergence"]
 +++
 In total degree $n$, the two exact couples have only the finite row range

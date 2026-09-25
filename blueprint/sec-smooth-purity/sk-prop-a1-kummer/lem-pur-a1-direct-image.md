@@ -2,7 +2,7 @@
 id = "lem-pur-a1-direct-image"
 kind = "lemma"
 title = "The affine line has no higher direct images"
-order = 2005
+order = 2021
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-derived-direct-image", "def-weil-scheme-morphism-properties", "fix-prop-adjunctions", "lem-pur-divisor-class", "lem-pur-support-localization-triangle", "prop-weil-pbc-inverse-image-derived-adjunction", "thm-pur-affine-line-orientation", "thm-pur-p1-decomposition", "thm-pur-rank-one-local-calculation"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

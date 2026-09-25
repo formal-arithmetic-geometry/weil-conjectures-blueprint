@@ -2,7 +2,7 @@
 id = "lem-wf-constant-twist-weight-upper"
 kind = "lemma"
 title = "Shift of upper weight bounds under a constant twist"
-order = 2970
+order = 3029
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist", "lem-tw-multiplicativity", "lem-wf-constant-twist-weight"]
 +++
 If $\mathcal F$ is lisse and punctually $\iota$-mixed of weights at

@@ -2,7 +2,7 @@
 id = "def-kun-cd"
 kind = "definition"
 title = "Cohomological dimension"
-order = 1546
+order = 1560
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++
 For a

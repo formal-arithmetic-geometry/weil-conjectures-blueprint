@@ -2,7 +2,7 @@
 id = "lem-sc-image-subgroup"
 kind = "lemma"
 title = "The image of a homomorphism is a closed subgroup scheme"
-order = 557
+order = 561
 uses = ["def-sc-group-scheme", "def-sc-group-scheme-subgroup"]
 +++
 Let $f:G\to H$ be a homomorphism of

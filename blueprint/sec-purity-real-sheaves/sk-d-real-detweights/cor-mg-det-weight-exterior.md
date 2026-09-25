@@ -2,9 +2,9 @@
 id = "cor-mg-det-weight-exterior"
 kind = "theorem"
 title = "Determinant weights of an exterior power"
-order = 2824
+order = 2869
 tags = ["latex:corollary"]
-uses = ["def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-wf-determinantal-weight", "def-wf-geometric-semisimplicity", "lem-rp-determinant-weights-agree", "prop-ag-det-weight-exterior"]
+uses = ["def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "def-wf-geometric-semisimplicity", "lem-rp-determinant-weights-agree", "prop-ag-det-weight-exterior"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, put
 $|k_0|=q$, fix $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and let
@@ -23,9 +23,10 @@ r(\gamma):=\sum_{\gamma_a=\gamma}d_a,
 $$
 
 Thus $\dim V=\sum_{\gamma\in R}r(\gamma)$. For every
-$0\le r\le\dim V$, every Jordan–Holder constituent of
-$\bigwedge^r\mathcal F_0$ has
-determinant weight
+$0\le r\le\dim V$, every Jordan–Holder constituent of the exterior
+power $\bigwedge^r\mathcal F_0$ (constituents and exterior powers of
+Weil representations as in [def-real-weil-representation-operations])
+has determinant weight
 
 $$
 \sum_{\gamma\in R}n_\gamma\gamma,

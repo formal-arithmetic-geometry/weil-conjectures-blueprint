@@ -2,7 +2,7 @@
 id = "lem-trf-frobenius-operator-compact-description"
 kind = "lemma"
 title = "Compact-support description of the global Frobenius"
-order = 2423
+order = 2446
 uses = ["def-trf-coefficient-conventions", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "def-weil-derived-direct-image", "def-weil-finite-field-fiber", "def-weil-global-geometric-frobenius", "prop-trf-scheme-galois-comparison", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Fix the global finite-field

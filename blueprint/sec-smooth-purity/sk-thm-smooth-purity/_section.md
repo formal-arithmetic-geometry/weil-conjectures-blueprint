@@ -2,7 +2,7 @@
 id = "sk-thm-smooth-purity"
 kind = "section"
 title = "Finite-coefficient smooth purity"
-order = 2082
+order = 2100
 uses = ["sk-def-purity-conv", "sk-lem-diag-reg", "sk-prop-an", "sk-prop-cohsm", "sk-thm-dnc"]
 +++
 *Theorem (sketch).*

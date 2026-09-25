@@ -2,7 +2,7 @@
 id = "sk-d-local-term"
 kind = "section"
 title = "Local terms"
-order = 2461
+order = 2488
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-pairing", "sk-d-six", "sk-d-trace-class"]
 +++
 *Definition (sketch).*
@@ -26,7 +26,9 @@ $$
 $$
 
 For an endocorrespondence, use its trace class to set
-$\LT_B(u):=\LT_B(u,1_K)=\int_B j_B^*\Tr_c(u)$, with $B\subseteq\Fix(c)$.
+$\LT_B(u):=\int_B j_B^*\Tr_c(u)$, with $B\subseteq\Fix(c)$; it equals
+$\LT_B(u,1_K)$ because $\Tr_c(u)=\langle u,1_K\rangle_{\mathrm{LV}}$
+([lem-trf-trace-class-diagonal-pairing]).
 The ambient support need not be proper. At a Frobenius fixed point,
 $\LT_{\bar x}$ means the local term on its reduced clopen point component.
 

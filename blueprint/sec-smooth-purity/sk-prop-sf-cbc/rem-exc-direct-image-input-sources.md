@@ -2,7 +2,7 @@
 id = "rem-exc-direct-image-input-sources"
 kind = "remark"
 title = "Sources of the direct-image input, and its proof here"
-order = 1665
+order = 1679
 uses = ["lem-kun-cd-sep-closed-point", "obl-fin-comparison", "sbc-thm-finiteness-finite-type", "thm-dg-finite-type-constructibility", "thm-sc-finite-type-torsion-cd"]
 +++
 Clause (1) is the classical finiteness theorem for the higher direct

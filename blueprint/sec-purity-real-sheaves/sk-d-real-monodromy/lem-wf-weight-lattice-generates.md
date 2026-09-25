@@ -2,7 +2,7 @@
 id = "lem-wf-weight-lattice-generates"
 kind = "lemma"
 title = "The weights of a faithful representation generate the character lattice"
-order = 2800
+order = 2849
 uses = ["def-wf-algebraic-character", "def-wf-algebraic-representations", "def-wf-algebraic-torus", "lem-wf-central-torus-weight-decomposition"]
 +++
 Let $T\subseteq\operatorname{GL}(V)$ be a split torus in the sense of

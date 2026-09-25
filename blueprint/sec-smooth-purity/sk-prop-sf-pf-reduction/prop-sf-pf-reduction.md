@@ -2,7 +2,7 @@
 id = "prop-sf-pf-reduction"
 kind = "theorem"
 title = "Compatibility with finite reduction"
-order = 1931
+order = 1947
 tags = ["latex:proposition"]
 uses = ["def-sf-datum", "def-sf-pf", "lem-fix-compact-support-coefficient-change", "lem-fix-operation-reduction", "thm-sf-pf-finite"]
 +++

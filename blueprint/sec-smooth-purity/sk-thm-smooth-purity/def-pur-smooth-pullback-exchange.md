@@ -2,7 +2,7 @@
 id = "def-pur-smooth-pullback-exchange"
 kind = "definition"
 title = "Smooth pullback exchange for exceptional inverse image"
-order = 2091
+order = 2109
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

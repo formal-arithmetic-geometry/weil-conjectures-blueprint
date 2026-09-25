@@ -2,25 +2,35 @@
 id = "sk-prop-jacobian"
 kind = "section"
 title = "The Jacobian is an abelian variety"
-order = 853
-uses = ["sk-def-picard-f", "sk-def-picard-jacobian", "sk-lem-picard-f-open", "sk-lem-picard-zero-dictionary", "sk-prop-picard-degree-decomposition", "sk-prop-picard-jacobian-tangent", "sk-prop-picard-pic-split", "sk-thm-picard-f-representable", "sk-thm-picard-hilb-curves", "sk-thm-picard-rr", "sk-thm-picard-twist"]
+order = 857
+uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-picard-f", "sk-lem-picard-f-open", "sk-lem-picard-zero-dictionary", "sk-prop-picard-degree-decomposition", "sk-prop-picard-jacobian-tangent", "sk-prop-picard-pic-split", "sk-thm-picard-f-representable", "sk-thm-picard-hilb-curves", "sk-thm-picard-rr", "sk-thm-picard-twist"]
 +++
 *Proposition (sketch).*
 
-$J(C)$ is a proper, smooth, connected, commutative group scheme of
-dimension $g$ over $k$, that is, an abelian variety, with
-$T_eJ(C)\cong H^1(C,\cO_C)$. It represents $\Pic^0_{C/k}$, so
+$\underline{\Pic}^0_{C/k}$ is a proper, smooth, connected, commutative
+group scheme of dimension $g$ over $k$, that is, an abelian variety, with
+$T_e\underline{\Pic}^0_{C/k}\cong H^1(C,\cO_C)$. Hence
+$J(C)=\underline{\Pic}^0_{C/k}$, with its representing isomorphism, is the
+Jacobian of [sk-def-av-jacobian], and
 
 $$
 \Pic^0(C)=\{\cL\in\Pic(C):\deg\cL=0\}\;\cong\;J(C)(k),
 $$
 
-and its formation commutes with algebraically closed base extension:
+and the formation of $J(C)$ commutes with algebraically closed base extension:
 $J(C_{k'})=J(C)\times_kk'$ for $k\subseteq k'$ algebraically closed.
 
 ## Proof
 
-By [sk-prop-picard-degree-decomposition], $J(C)$ is isomorphic to
+*Why this is the Jacobian.* By [sk-prop-picard-degree-decomposition]
+the subfunctor $\Pic^0_{C/k}$ is represented by the open and closed subgroup
+scheme $\underline{\Pic}^0_{C/k}$. A representing object is unique up to
+unique isomorphism, so a Jacobian in the sense of [sk-def-av-jacobian]
+exists exactly when $\underline{\Pic}^0_{C/k}$ is an abelian variety of
+dimension $g$, and then it is $\underline{\Pic}^0_{C/k}$ with its
+representing isomorphism. It remains to prove the geometric properties.
+
+By [sk-prop-picard-degree-decomposition], $\underline{\Pic}^0_{C/k}$ is isomorphic to
 $\underline{\Pic}^g_{C/k}$ (translation by $\cO_C(gP)$), so it suffices
 to prove the geometric properties for $\underline{\Pic}^g_{C/k}$.
 
@@ -67,4 +77,4 @@ $\Pic_{C_{k'}/k'}$ and its degree-zero part is $J(C_{k'})$.
 detailed blueprint node is
 `thm:sc-jacobian-representability`.)
 
-Uses: [sk-def-picard-f], [sk-def-picard-jacobian], [sk-lem-picard-f-open], [sk-lem-picard-zero-dictionary], [sk-prop-picard-degree-decomposition], [sk-prop-picard-jacobian-tangent], [sk-prop-picard-pic-split], [sk-thm-picard-f-representable], [sk-thm-picard-hilb-curves], [sk-thm-picard-rr], [sk-thm-picard-twist]
+Uses: [sk-def-av-jacobian], [sk-def-picard-f], [sk-lem-picard-f-open], [sk-lem-picard-zero-dictionary], [sk-prop-picard-degree-decomposition], [sk-prop-picard-jacobian-tangent], [sk-prop-picard-pic-split], [sk-thm-picard-f-representable], [sk-thm-picard-hilb-curves], [sk-thm-picard-rr], [sk-thm-picard-twist]

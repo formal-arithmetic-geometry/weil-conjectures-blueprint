@@ -2,7 +2,7 @@
 id = "lem-sf-generating-class-determination"
 kind = "lemma"
 title = "Determination on a generating class"
-order = 1917
+order = 1935
 uses = ["def-sf-datum", "lem-sf-triangle-two-out-of-three"]
 +++
 In the setting of [def-sf-datum], a natural transformation between

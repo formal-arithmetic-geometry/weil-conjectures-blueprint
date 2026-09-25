@@ -2,7 +2,7 @@
 id = "lem-wf-invariant-character-extension"
 kind = "lemma"
 title = "Extending an invariant geometric character"
-order = 2803
+order = 2852
 uses = ["def-wf-algebraic-character", "def-wf-arithmetic-monodromy-extension", "def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-weil-group-constant-extension", "lem-wf-weil-group-exact-sequence"]
 +++
 Let $X_0$ be normal and geometrically connected, let

@@ -2,7 +2,7 @@
 id = "rem-pc-closed-point-cartier-sc"
 kind = "remark"
 title = "Closed points of curves are Cartier divisors"
-order = 712
+order = 713
 uses = ["def-pc-curve", "lem-sc-point-cartier"]
 +++
 For the proofs below we use the following consequence of the local

@@ -2,7 +2,7 @@
 id = "sk-rem-sf-comp-scope"
 kind = "section"
 title = "Scope of the coherence"
-order = 2264
+order = 2283
 +++
 *Remark (sketch).*
 

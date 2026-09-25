@@ -2,7 +2,7 @@
 id = "sk-prop-sf-comparison"
 kind = "section"
 title = "The pro-étale comparison"
-order = 1669
+order = 1683
 +++
 *Proposition (sketch).*
 

@@ -2,7 +2,7 @@
 id = "prop-cohomological-finiteness"
 kind = "theorem"
 title = "Compact-support finiteness and Frobenius"
-order = 2567
+order = 2603
 tags = ["latex:proposition"]
 uses = ["cor-galois-lisse-representations", "cor-weil-pbc-geometric-fiber-finite", "def-weil-derived-complete-integral-detailed", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "fin4-lem-fibrewise-cohomological-dimension", "prop-finite-compact-support-constructibility", "sbc-thm-finiteness-finite-type", "thm-galois-fundamental"]
 +++
@@ -49,9 +49,12 @@ $$
 H^i(X,\Ql)=0\qquad\text{for }i\notin[0,2d].
 $$
 
-Moreover, $H^0(X,\Ql)\cong\Ql$, and the
+Moreover, if $Y_0$ is geometrically connected (neither properness nor
+smoothness is needed), then $H^0(Y,E)\cong E$, and the
 geometric Frobenius acts as the
-identity on this group.
+identity on this group; in particular $H^0(X,\Ql)\cong\Ql$ with
+$F=\mathrm{id}$ for every smooth, separated finite-type, geometrically
+connected $X_0$.
 
 ## Proof
 
@@ -129,10 +132,13 @@ $H^i_c(Y,E)=0$ for $i>2e$, with $e=\dim Y$, and
 $H^i(Y,E)=0$ for $i>2e$; for $i<0$ both vanish by definition, and
 in the proper case Step 6 transfers the statement to $H^i$. The
 specialisation $Y=X$, $e=d$, $E=\Ql$ is the vanishing
-$H^i(X,\Ql)=0$ for $i\notin[0,2d]$. Finally, $X$ is connected
-because $X_0$ is geometrically connected, and the constant sheaf is
+$H^i(X,\Ql)=0$ for $i\notin[0,2d]$. Finally, if $Y_0$ is
+geometrically connected then $Y$ is connected, and the constant sheaf is
 the lisse sheaf of the trivial representation of the fundamental group
 ([thm-galois-fundamental],
 [cor-galois-lisse-representations]); its space of invariants is all
-of $\Ql$, so $H^0(X,\Ql)\cong\Ql$, and the geometric Frobenius acts
-as the identity on this constant def:weil-weil-sheaf-complex.
+of $E$, so $H^0(Y,E)\cong E$, and the geometric Frobenius acts
+as the identity on this group, since the Weil structure of the constant
+Weil sheaf is the identity on the constants ([def-weil-weil-sheaf-complex]).
+This argument uses only the connectedness of $Y$, not properness or
+smoothness; the case $Y_0=X_0$, $E=\Ql$ gives $H^0(X,\Ql)\cong\Ql$.

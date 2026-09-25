@@ -2,7 +2,7 @@
 id = "sbc-lem-smooth-geometrically-reduced"
 kind = "lemma"
 title = "Smooth morphisms have geometrically reduced fibres"
-order = 1384
+order = 1392
 uses = ["def-sbc-normal-dominant-galois", "def-sbc-smooth-morphisms"]
 +++
 Let $f:X\to Y$ be a smooth

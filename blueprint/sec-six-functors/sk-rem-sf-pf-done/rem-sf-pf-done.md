@@ -2,7 +2,7 @@
 id = "rem-sf-pf-done"
 kind = "remark"
 title = "The interface is discharged"
-order = 2205
+order = 2224
 +++
 By [thm-sf-pf-finite], [prop-sf-pf-reduction],
 [thm-sf-pf-adic], [thm-sf-pf-field],

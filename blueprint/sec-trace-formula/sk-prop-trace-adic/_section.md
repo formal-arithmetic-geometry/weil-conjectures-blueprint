@@ -2,7 +2,7 @@
 id = "sk-prop-trace-adic"
 kind = "section"
 title = "Adic realization"
-order = 2522
+order = 2557
 uses = ["sk-d-setup", "sk-d-six", "sk-d-weil", "sk-prop-sf-trace-perfectness", "sk-thm-sf-ctf-stability"]
 +++
 *Proposition (sketch).*

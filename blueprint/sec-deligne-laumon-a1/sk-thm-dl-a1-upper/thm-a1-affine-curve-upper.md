@@ -2,22 +2,26 @@
 id = "thm-a1-affine-curve-upper"
 kind = "theorem"
 title = "Affine compact-support upper bound"
-order = 3012
-uses = ["cor-fd-origin-hc1-bound", "def-fd-nonexceptional", "def-weil-open-closed-recollement", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-constant-weil-twist", "lem-a1-affine-hc0", "lem-a1-curve-hc2-bound", "lem-a1-exceptional-constituents", "lem-a1-extension-bounds", "lem-a1-finite-boundary-cohomology", "lem-a1-finite-map-curve", "lem-a1-geometric-constituent-reduction", "lem-a1-reduction-composition", "lem-a1-reduction-lisse-pure", "lem-a1-subquotient-extension-bounds", "lem-a1-unramified-at-infinity", "lem-a1-weight-bound-constant-extension"]
+order = 3075
+uses = ["def-weil-open-closed-recollement", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "lem-a1-affine-hc0", "lem-a1-affine-hc2-pure", "lem-a1-curve-hc2-bound", "lem-a1-extension-bounds", "lem-a1-finite-boundary-cohomology", "lem-a1-finite-boundary-weights", "lem-a1-finite-map-curve", "lem-a1-reduction-composition", "lem-a1-reduction-lisse-pure", "lem-a1-subquotient-extension-bounds", "lem-a1-unramified-at-infinity", "lem-a1-weight-bound-constant-extension", "lem-wf-boundary-semicontinuity", "lem-zl-affine-curve-range", "prop-a1-curve-boundary-sequence", "prop-sf-open-closed-triangle-all-stages", "thm-a1-line-middle-extension-upper"]
 +++
 Let $C_0$ be a smooth geometrically connected affine curve and let
 $\mathcal F$ be a lisse Weil sheaf that is punctually $\iota$-pure of
 weight $w$. Then every
 compactly supported cohomology group
-$H_c^i(C,\mathcal F)$ has weights at most $w+i$.
+$H_c^i(C,\mathcal F)$ has weights at most $w+i$. More precisely,
+$H_c^0(C,\mathcal F)=0$, $H_c^2(C,\mathcal F)$ is $\iota$-pure of
+weight $w+2$, and $H_c^i(C,\mathcal F)=0$ for $i\notin\{0,1,2\}$.
 
 ## Proof
 
 The bounds in degrees zero and two are
-[lem-a1-affine-hc0], [lem-a1-curve-hc2-bound].
-There is no cohomology outside degrees zero through two:
-compactify the curve and use its dimension-one cohomological range
-for the extension by zero.
+[lem-a1-affine-hc0], [lem-a1-curve-hc2-bound]; the first is the
+vanishing $H_c^0(C,\mathcal F)=0$, and the purity of weight $w+2$ in
+degree two is [lem-a1-affine-hc2-pure].
+There is no cohomology outside degrees zero through two, by the
+cohomological range [lem-zl-affine-curve-range] of an affine curve
+applied to the (constructible) lisse sheaf $\mathcal F$.
 
 For degree one choose the finite map of
 [lem-a1-finite-map-curve]. By
@@ -29,7 +33,8 @@ $W_0=\mathbf A^1\setminus(B\cup g(C'_0\setminus C_0))$
 the restriction of the transported complex is lisse and pure of weight
 $w$, by [lem-a1-reduction-lisse-pure].
 For the inclusion $a:W_0\hookrightarrow\mathbf A^1$,
-[def-weil-open-closed-recollement] and the finite-boundary
+the open–closed triangle of [def-weil-open-closed-recollement] (at $\Qlb$ for Weil complexes,
+[prop-sf-open-closed-triangle-all-stages]) and the finite-boundary
 vanishing [lem-a1-finite-boundary-cohomology] give
 
 $$
@@ -39,37 +44,39 @@ $$
 
 It suffices to bound the source.
 
-After a finite constant extension,
-[lem-a1-geometric-constituent-reduction] provides a filtration
-with geometrically irreducible pure graded pieces of weight $w$.
-The long exact sequences and
-[lem-a1-extension-bounds], [lem-a1-subquotient-extension-bounds] reduce
-the bound to each
-such piece $\mathcal N$.
-Apply [lem-a1-unramified-at-infinity] to it.
-That lemma gives a new affine-line open with a geometrically
-irreducible pure sheaf $\mathcal M$, unramified at infinity, and a
-surjection from $H_c^1$ of this sheaf onto the group for
-$\mathcal N$.
+Apply [lem-a1-unramified-at-infinity] to the lisse sheaf
+$a^*\mathcal K$ on $W_0$. After a finite constant extension it gives a
+dense open $v:V_0\hookrightarrow\mathbf A^1$ and a lisse sheaf
+$\mathcal E$ on $V_0$, punctually $\iota$-pure of weight $w$ and
+unramified at infinity, with a Frobenius-equivariant surjection
+$H_c^1(V,\mathcal E)\twoheadrightarrow H_c^1(W,a^*\mathcal K)$. It
+suffices to bound $H_c^1(V,\mathcal E)$ by $w+1$.
 
-If the geometric restriction of $\mathcal M$ is constant, it has
-rank one and is a constant Weil twist as in
-[def-wf-constant-weil-twist]; its bound is
-[lem-a1-exceptional-constituents].
-If it is geometrically an Artin–Schreier sheaf
-$\mathcal L_{\psi(ax)}$, extend the constant field to define $a$
-and that geometric isomorphism. The quotient rank-one character
-is geometrically trivial, hence a constant Weil twist; the same
-exceptional-constituent lemma applies.
-In every other case the input is Fourier-nonexceptional by
-[def-fd-nonexceptional], and all hypotheses of
-[cor-fd-origin-hc1-bound] hold.
-That corollary directly bounds $H_c^1$ of the extension by zero
-by $w+1$.
+Pass to the middle extension $v_*\mathcal E$, as in the sketch. Let
+$i:Z_0\hookrightarrow\mathbf A^1$ be the finite complement of $V_0$.
+The boundary sequence [prop-a1-curve-boundary-sequence] for $v$ gives
+the Frobenius-equivariant exact sequence
 
-The successive surjections and filtration long exact sequences
-preserve this bound by
-[lem-a1-extension-bounds], [lem-a1-subquotient-extension-bounds].
+$$
+H_c^0(Z,i^*v_*\mathcal E)\longrightarrow H_c^1(V,\mathcal E)
+\longrightarrow H_c^1(\mathbf A^1,v_*\mathcal E)\longrightarrow0 .
+$$
+
+The stalks of $i^*v_*\mathcal E$ have weights at most $w$ by the
+boundary semicontinuity [lem-wf-boundary-semicontinuity] (with
+$\beta=w$), so $H_c^0(Z,i^*v_*\mathcal E)$, and hence its image in
+$H_c^1(V,\mathcal E)$, has weights at most $w$ by
+[lem-a1-finite-boundary-weights] and
+[lem-a1-subquotient-extension-bounds]. The right-hand group has
+weights at most $w+1$ by the affine-line estimate for the middle
+extension [thm-a1-line-middle-extension-upper]; this is where the
+composition filtration, the exactness of the middle extension at a
+fixed pure weight, and the Fourier bound of each factor enter. By
+[lem-a1-extension-bounds], $H_c^1(V,\mathcal E)$ has weights at most
+$w+1$.
+
+The successive surjections preserve this bound by
+[lem-a1-subquotient-extension-bounds].
 Finally finite constant extensions preserve and reflect weight
 bounds, as verified in [lem-a1-weight-bound-constant-extension].
 This proves the degree-one assertion over the original field and

@@ -2,14 +2,15 @@
 id = "prop-sf-pf-coherence"
 kind = "theorem"
 title = "Coherence of the projection formula"
-order = 2195
+order = 2214
 tags = ["latex:proposition"]
-uses = ["def-sf-datum", "def-sf-pf", "fix-prop-adjunctions", "prop-sf-pf-reduction", "thm-sf-pf-field", "thm-sf-pf-proetale"]
+uses = ["def-sf-datum", "def-sf-pf", "fix-prop-adjunctions", "prop-sf-pf-reduction", "thm-sf-pf-field", "thm-sf-pf-proetale", "thm-sf-comp-composition"]
 +++
 In the setting of [def-sf-datum], the projection transformations
 satisfy: naturality in $K$, $L$, $f$ and the coefficient ring; the identity
 for $f=\operatorname{id}$; the associativity pentagon for composable
-$f,g$, compatible with the composition law (A4); independence of the chosen
+$f,g$, compatible with the composition law (A4), i.e. the isomorphism
+$\alpha_{g,f}:Rg_!Rf_!\cong R(gf)_!$ of [thm-sf-comp-composition]; independence of the chosen
 compactification; the identification with the direct-image projection
 formula through $Rf_!\cong Rf_*$ for proper $f$; and compatibility with
 finite reduction, scalar extension and the pro-étale realization.
@@ -23,7 +24,8 @@ natural units and counits of the axioms; for $f=\operatorname{id}$ the two
 adjunctions are the identity adjunction and the mate of the identity is the
 identity. The pentagon: both sides are mates of the same composite of the
 two component mate constructions, because the units and counits of composite
-adjunctions are the pasted ones by [fix-prop-adjunctions], item (3),
+adjunctions are the pasted ones by [fix-prop-adjunctions], item (3)
+(through the composition isomorphism of [thm-sf-comp-composition]),
 and pasting of mates is associative; the associativity of the derived tensor
 product identifies the two tensor reassociations. Independence of the
 compactification is the compatibility of the refinement comparisons with

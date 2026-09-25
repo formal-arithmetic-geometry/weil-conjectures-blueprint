@@ -2,8 +2,8 @@
 id = "sk-thm-dl-general-sheaf"
 kind = "section"
 title = "Deligne–Laumon direct-image bound"
-order = 3050
-uses = ["sk-d-dl-general-weights", "sk-l-dl-general-composition", "sk-l-dl-general-excision", "sk-l-dl-general-normalization", "sk-l-dl-general-quasifinite", "sk-p-dl-general-relative-line"]
+order = 3116
+uses = ["sk-d-dl-general-weights", "sk-i-topology", "sk-l-dl-general-composition", "sk-l-dl-general-excision", "sk-l-dl-general-normalization", "sk-l-dl-general-quasifinite", "sk-p-dl-general-relative-line"]
 +++
 *Theorem (sketch).*
 

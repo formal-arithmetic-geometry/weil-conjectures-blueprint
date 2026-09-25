@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-zero-dimensional-field-extension"
 kind = "lemma"
 title = "Field extension in dimension zero"
-order = 1154
+order = 1162
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-eight-curve-assertions", "lem-weil-pbc-zero-dimensional-cohomology", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $k\subset k'$ be algebraically closed fields, let $C$ be a separated

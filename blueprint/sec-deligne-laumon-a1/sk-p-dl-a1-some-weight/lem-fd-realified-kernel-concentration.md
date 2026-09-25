@@ -2,7 +2,7 @@
 id = "lem-fd-realified-kernel-concentration"
 kind = "lemma"
 title = "Single-degree concentration of the realified kernel"
-order = 2975
+order = 3036
 uses = ["def-fd-nonexceptional", "def-fd-transform", "def-weil-pbc-constructible-complexes", "def-weil-punctual-weights", "def-wf-fundamental-representation", "def-wf-middle-extension", "lem-fd-nonexceptional-dual", "lem-fd-realified-kernel-real", "lem-fd-transform-concentration", "prop-functor-package"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ and $\mathcal M$ be as in

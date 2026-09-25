@@ -2,7 +2,7 @@
 id = "lem-sf-etale-origin-refinement"
 kind = "lemma"
 title = "Continuity for sheaves of étale origin: every class dies on a single pointed refinement"
-order = 2140
+order = 2159
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-pbc-site-comparison-morphism", "lem-sf-associated-sheaf-local-lifting", "lem-sf-disjoint-union-cohomology", "lem-weil-pbc-comparison-pullback", "thm-sf-continuity-arbitrary-sheaves-vanishing"]
 +++
 Let $V$ be a scheme with comparison morphism

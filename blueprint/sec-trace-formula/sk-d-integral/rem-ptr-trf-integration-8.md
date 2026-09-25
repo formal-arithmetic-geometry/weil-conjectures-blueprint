@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-integration-8"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-integration]"
-order = 2411
+order = 2433
 uses = ["def-trf-integration", "lem-trf-integration-linear"]
 +++
 In the notation of [def-trf-integration], the following holds. The composite is a morphism

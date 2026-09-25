@@ -2,7 +2,7 @@
 id = "lem-sc-lang-steinberg"
 kind = "lemma"
 title = "Lang–Steinberg for vector spaces"
-order = 568
+order = 572
 +++
 Let $k$ be an algebraically closed field of characteristic
 $p>0$, $V$ a finite-dimensional $k$-vector space and

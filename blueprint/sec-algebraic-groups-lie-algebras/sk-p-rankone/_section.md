@@ -2,7 +2,7 @@
 id = "sk-p-rankone"
 kind = "section"
 title = "Rank-one factorization"
-order = 2684
+order = 2731
 uses = ["sk-d-ab-rankone"]
 +++
 *Proposition (sketch).*

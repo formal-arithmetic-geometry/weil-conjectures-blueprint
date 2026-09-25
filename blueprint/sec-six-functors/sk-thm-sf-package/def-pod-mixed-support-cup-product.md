@@ -2,7 +2,7 @@
 id = "def-pod-mixed-support-cup-product"
 kind = "definition"
 title = "Mixed-support cup product"
-order = 2378
+order = 2395
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), $K,L\in D^b_{ctf}(X,A)$. The *mixed-support cup product* is the canonical map
 

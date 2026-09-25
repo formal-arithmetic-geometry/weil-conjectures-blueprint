@@ -2,7 +2,7 @@
 id = "def-wf-lie-derivation"
 kind = "definition"
 title = "Derivation of a Lie algebra"
-order = 2617
+order = 2654
 +++
 A *derivation* of a Lie algebra
 $\mathfrak k$ is a linear map $D:\mathfrak k\to\mathfrak k$ satisfying

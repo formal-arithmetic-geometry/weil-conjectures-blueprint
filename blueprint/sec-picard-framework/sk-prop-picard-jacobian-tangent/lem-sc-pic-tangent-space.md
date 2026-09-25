@@ -2,7 +2,7 @@
 id = "lem-sc-pic-tangent-space"
 kind = "lemma"
 title = "The tangent space of the Picard scheme"
-order = 852
+order = 856
 uses = ["def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-picard-functor", "lem-sc-cech-spectral", "thm-pc-picard-representable"]
 +++
 Let $C$ be a smooth projective

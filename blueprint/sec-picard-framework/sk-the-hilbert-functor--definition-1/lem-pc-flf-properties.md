@@ -2,7 +2,7 @@
 id = "lem-pc-flf-properties"
 kind = "lemma"
 title = "The module $f_*\\mathcal{O}_X$ of a finite locally free morphism"
-order = 772
+order = 776
 uses = ["def-pc-base-change", "def-pc-finite-locally-free", "def-pc-morphism-conventions", "lem-pc-flat-base-change-cohom"]
 +++
 Let $f:X\to S$ be a morphism

@@ -2,7 +2,7 @@
 id = "prop-rs-rosengarten-21"
 kind = "theorem"
 title = "Curve form of Rosengarten Prop. 2.1: semisimplicity of geometric monodromy"
-order = 2811
+order = 2860
 tags = ["latex:proposition"]
 uses = ["def-sbc-normal-dominant-galois", "def-weil-finite-field-fiber", "def-weil-pbc-scheme-conventions", "def-wf-algebraic-components", "def-wf-algebraic-radicals", "def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-geometric-semisimplicity", "def-wf-reductive-group", "def-wf-unipotent-radical", "def-wf-weil-group", "lem-rs-connectivity-cover", "lem-rs-connectivity-pullback", "lem-wf-faithful-semisimple-reductive", "lem-wf-geometric-closure-semisimple", "lem-wf-no-central-torus", "lem-wf-unipotent-fixed-vector", "lem-wf-zero-dimensional-matrix-group-finite"]
 +++

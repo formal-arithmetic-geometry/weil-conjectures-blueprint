@@ -2,7 +2,7 @@
 id = "lem-a1-fourier-ready-constant-case"
 kind = "lemma"
 title = "The geometrically constant case of the Fourier-ready reduction"
-order = 2998
+order = 3060
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-wf-boundary-semicontinuity"]
 +++
 Let $k_0=\mathbf F_q$, let $X_0=\mathbf P^1_{k_0}$, let

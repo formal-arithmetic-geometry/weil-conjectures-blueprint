@@ -2,7 +2,7 @@
 id = "thm-pur-vector-triangular"
 kind = "theorem"
 title = "Thom trace and diagonal"
-order = 2060
+order = 2078
 uses = ["def-coefficient-twists-detailed", "def-exchange-projection", "def-pur-conventions", "def-pur-td-datum", "def-pur-vector-bundle-thom-class", "def-pur-vector-bundle-zero-section", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "lem-pur-divisor-class", "lem-pur-kunneth-supported", "lem-pur-td-kernel", "lem-pur-vector-diagonal-class", "thm-pur-localized-top-chern", "thm-pur-rank-one-local-calculation", "thm-pur-td-criterion", "thm-pur-vector-bundle-thom"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

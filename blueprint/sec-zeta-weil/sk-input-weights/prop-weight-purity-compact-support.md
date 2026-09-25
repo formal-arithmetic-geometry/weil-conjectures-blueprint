@@ -2,7 +2,7 @@
 id = "prop-weight-purity-compact-support"
 kind = "theorem"
 title = "Mixedness of compactly supported cohomology"
-order = 3088
+order = 3155
 tags = ["latex:proposition"]
 uses = ["def-weil-frobenius-module-weights", "prop-weight-purity", "thm-weil-deligne-purity"]
 +++

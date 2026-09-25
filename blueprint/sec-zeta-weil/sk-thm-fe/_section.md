@@ -2,7 +2,7 @@
 id = "sk-thm-fe"
 kind = "section"
 title = "Functional equation"
-order = 3141
+order = 3209
 uses = ["sk-def-roots", "sk-def-zeta", "sk-prop-reciprocity", "sk-thm-tracetodeterminant"]
 +++
 *Theorem (sketch).*

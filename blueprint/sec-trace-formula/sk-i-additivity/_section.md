@@ -2,7 +2,7 @@
 id = "sk-i-additivity"
 kind = "section"
 title = "Localization trace additivity"
-order = 2489
+order = 2518
 uses = ["sk-d-curve-pieces", "sk-d-integral", "sk-d-local-term", "sk-d-trace-class"]
 +++
 *Proposition (sketch).*

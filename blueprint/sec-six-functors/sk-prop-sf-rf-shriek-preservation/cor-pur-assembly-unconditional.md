@@ -2,7 +2,7 @@
 id = "cor-pur-assembly-unconditional"
 kind = "theorem"
 title = "The assembly of the purity chapter is unconditional"
-order = 2175
+order = 2194
 tags = ["latex:corollary"]
 uses = ["cor-pur-general-admissibility-datum", "cor-sf-ambient-adjoint-discharge", "def-exc-open-complement-bound", "def-pur-conventions", "def-sbc-affine-space", "def-sf-fullcd-used-class", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "lem-exc-open-complement-known", "thm-pur-general-admissibility", "thm-pur-open-complement-unconditional"]
 +++

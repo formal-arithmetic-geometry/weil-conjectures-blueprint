@@ -2,7 +2,7 @@
 id = "def-wf-unipotent-radical"
 kind = "definition"
 title = "Unipotent radical"
-order = 2673
+order = 2720
 uses = ["def-wf-unipotent-group"]
 +++
 For a connected linear algebraic group $H$, write

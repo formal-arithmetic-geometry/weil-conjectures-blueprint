@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-universal-homeomorphism-coverings"
 kind = "lemma"
 title = "Covering compatibility for universal homeomorphisms"
-order = 1113
+order = 1121
 lean = ["AlgebraicGeometry.Scheme.Hom.functorPushforward_mem_smallEtaleTopology_iff"]
 +++
 Let $u:X_0\to X$ be a universal homeomorphism. A family $\{U_i\to U\}$ of

@@ -2,7 +2,7 @@
 id = "rem-ptr-sf-datum-1b"
 kind = "remark"
 title = "The biduality clause of the datum"
-order = 2254
+order = 2273
 uses = ["cor-sf-biduality-class-discharge", "def-sf-datum", "thm-sf-biduality-class"]
 +++
 The biduality clause of [def-sf-datum] is supplied at all the

@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-henselian-idempotent-lifting"
 kind = "remark"
 title = "Idempotent lifting for the structure sheaf over a henselian pair"
-order = 1139
+order = 1147
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-stein-inputs"]
 tags = ["latex:openproblem"]
 +++

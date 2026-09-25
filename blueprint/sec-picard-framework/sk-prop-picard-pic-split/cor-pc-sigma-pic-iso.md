@@ -2,7 +2,7 @@
 id = "cor-pc-sigma-pic-iso"
 kind = "theorem"
 title = "$\\operatorname{Pic}_{X/k,\\sigma}$ is isomorphic to $\\operatorname{Pic}_{X/k}$"
-order = 822
+order = 826
 tags = ["latex:corollary"]
 uses = ["def-pc-pic-sigma-functor", "def-pc-picard-functor", "lem-pc-k-sheaf", "lem-pc-rational-hyp", "thm-pc-pic-split"]
 +++

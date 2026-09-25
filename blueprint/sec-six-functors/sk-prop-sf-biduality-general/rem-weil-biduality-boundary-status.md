@@ -2,7 +2,7 @@
 id = "rem-weil-biduality-boundary-status"
 kind = "remark"
 title = "Finite-stage completion and coefficient scope"
-order = 2250
+order = 2269
 uses = ["cor-coef-finite-verdier", "cor-weil-boundary-duality-discharge", "cor-weil-finite-constructible-hom", "lem-weil-coefficient-frobenius", "lem-weil-finite-duality-site-comparison", "lem-weil-geometric-generic-exchange", "lem-weil-verdier-preservation-strata", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-weil-etale-geometric-biduality"]
 +++
 The finite-stage geometric gap is closed. Constructible preservation

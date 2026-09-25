@@ -2,7 +2,7 @@
 id = "lem-wf-matrix-group-components"
 kind = "lemma"
 title = "Components of a closed matrix group"
-order = 2635
+order = 2680
 uses = ["def-wf-algebraic-components", "lem-wf-same-lie-closed-subgroup"]
 +++
 Let $G\subseteq\operatorname{GL}(V)$ be a closed reduced matrix

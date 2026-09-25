@@ -2,7 +2,7 @@
 id = "def-pc-projective-morphism"
 kind = "definition"
 title = "Projective morphisms"
-order = 453
+order = 455
 uses = ["def-pc-scheme"]
 +++
 Let $f:X\to S$ be a morphism of schemes. $f$ is *H-projective*, or

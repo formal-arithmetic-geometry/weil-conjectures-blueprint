@@ -2,15 +2,15 @@
 id = "thm-sc-jacobian-representability"
 kind = "theorem"
 title = "The Jacobian over a separably closed field"
-order = 855
-uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-abelian-variety", "def-sc-pic0", "def-sc-picard-functor", "lem-sc-abelian-variety-projective", "lem-sc-pic-tangent-space", "thm-pc-picard-representable", "thm-sc-theorem-of-the-base"]
+order = 859
+uses = ["def-pc-genus", "def-sc-jacobian", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-abelian-variety", "def-sc-pic0", "def-sc-picard-functor", "lem-sc-abelian-variety-projective", "lem-sc-pic-tangent-space", "prop-pd-picard-degree-decomposition", "thm-pc-picard-representable", "thm-sc-theorem-of-the-base"]
 +++
 Let $k$ be a separably closed field and let $C$ be a
 smooth projective curve over $k$
 which is geometrically integral,
 of genus $g=g(C)=\dim_kH^1(C,\mathcal O_C)$ ([def-pc-genus]). There is
 an abelian variety $J_C$ over
-$k$, the *Jacobian* of $C$, of dimension $g$, together
+$k$, the *Jacobian* of $C$ in the sense of [def-sc-jacobian], of dimension $g$, together
 with a natural isomorphism of group-valued functors
 
 $$
@@ -45,7 +45,8 @@ $\operatorname{Pic}^0_{C/k}(k)=\operatorname{Pic}^0(C)$ of
 that $\operatorname{Pic}_{C/k}$ is represented by a group scheme
 locally of finite type over $k$ ([thm-pc-picard-representable] of the Picard chapter; *reference: Stacks Project, Picard Schemes of Curves, Proposition 44.6.6, [Tag 0B9Z](https://stacks.math.columbia.edu/tag/0B9Z)*). The
 subfunctor $\operatorname{Pic}^0_{C/k}$ is represented by an open
-and closed subgroup scheme.
+and closed subgroup scheme ([prop-pd-picard-degree-decomposition],
+parts (2) and (3)).
 
 *(3) Smoothness and the tangent space.* By
 [lem-sc-pic-tangent-space], the tangent space of

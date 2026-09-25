@@ -2,7 +2,7 @@
 id = "lem-fd-transform-hc0-vanishing"
 kind = "lemma"
 title = "No compactly supported sections in the transform; the Kiehl–Weissauer property (b)"
-order = 2946
+order = 2997
 uses = ["def-fd-transform", "def-weil-ordinary-compact-cohomology", "def-wf-tate-twist", "lem-fd-inversion", "lem-fd-stalk-at-origin"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion and

@@ -2,7 +2,7 @@
 id = "lem-sc-ga-gm-homomorphism"
 kind = "lemma"
 title = "There is no nontrivial homomorphism $\\mathbf G_a\\to\\mathbf G_m$"
-order = 2028
+order = 2046
 uses = ["def-sc-gm-ga", "lem-sc-laurent-units"]
 +++
 Let $k$ be a field and let $\psi:\mathbf G_a\to\mathbf G_m$ be a

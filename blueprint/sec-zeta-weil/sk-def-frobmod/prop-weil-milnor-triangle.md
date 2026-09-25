@@ -2,7 +2,7 @@
 id = "prop-weil-milnor-triangle"
 kind = "theorem"
 title = "Milnor triangle"
-order = 3061
+order = 3127
 tags = ["latex:proposition"]
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-pbc-proetale-site", "lem-weil-pbc-mittag-leffler", "prop-weil-pbc-roos-triangle"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-pc-hilb-functorial"
 kind = "lemma"
 title = "The Hilbert functor is a functor"
-order = 773
+order = 777
 uses = ["def-pc-base-change", "def-pc-finite-locally-free", "def-pc-hilb-functor", "lem-pc-closed-imm-base-change", "lem-pc-flat-base-change-cohom", "lem-pc-flf-properties"]
 +++
 Let $X\to S$ be a morphism of schemes and $d\ge0$. The assignment

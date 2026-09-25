@@ -2,7 +2,7 @@
 id = "def-pc-field-tower"
 kind = "definition"
 title = "Field extensions"
-order = 727
+order = 729
 uses = ["def-pc-scheme"]
 +++
 Let $K/k$ be a field extension. It is *finite* if $[K:k]<\infty$,

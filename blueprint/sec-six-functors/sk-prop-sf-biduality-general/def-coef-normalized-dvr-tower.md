@@ -2,7 +2,7 @@
 id = "def-coef-normalized-dvr-tower"
 kind = "definition"
 title = "A normalized DVR tower"
-order = 2226
+order = 2245
 uses = ["def-weil-completed-integral-coefficients", "def-weil-pbc-derived-inverse-limit"]
 +++
 A normalized DVR tower on $X$ consists of complexes

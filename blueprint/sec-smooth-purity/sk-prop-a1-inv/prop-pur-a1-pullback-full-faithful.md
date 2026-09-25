@@ -2,7 +2,7 @@
 id = "prop-pur-a1-pullback-full-faithful"
 kind = "theorem"
 title = "Full faithfulness of the pullback along the affine line"
-order = 2020
+order = 2038
 tags = ["latex:proposition"]
 uses = ["def-pur-conventions", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "fix-prop-adjunctions", "lem-pur-a1-direct-image", "lemma-weil-pbc-perfect-projection-formula", "prop-weil-pbc-inverse-image-derived-adjunction"]
 +++

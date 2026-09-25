@@ -2,7 +2,7 @@
 id = "sbc-thm-smooth-morphisms-are-universally-locally-acyclic"
 kind = "theorem"
 title = "Smooth morphisms are universally locally acyclic"
-order = 1455
+order = 1463
 uses = ["def-sbc-smooth-morphisms", "sbc-def-local-acyclicity", "sbc-lem-local-acyclicity-constant", "sbc-lem-stalk-form", "sbc-thm-smooth-base-change"]
 +++
 Let $f:X\to S$ be a

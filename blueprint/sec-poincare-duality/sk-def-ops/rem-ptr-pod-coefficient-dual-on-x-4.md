@@ -2,7 +2,7 @@
 id = "rem-ptr-pod-coefficient-dual-on-x-4"
 kind = "remark"
 title = "Pointer to the properties of [def-pod-coefficient-dual-on-x]"
-order = 2541
+order = 2579
 uses = ["def-pod-coefficient-dual-on-x", "lem-pod-coefficient-dual-perfect"]
 +++
 In the notation of [def-pod-coefficient-dual-on-x], the following holds. The closure of perfectness under

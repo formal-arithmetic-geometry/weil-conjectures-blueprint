@@ -2,7 +2,7 @@
 id = "cor-sf-continuity-fullcd"
 kind = "theorem"
 title = "Continuity for arbitrary sheaves gives the full cohomological-dimension bound"
-order = 2139
+order = 2158
 tags = ["latex:corollary"]
 uses = ["def-weil-full-cohomological-dimension", "def-weil-pbc-etale-site", "def-weil-pbc-ind-etale-algebra", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-pbc-strict-henselization-limit", "def-weil-scheme-morphism-properties", "lem-sf-etale-direct-image-vanishing", "lem-sf-fullcd-detection-equivalence", "lem-sf-stalk-limit-acyclic", "lem-weil-pbc-ind-etale-basis", "lem-weil-pbc-proetale-restriction-injectives", "lemma-weil-pbc-affine-neighbourhood-cofinal", "rem-sf-fullcd-general-form", "thm-sf-continuity-arbitrary-sheaves-vanishing", "thm-sp-grothendieck", "thm-weil-pbc-weak-etale-refinement"]
 +++

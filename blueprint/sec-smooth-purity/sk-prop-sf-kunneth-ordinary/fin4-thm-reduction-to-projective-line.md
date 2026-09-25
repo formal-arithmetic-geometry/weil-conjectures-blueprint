@@ -2,7 +2,7 @@
 id = "fin4-thm-reduction-to-projective-line"
 kind = "theorem"
 title = "Reduction to the projective line"
-order = 1816
+order = 1830
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "fin4-lem-composition-constructibility", "fin4-lem-domination-trick", "fin4-thm-finite-morphisms-constructible", "fin4-thm-reduction-to-projective", "sbc-def-coefficient-conventions", "thm-fin-proper-case"]
 +++
 Assume that $P$ (the assertion of

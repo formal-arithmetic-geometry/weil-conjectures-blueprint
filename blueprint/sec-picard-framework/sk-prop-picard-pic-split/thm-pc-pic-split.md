@@ -2,7 +2,7 @@
 id = "thm-pc-pic-split"
 kind = "theorem"
 title = "The split exact sequence for the Picard functor"
-order = 820
+order = 824
 uses = ["def-pc-pic-sigma-functor", "def-pc-picard-functor", "def-pc-subfunctor", "lem-pc-k-sheaf", "lem-pc-pic-exact"]
 +++
 (Picard Schemes of Curves, Lemma 44.4.3, Tag

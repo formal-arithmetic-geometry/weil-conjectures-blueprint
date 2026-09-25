@@ -2,7 +2,7 @@
 id = "def-pc-invertible-in-degree-zero"
 kind = "definition"
 title = "Objects placed in degree $0$"
-order = 687
+order = 688
 uses = ["def-pc-derived-category", "def-pc-finite-locally-free", "def-sc-invertible-module"]
 +++
 Let $X$ be a scheme. An object $M\in D(\mathcal{O}_X)$ is an

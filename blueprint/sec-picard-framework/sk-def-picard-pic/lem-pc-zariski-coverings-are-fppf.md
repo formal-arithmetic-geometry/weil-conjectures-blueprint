@@ -2,7 +2,7 @@
 id = "lem-pc-zariski-coverings-are-fppf"
 kind = "lemma"
 title = "Zariski coverings are fppf coverings"
-order = 802
+order = 806
 uses = ["def-pc-fppf-site", "def-pc-morphism-conventions", "def-pc-scheme"]
 +++
 Let $T$ be a scheme and $\{U_i\to T\}_{i\in I}$ a Zariski covering

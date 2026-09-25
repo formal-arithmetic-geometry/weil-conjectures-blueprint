@@ -2,7 +2,7 @@
 id = "lem-pc-perfect-locus"
 kind = "lemma"
 title = "The perfect locus with fixed degree"
-order = 689
+order = 690
 uses = ["def-pc-base-change", "def-pc-derived-category", "def-pc-derived-pullback", "def-pc-invertible-in-degree-zero", "def-pc-morphism-conventions", "def-pc-perfect-complex"]
 +++
 Let $X$ be a scheme and let $E\in D(\mathcal{O}_X)$ be

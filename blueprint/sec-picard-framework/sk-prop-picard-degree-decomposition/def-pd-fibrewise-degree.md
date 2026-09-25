@@ -2,7 +2,7 @@
 id = "def-pd-fibrewise-degree"
 kind = "definition"
 title = "Fibrewise degree of an invertible module on a curve"
-order = 846
+order = 850
 uses = ["def-pc-base-change", "def-pc-degree-line-bundle", "def-pc-euler-characteristic", "def-pc-fppf-site", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-invertible-module"]
 +++
 Let $k$ be a field and let $C$ be a

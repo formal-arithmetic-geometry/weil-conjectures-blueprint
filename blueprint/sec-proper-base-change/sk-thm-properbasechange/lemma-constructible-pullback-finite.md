@@ -2,7 +2,7 @@
 id = "lemma-constructible-pullback-finite"
 kind = "lemma"
 title = "Pullback of finite sheaves"
-order = 1287
+order = 1295
 lean = ["AlgebraicGeometry.Scheme.IsFiniteSheaf.upperStar"]
 uses = ["def-constructible-finite", "def-kun-separably-closed", "lemma-openclosed-stalk-upperstar"]
 +++

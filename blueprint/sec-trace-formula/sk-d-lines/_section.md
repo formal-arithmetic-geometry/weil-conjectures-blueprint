@@ -2,10 +2,10 @@
 id = "sk-d-lines"
 kind = "section"
 title = "The affine and projective lines"
-order = 2512
+order = 2545
 uses = ["sk-d-setup"]
 +++
-*Definition (sketch).*
+*Remark (sketch).*
 
 Over a finite field $F$ from the coefficient setup,
 put $\mathbf A^1_F=\operatorname{Spec}F[t]$.

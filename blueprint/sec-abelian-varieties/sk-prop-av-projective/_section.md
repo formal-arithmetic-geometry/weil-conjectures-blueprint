@@ -2,7 +2,7 @@
 id = "sk-prop-av-projective"
 kind = "section"
 title = "Abelian varieties are projective"
-order = 476
+order = 478
 uses = ["sk-def-av", "sk-def-av-ample-degree"]
 +++
 *Proposition (sketch).*

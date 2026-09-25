@@ -2,7 +2,7 @@
 id = "thm-exc-curve-closed-preservation-general"
 kind = "theorem"
 title = "Closed exceptional images on arbitrary curves"
-order = 1975
+order = 1991
 uses = ["def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "prop-exc-closed-tor", "thm-exc-curve-open-constructible-general", "thm-exc-curve-open-dimension-general"]
 +++
 Let $T$ be of finite type of dimension at most one over

@@ -2,7 +2,7 @@
 id = "cor-sf-finite-level-comparison-two-cases"
 kind = "theorem"
 title = "The finite-level comparison isomorphisms in the two cases"
-order = 2329
+order = 2345
 tags = ["latex:corollary"]
 uses = ["def-weil-derived-direct-image", "lem-sf-finite-level-comparison", "thm-sf-uniform-models-constant-tower", "thm-sf-uniform-models-lisse-tower"]
 +++

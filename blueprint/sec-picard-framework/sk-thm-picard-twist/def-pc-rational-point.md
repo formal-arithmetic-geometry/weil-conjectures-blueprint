@@ -2,7 +2,7 @@
 id = "def-pc-rational-point"
 kind = "definition"
 title = "Rational points"
-order = 760
+order = 763
 uses = ["def-pc-base-change", "def-pc-scheme"]
 +++
 Let $k$ be a field and $X$ a scheme over $k$. A *$k$-rational

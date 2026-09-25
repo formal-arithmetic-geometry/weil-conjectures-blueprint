@@ -2,7 +2,7 @@
 id = "sk-def-ft"
 kind = "section"
 title = "The Fourier–Deligne transform"
-order = 2888
+order = 2935
 uses = ["sk-def-kernel", "sk-lem-as-properties"]
 +++
 *Definition (sketch).*

@@ -2,7 +2,7 @@
 id = "thm-pur-composition-coherence"
 kind = "theorem"
 title = "Composition coherence"
-order = 2090
+order = 2108
 uses = ["cor-pur-vector-bundle-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-diagonal-base-change", "sbc-thm-etale-local-normal-form", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

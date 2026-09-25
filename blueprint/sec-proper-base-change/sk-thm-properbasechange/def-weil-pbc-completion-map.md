@@ -2,7 +2,7 @@
 id = "def-weil-pbc-completion-map"
 kind = "definition"
 title = "Completion map"
-order = 1243
+order = 1251
 uses = ["def-weil-pbc-adic-derived-inverse-limit"]
 +++
 Define

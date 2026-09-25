@@ -2,20 +2,25 @@
 id = "thm-sf-global-duality"
 kind = "theorem"
 title = "Global Verdier duality"
-order = 2282
-uses = ["def-sf-datum", "def-sf-pf", "lem-sf-point", "thm-sf-verdier-exchange"]
+order = 2299
+uses = ["def-sf-datum", "def-sf-pf", "def-weil-finite-coefficient-point", "lem-sf-point", "thm-sf-verdier-exchange"]
 +++
-In the setting of [def-sf-datum], let $X$ be smooth, proper,
-geometrically connected of pure dimension $d$ over $k$ with
-exceptional-adjoint admissible structure morphism $a_X$, and let
-$K\in D^b_{ctf}(X,\Lambda)$. Then there is a canonical isomorphism
+In the setting of [def-sf-datum], let $X$ be smooth, separated of finite
+type and geometrically connected of pure dimension $d$ over $k$, with
+exceptional-adjoint admissible structure morphism $a_X$. Assume either
+that $X$ is proper, or that $X=X_0\times_{k_0}k$ for a smooth, separated
+finite-type, geometrically connected $k_0$-scheme $X_0$; in the latter
+case no properness is required. Let $K\in D^b_{ctf}(X,\Lambda)$. Then
+there is a canonical isomorphism
 
 $$
-R\Gamma_c(X,K)^\vee\xrightarrow{\ \sim\ }R\Gamma\bigl(X,\mathbb D_XK\bigr),
+R\Gamma_c(X,K)^\vee\xrightarrow{\ \sim\ }R\Gamma\bigl(X,\mathbb D_XK\bigr)
 $$
 
-natural in $K$ and compatible with finite reduction, scalar extension, and
-shifts. For $K=\Lambda_X$ it specializes to
+in the point category $D^b_c(s,\Lambda)$ of
+[def-weil-finite-coefficient-point], natural in $K\in D^b_{ctf}(X,\Lambda)$
+and compatible with finite reduction, scalar extension, and shifts. For
+$K=\Lambda_X$ it specializes to
 $R\Gamma_c(X,\Lambda)^\vee\cong R\Gamma(X,\omega_X)$.
 
 ## Proof
@@ -25,8 +30,16 @@ $D_s(Ra_{X!}K)\cong Ra_{X*}D_XK$. Apply $\Fib_s$ and the point
 identifications of [lem-sf-point]: the left-hand side becomes
 $R\operatorname{Hom}_\Lambda(R\Gamma_c(X,K),\Lambda)=R\Gamma_c(X,K)^\vee$
 and the right-hand side becomes
-$\Fib_s(Ra_{X*}D_XK)=R\Gamma(X,\mathbb D_XK)$. The resulting composite is
-the displayed isomorphism; naturality and the compatibilities are those of
-the two ingredients. The constant case is
+$\Fib_s(Ra_{X*}D_XK)=R\Gamma(X,\mathbb D_XK)$. Since $\Fib_s$ is an
+equivalence onto the point category by [lem-sf-point], the resulting
+composite is an isomorphism in $D^b_c(s,\Lambda)$, and it is the displayed
+isomorphism; naturality and the compatibilities are those of
+the two ingredients. The argument uses only that $a_X$ is
+exceptional-adjoint admissible (so that [thm-sf-verdier-exchange] applies
+to $f=a_X$, $Y=s$), never that $a_X$ is proper: the compact-support image
+$Ra_{X!}$ and the ordinary image $Ra_{X*}$ enter as two different
+functors, and no comparison $Ra_{X!}\cong Ra_{X*}$ is invoked. Hence the
+same proof covers both cases of the hypothesis, the proper one and the
+nonproper one $X=X_0\times_{k_0}k$. The constant case is
 $\mathbb D_X\Lambda_X=R\mathcal H om_X(\Lambda_X,Ra_X^!\Lambda)=\omega_X$
 by [def-sf-pf].

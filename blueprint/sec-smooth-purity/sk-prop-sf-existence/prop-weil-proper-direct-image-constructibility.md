@@ -2,7 +2,7 @@
 id = "prop-weil-proper-direct-image-constructibility"
 kind = "theorem"
 title = "Constructibility of the proper derived direct image"
-order = 1841
+order = 1855
 tags = ["latex:proposition"]
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++

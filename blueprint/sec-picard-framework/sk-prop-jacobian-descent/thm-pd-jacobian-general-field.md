@@ -2,8 +2,8 @@
 id = "thm-pd-jacobian-general-field"
 kind = "theorem"
 title = "The Jacobian over an arbitrary ground field"
-order = 873
-uses = ["cor-pd-finite-level", "cor-pd-pic0-base-change", "def-pc-base-change", "def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-picard-functor", "def-pc-smooth-projective-curve", "def-pd-degree-morphism", "def-pd-descent-datum", "def-pd-separable-closure", "def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-jacobian", "lem-pc-dim-base-change", "lem-pd-canonical-descent-datum", "lem-pd-descent-cocycle", "lem-pd-group-scheme-descent", "thm-pd-effective-descent", "thm-pd-fpqc-local-properties", "thm-pd-geometric-pic0"]
+order = 877
+uses = ["cor-pd-finite-level", "cor-pd-pic0-base-change", "def-pc-base-change", "def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-picard-functor", "def-pc-smooth-projective-curve", "def-pd-degree-morphism", "def-pd-descent-datum", "def-pd-separable-closure", "def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-jacobian", "lem-pc-dim-base-change", "lem-pd-canonical-descent-datum", "lem-pd-descent-cocycle", "lem-pd-group-scheme-descent", "lem-pd-picard-base-change", "def-pd-fibrewise-degree", "def-sc-pic0", "lem-pc-rational-hyp", "thm-pc-pic-split", "thm-pd-effective-descent", "thm-pd-fpqc-local-properties", "thm-pd-geometric-pic0"]
 +++
 Let $k$ be any field and let $C$ be a
 smooth projective curve over $k$
@@ -28,7 +28,33 @@ $$
 J_K\;\cong\;\operatorname{Pic}^0_{C_K/K},
 $$
 
-naturally in $K$. No $k$-rational point of $C$ is assumed.
+naturally in $K$.
+
+Let moreover $\bar k$ be an algebraic closure of $k$ and $k_s\subseteq\bar k$ the separable
+closure of $k$ in it, put
+$C_{\bar k}=C\times_k\bar k$, and let
+$\Gamma=\operatorname{Aut}(\bar k/k)$, which restriction identifies with
+$\operatorname{Gal}(k_s/k)$. For $\sigma\in\Gamma$ write
+$\sigma^\sharp=\Spec(\sigma)$, a $k$-automorphism of $\Spec(\bar k)$. The
+induced identification
+
+$$
+J(\bar k)\;=\;\operatorname{Pic}^0(C_{\bar k})
+$$
+
+is *$\Gamma$-equivariant* for the natural actions: on the left through the
+$k$-structure of $J$, $\sigma\cdot x=x\circ\sigma^\sharp$ for
+$x\in J(\bar k)=\operatorname{Hom}_k(\Spec\bar k,J)$; on the right through
+the $k$-structure of $C$, $\sigma\cdot[\mathcal L]=
+[(\mathrm{id}_C\times\sigma^\sharp)^*\mathcal L]$. In particular, for every
+prime $\ell$ and every $n\ge1$, restricting to $\ell^n$-torsion gives a
+$\Gamma$-equivariant isomorphism
+
+$$
+J[\ell^n](\bar k)\;\cong\;\operatorname{Pic}^0(C_{\bar k})[\ell^n].
+$$
+
+No $k$-rational point of $C$ is assumed.
 
 ## Proof
 
@@ -109,3 +135,52 @@ $\operatorname{Pic}^0_{C/k}$ by [cor-pd-pic0-base-change], and
 $h_{J_K}=h_J\times_kK$, the two representing objects $J_K$ and $J'$ of the
 same functor are canonically isomorphic, which is the asserted natural
 isomorphism $J_K\cong\operatorname{Pic}^0_{C_K/K}$.
+
+*Step 9 (the geometric points).* Take $T=\Spec(\bar k)$, a $k$-scheme.
+The curve $C_{\bar k}$ has a $\bar k$-rational point because $\bar k$ is
+algebraically closed, so by [lem-pc-rational-hyp] and [thm-pc-pic-split]
+(with $\operatorname{Pic}(\Spec\bar k)=0$) the canonical map from the
+Picard presheaf,
+$\operatorname{Pic}(C_{\bar k})\to\operatorname{Pic}_{C_{\bar k}/\bar k}(\bar k)$,
+is an isomorphism; by [lem-pd-picard-base-change] the target is
+$\operatorname{Pic}_{C/k}(T)$, the value of the Picard functor of $C/k$ on
+the $k$-scheme $T$. For a point $T$ the fibrewise degree
+([def-pd-fibrewise-degree]) of a class is the degree of the invertible
+module on $C_{\bar k}$, so the degree-zero parts correspond:
+$\operatorname{Pic}^0_{C/k}(T)=\operatorname{Pic}^0(C_{\bar k})$ in the
+sense of [def-sc-pic0]. Composing with the value on $T$ of the
+isomorphism $h_J\cong\operatorname{Pic}^0_{C/k}$ of Step 7 gives the
+identification $J(\bar k)=h_J(T)=\operatorname{Pic}^0(C_{\bar k})$.
+
+*Step 10 (equivariance).* Let $\sigma\in\Gamma$. The map
+$\sigma^\sharp:T\to T$ is a morphism in $(\mathit{Sch}/k)_{fppf}$, so every
+functor on that category assigns to it an endomorphism of its value on $T$;
+for $h_J$ this is $x\mapsto x\circ\sigma^\sharp$, the action through the
+$k$-structure of $J$, and for the Picard presheaf of $C/k$ it is pullback
+along $\mathrm{id}_C\times\sigma^\sharp:C_{\bar k}\to C_{\bar k}$, the
+action through the $k$-structure of $C$ (it preserves degrees, since
+$\mathrm{id}_C\times\sigma^\sharp$ is an isomorphism of schemes over the
+automorphism $\sigma^\sharp$ of the base). Both the canonical map from the
+Picard presheaf to its sheafification $\operatorname{Pic}_{C/k}$ and the
+isomorphism $h_J\cong\operatorname{Pic}^0_{C/k}$ of Step 7 are natural
+transformations of functors on $(\mathit{Sch}/k)_{fppf}$, so they commute
+with the endomorphisms induced by $\sigma^\sharp$. Hence every map in the
+chain of Step 9 commutes with the action of $\sigma$, i.e. the
+identification $J(\bar k)=\operatorname{Pic}^0(C_{\bar k})$ is
+$\Gamma$-equivariant. The rules $\sigma\mapsto F(\sigma^\sharp)$ are left
+actions because both $F$ and $\Spec$ are contravariant. Finally, restriction
+to $\operatorname{Gal}(k_s/k)$ is an isomorphism
+$\Gamma\to\operatorname{Gal}(k_s/k)$ because $\bar k/k_s$ is purely
+inseparable, so every $k$-automorphism of $k_s$ extends uniquely to
+$\bar k$.
+
+*Step 11 (torsion).* The identification of Step 9 is an isomorphism of
+groups, because the isomorphism of Step 7 is one of group-valued functors
+and the map from the Picard presheaf is additive. The $\bar k$-points of
+the kernel $J[\ell^n]$ of multiplication by $\ell^n$ on $J$ are the
+$\ell^n$-torsion of the group $J(\bar k)$, since taking $T$-points commutes
+with kernels. A $\Gamma$-equivariant group isomorphism maps the
+$\ell^n$-torsion subgroup isomorphically and equivariantly onto the
+$\ell^n$-torsion subgroup, which gives
+$J[\ell^n](\bar k)\cong\operatorname{Pic}^0(C_{\bar k})[\ell^n]$
+equivariantly.

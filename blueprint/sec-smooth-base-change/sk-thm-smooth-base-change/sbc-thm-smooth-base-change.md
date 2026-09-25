@@ -2,7 +2,7 @@
 id = "sbc-thm-smooth-base-change"
 kind = "theorem"
 title = "Smooth base change"
-order = 1422
+order = 1430
 uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-torsion-filtered-union", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-def-base-change-square", "sbc-lem-base-change-composition", "sbc-lem-degree-zero-flat-base-change", "sbc-lem-etale-locality", "sbc-lem-rel-dim-one-induction", "sbc-lem-smooth-criterion", "sbc-lem-smooth-geometrically-reduced", "sbc-thm-etale-local-normal-form"]
 +++
 Consider a cartesian diagram of
@@ -65,10 +65,15 @@ dimension one.
 
 *(The induction step.)* For the affine smooth morphism of relative
 dimension one $f:X\to S$, the induction hypothesis (the theorem in
-degrees $<q$, applied after arbitrary base change) gives
-$\mathrm{BC}(f,n,q-1)$ in the sense of [sbc-def-base-change-property];
-[sbc-lem-rel-dim-one-induction] then gives $\mathrm{BC}(f,n,q)$,
-and (a degree-$q$ statement being etale local and stable under
+degrees $<q$) gives $\mathrm{BC}(f,n,q')$ universally for all
+$q'\leq q-1$ in the sense of [sbc-def-base-change-property]: every base
+change $f'$ of $f$ along a morphism $S'\to S$ is again smooth
+(smoothness being stable under base change, as is immediate from
+[def-sbc-smooth-morphisms])
+and $n$ is invertible on $S'$, so the theorem in degrees $<q$ applies to
+$f'$ and every quasi-compact quasi-separated $g:T\to S'$;
+[sbc-lem-rel-dim-one-induction] then gives $\mathrm{BC}(f,n,q)$
+universally, in particular $\mathrm{BC}(f,n,q)$, and (a degree-$q$ statement being etale local and stable under
 composition, by the first two steps) the theorem holds in degree $q$
 for every smooth $f$, every quasi-compact quasi-separated $g$, and
 every $n$-torsion $\mathcal F$. Running the filtered colimit back over

@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-exceptional-adjoint-admissibility-9"
 kind = "remark"
 title = "The geometric proof supplies finite-stage boundary duality"
-order = 2253
+order = 2272
 uses = ["cor-sf-biduality-class-discharge", "def-weil-exceptional-adjoint-admissibility"]
 +++
 Exceptional preservation in

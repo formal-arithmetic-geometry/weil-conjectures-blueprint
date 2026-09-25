@@ -2,7 +2,7 @@
 id = "thm-pod-compact-product-closed"
 kind = "theorem"
 title = "Compact-support product on closed subschemes over a relative base"
-order = 2575
+order = 2611
 uses = ["def-sf-datum", "def-sf-pf", "thm-sf-kunneth-relative"]
 +++
 In the setting of [def-sf-datum], let $B$ be a finite-type $k$-scheme,

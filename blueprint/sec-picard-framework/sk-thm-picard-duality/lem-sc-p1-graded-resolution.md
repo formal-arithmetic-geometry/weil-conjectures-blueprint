@@ -2,7 +2,7 @@
 id = "lem-sc-p1-graded-resolution"
 kind = "lemma"
 title = "Resolutions by twists on $\\mathbf P^1_k$"
-order = 699
+order = 700
 uses = ["def-sc-p1-standard", "lem-sc-p1-twist-exists"]
 +++
 Let $k$ be a field and $\mathcal G$ a coherent

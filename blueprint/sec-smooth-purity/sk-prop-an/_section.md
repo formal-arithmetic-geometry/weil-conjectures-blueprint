@@ -2,7 +2,7 @@
 id = "sk-prop-an"
 kind = "section"
 title = "$\\Aaf^1\\Rightarrow\\Aaf^n$: the model purity"
-order = 2021
+order = 2039
 uses = ["sk-def-purity-conv", "sk-prop-a1", "sk-prop-a1-inv"]
 +++
 *Proposition (sketch).*

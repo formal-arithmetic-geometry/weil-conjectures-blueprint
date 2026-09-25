@@ -2,7 +2,7 @@
 id = "sk-prop-av-symmetric-ample"
 kind = "section"
 title = "A symmetric ample module"
-order = 478
+order = 480
 uses = ["sk-def-av", "sk-def-av-ample-degree", "sk-prop-av-projective"]
 +++
 *Proposition (sketch).*

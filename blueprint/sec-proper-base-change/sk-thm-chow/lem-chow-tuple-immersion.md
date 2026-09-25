@@ -2,7 +2,7 @@
 id = "lem-chow-tuple-immersion"
 kind = "lemma"
 title = "Tuples of morphisms with one immersion"
-order = 1056
+order = 1064
 lean = ["AlgebraicGeometry.isImmersion_left_pi_lift"]
 +++
 Let $S$ be a scheme, let $Y_1,\dots,Y_m$ be schemes over $S$ and let

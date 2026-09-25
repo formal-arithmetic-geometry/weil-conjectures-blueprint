@@ -2,7 +2,7 @@
 id = "lem-galois-object-degree"
 kind = "lemma"
 title = "Galois covers and the degree"
-order = 2741
+order = 2789
 uses = ["def-galois-fibre-functor", "def-galois-object", "lem-fet-galois-category", "lem-galois-axioms"]
 +++
 Let $Y$ be connected with a geometric point $\bar y$ and let

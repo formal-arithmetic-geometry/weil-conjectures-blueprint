@@ -2,7 +2,7 @@
 id = "prop-pod-dual-tate-data-compatibility"
 kind = "theorem"
 title = "Compatibility of the dual and Tate data"
-order = 2560
+order = 2596
 tags = ["latex:proposition"]
 uses = ["def-pod-dual-tate-datum", "def-pur-tate-datum", "def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-weil-sheaf-complex", "lem-fix-weil-operations", "prop-pod-verdier-dual-on-smooth", "thm-pur-weil-equivariance-of-purity-and-trace"]
 +++

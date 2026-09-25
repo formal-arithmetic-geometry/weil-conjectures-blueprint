@@ -2,16 +2,16 @@
 id = "cor-wf-rank-one-degree-factorization-curve"
 kind = "theorem"
 title = "Finite-order part times a degree character"
-order = 2686
+order = 2733
 tags = ["latex:corollary"]
-uses = ["d-ab-rankone", "def-weil-pbc-scheme-conventions", "def-wf-weil-group", "lem-wf-weil-group-exact-sequence"]
+uses = ["def-weil-pbc-scheme-conventions", "def-wf-weil-group", "lem-wf-weil-group-exact-sequence"]
 +++
 Let $U_0/\mathbf F_q$ be normal, geometrically connected,
 separated and of finite type, pure of dimension one; put
 $U=U_0\times_{\mathbf F_q}\overline{\mathbf F}_q$ and
 $\Pi=\pi_1(U,\bar u)$; let $\ell\nmid q$, let $E/\mathbf Q_\ell$ be finite, and let
 $\chi:\hyperref[def:wf-weil-group]{W(U_0,\bar u)}\to E^\times$ be a
-continuous character with finite geometric image $\chi(\Pi)$ ([d-ab-rankone]). Choose $s$ with $\deg(s)=1$ and put
+continuous character with finite geometric image $\chi(\Pi)$. Choose $s$ with $\deg(s)=1$ and put
 $c=\chi(s)$. Then there is a finite-order character
 $\varepsilon:W(U_0,\bar u)\to E^\times$ such that
 

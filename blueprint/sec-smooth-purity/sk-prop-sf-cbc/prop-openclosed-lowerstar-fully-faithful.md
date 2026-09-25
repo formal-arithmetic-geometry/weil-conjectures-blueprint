@@ -2,7 +2,7 @@
 id = "prop-openclosed-lowerstar-fully-faithful"
 kind = "theorem"
 title = "$i_*$ is fully faithful"
-order = 1535
+order = 1549
 lean = ["AlgebraicGeometry.Etale.fullyFaithfulLowerStar", "AlgebraicGeometry.Etale.isIso_upperStarLowerStarAdjunction_counit"]
 tags = ["latex:proposition"]
 uses = ["def-kun-separably-closed", "lemma-openclosed-point-ulift", "lemma-openclosed-stalk-lowerstar", "lemma-weil-pbc-geometric-stalk-conservative"]

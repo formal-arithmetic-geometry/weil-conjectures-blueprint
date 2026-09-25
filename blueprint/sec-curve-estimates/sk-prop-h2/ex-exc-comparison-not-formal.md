@@ -2,7 +2,7 @@
 id = "ex-exc-comparison-not-formal"
 kind = "remark"
 title = "Full faithfulness does not identify ambient right adjoints"
-order = 987
+order = 995
 tags = ["latex:example"]
 uses = ["def-weil-pbc-derived-categories"]
 +++

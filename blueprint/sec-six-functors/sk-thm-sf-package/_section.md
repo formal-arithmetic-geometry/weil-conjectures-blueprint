@@ -2,7 +2,7 @@
 id = "sk-thm-sf-package"
 kind = "section"
 title = "The six-operations package"
-order = 2359
+order = 2376
 uses = ["sk-cor-sf-direct-image-ctf", "sk-lem-sf-flat-model", "sk-lem-sf-twist-interchange", "sk-prop-cohsm", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-biduality-general", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-comparison", "sk-prop-sf-dualizable-biduality", "sk-prop-sf-existence", "sk-prop-sf-finiteness", "sk-prop-sf-kunneth-ordinary", "sk-prop-sf-pf-coherence", "sk-prop-sf-pf-reduction", "sk-prop-sf-rf-shriek-preservation", "sk-rem-sf-matrix", "sk-thm-nagata-compactification", "sk-thm-properbasechange", "sk-thm-purity-transport", "sk-thm-sf-comp-composition", "sk-thm-sf-ctf-stability", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-dual-perfect", "sk-thm-sf-global-duality", "sk-thm-sf-hom-ctf", "sk-thm-sf-identification", "sk-thm-sf-kunneth-relative", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange", "sk-thm-smooth-base-change", "sk-thm-smooth-purity"]
 +++
 *Theorem (sketch).*
@@ -66,8 +66,9 @@ form for closed subschemes ([sk-thm-sf-kunneth-relative]).
 1. **(8)** *Stability.* The operations descend to the constructible and
 finite-Tor subcategories exactly as typed in [sk-thm-sf-ctf-stability] and
 [sk-rem-sf-matrix], with the explicit amplitude shifts
-$[a,b+2d]$ for $Rf_*$, $[a+c,b+d]$ for $\otimes^L$, $[c-b,d-a]$ for
-$\RHom$, and $-2d$, $2c$, $2d+1$ for $Rf^!$ in the smooth, closed and general
+$[a,b+2d]$ for $Rf_*$, $[a+c,b+d]$ for $\otimes^L$, $[c-b-2d,d'-a+2d]$
+for $\RHom$ of objects with amplitudes $[a,b],[c,d']$ on a scheme of
+dimension $\le d$ ($[c-b,d'-a]$ for a site-perfect first argument), and $-2d$, $2c$, $2d+1$ for $Rf^!$ in the smooth, closed and general
 cases.
 
 ## Proof

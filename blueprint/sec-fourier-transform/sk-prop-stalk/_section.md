@@ -2,7 +2,7 @@
 id = "sk-prop-stalk"
 kind = "section"
 title = "P3: the stalks are fibre integrals"
-order = 2894
+order = 2941
 uses = ["sk-def-ft", "sk-def-kernel"]
 +++
 *Proposition (sketch).*

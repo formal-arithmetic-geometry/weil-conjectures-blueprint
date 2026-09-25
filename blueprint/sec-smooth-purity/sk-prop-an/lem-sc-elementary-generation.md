@@ -2,7 +2,7 @@
 id = "lem-sc-elementary-generation"
 kind = "lemma"
 title = "Gaussian elimination"
-order = 2029
+order = 2047
 uses = ["def-sc-general-linear-group"]
 +++
 Let $k$ be a field and $c\geq1$. For $i\neq j$ and $a\in k$ let

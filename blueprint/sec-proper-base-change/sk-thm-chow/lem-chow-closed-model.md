@@ -2,7 +2,7 @@
 id = "lem-chow-closed-model"
 kind = "lemma"
 title = "Closed model of a quasi-compact immersion"
-order = 1055
+order = 1063
 lean = ["AlgebraicGeometry.ProperClosedModel", "AlgebraicGeometry.nonempty_properClosedModel"]
 uses = ["def-nagata-affine-proj", "def-nagata-dense-compactification", "def-nagata-projective-space-base-change", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-weil-pbc-closed-immersion-proper", "lem-weil-pbc-proper-composition", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++

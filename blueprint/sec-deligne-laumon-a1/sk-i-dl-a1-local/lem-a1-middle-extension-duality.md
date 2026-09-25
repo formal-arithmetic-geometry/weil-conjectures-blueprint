@@ -2,7 +2,7 @@
 id = "lem-a1-middle-extension-duality"
 kind = "lemma"
 title = "Duality for curve middle extensions"
-order = 2924
+order = 2971
 uses = ["cor-cbc-proper-coincidence", "cor-pur-smooth-admissibility", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "def-wf-tate-twist", "fix-cor-verdier-exchange", "lem-a1-finite-boundary-cohomology", "lem-fix-weil-operations", "lem-pod-cohomology-of-dual-over-field", "prop-a1-curve-boundary-sequence", "prop-cohomological-finiteness", "prop-pur-rational-purity-trace-coherence", "thm-pur-rational-and-qbar-purity"]
 +++
 Let $\bar C_0$ be a smooth projective curve, let

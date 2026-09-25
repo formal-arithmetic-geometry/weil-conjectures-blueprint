@@ -2,7 +2,7 @@
 id = "thm-weil-final"
 kind = "theorem"
 title = "Weil conjectures for a smooth proper variety"
-order = 3169
+order = 3237
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures"]
 uses = ["def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-euler-product", "thm-weil-final-betti", "thm-weil-final-functional-equation", "thm-weil-final-integrality", "thm-weil-final-rationality", "thm-weil-final-rh"]
 +++
@@ -63,6 +63,8 @@ P_0(T)=1-T,
 \qquad
 P_{2d}(T)=1-q^dT.
 $$
+In particular $Z(X_0,T)$ has a pole of order exactly $1$ at $T=1$
+and, if $d\geq1$, a pole of order exactly $1$ at $T=q^{-d}$.
 1. If
 $$
 D_i=(-1)^{b_i}[T^{b_i}]P_i(T),
@@ -157,7 +159,9 @@ $$
 b_0=b_{2d}=1,\qquad P_0(T)=1-T,\qquad P_{2d}(T)=1-q^dT.
 $$
 
-This is exactly (iv).
+Theorem [thm-weil-final-betti] states all of these equalities for the
+same datum and, in addition, that $Z(X_0,T)$ has a pole of order exactly
+$1$ at $T=1$ and, when $d\geq1$, at $T=q^{-d}$. This is exactly (iv).
 
 *Clause (v).*
 The definitions of $D_i,\chi,\varepsilon$ are respectively

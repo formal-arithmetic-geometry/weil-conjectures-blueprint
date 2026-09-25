@@ -2,7 +2,8 @@
 id = "sk-cor-picard-degree-g"
 kind = "section"
 title = "The degree of the dictionary"
-order = 750
+order = 752
+uses = ["sec-abelian-varieties", "sk-def-av-jacobian", "sk-thm-picard-rr"]
 +++
 *Corollary (sketch).*
 

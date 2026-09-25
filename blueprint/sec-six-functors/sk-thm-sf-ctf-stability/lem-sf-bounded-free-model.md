@@ -2,7 +2,7 @@
 id = "lem-sf-bounded-free-model"
 kind = "lemma"
 title = "Bounded free model over a finite coefficient ring"
-order = 2321
+order = 2337
 uses = ["def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-site", "lem-sf-stalk-free-model"]
 +++
 Let $A=A_{E,n}$ be the finite coefficient ring of

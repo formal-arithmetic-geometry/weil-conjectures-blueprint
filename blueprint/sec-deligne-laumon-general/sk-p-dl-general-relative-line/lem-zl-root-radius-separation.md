@@ -2,7 +2,7 @@
 id = "lem-zl-root-radius-separation"
 kind = "lemma"
 title = "Separation by root radii"
-order = 3041
+order = 3107
 +++
 Let $A(T),B(T)\in1+T\mathbf C[T]$. If every reciprocal root of $A$ has
 modulus at most $R$ and every reciprocal root of $B$ has modulus exactly

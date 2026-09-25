@@ -17,8 +17,9 @@ a map $\operatorname{Spec}(A)\to W_i$ extending the given generic map.
 Otherwise the closed point would map into $\overline Z_{1,2}$ under $g_1$
 and into $\overline Z_{2,1}$ under $g_2$. By
 [lemma-nagata-valuation-pair-factors-comparison], the pair factors
-through $X_{12}$, contradicting
-[lemma-nagata-key-boundary-disjointness]. If the closed point avoids
+through $X_{12}$, and its closed point then lies in
+$X_{12}\cap(\overline Z_{1,2}\times_S\overline Z_{2,1})$, contradicting
+part (4) of [lemma-nagata-key-boundary-disjointness]. If the closed point avoids
 one of the two boundaries, its inverse image of the corresponding open
 complement is an open subset of $\operatorname{Spec}(A)$ containing the
 closed point. By

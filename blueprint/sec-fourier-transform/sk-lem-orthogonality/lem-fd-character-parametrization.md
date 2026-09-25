@@ -2,7 +2,7 @@
 id = "lem-fd-character-parametrization"
 kind = "lemma"
 title = "Parametrization of the additive characters"
-order = 2869
+order = 2916
 uses = ["def-fd-additive-character", "lem-fd-character-orthogonality"]
 +++
 For $k_0=\mathbf F_q$, every nondegenerate additive character of

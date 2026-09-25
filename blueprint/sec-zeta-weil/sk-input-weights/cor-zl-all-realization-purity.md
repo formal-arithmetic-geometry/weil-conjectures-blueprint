@@ -2,7 +2,7 @@
 id = "cor-zl-all-realization-purity"
 kind = "theorem"
 title = "Purity for every chosen realization"
-order = 3085
+order = 3152
 tags = ["latex:corollary"]
 uses = ["cor-zl-purity-smooth-proper", "def-weil-finite-field-fiber", "def-weil-punctual-weights", "def-weil-smooth-proper-cohomological-family"]
 +++

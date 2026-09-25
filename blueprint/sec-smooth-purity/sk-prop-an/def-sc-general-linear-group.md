@@ -2,7 +2,7 @@
 id = "def-sc-general-linear-group"
 kind = "definition"
 title = "The general and special linear group schemes"
-order = 2025
+order = 2043
 uses = ["def-sc-gm-ga", "def-sc-group-scheme", "def-sc-group-scheme-subgroup"]
 +++
 Let $k$ be a field and $c\geq1$. The *general linear group

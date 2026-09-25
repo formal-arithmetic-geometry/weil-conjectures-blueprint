@@ -84,7 +84,7 @@
 This is the sketch version of the blueprint of Weil conjectures, paste from the split chapters.
 
 \end{abstract}
-
+\tableofcontents
 % Sketch following nagata.svg and the detailed chapter nagata_new.tex.
 \begingroup
 \setlength{\emergencystretch}{3em}
@@ -809,9 +809,12 @@ again one.
 content: the abelian-variety estimates behind the curve estimates
 (\Cref{sec:curve-estimates}) and the trace formula: the theorem of the
 cube, rigidity, the multiplication-by-$n$ isogeny, \'etale $n$-torsion,
-divisibility, the $\ell$-adic Tate module, and the Jacobian as an
-abelian variety
+divisibility and the $\ell$-adic Tate module (the Jacobian itself is
+constructed later, in \Cref{sec:picard-framework})
 \\key theorem: Thm \ref{thm:av-final}, used in Thm \ref{thm:curveestimate}
+(with Prop \ref{prop:cd-affine} and Prop \ref{prop:ext-invariance}) and,
+in the detailed blueprint, in the purity of real sheaves (\Cref{sec:purity-real-sheaves}: the Jacobian Tate
+module) and in the Fourier transform (\Cref{sec:fourier-transform})
 \\references: Stacks project (\texttt{03RP}, \texttt{0BF4}, \texttt{0BFG});
 Mumford and Milne, \emph{Abelian Varieties}.
 \end{abstract}
@@ -856,9 +859,6 @@ under algebraically closed extension of $k$).
 \Cref{prop:av-divisible-structure} & the $\ell^n$-torsion of a divisible group with $\lvert D[\ell]\rvert=\ell^r$ & proved \\
 \Cref{prop:av-tate-rank} & $T_\ell A\cong\Z_\ell^{2g}$, $V_\ell A\cong\Q_\ell^{2g}$ & proved \\
 \Cref{prop:av-fixed-points}, \Cref{prop:av-lang-steinberg}, \Cref{prop:av-fixed-base-change} & $p$-linear algebra in characteristic $p$ & proved (\texttt{0ASV}) \\
-\Cref{prop:av-jacobian} & $\Pic^0_{C/k}$ is representable, the Jacobian is an abelian variety & quoted input \\
-\Cref{prop:av-jacobian-general} & the same over an arbitrary ground field, by descent & proved by descent (\texttt{0CCJ}, \texttt{01ZM}) \\
-\Cref{prop:av-kummer-tate} & $H^1(C,\mu_{\ell^n})\cong J[\ell^n]$, $\varprojlim H^1(C,\Z/\ell^n)\cong\Hom(T_\ell J,\Z_\ell)$ & proved (Kummer + duality) \\
 \hline
 \end{tabular}
 \end{center}
@@ -958,8 +958,9 @@ $\varphi:\Pic^0_{C/k}\xrightarrow{\sim}h_J$ on
 $(\mathrm{Sch}/k)$, where $\Pic^0_{C/k}$ is the degree-zero part of
 the relative Picard functor; that is, $J$ represents $\Pic^0_{C/k}$ in
 the category of abelian varieties of dimension $g$ over $k$.  Whether
-such a pair exists is a theorem, \Cref{prop:av-jacobian}, and is not part
-of this definition.
+such a pair exists is a theorem, proved later in \Cref{prop:jacobian}
+and \Cref{prop:jacobian-descent} of \Cref{sec:picard-framework}, and is
+not part of this definition.
 \end{definition}
 
 % Moved from the Algebraic Groups section: the general Tate module (and the field conventions it uses),
@@ -1343,14 +1344,19 @@ finiteness statement for $[n]$ below.
 \begin{proposition}[Ample modules on proper curves have positive degree]
 \label{prop:av-ample-positive}
 \uses{\up{def:av-ample-degree}}
-Let $k$ be algebraically closed, $C$ a proper curve over $k$ and
-$\cL$ an ample invertible $\cO_C$-module.  Then $\deg\cL>0$.
+Let $k$ be algebraically closed, $C$ a proper curve over $k$ of
+dimension one (possibly disconnected) and $\cL$ an ample invertible
+$\cO_C$-module.  Then $\deg\cL>0$.
 \end{proposition}
 
 \begin{proof}[Omitted --- quoted input]
 On a proper curve an ample invertible module has positive degree, the
 degree being the coefficient of the leading term of the Hilbert
-polynomial (\Cref{def:av-ample-degree}).
+polynomial (\Cref{def:av-ample-degree}); for disconnected $C$, $\chi$ is
+additive over the connected components, each zero-dimensional one
+contributes a constant and each one-dimensional one a positive leading
+coefficient.  Dimension one is needed: for $C=\Spec k$ every invertible
+module is trivial and $\chi(\cL^{\otimes m})=1$, so the degree is $0$.
 \end{proof}
 
 % Decomposed.
@@ -1723,118 +1729,15 @@ $(\Z/\ell^n\Z)^{2g}$ under reduction, whose limit is $\Z_\ell^{2g}$;
 tensoring with $\Q_\ell$ gives $V_\ell A\cong\Q_\ell^{2g}$.
 \end{proof}
 
-\subsubsection{The Jacobian (quoted input) and its Tate module}
-
-% Decomposed.
-\begin{proposition}[The Jacobian: $\Pic^0_{C/k}$ is representable --- input]
-\label{prop:av-jacobian}
-\uses{\up{def:av-pic}, \up{def:av-jacobian}, \up{def:av}}
-Let $k$ be a separably closed field and $C$ a smooth projective
-geometrically integral curve over $k$ of genus $g$.  Then
-$\Pic^0_{C/k}$ is representable: there is an abelian variety $J_C$ of
-dimension $g$ over $k$, the \emph{Jacobian}, with a natural
-isomorphism $\Pic^0_{C/k}\cong h_{J_C}$ of group-valued functors, and
-$J_C(k)\cong\Pic^0(C)$; moreover $J_C$ is projective and compatible
-with base change along extensions of separably closed fields.
-\end{proposition}
-
-\begin{proof}[Omitted --- quoted input]
-This is the Jacobian theorem: over an
-algebraically closed field it is \Cref{prop:jacobian} of
-\Cref{sec:picard-framework}, which derives it from the representability
-of the Picard functor, \Cref{thm:picard-main}.  It is the one
-representation-theoretic input of the abelian-variety block.
-The proper smooth connected $g$-dimensional group scheme $J_C$ is an
-abelian variety in the sense of \Cref{def:av} by \Cref{prop:av-char}.
-\end{proof}
-
-% Decomposed.
-\begin{proposition}[The Jacobian over an arbitrary ground field]
-\label{prop:av-jacobian-general}
-\uses{\up{def:av-pic}, \up{def:av}, \up{prop:av-jacobian}}
-Let $k$ be any field and $C$ a smooth projective geometrically
-connected curve over $k$ of genus $g$.  Then there is an abelian
-variety $J$ over $k$ of dimension $g$ with a natural isomorphism
-$h_J\cong\Pic^0_{C/k}$ of fppf sheaves, and $J_K\cong
-\Pic^0_{C_K/K}$ for every field extension $K/k$.  No $k$-rational
-point of $C$ is assumed.
-\end{proposition}
-
-\begin{proof}[Idea]
-\uses{\up{prop:av-jacobian}, \up{def:av}}
-Fix a separable closure $k_s$.  By \Cref{prop:av-jacobian} the base change
-$\Pic^0_{C_{k_s}/k_s}$ is represented by an abelian variety $J_s$ of
-dimension $g$.  The single functor $\Pic^0_{C/k}$ produces by Yoneda a
-canonical descent datum on $J_s$ over $\Spec(k_s)/\Spec(k)$, which
-satisfies the cocycle condition automatically; it is defined at a
-finite separable level $K/k$ by spreading out, and effective descent
-for the projective $J_K$ along the finite locally free cover
-$\Spec K\to\Spec k$ produces a $k$-scheme $J$ with
-$J\times_kK\cong J_K$ and $J\times_kk_s\cong J_s$.  The group law of
-$J_s$ is defined over $K$ and compatible with the datum, so it
-descends; the geometric properties (finite type, smooth, proper,
-connected, dimension $g$) descend by fpqc-locality; hence $J$ is an
-abelian variety by \Cref{prop:av-char}.  Finally $h_J$ and
-$\Pic^0_{C/k}$ become isomorphic after the faithfully flat base change
-$\Spec k_s\to\Spec k$, so they were isomorphic.
-\end{proof}
-
-% Decomposed.
-\begin{proposition}[Kummer identifies curve cohomology with the Jacobian Tate module]
-\label{prop:av-kummer-tate}
-\uses{\up{def:av-pic}, \up{def:av-jacobian}, \up{def:av-tate}, \up{prop:av-jacobian}}
-Let $C$ be a smooth projective geometrically connected curve over a
-field $k$, let $\bar k$ be an algebraic closure, let $J$ be the
-Jacobian of $C_{\bar k}$ (\Cref{prop:av-jacobian}) and let
-$\ell\ne\operatorname{char}k$.  Then there are natural,
-$\operatorname{Gal}(\bar k/k)$-equivariant, transition-compatible
-isomorphisms
-\[
- H^1(C_{\bar k},\mu_{\ell^n})\xrightarrow{\ \sim\ }J[\ell^n](\bar k)
- \qquad(n\ge1),
-\]
-and passing to the inverse limit, with the degree-one Poincar\'e
-pairing (\Cref{sec:poincare-duality}),
-\[
- \varprojlim_nH^1_{\Et}(C_{\bar k},\Z/\ell^n)
- \xrightarrow{\ \sim\ }\Hom_{\Z_\ell}(T_\ell J,\Z_\ell).
-\]
-\end{proposition}
-
-\begin{proof}
-\uses{\up{def:av-pic}, \up{def:av-tate}, \up{prop:av-jacobian}, \up{prop:av-ntorsion-etale}}
-The Kummer sequence $1\to\mu_{\ell^n}\to\gm\xrightarrow{\ell^n}\gm\to1$
-on $C_{\bar k}$ has long exact cohomology beginning
-$H^0(\gm)\xrightarrow{\ell^n}H^0(\gm)\to H^1(\mu_{\ell^n})\to
-H^1(\gm)\xrightarrow{\ell^n}H^1(\gm)$; since
-$H^0(C_{\bar k},\gm)=\bar k^\times$ is divisible and
-$H^1(C_{\bar k},\gm)=\Pic(C_{\bar k})$, this gives
-$H^1(C_{\bar k},\mu_{\ell^n})\cong\Pic(C_{\bar k})[\ell^n]$.  An
-$\ell^n$-torsion invertible module has degree $0$
-($\ell^n\deg\cL=0$), so the right side is $\Pic^0(C_{\bar k})[\ell^n]
-=J[\ell^n](\bar k)$ by \Cref{prop:av-jacobian}; the identification is
-induced by the representing isomorphism, hence canonical and Galois
-equivariant.  The transition $\mu_{\ell^{n+1}}\to\mu_{\ell^n}$,
-$z\mapsto z^\ell$, corresponds to multiplication by $\ell$ on
-$J[\ell^n]$, so the finite-level isomorphisms form the inverse system
-defining $T_\ell J$ (\Cref{def:av-tate}); by \Cref{prop:av-ntorsion-etale}
-each level is $(\Z/\ell^n\Z)^{2g}$, and the dual form
-$\varprojlim H^1(C_{\bar k},\Z/\ell^n)\cong
-\Hom_{\Z_\ell}(T_\ell J,\Z_\ell)$ follows from the perfect degree-one
-pairing $H^1(C_{\bar k},\Z/\ell^n)\times
-H^1(C_{\bar k},\Z/\ell^n(1))\to\Z/\ell^n$ (\Cref{sec:poincare-duality}).
-\end{proof}
-
 \subsection{The final theorem (the abelian-variety estimate)}
 
 % Decomposed.
 \begin{theorem}[Abelian-variety estimate]
 \label{thm:av-final}
-\uses{\up{def:av}, \up{def:av-isogeny}, \up{def:av-mult-n}, \up{def:av-pic},
-\up{def:av-jacobian}, \up{def:av-tate}, \up{prop:av-isogeny}, \up{prop:av-connected-order},
+\uses{\up{def:av}, \up{def:av-isogeny}, \up{def:av-mult-n},
+\up{def:av-tate}, \up{prop:av-isogeny}, \up{prop:av-connected-order},
 \up{prop:av-prime-p-etale}, \up{prop:av-ntorsion-etale}, \up{prop:av-divisible},
-\up{prop:av-tate-rank}, \up{prop:av-jacobian}, \up{prop:av-jacobian-general},
-\up{prop:av-kummer-tate}}
+\up{prop:av-tate-rank}}
 Let $A$ be an abelian variety of dimension $g$ over a field $k$, let
 $p=\operatorname{char}k$ and let $n\ge1$.
 \begin{itemize}
@@ -1854,26 +1757,13 @@ and for every prime $\ell\ne p$
 \[
  T_\ell A\cong\Z_\ell^{2g},\qquad V_\ell A\cong\Q_\ell^{2g}.
 \]
-\item[(e)] Let $C$ be a smooth projective geometrically integral curve
-of genus $g$ over a field $k$.  Then $\Pic^0_{C/k}$ is representable by
-an abelian variety $J=J_C$ of dimension $g$ over $k$ (the Jacobian),
-$J(K)\cong\Pic^0(C_K)$ for every field extension $K/k$, and for
-$\ell\ne\operatorname{char}k$ there are natural Galois-equivariant
-isomorphisms
-\[
- H^1(C_{\bar k},\mu_{\ell^n})\cong J[\ell^n](\bar k)\quad(n\ge1),
- \qquad
- \varprojlim_nH^1_{\Et}(C_{\bar k},\Z/\ell^n)\cong
- \Hom_{\Z_\ell}(T_\ell J,\Z_\ell).
-\]
 \end{itemize}
 \end{theorem}
 
 \begin{proof}
 \uses{\up{prop:av-isogeny}, \up{prop:av-connected-order}, \up{prop:av-prime-p-etale},
 \up{prop:av-ntorsion-etale}, \up{prop:av-divisible}, \up{prop:av-divisible-structure},
-\up{prop:av-tate-rank}, \up{prop:av-jacobian}, \up{prop:av-jacobian-general},
-\up{prop:av-kummer-tate}, \up{def:av}}
+\up{prop:av-tate-rank}, \up{def:av}}
 \emph{(a)} This is exactly \Cref{prop:av-isogeny}: $[n]$ is a
 homomorphism (\Cref{prop:av-mult-hom} with \Cref{cor:av-commutative}), has
 finite fibres (\Cref{prop:av-mult-finite}) and is surjective
@@ -1915,19 +1805,14 @@ $A[\ell^n](k)\cong(\Z/\ell^n\Z)^{2g}$ by (c) and the transition maps
 are surjective by \Cref{prop:av-divisible}, so the inverse limit
 $T_\ell A$ of \Cref{def:av-tate} is $\Z_\ell^{2g}$; this is
 \Cref{prop:av-tate-rank}, and $V_\ell A=T_\ell A\otimes\Q_\ell$.
-
-\emph{(e)} Over a separably closed field the representability of
-$\Pic^0_{C/k}$ by an abelian variety of dimension $g$, together with
-the identification $J(k)\cong\Pic^0(C)$ and base change compatibility,
-is the quoted input \Cref{prop:av-jacobian}; over an arbitrary field the
-same statement without a rational point is obtained by descent, which
-is \Cref{prop:av-jacobian-general}.  The Tate-module identification is
-\Cref{prop:av-kummer-tate}: the Kummer sequence gives
-$H^1(C_{\bar k},\mu_{\ell^n})\cong\Pic(C_{\bar k})[\ell^n]
-=\Pic^0(C_{\bar k})[\ell^n]=J[\ell^n](\bar k)$, compatibly with the
-transition maps and with the Galois action, and duality converts the
-system into $\Hom_{\Z_\ell}(T_\ell J,\Z_\ell)$.
 \end{proof}
+
+The Jacobian instance of these statements is not treated here: the
+representability of $\Pic^0_{C/k}$ by an abelian variety is
+\Cref{prop:jacobian} and, over an arbitrary field,
+\Cref{prop:jacobian-descent} (\Cref{sec:picard-framework}); the Kummer
+identification of $H^1$ of a curve with the Tate module of its
+Jacobian is part of the real-purity section (\Cref{d:real-jacobian}).
 
 \vspace{1em}
 \begin{center}
@@ -1941,9 +1826,7 @@ system into $\Hom_{\Z_\ell}(T_\ell J,\Z_\ell)$.
 \node[draw,rounded corners] (et) at (-0.2,-0.8) {\'etale $n$-torsion\\$(n,p)=1$};
 \node[draw,rounded corners] (div) at (2.2,-2.1) {divisibility\\of $A(k)$};
 \node[draw,rounded corners] (tate) at (2.2,-3.6) {$T_\ell A\cong\Z_\ell^{2g}$};
-\node[draw,rounded corners] (jac) at (-0.2,1.2) {Jacobian\\$\Pic^0$ representable};
-\node[draw,rounded corners] (kum) at (2.2,0.2) {Kummer:\\$H^1(\mu_{\ell^n})\cong J[\ell^n]$};
-\node[draw,rounded corners] (fin) at (4.9,-1.7) {\textbf{abelian-variety estimate}\\{\scriptsize $[n]$, $A[n]$, $A[n](k)$, $T_\ell A$, $J$}};
+\node[draw,rounded corners] (fin) at (4.9,-1.7) {\textbf{abelian-variety estimate}\\{\scriptsize $[n]$, $A[n]$, $A[n](k)$, $T_\ell A$}};
 \draw[->] (cube) -- (pull);
 \draw[->] (sym) -- (pull);
 \draw[->] (rig) -- (com);
@@ -1953,11 +1836,9 @@ system into $\Hom_{\Z_\ell}(T_\ell J,\Z_\ell)$.
 \draw[->] (iso) -- (div);
 \draw[->] (et) to[out=-10,in=200] (tate);
 \draw[->] (div) -- (tate);
-\draw[->] (jac) -- (kum);
 \draw[->] (iso) to[out=-155,in=200] (fin);
 \draw[->] (et) -- (fin);
 \draw[->] (tate) -- (fin);
-\draw[->] (kum) -- (fin);
 \end{tikzpicture}
 \end{center}
 \vspace{-1em}
@@ -1976,9 +1857,7 @@ order prime to $p$ \Cref{prop:av-prime-p-etale} turn the order
 $n^{2g}$ into \'etale torsion \Cref{prop:av-ntorsion-etale}, which with
 divisibility \Cref{prop:av-divisible} and
 \Cref{prop:av-divisible-structure} gives the torsion points and
-\Cref{prop:av-tate-rank}; the Jacobian input \Cref{prop:av-jacobian}
-(and its general-field form \Cref{prop:av-jacobian-general}) plus Kummer
-\Cref{prop:av-kummer-tate} turns these into the curve statement; the
+\Cref{prop:av-tate-rank}; the
 target is \Cref{thm:av-final}.
 \end{center}
 
@@ -2001,17 +1880,18 @@ $p$-linear fixed-point comparison in characteristic $p$.
 $A[\ell^n](k)\cong(\Z/\ell^n\Z)^{2g}$ and its base-change invariance
 (blueprint \bp{lem:sc-ntorsion-etale}); clause (d) gives the
 divisibility used to see that the transition maps are surjective
-(\bp{lem:sc-isogeny-surjective}) and $T_\ell J\cong\Z_\ell^{2g}$;
-clause (e) is the Kummer identification
+(\bp{lem:sc-isogeny-surjective}) and $T_\ell J\cong\Z_\ell^{2g}$.
+The Kummer identification
 $H^1(C,A_n(1))\cong J[\ell^n](\overline{k}_0)$ and the dual form
 $\varprojlim H^1(C,A_n)\cong\Hom_{\Z_\ell}(T_\ell J,\Z_\ell)$ that the
-whole real-purity argument runs on (blueprint
+whole real-purity argument runs on are not part of this section; they
+belong to the real-purity section, built on \Cref{d:real-jacobian} (blueprint
 \bp{lem:wf-curve-kummer-jacobian-tate-module},
 \bp{lem:wf-curve-h1-dual-tate-module}), with the semilinear Galois
 action coming from the functoriality of the Jacobian.
-\item \textbf{Jacobian}: \Cref{prop:av-jacobian} is
+\item \textbf{Jacobian}: the Jacobian itself is constructed later, in
 \Cref{prop:jacobian} of \Cref{sec:picard-framework}, resting on
-\Cref{thm:picard-main}, and \Cref{prop:av-jacobian-general} is
+\Cref{thm:picard-main}, and over an arbitrary field in
 \Cref{prop:jacobian-descent}.  In the detailed blueprint these are
 \bp{thm:sc-jacobian-representability} (with \bp{thm:sc-theorem-of-the-base},
 \bp{lem:sc-pic-tangent-space}, \bp{def:sc-jacobian},
@@ -2025,10 +1905,7 @@ cube (\Cref{prop:av-cube}), projectivity (\Cref{prop:av-projective}),
 the rigidity lemma (\Cref{prop:av-rigidity}), the quoted isogeny facts
 (\Cref{prop:av-isogeny}), the $p$-power order of connected finite group
 schemes (\Cref{prop:av-connected-order}), Cartier's theorem
-(\Cref{prop:av-prime-p-etale}), the Jacobian representability input
-(\Cref{prop:av-jacobian}), its general-field descent
-(\Cref{prop:av-jacobian-general}) and the Kummer/duality input of
-\Cref{prop:av-kummer-tate}.  Corresponding detailed blueprint source:
+(\Cref{prop:av-prime-p-etale}).  Corresponding detailed blueprint source:
 \bp{06e\_abelian\_varieties.tex} (chapter \bp{chap:abelian-varieties}),
 with \bp{06d\_group\_schemes.tex}, \bp{06f\_divisors\_picard\_riemann\_roch.tex},
 \bp{50\_picard\_scheme\_of\_a\_curve\_new.tex}, \bp{06b\_jacobian.tex} and
@@ -2065,9 +1942,6 @@ node & detailed blueprint label & quoted external input \\
 \Cref{prop:av-divisible-structure} & \bp{lem:sc-divisible-group-structure} & \texttt{03RP} (proof of (7)) \\
 \Cref{prop:av-tate-rank} & \bp{def:wf-abelian-tate-module} (\texttt{52}) with \bp{lem:sc-ntorsion-etale} & --- \\
 \Cref{prop:av-fixed-points}, \Cref{prop:av-lang-steinberg}, \Cref{prop:av-fixed-base-change} & \bp{lem:sc-fixed-points-finite}, \bp{lem:sc-lang-steinberg}, \bp{lem:sc-frobenius-fixed-invariance} & \texttt{0ASV} \\
-\Cref{prop:av-jacobian} & \bp{def:sc-jacobian}, \bp{thm:sc-jacobian-representability}, \bp{thm:sc-theorem-of-the-base} (\texttt{06b}) & \texttt{0B92}, \texttt{0B9Z}, \texttt{0BA0} \\
-\Cref{prop:av-jacobian-general} & \bp{thm:pd-jacobian-general-field} (\texttt{51}) & \texttt{0CCJ}, \texttt{01ZM} \\
-\Cref{prop:av-kummer-tate} & \bp{lem:wf-curve-kummer-jacobian-tate-module}, \bp{lem:wf-curve-h1-dual-tate-module} (\texttt{52}) & Poincar\'e duality (\Cref{sec:poincare-duality}) \\
 \hline
 \end{tabular}
 \end{remark}
@@ -2490,9 +2364,10 @@ projective-space case \Cref{thm:picard-pn}.
 \label{thm:picard-semicon}
 With $f$ and $\cF$ as above, for every $t\in T$ the function
 $t\mapsto\dim_{\kappa(t)}H^q(X_t,\cF_t)$ is upper semicontinuous in
-$t$, and if it is locally constant then $R^qf_*\cF$ is flat; there
-are canonical base-change maps $R^qf_*\cF\otimes\kappa(t)\to
-H^q(X_t,\cF_t)$.
+$t$, and there are canonical base-change maps $R^qf_*\cF\otimes\kappa(t)\to
+H^q(X_t,\cF_t)$.  If moreover $T$ is \emph{reduced} and this function is
+locally constant, then $R^qf_*\cF$ is finite locally free (in particular
+flat) and the base-change maps in degree $q$ are isomorphisms.
 \end{theorem}
 
 \begin{proof}[Proof sketch]
@@ -2500,7 +2375,14 @@ The standard semicontinuity theorem: the coherent complex supplied
 by \Cref{thm:picard-coherence} is, locally on $T$, represented by a
 bounded complex of finite free modules whose formation commutes with
 base change, and the assertions follow from the flatness of the
-family together with the base-change comparison.
+family together with the base-change comparison; the last clause is
+Grauert's theorem, which uses that a coherent module on a reduced base
+with locally constant fibre dimension is locally free.  Reducedness
+cannot be dropped: over $T=\Spec k[\varepsilon]/(\varepsilon^2)$ let
+$\cL$ be a line bundle on $E\times_kT$, $E$ an elliptic curve, which
+restricts to $\cO_E$ but is a nontrivial first-order deformation of it;
+then $H^0(\cL)=\varepsilon H^0(E,\cO_E)\cong k$ is killed by
+$\varepsilon$, so it is not flat over $T$, although $T$ is a point.
 \end{proof}
 
 \begin{theorem}[Openness of the perfect locus]
@@ -2517,29 +2399,37 @@ is flat of rank $r$.
 This is the direct statement obtained from \Cref{thm:picard-semicon}
 by fixing the allowed degrees: upper semicontinuity makes each
 condition $\dim_{\kappa(t)}H^q(X_t,\cF_t)=0$ ($q\neq i$) and
-$\dim_{\kappa(t)}H^i(X_t,\cF_t)\le r$ an open condition, and on the
-resulting open locus the local constancy clause of
-\Cref{thm:picard-semicon} gives flatness of rank $r$.
+$\dim_{\kappa(t)}H^i(X_t,\cF_t)\le r$ an open condition.  On the
+resulting open locus the bounded complex of finite free modules of the
+proof of \Cref{thm:picard-semicon}, whose formation commutes with base
+change, has fibre cohomology only in degree $i$; by Nakayama it is
+locally quasi-isomorphic to a finite free module placed in degree $i$,
+which gives flatness of rank $r$ (no reducedness of $T$ is needed here).
 \end{proof}
 
 \subsubsection{Serre duality and Riemann--Roch for curves}
 
 \begin{theorem}[Serre duality]
 \label{thm:picard-duality}
-Let $X$ be smooth proper of dimension $n$ over $k$ and $\cF$
-coherent on $X$.  With $\omega_X=\Omega^n_{X/k}$ the canonical
-module, the trace pairing is perfect:
+Let $X$ be a smooth proper curve over $k$, of pure dimension
+$n\le1$, and $\cF$ a finite locally free $\cO_X$-module.  With
+$\omega_X=\Omega^n_{X/k}$ the canonical module, the trace pairing is
+perfect for every $q$:
 \[
 H^q(X,\cF)^{\vee}\ \cong\ H^{n-q}\bigl(X,\cF^{\vee}\otimes\omega_X\bigr).
 \]
 \end{theorem}
 
 \begin{proof}[Proof sketch]
-(Important) For smooth projective $X$ the standard proof uses the
-local-to-global spectral sequence
-$E_2^{p,q}=H^p(X,\mathcal Ext^q(\cF,\omega_X))$; for curves, it can be
-deduced from \Cref{thm:picard-pn} and the adjunction of the canonical sheaf
-with the Cartier picture of divisors (the residue sequence).
+(Important) For curves it can be deduced from \Cref{thm:picard-pn} and
+the adjunction of the canonical sheaf with the Cartier picture of
+divisors (the residue sequence).  Only the curve case is used in this
+blueprint (for Riemann--Roch); the analogue for smooth proper $X$ of
+any dimension holds as well but is not needed.  Local freeness cannot be
+dropped in this form: for the skyscraper $\cF=\kappa(x)$ at a closed
+point of $\mathbf P^1$ one has $H^0(\cF)^\vee\neq0$ but
+$\cF^\vee=\mathcal Hom(\kappa(x),\cO)=0$; for coherent $\cF$ the right
+side must be replaced by $\operatorname{Ext}^{n-q}(\cF,\omega_X)$.
 \end{proof}
 
 The projective-space normalization is the calculation in
@@ -2565,9 +2455,13 @@ $X\setminus\operatorname{Supp}(D)$ is affine.
 \end{theorem}
 
 \begin{proof}[Proof sketch]
-(RR) is the formal consequence of \Cref{thm:picard-duality} (apply it to
-$\cF$ and use the additivity of $\chi$) combined with
-$\chi(\cO_X)=1-g$.  (G): by (RR), $h^0(\cL^{\otimes m})\ge
+(RR): by additivity of $\chi$ in short exact sequences, the torsion
+part of $\cF$ (for which $\chi$ is the length, i.e.\ the degree) and a
+filtration of the locally free quotient reduce the formula to line
+bundles, where it is $\chi(\cO_X(D))=\deg D+\chi(\cO_X)$ with
+$\chi(\cO_X)=1-g$; for $d\ge2g-1$, \Cref{thm:picard-duality} gives
+$H^1(\cL)^\vee\cong H^0(\omega_X\otimes\cL^{-1})=0$, the latter of
+negative degree, whence $h^0(\cL)=d+1-g$.  (G): by (RR), $h^0(\cL^{\otimes m})\ge
 m\deg\cL+1-g\to\infty$; reducing the degree by a point $P$ lowers
 $h^0$ by exactly $1$ until $h^0\le1$, whence the base-point-free
 statement for $m\gg0$ and then the very-ample statement, exactly as
@@ -3188,26 +3082,13 @@ $\cO_C(-dP)$, and it adds $d$ to the degree.
 \end{proof}
 
 % Decomposed.
-\begin{definition}[The Jacobian]
-\label{def:picard-jacobian}
-\uses{\up{prop:picard-degree-decomposition}}
-The \emph{Jacobian} of $C$ is the open and closed subgroup scheme
-\[
-J(C):=\underline{\Pic}^0_{C/k}\subseteq\underline{\Pic}_{C/k}
-\]
-of \Cref{prop:picard-degree-decomposition}, representing the subfunctor
-$\Pic^0_{C/k}$ of classes of fibrewise degree $0$.  That it is smooth,
-proper and connected of dimension $g$ is \Cref{prop:jacobian}, and is
-not part of this definition.
-\end{definition}
-
-% Decomposed.
 \begin{proposition}[The tangent space of the Jacobian]
 \label{prop:picard-jacobian-tangent}
-\uses{\up{def:picard-jacobian}, \up{def:picard-pic}, \up{lem:picard-cech-computes}}
-The tangent space of $J(C)$ at the unit is
+\uses{\up{prop:picard-degree-decomposition}, \up{def:picard-pic}, \up{lem:picard-cech-computes}}
+The tangent space of the group scheme $\underline{\Pic}^0_{C/k}$ of
+\Cref{prop:picard-degree-decomposition} at the unit is
 \[
-T_eJ(C)\cong H^1(C,\cO_C),
+T_e\underline{\Pic}^0_{C/k}\cong H^1(C,\cO_C),
 \]
 a $k$-vector space of dimension $g$.
 \end{proposition}
@@ -3215,7 +3096,7 @@ a $k$-vector space of dimension $g$.
 \begin{proof}
 \uses{\up{def:picard-pic}, \up{lem:picard-cech-computes}}
 Let $k[\varepsilon]=k[x]/(x^2)$.  The tangent space at $e$ is the set of
-$k[\varepsilon]$-points of $J(C)$ reducing to $e$, that is, by
+$k[\varepsilon]$-points of $\underline{\Pic}^0_{C/k}$ reducing to $e$, that is, by
 \Cref{def:picard-pic} and the normalization along $P$, the set of
 invertible modules on $C_{k[\varepsilon]}$ whose restriction to $C$ is
 trivial, up to isomorphism (a degree-$0$ condition that is automatic,
@@ -3237,27 +3118,37 @@ conventions.
 % Decomposed.
 \begin{proposition}[The Jacobian is an abelian variety]
 \label{prop:jacobian}
-\uses{\up{def:picard-jacobian}, \up{prop:picard-jacobian-tangent},
+\uses{\up{def:av-jacobian}, \up{prop:picard-jacobian-tangent},
 \up{prop:picard-degree-decomposition}, \up{def:picard-f},
 \up{thm:picard-f-representable}, \up{lem:picard-f-open},
 \up{lem:picard-zero-dictionary}, \up{thm:picard-hilb-curves},
 \up{thm:picard-twist}, \up{thm:picard-rr}, \up{prop:picard-pic-split}}
-$J(C)$ is a proper, smooth, connected, commutative group scheme of
-dimension $g$ over $k$, that is, an abelian variety, with
-$T_eJ(C)\cong H^1(C,\cO_C)$.  It represents $\Pic^0_{C/k}$, so
+$\underline{\Pic}^0_{C/k}$ is a proper, smooth, connected, commutative
+group scheme of dimension $g$ over $k$, that is, an abelian variety, with
+$T_e\underline{\Pic}^0_{C/k}\cong H^1(C,\cO_C)$.  Hence
+$J(C)=\underline{\Pic}^0_{C/k}$, with its representing isomorphism, is the
+Jacobian of \Cref{def:av-jacobian}, and
 \[
 \Pic^0(C)=\{\cL\in\Pic(C):\deg\cL=0\}\;\cong\;J(C)(k),
 \]
-and its formation commutes with algebraically closed base extension:
+and the formation of $J(C)$ commutes with algebraically closed base extension:
 $J(C_{k'})=J(C)\times_kk'$ for $k\subseteq k'$ algebraically closed.
 \end{proposition}
 
 \begin{proof}[Proof sketch]
-\uses{\up{prop:picard-jacobian-tangent}, \up{prop:picard-degree-decomposition},
+\uses{\up{def:av-jacobian}, \up{prop:picard-jacobian-tangent}, \up{prop:picard-degree-decomposition},
 \up{thm:picard-f-representable}, \up{lem:picard-f-open},
 \up{lem:picard-zero-dictionary}, \up{thm:picard-hilb-curves},
 \up{thm:picard-twist}, \up{thm:picard-rr}, \up{prop:picard-pic-split}}
-By \Cref{prop:picard-degree-decomposition}, $J(C)$ is isomorphic to
+\emph{Why this is the Jacobian.}  By \Cref{prop:picard-degree-decomposition}
+the subfunctor $\Pic^0_{C/k}$ is represented by the open and closed subgroup
+scheme $\underline{\Pic}^0_{C/k}$.  A representing object is unique up to
+unique isomorphism, so a Jacobian in the sense of \Cref{def:av-jacobian}
+exists exactly when $\underline{\Pic}^0_{C/k}$ is an abelian variety of
+dimension $g$, and then it is $\underline{\Pic}^0_{C/k}$ with its
+representing isomorphism.  It remains to prove the geometric properties.
+
+By \Cref{prop:picard-degree-decomposition}, $\underline{\Pic}^0_{C/k}$ is isomorphic to
 $\underline{\Pic}^g_{C/k}$ (translation by $\cO_C(gP)$), so it suffices
 to prove the geometric properties for $\underline{\Pic}^g_{C/k}$.
 
@@ -3458,7 +3349,7 @@ general base is exactly the descent of Step 3.
 \draw[dashed,->] (sl4) to[out=-90,in=90] (b11);
 % the Jacobian
 \node[bx] (j1) at (3.6,-3.3) {degree decomposition\\ \ref{prop:picard-degree-decomposition}};
-\node[bx] (j2) at (0.6,-3.3) {$J(C):=\underline{\Pic}^0_{C/k}$\\ \ref{def:picard-jacobian}};
+\node[bx] (j2) at (0.6,-3.3) {$J(C)$: abelian variety\\ representing $\Pic^0$ \ref{def:av-jacobian}};
 \node[bx] (j3) at (-2.6,-4.9) {tangent space\\ $H^1(C,\cO_C)$ \ref{prop:picard-jacobian-tangent}};
 \node[bx,very thick] (j6) at (1.2,-4.9) {\textbf{$J(C)$ abelian variety}\\ smooth, proper, dim.\ $g$\\ \ref{prop:jacobian}};
 \node[bx] (j7) at (4.8,-4.9) {descent to $k_0$\\ \ref{prop:jacobian-descent}};
@@ -3860,29 +3751,39 @@ $\Br(C)\hookrightarrow\Br(k(C))=0$ by \Cref{prop:br-inj} and
 % Decomposed.
 \begin{proposition}[$H^1$ via Kummer]
 \label{prop:h1}
-\uses{\up{def:kummer}, \up{prop:kummer-exact}, \up{def:pic}, \up{def:br}, \up{thm:br}}
+\uses{\up{def:kummer}, \up{prop:kummer-exact}, \up{def:pic}}
 For $C$ as in \Cref{def:curve} and every $n\ge1$ prime to
-$\operatorname{char}k$:
+$\operatorname{char}k$ there is a canonical short exact sequence
 \[
-H^1(C,\mu_n)\cong\Pic(C)[n].
+0\to\mathcal O_C(C)^\times/\mathcal O_C(C)^{\times n}\to H^1(C,\mu_n)
+\to\Pic(C)[n]\to0 .
 \]
+In particular $H^1(C,\mu_n)\cong\Pic(C)[n]$ whenever
+$\mathcal O_C(C)^\times$ is $n$-divisible, e.g.\ when $C$ is proper:
+then $\mathcal O_C(C)$ is a finite $k$-algebra, whose unit group is a
+product of copies of $k^\times$ and of a unipotent group $1+\mathfrak n$
+($\mathfrak n$ nilpotent), both $n$-divisible since $k$ is algebraically
+closed and $n$ is invertible in $k$.
 \end{proposition}
 
 \begin{proof}[Idea]
-\uses{\up{thm:br}, \up{def:kummer}, \up{prop:kummer-exact}, \up{def:pic}}
+\uses{\up{def:kummer}, \up{prop:kummer-exact}, \up{def:pic}}
 The sequence of \Cref{def:kummer} is exact by
 \Cref{prop:kummer-exact} (here $n$ is prime to
 $\operatorname{char}k$), so it has a long exact cohomology sequence,
 which reads
 \[
-0\to\mu_n(k)\to k^\times\xrightarrow{n}k^\times
+\cdots\to\mathcal O_C(C)^\times\xrightarrow{n}\mathcal O_C(C)^\times
 \to H^1(C,\mu_n)\to\Pic(C)\xrightarrow{n}\Pic(C)
-\to H^2(C,\mu_n)\to H^2(C,\mathbb G_m)=\Br(C),
+\to\cdots,
 \]
-where $k^\times\to k^\times$, $x\mapsto x^n$, is surjective ($k$
-algebraically closed) and $H^1(C,\mathbb G_m)=\Pic(C)$ by
-\Cref{def:pic}.  The last term is $0$ by \Cref{thm:br}, so exactness
-gives $H^1(C,\mu_n)=\ker(n:\Pic(C)\to\Pic(C))=\Pic(C)[n]$.
+with $H^0(C,\mathbb G_m)=\mathcal O_C(C)^\times$ and
+$H^1(C,\mathbb G_m)=\Pic(C)$ by \Cref{def:pic}.  By exactness, the map
+$H^1(C,\mu_n)\to\Pic(C)$ has image $\ker(n)=\Pic(C)[n]$ and kernel the
+image of $\mathcal O_C(C)^\times$, which is the cokernel
+$\mathcal O_C(C)^\times/\mathcal O_C(C)^{\times n}$ of the $n$-th power map.
+This is the short exact sequence; when the $n$-th power map is surjective
+its first term vanishes.
 \end{proof}
 
 % Decomposed.
@@ -3986,7 +3887,7 @@ Artin--Schreier bound, where $H^q(C,\mathcal O_C)$ is computed on the
 \label{prop:cd-affine}
 \uses{\up{def:curve}, \up{def:kummer}, \up{prop:kummer-exact},
 \up{prop:tsen}, \up{prop:br-inj}, \up{prop:h2},
-\up{prop:av-divisible}, \up{prop:cd}}
+\up{thm:av-final}, \up{prop:cd}}
 Let $k$ be algebraically closed and let $C$ be an \emph{affine} curve
 over $k$ in the sense of \Cref{def:curve} (separated, of finite type,
 of dimension $\le1$).  Then for \emph{every} torsion abelian sheaf
@@ -4000,7 +3901,7 @@ Theorem 59.83.10, Tag \texttt{03SC}, (2).)
 \end{proposition}
 
 \begin{proof}[Proof sketch]
-\uses{\up{prop:cd}, \up{prop:h2}, \up{prop:av-divisible},
+\uses{\up{prop:cd}, \up{prop:h2}, \up{thm:av-final},
 \up{prop:tsen}, \up{prop:br-inj}}
 \emph{Reduction to a constant sheaf.}  $C$ is quasi-compact and
 quasi-separated, so $H^q(C,-)$ commutes with filtered colimits of
@@ -4037,10 +3938,10 @@ together with $\Br(k(C))=\Br(k(\overline C))=0$ from
 is represented by a divisor $D$ on $\overline C$ modulo the
 subgroup generated by $S$, and subtracting $\deg(D)\cdot[P]$ for a
 chosen $P\in S$ makes it degree zero, hence divisible by
-\Cref{prop:av-divisible}.  So $H^2(C,\mu_n)=0$.
+\Cref{thm:av-final}(d).  So $H^2(C,\mu_n)=0$.
 (Caution:  the corresponding $H^1$ is \emph{not} $\Pic(C)[n]$ for
 affine $C$ --- the Kummer sequence carries the extra term
-$\mathcal O_C(C)^\times/n$, which \Cref{prop:h1} suppresses.  Only
+$\mathcal O_C(C)^\times/n$, as \Cref{prop:h1} records.  Only
 the $H^2$ identification is used here.)
 
 \emph{$q=2$, $p$-primary part in characteristic $p$.}  Artin--Schreier
@@ -4060,8 +3961,8 @@ prime-to-$p$ and $p$-primary parts finishes the proof.
 \begin{theorem}[Curve estimate]
 \label{thm:curveestimate}
 \uses{\up{def:curve}, \up{def:pic}, \up{def:kummer}, \up{prop:h1},
-\up{prop:h2}, \up{prop:jacobian}, \up{prop:av-ntorsion-etale},
-\up{prop:av-divisible}, \up{prop:cd}}
+\up{prop:h2}, \up{prop:jacobian}, \up{thm:av-final},
+\up{prop:cd}}
 Let $C$ be smooth proper connected of genus $g$ over algebraically
 closed $k$, and let $n$ be prime to $\operatorname{char}k$.  After
 choosing a primitive $n$-th root of unity (the identification
@@ -4079,15 +3980,15 @@ and $H^q(C,\Z/n)=0$ for $q\ge3$.
 \end{remark}
 \begin{proof}
 \uses{\up{prop:h1}, \up{prop:h2}, \up{prop:jacobian},
-\up{prop:av-ntorsion-etale}, \up{prop:av-divisible}, \up{prop:cd}}
+\up{thm:av-final}, \up{prop:cd}}
 $H^0(C,\Z/n)=H^0(C,\mu_n)=\mu_n(k)=\Z/n$ (algebraically closed,
-primitive root).  By \Cref{prop:h1}, $H^1(C,\Z/n)=\Pic(C)[n]$; the
+primitive root).  By \Cref{prop:h1} ($C$ is proper), $H^1(C,\Z/n)=\Pic(C)[n]$; the
 degree map splits $\Pic(C)=\Pic^0(C)\times\Z$ (a base point gives a
 section) and $\Z$ is torsion-free, so
 $\Pic(C)[n]=\Pic^0(C)[n]=J(C)[n]$, which is $(\Z/n)^{2g}$ by
-\Cref{prop:jacobian} and \Cref{prop:av-ntorsion-etale}.  By
+\Cref{prop:jacobian} and \Cref{thm:av-final}(c).  By
 \Cref{prop:h2}, $H^2(C,\Z/n)=\Pic(C)/n\Pic(C)=(\Z/n)\oplus J(C)/nJ(C)
-=\Z/n$ by \Cref{prop:av-divisible} (the $\Z/n$ is the degree part).
+=\Z/n$ by \Cref{thm:av-final}(d) (the $\Z/n$ is the degree part).
 The vanishing is \Cref{prop:cd}.
 \end{proof}
 
@@ -4096,8 +3997,8 @@ The vanishing is \Cref{prop:cd}.
 closed fields]
 \label{prop:ext-invariance}
 \uses{\up{def:curve}, \up{def:kummer}, \up{prop:kummer-exact},
-\up{def:pic}, \up{prop:jacobian}, \up{prop:av-ntorsion-etale},
-\up{prop:av-divisible}, \up{thm:curveestimate},
+\up{def:pic}, \up{prop:jacobian}, \up{thm:av-final},
+\up{thm:curveestimate},
 \up{prop:cd-affine}}
 Let $k\subseteq k'$ be an extension of algebraically closed fields,
 let $C$ be a \emph{smooth} separated curve over $k$ in the sense of
@@ -4117,7 +4018,7 @@ isomorphic.
 
 \begin{proof}[Proof sketch]
 \uses{\up{thm:curveestimate}, \up{prop:jacobian},
-\up{prop:av-ntorsion-etale}, \up{prop:av-divisible},
+\up{thm:av-final},
 \up{prop:cd-affine}, \up{prop:kummer-exact}}
 $C_{k'}$ is again a smooth separated curve over $k'$, and a smooth
 curve over an algebraically closed field is a finite disjoint union
@@ -4136,7 +4037,7 @@ identifications with $\rho^q$:  in degree $0$ it is
 $\mu_n(k)=\mu_n(k')$ (a primitive $n$-th root of unity in $k$ stays
 primitive in $k'$); in degree $1$ it is
 $J_C[n](k)\to J_C[n](k')$, bijective because $J_C[n]$ is a finite
-\'etale $k$-group scheme (\Cref{prop:av-ntorsion-etale}) and
+\'etale $k$-group scheme (\Cref{thm:av-final}(b),(c)) and
 $J_{C_{k'}}=(J_C)_{k'}$ (\Cref{prop:jacobian}); in degree $2$ it is
 $\Pic(C)/n\to\Pic(C_{k'})/n$, both $\Z/n$ via the degree map, which
 is preserved by base change.  Hence each $\rho^q$ is an isomorphism.
@@ -4162,9 +4063,9 @@ subgroup generated by $S$, and on $n$-torsion the pullback is
 bijective --- injective since $J_{\overline C}(k)\to
 J_{\overline C}(k')$ is, surjective because for
 $y\in J_{\overline C}(k')$ with $ny$ coming from $k$ one uses
-divisibility of $J_{\overline C}(k)$ (\Cref{prop:av-divisible}) to
+divisibility of $J_{\overline C}(k)$ (\Cref{thm:av-final}(d)) to
 correct $y$ by an element of $J_{\overline C}[n](k')=
-J_{\overline C}[n](k)$ (\Cref{prop:av-ntorsion-etale}).  The five lemma
+J_{\overline C}[n](k)$ (\Cref{thm:av-final}(c)).  The five lemma
 gives the isomorphism in degree $1$.  For $q\ge2$ both sides vanish
 by \Cref{prop:cd-affine}.
 \end{proof}
@@ -4199,7 +4100,7 @@ $H^2=\Pic(C)/n\Pic(C)$};
 (\Cref{thm:br}), which together with the Kummer sequence of
 \Cref{def:kummer} yields the two identifications \Cref{prop:h1} and
 \Cref{prop:h2}; \Cref{prop:jacobian} (the Picard identity component
-as an abelian variety) and \Cref{prop:av-ntorsion-etale}/\Cref{prop:av-divisible}
+as an abelian variety) and \Cref{thm:av-final}(c),(d)
 turn these into $(\Z/n)^{2g}$ and $\Z/n$ of \Cref{thm:curveestimate};
 \Cref{prop:cd} gives the vanishing.
 \end{center}
@@ -4852,7 +4753,8 @@ $P(\eta)$.
 \uses{\up{def:bc}}
 (Stacks Project, Lemma 59.88.6, Tag \texttt{0F07}.)  If
 $\mathrm{BC}(f,n,q-1)$ holds but $\mathrm{BC}(f,n,q)$ fails, then
-there is a counterexample over a field:  $S'\to S$ affine,
+there is a counterexample over a field:  $S'$ an affine scheme (so that
+$S'\to S$ is an affine morphism when $S$ is separated),
 $T=\Spec K$, $K$ a field, and a $\Z/n\Z$-sheaf $\mathcal F$ on
 $\Spec K$ with
 $f'^{-1}R^qg_*\mathcal F\to R^qh_*e^{-1}\mathcal F$ not an
@@ -5432,7 +5334,7 @@ content: the proof of smooth purity theorem
 \newcommand{\prov}[1]{\par\smallskip\noindent{\footnotesize\raggedright\textit{Proved in:}\ #1\par}\smallskip}
 \newcommand{\cond}[1]{\par\smallskip\noindent{\footnotesize\raggedright\color{red!60!black}\textsf{\textbf{Conditional on:}}\ #1\par}\smallskip}
 % Decomposed.
-\begin{definition}[Coefficients and sites]
+\begin{remark}[Coefficients and sites]
 \label{def:sf-setting}
 Fix the global finite-field datum $(p,a,q,k_0,k)$ with $k=\overline{\mathbf
 F}_q$, a prime $\ell\neq p$, a finite extension $E/\Ql$ with valuation ring
@@ -5444,7 +5346,7 @@ amplitude, constructible intervals and Tate twists as in
 \up{def:weil-finite-tor-amplitude},
 \up{def:weil-constructible-intervals} and \up{def:coefficient-twists}.
 Morphisms are separated of finite type.
-\end{definition}
+\end{remark}
 
 % Decomposed.
 \begin{definition}[The six operations: ambient typing]
@@ -5555,6 +5457,113 @@ restated here for convenience of reading.  It is an \emph{assumption}, not a
 definition of a property: which morphisms satisfy it is a theorem, and is
 prop:sf-rf-shriek-preservation and cor:sf-existence-general below.
 \end{definition}
+
+% Detailed nodes: lem:weil-pbc-proper-open-comparison-iso;
+% lem:weil-pbc-proper-open-comparison-proetale;
+% prop:compactification-coherence (02_proper_base_change.tex).
+% Decomposed.
+\begin{proposition}[Coherence of the compactification comparisons]
+\label{prop:sf-comp-coherence}
+\uses{\Cref{prop:nagata-sketch-comp-category}, \Cref{thm:properbasechange},
+\Cref{def:sf-operations}}
+Let $f:X\to Y$ be separated of finite type and let $u:c_1\to c_2$ be a
+refinement in $\operatorname{Comp}(f)$.  Then the canonical map
+\[
+ \alpha_u:\ j_{2!}K\ \xrightarrow{\ \sim\ }\ Ru_*j_{1!}K
+\]
+is an isomorphism for every \'etale-origin $K$; it is the identity for the
+identity refinement and is transitive under composition of refinements.
+Consequently the induced comparison of candidates
+\[
+ R\bar f_{1*}j_{1!}\ \xrightarrow{\ \sim\ }\ R\bar f_{2*}j_{2!}
+\]
+is an isomorphism with the same two properties, and comparison through a
+common refinement gives, for any two $c_1,c_2\in\operatorname{Comp}(f)$, a
+natural isomorphism $Rf_!^{c_1}\cong Rf_!^{c_2}$ which is independent of the
+chosen common refinement and satisfies the cocycle condition for triples.  In
+this sense $Rf_!$ of \Cref{def:sf-operations}(iv) is well defined.
+\end{proposition}
+
+\begin{proof}[Idea]
+\emph{The comparison.}  Write $u:\overline X_1\to\overline X_2$, proper, with
+$u j_1=j_2$, and identify $X$ with the open $j_2(X)\subseteq\overline X_2$.
+Test $\alpha_u$ at geometric points of $\overline X_2$.  Over that open:  the
+restriction $u':u^{-1}(j_2(X))\to X$ is proper and admits $j_1$ as an open
+section, so $j_1(X)$ is open \emph{and closed} in $u^{-1}(j_2(X))$ --- an
+open section of a separated morphism is a clopen immersion --- whence
+$u^{-1}(j_2(X))=j_1(X)\amalg W$ with $j_{1!}K$ vanishing on $W$.  Hence
+$Ru'_*(j_{1!}K)=K$ and $\alpha_u$ is the identity of $K$ there.  Outside
+$j_2(X)$:  if
+$\bar y\notin j_2(X)$ then $u^{-1}(\bar y)$ misses $j_1(X)$, since
+$u j_1=j_2$; so $j_{1!}K$ restricts to zero on the fibre and proper base change
+(\Cref{thm:properbasechange}) makes $(Ru_*j_{1!}K)_{\bar y}=0$, as is
+$(j_{2!}K)_{\bar y}$.  Geometric stalks are conservative, so $\alpha_u$ is an
+isomorphism.  Identity and transitivity follow because both sides are computed
+from the same clopen decomposition, and the section identifications agree for a
+composite proper map.
+
+\emph{Coherence.}  Composition of derived direct images gives
+$R\bar f_{1*}\cong R\bar f_{2*}Ru_*$; composing with
+$R\bar f_{2*}(\alpha_u^{-1})$ gives the comparison of candidates, and
+transports its identity and transitivity.  For independence, let $d$ and $d'$
+be two common refinements of $c_1,c_2$, with comparisons
+$t_i:Rf_!^{d}\to Rf_!^{c_i}$ and $t_i'$ likewise.  By
+\Cref{prop:nagata-sketch-comp-category}(i) choose a refinement mapping to
+both $d$ and $d'$; by (iii) the two resulting maps to each $c_i$ agree after a
+further refinement.  Transitivity then gives $t_2t_1^{-1}=t_2'{t_1'}^{-1}$.
+For three compactifications, one common refinement of all three gives
+$(t_3t_2^{-1})(t_2t_1^{-1})=t_3t_1^{-1}$, the cocycle condition.
+\end{proof}
+
+% Detailed nodes: lem:amb-etale-compact-comparisons
+% (07a_ambient_smooth_duality.tex).
+% Decomposed.
+\begin{theorem}[The composition law for $Rf_!$]
+\label{thm:sf-comp-composition}
+\uses{\Cref{prop:sf-comp-coherence}, \Cref{prop:nagata-sketch-comp-category},
+\Cref{thm:properbasechange}}
+Let $f:X\to Y$ and $g:Y\to S$ be separated of finite type between finite-type
+$k$-schemes.  There is a canonical isomorphism
+\[
+ \alpha_{g,f}:\ Rg_!Rf_!\ \xrightarrow{\ \sim\ }\ R(g\circ f)_!
+\]
+of functors $D^+(X,\Lambda)\to D^+(S,\Lambda)$ on \'etale-origin complexes,
+independent of all compactification choices by \Cref{prop:sf-comp-coherence},
+equal to the identity when $f$ or $g$ is an identity, and associative:
+for a third $h:S\to T$ the two composites
+$Rh_!Rg_!Rf_!\to R(hgf)_!$ agree.
+\end{theorem}
+
+\begin{proof}[Idea]
+\emph{Construction.}  Compactify $g$ as $Y\xrightarrow{v}\overline Y
+\xrightarrow{\bar g}S$, and compactify $v\circ f$ as
+$X\xrightarrow{a}\overline X\xrightarrow{p}\overline Y$, using
+\Cref{thm:nagata-compactification}.  Put $V=\overline X\times_{\overline Y}Y$,
+with its open immersion $b:V\to\overline X$ and proper projection
+$p_Y:V\to Y$.  Since $p\circ a=v\circ f$, the morphism $a$ factors as
+$a=b\circ c$ through an open immersion $c:X\to V$, so
+$X\xrightarrow{c}V\xrightarrow{p_Y}Y$ is a compactification of $f$ and
+$Rf_!=Rp_{Y*}c_!$ on that model.  For every
+\'etale-origin $N$ on $V$ the map
+\[
+ v_!Rp_{Y*}N\ \longrightarrow\ Rp_*b_!N
+\]
+is an isomorphism:  over $Y$ it is proper base change for the Cartesian square
+defining $V$ (\Cref{thm:properbasechange}), and at a geometric point of
+$\overline Y$ outside $Y$ both sides vanish, because the corresponding fibre of
+$p$ misses $V$.  Apply this to the extension by zero of a complex on $X$ and
+then push by $R\bar g_*$:  extension by zero along opens composes termwise and
+proper derived direct image composes, giving $\alpha_{g,f}$.
+
+\emph{Independence and associativity.}  Any two choices are compared by
+\Cref{prop:sf-comp-coherence}, which also makes $\alpha_{g,f}$ natural.  For
+three morphisms choose, by
+\Cref{prop:nagata-sketch-comp-category}(i), a single common refinement of all
+the compactifications involved; the two composites then restrict to the same
+identity over the source and use the same proper base-change maps on each
+Cartesian rectangle, so their pasting identity together with the refinement
+transitivity of \Cref{prop:sf-comp-coherence} gives associativity.
+\end{proof}
 
 % Decomposed.
 \begin{proposition}[Compact-support base change]
@@ -5951,10 +5960,10 @@ proof of 1.7.4.
 % Decomposed.
 \begin{lemma}[Mate calculus for a pasted adjunction]
 \label{lem:sf-mate}
-\uses{\Cref{def:sf-operations}, \up{fix-prop-adjunctions}}
+\uses{\Cref{def:sf-operations}, \Cref{thm:sf-comp-composition}, \up{fix-prop-adjunctions}}
 Let $X\xrightarrow{f}Y\xrightarrow{g}Z$ be composable separated finite-type
 morphisms.  Then the mate of the composition isomorphism
-$R(gf)_!\cong Rg_!Rf_!$ is the isomorphism $(gf)^!\cong f^!g^!$, and the
+$R(gf)_!\cong Rg_!Rf_!$ of \Cref{thm:sf-comp-composition} is the isomorphism $(gf)^!\cong f^!g^!$, and the
 units and counits of the composite adjunctions are the pasted ones.
 \end{lemma}
 
@@ -5984,62 +5993,6 @@ differ by one vanishing on generators, and the first clause descends from
 generators to shifts, cones and summands.
 \end{proof}
 
-% Detailed nodes: lem:weil-pbc-proper-open-comparison-iso;
-% lem:weil-pbc-proper-open-comparison-proetale;
-% prop:compactification-coherence (02_proper_base_change.tex).
-% Decomposed.
-\begin{proposition}[Coherence of the compactification comparisons]
-\label{prop:sf-comp-coherence}
-\uses{\Cref{prop:nagata-sketch-comp-category}, \Cref{thm:properbasechange},
-\Cref{def:sf-operations}}
-Let $f:X\to Y$ be separated of finite type and let $u:c_1\to c_2$ be a
-refinement in $\operatorname{Comp}(f)$.  Then the canonical map
-\[
- \alpha_u:\ j_{2!}K\ \xrightarrow{\ \sim\ }\ Ru_*j_{1!}K
-\]
-is an isomorphism for every \'etale-origin $K$; it is the identity for the
-identity refinement and is transitive under composition of refinements.
-Consequently the induced comparison of candidates
-\[
- R\bar f_{1*}j_{1!}\ \xrightarrow{\ \sim\ }\ R\bar f_{2*}j_{2!}
-\]
-is an isomorphism with the same two properties, and comparison through a
-common refinement gives, for any two $c_1,c_2\in\operatorname{Comp}(f)$, a
-natural isomorphism $Rf_!^{c_1}\cong Rf_!^{c_2}$ which is independent of the
-chosen common refinement and satisfies the cocycle condition for triples.  In
-this sense $Rf_!$ of \Cref{def:sf-operations}(iv) is well defined.
-\end{proposition}
-
-\begin{proof}[Idea]
-\emph{The comparison.}  Write $u:\overline X_1\to\overline X_2$, proper, with
-$u j_1=j_2$, and identify $X$ with the open $j_2(X)\subseteq\overline X_2$.
-Test $\alpha_u$ at geometric points of $\overline X_2$.  Over that open:  the
-restriction $u':u^{-1}(j_2(X))\to X$ is proper and admits $j_1$ as an open
-section, so $j_1(X)$ is open \emph{and closed} in $u^{-1}(j_2(X))$ --- an
-open section of a separated morphism is a clopen immersion --- whence
-$u^{-1}(j_2(X))=j_1(X)\amalg W$ with $j_{1!}K$ vanishing on $W$.  Hence
-$Ru'_*(j_{1!}K)=K$ and $\alpha_u$ is the identity of $K$ there.  Outside
-$j_2(X)$:  if
-$\bar y\notin j_2(X)$ then $u^{-1}(\bar y)$ misses $j_1(X)$, since
-$u j_1=j_2$; so $j_{1!}K$ restricts to zero on the fibre and proper base change
-(\Cref{thm:properbasechange}) makes $(Ru_*j_{1!}K)_{\bar y}=0$, as is
-$(j_{2!}K)_{\bar y}$.  Geometric stalks are conservative, so $\alpha_u$ is an
-isomorphism.  Identity and transitivity follow because both sides are computed
-from the same clopen decomposition, and the section identifications agree for a
-composite proper map.
-
-\emph{Coherence.}  Composition of derived direct images gives
-$R\bar f_{1*}\cong R\bar f_{2*}Ru_*$; composing with
-$R\bar f_{2*}(\alpha_u^{-1})$ gives the comparison of candidates, and
-transports its identity and transitivity.  For independence, let $d$ and $d'$
-be two common refinements of $c_1,c_2$, with comparisons
-$t_i:Rf_!^{d}\to Rf_!^{c_i}$ and $t_i'$ likewise.  By
-\Cref{prop:nagata-sketch-comp-category}(i) choose a refinement mapping to
-both $d$ and $d'$; by (iii) the two resulting maps to each $c_i$ agree after a
-further refinement.  Transitivity then gives $t_2t_1^{-1}=t_2'{t_1'}^{-1}$.
-For three compactifications, one common refinement of all three gives
-$(t_3t_2^{-1})(t_2t_1^{-1})=t_3t_1^{-1}$, the cocycle condition.
-\end{proof}
 
 % Detailed nodes: cor:cbc-proper-coincidence
 % (08_compact_support_base_change_new.tex).
@@ -7116,7 +7069,7 @@ in \S\ref{sec:sf-earlier} (proved earlier in the blueprint) or in
 
 
 % Decomposed.
-\begin{definition}[Ambient categories and small subcategories]
+\begin{remark}[Ambient categories and small subcategories]
 \label{def:sf-categories}
 Fix a scheme $T$ carrying a coefficient stage $\Lambda$ and a site --- the
 \emph{small \'etale} or the \emph{small pro-\'etale} site of
@@ -7143,7 +7096,7 @@ concentrated in $[a,b]$
 \up{def:weil-finite-tor-amplitude},
 \up{def:weil-constructible-intervals}); at the field stages
 $\Dctf=\Dbc$ by definition.
-\end{definition}
+\end{remark}
 
 % Decomposed.
 \begin{remark}[The typing rule of this section]
@@ -7189,7 +7142,8 @@ $\Dctf\times\Dbc\to\Dbc$ and $\Dctf\times\Dctf\to\Dctf$ on \'et and pro\'et,
 with $[a,b]+[c,d]\mapsto[a+c,b+d]$ (\Cref{thm:sf-ctf-stability}(ii)) \\
 $\RHom(-,-)$ & $D(Y)^{\mathrm{op}}\times D(Y)\to D(Y)$ &
 $\Dctf\times\Dctf\to\Dctf$ on \'et for two arbitrary objects, and on pro\'et
-for pulled-back pairs, with $[a,b],[c,d]\mapsto[c-b,d-a]$
+for pulled-back pairs, with $[a,b],[c,d]\mapsto[c-b-2m,d-a+2m]$ ($\dim Y\le m$),
+and $[c-b,d-a]$ for a site-perfect first argument
 (\Cref{thm:sf-hom-ctf}, \Cref{thm:sf-ctf-stability}(ii)) \\
 $Rf_*$ & $D^+(X)\to D^+(Y)$ &
 $\Dbc(X)\to\Dbc(Y)$ for every finite-type $f$
@@ -7232,9 +7186,10 @@ the conditional entries are listed in \Cref{rem:sf-ledger}.
 \label{def:sf-orientation}
 An \emph{orientation} for a smooth separated finite-type $f:X\to Y$ of pure
 relative dimension $d$ is an isomorphism
-$Lf^*\Lambda_Y(d)[2d]\xrightarrow{\sim}Rf^!\Lambda_Y$, natural in $Y$ and
-compatible with composition, base change, finite reduction and scalar
-extension.  In this blueprint the orientation is not an assumption: it is
+$\gamma_{f,\Lambda_Y}:Lf^*\Lambda_Y(d)[2d]\xrightarrow{\sim}Rf^!\Lambda_Y$,
+natural in $Y$ and compatible with composition, \'etale base change, finite
+reduction, scalar extension and the pro-\'etale realization; for $f=a_X$ it
+reads $\omega_{X,\Lambda}\cong\Lambda_X(d)[2d]$.  In this blueprint the orientation is not an assumption: it is
 constructed in this document as \Cref{thm:smooth-purity}
 (\S\ref{sec:smooth-purity}), with the tensor form and the base change for
 $R^!$ in \Cref{prop:cohsm} and the remaining coefficient stages in
@@ -7636,55 +7591,6 @@ same remark applies to \Cref{thm:sf-comp-composition} and
 \Cref{prop:sf-comp-proper}.
 \end{remark}
 
-% Detailed nodes: lem:amb-etale-compact-comparisons
-% (07a_ambient_smooth_duality.tex).
-% Decomposed.
-\begin{theorem}[The composition law for $Rf_!$]
-\label{thm:sf-comp-composition}
-\uses{\Cref{prop:sf-comp-coherence}, \Cref{prop:nagata-sketch-comp-category},
-\Cref{thm:properbasechange}}
-Let $f:X\to Y$ and $g:Y\to S$ be separated of finite type between finite-type
-$k$-schemes.  There is a canonical isomorphism
-\[
- \alpha_{g,f}:\ Rg_!Rf_!\ \xrightarrow{\ \sim\ }\ R(g\circ f)_!
-\]
-of functors $D^+(X,\Lambda)\to D^+(S,\Lambda)$ on \'etale-origin complexes,
-independent of all compactification choices by \Cref{prop:sf-comp-coherence},
-equal to the identity when $f$ or $g$ is an identity, and associative:
-for a third $h:S\to T$ the two composites
-$Rh_!Rg_!Rf_!\to R(hgf)_!$ agree.
-\end{theorem}
-
-\begin{proof}[Idea]
-\emph{Construction.}  Compactify $g$ as $Y\xrightarrow{v}\overline Y
-\xrightarrow{\bar g}S$, and compactify $v\circ f$ as
-$X\xrightarrow{a}\overline X\xrightarrow{p}\overline Y$, using
-\Cref{thm:nagata-compactification}.  Put $V=\overline X\times_{\overline Y}Y$,
-with its open immersion $b:V\to\overline X$ and proper projection
-$p_Y:V\to Y$.  Since $p\circ a=v\circ f$, the morphism $a$ factors as
-$a=b\circ c$ through an open immersion $c:X\to V$, so
-$X\xrightarrow{c}V\xrightarrow{p_Y}Y$ is a compactification of $f$ and
-$Rf_!=Rp_{Y*}c_!$ on that model.  For every
-\'etale-origin $N$ on $V$ the map
-\[
- v_!Rp_{Y*}N\ \longrightarrow\ Rp_*b_!N
-\]
-is an isomorphism:  over $Y$ it is proper base change for the Cartesian square
-defining $V$ (\Cref{thm:properbasechange}), and at a geometric point of
-$\overline Y$ outside $Y$ both sides vanish, because the corresponding fibre of
-$p$ misses $V$.  Apply this to the extension by zero of a complex on $X$ and
-then push by $R\bar g_*$:  extension by zero along opens composes termwise and
-proper derived direct image composes, giving $\alpha_{g,f}$.
-
-\emph{Independence and associativity.}  Any two choices are compared by
-\Cref{prop:sf-comp-coherence}, which also makes $\alpha_{g,f}$ natural.  For
-three morphisms choose, by
-\Cref{prop:nagata-sketch-comp-category}(i), a single common refinement of all
-the compactifications involved; the two composites then restrict to the same
-identity over the source and use the same proper base-change maps on each
-Cartesian rectangle, so their pasting identity together with the refinement
-transitivity of \Cref{prop:sf-comp-coherence} gives associativity.
-\end{proof}
 
 \subsubsection{The projection formula at every coefficient stage}
 
@@ -7842,8 +7748,15 @@ R\mathrm{Hom}_\Lambda(\RG_c(X,K),\Lambda)$ \emph{in the point category}
 $\Dbc(s,\Lambda)$, and its inverse is the global
 duality isomorphism of \Cref{thm:sf-global-duality} followed by
 $\mathbb D_XK\cong K^\vee(d)[2d]$.  In particular $\beta_K$ is perfect.
-If $X$ is proper, its degreewise form gives perfect pairings
-$\langle-,-\rangle_i:H^i_c(X,K)\times H^{2d-i}(X,K^\vee(d))\to\Lambda$.
+If $X$ is proper and $\Lambda\in\{A_{E,n},E,\Qlb\}$, its degreewise form
+gives perfect pairings
+$\langle-,-\rangle_i:H^i_c(X,K)\times H^{2d-i}(X,K^\vee(d))\to\Lambda$
+(over $A_{E,n}$ because this ring is self-injective, so
+$\operatorname{Hom}(-,\Lambda)$ is exact).  At the integral stage
+$\Lambda=\mathcal O_E$ the degreewise form fails in general: a torsion
+class in $H^i_c$ pairs to zero with everything, and
+$H^{-i}(\RG_c^\vee)$ picks up an $\operatorname{Ext}^1$ term from the
+torsion of $H^{i+1}_c$; only the derived statement holds there.
 For nonproper $X$ the degreewise assertion over field coefficients is
 recorded separately in \Cref{thm:derived-duality}.
 \end{theorem}
@@ -7857,7 +7770,8 @@ chain of \Cref{thm:sf-tensor-hom} with $M=K$, $N=\Lambda$ and $f=a_X$ is, by
 of $\beta_K$ is the composite of the duality isomorphism with the orientation
 identification, which is an isomorphism.  Degreewise this is the shift
 convention together with $H^{-i}(C^\vee)\cong H^i(C)^\vee$ for a perfect point
-complex.
+complex, which holds when $\operatorname{Hom}(-,\Lambda)$ is exact, i.e.\ for
+$\Lambda\in\{A_{E,n},E,\Qlb\}$.
 \end{proof}
 
 % Decomposed.
@@ -7980,22 +7894,31 @@ back.
 \begin{theorem}[Internal Hom with finite Tor amplitude]
 \label{thm:sf-hom-ctf}
 \uses{\up{lem:weil-pbc-geometric-stalk-conservative},
-\Cref{prop:sf-finiteness}}
+\Cref{prop:sf-finiteness}, \Cref{prop:sf-biduality-general}}
 Let $K,M$ be bounded constructible $A$-complexes on $X_{\Et}$ with finite Tor
-amplitude in $[a,b]$ and in $[c,d]$.  Then $\RHom_A(K,M)$ is bounded
-constructible with finite Tor amplitude in $[c-b,d-a]$.
+amplitude in $[a,b]$ and in $[c,d]$, and suppose $\dim X\le m$.  Then
+$\RHom_A(K,M)$ is bounded constructible with finite Tor amplitude in
+$[c-b-2m,d-a+2m]$.  If $K$ is site-perfect (locally on $X_{\Et}$ a bounded
+complex of finite projective $A$-modules in degrees $[a,b]$), the sharper
+interval $[c-b,d-a]$ holds.  The sharper interval fails for general $K$: for
+the origin $i:\{0\}\hookrightarrow\mathbf A^1$ the complexes $i_*A$ and $A$
+have Tor amplitude $[0,0]$, but $\RHom_A(i_*A,A)=i_*A(-1)[-2]$.
 \end{theorem}
 
 \begin{proof}[Idea]
 Constructibility: every cohomology sheaf of $\RHom_A(K,M)$ is constructible,
 because the $\mathcal Ext$-sheaves of two constructible complexes are
-constructible on a common stratification.  Interval: at a geometric point
-$\bar x$ the stalk is $\RHom_A(K_{\bar x},M_{\bar x})$ and is concentrated in
-$[c-b,d-a]$, the stalk of $\RHom$ being computed by $\RHom$ of the stalks
-here, because the two variables can be replaced
-there by finite free models in their Tor-amplitude intervals.  Since stalks are
-exact and conservative on the \'etale site, $\mathcal H^n(\RHom_A(K,M))=0$
-outside $[c-b,d-a]$.
+constructible on a common stratification.  Site-perfect case: locally
+$K$ is a bounded complex $P$ of finite projective $A$-modules in $[a,b]$, so
+$\RHom_A(K,M)=P^\vee\otimes^L_AM$ locally, a bounded flat complex in
+$[c-b,d-a]$; since stalks are exact and conservative on the \'etale site the
+interval holds globally.  General case: the stalk of $\RHom$ is \emph{not}
+$\RHom$ of the stalks (the example above), and one argues geometrically.  By
+\Cref{prop:sf-biduality-general} and the tensor--Hom adjunction,
+$\RHom_A(K,M)\cong\mathbb D_X(K\otimes^L_A\mathbb D_XM)$, and $\mathbb D_X$
+carries Tor amplitude $[c,d]$ into $[-d-2m,-c]$ (the dualizing complex has
+cohomology in $[-2m,0]$).  Applying this twice, with the additivity of Tor
+amplitude for $\otimes^L$, gives $[c-b-2m,d-a+2m]$.
 \end{proof}
 
 % Decomposed.
@@ -8013,7 +7936,9 @@ domains, \emph{each clause being a statement about the functor of
 \Dctf(Y,\Lambda)$ and
 $\RHom_\Lambda(-,-):\Dctf(Y,\Lambda)^{\mathrm{op}}\times\Dctf(Y,\Lambda)\to
 \Dctf(Y,\Lambda)$ are defined, with Tor amplitudes
-$[a,b]+[c,d]\mapsto[a+c,b+d]$ and $[a,b],[c,d]\mapsto[c-b,d-a]$;
+$[a,b]+[c,d]\mapsto[a+c,b+d]$ and, for $\dim Y\le m$,
+$[a,b],[c,d]\mapsto[c-b-2m,d-a+2m]$, sharpened to $[c-b,d-a]$ when the first
+argument is site-perfect;
 (iii) $Rf_*:\Dctf(X,\Lambda)\to\Dctf(Y,\Lambda)$ is defined;
 (iv) $Rf_!:\Dctf(X,\Lambda)\to\Dctf(Y,\Lambda)$ is defined;
 (v) $Rf^!:\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$ is defined for every $f$
@@ -8379,8 +8304,9 @@ form for closed subschemes (\Cref{thm:sf-kunneth-relative}).
 \item[(8)] \emph{Stability.} The operations descend to the constructible and
 finite-Tor subcategories exactly as typed in \Cref{thm:sf-ctf-stability} and
 \Cref{rem:sf-matrix}, with the explicit amplitude shifts
-$[a,b+2d]$ for $Rf_*$, $[a+c,b+d]$ for $\otimes^L$, $[c-b,d-a]$ for
-$\RHom$, and $-2d$, $2c$, $2d+1$ for $Rf^!$ in the smooth, closed and general
+$[a,b+2d]$ for $Rf_*$, $[a+c,b+d]$ for $\otimes^L$, $[c-b-2d,d'-a+2d]$
+for $\RHom$ of objects with amplitudes $[a,b],[c,d']$ on a scheme of
+dimension $\le d$ ($[c-b,d'-a]$ for a site-perfect first argument), and $-2d$, $2c$, $2d+1$ for $Rf^!$ in the smooth, closed and general
 cases.
 \end{enumerate}
 \end{theorem}
@@ -8788,11 +8714,16 @@ For $(X,K)$, the diagonal identity is the
 \hyperref[d:corr]{endocorrespondence} with support $X$, support map
 $\Delta_X:X\to X\times X$, identity legs, and coefficient map $1_K$.
 For another endocorrespondence $(C,c,u)$, its intersection with this
-diagonal is $F=\Fix(c)$. Define its trace class by the
+diagonal is $F=\Fix(c)$.  Its trace class
+$\Tr_c(u):A_F\to\omega_F$ is the Verdier trace class: the mate of $u$
+followed by the trace map of external duality (blueprint
+{\scriptsize\nolinkurl{def:trf-trace-class}}).  It is computed by the
 \hyperref[d:pairing]{supported pairing}:
 \[
- \Tr_c(u):=\langle u,1_K\rangle_{\mathrm{LV}}:A_F\longrightarrow\omega_F.
+ \Tr_c(u)=\langle u,1_K\rangle_{\mathrm{LV}}:A_F\longrightarrow\omega_F
 \]
+(blueprint {\scriptsize\nolinkurl{lem:trf-trace-class-diagonal-pairing}}; the two
+constructions agree exactly, with no sign or twist).
 This is a class on the specified scheme $F$; integration, when defined,
 is a separate operation.
 \end{definition}
@@ -8986,7 +8917,9 @@ Define its local term by \hyperref[d:integral]{integration}:
  \LT_B(u,v):=\int_B j_B^*\langle u,v\rangle_{\mathrm{LV}}\in A.
 \]
 For an endocorrespondence, use its \hyperref[d:trace-class]{trace class} to set
-$\LT_B(u):=\LT_B(u,1_K)=\int_B j_B^*\Tr_c(u)$, with $B\subseteq\Fix(c)$.
+$\LT_B(u):=\int_B j_B^*\Tr_c(u)$, with $B\subseteq\Fix(c)$; it equals
+$\LT_B(u,1_K)$ because $\Tr_c(u)=\langle u,1_K\rangle_{\mathrm{LV}}$
+(blueprint {\scriptsize\nolinkurl{lem:trf-trace-class-diagonal-pairing}}).
 The ambient support need not be proper. At a Frobenius fixed point,
 $\LT_{\bar x}$ means the local term on its reduced clopen point component.
 \end{definition}
@@ -9326,8 +9259,8 @@ invertible.
 \end{proof}
 \source{thm:trf-trace-additivity-categorical; lem:trf-global-operator-triangulated; prop:trf-trace-formal-laws}
 
-% STATUS: outline definition.
-\begin{definition}[The affine and projective lines]\label{d:lines}
+% STATUS: outline remark (notation only).
+\begin{remark}[The affine and projective lines]\label{d:lines}
 \uses{\up{d:setup}}
 Over a finite field $F$ from the \hyperref[d:setup]{coefficient setup},
 put $\mathbf A^1_F=\operatorname{Spec}F[t]$.
@@ -9336,7 +9269,7 @@ $F[t,t^{-1}]=F[z,z^{-1}]$, with $z=t^{-1}$, to obtain $\mathbf P^1_F$.
 The first chart is $\mathbf A^1_F$ and its complement is the point
 $\infty$ defined by $z=0$. Frobenius acts by $t\mapsto t^{|F|}$ and
 $z\mapsto z^{|F|}$ on these charts.
-\end{definition}
+\end{remark}
 \source{def:lv-projective-line}
 
 % STATUS: outline statement; final map node.
@@ -9752,11 +9685,10 @@ content: proof of Poincare duality theorem
 % Decomposed.
 \begin{remark}[The fixed setting]
 \label{def:set}
-Fix a prime \(p\), \(a\ge1\), \(q=p^a\), \(k_0=\Fq\), the algebraic
-closure \(k=\overline{\mathbf F}_q\), a prime \(\ell\ne p\), a finite
-extension \(E/\Ql\) with valuation ring \(\Oe\), uniformizer
-\(\varpi_E\), \(n\ge1\), and \(\AEn=\Oe/\varpi_E^n\); put
-\(\Lambda\in\{\AEn,\Oe,E,\Qlb\}\).  Let \(X_0/k_0\) be smooth, separated of
+\uses{\up{def:sf-setting}}
+Work with the finite-field datum \((p,a,q,k_0,k)\), \(\ell\), \(E\), \(\Oe\),
+\(\varpi_E\), \(\AEn=\Oe/\varpi_E^n\) and the coefficient stages
+\(\Lambda\in\{\AEn,\Oe,E,\Qlb\}\) fixed in \Cref{def:sf-setting}.  Let \(X_0/k_0\) be smooth, separated of
 finite type and geometrically connected of pure dimension \(d\), put
 \(X=X_0\times_{k_0}k\) and \(s=\Spec k\), and let \(a_X:X\to s\) be the
 structure morphism, assumed \emph{exceptional-adjoint admissible} at every
@@ -9765,7 +9697,7 @@ duality results \Cref{thm:sf-global-duality}, \Cref{thm:sf-identification}
 and \Cref{thm:derived-duality}
 are formulated with compact supports and never use it.  It is imposed
 explicitly, and only, in \Cref{def:trace-cup}, \Cref{cor:trace},
-\Cref{thm:frobenius}, \Cref{thm:poincare-duality} and the final clause of
+\Cref{thm:poincare-duality} and the final clause of
 \Cref{thm:derived-duality}, each of which needs
 \(Ra_{X!}\cong Ra_{X*}\). (Blueprint \ch{15}, \bp{def:pod-conventions}; the axioms are those of
 \ch{13}, \bp{def:sf-datum}.)
@@ -9804,22 +9736,6 @@ locally quasi-isomorphic to a bounded complex of finite projective
 \end{definition}
 
 % Decomposed.
-\begin{definition}[The orientation datum]
-\label{def:orientation}
-In the setting of \Cref{def:set}, an \emph{orientation} is, for every
-smooth separated finite-type \(f:X\to Y\) of pure relative dimension \(d\),
-an isomorphism
-\[
- \gamma_{f,\Lambda_Y}:Lf^*\Lambda_Y(d)[2d]\xrightarrow{\ \sim\ }Rf^!\Lambda_Y,
-\]
-natural in \(Y\), compatible with composition, \'etale base change, finite
-reduction, scalar extension and the pro-\'etale realization; for
-\(f=a_X\) it reads \(\omega_{X,\Lambda}\cong\Lambda_X(d)[2d]\).
-(Blueprint \ch{13}, \bp{def:sf-orientation}.)
-\uses{\up{def:set}, \up{def:ops}}
-\end{definition}
-
-% Decomposed.
 \begin{definition}[The pairing data]
 \label{def:pairing-data}
 In the setting of \Cref{def:ops}, the \emph{mixed-support cup product} is
@@ -9832,7 +9748,7 @@ counit \(La_X^*Ra_{X*}\to\id\); the \emph{normalized smooth trace}
 \(\Trsm_{a_X,\Lambda}: \RGammac(X,\Lambda_X(d)[2d])\to\Lambda\) is the
 counit of \(Ra_{X!}\dashv Ra_X^!\) read through the orientation.
 (Blueprint \ch{13}, \bp{def:sf-cup}; \ch{14}, \bp{def:pur-smooth-trace}.)
-\uses{\up{def:orientation}, \up{def:ops}}
+\uses{\up{def:sf-orientation}, \up{def:ops}}
 \end{definition}
 
 % Decomposed.
@@ -9865,7 +9781,7 @@ orientation; the \emph{trace--cup pairing} is
  H^i(X,\Lambda)\times H^{2d-i}(X,\Lambda)\to\Lambda(-d).
 \]
 (Blueprint \ch{1}, \bp{def:weil-poincare-trace-cup}.)
-\uses{\up{def:orientation}, \up{def:ops}}
+\uses{\up{def:sf-orientation}, \up{def:ops}}
 \end{definition}
 
 % Decomposed.
@@ -10049,6 +9965,11 @@ convention, not a theorem. (Blueprint \ch{13}, \bp{cor:sf-trace}; \ch{15},
 Take \(K=\Lambda_X\) in the proper case of \Cref{thm:sf-identification}
 and \(i=0\): the
 degreewise form reads \(H^0_c(X,\Lambda)^\vee\cong H^{2d}(X,\Lambda)(d)\).
+(At \(\Lambda\in\{A_{E,n},E,\Qlb\}\) this is the degreewise clause.  At
+\(\Lambda=\Oe\) the derived form gives
+\(H^{2d}(X,\Oe)(d)\cong\operatorname{Hom}(H^0,\Oe)\oplus\operatorname{Ext}^1(H^1,\Oe)\),
+and the Ext term vanishes: \(H^1(X,\Oe)\) is torsion-free, since
+\(H^0(X,\Oe)\to H^0(X,A_{E,1})\) is surjective, \(X\) being connected.)
 Since \(X\) is proper, \(Ra_{X!}\cong Ra_{X*}\) by \Cref{def:ops} and hence
 \(H^0_c=H^0\); since \(X\) is geometrically connected, \(H^0(X,\Lambda)\cong
 \Lambda\) with the geometric Frobenius acting as the identity, which is the
@@ -10066,7 +9987,7 @@ generator of \(H^{2d}\cong\Lambda(-d)\), not an additional statement.
 % Decomposed.
 \begin{theorem}[Frobenius: equivariance, similitudine, reciprocity]
 \label{thm:frobenius}
-In the setting of \Cref{def:weil} with \(X_0\) in addition \emph{proper},
+In the setting of \Cref{def:weil} (\(X_0\) need not be proper),
 for a strict Weil complex \(K\) perfect over \(\Lambda_X\): the pairing
 satisfies
 \(\langle F_{c,K}x,F_{K^\vee(d)}y\rangle_i=\langle x,y\rangle_i\);
@@ -10076,22 +9997,23 @@ the untwisted line-valued pairing satisfies
  =q^d\langle x,y\rangle_i^{\mathrm{untw}};
 \]
 and \(F_{K^\vee}\) is conjugate to \(q^d(F_{c,K}^{-1})^{\mathsf t}\), so
-the eigenvalues of \(F\) on \(H^{2d-i}\) are the \(q^d/\alpha\) with the
-multiplicities of the eigenvalues \(\alpha\) on \(H^i\).
+the eigenvalues of \(F\) on \(H^{2d-i}(X,K^\vee)\) are the \(q^d/\alpha\) with
+the multiplicities of the eigenvalues \(\alpha\) on \(H^i_c(X,K)\) (for proper
+\(X\), \(H^i_c=H^i\)).
 (Blueprint \ch{15}, \bp{thm:pod-equivariance-of-the-twisted-pairing},
 \bp{cor:pod-untwisted-similitude},
 \bp{cor:pod-reciprocal-eigenvalues}.)
 \uses{\up{def:weil}, \up{thm:derived-duality}, \up{def:pairing},
-\up{def:orientation}}
+\up{def:sf-orientation}}
 \end{theorem}
 
 \begin{proof}
-\uses{\up{def:weil}, \up{thm:derived-duality}, \up{def:orientation}}
+\uses{\up{def:weil}, \up{thm:derived-duality}, \up{def:sf-orientation}}
 \emph{Step 1 (each ingredient is equivariant).}  The mixed-support cup
 product is induced by the tensor product of complexes and its
 \(\Gamma_c\)-realization, both of which are lifted to Weil complexes by the
 functoriality built into \Cref{def:weil}; the evaluation is a morphism of
-Weil objects; and the orientation of \Cref{def:orientation} is
+Weil objects; and the orientation of \Cref{def:sf-orientation} is
 Frobenius-equivariant, by the Weil equivariance of purity and trace
 (\bp{thm:pur-weil-equivariance-of-purity-and-trace}, whose target datum on
 the coefficient ring is the canonical one).
@@ -10118,8 +10040,9 @@ normalization of \Cref{def:weil}.
 \emph{Step 4 (reciprocity).}  By Step 3 and the nondegeneracy of the
 pairing, \(F_{K^\vee}\) is conjugate to \(q^d(F_{c,K}^{-1})^{\mathsf t}\);
 the characteristic polynomial is invariant under transposition, so the
-eigenvalues of \(F\) on \(H^{2d-i}\) are the \(q^d/\alpha\), with the
-multiplicities of the eigenvalues \(\alpha\) of \(F\) on \(H^i\).  These are
+eigenvalues of \(F\) on \(H^{2d-i}(X,K^\vee)\) are the \(q^d/\alpha\), with the
+multiplicities of the eigenvalues \(\alpha\) of \(F\) on \(H^i_c(X,K)\).  No
+step uses properness.  These are
 \bp{thm:pod-equivariance-of-the-twisted-pairing},
 \bp{cor:pod-untwisted-similitude} and \bp{cor:pod-reciprocal-eigenvalues}.
 \end{proof}
@@ -11681,6 +11604,42 @@ of subobjects, quotients and subquotients follows.
 \end{proof}
 \source{thm:galois-finite-sheaves; thm:lisse-representations; thm:weil-representations}
 
+% STATUS: outline definition.
+\begin{definition}[Operations, constituents and coinvariants]\label{d:real-operations}
+\uses{\up{d:real-weil}}
+For \hyperref[d:real-weil]{Weil representations} use the ordinary direct sum,
+diagonal tensor action, exterior action on $\bigwedge^r V$, dual action
+$(g\lambda)(v)=\lambda(g^{-1}v)$, and determinant
+$\det V=\bigwedge^{\dim V}V$. An irreducible representation is nonzero
+with no proper nonzero invariant subspace. Constituents are irreducible
+successive quotients of a composition series, counted with multiplicity;
+their direct sum is a semisimplification.
+For a subgroup $I$, set
+$V^I=\{v:gv=v\text{ for all }g\in I\}$ and
+$V_I=V/\langle gv-v:g\in I,v\in V\rangle$.
+For $b\in\Qlb^\times$, the constant Weil line $B_b$ has action
+$g\mapsto b^{\deg g}$. The Tate line is $\Qlb(n)=B_{q^{-n}}$.
+\end{definition}
+
+% STATUS: outline definition.
+\begin{definition}[Local weights and reality]\label{d:real-weights}
+\uses{\up{d:real-setup}, \up{d:real-weil}}
+For a \hyperref[d:real-weil]{Weil sheaf} $\mathcal F$, use the
+determinant to set
+\[
+ P_x(\mathcal F,T)=\det(1-TF_x\mid\mathcal F_{\bar x}),\qquad
+ \wt_{\iota,q_x}(\alpha)=
+       \frac{2\log|\iota(\alpha)|}{\log q_x}
+\]
+for a nonzero local eigenvalue $\alpha$ and the
+\hyperref[d:real-setup]{residue cardinality} $q_x$.
+The sheaf is punctually $\iota$-pure of weight $w$ if all these weights
+are $w$, and has weights at most $w$ if all are $\le w$.
+It is $\iota$-real if $\iota P_x(\mathcal F,T)\in\mathbf R[T]$ for every
+$x$, equivalently if each complex local eigenvalue multiset is stable
+under complex conjugation. This condition is imposed on polynomials.
+\end{definition}
+
 % STATUS: outline statement; PROOF STATUS: proof sketch, following
 % def:representation-operations and def:local-polynomial of the full blueprint.
 \begin{proposition}[Local Frobenius polynomials]\label{p:real-operations}
@@ -11775,41 +11734,6 @@ finite locally constant sheaves whose limit is the lisse $\mathcal O_E$-sheaf
 on $U$ with stalk $L$.
 \end{proof}
 \source{def:lisse-sheaf; def:adic-system}
-% STATUS: outline definition.
-\begin{definition}[Operations, constituents and coinvariants]\label{d:real-operations}
-\uses{\up{d:real-weil}}
-For \hyperref[d:real-weil]{Weil representations} use the ordinary direct sum,
-diagonal tensor action, exterior action on $\bigwedge^r V$, dual action
-$(g\lambda)(v)=\lambda(g^{-1}v)$, and determinant
-$\det V=\bigwedge^{\dim V}V$. An irreducible representation is nonzero
-with no proper nonzero invariant subspace. Constituents are irreducible
-successive quotients of a composition series, counted with multiplicity;
-their direct sum is a semisimplification.
-For a subgroup $I$, set
-$V^I=\{v:gv=v\text{ for all }g\in I\}$ and
-$V_I=V/\langle gv-v:g\in I,v\in V\rangle$.
-For $b\in\Qlb^\times$, the constant Weil line $B_b$ has action
-$g\mapsto b^{\deg g}$. The Tate line is $\Qlb(n)=B_{q^{-n}}$.
-\end{definition}
-
-% STATUS: outline definition.
-\begin{definition}[Local weights and reality]\label{d:real-weights}
-\uses{\up{d:real-setup}, \up{d:real-weil}, \up{d:real-operations}}
-For a \hyperref[d:real-weil]{Weil sheaf} $\mathcal F$, use the
-\hyperref[d:real-operations]{determinant} to set
-\[
- P_x(\mathcal F,T)=\det(1-TF_x\mid\mathcal F_{\bar x}),\qquad
- \wt_{\iota,q_x}(\alpha)=
-       \frac{2\log|\iota(\alpha)|}{\log q_x}
-\]
-for a nonzero local eigenvalue $\alpha$ and the
-\hyperref[d:real-setup]{residue cardinality} $q_x$.
-The sheaf is punctually $\iota$-pure of weight $w$ if all these weights
-are $w$, and has weights at most $w$ if all are $\le w$.
-It is $\iota$-real if $\iota P_x(\mathcal F,T)\in\mathbf R[T]$ for every
-$x$, equivalently if each complex local eigenvalue multiset is stable
-under complex conjugation. This condition is imposed on polynomials.
-\end{definition}
 
 % STATUS: derived; the linear algebra itself is in the algebraic-group
 % section, cited below by name.
@@ -11955,10 +11879,10 @@ $v_\ell(\ell)=1$, put $U_E=1+\ell^2\mathcal O_E$, and define
 
 % STATUS: outline statement; PROOF STATUS: proof idea, not fully decomposed.
 \begin{proposition}[Purity of rank-one Weil sheaves]\label{p:real-rankone}
-\uses{\up{d:real-setup}, \up{d:real-weil}, \up{d:real-operations}, \up{d:real-weights}, \up{p:rankone}}
+\uses{\up{d:real-setup}, \up{d:real-weil}, \up{d:real-weights}, \up{i:real-sheaves}, \up{p:rankone}}
 Let $L$ be a rank-one lisse \hyperref[d:real-weil]{Weil sheaf} on a
 \hyperref[d:real-setup]{smooth geometrically connected curve} $U_0/\Fq$,
-with character $\chi:W(U_0)\to E^\times$.
+with character $\chi:W(U_0)\to E^\times$ under \Cref{i:real-sheaves}.
 Its geometric image $\chi(\pi_1(U))$ is finite, so the rank-one
 factorization of \Cref{p:rankone} applies.  Consequently $L$ is
 \hyperref[d:real-weights]{punctually $\iota$-pure} of weight
@@ -11966,7 +11890,7 @@ $w=2\log|\iota(c)|/\log q$, where $c=\chi(\gamma)$ for any degree-one
 lift $\gamma$.
 \end{proposition}
 \begin{proof}[Proof idea]
-\uses{\up{d:real-jacobian}, \up{d:real-log}, \up{d:real-weil}, \up{d:real-operations}, \up{d:real-weights}, \up{i:real-compactification}, \up{prop:jacobian-descent}, \up{prop:hilbert90}, \up{lem:finite}, \up{thm:derived-duality}, \up{thm:frobenius}, \up{prop:sf-open-closed-triangle}, \up{i:real-sheaves}, \up{p:real-integral}, \up{p:rankone}, \up{r:linear-library}}
+\uses{\up{d:real-jacobian}, \up{d:real-log}, \up{d:real-weil}, \up{d:real-weights}, \up{i:real-compactification}, \up{prop:jacobian-descent}, \up{prop:hilbert90}, \up{lem:finite}, \up{thm:derived-duality}, \up{thm:frobenius}, \up{prop:sf-open-closed-triangle}, \up{i:real-sheaves}, \up{p:real-integral}, \up{p:rankone}, \up{r:linear-library}}
 \emph{Proper curves.}
 Choose a completion with \Cref{i:real-compactification} and let $J_0$ be
 the Jacobian of the completed curve over $\Fq$ given by
@@ -12028,21 +11952,17 @@ $0\to H^1(C,E)\to H^1(U,E)\to(E^D)^\vee(-1)$.
 A positive Frobenius power on the boundary term is a scalar $q^r\ne1$,
 so $H^1(U,E)^{\Frob=1}=0$.
 If a continuous additive map $b:\pi_1(U)\to E$ is invariant under
-conjugation by $\gamma$, the \Cref{d:real-weil} group law makes
-\[
- g\gamma^n\longmapsto
- \begin{pmatrix}1&b(g)\\0&1\end{pmatrix}
- \qquad(n\in\mathbf Z)
-\]
-a Weil representation: compactness of $\pi_1(U)$ makes $b(\pi_1(U))$
-bounded, so a lattice $\ell^{-a}\mathcal O_E e_1\oplus\mathcal O_E e_2$
-is stable for sufficiently large $a$.
-By \Cref{i:real-sheaves}, it gives an extension
-$0\to E\to\mathcal E_b\to E\to0$ whose geometric extension class
-in $H^1(U,E)$ is Frobenius fixed.  Degree-one cohomology classifies such
-extensions (Blueprint 06, \texttt{lem:sc-ext-torsor} with
-\texttt{lem:sc-torsor-h1}), and that makes the class zero; a geometric fixed lift $(a,1)$
-then satisfies $(a+b(g),1)=(a,1)$, so $b=0$.
+conjugation by $\gamma$, choose a $\Ql$-basis of $E$ with coordinate maps
+$t_i:E\to\Ql$.  Compactness of $\pi_1(U)$ makes $b(\pi_1(U))$ bounded, so for
+some $a$ each $b_i=\ell^at_i\circ b$ is a continuous homomorphism
+$\pi_1(U)\to\mathbf Z_\ell$, again invariant under conjugation by $\gamma$.  Its
+reductions modulo $\ell^n$ are classes in
+$H^1(U,\Z/\ell^n)=\operatorname{Hom}_{\mathrm{cont}}(\pi_1(U),\Z/\ell^n)$, compatible in
+$n$, and conjugation by the degree-one lift $\gamma$ is the Frobenius action
+on these groups;  so $b_i$ is a Frobenius-fixed element of
+$H^1(U,\mathbf Z_\ell)=\operatorname{Hom}_{\mathrm{cont}}(\pi_1(U),\mathbf Z_\ell)$.  This group is torsion free,
+and the image of $b_i$ in $H^1(U,E)$ is Frobenius fixed, hence zero by the
+previous paragraph;  so $b_i=0$ for every $i$, and $b=0$.
 
 \emph{Logarithm and purity.}
 By \Cref{p:real-integral}, take a stable integral rank-one model
@@ -12064,69 +11984,20 @@ $|\iota(c)|^d=q^{dw/2}$.  This is purity in \Cref{d:real-weights}.
 
 % STATUS: local outline definitions; no change to the full blueprint.
 \begin{definition}[Arithmetic monodromy and a central representative]\label{d:real-monodromy}
-\uses{\up{d:real-setup}, \up{d:real-weil}}
-An affine algebraic group over an algebraically closed field $K$ of
-characteristic zero is a reduced closed subgroup of $\GL_n$; its equations
-are polynomials in matrix entries and inverse determinant.  A rational
-representation is a regular group homomorphism into a general linear group.
-An irreducible representation is nonzero and has no proper nonzero
-invariant subspace.  A representation is semisimple if it is a finite direct sum of irreducible
-representations, with the zero representation allowed as an empty sum.
-Write $G^\circ$ for the connected component of $1$ and $Z(G)$ for the
-subgroup commuting with every element of $G$.
-Dimension means the Krull dimension of the coordinate ring.
+\uses{\up{d:real-setup}, \up{d:real-weil}, \up{d:monodromy}, \up{d:central}}
 For the \hyperref[d:real-weil]{Weil representation}
 $\rho:W(C_0)\to\GL(V)$ over the \hyperref[d:real-setup]{coefficient field}
-$K=\Qlb$, put
+$K=\Qlb$ (algebraically closed of characteristic zero), with $\gamma$ of
+degree one, the degree sequence of \Cref{d:real-weil} makes
+$(W(C_0),\deg,\gamma,\rho)$ a represented degree datum with $P=\pi_1(C)$.
+Its monodromy data $(P,H,G,F)$ are those of \Cref{d:monodromy}:
 \[
- P=\pi_1(C),\qquad
- H=\overline{\rho(P)}^{\mathrm{Zar}},\qquad
- G=\overline{\rho(W(C_0))}^{\mathrm{Zar}},\qquad F=\rho(\gamma),
+ H=\overline{\rho(\pi_1(C))},\qquad
+ G=\overline{\rho(W(C_0))},\qquad F=\rho(\gamma).
 \]
-where $\gamma$ has degree one.  A positive central Frobenius representative
-is a pair $(N,z)$ with $N\ge1$ an integer and
-$z\in Z(G)\cap HF^N$; here $HF^N=\{hF^N:h\in H\}$ is an ordinary matrix coset.
-\source{def:monodromy; def:algebraic-representation; def:central-frobenius-representative}
-\end{definition}
-
-\begin{definition}[Lie algebras and tangent actions]\label{d:real-lie}
-\uses{\up{d:real-monodromy}}
-A Lie algebra is a vector space with a bilinear alternating bracket
-satisfying Jacobi.  An ideal $I$ satisfies $[L,I]\subseteq I$;
-$Z(L)=\{x:[x,L]=0\}$.  Set $D^0L=L$ and
-$D^{j+1}L=[D^jL,D^jL]$, taking linear spans of brackets.
-Solvable means $D^jL=0$ for some $j$; in finite dimension the radical
-$\operatorname{rad}L$ is the largest solvable ideal.
-The quotient by an ideal has bracket $[x+I,y+I]=[x,y]+I$.
-A Lie representation is a bracket-preserving linear map
-$L\to\operatorname{End}_K(V)$; faithful means injective, and irreducible
-means that $V\ne0$ has no proper nonzero invariant subspace.
-Its Killing form is
-$B_L(x,y)=\Tr(\operatorname{ad}x\operatorname{ad}y)$, where
-$\operatorname{ad}x(y)=[x,y]$; nondegeneracy means that its kernel is zero.
-For a \hyperref[d:real-monodromy]{matrix group}, define
-\[
- \Lie G=\{x:1+\varepsilon x\in G(K[\varepsilon]/\varepsilon^2)\},
- \quad [x,y]=xy-yx,\quad
- r(1+\varepsilon x)=1+\varepsilon\,dr(x).
-\]
-The same tangent definition applies to a subgroup scheme given by matrix
-equations, before it is known to be reduced.  Write
-$\operatorname{Ad}(g)x=gxg^{-1}$.
-\source{def:lie-algebra; def:lie-representation; def:lie-radical; def:lie-quotient; def:lie-killing; def:lie-matrix-group}
-\end{definition}
-
-\begin{definition}[The finite component norm]\label{d:real-ag-norm}
-\uses{\up{d:real-monodromy}}
-For the \hyperref[d:real-monodromy]{monodromy group} $G$, choose representatives
-$g_1,\ldots,g_r$ of the left cosets of $G^\circ$ in $G$
-and $c\in Z(G^\circ)$, define
-\[
- \mathcal N_G(c)=\prod_{i=1}^r g_i c g_i^{-1}
-\]
-in the displayed order.  If also $c\in HF^m$ with $m\ge1$, set
-$N=mr$ and $z=\mathcal N_G(c)$.
-\source{def:central-component-norm; def:central-frobenius-representative}
+Positive central Frobenius representatives $(N,z)$ are the positive
+central pairs of \Cref{d:central} for these data.
+\source{def:monodromy; def:central-frobenius-representative}
 \end{definition}
 
 For the semisimple Weil representations of \Cref{d:real-weil}, the
@@ -12633,7 +12504,7 @@ $\Psi:\Fp\to\Qlb^\times$, the character
 $\psi(x)=\Psi(\Tr_{k_0/\Fp}(x))$ is \emph{the} nondegenerate additive
 character; $\psi_a(x)=\psi(ax)$, $a\in k_0^\times$, runs through all of them;
 over $\mathbf F_{q^n}$ one writes
-$\psi_n(x)=\psi(\Tr_{\mathbf F_{q^n}/\Fp}(x))$.  (Blueprint the Fourier--Deligne chapter,
+$\psi_n(x)=\psi(\Tr_{\mathbf F_{q^n}/k_0}(x))=\Psi(\Tr_{\mathbf F_{q^n}/\Fp}(x))$.  (Blueprint the Fourier--Deligne chapter,
 \bp{def:fd-additive-character}.)
 \uses{\up{def:fourier-set}}
 \end{definition}
@@ -12661,12 +12532,22 @@ nondegenerate character of $k_0$ is some $\psi_a$
 % Decomposed.
 \begin{definition}[The Artin--Schreier sheaf]
 \label{def:as}
-For $X_0/k_0$ and $f\in\mathcal O_{X_0}$, the Artin--Schreier covering is
-$\pi:Y=\Spec\mathcal O_{X_0}[T]/(T^p-T-f)\to X_0$ with its $\Fp$-action
-$T\mapsto T+a$; the \emph{Artin--Schreier sheaf} $\mathcal L_{\psi,f}$ is the
-$\psi$-isotypic component of $\pi_*\Qlb$ for the idempotent
-$e_\psi=\frac1p\sum_{a\in\Fp}\psi(-a)\sigma_a$.  On $\Aone$ one writes
-$\mathcal L_\psi=\mathcal L_{\psi,x}$.  (Blueprint the Fourier--Deligne chapter,
+Let $\psi=\Psi\circ\Tr_{k_0/\Fp}$ be the additive character of
+\Cref{def:char}.  For $X_0/k_0$ and $f\in\Gamma(X_0,\mathcal O_{X_0})$, the
+Artin--Schreier covering is
+$\pi:Y=\Spec_{X_0}\mathcal O_{X_0}[T]/(T^p-T-f)\to X_0$ with its $\Fp$-action
+$\sigma_a:T\mapsto T+a$, which acts on $\pi_*\Qlb$ by pullback.  The
+\emph{Artin--Schreier sheaf} $\mathcal L_{\psi,f}$ is the $\Psi$-isotypic
+component
+\[
+ \mathcal L_{\psi,f}:=e_\Psi\,\pi_*\Qlb,\qquad
+ e_\Psi=\frac1p\sum_{a\in\Fp}\Psi(-a)\,\sigma_a ,
+\]
+the subsheaf on which each $\sigma_a$ acts by $\Psi(a)$.  The idempotent uses
+the character $\Psi$ of $\Fp$, not $\psi|_{\Fp}$, which is trivial when
+$p\mid[k_0:\Fp]$.  For $a\in k_0$ put $\mathcal L_{\psi(af)}:=\mathcal
+L_{\psi,af}$; on $\Aone$ one writes $\mathcal L_\psi=\mathcal L_{\psi,x}$ and
+$\mathcal L_{\psi(ax)}=\mathcal L_{\psi,ax}$.  (Blueprint the Fourier--Deligne chapter,
 \bp{def:fd-artin-schreier-sheaf}.)
 \uses{\up{def:char}}
 \end{definition}
@@ -12678,15 +12559,18 @@ $\pi$ is finite \'etale of degree $p$ with
 $\operatorname{Aut}(Y/X_0)\cong\Fp$, and over $\Aone_{k_0}$ it is
 $y\mapsto x=y^p-y$.  Its pushforward decomposes as
 $\pi_*\Qlb\cong\bigoplus_{\chi\in\widehat{\Fp}}\mathcal L_\chi$ with each
-$\mathcal L_\chi$ lisse of rank one and $\mathcal L_\chi=1$ if and only if
-$\chi=0$; consequently $\mathcal L_{\psi,f}$ is lisse of rank one,
+$\mathcal L_\chi$ lisse of rank one and $\mathcal L_0=1$ (for $\chi\ne0$,
+$\mathcal L_\chi$ may or may not be constant, e.g.\ all are constant when $f=0$);
+consequently $\mathcal L_{\psi,f}$ is lisse of rank one,
 \[
  \mathcal L_{\psi,f}\otimes\mathcal L_{\psi,g}\cong\mathcal L_{\psi,f+g},
  \qquad
- (\mathcal L_{\psi,f})^{-1}\cong\mathcal L_{-\psi,f}.
+ (\mathcal L_{\psi,f})^{-1}\cong\mathcal L_{\psi,-f}.
 \]
-Its trace function on $\Aone_{k_0}$ is
-$t_{\mathcal L_{\psi,ax}}(u)=\psi(\Tr_{\kappa(u)/\Fp}(au))$; and
+At a closed point $u$ the geometric Frobenius acts on $\mathcal L_{\psi,f}$ by
+$\Psi(\Tr_{\kappa(u)/\Fp}f(u))=\psi(\Tr_{\kappa(u)/k_0}f(u))$; so its trace
+function on $\Aone_{k_0}$ is
+$t_{\mathcal L_{\psi,ax}}(u)=\psi(\Tr_{\kappa(u)/k_0}(au))$; and
 $H^q(\Aone_{\bar k},\mathcal L_{\psi_a})=0$ for $(q,a)\neq(0,0)$, while
 $H^0(\Aone_{\bar k},\Qlb)=\Qlb$ and $H^q(\Aone_{\bar k},\Qlb)=0$ for $q>0$.
 (Blueprint \bp{lem:fd-as-cover}, \bp{lem:fd-as-cover-affine-line},
@@ -12708,9 +12592,13 @@ the abelian group occurs exactly once in the regular representation.  The
 $\chi=0$ part is the invariant part of a pushforward along a torsor, i.e.\ the
 constant sheaf.  The group law of the torsor makes the decomposition one of
 algebras, whence the multiplicativity and the inverse formula.  Over
-$\Aone_{k_0}$ the equation reads $T^p-T-x$ with $y=T$.  For the trace: on the
-torsor the sheaf is the $\psi$-isotypic part, so the local Frobenius at a
-closed point $u$ acts by $\psi$ evaluated at $\Tr_{\kappa(u)/\Fp}(au)$.
+$\Aone_{k_0}$ the equation reads $T^p-T-x$ with $y=T$.  For the trace: at a closed point $u$ with $|\kappa(u)|=q^m$, a
+point $y$ of the fibre satisfies
+$y^{q^m}=y+\sum_{0\le j<r}f(u)^{p^j}=y+\Tr_{\kappa(u)/\Fp}f(u)$, where $p^r=q^m$, so the
+geometric Frobenius (pullback along the $q^m$-power map) acts on the fibre
+functions as $\sigma_{\Tr_{\kappa(u)/\Fp}f(u)}$, hence on the $\Psi$-isotypic
+part by $\Psi(\Tr_{\kappa(u)/\Fp}f(u))=\psi(\Tr_{\kappa(u)/k_0}f(u))$; take
+$f=ax$.
 For the cohomology: the finite-pushforward identity
 $H^q(X_0,\pi_*\mathcal F)\cong H^q(Y,\mathcal F)$
 (\bp{lem:fd-finite-pushforward-cohomology}) turns
@@ -12786,7 +12674,7 @@ $\psi^{-1}$ in the kernel.  (Blueprint \bp{def:fd-transform}.)
 $\mathcal K_\psi$ is lisse of rank one on $V_0\times_{S_0}V_0^\vee$ and of
 finite Tor amplitude, and
 \[
- \mathcal K_\psi\otimes\mathcal K_{\psi'}\cong\mathcal K_{\psi+\psi'},
+ \mathcal K_\psi\otimes\mathcal K_{\psi'}\cong\mathcal K_{\psi\psi'},
  \qquad
  \mathcal K_\psi^{-1}\cong\mathcal K_{\psi^{-1}} .
 \]
@@ -12867,18 +12755,22 @@ Let $k$ be finite or algebraically closed and $V=\Aone_k$.  Then
 $\delta_0$ being the skyscraper at the origin of $V^\vee$ in degree $0$ and
 $(-1)$ the Tate twist of \Cref{def:fourier-set}.  (Blueprint the Fourier--Deligne chapter,
 \bp{lem:fd-first-formula}.)
-\uses{\up{prop:stalk}, \up{lem:as-properties}}
+\uses{\up{prop:stalk}, \up{lem:as-properties}, \up{thm:derived-duality}, \up{thm:frobenius}}
 \end{proposition}
 
 \begin{proof}
-\uses{\up{prop:stalk}, \up{lem:as-properties}}
+\uses{\up{prop:stalk}, \up{lem:as-properties}, \up{thm:derived-duality}, \up{thm:frobenius}}
 For $K=\Qlb$, P3 gives the stalk at $\bar\xi$ as
 $H^*_c(\Aone_k,\mathcal L_{\psi(x\xi)})[1]$.  For $\xi=0$ the integrand is
-constant and $R\Gamma_c(\Aone,\Qlb)\cong\Qlb(-1)[-2]$ by the
-Frobenius-equivariant Poincar\'e duality \bp{thm:weil-poincare-duality} in
-dimension one; for $\xi\neq0$ the integrand is $\mathcal L_{\psi(x\xi)}$ with
-$\xi\neq0$, whose cohomology vanishes by \Cref{lem:as-properties}, hence
-whose compactly supported cohomology vanishes by the same duality.  So the
+constant and $R\Gamma_c(\Aone,\Qlb)\cong\Qlb(-1)[-2]$: the degreewise
+duality of \Cref{thm:derived-duality} on the smooth, non-proper curve $\Aone$
+makes $H^i_c(\Aone,\Qlb)$ dual to $H^{2-i}(\Aone,\Qlb(1))$, which is
+$\Qlb(1)$ in degree $0$ and zero otherwise (\Cref{lem:as-properties}, the
+$\chi=0$ component), and \Cref{thm:frobenius} gives the Frobenius action
+$q$ on $H^2_c$; for $\xi\neq0$ the integrand is $\mathcal L_{\psi(x\xi)}$ with
+$\xi\neq0$, whose dual $\mathcal L_{\psi(-x\xi)}$ has vanishing cohomology by
+\Cref{lem:as-properties}, hence whose compactly supported cohomology vanishes
+by the same duality.  So the
 transform has a single nonzero stalk, one-dimensional in degree $-1$, at the
 origin, twisted by $(-1)$.  For $K=\delta_0$ the support of $p_1^*\delta_0$ is
 $\{0\}\times V^\vee$, on which $p_2$ is an isomorphism onto $V^\vee$, and the
@@ -12951,7 +12843,7 @@ shift $[r]$ commutes with the tensor product by a constant.
 For $y\in\mathbf F_{q^n}$ and a Weil complex $K$ on $\Aone$,
 \[
  t_{\FT_\psi(K)}(y)
- =-\sum_{x\in\mathbf F_{q^n}}t_K(x)\,\psi\bigl(\Tr_{\mathbf F_{q^n}/\Fp}(xy)\bigr).
+ =-\sum_{x\in\mathbf F_{q^n}}t_K(x)\,\psi\bigl(\Tr_{\mathbf F_{q^n}/k_0}(xy)\bigr).
 \]
 Thus, up to the sign coming from the shift $[1]$, the trace function of the
 transform is the classical Fourier transform of the trace function of the
@@ -12970,7 +12862,7 @@ complex as the sum of the traces at the geometric points of the fibre, i.e.\
 as $-\sum_xt_{K\otimes^L\mathcal L_{\psi(xy)}}(x)$, the sign being the shift
 $[1]$ of \Cref{def:ft}.  The trace of a tensor product is the product of the
 traces, and the trace of the Artin--Schreier factor at $x$ is
-$\psi(\Tr_{\mathbf F_{q^n}/\Fp}(xy))$ by \Cref{lem:as-properties}.
+$\psi(\Tr_{\mathbf F_{q^n}/k_0}(xy))$ by \Cref{lem:as-properties}.
 \end{proof}
 
 % Decomposed.
@@ -13078,11 +12970,11 @@ Let $S=\Spec k$ and $V=\mathbf A^r_k$.  Then
 \]
 $\Delta:V\to V\times_SV$ being the diagonal and $\iota'$ the reflection of the
 addition.  (Blueprint \bp{lem:fd-convolution-kernel}.)
-\uses{\up{prop:stalk}, \up{lem:as-properties}, \up{prop:kernel-lisse}}
+\uses{\up{prop:stalk}, \up{lem:as-properties}, \up{prop:kernel-lisse}, \up{thm:derived-duality}, \up{prop:an}}
 \end{proposition}
 
 \begin{proof}
-\uses{\up{prop:stalk}, \up{lem:as-properties}, \up{prop:kernel-lisse}}
+\uses{\up{prop:stalk}, \up{lem:as-properties}, \up{prop:kernel-lisse}, \up{thm:derived-duality}, \up{prop:an}}
 Let $(\bar x,\bar y)$ be a geometric point of $V\times_SV$.  The fibre of the
 projection $r_{13}$ over $(\bar x,\bar y)$ is $\mathbf A^r_{\bar k}$, and on it
 the two kernel factors restrict to $\mathcal L_{\psi(\langle\xi,x\rangle)}$ and
@@ -13093,13 +12985,18 @@ $H^*_c(\mathbf A^r_{\bar k},\mathcal L_{\psi(\langle\xi,x-y\rangle)})$.
 If $x\neq y$ the linear form $\xi\mapsto\langle\xi,x-y\rangle$ is nonzero: with
 a linear coordinate $t=\langle\xi,c\rangle$, $c=x-y$, the sheaf is the inverse
 image along a surjection $\mathbf A^r\to\mathbf A^1$ of the nonconstant
-exponential sheaf, so its ordinary cohomology is
-$H^*(\mathbf A^1_{\bar k},\mathcal L_{\psi(t)})\otimes
-H^*(\mathbf A^{r-1}_{\bar k},\underline{E})=0$ by \Cref{lem:as-properties},
-and its compactly supported cohomology vanishes by Poincar\'e duality
-(the same duality used in P4).  If $x=y$ the integrand is the constant sheaf,
-and $R\Gamma_c(\mathbf A^r_{\bar k},\underline{E})=\underline{E}(-r)[-2r]$ by
-that duality.  Hence the convolution is the constant sheaf with twist $(-r)$
+exponential sheaf.  Writing $\mathbf A^r=\mathbf A^1_t\times\mathbf A^{r-1}$
+with projection $\mathrm{pr}$, the projection formula and the Thom isomorphism
+of \Cref{prop:an} (in its compact-support form
+$R\mathrm{pr}_!\underline E\cong\underline E(-(r-1))[-2(r-1)]$) give
+$R\Gamma_c(\mathbf A^r_{\bar k},\mathrm{pr}^*\mathcal L_{\psi(t)})\cong
+R\Gamma_c(\mathbf A^1_{\bar k},\mathcal L_{\psi(t)})(-(r-1))[-2(r-1)]$, and
+this vanishes: by the degreewise duality of \Cref{thm:derived-duality} on the
+non-proper curve $\mathbf A^1$ it is dual to the ordinary cohomology of
+$\mathcal L_{\psi(-t)}(1)$, which vanishes by \Cref{lem:as-properties}.  If
+$x=y$ the integrand is the constant sheaf, and
+$R\Gamma_c(\mathbf A^r_{\bar k},\underline{E})=\underline{E}(-r)[-2r]$ by the
+same Thom isomorphism.  Hence the convolution is the constant sheaf with twist $(-r)$
 and shift $[-2r]$ extended by zero along the diagonal, which is the first
 identity; the same-character computation replaces $x-y$ by $x+y$, so the
 support is the anti-diagonal, the image of the diagonal under
@@ -14920,9 +14817,9 @@ condition of \Cref{def:roots}; inverting gives the ordinary-root form.
 \begin{corollary}[Hasse--Weil bound]
 \label{cor:hasse}
 \uses{\up{thm:RH}, \up{thm:trace-transport}}
-With the hypotheses of \Cref{thm:RH},
+With the hypotheses of \Cref{thm:RH} and $d\ge1$,
 \[
- \bigl|N_1(X_0)-q^{d}\bigr|\;\le\;\sum_{i=1}^{2d-1}b_i\,q^{i/2},
+ \bigl|N_1(X_0)-(q^{d}+1)\bigr|\;\le\;\sum_{i=1}^{2d-1}b_i\,q^{i/2},
  \qquad b_i=\deg P_i .
 \]
 For a smooth projective curve $X_0/\Fq$ of genus $g$ this reads
@@ -14935,7 +14832,9 @@ By \Cref{thm:trace-transport}\,(a),
 $N_1=\sum_{i=0}^{2d}(-1)^{i}\Tr(F_{i,\ell})$.  The endpoint terms contribute
 $q^{d}$ for $i=2d$ and $1$ for $i=0$ (see \Cref{thm:betti}), and each of the
 remaining $b_i$ eigenvalues of $F_{i,\ell}$ has absolute value $q^{i/2}$ by
-\Cref{thm:RH}; the triangle inequality gives the stated bound.  For a curve
+\Cref{thm:RH}; the triangle inequality gives the stated bound.  (Both
+endpoint terms must be subtracted: for $X_0=\mathbf P^1$ one has $b_1=0$
+and $N_1=q+1$, so $|N_1-q^d|=1$.)  For a curve
 $d=1$, $b_0=b_2=1$ and $b_1=2g$, so
 $|N_1-(q+1)|\le2g\sqrt q$.
 \end{proof}

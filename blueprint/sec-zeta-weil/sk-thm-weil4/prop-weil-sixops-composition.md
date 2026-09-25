@@ -2,7 +2,7 @@
 id = "prop-weil-sixops-composition"
 kind = "theorem"
 title = "Composition, properness, and recollement"
-order = 3159
+order = 3227
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-weil-open-closed-recollement", "def-weil-scheme-morphism-properties", "prop-functor-package"]
 +++

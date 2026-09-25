@@ -2,7 +2,7 @@
 id = "fix-lem-exchanges-proper"
 kind = "lemma"
 title = "Exchange functoriality: proper coincidence"
-order = 1922
+order = 1938
 uses = ["cor-cbc-proper-coincidence", "def-exchange-projection", "fix-lem-exchanges"]
 +++
 In the situation of [fix-lem-exchanges], for proper $f$, the exchange transformation

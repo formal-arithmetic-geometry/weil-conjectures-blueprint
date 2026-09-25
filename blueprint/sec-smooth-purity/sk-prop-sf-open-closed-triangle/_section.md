@@ -2,7 +2,7 @@
 id = "sk-prop-sf-open-closed-triangle"
 kind = "section"
 title = "The open–closed triangle"
-order = 1874
+order = 1888
 uses = ["sk-def-sf-operations", "sk-def-sf-setting"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "thm-sf-continuity-arbitrary-sheaves-vanishing"
 kind = "theorem"
 title = "Continuity for arbitrary sheaves implies the vanishing"
-order = 2138
+order = 2157
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-pbc-strict-henselization-limit", "lem-sf-associated-sheaf-local-lifting", "lem-sf-stalk-limit-acyclic", "lemma-weil-pbc-geometric-stalk-conservative", "rem-sf-fullcd-general-form", "thm-sf-fullcd-etale-origin"]
 +++
 Let $V$ be a scheme with comparison morphism

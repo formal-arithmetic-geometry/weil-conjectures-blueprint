@@ -2,7 +2,7 @@
 id = "sk-thm-weil2"
 kind = "section"
 title = "Weil conjectures II: integral Frobenius factors"
-order = 3152
+order = 3220
 uses = ["sk-def-zeta", "sk-thm-intfactors"]
 +++
 *Theorem (sketch).*

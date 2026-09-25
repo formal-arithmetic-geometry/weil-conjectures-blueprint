@@ -2,7 +2,7 @@
 id = "sk-d-real-series"
 kind = "section"
 title = "Radius of a formal series"
-order = 2764
+order = 2813
 +++
 *Definition (sketch).*
 

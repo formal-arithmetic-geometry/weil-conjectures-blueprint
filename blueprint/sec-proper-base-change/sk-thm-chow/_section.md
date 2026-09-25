@@ -2,7 +2,7 @@
 id = "sk-thm-chow"
 kind = "section"
 title = "Chow"
-order = 1052
+order = 1060
 uses = ["sk-def-conv"]
 +++
 *Theorem (sketch).*

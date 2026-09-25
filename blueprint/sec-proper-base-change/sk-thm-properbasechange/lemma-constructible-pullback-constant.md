@@ -2,7 +2,7 @@
 id = "lemma-constructible-pullback-constant"
 kind = "lemma"
 title = "Pullback of a constant sheaf"
-order = 1284
+order = 1292
 lean = ["AlgebraicGeometry.Scheme.upperStarConstantSheafIso"]
 uses = ["def-constructible-constant"]
 +++

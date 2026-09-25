@@ -2,7 +2,7 @@
 id = "lem-pc-invertible-perfect"
 kind = "lemma"
 title = "Invertible modules are perfect"
-order = 801
+order = 805
 uses = ["def-pc-derived-category", "def-pc-perfect-complex", "def-sc-invertible-module"]
 +++
 Let $X$ be a scheme and $\mathcal{M}$ an

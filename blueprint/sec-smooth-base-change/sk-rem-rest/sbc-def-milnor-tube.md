@@ -2,7 +2,7 @@
 id = "sbc-def-milnor-tube"
 kind = "definition"
 title = "Milnor tube"
-order = 1449
+order = 1457
 uses = ["def-weil-pbc-scheme-conventions", "sbc-def-strict-localization"]
 +++
 Let $f:X\to S$ be a morphism of schemes, $\bar x$ a

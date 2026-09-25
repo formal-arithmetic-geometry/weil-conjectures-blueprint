@@ -2,7 +2,7 @@
 id = "sk-thm-weil4"
 kind = "section"
 title = "Weil conjectures IV: Betti symmetry"
-order = 3156
+order = 3224
 uses = ["sk-thm-betti"]
 +++
 *Theorem (sketch).*

@@ -2,7 +2,7 @@
 id = "thm-a1-curve-intersection-purity"
 kind = "theorem"
 title = "Intersection-cohomology purity on a curve"
-order = 3014
+order = 3078
 uses = ["cor-cbc-proper-coincidence", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-a1-middle-extension-duality", "lem-tw-dual-negation", "lem-tw-tate-twist-weight-shift", "prop-a1-middle-extension-curve-upper"]
 +++
 Let $\bar C_0$ be a smooth projective curve, let

@@ -2,7 +2,7 @@
 id = "lem-mg-filtered-finite-tensor-product"
 kind = "lemma"
 title = "Finite tensor products of filtered representations"
-order = 2700
+order = 2747
 uses = ["def-mg-weil-composition-series", "lem-mg-filtered-tensor-product"]
 +++
 Let $V^{(a)}_\bullet$ be composition series for finite-dimensional Weil

@@ -2,7 +2,7 @@
 id = "cor-sf-biduality-class-pairing"
 kind = "theorem"
 title = "Naturality and pairings on the coefficient class"
-order = 2278
+order = 2295
 tags = ["latex:corollary"]
 uses = ["lem-sf-twist-interchange", "lem-weil-duality-pairing", "thm-pur-adic-reconstruction", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-rational-and-qbar-purity", "thm-sf-biduality-class"]
 +++

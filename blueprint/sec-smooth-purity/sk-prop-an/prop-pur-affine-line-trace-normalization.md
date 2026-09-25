@@ -2,7 +2,7 @@
 id = "prop-pur-affine-line-trace-normalization"
 kind = "theorem"
 title = "Trace normalization of the affine-line purity"
-order = 2041
+order = 2059
 tags = ["latex:proposition"]
 uses = ["def-amb-p1-trace", "def-pur-affine-line-purity-comparison", "def-pur-conventions", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "lem-amb-cartier-kummer-map", "thm-amb-p1-decomposition", "thm-pur-affine-line-orientation", "thm-pur-affine-line-purity"]
 +++

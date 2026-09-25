@@ -2,8 +2,8 @@
 id = "sk-i-topology"
 kind = "section"
 title = "Topological invariance"
-order = 2495
-uses = ["sk-d-setup", "sk-d-six", "sk-thm-sf-package"]
+order = 2524
+uses = ["sec-six-functors", "sec-smooth-purity", "sk-d-setup", "sk-d-six", "sk-thm-sf-package"]
 +++
 *Proposition (sketch).*
 

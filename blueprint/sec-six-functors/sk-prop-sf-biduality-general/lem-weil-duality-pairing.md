@@ -2,7 +2,7 @@
 id = "lem-weil-duality-pairing"
 kind = "lemma"
 title = "The duality pairing and the double-dual morphism"
-order = 2216
+order = 2235
 uses = ["def-weil-derived-pullback-tensor-hom", "thm-amb-etale-exceptional-adjoint"]
 +++
 Let $X$ be a separated finite-type scheme over a field, with finite

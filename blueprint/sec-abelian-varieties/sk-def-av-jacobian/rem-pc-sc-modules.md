@@ -2,7 +2,7 @@
 id = "rem-pc-sc-modules"
 kind = "remark"
 title = "Invertible modules and Picard groups: existing in file 06"
-order = 460
+order = 462
 uses = ["def-pc-scheme", "def-sc-invertible-module", "def-sc-picard-group"]
 +++
 The notions of *invertible module* (and its dual),

@@ -2,7 +2,7 @@
 id = "def-sc-zariski-flasque"
 kind = "definition"
 title = "Flasque sheaves on the Zariski site"
-order = 1571
+order = 1585
 lean = ["TopCat.Sheaf.IsFlasque"]
 +++
 An abelian sheaf $F$ on a topological space $X$ is

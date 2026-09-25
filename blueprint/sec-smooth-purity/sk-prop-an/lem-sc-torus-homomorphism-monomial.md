@@ -2,7 +2,7 @@
 id = "lem-sc-torus-homomorphism-monomial"
 kind = "lemma"
 title = "Homomorphisms from a split torus to $\\mathbf G_m$ are monomials"
-order = 2027
+order = 2045
 uses = ["def-sc-gm-ga", "lem-sc-laurent-units"]
 +++
 Let $k$ be a field, $d\geq0$, and let

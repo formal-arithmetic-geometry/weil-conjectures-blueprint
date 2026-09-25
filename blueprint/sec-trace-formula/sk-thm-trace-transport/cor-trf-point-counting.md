@@ -2,7 +2,7 @@
 id = "cor-trf-point-counting"
 kind = "theorem"
 title = "Point-counting trace formula"
-order = 2531
+order = 2569
 tags = ["latex:corollary"]
 uses = ["def-trf-frobenius-operators", "def-weil-finite-field-fiber", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "thm-trf-grothendieck-lefschetz-qbar"]
 +++
@@ -13,8 +13,11 @@ $k_0$-scheme, put $X=X_0\times_{k_0}k$, and let
 $K=(\Qlb)_X$ be the constant
 Weil sheaf with its canonical
 Weil structure, the geometric Frobenius acting trivially. Assume
-the admissibility and pending geometric trace inputs of
-[thm-trf-grothendieck-lefschetz-qbar]. Then for every $m\geq1$,
+the compactification admissibility of
+[thm-trf-grothendieck-lefschetz-qbar] for the constant lattice
+$(\mathcal O_E)_X$ of $E_X$ at every finite level (the etale-origin
+witnesses required there are supplied in the proof). Then for every
+$m\geq1$,
 
 $$
 \#X_0(\mathbf F_{q^m})
@@ -40,9 +43,11 @@ compactly supported cohomology being the ordinary one.
 The constant finite-level sheaves $A_{E,n}$ on the etale sites,
 with their identity identifications after comparison pullback,
 give the explicit witnesses of
-[def-weil-pbc-etale-origin-witness] for the normalized
-constant integral system. Thus the origin requirement in the
-coefficient transport is satisfied for the application at hand.
+[def-weil-pbc-etale-origin-witness] for the reductions
+$(A_{E,n})_X$ of the constant lattice $(\mathcal O_E)_X$ of $K_E=E_X$.
+Thus the finite-level hypotheses of
+[thm-trf-grothendieck-lefschetz-qbar] hold for this lattice, and that
+theorem applies to $K$.
 For the constant Weil sheaf, the local geometric Frobenius
 [def-trf-frobenius-operators] is the identity of the one-dimensional
 stalk

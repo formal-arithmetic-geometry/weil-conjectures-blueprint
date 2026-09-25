@@ -2,7 +2,7 @@
 id = "lem-trf-trace-map-etale-pullback"
 kind = "lemma"
 title = "Pullback of the trace map"
-order = 2474
+order = 2502
 uses = ["lem-trf-trace-map-from-external-duality", "lem-trf-trace-source-etale-pullback", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change", "thm-trf-verdier-duality"]
 +++
 With the identifications of

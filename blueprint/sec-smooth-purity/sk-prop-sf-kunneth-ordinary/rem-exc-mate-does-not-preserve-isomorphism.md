@@ -2,7 +2,7 @@
 id = "rem-exc-mate-does-not-preserve-isomorphism"
 kind = "remark"
 title = "The mate of the base-change comparison is not a criterion"
-order = 1819
+order = 1833
 +++
 Passing to the mate under an adjunction does *not* preserve
 isomorphisms: for an adjunction $F\dashv G$ a map $FA\to B$ can be an

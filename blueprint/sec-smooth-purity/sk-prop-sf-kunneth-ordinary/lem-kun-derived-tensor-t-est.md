@@ -2,7 +2,7 @@
 id = "lem-kun-derived-tensor-t-est"
 kind = "lemma"
 title = "Connectivity of the derived tensor product"
-order = 1756
+order = 1770
 uses = ["def-kun-derived-tensor", "def-weil-pbc-derived-categories"]
 +++
 Let $A,B\in D(T_{\Et},\Lambda)$. If $\mathcal H^i(A)=0$ for $i<a$

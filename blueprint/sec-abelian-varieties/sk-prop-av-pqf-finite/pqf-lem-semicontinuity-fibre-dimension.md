@@ -2,7 +2,7 @@
 id = "pqf-lem-semicontinuity-fibre-dimension"
 kind = "lemma"
 title = "Upper semicontinuity of the fibre dimension"
-order = 499
+order = 501
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $f:X\to Y$ be a

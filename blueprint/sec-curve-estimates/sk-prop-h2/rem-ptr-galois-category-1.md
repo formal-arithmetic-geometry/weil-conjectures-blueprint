@@ -2,7 +2,7 @@
 id = "rem-ptr-galois-category-1"
 kind = "remark"
 title = "Pointer to the properties of [def-galois-category]"
-order = 985
+order = 993
 uses = ["def-galois-category"]
 +++
 In the notation of [def-galois-category], the following holds. the continuity of the action maps

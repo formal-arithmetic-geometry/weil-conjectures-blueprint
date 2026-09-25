@@ -2,7 +2,7 @@
 id = "thm-zl-functional-equation"
 kind = "theorem"
 title = "Functional equation"
-order = 3142
+order = 3210
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "lem-zl-poincare-duality-roots", "thm-zl-lefschetz-weil-identity"]
 +++
 Fix the finite-field datum

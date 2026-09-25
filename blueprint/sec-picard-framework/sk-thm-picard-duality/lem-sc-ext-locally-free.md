@@ -2,7 +2,7 @@
 id = "lem-sc-ext-locally-free"
 kind = "lemma"
 title = "Ext of a finite locally free module"
-order = 697
+order = 698
 uses = ["def-sc-ext-sheaf"]
 +++
 Let $X$ be a scheme, $\mathcal F$ a finite locally free

@@ -2,7 +2,7 @@
 id = "lem-fin-normalization-extends-cover"
 kind = "lemma"
 title = "Extending a finite cover by normalization"
-order = 1959
+order = 1975
 uses = ["def-fin-normalization-extension", "def-sbc-normal-dominant-galois", "def-weil-pbc-scheme-conventions", "lem-fin-etale-normal-components", "lem-fin-normalization-extension-finite"]
 +++
 Let $X$ be integral of finite type over a field, let

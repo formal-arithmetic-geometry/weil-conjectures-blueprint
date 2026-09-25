@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-pullback-composition"
 kind = "lemma"
 title = "Finite pullback composition"
-order = 1083
+order = 1091
 uses = ["def-weil-pbc-finite-section-pullback", "lemma-weil-pbc-finite-pullback-identity"]
 +++
 For finite $T''\xrightarrow{v}T'\xrightarrow{u}T$,

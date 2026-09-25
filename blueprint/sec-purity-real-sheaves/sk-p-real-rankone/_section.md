@@ -2,14 +2,14 @@
 id = "sk-p-real-rankone"
 kind = "section"
 title = "Purity of rank-one Weil sheaves"
-order = 2779
-uses = ["sk-d-real-jacobian", "sk-d-real-log", "sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil", "sk-i-real-compactification", "sk-i-real-sheaves", "sk-lem-finite", "sk-p-rankone", "sk-p-real-integral", "sk-prop-hilbert90", "sk-prop-jacobian-descent", "sk-prop-sf-open-closed-triangle", "sk-r-linear-library", "sk-thm-derived-duality", "sk-thm-frobenius"]
+order = 2828
+uses = ["sk-d-real-jacobian", "sk-d-real-log", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil", "sk-def-av-jacobian", "sk-def-av-pic", "sk-i-real-compactification", "sk-i-real-sheaves", "sk-lem-finite", "sk-p-rankone", "sk-p-real-integral", "sk-p-real-operations", "sk-prop-hilbert90", "sk-prop-jacobian-descent", "sk-prop-sf-open-closed-triangle", "sk-r-linear-library", "sk-thm-av-final", "sk-thm-derived-duality", "sk-thm-frobenius"]
 +++
 *Proposition (sketch).*
 
 Let $L$ be a rank-one lisse Weil sheaf on a
 smooth geometrically connected curve $U_0/\Fq$,
-with character $\chi:W(U_0)\to E^\times$.
+with character $\chi:W(U_0)\to E^\times$ under [sk-i-real-sheaves].
 Its geometric image $\chi(\pi_1(U))$ is finite, so the rank-one
 factorization of [sk-p-rankone] applies. Consequently $L$ is
 punctually $\iota$-pure of weight
@@ -81,23 +81,17 @@ $0\to H^1(C,E)\to H^1(U,E)\to(E^D)^\vee(-1)$.
 A positive Frobenius power on the boundary term is a scalar $q^r\ne1$,
 so $H^1(U,E)^{\Frob=1}=0$.
 If a continuous additive map $b:\pi_1(U)\to E$ is invariant under
-conjugation by $\gamma$, the [sk-d-real-weil] group law makes
-
-$$
-g\gamma^n\longmapsto
-\begin{pmatrix}1&b(g)\\0&1\end{pmatrix}
-\qquad(n\in\mathbf Z)
-$$
-
-a Weil representation: compactness of $\pi_1(U)$ makes $b(\pi_1(U))$
-bounded, so a lattice $\ell^{-a}\mathcal O_E e_1\oplus\mathcal O_E e_2$
-is stable for sufficiently large $a$.
-By [sk-i-real-sheaves], it gives an extension
-$0\to E\to\mathcal E_b\to E\to0$ whose geometric extension class
-in $H^1(U,E)$ is Frobenius fixed. Degree-one cohomology classifies such
-extensions (Blueprint 06, `lem:sc-ext-torsor` with
-`lem:sc-torsor-h1`), and that makes the class zero; a geometric fixed lift $(a,1)$
-then satisfies $(a+b(g),1)=(a,1)$, so $b=0$.
+conjugation by $\gamma$, choose a $\Ql$-basis of $E$ with coordinate maps
+$t_i:E\to\Ql$. Compactness of $\pi_1(U)$ makes $b(\pi_1(U))$ bounded, so for
+some $a$ each $b_i=\ell^at_i\circ b$ is a continuous homomorphism
+$\pi_1(U)\to\Zl$, again invariant under conjugation by $\gamma$. Its
+reductions modulo $\ell^n$ are classes in
+$H^1(U,\Z/\ell^n)=\Hom_{\mathrm{cont}}(\pi_1(U),\Z/\ell^n)$, compatible in
+$n$, and conjugation by the degree-one lift $\gamma$ is the Frobenius action
+on these groups; so $b_i$ is a Frobenius-fixed element of
+$H^1(U,\Zl)=\Hom_{\mathrm{cont}}(\pi_1(U),\Zl)$. This group is torsion free,
+and the image of $b_i$ in $H^1(U,E)$ is Frobenius fixed, hence zero by the
+previous paragraph; so $b_i=0$ for every $i$, and $b=0$.
 
 *Logarithm and purity.*
 By [sk-p-real-integral], take a stable integral rank-one model
@@ -113,4 +107,4 @@ factor. At a degree-$d$ point the scalar is $\zeta c^d$
 with $\zeta$ a root of unity, so its complex modulus is
 $|\iota(c)|^d=q^{dw/2}$. This is purity in [sk-d-real-weights].
 
-Uses: [sk-d-real-jacobian], [sk-d-real-log], [sk-d-real-operations], [sk-d-real-setup], [sk-d-real-weights], [sk-d-real-weil], [sk-i-real-compactification], [sk-i-real-sheaves], [sk-lem-finite], [sk-p-rankone], [sk-p-real-integral], [sk-prop-hilbert90], [sk-prop-jacobian-descent], [sk-prop-sf-open-closed-triangle], [sk-r-linear-library], [sk-thm-derived-duality], [sk-thm-frobenius]
+Uses: [sk-d-real-jacobian], [sk-d-real-log], [sk-d-real-setup], [sk-d-real-weights], [sk-d-real-weil], [sk-def-av-jacobian], [sk-def-av-pic], [sk-i-real-compactification], [sk-i-real-sheaves], [sk-lem-finite], [sk-p-rankone], [sk-p-real-integral], [sk-p-real-operations], [sk-prop-hilbert90], [sk-prop-jacobian-descent], [sk-prop-sf-open-closed-triangle], [sk-r-linear-library], [sk-thm-av-final], [sk-thm-derived-duality], [sk-thm-frobenius]

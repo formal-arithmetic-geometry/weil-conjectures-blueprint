@@ -2,11 +2,12 @@
 id = "lem-wf-boundary-semicontinuity"
 kind = "lemma"
 title = "Boundary semicontinuity of weights on a curve"
-order = 2841
-uses = ["d-real-cohom", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-a1-affine-hc2", "lem-wf-boundary-stalk-invariants", "lem-wf-euler-product-middle-extension", "lem-wf-point-count-linear-growth", "p-linear-spectra"]
+order = 2888
+uses = ["d-real-cohom", "d-real-setup", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-a1-affine-hc2", "lem-wf-boundary-stalk-invariants", "lem-wf-euler-product-middle-extension", "lem-wf-point-count-linear-growth", "p-linear-spectra", "prop-sf-open-closed-triangle-all-stages"]
 +++
-Let $X_0$ be a smooth geometrically connected affine curve over
-$k_0=\mathbf F_q$, let $j:U_0\hookrightarrow X_0$ be a dense open
+Let $X_0$ be a curve over $k_0=\mathbf F_q$ in the sense of
+[d-real-setup] (smooth, separated, geometrically connected; it need
+not be affine, e.g. it may be proper), let $j:U_0\hookrightarrow X_0$ be a dense open
 immersion with finite complement $S_0$, and let $\mathcal F$ be a
 lisse Weil sheaf of rank $r\ge1$ on $U_0$. Assume that for every
 closed point $x\in|U_0|$ and every eigenvalue $\alpha$ of the local
@@ -28,7 +29,34 @@ $$
 |\iota(\alpha)|^2\le q_s^{\beta}.
 $$
 
+Since $j_*\mathcal F$ restricts to $\mathcal F$ on $U_0$, this says
+that $j_*\mathcal F$ has punctual weights at most $\beta$ on all of
+$X_0$.
+
 ## Proof
+
+Step 0 (reduction to an affine curve). Fix $s\in S_0$. Since $X_0$
+is of finite type over $k_0$, the point $s$ has an affine open
+neighbourhood $X'_0\subseteq X_0$. The scheme $X=X_0\times_{k_0}k$
+is smooth and connected, hence irreducible (a connected noetherian
+normal scheme is integral), so the nonempty open
+$X'=X'_0\times_{k_0}k$ is irreducible, in particular connected; thus
+$X'_0$ is a smooth geometrically connected affine curve. Put
+$U'_0=U_0\cap X'_0$, a dense open of $X'_0$ with finite complement
+$S'_0=S_0\cap X'_0\ni s$, with inclusion $j':U'_0\hookrightarrow X'_0$.
+The restriction $\mathcal F|_{U'_0}$ is lisse of rank $r$ and
+satisfies the hypothesis at every closed point of $U'_0\subseteq U_0$.
+Formation of the direct image along an open immersion commutes with
+restriction to an open: for $V\to X'_0$ étale, sections of
+$(j_*\mathcal F)|_{X'_0}$ and of $j'_*(\mathcal F|_{U'_0})$ over $V$
+are both the sections of $\mathcal F$ over
+$V\times_{X_0}U_0=V\times_{X'_0}U'_0$. Hence
+$(j_*\mathcal F)|_{X'_0}=j'_*(\mathcal F|_{U'_0})$ as Weil sheaves, and
+the stalks at $\bar s$ agree together with their Frobenius $F_s$
+(equivalently, both are $\mathcal F_{\bar\eta}^{I_s}$ by
+[lem-wf-boundary-stalk-invariants], and $I_s$ depends only on the
+henselization at $s$). So the bound at $s$ follows from the affine
+case applied to $j'$. From now on we assume $X_0$ affine.
 
 Step 1 (the pole-free region of the open part). Let
 $L(U,t):=\prod_{x\in|U_0|}\det(1-F_xt^{d(x)},\mathcal F_{\bar x})^{-1}$
@@ -63,7 +91,7 @@ $j_*\mathcal F$ of [def-wf-middle-extension] in the convention of
 [def-weil-ordinary-compact-cohomology] on $X_0$. The
 $H_c^2$-factor: the boundary corrections at $S$ are concentrated in
 degree zero (the recollement triangle
-$j_!\mathcal F\to j_*\mathcal F\to i_*i^*j_*\mathcal F\to$, with
+$j_!\mathcal F\to j_*\mathcal F\to i_*i^*j_*\mathcal F\to$ of [prop-sf-open-closed-triangle-all-stages], with
 $H_c^i(X,i_*B)=0$ for $i\ge1$ on the zero-dimensional
 $B$), so $H_c^2(X,j_*\mathcal F)\cong H_c^2(U,\mathcal F)$, and
 [lem-a1-affine-hc2] describes

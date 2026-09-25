@@ -2,7 +2,7 @@
 id = "thm-trf-trace-additivity-categorical"
 kind = "theorem"
 title = "Additivity of the categorical traces of the global operators"
-order = 2511
+order = 2544
 uses = ["def-trf-categorical-trace", "lem-trf-global-operator-perfect", "lem-trf-global-operator-triangulated", "prop-trf-trace-formal-laws"]
 +++
 In the situation of [lem-trf-global-operator-triangulated], assume

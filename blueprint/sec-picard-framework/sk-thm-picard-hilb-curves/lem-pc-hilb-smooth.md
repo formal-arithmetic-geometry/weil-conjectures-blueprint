@@ -2,7 +2,7 @@
 id = "lem-pc-hilb-smooth"
 kind = "lemma"
 title = "Hilbert schemes of curves are smooth"
-order = 792
+order = 796
 uses = ["def-pc-morphism-conventions", "lem-pc-hilb-addition"]
 +++
 (Picard Schemes of Curves, Lemma 44.3.5, Tag

@@ -2,8 +2,8 @@
 id = "lem-sc-pic-affine"
 kind = "lemma"
 title = "Pic of an affine curve: quotient description, divisibility, finiteness"
-order = 1012
-uses = ["def-sc-curves", "def-sc-jacobian", "def-sc-mult-n", "def-sc-pic0", "lem-sc-compactification", "lem-sc-dim0-finite", "lem-sc-divisible-quotient-torsion", "lem-sc-divisor-class-curve", "lem-sc-isogeny-surjective", "lem-sc-ntorsion-etale", "lem-sc-pic-proper-decomposition", "lem-sc-proper-affine-finite", "thm-sc-jacobian-representability"]
+order = 1020
+uses = ["def-sc-curves", "def-sc-jacobian", "def-sc-mult-n", "def-sc-pic0", "lem-sc-compactification", "lem-sc-dim0-finite", "lem-sc-divisible-quotient-torsion", "lem-sc-divisor-class-curve", "lem-sc-pic-proper-decomposition", "lem-sc-proper-affine-finite", "thm-av-final", "thm-sc-jacobian-representability"]
 +++
 Let $C$ be a smooth affine connected curve over
 algebraically closed $k$, and let $n$ be prime to
@@ -71,13 +71,13 @@ $$
 ([def-sc-pic0], [def-sc-jacobian],
 [thm-sc-jacobian-representability]). The group
 $J_{\overline C}(k)$ is
-$n$-divisible ([lem-sc-isogeny-surjective]), hence so is its
+$n$-divisible ([thm-av-final](d)), hence so is its
 quotient $\operatorname{Pic}(C)$. Apply
 [lem-sc-divisible-quotient-torsion] with
 $G=J_{\overline C}(k)$. The subgroup $\Lambda$ is generated
 by the finite set $\{[P]-[P_0]:P\in S\}$, so $\Lambda/n\Lambda$
 is finite: it is a quotient of $(\mathbf Z/n\mathbf Z)^{|S|}$.
 Also $G[n]=J_{\overline C}[n](k)$ by [def-sc-mult-n], and
-this is finite by [lem-sc-ntorsion-etale]. The exact sequence
+this is finite by [thm-av-final](c). The exact sequence
 therefore expresses $\operatorname{Pic}(C)[n]$ as an extension of
 two finite groups, proving finiteness.

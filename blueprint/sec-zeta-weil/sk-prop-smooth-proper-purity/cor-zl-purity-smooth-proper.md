@@ -2,9 +2,9 @@
 id = "cor-zl-purity-smooth-proper"
 kind = "theorem"
 title = "Purity of smooth proper cohomology"
-order = 3080
+order = 3146
 tags = ["latex:corollary"]
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-wf-wt", "def-wf-wtge", "def-wf-wtle", "lem-tw-multiplicativity", "lem-wf-tate-twist-frobenius", "prop-weil-operations", "thm-pod-derived-poincare-duality", "thm-zl-wme-deligne-estimate"]
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-wf-wt", "def-wf-wtge", "def-wf-wtle", "lem-tw-multiplicativity", "lem-wf-tate-twist-frobenius", "prop-weil-operations", "thm-pod-derived-poincare-duality", "thm-pod-proper-poincare-duality", "thm-zl-wme-deligne-estimate"]
 +++
 Fix the finite-field datum
 $(p,a,q,k_0,k)$, where $q=p^a$, and a prime $\ell\neq p$; write
@@ -53,7 +53,9 @@ is the upper bound $\mathrm{WtLe}(H^i(X,\Qlb),i)$ in the sense of
 
 For the lower bound, apply [thm-pod-derived-poincare-duality] to
 $X$ (smooth proper of pure dimension $d$) with
-$K=(\Qlb)_X$, which is perfect over $(\Qlb)_X$; it gives the
+$K=(\Qlb)_X$, which is perfect over $(\Qlb)_X$; since $X$ is proper,
+its compact-support side is identified with ordinary cohomology by the
+proper Poincare duality [thm-pod-proper-poincare-duality], which gives the
 Frobenius-equivariant isomorphism
 
 $$

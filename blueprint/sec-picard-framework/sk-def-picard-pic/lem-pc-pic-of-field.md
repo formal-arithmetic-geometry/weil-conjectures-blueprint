@@ -2,7 +2,7 @@
 id = "lem-pc-pic-of-field"
 kind = "lemma"
 title = "$\\operatorname{Pic}$ of a field"
-order = 807
+order = 811
 uses = ["def-pc-scheme", "def-sc-invertible-module", "def-sc-picard-group"]
 +++
 Let $k$ be a field. Then the

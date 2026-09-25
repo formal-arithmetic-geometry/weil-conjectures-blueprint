@@ -2,7 +2,7 @@
 id = "lem-sc-pic-group"
 kind = "lemma"
 title = "$\\operatorname{Pic}(C)$ is a group"
-order = 889
+order = 895
 uses = ["def-sc-curves", "def-sc-invertible-module", "lem-sc-invertible-dual"]
 +++
 Let $C$ be a curve. Tensor product makes

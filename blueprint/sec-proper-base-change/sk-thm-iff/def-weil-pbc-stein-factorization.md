@@ -2,7 +2,7 @@
 id = "def-weil-pbc-stein-factorization"
 kind = "definition"
 title = "Stein factorization"
-order = 1075
+order = 1083
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $p:Y\to S=\operatorname{Spec}A$ be a proper

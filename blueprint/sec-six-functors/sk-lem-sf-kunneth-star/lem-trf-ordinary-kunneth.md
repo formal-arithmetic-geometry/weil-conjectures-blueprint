@@ -2,7 +2,7 @@
 id = "lem-trf-ordinary-kunneth"
 kind = "lemma"
 title = "Ordinary Kunneth for a general morphism"
-order = 2344
+order = 2360
 uses = ["def-trf-coefficient-conventions", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "fix-prop-projection-formula", "sbc-thm-smooth-base-change"]
 +++
 Use the finite coefficient ring $A=A_{E,n}$ of
@@ -18,7 +18,7 @@ Rf_*L\boxtimes_A^{\mathrm L} Q
 R(f\times\operatorname{id}_Z)_*\bigl(L\boxtimes_A^{\mathrm L} Q\bigr)
 $$
 
-is an isomorphism.
+is an isomorphism, natural in $L$ and $Q$.
 
 ## Proof
 

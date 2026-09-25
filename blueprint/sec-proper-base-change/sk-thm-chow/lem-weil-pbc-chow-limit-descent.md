@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-chow-limit-descent"
 kind = "lemma"
 title = "Spreading out to a noetherian base"
-order = 1065
+order = 1073
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $Y=\operatorname{Spec}A$ be affine and let $f:X\to Y$ be proper *and
@@ -26,8 +26,9 @@ immersion, hence proper, but not finitely presented, and a descent
 $X=X_0\times_{Y_0}Y$ along a finitely generated $\mathbf Z$-subalgebra $A_0$
 would exhibit $X\to Y$ as the base change of a morphism between noetherian
 schemes, hence as finitely presented, a contradiction. For the general
-finite-type case this blueprint does not assert such a descent; see the status
-note at [lemma-weil-pbc-chow-factorization].
+finite-type case this blueprint does not assert such a descent; Chow's lemma
+over an arbitrary affine base, [lemma-weil-pbc-chow-factorization], avoids it
+by descending only a separated finitely presented envelope of $X$.
 
 ## Proof
 

@@ -2,7 +2,7 @@
 id = "lem-rs-connectivity-pullback"
 kind = "lemma"
 title = "The pullback has connected semisimple geometric monodromy"
-order = 2809
+order = 2858
 uses = ["def-sbc-normal-dominant-galois", "def-weil-pbc-scheme-conventions", "def-wf-algebraic-components", "def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-geometric-semisimplicity", "def-wf-weil-group", "lem-rs-connectivity-reduction", "lem-wf-dense-identity-component", "lem-wf-finite-index-restriction-semisimple", "lem-wf-geometric-closure-semisimple"]
 +++
 Let $X_0$ be a normal,

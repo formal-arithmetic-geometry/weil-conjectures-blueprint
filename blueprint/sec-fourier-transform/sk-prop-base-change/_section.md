@@ -2,7 +2,7 @@
 id = "sk-prop-base-change"
 kind = "section"
 title = "P5: base change"
-order = 2898
+order = 2945
 uses = ["sk-def-ft"]
 +++
 *Proposition (sketch).*

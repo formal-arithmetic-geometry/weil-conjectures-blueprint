@@ -2,7 +2,8 @@
 id = "sk-thm-picard-pn"
 kind = "section"
 title = "Cohomology of $\\PP^n$, Serre 1954"
-order = 620
+order = 618
+uses = ["sk-def-av-pic"]
 +++
 *Theorem (sketch).*
 

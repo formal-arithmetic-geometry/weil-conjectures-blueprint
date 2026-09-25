@@ -2,7 +2,7 @@
 id = "sk-def-purity-conv"
 kind = "section"
 title = "Purity conventions and the rank-one datum"
-order = 1932
+order = 1948
 +++
 *Remark (sketch).*
 

@@ -2,7 +2,7 @@
 id = "prop-sf-direct-image-ctf-proper"
 kind = "theorem"
 title = "Direct image in the proper case"
-order = 2337
+order = 2353
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "open-sf-preservation-gaps"]
 +++

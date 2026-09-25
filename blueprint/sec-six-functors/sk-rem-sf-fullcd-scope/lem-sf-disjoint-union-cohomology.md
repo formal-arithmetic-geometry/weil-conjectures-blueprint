@@ -2,7 +2,7 @@
 id = "lem-sf-disjoint-union-cohomology"
 kind = "lemma"
 title = "Cohomology of a disjoint union"
-order = 2132
+order = 2151
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-etale-sum-extension", "lem-weil-pbc-etale-restriction-injectives"]
 +++
 Let $T=\bigsqcup_{i\in I}T_i$ be a scheme written as the disjoint union of

@@ -2,7 +2,7 @@
 id = "lem-sf-tensor-hom"
 kind = "lemma"
 title = "Tensor–Hom form of the exchange"
-order = 2263
+order = 2282
 uses = ["def-sf-datum", "def-sf-pf", "def-weil-derived-pullback-tensor-hom", "fix-lem-tensor-adjunction", "fix-prop-adjunctions"]
 +++
 In the setting of [def-sf-datum], let $f:X\to Y$ be

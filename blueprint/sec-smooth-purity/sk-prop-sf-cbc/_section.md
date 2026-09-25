@@ -2,7 +2,8 @@
 id = "sk-prop-sf-cbc"
 kind = "section"
 title = "Compact-support base change"
-order = 1529
+order = 1543
+uses = ["sk-def-av-jacobian"]
 +++
 *Proposition (sketch).*
 

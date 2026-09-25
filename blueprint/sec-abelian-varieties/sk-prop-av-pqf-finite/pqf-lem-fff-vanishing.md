@@ -2,7 +2,7 @@
 id = "pqf-lem-fff-vanishing"
 kind = "lemma"
 title = "Formal functions vanishing over finite fibres"
-order = 542
+order = 546
 uses = ["pqf-def-coherent", "pqf-def-cohomology", "pqf-def-locnoeth", "pqf-lem-leray"]
 +++
 Let $f:X\to Y$ be a proper morphism of schemes and $y\in Y$. Assume

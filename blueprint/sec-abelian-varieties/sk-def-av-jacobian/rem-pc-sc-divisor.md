@@ -2,7 +2,7 @@
 id = "rem-pc-sc-divisor"
 kind = "remark"
 title = "Divisors and the divisor class group: existing in file 06"
-order = 461
+order = 463
 uses = ["def-sc-divisor"]
 +++
 For a curve $C$ over a field, the *divisors* ($D=\sum_Pn_P[P]$,

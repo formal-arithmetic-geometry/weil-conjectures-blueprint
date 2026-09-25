@@ -2,7 +2,7 @@
 id = "sk-p-local"
 kind = "section"
 title = "Decomposition into local terms"
-order = 2486
+order = 2514
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-local-term", "sk-d-pairing", "sk-p-pairing", "sk-thm-sf-package"]
 +++
 *Proposition (sketch).*

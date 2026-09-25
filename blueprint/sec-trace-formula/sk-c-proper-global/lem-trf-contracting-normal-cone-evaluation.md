@@ -2,8 +2,8 @@
 id = "lem-trf-contracting-normal-cone-evaluation"
 kind = "lemma"
 title = "Normal-cone evaluation of the trace map"
-order = 2479
-uses = ["def-trf-categorical-trace", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-supported-pairing", "def-trf-trace-class-source", "lem-pur-lisse-uniqueness", "lem-trf-contracting-local-model", "lem-trf-trace-map-from-external-duality", "prop-pur-affine-line-trace-normalization", "prop-trf-pairing-point-normalization", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance", "thm-pur-rank-one-thom", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change", "thm-trf-fixed-point-evaluation-finite"]
+order = 2507
+uses = ["def-trf-categorical-trace", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-supported-pairing", "def-trf-trace-class-source", "lem-pur-lisse-uniqueness", "lem-trf-contracting-local-model", "lem-trf-trace-class-diagonal-pairing", "lem-trf-trace-map-from-external-duality", "prop-pur-affine-line-trace-normalization", "prop-trf-pairing-point-normalization", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance", "thm-pur-rank-one-thom", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change", "thm-trf-fixed-point-evaluation-finite"]
 +++
 In the situation of [lem-trf-contracting-local-model], the trace
 map $\theta_{c,K,y}$ of
@@ -55,8 +55,11 @@ $$
 on the stalk data, the purity clause of [def-trf-correspondence]
 identifying the two legs at the fixed point.
 
-*Step 3 (identification with the supported pairing).* The supported
-pairing of [def-trf-supported-pairing], evaluated on the class of
+*Step 3 (identification with the supported pairing).* By
+[lem-trf-trace-class-diagonal-pairing] the trace class built from the
+trace map is the supported pairing
+$\langle u,1_K\rangle_{\mathrm{LV}}$ of [def-trf-supported-pairing]. That
+pairing, evaluated on the class of
 $u_{\bar y}$ and the identity class of the diagonal, is the categorical
 trace $\tr_A(u_{\bar y}\mid K_{\bar y})$ by
 [prop-trf-pairing-point-normalization], and the stalk trace has the same

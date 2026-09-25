@@ -2,7 +2,7 @@
 id = "cor-exc-base-change-reduces-to-proper"
 kind = "theorem"
 title = "Base change for a general morphism reduces to the proper part"
-order = 1857
+order = 1871
 tags = ["latex:corollary"]
 uses = ["cor-sf-ambient-adjoint-discharge", "def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-compactifications-refinements", "def-weil-pbc-derived-categories", "def-weil-pbc-inverse-image"]
 +++

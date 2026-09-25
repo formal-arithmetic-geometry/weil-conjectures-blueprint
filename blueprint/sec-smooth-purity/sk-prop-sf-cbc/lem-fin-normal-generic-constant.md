@@ -2,7 +2,7 @@
 id = "lem-fin-normal-generic-constant"
 kind = "lemma"
 title = "A generic constant sheaf on a normal Noetherian scheme"
-order = 1624
+order = 1638
 uses = ["def-sbc-normal-dominant-galois", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "lem-fin-etale-normal-components", "lem-weil-pbc-flat-lfp-open"]
 +++
 Let $V$ be Noetherian, normal and integral in the sense of

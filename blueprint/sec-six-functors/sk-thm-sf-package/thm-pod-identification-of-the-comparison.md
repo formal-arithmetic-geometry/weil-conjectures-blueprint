@@ -2,11 +2,12 @@
 id = "thm-pod-identification-of-the-comparison"
 kind = "theorem"
 title = "Identification of the Poincare pairing with Verdier duality"
-order = 2383
+order = 2400
 uses = ["def-exchange-projection", "def-pod-coefficient-dual-on-x", "def-pod-conventions", "def-pod-derived-poincare-pairing", "def-pod-mixed-support-cup-product", "def-pod-perfect-complex-on-x", "def-pod-perfect-derived-pairing", "def-pur-smooth-trace", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-coefficient-point", "fix-prop-projection-formula", "lem-sf-tensor-hom", "prop-pod-verdier-dual-on-smooth", "thm-pod-global-verdier-duality", "thm-pur-finite-coefficient-smooth-purity", "thm-sf-identification", "thm-sf-verdier-exchange"]
 +++
-Fix $\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, the smooth proper
-geometrically connected $k$-scheme $X$ of dimension $d$, and its
+Fix $\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, the smooth
+geometrically connected $k$-scheme $X=X_0\times_{k_0}k$ of dimension $d$
+(not necessarily proper), and its
 structure morphism $a_X:X\to s=\operatorname{Spec}k$ as in
 the Poincare duality conventions.
 Let $K\in D^b_{ctf}(X,\Lambda)$ be
@@ -82,6 +83,9 @@ comparison written there in the reverse direction is its inverse. At every
 step the two inputs used are separated: the adjunction, projection and
 tensor–internal-Hom calculus is [lem-sf-tensor-hom], [thm-sf-verdier-exchange],
 whose abstract outcome is [thm-sf-identification], and the identification
-of the Verdier dual of a smooth proper $X$ with $K^\vee (d)[2d]$ is the
+of the Verdier dual of a smooth $X$ with $K^\vee (d)[2d]$ is the
 smooth-purity orientation [thm-pur-finite-coefficient-smooth-purity]
 consumed through [prop-pod-verdier-dual-on-smooth].
+Properness of $X$ is used nowhere in this argument: the adjunctions,
+the projection formula and the smooth-purity orientation hold for any
+smooth separated finite-type $X$ with admissible $a_X$.

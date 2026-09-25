@@ -2,7 +2,7 @@
 id = "lem-kun-separable-smooth-colimit"
 kind = "lemma"
 title = "Separable extensions are filtered colimits of smooth algebras"
-order = 1788
+order = 1802
 uses = ["lem-kun-algebraic-separable-smooth", "lem-kun-fg-separable-smooth"]
 +++
 Let $L/K$ be a separable extension of fields. Then $L$ is a filtered

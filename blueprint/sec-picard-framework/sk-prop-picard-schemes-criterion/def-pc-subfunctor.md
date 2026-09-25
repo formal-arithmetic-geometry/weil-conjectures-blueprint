@@ -2,7 +2,7 @@
 id = "def-pc-subfunctor"
 kind = "definition"
 title = "Subfunctors"
-order = 780
+order = 784
 uses = ["def-pc-scheme"]
 +++
 Let $F:(\mathit{Sch})^{\mathrm{op}}\to\textit{Sets}$ be a functor. A

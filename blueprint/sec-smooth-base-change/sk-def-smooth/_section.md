@@ -2,7 +2,7 @@
 id = "sk-def-smooth"
 kind = "section"
 title = "Smooth and allowed coefficients"
-order = 1377
+order = 1385
 +++
 *Definition (sketch).*
 

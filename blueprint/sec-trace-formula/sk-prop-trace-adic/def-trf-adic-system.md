@@ -2,7 +2,7 @@
 id = "def-trf-adic-system"
 kind = "definition"
 title = "Normalized adic Weil system"
-order = 2523
+order = 2558
 uses = ["def-trf-coefficient-conventions", "def-weil-derived-complete-integral-detailed", "def-weil-finite-field-fiber", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit"]
 +++
 Fix the global finite-field datum

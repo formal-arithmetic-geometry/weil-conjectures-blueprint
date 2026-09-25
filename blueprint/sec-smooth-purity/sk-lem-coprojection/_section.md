@@ -2,7 +2,7 @@
 id = "sk-lem-coprojection"
 kind = "section"
 title = "Co-projection for a closed immersion"
-order = 2079
+order = 2097
 uses = ["sk-def-purity-conv"]
 +++
 *Lemma (sketch).*

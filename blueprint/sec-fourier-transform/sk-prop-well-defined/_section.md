@@ -2,7 +2,7 @@
 id = "sk-prop-well-defined"
 kind = "section"
 title = "P2: the transform is an exact triangulated functor"
-order = 2892
+order = 2939
 uses = ["sk-def-ft", "sk-prop-kernel-lisse"]
 +++
 *Proposition (sketch).*

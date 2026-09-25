@@ -2,12 +2,12 @@
 id = "sk-thm-frobenius"
 kind = "section"
 title = "Frobenius: equivariance, similitudine, reciprocity"
-order = 2589
-uses = ["sk-def-orientation", "sk-def-pairing", "sk-def-weil", "sk-thm-derived-duality"]
+order = 2625
+uses = ["sk-def-pairing", "sk-def-sf-orientation", "sk-def-weil", "sk-thm-derived-duality"]
 +++
 *Theorem (sketch).*
 
-In the setting of [sk-def-weil] with $X_0$ in addition *proper*,
+In the setting of [sk-def-weil] ($X_0$ need not be proper),
 for a strict Weil complex $K$ perfect over $\Lambda_X$: the pairing
 satisfies
 $\langle F_{c,K}x,F_{K^\vee(d)}y\rangle_i=\langle x,y\rangle_i$;
@@ -19,8 +19,9 @@ $$
 $$
 
 and $F_{K^\vee}$ is conjugate to $q^d(F_{c,K}^{-1})^{\mathsf t}$, so
-the eigenvalues of $F$ on $H^{2d-i}$ are the $q^d/\alpha$ with the
-multiplicities of the eigenvalues $\alpha$ on $H^i$.
+the eigenvalues of $F$ on $H^{2d-i}(X,K^\vee)$ are the $q^d/\alpha$ with
+the multiplicities of the eigenvalues $\alpha$ on $H^i_c(X,K)$ (for proper
+$X$, $H^i_c=H^i$).
 (Blueprint 15, thm:pod-equivariance-of-the-twisted-pairing,
 cor:pod-untwisted-similitude,
 cor:pod-reciprocal-eigenvalues.)
@@ -31,7 +32,7 @@ cor:pod-reciprocal-eigenvalues.)
 product is induced by the tensor product of complexes and its
 $\Gamma_c$-realization, both of which are lifted to Weil complexes by the
 functoriality built into [sk-def-weil]; the evaluation is a morphism of
-Weil objects; and the orientation of [sk-def-orientation] is
+Weil objects; and the orientation of [sk-def-sf-orientation] is
 Frobenius-equivariant, by the Weil equivariance of purity and trace
 (thm:pur-weil-equivariance-of-purity-and-trace, whose target datum on
 the coefficient ring is the canonical one).
@@ -60,9 +61,10 @@ normalization of [sk-def-weil].
 *Step 4 (reciprocity).* By Step 3 and the nondegeneracy of the
 pairing, $F_{K^\vee}$ is conjugate to $q^d(F_{c,K}^{-1})^{\mathsf t}$;
 the characteristic polynomial is invariant under transposition, so the
-eigenvalues of $F$ on $H^{2d-i}$ are the $q^d/\alpha$, with the
-multiplicities of the eigenvalues $\alpha$ of $F$ on $H^i$. These are
+eigenvalues of $F$ on $H^{2d-i}(X,K^\vee)$ are the $q^d/\alpha$, with the
+multiplicities of the eigenvalues $\alpha$ of $F$ on $H^i_c(X,K)$. No
+step uses properness. These are
 thm:pod-equivariance-of-the-twisted-pairing,
 cor:pod-untwisted-similitude and cor:pod-reciprocal-eigenvalues.
 
-Uses: [sk-def-orientation], [sk-def-pairing], [sk-def-weil], [sk-thm-derived-duality]
+Uses: [sk-def-pairing], [sk-def-sf-orientation], [sk-def-weil], [sk-thm-derived-duality]

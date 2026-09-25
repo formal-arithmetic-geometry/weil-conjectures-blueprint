@@ -2,7 +2,7 @@
 id = "sk-thm-vanishing"
 kind = "section"
 title = "Vanishing in the universal curve test"
-order = 1415
+order = 1423
 uses = ["sk-def-smooth", "sk-prop-cd-affine", "sk-prop-etale-normal", "sk-prop-ext-invariance", "sk-prop-input-spreading", "sk-prop-input-torsors", "sk-prop-normal-form"]
 +++
 *Theorem (sketch).*

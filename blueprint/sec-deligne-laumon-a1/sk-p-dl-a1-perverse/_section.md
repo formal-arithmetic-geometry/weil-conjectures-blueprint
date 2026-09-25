@@ -2,8 +2,8 @@
 id = "sk-p-dl-a1-perverse"
 kind = "section"
 title = "Fourier exactness on a curve"
-order = 2932
-uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-prop-stalk", "sk-thm-inversion"]
+order = 2983
+uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-prop-kernel-lisse", "sk-prop-stalk", "sk-thm-inversion"]
 +++
 *Proposition (sketch).*
 

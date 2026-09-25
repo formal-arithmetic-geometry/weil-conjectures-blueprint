@@ -2,7 +2,7 @@
 id = "prop-pur-rational-purity-trace-coherence"
 kind = "theorem"
 title = "Trace and coherence compatibilities of rational purity"
-order = 2105
+order = 2123
 tags = ["latex:proposition"]
 uses = ["def-pur-conventions", "def-pur-smooth-trace", "thm-pur-adic-reconstruction", "thm-pur-composition-coherence", "thm-pur-rational-and-qbar-purity", "thm-pur-smooth-base-change-coherence"]
 +++

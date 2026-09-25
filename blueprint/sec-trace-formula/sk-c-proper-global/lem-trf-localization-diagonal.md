@@ -2,7 +2,7 @@
 id = "lem-trf-localization-diagonal"
 kind = "lemma"
 title = "Localization in the diagonal case"
-order = 2482
+order = 2510
 uses = ["def-trf-correspondence", "def-trf-global-operator", "lem-trf-devissage-generation", "prop-trf-pairing-point-normalization", "prop-trf-trace-formal-laws"]
 +++
 Let $X$ be proper over

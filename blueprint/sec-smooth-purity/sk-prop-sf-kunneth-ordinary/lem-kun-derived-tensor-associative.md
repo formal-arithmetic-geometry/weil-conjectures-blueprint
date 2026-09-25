@@ -2,7 +2,7 @@
 id = "lem-kun-derived-tensor-associative"
 kind = "lemma"
 title = "Associativity of the derived tensor product"
-order = 1751
+order = 1765
 uses = ["def-kun-derived-tensor", "def-weil-pbc-derived-categories", "lem-kun-derived-tensor-well-defined", "lem-kun-flat-resolution-existence"]
 +++
 Let $\Lambda$ be a commutative ring and $T$ a scheme. For

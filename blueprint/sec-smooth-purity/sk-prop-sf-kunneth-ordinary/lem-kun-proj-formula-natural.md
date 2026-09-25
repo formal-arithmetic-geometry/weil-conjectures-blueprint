@@ -2,7 +2,7 @@
 id = "lem-kun-proj-formula-natural"
 kind = "lemma"
 title = "Naturality of the projection formula"
-order = 1784
+order = 1798
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image", "lem-kun-inverse-image-monoidal"]
 +++
 Consider a

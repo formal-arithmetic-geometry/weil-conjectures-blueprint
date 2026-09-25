@@ -2,7 +2,7 @@
 id = "def-weil-pbc-ambient-ringed-exchange"
 kind = "definition"
 title = "Ambient ringed exchange"
-order = 1326
+order = 1334
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-proetale-operations"]
 +++
 For a cartesian square [def-weil-pbc-cartesian-square] with its chosen

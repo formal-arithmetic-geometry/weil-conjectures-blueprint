@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-fourier-weight"
 kind = "section"
 title = "The Fourier upper weight"
-order = 2978
+order = 3039
 uses = ["sk-cor-plancherel", "sk-l-dl-a1-energy", "sk-p-dl-a1-correction", "sk-p-dl-a1-some-weight"]
 +++
 *Proposition (sketch).*

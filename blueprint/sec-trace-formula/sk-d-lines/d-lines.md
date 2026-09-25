@@ -1,8 +1,8 @@
 +++
 id = "d-lines"
-kind = "definition"
+kind = "remark"
 title = "The affine and projective lines"
-order = 2513
+order = 2546
 uses = ["def-trf-coefficient-conventions", "rem-ptr-trf-coefficient-conventions-1"]
 +++
 Over a finite field $F$ from the coefficient setup,

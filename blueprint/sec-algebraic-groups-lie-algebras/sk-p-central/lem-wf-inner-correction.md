@@ -2,7 +2,7 @@
 id = "lem-wf-inner-correction"
 kind = "lemma"
 title = "Inner correction to a degree element"
-order = 2677
+order = 2724
 uses = ["def-wf-algebraic-radicals", "def-wf-arithmetic-monodromy-extension", "def-wf-geometric-semisimplicity", "lem-wf-dense-identity-component", "lem-wf-finite-index-restriction-semisimple", "lem-wf-finite-outer-power", "lem-wf-geometric-closure-semisimple"]
 +++
 Assume $\rho$ is geometrically semisimple and

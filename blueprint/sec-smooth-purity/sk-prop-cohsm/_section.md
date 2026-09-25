@@ -2,7 +2,7 @@
 id = "sk-prop-cohsm"
 kind = "section"
 title = "Cohomological smoothness"
-order = 2065
+order = 2083
 uses = ["sk-prop-a1", "sk-prop-an"]
 +++
 *Proposition (sketch).*

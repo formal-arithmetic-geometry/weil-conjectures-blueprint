@@ -2,7 +2,7 @@
 id = "lem-trf-frobenius-formal-contraction"
 kind = "lemma"
 title = "The Frobenius is topologically nilpotent on the formal completion"
-order = 2477
+order = 2505
 uses = ["def-trf-scheme-frobenius", "lem-trf-frobenius-differential-vanishing"]
 +++
 Let $y\in X_0(\mathbf F_{q^m})$ and let $\widehat{\mathcal O}_{X,y}$

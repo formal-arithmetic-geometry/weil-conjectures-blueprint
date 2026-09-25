@@ -2,7 +2,7 @@
 id = "prop-endpoints"
 kind = "theorem"
 title = "Endpoint cohomology and endpoint factors"
-order = 3135
+order = 3202
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-smooth-proper-cohomological-family", "prop-cohomological-finiteness", "prop-integral-recovery", "prop-poincare-pairing"]
 +++

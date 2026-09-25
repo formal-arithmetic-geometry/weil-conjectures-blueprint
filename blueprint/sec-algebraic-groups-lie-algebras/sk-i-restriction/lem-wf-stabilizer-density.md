@@ -2,7 +2,7 @@
 id = "lem-wf-stabilizer-density"
 kind = "lemma"
 title = "Closed stabilizers and density"
-order = 2657
+order = 2704
 uses = ["def-wf-geometric-monodromy-group"]
 +++
 Let $S\subseteq V$ be a vector subspace. The stabilizer

@@ -2,7 +2,7 @@
 id = "sbc-prop-extension-by-zero-and-arbitrary-base-change"
 kind = "theorem"
 title = "Extension by zero base change"
-order = 1441
+order = 1449
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
 +++

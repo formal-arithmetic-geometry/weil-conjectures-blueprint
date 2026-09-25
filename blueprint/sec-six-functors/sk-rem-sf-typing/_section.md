@@ -2,7 +2,7 @@
 id = "sk-rem-sf-typing"
 kind = "section"
 title = "Typing table: ambient definition, small-category theorem"
-order = 2122
+order = 2141
 +++
 *Remark (sketch).*
 
@@ -15,7 +15,7 @@ $\Dbc,\Dctf,D_c^{[a,b]}$ are as in [sk-def-sf-categories]; ``ét'' and
 | --- | --- | --- |
 | $Lf^*$ | $D(Y,\Lambda)\to D(X,\Lambda)$ | $\Dbc(Y)\to\Dbc(X)$ ([sk-prop-sf-finiteness], ét); $\Dctf(Y)\to\Dctf(X)$ ([sk-thm-sf-ctf-stability] (i)) |
 | $-\otimes^L-$ | $D(Y)^2\to D(Y)$ | $\Dctf\times\Dbc\to\Dbc$ and $\Dctf\times\Dctf\to\Dctf$ on ét and proét, with $[a,b]+[c,d]\mapsto[a+c,b+d]$ ([sk-thm-sf-ctf-stability] (ii)) |
-| $\RHom(-,-)$ | $D(Y)^{\mathrm{op}}\times D(Y)\to D(Y)$ | $\Dctf\times\Dctf\to\Dctf$ on ét for two arbitrary objects, and on proét for pulled-back pairs, with $[a,b],[c,d]\mapsto[c-b,d-a]$ ([sk-thm-sf-hom-ctf], [sk-thm-sf-ctf-stability] (ii)) |
+| $\RHom(-,-)$ | $D(Y)^{\mathrm{op}}\times D(Y)\to D(Y)$ | $\Dctf\times\Dctf\to\Dctf$ on ét for two arbitrary objects, and on proét for pulled-back pairs, with $[a,b],[c,d]\mapsto[c-b-2m,d-a+2m]$ ($\dim Y\le m$), and $[c-b,d-a]$ for a site-perfect first argument ([sk-thm-sf-hom-ctf], [sk-thm-sf-ctf-stability] (ii)) |
 | $Rf_*$ | $D^+(X)\to D^+(Y)$ | $\Dbc(X)\to\Dbc(Y)$ for every finite-type $f$ ([sk-prop-sf-finiteness]); $\Dctf(X)\to\Dctf(Y)$ on ét and proét, with $[a,b]\mapsto[a,b+2\dim X]$ ([sk-thm-sf-direct-image-tor-amplitude], [sk-cor-sf-direct-image-ctf], [sk-thm-sf-ctf-stability] (iii)) |
 | $Rf_!$ | ambient, via a compactification | $\Dbc(X)\to\Dbc(Y)$ ([sk-prop-sf-finiteness]) and $\Dctf(X)\to\Dctf(Y)$ ([sk-thm-sf-ctf-stability] (iv)) |
 | $Rf^{\times}$ | $D(Y)\to D(X)$, right adjoint of $Rf_!$; *assumed* to exist (ambient datum) | none: it is an ambient functor, and [sk-prop-sf-existence] proves it exists on the étale sites unconditionally, and on the pro-étale sites from $\operatorname{FullCD}$, available on the étale-origin class by [sk-prop-sf-fullcd-etale-origin] |

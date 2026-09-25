@@ -2,7 +2,8 @@
 id = "sk-prop-picard-dense-points"
 kind = "section"
 title = "Zariski density of rational points"
-order = 752
+order = 754
+uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Proposition (sketch).*
 

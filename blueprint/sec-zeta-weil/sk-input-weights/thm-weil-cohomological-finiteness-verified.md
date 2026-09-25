@@ -2,9 +2,9 @@
 id = "thm-weil-cohomological-finiteness-verified"
 kind = "theorem"
 title = "Verification of Cohomological finiteness and Frobenius"
-order = 3083
+order = 3150
 tags = ["latex:proposition"]
-uses = ["def-trf-frobenius-operators", "def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-weil-sheaf-complex", "lem-sc-cohomological-dimension", "prop-trf-compact-support-perfectness", "prop-weil-operations", "prop-weil-proper-compact-coincidence", "thm-pod-degreewise-perfectness-over-a-field", "thm-pod-point-perfectness", "thm-weil-cohomological-finiteness"]
+uses = ["def-trf-frobenius-operators", "def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-weil-sheaf-complex", "lem-sc-cohomological-dimension", "prop-trf-compact-support-perfectness", "prop-weil-operations", "prop-weil-proper-compact-coincidence", "thm-pod-point-perfectness", "thm-weil-cohomological-finiteness"]
 +++
 The interface [thm-weil-cohomological-finiteness] of the framework chapter is verified as follows.
 
@@ -25,9 +25,10 @@ modules by [prop-trf-compact-support-perfectness]; at the
 $\mathcal O_E$-, $E$-, and $\Qlb$-stages the same functors
 produce perfect point complexes in the sense of
 [thm-pod-point-perfectness] – bounded with finite cohomology
-modules (respectively finite-dimensional spaces at the field stages) –
-and [thm-pod-degreewise-perfectness-over-a-field]
-gives the finite-dimensionality degreewise. The object $K$ of the
+modules (respectively finite-dimensional spaces at the field stages),
+so that, a perfect point complex over a field being a bounded complex of
+finite-dimensional spaces, each cohomology group is finite-dimensional
+degreewise; no smoothness of $Y$ and no duality is used. The object $K$ of the
 statement is represented at a finite stage $E/\Ql$ by
 [def-weil-algebraically-closed-coefficients], so the displayed
 conclusions hold for it: there are $u\leq v$ with

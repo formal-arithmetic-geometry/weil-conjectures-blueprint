@@ -2,7 +2,7 @@
 id = "lem-wf-geometric-closure-semisimple"
 kind = "lemma"
 title = "Semisimplicity passes to the geometric closure"
-order = 2661
+order = 2708
 uses = ["def-wf-geometric-monodromy-group", "def-wf-geometric-semisimplicity", "def-wf-semisimple-module", "def-wf-simple-module", "lem-wf-stabilizer-density"]
 +++
 If $\rho$ is geometrically semisimple, then $V$ is a semisimple

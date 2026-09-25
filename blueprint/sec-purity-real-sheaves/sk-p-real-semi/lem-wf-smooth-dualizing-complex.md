@@ -2,7 +2,7 @@
 id = "lem-wf-smooth-dualizing-complex"
 kind = "lemma"
 title = "Smooth dualizing complex"
-order = 2836
+order = 2883
 uses = ["def-weil-pbc-scheme-conventions", "def-wf-tate-twist"]
 +++
 For a

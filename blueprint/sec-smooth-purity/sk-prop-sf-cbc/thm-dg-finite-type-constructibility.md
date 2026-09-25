@@ -2,8 +2,8 @@
 id = "thm-dg-finite-type-constructibility"
 kind = "theorem"
 title = "Bounded constructibility of every finite-type direct image"
-order = 1659
-uses = ["cor-fin-deligne-open-finite-coefficients", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-fin-proper-bounded-constructible", "lem-weil-pbc-grothendieck-spectral-sequence", "sbc-def-coefficient-conventions", "thm-constructible-serre"]
+order = 1673
+uses = ["cor-fin-deligne-open-finite-coefficients", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-fin-proper-bounded-constructible", "lem-weil-derived-direct-image-composition", "lem-weil-pbc-grothendieck-spectral-sequence", "sbc-def-coefficient-conventions", "thm-constructible-serre"]
 +++
 Let $f:X\to Y$ be a morphism between finite-type schemes over
 a field $k$, and let $A$ be a finite ring annihilated by an
@@ -41,8 +41,9 @@ with $j_I$ open and $p_I$ projective. The two preceding
 results [cor-fin-deligne-open-finite-coefficients], [lem-fin-proper-bounded-constructible]
 prove bounded constructibility of
 $Rf_{I,*}K|_{X_I}=Rp_{I,*}Rj_{I,*}K|_{X_I}$.
-Composition of the derived direct images is justified by the
-ordinary injective-resolution construction, equivalently
+Composition of the derived direct images is
+[lem-weil-derived-direct-image-composition] (item (5)); on cohomology
+sheaves it is
 [lem-weil-pbc-grothendieck-spectral-sequence].
 
 For completeness, use the finite alternating Cech resolution

@@ -2,7 +2,7 @@
 id = "sk-thm-weil1"
 kind = "section"
 title = "Weil conjectures I: rationality and Euler product"
-order = 3150
+order = 3218
 uses = ["sk-def-zeta", "sk-prop-euler", "sk-thm-rationality"]
 +++
 *Theorem (sketch).*

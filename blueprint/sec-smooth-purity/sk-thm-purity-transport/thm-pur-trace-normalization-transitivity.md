@@ -2,8 +2,8 @@
 id = "thm-pur-trace-normalization-transitivity"
 kind = "theorem"
 title = "Trace normalization and transitivity"
-order = 2106
-uses = ["cor-pur-affine-space-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-projection-purity-agreement", "thm-pur-adic-reconstruction", "thm-pur-affine-line-orientation", "thm-pur-affine-line-purity", "thm-pur-composition-coherence", "thm-pur-finite-reduction-of-purity", "thm-pur-rational-and-qbar-purity", "thm-pur-smooth-base-change-coherence"]
+order = 2124
+uses = ["cor-pur-affine-space-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-projection-purity-agreement", "thm-pur-adic-reconstruction", "thm-pur-affine-line-orientation", "thm-pur-affine-line-purity", "thm-pur-composition-coherence", "thm-pur-finite-reduction-of-purity", "thm-pur-rational-and-qbar-purity", "thm-pur-smooth-base-change-coherence", "thm-sf-comp-composition"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $A=A_{E,n}$, let $f:X\to Y$ and $g:Y\to Z$ be smooth separated
@@ -22,6 +22,8 @@ Rg_!Lg^*K(e)[2e]
 \end{array}
 $$
 
+where $\alpha_{g,f}$ is the composition law of
+[thm-sf-comp-composition],
 equals $\operatorname{Tr}^{\mathrm{sm}}_{gf,K}$, after the pullback-composition
 and twist-additivity identifications; thus the $f$-trace, with the
 $(e)[2e]$ twist already present, is applied before the $g$-trace.
@@ -76,7 +78,7 @@ $f$-trace $Rg_!(\operatorname{Tr}^{\mathrm{sm}}_{f,Lg^*K(e)[2e]})$,
 which is what the statement's composite applies. The remaining
 identification is the functoriality of the counits with respect to the
 canonical identification $R(gf)_!\cong Rg_!Rf_!$ (the $\alpha_{g,f}$
-of the compact-support direct image), the compatibility of the
+of [thm-sf-comp-composition]), the compatibility of the
 adjunction with composition being the transpose of the composition
 isomorphism of the $R^!$-side (the composition
 isomorphism of the $R_!$-side is the transpose of the one of the

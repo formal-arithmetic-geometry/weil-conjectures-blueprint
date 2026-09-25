@@ -2,7 +2,7 @@
 id = "sk-prop-av-image-open"
 kind = "section"
 title = "Finiteness of the image is open in the parameter"
-order = 490
+order = 492
 uses = ["sk-def-av"]
 +++
 *Proposition (sketch).*

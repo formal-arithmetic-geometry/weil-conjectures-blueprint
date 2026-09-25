@@ -2,7 +2,7 @@
 id = "sk-cor-sf-direct-image-ctf"
 kind = "section"
 title = "The direct image cell on the pro-étale site"
-order = 2295
+order = 2313
 uses = ["sk-prop-sf-comparison", "sk-thm-sf-direct-image-tor-amplitude"]
 +++
 *Corollary (sketch).*

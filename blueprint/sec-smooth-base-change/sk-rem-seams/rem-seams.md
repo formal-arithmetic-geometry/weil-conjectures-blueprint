@@ -2,22 +2,22 @@
 id = "rem-seams"
 kind = "remark"
 title = "The seams"
-order = 1466
+order = 1475
 +++
 *(i) The two lanes contradict (this is the whole proof):* a
 first failure in degree $q$ produces a universal curve-test datum
-with $R^qh_*(\Z/d\Z)\neq0$ ([sk-lem-universal-datum], from the
+with $R^qh_*(\Z/d\Z)\neq0$ ([sbc-lem-bc-universal-test], from the
 counterexample chain anchored at the minimal-counterexample lemma
-`0F06`), while the curve-test lane ([sk-thm-vanishing])
+`0F06`), while the curve-test lane ([sbc-thm-universal-test-vanishing])
 makes it zero. *(ii) The curve-estimate seam:*
-[sk-prop-ext-invariance] (the algebraically closed
+[thm-sc-constant-invariance] (the algebraically closed
 field-extension invariance) is Blueprint 06 /
 `OBL-PBC-CURVES` — the same input that computes the
 closed fibre of $\mathbb P^1$ in proper base change; it is used in
-[sk-thm-vanishing] at $q=1$ only, together with the torsor
-translation [sk-prop-input-torsors] (proved in Ch. 02b of the
+[sbc-thm-universal-test-vanishing] at $q=1$ only, together with the torsor
+translation [thm-galois-torsor-h1] (proved in Ch. 02b of the
 detailed blueprint and sketched here) and the spreading theorem
-[sk-prop-input-spreading] (I5, tame extension), the deepest of
+[sbc-thm-spreading-finite-etale-galois] (I5, tame extension), the deepest of
 the lane's inputs and the one the blueprint carries only in
 sketch.
 *(iii) This is Stacks' second, shorter proof:* the

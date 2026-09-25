@@ -2,7 +2,7 @@
 id = "prop-exc-closed-site-comparison"
 kind = "theorem"
 title = "Closed exceptional image commutes with site comparison"
-order = 1908
+order = 1925
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-proetale-operations", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-exc-closed-ambient", "lem-exc-closed-localization", "lem-exc-closed-support-triangle", "lem-exc-proetale-closed-exact", "lem-exc-proetale-closed-fully-faithful", "lem-exc-proetale-closed-support", "lem-exc-proetale-support-triangle", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-site-comparison-finite-level"]
 +++

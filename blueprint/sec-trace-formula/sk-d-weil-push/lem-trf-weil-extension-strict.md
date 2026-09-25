@@ -2,7 +2,7 @@
 id = "lem-trf-weil-extension-strict"
 kind = "lemma"
 title = "The Weil extension by zero is a strict Weil complex"
-order = 2506
+order = 2538
 uses = ["def-trf-strict-weil-complex", "def-trf-weil-extension-zero", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "lem-trf-frobenius-open-square", "lem-trf-open-ctf", "lem-trf-open-square-exchange"]
 +++
 Let $j_0:X_0\hookrightarrow Y_0$ be an

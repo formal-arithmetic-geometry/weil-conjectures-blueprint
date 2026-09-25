@@ -2,7 +2,7 @@
 id = "thm-zl-riemann-hypothesis"
 kind = "theorem"
 title = "Riemann hypothesis for smooth proper schemes"
-order = 3131
+order = 3198
 uses = ["cor-zl-purity-smooth-proper", "cor-zl-zeta-from-weights", "def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-reciprocal-roots", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "thm-pod-derived-poincare-duality", "thm-pur-rational-and-qbar-purity", "thm-zl-lefschetz-weil-identity", "thm-zl-wme-deligne-estimate"]
 +++
 Fix the finite-field datum

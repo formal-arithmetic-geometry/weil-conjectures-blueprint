@@ -2,7 +2,7 @@
 id = "sbc-thm-relative-dimension-one-affine-smooth-base-change"
 kind = "theorem"
 title = "Relative-dimension-one affine smooth base change"
-order = 1423
+order = 1431
 uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-scheme-conventions", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-thm-smooth-base-change"]
 +++
 Let $u:V\to S$ be affine and

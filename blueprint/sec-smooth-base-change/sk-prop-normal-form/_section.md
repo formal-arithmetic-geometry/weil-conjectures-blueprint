@@ -2,7 +2,7 @@
 id = "sk-prop-normal-form"
 kind = "section"
 title = "Étale-local normal form and slicing"
-order = 1401
+order = 1409
 uses = ["sk-def-smooth"]
 +++
 *Proposition (sketch).*

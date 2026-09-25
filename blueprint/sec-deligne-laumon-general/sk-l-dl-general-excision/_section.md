@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-excision"
 kind = "section"
 title = "Open–closed reduction"
-order = 3020
+order = 3084
 uses = ["sk-d-dl-general-weights", "sk-prop-sf-open-closed-triangle"]
 +++
 *Lemma (sketch).*

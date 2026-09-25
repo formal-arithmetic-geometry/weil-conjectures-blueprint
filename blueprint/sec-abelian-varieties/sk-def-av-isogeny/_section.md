@@ -2,7 +2,7 @@
 id = "sk-def-av-isogeny"
 kind = "section"
 title = "Isogenies and their degree"
-order = 433
+order = 435
 +++
 *Definition (sketch).*
 

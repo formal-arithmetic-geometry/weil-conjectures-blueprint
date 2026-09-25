@@ -2,7 +2,7 @@
 id = "sbc-lem-lattice-karoubi-presentation"
 kind = "lemma"
 title = "The Karoubi presentation of an integral lattice"
-order = 1462
+order = 1470
 uses = ["def-weil-karoubi-envelope", "def-weil-pbc-rational-category", "sbc-def-admissible-lattices", "thm-weil-pbc-finite-stage-karoubian"]
 +++
 In the situation of [sbc-def-admissible-lattices], the datum of an

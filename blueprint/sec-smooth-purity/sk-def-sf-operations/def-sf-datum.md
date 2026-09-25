@@ -2,7 +2,7 @@
 id = "def-sf-datum"
 kind = "definition"
 title = "Six-functor datum, axiomatized"
-order = 1514
+order = 1524
 +++
 Fix the global finite-field datum
 $(p,a,q,k_0,k)$ with $k=\overline{\mathbf F}_q$, a prime $\ell\ne p$, a

@@ -2,7 +2,7 @@
 id = "rem-sf-tor-toolbox-stages"
 kind = "remark"
 title = "The four coefficient stages"
-order = 2318
+order = 2334
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-rationalization-karoubi", "lem-sf-flat-model", "lem-sf-pullback-tor-amplitude", "lem-sf-tensor-ctf", "lem-sf-tor-sheaf-constructible", "lem-weil-pbc-pullback-preserves-bounded-constructible", "thm-dg-finite-type-constructibility"]
 +++
 The statements [lem-sf-flat-model], [lem-sf-tor-sheaf-constructible], [lem-sf-tensor-ctf], [lem-sf-pullback-tor-amplitude]

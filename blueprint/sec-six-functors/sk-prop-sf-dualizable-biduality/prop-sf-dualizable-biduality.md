@@ -2,7 +2,7 @@
 id = "prop-sf-dualizable-biduality"
 kind = "theorem"
 title = "Biduality of a perfect complex"
-order = 2274
+order = 2291
 tags = ["latex:proposition"]
 uses = ["def-sf-datum", "def-weil-derived-pullback-tensor-hom", "lem-sf-hom-finite-projective", "prop-sf-dualizable-hom"]
 +++

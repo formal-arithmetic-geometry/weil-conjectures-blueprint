@@ -2,7 +2,7 @@
 id = "rem-pc-group-structure"
 kind = "remark"
 title = "Group scheme structure"
-order = 844
+order = 848
 +++
 The theorem produces a scheme $\underline{\operatorname{Pic}}_{X/k}$ representing
 $\operatorname{Pic}_{X/k}$ together with the group structure given by the group law of

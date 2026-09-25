@@ -2,7 +2,7 @@
 id = "lem-zl-geometric-constituents-any-base"
 kind = "lemma"
 title = "Geometric constituents after a constant extension on any base"
-order = 3037
+order = 3103
 uses = ["def-weil-pbc-qbar-category", "def-wf-fundamental-representation", "def-wf-weil-group", "lem-mg-normal-restriction-semisimple", "lem-wf-finite-index-restriction-semisimple", "lem-wf-schur-scalar", "lem-wf-weil-group-constant-extension"]
 +++
 Let $X_0$ be smooth and geometrically connected over a finite field,

@@ -2,7 +2,7 @@
 id = "rem-pd-scope"
 kind = "remark"
 title = "What changed relative to the separably closed case"
-order = 874
+order = 878
 uses = ["lem-pc-rational-hyp", "lem-pc-rational-points-dense", "rem-sc-jacobian-scope", "thm-pc-picard-representable", "thm-pd-effective-descent", "thm-pd-geometric-pic0", "thm-pd-jacobian-general-field", "thm-pd-spreading-out", "thm-sc-jacobian-representability"]
 +++
 [thm-pd-jacobian-general-field] is the statement that

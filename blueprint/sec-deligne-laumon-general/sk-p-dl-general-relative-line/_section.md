@@ -2,8 +2,8 @@
 id = "sk-p-dl-general-relative-line"
 kind = "section"
 title = "Direct images from a relative open affine line"
-order = 3039
-uses = ["sk-d-dl-general-weights", "sk-i-dl-general-real", "sk-l-dl-a1-endpoints", "sk-l-dl-general-open-line", "sk-prop-sf-cbc", "sk-thm-sf-ctf-stability", "sk-thm-trace-transport"]
+order = 3105
+uses = ["sk-d-dl-general-weights", "sk-i-dl-general-real", "sk-l-dl-a1-endpoints", "sk-l-dl-general-open-line", "sk-p-linear-filtration", "sk-prop-sf-cbc", "sk-thm-sf-ctf-stability", "sk-thm-trace-transport"]
 +++
 *Proposition (sketch).*
 

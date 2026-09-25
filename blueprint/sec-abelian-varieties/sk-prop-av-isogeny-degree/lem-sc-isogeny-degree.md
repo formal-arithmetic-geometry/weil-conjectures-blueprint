@@ -2,7 +2,7 @@
 id = "lem-sc-isogeny-degree"
 kind = "lemma"
 title = "The degree of an isogeny"
-order = 561
+order = 565
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-isogeny", "lem-sc-finite-constant-length-flat", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++
 Let $f:A\to B$ be an isogeny of

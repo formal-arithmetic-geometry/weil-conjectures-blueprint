@@ -2,9 +2,9 @@
 id = "prop-compactification-coherence-detailed"
 kind = "theorem"
 title = "Compactification coherence"
-order = 1500
+order = 1511
 tags = ["latex:proposition"]
-uses = ["def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-derived-direct-image", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-weil-pbc-proper-open-comparison-proetale", "prop-compactification-refinement"]
+uses = ["def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-weil-derived-direct-image-composition", "lem-weil-pbc-proper-open-comparison-proetale", "prop-compactification-refinement"]
 +++
 Let $K_0$ be a field, let $X,Y$ be
 finite-type $K_0$-schemes, and let
@@ -71,8 +71,8 @@ $$
 \alpha_u^{-1}:Ru_*j_{1!}\xrightarrow{\sim}j_{2!}.
 $$
 
-Composition of the derived direct images in
-[def-weil-derived-direct-image] gives
+The composition isomorphism for derived direct images at finite level,
+[lem-weil-derived-direct-image-composition] (1), gives
 $R\bar f_{1*,n}\simeq R\bar f_{2*,n}Ru_*$.
 Composing with $R\bar f_{2*,n}(\alpha_u^{-1})$ therefore gives the
 claimed map of candidates from [def-weil-compact-support-candidate].

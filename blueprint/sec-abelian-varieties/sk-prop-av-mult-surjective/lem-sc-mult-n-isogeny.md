@@ -2,7 +2,7 @@
 id = "lem-sc-mult-n-isogeny"
 kind = "lemma"
 title = "Multiplication by $n$ is surjective with finite kernel"
-order = 558
+order = 562
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-mult-n", "lem-sc-image-subgroup", "lem-sc-mult-n-finite-kernel", "lem-sc-mult-n-homomorphism"]
 +++
 Let $A$ be an abelian variety

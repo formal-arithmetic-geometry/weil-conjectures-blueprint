@@ -2,7 +2,7 @@
 id = "sk-def-av"
 kind = "section"
 title = "Abelian varieties"
-order = 430
+order = 432
 +++
 *Definition (sketch).*
 

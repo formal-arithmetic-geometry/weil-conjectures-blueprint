@@ -2,7 +2,7 @@
 id = "lem-sc-finite-image-locus-open"
 kind = "lemma"
 title = "Finiteness of the image is an open condition on the parameter"
-order = 491
+order = 493
 +++
 Let $k$ be a field, $X$ a $k$-scheme proper over $k$, $Z$ a
 $k$-scheme separated and locally of finite type over $k$, $Y$ a

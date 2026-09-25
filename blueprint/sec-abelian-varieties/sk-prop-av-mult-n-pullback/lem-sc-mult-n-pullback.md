@@ -2,7 +2,7 @@
 id = "lem-sc-mult-n-pullback"
 kind = "lemma"
 title = "Pullback of symmetric modules under multiplication by $n$"
-order = 485
+order = 487
 uses = ["def-sc-abelian-variety", "def-sc-mult-n", "thm-sc-theorem-of-cube"]
 +++
 Let $A$ be an abelian variety

@@ -2,7 +2,7 @@
 id = "lem-pur-divisor-class"
 kind = "lemma"
 title = "Kummer class of a divisor and its $c_1$"
-order = 2000
+order = 2016
 uses = ["def-coefficient-twists-detailed", "def-pur-affine-line-datum", "def-pur-conventions", "def-pur-frame-class", "def-pur-support-cohomology", "def-weil-derived-cohomology-sheaves", "lem-pur-frame-independence", "lem-pur-kummer-additivity"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

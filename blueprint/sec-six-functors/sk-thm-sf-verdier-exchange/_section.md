@@ -2,8 +2,8 @@
 id = "sk-thm-sf-verdier-exchange"
 kind = "section"
 title = "Verdier-duality exchange"
-order = 2268
-uses = ["sk-def-sf-operations", "sk-lem-sf-mate", "sk-thm-sf-tensor-hom"]
+order = 2285
+uses = ["sk-def-sf-operations", "sk-lem-sf-mate", "sk-thm-sf-comp-composition", "sk-thm-sf-tensor-hom"]
 +++
 *Theorem (sketch).*
 

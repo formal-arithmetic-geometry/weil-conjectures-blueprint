@@ -2,7 +2,7 @@
 id = "sk-d-real-log"
 kind = "section"
 title = "Small logarithm"
-order = 2776
+order = 2825
 uses = ["sk-d-real-weil"]
 +++
 *Definition (sketch).*

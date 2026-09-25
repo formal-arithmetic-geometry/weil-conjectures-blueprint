@@ -2,7 +2,7 @@
 id = "def-trf-external-product"
 kind = "definition"
 title = "External product on the square"
-order = 2401
+order = 2418
 uses = ["def-trf-coefficient-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties"]
 +++
 Use the finite coefficient ring $A=A_{E,n}$. For finite-type $k$-schemes $X_1,X_2$, projections

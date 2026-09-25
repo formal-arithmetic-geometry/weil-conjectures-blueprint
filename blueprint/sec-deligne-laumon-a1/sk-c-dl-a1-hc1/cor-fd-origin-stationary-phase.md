@@ -2,18 +2,17 @@
 id = "cor-fd-origin-stationary-phase"
 kind = "theorem"
 title = "The origin fiber is the stationary-phase contribution"
-order = 2983
+order = 3044
 tags = ["latex:corollary"]
-uses = ["def-fd-nonexceptional", "def-fd-transform", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-fd-hc2-vanishing", "lem-fd-stalk-at-origin", "lem-wf-boundary-stalk-invariants"]
+uses = ["def-fd-nonexceptional", "def-fd-transform", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-a1-unramified-nonexceptional", "lem-fd-hc2-vanishing", "lem-fd-stalk-at-origin", "lem-wf-boundary-stalk-invariants", "prop-a1-fourier-middle-extension"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ and let $\mathcal M$ be
 irreducible and lisse on $U_0$, unramified at infinity, with
 Fourier-nonexceptional middle
-extension, and suppose the Fourier transform takes the middle-extension
-shape
-$\operatorname{FT}_\psi(j_{!*}\mathcal M[1])=j'_{!*}\mathcal M'[1]$
-of [def-fd-transform] (the perverse shape certified in the
-middle-extension input). Then the degree $-1$ part of the fiber at
+extension. Then the Fourier transform of [def-fd-transform] takes the
+middle-extension shape
+$\operatorname{FT}_\psi(j_{!*}\mathcal M[1])=j'_{!*}\mathcal M'[1]$,
+and the degree $-1$ part of the fiber at
 the origin of the dual line is the $H_c^1$-term of the local Fourier
 exact sequence at the origin:
 
@@ -27,6 +26,14 @@ $I_{0'}$ at the origin of the dual line: the stationary phase term is
 therefore the origin part of the transformed middle extension.
 
 ## Proof
+
+The shape: Fourier-nonexceptionality says in particular that
+$\mathcal M$ is not geometrically constant, so, being unramified at
+infinity, $\mathcal M$ is constituent-nonexceptional by
+[lem-a1-unramified-nonexceptional], and
+[prop-a1-fourier-middle-extension] gives
+$\operatorname{FT}_\psi(j_{!*}\mathcal M[1])\cong j'_{!*}\mathcal M'[1]$
+with $\mathcal M'$ nonzero, irreducible and lisse.
 
 The first identification is [lem-fd-stalk-at-origin]: the fiber of
 the transform at the origin is $R\Gamma_c(\mathbf A^1,j_*\mathcal M)[1]$,

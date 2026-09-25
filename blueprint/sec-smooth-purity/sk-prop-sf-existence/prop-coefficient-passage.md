@@ -2,7 +2,7 @@
 id = "prop-coefficient-passage"
 kind = "theorem"
 title = "Adic, rational, and algebraically closed passage"
-order = 1845
+order = 1859
 tags = ["latex:proposition"]
 uses = ["def-exchange-projection", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "prop-weil-direct-image-constructible-landing", "prop-weil-finite-proper-base-change-exchange", "prop-weil-pbc-direct-image-limits", "prop-weil-pbc-rational-transport", "thm-weil-pbc-finite-extension", "thm-weil-pbc-qbar"]
 +++

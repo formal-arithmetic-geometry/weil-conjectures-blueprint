@@ -2,7 +2,7 @@
 id = "sk-prop-av-tate-rank"
 kind = "section"
 title = "The $\\ell$-adic Tate module is free of rank $2g$"
-order = 593
+order = 597
 uses = ["sk-def-av", "sk-def-av-tate", "sk-prop-av-divisible", "sk-prop-av-ntorsion-etale"]
 +++
 *Proposition (sketch).*

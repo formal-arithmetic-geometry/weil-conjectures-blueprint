@@ -2,19 +2,23 @@
 id = "lem-trf-local-term-point"
 kind = "lemma"
 title = "The local term at a point component"
-order = 2462
+order = 2490
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-integration", "def-trf-local-term", "def-trf-trace-class", "def-weil-scheme-morphism-properties", "lem-trf-integration-linear", "prop-functor-package", "prop-trf-trace-class-unconditional"]
 +++
 Fix the coefficient
 conventions, let $c$ be an
 admissible correspondence with
-fixed scheme $F$ proper over
-$s=\Spec k$ with finitely many open-and-closed components
-$\beta\in\pi_0(F)$, and let $\beta\in\pi_0(F)$ be a component with
+fixed scheme $F$ over $s=\Spec k$ (not necessarily proper), and let
+$\beta\subseteq F$ be an open-and-closed subscheme with
 $\beta\simeq\Spec k$, finite etale over $s$ in relative dimension
-$0$. Then the local term
+$0$ (for instance a component $\beta\in\pi_0(F)$ of this form when
+$F$ is proper with finitely many open-and-closed components, or the
+reduced point component $B_{\bar x}$ of a point $\bar x$ of $F$). Then
+the local term
 $\operatorname{LT}_\beta(u)=\int_\beta(\operatorname{Tr}_c(u)|_\beta)$
-of [def-trf-local-term] is the element of $A$ corresponding to
+of [def-trf-local-term], where
+$\operatorname{Tr}_c(u)|_\beta=j_\beta^*\operatorname{Tr}_c(u)$, is
+the element of $A$ corresponding to
 the trace class
 $\operatorname{Tr}_c(u)|_\beta$ under the canonical identification
 
@@ -23,7 +27,10 @@ $$
 \cong\operatorname{End}_{D(A)}(A)\cong A
 $$
 
-of the point case $\beta\simeq\Spec k$.
+of the point case $\beta\simeq\Spec k$. In particular this computes
+$\operatorname{LT}_{\bar x}(u)=\operatorname{LT}_{B_{\bar x}}(u)$ at
+every point $\bar x$ with reduced open-and-closed point component
+$B_{\bar x}$.
 
 ## Proof
 
@@ -31,10 +38,10 @@ The trace class
 $\operatorname{Tr}_c(u)$ and hence its restriction
 $\operatorname{Tr}_c(u)|_\beta$ of [def-trf-local-term] are
 defined for the admissible $c$ by
-[prop-trf-trace-class-unconditional]. By
-[def-trf-fixed-scheme] the component $\beta$ is a
+[prop-trf-trace-class-unconditional]. Being isomorphic to $\Spec k$, the open-and-closed subscheme $\beta$
+of the fixed scheme of [def-trf-fixed-scheme] is a
 separated finite-type
-proper $s$-scheme with structure morphism $a_\beta$ admissible in
+proper $s$-scheme, and (as in [def-trf-local-term]) it is taken with structure morphism $a_\beta$ admissible in
 the sense of [def-trf-admissibility], and the purity clause of
 [prop-functor-package] in relative dimension $0$ identifies
 $\omega_{\beta,A}=Ra_\beta^!A_s$ of

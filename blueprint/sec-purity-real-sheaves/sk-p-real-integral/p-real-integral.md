@@ -2,16 +2,18 @@
 id = "p-real-integral"
 kind = "theorem"
 title = "Integral models"
-order = 2752
-uses = ["def-wf-fundamental-representation", "def-wf-weil-group", "lem-wf-weil-fundamental-representation", "lem-wf-weil-group-constant-extension", "lem-wf-weil-group-exact-sequence", "rem-ptr-wf-weil-group-1"]
+order = 2805
+uses = ["def-wf-fundamental-representation", "lem-wf-weil-fundamental-representation", "lem-wf-weil-group-exact-sequence", "prop-wf-weil-sheaf-representation-equivalence"]
 tags = ["latex:proposition"]
 +++
-Keep the notation of [def-wf-fundamental-representation], [lem-wf-weil-fundamental-representation], and let $U_0\subseteq C_0$ be a
+Keep the notation of [prop-wf-weil-sheaf-representation-equivalence], and let $U_0\subseteq C_0$ be a
 nonempty open subscheme with base change $U$ and geometric fundamental group
-$\pi_1(U)$. An $\mathcal O_E$-lattice in $V$ means a free
+$\pi_1(U)$, the kernel of the degree map of $W(U_0)$ by
+[lem-wf-weil-group-exact-sequence]. An $\mathcal O_E$-lattice in $V$ means a free
 $\mathcal O_E$-submodule of rank $\dim_{E}V$ that spans $V$ over $E$.
 
-Let $(V,\rho)$ be a lisse Weil sheaf on $U_0$. After replacing $E$ by a
+Let $(V,\rho)$ be a lisse Weil sheaf on $U_0$, with $\rho$ its Weil
+fundamental representation of [def-wf-fundamental-representation]. After replacing $E$ by a
 finite extension there is an $\mathcal O_E$-lattice $L\subset V$ with
 
 $$
@@ -24,8 +26,9 @@ $\mathcal O_E$-sheaf on $U$.
 
 ## Proof
 
-By [def-wf-weil-group], [lem-wf-weil-group-constant-extension], [lem-wf-weil-group-exact-sequence], [rem-ptr-wf-weil-group-1] the representation admits a model over a finite
-$E/\Ql$ whose restriction to the geometric subgroup is continuous; a further
+By [prop-wf-weil-sheaf-representation-equivalence] the representation admits a model over a finite
+$E/\Ql$, whose restriction to the geometric subgroup is continuous by
+[lem-wf-weil-fundamental-representation]; a further
 finite extension absorbs that choice. Since $\pi_1(U)$ is profinite, hence
 compact, $\rho(\pi_1(U))$ is a compact subgroup of $\GL(V)$. The orbit of an
 arbitrary $\mathcal O_E$-lattice under a compact subgroup is bounded, so the
@@ -36,4 +39,4 @@ automorphisms is finite, and these reductions form the compatible system of
 finite locally constant sheaves whose limit is the lisse $\mathcal O_E$-sheaf
 on $U$ with stalk $L$.
 
-Uses: [def-wf-weil-group], [lem-wf-weil-group-constant-extension], [lem-wf-weil-group-exact-sequence], [rem-ptr-wf-weil-group-1], [def-wf-fundamental-representation], [lem-wf-weil-fundamental-representation]
+Uses: [def-wf-fundamental-representation], [lem-wf-weil-fundamental-representation], [lem-wf-weil-group-exact-sequence], [prop-wf-weil-sheaf-representation-equivalence]

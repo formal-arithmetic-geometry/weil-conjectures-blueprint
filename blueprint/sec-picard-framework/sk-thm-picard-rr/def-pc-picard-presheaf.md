@@ -2,7 +2,7 @@
 id = "def-pc-picard-presheaf"
 kind = "definition"
 title = "The Picard presheaf"
-order = 729
+order = 731
 uses = ["def-pc-base-change", "def-sc-picard-group", "rem-pc-sc-modules"]
 +++
 Let $f:X\to S$ be a morphism of schemes. The *Picard presheaf* is
@@ -13,4 +13,4 @@ T\longmapsto\operatorname{Pic}(X_T),
 $$
 
 with $\operatorname{Pic}$ of [def-sc-picard-group] (in the generality of
-[rem-pc-sc-modules]) and $X_T$ of [def-pc-base-change];
+[rem-pc-sc-modules]) and $X_T$ of [def-pc-base-change].

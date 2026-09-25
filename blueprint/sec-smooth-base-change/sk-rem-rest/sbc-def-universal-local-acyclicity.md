@@ -2,7 +2,7 @@
 id = "sbc-def-universal-local-acyclicity"
 kind = "definition"
 title = "Universal local acyclicity"
-order = 1452
+order = 1460
 uses = ["def-weil-pbc-scheme-conventions", "sbc-def-local-acyclicity"]
 +++
 Let $f:X\to S$ be a morphism of

@@ -2,7 +2,7 @@
 id = "prop-pur-smooth-purity-compatibilities"
 kind = "theorem"
 title = "Compatibilities of smooth purity"
-order = 2114
+order = 2132
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-exchange-projection", "def-pur-conventions", "def-pur-smooth-purity-map", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-adjoint-admissibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-pur-regular-immersion-purity-compatibilities", "thm-pur-cohomological-smoothness", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-regular-immersion-purity"]
 +++

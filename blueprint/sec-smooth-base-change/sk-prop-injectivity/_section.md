@@ -2,7 +2,7 @@
 id = "sk-prop-injectivity"
 kind = "section"
 title = "Injectivity of the critical map"
-order = 1387
+order = 1395
 uses = ["sk-def-bc"]
 +++
 *Proposition (sketch).*

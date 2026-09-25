@@ -2,7 +2,7 @@
 id = "lem-sf-separably-closed-torsion-cd"
 kind = "lemma"
 title = "Torsion cohomological dimension of a separably closed field"
-order = 1823
+order = 1837
 uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "lem-exc-field-discrete-modules"]
 +++
 Let $K$ be a separably closed field. Then

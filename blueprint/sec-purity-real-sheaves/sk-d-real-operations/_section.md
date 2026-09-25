@@ -2,8 +2,8 @@
 id = "sk-d-real-operations"
 kind = "section"
 title = "Operations, constituents and coinvariants"
-order = 2753
-uses = ["sk-d-real-weil"]
+order = 2794
+uses = ["sec-algebraic-groups-lie-algebras", "sec-six-functors", "sk-d-real-weil"]
 +++
 *Definition (sketch).*
 

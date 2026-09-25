@@ -2,7 +2,7 @@
 id = "lem-amb-kummer-any-base"
 kind = "lemma"
 title = "The Kummer sequence on an arbitrary base"
-order = 1584
+order = 1598
 uses = ["def-sc-kummer-sequence", "def-weil-pbc-etale-sheaves"]
 +++
 Let $n$ be invertible on a scheme $T$. The sequence

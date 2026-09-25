@@ -2,7 +2,7 @@
 id = "lem-fd-realified-kernel-real"
 kind = "lemma"
 title = "The realified kernel is $\\iota$-real"
-order = 2974
+order = 3033
 uses = ["def-fd-kernel", "def-fd-nonexceptional", "def-fd-transform", "def-weil-pbc-constructible-complexes", "def-weil-punctual-weights", "def-wf-constant-weil-twist", "def-wf-fundamental-representation", "def-wf-iota-real", "def-wf-middle-extension", "lem-fd-as-characters", "lem-fd-as-lisse", "lem-fd-as-purity", "lem-trf-frobenius-degree-formula", "lem-wf-pure-realizable", "prop-kernel-lisse"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion with
@@ -35,9 +35,16 @@ the Fourier kernel being those of
 [def-fd-kernel] and the transform normalizations those of
 [def-fd-transform]. Then $\mathcal K$ is
 $\iota$-real in the sense of
-[def-wf-iota-real].
+[def-wf-iota-real]. More generally, the same conclusion holds, with
+$b$, $\mathcal M^\dagger$ and $\mathcal K$ formed in the same way, for
+*every* lisse Weil sheaf $\mathcal M$ on $U_0$ which is punctually
+$\iota$-pure of weight $w$: the irreducibility, unramifiedness and
+nonexceptionality hypotheses are not needed for the reality of the kernel.
 
 ## Proof
+
+Only the punctual purity of $\mathcal M$ is used below, which gives the
+more general form of the statement.
 
 Step 1 (the two summands are mutual conjugates). By
 [lem-wf-pure-realizable] the local factor of
@@ -56,7 +63,7 @@ weight $0$ ([lem-fd-as-purity]), so its unique local eigenvalue
 $\lambda$ at a closed point of the square satisfies
 $|\iota(\lambda)|=1$ and therefore
 $\overline{\iota(\lambda)}=|\iota(\lambda)|^2\iota(\lambda)^{-1} =\iota(\lambda)^{-1}$; by
-$(\mathcal L_{\psi,f})^{-1}\cong\mathcal L_{-\psi,f}$ of
+$(\mathcal L_{\psi,f})^{-1}\cong\mathcal L_{\psi,-f}\cong\mathcal L_{\psi^{-1},f}$ of
 [lem-fd-as-characters] the sheaf $\mathcal K_{\psi^{-1}}$ is the
 inverse of $\mathcal K_\psi$ [prop-kernel-lisse], so its local eigenvalue at the same point
 is $\lambda^{-1}$.

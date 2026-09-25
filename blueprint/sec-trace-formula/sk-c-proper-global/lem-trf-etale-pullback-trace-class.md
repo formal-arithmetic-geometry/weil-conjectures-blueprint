@@ -2,7 +2,7 @@
 id = "lem-trf-etale-pullback-trace-class"
 kind = "theorem"
 title = "Etale pullback compatibility of trace maps"
-order = 2475
+order = 2503
 uses = ["def-trf-etale-base-change", "def-trf-trace-class", "lem-trf-trace-map-etale-pullback", "lem-trf-trace-source-etale-pullback"]
 +++
 In the situation of [def-trf-etale-base-change], the Verdier trace

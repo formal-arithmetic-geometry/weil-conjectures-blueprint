@@ -2,7 +2,7 @@
 id = "lem-fd-transform-concentration"
 kind = "lemma"
 title = "The transform of a nonexceptional input is a sheaf; the Kiehl–Weissauer property (a)"
-order = 2945
+order = 2996
 uses = ["def-fd-artin-schreier-sheaf", "def-fd-nonexceptional", "def-fd-transform", "def-wf-fundamental-representation", "lem-a1-affine-hc0", "lem-fd-fourier-concentration", "lem-fd-hc2-vanishing", "lem-fd-stalk-formula"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion with
@@ -28,6 +28,11 @@ $\operatorname{FT}_\psi(j_!\mathcal M)$ of [def-fd-transform] is a
 property (a) of the Kiehl–Weissauer route recorded in
 the extension-by-zero route, and it is the exactness half that upgrades the
 amplitude bound of [thm-fd-fourier-perverse].
+The hypotheses of irreducibility of $V$ and unramifiedness at infinity
+are removed later: the same concentration holds for every nonzero
+irreducible constituent-nonexceptional lisse $\mathcal M$, see
+[lem-fd-constituent-nonexceptional-concentration] and the zero-extension
+comparison [prop-fd-zero-extension-comparison].
 
 ## Proof
 

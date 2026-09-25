@@ -2,7 +2,7 @@
 id = "lem-fd-l2-middle-extension"
 kind = "lemma"
 title = "The middle extension does not change the $L^2$-weight"
-order = 2966
+order = 3025
 uses = ["def-weil-punctual-weights", "def-wf-l2-norm", "def-wf-middle-extension", "lem-wf-boundary-semicontinuity", "lem-wf-l2-purity-rigidity"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion

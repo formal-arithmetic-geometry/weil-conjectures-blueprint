@@ -2,7 +2,7 @@
 id = "sbc-thm-finiteness-finite-type"
 kind = "theorem"
 title = "Finiteness of higher direct images of finite-type morphisms"
-order = 1660
+order = 1674
 uses = ["def-amb-etale-compact-support", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-dg-compact-support-amplitude", "lem-fin-extension-by-zero", "lem-fin-proper-bounded-constructible", "sbc-def-coefficient-conventions", "thm-dg-finite-type-constructibility", "thm-nagata-compactification"]
 +++
 Let $u:X\to Y$ be a

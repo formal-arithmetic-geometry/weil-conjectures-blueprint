@@ -2,7 +2,7 @@
 id = "lem-pc-hilb-addition"
 kind = "lemma"
 title = "The addition morphism on Hilbert schemes"
-order = 791
+order = 795
 uses = ["def-pc-finite-locally-free", "def-pc-hilb-functor", "lem-pc-cartier-criterion"]
 +++
 (Picard Schemes of Curves, Lemma 44.3.4, Tag

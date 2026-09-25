@@ -2,7 +2,7 @@
 id = "lem-zl-poincare-duality-roots"
 kind = "lemma"
 title = "Duality reciprocity of Frobenius roots"
-order = 3139
+order = 3207
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-ordinary-reciprocal-roots", "def-weil-poincare-trace-cup", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "lem-wf-tate-twist-frobenius", "thm-weil-poincare-duality"]
 +++
 Fix the finite-field datum

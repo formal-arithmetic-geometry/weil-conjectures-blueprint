@@ -2,7 +2,7 @@
 id = "lem-fin-finite-splitting"
 kind = "lemma"
 title = "Etale splitting of a finite morphism"
-order = 1536
+order = 1550
 uses = ["def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit", "lemma-weil-pbc-finite-stalk-formula"]
 +++
 Let $f:X\to S$ be a finite

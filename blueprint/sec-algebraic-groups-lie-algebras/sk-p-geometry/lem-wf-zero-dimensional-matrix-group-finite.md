@@ -2,7 +2,7 @@
 id = "lem-wf-zero-dimensional-matrix-group-finite"
 kind = "lemma"
 title = "Zero-dimensional closed matrix groups are finite"
-order = 2636
+order = 2682
 uses = ["def-wf-algebraic-components", "lem-wf-matrix-group-components"]
 +++
 Let $G\subseteq\operatorname{GL}(V)$ be a closed reduced matrix group

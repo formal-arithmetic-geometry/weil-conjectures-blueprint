@@ -2,7 +2,7 @@
 id = "prop-weil-sixops-projection"
 kind = "theorem"
 title = "Projection formula for compact support"
-order = 3161
+order = 3229
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "prop-functor-package"]
 +++

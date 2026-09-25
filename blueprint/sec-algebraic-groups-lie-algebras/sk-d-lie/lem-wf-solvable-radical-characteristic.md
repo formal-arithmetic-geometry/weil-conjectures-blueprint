@@ -2,7 +2,7 @@
 id = "lem-wf-solvable-radical-characteristic"
 kind = "lemma"
 title = "The solvable radical is characteristic"
-order = 2610
+order = 2647
 uses = ["def-wf-lie-radical-centre"]
 +++
 Let $\mathfrak g$ be a finite-dimensional Lie algebra. Every

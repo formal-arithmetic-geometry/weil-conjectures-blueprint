@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-global-operator-7"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-global-operator]"
-order = 2418
+order = 2440
 uses = ["def-trf-global-operator", "lem-trf-global-operator-linearity", "lem-trf-global-operator-naturality"]
 +++
 In the notation of [def-trf-global-operator], the following holds. Its naturality in

@@ -2,7 +2,7 @@
 id = "thm-weil-karoubian-bounded-t"
 kind = "theorem"
 title = "Bounded t-structures are Karoubian"
-order = 1433
+order = 1441
 uses = ["def-weil-karoubi-envelope", "def-weil-t-structure", "lem-weil-envelope-tstructure", "lem-weil-karoubi-envelope-fully-faithful", "lem-weil-karoubi-envelope-idempotent-complete", "lem-weil-karoubi-envelope-triangulated", "prop-weil-heart-abelian"]
 +++
 If a triangulated category $\mathcal T$ has a bounded t-structure, then

@@ -2,7 +2,7 @@
 id = "def-weil-constructible-intervals"
 kind = "definition"
 title = "Constructible cohomological intervals"
-order = 1483
+order = 1492
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-finite-torsion-constructibility"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf

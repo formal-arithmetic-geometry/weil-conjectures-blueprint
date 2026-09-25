@@ -2,7 +2,7 @@
 id = "lem-pod-perfect-point-double-dual"
 kind = "lemma"
 title = "Double dual of a perfect point complex"
-order = 2552
+order = 2588
 uses = ["def-pod-conventions", "def-pod-perfect-point-complex"]
 +++
 In the Poincare duality conventions of

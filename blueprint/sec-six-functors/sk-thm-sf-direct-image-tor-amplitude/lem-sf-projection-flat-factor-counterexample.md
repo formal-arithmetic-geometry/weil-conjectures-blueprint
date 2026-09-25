@@ -2,7 +2,7 @@
 id = "lem-sf-projection-flat-factor-counterexample"
 kind = "lemma"
 title = "The projection formula fails for a flat factor that is not finitely generated"
-order = 2294
+order = 2312
 uses = ["def-exchange-projection", "def-weil-derived-tensor"]
 +++
 There are a morphism of ringed spaces $f:X\to Y$, a flat

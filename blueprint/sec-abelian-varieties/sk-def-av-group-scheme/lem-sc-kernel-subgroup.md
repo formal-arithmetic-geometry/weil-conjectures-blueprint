@@ -2,12 +2,12 @@
 id = "lem-sc-kernel-subgroup"
 kind = "lemma"
 title = "Kernels are closed subgroup schemes"
-order = 428
-uses = ["def-sc-group-scheme", "def-sc-group-scheme-subgroup"]
+order = 430
+uses = ["def-sc-group-scheme", "def-sc-group-scheme-subgroup", "def-weil-pbc-scheme-conventions"]
 +++
 Let $f:G\to H$ be a homomorphism of
-group schemes over a field $k$ whose structure morphism
-$p_H:H\to\Spec k$ is separated, with unit section $e_H$. Then
+group schemes over a field $k$, and let $e_H$ be the unit
+section of $H$. Then
 
 $$
 N:=G\times_{H,f,e_H}\Spec k,
@@ -21,13 +21,22 @@ $G$.
 
 ## Proof
 
-A section of a separated morphism is a closed immersion: if
-$s:\Spec k\to H$ satisfies $p_H\circ s=\mathrm{id}$, then $s$ is
-the base change of the diagonal $\Delta_H:H\to H\times_kH$ along
-$(\mathrm{id}_H,s\circ p_H):H\to H\times_kH$, and $\Delta_H$ is a
-closed immersion because $p_H$ is separated. Hence
-$e_H:\Spec k\to H$ is a closed immersion, and its base change
-$N\to G$ is a closed immersion.
+First, every $k$-rational point $s:\Spec k\to X$ of a
+$k$-scheme $X$ is a closed immersion (in the sense of
+[def-weil-pbc-scheme-conventions]). Let $x$ be the image point of
+$s$. For an affine open $U=\Spec B\subseteq X$ containing $x$, the
+morphism $s$ corresponds to a $k$-algebra map $B\to k$, which is
+surjective because it is $k$-linear and sends $1$ to $1$; so
+$s^{-1}(U)=\Spec k\to U$ is a closed immersion and $x$ is closed in
+$U$ (its prime is the kernel of $B\to k$, a maximal ideal). The point
+$x$ is closed in $X$: if $y\in\overline{\{x\}}$ and $V$ is an affine
+open containing $y$, then $V$ meets $\{x\}$, so $x\in V$ and $y$ lies
+in the closure of $x$ in $V$, which is $\{x\}$. Hence for an affine
+open $U$ not containing $x$ we have $s^{-1}(U)=\emptyset$, and $s$ is
+affine and locally induced by surjective ring maps, i.e. a closed
+immersion. Applying this to $e_H:\Spec k\to H$, the unit section is a
+closed immersion, and its base change $N\to G$ is a closed immersion.
+(In particular no separatedness hypothesis on $H$ is needed.)
 
 For a $k$-algebra $R$, the $R$-points of $N$ are the pairs
 $(\varphi,\psi)$ with $\varphi:\Spec R\to G$,

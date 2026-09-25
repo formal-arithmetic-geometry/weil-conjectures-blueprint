@@ -2,7 +2,7 @@
 id = "lem-pc-divisor-line-bundle-properties"
 kind = "lemma"
 title = "Properties of $\\mathcal{O}_X(D)$"
-order = 796
+order = 800
 uses = ["def-pc-base-change", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "lem-pc-closed-imm-base-change", "lem-pc-tensor-dual-invertible"]
 +++
 Let $S$ be a scheme and $D\subset S$ an

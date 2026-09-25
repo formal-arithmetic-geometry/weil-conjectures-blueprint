@@ -2,8 +2,8 @@
 id = "lem-trf-trace-triangle-compatibility"
 kind = "lemma"
 title = "Triangle compatibility of the trace class"
-order = 2491
-uses = ["def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-supported-pairing", "def-trf-trace-class", "def-trf-trace-class-source", "def-weil-derived-pullback-tensor-hom", "lem-kun-stalk-faithful-derived", "lem-trf-global-operator-triangulated", "prop-trf-pairing-point-normalization", "prop-trf-trace-formal-laws", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-evaluation-finite", "thm-trf-kunneth-verdier"]
+order = 2520
+uses = ["def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-supported-pairing", "def-trf-trace-class", "def-trf-trace-class-source", "def-weil-derived-pullback-tensor-hom", "lem-kun-stalk-faithful-derived", "lem-trf-global-operator-triangulated", "lem-trf-trace-class-diagonal-pairing", "prop-trf-pairing-point-normalization", "prop-trf-trace-formal-laws", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-evaluation-finite", "thm-trf-kunneth-verdier"]
 +++
 Let $K'\to K\to K''\to K'[1]$ be a distinguished triangle in
 $D^b_{ctf}(X,A)$ and let $(u',u,u'')$ be a morphism of the
@@ -27,8 +27,9 @@ Fujiwara](https://arxiv.org/pdf/math/0505564), Section 5; the argument below is 
 
 ## Proof
 
-By [def-trf-supported-pairing] the trace class is the supported
-pairing $\operatorname{Tr}_c(u)=\langle u,1_K\rangle_{\mathrm{LV}}$; by [def-trf-trace-class] it is also
+By [lem-trf-trace-class-diagonal-pairing] the trace class is the supported
+pairing $\operatorname{Tr}_c(u)=\langle u,1_K\rangle_{\mathrm{LV}}$ of
+[def-trf-supported-pairing]; by [def-trf-trace-class] it is
 the composite of the mate $\widetilde u$ of
 [def-trf-correspondence] with the trace map
 $\mathfrak t_{c,K}$. Both descriptions produce an element of

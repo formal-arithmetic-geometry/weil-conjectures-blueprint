@@ -2,7 +2,7 @@
 id = "sk-prop-av-char"
 kind = "section"
 title = "Abelian varieties are the complete group varieties"
-order = 474
+order = 476
 uses = ["sk-def-av", "sk-def-av-group-scheme"]
 +++
 *Proposition (sketch).*

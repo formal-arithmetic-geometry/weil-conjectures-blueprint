@@ -2,7 +2,7 @@
 id = "rem-sc-jacobian-scope"
 kind = "remark"
 title = "Scope of the Jacobian existence result"
-order = 858
+order = 862
 uses = ["def-sc-general-curve", "def-sc-jacobian", "thm-pc-picard-representable", "thm-sc-jacobian-representability"]
 +++
 The existence theorem of this chapter is proved in

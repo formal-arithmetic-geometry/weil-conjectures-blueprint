@@ -2,8 +2,8 @@
 id = "sk-d-weil-push"
 kind = "section"
 title = "Weil $!$-pushforward"
-order = 2501
-uses = ["sk-d-relative-frob", "sk-d-six", "sk-d-weil", "sk-i-relative-frob", "sk-i-topology"]
+order = 2530
+uses = ["sk-d-operator", "sk-d-relative-frob", "sk-d-six", "sk-d-weil", "sk-i-relative-frob", "sk-i-topology"]
 +++
 *Definition (sketch).*
 

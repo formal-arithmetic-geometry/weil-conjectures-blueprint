@@ -2,7 +2,7 @@
 id = "def-fd-transform"
 kind = "definition"
 title = "The Fourier–Deligne transform"
-order = 2889
+order = 2936
 uses = ["def-fd-kernel", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++
 For $K\in D^b_c(V,E)$, $V_0\to S_0$ being the rank-$r$ vector

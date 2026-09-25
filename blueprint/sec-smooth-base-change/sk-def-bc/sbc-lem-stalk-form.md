@@ -2,7 +2,7 @@
 id = "sbc-lem-stalk-form"
 kind = "lemma"
 title = "Stalk form of the base-change map"
-order = 1376
+order = 1384
 uses = ["def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula", "sbc-def-base-change-map", "sbc-def-base-change-square"]
 +++
 Consider a base-change square

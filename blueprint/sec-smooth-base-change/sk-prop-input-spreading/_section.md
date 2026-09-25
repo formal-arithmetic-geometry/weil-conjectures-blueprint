@@ -2,7 +2,7 @@
 id = "sk-prop-input-spreading"
 kind = "section"
 title = "Spreading a finite étale Galois cover"
-order = 1408
+order = 1416
 uses = ["sk-def-smooth"]
 +++
 *Proposition (sketch).*

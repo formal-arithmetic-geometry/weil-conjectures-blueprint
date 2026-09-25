@@ -3,7 +3,7 @@ id = "lem-sc-p1-monomial"
 kind = "lemma"
 title = "Cohomology of the twists on $\\mathbf P^1_k$"
 order = 648
-uses = ["def-sc-kahler-differentials", "def-sc-p1-standard", "lem-sc-canonical-sheaf", "lem-sc-cech-spectral", "lem-sc-p1-twist-exists", "lem-sc-p1-twist-sections", "pqf-lem-affine-vanishing"]
+uses = ["def-sc-kahler-differentials", "def-sc-p1-standard", "lem-pc-projective-space-canonical", "lem-sc-canonical-sheaf", "lem-sc-cech-spectral", "lem-sc-p1-twist-exists", "lem-sc-p1-twist-sections", "pqf-lem-affine-vanishing"]
 +++
 Let $k$ be an algebraically closed field. With the standard cover
 and twists of [def-sc-p1-standard], for every $d\in\mathbf Z$:
@@ -77,3 +77,5 @@ $ds=-s^{2}dt$, i.e. $dt=-t^{2}ds$, so that the transition
 function $-t^{2}$ differs from the transition function $t^{2}$ of
 $\mathcal O(-2)$ by the unit $-1$, whence
 $\omega_{\mathbf P^1}\cong\mathcal O(-2)$.
+(This is the case $n=1$, $A=k$ of [lem-pc-projective-space-canonical],
+which gives $\omega_{\mathbf P^n}\cong\mathcal O(-n-1)$ in general.)

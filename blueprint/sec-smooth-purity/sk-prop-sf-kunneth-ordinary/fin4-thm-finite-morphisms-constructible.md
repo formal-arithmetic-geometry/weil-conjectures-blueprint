@@ -2,7 +2,7 @@
 id = "fin4-thm-finite-morphisms-constructible"
 kind = "theorem"
 title = "Finite morphisms preserve constructibility"
-order = 1804
+order = 1818
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism", "sbc-def-coefficient-conventions"]
 +++
 Let $f:X\to S$ be a finite

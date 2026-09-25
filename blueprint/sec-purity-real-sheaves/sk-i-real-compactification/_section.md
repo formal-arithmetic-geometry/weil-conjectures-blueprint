@@ -2,7 +2,7 @@
 id = "sk-i-real-compactification"
 kind = "section"
 title = "Smooth proper completion"
-order = 2773
+order = 2822
 uses = ["sk-d-real-setup", "sk-thm-nagata-compactification"]
 +++
 *Proposition (sketch).*

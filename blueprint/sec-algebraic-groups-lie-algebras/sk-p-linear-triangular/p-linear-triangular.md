@@ -2,8 +2,7 @@
 id = "p-linear-triangular"
 kind = "theorem"
 title = "Triangularization"
-order = 2705
-uses = ["def-wf-algebraic-representations", "def-wf-semisimple-module", "def-wf-simple-module"]
+order = 2752
 tags = ["latex:proposition"]
 +++
 A single endomorphism of a finite-dimensional
@@ -22,5 +21,3 @@ In a basis adapted to it, $f$ is upper triangular with the flag's
 eigenvalues on the diagonal. Mathlib has the generalized eigenspace
 decomposition `Module.End.iSup_maxGenEigenspace_eq_top` over an
 algebraically closed field, but no flag statement.
-
-Uses: [def-wf-algebraic-representations], [def-wf-semisimple-module], [def-wf-simple-module]

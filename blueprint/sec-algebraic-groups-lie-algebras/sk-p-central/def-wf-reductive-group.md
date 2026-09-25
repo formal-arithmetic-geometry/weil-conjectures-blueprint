@@ -2,7 +2,7 @@
 id = "def-wf-reductive-group"
 kind = "definition"
 title = "Reductive algebraic group"
-order = 2674
+order = 2721
 uses = ["def-wf-unipotent-radical"]
 +++
 A connected linear algebraic group $H$ is *reductive* if

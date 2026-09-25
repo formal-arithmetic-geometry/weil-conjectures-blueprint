@@ -2,7 +2,7 @@
 id = "prop-weil-sixops-scalar-extension"
 kind = "theorem"
 title = "Scalar extension and the common-stage categories"
-order = 3157
+order = 3225
 tags = ["latex:proposition"]
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-rationalization-karoubi", "prop-functor-package"]
 +++

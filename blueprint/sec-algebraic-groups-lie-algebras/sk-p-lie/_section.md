@@ -2,7 +2,7 @@
 id = "sk-p-lie"
 kind = "section"
 title = "Lie algebra structure"
-order = 2612
+order = 2649
 uses = ["sk-d-lie"]
 +++
 *Proposition (sketch).*

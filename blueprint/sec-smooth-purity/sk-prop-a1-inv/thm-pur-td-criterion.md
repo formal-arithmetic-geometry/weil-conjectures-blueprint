@@ -2,7 +2,7 @@
 id = "thm-pur-td-criterion"
 kind = "theorem"
 title = "Trace–diagonal criterion"
-order = 2015
+order = 2032
 uses = ["cor-sf-ambient-adjoint-discharge", "def-pur-conventions", "def-pur-td-datum", "def-weil-ambient-exceptional-adjoint", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

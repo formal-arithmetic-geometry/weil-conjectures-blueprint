@@ -2,7 +2,7 @@
 id = "sbc-lem-local-acyclicity-constant"
 kind = "lemma"
 title = "Constant-sheaf form of local acyclicity"
-order = 1454
+order = 1462
 uses = ["sbc-def-local-acyclicity", "sbc-def-specialization-map", "sbc-lem-strict-henselian-constant-cohomology"]
 +++
 Let $M$ be an abelian group. Local acyclicity of $f:X\to S$ with

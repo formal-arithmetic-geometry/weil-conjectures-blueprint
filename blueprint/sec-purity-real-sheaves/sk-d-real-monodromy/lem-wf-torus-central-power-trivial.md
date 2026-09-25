@@ -2,7 +2,7 @@
 id = "lem-wf-torus-central-power-trivial"
 kind = "lemma"
 title = "A power of the Frobenius acts trivially on the central torus"
-order = 2801
+order = 2850
 uses = ["def-wf-algebraic-character", "def-wf-algebraic-representations", "def-wf-algebraic-torus", "def-wf-arithmetic-monodromy-extension", "def-wf-monodromy-data", "def-wf-semisimple-module", "lem-wf-central-torus-weight-decomposition", "lem-wf-reductive-connected-centre", "lem-wf-weight-lattice-generates"]
 +++
 In the setting of [def-wf-monodromy-data], let

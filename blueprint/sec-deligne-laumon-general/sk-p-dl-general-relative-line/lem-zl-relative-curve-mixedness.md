@@ -2,7 +2,7 @@
 id = "lem-zl-relative-curve-mixedness"
 kind = "lemma"
 title = "Mixedness of the direct images over a relative affine curve"
-order = 3048
+order = 3114
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "def-weil-scheme-morphism-properties", "def-wf-constant-weil-twist", "def-wf-normalized-real-envelope", "lem-a1-mixed-direct-summand", "lem-wf-constant-twist-cohomology", "lem-wf-envelope-real", "lem-zl-relative-envelope-factor-reality", "sbc-thm-finiteness-finite-type", "thm-cbc-qbar", "thm-zl-real-mixed-by-curves"]
 +++
 Fix the coefficient and weight conventions of

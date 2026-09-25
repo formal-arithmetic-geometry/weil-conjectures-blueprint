@@ -2,7 +2,7 @@
 id = "lem-fin-coordinate-finite-boundary"
 kind = "lemma"
 title = "Coordinate complements give a finite exceptional locus"
-order = 1530
+order = 1544
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-proper", "lem-weil-pbc-proper-composition", "pqf-def-quasifinite", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++
 Let $S=\operatorname{Spec}A$ be integral Noetherian and let $Y\to S$

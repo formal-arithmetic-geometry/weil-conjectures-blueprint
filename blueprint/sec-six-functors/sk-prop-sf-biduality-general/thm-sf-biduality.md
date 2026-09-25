@@ -2,7 +2,7 @@
 id = "thm-sf-biduality"
 kind = "theorem"
 title = "Biduality"
-order = 2209
+order = 2228
 uses = ["def-sf-datum", "def-sf-pf"]
 +++
 In the setting of [def-sf-datum], let $X$ be separated of finite type

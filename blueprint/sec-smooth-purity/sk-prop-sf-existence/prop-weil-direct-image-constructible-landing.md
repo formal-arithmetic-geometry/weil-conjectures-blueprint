@@ -2,7 +2,7 @@
 id = "prop-weil-direct-image-constructible-landing"
 kind = "theorem"
 title = "Derived direct image on the constructible categories"
-order = 1844
+order = 1858
 tags = ["latex:proposition"]
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "prop-weil-pbc-direct-image-limits", "prop-weil-proper-direct-image-boundedness", "prop-weil-proper-direct-image-constructibility"]
 +++

@@ -2,9 +2,9 @@
 id = "fix-prop-projection-formula"
 kind = "theorem"
 title = "Compact-support projection formula at all coefficient stages"
-order = 2202
+order = 2221
 tags = ["latex:proposition"]
-uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "def-wf-tensor-product", "lem-fix-weil-operations", "lem-weil-finite-compact-projection-formula", "prop-sf-pf-coherence", "prop-sf-pf-reduction", "thm-sf-pf-adic", "thm-sf-pf-field", "thm-sf-pf-proetale"]
+uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "def-wf-tensor-product", "lem-fix-weil-operations", "lem-weil-finite-compact-projection-formula", "prop-sf-pf-coherence", "prop-sf-pf-reduction", "thm-sf-pf-adic", "thm-sf-pf-field", "thm-sf-pf-proetale", "thm-sf-comp-composition"]
 +++
 In the six-functor datum of
 [def-fix-six-functor-datum], let $f:X\to Y$ be
@@ -15,7 +15,8 @@ finite-Tor subcategory.
 The
 projection transformation, built from the
 derived tensor and pullback
-and the compact-support direct image,
+and the compact-support direct image of
+[def-compact-support-direct-image-detailed],
 is then an isomorphism at every coefficient stage:
 
 $$
@@ -23,8 +24,8 @@ $$
 \xrightarrow{\ \sim\ }Rf_!\bigl(K\otimes^L_{\Lambda}Lf^*L\bigr),
 $$
 
-natural in $K$ and $L$, compatible with the composition law
-(associativity pentagon), with the compactification comparisons, with
+natural in $K$ and $L$, compatible with the composition law of
+[thm-sf-comp-composition] (associativity pentagon), with the compactification comparisons, with
 finite reduction on the stated finite-Tor domains and scalar extension,
 and with the identification
 $Rf_!\cong Rf_*$ for proper $f$; at the rational and algebraically

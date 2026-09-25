@@ -2,7 +2,7 @@
 id = "prop-fd-l2-upper-weight-shift"
 kind = "theorem"
 title = "The transform raises the $L^2$-weight by at most one; KW §6"
-order = 2981
+order = 3042
 tags = ["latex:proposition"]
 uses = ["def-weil-punctual-weights", "def-wf-l2-norm", "lem-fd-l2-plancherel-shift", "lem-wf-l2-upper"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-weil-finite-compact-projection-formula"
 kind = "lemma"
 title = "Finite-coefficient compact-support projection formula"
-order = 1924
+order = 1940
 uses = ["def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-etale-sheaves", "def-weil-scheme-morphism-properties", "fix-lem-finite-tor-perfect", "lemma-weil-pbc-geometric-stalk-conservative", "thm-cbc-finite-level-proetale", "thm-cbc-finite-torsion", "thm-weil-pbc-site-comparison"]
 +++
 Fix the finite-field datum

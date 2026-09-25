@@ -2,7 +2,7 @@
 id = "sk-rem-sf-typing-rule"
 kind = "section"
 title = "The typing rule of this section"
-order = 2120
+order = 2139
 +++
 *Remark (sketch).*
 

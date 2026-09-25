@@ -2,7 +2,7 @@
 id = "lem-wf-finite-outer-power"
 kind = "lemma"
 title = "Finite outer power for a connected semisimple group"
-order = 2676
+order = 2723
 uses = ["def-wf-algebraic-components", "def-wf-algebraic-radicals", "def-wf-algebraic-representations", "def-wf-lie-algebra-derivation", "def-wf-lie-derivation", "def-wf-semisimple-module", "def-wf-simple-module", "lem-ag-cartier-reduced", "lem-ag-commuting-product-closed", "lem-wf-same-lie-closed-subgroup", "lem-wf-semisimple-derivations-inner", "lem-wf-semisimple-group-lie-algebra"]
 +++
 Let $H\subseteq\operatorname{GL}(V)$ be connected semisimple, assume

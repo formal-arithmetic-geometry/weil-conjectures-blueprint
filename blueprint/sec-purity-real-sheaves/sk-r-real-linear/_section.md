@@ -2,8 +2,8 @@
 id = "sk-r-real-linear"
 kind = "section"
 title = "Weights, reality and semisimplification"
-order = 2757
-uses = ["sk-d-real-operations", "sk-d-real-weights", "sk-p-linear-filtration", "sk-p-linear-spectra", "sk-p-linear-triangular", "sk-r-linear-library"]
+order = 2806
+uses = ["sk-d-real-operations", "sk-d-real-weights", "sk-p-linear-filtration", "sk-p-linear-spectra", "sk-p-linear-triangular", "sk-p-real-operations", "sk-r-linear-library"]
 +++
 *Remark (sketch).*
 

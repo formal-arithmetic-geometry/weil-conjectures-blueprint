@@ -2,7 +2,7 @@
 id = "sk-prop-av-const-locus"
 kind = "section"
 title = "The locus of constant fibres is closed"
-order = 488
+order = 490
 uses = ["sk-def-av"]
 +++
 *Proposition (sketch).*

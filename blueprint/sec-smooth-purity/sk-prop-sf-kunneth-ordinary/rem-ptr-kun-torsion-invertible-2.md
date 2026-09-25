@@ -2,7 +2,7 @@
 id = "rem-ptr-kun-torsion-invertible-2"
 kind = "remark"
 title = "Pointer to the properties of [def-kun-torsion-invertible]"
-order = 1716
+order = 1730
 uses = ["def-kun-torsion-invertible", "lem-kun-invertible-orders-colimit"]
 +++
 In the notation of [def-kun-torsion-invertible], the following holds. The equivalent description of

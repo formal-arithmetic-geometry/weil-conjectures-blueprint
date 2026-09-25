@@ -2,7 +2,7 @@
 id = "rem-sf-fullcd-counterexample"
 kind = "remark"
 title = "The counterexample: a pro-étale base change whose comparison direct image has infinite cohomological dimension"
-order = 2142
+order = 2161
 uses = ["cor-sf-continuity-fullcd", "def-sf-fullcd-used-class", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-sf-proetale-vanishing-detection", "lem-sf-stalk-limit-acyclic", "prop-sf-comparison-bound-zero", "thm-sf-continuity-arbitrary-sheaves-vanishing", "thm-sf-fullcd-used-class"]
 +++
 Fix an odd prime $\ell$, a finite extension $E/\Ql$, put

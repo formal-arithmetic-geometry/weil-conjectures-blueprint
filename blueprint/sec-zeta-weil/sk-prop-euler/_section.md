@@ -2,7 +2,7 @@
 id = "sk-prop-euler"
 kind = "section"
 title = "Closed-point Euler product and integrality"
-order = 3094
+order = 3161
 uses = ["sk-def-zeta"]
 +++
 *Proposition (sketch).*

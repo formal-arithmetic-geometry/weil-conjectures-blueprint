@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-inverse-image-derived-adjunction"
 kind = "theorem"
 title = "Derived adjunction of inverse image"
-order = 1952
+order = 1968
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-inverse-image-exact", "prop-weil-pbc-kinjective-resolutions-exist"]
 tags = ["latex:proposition"]
 +++

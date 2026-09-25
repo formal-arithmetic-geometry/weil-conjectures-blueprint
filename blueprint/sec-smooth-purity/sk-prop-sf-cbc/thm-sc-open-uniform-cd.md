@@ -2,7 +2,7 @@
 id = "thm-sc-open-uniform-cd"
 kind = "theorem"
 title = "A uniform bound for direct image by an open immersion"
-order = 1568
+order = 1582
 uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-sc-cech-spectral", "lemma-weil-pbc-etale-cohomology-continuity", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-sc-affine-torsion-cd"]
 +++
 Let $T$ be a finite-type scheme over $K$, with

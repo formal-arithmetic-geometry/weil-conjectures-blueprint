@@ -2,7 +2,7 @@
 id = "pqf-lem-going-up"
 kind = "lemma"
 title = "Going up for an integral extension"
-order = 536
+order = 540
 uses = ["pqf-lem-lying-over"]
 +++
 Let $A\to B$ be integral, let

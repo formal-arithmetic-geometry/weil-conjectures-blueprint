@@ -2,7 +2,7 @@
 id = "thm-sf-relative-trace"
 kind = "theorem"
 title = "The relative trace, and its transitivity"
-order = 2454
+order = 2481
 uses = ["cor-sf-trace", "def-compact-support-direct-image-detailed", "def-sf-datum", "fix-prop-adjunctions", "prop-compactification-coherence-detailed", "thm-sf-comp-composition"]
 +++
 In the setting of [def-sf-datum], let $f:X\to Y$ be proper. Then the

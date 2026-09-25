@@ -2,7 +2,7 @@
 id = "sk-d-central"
 kind = "section"
 title = "Positive central pairs and their construction"
-order = 2668
+order = 2715
 uses = ["sk-d-geometry", "sk-d-monodromy"]
 +++
 *Definition (sketch).*

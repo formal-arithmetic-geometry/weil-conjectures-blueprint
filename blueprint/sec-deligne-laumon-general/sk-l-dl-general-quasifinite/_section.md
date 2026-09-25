@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-quasifinite"
 kind = "section"
 title = "Quasi-finite morphisms"
-order = 3022
+order = 3087
 uses = ["sk-d-dl-general-weights", "sk-prop-sf-cbc"]
 +++
 *Lemma (sketch).*

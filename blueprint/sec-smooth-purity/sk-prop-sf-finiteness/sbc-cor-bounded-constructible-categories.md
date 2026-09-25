@@ -2,7 +2,7 @@
 id = "sbc-cor-bounded-constructible-categories"
 kind = "theorem"
 title = "Smooth base change in bounded constructible categories"
-order = 1673
+order = 1687
 tags = ["latex:corollary"]
 uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-constructible-complexes", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-proetale-modules", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-restriction-direct-image", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-thm-bounded-derived-smooth-base-change", "thm-dg-finite-type-constructibility", "thm-weil-pbc-site-comparison"]
 +++

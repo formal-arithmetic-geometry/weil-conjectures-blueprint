@@ -2,7 +2,7 @@
 id = "lem-pc-euler-characteristic-well-defined"
 kind = "lemma"
 title = "Well-definedness of the Euler characteristic"
-order = 740
+order = 742
 uses = ["def-pc-morphism-conventions", "lem-pc-coherent-hi", "lem-pc-curve-coherent-finiteness"]
 +++
 Let $k$ be a field, $X$ a proper scheme over $k$ and $\mathcal{F}$ a coherent

@@ -2,7 +2,7 @@
 id = "lem-sf-orientation-product"
 kind = "lemma"
 title = "The orientation is multiplicative"
-order = 2358
+order = 2374
 uses = ["def-sf-orientation", "lem-sf-kunneth-coherence", "thm-sf-dualizing-product"]
 +++
 In the setting of [def-sf-orientation], let $f:X\to Y$ and

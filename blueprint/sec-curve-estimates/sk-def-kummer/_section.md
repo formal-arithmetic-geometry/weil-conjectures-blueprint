@@ -2,7 +2,7 @@
 id = "sk-def-kummer"
 kind = "section"
 title = "The Kummer sequence"
-order = 878
+order = 882
 uses = ["sk-def-curve"]
 +++
 *Definition (sketch).*

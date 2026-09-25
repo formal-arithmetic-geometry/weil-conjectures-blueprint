@@ -2,7 +2,7 @@
 id = "sk-p-tate"
 kind = "section"
 title = "Tate modules and Frobenius"
-order = 2718
+order = 2766
 uses = ["sk-d-ab-field", "sk-d-ab-tate"]
 +++
 *Proposition (sketch).*

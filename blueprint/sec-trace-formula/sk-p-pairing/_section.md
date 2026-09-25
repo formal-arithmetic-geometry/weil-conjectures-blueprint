@@ -2,7 +2,7 @@
 id = "sk-p-pairing"
 kind = "section"
 title = "Pairing and its point normalization"
-order = 2443
+order = 2468
 uses = ["sk-d-corr", "sk-d-pairing", "sk-d-setup", "sk-d-six", "sk-d-trace", "sk-d-trace-class", "sk-p-trace", "sk-thm-sf-kunneth-verdier", "sk-thm-sf-package"]
 +++
 *Proposition (sketch).*

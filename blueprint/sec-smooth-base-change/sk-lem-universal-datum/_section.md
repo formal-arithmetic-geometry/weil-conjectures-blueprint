@@ -2,7 +2,7 @@
 id = "sk-lem-universal-datum"
 kind = "section"
 title = "Universal curve-test datum for a failure"
-order = 1396
+order = 1404
 uses = ["sk-def-bc", "sk-def-smooth"]
 +++
 *Lemma (sketch).*

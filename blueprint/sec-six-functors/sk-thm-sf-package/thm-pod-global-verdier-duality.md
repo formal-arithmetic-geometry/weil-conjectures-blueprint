@@ -2,11 +2,15 @@
 id = "thm-pod-global-verdier-duality"
 kind = "theorem"
 title = "Global Verdier duality at the point"
-order = 2376
-uses = ["def-pod-conventions", "def-weil-finite-coefficient-point", "def-weil-ordinary-compact-cohomology", "def-weil-site-perfect-complex", "fix-cor-verdier-exchange", "lem-fix-operation-reduction", "lem-pod-point-dualizing-complex", "thm-pur-finite-reduction-of-purity"]
+order = 2393
+uses = ["def-pod-conventions", "def-weil-finite-coefficient-point", "def-weil-ordinary-compact-cohomology", "def-weil-site-perfect-complex", "fix-cor-verdier-exchange", "lem-fix-operation-reduction", "lem-pod-point-dualizing-complex", "thm-pur-finite-reduction-of-purity", "thm-sf-global-duality"]
 +++
-Use the Poincare duality conventions,
-and let $K\in D^b_{ctf}(X,\Lambda)$. For the admissible structure
+Use the Poincare duality conventions of [def-pod-conventions] (so $X_0$
+is smooth, separated of finite type and geometrically connected of pure
+dimension $d$, not necessarily proper). The statement below also
+holds verbatim for a smooth, proper, geometrically connected $k$-scheme
+$X$ of pure dimension $d$ not assumed to descend to $k_0$ (see
+[thm-sf-global-duality]). Let $K\in D^b_{ctf}(X,\Lambda)$. For the admissible structure
 morphism $a_X:X\to s$ there is a canonical isomorphism
 
 $$
@@ -47,3 +51,11 @@ its counit reduce compatibly by
 adjunction comparison therefore commutes with coefficient change,
 so their composite does too. Finally $D_X\Lambda_X=\omega_X$
 by tensor–Hom evaluation of the unit object, giving the specialization.
+Properness of $X_0$ is used nowhere above: the exchange
+[fix-cor-verdier-exchange] needs only that $a_X$ is exceptionally
+admissible, $Ra_{X!}$ and $Ra_{X*}$ enter as different functors with no
+comparison between them, and the smooth dualizing object and its finite
+reduction ([thm-pur-finite-reduction-of-purity]) are stated for smooth
+separated morphisms. The same argument applies word for word to a smooth
+proper $X$ over $k$ that is not defined over $k_0$, which is the proper
+case of [thm-sf-global-duality].

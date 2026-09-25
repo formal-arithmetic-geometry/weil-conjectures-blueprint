@@ -2,7 +2,7 @@
 id = "lem-sf-flat-model"
 kind = "lemma"
 title = "Bounded flat model of finite Tor amplitude"
-order = 2157
+order = 2176
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "lem-exc-constant-inverse-image-flat"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, an integer

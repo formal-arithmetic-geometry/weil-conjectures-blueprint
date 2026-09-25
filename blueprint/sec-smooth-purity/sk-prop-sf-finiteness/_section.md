@@ -2,7 +2,7 @@
 id = "sk-prop-sf-finiteness"
 kind = "section"
 title = "Finiteness and constructibility"
-order = 1672
+order = 1686
 +++
 *Proposition (sketch).*
 

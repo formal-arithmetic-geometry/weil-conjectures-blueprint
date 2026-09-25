@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-preservation-constructible"
 kind = "theorem"
 title = "Preservation before constructible restriction"
-order = 1358
+order = 1366
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-complete", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-cartesian-square", "def-weil-pbc-finite-level-amplification", "def-weil-pbc-scheme-conventions", "def-weil-pbc-tower-preservation", "def-weil-pbc-witness-compatibility", "lem-weil-pbc-reconstruction-uniform-tower", "prop-weil-pbc-direct-image-limits", "thm-weil-pbc-amplification-proper"]
 tags = ["latex:proposition"]
 +++

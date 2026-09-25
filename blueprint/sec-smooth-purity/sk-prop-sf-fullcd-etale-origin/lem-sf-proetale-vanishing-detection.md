@@ -2,7 +2,7 @@
 id = "lem-sf-proetale-vanishing-detection"
 kind = "lemma"
 title = "Detection of vanishing on affine weakly contractible objects"
-order = 1826
+order = 1840
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "lem-cbc-proetale-stalk-conservative"]
 +++
 Let $\Lambda$ be a finite discrete ring, let $T$ be a scheme and let

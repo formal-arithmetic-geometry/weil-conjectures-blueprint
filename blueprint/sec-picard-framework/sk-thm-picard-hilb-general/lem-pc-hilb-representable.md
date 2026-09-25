@@ -2,7 +2,7 @@
 id = "lem-pc-hilb-representable"
 kind = "lemma"
 title = "Hilbert schemes of points are representable"
-order = 786
+order = 790
 uses = ["def-pc-finite-locally-free", "def-pc-fppf-site", "def-sc-ample", "lem-pc-hilb-sheaf", "lem-pc-schemes-criterion"]
 +++
 (Picard Schemes of Curves, Proposition 44.2.6 (Tag

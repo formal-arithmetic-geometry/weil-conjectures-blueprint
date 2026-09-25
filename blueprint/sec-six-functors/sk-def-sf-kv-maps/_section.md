@@ -2,8 +2,8 @@
 id = "sk-def-sf-kv-maps"
 kind = "section"
 title = "The product comparison maps"
-order = 2348
-uses = ["sk-def-sf-exchanges", "sk-def-sf-operations", "sk-thm-sf-kunneth-relative"]
+order = 2364
+uses = ["sec-smooth-purity", "sk-def-sf-exchanges", "sk-def-sf-operations", "sk-thm-sf-kunneth-relative"]
 +++
 *Definition (sketch).*
 

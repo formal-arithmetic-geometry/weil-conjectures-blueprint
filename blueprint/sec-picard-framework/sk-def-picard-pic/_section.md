@@ -2,7 +2,8 @@
 id = "sk-def-picard-pic"
 kind = "section"
 title = "Picard functor and its $\\sigma$-normalized version"
-order = 800
+order = 804
+uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Definition (sketch).*
 

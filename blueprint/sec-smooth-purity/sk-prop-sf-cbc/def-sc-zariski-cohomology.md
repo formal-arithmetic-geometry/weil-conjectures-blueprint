@@ -2,7 +2,7 @@
 id = "def-sc-zariski-cohomology"
 kind = "definition"
 title = "Zariski sheaf cohomology"
-order = 1570
+order = 1584
 uses = ["def-sc-zariski-site", "def-weil-pbc-kinjective-resolutions"]
 +++
 For an abelian sheaf $F$ on the

@@ -2,7 +2,7 @@
 id = "sk-def-fourier-set"
 kind = "section"
 title = "The coefficient setting: six operations only"
-order = 2863
+order = 2910
 +++
 *Remark (sketch).*
 

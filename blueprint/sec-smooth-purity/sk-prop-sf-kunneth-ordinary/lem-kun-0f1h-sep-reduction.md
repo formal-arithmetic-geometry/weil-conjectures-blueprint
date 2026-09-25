@@ -2,7 +2,7 @@
 id = "lem-kun-0f1h-sep-reduction"
 kind = "lemma"
 title = "Reduction to a separably closed ground field"
-order = 1800
+order = 1814
 uses = ["def-kun-unbounded-exchange", "lem-kun-0f1c", "lem-kun-bc-base-change", "lem-kun-sep-closure-conservative"]
 +++
 Let $K$ be a field, let $j:U\to X$ be an open immersion of schemes

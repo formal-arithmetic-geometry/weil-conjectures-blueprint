@@ -2,7 +2,8 @@
 id = "sk-prop-picard-schemes-criterion"
 kind = "section"
 title = "The general representability criterion"
-order = 779
+order = 783
+uses = ["sk-def-av-jacobian"]
 +++
 *Proposition (sketch).*
 

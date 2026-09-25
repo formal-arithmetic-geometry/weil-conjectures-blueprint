@@ -2,7 +2,7 @@
 id = "lem-sf-hypercover-nonempty-terms"
 kind = "lemma"
 title = "No hypercovering of a nonempty object has an empty term"
-order = 2134
+order = 2153
 uses = ["def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions"]
 +++
 Let $T$ be a scheme, let $U\to T$ be a nonempty object of the

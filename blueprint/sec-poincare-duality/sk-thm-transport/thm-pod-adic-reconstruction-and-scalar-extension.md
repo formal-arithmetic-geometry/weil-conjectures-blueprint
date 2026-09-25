@@ -2,10 +2,10 @@
 id = "thm-pod-adic-reconstruction-and-scalar-extension"
 kind = "theorem"
 title = "Adic reconstruction and scalar extension"
-order = 2594
+order = 2630
 uses = ["def-pod-conventions", "def-pod-derived-poincare-pairing", "def-weil-pbc-adic-coefficient-datum", "lem-weil-pbc-reconstruction-uniform-tower", "thm-pod-derived-poincare-duality", "thm-pod-finite-reduction"]
 +++
-Let $X/k$ be smooth proper and geometrically connected as in
+Let $X/k$ be smooth and geometrically connected as in
 the Poincare duality conventions, and
 let $K$ be a derived-complete
 site-perfect $\mathcal O_E$-complex whose reductions

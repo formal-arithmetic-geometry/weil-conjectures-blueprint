@@ -2,8 +2,8 @@
 id = "cor-galois-abelian-h1"
 kind = "theorem"
 title = "Abelian case: torsors, characters and $H^1$"
-order = 2738
-uses = ["def-galois-fibre-functor", "def-weil-pbc-finite-torsors", "lem-galois-action-continuous", "lem-galois-axioms", "thm-galois-fundamental", "thm-galois-torsor-h1"]
+order = 2786
+uses = ["def-galois-fibre-functor", "def-weil-pbc-finite-torsors", "lem-galois-axioms", "thm-galois-fundamental", "sbc-prop-torsors-h1", "thm-galois-torsor-h1"]
 tags = ["latex:corollary"]
 +++
 Let $Y$ be connected with geometric point $\bar y$ and let $M$ be a
@@ -30,17 +30,12 @@ of the additive-character lemma of the monodromy chapter.)
 By [thm-galois-fundamental] an $M$-torsor $P$ in the sense of
 [def-weil-pbc-finite-torsors] is a finite
 $\pi_1$-set with a simply transitive $M$-action commuting with the
-$\pi_1$-action; choosing $p\in P_{\bar y}$, simple transitivity gives a
-unique $f_P(g)\in M$ with $g\cdot p=p+f_P(g)$. The two actions
-commute, so $f_P(gh)=f_P(g)+f_P(h)$, and $f_P$ is continuous: by
-[lem-galois-action-continuous] the action map is continuous, so
-for $m\in M$ the set of $g$ with $f_P(g)=m$, which is the
-preimage of the point $p+m$ of the finite discrete
-$\pi_1(Y,\bar y)$-set $P_{\bar y}$ under the continuous map
-$g\mapsto g\cdot p$, is open.
+$\pi_1$-action. For $p\in P_{\bar y}$, [sbc-prop-torsors-h1] shows that
+$g\cdot p=p+f_P(g)$ defines a continuous homomorphism
+$f_P:\pi_1(Y,\bar y)\to M$ that is independent of $p$ (as $M$ is abelian)
+and depends only on the isomorphism class of $P$.
 Conversely a continuous homomorphism $f$ makes $M$ into a finite
 continuous $\pi_1$-set by $g\cdot a=f(g)+a$, commuting with
 translations, hence corresponds to an $M$-torsor. The constructions are
-inverse, and replacing $p$ by $p+a$ does not change $f_P$ since $M$
-is abelian. The identification with $H^1$ is
+inverse. The identification with $H^1$ is
 [thm-galois-torsor-h1].

@@ -2,7 +2,7 @@
 id = "sbc-lem-stability-and-locality"
 kind = "lemma"
 title = "Stability and locality of local acyclicity"
-order = 1456
+order = 1464
 uses = ["def-sbc-smooth-morphisms", "sbc-def-local-acyclicity", "sbc-def-milnor-tube", "sbc-def-strict-localization", "sbc-def-universal-local-acyclicity"]
 +++
 The following hold.

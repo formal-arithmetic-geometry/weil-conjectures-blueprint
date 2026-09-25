@@ -2,7 +2,7 @@
 id = "prop-weight-purity-comparison"
 kind = "theorem"
 title = "Frobenius-equivariant compact-support comparison"
-order = 3089
+order = 3156
 tags = ["latex:proposition"]
 uses = ["def-weil-frobenius-module-weights", "def-weil-ordinary-compact-cohomology", "prop-weight-purity", "thm-weil-deligne-purity"]
 +++

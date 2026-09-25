@@ -2,7 +2,7 @@
 id = "sk-thm-sf-pf-field"
 kind = "section"
 title = "Projection formula: rational and algebraically closed stages"
-order = 2190
+order = 2209
 uses = ["sk-thm-sf-pf-adic"]
 +++
 *Theorem (sketch).*

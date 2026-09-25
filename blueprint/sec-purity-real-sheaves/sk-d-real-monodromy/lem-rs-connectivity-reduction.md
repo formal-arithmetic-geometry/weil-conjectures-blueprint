@@ -2,7 +2,7 @@
 id = "lem-rs-connectivity-reduction"
 kind = "lemma"
 title = "Openness of the inverse image of the identity component"
-order = 2807
+order = 2856
 uses = ["def-sbc-normal-dominant-galois", "def-weil-pbc-scheme-conventions", "def-wf-algebraic-components", "def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-geometric-semisimplicity", "def-wf-weil-group"]
 +++
 Let $X_0$ be a normal,

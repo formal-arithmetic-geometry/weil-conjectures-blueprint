@@ -2,7 +2,7 @@
 id = "sk-prop-base-linear"
 kind = "section"
 title = "P7: the transform is linear over the base"
-order = 2900
+order = 2947
 uses = ["sk-def-ft"]
 +++
 *Proposition (sketch).*

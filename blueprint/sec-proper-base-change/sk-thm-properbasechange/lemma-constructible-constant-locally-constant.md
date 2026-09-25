@@ -2,7 +2,7 @@
 id = "lemma-constructible-constant-locally-constant"
 kind = "lemma"
 title = "Constant sheaves are locally constant"
-order = 1283
+order = 1291
 lean = ["CategoryTheory.Sheaf.IsConstant.isLocallyConstantSheaf"]
 uses = ["def-constructible-constant", "def-constructible-locally-constant"]
 +++

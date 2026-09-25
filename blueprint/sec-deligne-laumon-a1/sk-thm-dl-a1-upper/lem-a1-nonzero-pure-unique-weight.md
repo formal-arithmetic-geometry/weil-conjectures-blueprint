@@ -2,7 +2,7 @@
 id = "lem-a1-nonzero-pure-unique-weight"
 kind = "lemma"
 title = "A nonzero pure Frobenius module has a unique weight"
-order = 2989
+order = 3051
 uses = ["def-weil-frobenius-module-weights"]
 +++
 If a nonzero finite Frobenius module $(V,F)$ is pure of weights $u$

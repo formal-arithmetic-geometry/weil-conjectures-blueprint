@@ -2,7 +2,7 @@
 id = "lem-pc-dense-separable-points"
 kind = "lemma"
 title = "Density of rationally defined closed points"
-order = 757
+order = 759
 uses = ["def-pc-field-tower", "def-pc-morphism-conventions", "def-pc-scheme", "def-weil-scheme-morphism-properties"]
 +++
 (Varieties, Lemma 33.25.6, Tag

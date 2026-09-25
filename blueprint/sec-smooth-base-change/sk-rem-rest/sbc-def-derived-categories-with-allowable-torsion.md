@@ -2,7 +2,7 @@
 id = "sbc-def-derived-categories-with-allowable-torsion"
 kind = "definition"
 title = "Derived categories with allowable torsion"
-order = 1442
+order = 1450
 uses = ["def-weil-pbc-derived-categories"]
 +++
 Let $\mathcal P$ be a set of primes. Write

@@ -2,7 +2,7 @@
 id = "lem-kun-stalks-commute-colimits"
 kind = "lemma"
 title = "Geometric stalks commute with colimits"
-order = 1714
+order = 1728
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $T$ be a scheme and $\bar t$ a geometric point of $T$. The

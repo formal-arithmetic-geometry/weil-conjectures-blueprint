@@ -2,8 +2,8 @@
 id = "sk-l-dl-a1-energy"
 kind = "section"
 title = "Weight detection by trace energy"
-order = 2951
-uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-prop-logdet", "sk-thm-trace-transport"]
+order = 3009
+uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-linear-spectra", "sk-prop-logdet", "sk-thm-trace-transport"]
 +++
 *Lemma (sketch).*
 

@@ -2,7 +2,7 @@
 id = "cor-sf-trace-similitude"
 kind = "theorem"
 title = "Frobenius similitudes for the constant sheaf"
-order = 2580
+order = 2616
 tags = ["latex:corollary"]
 uses = ["cor-sf-trace", "cor-sf-trace-pairing", "def-sf-datum", "def-sf-orientation", "rem-sf-orientation-pointer", "thm-sf-verdier-exchange"]
 +++

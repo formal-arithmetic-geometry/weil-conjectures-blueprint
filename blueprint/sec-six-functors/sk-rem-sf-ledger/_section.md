@@ -2,7 +2,7 @@
 id = "sk-rem-sf-ledger"
 kind = "section"
 title = "Ledger: what is unconditional, what is conditional, what is open"
-order = 2387
+order = 2404
 +++
 *Remark (sketch).*
 

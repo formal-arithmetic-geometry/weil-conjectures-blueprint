@@ -2,7 +2,7 @@
 id = "sk-prop-sf-localization"
 kind = "section"
 title = "Supported localization"
-order = 1906
+order = 1923
 uses = ["sk-lem-sf-determination", "sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle"]
 +++
 *Proposition (sketch).*

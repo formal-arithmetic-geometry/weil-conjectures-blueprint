@@ -2,7 +2,7 @@
 id = "lem-kun-unbounded-exchange-constructions-agree"
 kind = "lemma"
 title = "The two constructions of the unbounded exchange morphism agree"
-order = 1690
+order = 1704
 uses = ["def-kun-unbounded-exchange", "def-weil-pbc-derived-exchange", "def-weil-pbc-underived-exchange"]
 +++
 Let $\square=(f,f',g,g',\alpha)$ be a

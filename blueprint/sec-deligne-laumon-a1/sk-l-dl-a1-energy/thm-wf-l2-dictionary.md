@@ -2,8 +2,8 @@
 id = "thm-wf-l2-dictionary"
 kind = "theorem"
 title = "The Fourier-analytic weight of a pure real sheaf equals its weight"
-order = 2957
-uses = ["cor-rp-euler-product", "def-weil-punctual-weights", "def-wf-determinantal-weight", "def-wf-iota-real", "def-wf-l2-norm", "def-wf-l2-series", "lem-a1-affine-hc0", "lem-rp-determinant-log", "lem-rp-even-tensor-positivity", "lem-rp-hc2-eigenvalue-determinant-weight", "lem-wf-conjugate-tensor-traces", "lem-wf-determinantal-weight-exists", "lem-wf-l2-radius", "lem-wf-l2-upper", "p-linear-filtration", "p-linear-spectra"]
+order = 3015
+uses = ["cor-rp-euler-product", "def-weil-frobenius-module-weights", "def-weil-punctual-weights", "def-wf-iota-real", "def-wf-l2-norm", "def-wf-l2-series", "lem-a1-affine-hc0", "lem-a1-middle-extension-endpoints", "lem-rp-determinant-log", "lem-rp-even-tensor-positivity", "lem-wf-conjugate-tensor-traces", "lem-wf-l2-radius", "lem-wf-l2-upper", "p-linear-spectra"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve over
 $k_0=\mathbf F_q$, and let $\mathcal G$ be a nonzero lisse
@@ -35,15 +35,14 @@ $$
 Here $\varphi_{\mathcal G}$ is the series of
 [def-wf-l2-series].
 
-The tensor $\mathcal T$ is punctually pure of weight $2w$:
+The tensor $\mathcal T$ is lisse and punctually pure of weight $2w$:
 its local eigenvalues are products of two eigenvalues of weight $w$ ([p-linear-spectra]).
-Every irreducible constituent is still punctually pure of weight
-$2w$, since the characteristic polynomial of a Frobenius-stable
-subquotient divides the ambient characteristic polynomial ([p-linear-filtration]).
-Its determinant weight is consequently $2w$, by
-[def-weil-punctual-weights], [lem-wf-determinantal-weight-exists], [def-wf-determinantal-weight].
-It follows from [lem-rp-hc2-eigenvalue-determinant-weight] that
-every denominator root of $L$, if there are any, has modulus
+The endpoint lemma [lem-a1-middle-extension-endpoints], applied with
+$j$ the identity of $X_0$ (so that $j_*\mathcal T=\mathcal T$), shows
+that $H_c^2(X,\mathcal T)$ is $\iota$-pure of weight $2w+2$ in the
+sense of [def-weil-frobenius-module-weights]: its Frobenius
+eigenvalues $\alpha$ have $\iota$-modulus $q^{w+1}$. Hence every
+denominator root $\alpha^{-1}$ of $L$, if there are any, has modulus
 
 $$
 R=q^{-w-1}.

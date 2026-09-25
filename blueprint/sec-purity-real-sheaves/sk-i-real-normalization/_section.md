@@ -2,7 +2,7 @@
 id = "sk-i-real-normalization"
 kind = "section"
 title = "One-dimensional Noether normalization"
-order = 2832
+order = 2878
 uses = ["sk-d-real-setup"]
 +++
 *Proposition (sketch).*

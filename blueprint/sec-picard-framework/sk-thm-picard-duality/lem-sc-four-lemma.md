@@ -2,7 +2,7 @@
 id = "lem-sc-four-lemma"
 kind = "lemma"
 title = "The four lemma for exact hexagons"
-order = 703
+order = 704
 +++
 Let
 $0\to X_1\to X_2\to X_3\to X_4\to X_5\to X_6\to0$ and

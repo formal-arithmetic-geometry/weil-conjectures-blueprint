@@ -2,7 +2,7 @@
 id = "lem-trf-localization-normal-cone"
 kind = "lemma"
 title = "Normal-cone reduction for the trace"
-order = 2483
+order = 2511
 uses = ["def-trf-admissibility", "def-trf-correspondence", "def-trf-etale-base-change", "def-trf-fixed-scheme", "def-trf-global-operator", "def-trf-integration", "def-trf-local-term", "def-trf-trace-class", "lem-trf-contracting-local-model", "lem-trf-contracting-normal-cone-evaluation", "lem-trf-contracting-trace-stalk", "lem-trf-etale-pullback-trace-class", "lem-trf-frobenius-formal-contraction", "lem-trf-local-term-locality", "lem-trf-localization-diagonal", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance", "thm-trf-dualizing-complex-composition"]
 +++
 Let $c=(c_1,c_2):C\to X\times_sX$ be an admissible correspondence with

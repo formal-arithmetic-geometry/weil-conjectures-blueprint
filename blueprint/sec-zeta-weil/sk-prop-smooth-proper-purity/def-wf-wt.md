@@ -2,7 +2,7 @@
 id = "def-wf-wt"
 kind = "definition"
 title = "Pure weight"
-order = 3078
+order = 3144
 uses = ["def-wf-weil-category", "def-wf-wtge", "def-wf-wtle"]
 +++
 For $u\in\mathbf Z$ and $K\in\mathrm{WeilD}(X_0,E)$, the predicate

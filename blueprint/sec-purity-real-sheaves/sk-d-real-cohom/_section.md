@@ -2,8 +2,8 @@
 id = "sk-d-real-cohom"
 kind = "section"
 title = "Cohomology and the Euler series"
-order = 2762
-uses = ["sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil"]
+order = 2811
+uses = ["sec-smooth-purity", "sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil"]
 +++
 *Definition (sketch).*
 

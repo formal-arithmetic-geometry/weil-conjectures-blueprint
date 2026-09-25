@@ -2,7 +2,7 @@
 id = "sk-def-zeta"
 kind = "section"
 title = "The point-count zeta series"
-order = 3058
+order = 3124
 +++
 *Definition (sketch).*
 

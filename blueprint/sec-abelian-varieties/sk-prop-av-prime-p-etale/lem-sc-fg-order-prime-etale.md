@@ -2,8 +2,8 @@
 id = "lem-sc-fg-order-prime-etale"
 kind = "lemma"
 title = "Group schemes of order prime to $p$ are etale"
-order = 581
-uses = ["def-sc-group-scheme", "lem-sc-connected-finite-order"]
+order = 585
+uses = ["def-sc-group-scheme", "lem-sc-connected-finite-order", "lem-sc-finite-etale-algebra-criterion"]
 +++
 Let $G$ be a finite flat group
 scheme over an algebraically closed field $k$ of characteristic
@@ -12,22 +12,14 @@ $m$). Then $G$ is etale over $k$.
 
 ## Proof
 
-A finite scheme over $k$ is etale if and only if it is reduced:
-write the coordinate ring as $B=\prod_iB_i$ with the $B_i$
-finite local $k$-algebras; then $\Omega_{B/k}=0$ if and only if
-each $B_i$ is a finite separable field extension of $k$ –
-indeed $\Omega_{B/k}=\bigoplus_i\Omega_{B_i/k}$, and for a finite
-local $k$-algebra $B_i$ with maximal ideal $\mathfrak m_i$:
-if $\mathfrak m_i\neq0$, then
-$\mathfrak m_i^2\subsetneq\mathfrak m_i$ (if
-$\mathfrak m_i^2=\mathfrak m_i$, Nakayama's lemma would give
-$\mathfrak m_i=0$), so an element
-$x\in\mathfrak m_i\setminus\mathfrak m_i^2$ has nonzero image in
-$\Omega_{B_i/k}\otimes k$, whence $\Omega_{B_i/k}\neq0$; and if
-$\mathfrak m_i=0$, then $B_i$ is a field with
-$\Omega_{B_i/k}=0$, i.e. $B_i/k$ is finite separable. Since
-$k$ is algebraically closed, a finite separable extension of $k$
-is $k$ itself.
+Write the coordinate ring of $G$ as $B=\prod_iB_i$ with the $B_i$
+finite local $k$-algebras, one for each point of the finite discrete
+space $G$. By [lem-sc-finite-etale-algebra-criterion], $G$ is etale
+if and only if $B$ is a finite product of finite separable field
+extensions of $k$. Since the decomposition of the Artinian ring $B$
+into local factors is unique, this holds if and only if each $B_i$ is
+a finite separable field extension of $k$; as $k$ is algebraically
+closed, this means $B_i=k$ for every $i$.
 
 Write $G=G^0\sqcup G^{\mathrm{et}}$, where $G^0$ is the connected
 component of the identity and $G^{\mathrm{et}}$ the disjoint union
@@ -38,9 +30,12 @@ scheme $G^0\times_kG^0$ into $G^0$ (its image contains
 $e\cdot e=e$ and is connected), so the multiplication restricts to
 $G^0$, and the same argument for the inverse shows $G^0$ is a
 subgroup scheme. By the first paragraph, $G$ is not etale exactly
-when $G^0\neq\operatorname{Spec}k$ (a finite reduced local
-$k$-algebra over the algebraically closed field $k$ is $k$
-itself). If $p>0$ and $G^0\neq\operatorname{Spec}k$, then by
+when some connected component of $G$ is not $\operatorname{Spec}k$.
+Every component contains a $k$-point $g$ (its residue field is finite
+over the algebraically closed field $k$), and translation by $g$ is an
+automorphism of the $k$-scheme $G$ carrying $G^0$ onto that
+component. Hence $G$ is not etale exactly when
+$G^0\neq\operatorname{Spec}k$. If $p>0$ and $G^0\neq\operatorname{Spec}k$, then by
 [lem-sc-connected-finite-order] the order of $G^0$ is a
 positive power of $p$, contradicting $p\nmid m$ (the order of
 the subgroup scheme $G^0$ divides the order of $G$: the

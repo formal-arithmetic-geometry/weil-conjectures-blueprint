@@ -2,8 +2,8 @@
 id = "sk-d-real-boundary"
 kind = "section"
 title = "Boundary extension and inertia"
-order = 2826
-uses = ["sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weil"]
+order = 2871
+uses = ["sec-algebraic-groups-lie-algebras", "sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weil"]
 +++
 *Definition (sketch).*
 

@@ -2,7 +2,7 @@
 id = "lem-sc-rigidity"
 kind = "lemma"
 title = "The rigidity lemma"
-order = 493
+order = 495
 uses = ["lem-sc-constant-locus-closed", "lem-sc-finite-image-locus-open"]
 +++
 Let $X,Y,Z$ be schemes over $k$ with $X$ proper, connected and

@@ -2,8 +2,8 @@
 id = "lem-a1-unramified-at-infinity"
 kind = "lemma"
 title = "Removing a regular point to arrange infinity"
-order = 3006
-uses = ["def-weil-open-closed-recollement", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-a1-finite-boundary-cohomology"]
+order = 3068
+uses = ["def-weil-open-closed-recollement", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-a1-finite-boundary-cohomology", "lem-wf-dense-open-pi1-surjective", "prop-sf-open-closed-triangle-all-stages"]
 +++
 Let $\mathcal F$ be a punctually pure lisse Weil sheaf of weight $w$
 on a dense open $U_0\subset\mathbf A^1_{k_0}$.
@@ -29,11 +29,13 @@ It extends lisse across infinity, since $\mathcal F$ was lisse at
 $s$; hence its inertia there is trivial.
 Restriction to a dense open preserves geometric irreducibility:
 the fundamental group of that open surjects onto the fundamental
-group of the original smooth curve.
+group of the original smooth curve, by
+[lem-wf-dense-open-pi1-surjective] (parts (1) and (4)).
 The isomorphism $\tau$ and restriction preserve the local
 weight condition of [def-weil-punctual-weights].
 
-Open–closed recollement, [def-weil-open-closed-recollement],
+Open–closed recollement, [def-weil-open-closed-recollement], whose triangle exists for
+$\Qlb$-Weil sheaves by [prop-sf-open-closed-triangle-all-stages],
 and the vanishing of $H_c^1$ on the single point from
 [lem-a1-finite-boundary-cohomology] give a surjection
 $H_c^1(U\setminus\{s\},\mathcal F)\to H_c^1(U,\mathcal F)$.

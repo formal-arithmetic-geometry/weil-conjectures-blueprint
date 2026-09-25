@@ -2,7 +2,7 @@
 id = "lem-sf-stalk-free-model"
 kind = "lemma"
 title = "Finite free models of the geometric stalks"
-order = 2319
+order = 2335
 uses = ["def-weil-finite-tor-amplitude", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "lem-exc-residue-tor-test"]
 +++
 Let $A=A_{E,n}$, and let $K$ be a bounded complex of $A$-modules on a

@@ -2,7 +2,7 @@
 id = "cor-sf-no-bounded-hypercover"
 kind = "theorem"
 title = "The question of a bounded weakly contractible hypercovering has a negative answer"
-order = 2146
+order = 2165
 tags = ["latex:corollary"]
 uses = ["def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-site", "lem-sf-acyclic-hypercover-terms-vanishing", "lem-sf-hypercover-nonempty-terms", "rem-sf-continuity-obstruction", "rem-sf-fullcd-general-form"]
 +++

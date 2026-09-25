@@ -2,8 +2,8 @@
 id = "sk-p-real-operations"
 kind = "section"
 title = "Local Frobenius polynomials"
-order = 2746
-uses = ["sk-d-real-operations", "sk-d-real-weights", "sk-d-real-weil", "sk-i-real-sheaves"]
+order = 2799
+uses = ["sec-algebraic-groups-lie-algebras", "sec-poincare-duality", "sk-d-real-operations", "sk-d-real-weights", "sk-d-real-weil", "sk-i-real-sheaves"]
 +++
 *Proposition (sketch).*
 

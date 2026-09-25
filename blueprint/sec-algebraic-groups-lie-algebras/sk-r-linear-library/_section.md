@@ -2,7 +2,7 @@
 id = "sk-r-linear-library"
 kind = "section"
 title = "The linear-algebra library"
-order = 2691
+order = 2738
 uses = ["sk-d-linear"]
 +++
 *Remark (sketch).*

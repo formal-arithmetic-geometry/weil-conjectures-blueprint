@@ -2,7 +2,7 @@
 id = "thm-exc-curve-closed-preservation"
 kind = "theorem"
 title = "Closed points on a smooth curve preserve finite Tor amplitude"
-order = 1970
+order = 1986
 uses = ["def-sc-curves", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "lem-exc-closed-support-triangle", "lem-exc-constant-tensor", "lem-exc-direct-image-coproducts", "prop-exc-closed-tor", "thm-exc-curve-open-finiteness"]
 +++
 Let $T$ be a smooth connected curve over a finite

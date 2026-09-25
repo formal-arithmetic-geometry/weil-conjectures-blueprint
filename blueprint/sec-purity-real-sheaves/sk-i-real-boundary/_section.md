@@ -2,7 +2,7 @@
 id = "sk-i-real-boundary"
 kind = "section"
 title = "Boundary stalks and restriction to an open"
-order = 2828
+order = 2873
 uses = ["sk-d-real-boundary", "sk-d-real-setup", "sk-d-real-weil"]
 +++
 *Proposition (sketch).*

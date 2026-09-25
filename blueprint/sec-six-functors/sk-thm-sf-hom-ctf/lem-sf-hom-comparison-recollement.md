@@ -2,7 +2,7 @@
 id = "lem-sf-hom-comparison-recollement"
 kind = "lemma"
 title = "Open and closed tests for site-perfect Hom comparison"
-order = 2308
+order = 2325
 uses = ["lem-sf-hom-comparison-local-morphism", "thm-sf-hom-comparison-constructible"]
 +++
 Suppose $K$ is site-perfect on $X_{\Et}$ and $M$ is bounded

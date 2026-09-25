@@ -2,7 +2,7 @@
 id = "sk-lem-finite"
 kind = "section"
 title = "Finiteness: the global sections are perfect at the point"
-order = 2561
+order = 2597
 uses = ["sk-def-perfect", "sk-def-set", "sk-prop-sf-trace-perfectness"]
 +++
 *Lemma (sketch).*

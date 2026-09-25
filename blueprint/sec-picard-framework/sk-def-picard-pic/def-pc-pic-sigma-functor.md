@@ -2,7 +2,7 @@
 id = "def-pc-pic-sigma-functor"
 kind = "definition"
 title = "The normalized functor $\\operatorname{Pic}_{X/k,\\sigma}$"
-order = 804
+order = 808
 uses = ["def-pc-picard-presheaf", "def-pc-rational-point", "def-pc-subfunctor", "def-sc-picard-group"]
 +++
 Let $k$ be a field, $X$ a scheme over $k$, and $\sigma\in X(k)$ a

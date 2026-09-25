@@ -2,7 +2,7 @@
 id = "sk-d-weights"
 kind = "section"
 title = "Operations and weight characters"
-order = 2688
+order = 2735
 uses = ["sk-d-linear", "sk-d-monodromy"]
 +++
 *Definition (sketch).*

@@ -2,7 +2,7 @@
 id = "sk-lem-sf-ctf-generation"
 kind = "section"
 title = "Finite/open generation of $\\Dctf$"
-order = 2345
+order = 2361
 uses = ["sk-lem-sf-determination", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-ctf-stability"]
 +++
 *Lemma (sketch).*

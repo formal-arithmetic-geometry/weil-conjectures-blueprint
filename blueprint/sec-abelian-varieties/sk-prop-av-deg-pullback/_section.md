@@ -2,8 +2,8 @@
 id = "sk-prop-av-deg-pullback"
 kind = "section"
 title = "Degree of a pullback under a finite morphism"
-order = 486
-uses = ["sk-def-av-ample-degree"]
+order = 488
+uses = ["sk-def-av-ample-degree", "sk-def-av-pic"]
 +++
 *Proposition (sketch).*
 

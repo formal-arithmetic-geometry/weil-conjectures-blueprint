@@ -2,7 +2,7 @@
 id = "def-wf-wtle"
 kind = "definition"
 title = "Weights bounded above"
-order = 3076
+order = 3142
 uses = ["def-wf-weil-category"]
 +++
 For $u\in\mathbf Z$ and $K\in\mathrm{WeilD}(X_0,E)$, the predicate

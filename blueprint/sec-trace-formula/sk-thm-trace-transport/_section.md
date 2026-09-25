@@ -2,7 +2,7 @@
 id = "sk-thm-trace-transport"
 kind = "section"
 title = "Transport of the trace formula to the non-finite stages"
-order = 2525
+order = 2561
 uses = ["sk-d-setup", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-i-curve-zero", "sk-prop-cd", "sk-prop-trace-adic", "sk-thm-sf-ctf-stability", "sk-thm-trace-formula"]
 +++
 *Theorem (sketch).*

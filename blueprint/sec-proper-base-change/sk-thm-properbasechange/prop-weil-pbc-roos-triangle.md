@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-roos-triangle"
 kind = "theorem"
 title = "Roos triangle and Milnor exact sequence"
-order = 1231
+order = 1239
 uses = ["def-weil-derived-limit", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "lem-weil-derived-limit-existence", "prop-weil-pbc-derived-product-representation"]
 tags = ["latex:proposition"]
 +++

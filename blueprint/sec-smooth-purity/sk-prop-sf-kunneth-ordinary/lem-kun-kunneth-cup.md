@@ -2,8 +2,8 @@
 id = "lem-kun-kunneth-cup"
 kind = "lemma"
 title = "The Kunneth map via the relative cup product"
-order = 1773
-uses = ["def-kun-kunneth-map", "def-kun-rel-cup", "def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image", "lem-kun-inverse-image-monoidal"]
+order = 1787
+uses = ["def-kun-kunneth-map", "def-kun-rel-cup", "def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image", "lem-kun-inverse-image-monoidal", "lem-weil-derived-direct-image-composition"]
 +++
 In the situation of [def-kun-kunneth-map], the Kunneth map
 $\kappa_{E,K}$ is equal to the composite
@@ -19,7 +19,8 @@ $$
 where $u:Rf_*E\to Rc_*p^{-1}E$ and
 $v:Rg_*K\to Rc_*q^{-1}K$ are the canonical maps induced by the units
 of [def-weil-pbc-inverse-image] via the identifications
-$Rc_*=Rf_*\circ Rp_*$ (respectively $Rc_*=Rg_*\circ Rq_*$), and
+$Rc_*=Rf_*\circ Rp_*$ (respectively $Rc_*=Rg_*\circ Rq_*$) of
+[lem-weil-derived-direct-image-composition] (item (5)), and
 $\mathrm{cup}_{c}$ is the relative cup product of
 [def-kun-rel-cup] for $c$.
 

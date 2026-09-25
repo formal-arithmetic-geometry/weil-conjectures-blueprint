@@ -2,7 +2,7 @@
 id = "sk-def-sf-weil-complexes"
 kind = "section"
 title = "Strict Weil complexes"
-order = 2260
+order = 2279
 +++
 *Definition (sketch).*
 

@@ -2,10 +2,12 @@
 id = "cor-picard-degree-g"
 kind = "theorem"
 title = "The degree of the dictionary"
-order = 751
+order = 753
+uses = ["def-pc-degree-line-bundle", "def-pc-euler-characteristic", "def-pc-smooth-projective-curve", "lem-pc-genus-base-change", "lem-sc-riemann-roch"]
 tags = ["latex:corollary"]
 +++
-Let $X$ be a smooth projective curve of genus $g$ and $\cL$ a line
+Let $X$ be a smooth projective curve ([def-pc-smooth-projective-curve])
+of genus $g$ and $\cL$ a line
 bundle on $X_K$ ($K/k$ any field extension) with $h^0(X_K,\cL)=1$
 and $H^q(X_K,\cL)=0$ for $q>0$. Then
 
@@ -14,10 +16,15 @@ $$
 $$
 
 This is the exact instance of Riemann–Roch used in the
-zero-scheme dictionary ([sk-lem-picard-zero-dictionary]).
+zero-scheme dictionary ([lem-pc-zero-scheme-recd]).
 
 ## Proof
 
-The vanishing gives $\chi=h^0=1$, and [sk-thm-picard-rr] (RR) gives
-$\chi(\cO_{X_K})=1-g$ and $\chi(\cL)=\deg\cL+\chi(\cO_{X_K})$;
-hence $\deg\cL=g$.
+The vanishing gives $\chi(\cL)=h^0=1$ ([def-pc-euler-characteristic]).
+Riemann–Roch [lem-sc-riemann-roch], applied to $\cO$ after the flat
+base change to $\bar K$ (which changes neither $\chi(\cO)$ nor the
+genus, [lem-pc-genus-base-change]), gives $\chi(\cO_{X_K})=1-g$; and
+$\deg\cL=\chi(\cL)-\chi(\cO_{X_K})$ by [def-pc-degree-line-bundle].
+Hence $\deg\cL=g$.
+
+Uses: [def-pc-degree-line-bundle], [def-pc-euler-characteristic], [def-pc-smooth-projective-curve], [lem-pc-genus-base-change], [lem-sc-riemann-roch]

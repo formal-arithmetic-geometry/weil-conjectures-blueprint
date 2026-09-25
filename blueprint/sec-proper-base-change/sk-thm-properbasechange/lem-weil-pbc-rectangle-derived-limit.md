@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-rectangle-derived-limit"
 kind = "lemma"
 title = "The rectangle passes to the derived limit"
-order = 1349
+order = 1357
 uses = ["def-weil-pbc-derived-inverse-limit", "lem-weil-pbc-tower-compatibility"]
 +++
 Put

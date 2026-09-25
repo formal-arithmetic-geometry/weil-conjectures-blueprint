@@ -2,7 +2,7 @@
 id = "fin4-thm-smooth-projective-curve-reduction"
 kind = "theorem"
 title = "Reduction to smooth projective curve families"
-order = 1818
+order = 1832
 uses = ["cor-pqf-proper-quasifinite-finite", "def-sbc-normal-dominant-galois", "def-sbc-smooth-morphisms", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "fin4-lem-domination-trick", "fin4-thm-finite-morphisms-constructible", "pqf-lem-locqf-fibre-discrete", "sbc-def-coefficient-conventions", "thm-fin-proper-case", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Assume that $P$ (the assertion of

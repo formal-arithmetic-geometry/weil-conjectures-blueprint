@@ -2,7 +2,7 @@
 id = "def-weil-pbc-etale-sum-extension"
 kind = "definition"
 title = "Extension by zero along an etale map"
-order = 1071
+order = 1079
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++
 Let $v:W\to X$ be etale [def-weil-pbc-etale-site] and let $M$ be a sheaf of

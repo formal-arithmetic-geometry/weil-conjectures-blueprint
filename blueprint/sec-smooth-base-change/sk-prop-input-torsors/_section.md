@@ -2,7 +2,7 @@
 id = "sk-prop-input-torsors"
 kind = "section"
 title = "Torsors and étale $H^1$"
-order = 1411
+order = 1419
 uses = ["sk-def-smooth"]
 +++
 *Proposition (sketch).*

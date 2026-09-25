@@ -2,7 +2,7 @@
 id = "def-pc-morphism-conventions"
 kind = "definition"
 title = "Morphism-theoretic conventions from file 02"
-order = 454
+order = 456
 uses = ["def-pc-projective-morphism", "def-pc-scheme", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties"]
 +++
 All morphism-theoretic notions used below are the ones already introduced

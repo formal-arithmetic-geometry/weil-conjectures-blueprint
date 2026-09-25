@@ -2,7 +2,7 @@
 id = "sk-d-dl-general-weights"
 kind = "section"
 title = "Mixed upper bounds"
-order = 3016
+order = 3080
 uses = ["sk-d-dl-a1-setup"]
 +++
 *Definition (sketch).*

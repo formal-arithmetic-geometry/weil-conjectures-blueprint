@@ -2,7 +2,7 @@
 id = "lem-zl-relative-envelope-factor-reality"
 kind = "theorem"
 title = "Reality of relative factors for an envelope"
-order = 3046
+order = 3112
 tags = ["latex:proposition"]
 uses = ["cor-trf-point-counting", "def-weil-pbc-qbar-category", "def-weil-punctual-weights", "def-wf-iota-real", "lem-a1-affine-hc0", "lem-zl-affine-curve-hc2-purity", "lem-zl-affine-curve-range", "lem-zl-real-reduced-factors", "lem-zl-relative-curve-punctual", "lem-zl-root-radius-separation", "thm-cbc-qbar"]
 +++

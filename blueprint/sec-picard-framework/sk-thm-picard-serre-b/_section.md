@@ -3,6 +3,7 @@ id = "sk-thm-picard-serre-b"
 kind = "section"
 title = "Serre's theorem B: vanishing after a twist"
 order = 630
+uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Theorem (sketch).*
 

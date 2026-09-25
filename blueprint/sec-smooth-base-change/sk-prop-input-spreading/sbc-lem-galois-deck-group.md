@@ -2,7 +2,7 @@
 id = "sbc-lem-galois-deck-group"
 kind = "lemma"
 title = "The deck group of a connected Galois cover"
-order = 1409
+order = 1417
 uses = ["def-sbc-normal-dominant-galois"]
 +++
 Let $\pi:Z\to C$ be a Galois cover with group $G$ in the sense of

@@ -2,7 +2,7 @@
 id = "thm-cbc-finite-extension"
 kind = "theorem"
 title = "Compact-support base change over a finite extension"
-order = 1662
+order = 1676
 uses = ["def-cbc-compact-support-square", "def-weil-pbc-rational-category", "prop-finite-compact-support-constructibility", "prop-weil-pbc-rational-transport", "thm-cbc-complete-proetale"]
 +++
 For every finite $E/\Ql$, every

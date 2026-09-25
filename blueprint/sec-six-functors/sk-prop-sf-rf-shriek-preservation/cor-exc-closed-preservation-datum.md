@@ -2,7 +2,7 @@
 id = "cor-exc-closed-preservation-datum"
 kind = "theorem"
 title = "Preservation for a closed immersion"
-order = 2156
+order = 2175
 tags = ["latex:corollary"]
 uses = ["def-exc-open-complement-bound", "def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "lem-exc-open-complement-known", "prop-exc-closed-tor"]
 +++

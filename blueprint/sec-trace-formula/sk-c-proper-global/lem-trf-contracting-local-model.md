@@ -2,7 +2,7 @@
 id = "lem-trf-contracting-local-model"
 kind = "lemma"
 title = "Contracting local model at an isolated fixed point"
-order = 2478
+order = 2506
 uses = ["def-trf-trace-class", "def-weil-pbc-strict-henselization-limit", "lem-trf-frobenius-formal-contraction", "lem-trf-local-term-locality"]
 +++
 Let $c$ be an admissible correspondence on $X$ with an isolated

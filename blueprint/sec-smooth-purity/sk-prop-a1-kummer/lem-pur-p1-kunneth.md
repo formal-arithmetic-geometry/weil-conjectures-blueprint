@@ -2,7 +2,7 @@
 id = "lem-pur-p1-kunneth"
 kind = "lemma"
 title = "Kunneth compatibility on the product"
-order = 2003
+order = 2019
 uses = ["def-exchange-projection", "def-pur-conventions", "def-pur-p1-integration", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-weil-proet-finite-proper-base-change", "thm-pur-p1-decomposition"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

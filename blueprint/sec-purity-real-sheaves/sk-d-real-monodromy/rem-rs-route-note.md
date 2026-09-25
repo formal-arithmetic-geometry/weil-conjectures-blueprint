@@ -2,7 +2,7 @@
 id = "rem-rs-route-note"
 kind = "remark"
 title = "Why the curve form needs no class field theory"
-order = 2810
+order = 2859
 uses = ["lem-rs-connectivity-cover", "lem-rs-connectivity-pullback", "lem-wf-no-central-torus", "rem-wf-outer-automorphism-note", "thm-wf-rank-one-finite-geometric-image-curve"]
 +++
 The final proposition below is assembled from the elementary chain of

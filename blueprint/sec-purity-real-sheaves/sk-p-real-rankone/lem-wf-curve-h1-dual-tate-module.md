@@ -2,8 +2,8 @@
 id = "lem-wf-curve-h1-dual-tate-module"
 kind = "lemma"
 title = "Untwisted integral classes form the dual Tate module"
-order = 2783
-uses = ["def-sc-jacobian", "def-weil-pbc-etale-cohomology", "def-wf-abelian-tate-module", "lem-sc-isogeny-surjective", "lem-sc-ntorsion-etale", "lem-wf-curve-finite-level-pd", "lem-wf-curve-kummer-jacobian-tate-module", "lem-wf-geometric-jacobian-galois-action", "prop-av-tate-rank", "thm-pod-equivariance-of-the-twisted-pairing"]
+order = 2832
+uses = ["def-sc-jacobian", "def-weil-pbc-etale-cohomology", "def-wf-abelian-tate-module", "lem-wf-curve-finite-level-pd", "lem-wf-curve-kummer-jacobian-tate-module", "lem-wf-geometric-jacobian-galois-action", "thm-av-final", "thm-pod-equivariance-of-the-twisted-pairing"]
 +++
 Let $C_0/k_0$ be a smooth projective geometrically connected curve,
 let $C=C_0\times_{k_0}\overline{k}_0$, and let $J$ be its
@@ -51,9 +51,9 @@ $$
 
 The transition maps
 $J[\ell^{n+1}](\overline{k}_0)\xrightarrow{[\ell]} J[\ell^n](\overline{k}_0)$ are surjective by
-[lem-sc-isogeny-surjective]. We spell out the resulting quotient
+[thm-av-final](d). We spell out the resulting quotient
 description. Put $r=2\dim J$. By
-[lem-sc-ntorsion-etale], the level-one group is
+[thm-av-final](c), the level-one group is
 $(\mathbf Z/\ell\mathbf Z)^r$; choose a basis and lift its vectors
 successively through the displayed surjections. At level $n$, the chosen
 lifts form a basis of the free
@@ -64,7 +64,7 @@ shows that they generate, and equality of the cardinalities
 $\ell^{nr}$ makes the resulting surjection an isomorphism. The compatible
 bases identify the whole inverse system with
 $(\mathbf Z/\ell^n\mathbf Z)^r$ under reduction. Consequently
-$T_\ell J\cong\mathbf Z_\ell^r$ ([prop-av-tate-rank]), every projection is surjective, and its
+$T_\ell J\cong\mathbf Z_\ell^r$ ([thm-av-final](d)), every projection is surjective, and its
 kernel is exactly $\ell^nT_\ell J$. Thus the projections give canonical
 isomorphisms (independent of the bases used to prove them)
 

@@ -2,7 +2,7 @@
 id = "thm-sf-dualizing-product"
 kind = "theorem"
 title = "The dualizing complex of a product"
-order = 2356
+order = 2372
 uses = ["def-sf-datum", "def-sf-orientation", "fix-prop-adjunctions", "prop-compactification-coherence-detailed"]
 +++
 In the setting of [def-sf-datum], let $X,Y$ be separated finite-type

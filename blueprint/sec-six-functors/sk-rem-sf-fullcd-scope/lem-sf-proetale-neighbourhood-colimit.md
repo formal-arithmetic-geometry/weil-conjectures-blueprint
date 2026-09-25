@@ -2,7 +2,7 @@
 id = "lem-sf-proetale-neighbourhood-colimit"
 kind = "lemma"
 title = "The pro-étale form of the continuity statement: every class dies on the strict henselization limit"
-order = 2133
+order = 2152
 uses = ["def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit", "lem-sf-stalk-limit-acyclic"]
 +++
 Let $T$ be a scheme, let $\bar t\to T$ be a

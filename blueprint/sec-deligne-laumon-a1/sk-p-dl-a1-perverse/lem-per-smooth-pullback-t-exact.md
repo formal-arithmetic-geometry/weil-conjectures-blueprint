@@ -2,7 +2,7 @@
 id = "lem-per-smooth-pullback-t-exact"
 kind = "lemma"
 title = "Smooth pullback is perverse up to the shift"
-order = 2938
+order = 2989
 uses = ["def-per-perverse-subcategories", "def-per-support-condition", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "fix-cor-verdier-exchange", "lem-per-lisse-tensor-permanence", "lem-wf-smooth-dualizing-complex", "prop-functor-package"]
 +++
 Let $f:X\to Y$ be a smooth

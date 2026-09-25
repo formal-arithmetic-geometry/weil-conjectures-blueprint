@@ -2,7 +2,7 @@
 id = "lem-rp-determinant-log"
 kind = "lemma"
 title = "The formal determinant–logarithm identity"
-order = 2839
+order = 2886
 +++
 For a finite-dimensional complex vector space and an endomorphism $M$,
 the following identities hold in the formal power-series ring

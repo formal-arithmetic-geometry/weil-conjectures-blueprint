@@ -2,8 +2,8 @@
 id = "thm-sc-constant-invariance"
 kind = "theorem"
 title = "Base-change invariance for constant sheaves"
-order = 1032
-uses = ["def-sc-curves", "def-sc-field-extension", "def-sc-genus", "lem-sc-base-change-curve", "lem-sc-brauer-zero", "lem-sc-cohomological-dimension", "lem-sc-compactification", "lem-sc-genus-invariant", "lem-sc-isogeny-surjective", "lem-sc-kummer-les", "lem-sc-ntorsion-etale", "lem-sc-pic-affine", "lem-sc-pic-proper-ntorsion", "lem-sc-primitive-root", "thm-sc-jacobian-representability", "thm-sc-proper-cohomology"]
+order = 1040
+uses = ["def-sc-curves", "def-sc-field-extension", "def-sc-genus", "lem-sc-base-change-curve", "lem-sc-brauer-zero", "lem-sc-cohomological-dimension", "lem-sc-compactification", "lem-sc-genus-invariant", "lem-sc-kummer-les", "lem-sc-pic-affine", "lem-sc-pic-proper-ntorsion", "lem-sc-primitive-root", "thm-av-final", "thm-sc-jacobian-representability", "thm-sc-proper-cohomology"]
 +++
 Let $k\subseteq k'$ be algebraically closed, let $C$ be a
 smooth separated connected curve over $k$, let
@@ -37,7 +37,7 @@ $\mathbf Z/n\mathbf Z$, identified by $\theta_\zeta$
 ([lem-sc-primitive-root]: the image of $\zeta$ in $k'$ is
 primitive), by $g(C_{k'})=g(C)$ ([lem-sc-genus-invariant])
 and by the etale group scheme $J_C[n]$
-([lem-sc-ntorsion-etale]: the canonical base change map
+([thm-av-final](b),(c): the canonical base change map
 $J_C[n](k)\to J_C[n](k')$ is an isomorphism, and
 $J_{C_{k'}}\cong(J_C)_{k'}$ by
 [thm-sc-jacobian-representability]); these identifications are
@@ -90,8 +90,8 @@ $S_{k'}=S\otimes_kk'=S$), the pullback map is
 $x+\Lambda\mapsto x+\Lambda$. This is an isomorphism on
 $n$-torsion: injectivity is clear; for surjectivity, let
 $y\in J_{\overline C}(k')$ with $ny\in\Lambda\subset J_{\overline C}(k)$; by divisibility of $J_{\overline C}(k)$
-([lem-sc-isogeny-surjective]) there is $z\in J_{\overline C}(k)$ with $ny=nz$, so
-$y-z\in J_{\overline C}[n](k')=J_{\overline C}[n](k)\subset J_{\overline C}(k)$ ([lem-sc-ntorsion-etale]), whence
+([thm-av-final](d)) there is $z\in J_{\overline C}(k)$ with $ny=nz$, so
+$y-z\in J_{\overline C}[n](k')=J_{\overline C}[n](k)\subset J_{\overline C}(k)$ ([thm-av-final](c)), whence
 $y\in J_{\overline C}(k)$. For $H^2$: both groups vanish
 ([lem-sc-brauer-zero] over $k$ and over $k'$), and for
 $q>2$ both groups vanish by

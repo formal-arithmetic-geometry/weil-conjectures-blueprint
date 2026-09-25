@@ -2,7 +2,7 @@
 id = "cor-exc-curve-proetale-preservation"
 kind = "theorem"
 title = "Closed curve support for the ambient pro-etale right adjoint"
-order = 2008
+order = 2025
 tags = ["latex:corollary"]
 uses = ["def-sc-curves", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-complexes", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "prop-exc-closed-site-comparison", "prop-weil-pbc-site-comparison-finite-level", "thm-exc-curve-closed-preservation"]
 +++

@@ -2,7 +2,8 @@
 id = "def-sc-group-scheme"
 kind = "definition"
 title = "Group schemes over a field"
-order = 426
+order = 427
+uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be a field. A $k$-*group scheme* is a $k$-scheme
 $G$ together with morphisms $m:G\times_kG\to G$ (multiplication),
@@ -18,3 +19,22 @@ morphism of schemes compatible with the multiplications; the
 $$
 \ker f:=G\times_{H,f,e_H}\operatorname{Spec}k.
 $$
+
+(That this fibre product is a closed subgroup scheme is
+[lem-sc-kernel-subgroup].) The group scheme $G$ is *finite* if its
+structure morphism $G\to\operatorname{Spec}k$ is finite in the sense
+of [def-weil-pbc-scheme-conventions]; then $G=\operatorname{Spec}A$
+with $A=\Gamma(G,\mathcal O_G)$ a finite-dimensional $k$-algebra, and
+the *order* of $G$ is
+
+$$
+\lvert G\rvert:=\dim_k\Gamma(G,\mathcal O_G).
+$$
+
+The group scheme $G$ is *étale* over $k$ if its structure morphism is
+étale in the sense of [def-weil-pbc-scheme-conventions]. A finite
+$k$-algebra $A$ is a *finite étale $k$-algebra* if it is isomorphic to
+a finite product $L_1\times\dots\times L_r$ of finite separable field
+extensions $L_j$ of $k$. For finite $G$, the group scheme $G$ is étale
+over $k$ if and only if $\Gamma(G,\mathcal O_G)$ is a finite étale
+$k$-algebra ([lem-sc-finite-etale-algebra-criterion]).

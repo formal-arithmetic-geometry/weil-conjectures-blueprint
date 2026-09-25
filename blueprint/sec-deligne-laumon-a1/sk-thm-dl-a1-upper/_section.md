@@ -2,8 +2,8 @@
 id = "sk-thm-dl-a1-upper"
 kind = "section"
 title = "Deligne–Laumon affine-line estimate"
-order = 2988
-uses = ["sk-c-dl-a1-hc1", "sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-dl-a1-exact"]
+order = 3049
+uses = ["sk-c-dl-a1-hc1", "sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-dl-a1-exact", "sk-p-linear-filtration"]
 +++
 *Theorem (sketch).*
 

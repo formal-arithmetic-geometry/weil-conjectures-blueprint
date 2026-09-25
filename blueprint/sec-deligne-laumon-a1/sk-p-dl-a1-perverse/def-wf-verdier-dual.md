@@ -2,7 +2,7 @@
 id = "def-wf-verdier-dual"
 kind = "definition"
 title = "Verdier dual"
-order = 2933
+order = 2984
 uses = ["def-weil-pbc-scheme-conventions", "def-wf-internal-hom", "def-wf-tate-twist"]
 +++
 With the dualizing complex $\omega_X$, the Verdier dual is

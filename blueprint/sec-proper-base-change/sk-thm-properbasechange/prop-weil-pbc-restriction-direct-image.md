@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-restriction-direct-image"
 kind = "theorem"
 title = "Restriction of the direct image to bounded constructibles"
-order = 1305
+order = 1313
 uses = ["def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "lem-sp-finite-filtration-induction", "thm-constructible-serre", "thm-sp-truncation-e2"]
 tags = ["latex:proposition"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-wf-reductive-connected-centre"
 kind = "lemma"
 title = "A connected central subgroup on a semisimple module is a torus"
-order = 2799
+order = 2848
 uses = ["def-wf-algebraic-character", "def-wf-algebraic-components", "def-wf-algebraic-representations", "def-wf-algebraic-torus", "def-wf-semisimple-module", "def-wf-simple-module", "lem-wf-schur-scalar"]
 +++
 Let $H\subseteq\operatorname{GL}(V)$ be connected and suppose that

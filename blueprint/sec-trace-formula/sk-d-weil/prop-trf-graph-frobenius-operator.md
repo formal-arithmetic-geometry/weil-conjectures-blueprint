@@ -2,7 +2,7 @@
 id = "prop-trf-graph-frobenius-operator"
 kind = "theorem"
 title = "Graph construction of the global Frobenius operator"
-order = 2425
+order = 2448
 tags = ["latex:proposition"]
 uses = ["def-exchange-projection", "def-trf-coefficient-conventions", "def-trf-frobenius-operators", "def-trf-global-operator", "def-trf-graph-correspondence", "def-trf-iterated-weil-map", "def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "def-weil-finite-field-fiber", "def-weil-global-geometric-frobenius", "def-weil-scheme-morphism-properties", "lem-trf-adjoint-mate", "lem-trf-frobenius-operator-compact-description", "lem-trf-iterated-weil-cocycle", "prop-functor-package", "prop-trf-graph-operator", "prop-trf-scheme-galois-comparison"]
 +++
@@ -35,6 +35,21 @@ operator of [def-trf-frobenius-operators] (equivalently the
 global geometric Frobenius action of
 [def-weil-global-geometric-frobenius]). The equality is natural in
 $(K,\varphi)$ and compatible with the cocycle law in $m$.
+
+More generally, let $K\in D^b_{ctf}(X,A)$ carry no Weil structure and
+let $v:Lg_\gamma^{m*}K\to K$ be an arbitrary morphism, not necessarily
+invertible. Then the graph correspondence $c=(\operatorname{id}_X,\Phi^m)$
+with coefficient map $v\circ\kappa^{(m)}_K:L\Phi^{m*}K\to K$ has
+
+$$
+T_c\bigl(v\circ\kappa^{(m)}_K\bigr)
+=R\Gamma_c(X,v)\circ g_{\gamma,c}^{m,*}:
+R\Gamma_c(X,K)\longrightarrow R\Gamma_c(X,K),
+$$
+
+where $g_{\gamma,c}^{m,*}:R\Gamma_c(X,K)\xrightarrow{\sim}R\Gamma_c(X,Lg_\gamma^{m*}K)$
+is the compact-support base-change isomorphism along $g_\gamma^m$; the
+displayed identity $T_c(u_m)=F_{c,K}^{\,m}$ is the case $v=\varphi^{[m]}$.
 
 ## Proof
 
@@ -167,3 +182,28 @@ which is the claimed cocycle compatibility (the third equality uses the
 naturality of $g^{m,*}$ in the coefficient complex; multiplicativity of
 the $\kappa^{(m)\,}$s of [prop-trf-scheme-galois-comparison]
 transports the same identity to the scheme-Frobenius side).
+
+*Step 3: general coefficient maps.* Steps 1 and 2 concern only the
+object $K$ and the functors $L\Phi^{m*}$, $Lg_\gamma^{m*}$, $R\Gamma_c$:
+neither the Weil structure $\varphi$ nor any inverse of a coefficient map
+enters them. For an arbitrary $K\in D^b_{ctf}(X,A)$ they give that the
+composite
+
+$$
+R\Gamma_c(X,K)\xrightarrow{\ \eta_{\Phi^m}\ }R\Gamma_c(X,L\Phi^{m*}K)
+\xrightarrow{R\Gamma_c(X,\kappa^{(m)}_K)}R\Gamma_c(X,Lg_\gamma^{m*}K)
+$$
+
+is $g_{\gamma,c}^{m,*}$. For $v:Lg_\gamma^{m*}K\to K$ arbitrary,
+[prop-trf-graph-operator] applied to $h=\Phi^m$ and to the coefficient
+map $v\circ\kappa^{(m)}_K$, together with functoriality of
+$R\Gamma_c(X,-)$, gives
+
+$$
+T_c\bigl(v\circ\kappa^{(m)}_K\bigr)
+=R\Gamma_c(X,v)\circ R\Gamma_c(X,\kappa^{(m)}_K)\circ\eta_{\Phi^m}
+=R\Gamma_c(X,v)\circ g_{\gamma,c}^{m,*},
+$$
+
+which is the general assertion; for $v=\varphi^{[m]}$ it is the identity
+$T_c(u_m)=F_{c,K}^{\,m}$ proved above.

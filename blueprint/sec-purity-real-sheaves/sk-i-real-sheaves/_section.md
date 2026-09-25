@@ -2,7 +2,7 @@
 id = "sk-i-real-sheaves"
 kind = "section"
 title = "The lisse sheaf–representation equivalence"
-order = 2744
+order = 2792
 uses = ["sk-d-real-setup", "sk-d-real-weil", "sk-i-real-galois"]
 +++
 *Proposition (sketch).*

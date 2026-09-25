@@ -2,7 +2,7 @@
 id = "lem-wf-faithful-semisimple-reductive"
 kind = "lemma"
 title = "The unipotent radical is trivial on a faithful semisimple module"
-order = 2798
+order = 2847
 uses = ["def-wf-reductive-group", "def-wf-semisimple-module", "def-wf-simple-module", "def-wf-unipotent-radical", "lem-wf-unipotent-fixed-vector"]
 +++
 Let $H\subseteq\operatorname{GL}(V)$ be connected and let $V$ be a

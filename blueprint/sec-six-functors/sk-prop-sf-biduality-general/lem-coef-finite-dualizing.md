@@ -2,7 +2,7 @@
 id = "lem-coef-finite-dualizing"
 kind = "lemma"
 title = "Finite coefficient change for the dualizing object"
-order = 2235
+order = 2254
 uses = ["cor-amb-affine-space-adjunction", "lem-amb-etale-adjoint-locality", "lem-coef-finite-closed-shriek", "lem-fix-compact-support-coefficient-change", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata"]
 +++
 Let $a_X:X\to\operatorname{Spec}k$ and

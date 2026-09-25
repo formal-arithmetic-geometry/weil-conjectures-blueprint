@@ -2,7 +2,7 @@
 id = "prop-pod-verdier-dual-on-smooth"
 kind = "theorem"
 title = "Verdier dual of a perfect complex on a smooth scheme"
-order = 2380
+order = 2397
 tags = ["latex:proposition"]
 uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "cor-pur-finite-stage-smooth-dualizing-complex", "def-pod-coefficient-dual-on-x", "def-pod-conventions", "def-weil-derived-pullback-tensor-hom", "lem-pod-twist-interchange"]
 +++

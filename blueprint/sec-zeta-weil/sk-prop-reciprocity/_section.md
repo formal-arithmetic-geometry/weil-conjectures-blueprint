@@ -2,7 +2,7 @@
 id = "sk-prop-reciprocity"
 kind = "section"
 title = "Duality reciprocity of the factors"
-order = 3137
+order = 3205
 uses = ["sk-def-cohfamily", "sk-def-roots", "sk-thm-intfactors", "sk-thm-poincare-duality"]
 +++
 *Proposition (sketch).*

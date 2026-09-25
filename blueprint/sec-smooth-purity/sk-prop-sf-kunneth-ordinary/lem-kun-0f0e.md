@@ -2,7 +2,7 @@
 id = "lem-kun-0f0e"
 kind = "lemma"
 title = "Tensor with a constant complex over $\\mathbf Z$"
-order = 1765
+order = 1779
 uses = ["def-kun-constant-sheaf", "def-kun-derived-tensor", "def-kun-truncations", "def-weil-pbc-etale-cohomology", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be a

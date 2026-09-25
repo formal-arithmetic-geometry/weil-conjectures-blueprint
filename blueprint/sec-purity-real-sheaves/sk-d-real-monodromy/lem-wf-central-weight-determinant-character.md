@@ -2,7 +2,7 @@
 id = "lem-wf-central-weight-determinant-character"
 kind = "lemma"
 title = "A determinant character detected by a central weight"
-order = 2802
+order = 2851
 uses = ["def-wf-algebraic-character", "def-wf-algebraic-representations", "def-wf-algebraic-torus", "lem-wf-central-torus-weight-decomposition"]
 +++
 Let $H\subseteq\operatorname{GL}(V)$ be connected, let

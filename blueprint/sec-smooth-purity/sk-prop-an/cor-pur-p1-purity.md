@@ -2,7 +2,7 @@
 id = "cor-pur-p1-purity"
 kind = "theorem"
 title = "Projective-line purity"
-order = 2052
+order = 2070
 tags = ["latex:corollary"]
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-p1-integration", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-p1-decomposition", "thm-pur-p1-triangular", "thm-pur-td-criterion"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-i-real-galois"
 kind = "section"
 title = "Galois correspondence for finite local systems"
-order = 2736
+order = 2784
 uses = ["sk-d-real-setup"]
 +++
 *Proposition (sketch).*

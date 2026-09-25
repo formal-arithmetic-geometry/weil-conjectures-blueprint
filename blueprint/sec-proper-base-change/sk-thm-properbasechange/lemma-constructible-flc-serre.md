@@ -2,7 +2,7 @@
 id = "lemma-constructible-flc-serre"
 kind = "lemma"
 title = "Kernels, cokernels and extensions of finite locally constant sheaves"
-order = 1301
+order = 1309
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.cokernel", "AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.kernel"]
 uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-kun-separably-closed", "lemma-constructible-flc-biproduct", "lemma-constructible-hom-constant-locally", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-constant", "lemma-constructible-pullback-finite", "lemma-constructible-pullback-locally-constant", "lemma-constructible-torsor-trivialises"]
 +++

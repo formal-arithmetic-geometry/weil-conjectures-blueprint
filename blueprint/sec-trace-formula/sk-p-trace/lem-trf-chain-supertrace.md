@@ -2,7 +2,7 @@
 id = "lem-trf-chain-supertrace"
 kind = "lemma"
 title = "Chain-level supertrace computation, with explicit conventions"
-order = 2427
+order = 2451
 uses = ["def-trf-categorical-trace", "def-trf-coefficient-conventions"]
 +++
 Let $A$ be a commutative ring, let

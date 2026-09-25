@@ -2,7 +2,7 @@
 id = "lem-pc-curves-are-sc"
 kind = "lemma"
 title = "Curves in the sense of file 06"
-order = 2768
+order = 2817
 uses = ["def-pc-curve", "def-pc-dimension", "def-pc-smooth-projective-curve", "def-sc-curves", "lem-sc-base-change-curve", "prop-pc-xk-integral"]
 +++
 Let $k$ be a field and let $X$ be a

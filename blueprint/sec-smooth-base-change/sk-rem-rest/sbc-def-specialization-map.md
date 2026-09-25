@@ -2,7 +2,7 @@
 id = "sbc-def-specialization-map"
 kind = "definition"
 title = "Specialization map"
-order = 1450
+order = 1458
 uses = ["def-weil-pbc-etale-cohomology", "sbc-def-milnor-tube", "sbc-def-strict-localization"]
 +++
 For $K\in D(X_{\Et})$ and the

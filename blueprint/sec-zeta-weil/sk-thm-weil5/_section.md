@@ -2,7 +2,7 @@
 id = "sk-thm-weil5"
 kind = "section"
 title = "Weil conjectures V: functional equation"
-order = 3166
+order = 3234
 uses = ["sk-thm-fe"]
 +++
 *Theorem (sketch).*

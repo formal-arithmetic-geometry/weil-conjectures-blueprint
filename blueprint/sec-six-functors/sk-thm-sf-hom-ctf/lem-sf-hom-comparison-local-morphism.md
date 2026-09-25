@@ -2,7 +2,7 @@
 id = "lem-sf-hom-comparison-local-morphism"
 kind = "lemma"
 title = "Locality of Hom comparison with a site-perfect first variable"
-order = 2307
+order = 2324
 uses = ["def-weil-site-perfect-complex", "lem-sf-hom-finite-projective", "thm-sf-hom-comparison-constructible"]
 +++
 Let $u:X'\to X$ be a scheme morphism, compatible with the site

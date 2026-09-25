@@ -2,7 +2,7 @@
 id = "prop-weil-localized-tstructure"
 kind = "theorem"
 title = "The rational t-structure"
-order = 1438
+order = 1446
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-pbc-bounded-constructible-complete", "def-weil-pbc-rational-category", "def-weil-t-structure", "prop-weil-pbc-integral-tstructure", "thm-weil-pbc-integral-truncations"]
 tags = ["latex:proposition"]
 +++

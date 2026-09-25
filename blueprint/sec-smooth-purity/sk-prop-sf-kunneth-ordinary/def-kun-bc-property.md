@@ -2,7 +2,7 @@
 id = "def-kun-bc-property"
 kind = "definition"
 title = "The base-change property $BC(f,n,q_0)$"
-order = 1696
+order = 1710
 uses = ["def-kun-cd", "def-kun-unbounded-exchange", "def-weil-pbc-scheme-conventions", "sbc-def-base-change-map", "sbc-def-base-change-property"]
 +++
 Let $f:X\to S$ be a morphism of schemes, $n\ge1$, and
@@ -27,9 +27,14 @@ isomorphism on $q$-th cohomology sheaves for all $q\le q_0$; those
 cohomology sheaves of the exchange morphism are the ones computed in
 [lem-kun-bc-map-on-cohomology]. The
 cohomological-dimension predicate of [def-kun-cd] is understood
-at finite coefficients. The predicate is the one used by the
-smooth-base-change chapter, where it is introduced as
-[sbc-def-base-change-property] with the derived exchange morphism of
-[sbc-def-base-change-map]; the present definition is its form for the
-unbounded exchange morphism of [def-kun-unbounded-exchange], and the
-two agree on the bounded complexes to which both apply.
+at finite coefficients. The predicate is related to the one of the
+smooth-base-change chapter, [sbc-def-base-change-property], which is
+defined with the derived exchange morphism of
+[sbc-def-base-change-map] in a single degree $q$, for $n$ invertible
+on $S$ and squares over $S$ itself: the present $BC(f,n,q_0)$ is the
+cumulative form over all base changes, i.e. (for $n$ invertible on
+$S$) the property $BC(f',n,q)$ of [sbc-def-base-change-property] for
+every $q\le q_0$ and every base change $f':X'\to S'$ of $f$, read
+with the unbounded exchange morphism of [def-kun-unbounded-exchange];
+the two exchange morphisms agree on the bounded complexes to which both
+apply. Here $n$ is not required to be invertible on $S$.

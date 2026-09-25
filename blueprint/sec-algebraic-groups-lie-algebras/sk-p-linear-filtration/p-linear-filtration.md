@@ -2,8 +2,7 @@
 id = "p-linear-filtration"
 kind = "theorem"
 title = "Characteristic polynomials along a filtration"
-order = 2703
-uses = ["def-wf-algebraic-representations", "def-wf-semisimple-module", "def-wf-simple-module"]
+order = 2750
 tags = ["latex:proposition"]
 +++
 Let $f$ be an endomorphism of a finite-dimensional
@@ -39,5 +38,3 @@ The determinant factorization along an invariant subspace is Mathlib's
 `Matrix.charpoly_fromBlocks_zero`$_{12}$; what is not available
 is the statement above, Mathlib having only the direct-sum case
 `LinearMap.charpoly_prodMap`.
-
-Uses: [def-wf-algebraic-representations], [def-wf-semisimple-module], [def-wf-simple-module]

@@ -2,8 +2,8 @@
 id = "lem-amb-etale-compact-comparisons"
 kind = "lemma"
 title = "The etale compact-support comparisons"
-order = 1581
-uses = ["def-amb-etale-compact-support", "def-asd-compactifiable", "def-weil-compactifications-refinements", "lem-weil-pbc-proper-open-comparison-composition", "lem-weil-pbc-proper-open-comparison-iso", "prop-weil-proet-finite-proper-base-change", "thm-nagata-compactification"]
+order = 1595
+uses = ["def-amb-etale-compact-support", "def-asd-compactifiable", "def-weil-compactifications-refinements", "lem-weil-derived-direct-image-composition", "lem-weil-pbc-proper-open-comparison-composition", "lem-weil-pbc-proper-open-comparison-iso", "prop-weil-proet-finite-proper-base-change", "thm-nagata-compactification"]
 +++
 The proper-refinement comparisons for
 [def-amb-etale-compact-support] are coherent
@@ -57,7 +57,8 @@ finite-amplitude extension as above. Apply this map
 to the extension by zero of a complex on $X$,
 then apply the proper direct image $R\overline g_*$.
 Open extension by zero composes termwise, and proper
-derived direct image composes by its adjunction to
+derived direct image composes
+([lem-weil-derived-direct-image-composition], item (5)) by its adjunction to
 the composite exact inverse image. The result is
 $Rg_!Rf_!\cong R(gf)_!$. For three morphisms,
 choose one common refinement of all compactifications;

@@ -2,7 +2,7 @@
 id = "sk-rem-rest"
 kind = "section"
 title = "Classical form and the following sections"
-order = 1424
+order = 1432
 +++
 *Remark (sketch).*
 

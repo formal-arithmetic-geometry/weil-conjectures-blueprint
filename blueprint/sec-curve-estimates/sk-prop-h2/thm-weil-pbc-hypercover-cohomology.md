@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-hypercover-cohomology"
 kind = "theorem"
 title = "Cohomology is computed after hypercover refinement"
-order = 952
+order = 959
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-finite-split-hypercover", "lem-weil-pbc-hypercover-free-resolution", "lem-weil-pbc-hypercover-refinement"]
 +++
 For a quasi-compact quasi-separated scheme $X$, an abelian etale sheaf $F$,

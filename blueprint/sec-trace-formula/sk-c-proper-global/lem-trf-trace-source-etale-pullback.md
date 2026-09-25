@@ -2,7 +2,7 @@
 id = "lem-trf-trace-source-etale-pullback"
 kind = "lemma"
 title = "Pullback of the trace-class source"
-order = 2473
+order = 2501
 uses = ["def-trf-etale-base-change", "def-trf-trace-class-source", "def-weil-site-perfect-complex", "lem-trf-etale-exceptional-pullback", "thm-trf-internal-hom-pullback"]
 +++
 In the situation of [def-trf-etale-base-change], assume

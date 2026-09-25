@@ -2,7 +2,7 @@
 id = "def-sc-normalization"
 kind = "definition"
 title = "Normalization in the function field"
-order = 917
+order = 924
 uses = ["def-sc-function-field"]
 +++
 Let $X$ be an integral scheme with function field

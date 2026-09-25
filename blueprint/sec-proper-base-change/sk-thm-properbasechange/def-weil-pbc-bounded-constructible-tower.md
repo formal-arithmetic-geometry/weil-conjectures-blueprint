@@ -2,7 +2,7 @@
 id = "def-weil-pbc-bounded-constructible-tower"
 kind = "definition"
 title = "Uniformly bounded constructible tower"
-order = 1235
+order = 1243
 uses = ["def-weil-pbc-adic-coefficient-datum"]
 +++
 An adic tower is an object $M_\bullet\in D(\operatorname{Tow}_{A}(T))$

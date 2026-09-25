@@ -2,7 +2,7 @@
 id = "def-weil-pbc-adic-derived-inverse-limit"
 kind = "definition"
 title = "Explicit adic derived inverse limit"
-order = 1241
+order = 1249
 uses = ["def-weil-pbc-complete-coefficient-datum"]
 +++
 For a tower $M_\bullet=(M_n,t_{n+1,n})$, put

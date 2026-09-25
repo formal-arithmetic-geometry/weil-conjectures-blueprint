@@ -2,7 +2,7 @@
 id = "sk-lem-orthogonality"
 kind = "section"
 title = "Orthogonality"
-order = 2867
+order = 2914
 uses = ["sk-def-char"]
 +++
 *Lemma (sketch).*

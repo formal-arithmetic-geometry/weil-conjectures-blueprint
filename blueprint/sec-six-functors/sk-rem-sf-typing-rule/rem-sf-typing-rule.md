@@ -2,7 +2,7 @@
 id = "rem-sf-typing-rule"
 kind = "remark"
 title = "The typing rule of this section"
-order = 2121
+order = 2140
 +++
 An operation is introduced in this section *only on the ambient
 categories of [def-sf-categories]*; no preservation property is built
@@ -13,8 +13,8 @@ the small subcategory, so that it *restricts* to a functor there; and for
 the exceptional right adjoint, whose existence is itself a hypothesis, the
 assertion that this restriction to the small subcategories is a functor at all.
 Every such statement is enumerated operation by operation in
-[rem-sf-typing] and proved in [sk-prop-sf-finiteness],
-[sk-prop-sf-existence], [sk-prop-sf-rf-shriek-preservation] and
-[sk-thm-sf-ctf-stability].
+[rem-sf-typing] and proved in [thm-dg-finite-type-constructibility],
+[thm-amb-etale-exceptional-adjoint], [thm-exc-explicit-preservation] and
+[thm-sf-ctf-stability].
 Consequently every functor below is written together with its source and
 target categories.

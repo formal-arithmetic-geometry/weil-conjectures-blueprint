@@ -2,7 +2,7 @@
 id = "lemma-openclosed-stalk-upperstar"
 kind = "lemma"
 title = "Stalks of a pullback"
-order = 1111
+order = 1119
 lean = ["AlgebraicGeometry.Etale.upperStarCompSheafFiberIso", "AlgebraicGeometry.Etale.upperStarCompUliftSheafFiberIso"]
 uses = ["def-kun-separably-closed", "lemma-openclosed-point-ulift"]
 +++

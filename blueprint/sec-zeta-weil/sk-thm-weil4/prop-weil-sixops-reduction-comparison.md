@@ -2,7 +2,7 @@
 id = "prop-weil-sixops-reduction-comparison"
 kind = "theorem"
 title = "Compactification comparisons and finite reduction"
-order = 3158
+order = 3226
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-scheme-morphism-properties", "prop-functor-package"]
 +++

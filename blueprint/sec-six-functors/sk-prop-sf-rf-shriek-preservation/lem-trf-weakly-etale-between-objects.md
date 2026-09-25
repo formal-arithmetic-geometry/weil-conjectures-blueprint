@@ -2,7 +2,7 @@
 id = "lem-trf-weakly-etale-between-objects"
 kind = "lemma"
 title = "Morphisms between weakly etale objects"
-order = 2167
+order = 2186
 lean = ["AlgebraicGeometry.WeaklyEtale.of_comp"]
 +++
 Let $U\to S$ and $V\to S$ be weakly etale morphisms.

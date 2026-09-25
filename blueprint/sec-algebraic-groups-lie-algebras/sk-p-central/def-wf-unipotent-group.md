@@ -2,7 +2,7 @@
 id = "def-wf-unipotent-group"
 kind = "definition"
 title = "Unipotent matrix and unipotent linear group"
-order = 2672
+order = 2719
 +++
 A matrix $u$ is *unipotent* if $(u-1)^N=0$ for some $N$, or,
 equivalently over $\overline{\mathbf Q}_\ell$, if all its eigenvalues are

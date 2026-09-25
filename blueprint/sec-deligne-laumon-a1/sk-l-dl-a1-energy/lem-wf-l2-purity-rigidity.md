@@ -2,7 +2,7 @@
 id = "lem-wf-l2-purity-rigidity"
 kind = "lemma"
 title = "The $L^2$-weight of a punctually pure lisse sheaf equals its weight"
-order = 2962
+order = 3020
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist", "def-wf-iota-real", "def-wf-l2-norm", "def-wf-normalized-real-envelope", "lem-tw-dual-negation", "lem-wf-constant-twist-weight", "lem-wf-envelope-real", "lem-wf-l2-upper", "thm-wf-l2-dictionary"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve over

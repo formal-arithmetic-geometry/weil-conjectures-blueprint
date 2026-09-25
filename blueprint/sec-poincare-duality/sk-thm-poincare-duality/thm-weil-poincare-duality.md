@@ -2,7 +2,7 @@
 id = "thm-weil-poincare-duality"
 kind = "theorem"
 title = "Poincare duality for smooth proper schemes"
-order = 2597
+order = 2633
 uses = ["cor-pod-reciprocal-eigenvalues", "cor-pod-untwisted-similitude", "def-coefficient-twists-detailed", "def-pod-dual-tate-datum", "def-trf-frobenius-operators", "def-weil-algebraically-closed-coefficients", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-poincare-trace-cup", "def-weil-weil-sheaf-complex", "lem-fix-weil-operations", "prop-cohomological-finiteness", "thm-pod-degreewise-perfectness-over-a-field", "thm-pod-proper-poincare-duality", "thm-pod-qbar-coefficient-pairing", "thm-pod-trace-isomorphism"]
 +++
 Let $p$ be prime, let $a\in\mathbf Z_{\geq1}$, put $q=p^a$, and set
@@ -54,13 +54,26 @@ $$
 $$
 
 there is a Frobenius-equivariant duality isomorphism
-$H^{2d-i}(X,\Ql)\simeq H^i(X,\Ql)^\vee(-d)$, and the
-base-change clause holds for every finite extension $k_0'/k_0$
-contained in $k$. These five clauses are precisely the items
-(Trace), (Finiteness), (Pairing), (Frobenius similitudine), and
-(Reciprocity), together with the base-change item, of
-[thm-weil-poincare-duality] of the Poincare-duality chapter, read in the
-conventions fixed here.
+$H^{2d-i}(X,\Ql)\simeq H^i(X,\Ql)^\vee(-d)$, under which the
+eigenvalues of $F$ on $H^{2d-i}(X,\Ql)$ are the $q^d/\alpha$, with
+multiplicity, for the eigenvalues $\alpha$ of $F$ on $H^i(X,\Ql)$, and
+the base-change clause holds: for every finite extension $k_0'/k_0$
+contained in $k$, with $r=[k_0':k_0]$ (so $\#k_0'=q^r$), the geometric
+Frobenius of $k_0'$ acting on $H^i(X,\Ql)$, via the canonical
+identification of $X_0\times_{k_0}k_0'$ base-changed to $k$ with $X$,
+is $F^r$, the pairings $\langle-,-\rangle_i$ remain perfect, and
+
+$$
+\langle F^rx,F^ry\rangle_i=(q^r)^d\langle x,y\rangle_i
+\qquad
+(x\in H^i(X,\Ql),\ y\in H^{2d-i}(X,\Ql)).
+$$
+
+These six clauses are the items (Trace), (Finiteness), (Pairing),
+(Frobenius similitudine), (Reciprocity) and (Base change) of the
+detailed form below, read in the conventions fixed here; the
+graded-commutativity part of (Pairing) is deduced from this theorem
+in the following proposition on the Poincare pairing.
 
 ## Proof
 
@@ -77,7 +90,12 @@ twist normalization of [def-weil-frobenius-coefficient-twists]
 and the untwisted Frobenius similitude of
 [cor-pod-untwisted-similitude], and the reciprocity and base
 change are [cor-pod-reciprocal-eigenvalues] and the
-Frobenius-operator convention of [def-trf-frobenius-operators].
+Frobenius-operator convention of [def-trf-frobenius-operators]
+together with $\operatorname{Frob}_{q^r}=\operatorname{Frob}_q^r$ from
+[def-weil-frobenius-detailed]: the Frobenius of $k_0'$ is $F^r$, the
+pairings are unchanged under the canonical identification of geometric
+fibres (hence still perfect), and iterating the similitude $r$ times gives
+$\langle F^rx,F^ry\rangle_i=q^{rd}\langle x,y\rangle_i=(q^r)^d\langle x,y\rangle_i$.
 Both the
 interface and [thm-weil-poincare-duality] are expressed in the
 ordinary and compact-support conventions of
@@ -141,4 +159,4 @@ for $x\in H^i(X,\mathbf Q_{\ell })$ and $y\in H^{2d-i}(X,\mathbf Q_{\ell })$.
 
 ## Proof
 
-The coefficient stage is $\Lambda =\overline{\mathbf Q}_{\ell }$, the common-stage coefficients of [def-weil-algebraically-closed-coefficients], with the canonical datum. Item (1) is [thm-pod-trace-isomorphism] at $\Lambda =\overline{\mathbf Q}_{\ell }$; item (2) is [prop-cohomological-finiteness], whose statement in the smooth-proper-geometrically-connected case gives the vanishing outside $[0,2d]$ and the finite-dimensionality. Item (3): by [thm-pod-proper-poincare-duality] with $K=(\mathbf Q_{\ell })_X$ and the $\overline{\mathbf Q}_{\ell }$-transport of [thm-pod-qbar-coefficient-pairing], the degreewise pairings $H^i(X,\mathbf Q_{\ell })\times H^{2d-i}(X,\mathbf Q_{\ell }(d))\to \mathbf Q_{\ell }$ are perfect, and eliminating the twist gives the line-valued perfect pairings with values in $\mathbf Q_{\ell }(-d)$, the definition of $\langle -,-\rangle _i$ in [def-weil-poincare-trace-cup] (the cup product of the master is the mixed-support cup product on a proper scheme, and the trace is the normalized smooth trace of the purity chapter restricted to the constant coefficients). Item (4): the constant sheaf $K_X$ with its canonical datum is self-dual in the canonical way; the datum on the dual is the canonical datum, and the Frobenius similitude $\langle Fx,Fy\rangle _i=q^d\langle x,y\rangle _i$ is the untwisted similitude of [cor-pod-untwisted-similitude] for $K=K_X$. Item (5): the duality isomorphism of [thm-pod-proper-poincare-duality] together with the degreewise isomorphism of [thm-pod-degreewise-perfectness-over-a-field] gives (transported to $\overline{\mathbf Q}_{\ell }$ via [thm-pod-qbar-coefficient-pairing]) $H^{2d-i}(X,\mathbf Q_{\ell })\cong H^i(X,\mathbf Q_{\ell })^\vee (-d)$, the equivariance being the duality-isomorphism compatibility of [def-pod-dual-tate-datum] and of [lem-fix-weil-operations], and the eigenvalue reciprocity is [cor-pod-reciprocal-eigenvalues]. Item (6): the base change consists in the identification of the geometric Frobenius $\operatorname {Frob}_{q'}=\operatorname {Frob}_q^r$ (the definition of the geometric-Frobenius convention, [def-weil-frobenius-detailed], and its incarnation on the geometric fiber via the canonical identification $X'=X$), the associated operator being the $r$-th iterate $F^r$ of [def-trf-frobenius-operators]; the pairings are the ones transported along the canonical identification of $X'$ with $X$, hence perfect, and the similitude is the $r$-fold iteration of item (4), whose $r$-th power acts by $q^{rd}=(q^r)^d$.
+The coefficient stage is $\Lambda =\overline{\mathbf Q}_{\ell }$, the common-stage coefficients of [def-weil-algebraically-closed-coefficients], with the canonical datum. Item (1) is the proper clause of [thm-pod-trace-isomorphism] at $\Lambda =\overline{\mathbf Q}_{\ell }$ ($X_0$ being proper by hypothesis, so $H_c^{2d}=H^{2d}$); item (2) is [prop-cohomological-finiteness], whose statement in the smooth-proper-geometrically-connected case gives the vanishing outside $[0,2d]$ and the finite-dimensionality. Item (3): by [thm-pod-proper-poincare-duality] (applicable since $X_0$ is proper) with $K=(\mathbf Q_{\ell })_X$ and the $\overline{\mathbf Q}_{\ell }$-transport of [thm-pod-qbar-coefficient-pairing], the degreewise pairings $H^i(X,\mathbf Q_{\ell })\times H^{2d-i}(X,\mathbf Q_{\ell }(d))\to \mathbf Q_{\ell }$ are perfect, and eliminating the twist gives the line-valued perfect pairings with values in $\mathbf Q_{\ell }(-d)$, the definition of $\langle -,-\rangle _i$ in [def-weil-poincare-trace-cup] (the cup product of the master is the mixed-support cup product on a proper scheme, and the trace is the normalized smooth trace of the purity chapter restricted to the constant coefficients). Item (4): the constant sheaf $K_X$ with its canonical datum is self-dual in the canonical way; the datum on the dual is the canonical datum, and the Frobenius similitude $\langle Fx,Fy\rangle _i=q^d\langle x,y\rangle _i$ is the untwisted similitude of [cor-pod-untwisted-similitude] for $K=K_X$. Item (5): the duality isomorphism of [thm-pod-proper-poincare-duality] together with the degreewise isomorphism of [thm-pod-degreewise-perfectness-over-a-field] gives (transported to $\overline{\mathbf Q}_{\ell }$ via [thm-pod-qbar-coefficient-pairing]) $H^{2d-i}(X,\mathbf Q_{\ell })\cong H^i(X,\mathbf Q_{\ell })^\vee (-d)$, the equivariance being the duality-isomorphism compatibility of [def-pod-dual-tate-datum] and of [lem-fix-weil-operations], and the eigenvalue reciprocity is [cor-pod-reciprocal-eigenvalues]. Item (6): the base change consists in the identification of the geometric Frobenius $\operatorname {Frob}_{q'}=\operatorname {Frob}_q^r$ (the definition of the geometric-Frobenius convention, [def-weil-frobenius-detailed], and its incarnation on the geometric fiber via the canonical identification $X'=X$), the associated operator being the $r$-th iterate $F^r$ of [def-trf-frobenius-operators]; the pairings are the ones transported along the canonical identification of $X'$ with $X$, hence perfect, and the similitude is the $r$-fold iteration of item (4), whose $r$-th power acts by $q^{rd}=(q^r)^d$.

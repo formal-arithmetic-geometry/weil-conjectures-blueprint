@@ -2,7 +2,7 @@
 id = "def-weil-pbc-geometric-stalks"
 kind = "definition"
 title = "Geometric stalks"
-order = 934
+order = 941
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 Let $\bar t:\operatorname{Spec}\Omega\to T$ be a geometric point

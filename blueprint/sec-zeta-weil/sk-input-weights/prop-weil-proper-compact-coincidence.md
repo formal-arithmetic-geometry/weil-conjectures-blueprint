@@ -2,7 +2,7 @@
 id = "prop-weil-proper-compact-coincidence"
 kind = "theorem"
 title = "Proper coincidence of compact-support and ordinary cohomology"
-order = 3082
+order = 3149
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-weil-derived-direct-image", "def-weil-ordinary-compact-cohomology", "def-weil-scheme-morphism-properties"]
 +++

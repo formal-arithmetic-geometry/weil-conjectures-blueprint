@@ -2,7 +2,7 @@
 id = "prop-weil-sixops-verdier-duality"
 kind = "theorem"
 title = "Verdier exchange and biduality on the coefficient class"
-order = 3163
+order = 3231
 tags = ["latex:proposition"]
 uses = ["def-weil-exceptional-adjoint-admissibility", "prop-functor-package", "thm-sf-biduality-class"]
 +++

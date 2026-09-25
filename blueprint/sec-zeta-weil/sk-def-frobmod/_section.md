@@ -2,7 +2,7 @@
 id = "sk-def-frobmod"
 kind = "section"
 title = "Frobenius modules and their trace series"
-order = 3060
+order = 3126
 +++
 *Definition (sketch).*
 

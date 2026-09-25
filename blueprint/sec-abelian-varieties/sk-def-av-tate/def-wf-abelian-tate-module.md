@@ -2,7 +2,7 @@
 id = "def-wf-abelian-tate-module"
 kind = "definition"
 title = "The Tate module used in the curve argument"
-order = 473
+order = 475
 uses = ["def-sc-abelian-variety", "def-sc-mult-n", "def-tate-module-abelian-group"]
 +++
 Let $A$ be an abelian variety over an

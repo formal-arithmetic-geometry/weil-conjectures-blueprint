@@ -2,7 +2,7 @@
 id = "prop-weil-finite-proper-base-change-exchange"
 kind = "theorem"
 title = "Finite-torsion proper base change"
-order = 1839
+order = 1853
 tags = ["latex:proposition"]
 uses = ["def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++

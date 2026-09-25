@@ -2,8 +2,8 @@
 id = "lem-sf-finite-level-comparison"
 kind = "lemma"
 title = "The finite-level comparison isomorphisms of the package, from uniform local models"
-order = 2325
-uses = ["def-exchange-projection", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-derived-inverse-limit", "lem-weil-pbc-reconstruction-uniform-tower"]
+order = 2341
+uses = ["def-exchange-projection", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-derived-inverse-limit", "lem-weil-derived-direct-image-composition", "lem-weil-pbc-reconstruction-uniform-tower"]
 +++
 Fix the global finite-field datum and a separated finite-type morphism
 $f:X\to Y$ of finite-type $k$-schemes. Let
@@ -53,7 +53,8 @@ $$
 which is the displayed comparison map; its naturality in $K$ is the
 naturality of the derived-limit projections and of the tensor product, and
 the compatibility with composition is the compatibility of the direct image
-with composition at each finite level together with the functoriality of the
+with composition at each finite level
+([lem-weil-derived-direct-image-composition] (1)) together with the functoriality of the
 derived limit. Compatibility with scalar extension is the same statement
 after extending scalars, the comparison being natural in the coefficient
 ring. The projection formula enters only through the coherence of the tower

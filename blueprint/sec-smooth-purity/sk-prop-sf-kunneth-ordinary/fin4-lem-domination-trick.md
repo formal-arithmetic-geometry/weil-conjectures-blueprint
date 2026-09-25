@@ -2,7 +2,7 @@
 id = "fin4-lem-domination-trick"
 kind = "lemma"
 title = "The domination trick"
-order = 1678
+order = 1692
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-finrepair-modification-c", "lem-finrepair-modification-extension-zero", "lem-weil-pbc-grothendieck-spectral-sequence", "sbc-def-coefficient-conventions"]
 +++
 Let $S$ be of finite type over $k$, let $f:X\to S$ be

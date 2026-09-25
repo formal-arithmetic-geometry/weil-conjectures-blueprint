@@ -2,7 +2,7 @@
 id = "sk-thm-sf-internal-hom-pullback"
 kind = "section"
 title = "Internal Hom versus pullback for a site-perfect first variable"
-order = 2258
+order = 2277
 uses = ["sk-def-sf-operations"]
 +++
 *Theorem (sketch).*

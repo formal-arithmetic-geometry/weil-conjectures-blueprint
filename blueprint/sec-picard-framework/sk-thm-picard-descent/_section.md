@@ -2,7 +2,8 @@
 id = "sk-thm-picard-descent"
 kind = "section"
 title = "Descent"
-order = 767
+order = 770
+uses = ["sk-def-av-pic"]
 +++
 *Theorem (sketch).*
 

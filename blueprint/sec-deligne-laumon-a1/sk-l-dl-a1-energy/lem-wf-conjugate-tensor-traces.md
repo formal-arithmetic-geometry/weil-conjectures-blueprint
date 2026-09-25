@@ -2,7 +2,7 @@
 id = "lem-wf-conjugate-tensor-traces"
 kind = "lemma"
 title = "The conjugate-tensor trace identity"
-order = 2956
+order = 3014
 uses = ["cor-rp-euler-product", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "lem-rp-determinant-log"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve over

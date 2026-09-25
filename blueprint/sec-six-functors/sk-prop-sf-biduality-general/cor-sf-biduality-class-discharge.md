@@ -2,7 +2,7 @@
 id = "cor-sf-biduality-class-discharge"
 kind = "theorem"
 title = "Discharge of the finite-stage boundary-duality input"
-order = 2252
+order = 2271
 tags = ["latex:corollary"]
 uses = ["cor-weil-boundary-duality-discharge", "def-weil-boundary-duality-input", "thm-sf-biduality-class"]
 +++

@@ -2,8 +2,8 @@
 id = "thm-trf-grothendieck-lefschetz-qbar"
 kind = "theorem"
 title = "Grothendieck–Lefschetz formula over $\\Qlb$"
-order = 2530
-uses = ["def-trf-coefficient-conventions", "def-trf-frobenius-operators", "def-trf-karoubi-trace", "def-trf-trace-class", "def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-finite-field-fiber", "def-weil-ordinary-compact-cohomology", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "prop-trf-karoubi-independence", "prop-trf-trace-formal-laws", "thm-trf-trace-formula-e"]
+order = 2567
+uses = ["def-trf-coefficient-conventions", "def-trf-frobenius-operators", "def-trf-karoubi-trace", "def-trf-trace-class", "def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-finite-field-fiber", "def-weil-ordinary-compact-cohomology", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "prop-trf-karoubi-independence", "prop-trf-rational-frobenius-integral-model", "prop-trf-trace-formal-laws", "thm-trf-trace-formula-e"]
 +++
 Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, and the
@@ -16,9 +16,17 @@ Weil complex, represented by
 $(E,K_E)$ with $E/\Ql$ finite in $\Qlb$ and
 $K_E\in D^b_{c,\mathrm W}(X,E)$, as in the
 common-stage
-coefficient construction. Assume this finite-stage representative
-is presented by an integral Weil system satisfying the hypotheses
-and pending trace inputs of [thm-trf-trace-formula-e].
+coefficient construction, with underlying Weil map
+$\varphi_E:Lg_\gamma^*K_E\to K_E$ in $D^b_c(X,E)$. The Frobenius operators
+$F^{\,m}_{c,K}$ on $R\Gamma_c(X,K)=R\Gamma_c(X,K_E)\otimes_E\Qlb$ and
+$F_{y,m}$ on $K_{\bar y}=K_{E,\bar y}\otimes_E\Qlb$ are the scalar
+extensions of the $E$-stage operators of $(K_E,\varphi_E)$ of
+[prop-trf-rational-frobenius-integral-model]; at the finite levels these
+are the operators of [def-trf-frobenius-operators]. No integral Weil
+presentation of $\varphi_E$, or of any rescaling of it, is assumed.
+Assume only the finite-level hypotheses of [thm-trf-trace-formula-e] for
+some lattice of $K_E$: at every level $A_{E,n}$, an explicit etale-origin
+witness for its reduction and compactification admissibility.
 For every integer $m\geq1$,
 
 $$
@@ -39,7 +47,10 @@ finite field, the representative, and the common overfield.
 ## Proof
 
 Apply [thm-trf-trace-formula-e] to
-$K_E\in D^b_{c,\mathrm W}(X,E)$: the identity holds in $E$ for the
+$K_E\in D^b_{c,\mathrm W}(X,E)$ with its Weil map $\varphi_E$; that
+theorem needs no integral Weil presentation and only the finite-level
+hypotheses assumed here. It gives finite-dimensional $E$-cohomology in
+finitely many degrees, and the identity holds in $E$ for the
 categorical traces and, by the supertrace law
 [prop-trf-trace-formal-laws], for the alternating sums of the
 traces on compact-support and stalk cohomology. The object $K$ is

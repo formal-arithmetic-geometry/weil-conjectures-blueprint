@@ -2,7 +2,7 @@
 id = "sk-p-tensor"
 kind = "section"
 title = "Tensor-product weights"
-order = 2714
+order = 2761
 uses = ["sk-d-linear", "sk-d-monodromy", "sk-d-weights", "sk-i-restriction", "sk-p-central", "sk-p-readout", "sk-r-linear-library"]
 +++
 *Proposition (sketch).*

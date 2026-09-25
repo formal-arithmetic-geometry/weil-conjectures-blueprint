@@ -2,7 +2,7 @@
 id = "thm-sf-uniform-models-constant-tower"
 kind = "theorem"
 title = "Stage-independent local models for a constant tower"
-order = 2326
+order = 2342
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-finite-tor-amplitude", "def-weil-pbc-bounded-constructible-tower", "lem-sf-finite-level-comparison", "lem-sf-stage-independent-model-criterion", "lem-weil-pbc-reconstruction-uniform-tower"]
 +++
 Let $T$ be a scheme on which $\ell$ is invertible and let

@@ -2,8 +2,8 @@
 id = "fix-lem-exchanges"
 kind = "lemma"
 title = "Exchange functoriality: naturality, identities, and pasting"
-order = 1666
-uses = ["def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-cartesian-square", "def-weil-scheme-morphism-properties", "lem-weil-pbc-exchange-identity-pasting", "prop-compactification-coherence-detailed", "sbc-def-base-change-map", "sbc-lem-identity-and-base-change-composition", "sbc-thm-bounded-below-derived-smooth-base-change", "sbc-thm-overline-mathbf-q-ell-coefficient-smooth-base-ch", "thm-cbc-finite-extension", "thm-cbc-finite-torsion", "thm-cbc-qbar"]
+order = 1680
+uses = ["def-cbc-exchange-map", "def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-cartesian-square", "def-weil-scheme-morphism-properties", "lem-weil-pbc-exchange-identity-pasting", "prop-compactification-coherence-detailed", "sbc-def-base-change-map", "sbc-lem-identity-and-base-change-composition", "sbc-thm-bounded-below-derived-smooth-base-change", "sbc-thm-overline-mathbf-q-ell-coefficient-smooth-base-ch", "thm-cbc-finite-extension", "thm-cbc-finite-torsion", "thm-cbc-qbar", "thm-sf-comp-composition"]
 +++
 In the six-functor datum of
 [def-fix-six-functor-datum], let
@@ -53,7 +53,7 @@ isomorphism;
 1. $\operatorname{Ex}_!$ is independent of the chosen
 compactification and compatible with the refinement comparison
 isomorphisms of [prop-compactification-coherence-detailed] and with the
-composition law of [def-compact-support-direct-image-detailed].
+composition law of [thm-sf-comp-composition].
 
 ## Proof
 
@@ -99,6 +99,6 @@ at the other levels. Step 5: independence. The comparison
 isomorphisms of [prop-compactification-coherence-detailed] identify the
 two compactification candidates of $\operatorname{Ex}_!$ and are
 compatible with the composition law of
-[def-compact-support-direct-image-detailed] (the proper-composition
+[thm-sf-comp-composition] (the proper-composition
 isomorphism and the extension-by-zero identification), so
 $\operatorname{Ex}_!$ does not depend on the compactification.

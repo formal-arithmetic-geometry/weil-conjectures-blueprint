@@ -2,7 +2,7 @@
 id = "sk-d-real-detweights"
 kind = "section"
 title = "Determinant weights and weight blocks"
-order = 2818
+order = 2862
 uses = ["sk-d-real-operations", "sk-d-real-weights", "sk-p-real-rankone"]
 +++
 *Definition (sketch).*

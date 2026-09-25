@@ -2,7 +2,7 @@
 id = "d-ab-field"
 kind = "definition"
 title = "Finite fields, Frobenius and abelian varieties"
-order = 469
+order = 471
 +++
 Fix distinct primes $p,\ell$, an integer $a\ge1$, a field $k_0$ with
 $q=p^a$ elements, and an algebraic closure $\bar k$.

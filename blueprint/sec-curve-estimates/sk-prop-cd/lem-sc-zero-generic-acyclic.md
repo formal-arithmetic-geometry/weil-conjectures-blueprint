@@ -2,7 +2,7 @@
 id = "lem-sc-zero-generic-acyclic"
 kind = "lemma"
 title = "Acyclicity of a sheaf with zero generic restriction"
-order = 1004
+order = 1012
 uses = ["def-sc-curves", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-zero-dimensional-cohomology", "lemma-weil-pbc-finite-direct-image-exact", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $C$ be an integral separated

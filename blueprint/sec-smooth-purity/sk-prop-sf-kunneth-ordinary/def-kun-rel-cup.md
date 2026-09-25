@@ -2,7 +2,7 @@
 id = "def-kun-rel-cup"
 kind = "definition"
 title = "Relative cup product"
-order = 1768
+order = 1782
 uses = ["def-kun-derived-tensor", "def-weil-pbc-inverse-image", "lem-kun-inverse-image-monoidal"]
 +++
 Let $f:X\to Y$ be a morphism of schemes and $\Lambda$ a commutative

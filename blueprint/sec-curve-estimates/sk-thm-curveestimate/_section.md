@@ -2,8 +2,8 @@
 id = "sk-thm-curveestimate"
 kind = "section"
 title = "Curve estimate"
-order = 1023
-uses = ["sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-prop-av-divisible", "sk-prop-av-ntorsion-etale", "sk-prop-cd", "sk-prop-h1", "sk-prop-h2", "sk-prop-jacobian"]
+order = 1031
+uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-prop-cd", "sk-prop-h1", "sk-prop-h2", "sk-prop-jacobian", "sk-thm-av-final"]
 +++
 *Theorem (sketch).*
 
@@ -21,4 +21,4 @@ $$
 
 and $H^q(C,\Z/n)=0$ for $q\ge3$.
 
-Uses: [sk-def-curve], [sk-def-kummer], [sk-def-pic], [sk-prop-av-divisible], [sk-prop-av-ntorsion-etale], [sk-prop-cd], [sk-prop-h1], [sk-prop-h2], [sk-prop-jacobian]
+Uses: [sk-def-curve], [sk-def-kummer], [sk-def-pic], [sk-prop-cd], [sk-prop-h1], [sk-prop-h2], [sk-prop-jacobian], [sk-thm-av-final]

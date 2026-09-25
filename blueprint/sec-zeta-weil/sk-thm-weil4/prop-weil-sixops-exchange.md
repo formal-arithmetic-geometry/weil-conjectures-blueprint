@@ -2,7 +2,7 @@
 id = "prop-weil-sixops-exchange"
 kind = "theorem"
 title = "Exchange isomorphisms for the direct images"
-order = 3160
+order = 3228
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-direct-image", "def-weil-scheme-morphism-properties", "prop-functor-package"]
 +++

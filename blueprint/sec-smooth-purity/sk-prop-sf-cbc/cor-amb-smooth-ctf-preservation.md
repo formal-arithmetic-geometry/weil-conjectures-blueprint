@@ -2,7 +2,7 @@
 id = "cor-amb-smooth-ctf-preservation"
 kind = "theorem"
 title = "Smooth preservation on the ordinary etale site"
-order = 1595
+order = 1609
 tags = ["latex:corollary"]
 uses = ["def-sbc-smooth-morphisms", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "thm-asd-smooth-tensor"]
 +++

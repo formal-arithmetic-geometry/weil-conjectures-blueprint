@@ -2,8 +2,8 @@
 id = "thm-sp-grothendieck"
 kind = "theorem"
 title = "Grothendieck spectral sequence"
-order = 527
-uses = ["def-sp-composite-acyclicity", "def-sp-convergence", "def-sp-exact-couple", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "lem-sp-edge-collapse", "thm-sp-if-e1"]
+order = 531
+uses = ["def-sp-composite-acyclicity", "def-sp-convergence", "def-sp-double-complex-total", "def-sp-exact-couple", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "lem-sp-edge-collapse", "thm-sp-double-complex-spectral-sequences", "thm-sp-if-e1"]
 +++
 Let $(F,G)$ be a composable pair [def-sp-composite-acyclicity] with $F$
 sending injectives to $G$-acyclics. For every $X\in\mathcal A$ there is a
@@ -25,7 +25,7 @@ $\mathcal B$, so that $R^qF(X)=\mathcal H^q(C^\bullet)$. Let
 $C^{\bullet,\bullet}$ be a Cartan--Eilenberg resolution of $C^\bullet$
 ([thm-sp-if-e1]) and put $D^{p,q}=G(C^{p,q})$; since $G$ is left exact,
 $R^qG(C^p)=\mathcal H^q(G(C^{p,\bullet}))$. Filtering the total complex of
-$D$ by the second degree, the $E_1$-page is
+$D$ ([def-sp-double-complex-total]) by the second degree, the $E_1$-page is
 
 $$
  E_1^{p,q}=R^qG\bigl(F(I^p)\bigr),
@@ -49,7 +49,7 @@ stated $E_2$-page $R^pG(R^qF(X))$ is the page of the first-degree filtration
 of the same double complex, whose identification with the horizontal
 cohomology of the $C^{\bullet,q}$-columns is the Cartan--Eilenberg
 computation of [thm-sp-if-e1]; the two spectral sequences of the double
-complex converge to the same abutment, so the stated sequence converges to
+complex ([thm-sp-double-complex-spectral-sequences]) converge to the same abutment, so the stated sequence converges to
 $R^{p+q}(G\circ F)(X)$ as claimed. The induced filtration on the abutment is
 the image filtration of [def-sp-image-filtration], convergence is the
 half-plane case of [def-sp-convergence], and everything is functorial in

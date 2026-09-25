@@ -2,8 +2,8 @@
 id = "sk-thm-av-final"
 kind = "section"
 title = "Abelian-variety estimate"
-order = 601
-uses = ["sk-def-av", "sk-def-av-isogeny", "sk-def-av-jacobian", "sk-def-av-mult-n", "sk-def-av-pic", "sk-def-av-tate", "sk-prop-av-connected-order", "sk-prop-av-divisible", "sk-prop-av-divisible-structure", "sk-prop-av-isogeny", "sk-prop-av-jacobian", "sk-prop-av-jacobian-general", "sk-prop-av-kummer-tate", "sk-prop-av-ntorsion-etale", "sk-prop-av-prime-p-etale", "sk-prop-av-tate-rank"]
+order = 599
+uses = ["sk-def-av", "sk-def-av-isogeny", "sk-def-av-mult-n", "sk-def-av-tate", "sk-prop-av-connected-order", "sk-prop-av-divisible", "sk-prop-av-divisible-structure", "sk-prop-av-isogeny", "sk-prop-av-ntorsion-etale", "sk-prop-av-prime-p-etale", "sk-prop-av-tate-rank"]
 +++
 *Theorem (sketch).*
 
@@ -25,18 +25,6 @@ abelian group, $A(k)[n]\cong(\Z/n\Z)^{2g}$ for every $n$ prime to $p$,
 and for every prime $\ell\ne p$
 $$
 T_\ell A\cong\Z_\ell^{2g},\qquad V_\ell A\cong\Q_\ell^{2g}.
-$$
-- **(e)** Let $C$ be a smooth projective geometrically integral curve
-of genus $g$ over a field $k$. Then $\Pic^0_{C/k}$ is representable by
-an abelian variety $J=J_C$ of dimension $g$ over $k$ (the Jacobian),
-$J(K)\cong\Pic^0(C_K)$ for every field extension $K/k$, and for
-$\ell\ne\operatorname{char}k$ there are natural Galois-equivariant
-isomorphisms
-$$
-H^1(C_{\bar k},\mu_{\ell^n})\cong J[\ell^n](\bar k)\quad(n\ge1),
-\qquad
-\varprojlim_nH^1_{\Et}(C_{\bar k},\Z/\ell^n)\cong
-\Hom_{\Z_\ell}(T_\ell J,\Z_\ell).
 $$
 
 ## Proof
@@ -83,15 +71,11 @@ are surjective by [sk-prop-av-divisible], so the inverse limit
 $T_\ell A$ of [sk-def-av-tate] is $\Z_\ell^{2g}$; this is
 [sk-prop-av-tate-rank], and $V_\ell A=T_\ell A\otimes\Q_\ell$.
 
-*(e)* Over a separably closed field the representability of
-$\Pic^0_{C/k}$ by an abelian variety of dimension $g$, together with
-the identification $J(k)\cong\Pic^0(C)$ and base change compatibility,
-is the quoted input [sk-prop-av-jacobian]; over an arbitrary field the
-same statement without a rational point is obtained by descent, which
-is [sk-prop-av-jacobian-general]. The Tate-module identification is
-[sk-prop-av-kummer-tate]: the Kummer sequence gives
-$H^1(C_{\bar k},\mu_{\ell^n})\cong\Pic(C_{\bar k})[\ell^n] =\Pic^0(C_{\bar k})[\ell^n]=J[\ell^n](\bar k)$, compatibly with the
-transition maps and with the Galois action, and duality converts the
-system into $\Hom_{\Z_\ell}(T_\ell J,\Z_\ell)$.
+The Jacobian instance of these statements is not treated here: the
+representability of $\Pic^0_{C/k}$ by an abelian variety is
+[sk-prop-jacobian] and, over an arbitrary field,
+[sk-prop-jacobian-descent] ([sec-picard-framework]); the Kummer
+identification of $H^1$ of a curve with the Tate module of its
+Jacobian is part of the real-purity section ([sk-d-real-jacobian]).
 
-Uses: [sk-def-av-isogeny], [sk-def-av-jacobian], [sk-def-av-mult-n], [sk-def-av-pic], [sk-def-av-tate], [sk-def-av], [sk-prop-av-connected-order], [sk-prop-av-divisible-structure], [sk-prop-av-divisible], [sk-prop-av-isogeny], [sk-prop-av-jacobian-general], [sk-prop-av-jacobian], [sk-prop-av-kummer-tate], [sk-prop-av-ntorsion-etale], [sk-prop-av-prime-p-etale], [sk-prop-av-tate-rank]
+Uses: [sk-def-av-isogeny], [sk-def-av-mult-n], [sk-def-av-tate], [sk-def-av], [sk-prop-av-connected-order], [sk-prop-av-divisible-structure], [sk-prop-av-divisible], [sk-prop-av-isogeny], [sk-prop-av-ntorsion-etale], [sk-prop-av-prime-p-etale], [sk-prop-av-tate-rank]

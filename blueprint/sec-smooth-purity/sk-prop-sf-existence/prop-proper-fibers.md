@@ -2,7 +2,7 @@
 id = "prop-proper-fibers"
 kind = "theorem"
 title = "Proper base change on geometric fibers"
-order = 1838
+order = 1852
 tags = ["latex:proposition"]
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-weil-proet-finite-proper-base-change", "thm-weil-pbc-finite-level-proetale"]
 +++

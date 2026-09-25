@@ -2,7 +2,7 @@
 id = "def-weil-pbc-strict-henselian-setup"
 kind = "definition"
 title = "Strictly henselian setup"
-order = 1078
+order = 1086
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-henselian-terminology", "def-weil-pbc-inverse-image"]
 +++
 Let $(A,\mathfrak m)$ be strictly henselian local, $S=\operatorname{Spec}A$,

@@ -2,8 +2,8 @@
 id = "sk-i-dl-a1-local"
 kind = "section"
 title = "Local boundary duality and ramification at infinity"
-order = 2921
-uses = ["sk-d-dl-a1-setup", "sk-prop-sf-biduality-general", "sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-ctf-stability", "sk-thm-sf-dual-perfect", "sk-thm-sf-verdier-exchange"]
+order = 2968
+uses = ["sk-d-dl-a1-setup", "sk-d-real-boundary", "sk-prop-sf-biduality-general", "sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-ctf-stability", "sk-thm-sf-dual-perfect", "sk-thm-sf-verdier-exchange"]
 +++
 *Proposition (sketch).*
 

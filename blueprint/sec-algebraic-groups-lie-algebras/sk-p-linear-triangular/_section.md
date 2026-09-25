@@ -2,7 +2,7 @@
 id = "sk-p-linear-triangular"
 kind = "section"
 title = "Triangularization"
-order = 2704
+order = 2751
 uses = ["sk-d-linear"]
 +++
 *Proposition (sketch).*

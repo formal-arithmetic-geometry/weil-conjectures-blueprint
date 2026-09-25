@@ -2,7 +2,7 @@
 id = "lem-wf-l2-mixed-rigidity"
 kind = "lemma"
 title = "The $L^2$-weight of a mixed real lisse sheaf"
-order = 2958
+order = 3016
 uses = ["def-weil-punctual-weights", "def-wf-iota-real", "def-wf-l2-norm", "lem-wf-l2-upper", "thm-rp-real-lisse-purity-affine", "thm-wf-l2-dictionary"]
 +++
 Let $\mathcal G\neq0$ be a lisse

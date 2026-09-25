@@ -2,7 +2,7 @@
 id = "sk-the-subsheaf-ff-and-its-representability--remark-1"
 kind = "section"
 title = "$F$ is a subfunctor of the Hilbert functor"
-order = 837
+order = 841
 +++
 *Remark (sketch).*
 

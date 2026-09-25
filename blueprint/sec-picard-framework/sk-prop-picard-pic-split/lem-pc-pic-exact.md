@@ -2,7 +2,7 @@
 id = "lem-pc-pic-exact"
 kind = "lemma"
 title = "Exactness of the Picard sequence"
-order = 819
+order = 823
 uses = ["def-pc-fppf-site", "def-pc-picard-functor", "def-sc-invertible-module", "def-sc-picard-group", "lem-pc-fpqc-descent"]
 +++
 (Picard Schemes of Curves, Lemma 44.4.2, Tag

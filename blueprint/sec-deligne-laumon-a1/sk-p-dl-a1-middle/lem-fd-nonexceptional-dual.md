@@ -2,7 +2,7 @@
 id = "lem-fd-nonexceptional-dual"
 kind = "lemma"
 title = "The dual twist of a nonexceptional input is nonexceptional"
-order = 2949
+order = 3003
 uses = ["def-fd-nonexceptional", "def-weil-pbc-constructible-complexes", "def-wf-constant-weil-twist", "def-wf-fundamental-representation", "def-wf-middle-extension", "lem-fd-as-characters", "lem-fd-transform-concentration"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion and
@@ -56,10 +56,10 @@ $\mathcal M^\dagger_{\bar k}=(\mathcal M_{\bar k})^\vee$. If
 $(\mathcal M_{\bar k})^\vee$ were constant then so would be
 $\mathcal M_{\bar k}=((\mathcal M_{\bar k})^\vee)^\vee$, which is
 excluded. If $(\mathcal M_{\bar k})^\vee\cong \mathcal L_{\psi(ax)}|_{U_{\bar k}}$ then inverting the rank-one lisse
-sheaf, using $(\mathcal L_{\psi,ax})^{-1}\cong\mathcal L_{-\psi,ax}$ of
+sheaf, using $(\mathcal L_{\psi,ax})^{-1}\cong\mathcal L_{\psi,-ax}$ of
 [lem-fd-as-characters] and
-$\mathcal L_{-\psi,ax}=\mathcal L_{\psi(-a)x}$, gives
-$\mathcal M_{\bar k}\cong\mathcal L_{\psi(-a)x}|_{U_{\bar k}}$, which is
+$\mathcal L_{\psi,-ax}=\mathcal L_{\psi(-ax)}$, gives
+$\mathcal M_{\bar k}\cong\mathcal L_{\psi(-ax)}|_{U_{\bar k}}$, which is
 excluded as well.
 
 The hypothesis list of [lem-fd-transform-concentration] is thereby

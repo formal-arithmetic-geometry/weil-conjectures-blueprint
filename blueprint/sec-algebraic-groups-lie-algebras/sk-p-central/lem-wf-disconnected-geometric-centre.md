@@ -2,7 +2,7 @@
 id = "lem-wf-disconnected-geometric-centre"
 kind = "lemma"
 title = "Finite centre of a disconnected geometric group"
-order = 2678
+order = 2725
 uses = ["def-wf-algebraic-components", "def-wf-algebraic-radicals", "lem-wf-zero-dimensional-matrix-group-finite"]
 +++
 If $H_{\mathrm{geom}}^\circ$ is semisimple, then the centre

@@ -2,7 +2,7 @@
 id = "lem-kun-stalks-of-cohomology"
 kind = "lemma"
 title = "Stalks of cohomology sheaves"
-order = 1729
+order = 1743
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-geometric-stalks", "lem-kun-stalk-as-pullback", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 For $Q\in D(T_{\Et})$ and a geometric point $\bar t$ of $T$,

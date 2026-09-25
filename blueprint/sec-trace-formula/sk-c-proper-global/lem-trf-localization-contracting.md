@@ -2,7 +2,7 @@
 id = "lem-trf-localization-contracting"
 kind = "lemma"
 title = "Localization for a contracting correspondence"
-order = 2484
+order = 2512
 uses = ["lem-trf-contracting-trace-stalk", "lem-trf-local-term-locality", "lem-trf-localization-normal-cone", "thm-trf-contracting-local-term"]
 +++
 Suppose that after the normal-cone reduction of

@@ -2,7 +2,7 @@
 id = "lem-sf-minimal-free-model"
 kind = "lemma"
 title = "Minimal free models and their ranks"
-order = 2322
+order = 2338
 +++
 Let $A=A_{E,n}$, with maximal ideal $(\varpi_E)$ and residue field
 $\kappa_E=A/(\varpi_E)$, and let $G$ be a bounded complex of finite free

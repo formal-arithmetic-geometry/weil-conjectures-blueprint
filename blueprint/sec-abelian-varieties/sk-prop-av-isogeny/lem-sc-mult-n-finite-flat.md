@@ -2,7 +2,7 @@
 id = "lem-sc-mult-n-finite-flat"
 kind = "lemma"
 title = "Multiplication by $d$ is finite flat of degree $d^{2g}$"
-order = 563
+order = 567
 uses = ["def-sc-abelian-variety", "def-sc-mult-n"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over a field $k$

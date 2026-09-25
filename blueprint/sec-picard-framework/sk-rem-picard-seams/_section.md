@@ -2,7 +2,7 @@
 id = "sk-rem-picard-seams"
 kind = "section"
 title = "The dependencies are one-way: $\\mathbf A\\Rightarrow\\mathbf B$ at four seams"
-order = 875
+order = 879
 +++
 *Remark (sketch).*
 

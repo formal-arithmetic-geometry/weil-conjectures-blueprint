@@ -2,7 +2,7 @@
 id = "thm-weil-direct-image-constructibility"
 kind = "theorem"
 title = "Constructibility of the direct image of a finite-type morphism"
-order = 1674
+order = 1688
 uses = ["def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-direct-image", "def-weil-scheme-morphism-properties", "obl-fin-comparison", "prop-weil-pbc-comparison-direct-image", "sbc-thm-finiteness-finite-type", "thm-dg-finite-type-constructibility", "thm-sc-finite-type-torsion-cd"]
 +++
 Fix a prime $\ell$, let $K_0$ be a field in which $\ell$ is

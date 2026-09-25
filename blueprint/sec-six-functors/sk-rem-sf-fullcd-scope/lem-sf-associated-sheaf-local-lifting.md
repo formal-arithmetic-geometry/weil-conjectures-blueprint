@@ -2,7 +2,7 @@
 id = "lem-sf-associated-sheaf-local-lifting"
 kind = "lemma"
 title = "Sections of an associated sheaf lift locally"
-order = 2131
+order = 2150
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++
 Let $P$ be a presheaf of $A$-modules on the

@@ -2,7 +2,7 @@
 id = "lem-tate-module-no-fixed"
 kind = "lemma"
 title = "No fixed vectors on the Tate module when the fixed subgroup is finite"
-order = 2719
+order = 2767
 uses = ["def-tate-module-abelian-group"]
 +++
 Let $M$ be an abelian group, $\ell$ a prime, and $\sigma$ an automorphism of $M$

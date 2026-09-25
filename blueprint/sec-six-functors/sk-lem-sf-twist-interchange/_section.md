@@ -2,7 +2,7 @@
 id = "sk-lem-sf-twist-interchange"
 kind = "section"
 title = "Internal Hom with an invertible twist"
-order = 2275
+order = 2292
 uses = ["sk-prop-sf-dualizable-biduality"]
 +++
 *Lemma (sketch).*

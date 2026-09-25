@@ -2,7 +2,7 @@
 id = "def-exc-continuous-cohomology"
 kind = "definition"
 title = "Discrete modules and continuous group cohomology"
-order = 963
+order = 971
 uses = ["def-weil-abstract-derived-category"]
 +++
 For a profinite group $G$ and a finite ring $A$, a discrete

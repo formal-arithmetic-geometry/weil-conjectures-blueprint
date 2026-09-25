@@ -2,7 +2,7 @@
 id = "sk-prop-sf-pf-coherence"
 kind = "section"
 title = "Coherence of the projection formula"
-order = 2194
+order = 2213
 uses = ["sk-lem-sf-mate", "sk-prop-sf-pf-reduction", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "pqf-lem-proper-basic"
 kind = "lemma"
 title = "Basic consequences of properness"
-order = 531
+order = 535
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $f:X\to S$ be a

@@ -2,7 +2,7 @@
 id = "sk-prop-sf-existence"
 kind = "section"
 title = "Existence of the exceptional right adjoint"
-order = 1835
+order = 1849
 +++
 *Proposition (sketch).*
 

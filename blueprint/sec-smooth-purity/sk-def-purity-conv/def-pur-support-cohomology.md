@@ -2,7 +2,7 @@
 id = "def-pur-support-cohomology"
 kind = "definition"
 title = "Cohomology with support"
-order = 1937
+order = 1953
 uses = ["def-coefficient-twists-detailed", "def-sbc-smooth-morphisms", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-site", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties"]
 +++
 Let $X$ be a scheme, let

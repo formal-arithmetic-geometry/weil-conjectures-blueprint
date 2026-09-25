@@ -2,7 +2,7 @@
 id = "cor-exc-curve-proetale-preservation-general"
 kind = "theorem"
 title = "The ambient pro-etale restriction for arbitrary curves"
-order = 2297
+order = 2315
 tags = ["latex:corollary"]
 uses = ["def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-scheme-conventions", "def-weil-pbc-site-comparison-morphism", "lem-exc-comparison-tor-interval", "prop-exc-closed-site-comparison", "prop-weil-pbc-site-comparison-finite-level", "thm-exc-curve-closed-preservation-general"]
 +++

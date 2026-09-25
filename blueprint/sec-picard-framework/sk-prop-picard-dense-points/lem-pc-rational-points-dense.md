@@ -2,7 +2,7 @@
 id = "lem-pc-rational-points-dense"
 kind = "lemma"
 title = "Rational points on smooth schemes over separably closed fields"
-order = 758
+order = 760
 uses = ["def-pc-separably-closed", "lem-pc-dense-separable-points", "lem-pc-sepclosed-finite-sep-trivial"]
 +++
 Let $k$ be a separably closed field,

@@ -2,7 +2,7 @@
 id = "lem-trf-contracting-trace-stalk"
 kind = "theorem"
 title = "Trace map of a contracting correspondence"
-order = 2480
+order = 2508
 uses = ["def-trf-categorical-trace", "lem-trf-contracting-local-model", "lem-trf-contracting-normal-cone-evaluation", "lem-trf-frobenius-formal-contraction", "lem-trf-local-term-locality", "lem-trf-trace-map-from-external-duality", "prop-trf-pairing-point-normalization"]
 +++
 Let $c$ be an admissible correspondence on $X$, let $y\in \operatorname{Fix}(c)(k)$ be an isolated fixed point, and suppose that

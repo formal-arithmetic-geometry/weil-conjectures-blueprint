@@ -2,7 +2,7 @@
 id = "sk-d-real-weil"
 kind = "section"
 title = "Weil sheaves and their representations"
-order = 2733
+order = 2781
 uses = ["sk-d-real-setup"]
 +++
 *Definition (sketch).*

@@ -2,7 +2,7 @@
 id = "sec-proper-base-change"
 kind = "section"
 title = "Proper Base Change"
-order = 1035
+order = 1043
 uses = ["sec-curve-estimates", "sec-nagata-compactification", "sec-picard-framework"]
 +++
 content:proof of Proper Base Change  

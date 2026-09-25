@@ -2,7 +2,7 @@
 id = "def-trf-graph-correspondence"
 kind = "definition"
 title = "Graph correspondence"
-order = 2180
+order = 2199
 uses = ["def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-fixed-scheme", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum

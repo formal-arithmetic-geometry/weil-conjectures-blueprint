@@ -2,7 +2,7 @@
 id = "lem-sc-line-bundle-rational-section"
 kind = "lemma"
 title = "Rational sections of line bundles"
-order = 720
+order = 721
 uses = ["def-sc-curves", "def-sc-divisor", "def-sc-function-field"]
 +++
 Let $C$ be an integral curve over $k$

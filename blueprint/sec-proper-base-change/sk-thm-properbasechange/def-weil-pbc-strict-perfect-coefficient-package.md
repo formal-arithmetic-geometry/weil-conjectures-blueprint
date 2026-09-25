@@ -2,7 +2,7 @@
 id = "def-weil-pbc-strict-perfect-coefficient-package"
 kind = "definition"
 title = "Local strict-perfect coefficient package"
-order = 1248
+order = 1256
 +++
 On a localization of a ringed topos, let $Q$ be represented by a bounded
 complex $F^\bullet$ of finite projective $\Lambda$-modules. A strict-perfect

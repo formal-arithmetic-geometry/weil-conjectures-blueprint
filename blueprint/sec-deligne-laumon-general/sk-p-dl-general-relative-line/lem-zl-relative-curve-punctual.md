@@ -2,7 +2,7 @@
 id = "lem-zl-relative-curve-punctual"
 kind = "lemma"
 title = "Punctual upper bound in a relative affine curve"
-order = 3043
+order = 3109
 uses = ["def-weil-pbc-qbar-category", "def-weil-punctual-weights", "lem-a1-weight-bound-constant-extension", "lem-tw-punctual-rescaling", "thm-a1-affine-curve-upper", "thm-cbc-qbar"]
 +++
 Let $h:U_0\to Y_0$ be smooth and separated with every nonempty

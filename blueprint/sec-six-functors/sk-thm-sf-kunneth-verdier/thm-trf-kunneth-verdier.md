@@ -2,7 +2,7 @@
 id = "thm-trf-kunneth-verdier"
 kind = "theorem"
 title = "Kunneth–Verdier isomorphism; the $\\kappa$ map"
-order = 2354
+order = 2370
 uses = ["def-sf-kv-maps", "def-trf-dualizing-complex", "prop-trf-exceptional-kunneth", "prop-trf-external-hom"]
 +++
 Let $X,Y$ be separated finite-type schemes with dualizing complexes as

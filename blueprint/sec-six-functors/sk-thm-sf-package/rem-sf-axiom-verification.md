@@ -2,7 +2,7 @@
 id = "rem-sf-axiom-verification"
 kind = "remark"
 title = "What verifies each axiom"
-order = 2369
+order = 2386
 uses = ["cor-cbc-proper-coincidence", "cor-sf-finite-level-comparison-two-cases", "def-compact-support-direct-image-detailed", "def-sf-datum", "def-weil-exceptional-adjoint-admissibility", "fix-lem-exchanges", "fix-lem-exchanges-proper", "fix-prop-adjunctions", "fix-prop-projection-formula", "lem-fix-operation-reduction", "lem-sf-finite-level-comparison", "prop-compactification-coherence-detailed", "thm-fix-general-biduality"]
 +++
 The formal axioms of [def-sf-datum] are supplied operation by

@@ -2,7 +2,7 @@
 id = "lem-fin-generic-radicial-smoothing"
 kind = "lemma"
 title = "A smooth dense open after a finite radicial base change"
-order = 1653
+order = 1667
 uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions"]
 +++
 Let $S$ be integral of finite type over a field and let

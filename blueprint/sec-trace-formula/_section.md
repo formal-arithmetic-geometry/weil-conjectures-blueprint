@@ -2,7 +2,7 @@
 id = "sec-trace-formula"
 kind = "section"
 title = "Trace Formula"
-order = 2395
+order = 2412
 uses = ["sec-curve-estimates", "sec-six-functors", "sec-smooth-purity"]
 +++
 content: trace formula of Weil Conjectures  

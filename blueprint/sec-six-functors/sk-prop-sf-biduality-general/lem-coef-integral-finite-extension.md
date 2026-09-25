@@ -2,7 +2,7 @@
 id = "lem-coef-integral-finite-extension"
 kind = "lemma"
 title = "Integral duality and a finite extension of coefficient fields"
-order = 2245
+order = 2264
 uses = ["cor-coef-integral-internal-hom", "lem-coef-finite-free-extension", "lem-coef-integral-residue-tor", "lem-coef-normalized-dvr-effectivity", "prop-coef-integral-dualizing", "thm-coef-integral-verdier"]
 +++
 Let $E\subset L$ be finite extensions of $\Ql$, put

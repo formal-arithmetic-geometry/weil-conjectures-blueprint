@@ -2,7 +2,7 @@
 id = "sbc-def-admissible-lattices"
 kind = "definition"
 title = "Admissible lattices in the square"
-order = 1461
+order = 1469
 uses = ["sbc-def-base-change-square"]
 +++
 In a base-change square with $f$

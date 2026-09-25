@@ -2,7 +2,7 @@
 id = "sk-lem-induction"
 kind = "section"
 title = "The induction step in relative dimension one"
-order = 1419
+order = 1427
 uses = ["sk-def-bc", "sk-lem-universal-datum", "sk-thm-vanishing"]
 +++
 *Lemma (sketch).*

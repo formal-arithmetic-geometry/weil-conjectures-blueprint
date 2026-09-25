@@ -2,7 +2,7 @@
 id = "rem-pc-sc-group"
 kind = "remark"
 title = "Group schemes: existing in file 06"
-order = 429
+order = 431
 uses = ["def-sc-group-scheme"]
 +++
 The notion of a $k$-*group scheme* (and of commutative group

@@ -2,7 +2,7 @@
 id = "def-weil-boundary-duality-input"
 kind = "definition"
 title = "The finite-stage boundary duality input"
-order = 2224
+order = 2243
 uses = ["def-weil-exceptional-inverse-image", "def-weil-finite-torsion-constructibility", "lem-weil-closed-costalk-duality", "lem-weil-duality-pairing"]
 +++
 Fix $A=A_{E,n}$ and a separated finite-type $k$-scheme $Y$, where

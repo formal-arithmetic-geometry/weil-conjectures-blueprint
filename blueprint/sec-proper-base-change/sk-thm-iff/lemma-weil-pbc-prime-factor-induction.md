@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-prime-factor-induction"
 kind = "lemma"
 title = "Prime-factor induction"
-order = 1090
+order = 1098
 uses = ["def-weil-pbc-derived-exchange"]
 +++
 If a statement about torsion sheaves is stable under short exact sequences,

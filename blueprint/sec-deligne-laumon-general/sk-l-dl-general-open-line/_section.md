@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-open-line"
 kind = "section"
 title = "Removing the condition at infinity"
-order = 3031
+order = 3097
 uses = ["sk-d-dl-a1-setup", "sk-d-dl-general-weights", "sk-p-real-semi", "sk-prop-sf-open-closed-triangle", "sk-thm-dl-a1-upper"]
 +++
 *Lemma (sketch).*

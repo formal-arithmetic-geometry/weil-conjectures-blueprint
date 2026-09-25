@@ -2,7 +2,7 @@
 id = "def-pur-affine-line-purity-comparison"
 kind = "definition"
 title = "Affine-line purity comparison"
-order = 2039
+order = 2057
 uses = ["def-amb-p1-trace", "def-coefficient-twists-detailed", "def-exchange-projection", "def-pur-affine-line-datum", "def-pur-conventions", "def-weil-exceptional-inverse-image"]
 +++
 In the finite-coefficient purity conventions,

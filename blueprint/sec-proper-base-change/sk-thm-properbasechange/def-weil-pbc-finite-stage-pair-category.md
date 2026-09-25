@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-stage-pair-category"
 kind = "definition"
 title = "Finite-stage pair category"
-order = 1311
+order = 1319
 uses = ["def-weil-pbc-bounded-constructible-complete", "def-weil-pbc-rational-category", "prop-weil-pbc-scalar-extension"]
 +++
 Let $\mathsf{FinExt}_\ell$ be the poset of finite intermediate fields

@@ -2,7 +2,7 @@
 id = "sbc-def-local-acyclicity"
 kind = "definition"
 title = "Local acyclicity"
-order = 1451
+order = 1459
 uses = ["sbc-def-milnor-tube", "sbc-def-specialization-map"]
 +++
 Let $f:X\to S$ and $K\in D(X_{\Et})$.

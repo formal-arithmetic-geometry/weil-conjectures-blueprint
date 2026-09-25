@@ -2,7 +2,7 @@
 id = "lem-pc-affine-vanishing"
 kind = "lemma"
 title = "Vanishing of cohomology on affine schemes"
-order = 617
+order = 615
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-cech-complex"]
 +++
 Let $X=\operatorname{Spec}(A)$ be an affine scheme and $\mathcal{F}$ a quasi-coherent

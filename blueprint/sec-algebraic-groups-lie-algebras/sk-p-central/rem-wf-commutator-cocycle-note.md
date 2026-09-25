@@ -2,7 +2,7 @@
 id = "rem-wf-commutator-cocycle-note"
 kind = "remark"
 title = "The elementary commutator form of the central-element argument"
-order = 2680
+order = 2727
 uses = ["prop-wf-positive-degree-centre"]
 +++
 The proof above is the elementary commutator form of the classical

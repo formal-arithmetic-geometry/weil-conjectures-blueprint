@@ -2,7 +2,7 @@
 id = "lem-sc-mult-n-etale-kernel"
 kind = "lemma"
 title = "Multiplication by $d$ prime to the characteristic is etale"
-order = 591
+order = 595
 uses = ["def-sc-abelian-variety", "def-sc-mult-n", "lem-sc-fg-order-prime-etale", "lem-sc-mult-n-finite-flat"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over a field $k$

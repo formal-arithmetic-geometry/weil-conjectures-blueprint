@@ -3,6 +3,7 @@ id = "sk-thm-picard-serre-a"
 kind = "section"
 title = "Serre's theorem A: global generation after a twist"
 order = 638
+uses = ["sk-def-av-pic", "sk-thm-picard-pn", "sk-thm-picard-serre-b"]
 +++
 *Theorem (sketch).*
 

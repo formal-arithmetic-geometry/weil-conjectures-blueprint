@@ -2,7 +2,7 @@
 id = "cor-a1-fourier-middle-hc1"
 kind = "theorem"
 title = "Fourier bound for middle-extension cohomology"
-order = 2985
+order = 3046
 tags = ["latex:corollary"]
 uses = ["cor-fd-origin-hc1-bound", "def-fd-nonexceptional", "def-weil-pbc-constructible-complexes", "def-weil-punctual-weights", "def-wf-fundamental-representation", "def-wf-middle-extension", "lem-fd-realified-kernel-real", "p-linear-filtration"]
 +++

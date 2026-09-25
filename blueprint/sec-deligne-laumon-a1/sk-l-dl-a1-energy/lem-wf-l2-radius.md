@@ -2,7 +2,7 @@
 id = "lem-wf-l2-radius"
 kind = "lemma"
 title = "Radius of the $L^2$-series"
-order = 2954
+order = 3012
 uses = ["def-wf-l2-norm", "def-wf-l2-series"]
 +++
 In the setting of [def-wf-l2-norm], [def-wf-l2-series], the radius of

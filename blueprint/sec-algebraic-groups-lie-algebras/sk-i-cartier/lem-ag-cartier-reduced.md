@@ -1,16 +1,16 @@
 +++
 id = "lem-ag-cartier-reduced"
 kind = "lemma"
-title = "Cartier: group schemes in characteristic zero are reduced"
-order = 2631
-uses = ["def-wf-lie-algebra-derivation", "lem-wf-same-lie-closed-subgroup"]
+title = "Cartier: group schemes in characteristic zero are smooth and reduced"
+order = 2675
+uses = ["def-wf-lie-algebra-derivation", "lem-wf-affine-nullstellensatz-vanishing", "lem-wf-affine-product-reduced", "lem-wf-same-lie-closed-subgroup"]
 +++
 Let $\mathcal G\subseteq\operatorname{GL}(V)$ over
 $k=\overline{\mathbf Q}_\ell$ be a closed subscheme of finite type, cut
 out by a finitely generated, possibly nonradical, ideal, such that the
 multiplication and inversion of $\operatorname{GL}(V)$ restrict to it.
-Then $\mathcal G$ is reduced, so $\mathcal G=\mathcal G_{\mathrm{red}}$
-is a closed matrix group. In particular, if a closed subgroup (a
+Then $\mathcal G$ is smooth and reduced, so
+$\mathcal G=\mathcal G_{\mathrm{red}}$ is a (smooth) closed matrix group. In particular, if a closed subgroup (a
 stabilizer, a centralizer, or the kernel of a regular homomorphism) is
 given by explicit equations, its Lie algebra in the sense of
 [def-wf-lie-algebra-derivation] is the space of $X$ such that
@@ -24,13 +24,11 @@ changes the tangent space.
 $\mathcal G_{\mathrm{red}}$ has the same $k$-points as $\mathcal G$, since
 nilpotents die in $k$, and those points form a subgroup. Its
 multiplication is defined on a product of reduced varieties, which is
-reduced, so multiplication and inversion factor through the reduction by
-the vanishing principle; thus $\mathcal G_{\mathrm{red}}$ is a reduced
-closed matrix group. Such a group is smooth, as shown in the proof of
-[lem-wf-same-lie-closed-subgroup]: it has a dense smooth open locus,
-which contains a $k$-point $a$; translation by $ga^{-1}$ is an
-isomorphism carrying $a$ to any $g\in G(k)$ and preserving regularity of
-the local ring.
+reduced by [lem-wf-affine-product-reduced], so multiplication and
+inversion factor through the reduction by the vanishing principle
+([lem-wf-affine-nullstellensatz-vanishing]); thus $\mathcal G_{\mathrm{red}}$ is a reduced
+closed matrix group. Such a group is smooth by (2) of
+[lem-wf-same-lie-closed-subgroup].
 
 *Cartier's step.* Write $A=k[\mathcal G]$, $N=\sqrt0$ and
 $\mathfrak m=\mathfrak m_e$. Then $N\subseteq\mathfrak m^2$. Indeed, let
@@ -57,7 +55,9 @@ point.
 ([Stacks 00NP](https://stacks.math.columbia.edu/tag/00NP)), so every
 local ring of $\mathcal G$ at a maximal ideal is reduced; a nonzero
 global nilpotent would have a proper annihilator, hence survive in some
-localization. Thus $\mathcal G$ is reduced.
+localization. Thus $\mathcal G$ is reduced, so
+$\mathcal G=\mathcal G_{\mathrm{red}}$, which is smooth by (2) of
+[lem-wf-same-lie-closed-subgroup].
 
 *Subgroup schemes.* Stabilizer, centralizer and kernel loci are closed
 subgroup schemes, so the reducedness just proved applies to them

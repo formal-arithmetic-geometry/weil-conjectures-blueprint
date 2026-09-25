@@ -2,7 +2,7 @@
 id = "d-monodromy"
 kind = "definition"
 title = "Represented degree data and monodromy"
-order = 2648
+order = 2695
 uses = ["def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-degree-component-image", "lem-wf-zariski-closure-subgroup"]
 +++
 A degree datum consists of a group $W$, a surjective homomorphism

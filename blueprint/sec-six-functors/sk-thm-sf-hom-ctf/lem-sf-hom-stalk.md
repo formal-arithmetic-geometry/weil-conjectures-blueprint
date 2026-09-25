@@ -2,7 +2,7 @@
 id = "lem-sf-hom-stalk"
 kind = "lemma"
 title = "The internal Hom at a stalk for a site-perfect first variable"
-order = 2304
+order = 2321
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-site-perfect-complex", "lem-sf-flat-model", "lem-sf-hom-finite-projective"]
 +++
 Let $A=A_{E,n}$, let $K$ be site-perfect on $X_{\Et}$ with Tor

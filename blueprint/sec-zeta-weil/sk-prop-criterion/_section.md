@@ -2,7 +2,7 @@
 id = "sk-prop-criterion"
 kind = "section"
 title = "Rationality criterion"
-order = 3103
+order = 3170
 uses = ["sk-def-roots"]
 +++
 *Proposition (sketch).*

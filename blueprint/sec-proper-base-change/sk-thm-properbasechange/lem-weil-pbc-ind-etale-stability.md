@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-ind-etale-stability"
 kind = "lemma"
 title = "Stability and diagonal of an ind-etale algebra"
-order = 1200
+order = 1208
 uses = ["def-weil-pbc-ind-etale-algebra", "lem-weil-pbc-etale-finite-data-descent"]
 +++
 The classes of ind-etale [def-weil-pbc-ind-etale-algebra] and ind-Zariski

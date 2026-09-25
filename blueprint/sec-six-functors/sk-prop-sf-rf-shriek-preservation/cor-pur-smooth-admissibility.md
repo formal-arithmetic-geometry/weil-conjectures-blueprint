@@ -2,7 +2,7 @@
 id = "cor-pur-smooth-admissibility"
 kind = "theorem"
 title = "Smooth morphisms satisfy the preservation clauses"
-order = 2171
+order = 2190
 tags = ["latex:corollary"]
 uses = ["cor-pur-dualizing-object-purity", "cor-sf-ambient-adjoint-discharge", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "lem-exc-residue-tor-test", "lem-weil-field-tor-amplitude", "prop-weil-pbc-inverse-image-exact", "thm-asd-smooth-tensor", "thm-cbc-finite-level-proetale", "thm-pur-diagonal-dualizing-object", "thm-sf-ambient-adjoint-class"]
 +++

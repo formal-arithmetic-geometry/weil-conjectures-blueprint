@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proper-open-comparison-iso"
 kind = "lemma"
 title = "Proper pushforward of extension by zero"
-order = 1497
+order = 1508
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-extension-by-zero", "def-weil-pbc-proper-open-comparison", "lem-weil-pbc-proper-open-identification", "lem-weil-pbc-proper-open-section", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 For every datum in

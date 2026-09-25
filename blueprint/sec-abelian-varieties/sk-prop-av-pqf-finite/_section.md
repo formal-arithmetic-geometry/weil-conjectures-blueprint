@@ -2,7 +2,7 @@
 id = "sk-prop-av-pqf-finite"
 kind = "section"
 title = "Proper and quasi-finite implies finite"
-order = 498
+order = 500
 uses = ["sk-def-av"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-weil-coefficient-frobenius"
 kind = "lemma"
 title = "Coefficient biduality at finite and integral stages"
-order = 2214
+order = 2233
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-finite-torsion-constructibility"]
 +++
 For the coefficient stages of

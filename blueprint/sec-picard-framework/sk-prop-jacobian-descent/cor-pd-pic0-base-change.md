@@ -2,7 +2,7 @@
 id = "cor-pd-pic0-base-change"
 kind = "theorem"
 title = "The degree-zero part is compatible with base change"
-order = 860
+order = 864
 tags = ["latex:corollary"]
 uses = ["def-pc-base-change", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-pd-degree-morphism", "lem-pd-degree-locally-constant", "lem-pd-picard-base-change"]
 +++

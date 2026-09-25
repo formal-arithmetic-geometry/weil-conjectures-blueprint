@@ -2,7 +2,7 @@
 id = "sk-audit-what-is-elementary-in-this-layer-and-what-is-not--remark-1"
 kind = "section"
 title = "Remark"
-order = 3170
+order = 3239
 +++
 *Remark (sketch).*
 

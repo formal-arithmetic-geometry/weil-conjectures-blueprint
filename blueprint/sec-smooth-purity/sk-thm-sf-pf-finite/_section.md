@@ -2,7 +2,7 @@
 id = "sk-thm-sf-pf-finite"
 kind = "section"
 title = "Projection formula, finite coefficients"
-order = 1923
+order = 1939
 uses = ["sk-def-sf-exchanges"]
 +++
 *Theorem (sketch).*

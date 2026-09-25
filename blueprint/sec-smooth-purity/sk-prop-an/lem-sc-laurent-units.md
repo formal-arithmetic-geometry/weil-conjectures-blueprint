@@ -2,7 +2,7 @@
 id = "lem-sc-laurent-units"
 kind = "lemma"
 title = "Units of polynomial and Laurent polynomial rings"
-order = 2026
+order = 2044
 +++
 Let $k$ be a field.
 

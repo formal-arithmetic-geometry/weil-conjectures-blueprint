@@ -2,7 +2,7 @@
 id = "def-galois-category"
 kind = "definition"
 title = "Galois category"
-order = 969
+order = 977
 uses = ["def-galois-fibre-functor"]
 +++
 Let $\mathcal C$ be a category and $F:\mathcal C\to\mathbf{Sets}$ a

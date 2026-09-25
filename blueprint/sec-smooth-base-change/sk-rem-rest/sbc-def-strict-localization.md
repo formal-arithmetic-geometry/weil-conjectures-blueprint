@@ -2,7 +2,7 @@
 id = "sbc-def-strict-localization"
 kind = "definition"
 title = "Strict localization"
-order = 1448
+order = 1456
 uses = ["def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit"]
 +++
 Let $a:Z\to S$ and let $\bar z$ be a

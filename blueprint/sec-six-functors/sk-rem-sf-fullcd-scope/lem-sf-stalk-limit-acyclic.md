@@ -2,7 +2,7 @@
 id = "lem-sf-stalk-limit-acyclic"
 kind = "lemma"
 title = "The strictly henselian limit has no higher cohomology"
-order = 2130
+order = 2149
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-strict-henselization-limit"]
 +++
 Let $S$ be a scheme, let $\bar s\to S$ be a

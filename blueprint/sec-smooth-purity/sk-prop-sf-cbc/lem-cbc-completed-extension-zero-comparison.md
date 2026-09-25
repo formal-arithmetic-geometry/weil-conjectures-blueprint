@@ -2,7 +2,7 @@
 id = "lem-cbc-completed-extension-zero-comparison"
 kind = "lemma"
 title = "Completed extension-by-zero base change"
-order = 1605
+order = 1619
 uses = ["def-cbc-open-immersion-square", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-completed-pullback", "def-weil-pbc-extension-by-zero", "lem-cbc-exact-functor-rlim", "lem-cbc-proetale-extension-zero", "lem-cbc-proetale-extension-zero-base-change", "lemma-weil-pbc-completed-pullback-reduction"]
 +++
 Let $(A,I)$ satisfy [def-weil-pbc-adic-coefficient-datum], let

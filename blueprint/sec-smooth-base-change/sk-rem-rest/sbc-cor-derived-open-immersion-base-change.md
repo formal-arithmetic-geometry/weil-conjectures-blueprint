@@ -2,7 +2,7 @@
 id = "sbc-cor-derived-open-immersion-base-change"
 kind = "theorem"
 title = "Derived base change for open immersions"
-order = 1458
+order = 1466
 tags = ["latex:corollary"]
 uses = ["sbc-def-derived-categories-with-allowable-torsion", "sbc-def-universal-local-acyclicity", "sbc-lem-bounded-below-truncation-criterion", "sbc-thm-truncated-open-immersion-base-change"]
 +++

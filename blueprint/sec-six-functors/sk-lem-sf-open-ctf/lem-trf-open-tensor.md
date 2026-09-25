@@ -2,7 +2,7 @@
 id = "lem-trf-open-tensor"
 kind = "lemma"
 title = "Tensoring an extension by zero"
-order = 2256
+order = 2275
 uses = ["def-trf-coefficient-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-extension-by-zero", "def-weil-scheme-morphism-properties"]
 +++
 Let $j:U\hookrightarrow Y$ be an

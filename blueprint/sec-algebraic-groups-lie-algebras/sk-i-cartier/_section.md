@@ -2,7 +2,7 @@
 id = "sk-i-cartier"
 kind = "section"
 title = "Characteristic-zero group smoothness"
-order = 2629
+order = 2673
 uses = ["sk-d-geometry", "sk-d-tangent", "sk-i-geometry"]
 +++
 *Proposition (sketch).*

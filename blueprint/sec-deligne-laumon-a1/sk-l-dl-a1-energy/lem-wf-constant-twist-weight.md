@@ -2,7 +2,7 @@
 id = "lem-wf-constant-twist-weight"
 kind = "lemma"
 title = "Weight of a constant twist"
-order = 2959
+order = 3017
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist"]
 +++
 If $\mathcal F$ is lisse and punctually $\iota$-pure of weight

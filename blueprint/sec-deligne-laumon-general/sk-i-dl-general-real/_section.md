@@ -2,8 +2,8 @@
 id = "sk-i-dl-general-real"
 kind = "section"
 title = "Real sheaves on an arbitrary base"
-order = 3033
-uses = ["sk-d-dl-general-weights", "sk-d-real-weights", "sk-l-dl-general-quasifinite", "sk-p-real-purity", "sk-p-real-rankone", "sk-prop-sf-open-closed-triangle"]
+order = 3099
+uses = ["sk-d-dl-general-weights", "sk-d-real-weights", "sk-i-topology", "sk-l-dl-general-quasifinite", "sk-p-real-integral", "sk-p-real-purity", "sk-p-real-rankone", "sk-prop-sf-open-closed-triangle"]
 +++
 *Proposition (sketch).*
 

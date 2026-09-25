@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-completed-frobenius-equivariance"
 kind = "lemma"
 title = "Completed proper base change is Frobenius-equivariant"
-order = 1343
+order = 1351
 uses = ["def-weil-pbc-completed-frobenius-structures", "lemma-weil-pbc-frobenius-product-cone-limit", "lemma-weil-pbc-level-map-operator-naturality"]
 +++
 For every Frobenius-equivariant square and Weil tower datum,

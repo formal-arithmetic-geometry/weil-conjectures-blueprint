@@ -2,8 +2,8 @@
 id = "lem-zl-complex-extension"
 kind = "lemma"
 title = "Extension stability of complex weights"
-order = 3018
-uses = ["def-weil-complex-weights", "def-weil-derived-cohomology-sheaves", "def-weil-frobenius-module-weights", "def-weil-pbc-qbar-category", "def-weil-punctual-weights", "lem-a1-extension-bounds", "lem-a1-subquotient-extension-bounds", "lem-sp-long-exact-of-triangle"]
+order = 3082
+uses = ["def-weil-complex-weights", "def-weil-derived-cohomology-sheaves", "def-weil-frobenius-module-weights", "def-weil-pbc-qbar-category", "def-weil-punctual-weights", "lem-a1-extension-bounds", "lem-a1-mixed-direct-summand", "lem-a1-subquotient-extension-bounds", "lem-sp-long-exact-of-triangle"]
 +++
 Let $K'\to K\to K''\to K'[1]$ be a distinguished triangle in the
 constructible $\Qlb$-Weil categories of
@@ -31,12 +31,15 @@ By [def-weil-complex-weights]-plus-[def-weil-punctual-weights],
 $\mathcal H^j(K')$ and $\mathcal H^j(K'')$ are $\iota$-mixed of weights
 at most $w+j$. The exact sequence exhibits $\mathcal H^j(K)$ as an
 extension of a subobject of $\mathcal H^j(K'')$ by a quotient of
-$\mathcal H^j(K')$ (the image of $\mathcal H^j(K')\to\mathcal H^j(K)$
-and the quotient $\mathcal H^j(K)\to\mathcal H^j(K'')$ are
-Frobenius-stable subquotients of mixed sheaves of the bound $w+j$),
-and the subquotient-and-extension bounds of
-[lem-a1-subquotient-extension-bounds], [lem-a1-extension-bounds]
-(applied to the stalks, with
-[def-weil-frobenius-module-weights]) give the same bound for
-$\mathcal H^j(K)$; since $j$ was arbitrary, $K\in D_{\le w}(X_0)$,
+$\mathcal H^j(K')$: the image of $\mathcal H^j(K')\to\mathcal H^j(K)$
+is a Weil quotient sheaf of $\mathcal H^j(K')$, and the image of
+$\mathcal H^j(K)\to\mathcal H^j(K'')$ is a Weil subsheaf of
+$\mathcal H^j(K'')$ (all maps in the long exact sequence are morphisms
+of Weil sheaves). By the sheaf-level stability of mixedness under
+subsheaves, quotients and extensions,
+[lem-a1-mixed-direct-summand] (1) and (2), both are $\iota$-mixed of
+weights at most $w+j$, and hence so is $\mathcal H^j(K)$. (The
+Frobenius-module bounds [lem-a1-subquotient-extension-bounds],
+[lem-a1-extension-bounds] of [def-weil-frobenius-module-weights] are the
+stalkwise shadow of this.) Since $j$ was arbitrary, $K\in D_{\le w}(X_0)$,
 which is [def-weil-complex-weights].

@@ -2,7 +2,7 @@
 id = "lemma-constructible-of-refines"
 kind = "lemma"
 title = "Constructibility passes to refinements"
-order = 1296
+order = 1304
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.of_refines", "AlgebraicGeometry.Scheme.Stratification.Refines.isFiniteLocallyConstantSheaf_upperStar"]
 uses = ["def-constructible-constructible", "def-constructible-finite-locally-constant", "def-constructible-refines", "def-constructible-stratification", "lemma-constructible-immersion-independence", "prop-constructible-pullback"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-thm-sf-direct-image-tor-amplitude"
 kind = "section"
 title = "Direct image with finite Tor amplitude"
-order = 2293
+order = 2310
 uses = ["sk-lem-sf-flat-model", "sk-prop-sf-finiteness"]
 +++
 *Theorem (sketch).*

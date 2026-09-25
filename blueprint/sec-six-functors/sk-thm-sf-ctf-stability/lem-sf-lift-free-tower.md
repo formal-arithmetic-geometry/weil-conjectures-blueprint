@@ -2,7 +2,7 @@
 id = "lem-sf-lift-free-tower"
 kind = "lemma"
 title = "Lifting a compatible tower of minimal models"
-order = 2323
+order = 2339
 uses = ["lem-sf-minimal-free-model"]
 +++
 For $n\geq1$ let $F_n$ be a bounded complex of finite free

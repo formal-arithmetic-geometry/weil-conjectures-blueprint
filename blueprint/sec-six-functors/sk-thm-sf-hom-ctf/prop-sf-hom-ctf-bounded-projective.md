@@ -2,7 +2,7 @@
 id = "prop-sf-hom-ctf-bounded-projective"
 kind = "theorem"
 title = "Derived internal Hom with a bounded projective complex"
-order = 2303
+order = 2320
 tags = ["latex:proposition"]
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "def-weil-site-perfect-complex", "lem-sf-flat-model", "lem-sf-hom-finite-projective", "lem-sf-tensor-ctf", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
 +++

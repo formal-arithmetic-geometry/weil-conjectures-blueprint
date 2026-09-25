@@ -2,8 +2,8 @@
 id = "sk-prop-av-cube"
 kind = "section"
 title = "The theorem of the cube"
-order = 482
-uses = ["sk-def-av"]
+order = 484
+uses = ["sk-def-av", "sk-def-av-pic"]
 +++
 *Proposition (sketch).*
 

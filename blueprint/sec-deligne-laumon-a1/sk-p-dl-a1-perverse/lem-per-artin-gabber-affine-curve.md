@@ -2,8 +2,8 @@
 id = "lem-per-artin-gabber-affine-curve"
 kind = "lemma"
 title = "Affine pushforward is perverse up to the relative dimension"
-order = 2939
-uses = ["def-per-perverse-subcategories", "def-weil-derived-cohomology-sheaves", "def-weil-open-closed-recollement", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "fix-cor-verdier-exchange", "lem-sc-cohomological-dimension", "lemma-weil-pbc-etale-cohomology-continuity"]
+order = 2990
+uses = ["def-per-perverse-subcategories", "def-weil-derived-cohomology-sheaves", "def-weil-open-closed-recollement", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "fix-cor-verdier-exchange", "lem-sc-cohomological-dimension", "lemma-weil-pbc-etale-cohomology-continuity", "prop-sf-open-closed-triangle-all-stages"]
 +++
 Let $f:X\to Y$ be an
 affine morphism of finite
@@ -96,6 +96,6 @@ is finite on either side, and a middle-extension block satisfies the
 same degree range with $j_*$ as it does with $j_!$, the difference
 being concentrated in the relative boundary, whose contribution is
 absorbed in the same $d$-shift by the open–closed recollement
-triangle [def-weil-open-closed-recollement], in the form of the
+triangle [def-weil-open-closed-recollement] (at $\Qlb$, [prop-sf-open-closed-triangle-all-stages]), in the form of the
 boundary sequence of the middle extension of loc. cit., § 1.4).
 Hence $Rf_!K\in{}^pD^{\ge -d}(Y)$.

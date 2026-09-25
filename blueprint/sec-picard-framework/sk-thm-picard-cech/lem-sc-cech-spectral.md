@@ -2,7 +2,8 @@
 id = "lem-sc-cech-spectral"
 kind = "lemma"
 title = "The Cech-to-cohomology spectral sequence"
-order = 609
+order = 607
+uses = ["thm-sp-double-complex-spectral-sequences"]
 +++
 Let $X$ be a scheme, $\mathfrak U=\{U_i\to X\}$ an etale covering
 (or any covering of a site; we apply the statement below also to the
@@ -26,7 +27,8 @@ $C^p(\mathfrak U,-)$ is the (alternating) Cech complex of the
 covering $\mathfrak U$. Its cohomology in the first direction is
 $C^p(\mathfrak U,\underline H^q(F))$, because taking cohomology
 commutes with the finite direct products defining the Cech complex;
-so the spectral sequence of the double complex has
+so the first spectral sequence of the double complex
+[thm-sp-double-complex-spectral-sequences] has
 
 $$
 E_1^{pq}=C^p(\mathfrak U,\underline H^q(F)),\qquad
@@ -42,6 +44,7 @@ covering applied to an injective sheaf computes its cohomology,
 which vanishes in positive degrees by injectivity), so the natural
 map from the complex $F\to I^{\bullet}$ to the total complex is a
 quasi-isomorphism, and the total cohomology is the hypercohomology
-$H^{p+q}(X_{\Et},F)$. This is the standard spectral sequence of
-a double complex (*reference: Stacks Project, Homological
+$H^{p+q}(X_{\Et},F)$. This is the first spectral sequence of
+a double complex, which converges to the cohomology of the total
+complex by [thm-sp-double-complex-spectral-sequences] (*reference: Stacks Project, Homological
 Algebra: spectral sequences of double complexes*).

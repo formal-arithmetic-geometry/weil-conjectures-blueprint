@@ -2,7 +2,7 @@
 id = "def-tate-module-abelian-group"
 kind = "definition"
 title = "Tate module of an abelian group"
-order = 471
+order = 473
 +++
 For the prime $\ell$ and an abelian group $M$, put
 

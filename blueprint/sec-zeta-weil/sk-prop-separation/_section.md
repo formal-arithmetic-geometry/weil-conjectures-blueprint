@@ -2,7 +2,7 @@
 id = "sk-prop-separation"
 kind = "section"
 title = "Weight separation and the parity factorization"
-order = 3117
+order = 3184
 uses = ["sk-def-cohfamily", "sk-def-roots", "sk-prop-rootpurity", "sk-thm-tracetodeterminant"]
 +++
 *Proposition (sketch).*

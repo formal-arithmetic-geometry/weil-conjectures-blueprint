@@ -2,7 +2,7 @@
 id = "def-pur-smooth-trace"
 kind = "definition"
 title = "Smooth trace"
-order = 2098
+order = 2116
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-exceptional-adjoint-admissibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

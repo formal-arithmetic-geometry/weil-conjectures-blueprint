@@ -2,7 +2,7 @@
 id = "lemma-constructible-lowerstar-closed"
 kind = "lemma"
 title = "Pushforward along a closed immersion"
-order = 1552
+order = 1566
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.lowerStar_of_isClosedImmersion"]
 uses = ["def-constructible-constant", "def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "def-kun-separably-closed", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "lemma-openclosed-point-ulift", "lemma-openclosed-stalk-lowerstar", "lemma-openclosed-vanishing-lowerstar", "lemma-weil-pbc-geometric-stalk-conservative", "prop-constructible-open-closed", "prop-openclosed-lowerstar-fully-faithful"]
 +++

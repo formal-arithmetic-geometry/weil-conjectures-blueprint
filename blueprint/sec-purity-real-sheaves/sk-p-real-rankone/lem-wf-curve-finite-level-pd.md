@@ -2,8 +2,8 @@
 id = "lem-wf-curve-finite-level-pd"
 kind = "lemma"
 title = "Finite-level degree-one Poincare pairing on a curve"
-order = 2782
-uses = ["def-coefficient-twists-detailed", "def-weil-pbc-etale-cohomology", "lem-sc-cohomological-dimension", "lem-sc-ntorsion-etale", "lem-wf-curve-kummer-jacobian-tate-module", "thm-pod-equivariance-of-the-twisted-pairing", "thm-pod-point-perfectness", "thm-pod-proper-poincare-duality", "thm-sc-proper-cohomology"]
+order = 2831
+uses = ["def-coefficient-twists-detailed", "def-weil-pbc-etale-cohomology", "lem-sc-cohomological-dimension", "lem-wf-curve-kummer-jacobian-tate-module", "thm-av-final", "thm-pod-equivariance-of-the-twisted-pairing", "thm-pod-point-perfectness", "thm-pod-proper-poincare-duality", "thm-sc-proper-cohomology"]
 +++
 Let $C_0/k_0$ be a smooth projective geometrically connected curve,
 let $C=C_0\times_{k_0}\overline{k}_0$, and put
@@ -29,7 +29,7 @@ connected. The proper-curve Kummer computation in
 [thm-sc-proper-cohomology] shows that $H^2(L)$ is free of rank one over $R$; no choice of its basis is needed below.
 Finally, Kummer and the Jacobian identification in
 [lem-wf-curve-kummer-jacobian-tate-module], followed by
-[lem-sc-ntorsion-etale], gives
+[thm-av-final](c), gives
 
 $$
 H^1(L)\cong J[\ell^n](\overline{k}_0)\cong R^{2g},

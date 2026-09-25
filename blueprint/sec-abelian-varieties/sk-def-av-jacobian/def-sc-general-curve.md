@@ -2,7 +2,7 @@
 id = "def-sc-general-curve"
 kind = "definition"
 title = "Curves over an arbitrary field"
-order = 466
+order = 468
 uses = ["def-pc-base-change", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-curves", "def-sc-genus", "def-sc-pic0"]
 +++
 Let $k$ be a field. A *geometrically integral smooth projective curve

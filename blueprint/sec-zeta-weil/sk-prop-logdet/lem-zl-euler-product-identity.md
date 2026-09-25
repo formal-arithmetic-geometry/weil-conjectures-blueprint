@@ -2,7 +2,7 @@
 id = "lem-zl-euler-product-identity"
 kind = "lemma"
 title = "Euler-product identity for a Frobenius module"
-order = 3093
+order = 3160
 uses = ["def-zl-frobenius-trace-series", "lem-zl-log-det-identity"]
 +++
 Let $(V,F)$ be a Frobenius module, as in

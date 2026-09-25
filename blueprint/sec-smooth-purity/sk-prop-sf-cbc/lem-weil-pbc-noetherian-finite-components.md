@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-noetherian-finite-components"
 kind = "lemma"
 title = "Finitely many irreducible components"
-order = 1544
+order = 1558
 +++
 A Noetherian scheme has finitely many irreducible components.
 

@@ -2,7 +2,7 @@
 id = "lem-trf-global-operator-triangulated"
 kind = "lemma"
 title = "The global operator is triangulated in the coefficient"
-order = 2490
+order = 2519
 uses = ["def-trf-admissibility", "def-trf-global-operator", "prop-trf-compact-support-perfectness"]
 +++
 In the setting of [def-trf-global-operator], let

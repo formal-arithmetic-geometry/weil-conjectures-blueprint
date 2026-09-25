@@ -2,7 +2,7 @@
 id = "lem-pur-frame-transformation"
 kind = "lemma"
 title = "Frame invariance of the zero-section orientation"
-order = 2062
+order = 2080
 uses = ["cor-amb-affine-space-adjunction", "cor-pur-affine-space-zero-section-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-vector-bundle-zero-section", "def-weil-exceptional-inverse-image", "lem-amb-linear-trace-invariance", "thm-sf-ambient-adjoint-class"]
 +++
 In the finite-coefficient purity conventions,

@@ -2,7 +2,7 @@
 id = "thm-pc-hilb-curves"
 kind = "theorem"
 title = "Hilbert schemes of smooth projective curves"
-order = 794
+order = 798
 uses = ["def-pc-base-change", "def-pc-curve", "def-pc-degree-line-bundle", "def-pc-hilb-functor", "def-pc-morphism-conventions", "def-sc-effective-cartier-divisor", "lem-pc-ample-positive-degree", "lem-pc-cartier-criterion", "lem-pc-degree-base-change", "lem-pc-flat-source-descent", "lem-pc-hilb-addition", "lem-pc-hilb-representable", "lem-pc-hilb-smooth", "lem-sc-ample-complement-affine", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++
 (Picard Schemes of Curves, Proposition 44.3.6, Tag

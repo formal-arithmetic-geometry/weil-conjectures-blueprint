@@ -2,7 +2,7 @@
 id = "def-pur-td-datum"
 kind = "definition"
 title = "Trace–diagonal datum"
-order = 2014
+order = 2031
 uses = ["def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

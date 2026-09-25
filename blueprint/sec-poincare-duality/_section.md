@@ -2,7 +2,7 @@
 id = "sec-poincare-duality"
 kind = "section"
 title = "Poincaré Duality"
-order = 2533
+order = 2571
 uses = ["sec-six-functors", "sec-smooth-purity"]
 +++
 content: proof of Poincare duality theorem  

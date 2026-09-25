@@ -2,8 +2,8 @@
 id = "lem-sc-generic-kummer-residues"
 kind = "lemma"
 title = "The generic Kummer residue sheaf"
-order = 983
-uses = ["def-sc-curves", "def-sc-divisor", "def-sc-function-field", "def-sc-kummer-sequence", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "prop-weil-pbc-geometric-stalks-exact", "prop-weil-pbc-strict-henselization-stalk-formula"]
+order = 991
+uses = ["cor-sc-hilbert-90-field", "def-sc-curves", "def-sc-divisor", "def-sc-function-field", "def-sc-kummer-sequence", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "prop-weil-pbc-geometric-stalks-exact", "prop-weil-pbc-strict-henselization-stalk-formula"]
 +++
 Let $C/k$ be a smooth integral separated
 connected curve, with $k$ algebraically closed.
@@ -22,7 +22,7 @@ $$
 
 Kummer's polynomial construction in [def-sc-kummer-sequence]
 gives $H^1(E,\mu_n)=E^\times/E^{\times n}$ for any field $E$;
-the next term $H^1(E,\mathbf G_m)$ is zero by Hilbert 90.
+the next term $H^1(E,\mathbf G_m)$ is zero by Hilbert 90 ([cor-sc-hilbert-90-field]).
 On a quasi-compact etale curve $V\to C$, its generic fibre is
 a finite disjoint union of fields. Take the valuations of a
 representing rational function at the closed points of $V$.

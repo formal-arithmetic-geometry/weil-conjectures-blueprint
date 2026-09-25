@@ -2,7 +2,7 @@
 id = "lem-sc-ample-tensor"
 kind = "lemma"
 title = "Tensor products of ample modules"
-order = 481
+order = 483
 uses = ["def-sc-abelian-variety", "def-sc-ample", "lem-chow-segre"]
 +++
 Let $X$ be a scheme over a field $k$ and let $\mathcal L$ and

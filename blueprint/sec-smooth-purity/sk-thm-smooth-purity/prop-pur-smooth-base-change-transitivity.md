@@ -2,7 +2,7 @@
 id = "prop-pur-smooth-base-change-transitivity"
 kind = "theorem"
 title = "Transitivity of smooth base-change coherence"
-order = 2094
+order = 2112
 tags = ["latex:proposition"]
 uses = ["def-exchange-projection", "def-pur-conventions", "def-pur-smooth-purity-map", "lem-pur-smb-extraordinary", "thm-pur-smooth-base-change-coherence"]
 +++

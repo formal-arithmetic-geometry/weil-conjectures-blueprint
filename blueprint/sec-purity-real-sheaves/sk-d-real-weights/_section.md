@@ -2,8 +2,8 @@
 id = "sk-d-real-weights"
 kind = "section"
 title = "Local weights and reality"
-order = 2755
-uses = ["sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weil"]
+order = 2797
+uses = ["sk-d-real-setup", "sk-d-real-weil"]
 +++
 *Definition (sketch).*
 
@@ -24,4 +24,4 @@ It is $\iota$-real if $\iota P_x(\mathcal F,T)\in\mathbf R[T]$ for every
 $x$, equivalently if each complex local eigenvalue multiset is stable
 under complex conjugation. This condition is imposed on polynomials.
 
-Uses: [sk-d-real-operations], [sk-d-real-setup], [sk-d-real-weil]
+Uses: [sk-d-real-setup], [sk-d-real-weil]

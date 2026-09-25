@@ -2,7 +2,7 @@
 id = "cor-sf-admissibility-class"
 kind = "theorem"
 title = "The dualizing object and finite-coefficient dual preservation"
-order = 2184
+order = 2203
 tags = ["latex:corollary"]
 uses = ["cor-exc-base-change-open-immersion-general", "def-pod-conventions", "def-trf-admissibility", "def-weil-exceptional-adjoint-admissibility", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata", "thm-sf-preservation-class"]
 +++

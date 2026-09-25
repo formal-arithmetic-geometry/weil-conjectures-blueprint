@@ -2,7 +2,7 @@
 id = "lem-sc-mult-n-finite-kernel"
 kind = "lemma"
 title = "Multiplication by $n$ is finite"
-order = 555
+order = 559
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-mult-n", "lem-sc-abelian-variety-projective", "lem-sc-ample-positive-degree", "lem-sc-ample-tensor", "lem-sc-av-commutative", "lem-sc-mult-n-homomorphism", "lem-sc-mult-n-pullback", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++
 Let $A$ be an abelian variety

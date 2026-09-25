@@ -2,7 +2,7 @@
 id = "cor-pur-finite-stage-smooth-dualizing-complex"
 kind = "theorem"
 title = "Finite-stage smooth dualizing complex"
-order = 2107
+order = 2125
 tags = ["latex:corollary"]
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-trace-normalization-transitivity"]
 +++

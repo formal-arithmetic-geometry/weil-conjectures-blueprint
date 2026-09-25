@@ -2,8 +2,8 @@
 id = "lem-sc-degree-2g1-very-ample"
 kind = "lemma"
 title = "Line bundles of large degree are very ample"
-order = 725
-uses = ["def-sc-ample", "def-sc-curves", "def-sc-genus", "def-sc-pic0", "lem-sc-canonical-degree", "lem-sc-dim0-finite", "lem-sc-negative-degree-no-sections", "lem-sc-riemann-roch", "thm-pqf-finite-iff-proper-finite-fibres", "thm-sc-serre-duality-curve"]
+order = 727
+uses = ["def-sc-ample", "def-sc-curves", "def-sc-genus", "def-sc-pic0", "lem-sc-dim0-finite", "lem-sc-riemann-roch-large-degree", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++
 Let $C$ be a proper smooth connected curve of
 genus $g$ ([def-sc-genus]) over an algebraically closed
@@ -13,43 +13,19 @@ $\mathcal M$ is very ample.
 
 ## Proof
 
-We use the Riemann–Roch theorem for a proper smooth connected curve of genus
-$g$ ([lem-sc-riemann-roch]): for a line bundle $\mathcal N$ of degree
-$d$,
+Write $d=\deg\mathcal M$. By [lem-sc-riemann-roch-large-degree], every
+line bundle $\mathcal N$ on $C$ of degree at least $2g-1$ satisfies
+$\dim H^0(C,\mathcal N)=\deg\mathcal N+1-g$. For points $P,Q\in C$
+(possibly equal), $\deg$ is a homomorphism with $\deg\mathcal O_C(P)=1$
+([def-sc-pic0]), so $\mathcal M$, $\mathcal M(-P)$ and $\mathcal M(-P-Q)$
+have degrees $d\geq2g+1$, $d-1\geq2g$ and $d-2\geq2g-1$. Hence
 
 $$
-\dim H^0(C,\mathcal N)-\dim H^1(C,\mathcal N)=d-g+1,
+\dim H^0(C,\mathcal M(-P))=\dim H^0(C,\mathcal M)-1,\qquad
+\dim H^0(C,\mathcal M(-P-Q))=\dim H^0(C,\mathcal M)-2.
 $$
 
-and Serre duality $H^1(C,\mathcal N)^{\vee}\cong H^0(C,\mathcal O_C(K_C)\otimes\mathcal N^{-1})$
-([thm-sc-serre-duality-curve]), with
-$\omega_C=\mathcal O_C(K_C)$ and $\deg K_C=2g-2$
-([lem-sc-canonical-degree]). The formula
-$\deg K_C=2g-2$ is deduced from [lem-sc-riemann-roch] as follows: part (2)
-gives $\deg(\omega_C)=-2\chi(C,\mathcal O_C)$, and
-$\chi(C,\mathcal O_C)=1-g$ since
-$\dim H^0(C,\mathcal O_C)=1$ ($C$ is proper and geometrically
-integral, so its global functions are the constants $k$; by the
-definition of $\deg$ this also gives
-$\chi(C,\mathcal O_C)=\deg\mathcal O_C-\tfrac12\deg\omega_C$,
-and $\deg\mathcal O_C=0$) and
-$g=\dim H^1(C,\mathcal O_C)$ ([def-sc-genus]).
-
-First, $H^1(C,\mathcal M)=0$: the dual
-$\mathcal O_C(K_C)\otimes\mathcal M^{-1}$ has degree
-$(2g-2)-d<0$, and a line bundle of negative degree has no nonzero
-global sections ([lem-sc-negative-degree-no-sections]).
-Hence $\dim H^0(C,\mathcal M)=d-g+1$. Similarly, for
-$P,Q\in C$ (possibly equal),
-$\deg\mathcal M(-P-Q)=d-2\geq2g-1$, so
-$H^1(C,\mathcal M(-P-Q))=0$ and
-
-$$
-\dim H^0(C,\mathcal M(-P-Q))=\dim H^0(C,\mathcal M)-2,
-$$
-
-and $\deg\mathcal M(-P)=d-1\geq2g$, so
-$\dim H^0(C,\mathcal M(-P))=\dim H^0(C,\mathcal M)-1$. These
+These
 dimension drops say exactly that the complete linear system
 $|\mathcal M|$ is base point free and separates points and
 tangent vectors: the drop for $\mathcal M(-P)$ gives a section

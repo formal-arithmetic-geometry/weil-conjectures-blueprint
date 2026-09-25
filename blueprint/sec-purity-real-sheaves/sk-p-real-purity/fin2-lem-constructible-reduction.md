@@ -2,7 +2,7 @@
 id = "fin2-lem-constructible-reduction"
 kind = "lemma"
 title = "Reduction of the constructible case to lisse pieces"
-order = 2858
+order = 2905
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "fin2-lem-lisse-dense-open", "lem-fin-closed-immersion", "lem-weil-pbc-grothendieck-spectral-sequence", "lem-weil-pbc-proper-composition", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-coefficient-conventions", "thm-constructible-serre"]
 +++
 Let $V$ be the assertion: for every proper morphism $p:Y\to T$ with

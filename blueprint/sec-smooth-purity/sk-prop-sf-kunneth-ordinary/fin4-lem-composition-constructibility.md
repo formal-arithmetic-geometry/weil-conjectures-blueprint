@@ -2,7 +2,7 @@
 id = "fin4-lem-composition-constructibility"
 kind = "lemma"
 title = "Constructibility composes"
-order = 1679
+order = 1693
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-finrepair-composition-c", "lem-weil-pbc-grothendieck-spectral-sequence", "sbc-def-coefficient-conventions"]
 +++
 Let $f:U\to V$ and $g:V\to W$ be morphisms of

@@ -2,7 +2,7 @@
 id = "rem-wf-outer-automorphism-note"
 kind = "remark"
 title = "On the source's outer-automorphism claim"
-order = 2804
+order = 2853
 uses = ["lem-wf-torus-central-power-trivial", "lem-wf-weight-lattice-generates"]
 +++
 The classical proof (loc. cit.) says that ``there are only finitely

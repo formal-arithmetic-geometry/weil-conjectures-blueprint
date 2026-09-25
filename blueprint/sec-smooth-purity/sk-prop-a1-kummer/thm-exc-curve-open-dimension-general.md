@@ -2,7 +2,7 @@
 id = "thm-exc-curve-open-dimension-general"
 kind = "theorem"
 title = "Open direct-image dimension on arbitrary curves"
-order = 1973
+order = 1989
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-dvr-galois", "lem-exc-field-discrete-modules", "lem-exc-punctured-curve-branches", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $T$ be of finite type of dimension at most one over

@@ -2,7 +2,7 @@
 id = "lem-pc-divisor-line-bundle-agrees-sc"
 kind = "lemma"
 title = "$\\mathcal{O}_X(D)$ agrees with the divisor module of file 06"
-order = 2767
+order = 2816
 uses = ["def-pc-degree-line-bundle", "def-pc-divisor-line-bundle", "def-sc-divisor", "def-sc-pic0", "lem-pc-degree-base-change", "lem-pc-divisor-line-bundle-properties", "lem-pc-euler-additive", "lem-sc-divisor-class-curve", "lem-sc-point-cartier"]
 +++
 Let $k$ be a field, $C$ a smooth curve over $k$

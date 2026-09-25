@@ -2,7 +2,7 @@
 id = "sk-prop-av-mult-hom"
 kind = "section"
 title = "The $n$-fold sum is a homomorphism"
-order = 496
+order = 498
 uses = ["sk-cor-av-commutative", "sk-def-av-group-scheme", "sk-def-av-mult-n"]
 +++
 *Proposition (sketch).*

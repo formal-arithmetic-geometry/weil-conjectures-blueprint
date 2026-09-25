@@ -2,9 +2,9 @@
 id = "fix-cor-verdier-exchange"
 kind = "theorem"
 title = "Verdier-duality exchange"
-order = 2211
+order = 2230
 tags = ["latex:corollary"]
-uses = ["def-fix-six-functor-datum", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "fix-lem-exchanges", "fix-lem-tensor-adjunction", "fix-prop-adjunctions"]
+uses = ["def-fix-six-functor-datum", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "fix-lem-tensor-adjunction", "fix-prop-adjunctions", "thm-sf-comp-composition"]
 +++
 In the six-functor datum of
 [def-fix-six-functor-datum], assume that $f$ and the structure
@@ -33,7 +33,7 @@ and shifts.
 
 Step 1: the relation $Rf^!\omega_{Y,\Lambda}\cong\omega_{X,\Lambda}$.
 The composition law $R(a_Y\circ f)_!\cong R(a_Y)_!Rf_!$ of
-[fix-lem-exchanges] and the adjunctions of
+[thm-sf-comp-composition] and the adjunctions of
 [fix-prop-adjunctions] give, by the mate calculus for a
 composite adjunction (the pasted units and counits of
 [fix-prop-adjunctions]), the canonical isomorphism

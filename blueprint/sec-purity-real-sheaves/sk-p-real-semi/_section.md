@@ -2,8 +2,8 @@
 id = "sk-p-real-semi"
 kind = "section"
 title = "Semi-continuity of weights"
-order = 2834
-uses = ["sk-d-real-boundary", "sk-d-real-cohom", "sk-d-real-series", "sk-d-real-weights", "sk-d-real-weil", "sk-i-real-boundary", "sk-i-real-normalization", "sk-p-linear-filtration", "sk-p-linear-spectra", "sk-thm-derived-duality", "sk-thm-trace-transport"]
+order = 2881
+uses = ["sk-d-real-boundary", "sk-d-real-cohom", "sk-d-real-series", "sk-d-real-weights", "sk-d-real-weil", "sk-i-real-boundary", "sk-i-real-normalization", "sk-p-linear-filtration", "sk-p-linear-spectra", "sk-p-real-integral", "sk-p-real-sections", "sk-thm-derived-duality", "sk-thm-trace-transport"]
 +++
 *Proposition (sketch).*
 

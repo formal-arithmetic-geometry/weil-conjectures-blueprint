@@ -2,7 +2,7 @@
 id = "lem-wf-dense-identity-component"
 kind = "lemma"
 title = "A dense subgroup is dense in the identity component"
-order = 2660
+order = 2707
 uses = ["def-wf-algebraic-components", "lem-wf-algebraic-component-cosets"]
 +++
 Let $\Gamma$ be a Zariski-dense subgroup of a linear algebraic group

@@ -2,7 +2,7 @@
 id = "open-sf-ambient-adjoint-input"
 kind = "remark"
 title = "Adjunction outside the bounded comparison class"
-order = 2136
+order = 2155
 tags = ["latex:openproblem"]
 uses = ["thm-sf-ambient-adjoint-class"]
 +++

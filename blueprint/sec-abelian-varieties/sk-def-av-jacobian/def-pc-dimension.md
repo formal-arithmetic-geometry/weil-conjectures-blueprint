@@ -2,7 +2,7 @@
 id = "def-pc-dimension"
 kind = "definition"
 title = "Dimension"
-order = 456
+order = 458
 uses = ["def-pc-base-change", "def-pc-scheme"]
 +++
 The *dimension* $\dim X$ of a nonempty scheme $X$ is the supremum

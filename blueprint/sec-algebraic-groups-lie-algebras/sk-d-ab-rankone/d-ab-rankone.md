@@ -2,7 +2,8 @@
 id = "d-ab-rankone"
 kind = "definition"
 title = "A split cyclic extension and rank-one characters"
-order = 2683
+order = 2730
+uses = ["d-monodromy"]
 +++
 Let $P$ be a group and $\alpha$ an automorphism. Put
 $W=P\rtimes_\alpha\mathbf Z$, with multiplication
@@ -13,7 +14,8 @@ $$
 $$
 
 Identify $P$ with $P\times\{0\}$; every element has a unique form
-$u\gamma^n$. For a field $E$, a rank-one character is a homomorphism
+$u\gamma^n$, so $(W,\deg,\gamma)$ is a degree datum in the sense of
+[d-monodromy] with $P=\ker(\deg)$. For a field $E$, a rank-one character is a homomorphism
 $\chi:W\to E^\times$. It has finite geometric image if $\chi(P)$ is
 finite, and finite image if $\chi(W)$ is finite. These are distinct
 conditions; no topology is needed for the following factorization.
@@ -26,3 +28,5 @@ $$
 
 Their character and finiteness properties are verified below.
 def:ab-cyclic-extension;def:ab-finite-character;def:ab-finite-part
+
+Uses: [d-monodromy]

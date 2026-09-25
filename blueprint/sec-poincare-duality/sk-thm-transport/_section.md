@@ -2,7 +2,7 @@
 id = "sk-thm-transport"
 kind = "section"
 title = "Transport through the coefficient stages"
-order = 2592
+order = 2628
 uses = ["sk-cor-trace", "sk-def-ops", "sk-def-set", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-sf-identification", "sk-thm-sf-package"]
 +++
 *Theorem (sketch).*

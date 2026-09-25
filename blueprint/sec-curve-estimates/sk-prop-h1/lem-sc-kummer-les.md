@@ -2,13 +2,13 @@
 id = "lem-sc-kummer-les"
 kind = "lemma"
 title = "Consequences of the Kummer sequence"
-order = 932
+order = 939
 uses = ["def-sc-curves", "def-sc-kummer-sequence", "lem-sc-brauer-zero", "lem-sc-h1-gm-pic", "lem-sc-kummer-exact", "lem-sc-primitive-root"]
 +++
-Let $C$ be a connected curve over algebraically
-closed $k$ and let $n$ be prime to $\operatorname{char}k$.
+Let $C$ be a curve over algebraically
+closed $k$ (not necessarily connected, reduced or smooth) and let $n$ be prime to $\operatorname{char}k$.
 Assume $H^2(C_{\Et},\mathbf G_m)=0$
-([lem-sc-brauer-zero]). Then, under the canonical
+(for smooth connected $C$ this is [lem-sc-brauer-zero]). Then, under the canonical
 identification of [lem-sc-h1-gm-pic], there is a canonical short
 exact sequence
 
@@ -24,11 +24,13 @@ H^2(C_{\Et},\mu_n)=\operatorname{coker}\bigl(n:
 \operatorname{Pic}(C)\to\operatorname{Pic}(C)\bigr),
 $$
 
-and $H^0(C,\mu_n)=\mu_n(k)=\mathbf Z/n\mathbf Z$
+and, if $C$ is connected,
+$H^0(C,\mu_n)=\mu_n(k)=\mathbf Z/n\mathbf Z$
 ([lem-sc-primitive-root]). In particular
 $H^1(C_{\Et},\mu_n)=\operatorname{Pic}(C)[n]$ when
 $\mathcal O_C(C)^\times$ is $n$-divisible (e.g. when
-$C$ is proper, so $\mathcal O_C(C)^\times=k^\times$).
+$C$ is proper and connected, so $\mathcal O_C(C)^\times=k^\times$ if $C$
+is moreover reduced).
 
 ## Proof
 
@@ -50,12 +52,12 @@ algebraically closed, so $x\mapsto x^n$ is surjective on the
 constant part $k^\times\subseteq\mathcal O_C(C)^\times$;
 $H^1(C,\mathbf G_m)=\operatorname{Pic}(C)$ by
 [lem-sc-h1-gm-pic]; and the term $H^2(C,\mathbf G_m)$ is zero
-by [lem-sc-brauer-zero]. Exactness of the sequence at
+by assumption. Exactness of the sequence at
 $H^1(C,\mu_n)$ and at $H^1(C,\mathbf G_m)$ therefore gives the
 displayed short exact sequence and the displayed formula for
-$H^2(C,\mu_n)$; the $H^0$-term is
+$H^2(C,\mu_n)$; for connected $C$ the $H^0$-term is
 $\mu_n(k)=\mathbf Z/n\mathbf Z$ by
 [lem-sc-primitive-root]. The last assertion follows because for
-$C$ proper and connected the only units are the constants
+$C$ proper, connected and reduced the only units are the constants
 $k^\times$, which are $n$-divisible since $k$ is algebraically
 closed.

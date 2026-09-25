@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-hypercohomology-convergence"
 kind = "lemma"
 title = "Half-plane convergence"
-order = 1319
+order = 1327
 uses = ["def-weil-pbc-hypercohomology-filtrations"]
 +++
 The spectral sequences lie in $p\geq0$, $q\geq a$. For fixed total degree

@@ -2,7 +2,7 @@
 id = "cor-sf-hom-comparison-strata"
 kind = "theorem"
 title = "Stratum tests with site-perfectness on the ambient site"
-order = 2309
+order = 2326
 tags = ["latex:corollary"]
 uses = ["lem-sf-hom-comparison-local-morphism", "thm-sf-hom-comparison-constructible"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-fd-fourier-concentration"
 kind = "lemma"
 title = "Concentration of the transform of a nonexceptional input"
-order = 2944
+order = 2995
 uses = ["def-fd-artin-schreier-sheaf", "def-fd-nonexceptional", "def-wf-fundamental-representation", "lem-a1-affine-hc0", "lem-a1-affine-hc2", "lem-fd-as-lisse"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion with

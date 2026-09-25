@@ -2,7 +2,7 @@
 id = "thm-trf-contracting-local-term"
 kind = "theorem"
 title = "Local term of a contracting correspondence; Varshavsky 2.1"
-order = 2481
+order = 2509
 uses = ["def-trf-categorical-trace", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "def-trf-local-term", "lem-trf-contracting-trace-stalk", "lem-trf-frobenius-degree-formula", "lem-trf-frobenius-differential-vanishing", "lem-trf-local-term-locality", "thm-trf-fixed-point-evaluation-finite"]
 +++
 Let $X_0$ be separated of finite type over $\mathbf F_q$, put

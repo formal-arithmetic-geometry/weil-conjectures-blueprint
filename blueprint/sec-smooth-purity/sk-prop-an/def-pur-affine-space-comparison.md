@@ -2,7 +2,7 @@
 id = "def-pur-affine-space-comparison"
 kind = "definition"
 title = "Affine-space comparison"
-order = 2042
+order = 2060
 uses = ["def-coefficient-twists-detailed", "def-pur-affine-line-purity-comparison", "def-pur-conventions", "def-sbc-affine-space", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

@@ -2,7 +2,7 @@
 id = "sk-def-av-group-scheme"
 kind = "section"
 title = "Group schemes, order, and étaleness"
-order = 425
+order = 426
 +++
 *Definition (sketch).*
 

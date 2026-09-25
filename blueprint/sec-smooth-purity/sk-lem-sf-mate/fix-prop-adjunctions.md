@@ -2,9 +2,9 @@
 id = "fix-prop-adjunctions"
 kind = "theorem"
 title = "Adjunctions of the datum"
-order = 1912
+order = 1930
 tags = ["latex:proposition"]
-uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-integral-rational-qbar-compact-support", "def-weil-pbc-derived-categories", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "fix-lem-exchanges", "lem-weil-derived-tensor-resolution-independent"]
+uses = ["def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-integral-rational-qbar-compact-support", "def-weil-pbc-derived-categories", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "fix-lem-exchanges", "lem-weil-derived-direct-image-composition", "lem-weil-derived-tensor-resolution-independent", "thm-sf-comp-composition"]
 +++
 In the six-functor datum of
 [def-fix-six-functor-datum]:
@@ -46,7 +46,7 @@ $Lf^*\eta_gLf^*\circ\eta_f$ and the counit is the composite of the
 counits; for the exceptional pair the unit and counit of
 $R(gf)_!\dashv R(gf)^!$ are the pasted units and counits of
 $Rf_!\dashv Rf^!$ and $Rg_!\dashv Rg^!$ under the composition
-law of [def-compact-support-direct-image-detailed], i.e. the mate of
+law of [thm-sf-comp-composition], i.e. the mate of
 the composition isomorphism;
 1. the adjunction is compatible with the exchange
 transformations: the transpose of $\operatorname{Ex}_!$ is
@@ -84,10 +84,12 @@ Step 3: composition. The composite adjunction of step 1 is the
 paste of the component adjunctions (the unit of the composite is the
 composite of the units, the counit the composite of the counits, and
 the triangle identities of the composite are the composites of the
-triangle identities of the components, through the associativity
-isomorphisms of [def-weil-derived-direct-image]); for the
+triangle identities of the components, through the composition
+isomorphisms $R(gf)_*\cong Rg_*Rf_*$ of
+[lem-weil-derived-direct-image-composition], which are natural, unital
+and associative); for the
 exceptional pair, the mate of the composition isomorphism of
-[def-compact-support-direct-image-detailed] (with its transports of
+[thm-sf-comp-composition] (with its transports of
 [def-weil-integral-rational-qbar-compact-support]) gives an
 isomorphism $(g\circ f)^!\cong f^!g^!$, the pasted units and
 counits are the mates of this isomorphism through the two component

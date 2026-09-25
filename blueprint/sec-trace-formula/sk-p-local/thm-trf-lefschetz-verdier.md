@@ -2,7 +2,7 @@
 id = "thm-trf-lefschetz-verdier"
 kind = "theorem"
 title = "Lefschetz–Verdier trace comparison"
-order = 2488
+order = 2517
 uses = ["def-trf-admissibility", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-fixed-scheme", "def-trf-global-operator", "def-trf-local-term", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "lem-trf-global-operator-perfect", "lem-trf-integration-component-sum", "thm-trf-fixed-point-localization"]
 +++
 Fix the global finite-field datum
@@ -55,7 +55,9 @@ $$
 $$
 
 The component integration formula
-[lem-trf-integration-component-sum] rewrites the right side as
+[lem-trf-integration-component-sum] (applicable since each component
+$\beta$, being closed in the proper $F$, is proper over $s$) rewrites
+the right side as
 
 $$
 \sum_{\beta\in\pi_0(F)}

@@ -2,7 +2,7 @@
 id = "thm-sf-poincare-duality"
 kind = "theorem"
 title = "Poincare duality, framework form"
-order = 2581
+order = 2617
 uses = ["cor-sf-trace", "cor-sf-trace-isomorphism", "cor-sf-trace-pairing", "cor-sf-trace-similitude", "def-sf-datum", "def-sf-orientation", "def-sf-pairing", "prop-sf-pf-coherence", "prop-sf-pf-reduction", "rem-sf-orientation-pointer", "thm-sf-identification", "thm-sf-pf-adic", "thm-sf-pf-field", "thm-sf-pf-finite", "thm-sf-pf-proetale"]
 +++
 In the setting of [def-sf-datum] and [def-sf-orientation], let

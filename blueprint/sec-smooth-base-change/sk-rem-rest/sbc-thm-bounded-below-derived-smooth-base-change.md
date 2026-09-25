@@ -2,7 +2,7 @@
 id = "sbc-thm-bounded-below-derived-smooth-base-change"
 kind = "theorem"
 title = "Bounded-below derived smooth base change"
-order = 1447
+order = 1455
 uses = ["lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-def-derived-categories-with-allowable-torsion", "sbc-lem-bounded-below-truncation-criterion", "sbc-thm-bounded-allowable-torsion", "sbc-thm-smooth-base-change"]
 +++
 In the square of

@@ -2,7 +2,7 @@
 id = "cor-zl-hasse-type-count-bound"
 kind = "theorem"
 title = "Hasse-type count bound"
-order = 3134
+order = 3201
 tags = ["latex:corollary"]
 uses = ["cor-trf-point-counting", "cor-zl-purity-smooth-proper", "cor-zl-zeta-from-weights", "def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-reciprocal-roots", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family"]
 +++

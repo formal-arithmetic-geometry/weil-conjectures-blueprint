@@ -2,7 +2,7 @@
 id = "sk-lem-diag-reg"
 kind = "section"
 title = "The diagonal is a regular immersion"
-order = 2077
+order = 2095
 uses = ["sk-def-purity-conv"]
 +++
 *Lemma (sketch).*

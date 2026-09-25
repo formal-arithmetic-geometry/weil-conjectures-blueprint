@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-normalization"
 kind = "section"
 title = "Generic relative Noether normalization"
-order = 3026
+order = 3092
 uses = ["sk-i-real-normalization"]
 +++
 *Lemma (sketch).*

@@ -2,7 +2,7 @@
 id = "def-pod-perfect-dualizable"
 kind = "definition"
 title = "Perfect dualizable object"
-order = 2545
+order = 2583
 uses = ["def-pod-perfect-complex-on-x", "def-weil-derived-pullback-tensor-hom"]
 +++
 An object $K$ of a coefficient category as in

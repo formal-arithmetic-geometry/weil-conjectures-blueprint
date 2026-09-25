@@ -2,7 +2,7 @@
 id = "sk-thm-sf-identification"
 kind = "section"
 title = "The derived Poincaré pairing is the duality isomorphism"
-order = 2283
+order = 2300
 uses = ["sk-lem-sf-twist-interchange", "sk-thm-sf-global-duality", "sk-thm-sf-tensor-hom"]
 +++
 *Theorem (sketch).*
@@ -21,8 +21,15 @@ $\RG(X,K^\vee(d))[2d]\xrightarrow{\sim} R\mathrm{Hom}_\Lambda(\RG_c(X,K),\Lambda
 $\Dbc(s,\Lambda)$, and its inverse is the global
 duality isomorphism of [sk-thm-sf-global-duality] followed by
 $\mathbb D_XK\cong K^\vee(d)[2d]$. In particular $\beta_K$ is perfect.
-If $X$ is proper, its degreewise form gives perfect pairings
-$\langle-,-\rangle_i:H^i_c(X,K)\times H^{2d-i}(X,K^\vee(d))\to\Lambda$.
+If $X$ is proper and $\Lambda\in\{A_{E,n},E,\Qlb\}$, its degreewise form
+gives perfect pairings
+$\langle-,-\rangle_i:H^i_c(X,K)\times H^{2d-i}(X,K^\vee(d))\to\Lambda$
+(over $A_{E,n}$ because this ring is self-injective, so
+$\operatorname{Hom}(-,\Lambda)$ is exact). At the integral stage
+$\Lambda=\mathcal O_E$ the degreewise form fails in general: a torsion
+class in $H^i_c$ pairs to zero with everything, and
+$H^{-i}(\RG_c^\vee)$ picks up an $\operatorname{Ext}^1$ term from the
+torsion of $H^{i+1}_c$; only the derived statement holds there.
 For nonproper $X$ the degreewise assertion over field coefficients is
 recorded separately in [sk-thm-derived-duality].
 
@@ -36,6 +43,7 @@ chain of [sk-thm-sf-tensor-hom] with $M=K$, $N=\Lambda$ and $f=a_X$ is, by
 of $\beta_K$ is the composite of the duality isomorphism with the orientation
 identification, which is an isomorphism. Degreewise this is the shift
 convention together with $H^{-i}(C^\vee)\cong H^i(C)^\vee$ for a perfect point
-complex.
+complex, which holds when $\operatorname{Hom}(-,\Lambda)$ is exact, i.e. for
+$\Lambda\in\{A_{E,n},E,\Qlb\}$.
 
 Uses: `\Cref{lem:sf-twist-interchange}`, `\Cref{thm:sf-global-duality}`, `\Cref{thm:sf-tensor-hom}`, `def:coefficient-twists`, `def:weil-poincare-trace-cup`

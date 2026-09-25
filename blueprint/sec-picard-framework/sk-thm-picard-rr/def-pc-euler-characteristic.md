@@ -2,7 +2,7 @@
 id = "def-pc-euler-characteristic"
 kind = "definition"
 title = "The Euler characteristic"
-order = 730
+order = 732
 uses = ["def-pc-derived-direct-image", "def-pc-morphism-conventions", "def-pc-scheme"]
 +++
 Let $k$ be a field, $X$ a proper scheme over $k$ and $\mathcal{F}$ a coherent
@@ -14,4 +14,4 @@ $$
 
 where $H^i(X,\mathcal{F})$ are the
 higher direct images of
-$\mathcal{F}$ for the structure morphism;
+$\mathcal{F}$ for the structure morphism.

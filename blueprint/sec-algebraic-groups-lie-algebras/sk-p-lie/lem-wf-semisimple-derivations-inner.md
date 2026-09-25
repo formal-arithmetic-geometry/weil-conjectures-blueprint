@@ -2,7 +2,7 @@
 id = "lem-wf-semisimple-derivations-inner"
 kind = "lemma"
 title = "Derivations of a semisimple Lie algebra are inner"
-order = 2619
+order = 2657
 uses = ["def-wf-lie-derivation", "def-wf-semisimple-lie-algebra", "lem-ag-killing-nondegenerate"]
 +++
 Every derivation of a finite-dimensional semisimple Lie algebra over

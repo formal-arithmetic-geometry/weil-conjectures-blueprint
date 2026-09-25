@@ -2,7 +2,7 @@
 id = "prop-wf-geometric-monodromy-semisimple"
 kind = "theorem"
 title = "Semisimplicity of geometric monodromy"
-order = 2806
+order = 2855
 tags = ["latex:proposition"]
 uses = ["def-sbc-normal-dominant-galois", "def-weil-pbc-scheme-conventions", "def-wf-algebraic-components", "def-wf-algebraic-radicals", "def-wf-geometric-semisimplicity", "def-wf-monodromy-data", "lem-wf-algebraic-component-cosets", "lem-wf-dense-identity-component", "lem-wf-faithful-semisimple-reductive", "lem-wf-finite-index-restriction-semisimple", "lem-wf-geometric-closure-semisimple", "lem-wf-no-central-torus", "lem-wf-zero-dimensional-matrix-group-finite"]
 +++

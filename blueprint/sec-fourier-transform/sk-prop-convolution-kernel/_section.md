@@ -2,8 +2,8 @@
 id = "sk-prop-convolution-kernel"
 kind = "section"
 title = "P12: the convolution of the kernels is the delta kernel"
-order = 2910
-uses = ["sk-lem-as-properties", "sk-prop-kernel-lisse", "sk-prop-stalk"]
+order = 2957
+uses = ["sk-lem-as-properties", "sk-prop-an", "sk-prop-kernel-lisse", "sk-prop-stalk", "sk-thm-derived-duality"]
 +++
 *Proposition (sketch).*
 
@@ -32,15 +32,20 @@ $H^*_c(\mathbf A^r_{\bar k},\mathcal L_{\psi(\langle\xi,x-y\rangle)})$.
 If $x\neq y$ the linear form $\xi\mapsto\langle\xi,x-y\rangle$ is nonzero: with
 a linear coordinate $t=\langle\xi,c\rangle$, $c=x-y$, the sheaf is the inverse
 image along a surjection $\mathbf A^r\to\mathbf A^1$ of the nonconstant
-exponential sheaf, so its ordinary cohomology is
-$H^*(\mathbf A^1_{\bar k},\mathcal L_{\psi(t)})\otimes H^*(\mathbf A^{r-1}_{\bar k},\underline{E})=0$ by [sk-lem-as-properties],
-and its compactly supported cohomology vanishes by Poincaré duality
-(the same duality used in P4). If $x=y$ the integrand is the constant sheaf,
-and $R\Gamma_c(\mathbf A^r_{\bar k},\underline{E})=\underline{E}(-r)[-2r]$ by
-that duality. Hence the convolution is the constant sheaf with twist $(-r)$
+exponential sheaf. Writing $\mathbf A^r=\mathbf A^1_t\times\mathbf A^{r-1}$
+with projection $\mathrm{pr}$, the projection formula and the Thom isomorphism
+of [sk-prop-an] (in its compact-support form
+$R\mathrm{pr}_!\underline E\cong\underline E(-(r-1))[-2(r-1)]$) give
+$R\Gamma_c(\mathbf A^r_{\bar k},\mathrm{pr}^*\mathcal L_{\psi(t)})\cong R\Gamma_c(\mathbf A^1_{\bar k},\mathcal L_{\psi(t)})(-(r-1))[-2(r-1)]$, and
+this vanishes: by the degreewise duality of [sk-thm-derived-duality] on the
+non-proper curve $\mathbf A^1$ it is dual to the ordinary cohomology of
+$\mathcal L_{\psi(-t)}(1)$, which vanishes by [sk-lem-as-properties]. If
+$x=y$ the integrand is the constant sheaf, and
+$R\Gamma_c(\mathbf A^r_{\bar k},\underline{E})=\underline{E}(-r)[-2r]$ by the
+same Thom isomorphism. Hence the convolution is the constant sheaf with twist $(-r)$
 and shift $[-2r]$ extended by zero along the diagonal, which is the first
 identity; the same-character computation replaces $x-y$ by $x+y$, so the
 support is the anti-diagonal, the image of the diagonal under
 $\operatorname{id}\times\iota'$, giving the second.
 
-Uses: [sk-lem-as-properties], [sk-prop-kernel-lisse], [sk-prop-stalk]
+Uses: [sk-lem-as-properties], [sk-prop-an], [sk-prop-kernel-lisse], [sk-prop-stalk], [sk-thm-derived-duality]

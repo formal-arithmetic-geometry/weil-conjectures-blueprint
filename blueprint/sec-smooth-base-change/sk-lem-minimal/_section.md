@@ -2,7 +2,7 @@
 id = "sk-lem-minimal"
 kind = "section"
 title = "Minimal counterexamples occur over a point"
-order = 1389
+order = 1397
 uses = ["sk-def-bc"]
 +++
 *Lemma (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-ag-connected-group-central-radical"
 kind = "lemma"
 title = "A connected group with a faithful semisimple module has central Lie radical"
-order = 2639
+order = 2686
 uses = ["def-wf-algebraic-components", "def-wf-algebraic-representations", "def-wf-lie-algebra-derivation", "def-wf-lie-radical-centre", "def-wf-semisimple-module", "def-wf-simple-module", "lem-wf-solvable-common-eigenvector", "lem-wf-solvable-radical-characteristic"]
 +++
 Let $H\subseteq\operatorname{GL}(V)$ be a connected closed matrix group

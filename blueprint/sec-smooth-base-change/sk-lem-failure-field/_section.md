@@ -2,14 +2,15 @@
 id = "sk-lem-failure-field"
 kind = "section"
 title = "A failure is detected on the generic fibre"
-order = 1391
+order = 1399
 uses = ["sk-def-bc"]
 +++
 *Lemma (sketch).*
 
 (Stacks Project, Lemma 59.88.6, Tag `0F07`.) If
 $\mathrm{BC}(f,n,q-1)$ holds but $\mathrm{BC}(f,n,q)$ fails, then
-there is a counterexample over a field: $S'\to S$ affine,
+there is a counterexample over a field: $S'$ an affine scheme (so that
+$S'\to S$ is an affine morphism when $S$ is separated),
 $T=\Spec K$, $K$ a field, and a $\Z/n\Z$-sheaf $\mathcal F$ on
 $\Spec K$ with
 $f'^{-1}R^qg_*\mathcal F\to R^qh_*e^{-1}\mathcal F$ not an

@@ -2,8 +2,8 @@
 id = "sk-prop-picard-degree-decomposition"
 kind = "section"
 title = "Degree decomposition of the Picard scheme"
-order = 845
-uses = ["sk-prop-picard-pic-split", "sk-thm-picard-main", "sk-thm-picard-rr", "sk-thm-picard-semicon"]
+order = 849
+uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-prop-picard-pic-split", "sk-thm-picard-main", "sk-thm-picard-rr", "sk-thm-picard-semicon"]
 +++
 *Proposition (sketch).*
 

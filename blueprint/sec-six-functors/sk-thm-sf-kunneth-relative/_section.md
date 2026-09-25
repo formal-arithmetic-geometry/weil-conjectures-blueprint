@@ -2,7 +2,7 @@
 id = "sk-thm-sf-kunneth-relative"
 kind = "section"
 title = "Relative product theorem"
-order = 2288
+order = 2305
 uses = ["sk-prop-sf-cbc", "sk-prop-sf-comp-proper", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition"]
 +++
 *Theorem (sketch).*

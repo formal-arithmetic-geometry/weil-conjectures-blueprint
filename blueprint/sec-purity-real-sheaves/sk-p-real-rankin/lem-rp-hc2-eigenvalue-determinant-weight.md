@@ -2,8 +2,8 @@
 id = "lem-rp-hc2-eigenvalue-determinant-weight"
 kind = "lemma"
 title = "Eigenvalues of $H_c^2$ are determinant weights"
-order = 2851
-uses = ["cor-mg-rankone-weight-from-element", "def-weil-punctual-weights", "def-wf-determinantal-weight", "def-wf-tate-twist", "def-wf-weil-category", "def-wf-weil-group", "lem-a1-affine-hc2", "lem-tw-tate-twist-weight-shift", "lem-wf-determinantal-weight-exists", "p-real-operations"]
+order = 2898
+uses = ["cor-mg-rankone-weight-from-element", "def-real-weil-representation-operations", "def-weil-punctual-weights", "def-wf-determinantal-weight", "def-wf-tate-twist", "def-wf-weil-category", "def-wf-weil-group", "lem-a1-affine-hc2", "lem-tw-tate-twist-weight-shift", "lem-wf-determinantal-weight-exists", "p-real-operations"]
 +++
 Let $U_0$ be a smooth geometrically connected affine curve, let
 $U=U_0\times_{k_0}k$, and let $\mathcal G_0$ be a lisse
@@ -31,7 +31,8 @@ iterate of the global one, as in
 [lem-tw-tate-twist-weight-shift]) an eigenvalue $\alpha$ of the
 global $F$ on $V_{\pi_1(U)}(-1)$ corresponds to the eigenvalue
 $\beta:=\alpha q^{-1}$ of $F$ on $V_{\pi_1(U)}$. The module
-$V_{\pi_1(U)}$ carries a residual action of the quotient
+$V_{\pi_1(U)}$ of coinvariants
+([def-real-weil-representation-operations]) carries a residual action of the quotient
 $W(X_0)/\pi_1(U)$ ([def-wf-weil-group]), hence defines a lisse
 Weil sheaf $\mathcal Q_0$ on $U_0$ which is a quotient of
 $\mathcal G_0$ (as a $W(X_0)$-module $V_{\pi_1(U)}$ is a quotient

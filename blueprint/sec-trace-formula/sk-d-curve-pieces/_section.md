@@ -2,7 +2,7 @@
 id = "sk-d-curve-pieces"
 kind = "section"
 title = "Curve coefficient pieces"
-order = 2464
+order = 2492
 uses = ["sk-d-proper-pushforward", "sk-d-setup", "sk-d-six", "sk-d-weil"]
 +++
 *Definition (sketch).*

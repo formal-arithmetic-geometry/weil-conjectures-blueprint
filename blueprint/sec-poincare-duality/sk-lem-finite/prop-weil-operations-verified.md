@@ -2,7 +2,7 @@
 id = "prop-weil-operations-verified"
 kind = "theorem"
 title = "Export of the Weil-equivariant operations"
-order = 2572
+order = 2608
 tags = ["latex:proposition"]
 uses = ["prop-weil-operations"]
 +++

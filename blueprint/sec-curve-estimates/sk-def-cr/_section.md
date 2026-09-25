@@ -2,7 +2,7 @@
 id = "sk-def-cr"
 kind = "section"
 title = "$C_r$ fields"
-order = 894
+order = 900
 +++
 *Definition (sketch).*
 

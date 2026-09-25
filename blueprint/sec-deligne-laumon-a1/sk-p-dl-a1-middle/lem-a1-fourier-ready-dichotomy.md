@@ -2,7 +2,7 @@
 id = "lem-a1-fourier-ready-dichotomy"
 kind = "lemma"
 title = "The constant–Artin–Schreier dichotomy for a pure constituent"
-order = 2950
+order = 3004
 uses = ["def-fd-artin-schreier-sheaf", "def-fd-nonexceptional", "def-weil-punctual-weights", "def-wf-constant-weil-twist", "def-wf-iota-real", "def-wf-middle-extension", "lem-wf-pure-realizable"]
 +++
 Let $k_0=\mathbf F_q$, let $U_0$ be a smooth geometrically connected

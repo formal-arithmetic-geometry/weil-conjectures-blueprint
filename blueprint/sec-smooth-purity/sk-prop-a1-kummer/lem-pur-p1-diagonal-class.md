@@ -2,7 +2,7 @@
 id = "lem-pur-p1-diagonal-class"
 kind = "lemma"
 title = "The class of the diagonal"
-order = 2004
+order = 2020
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-divisor-class", "lem-pur-kummer-additivity", "thm-pur-p1-decomposition"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

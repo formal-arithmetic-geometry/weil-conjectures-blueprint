@@ -2,7 +2,7 @@
 id = "prop-galois-weight-strata-identification"
 kind = "theorem"
 title = "Identification of the stratum root multisets"
-order = 3127
+order = 3194
 tags = ["latex:proposition"]
 uses = ["def-weil-normalized-integral-fraction", "def-weil-numbers", "def-weil-ordinary-reciprocal-roots", "prop-galois-weight-strata"]
 +++

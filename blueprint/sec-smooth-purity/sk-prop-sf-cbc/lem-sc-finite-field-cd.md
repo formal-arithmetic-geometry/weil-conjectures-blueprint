@@ -2,7 +2,7 @@
 id = "lem-sc-finite-field-cd"
 kind = "lemma"
 title = "The torsion cohomological dimension of a finite field"
-order = 1567
+order = 1581
 uses = ["def-exc-continuous-cohomology", "def-sc-etale-torsion-cd", "lem-exc-field-discrete-modules", "lem-sc-group-cd-one", "lem-weil-pbc-cohomology-filtered-colimit", "lemma-weil-pbc-torsion-filtered-union"]
 +++
 For a finite field $k$, one has

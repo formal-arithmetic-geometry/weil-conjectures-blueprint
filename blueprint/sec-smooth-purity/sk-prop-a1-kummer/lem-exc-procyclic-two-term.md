@@ -2,7 +2,7 @@
 id = "lem-exc-procyclic-two-term"
 kind = "lemma"
 title = "A two-term computation for a procyclic group"
-order = 1967
+order = 1983
 uses = ["def-exc-continuous-cohomology"]
 +++
 Let $A$ be a finite ring killed by $\ell^s$, let

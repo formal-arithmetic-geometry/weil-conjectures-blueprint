@@ -2,7 +2,7 @@
 id = "lem-galois-action-continuous"
 kind = "lemma"
 title = "Continuity of the action of $\\operatorname{Aut}(F)$"
-order = 2737
+order = 2785
 uses = ["def-galois-category"]
 +++
 Let $\mathcal C$ be a category and $F:\mathcal C\to\mathbf{Sets}$ a

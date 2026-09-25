@@ -2,7 +2,7 @@
 id = "sbc-lem-higher-direct-image-presheaf"
 kind = "lemma"
 title = "Higher direct image as a sheafified cohomology presheaf"
-order = 1392
+order = 1400
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-cohomology"]
 +++
 Let $h:Y\to X$ be a morphism of schemes and $F\in\Ab(Y_{\Et})$. Then

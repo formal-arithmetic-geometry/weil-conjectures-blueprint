@@ -2,12 +2,18 @@
 id = "def-sf-pairing"
 kind = "definition"
 title = "Derived Poincare pairing"
-order = 2286
+order = 2303
 uses = ["def-sf-cup", "def-sf-datum", "def-sf-orientation", "def-sf-pf"]
 +++
 In the setting of [def-sf-datum] and [def-sf-orientation], let
-$X$ be smooth proper geometrically connected of pure dimension $d$ and let
-$K\in D^b_{ctf}(X,\Lambda)$ be such that $K^\vee$ is perfect on $X$. The
+$X$ be smooth, separated of finite type and geometrically connected of pure
+dimension $d$ over $k$, with exceptional-adjoint admissible structure
+morphism $a_X:X\to s=\operatorname{Spec}k$, and assume either that $X$ is
+proper, or that $X=X_0\times_{k_0}k$ for a smooth, separated finite-type,
+geometrically connected $k_0$-scheme $X_0$ (in the latter case no
+properness is required); these are the hypotheses of global Verdier
+duality. Let $K\in D^b_{ctf}(X,\Lambda)$ be such that $K^\vee$ is perfect
+on $X$. The
 *derived Poincare pairing* is the composite
 
 $$

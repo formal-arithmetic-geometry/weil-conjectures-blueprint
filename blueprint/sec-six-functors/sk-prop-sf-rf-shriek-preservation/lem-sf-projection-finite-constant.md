@@ -2,7 +2,7 @@
 id = "lem-sf-projection-finite-constant"
 kind = "lemma"
 title = "The projection formula with a finitely presented constant coefficient"
-order = 2159
+order = 2178
 uses = ["def-sf-uniform-direct-image-vanishing", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "thm-sp-truncation-e2"]
 +++
 Let $f:X\to Y$ be a morphism of schemes, let $A$ be a Noetherian

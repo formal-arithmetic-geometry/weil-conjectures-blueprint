@@ -2,7 +2,7 @@
 id = "lem-pc-schemes-criterion"
 kind = "lemma"
 title = "A representability criterion via covers"
-order = 781
+order = 785
 uses = ["def-pc-representable-functor", "def-pc-subfunctor"]
 +++
 (Schemes, Lemma 26.15.4, Tag

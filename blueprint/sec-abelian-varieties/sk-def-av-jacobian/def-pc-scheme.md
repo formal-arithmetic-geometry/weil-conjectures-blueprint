@@ -2,7 +2,7 @@
 id = "def-pc-scheme"
 kind = "definition"
 title = "Schemes"
-order = 452
+order = 454
 +++
 A *scheme* is a locally ringed space in the sense of Stacks
 Project, Schemes, Definition 26.9.1 (Tag

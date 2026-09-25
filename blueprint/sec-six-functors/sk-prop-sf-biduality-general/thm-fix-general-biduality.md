@@ -2,7 +2,7 @@
 id = "thm-fix-general-biduality"
 kind = "theorem"
 title = "Finite-stage Verdier biduality"
-order = 2231
+order = 2250
 uses = ["lem-sf-comparison-tor-amplitude", "lem-sf-proetale-constructible-origin", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata", "thm-weil-etale-geometric-biduality"]
 +++
 Let $Y$ be a separated finite-type scheme over

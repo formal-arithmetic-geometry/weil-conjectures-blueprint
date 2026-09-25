@@ -2,7 +2,7 @@
 id = "lem-sf-stage-independent-model-criterion"
 kind = "lemma"
 title = "Stage-independent local models from a uniform trivializing cover"
-order = 2324
+order = 2340
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-finite-tor-amplitude", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-proetale-site", "lem-sf-bounded-free-model", "lem-sf-fullcd-detection-equivalence", "lem-sf-lift-free-tower", "lem-sf-minimal-free-model"]
 +++
 Let $T$ be a scheme on which $\ell$ is invertible, let

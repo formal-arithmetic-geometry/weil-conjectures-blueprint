@@ -2,7 +2,7 @@
 id = "thm-zl-relative-line-stratification"
 kind = "theorem"
 title = "Stratification of a sheaf on a relative line"
-order = 3052
+order = 3118
 uses = ["def-sbc-affine-space", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "i-topology", "lem-zl-affine-partition", "pqf-def-quasifinite"]
 +++
 Let $Y_0$ be a separated finite-type $k_0$-scheme and let $\mathcal F$

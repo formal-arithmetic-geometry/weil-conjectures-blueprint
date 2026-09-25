@@ -2,7 +2,7 @@
 id = "sk-thm-smooth-base-change"
 kind = "section"
 title = "Smooth base change"
-order = 1421
+order = 1429
 uses = ["sk-def-bc", "sk-def-smooth", "sk-lem-induction", "sk-prop-deg0", "sk-prop-input-spreading", "sk-prop-input-torsors"]
 +++
 *Theorem (sketch).*

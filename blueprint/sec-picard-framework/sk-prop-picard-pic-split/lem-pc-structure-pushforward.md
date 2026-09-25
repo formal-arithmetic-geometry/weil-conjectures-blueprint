@@ -2,7 +2,7 @@
 id = "lem-pc-structure-pushforward"
 kind = "lemma"
 title = "The open locus of $H^0$ of the structure sheaf"
-order = 818
+order = 822
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-picard-presheaf", "lem-pc-coherent-hi", "lem-sc-flat-base-change-coherent"]
 +++
 Let $k$ be a field, $X$ a

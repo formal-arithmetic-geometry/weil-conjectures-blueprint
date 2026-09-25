@@ -2,7 +2,7 @@
 id = "sk-prop-sf-closed-unit"
 kind = "section"
 title = "Closed-immersion unit"
-order = 1894
+order = 1909
 uses = ["sk-def-sf-operations", "sk-prop-sf-existence"]
 +++
 *Proposition (sketch).*

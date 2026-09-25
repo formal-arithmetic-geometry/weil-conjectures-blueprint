@@ -2,7 +2,7 @@
 id = "cor-pd-finite-level"
 kind = "theorem"
 title = "The descent datum is defined at a finite separable level"
-order = 868
+order = 872
 tags = ["latex:corollary"]
 uses = ["def-pc-base-change", "def-pc-geometrically-irreducible", "def-pc-morphism-conventions", "def-pc-projective-morphism", "def-pc-smooth-projective-curve", "def-pd-descent-datum", "def-pd-separable-closure", "lem-pd-canonical-descent-datum", "lem-pd-descent-cocycle", "lem-sc-abelian-variety-projective", "thm-pd-geometric-pic0", "thm-pd-spreading-out"]
 +++

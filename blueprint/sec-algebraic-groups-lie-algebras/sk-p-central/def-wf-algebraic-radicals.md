@@ -2,7 +2,7 @@
 id = "def-wf-algebraic-radicals"
 kind = "definition"
 title = "Semisimple algebraic group"
-order = 2675
+order = 2722
 uses = ["def-wf-reductive-group"]
 +++
 A connected linear algebraic group $H$ is *semisimple* if it is

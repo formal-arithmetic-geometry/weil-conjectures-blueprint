@@ -2,7 +2,7 @@
 id = "lem-pc-degree-base-change"
 kind = "lemma"
 title = "Degree: base change and tensor products"
-order = 746
+order = 748
 uses = ["def-pc-base-change", "def-pc-degree-line-bundle", "def-pc-dimension", "def-pc-divisor-line-bundle", "def-pc-euler-characteristic", "def-sc-divisor", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "lem-pc-affine-vanishing", "lem-pc-euler-additive", "lem-pc-euler-characteristic-well-defined", "lem-pc-finite-support-hi", "lem-pc-flat-base-change-cohom", "lem-pc-proper-base-change", "lem-sc-point-cartier", "rem-pc-regularity-sc"]
 +++
 Let $k$ be a field, $X$ a proper scheme over $k$ of dimension $\le1$

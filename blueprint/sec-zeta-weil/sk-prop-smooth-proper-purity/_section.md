@@ -2,7 +2,7 @@
 id = "sk-prop-smooth-proper-purity"
 kind = "section"
 title = "Smooth-proper purity"
-order = 3075
+order = 3141
 uses = ["sk-d-dl-general-weights", "sk-d-real-weights", "sk-def-cohfamily", "sk-prop-sf-comp-proper", "sk-thm-dl-general-sheaf", "sk-thm-poincare-duality", "sk-thm-properbasechange", "sk-thm-purity-transport", "sk-thm-sf-dual-perfect", "sk-thm-sf-verdier-exchange", "sk-thm-smooth-base-change", "sk-thm-smooth-purity"]
 +++
 *Proposition (sketch).*

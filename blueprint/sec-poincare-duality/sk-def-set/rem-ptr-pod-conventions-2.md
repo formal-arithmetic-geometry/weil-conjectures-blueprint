@@ -2,7 +2,7 @@
 id = "rem-ptr-pod-conventions-2"
 kind = "remark"
 title = "Pointer to the properties of [def-pod-conventions]"
-order = 2536
+order = 2574
 uses = ["def-pod-conventions", "lem-weil-biduality-locally-free", "thm-fix-general-biduality", "thm-sf-biduality-class"]
 +++
 In the notation of [def-pod-conventions], finite-stage Verdier

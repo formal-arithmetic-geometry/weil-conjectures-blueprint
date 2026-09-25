@@ -2,7 +2,7 @@
 id = "prop-pur-weil-equivariance-scheme-frobenius"
 kind = "theorem"
 title = "Scheme-Frobenius forms of Weil equivariance"
-order = 2366
+order = 2383
 tags = ["latex:proposition"]
 uses = ["def-pur-scheme-geometric-frobenius", "thm-pur-weil-equivariance-of-purity-and-trace"]
 +++

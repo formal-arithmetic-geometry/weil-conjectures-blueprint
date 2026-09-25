@@ -2,7 +2,7 @@
 id = "def-sp-homological-functor"
 kind = "definition"
 title = "Homological functors of triangulated categories"
-order = 508
+order = 510
 uses = ["def-sp-abelian"]
 +++
 Let $\mathcal C$ be a pretriangulated category (with shift $[1]$,

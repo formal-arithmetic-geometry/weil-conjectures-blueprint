@@ -2,7 +2,7 @@
 id = "def-amb-etale-compact-support"
 kind = "definition"
 title = "Compact supports on the ordinary etale category"
-order = 1577
+order = 1591
 uses = ["def-weil-compactifications-refinements", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero"]
 +++
 For a compactification

@@ -2,7 +2,7 @@
 id = "sk-prop-sf-dualizable-biduality"
 kind = "section"
 title = "Biduality of a perfect complex"
-order = 2270
+order = 2287
 uses = ["sk-def-sf-operations"]
 +++
 *Proposition (sketch).*
