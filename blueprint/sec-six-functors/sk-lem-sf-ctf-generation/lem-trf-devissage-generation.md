@@ -3,7 +3,7 @@ id = "lem-trf-devissage-generation"
 kind = "lemma"
 title = "Constructible devissage: the thick-subcategory generation"
 order = 2363
-uses = ["def-trf-coefficient-conventions", "def-weil-pbc-constructible-complexes", "lem-trf-simple-constructible"]
+uses = ["def-trf-coefficient-conventions", "def-weil-pbc-constructible-complexes", "lem-fin-constructible-devissage", "lem-trf-simple-constructible"]
 +++
 Let $X$ be a separated finite-type scheme over $k$ and $A$ a
 finite coefficient ring as in [def-trf-coefficient-conventions].
@@ -27,7 +27,8 @@ which each cohomology sheaf is lisse. Iterated distinguished triangles
 of the truncations reduce the claim to a single constructible sheaf
 $F$ on $X$.
 
-Step 2 (extension across the strata). Filter $X$ by the strata: for a
+Step 2 (extension across the strata). Filter $X$ by the strata, as in
+[lem-fin-constructible-devissage]: for a
 stratum $U$ with closure $\overline U$ and the canonical
 $j:U\hookrightarrow\overline U$, $g:\overline U\to X$, the sheaf
 $F$ sits in an exact sequence

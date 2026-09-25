@@ -3,7 +3,7 @@ id = "lem-sp-derived-well-defined"
 kind = "lemma"
 title = "Well-definedness of right derived functors"
 order = 508
-uses = ["def-sp-grothendieck-abelian", "def-sp-injective-resolutions", "def-sp-left-exact-additive"]
+uses = ["def-sp-grothendieck-abelian", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "lem-sp-grothendieck-enough-injectives"]
 +++
 Let $v$ be a left exact additive [def-sp-left-exact-additive] functor and let
 $X$ be an object of a Grothendieck abelian category
@@ -14,7 +14,7 @@ $R^0v(X)\cong v(X)$ naturally in $X$.
 ## Proof
 
 Step 1: choose resolutions. By the Grothendieck-abelian hypothesis
-([def-sp-grothendieck-abelian], enough injectives) and
+([def-sp-grothendieck-abelian], enough injectives by [lem-sp-grothendieck-enough-injectives]) and
 [def-sp-injective-resolutions], $X$ admits an injective resolution
 $I^{\bullet}$: $0\to X\to I^0\to I^1\to\cdots$, and $R^nv(X)$ is defined as
 $H^n(v(I^{\bullet}))$, by [def-sp-left-exact-additive].

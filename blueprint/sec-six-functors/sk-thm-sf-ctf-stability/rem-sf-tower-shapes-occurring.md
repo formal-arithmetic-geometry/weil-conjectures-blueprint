@@ -3,7 +3,7 @@ id = "rem-sf-tower-shapes-occurring"
 kind = "remark"
 title = "Normalized DVR systems and additional local models"
 order = 2346
-uses = ["cor-sf-direct-image-ctf-proetale", "cor-sf-finite-level-comparison-two-cases", "def-coef-normalized-dvr-tower", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "lem-coef-finite-direct-image", "lem-coef-integral-compact-support", "lem-coef-integral-residue-tor", "lem-coef-normalized-dvr-effectivity", "prop-coef-integral-exceptional-adjoint", "thm-sf-uniform-models-constant-tower", "thm-sf-uniform-models-lisse-tower"]
+uses = ["cor-sf-direct-image-ctf-proetale", "def-coef-normalized-dvr-tower", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "lem-coef-finite-direct-image", "lem-coef-integral-compact-support", "lem-coef-integral-residue-tor", "lem-coef-normalized-dvr-effectivity", "prop-coef-integral-exceptional-adjoint"]
 +++
 For an integral object of [def-weil-derived-complete-integral-detailed],
 the reductions $K_n=K\otimes^L_{\mathcal O_E}A_{E,n}$ form a
@@ -27,9 +27,9 @@ The compact-support and exceptional versions are
 [lem-coef-integral-compact-support], [prop-coef-integral-exceptional-adjoint].
 
 The stronger local-model assertions
-[thm-sf-uniform-models-constant-tower], [thm-sf-uniform-models-lisse-tower]
+*Stage-independent local models for a constant tower*, *Stage-independent local models for a lisse tower with a uniform trivializing cover*
 continue to require their displayed lisse hypotheses; the corollary
-[cor-sf-finite-level-comparison-two-cases] describes those
+*The finite-level comparison isomorphisms in the two cases* describes those
 special cases. A tower with no verified normalization or quotient
 cocycle is not covered by the general effectivity theorem, and merely
 forming its derived limit does not identify its purported reductions.

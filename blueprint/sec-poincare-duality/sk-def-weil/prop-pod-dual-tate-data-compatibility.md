@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Compatibility of the dual and Tate data"
 order = 2596
 tags = ["latex:proposition"]
-uses = ["def-pod-dual-tate-datum", "def-pur-tate-datum", "def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-weil-sheaf-complex", "lem-fix-weil-operations", "prop-pod-verdier-dual-on-smooth", "thm-pur-weil-equivariance-of-purity-and-trace"]
+uses = ["def-pod-dual-tate-datum", "def-pur-tate-datum", "def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-weil-sheaf-complex", "lem-fix-weil-operations", "lem-pod-coefficient-dual-perfect", "lem-weil-weil-complex-qbar-idempotent-complete", "prop-pod-verdier-dual-on-smooth", "thm-pur-weil-equivariance-of-purity-and-trace"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), strict Weil complex with $K$ perfect. The datum $\varphi _{K^\vee }$ of Definition 9.28 defines a strict Weil complex $(K^\vee ,\varphi _{K^\vee })$, the coefficient evaluation
 
@@ -12,7 +12,7 @@ $$
 K\otimes ^L_{A_X}K^\vee \xrightarrow {\  \operatorname {ev}_K\  }A_X
 $$
 
-is a morphism of Weil objects, the twisted object $(K^\vee (r),\varphi _{K^\vee (r)})$ is a strict Weil complex, and the canonical identification $\mathbb D_XK\cong K^\vee (d)[2d]$ of Proposition 9.16 is an isomorphism of Weil objects (the compatibility of the purity isomorphism with the geometric-Frobenius data is the Weil equivariance of purity and trace, [thm-pur-weil-equivariance-of-purity-and-trace], and the duality isomorphisms are morphisms of Weil complexes by Proposition 1.48). All these objects and morphisms commute with finite reduction, adic normalization, rationalization, finite coefficient-field extension, and idempotent splitting.
+is a morphism of Weil objects, the twisted object $(K^\vee (r),\varphi _{K^\vee (r)})$ is a strict Weil complex, and the canonical identification $\mathbb D_XK\cong K^\vee (d)[2d]$ of Proposition 9.16 is an isomorphism of Weil objects (the compatibility of the purity isomorphism with the geometric-Frobenius data is the Weil equivariance of purity and trace, [thm-pur-weil-equivariance-of-purity-and-trace], and the duality isomorphisms are morphisms of Weil complexes by Proposition 1.48). All these objects and morphisms commute with finite reduction, adic normalization, rationalization, finite coefficient-field extension, and idempotent splitting (which exists for Weil complexes by [lem-weil-weil-complex-qbar-idempotent-complete]).
 
 ## Proof
 
@@ -22,7 +22,7 @@ $$
 Lg_\gamma ^*R\mathcal Hom_X(K,A_X) \xrightarrow {\  \sim \  } R\mathcal Hom_X\bigl(Lg_\gamma ^*K,Lg_\gamma ^*A_X\bigr),
 $$
 
-the derived internal Hom under the pullback along the geometric-Frobenius automorphism of [def-trf-scheme-frobenius], which is an isomorphism by the exactness of the pullback along an automorphism and the functoriality of the internal Hom, recorded in [def-weil-derived-pullback-tensor-hom]; the second arrow is induced by the canonical datum $\varphi _A$ on the constant object, the canonical structure of [def-weil-weil-sheaf-complex]; and the third by $\varphi _K^{-1}$. Each is an isomorphism, hence so is the composite, and it is a structure map of one object $K^\vee$, so $(K^\vee ,\varphi _{K^\vee })\in D^b_{ctf,\mathrm W}(X,A)$ by the definition of the strict Weil complex of [def-trf-strict-weil-complex]. Step 2: the evaluation is equivariant. The evaluation is the counit of the tensor–internal-Hom adjunction of [def-weil-derived-tensor], whose unit–counit identity is natural; the definition of $\varphi _{K^\vee }$ is precisely the typed iso making the square
+the derived internal Hom under the pullback along the geometric-Frobenius automorphism of [def-trf-scheme-frobenius], which is an isomorphism by the exactness of the pullback along an automorphism and the functoriality of the internal Hom, recorded in [def-weil-derived-pullback-tensor-hom]; the second arrow is induced by the canonical datum $\varphi _A$ on the constant object, the canonical structure of [def-weil-weil-sheaf-complex]; and the third by $\varphi _K^{-1}$. Each is an isomorphism, hence so is the composite, and it is a structure map of one object $K^\vee$, so $(K^\vee ,\varphi _{K^\vee })\in D^b_{ctf,\mathrm W}(X,A)$ by the definition of the strict Weil complex of [def-trf-strict-weil-complex], the underlying object $K^\vee$ lying in $D^b_{ctf}(X,A)$ by [lem-pod-coefficient-dual-perfect]. Step 2: the evaluation is equivariant. The evaluation is the counit of the tensor–internal-Hom adjunction of [def-weil-derived-tensor], whose unit–counit identity is natural; the definition of $\varphi _{K^\vee }$ is precisely the typed iso making the square
 
 $$
 \begin{array}{ccc} Lg_\gamma ^*\bigl(K\otimes ^L_{A_X}K^\vee \bigr) &  \xrightarrow {\  \sim \  } &  Lg_\gamma ^*K\otimes ^L_{A_X}Lg_\gamma ^*K^\vee \\ \big\downarrow \varphi _K\otimes \varphi _{K^\vee } &  \sim &  \quad \  \sim \quad \big\downarrow \operatorname {ev}_K\\ K\otimes ^L_{A_X}K^\vee &  \xrightarrow {\  \operatorname {ev}_K\  } &  A_X \end{array}

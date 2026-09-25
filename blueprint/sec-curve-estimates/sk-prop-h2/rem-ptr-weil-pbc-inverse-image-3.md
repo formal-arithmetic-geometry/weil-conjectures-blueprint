@@ -10,4 +10,4 @@ $u^{-1}$ is exact, that it therefore acts termwise on complexes, and that it
 induces the derived adjunction $u^{-1}\dashv Ru_*$ on the derived categories
 [def-weil-pbc-derived-categories] $\Dplus$ are
 [prop-weil-pbc-inverse-image-exact] and
-[prop-weil-pbc-inverse-image-derived-adjunction].
+*Derived adjunction of inverse image*.

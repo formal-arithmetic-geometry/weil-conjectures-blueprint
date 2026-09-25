@@ -2,8 +2,8 @@
 id = "thm-pur-affine-line-orientation"
 kind = "theorem"
 title = "Global orientation and its normalization"
-order = 2006
-uses = ["def-pur-affine-line-datum", "def-pur-conventions", "def-weil-exceptional-inverse-image", "lem-amb-cartier-kummer-map", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "lem-exc-open-complement-known", "lem-pur-gysin-structure", "prop-exc-closed-tor", "thm-pur-rank-one-local-calculation", "thm-weil-pbc-site-comparison"]
+order = 2022
+uses = ["def-pur-affine-line-datum", "def-pur-conventions", "def-weil-exceptional-inverse-image", "lem-amb-cartier-kummer-map", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "lem-exc-open-complement-known", "lem-pur-gysin-structure", "lem-pur-support-localization-triangle", "prop-exc-closed-tor", "prop-pur-gm-relative-kummer", "thm-pur-rank-one-local-calculation", "thm-weil-pbc-site-comparison"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting), let $Y$ be the separated finite-type $k$-scheme of the
 affine-line datum, and let
@@ -45,7 +45,13 @@ relative form over a base scheme $Y$.)
 The Kummer boundary defines the global morphism in the statement by
 [lem-pur-gysin-structure], [def-pur-affine-line-datum].
 Its target is already a sheaf in degree zero, identified there with
-$\Lambda_Y$ through the explicit affine-line adjunction.
+$\Lambda_Y$ through the boundary $\delta$ of the localization triangle
+of [lem-pur-support-localization-triangle] pushed forward to $Y$:
+$\delta$ carries $R^1\pi_*\Lambda(1)$, free of rank one on $\kappa(t)$
+by [prop-pur-gm-relative-kummer](2), isomorphically onto
+$\mathcal H^2(Rs^!\Lambda(1))$. So $\operatorname{pur}_s$, which sends
+$1$ to the boundary of $\kappa(t)$, already maps $1$ to a generator of
+this free rank-one sheaf.
 The supported Cartier map of [lem-amb-cartier-kummer-map] is natural
 for the base changes of the zero section, and its geometric fibre is
 the coordinate boundary. By [thm-pur-rank-one-local-calculation]

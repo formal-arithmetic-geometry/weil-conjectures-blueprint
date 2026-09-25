@@ -3,14 +3,14 @@ id = "rem-sf-finite-level-comparison-ingredient"
 kind = "remark"
 title = "The local-model proof and normalized DVR reconstruction"
 order = 2349
-uses = ["cor-coef-finite-verdier", "cor-sf-finite-level-comparison-two-cases", "def-coef-normalized-dvr-tower", "def-weil-pbc-bounded-constructible-tower", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-coef-integral-hom-reduction", "lem-coef-normalized-dvr-effectivity", "lem-sf-finite-level-comparison", "prop-coef-integral-exceptional-adjoint", "thm-sf-uniform-models-constant-tower", "thm-sf-uniform-models-lisse-tower"]
+uses = ["cor-coef-finite-verdier", "def-coef-normalized-dvr-tower", "def-weil-pbc-bounded-constructible-tower", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-coef-integral-hom-reduction", "lem-coef-normalized-dvr-effectivity", "prop-coef-integral-exceptional-adjoint"]
 +++
-The proof of [lem-sf-finite-level-comparison] uses the uniform
+The proof of *The finite-level comparison isomorphisms of the package, from uniform local models* uses the uniform
 local models of [def-weil-pbc-bounded-constructible-tower].
 The two sufficient criteria
-[thm-sf-uniform-models-constant-tower], [thm-sf-uniform-models-lisse-tower]
+*Stage-independent local models for a constant tower*, *Stage-independent local models for a lisse tower with a uniform trivializing cover*
 retain all of their lisse and amplitude hypotheses, and
-[cor-sf-finite-level-comparison-two-cases] applies under those
+*The finite-level comparison isomorphisms in the two cases* applies under those
 complete hypotheses. These results provide additional local-model
 information; they are not necessary hypotheses for DVR reconstruction.
 

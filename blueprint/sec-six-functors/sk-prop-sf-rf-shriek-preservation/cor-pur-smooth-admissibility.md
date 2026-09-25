@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Smooth morphisms satisfy the preservation clauses"
 order = 2190
 tags = ["latex:corollary"]
-uses = ["cor-pur-dualizing-object-purity", "cor-sf-ambient-adjoint-discharge", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "lem-exc-residue-tor-test", "lem-weil-field-tor-amplitude", "prop-weil-pbc-inverse-image-exact", "thm-asd-smooth-tensor", "thm-cbc-finite-level-proetale", "thm-pur-diagonal-dualizing-object", "thm-sf-ambient-adjoint-class"]
+uses = ["cor-pur-dualizing-object-purity", "cor-sf-ambient-adjoint-discharge", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "lem-exc-residue-tor-test", "lem-weil-field-tor-amplitude", "prop-weil-pbc-inverse-image-exact", "prop-weil-twist-preserves", "thm-asd-smooth-tensor", "thm-cbc-finite-level-proetale", "thm-pur-diagonal-dualizing-object", "thm-sf-ambient-adjoint-class"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $f:X\to Y$ be smooth separated of pure relative dimension $d$.
@@ -66,7 +66,7 @@ and each finite locally constant sheaf on its strata, as in
 $L\in D_c^{[a,b]}(Y,A)$ the complex $Lf^*L$ is bounded constructible
 with $\mathcal H^r(Lf^*L)\cong f^*\mathcal H^r(L)$, which vanishes for
 $r\notin[a,b]$; the [def-coefficient-twists-detailed] twist preserves the
-vanishing degrees, and the shift moves them, by the convention
+vanishing degrees by [prop-weil-twist-preserves], and the shift moves them, by the convention
 $\mathcal H^r(C[2d])=\mathcal H^{r+2d}(C)$, to $[a-2d,b-2d]$.
 Step 2: (2). Test the finite Tor amplitude of $Rf^!K$ by the residue
 field criterion of [lem-exc-residue-tor-test]: it is equivalent to

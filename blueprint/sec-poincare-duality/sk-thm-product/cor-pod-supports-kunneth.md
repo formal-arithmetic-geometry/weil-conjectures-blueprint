@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Künneth for cohomology with supports, by duality"
 order = 2612
 tags = ["latex:corollary"]
-uses = ["cor-sf-duality-pullback", "def-pur-support-cohomology", "def-sf-pf", "def-trf-dualizing-complex", "lem-sf-tensor-hom", "prop-pod-biduality-at-the-point", "prop-trf-compact-support-perfectness", "thm-pod-compact-product-closed", "thm-sf-biduality", "thm-trf-kunneth-verdier"]
+uses = ["cor-sf-duality-pullback", "def-pur-support-cohomology", "def-sf-datum", "def-sf-pf", "def-trf-dualizing-complex", "lem-sf-tensor-hom", "prop-pod-biduality-at-the-point", "prop-trf-compact-support-perfectness", "thm-pod-compact-product-closed", "thm-trf-kunneth-verdier"]
 +++
 In the setting of [thm-pod-compact-product-closed] with $B=\operatorname{Spec}k$,
 $k$ algebraically closed and finite coefficients $\Lambda=A=A_{E,n}$ as in
@@ -23,7 +23,7 @@ Write $C^\vee=R\operatorname{Hom}_A(C,A)$ at the point and
 $\mathbb D$ for the Verdier dual of [def-sf-pf].
 
 Step 1 (supports as duals of compact supports). For a closed immersion
-$i:Z\hookrightarrow X$, biduality [thm-sf-biduality] and duality against
+$i:Z\hookrightarrow X$, biduality [def-sf-datum] and duality against
 pullback [cor-sf-duality-pullback] give
 $i^!K\cong i^!\mathbb D_X\mathbb D_XK\cong\mathbb D_Zi^*\mathbb D_XK$.
 The tensor–Hom exchange [lem-sf-tensor-hom] for $a_Z$ with $M=i^*\mathbb D_XK$

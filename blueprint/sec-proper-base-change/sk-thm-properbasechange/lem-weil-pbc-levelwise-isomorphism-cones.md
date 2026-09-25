@@ -3,7 +3,7 @@ id = "lem-weil-pbc-levelwise-isomorphism-cones"
 kind = "lemma"
 title = "Levelwise isomorphisms and complete cones"
 order = 1246
-uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "prop-weil-pbc-koszul-reconstruction"]
+uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "prop-weil-pbc-koszul-reconstruction", "prop-weil-pbc-rlim-functoriality"]
 +++
 A morphism in $D(\operatorname{Tow}_{A}(T))$ whose evaluation at every $n$ is
 an isomorphism is itself an isomorphism and remains an isomorphism after
@@ -31,7 +31,7 @@ form used here is the tower-category statement over $T_{\Proet}$.
 ## Proof
 
 The evaluation functors of [def-weil-pbc-derived-inverse-limit] are jointly
-conservative on the tower category, and $\Rlim$ is a triangulated functor, so
+conservative on the tower category, and $\Rlim$ is a triangulated functor ([prop-weil-pbc-rlim-functoriality]), so
 the first assertion holds. For a derived complete $C$,
 [prop-weil-pbc-koszul-reconstruction] identifies $C$ with $\Rlim C_\bullet$,
 and the vanishing of every finite reduction kills the tower $C_\bullet$

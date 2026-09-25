@@ -3,10 +3,10 @@ id = "rem-sf-constant-tower-trivial-model"
 kind = "remark"
 title = "The trivial coefficient case, in one line"
 order = 2343
-uses = ["def-weil-pbc-bounded-constructible-tower", "thm-sf-uniform-models-constant-tower"]
+uses = ["def-weil-pbc-bounded-constructible-tower"]
 +++
 If the complex $M_0$ of
-[thm-sf-uniform-models-constant-tower] is itself a bounded complex of
+*Stage-independent local models for a constant tower* is itself a bounded complex of
 finite locally constant $A_T$-modules concentrated in degrees $[a,b]$,
 then no construction is needed: putting $L=M_0$ exhibits the tower as the
 reduction tower of one bounded complex of finite locally constant
@@ -24,7 +24,7 @@ at every coefficient stage, and every bounded complex of finite locally
 constant sheaves whose stages are its reductions; in particular a bounded
 flat model of $M_0$ whose terms are finite locally constant may be taken
 as the stage-independent model and base changed to every stage. The point
-of [thm-sf-uniform-models-constant-tower] is that the same conclusion
+of *Stage-independent local models for a constant tower* is that the same conclusion
 holds under the weaker hypothesis that the *stages* are lisse with one
 Tor amplitude bound, no single finite locally constant model of $M_0$
 being assumed.

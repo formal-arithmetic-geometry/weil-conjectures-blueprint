@@ -3,7 +3,7 @@ id = "rem-sf-fullcd-counterexample"
 kind = "remark"
 title = "The counterexample: a pro-étale base change whose comparison direct image has infinite cohomological dimension"
 order = 2161
-uses = ["cor-sf-continuity-fullcd", "def-sf-fullcd-used-class", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-sf-proetale-vanishing-detection", "lem-sf-stalk-limit-acyclic", "prop-sf-comparison-bound-zero", "thm-sf-continuity-arbitrary-sheaves-vanishing", "thm-sf-fullcd-used-class"]
+uses = ["def-sf-fullcd-used-class", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-sf-proetale-vanishing-detection", "prop-sf-comparison-bound-zero", "thm-sf-fullcd-used-class"]
 +++
 Fix an odd prime $\ell$, a finite extension $E/\Ql$, put
 $A=A_{E,1}$ – a finite field of characteristic $\ell$ – fix a discrete set
@@ -143,7 +143,7 @@ R^q\nu_{U,*}F_G\neq0\qquad\text{for arbitrarily large }q,
 \qquad\text{that is,}\qquad
 \operatorname{cd}_A(\nu_{U,*})=\infty .
 $$
-This is the failure proved in [prop-sf-fullcd-general-form-false]: the
+This is the failure proved in *The all-sheaves, uniform-in-the-base-change form of the comparison bound is false*: the
 object $U$ of $X_{0,\Proet}$ is one of the pro-étale base changes over
 which the bound $(\mathrm{G})$ is required, and $F_G$ is a sheaf of
 $A$-modules on $U_{\Proet}$ with no constructibility hypothesis, so no
@@ -160,15 +160,15 @@ by [prop-sf-comparison-bound-zero], so the vanishing required by
 $2d$, which is [thm-sf-fullcd-used-class]; the counterexample uses a
 sheaf $F_G$ that is not of étale origin. Two further consequences are
 recorded here for the status of the neighbouring items. First, by
-[lem-sf-stalk-limit-acyclic](iii) the limit object
+*The strictly henselian limit has no higher cohomology*(iii) the limit object
 $\Spec\mathcal O^{\mathrm{sh}}_{U,\bar u}$ of a geometric point of $U$ has
 no higher cohomology for any sheaf, and by the contrapositive of
-[thm-sf-continuity-arbitrary-sheaves-vanishing] the present computation
+*Continuity for arbitrary sheaves implies the vanishing* the present computation
 shows that the continuity statement $(\mathrm{C}_q)$ of that theorem
 *fails* at $U$, in those degrees $q$ in which
 $R^q\nu_{U,*}F_G\neq0$; the continuity route is therefore not a residue
 "for arbitrary sheaves" but a statement about the finite-type models, which is
-the form in which [cor-sf-continuity-fullcd] consumes it. Second,
+the form in which *Continuity for arbitrary sheaves gives the full cohomological-dimension bound* consumes it. Second,
 nothing here weakens any statement of this chapter: the class form
 [thm-sf-fullcd-used-class] and the sharp comparison bound
 [prop-sf-comparison-bound-zero] are unconditional on that class, and the

@@ -14,7 +14,7 @@ multiplicativity of the orientation, and the relative trace with its
 transitivity); the
 projection formula at every coefficient stage together with its coherence,
 so that axiom (A3) of [def-sf-datum] is discharged; and the duality,
-trace, similitude and reciprocity corollaries [cor-sf-trace], [cor-sf-trace-pairing] and [cor-sf-trace-isomorphism], stated conditionally on the orientation datum of
+trace, similitude and reciprocity corollaries [prop-pod-verdier-dual-on-smooth], *Perfectness of the trace–cup pairing* and *The trace isomorphism*, stated conditionally on the orientation datum of
 [def-sf-orientation]. *Not here*: the orientation itself, which is
 constructed in the purity chapter that follows (see
 [rem-sf-orientation-pointer]), where the affine-line orientation over a
@@ -24,7 +24,7 @@ using the relative product theorem [thm-sf-kunneth-relative] of this
 chapter. *Open, and where*: (1) the étale-local structure of
 smooth morphisms and the étale locality of the purity map, used in the
 purity chapter's smooth-purity theorem, the tensor form of purity itself
-being [cor-pur-tensor-form-of-purity] of that chapter; (2) the four
+being [thm-pur-cohomological-smoothness] of that chapter; (2) the four
 nodes of the purity chapter on the projective-bundle, localized-top-Chern,
 vector-triangularity and deformation-to-the-normal-cone route, which the
 direct route through Zariski locality, the affine-space case and the frame
@@ -35,6 +35,6 @@ Kummer sequence. The nodes of the compiled duality chapter that this
 chapter supersedes are its global-duality, identification, derived-duality,
 degreewise, proper, trace and reciprocal-eigenvalue nodes; they may be
 replaced by citations of [thm-sf-global-duality],
-[thm-sf-identification], [thm-sf-poincare-duality],
-[cor-sf-trace], [cor-sf-trace-isomorphism] and
-[cor-sf-trace-similitude], which also removes the proof cycle between the six-operations package [thm-weil-six-operations] and the duality chapter.
+[thm-sf-identification], *Poincare duality, framework form*,
+[prop-pod-verdier-dual-on-smooth], *The trace isomorphism* and
+*Frobenius similitudes for the constant sheaf*, which also removes the proof cycle between the six-operations package [thm-weil-six-operations] and the duality chapter.

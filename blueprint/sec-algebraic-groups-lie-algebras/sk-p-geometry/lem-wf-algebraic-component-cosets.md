@@ -3,7 +3,7 @@ id = "lem-wf-algebraic-component-cosets"
 kind = "lemma"
 title = "Identity component, cosets, and the finite component group"
 order = 2679
-uses = ["def-wf-algebraic-components"]
+uses = ["def-wf-algebraic-components", "lem-wf-affine-noetherian-components"]
 +++
 For a closed algebraic subgroup $H\subseteq\operatorname{GL}(V)$,
 the identity component $H^\circ$ is a closed, open, normal subgroup.
@@ -20,7 +20,7 @@ a finite group.
 ## Proof
 
 A finite-type algebraic variety has finitely many irreducible
-components. Every connected component is a union of irreducible
+components ([lem-wf-affine-noetherian-components]). Every connected component is a union of irreducible
 components: if an irreducible component meets a connected component,
 their union is connected, so maximality of the connected component
 contains that irreducible component. Hence there are finitely many

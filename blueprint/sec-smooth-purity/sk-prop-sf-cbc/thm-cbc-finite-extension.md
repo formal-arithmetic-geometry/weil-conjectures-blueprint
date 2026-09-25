@@ -3,7 +3,7 @@ id = "thm-cbc-finite-extension"
 kind = "theorem"
 title = "Compact-support base change over a finite extension"
 order = 1676
-uses = ["def-cbc-compact-support-square", "def-weil-pbc-rational-category", "prop-finite-compact-support-constructibility", "prop-weil-pbc-rational-transport", "thm-cbc-complete-proetale"]
+uses = ["def-cbc-compact-support-square", "def-weil-pbc-rational-category", "lem-weil-compact-support-representative-independence", "prop-finite-compact-support-constructibility", "prop-weil-pbc-rational-transport", "thm-cbc-complete-proetale"]
 +++
 For every finite $E/\Ql$, every
 compact-support
@@ -29,5 +29,7 @@ $\mathcal O_E$-linear functors on the integral constructible
 categories, so by [prop-weil-pbc-rational-transport] it remains
 an isomorphism after the rationalization of
 [def-weil-pbc-rational-category]; the constructible landing is
-the finite-level condition of the statement. Independence and
+the finite-level condition of the statement. Independence of the
+lattice (both sides are lattice-independent by
+[lem-weil-compact-support-representative-independence]) and
 coherence are inherited from the integral level.

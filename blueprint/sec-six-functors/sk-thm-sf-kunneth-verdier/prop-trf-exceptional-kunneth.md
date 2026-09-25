@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Exceptional Kunneth; the $\\alpha$ map"
 order = 2368
 tags = ["latex:proposition"]
-uses = ["def-sf-kv-maps", "def-trf-admissibility", "lem-trf-devissage-generation", "lem-trf-ordinary-kunneth", "thm-pur-affine-line-purity"]
+uses = ["def-sf-kv-maps", "def-trf-admissibility", "lem-sf-triangle-two-out-of-three", "lem-trf-devissage-generation", "lem-trf-ordinary-kunneth", "thm-pur-affine-line-purity"]
 +++
 For $i=1,2$, let $f_i:X_i\to Y_i$ be morphisms of separated
 finite-type schemes satisfying the
@@ -46,6 +46,7 @@ open-product base change, which is the case $Q=\underline A_Z$ of
 $f_i$ into a closed immersion followed by a smooth projection
 therefore gives the local case, and the finite-pushforward and
 open-localization reductions together with the generation
-[lem-trf-devissage-generation] remove the
+[lem-trf-devissage-generation] and the two-out-of-three property
+[lem-sf-triangle-two-out-of-three] remove the
 constant-coefficient restriction. Thus $\alpha$ is an
 isomorphism.

@@ -3,7 +3,7 @@ id = "lem-fet-galois-category"
 kind = "theorem"
 title = "$F_{\\bar y}$ is a Galois category"
 order = 984
-uses = ["def-galois-categories", "def-galois-category", "def-galois-fibre-functor", "def-weil-pbc-scheme-conventions", "lem-fet-finite-limits", "lem-galois-axioms"]
+uses = ["def-galois-categories", "def-galois-category", "def-galois-fibre-functor", "def-weil-pbc-scheme-conventions", "lem-fet-finite-limits", "lem-galois-axioms", "lem-galois-geometric-fibre"]
 +++
 Let $Y$ be connected with a geometric point $\bar y\to Y$. Then
 $\mathrm{F\acute Et}(Y)$ together with $F_{\bar y}$ is a Galois category.
@@ -18,7 +18,7 @@ Axioms (1), (3) and exactness in (4) follow from
 [lem-fet-finite-limits]: a scheme etale over the spectrum of an
 algebraically closed field is a disjoint union of copies of it, so base
 change to $\bar y$ is the functor $P\mapsto|P_{\bar y}|$, which is exact
-and takes finite values; the final statement of axiom (2) and the
+and takes finite values ([lem-galois-geometric-fibre]); the final statement of axiom (2) and the
 reflection of isomorphisms remain.
 Step 1: connected objects. If $Y'\to Y$ is a monomorphism in
 $\mathrm{F\acute Et}(Y)$, then $Y'\to Y'\times_YY'$ is an isomorphism,

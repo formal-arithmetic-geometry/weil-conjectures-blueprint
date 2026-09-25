@@ -21,7 +21,7 @@ assembled as [thm-exc-direct-image-input-holds], and
 [thm-pur-open-complement-unconditional] records the same two clauses with
 a constant independent of the coefficient ring and hence of the coefficient
 stage. Consequently
-[cor-pur-assembly-unconditional] and
+[thm-pur-general-admissibility] and
 [cor-pur-general-admissibility-datum] prove the two preservation
 clauses for an arbitrary separated finite-type morphism without further
 hypotheses, on the coefficients of the blueprint's class. No

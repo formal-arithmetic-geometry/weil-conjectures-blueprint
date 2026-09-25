@@ -3,7 +3,7 @@ id = "thm-pc-criterion"
 kind = "theorem"
 title = "The representability criterion"
 order = 844
-uses = ["def-pc-representable-functor", "def-pc-subfunctor", "lem-pc-schemes-criterion"]
+uses = ["def-pc-cover", "def-pc-open-subfunctor", "def-pc-representable-functor", "def-pc-subfunctor", "def-pc-zariski-sheaf-property", "lem-pc-schemes-criterion"]
 +++
 (Picard Schemes of Curves, Lemma 44.5.1, Tag
 [0B9Q](https://stacks.math.columbia.edu/tag/0B9Q).)
@@ -12,10 +12,10 @@ $G:(\mathit{Sch}/k)^{\mathrm{op}}\to\textit{Groups}$ be a functor. With the
 terminology of
 Definition [def-pc-subfunctor], assume:
 
-1. **(1)** $G$ satisfies the sheaf property for the Zariski topology;
+1. **(1)** $G$ satisfies the sheaf property for the Zariski topology ([def-pc-zariski-sheaf-property]);
 1. **(2)(a)** there exists a subfunctor $F\subseteq G$ such that $F$ is
 representable;
-1. **(2)(b)** $F\subseteq G$ is representable by open immersions;
+1. **(2)(b)** $F\subseteq G$ is representable by open immersions ([def-pc-open-subfunctor]);
 1. **(2)(c)** for every field extension $K$ of $k$ and every
 $g\in G(K)$ there exists $g'\in G(k)$ such that $g'g\in F(K)$.
 
@@ -36,7 +36,7 @@ representable by (2)(a), and $F_i\subseteq G$ is representable by open
 immersions: the map $F_i\to G$ is isomorphic (via multiplication by
 $g'$) to the inclusion $F\to G$ of (2)(b), and the base change of a
 natural isomorphism is a natural isomorphism. The family
-$(F_i)_{i\in I}$ covers $G$: given $g\in G(T)$, for each point $t\in T$
+$(F_i)_{i\in I}$ covers $G$ ([def-pc-cover]): given $g\in G(T)$, for each point $t\in T$
 let $\kappa=\kappa(t)$ and let $j:\operatorname{Spec}\kappa\to T$; by (2)(c) applied to
 $j^*g\in G(\kappa)$ there is $g'\in G(k)$ with
 $g'j^*g\in F(\kappa)$, i.e. $j^*g\in F_{g'}(\kappa)$. By (2)(b) (the

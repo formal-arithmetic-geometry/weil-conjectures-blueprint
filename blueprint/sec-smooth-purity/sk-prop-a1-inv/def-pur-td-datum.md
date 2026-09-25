@@ -3,7 +3,7 @@ id = "def-pur-td-datum"
 kind = "definition"
 title = "Trace–diagonal datum"
 order = 2031
-uses = ["def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
+uses = ["def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-weil-derived-tensor-functorial"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $f:X\to Y$ be separated finite type; Put
@@ -18,7 +18,7 @@ $$
 \operatorname{cl}_\Delta:\Delta_!\Lambda_X\longrightarrow p_2^*L.
 $$
 
-The *induced functor* is
+The *induced functor* (a functor by [lem-weil-derived-tensor-functorial]) is
 
 $$
 G_L:D^b_{ctf}(Y,\Lambda)\longrightarrow D^b_{ctf}(X,\Lambda),

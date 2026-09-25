@@ -3,7 +3,7 @@ id = "lem-sf-etale-direct-image-vanishing"
 kind = "lemma"
 title = "Vanishing of the higher direct images above the dimension"
 order = 1838
-uses = ["def-sc-etale-torsion-cd", "def-sf-uniform-direct-image-vanishing", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "fin4-lem-fibrewise-cohomological-dimension", "lem-kun-dimension-formula", "lem-sf-separably-closed-torsion-cd", "lem-weil-pbc-qcqs-higher-direct-image", "lemma-weil-pbc-geometric-stalk-conservative", "thm-sc-finite-type-torsion-cd"]
+uses = ["def-sc-etale-torsion-cd", "def-sf-uniform-direct-image-vanishing", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "fin4-lem-fibrewise-cohomological-dimension", "lem-kun-cd-stalk-criterion", "lem-kun-dimension-formula", "lem-sf-separably-closed-torsion-cd", "lem-weil-pbc-qcqs-higher-direct-image", "lemma-weil-pbc-geometric-stalk-conservative", "thm-sc-finite-type-torsion-cd"]
 +++
 Let $k$ be an algebraically closed field, let $X,Y$ be finite-type
 $k$-schemes with $\dim X\leq d$, let $f:X\to Y$ be a finite-type
@@ -36,7 +36,7 @@ $$
 =\varinjlim_{(W,\bar w)}H^q\bigl(W\times_YX,M|\bigr),
 $$
 
-the colimit running over the pointed étale neighbourhoods of $\bar y$.
+the colimit running over the pointed étale neighbourhoods of $\bar y$, as in [lem-kun-cd-stalk-criterion].
 
 Each $W\times_YX$ is a finite-type $k$-scheme, and it has dimension at
 most $d$: for a point $z\in W\times_YX$ with image $x\in X$ the

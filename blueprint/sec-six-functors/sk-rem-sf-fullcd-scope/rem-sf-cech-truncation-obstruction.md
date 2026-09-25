@@ -3,7 +3,7 @@ id = "rem-sf-cech-truncation-obstruction"
 kind = "remark"
 title = "The Čech complex of a single weakly contractible covering: what its truncation is missing, and what does not supply it"
 order = 2166
-uses = ["cor-sf-no-bounded-hypercover", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "lem-sf-acyclic-hypercover-terms-vanishing", "lem-sf-cech-truncation-criterion", "lem-sf-hypercover-nonempty-terms"]
+uses = ["def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site"]
 +++
 Let $T$ be a scheme, let $U\to T$ be a nonempty object of the
 small pro-étale site $T_{\Proet}$ of
@@ -22,13 +22,13 @@ bound on the length of a weakly contractible hypercovering can and cannot give.
 1. **(i)** *Every term of $K$ is nonempty, so this hypercover cannot be
 truncated at all.* Each $W^{n+1}$ contains the diagonal copy of $W$, so no
 term is empty and no truncation of $K$ is a hypercovering;
-[lem-sf-hypercover-nonempty-terms] shows that this is a property of
+*No hypercovering of a nonempty object has an empty term* shows that this is a property of
 hypercoverings and not of this construction, and
-[cor-sf-no-bounded-hypercover] draws the consequence.
+*The question of a bounded weakly contractible hypercovering has a negative answer* draws the consequence.
 1. **(ii)** *If all fibre products $W^{n+1}$ are weakly contractible, the
 Čech complex computes $R\Gamma(U,\mathcal F)$, and its truncation is
 legitimate exactly when the vanishing holds.* This is
-[lem-sf-cech-truncation-criterion]: the complex has a term in every degree,
+*Truncating the Čech complex of a single weakly contractible covering needs the vanishing as input*: the complex has a term in every degree,
 by (i), and its truncation at $N$ is a quasi-isomorphism if and only if
 $H^q(U,\mathcal F)=0$ for every $q>N$. The truncation therefore needs as
 input exactly the vanishing it is meant to produce, and no bounded replacement
@@ -49,9 +49,9 @@ members has the same shape. What Stacks Project, Pro-étale
 Cohomology, Lemma 61.14.1,
 [Tag 09A1](https://stacks.math.columbia.edu/tag/09A1), supplies instead is a
 hypercovering whose terms are weakly contractible by construction, and by
-[cor-sf-no-bounded-hypercover] that hypercovering is unbounded. The
+*The question of a bounded weakly contractible hypercovering has a negative answer* that hypercovering is unbounded. The
 criterion that is available in place of a length bound is the vanishing of the
-coefficient sheaf on the terms, [lem-sf-acyclic-hypercover-terms-vanishing].
+coefficient sheaf on the terms, *Vanishing above the degree in which the coefficient sheaf dies on the terms*.
 1. **(iv)** *Neither the degeneration of the spectral sequence nor the
 compact generation of the derived category bounds the degree.* If all terms are
 weakly contractible, the spectral sequence of Stacks Project, Hypercoverings,

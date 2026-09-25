@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Hasse–Weil bound"
 order = 3203
 tags = ["latex:corollary"]
-uses = ["cor-trf-point-counting", "def-sc-curves", "def-sc-genus", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-geometric-hypotheses", "def-weil-rationalization-karoubi", "prop-cohomological-finiteness", "prop-endpoints", "thm-sc-proper-cohomology", "thm-zl-riemann-hypothesis"]
+uses = ["cor-trf-point-counting", "def-sc-curves", "def-sc-genus", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-geometric-hypotheses", "def-weil-rationalization-karoubi", "prop-cohomological-finiteness", "prop-endpoints", "prop-weight-purity-roots", "thm-sc-proper-cohomology"]
 +++
 Fix the finite-field datum
 $(p,a,q,k_0,k)$, where $q=p^a$, choose a prime $\ell\neq p$, fix an
@@ -71,7 +71,7 @@ $$
 \dim_{\Qlb}H^1(C,\Qlb)=2g.
 $$
 
-Step 5: the trace bound. By [thm-zl-riemann-hypothesis] with
+Step 5: the trace bound. By [prop-weight-purity-roots] with
 $i=1$ and $d=1$, every eigenvalue $\alpha$ of $F$ on
 $H^1(C,\Qlb)$ satisfies $|\iota(\alpha)|=q^{1/2}$. Let
 $\alpha_1,\ldots,\alpha_{2g}$ be the eigenvalues with algebraic

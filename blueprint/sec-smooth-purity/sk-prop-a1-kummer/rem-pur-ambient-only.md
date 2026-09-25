@@ -73,7 +73,7 @@ The two closed-immersion statements
 the open-complement condition of the pair they treat, which is a statement
 about the ordinary direct image and is proved in the chapter on exceptional
 right adjoints from the direct-image finiteness theorems of Blueprints 06b
-and 07 ([cor-exc-closed-preservation-datum]). Apart from the ambient
+and 07 ([thm-sf-preservation-class]). Apart from the ambient
 exceptional right adjoint datum — a theorem on the coefficients used
 here, as just recorded — this chapter therefore assumes no geometric
 hypothesis at all.

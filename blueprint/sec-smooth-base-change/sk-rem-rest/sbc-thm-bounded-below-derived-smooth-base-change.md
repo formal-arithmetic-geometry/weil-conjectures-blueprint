@@ -3,7 +3,7 @@ id = "sbc-thm-bounded-below-derived-smooth-base-change"
 kind = "theorem"
 title = "Bounded-below derived smooth base change"
 order = 1455
-uses = ["lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-def-derived-categories-with-allowable-torsion", "sbc-lem-bounded-below-truncation-criterion", "sbc-thm-bounded-allowable-torsion", "sbc-thm-smooth-base-change"]
+uses = ["lem-weil-pbc-derived-stalk-conservative", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-def-derived-categories-with-allowable-torsion", "sbc-lem-bounded-below-truncation-criterion", "sbc-thm-bounded-allowable-torsion", "sbc-thm-smooth-base-change"]
 +++
 In the square of
 [sbc-thm-smooth-base-change] with $f$ smooth, $g$ quasi-compact
@@ -22,4 +22,4 @@ For each $n$ apply [sbc-thm-bounded-allowable-torsion] to
 $\tau_{\leq n}K$ (bounded, allowable torsion) and use
 [sbc-lem-bounded-below-truncation-criterion] to identify the
 abutments; detection on cohomology sheaves
-([lemma-weil-pbc-geometric-stalk-conservative]) gives the statement.
+([lem-weil-pbc-derived-stalk-conservative], [lemma-weil-pbc-geometric-stalk-conservative]) gives the statement.

@@ -13,6 +13,6 @@ Concretely, the affine-line orientation over an arbitrary base, the
 affine-space case, the Gysin sheaf/group identification, the frame
 transformation law, purity for vector bundles and smooth purity are proved
 there; the reader should read the purity chapter immediately after this one,
-and the consequences [cor-sf-trace], [cor-sf-trace-pairing] and [cor-sf-trace-isomorphism] are stated
+and the consequences [prop-pod-verdier-dual-on-smooth], *Perfectness of the trace–cup pairing* and *The trace isomorphism* are stated
 conditionally on [def-sf-orientation] precisely so that they do not
 depend on the order in which the two chapters are read.

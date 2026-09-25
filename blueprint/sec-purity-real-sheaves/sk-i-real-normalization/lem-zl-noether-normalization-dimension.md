@@ -3,7 +3,7 @@ id = "lem-zl-noether-normalization-dimension"
 kind = "lemma"
 title = "The number of Noether coordinates is the Krull dimension"
 order = 2880
-uses = ["lem-zl-noether-normalization-field", "pqf-lem-going-up", "pqf-lem-lying-over"]
+uses = ["lem-zl-noether-normalization-field", "pqf-lem-going-up", "pqf-lem-incomparability", "pqf-lem-lying-over"]
 +++
 Let $K$ be a field, $B\neq0$ a finitely generated commutative
 $K$-algebra, and $K[T_1,\ldots,T_d]\to B$ an injective $K$-algebra
@@ -26,7 +26,7 @@ $A$-module $B$ and satisfies the monic characteristic polynomial of that
 action (determinant trick). We show $\dim B=\dim A$ and then
 $\dim A=d$.
 
-*Step 1 ($\dim B\le\dim A$; incomparability).* Let
+*Step 1 ($\dim B\le\dim A$; incomparability, [pqf-lem-incomparability]).* Let
 $\mathfrak q\subsetneq\mathfrak q'$ be primes of $B$; we claim
 $\mathfrak q\cap A\neq\mathfrak q'\cap A$. Suppose both contract to
 $\mathfrak p$. Then $A/\mathfrak p\hookrightarrow B/\mathfrak q$ is

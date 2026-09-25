@@ -3,7 +3,7 @@ id = "thm-sc-jacobian-representability"
 kind = "theorem"
 title = "The Jacobian over a separably closed field"
 order = 859
-uses = ["def-pc-genus", "def-sc-jacobian", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-abelian-variety", "def-sc-pic0", "def-sc-picard-functor", "lem-sc-abelian-variety-projective", "lem-sc-pic-tangent-space", "prop-pd-picard-degree-decomposition", "thm-pc-picard-representable", "thm-sc-theorem-of-the-base"]
+uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-abelian-variety", "def-sc-jacobian", "def-sc-pic0", "def-sc-picard-functor", "lem-pc-picard-functor-agrees-sc", "lem-sc-abelian-variety-projective", "lem-sc-pic-tangent-space", "prop-pd-picard-degree-decomposition", "thm-pc-picard-representable", "thm-sc-theorem-of-the-base"]
 +++
 Let $k$ be a separably closed field and let $C$ be a
 smooth projective curve over $k$
@@ -42,7 +42,7 @@ $\operatorname{Pic}^0_{C/k}(k)=\operatorname{Pic}^0(C)$ of
 [def-sc-pic0].
 
 *(2) Representability.* The theorem of Grothendieck states
-that $\operatorname{Pic}_{C/k}$ is represented by a group scheme
+that $\operatorname{Pic}_{C/k}$ (which is the functor of [def-pc-picard-functor] by [lem-pc-picard-functor-agrees-sc]) is represented by a group scheme
 locally of finite type over $k$ ([thm-pc-picard-representable] of the Picard chapter; *reference: Stacks Project, Picard Schemes of Curves, Proposition 44.6.6, [Tag 0B9Z](https://stacks.math.columbia.edu/tag/0B9Z)*). The
 subfunctor $\operatorname{Pic}^0_{C/k}$ is represented by an open
 and closed subgroup scheme ([prop-pd-picard-degree-decomposition],

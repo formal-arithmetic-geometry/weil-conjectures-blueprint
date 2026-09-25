@@ -3,7 +3,7 @@ id = "def-per-support-condition"
 kind = "definition"
 title = "Support and cosupport conditions"
 order = 2985
-uses = ["def-weil-derived-cohomology-sheaves", "def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "def-wf-verdier-dual"]
+uses = ["def-trf-dualizing-complex", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be a
 separated scheme of finite
@@ -27,4 +27,4 @@ $$
 \operatorname{SuppCon}\bigl(D_XK\bigr),
 $$
 
-where $D_X$ is the Verdier dual of [def-wf-verdier-dual].
+where $D_X$ is the Verdier dual of [def-trf-dualizing-complex].

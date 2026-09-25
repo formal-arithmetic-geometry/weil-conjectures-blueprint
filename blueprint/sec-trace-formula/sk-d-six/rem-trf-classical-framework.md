@@ -95,7 +95,7 @@ proper-pushforward interface by
 [thm-trf-trace-proper-compatibility], the étale pullback
 compatibility by [lem-trf-etale-pullback-trace-class], the
 additivity by [prop-trf-trace-class-additivity] and
-[thm-trf-trace-additivity-categorical], the fixed-point
+*Additivity of the categorical traces of the global operators*, the fixed-point
 localization by [thm-trf-fixed-point-localization] with the
 diagonal case [lem-trf-localization-diagonal], and the
 comparison [thm-trf-lefschetz-verdier].
@@ -125,8 +125,8 @@ $e\in\operatorname{End}(P)$, $e^2=e$, and the resulting
 Karoubian category, as in
 [def-weil-rationalization-karoubi] of the framework chapter). The
 compatibility of the trace with these operations is proved step by step
-(in [prop-trf-levelwise-compact-support] and
-[thm-trf-integral-adic-trace-formula]) from the explicit
+(in [prop-trf-adic-coefficient-morphism-systems] and
+[thm-trf-integral-adic-coefficient-morphism-trace-formula]) from the explicit
 levelwise formulas, never from a general ``limits commute with
 functors'' statement in a higher category.
 1. *Koszul sign convention.* In every explicit computation

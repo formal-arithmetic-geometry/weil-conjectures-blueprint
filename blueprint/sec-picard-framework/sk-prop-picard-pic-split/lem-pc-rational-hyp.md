@@ -3,7 +3,7 @@ id = "lem-pc-rational-hyp"
 kind = "lemma"
 title = "Curves with a rational point satisfy the hypotheses"
 order = 825
-uses = ["def-pc-rational-point", "def-pc-smooth-projective-curve", "lem-pc-flat-base-change-cohom", "lem-pc-flat-field", "lem-pc-h0-proper-variety", "thm-pc-pic-split"]
+uses = ["def-pc-rational-point", "def-pc-smooth-projective-curve", "lem-pc-flat-base-change-cohom", "lem-pc-flat-field", "lem-pc-h0-proper-variety", "lem-pc-structure-pushforward", "thm-pc-pic-split"]
 +++
 (Picard Schemes of Curves, Lemma 44.6.1, Tag
 [0B9U](https://stacks.math.columbia.edu/tag/0B9U).)
@@ -31,4 +31,4 @@ $$
 f_{T,*}\mathcal{O}_{X_T}=g^*f_*\mathcal{O}_X=g^*\mathcal{O}_k=\mathcal{O}_T
 $$
 
-where $g:T\to\operatorname{Spec}(k)$. This proves the claim.
+where $g:T\to\operatorname{Spec}(k)$; this is [lem-pc-structure-pushforward], as $H^0(X,\mathcal{O}_X)=k$. This proves the claim.

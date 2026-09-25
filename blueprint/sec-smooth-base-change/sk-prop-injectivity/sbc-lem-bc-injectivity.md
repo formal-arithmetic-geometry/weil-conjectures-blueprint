@@ -3,7 +3,7 @@ id = "sbc-lem-bc-injectivity"
 kind = "lemma"
 title = "Injectivity of the critical map and its cokernel"
 order = 1396
-uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-leray-acyclicity", "sbc-def-base-change-map", "sbc-def-base-change-property"]
+uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-leray-acyclicity", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-naturality"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property], assume for
 some $q\geq1$ that $\mathrm{BC}(f,n,q-1)$ holds universally (in the
@@ -45,7 +45,7 @@ $R^qg_*\mathcal I=0$ for $q>0$, so the two long exact sequences of
 higher direct images of [def-weil-pbc-direct-image] (in the
 derived categories of [def-weil-pbc-derived-categories], the
 distinguished triangle of the short exact sequence) and the naturality
-of the base-change maps of [sbc-def-base-change-map] give the
+of the base-change maps of [sbc-def-base-change-map] ([sbc-lem-bc-naturality]) give the
 diagram with exact rows of the statement: the long exact sequences are
 the ones of [lemma-weil-pbc-five-lemma-transfer]; the left two
 vertical arrows are the degree-$(q-1)$ base-change maps for

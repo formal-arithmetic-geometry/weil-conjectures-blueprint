@@ -3,7 +3,7 @@ id = "thm-pur-projective-bundle-formula"
 kind = "theorem"
 title = "Projective-bundle formula without purity"
 order = 2073
-uses = ["cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-open-closed-recollement", "def-weil-scheme-morphism-properties", "lem-pur-divisor-class", "lem-pur-frame-independence", "lem-pur-kummer-additivity", "lem-pur-kunneth-supported", "prop-weil-proet-finite-proper-base-change", "thm-pur-rank-one-local-calculation", "thm-pur-rank-one-thom"]
+uses = ["cor-kun-compact-kunneth", "cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-open-closed-recollement", "def-weil-scheme-morphism-properties", "lem-pur-divisor-class", "lem-pur-frame-independence", "lem-pur-kummer-additivity", "lem-pur-kunneth-supported", "prop-weil-proet-finite-proper-base-change", "thm-pur-rank-one-local-calculation", "thm-pur-rank-one-thom"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $F$ be a
@@ -29,7 +29,7 @@ field and write $H=\mathbf P^{n-1}$ for the hyperplane at infinity
 of $\mathbf P^n$, with complement $\mathbf A^n$. By
 [thm-pur-rank-one-thom] on the fiber-wise structure, the Künneth
 formula for compactly supported cohomology
-cor:kun-compact-kunneth of the Künneth chapter — the
+[cor-kun-compact-kunneth] of the Künneth chapter — the
 *compact-support* statement, which is not the closed-support Künneth
 [lem-pur-kunneth-supported]: cohomology with support in the whole space
 is ordinary cohomology, whereas $R\Gamma_c$ is computed on a

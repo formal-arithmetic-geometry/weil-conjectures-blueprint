@@ -3,7 +3,7 @@ id = "rem-ptr-pc-projective-space-twist-17"
 kind = "remark"
 title = "Pointer to the properties of [def-pc-projective-space-twist]"
 order = 625
-uses = ["def-pc-projective-space-twist", "lem-pc-twist-cocycle", "lem-pc-twist-tensor", "lem-pc-twist-zero"]
+uses = ["def-pc-projective-space-twist", "lem-pc-twist-cocycle", "lem-pc-twist-tensor"]
 +++
 In the notation of [def-pc-projective-space-twist], the following holds. the well-definedness of this gluing,
 i.e. the cocycle rule for these units on triple intersections, is
@@ -15,6 +15,6 @@ write $\mathcal F(d)=\mathcal F\otimes\mathcal O_P(d)$.
 The identifications of $\mathcal O_P(d)\otimes\mathcal O_P(e)$ with
 $\mathcal O_P(d+e)$ and of $\mathcal O_P(0)$ with $\mathcal O_P$ induced
 by the local bases are [lem-pc-twist-tensor] and
-[lem-pc-twist-zero].
+*The trivial twist*.
 For $A=k$ and $n=1$ this is the convention of
 the earlier projective-line calculation.

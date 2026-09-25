@@ -2,8 +2,8 @@
 id = "lem-pur-gysin-structure"
 kind = "lemma"
 title = "Structure of the exceptional inverse image of the zero section"
-order = 2005
-uses = ["cor-amb-affine-space-adjunction", "def-coefficient-twists-detailed", "def-pur-affine-line-datum", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-amb-cartier-kummer-map", "lem-amb-closed-support-hom", "thm-pur-with-support-exactness", "thm-sf-ambient-adjoint-class", "thm-weil-pbc-site-comparison"]
+order = 2021
+uses = ["def-pur-affine-line-datum", "def-pur-conventions", "def-weil-derived-direct-image", "def-weil-exceptional-inverse-image", "fix-prop-adjunctions", "lem-amb-cartier-kummer-map", "lem-amb-closed-support-hom", "lem-pur-support-localization-triangle", "lem-weil-derived-direct-image-composition", "prop-pur-gm-relative-kummer", "thm-pur-with-support-exactness"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 explicit ingredients, let $\Lambda=A$, and let
@@ -33,25 +33,52 @@ purity – Milne, Lectures on Etale Cohomology, Section 16, Theorems
 
 ## Proof
 
-Work first on the ordinary etale site. Write $p:\mathbf A^1_Y\to Y$.
-The explicit adjunction of [cor-amb-affine-space-adjunction] gives
-$p^\times\Lambda_Y=\Lambda_{\mathbf A^1_Y}(1)[2]$. The composition
-of exceptional right adjoints, obtained by composing their Hom
-adjunctions as in [def-weil-exceptional-inverse-image], and
-$ps=\operatorname{id}_Y$ therefore give
-
+Write $p:\mathbf A^1_Y\to Y$, $j:\mathbf G_{m,Y}\hookrightarrow\mathbf A^1_Y$
+and $\pi=pj$ as in [def-pur-affine-line-datum]. Apply the localization
+triangle of [lem-pur-support-localization-triangle] for the closed–open
+pair $(s,j)$ and $K=\Lambda(1)_{\mathbf A^1_Y}$, whose first term is
+built from the exceptional inverse image of
+[def-weil-exceptional-inverse-image],
 $$
-Rs^!\Lambda_{\mathbf A^1_Y}(1)[2]
-\cong Rs^!p^\times\Lambda_Y
-\cong R(ps)^!\Lambda_Y=\Lambda_Y.
+s_*Rs^!\Lambda(1)\longrightarrow\Lambda(1)\longrightarrow
+Rj_*j^*\Lambda(1)\xrightarrow{+1},
 $$
-
-This proves concentration, constructibility, and the free rank-one
-assertion together; constancy is not inferred from constancy of ranks.
-The comparison of actual ambient adjoints in
-[thm-sf-ambient-adjoint-class] and the fully faithful realization
-[thm-weil-pbc-site-comparison] transport this calculation, including
-its counits, to the etale-origin objects on the small pro-etale site.
+and then the triangulated functor $Rp_*$ of
+[def-weil-derived-direct-image]. Since $s_*$ is exact,
+$Rp_*s_*=R(ps)_*=\operatorname{id}$, and $Rp_*Rj_*=R\pi_*$ by the
+composition of derived direct images
+[lem-weil-derived-direct-image-composition], this gives a
+distinguished triangle on $Y$
+$$
+Rs^!\Lambda(1)\longrightarrow Rp_*\Lambda(1)\xrightarrow{\ j^*\ }
+R\pi_*\Lambda(1)\xrightarrow{\ \delta\ }Rs^!\Lambda(1)[1].
+$$
+By [prop-pur-gm-relative-kummer](1) the middle term is $\Lambda_Y(1)$ in
+degree $0$, via the unit of $p$. By [prop-pur-gm-relative-kummer](2),(3)
+the right-hand term has $\mathcal H^0=\Lambda_Y(1)$ via the unit of
+$\pi$, $\mathcal H^1$ free of rank one on $\kappa(t)$, and no other
+cohomology sheaves. By [fix-prop-adjunctions](3) the unit of $\pi$ is
+$j^*$ composed with the unit of $p$, so $\mathcal H^0(j^*)$ is an
+isomorphism. The long exact sequence of cohomology sheaves
+$$
+0\to\mathcal H^0(Rs^!\Lambda(1))\to R^0p_*\Lambda(1)\xrightarrow{\sim}
+R^0\pi_*\Lambda(1)\to\mathcal H^1(Rs^!\Lambda(1))\to R^1p_*\Lambda(1)=0
+\to R^1\pi_*\Lambda(1)\xrightarrow{\ \delta\ }\mathcal H^2(Rs^!\Lambda(1))
+\to R^2p_*\Lambda(1)=0\to\cdots
+$$
+therefore gives $\mathcal H^m(Rs^!\Lambda(1))=0$ for $m\neq2$ (for
+$m\geq3$ it sits between $R^{m-1}\pi_*\Lambda(1)=0$ and
+$R^mp_*\Lambda(1)=0$), and an isomorphism
+$$
+\delta:\ \Lambda_Y\cdot\kappa(t)=R^1\pi_*\Lambda(1)\xrightarrow{\ \sim\ }
+\mathcal H^2(Rs^!\Lambda(1))=\mathcal H^0\bigl(Rs^!\Lambda(1)[2]\bigr).
+$$
+So $Rs^!\Lambda_{\mathbf A^1_Y}(1)[2]$ is concentrated in degree zero,
+with cohomology sheaf the constant sheaf $\Lambda_Y$, free of rank one on
+the boundary $\delta\kappa(t)$; in particular it is lisse of rank one,
+constructible, and of finite Tor amplitude, i.e. it lies in
+$D^b_{ctf}(Y,\Lambda)$. Constancy is read off from the triangle; it is
+not inferred from constancy of ranks.
 
 For the second assertion, the support identification
 [lem-amb-closed-support-hom] identifies

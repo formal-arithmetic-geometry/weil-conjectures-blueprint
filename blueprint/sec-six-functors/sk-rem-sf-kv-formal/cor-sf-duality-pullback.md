@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Duality against pullback"
 order = 2373
 tags = ["latex:corollary"]
-uses = ["def-sf-datum", "def-sf-orientation", "fix-prop-adjunctions", "lem-sf-mate", "thm-fix-general-biduality", "thm-sf-biduality", "thm-sf-verdier-exchange"]
+uses = ["def-sf-datum", "def-sf-orientation", "fix-prop-adjunctions", "lem-sf-mate", "thm-fix-general-biduality", "thm-sf-verdier-exchange"]
 +++
 In the setting of [def-sf-datum], let $f:X\to Y$ be separated of finite
 type. Then
@@ -21,7 +21,7 @@ dimension $d$, this reads $D_XLf^*\cong Lf^*D_Y(d)[2d]$.
 
 The Verdier exchange $D_YRf_!\cong Rf_*D_X$ is [thm-sf-verdier-exchange],
 proved in this chapter from the tensor–Hom exchange and the projection
-formula; biduality, axiom (A6), is [thm-sf-biduality] of this chapter,
+formula; biduality, axiom (A6), is [def-sf-datum] of this chapter,
 where its geometric input is [thm-fix-general-biduality]; and the adjunctions $Lf^*\dashv Rf_*$ and
 $Rf_!\dashv Rf^!$ are those of [fix-prop-adjunctions]. Since $D_Y$ is
 an anti-equivalence with inverse $D_Y$ by biduality, its right adjoint is

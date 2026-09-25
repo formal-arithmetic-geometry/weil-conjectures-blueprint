@@ -3,7 +3,7 @@ id = "lem-pc-cartier-criterion"
 kind = "lemma"
 title = "The Cartier criterion on smooth one-dimensional fibres"
 order = 794
-uses = ["def-pc-finite-locally-free", "def-pc-morphism-conventions", "def-pc-relative-effective-cartier", "def-sc-effective-cartier-divisor", "lem-pc-recd-locally-principal", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "rem-pc-regularity-sc"]
+uses = ["cor-pqf-proper-quasifinite-finite", "def-pc-finite-locally-free", "def-pc-morphism-conventions", "def-pc-relative-effective-cartier", "def-sc-effective-cartier-divisor", "lem-pc-recd-locally-principal", "lem-sc-cartier-divisor-points", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "pqf-lem-locqf-fibre-discrete", "rem-pc-regularity-sc"]
 +++
 (Picard Schemes of Curves, Lemma 44.3.1, Tag
 [0B9D](https://stacks.math.columbia.edu/tag/0B9D).) Let
@@ -46,8 +46,8 @@ points with their Artinian structures
 ([def-sc-effective-cartier-divisor] and the local theory of
 [rem-pc-regularity-sc]: the fibre of a relative effective Cartier
 divisor is an effective Cartier divisor, and on a smooth curve those
-are the finite unions of closed points); hence $D_s$ is finite, so
-$D\to S$ is locally quasi-finite (the fibres are discrete and locally
+are the finite unions of closed points, [lem-sc-cartier-divisor-points]); hence $D_s$ is finite, so
+$D\to S$ is locally quasi-finite ([pqf-lem-locqf-fibre-discrete]; the fibres are discrete and locally
 finite; the standard equivalence: a morphism is locally quasi-finite
 iff its fibres are discrete).
 
@@ -80,7 +80,7 @@ locally quasi-finite (by (2)$\Rightarrow$(3)) and flat; $D\to S$ is
 proper: $D\to X$ is a closed immersion (hence proper) and $X\to S$ is
 proper (a composition of proper morphisms is proper, the standard
 statement, used through [def-pc-morphism-conventions]). A proper
-locally quasi-finite morphism is finite (More on Morphisms,
+locally quasi-finite morphism is finite ([cor-pqf-proper-quasifinite-finite]; More on Morphisms,
 Lemma 37.44.1, Tag
 [02LS](https://stacks.math.columbia.edu/tag/02LS)); a finite flat
 and finitely presented morphism is finite locally free (Morphisms,

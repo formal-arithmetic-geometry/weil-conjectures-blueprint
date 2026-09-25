@@ -7,4 +7,4 @@ uses = ["def-pc-perfect-complex"]
 +++
 In the notation of [def-pc-perfect-complex], the following holds. The perfectness of an
 invertible module is
-[lem-pc-invertible-perfect].
+*Invertible modules are perfect*.

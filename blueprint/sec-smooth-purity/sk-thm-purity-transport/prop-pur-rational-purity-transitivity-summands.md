@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Transitivity and summand preservation of rational purity"
 order = 2121
 tags = ["latex:proposition"]
-uses = ["prop-weil-pbc-descent-functors", "prop-weil-pbc-rational-transport", "thm-weil-pbc-idempotent-complete-triangulation"]
+uses = ["prop-pur-smooth-purity-naturality-cover", "prop-weil-pbc-descent-functors", "prop-weil-pbc-rational-transport", "thm-weil-pbc-idempotent-complete-triangulation"]
 +++
 The purity isomorphisms of
 [thm-pur-rational-and-qbar-purity] are transitive in coefficient
@@ -22,6 +22,6 @@ $E'$, giving the transitivity. The independence from the finite stage
 and from the particular presentation is the independence of the descent
 functors of [prop-weil-pbc-descent-functors] and the idempotent
 completeness of [thm-weil-pbc-idempotent-complete-triangulation]
-(the purity isomorphism is natural in the object, hence commutes with
+(the purity isomorphism is natural in the object by [prop-pur-smooth-purity-naturality-cover], hence commutes with
 the descent from a finite stage and with the extension of the
 coefficient field).

@@ -3,7 +3,7 @@ id = "lem-ag-faithful-semisimple-lie-central-radical"
 kind = "lemma"
 title = "A faithful semisimple Lie representation forces a central radical"
 order = 2656
-uses = ["def-wf-lie-radical-centre", "lem-ag-central-radical-quotient", "lem-wf-solvable-common-eigenvector"]
+uses = ["def-wf-lie-radical-centre", "lem-ag-central-radical-quotient", "lem-wf-solvable-common-eigenvector", "lem-wf-sum-of-solvable-ideals"]
 +++
 Let $L$ be a finite-dimensional Lie algebra over
 $\overline{\mathbf Q}_\ell$, and let $\rho:L\to\operatorname{End}(V)$ be
@@ -22,8 +22,11 @@ where the plus sign denotes a sum of subspaces.
 
 ## Proof
 
-Put $\mathfrak r=\operatorname{rad}L$, the largest solvable ideal of
-[def-wf-lie-radical-centre], and write $xv$ for $\rho(x)v$. Fix one
+Put $\mathfrak r=\operatorname{rad}L$, the sum of all solvable ideals
+of [def-wf-lie-radical-centre]. As $L$ is finite-dimensional, this is
+a finite sum of solvable ideals, so it is a solvable ideal by
+[lem-wf-sum-of-solvable-ideals] and induction on the number of summands.
+Write $xv$ for $\rho(x)v$. Fix one
 summand $M=M_i$. The solvable Lie algebra $\mathfrak r$ acts on
 $M\ne0$ through $\rho$, so [lem-wf-solvable-common-eigenvector] gives
 a linear form $\lambda:\mathfrak r\to\overline{\mathbf Q}_\ell$ for which

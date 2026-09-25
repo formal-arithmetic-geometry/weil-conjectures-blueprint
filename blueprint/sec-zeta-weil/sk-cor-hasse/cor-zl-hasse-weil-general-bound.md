@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Hasse–Weil bound in every dimension"
 order = 3204
 tags = ["latex:corollary"]
-uses = ["cor-trf-point-counting", "cor-zl-hasse-bound", "def-weil-algebraically-closed-coefficients", "def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-reciprocal-roots", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-endpoints", "thm-zl-riemann-hypothesis"]
+uses = ["cor-trf-point-counting", "cor-zl-hasse-bound", "def-weil-algebraically-closed-coefficients", "def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-reciprocal-roots", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-endpoints", "prop-weight-purity-roots"]
 +++
 Fix the finite-field datum
 $(p,a,q,k_0,k)$, where $q=p^a$, and a prime $\ell\neq p$; write
@@ -81,7 +81,7 @@ $\alpha_{i,1},\ldots,\alpha_{i,b_i}$ be the eigenvalues of $F_{i,\ell}$
 on $V_{i,\ell}$ with algebraic multiplicity; they are the reciprocal
 roots of $P_{i,\ell}$, and there are $b_i=\deg P_{i,\ell}$ of them
 ([def-weil-smooth-proper-cohomological-family]). By
-[thm-zl-riemann-hypothesis], $|\iota(\alpha_{i,j})|=q^{i/2}$ for every
+[prop-weight-purity-roots], $|\iota(\alpha_{i,j})|=q^{i/2}$ for every
 $j$. The trace of $F_{i,\ell}^n$ is $\sum_j\alpha_{i,j}^n$ and $\iota$
 is a field isomorphism, so the triangle inequality in $\mathbf C$ gives
 

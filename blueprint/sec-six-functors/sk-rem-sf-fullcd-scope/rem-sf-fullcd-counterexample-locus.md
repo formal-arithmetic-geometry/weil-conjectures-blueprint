@@ -3,7 +3,7 @@ id = "rem-sf-fullcd-counterexample-locus"
 kind = "remark"
 title = "Where the counterexample lives, and which restricted statements survive it"
 order = 2168
-uses = ["cor-sf-continuity-fullcd", "def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-sf-proetale-constructible-origin", "open-sf-ambient-adjoint-input", "prop-sf-comparison-bound-zero", "prop-sf-fullcd-general-form-false", "rem-sf-fullcd-counterexample", "rem-sf-fullcd-general-form", "rem-sf-fullcd-reduction", "thm-sf-ambient-adjoint-class", "thm-sf-continuity-arbitrary-sheaves-vanishing", "thm-sf-fullcd-class", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
+uses = ["def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-sf-proetale-constructible-origin", "open-sf-ambient-adjoint-input", "prop-sf-comparison-bound-zero", "rem-sf-fullcd-counterexample", "rem-sf-fullcd-general-form", "rem-sf-fullcd-reduction", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
 +++
 The three items of the refutation ([prop-sf-comparison-bound-zero], [rem-sf-fullcd-counterexample]) leave the following picture
 of the failure. The counterexample of
@@ -85,7 +85,7 @@ direction of the Leray spectral sequence of [thm-sp-grothendieck] and not
 a lower bound on $R^q\nu_{\overline X,*}$. This is the form of the condition
 that the blueprint uses.
    1. For arbitrary coefficients on arbitrary pro-étale base changes the
-statement is *false*: [prop-sf-fullcd-general-form-false] refutes the
+statement is *false*: *The all-sheaves, uniform-in-the-base-change form of the comparison bound is false* refutes the
 form recorded in [rem-sf-fullcd-general-form], in which the bound is asked
 for every sheaf of $A$-modules and uniformly over the base changes. The
 blueprint therefore restricts to the class it uses: the interface
@@ -105,13 +105,13 @@ $Y_{\Proet}$ — and the finite-type bounds of the chain may not be read as
 such a restriction, since by clause (i) above the object of the counterexample
 is itself a limit of finite-type models with affine transition maps, over which
 the finite-type bound does not pass. The only statement of that shape is the
-conditional [cor-sf-continuity-fullcd], which derives the vanishing for
+conditional *Continuity for arbitrary sheaves gives the full cohomological-dimension bound*, which derives the vanishing for
 arbitrary sheaves on limits of finite-type $k$-schemes of dimension at most
 $d$ from its continuity hypothesis $(\mathrm{Co})$ for arbitrary sheaves;
 that hypothesis is not proved anywhere in this manuscript, and the continuity
 statement $(\mathrm{C}_q)$ from which that route starts fails at the
 counterexample's $U$ in the degrees of clause (vi), by the contrapositive of
-[thm-sf-continuity-arbitrary-sheaves-vanishing]. The variant is therefore
+*Continuity for arbitrary sheaves implies the vanishing*. The variant is therefore
 neither proved nor refuted here, and no statement of this chapter rests on it:
 what the manuscript proves is the class form of the preceding item, and it is
 only on that class that the statements depending on the ambient datum are

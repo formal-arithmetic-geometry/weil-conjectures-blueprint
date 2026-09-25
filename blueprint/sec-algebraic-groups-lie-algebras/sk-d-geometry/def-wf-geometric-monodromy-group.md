@@ -3,7 +3,7 @@ id = "def-wf-geometric-monodromy-group"
 kind = "definition"
 title = "Geometric monodromy group"
 order = 2661
-uses = ["def-wf-fundamental-representation", "def-wf-weil-group"]
+uses = ["def-sc-general-linear-group", "def-wf-fundamental-representation", "def-wf-weil-group"]
 +++
 Let $\Pi=\pi_1(X,\bar x)$ be the geometric subgroup of the
 Weil group and let
@@ -18,7 +18,7 @@ $$
 
 The closure is taken in the Zariski topology of the affine algebraic
 group
-$\operatorname{GL}(V)=\operatorname{Spec} \overline{\mathbf Q}_\ell[x_{ij},\det(x)^{-1}]$, not in the ambient
+$\operatorname{GL}(V)=\operatorname{Spec} \overline{\mathbf Q}_\ell[x_{ij},\det(x)^{-1}]$ of [def-sc-general-linear-group], not in the ambient
 affine space of all matrices. Equivalently it is the common zero locus
 in $\operatorname{GL}(V)$ of the regular functions vanishing on
 $\rho(\Pi)$. That this closure is a subgroup is

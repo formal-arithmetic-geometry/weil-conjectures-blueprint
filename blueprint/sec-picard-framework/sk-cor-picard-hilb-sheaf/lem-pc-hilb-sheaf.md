@@ -3,7 +3,7 @@ id = "lem-pc-hilb-sheaf"
 kind = "lemma"
 title = "$\\operatorname{Hilb}^d$ is an fppf sheaf"
 order = 782
-uses = ["def-pc-finite-locally-free", "def-pc-fppf-site", "def-pc-hilb-functor", "lem-pc-descent-finite-flat-closed-subschemes"]
+uses = ["def-pc-finite-locally-free", "def-pc-fppf-site", "def-pc-hilb-functor", "lem-pc-descent-finite-flat-closed-subschemes", "lem-pc-hilb-functorial"]
 +++
 (Picard Schemes of Curves, Lemma 44.2.1, Tag
 [0B95](https://stacks.math.columbia.edu/tag/0B95), which asserts the
@@ -19,7 +19,7 @@ Let $\{T_i\to T\}_{i\in I}$ be an fppf covering of schemes over $S$
 ([def-pc-fppf-site]; an fppf covering is flat, locally of finite
 presentation and surjective, hence faithfully flat: it is an fpqc
 covering in particular) and let $Z_i\in\operatorname{Hilb}^d_{X/S}(T_i)$ be objects
-such that $Z_i$ and $Z_{i'}$ map to the same element of
+such that $Z_i$ and $Z_{i'}$ map (under the restriction maps of [lem-pc-hilb-functorial]) to the same element of
 $\operatorname{Hilb}^d_{X/S}(T_i\times_TT_{i'})$; say $Z_i$ corresponds to a closed
 subscheme $\varphi_i:Z_i\hookrightarrow X_{T_i}$ (the definition
 [def-pc-hilb-functor]) and the compatibility means: the two

@@ -3,7 +3,7 @@ id = "lem-fix-operation-reduction"
 kind = "lemma"
 title = "Basic operations and coefficient reduction"
 order = 1946
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-integral-rational-qbar-compact-support", "def-weil-rationalization-karoubi", "def-weil-site-perfect-complex", "lem-fix-compact-support-coefficient-change", "lem-weil-scalar-extension-exact-triangulated", "lemma-weil-pbc-perfect-projection-formula", "prop-weil-pbc-direct-image-limits"]
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-integral-rational-qbar-compact-support", "def-weil-rationalization-karoubi", "def-weil-site-perfect-complex", "lem-fix-compact-support-coefficient-change", "lem-weil-pbc-standard-quotients-perfect", "lem-weil-scalar-extension-exact-triangulated", "lemma-weil-pbc-perfect-projection-formula", "prop-weil-pbc-direct-image-limits"]
 +++
 For the derived-complete
 coefficient categories, reduction $\mathcal O_E\to A_{E,n}$ commutes
@@ -40,7 +40,7 @@ module is compatible with tensoring the coefficients.
 
 The two-term free resolution
 $[\mathcal O_E\xrightarrow{\varpi_E^n}\mathcal O_E]$
-shows that $A_{E,n}$ is perfect over $\mathcal O_E$.
+shows that $A_{E,n}$ is perfect over $\mathcal O_E$ ([lem-weil-pbc-standard-quotients-perfect]).
 For internal Hom this gives, without a perfectness assumption on $K$,
 
 $$

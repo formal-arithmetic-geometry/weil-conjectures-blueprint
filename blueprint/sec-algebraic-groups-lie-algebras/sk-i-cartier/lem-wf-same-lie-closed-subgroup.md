@@ -3,7 +3,7 @@ id = "lem-wf-same-lie-closed-subgroup"
 kind = "lemma"
 title = "Smoothness, dimension and Lie algebras of matrix groups"
 order = 2674
-uses = ["def-wf-algebraic-components", "def-wf-lie-algebra-derivation"]
+uses = ["def-wf-algebraic-components", "def-wf-lie-algebra-derivation", "lem-sc-translation-automorphism", "lem-wf-affine-dimension-drop", "lem-wf-smooth-components-disjoint"]
 +++
 Let $K$ be a closed matrix group over $\overline{\mathbf Q}_\ell$.
 
@@ -35,7 +35,8 @@ is an integral domain. If two distinct irreducible components of
 $K$ met at a point $x$, the local ring $\mathcal O_{K,x}$ would
 have at least two minimal prime ideals, one from each component, and
 could not be a domain. Therefore the finitely many irreducible
-components of $K$ are pairwise disjoint; each is consequently both
+components of $K$ are pairwise disjoint
+([lem-wf-smooth-components-disjoint]); each is consequently both
 open and closed.
 
 *Dimension.* Smoothness at the identity makes
@@ -43,7 +44,8 @@ $\mathcal O_{K,1}$ regular, so
 $\dim_k\mathfrak m_1/\mathfrak m_1^2=\dim\mathcal O_{K,1}$, and the
 left side is the dimension of the tangent space at the identity, which
 is $\operatorname{Lie}(K)$ by [def-wf-lie-algebra-derivation].
-Translations are automorphisms of the variety $K$, so the local
+Translations are automorphisms of the variety $K$
+([lem-sc-translation-automorphism]), so the local
 dimensions $\dim\mathcal O_{K,g}$ at all closed points $g$ agree, and
 the dimension of $K$ is their maximum. Hence
 $\dim\operatorname{Lie}(K)=\dim K$, and likewise
@@ -70,7 +72,8 @@ irreducible.
 *Equal Lie algebras.* Let $K$ be connected, hence irreducible, and
 $L\subseteq K$ with $\operatorname{Lie}(L)=\operatorname{Lie}(K)$.
 By (2), equality of Lie algebras gives $\dim L=\dim K$. A proper closed
-subset of the irreducible variety $K$ has smaller dimension, so
+subset of the irreducible variety $K$ has smaller dimension
+([lem-wf-affine-dimension-drop]), so
 $L=K$.
 This proves (1).
 

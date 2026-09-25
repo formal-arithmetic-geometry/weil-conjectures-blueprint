@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Point-counting trace formula"
 order = 2569
 tags = ["latex:corollary"]
-uses = ["def-trf-frobenius-operators", "def-weil-finite-field-fiber", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "thm-trf-grothendieck-lefschetz-qbar"]
+uses = ["cor-trf-constant-stalk-trace", "def-trf-frobenius-operators", "def-weil-finite-field-fiber", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "thm-trf-grothendieck-lefschetz-qbar"]
 +++
 Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, let $X_0$ be a
@@ -57,7 +57,7 @@ $$
 \sum_{j}(-1)^j\operatorname{Tr}\bigl(F_{y,m}\mid H^j(K_{\bar y})\bigr)=1
 $$
 
-for every rational point $y$, and the right-hand side of
+for every rational point $y$ (the unit stalk trace of [cor-trf-constant-stalk-trace], read at the field stage), and the right-hand side of
 [thm-trf-grothendieck-lefschetz-qbar] is the cardinality of
 $X_0(\mathbf F_{q^m})$, which is finite because $X_0$ is of finite
 type. This is the first identity; the second is the identification

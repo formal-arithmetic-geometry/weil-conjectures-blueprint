@@ -3,7 +3,7 @@ id = "lem-per-smooth-pullback-t-exact"
 kind = "lemma"
 title = "Smooth pullback is perverse up to the shift"
 order = 2989
-uses = ["def-per-perverse-subcategories", "def-per-support-condition", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "fix-cor-verdier-exchange", "lem-per-lisse-tensor-permanence", "lem-wf-smooth-dualizing-complex", "prop-functor-package"]
+uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "def-per-perverse-subcategories", "def-per-support-condition", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "fix-cor-verdier-exchange", "lem-per-lisse-tensor-permanence", "prop-functor-package"]
 +++
 Let $f:X\to Y$ be a smooth
 morphism of constant relative dimension $d$ between separated schemes
@@ -46,7 +46,7 @@ morphism as follows. By the Verdier exchange of
 for $f$ and the second dualities of the weight-foundations chapter) and by the smooth
 identity $Rf^!M\cong Lf^*M(d)[2d]$ (the smooth-purity form of the
 dualizing complexes of the smooth morphism,
-[lem-wf-smooth-dualizing-complex] and [prop-functor-package]),
+[cor-pur-adic-and-rational-smooth-dualizing-complexes] and [prop-functor-package]),
 
 $$
 D_X\bigl(Lf^*[d]K\bigr)

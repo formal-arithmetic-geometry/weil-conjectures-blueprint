@@ -3,7 +3,7 @@ id = "rem-sf-preservation-matrix"
 kind = "remark"
 title = "Preservation results and their actual hypotheses"
 order = 2358
-uses = ["cor-coef-integral-internal-hom", "cor-sf-admissibility-class", "cor-sf-direct-image-ctf-proetale", "cor-sf-hom-ctf-proetale-unconditional", "cor-weil-boundary-duality-discharge", "lem-coef-integral-hom-reduction", "lem-coef-normalized-dvr-effectivity", "lem-sf-pullback-tor-amplitude", "lem-sf-tensor-ctf", "prop-coef-integral-exceptional-adjoint", "rem-sf-proetale-hom-status", "rem-sf-tower-shapes-occurring", "thm-sf-biduality-class", "thm-sf-hom-ctf", "thm-sf-preservation-class"]
+uses = ["cor-coef-integral-internal-hom", "cor-sf-direct-image-ctf-proetale", "cor-sf-hom-ctf-proetale-unconditional", "cor-weil-boundary-duality-discharge", "lem-coef-integral-hom-reduction", "lem-coef-normalized-dvr-effectivity", "lem-sf-pullback-tor-amplitude", "lem-sf-tensor-ctf", "prop-coef-integral-exceptional-adjoint", "rem-sf-proetale-hom-status", "rem-sf-tower-shapes-occurring", "thm-sf-biduality-class", "thm-sf-hom-ctf", "thm-sf-preservation-class"]
 +++
 The finite-coefficient results used in the assembly have these scopes:
 
@@ -20,7 +20,7 @@ records the geometric obstruction. The dimension-dependent bound in
 constructible first variable.
 1. Exceptional preservation is [thm-sf-preservation-class].
 The dualizing object and general finite-coefficient geometric dual bound
-are [cor-sf-admissibility-class]. General finite-stage biduality is
+are [lem-weil-verdier-preservation-strata]. General finite-stage biduality is
 [thm-sf-biduality-class]; closed-boundary exchange follows in
 [cor-weil-boundary-duality-discharge].
 1. Integral Hom reduction and preservation are

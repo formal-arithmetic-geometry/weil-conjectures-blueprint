@@ -3,10 +3,10 @@ id = "rem-sf-preservation-class-residue"
 kind = "remark"
 title = "Constructible completion and the ambient boundary"
 order = 2409
-uses = ["cor-coef-finite-verdier", "cor-sf-admissibility-class", "cor-weil-boundary-duality-discharge", "def-pod-conventions", "def-trf-admissibility", "lem-coef-finite-exceptional", "lem-coef-integral-finite-extension", "lem-coef-integral-hom-reduction", "lem-coef-rational-operations", "prop-coef-integral-exceptional-adjoint", "rem-sf-class-adjoint-residue", "rem-sf-tower-shapes-occurring", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-fix-general-biduality", "thm-sf-preservation-class"]
+uses = ["cor-coef-finite-verdier", "cor-weil-boundary-duality-discharge", "def-pod-conventions", "def-trf-admissibility", "lem-coef-finite-exceptional", "lem-coef-integral-finite-extension", "lem-coef-integral-hom-reduction", "lem-coef-rational-operations", "prop-coef-integral-exceptional-adjoint", "rem-sf-class-adjoint-residue", "rem-sf-tower-shapes-occurring", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-fix-general-biduality", "thm-sf-preservation-class"]
 +++
 Finite exceptional preservation and the geometric duality bound are
-[thm-sf-preservation-class], [cor-sf-admissibility-class].
+[thm-sf-preservation-class], [lem-weil-verdier-preservation-strata].
 Finite biduality and its boundary exchange are
 [thm-fix-general-biduality], [cor-weil-boundary-duality-discharge].
 The coefficient comparisons needed to pass further are now proved:

@@ -3,7 +3,7 @@ id = "lem-weil-pbc-rectangle-derived-limit"
 kind = "lemma"
 title = "The rectangle passes to the derived limit"
 order = 1357
-uses = ["def-weil-pbc-derived-inverse-limit", "lem-weil-pbc-tower-compatibility"]
+uses = ["def-weil-pbc-derived-inverse-limit", "lem-weil-pbc-tower-compatibility", "prop-weil-pbc-rlim-functoriality"]
 +++
 Put
 $$
@@ -12,7 +12,7 @@ $$
  C_\infty=\Rlim C_\bullet,\quad
  D_\infty=\Rlim D_\bullet,
 $$
-and let $H,V,H',V'$ be the images under the triangulated functor $\Rlim$ of
+and let $H,V,H',V'$ be the images under the triangulated functor $\Rlim$ ([prop-weil-pbc-rlim-functoriality]) of
 the four compatible tower morphisms $h,v,h',v'$. Then
 $$
  V'H=H'V:A_\infty\longrightarrow D_\infty.

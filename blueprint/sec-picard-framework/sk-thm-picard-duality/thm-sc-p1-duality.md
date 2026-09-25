@@ -3,7 +3,7 @@ id = "thm-sc-p1-duality"
 kind = "theorem"
 title = "Duality on the projective line"
 order = 705
-uses = ["def-sc-ext-sheaf", "def-sc-kahler-differentials", "def-sc-p1-standard", "lem-sc-ext-locally-free", "lem-sc-four-lemma", "lem-sc-p1-graded-resolution", "lem-sc-p1-hi-vanishing", "lem-sc-p1-monomial", "lem-sc-p1-twist-exists"]
+uses = ["def-sc-ext-sheaf", "def-sc-kahler-differentials", "def-sc-p1-standard", "lem-pc-projective-space-serre-pairing", "lem-sc-ext-locally-free", "lem-sc-four-lemma", "lem-sc-p1-graded-resolution", "lem-sc-p1-hi-vanishing", "lem-sc-p1-monomial", "lem-sc-p1-twist-exists"]
 +++
 Let $k$ be an algebraically closed field. For every coherent
 $\mathcal O_{\mathbf P^1_k}$-module $\mathcal G$, with
@@ -49,7 +49,7 @@ x_0^{j-d-1}x_1^{-1-j}
 $$
 
 (for $d\leq-2$; both are zero otherwise), the pairing
-$\langle[t^{j}],x_0^{j-d-1}x_1^{-1-j}\rangle=1$ is perfect, because
+$\langle[t^{j}],x_0^{j-d-1}x_1^{-1-j}\rangle=1$ is perfect (the case $n=1$, $A=k$ of [lem-pc-projective-space-serre-pairing]), because
 the product class is the basis element $[t^{-1}]$ of
 $H^1(\mathbf P^1_k,\mathcal O(-2))\cong k$. Hence, for $d\leq-2$,
 

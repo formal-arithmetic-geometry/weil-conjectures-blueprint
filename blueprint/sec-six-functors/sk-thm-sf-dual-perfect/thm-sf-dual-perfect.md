@@ -3,7 +3,7 @@ id = "thm-sf-dual-perfect"
 kind = "theorem"
 title = "The dual of a perfect complex"
 order = 2296
-uses = ["def-sf-datum", "def-sf-orientation", "def-sf-pf", "lem-sf-twist-interchange", "prop-sf-dualizable-biduality"]
+uses = ["def-sf-datum", "def-sf-orientation", "def-sf-pf", "lem-sf-twist-interchange"]
 +++
 In the setting of [def-sf-datum], let $X$ be separated of finite type
 with exceptional-adjoint admissible structure morphism and let
@@ -12,7 +12,7 @@ orientation of [def-sf-orientation] holds, then
 $D_XK\cong K^\vee(d)[2d]$, so that
 $D_X$ restricts to an anti-equivalence on the perfect objects, where the
 biduality $K\to D_XD_XK$ is the coefficient-dual biduality of
-[prop-sf-dualizable-biduality].
+[prop-pod-perfect-dualizable].
 
 ## Proof
 
@@ -24,5 +24,5 @@ into the Verdier dual $D_XK=R\mathcal H om_X(K,\omega_X)$ of
 second variable:
 $D_XK\cong R\mathcal H om_X(K,\Lambda_X(d)[2d])\cong \bigl(R\mathcal H om_X(K,\Lambda_X(d))\bigr)[2d]\cong K^\vee(d)[2d]$. The
 restriction to the perfect objects is then
-[prop-sf-dualizable-biduality] transported along this
+[prop-pod-perfect-dualizable] transported along this
 identification.

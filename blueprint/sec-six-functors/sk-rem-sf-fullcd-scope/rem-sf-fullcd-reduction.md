@@ -3,7 +3,7 @@ id = "rem-sf-fullcd-reduction"
 kind = "remark"
 title = "What $\\operatorname{FullCD}$ supplies, and what would discharge it"
 order = 2163
-uses = ["cor-sf-continuity-fullcd", "cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-cbc-proetale-stalk-conservative", "lem-sf-etale-direct-image-vanishing", "lem-sf-fullcd-detection-equivalence", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-vanishing-detection", "lem-sf-stalk-limit-acyclic", "open-sf-ambient-adjoint-input", "prop-sf-comparison-bound-zero", "prop-sf-fullcd-general-form-false", "rem-sf-fullcd-counterexample", "rem-sf-fullcd-general-form", "thm-sc-finite-type-torsion-cd", "thm-sf-ambient-adjoint-class", "thm-sf-continuity-arbitrary-sheaves-vanishing", "thm-sf-fullcd-class", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
+uses = ["cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-cbc-proetale-stalk-conservative", "lem-sf-etale-direct-image-vanishing", "lem-sf-fullcd-detection-equivalence", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-vanishing-detection", "open-sf-ambient-adjoint-input", "prop-sf-comparison-bound-zero", "rem-sf-fullcd-counterexample", "rem-sf-fullcd-general-form", "thm-sc-finite-type-torsion-cd", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
 +++
 The named interface [open-sf-ambient-adjoint-input] turns on the full
 cohomological-dimension condition
@@ -31,7 +31,7 @@ changes; the comparison bound itself is $0$ on that class, by
 direction of the Leray spectral sequence of [thm-sp-grothendieck]. The
 general form, quantified over *all* pro-étale module sheaves and
 uniformly over the pro-étale base changes, is *false*, by
-[prop-sf-fullcd-general-form-false] and
+*The all-sheaves, uniform-in-the-base-change form of the comparison bound is false* and
 [rem-sf-fullcd-counterexample]: the counterexample's sheaf $F_G$ is a
 sheaf of $A$-modules on a pro-étale base change $U$ of a base $X_0$,
 not of étale origin, whose comparison direct images fail to vanish in
@@ -73,18 +73,18 @@ cohomology groups of the pro-étale site of the base-changed source, and
 no recorded statement bounds them for the module sheaves that are not of
 étale origin – clause (2) is the only case in which a bound is known, and
 in general the bound fails, by
-[prop-sf-fullcd-general-form-false]. The implication that would have
+*The all-sheaves, uniform-in-the-base-change form of the comparison bound is false*. The implication that would have
 supplied such a bound is recorded here, and its hypothesis is now known to
-fail in general: by [thm-sf-continuity-arbitrary-sheaves-vanishing] the
+fail in general: by *Continuity for arbitrary sheaves implies the vanishing* the
 continuity statement $(\mathrm{C}_q)$ recorded there — every cohomology
 class on an étale neighbourhood of a geometric point dies after refinement,
 equivalently the cohomology of the limit object is the colimit of the
 cohomologies of its finite-type models, the limit object itself having no
-higher cohomology for any sheaf by [lem-sf-stalk-limit-acyclic] — gives
+higher cohomology for any sheaf by *The strictly henselian limit has no higher cohomology* — gives
 $R^q\nu_{\bar X,*}\mathcal F=0$ for *every* $q\ge1$, that is, the
 sharpest bound $M=0$, and then
 $\operatorname{FullCD}(p,A;2\dim\bar X)$ by
-[cor-sf-continuity-fullcd], so that the bound of this item would improve
+*Continuity for arbitrary sheaves gives the full cohomological-dimension bound*, so that the bound of this item would improve
 from $2\dim\bar X+M$ to $2\dim\bar X$. The counterexample of
 [rem-sf-fullcd-counterexample] shows, through the contrapositive of that
 theorem, that $(\mathrm{C}_q)$ fails at its base change $U$ in the degrees
@@ -93,11 +93,11 @@ that generality; its terms are pro-étale, not étale, cohomology groups of
 the models, hence it is not obtained from
 [lem-sf-etale-direct-image-vanishing] either, as
 [rem-sf-continuity-obstruction] records, and the form in which
-[cor-sf-continuity-fullcd] consumes it is the one for the finite-type
+*Continuity for arbitrary sheaves gives the full cohomological-dimension bound* consumes it is the one for the finite-type
 models.
 
 Accordingly the general form, on all sheaves, is not merely unproved: it is
-*false*, by [prop-sf-fullcd-general-form-false] and
+*false*, by *The all-sheaves, uniform-in-the-base-change form of the comparison bound is false* and
 [rem-sf-fullcd-counterexample], so the ambient datum
 [def-weil-ambient-exceptional-adjoint] is read *on the
 blueprint's coefficient class* [def-sf-fullcd-used-class], where

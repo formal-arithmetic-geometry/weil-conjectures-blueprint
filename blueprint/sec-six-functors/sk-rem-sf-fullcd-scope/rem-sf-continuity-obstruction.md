@@ -3,16 +3,16 @@ id = "rem-sf-continuity-obstruction"
 kind = "remark"
 title = "What the recorded proof of the comparison theorem uses, and why it does not extend to arbitrary sheaves"
 order = 2164
-uses = ["cor-sf-continuity-fullcd", "cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-used-class", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-cbc-proetale-stalk-conservative", "lem-sf-associated-sheaf-local-lifting", "lem-sf-etale-direct-image-vanishing", "lem-sf-etale-neighbourhoods-not-cofinal", "lem-sf-etale-origin-refinement", "lem-sf-proetale-neighbourhood-colimit", "lem-sf-proetale-vanishing-detection", "lem-sf-stalk-limit-acyclic", "open-sf-ambient-adjoint-input", "prop-sf-comparison-bound-zero", "prop-sf-fullcd-general-form-false", "rem-sf-fullcd-counterexample", "rem-sf-fullcd-general-form", "rem-sf-fullcd-reduction", "thm-sf-continuity-arbitrary-sheaves-vanishing", "thm-sf-fullcd-etale-origin"]
+uses = ["cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-used-class", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-cbc-proetale-stalk-conservative", "lem-sf-etale-direct-image-vanishing", "lem-sf-proetale-vanishing-detection", "open-sf-ambient-adjoint-input", "prop-sf-comparison-bound-zero", "rem-sf-fullcd-counterexample", "rem-sf-fullcd-general-form", "rem-sf-fullcd-reduction", "thm-sf-fullcd-etale-origin"]
 +++
 The continuity statement $(\mathrm{C}_q)$ of
-[thm-sf-continuity-arbitrary-sheaves-vanishing] was the single missing
+*Continuity for arbitrary sheaves implies the vanishing* was the single missing
 input of the route that would have deduced $(\mathrm{G})$ from
 [lem-sf-etale-direct-image-vanishing]. That route is now closed in the
 negative: $(\mathrm{G})$ is *false*, by
-[prop-sf-fullcd-general-form-false] and
+*The all-sheaves, uniform-in-the-base-change form of the comparison bound is false* and
 [rem-sf-fullcd-counterexample], so by the contrapositive of
-[thm-sf-continuity-arbitrary-sheaves-vanishing] the statement
+*Continuity for arbitrary sheaves implies the vanishing* the statement
 $(\mathrm{C}_q)$ fails at the base change $U$ of that counterexample in
 every degree $q$ in which $R^q\nu_{U,*}F_G\neq0$, that is in unboundedly
 many degrees. What the present remark records is why that failure is not an
@@ -46,7 +46,7 @@ Stacks Project, Pro-étale Cohomology, Lemma 61.19.6,
 [Tag 099W](https://stacks.math.columbia.edu/tag/099W), but is not
 controlled for the remaining sheaves. A bound on those terms uniform over the
 inverse system is therefore a hypothesis about pro-étale cohomology and not
-an étale statement, and [cor-sf-continuity-fullcd](i) shows that the
+an étale statement, and *Continuity for arbitrary sheaves gives the full cohomological-dimension bound*(i) shows that the
 continuity hypothesis, not the étale lemma, is what makes the terms vanish
 above $2d$ for the finite-type models; so this route is not a reduction to
 the étale bound. What the étale bound does give is the second factor of
@@ -85,7 +85,7 @@ together with Example 61.19.12,
 [Tag 0F6D](https://stacks.math.columbia.edu/tag/0F6D): the sheaf
 $fun(-,A)/\underline A$ has zero stalk at the unique geometric point of
 $\operatorname{Spec}k$, hence zero value at the strictly henselian limit
-object by [lem-sf-stalk-limit-acyclic](i), while its value at a
+object by *The strictly henselian limit has no higher cohomology*(i), while its value at a
 pro-étale model with infinitely many points is nonzero. The example is
 stated for pro-étale neighbourhoods; it is the reason why no value
 continuity may be assumed in $(\mathrm{C}_q)$.
@@ -106,15 +106,15 @@ associated to the presheaf $U\mapsto H^q(U_{\Proet},\mathcal F|_U)$ by Stacks
 Project, Cohomology on Sites, Lemma 21.7.4,
 [Tag 072W](https://stacks.math.columbia.edu/tag/072W), and its sections
 need not lift to the terms of that presheaf over a cover of the model; the
-lifting that *is* available, [lem-sf-associated-sheaf-local-lifting],
-is what [thm-sf-continuity-arbitrary-sheaves-vanishing] uses, and it
+lifting that *is* available, *Sections of an associated sheaf lift locally*,
+is what *Continuity for arbitrary sheaves implies the vanishing* uses, and it
 converts $(\mathrm{C}_q)$ into the vanishing of the associated sheaf only
 because $(\mathrm{C}_q)$ is a statement about *every* class on
 *every* pointed neighbourhood. The converse implication is not
 available: the vanishing of $R^q\nu_{V,*}\mathcal F$, that is $P^{\#}=0$,
 says only that every class of $P(U)$ dies on some étale *cover* of
 $U$ — this is what the two-step construction of the associated sheaf
-recalled in the proof of [lem-sf-associated-sheaf-local-lifting] gives,
+recalled in the proof of *Sections of an associated sheaf lift locally* gives,
 since $P\to P^{+}$ kills exactly the classes that vanish on a covering and
 $P^{+}\to P^{\#}$ is injective — whereas $(\mathrm{C}_q)$ demands death
 on a single pointed refinement.
@@ -130,7 +130,7 @@ of [lem-sf-proetale-vanishing-detection] and of
 Cohomology, Lemma 61.14.1,
 [Tag 09A1](https://stacks.math.columbia.edu/tag/09A1) with Lemma 61.14.2,
 [Tag 09A2](https://stacks.math.columbia.edu/tag/09A2) carries no bound on
-its length — and by [cor-sf-no-bounded-hypercover] no hypercovering of a
+its length — and by *The question of a bounded weakly contractible hypercovering has a negative answer* no hypercovering of a
 nonempty object is bounded at all, so that a bound on the length is
 unattainable in principle and not merely absent from this construction — so
 it cannot bound the vanishing degree of $R^q\nu_{V,*}$, as
@@ -138,32 +138,32 @@ it cannot bound the vanishing degree of $R^q\nu_{V,*}$, as
 recorded here nor the acyclicity devices recalled above decide
 $(\mathrm{C}_q)$ for a sheaf that is not of étale origin, and in this form
 $(\mathrm{C}_q)$ is not proved here in that generality, and cannot be: by the
-contrapositive of [thm-sf-continuity-arbitrary-sheaves-vanishing] the
+contrapositive of *Continuity for arbitrary sheaves implies the vanishing* the
 counterexample of [rem-sf-fullcd-counterexample] refutes it at its base
 change. What is now known about it is
 exactly three things, recorded in the items following this remark. First, for
 every sheaf of étale origin – in particular on the blueprint's coefficient
 class [def-sf-fullcd-used-class] – the statement is a theorem with a
-complete proof, [lem-sf-etale-origin-refinement]: every class dies on a
+complete proof, *Continuity for sheaves of étale origin: every class dies on a single pointed refinement*: every class dies on a
 single pointed étale refinement, obtained from a covering that kills it by
 forming the disjoint union of its members. Second, its pro-étale form holds
 for *every* sheaf and is a triviality,
-[lem-sf-proetale-neighbourhood-colimit]: the strict henselization limit is
+*The pro-étale form of the continuity statement: every class dies on the strict henselization limit*: the strict henselization limit is
 an initial object of the category of pointed pro-étale neighbourhoods, so
 every class dies on that one pro-étale refinement, the target being zero by
-[lem-sf-stalk-limit-acyclic](iii); the whole content of
+*The strictly henselian limit has no higher cohomology*(iii); the whole content of
 $(\mathrm{C}_q)$ is therefore the passage from pro-étale refinements to
 étale ones. Third, that passage cannot be made by a cofinality argument,
-[lem-sf-etale-neighbourhoods-not-cofinal]: an infinite separable extension
+*The pointed étale neighbourhoods are not cofinal among the pointed pro-étale ones*: an infinite separable extension
 of the residue field gives a pointed pro-étale neighbourhood that receives no
 morphism from any pointed étale neighbourhood, so the two colimits are not
 related by the criterion that compares them. With
 $(\mathrm{C}_q)$ failing in that remaining case – the general form of
 $(\mathrm{G})$ being false, by
-[prop-sf-fullcd-general-form-false] and
+*The all-sheaves, uniform-in-the-base-change form of the comparison bound is false* and
 [rem-sf-fullcd-counterexample], and $(\mathrm{C}_q)$ failing with it at
 that counterexample's base change, by
-[thm-sf-continuity-arbitrary-sheaves-vanishing] – the condition
+*Continuity for arbitrary sheaves implies the vanishing* – the condition
 $\operatorname{FullCD}(p,A;c_{\mathrm{cd}})$ of
 [open-sf-ambient-adjoint-input] is read on the blueprint's coefficient
 class, where it is the theorem [thm-sf-fullcd-used-class] with the sharp

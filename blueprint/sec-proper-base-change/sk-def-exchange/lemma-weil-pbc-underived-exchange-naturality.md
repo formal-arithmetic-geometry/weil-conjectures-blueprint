@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Sectionwise exchange is natural"
 order = 1048
 lean = ["AlgebraicGeometry.Etale.baseChangeMap_naturality"]
-uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-underived-exchange"]
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-underived-exchange", "lem-weil-pbc-underived-exchange-sectionwise"]
 +++
 For every morphism $u:F\to G$ the square
 
@@ -20,7 +20,7 @@ commutes on every etale object of $Y'$.
 
 ## Proof
 
-On a representative section $s_i$, both paths first apply $u$ and then
+On a representative section $s_i$ (the sectionwise rule of [lem-weil-pbc-underived-exchange-sectionwise]), both paths first apply $u$ and then
 pull back along the same two maps. Since inverse image is a functor, the two
 resulting sections of $g'^{-1}G$ are equal on each $V_i$ and therefore after
 descent on $V$. Equality for all $V$ is equality of sheaf morphisms.

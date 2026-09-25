@@ -3,7 +3,7 @@ id = "lem-sc-brauer-injectivity"
 kind = "lemma"
 title = "Brauer classes are determined by the generic fibre"
 order = 911
-uses = ["def-br", "lem-sc-divisor-sequence-general", "lem-sc-point-z-cohomology", "thm-sc-hilbert-90"]
+uses = ["def-br", "lem-sc-divisor-sequence-general", "lem-sc-point-z-cohomology", "lem-sp-grothendieck-edge-maps", "thm-sc-hilbert-90"]
 +++
 Let $X$ be an integral regular noetherian scheme (for example a
 connected smooth scheme over a field) with generic point
@@ -31,7 +31,7 @@ H^2(X,\mathbf G_m)\xrightarrow{\ \alpha\ }H^2(X,j_*\mathbf G_{m,\eta})
 \xrightarrow{\ \beta\ }H^2(\eta,\mathbf G_m),
 $$
 
-$\alpha$ induced by the unit $\mathbf G_m\to j_*j^*\mathbf G_m=j_*\mathbf G_{m,\eta}$ and $\beta$ the edge map of the Leray spectral sequence
+$\alpha$ induced by the unit $\mathbf G_m\to j_*j^*\mathbf G_m=j_*\mathbf G_{m,\eta}$ and $\beta$ the edge map ([lem-sp-grothendieck-edge-maps]) of the Leray spectral sequence
 $E_2^{p,q}=H^p(X,R^qj_*\mathbf G_{m,\eta})\Rightarrow H^{p+q}(\eta,\mathbf G_m)$.
 We show that $\alpha$ and $\beta$ are injective.
 

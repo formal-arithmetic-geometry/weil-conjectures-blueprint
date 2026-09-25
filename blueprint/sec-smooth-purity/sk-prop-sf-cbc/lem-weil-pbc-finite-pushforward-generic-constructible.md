@@ -3,7 +3,7 @@ id = "lem-weil-pbc-finite-pushforward-generic-constructible"
 kind = "lemma"
 title = "Generic finite pushforward is constructible"
 order = 1610
-uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-noetherian-finite-components", "lemma-weil-pbc-finite-exchange", "thm-weil-pbc-universal-homeomorphism-invariance"]
+uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-noetherian-finite-components", "lemma-weil-pbc-finite-exchange", "pqf-lem-finite-integral-lft", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $S$ be an integral Noetherian affine scheme, let $g:Z\to S$ be finite, and
 let $E$ be a constructible abelian etale sheaf on $Z$. There is a dense open
@@ -12,7 +12,7 @@ $S^\circ\subset S$ on which the direct image $g_*E$ is lisse.
 ## Proof
 
 Write $S=\operatorname{Spec}A$, with $A$ a Noetherian domain and fraction
-field $K$. A finite algebra is integral. Lying over, applied also after every
+field $K$. A finite algebra is integral ([pqf-lem-finite-integral-lft]). Lying over, applied also after every
 base change, shows that a finite map is closed: the image of $V(I)$ is the
 closed set defined by the contraction of $I$. We use this elementary
 finite-algebra fact to shrink the base below.

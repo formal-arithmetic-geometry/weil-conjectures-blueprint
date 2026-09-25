@@ -3,7 +3,7 @@ id = "lem-sc-pic-proper-ntorsion"
 kind = "lemma"
 title = "Pic of a proper curve: divisibility, n-torsion, cokernel"
 order = 1032
-uses = ["def-sc-curves", "def-sc-jacobian", "def-sc-mult-n", "def-sc-pic0", "lem-sc-pic-proper-decomposition", "thm-av-final", "thm-sc-jacobian-representability"]
+uses = ["def-sc-curves", "def-sc-jacobian", "def-sc-mult-n", "def-sc-pic0", "lem-pc-genus-agrees-sc", "lem-sc-pic-proper-decomposition", "thm-av-final", "thm-sc-jacobian-representability"]
 +++
 Let $C$ be a proper smooth connected curve of
 genus $g$ over algebraically closed $k$, and let $n$ be prime
@@ -28,7 +28,7 @@ with $\operatorname{Pic}^0(C)=J_C(k)$
 group $J_C(k)$ is $n$-divisible by
 [thm-av-final](d), and its $n$-torsion is
 $J_C[n](k)\cong(\mathbf Z/n\mathbf Z)^{2g}$ by
-[thm-av-final](c) (with
+[thm-av-final](c), since $\dim J_C=g$ for the genus of [def-sc-genus] by [lem-pc-genus-agrees-sc] (with
 $J_C(k)[n]=J_C[n](k)$ by the definition of the kernel,
 [def-sc-mult-n]). Hence
 

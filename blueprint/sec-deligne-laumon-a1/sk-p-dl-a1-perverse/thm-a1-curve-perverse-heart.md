@@ -3,7 +3,7 @@ id = "thm-a1-curve-perverse-heart"
 kind = "theorem"
 title = "The perverse t-structure on a smooth curve and its heart"
 order = 2998
-uses = ["def-per-perverse-subcategories", "def-per-support-condition", "def-weil-t-structure", "def-wf-middle-extension", "lem-exc-closed-support-triangle", "lem-per-dual-lisse-tensor", "lem-weil-closed-costalk-duality", "lem-weil-heart-short-exact-triangles", "lem-wf-smooth-dualizing-complex", "prop-constructible-truncations", "prop-sf-localization-all-stages", "prop-weil-heart-abelian", "rem-dl-a1-conventions", "thm-coef-qbar-verdier"]
+uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "def-per-perverse-subcategories", "def-per-support-condition", "def-weil-t-structure", "def-wf-middle-extension", "lem-exc-closed-support-triangle", "lem-per-dual-lisse-tensor", "lem-weil-closed-costalk-duality", "lem-weil-heart-short-exact-triangles", "prop-constructible-truncations", "prop-sf-localization-all-stages", "prop-weil-heart-abelian", "rem-dl-a1-conventions", "thm-coef-qbar-verdier"]
 +++
 In the setting of [def-per-support-condition], let the base field $k$ be
 perfect (in the applications $k=k_0=\mathbf F_q$ or its algebraic
@@ -99,7 +99,7 @@ $$
 \mathcal H^a(i^*N)=0\ (a>0).\tag{$*$}
 $$
 
-*Step 2: the duals on $U$ and on $Z$.* By [lem-wf-smooth-dualizing-complex],
+*Step 2: the duals on $U$ and on $Z$.* By [cor-pur-adic-and-rational-smooth-dualizing-complexes],
 $\omega_U\cong\overline{\mathbf Q}_\ell(1)[2]$. Restriction to an open
 commutes with internal Hom, and $j^*\omega_C=\omega_U$, so
 $j^*D_C=D_Uj^*$. For a lisse sheaf $\mathcal L$ on $U$,
@@ -115,7 +115,7 @@ $$
 and these sheaves are again lisse. The reduced scheme $Z$ is a finite
 disjoint union of spectra of perfect fields, hence smooth of dimension
 zero, so $\omega_Z=\overline{\mathbf Q}_\ell$ by
-[lem-wf-smooth-dualizing-complex]. Sheaves on $Z$ are finite-dimensional
+[cor-pur-adic-and-rational-smooth-dualizing-complexes]. Sheaves on $Z$ are finite-dimensional
 representations, and $R\mathcal Hom(-,\overline{\mathbf Q}_\ell)$ is
 computed on geometric stalks by the exact linear dual. Hence
 $\mathcal H^a(D_ZM)\cong(\mathcal H^{-a}M)^\vee$.

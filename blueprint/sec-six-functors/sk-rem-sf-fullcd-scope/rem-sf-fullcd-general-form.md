@@ -3,7 +3,7 @@ id = "rem-sf-fullcd-general-form"
 kind = "remark"
 title = "The general form of $\\operatorname{FullCD}$, and the form the blueprint uses"
 order = 2156
-uses = ["cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-used-class", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "lem-cbc-proetale-stalk-conservative", "lem-sf-acyclic-hypercover-terms-vanishing", "lem-sf-etale-direct-image-vanishing", "lem-sf-fullcd-detection-equivalence", "lem-sf-hypercover-nonempty-terms", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-vanishing-detection", "lem-sf-stalk-limit-acyclic", "prop-sf-comparison-bound-zero", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
+uses = ["cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-used-class", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "lem-cbc-proetale-stalk-conservative", "lem-sf-etale-direct-image-vanishing", "lem-sf-fullcd-detection-equivalence", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-vanishing-detection", "prop-sf-comparison-bound-zero", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
 +++
 The condition [def-weil-full-cohomological-dimension] quantifies over
 *all* sheaves of $A$-modules on $\overline X_{\Proet}$, and it is by
@@ -30,7 +30,7 @@ constructible, and by the cited origin statement they are exactly the ones
 covered by [thm-sf-fullcd-etale-origin].
 1. *On arbitrary pro-étale module sheaves, uniformly over the base
 changes, it is FALSE.* The general form is refuted by
-[prop-sf-fullcd-general-form-false], whose counterexample is recorded in
+*The all-sheaves, uniform-in-the-base-change form of the comparison bound is false*, whose counterexample is recorded in
 [rem-sf-fullcd-counterexample]: there are a scheme $X_0$, an affine
 pro-étale object $U\to X_0$ of $X_{0,\Proet}$ and, for every integer
 $M$, a sheaf $F_G$ of $A$-modules on $U_{\Proet}$ – not of étale
@@ -85,7 +85,7 @@ proof of the general form nor a counterexample to it; the counterexample that
 refutes the general form is a different sheaf, the $F_G$ of
 [rem-sf-fullcd-counterexample]. Consequently the
 general form is not an open problem but a false statement, refuted by
-[prop-sf-fullcd-general-form-false] and
+*The all-sheaves, uniform-in-the-base-change form of the comparison bound is false* and
 [rem-sf-fullcd-counterexample]; what survives, and what this manuscript
 uses, is the class form: on the coefficient class
 [def-sf-fullcd-used-class] the vanishing is the theorem
@@ -121,8 +121,8 @@ not of finite type over $k$, so the cited étale bound does not apply to
 it, and the same reduction there would need that bound for the limit as
 well. That second gap is recorded here rather than passed over; it is
 exactly the gap that the continuity statement of
-[thm-sf-continuity-arbitrary-sheaves-vanishing] closes on the limit
-sources, [cor-sf-continuity-fullcd](ii).
+*Continuity for arbitrary sheaves implies the vanishing* closes on the limit
+sources, *Continuity for arbitrary sheaves gives the full cohomological-dimension bound*(ii).
    1. **(b)** *The shape a counterexample must have: a coefficient sheaf whose
 Čech complex along a weakly contractible hypercovering is unbounded.* By
 Stacks Project, Pro-étale Cohomology,
@@ -141,22 +141,22 @@ $n>N$, then its Čech complex would be concentrated in degrees
 $0,\dots,N$ and $H^q(U,\mathcal F)=0$ for every $q>N$ and
 *every* sheaf $\mathcal F$ of abelian groups. That hypothesis is
 however never satisfied by a nonempty $U$: by
-[lem-sf-hypercover-nonempty-terms] every hypercovering of a nonempty
+*No hypercovering of a nonempty object has an empty term* every hypercovering of a nonempty
 object has a nonempty term in every degree, so the criterion is vacuous, and
-[cor-sf-no-bounded-hypercover] records the consequence for the question
+*The question of a bounded weakly contractible hypercovering has a negative answer* records the consequence for the question
 whether a bound on the length of a weakly contractible hypercovering exists
 at all. The vanishing for $U=\operatorname{Spec}\bar k$ with $\bar k$
 separably closed, which is the case of the sheaf of clause (4) of
 [lem-cbc-proetale-stalk-conservative] referred to here, comes instead
-from [lem-sf-stalk-limit-acyclic](iii), and it is also what the criterion
-[lem-sf-acyclic-hypercover-terms-vanishing] gives, the constant hypercover
+from *The strictly henselian limit has no higher cohomology*(iii), and it is also what the criterion
+*Vanishing above the degree in which the coefficient sheaf dies on the terms* gives, the constant hypercover
 of $\operatorname{Spec}\bar k$ having terms that are acyclic for that sheaf and
 on which that sheaf has no sections. A counterexample to the general form must
 therefore exhibit a coefficient sheaf whose Čech
 complex along a weakly contractible hypercovering of one of the
 base-changed sources has cohomology in arbitrarily high degrees; the
 unboundedness of the hypercovering is automatic by
-[lem-sf-hypercover-nonempty-terms] and is no part of the obstruction, and
+*No hypercovering of a nonempty object has an empty term* and is no part of the obstruction, and
 such a sheaf is constructed in [rem-sf-fullcd-counterexample], where the
 role of the base-changed source is played by the pro-étale object $U$ and
 the unbounded degrees are those of the coefficient sheaf $F_G$.
@@ -173,7 +173,7 @@ $\mathcal F\mapsto\mathcal F(\operatorname{Spec}\mathcal O^{sh})$ is the
 geometric-point stalk functor $\mathcal F\mapsto\mathcal F_{\bar x}$ and it
 is exact. Hence $H^q(\operatorname{Spec}\mathcal O^{sh}_{\overline X,\bar x},\mathcal F)=0$ for every $q>0$ and every sheaf $\mathcal F$,
 which is now recorded as a proved statement,
-[lem-sf-stalk-limit-acyclic](iii), so that the sheafified quotient of
+*The strictly henselian limit has no higher cohomology*(iii), so that the sheafified quotient of
 clause (4) of
 [lem-cbc-proetale-stalk-conservative] — the sheaf $fun(-,A)/\underline A$ of Stacks Project, Pro-étale Cohomology, Example 61.19.12,
 [Tag 0F6D](https://stacks.math.columbia.edu/tag/0F6D) — is acyclic on
@@ -196,10 +196,10 @@ analysed in [rem-sf-continuity-obstruction]: it is *not* a
 consequence of [lem-sf-etale-direct-image-vanishing], whose terms are
 étale and not pro-étale cohomology groups of the models, whereas it does
 imply the vanishing with the sharpest bound $M=0$,
-[thm-sf-continuity-arbitrary-sheaves-vanishing], and hence
-$\operatorname{FullCD}(p,A;2d)$, [cor-sf-continuity-fullcd]; and it is
+*Continuity for arbitrary sheaves implies the vanishing*, and hence
+$\operatorname{FullCD}(p,A;2d)$, *Continuity for arbitrary sheaves gives the full cohomological-dimension bound*; and it is
 the statement that fails at the counterexample's base change, by
-[prop-sf-fullcd-general-form-false]. The residue of the general form was
+*The all-sheaves, uniform-in-the-base-change form of the comparison bound is false*. The residue of the general form was
 therefore exactly that statement, and it is now a residue no longer: the
 general form is false, and what the chapter uses is the class form
 [thm-sf-fullcd-used-class], with the sharp comparison bound $M=0$ of
@@ -265,7 +265,7 @@ $\overline X_{\Proet}$, uniformly over the base changes $V\to Y$ of
 $Y_{\Proet}$; equivalently, by
 [lem-sf-fullcd-detection-equivalence], the uniform bound on the
 pro-étale cohomology of the base-changed sources. That assertion is
-*false*: [prop-sf-fullcd-general-form-false] exhibits an object
+*false*: *The all-sheaves, uniform-in-the-base-change form of the comparison bound is false* exhibits an object
 $U\to X_0$ of $X_{0,\Proet}$ and a sheaf $F_G$ of $A$-modules on
 $U_{\Proet}$ with $R^q\nu_{U,*}F_G\neq0$ for arbitrarily large $q$, the
 construction being recorded in [rem-sf-fullcd-counterexample]. It is the

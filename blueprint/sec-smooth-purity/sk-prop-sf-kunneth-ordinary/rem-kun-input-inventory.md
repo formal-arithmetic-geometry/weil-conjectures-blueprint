@@ -7,7 +7,7 @@ uses = ["lem-kun-0f14a", "lem-kun-0f14b", "lem-kun-0f1h", "lem-kun-0f1i", "lem-k
 +++
 The Kunneth-specific arguments of this chapter are decomposed in full:
 the Kunneth map and its comparison with the cup product
-([def-kun-kunneth-map], [lem-kun-kunneth-cup],
+([def-kun-kunneth-map], *The Kunneth map via the relative cup product*,
 [lem-kun-kunneth-map-agrees]), the one-proper-factor formula
 ([lem-kun-0f14a], [lem-kun-0f14b]), the closed-point
 statements, the open-immersion base change [lem-kun-0f1h], the

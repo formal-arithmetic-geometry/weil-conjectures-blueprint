@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Relative smooth-proper purity"
 order = 3147
 tags = ["latex:proposition"]
-uses = ["cor-cbc-proper-coincidence", "cor-weil-pbc-geometric-fiber-finite", "cor-weil-pbc-geometric-fiber-qbar", "cor-zl-purity-smooth-proper", "cor-zl-rfshriek-sheaf", "def-weil-punctual-weights", "fix-lem-exchanges-proper", "lem-tw-multiplicativity", "lem-wf-tate-twist-frobenius", "prop-weil-operations", "sbc-thm-smooth-morphisms-are-universally-locally-acyclic", "thm-fin-proper-constructibility-complete", "thm-pod-derived-poincare-duality"]
+uses = ["cor-cbc-proper-coincidence", "cor-weil-pbc-geometric-fiber-finite", "cor-weil-pbc-geometric-fiber-qbar", "cor-zl-purity-smooth-proper", "cor-zl-rfshriek-sheaf", "def-weil-punctual-weights", "lem-tw-multiplicativity", "lem-wf-tate-twist-frobenius", "prop-weil-operations", "sbc-thm-smooth-morphisms-are-universally-locally-acyclic", "thm-fin-proper-constructibility-complete", "thm-pod-derived-poincare-duality"]
 +++
 Fix the finite-field datum $(p,a,q,k_0,k)$, where $q=p^a$, a prime
 $\ell\neq p$, an algebraic closure $\Qlb$ of $\Ql=\mathbf Q_\ell$ and an
@@ -45,7 +45,7 @@ $j=\operatorname{id}$, $p=f$ gives the canonical identification
 $Rf_!\xrightarrow{\sim}Rf_*$ of [cor-cbc-proper-coincidence], and under it
 the exchange map $\operatorname{Ex}_!$ defining the Weil structure on
 $Rf_!\mathcal F$ is the exchange map $\operatorname{Ex}_*$ defining the Weil
-structure on $Rf_*\mathcal F$ ([fix-lem-exchanges-proper], and the
+structure on $Rf_*\mathcal F$ ([cor-cbc-proper-coincidence], and the
 description of the Weil isomorphisms in [prop-weil-operations]). Hence
 $R^{i}f_{0!}\mathcal F_0\to R^{i}f_{0*}\mathcal F_0$ is an isomorphism of
 Weil sheaves for every $i$; this is the first half of (a).

@@ -3,9 +3,9 @@ id = "rem-sf-trace-coherence"
 kind = "remark"
 title = "Why this coherence is not in the axiom list"
 order = 2487
-uses = ["def-sf-datum", "lem-sf-trace-base-change", "lem-trf-trace-map-exchange", "lem-trf-trace-source-exchange", "prop-compactification-coherence-detailed"]
+uses = ["def-sf-datum", "lem-trf-trace-map-exchange", "lem-trf-trace-source-exchange", "prop-compactification-coherence-detailed"]
 +++
-The identity of [lem-sf-trace-base-change] is not a consequence of
+The identity of [lem-trf-trace-map-exchange] is not a consequence of
 [def-sf-datum](A1)–(A6) as they are stated there: the isomorphism
 $Lg'^*f^!\cong f'^!Lg^*$ that produces it is base change for $f^!$
 *against pullback*, not the adjoint form [thm-sf-dual-base-change],
@@ -18,4 +18,4 @@ structure maps of the compactification
 from [def-sf-datum] alone must therefore import this coherence from the
 trace-formula chapter. It is not an additional axiom, and no statement of
 this chapter is left unproved on account of it: the framework-level form is
-[lem-sf-trace-base-change].
+[lem-trf-trace-map-exchange].

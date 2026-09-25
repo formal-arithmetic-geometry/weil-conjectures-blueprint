@@ -3,7 +3,7 @@ id = "lem-trf-global-operator-triangulated"
 kind = "lemma"
 title = "The global operator is triangulated in the coefficient"
 order = 2519
-uses = ["def-trf-admissibility", "def-trf-global-operator", "prop-trf-compact-support-perfectness"]
+uses = ["def-trf-admissibility", "def-trf-global-operator", "lem-trf-global-operator-naturality", "prop-trf-compact-support-perfectness"]
 +++
 In the setting of [def-trf-global-operator], let
 $K'\to K\to K''\to K'[1]$ be a distinguished triangle in
@@ -36,5 +36,5 @@ $R\Gamma_c$ are exact (the admissibility of
 [prop-trf-compact-support-perfectness] the perfectness needed for
 the compact-support identifications), the units and counits of
 adjunctions are natural, and the exchange identifications are
-compatible with base change. Hence the composite is compatible with
+compatible with base change. Hence, the squares commuting by [lem-trf-global-operator-naturality], the composite is compatible with
 distinguished triangles, which is the assertion.

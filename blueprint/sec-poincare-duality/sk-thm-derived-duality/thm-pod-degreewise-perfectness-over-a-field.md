@@ -3,7 +3,7 @@ id = "thm-pod-degreewise-perfectness-over-a-field"
 kind = "theorem"
 title = "Degreewise perfectness over a field"
 order = 2620
-uses = ["def-pod-derived-poincare-pairing", "def-pod-perfect-complex-on-x", "def-pod-perfect-point-complex", "def-weil-finite-coefficient-point", "lem-pod-cohomology-of-dual-over-field", "prop-pod-degree-of-the-pairing", "thm-pod-derived-poincare-duality", "thm-pod-point-perfectness"]
+uses = ["def-pod-derived-poincare-pairing", "def-pod-perfect-complex-on-x", "def-pod-perfect-point-complex", "def-weil-finite-coefficient-point", "lem-pod-cohomology-of-dual-over-field", "lem-pod-perfect-point-complex-field", "prop-pod-degree-of-the-pairing", "thm-pod-derived-poincare-duality", "thm-pod-point-perfectness"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), fix the field stage $\Lambda \in \{ E,\overline{\mathbf Q}_{\ell }\}$ of the datum (with the finite coefficient groups $H^i_c(X,K)$, $H^i(X,K)$); let $K\in D^b_{ctf}(X,\Lambda )$ be perfect over $\Lambda _X$ in the sense of Definition 9.6, and let $\langle -,-\rangle _i$ denote the degreewise pairings of Proposition 9.21,
 
@@ -21,4 +21,4 @@ $$
 
 ## Proof
 
-The derived duality of [thm-pod-derived-poincare-duality] is an isomorphism of perfect point complexes over the field $\Lambda$ (the field-stage case of [thm-pod-point-perfectness]). Apply $H^{-i}$ to both sides. On the right, $H^{-i}(C^\vee )\cong H^i(C)^\vee$ for $C=R\Gamma _c(X,K)$, a bounded complex of finite-dimensional vector spaces (the field-stage definition of perfectness, [def-pod-perfect-point-complex]), by [lem-pod-cohomology-of-dual-over-field]. On the left, $H^{-i}\bigl(R\Gamma (X,K^\vee (d))[2d]\bigr) =H^{2d-i}(X,K^\vee (d))$ by the shift convention. Hence the isomorphism and hence the perfectness of the degreewise pairings, the derived pairing being perfect by [thm-pod-derived-poincare-duality]; the line-valued form follows from the twist elimination of [prop-pod-degree-of-the-pairing].
+The derived duality of [thm-pod-derived-poincare-duality] is an isomorphism of perfect point complexes over the field $\Lambda$ (the field-stage case of [thm-pod-point-perfectness]). Apply $H^{-i}$ to both sides. On the right, $H^{-i}(C^\vee )\cong H^i(C)^\vee$ for $C=R\Gamma _c(X,K)$, a bounded complex of finite-dimensional vector spaces (the field-stage definition of perfectness, [def-pod-perfect-point-complex]), hence with bounded finite-dimensional cohomology by [lem-pod-perfect-point-complex-field], by [lem-pod-cohomology-of-dual-over-field]. On the left, $H^{-i}\bigl(R\Gamma (X,K^\vee (d))[2d]\bigr) =H^{2d-i}(X,K^\vee (d))$ by the shift convention. Hence the isomorphism and hence the perfectness of the degreewise pairings, the derived pairing being perfect by [thm-pod-derived-poincare-duality]; the line-valued form follows from the twist elimination of [prop-pod-degree-of-the-pairing].

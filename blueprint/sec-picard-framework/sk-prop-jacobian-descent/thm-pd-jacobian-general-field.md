@@ -3,7 +3,7 @@ id = "thm-pd-jacobian-general-field"
 kind = "theorem"
 title = "The Jacobian over an arbitrary ground field"
 order = 877
-uses = ["cor-pd-finite-level", "cor-pd-pic0-base-change", "def-pc-base-change", "def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-picard-functor", "def-pc-smooth-projective-curve", "def-pd-degree-morphism", "def-pd-descent-datum", "def-pd-separable-closure", "def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-jacobian", "lem-pc-dim-base-change", "lem-pd-canonical-descent-datum", "lem-pd-descent-cocycle", "lem-pd-group-scheme-descent", "lem-pd-picard-base-change", "def-pd-fibrewise-degree", "def-sc-pic0", "lem-pc-rational-hyp", "thm-pc-pic-split", "thm-pd-effective-descent", "thm-pd-fpqc-local-properties", "thm-pd-geometric-pic0"]
+uses = ["cor-pd-finite-level", "cor-pd-pic0-base-change", "def-pc-base-change", "def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-picard-functor", "def-pc-smooth-projective-curve", "def-pd-degree-morphism", "def-pd-descent-datum", "def-pd-fibrewise-degree", "def-pd-separable-closure", "def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-jacobian", "def-sc-pic0", "lem-pc-dim-base-change", "lem-pc-pic-of-field", "lem-pc-rational-hyp", "lem-pd-canonical-descent-datum", "lem-pd-descent-cocycle", "lem-pd-group-scheme-descent", "lem-pd-picard-base-change", "thm-pc-pic-split", "thm-pd-effective-descent", "thm-pd-fpqc-local-properties", "thm-pd-geometric-pic0"]
 +++
 Let $k$ be any field and let $C$ be a
 smooth projective curve over $k$
@@ -139,7 +139,7 @@ isomorphism $J_K\cong\operatorname{Pic}^0_{C_K/K}$.
 *Step 9 (the geometric points).* Take $T=\Spec(\bar k)$, a $k$-scheme.
 The curve $C_{\bar k}$ has a $\bar k$-rational point because $\bar k$ is
 algebraically closed, so by [lem-pc-rational-hyp] and [thm-pc-pic-split]
-(with $\operatorname{Pic}(\Spec\bar k)=0$) the canonical map from the
+(with $\operatorname{Pic}(\Spec\bar k)=0$ by [lem-pc-pic-of-field]) the canonical map from the
 Picard presheaf,
 $\operatorname{Pic}(C_{\bar k})\to\operatorname{Pic}_{C_{\bar k}/\bar k}(\bar k)$,
 is an isomorphism; by [lem-pd-picard-base-change] the target is

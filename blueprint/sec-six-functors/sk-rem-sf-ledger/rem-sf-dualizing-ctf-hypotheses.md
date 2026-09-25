@@ -3,10 +3,10 @@ id = "rem-sf-dualizing-ctf-hypotheses"
 kind = "remark"
 title = "Geometric duality and its coefficient comparisons"
 order = 2408
-uses = ["cor-coef-integral-internal-hom", "cor-sf-admissibility-class", "lem-coef-finite-dualizing", "lem-weil-verdier-preservation-strata", "prop-coef-integral-dualizing", "rem-sf-proetale-hom-status", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-sf-hom-ctf"]
+uses = ["cor-coef-integral-internal-hom", "lem-coef-finite-dualizing", "lem-weil-verdier-preservation-strata", "prop-coef-integral-dualizing", "rem-sf-proetale-hom-status", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-sf-hom-ctf"]
 +++
 At finite coefficients, $\omega_{X,A}=Ra_X^!A$ is finite-Tor
-constructible by [cor-sf-admissibility-class]. For site-perfect
+constructible by [lem-weil-verdier-preservation-strata]. For site-perfect
 $K$, the coefficient-only internal-Hom bound of
 [thm-sf-hom-ctf] applies. For general constructible finite-Tor
 $K$, [lem-weil-verdier-preservation-strata] gives the geometric

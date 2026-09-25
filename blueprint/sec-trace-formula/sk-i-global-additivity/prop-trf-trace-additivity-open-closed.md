@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Additivity of the Frobenius traces along an open–closed decomposition"
 order = 2543
 tags = ["latex:proposition"]
-uses = ["def-exchange-projection", "def-trf-categorical-trace", "def-trf-frobenius-coefficient-morphism", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "fix-lem-exchanges", "lem-trf-adjoint-mate", "lem-trf-frobenius-open-square", "lem-trf-frobenius-operator-compact-description", "lem-trf-open-square-exchange", "prop-functor-package", "prop-sf-open-closed-triangle-all-stages", "prop-trf-compact-support-perfectness", "prop-trf-graph-operator", "prop-trf-trace-formal-laws", "prop-weil-open-closed-recollement-adjunctions", "thm-sf-ctf-stability"]
+uses = ["def-exchange-projection", "def-trf-categorical-trace", "def-trf-frobenius-coefficient-morphism", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "def-trf-weil-extension-zero", "fix-lem-exchanges", "lem-trf-adjoint-mate", "lem-trf-frobenius-open-square", "lem-trf-frobenius-operator-compact-description", "lem-trf-open-square-exchange", "prop-functor-package", "prop-sf-open-closed-triangle-all-stages", "prop-trf-compact-support-perfectness", "prop-trf-graph-operator", "prop-trf-trace-formal-laws", "prop-weil-open-closed-recollement-adjunctions", "thm-sf-ctf-stability"]
 +++
 Fix the global finite-field datum
 and the coefficient conventions, $A=A_{E,n}$. Let $X_0$ be a
@@ -96,7 +96,7 @@ i_*i^*K\xrightarrow{\ \delta\ }j_!j^*K[1],
 $$
 
 put
-$\psi_U=j_!(j^*\varphi)^{[m]}\circ b_g:Lg^*j_!j^*K\to j_!j^*K$, with
+$\psi_U=j_!(j^*\varphi)^{[m]}\circ b_g:Lg^*j_!j^*K\to j_!j^*K$ (the $m$-th iterate of the Weil extension by zero [def-trf-weil-extension-zero] of $(j^*K,j^*\varphi)$), with
 $b_g$ the open-square exchange of [lem-trf-open-square-exchange],
 and $\psi_Z=i_*(i^*\varphi)^{[m]}\circ e_g:Lg^*i_*i^*K\to i_*i^*K$,
 with $e_g:Lg^*i_*\xrightarrow{\sim}i_*Lg_Z^{m*}$ the proper

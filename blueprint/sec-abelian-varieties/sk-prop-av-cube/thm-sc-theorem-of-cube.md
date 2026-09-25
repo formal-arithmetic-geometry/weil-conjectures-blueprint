@@ -3,7 +3,7 @@ id = "thm-sc-theorem-of-cube"
 kind = "theorem"
 title = "The theorem of the cube"
 order = 485
-uses = ["def-sc-abelian-variety", "def-sc-invertible-module"]
+uses = ["def-sc-abelian-variety", "def-sc-invertible-module", "lem-sc-abelian-variety-characterization"]
 +++
 Let $A$ be an abelian variety
 over a field $k$, and let $\mathcal L$ be an
@@ -38,7 +38,7 @@ with $X=Y=Z=A$ over $S=\operatorname{Spec}k$ and the unit
 sections $x=y=e$. The hypotheses of [Tag 0BF4](https://stacks.math.columbia.edu/tag/0BF4) hold:
 $A\to\operatorname{Spec}k$ is flat, proper and of finite
 presentation with geometrically integral fibres ($A$ is smooth,
-proper and connected, hence geometrically integral by Groupoid
+proper and connected, hence geometrically integral by [lem-sc-abelian-variety-characterization] and Groupoid
 Schemes, Remark 39.9.12,
 [Tag 0H2U](https://stacks.math.columbia.edu/tag/0H2U)), and
 $A$ is connected, so it has a $k$-point (the unit). On

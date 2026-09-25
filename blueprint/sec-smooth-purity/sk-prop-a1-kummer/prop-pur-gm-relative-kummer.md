@@ -3,8 +3,8 @@ id = "prop-pur-gm-relative-kummer"
 kind = "theorem"
 tags = ["latex:proposition"]
 title = "The affine line and the punctured line over a base"
-order = 2022
-uses = ["def-coefficient-twists-detailed", "def-pur-affine-line-datum", "def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "fix-prop-adjunctions", "lem-pur-a1-direct-image", "lem-pur-finite-kummer-level", "lem-pur-gysin-structure", "lem-pur-support-localization-triangle", "thm-pur-affine-line-orientation", "thm-pur-kummer-affine-line", "thm-pur-with-support-exactness"]
+order = 2006
+uses = ["def-coefficient-twists-detailed", "def-pur-affine-line-datum", "def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "fix-prop-adjunctions", "lem-pur-a1-direct-image", "lem-pur-finite-kummer-level", "lem-weil-derived-direct-image-composition", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-strict-henselization-stalk-formula", "sbc-lem-strict-henselian-constant-cohomology", "sbc-thm-smooth-base-change", "thm-pur-kummer-affine-line", "thm-weil-pbc-site-comparison"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $\Lambda=A=A_{E,n}$, let $Y$ be a separated finite-type $k$-scheme,
@@ -51,91 +51,84 @@ $\mathbf G_m$ over an algebraically closed field, which are
 
 ## Proof
 
+We follow the reduction to a geometric fibre by smooth base change;
+nothing below uses the exceptional inverse image of the zero section.
 Throughout, $\Lambda(1)_{\mathbf A^1_Y}=p^*\Lambda_Y(1)$ and
 $\Lambda(1)_{\mathbf G_{m,Y}}=\pi^*\Lambda_Y(1)$, since $\mu_{\ell^N}$ and
 the coefficient extension by $A$ are compatible with pullback
 ([lem-pur-finite-kummer-level], [def-coefficient-twists-detailed]).
+Since the base field $k$ of [def-pur-conventions] is algebraically
+closed, a primitive $\ell^N$-th root of unity $\zeta\in k$ trivializes
+$\mu_{\ell^N}$, hence $\Lambda(1)\cong\Lambda$, on every $k$-scheme,
+compatibly with pullback. We compute on the small etale site; the
+comparison inverse image commutes with the derived direct images of
+[def-weil-derived-direct-image] ([prop-weil-pbc-comparison-direct-image])
+and is fully faithful on bounded-below complexes
+([thm-weil-pbc-site-comparison]), so the units, the classes and the
+isomorphisms below transport to the pro-etale site.
 
 Step 1: clause (1). The untwisted statement is
-[lem-pur-a1-direct-image] with $B=Y$. For the twist, the formation
-of $Rp_*$ and of the unit of [fix-prop-adjunctions] commutes with
-restriction to an etale $U\to Y$ (restriction to $U$ is exact and
-preserves K-injective complexes, and
-$\mathbf A^1_Y\times_YU=\mathbf A^1_U$), so it suffices to prove that
-$\Lambda_Y(1)\to Rp_*p^*\Lambda_Y(1)$ is an isomorphism after restriction
-to the members of an etale cover of $Y$ by separated finite-type
-schemes $U$ (for instance affine ones). Since $\ell^N$ is invertible on
-$Y$, the sheaf $\mu_{\ell^N}$ is finite locally constant, hence
-$\Lambda_U(1)\cong\Lambda_U$ on the members $U$ of such a cover (e.g.
-after adjoining a primitive $\ell^N$-th root of unity, a finite etale
-cover). Under this trivialization the twisted unit on $U$ is the
-untwisted unit $\Lambda_U\to Rp_{U*}\Lambda_{\mathbf A^1_U}$, which is an
-isomorphism by [lem-pur-a1-direct-image] with $B=U$.
+[lem-pur-a1-direct-image] with $B=Y$. Under the trivialization by
+$\zeta$ the twisted unit $\Lambda_Y(1)\to Rp_*p^*\Lambda_Y(1)$ of
+[fix-prop-adjunctions] is the untwisted unit
+$\Lambda_Y\to Rp_*\Lambda_{\mathbf A^1_Y}$, hence an isomorphism; so
+$R^mp_*\Lambda(1)=0$ for $m>0$.
 
-Step 2: the triangle. Apply the localization triangle of
-[lem-pur-support-localization-triangle] for the closed–open pair $(s,j)$
-of $\mathbf A^1_Y$ and $K=\Lambda(1)_{\mathbf A^1_Y}$,
+Step 2: clauses (2) and (3), on stalks. Let $\bar y$ be a geometric
+point of $Y$ and $S'=Y_{(\bar y)}$ the strict henselization, a
+$k$-scheme. As $\pi$ is quasi-compact and quasi-separated and
+$\mathbf G_{m,Y}\times_YS'=\mathbf G_{m,S'}$, the stalk formula
+[prop-weil-pbc-strict-henselization-stalk-formula] gives
 $$
-s_*Rs^!\Lambda(1)\longrightarrow\Lambda(1)\longrightarrow
-Rj_*j^*\Lambda(1)\xrightarrow{+1},
+(R\pi_*\Lambda(1))_{\bar y}\simeq R\Gamma(\mathbf G_{m,S'},\Lambda(1)),
 $$
-and then the triangulated functor $Rp_*$ of
-[def-weil-derived-direct-image]. Since $s_*$ is exact,
-$Rp_*s_*=R(ps)_*=\operatorname{id}$, and $Rp_*Rj_*=R\pi_*$
-(composition of derived direct images, as in [fix-prop-adjunctions]),
-this gives a distinguished triangle on $Y$
+compatibly with the unit (on the left) and pullback of constants along
+$e:\mathbf G_{m,S'}\to S'$ (on the right), and compatibly with global
+classes: the stalk at $\bar y$ of the section of
+$R^1\pi_*\Lambda(1)$ defined by a class in
+$H^1(\mathbf G_{m,Y},\Lambda(1))$ is its restriction to
+$\mathbf G_{m,S'}$.
+Now $\mathbf G_{m,S'}=\mathbf G_{m,k}\times_kS'$. The smooth base change
+theorem [sbc-thm-smooth-base-change], for the square with smooth side
+$f:\mathbf G_{m,k}\to\operatorname{Spec}k$, affine side
+$g:S'\to\operatorname{Spec}k$, projections
+$h:\mathbf G_{m,S'}\to\mathbf G_{m,k}$ and $e$, and the constant sheaf
+$\Lambda(1)_{S'}$ (torsion prime to $p$), gives
+$f^{-1}R^qg_*\Lambda(1)\cong R^qh_*\Lambda(1)$ for all $q$. As $S'$ is
+strictly henselian, $R^qg_*\Lambda(1)=H^q(S',\Lambda(1))$ is
+$\Lambda(1)(k)$ for $q=0$ and $0$ for $q>0$
+([sbc-lem-strict-henselian-constant-cohomology]); so
+$\Lambda(1)_{\mathbf G_{m,k}}\to Rh_*\Lambda(1)_{\mathbf G_{m,S'}}$ is an
+isomorphism and, by the composition of derived direct images
+[lem-weil-derived-direct-image-composition] (item (5)), pullback along
+$h$ is an isomorphism
 $$
-Rs^!\Lambda(1)\longrightarrow Rp_*\Lambda(1)\xrightarrow{\ j^*\ }
-R\pi_*\Lambda(1)\xrightarrow{\ \delta\ }Rs^!\Lambda(1)[1].
+h^*:R\Gamma(\mathbf G_{m,k},\Lambda(1))\xrightarrow{\ \sim\ }
+R\Gamma(\mathbf G_{m,S'},\Lambda(1)).
 $$
-By [lem-pur-gysin-structure](1) and [thm-pur-affine-line-orientation],
-the orientation $\operatorname{pur}_s:\Lambda_Y\to
-Rs^!\Lambda(1)[2]$ is an isomorphism; hence
-$\mathcal H^m(Rs^!\Lambda(1))=0$ for $m\neq2$ and
-$\mathcal H^2(Rs^!\Lambda(1))\cong\Lambda_Y$, generated by the section
-$\operatorname{pur}_s(1)$. By Step 1, $\mathcal H^m(Rp_*\Lambda(1))$ is
-$\Lambda_Y(1)$ for $m=0$ and $0$ otherwise.
+By [thm-pur-kummer-affine-line](2),(3), the left side has $H^0=A$
+(the constants), $H^1$ free of rank one on the Kummer class of the
+coordinate of $\mathbf G_{m,k}$, and no other cohomology. The Kummer
+boundary and the coefficient extension of [def-pur-affine-line-datum]
+commute with pullback, and the coordinate $t$ restricts to the
+coordinate on $\mathbf G_{m,S'}$ and on $\mathbf G_{m,k}$; so the
+restriction of $\kappa(t)$ to $\mathbf G_{m,S'}$ is $h^*$ of the Kummer
+class of the coordinate of $\mathbf G_{m,k}$. Consequently, at every
+geometric point $\bar y$ (writing $R^m\pi_*$ for the cohomology
+sheaves of [def-weil-derived-cohomology-sheaves]):
+$(R^m\pi_*\Lambda(1))_{\bar y}=0$ for $m\geq2$; the stalk of the unit
+$\Lambda_Y(1)\to R^0\pi_*\Lambda(1)$ is an isomorphism (constants go to
+constants); and the stalk of $\Lambda_Y\to R^1\pi_*\Lambda(1)$,
+$1\mapsto\kappa(t)$, sends $1$ to a generator of a free rank-one
+module, hence is an isomorphism. Geometric stalks being conservative
+([lemma-weil-pbc-geometric-stalk-conservative]), this proves (3) and both
+halves of (2). By [fix-prop-adjunctions](3) the unit of $\pi=pj$ is
+the unit of $p$ followed by $Rp_*$ of the unit of $j$, i.e. by
+restriction along $j$; with Step 1 this identifies the unit
+$\Lambda_Y(1)\to R^0\pi_*\Lambda(1)$ with restriction along $j$
+composed with $p^*$, as stated.
 
-Step 3: clauses (2) and (3). The long exact sequence of cohomology
-sheaves of the triangle of Step 2 reads
-$$
-0\to\mathcal H^0(Rs^!\Lambda(1))\to R^0p_*\Lambda(1)\to
-R^0\pi_*\Lambda(1)\to\mathcal H^1(Rs^!\Lambda(1))\to R^1p_*\Lambda(1)
-\to R^1\pi_*\Lambda(1)\xrightarrow{\ \delta\ }\mathcal H^2(Rs^!\Lambda(1))
-\to R^2p_*\Lambda(1)\to\cdots.
-$$
-With the values of Step 2, it gives: $R^0p_*\Lambda(1)\to
-R^0\pi_*\Lambda(1)$ is an isomorphism (its neighbours $\mathcal H^0$ and
-$\mathcal H^1$ of $Rs^!\Lambda(1)$ vanish); $\delta:R^1\pi_*\Lambda(1)
-\to\mathcal H^2(Rs^!\Lambda(1))\cong\Lambda_Y$ is an isomorphism
-($R^1p_*=R^2p_*=0$); and for $m\geq2$, $R^m\pi_*\Lambda(1)$ sits between
-$R^mp_*\Lambda(1)=0$ and $\mathcal H^{m+1}(Rs^!\Lambda(1))=0$, so it
-vanishes, which is (3). By [fix-prop-adjunctions](3) the unit of
-$\pi=pj$ is the composite of the unit of $p$ with $Rp_*$ of the unit of
-$j$, i.e. with the map $j^*$ of Step 2; composing with the isomorphism
-of Step 1, the unit $\Lambda_Y(1)\to R^0\pi_*\Lambda(1)$ is an
-isomorphism, which is the first half of (2).
-
-For the generator, apply $H^1(Y,-)$ to $\delta$. The map
-$H^1(Y,R\pi_*\Lambda(1))\to H^1(Y,Rs^!\Lambda(1)[1])=H^2(Y,Rs^!\Lambda(1))$
-is the boundary
-$H^1(\mathbf G_{m,Y},\Lambda(1))\to H^2_{s(Y)}(\mathbf A^1_Y,\Lambda(1))$
-of the support long exact sequence of [thm-pur-with-support-exactness],
-which is the global-sections sequence of the same localization triangle.
-By [lem-pur-gysin-structure](2) and [thm-pur-affine-line-orientation]
-it sends $\kappa(t)$ to the class of $\operatorname{pur}_s$, i.e. to the
-section $\operatorname{pur}_s(1)$ of
-$\mathcal H^0(Rs^!\Lambda(1)[2])=\mathcal H^2(Rs^!\Lambda(1))$. By the
-naturality of the edge maps $H^1(Y,C)\to\Gamma(Y,\mathcal H^1C)$ (induced
-by $C\to\tau_{\geq1}C$; for $C=Rs^!\Lambda(1)[1]$, concentrated in
-degree $1$, the edge map is an isomorphism), the isomorphism $\delta$ of
-sheaves carries the section of $R^1\pi_*\Lambda(1)$ defined by
-$\kappa(t)$ to the generator $\operatorname{pur}_s(1)$. Hence
-$\Lambda_Y\to R^1\pi_*\Lambda(1)$, $1\mapsto\kappa(t)$, is the composite
-of $\operatorname{pur}_s$ with $\delta^{-1}$, an isomorphism. This
-completes (2).
-
-Step 4: base change. The Kummer sequence of
+Step 3: clause (4). The Kummer sequence of
 [def-pur-affine-line-datum], its boundary map, and the coefficient
 extension by $A$ are compatible with pullback along
 $g':\mathbf G_{m,Y'}\to\mathbf G_{m,Y}$, and $g'^*t=t'$ is the coordinate

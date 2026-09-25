@@ -3,7 +3,7 @@ id = "lem-pur-kunneth-supported"
 kind = "lemma"
 title = "Kunneth for cohomology with closed support"
 order = 2010
-uses = ["def-kun-derived-tensor", "def-kun-tor-amplitude", "def-pur-support-cohomology", "def-pur-supported-exterior-product", "def-weil-finite-field-fiber", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties", "lem-pur-ordinary-kunneth-finite-ring", "lem-pur-support-restriction-triangle", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-comparison-direct-image", "thm-weil-pbc-site-comparison"]
+uses = ["def-kun-derived-tensor", "def-kun-tor-amplitude", "def-pur-support-cohomology", "def-pur-supported-exterior-product", "def-weil-finite-field-fiber", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties", "lem-kun-kunneth-map-natural", "lem-pur-ordinary-kunneth-finite-ring", "lem-pur-support-restriction-triangle", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-comparison-direct-image", "thm-weil-pbc-site-comparison"]
 +++
 Let $k$ be the algebraically closed field of
 [def-weil-finite-field-fiber], put
@@ -44,7 +44,7 @@ $X\times W$. The ordinary Kunneth maps on $X\times Y$ and
 $X\times V$ are isomorphisms by
 [lem-pur-ordinary-kunneth-finite-ring].
 They commute with restriction because both maps pull back and
-tensor the two sections. The induced map of the first terms is
+tensor the two sections ([lem-kun-kunneth-map-natural]). The induced map of the first terms is
 therefore an isomorphism:
 
 $$

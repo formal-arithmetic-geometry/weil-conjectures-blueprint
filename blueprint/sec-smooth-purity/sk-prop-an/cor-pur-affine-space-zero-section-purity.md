@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Zero-section purity in affine space"
 order = 2065
 tags = ["latex:corollary"]
-uses = ["cor-amb-affine-space-adjunction", "def-amb-p1-trace", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-affine-space", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "lem-amb-cartier-kummer-map", "lem-pur-kunneth-supported", "lem-pur-support-localization-triangle", "prop-asd-smooth-base-change", "thm-pur-affine-line-orientation", "thm-sf-ambient-adjoint-class"]
+uses = ["cor-amb-affine-space-adjunction", "def-amb-p1-trace", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-affine-space", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "lem-amb-cartier-kummer-map", "lem-pur-kunneth-supported", "lem-pur-support-localization-triangle", "prop-asd-smooth-base-change", "prop-pur-affine-line-orientation-base-change", "thm-pur-affine-line-orientation", "thm-sf-ambient-adjoint-class"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $A=A_{E,n}$, let $B$ be a
@@ -40,8 +40,9 @@ product of these Cartier maps; their residues multiply to $1$.
 The even shifts and twists add by [def-coefficient-twists-detailed].
 The comparison [thm-sf-ambient-adjoint-class] transports the
 composition and counits to the stated finite etale-origin objects.
-Finally all the Cartier maps and the explicit affine-space counits
-commute with base change, by
+Finally the rank-one orientations commute with base change by
+[prop-pur-affine-line-orientation-base-change], and all the Cartier maps
+and the explicit affine-space counits commute with base change, by
 [lem-amb-cartier-kummer-map], [prop-asd-smooth-base-change].
 Hence the resulting zero-section isomorphism has the claimed
 normalization and base-change compatibility. No general relative

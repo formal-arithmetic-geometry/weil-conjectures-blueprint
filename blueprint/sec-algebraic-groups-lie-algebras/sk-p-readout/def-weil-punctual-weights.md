@@ -3,7 +3,7 @@ id = "def-weil-punctual-weights"
 kind = "definition"
 title = "Punctual weights"
 order = 2757
-uses = ["def-weil-constructible-heart", "def-weil-finite-field-fiber", "def-weil-local-frobenius-trace", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
+uses = ["def-weil-constructible-heart", "def-weil-finite-field-fiber", "def-weil-local-frobenius-trace", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "lem-weil-local-frobenius-conjugacy-class"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$, $k_0=\Fq$,
 and let $k=\Fbar$ be the fixed algebraic closure of $k_0$. Fix a prime
@@ -14,7 +14,7 @@ $\mathcal F$ be a constructible $\Qlb$-sheaf in the constructible heart,
 carrying the Weil-sheaf structure. For each closed point $y\in|Y_0|$, use the
 closed-point notation [def-weil-point-counts-zeta], set $q_y=\#\kappa(y)$,
 choose an embedding $\kappa(y)\hookrightarrow k$, and choose a geometric
-point $\bar y\to Y$ above $y$. Let $F_y$ be the local geometric-Frobenius
+point $\bar y\to Y$ above $y$ (the eigenvalues of $F_y$ do not depend on these choices, by [lem-weil-local-frobenius-conjugacy-class]). Let $F_y$ be the local geometric-Frobenius
 operator [def-weil-local-frobenius-trace] on $\mathcal F_{\bar y}$. For
 $w\in\mathbf R$, call $\mathcal F$ punctually $\iota$-pure of weight $w$ if
 every eigenvalue $\alpha$ of every $F_y$ satisfies

@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-symmetric-product-p1"
 kind = "lemma"
 title = "Symmetric product map"
 order = 1189
-uses = ["lemma-weil-pbc-cancellation", "lemma-weil-pbc-composition", "prop-weil-pbc-finite-morphism"]
+uses = ["cor-pqf-proper-quasifinite-finite", "lemma-weil-pbc-cancellation", "lemma-weil-pbc-composition", "prop-weil-pbc-finite-morphism"]
 +++
 For $n\geq1$ the formula
 
@@ -51,7 +51,7 @@ where a selected coefficient of the binary form is invertible. The same
 monic equations after multiplying by that selected coefficient show that each
 coordinate is integral. Integral algebras glue on overlaps because the
 coordinate identifications are induced by the common coefficients $F_j$.
-Thus the proper quasi-finite morphism is finite. Finally a geometric binary
+Thus the proper quasi-finite morphism is finite ([cor-pqf-proper-quasifinite-finite]). Finally a geometric binary
 form of degree $n$ factors into $n$ linear forms, including the possible
 factor $x$ for $t=\infty$, so every geometric fibre is nonempty; geometric
 surjectivity and properness give surjectivity. This closes the chart and

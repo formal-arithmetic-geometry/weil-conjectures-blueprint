@@ -3,7 +3,7 @@ id = "lem-ag-homomorphism-image-closed"
 kind = "lemma"
 title = "The image of a regular homomorphism is closed"
 order = 2681
-uses = ["def-wf-algebraic-components", "lem-wf-dominant-affine-open-piece", "lem-wf-matrix-group-components"]
+uses = ["def-wf-algebraic-components", "lem-wf-affine-constructible-open", "lem-wf-algebraic-component-cosets"]
 +++
 Let $G\subseteq\operatorname{GL}(V)$ and $K\subseteq\operatorname{GL}(W)$
 be closed reduced matrix groups over $k=\overline{\mathbf Q}_\ell$, and
@@ -23,15 +23,19 @@ the closed condition $xy\in\overline H$ holds on $H$, hence on
 $\overline H$; inversion is the same argument.
 
 First treat the identity component. By
-[lem-wf-matrix-group-components], $G^\circ$ is an irreducible closed
+[lem-wf-algebraic-component-cosets], $G^\circ$ is an irreducible closed
 subset of the affine variety $\operatorname{GL}(V)$, hence an
 irreducible affine variety. Put $S_0=\varphi(G^\circ(k))$, a subgroup of
 $S$, and let $T=\overline{S_0}\subseteq K$ with its reduced structure.
 Then $T$ is a closed subgroup; it is irreducible as the closure of the
 image of an irreducible space, and it is affine, being closed in
-$\operatorname{GL}(W)$. The morphism $\varphi|_{G^\circ}:G^\circ\to T$
-is dominant, so [lem-wf-dominant-affine-open-piece] gives a nonempty
-open $U\subseteq T$ contained in the image. On $k$-points: every closed
+$\operatorname{GL}(W)$. The morphism $\varphi|_{G^\circ}:G^\circ\to T$ is a
+morphism of affine schemes of finite type over $k$, so by part (1) of
+[lem-wf-affine-constructible-open] its image
+$\varphi(G^\circ)\subseteq T$ is constructible. It is dense in $T$,
+because its closed points $S_0$ are already dense; hence part (2)
+of [lem-wf-affine-constructible-open] gives a nonempty open
+$U\subseteq T$ contained in the image. On $k$-points: every closed
 point $t\in U$ has a nonempty fibre, which is a nonempty finite-type
 $k$-scheme and therefore has a $k$-point because $k$ is algebraically
 closed; hence $U(k)\subseteq S_0$, and $U(k)\neq\varnothing$.
@@ -50,7 +54,7 @@ $T(k)$. Since $S_0$ is dense in $T$, we get $S_0=T(k)$. Thus
 $\varphi(G^\circ(k))$ is the set of $k$-points of the closed subgroup
 $T$.
 
-Finally, by [lem-wf-matrix-group-components] the group $G(k)$ is the
+Finally, by [lem-wf-algebraic-component-cosets] the group $G(k)$ is the
 union of finitely many cosets $g_1G^\circ(k),\ldots,g_nG^\circ(k)$ (as
 in [def-wf-algebraic-components], $G^\circ$ is the identity component).
 Therefore
