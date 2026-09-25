@@ -1,0 +1,45 @@
++++
+id = "lem-sc-mult-n-finite-kernel"
+kind = "lemma"
+title = "Multiplication by $n$ is finite"
+order = 552
+uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-mult-n", "lem-sc-abelian-variety-projective", "lem-sc-ample-positive-degree", "lem-sc-ample-tensor", "lem-sc-av-commutative", "lem-sc-mult-n-homomorphism", "lem-sc-mult-n-pullback", "thm-pqf-finite-iff-proper-finite-fibres"]
++++
+Let $A$ be an abelian variety
+over a field $k$, and let $n\geq1$. Then the map $[n]$ of
+[def-sc-mult-n] is a finite homomorphism of
+group schemes, and its kernel
+$A[n]$ is a finite group scheme over $k$.
+
+## Proof
+
+*Reference: Stacks Project, Groupoid Schemes, Proposition
+39.9.11 (3) and (5), [Tag 03RP](https://stacks.math.columbia.edu/tag/03RP), whose proof is Lemma 39.9.8,
+[Tag 0BFG](https://stacks.math.columbia.edu/tag/0BFG).* We give
+the argument of loc. cit. The map $[n]$ of [def-sc-mult-n] is
+a homomorphism of group schemes: the group law of $A$ is commutative
+by [lem-sc-av-commutative], and for a commutative group scheme the
+$n$-fold sum map is a homomorphism by
+[lem-sc-mult-n-homomorphism].
+
+*(i) Finiteness of the kernel.* By
+[lem-sc-abelian-variety-projective] and
+[lem-sc-ample-tensor] there is an ample invertible module
+$\mathcal N$ on $A$ with $[-1]^*\mathcal N\cong\mathcal N$,
+and by [lem-sc-mult-n-pullback]
+$[n]^*\mathcal N\cong\mathcal N^{\otimes n^2}$. If a fibre
+$[n]^{-1}(y)$ had positive dimension, it would contain a proper
+curve $C$ (a positive-dimensional scheme of finite type over a
+field contains an integral closed subscheme of dimension one), and
+on $C$ the morphism $[n]$ is constant, so
+$\mathcal O_C\cong[n]^*\mathcal N|_C\cong\mathcal N^{\otimes n^2}|_C$; but the restriction of an ample module to a closed
+subscheme is ample, and an ample module on a proper curve has
+positive degree ([lem-sc-ample-positive-degree]), in particular it is not trivial – a
+contradiction. Hence every fibre of $[n]$ is finite. The
+morphism $[n]$ is proper ($A$ is proper and the target is
+separated), so $[n]$ is proper and quasi-finite, hence finite
+([thm-pqf-finite-iff-proper-finite-fibres] of the quasi-finite chapter;
+*reference: Stacks Project, Cohomology of Schemes,
+[Tag 02OG](https://stacks.math.columbia.edu/tag/02OG): proper
+and quasi-finite implies finite*). In particular the kernel
+$A[n]=[n]^{-1}(e)$ is finite.
