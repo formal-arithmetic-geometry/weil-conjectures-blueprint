@@ -2,7 +2,7 @@
 id = "sk-d-monodromy"
 kind = "section"
 title = "Represented degree data and monodromy"
-order = 2688
+order = 2499
 uses = ["sk-d-geometry", "sk-d-linear"]
 +++
 *Definition (sketch).*

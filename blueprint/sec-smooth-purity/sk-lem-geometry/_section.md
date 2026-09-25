@@ -2,7 +2,7 @@
 id = "sk-lem-geometry"
 kind = "section"
 title = "Geometry of the deformation of a section"
-order = 2089
+order = 1997
 uses = ["sk-def-purity-conv", "sk-prop-an"]
 +++
 *Lemma (sketch).*

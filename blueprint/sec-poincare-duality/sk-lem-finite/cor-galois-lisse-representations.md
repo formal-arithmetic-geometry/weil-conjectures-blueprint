@@ -2,7 +2,7 @@
 id = "cor-galois-lisse-representations"
 kind = "theorem"
 title = "Lisse sheaves and continuous representations"
-order = 2598
+order = 2427
 uses = ["def-galois-fibre-functor", "def-weil-pbc-constructible-complexes", "thm-galois-fundamental", "thm-galois-lc-etale"]
 tags = ["latex:corollary"]
 +++

@@ -2,7 +2,7 @@
 id = "def-pc-f-subfunctor"
 kind = "definition"
 title = "The open subfunctor $F$"
-order = 828
+order = 819
 uses = ["def-pc-base-change", "def-pc-derived-direct-image", "def-pc-invertible-in-degree-zero", "def-pc-pic-sigma-functor", "def-pc-subfunctor"]
 +++
 Let $k$ be a field, $X$ a scheme over $k$ and $\sigma\in X(k)$. For a

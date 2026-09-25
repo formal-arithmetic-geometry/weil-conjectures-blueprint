@@ -2,7 +2,7 @@
 id = "sk-p-trace"
 kind = "section"
 title = "Trace on perfect complexes"
-order = 2450
+order = 2302
 uses = ["sk-d-trace"]
 +++
 *Proposition (sketch).*

@@ -2,8 +2,8 @@
 id = "thm-pur-finite-reduction-of-purity"
 kind = "theorem"
 title = "Finite reduction of purity"
-order = 2117
-uses = ["cor-pur-affine-space-zero-section-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-purity-map", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative", "lem-pur-kunneth-supported", "lem-pur-lisse-uniqueness", "thm-pur-affine-line-orientation", "thm-pur-composition-coherence", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance", "thm-pur-smooth-base-change-coherence"]
+order = 2022
+uses = ["cor-pur-affine-space-zero-section-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-purity-map", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative", "lem-pur-kunneth-supported", "lem-pur-lisse-uniqueness", "lem-sf-flat-model", "lem-sf-reduction-flat-model", "thm-pur-affine-line-orientation", "thm-pur-composition-coherence", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance", "thm-pur-smooth-base-change-coherence"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 $m\leq n$, and write $\operatorname{red}_{n,m,T}$ for the finite
@@ -68,7 +68,12 @@ are natural in $K$ and in the morphism, by
 [def-weil-derived-tensor] and
 [def-weil-derived-pullback-tensor-hom] (finite reduction is the derived tensor product along
 $A_{E,n}\to A_{E,m}$; this ring map need not be flat, and the
-finite-Tor condition is essential for boundedness). Compatibility
+finite-Tor condition is essential for boundedness). The reduction
+functor does land in $D^b_{ctf}(T,A_{E,m})$ with the same Tor interval:
+if $K$ has Tor amplitude in $[a,b]$ it has a bounded flat model in
+degrees $[a,b]$ by [lem-sf-flat-model], and the reduction of that model
+is a bounded flat model of $K_m$ in $[a,b]$ by
+[lem-sf-reduction-flat-model]. Compatibility
 with pullback and the invertible twist follows from associativity
 of derived tensor. For the smooth exceptional inverse image use
 the previously constructed tensor formula and its coefficient

@@ -2,7 +2,7 @@
 id = "lem-sc-ext-torsor"
 kind = "lemma"
 title = "Extensions and torsors"
-order = 888
+order = 879
 +++
 Let $X$ be a scheme and $G$ an abelian sheaf on $X_{\Et}$.
 There is a canonical bijection

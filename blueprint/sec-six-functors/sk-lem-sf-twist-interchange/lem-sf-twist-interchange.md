@@ -2,8 +2,8 @@
 id = "lem-sf-twist-interchange"
 kind = "lemma"
 title = "Internal Hom with an invertible twist"
-order = 2293
-uses = ["def-coefficient-twists-detailed", "def-sf-datum", "def-weil-derived-pullback-tensor-hom", "lem-sf-hom-finite-projective", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
+order = 2176
+uses = ["def-coefficient-twists-detailed", "def-sf-datum", "def-weil-derived-pullback-tensor-hom", "lem-sf-generating-class-determination", "lem-sf-hom-finite-projective", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
 +++
 In the setting of [def-sf-datum], let $K$ be perfect over
 $\Lambda_X$, let $M\in D^b_{ctf}(X,\Lambda)$ and $m\in\mathbf Z$. Then
@@ -21,7 +21,7 @@ $\Lambda(m)_X\otimes^L\Lambda(-m)_X\cong\Lambda_X$, so
 $T_m=-\otimes^L\Lambda(m)_X$ is an exact autoequivalence; an exact
 equivalence commutes with the derived internal Hom, and both sides of the
 asserted map are exact functors of $M$ agreeing on the generator
-$M=\Lambda_X$. For $K$ perfect the asserted map is the identification of
+$M=\Lambda_X$ ([lem-sf-generating-class-determination]). For $K$ perfect the asserted map is the identification of
 [prop-sf-dualizable-hom] twisted by the invertible local system
 $\Lambda(m)_X$, and one computes it locally with a bounded complex
 of finite projective modules, where the identification is termwise by

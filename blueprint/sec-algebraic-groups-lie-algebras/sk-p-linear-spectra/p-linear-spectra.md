@@ -2,7 +2,7 @@
 id = "p-linear-spectra"
 kind = "theorem"
 title = "Spectra of the operations"
-order = 2754
+order = 2551
 uses = ["d-weights", "p-linear-triangular"]
 tags = ["latex:proposition"]
 +++

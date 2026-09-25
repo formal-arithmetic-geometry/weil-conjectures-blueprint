@@ -2,7 +2,7 @@
 id = "lem-trf-weil-shriek-operator-fibres"
 kind = "lemma"
 title = "Global operator and fibres of the Weil $!$-pushforward"
-order = 2533
+order = 2366
 uses = ["d-relative-frob", "def-exchange-projection", "def-trf-frobenius-coefficient-morphism", "def-trf-scheme-frobenius", "def-trf-weil-shriek-pushforward", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "fix-lem-exchanges", "i-relative-frob", "lem-trf-adjoint-mate", "lem-trf-weil-shriek-iterates", "prop-functor-package", "prop-trf-graph-operator"]
 +++
 In the setting of [def-trf-weil-shriek-pushforward], let

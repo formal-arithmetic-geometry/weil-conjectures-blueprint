@@ -2,7 +2,7 @@
 id = "lem-sc-c6"
 kind = "lemma"
 title = "C6: invariance under algebraically closed extension"
-order = 1127
+order = 1117
 uses = ["def-sc-curves", "def-sc-field-extension", "def-weil-pbc-eight-curve-assertions", "thm-sc-constant-invariance"]
 +++
 Let $k\subseteq k'$ be algebraically closed, let $C$ be a

@@ -2,7 +2,7 @@
 id = "lemma-nagata-boundary-loci"
 kind = "lemma"
 title = "Closedness and disjointness of the four boundary loci"
-order = 272
+order = 267
 lean = ["AlgebraicGeometry.TwoOpenSide.closure_image_preimage_inter"]
 uses = ["def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "lemma-nagata-graph-extension"]
 +++

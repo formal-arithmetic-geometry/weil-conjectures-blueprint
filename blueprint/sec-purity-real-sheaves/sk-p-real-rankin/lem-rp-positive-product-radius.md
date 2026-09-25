@@ -2,7 +2,7 @@
 id = "lem-rp-positive-product-radius"
 kind = "lemma"
 title = "Positive products and radii of convergence"
-order = 2900
+order = 2662
 uses = ["d-real-series"]
 +++
 Let $\{f_j(t)\}_{j\in J}$ be a locally finite family of series

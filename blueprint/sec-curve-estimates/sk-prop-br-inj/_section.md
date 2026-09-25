@@ -2,7 +2,7 @@
 id = "sk-prop-br-inj"
 kind = "section"
 title = "Generic-point injection for the Brauer group"
-order = 909
+order = 900
 uses = ["sk-def-br", "sk-prop-divisor-gen"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-pur-regular-immersion-smooth-structure"
 kind = "lemma"
 title = "A regular immersion of smooth schemes over a perfect field"
-order = 2128
+order = 2032
 uses = ["def-pur-conventions", "def-pur-regular-immersion", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "lem-sc-smooth-regular"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

@@ -2,7 +2,7 @@
 id = "lem-mg-filtration-refinement"
 kind = "lemma"
 title = "Refining a finite filtration"
-order = 2744
+order = 2544
 uses = ["def-mg-weil-composition-series", "lem-mg-composition-series-exists", "lem-mg-jordan-holder"]
 +++
 Let $0=M_0\subseteq M_1\subseteq\cdots\subseteq M_s=M$ be a finite

@@ -2,7 +2,7 @@
 id = "def-pod-coefficient-dual-on-x"
 kind = "definition"
 title = "Coefficient dual on $X$"
-order = 2389
+order = 2245
 uses = ["def-pod-conventions", "def-weil-geometric-hypotheses"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting),

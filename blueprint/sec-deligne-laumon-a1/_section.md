@@ -2,7 +2,7 @@
 id = "sec-deligne-laumon-a1"
 kind = "section"
 title = "Deligne–Laumon on the Affine Line: Proof Sketch"
-order = 2965
+order = 2721
 uses = ["sec-fourier-transform", "sec-poincare-duality", "sec-purity-real-sheaves", "sec-six-functors", "sec-smooth-purity", "sec-trace-formula", "sec-zeta-weil"]
 +++
 content: a sketch of the affine-line weight estimate via curve perverse sheaves,

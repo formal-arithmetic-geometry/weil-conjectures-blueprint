@@ -2,7 +2,7 @@
 id = "thm-sf-comp-composition"
 kind = "theorem"
 title = "The composition law for $Rf_!$"
-order = 1542
+order = 1516
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "lem-weil-derived-direct-image-composition", "prop-compactification-coherence-detailed", "prop-compactification-refinement", "thm-nagata-compactification", "thm-weil-pbc-finite-level-proetale"]
 +++
 Let $f:X\to Y$ and $g:Y\to S$ be separated of finite type between finite-type

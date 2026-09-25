@@ -2,7 +2,7 @@
 id = "sk-the-final-theorem--remark-1"
 kind = "section"
 title = "Remark"
-order = 1372
+order = 1361
 +++
 *Remark (sketch).*
 

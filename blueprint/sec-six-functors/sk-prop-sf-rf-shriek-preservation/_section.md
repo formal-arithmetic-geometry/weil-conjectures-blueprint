@@ -2,7 +2,7 @@
 id = "sk-prop-sf-rf-shriek-preservation"
 kind = "section"
 title = "Preservation for the exceptional inverse image"
-order = 2169
+order = 2059
 +++
 *Proposition (sketch).*
 

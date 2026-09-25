@@ -2,7 +2,7 @@
 id = "def-pc-proj"
 kind = "definition"
 title = "Projective spectrum and its standard opens"
-order = 620
+order = 613
 +++
 For a nonnegatively graded commutative ring $S$, the scheme
 $\operatorname{Proj}(S)$ has as points the homogeneous prime ideals

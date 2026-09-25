@@ -2,7 +2,7 @@
 id = "sk-cor-picard-hilb-sheaf"
 kind = "section"
 title = "Hilbert functor is the fppf sheaf"
-order = 779
+order = 771
 uses = ["sk-def-av-jacobian", "sk-thm-picard-descent"]
 +++
 *Corollary (sketch).*

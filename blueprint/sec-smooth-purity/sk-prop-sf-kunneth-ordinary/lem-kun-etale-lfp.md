@@ -2,7 +2,7 @@
 id = "lem-kun-etale-lfp"
 kind = "lemma"
 title = "Etale morphisms are locally of finite presentation"
-order = 1746
+order = 1705
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 An etale morphism of schemes is locally of finite presentation; hence

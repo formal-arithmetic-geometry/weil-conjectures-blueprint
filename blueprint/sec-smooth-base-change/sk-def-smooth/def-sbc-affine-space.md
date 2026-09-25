@@ -2,7 +2,7 @@
 id = "def-sbc-affine-space"
 kind = "definition"
 title = "Affine space"
-order = 1389
+order = 1377
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 For a scheme $S$ and an integer $n\geq0$, the *affine $n$-space*

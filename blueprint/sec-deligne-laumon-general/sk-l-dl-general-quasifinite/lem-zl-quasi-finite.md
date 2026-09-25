@@ -2,7 +2,7 @@
 id = "lem-zl-quasi-finite"
 kind = "lemma"
 title = "Quasi-finite morphisms: exactness and upper-weight bound"
-order = 3088
+order = 2818
 uses = ["def-weil-complex-weights", "def-weil-extension-by-zero", "def-weil-pbc-qbar-category", "lem-zl-finite-pushforward", "lemma-weil-pbc-finite-direct-image-exact", "prop-functor-package", "thm-pqf-zmt-factorization"]
 +++
 Let $g:Z_0\to Y_0$ be a separated quasi-finite morphism of separated

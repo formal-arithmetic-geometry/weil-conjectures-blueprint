@@ -2,7 +2,7 @@
 id = "lem-sc-divisible-quotient-torsion"
 kind = "lemma"
 title = "Torsion in a quotient of a divisible group"
-order = 1019
+order = 1011
 +++
 Let $G$ be an abelian group, $\Lambda\subseteq G$ a subgroup,
 and $n\geq1$. Assume multiplication by $n$ on $G$ is

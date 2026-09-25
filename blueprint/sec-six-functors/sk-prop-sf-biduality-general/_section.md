@@ -2,7 +2,7 @@
 id = "sk-prop-sf-biduality-general"
 kind = "section"
 title = "General Verdier biduality"
-order = 2225
+order = 2113
 +++
 *Proposition (sketch).*
 

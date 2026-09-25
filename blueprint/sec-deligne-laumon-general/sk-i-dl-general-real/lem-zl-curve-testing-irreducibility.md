@@ -2,7 +2,7 @@
 id = "lem-zl-curve-testing-irreducibility"
 kind = "lemma"
 title = "Curve testing for geometric irreducibility"
-order = 3102
+order = 2832
 uses = ["def-weil-pbc-qbar-category", "def-wf-fundamental-representation", "lem-zl-bertini-finite-cover-curve", "lem-zl-finite-matrix-irreducibility"]
 +++
 Let $X_0$ be a smooth geometrically connected affine scheme over a

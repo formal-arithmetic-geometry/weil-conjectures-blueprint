@@ -2,7 +2,7 @@
 id = "rem-pc-regularity-sc"
 kind = "remark"
 title = "Local regularity theory: already in file 06"
-order = 712
+order = 703
 uses = ["def-pc-smooth-projective-curve", "def-sc-curves", "lem-sc-point-cartier", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
 The local regularity facts used in this blueprint are already decomposed

@@ -2,7 +2,7 @@
 id = "sk-prop-nagata-sketch-approximation"
 kind = "section"
 title = "Absolute approximation and descent"
-order = 331
+order = 326
 +++
 *Proposition (sketch).*
 

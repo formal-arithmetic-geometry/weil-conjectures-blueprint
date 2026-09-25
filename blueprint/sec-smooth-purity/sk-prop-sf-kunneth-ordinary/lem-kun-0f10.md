@@ -2,7 +2,7 @@
 id = "lem-kun-0f10"
 kind = "lemma"
 title = "Finite cohomological dimension of finite-type morphisms"
-order = 1773
+order = 1731
 uses = ["def-kun-cd", "def-kun-separably-closed", "def-weil-pbc-scheme-conventions", "lem-kun-cd-sep-closed-point"]
 +++
 Let $K$ be a field and let $f:X\to Y$ be a morphism between

@@ -2,7 +2,7 @@
 id = "sk-rem-seams"
 kind = "section"
 title = "The seams"
-order = 1474
+order = 1448
 +++
 *Remark (sketch).*
 

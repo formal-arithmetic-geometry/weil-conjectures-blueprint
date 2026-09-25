@@ -2,7 +2,7 @@
 id = "sk-thm-sf-global-duality"
 kind = "section"
 title = "Global Verdier duality"
-order = 2297
+order = 2179
 uses = ["sk-thm-sf-verdier-exchange"]
 +++
 *Theorem (sketch).*

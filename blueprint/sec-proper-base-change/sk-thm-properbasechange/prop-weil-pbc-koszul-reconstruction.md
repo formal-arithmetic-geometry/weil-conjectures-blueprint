@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-koszul-reconstruction"
 kind = "theorem"
 title = "Koszul and quotient reconstruction"
-order = 1241
+order = 1248
 uses = ["def-weil-pbc-adic-coefficient-datum"]
 tags = ["latex:proposition"]
 +++

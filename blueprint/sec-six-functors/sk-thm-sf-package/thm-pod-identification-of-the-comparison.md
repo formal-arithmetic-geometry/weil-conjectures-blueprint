@@ -2,8 +2,8 @@
 id = "thm-pod-identification-of-the-comparison"
 kind = "theorem"
 title = "Identification of the Poincare pairing with Verdier duality"
-order = 2400
-uses = ["def-exchange-projection", "def-pod-coefficient-dual-on-x", "def-pod-conventions", "def-pod-derived-poincare-pairing", "def-pod-mixed-support-cup-product", "def-pod-perfect-complex-on-x", "def-pod-perfect-derived-pairing", "def-pur-smooth-trace", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-coefficient-point", "fix-prop-projection-formula", "lem-sf-tensor-hom", "prop-pod-verdier-dual-on-smooth", "thm-pod-global-verdier-duality", "thm-pur-finite-coefficient-smooth-purity", "thm-sf-identification", "thm-sf-verdier-exchange"]
+order = 2253
+uses = ["def-exchange-projection", "def-pod-coefficient-dual-on-x", "def-pod-conventions", "def-pod-derived-poincare-pairing", "def-pod-mixed-support-cup-product", "def-pod-perfect-complex-on-x", "def-pod-perfect-derived-pairing", "def-pur-smooth-trace", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-coefficient-point", "fix-prop-projection-formula", "lem-sf-tensor-hom", "thm-pod-global-verdier-duality", "thm-pur-finite-coefficient-smooth-purity", "thm-sf-dual-perfect", "thm-sf-identification", "thm-sf-verdier-exchange"]
 +++
 Fix $\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, the smooth
 geometrically connected $k$-scheme $X=X_0\times_{k_0}k$ of dimension $d$
@@ -33,7 +33,7 @@ in [fix-prop-projection-formula] and the adjunction definitions cited below.
 They are taken at the chosen coefficient stage.
 Put $C=Ra_{X!}K$, $\omega=Ra_X^!\Lambda$, and
 $D=Ra_{X*}R\mathcal Hom_X(K,\omega)$. The identification
-[prop-pod-verdier-dual-on-smooth] identifies $D$ with the first
+[thm-sf-dual-perfect] identifies $D$ with the first
 object of the displayed map. By
 [def-pod-derived-poincare-pairing], [def-pod-coefficient-dual-on-x], [def-pur-smooth-trace],
 the pairing, before this identification, is cup product followed by
@@ -85,7 +85,7 @@ tensor–internal-Hom calculus is [lem-sf-tensor-hom], [thm-sf-verdier-exchange]
 whose abstract outcome is [thm-sf-identification], and the identification
 of the Verdier dual of a smooth $X$ with $K^\vee (d)[2d]$ is the
 smooth-purity orientation [thm-pur-finite-coefficient-smooth-purity]
-consumed through [prop-pod-verdier-dual-on-smooth].
+consumed through [thm-sf-dual-perfect].
 Properness of $X$ is used nowhere in this argument: the adjunctions,
 the projection formula and the smooth-purity orientation hold for any
 smooth separated finite-type $X$ with admissible $a_X$.

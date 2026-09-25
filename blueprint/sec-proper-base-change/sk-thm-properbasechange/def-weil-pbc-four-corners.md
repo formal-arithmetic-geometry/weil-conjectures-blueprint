@@ -2,7 +2,7 @@
 id = "def-weil-pbc-four-corners"
 kind = "definition"
 title = "Four finite-level corners"
-order = 1353
+order = 1342
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-cartesian-square", "def-weil-pbc-completed-pullback", "def-weil-pbc-proetale-operations"]
 +++
 Let $\square$ be cartesian [def-weil-pbc-cartesian-square] with $f$ proper,

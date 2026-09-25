@@ -2,7 +2,7 @@
 id = "sk-def-av-mult-n"
 kind = "section"
 title = "Multiplication by $n$ and $n$-torsion"
-order = 438
+order = 433
 +++
 *Definition (sketch).*
 

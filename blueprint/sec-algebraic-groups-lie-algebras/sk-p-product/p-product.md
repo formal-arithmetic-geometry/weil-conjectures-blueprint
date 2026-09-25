@@ -2,7 +2,7 @@
 id = "p-product"
 kind = "theorem"
 title = "The central--geometric product"
-order = 2714
+order = 2523
 tags = ["latex:proposition"]
 uses = ["d-monodromy", "lem-ag-closure-commutators", "lem-ag-closure-semisimple", "lem-ag-faithful-semisimple-lie-central-radical", "lem-ag-homomorphism-image-closed", "lem-ag-lie-centre", "lem-ag-lie-stable-subspace", "lem-wf-algebraic-component-cosets", "lem-wf-same-lie-closed-subgroup"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-prop-an"
 kind = "section"
 title = "$\\Aaf^1\\Rightarrow\\Aaf^n$: the model purity"
-order = 2039
+order = 1962
 uses = ["sk-def-purity-conv", "sk-prop-a1", "sk-prop-a1-inv"]
 +++
 *Proposition (sketch).*
@@ -24,6 +24,11 @@ $$
 $$
 
 which restricts to the previous one in any étale trivialization of $E$.
+*Note: the $Rz^!$ form and the Thom class $\mathrm{th}_E$ above seem never
+to be used later; downstream uses only the equivalent forms
+$R\pi^!\Lambda_Z\cong\Lambda_E(c)[2c]$ (vector-bundle purity) and
+$R\pi_!\Lambda_E(c)[2c]\cong\Lambda_Z$ (the vector-bundle trace), so the $Rz^!$ form
+has no detailed counterpart in the blueprint.*
 
 ## Proof
 

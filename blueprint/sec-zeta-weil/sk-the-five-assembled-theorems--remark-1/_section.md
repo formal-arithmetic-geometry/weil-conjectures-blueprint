@@ -2,7 +2,7 @@
 id = "sk-the-five-assembled-theorems--remark-1"
 kind = "section"
 title = "Remark"
-order = 3236
+order = 2938
 +++
 *Remark (sketch).*
 

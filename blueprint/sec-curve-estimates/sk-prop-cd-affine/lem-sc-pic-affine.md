@@ -2,7 +2,7 @@
 id = "lem-sc-pic-affine"
 kind = "lemma"
 title = "Pic of an affine curve: quotient description, divisibility, finiteness"
-order = 1020
+order = 1012
 uses = ["def-sc-curves", "def-sc-jacobian", "def-sc-mult-n", "def-sc-pic0", "lem-sc-compactification", "lem-sc-dim0-finite", "lem-sc-divisible-quotient-torsion", "lem-sc-divisor-class-curve", "lem-sc-pic-proper-decomposition", "lem-sc-proper-affine-finite", "thm-av-final", "thm-sc-jacobian-representability"]
 +++
 Let $C$ be a smooth affine connected curve over

@@ -2,7 +2,7 @@
 id = "def-pc-relative-effective-cartier"
 kind = "definition"
 title = "Relative effective Cartier divisors"
-order = 792
+order = 784
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "def-sc-effective-cartier-divisor"]
 +++
 Let $f:X\to S$ be a morphism of schemes. A *relative effective

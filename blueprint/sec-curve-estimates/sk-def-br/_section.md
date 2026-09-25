@@ -2,7 +2,7 @@
 id = "sk-def-br"
 kind = "section"
 title = "Brauer group"
-order = 898
+order = 889
 uses = ["sec-abelian-varieties", "sk-def-curve", "sk-prop-hilbert90"]
 +++
 *Definition (sketch).*

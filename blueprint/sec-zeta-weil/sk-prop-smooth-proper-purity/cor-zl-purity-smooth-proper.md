@@ -2,9 +2,9 @@
 id = "cor-zl-purity-smooth-proper"
 kind = "theorem"
 title = "Purity of smooth proper cohomology"
-order = 3146
+order = 2869
 tags = ["latex:corollary"]
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-wf-wt", "def-wf-wtge", "def-wf-wtle", "lem-tw-multiplicativity", "lem-wf-tate-twist-frobenius", "prop-weil-operations", "thm-pod-derived-poincare-duality", "thm-pod-proper-poincare-duality", "thm-zl-wme-deligne-estimate"]
+uses = ["def-weil-algebraically-closed-coefficients", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-punctual-weights", "prop-weil-operations", "prop-zl-smooth-proper-relative-purity"]
 +++
 Fix the finite-field datum
 $(p,a,q,k_0,k)$, where $q=p^a$, and a prime $\ell\neq p$; write
@@ -20,7 +20,9 @@ global geometric Frobenius
 in the geometric-Frobenius convention, and
 let $(\Qlb)_X$ be the constant
 $\Qlb$-sheaf on
-$X$. Then, for every $i\in\mathbf Z$, the Frobenius module
+$X$, and assume that the structure morphism
+$a_X:X_0\to\Spec k_0$ is exceptional-adjoint admissible at $\Qlb$
+([def-weil-exceptional-adjoint-admissibility]). Then, for every $i\in\mathbf Z$, the Frobenius module
 
 $$
 (H^i(X,\Qlb),F)
@@ -33,43 +35,32 @@ $H_c^i(X,\Qlb)=H^i(X,\Qlb)$ (proper coincidence,
 
 ## Proof
 
-The constant $\Qlb$-sheaf is the constant [def-wf-wt] pure weight
-$0$ constructible
-[def-weil-frobenius-module-weights]-module; its pushforward data
-along the structure morphism of
-[def-weil-finite-field-fiber] $a_X:X_0\to\Spec k_0$ (a separated finite-type morphism, so the
-hypotheses of [thm-zl-wme-deligne-estimate] hold) give, for every
-$i$,
+This is the absolute case of [prop-zl-smooth-proper-relative-purity].
+Take $Y_0=\Spec k_0$ and $f_0=a_X:X_0\to\Spec k_0$, the structure morphism of
+[def-weil-finite-field-fiber]: it is smooth and proper of pure relative
+dimension $d$, and it and the structure morphisms ($a_X$ and
+$\operatorname{id}_{\Spec k_0}$) are exceptional-adjoint admissible by
+hypothesis. Take $\mathcal F_0=(\Qlb)_{X_0}$, the constant Weil sheaf. It is
+lisse, and it is punctually $\iota$-pure of weight $0$ in the sense of
+[def-weil-punctual-weights]: at every closed point $x$ the local
+Frobenius of [def-weil-local-frobenius-trace] is the identity of the
+one-dimensional stalk, so its only eigenvalue is $1$ and
+$|\iota(1)|=1=q_x^{0/2}$.
 
-$$
-H_c^i(X,\Qlb)=H^i(X,\Qlb)\ \ \text{mixed of weights at most}\ i
-$$
-
-(the proper coincidence is item (4) of
-[prop-weil-operations], and the compact-support form of
-[thm-zl-wme-deligne-estimate] is the upper bound $0+i$). This
-is the upper bound $\mathrm{WtLe}(H^i(X,\Qlb),i)$ in the sense of
-[def-wf-wtle].
-
-For the lower bound, apply [thm-pod-derived-poincare-duality] to
-$X$ (smooth proper of pure dimension $d$) with
-$K=(\Qlb)_X$, which is perfect over $(\Qlb)_X$; since $X$ is proper,
-its compact-support side is identified with ordinary cohomology by the
-proper Poincare duality [thm-pod-proper-poincare-duality], which gives the
-Frobenius-equivariant isomorphism
-
-$$
-H^i(X,\Qlb)^\vee\;\cong\;H^{2d-i}\bigl(X,(\Qlb)_X^\vee(d)\bigr)
-=H^{2d-i}\bigl(X,\Qlb(d)\bigr),
-$$
-
-where $\Qlb(d)$ is the Tate twist of [lem-wf-tate-twist-frobenius],
-punctually pure of weight $-2d$. Applying the upper bound above to the
-lisse constant sheaf $\Qlb(d)$ (an independent instance of the same
-argument, or verbatim the same step) gives the last group mixed of
-weights at most $-2d+(2d-i)=-i$, hence $H^i(X,\Qlb)^\vee$ is so, and
-passing to duals – inverse eigenvalues,
-[lem-tw-multiplicativity] – shows that $H^i(X,\Qlb)$ is mixed of
-weights at least $i$ ([def-wf-wtge]). Together with the upper
-bound ([def-wf-wtle]) this is $\iota$-purity of weight $i$
-([def-wf-wt]), as asserted.
+The base $\Spec k_0$ has a single closed point $y$, with $q_y=q$ and
+geometric point $\bar y=\Spec k$; the geometric fibre of $a_X$ over it is
+$X$. The stalk of $R^{i}a_{X*}(\Qlb)_{X_0}$ at $\bar y$ is
+$H^{i}(X,\Qlb)$, and the Weil isomorphism on $Ra_{X*}$ of
+[prop-weil-operations], iterated once ($y$ has degree $1$), is the action
+on cohomology of the global geometric Frobenius of
+[def-weil-global-geometric-frobenius]; hence the local operator $F_y$ is
+$F$. Clause (b) of [prop-zl-smooth-proper-relative-purity] (with $w=0$)
+therefore says that every eigenvalue $\alpha$ of $F$ on $H^{i}(X,\Qlb)$
+satisfies $|\iota(\alpha)|=q^{i/2}$, which is $\iota$-purity of weight $i$
+of $(H^{i}(X,\Qlb),F)$ in the sense of
+[def-weil-frobenius-module-weights]. By clause (a) the canonical map
+$H_c^{i}(X,\Qlb)\to H^{i}(X,\Qlb)$ is a Frobenius-equivariant isomorphism
+(the proper coincidence of [prop-weil-operations]), and a pure Frobenius
+module of weight $i$ is $\iota$-mixed of weights at most $i$ (take $m=1$,
+$w_1=i$ in [def-weil-frobenius-module-weights]); this is the assertion on
+$H_c^{i}(X,\Qlb)$.

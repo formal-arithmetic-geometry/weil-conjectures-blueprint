@@ -2,7 +2,7 @@
 id = "lem-sc-p1-coherent-finite"
 kind = "lemma"
 title = "Finite coherent cohomology on the projective line"
-order = 650
+order = 641
 uses = ["def-sc-p1-standard", "lem-sc-cech-spectral", "pqf-def-coherent", "pqf-lem-affine-vanishing"]
 +++
 Let $k$ be a field and let $\mathcal F$ be a

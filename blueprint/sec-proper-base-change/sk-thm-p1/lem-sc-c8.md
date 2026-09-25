@@ -2,7 +2,7 @@
 id = "lem-sc-c8"
 kind = "lemma"
 title = "C8: surjectivity of the restriction map in degree two"
-order = 1129
+order = 1119
 uses = ["def-sc-curves", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-scheme-conventions", "lem-sc-affine-cohomological-dimension", "lem-sc-affine-open-proper", "lem-sc-compactification", "thm-sc-affine-cohomology"]
 +++
 Let $k$ be algebraically closed, let $C$ be a

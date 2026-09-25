@@ -2,8 +2,8 @@
 id = "def-kun-unbounded-exchange"
 kind = "definition"
 title = "Unbounded derived exchange morphism"
-order = 1703
-uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-underived-exchange", "prop-weil-pbc-kinjective-resolutions-exist"]
+order = 1664
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $\square=(f,f',g,g',\alpha)$ be a
 cartesian square, let
@@ -24,8 +24,4 @@ f'^{-1}g^{-1}Rf_*K\xrightarrow{\theta_\square}
 g'^{-1}f^{-1}Rf_*K\xrightarrow{g'^{-1}\varepsilon_f}g'^{-1}K,
 $$
 
-exactly as in [def-weil-pbc-derived-exchange]; equivalently, by
-the termwise underived exchange morphism of
-[def-weil-pbc-underived-exchange] on a K-injective resolution,
-followed by comparison with a
-K-injective resolution of $g'^{-1}I$.
+exactly as in [def-weil-pbc-derived-exchange].

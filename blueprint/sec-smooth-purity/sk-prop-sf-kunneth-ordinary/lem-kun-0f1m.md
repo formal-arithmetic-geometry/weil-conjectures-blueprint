@@ -2,7 +2,7 @@
 id = "lem-kun-0f1m"
 kind = "lemma"
 title = "Tor amplitude and K-flat resolutions"
-order = 1767
+order = 1725
 uses = ["def-kun-derived-tensor", "def-kun-tor-amplitude", "def-kun-truncations", "lem-kun-flat-resolution-existence", "lem-kun-kflat-criteria", "lem-kun-tor-cokernel-flat"]
 +++
 Let $\Lambda$ be a commutative ring, $T$ a scheme,

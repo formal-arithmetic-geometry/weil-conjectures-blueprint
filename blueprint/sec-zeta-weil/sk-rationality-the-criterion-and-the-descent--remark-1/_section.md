@@ -2,7 +2,7 @@
 id = "sk-rationality-the-criterion-and-the-descent--remark-1"
 kind = "section"
 title = "Remark"
-order = 3178
+order = 2893
 +++
 *Remark (sketch).*
 

@@ -2,7 +2,7 @@
 id = "sk-thm-nagata-sketch-noetherian"
 kind = "section"
 title = "Nagata over a Noetherian base"
-order = 326
+order = 321
 uses = ["sk-lem-nagata-sketch-affine-cover", "sk-thm-nagata-sketch-two-open"]
 +++
 *Theorem (sketch).*

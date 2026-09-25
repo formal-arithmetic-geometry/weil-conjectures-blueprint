@@ -2,7 +2,7 @@
 id = "sk-prop-av-divisible"
 kind = "section"
 title = "Surjectivity of multiplication by $n$ on points"
-order = 576
+order = 569
 uses = ["sk-def-av", "sk-def-av-mult-n", "sk-prop-av-isogeny"]
 +++
 *Proposition (sketch).*

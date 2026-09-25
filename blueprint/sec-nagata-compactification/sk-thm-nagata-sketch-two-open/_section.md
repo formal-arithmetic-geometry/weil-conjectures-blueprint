@@ -2,7 +2,7 @@
 id = "sk-thm-nagata-sketch-two-open"
 kind = "section"
 title = "Two-open compactification"
-order = 289
+order = 284
 uses = ["sk-lem-nagata-sketch-common", "sk-lem-nagata-sketch-dense-valuative", "sk-prop-nagata-sketch-key-disjointness"]
 +++
 *Theorem (sketch).*

@@ -2,7 +2,7 @@
 id = "prop-trf-exceptional-kunneth"
 kind = "theorem"
 title = "Exceptional Kunneth; the $\\alpha$ map"
-order = 2368
+order = 2226
 tags = ["latex:proposition"]
 uses = ["def-sf-kv-maps", "def-trf-admissibility", "lem-sf-triangle-two-out-of-three", "lem-trf-devissage-generation", "lem-trf-ordinary-kunneth", "thm-pur-affine-line-purity"]
 +++

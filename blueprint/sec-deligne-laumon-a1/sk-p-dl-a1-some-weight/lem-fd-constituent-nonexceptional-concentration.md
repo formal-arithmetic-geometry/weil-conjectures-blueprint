@@ -2,7 +2,7 @@
 id = "lem-fd-constituent-nonexceptional-concentration"
 kind = "lemma"
 title = "Concentration of the zero-extension transform for a constituent-nonexceptional input"
-order = 3034
+order = 2775
 uses = ["def-a1-constituent-nonexceptional", "def-fd-kernel", "def-fd-transform", "def-wf-constant-weil-twist", "def-wf-fundamental-representation", "lem-a1-affine-hc0", "lem-a1-affine-hc2", "lem-fd-as-characters", "lem-fd-realified-kernel-real", "lem-fd-stalk-formula", "lem-zl-affine-curve-range", "prop-functor-package", "rem-dl-a1-conventions"]
 +++
 In the conventions of [rem-dl-a1-conventions], let

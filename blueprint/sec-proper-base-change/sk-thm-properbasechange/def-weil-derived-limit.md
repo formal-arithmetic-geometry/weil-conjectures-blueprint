@@ -2,7 +2,7 @@
 id = "def-weil-derived-limit"
 kind = "definition"
 title = "Derived limit of an inverse system"
-order = 1200
+order = 1207
 +++
 Let $\mathcal D$ be a triangulated category and let $(K_n,f_n)_{n\in\mathbf
 Z_{\geq1}}$ be an inverse system of objects of $\mathcal D$, with transition

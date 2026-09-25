@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-level-rectangle"
 kind = "lemma"
 title = "Finite-level exchange rectangle"
-order = 1355
+order = 1344
 uses = ["def-weil-pbc-four-arrows", "def-weil-pbc-four-corners", "lemma-weil-pbc-perfect-projection-formula"]
 +++
 For every $n$, the diagram

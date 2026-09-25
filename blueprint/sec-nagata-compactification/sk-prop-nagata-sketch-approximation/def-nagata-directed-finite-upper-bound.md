@@ -2,7 +2,7 @@
 id = "def-nagata-directed-finite-upper-bound"
 kind = "definition"
 title = "Selected upper bound of a finite set"
-order = 333
+order = 328
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and
 Noetherian descent is done in one step by

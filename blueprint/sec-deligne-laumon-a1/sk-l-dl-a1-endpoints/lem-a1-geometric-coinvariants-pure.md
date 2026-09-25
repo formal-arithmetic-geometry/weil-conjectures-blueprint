@@ -2,7 +2,7 @@
 id = "lem-a1-geometric-coinvariants-pure"
 kind = "lemma"
 title = "Purity of the geometric coinvariants"
-order = 2976
+order = 2730
 uses = ["def-weil-frobenius-module-weights", "def-weil-punctual-weights", "def-wf-fundamental-representation", "p-linear-filtration"]
 +++
 Let $U_0$ be a nonempty smooth geometrically connected curve over

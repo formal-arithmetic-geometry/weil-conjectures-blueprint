@@ -2,7 +2,7 @@
 id = "lem-sc-brauer-injectivity"
 kind = "lemma"
 title = "Brauer classes are determined by the generic fibre"
-order = 911
+order = 902
 uses = ["def-br", "lem-sc-divisor-sequence-general", "lem-sc-point-z-cohomology", "lem-sp-grothendieck-edge-maps", "thm-sc-hilbert-90"]
 +++
 Let $X$ be an integral regular noetherian scheme (for example a

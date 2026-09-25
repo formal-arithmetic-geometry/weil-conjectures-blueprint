@@ -2,7 +2,7 @@
 id = "sk-prop-av-divisible-structure"
 kind = "section"
 title = "The torsion of a divisible group"
-order = 580
+order = 573
 uses = ["sk-def-av"]
 +++
 *Proposition (sketch).*

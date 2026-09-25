@@ -2,7 +2,7 @@
 id = "sec-six-functors"
 kind = "section"
 title = "Six Functors"
-order = 2136
+order = 2039
 uses = ["sec-nagata-compactification", "sec-proper-base-change", "sec-smooth-base-change", "sec-smooth-purity"]
 +++
 content: the six operations, projection formulas, duality, and preservation

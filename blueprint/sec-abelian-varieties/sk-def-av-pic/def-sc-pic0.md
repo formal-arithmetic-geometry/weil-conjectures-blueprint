@@ -2,7 +2,7 @@
 id = "def-sc-pic0"
 kind = "definition"
 title = "Degree and $\\operatorname{Pic}^0$"
-order = 450
+order = 445
 uses = ["def-sc-curves", "def-sc-divisor", "def-sc-picard-group"]
 +++
 Let $C$ be a proper smooth connected curve over

@@ -2,7 +2,7 @@
 id = "sk-def-bc"
 kind = "section"
 title = "The recorded base-change property"
-order = 1375
+order = 1364
 +++
 *Definition (sketch).*
 

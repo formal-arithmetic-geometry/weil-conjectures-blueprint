@@ -2,7 +2,7 @@
 id = "lem-pc-flat-base-change-cohom"
 kind = "lemma"
 title = "Cohomology and flat base change"
-order = 677
+order = 668
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-morphism-hi", "lem-pc-affine-vanishing", "lem-pc-cech-computes", "lem-pc-finite-support-hi", "lem-sc-cech-spectral"]
 +++
 Let

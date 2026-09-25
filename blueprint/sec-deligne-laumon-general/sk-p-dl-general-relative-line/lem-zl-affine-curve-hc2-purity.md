@@ -2,7 +2,7 @@
 id = "lem-zl-affine-curve-hc2-purity"
 kind = "lemma"
 title = "Purity of the top affine-curve factor"
-order = 3111
+order = 2840
 uses = ["def-weil-frobenius-module-weights", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "lem-a1-affine-hc2-pure"]
 +++
 Let $C_0$ be a smooth affine curve and let $\mathcal E$ be lisse and

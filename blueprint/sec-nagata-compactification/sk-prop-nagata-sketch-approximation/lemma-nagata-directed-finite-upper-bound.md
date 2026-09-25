@@ -2,7 +2,7 @@
 id = "lemma-nagata-directed-finite-upper-bound"
 kind = "lemma"
 title = "Property of the selected finite upper bound"
-order = 334
+order = 329
 uses = ["def-nagata-directed-finite-upper-bound"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

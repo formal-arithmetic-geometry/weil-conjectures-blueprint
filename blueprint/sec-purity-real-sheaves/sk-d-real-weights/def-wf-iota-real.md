@@ -2,7 +2,7 @@
 id = "def-wf-iota-real"
 kind = "definition"
 title = "$\\iota$-real and $\\iota$-realizable Weil sheaves"
-order = 2798
+order = 2589
 uses = ["def-weil-constructible-heart", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex"]
 +++
 Let $X_0$ be a separated finite-type $k_0$-scheme, fix

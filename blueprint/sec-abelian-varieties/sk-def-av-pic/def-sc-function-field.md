@@ -2,7 +2,7 @@
 id = "def-sc-function-field"
 kind = "definition"
 title = "The function field of a curve"
-order = 446
+order = 441
 uses = ["def-sc-curves"]
 +++
 Let $C$ be a curve over $k$. The

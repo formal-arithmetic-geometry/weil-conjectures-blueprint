@@ -2,7 +2,7 @@
 id = "prop-pur-dnc-family-constancy"
 kind = "theorem"
 title = "The deformation family is constant along the affine line"
-order = 2093
+order = 2001
 tags = ["latex:proposition"]
 uses = ["cor-pur-vector-bundle-purity", "def-pur-co-smoothness", "def-pur-conventions", "def-pur-dnc-section-family", "def-weil-derived-tensor", "lem-pur-concentrated-complex-shift", "lem-pur-dnc-section-geometry", "prop-pur-a1-invariance", "thm-pur-cohomological-smoothness"]
 +++

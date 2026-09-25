@@ -2,7 +2,7 @@
 id = "sk-def-av-jacobian"
 kind = "section"
 title = "The Jacobian"
-order = 452
+order = 446
 uses = ["sec-nagata-compactification", "sk-def-av", "sk-def-av-pic", "sk-def-curve"]
 +++
 *Definition (sketch).*

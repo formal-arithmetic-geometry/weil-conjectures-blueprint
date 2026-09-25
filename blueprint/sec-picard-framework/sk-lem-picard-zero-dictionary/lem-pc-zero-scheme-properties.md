@@ -2,7 +2,7 @@
 id = "lem-pc-zero-scheme-properties"
 kind = "lemma"
 title = "Properties of the zero scheme"
-order = 835
+order = 826
 uses = ["def-pc-base-change", "def-pc-scheme", "def-sc-invertible-module", "lem-pc-divisor-line-bundle-properties", "lem-pc-tensor-dual-invertible"]
 +++
 Let $X$ be a scheme, $\mathcal{M}$ a

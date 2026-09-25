@@ -2,7 +2,7 @@
 id = "sk-prop-rootpurity"
 kind = "section"
 title = "Reciprocal roots have the weight-$i$ absolute value"
-order = 3180
+order = 2895
 uses = ["sk-def-cohfamily", "sk-def-roots", "sk-input-weights"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "sk-p-geometry"
 kind = "section"
 title = "Algebraic-group geometry"
-order = 2676
+order = 2493
 uses = ["sk-d-geometry", "sk-i-cartier", "sk-i-geometry"]
 +++
 *Proposition (sketch).*

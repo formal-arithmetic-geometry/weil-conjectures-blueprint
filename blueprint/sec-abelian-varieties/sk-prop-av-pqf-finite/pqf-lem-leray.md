@@ -2,7 +2,7 @@
 id = "pqf-lem-leray"
 kind = "lemma"
 title = "Leray spectral sequence"
-order = 543
+order = 536
 uses = ["pqf-def-cohomology", "thm-sp-grothendieck"]
 +++
 Let $f:X\to Y$ be a morphism of schemes and $\mathcal F$ a

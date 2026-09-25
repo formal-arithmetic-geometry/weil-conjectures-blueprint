@@ -2,7 +2,7 @@
 id = "def-wf-constant-weil-twist"
 kind = "definition"
 title = "Constant Weil twist"
-order = 2796
+order = 2587
 uses = ["def-wf-weil-category", "def-wf-weil-group"]
 +++
 For $b\in\Qlb^\times$, let $\mathcal B_b$ be the rank-one

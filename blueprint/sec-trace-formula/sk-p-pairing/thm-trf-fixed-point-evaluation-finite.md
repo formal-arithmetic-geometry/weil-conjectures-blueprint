@@ -2,7 +2,7 @@
 id = "thm-trf-fixed-point-evaluation-finite"
 kind = "theorem"
 title = "Stalk traces on a finite etale fixed scheme"
-order = 2470
+order = 2321
 uses = ["def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-trf-fixed-scheme", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "def-weil-site-perfect-complex", "lem-trf-chain-supertrace", "thm-trf-internal-hom-pullback"]
 +++
 Use the finite coefficient ring

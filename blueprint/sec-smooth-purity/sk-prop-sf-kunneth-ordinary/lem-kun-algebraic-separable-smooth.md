@@ -2,7 +2,7 @@
 id = "lem-kun-algebraic-separable-smooth"
 kind = "lemma"
 title = "Algebraic separable extensions are filtered colimits of finite etale algebras"
-order = 1801
+order = 1756
 uses = ["def-sbc-smooth-morphisms"]
 +++
 Let $L/K$ be an algebraic separable extension of fields. Then $L$ is a

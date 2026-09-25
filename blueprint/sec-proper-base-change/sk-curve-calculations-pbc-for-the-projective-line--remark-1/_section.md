@@ -2,7 +2,7 @@
 id = "sk-curve-calculations-pbc-for-the-projective-line--remark-1"
 kind = "section"
 title = "Remark"
-order = 1104
+order = 1094
 +++
 *Remark (sketch).*
 

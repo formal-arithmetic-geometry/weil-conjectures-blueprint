@@ -2,7 +2,7 @@
 id = "lemma-nagata-dense-valuation-probe"
 kind = "lemma"
 title = "Properties of the valuation probe"
-order = 285
+order = 280
 lean = ["AlgebraicGeometry.ValuativeCommSqWithPt.ofIsDominant"]
 uses = ["def-nagata-dense-valuation-probe"]
 +++

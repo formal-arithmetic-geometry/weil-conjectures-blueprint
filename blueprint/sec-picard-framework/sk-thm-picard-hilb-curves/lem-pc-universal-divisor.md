@@ -2,7 +2,7 @@
 id = "lem-pc-universal-divisor"
 kind = "lemma"
 title = "The universal divisor"
-order = 803
+order = 795
 uses = ["def-pc-divisor-line-bundle", "def-pc-hilb-functor", "def-pc-relative-effective-cartier", "def-sc-effective-cartier-divisor", "lem-pc-cartier-criterion", "lem-pc-recd-pullback", "thm-pc-hilb-curves"]
 +++
 (Picard Schemes of Curves, Remark 44.3.7, Tag

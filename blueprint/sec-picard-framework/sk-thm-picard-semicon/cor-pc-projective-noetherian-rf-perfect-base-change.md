@@ -2,7 +2,7 @@
 id = "cor-pc-projective-noetherian-rf-perfect-base-change"
 kind = "theorem"
 title = "Arbitrary base change for a projective Noetherian family"
-order = 683
+order = 674
 tags = ["latex:corollary"]
 uses = ["def-pc-base-change", "def-pc-derived-direct-image", "def-pc-derived-pullback", "def-pc-morphism-conventions", "def-pc-perfect-complex", "def-pc-projective-morphism", "lem-pc-projective-noetherian-rf-perfect", "lem-pc-rf-base-change-flat-module", "pqf-def-coherent"]
 +++

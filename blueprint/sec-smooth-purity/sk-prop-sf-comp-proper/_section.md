@@ -2,7 +2,7 @@
 id = "sk-prop-sf-comp-proper"
 kind = "section"
 title = "Proper coincidence"
-order = 1936
+order = 1875
 uses = ["sk-def-sf-exchanges", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-thm-properbasechange"]
 +++
 *Proposition (sketch).*

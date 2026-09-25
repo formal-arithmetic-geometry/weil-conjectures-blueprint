@@ -2,7 +2,7 @@
 id = "sbc-def-coefficient-conventions"
 kind = "definition"
 title = "Coefficient conventions"
-order = 1376
+order = 1365
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-weil-pbc-kinjective-resolutions"]
 +++
 Fix a positive integer $N$ and a finite commutative ring $\Lambda$

@@ -2,7 +2,7 @@
 id = "thm-sc-proper-cohomology"
 kind = "theorem"
 title = "Kummer computation on a proper curve"
-order = 1033
+order = 1024
 uses = ["def-sc-curves", "def-sc-kummer-sequence", "def-sc-mu-trivialization", "lem-sc-cohomological-dimension", "lem-sc-kummer-les", "lem-sc-pic-proper-ntorsion", "lem-sc-primitive-root"]
 +++
 Let $k$ be algebraically closed, let $C$ be a

@@ -2,7 +2,7 @@
 id = "def-pc-projective-space-twist"
 kind = "definition"
 title = "Twists on projective space over a ring"
-order = 621
+order = 614
 uses = ["def-pc-proj", "def-sc-invertible-module", "def-sc-p1-standard", "pqf-def-coherent"]
 +++
 For a commutative ring $A$ and $n\ge0$, put

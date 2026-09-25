@@ -2,7 +2,7 @@
 id = "def-weil-pbc-qbar-category"
 kind = "definition"
 title = "Qbar-l coefficient category"
-order = 1322
+order = 1311
 uses = ["def-weil-karoubi-envelope", "def-weil-pbc-common-stage-cones", "def-weil-pbc-finite-stage-pair-category"]
 +++
 For $\alpha\in\Qlb$ and $f=[M,u]$ in $\mathcal P_T$, choose a finite field

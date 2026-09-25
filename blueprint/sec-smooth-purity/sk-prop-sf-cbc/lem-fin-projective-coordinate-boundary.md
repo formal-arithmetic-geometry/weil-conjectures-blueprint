@@ -2,7 +2,7 @@
 id = "lem-fin-projective-coordinate-boundary"
 kind = "lemma"
 title = "A projective coordinate complement is finite"
-order = 1666
+order = 1634
 uses = ["def-weil-pbc-scheme-conventions", "lem-fin-projective-finite-fibres"]
 +++
 Let $S=\operatorname{Spec}A$ be integral Noetherian and let

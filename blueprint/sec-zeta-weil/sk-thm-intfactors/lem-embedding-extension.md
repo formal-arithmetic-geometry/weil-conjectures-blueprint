@@ -2,7 +2,7 @@
 id = "lem-embedding-extension"
 kind = "lemma"
 title = "Extension of embeddings and intrinsic weights"
-order = 3191
+order = 2905
 uses = ["def-weil-algebraic-closure-q", "def-weil-finite-field-fiber", "def-weil-numbers"]
 +++
 Fix a prime $p$, $a\in\mathbf Z_{\geq1}$, $q=p^a$, $k_0=\Fq$, and

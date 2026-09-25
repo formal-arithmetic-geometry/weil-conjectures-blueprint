@@ -2,7 +2,7 @@
 id = "sk-thm-sf-comp-composition"
 kind = "section"
 title = "The composition law for $Rf_!$"
-order = 1541
+order = 1515
 uses = ["sec-nagata-compactification", "sec-proper-base-change", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-comp-coherence", "sk-thm-properbasechange"]
 +++
 *Theorem (sketch).*

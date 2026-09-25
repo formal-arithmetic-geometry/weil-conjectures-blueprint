@@ -2,7 +2,7 @@
 id = "sk-p-real-sections"
 kind = "section"
 title = "Global sections as invariants"
-order = 2802
+order = 2593
 uses = ["sec-algebraic-groups-lie-algebras", "sk-d-real-operations", "sk-d-real-weil", "sk-i-real-sheaves"]
 +++
 *Proposition (sketch).*

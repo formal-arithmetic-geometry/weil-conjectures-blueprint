@@ -2,7 +2,7 @@
 id = "lem-wf-weil-fundamental-representation"
 kind = "lemma"
 title = "The Weil fundamental representation is a continuous representation"
-order = 2690
+order = 2501
 uses = ["cor-galois-lisse-representations", "def-tw-frobenius-action", "def-wf-fundamental-representation"]
 +++
 In the situation of [def-wf-fundamental-representation], the formula

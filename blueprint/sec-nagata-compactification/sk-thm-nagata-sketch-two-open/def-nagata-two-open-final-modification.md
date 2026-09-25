@@ -2,7 +2,7 @@
 id = "def-nagata-two-open-final-modification"
 kind = "definition"
 title = "Final common modification for the two-open construction"
-order = 303
+order = 298
 uses = ["def-nagata-common-modification", "def-nagata-two-open-intermediate-schemes"]
 +++
 Apply the common-modification construction to the two open immersions

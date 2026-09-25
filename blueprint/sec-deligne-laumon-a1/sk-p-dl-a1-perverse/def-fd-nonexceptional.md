@@ -2,7 +2,7 @@
 id = "def-fd-nonexceptional"
 kind = "definition"
 title = "Fourier-nonexceptional middle extension"
-order = 2991
+order = 2744
 uses = ["def-fd-artin-schreier-sheaf", "def-weil-pbc-constructible-complexes", "def-wf-constant-weil-twist", "def-wf-middle-extension"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion and

@@ -2,7 +2,7 @@
 id = "lem-zl-affine-partition"
 kind = "lemma"
 title = "A finite affine partition"
-order = 3095
+order = 2825
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A Noetherian scheme $X$ has a finite partition by

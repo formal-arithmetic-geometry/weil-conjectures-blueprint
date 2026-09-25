@@ -2,7 +2,7 @@
 id = "thm-sf-global-duality"
 kind = "theorem"
 title = "Global Verdier duality"
-order = 2299
+order = 2181
 uses = ["def-sf-datum", "def-sf-pf", "def-weil-finite-coefficient-point", "lem-sf-point", "thm-sf-verdier-exchange"]
 +++
 In the setting of [def-sf-datum], let $X$ be smooth, separated of finite

@@ -2,7 +2,7 @@
 id = "lem-sc-deg-pullback-finite"
 kind = "lemma"
 title = "Degree of the pullback under a finite morphism"
-order = 489
+order = 484
 uses = ["def-sc-ample", "def-sc-function-field", "def-sc-hilbert-degree", "lem-sc-hilbert-polynomial"]
 +++
 Let $f:X\to Y$ be a finite surjective morphism of proper

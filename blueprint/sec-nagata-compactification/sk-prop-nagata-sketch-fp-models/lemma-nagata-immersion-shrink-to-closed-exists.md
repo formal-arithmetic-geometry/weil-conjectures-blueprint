@@ -2,7 +2,7 @@
 id = "lemma-nagata-immersion-shrink-to-closed-exists"
 kind = "lemma"
 title = "Existence of a quasi-compact closed-immersion neighbourhood"
-order = 389
+order = 384
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isCompact_isClosedImmersion"]
 uses = ["lem-weil-pbc-closed-immersion-from-composite"]
 +++

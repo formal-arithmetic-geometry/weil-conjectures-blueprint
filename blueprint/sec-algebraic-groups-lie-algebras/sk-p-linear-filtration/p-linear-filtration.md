@@ -2,7 +2,7 @@
 id = "p-linear-filtration"
 kind = "theorem"
 title = "Characteristic polynomials along a filtration"
-order = 2750
+order = 2549
 tags = ["latex:proposition"]
 +++
 Let $f$ be an endomorphism of a finite-dimensional

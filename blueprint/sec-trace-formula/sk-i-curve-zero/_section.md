@@ -2,7 +2,7 @@
 id = "sk-i-curve-zero"
 kind = "section"
 title = "Zero-stalk vanishing on a smooth curve"
-order = 2494
+order = 2341
 uses = ["sk-d-curve-pieces", "sk-d-local-term", "sk-d-trace-class", "sk-thm-sf-package"]
 +++
 *Proposition (sketch).*

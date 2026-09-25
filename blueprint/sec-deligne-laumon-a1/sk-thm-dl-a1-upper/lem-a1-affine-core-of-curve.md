@@ -2,7 +2,7 @@
 id = "lem-a1-affine-core-of-curve"
 kind = "lemma"
 title = "Affine core of a smooth curve"
-order = 3072
+order = 2804
 uses = ["def-sc-curves", "def-weil-pbc-scheme-conventions", "lem-sc-affine-open-proper", "lem-sc-compactification"]
 +++
 Every smooth curve which is geometrically a connected curve has a nonempty dense affine

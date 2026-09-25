@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-stein-connectedness"
 kind = "lemma"
 title = "Stein connectedness for $\\mathbf P^1_A$"
-order = 1087
+order = 1077
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "def-weil-pbc-stein-factorization", "def-weil-pbc-strict-henselian-setup", "lem-weil-pbc-closed-immersion-products", "lemma-weil-pbc-spectral-restriction"]
 +++
 Every irreducible closed subset of $X$ meets $X_0$ in a connected nonempty

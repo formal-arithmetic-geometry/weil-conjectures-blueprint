@@ -2,7 +2,7 @@
 id = "lemma-nagata-immersion-into-fp-model"
 kind = "lemma"
 title = "Immersion into a finite-presentation model, [stacks-project]"
-order = 388
+order = 383
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isImmersion_locallyOfFinitePresentation"]
 uses = ["def-nagata-noetherian-inverse-system", "prop-nagata-noetherian-inverse-system"]
 +++

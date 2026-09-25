@@ -2,7 +2,7 @@
 id = "def-weil-determinant-constants"
 kind = "definition"
 title = "Determinant constants and Euler characteristic"
-order = 3140
+order = 2866
 uses = ["def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-smooth-proper-cohomological-family"]
 +++
 Let $p$ be prime, let $a\in\mathbf Z_{\geq1}$, put $q=p^a$, and set

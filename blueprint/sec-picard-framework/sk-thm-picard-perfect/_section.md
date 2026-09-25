@@ -2,7 +2,7 @@
 id = "sk-thm-picard-perfect"
 kind = "section"
 title = "Openness of the perfect locus"
-order = 686
+order = 677
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Theorem (sketch).*

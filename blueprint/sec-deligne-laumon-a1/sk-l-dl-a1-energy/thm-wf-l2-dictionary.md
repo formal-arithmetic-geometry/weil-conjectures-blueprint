@@ -2,8 +2,8 @@
 id = "thm-wf-l2-dictionary"
 kind = "theorem"
 title = "The Fourier-analytic weight of a pure real sheaf equals its weight"
-order = 3015
-uses = ["cor-rp-euler-product", "def-weil-frobenius-module-weights", "def-weil-punctual-weights", "def-wf-iota-real", "def-wf-l2-norm", "def-wf-l2-series", "lem-a1-affine-hc0", "lem-a1-middle-extension-endpoints", "lem-rp-determinant-log", "lem-rp-even-tensor-positivity", "lem-wf-conjugate-tensor-traces", "lem-wf-l2-radius", "lem-wf-l2-upper", "p-linear-spectra"]
+order = 2762
+uses = ["cor-rp-euler-product", "def-weil-frobenius-module-weights", "def-weil-punctual-weights", "def-wf-iota-real", "def-wf-l2-norm", "def-wf-l2-series", "lem-a1-affine-hc0", "lem-a1-middle-extension-endpoints", "lem-rp-even-tensor-positivity", "lem-wf-conjugate-tensor-traces", "lem-wf-l2-radius", "lem-wf-l2-upper", "lem-zl-log-det-identity", "p-linear-spectra"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve over
 $k_0=\mathbf F_q$, and let $\mathcal G$ be a nonzero lisse
@@ -22,8 +22,11 @@ Put $\mathcal T=\mathcal G\otimes\mathcal G$.
 At every point over every finite extension, the trace of $\mathcal G$
 is real by [def-wf-iota-real]. Hence the trace of $\mathcal T$
 is its square, equal to the squared absolute value of that trace.
-The determinant–logarithm identity
-[lem-rp-determinant-log] and the Euler product
+The logarithm of the Frobenius determinant
+[lem-zl-log-det-identity] (applied to each local factor, with
+$T\mapsto t^{d(x)}$, and transported to $\mathbf C[[t]]$ by the field
+isomorphism $\iota$, exactly as in the proof of
+[lem-wf-conjugate-tensor-traces]) and the Euler product
 [cor-rp-euler-product] therefore give
 
 $$

@@ -2,7 +2,7 @@
 id = "sk-lem-kernel-composition"
 kind = "section"
 title = "P11: composition of kernel transforms"
-order = 2955
+order = 2711
 uses = ["sk-def-ft"]
 +++
 *Proposition (sketch).*

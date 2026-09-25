@@ -2,7 +2,7 @@
 id = "def-sc-group-scheme-subgroup"
 kind = "definition"
 title = "Subgroup schemes"
-order = 429
+order = 424
 uses = ["def-sc-group-scheme"]
 +++
 Let $G$ be a group scheme over a

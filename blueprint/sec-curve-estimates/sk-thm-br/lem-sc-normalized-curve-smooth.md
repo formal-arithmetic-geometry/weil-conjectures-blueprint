@@ -2,7 +2,7 @@
 id = "lem-sc-normalized-curve-smooth"
 kind = "lemma"
 title = "The normalized curve over a perfect field is smooth"
-order = 928
+order = 918
 uses = ["def-sc-normalization", "lem-sc-normal-dim1-dvr", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
 Let $X$ be an integral scheme of finite type over a perfect field

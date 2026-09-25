@@ -2,7 +2,7 @@
 id = "ex-exc-positive-degree"
 kind = "remark"
 title = "Positive cohomology of a closed exceptional image"
-order = 1863
+order = 1805
 tags = ["latex:example"]
 uses = ["def-sc-curves", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-direct-image", "lem-exc-closed-ambient", "lem-exc-closed-support-triangle", "prop-weil-pbc-strict-henselization-stalk-formula"]
 +++

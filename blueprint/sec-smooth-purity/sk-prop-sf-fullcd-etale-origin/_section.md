@@ -2,7 +2,7 @@
 id = "sk-prop-sf-fullcd-etale-origin"
 kind = "section"
 title = "$\\operatorname{FullCD}$ on the étale-origin class"
-order = 1835
+order = 1787
 uses = ["sk-def-sf-admissible", "sk-prop-sf-comparison", "sk-prop-sf-finiteness"]
 +++
 *Proposition (sketch).*

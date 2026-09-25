@@ -2,7 +2,7 @@
 id = "rem-trf-classical-framework"
 kind = "remark"
 title = "Classical framework convention: no $\\infty$-categories"
-order = 2419
+order = 2272
 uses = ["def-exchange-projection", "def-trf-categorical-trace", "def-weil-algebraically-closed-coefficients", "def-weil-finite-coefficient-point", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "lem-weil-pbc-reconstruction-uniform-tower", "prop-functor-package"]
 +++
 Throughout this chapter, and in every statement below, the framework is
@@ -77,27 +77,27 @@ computation of [prop-trf-trace-formal-laws]) or proved from the
 results of this manuscript with its classical source recorded as
 provenance. The four statements that used to be recorded as
 unresolved geometric interfaces are now discharged: the étale
-exceptional pullback by [lem-trf-etale-exceptional-pullback]
+exceptional pullback by *Exceptional pullback along an etale morphism*
 (smooth purity of the manuscript), the triangle compatibility of the
 trace class by [lem-trf-trace-triangle-compatibility] (reduced to
 the point normalization [prop-trf-pairing-point-normalization]),
-the normal-cone reduction by [lem-trf-localization-normal-cone]
+the normal-cone reduction by *Normal-cone reduction for the trace*
 (from [thm-pur-dnc-invariance] and
-[lem-trf-contracting-normal-cone-evaluation]), and the normal-cone
+*Normal-cone evaluation of the trace map*), and the normal-cone
 evaluation of the contracting trace map by
-[lem-trf-contracting-normal-cone-evaluation] (from the dualizing
+*Normal-cone evaluation of the trace map* (from the dualizing
 and Thom statements of the smooth-purity chapter and the contracting
-reduction [lem-trf-contracting-local-model]); the contracting
-computation [lem-trf-contracting-trace-stalk] is proved from it.
+reduction *Contracting local model at an isolated fixed point*); the contracting
+computation *Trace map of a contracting correspondence* is proved from it.
 All other steps of the
 trace formula are proved inside this chapter: the
 proper-pushforward interface by
 [thm-trf-trace-proper-compatibility], the étale pullback
-compatibility by [lem-trf-etale-pullback-trace-class], the
+compatibility by *Etale pullback compatibility of trace maps*, the
 additivity by [prop-trf-trace-class-additivity] and
 *Additivity of the categorical traces of the global operators*, the fixed-point
 localization by [thm-trf-fixed-point-localization] with the
-diagonal case [lem-trf-localization-diagonal], and the
+diagonal case *Localization in the diagonal case*, and the
 comparison [thm-trf-lefschetz-verdier].
 1. *The trace and the duality data.* The categorical trace of
 [def-trf-categorical-trace] is a 1-categorical construction: the

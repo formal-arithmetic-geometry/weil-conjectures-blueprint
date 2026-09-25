@@ -2,7 +2,7 @@
 id = "sk-d-lie"
 kind = "section"
 title = "Lie algebras, radicals and centers"
-order = 2642
+order = 2462
 uses = ["sk-d-linear"]
 +++
 *Definition (sketch).*

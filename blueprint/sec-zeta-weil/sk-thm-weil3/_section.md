@@ -2,7 +2,7 @@
 id = "sk-thm-weil3"
 kind = "section"
 title = "Weil conjectures III: Riemann hypothesis"
-order = 3222
+order = 2931
 uses = ["sk-thm-rh"]
 +++
 *Theorem (sketch).*

@@ -2,7 +2,7 @@
 id = "def-nagata-noetherian-stage"
 kind = "definition"
 title = "Finite-type Noetherian stage"
-order = 343
+order = 338
 uses = ["def-nagata-affine-gluing-valid-stage"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

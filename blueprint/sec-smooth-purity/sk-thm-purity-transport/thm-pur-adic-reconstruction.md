@@ -2,7 +2,7 @@
 id = "thm-pur-adic-reconstruction"
 kind = "theorem"
 title = "Adic reconstruction"
-order = 2118
+order = 2023
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-complete-integral-detailed", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-weil-pbc-reconstruction-uniform-tower", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-finite-reduction-of-purity"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

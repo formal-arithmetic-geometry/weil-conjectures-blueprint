@@ -2,7 +2,7 @@
 id = "def-weil-pbc-C8"
 kind = "definition"
 title = "Assertion (C8): surjectivity of restriction to an open curve"
-order = 1115
+order = 1105
 uses = ["def-weil-pbc-curve-setting"]
 +++
 For every curve coefficient pair [def-weil-pbc-curve-setting] $(C,F)$ and

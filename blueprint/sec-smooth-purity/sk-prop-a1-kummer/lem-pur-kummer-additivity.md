@@ -2,7 +2,7 @@
 id = "lem-pur-kummer-additivity"
 kind = "lemma"
 title = "Kummer additivity"
-order = 2015
+order = 1944
 uses = ["def-coefficient-twists-detailed", "def-pur-affine-line-datum", "def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

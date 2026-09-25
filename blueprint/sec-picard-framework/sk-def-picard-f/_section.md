@@ -2,7 +2,7 @@
 id = "sk-def-picard-f"
 kind = "section"
 title = "The subfunctor $F$"
-order = 827
+order = 818
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Definition (sketch).*

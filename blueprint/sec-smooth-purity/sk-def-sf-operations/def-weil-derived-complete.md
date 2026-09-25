@@ -2,7 +2,7 @@
 id = "def-weil-derived-complete"
 kind = "definition"
 title = "Derived complete objects"
-order = 1483
+order = 1457
 uses = ["def-weil-completed-integral-coefficients", "def-weil-derived-limit", "def-weil-derived-tensor"]
 +++
 Use the completed integral coefficient sheaf

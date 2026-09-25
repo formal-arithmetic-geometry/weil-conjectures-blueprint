@@ -2,8 +2,8 @@
 id = "lem-trf-trace-map-exchange"
 kind = "lemma"
 title = "Exchange of the trace maps: evaluation and support"
-order = 2483
-uses = ["def-exchange-projection", "def-sf-kv-maps", "def-trf-coefficient-pushforward", "def-trf-kernel-pushforward-maps", "fix-lem-exchanges", "fix-prop-adjunctions", "fix-prop-projection-formula", "lem-sf-mate", "lem-trf-fixed-map-proper", "prop-trf-fixed-square-cartesian", "thm-sf-comp-composition", "thm-sf-kunneth-relative", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change"]
+order = 2331
+uses = ["def-exchange-projection", "def-sf-kv-maps", "def-trf-coefficient-pushforward", "def-trf-kernel-pushforward-maps", "fix-lem-exchanges", "fix-prop-adjunctions", "fix-prop-projection-formula", "lem-sf-kunneth-coherence", "lem-sf-mate", "lem-trf-fixed-map-proper", "prop-trf-fixed-square-cartesian", "thm-sf-comp-composition", "thm-sf-kunneth-relative", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change"]
 +++
 Let $(f,g):(C,c)\to(D,b)$ be a proper pushforward diagram of
 [def-trf-coefficient-pushforward] (no Cartesian leg square, no properness
@@ -66,7 +66,8 @@ Indeed $\mathrm{Ku}_!$ of [def-sf-kv-maps] (i) is the composite of
 [thm-sf-kunneth-relative], built from the composition law, two projection
 formulas and one base change; for proper maps these are the direct-image
 projection maps and $\operatorname{Ex}_*$ (compatibility with $Rf_!\cong Rf_*$,
-[thm-sf-kunneth-relative], [fix-prop-projection-formula]), each adjoint to a
+[thm-sf-kunneth-relative], with the projection formula,
+[lem-sf-kunneth-coherence] (iv), [fix-prop-projection-formula]), each adjoint to a
 counit ([def-exchange-projection]). By naturality and the triangle
 identities ([fix-prop-adjunctions]) the inverse $\Pi_f$ is therefore the
 adjoint of $q^*(K'\boxtimes Rf_*D_XK)=f^*Rf_*K\boxtimes f^*Rf_*D_XK

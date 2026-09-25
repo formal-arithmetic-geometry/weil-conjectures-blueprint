@@ -2,7 +2,7 @@
 id = "lem-pc-projective-coherent-higher-images"
 kind = "lemma"
 title = "Coherent higher direct images of a projective morphism"
-order = 666
+order = 657
 uses = ["def-pc-derived-direct-image", "def-pc-projective-morphism", "def-pc-projective-space-twist", "lem-pc-cech-computes", "lem-pc-projective-coherent-finiteness", "pqf-def-coherent", "pqf-lem-coherent-ft-locnoeth"]
 +++
 Let $S$ be locally Noetherian, let $f:X\to S$ be

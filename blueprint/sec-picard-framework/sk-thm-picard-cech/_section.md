@@ -2,7 +2,7 @@
 id = "sk-thm-picard-cech"
 kind = "section"
 title = "Čech-to-derived"
-order = 606
+order = 599
 uses = ["sk-def-groth-ss"]
 +++
 *Theorem (sketch).*

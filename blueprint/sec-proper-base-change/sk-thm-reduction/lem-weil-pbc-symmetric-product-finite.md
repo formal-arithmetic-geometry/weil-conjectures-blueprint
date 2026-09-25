@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-symmetric-product-finite"
 kind = "lemma"
 title = "Finiteness of the symmetric-product morphism"
-order = 1194
+order = 1201
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-symmetric-product-properties"]
 +++
 The morphism $\sigma_n$ of [lem-weil-pbc-symmetric-product-properties] is

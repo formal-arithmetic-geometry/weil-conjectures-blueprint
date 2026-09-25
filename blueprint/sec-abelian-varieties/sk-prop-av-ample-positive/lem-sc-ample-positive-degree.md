@@ -2,7 +2,7 @@
 id = "lem-sc-ample-positive-degree"
 kind = "lemma"
 title = "Ample modules on proper curves have positive degree"
-order = 557
+order = 550
 uses = ["def-sc-ample", "def-sc-curves", "def-sc-hilbert-degree", "lem-sc-hilbert-polynomial"]
 +++
 Let $k$ be algebraically closed, $C$ a proper curve over $k$ of

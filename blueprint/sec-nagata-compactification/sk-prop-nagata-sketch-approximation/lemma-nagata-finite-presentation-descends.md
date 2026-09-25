@@ -2,7 +2,7 @@
 id = "lemma-nagata-finite-presentation-descends"
 kind = "lemma"
 title = "Property of finite-presentation descent, [stacks-project]"
-order = 368
+order = 363
 lean = ["AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation"]
 uses = ["def-nagata-finite-presentation-descent", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-relative-gluing-axioms-eventually", "lemma-nagata-relative-gluing-datum-descends"]
 +++

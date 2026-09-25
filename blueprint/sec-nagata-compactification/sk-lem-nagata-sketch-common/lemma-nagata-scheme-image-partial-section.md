@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-image-partial-section"
 kind = "lemma"
 title = "Scheme-theoretic image of a partial section"
-order = 243
+order = 238
 lean = ["AlgebraicGeometry.isIso_restrict_imageι_comp_fst", "AlgebraicGeometry.isPullback_toImage_partialSection"]
 uses = ["def-nagata-extended-ideal", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lem-weil-pbc-closed-immersion-from-composite", "lemma-nagata-dense-flat-pullback", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-restrict-open"]
 +++

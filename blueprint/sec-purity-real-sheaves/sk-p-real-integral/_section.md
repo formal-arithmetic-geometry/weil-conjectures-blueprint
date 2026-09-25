@@ -2,7 +2,7 @@
 id = "sk-p-real-integral"
 kind = "section"
 title = "Integral models"
-order = 2804
+order = 2595
 uses = ["sec-algebraic-groups-lie-algebras", "sk-d-real-weil", "sk-i-real-sheaves"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-exc-constant-tensor"
 kind = "lemma"
 title = "Constant coefficient tensor comparison"
-order = 1980
+order = 1912
 uses = ["def-weil-derived-tensor", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image"]
 +++
 Let $A$ be a finite ring, and let $j$ be an open immersion. Suppose that

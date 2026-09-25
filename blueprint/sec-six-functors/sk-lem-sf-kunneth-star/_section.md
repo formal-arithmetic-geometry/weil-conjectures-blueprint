@@ -2,7 +2,7 @@
 id = "sk-lem-sf-kunneth-star"
 kind = "section"
 title = "Ordinary Künneth with an identity factor"
-order = 2359
+order = 2217
 uses = ["sk-prop-sf-comparison", "sk-rem-sf-pf-done", "sk-thm-smooth-base-change"]
 +++
 *Lemma (sketch).*

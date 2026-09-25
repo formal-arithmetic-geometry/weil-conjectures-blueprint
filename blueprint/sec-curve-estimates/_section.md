@@ -2,7 +2,7 @@
 id = "sec-curve-estimates"
 kind = "section"
 title = "Curve Estimates"
-order = 881
+order = 872
 uses = ["sec-abelian-varieties", "sec-picard-framework", "sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-av-final"]
 +++
 content: *curve-estimate* step behind

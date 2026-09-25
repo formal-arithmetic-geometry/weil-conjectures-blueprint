@@ -2,7 +2,7 @@
 id = "sk-thm-tracetodeterminant"
 kind = "section"
 title = "Trace-to-determinant identity"
-order = 3163
+order = 2878
 uses = ["sk-def-cohfamily", "sk-def-zeta", "sk-prop-logdet", "sk-thm-trace-formula", "sk-thm-trace-transport"]
 +++
 *Theorem (sketch).*

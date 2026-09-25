@@ -2,7 +2,7 @@
 id = "def-pc-picard-functor"
 kind = "definition"
 title = "The Picard functor $\\operatorname{Pic}_{X/S}$"
-order = 807
+order = 798
 uses = ["def-pc-fppf-site", "def-pc-picard-presheaf", "def-pc-representable-functor", "def-sc-pic0"]
 +++
 Let $f:X\to S$ be a morphism of schemes as in

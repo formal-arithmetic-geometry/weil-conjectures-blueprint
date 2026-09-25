@@ -2,7 +2,7 @@
 id = "sk-rem-sf-typing"
 kind = "section"
 title = "Typing table: ambient definition, small-category theorem"
-order = 2141
+order = 2044
 +++
 *Remark (sketch).*
 

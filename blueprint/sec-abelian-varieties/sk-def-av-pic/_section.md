@@ -2,7 +2,7 @@
 id = "sk-def-av-pic"
 kind = "section"
 title = "$\\Pic$, degree, $\\Pic^0$"
-order = 445
+order = 440
 uses = ["sec-nagata-compactification", "sk-def-curve"]
 +++
 *Definition (sketch).*

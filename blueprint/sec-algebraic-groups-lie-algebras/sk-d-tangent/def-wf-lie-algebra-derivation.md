@@ -2,7 +2,7 @@
 id = "def-wf-lie-algebra-derivation"
 kind = "definition"
 title = "Tangent spaces, Lie algebras and rational actions"
-order = 2664
+order = 2481
 uses = ["def-wf-algebraic-representations", "def-wf-lie-algebra"]
 +++
 *Tangent spaces and differentials.* Let $X=\operatorname{Spec}A$ be a

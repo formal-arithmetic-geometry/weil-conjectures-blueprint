@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-pullback-identities"
 kind = "lemma"
 title = "Finite-pullback identities"
-order = 1089
+order = 1079
 uses = ["def-weil-pbc-finite-section-pullback", "def-weil-pbc-inverse-image"]
 +++
 Finite pullback of sections, in the sense of

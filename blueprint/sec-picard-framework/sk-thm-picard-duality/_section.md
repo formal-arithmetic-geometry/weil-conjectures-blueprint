@@ -2,7 +2,7 @@
 id = "sk-thm-picard-duality"
 kind = "section"
 title = "Serre duality"
-order = 692
+order = 683
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Theorem (sketch).*

@@ -2,7 +2,7 @@
 id = "sk-cor-picard-pic-sheaf"
 kind = "section"
 title = "Picard functor is an fppf sheaf"
-order = 817
+order = 808
 uses = ["sk-def-picard-pic", "sk-thm-picard-descent"]
 +++
 *Corollary (sketch).*

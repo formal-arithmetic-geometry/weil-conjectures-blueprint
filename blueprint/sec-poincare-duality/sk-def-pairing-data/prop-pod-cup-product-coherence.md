@@ -2,7 +2,7 @@
 id = "prop-pod-cup-product-coherence"
 kind = "theorem"
 title = "Coherence of the mixed-support cup product"
-order = 2586
+order = 2417
 tags = ["latex:proposition"]
 uses = ["cor-cbc-proper-coincidence", "def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-tensor", "fix-prop-adjunctions", "fix-prop-projection-formula"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-rem-absent"
 kind = "section"
 title = "What is deliberately absent, and why"
-order = 2963
+order = 2719
 +++
 *Remark (sketch).*
 

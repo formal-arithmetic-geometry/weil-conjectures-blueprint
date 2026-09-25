@@ -2,7 +2,7 @@
 id = "sk-lem-sf-determination"
 kind = "section"
 title = "Determination on a generating class"
-order = 1933
+order = 1862
 uses = ["sk-def-sf-operations"]
 +++
 *Lemma (sketch).*

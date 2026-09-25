@@ -2,8 +2,8 @@
 id = "lem-weil-pbc-curve-dense-open-localization"
 kind = "lemma"
 title = "Dense-open localization"
-order = 1164
-uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-zero-dimensional-cohomology", "lem-weil-pbc-zero-dimensional-field-extension", "lemma-weil-pbc-eight-curve-devissage", "prop-weil-pbc-geometric-stalks-exact"]
+order = 1171
+uses = ["def-constructible-constructible", "def-constructible-stratification", "def-weil-pbc-curve-setting", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-zero-dimensional-cohomology", "lem-weil-pbc-zero-dimensional-field-extension", "lemma-weil-pbc-eight-curve-devissage", "prop-constructible-generic-constancy", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $C$ be a reduced curve and $F$ a constructible $\mathbf F_r$-sheaf. There
 is a dense open $j:U\hookrightarrow C$, a finite disjoint union of irreducible
@@ -24,12 +24,19 @@ $$
 
 ## Proof
 
-The constructible stratification of the reduced curve $C$ shows that the set
-of points of $C$ at which the constructible $\mathbf F_r$-sheaf $F$ (a torsion
-sheaf with finite stalks) is finite locally constant is open: the union of the
-open pieces of the stratification is an open $j:U\hookrightarrow C$, a reduced
-curve hence a finite disjoint union $U=\coprod_aU_a$ of irreducible curves,
-whose complement $i:Z\hookrightarrow C$ is zero-dimensional. The sequence
+The finite partition of $C$ into locally closed constructible subschemes on
+which the constructible $\mathbf F_r$-sheaf $F$ is lisse (locally constant with
+finite stalks) is a stratification in the sense of
+[def-constructible-stratification] whose pullbacks of $F$ are finite locally
+constant, so $F$ is constructible in the sense of
+[def-constructible-constructible]. By [prop-constructible-generic-constancy]
+there is a dense open $U'\subseteq C$ with $F|_{U'}$ finite locally constant.
+Remove from $U'$ the finitely many closed points at which two distinct
+irreducible components of $C$ meet; the result is a dense open
+$j:U\hookrightarrow C$ on which $F$ is still finite locally constant, a reduced
+curve whose irreducible components are disjoint, hence a finite disjoint union
+$U=\coprod_aU_a$ of irreducible curves. Its complement $i:Z\hookrightarrow C$
+contains no generic point of $C$, so it is zero-dimensional. The sequence
 $0\to j_!j^{-1}F\to F\to i_*i^{-1}F\to0$ is exact, since at geometric points
 of $U$ the middle and left terms agree and the right term vanishes, and at
 geometric points of $Z$ the left term vanishes and the sequence is the

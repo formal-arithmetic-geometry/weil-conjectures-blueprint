@@ -2,7 +2,7 @@
 id = "lemma-openclosed-etale-lifts-locally"
 kind = "lemma"
 title = "Étale morphisms lift locally along a closed immersion"
-order = 1547
+order = 1520
 lean = ["AlgebraicGeometry.Etale.exists_isPullback_of_isClosedImmersion", "AlgebraicGeometry.Etale.exists_pullback_hom_of_isClosedImmersion"]
 uses = ["lemma-openclosed-standard-etale-lift"]
 +++

@@ -2,7 +2,7 @@
 id = "p-central"
 kind = "theorem"
 title = "A positive central representative"
-order = 2718
+order = 2527
 tags = ["latex:proposition"]
 uses = ["d-central", "d-monodromy", "lem-ag-closure-commutators", "lem-wf-algebraic-component-cosets", "p-product"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-trf-local-term-locality"
 kind = "lemma"
 title = "Locality and zero-stalk vanishing of the local term"
-order = 2495
+order = 2342
 uses = ["d-curve-pieces", "def-trf-frobenius-coefficient-morphism", "def-trf-graph-correspondence", "def-trf-iterated-weil-map", "def-trf-local-term", "def-trf-trace-class-source", "lem-trf-trace-map-from-external-duality", "thm-trf-frobenius-fixed-points"]
 +++
 Let $c$ be an admissible correspondence with

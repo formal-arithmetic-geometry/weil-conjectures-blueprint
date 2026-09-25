@@ -2,7 +2,7 @@
 id = "sk-prop-nagata-sketch-fp-models"
 kind = "section"
 title = "Finite-presentation models of a finite-type morphism"
-order = 384
+order = 379
 uses = ["sk-prop-nagata-sketch-approximation"]
 +++
 *Proposition (sketch).*

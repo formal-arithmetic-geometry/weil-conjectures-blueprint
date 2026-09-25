@@ -1,7 +1,7 @@
 +++
 id = "audit-what-is-elementary-in-this-layer-and-what-is-not--remark-1"
 kind = "remark"
-order = 3240
+order = 2942
 +++
 *Consequence for the sketch.* Because the layer is elementary apart from
 the four points above, a proof sketch of the passage from the three abstract

@@ -2,7 +2,7 @@
 id = "rem-sf-summary"
 kind = "remark"
 title = "What a six-functor formalism is"
-order = 1523
+order = 1497
 +++
 A *six-functor formalism* on a category of schemes (here: finite-type
 $k$-schemes, with the small pro-étale sites and a fixed coefficient ring)

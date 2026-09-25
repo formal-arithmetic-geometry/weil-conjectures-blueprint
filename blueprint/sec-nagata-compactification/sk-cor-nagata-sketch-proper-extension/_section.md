@@ -2,7 +2,7 @@
 id = "sk-cor-nagata-sketch-proper-extension"
 kind = "section"
 title = "Extension to a proper target"
-order = 227
+order = 222
 uses = ["sk-thm-nagata-sketch-conrad"]
 +++
 *Corollary (sketch).*

@@ -2,9 +2,9 @@
 id = "prop-compactification-refinement"
 kind = "theorem"
 title = "Existence and common refinement"
-order = 419
+order = 415
 tags = ["latex:proposition"]
-uses = ["def-weil-compactifications-refinements", "def-weil-scheme-morphism-properties", "thm-nagata-compactification"]
+uses = ["def-weil-compactifications-refinements", "def-weil-scheme-morphism-properties", "prop-nagata-compactification-category", "thm-nagata-compactification"]
 +++
 Let $K$ be a field, let $X,Y$ be finite-type $K$-schemes, and let
 $f:X\to Y$ be a separated finite-type $K$-morphism. Let
@@ -26,10 +26,13 @@ separated finite-type morphism of finite-type schemes over a field
 admits a compactification $X\xrightarrow{j}\overline X
 \xrightarrow{\bar f}Y$ with $j$ an open immersion and $\bar f$
 proper, exactly the objects of $\operatorname{Comp}(f)$. That the
-category is cofiltered is the remaining clauses of
-[thm-nagata-compactification]: any two compactifications admit a
-common proper refinement, so by induction any finite family does, and any
-two parallel refinements become equal after a further refinement; the
-base-change clause of [thm-nagata-compactification] states the
-functoriality up to refinement used in
-[def-weil-compactifications-refinements].
+category is cofiltered is [prop-nagata-compactification-category], applied
+over the base $Y$: the scheme $Y$ is of finite type over the field $K$,
+hence Noetherian, so quasi-compact and quasi-separated, and every open
+immersion into the Noetherian scheme $\overline X$ is quasi-compact; so the
+category of [prop-nagata-compactification-category] for $f:X\to Y$ is
+$\operatorname{Comp}(f)$. Its clause (i) gives a common proper refinement of
+any two compactifications, hence by induction of any finite family, and its
+clause (ii) says that any two parallel refinements become equal after a
+further refinement; its base-change clauses state the functoriality up to
+refinement used in [def-weil-compactifications-refinements].

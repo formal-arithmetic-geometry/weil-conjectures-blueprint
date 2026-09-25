@@ -2,7 +2,7 @@
 id = "lem-zl-open-closed-weight"
 kind = "lemma"
 title = "Open–closed weight devissage"
-order = 3085
+order = 2815
 uses = ["def-weil-complex-weights", "def-weil-open-closed-recollement", "lem-zl-complex-extension", "lem-zl-finite-pushforward", "prop-sf-open-closed-triangle-all-stages"]
 +++
 Let $j:U_0\hookrightarrow X_0$ be open with closed complement

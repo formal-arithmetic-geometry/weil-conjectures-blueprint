@@ -2,7 +2,7 @@
 id = "lem-mg-determinant-monodromy-morphism"
 kind = "lemma"
 title = "The determinant morphism of arithmetic monodromy"
-order = 2712
+order = 2521
 uses = ["def-mg-determinant-line", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "lem-mg-degree-component-functoriality"]
 +++
 For a rank-$r$ Weil representation $\rho$, taking the

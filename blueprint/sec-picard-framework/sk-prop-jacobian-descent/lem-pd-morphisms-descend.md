@@ -2,7 +2,7 @@
 id = "lem-pd-morphisms-descend"
 kind = "lemma"
 title = "Morphisms, and hence the group law, descend"
-order = 874
+order = 865
 uses = ["def-pc-base-change", "def-pd-descent-datum"]
 +++
 Let $X\to Y$ be a morphism of schemes and let $V\to X$, $W\to X$ be schemes

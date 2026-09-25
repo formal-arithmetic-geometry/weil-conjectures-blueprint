@@ -2,7 +2,7 @@
 id = "sk-p-linear-filtration"
 kind = "section"
 title = "Characteristic polynomials along a filtration"
-order = 2749
+order = 2548
 uses = ["sk-d-linear"]
 +++
 *Proposition (sketch).*

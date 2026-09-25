@@ -2,7 +2,7 @@
 id = "sk-prop-a1-kummer"
 kind = "section"
 title = "The affine line and $\\mathbf G_m$ with $\\Lambda(1)$-coefficients"
-order = 1962
+order = 1900
 uses = ["sk-def-av-pic", "sk-def-curve", "sk-def-purity-conv", "sk-prop-cd", "sk-prop-kummer-exact", "sk-thm-smooth-base-change"]
 +++
 *Proposition (sketch).*

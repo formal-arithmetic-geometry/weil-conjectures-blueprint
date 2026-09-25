@@ -2,7 +2,7 @@
 id = "thm-sf-verdier-exchange"
 kind = "theorem"
 title = "Verdier-duality exchange"
-order = 2286
+order = 2171
 uses = ["def-sf-datum", "def-sf-pf", "fix-cor-verdier-exchange", "lem-sf-mate", "lem-sf-tensor-hom", "thm-sf-comp-composition"]
 +++
 In the setting of [def-sf-datum], assume that $f:X\to Y$ and the

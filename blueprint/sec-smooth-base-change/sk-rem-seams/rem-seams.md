@@ -2,7 +2,7 @@
 id = "rem-seams"
 kind = "remark"
 title = "The seams"
-order = 1475
+order = 1449
 +++
 *(i) The two lanes contradict (this is the whole proof):* a
 first failure in degree $q$ produces a universal curve-test datum

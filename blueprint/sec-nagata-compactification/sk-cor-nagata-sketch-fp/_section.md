@@ -2,7 +2,7 @@
 id = "sk-cor-nagata-sketch-fp"
 kind = "section"
 title = "Nagata for finite presentation"
-order = 375
+order = 370
 uses = ["sk-lem-nagata-sketch-closure", "sk-prop-nagata-sketch-approximation", "sk-thm-nagata-sketch-noetherian"]
 +++
 *Corollary (sketch).*

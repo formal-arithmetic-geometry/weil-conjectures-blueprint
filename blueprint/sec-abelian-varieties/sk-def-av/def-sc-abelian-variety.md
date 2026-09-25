@@ -2,7 +2,7 @@
 id = "def-sc-abelian-variety"
 kind = "definition"
 title = "Abelian varieties"
-order = 433
+order = 428
 uses = ["def-sc-group-scheme"]
 +++
 Let $k$ be a field. An *abelian variety* over $k$ is a

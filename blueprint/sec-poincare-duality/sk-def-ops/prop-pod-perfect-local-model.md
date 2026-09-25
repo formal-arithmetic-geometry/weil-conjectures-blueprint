@@ -2,7 +2,7 @@
 id = "prop-pod-perfect-local-model"
 kind = "theorem"
 title = "The local finite projective model"
-order = 2577
+order = 2409
 tags = ["latex:proposition"]
 uses = ["def-pod-conventions", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "thm-constructible-serre"]
 +++

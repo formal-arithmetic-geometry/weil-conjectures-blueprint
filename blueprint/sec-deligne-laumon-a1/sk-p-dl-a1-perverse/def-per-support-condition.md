@@ -2,7 +2,7 @@
 id = "def-per-support-condition"
 kind = "definition"
 title = "Support and cosupport conditions"
-order = 2985
+order = 2738
 uses = ["def-trf-dualizing-complex", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be a

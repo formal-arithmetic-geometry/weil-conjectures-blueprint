@@ -2,7 +2,7 @@
 id = "sk-prop-nagata-sketch-prepared"
 kind = "section"
 title = "Prepared sides"
-order = 266
+order = 261
 uses = ["sk-lem-nagata-sketch-boundary", "sk-lem-nagata-sketch-closure", "sk-lem-nagata-sketch-graph"]
 +++
 *Proposition (sketch).*

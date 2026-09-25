@@ -2,7 +2,7 @@
 id = "lem-trf-absolute-frobenius-site"
 kind = "lemma"
 title = "Canonical trivialization of absolute Frobenius pullback"
-order = 2188
+order = 2075
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-trf-weakly-etale-between-objects", "lem-trf-weakly-etale-homeomorphism"]
 +++
 Let $X$ be a scheme in characteristic $p>0$. On its

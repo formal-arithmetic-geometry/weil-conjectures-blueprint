@@ -2,7 +2,7 @@
 id = "lem-pc-twist-cocycle"
 kind = "lemma"
 title = "The cocycle rule for the transition units of the twists"
-order = 622
+order = 615
 uses = ["def-pc-proj", "def-pc-projective-space-twist"]
 +++
 Let $A$ be a commutative ring, $n\ge0$ and

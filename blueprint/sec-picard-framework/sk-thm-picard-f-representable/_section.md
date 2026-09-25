@@ -2,7 +2,7 @@
 id = "sk-thm-picard-f-representable"
 kind = "section"
 title = "$F$ is representable"
-order = 837
+order = 828
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Theorem (sketch).*

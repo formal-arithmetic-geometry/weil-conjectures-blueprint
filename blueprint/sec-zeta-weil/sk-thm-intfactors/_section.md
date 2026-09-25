@@ -2,7 +2,7 @@
 id = "sk-thm-intfactors"
 kind = "section"
 title = "Integral Frobenius factors"
-order = 3187
+order = 2901
 uses = ["sk-def-cohfamily", "sk-def-roots", "sk-prop-rootpurity", "sk-prop-separation", "sk-thm-rationality"]
 +++
 *Theorem (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-sc-etale-qcoherent-descent"
 kind = "lemma"
 title = "Descent for quasi-coherent modules"
-order = 967
+order = 957
 uses = ["def-weil-pbc-etale-site"]
 +++
 Let $X$ be a scheme and $\mathcal F$ a quasi-coherent

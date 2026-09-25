@@ -2,7 +2,7 @@
 id = "sk-def-as"
 kind = "section"
 title = "The Artin–Schreier sheaf"
-order = 2918
+order = 2676
 uses = ["sk-def-char"]
 +++
 *Definition (sketch).*

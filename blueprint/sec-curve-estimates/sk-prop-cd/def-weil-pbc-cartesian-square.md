@@ -2,7 +2,7 @@
 id = "def-weil-pbc-cartesian-square"
 kind = "definition"
 title = "Cartesian square and chosen pullback identification"
-order = 1003
+order = 994
 lean = ["AlgebraicGeometry.Etale.squareUpperStarIso"]
 uses = ["def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions"]
 +++

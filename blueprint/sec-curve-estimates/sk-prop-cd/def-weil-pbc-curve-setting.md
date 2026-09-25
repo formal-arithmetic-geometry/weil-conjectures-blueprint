@@ -2,7 +2,7 @@
 id = "def-weil-pbc-curve-setting"
 kind = "definition"
 title = "The curve setting of the eight assertions"
-order = 1009
+order = 1001
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be algebraically closed, let $C$ be separated of finite type over $k$

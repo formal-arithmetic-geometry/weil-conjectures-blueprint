@@ -2,8 +2,8 @@
 id = "thm-pod-finite-reduction"
 kind = "theorem"
 title = "Finite reduction of the Poincare pairing"
-order = 2401
-uses = ["def-pod-coefficient-dual-on-x", "def-pod-conventions", "def-pod-derived-poincare-pairing", "def-pur-smooth-trace", "def-weil-site-perfect-complex", "lem-fix-operation-reduction", "prop-pod-verdier-dual-on-smooth", "thm-pod-identification-of-the-comparison", "thm-pod-point-perfectness", "thm-pur-finite-reduction-of-purity"]
+order = 2254
+uses = ["def-pod-coefficient-dual-on-x", "def-pod-conventions", "def-pod-derived-poincare-pairing", "def-pur-smooth-trace", "def-weil-site-perfect-complex", "lem-fix-operation-reduction", "thm-pod-identification-of-the-comparison", "thm-pod-point-perfectness", "thm-pur-finite-reduction-of-purity", "thm-sf-dual-perfect"]
 +++
 Use the smooth Poincare setting, with
 the admissible structure morphism and normalized smooth orientation.
@@ -42,7 +42,7 @@ all reduce compatibly. The remaining geometric ingredient is the
 normalized trace of [def-pur-smooth-trace]; its coefficient
 compatibility, together with that of the smooth orientation, is
 [thm-pur-finite-reduction-of-purity].
-The identification in [prop-pod-verdier-dual-on-smooth] uses
+The identification in [thm-sf-dual-perfect] uses
 that orientation and the same internal-Hom operations.
 Composing these commuting squares gives the square for the pairing,
 using the canonical coefficient comparison on ordinary global sections;

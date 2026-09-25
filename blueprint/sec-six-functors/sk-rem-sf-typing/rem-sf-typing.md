@@ -2,7 +2,7 @@
 id = "rem-sf-typing"
 kind = "remark"
 title = "Typing table: ambient definition, small-category theorem"
-order = 2142
+order = 2045
 +++
 For each operation the second column is where it is *defined*, the third
 where it is *proved* to descend, with the statement that proves it.

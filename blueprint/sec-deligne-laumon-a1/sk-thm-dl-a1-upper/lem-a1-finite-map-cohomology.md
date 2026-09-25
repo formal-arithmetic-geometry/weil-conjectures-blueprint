@@ -2,7 +2,7 @@
 id = "lem-a1-finite-map-cohomology"
 kind = "lemma"
 title = "Cohomology under a finite curve map"
-order = 3062
+order = 2796
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-direct-image-exact", "prop-functor-package"]
 +++
 For a finite map $g:C_0\to\mathbf A^1_{k_0}$ of separated finite-type

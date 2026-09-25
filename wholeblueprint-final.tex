@@ -5822,6 +5822,10 @@ origin, and with it the coproduct preservation of $Rp_*$ on the whole of
 $D(\overline X_{\Proet},A)$, which is what Brown representability needs for
 the \emph{ambient} adjoint asserted in (b);  see
 \Cref{rem:sf-fullcd-scope}.}
+\emph{Note: clause (b), the ambient adjoint on all of $D(X_{\Proet},A)$, seems
+never to be used later; downstream uses only the adjunction relative to the
+class of \'etale origin (bounded-below $K$ of \'etale origin), which holds
+unconditionally, so (b) has no detailed counterpart in the blueprint.}
 \end{proposition}
 
 % Decomposed.
@@ -5841,6 +5845,30 @@ finite Tor amplitude.}
 \end{proposition}
 
 % Detailed node: thm:lv-constant-open-closed-triangle.
+% Decomposed.
+\begin{lemma}[Bounded flat model of finite Tor amplitude]
+\label{lem:sf-flat-model}
+\uses{\up{def:weil-finite-tor-amplitude}, \up{def:weil-derived-tensor},
+\up{lem:exc-constant-inverse-image-flat}}
+Let $T$ be a scheme on which $\ell$ is invertible and let
+$K\in\Dbc(T,A_{E,n})$ be bounded constructible on the small pro-\'etale site.
+For integers $a\le b$ the following are equivalent: (i) $K$ has finite Tor
+amplitude in $[a,b]$; (ii) $K$ is isomorphic to a bounded complex $P$ of
+\emph{flat} $A_T$-module sheaves with $P^q=0$ for $q\notin[a,b]$.  The same
+holds with the corresponding conditions on a small \'etale site.
+\end{lemma}
+
+\begin{proof}[Idea]
+\emph{(ii)$\Rightarrow$(i):} a bounded-above complex of flat sheaves is
+K-flat, and $P\otimes_AM$ has terms only in degrees $[a,b]$.
+\emph{(i)$\Rightarrow$(ii):} choose a bounded-above free resolution
+$P\to K$; testing with $M=A_T$ gives $H^q(P)=0$ for $q<a$; put
+$Q=P^a/\mathrm{im}(P^{a-1}\to P^a)$ and compute
+$\mathrm{Tor}^A_1(Q,M)=H^{a-1}(P\otimes_AM)=H^{a-1}(K\otimes^L_AM)=0$, so $Q$
+is flat by the Tor form of the finite-relation criterion; then
+$P'=[Q\to P^{a+1}\to\dots\to P^b]$ is the required model.
+\end{proof}
+
 % Decomposed.
 \begin{proposition}[The open--closed triangle]
 \label{prop:sf-open-closed-triangle}
@@ -5912,6 +5940,25 @@ Source: closed-immersion adjunction in SGA~4, XVII--XVIII.
 \end{proof}
 \source{prop:lv-closed-adjunction-unit}
 
+% Decomposed.
+\begin{lemma}[Determination on a generating class]
+\label{lem:sf-determination}
+\uses{\Cref{def:sf-operations}}
+Let $\Phi,\Psi$ be exact functors of triangulated categories and let
+$\alpha:\Phi\to\Psi$ be natural.  If $\alpha$ is an isomorphism on two terms of
+a distinguished triangle, it is an isomorphism on the third; hence a natural
+transformation that is an isomorphism on a generating class, natural in the
+same variables, is determined by its values there.
+\end{lemma}
+
+\begin{proof}[Idea]
+Apply $H^q$ to the map of triangles: two columns of the ladder are
+isomorphisms, so the third is, by the five lemma; a morphism whose cone has
+vanishing cohomology is zero.  For the second clause, two such transformations
+differ by one vanishing on generators, and the first clause descends from
+generators to shifts, cones and summands.
+\end{proof}
+
 % Detailed node: thm:lv-localization-triangle.
 % Decomposed.
 \begin{proposition}[Supported localization]
@@ -5973,26 +6020,6 @@ mate construction gives an isomorphism of right adjoints from the isomorphism
 of left adjoints, and the triangle identities of the composite are the
 composites of the component ones.
 \end{proof}
-
-% Decomposed.
-\begin{lemma}[Determination on a generating class]
-\label{lem:sf-determination}
-\uses{\Cref{def:sf-operations}}
-Let $\Phi,\Psi$ be exact functors of triangulated categories and let
-$\alpha:\Phi\to\Psi$ be natural.  If $\alpha$ is an isomorphism on two terms of
-a distinguished triangle, it is an isomorphism on the third; hence a natural
-transformation that is an isomorphism on a generating class, natural in the
-same variables, is determined by its values there.
-\end{lemma}
-
-\begin{proof}[Idea]
-Apply $H^q$ to the map of triangles: two columns of the ladder are
-isomorphisms, so the third is, by the five lemma; a morphism whose cone has
-vanishing cohomology is zero.  For the second clause, two such transformations
-differ by one vanishing on generators, and the first clause descends from
-generators to shifts, cones and summands.
-\end{proof}
-
 
 % Detailed nodes: cor:cbc-proper-coincidence
 % (08_compact_support_base_change_new.tex).
@@ -6295,6 +6322,11 @@ rank $c$ with zero section $z$ there is a \emph{Thom class}
 \mathrm{th}_E:\ \Lambda_Z\ \xrightarrow{\ \sim\ }\ Rz^{!}\Lambda_E(c)[2c],
 \]
 which restricts to the previous one in any \'etale trivialization of $E$.
+\emph{Note: the $Rz^!$ form and the Thom class $\mathrm{th}_E$ above seem never
+to be used later; downstream uses only the equivalent forms
+$R\pi^!\Lambda_Z\cong\Lambda_E(c)[2c]$ (vector-bundle purity) and
+$R\pi_!\Lambda_E(c)[2c]\cong\Lambda_Z$ (the vector-bundle trace), so the $Rz^!$ form
+has no detailed counterpart in the blueprint.}
 \end{proposition}
 \begin{proof}[Proof idea]
 \uses{\up{def:purity-conv}, \up{prop:a1}, \up{prop:a1-inv}}
@@ -6790,7 +6822,7 @@ for the finite-coefficient isomorphisms of \Cref{thm:smooth-purity}.
 \texttt{thm:pur-adic-reconstruction},
 \texttt{thm:pur-rational-and-qbar-purity} and
 \texttt{cor:pur-adic-and-rational-smooth-dualizing-complexes}.)
-\uses{\up{def:purity-conv}, \up{thm:smooth-purity}, \up{prop:cohsm}}
+\uses{\up{lem:sf-flat-model}, \up{def:purity-conv}, \up{thm:smooth-purity}, \up{prop:cohsm}}
 \end{theorem}
 
 \begin{proof}[Proof sketch]
@@ -7660,7 +7692,7 @@ counit, whose composite is the identity.
 % Decomposed.
 \begin{lemma}[Internal Hom with an invertible twist]
 \label{lem:sf-twist-interchange}
-\uses{\Cref{prop:sf-dualizable-biduality}, \up{def:coefficient-twists}}
+\uses{\up{lem:sf-determination}, \Cref{prop:sf-dualizable-biduality}, \up{def:coefficient-twists}}
 Let $K$ be perfect over $\Lambda_X$, $M\in\Dctf(X,\Lambda)$ and $m\in\Z$.  Then
 $\Lambda(m)_X$ is invertible locally constant of rank one and the canonical map
 \[
@@ -7817,30 +7849,6 @@ pasted squares.
 \end{proof}
 
 \subsubsection{The finite-Tor cells and stability}
-
-% Decomposed.
-\begin{lemma}[Bounded flat model of finite Tor amplitude]
-\label{lem:sf-flat-model}
-\uses{\up{def:weil-finite-tor-amplitude}, \up{def:weil-derived-tensor},
-\up{lem:exc-constant-inverse-image-flat}}
-Let $T$ be a scheme on which $\ell$ is invertible and let
-$K\in\Dbc(T,A_{E,n})$ be bounded constructible on the small pro-\'etale site.
-For integers $a\le b$ the following are equivalent: (i) $K$ has finite Tor
-amplitude in $[a,b]$; (ii) $K$ is isomorphic to a bounded complex $P$ of
-\emph{flat} $A_T$-module sheaves with $P^q=0$ for $q\notin[a,b]$.  The same
-holds with the corresponding conditions on a small \'etale site.
-\end{lemma}
-
-\begin{proof}[Idea]
-\emph{(ii)$\Rightarrow$(i):} a bounded-above complex of flat sheaves is
-K-flat, and $P\otimes_AM$ has terms only in degrees $[a,b]$.
-\emph{(i)$\Rightarrow$(ii):} choose a bounded-above free resolution
-$P\to K$; testing with $M=A_T$ gives $H^q(P)=0$ for $q<a$; put
-$Q=P^a/\mathrm{im}(P^{a-1}\to P^a)$ and compute
-$\mathrm{Tor}^A_1(Q,M)=H^{a-1}(P\otimes_AM)=H^{a-1}(K\otimes^L_AM)=0$, so $Q$
-is flat by the Tor form of the finite-relation criterion; then
-$P'=[Q\to P^{a+1}\to\dots\to P^b]$ is the required model.
-\end{proof}
 
 % Decomposed.
 \begin{theorem}[Direct image with finite Tor amplitude]
@@ -9386,7 +9394,7 @@ the transition maps being the reductions of one another.
 % (09_trace_formula_new.tex).
 % Decomposed.
 \begin{proposition}[Adic realization]\label{prop:trace-adic}
-\uses{\up{d:setup}, \up{d:weil}, \up{d:six}, \up{thm:sf-ctf-stability},
+\uses{\up{p:trace-coeff}, \up{d:setup}, \up{d:weil}, \up{d:six}, \up{thm:sf-ctf-stability},
 \up{prop:sf-trace-perfectness}}
 Write $A_n=A_{E,n}$.  Call a system
 $K_\bullet=(K_n,t_{n+1,n})_{n\ge1}$ with $K_n\in D^b_{ctf}(X,A_n)$
@@ -9473,9 +9481,76 @@ compactification admissibility at every $A_n$, as in \Cref{thm:sf-package}
 and \Cref{prop:sf-existence}.  Those hypotheses are carried in the statements
 that use them and are not re-proved here.
 
+% Decomposed.
+\begin{definition}[Frobenius modules and their trace series]
+\label{def:frobmod}
+A \emph{Frobenius module} is a pair $(V,F)$ consisting of a
+finite-dimensional $\Qlb$-vector space $V$ and a $\Qlb$-linear automorphism
+$F:V\to V$.  Its \emph{trace series} and \emph{determinant} are
+\[
+ \operatorname{tr}_F(T)=\sum_{n\ge1}\Tr(F^{n}\mid V)\frac{T^{n}}{n},
+ \qquad
+ P_{(V,F)}(T)=\det(1-TF\mid V).
+\]
+For a finite graded family $(V_i,F_i)_{i\in I}$ ($I\subset\Z$ finite) the
+\emph{alternating trace series} is
+$\operatorname{str}_F(T)=\sum_{n\ge1}\bigl(\sum_{i\in I}(-1)^{i}
+\Tr(F_i^{n}\mid V_i)\bigr)\frac{T^{n}}{n}$.
+No semisimplicity of $F$ is assumed anywhere.
+\end{definition}
+
+% STATUS: outline statement.
+\begin{proposition}[Triangularization]\label{p:linear-triangular}
+A single endomorphism of a finite-dimensional vector space over an
+algebraically closed field $k$ admits a full flag of invariant subspaces,
+with one-dimensional graded pieces.
+\end{proposition}
+% STATUS: proof idea, not a full decomposition.
+\begin{proof}[Proof idea]
+Induct on $\dim V$, the zero space carrying the empty flag. Since $k$ is
+algebraically closed, the characteristic polynomial of $f$ has a root, so
+$f$ has an eigenvector $v$ and the line $L=kv$ is invariant. The induced
+endomorphism of $V/L$ is well defined, and by induction it has a full
+invariant flag with one-dimensional quotients. Pulling that flag back
+along $V\to V/L$ and prepending $L$ gives a full invariant flag of $V$.
+In a basis adapted to it, $f$ is upper triangular with the flag's
+eigenvalues on the diagonal. Mathlib has the generalized eigenspace
+decomposition \nolinkurl{Module.End.iSup_maxGenEigenspace_eq_top} over an
+algebraically closed field, but no flag statement.
+\end{proof}
+
+% Decomposed.
+\begin{proposition}[Logarithm of the Frobenius determinant]
+\label{prop:logdet}
+\uses{\up{def:frobmod}}
+Let $(V,F)$ be a Frobenius module.  Then in $\Qlb[[T]]$
+\[
+ \begin{gathered}
+ \log\det(1-TF\mid V)=-\sum_{n\ge1}\Tr(F^{n}\mid V)\frac{T^{n}}{n}
+ =-\operatorname{tr}_F(T),\\[3pt]
+ \text{equivalently}\qquad
+ \exp\bigl(\operatorname{tr}_F(T)\bigr)=\det(1-TF\mid V)^{-1}.
+ \end{gathered}
+\]
+\end{proposition}
+
+\begin{proof}[Idea]
+\uses{\up{def:frobmod}}
+Over the algebraically closed field $\Qlb$ put $F$ in upper triangular form
+with diagonal $(\lambda_1,\dots,\lambda_m)$.  Then
+$\Tr(F^{n}\mid V)=\sum_j\lambda_j^{n}$ and
+$\det(1-TF\mid V)=\prod_j(1-\lambda_jT)$.  The formal logarithm is additive on
+$1+T\Qlb[[T]]$ (compare derivatives), and
+$\log(1-\lambda T)=-\sum_{n\ge1}\lambda^{n}T^{n}/n$; summing over the finite
+index range gives the identity.  Exponentiating, and using that the formal
+exponential and logarithm are mutually inverse between $T\Qlb[[T]]$ and
+$1+T\Qlb[[T]]$, gives the second form.  No semisimplicity is used: the
+computation is triangular and therefore valid for arbitrary $F$.
+\end{proof}
+
 \begin{theorem}[Transport of the trace formula to the non-finite stages]
 \label{thm:trace-transport}
-\uses{\up{thm:trace-formula}, \up{d:setup}, \up{d:weil}, \up{d:six},
+\uses{\up{prop:logdet}, \up{p:trace-coeff}, \up{thm:trace-formula}, \up{d:setup}, \up{d:weil}, \up{d:six},
 \up{d:trace}, \up{thm:sf-ctf-stability}, \up{prop:trace-adic}, \up{i:curve-zero}}
 Let the coefficient ring range over the three non-finite stages
 \[
@@ -9890,6 +9965,11 @@ For \(B=\Spec k\) this reads
 R\Gamma_c\bigl(Z\times W,(K\boxtimes L)|_{Z\times W}\bigr)\).
 (Blueprint \ch{13}, \bp{thm:sf-kunneth-relative}.)
 \uses{\up{def:ops}, \up{thm:sf-kunneth-relative}}
+\emph{Note: this theorem seems never to be used later --- relative products
+are taken directly from \Cref{thm:sf-kunneth-relative}, of which this is the
+case of $i_*i^*K$ and $j_*j^*L$, and the supports K\"unneth needed by purity is
+proved there directly --- so it has no detailed counterpart in the
+blueprint.}
 \end{theorem}
 
 \begin{proof}
@@ -11012,28 +11092,6 @@ is the statement above, Mathlib having only the direct-sum case
 \nolinkurl{LinearMap.charpoly_prodMap}.
 \end{proof}
 \source{def:endomorphism-subquotient;lem:endomorphism-subquotient-valid;lem:determinant-subquotient;lem:determinant-in-basis}
-
-% STATUS: outline statement.
-\begin{proposition}[Triangularization]\label{p:linear-triangular}
-\uses{\up{d:linear}}
-A single endomorphism of a finite-dimensional
-\hyperref[d:linear]{$k$-space} admits a full flag of invariant subspaces,
-with one-dimensional graded pieces.
-\end{proposition}
-% STATUS: proof idea, not a full decomposition.
-\begin{proof}[Proof idea]
-\uses{\up{d:linear}}
-Induct on $\dim V$, the zero space carrying the empty flag. Since $k$ is
-algebraically closed, the characteristic polynomial of $f$ has a root, so
-$f$ has an eigenvector $v$ and the line $L=kv$ is invariant. The induced
-endomorphism of $V/L$ is well defined, and by induction it has a full
-invariant flag with one-dimensional quotients. Pulling that flag back
-along $V\to V/L$ and prepending $L$ gives a full invariant flag of $V$.
-In a basis adapted to it, $f$ is upper triangular with the flag's
-eigenvalues on the diagonal. Mathlib has the generalized eigenspace
-decomposition \nolinkurl{Module.End.iSup_maxGenEigenspace_eq_top} over an
-algebraically closed field, but no flag statement.
-\end{proof}
 
 % STATUS: outline statement.
 \begin{proposition}[Spectra of the operations]\label{p:linear-spectra}
@@ -12502,7 +12560,10 @@ closed of characteristic $p$) is a nontrivial homomorphism
 $\psi:(k,+)\to\Qlb^\times$.  For $k_0=\Fq$ and a fixed nontrivial
 $\Psi:\Fp\to\Qlb^\times$, the character
 $\psi(x)=\Psi(\Tr_{k_0/\Fp}(x))$ is \emph{the} nondegenerate additive
-character; $\psi_a(x)=\psi(ax)$, $a\in k_0^\times$, runs through all of them;
+character; $\psi_a(x)=\psi(ax)$, $a\in k_0^\times$, runs through all of them
+(\emph{note: this parametrization seems never to be used later --- only the
+fixed $\psi$, its scalings $\psi_a$ and $\psi^{-1}=\psi_{-1}$ occur --- so it
+has no detailed counterpart in the blueprint});
 over $\mathbf F_{q^n}$ one writes
 $\psi_n(x)=\psi(\Tr_{\mathbf F_{q^n}/k_0}(x))=\Psi(\Tr_{\mathbf F_{q^n}/\Fp}(x))$.  (Blueprint the Fourier--Deligne chapter,
 \bp{def:fd-additive-character}.)
@@ -12525,8 +12586,7 @@ If $\psi_a\neq1$ choose $y$ with $\psi_a(y)\neq1$; translation is a
 bijection, so $S=\psi_a(y)S$, hence $S=0$.  The second identity is the first
 applied to $y\mapsto\psi_n((x-x')y)$, which is nontrivial exactly when
 $x\neq x'$.  The same sums separate the $\psi_a$ for distinct $a$, so every
-nondegenerate character of $k_0$ is some $\psi_a$
-(\bp{lem:fd-character-parametrization}).
+nondegenerate character of $k_0$ is some $\psi_a$ (not used later).
 \end{proof}
 
 % Decomposed.
@@ -12903,7 +12963,9 @@ which is the trace function of the Tate twist $K(-1)$ at points of degree
 $n$.  This is the rank-one trace-level consequence of the functorial
 inversion isomorphism in \Cref{thm:inversion}; the calculation below also
 deduces it directly from the Fourier trace formula.
-(Blueprint \bp{lem:fd-double-transform-trace}.)
+\emph{Note: this corollary seems never to be used later --- the inversion
+needed downstream is the functorial \Cref{thm:inversion} --- so it is kept only
+as a consistency check and has no detailed counterpart in the blueprint.}
 \uses{\up{thm:fourier-trace-formula}, \up{lem:orthogonality}}
 \end{corollary}
 
@@ -13250,7 +13312,7 @@ degree-one estimate is used.
 
 \begin{proposition}[Local boundary duality and ramification at infinity]
 \label{i:dl-a1-local}
-\uses{\up{d:dl-a1-setup}}
+\uses{\up{rem:sf-kv-formal}, \up{d:dl-a1-setup}}
 For a dense open immersion $j:U_0\hookrightarrow C_0$ of smooth curves,
 a lisse Weil sheaf $F$, and a missing closed point $s$, there is a
 Frobenius-equivariant perfect pairing
@@ -14080,7 +14142,7 @@ weight arguments are supplied by Section~\ref{sec:purity-real-sheaves}}
 
 \begin{proposition}[Direct images from a relative open affine line]
 \label{p:dl-general-relative-line}
-\uses{\up{d:dl-general-weights}}
+\uses{\up{prop:logdet}, \up{d:dl-general-weights}}
 Let $h_0:U_0\to Y_0$ be the projection from an open
 $U_0\subset\mathbf A^1_{Y_0}$ whose geometric fibers are nonempty,
 and let $F_0$ be lisse and pure of weight $w$.
@@ -14254,24 +14316,6 @@ and define the \emph{zeta series}
 For a closed point $x\in|X_0|$ put $\deg(x)=[\kappa(x):k_0]$.  The
 coefficients of $Z$ are the point counts $N_n$; the exponential is formal, so
 $Z$ lies in $1+T\Z[[T]]$ by construction.
-\end{definition}
-
-% Decomposed.
-\begin{definition}[Frobenius modules and their trace series]
-\label{def:frobmod}
-A \emph{Frobenius module} is a pair $(V,F)$ consisting of a
-finite-dimensional $\Qlb$-vector space $V$ and a $\Qlb$-linear automorphism
-$F:V\to V$.  Its \emph{trace series} and \emph{determinant} are
-\[
- \operatorname{tr}_F(T)=\sum_{n\ge1}\Tr(F^{n}\mid V)\frac{T^{n}}{n},
- \qquad
- P_{(V,F)}(T)=\det(1-TF\mid V).
-\]
-For a finite graded family $(V_i,F_i)_{i\in I}$ ($I\subset\Z$ finite) the
-\emph{alternating trace series} is
-$\operatorname{str}_F(T)=\sum_{n\ge1}\bigl(\sum_{i\in I}(-1)^{i}
-\Tr(F_i^{n}\mid V_i)\bigr)\frac{T^{n}}{n}$.
-No semisimplicity of $F$ is assumed anywhere.
 \end{definition}
 
 % Decomposed.
@@ -14504,35 +14548,6 @@ with the relative estimate \nolinkurl{thm:zl-wme-deligne-estimate}.
 \end{proof}
 
 \subsection{The power series: traces, Euler product, determinant}
-
-% Decomposed.
-\begin{proposition}[Logarithm of the Frobenius determinant]
-\label{prop:logdet}
-\uses{\up{def:frobmod}}
-Let $(V,F)$ be a Frobenius module.  Then in $\Qlb[[T]]$
-\[
- \begin{gathered}
- \log\det(1-TF\mid V)=-\sum_{n\ge1}\Tr(F^{n}\mid V)\frac{T^{n}}{n}
- =-\operatorname{tr}_F(T),\\[3pt]
- \text{equivalently}\qquad
- \exp\bigl(\operatorname{tr}_F(T)\bigr)=\det(1-TF\mid V)^{-1}.
- \end{gathered}
-\]
-\end{proposition}
-
-\begin{proof}[Idea]
-\uses{\up{def:frobmod}}
-Over the algebraically closed field $\Qlb$ put $F$ in upper triangular form
-with diagonal $(\lambda_1,\dots,\lambda_m)$.  Then
-$\Tr(F^{n}\mid V)=\sum_j\lambda_j^{n}$ and
-$\det(1-TF\mid V)=\prod_j(1-\lambda_jT)$.  The formal logarithm is additive on
-$1+T\Qlb[[T]]$ (compare derivatives), and
-$\log(1-\lambda T)=-\sum_{n\ge1}\lambda^{n}T^{n}/n$; summing over the finite
-index range gives the identity.  Exponentiating, and using that the formal
-exponential and logarithm are mutually inverse between $T\Qlb[[T]]$ and
-$1+T\Qlb[[T]]$, gives the second form.  No semisimplicity is used: the
-computation is triangular and therefore valid for arbitrary $F$.
-\end{proof}
 
 % Decomposed.
 \begin{proposition}[Closed-point Euler product and integrality]

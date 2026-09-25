@@ -2,7 +2,7 @@
 id = "sk-prop-a1-inv"
 kind = "section"
 title = "Weak $\\Aaf^1$-invariance"
-order = 2030
+order = 1954
 uses = ["sk-def-purity-conv"]
 +++
 *Proposition (sketch).*

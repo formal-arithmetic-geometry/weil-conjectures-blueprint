@@ -2,7 +2,7 @@
 id = "lem-pc-projection-formula"
 kind = "lemma"
 title = "The projection formula"
-order = 838
+order = 829
 uses = ["def-pc-base-change", "def-pc-derived-category", "def-pc-derived-direct-image", "def-sc-invertible-module"]
 +++
 Let $f:X\to Y$ be a quasi-compact, quasi-separated morphism of schemes.

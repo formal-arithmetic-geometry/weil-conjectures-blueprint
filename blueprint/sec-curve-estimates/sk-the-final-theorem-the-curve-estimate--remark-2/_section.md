@@ -2,7 +2,7 @@
 id = "sk-the-final-theorem-the-curve-estimate--remark-2"
 kind = "section"
 title = "Remark"
-order = 1041
+order = 1032
 +++
 *Remark (sketch).*
 

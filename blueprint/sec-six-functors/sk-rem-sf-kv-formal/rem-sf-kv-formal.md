@@ -2,7 +2,7 @@
 id = "rem-sf-kv-formal"
 kind = "remark"
 title = "Künneth–Verdier is formally duality of external products"
-order = 2375
+order = 2231
 +++
 Given biduality [thm-sf-biduality-class], the Verdier exchange
 [thm-sf-verdier-exchange] has as its adjoint
@@ -21,5 +21,5 @@ What is not formal is that statement itself: at $M=\Lambda_X$, $N=\Lambda_Y$
 it reads $\omega_{X\times Y}\cong\omega_X\boxtimes\omega_Y$, which is $\alpha$
 with constant coefficients and therefore needs purity, localization and
 dévissage as above. For *perfect* $M$ it is formal, by
-[thm-sf-dual-perfect] and [prop-pod-perfect-dualizable]; that
+[thm-sf-dual-perfect] and [prop-sf-dualizable]; that
 perfect case is the base of the induction, not a substitute for it.

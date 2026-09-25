@@ -2,7 +2,7 @@
 id = "sk-thm-br"
 kind = "section"
 title = "$\\Br(C)=0$"
-order = 912
+order = 903
 uses = ["sk-def-av-pic", "sk-def-br", "sk-def-curve", "sk-prop-br-inj", "sk-prop-tsen"]
 +++
 *Theorem (sketch).*

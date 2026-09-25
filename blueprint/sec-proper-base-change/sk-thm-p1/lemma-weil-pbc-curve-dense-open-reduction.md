@@ -2,8 +2,8 @@
 id = "lemma-weil-pbc-curve-dense-open-reduction"
 kind = "lemma"
 title = "Dense-open localization reduction"
-order = 1173
-uses = ["lemma-weil-pbc-curve-constructible-primary-reduction", "lemma-weil-pbc-eight-curve-devissage"]
+order = 1180
+uses = ["def-constructible-constructible", "def-constructible-stratification", "lemma-weil-pbc-curve-constructible-primary-reduction", "lemma-weil-pbc-eight-curve-devissage", "prop-constructible-generic-constancy"]
 +++
 Let $X$ be a reduced curve and $F$ a constructible $\mathbf F_\ell$-sheaf.
 There is a dense open immersion $j:U\hookrightarrow X$ with
@@ -20,10 +20,15 @@ scheme $Z$.
 
 ## Proof
 
-Constructibility gives a finite stratification. Remove the finite closed
-strata and all intersections of distinct irreducible components. The
-resulting $U=\coprod_aU_a$ meets every component, each $U_a$ is irreducible,
-and $G=j^{-1}F$ is finite locally constant.
+The partition witnessing constructibility of $F$ is a stratification in the
+sense of [def-constructible-stratification] with finite locally constant
+pullbacks, so $F$ is constructible in the sense of
+[def-constructible-constructible], and [prop-constructible-generic-constancy]
+gives a dense open $U'\subseteq X$ with $F|_{U'}$ finite locally constant.
+Remove from $U'$ all intersections of distinct irreducible components (a
+finite set of closed points). The resulting dense open $U=\coprod_aU_a$ meets
+every component, each $U_a$ is irreducible, and $G=j^{-1}F$ is finite locally
+constant.
 
 Let $\epsilon:j_!G\to F$ be extension by zero of the identity of $G$, and
 let $\rho:F\to i_*i^{-1}F$ be restriction to $Z$. At a geometric point of

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-direct-image-filtered-colimit"
 kind = "lemma"
 title = "Filtered colimits and higher direct image"
-order = 1097
+order = 1087
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-qcqs-higher-direct-image"]
 +++
 For a quasi-compact and quasi-separated morphism of schemes $h:W\to V$ and a

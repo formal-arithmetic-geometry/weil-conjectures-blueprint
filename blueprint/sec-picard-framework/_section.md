@@ -2,7 +2,7 @@
 id = "sec-picard-framework"
 kind = "section"
 title = "Picard Framework"
-order = 603
+order = 596
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 content: The Picard functor is representable; its identity component is the Jacobian  

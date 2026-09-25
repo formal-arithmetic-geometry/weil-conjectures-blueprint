@@ -2,7 +2,7 @@
 id = "sk-prop-divisor-gen"
 kind = "section"
 title = "Divisor sequence"
-order = 906
+order = 897
 uses = ["sk-def-curve"]
 +++
 *Proposition (sketch).*

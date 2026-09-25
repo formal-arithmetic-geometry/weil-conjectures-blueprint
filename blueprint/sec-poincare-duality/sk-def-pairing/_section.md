@@ -2,7 +2,7 @@
 id = "sk-def-pairing"
 kind = "section"
 title = "The derived pairing, and perfectness of a pairing"
-order = 2587
+order = 2418
 uses = ["sk-def-pairing-data", "sk-def-perfect"]
 +++
 *Definition (sketch).*

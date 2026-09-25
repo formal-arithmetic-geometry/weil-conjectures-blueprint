@@ -2,9 +2,9 @@
 id = "lem-zl-relative-envelope-factor-reality"
 kind = "theorem"
 title = "Reality of relative factors for an envelope"
-order = 3112
+order = 2841
 tags = ["latex:proposition"]
-uses = ["cor-trf-point-counting", "def-weil-pbc-qbar-category", "def-weil-punctual-weights", "def-wf-iota-real", "lem-a1-affine-hc0", "lem-zl-affine-curve-hc2-purity", "lem-zl-affine-curve-range", "lem-zl-real-reduced-factors", "lem-zl-relative-curve-punctual", "lem-zl-root-radius-separation", "thm-cbc-qbar"]
+uses = ["cor-trf-point-counting", "def-weil-pbc-qbar-category", "def-weil-punctual-weights", "def-wf-iota-real", "lem-a1-affine-hc0", "lem-zl-affine-curve-hc2-purity", "lem-zl-affine-curve-range", "lem-zl-euler-product-identity", "lem-zl-real-reduced-factors", "lem-zl-relative-curve-punctual", "lem-zl-root-radius-separation", "thm-cbc-qbar"]
 +++
 Let $h:U_0\to Y_0$ be as in [lem-zl-relative-curve-punctual], and
 let $\mathcal E$ be lisse, $\iota$-real, and punctually $\iota$-pure
@@ -27,7 +27,10 @@ The trace formula [cor-trf-point-counting] identifies the fiber
 $L$-function, i.e. the exponential of the point-count series of the
 fiber with coefficients $\mathcal E$, with
 $P_1(T)/P_2(T)$ (the cohomological factorization over the finite
-field $\kappa(y)$, with $H_c^0=0$). Its Euler factors have real
+field $\kappa(y)$, with $H_c^0=0$): exponentiating the alternating
+trace sum degree by degree, the Euler-product identity
+[lem-zl-euler-product-identity] turns the exponential of the trace
+series of $F$ on $H_c^i$ into $P_i(T)^{-1}$. Its Euler factors have real
 coefficients by the $\iota$-reality of $\mathcal E$
 ([def-wf-iota-real] applied to the restriction to the fiber), so
 this quotient lies in $\mathbf R(T)$. The radii are disjoint

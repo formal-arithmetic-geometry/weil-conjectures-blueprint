@@ -2,7 +2,7 @@
 id = "sk-def-trace"
 kind = "section"
 title = "The trace function, and the classical Fourier transform"
-order = 2931
+order = 2688
 uses = ["sk-def-char", "sk-def-fourier-set"]
 +++
 *Definition (sketch).*

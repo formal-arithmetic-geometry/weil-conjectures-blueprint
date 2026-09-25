@@ -2,7 +2,7 @@
 id = "sk-prop-av-isogeny"
 kind = "section"
 title = "The multiplication-by-$n$ isogeny"
-order = 566
+order = 559
 uses = ["sk-def-av", "sk-def-av-ample-degree", "sk-def-av-isogeny", "sk-def-av-mult-n", "sk-prop-av-deg-pullback", "sk-prop-av-isogeny-degree", "sk-prop-av-mult-finite", "sk-prop-av-mult-hom", "sk-prop-av-mult-n-pullback", "sk-prop-av-mult-surjective", "sk-prop-av-projective", "sk-prop-av-symmetric-ample"]
 +++
 *Proposition (sketch).*

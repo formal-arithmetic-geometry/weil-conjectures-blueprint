@@ -2,7 +2,7 @@
 id = "def-weil-pbc-extension-by-zero"
 kind = "definition"
 title = "Extension by zero for open immersions"
-order = 1166
+order = 1173
 uses = ["def-cbc-open-immersion-square", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions"]
 +++
 For an open immersion $j:U\hookrightarrow X$, extension by zero is the exact

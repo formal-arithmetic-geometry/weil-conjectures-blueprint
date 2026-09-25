@@ -2,8 +2,8 @@
 id = "lem-weil-duality-pairing"
 kind = "lemma"
 title = "The duality pairing and the double-dual morphism"
-order = 2235
-uses = ["def-weil-derived-pullback-tensor-hom", "thm-amb-etale-exceptional-adjoint"]
+order = 2122
+uses = ["def-weil-derived-pullback-tensor-hom", "lem-sf-hom-triangulated", "thm-amb-etale-exceptional-adjoint"]
 +++
 Let $X$ be a separated finite-type scheme over a field, with finite
 coefficients invertible on that field. On the ambient etale derived
@@ -29,7 +29,9 @@ The tensor–internal-Hom adjunction of
 counit. Compose that evaluation with tensor symmetry, and transpose
 under the same adjunction, obtaining $\delta_K$. Naturality of the
 counit gives naturality of this map. Internal Hom is triangulated in
-each variable, with the standard shift and Koszul-sign conventions;
+each variable, with the standard shift and Koszul-sign conventions, by
+[lem-sf-hom-triangulated] (on the pro-etale site by the same Hom-complex
+argument);
 the natural transformation to its double application therefore
 commutes with shifts and gives a morphism of triangles. This
 construction takes place in the ambient categories, before any

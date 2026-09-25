@@ -2,7 +2,7 @@
 id = "sk-def-set"
 kind = "section"
 title = "The fixed setting"
-order = 2572
+order = 2404
 uses = ["sk-def-sf-setting"]
 +++
 *Remark (sketch).*

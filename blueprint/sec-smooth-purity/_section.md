@@ -2,7 +2,7 @@
 id = "sec-smooth-purity"
 kind = "section"
 title = "Smooth Purity"
-order = 1476
+order = 1450
 uses = ["sec-abelian-varieties", "sec-curve-estimates", "sec-nagata-compactification", "sec-proper-base-change", "sec-smooth-base-change", "sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 content: the proof of smooth purity theorem  

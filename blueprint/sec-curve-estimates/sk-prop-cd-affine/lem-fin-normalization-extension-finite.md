@@ -2,7 +2,7 @@
 id = "lem-fin-normalization-extension-finite"
 kind = "lemma"
 title = "Finiteness of normalization in a finite extension"
-order = 1023
+order = 1015
 uses = ["def-fin-normalization-extension", "def-weil-pbc-scheme-conventions"]
 +++
 For an integral scheme $X$ of finite type over a field

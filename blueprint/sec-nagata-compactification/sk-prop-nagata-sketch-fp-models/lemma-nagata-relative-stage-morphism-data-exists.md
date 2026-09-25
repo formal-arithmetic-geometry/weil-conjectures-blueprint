@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-stage-morphism-data-exists"
 kind = "lemma"
 title = "Existence of finite-stage data for a finite-type morphism"
-order = 386
+order = 381
 uses = ["def-nagata-relative-stage-morphism-data", "lemma-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

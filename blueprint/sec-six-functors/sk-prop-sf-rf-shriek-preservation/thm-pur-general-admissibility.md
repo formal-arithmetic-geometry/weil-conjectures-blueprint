@@ -2,8 +2,8 @@
 id = "thm-pur-general-admissibility"
 kind = "theorem"
 title = "Preservation for an affine base, modulo the open-complement condition"
-order = 2191
-uses = ["cor-exc-base-change-open-immersion-general", "cor-pur-smooth-admissibility", "cor-sf-ambient-adjoint-discharge", "def-exc-open-complement-bound", "def-pur-conventions", "def-sbc-affine-space", "def-weil-ambient-exceptional-adjoint", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "prop-exc-closed-tor", "prop-exc-open-adjoint"]
+order = 2078
+uses = ["cor-exc-base-change-open-immersion-general", "cor-pur-smooth-admissibility", "cor-sf-ambient-adjoint-discharge", "def-exc-open-complement-bound", "def-pur-conventions", "def-sbc-affine-space", "def-weil-ambient-exceptional-adjoint", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "prop-exc-closed-tor", "prop-exc-open-adjoint", "thm-exc-explicit-preservation"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $f:X\to Y$ be a
@@ -80,7 +80,7 @@ closed-support computations [lem-exc-closed-amplitude] and
 [prop-exc-closed-tor], applied to the pair $(i_U,W_U)$ under the
 assumed open-complement condition, move the interval to
 $[a-2d,b-2d+c'+1]$. The exact restriction $Lu_U^*$ preserves both
-kinds of bound, so each chart carries the interval
+kinds of bound ([thm-exc-explicit-preservation] for the open immersion $u_U$), so each chart carries the interval
 $[a-2d_U,b-2d_U+c_U+1]$, which is contained in
 $[a-2D,b-2D+c]$ by the choice of $D$ and $c$.
 Step 3: passage from the affine opens of the base to the base. For an

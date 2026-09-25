@@ -2,7 +2,7 @@
 id = "lem-sc-h1-gm-pic"
 kind = "lemma"
 title = "The Picard group as first cohomology of units"
-order = 893
+order = 884
 uses = ["def-sc-curves", "def-sc-gm-torsor", "def-sc-invertible-module", "def-sc-picard-group", "thm-sc-hilbert-90"]
 +++
 Let $C$ be a curve. There are

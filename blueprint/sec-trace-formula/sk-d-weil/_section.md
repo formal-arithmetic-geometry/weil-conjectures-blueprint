@@ -2,7 +2,7 @@
 id = "sk-d-weil"
 kind = "section"
 title = "Frobenius and Weil data"
-order = 2442
+order = 2294
 uses = ["sk-d-corr", "sk-d-operator", "sk-d-setup", "sk-d-six"]
 +++
 *Definition (sketch).*

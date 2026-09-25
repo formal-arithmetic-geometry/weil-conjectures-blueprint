@@ -2,7 +2,7 @@
 id = "sk-thm-regular"
 kind = "section"
 title = "Purity for regular closed immersions"
-order = 2129
+order = 2033
 uses = ["sk-def-purity-conv", "sk-lem-coprojection", "sk-lem-regular-smooth", "sk-thm-smooth-purity"]
 +++
 *Theorem (sketch).*

@@ -2,7 +2,7 @@
 id = "sk-thm-groth-ss"
 kind = "section"
 title = "Grothendieck spectral sequence and its Leray specialization"
-order = 608
+order = 601
 uses = ["sk-def-groth-ss"]
 +++
 *Theorem (sketch).*

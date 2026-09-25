@@ -2,7 +2,7 @@
 id = "sk-def-sf-categories"
 kind = "section"
 title = "Ambient categories and small subcategories"
-order = 2137
+order = 2040
 +++
 *Remark (sketch).*
 

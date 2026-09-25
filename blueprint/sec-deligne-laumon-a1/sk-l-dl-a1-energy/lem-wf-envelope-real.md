@@ -2,7 +2,7 @@
 id = "lem-wf-envelope-real"
 kind = "lemma"
 title = "The envelope is real"
-order = 3019
+order = 2765
 uses = ["def-weil-punctual-weights", "def-wf-iota-real", "def-wf-normalized-real-envelope"]
 +++
 The envelope $\operatorname{Env}_\iota(\mathcal F;b)$ of

@@ -2,7 +2,7 @@
 id = "def-nagata-relative-finite-affine-presentation"
 kind = "definition"
 title = "Selected finite relative affine presentation"
-order = 362
+order = 357
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and
 Noetherian descent is done in one step by

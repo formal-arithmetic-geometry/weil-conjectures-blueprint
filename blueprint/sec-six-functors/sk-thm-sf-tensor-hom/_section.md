@@ -2,7 +2,7 @@
 id = "sk-thm-sf-tensor-hom"
 kind = "section"
 title = "Tensor–Hom form of the exchange"
-order = 2281
+order = 2166
 uses = ["sk-def-sf-exchanges", "sk-def-sf-operations", "sk-lem-sf-mate"]
 +++
 *Theorem (sketch).*

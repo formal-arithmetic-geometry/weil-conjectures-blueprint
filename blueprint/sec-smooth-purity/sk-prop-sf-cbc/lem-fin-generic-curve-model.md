@@ -2,7 +2,7 @@
 id = "lem-fin-generic-curve-model"
 kind = "lemma"
 title = "A generic curve model with finite comparison boundary"
-order = 1646
+order = 1614
 uses = ["def-pc-projective-morphism", "def-sbc-smooth-morphisms", "def-weil-pbc-scheme-conventions", "lem-fin-finite-over-projective", "lem-fin-normalization-extension-finite", "lem-fin-projective-generically-finite", "lem-fin-spread-finite-algebra", "lem-sc-normalized-curve-smooth", "lem-weil-pbc-proper-closed-image"]
 +++
 Let $f:X\to S$ be

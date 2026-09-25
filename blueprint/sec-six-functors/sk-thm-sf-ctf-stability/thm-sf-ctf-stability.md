@@ -2,8 +2,8 @@
 id = "thm-sf-ctf-stability"
 kind = "theorem"
 title = "Preservation on the proved finite-Tor domains"
-order = 2355
-uses = ["cor-coef-finite-verdier", "cor-coef-integral-internal-hom", "cor-sf-direct-image-ctf-proetale", "cor-sf-hom-ctf-proetale-unconditional", "cor-weil-finite-constructible-hom", "def-compact-support-direct-image-detailed", "def-weil-derived-complete-integral-detailed", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-site-perfect-complex", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-coef-integral-hom-reduction", "lem-coef-integral-residue-tor", "lem-coef-rational-operations", "lem-exc-constant-inverse-image-flat", "lem-fix-operation-reduction", "lem-sf-etale-direct-image-vanishing", "lem-weil-pbc-pullback-preserves-bounded-constructible", "prop-coef-integral-exceptional-adjoint", "prop-sf-dualizable-hom", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-sf-direct-image-tor-amplitude", "thm-sf-hom-ctf"]
+order = 2213
+uses = ["cor-coef-finite-verdier", "cor-pur-general-admissibility-datum", "cor-pur-smooth-admissibility", "cor-coef-integral-internal-hom", "cor-sf-direct-image-ctf-proetale", "cor-sf-hom-ctf-proetale-unconditional", "cor-weil-finite-constructible-hom", "def-compact-support-direct-image-detailed", "def-weil-derived-complete-integral-detailed", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-site-perfect-complex", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-coef-integral-hom-reduction", "lem-coef-integral-residue-tor", "lem-coef-rational-operations", "lem-exc-constant-inverse-image-flat", "lem-fix-operation-reduction", "lem-sf-etale-direct-image-vanishing", "lem-weil-pbc-pullback-preserves-bounded-constructible", "prop-coef-integral-exceptional-adjoint", "prop-exc-closed-tor", "prop-sf-dualizable-hom", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-pur-general-admissibility", "thm-pur-open-complement-unconditional", "thm-sf-direct-image-tor-amplitude", "thm-sf-hom-ctf", "thm-sf-preservation-class"]
 +++
 Fix the finite-field datum,
 $A=A_{E,n}$, and separated finite-type morphisms between separated finite-type
@@ -101,10 +101,28 @@ Extension by zero $j_!$ is exact and commutes with tensor, as is
 seen on stalks, so preserves the Tor interval and constructibility.
 Apply (iii) to the proper factor $p$.
 
-Clause (v) is the finite dual formula and adjunction in
-[lem-coef-finite-exceptional]. Applying the finite duality
-bound on $Y$, ordinary pullback, and the finite duality bound on
-$X$ gives its displayed output interval. Clause (vi) is
+Clause (v) is the preservation result for the exceptional inverse
+image, assembled from the closed and smooth cases. For a closed immersion
+$i:Z\hookrightarrow T$ with $\dim T\leq d$, the open complement satisfies
+the open-complement condition with $c=2d$ by
+[thm-pur-open-complement-unconditional], so [prop-exc-closed-tor]
+carries bounded constructible input of Tor amplitude $[a,b]$ to bounded
+constructible output of Tor amplitude $[a,b+2d+1]$. For $f$ smooth of pure
+relative dimension $d$, purity identifies $Rf^!$ with $Lf^*(-)(d)[2d]$ and
+[cor-pur-smooth-admissibility] gives the shift $-2d$ on both intervals.
+A general $f$ is, on affine charts $U\subseteq f^{-1}(V)$, a closed
+immersion $U\hookrightarrow\mathbf A^{d_U}_V$ followed by the smooth
+projection, and composing the two cases along the charts is
+[thm-pur-general-admissibility]; its open-complement hypothesis on the
+charts is discharged by [cor-pur-general-admissibility-datum], so it is a
+theorem and not an assumption. At the finite stage $A=A_{E,n}$ and for every
+separated finite-type $f$ of the statement this is
+[thm-sf-preservation-class](2): $Rf^!$ carries $D^b_{ctf}(Y,A)$ into
+$D^b_{ctf}(X,A)$, with no ambient datum assumed on that category. With this
+preservation, the finite dual formula and adjunction of
+[lem-coef-finite-exceptional] identify $Rf^!$ with $D_Xf^*D_Y$ on this
+domain; applying the finite duality bound on $Y$, ordinary pullback, and
+the finite duality bound on $X$ gives the displayed output interval. Clause (vi) is
 [thm-fix-general-biduality] at finite coefficients;
 its geometric proof supplies the
 anti-equivalence and is not replaced by the site-perfect calculation

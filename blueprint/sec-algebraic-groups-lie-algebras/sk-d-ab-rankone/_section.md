@@ -2,7 +2,7 @@
 id = "sk-d-ab-rankone"
 kind = "section"
 title = "A split cyclic extension and rank-one characters"
-order = 2729
+order = 2529
 uses = ["sk-d-monodromy"]
 +++
 *Definition (sketch).*

@@ -2,7 +2,7 @@
 id = "sk-d-setup"
 kind = "section"
 title = "Coefficients and geometric categories"
-order = 2413
+order = 2266
 +++
 *Remark (sketch).*
 

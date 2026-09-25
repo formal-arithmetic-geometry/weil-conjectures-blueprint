@@ -2,7 +2,7 @@
 id = "def-sc-curves"
 kind = "definition"
 title = "Curves over algebraically closed fields"
-order = 423
+order = 418
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be an algebraically closed field. A *curve over

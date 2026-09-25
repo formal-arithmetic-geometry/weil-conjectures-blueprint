@@ -2,7 +2,7 @@
 id = "lem-pc-flat-complex-derived-pullback"
 kind = "lemma"
 title = "Termwise derived pullback of a bounded above flat complex"
-order = 675
+order = 666
 uses = ["def-pc-derived-pullback", "def-pc-scheme", "def-weil-derived-tensor"]
 +++
 Let $g:T\to S$ be a morphism of schemes and let $E$ be a bounded above

@@ -2,7 +2,7 @@
 id = "sk-def-perfect"
 kind = "section"
 title = "Perfectness at the point and on $X$"
-order = 2580
+order = 2412
 uses = ["sk-def-ops"]
 +++
 *Definition (sketch).*

@@ -2,7 +2,7 @@
 id = "sk-lem-sf-open-ctf"
 kind = "section"
 title = "Extension by zero preserves the finite-Tor constructible category"
-order = 2274
+order = 2159
 uses = ["sk-def-sf-operations"]
 +++
 *Lemma (sketch).*

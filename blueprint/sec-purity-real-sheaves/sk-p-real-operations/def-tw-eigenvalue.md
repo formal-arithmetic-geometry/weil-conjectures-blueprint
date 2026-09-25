@@ -2,7 +2,7 @@
 id = "def-tw-eigenvalue"
 kind = "definition"
 title = "Eigenvalues and q-adic absolute values"
-order = 2800
+order = 2591
 uses = ["def-tw-conventions", "def-tw-frobenius-action"]
 +++
 Let $\alpha\in\overline{\mathbf Q}_\ell$ be an eigenvalue of the

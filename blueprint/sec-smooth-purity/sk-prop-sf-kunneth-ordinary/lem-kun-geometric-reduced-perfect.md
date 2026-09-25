@@ -2,7 +2,7 @@
 id = "lem-kun-geometric-reduced-perfect"
 kind = "lemma"
 title = "Geometric reducedness over a perfect field"
-order = 1772
+order = 1730
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be a reduced scheme of finite type over a perfect field

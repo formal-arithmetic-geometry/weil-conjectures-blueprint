@@ -2,7 +2,7 @@
 id = "thm-fd-fourier-trace"
 kind = "theorem"
 title = "Fourier trace formula"
-order = 2950
+order = 2707
 uses = ["cor-trf-point-counting", "def-fd-additive-character", "def-fd-trace-function", "def-fd-transform", "lem-fd-as-trace", "lem-fd-stalk-formula", "thm-trf-grothendieck-lefschetz-qbar"]
 +++
 For $y\in\mathbf F_{q^n}$ and a Weil complex $K$ on $\mathbf A^1$,

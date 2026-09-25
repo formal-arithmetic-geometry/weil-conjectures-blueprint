@@ -2,7 +2,7 @@
 id = "sk-d-trace-class"
 kind = "section"
 title = "Diagonal trace class"
-order = 2462
+order = 2313
 uses = ["sk-d-corr", "sk-d-pairing"]
 +++
 *Definition (sketch).*

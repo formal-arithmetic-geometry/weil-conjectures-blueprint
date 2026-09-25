@@ -2,7 +2,7 @@
 id = "sk-thm-picard-twist"
 kind = "section"
 title = "The twist lemma"
-order = 762
+order = 754
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-picard-serre-a"]
 +++
 *Theorem (sketch).*

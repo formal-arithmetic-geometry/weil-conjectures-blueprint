@@ -2,7 +2,7 @@
 id = "lem-sc-c3"
 kind = "lemma"
 title = "C3: vanishing of p-primary torsion"
-order = 1124
+order = 1114
 uses = ["def-sc-curves", "def-weil-pbc-eight-curve-assertions", "lem-sc-artin-schreier-dimension", "lem-sc-as-sequence", "lem-sc-lang-steinberg"]
 +++
 Let $k$ be algebraically closed with

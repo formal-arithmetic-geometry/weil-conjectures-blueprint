@@ -2,7 +2,7 @@
 id = "lem-a1-constituent-nonexceptional-comparison"
 kind = "lemma"
 title = "Constituent-nonexceptional versus Fourier-nonexceptional"
-order = 3006
+order = 2753
 uses = ["def-a1-constituent-nonexceptional", "def-fd-nonexceptional", "def-wf-constant-weil-twist", "def-wf-middle-extension"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion

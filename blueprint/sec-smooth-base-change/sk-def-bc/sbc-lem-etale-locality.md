@@ -2,7 +2,7 @@
 id = "sbc-lem-etale-locality"
 kind = "lemma"
 title = "Etale locality of the base-change map"
-order = 1381
+order = 1370
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "sbc-def-base-change-map", "sbc-def-base-change-square"]
 +++
 Consider a base-change square

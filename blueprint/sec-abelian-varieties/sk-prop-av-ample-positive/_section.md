@@ -2,7 +2,7 @@
 id = "sk-prop-av-ample-positive"
 kind = "section"
 title = "Ample modules on proper curves have positive degree"
-order = 556
+order = 549
 uses = ["sk-def-av-ample-degree"]
 +++
 *Proposition (sketch).*

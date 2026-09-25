@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-image-transform"
 kind = "section"
 title = "Images under admissible blow-up"
-order = 235
+order = 230
 uses = ["sk-lem-nagata-sketch-blowups", "sk-lem-nagata-sketch-closure"]
 +++
 *Lemma (sketch).*

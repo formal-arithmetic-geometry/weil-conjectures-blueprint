@@ -2,7 +2,7 @@
 id = "lem-sc-canonical-sheaf"
 kind = "lemma"
 title = "The canonical sheaf of a smooth curve"
-order = 643
+order = 635
 uses = ["def-sc-curves", "def-sc-invertible-module", "def-sc-kahler-differentials"]
 +++
 Let $C$ be a smooth connected curve over $k$ of

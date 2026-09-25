@@ -2,7 +2,7 @@
 id = "def-sp-exact-couple"
 kind = "definition"
 title = "Bigraded exact couples"
-order = 516
+order = 509
 uses = ["def-sp-abelian"]
 +++
 Let $\mathcal A$ be an abelian category [def-sp-abelian]. An *exact couple*

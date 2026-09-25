@@ -2,7 +2,7 @@
 id = "lemma-nagata-spectral-constructible-separation-exists"
 kind = "lemma"
 title = "Existence of constructible closed separators in a spectral space"
-order = 257
+order = 252
 lean = ["PrespectralSpace.exists_isCompact_isOpen_disjoint_union_eq_univ"]
 +++
 If $T,T'$ are disjoint closed subsets of a spectral space $V$, there exist

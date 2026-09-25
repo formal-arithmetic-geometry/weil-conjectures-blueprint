@@ -2,7 +2,7 @@
 id = "prop-av-tate-no-frobenius-fixed"
 kind = "theorem"
 title = "No Frobenius-fixed vectors on the Tate module of an abelian variety"
-order = 2768
+order = 2564
 uses = ["d-ab-field", "def-sc-abelian-variety", "def-tate-module-abelian-group", "lem-tate-module-no-fixed"]
 tags = ["latex:proposition"]
 +++

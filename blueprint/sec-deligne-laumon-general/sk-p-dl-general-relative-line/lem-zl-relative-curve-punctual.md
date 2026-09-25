@@ -2,8 +2,8 @@
 id = "lem-zl-relative-curve-punctual"
 kind = "lemma"
 title = "Punctual upper bound in a relative affine curve"
-order = 3109
-uses = ["def-weil-pbc-qbar-category", "def-weil-punctual-weights", "lem-a1-weight-bound-constant-extension", "lem-tw-punctual-rescaling", "thm-a1-affine-curve-upper", "thm-cbc-qbar"]
+order = 2839
+uses = ["def-weil-pbc-qbar-category", "def-weil-punctual-weights", "lem-a1-weight-bound-constant-extension", "lem-tw-punctual-rescaling", "thm-a1-curve-upper", "thm-cbc-qbar"]
 +++
 Let $h:U_0\to Y_0$ be smooth and separated with every nonempty
 geometric fiber a smooth affine curve, and let $\mathcal F$ be lisse
@@ -23,10 +23,9 @@ $H_c^i(U_{\bar y},\mathcal F|_{U_{\bar y}})$. The restricted sheaf has
 weight $w$ relative to $q^m$ by the rescaling lemma
 [lem-tw-punctual-rescaling]. After a finite extension of
 $\kappa(y)$, all geometric components of the affine fiber are
-defined and geometrically connected. Apply precisely the affine
-curve estimate [thm-a1-affine-curve-upper] to each component.
+defined and geometrically connected. Apply the curve estimate
+[thm-a1-curve-upper] (the upper bound on a smooth geometrically
+connected curve, with no condition at infinity) to each component.
 The direct sum has the same bound, and
 [lem-a1-weight-bound-constant-extension] reflects it back to
-$\kappa(y)$. This obtains the displayed bound using the complete
-affine-curve proof, without a middle-extension or projective-curve
-purity refinement.
+$\kappa(y)$. This obtains the displayed bound.

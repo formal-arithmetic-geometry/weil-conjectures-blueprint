@@ -2,7 +2,7 @@
 id = "lem-coef-rational-retract-evaluation"
 kind = "lemma"
 title = "Evaluation on retracts and extension of a perfect pairing"
-order = 2267
+order = 2153
 uses = ["def-weil-site-perfect-complex", "lem-coef-integral-finite-extension", "lem-weil-qbar-idempotent-complete", "lem-weil-rationalization-idempotent-complete", "thm-coef-rational-verdier"]
 +++
 Rational evaluation and biduality restrict to split idempotents.

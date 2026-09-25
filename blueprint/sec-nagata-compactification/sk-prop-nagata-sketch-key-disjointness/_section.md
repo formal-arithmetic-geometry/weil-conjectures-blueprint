@@ -2,7 +2,7 @@
 id = "sk-prop-nagata-sketch-key-disjointness"
 kind = "section"
 title = "Improved comparison and key disjointness"
-order = 275
+order = 270
 uses = ["sk-lem-nagata-sketch-image-transform", "sk-lem-nagata-sketch-near-closure", "sk-prop-nagata-sketch-prepared"]
 +++
 *Proposition (sketch).*

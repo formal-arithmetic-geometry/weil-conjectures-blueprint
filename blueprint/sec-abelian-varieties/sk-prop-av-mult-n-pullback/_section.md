@@ -2,7 +2,7 @@
 id = "sk-prop-av-mult-n-pullback"
 kind = "section"
 title = "Pullback of symmetric modules under multiplication by $n$"
-order = 486
+order = 481
 uses = ["sk-def-av", "sk-def-av-mult-n", "sk-prop-av-cube", "sk-prop-av-symmetric-ample"]
 +++
 *Proposition (sketch).*

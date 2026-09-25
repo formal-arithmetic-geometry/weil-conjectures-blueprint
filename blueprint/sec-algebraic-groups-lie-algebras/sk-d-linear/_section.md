@@ -2,7 +2,7 @@
 id = "sk-d-linear"
 kind = "section"
 title = "Coefficients and representations"
-order = 2638
+order = 2458
 +++
 *Definition (sketch).*
 

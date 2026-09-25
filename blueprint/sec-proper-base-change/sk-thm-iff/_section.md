@@ -2,7 +2,7 @@
 id = "sk-thm-iff"
 kind = "section"
 title = "PBC $\\Leftrightarrow$ IA"
-order = 1077
+order = 1067
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-ia", "sk-def-pbc", "sk-thm-acyclicity"]
 +++
 *Theorem (sketch).*

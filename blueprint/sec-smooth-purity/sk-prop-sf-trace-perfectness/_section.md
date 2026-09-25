@@ -2,7 +2,7 @@
 id = "sk-prop-sf-trace-perfectness"
 kind = "section"
 title = "Perfectness of compact cohomology and of geometric stalks"
-order = 1881
+order = 1822
 +++
 *Proposition (sketch).*
 

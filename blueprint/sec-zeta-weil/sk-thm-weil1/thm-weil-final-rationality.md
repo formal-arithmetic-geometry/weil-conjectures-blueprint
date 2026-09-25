@@ -2,7 +2,7 @@
 id = "thm-weil-final-rationality"
 kind = "theorem"
 title = "Weil conjectures I: rationality and Euler product"
-order = 3219
+order = 2928
 lean = ["AlgebraicGeometry.Scheme.zetaSeries_rational"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-point-counts-zeta", "prop-euler-product", "prop-every-iterate-trace", "prop-rational-descent", "prop-trace-determinant", "prop-weil-rationality-criterion"]
 +++

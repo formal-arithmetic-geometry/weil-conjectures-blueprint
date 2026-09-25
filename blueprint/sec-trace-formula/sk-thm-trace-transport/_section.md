@@ -2,8 +2,8 @@
 id = "sk-thm-trace-transport"
 kind = "section"
 title = "Transport of the trace formula to the non-finite stages"
-order = 2561
-uses = ["sk-d-setup", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-i-curve-zero", "sk-prop-cd", "sk-prop-trace-adic", "sk-thm-sf-ctf-stability", "sk-thm-trace-formula"]
+order = 2394
+uses = ["sk-d-setup", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-i-curve-zero", "sk-p-trace-coeff", "sk-prop-cd", "sk-prop-logdet", "sk-prop-trace-adic", "sk-thm-sf-ctf-stability", "sk-thm-trace-formula"]
 +++
 *Theorem (sketch).*
 
@@ -110,4 +110,4 @@ homomorphism, so it carries the identity in
 $\overline{\mathbf Q}_\ell[[T]]$ coefficientwise to one in
 $\mathbf C[[T]]$.
 
-Uses: [sk-d-setup], [sk-d-six], [sk-d-trace], [sk-d-weil], [sk-i-curve-zero], [sk-prop-cd], [sk-prop-trace-adic], [sk-thm-sf-ctf-stability], [sk-thm-trace-formula]
+Uses: [sk-d-setup], [sk-d-six], [sk-d-trace], [sk-d-weil], [sk-i-curve-zero], [sk-p-trace-coeff], [sk-prop-cd], [sk-prop-logdet], [sk-prop-trace-adic], [sk-thm-sf-ctf-stability], [sk-thm-trace-formula]

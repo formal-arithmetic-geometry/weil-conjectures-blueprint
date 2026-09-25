@@ -2,7 +2,7 @@
 id = "lemma-nagata-valuation-factor-closed"
 kind = "lemma"
 title = "Factorization through a closed subscheme over a valuation ring"
-order = 282
+order = 277
 lean = ["AlgebraicGeometry.IsClosedImmersion.exists_lift_of_isFractionRing"]
 uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-comparison", "lemma-nagata-reduced-dense-image-schematic", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
 +++

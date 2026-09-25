@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-quasi-domination-proper-target"
 kind = "lemma"
 title = "A quasi-domination over a proper target is everywhere defined (Conrad)"
-order = 228
+order = 223
 uses = ["def-nagata-conrad-quasi-domination"]
 +++
 **Status.** Bypassed by the formalized route: quasi-dominations are not

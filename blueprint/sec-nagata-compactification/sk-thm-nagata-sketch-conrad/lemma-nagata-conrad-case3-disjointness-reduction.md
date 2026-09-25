@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-case3-disjointness-reduction"
 kind = "lemma"
 title = "The disjointness reduction in Case 3 (Conrad)"
-order = 219
+order = 214
 lean = ["AlgebraicGeometry.exists_isAdmissible_disjoint_closure_range_of_le"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-disjointness-setup", "def-nagata-constructible-closed-support", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-qc-open-complement-ideal", "def-nagata-scheme-theoretic-image", "lemma-nagata-conrad-disjointness-blowup", "lemma-nagata-constructible-closed-support", "lemma-nagata-finite-type-ideal-compact", "lemma-nagata-finite-type-ideal-power-in-ideal", "lemma-nagata-ideal-directed-union-finite-type", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "prop-nagata-global-blowup-cover-independent"]
 +++

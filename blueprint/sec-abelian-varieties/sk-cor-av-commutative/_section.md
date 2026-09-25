@@ -2,7 +2,7 @@
 id = "sk-cor-av-commutative"
 kind = "section"
 title = "Abelian varieties are commutative"
-order = 496
+order = 491
 uses = ["sk-def-av", "sk-prop-av-rigidity"]
 +++
 *Corollary (sketch).*

@@ -2,7 +2,7 @@
 id = "def-wf-l2-series"
 kind = "definition"
 title = "The $L^2$-series"
-order = 3011
+order = 2758
 uses = ["def-wf-l2-norm"]
 +++
 In the setting of [def-wf-l2-norm], the *$L^2$-series* is

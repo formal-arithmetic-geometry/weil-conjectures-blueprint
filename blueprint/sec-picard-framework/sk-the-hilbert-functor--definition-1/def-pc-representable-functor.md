@@ -2,7 +2,7 @@
 id = "def-pc-representable-functor"
 kind = "definition"
 title = "Representable functors"
-order = 774
+order = 766
 uses = ["def-pc-scheme"]
 +++
 Let $F:(\mathit{Sch}/S)^{\mathrm{op}}\to\textit{Sets}$ be a functor. The

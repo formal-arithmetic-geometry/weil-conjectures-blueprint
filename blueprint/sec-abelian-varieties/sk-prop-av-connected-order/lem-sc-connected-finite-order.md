@@ -2,7 +2,7 @@
 id = "lem-sc-connected-finite-order"
 kind = "lemma"
 title = "Order of connected finite group schemes"
-order = 583
+order = 576
 uses = ["def-sc-group-scheme"]
 +++
 Let $G$ be a finite flat group

@@ -2,7 +2,7 @@
 id = "lem-pod-perfect-point-complex-field"
 kind = "lemma"
 title = "Perfect point complexes over a field"
-order = 2581
+order = 2413
 uses = ["def-pod-conventions", "def-pod-perfect-point-complex", "def-weil-finite-coefficient-point"]
 +++
 In the Poincare duality conventions of

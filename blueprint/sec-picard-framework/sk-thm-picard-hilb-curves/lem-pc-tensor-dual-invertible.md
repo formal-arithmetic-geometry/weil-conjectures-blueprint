@@ -2,7 +2,7 @@
 id = "lem-pc-tensor-dual-invertible"
 kind = "lemma"
 title = "Invertible modules: duals and tensor products"
-order = 799
+order = 791
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "def-sc-invertible-module"]
 +++
 Let $X$ be a scheme and let $\mathcal{M},\mathcal{N}$ be

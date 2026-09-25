@@ -2,7 +2,7 @@
 id = "sec-smooth-base-change"
 kind = "section"
 title = "Smooth Base Change"
-order = 1374
+order = 1363
 uses = ["sec-curve-estimates"]
 +++
 content: proof of smooth base change theorem  

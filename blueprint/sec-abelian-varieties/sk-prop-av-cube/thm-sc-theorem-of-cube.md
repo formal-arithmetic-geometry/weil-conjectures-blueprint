@@ -2,7 +2,7 @@
 id = "thm-sc-theorem-of-cube"
 kind = "theorem"
 title = "The theorem of the cube"
-order = 485
+order = 480
 uses = ["def-sc-abelian-variety", "def-sc-invertible-module", "lem-sc-abelian-variety-characterization"]
 +++
 Let $A$ be an abelian variety

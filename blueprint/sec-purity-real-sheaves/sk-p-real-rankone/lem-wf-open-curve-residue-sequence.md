@@ -2,7 +2,7 @@
 id = "lem-wf-open-curve-residue-sequence"
 kind = "lemma"
 title = "Finite-level residue sequences on an open curve"
-order = 2837
+order = 2624
 uses = ["def-coefficient-twists-detailed", "def-tw-frobenius-action", "def-weil-frobenius-coefficient-twists", "lem-pur-support-localization-triangle", "lem-sc-point-cartier", "prop-pur-regular-immersion-purity-compatibilities", "thm-pur-regular-immersion-purity"]
 +++
 Let $C_0/\mathbf F_q$ be a smooth projective geometrically connected

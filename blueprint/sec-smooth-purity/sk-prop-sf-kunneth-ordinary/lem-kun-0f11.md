@@ -2,7 +2,7 @@
 id = "lem-kun-0f11"
 kind = "lemma"
 title = "Direct sums and finite cohomological dimension"
-order = 1774
+order = 1732
 uses = ["def-kun-cd", "def-weil-pbc-derived-categories", "def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-hypercohomology-convergence"]
 +++
 Let $n\ge1$, and let $f:X\to Y$ be a

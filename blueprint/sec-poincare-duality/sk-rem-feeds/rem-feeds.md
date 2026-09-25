@@ -2,7 +2,7 @@
 id = "rem-feeds"
 kind = "remark"
 title = "Where this feeds, and what remains"
-order = 2636
+order = 2456
 +++
 The final proposition is used downstream as follows: the monodromy and
 real-purity chapter uses the perfectness, the dualizing-complex

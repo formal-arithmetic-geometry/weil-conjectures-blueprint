@@ -2,7 +2,7 @@
 id = "sk-thm-acyclicity"
 kind = "section"
 title = "Acyclicity criterion"
-order = 1075
+order = 1065
 +++
 *Theorem (sketch).*
 

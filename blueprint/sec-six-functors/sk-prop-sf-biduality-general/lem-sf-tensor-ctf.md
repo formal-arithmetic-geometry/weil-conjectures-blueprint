@@ -2,7 +2,7 @@
 id = "lem-sf-tensor-ctf"
 kind = "lemma"
 title = "The derived tensor product on the finite-Tor subcategories"
-order = 2232
+order = 2119
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-sf-flat-model", "lem-sf-tor-sheaf-constructible", "thm-constructible-serre"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, $n\geq1$, put

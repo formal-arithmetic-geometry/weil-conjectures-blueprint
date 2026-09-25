@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-torsion-filtered-union"
 kind = "lemma"
 title = "Filtered torsion union"
-order = 964
+order = 954
 uses = ["def-weil-pbc-etale-sheaves"]
 +++
 For every torsion sheaf $F$ the inclusions $F[n]\hookrightarrow F[mn]$ form a

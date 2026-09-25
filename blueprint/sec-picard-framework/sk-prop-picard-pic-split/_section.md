@@ -2,7 +2,7 @@
 id = "sk-prop-picard-pic-split"
 kind = "section"
 title = "The split exact sequence"
-order = 819
+order = 810
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "prop-coef-integral-exceptional-adjoint"
 kind = "theorem"
 title = "The integral exceptional adjoint on constructible complexes"
-order = 2263
+order = 2149
 tags = ["latex:proposition"]
 uses = ["lem-coef-finite-exceptional", "lem-coef-integral-compact-support", "lem-coef-normalized-dvr-effectivity", "lemma-weil-pbc-completed-pullback-reduction", "prop-coef-integral-dualizing", "thm-coef-integral-verdier"]
 +++

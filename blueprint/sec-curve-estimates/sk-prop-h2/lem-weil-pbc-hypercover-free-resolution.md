@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-hypercover-free-resolution"
 kind = "lemma"
 title = "The augmented free complex of a hypercover"
-order = 958
+order = 948
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-finite-split-hypercover"]
 +++
 Let $U\to X$ be a split etale hypercover

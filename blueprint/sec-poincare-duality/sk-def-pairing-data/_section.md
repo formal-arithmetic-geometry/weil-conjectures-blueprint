@@ -2,7 +2,7 @@
 id = "sk-def-pairing-data"
 kind = "section"
 title = "The pairing data"
-order = 2585
+order = 2416
 uses = ["sk-def-ops", "sk-def-sf-orientation"]
 +++
 *Definition (sketch).*

@@ -2,7 +2,7 @@
 id = "thm-sf-pf-finite"
 kind = "theorem"
 title = "Finite coefficients on the étale site"
-order = 1941
+order = 1879
 uses = ["def-sf-datum", "def-sf-pf", "lem-weil-finite-compact-projection-formula"]
 +++
 In the setting of [def-sf-datum], let $\Lambda=A_{E,n}$, let

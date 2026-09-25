@@ -2,7 +2,7 @@
 id = "lem-weil-karoubi-envelope-triangulated"
 kind = "lemma"
 title = "Triangulated Karoubi envelope"
-order = 1437
+order = 1423
 uses = ["def-weil-karoubi-envelope"]
 +++
 Let $\mathcal T$ be a triangulated category. With the shift

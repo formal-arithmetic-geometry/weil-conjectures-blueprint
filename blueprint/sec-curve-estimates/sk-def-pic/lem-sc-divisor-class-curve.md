@@ -2,7 +2,7 @@
 id = "lem-sc-divisor-class-curve"
 kind = "lemma"
 title = "$\\operatorname{Pic}$ is the divisor class group for smooth curves"
-order = 896
+order = 887
 uses = ["def-sc-curves", "def-sc-function-field", "def-sc-picard-group", "lem-sc-line-bundle-rational-section", "lem-sc-pic-group"]
 +++
 Let $C$ be a smooth connected curve over $k$

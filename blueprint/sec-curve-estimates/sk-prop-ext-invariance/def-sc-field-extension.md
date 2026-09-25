@@ -2,7 +2,7 @@
 id = "def-sc-field-extension"
 kind = "definition"
 title = "Field extensions, base change, pullback maps"
-order = 1037
+order = 1028
 uses = ["def-sc-curves"]
 +++
 Let $k\subseteq k'$ be an extension of algebraically closed fields

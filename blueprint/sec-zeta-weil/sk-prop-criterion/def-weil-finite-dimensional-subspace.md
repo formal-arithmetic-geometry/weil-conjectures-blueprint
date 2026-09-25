@@ -2,7 +2,7 @@
 id = "def-weil-finite-dimensional-subspace"
 kind = "definition"
 title = "Finite-dimensional vector subspaces"
-order = 3172
+order = 2887
 +++
 A vector subspace $V$ over
 a field $K$ is finite-dimensional if

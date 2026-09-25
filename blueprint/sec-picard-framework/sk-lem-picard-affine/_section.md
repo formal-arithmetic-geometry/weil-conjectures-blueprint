@@ -2,7 +2,7 @@
 id = "sk-lem-picard-affine"
 kind = "section"
 title = "Vanishing of cohomology on affine schemes"
-order = 612
+order = 605
 uses = ["sk-def-av-jacobian"]
 +++
 *Lemma (sketch).*

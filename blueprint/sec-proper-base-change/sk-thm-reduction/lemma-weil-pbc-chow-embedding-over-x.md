@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-chow-embedding-over-x"
 kind = "lemma"
 title = "Projective embedding over $X$"
-order = 1191
+order = 1198
 lean = ["AlgebraicGeometry.ChowModification.isClosedImmersion_toProjectiveSpaceSource", "AlgebraicGeometry.ChowModification.toProjectiveSpaceSource", "AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_liftBaseChange"]
 uses = ["cor-chow-lemma-proper", "def-nagata-affine-proj", "def-nagata-projective-space-base-change", "lem-weil-pbc-closed-immersion-from-composite", "lemma-nagata-projective-space-base-change-pullback", "lemma-weil-pbc-chow-factorization", "thm-chow-lemma"]
 +++

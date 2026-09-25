@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-injective-restriction-acyclicity"
 kind = "lemma"
 title = "Injective restriction acyclicity bound"
-order = 1145
+order = 1135
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-gabber-affine-comparison"]
 +++
 Let a separated scheme with affine diagonal be covered by $n+1$ affine opens.

@@ -2,7 +2,7 @@
 id = "sk-thm-picard-coherence"
 kind = "section"
 title = "Coherence of the higher direct images"
-order = 640
+order = 632
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Theorem (sketch).*

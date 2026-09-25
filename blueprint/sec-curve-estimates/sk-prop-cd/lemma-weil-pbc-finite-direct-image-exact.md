@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-direct-image-exact"
 kind = "lemma"
 title = "Exactness of finite direct image"
-order = 1006
+order = 998
 lean = ["AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite", "AlgebraicGeometry.Etale.rightDerivedFunctorLowerStarIsoMapDerivedCategory"]
 uses = ["def-kun-separably-closed", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-fibre", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lemma-openclosed-point-ulift", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++

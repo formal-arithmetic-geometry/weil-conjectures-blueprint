@@ -2,7 +2,7 @@
 id = "cor-sf-hom-ctf-proetale-unconditional"
 kind = "theorem"
 title = "The pro-'etale internal Hom for a site-perfect first variable"
-order = 2328
+order = 2200
 tags = ["latex:corollary"]
 uses = ["lem-sf-comparison-tor-amplitude", "thm-sf-hom-comparison-constructible", "thm-sf-hom-ctf"]
 +++

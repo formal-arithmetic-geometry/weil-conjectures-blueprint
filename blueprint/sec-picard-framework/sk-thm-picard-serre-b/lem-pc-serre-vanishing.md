@@ -2,7 +2,7 @@
 id = "lem-pc-serre-vanishing"
 kind = "lemma"
 title = "Serre vanishing"
-order = 637
+order = 629
 uses = ["def-pc-projective-space-twist", "def-sc-ample", "def-sc-invertible-module", "lem-pc-closed-immersion-coherent-cohomology", "lem-pc-projective-space-serre-vanishing", "pqf-def-coherent"]
 +++
 (Cohomology of Schemes, Lemma 30.17.1, Tag

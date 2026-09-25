@@ -2,7 +2,7 @@
 id = "sbc-def-base-change-map"
 kind = "definition"
 title = "Base-change map"
-order = 1378
+order = 1367
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "sbc-def-base-change-square"]
 +++
 For a base-change square and

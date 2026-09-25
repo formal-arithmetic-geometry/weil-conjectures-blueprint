@@ -2,7 +2,7 @@
 id = "lem-sc-riemann-roch"
 kind = "lemma"
 title = "Riemann–Roch on a proper smooth curve"
-order = 715
+order = 706
 uses = ["def-sc-curves", "def-sc-function-field", "def-sc-genus", "def-sc-invertible-module", "def-sc-pic0"]
 +++
 Let $k$ be algebraically closed and $C$ a

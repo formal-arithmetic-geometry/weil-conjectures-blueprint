@@ -2,7 +2,7 @@
 id = "lem-exc-closed-inverse-image-formula"
 kind = "lemma"
 title = "A presheaf formula for closed inverse image"
-order = 1902
+order = 1845
 uses = ["def-exc-closed-site-lift", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "lem-exc-closed-site-adjunction", "lem-weil-pbc-ind-etale-basis"]
 +++
 For an affine closed immersion $i:Z\hookrightarrow X$ and a pro-etale

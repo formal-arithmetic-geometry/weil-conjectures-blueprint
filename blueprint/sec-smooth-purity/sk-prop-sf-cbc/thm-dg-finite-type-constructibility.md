@@ -2,7 +2,7 @@
 id = "thm-dg-finite-type-constructibility"
 kind = "theorem"
 title = "Bounded constructibility of every finite-type direct image"
-order = 1673
+order = 1641
 uses = ["cor-fin-deligne-open-finite-coefficients", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-fin-proper-bounded-constructible", "lem-weil-derived-direct-image-composition", "lem-weil-pbc-grothendieck-spectral-sequence", "sbc-def-coefficient-conventions", "thm-constructible-serre"]
 +++
 Let $f:X\to Y$ be a morphism between finite-type schemes over

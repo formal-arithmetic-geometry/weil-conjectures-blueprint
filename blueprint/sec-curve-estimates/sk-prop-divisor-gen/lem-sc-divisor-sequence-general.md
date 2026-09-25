@@ -2,7 +2,7 @@
 id = "lem-sc-divisor-sequence-general"
 kind = "lemma"
 title = "The divisor sequence of an integral regular scheme"
-order = 907
+order = 898
 uses = ["lem-sc-regular-dim1-dvr"]
 +++
 Let $X$ be an integral regular noetherian scheme (for example a

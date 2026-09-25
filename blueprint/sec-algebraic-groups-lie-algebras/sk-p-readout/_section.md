@@ -2,7 +2,7 @@
 id = "sk-p-readout"
 kind = "section"
 title = "Central scalars and weight readout"
-order = 2755
+order = 2552
 uses = ["sk-d-central", "sk-d-linear", "sk-d-monodromy", "sk-d-tangent", "sk-d-weights", "sk-i-restriction", "sk-r-linear-library"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "thm-fd-transform-well-defined"
 kind = "theorem"
 title = "Well-definedness of the Fourier–Deligne transform"
-order = 2940
+order = 2697
 uses = ["def-fd-kernel", "def-fd-transform", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "prop-functor-package", "prop-kernel-lisse"]
 +++
 Let $S_0$ be a separated

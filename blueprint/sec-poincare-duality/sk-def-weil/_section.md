@@ -2,7 +2,7 @@
 id = "sk-def-weil"
 kind = "section"
 title = "Weil structures and their Frobenius normalization"
-order = 2594
+order = 2423
 uses = ["sk-def-ops"]
 +++
 *Definition (sketch).*

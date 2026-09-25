@@ -2,7 +2,7 @@
 id = "def-pur-support-triangle"
 kind = "definition"
 title = "The support-localization triangle of a complex: the construction"
-order = 2002
+order = 1931
 uses = ["def-pur-flasque-support", "def-weil-pbc-kinjective-resolutions"]
 +++
 Fix the closed–open pair of

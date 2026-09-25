@@ -2,7 +2,7 @@
 id = "lemma-nagata-fixed-base-separated-eventually"
 kind = "lemma"
 title = "Eventual separatedness over a fixed base, [stacks-project]"
-order = 400
+order = 395
 lean = ["AlgebraicGeometry.Scheme.exists_isSeparated_app_of_isLimit"]
 uses = ["def-nagata-fixed-base-separated-stage", "lemma-nagata-fixed-base-separated-stage-exists", "lemma-nagata-separated-stage-exists-absolute"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-d-relative-frob"
 kind = "section"
 title = "The relative Frobenius factorization"
-order = 2526
+order = 2359
 uses = ["sk-d-setup", "sk-d-weil"]
 +++
 *Definition (sketch).*

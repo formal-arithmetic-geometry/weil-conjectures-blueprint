@@ -2,7 +2,7 @@
 id = "sk-d-ab-field"
 kind = "section"
 title = "Finite fields, Frobenius and abelian varieties"
-order = 470
+order = 465
 +++
 *Definition (sketch).*
 

@@ -2,7 +2,7 @@
 id = "sk-prop-etale-normal"
 kind = "section"
 title = "Étale covers of a normal scheme with separably closed function field"
-order = 1414
+order = 1402
 uses = ["sk-def-smooth"]
 +++
 *Proposition (sketch).*

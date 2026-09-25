@@ -2,7 +2,7 @@
 id = "thm-pur-vector-bundle-thom"
 kind = "theorem"
 title = "Vector-bundle Thom isomorphism"
-order = 2076
+order = 1989
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-vector-bundle-thom-class", "def-pur-vector-bundle-zero-section", "def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "lem-pur-cfiber-stalk", "lem-pur-kunneth-supported", "thm-pur-localized-top-chern", "thm-pur-projective-bundle-formula", "thm-pur-rank-one-local-calculation", "thm-pur-rank-one-thom"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

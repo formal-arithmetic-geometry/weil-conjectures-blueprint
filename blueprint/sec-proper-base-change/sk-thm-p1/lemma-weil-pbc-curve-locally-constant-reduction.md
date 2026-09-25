@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-curve-locally-constant-reduction"
 kind = "lemma"
 title = "Locally constant sheaf reduction"
-order = 1155
+order = 1145
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-exchange", "lemma-weil-pbc-finite-l-group-filtration", "lemma-weil-pbc-finite-stalk-formula", "thm-galois-lc-etale"]
 +++
 For irreducible $U$ and finite locally constant $G$ of

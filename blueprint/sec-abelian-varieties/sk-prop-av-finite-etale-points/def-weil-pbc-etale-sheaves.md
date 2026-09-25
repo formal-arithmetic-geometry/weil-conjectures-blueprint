@@ -2,7 +2,7 @@
 id = "def-weil-pbc-etale-sheaves"
 kind = "definition"
 title = "Sheaves of abelian groups and of modules"
-order = 588
+order = 581
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 For a scheme $T$, let $\Ab(T_{\Et})$ be the abelian category of sheaves of

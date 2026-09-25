@@ -2,7 +2,7 @@
 id = "lem-zl-affine-curve-range"
 kind = "lemma"
 title = "Cohomological range of an affine curve"
-order = 2981
+order = 2735
 uses = ["def-compact-support-direct-image-detailed", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-qbar-category", "lem-sc-cohomological-dimension", "lem-sc-compactification", "lem-weil-pbc-mittag-leffler", "prop-weil-pbc-direct-image-limits", "sbc-thm-finiteness-finite-type"]
 +++
 If $C_0$ is a smooth affine curve and $\mathcal F$ is constructible

@@ -2,7 +2,7 @@
 id = "lem-weil-envelope-tstructure"
 kind = "lemma"
 title = "The envelope inherits the t-structure"
-order = 1440
+order = 1426
 uses = ["def-weil-karoubi-envelope", "def-weil-t-structure", "lem-weil-karoubi-envelope-triangulated"]
 +++
 Let $\mathcal T$ be a triangulated category with a t-structure $(\mathcal

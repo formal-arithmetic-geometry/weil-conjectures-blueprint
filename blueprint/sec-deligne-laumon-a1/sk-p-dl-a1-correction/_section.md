@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-correction"
 kind = "section"
 title = "The zero-extension comparison"
-order = 3023
+order = 2767
 uses = ["sk-p-dl-a1-middle", "sk-p-dl-a1-perverse", "sk-p-real-semi"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-pc-affine-morphism-hi"
 kind = "lemma"
 title = "Higher direct images of affine morphisms"
-order = 631
+order = 623
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-vanishing"]
 +++
 Let $f:X\to S$ be an affine morphism and $\mathcal{F}$ a quasi-coherent

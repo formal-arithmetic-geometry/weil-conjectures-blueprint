@@ -2,8 +2,8 @@
 id = "thm-trf-l-function-euler-product"
 kind = "theorem"
 title = "Euler-product form of the trace formula"
-order = 2568
-uses = ["def-trf-frobenius-operators", "def-weil-finite-field-fiber", "def-weil-pbc-rational-category", "def-weil-scheme-morphism-properties", "lem-sf-separably-closed-torsion-cd", "lem-trf-compactification-cohomology", "lem-trf-frobenius-degree-formula", "lem-trf-iterated-weil-cocycle", "lem-trf-local-frobenius-conjugacy", "prop-trf-adic-coefficient-morphism-systems", "prop-trf-rational-frobenius-integral-model", "prop-trf-trace-formal-laws", "prop-weil-pbc-rational-transport", "thm-nagata-compactification", "thm-sc-finite-type-torsion-cd", "thm-trf-grothendieck-lefschetz-qbar", "thm-trf-trace-formula-e"]
+order = 2400
+uses = ["def-trf-frobenius-operators", "def-weil-finite-field-fiber", "def-weil-pbc-rational-category", "def-weil-scheme-morphism-properties", "lem-sf-separably-closed-torsion-cd", "lem-trf-compactification-cohomology", "lem-trf-frobenius-degree-formula", "lem-trf-iterated-weil-cocycle", "lem-trf-local-frobenius-conjugacy", "lem-zl-euler-product-identity", "prop-trf-adic-coefficient-morphism-systems", "prop-trf-rational-frobenius-integral-model", "prop-trf-trace-formal-laws", "prop-weil-pbc-rational-transport", "thm-nagata-compactification", "thm-sc-finite-type-torsion-cd", "thm-trf-grothendieck-lefschetz-qbar", "thm-trf-trace-formula-e"]
 +++
 Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, let $X_0$ be a separated finite-type
@@ -55,24 +55,18 @@ to the corresponding identity in $\mathbf C[[T]]$.
 
 ## Proof
 
-*Step 0: the determinant–trace identity.* Since $\Lambda$ has
-characteristic zero, $\log(1+f)=\sum_{r\geq1}(-1)^{r+1}f^r/r$ and
-$\exp(f)=\sum_{r\geq0}f^r/r!$ are mutually inverse bijections
-$T\Lambda[[T]]\leftrightarrows1+T\Lambda[[T]]$ carrying sums
-(including $T$-adically convergent infinite sums) to products. For an
-endomorphism $G$ of a finite-dimensional $\Lambda$-vector space $V$,
+*Step 0: the determinant–trace identity.* For an endomorphism $G$ of a
+finite-dimensional $\Lambda$-vector space $V$,
 
 $$
 \det(1-TG\mid V)^{-1}
-=\exp\Bigl(\sum_{r\geq1}\operatorname{Tr}(G^r\mid V)\frac{T^r}{r}\Bigr):
+=\exp\Bigl(\sum_{r\geq1}\operatorname{Tr}(G^r\mid V)\frac{T^r}{r}\Bigr),
 $$
 
-both sides are unchanged by extension of scalars to an algebraic
-closure, over which $G$ is triangularizable with eigenvalues
-$\alpha_1,\ldots,\alpha_d$ (with multiplicity); then
-$\det(1-TG)=\prod_i(1-\alpha_iT)$,
-$\log(1-\alpha T)^{-1}=\sum_{r\ge1}\alpha^rT^r/r$ and
-$\operatorname{Tr}(G^r)=\sum_i\alpha_i^r$. Substituting $T^e$ for
+by [lem-zl-euler-product-identity] (after extending scalars to
+$\overline{\mathbf Q}_\ell\supseteq\Lambda$, which changes neither side; $\exp$ and
+$\log$ are mutually inverse bijections $T\Lambda[[T]]\leftrightarrows1+T\Lambda[[T]]$
+carrying sums, including $T$-adically convergent infinite sums, to products). Substituting $T^e$ for
 $T$ gives the same identity with $T^{er}$ in place of $T^r$. For a
 graded endomorphism of a bounded complex with finite-dimensional
 cohomology, taking the alternating product over the degrees gives

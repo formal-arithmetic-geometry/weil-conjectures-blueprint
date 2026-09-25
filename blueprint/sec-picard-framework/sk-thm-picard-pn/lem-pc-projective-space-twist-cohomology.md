@@ -2,7 +2,7 @@
 id = "lem-pc-projective-space-twist-cohomology"
 kind = "lemma"
 title = "Monomial cohomology of twists on projective space"
-order = 626
+order = 618
 uses = ["def-pc-projective-space-twist", "lem-pc-affine-vanishing", "lem-pc-cech-computes", "lem-pc-twist-cocycle", "pqf-def-cohomology"]
 +++
 Let $A$ be a commutative ring, $n\ge1$, and $d\in\mathbf Z$.

@@ -2,7 +2,7 @@
 id = "sk-def-ops"
 kind = "section"
 title = "The six operations, the dualizing complex, the duals"
-order = 2576
+order = 2408
 uses = ["sk-def-set"]
 +++
 *Definition (sketch).*

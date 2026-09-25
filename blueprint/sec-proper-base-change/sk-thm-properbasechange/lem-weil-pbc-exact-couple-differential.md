@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-exact-couple-differential"
 kind = "lemma"
 title = "Compatibility of the exact-couple differential"
-order = 1330
+order = 1319
 uses = ["def-sp-exact-couple", "def-weil-pbc-derived-exchange", "def-weil-pbc-truncation-exact-couples", "lem-sp-couple-morphism"]
 +++
 Using the standard cohomological cone convention, the morphism of

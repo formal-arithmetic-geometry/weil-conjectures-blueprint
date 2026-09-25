@@ -2,7 +2,7 @@
 id = "thm-pc-criterion"
 kind = "theorem"
 title = "The representability criterion"
-order = 844
+order = 835
 uses = ["def-pc-cover", "def-pc-open-subfunctor", "def-pc-representable-functor", "def-pc-subfunctor", "def-pc-zariski-sheaf-property", "lem-pc-schemes-criterion"]
 +++
 (Picard Schemes of Curves, Lemma 44.5.1, Tag

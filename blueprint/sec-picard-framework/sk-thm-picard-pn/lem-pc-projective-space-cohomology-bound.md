@@ -2,7 +2,7 @@
 id = "lem-pc-projective-space-cohomology-bound"
 kind = "lemma"
 title = "Cohomology above the number of projective coordinates"
-order = 629
+order = 621
 uses = ["def-pc-projective-space-twist", "lem-pc-cech-computes", "pqf-def-coherent", "pqf-def-cohomology"]
 +++
 For any commutative ring $A$, any $n\ge0$, and any

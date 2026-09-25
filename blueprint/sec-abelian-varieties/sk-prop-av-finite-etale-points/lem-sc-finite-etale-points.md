@@ -2,7 +2,7 @@
 id = "lem-sc-finite-etale-points"
 kind = "lemma"
 title = "Points of finite etale group schemes"
-order = 593
+order = 586
 uses = ["def-sc-group-scheme", "lem-sc-finite-etale-algebra-criterion"]
 +++
 Let $G$ be a finite etale group

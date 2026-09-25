@@ -2,7 +2,7 @@
 id = "lem-wf-determinantal-weight-coefficient-field"
 kind = "lemma"
 title = "The determinant weight does not depend on the coefficient field"
-order = 2870
+order = 2633
 uses = ["def-mg-determinant-line", "def-weil-punctual-weights"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, fix

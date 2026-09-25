@@ -2,7 +2,7 @@
 id = "lem-sf-detection"
 kind = "lemma"
 title = "Detection of isomorphisms at the point"
-order = 2301
+order = 2183
 uses = ["lem-sf-point"]
 +++
 In the setting of [lem-sf-point], let $u:P\to Q$ be a morphism of the

@@ -2,7 +2,7 @@
 id = "sk-prop-jacobian-descent"
 kind = "section"
 title = "The Jacobian over a general base field, by Galois descent"
-order = 860
+order = 851
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-picard-pic", "sk-prop-jacobian"]
 +++
 *Proposition (sketch).*

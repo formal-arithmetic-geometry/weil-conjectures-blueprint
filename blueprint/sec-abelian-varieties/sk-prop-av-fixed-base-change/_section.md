@@ -2,7 +2,7 @@
 id = "sk-prop-av-fixed-base-change"
 kind = "section"
 title = "Fixed points are unchanged by algebraically closed base change"
-order = 574
+order = 567
 uses = ["sk-def-av", "sk-prop-av-lang-steinberg"]
 +++
 *Proposition (sketch).*

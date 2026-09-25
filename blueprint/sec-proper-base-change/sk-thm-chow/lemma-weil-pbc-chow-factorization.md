@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-chow-factorization"
 kind = "lemma"
 title = "Chow and projective factorization"
-order = 1074
+order = 1064
 uses = ["def-nagata-final-descended-model", "def-nagata-finite-type-closed-in-fp", "def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-base-change", "lem-weil-pbc-proper-composition", "lem-weil-pbc-proper-immersion-closed", "lem-weil-pbc-proper-to-separated", "lemma-nagata-final-descended-model", "lemma-nagata-projective-space-base-change-proper", "prop-nagata-finite-type-closed-in-fp", "thm-chow-lemma"]
 +++
 Let $f:X\to Y$ be a proper [def-weil-pbc-scheme-conventions] morphism with
@@ -113,8 +113,7 @@ identity over $Y'$. $\square$
 ## Remark
 
 The proof never descends $X$ itself: when $f$ is not of finite presentation
-no descent $X=X_0\times_{Y_0}Y$ exists (see the counterexample in
-[lem-weil-pbc-chow-limit-descent]). Only the separated finitely presented
+no descent $X=X_0\times_{Y_0}Y$ need exist. Only the separated finitely presented
 envelope $X^{\mathrm{fp}}$ is descended, Chow's lemma is applied to its
 noetherian model, which is merely separated of finite type, and properness of
 the resulting closed immersion is recovered on $X$ in Step 6.

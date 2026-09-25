@@ -2,7 +2,7 @@
 id = "thm-pqf-zmt-factorization"
 kind = "theorem"
 title = "Zariski's main theorem: the quasi-finite factorization"
-order = 203
+order = 201
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-quasifinite", "thm-pqf-immersion-descent"]
 +++
 Let $f:X\to S$ be a
@@ -13,15 +13,10 @@ quasi-compact and quasi-separated. Then there exist a scheme $T$, a
 quasi-compact open
 immersion $j:X\hookrightarrow T$ and a
 finite morphism
-$p:T\to S$ with $f=p\circ j$. If $f$ is locally of finite
-presentation, one may choose $T$ finite and of finite presentation
-over $S$ (the classical finite-presentation refinement of the
-theorem).
+$p:T\to S$ with $f=p\circ j$.
 (*Stacks Project: the Zariski main theorem, More on Morphisms,
-Lemma 37.43.3, Tag [05K0](https://stacks.math.columbia.edu/tag/05K0),
-with the
-finite-presentation form Tag
-[0F2N](https://stacks.math.columbia.edu/tag/0F2N); the
+Lemma 37.43.3, Tag [05K0](https://stacks.math.columbia.edu/tag/05K0);
+the
 normalization-of-the-target-in-the-source constructions used in the
 proof are the quasi-finite-locus theorem Tag
 [03GW](https://stacks.math.columbia.edu/tag/03GW) and Tag
@@ -84,13 +79,4 @@ by the products of the two finite generating lists). Therefore
 $p=T\to T_{\lambda_0}\to S$ is finite, and pasting the canonical
 equality $\nu_f\circ\iota_f=f$ with the stage projections gives
 $p\circ j=f$: the projections of the limit $N_f=\varprojlim_\lambda T_\lambda$ are compatible, and the interface identifies the descended
-factorization with the one of Step 1. (For $f$ locally of finite
-presentation the factorization may be chosen with $T$ finite and of
-finite presentation over $S$: this is the finite-presentation refinement of
-the theorem, Stacks Project Tag 0F2N, proved in the last section of this
-chapter (Tag 09YY applied to the finite scheme
-$T$ of this step); its proof replaces the
-presentation of the normalization by an approximating directed system of
-finite finitely presented $S$-schemes rather than descending the
-immersion to a stage of the presentation used here, so that it is not a
-consequence of the interface.)
+factorization with the one of Step 1.

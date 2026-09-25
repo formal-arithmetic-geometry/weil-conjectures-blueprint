@@ -2,7 +2,7 @@
 id = "prop-poincare-pairing"
 kind = "theorem"
 title = "Poincare duality and Frobenius similitude"
-order = 2634
+order = 2454
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-ordinary-compact-cohomology", "def-weil-poincare-trace-cup", "thm-weil-poincare-duality"]
 +++

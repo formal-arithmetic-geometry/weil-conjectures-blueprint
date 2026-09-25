@@ -2,7 +2,7 @@
 id = "cor-pur-affine-space-zero-section-purity"
 kind = "theorem"
 title = "Zero-section purity in affine space"
-order = 2065
+order = 1981
 tags = ["latex:corollary"]
 uses = ["cor-amb-affine-space-adjunction", "def-amb-p1-trace", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-affine-space", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "lem-amb-cartier-kummer-map", "lem-pur-kunneth-supported", "lem-pur-support-localization-triangle", "prop-asd-smooth-base-change", "prop-pur-affine-line-orientation-base-change", "thm-pur-affine-line-orientation", "thm-sf-ambient-adjoint-class"]
 +++

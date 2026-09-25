@@ -2,7 +2,7 @@
 id = "sbc-lem-slicing"
 kind = "lemma"
 title = "Slicing a smooth morphism"
-order = 1413
+order = 1401
 uses = ["def-sbc-normal-dominant-galois", "def-sbc-smooth-morphisms"]
 +++
 Let $f:X\to S$ be a

@@ -2,7 +2,7 @@
 id = "sk-d-real-monodromy"
 kind = "section"
 title = "Arithmetic monodromy and a central representative"
-order = 2842
+order = 2629
 uses = ["sk-d-real-setup", "sk-d-real-weil", "sk-d-monodromy", "sk-d-central"]
 +++
 *Definition (sketch).*

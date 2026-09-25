@@ -2,7 +2,7 @@
 id = "lem-sc-cech-spectral"
 kind = "lemma"
 title = "The Cech-to-cohomology spectral sequence"
-order = 607
+order = 600
 uses = ["thm-sp-double-complex-spectral-sequences"]
 +++
 Let $X$ be a scheme, $\mathfrak U=\{U_i\to X\}$ an etale covering

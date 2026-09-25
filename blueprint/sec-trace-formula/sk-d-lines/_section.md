@@ -2,7 +2,7 @@
 id = "sk-d-lines"
 kind = "section"
 title = "The affine and projective lines"
-order = 2545
+order = 2374
 uses = ["sk-d-setup"]
 +++
 *Remark (sketch).*

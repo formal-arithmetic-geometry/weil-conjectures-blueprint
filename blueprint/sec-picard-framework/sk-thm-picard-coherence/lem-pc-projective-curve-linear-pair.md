@@ -2,7 +2,7 @@
 id = "lem-pc-projective-curve-linear-pair"
 kind = "lemma"
 title = "Two linear forms without a common zero on a projective curve"
-order = 657
+order = 648
 uses = ["def-pc-curve", "def-pc-proj", "def-pc-standard-graded-algebra", "lem-pc-finite-linear-avoidance"]
 +++
 Let $k$ be an infinite field and $S$ an integral

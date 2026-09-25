@@ -2,7 +2,7 @@
 id = "sk-def-sf-admissible"
 kind = "section"
 title = "Admissibility datum: an explicit hypothesis"
-order = 1529
+order = 1503
 +++
 *Definition (sketch).*
 

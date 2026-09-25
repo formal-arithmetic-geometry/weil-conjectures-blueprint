@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-zero-dimensional-cohomology"
 kind = "lemma"
 title = "Etale cohomology in dimension zero"
-order = 1010
+order = 1002
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $k$ be algebraically closed and let $C$ be a separated finite-type

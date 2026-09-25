@@ -2,7 +2,7 @@
 id = "def-exc-jacobian-presentation"
 kind = "definition"
 title = "A square Jacobian presentation"
-order = 1410
+order = 1398
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A square Jacobian presentation of an $R$-algebra $B$ is a specified

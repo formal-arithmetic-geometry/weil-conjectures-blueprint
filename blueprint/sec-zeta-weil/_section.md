@@ -2,7 +2,7 @@
 id = "sec-zeta-weil"
 kind = "section"
 title = "Zeta Functions and the Weil Conjectures"
-order = 3123
+order = 2852
 uses = ["sec-deligne-laumon-a1", "sec-deligne-laumon-general", "sec-poincare-duality", "sec-proper-base-change", "sec-purity-real-sheaves", "sec-six-functors", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula"]
 +++
 content: zeta series, rationality, Frobenius factors, and the assembled Weil statements.  

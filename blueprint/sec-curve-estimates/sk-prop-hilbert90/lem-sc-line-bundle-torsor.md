@@ -2,7 +2,7 @@
 id = "lem-sc-line-bundle-torsor"
 kind = "lemma"
 title = "Line bundles and $\\mathbf G_m$-torsors"
-order = 890
+order = 881
 uses = ["def-sc-gm-torsor", "def-sc-invertible-module", "def-sc-picard-group", "lem-pc-fpqc-descent"]
 +++
 Let $X$ be a scheme (for instance a curve $C$ as in

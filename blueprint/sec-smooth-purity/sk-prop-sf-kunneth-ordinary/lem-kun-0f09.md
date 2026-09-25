@@ -2,7 +2,7 @@
 id = "lem-kun-0f09"
 kind = "lemma"
 title = "Smooth base change for limits of smooth schemes"
-order = 1799
+order = 1754
 uses = ["def-kun-torsion-invertible", "def-kun-unbounded-exchange", "def-sbc-smooth-morphisms", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-scheme-conventions", "lem-kun-0ezt", "lem-kun-bc-base-change", "lem-kun-fibre-product-limits", "lem-sp-finite-filtration-induction", "lemma-weil-pbc-hypercohomology-convergence", "sbc-thm-smooth-base-change"]
 +++
 Let $S$ be a scheme and $S'=\varprojlim_iS_i$ a directed inverse

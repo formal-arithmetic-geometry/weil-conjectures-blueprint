@@ -2,7 +2,7 @@
 id = "thm-fin-projective-line-constructible"
 kind = "theorem"
 title = "Constructible coefficients on the projective line"
-order = 1650
+order = 1618
 uses = ["cor-fin-projective-curve-finite-group", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism", "lem-fin-finite-over-projective", "lem-fin-finite-type-pushforward-embedding", "lem-weil-pbc-grothendieck-spectral-sequence", "sbc-def-coefficient-conventions", "thm-constructible-serre", "thm-sp-if-e1"]
 +++
 Let $S$ be of finite type

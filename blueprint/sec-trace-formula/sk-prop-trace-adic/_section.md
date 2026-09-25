@@ -2,8 +2,8 @@
 id = "sk-prop-trace-adic"
 kind = "section"
 title = "Adic realization"
-order = 2557
-uses = ["sk-d-setup", "sk-d-six", "sk-d-weil", "sk-prop-sf-trace-perfectness", "sk-thm-sf-ctf-stability"]
+order = 2384
+uses = ["sk-d-setup", "sk-d-six", "sk-d-weil", "sk-p-trace-coeff", "sk-prop-sf-trace-perfectness", "sk-thm-sf-ctf-stability"]
 +++
 *Proposition (sketch).*
 
@@ -83,4 +83,4 @@ transformations is their $\mathcal O_E$-linearity. For $\overline{\mathbf Q}_\el
 colimit of categories has every object and every morphism represented at a
 finite stage, and two representatives agree after a further finite extension.
 
-Uses: [sk-d-setup], [sk-d-six], [sk-d-weil], [sk-prop-sf-trace-perfectness], [sk-thm-sf-ctf-stability]
+Uses: [sk-d-setup], [sk-d-six], [sk-d-weil], [sk-p-trace-coeff], [sk-prop-sf-trace-perfectness], [sk-thm-sf-ctf-stability]

@@ -2,7 +2,7 @@
 id = "sk-def-roots"
 kind = "section"
 title = "Reciprocal roots, weights and integrality"
-order = 3132
+order = 2858
 +++
 *Definition (sketch).*
 

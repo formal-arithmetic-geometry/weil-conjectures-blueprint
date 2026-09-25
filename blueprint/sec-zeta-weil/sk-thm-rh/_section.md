@@ -2,7 +2,7 @@
 id = "sk-thm-rh"
 kind = "section"
 title = "Riemann hypothesis for smooth proper schemes"
-order = 3197
+order = 2911
 uses = ["sk-def-roots", "sk-def-zeta", "sk-prop-rootpurity", "sk-thm-intfactors"]
 +++
 *Theorem (sketch).*

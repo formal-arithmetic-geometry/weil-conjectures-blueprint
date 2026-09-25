@@ -2,7 +2,7 @@
 id = "lemma-nagata-separated-stage-exists-absolute"
 kind = "lemma"
 title = "Existence of a separated stage, absolute case, [stacks-project]"
-order = 397
+order = 392
 lean = ["AlgebraicGeometry.Scheme.exists_isSeparated_of_isLimit"]
 uses = ["lemma-nagata-affine-finite-type-is-quasi-affine"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sc-p1-monomial"
 kind = "lemma"
 title = "Cohomology of the twists on $\\mathbf P^1_k$"
-order = 648
+order = 639
 uses = ["def-sc-kahler-differentials", "def-sc-p1-standard", "lem-pc-projective-space-canonical", "lem-sc-canonical-sheaf", "lem-sc-cech-spectral", "lem-sc-p1-twist-exists", "lem-sc-p1-twist-sections", "pqf-lem-affine-vanishing"]
 +++
 Let $k$ be an algebraically closed field. With the standard cover

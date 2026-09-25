@@ -2,7 +2,7 @@
 id = "lem-kun-0ezp"
 kind = "lemma"
 title = "Cohomology of a separably closed field vanishes in positive degrees"
-order = 1806
+order = 1761
 uses = ["def-kun-separably-closed", "def-weil-pbc-direct-image", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++
 Let $L$ be a

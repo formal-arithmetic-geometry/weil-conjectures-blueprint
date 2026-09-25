@@ -2,7 +2,7 @@
 id = "sk-d-real-weights"
 kind = "section"
 title = "Local weights and reality"
-order = 2797
+order = 2588
 uses = ["sk-d-real-setup", "sk-d-real-weil"]
 +++
 *Definition (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-pc-flat-rf-open"
 kind = "lemma"
 title = "The open locus of invertible $Rf_*$"
-order = 691
+order = 682
 uses = ["def-pc-derived-category", "def-pc-derived-pullback", "def-pc-perfect-complex", "lem-pc-flat-complex-derived-pullback", "lem-pc-perfect-locus", "lem-pc-rf-perfect-base-change", "thm-pc-semicontinuity-base-change"]
 +++
 (Derived Categories of Schemes, Lemma 36.32.3, Tag

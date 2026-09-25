@@ -2,7 +2,7 @@
 id = "sk-def-av-ample-degree"
 kind = "section"
 title = "Ample modules and the Hilbert degree"
-order = 440
+order = 435
 +++
 *Definition (sketch).*
 

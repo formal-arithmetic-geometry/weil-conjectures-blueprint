@@ -2,7 +2,7 @@
 id = "def-kun-support"
 kind = "definition"
 title = "Closed points, transcendence degree, support"
-order = 1714
+order = 1673
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be a scheme of finite type over a field $K$ (the

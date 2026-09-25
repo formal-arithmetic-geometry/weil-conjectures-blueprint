@@ -2,7 +2,7 @@
 id = "sk-prop-av-connected-order"
 kind = "section"
 title = "Connected finite group schemes have $p$-power order"
-order = 582
+order = 575
 uses = ["sk-def-av-group-scheme"]
 +++
 *Proposition (sketch).*

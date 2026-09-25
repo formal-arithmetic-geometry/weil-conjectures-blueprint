@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-ind-etale-basis"
 kind = "lemma"
 title = "The ind-etale subsite is a basis"
-order = 1272
+order = 1279
 uses = ["def-weil-pbc-ind-etale-basis", "def-weil-pbc-proetale-site", "lem-weil-pbc-ind-etale-stability", "thm-weil-pbc-weak-etale-refinement"]
 +++
 Every pro-etale object over an affine $X$ has a cover by objects of $\mathcal

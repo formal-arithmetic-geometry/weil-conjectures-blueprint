@@ -2,7 +2,7 @@
 id = "lem-sc-curves-quasi-projective"
 kind = "lemma"
 title = "Curves are quasi-projective"
-order = 932
+order = 922
 uses = ["def-sc-curves", "def-sc-quasi-projective", "lem-chow-segre", "lem-sc-dim0-finite", "lem-sc-positive-degree-ample"]
 +++
 Every smooth separated curve over a field

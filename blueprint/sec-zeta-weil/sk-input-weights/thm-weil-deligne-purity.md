@@ -2,8 +2,8 @@
 id = "thm-weil-deligne-purity"
 kind = "theorem"
 title = "Deligne smooth-proper purity"
-order = 3153
-uses = ["cor-zl-purity-smooth-proper", "def-trf-frobenius-operators", "def-weil-complex-weights", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-zl-constant-sheaf-weight-zero", "prop-pod-verdier-dual-on-smooth", "prop-weil-proper-compact-coincidence"]
+order = 2873
+uses = ["cor-zl-purity-smooth-proper", "def-trf-frobenius-operators", "def-weil-complex-weights", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-zl-constant-sheaf-weight-zero", "prop-weil-proper-compact-coincidence", "thm-sf-dual-perfect", "thm-zl-wme-deligne-estimate"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$,
 $k_0=\Fq$, and let $k=\Fbar$ be the
@@ -78,10 +78,23 @@ smoothness, properness, geometric connectedness, coefficient, and
 Frobenius data of that corollary are among those fixed in the
 statement, and the cohomological family is extended to $\Qlb$ with
 the Frobenius operator $F_{\Qlb}$ as in the constant-sheaf setting
-there. Hence, for every $0\leq i\leq2d$:
+there. Hence, for every $0\leq i\leq2d$,
+$(H^i(X,\Qlb),F_{\Qlb})$ is $\iota$-pure of weight $i$ in the sense of
+[def-weil-frobenius-module-weights] – this is assertion (4).
 
-- $H_c^i(X,\Qlb)$ is $\iota$-mixed of weights at most $i$ in the sense of [def-weil-frobenius-module-weights] – this is assertion (2);
-- $(H^i(X,\Qlb),F_{\Qlb})$ is $\iota$-pure of weight $i$ in the sense of [def-weil-frobenius-module-weights] – this is assertion (4).
+For assertion (2), apply the general $Rf_!$ weight theorem
+[thm-zl-wme-deligne-estimate] to the structure morphism
+$a_{X_0}:X_0\to\Spec k_0$ and to $K=(\Qlb)_{X_0}$, viewed as a
+complex concentrated in degree $0$. Its only cohomology sheaf is the
+constant sheaf, punctually $\iota$-pure of weight $0$ by
+[lem-zl-constant-sheaf-weight-zero], so $K\in D_{\le0}(X_0)$ in the
+sense of [def-weil-complex-weights]. Hence
+$Ra_{X_0!}K\in D_{\le0}(\Spec k_0)$: its degree-$i$ cohomology sheaf,
+whose stalk at the unique closed point (with $q_y=q$) is
+$H_c^i(X,\Qlb)$ with its geometric Frobenius, is $\iota$-mixed of
+weights at most $i$. This is assertion (2); it is the absolute case of
+the relative estimate, which bounds $Rf_!$ on every bounded
+constructible Weil complex.
 
 In addition, the proper coincidence
 $H_c^i(X,\Qlb)\xrightarrow{\sim}H^i(X,\Qlb)$ in the form of
@@ -117,7 +130,7 @@ $$
 
 by the choice made in the statement and
 [def-weil-derived-pullback-tensor-hom]; the smooth-dualizing
-identification [prop-pod-verdier-dual-on-smooth] gives
+identification [thm-sf-dual-perfect] gives
 
 $$
 D_XK\cong(\Qlb)_X^{\vee}(d)[2d]\cong(\Qlb(d))_X[2d],

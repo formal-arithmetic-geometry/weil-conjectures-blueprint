@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-near-closure"
 kind = "section"
 title = "Isomorphism near a boundary closure"
-order = 260
+order = 255
 uses = ["sk-lem-nagata-sketch-boundary", "sk-lem-nagata-sketch-elimination"]
 +++
 *Lemma (sketch).*

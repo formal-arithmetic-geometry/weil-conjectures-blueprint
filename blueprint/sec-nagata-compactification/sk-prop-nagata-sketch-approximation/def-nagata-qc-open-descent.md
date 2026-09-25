@@ -2,7 +2,7 @@
 id = "def-nagata-qc-open-descent"
 kind = "definition"
 title = "Finite-stage model of a quasi-compact open"
-order = 352
+order = 347
 uses = ["def-nagata-basechanged-system", "def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

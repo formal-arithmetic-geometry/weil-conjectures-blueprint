@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-finite-extension"
 kind = "theorem"
 title = "Proper base change over a finite extension"
-order = 1368
+order = 1357
 uses = ["cor-weil-pbc-constructible-complete", "def-weil-pbc-cartesian-square", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-rational-transport"]
 +++
 For every finite $E/\Ql$, every cartesian square

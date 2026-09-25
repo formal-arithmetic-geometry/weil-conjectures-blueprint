@@ -2,7 +2,7 @@
 id = "lem-trf-trace-triangle-compatibility"
 kind = "lemma"
 title = "Triangle compatibility of the trace class"
-order = 2520
+order = 2353
 uses = ["def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-supported-pairing", "def-trf-trace-class", "def-trf-trace-class-source", "def-weil-derived-pullback-tensor-hom", "lem-kun-stalk-faithful-derived", "lem-trf-global-operator-triangulated", "lem-trf-trace-class-diagonal-pairing", "prop-trf-pairing-point-normalization", "prop-trf-trace-formal-laws", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-evaluation-finite", "thm-trf-kunneth-verdier"]
 +++
 Let $K'\to K\to K''\to K'[1]$ be a distinguished triangle in

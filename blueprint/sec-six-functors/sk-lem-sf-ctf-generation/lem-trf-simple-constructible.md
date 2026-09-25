@@ -2,7 +2,7 @@
 id = "lem-trf-simple-constructible"
 kind = "lemma"
 title = "Simple constructible sheaves"
-order = 2362
+order = 2220
 +++
 Let $X$ be a Noetherian scheme and $\Lambda$ a finite ring. Every
 simple constructible $\Lambda$-sheaf on $X_{\Et}$ is of the form

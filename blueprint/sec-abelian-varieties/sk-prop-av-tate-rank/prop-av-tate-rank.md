@@ -2,7 +2,7 @@
 id = "prop-av-tate-rank"
 kind = "theorem"
 title = "The $\\ell$-adic Tate module is free of rank $2g$"
-order = 598
+order = 591
 uses = ["def-sc-abelian-variety", "def-wf-abelian-tate-module", "lem-sc-isogeny-surjective", "lem-sc-ntorsion-etale"]
 tags = ["latex:proposition"]
 +++

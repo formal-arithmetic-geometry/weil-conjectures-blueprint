@@ -2,7 +2,7 @@
 id = "sk-thm-product"
 kind = "section"
 title = "Supported product over a relative base"
-order = 2610
+order = 2436
 uses = ["sk-def-ops", "sk-thm-sf-kunneth-relative"]
 +++
 *Theorem (sketch).*
@@ -22,6 +22,11 @@ $$
 For $B=\Spec k$ this reads
 $R\Gamma_c(Z,i^*K)\otimes^L_\Lambda R\Gamma_c(W,j^*L)\cong R\Gamma_c\bigl(Z\times W,(K\boxtimes L)|_{Z\times W}\bigr)$.
 (Blueprint 13, thm:sf-kunneth-relative.)
+*Note: this theorem seems never to be used later — relative products
+are taken directly from [sk-thm-sf-kunneth-relative], of which this is the
+case of $i_*i^*K$ and $j_*j^*L$, and the supports Künneth needed by purity is
+proved there directly — so it has no detailed counterpart in the
+blueprint.*
 
 ## Proof
 

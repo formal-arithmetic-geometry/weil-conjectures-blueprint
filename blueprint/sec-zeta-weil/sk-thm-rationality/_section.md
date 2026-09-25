@@ -2,7 +2,7 @@
 id = "sk-thm-rationality"
 kind = "section"
 title = "Rationality of the zeta series"
-order = 3175
+order = 2890
 uses = ["sk-def-roots", "sk-def-zeta", "sk-prop-criterion", "sk-prop-euler", "sk-thm-tracetodeterminant"]
 +++
 *Theorem (sketch).*

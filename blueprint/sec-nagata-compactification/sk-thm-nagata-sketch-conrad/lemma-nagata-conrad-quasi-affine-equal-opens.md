@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-quasi-affine-equal-opens"
 kind = "lemma"
 title = "Quasi-affine target over a qcqs base, $U=V$ (Conrad)"
-order = 217
+order = 212
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_of_isQuasiAffineHom"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-constructible-closed-support", "def-nagata-dense-compactification", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "def-nagata-qc-open-complement-ideal", "def-nagata-quasi-affine-morphism", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-quasi-affine-affine-base", "lemma-nagata-constructible-closed-support", "lemma-nagata-dense-flat-pullback", "lemma-nagata-ext-scheme-theoretically-dominant-separated", "lemma-nagata-extend-admissible-blowup", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-invertible-product-factor", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-product-ideal", "thm-nagata-blowup-universal-property", "thm-nagata-global-blowup-proper"]
 +++

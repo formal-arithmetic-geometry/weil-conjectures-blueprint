@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-supported-pairing-1"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-supported-pairing]"
-order = 2461
+order = 2312
 uses = ["def-trf-correspondence-between-pairs", "def-trf-supported-pairing"]
 +++
 In the notation of [def-trf-supported-pairing], for an opposite pair

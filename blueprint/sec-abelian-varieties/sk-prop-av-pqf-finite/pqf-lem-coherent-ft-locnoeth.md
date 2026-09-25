@@ -2,7 +2,7 @@
 id = "pqf-lem-coherent-ft-locnoeth"
 kind = "lemma"
 title = "Coherence on locally Noetherian schemes"
-order = 545
+order = 538
 uses = ["pqf-def-coherent", "pqf-def-locnoeth"]
 +++
 Let $X$ be a

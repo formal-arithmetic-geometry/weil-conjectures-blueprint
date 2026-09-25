@@ -2,7 +2,7 @@
 id = "sk-def-sf-setting"
 kind = "section"
 title = "Coefficients and sites"
-order = 1477
+order = 1451
 +++
 *Remark (sketch).*
 

@@ -2,8 +2,8 @@
 id = "sk-lem-sf-twist-interchange"
 kind = "section"
 title = "Internal Hom with an invertible twist"
-order = 2292
-uses = ["sk-prop-sf-dualizable-biduality"]
+order = 2175
+uses = ["sk-lem-sf-determination", "sk-prop-sf-dualizable-biduality"]
 +++
 *Lemma (sketch).*
 
@@ -28,4 +28,4 @@ $M$ and agree at the generator $M=\Lambda_X$. For perfect $K$ the map is the
 identification of [sk-prop-sf-dualizable-biduality] twisted by the invertible
 local system, computed locally on a bounded complex of finite projectives.
 
-Uses: `\Cref{prop:sf-dualizable-biduality}`, `def:coefficient-twists`
+Uses: `\Cref{prop:sf-dualizable-biduality}`, `def:coefficient-twists`, [sk-lem-sf-determination]

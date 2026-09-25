@@ -2,7 +2,7 @@
 id = "rem-picard-seams"
 kind = "remark"
 title = "The dependencies are one-way: $\\mathbf A\\Rightarrow\\mathbf B$ at four seams"
-order = 880
+order = 871
 +++
 The decomposition of Strand A and its spectral-sequence inputs into
 makes the four seams visible.

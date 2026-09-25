@@ -2,7 +2,7 @@
 id = "def-fourier-set"
 kind = "remark"
 title = "The coefficient setting: six operations only"
-order = 2911
+order = 2670
 +++
 Fix a prime $p$, a power $q=p^a$, the fields $k_0=\Fq$ and $k=\bar k_0$, a
 prime $\ell\ne p$, and a finite extension $E/\Ql$ with algebraic closure

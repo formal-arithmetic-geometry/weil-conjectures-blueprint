@@ -2,7 +2,7 @@
 id = "lem-sc-abelian-variety-characterization"
 kind = "lemma"
 title = "Abelian varieties are the complete group varieties"
-order = 477
+order = 472
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme"]
 +++
 Let $k$ be a field and $A$ a

@@ -2,7 +2,7 @@
 id = "sk-thm-picard-semicon"
 kind = "section"
 title = "Semicontinuity and base change"
-order = 669
+order = 660
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Theorem (sketch).*

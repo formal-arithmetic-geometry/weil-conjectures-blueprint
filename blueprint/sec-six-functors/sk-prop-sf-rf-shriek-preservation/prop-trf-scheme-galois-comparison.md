@@ -2,7 +2,7 @@
 id = "prop-trf-scheme-galois-comparison"
 kind = "theorem"
 title = "Comparison of scheme and Galois pullbacks"
-order = 2189
+order = 2076
 tags = ["latex:proposition"]
 uses = ["def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "lem-trf-absolute-frobenius-site", "prop-trf-frobenius-factorization"]
 +++

@@ -2,7 +2,7 @@
 id = "thm-sc-theorem-of-the-base"
 kind = "theorem"
 title = "The theorem of the base"
-order = 858
+order = 849
 uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-picard-functor", "lem-sc-riemann-roch", "prop-pd-picard-degree-decomposition", "thm-pc-picard-representable"]
 +++
 Let $k$ be a separably closed field and let $C$ be a

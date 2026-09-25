@@ -2,7 +2,7 @@
 id = "sk-lem-sf-mate"
 kind = "section"
 title = "Mate calculus for a pasted adjunction"
-order = 1927
+order = 1869
 uses = ["sk-def-sf-operations", "sk-thm-sf-comp-composition"]
 +++
 *Lemma (sketch).*

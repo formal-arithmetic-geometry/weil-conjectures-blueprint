@@ -2,7 +2,7 @@
 id = "lem-zl-spread-normalization"
 kind = "lemma"
 title = "Spreading affine normalization to a principal open"
-order = 3094
+order = 2824
 uses = ["def-weil-pbc-scheme-conventions", "def-zl-localized-coordinates", "lem-zl-noether-normalization-field"]
 +++
 Let $A$ be a domain and $B$ a finitely generated commutative

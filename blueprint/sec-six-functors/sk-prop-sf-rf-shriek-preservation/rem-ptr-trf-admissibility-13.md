@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-admissibility-13"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-admissibility]"
-order = 2205
+order = 2093
 uses = ["def-trf-admissibility", "lem-exc-open-complement-known", "thm-sf-preservation-class"]
 +++
 In the notation of [def-trf-admissibility], the following holds. The two *preservation* clauses

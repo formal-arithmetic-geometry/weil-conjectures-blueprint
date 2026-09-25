@@ -2,7 +2,7 @@
 id = "lem-pc-universal-adjoint-section"
 kind = "lemma"
 title = "The adjoint section of the normalized universal module"
-order = 839
+order = 830
 uses = ["def-pc-genus", "def-pc-hilb-functor", "def-pc-rational-point", "def-pc-separably-closed", "def-pc-zero-scheme", "def-sc-effective-cartier-divisor", "lem-pc-universal-divisor", "lem-pc-zero-scheme-recd"]
 +++
 Let $k$ be a separably closed field,

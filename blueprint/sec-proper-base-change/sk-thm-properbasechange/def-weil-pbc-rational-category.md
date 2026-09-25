@@ -2,7 +2,7 @@
 id = "def-weil-pbc-rational-category"
 kind = "definition"
 title = "Rational category from an integral category"
-order = 1316
+order = 1305
 uses = ["def-weil-karoubi-envelope", "def-weil-pbc-bounded-constructible-complete"]
 +++
 Let $E/\Ql$ be finite, let $\mathcal O_E$ be its ring of integers, and let

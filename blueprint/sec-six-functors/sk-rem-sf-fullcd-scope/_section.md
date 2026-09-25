@@ -2,7 +2,7 @@
 id = "sk-rem-sf-fullcd-scope"
 kind = "section"
 title = "What this does and does not discharge"
-order = 2147
+order = 2050
 +++
 *Remark (sketch).*
 

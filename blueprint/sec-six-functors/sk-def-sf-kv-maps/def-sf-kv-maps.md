@@ -2,7 +2,7 @@
 id = "def-sf-kv-maps"
 kind = "definition"
 title = "The product comparison maps"
-order = 2365
+order = 2223
 uses = ["def-compact-support-direct-image-detailed", "def-sf-datum", "def-sf-pf", "def-trf-admissibility", "def-weil-exceptional-inverse-image", "def-weil-integral-rational-qbar-compact-support", "thm-sf-kunneth-relative"]
 +++
 For $i=1,2$ let $f_i:X_i\to Y_i$ be separated of finite type between

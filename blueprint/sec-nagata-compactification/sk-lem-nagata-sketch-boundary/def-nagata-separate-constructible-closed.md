@@ -2,7 +2,7 @@
 id = "def-nagata-separate-constructible-closed"
 kind = "definition"
 title = "Constructible-boundary separation blow-up"
-order = 255
+order = 250
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-constructible-closed-support", "def-nagata-extended-ideal", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "def-nagata-qc-open-complement-ideal", "def-nagata-scheme-image-factor", "def-nagata-separate-closed-subschemes", "def-nagata-strict-transform", "lemma-nagata-constructible-closed-support", "lemma-nagata-extend-finite-type-ideal", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-separate-closed-subschemes", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent"]
 +++

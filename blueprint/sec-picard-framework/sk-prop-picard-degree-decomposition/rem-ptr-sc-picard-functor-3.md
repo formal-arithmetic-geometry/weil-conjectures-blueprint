@@ -2,7 +2,7 @@
 id = "rem-ptr-sc-picard-functor-3"
 kind = "remark"
 title = "Pointer to the properties of [def-sc-picard-functor]"
-order = 854
+order = 845
 uses = ["def-sc-picard-functor"]
 +++
 In the notation of [def-sc-picard-functor], the following holds. The statements that the

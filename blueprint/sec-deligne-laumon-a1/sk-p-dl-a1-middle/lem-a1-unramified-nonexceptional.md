@@ -2,7 +2,7 @@
 id = "lem-a1-unramified-nonexceptional"
 kind = "lemma"
 title = "Unramified at infinity and not geometrically constant implies nonexceptional"
-order = 3007
+order = 2754
 uses = ["def-a1-constituent-nonexceptional", "def-wf-fundamental-representation", "lem-a1-artin-schreier-ramified-infinity", "lem-mg-normal-restriction-semisimple", "rem-dl-a1-conventions"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion

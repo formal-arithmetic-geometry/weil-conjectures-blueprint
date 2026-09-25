@@ -2,9 +2,9 @@
 id = "prop-functor-package"
 kind = "theorem"
 title = "Coefficient and functor package on the proved domains"
-order = 2403
+order = 2256
 tags = ["latex:proposition"]
-uses = ["cor-cbc-proper-coincidence", "cor-coef-integral-internal-hom", "cor-weil-boundary-duality-discharge", "cor-weil-finite-constructible-hom", "def-fix-six-functor-datum", "fix-cor-verdier-exchange", "fix-lem-exchanges", "fix-prop-coherence", "fix-prop-projection-formula", "lem-cbc-open-closed-recollement", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-coef-normalized-dvr-effectivity", "lem-coef-rational-operations", "lem-compact-support-direct-image-triangulated", "lem-fix-compact-support-coefficient-change", "lem-fix-operation-reduction", "lem-weil-coefficient-frobenius", "lem-weil-scalar-extension-exact-triangulated", "prop-coef-integral-exceptional-adjoint", "prop-compactification-coherence-detailed", "prop-pod-verdier-dual-on-smooth", "prop-weil-pbc-descent-functors", "sbc-thm-bounded-below-derived-smooth-base-change", "thm-cbc-finite-torsion", "thm-cbc-qbar", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-pur-adic-reconstruction", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-rational-and-qbar-purity", "thm-sf-comp-composition", "thm-weil-pbc-bounded-below", "thm-weil-pbc-idempotent-complete-triangulation", "thm-weil-pbc-qbar"]
+uses = ["cor-cbc-proper-coincidence", "cor-coef-integral-internal-hom", "cor-weil-boundary-duality-discharge", "cor-weil-finite-constructible-hom", "def-fix-six-functor-datum", "fix-cor-verdier-exchange", "fix-lem-exchanges", "fix-prop-coherence", "fix-prop-projection-formula", "lem-cbc-open-closed-recollement", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-coef-normalized-dvr-effectivity", "lem-coef-rational-operations", "lem-compact-support-direct-image-triangulated", "lem-fix-compact-support-coefficient-change", "lem-fix-operation-reduction", "lem-weil-coefficient-frobenius", "lem-weil-scalar-extension-exact-triangulated", "prop-coef-integral-exceptional-adjoint", "prop-compactification-coherence-detailed", "prop-weil-pbc-descent-functors", "sbc-thm-bounded-below-derived-smooth-base-change", "thm-cbc-finite-torsion", "thm-cbc-qbar", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-pur-adic-reconstruction", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-rational-and-qbar-purity", "thm-sf-comp-composition", "thm-sf-dual-perfect", "thm-weil-pbc-bounded-below", "thm-weil-pbc-idempotent-complete-triangulation", "thm-weil-pbc-qbar"]
 +++
 Use the coefficient stages $A_{E,n},\mathcal O_E,E,\Qlb$, finite-type
 separated schemes over the fixed algebraic closure of a finite field, and separated
@@ -113,7 +113,7 @@ Clause (6) is [thm-pur-finite-coefficient-smooth-purity],
 [thm-pur-rational-and-qbar-purity].
 For (7), the exchange is [fix-cor-verdier-exchange];
 [lem-weil-coefficient-frobenius] proves the required point duality,
-and [prop-pod-verdier-dual-on-smooth] reduces the smooth site-perfect
+and [thm-sf-dual-perfect] reduces the smooth site-perfect
 case to local perfect-complex biduality. General finite-stage biduality is
 [thm-fix-general-biduality]; its proof establishes constructible
 preservation first and then uses geometric generic restriction and

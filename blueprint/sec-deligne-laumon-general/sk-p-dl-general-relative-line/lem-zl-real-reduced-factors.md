@@ -2,7 +2,7 @@
 id = "lem-zl-real-reduced-factors"
 kind = "lemma"
 title = "Reality of coprime factors"
-order = 3108
+order = 2838
 +++
 Let $A,B\in1+T\mathbf C[T]$ be coprime. If $A/B\in\mathbf R(T)$, then
 $A,B\in\mathbf R[T]$.

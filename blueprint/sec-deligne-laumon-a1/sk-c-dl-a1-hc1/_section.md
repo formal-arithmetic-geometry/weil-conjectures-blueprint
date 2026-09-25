@@ -2,7 +2,7 @@
 id = "sk-c-dl-a1-hc1"
 kind = "section"
 title = "The degree-one estimate for an irreducible factor"
-order = 3043
+order = 2780
 uses = ["sk-p-dl-a1-fourier-weight", "sk-p-dl-a1-middle", "sk-p-linear-filtration", "sk-p-real-semi", "sk-prop-stalk"]
 +++
 *Corollary (sketch).*

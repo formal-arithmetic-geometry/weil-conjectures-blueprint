@@ -2,7 +2,7 @@
 id = "lem-ag-faithful-semisimple-lie-central-radical"
 kind = "lemma"
 title = "A faithful semisimple Lie representation forces a central radical"
-order = 2656
+order = 2474
 uses = ["def-wf-lie-radical-centre", "lem-ag-central-radical-quotient", "lem-wf-solvable-common-eigenvector", "lem-wf-sum-of-solvable-ideals"]
 +++
 Let $L$ be a finite-dimensional Lie algebra over

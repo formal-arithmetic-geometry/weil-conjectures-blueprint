@@ -2,7 +2,7 @@
 id = "lemma-nagata-closed-immersion-stage-exists"
 kind = "lemma"
 title = "Existence of a stage where a finite-presentation map is closed"
-order = 369
+order = 364
 lean = ["AlgebraicGeometry.Scheme.exists_isClosedImmersion_overPullbackMap"]
 uses = ["lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-filtered-colimit-finite-data"]
 +++

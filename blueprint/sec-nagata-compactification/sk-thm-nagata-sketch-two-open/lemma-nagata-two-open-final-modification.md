@@ -2,7 +2,7 @@
 id = "lemma-nagata-two-open-final-modification"
 kind = "lemma"
 title = "Structural properties of the final common modification"
-order = 304
+order = 299
 uses = ["def-nagata-two-open-final-modification", "lemma-nagata-common-modification", "lemma-nagata-intermediate-separated"]
 +++
 Each $W'_i\to W_i$ is $U$-admissible; the maps $W'_i\hookrightarrow W$

@@ -2,7 +2,7 @@
 id = "sk-rem-sf-pf-done"
 kind = "section"
 title = "The interface is discharged"
-order = 2215
+order = 2103
 +++
 *Remark (sketch).*
 

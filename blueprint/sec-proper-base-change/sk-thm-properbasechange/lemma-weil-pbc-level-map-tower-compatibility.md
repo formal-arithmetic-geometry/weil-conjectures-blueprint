@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-level-map-tower-compatibility"
 kind = "lemma"
 title = "Transition compatibility of all four edges"
-order = 1341
+order = 1330
 uses = ["def-weil-pbc-level-map-arrows", "lemma-weil-pbc-projection-formula-tower-compatibility"]
 +++
 The four corner transitions from level $n+1$ to level $n$ are

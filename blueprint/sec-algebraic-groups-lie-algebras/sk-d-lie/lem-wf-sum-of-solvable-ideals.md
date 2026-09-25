@@ -2,7 +2,7 @@
 id = "lem-wf-sum-of-solvable-ideals"
 kind = "lemma"
 title = "Sum of two solvable ideals"
-order = 2646
+order = 2466
 uses = ["def-wf-lie-algebra"]
 +++
 In a finite-dimensional Lie algebra $\mathfrak g$, the sum of two

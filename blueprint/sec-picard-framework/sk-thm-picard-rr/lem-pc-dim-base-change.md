@@ -2,7 +2,7 @@
 id = "lem-pc-dim-base-change"
 kind = "lemma"
 title = "Dimension is unchanged under base change along field extensions"
-order = 741
+order = 733
 uses = ["def-pc-curve", "def-pc-dimension", "def-pc-field-tower", "def-pc-morphism-conventions"]
 +++
 Let $k$ be a field, $A$ a $k$-algebra of finite type and $K/k$ a field

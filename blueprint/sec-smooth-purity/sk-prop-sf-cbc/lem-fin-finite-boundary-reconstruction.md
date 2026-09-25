@@ -2,8 +2,8 @@
 id = "lem-fin-finite-boundary-reconstruction"
 kind = "lemma"
 title = "Recovering constructibility at a finite boundary"
-order = 1660
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-extension-by-zero", "lem-fin-finite-reflects-derived", "lem-fin-proper-bounded-constructible", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-coefficient-conventions", "thm-constructible-serre"]
+order = 1628
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-extension-by-zero", "lem-fin-finite-reflects-derived", "lem-fin-proper-bounded-constructible", "lemma-weil-pbc-geometric-stalk-conservative", "prop-constructible-derived-subcategory", "sbc-def-coefficient-conventions", "thm-constructible-serre"]
 +++
 Let $b:Y\to S$ be proper
 between finite-type schemes, with the finite coefficients of
@@ -40,13 +40,16 @@ constructible. Apply $Rb_*$.
 Its image is bounded constructible by
 [lem-fin-proper-bounded-constructible], as is $Rb_*K$
 by assumption. Their cone $R(bi)_*i^*K$ is bounded constructible,
-by the cohomology long exact sequence and
-[thm-constructible-serre].
+because the bounded constructible complexes form a triangulated
+subcategory [prop-constructible-derived-subcategory] (the cohomology
+long exact sequence and the weak Serre property
+[thm-constructible-serre]).
 Since $bi$ is finite, [lem-fin-finite-reflects-derived]
 proves $i^*K\in D^b_c(Z,\Lambda)$.
 Exact closed direct image
 [lem-fin-closed-immersion] gives the same property for
-$i_*i^*K$. Return to the displayed triangle and use the same
-long exact sequence to prove it for $K$.
+$i_*i^*K$. Return to the displayed triangle: its outer terms are bounded
+constructible, so $K$ is by
+[prop-constructible-derived-subcategory].
 No identification of $i^*Rj_*$ with a lower-dimensional
 open direct image occurs.

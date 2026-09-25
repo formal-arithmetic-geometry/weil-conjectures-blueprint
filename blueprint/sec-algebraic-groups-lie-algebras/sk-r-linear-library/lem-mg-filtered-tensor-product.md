@@ -2,7 +2,7 @@
 id = "lem-mg-filtered-tensor-product"
 kind = "lemma"
 title = "Tensor product of two filtered representations"
-order = 2745
+order = 2545
 uses = ["def-mg-weil-composition-series"]
 +++
 Let $V_\bullet$ and $W_\bullet$ be

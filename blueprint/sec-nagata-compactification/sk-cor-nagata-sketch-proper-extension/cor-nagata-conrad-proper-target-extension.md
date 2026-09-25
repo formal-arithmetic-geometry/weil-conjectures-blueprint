@@ -2,7 +2,7 @@
 id = "cor-nagata-conrad-proper-target-extension"
 kind = "theorem"
 title = "Extension of a rational map to a proper target (Conrad)"
-order = 230
+order = 225
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_section"]
 tags = ["latex:corollary"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "lem-weil-pbc-closed-immersion-from-composite", "lemma-nagata-conrad-morphism-is-quasi-domination", "lemma-nagata-conrad-quasi-domination-proper-target", "prop-nagata-global-blowup-cover-independent", "thm-nagata-conrad-elimination"]

@@ -2,7 +2,7 @@
 id = "lem-zl-composition-weight-bound"
 kind = "lemma"
 title = "Composition preserves the direct-image weight bound"
-order = 3091
+order = 2821
 uses = ["def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-qbar-category", "def-weil-punctual-weights", "lem-a1-mixed-direct-summand", "lem-zl-shriek-composition", "lemma-weil-pbc-hypercohomology-convergence"]
 +++
 Let $h:X_0\to Z_0$ and $g:Z_0\to Y_0$ be separated finite-type

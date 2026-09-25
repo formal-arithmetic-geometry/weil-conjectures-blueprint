@@ -2,7 +2,7 @@
 id = "lem-pur-affine-punctured-line-algebra"
 kind = "lemma"
 title = "Units and Picard groups of the line and the punctured line"
-order = 1995
+order = 1924
 uses = ["def-sc-curves", "def-sc-picard-group", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++
 Let $k$ be a field. On the

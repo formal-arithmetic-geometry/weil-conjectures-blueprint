@@ -2,7 +2,7 @@
 id = "sk-thm-sf-pf-adic"
 kind = "section"
 title = "Projection formula: the derived-complete stage"
-order = 2207
+order = 2095
 uses = ["sk-prop-sf-pf-reduction"]
 +++
 *Theorem (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-grothendieck-spectral-sequence"
 kind = "lemma"
 title = "Grothendieck spectral sequence for a composite"
-order = 1179
+order = 1186
 uses = ["def-sp-composite-acyclicity", "def-sp-etale-dictionary", "def-weil-pbc-direct-image", "lem-weil-pbc-direct-image-preserves-injectives", "thm-sp-grothendieck", "thm-sp-grothendieck-base-change"]
 +++
 Let $X\xrightarrow{f}Y\xrightarrow{h}Z$ be morphisms of schemes and let $F$ be

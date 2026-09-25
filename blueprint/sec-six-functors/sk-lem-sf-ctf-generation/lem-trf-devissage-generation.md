@@ -2,8 +2,8 @@
 id = "lem-trf-devissage-generation"
 kind = "lemma"
 title = "Constructible devissage: the thick-subcategory generation"
-order = 2363
-uses = ["def-trf-coefficient-conventions", "def-weil-pbc-constructible-complexes", "lem-fin-constructible-devissage", "lem-trf-simple-constructible"]
+order = 2221
+uses = ["def-trf-coefficient-conventions", "def-weil-pbc-constructible-complexes", "lem-fin-constructible-devissage", "lem-sf-triangle-two-out-of-three", "lem-trf-simple-constructible"]
 +++
 Let $X$ be a separated finite-type scheme over $k$ and $A$ a
 finite coefficient ring as in [def-trf-coefficient-conventions].
@@ -24,8 +24,12 @@ Step 1 (stratification). By
 [def-weil-pbc-constructible-complexes], every object $K\in D^b_{ctf}(X,A)$ has finitely many cohomology sheaves, each constructible:
 $X$ carries a finite stratification into locally closed subschemes on
 which each cohomology sheaf is lisse. Iterated distinguished triangles
-of the truncations reduce the claim to a single constructible sheaf
-$F$ on $X$.
+of the truncations
+$\tau_{\leq q-1}K\to\tau_{\leq q}K\to\mathcal H^q(K)[-q]\xrightarrow{+1}$
+reduce the claim to a single constructible sheaf $F$ on $X$: a thick
+subcategory containing two terms of a distinguished triangle contains the
+third, the two-out-of-three step for triangles of
+[lem-sf-triangle-two-out-of-three].
 
 Step 2 (extension across the strata). Filter $X$ by the strata, as in
 [lem-fin-constructible-devissage]: for a

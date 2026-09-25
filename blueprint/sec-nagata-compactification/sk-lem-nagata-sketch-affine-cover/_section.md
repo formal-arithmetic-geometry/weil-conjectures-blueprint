@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-affine-cover"
 kind = "section"
 title = "Affine starting pieces and dense overlaps"
-order = 311
+order = 306
 uses = ["sk-lem-nagata-sketch-closure", "sk-prop-nagata-sketch-zmt"]
 +++
 *Lemma (sketch).*

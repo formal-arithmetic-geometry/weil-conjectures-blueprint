@@ -2,7 +2,7 @@
 id = "sk-thm-properbasechange"
 kind = "section"
 title = "Proper base change"
-order = 1198
+order = 1205
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-pbc", "sk-thm-p1", "sk-thm-reduction"]
 +++
 *Theorem (sketch).*

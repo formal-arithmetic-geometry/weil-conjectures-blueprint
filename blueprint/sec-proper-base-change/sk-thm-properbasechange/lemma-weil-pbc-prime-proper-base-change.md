@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-prime-proper-base-change"
 kind = "lemma"
 title = "Prime-coefficient proper base change"
-order = 1324
+order = 1313
 uses = ["def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-projective-line", "prop-weil-pbc-reduction-to-projective-line"]
 +++
 Every proper morphism satisfies proper base change for sheaves of

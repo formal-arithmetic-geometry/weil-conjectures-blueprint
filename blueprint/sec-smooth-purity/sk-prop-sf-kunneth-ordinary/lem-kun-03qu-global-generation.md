@@ -2,7 +2,7 @@
 id = "lem-kun-03qu-global-generation"
 kind = "lemma"
 title = "Global generation on a separably closed point"
-order = 1736
+order = 1695
 uses = ["def-kun-global-generated", "def-kun-separably-closed", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "lem-kun-03qu-sep-closed", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 If $K$ is separably closed, every abelian sheaf $F$ on

@@ -2,7 +2,7 @@
 id = "sec-fourier-transform"
 kind = "section"
 title = "Fourier Transform"
-order = 2909
+order = 2668
 uses = ["sk-thm-av-final"]
 +++
 content:definition and some basic properties about fourier transform  

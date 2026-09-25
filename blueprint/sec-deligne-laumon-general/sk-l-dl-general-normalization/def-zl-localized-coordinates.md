@@ -2,7 +2,7 @@
 id = "def-zl-localized-coordinates"
 kind = "definition"
 title = "Coordinates on a principal open of an affine base"
-order = 3093
+order = 2823
 uses = ["def-sbc-affine-space", "def-weil-pbc-scheme-conventions"]
 +++
 Let $A$ be a domain, $B$ a finitely generated commutative

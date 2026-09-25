@@ -2,8 +2,8 @@
 id = "sk-thm-purity-transport"
 kind = "section"
 title = "Smooth purity over $\\mathcal O_E$, $E$ and $\\overline{\\mathbf Q}_\\ell$"
-order = 2115
-uses = ["sk-def-purity-conv", "sk-prop-a1", "sk-prop-cohsm", "sk-thm-smooth-purity"]
+order = 2020
+uses = ["sk-def-purity-conv", "sk-lem-sf-flat-model", "sk-prop-a1", "sk-prop-cohsm", "sk-thm-smooth-purity"]
 +++
 *Theorem (sketch).*
 
@@ -98,4 +98,4 @@ map. Only the finite stage is proved in this document; Steps 2–4 are
 sketches of Blueprint 14, where the reconstruction and transport lemmas
 are carried out in full.
 
-Uses: [sk-def-purity-conv], [sk-prop-a1], [sk-prop-cohsm], [sk-thm-smooth-purity]
+Uses: [sk-def-purity-conv], [sk-lem-sf-flat-model], [sk-prop-a1], [sk-prop-cohsm], [sk-thm-smooth-purity]

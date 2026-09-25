@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-elimination"
 kind = "section"
 title = "Elimination of indeterminacy"
-order = 231
+order = 226
 uses = ["sk-lem-nagata-sketch-blowups", "sk-thm-nagata-sketch-conrad"]
 +++
 *Lemma (sketch).*

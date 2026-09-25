@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-level-amplification"
 kind = "definition"
 title = "Finite-level amplification condition"
-order = 1361
+order = 1350
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-cartesian-square", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-proetale-operations"]
 +++
 For a cartesian square [def-weil-pbc-cartesian-square] $\square$ with

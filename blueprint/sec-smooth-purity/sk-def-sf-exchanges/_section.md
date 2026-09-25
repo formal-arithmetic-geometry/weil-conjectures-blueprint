@@ -2,7 +2,7 @@
 id = "sk-def-sf-exchanges"
 kind = "section"
 title = "Exchange and projection transformations, typed"
-order = 1526
+order = 1500
 +++
 *Definition (sketch).*
 

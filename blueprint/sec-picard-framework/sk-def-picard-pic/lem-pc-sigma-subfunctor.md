@@ -2,7 +2,7 @@
 id = "lem-pc-sigma-subfunctor"
 kind = "lemma"
 title = "$\\operatorname{Pic}_{X/k,\\sigma}$ is a subfunctor of the Picard presheaf"
-order = 809
+order = 800
 uses = ["def-pc-base-change", "def-pc-pic-sigma-functor", "def-pc-picard-presheaf", "def-pc-rational-point", "def-pc-subfunctor", "def-sc-picard-group"]
 +++
 Let $k$ be a field, $X$ a scheme over $k$ and $\sigma\in X(k)$ a

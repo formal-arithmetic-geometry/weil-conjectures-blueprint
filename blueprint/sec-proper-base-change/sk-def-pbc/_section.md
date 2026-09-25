@@ -2,7 +2,7 @@
 id = "sk-def-pbc"
 kind = "section"
 title = "The PBC property"
-order = 1056
+order = 1047
 uses = ["sk-def-conv", "sk-def-exchange"]
 +++
 *Definition (sketch).*

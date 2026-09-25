@@ -2,7 +2,7 @@
 id = "lem-per-dual-lisse-tensor"
 kind = "lemma"
 title = "Dual of a lisse tensor"
-order = 2987
+order = 2740
 uses = ["def-trf-dualizing-complex", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "def-wf-tate-twist", "fin2-lem-lisse-trivialized-finite-etale", "fix-lem-tensor-adjunction"]
 +++
 Let $X$ be

@@ -2,7 +2,7 @@
 id = "sk-input-weights"
 kind = "section"
 title = "The weight estimate: Deligne purity"
-order = 3148
+order = 2870
 uses = ["sk-cor-dl-general-complex", "sk-d-dl-general-weights", "sk-d-real-weights", "sk-def-cohfamily", "sk-def-roots", "sk-p-real-purity", "sk-prop-sf-comp-proper", "sk-prop-smooth-proper-purity", "sk-thm-dl-a1-upper", "sk-thm-dl-general-sheaf", "sk-thm-poincare-duality"]
 +++
 *Proposition (sketch).*

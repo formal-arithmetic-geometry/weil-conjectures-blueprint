@@ -2,7 +2,7 @@
 id = "sk-cor-hasse"
 kind = "section"
 title = "Hasse–Weil bound"
-order = 3200
+order = 2913
 uses = ["sk-thm-rh", "sk-thm-trace-transport"]
 +++
 *Corollary (sketch).*

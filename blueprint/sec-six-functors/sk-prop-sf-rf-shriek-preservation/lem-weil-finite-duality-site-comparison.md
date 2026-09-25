@@ -2,8 +2,8 @@
 id = "lem-weil-finite-duality-site-comparison"
 kind = "lemma"
 title = "Finite-stage duality under the site comparison"
-order = 2195
-uses = ["def-weil-open-closed-recollement", "def-weil-site-perfect-complex", "lem-exc-closed-support-triangle", "lem-sf-comparison-tor-amplitude", "lem-sf-proetale-constructible-origin", "lem-weil-stratum-ambient-hom", "lem-weil-verdier-preservation-strata", "prop-weil-pbc-comparison-direct-image", "thm-pur-finite-coefficient-smooth-purity"]
+order = 2084
+uses = ["def-weil-open-closed-recollement", "def-weil-site-perfect-complex", "lem-exc-closed-support-triangle", "lem-sf-comparison-tor-amplitude", "lem-sf-hom-comparison-finite-free", "lem-sf-hom-triangulated", "lem-sf-proetale-constructible-origin", "lem-weil-stratum-ambient-hom", "lem-weil-verdier-preservation-strata", "prop-weil-pbc-comparison-direct-image", "thm-pur-finite-coefficient-smooth-purity"]
 +++
 Let $X$ be a separated finite-type scheme over
 $k=\overline{\mathbf F}_q$, and let
@@ -40,7 +40,11 @@ commutes with internal Hom.
 The finite stratification in
 [lem-weil-verdier-preservation-strata], and the triangles of
 [def-weil-open-closed-recollement], reduce internal-Hom comparison
-to $K=Rs_!P$, with $P$ site-perfect. On both sites the identity
+to $K=Rs_!P$, with $P$ site-perfect: internal Hom is triangulated in
+the first variable by [lem-sf-hom-triangulated] (the same Hom-complex
+argument applies on the pro-etale site), and the exact $\nu^*$ carries
+triangles to triangles, so the comparison maps form morphisms of
+triangles. On both sites the identity
 of [lem-weil-stratum-ambient-hom] reads
 
 $$
@@ -49,10 +53,12 @@ R\mathcal Hom(Rs_!P,M)
 $$
 
 The locally closed $Rs^!$ commutes with $\nu^*$ by the open and
-closed comparisons above. Internal Hom from a site-perfect complex
-is its finite-projective dual tensor the second argument, by the
-definition in [def-weil-site-perfect-complex]. It commutes with
-$\nu^*$. Finally $Rs_*$ commutes with comparison by
+closed comparisons above. The site-perfect complex $P$ of
+[def-weil-site-perfect-complex] is locally a bounded complex of finite
+free modules, and for such a first variable and a bounded constructible
+second variable the internal Hom commutes with $\nu^*$ by
+[lem-sf-hom-comparison-finite-free]; the question being local, this
+applies to $R\mathcal Hom(P,Rs^!M)$. Finally $Rs_*$ commutes with comparison by
 [prop-weil-pbc-comparison-direct-image]. Hence the specified
 internal-Hom map is an isomorphism on every stratum generator and then
 on $K$.

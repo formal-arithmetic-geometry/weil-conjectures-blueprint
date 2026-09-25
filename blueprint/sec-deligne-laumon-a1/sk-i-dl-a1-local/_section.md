@@ -2,8 +2,8 @@
 id = "sk-i-dl-a1-local"
 kind = "section"
 title = "Local boundary duality and ramification at infinity"
-order = 2968
-uses = ["sk-d-dl-a1-setup", "sk-d-real-boundary", "sk-prop-sf-biduality-general", "sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-ctf-stability", "sk-thm-sf-dual-perfect", "sk-thm-sf-verdier-exchange"]
+order = 2724
+uses = ["sk-d-dl-a1-setup", "sk-d-real-boundary", "sk-prop-sf-biduality-general", "sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle", "sk-rem-sf-kv-formal", "sk-thm-sf-ctf-stability", "sk-thm-sf-dual-perfect", "sk-thm-sf-verdier-exchange"]
 +++
 *Proposition (sketch).*
 
@@ -77,4 +77,4 @@ show that it is Galois with group $\mathbf F_p$. The nontrivial character
 $\psi$ of this group of prime order is faithful, so inertia acts
 nontrivially on $\mathcal L_{\psi(ax)}$.
 
-Uses: [sk-d-dl-a1-setup], [sk-prop-sf-biduality-general], [sk-prop-sf-closed-unit], [sk-prop-sf-open-closed-triangle], [sk-thm-sf-ctf-stability], [sk-thm-sf-dual-perfect], [sk-thm-sf-verdier-exchange]
+Uses: [sk-d-dl-a1-setup], [sk-prop-sf-biduality-general], [sk-prop-sf-closed-unit], [sk-prop-sf-open-closed-triangle], [sk-rem-sf-kv-formal], [sk-thm-sf-ctf-stability], [sk-thm-sf-dual-perfect], [sk-thm-sf-verdier-exchange]

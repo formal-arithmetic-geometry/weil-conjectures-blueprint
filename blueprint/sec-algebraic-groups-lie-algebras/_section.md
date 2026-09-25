@@ -2,7 +2,7 @@
 id = "sec-algebraic-groups-lie-algebras"
 kind = "section"
 title = "Algebraic Groups and Lie Algebras"
-order = 2637
+order = 2457
 uses = ["sec-abelian-varieties"]
 +++
 content: Lie algebra structure, algebraic monodromy, determinant weights,

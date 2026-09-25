@@ -2,7 +2,7 @@
 id = "lem-sc-cartier-divisor-points"
 kind = "lemma"
 title = "Effective Cartier divisors on a smooth curve"
-order = 717
+order = 708
 uses = ["def-sc-curves", "def-sc-effective-cartier-divisor", "lem-sc-dim0-finite", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
 Let $C$ be a smooth connected curve over $k$

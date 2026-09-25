@@ -2,8 +2,8 @@
 id = "lem-pc-degree-base-change"
 kind = "lemma"
 title = "Degree: base change and tensor products"
-order = 748
-uses = ["def-pc-base-change", "def-pc-degree-line-bundle", "def-pc-dimension", "def-pc-divisor-line-bundle", "def-pc-euler-characteristic", "def-sc-divisor", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "lem-pc-affine-vanishing", "lem-pc-euler-additive", "lem-pc-euler-characteristic-well-defined", "lem-pc-finite-support-hi", "lem-pc-flat-base-change-cohom", "lem-pc-proper-base-change", "lem-sc-point-cartier", "rem-pc-regularity-sc"]
+order = 740
+uses = ["def-pc-base-change", "def-pc-degree-line-bundle", "def-pc-dimension", "def-pc-divisor-line-bundle", "def-pc-euler-characteristic", "def-sc-divisor", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "lem-pc-affine-vanishing", "lem-pc-euler-additive", "lem-pc-euler-characteristic-well-defined", "lem-pc-finite-support-hi", "lem-pc-flat-base-change-cohom", "lem-pc-divisor-line-bundle-agrees-sc", "lem-pc-proper-base-change", "lem-sc-point-cartier", "rem-pc-regularity-sc"]
 +++
 Let $k$ be a field, $X$ a proper scheme over $k$ of dimension $\le1$
 (a proper curve), and let $\mathcal{L},\mathcal{M}$ be invertible
@@ -111,7 +111,10 @@ $$
 \deg(\mathcal{O}_X(D))=\chi(X,\mathcal{O}_D)=\sum_Pn_P[\kappa(P):k]
 $$
 
-(the degree of [def-sc-divisor] for algebraically closed $k$).
+(the degree of [def-sc-divisor] for algebraically closed $k$: for a
+smooth connected curve $X$ the module $\mathcal{O}_X(D)$ used here is the
+module of the divisor $\sum_Pn_P[P]$ of [def-sc-divisor] by
+[lem-pc-divisor-line-bundle-agrees-sc]).
 By the additivity (3) one gets
 
 $$

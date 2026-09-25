@@ -2,7 +2,7 @@
 id = "sk-thm-picard-hilb-general"
 kind = "section"
 title = "Representability of $\\Hilb^d$ — general case"
-order = 789
+order = 781
 +++
 *Theorem (sketch).*
 

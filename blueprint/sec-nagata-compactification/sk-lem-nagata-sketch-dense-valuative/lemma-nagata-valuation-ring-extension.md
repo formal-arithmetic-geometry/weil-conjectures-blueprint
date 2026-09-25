@@ -2,7 +2,7 @@
 id = "lemma-nagata-valuation-ring-extension"
 kind = "lemma"
 title = "Extension of a valuation ring to a field extension, [stacks-project]"
-order = 286
+order = 281
 lean = ["ValuationSubring.exists_comap_eq"]
 uses = ["lemma-nagata-local-domain-valuation-dominates", "lemma-nagata-valuation-intersection"]
 +++

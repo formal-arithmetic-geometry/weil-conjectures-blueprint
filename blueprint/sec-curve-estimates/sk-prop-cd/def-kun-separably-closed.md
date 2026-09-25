@@ -2,7 +2,7 @@
 id = "def-kun-separably-closed"
 kind = "definition"
 title = "Separably closed fields"
-order = 998
+order = 989
 lean = ["IsSepClosed"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

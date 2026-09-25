@@ -2,7 +2,7 @@
 id = "sk-prop-a1"
 kind = "section"
 title = "Rank-one orientation: the fundamental class of the zero section"
-order = 2026
+order = 1950
 uses = ["sk-def-purity-conv", "sk-prop-a1-kummer"]
 +++
 *Proposition (sketch).*

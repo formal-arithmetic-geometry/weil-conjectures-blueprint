@@ -2,7 +2,7 @@
 id = "thm-trf-grothendieck-lefschetz-qbar"
 kind = "theorem"
 title = "Grothendieck–Lefschetz formula over $\\Qlb$"
-order = 2567
+order = 2399
 uses = ["def-trf-coefficient-conventions", "def-trf-frobenius-operators", "def-trf-karoubi-trace", "def-trf-trace-class", "def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-finite-field-fiber", "def-weil-ordinary-compact-cohomology", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "prop-trf-karoubi-independence", "prop-trf-rational-frobenius-integral-model", "prop-trf-trace-formal-laws", "thm-trf-trace-formula-e"]
 +++
 Fix the global finite-field datum

@@ -2,7 +2,7 @@
 id = "def-sc-gm-torsor"
 kind = "definition"
 title = "$\\mathbf G_m$-torsors"
-order = 887
+order = 878
 uses = ["def-sc-curves"]
 +++
 Let $X$ be a scheme (for instance a curve $C$ as in

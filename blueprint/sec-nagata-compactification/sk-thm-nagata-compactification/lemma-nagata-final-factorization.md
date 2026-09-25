@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-factorization"
 kind = "lemma"
 title = "Factorization equality for the final candidate"
-order = 411
+order = 406
 uses = ["def-nagata-final-compactification", "def-nagata-scheme-image-factor", "lemma-nagata-final-compactification-spec", "lemma-nagata-final-fp-envelope", "lemma-nagata-scheme-image-universal"]
 +++
 **Status.** Bypassed by the formalized route: the final assembly is carried

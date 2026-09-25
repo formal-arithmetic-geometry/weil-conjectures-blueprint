@@ -2,7 +2,7 @@
 id = "d-central"
 kind = "definition"
 title = "Positive central pairs and their construction"
-order = 2716
+order = 2525
 uses = ["d-monodromy", "def-wf-algebraic-components"]
 +++
 For the monodromy data $(G,H,F)$ of a represented degree datum

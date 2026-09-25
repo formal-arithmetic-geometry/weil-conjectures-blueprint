@@ -2,7 +2,7 @@
 id = "sk-prop-kernel-lisse"
 kind = "section"
 title = "P1: the kernel is a lisse rank-one character sheaf"
-order = 2937
+order = 2694
 uses = ["sec-smooth-purity", "sk-def-kernel", "sk-lem-as-properties"]
 +++
 *Proposition (sketch).*

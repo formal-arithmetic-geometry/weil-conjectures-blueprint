@@ -2,7 +2,7 @@
 id = "lemma-constructible-torsor-trivialises"
 kind = "lemma"
 title = "Torsors under finite locally constant sheaves"
-order = 1308
+order = 1297
 uses = ["def-constructible-finite-locally-constant"]
 +++
 Let $\mathcal G$ be a finite locally constant sheaf of groups on $\et X$

@@ -2,7 +2,7 @@
 id = "sk-prop-nagata-sketch-comp-category"
 kind = "section"
 title = "The compactification category and common refinements"
-order = 413
+order = 408
 uses = ["sk-def-nagata-sketch-data", "sk-lem-nagata-sketch-closure", "sk-thm-nagata-compactification"]
 +++
 *Proposition (sketch).*

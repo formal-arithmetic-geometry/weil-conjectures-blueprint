@@ -2,7 +2,7 @@
 id = "sk-def-exchange"
 kind = "section"
 title = "Exchange morphism"
-order = 1044
+order = 1035
 uses = ["sk-def-conv"]
 +++
 *Definition (sketch).*

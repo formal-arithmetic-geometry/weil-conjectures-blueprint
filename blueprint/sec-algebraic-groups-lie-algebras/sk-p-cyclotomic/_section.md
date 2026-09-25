@@ -2,7 +2,7 @@
 id = "sk-p-cyclotomic"
 kind = "section"
 title = "Cyclotomic Frobenius"
-order = 2772
+order = 2568
 uses = ["sk-d-ab-cyclotomic", "sk-d-ab-field", "sk-d-ab-tate"]
 +++
 *Proposition (sketch).*

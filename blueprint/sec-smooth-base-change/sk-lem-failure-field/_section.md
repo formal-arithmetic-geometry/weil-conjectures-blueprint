@@ -2,7 +2,7 @@
 id = "sk-lem-failure-field"
 kind = "section"
 title = "A failure is detected on the generic fibre"
-order = 1399
+order = 1387
 uses = ["sk-def-bc"]
 +++
 *Lemma (sketch).*

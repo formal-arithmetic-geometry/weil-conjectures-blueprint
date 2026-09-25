@@ -2,7 +2,7 @@
 id = "sk-prop-av-isogeny-degree"
 kind = "section"
 title = "The degree of an isogeny is the degree of the kernel"
-order = 563
+order = 556
 uses = ["sk-def-av", "sk-def-av-group-scheme", "sk-def-av-isogeny", "sk-def-av-pic", "sk-prop-av-mult-finite", "sk-prop-av-pqf-finite"]
 +++
 *Proposition (sketch).*

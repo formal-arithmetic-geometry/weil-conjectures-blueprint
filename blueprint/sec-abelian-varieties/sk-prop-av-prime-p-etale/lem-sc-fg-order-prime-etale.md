@@ -2,7 +2,7 @@
 id = "lem-sc-fg-order-prime-etale"
 kind = "lemma"
 title = "Group schemes of order prime to $p$ are etale"
-order = 585
+order = 578
 uses = ["def-sc-group-scheme", "lem-sc-connected-finite-order", "lem-sc-finite-etale-algebra-criterion"]
 +++
 Let $G$ be a finite flat group

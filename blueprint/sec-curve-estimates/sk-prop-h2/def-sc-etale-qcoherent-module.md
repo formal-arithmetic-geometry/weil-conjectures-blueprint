@@ -2,7 +2,7 @@
 id = "def-sc-etale-qcoherent-module"
 kind = "definition"
 title = "The etale sheaf associated with a quasi-coherent module"
-order = 968
+order = 958
 uses = ["def-weil-pbc-etale-site", "lem-sc-etale-qcoherent-descent"]
 +++
 Let $X$ be a scheme and $\mathcal F$ a quasi-coherent

@@ -2,7 +2,7 @@
 id = "prop-trf-trace-class-additivity"
 kind = "theorem"
 title = "Additivity of trace classes"
-order = 2521
+order = 2354
 uses = ["d-curve-pieces", "def-trf-fixed-scheme", "def-trf-integration", "def-trf-local-term", "def-weil-scheme-morphism-properties", "lem-trf-integration-linear", "lem-trf-trace-triangle-compatibility", "prop-functor-package", "prop-sf-open-closed-triangle-all-stages", "prop-weil-open-closed-recollement-adjunctions", "thm-trf-frobenius-fixed-points"]
 +++
 1. Let

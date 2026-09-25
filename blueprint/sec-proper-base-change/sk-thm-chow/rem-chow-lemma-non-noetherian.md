@@ -2,7 +2,7 @@
 id = "rem-chow-lemma-non-noetherian"
 kind = "remark"
 title = "The non-noetherian variant"
-order = 1072
+order = 1063
 uses = ["thm-chow-lemma"]
 +++
 Noetherianness of $S$ is used only through the finiteness of the set of

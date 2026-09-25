@@ -2,7 +2,7 @@
 id = "lem-ag-cartier-reduced"
 kind = "lemma"
 title = "Cartier: group schemes in characteristic zero are smooth and reduced"
-order = 2675
+order = 2492
 uses = ["def-wf-lie-algebra-derivation", "lem-wf-affine-nullstellensatz-vanishing", "lem-wf-affine-product-reduced", "lem-wf-same-lie-closed-subgroup"]
 +++
 Let $\mathcal G\subseteq\operatorname{GL}(V)$ over

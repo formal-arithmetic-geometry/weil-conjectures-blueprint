@@ -2,7 +2,7 @@
 id = "sk-prop-cd"
 kind = "section"
 title = "Vanishing in high degrees"
-order = 996
+order = 987
 uses = ["sk-def-av-pic", "sk-def-br", "sk-def-curve", "sk-prop-hilbert90", "sk-prop-kummer-exact", "sk-prop-tsen"]
 +++
 *Proposition (sketch).*

@@ -2,9 +2,9 @@
 id = "prop-sf-localization-all-stages"
 kind = "theorem"
 title = "The closed-support triangle at every coefficient stage"
-order = 1926
+order = 1868
 tags = ["latex:proposition"]
-uses = ["def-sc-etale-torsion-cd", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-finite-tor-amplitude", "def-weil-pbc-proetale-operations", "def-weil-rationalization-karoubi", "def-weil-weil-sheaf-complex", "lem-exc-proetale-closed-essential-image", "lem-exc-proetale-closed-exact", "lem-exc-proetale-closed-support", "lem-exc-proetale-support-triangle", "lem-exc-residue-tor-test", "lem-sf-etale-direct-image-vanishing", "lem-sf-proetale-constructible-origin", "lemma-weil-pbc-completed-pullback-reduction", "prop-sf-closed-immersion-unit", "prop-sf-closed-unit-all-stages", "prop-sf-open-closed-triangle-all-stages", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-descent-functors", "prop-weil-pbc-direct-image-limits", "prop-weil-pbc-proetale-constant-ring-map", "prop-weil-pbc-rational-transport", "prop-weil-pbc-roos-triangle", "prop-weil-pbc-scalar-extension", "thm-constructible-serre", "thm-fin-open-immersion", "thm-sc-finite-type-torsion-cd", "thm-sp-truncation-e2", "thm-weil-pbc-site-comparison", "thm-weil-pbc-verdier-axioms"]
+uses = ["def-sc-etale-torsion-cd", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-tor-amplitude", "def-weil-pbc-proetale-operations", "def-weil-rationalization-karoubi", "def-weil-weil-sheaf-complex", "lem-exc-proetale-closed-essential-image", "lem-exc-proetale-closed-exact", "lem-exc-proetale-closed-support", "lem-exc-proetale-support-triangle", "lem-exc-residue-tor-test", "lem-sf-etale-direct-image-vanishing", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-residue-tor-test", "lem-sf-triangle-two-out-of-three", "lemma-weil-pbc-completed-pullback-reduction", "prop-sf-closed-immersion-unit", "prop-sf-closed-unit-all-stages", "prop-sf-open-closed-triangle-all-stages", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-descent-functors", "prop-weil-pbc-direct-image-limits", "prop-weil-pbc-proetale-constant-ring-map", "prop-weil-pbc-rational-transport", "prop-weil-pbc-roos-triangle", "prop-weil-pbc-scalar-extension", "thm-constructible-serre", "thm-fin-open-immersion", "thm-sc-finite-type-torsion-cd", "thm-sp-truncation-e2", "thm-weil-pbc-site-comparison", "thm-weil-pbc-verdier-axioms"]
 +++
 Let $X$ be a separated finite-type $k$-scheme, let $i:Z\hookrightarrow X$ be
 a closed immersion and $j:U\hookrightarrow X$ the complementary open
@@ -99,7 +99,9 @@ For (2) and (3), let $K\in D^b_c(X,R)$, let $K\to Rj_*j^*K$ be the derived
 limit of the finite units (its reductions are the finite units, by
 [lemma-weil-pbc-completed-pullback-reduction] and
 [prop-weil-pbc-direct-image-limits]), and let $F$ be its fibre, an object of
-$D^b_c(X,R)$ by (1). By TR3 and the finite triangles,
+$D^b_c(X,R)$ by (1). By TR3 and the finite triangles, the induced map of
+triangles is an isomorphism on two terms, hence on the third
+([lem-sf-triangle-two-out-of-three]):
 $F_n\cong i_*Ri_n^!K_n$. Put $Q=i^*F\in D^b_c(Z,R)$. The unit
 $F\to i_*i^*F$, taken as the derived limit of the finite units, reduces to
 the finite units, which are isomorphisms because $F_n$ lies in the image of
@@ -140,20 +142,11 @@ $Ri^!Rj_*G=0$; the unit is an isomorphism by
 *Finite Tor amplitude.* Let $A=A_{E,n}$ and $\kappa=A/(\varpi_E)$, the
 constant sheaf on each site.
 
-*Residue criterion.* On any of the pro-étale sites, a complex $K$ has Tor
-amplitude in $[a,b]$ if and only if $K\otimes^L_A\kappa$ has cohomology in
-$[a,b]$. One direction is the definition [def-weil-finite-tor-amplitude]
-with $M=\kappa$. Conversely, every sheaf $N$ of $\kappa$-modules is flat
-over $\kappa$ (sectionwise tensor over a field is exact, and so is
-sheafification), so by associativity of the derived tensor product
-([def-weil-derived-tensor])
-$\mathcal H^r(K\otimes^L_AN)\cong\mathcal H^r\bigl((K\otimes^L_A\kappa)
-\otimes^L_\kappa N\bigr)\cong\mathcal H^r(K\otimes^L_A\kappa)\otimes_\kappa N$,
-which vanishes outside $[a,b]$. A sheaf $M$ of $A$-modules has the finite
-filtration $\varpi_E^sM$, $0\le s\le n$, with $\kappa$-module graded pieces;
-the long exact sequences of $K\otimes^L_A-$ applied to it give the vanishing
-for $M$. This is the pro-étale form of the étale criterion
-[lem-exc-residue-tor-test], proved without stalks. The pullbacks
+*Residue criterion.* On any of the pro-étale sites, a bounded constructible
+complex $K$ has Tor amplitude in $[a,b]$ if and only if $K\otimes^L_A\kappa$
+has cohomology in $[a,b]$, by [lem-sf-proetale-residue-tor-test], the
+pro-étale form of the étale criterion [lem-exc-residue-tor-test]; it is
+applied below only to bounded constructible complexes, by (1) and (2). The pullbacks
 $i^*,j^*,\nu^*$ commute with $-\otimes^L_A\kappa$, being monoidal with
 $\kappa$ pulling back to $\kappa$ ([def-weil-derived-pullback-tensor-hom],
 [prop-weil-pbc-proetale-constant-ring-map]); being exact they preserve

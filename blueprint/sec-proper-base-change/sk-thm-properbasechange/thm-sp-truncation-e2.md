@@ -2,7 +2,7 @@
 id = "thm-sp-truncation-e2"
 kind = "theorem"
 title = "The truncation hypercohomology spectral sequence"
-order = 1205
+order = 1212
 uses = ["def-sp-convergence", "def-sp-exact-couple", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-truncation-couple", "lem-sp-shift-identification", "lem-sp-truncation-couple-exact", "thm-sp-half-plane-convergence"]
 +++
 Let $K$ be as in [def-sp-truncation-couple]. The spectral sequence of the

@@ -2,7 +2,7 @@
 id = "lem-pc-rf-perfect-base-change"
 kind = "lemma"
 title = "Perfectness of $Rf_*\\mathcal{G}$ and base change"
-order = 684
+order = 675
 uses = ["def-pc-base-change", "def-pc-derived-category", "def-pc-derived-direct-image", "def-pc-derived-pullback", "def-pc-morphism-conventions", "def-pc-perfect-complex", "lem-pc-projective-noetherian-rf-perfect", "lem-pc-rf-base-change-flat-module"]
 +++
 Let $S$ be a scheme, $f:X\to S$ a proper morphism of finite

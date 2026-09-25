@@ -2,8 +2,8 @@
 id = "sk-p-dl-general-relative-line"
 kind = "section"
 title = "Direct images from a relative open affine line"
-order = 3105
-uses = ["sk-d-dl-general-weights", "sk-i-dl-general-real", "sk-l-dl-a1-endpoints", "sk-l-dl-general-open-line", "sk-p-linear-filtration", "sk-prop-sf-cbc", "sk-thm-sf-ctf-stability", "sk-thm-trace-transport"]
+order = 2835
+uses = ["sk-d-dl-general-weights", "sk-i-dl-general-real", "sk-l-dl-a1-endpoints", "sk-l-dl-general-open-line", "sk-p-linear-filtration", "sk-prop-logdet", "sk-prop-sf-cbc", "sk-thm-sf-ctf-stability", "sk-thm-trace-transport"]
 +++
 *Proposition (sketch).*
 
@@ -46,4 +46,4 @@ $R^rh_{0!}E_0$ are real, and [sk-i-dl-general-real] makes them mixed.
 Their direct summands $R^rh_{0!}F_0$ are mixed as well; the punctual
 bounds already proved bound every pure quotient in a mixed filtration.
 
-Uses: [sk-d-dl-general-weights], [sk-i-dl-general-real], [sk-l-dl-a1-endpoints], [sk-l-dl-general-open-line], [sk-prop-sf-cbc], [sk-thm-sf-ctf-stability], [sk-thm-trace-transport]
+Uses: [sk-d-dl-general-weights], [sk-i-dl-general-real], [sk-l-dl-a1-endpoints], [sk-l-dl-general-open-line], [sk-prop-logdet], [sk-prop-sf-cbc], [sk-thm-sf-ctf-stability], [sk-thm-trace-transport]

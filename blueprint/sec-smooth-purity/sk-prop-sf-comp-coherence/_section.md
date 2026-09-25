@@ -2,7 +2,7 @@
 id = "sk-prop-sf-comp-coherence"
 kind = "section"
 title = "Coherence of the compactification comparisons"
-order = 1539
+order = 1513
 uses = ["sk-def-sf-operations", "sk-prop-nagata-sketch-comp-category", "sk-thm-properbasechange"]
 +++
 *Proposition (sketch).*

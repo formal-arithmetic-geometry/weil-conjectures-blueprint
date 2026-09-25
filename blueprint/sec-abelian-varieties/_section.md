@@ -2,7 +2,7 @@
 id = "sec-abelian-varieties"
 kind = "section"
 title = "Abelian Varieties"
-order = 421
+order = 416
 +++
 content: the abelian-variety estimates behind the curve estimates
 ([sec-curve-estimates]) and the trace formula: the theorem of the

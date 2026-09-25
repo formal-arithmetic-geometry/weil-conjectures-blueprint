@@ -2,7 +2,7 @@
 id = "def-pc-fppf-site"
 kind = "definition"
 title = "The big fppf site"
-order = 780
+order = 772
 uses = ["def-pc-morphism-conventions", "def-pc-scheme"]
 +++
 Let $S$ be a scheme and $\mathit{Sch}_{fppf}$ a big fppf site containing

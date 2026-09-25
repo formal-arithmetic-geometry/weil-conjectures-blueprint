@@ -2,9 +2,9 @@
 id = "prop-trf-adic-coefficient-morphism-systems"
 kind = "theorem"
 title = "Adic realization for systems of Frobenius coefficient morphisms"
-order = 2559
+order = 2386
 tags = ["latex:proposition"]
-uses = ["def-trf-adic-system", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-trf-frobenius-coefficient-morphism", "def-weil-derived-complete-integral-detailed", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-integral-rational-qbar-compact-support", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-completed-pullback", "def-weil-pbc-derived-inverse-limit", "lem-fix-compact-support-coefficient-change", "lem-trf-chain-supertrace", "prop-trf-compact-support-perfectness", "prop-trf-graph-frobenius-operator", "prop-trf-rational-frobenius-integral-model", "prop-trf-scheme-galois-comparison", "prop-trf-trace-formal-laws"]
+uses = ["def-trf-adic-system", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-trf-frobenius-coefficient-morphism", "def-weil-derived-complete-integral-detailed", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-integral-rational-qbar-compact-support", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-completed-pullback", "def-weil-pbc-derived-inverse-limit", "lem-fix-compact-support-coefficient-change", "lem-trf-chain-supertrace", "prop-trf-compact-support-perfectness", "prop-trf-graph-frobenius-operator", "prop-trf-rational-frobenius-integral-model", "prop-trf-scheme-galois-comparison", "prop-trf-trace-formal-laws", "thm-trf-finite-coefficient-map"]
 +++
 Fix the global finite-field datum $p,a,q,k_0,k$ and the coefficient
 conventions of [def-trf-coefficient-conventions], with
@@ -99,12 +99,14 @@ $\mathcal O_E$, with the duality data of [lem-trf-chain-supertrace].
 ## Proof
 
 *(1).* Each $K_n$ lies in $D^b_{ctf}(X,A_n)$, so $P_n$ and $P_{\bar y,n}$ are
-perfect by [prop-trf-compact-support-perfectness]. The coefficient
-comparison of [lem-fix-compact-support-coefficient-change] for
-$a_X:X\to\Spec k$ and $A_{n+1}\to A_n$, followed by $R\Gamma_c(X,\nu_n)$,
+perfect by [prop-trf-compact-support-perfectness]. The finite-level
+coefficient change of [thm-trf-finite-coefficient-map] for
+$\rho:A_{n+1}\to A_n$ and $f=a_X:X\to\Spec k$ (its compact-support
+isomorphism is the coefficient comparison of
+[lem-fix-compact-support-coefficient-change]), followed by $R\Gamma_c(X,\nu_n)$,
 gives $P_{n+1}\otimes^L A_n\cong R\Gamma_c(X,K_{n+1}\otimes^LA_n)\cong P_n$;
-for the stalks, $L\bar y^*$ is a pullback, hence monoidal
-([def-weil-derived-pullback-tensor-hom]), which gives
+for the stalks, its pullback isomorphism for $\bar y$ ($L\bar y^*$ is a
+pullback, hence monoidal, [def-weil-derived-pullback-tensor-hom]) gives
 $P_{\bar y,n+1}\otimes^LA_n\cong(K_{n+1}\otimes^LA_n)_{\bar y}\cong P_{\bar y,n}$.
 
 *(2).* We prove the assertion for an arbitrary tower $(Q_n)$ of objects

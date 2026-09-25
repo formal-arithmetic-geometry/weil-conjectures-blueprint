@@ -2,7 +2,7 @@
 id = "def-br"
 kind = "definition"
 title = "Brauer group"
-order = 899
+order = 890
 uses = ["def-sc-curves", "def-sc-gm-torsor", "def-weil-pbc-etale-site"]
 +++
 For $C$ as in [def-sc-curves], the *Brauer group* of $C$ is

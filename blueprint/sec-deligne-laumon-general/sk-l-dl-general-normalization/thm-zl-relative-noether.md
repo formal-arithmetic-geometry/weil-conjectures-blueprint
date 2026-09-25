@@ -2,7 +2,7 @@
 id = "thm-zl-relative-noether"
 kind = "theorem"
 title = "Relative Noether normalization"
-order = 3096
+order = 2826
 uses = ["def-sbc-affine-space", "def-weil-pbc-scheme-conventions", "def-zl-localized-coordinates", "lem-zl-affine-partition", "lem-zl-spread-normalization"]
 +++
 Let $f:X_0\to Y_0$ be a

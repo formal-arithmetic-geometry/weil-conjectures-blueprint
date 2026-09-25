@@ -2,7 +2,7 @@
 id = "rem-ptr-sc-ext-sheaf-4"
 kind = "remark"
 title = "Pointer to the properties of [def-sc-ext-sheaf]"
-order = 699
+order = 690
 uses = ["def-sc-ext-sheaf", "lem-sc-ext-locally-free"]
 +++
 In the notation of [def-sc-ext-sheaf], the following holds. The

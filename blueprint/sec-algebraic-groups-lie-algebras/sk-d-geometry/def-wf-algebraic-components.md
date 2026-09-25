@@ -2,7 +2,7 @@
 id = "def-wf-algebraic-components"
 kind = "definition"
 title = "Identity component and component group"
-order = 2662
+order = 2479
 uses = ["def-wf-geometric-monodromy-group"]
 +++
 For a closed algebraic subgroup $H\subseteq\operatorname{GL}(V)$, its

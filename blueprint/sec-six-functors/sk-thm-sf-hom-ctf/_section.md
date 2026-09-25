@@ -2,7 +2,7 @@
 id = "sk-thm-sf-hom-ctf"
 kind = "section"
 title = "Internal Hom with finite Tor amplitude"
-order = 2319
+order = 2196
 uses = ["sk-prop-sf-biduality-general", "sk-prop-sf-finiteness"]
 +++
 *Theorem (sketch).*

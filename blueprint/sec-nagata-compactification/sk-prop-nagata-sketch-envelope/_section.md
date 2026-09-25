@@ -2,7 +2,7 @@
 id = "sk-prop-nagata-sketch-envelope"
 kind = "section"
 title = "Separated finite-presentation envelope"
-order = 396
+order = 391
 uses = ["sk-prop-nagata-sketch-fp-models"]
 +++
 *Proposition (sketch).*

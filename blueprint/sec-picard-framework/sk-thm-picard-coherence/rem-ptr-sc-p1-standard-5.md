@@ -2,7 +2,7 @@
 id = "rem-ptr-sc-p1-standard-5"
 kind = "remark"
 title = "Pointer to the properties of [def-sc-p1-standard]"
-order = 647
+order = 638
 uses = ["def-sc-p1-standard", "lem-sc-p1-twist-exists", "lem-sc-p1-twist-sections"]
 +++
 In the notation of [def-sc-p1-standard], the following holds. That such a module exists and is unique up to

@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-some-weight"
 kind = "section"
 title = "The generic Fourier sheaf is pure of some weight"
-order = 3027
+order = 2770
 uses = ["sk-p-dl-a1-correction", "sk-p-real-purity", "sk-p-real-semi", "sk-prop-kernel-lisse", "sk-thm-fourier-trace-formula"]
 +++
 *Proposition (sketch).*

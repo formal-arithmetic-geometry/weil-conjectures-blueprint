@@ -2,7 +2,7 @@
 id = "sk-def-kernel"
 kind = "section"
 title = "The Fourier kernel and integrand"
-order = 2933
+order = 2690
 uses = ["sk-def-as", "sk-def-fourier-set"]
 +++
 *Definition (sketch).*

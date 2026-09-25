@@ -2,7 +2,7 @@
 id = "sk-lem-picard-zero-dictionary"
 kind = "section"
 title = "The zero-scheme dictionary"
-order = 834
+order = 825
 uses = ["sk-cor-picard-degree-g", "sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Lemma (sketch).*

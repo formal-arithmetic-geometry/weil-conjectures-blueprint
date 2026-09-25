@@ -2,7 +2,7 @@
 id = "sk-prop-av-prime-p-etale"
 kind = "section"
 title = "Group schemes of order prime to $p$ are étale"
-order = 584
+order = 577
 uses = ["sk-def-av-group-scheme", "sk-prop-av-connected-order"]
 +++
 *Proposition (sketch).*

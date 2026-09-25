@@ -2,7 +2,7 @@
 id = "sk-rem-sf-kv-formal"
 kind = "section"
 title = "What is formal and what is not"
-order = 2371
+order = 2229
 +++
 *Remark (sketch).*
 

@@ -2,7 +2,7 @@
 id = "lem-sc-translation-automorphism"
 kind = "lemma"
 title = "Translations are automorphisms"
-order = 2042
+order = 1965
 uses = ["def-sc-group-scheme", "def-sc-group-scheme-translate"]
 +++
 In the situation of [def-sc-group-scheme-translate], for every

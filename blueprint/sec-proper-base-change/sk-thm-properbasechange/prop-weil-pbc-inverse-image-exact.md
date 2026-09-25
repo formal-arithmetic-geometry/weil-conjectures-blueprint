@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-inverse-image-exact"
 kind = "theorem"
 title = "Exactness of inverse image"
-order = 1206
+order = 1213
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions"]
 tags = ["latex:proposition"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sc-finite-constant-length-flat"
 kind = "lemma"
 title = "Finite morphisms with constant fibre length are flat"
-order = 564
+order = 557
 uses = ["def-sc-function-field"]
 +++
 Let $f:X\to Y$ be a finite surjective morphism of varieties over

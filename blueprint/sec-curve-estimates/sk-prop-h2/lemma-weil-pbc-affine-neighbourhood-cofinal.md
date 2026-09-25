@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-affine-neighbourhood-cofinal"
 kind = "lemma"
 title = "Affine pointed neighbourhoods are cofinal"
-order = 953
+order = 943
 uses = ["def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-scheme-conventions"]
 +++
 The full subcategory $\mathcal N^{\mathrm{aff}}_{\bar s}$ of affine pointed

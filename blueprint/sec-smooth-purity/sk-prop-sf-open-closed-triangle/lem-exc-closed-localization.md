@@ -2,7 +2,7 @@
 id = "lem-exc-closed-localization"
 kind = "lemma"
 title = "Closed-site operations under weakly etale localization"
-order = 1903
+order = 1846
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-proetale-operations", "lem-weil-pbc-proetale-restriction-injectives"]
 +++
 For the cartesian square obtained by a weakly etale $W\to X$ and a closed

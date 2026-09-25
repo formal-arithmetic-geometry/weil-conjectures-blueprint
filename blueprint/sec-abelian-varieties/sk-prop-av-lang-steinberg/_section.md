@@ -2,7 +2,7 @@
 id = "sk-prop-av-lang-steinberg"
 kind = "section"
 title = "Lang–Steinberg for $p$-linear maps"
-order = 571
+order = 564
 uses = ["sk-def-av", "sk-prop-av-fixed-points"]
 +++
 *Proposition (sketch).*

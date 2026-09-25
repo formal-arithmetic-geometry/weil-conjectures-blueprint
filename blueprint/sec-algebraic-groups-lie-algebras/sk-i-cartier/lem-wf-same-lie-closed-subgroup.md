@@ -2,8 +2,8 @@
 id = "lem-wf-same-lie-closed-subgroup"
 kind = "lemma"
 title = "Smoothness, dimension and Lie algebras of matrix groups"
-order = 2674
-uses = ["def-wf-algebraic-components", "def-wf-lie-algebra-derivation", "lem-sc-translation-automorphism", "lem-wf-affine-dimension-drop", "lem-wf-smooth-components-disjoint"]
+order = 2491
+uses = ["def-wf-algebraic-components", "def-wf-lie-algebra-derivation", "lem-ag-equal-dimension-subgroup", "lem-sc-translation-automorphism", "lem-wf-smooth-components-disjoint"]
 +++
 Let $K$ be a closed matrix group over $\overline{\mathbf Q}_\ell$.
 
@@ -71,10 +71,9 @@ irreducible.
 
 *Equal Lie algebras.* Let $K$ be connected, hence irreducible, and
 $L\subseteq K$ with $\operatorname{Lie}(L)=\operatorname{Lie}(K)$.
-By (2), equality of Lie algebras gives $\dim L=\dim K$. A proper closed
-subset of the irreducible variety $K$ has smaller dimension
-([lem-wf-affine-dimension-drop]), so
-$L=K$.
+By (2), equality of Lie algebras gives $\dim L=\dim K$, so
+[lem-ag-equal-dimension-subgroup], applied to the irreducible matrix
+group $K$ and its closed subgroup $L$, gives $L=K$.
 This proves (1).
 
 *Multiplication.* The tangent space at the identity is the space of

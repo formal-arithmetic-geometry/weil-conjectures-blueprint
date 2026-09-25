@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-exceptional-adjoint-admissibility-10"
 kind = "remark"
 title = "Admissibility on the proved constructible domains"
-order = 2351
+order = 2210
 uses = ["def-weil-exceptional-adjoint-admissibility", "lem-coef-finite-exceptional", "lem-coef-normalized-dvr-effectivity", "lem-coef-rational-operations", "prop-coef-integral-exceptional-adjoint"]
 +++
 For the constructible categories in

@@ -2,7 +2,7 @@
 id = "sk-thm-curveestimate"
 kind = "section"
 title = "Curve estimate"
-order = 1031
+order = 1022
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-prop-cd", "sk-prop-h1", "sk-prop-h2", "sk-prop-jacobian", "sk-thm-av-final"]
 +++
 *Theorem (sketch).*

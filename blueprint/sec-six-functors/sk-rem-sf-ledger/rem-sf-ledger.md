@@ -2,7 +2,7 @@
 id = "rem-sf-ledger"
 kind = "remark"
 title = "What this chapter settles, and what remains"
-order = 2405
+order = 2258
 +++
 The dependency structure of the duality material after this chapter is as
 follows. *Proved here*: the formal core (mate calculus, tensor–Hom
@@ -14,8 +14,8 @@ multiplicativity of the orientation, and the relative trace with its
 transitivity); the
 projection formula at every coefficient stage together with its coherence,
 so that axiom (A3) of [def-sf-datum] is discharged; and the duality,
-trace, similitude and reciprocity corollaries [prop-pod-verdier-dual-on-smooth], *Perfectness of the trace–cup pairing* and *The trace isomorphism*, stated conditionally on the orientation datum of
-[def-sf-orientation]. *Not here*: the orientation itself, which is
+trace, similitude and reciprocity corollaries [thm-sf-dual-perfect] (with the orientation of the smooth dualizing complex taken from the purity chapter), *Perfectness of the trace–cup pairing* and *The trace isomorphism* (stated conditionally on the orientation datum of
+[def-sf-orientation]). *Not here*: the orientation itself, which is
 constructed in the purity chapter that follows (see
 [rem-sf-orientation-pointer]), where the affine-line orientation over a
 base, the affine-space case, the Gysin sheaf/group identification, the frame
@@ -36,5 +36,5 @@ chapter supersedes are its global-duality, identification, derived-duality,
 degreewise, proper, trace and reciprocal-eigenvalue nodes; they may be
 replaced by citations of [thm-sf-global-duality],
 [thm-sf-identification], *Poincare duality, framework form*,
-[prop-pod-verdier-dual-on-smooth], *The trace isomorphism* and
+[thm-sf-dual-perfect], *The trace isomorphism* and
 *Frobenius similitudes for the constant sheaf*, which also removes the proof cycle between the six-operations package [thm-weil-six-operations] and the duality chapter.

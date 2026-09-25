@@ -2,7 +2,7 @@
 id = "sk-def-cohfamily"
 kind = "section"
 title = "The smooth-proper cohomological family"
-order = 3130
+order = 2855
 +++
 *Definition (sketch).*
 

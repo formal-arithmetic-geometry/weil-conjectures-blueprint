@@ -2,8 +2,8 @@
 id = "lem-per-smooth-pullback-t-exact"
 kind = "lemma"
 title = "Smooth pullback is perverse up to the shift"
-order = 2989
-uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "def-per-perverse-subcategories", "def-per-support-condition", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "fix-cor-verdier-exchange", "lem-per-lisse-tensor-permanence", "prop-functor-package"]
+order = 2742
+uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "cor-sf-duality-pullback", "def-per-perverse-subcategories", "def-per-support-condition", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "fix-cor-verdier-exchange", "lem-per-lisse-tensor-permanence", "prop-functor-package"]
 +++
 Let $f:X\to Y$ be a smooth
 morphism of constant relative dimension $d$ between separated schemes
@@ -43,7 +43,8 @@ $\operatorname{SuppCon}(D_YK)$, is transported along the smooth
 morphism as follows. By the Verdier exchange of
 [fix-cor-verdier-exchange] applied to the smooth morphism $f$
 (the identity $D_XLf^*M\cong Rf^!D_YM$ obtained from the exchange
-for $f$ and the second dualities of the weight-foundations chapter) and by the smooth
+for $f$ and biduality, which is the duality against pullback of
+[cor-sf-duality-pullback]) and by the smooth
 identity $Rf^!M\cong Lf^*M(d)[2d]$ (the smooth-purity form of the
 dualizing complexes of the smooth morphism,
 [cor-pur-adic-and-rational-smooth-dualizing-complexes] and [prop-functor-package]),

@@ -2,7 +2,7 @@
 id = "lemma-nagata-separated-two-open-cover"
 kind = "lemma"
 title = "[stacks-project]"
-order = 241
+order = 236
 lean = ["AlgebraicGeometry.IsSeparated.of_two_open_cover"]
 uses = ["lemma-nagata-diagonal-mixed-open"]
 +++

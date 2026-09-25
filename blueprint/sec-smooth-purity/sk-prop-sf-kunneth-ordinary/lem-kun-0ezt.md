@@ -2,7 +2,7 @@
 id = "lem-kun-0ezt"
 kind = "lemma"
 title = "Higher direct images along limits of cartesian squares"
-order = 1696
+order = 1657
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-scheme-conventions"]
 +++
 Let $I$ be directed and let

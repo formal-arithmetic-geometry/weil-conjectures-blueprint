@@ -2,7 +2,7 @@
 id = "lem-pc-cech-computes"
 kind = "lemma"
 title = "The Cech complex computes cohomology"
-order = 617
+order = 610
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-vanishing", "lem-sc-cech-spectral"]
 +++
 Let $X$ be a scheme and let $\mathcal U:X=\bigcup_{i\in I}U_i$ be an

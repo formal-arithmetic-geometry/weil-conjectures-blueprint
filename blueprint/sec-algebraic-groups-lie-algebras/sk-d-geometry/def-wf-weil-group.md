@@ -2,7 +2,7 @@
 id = "def-wf-weil-group"
 kind = "definition"
 title = "Weil group and degree"
-order = 2660
+order = 2477
 uses = ["def-tw-frobenius-action", "def-weil-pbc-scheme-conventions", "def-wf-fundamental-representation"]
 +++
 For a geometrically connected separated finite-type $k_0$-scheme

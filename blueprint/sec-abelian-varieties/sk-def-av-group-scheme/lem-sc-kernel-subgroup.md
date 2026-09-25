@@ -2,7 +2,7 @@
 id = "lem-sc-kernel-subgroup"
 kind = "lemma"
 title = "Kernels are closed subgroup schemes"
-order = 430
+order = 425
 uses = ["def-sc-group-scheme", "def-sc-group-scheme-subgroup", "def-weil-pbc-scheme-conventions"]
 +++
 Let $f:G\to H$ be a homomorphism of

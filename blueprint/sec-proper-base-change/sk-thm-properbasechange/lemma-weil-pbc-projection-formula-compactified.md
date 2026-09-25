@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-compactified"
 kind = "lemma"
 title = "Compactified finite-level projection formula"
-order = 1264
+order = 1271
 uses = ["lemma-weil-pbc-projection-formula-open-piece", "lemma-weil-pbc-projection-formula-proper-piece"]
 +++
 For a chosen compactification and a perfect $Q$ on $Y$, the ordered composite

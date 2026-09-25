@@ -2,7 +2,7 @@
 id = "lem-a1-curve-hc2-bound"
 kind = "lemma"
 title = "Top compact-support bound on a curve"
-order = 2980
+order = 2734
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "lem-a1-affine-hc2", "lem-a1-subquotient-extension-bounds", "lem-tw-tate-twist-weight-shift"]
 +++
 If $C_0$ is a smooth affine curve and $\mathcal F$ is lisse and

@@ -2,7 +2,7 @@
 id = "sk-d-integral"
 kind = "section"
 title = "Borel–Moore sections and integration"
-order = 2428
+order = 2281
 uses = ["sk-d-setup", "sk-d-six"]
 +++
 *Definition (sketch).*

@@ -2,7 +2,7 @@
 id = "sk-d-ab-tate"
 kind = "section"
 title = "Integral and rational Tate modules"
-order = 472
+order = 467
 uses = ["sk-d-ab-field"]
 +++
 *Definition (sketch).*

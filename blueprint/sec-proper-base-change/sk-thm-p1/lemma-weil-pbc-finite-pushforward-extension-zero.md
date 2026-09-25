@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-pushforward-extension-zero"
 kind = "lemma"
 title = "Finite pushforward and extension by zero"
-order = 1169
+order = 1176
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-finite-open-comparison", "lemma-weil-pbc-curve-locally-constant-reduction", "lemma-weil-pbc-finite-open-comparison-inverse", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 In a Cartesian square with $j,j'$ open immersions and $\bar v$ finite,

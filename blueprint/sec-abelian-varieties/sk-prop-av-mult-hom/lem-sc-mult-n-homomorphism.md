@@ -2,7 +2,7 @@
 id = "lem-sc-mult-n-homomorphism"
 kind = "lemma"
 title = "Multiplication by $n$ is a homomorphism"
-order = 499
+order = 494
 uses = ["def-sc-group-scheme"]
 +++
 Let $G$ be a commutative group scheme

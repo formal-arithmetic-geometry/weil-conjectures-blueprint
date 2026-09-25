@@ -2,7 +2,7 @@
 id = "sk-def-trace-cup"
 kind = "section"
 title = "Trace and trace–cup pairing"
-order = 2591
+order = 2420
 uses = ["sk-def-ops", "sk-def-sf-orientation"]
 +++
 *Definition (sketch).*

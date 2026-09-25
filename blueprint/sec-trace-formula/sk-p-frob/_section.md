@@ -2,7 +2,7 @@
 id = "sk-p-frob"
 kind = "section"
 title = "Frobenius local terms on smooth curves"
-order = 2522
+order = 2355
 uses = ["sk-d-curve-pieces", "sk-d-integral", "sk-d-local-term", "sk-d-proper-pushforward", "sk-d-trace", "sk-d-weil", "sk-i-additivity", "sk-i-curve-zero", "sk-p-local", "sk-p-proper", "sk-thm-sf-package"]
 +++
 *Proposition (sketch).*

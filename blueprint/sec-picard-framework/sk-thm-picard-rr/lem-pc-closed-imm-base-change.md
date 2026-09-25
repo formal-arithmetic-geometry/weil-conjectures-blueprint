@@ -2,7 +2,7 @@
 id = "lem-pc-closed-imm-base-change"
 kind = "lemma"
 title = "The ideal sheaf of a base-changed closed immersion"
-order = 734
+order = 726
 uses = ["def-pc-scheme"]
 +++
 (Schemes, Lemma 26.18.2, Tag

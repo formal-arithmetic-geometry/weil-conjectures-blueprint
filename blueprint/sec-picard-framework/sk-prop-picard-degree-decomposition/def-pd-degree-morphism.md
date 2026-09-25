@@ -2,7 +2,7 @@
 id = "def-pd-degree-morphism"
 kind = "definition"
 title = "The constant integers sheaf and the degree morphism"
-order = 852
+order = 843
 uses = ["def-pc-fppf-site", "def-pc-geometrically-irreducible", "def-pc-picard-functor", "def-pc-picard-presheaf", "def-pc-smooth-projective-curve", "def-pc-subfunctor", "def-pd-fibrewise-degree", "lem-pd-degree-locally-constant"]
 +++
 Let $k$ be a field. The *constant sheaf* $\underline{\Z}$ on the fppf

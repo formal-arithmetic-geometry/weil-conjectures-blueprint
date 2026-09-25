@@ -2,7 +2,7 @@
 id = "lem-kun-inverse-image-monoidal"
 kind = "lemma"
 title = "Monoidality of the derived inverse image"
-order = 1776
+order = 1734
 uses = ["def-kun-derived-tensor", "def-weil-pbc-inverse-image"]
 +++
 Let $u:U\to V$ be a morphism of schemes and $\Lambda$ a commutative

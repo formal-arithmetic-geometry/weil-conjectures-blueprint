@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-stage-killing"
 kind = "lemma"
 title = "Finite-stage killing of a class"
-order = 1135
+order = 1125
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-etale-cohomology-continuity"]
 +++
 In an affine henselian pair, if a positive-degree class $c$ dies on an

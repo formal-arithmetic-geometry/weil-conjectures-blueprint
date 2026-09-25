@@ -2,7 +2,7 @@
 id = "sk-prop-double-trace"
 kind = "section"
 title = "P10: trace-level Fourier inversion"
-order = 2953
+order = 2710
 uses = ["sk-lem-orthogonality", "sk-thm-fourier-trace-formula"]
 +++
 *Corollary (sketch).*
@@ -18,7 +18,9 @@ which is the trace function of the Tate twist $K(-1)$ at points of degree
 $n$. This is the rank-one trace-level consequence of the functorial
 inversion isomorphism in [sk-thm-inversion]; the calculation below also
 deduces it directly from the Fourier trace formula.
-(Blueprint lem:fd-double-transform-trace.)
+*Note: this corollary seems never to be used later — the inversion
+needed downstream is the functorial [sk-thm-inversion] — so it is kept only
+as a consistency check and has no detailed counterpart in the blueprint.*
 
 ## Proof
 

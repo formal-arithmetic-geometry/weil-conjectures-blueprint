@@ -2,7 +2,7 @@
 id = "lem-sc-rational-function-morphism"
 kind = "lemma"
 title = "Rational functions define morphisms to $\\mathbf P^1$"
-order = 707
+order = 698
 uses = ["def-sc-curves", "def-sc-function-field", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
 Let $C$ be a proper smooth connected curve over

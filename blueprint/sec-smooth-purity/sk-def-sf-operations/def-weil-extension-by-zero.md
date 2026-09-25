@@ -2,7 +2,7 @@
 id = "def-weil-extension-by-zero"
 kind = "definition"
 title = "Extension by zero"
-order = 1497
+order = 1471
 uses = ["def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Let $A$ be a finite commutative ring, let $U$ and $\overline X$ be schemes,

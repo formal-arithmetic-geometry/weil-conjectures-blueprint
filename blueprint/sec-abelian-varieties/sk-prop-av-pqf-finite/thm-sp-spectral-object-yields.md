@@ -2,7 +2,7 @@
 id = "thm-sp-spectral-object-yields"
 kind = "theorem"
 title = "The spectral sequence of a filtered complex"
-order = 522
+order = 515
 uses = ["def-sp-convergence", "def-sp-exact-couple", "def-sp-filtration", "def-sp-spectral-sequence", "lem-sp-couple-morphism", "lem-sp-long-exact-of-triangle", "lem-sp-page-induction"]
 +++
 Let $\mathcal A$ be an abelian category and let $K^\bullet$ be a complex in
@@ -53,15 +53,9 @@ sequence of complexes for $p\leq q\leq r$. Then:
   cohomology concentrated in degrees $[p,p+1]$, then $E_r^{p,q}=0$ unless
   $p\geq0$ and $q\geq0$, and the entries stabilize for $r>\max(p,q)+1$.
 
-**Status.** The definition formerly displayed the exact sequence
-$H_n(g)\to H_n(f)\to H_n(fg)\to H_{n+1}(g)$, which contradicts the typing of
-its own connecting maps and Verdier's convention; that is corrected in
-[def-sp-spectral-object]. The theorem formerly asserted a page formula for
-interval complexes that the definition did not supply and whose
-doubly-filtered derivation was not written; it is now the standard spectral
-sequence of a bounded filtered complex, proved from the chapter's own
-exact-couple machinery. The user of the old formula, [thm-sp-if-e1], has been
-rewired accordingly.
+**Status.** This is the standard spectral sequence of a bounded filtered
+complex, proved from the chapter's own exact-couple machinery; the user of an
+earlier page formula, [thm-sp-if-e1], has been rewired accordingly.
 
 ## Proof
 

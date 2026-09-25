@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-proetale-constant-ring-map"
 kind = "theorem"
 title = "Constant coefficients on the pro-etale site"
-order = 1228
+order = 1235
 uses = ["def-weil-pbc-inverse-image", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions"]
 tags = ["latex:proposition"]
 +++

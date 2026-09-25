@@ -2,8 +2,8 @@
 id = "lem-pod-cohomology-of-dual-over-field"
 kind = "lemma"
 title = "Cohomology of the dual of a finite complex over a field"
-order = 2619
-uses = ["def-pod-perfect-point-complex", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point"]
+order = 2439
+uses = ["def-pod-perfect-point-complex", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "prop-pod-biduality-at-the-point"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), let $C$ be a bounded complex of finite-dimensional $E$-vector spaces, and let $C^\vee =R\operatorname {Hom}_E(C,E)$. The canonical evaluation $C\otimes _E^LC^\vee \to E$ induces perfect pairings
 
@@ -37,4 +37,4 @@ $$
 H^{-i}(C^\vee )=H^i(C)^\vee ,
 $$
 
-and the evaluation is the sum of the canonical evaluations $H^j(C)\otimes H^j(C)^\vee \to E$, which are perfect pairings of finite-dimensional vector spaces; likewise the canonical comparison $C\to C^{\vee \vee }$ is the sum of the canonical isomorphisms $H^j(C)\to H^j(C)^{\vee \vee }$, each an isomorphism because a finite-dimensional vector space is reflexive. This proves all the claims, [def-weil-finite-coefficient-point] providing the identification of the derived dual over the field with the termwise dual complex.
+and the evaluation is the sum of the canonical evaluations $H^j(C)\otimes H^j(C)^\vee \to E$, which are perfect pairings of finite-dimensional vector spaces; the canonical comparison $C\to C^{\vee \vee }$ is an isomorphism by the biduality of [prop-pod-biduality-at-the-point], $C$ being a perfect point complex (Step 2), and under the decomposition of Step 1 it is the sum of the canonical isomorphisms $H^j(C)\to H^j(C)^{\vee \vee }$, each an isomorphism because a finite-dimensional vector space is reflexive. This proves all the claims, [def-weil-finite-coefficient-point] providing the identification of the derived dual over the field with the termwise dual complex.

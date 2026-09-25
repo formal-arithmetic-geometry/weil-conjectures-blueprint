@@ -2,7 +2,7 @@
 id = "sk-prop-sf-pf-reduction"
 kind = "section"
 title = "Projection formula: compatibility with finite reduction"
-order = 1942
+order = 1880
 uses = ["sk-thm-sf-pf-finite"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "d-weights"
 kind = "definition"
 title = "Operations and weight characters"
-order = 2737
+order = 2537
 uses = ["d-monodromy", "def-mg-determinant-line", "def-mg-weil-composition-series"]
 +++
 Representations of the same degree datum ([d-monodromy]) have

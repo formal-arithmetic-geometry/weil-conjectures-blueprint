@@ -2,7 +2,7 @@
 id = "def-pc-zero-scheme"
 kind = "definition"
 title = "The zero scheme of a section"
-order = 632
+order = 624
 uses = ["def-pc-scheme", "def-sc-invertible-module"]
 +++
 Let $X$ be a scheme, $\mathcal{M}$ an

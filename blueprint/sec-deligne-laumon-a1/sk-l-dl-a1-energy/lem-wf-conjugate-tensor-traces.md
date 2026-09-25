@@ -2,8 +2,8 @@
 id = "lem-wf-conjugate-tensor-traces"
 kind = "lemma"
 title = "The conjugate-tensor trace identity"
-order = 3014
-uses = ["cor-rp-euler-product", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "lem-rp-determinant-log"]
+order = 2761
+uses = ["cor-rp-euler-product", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "lem-zl-log-det-identity"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve over
 $k_0=\mathbf F_q$ (the separated finite-type conventions of
@@ -54,7 +54,14 @@ gives the logarithmic derivative of the Euler product: the coefficient
 of $t^{m-1}$ in $L'/L$ is
 $\sum_{y\in X_0(k_m)}\operatorname{Tr}(F_y\mid(\mathcal F\otimes\bar{\mathcal F})_{\bar y})$,
 the same point-counting step as in the graded Euler-product identity
-[cor-rp-euler-product], with the determinant–logarithm identity
-[lem-rp-determinant-log] carrying the logarithmic derivative of
-the factors. The displayed identity follows, and the coefficients of
+[cor-rp-euler-product], with the logarithm of the Frobenius determinant
+[lem-zl-log-det-identity] carrying the logarithmic derivative of
+the factors: for the Frobenius module
+$(\mathcal F\otimes\bar{\mathcal F})_{\bar x}$ with $F=F_x$ it gives
+$\log\det(1-TF)^{-1}=\sum_{n\ge1}\Tr(F^n)T^n/n$ in $\Qlb[[T]]$;
+substituting $T\mapsto t^{d(x)}$ and applying $t\,\frac{d}{dt}$ gives
+$t\,\frac{d}{dt}\log\det(1-F t^{d(x)})^{-1}
+=\sum_{n\ge1}d(x)\Tr(F^n)t^{d(x)n}$, and applying the field
+isomorphism $\iota$ coefficientwise transports this identity of formal
+power series from $\Qlb[[t]]$ to $\mathbf C[[t]]$. The displayed identity follows, and the coefficients of
 $\varphi_{\mathcal F}$ are nonnegative reals.

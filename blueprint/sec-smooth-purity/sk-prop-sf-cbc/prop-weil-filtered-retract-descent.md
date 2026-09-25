@@ -2,7 +2,7 @@
 id = "prop-weil-filtered-retract-descent"
 kind = "theorem"
 title = "Filtered retract descent"
-order = 1570
+order = 1541
 uses = ["def-weil-pbc-finite-stage-pair-category", "prop-weil-pbc-common-stage-calculus", "thm-weil-pbc-finite-stage-karoubian"]
 tags = ["latex:proposition"]
 +++

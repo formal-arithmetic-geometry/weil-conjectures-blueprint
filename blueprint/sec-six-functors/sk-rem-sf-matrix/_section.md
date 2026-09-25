@@ -2,7 +2,7 @@
 id = "sk-rem-sf-matrix"
 kind = "section"
 title = "The preservation matrix"
-order = 2357
+order = 2215
 +++
 *Remark (sketch).*
 

@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-dense-valuative"
 kind = "section"
 title = "Dense-source valuative criterion"
-order = 278
+order = 273
 +++
 *Lemma (sketch).*
 

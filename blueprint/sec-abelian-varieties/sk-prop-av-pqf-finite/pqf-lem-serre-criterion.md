@@ -2,7 +2,7 @@
 id = "pqf-lem-serre-criterion"
 kind = "lemma"
 title = "Serre's criterion for affineness"
-order = 547
+order = 540
 uses = ["pqf-def-coherent", "pqf-def-cohomology"]
 +++
 Let $X$ be a scheme. Assume that $X$ is quasi-compact, that $X$ is

@@ -2,7 +2,7 @@
 id = "lem-kun-fp-algebra-descent"
 kind = "lemma"
 title = "Descent of finitely presented algebras"
-order = 1695
+order = 1656
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $A=\varinjlim_{i\in I}A_i$ be a filtered colimit of commutative rings

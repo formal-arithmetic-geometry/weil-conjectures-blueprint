@@ -2,7 +2,7 @@
 id = "sk-the-final-theorem-the-abelian-variety-estimate--remark-1"
 kind = "section"
 title = "Remark"
-order = 601
+order = 594
 +++
 *Remark (sketch).*
 

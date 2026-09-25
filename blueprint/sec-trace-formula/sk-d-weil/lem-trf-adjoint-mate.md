@@ -2,7 +2,7 @@
 id = "lem-trf-adjoint-mate"
 kind = "lemma"
 title = "Mates along an isomorphism of left adjoints"
-order = 2447
+order = 2299
 uses = ["rem-trf-classical-framework"]
 +++
 Let $(\mathcal C_i,\mathcal T_i)$ be triangulated categories with

@@ -2,7 +2,7 @@
 id = "thm-pc-semicontinuity-base-change"
 kind = "theorem"
 title = "Semicontinuity and base change"
-order = 685
+order = 676
 uses = ["def-pc-base-change", "def-pc-derived-direct-image", "def-pc-derived-pullback", "def-pc-morphism-conventions", "def-pc-perfect-complex", "lem-pc-flat-complex-derived-pullback", "lem-pc-rf-perfect-base-change"]
 +++
 Let $f:X\to T$ be a proper morphism of finite presentation and let

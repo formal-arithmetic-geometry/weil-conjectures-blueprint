@@ -2,8 +2,8 @@
 id = "thm-galois-abstract-equivalence"
 kind = "theorem"
 title = "The abstract equivalence theorem"
-order = 982
-uses = ["def-galois-category", "lem-galois-aut-profinite", "lem-galois-axioms", "lem-galois-object-exists", "lem-galois-transitive"]
+order = 973
+uses = ["def-galois-category", "lem-galois-action-continuous", "lem-galois-aut-profinite", "lem-galois-axioms", "lem-galois-object-exists", "lem-galois-transitive"]
 +++
 Let $(\mathcal C,F)$ be a Galois category and
 $G=\operatorname{Aut}(F)$. Then $\mathcal C\to \text{finite-}G\text{-}\mathbf{Sets}$, $X\mapsto F(X)$ with the induced
@@ -14,6 +14,10 @@ $G$-action, is an equivalence of categories.
 Let $(\mathcal C,F)$ be a Galois category in the sense of
 [def-galois-category] and $G=\operatorname{Aut}(F)$, profinite by
 [lem-galois-aut-profinite].
+The functor is well defined: each $F(X)$ is finite, and the action of
+$G$ on it is continuous by [lem-galois-action-continuous], so $F(X)$ is a
+finite continuous $G$-set; morphisms go to $G$-equivariant maps by
+naturality.
 Step 1: faithfulness is [lem-galois-axioms](1).
 Step 2: full faithfulness. Let $s:F(X)\to F(Y)$ be $G$-equivariant. Its
 graph $\Gamma_s\subseteq F(X)\times F(Y)=F(X\times Y)$ is a union of

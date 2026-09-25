@@ -2,7 +2,7 @@
 id = "sk-lem-regular-smooth"
 kind = "section"
 title = "A regular immersion of smooth schemes over a perfect field"
-order = 2127
+order = 2031
 uses = ["sk-def-purity-conv"]
 +++
 *Lemma (sketch).*

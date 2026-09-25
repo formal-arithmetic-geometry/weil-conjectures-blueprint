@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-stein-inputs"
 kind = "remark"
 title = "The two classical inputs of Stein connectedness"
-order = 1103
+order = 1093
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-stein-factorization", "lemma-weil-pbc-spectral-restriction"]
 tags = ["latex:openproblem"]
 +++

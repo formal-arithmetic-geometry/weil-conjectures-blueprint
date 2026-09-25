@@ -2,7 +2,7 @@
 id = "def-nagata-relative-gluing-datum-descent"
 kind = "definition"
 title = "Finite-stage raw relative gluing datum"
-order = 363
+order = 358
 uses = ["def-nagata-affine-fp-descent", "def-nagata-directed-finite-upper-bound", "def-nagata-morphism-descent", "def-nagata-qc-open-descent", "def-nagata-relative-finite-affine-presentation", "lemma-nagata-affine-fp-descends", "lemma-nagata-morphism-descends", "lemma-nagata-qc-open-descends"]
 +++
 **Status.** Bypassed by the formalized route: the finite-presentation and

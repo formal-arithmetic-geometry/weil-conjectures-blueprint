@@ -2,7 +2,7 @@
 id = "sk-d-six"
 kind = "section"
 title = "The geometric operation package"
-order = 2415
+order = 2268
 uses = ["sk-d-setup"]
 +++
 *Definition (sketch).*

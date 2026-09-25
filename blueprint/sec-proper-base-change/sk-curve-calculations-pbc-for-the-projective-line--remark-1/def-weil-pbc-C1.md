@@ -2,7 +2,7 @@
 id = "def-weil-pbc-C1"
 kind = "definition"
 title = "Assertion (C1): vanishing above the dimension"
-order = 1108
+order = 1098
 uses = ["def-weil-pbc-curve-setting"]
 +++
 For every curve coefficient pair [def-weil-pbc-curve-setting] $(C,F)$: for

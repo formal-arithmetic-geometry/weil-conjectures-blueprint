@@ -2,7 +2,7 @@
 id = "sk-prop-av-finite-etale-points"
 kind = "section"
 title = "Points of finite étale group schemes"
-order = 586
+order = 579
 uses = ["sk-def-av-group-scheme"]
 +++
 *Proposition (sketch).*

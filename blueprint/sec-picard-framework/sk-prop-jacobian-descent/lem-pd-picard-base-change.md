@@ -2,7 +2,7 @@
 id = "lem-pd-picard-base-change"
 kind = "lemma"
 title = "The Picard functor is compatible with base change"
-order = 863
+order = 854
 uses = ["def-pc-base-change", "def-pc-fppf-site", "def-pc-picard-functor", "def-pc-picard-presheaf", "lem-pc-pic-presheaf-functorial"]
 +++
 Let $f:X\to S$ be a morphism of schemes and let $g:S'\to S$ be a morphism,

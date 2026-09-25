@@ -3,7 +3,7 @@ id = "prop-a1-curve-perverse-simples"
 kind = "theorem"
 tags = ["latex:proposition"]
 title = "Simple perverse sheaves on a smooth curve"
-order = 2999
+order = 2748
 uses = ["def-wf-middle-extension", "lem-weil-heart-short-exact-triangles", "lem-wf-dense-open-pi1-surjective", "thm-a1-curve-perverse-heart"]
 +++
 In the setting and with the conventions of [thm-a1-curve-perverse-heart],

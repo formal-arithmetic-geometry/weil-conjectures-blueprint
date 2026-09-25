@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-fp-envelope"
 kind = "lemma"
 title = "Properties of the final finite-presentation envelope"
-order = 405
+order = 400
 uses = ["def-nagata-final-fp-envelope", "prop-nagata-finite-type-closed-in-fp"]
 +++
 **Status.** Bypassed by the formalized route: the final assembly is carried

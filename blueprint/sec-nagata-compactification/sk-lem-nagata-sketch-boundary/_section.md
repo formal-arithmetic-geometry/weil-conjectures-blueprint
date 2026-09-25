@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-boundary"
 kind = "section"
 title = "Separating boundary closures"
-order = 249
+order = 244
 uses = ["sk-lem-nagata-sketch-blowups"]
 +++
 *Lemma (sketch).*

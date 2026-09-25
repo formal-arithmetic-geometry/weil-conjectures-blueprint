@@ -2,7 +2,7 @@
 id = "sk-lem-picard-cech-computes"
 kind = "section"
 title = "Leray's theorem for quasi-coherent sheaves"
-order = 616
+order = 609
 uses = ["sk-def-av-jacobian", "sk-lem-picard-affine", "sk-thm-picard-cech"]
 +++
 *Lemma (sketch).*

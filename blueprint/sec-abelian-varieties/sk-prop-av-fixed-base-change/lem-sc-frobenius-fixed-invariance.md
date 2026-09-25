@@ -2,7 +2,7 @@
 id = "lem-sc-frobenius-fixed-invariance"
 kind = "lemma"
 title = "Fixed points under algebraically closed base change"
-order = 575
+order = 568
 uses = ["lem-sc-lang-steinberg"]
 +++
 Let $k\subseteq k'$ be an extension of algebraically closed

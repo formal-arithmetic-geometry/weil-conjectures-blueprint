@@ -2,7 +2,7 @@
 id = "lem-pc-degree-agrees-sc"
 kind = "lemma"
 title = "Degree agrees with the degree of file 06"
-order = 821
+order = 812
 uses = ["def-pc-curve", "def-pc-degree-line-bundle", "def-pc-divisor-line-bundle", "def-sc-divisor", "def-sc-pic0", "lem-pc-degree-base-change", "lem-pc-divisor-line-bundle-properties", "lem-pc-euler-additive"]
 +++
 Let $k$ be a field, $C$ a proper smooth

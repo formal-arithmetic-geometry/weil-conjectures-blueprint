@@ -2,8 +2,8 @@
 id = "thm-sc-jacobian-representability"
 kind = "theorem"
 title = "The Jacobian over a separably closed field"
-order = 859
-uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-abelian-variety", "def-sc-jacobian", "def-sc-pic0", "def-sc-picard-functor", "lem-pc-picard-functor-agrees-sc", "lem-sc-abelian-variety-projective", "lem-sc-pic-tangent-space", "prop-pd-picard-degree-decomposition", "thm-pc-picard-representable", "thm-sc-theorem-of-the-base"]
+order = 850
+uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-abelian-variety", "def-sc-jacobian", "def-sc-pic0", "def-sc-picard-functor", "lem-pc-curves-are-sc", "lem-pc-picard-functor-agrees-sc", "lem-sc-abelian-variety-projective", "lem-sc-pic-tangent-space", "prop-pd-picard-degree-decomposition", "thm-pc-picard-representable", "thm-sc-theorem-of-the-base"]
 +++
 Let $k$ be a separably closed field and let $C$ be a
 smooth projective curve over $k$
@@ -37,7 +37,9 @@ theorems of the sources above.
 
 *(1) The Picard functor.* $\operatorname{Pic}_{C/k}$ and
 $\operatorname{Pic}^0_{C/k}\subseteq\operatorname{Pic}_{C/k}$ are
-as in [def-sc-picard-functor]; for $k$ algebraically closed,
+as in [def-sc-picard-functor]; for $k$ algebraically closed, $C$ is a
+smooth connected curve in the sense of [def-sc-pic0] by
+[lem-pc-curves-are-sc], and
 $\operatorname{Pic}^0_{C/k}(k)=\operatorname{Pic}^0(C)$ of
 [def-sc-pic0].
 

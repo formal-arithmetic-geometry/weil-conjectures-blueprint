@@ -2,7 +2,7 @@
 id = "sk-prop-deg0"
 kind = "section"
 title = "Degree-zero flat base change"
-order = 1393
+order = 1381
 uses = ["sk-def-bc"]
 +++
 *Proposition (sketch).*

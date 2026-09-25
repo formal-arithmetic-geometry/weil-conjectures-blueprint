@@ -2,7 +2,7 @@
 id = "sk-thm-picard-rr"
 kind = "section"
 title = "Riemann–Roch for curves, and its geometric corollary"
-order = 714
+order = 705
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 *Theorem (sketch).*

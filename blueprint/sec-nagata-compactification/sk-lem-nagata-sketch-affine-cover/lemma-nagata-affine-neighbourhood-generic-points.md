@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-neighbourhood-generic-points"
 kind = "lemma"
 title = "Property of the selected affine neighbourhood, [stacks-project]"
-order = 320
+order = 315
 uses = ["def-nagata-affine-neighbourhood-generic-points", "lemma-nagata-affine-neighbourhood-generic-points-exists"]
 +++
 **Status.** Bypassed by the formalized route: the affine cover meeting the

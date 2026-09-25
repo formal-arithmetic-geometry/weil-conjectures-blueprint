@@ -2,7 +2,7 @@
 id = "lem-fd-inversion"
 kind = "theorem"
 title = "Fourier inversion"
-order = 2960
+order = 2716
 uses = ["def-fd-transform", "def-wf-tate-twist", "lem-fd-convolution-kernel", "lem-fd-kernel-composition", "prop-functor-package"]
 +++
 Let $S=\Spec k$ (with $V\cong\mathbf A^r_k$ of rank $r$, and let

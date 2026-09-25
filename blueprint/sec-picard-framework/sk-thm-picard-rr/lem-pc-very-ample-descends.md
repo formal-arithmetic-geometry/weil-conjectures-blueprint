@@ -2,7 +2,7 @@
 id = "lem-pc-very-ample-descends"
 kind = "lemma"
 title = "Very ampleness descends along field extensions"
-order = 750
+order = 742
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-picard-presheaf", "def-sc-ample", "def-sc-invertible-module", "lem-pc-very-ample-ample", "lem-sc-flat-base-change-coherent"]
 +++
 Let $k$ be a field, $X$ a scheme of finite type over $k$ and $\mathcal{L}$ an

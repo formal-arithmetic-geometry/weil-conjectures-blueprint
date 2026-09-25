@@ -2,7 +2,7 @@
 id = "sk-def-sf-orientation"
 kind = "section"
 title = "Orientation: an interface record"
-order = 2143
+order = 2046
 +++
 *Definition (sketch).*
 

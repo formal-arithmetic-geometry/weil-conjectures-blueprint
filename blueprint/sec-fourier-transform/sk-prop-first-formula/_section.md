@@ -2,7 +2,7 @@
 id = "sk-prop-first-formula"
 kind = "section"
 title = "P4: the constant sheaf and the skyscraper are exchanged"
-order = 2943
+order = 2700
 uses = ["sk-lem-as-properties", "sk-prop-stalk", "sk-thm-derived-duality", "sk-thm-frobenius"]
 +++
 *Proposition (sketch).*

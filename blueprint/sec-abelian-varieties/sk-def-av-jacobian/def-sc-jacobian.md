@@ -2,7 +2,7 @@
 id = "def-sc-jacobian"
 kind = "definition"
 title = "The Jacobian"
-order = 469
+order = 464
 uses = ["def-sc-abelian-variety", "def-sc-general-curve", "def-sc-pic0", "def-sc-picard-functor"]
 +++
 Let $C$ be a geometrically integral smooth

@@ -2,7 +2,7 @@
 id = "sk-i-geometry"
 kind = "section"
 title = "Basic affine geometry"
-order = 2665
+order = 2482
 uses = ["sk-d-geometry", "sk-d-tangent"]
 +++
 *Proposition (sketch).*

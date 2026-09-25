@@ -2,7 +2,7 @@
 id = "pqf-lem-pushforward-qcoh"
 kind = "lemma"
 title = "Pushforward of quasi-coherent modules"
-order = 549
+order = 542
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-coherent", "pqf-lem-associated-sections-localize"]
 +++
 Let $f:X\to S$ be a quasi-compact and quasi-separated morphism of

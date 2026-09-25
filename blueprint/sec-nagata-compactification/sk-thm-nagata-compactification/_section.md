@@ -2,7 +2,7 @@
 id = "sk-thm-nagata-compactification"
 kind = "section"
 title = "Nagata compactification"
-order = 403
+order = 398
 uses = ["sk-cor-nagata-sketch-fp", "sk-lem-nagata-sketch-closure", "sk-prop-nagata-sketch-envelope"]
 +++
 *Theorem (sketch).*

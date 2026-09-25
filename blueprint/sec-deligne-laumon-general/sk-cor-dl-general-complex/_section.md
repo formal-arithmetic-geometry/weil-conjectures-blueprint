@@ -2,7 +2,7 @@
 id = "sk-cor-dl-general-complex"
 kind = "section"
 title = "The derived direct-image bound"
-order = 3121
+order = 2850
 uses = ["sk-d-dl-general-weights", "sk-thm-dl-general-sheaf"]
 +++
 *Corollary (sketch).*

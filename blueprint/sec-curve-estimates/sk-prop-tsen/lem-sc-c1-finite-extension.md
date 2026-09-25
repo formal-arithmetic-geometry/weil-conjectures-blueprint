@@ -2,7 +2,7 @@
 id = "lem-sc-c1-finite-extension"
 kind = "lemma"
 title = "Finite extensions of $C_1$ fields"
-order = 903
+order = 894
 uses = ["def-sc-cr-field"]
 +++
 A finite extension $L/K$ of a

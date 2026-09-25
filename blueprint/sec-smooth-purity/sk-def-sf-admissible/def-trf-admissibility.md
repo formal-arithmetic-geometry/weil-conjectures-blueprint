@@ -2,7 +2,7 @@
 id = "def-trf-admissibility"
 kind = "definition"
 title = "Exceptional-adjoint admissibility datum"
-order = 1538
+order = 1512
 uses = ["def-trf-coefficient-conventions", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum

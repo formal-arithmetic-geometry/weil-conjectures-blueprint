@@ -2,7 +2,7 @@
 id = "lem-sc-fixed-points-finite"
 kind = "lemma"
 title = "Fixed points of $p$-linear maps"
-order = 570
+order = 563
 +++
 Let $k$ be a field of characteristic $p>0$, $V$ a
 finite-dimensional $k$-vector space and $F:V\to V$ a

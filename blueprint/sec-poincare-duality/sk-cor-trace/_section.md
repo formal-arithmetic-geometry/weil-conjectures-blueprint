@@ -2,7 +2,7 @@
 id = "sk-cor-trace"
 kind = "section"
 title = "The trace isomorphism"
-order = 2622
+order = 2442
 uses = ["sk-def-trace-cup", "sk-lem-finite", "sk-thm-sf-identification"]
 +++
 *Corollary (sketch).*

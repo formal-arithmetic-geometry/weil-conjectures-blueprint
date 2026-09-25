@@ -2,7 +2,7 @@
 id = "sk-rem-layers"
 kind = "section"
 title = "The three layers, and why the order matters"
-order = 2961
+order = 2717
 +++
 *Remark (sketch).*
 

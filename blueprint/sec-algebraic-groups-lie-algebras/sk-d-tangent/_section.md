@@ -2,7 +2,7 @@
 id = "sk-d-tangent"
 kind = "section"
 title = "Tangent spaces and rational actions"
-order = 2663
+order = 2480
 uses = ["sk-d-geometry", "sk-d-lie"]
 +++
 *Definition (sketch).*

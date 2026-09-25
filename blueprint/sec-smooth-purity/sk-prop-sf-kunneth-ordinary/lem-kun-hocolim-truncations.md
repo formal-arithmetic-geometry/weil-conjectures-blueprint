@@ -2,7 +2,7 @@
 id = "lem-kun-hocolim-truncations"
 kind = "lemma"
 title = "Recovery from bounded-above truncations"
-order = 1761
+order = 1720
 uses = ["def-kun-truncations", "def-weil-pbc-derived-categories", "lem-kun-complex-colimit-hocolim"]
 +++
 For every $E\in D(T_{\Et},\Lambda)$, the canonical morphism

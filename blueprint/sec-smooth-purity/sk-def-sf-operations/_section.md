@@ -2,7 +2,7 @@
 id = "sk-def-sf-operations"
 kind = "section"
 title = "The six operations: ambient typing"
-order = 1479
+order = 1453
 +++
 *Definition (sketch).*
 

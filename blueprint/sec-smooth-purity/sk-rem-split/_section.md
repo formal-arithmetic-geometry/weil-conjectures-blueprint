@@ -2,7 +2,7 @@
 id = "sk-rem-split"
 kind = "section"
 title = "What sits where"
-order = 2133
+order = 2036
 +++
 *Remark (sketch).*
 

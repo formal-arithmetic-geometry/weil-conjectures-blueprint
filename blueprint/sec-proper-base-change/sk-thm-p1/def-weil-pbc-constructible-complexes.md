@@ -2,7 +2,7 @@
 id = "def-weil-pbc-constructible-complexes"
 kind = "definition"
 title = "Constructible finite-coefficient complexes"
-order = 1118
+order = 1108
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++
 Let $\Lambda$ be a finite commutative ring. A sheaf of $\Lambda_T$-modules on
@@ -12,7 +12,7 @@ locally constant with finite stalks [def-weil-pbc-etale-sheaves], and
 constructible subschemes on each of which the restriction is lisse. A complex
 $K\in D(T_{\Et},\Lambda)$ is *bounded constructible* if every $\mathcal
 H^i(K)$ is constructible and there are integers $a\leq b$ with $\mathcal
-H^i(K)=0$ for $i\notin[a,b]$. The corresponding full triangulated subcategory
+H^i(K)=0$ for $i\notin[a,b]$. The corresponding full subcategory
 is denoted
 
 $$

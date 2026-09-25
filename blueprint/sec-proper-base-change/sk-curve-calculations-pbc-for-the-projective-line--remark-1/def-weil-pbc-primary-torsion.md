@@ -2,7 +2,7 @@
 id = "def-weil-pbc-primary-torsion"
 kind = "definition"
 title = "$p$-primary and prime-to-$p$ torsion sheaves"
-order = 1106
+order = 1096
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-geometric-stalks"]
 +++
 Let $(C,F)$ be a curve coefficient pair [def-weil-pbc-curve-setting], and let

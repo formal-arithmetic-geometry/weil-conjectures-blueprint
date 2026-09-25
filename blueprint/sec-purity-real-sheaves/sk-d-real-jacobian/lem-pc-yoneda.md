@@ -2,7 +2,7 @@
 id = "lem-pc-yoneda"
 kind = "lemma"
 title = "Yoneda"
-order = 2818
+order = 2607
 +++
 Let $S$ be a scheme. For any functor
 $F:(\mathit{Sch}/S)^{\mathrm{op}}\to\textit{Sets}$ and any scheme $X/S$,

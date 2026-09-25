@@ -2,7 +2,7 @@
 id = "rem-dl-a1-conventions"
 kind = "remark"
 title = "Affine-line and weight conventions"
-order = 2967
+order = 2723
 uses = ["def-weil-frobenius-detailed", "def-weil-punctual-weights", "def-wf-middle-extension", "def-wf-tate-twist"]
 +++
 Fix $k_0=\mathbf F_q$, its algebraic closure $k$, a prime $\ell\ne \operatorname{char}(k_0)$, and $\iota:\DLAQ\simeq\mathbf C$. Write

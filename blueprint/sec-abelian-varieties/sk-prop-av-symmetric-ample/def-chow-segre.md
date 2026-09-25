@@ -2,7 +2,7 @@
 id = "def-chow-segre"
 kind = "definition"
 title = "Segre embedding"
-order = 481
+order = 476
 lean = ["AlgebraicGeometry.ProjectiveSpace.segre"]
 uses = ["def-nagata-affine-proj", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions", "prop-nagata-proj-standard-open"]
 +++

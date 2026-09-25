@@ -2,7 +2,7 @@
 id = "def-pc-linear-pair-morphism"
 kind = "definition"
 title = "The morphism determined by two linear forms"
-order = 658
+order = 649
 uses = ["def-pc-proj", "def-pc-standard-graded-algebra", "def-sc-p1-standard"]
 +++
 Let $S$ be a standard graded

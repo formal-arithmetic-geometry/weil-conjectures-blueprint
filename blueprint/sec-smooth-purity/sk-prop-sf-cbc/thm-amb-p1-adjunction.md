@@ -2,7 +2,7 @@
 id = "thm-amb-p1-adjunction"
 kind = "theorem"
 title = "The full projective-line adjunction"
-order = 1604
+order = 1573
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-amb-p1-trace", "def-coefficient-twists-detailed", "def-sc-p1-standard", "def-weil-pbc-derived-categories", "lem-amb-p1-diagonal-integrals", "lem-amb-proper-coproducts-projection", "lem-weil-derived-direct-image-composition", "thm-amb-p1-decomposition"]
 +++
 On the whole ordinary derived categories of etale $A$-modules,

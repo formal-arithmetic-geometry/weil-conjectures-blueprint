@@ -2,7 +2,7 @@
 id = "sk-def-av-tate"
 kind = "section"
 title = "$\\ell$-adic Tate module"
-order = 474
+order = 469
 +++
 *Definition (sketch).*
 

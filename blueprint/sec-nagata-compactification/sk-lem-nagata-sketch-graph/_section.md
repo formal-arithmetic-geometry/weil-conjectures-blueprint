@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-graph"
 kind = "section"
 title = "Proper graph extension"
-order = 246
+order = 241
 uses = ["sk-lem-nagata-sketch-elimination", "sk-lem-nagata-sketch-image-transform"]
 +++
 *Lemma (sketch).*

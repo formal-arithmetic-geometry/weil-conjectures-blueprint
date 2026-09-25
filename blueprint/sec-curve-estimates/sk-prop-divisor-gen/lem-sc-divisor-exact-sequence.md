@@ -2,7 +2,7 @@
 id = "lem-sc-divisor-exact-sequence"
 kind = "lemma"
 title = "The divisor exact sequence"
-order = 908
+order = 899
 uses = ["def-sc-curves", "lem-sc-regular-dim1-dvr"]
 +++
 Let $\overline C$ be a proper smooth

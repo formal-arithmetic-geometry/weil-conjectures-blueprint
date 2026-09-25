@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-common"
 kind = "section"
 title = "Common modification"
-order = 239
+order = 234
 uses = ["sk-lem-nagata-sketch-blowups", "sk-lem-nagata-sketch-elimination"]
 +++
 *Lemma (sketch).*

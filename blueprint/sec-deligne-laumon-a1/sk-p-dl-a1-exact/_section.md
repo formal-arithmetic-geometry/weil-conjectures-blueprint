@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-exact"
 kind = "section"
 title = "Exactness at a fixed pure weight"
-order = 3047
+order = 2783
 uses = ["sk-d-dl-a1-setup", "sk-i-dl-a1-local", "sk-p-real-semi"]
 +++
 *Proposition (sketch).*

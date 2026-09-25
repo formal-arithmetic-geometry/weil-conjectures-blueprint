@@ -2,7 +2,7 @@
 id = "sk-p-comparison"
 kind = "section"
 title = "Group–Lie comparison"
-order = 2683
+order = 2496
 uses = ["sk-d-geometry", "sk-d-lie", "sk-d-tangent", "sk-i-cartier", "sk-p-geometry"]
 +++
 *Proposition (sketch).*

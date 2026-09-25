@@ -2,7 +2,7 @@
 id = "lem-coef-normalized-dvr-effectivity"
 kind = "lemma"
 title = "Effectivity of a normalized DVR tower"
-order = 2246
+order = 2132
 uses = ["def-coef-normalized-dvr-tower", "def-weil-derived-complete", "prop-weil-pbc-roos-triangle"]
 +++
 For a tower in [def-coef-normalized-dvr-tower], put

@@ -2,7 +2,7 @@
 id = "def-sc-quasi-projective"
 kind = "definition"
 title = "Quasi-projective curves"
-order = 923
+order = 913
 uses = ["def-sc-curves"]
 +++
 A curve $C$ over $k$ is

@@ -2,7 +2,7 @@
 id = "sk-p-real-rankone"
 kind = "section"
 title = "Purity of rank-one Weil sheaves"
-order = 2828
+order = 2617
 uses = ["sk-d-real-jacobian", "sk-d-real-log", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil", "sk-def-av-jacobian", "sk-def-av-pic", "sk-i-real-compactification", "sk-i-real-sheaves", "sk-lem-finite", "sk-p-rankone", "sk-p-real-integral", "sk-p-real-operations", "sk-prop-hilbert90", "sk-prop-jacobian-descent", "sk-prop-sf-open-closed-triangle", "sk-r-linear-library", "sk-thm-av-final", "sk-thm-derived-duality", "sk-thm-frobenius"]
 +++
 *Proposition (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-proper"
 kind = "lemma"
 title = "Finite morphisms are proper"
-order = 532
+order = 525
 uses = ["def-weil-pbc-scheme-conventions", "pqf-lem-finite-integral-lft"]
 +++
 A finite [def-weil-pbc-scheme-conventions] morphism is proper.

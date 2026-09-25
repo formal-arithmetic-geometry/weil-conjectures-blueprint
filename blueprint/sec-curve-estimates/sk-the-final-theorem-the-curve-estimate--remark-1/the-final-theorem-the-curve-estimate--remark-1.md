@@ -1,7 +1,7 @@
 +++
 id = "the-final-theorem-the-curve-estimate--remark-1"
 kind = "remark"
-order = 1035
+order = 1026
 +++
 This is the final part of this section, used in [prop-weil-pbc-projective-line]
 

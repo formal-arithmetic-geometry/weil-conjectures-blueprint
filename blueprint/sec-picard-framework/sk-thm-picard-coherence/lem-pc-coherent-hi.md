@@ -2,7 +2,7 @@
 id = "lem-pc-coherent-hi"
 kind = "lemma"
 title = "Coherence and finiteness of higher direct images"
-order = 668
+order = 659
 uses = ["def-pc-morphism-conventions", "lem-pc-finite-support-hi", "lem-pc-projective-coherent-higher-images"]
 +++
 (Cohomology of Schemes, Proposition 30.19.1 (Tag

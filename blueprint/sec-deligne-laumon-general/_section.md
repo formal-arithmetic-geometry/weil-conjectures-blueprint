@@ -2,7 +2,7 @@
 id = "sec-deligne-laumon-general"
 kind = "section"
 title = "Deligne–Laumon: Reduction to the Affine Line"
-order = 3079
+order = 2809
 uses = ["sec-deligne-laumon-a1", "sec-purity-real-sheaves", "sec-six-functors", "sec-smooth-purity", "sec-trace-formula"]
 +++
 content: the formal reductions from general compact-support direct images

@@ -2,7 +2,7 @@
 id = "sk-thm-sf-dual-perfect"
 kind = "section"
 title = "The dual of a perfect complex"
-order = 2294
+order = 2177
 uses = ["sk-def-sf-orientation", "sk-lem-sf-twist-interchange", "sk-prop-sf-dualizable-biduality"]
 +++
 *Theorem (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-pc-fpqc-descent"
 kind = "lemma"
 title = "FPQC descent for quasi-coherent modules"
-order = 771
+order = 763
 uses = ["def-sc-invertible-module"]
 +++
 (Descent, Proposition 35.5.2, Tag
