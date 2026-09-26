@@ -3,7 +3,7 @@ id = "sec-algebraic-groups-lie-algebras"
 kind = "section"
 title = "Algebraic Groups and Lie Algebras"
 order = 2457
-uses = ["sec-abelian-varieties"]
+uses = ["sec-abelian-varieties", "sec-trace-formula"]
 +++
 content: Lie algebra structure, algebraic monodromy, determinant weights,
 and rank-one interfaces.  
