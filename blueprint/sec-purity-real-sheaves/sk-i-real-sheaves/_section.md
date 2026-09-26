@@ -4,6 +4,7 @@ kind = "section"
 title = "The lisse sheaf–representation equivalence"
 order = 2583
 uses = ["sk-d-real-setup", "sk-d-real-weil", "sk-i-real-galois"]
+lean = ["AlgebraicGeometry.WeilGroup.isLisseRep_exact", "AlgebraicGeometry.WeilGroup.isLisseRep"]
 +++
 *Proposition (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "Global sections as invariants"
 order = 2593
 uses = ["sec-algebraic-groups-lie-algebras", "sk-d-real-operations", "sk-d-real-weil", "sk-i-real-sheaves"]
+lean = ["AlgebraicGeometry.WeilGroup.globalSections_eq_invariants", "AlgebraicGeometry.WeilGroup.globalSections"]
 +++
 *Proposition (sketch).*
 
