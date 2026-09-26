@@ -3,6 +3,7 @@ id = "sec-abelian-varieties"
 kind = "section"
 title = "Abelian Varieties"
 order = 416
+uses = ["sec-nagata-compactification"]
 +++
 content: the abelian-variety estimates behind the curve estimates
 ([sec-curve-estimates]) and the trace formula: the theorem of the
