@@ -3,6 +3,7 @@ id = "sk-the-final-theorem-the-curve-estimate--remark-1"
 kind = "section"
 title = "Remark"
 order = 1025
+lean = ["AlgebraicGeometry.curve_cohomology_constant"]
 +++
 *Remark (sketch).*
 

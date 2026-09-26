@@ -4,6 +4,7 @@ kind = "section"
 title = "Exactness of the Kummer sequence"
 order = 875
 uses = ["sk-def-curve", "sk-def-kummer"]
+lean = ["AlgebraicGeometry.Scheme.kummerSequence_shortExact"]
 +++
 *Proposition (sketch).*
 

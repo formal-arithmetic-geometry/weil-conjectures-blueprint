@@ -4,6 +4,7 @@ kind = "section"
 title = "Affine-curve cohomological dimension"
 order = 1010
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-def-kummer", "sk-prop-br-inj", "sk-prop-cd", "sk-prop-h2", "sk-prop-kummer-exact", "sk-prop-tsen", "sk-thm-av-final"]
+lean = ["AlgebraicGeometry.subsingleton_H_of_affine_curve_of_two_le"]
 +++
 *Proposition (sketch).*
 

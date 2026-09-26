@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Cohomological dimension of a smooth affine curve"
 order = 1018
 uses = ["def-sc-curves", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-sc-affine-generic-second", "lem-sc-cohomological-dimension", "lem-sc-generic-cohomology-comparison"]
+lean = ["AlgebraicGeometry.subsingleton_H_of_affine_curve_of_two_le"]
 +++
 For a smooth affine connected curve $C$
 over an algebraically closed field and any torsion

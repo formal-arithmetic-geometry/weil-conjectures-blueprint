@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Kummer computation on a proper curve"
 order = 1024
 uses = ["def-sc-curves", "def-sc-kummer-sequence", "def-sc-mu-trivialization", "lem-sc-cohomological-dimension", "lem-sc-kummer-les", "lem-sc-pic-proper-ntorsion", "lem-sc-primitive-root"]
+lean = ["AlgebraicGeometry.curve_cohomology_constant"]
 +++
 Let $k$ be algebraically closed, let $C$ be a
 smooth proper connected curve of genus $g$ over

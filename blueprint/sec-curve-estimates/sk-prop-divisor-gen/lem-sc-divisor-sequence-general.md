@@ -4,6 +4,7 @@ kind = "lemma"
 title = "The divisor sequence of an integral regular scheme"
 order = 898
 uses = ["lem-sc-regular-dim1-dvr"]
+lean = ["AlgebraicGeometry.Scheme.exists_shortExact_divisorSequence"]
 +++
 Let $X$ be an integral regular noetherian scheme (for example a
 connected smooth scheme over a field) with generic point

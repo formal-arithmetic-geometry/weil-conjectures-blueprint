@@ -4,6 +4,7 @@ kind = "section"
 title = "Divisor sequence"
 order = 897
 uses = ["sk-def-curve"]
+lean = ["AlgebraicGeometry.Scheme.exists_shortExact_divisorSequence"]
 +++
 *Proposition (sketch).*
 
