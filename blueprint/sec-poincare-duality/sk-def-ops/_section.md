@@ -4,6 +4,7 @@ kind = "section"
 title = "The six operations, the dualizing complex, the duals"
 order = 2408
 uses = ["sk-def-set"]
+lean = ["AlgebraicGeometry.ProEtale.dualizingComplex", "AlgebraicGeometry.ProEtale.verdierDual", "AlgebraicGeometry.ProEtale.derivedDual", "AlgebraicGeometry.ProEtale.cohomology"]
 +++
 *Definition (sketch).*
 

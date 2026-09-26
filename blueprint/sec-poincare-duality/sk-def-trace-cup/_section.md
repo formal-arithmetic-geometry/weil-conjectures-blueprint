@@ -4,6 +4,7 @@ kind = "section"
 title = "Trace and trace–cup pairing"
 order = 2420
 uses = ["sk-def-ops", "sk-def-sf-orientation"]
+lean = ["AlgebraicGeometry.ProEtale.traceMap", "AlgebraicGeometry.ProEtale.traceCupPairing"]
 +++
 *Definition (sketch).*
 

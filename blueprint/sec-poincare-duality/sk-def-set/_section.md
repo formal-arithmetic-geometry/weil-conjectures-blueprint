@@ -4,6 +4,7 @@ kind = "section"
 title = "The fixed setting"
 order = 2404
 uses = ["sk-def-sf-setting"]
+lean = ["AlgebraicGeometry.PoincareDualitySetting"]
 +++
 *Remark (sketch).*
 

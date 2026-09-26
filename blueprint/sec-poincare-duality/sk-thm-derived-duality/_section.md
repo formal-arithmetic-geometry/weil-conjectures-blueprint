@@ -4,6 +4,7 @@ kind = "section"
 title = "Degreewise duality over a field"
 order = 2437
 uses = ["sk-def-pairing", "sk-lem-finite", "sk-thm-sf-identification"]
+lean = ["AlgebraicGeometry.ProEtale.degreewisePoincarePairing", "AlgebraicGeometry.ProEtale.isPerfectPairing_degreewisePoincarePairing"]
 +++
 *Corollary (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "The derived pairing, and perfectness of a pairing"
 order = 2418
 uses = ["sk-def-pairing-data", "sk-def-perfect"]
+lean = ["AlgebraicGeometry.ProEtale.poincarePairing", "CategoryTheory.MonoidalClosed.IsPerfectPairing"]
 +++
 *Definition (sketch).*
 
