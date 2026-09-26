@@ -4,6 +4,7 @@ kind = "section"
 title = "Hilbert functor is the fppf sheaf"
 order = 771
 uses = ["sk-def-av-jacobian", "sk-thm-picard-descent"]
+lean = ["AlgebraicGeometry.isSheaf_hilbertPresheaf"]
 +++
 *Corollary (sketch).*
 

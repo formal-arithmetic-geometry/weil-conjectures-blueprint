@@ -4,6 +4,7 @@ kind = "lemma"
 title = "A representability criterion via covers"
 order = 777
 uses = ["def-pc-representable-functor", "def-pc-subfunctor"]
+lean = ["AlgebraicGeometry.Scheme.LocalRepresentability.isRepresentable"]
 +++
 (Schemes, Lemma 26.15.4, Tag
 [01JJ](https://stacks.math.columbia.edu/tag/01JJ).) Let

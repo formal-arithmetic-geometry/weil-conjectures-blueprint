@@ -4,6 +4,7 @@ kind = "section"
 title = "$F$ is an open subfunctor"
 order = 821
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
+lean = ["AlgebraicGeometry.isOpenImmersion_picardFunctorF_ι"]
 +++
 *Lemma (sketch).*
 

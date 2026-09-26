@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Serre vanishing"
 order = 629
 uses = ["def-pc-projective-space-twist", "def-sc-ample", "def-sc-invertible-module", "lem-pc-closed-immersion-coherent-cohomology", "lem-pc-projective-space-serre-vanishing", "pqf-def-coherent"]
+lean = ["AlgebraicGeometry.Scheme.Modules.exists_subsingleton_H_tensor_twist"]
 +++
 (Cohomology of Schemes, Lemma 30.17.1, Tag
 [0B5U](https://stacks.math.columbia.edu/tag/0B5U), for schemes

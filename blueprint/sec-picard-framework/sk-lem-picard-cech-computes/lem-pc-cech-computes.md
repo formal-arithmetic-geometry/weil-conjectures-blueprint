@@ -4,6 +4,7 @@ kind = "lemma"
 title = "The Cech complex computes cohomology"
 order = 610
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-vanishing", "lem-sc-cech-spectral"]
+lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_cechComplex_homology_iso_H"]
 +++
 Let $X$ be a scheme and let $\mathcal U:X=\bigcup_{i\in I}U_i$ be an
 open covering such that all $U_{i_0\dots i_p}$ are affine. Then for any

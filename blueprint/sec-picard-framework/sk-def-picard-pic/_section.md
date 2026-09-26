@@ -4,6 +4,7 @@ kind = "section"
 title = "Picard functor and its $\\sigma$-normalized version"
 order = 796
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
+lean = ["AlgebraicGeometry.picardFunctor", "AlgebraicGeometry.picardFunctorNormalized"]
 +++
 *Definition (sketch).*
 

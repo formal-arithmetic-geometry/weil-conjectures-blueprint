@@ -4,6 +4,7 @@ kind = "section"
 title = "Serre's theorem B: vanishing after a twist"
 order = 622
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
+lean = ["AlgebraicGeometry.Scheme.Modules.exists_subsingleton_H_tensor_twist"]
 +++
 *Theorem (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "Semicontinuity and base change"
 order = 660
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
+lean = ["AlgebraicGeometry.Scheme.Modules.upperSemicontinuous_hFiber"]
 +++
 *Theorem (sketch).*
 

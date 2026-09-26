@@ -4,6 +4,7 @@ kind = "section"
 title = "Vanishing of cohomology on affine schemes"
 order = 605
 uses = ["sk-def-av-jacobian"]
+lean = ["AlgebraicGeometry.Scheme.Modules.subsingleton_H_succ_of_isAffine"]
 +++
 *Lemma (sketch).*
 

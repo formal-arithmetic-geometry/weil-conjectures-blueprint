@@ -4,6 +4,7 @@ kind = "section"
 title = "The Jacobian over a general base field, by Galois descent"
 order = 851
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-picard-pic", "sk-prop-jacobian"]
+lean = ["AlgebraicGeometry.exists_jacobian_descent"]
 +++
 *Proposition (sketch).*
 

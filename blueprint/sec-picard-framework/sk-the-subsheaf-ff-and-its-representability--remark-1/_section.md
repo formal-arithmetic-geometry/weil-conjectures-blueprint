@@ -3,6 +3,7 @@ id = "sk-the-subsheaf-ff-and-its-representability--remark-1"
 kind = "section"
 title = "$F$ is a subfunctor of the Hilbert functor"
 order = 832
+lean = ["AlgebraicGeometry.exists_injective_natTrans_picardFunctorF_hilbertPresheaf"]
 +++
 *Remark (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "Hilbert functor"
 order = 765
 uses = ["sk-def-av-jacobian"]
+lean = ["AlgebraicGeometry.hilbertPresheaf"]
 +++
 *Definition (sketch).*
 

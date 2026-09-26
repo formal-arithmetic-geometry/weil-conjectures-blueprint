@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Monomial cohomology of twists on projective space"
 order = 618
 uses = ["def-pc-projective-space-twist", "lem-pc-affine-vanishing", "lem-pc-cech-computes", "lem-pc-twist-cocycle", "pqf-def-cohomology"]
+lean = ["AlgebraicGeometry.ProjectiveSpace.cohomology_twist"]
 +++
 Let $A$ be a commutative ring, $n\ge1$, and $d\in\mathbf Z$.
 For the twisting modules

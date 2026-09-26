@@ -4,6 +4,7 @@ kind = "section"
 title = "Leray's theorem for quasi-coherent sheaves"
 order = 609
 uses = ["sk-def-av-jacobian", "sk-lem-picard-affine", "sk-thm-picard-cech"]
+lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_cechComplex_homology_iso_H"]
 +++
 *Lemma (sketch).*
 

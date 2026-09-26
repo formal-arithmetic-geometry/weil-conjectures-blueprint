@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Semicontinuity and base change"
 order = 676
 uses = ["def-pc-base-change", "def-pc-derived-direct-image", "def-pc-derived-pullback", "def-pc-morphism-conventions", "def-pc-perfect-complex", "lem-pc-flat-complex-derived-pullback", "lem-pc-rf-perfect-base-change"]
+lean = ["AlgebraicGeometry.Scheme.Modules.upperSemicontinuous_hFiber"]
 +++
 Let $f:X\to T$ be a proper morphism of finite presentation and let
 $\mathcal F$ be an $\mathcal O_X$-module of finite presentation, flat

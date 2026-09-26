@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Serre duality for smooth proper curves"
 order = 702
 uses = ["def-sc-curves", "def-sc-function-field", "def-sc-invertible-module", "def-sc-kahler-differentials", "lem-sc-canonical-sheaf", "lem-sc-deg-principal-zero", "lem-sc-finite-duality", "lem-sc-invertible-dual", "lem-sc-morphism-from-function", "lem-sc-p1-hi-vanishing", "lem-sc-smooth-regular", "lem-weil-pbc-finite-proper", "pqf-def-coherent", "pqf-lem-affine-vanishing", "pqf-lem-fff-vanishing", "pqf-lem-finite-qf", "pqf-lem-leray", "pqf-lem-leray-lowdegree", "pqf-lem-qf-finitefibres", "pqf-lem-sheaf-zero-stalks", "thm-pqf-finite-iff-proper-finite-fibres", "thm-sc-p1-duality"]
+lean = ["AlgebraicGeometry.Scheme.serreDuality"]
 +++
 Let $k$ be an algebraically closed field, $C$ a
 proper smooth connected curve over $k$ and

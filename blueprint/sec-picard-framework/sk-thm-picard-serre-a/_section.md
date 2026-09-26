@@ -4,6 +4,7 @@ kind = "section"
 title = "Serre's theorem A: global generation after a twist"
 order = 630
 uses = ["sk-def-av-pic", "sk-thm-picard-pn", "sk-thm-picard-serre-b"]
+lean = ["AlgebraicGeometry.Scheme.Modules.exists_generatingSections_tensor_twist"]
 +++
 *Theorem (sketch).*
 
