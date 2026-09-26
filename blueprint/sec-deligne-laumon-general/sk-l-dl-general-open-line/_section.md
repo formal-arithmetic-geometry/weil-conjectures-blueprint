@@ -3,7 +3,7 @@ id = "sk-l-dl-general-open-line"
 kind = "section"
 title = "Removing the condition at infinity"
 order = 2827
-lean = ["AlgebraicGeometry.isMixedWeightLE_higherLowerShriek_of_isOpenImmersion_projectiveLine"]
+lean = ["AlgebraicGeometry.hasWeightsAtMost_compactlySupportedCohomology_of_projectiveLine"]
 uses = ["sk-d-dl-a1-setup", "sk-d-dl-general-weights", "sk-p-real-semi", "sk-prop-sf-open-closed-triangle", "sk-thm-dl-a1-upper"]
 +++
 *Lemma (sketch).*

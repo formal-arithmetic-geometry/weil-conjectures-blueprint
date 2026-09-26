@@ -3,7 +3,7 @@ id = "sk-cor-dl-general-complex"
 kind = "section"
 title = "The derived direct-image bound"
 order = 2850
-lean = ["AlgebraicGeometry.isComplexWeightLE_derivedLowerShriek"]
+lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
 uses = ["sk-d-dl-general-weights", "sk-thm-dl-general-sheaf"]
 +++
 *Corollary (sketch).*

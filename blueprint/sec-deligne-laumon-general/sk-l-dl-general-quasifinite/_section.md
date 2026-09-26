@@ -3,7 +3,7 @@ id = "sk-l-dl-general-quasifinite"
 kind = "section"
 title = "Quasi-finite morphisms"
 order = 2817
-lean = ["AlgebraicGeometry.isZero_and_isMixedWeightLE_higherLowerShriek_of_locallyQuasiFinite"]
+lean = ["AlgebraicGeometry.isZero_higherLowerShriek_of_locallyQuasiFinite", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.higherLowerShriek_zero_of_locallyQuasiFinite", "AlgebraicGeometry.WeilSheaf.HasWeightsAtMost.higherLowerShriek_zero_of_locallyQuasiFinite"]
 uses = ["sk-d-dl-general-weights", "sk-prop-sf-cbc"]
 +++
 *Lemma (sketch).*
