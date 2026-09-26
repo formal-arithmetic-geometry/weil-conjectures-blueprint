@@ -5,6 +5,7 @@ title = "Exactness at a fixed pure weight"
 order = 2784
 uses = ["d-real-setup", "def-weil-derived-direct-image", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-a1-local-boundary-duality", "lem-a1-spectrum-exact-sequence", "lem-fix-weil-operations", "lem-tw-dual-negation", "lem-wf-boundary-semicontinuity", "lem-wf-tate-twist-frobenius", "p-linear-spectra", "prop-weil-open-closed-recollement-adjunctions", "rem-dl-a1-conventions"]
 tags = ["latex:proposition"]
+lean = ["AlgebraicGeometry.shortExact_map_directImage"]
 +++
 In the conventions of [rem-dl-a1-conventions], let
 $j:U_0\hookrightarrow C_0$ be a dense open immersion into a curve

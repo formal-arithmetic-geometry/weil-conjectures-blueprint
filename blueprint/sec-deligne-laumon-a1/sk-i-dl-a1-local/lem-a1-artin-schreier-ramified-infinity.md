@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Linear Artin–Schreier sheaves are ramified at infinity"
 order = 2728
 uses = ["d-real-boundary", "def-fd-additive-character", "def-fd-artin-schreier-sheaf", "lem-fd-as-characters", "lem-fd-as-cover", "lemma-weil-pbc-finite-stalk-formula", "rem-dl-a1-conventions"]
+lean = ["AlgebraicGeometry.not_isUnramifiedAtInfinity_artinSchreier"]
 +++
 Let $\psi=\Psi\circ\operatorname{Tr}$ be the additive character of
 [def-fd-additive-character], with $\Psi:\mathbf F_p\to\Qlb^\times$ the fixed

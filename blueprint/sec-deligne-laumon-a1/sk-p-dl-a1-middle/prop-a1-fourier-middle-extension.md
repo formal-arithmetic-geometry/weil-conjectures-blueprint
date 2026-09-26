@@ -5,6 +5,7 @@ tags = ["latex:proposition"]
 title = "Fourier transform of an irreducible middle extension"
 order = 2755
 uses = ["def-a1-constituent-nonexceptional", "def-fd-kernel", "def-fd-transform", "def-per-perverse-subcategories", "def-wf-middle-extension", "def-wf-tate-twist", "lem-fd-as-characters", "lem-fd-base-change", "lem-fd-first-formula", "lem-fd-inversion", "prop-a1-curve-perverse-simples", "prop-base-linear", "rem-dl-a1-conventions", "thm-a1-curve-perverse-heart", "thm-a1-fourier-t-exact"]
+lean = ["AlgebraicGeometry.exists_middleExtension_fourierTransform"]
 +++
 In the conventions of [rem-dl-a1-conventions], let
 $j:U_0\hookrightarrow A_0$ be a dense open immersion and let

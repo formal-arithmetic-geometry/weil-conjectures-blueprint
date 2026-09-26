@@ -5,6 +5,7 @@ title = "Fourier bound for middle-extension cohomology"
 order = 2782
 tags = ["latex:corollary"]
 uses = ["cor-fd-l2-plancherel-middle-extension", "cor-fd-origin-stationary-phase", "def-fd-nonexceptional", "def-weil-punctual-weights", "def-wf-fundamental-representation", "def-wf-middle-extension", "lem-a1-unramified-nonexceptional", "lem-wf-boundary-semicontinuity", "prop-a1-fourier-middle-extension"]
+lean = ["AlgebraicGeometry.hasWeightsAtMost_compactlySupportedCohomology_one"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion and
 let $\mathcal M$ be an irreducible

@@ -4,6 +4,7 @@ kind = "section"
 title = "The generic Fourier sheaf is pure of some weight"
 order = 2770
 uses = ["sk-p-dl-a1-correction", "sk-p-real-purity", "sk-p-real-semi", "sk-prop-kernel-lisse", "sk-thm-fourier-trace-formula"]
+lean = ["AlgebraicGeometry.exists_isPunctuallyPureOfWeight_of_isFourierPartner"]
 +++
 *Proposition (sketch).*
 

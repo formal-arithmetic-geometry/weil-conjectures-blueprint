@@ -4,6 +4,7 @@ kind = "section"
 title = "Weight detection by trace energy"
 order = 2756
 uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-linear-spectra", "sk-prop-logdet", "sk-thm-trace-transport"]
+lean = ["AlgebraicGeometry.WeilSheaf.traceEnergy", "AlgebraicGeometry.WeilSheaf.le_sub_one_of_traceEnergy_le"]
 +++
 *Lemma (sketch).*
 
