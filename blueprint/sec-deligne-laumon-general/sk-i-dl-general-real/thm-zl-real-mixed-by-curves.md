@@ -3,6 +3,7 @@ id = "thm-zl-real-mixed-by-curves"
 kind = "theorem"
 title = "Mixedness of real sheaves by reduction to the proved curve case"
 order = 2834
+lean = ["AlgebraicGeometry.isMixed_of_isReal"]
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-punctual-weights", "def-wf-iota-real", "i-topology", "lem-a1-mixed-direct-summand", "lem-zl-curve-testing-irreducibility", "lem-zl-finite-pushforward", "lem-zl-geometric-constituents-any-base", "thm-rp-real-lisse-purity-affine"]
 +++
 Every constructible $\iota$-real $\Qlb$-Weil sheaf on a separated
