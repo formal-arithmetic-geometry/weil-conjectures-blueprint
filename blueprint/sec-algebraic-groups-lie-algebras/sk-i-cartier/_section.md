@@ -4,6 +4,7 @@ kind = "section"
 title = "Characteristic-zero group smoothness"
 order = 2489
 uses = ["sk-d-geometry", "sk-d-tangent", "sk-i-geometry"]
+lean = ["AlgebraicGeometry.isReduced_of_grpObj_of_charZero"]
 +++
 *Proposition (sketch).*
 

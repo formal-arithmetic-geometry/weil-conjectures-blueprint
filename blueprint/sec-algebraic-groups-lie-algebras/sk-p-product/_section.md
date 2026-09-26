@@ -4,6 +4,7 @@ kind = "section"
 title = "The central–geometric product"
 order = 2522
 uses = ["sk-d-geometry", "sk-d-monodromy", "sk-d-tangent", "sk-i-cartier", "sk-i-restriction", "sk-p-comparison", "sk-p-geometry", "sk-p-lie"]
+lean = ["RepresentedDegreeDatum.identityComponent_eq_centerOf_mul_geometricMonodromy"]
 +++
 *Proposition (sketch).*
 

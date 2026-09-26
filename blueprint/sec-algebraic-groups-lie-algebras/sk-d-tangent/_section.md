@@ -4,6 +4,7 @@ kind = "section"
 title = "Tangent spaces and rational actions"
 order = 2480
 uses = ["sk-d-geometry", "sk-d-lie"]
+lean = ["Matrix.polyDifferential", "Matrix.tangentSpace", "Subgroup.lieAlgebra"]
 +++
 *Definition (sketch).*
 

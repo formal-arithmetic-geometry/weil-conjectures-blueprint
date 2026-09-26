@@ -4,6 +4,7 @@ kind = "section"
 title = "Affine geometry and matrix groups"
 order = 2475
 uses = ["sk-d-linear"]
+lean = ["Matrix.zariskiTopology", "Matrix.GeneralLinearGroup.zariskiTopology", "Matrix.IsRegularOn", "Matrix.IsRegularHom", "Subgroup.identityComponent", "Subgroup.centerOf"]
 +++
 *Definition (sketch).*
 

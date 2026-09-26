@@ -4,6 +4,7 @@ kind = "section"
 title = "Normal restriction and passage to closure"
 order = 2513
 uses = ["sk-d-geometry", "sk-d-linear", "sk-d-monodromy", "sk-d-tangent", "sk-i-cartier", "sk-i-geometry"]
+lean = ["Subgroup.zariskiClosure", "Representation.isSemisimple_comp_subtype_of_normal", "RepresentedDegreeDatum.normal_and_commutator_mem_geometricMonodromy"]
 +++
 *Proposition (sketch).*
 

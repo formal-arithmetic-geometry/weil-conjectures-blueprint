@@ -4,6 +4,7 @@ kind = "section"
 title = "Group–Lie comparison"
 order = 2496
 uses = ["sk-d-geometry", "sk-d-lie", "sk-d-tangent", "sk-i-cartier", "sk-p-geometry"]
+lean = ["Matrix.invariant_iff_lieAlgebra_invariant_and_mem_lieAlgebra_center"]
 +++
 *Proposition (sketch).*
 

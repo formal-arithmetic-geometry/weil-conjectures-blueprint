@@ -4,6 +4,7 @@ kind = "section"
 title = "Spectra of the operations"
 order = 2550
 uses = ["sk-d-linear", "sk-d-weights", "sk-p-linear-triangular"]
+lean = ["LinearMap.charpoly_roots_tensorProduct", "LinearMap.charpoly_roots_exteriorPower", "LinearMap.charpoly_roots_dualMap_inv"]
 +++
 *Proposition (sketch).*
 
