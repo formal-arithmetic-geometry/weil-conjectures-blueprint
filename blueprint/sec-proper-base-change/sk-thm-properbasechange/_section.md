@@ -3,6 +3,7 @@ id = "sk-thm-properbasechange"
 kind = "section"
 title = "Proper base change"
 order = 1205
+lean = ["AlgebraicGeometry.Etale.isIso_baseChange_of_isProper"]
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-pbc", "sk-thm-p1", "sk-thm-reduction"]
 +++
 *Theorem (sketch).*

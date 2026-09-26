@@ -3,6 +3,7 @@ id = "sk-thm-acyclicity"
 kind = "section"
 title = "Acyclicity criterion"
 order = 1065
+lean = ["CategoryTheory.Functor.nonempty_homologyIso_rightDerived_of_acyclic"]
 +++
 *Theorem (sketch).*
 
