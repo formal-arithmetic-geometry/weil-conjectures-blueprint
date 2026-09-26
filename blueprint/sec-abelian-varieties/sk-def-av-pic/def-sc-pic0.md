@@ -2,6 +2,7 @@
 id = "def-sc-pic0"
 kind = "definition"
 title = "Degree and $\\operatorname{Pic}^0$"
+lean = ["AlgebraicGeometry.Scheme.picZero"]
 order = 445
 uses = ["def-sc-curves", "def-sc-divisor", "def-sc-picard-group"]
 +++

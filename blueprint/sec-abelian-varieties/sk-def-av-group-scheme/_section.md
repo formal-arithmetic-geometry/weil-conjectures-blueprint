@@ -2,6 +2,7 @@
 id = "sk-def-av-group-scheme"
 kind = "section"
 title = "Group schemes, order, and étaleness"
+lean = ["CategoryTheory.GrpObj.ker", "AlgebraicGeometry.Scheme.Hom.finrankΓ"]
 order = 421
 +++
 *Definition (sketch).*

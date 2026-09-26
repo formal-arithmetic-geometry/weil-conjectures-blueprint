@@ -2,6 +2,7 @@
 id = "sk-prop-av-mult-surjective"
 kind = "section"
 title = "Surjectivity of the multiplication map"
+lean = ["AlgebraicGeometry.surjective_npow_id"]
 order = 553
 uses = ["sk-cor-av-commutative", "sk-def-av", "sk-def-av-mult-n", "sk-prop-av-char", "sk-prop-av-mult-finite", "sk-prop-av-mult-hom"]
 +++

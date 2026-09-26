@@ -2,6 +2,7 @@
 id = "def-sc-picard-group"
 kind = "definition"
 title = "The Picard group"
+lean = ["AlgebraicGeometry.Scheme.Pic"]
 order = 443
 uses = ["def-sc-curves", "def-sc-invertible-module"]
 +++

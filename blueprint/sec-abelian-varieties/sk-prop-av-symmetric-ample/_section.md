@@ -2,6 +2,7 @@
 id = "sk-prop-av-symmetric-ample"
 kind = "section"
 title = "A symmetric ample module"
+lean = ["AlgebraicGeometry.isAmple_tensorObj_overPullback_inv"]
 order = 475
 uses = ["sk-def-av", "sk-def-av-ample-degree", "sk-prop-av-projective"]
 +++

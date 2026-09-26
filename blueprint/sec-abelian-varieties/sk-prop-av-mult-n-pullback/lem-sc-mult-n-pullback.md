@@ -2,6 +2,7 @@
 id = "lem-sc-mult-n-pullback"
 kind = "lemma"
 title = "Pullback of symmetric modules under multiplication by $n$"
+lean = ["AlgebraicGeometry.nonempty_iso_pullback_npow"]
 order = 482
 uses = ["def-sc-abelian-variety", "def-sc-mult-n", "thm-sc-theorem-of-cube"]
 +++

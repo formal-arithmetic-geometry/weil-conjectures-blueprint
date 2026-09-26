@@ -2,6 +2,7 @@
 id = "sk-prop-av-finite-etale-points"
 kind = "section"
 title = "Points of finite étale group schemes"
+lean = ["AlgebraicGeometry.card_points_of_isFinite_of_etale"]
 order = 579
 uses = ["sk-def-av-group-scheme"]
 +++

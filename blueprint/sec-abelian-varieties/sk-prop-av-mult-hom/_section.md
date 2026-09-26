@@ -2,6 +2,7 @@
 id = "sk-prop-av-mult-hom"
 kind = "section"
 title = "The $n$-fold sum is a homomorphism"
+lean = ["AlgebraicGeometry.isMonHom_npow_id"]
 order = 493
 uses = ["sk-cor-av-commutative", "sk-def-av-group-scheme", "sk-def-av-mult-n"]
 +++

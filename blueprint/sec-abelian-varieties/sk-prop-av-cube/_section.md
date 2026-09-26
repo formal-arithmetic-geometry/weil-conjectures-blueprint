@@ -2,6 +2,7 @@
 id = "sk-prop-av-cube"
 kind = "section"
 title = "The theorem of the cube"
+lean = ["AlgebraicGeometry.nonempty_iso_cube"]
 order = 479
 uses = ["sk-def-av", "sk-def-av-pic"]
 +++

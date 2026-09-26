@@ -2,6 +2,7 @@
 id = "sk-def-av-ample-degree"
 kind = "section"
 title = "Ample modules and the Hilbert degree"
+lean = ["AlgebraicGeometry.IsAmple", "AlgebraicGeometry.degreeWrt"]
 order = 435
 +++
 *Definition (sketch).*

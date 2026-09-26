@@ -2,6 +2,7 @@
 id = "sk-prop-av-divisible-structure"
 kind = "section"
 title = "The torsion of a divisible group"
+lean = ["AddSubgroup.nonempty_addEquiv_torsionBy_of_divisible"]
 order = 573
 uses = ["sk-def-av"]
 +++

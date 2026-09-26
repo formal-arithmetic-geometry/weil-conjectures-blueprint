@@ -2,6 +2,7 @@
 id = "lem-sc-finite-etale-points"
 kind = "lemma"
 title = "Points of finite etale group schemes"
+lean = ["AlgebraicGeometry.card_points_of_isFinite_of_etale"]
 order = 586
 uses = ["def-sc-group-scheme", "lem-sc-finite-etale-algebra-criterion"]
 +++

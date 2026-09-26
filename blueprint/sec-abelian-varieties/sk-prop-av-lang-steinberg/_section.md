@@ -2,6 +2,7 @@
 id = "sk-prop-av-lang-steinberg"
 kind = "section"
 title = "Lang–Steinberg for $p$-linear maps"
+lean = ["LinearMap.surjective_sub_id"]
 order = 564
 uses = ["sk-def-av", "sk-prop-av-fixed-points"]
 +++

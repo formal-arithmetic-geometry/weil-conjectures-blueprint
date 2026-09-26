@@ -2,6 +2,7 @@
 id = "lem-sc-mult-n-isogeny"
 kind = "lemma"
 title = "Multiplication by $n$ is surjective with finite kernel"
+lean = ["AlgebraicGeometry.surjective_npow_id"]
 order = 555
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-mult-n", "lem-sc-image-subgroup", "lem-sc-mult-n-finite-kernel", "lem-sc-mult-n-homomorphism"]
 +++

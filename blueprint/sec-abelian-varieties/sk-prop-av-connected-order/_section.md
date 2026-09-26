@@ -2,6 +2,7 @@
 id = "sk-prop-av-connected-order"
 kind = "section"
 title = "Connected finite group schemes have $p$-power order"
+lean = ["AlgebraicGeometry.finrankΓ_eq_pow_of_connected"]
 order = 575
 uses = ["sk-def-av-group-scheme"]
 +++

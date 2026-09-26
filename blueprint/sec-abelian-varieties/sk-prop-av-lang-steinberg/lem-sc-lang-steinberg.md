@@ -2,6 +2,7 @@
 id = "lem-sc-lang-steinberg"
 kind = "lemma"
 title = "Lang–Steinberg for vector spaces"
+lean = ["LinearMap.surjective_sub_id"]
 order = 565
 +++
 Let $k$ be an algebraically closed field of characteristic
