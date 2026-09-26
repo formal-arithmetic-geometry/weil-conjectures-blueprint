@@ -4,6 +4,7 @@ kind = "section"
 title = "Local Frobenius polynomials"
 order = 2590
 uses = ["sec-algebraic-groups-lie-algebras", "sec-poincare-duality", "sk-d-real-operations", "sk-d-real-weights", "sk-d-real-weil", "sk-i-real-sheaves"]
+lean = ["AlgebraicGeometry.WeilGroup.localPolynomial_eq_charpolyRev_of_isConj"]
 +++
 *Proposition (sketch).*
 

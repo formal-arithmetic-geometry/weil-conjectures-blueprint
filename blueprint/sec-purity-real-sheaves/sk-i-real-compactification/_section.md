@@ -4,6 +4,7 @@ kind = "section"
 title = "Smooth proper completion"
 order = 2611
 uses = ["sk-d-real-setup", "sk-thm-nagata-compactification"]
+lean = ["AlgebraicGeometry.exists_smooth_properCompactification"]
 +++
 *Proposition (sketch).*
 

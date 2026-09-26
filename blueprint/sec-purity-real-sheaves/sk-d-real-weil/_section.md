@@ -4,6 +4,7 @@ kind = "section"
 title = "Weil sheaves and their representations"
 order = 2577
 uses = ["sk-d-real-setup"]
+lean = ["AlgebraicGeometry.WeilGroup", "AlgebraicGeometry.WeilGroup.IsLisse"]
 +++
 *Definition (sketch).*
 
