@@ -4,6 +4,7 @@ kind = "section"
 title = "Blow-ups and strict transforms"
 order = 87
 uses = ["sk-def-nagata-sketch-data", "sk-lem-nagata-sketch-closure"]
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isProper_blowupMap", "AlgebraicGeometry.strictTransform", "AlgebraicGeometry.IsAdmissible.exists_extend", "AlgebraicGeometry.IsAdmissible.isSchemeTheoreticallyDominant_preimage_ι"]
 +++
 *Lemma (sketch).*
 

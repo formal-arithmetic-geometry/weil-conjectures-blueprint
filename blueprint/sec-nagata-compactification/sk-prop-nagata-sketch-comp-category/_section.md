@@ -4,6 +4,7 @@ kind = "section"
 title = "The compactification category and common refinements"
 order = 408
 uses = ["sk-def-nagata-sketch-data", "sk-lem-nagata-sketch-closure", "sk-thm-nagata-compactification"]
+lean = ["AlgebraicGeometry.Compactification.category", "AlgebraicGeometry.Compactification.isCofiltered", "AlgebraicGeometry.Compactification.exists_common_refinement", "AlgebraicGeometry.Compactification.baseChange"]
 +++
 *Proposition (sketch).*
 

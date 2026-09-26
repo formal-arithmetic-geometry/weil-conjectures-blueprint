@@ -4,6 +4,7 @@ kind = "section"
 title = "Improved comparison and key disjointness"
 order = 270
 uses = ["sk-lem-nagata-sketch-image-transform", "sk-lem-nagata-sketch-near-closure", "sk-prop-nagata-sketch-prepared"]
+lean = ["AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide"]
 +++
 *Proposition (sketch).*
 

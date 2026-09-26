@@ -3,6 +3,7 @@ id = "sk-def-conv"
 kind = "section"
 title = "Scheme and morphism conventions"
 order = 1
+lean = ["AlgebraicGeometry.IsProper", "AlgebraicGeometry.IsFinite", "AlgebraicGeometry.IsImmersion", "AlgebraicGeometry.Etale"]
 +++
 *Definition (sketch).*
 

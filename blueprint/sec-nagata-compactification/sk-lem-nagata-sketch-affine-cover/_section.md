@@ -4,6 +4,7 @@ kind = "section"
 title = "Affine starting pieces and dense overlaps"
 order = 306
 uses = ["sk-lem-nagata-sketch-closure", "sk-prop-nagata-sketch-zmt"]
+lean = ["AlgebraicGeometry.Scheme.finiteAffineOpenCoverDenseIInter_spec", "AlgebraicGeometry.HasCompactification.of_isQuasiAffine"]
 +++
 *Lemma (sketch).*
 

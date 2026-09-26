@@ -3,6 +3,7 @@ id = "sk-def-nagata-sketch-data"
 kind = "section"
 title = "Compactification and admissible blow-up"
 order = 3
+lean = ["AlgebraicGeometry.Compactification", "AlgebraicGeometry.IsSchemeTheoreticallyDominant", "AlgebraicGeometry.IsAdmissible"]
 +++
 *Definition (sketch).*
 

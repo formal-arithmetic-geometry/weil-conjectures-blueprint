@@ -4,6 +4,7 @@ kind = "section"
 title = "Separating boundary closures"
 order = 244
 uses = ["sk-lem-nagata-sketch-blowups"]
+lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
 +++
 *Lemma (sketch).*
 
