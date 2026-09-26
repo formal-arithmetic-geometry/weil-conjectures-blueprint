@@ -3,6 +3,7 @@ id = "sk-thm-inversion"
 kind = "section"
 title = "P13: invertibility of the transform"
 order = 2715
+lean = ["AlgebraicGeometry.Etale.fourierTransformInversionIso", "AlgebraicGeometry.Etale.fourierTransformSquareIso"]
 uses = ["sk-lem-kernel-composition", "sk-prop-convolution-kernel"]
 +++
 *Theorem (sketch).*

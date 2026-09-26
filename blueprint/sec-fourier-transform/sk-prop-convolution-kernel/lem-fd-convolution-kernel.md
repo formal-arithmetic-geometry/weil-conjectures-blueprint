@@ -3,6 +3,7 @@ id = "lem-fd-convolution-kernel"
 kind = "lemma"
 title = "The convolution of the Fourier kernels is the delta kernel"
 order = 2714
+lean = ["AlgebraicGeometry.Etale.fourierKernelConvolutionIso"]
 uses = ["def-pod-perfect-complex-on-x", "def-pur-conventions", "def-wf-tate-twist", "fix-prop-projection-formula", "lem-fd-as-cover-affine-line", "lem-fd-as-lisse", "lem-fd-cohomology-affine-line-character", "lem-fd-kernel-composition", "lem-fd-stalk-formula", "prop-kernel-lisse", "thm-pod-degreewise-perfectness-over-a-field", "thm-pur-vector-bundle-thom"]
 +++
 Let $S=\Spec k$ and $V=\mathbf A^r_k$. Then

@@ -3,6 +3,7 @@ id = "sk-prop-kernel-lisse"
 kind = "section"
 title = "P1: the kernel is a lisse rank-one character sheaf"
 order = 2694
+lean = ["AlgebraicGeometry.Etale.fourierKernelMul", "AlgebraicGeometry.Etale.isLocallyConstantSheaf_artinSchreierSheaf"]
 uses = ["sec-smooth-purity", "sk-def-kernel", "sk-lem-as-properties"]
 +++
 *Proposition (sketch).*

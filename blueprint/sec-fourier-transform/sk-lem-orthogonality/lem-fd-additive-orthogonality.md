@@ -3,6 +3,7 @@ id = "lem-fd-additive-orthogonality"
 kind = "lemma"
 title = "Additive orthogonality over $\\mathbf F_{q^n}$"
 order = 2675
+lean = ["AddChar.sum_mulShift"]
 uses = ["def-fd-additive-character"]
 +++
 For the nondegenerate additive character $\psi_n(x)=\psi(\operatorname{Tr}_{\mathbf F_{q^n}/k_0}(x))=\Psi(\operatorname{Tr}_{\mathbf F_{q^n}/\mathbf F_p}(x))$ of $\mathbf F_{q^n}$,

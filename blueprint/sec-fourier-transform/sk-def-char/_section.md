@@ -3,6 +3,7 @@ id = "sk-def-char"
 kind = "section"
 title = "Additive characters"
 order = 2671
+lean = ["AddChar.FiniteField.primitiveChar"]
 uses = ["sk-def-fourier-set"]
 +++
 *Definition (sketch).*

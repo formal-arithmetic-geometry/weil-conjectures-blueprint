@@ -3,6 +3,7 @@ id = "cor-fd-plancherel"
 kind = "theorem"
 title = "Plancherel identity"
 order = 2709
+lean = ["AlgebraicGeometry.Etale.sum_normSq_traceFunction_affineFourierTransform"]
 tags = ["latex:corollary"]
 uses = ["def-fd-trace-function", "def-fd-transform", "lem-fd-additive-orthogonality", "thm-fd-fourier-trace"]
 +++

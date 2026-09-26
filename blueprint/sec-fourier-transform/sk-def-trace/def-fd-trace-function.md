@@ -3,6 +3,7 @@ id = "def-fd-trace-function"
 kind = "definition"
 title = "Trace function of a Weil complex"
 order = 2689
+lean = ["AlgebraicGeometry.Etale.traceFunction"]
 uses = ["def-weil-local-frobenius-trace", "def-weil-pbc-qbar-category"]
 +++
 For a Weil complex $K$ on a separated finite-type $k_0$-scheme $X_0$
