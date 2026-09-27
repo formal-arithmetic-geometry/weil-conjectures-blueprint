@@ -3,6 +3,7 @@ id = "sk-input-weights"
 kind = "section"
 title = "The weight estimate: Deligne purity"
 order = 2870
+lean = ["Polynomial.IsMixedOfWeightLE", "TraceDatum.norm_map_of_hasEigenvalue_of_pairing"]
 uses = ["sk-cor-dl-general-complex", "sk-d-dl-general-weights", "sk-d-real-weights", "sk-def-cohfamily", "sk-def-roots", "sk-p-real-purity", "sk-prop-sf-comp-proper", "sk-prop-smooth-proper-purity", "sk-thm-dl-a1-upper", "sk-thm-dl-general-sheaf", "sk-thm-poincare-duality"]
 +++
 *Proposition (sketch).*

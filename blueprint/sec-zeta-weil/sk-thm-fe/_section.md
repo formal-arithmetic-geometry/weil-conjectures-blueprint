@@ -3,6 +3,7 @@ id = "sk-thm-fe"
 kind = "section"
 title = "Functional equation"
 order = 2920
+lean = ["AlgebraicGeometry.weilSign", "AlgebraicGeometry.weilZeta_functional_equation"]
 uses = ["sk-def-roots", "sk-def-zeta", "sk-prop-reciprocity", "sk-thm-tracetodeterminant"]
 +++
 *Theorem (sketch).*

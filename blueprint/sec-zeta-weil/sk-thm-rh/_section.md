@@ -3,6 +3,7 @@ id = "sk-thm-rh"
 kind = "section"
 title = "Riemann hypothesis for smooth proper schemes"
 order = 2911
+lean = ["AlgebraicGeometry.Scheme.weil_conjectures", "Polynomial.IsUniversallyPureOfWeight"]
 uses = ["sk-def-roots", "sk-def-zeta", "sk-prop-rootpurity", "sk-thm-intfactors"]
 +++
 *Theorem (sketch).*

@@ -3,6 +3,7 @@ id = "sk-thm-betti"
 kind = "section"
 title = "Betti symmetry and the endpoint factors"
 order = 2923
+lean = ["AlgebraicGeometry.WeilFunctionalEquation.natDegree_rev", "AlgebraicGeometry.Scheme.weil_conjectures"]
 uses = ["sk-def-cohfamily", "sk-def-roots", "sk-thm-intfactors", "sk-thm-poincare-duality", "sk-thm-rationality"]
 +++
 *Theorem (sketch).*

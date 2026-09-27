@@ -3,6 +3,7 @@ id = "sk-cor-hasse"
 kind = "section"
 title = "Hasse–Weil bound"
 order = 2913
+lean = ["AlgebraicGeometry.Scheme.Hom.abs_pointCount_sub_le"]
 uses = ["sk-thm-rh", "sk-thm-trace-transport"]
 +++
 *Corollary (sketch).*
