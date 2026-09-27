@@ -4,6 +4,7 @@ kind = "section"
 title = "The degree of the dictionary"
 order = 744
 uses = ["sec-abelian-varieties", "sk-def-av-jacobian", "sk-thm-picard-rr"]
+lean = ["AlgebraicGeometry.Scheme.degree_eq_genus"]
 +++
 *Corollary (sketch).*
 

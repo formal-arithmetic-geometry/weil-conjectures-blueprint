@@ -4,6 +4,7 @@ kind = "section"
 title = "The split exact sequence"
 order = 810
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
+lean = ["AlgebraicGeometry.picard_split"]
 +++
 *Proposition (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "The general representability criterion"
 order = 775
 uses = ["sk-def-av-jacobian"]
+lean = ["AlgebraicGeometry.Scheme.LocalRepresentability.isRepresentable"]
 +++
 *Proposition (sketch).*
 

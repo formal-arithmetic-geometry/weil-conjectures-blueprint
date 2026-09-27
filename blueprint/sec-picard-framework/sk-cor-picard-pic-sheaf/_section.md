@@ -4,6 +4,7 @@ kind = "section"
 title = "Picard functor is an fppf sheaf"
 order = 808
 uses = ["sk-def-picard-pic", "sk-thm-picard-descent"]
+lean = ["AlgebraicGeometry.isSheaf_picardFunctorNormalized"]
 +++
 *Corollary (sketch).*
 

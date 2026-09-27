@@ -4,6 +4,7 @@ kind = "lemma"
 title = "The tangent space of the Picard scheme"
 order = 847
 uses = ["def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-picard-functor", "lem-sc-cech-spectral", "thm-pc-picard-representable"]
+lean = ["AlgebraicGeometry.nonempty_tangentSpaceAt_equiv_H_one"]
 +++
 Let $C$ be a smooth projective
 curve over a separably closed field $k$ which is

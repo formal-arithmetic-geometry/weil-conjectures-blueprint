@@ -5,6 +5,7 @@ title = "The degree of the dictionary"
 order = 745
 uses = ["def-pc-degree-line-bundle", "def-pc-euler-characteristic", "def-pc-smooth-projective-curve", "lem-pc-curves-are-sc", "lem-pc-genus-base-change", "lem-sc-riemann-roch"]
 tags = ["latex:corollary"]
+lean = ["AlgebraicGeometry.Scheme.degree_eq_genus"]
 +++
 Let $X$ be a smooth projective curve ([def-pc-smooth-projective-curve])
 of genus $g$ and $\cL$ a line

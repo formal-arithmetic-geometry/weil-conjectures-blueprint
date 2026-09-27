@@ -4,6 +4,7 @@ kind = "section"
 title = "Čech-to-derived"
 order = 599
 uses = ["sk-def-groth-ss"]
+lean = ["CategoryTheory.Sheaf.exists_cechToDerivedSpectralSequence"]
 +++
 *Theorem (sketch).*
 

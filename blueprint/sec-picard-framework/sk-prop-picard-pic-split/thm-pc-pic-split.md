@@ -4,6 +4,7 @@ kind = "theorem"
 title = "The split exact sequence for the Picard functor"
 order = 815
 uses = ["def-pc-pic-sigma-functor", "def-pc-picard-functor", "def-pc-subfunctor", "lem-pc-k-sheaf", "lem-pc-pic-exact"]
+lean = ["AlgebraicGeometry.picard_split"]
 +++
 (Picard Schemes of Curves, Lemma 44.4.3, Tag
 [0B9N](https://stacks.math.columbia.edu/tag/0B9N).)

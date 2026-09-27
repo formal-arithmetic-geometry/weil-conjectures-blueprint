@@ -4,6 +4,7 @@ kind = "section"
 title = "The zero-scheme dictionary"
 order = 825
 uses = ["sk-cor-picard-degree-g", "sk-def-av-jacobian", "sk-def-av-pic"]
+lean = ["AlgebraicGeometry.exists_isEffectiveCartierCenter_hilbertPresheaf_of_picardFunctorF"]
 +++
 *Lemma (sketch).*
 

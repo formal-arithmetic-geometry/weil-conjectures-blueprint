@@ -4,6 +4,7 @@ kind = "section"
 title = "$F$ is representable"
 order = 828
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
+lean = ["AlgebraicGeometry.isRepresentable_picardFunctorF"]
 +++
 *Theorem (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "The tangent space of the Jacobian"
 order = 846
 uses = ["sk-def-av-jacobian", "sk-def-picard-pic", "sk-lem-picard-cech-computes", "sk-prop-picard-degree-decomposition"]
+lean = ["AlgebraicGeometry.nonempty_tangentSpaceAt_equiv_H_one"]
 +++
 *Proposition (sketch).*
 

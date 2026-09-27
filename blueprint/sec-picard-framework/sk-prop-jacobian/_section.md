@@ -4,6 +4,7 @@ kind = "section"
 title = "The Jacobian is an abelian variety"
 order = 848
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-picard-f", "sk-lem-picard-f-open", "sk-lem-picard-zero-dictionary", "sk-prop-picard-degree-decomposition", "sk-prop-picard-jacobian-tangent", "sk-prop-picard-pic-split", "sk-thm-picard-f-representable", "sk-thm-picard-hilb-curves", "sk-thm-picard-rr", "sk-thm-picard-twist"]
+lean = ["AlgebraicGeometry.exists_jacobian"]
 +++
 *Proposition (sketch).*
 

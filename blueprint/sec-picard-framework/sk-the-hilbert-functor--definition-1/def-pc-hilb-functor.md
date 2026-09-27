@@ -4,6 +4,7 @@ kind = "definition"
 title = "The Hilbert functor $\\operatorname{Hilb}^d_{X/S}$"
 order = 767
 uses = ["def-pc-base-change", "def-pc-finite-locally-free", "def-pc-representable-functor"]
+lean = ["AlgebraicGeometry.hilbertPresheaf"]
 +++
 Let $X\to S$ be a morphism of schemes and $d\geq0$. For a scheme $T$
 over $S$ put

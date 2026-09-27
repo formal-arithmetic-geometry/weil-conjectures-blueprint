@@ -4,6 +4,7 @@ kind = "section"
 title = "Coherence of the higher direct images"
 order = 632
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
+lean = ["AlgebraicGeometry.Scheme.Modules.isFinitePresentation_higherDirectImage"]
 +++
 *Theorem (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "Grothendieck spectral sequence and its Leray specialization"
 order = 601
 uses = ["sk-def-groth-ss"]
+lean = ["CategoryTheory.Functor.exists_grothendieckSpectralSequence"]
 +++
 *Theorem (sketch).*
 

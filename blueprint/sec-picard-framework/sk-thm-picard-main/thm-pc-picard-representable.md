@@ -4,6 +4,7 @@ kind = "theorem"
 title = "The Picard scheme of a curve is representable"
 order = 837
 uses = ["cor-pc-sigma-pic-iso", "def-pc-genus", "def-pc-pic-sigma-functor", "def-pc-picard-functor", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-subfunctor", "lem-pc-f-open-subfunctor", "lem-pc-k-sheaf", "lem-pc-rational-hyp", "lem-pc-rational-points-dense", "lem-pc-sigma-k-points", "lem-pc-twist", "lem-pc-vanishing-above-dim", "lem-pc-zariski-coverings-are-fppf", "prop-pc-xk-integral", "thm-pc-criterion", "thm-pc-f-representable", "thm-pc-pic-split"]
+lean = ["AlgebraicGeometry.isRepresentable_picardFunctor"]
 +++
 (Stacks Project, Picard Schemes of Curves, Proposition 44.6.6, Tag
 [0B9Z](https://stacks.math.columbia.edu/tag/0B9Z).)

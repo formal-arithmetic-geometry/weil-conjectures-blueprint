@@ -4,6 +4,7 @@ kind = "theorem"
 title = "The Jacobian over a separably closed field"
 order = 850
 uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-abelian-variety", "def-sc-jacobian", "def-sc-pic0", "def-sc-picard-functor", "lem-pc-curves-are-sc", "lem-pc-picard-functor-agrees-sc", "lem-sc-abelian-variety-projective", "lem-sc-pic-tangent-space", "prop-pd-picard-degree-decomposition", "thm-pc-picard-representable", "thm-sc-theorem-of-the-base"]
+lean = ["AlgebraicGeometry.exists_jacobian"]
 +++
 Let $k$ be a separably closed field and let $C$ be a
 smooth projective curve over $k$
