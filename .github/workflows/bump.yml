@@ -60,8 +60,12 @@ jobs:
       # `lake update` raises lean-toolchain to the newest toolchain among the
       # dependencies, which is the tool's and newer than the project's. The
       # project's Mathlib oleans only match the project's toolchain, so that
-      # file follows the project, whatever the tool says.
+      # file follows the project, whatever the tool says. Mathlib's post-update
+      # hook would fetch its cache against the raised toolchain and fail the
+      # step before that copy, so it is skipped; the site build fetches it.
       - name: Update the pins, keeping the project's toolchain
+        env:
+          MATHLIB_NO_CACHE_ON_UPDATE: "1"
         run: |
           lake update weil-conjectures blueprint
           cp .lake/packages/weil-conjectures/lean-toolchain lean-toolchain
