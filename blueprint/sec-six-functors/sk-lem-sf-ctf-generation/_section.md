@@ -4,6 +4,7 @@ kind = "section"
 title = "Finite/open generation of $\\Dctf$"
 order = 2219
 uses = ["sk-lem-sf-determination", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-ctf-stability"]
+lean = ["AlgebraicGeometry.Etale.ctf_generated_by_lowerShriek_lowerStar_unit"]
 +++
 *Lemma (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "Direct image with finite Tor amplitude"
 order = 2190
 uses = ["sk-lem-sf-flat-model", "sk-prop-sf-finiteness"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedLowerStar_torAmplitudeIn"]
 +++
 *Theorem (sketch).*
 

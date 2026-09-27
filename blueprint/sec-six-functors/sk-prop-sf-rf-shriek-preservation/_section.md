@@ -3,6 +3,7 @@ id = "sk-prop-sf-rf-shriek-preservation"
 kind = "section"
 title = "Preservation for the exceptional inverse image"
 order = 2059
+lean = ["AlgebraicGeometry.Etale.upperShriek_preserves_of_isOpenImmersion_or_finiteEtale", "AlgebraicGeometry.Etale.upperShriek_preserves_of_isClosedImmersion", "AlgebraicGeometry.Etale.upperShriek_preserves_of_smoothOfRelativeDimension", "AlgebraicGeometry.Etale.exists_shift_upperShriek_preserves"]
 +++
 *Proposition (sketch).*
 

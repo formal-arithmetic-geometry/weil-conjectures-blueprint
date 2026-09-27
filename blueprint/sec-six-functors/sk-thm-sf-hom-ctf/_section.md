@@ -4,6 +4,7 @@ kind = "section"
 title = "Internal Hom with finite Tor amplitude"
 order = 2196
 uses = ["sk-prop-sf-biduality-general", "sk-prop-sf-finiteness"]
+lean = ["AlgebraicGeometry.Etale.derivedHom_torAmplitudeIn"]
 +++
 *Theorem (sketch).*
 

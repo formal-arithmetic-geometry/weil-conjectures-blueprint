@@ -4,6 +4,7 @@ kind = "section"
 title = "Relative product theorem"
 order = 2187
 uses = ["sk-prop-sf-cbc", "sk-prop-sf-comp-proper", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_externalProduct"]
 +++
 *Theorem (sketch).*
 

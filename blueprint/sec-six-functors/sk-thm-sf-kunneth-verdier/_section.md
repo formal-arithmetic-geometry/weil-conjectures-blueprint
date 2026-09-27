@@ -4,6 +4,7 @@ kind = "section"
 title = "Künneth–Verdier isomorphism"
 order = 2224
 uses = ["sk-def-sf-kv-maps", "sk-lem-sf-ctf-generation", "sk-lem-sf-kunneth-star", "sk-prop-sf-biduality-general", "sk-prop-sf-closed-unit", "sk-prop-sf-localization", "sk-thm-regular", "sk-thm-smooth-purity"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_externalProduct_verdierDual", "AlgebraicGeometry.Etale.hasKunnethComparisons"]
 +++
 *Theorem (sketch).*
 

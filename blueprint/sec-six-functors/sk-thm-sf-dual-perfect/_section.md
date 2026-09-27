@@ -4,6 +4,7 @@ kind = "section"
 title = "The dual of a perfect complex"
 order = 2177
 uses = ["sk-def-sf-orientation", "sk-lem-sf-twist-interchange", "sk-prop-sf-dualizable-biduality"]
+lean = ["AlgebraicGeometry.Etale.Orientation.nonempty_iso_verdierDual_coefficientDual"]
 +++
 *Theorem (sketch).*
 

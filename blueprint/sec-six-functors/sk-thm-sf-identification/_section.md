@@ -4,6 +4,7 @@ kind = "section"
 title = "The derived Poincaré pairing is the duality isomorphism"
 order = 2182
 uses = ["sk-lem-sf-twist-interchange", "sk-thm-sf-global-duality", "sk-thm-sf-tensor-hom"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_coefficientDual_of_orientation"]
 +++
 *Theorem (sketch).*
 

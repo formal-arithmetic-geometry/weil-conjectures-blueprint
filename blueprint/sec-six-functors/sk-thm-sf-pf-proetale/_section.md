@@ -4,6 +4,7 @@ kind = "section"
 title = "Projection formula: the pro-étale realization"
 order = 2099
 uses = ["sk-thm-sf-pf-field"]
+lean = ["AlgebraicGeometry.ProEtale.projectionFormulaStatement_of_boundedConstructible"]
 +++
 *Theorem (sketch).*
 

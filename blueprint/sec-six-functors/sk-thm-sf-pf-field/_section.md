@@ -4,6 +4,7 @@ kind = "section"
 title = "Projection formula: rational and algebraically closed stages"
 order = 2097
 uses = ["sk-thm-sf-pf-adic"]
+lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_field"]
 +++
 *Theorem (sketch).*
 

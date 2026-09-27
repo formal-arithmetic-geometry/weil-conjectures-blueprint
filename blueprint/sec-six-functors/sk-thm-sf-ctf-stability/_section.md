@@ -4,6 +4,7 @@ kind = "section"
 title = "Stability of the constructible finite-Tor subcategories"
 order = 2202
 uses = ["sk-cor-sf-direct-image-ctf", "sk-prop-sf-comparison", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-hom-ctf"]
+lean = ["AlgebraicGeometry.Etale.ctfStability_leftDerivedUpperStar", "AlgebraicGeometry.Etale.ctfStability_tensor", "AlgebraicGeometry.Etale.ctfStability_rightDerivedLowerStar", "AlgebraicGeometry.Etale.ctfStability_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.ctfStability_rightDerivedUpperShriek", "AlgebraicGeometry.Etale.ctfStability_verdierDual"]
 +++
 *Theorem (sketch).*
 
