@@ -4,6 +4,7 @@ kind = "section"
 title = "Jacobian torsion data and Kummer coefficients"
 order = 2606
 uses = ["sk-d-real-cohom", "sk-d-real-setup", "sk-def-av-jacobian", "sk-def-av-pic"]
+lean = ["AlgebraicGeometry.JacobianTorsionDatum", "AlgebraicGeometry.JacobianTorsionDatum.tateModule"]
 +++
 *Definition (sketch).*
 

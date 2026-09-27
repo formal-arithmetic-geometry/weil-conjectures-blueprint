@@ -4,6 +4,7 @@ kind = "section"
 title = "Integral models"
 order = 2595
 uses = ["sec-algebraic-groups-lie-algebras", "sk-d-real-weil", "sk-i-real-sheaves"]
+lean = ["AlgebraicGeometry.WeilGroup.IsLisse.exists_lattice"]
 +++
 *Proposition (sketch).*
 

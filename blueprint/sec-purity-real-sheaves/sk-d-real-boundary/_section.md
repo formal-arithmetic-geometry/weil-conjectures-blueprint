@@ -4,6 +4,7 @@ kind = "section"
 title = "Boundary extension and inertia"
 order = 2640
 uses = ["sec-algebraic-groups-lie-algebras", "sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weil"]
+lean = ["AlgebraicGeometry.BoundaryDatum", "AlgebraicGeometry.BoundaryDatum.boundaryStalk"]
 +++
 *Definition (sketch).*
 

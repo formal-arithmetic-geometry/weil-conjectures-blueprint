@@ -4,6 +4,7 @@ kind = "section"
 title = "Galois correspondence for finite local systems"
 order = 2580
 uses = ["sk-d-real-setup"]
+lean = ["AlgebraicGeometry.Scheme.exists_equivalence_isFiniteLocallyConstantSheaf", "Rep.IsFiniteContinuous"]
 +++
 *Proposition (sketch).*
 
