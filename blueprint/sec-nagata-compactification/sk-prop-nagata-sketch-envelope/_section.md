@@ -4,6 +4,7 @@ kind = "section"
 title = "Separated finite-presentation envelope"
 order = 391
 uses = ["sk-prop-nagata-sketch-fp-models"]
+lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_isSeparated_locallyOfFinitePresentation"]
 +++
 *Proposition (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "Images under admissible blow-up"
 order = 230
 uses = ["sk-lem-nagata-sketch-blowups", "sk-lem-nagata-sketch-closure"]
+lean = ["AlgebraicGeometry.Scheme.Hom.ker_lift_admissibleBlowup"]
 +++
 *Lemma (sketch).*
 

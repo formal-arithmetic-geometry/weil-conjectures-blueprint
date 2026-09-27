@@ -4,6 +4,7 @@ kind = "section"
 title = "Elimination of indeterminacy"
 order = 226
 uses = ["sk-lem-nagata-sketch-blowups", "sk-thm-nagata-sketch-conrad"]
+lean = ["AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap"]
 +++
 *Lemma (sketch).*
 

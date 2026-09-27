@@ -4,6 +4,7 @@ kind = "section"
 title = "Nagata over a Noetherian base"
 order = 321
 uses = ["sk-lem-nagata-sketch-affine-cover", "sk-thm-nagata-sketch-two-open"]
+lean = ["AlgebraicGeometry.nagataCompactification_of_isNoetherian"]
 +++
 *Theorem (sketch).*
 

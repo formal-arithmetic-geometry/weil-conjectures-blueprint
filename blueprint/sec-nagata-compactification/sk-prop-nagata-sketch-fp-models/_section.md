@@ -4,6 +4,7 @@ kind = "section"
 title = "Finite-presentation models of a finite-type morphism"
 order = 379
 uses = ["sk-prop-nagata-sketch-approximation"]
+lean = ["AlgebraicGeometry.Scheme.Hom.nonempty_finitePresentationApproximation"]
 +++
 *Proposition (sketch).*
 

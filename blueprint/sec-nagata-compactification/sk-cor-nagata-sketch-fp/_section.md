@@ -4,6 +4,7 @@ kind = "section"
 title = "Nagata for finite presentation"
 order = 370
 uses = ["sk-lem-nagata-sketch-closure", "sk-prop-nagata-sketch-approximation", "sk-thm-nagata-sketch-noetherian"]
+lean = ["AlgebraicGeometry.nagataCompactification_of_locallyOfFinitePresentation"]
 +++
 *Corollary (sketch).*
 

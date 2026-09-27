@@ -3,6 +3,7 @@ id = "sk-lem-nagata-sketch-dense-valuative"
 kind = "section"
 title = "Dense-source valuative criterion"
 order = 273
+lean = ["AlgebraicGeometry.UniversallyClosed.of_valuativeCriterion_of_isDominant", "AlgebraicGeometry.IsSeparated.of_valuativeCriterion_of_isDominant"]
 +++
 *Lemma (sketch).*
 
