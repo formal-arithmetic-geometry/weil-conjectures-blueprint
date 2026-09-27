@@ -210556,6 +210556,16 @@
    "body": "",
    "attrs": {}},
   {"source":
+   {"file": "blueprint/sec-abelian-varieties/_section.md", "anonymous": true},
+   "kind": "uses",
+   "id": "uses/sec-abelian-varieties/sec-nagata-compactification",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "sec-abelian-varieties"},
+    {"role": "tgt", "id": "sec-nagata-compactification"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
    {"file": "blueprint/sec-algebraic-groups-lie-algebras/_section.md",
     "anonymous": true},
    "kind": "uses",
@@ -210564,6 +210574,17 @@
    "boundary":
    [{"role": "src", "id": "sec-algebraic-groups-lie-algebras"},
     {"role": "tgt", "id": "sec-abelian-varieties"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file": "blueprint/sec-algebraic-groups-lie-algebras/_section.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/sec-algebraic-groups-lie-algebras/sec-trace-formula",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "sec-algebraic-groups-lie-algebras"},
+    {"role": "tgt", "id": "sec-trace-formula"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -210614,6 +210635,16 @@
    "boundary":
    [{"role": "src", "id": "sec-curve-estimates"},
     {"role": "tgt", "id": "sk-thm-av-final"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file": "blueprint/sec-deligne-laumon-a1/_section.md", "anonymous": true},
+   "kind": "uses",
+   "id": "uses/sec-deligne-laumon-a1/sec-algebraic-groups-lie-algebras",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "sec-deligne-laumon-a1"},
+    {"role": "tgt", "id": "sec-algebraic-groups-lie-algebras"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -210677,13 +210708,14 @@
    "body": "",
    "attrs": {}},
   {"source":
-   {"file": "blueprint/sec-deligne-laumon-a1/_section.md", "anonymous": true},
+   {"file": "blueprint/sec-deligne-laumon-general/_section.md",
+    "anonymous": true},
    "kind": "uses",
-   "id": "uses/sec-deligne-laumon-a1/sec-zeta-weil",
+   "id": "uses/sec-deligne-laumon-general/sec-algebraic-groups-lie-algebras",
    "depth": 1,
    "boundary":
-   [{"role": "src", "id": "sec-deligne-laumon-a1"},
-    {"role": "tgt", "id": "sec-zeta-weil"}],
+   [{"role": "src", "id": "sec-deligne-laumon-general"},
+    {"role": "tgt", "id": "sec-algebraic-groups-lie-algebras"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -210744,11 +210776,41 @@
   {"source":
    {"file": "blueprint/sec-fourier-transform/_section.md", "anonymous": true},
    "kind": "uses",
+   "id": "uses/sec-fourier-transform/sec-poincare-duality",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "sec-fourier-transform"},
+    {"role": "tgt", "id": "sec-poincare-duality"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file": "blueprint/sec-fourier-transform/_section.md", "anonymous": true},
+   "kind": "uses",
+   "id": "uses/sec-fourier-transform/sec-smooth-purity",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "sec-fourier-transform"},
+    {"role": "tgt", "id": "sec-smooth-purity"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file": "blueprint/sec-fourier-transform/_section.md", "anonymous": true},
+   "kind": "uses",
    "id": "uses/sec-fourier-transform/sk-thm-av-final",
    "depth": 1,
    "boundary":
    [{"role": "src", "id": "sec-fourier-transform"},
     {"role": "tgt", "id": "sk-thm-av-final"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file": "blueprint/sec-picard-framework/_section.md", "anonymous": true},
+   "kind": "uses",
+   "id": "uses/sec-picard-framework/sec-abelian-varieties",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "sec-picard-framework"},
+    {"role": "tgt", "id": "sec-abelian-varieties"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -210824,6 +210886,16 @@
   {"source":
    {"file": "blueprint/sec-purity-real-sheaves/_section.md", "anonymous": true},
    "kind": "uses",
+   "id": "uses/sec-purity-real-sheaves/sec-abelian-varieties",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "sec-purity-real-sheaves"},
+    {"role": "tgt", "id": "sec-abelian-varieties"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file": "blueprint/sec-purity-real-sheaves/_section.md", "anonymous": true},
+   "kind": "uses",
    "id": "uses/sec-purity-real-sheaves/sec-algebraic-groups-lie-algebras",
    "depth": 1,
    "boundary":
@@ -210869,6 +210941,16 @@
    "boundary":
    [{"role": "src", "id": "sec-purity-real-sheaves"},
     {"role": "tgt", "id": "sec-poincare-duality"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file": "blueprint/sec-purity-real-sheaves/_section.md", "anonymous": true},
+   "kind": "uses",
+   "id": "uses/sec-purity-real-sheaves/sec-six-functors",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "sec-purity-real-sheaves"},
+    {"role": "tgt", "id": "sec-six-functors"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -251599,27 +251681,6 @@
    "doc": "The restriction of the cokernel of `φ` to `J.over U` is constant.",
    "deps": ["CategoryTheory.Sheaf.IsConstant"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "CategoryTheory.Sheaf.IsConstant.isLocallyConstantSheaf":
-  {"status": "proved",
-   "signature":
-   "theorem CategoryTheory.Sheaf.IsConstant.isLocallyConstantSheaf.{u, u'} {X : AlgebraicGeometry.Scheme}\n  {A : Type u'} [CategoryTheory.Category.{u + 1, u'} A] [CategoryTheory.HasSmallSiteSheafify A]\n  [∀ (U : X.Etale) (P : CategoryTheory.Functor (CategoryTheory.Over U)ᵒᵖ A),\n      (CategoryTheory.Over.forget U).op.HasPointwiseRightKanExtension P]\n  {F : CategoryTheory.Sheaf X.smallEtaleTopology A}\n  (h : CategoryTheory.Sheaf.IsConstant X.smallEtaleTopology F) :\n  AlgebraicGeometry.Scheme.IsLocallyConstantSheaf F",
-   "range":
-   {"startLine": 151,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/ConstructibleSheaf/Defs.lean",
-    "endLine": 161},
-   "module": "WeilConjectures.ConstructibleSheaf.Defs",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "A constant sheaf on the small étale site is locally constant, trivialized by the\nidentity cover. The right Kan extension hypothesis compares sheafification on the small\nétale site with sheafification on its localizations; it always holds mathematically, see\nthe module implementation notes.",
-   "deps":
-   ["AlgebraicGeometry.Scheme.IsLocallyConstantSheaf",
-    "AlgebraicGeometry.Scheme.LocallyConstantDatum",
-    "CategoryTheory.Limits.diagonal_pullback_fst",
-    "CategoryTheory.Sheaf.IsConstant",
-    "Ideal.map_pow"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "CategoryTheory.Sheaf.IsConstant.biprod":
   {"status": "proved",
    "signature":
@@ -274408,11 +274469,6 @@
     "'uses' edge thm-weil-final-rationality -> prop-euler-product is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
-   {"objects": ["sec-abelian-varieties", "sec-nagata-compactification"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-abelian-varieties -> sec-nagata-compactification, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
    {"objects": ["sec-abelian-varieties", "sk-def-conv"],
     "message":
     "under 'refines' (expanding 'sec-nagata-compactification'): a hidden 'uses' edge gives sec-abelian-varieties -> sk-def-conv, which the coarse story does not declare",
@@ -274472,11 +274528,6 @@
    {"objects": ["sec-algebraic-groups-lie-algebras", "sec-smooth-purity"],
     "message":
     "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-algebraic-groups-lie-algebras -> sec-smooth-purity, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects": ["sec-algebraic-groups-lie-algebras", "sec-trace-formula"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-algebraic-groups-lie-algebras -> sec-trace-formula, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
    {"objects": ["sec-algebraic-groups-lie-algebras", "sk-d-ab-field"],
@@ -274639,11 +274690,6 @@
    {"objects": ["sec-deligne-laumon-a1", "sec-abelian-varieties"],
     "message":
     "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-deligne-laumon-a1 -> sec-abelian-varieties, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects": ["sec-deligne-laumon-a1", "sec-algebraic-groups-lie-algebras"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-deligne-laumon-a1 -> sec-algebraic-groups-lie-algebras, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
    {"objects": ["sec-deligne-laumon-a1", "sec-curve-estimates"],
@@ -275031,12 +275077,6 @@
     "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-deligne-laumon-general -> sec-abelian-varieties, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
-   {"objects":
-    ["sec-deligne-laumon-general", "sec-algebraic-groups-lie-algebras"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-deligne-laumon-general -> sec-algebraic-groups-lie-algebras, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
    {"objects": ["sec-deligne-laumon-general", "sec-curve-estimates"],
     "message":
     "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-deligne-laumon-general -> sec-curve-estimates, which the coarse story does not declare",
@@ -275269,11 +275309,6 @@
     "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-fourier-transform -> sec-nagata-compactification, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
-   {"objects": ["sec-fourier-transform", "sec-poincare-duality"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-fourier-transform -> sec-poincare-duality, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
    {"objects": ["sec-fourier-transform", "sec-proper-base-change"],
     "message":
     "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-fourier-transform -> sec-proper-base-change, which the coarse story does not declare",
@@ -275287,11 +275322,6 @@
    {"objects": ["sec-fourier-transform", "sec-smooth-base-change"],
     "message":
     "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-fourier-transform -> sec-smooth-base-change, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects": ["sec-fourier-transform", "sec-smooth-purity"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-fourier-transform -> sec-smooth-purity, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
    {"objects": ["sec-fourier-transform", "sec-trace-formula"],
@@ -275392,11 +275422,6 @@
    {"objects": ["sec-fourier-transform", "sk-thm-vanishing"],
     "message":
     "under 'refines' (expanding 'sec-smooth-base-change'): a hidden 'uses' edge gives sec-fourier-transform -> sk-thm-vanishing, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects": ["sec-picard-framework", "sec-abelian-varieties"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-picard-framework -> sec-abelian-varieties, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
    {"objects": ["sec-picard-framework", "sec-nagata-compactification"],
@@ -275780,19 +275805,9 @@
     "under 'refines' (expanding 'sec-picard-framework'): a hidden 'uses' edge gives sec-proper-base-change -> sk-thm-picard-semicon, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
-   {"objects": ["sec-purity-real-sheaves", "sec-abelian-varieties"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-purity-real-sheaves -> sec-abelian-varieties, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
    {"objects": ["sec-purity-real-sheaves", "sec-proper-base-change"],
     "message":
     "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-purity-real-sheaves -> sec-proper-base-change, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects": ["sec-purity-real-sheaves", "sec-six-functors"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-purity-real-sheaves -> sec-six-functors, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
    {"objects": ["sec-purity-real-sheaves", "sec-smooth-base-change"],
@@ -283472,11 +283487,6 @@
     "under 'refines' (expanding 'sec-zeta-weil'): a hidden 'uses' edge gives sk-thm-weil5 -> sk-thm-weil4, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
-   {"objects": ["sec-deligne-laumon-a1", "sec-zeta-weil"],
-    "message":
-    "under 'refines' (fully collapsed): 'uses' edge sec-deligne-laumon-a1 -> sec-zeta-weil is declared but no detail below witnesses it",
-    "level": "info",
-    "code": "unwitnessed-edge"},
    {"objects": ["sec-fourier-transform", "sk-thm-av-final"],
     "message":
     "under 'refines' (expanding 'sec-abelian-varieties'): 'uses' edge sec-fourier-transform -> sk-thm-av-final is declared but no detail below witnesses it",
