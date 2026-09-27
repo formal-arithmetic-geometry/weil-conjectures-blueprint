@@ -4,6 +4,7 @@ kind = "section"
 title = "Degree-zero flat base change"
 order = 1381
 uses = ["sk-def-bc"]
+lean = ["AlgebraicGeometry.Etale.baseChangeProperty_zero", "AlgebraicGeometry.Etale.baseChangeProperty_zero_of_smooth"]
 +++
 *Proposition (sketch).*
 

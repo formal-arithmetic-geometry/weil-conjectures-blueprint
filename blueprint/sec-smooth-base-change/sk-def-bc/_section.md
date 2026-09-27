@@ -3,6 +3,7 @@ id = "sk-def-bc"
 kind = "section"
 title = "The recorded base-change property"
 order = 1364
+lean = ["AlgebraicGeometry.Etale.BaseChangeProperty", "AlgebraicGeometry.Etale.baseChangeHomologyMap"]
 +++
 *Definition (sketch).*
 

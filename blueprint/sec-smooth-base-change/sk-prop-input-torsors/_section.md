@@ -4,6 +4,7 @@ kind = "section"
 title = "Torsors and étale $H^1$"
 order = 1406
 uses = ["sk-def-smooth"]
+lean = ["AlgebraicGeometry.Scheme.EtaleTorsor", "AlgebraicGeometry.Scheme.EtaleTorsor.exists_surjective_sheafH"]
 +++
 *Proposition (sketch).*
 
