@@ -4,6 +4,7 @@ kind = "section"
 title = "The zero-extension comparison"
 order = 2767
 uses = ["sk-p-dl-a1-middle", "sk-p-dl-a1-perverse", "sk-p-real-semi"]
+lean = ["AlgebraicGeometry.exists_shortExact_fourierTransform_extensionByZero"]
 +++
 *Proposition (sketch).*
 

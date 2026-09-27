@@ -4,6 +4,7 @@ kind = "section"
 title = "The Fourier upper weight"
 order = 2777
 uses = ["sk-cor-plancherel", "sk-l-dl-a1-energy", "sk-p-dl-a1-correction", "sk-p-dl-a1-some-weight"]
+lean = ["AlgebraicGeometry.le_add_one_of_isPunctuallyPureOfWeight_of_isFourierPartner"]
 +++
 *Proposition (sketch).*
 
