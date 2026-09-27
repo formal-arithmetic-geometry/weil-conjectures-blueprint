@@ -4,6 +4,7 @@ kind = "section"
 title = "Projection formula: compatibility with finite reduction"
 order = 1880
 uses = ["sk-thm-sf-pf-finite"]
+lean = ["AlgebraicGeometry.Etale.isIso_projectionFormulaMap_iff_reduction"]
 +++
 *Proposition (sketch).*
 

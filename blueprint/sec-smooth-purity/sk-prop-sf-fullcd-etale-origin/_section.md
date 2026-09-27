@@ -4,6 +4,7 @@ kind = "section"
 title = "$\\operatorname{FullCD}$ on the étale-origin class"
 order = 1787
 uses = ["sk-def-sf-admissible", "sk-prop-sf-comparison", "sk-prop-sf-finiteness"]
+lean = ["AlgebraicGeometry.ProEtale.isZero_homology_rightDerivedLowerStar_comparisonUpperStar"]
 +++
 *Proposition (sketch).*
 

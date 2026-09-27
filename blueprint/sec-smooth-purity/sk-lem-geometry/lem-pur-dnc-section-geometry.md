@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Geometry of the deformation"
 order = 1998
 uses = ["cor-pur-vector-bundle-purity", "def-pur-co-smoothness", "def-pur-conventions", "def-pur-dnc-section-family", "def-pur-normal-bundle", "def-pur-section-invariant", "def-weil-scheme-morphism-properties", "lem-pur-regular-immersion-linearization", "sbc-thm-etale-local-normal-form"]
+lean = ["AlgebraicGeometry.Scheme.Hom.deformationToNormalCone_spec"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting), in the situation of
 [def-pur-dnc-section-family] with $g:V\to B$ smooth of pure

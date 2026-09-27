@@ -4,6 +4,7 @@ kind = "section"
 title = "The diagonal is a regular immersion"
 order = 2003
 uses = ["sk-def-purity-conv"]
+lean = ["AlgebraicGeometry.isRegularImmersion_diagonal"]
 +++
 *Lemma (sketch).*
 

@@ -3,6 +3,7 @@ id = "sk-prop-sf-finiteness"
 kind = "section"
 title = "Finiteness and constructibility"
 order = 1652
+lean = ["AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar", "AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerShriek"]
 +++
 *Proposition (sketch).*
 

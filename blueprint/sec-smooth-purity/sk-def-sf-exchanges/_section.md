@@ -3,6 +3,7 @@ id = "sk-def-sf-exchanges"
 kind = "section"
 title = "Exchange and projection transformations, typed"
 order = 1500
+lean = ["AlgebraicGeometry.Etale.derivedLowerShriekExchange", "AlgebraicGeometry.Etale.projectionFormulaMap", "AlgebraicGeometry.Etale.baseChange"]
 +++
 *Definition (sketch).*
 

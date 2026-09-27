@@ -4,6 +4,7 @@ kind = "section"
 title = "Determination on a generating class"
 order = 1862
 uses = ["sk-def-sf-operations"]
+lean = ["CategoryTheory.Pretriangulated.isIso₃_of_isIso₁₂"]
 +++
 *Lemma (sketch).*
 
