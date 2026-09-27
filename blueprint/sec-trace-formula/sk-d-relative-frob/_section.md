@@ -4,6 +4,7 @@ kind = "section"
 title = "The relative Frobenius factorization"
 order = 2359
 uses = ["sk-d-setup", "sk-d-weil"]
+lean = ["AlgebraicGeometry.ProEtale.relativeFrobenius"]
 +++
 *Definition (sketch).*
 

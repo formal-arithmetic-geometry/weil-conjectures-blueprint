@@ -4,6 +4,7 @@ kind = "section"
 title = "Trace on perfect complexes"
 order = 2302
 uses = ["sk-d-trace"]
+lean = ["DerivedCategory.trace_eq_sum_negOnePow_trace"]
 +++
 *Proposition (sketch).*
 

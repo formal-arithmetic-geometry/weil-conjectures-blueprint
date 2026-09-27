@@ -4,6 +4,7 @@ kind = "section"
 title = "Localization trace additivity"
 order = 2351
 uses = ["sk-d-curve-pieces", "sk-d-integral", "sk-d-local-term", "sk-d-trace-class"]
+lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.traceClass_graph_eq_traceClass_add_traceClass"]
 +++
 *Proposition (sketch).*
 

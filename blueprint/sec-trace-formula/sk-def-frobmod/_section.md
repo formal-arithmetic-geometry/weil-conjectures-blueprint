@@ -3,6 +3,7 @@ id = "sk-def-frobmod"
 kind = "section"
 title = "Frobenius modules and their trace series"
 order = 2387
+lean = ["LinearMap.traceSeries", "LinearMap.alternatingTraceSeries"]
 +++
 *Definition (sketch).*
 

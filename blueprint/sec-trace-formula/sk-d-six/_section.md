@@ -4,6 +4,7 @@ kind = "section"
 title = "The geometric operation package"
 order = 2268
 uses = ["sk-d-setup"]
+lean = ["AlgebraicGeometry.ProEtale.GeometricOperations"]
 +++
 *Definition (sketch).*
 

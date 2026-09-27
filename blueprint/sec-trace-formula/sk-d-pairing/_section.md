@@ -4,6 +4,7 @@ kind = "section"
 title = "The supported pairing recipe"
 order = 2308
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-thm-sf-kunneth-verdier"]
+lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.supportedPairing"]
 +++
 *Definition (sketch).*
 

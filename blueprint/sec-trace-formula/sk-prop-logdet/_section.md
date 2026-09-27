@@ -4,6 +4,7 @@ kind = "section"
 title = "Logarithm of the Frobenius determinant"
 order = 2391
 uses = ["sk-def-frobmod", "sk-p-linear-triangular"]
+lean = ["LinearMap.inv_charpolyRev_eq_exp"]
 +++
 *Proposition (sketch).*
 

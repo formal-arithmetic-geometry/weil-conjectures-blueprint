@@ -4,6 +4,7 @@ kind = "section"
 title = "The affine and projective lines"
 order = 2374
 uses = ["sk-d-setup"]
+lean = ["AlgebraicGeometry.ProjectiveSpace"]
 +++
 *Remark (sketch).*
 

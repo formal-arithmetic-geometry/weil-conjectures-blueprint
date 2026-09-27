@@ -4,6 +4,7 @@ kind = "section"
 title = "Diagonal trace class"
 order = 2313
 uses = ["sk-d-corr", "sk-d-pairing"]
+lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.traceClass"]
 +++
 *Definition (sketch).*
 
