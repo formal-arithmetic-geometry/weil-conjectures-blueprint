@@ -4,6 +4,7 @@ kind = "section"
 title = "The product comparison maps"
 order = 2222
 uses = ["sec-smooth-purity", "sk-def-sf-exchanges", "sk-def-sf-operations", "sk-thm-sf-kunneth-relative"]
+lean = ["AlgebraicGeometry.Etale.HasKunnethComparisons"]
 +++
 *Definition (sketch).*
 

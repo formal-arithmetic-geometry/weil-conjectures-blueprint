@@ -3,6 +3,7 @@ id = "sk-prop-sf-biduality-general"
 kind = "section"
 title = "General Verdier biduality"
 order = 2113
+lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_verdierDual", "AlgebraicGeometry.Etale.nonempty_iso_verdierDual_verdierDual"]
 +++
 *Proposition (sketch).*
 

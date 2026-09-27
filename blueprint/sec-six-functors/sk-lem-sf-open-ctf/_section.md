@@ -4,6 +4,7 @@ kind = "section"
 title = "Extension by zero preserves the finite-Tor constructible category"
 order = 2159
 uses = ["sk-def-sf-operations"]
+lean = ["AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_rightDerivedLowerShriek"]
 +++
 *Lemma (sketch).*
 

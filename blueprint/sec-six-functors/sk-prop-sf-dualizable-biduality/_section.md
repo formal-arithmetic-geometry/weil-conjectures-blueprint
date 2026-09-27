@@ -4,6 +4,7 @@ kind = "section"
 title = "Biduality of a perfect complex"
 order = 2172
 uses = ["sk-def-sf-operations"]
+lean = ["AlgebraicGeometry.Etale.DerivedCategory.isDualizable_coefficientDual", "AlgebraicGeometry.Etale.DerivedCategory.nonempty_iso_coefficientDual_coefficientDual", "AlgebraicGeometry.Etale.DerivedCategory.nonempty_iso_coefficientDual_tensor"]
 +++
 *Proposition (sketch).*
 

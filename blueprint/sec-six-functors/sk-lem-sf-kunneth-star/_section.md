@@ -4,6 +4,7 @@ kind = "section"
 title = "Ordinary Künneth with an identity factor"
 order = 2217
 uses = ["sk-prop-sf-comparison", "sk-rem-sf-pf-done", "sk-thm-smooth-base-change"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_externalProduct_rightDerivedLowerStar"]
 +++
 *Lemma (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "Verdier-duality exchange"
 order = 2170
 uses = ["sk-def-sf-operations", "sk-lem-sf-mate", "sk-thm-sf-comp-composition", "sk-thm-sf-tensor-hom"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_verdierDual_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_dualizingComplex"]
 +++
 *Theorem (sketch).*
 

@@ -3,6 +3,7 @@ id = "sk-def-sf-weil-complexes"
 kind = "section"
 title = "Strict Weil complexes"
 order = 2164
+lean = ["AlgebraicGeometry.Etale.WeilComplex"]
 +++
 *Definition (sketch).*
 
