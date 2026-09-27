@@ -3,6 +3,7 @@ id = "sk-def-exchange"
 kind = "section"
 title = "Exchange morphism"
 order = 1035
+lean = ["AlgebraicGeometry.Etale.baseChange"]
 uses = ["sk-def-conv"]
 +++
 *Definition (sketch).*

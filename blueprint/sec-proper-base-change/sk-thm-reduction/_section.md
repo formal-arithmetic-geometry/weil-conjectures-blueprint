@@ -3,6 +3,7 @@ id = "sk-thm-reduction"
 kind = "section"
 title = "Reduction to $\\Pone$"
 order = 1184
+lean = ["AlgebraicGeometry.Etale.satisfiesBaseChange_of_isProper_of_projectiveLine"]
 uses = ["sk-def-conv", "sk-def-pbc", "sk-thm-chow", "sk-thm-groth-ss", "sk-thm-iff", "sk-thm-p1"]
 +++
 *Theorem (sketch).*
