@@ -4,6 +4,7 @@ kind = "definition"
 title = "Represented degree data and monodromy"
 order = 2506
 uses = ["def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-degree-component-image", "lem-wf-zariski-closure-subgroup"]
+lean = ["DegreeDatum", "RepresentedDegreeDatum", "RepresentedDegreeDatum.arithmeticMonodromy", "RepresentedDegreeDatum.geometricMonodromy", "RepresentedDegreeDatum.frobenius", "RepresentedDegreeDatum.IsSemisimple"]
 +++
 A degree datum consists of a group $W$, a surjective homomorphism
 $\deg:W\to\mathbf Z$, and a chosen element $\gamma$ of degree $1$.

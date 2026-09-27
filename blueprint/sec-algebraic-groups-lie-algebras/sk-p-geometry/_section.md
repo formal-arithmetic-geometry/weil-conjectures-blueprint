@@ -4,6 +4,7 @@ kind = "section"
 title = "Algebraic-group geometry"
 order = 2493
 uses = ["sk-d-geometry", "sk-i-cartier", "sk-i-geometry"]
+lean = ["Matrix.identityComponent_spec_and_isClosed_range_and_eq_of_krullDim_eq"]
 +++
 *Proposition (sketch).*
 

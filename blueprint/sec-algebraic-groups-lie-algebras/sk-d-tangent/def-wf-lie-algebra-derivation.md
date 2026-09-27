@@ -4,6 +4,7 @@ kind = "definition"
 title = "Tangent spaces, Lie algebras and rational actions"
 order = 2481
 uses = ["def-wf-algebraic-representations", "def-wf-lie-algebra"]
+lean = ["Matrix.polyDifferential", "Matrix.tangentSpace", "Subgroup.lieAlgebra"]
 +++
 *Tangent spaces and differentials.* Let $X=\operatorname{Spec}A$ be a
 finite-type affine $k$-scheme (for instance an affine variety, i.e.

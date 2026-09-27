@@ -4,6 +4,7 @@ kind = "section"
 title = "Rank-one factorization"
 order = 2531
 uses = ["sk-d-ab-rankone"]
+lean = ["SemidirectProduct.rankOne_factorization"]
 +++
 *Proposition (sketch).*
 

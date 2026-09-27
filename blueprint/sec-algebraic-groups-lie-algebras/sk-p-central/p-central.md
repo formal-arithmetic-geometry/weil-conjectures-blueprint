@@ -5,6 +5,7 @@ title = "A positive central representative"
 order = 2527
 tags = ["latex:proposition"]
 uses = ["d-central", "d-monodromy", "lem-ag-closure-commutators", "lem-wf-algebraic-component-cosets", "p-product"]
+lean = ["RepresentedDegreeDatum.exists_admissibleChoice_and_isPositiveCentralPair"]
 +++
 Every semisimple represented degree datum ([d-monodromy])
 admits admissible choices ([d-central]); the displayed

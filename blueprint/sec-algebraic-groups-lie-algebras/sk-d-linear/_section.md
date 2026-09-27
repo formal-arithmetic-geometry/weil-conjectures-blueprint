@@ -3,6 +3,7 @@ id = "sk-d-linear"
 kind = "section"
 title = "Coefficients and representations"
 order = 2458
+lean = ["Representation", "Subrepresentation", "Representation.IsIrreducible", "Representation.IsSemisimpleRepresentation", "exteriorPower.map", "CompositionSeries"]
 +++
 *Definition (sketch).*
 

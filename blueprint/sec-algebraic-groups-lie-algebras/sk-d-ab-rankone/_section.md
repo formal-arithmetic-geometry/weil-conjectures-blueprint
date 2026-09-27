@@ -4,6 +4,7 @@ kind = "section"
 title = "A split cyclic extension and rank-one characters"
 order = 2529
 uses = ["sk-d-monodromy"]
+lean = ["SemidirectProduct.gamma", "SemidirectProduct.degreeCharacter", "SemidirectProduct.finitePart"]
 +++
 *Definition (sketch).*
 
