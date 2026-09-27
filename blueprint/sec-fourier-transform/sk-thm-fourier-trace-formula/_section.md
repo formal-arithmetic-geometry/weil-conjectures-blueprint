@@ -3,6 +3,7 @@ id = "sk-thm-fourier-trace-formula"
 kind = "section"
 title = "P8: the Fourier trace formula"
 order = 2706
+lean = ["AlgebraicGeometry.Etale.traceFunction_affineFourierTransform"]
 uses = ["sk-def-ft", "sk-def-trace", "sk-lem-as-properties", "sk-prop-stalk"]
 +++
 *Theorem (sketch).*

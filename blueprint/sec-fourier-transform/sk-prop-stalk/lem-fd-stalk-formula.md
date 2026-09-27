@@ -3,6 +3,7 @@ id = "lem-fd-stalk-formula"
 kind = "lemma"
 title = "Stalks of the transform are fibre integrals"
 order = 2699
+lean = ["AlgebraicGeometry.Etale.fourierTransformStalkIso"]
 uses = ["def-fd-kernel", "def-fd-transform", "def-weil-pbc-qbar-category", "prop-weil-pbc-strict-henselization-stalk-formula", "sbc-thm-overline-mathbf-q-ell-coefficient-smooth-base-ch", "thm-weil-pbc-qbar"]
 +++
 Let $S=\operatorname{Spec}k$, $V\cong\mathbf A^r_k$, let $\bar\xi$ be a geometric point of $V^\vee$, and let $K\in D^b_c(V,E)$. Then

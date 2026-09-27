@@ -3,6 +3,7 @@ id = "sk-prop-well-defined"
 kind = "section"
 title = "P2: the transform is an exact triangulated functor"
 order = 2696
+lean = ["AlgebraicGeometry.Etale.boundedConstructible_fourierTransform_obj"]
 uses = ["sk-def-ft", "sk-prop-kernel-lisse"]
 +++
 *Proposition (sketch).*
