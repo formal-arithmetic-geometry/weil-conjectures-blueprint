@@ -4,7 +4,6 @@ kind = "section"
 title = "Tsen's theorem"
 order = 893
 uses = ["sk-def-av-pic", "sk-def-br", "sk-def-cr", "sk-def-curve"]
-lean = ["AlgebraicGeometry.isCrField_functionField", "AlgebraicGeometry.subsingleton_brauerGroup_spec_functionField"]
 +++
 *Proposition (sketch).*
 

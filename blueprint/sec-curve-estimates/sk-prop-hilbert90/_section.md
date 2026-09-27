@@ -4,7 +4,7 @@ kind = "section"
 title = "Hilbert 90"
 order = 877
 uses = ["sk-def-av-pic", "sk-def-curve"]
-lean = ["AlgebraicGeometry.Scheme.subsingleton_picardGroup_spec"]
+lean = ["AlgebraicGeometry.Scheme.subsingleton_cohomologicalPicardGroup_of_field"]
 +++
 *Proposition (sketch).*
 

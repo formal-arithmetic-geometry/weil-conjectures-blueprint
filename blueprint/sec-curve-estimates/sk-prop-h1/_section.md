@@ -4,7 +4,6 @@ kind = "section"
 title = "$H^1$ via Kummer"
 order = 926
 uses = ["sk-def-kummer", "sk-def-pic", "sk-prop-kummer-exact"]
-lean = ["AlgebraicGeometry.exists_exact_h1_rootsOfUnitySheaf"]
 +++
 *Proposition (sketch).*
 

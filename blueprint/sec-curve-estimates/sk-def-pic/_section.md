@@ -4,7 +4,7 @@ kind = "section"
 title = "Picard group, degree, $\\Pic^0$"
 order = 885
 uses = ["sk-def-av-pic", "sk-def-curve", "sk-prop-hilbert90"]
-lean = ["AlgebraicGeometry.Scheme.picardGroup"]
+lean = ["AlgebraicGeometry.Scheme.CohomologicalPicardGroup"]
 +++
 *Definition (sketch).*
 

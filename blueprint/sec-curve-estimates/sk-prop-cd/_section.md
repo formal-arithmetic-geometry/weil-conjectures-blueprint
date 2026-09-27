@@ -4,7 +4,6 @@ kind = "section"
 title = "Vanishing in high degrees"
 order = 987
 uses = ["sk-def-av-pic", "sk-def-br", "sk-def-curve", "sk-prop-hilbert90", "sk-prop-kummer-exact", "sk-prop-tsen"]
-lean = ["AlgebraicGeometry.subsingleton_H_of_curve_of_three_le"]
 +++
 *Proposition (sketch).*
 
