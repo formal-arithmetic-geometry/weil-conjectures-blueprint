@@ -4,7 +4,7 @@ kind = "section"
 title = "Universal curve-test datum for a failure"
 order = 1392
 uses = ["sk-def-bc", "sk-def-smooth"]
-lean = ["AlgebraicGeometry.Etale.exists_curveTestDatum"]
+lean = ["AlgebraicGeometry.Etale.CurveTestDatum", "AlgebraicGeometry.Etale.exists_curveTestDatum"]
 +++
 *Lemma (sketch).*
 

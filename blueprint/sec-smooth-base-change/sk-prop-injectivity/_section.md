@@ -4,7 +4,7 @@ kind = "section"
 title = "Injectivity of the critical map"
 order = 1383
 uses = ["sk-def-bc"]
-lean = ["AlgebraicGeometry.Etale.mono_baseChangeHomologyMap"]
+lean = ["AlgebraicGeometry.Etale.mono_baseChangeHomologyMap", "AlgebraicGeometry.Etale.mono_cokernelMap", "AlgebraicGeometry.Etale.mono_cokernelDesc"]
 +++
 *Proposition (sketch).*
 

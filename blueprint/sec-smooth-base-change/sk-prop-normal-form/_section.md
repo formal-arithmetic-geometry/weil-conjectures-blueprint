@@ -4,7 +4,7 @@ kind = "section"
 title = "Étale-local normal form and slicing"
 order = 1397
 uses = ["sk-def-smooth"]
-lean = ["AlgebraicGeometry.Smooth.exists_etale_to_affineSpace", "AlgebraicGeometry.Smooth.exists_etaleCover_factorization"]
+lean = ["AlgebraicGeometry.Smooth.exists_etale_to_affineSpace", "AlgebraicGeometry.exists_etaleCover_factorization"]
 +++
 *Proposition (sketch).*
 

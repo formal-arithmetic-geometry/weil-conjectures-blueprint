@@ -4,7 +4,7 @@ kind = "section"
 title = "Torsors and étale $H^1$"
 order = 1406
 uses = ["sk-def-smooth"]
-lean = ["AlgebraicGeometry.Scheme.EtaleTorsor", "AlgebraicGeometry.Scheme.EtaleTorsor.exists_surjective_sheafH"]
+lean = ["AlgebraicGeometry.Scheme.EtaleTorsor", "AlgebraicGeometry.Scheme.EtaleTorsor.exists_quotientEquivSheafH"]
 +++
 *Proposition (sketch).*
 
@@ -92,5 +92,14 @@ $f_P$ is surjective; for $M=\Z/d\Z$ a surjective $f_P$ is a connected
 finite étale cover whose automorphism group $\Z/d\Z$ acts simply
 transitively on the fibre, that is, a Galois cover with group
 $\Z/d\Z$.
+
+*Scope of the Lean statement.* The bijection is stated together with
+the one further property that [sk-thm-vanishing] uses, namely that the
+class of a torsor vanishes exactly when its structure morphism admits
+a section. Its naturality in $Y$ is not stated: expressing it needs a
+pullback map $H^1(Y_{\Et},M)\to H^1(Y'_{\Et},M)$ on sheaf cohomology
+along a morphism of schemes, which is not yet available. The
+connectedness criterion above, which needs the étale fundamental
+group, is likewise left to the prose.
 
 Uses: `cor:galois-abelian-h1`, [sk-def-smooth], `thm:galois-lc-etale`, `thm:galois-torsor-h1`

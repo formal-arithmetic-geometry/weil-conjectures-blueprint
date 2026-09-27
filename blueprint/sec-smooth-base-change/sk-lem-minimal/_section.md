@@ -4,7 +4,7 @@ kind = "section"
 title = "Minimal counterexamples occur over a point"
 order = 1385
 uses = ["sk-def-bc"]
-lean = ["AlgebraicGeometry.exists_spec_field_of_isStableUnderThickening"]
+lean = ["AlgebraicGeometry.Scheme.IsQcqsLocalProperty", "AlgebraicGeometry.exists_spec_field_of_isQcqsLocalProperty"]
 +++
 *Lemma (sketch).*
 

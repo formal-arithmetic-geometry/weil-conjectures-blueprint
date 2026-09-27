@@ -3,7 +3,7 @@ id = "sk-def-smooth"
 kind = "section"
 title = "Smooth and allowed coefficients"
 order = 1373
-lean = ["AlgebraicGeometry.Scheme.IsAllowedTorsionSheaf"]
+lean = ["AlgebraicGeometry.Scheme.IsTorsionSheafOfInvertibleOrder"]
 +++
 *Definition (sketch).*
 
