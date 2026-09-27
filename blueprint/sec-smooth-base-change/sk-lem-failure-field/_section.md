@@ -4,6 +4,7 @@ kind = "section"
 title = "A failure is detected on the generic fibre"
 order = 1387
 uses = ["sk-def-bc"]
+lean = ["AlgebraicGeometry.Etale.FieldFailure", "AlgebraicGeometry.Etale.nonempty_fieldFailure"]
 +++
 *Lemma (sketch).*
 

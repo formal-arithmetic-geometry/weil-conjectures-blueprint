@@ -4,6 +4,7 @@ kind = "section"
 title = "The induction step in relative dimension one"
 order = 1414
 uses = ["sk-def-bc", "sk-lem-universal-datum", "sk-thm-vanishing"]
+lean = ["AlgebraicGeometry.Etale.BaseChangeProperty.of_sub_one"]
 +++
 *Lemma (sketch).*
 

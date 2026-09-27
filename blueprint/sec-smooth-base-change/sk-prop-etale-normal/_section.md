@@ -4,6 +4,7 @@ kind = "section"
 title = "Étale covers of a normal scheme with separably closed function field"
 order = 1402
 uses = ["sk-def-smooth"]
+lean = ["AlgebraicGeometry.Etale.exists_opens_isOpenImmersion_of_isSepClosed_functionField", "AlgebraicGeometry.Etale.exists_finite_opens_isOpenImmersion_of_isSepClosed_functionField"]
 +++
 *Proposition (sketch).*
 
