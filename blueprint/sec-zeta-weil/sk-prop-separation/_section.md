@@ -3,6 +3,7 @@ id = "sk-prop-separation"
 kind = "section"
 title = "Weight separation and the parity factorization"
 order = 2898
+lean = ["Polynomial.isCoprime_prod_odd_prod_even", "Polynomial.prod_odd_eq_map_and_prod_even_eq_map"]
 uses = ["sk-def-cohfamily", "sk-def-roots", "sk-prop-rootpurity", "sk-thm-tracetodeterminant"]
 +++
 *Proposition (sketch).*

@@ -3,6 +3,7 @@ id = "sk-prop-reciprocity"
 kind = "section"
 title = "Duality reciprocity of the factors"
 order = 2917
+lean = ["TraceDatum.det_mul_det_rev_of_pairing", "LinearMap.C_det_mul_charpolyRev_of_similitude"]
 uses = ["sk-def-cohfamily", "sk-def-roots", "sk-thm-intfactors", "sk-thm-poincare-duality"]
 +++
 *Proposition (sketch).*

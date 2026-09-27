@@ -3,6 +3,7 @@ id = "sk-prop-criterion"
 kind = "section"
 title = "Rationality criterion"
 order = 2885
+lean = ["PowerSeries.exists_normalized_fraction_iff_finiteDimensional_shiftSpan"]
 uses = ["sk-def-roots"]
 +++
 *Proposition (sketch).*

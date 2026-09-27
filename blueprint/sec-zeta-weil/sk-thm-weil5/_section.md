@@ -3,6 +3,7 @@ id = "sk-thm-weil5"
 kind = "section"
 title = "Weil conjectures V: functional equation"
 order = 2936
+lean = ["AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.WeilFunctionalEquation"]
 uses = ["sk-thm-fe"]
 +++
 *Theorem (sketch).*

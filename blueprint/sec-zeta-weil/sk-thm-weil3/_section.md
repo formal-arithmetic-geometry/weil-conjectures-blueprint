@@ -3,6 +3,7 @@ id = "sk-thm-weil3"
 kind = "section"
 title = "Weil conjectures III: Riemann hypothesis"
 order = 2931
+lean = ["AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.WeilRiemannHypothesis"]
 uses = ["sk-thm-rh"]
 +++
 *Theorem (sketch).*
