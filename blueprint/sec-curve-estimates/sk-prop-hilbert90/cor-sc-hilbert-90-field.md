@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Hilbert 90 for a field"
 order = 883
 uses = ["thm-sc-hilbert-90"]
+lean = ["AlgebraicGeometry.Scheme.subsingleton_picardGroup_spec"]
 +++
 Let $K$ be a field. Then $H^1(\operatorname{Spec}K_{\Et},\mathbf G_m)=0$
 (and also $H^1((\operatorname{Spec}K)_{\mathrm{Zar}},\mathcal O^{\times})=0$).

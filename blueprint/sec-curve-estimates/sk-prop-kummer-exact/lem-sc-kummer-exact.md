@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Exactness of the Kummer sequence"
 order = 876
 uses = ["def-sc-curves", "def-sc-kummer-sequence"]
+lean = ["AlgebraicGeometry.Scheme.kummerSequence_shortExact"]
 +++
 Let $C$ be a curve over algebraically
 closed $k$ and let $n$ be prime to $\operatorname{char}k$.

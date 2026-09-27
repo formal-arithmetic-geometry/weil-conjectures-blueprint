@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Brauer classes are determined by the generic fibre"
 order = 902
 uses = ["def-br", "lem-sc-divisor-sequence-general", "lem-sc-point-z-cohomology", "lem-sp-grothendieck-edge-maps", "thm-sc-hilbert-90"]
+lean = ["AlgebraicGeometry.Scheme.injective_cohomologyMap_gm_two"]
 +++
 Let $X$ be an integral regular noetherian scheme (for example a
 connected smooth scheme over a field) with generic point

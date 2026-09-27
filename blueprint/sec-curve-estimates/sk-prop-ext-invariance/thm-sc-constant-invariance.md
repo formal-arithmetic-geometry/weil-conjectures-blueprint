@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Base-change invariance for constant sheaves"
 order = 1031
 uses = ["def-sc-curves", "def-sc-field-extension", "def-sc-genus", "lem-sc-base-change-curve", "lem-sc-brauer-zero", "lem-sc-cohomological-dimension", "lem-sc-compactification", "lem-sc-genus-invariant", "lem-sc-kummer-les", "lem-sc-pic-affine", "lem-sc-pic-proper-ntorsion", "lem-sc-primitive-root", "thm-av-final", "thm-sc-jacobian-representability", "thm-sc-proper-cohomology"]
+lean = ["AlgebraicGeometry.bijective_cohomologyMap_constantZMod"]
 +++
 Let $k\subseteq k'$ be algebraically closed, let $C$ be a
 smooth separated connected curve over $k$, let

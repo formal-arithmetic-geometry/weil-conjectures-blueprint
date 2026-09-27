@@ -4,6 +4,7 @@ kind = "section"
 title = "The Kummer sequence"
 order = 873
 uses = ["sk-def-curve"]
+lean = ["AlgebraicGeometry.Scheme.kummerSequence"]
 +++
 *Definition (sketch).*
 
