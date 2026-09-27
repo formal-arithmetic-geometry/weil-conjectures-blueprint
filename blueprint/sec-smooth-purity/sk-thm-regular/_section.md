@@ -4,6 +4,7 @@ kind = "section"
 title = "Purity for regular closed immersions"
 order = 2033
 uses = ["sk-def-purity-conv", "sk-lem-coprojection", "sk-lem-regular-smooth", "sk-thm-smooth-purity"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_of_isRegularImmersion"]
 +++
 *Theorem (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "$\\Aaf^1\\Rightarrow\\Aaf^n$: the model purity"
 order = 1962
 uses = ["sk-def-purity-conv", "sk-prop-a1", "sk-prop-a1-inv"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpaceZero"]
 +++
 *Proposition (sketch).*
 

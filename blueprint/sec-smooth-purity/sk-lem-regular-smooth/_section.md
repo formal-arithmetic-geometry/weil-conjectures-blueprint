@@ -4,6 +4,7 @@ kind = "section"
 title = "A regular immersion of smooth schemes over a perfect field"
 order = 2031
 uses = ["sk-def-purity-conv"]
+lean = ["AlgebraicGeometry.IsRegularImmersion.smooth_of_smooth"]
 +++
 *Lemma (sketch).*
 

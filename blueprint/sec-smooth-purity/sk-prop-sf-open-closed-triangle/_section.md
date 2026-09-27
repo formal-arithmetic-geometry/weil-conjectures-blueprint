@@ -4,6 +4,7 @@ kind = "section"
 title = "The open–closed triangle"
 order = 1833
 uses = ["sk-def-sf-operations", "sk-def-sf-setting"]
+lean = ["AlgebraicGeometry.Etale.openClosedShortComplex", "AlgebraicGeometry.Etale.shortExact_openClosedShortComplex"]
 +++
 *Proposition (sketch).*
 

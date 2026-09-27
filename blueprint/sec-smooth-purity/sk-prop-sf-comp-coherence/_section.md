@@ -4,6 +4,7 @@ kind = "section"
 title = "Coherence of the compactification comparisons"
 order = 1513
 uses = ["sk-def-sf-operations", "sk-prop-nagata-sketch-comp-category", "sk-thm-properbasechange"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison", "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison_id", "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison_comp"]
 +++
 *Proposition (sketch).*
 

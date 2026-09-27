@@ -3,6 +3,7 @@ id = "sk-def-purity-conv"
 kind = "section"
 title = "Purity conventions and the rank-one datum"
 order = 1886
+lean = ["AlgebraicGeometry.Etale.sectionInvariant", "AlgebraicGeometry.Etale.dualizingComplex", "AlgebraicGeometry.Scheme.Hom.normalCone", "AlgebraicGeometry.Scheme.Hom.deformationToNormalCone"]
 +++
 *Remark (sketch).*
 

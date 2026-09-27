@@ -4,6 +4,7 @@ kind = "section"
 title = "Projection formula, finite coefficients"
 order = 1877
 uses = ["sk-def-sf-exchanges"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_derivedTensor_rightDerivedLowerShriek"]
 +++
 *Theorem (sketch).*
 

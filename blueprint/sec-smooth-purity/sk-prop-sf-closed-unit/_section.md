@@ -4,6 +4,7 @@ kind = "section"
 title = "Closed-immersion unit"
 order = 1852
 uses = ["sk-def-sf-operations", "sk-prop-sf-existence"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_rightDerivedLowerStar_obj"]
 +++
 *Proposition (sketch).*
 

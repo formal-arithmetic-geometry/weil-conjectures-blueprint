@@ -4,6 +4,7 @@ kind = "lemma"
 title = "The diagonal is a regular immersion"
 order = 2004
 uses = ["def-pur-conventions", "def-pur-regular-immersion", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "sbc-thm-etale-local-normal-form"]
+lean = ["AlgebraicGeometry.isRegularImmersion_diagonal"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $f:X\to Y$ be smooth,

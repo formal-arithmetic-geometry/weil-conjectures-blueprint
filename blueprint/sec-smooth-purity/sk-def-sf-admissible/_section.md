@@ -3,6 +3,7 @@ id = "sk-def-sf-admissible"
 kind = "section"
 title = "Admissibility datum: an explicit hypothesis"
 order = 1503
+lean = ["AlgebraicGeometry.ProEtale.HasAmbientExceptionalAdjoint", "AlgebraicGeometry.ProEtale.FullCD"]
 +++
 *Definition (sketch).*
 
