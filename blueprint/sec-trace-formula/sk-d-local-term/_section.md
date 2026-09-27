@@ -4,6 +4,7 @@ kind = "section"
 title = "Local terms"
 order = 2335
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-pairing", "sk-d-six", "sk-d-trace-class"]
+lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.localTerm"]
 +++
 *Definition (sketch).*
 

@@ -4,6 +4,7 @@ kind = "section"
 title = "Ordinary categorical trace"
 order = 2273
 uses = ["sk-d-setup"]
+lean = ["CategoryTheory.MonoidalCategory.trace"]
 +++
 *Definition (sketch).*
 

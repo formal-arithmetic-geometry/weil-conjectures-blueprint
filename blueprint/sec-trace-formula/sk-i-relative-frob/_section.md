@@ -4,6 +4,7 @@ kind = "section"
 title = "Relative Frobenius"
 order = 2361
 uses = ["sk-d-relative-frob", "sk-d-setup"]
+lean = ["AlgebraicGeometry.ProEtale.isFinite_relativeFrobenius_and_isUniversalHomeomorphism"]
 +++
 *Proposition (sketch).*
 

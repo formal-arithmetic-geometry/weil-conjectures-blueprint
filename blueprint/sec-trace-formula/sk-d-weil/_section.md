@@ -4,6 +4,7 @@ kind = "section"
 title = "Frobenius and Weil data"
 order = 2294
 uses = ["sk-d-corr", "sk-d-operator", "sk-d-setup", "sk-d-six"]
+lean = ["AlgebraicGeometry.ProEtale.WeilComplex"]
 +++
 *Definition (sketch).*
 
