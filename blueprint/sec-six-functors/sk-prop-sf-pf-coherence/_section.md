@@ -4,7 +4,7 @@ kind = "section"
 title = "Coherence of the projection formula"
 order = 2101
 uses = ["sk-lem-sf-mate", "sk-prop-sf-pf-reduction", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale"]
-lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_coherence"]
+lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_id", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp", "AlgebraicGeometry.Etale.hasProjectionFormula_comp", "AlgebraicGeometry.Etale.hasProjectionFormulaOfCompactification_iff"]
 +++
 *Proposition (sketch).*
 

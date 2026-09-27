@@ -4,7 +4,7 @@ kind = "section"
 title = "Internal Hom versus pullback for a site-perfect first variable"
 order = 2162
 uses = ["sk-def-sf-operations"]
-lean = ["AlgebraicGeometry.Etale.DerivedCategory.nonempty_leftDerivedUpperStar_derivedHom_iso"]
+lean = ["AlgebraicGeometry.Etale.DerivedCategory.nonempty_iso_leftDerivedUpperStar_derivedHom"]
 +++
 *Theorem (sketch).*
 

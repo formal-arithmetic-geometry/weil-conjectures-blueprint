@@ -3,7 +3,7 @@ id = "sk-def-sf-categories"
 kind = "section"
 title = "Ambient categories and small subcategories"
 order = 2040
-lean = ["AlgebraicGeometry.Etale.DerivedCategoryFiniteTor", "AlgebraicGeometry.Etale.DerivedCategoryConstructibleIn"]
+lean = ["AlgebraicGeometry.Etale.DerivedCategoryFiniteTor"]
 +++
 *Remark (sketch).*
 

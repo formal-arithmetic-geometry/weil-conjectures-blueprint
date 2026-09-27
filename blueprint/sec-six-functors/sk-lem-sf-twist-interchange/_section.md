@@ -4,7 +4,7 @@ kind = "section"
 title = "Internal Hom with an invertible twist"
 order = 2175
 uses = ["sk-lem-sf-determination", "sk-prop-sf-dualizable-biduality"]
-lean = ["AlgebraicGeometry.Etale.DerivedCategory.nonempty_derivedHom_tensor_iso"]
+lean = ["AlgebraicGeometry.Etale.DerivedCategory.nonempty_iso_derivedHom_tensor"]
 +++
 *Lemma (sketch).*
 
