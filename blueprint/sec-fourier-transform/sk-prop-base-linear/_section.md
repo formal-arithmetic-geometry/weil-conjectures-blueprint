@@ -3,6 +3,7 @@ id = "sk-prop-base-linear"
 kind = "section"
 title = "P7: the transform is linear over the base"
 order = 2704
+lean = ["AlgebraicGeometry.Etale.fourierTransformTensorIso"]
 uses = ["sk-def-ft"]
 +++
 *Proposition (sketch).*

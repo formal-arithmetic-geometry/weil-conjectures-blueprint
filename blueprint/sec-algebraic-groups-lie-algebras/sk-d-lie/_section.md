@@ -4,6 +4,7 @@ kind = "section"
 title = "Lie algebras, radicals and centers"
 order = 2462
 uses = ["sk-d-linear"]
+lean = ["LieAlgebra.radical", "LieAlgebra.center", "LieAlgebra.HasCentralRadical", "killingForm"]
 +++
 *Definition (sketch).*
 

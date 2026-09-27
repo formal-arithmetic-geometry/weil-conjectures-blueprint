@@ -4,6 +4,7 @@ kind = "theorem"
 title = "The representability criterion"
 order = 835
 uses = ["def-pc-cover", "def-pc-open-subfunctor", "def-pc-representable-functor", "def-pc-subfunctor", "def-pc-zariski-sheaf-property", "lem-pc-schemes-criterion"]
+lean = ["AlgebraicGeometry.isRepresentable_of_representable_open_subfunctor"]
 +++
 (Picard Schemes of Curves, Lemma 44.5.1, Tag
 [0B9Q](https://stacks.math.columbia.edu/tag/0B9Q).)

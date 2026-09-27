@@ -2,6 +2,7 @@
 id = "lem-sc-isogeny-surjective"
 kind = "lemma"
 title = "Surjectivity of the multiplication map on points"
+lean = ["AlgebraicGeometry.surjective_npow_points"]
 order = 572
 uses = ["def-sc-abelian-variety", "def-sc-mult-n", "lem-sc-finite-flat-surj-points", "lem-sc-isogeny-facts"]
 +++

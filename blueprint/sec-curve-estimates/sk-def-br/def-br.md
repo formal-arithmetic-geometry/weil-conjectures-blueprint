@@ -4,6 +4,7 @@ kind = "definition"
 title = "Brauer group"
 order = 890
 uses = ["def-sc-curves", "def-sc-gm-torsor", "def-weil-pbc-etale-site"]
+lean = ["AlgebraicGeometry.Scheme.brauerGroup"]
 +++
 For $C$ as in [def-sc-curves], the *Brauer group* of $C$ is
 $\Br(C)=H^2(C_{\Et},\mathbb G_m)$, the cohomology of the sheaf

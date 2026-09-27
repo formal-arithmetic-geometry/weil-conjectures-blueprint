@@ -4,6 +4,7 @@ kind = "section"
 title = "Isomorphism near a boundary closure"
 order = 255
 uses = ["sk-lem-nagata-sketch-boundary", "sk-lem-nagata-sketch-elimination"]
+lean = ["AlgebraicGeometry.exists_admissibleBlowup_isIso_strictTransformMap_near_closure"]
 +++
 *Lemma (sketch).*
 

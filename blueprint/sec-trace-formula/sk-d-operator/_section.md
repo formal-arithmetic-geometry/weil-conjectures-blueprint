@@ -4,6 +4,7 @@ kind = "section"
 title = "Global operators"
 order = 2287
 uses = ["sk-d-corr", "sk-d-six"]
+lean = ["AlgebraicGeometry.ProEtale.Correspondence.globalOperator"]
 +++
 *Definition (sketch).*
 

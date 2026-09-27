@@ -3,6 +3,7 @@ id = "sk-thm-chow"
 kind = "section"
 title = "Chow"
 order = 1051
+lean = ["AlgebraicGeometry.ChowModification.nonempty_data", "AlgebraicGeometry.ChowModification.isClosedImmersion_toProjectiveSpace"]
 uses = ["sk-def-conv"]
 +++
 *Theorem (sketch).*

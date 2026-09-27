@@ -4,6 +4,7 @@ kind = "section"
 title = "Prepared sides"
 order = 261
 uses = ["sk-lem-nagata-sketch-boundary", "sk-lem-nagata-sketch-closure", "sk-lem-nagata-sketch-graph"]
+lean = ["AlgebraicGeometry.exists_prepared_twoOpenSide"]
 +++
 *Proposition (sketch).*
 

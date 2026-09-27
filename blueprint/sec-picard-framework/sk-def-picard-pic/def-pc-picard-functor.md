@@ -4,6 +4,7 @@ kind = "definition"
 title = "The Picard functor $\\operatorname{Pic}_{X/S}$"
 order = 798
 uses = ["def-pc-fppf-site", "def-pc-picard-presheaf", "def-pc-representable-functor", "def-sc-pic0"]
+lean = ["AlgebraicGeometry.picardFunctor"]
 +++
 Let $f:X\to S$ be a morphism of schemes as in
 [def-pc-picard-presheaf]. The *Picard functor*

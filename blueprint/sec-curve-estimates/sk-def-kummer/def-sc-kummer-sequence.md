@@ -4,6 +4,7 @@ kind = "definition"
 title = "The Kummer sequence"
 order = 874
 uses = ["def-sc-curves"]
+lean = ["AlgebraicGeometry.Scheme.kummerSequence"]
 +++
 Let $C$ be a curve over $k$ and let
 $n$ be prime to $\operatorname{char}k$. The

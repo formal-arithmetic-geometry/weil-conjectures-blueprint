@@ -2,6 +2,7 @@
 id = "sk-prop-av-fixed-points"
 kind = "section"
 title = "Fixed points of $p$-linear maps are finite"
+lean = ["LinearMap.finite_frobeniusFixedPoints", "LinearMap.natCard_frobeniusFixedPoints_le"]
 order = 562
 uses = ["sk-def-av"]
 +++

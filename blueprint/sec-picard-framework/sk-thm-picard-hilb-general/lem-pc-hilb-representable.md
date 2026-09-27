@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Hilbert schemes of points are representable"
 order = 782
 uses = ["def-pc-finite-locally-free", "def-pc-fppf-site", "def-sc-ample", "lem-pc-hilb-sheaf", "lem-pc-schemes-criterion"]
+lean = ["AlgebraicGeometry.isRepresentable_hilbertPresheaf"]
 +++
 (Picard Schemes of Curves, Proposition 44.2.6 (Tag
 [0B9A](https://stacks.math.columbia.edu/tag/0B9A)) with Remark 44.2.7,

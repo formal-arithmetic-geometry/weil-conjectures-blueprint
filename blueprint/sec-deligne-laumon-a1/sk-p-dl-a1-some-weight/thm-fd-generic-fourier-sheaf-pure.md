@@ -5,6 +5,7 @@ tags = ["latex:proposition"]
 title = "The generic Fourier sheaf is pure of some weight"
 order = 2776
 uses = ["cor-wf-unramified-boundary-purity", "def-a1-constituent-nonexceptional", "def-fd-transform", "def-weil-punctual-weights", "def-wf-determinantal-weight", "def-wf-iota-real", "def-wf-middle-extension", "fin2-lem-lisse-dense-open", "lem-a1-constituent-nonexceptional-comparison", "lem-fd-constituent-nonexceptional-concentration", "lem-fd-realified-kernel-real", "lem-fd-realness-pushforward", "prop-a1-fourier-middle-extension", "prop-fd-zero-extension-comparison", "rem-dl-a1-conventions", "thm-rp-real-lisse-purity-affine"]
+lean = ["AlgebraicGeometry.exists_isPunctuallyPureOfWeight_of_isFourierPartner"]
 +++
 In the conventions of [rem-dl-a1-conventions], let
 $j:U_0\hookrightarrow A_0=\mathbf A^1_{k_0}$ be a dense open immersion

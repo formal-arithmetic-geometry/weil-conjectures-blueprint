@@ -3,6 +3,7 @@ id = "sk-prop-rootpurity"
 kind = "section"
 title = "Reciprocal roots have the weight-$i$ absolute value"
 order = 2895
+lean = ["AlgebraicGeometry.WeilRiemannHypothesis", "Polynomial.IsPureOfWeight"]
 uses = ["sk-def-cohfamily", "sk-def-roots", "sk-input-weights"]
 +++
 *Proposition (sketch).*

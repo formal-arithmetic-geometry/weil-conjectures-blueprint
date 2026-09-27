@@ -2,6 +2,7 @@
 id = "lem-sc-fg-order-prime-etale"
 kind = "lemma"
 title = "Group schemes of order prime to $p$ are etale"
+lean = ["AlgebraicGeometry.etale_of_not_dvd_finrankΓ"]
 order = 578
 uses = ["def-sc-group-scheme", "lem-sc-connected-finite-order", "lem-sc-finite-etale-algebra-criterion"]
 +++

@@ -4,6 +4,7 @@ kind = "lemma"
 title = "The twist lemma"
 order = 761
 uses = ["def-pc-curve", "def-pc-degree-line-bundle", "def-pc-derived-category", "def-pc-genus", "def-pc-rational-point", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-zero-scheme", "def-sc-ample", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "cor-pc-dense-points-curves-sections", "lem-pc-ample-positive-degree", "lem-pc-closed-imm-base-change", "lem-pc-degree-base-change", "lem-pc-dim-base-change", "lem-pc-euler-additive", "lem-pc-flat-base-change-cohom", "lem-pc-rational-points-dense", "lem-pc-serre-vanishing", "lem-pc-vanishing-above-dim", "lem-pc-very-ample-ample", "lem-sc-point-cartier", "prop-pc-xk-integral", "thm-picard-serre-a"]
+lean = ["AlgebraicGeometry.Scheme.exists_isInvertible_twist"]
 +++
 (Picard Schemes of Curves, Lemma 44.6.5, Tag
 [0B9Y](https://stacks.math.columbia.edu/tag/0B9Y); the proof is a

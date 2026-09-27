@@ -3,6 +3,7 @@ id = "sk-thm-tracetodeterminant"
 kind = "section"
 title = "Trace-to-determinant identity"
 order = 2878
+lean = ["TraceDatum.zeta_mul_prod_even_eq_prod_odd"]
 uses = ["sk-def-cohfamily", "sk-def-zeta", "sk-prop-logdet", "sk-thm-trace-formula", "sk-thm-trace-transport"]
 +++
 *Theorem (sketch).*

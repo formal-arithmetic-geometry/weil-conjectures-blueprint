@@ -3,6 +3,7 @@ id = "sk-prop-nagata-sketch-approximation"
 kind = "section"
 title = "Absolute approximation and descent"
 order = 326
+lean = ["AlgebraicGeometry.Scheme.nonempty_noetherianApproximation", "AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation_of_isSeparated"]
 +++
 *Proposition (sketch).*
 

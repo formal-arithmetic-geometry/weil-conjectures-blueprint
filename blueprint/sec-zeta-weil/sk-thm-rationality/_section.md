@@ -3,6 +3,7 @@ id = "sk-thm-rationality"
 kind = "section"
 title = "Rationality of the zeta series"
 order = 2890
+lean = ["AlgebraicGeometry.Scheme.zetaSeries_rational"]
 uses = ["sk-def-roots", "sk-def-zeta", "sk-prop-criterion", "sk-prop-euler", "sk-thm-tracetodeterminant"]
 +++
 *Theorem (sketch).*

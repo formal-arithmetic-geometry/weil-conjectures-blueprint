@@ -3,6 +3,7 @@ id = "sk-def-kernel"
 kind = "section"
 title = "The Fourier kernel and integrand"
 order = 2690
+lean = ["AlgebraicGeometry.Etale.fourierKernel"]
 uses = ["sk-def-as", "sk-def-fourier-set"]
 +++
 *Definition (sketch).*

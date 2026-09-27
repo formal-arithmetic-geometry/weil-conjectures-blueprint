@@ -3,6 +3,7 @@ id = "sk-thm-intfactors"
 kind = "section"
 title = "Integral Frobenius factors"
 order = 2901
+lean = ["AlgebraicGeometry.IsWeilFactorization.eq_of_weilRiemannHypothesis", "TraceDatum.exists_isWeilFactorization"]
 uses = ["sk-def-cohfamily", "sk-def-roots", "sk-prop-rootpurity", "sk-prop-separation", "sk-thm-rationality"]
 +++
 *Theorem (sketch).*

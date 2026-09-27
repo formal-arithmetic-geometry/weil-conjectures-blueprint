@@ -2,6 +2,7 @@
 id = "sk-def-av-isogeny"
 kind = "section"
 title = "Isogenies and their degree"
+lean = ["AlgebraicGeometry.IsIsogeny", "AlgebraicGeometry.isogenyDegree"]
 order = 430
 +++
 *Definition (sketch).*

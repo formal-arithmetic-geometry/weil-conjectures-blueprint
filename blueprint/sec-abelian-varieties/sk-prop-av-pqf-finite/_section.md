@@ -2,6 +2,7 @@
 id = "sk-prop-av-pqf-finite"
 kind = "section"
 title = "Proper and quasi-finite implies finite"
+lean = ["AlgebraicGeometry.IsFinite.of_isProper_of_locallyQuasiFinite"]
 order = 495
 uses = ["sk-def-av"]
 +++

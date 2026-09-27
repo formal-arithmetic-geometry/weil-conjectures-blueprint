@@ -2,6 +2,7 @@
 id = "sk-prop-av-prime-p-etale"
 kind = "section"
 title = "Group schemes of order prime to $p$ are étale"
+lean = ["AlgebraicGeometry.etale_of_not_dvd_finrankΓ"]
 order = 577
 uses = ["sk-def-av-group-scheme", "sk-prop-av-connected-order"]
 +++

@@ -4,6 +4,7 @@ kind = "section"
 title = "Operations, constituents and coinvariants"
 order = 2585
 uses = ["sec-algebraic-groups-lie-algebras", "sec-six-functors", "sk-d-real-weil"]
+lean = ["AlgebraicGeometry.WeilGroup.constLine", "AlgebraicGeometry.WeilGroup.tateLine", "Representation.IsIrreducible", "Representation.IsConstituent"]
 +++
 *Definition (sketch).*
 

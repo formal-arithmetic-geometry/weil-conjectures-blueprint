@@ -4,6 +4,7 @@ kind = "definition"
 title = "A split cyclic extension and rank-one characters"
 order = 2530
 uses = ["d-monodromy"]
+lean = ["SemidirectProduct.gamma", "SemidirectProduct.degreeCharacter", "SemidirectProduct.finitePart"]
 +++
 Let $(W,\deg,\gamma)$ be a degree datum in the sense of [d-monodromy],
 with $P=\ker(\deg)$. Conjugation by $\gamma$ is an automorphism

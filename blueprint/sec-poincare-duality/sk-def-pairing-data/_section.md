@@ -4,6 +4,7 @@ kind = "section"
 title = "The pairing data"
 order = 2416
 uses = ["sk-def-ops", "sk-def-sf-orientation"]
+lean = ["AlgebraicGeometry.ProEtale.mixedSupportCupProduct", "AlgebraicGeometry.ProEtale.smoothTrace"]
 +++
 *Definition (sketch).*
 

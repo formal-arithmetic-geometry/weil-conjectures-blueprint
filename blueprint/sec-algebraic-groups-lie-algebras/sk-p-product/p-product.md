@@ -5,6 +5,7 @@ title = "The central--geometric product"
 order = 2523
 tags = ["latex:proposition"]
 uses = ["d-monodromy", "lem-ag-closure-commutators", "lem-ag-closure-semisimple", "lem-ag-faithful-semisimple-lie-central-radical", "lem-ag-homomorphism-image-closed", "lem-ag-lie-centre", "lem-ag-lie-stable-subspace", "lem-wf-algebraic-component-cosets", "lem-wf-same-lie-closed-subgroup"]
+lean = ["RepresentedDegreeDatum.identityComponent_eq_centerOf_mul_geometricMonodromy"]
 +++
 For a semisimple represented degree datum ([d-monodromy]), the
 identity components and center satisfy

@@ -3,6 +3,7 @@ id = "sk-def-roots"
 kind = "section"
 title = "Reciprocal roots, weights and integrality"
 order = 2858
+lean = ["Polynomial.IsPureOfWeight", "Polynomial.IsUniversallyPureOfWeight", "AlgebraicGeometry.weilEulerChar", "shiftSpan"]
 +++
 *Definition (sketch).*
 

@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Serre's theorem A: global generation after a twist"
 order = 631
 uses = ["def-pc-projective-space-twist", "def-sc-invertible-module", "lem-pc-closed-immersion-coherent-cohomology", "lem-pc-projective-space-twist-quotient", "lem-pc-twist-tensor", "pqf-def-coherent"]
+lean = ["AlgebraicGeometry.Scheme.Modules.exists_generatingSections_tensor_twist"]
 +++
 (Hartshorne, *Algebraic Geometry*, II, Theorem 5.17.)
 Let $k$ be a field, let $i:X\hookrightarrow P=\mathbf P^n_k$ be a closed

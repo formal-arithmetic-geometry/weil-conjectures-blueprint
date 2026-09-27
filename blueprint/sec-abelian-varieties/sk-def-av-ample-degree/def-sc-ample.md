@@ -2,6 +2,7 @@
 id = "def-sc-ample"
 kind = "definition"
 title = "Very ample and ample line bundles"
+lean = ["AlgebraicGeometry.IsAmple"]
 order = 436
 +++
 Let $X$ be a proper scheme over $k$ and $\mathcal L$ a line

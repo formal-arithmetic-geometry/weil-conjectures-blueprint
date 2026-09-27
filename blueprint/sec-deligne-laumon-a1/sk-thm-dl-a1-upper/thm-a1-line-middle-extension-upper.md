@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Deligne–Laumon affine-line estimate for the middle extension"
 order = 2806
 uses = ["cor-a1-fourier-middle-hc1", "def-weil-frobenius-module-weights", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-constant-weil-twist", "def-wf-fundamental-representation", "def-wf-middle-extension", "lem-a1-constituent-nonexceptional-comparison", "lem-a1-exceptional-constituents", "lem-a1-extension-bounds", "lem-a1-geometric-constituent-reduction", "lem-a1-middle-extension-endpoints", "lem-a1-spectrum-exact-sequence", "lem-a1-subquotient-extension-bounds", "lem-a1-unramified-nonexceptional", "lem-a1-weight-bound-constant-extension", "p-dl-a1-exact", "prop-a1-curve-boundary-sequence", "rem-dl-a1-conventions"]
+lean = ["AlgebraicGeometry.hasWeightsAtMost_compactlySupportedCohomology_directImage"]
 +++
 In the conventions of [rem-dl-a1-conventions], let
 $j:U_0\hookrightarrow A_0=\mathbf A^1_{k_0}$ be a dense open immersion

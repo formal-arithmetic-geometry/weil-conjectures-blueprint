@@ -4,6 +4,7 @@ kind = "lemma"
 title = "The Brauer group of a smooth curve"
 order = 925
 uses = ["def-br", "def-sc-curves", "lem-sc-affine-open-proper", "lem-sc-brauer-injectivity", "lem-sc-compactification", "lem-sc-dim0-finite", "lem-sc-divisor-exact-sequence", "lem-sc-point-z-cohomology", "lem-sc-proper-affine-finite", "lem-sc-tsen"]
+lean = ["AlgebraicGeometry.subsingleton_brauerGroup"]
 +++
 Let $C$ be a smooth separated connected curve over
 algebraically closed $k$. Then its Brauer group ([def-br]) vanishes:

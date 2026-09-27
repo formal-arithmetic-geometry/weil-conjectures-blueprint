@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Effective descent of finite flat closed subschemes"
 order = 764
 uses = ["def-pc-finite-locally-free", "lem-pc-fpqc-descent"]
+lean = ["AlgebraicGeometry.isSheaf_fpqc_finiteLocallyFreeSubscheme"]
 +++
 (Descent, Lemma 35.37.2, Tag
 [03I0](https://stacks.math.columbia.edu/tag/03I0), together with the

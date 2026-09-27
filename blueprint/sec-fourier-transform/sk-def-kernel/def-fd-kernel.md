@@ -3,6 +3,7 @@ id = "def-fd-kernel"
 kind = "definition"
 title = "The Fourier kernel and integrand"
 order = 2691
+lean = ["AlgebraicGeometry.Etale.fourierKernel"]
 uses = ["def-fd-artin-schreier-sheaf", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++
 Let $S_0$ be a separated

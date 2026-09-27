@@ -3,6 +3,7 @@ id = "lem-fd-character-orthogonality"
 kind = "lemma"
 title = "Orthogonality of additive characters"
 order = 2674
+lean = ["AddChar.sum_eq_ite"]
 uses = ["def-fd-additive-character"]
 +++
 Let $k_0=\mathbf F_q$, let $\psi_a(x)=\psi(ax)$, and let $c\in\overline{\mathbf Q}_\ell$. Then

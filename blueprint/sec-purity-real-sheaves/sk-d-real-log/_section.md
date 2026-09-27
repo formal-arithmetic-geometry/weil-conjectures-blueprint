@@ -4,6 +4,7 @@ kind = "section"
 title = "Small logarithm"
 order = 2614
 uses = ["sk-d-real-weil"]
+lean = ["PadicAlgCl.smallLog", "PadicAlgCl.smallUnits"]
 +++
 *Definition (sketch).*
 

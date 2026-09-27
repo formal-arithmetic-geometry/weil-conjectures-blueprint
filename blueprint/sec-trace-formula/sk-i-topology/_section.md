@@ -4,6 +4,7 @@ kind = "section"
 title = "Topological invariance"
 order = 2357
 uses = ["sec-six-functors", "sec-smooth-purity", "sk-d-setup", "sk-d-six", "sk-thm-sf-package"]
+lean = ["AlgebraicGeometry.ProEtale.isEquivalence_leftDerivedUpperStar_of_isFinite"]
 +++
 *Proposition (sketch).*
 

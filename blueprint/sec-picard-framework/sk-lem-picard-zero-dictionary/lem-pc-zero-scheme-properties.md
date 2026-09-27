@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Properties of the zero scheme"
 order = 826
 uses = ["def-pc-base-change", "def-pc-scheme", "def-sc-invertible-module", "lem-pc-divisor-line-bundle-properties", "lem-pc-tensor-dual-invertible"]
+lean = ["AlgebraicGeometry.exists_isEffectiveCartierCenter_hilbertPresheaf_of_picardFunctorF"]
 +++
 Let $X$ be a scheme, $\mathcal{M}$ a
 invertible $\mathcal{O}_X$-module and

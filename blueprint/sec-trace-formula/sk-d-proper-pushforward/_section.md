@@ -4,6 +4,7 @@ kind = "section"
 title = "Proper pushforward of a correspondence and its trace"
 order = 2325
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-d-trace-class"]
+lean = ["AlgebraicGeometry.ProEtale.ProperPushforwardDiagram"]
 +++
 *Definition (sketch).*
 

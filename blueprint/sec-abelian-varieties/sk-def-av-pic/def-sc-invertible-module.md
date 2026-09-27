@@ -2,6 +2,7 @@
 id = "def-sc-invertible-module"
 kind = "definition"
 title = "Invertible modules and their duals"
+lean = ["AlgebraicGeometry.Scheme.Modules.IsInvertible"]
 order = 442
 +++
 Let $X$ be a scheme (for instance a curve $C$ as in [def-sc-curves],

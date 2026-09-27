@@ -2,6 +2,7 @@
 id = "lem-sc-divisible-group-structure"
 kind = "lemma"
 title = "Structure of divisible abelian groups"
+lean = ["AddSubgroup.nonempty_addEquiv_torsionBy_of_divisible"]
 order = 574
 +++
 Let $D$ be a divisible abelian group, $\ell$ a prime and

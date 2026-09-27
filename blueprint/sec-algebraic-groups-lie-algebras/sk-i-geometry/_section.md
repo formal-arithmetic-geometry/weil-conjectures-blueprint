@@ -4,6 +4,7 @@ kind = "section"
 title = "Basic affine geometry"
 order = 2482
 uses = ["sk-d-geometry", "sk-d-tangent"]
+lean = ["Matrix.zariski_noetherian_constructible_dim"]
 +++
 *Proposition (sketch).*
 

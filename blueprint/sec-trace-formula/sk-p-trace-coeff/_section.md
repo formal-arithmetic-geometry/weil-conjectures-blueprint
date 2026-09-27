@@ -4,6 +4,7 @@ kind = "section"
 title = "Finite-level coefficient change"
 order = 2382
 uses = ["sk-d-setup", "sk-d-six", "sk-d-weil", "sk-thm-sf-ctf-stability"]
+lean = ["AlgebraicGeometry.ProEtale.nonempty_iso_comp_lowerShriek_and_upperStar"]
 +++
 *Proposition (sketch).*
 

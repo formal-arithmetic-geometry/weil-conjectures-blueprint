@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Characteristic polynomials along a filtration"
 order = 2549
 tags = ["latex:proposition"]
+lean = ["LinearMap.charpoly_eq_charpoly_restrict_mul_charpoly_mapQ", "Module.End.hasEigenvalue_of_subquotient"]
 +++
 Let $f$ be an endomorphism of a finite-dimensional
 $k$-space $V$ preserving a filtration with graded

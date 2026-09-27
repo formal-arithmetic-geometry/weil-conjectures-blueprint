@@ -3,6 +3,7 @@ id = "sk-def-as"
 kind = "section"
 title = "The Artin–Schreier sheaf"
 order = 2676
+lean = ["AlgebraicGeometry.Etale.artinSchreierSheaf"]
 uses = ["sk-def-char"]
 +++
 *Definition (sketch).*

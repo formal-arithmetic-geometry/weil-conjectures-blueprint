@@ -3,6 +3,7 @@ id = "sk-thm-weil1"
 kind = "section"
 title = "Weil conjectures I: rationality and Euler product"
 order = 2927
+lean = ["AlgebraicGeometry.Scheme.zetaSeries_rational", "AlgebraicGeometry.Scheme.Hom.zetaSeries_eq_tprod"]
 uses = ["sk-def-zeta", "sk-prop-euler", "sk-thm-rationality"]
 +++
 *Theorem (sketch).*

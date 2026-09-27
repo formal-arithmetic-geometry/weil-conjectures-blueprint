@@ -3,6 +3,7 @@ id = "def-fd-additive-character"
 kind = "definition"
 title = "Additive characters"
 order = 2672
+lean = ["AddChar.FiniteField.primitiveChar"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be a finite field or an algebraic closure of one, and let

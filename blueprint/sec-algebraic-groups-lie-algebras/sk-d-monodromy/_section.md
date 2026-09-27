@@ -4,6 +4,7 @@ kind = "section"
 title = "Represented degree data and monodromy"
 order = 2499
 uses = ["sk-d-geometry", "sk-d-linear"]
+lean = ["DegreeDatum", "RepresentedDegreeDatum", "RepresentedDegreeDatum.arithmeticMonodromy", "RepresentedDegreeDatum.geometricMonodromy", "RepresentedDegreeDatum.frobenius", "RepresentedDegreeDatum.IsSemisimple"]
 +++
 *Definition (sketch).*
 

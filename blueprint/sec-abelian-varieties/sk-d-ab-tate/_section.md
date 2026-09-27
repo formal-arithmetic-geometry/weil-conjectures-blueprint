@@ -2,6 +2,7 @@
 id = "sk-d-ab-tate"
 kind = "section"
 title = "Integral and rational Tate modules"
+lean = ["AddCommGroup.tateModule", "AddCommGroup.rationalTateModule"]
 order = 467
 uses = ["sk-d-ab-field"]
 +++

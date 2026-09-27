@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Coherence and finiteness of higher direct images"
 order = 659
 uses = ["def-pc-morphism-conventions", "lem-pc-finite-support-hi", "lem-pc-projective-coherent-higher-images"]
+lean = ["AlgebraicGeometry.Scheme.Modules.isFinitePresentation_higherDirectImage"]
 +++
 (Cohomology of Schemes, Proposition 30.19.1 (Tag
 [02O5](https://stacks.math.columbia.edu/tag/02O5)) and Lemma 30.19.2

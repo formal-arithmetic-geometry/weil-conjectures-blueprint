@@ -3,6 +3,7 @@ id = "sk-def-nagata-sketch-quasidomination"
 kind = "section"
 title = "Quasi-domination"
 order = 177
+lean = ["AlgebraicGeometry.QuasiDomination"]
 +++
 *Definition (sketch).*
 

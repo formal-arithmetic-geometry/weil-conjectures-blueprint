@@ -4,6 +4,7 @@ kind = "section"
 title = "Generic-point injection for the Brauer group"
 order = 900
 uses = ["sk-def-br", "sk-prop-divisor-gen"]
+lean = ["AlgebraicGeometry.Scheme.injective_cohomologyMap_gm_two"]
 +++
 *Proposition (sketch).*
 

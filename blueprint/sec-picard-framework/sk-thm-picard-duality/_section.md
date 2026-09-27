@@ -4,6 +4,7 @@ kind = "section"
 title = "Serre duality"
 order = 683
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
+lean = ["AlgebraicGeometry.Scheme.serreDuality"]
 +++
 *Theorem (sketch).*
 

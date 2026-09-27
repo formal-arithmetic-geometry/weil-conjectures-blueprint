@@ -4,6 +4,7 @@ kind = "section"
 title = "The cyclotomic Tate module"
 order = 2565
 uses = ["sk-d-ab-field", "sk-d-ab-tate"]
+lean = ["cyclotomicTateModule"]
 +++
 *Definition (sketch).*
 

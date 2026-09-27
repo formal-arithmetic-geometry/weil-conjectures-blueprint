@@ -3,6 +3,7 @@ id = "sk-def-ft"
 kind = "section"
 title = "The Fourier–Deligne transform"
 order = 2692
+lean = ["AlgebraicGeometry.Etale.fourierTransform"]
 uses = ["sk-def-kernel", "sk-lem-as-properties"]
 +++
 *Definition (sketch).*

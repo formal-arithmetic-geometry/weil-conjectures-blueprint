@@ -4,6 +4,7 @@ kind = "section"
 title = "Invariance under extension of algebraically closed fields"
 order = 1027
 uses = ["sk-def-av-jacobian", "sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-prop-cd-affine", "sk-prop-jacobian", "sk-prop-kummer-exact", "sk-thm-av-final", "sk-thm-curveestimate"]
+lean = ["AlgebraicGeometry.bijective_cohomologyMap_constantZMod"]
 +++
 *Proposition (sketch).*
 

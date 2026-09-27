@@ -3,6 +3,7 @@ id = "sk-lem-kernel-composition"
 kind = "section"
 title = "P11: composition of kernel transforms"
 order = 2711
+lean = ["AlgebraicGeometry.Etale.kernelTransformCompIso"]
 uses = ["sk-def-ft"]
 +++
 *Proposition (sketch).*

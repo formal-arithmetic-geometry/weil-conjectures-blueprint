@@ -4,6 +4,7 @@ kind = "section"
 title = "Descent"
 order = 762
 uses = ["sk-def-av-pic"]
+lean = ["AlgebraicGeometry.isStack_fpqc_quasicoherent", "AlgebraicGeometry.isSheaf_fpqc_finiteLocallyFreeSubscheme"]
 +++
 *Theorem (sketch).*
 

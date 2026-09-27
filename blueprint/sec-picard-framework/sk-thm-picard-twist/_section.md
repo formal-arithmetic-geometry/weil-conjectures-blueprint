@@ -4,6 +4,7 @@ kind = "section"
 title = "The twist lemma"
 order = 754
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-picard-serre-a"]
+lean = ["AlgebraicGeometry.Scheme.exists_isInvertible_twist"]
 +++
 *Theorem (sketch).*
 

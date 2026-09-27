@@ -2,6 +2,7 @@
 id = "sk-prop-av-rigidity"
 kind = "section"
 title = "The rigidity lemma"
+lean = ["AlgebraicGeometry.rigidity"]
 order = 489
 uses = ["sk-prop-av-const-locus", "sk-prop-av-image-open"]
 +++

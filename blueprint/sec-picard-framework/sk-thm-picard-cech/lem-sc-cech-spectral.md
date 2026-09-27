@@ -4,6 +4,7 @@ kind = "lemma"
 title = "The Cech-to-cohomology spectral sequence"
 order = 600
 uses = ["thm-sp-double-complex-spectral-sequences"]
+lean = ["CategoryTheory.Sheaf.exists_cechToDerivedSpectralSequence"]
 +++
 Let $X$ be a scheme, $\mathfrak U=\{U_i\to X\}$ an etale covering
 (or any covering of a site; we apply the statement below also to the

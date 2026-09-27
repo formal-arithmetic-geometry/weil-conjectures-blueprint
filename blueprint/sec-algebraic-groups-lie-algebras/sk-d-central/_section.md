@@ -4,6 +4,7 @@ kind = "section"
 title = "Positive central pairs and their construction"
 order = 2524
 uses = ["sk-d-geometry", "sk-d-monodromy"]
+lean = ["RepresentedDegreeDatum.IsPositiveCentralPair", "RepresentedDegreeDatum.AdmissibleChoice", "RepresentedDegreeDatum.AdmissibleChoice.degree", "RepresentedDegreeDatum.AdmissibleChoice.centralElement"]
 +++
 *Definition (sketch).*
 

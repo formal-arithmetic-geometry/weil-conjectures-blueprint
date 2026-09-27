@@ -4,6 +4,7 @@ kind = "section"
 title = "Finite-coefficient Lefschetz trace formula"
 order = 2376
 uses = ["sk-c-proper-global", "sk-d-lines", "sk-d-operator", "sk-d-relative-frob", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-d-weil-push", "sk-i-global-additivity", "sk-i-relative-frob", "sk-i-topology", "sk-p-frob", "sk-p-local", "sk-p-trace", "sk-thm-sf-package"]
+lean = ["AlgebraicGeometry.ProEtale.trace_globalOperator_eq_sum_trace_stalkFrobenius"]
 +++
 *Proposition (sketch).*
 

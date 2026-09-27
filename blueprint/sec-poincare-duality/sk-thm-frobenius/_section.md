@@ -4,6 +4,7 @@ kind = "section"
 title = "Frobenius: equivariance, similitudine, reciprocity"
 order = 2445
 uses = ["sk-def-pairing", "sk-def-sf-orientation", "sk-def-weil", "sk-thm-derived-duality"]
+lean = ["AlgebraicGeometry.ProEtale.frobenius_poincarePairing"]
 +++
 *Theorem (sketch).*
 

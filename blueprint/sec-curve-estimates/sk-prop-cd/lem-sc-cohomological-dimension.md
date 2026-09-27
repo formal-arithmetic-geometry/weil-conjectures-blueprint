@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Cohomological dimension of a smooth curve"
 order = 1006
 uses = ["def-sc-curves", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-sc-function-field-cd-one", "lem-sc-generic-cohomology-comparison", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "lem-sc-zero-generic-acyclic", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-sp-grothendieck"]
+lean = ["AlgebraicGeometry.subsingleton_H_of_curve_of_three_le"]
 +++
 For a smooth separated connected curve $C$
 over an algebraically closed field and any torsion
