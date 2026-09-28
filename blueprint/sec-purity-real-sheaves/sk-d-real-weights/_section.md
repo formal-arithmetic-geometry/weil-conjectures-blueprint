@@ -4,7 +4,7 @@ kind = "section"
 title = "Local weights and reality"
 order = 2588
 uses = ["sk-d-real-setup", "sk-d-real-weil"]
-lean = ["AlgebraicGeometry.WeilGroup.IsPunctuallyPure", "AlgebraicGeometry.weight", "AlgebraicGeometry.WeilGroup.localPolynomial", "AlgebraicGeometry.WeilGroup.HasWeightsAtMost", "AlgebraicGeometry.WeilGroup.IsReal"]
+lean = ["AlgebraicGeometry.WeilGroup.IsPunctuallyPure", "AlgebraicGeometry.WeilGroup.frobeniusWeight", "AlgebraicGeometry.WeilGroup.localPolynomial", "AlgebraicGeometry.WeilGroup.HasWeightsAtMost", "AlgebraicGeometry.WeilGroup.IsReal"]
 +++
 *Definition (sketch).*
 
