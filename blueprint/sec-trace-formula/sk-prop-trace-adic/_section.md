@@ -4,7 +4,7 @@ kind = "section"
 title = "Adic realization"
 order = 2384
 uses = ["sk-d-setup", "sk-d-six", "sk-d-weil", "sk-p-trace-coeff", "sk-prop-sf-trace-perfectness", "sk-thm-sf-ctf-stability"]
-lean = ["AlgebraicGeometry.ProEtale.derivedComplete_limit_and_nonempty_iso_limit"]
+lean = ["AlgebraicGeometry.ProEtale.derivedComplete_limit", "AlgebraicGeometry.ProEtale.nonempty_derivedCompletionDiagram_obj_limit_iso", "AlgebraicGeometry.ProEtale.nonempty_rightDerivedLowerShriek_obj_limit_iso", "AlgebraicGeometry.ProEtale.nonempty_leftDerivedUpperStar_obj_limit_iso"]
 +++
 *Proposition (sketch).*
 
