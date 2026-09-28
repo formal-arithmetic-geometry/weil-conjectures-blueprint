@@ -4,7 +4,7 @@ kind = "section"
 title = "Fourier exactness on a curve"
 order = 2737
 uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-prop-kernel-lisse", "sk-prop-stalk", "sk-thm-inversion"]
-lean = ["AlgebraicGeometry.WeilComplex.IsPerverseUpper", "AlgebraicGeometry.WeilComplex.IsPerverseLower", "AlgebraicGeometry.WeilComplex.IsPerverse", "AlgebraicGeometry.fourierTransform_isEquivalence_and_isPerverse_iff"]
+lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseUpper", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.WeilComplex.IsCurvePerverse", "AlgebraicGeometry.isCurvePerverse_fourierTransform_obj_iff"]
 +++
 *Proposition (sketch).*
 

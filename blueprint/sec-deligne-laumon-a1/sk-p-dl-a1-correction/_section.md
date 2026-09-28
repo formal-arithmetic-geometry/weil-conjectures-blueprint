@@ -4,7 +4,7 @@ kind = "section"
 title = "The zero-extension comparison"
 order = 2767
 uses = ["sk-p-dl-a1-middle", "sk-p-dl-a1-perverse", "sk-p-real-semi"]
-lean = ["AlgebraicGeometry.exists_shortExact_fourierTransform_extensionByZero"]
+lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_fourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.isLisse", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.hasWeightsAtMost"]
 +++
 *Proposition (sketch).*
 
