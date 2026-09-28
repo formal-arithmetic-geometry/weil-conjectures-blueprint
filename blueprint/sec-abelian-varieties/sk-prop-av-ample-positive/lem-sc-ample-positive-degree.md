@@ -2,7 +2,7 @@
 id = "lem-sc-ample-positive-degree"
 kind = "lemma"
 title = "Ample modules on proper curves have positive degree"
-lean = ["AlgebraicGeometry.degreeWrt_pos_of_isAmple"]
+lean = ["AlgebraicGeometry.Scheme.Hom.degree_pos_of_isAmple"]
 order = 550
 uses = ["def-sc-ample", "def-sc-curves", "def-sc-hilbert-degree", "lem-sc-hilbert-polynomial"]
 +++

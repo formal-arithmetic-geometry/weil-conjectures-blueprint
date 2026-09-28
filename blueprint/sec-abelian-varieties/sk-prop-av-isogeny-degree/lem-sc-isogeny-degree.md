@@ -2,7 +2,7 @@
 id = "lem-sc-isogeny-degree"
 kind = "lemma"
 title = "The degree of an isogeny"
-lean = ["AlgebraicGeometry.finrank_eq_isogenyDegree"]
+lean = ["AlgebraicGeometry.IsIsogeny.finrank_eq", "AlgebraicGeometry.IsIsogeny.isFinite", "AlgebraicGeometry.IsIsogeny.flat"]
 order = 558
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-isogeny", "lem-sc-finite-constant-length-flat", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sc-hilbert-degree"
 kind = "definition"
 title = "The Hilbert degree of an ample line bundle"
-lean = ["AlgebraicGeometry.degreeWrt"]
+lean = ["AlgebraicGeometry.Scheme.Hom.degree"]
 order = 438
 uses = ["def-sc-ample"]
 +++
