@@ -3,7 +3,7 @@ id = "sk-d-real-series"
 kind = "section"
 title = "Radius of a formal series"
 order = 2604
-lean = ["PowerSeries.radius", "PowerSeries.IsNonneg"]
+lean = ["PowerSeries.radius", "PowerSeries.HasNonnegCoeffs"]
 +++
 *Definition (sketch).*
 

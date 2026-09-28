@@ -4,7 +4,7 @@ kind = "section"
 title = "Boundary stalks and restriction to an open"
 order = 2642
 uses = ["sk-d-real-boundary", "sk-d-real-setup", "sk-d-real-weil"]
-lean = ["AlgebraicGeometry.BoundaryDatum.isConstructibleSheaf_lowerStar_and_surjective"]
+lean = ["AlgebraicGeometry.Scheme.isConstructibleSheaf_lowerStar", "AlgebraicGeometry.Scheme.isIso_unit_upperStarLowerStarAdjunction"]
 +++
 *Proposition (sketch).*
 

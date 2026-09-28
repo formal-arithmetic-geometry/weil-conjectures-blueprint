@@ -4,7 +4,7 @@ kind = "section"
 title = "Arithmetic monodromy and a central representative"
 order = 2629
 uses = ["sk-d-real-setup", "sk-d-real-weil", "sk-d-monodromy", "sk-d-central"]
-lean = ["AlgebraicGeometry.WeilGroup.CentralFrobeniusRepresentative", "AlgebraicGeometry.WeilGroup.toLinearAut"]
+lean = ["AlgebraicGeometry.WeilGroup.toLinearAut"]
 +++
 *Definition (sketch).*
 
