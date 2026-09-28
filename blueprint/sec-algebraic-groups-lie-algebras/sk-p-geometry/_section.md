@@ -4,7 +4,7 @@ kind = "section"
 title = "Algebraic-group geometry"
 order = 2493
 uses = ["sk-d-geometry", "sk-i-cartier", "sk-i-geometry"]
-lean = ["Matrix.identityComponent_spec_and_isClosed_range_and_eq_of_krullDim_eq"]
+lean = ["Subgroup.isClosed_identityComponent", "Subgroup.identityComponent_subgroupOf_normal", "Subgroup.isIrreducible_identityComponent", "Subgroup.finiteIndex_identityComponent_subgroupOf", "Subgroup.connectedComponentIn_eq_image_identityComponent", "Matrix.isClosed_range_of_isRegularHom", "Subgroup.eq_of_topologicalKrullDim_eq"]
 +++
 *Proposition (sketch).*
 

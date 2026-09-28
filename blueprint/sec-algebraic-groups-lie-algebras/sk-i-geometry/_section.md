@@ -4,7 +4,7 @@ kind = "section"
 title = "Basic affine geometry"
 order = 2482
 uses = ["sk-d-geometry", "sk-d-tangent"]
-lean = ["Matrix.zariski_noetherian_constructible_dim"]
+lean = ["MvPolynomial.instNoetherianSpace", "MvPolynomial.exists_isOpen_inter_subset_of_isConstructible", "MvPolynomial.topologicalKrullDim_lt_of_ssubset"]
 +++
 *Proposition (sketch).*
 
