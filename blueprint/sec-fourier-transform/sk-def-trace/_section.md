@@ -3,7 +3,7 @@ id = "sk-def-trace"
 kind = "section"
 title = "The trace function, and the classical Fourier transform"
 order = 2688
-lean = ["AlgebraicGeometry.Etale.traceFunction"]
+lean = ["AlgebraicGeometry.WeilSheaf.traceFunction"]
 uses = ["sk-def-char", "sk-def-fourier-set"]
 +++
 *Definition (sketch).*

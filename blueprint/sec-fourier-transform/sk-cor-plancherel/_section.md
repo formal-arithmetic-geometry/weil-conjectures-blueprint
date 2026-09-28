@@ -3,7 +3,6 @@ id = "sk-cor-plancherel"
 kind = "section"
 title = "P9: Plancherel"
 order = 2708
-lean = ["AlgebraicGeometry.Etale.sum_normSq_traceFunction_affineFourierTransform"]
 uses = ["sk-lem-orthogonality", "sk-thm-fourier-trace-formula"]
 +++
 *Corollary (sketch).*
