@@ -4,7 +4,7 @@ kind = "section"
 title = "Zariski density of rational points"
 order = 746
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
-lean = ["AlgebraicGeometry.Scheme.Hom.dense_range_fieldPoints"]
+lean = ["AlgebraicGeometry.Scheme.Hom.denseRange_fieldPoints"]
 +++
 *Proposition (sketch).*
 

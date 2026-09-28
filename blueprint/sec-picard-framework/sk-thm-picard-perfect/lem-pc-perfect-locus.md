@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The perfect locus with fixed degree"
 order = 681
 uses = ["def-pc-base-change", "def-pc-derived-category", "def-pc-derived-pullback", "def-pc-invertible-in-degree-zero", "def-pc-morphism-conventions", "def-pc-perfect-complex"]
-lean = ["AlgebraicGeometry.Scheme.Modules.isOpen_setOf_hFiber_eq_zero"]
+lean = ["AlgebraicGeometry.Scheme.Modules.isOpen_setOf_hFiber_le", "AlgebraicGeometry.Scheme.Modules.isZero_higherDirectImage_restrict", "AlgebraicGeometry.Scheme.Modules.isFiniteLocallyFreeOfRank_higherDirectImage_restrict"]
 +++
 Let $X$ be a scheme and let $E\in D(\mathcal{O}_X)$ be
 perfect. Given $i,r\in\mathbb{Z}$ there is
