@@ -4,7 +4,6 @@ kind = "section"
 title = "Finiteness: the global sections are perfect at the point"
 order = 2426
 uses = ["sk-def-perfect", "sk-def-set", "sk-prop-sf-trace-perfectness"]
-lean = ["AlgebraicGeometry.ProEtale.isPerfectPointComplex_globalSections"]
 +++
 *Lemma (sketch).*
 

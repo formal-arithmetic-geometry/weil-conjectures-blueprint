@@ -4,7 +4,6 @@ kind = "section"
 title = "Supported product over a relative base"
 order = 2436
 uses = ["sk-def-ops", "sk-thm-sf-kunneth-relative"]
-lean = ["AlgebraicGeometry.ProEtale.nonempty_rightDerivedLowerShriek_externalProduct_iso"]
 +++
 *Theorem (sketch).*
 

@@ -4,7 +4,7 @@ kind = "section"
 title = "Perfectness at the point and on $X$"
 order = 2412
 uses = ["sk-def-ops"]
-lean = ["AlgebraicGeometry.ProEtale.IsPerfectPointComplex", "AlgebraicGeometry.ProEtale.IsPerfect"]
+lean = ["CategoryTheory.IsDualizable"]
 +++
 *Definition (sketch).*
 
