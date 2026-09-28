@@ -4,7 +4,6 @@ kind = "theorem"
 title = "Poincare duality for smooth proper schemes"
 order = 2453
 uses = ["cor-pod-reciprocal-eigenvalues", "cor-pod-untwisted-similitude", "def-coefficient-twists-detailed", "def-pod-dual-tate-datum", "def-trf-frobenius-operators", "def-weil-algebraically-closed-coefficients", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-poincare-trace-cup", "def-weil-weil-sheaf-complex", "lem-fix-weil-operations", "prop-cohomological-finiteness", "thm-pod-degreewise-perfectness-over-a-field", "thm-pod-proper-poincare-duality", "thm-pod-qbar-coefficient-pairing", "thm-pod-trace-isomorphism"]
-lean = ["AlgebraicGeometry.ProEtale.poincare_duality"]
 +++
 Let $p$ be prime, let $a\in\mathbf Z_{\geq1}$, put $q=p^a$, and set
 $k_0=\Fq$, and let $k=\Fbar$ be the

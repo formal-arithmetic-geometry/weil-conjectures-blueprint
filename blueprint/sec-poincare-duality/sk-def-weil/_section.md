@@ -4,7 +4,7 @@ kind = "section"
 title = "Weil structures and their Frobenius normalization"
 order = 2423
 uses = ["sk-def-ops"]
-lean = ["AlgebraicGeometry.ProEtale.WeilComplex", "AlgebraicGeometry.ProEtale.WeilComplex.dual", "AlgebraicGeometry.ProEtale.WeilComplex.twist", "AlgebraicGeometry.ProEtale.WeilComplex.cohomologyFrobenius"]
+lean = ["AlgebraicGeometry.ProEtale.WeilComplex"]
 +++
 *Definition (sketch).*
 

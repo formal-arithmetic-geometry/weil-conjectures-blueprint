@@ -4,7 +4,6 @@ kind = "section"
 title = "The trace isomorphism"
 order = 2442
 uses = ["sk-def-trace-cup", "sk-lem-finite", "sk-thm-sf-identification"]
-lean = ["AlgebraicGeometry.ProEtale.isIso_traceMap"]
 +++
 *Corollary (sketch).*
 
