@@ -3,7 +3,7 @@ id = "sk-def-pbc"
 kind = "section"
 title = "The PBC property"
 order = 1047
-lean = ["AlgebraicGeometry.Etale.SatisfiesBaseChange"]
+lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange"]
 uses = ["sk-def-conv", "sk-def-exchange"]
 +++
 *Definition (sketch).*

@@ -3,7 +3,7 @@ id = "sk-thm-iff"
 kind = "section"
 title = "PBC $\\Leftrightarrow$ IA"
 order = 1067
-lean = ["AlgebraicGeometry.Etale.satisfiesBaseChange_iff_satisfiesInjectiveAcyclicity"]
+lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_iff_hasInjectiveAcyclicity"]
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-ia", "sk-def-pbc", "sk-thm-acyclicity"]
 +++
 *Theorem (sketch).*

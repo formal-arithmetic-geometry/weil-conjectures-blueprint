@@ -3,7 +3,7 @@ id = "sk-def-ia"
 kind = "section"
 title = "Injective acyclicity"
 order = 1049
-lean = ["AlgebraicGeometry.Etale.SatisfiesInjectiveAcyclicity"]
+lean = ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity"]
 uses = ["sk-def-conv", "sk-def-exchange"]
 +++
 *Definition (sketch).*
