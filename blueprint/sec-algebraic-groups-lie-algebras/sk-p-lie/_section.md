@@ -4,7 +4,7 @@ kind = "section"
 title = "Lie algebra structure"
 order = 2468
 uses = ["sk-d-lie"]
-lean = ["LieAlgebra.hasCentralRadical_and_center_sup_derivedSeries_eq_top"]
+lean = ["LieAlgebra.hasCentralRadical_of_isFaithful", "LieAlgebra.center_sup_derivedSeries_eq_top"]
 +++
 *Proposition (sketch).*
 

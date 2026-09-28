@@ -4,7 +4,7 @@ kind = "section"
 title = "Tate modules and Frobenius"
 order = 2562
 uses = ["sk-d-ab-field", "sk-d-ab-tate"]
-lean = ["tateModule_eq_zero_of_finite_fixedPoints"]
+lean = ["AddCommGroup.eq_zero_of_mem_tateModule_of_forall_fixed"]
 +++
 *Proposition (sketch).*
 

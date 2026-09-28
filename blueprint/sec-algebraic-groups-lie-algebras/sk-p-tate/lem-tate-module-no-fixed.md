@@ -4,7 +4,7 @@ kind = "lemma"
 title = "No fixed vectors on the Tate module when the fixed subgroup is finite"
 order = 2563
 uses = ["def-tate-module-abelian-group"]
-lean = ["tateModule_eq_zero_of_finite_fixedPoints"]
+lean = ["AddCommGroup.eq_zero_of_mem_tateModule_of_forall_fixed"]
 +++
 Let $M$ be an abelian group, $\ell$ a prime, and $\sigma$ an automorphism of $M$
 whose fixed subgroup $M^\sigma$ is finite. Then $T_\ell M$ has no $\ell$-power
