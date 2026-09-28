@@ -3,7 +3,6 @@ id = "sk-prop-double-trace"
 kind = "section"
 title = "P10: trace-level Fourier inversion"
 order = 2710
-lean = ["AlgebraicGeometry.Etale.traceFunction_affineFourierTransform_comp"]
 uses = ["sk-lem-orthogonality", "sk-thm-fourier-trace-formula"]
 +++
 *Corollary (sketch).*
