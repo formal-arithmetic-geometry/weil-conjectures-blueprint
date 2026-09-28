@@ -4,7 +4,7 @@ kind = "section"
 title = "Riemann–Roch for curves, and its geometric corollary"
 order = 705
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
-lean = ["AlgebraicGeometry.Scheme.riemannRoch", "AlgebraicGeometry.Scheme.isAmple_of_degree_pos", "AlgebraicGeometry.Scheme.isAffine_compl_of_isAmple"]
+lean = ["AlgebraicGeometry.Scheme.eulerChar_free_eq", "AlgebraicGeometry.Scheme.eulerChar_unit_eq", "AlgebraicGeometry.Scheme.finrankH_zero_eq", "AlgebraicGeometry.Scheme.isAmple_of_degree_pos", "AlgebraicGeometry.Scheme.isAffine_compl_of_isAmple"]
 +++
 *Theorem (sketch).*
 

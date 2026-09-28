@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Riemann–Roch on a proper smooth curve"
 order = 706
 uses = ["def-sc-curves", "def-sc-function-field", "def-sc-genus", "def-sc-invertible-module", "def-sc-pic0"]
-lean = ["AlgebraicGeometry.Scheme.riemannRoch"]
+lean = ["AlgebraicGeometry.Scheme.eulerChar_free_eq", "AlgebraicGeometry.Scheme.eulerChar_unit_eq"]
 +++
 Let $k$ be algebraically closed and $C$ a
 proper smooth connected curve of genus $g$ ([def-sc-genus]) over

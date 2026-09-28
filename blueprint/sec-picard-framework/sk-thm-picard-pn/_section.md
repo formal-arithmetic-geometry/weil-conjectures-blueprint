@@ -4,7 +4,7 @@ kind = "section"
 title = "Cohomology of $\\PP^n$, Serre 1954"
 order = 611
 uses = ["sk-def-av-pic"]
-lean = ["AlgebraicGeometry.ProjectiveSpace.cohomology_twist"]
+lean = ["AlgebraicGeometry.ProjectiveSpace.nonempty_H_zero_twist_equiv", "AlgebraicGeometry.ProjectiveSpace.subsingleton_H_twist_of_ne", "AlgebraicGeometry.ProjectiveSpace.subsingleton_H_twist_top", "AlgebraicGeometry.ProjectiveSpace.nonempty_H_twist_top_equiv_dual"]
 +++
 *Theorem (sketch).*
 

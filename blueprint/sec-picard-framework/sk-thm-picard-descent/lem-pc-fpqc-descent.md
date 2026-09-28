@@ -4,7 +4,7 @@ kind = "lemma"
 title = "FPQC descent for quasi-coherent modules"
 order = 763
 uses = ["def-sc-invertible-module"]
-lean = ["AlgebraicGeometry.isStack_fpqc_quasicoherent"]
+lean = ["AlgebraicGeometry.bijective_toDescentData_map", "AlgebraicGeometry.exists_isQuasicoherent_toDescentData_iso", "AlgebraicGeometry.isFinitePresentation_of_toDescentData_iso", "AlgebraicGeometry.isLocallyFree_of_toDescentData_iso", "AlgebraicGeometry.isInvertible_of_toDescentData_iso"]
 +++
 (Descent, Proposition 35.5.2, Tag
 [023T](https://stacks.math.columbia.edu/tag/023T), and Descent,

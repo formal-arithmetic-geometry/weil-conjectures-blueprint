@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Rational points on smooth schemes over separably closed fields"
 order = 752
 uses = ["def-pc-separably-closed", "lem-pc-dense-separable-points", "lem-pc-sepclosed-finite-sep-trivial"]
-lean = ["AlgebraicGeometry.Scheme.Hom.dense_range_fieldPoints"]
+lean = ["AlgebraicGeometry.Scheme.Hom.denseRange_fieldPoints"]
 +++
 Let $k$ be a separably closed field,
 let $X$ be a scheme over $k$ which is smooth over $k$. Then $X(k)$ is

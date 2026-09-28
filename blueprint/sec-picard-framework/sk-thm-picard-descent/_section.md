@@ -4,7 +4,7 @@ kind = "section"
 title = "Descent"
 order = 762
 uses = ["sk-def-av-pic"]
-lean = ["AlgebraicGeometry.isStack_fpqc_quasicoherent", "AlgebraicGeometry.isSheaf_fpqc_finiteLocallyFreeSubscheme"]
+lean = ["AlgebraicGeometry.bijective_toDescentData_map", "AlgebraicGeometry.exists_isQuasicoherent_toDescentData_iso", "AlgebraicGeometry.isFinitePresentation_of_toDescentData_iso", "AlgebraicGeometry.isLocallyFree_of_toDescentData_iso", "AlgebraicGeometry.isInvertible_of_toDescentData_iso", "AlgebraicGeometry.isSheaf_fpqc_finiteLocallyFreeSubscheme"]
 +++
 *Theorem (sketch).*
 

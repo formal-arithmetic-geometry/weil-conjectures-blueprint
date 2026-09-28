@@ -4,7 +4,7 @@ kind = "section"
 title = "Openness of the perfect locus"
 order = 677
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
-lean = ["AlgebraicGeometry.Scheme.Modules.isOpen_setOf_hFiber_eq_zero"]
+lean = ["AlgebraicGeometry.Scheme.Modules.isOpen_setOf_hFiber_le", "AlgebraicGeometry.Scheme.Modules.isZero_higherDirectImage_restrict", "AlgebraicGeometry.Scheme.Modules.isFiniteLocallyFreeOfRank_higherDirectImage_restrict"]
 +++
 *Theorem (sketch).*
 
