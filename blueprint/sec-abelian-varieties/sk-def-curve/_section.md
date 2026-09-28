@@ -2,7 +2,7 @@
 id = "sk-def-curve"
 kind = "section"
 title = "Curves and genus"
-lean = ["AlgebraicGeometry.IsCurve", "AlgebraicGeometry.genus"]
+lean = ["AlgebraicGeometry.IsCurve", "AlgebraicGeometry.Scheme.Hom.genus"]
 order = 417
 +++
 *Definition (sketch).*

@@ -2,7 +2,7 @@
 id = "lem-sc-rigidity"
 kind = "lemma"
 title = "The rigidity lemma"
-lean = ["AlgebraicGeometry.rigidity"]
+lean = ["AlgebraicGeometry.exists_eq_snd_comp"]
 order = 490
 uses = ["lem-sc-constant-locus-closed", "lem-sc-finite-image-locus-open"]
 +++

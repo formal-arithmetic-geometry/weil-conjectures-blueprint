@@ -2,7 +2,7 @@
 id = "def-sc-genus"
 kind = "definition"
 title = "The genus of a curve"
-lean = ["AlgebraicGeometry.genus"]
+lean = ["AlgebraicGeometry.Scheme.Hom.genus"]
 order = 419
 uses = ["def-sc-curves"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-prop-av-mult-n-pullback"
 kind = "section"
 title = "Pullback of symmetric modules under multiplication by $n$"
-lean = ["AlgebraicGeometry.nonempty_iso_pullback_npow"]
+lean = ["AlgebraicGeometry.nonempty_iso_overPullback_npow_id"]
 order = 481
 uses = ["sk-def-av", "sk-def-av-mult-n", "sk-prop-av-cube", "sk-prop-av-symmetric-ample"]
 +++

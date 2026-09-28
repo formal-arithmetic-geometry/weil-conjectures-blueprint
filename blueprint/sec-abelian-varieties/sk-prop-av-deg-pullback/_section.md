@@ -2,7 +2,7 @@
 id = "sk-prop-av-deg-pullback"
 kind = "section"
 title = "Degree of a pullback under a finite morphism"
-lean = ["AlgebraicGeometry.degreeWrt_pullback"]
+lean = ["AlgebraicGeometry.Scheme.Hom.degree_pullback"]
 order = 483
 uses = ["sk-def-av-ample-degree", "sk-def-av-pic"]
 +++

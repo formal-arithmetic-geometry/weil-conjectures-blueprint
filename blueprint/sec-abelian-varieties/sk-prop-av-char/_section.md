@@ -2,7 +2,7 @@
 id = "sk-prop-av-char"
 kind = "section"
 title = "Abelian varieties are the complete group varieties"
-lean = ["AlgebraicGeometry.geometricallyIntegral_of_isAbelianVariety"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral", "AlgebraicGeometry.IsAbelianVariety.irreducibleSpace"]
 order = 471
 uses = ["sk-def-av", "sk-def-av-group-scheme"]
 +++

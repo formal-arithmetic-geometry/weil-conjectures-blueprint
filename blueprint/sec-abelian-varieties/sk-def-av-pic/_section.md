@@ -2,7 +2,7 @@
 id = "sk-def-av-pic"
 kind = "section"
 title = "$\\Pic$, degree, $\\Pic^0$"
-lean = ["AlgebraicGeometry.Scheme.Pic", "AlgebraicGeometry.Scheme.picZero"]
+lean = ["AlgebraicGeometry.Scheme.Pic", "AlgebraicGeometry.Scheme.Hom.picZero"]
 order = 440
 uses = ["sec-nagata-compactification", "sk-def-curve"]
 +++

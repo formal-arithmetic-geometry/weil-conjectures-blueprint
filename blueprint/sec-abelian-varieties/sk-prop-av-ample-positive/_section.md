@@ -2,7 +2,7 @@
 id = "sk-prop-av-ample-positive"
 kind = "section"
 title = "Ample modules on proper curves have positive degree"
-lean = ["AlgebraicGeometry.degreeWrt_pos_of_isAmple"]
+lean = ["AlgebraicGeometry.Scheme.Hom.degree_pos_of_isAmple"]
 order = 549
 uses = ["sk-def-av-ample-degree"]
 +++
