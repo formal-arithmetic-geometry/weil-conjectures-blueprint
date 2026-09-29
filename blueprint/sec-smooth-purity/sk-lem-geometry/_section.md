@@ -4,7 +4,7 @@ kind = "section"
 title = "Geometry of the deformation of a section"
 order = 1997
 uses = ["sk-def-purity-conv", "sk-prop-an"]
-lean = ["AlgebraicGeometry.Scheme.Hom.deformationToNormalCone_spec"]
+lean = ["AlgebraicGeometry.Scheme.Hom.nonempty_deformationToNormalConeData"]
 +++
 *Lemma (sketch).*
 

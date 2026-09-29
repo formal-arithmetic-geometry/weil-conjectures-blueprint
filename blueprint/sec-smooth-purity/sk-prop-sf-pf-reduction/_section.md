@@ -4,7 +4,7 @@ kind = "section"
 title = "Projection formula: compatibility with finite reduction"
 order = 1880
 uses = ["sk-thm-sf-pf-finite"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_derivedTensor_rightDerivedLowerShriek_iff_reduction"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_leftDerivedUpperStar"]
 +++
 *Proposition (sketch).*
 

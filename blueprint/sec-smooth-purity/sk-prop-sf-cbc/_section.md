@@ -4,7 +4,7 @@ kind = "section"
 title = "Compact-support base change"
 order = 1517
 uses = ["sk-def-av-jacobian"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_upperStar_comp_rightDerivedLowerShriek"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_leftDerivedUpperStar_comp_rightDerivedLowerShriek"]
 +++
 *Proposition (sketch).*
 
