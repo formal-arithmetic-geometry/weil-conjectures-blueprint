@@ -36,6 +36,13 @@
    "date": "2026-09-26"},
   {"summary":
    {"total": 2318,
+    "proved": 302,
+    "byStatus": {"stated": 80, "proved": 302, "missing": 75, "absent": 1861}},
+   "sha": "141b277e55568540b354dd58081db86ebc9fb2c1",
+   "file": "data/141b277e55568540b354dd58081db86ebc9fb2c1.json",
+   "date": "2026-09-28"},
+  {"summary":
+   {"total": 2318,
     "proved": 321,
     "byStatus": {"stated": 5, "proved": 321, "missing": 144, "absent": 1848}},
    "sha": "8477152151fdfc4f29deeb2fef37c59a2d244487",
