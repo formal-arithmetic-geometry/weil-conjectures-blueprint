@@ -104,4 +104,12 @@ $Y'\to C$ is étale where it had to be. Spreading $Y'$ out over a
 slightly larger open of $S$ (0BQ5, 0EY3)
 contradicts the maximality of $U$, so $U=S$.
 
+*Scope of the Lean statement.* Only the case of an abelian group
+$G=M$ is used by the smooth base change proof, and only that case is
+stated in Lean, as an extension of $M$-torsors in the sense of
+[sk-prop-input-torsors]. Neither the uniqueness of the extension nor
+connectedness of the extended cover is asserted: the torsors that
+[sk-thm-vanishing] spreads are those attached to an arbitrary class in
+$H^1$, which need not be connected.
+
 Uses: [sk-def-smooth], `sbc-thm-spreading-finite-etale-galois`
