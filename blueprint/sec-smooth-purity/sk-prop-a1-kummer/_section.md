@@ -38,10 +38,26 @@ pulled back from $Y$, so by the projection formula the twisted and untwisted
 statements determine one another.
 
 *Coefficients.* With $N$ as in [sk-def-purity-conv], $\ell^NA=0$ and
-$A\cong(\Z/\ell^N\Z)^{ef}$ is free over $\Z/\ell^N\Z$, where $e=e(E/\mathbf Q_\ell)$
-and $f$ is the residue degree. Since $\Lambda(1)=\mu_{\ell^N}\otimes_{\Z/\ell^N\Z}A$
-and $-\otimes_{\Z/\ell^N\Z}A$ is exact, it suffices to compute with
-$\mu_{\ell^N}$ and tensor up.
+$\Lambda(1)=\mu_{\ell^N}\otimes_{\Z/\ell^N\Z}A$. We reduce to
+$\mu_{\ell^N}$-coefficients by dévissage on $n$. For $n=1$,
+$A=F=\mathcal O_E/\varpi$ is a finite-dimensional $\mathbf F_\ell$-vector
+space, so $F(1)=\mu_\ell\otimes_{\mathbf F_\ell}F$ is a finite direct sum of
+copies of $\mu_\ell$ and (a)–(c) for $F$ follow from the computation below
+(with $\ell^N=\ell$). For $n>1$ the exact sequence
+$0\to A_{E,n-1}\xrightarrow{\varpi}A_{E,n}\to F\to0$ of coefficient modules
+gives an exact sequence of twisted sheaves; the vanishings in (a) and (c)
+pass through the long exact sequence, and for (b), on $C=\mathbf G_{m,k}$,
+the connecting map $H^0(C,F(1))\to H^1(C,A_{E,n-1}(1))$ vanishes because
+$H^0(C,A_{E,n}(1))=\mu_{\ell^N}(k)\otimes A_{E,n}\to H^0(C,F(1))$ is
+surjective ($k$ algebraically closed) and $H^2(C,A_{E,n-1}(1))=0$ by
+induction; since $a\mapsto a\cdot\kappa(t)$ and $p^{*}$ are natural in the
+coefficient module, the five lemma applied to
+$0\to A_{E,n-1}\to A_{E,n}\to F\to0$ and
+$0\to H^1(C,A_{E,n-1}(1))\to H^1(C,A_{E,n}(1))\to H^1(C,F(1))\to0$ (and to
+the corresponding $H^0$-sequence) gives (b) for $A_{E,n}$. (When
+$e(E/\mathbf Q_\ell)\mid n$ and $N=n/e$, $A\cong(\Z/\ell^N\Z)^{ef}$ is free
+over $\Z/\ell^N\Z$, and one may instead tensor the $\mu_{\ell^N}$-computation
+with $A$ directly.)
 
 *Clause (c).* $\ell$ is prime to $\operatorname{char}k$ and both curves
 are affine, so [sk-prop-cd] gives $H^q(-,\mu_{\ell^N})=0$ for $q\ge2$.
@@ -67,7 +83,7 @@ $\Gamma(C,\mathbb G_m)/\ell^N\cong t^{\Z}/\ell^Nt^{\Z}\cong\Z/\ell^N\Z$, so
 $H^1(\mathbf G_{m,k},\mu_{\ell^N})$ is free of rank one on the class of $t$,
 which is $\kappa(t)$ by [sk-def-purity-conv]; and
 $H^0(\mathbf G_{m,k},\mu_{\ell^N})=\mu_{\ell^N}(k)$ is free of rank one, with
-restriction from $\Aaf^1_k$ an isomorphism onto it. Tensoring with $A$
-gives (b).
+restriction from $\Aaf^1_k$ an isomorphism onto it. Tensoring with $F$
+and the dévissage above give (b).
 
 Uses: [sk-def-curve], [sk-def-purity-conv], [sk-prop-cd], [sk-prop-kummer-exact], [sk-thm-smooth-base-change]

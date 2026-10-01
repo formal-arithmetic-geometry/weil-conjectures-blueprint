@@ -54,7 +54,11 @@ $$
 1. In a Cartesian square, $g^*Rf_*\to Rf'_*g'^*$ is an isomorphism
 if $f$ is proper or $g$ is smooth, and
 $g^*Rf_!\simeq Rf'_!g'^*$ for arbitrary base change, on the stated
-bounded coefficient domains.
+bounded coefficient domains: for $g^*Rf_*$ this means bounded-below
+complexes with torsion cohomology at the finite stages, and
+$D^b_c$ of the adic (pro-étale) categories at $\mathcal O_E$, $E$, $\Qlb$,
+obtained from the finite stages by derived limits and transport; no claim is
+made for discrete non-torsion coefficients on the small étale site.
 1. For $K\in D^b_c(X,\Lambda)$ and $L\in D^b_{ctf}(Y,\Lambda)$,
 the compact-support projection map is an isomorphism:
 $$
@@ -66,9 +70,10 @@ admissible domains and coefficient stages proved in the purity chapter.
 1. For separated finite-type $f:X\to Y$ and structure morphisms set
 $\omega_X=Ra_X^!\Lambda$ and
 $D_X=R\mathcal Hom(-,\omega_X)$. For
-$M\in D^b_{ctf}(X,\Lambda)$, the formal Verdier exchange is
+$M\in D^b_{ctf}(X,\Lambda)$, the formal Verdier exchange map of
+[fix-cor-verdier-exchange] is a natural isomorphism
 $$
-D_YRf_!M\simeq Rf_*D_XM.
+D_YRf_!M\xrightarrow{\ \sim\ }Rf_*D_XM.
 $$
 Point biduality and smooth site-perfect biduality are proved independently.
 At every finite stage $A=A_{E,n}$, the general anti-equivalence

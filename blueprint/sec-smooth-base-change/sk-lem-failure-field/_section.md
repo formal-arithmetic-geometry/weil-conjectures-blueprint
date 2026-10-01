@@ -19,10 +19,21 @@ isomorphism.
 
 ## Proof
 
-Apply [sk-lem-minimal] to the property ``the chosen cokernel
+Let $g:T\to S$, $\mathcal F$ be a failing datum, so $g$ is a
+quasi-compact quasi-separated *morphism* ([sk-def-bc]) but $T$
+need not be a qcqs scheme, as [sk-lem-minimal] requires. Being an
+isomorphism is local on $X$, and restriction to an affine open
+$S'\subseteq S$ is pullback along an étale map, with which
+$R^qg_*$, $R^qh_*$ and the base-change map commute; so the map already
+fails over some affine open $S'$, and replacing $S$ by $S'$, $X$ by
+$X\times_SS'$ and $T$ by $T\times_SS'$ we may assume $S$ affine (this
+is the $S'$ of the statement). Now $T$, being qcqs over the affine
+$S$, is a qcqs scheme. Apply [sk-lem-minimal] to the property ``the chosen cokernel
 element survives'' (an element $\xi$ of the stalk of
 $R^qh_*e^{-1}\mathcal F$ at a geometric point $\bar x$ not in the
-image): thickenings do not change the étale site; limits work by
+image): it fails for the empty scheme, over which the stalk of
+$R^qh_*e^{-1}\mathcal F$ is $0$, so the image of $\xi$ is $0$ and
+lies in the image; thickenings do not change the étale site; limits work by
 the limit theorem for higher direct images; the closed–open split
 uses the injectivity of [sk-prop-injectivity] applied to an
 embedding $\mathcal F'\to j_*\mathcal J\oplus i_*i^{-1}\mathcal F'$

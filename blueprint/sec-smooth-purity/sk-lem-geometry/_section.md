@@ -29,7 +29,9 @@ where $a:\Aaf^1_B\to B$.
 1. **(4)** *the standard pair.* For $(\Aaf^d_B\to B,0)$ the deformation
 space is $\Aaf^d_B\times_B\Aaf^1_B$ with $x_k=tu_k$, the family object is
 $a^{*}0^{*}\omega_{\Aaf^d_B/B}$, and $0^{*}\omega_{\Aaf^d_B/B}=\Lambda(d)[2d]$
-by [sk-prop-an].
+by the $R\pi^{!}$-form [sk-prop-an] (ii)
+($\omega_{\Aaf^d_B/B}\cong\Lambda(d)[2d]$, pulled back along the zero
+section).
 1. **(5)** *base change.* All of this commutes with base change in $B$
 and with étale localization.
 
@@ -53,7 +55,7 @@ $\mathcal O[u_1,\dots,u_d,t]/(tu_i-x_i)$, in which each $x_i$ is eliminated,
 so the chart is $\Aaf^d\times\Aaf^1$ over the base and $\widetilde g$ is the
 last projection; this is (2), and the remaining charts give the same
 computation after substituting a generator of the centre. Item (4) is this
-computation for the standard pair together with [sk-prop-an], and (5) is
+computation for the standard pair together with [sk-prop-an] (ii), and (5) is
 the base-change behaviour of the Rees algebra, of the punctured
 trivialization and of the normal cone.
 

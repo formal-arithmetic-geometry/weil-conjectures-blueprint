@@ -21,8 +21,15 @@ Frobenius-equivariant;
 satisfies $|\iota(\alpha)|=q^{i/2}$.
 
 The relative form is the estimate for $Rf_{!}$: for a separated finite-type
-morphism of relative dimension $\le1$ and a pure lisse coefficient sheaf, $Rf_!$
-carries weights $\le w$ to weights $\le w+\text{(relative dimension)}$.
+morphism $f_0:X_0\to Y_0$ and a constructible Weil sheaf $\mathcal F_0$
+mixed of weights $\le w$, each sheaf $R^{r}f_{0!}\mathcal F_0$ is mixed of
+weights $\le w+r$ ([sk-thm-dl-general-sheaf]); equivalently, in the
+complex convention of [sk-d-dl-general-weights], $Rf_{0!}$ carries bounded
+constructible Weil complexes of weights $\le w$ to complexes of weights
+$\le w$ ([sk-cor-dl-general-complex]). The bound is degree by degree,
+not a uniform $w+\dim(X_0/Y_0)$ on all of $Rf_{0!}$: for
+$\mathbf A^{1}\to\Spec k_0$ the group $H^{2}_c(\mathbf A^{1},\Qlb)$ has weight
+$2$.
 
 ## Proof
 
@@ -57,8 +64,8 @@ of $\iota$, since $\iota$ was arbitrary in (2) and in
 
 *The relative form.* The estimate quoted for $Rf_!$ in the statement
 is [sk-thm-dl-general-sheaf] for sheaves and
-[sk-cor-dl-general-complex] for bounded complexes; the relative-dimension
-restriction in the statement is the inductive case, whose affine-line core
+[sk-cor-dl-general-complex] for bounded complexes; its inductive core is
+the case of relative dimension $\le1$, whose affine-line core
 is [sk-thm-dl-a1-upper] of §[sec-deligne-laumon-a1] and whose
 real-sheaf input is [sk-p-real-purity] of
 §[sec-purity-real-sheaves].

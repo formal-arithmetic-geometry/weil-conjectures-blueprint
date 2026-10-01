@@ -21,8 +21,10 @@ H^n(X,\cO(m))=0\ (m\ge-n),\qquad
 H^n(X,\cO(m))=S^{-m-n-1}(V)^{\vee}\ (m\le-n-1),
 $$
 
-in particular $\omega_X=\cO_X(-n-1)$ and
-$H^q(X,\cO_X)=k\cdot\delta_{q,0}$.
+the two top-degree clauses for $n\ge1$; for $n=0$, $X=\Spec k$ and
+every $\cO(m)$ is $\cO_X$, so $H^0(X,\cO(m))=k$ for all $m$ and there is
+no higher cohomology. In particular (for all $n\ge0$)
+$\omega_X=\cO_X(-n-1)$ and $H^q(X,\cO_X)=k\cdot\delta_{q,0}$.
 
 ## Proof
 

@@ -48,10 +48,13 @@ zero (induction on the cohomological range via the exact triangle of
 the truncations).
 
 *Step 1: the model case (the trace-cycle content).* For
-$f=p_d:\Aaf^d_Y\to Y$, [sk-prop-an] gives the canonical comparison
+$f=p_d:\Aaf^d_Y\to Y$, the $R\pi^{!}$-form [sk-prop-an] (ii) gives the
+canonical comparison
 $\gamma_{p_d,K}:Lp_d^{*}K(d)[2d]\to Rp_d^{!}K$, an isomorphism for
-every $K$; by the twist reassociation it is exactly
-$\varphi_{p_d,K}$. In particular
+every $K$, natural in $K$ and compatible with base change; by the twist
+reassociation it is exactly
+$\varphi_{p_d,K}$ (both are transposes of the integration map composed
+with the projection formula). In particular
 
 $$
 \omega_{p_d}\ \cong\ \Lambda(d)[2d],
@@ -145,7 +148,7 @@ $\otimes^{\mathbb L}$ on bounded objects): this is (a).
 change and $f'$ the base-changed morphism. The canonical map
 $Lv^{*}\omega_f\to\omega_{f'}$: after the base change of the
 charts (the normal form and the model base-change of
-[sk-prop-an]), the diagram is transported to the model case
+[sk-prop-an] (ii)), the diagram is transported to the model case
 $p_d:\Aaf^d_{Y'}\to Y'$, where the map is the identity of the
 constant $\Lambda(d)[2d]$; hence it is étale-locally (in the
 source and the base) the identity, and by the same stalk/step-(iii)

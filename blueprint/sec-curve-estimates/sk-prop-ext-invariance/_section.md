@@ -28,9 +28,11 @@ isomorphic.
 
 $C_{k'}$ is again a smooth separated curve over $k'$, and a smooth
 curve over an algebraically closed field is a finite disjoint union
-of connected ones, each either proper or affine; cohomology takes
-that union to a product and $\rho^q$ respects it, so we may take $C$
-connected. Throughout, every map in sight is a canonical base-change
+of connected components, each either a point (where $\rho^q$ is
+trivially an isomorphism, both sides being the cohomology of a
+separably closed field) or a connected curve, proper or affine;
+cohomology takes that union to a product and $\rho^q$ respects it, so
+we may take $C$ a connected curve. Throughout, every map in sight is a canonical base-change
 map, and the Kummer sequence of [sk-def-kummer] is natural in the
 base field; that naturality is what upgrades ``both sides are the
 same group'' to ``$\rho^q$ is the isomorphism''.

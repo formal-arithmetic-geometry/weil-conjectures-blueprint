@@ -10,7 +10,8 @@ lean = ["AlgebraicGeometry.Scheme.CohomologicalPicardGroup"]
 
 For $C$ as in [sk-def-curve]: $\Pic(C)=H^1(C_{\Et},\mathbb G_m)$
 (invertible $\mathcal O_C$-modules up to isomorphism). For $C$
-smooth proper connected there is a *degree* homomorphism
+smooth proper connected (in particular of dimension $1$,
+[sk-def-curve]) there is a *degree* homomorphism
 $\deg:\Pic(C)\to\Z$ and we set $\Pic^0(C)=\ker\deg$; for a group
 $f$ and $n\ge1$, $f[n]$, $n\cdot f$, $f/n\cdot f$ denote kernel,
 image and cokernel of the multiplication-by-$n$ map.
@@ -26,7 +27,8 @@ $H^1(C_{\mathrm{Zar}},\mathcal O_C^\times)$ and to the group of
 divisors modulo principal divisors $\mathrm{Div}(C)/\mathrm{Princ}(C)$
 when $C$ is moreover integral and regular.
 - **(P2)** *(Well-definedness of $\deg$.)* For $C$ smooth
-proper connected, $\deg\big(\sum_pn_p[p]\big)=\sum_pn_p[\kappa(p):k]$
+proper connected of dimension $1$,
+$\deg\big(\sum_pn_p[p]\big)=\sum_pn_p[\kappa(p):k]$
 kills principal divisors, hence descends to a homomorphism
 $\Pic(C)\to\Z$; it is surjective and independent of all choices.
 
@@ -61,7 +63,10 @@ $\deg f^*=\deg f\cdot\deg$ (equivalently
 $\deg f_*=\deg f\cdot\deg$) for a finite flat morphism, so
 $\deg\operatorname{div}(f)=d-d=0$; a constant $f$ has
 $\operatorname{div}(f)=0$. Hence $\deg$ descends to $\Pic(C)$, and
-it is surjective because over algebraically closed $k$ a closed
-point has $[\kappa(p):k]=1$.
+it is surjective because $C$, being of dimension $1$, has a closed
+point $p$, and over algebraically closed $k$ a closed
+point has $[\kappa(p):k]=1$ (for the zero-dimensional $C=\Spec k$,
+$\Pic(C)=0$ and no surjective degree exists, which is why dimension
+$1$ is required).
 
 Uses: [sk-def-curve], [sk-prop-hilbert90]

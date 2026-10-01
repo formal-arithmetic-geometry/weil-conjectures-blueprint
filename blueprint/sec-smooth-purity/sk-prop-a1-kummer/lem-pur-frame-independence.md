@@ -41,7 +41,7 @@ the boundary of the support long exact sequence (the exactness of
 *Permutations*: the exterior products sit in even degree, so the
 Künneth symmetry has sign $+1$. *Elementary shears*: for
 $f_1'=f_1+uf_2$, consider the family of frames
-$f(t)=(f_1+tf_2,f_2,\dots,f_c)$ over $T=\mathbf A^1_U$. The pair
+$f(t)=(f_1+tuf_2,f_2,\dots,f_c)$ over $T=\mathbf A^1_U$. The pair
 $(T\times_UV,T\times_UZ)$ is the pullback of the constant family, so by
 [lem-pur-kunneth-supported] and the base change of the localization
 triangle ([lem-pur-kunneth-supported], the support long exact

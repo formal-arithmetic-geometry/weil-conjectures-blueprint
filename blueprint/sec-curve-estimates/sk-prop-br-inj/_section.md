@@ -28,9 +28,10 @@ spectral sequence for $i_x$ reduces this to
 $H^1(\kappa(x),\Z)=\mathrm{Hom}_{\mathrm{cont}}(\mathrm{Gal} (\kappa(x)^{\mathrm{sep}}/\kappa(x)),\Z)$, which vanishes because a
 continuous homomorphism from a profinite group to the discrete
 torsion-free group $\Z$ has finite — hence trivial — image.
-Cohomology commutes with the direct sum here (each point of $X$ has
-a neighbourhood meeting only finitely many of the
-$\overline{\{x\}}$, $x\in X^{(1)}$). Hence
+Cohomology commutes with the direct sum here: $X$ is noetherian, hence
+quasi-compact and quasi-separated, so étale cohomology on $X$ commutes
+with filtered colimits of abelian sheaves, and the direct sum is the
+filtered colimit of its finite partial sums. Hence
 
 $$
 0=H^1\Big(X,\bigoplus_xi_{x*}\Z\Big)\to H^2(X,\mathbb G_m)

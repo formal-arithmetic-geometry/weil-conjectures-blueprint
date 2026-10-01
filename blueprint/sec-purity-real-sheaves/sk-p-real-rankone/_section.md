@@ -3,7 +3,7 @@ id = "sk-p-real-rankone"
 kind = "section"
 title = "Purity of rank-one Weil sheaves"
 order = 2617
-uses = ["sk-d-real-jacobian", "sk-d-real-log", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil", "sk-def-av-jacobian", "sk-def-av-pic", "sk-i-real-compactification", "sk-i-real-sheaves", "sk-lem-finite", "sk-p-rankone", "sk-p-real-integral", "sk-p-real-operations", "sk-prop-hilbert90", "sk-prop-jacobian-descent", "sk-prop-sf-open-closed-triangle", "sk-r-linear-library", "sk-thm-av-final", "sk-thm-derived-duality", "sk-thm-frobenius"]
+uses = ["sk-d-real-jacobian", "sk-d-real-log", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil", "sk-def-av-jacobian", "sk-def-av-pic", "sk-i-real-compactification", "sk-i-real-sheaves", "sk-lem-finite", "sk-p-rankone", "sk-p-real-integral", "sk-p-real-operations", "sk-prop-hilbert90", "sk-prop-jacobian-descent", "sk-prop-sf-open-closed-triangle", "sk-thm-av-final", "sk-thm-derived-duality", "sk-thm-frobenius"]
 lean = ["AlgebraicGeometry.WeilGroup.IsLisse.finite_geometric_image", "AlgebraicGeometry.WeilGroup.IsLisse.isPunctuallyPure_of_finrank_eq_one"]
 +++
 *Proposition (sketch).*
@@ -70,9 +70,13 @@ Here $C$ is proper, so finite dimensionality is [sk-lem-finite] and the
 perfect pairing is [sk-thm-derived-duality] in dimension $d=1$ (with
 $H_c$ replaced by $H$), Frobenius-equivariantly by [sk-thm-frobenius];
 together they identify $H^1(C,E)$ with $(V_\ell J\otimes E)^\vee$.
-The finite-dimensional criterion in r:linear-library makes
-$\Frob-1$ invertible, also after coefficient extension; its dual
-therefore has no fixed vector. This explicitly retains the Tate twist.
+Thus $\Frob-1$ is injective on the finite-dimensional $\Ql$-space
+$V_\ell J$, hence bijective, and it stays bijective on
+$V_\ell J\otimes E$, the inverse extending $E$-linearly. The transpose
+of an invertible map is invertible, and so is
+$\Frob^{-1}-1=-\Frob^{-1}(\Frob-1)$; hence Frobenius, which acts on the
+dual $(V_\ell J\otimes E)^\vee$ through the transpose of $\Frob^{\pm1}$,
+has no fixed vector there. This explicitly retains the Tate twist.
 
 *Open curves and additive characters.*
 For $D=(C_0\setminus U_0)(k)$, the constant open–closed sequence
@@ -108,4 +112,4 @@ factor. At a degree-$d$ point the scalar is $\zeta c^d$
 with $\zeta$ a root of unity, so its complex modulus is
 $|\iota(c)|^d=q^{dw/2}$. This is purity in [sk-d-real-weights].
 
-Uses: [sk-d-real-jacobian], [sk-d-real-log], [sk-d-real-setup], [sk-d-real-weights], [sk-d-real-weil], [sk-def-av-jacobian], [sk-def-av-pic], [sk-i-real-compactification], [sk-i-real-sheaves], [sk-lem-finite], [sk-p-rankone], [sk-p-real-integral], [sk-p-real-operations], [sk-prop-hilbert90], [sk-prop-jacobian-descent], [sk-prop-sf-open-closed-triangle], [sk-r-linear-library], [sk-thm-av-final], [sk-thm-derived-duality], [sk-thm-frobenius]
+Uses: [sk-d-real-jacobian], [sk-d-real-log], [sk-d-real-setup], [sk-d-real-weights], [sk-d-real-weil], [sk-def-av-jacobian], [sk-def-av-pic], [sk-i-real-compactification], [sk-i-real-sheaves], [sk-lem-finite], [sk-p-rankone], [sk-p-real-integral], [sk-p-real-operations], [sk-prop-hilbert90], [sk-prop-jacobian-descent], [sk-prop-sf-open-closed-triangle], [sk-thm-av-final], [sk-thm-derived-duality], [sk-thm-frobenius]

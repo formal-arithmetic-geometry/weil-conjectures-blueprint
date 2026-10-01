@@ -11,7 +11,7 @@ lean = ["AlgebraicGeometry.ProEtale.dualizingComplex", "AlgebraicGeometry.ProEta
 In the setting of [sk-def-set], let $\Dctf(X,\Lambda)$ be the bounded
 constructible finite-Tor category on the small pro-étale site, with
 $Lf^*,Rf_*,Rf_!,Rf^!,\otimes^L_\Lambda,R\mathcal H om_\Lambda$, where
-$Rf_!$ is defined by a compactification and $Rf^!\dashv Rf_!$. Put
+$Rf_!$ is defined by a compactification and $Rf_!\dashv Rf^!$. Put
 
 $$
 \omega_{X,\Lambda}=Ra_X^!\Lambda,\qquad

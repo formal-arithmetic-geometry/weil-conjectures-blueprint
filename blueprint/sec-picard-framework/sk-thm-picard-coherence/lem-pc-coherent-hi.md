@@ -12,12 +12,18 @@ lean = ["AlgebraicGeometry.Scheme.Modules.isFinitePresentation_higherDirectImage
 30.4.5, Tag [01XJ](https://stacks.math.columbia.edu/tag/01XJ).)
 Let $f:X\to S$ be a proper morphism with $S$ locally Noetherian and let
 $\mathcal{F}$ be a coherent $\mathcal{O}_X$-module. Then $R^if_*\mathcal{F}$ is coherent for all
-$i$ and $R^if_*\mathcal{F}=0$ for $i\gg0$; if $S=\operatorname{Spec}(A)$ with $A$ Noetherian
-then the $H^i(X,\mathcal{F})$ are finite $A$-modules.
+$i$; locally on $S$ (and globally if $S$ is quasi-compact)
+$R^if_*\mathcal{F}=0$ for $i\gg0$; if $S=\operatorname{Spec}(A)$ with $A$ Noetherian
+then the $H^i(X,\mathcal{F})$ are finite $A$-modules. (No bound uniform
+over a non-quasi-compact $S$ exists in general: for
+$S=\coprod_{n\ge1}\operatorname{Spec}k$, $X=\coprod_n\mathbf P^n_k$ and
+$\mathcal F=\mathcal O(-n-1)$ on the $n$-th piece, $R^nf_*\mathcal F\ne0$
+for every $n$.)
 
 ## Proof
 
-The vanishing for sufficiently large $i$ follows from the finite
+The vanishing for sufficiently large $i$, over each affine (or
+quasi-compact) open of $S$, follows from the finite
 affine-cover bound of [lem-pc-finite-support-hi].
 If $f$ is projective, coherence and finite generation are
 [lem-pc-projective-coherent-higher-images], applied locally on

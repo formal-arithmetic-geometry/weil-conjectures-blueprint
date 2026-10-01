@@ -11,10 +11,17 @@ that $(V,\rho)$ is the Weil fundamental representation of
 [def-wf-fundamental-representation], and let $x$ be a closed point of
 $C_0$ of degree $e_x$, with local Frobenius $F_x$ of
 [def-weil-local-frobenius-trace] acting on the stalk
-$\mathcal F_{\bar x}$; it acts through a conjugacy
-class of degree $e_x$ in the Weil group $W(C_0)$ of [def-wf-weil-group],
+$\mathcal F_{\bar x}$; it acts through the conjugacy class of
+geometric Frobenius elements at $x$ (images of the geometric Frobenius of
+$k(x)$ under a decomposition-group map $\pi_1(x)\to\pi_1(C_0)$), of degree $e_x$, in the Weil group $W(C_0)$ of [def-wf-weil-group],
 the geometric Frobenius over $k(x)$ having degree $e_x$ by
-[lem-wf-weil-group-constant-extension]. Use the tensor equivalence
+[lem-wf-weil-group-constant-extension]. (Changing the decomposition-group
+map conjugates $F_x$ by some $g\in\pi_1(C_0)$, and this is a conjugation
+inside $W(C_0)$: as $\widehat{\mathbf Z}=\mathbf Z+e_x\widehat{\mathbf Z}$,
+one can write $g=wF_x^t$ with $w\in W(C_0)$ and $t\in\widehat{\mathbf Z}$,
+where $F_x^t$ is the image of the $t$-th power of the geometric Frobenius
+in the procyclic group $\pi_1(x)$, which commutes with $F_x$; so
+$gF_xg^{-1}=wF_xw^{-1}$.) Use the tensor equivalence
 [prop-wf-weil-sheaf-representation-equivalence] for the operations of
 [def-real-weil-representation-operations] (direct sum, tensor product, dual,
 exterior powers, determinant), and

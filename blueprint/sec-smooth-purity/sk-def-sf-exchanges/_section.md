@@ -27,7 +27,13 @@ $$
 
 the first between functors $D^+(X,\Lambda)\to D^+(Y',\Lambda)$ and the second
 between functors on the ambient categories on which $Rf_!,Rf'_!$ are defined
-([sk-def-sf-operations] (iv)); and for $K\in\Dbc(X,\Lambda)$ and
+([sk-def-sf-operations] (iv); at the adic stages, on the derived-complete
+pro-étale complexes, it is the completed exchange
+$\operatorname{Ex}^{\mathrm{comp}}_!$ through the completed pullbacks
+$Lg^*_{\mathrm{comp}}$, def:cbc-completed-exchange-map). This only
+fixes the source and target of $\operatorname{Ex}_!$; the range on which it is
+an isomorphism is the one stated in [sk-prop-sf-cbc], and nothing is
+asserted outside it. For $K\in\Dbc(X,\Lambda)$ and
 $L\in\Dctf(Y,\Lambda)$ the *projection transformation* is the morphism
 
 $$
