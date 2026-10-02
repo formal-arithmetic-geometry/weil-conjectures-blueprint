@@ -21,7 +21,10 @@ $$
 $$
 is an isomorphism.
 
-*Source note:* this is Stacks Project, Pro-etale Cohomology, Theorem 61.30.1
+*Source note:* for proper base change on the pro-etale site, see Stacks
+Project, Pro-etale Cohomology, Section 61.30
+([Tag 09C8](https://stacks.math.columbia.edu/tag/09C8)). This statement is
+Theorem 61.30.1 there
 ([Tag 09C9](https://stacks.math.columbia.edu/tag/09C9)): for $f:X\to Y$
 proper, a Noetherian ring $\Lambda$ with an ideal $I$ such that $\Lambda/I$
 is torsion, and $K\in D(X_{\Proet})$ derived complete with
