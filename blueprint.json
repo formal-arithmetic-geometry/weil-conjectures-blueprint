@@ -7833,7 +7833,10 @@
    {"title": "Tangent spaces, Lie algebras and rational actions",
     "order": 2481,
     "lean":
-    ["Matrix.polyDifferential", "Matrix.tangentSpace", "Subgroup.lieAlgebra"]}},
+    ["AlgebraicGeometry.tangentGroup",
+     "Matrix.GeneralLinearGroup.lieAlgebra",
+     "Matrix.GeneralLinearGroup.RationalHom",
+     "Matrix.GeneralLinearGroup.RationalHom.differential"]}},
   {"source":
    {"file":
     "blueprint/sec-algebraic-groups-lie-algebras/sk-d-lie/def-wf-lie-radical-centre.md",
@@ -8667,7 +8670,10 @@
     "order": 2492,
     "lean":
     ["AlgebraicGeometry.isReduced_of_grpObj",
-     "AlgebraicGeometry.smooth_of_grpObj_of_charZero"]}},
+     "AlgebraicGeometry.smooth_of_grpObj_of_charZero",
+     "Matrix.GeneralLinearGroup.lieAlgebra_identityComponent",
+     "Matrix.GeneralLinearGroup.finrank_lieAlgebra_eq_ringKrullDim",
+     "Matrix.GeneralLinearGroup.dualUnit_add"]}},
   {"source":
    {"file":
     "blueprint/sec-algebraic-groups-lie-algebras/sk-p-lie/lem-ag-central-radical-quotient.md",
@@ -23927,7 +23933,7 @@
     "tags": ["latex:proposition"],
     "order": 2523,
     "lean":
-    ["RepresentedDegreeDatum.identityComponent_eq_centerOf_mul_geometricMonodromy"]}},
+    ["RepresentedDegreeDatum.identityComponent_eq_center_mul_geometricMonodromy"]}},
   {"source":
    {"file":
     "blueprint/sec-purity-real-sheaves/sk-p-real-integral/p-real-integral.md",
@@ -65555,12 +65561,14 @@
    {"title": "Affine geometry and matrix groups",
     "order": 2475,
     "lean":
-    ["Matrix.zariskiTopology",
-     "Matrix.GeneralLinearGroup.zariskiTopology",
-     "Matrix.IsRegularOn",
-     "Matrix.IsRegularHom",
-     "Subgroup.identityComponent",
-     "Subgroup.centerOf"]}},
+    ["Matrix.GeneralLinearGroup.CoordinateRing",
+     "Matrix.GeneralLinearGroup.scheme",
+     "Matrix.GeneralLinearGroup.homMulEquiv",
+     "Matrix.GeneralLinearGroup.zeroLocus",
+     "Matrix.GeneralLinearGroup.subgroupScheme",
+     "Matrix.GeneralLinearGroup.identityComponent",
+     "Matrix.GeneralLinearGroup.center",
+     "Matrix.GeneralLinearGroup.RationalHom"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-d-integral/_section.md",
     "anonymous": false},
@@ -65907,7 +65915,10 @@
    {"title": "Tangent spaces and rational actions",
     "order": 2480,
     "lean":
-    ["Matrix.polyDifferential", "Matrix.tangentSpace", "Subgroup.lieAlgebra"]}},
+    ["AlgebraicGeometry.tangentGroup",
+     "Matrix.GeneralLinearGroup.lieAlgebra",
+     "Matrix.GeneralLinearGroup.RationalHom",
+     "Matrix.GeneralLinearGroup.RationalHom.differential"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-d-trace/_section.md",
     "anonymous": false},
@@ -66696,7 +66707,10 @@
     "order": 2489,
     "lean":
     ["AlgebraicGeometry.isReduced_of_grpObj",
-     "AlgebraicGeometry.smooth_of_grpObj_of_charZero"]}},
+     "AlgebraicGeometry.smooth_of_grpObj_of_charZero",
+     "Matrix.GeneralLinearGroup.lieAlgebra_identityComponent",
+     "Matrix.GeneralLinearGroup.finrank_lieAlgebra_eq_ringKrullDim",
+     "Matrix.GeneralLinearGroup.dualUnit_add"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-i-curve-zero/_section.md",
     "anonymous": false},
@@ -66754,9 +66768,12 @@
    {"title": "Basic affine geometry",
     "order": 2482,
     "lean":
-    ["MvPolynomial.instNoetherianSpace",
-     "MvPolynomial.exists_isOpen_inter_subset_of_isConstructible",
-     "MvPolynomial.topologicalKrullDim_lt_of_ssubset"]}},
+    ["iInf_ker_algHom_eq_nilradical",
+     "exists_algHom_ker_eq_of_isMaximal",
+     "exists_isOpen_inter_subset_of_isConstructible",
+     "ringKrullDim_quotient_lt_of_finiteType",
+     "IsRegularLocalRing.isDomain",
+     "isReduced_tensorProduct_of_perfectField"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-i-global-additivity/_section.md",
     "anonymous": false},
@@ -66871,11 +66888,16 @@
    {"title": "Normal restriction and passage to closure",
     "order": 2513,
     "lean":
-    ["Subgroup.zariskiClosure",
+    ["Matrix.GeneralLinearGroup.vanishingIdeal",
+     "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
      "Representation.isSemisimpleRepresentation_comp_subtype",
-     "RepresentedDegreeDatum.geometricMonodromy_subgroupOf_normal",
-     "RepresentedDegreeDatum.commutator_le_geometricMonodromy",
-     "RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy"]}},
+     "Matrix.GeneralLinearGroup.zeroLocus_vanishingIdeal_le_normalizer",
+     "Matrix.GeneralLinearGroup.commutator_zeroLocus_vanishingIdeal_le",
+     "Matrix.GeneralLinearGroup.lie_mem_lieAlgebra_of_commutator_le",
+     "RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy",
+     "RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy",
+     "RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy",
+     "RepresentedDegreeDatum.lie_mem_lieAlgebra_identityComponent_geometricMonodromy"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-i-topology/_section.md",
     "anonymous": false},
@@ -67522,8 +67544,8 @@
    {"title": "Group–Lie comparison",
     "order": 2496,
     "lean":
-    ["Matrix.invariant_iff_lieAlgebra_invariant",
-     "Matrix.coe_lieAlgebra_centerOf_identityComponent"]}},
+    ["Matrix.GeneralLinearGroup.invariant_iff_differential_invariant",
+     "Matrix.GeneralLinearGroup.lieAlgebra_identityComponent_center"]}},
   {"source":
    {"file":
     "blueprint/sec-algebraic-groups-lie-algebras/sk-p-cyclotomic/_section.md",
@@ -67691,13 +67713,13 @@
    {"title": "Algebraic-group geometry",
     "order": 2493,
     "lean":
-    ["Subgroup.isClosed_identityComponent",
-     "Subgroup.identityComponent_subgroupOf_normal",
-     "Subgroup.isIrreducible_identityComponent",
-     "Subgroup.finiteIndex_identityComponent_subgroupOf",
-     "Subgroup.connectedComponentIn_eq_image_identityComponent",
-     "Matrix.isClosed_range_of_isRegularHom",
-     "Subgroup.eq_of_topologicalKrullDim_eq"]}},
+    ["Matrix.GeneralLinearGroup.isPrime_identityComponent",
+     "Matrix.GeneralLinearGroup.normal_zeroLocus_identityComponent",
+     "Matrix.GeneralLinearGroup.finiteIndex_zeroLocus_identityComponent",
+     "Matrix.GeneralLinearGroup.toPrimeSpectrum_mem_connectedComponentIn_iff",
+     "AlgebraicGeometry.isClosed_range_of_isMonHom",
+     "AlgebraicGeometry.isIso_left_of_topologicalKrullDim_eq",
+     "Matrix.GeneralLinearGroup.eq_of_ringKrullDim_eq"]}},
   {"source":
    {"file": "blueprint/sec-algebraic-groups-lie-algebras/sk-p-lie/_section.md",
     "anonymous": false},
@@ -67801,7 +67823,7 @@
    {"title": "The central–geometric product",
     "order": 2522,
     "lean":
-    ["RepresentedDegreeDatum.identityComponent_eq_centerOf_mul_geometricMonodromy"]}},
+    ["RepresentedDegreeDatum.identityComponent_eq_center_mul_geometricMonodromy"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-p-proper/_section.md",
     "anonymous": false},
@@ -253519,6 +253541,22 @@
    "doc": "The `R`-span of all iterated left shifts of a sequence `a : ℕ → R`.",
    "deps": [],
    "axioms": ["Quot.sound", "propext"]},
+  "ringKrullDim_quotient_lt_of_finiteType":
+  {"status": "stated",
+   "signature":
+   "theorem ringKrullDim_quotient_lt_of_finiteType.{u_1, u_2} (k : Type u_1) (A : Type u_2) [Field k]\n  [CommRing A] [IsDomain A] [Algebra k A] [Algebra.FiniteType k A] (P : Ideal A) [P.IsPrime]\n  (hP : P ≠ ⊥) : ringKrullDim (A ⧸ P) < ringKrullDim A",
+   "range":
+   {"startLine": 60,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/Mathlib/RingTheory/NoetherNormalization.lean",
+    "endLine": 66},
+   "module": "WeilConjectures.Mathlib.RingTheory.NoetherNormalization",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "A proper closed subset of an irreducible affine variety has strictly smaller dimension: for a\nfinitely generated domain `A` over a field and a nonzero prime `P` of `A`,\n`dim (A ⧸ P) < dim A`. (blueprint: `sk-i-geometry`)",
+   "deps": [],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "reesAlgebra":
   {"status": "proved",
    "signature":
@@ -253564,6 +253602,39 @@
    "If `X : C` is projective and `n : ℕ`, then `Ext^(n + 1) X Y ≅ 0` for any `Y`.",
    "deps": ["CategoryTheory.ProjectiveResolution.isoExt"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "isReduced_tensorProduct_of_perfectField":
+  {"status": "stated",
+   "signature":
+   "theorem isReduced_tensorProduct_of_perfectField.{u_1, u_2, u_3} (k : Type u_1) (A : Type u_2) (B : Type u_3)\n  [Field k] [PerfectField k] [CommRing A] [CommRing B] [Algebra k A] [Algebra k B] [IsReduced A]\n  [IsReduced B] : IsReduced (TensorProduct k A B)",
+   "range":
+   {"startLine": 30,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/Mathlib/RingTheory/Nilpotent/GeometricallyReduced.lean",
+    "endLine": 35},
+   "module":
+   "WeilConjectures.Mathlib.RingTheory.Nilpotent.GeometricallyReduced",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "Over a perfect field `k`, the tensor product of two reduced `k`-algebras is reduced.\n(blueprint: `sk-i-geometry`)",
+   "deps": [],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "iInf_ker_algHom_eq_nilradical":
+  {"status": "proved",
+   "signature":
+   "theorem iInf_ker_algHom_eq_nilradical.{u_1, u_2} (k : Type u_1) (A : Type u_2) [Field k] [IsAlgClosed k]\n  [CommRing A] [Algebra k A] [Algebra.FiniteType k A] : ⨅ φ, RingHom.ker φ = nilradical A",
+   "range":
+   {"startLine": 43,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/Mathlib/RingTheory/Nullstellensatz.lean",
+    "endLine": 55},
+   "module": "WeilConjectures.Mathlib.RingTheory.Nullstellensatz",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "The vanishing principle: over an algebraically closed field `k`, an element of a finitely\ngenerated `k`-algebra vanishing at every `k`-point is nilpotent.\n(blueprint: `sk-i-geometry`)",
+   "deps": ["exists_algHom_ker_eq_of_isMaximal"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "exteriorPower.map":
   {"status": "proved",
    "signature":
@@ -253580,6 +253651,22 @@
    "The linear map between `n`th exterior powers induced by a linear map between the modules.",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "exists_isOpen_inter_subset_of_isConstructible":
+  {"status": "stated",
+   "signature":
+   "theorem exists_isOpen_inter_subset_of_isConstructible.{u_1} {X : Type u_1} [TopologicalSpace X]\n  [TopologicalSpace.NoetherianSpace X] {s t : Set X} (hs : Topology.IsConstructible s)\n  (ht : IsClosed t) (hirr : IsIrreducible t) (hst : closure s = t) :\n  ∃ u, IsOpen u ∧ (u ∩ t).Nonempty ∧ u ∩ t ⊆ s",
+   "range":
+   {"startLine": 37,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/Mathlib/Topology/Constructible.lean",
+    "endLine": 43},
+   "module": "WeilConjectures.Mathlib.Topology.Constructible",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "In a Noetherian space, a constructible set `s` dense in an irreducible closed set `t` contains\na nonempty open subset of `t`. (blueprint: `sk-i-geometry`)",
+   "deps": [],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "exists_finite_inj_algHom_polynomial_of_ringKrullDim_eq_one":
   {"status": "stated",
    "signature":
@@ -253610,6 +253697,22 @@
    "exists": true,
    "doc":
    "For a finitely generated algebra `A` over a field `k`,\nthere exists a natural number `s` and an injective homomorphism\nfrom `k[X_0, X_1, ..., X_(s-1)]` to `A` such that `A` is finite over `k[X_0, X_1, ..., X_(s-1)]`.",
+   "deps": [],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "exists_algHom_ker_eq_of_isMaximal":
+  {"status": "proved",
+   "signature":
+   "theorem exists_algHom_ker_eq_of_isMaximal.{u_1, u_2} (k : Type u_1) (A : Type u_2) [Field k] [IsAlgClosed k]\n  [CommRing A] [Algebra k A] [Algebra.FiniteType k A] (𝔪 : Ideal A) [𝔪.IsMaximal] :\n  ∃ φ, RingHom.ker φ = 𝔪",
+   "range":
+   {"startLine": 32,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/Mathlib/RingTheory/Nullstellensatz.lean",
+    "endLine": 41},
+   "module": "WeilConjectures.Mathlib.RingTheory.Nullstellensatz",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "Over an algebraically closed field `k`, every maximal ideal of a finitely generated\n`k`-algebra is the kernel of a `k`-algebra map to `k`: closed points have residue field `k`.\n(blueprint: `sk-i-geometry`)",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "dense_iInf_of_genericPoints_subset":
@@ -253986,179 +254089,6 @@
    "Localization of power torsion, the case `S = Submonoid.powers a` of\n`Submodule.localized'_torsion'`: the localization of `Γ_(a)(M)` is the power torsion of\nthe localized module at the image of `a`.\n(Blueprint: `lemma:nagata-power-torsion-localization`.)",
    "deps": ["Submodule.powTorsion"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "Subgroup.zariskiClosure":
-  {"status": "stated",
-   "signature":
-   "def Subgroup.zariskiClosure.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n] {k : Type u_2}\n  [Field k] (G : Subgroup (GL n k)) : Subgroup (GL n k)",
-   "range":
-   {"startLine": 186,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 192},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "The Zariski closure of a subgroup of `GL n k`, again a subgroup.\n(blueprint: `sk-i-restriction`)",
-   "deps": ["Matrix.GeneralLinearGroup.zariskiTopology"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Subgroup.lieAlgebra":
-  {"status": "stated",
-   "signature":
-   "def Subgroup.lieAlgebra.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n] {k : Type u_2} [Field k]\n  (G : Subgroup (GL n k)) : LieSubalgebra k (Matrix n n k)",
-   "range":
-   {"startLine": 106,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Tangent.lean",
-    "endLine": 111},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Tangent",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "The Lie algebra `Lie G = T_1 G` of a subgroup of `GL n k`, with the commutator bracket\n`⁅X, Y⁆ = XY - YX`.\n(blueprint: `sk-d-tangent`)",
-   "deps": ["Matrix.tangentSpace"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Subgroup.isIrreducible_identityComponent":
-  {"status": "stated",
-   "signature":
-   "theorem Subgroup.isIrreducible_identityComponent.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n]\n  {k : Type u_2} [Field k] [IsAlgClosed k] (G : Subgroup (GL n k)) (hG : IsClosed ↑G) :\n  IsIrreducible ↑G.identityComponent",
-   "range":
-   {"startLine": 311,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 315},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "The identity component of a matrix algebraic group is irreducible.\n(blueprint: `sk-p-geometry`)",
-   "deps":
-   ["Matrix.GeneralLinearGroup.zariskiTopology", "Subgroup.identityComponent"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Subgroup.isClosed_identityComponent":
-  {"status": "stated",
-   "signature":
-   "theorem Subgroup.isClosed_identityComponent.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n]\n  {k : Type u_2} [Field k] [IsAlgClosed k] (G : Subgroup (GL n k)) (hG : IsClosed ↑G) :\n  IsClosed ↑G.identityComponent",
-   "range":
-   {"startLine": 299,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 303},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "The identity component of a matrix algebraic group is closed.\n(blueprint: `sk-p-geometry`)",
-   "deps":
-   ["Matrix.GeneralLinearGroup.zariskiTopology", "Subgroup.identityComponent"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Subgroup.identityComponent_subgroupOf_normal":
-  {"status": "stated",
-   "signature":
-   "theorem Subgroup.identityComponent_subgroupOf_normal.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n]\n  {k : Type u_2} [Field k] (G : Subgroup (GL n k)) : (G.identityComponent.subgroupOf G).Normal",
-   "range":
-   {"startLine": 305,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 309},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "The identity component of a matrix algebraic group is a normal subgroup of it: conjugation is\na homeomorphism of `G` fixing `1`, so it preserves the connected component of `1`.\n(blueprint: `sk-p-geometry`)",
-   "deps": ["Subgroup.identityComponent"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Subgroup.identityComponent":
-  {"status": "stated",
-   "signature":
-   "def Subgroup.identityComponent.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n] {k : Type u_2}\n  [Field k] (G : Subgroup (GL n k)) : Subgroup (GL n k)",
-   "range":
-   {"startLine": 228,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 238},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "The identity component `G°` of a subgroup of `GL n k`: the connected component of `1` in `G`.\n\nThe Zariski topology on `GL n k` is not a group topology — multiplication is separately, but not\njointly, continuous — so Mathlib's `Subgroup.connectedComponentOfOne`, which assumes\n`IsTopologicalGroup`, does not apply; the two group-closure properties are the lemmas above.\n(blueprint: `sk-d-geometry`)",
-   "deps": ["Matrix.GeneralLinearGroup.zariskiTopology"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Subgroup.finiteIndex_identityComponent_subgroupOf":
-  {"status": "stated",
-   "signature":
-   "theorem Subgroup.finiteIndex_identityComponent_subgroupOf.{u_1, u_2} {n : Type u_1} [Fintype n]\n  [DecidableEq n] {k : Type u_2} [Field k] [IsAlgClosed k] (G : Subgroup (GL n k))\n  (hG : IsClosed ↑G) : (G.identityComponent.subgroupOf G).FiniteIndex",
-   "range":
-   {"startLine": 317,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 321},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "The identity component of a matrix algebraic group has finite index in it.\n(blueprint: `sk-p-geometry`)",
-   "deps":
-   ["Matrix.GeneralLinearGroup.zariskiTopology", "Subgroup.identityComponent"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Subgroup.eq_of_topologicalKrullDim_eq":
-  {"status": "stated",
-   "signature":
-   "theorem Subgroup.eq_of_topologicalKrullDim_eq.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n]\n  {k : Type u_2} [Field k] [IsAlgClosed k] (G : Subgroup (GL n k)) {J : Subgroup (GL n k)}\n  (hJG : J ≤ G) (hJ : IsClosed ↑J) (hGirr : IsIrreducible ↑G)\n  (hdim : topologicalKrullDim ↑↑J = topologicalKrullDim ↑↑G) : J = G",
-   "range":
-   {"startLine": 333,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 341},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "A closed subgroup of the same dimension as a connected matrix algebraic group is the whole\ngroup.\n(blueprint: `sk-p-geometry`)",
-   "deps": ["Matrix.GeneralLinearGroup.zariskiTopology"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Subgroup.connectedComponentIn_eq_image_identityComponent":
-  {"status": "stated",
-   "signature":
-   "theorem Subgroup.connectedComponentIn_eq_image_identityComponent.{u_1, u_2} {n : Type u_1} [Fintype n]\n  [DecidableEq n] {k : Type u_2} [Field k] [IsAlgClosed k] (G : Subgroup (GL n k))\n  (hG : IsClosed ↑G) {g : GL n k} (hg : g ∈ G) :\n  connectedComponentIn (↑G) g = (fun x => g * x) '' ↑G.identityComponent",
-   "range":
-   {"startLine": 323,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 331},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "The connected components of a matrix algebraic group are exactly the cosets of its identity\ncomponent; there are finitely many of them by\n`Subgroup.finiteIndex_identityComponent_subgroupOf`.\n(blueprint: `sk-p-geometry`)",
-   "deps":
-   ["Matrix.GeneralLinearGroup.zariskiTopology", "Subgroup.identityComponent"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Subgroup.centerOf":
-  {"status": "proved",
-   "signature":
-   "def Subgroup.centerOf.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n] {k : Type u_2} [Field k]\n  (G : Subgroup (GL n k)) : Subgroup (GL n k)",
-   "range":
-   {"startLine": 249,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 255},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "The centre of a matrix algebraic group `G ≤ GL n k`, viewed as a subgroup of `GL n k`: the\nelements of `G` commuting with every element of `G`.  It is the image in `GL n k` of\n`Subgroup.center ↥G`, and differs from `Subgroup.center (GL n k) ⊓ G`, which asks for commutation\nwith every invertible matrix.\n(blueprint: `sk-d-geometry`)",
-   "deps": [],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "SemidirectProduct.range_finitePart":
   {"status": "stated",
    "signature":
@@ -254276,36 +254206,91 @@
    "The character `χ_z` sending an element `w` of the split cyclic extension to `z ^ deg w`, where\nthe degree `deg w` is read off by `SemidirectProduct.rightHom`.\n(blueprint: `sk-d-ab-rankone`)",
    "deps": [],
    "axioms": ["Quot.sound", "propext"]},
-  "RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy":
+  "RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy":
   {"status": "stated",
    "signature":
-   "theorem RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy.{u_1, u_2, u_3} {W : Type u_1}\n  [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) [IsAlgClosed k] [CharZero k] {X Y : Matrix n n k}\n  (hX : X ∈ D.arithmeticMonodromy.identityComponent.lieAlgebra)\n  (hY : Y ∈ D.arithmeticMonodromy.identityComponent.lieAlgebra) :\n  ⁅X, Y⁆ ∈ D.geometricMonodromy.identityComponent.lieAlgebra",
+   "theorem RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy.{u_1, u_2, u_3, u_4} {W : Type u_1}\n  [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) (R : Type u_4) [CommRing R] [Algebra k R] :\n  ((Matrix.GeneralLinearGroup.zeroLocus D.geometricMonodromy R).subgroupOf\n      (Matrix.GeneralLinearGroup.zeroLocus D.arithmeticMonodromy R)).Normal",
    "range":
-   {"startLine": 202,
+   {"startLine": 184,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 208},
+    "endLine": 196},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "The derived algebra of `Lie G°` lies in `Lie H°`.\n(blueprint: `sk-i-restriction`)",
+   "The geometric monodromy group is a normal subgroup scheme of the arithmetic one: for every\n`k`-algebra `R`, the `R`-points of `H` form a normal subgroup of the `R`-points of `G`. This is the\nclosure of the normality of `ρ(P)` in `ρ(W)`.\n(blueprint: `sk-i-restriction`)",
    "deps":
-   ["RepresentedDegreeDatum",
+   ["DegreeDatum",
+    "Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.vanishingIdeal",
+    "Matrix.GeneralLinearGroup.zeroLocus",
+    "Matrix.GeneralLinearGroup.zeroLocus_vanishingIdeal_le_normalizer",
+    "RepresentedDegreeDatum",
+    "RepresentedDegreeDatum.arithmeticMonodromy",
+    "RepresentedDegreeDatum.geometricMonodromy"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "RepresentedDegreeDatum.lie_mem_lieAlgebra_identityComponent_geometricMonodromy":
+  {"status": "stated",
+   "signature":
+   "theorem RepresentedDegreeDatum.lie_mem_lieAlgebra_identityComponent_geometricMonodromy.{u_1, u_2, u_3}\n  {W : Type u_1} [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) [IsAlgClosed k] [CharZero k] {X Y : Matrix n n k}\n  (hX :\n    X ∈\n      Matrix.GeneralLinearGroup.lieAlgebra\n        (Matrix.GeneralLinearGroup.identityComponent D.arithmeticMonodromy))\n  (hY :\n    Y ∈\n      Matrix.GeneralLinearGroup.lieAlgebra\n        (Matrix.GeneralLinearGroup.identityComponent D.arithmeticMonodromy)) :\n  ⁅X, Y⁆ ∈\n    Matrix.GeneralLinearGroup.lieAlgebra\n      (Matrix.GeneralLinearGroup.identityComponent D.geometricMonodromy)",
+   "range":
+   {"startLine": 231,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
+    "endLine": 239},
+   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "The derived algebra of `Lie G°` lies in `Lie H°`. Over an algebraically closed field of\ncharacteristic zero the identity components have the same Lie algebras as `G` and `H`.\n(blueprint: `sk-i-restriction`)",
+   "deps":
+   ["DegreeDatum",
+    "Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.identityComponent",
+    "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.lieAlgebra",
+    "Matrix.GeneralLinearGroup.lieAlgebra_identityComponent",
+    "RepresentedDegreeDatum",
     "RepresentedDegreeDatum.arithmeticMonodromy",
     "RepresentedDegreeDatum.geometricMonodromy",
-    "Subgroup.identityComponent",
-    "Subgroup.lieAlgebra"],
+    "RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy":
+  {"status": "stated",
+   "signature":
+   "theorem RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy.{u_1, u_2, u_3} {W : Type u_1}\n  [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) {X Y : Matrix n n k}\n  (hX : X ∈ Matrix.GeneralLinearGroup.lieAlgebra D.arithmeticMonodromy)\n  (hY : Y ∈ Matrix.GeneralLinearGroup.lieAlgebra D.arithmeticMonodromy) :\n  ⁅X, Y⁆ ∈ Matrix.GeneralLinearGroup.lieAlgebra D.geometricMonodromy",
+   "range":
+   {"startLine": 221,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
+    "endLine": 229},
+   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "The derived algebra of `Lie G` lies in `Lie H`, over any field: the bracket comes from the\ncommutator of `1 + εX` and `1 + δY` over `k[ε, δ]/(ε², δ²)`, which lies in `H` by\n`commutator_zeroLocus_le_zeroLocus_geometricMonodromy`.\n(blueprint: `sk-i-restriction`)",
+   "deps":
+   ["DegreeDatum",
+    "Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.lieAlgebra",
+    "Matrix.GeneralLinearGroup.lie_mem_lieAlgebra_of_commutator_le",
+    "RepresentedDegreeDatum",
+    "RepresentedDegreeDatum.arithmeticMonodromy",
+    "RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy",
+    "RepresentedDegreeDatum.geometricMonodromy"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "RepresentedDegreeDatum.isPositiveCentralPair_centralElement":
   {"status": "stated",
    "signature":
    "theorem RepresentedDegreeDatum.isPositiveCentralPair_centralElement.{u_1, u_2, u_3} {W : Type u_1} [Group W]\n  {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) [IsAlgClosed k] [CharZero k] (a : D.AdmissibleChoice) :\n  D.IsPositiveCentralPair a.degree a.centralElement",
    "range":
-   {"startLine": 215,
+   {"startLine": 306,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 220},
+    "endLine": 311},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "theorem",
    "exists": true,
@@ -254318,72 +254303,61 @@
     "RepresentedDegreeDatum.AdmissibleChoice.degree",
     "RepresentedDegreeDatum.IsPositiveCentralPair"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "RepresentedDegreeDatum.identityComponent_eq_centerOf_mul_geometricMonodromy":
+  "RepresentedDegreeDatum.identityComponent_eq_center_mul_geometricMonodromy":
   {"status": "stated",
    "signature":
-   "theorem RepresentedDegreeDatum.identityComponent_eq_centerOf_mul_geometricMonodromy.{u_1, u_2, u_3}\n  {W : Type u_1} [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) [IsAlgClosed k] [CharZero k] (hD : D.IsSemisimple) :\n  ↑D.arithmeticMonodromy.identityComponent =\n    ↑D.arithmeticMonodromy.identityComponent.centerOf.identityComponent *\n      ↑D.geometricMonodromy.identityComponent",
+   "theorem RepresentedDegreeDatum.identityComponent_eq_center_mul_geometricMonodromy.{u_1, u_2, u_3}\n  {W : Type u_1} [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) [IsAlgClosed k] [CharZero k] (hD : D.IsSemisimple) :\n  ↑(Matrix.GeneralLinearGroup.zeroLocus\n        (Matrix.GeneralLinearGroup.identityComponent D.arithmeticMonodromy) k) =\n    ↑(Matrix.GeneralLinearGroup.zeroLocus\n          (Matrix.GeneralLinearGroup.identityComponent\n            (Matrix.GeneralLinearGroup.center\n              (Matrix.GeneralLinearGroup.identityComponent D.arithmeticMonodromy)))\n          k) *\n      ↑(Matrix.GeneralLinearGroup.zeroLocus\n          (Matrix.GeneralLinearGroup.identityComponent D.geometricMonodromy) k)",
    "range":
-   {"startLine": 222,
+   {"startLine": 313,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 229},
+    "endLine": 322},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "For a semisimple represented degree datum the identity component of the arithmetic monodromy\ngroup factors as `G° = Z(G°)° H°`.\n(blueprint: `sk-p-product`)",
+   "For a semisimple represented degree datum the identity component of the arithmetic monodromy\ngroup factors as `G° = Z(G°)° H°` on `k`-points. Over an algebraically closed field, with all three\ngroups reduced, this is equivalent to the scheme statement: `G°` is the image of the\nmultiplication map `Z(G°)° × H° → G°`.\n(blueprint: `sk-p-product`)",
    "deps":
-   ["RepresentedDegreeDatum",
+   ["DegreeDatum",
+    "Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.center",
+    "Matrix.GeneralLinearGroup.identityComponent",
+    "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.zeroLocus",
+    "RepresentedDegreeDatum",
     "RepresentedDegreeDatum.IsSemisimple",
-    "RepresentedDegreeDatum.arithmeticMonodromy",
-    "RepresentedDegreeDatum.geometricMonodromy",
-    "Subgroup.centerOf",
-    "Subgroup.identityComponent"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "RepresentedDegreeDatum.geometricMonodromy_subgroupOf_normal":
-  {"status": "stated",
-   "signature":
-   "theorem RepresentedDegreeDatum.geometricMonodromy_subgroupOf_normal.{u_1, u_2, u_3} {W : Type u_1} [Group W]\n  {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) :\n  (D.geometricMonodromy.subgroupOf D.arithmeticMonodromy).Normal",
-   "range":
-   {"startLine": 188,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 192},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "The geometric monodromy group is normal in the arithmetic one.\n(blueprint: `sk-i-restriction`)",
-   "deps":
-   ["RepresentedDegreeDatum",
     "RepresentedDegreeDatum.arithmeticMonodromy",
     "RepresentedDegreeDatum.geometricMonodromy"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "RepresentedDegreeDatum.geometricMonodromy":
-  {"status": "stated",
+  {"status": "proved",
    "signature":
-   "def RepresentedDegreeDatum.geometricMonodromy.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) :\n  Subgroup (GL n k)",
+   "def RepresentedDegreeDatum.geometricMonodromy.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) :\n  Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)",
    "range":
-   {"startLine": 101,
+   {"startLine": 113,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 103},
+    "endLine": 117},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "definition",
    "exists": true,
    "doc":
-   "The geometric monodromy group `H = closure ρ(P)`.\n(blueprint: `sk-d-monodromy`)",
-   "deps": ["DegreeDatum", "RepresentedDegreeDatum", "Subgroup.zariskiClosure"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+   "The geometric monodromy group `H = closure ρ(P)`, as a closed subgroup scheme of `GL_n`: the\nHopf ideal of equations vanishing on `ρ(P)`, which cuts out the reduced Zariski closure.\n(blueprint: `sk-d-monodromy`)",
+   "deps":
+   ["DegreeDatum",
+    "Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.vanishingIdeal",
+    "RepresentedDegreeDatum"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "RepresentedDegreeDatum.frobenius":
   {"status": "proved",
    "signature":
    "def RepresentedDegreeDatum.frobenius.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2} [Fintype n]\n  [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) : GL n k",
    "range":
-   {"startLine": 105,
+   {"startLine": 145,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 107},
+    "endLine": 147},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "definition",
    "exists": true,
@@ -254395,10 +254369,10 @@
    "signature":
    "theorem RepresentedDegreeDatum.exists_admissibleChoice.{u_1, u_2, u_3} {W : Type u_1} [Group W]\n  {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) [IsAlgClosed k] [CharZero k] (hD : D.IsSemisimple) :\n  Nonempty D.AdmissibleChoice",
    "range":
-   {"startLine": 210,
+   {"startLine": 301,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 213},
+    "endLine": 304},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "theorem",
    "exists": true,
@@ -254433,50 +254407,58 @@
     "RepresentedDegreeDatum.IsPositiveCentralPair",
     "Subrepresentation"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "RepresentedDegreeDatum.commutator_le_geometricMonodromy":
+  "RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy":
   {"status": "stated",
    "signature":
-   "theorem RepresentedDegreeDatum.commutator_le_geometricMonodromy.{u_1, u_2, u_3} {W : Type u_1} [Group W]\n  {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) :\n  ⁅D.arithmeticMonodromy, D.arithmeticMonodromy⁆ ≤ D.geometricMonodromy",
+   "theorem RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy.{u_1, u_2, u_3, u_4}\n  {W : Type u_1} [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) (R : Type u_4) [CommRing R] [Algebra k R] :\n  ⁅Matrix.GeneralLinearGroup.zeroLocus D.arithmeticMonodromy R,\n      Matrix.GeneralLinearGroup.zeroLocus D.arithmeticMonodromy R⁆ ≤\n    Matrix.GeneralLinearGroup.zeroLocus D.geometricMonodromy R",
    "range":
-   {"startLine": 194,
+   {"startLine": 199,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 198},
+    "endLine": 213},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "Every commutator of the arithmetic monodromy group lies in the geometric one.\n(blueprint: `sk-i-restriction`)",
+   "Every commutator of the arithmetic monodromy group lies in the geometric one: for every\n`k`-algebra `R`, `⁅G(R), G(R)⁆ ⊆ H(R)`. This is the closure of `⁅ρ(W), ρ(W)⁆ ⊆ ρ(P)`, which holds\nbecause `W ⧸ P ≅ ℤ` is abelian.\n(blueprint: `sk-i-restriction`)",
    "deps":
-   ["RepresentedDegreeDatum",
+   ["DegreeDatum",
+    "Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.commutator_zeroLocus_vanishingIdeal_le",
+    "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.zeroLocus",
+    "RepresentedDegreeDatum",
     "RepresentedDegreeDatum.arithmeticMonodromy",
     "RepresentedDegreeDatum.geometricMonodromy"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "RepresentedDegreeDatum.arithmeticMonodromy":
-  {"status": "stated",
+  {"status": "proved",
    "signature":
-   "def RepresentedDegreeDatum.arithmeticMonodromy.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) :\n  Subgroup (GL n k)",
+   "def RepresentedDegreeDatum.arithmeticMonodromy.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) :\n  Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)",
    "range":
-   {"startLine": 97,
+   {"startLine": 107,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 99},
+    "endLine": 111},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "definition",
    "exists": true,
    "doc":
-   "The arithmetic monodromy group `G = closure ρ(W)`.\n(blueprint: `sk-d-monodromy`)",
-   "deps": ["RepresentedDegreeDatum", "Subgroup.zariskiClosure"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+   "The arithmetic monodromy group `G = closure ρ(W)`, as a closed subgroup scheme of `GL_n`: the\nHopf ideal of equations vanishing on `ρ(W)`, which cuts out the reduced Zariski closure.\n(blueprint: `sk-d-monodromy`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.vanishingIdeal",
+    "RepresentedDegreeDatum"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "RepresentedDegreeDatum.IsSemisimple":
   {"status": "proved",
    "signature":
    "def RepresentedDegreeDatum.IsSemisimple.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) : Prop",
    "range":
-   {"startLine": 116,
+   {"startLine": 156,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 121},
+    "endLine": 161},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "definition",
    "exists": true,
@@ -254492,93 +254474,107 @@
    "signature":
    "def RepresentedDegreeDatum.IsPositiveCentralPair.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) (N : ℕ)\n  (z : GL n k) : Prop",
    "range":
-   {"startLine": 128,
+   {"startLine": 163,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 133},
+    "endLine": 168},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "definition",
    "exists": true,
    "doc":
    "A *positive central pair* for the datum is a pair `(N, z)` with `N > 0` and\n`z ∈ Z(G) ∩ H Fᴺ`.\n(blueprint: `sk-d-central`)",
    "deps":
-   ["RepresentedDegreeDatum",
+   ["DegreeDatum",
+    "Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.center",
+    "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.zeroLocus",
+    "RepresentedDegreeDatum",
     "RepresentedDegreeDatum.arithmeticMonodromy",
     "RepresentedDegreeDatum.frobenius",
-    "RepresentedDegreeDatum.geometricMonodromy",
-    "Subgroup.centerOf"],
+    "RepresentedDegreeDatum.geometricMonodromy"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "RepresentedDegreeDatum.AdmissibleChoice.degree":
   {"status": "stated",
    "signature":
-   "def RepresentedDegreeDatum.AdmissibleChoice.degree.{u_1, u_2, u_3} {W : Type u_1} [Group W]\n  {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  {D : RepresentedDegreeDatum W n k} (a : D.AdmissibleChoice) : ℕ",
+   "def RepresentedDegreeDatum.AdmissibleChoice.degree.{u_1, u_2, u_3} {W : Type u_1} [Group W]\n  {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  {D : RepresentedDegreeDatum W n k} [IsAlgClosed k] (a : D.AdmissibleChoice) : ℕ",
    "range":
-   {"startLine": 164,
+   {"startLine": 287,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 167},
+    "endLine": 290},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "definition",
    "exists": true,
    "doc":
    "The degree `N = m r` of an admissible choice, where `r` is the number of connected components\nof `G`.\n(blueprint: `sk-d-central`)",
    "deps":
-   ["RepresentedDegreeDatum",
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.identityComponent",
+    "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.zeroLocus",
+    "RepresentedDegreeDatum",
     "RepresentedDegreeDatum.AdmissibleChoice",
-    "RepresentedDegreeDatum.arithmeticMonodromy",
-    "Subgroup.identityComponent"],
+    "RepresentedDegreeDatum.arithmeticMonodromy"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "RepresentedDegreeDatum.AdmissibleChoice.centralElement":
   {"status": "stated",
    "signature":
-   "def RepresentedDegreeDatum.AdmissibleChoice.centralElement.{u_1, u_2, u_3} {W : Type u_1} [Group W]\n  {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  {D : RepresentedDegreeDatum W n k} (a : D.AdmissibleChoice) : GL n k",
+   "def RepresentedDegreeDatum.AdmissibleChoice.centralElement.{u_1, u_2, u_3} {W : Type u_1} [Group W]\n  {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  {D : RepresentedDegreeDatum W n k} [IsAlgClosed k] (a : D.AdmissibleChoice) : GL n k",
    "range":
-   {"startLine": 169,
+   {"startLine": 293,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 173},
+    "endLine": 297},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "definition",
    "exists": true,
    "doc":
    "The central element `z = ∏ gᵢ c gᵢ⁻¹` of an admissible choice, an ordered product over the\ncoset representatives.\n(blueprint: `sk-d-central`)",
    "deps":
-   ["RepresentedDegreeDatum",
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.identityComponent",
+    "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.zeroLocus",
+    "RepresentedDegreeDatum",
     "RepresentedDegreeDatum.AdmissibleChoice",
-    "RepresentedDegreeDatum.arithmeticMonodromy",
-    "Subgroup.identityComponent"],
+    "RepresentedDegreeDatum.arithmeticMonodromy"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "RepresentedDegreeDatum.AdmissibleChoice":
   {"status": "stated",
    "signature":
-   "structure RepresentedDegreeDatum.AdmissibleChoice.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) :\n  Type (max u_2 u_3)",
+   "structure RepresentedDegreeDatum.AdmissibleChoice.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k)\n  [IsAlgClosed k] : Type (max u_2 u_3)",
    "range":
-   {"startLine": 135,
+   {"startLine": 258,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 160},
+    "endLine": 284},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "structure",
    "exists": true,
    "doc":
-   "An *admissible choice* consists of `m > 0` with a factorisation `Fᵐ = c h`, `c ∈ Z(G°)°` and\n`h ∈ H°`, together with a family of elements meeting every coset of `G°` in `G` exactly once,\nindexed by the number `Fin D.componentCount` of those cosets.\n(blueprint: `sk-d-central`)",
+   "An *admissible choice* consists of `m > 0` with a factorization `Fᵐ = c h`, `c ∈ Z(G°)°` and\n`h ∈ H°`, together with a family of elements meeting every coset of `G°` in `G` exactly once,\nindexed by the number `Fin D.componentCount` of those cosets. The hypothesis `IsAlgClosed k` comes\nfrom the `IsHopfIdeal` instance of the identity component.\n(blueprint: `sk-d-central`)",
    "deps":
-   ["RepresentedDegreeDatum",
+   ["DegreeDatum",
+    "Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.center",
+    "Matrix.GeneralLinearGroup.identityComponent",
+    "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.zeroLocus",
+    "RepresentedDegreeDatum",
     "RepresentedDegreeDatum.arithmeticMonodromy",
     "RepresentedDegreeDatum.frobenius",
-    "RepresentedDegreeDatum.geometricMonodromy",
-    "Subgroup.centerOf",
-    "Subgroup.identityComponent"],
+    "RepresentedDegreeDatum.geometricMonodromy"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "RepresentedDegreeDatum":
   {"status": "proved",
    "signature":
    "structure RepresentedDegreeDatum.{u_1, u_2, u_3} (W : Type u_1) [Group W] (n : Type u_2) (k : Type u_3)\n  [Fintype n] [DecidableEq n] [Field k] : Type (max (max u_1 u_2) u_3)",
    "range":
-   {"startLine": 80,
+   {"startLine": 90,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 86},
+    "endLine": 96},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "structure",
    "exists": true,
@@ -254985,57 +254981,6 @@
    "Blueprint `sk-d-real-log`: Small logarithm.\n\n`smallLog l E x` is the sum of the series `log (1 + x) = ∑_{n ≥ 1} (-1)^(n+1) x ^ n / n`,\nformed in the topology restricted from `ℚ̄_ℓ`. It converges for `x ∈ ℓ² 𝒪_E`\n(`PadicAlgCl.summable_logSeries`), and `u ↦ smallLog l E (u - 1)` is then an injective\nhomomorphism from `PadicAlgCl.smallUnits` to the additive group of `E`.",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "MvPolynomial.topologicalKrullDim_lt_of_ssubset":
-  {"status": "stated",
-   "signature":
-   "theorem MvPolynomial.topologicalKrullDim_lt_of_ssubset.{u_1, u_2} {σ : Type u_1} [Finite σ] {k : Type u_2}\n  [Field k] [IsAlgClosed k] {s t : Set (σ → k)} (hs : IsClosed s) (hirr : IsIrreducible s)\n  (ht : IsClosed t) (hts : t ⊂ s) : topologicalKrullDim ↑t < topologicalKrullDim ↑s",
-   "range":
-   {"startLine": 284,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 290},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "A proper closed subset of an irreducible closed set of affine space has strictly smaller\ndimension.\n(blueprint: `sk-i-geometry`)",
-   "deps": [],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "MvPolynomial.instNoetherianSpace":
-  {"status": "stated",
-   "signature":
-   "theorem MvPolynomial.instNoetherianSpace.{u_1, u_2} {σ : Type u_1} {k : Type u_2} [Field k] :\n  TopologicalSpace.NoetherianSpace (σ → k)",
-   "range":
-   {"startLine": 267,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 272},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "In the Zariski topology affine space over a field is a Noetherian space, so every closed set\nhas finitely many irreducible components.  This is the Hilbert basis theorem, and needs no\nhypothesis on the field beyond being a field.\n(blueprint: `sk-i-geometry`)",
-   "deps": [],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "MvPolynomial.exists_isOpen_inter_subset_of_isConstructible":
-  {"status": "stated",
-   "signature":
-   "theorem MvPolynomial.exists_isOpen_inter_subset_of_isConstructible.{u_1, u_2} {σ : Type u_1} [Finite σ]\n  {k : Type u_2} [Field k] [IsAlgClosed k] {s t : Set (σ → k)} (hs : Topology.IsConstructible s)\n  (ht : IsClosed t) (hirr : IsIrreducible t) (hst : closure s = t) :\n  ∃ u, IsOpen u ∧ (u ∩ t).Nonempty ∧ u ∩ t ⊆ s",
-   "range":
-   {"startLine": 276,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 282},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "A constructible set dense in an irreducible closed set of affine space contains a nonempty\nopen piece of it.\n(blueprint: `sk-i-geometry`)",
-   "deps": [],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "Module.End.hasEigenvalue_of_subquotient":
   {"status": "stated",
    "signature":
@@ -255053,158 +254998,472 @@
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "Module.End.exists_invariant_flag": {"exists": false},
-  "Matrix.zariskiTopology":
-  {"status": "proved",
-   "signature":
-   "def Matrix.zariskiTopology.{u_1, u_2} (n : Type u_1) (k : Type u_2) [CommSemiring k] :\n  TopologicalSpace (Matrix n n k)",
-   "range":
-   {"startLine": 81,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 86},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "The Zariski topology on the space of `n × n` matrices over `k`, induced from the Zariski\ntopology of the affine space `(n × n) → k` of which it is a relabelling.\n(blueprint: `sk-d-geometry`)",
-   "deps": [],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "Matrix.tangentSpace":
-  {"status": "proved",
-   "signature":
-   "def Matrix.tangentSpace.{u_1, u_2} {n : Type u_1} [Fintype n] {k : Type u_2} [Field k]\n  (I : Ideal (MvPolynomial (n × n) k)) (a : Matrix n n k) : Submodule k (Matrix n n k)",
-   "range":
-   {"startLine": 76,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Tangent.lean",
-    "endLine": 82},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Tangent",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "The tangent space at `a` of the zero locus of an ideal `I` of polynomials in the matrix\nentries: the matrices `X` killed by the differentials at `a` of all the elements of `I`,\nequivalently those with `a + εX` a point of `I` over the dual numbers.\n(blueprint: `sk-d-tangent`)",
-   "deps": ["Matrix.polyDifferential"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "Matrix.polyDifferential":
-  {"status": "proved",
-   "signature":
-   "def Matrix.polyDifferential.{u_1, u_2} {n : Type u_1} [Fintype n] {k : Type u_2} [Field k]\n  (f : MvPolynomial (n × n) k) (a : Matrix n n k) : Matrix n n k →ₗ[k] k",
-   "range":
-   {"startLine": 68,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Tangent.lean",
-    "endLine": 74},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Tangent",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "The differential at `a` of a polynomial function of the matrix entries: the linear form\n`X ↦ ∑ (∂f/∂x_{ij})(a) * X i j`.\n(blueprint: `sk-d-tangent`)",
-   "deps": [],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "Matrix.isClosed_range_of_isRegularHom":
+  "Matrix.GeneralLinearGroup.zeroLocus_vanishingIdeal_le_normalizer":
   {"status": "stated",
    "signature":
-   "theorem Matrix.isClosed_range_of_isRegularHom.{u_1, u_2, u_3} {n : Type u_1} {m : Type u_2} [Fintype n]\n  [DecidableEq n] [Fintype m] [DecidableEq m] {k : Type u_3} [Field k] [IsAlgClosed k]\n  {G : Subgroup (GL n k)} (hG : IsClosed ↑G) (ρ : ↥G →* GL m k) (hρ : Matrix.IsRegularHom ρ) :\n  IsClosed ↑ρ.range",
+   "theorem Matrix.GeneralLinearGroup.zeroLocus_vanishingIdeal_le_normalizer.{u_1, u_2, u_3} {n : Type u_1}\n  [Fintype n] [DecidableEq n] {k : Type u_2} [Field k] {Γ Δ : Subgroup (GL n k)}\n  (hΓ : Γ ≤ Subgroup.normalizer ↑Δ) (R : Type u_3) [CommRing R] [Algebra k R] :\n  Matrix.GeneralLinearGroup.zeroLocus (Matrix.GeneralLinearGroup.vanishingIdeal ↑Γ) R ≤\n    Subgroup.normalizer\n      ↑(Matrix.GeneralLinearGroup.zeroLocus (Matrix.GeneralLinearGroup.vanishingIdeal ↑Δ) R)",
    "range":
-   {"startLine": 350,
+   {"startLine": 216,
     "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 355},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup.lean",
+    "endLine": 228},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup",
    "kind": "theorem",
    "exists": true,
    "doc":
-   "The image of a rational representation of a matrix algebraic group is a closed subgroup.\n(blueprint: `sk-p-geometry`)",
-   "deps": ["Matrix.GeneralLinearGroup.zariskiTopology", "Matrix.IsRegularHom"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Matrix.invariant_iff_lieAlgebra_invariant":
-  {"status": "stated",
-   "signature":
-   "theorem Matrix.invariant_iff_lieAlgebra_invariant.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n]\n  {k : Type u_2} [Field k] [IsAlgClosed k] [CharZero k] (G : Subgroup (GL n k)) (hG : IsClosed ↑G)\n  (hGconn : IsPreconnected ↑G) (U : Submodule k (n → k)) :\n  (∀ g ∈ G, ∀ v ∈ U, (↑g).mulVec v ∈ U) ↔ ∀ X ∈ G.lieAlgebra, ∀ v ∈ U, X.mulVec v ∈ U",
-   "range":
-   {"startLine": 125,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Tangent.lean",
-    "endLine": 132},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Tangent",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "For a connected matrix algebraic group `G` a subspace of the defining representation is\n`G`-invariant if and only if it is invariant under `Lie G`.\n(blueprint: `sk-p-comparison`)",
-   "deps": ["Matrix.GeneralLinearGroup.zariskiTopology", "Subgroup.lieAlgebra"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Matrix.coe_lieAlgebra_centerOf_identityComponent":
-  {"status": "stated",
-   "signature":
-   "theorem Matrix.coe_lieAlgebra_centerOf_identityComponent.{u_1, u_2} {n : Type u_1} [Fintype n]\n  [DecidableEq n] {k : Type u_2} [Field k] [IsAlgClosed k] [CharZero k] (G : Subgroup (GL n k))\n  (hG : IsClosed ↑G) (hGconn : IsPreconnected ↑G) :\n  ↑G.centerOf.identityComponent.lieAlgebra =\n    {X | X ∈ ↑G.lieAlgebra ∧ ∀ Y ∈ G.lieAlgebra, ⁅X, Y⁆ = 0}",
-   "range":
-   {"startLine": 134,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Tangent.lean",
-    "endLine": 141},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Tangent",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "For a connected matrix algebraic group `G` the Lie algebra of the identity component of the\ncentre of `G` is the centre of `Lie G`.\n(blueprint: `sk-p-comparison`)",
+   "If a subgroup `Γ` of `GL n k` normalizes a subgroup `Δ`, then the Zariski closure of `Γ`\nnormalizes the Zariski closure of `Δ`, on `R`-points for every `k`-algebra `R`.\n\nProof sketch (not formalized): over a field, `Γ × Δ` is schematically dense in the product of the\nclosures: if `∑ aᵢ ⊗ bᵢ` vanishes on `Γ × Δ` with the `bᵢ` linearly independent modulo\n`vanishingIdeal Δ`, then every `aᵢ` vanishes on `Γ`. Apply this to the pullback of an equation of\n`Δ` along `(g, h) ↦ g h g⁻¹`. (blueprint: `sk-i-restriction`)",
    "deps":
-   ["Matrix.GeneralLinearGroup.zariskiTopology",
-    "Subgroup.centerOf",
-    "Subgroup.identityComponent",
-    "Subgroup.lieAlgebra"],
+   ["Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.vanishingIdeal",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Matrix.IsRegularOn":
+  "Matrix.GeneralLinearGroup.zeroLocus":
   {"status": "proved",
    "signature":
-   "def Matrix.IsRegularOn.{u_1, u_3} {n : Type u_1} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (s : Set (GL n k)) (f : GL n k → k) : Prop",
+   "def Matrix.GeneralLinearGroup.zeroLocus.{u_1, u_2, u_4} {n : Type u_1} [Fintype n] [DecidableEq n]\n  {k : Type u_2} [CommRing k] (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k))\n  [Ideal.IsHopfIdeal k I] (R : Type u_4) [CommRing R] [Algebra k R] : Subgroup (GL n R)",
    "range":
-   {"startLine": 117,
+   {"startLine": 107,
     "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 121},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup.lean",
+    "endLine": 115},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup",
    "kind": "definition",
    "exists": true,
    "doc":
-   "A function on a set of invertible matrices is *regular* if it agrees there with a polynomial\nin the entries of the matrix and of its inverse.\n(blueprint: `sk-d-geometry`)",
+   "The `R`-points of the closed subgroup scheme `V(I)` of `GL_n` cut out by a Hopf ideal `I`: the\ninvertible matrices over `R` on which every equation in `I` vanishes.\n(blueprint: `sk-d-geometry`)",
+   "deps": ["Matrix.GeneralLinearGroup.CoordinateRing"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "Matrix.GeneralLinearGroup.vanishingIdeal":
+  {"status": "proved",
+   "signature":
+   "def Matrix.GeneralLinearGroup.vanishingIdeal.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n]\n  {k : Type u_2} [CommRing k] (S : Set (GL n k)) :\n  Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)",
+   "range":
+   {"startLine": 154,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup.lean",
+    "endLine": 157},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup",
+   "kind": "definition",
+   "exists": true,
+   "doc":
+   "The ideal of equations vanishing on a set `S` of invertible matrices over `k`. For a subgroup\n`S`, it cuts out the Zariski closure of `S`. (blueprint: `sk-i-restriction`)",
+   "deps": ["Matrix.GeneralLinearGroup.CoordinateRing"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "Matrix.GeneralLinearGroup.toPrimeSpectrum_mem_connectedComponentIn_iff":
+  {"status": "stated",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.toPrimeSpectrum_mem_connectedComponentIn_iff.{u_1, u_2} {n : Type u_1}\n  [Fintype n] [DecidableEq n] {k : Type u_2} [Field k] [IsAlgClosed k]\n  (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)) [Ideal.IsHopfIdeal k I] {g x : GL n k}\n  (hg : g ∈ Matrix.GeneralLinearGroup.zeroLocus I k)\n  (hx : x ∈ Matrix.GeneralLinearGroup.zeroLocus I k) :\n  x.toPrimeSpectrum ∈ connectedComponentIn (PrimeSpectrum.zeroLocus ↑I) g.toPrimeSpectrum ↔\n    g⁻¹ * x ∈ Matrix.GeneralLinearGroup.zeroLocus (Matrix.GeneralLinearGroup.identityComponent I) k",
+   "range":
+   {"startLine": 67,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Geometry.lean",
+    "endLine": 75},
+   "module":
+   "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Geometry",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "The connected components of a closed subgroup `G = V(I)` of `GL_n` are the cosets of the\nidentity component: a point `x` of `G` lies in the connected component of `g ∈ G` if and only if\n`g⁻¹ * x ∈ G°`. (blueprint: `sk-p-geometry`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.identityComponent",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "Matrix.GeneralLinearGroup.subgroupScheme":
+  {"status": "proved",
+   "signature":
+   "def Matrix.GeneralLinearGroup.subgroupScheme.{u} {n : Type u} [Fintype n] [DecidableEq n] {k : Type u}\n  [CommRing k] (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)) [Ideal.IsHopfIdeal k I] :\n  CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k))",
+   "range":
+   {"startLine": 391,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup.lean",
+    "endLine": 396},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup",
+   "kind": "definition",
+   "exists": true,
+   "doc":
+   "The closed subgroup scheme `V(I) = Spec (k[x_ij, det⁻¹] ⧸ I)` of `GL_n` cut out by a Hopf ideal\n`I`. It is a group object by Mathlib's quotient Hopf algebra structure.\n(blueprint: `sk-d-geometry`)",
+   "deps": ["Matrix.GeneralLinearGroup.CoordinateRing"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "Matrix.GeneralLinearGroup.scheme":
+  {"status": "proved",
+   "signature":
+   "def Matrix.GeneralLinearGroup.scheme.{u} (n : Type u) [Fintype n] [DecidableEq n] (k : Type u)\n  [CommRing k] : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k))",
+   "range":
+   {"startLine": 42,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/GeneralLinear.lean",
+    "endLine": 46},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.GeneralLinear",
+   "kind": "definition",
+   "exists": true,
+   "doc":
+   "The general linear group `GL_n` as an affine group scheme over `k`: the spectrum of the Hopf\nalgebra `k[x_ij, det⁻¹]`. It is a group object by `instGrpObjSpecAsOverSpec`.\n(blueprint: `sk-d-geometry`)",
+   "deps": ["Matrix.GeneralLinearGroup.CoordinateRing"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "Matrix.GeneralLinearGroup.normal_zeroLocus_identityComponent":
+  {"status": "stated",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.normal_zeroLocus_identityComponent.{u_1, u_2, u_3} {n : Type u_1}\n  [Fintype n] [DecidableEq n] {k : Type u_2} [Field k] [IsAlgClosed k]\n  (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)) [Ideal.IsHopfIdeal k I] (R : Type u_3)\n  [CommRing R] [Algebra k R] :\n  ((Matrix.GeneralLinearGroup.zeroLocus (Matrix.GeneralLinearGroup.identityComponent I)\n          R).subgroupOf\n      (Matrix.GeneralLinearGroup.zeroLocus I R)).Normal",
+   "range":
+   {"startLine": 48,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Geometry.lean",
+    "endLine": 52},
+   "module":
+   "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Geometry",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "The identity component `G°` of a closed subgroup `G = V(I)` of `GL_n` is a normal subgroup\nscheme: `G°(R)` is normal in `G(R)` for every `k`-algebra `R`. (blueprint: `sk-p-geometry`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.identityComponent",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "Matrix.GeneralLinearGroup.lie_mem_lieAlgebra_of_commutator_le":
+  {"status": "proved",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.lie_mem_lieAlgebra_of_commutator_le.{u_1, u_2} {n : Type u_1} [Fintype n]\n  [DecidableEq n] {k : Type u_2} [CommRing k]\n  {I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)} [Ideal.IsHopfIdeal k I]\n  {J : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)} [Ideal.IsHopfIdeal k J]\n  (hIJ :\n    ⁅Matrix.GeneralLinearGroup.zeroLocus I (DualNumber (DualNumber k)),\n        Matrix.GeneralLinearGroup.zeroLocus I (DualNumber (DualNumber k))⁆ ≤\n      Matrix.GeneralLinearGroup.zeroLocus J (DualNumber (DualNumber k)))\n  {X Y : Matrix n n k} (hX : X ∈ Matrix.GeneralLinearGroup.lieAlgebra I)\n  (hY : Y ∈ Matrix.GeneralLinearGroup.lieAlgebra I) :\n  ⁅X, Y⁆ ∈ Matrix.GeneralLinearGroup.lieAlgebra J",
+   "range":
+   {"startLine": 307,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Lie.lean",
+    "endLine": 314},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Lie",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "If the commutators of `V(I)` lie in `V(J)` on points with values in `k[ε, δ]/(ε², δ²)`, then\n`⁅Lie V(I), Lie V(I)⁆ ⊆ Lie V(J)`.",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.dualUnit_add",
+    "Matrix.GeneralLinearGroup.lieAlgebra",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "Matrix.GeneralLinearGroup.lieAlgebra_identityComponent_center":
+  {"status": "stated",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.lieAlgebra_identityComponent_center.{u} {n : Type u} [Fintype n]\n  [DecidableEq n] {k : Type u} [Field k] {I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)}\n  [Ideal.IsHopfIdeal k I] [IsAlgClosed k] [CharZero k]\n  (hconn : Matrix.GeneralLinearGroup.IsConnected I) :\n  Matrix.GeneralLinearGroup.lieAlgebra\n      (Matrix.GeneralLinearGroup.identityComponent (Matrix.GeneralLinearGroup.center I)) =\n    LieSubalgebra.map (Matrix.GeneralLinearGroup.lieAlgebra I).incl\n      (LieIdeal.toLieSubalgebra k (↥(Matrix.GeneralLinearGroup.lieAlgebra I))\n        (LieAlgebra.center k ↥(Matrix.GeneralLinearGroup.lieAlgebra I)))",
+   "range":
+   {"startLine": 681,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Lie.lean",
+    "endLine": 687},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Lie",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "The Lie algebra of the identity component of the centre of a connected algebraic group is the\ncentre of its Lie algebra, in characteristic zero. (blueprint: `sk-p-comparison`)",
+   "deps":
+   ["LieAlgebra.center",
+    "Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.center",
+    "Matrix.GeneralLinearGroup.identityComponent",
+    "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.lieAlgebra",
+    "Matrix.GeneralLinearGroup.lieAlgebra_identityComponent",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "Matrix.GeneralLinearGroup.lieAlgebra_identityComponent":
+  {"status": "stated",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.lieAlgebra_identityComponent.{u_1, u_2} {n : Type u_1} [Fintype n]\n  [DecidableEq n] {k : Type u_2} [Field k]\n  (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)) [Ideal.IsHopfIdeal k I] [IsAlgClosed k]\n  [CharZero k] :\n  Matrix.GeneralLinearGroup.lieAlgebra (Matrix.GeneralLinearGroup.identityComponent I) =\n    Matrix.GeneralLinearGroup.lieAlgebra I",
+   "range":
+   {"startLine": 442,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Lie.lean",
+    "endLine": 446},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Lie",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "Over an algebraically closed field of characteristic zero, the Lie algebra of an algebraic\ngroup is the Lie algebra of its identity component. (blueprint: `sk-i-cartier`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.identityComponent",
+    "Matrix.GeneralLinearGroup.lieAlgebra",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "Matrix.GeneralLinearGroup.lieAlgebra":
+  {"status": "proved",
+   "signature":
+   "def Matrix.GeneralLinearGroup.lieAlgebra.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n]\n  {k : Type u_2} [CommRing k] (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k))\n  [Ideal.IsHopfIdeal k I] : LieSubalgebra k (Matrix n n k)",
+   "range":
+   {"startLine": 288,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Lie.lean",
+    "endLine": 296},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Lie",
+   "kind": "definition",
+   "exists": true,
+   "doc":
+   "The Lie algebra `Lie(G) = T_1 G ⊆ gl_n` of the closed subgroup scheme `G = V(I)` of `GL_n`:\nthe matrices `X` with `1 + εX ∈ G(k[ε])`, with the commutator bracket `⁅X, Y⁆ = XY - YX`.\n(blueprint: `sk-d-tangent`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.dualUnit_add",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "Matrix.GeneralLinearGroup.isPrime_identityComponent":
+  {"status": "stated",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.isPrime_identityComponent.{u_1, u_2} {n : Type u_1} [Fintype n]\n  [DecidableEq n] {k : Type u_2} [Field k] [IsAlgClosed k]\n  (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)) [Ideal.IsHopfIdeal k I] :\n  (Matrix.GeneralLinearGroup.identityComponent I).IsPrime",
+   "range":
+   {"startLine": 43,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Geometry.lean",
+    "endLine": 46},
+   "module":
+   "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Geometry",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "The identity component `G°` of a closed subgroup `G = V(I)` of `GL_n` is irreducible: its\nideal is prime. (blueprint: `sk-p-geometry`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.identityComponent"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "Matrix.GeneralLinearGroup.invariant_iff_differential_invariant":
+  {"status": "stated",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.invariant_iff_differential_invariant.{u} {n : Type u} [Fintype n]\n  [DecidableEq n] {k : Type u} [Field k] {I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)}\n  [Ideal.IsHopfIdeal k I] {m : Type u} [Fintype m] [DecidableEq m] [IsAlgClosed k] [CharZero k]\n  (hconn : Matrix.GeneralLinearGroup.IsConnected I) (r : Matrix.GeneralLinearGroup.RationalHom I m)\n  (U : Submodule k (m → k)) :\n  (∀ (g : ↥(Matrix.GeneralLinearGroup.zeroLocus I k)),\n      U ≤ Submodule.comap (Matrix.toLin' ↑((r.points k) g)) U) ↔\n    ∀ (X : ↥(Matrix.GeneralLinearGroup.lieAlgebra I)),\n      U ≤ Submodule.comap (Matrix.toLin' (r.differential X)) U",
+   "range":
+   {"startLine": 634,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Lie.lean",
+    "endLine": 644},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Lie",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "The group–Lie comparison for invariant subspaces: over an algebraically closed field of\ncharacteristic zero, a subspace is stable under a connected algebraic group acting by a rational\nrepresentation if and only if it is stable under the differential of the representation.\n(blueprint: `sk-p-comparison`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.RationalHom",
+    "Matrix.GeneralLinearGroup.RationalHom.differential",
+    "Matrix.GeneralLinearGroup.homMulEquiv",
+    "Matrix.GeneralLinearGroup.identityComponent",
+    "Matrix.GeneralLinearGroup.lieAlgebra",
+    "Matrix.GeneralLinearGroup.scheme",
+    "Matrix.GeneralLinearGroup.subgroupScheme",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal":
+  {"status": "stated",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal.{u_1, u_2} {n : Type u_1} [Fintype n]\n  [DecidableEq n] {k : Type u_2} [Field k] (Γ : Subgroup (GL n k)) :\n  Ideal.IsHopfIdeal k (Matrix.GeneralLinearGroup.vanishingIdeal ↑Γ)",
+   "range":
+   {"startLine": 194,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup.lean",
+    "endLine": 202},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "The Zariski closure of a subgroup of `GL n k` is a closed subgroup scheme: the ideal of\nequations vanishing on the subgroup is a Hopf ideal. (blueprint: `sk-i-restriction`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.vanishingIdeal"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "Matrix.GeneralLinearGroup.identityComponent":
+  {"status": "proved",
+   "signature":
+   "def Matrix.GeneralLinearGroup.identityComponent.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n]\n  {k : Type u_2} [Field k] (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)) :\n  Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)",
+   "range":
+   {"startLine": 304,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup.lean",
+    "endLine": 311},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup",
+   "kind": "definition",
+   "exists": true,
+   "doc":
+   "The ideal of the reduced identity component `G°` of the closed subscheme `V(I)` of `GL_n`: the\nfunctions vanishing on the connected component of `V(I)` containing the identity matrix.\n(blueprint: `sk-d-geometry`)",
+   "deps": ["Matrix.GeneralLinearGroup.CoordinateRing"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "Matrix.GeneralLinearGroup.homMulEquiv":
+  {"status": "proved",
+   "signature":
+   "def Matrix.GeneralLinearGroup.homMulEquiv.{u} (n : Type u) [Fintype n] [DecidableEq n] (k : Type u)\n  [CommRing k] (R : Type u) [CommRing R] [Algebra k R] :\n  ((AlgebraicGeometry.Spec (CommRingCat.of R)).asOver (AlgebraicGeometry.Spec (CommRingCat.of k)) ⟶\n      Matrix.GeneralLinearGroup.scheme n k) ≃*\n    GL n R",
+   "range":
+   {"startLine": 56,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/GeneralLinear.lean",
+    "endLine": 60},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.GeneralLinear",
+   "kind": "definition",
+   "exists": true,
+   "doc":
+   "The `R`-points of the group scheme `GL_n` are the invertible `n × n` matrices over `R`, as\ngroups. (blueprint: `sk-d-geometry`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.scheme"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "Matrix.GeneralLinearGroup.finrank_lieAlgebra_eq_ringKrullDim":
+  {"status": "stated",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.finrank_lieAlgebra_eq_ringKrullDim.{u_1, u_2} {n : Type u_1} [Fintype n]\n  [DecidableEq n] {k : Type u_2} [Field k]\n  (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)) [Ideal.IsHopfIdeal k I] [CharZero k] :\n  ↑(Module.finrank k ↥(Matrix.GeneralLinearGroup.lieAlgebra I)) =\n    ringKrullDim (Matrix.GeneralLinearGroup.CoordinateRing n k ⧸ I)",
+   "range":
+   {"startLine": 448,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Lie.lean",
+    "endLine": 457},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Lie",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "Cartier's theorem, Lie algebra form: over a field of characteristic zero, the Lie algebra of\na closed subgroup scheme `V(I)` has dimension the Krull dimension of its coordinate ring.\n\nProof sketch (not formalised): `lieAlgebra I` is the tangent space `Hom_k(𝔪/𝔪², k)` at the\nidentity of `k[GL_n] ⧸ I`, where `𝔪` is the kernel of the counit; in characteristic zero\n`V(I)` is smooth (`AlgebraicGeometry.smooth_of_grpObj_of_charZero`), so this tangent space has\nthe dimension of `V(I)`. (blueprint: `sk-i-cartier`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.lieAlgebra"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "Matrix.GeneralLinearGroup.finiteIndex_zeroLocus_identityComponent":
+  {"status": "stated",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.finiteIndex_zeroLocus_identityComponent.{u_1, u_2} {n : Type u_1}\n  [Fintype n] [DecidableEq n] {k : Type u_2} [Field k] [IsAlgClosed k]\n  (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)) [Ideal.IsHopfIdeal k I] :\n  ((Matrix.GeneralLinearGroup.zeroLocus (Matrix.GeneralLinearGroup.identityComponent I)\n          k).subgroupOf\n      (Matrix.GeneralLinearGroup.zeroLocus I k)).FiniteIndex",
+   "range":
+   {"startLine": 54,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Geometry.lean",
+    "endLine": 58},
+   "module":
+   "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Geometry",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "The identity component `G°` of a closed subgroup `G = V(I)` of `GL_n` has finite index in `G`.\n(blueprint: `sk-p-geometry`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.identityComponent",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "Matrix.GeneralLinearGroup.eq_of_ringKrullDim_eq":
+  {"status": "stated",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.eq_of_ringKrullDim_eq.{u_1, u_2} {n : Type u_1} [Fintype n]\n  [DecidableEq n] {k : Type u_2} [Field k] [IsAlgClosed k]\n  (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)) [Ideal.IsHopfIdeal k I]\n  {J : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)} (hIJ : I ≤ J) [I.IsPrime]\n  [Ideal.IsHopfIdeal k J] (hJ : J.IsRadical)\n  (h :\n    ringKrullDim (Matrix.GeneralLinearGroup.CoordinateRing n k ⧸ J) =\n      ringKrullDim (Matrix.GeneralLinearGroup.CoordinateRing n k ⧸ I)) :\n  J = I",
+   "range":
+   {"startLine": 77,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Geometry.lean",
+    "endLine": 83},
+   "module":
+   "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Geometry",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "A reduced closed subgroup `V(J)` of a connected reduced closed subgroup `V(I)` of `GL_n` of\nthe same dimension is all of `V(I)`. (blueprint: `sk-p-geometry`)",
+   "deps": ["Matrix.GeneralLinearGroup.CoordinateRing"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "Matrix.GeneralLinearGroup.dualUnit_add":
+  {"status": "proved",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.dualUnit_add.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n]\n  {k : Type u_2} [CommRing k] (X Y : Matrix n n k) :\n  Matrix.GeneralLinearGroup.dualUnit (X + Y) =\n    Matrix.GeneralLinearGroup.dualUnit X * Matrix.GeneralLinearGroup.dualUnit Y",
+   "range":
+   {"startLine": 102,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Lie.lean",
+    "endLine": 109},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Lie",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "Differentiating the multiplication of `GL_n` at `(1, 1)` gives addition:\n`(1 + εX)(1 + εY) = 1 + ε(X + Y)`. (blueprint: `sk-i-cartier`)",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "Matrix.IsRegularHom":
+  "Matrix.GeneralLinearGroup.commutator_zeroLocus_vanishingIdeal_le":
+  {"status": "stated",
+   "signature":
+   "theorem Matrix.GeneralLinearGroup.commutator_zeroLocus_vanishingIdeal_le.{u_1, u_2, u_3} {n : Type u_1}\n  [Fintype n] [DecidableEq n] {k : Type u_2} [Field k] {Γ Δ : Subgroup (GL n k)} (hΓ : ⁅Γ, Γ⁆ ≤ Δ)\n  (R : Type u_3) [CommRing R] [Algebra k R] :\n  ⁅Matrix.GeneralLinearGroup.zeroLocus (Matrix.GeneralLinearGroup.vanishingIdeal ↑Γ) R,\n      Matrix.GeneralLinearGroup.zeroLocus (Matrix.GeneralLinearGroup.vanishingIdeal ↑Γ) R⁆ ≤\n    Matrix.GeneralLinearGroup.zeroLocus (Matrix.GeneralLinearGroup.vanishingIdeal ↑Δ) R",
+   "range":
+   {"startLine": 230,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup.lean",
+    "endLine": 242},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "If the commutators of a subgroup `Γ` of `GL n k` lie in a subgroup `Δ`, then the commutators of\nthe Zariski closure of `Γ` lie in the Zariski closure of `Δ`, on `R`-points for every `k`-algebra\n`R`.\n\nProof sketch (not formalized): the schematic density of `Γ × Γ` in the product of two copies of the\nclosure of `Γ`, as in `zeroLocus_vanishingIdeal_le_normalizer`, applied to the pullback of an\nequation of `Δ` along `(g, h) ↦ g h g⁻¹ h⁻¹`. (blueprint: `sk-i-restriction`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal",
+    "Matrix.GeneralLinearGroup.vanishingIdeal",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "Matrix.GeneralLinearGroup.center":
   {"status": "proved",
    "signature":
-   "def Matrix.IsRegularHom.{u_1, u_2, u_3} {n : Type u_1} {m : Type u_2} [Fintype n] [DecidableEq n]\n  [Fintype m] [DecidableEq m] {k : Type u_3} [Field k] {G : Subgroup (GL n k)} (ρ : ↥G →* GL m k) :\n  Prop",
+   "def Matrix.GeneralLinearGroup.center.{u_1, u_2} {n : Type u_1} [Fintype n] [DecidableEq n]\n  {k : Type u_2} [Field k] (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k))\n  [Ideal.IsHopfIdeal k I] : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)",
    "range":
-   {"startLine": 123,
+   {"startLine": 342,
     "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 129},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup.lean",
+    "endLine": 348},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup",
    "kind": "definition",
    "exists": true,
    "doc":
-   "A homomorphism of matrix groups is *regular* if every matrix entry of its value is a regular\nfunction of its argument.  A *rational representation* of `G` is a regular homomorphism\n`G →* GL m k`.\n(blueprint: `sk-d-geometry`)",
-   "deps": [],
+   "The ideal of the reduced centre `Z(G)` of the closed subgroup scheme `G = V(I)` of `GL_n`: the\nZariski closure of the matrices of `G(k)` commuting with all of `G(k)`.\n(blueprint: `sk-d-geometry`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.vanishingIdeal",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "Matrix.GeneralLinearGroup.zariskiTopology":
+  "Matrix.GeneralLinearGroup.RationalHom.differential":
   {"status": "proved",
    "signature":
-   "def Matrix.GeneralLinearGroup.zariskiTopology.{u_1, u_2} (n : Type u_1) (k : Type u_2) [Fintype n]\n  [DecidableEq n] [CommRing k] : TopologicalSpace (GL n k)",
+   "def Matrix.GeneralLinearGroup.RationalHom.differential.{u} {n : Type u} [Fintype n] [DecidableEq n]\n  {k : Type u} [CommRing k] {I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)}\n  [Ideal.IsHopfIdeal k I] {m : Type u} [Fintype m] [DecidableEq m]\n  (r : Matrix.GeneralLinearGroup.RationalHom I m) :\n  ↥(Matrix.GeneralLinearGroup.lieAlgebra I) →ₗ⁅k⁆ Matrix m m k",
    "range":
-   {"startLine": 88,
+   {"startLine": 520,
     "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/MatrixGroup.lean",
-    "endLine": 94},
-   "module":
-   "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.MatrixGroup",
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Lie.lean",
+    "endLine": 561},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Lie",
    "kind": "definition",
    "exists": true,
    "doc":
-   "The Zariski topology on `GL n k`, the subspace topology from the space of matrices; `GL n k`\nis an open affine subvariety of that space.\n(blueprint: `sk-d-geometry`)",
-   "deps": ["Matrix.zariskiTopology"],
+   "The differential `dr : Lie(G) → gl_m` of a rational representation `r`: the `ε`-coefficient\nof `r(1 + εX)`. It is a homomorphism of Lie algebras: differentiating the commutator of `1 + εX`\nand `1 + δY` over `k[ε, δ]/(ε², δ²)` gives `dr⁅X, Y⁆ = ⁅dr X, dr Y⁆`.\n(blueprint: `sk-d-tangent`)",
+   "deps":
+   ["Matrix.GeneralLinearGroup.CoordinateRing",
+    "Matrix.GeneralLinearGroup.RationalHom",
+    "Matrix.GeneralLinearGroup.dualUnit_add",
+    "Matrix.GeneralLinearGroup.homMulEquiv",
+    "Matrix.GeneralLinearGroup.lieAlgebra",
+    "Matrix.GeneralLinearGroup.scheme",
+    "Matrix.GeneralLinearGroup.subgroupScheme",
+    "Matrix.GeneralLinearGroup.zeroLocus"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "Matrix.GeneralLinearGroup.RationalHom":
+  {"status": "proved",
+   "signature":
+   "def Matrix.GeneralLinearGroup.RationalHom.{u} {n : Type u} [Fintype n] [DecidableEq n] {k : Type u}\n  [CommRing k] (I : Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)) [Ideal.IsHopfIdeal k I]\n  (m : Type u) [Fintype m] [DecidableEq m] : Type u",
+   "range":
+   {"startLine": 466,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/ClosedSubgroup/Lie.lean",
+    "endLine": 470},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.ClosedSubgroup.Lie",
+   "kind": "definition",
+   "exists": true,
+   "doc":
+   "A rational representation of the closed subgroup scheme `V(I)` of `GL_n` on `k^m`: a\nhomomorphism of group schemes `V(I) ⟶ GL_m`, given by the bialgebra homomorphism of coordinate\nrings `k[GL_m] → k[GL_n] ⧸ I`. (blueprint: `sk-d-tangent`)",
+   "deps": ["Matrix.GeneralLinearGroup.CoordinateRing"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "Matrix.GeneralLinearGroup.CoordinateRing":
+  {"status": "proved",
+   "signature":
+   "def Matrix.GeneralLinearGroup.CoordinateRing.{u_1, u_2} (n : Type u_1) [Fintype n] [DecidableEq n]\n  (k : Type u_2) [CommRing k] : Type (max u_1 u_2)",
+   "range":
+   {"startLine": 59,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/RingTheory/HopfAlgebra/GeneralLinearGroup.lean",
+    "endLine": 63},
+   "module": "WeilConjectures.RingTheory.HopfAlgebra.GeneralLinearGroup",
+   "kind": "definition",
+   "exists": true,
+   "doc":
+   "The coordinate ring `k[x_ij, det⁻¹]` of the general linear group `GL_n` over `k`: the\npolynomial ring in the matrix entries, localized away from the determinant.\n(blueprint: `sk-d-geometry`)",
+   "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "LocalSubring.exists_le_valuationSubring":
   {"status": "proved",
@@ -255474,6 +255733,22 @@
    "Typeclass for separably closed fields.\n\nTo show `Polynomial.Splits p f` for an arbitrary ring homomorphism `f`,\nsee `IsSepClosed.splits_codomain` and `IsSepClosed.splits_domain`.",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "IsRegularLocalRing.isDomain":
+  {"status": "stated",
+   "signature":
+   "theorem IsRegularLocalRing.isDomain.{u_1} (R : Type u_1) [CommRing R] [IsRegularLocalRing R] : IsDomain R",
+   "range":
+   {"startLine": 24,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/Mathlib/RingTheory/RegularLocalRing/Defs.lean",
+    "endLine": 27},
+   "module": "WeilConjectures.Mathlib.RingTheory.RegularLocalRing.Defs",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "A regular local ring is an integral domain. (blueprint: `sk-i-geometry`)",
+   "deps": [],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "Ideal.map_pow":
   {"status": "proved",
    "signature":
@@ -255557,10 +255832,10 @@
    "signature":
    "structure DegreeDatum.{u_1} (W : Type u_1) [Group W] : Type u_1",
    "range":
-   {"startLine": 67,
+   {"startLine": 77,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 78},
+    "endLine": 88},
    "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
    "kind": "structure",
    "exists": true,
@@ -255928,6 +256203,22 @@
    "doc":
    "Blueprint `sk-def-av-mult-n`: Multiplication by `n` and `n`-torsion.\n\nThe `n`-torsion subgroup scheme `G[n]` of a group scheme `G` over `K` is the kernel of the\n`n`-th power map `𝟙 G ^ n`, which on points is `a ↦ a + ⋯ + a`:\n\n```\n  G[n] ──────────────▶ 𝟙_ (Over (Spec (.of K)))\n    │                            │\n    │                            │ η[G]\n    ▼                            ▼\n    G ───── 𝟙 G ^ n ───────────▶ G\n```",
    "deps": ["CategoryTheory.GrpObj.ker"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "AlgebraicGeometry.tangentGroup":
+  {"status": "proved",
+   "signature":
+   "def AlgebraicGeometry.tangentGroup.{u} {k : Type u} [CommRing k]\n  (G : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k))) [CategoryTheory.GrpObj G] :\n  Subgroup (AlgebraicGeometry.points G (DualNumber k))",
+   "range":
+   {"startLine": 69,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/Lie.lean",
+    "endLine": 74},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.Lie",
+   "kind": "definition",
+   "exists": true,
+   "doc":
+   "The tangent group `T_1 G = ker(G(k[ε]) → G(k))` of a group scheme `G` over `k`: the points of\n`G` with values in the dual numbers that reduce to the identity modulo `ε`. It is the underlying\ngroup of the Lie algebra of `G`; its `k`-module structure and bracket are not constructed here.\n(blueprint: `sk-d-tangent`)",
+   "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.surjective_npow_points":
   {"status": "stated",
@@ -257148,6 +257439,22 @@
     "AlgebraicGeometry.Scheme.Hom.toImage",
     "AlgebraicGeometry.isPullback_toImage_partialSection"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "AlgebraicGeometry.isIso_left_of_topologicalKrullDim_eq":
+  {"status": "stated",
+   "signature":
+   "theorem AlgebraicGeometry.isIso_left_of_topologicalKrullDim_eq.{u} {k : Type u} [Field k]\n  {J G : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k))} [CategoryTheory.GrpObj J]\n  [CategoryTheory.GrpObj G] [AlgebraicGeometry.LocallyOfFiniteType G.hom]\n  [AlgebraicGeometry.IsReduced J.left] [AlgebraicGeometry.IsReduced G.left] [ConnectedSpace ↥G.left]\n  (f : J ⟶ G) [CategoryTheory.IsMonHom f]\n  [AlgebraicGeometry.IsClosedImmersion (CategoryTheory.Over.Hom.left f)]\n  (h : topologicalKrullDim ↥J.left = topologicalKrullDim ↥G.left) :\n  CategoryTheory.IsIso (CategoryTheory.Over.Hom.left f)",
+   "range":
+   {"startLine": 99,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/Basic.lean",
+    "endLine": 106},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.Basic",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "A closed subgroup `J` of a connected reduced group scheme `G` locally of finite type over a\nfield, with `J` reduced of the same dimension as `G`, is all of `G`.\n(blueprint: `sk-p-geometry`)",
+   "deps": [],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.isInvertible_of_toDescentData_iso":
   {"status": "stated",
    "signature":
@@ -257278,6 +257585,22 @@
    "doc":
    "Blueprint `sk-prop-av-const-locus`: The locus of constant fibres is closed\n\nLet `X` be a `K`-scheme proper over `K`, let `Z` be separated over `K`, let `Y` be any\n`K`-scheme and let `g : X ×_K Y ⟶ Z` be a morphism of `K`-schemes. Then the locus\n`L = {y ∈ Y | g (X ×_K {y}) is a single point}` is closed in `Y`. Since \"a single point\" and\n\"at most one point\" agree on nonempty fibres, `L` is spelled as the subsingleton locus.\n\nThis statement is purely topological and, unlike `AlgebraicGeometry.exists_eq_snd_comp`, holds\nover an arbitrary field; the blueprint proves it under its standing convention that `K` is\nalgebraically closed.",
    "deps": ["AlgebraicGeometry.IsProper"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "AlgebraicGeometry.isClosed_range_of_isMonHom":
+  {"status": "stated",
+   "signature":
+   "theorem AlgebraicGeometry.isClosed_range_of_isMonHom.{u} {k : Type u} [Field k]\n  {G K : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of k))} [CategoryTheory.GrpObj G]\n  [CategoryTheory.GrpObj K] [AlgebraicGeometry.LocallyOfFiniteType G.hom]\n  [AlgebraicGeometry.LocallyOfFiniteType K.hom] (f : G ⟶ K) [CategoryTheory.IsMonHom f] :\n  IsClosed (Set.range ⇑(CategoryTheory.Over.Hom.left f))",
+   "range":
+   {"startLine": 92,
+    "file":
+    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/GroupScheme/Basic.lean",
+    "endLine": 97},
+   "module": "WeilConjectures.AlgebraicGeometry.GroupScheme.Basic",
+   "kind": "theorem",
+   "exists": true,
+   "doc":
+   "The image of a homomorphism of group schemes locally of finite type over a field is closed.\n(blueprint: `sk-p-geometry`)",
+   "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.injective_pic_map_snd":
   {"status": "stated",
@@ -259403,26 +259726,34 @@
     "Topology.Stratification"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.WeilSheaf.IsUnramifiedAtInfinity":
-  {"status": "stated",
+  {"status": "proved",
    "signature":
    "def AlgebraicGeometry.WeilSheaf.IsUnramifiedAtInfinity.{u} {k₀ : Type u} [Field k₀] [Finite k₀] {l : ℕ}\n  [Fact (Nat.Prime l)] [Fact (ringChar k₀ ≠ l)] {U : AlgebraicGeometry.Scheme}\n  [U.Over (AlgebraicGeometry.Spec (CommRingCat.of k₀))] (F : AlgebraicGeometry.WeilSheaf k₀ l U)\n  (j : U ⟶ AlgebraicGeometry.affineLine k₀) [AlgebraicGeometry.IsOpenImmersion j]\n  [AlgebraicGeometry.Scheme.Hom.IsOver j (AlgebraicGeometry.Spec (CommRingCat.of k₀))] : Prop",
    "range":
-   {"startLine": 58,
+   {"startLine": 75,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/DeligneLaumon/AffineLine/Defs.lean",
-    "endLine": 63},
+    "endLine": 100},
    "module": "WeilConjectures.DeligneLaumon.AffineLine.Defs",
    "kind": "definition",
    "exists": true,
    "doc":
-   "A lisse Weil sheaf on an open `U₀` of the affine line is *unramified at infinity* if the\ninertia group at `∞ ∈ ℙ¹` acts trivially on its geometric generic fibre; equivalently, if it\nextends to a lisse Weil sheaf on an open neighbourhood of `∞` in `ℙ¹`.\n(blueprint: `sk-d-dl-a1-setup`)",
+   "A lisse Weil sheaf `F` on an open `U₀` of the affine line, embedded by `j : U₀ ↪ 𝔸¹`, is\n*unramified at infinity* if it extends to a lisse Weil sheaf on `U₀ ∪ {∞} ⊆ ℙ¹`. Here `𝔸¹`\nsits in `ℙ¹` through the standard chart `ι = ProjectiveLine.affineChart`, whose complement is\nthe point `∞`, and the extension is a lisse Weil sheaf `G` on an open `W ⊆ ℙ¹` with\n`ι.opensRange ⊔ W = ⊤` (that is, `∞ ∈ W`) and `ι⁻¹(W) = U₀`, together with an isomorphism\n`j'^* G ≅ F` along the factorization `j'` of `j ≫ ι` through `W`:\n```\n  U₀ ──j'──▶ W\n  │          │\n  j          W.ι\n  ▼          ▼\n  𝔸¹ ──ι───▶ ℙ¹\n```\nThe choice of chart does not matter: two open immersions `𝔸¹ ↪ ℙ¹` of `k₀`-schemes differ by\na `k₀`-automorphism of `ℙ¹`. This condition is equivalent to the inertia group at `∞` acting\ntrivially on the geometric generic fiber of `F`.\n(blueprint: `sk-d-dl-a1-setup`)",
    "deps":
    ["AlgebraicGeometry.AffineSpace",
     "AlgebraicGeometry.Etale",
     "AlgebraicGeometry.Etale.upperStar",
+    "AlgebraicGeometry.Proj",
+    "AlgebraicGeometry.Proj.basicOpenIsoSpec",
+    "AlgebraicGeometry.ProjectiveSpace",
     "AlgebraicGeometry.Scheme.IsConstructibleSheaf",
-    "FiniteField.geometricFrobeniusAlgEquivOfAlgebraic"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+    "AlgebraicGeometry.Scheme.IsConstructibleSheaf.upperStar",
+    "AlgebraicGeometry.Scheme.IsLocallyConstantSheaf",
+    "CategoryTheory.Limits.diagonal_pullback_fst",
+    "FiniteField.geometricFrobeniusAlgEquivOfAlgebraic",
+    "HomogeneousLocalization.Away",
+    "Ideal.map_pow"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.WeilSheaf.IsReal.isMixed":
   {"status": "stated",
    "signature":
@@ -259541,25 +259872,28 @@
     "Topology.Stratification"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.WeilSheaf.IsGeometricallyConstant":
-  {"status": "stated",
+  {"status": "proved",
    "signature":
    "def AlgebraicGeometry.WeilSheaf.IsGeometricallyConstant.{u} {k₀ : Type u} [Field k₀] [Finite k₀] {l : ℕ}\n  [Fact (Nat.Prime l)] [Fact (ringChar k₀ ≠ l)] {U : AlgebraicGeometry.Scheme}\n  [U.Over (AlgebraicGeometry.Spec (CommRingCat.of k₀))] (F : AlgebraicGeometry.WeilSheaf k₀ l U) :\n  Prop",
    "range":
-   {"startLine": 53,
+   {"startLine": 63,
     "file":
     ".lake/packages/weil-conjectures/WeilConjectures/DeligneLaumon/AffineLine/Defs.lean",
-    "endLine": 56},
+    "endLine": 73},
    "module": "WeilConjectures.DeligneLaumon.AffineLine.Defs",
    "kind": "definition",
    "exists": true,
    "doc":
-   "A Weil sheaf is *geometrically constant* if the geometric fundamental group `π₁(U ⊗ k)`\nacts trivially on it; its Frobenius module may still be nontrivial.\n(blueprint: `sk-d-dl-a1-setup`)",
+   "A Weil sheaf `F` on `U` is *geometrically constant* if its underlying étale sheaf is\nconstant on every connected open `V` of the geometric fiber `Ū = U ⊗ k̄`, where `k̄` is an\nalgebraic closure of `k₀`; its Frobenius module may still be nontrivial. When the connected\ncomponents of `Ū` are open, for instance when `U` is of finite type over `k₀`, this says that\n`F` is constant on each connected component of `Ū`. For `Ū` connected, as for `U` an open of\n`𝔸¹_{k₀}`, it is the constancy of `F` on `Ū`, which motivates the definition: the geometric\nfundamental group `π₁(Ū)` acts trivially on the stalks of `F`.\n(blueprint: `sk-d-dl-a1-setup`)",
    "deps":
    ["AlgebraicGeometry.Etale",
     "AlgebraicGeometry.Etale.upperStar",
     "AlgebraicGeometry.Scheme.IsConstructibleSheaf",
-    "FiniteField.geometricFrobeniusAlgEquivOfAlgebraic"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+    "CategoryTheory.Limits.diagonal_pullback_fst",
+    "CategoryTheory.Sheaf.IsConstant",
+    "FiniteField.geometricFrobeniusAlgEquivOfAlgebraic",
+    "Ideal.map_pow"],
+   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.WeilSheaf.HasWeightsAtMost.higherLowerShriek_zero_of_quasiFinite":
   {"status": "stated",
    "signature":
@@ -272903,7 +273237,7 @@
    "sk-d-weights": "proved",
    "sk-d-trace-class": "missing",
    "sk-d-trace": "missing",
-   "sk-d-tangent": "stated",
+   "sk-d-tangent": "proved",
    "sk-d-six": "missing",
    "sk-d-setup": "missing",
    "sk-d-relative-frob": "missing",
@@ -272921,15 +273255,15 @@
    "sk-d-proper-pushforward": "missing",
    "sk-d-pairing": "missing",
    "sk-d-operator": "missing",
-   "sk-d-monodromy": "stated",
+   "sk-d-monodromy": "proved",
    "sk-d-local-term": "missing",
    "sk-d-lines": "proved",
    "sk-d-linear": "proved",
    "sk-d-lie": "proved",
    "sk-d-integral": "missing",
-   "sk-d-geometry": "stated",
+   "sk-d-geometry": "proved",
    "sk-d-dl-general-weights": "proved",
-   "sk-d-dl-a1-setup": "stated",
+   "sk-d-dl-a1-setup": "proved",
    "sk-d-curve-pieces": "missing",
    "sk-d-corr": "missing",
    "sk-d-central": "stated",
@@ -273191,7 +273525,7 @@
    "rem-feeds": "absent",
    "rem-exc-mate-does-not-preserve-isomorphism": "absent",
    "rem-exc-direct-image-input-sources": "absent",
-   "rem-dl-a1-conventions": "stated",
+   "rem-dl-a1-conventions": "proved",
    "rem-coef-finite-normalized-towers": "absent",
    "rem-chow-lemma-non-noetherian": "absent",
    "rem-asd-vector-bundle-comparison": "absent",
@@ -274672,7 +275006,7 @@
    "def-wf-monodromy-data": "absent",
    "def-wf-middle-extension": "absent",
    "def-wf-lie-radical-centre": "absent",
-   "def-wf-lie-algebra-derivation": "stated",
+   "def-wf-lie-algebra-derivation": "proved",
    "def-wf-lie-algebra": "absent",
    "def-wf-l2-series": "absent",
    "def-wf-l2-norm": "absent",
@@ -275205,7 +275539,7 @@
    "d-real-series": "absent",
    "d-real-cohom": "absent",
    "d-real-boundary": "absent",
-   "d-monodromy": "stated",
+   "d-monodromy": "proved",
    "d-lines": "absent",
    "d-curve-pieces": "absent",
    "d-central": "stated",
@@ -275811,7 +276145,7 @@
     "sk-d-weil": {"total": 7, "proved": 0},
     "sk-d-weights": {"total": 2, "proved": 1},
     "sk-d-trace-class": {"total": 5, "proved": 0},
-    "sk-d-tangent": {"total": 1, "proved": 0},
+    "sk-d-tangent": {"total": 1, "proved": 1},
     "sk-d-six": {"total": 3, "proved": 0},
     "sk-d-relative-frob": {"total": 1, "proved": 0},
     "sk-d-real-weil": {"total": 1, "proved": 0},
@@ -275826,7 +276160,7 @@
     "sk-d-proper-pushforward": {"total": 3, "proved": 0},
     "sk-d-pairing": {"total": 3, "proved": 0},
     "sk-d-operator": {"total": 4, "proved": 0},
-    "sk-d-monodromy": {"total": 11, "proved": 0},
+    "sk-d-monodromy": {"total": 11, "proved": 1},
     "sk-d-local-term": {"total": 2, "proved": 0},
     "sk-d-linear": {"total": 3, "proved": 0},
     "sk-d-lie": {"total": 4, "proved": 0},
@@ -275869,7 +276203,7 @@
     "sec-deligne-laumon-general": {"total": 32, "proved": 0},
     "sec-deligne-laumon-a1": {"total": 72, "proved": 0},
     "sec-curve-estimates": {"total": 132, "proved": 7},
-    "sec-algebraic-groups-lie-algebras": {"total": 86, "proved": 3},
+    "sec-algebraic-groups-lie-algebras": {"total": 86, "proved": 5},
     "sec-abelian-varieties": {"total": 125, "proved": 17},
     "sbc-thm-universal-test-vanishing": {"total": 1, "proved": 0},
     "sbc-thm-spreading-finite-etale-galois": {"total": 1, "proved": 0},
@@ -277460,7 +277794,7 @@
     "def-wf-monodromy-data": {"total": 1, "proved": 0},
     "def-wf-middle-extension": {"total": 1, "proved": 0},
     "def-wf-lie-radical-centre": {"total": 1, "proved": 0},
-    "def-wf-lie-algebra-derivation": {"total": 1, "proved": 0},
+    "def-wf-lie-algebra-derivation": {"total": 1, "proved": 1},
     "def-wf-lie-algebra": {"total": 1, "proved": 0},
     "def-wf-l2-series": {"total": 1, "proved": 0},
     "def-wf-l2-norm": {"total": 1, "proved": 0},
@@ -277996,7 +278330,7 @@
     "d-real-series": {"total": 1, "proved": 0},
     "d-real-cohom": {"total": 1, "proved": 0},
     "d-real-boundary": {"total": 1, "proved": 0},
-    "d-monodromy": {"total": 1, "proved": 0},
+    "d-monodromy": {"total": 1, "proved": 1},
     "d-curve-pieces": {"total": 1, "proved": 0},
     "d-central": {"total": 1, "proved": 0},
     "d-ab-rankone": {"total": 1, "proved": 1},
@@ -279873,7 +280207,7 @@
     "def-wf-monodromy-data": {"total": 1, "proved": 0},
     "def-wf-middle-extension": {"total": 1, "proved": 0},
     "def-wf-lie-radical-centre": {"total": 1, "proved": 0},
-    "def-wf-lie-algebra-derivation": {"total": 1, "proved": 0},
+    "def-wf-lie-algebra-derivation": {"total": 1, "proved": 1},
     "def-wf-lie-algebra": {"total": 1, "proved": 0},
     "def-wf-l2-series": {"total": 1, "proved": 0},
     "def-wf-l2-norm": {"total": 1, "proved": 0},
@@ -280409,7 +280743,7 @@
     "d-real-series": {"total": 1, "proved": 0},
     "d-real-cohom": {"total": 1, "proved": 0},
     "d-real-boundary": {"total": 1, "proved": 0},
-    "d-monodromy": {"total": 1, "proved": 0},
+    "d-monodromy": {"total": 1, "proved": 1},
     "d-curve-pieces": {"total": 1, "proved": 0},
     "d-central": {"total": 1, "proved": 0},
     "d-ab-rankone": {"total": 1, "proved": 1},
@@ -281091,6 +281425,16 @@
    {"objects": ["d-central", "sk-d-monodromy"],
     "message":
     "Lean shows 'd-central' depends on 'sk-d-monodromy', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["d-central", "sk-i-restriction"],
+    "message":
+    "Lean shows 'd-central' depends on 'sk-i-restriction', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["d-monodromy", "sk-d-geometry"],
+    "message":
+    "Lean shows 'd-monodromy' depends on 'sk-d-geometry', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["d-monodromy", "sk-d-linear"],
@@ -282684,9 +283028,24 @@
     "Lean shows 'def-wf-abelian-tate-module' depends on 'sk-def-av', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
+   {"objects": ["def-wf-lie-algebra-derivation", "lem-ag-cartier-reduced"],
+    "message":
+    "Lean shows 'def-wf-lie-algebra-derivation' depends on 'lem-ag-cartier-reduced', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["def-wf-lie-algebra-derivation", "sk-d-geometry"],
+    "message":
+    "Lean shows 'def-wf-lie-algebra-derivation' depends on 'sk-d-geometry', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
    {"objects": ["def-wf-lie-algebra-derivation", "sk-d-tangent"],
     "message":
     "Lean shows 'def-wf-lie-algebra-derivation' depends on 'sk-d-tangent', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["def-wf-lie-algebra-derivation", "sk-i-cartier"],
+    "message":
+    "Lean shows 'def-wf-lie-algebra-derivation' depends on 'sk-i-cartier', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["lem-a1-artin-schreier-ramified-infinity", "d-ab-field"],
@@ -283191,6 +283550,16 @@
    {"objects": ["lem-a1-unramified-nonexceptional", "thm-constructible-serre"],
     "message":
     "Lean shows 'lem-a1-unramified-nonexceptional' depends on 'thm-constructible-serre', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["lem-ag-cartier-reduced", "sk-d-geometry"],
+    "message":
+    "Lean shows 'lem-ag-cartier-reduced' depends on 'sk-d-geometry', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["lem-ag-cartier-reduced", "sk-d-tangent"],
+    "message":
+    "Lean shows 'lem-ag-cartier-reduced' depends on 'sk-d-tangent', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["lem-chow-affine-immersion", "sk-d-lines"],
@@ -289855,6 +290224,11 @@
     "Lean shows 'p-product' depends on 'sk-d-monodromy', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
+   {"objects": ["p-product", "sk-i-restriction"],
+    "message":
+    "Lean shows 'p-product' depends on 'sk-i-restriction', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
    {"objects": ["prop-a1-fourier-middle-extension", "d-ab-field"],
     "message":
     "Lean shows 'prop-a1-fourier-middle-extension' depends on 'd-ab-field', but no 'uses' edge declares it",
@@ -290737,9 +291111,37 @@
     "Lean shows 'rem-dl-a1-conventions' depends on 'd-ab-field', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
+   {"objects": ["rem-dl-a1-conventions", "def-constructible-constant"],
+    "message":
+    "Lean shows 'rem-dl-a1-conventions' depends on 'def-constructible-constant', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
    {"objects": ["rem-dl-a1-conventions", "def-constructible-constructible"],
     "message":
     "Lean shows 'rem-dl-a1-conventions' depends on 'def-constructible-constructible', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["rem-dl-a1-conventions", "def-constructible-locally-constant"],
+    "message":
+    "Lean shows 'rem-dl-a1-conventions' depends on 'def-constructible-locally-constant', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["rem-dl-a1-conventions", "def-nagata-affine-proj"],
+    "message":
+    "Lean shows 'rem-dl-a1-conventions' depends on 'def-nagata-affine-proj', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects":
+    ["rem-dl-a1-conventions",
+     "def-nagata-homogeneous-localization-degree-zero"],
+    "message":
+    "Lean shows 'rem-dl-a1-conventions' depends on 'def-nagata-homogeneous-localization-degree-zero', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects":
+    ["rem-dl-a1-conventions", "def-nagata-projective-space-base-change"],
+    "message":
+    "Lean shows 'rem-dl-a1-conventions' depends on 'def-nagata-projective-space-base-change', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["rem-dl-a1-conventions", "def-nagata-relative-affine-space"],
@@ -290747,9 +291149,34 @@
     "Lean shows 'rem-dl-a1-conventions' depends on 'def-nagata-relative-affine-space', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
+   {"objects": ["rem-dl-a1-conventions", "lemma-nagata-diagonal-base-change"],
+    "message":
+    "Lean shows 'rem-dl-a1-conventions' depends on 'lemma-nagata-diagonal-base-change', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["rem-dl-a1-conventions", "lemma-nagata-localization-ideal-pow"],
+    "message":
+    "Lean shows 'rem-dl-a1-conventions' depends on 'lemma-nagata-localization-ideal-pow', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["rem-dl-a1-conventions", "prop-constructible-pullback"],
+    "message":
+    "Lean shows 'rem-dl-a1-conventions' depends on 'prop-constructible-pullback', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["rem-dl-a1-conventions", "prop-nagata-proj-standard-open"],
+    "message":
+    "Lean shows 'rem-dl-a1-conventions' depends on 'prop-nagata-proj-standard-open', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
    {"objects": ["rem-dl-a1-conventions", "sk-d-ab-field"],
     "message":
     "Lean shows 'rem-dl-a1-conventions' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["rem-dl-a1-conventions", "sk-d-lines"],
+    "message":
+    "Lean shows 'rem-dl-a1-conventions' depends on 'sk-d-lines', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["rem-dl-a1-conventions", "sk-def-conv"],
@@ -291251,9 +291678,19 @@
     "Lean shows 'sk-d-central' depends on 'd-monodromy', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
+   {"objects": ["sk-d-central", "sk-i-restriction"],
+    "message":
+    "Lean shows 'sk-d-central' depends on 'sk-i-restriction', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
    {"objects": ["sk-d-dl-a1-setup", "d-ab-field"],
     "message":
     "Lean shows 'sk-d-dl-a1-setup' depends on 'd-ab-field', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-d-dl-a1-setup", "def-constructible-constant"],
+    "message":
+    "Lean shows 'sk-d-dl-a1-setup' depends on 'def-constructible-constant', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-d-dl-a1-setup", "def-constructible-constructible"],
@@ -291261,14 +291698,60 @@
     "Lean shows 'sk-d-dl-a1-setup' depends on 'def-constructible-constructible', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
+   {"objects": ["sk-d-dl-a1-setup", "def-constructible-locally-constant"],
+    "message":
+    "Lean shows 'sk-d-dl-a1-setup' depends on 'def-constructible-locally-constant', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-d-dl-a1-setup", "def-nagata-affine-proj"],
+    "message":
+    "Lean shows 'sk-d-dl-a1-setup' depends on 'def-nagata-affine-proj', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects":
+    ["sk-d-dl-a1-setup", "def-nagata-homogeneous-localization-degree-zero"],
+    "message":
+    "Lean shows 'sk-d-dl-a1-setup' depends on 'def-nagata-homogeneous-localization-degree-zero', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-d-dl-a1-setup", "def-nagata-projective-space-base-change"],
+    "message":
+    "Lean shows 'sk-d-dl-a1-setup' depends on 'def-nagata-projective-space-base-change', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
    {"objects": ["sk-d-dl-a1-setup", "def-nagata-relative-affine-space"],
     "message":
     "Lean shows 'sk-d-dl-a1-setup' depends on 'def-nagata-relative-affine-space', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
+   {"objects": ["sk-d-dl-a1-setup", "lemma-nagata-diagonal-base-change"],
+    "message":
+    "Lean shows 'sk-d-dl-a1-setup' depends on 'lemma-nagata-diagonal-base-change', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-d-dl-a1-setup", "lemma-nagata-localization-ideal-pow"],
+    "message":
+    "Lean shows 'sk-d-dl-a1-setup' depends on 'lemma-nagata-localization-ideal-pow', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-d-dl-a1-setup", "prop-constructible-pullback"],
+    "message":
+    "Lean shows 'sk-d-dl-a1-setup' depends on 'prop-constructible-pullback', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-d-dl-a1-setup", "prop-nagata-proj-standard-open"],
+    "message":
+    "Lean shows 'sk-d-dl-a1-setup' depends on 'prop-nagata-proj-standard-open', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
    {"objects": ["sk-d-dl-a1-setup", "sk-d-ab-field"],
     "message":
     "Lean shows 'sk-d-dl-a1-setup' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-d-dl-a1-setup", "sk-d-lines"],
+    "message":
+    "Lean shows 'sk-d-dl-a1-setup' depends on 'sk-d-lines', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-d-dl-a1-setup", "sk-def-conv"],
@@ -291406,6 +291889,11 @@
    {"objects": ["sk-d-dl-general-weights", "thm-constructible-serre"],
     "message":
     "Lean shows 'sk-d-dl-general-weights' depends on 'thm-constructible-serre', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-d-geometry", "sk-i-restriction"],
+    "message":
+    "Lean shows 'sk-d-geometry' depends on 'sk-i-restriction', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-d-lines", "def-nagata-affine-proj"],
@@ -291586,6 +292074,16 @@
    {"objects": ["sk-d-tangent", "def-wf-lie-algebra-derivation"],
     "message":
     "Lean shows 'sk-d-tangent' depends on 'def-wf-lie-algebra-derivation', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-d-tangent", "lem-ag-cartier-reduced"],
+    "message":
+    "Lean shows 'sk-d-tangent' depends on 'lem-ag-cartier-reduced', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-d-tangent", "sk-i-cartier"],
+    "message":
+    "Lean shows 'sk-d-tangent' depends on 'sk-i-cartier', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-d-weights", "d-weights"],
@@ -292375,6 +292873,11 @@
     "Lean shows 'sk-def-zeta' depends on 'def-weil-point-counts-zeta', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
+   {"objects": ["sk-i-cartier", "def-wf-lie-algebra-derivation"],
+    "message":
+    "Lean shows 'sk-i-cartier' depends on 'def-wf-lie-algebra-derivation', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
    {"objects": ["sk-i-dl-a1-local", "d-ab-field"],
     "message":
     "Lean shows 'sk-i-dl-a1-local' depends on 'd-ab-field', but no 'uses' edge declares it",
@@ -292715,6 +293218,11 @@
    {"objects": ["sk-i-restriction", "def-wf-lie-algebra-derivation"],
     "message":
     "Lean shows 'sk-i-restriction' depends on 'def-wf-lie-algebra-derivation', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-i-restriction", "lem-ag-cartier-reduced"],
+    "message":
+    "Lean shows 'sk-i-restriction' depends on 'lem-ag-cartier-reduced', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-input-weights", "sk-prop-rootpurity"],
@@ -295569,6 +296077,16 @@
    {"objects": ["sk-p-comparison", "def-wf-lie-algebra-derivation"],
     "message":
     "Lean shows 'sk-p-comparison' depends on 'def-wf-lie-algebra-derivation', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-p-comparison", "lem-ag-cartier-reduced"],
+    "message":
+    "Lean shows 'sk-p-comparison' depends on 'lem-ag-cartier-reduced', but no 'uses' edge declares it",
+    "level": "warning",
+    "code": "actual-not-declared"},
+   {"objects": ["sk-p-comparison", "sk-i-restriction"],
+    "message":
+    "Lean shows 'sk-p-comparison' depends on 'sk-i-restriction', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-p-dl-a1-correction", "d-ab-field"],
@@ -303826,11 +304344,6 @@
     "'uses' edge lem-a1-unramified-nonexceptional -> lem-a1-artin-schreier-ramified-infinity is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
-   {"objects": ["lem-ag-cartier-reduced", "def-wf-lie-algebra-derivation"],
-    "message":
-    "'uses' edge lem-ag-cartier-reduced -> def-wf-lie-algebra-derivation is declared, but the Lean dependency graph does not show it",
-    "level": "info",
-    "code": "declared-not-actual"},
    {"objects": ["lem-chow-graph", "def-chow-segre"],
     "message":
     "'uses' edge lem-chow-graph -> def-chow-segre is declared, but the Lean dependency graph does not show it",
@@ -305621,11 +306134,6 @@
     "'uses' edge sk-d-local-term -> sk-d-trace-class is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
-   {"objects": ["sk-d-monodromy", "sk-d-geometry"],
-    "message":
-    "'uses' edge sk-d-monodromy -> sk-d-geometry is declared, but the Lean dependency graph does not show it",
-    "level": "info",
-    "code": "declared-not-actual"},
    {"objects": ["sk-d-operator", "sk-d-corr"],
     "message":
     "'uses' edge sk-d-operator -> sk-d-corr is declared, but the Lean dependency graph does not show it",
@@ -305739,11 +306247,6 @@
    {"objects": ["sk-d-six", "sk-d-setup"],
     "message":
     "'uses' edge sk-d-six -> sk-d-setup is declared, but the Lean dependency graph does not show it",
-    "level": "info",
-    "code": "declared-not-actual"},
-   {"objects": ["sk-d-tangent", "sk-d-geometry"],
-    "message":
-    "'uses' edge sk-d-tangent -> sk-d-geometry is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-d-tangent", "sk-d-lie"],
@@ -305966,16 +306469,6 @@
     "'uses' edge sk-i-additivity -> sk-d-trace-class is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
-   {"objects": ["sk-i-cartier", "sk-d-geometry"],
-    "message":
-    "'uses' edge sk-i-cartier -> sk-d-geometry is declared, but the Lean dependency graph does not show it",
-    "level": "info",
-    "code": "declared-not-actual"},
-   {"objects": ["sk-i-cartier", "sk-d-tangent"],
-    "message":
-    "'uses' edge sk-i-cartier -> sk-d-tangent is declared, but the Lean dependency graph does not show it",
-    "level": "info",
-    "code": "declared-not-actual"},
    {"objects": ["sk-i-cartier", "sk-i-geometry"],
     "message":
     "'uses' edge sk-i-cartier -> sk-i-geometry is declared, but the Lean dependency graph does not show it",
@@ -306144,11 +306637,6 @@
    {"objects": ["sk-i-relative-frob", "sk-d-setup"],
     "message":
     "'uses' edge sk-i-relative-frob -> sk-d-setup is declared, but the Lean dependency graph does not show it",
-    "level": "info",
-    "code": "declared-not-actual"},
-   {"objects": ["sk-i-restriction", "sk-i-cartier"],
-    "message":
-    "'uses' edge sk-i-restriction -> sk-i-cartier is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-i-restriction", "sk-i-geometry"],
@@ -306458,16 +306946,6 @@
    {"objects": ["sk-p-central", "sk-p-product"],
     "message":
     "'uses' edge sk-p-central -> sk-p-product is declared, but the Lean dependency graph does not show it",
-    "level": "info",
-    "code": "declared-not-actual"},
-   {"objects": ["sk-p-comparison", "sk-d-lie"],
-    "message":
-    "'uses' edge sk-p-comparison -> sk-d-lie is declared, but the Lean dependency graph does not show it",
-    "level": "info",
-    "code": "declared-not-actual"},
-   {"objects": ["sk-p-comparison", "sk-i-cartier"],
-    "message":
-    "'uses' edge sk-p-comparison -> sk-i-cartier is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-p-comparison", "sk-p-geometry"],
@@ -306823,11 +307301,6 @@
    {"objects": ["sk-p-product", "sk-i-cartier"],
     "message":
     "'uses' edge sk-p-product -> sk-i-cartier is declared, but the Lean dependency graph does not show it",
-    "level": "info",
-    "code": "declared-not-actual"},
-   {"objects": ["sk-p-product", "sk-i-restriction"],
-    "message":
-    "'uses' edge sk-p-product -> sk-i-restriction is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-p-product", "sk-p-comparison"],
