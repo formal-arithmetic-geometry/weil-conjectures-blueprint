@@ -18,4 +18,4 @@ then the commutative-algebra step that over the Artinian local ring $A_{E,n}$ a
 bounded complex with finite cohomology modules is perfect exactly when it has
 finite Tor amplitude.
 
-Uses: `prop:trf-compact-support-perfectness`
+Uses: `prop-trf-compact-support-perfectness`

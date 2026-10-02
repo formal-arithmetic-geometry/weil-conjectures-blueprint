@@ -38,4 +38,4 @@ quasi-compact quasi-separated $p$, and $\nu_Y^*$ is exact, so the vanishing
 transports. The bound depends only on $\dim\overline X$, which the base
 changes in question do not increase, so it is uniform in $V$.
 
-Uses: `\Cref{def:sf-admissible}`, `\Cref{prop:sf-comparison}`, `\Cref{prop:sf-finiteness}`
+Uses: `\Cref{sk-def-sf-admissible}`, `\Cref{sk-prop-sf-comparison}`, `\Cref{sk-prop-sf-finiteness}`

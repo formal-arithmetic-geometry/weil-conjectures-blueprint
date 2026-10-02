@@ -20,4 +20,4 @@ mate construction gives an isomorphism of right adjoints from the isomorphism
 of left adjoints, and the triangle identities of the composite are the
 composites of the component ones.
 
-Uses: `\Cref{def:sf-operations}`, `\Cref{thm:sf-comp-composition}`, `fix-prop-adjunctions`
+Uses: `\Cref{sk-def-sf-operations}`, `\Cref{thm-sf-comp-composition}`, `fix-prop-adjunctions`

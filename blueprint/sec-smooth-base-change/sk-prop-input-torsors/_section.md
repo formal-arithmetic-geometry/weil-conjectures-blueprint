@@ -102,4 +102,4 @@ along a morphism of schemes, which is not yet available. The
 connectedness criterion above, which needs the étale fundamental
 group, is likewise left to the prose.
 
-Uses: `cor:galois-abelian-h1`, [sk-def-smooth], `thm:galois-lc-etale`, `thm:galois-torsor-h1`
+Uses: `cor-galois-abelian-h1`, [sk-def-smooth], `thm-galois-lc-etale`, `thm-galois-torsor-h1`

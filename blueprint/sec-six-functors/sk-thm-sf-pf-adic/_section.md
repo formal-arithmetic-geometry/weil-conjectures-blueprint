@@ -26,4 +26,4 @@ morphism of derived-complete complexes with the given reductions; it is an
 isomorphism because its reductions are and reduction is conservative on
 derived-complete complexes of finite Tor amplitude.
 
-Uses: `\Cref{prop:sf-pf-reduction}`, `def:weil-derived-complete-integral`, `lem:weil-pbc-reconstruction-uniform-tower`
+Uses: `\Cref{prop-sf-pf-reduction}`, `def-weil-derived-complete-integral-detailed`, `lem-weil-pbc-reconstruction-uniform-tower`

@@ -26,4 +26,4 @@ that is the unit identification at $P=A_{E,n}$; reduction carries that
 identification to the unit identification at $A_{E,m}$. Geometric stalks are
 conservative.
 
-Uses: `\Cref{thm:sf-pf-finite}`, `prop:functor-package`
+Uses: `\Cref{thm-sf-pf-finite}`, `prop-functor-package`

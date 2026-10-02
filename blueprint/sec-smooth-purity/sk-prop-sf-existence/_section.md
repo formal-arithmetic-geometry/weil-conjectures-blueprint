@@ -37,4 +37,4 @@ never to be used later; downstream uses only the adjunction relative to the
 class of étale origin (bounded-below $K$ of étale origin), which holds
 unconditionally, so (b) has no detailed counterpart in the blueprint.*
 
-Uses: `def:weil-full-cohomological-dimension`, `prop:ambient-exceptional-adjoint`, `thm:amb-etale-exceptional-adjoint`
+Uses: `def-weil-full-cohomological-dimension`, `thm-amb-etale-exceptional-adjoint`, `thm-amb-etale-exceptional-adjoint`

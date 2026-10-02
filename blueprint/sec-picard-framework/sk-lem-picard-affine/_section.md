@@ -44,7 +44,7 @@ standard subcovering exists), and by Step 1 with $M=\cF(V)$ the
 augmented Čech complex of each such covering is exact in positive
 degrees. The criterion then gives $H^q(X,\cF)=0$ for $q>0$.
 
-The detailed forms are Blueprint 50, `lem:pc-affine-vanishing`
-and `lem:pc-affine-cech-complex` (Step 1); the criterion of
+The detailed forms are Blueprint 50, `lem-pc-affine-vanishing`
+and `lem-pc-affine-cech-complex` (Step 1); the criterion of
 Step 2 is Stacks, Cohomology, Lemma 20.11.9, in Section
 [`01EO`](https://stacks.math.columbia.edu/tag/01EO).

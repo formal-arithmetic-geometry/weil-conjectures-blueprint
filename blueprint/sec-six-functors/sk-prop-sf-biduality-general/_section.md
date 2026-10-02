@@ -24,4 +24,4 @@ reflexive over them.
 the admissibility of $a_Y$, i.e. the same hypothesis as
 prop:sf-existence(b).
 
-Uses: `prop:functor-package`, `thm:sf-biduality`
+Uses: `prop-functor-package`, `thm-sf-biduality-class`

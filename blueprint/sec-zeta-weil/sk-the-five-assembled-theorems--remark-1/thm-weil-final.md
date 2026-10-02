@@ -109,13 +109,13 @@ degreewise factors and Frobenius operators in Definitions
 Definition [def-weil-point-counts-zeta] is the exponential point-counting
 description. Proposition [prop-euler-product] gives the closed-point
 Euler product and membership in $1+T\mathbf Z[[T]]$. Proposition
-`prop:integral-recovery` gives the factorization by integral
+`prop-integral-recovery` gives the factorization by integral
 polynomials and hence $Z(X_0,T)\in\mathbf Q(T)$.
 This proves exactly the two displayed descriptions and both coefficient
 claims in (i).
 
 *Clause (ii).*
-Proposition `prop:integral-recovery` applies to the fixed datum and says
+Proposition `prop-integral-recovery` applies to the fixed datum and says
 that the canonical $P_i\in\mathbf Z[T]$ have constant term one, satisfy
 
 $$
@@ -135,7 +135,7 @@ These are precisely all assertions of (ii).
 
 *Clause (iii).*
 Fix $0\leq i\leq2d$. Proposition
-`prop:arithmetic-roots` applies to the polynomial $P_i$ in the fixed
+`prop-arithmetic-roots` applies to the polynomial $P_i$ in the fixed
 algebraic closure. It states that every reciprocal root is an algebraic
 integer and a $q$-Weil number of weight $i$, with the displayed equality
 for every complex embedding. The same proposition identifies an ordinary
@@ -145,15 +145,15 @@ polynomial $P_i$, and gives $|\tau(\beta)|=q^{-i/2}$. This proves
 
 *Clause (iv).*
 Fix an integer $0\leq i\leq2d$. For every prime $\ell\neq p$,
-Proposition `prop:integral-recovery` gives
+Proposition `prop-integral-recovery` gives
 
 $$
 b_i=\deg P_i=\dim_{\Ql}H^i(X,\Ql),
 $$
 
 so the left-hand side is independent of $\ell$. Proposition
-`prop:duality-reciprocity` gives $b_i=b_{2d-i}$, and Proposition
-`prop:endpoints` gives
+`prop-duality-reciprocity` gives $b_i=b_{2d-i}$, and Proposition
+`prop-endpoints` gives
 
 $$
 b_0=b_{2d}=1,\qquad P_0(T)=1-T,\qquad P_{2d}(T)=1-q^dT.
@@ -165,13 +165,13 @@ $1$ at $T=1$ and, when $d\geq1$, at $T=q^{-d}$. This is exactly (iv).
 
 *Clause (v).*
 The definitions of $D_i,\chi,\varepsilon$ are respectively
-Definitions `def:weil-determinant-constants`,
+Definitions `def-weil-determinant-constants`,
 *Euler characteristic*,
-and `def:weil-functional-equation-sign`. Proposition
-`prop:duality-reciprocity` supplies, for every $i$, the asserted
+and `def-weil-functional-equation-sign`. Proposition
+`prop-duality-reciprocity` supplies, for every $i$, the asserted
 degreewise Laurent reciprocity. Proposition
 *Parity of the functional-equation exponent* verifies that $d\chi/2$ is an
-integer. Finally Proposition `prop:functional-equation` proves
+integer. Finally Proposition `prop-functional-equation` proves
 
 $$
 \varepsilon\in\{1,-1\},\qquad

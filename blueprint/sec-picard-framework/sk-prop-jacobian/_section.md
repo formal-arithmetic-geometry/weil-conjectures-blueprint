@@ -78,6 +78,6 @@ $\Pic_{C_{k'}/k'}$ and its degree-zero part is $J(C_{k'})$.
 (Classical: Mumford and Milne, *Abelian Varieties*; Stacks
 [`0BA0`](https://stacks.math.columbia.edu/tag/0BA0); the
 detailed blueprint node is
-`thm:sc-jacobian-representability`.)
+`thm-sc-jacobian-representability`.)
 
 Uses: [sk-def-av-jacobian], [sk-def-picard-f], [sk-lem-picard-f-open], [sk-lem-picard-zero-dictionary], [sk-prop-picard-degree-decomposition], [sk-prop-picard-jacobian-tangent], [sk-prop-picard-pic-split], [sk-thm-picard-f-representable], [sk-thm-picard-hilb-curves], [sk-thm-picard-rr], [sk-thm-picard-twist]

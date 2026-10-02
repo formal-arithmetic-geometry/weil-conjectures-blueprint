@@ -10,7 +10,7 @@ Let $U_0/\mathbf F_q$ be normal, geometrically connected,
 separated and of finite type, pure of dimension one; put
 $U=U_0\times_{\mathbf F_q}\overline{\mathbf F}_q$ and
 $\Pi=\pi_1(U,\bar u)$; let $\ell\nmid q$, let $E/\mathbf Q_\ell$ be finite, and let
-$\chi:\hyperref[def:wf-weil-group]{W(U_0,\bar u)}\to E^\times$ be a
+$\chi:\hyperref[def-wf-weil-group]{W(U_0,\bar u)}\to E^\times$ be a
 continuous character with finite geometric image $\chi(\Pi)$. Choose $s$ with $\deg(s)=1$ and put
 $c=\chi(s)$. Then $(W(U_0,\bar u),\deg,s)$ is a degree datum in the sense
 of [d-monodromy] with $P=\Pi$, and for it the function

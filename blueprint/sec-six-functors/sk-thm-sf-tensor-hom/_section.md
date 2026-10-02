@@ -39,4 +39,4 @@ formula ([sk-thm-sf-pf-finite] below) and the third is the adjunction
 $Rf_!\dashv Rf^!$. The chain is natural in $L$, so the two objects represent
 the same functor and Yoneda gives the isomorphism.
 
-Uses: `\Cref{def:sf-exchanges}`, `\Cref{def:sf-operations}`, `\Cref{lem:sf-mate}`, `def:weil-derived-pullback-tensor-hom`
+Uses: `\Cref{sk-def-sf-exchanges}`, `\Cref{sk-def-sf-operations}`, `\Cref{lem-sf-mate}`, `def-weil-derived-pullback-tensor-hom`

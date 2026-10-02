@@ -27,4 +27,4 @@ termwise to a bounded complex of finite projectives representing $K$ gives
 $K^{\vee\vee}\cong K$; the counit and coevaluation are the adjunction unit and
 counit, whose composite is the identity.
 
-Uses: `\Cref{def:sf-operations}`, `def:weil-derived-pullback-tensor-hom`
+Uses: `\Cref{sk-def-sf-operations}`, `def-weil-derived-pullback-tensor-hom`

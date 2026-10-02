@@ -33,4 +33,4 @@ carries Tor amplitude $[c,d]$ into $[-d-2m,-c]$ (the dualizing complex has
 cohomology in $[-2m,0]$). Applying this twice, with the additivity of Tor
 amplitude for $\otimes^L$, gives $[c-b-2m,d-a+2m]$.
 
-Uses: `\Cref{prop:sf-biduality-general}`, `\Cref{prop:sf-finiteness}`, `lem:weil-pbc-geometric-stalk-conservative`
+Uses: `\Cref{sk-prop-sf-biduality-general}`, `\Cref{sk-prop-sf-finiteness}`, `lemma-weil-pbc-geometric-stalk-conservative`

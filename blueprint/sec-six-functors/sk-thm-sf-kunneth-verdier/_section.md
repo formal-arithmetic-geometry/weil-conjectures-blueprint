@@ -118,4 +118,4 @@ $M\boxtimes\omega_Y\simeq Rp_X^!M$, which is $\alpha$ for
 $\operatorname{id}_X\times a_Y$. Their composite is $\kappa_{M,N}$ by
 [sk-def-sf-kv-maps] (iv), and both factors have just been shown invertible.
 
-Uses: `\Cref{def:sf-kv-maps}`, `\Cref{lem:sf-ctf-generation}`, `\Cref{lem:sf-kunneth-star}`, `\Cref{prop:sf-biduality-general}`, `\Cref{prop:sf-dualizable-biduality}`, `\Cref{thm:sf-tensor-hom}`, `\Cref{lem:sf-mate}`, `\Cref{prop:sf-closed-unit}`, `\Cref{prop:sf-localization}`, `\Cref{thm:regular}`, `\Cref{thm:smooth-purity}`
+Uses: `\Cref{def-sf-kv-maps}`, `\Cref{sk-lem-sf-ctf-generation}`, `\Cref{sk-lem-sf-kunneth-star}`, `\Cref{sk-prop-sf-biduality-general}`, `\Cref{sk-prop-sf-dualizable-biduality}`, `\Cref{sk-thm-sf-tensor-hom}`, `\Cref{lem-sf-mate}`, `\Cref{sk-prop-sf-closed-unit}`, `\Cref{sk-prop-sf-localization}`, `\Cref{sk-thm-regular}`, `\Cref{sk-thm-smooth-purity}`

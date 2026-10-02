@@ -29,4 +29,4 @@ Naturality and the compatibilities are those of the two ingredients. (This
 proof uses only the tensor–Hom exchange and never the duality chapter, which
 is what removes the proof cycle between the framework and duality chapters.)
 
-Uses: `\Cref{def:sf-operations}`, `\Cref{lem:sf-mate}`, `\Cref{thm:sf-tensor-hom}`, `def:weil-exceptional-inverse-image`
+Uses: `\Cref{sk-def-sf-operations}`, `\Cref{lem-sf-mate}`, `\Cref{sk-thm-sf-tensor-hom}`, `def-weil-exceptional-inverse-image`

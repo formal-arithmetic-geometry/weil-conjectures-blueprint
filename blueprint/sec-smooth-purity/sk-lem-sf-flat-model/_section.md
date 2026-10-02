@@ -44,4 +44,4 @@ finite affine étale cover so that the relevant sections lift
 P^a)$ is a cokernel of a map of constructible sheaves, hence constructible as
 well as flat, and $P'$ is a bounded complex of flat constructible sheaves.
 
-Uses: `def:weil-derived-tensor`, `def:weil-finite-tor-amplitude`, `lem:exc-constant-inverse-image-flat`
+Uses: `def-weil-derived-tensor`, `def-weil-finite-tor-amplitude`, `lem-exc-constant-inverse-image-flat`

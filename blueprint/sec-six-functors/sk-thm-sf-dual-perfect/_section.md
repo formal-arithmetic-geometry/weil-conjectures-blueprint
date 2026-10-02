@@ -44,4 +44,4 @@ orientation is used. Applying $\theta_f$ twice and
 $\mathbb D_{X/Y}\mathbb D_{X/Y}K\cong K^{\vee\vee}$, under which the biduality is
 $K\to K^{\vee\vee}$, an isomorphism by [sk-prop-sf-dualizable-biduality].
 
-Uses: `\Cref{def:sf-orientation}`, `\Cref{lem:sf-twist-interchange}`, `\Cref{prop:sf-dualizable-biduality}`
+Uses: `\Cref{def-sf-orientation}`, `\Cref{lem-sf-twist-interchange}`, `\Cref{sk-prop-sf-dualizable-biduality}`

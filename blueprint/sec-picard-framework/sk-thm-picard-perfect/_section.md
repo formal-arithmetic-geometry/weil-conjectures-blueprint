@@ -62,4 +62,4 @@ free of rank $r$, then every $t'\in T'$ has $h^q(t')=r\,\delta_{q,i}$,
 and $h^q(t')=h^q(t)$ for $t$ the image of $t'$ (cohomology commutes with
 field extension), so $T'\to T$ factors through the open $U_{i,r}$; the
 converse is base change. The detailed forms are Blueprint 50,
-`lem:pc-perfect-locus` and `lem:pc-flat-rf-open`.
+`lem-pc-perfect-locus` and `lem-pc-flat-rf-open`.

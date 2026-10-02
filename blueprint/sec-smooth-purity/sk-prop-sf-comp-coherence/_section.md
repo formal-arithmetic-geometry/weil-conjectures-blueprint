@@ -60,4 +60,4 @@ further refinement. Transitivity then gives $t_2t_1^{-1}=t_2'{t_1'}^{-1}$.
 For three compactifications, one common refinement of all three gives
 $(t_3t_2^{-1})(t_2t_1^{-1})=t_3t_1^{-1}$, the cocycle condition.
 
-Uses: `\Cref{def:sf-operations}`, `\Cref{prop:nagata-sketch-comp-category}`, `\Cref{thm:properbasechange}`
+Uses: `\Cref{sk-def-sf-operations}`, `\Cref{sk-prop-nagata-sketch-comp-category}`, `\Cref{sk-thm-properbasechange}`

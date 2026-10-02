@@ -164,7 +164,7 @@ $Rp_{1!}R\Delta_!K=K$.
 $\kappa^T:P\otimes Lp_2^*K\to Rp_1^!K$ of $\kappa$ is
 $Lp_1^*K\otimes Lp_2^*(D\otimes K)\xrightarrow{1\otimes Lp_2^*\operatorname{ev}_K}
 K\boxtimes\omega\xrightarrow{\alpha_{\operatorname{id},a_X}}Rp_1^!K$ (the
-other evaluation is the unit identification $\RHom(A_X,K)=K$, and moving
+other evaluation is the unit identification $\RHom_A(A_X,K)=K$, and moving
 the unit $A_X$ costs no sign), with $\alpha_{\operatorname{id},a_X}$ the
 exceptional Künneth map of [prop-trf-exceptional-kunneth] for
 $p_1=\operatorname{id}_X\times a_X$. So $\kappa\circ\widetilde v'=[1_K]$

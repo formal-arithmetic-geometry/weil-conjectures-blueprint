@@ -47,6 +47,6 @@ clauses of [sk-thm-picard-pn] ($H^q(\PP^n_k,\cO(d))=0$ for
 $q\notin\{0,n\}$, and $H^n(\PP^n_k,\cO(d))=0$ for $d\ge-n$), and whose
 right term vanishes for $m\gg0$ by the induction hypothesis applied to
 $\mathcal R$. The detailed forms are Blueprint 50,
-`lem:pc-projective-space-twist-quotient`,
-`lem:pc-projective-space-serre-vanishing` and
-`lem:pc-serre-vanishing`.
+`lem-pc-projective-space-twist-quotient`,
+`lem-pc-projective-space-serre-vanishing` and
+`lem-pc-serre-vanishing`.

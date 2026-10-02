@@ -17,9 +17,9 @@ $\Phi_m^*K\to K$.
 
 The fixed point $\bar x$ is an isolated, hence open-and-closed, component of
 the fixed scheme. The trace-class source is the internal Hom
-$\RHom(c_2^*K,c_1^!K)$; by purity in relative dimension zero in
+$\RHom_A(c_2^*K,c_1^!K)$; by purity in relative dimension zero in
 [sk-thm-sf-package], which identifies $c_1^!K$ and $c_2^*K$ with $K$ on the fixed
-scheme, its stalk at $\bar x$ is $\RHom(K_{\bar x},K_{\bar x})$, and the
+scheme, its stalk at $\bar x$ is $\RHom_A(K_{\bar x},K_{\bar x})$, and the
 mate of the coefficient morphism restricts to the mate of $u_{\bar x}$.
 The trace map is the composite of an evaluation, the fixed-square base
 change and the dualizing composition, each local on the fixed scheme, so

@@ -10,7 +10,7 @@ Let $X_0$ be a normal geometrically connected curve over $k_0$, put
 $|k_0|=q$, and let
 $\mathcal L_0$ be a rank-one lisse
 Weil sheaf on $X_0$ with Weil
-character $\chi:\hyperref[def:wf-weil-group]{W(X_0)}\to E^\times$, with $E/\mathbf Q_\ell$
+character $\chi:\hyperref[def-wf-weil-group]{W(X_0)}\to E^\times$, with $E/\mathbf Q_\ell$
 finite, such that $\chi(\pi_1(X))$ is finite, and fix
 $\iota:E\hookrightarrow\mathbf C$. For $w\in\mathbf R$ the
 sheaf $\mathcal L_0$ is punctually $\iota$-pure of weight $w$ if

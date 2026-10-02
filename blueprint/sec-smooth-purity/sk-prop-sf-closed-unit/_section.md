@@ -37,4 +37,4 @@ an isomorphism $Ri^!Ri_*Q\cong Q$, and the triangle identities of the
 adjunction identify its inverse with $\eta_i^!$.
 Source: closed-immersion adjunction in SGA 4, XVII–XVIII.
 
-Uses: `\Cref{def:sf-operations}`, `\Cref{prop:sf-existence}`
+Uses: `\Cref{sk-def-sf-operations}`, `\Cref{sk-prop-sf-existence}`

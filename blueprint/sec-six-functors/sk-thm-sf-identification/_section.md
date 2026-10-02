@@ -47,4 +47,4 @@ convention together with $H^{-i}(C^\vee)\cong H^i(C)^\vee$ for a perfect point
 complex, which holds when $\operatorname{Hom}(-,\Lambda)$ is exact, i.e. for
 $\Lambda\in\{A_{E,n},E,\Qlb\}$.
 
-Uses: `\Cref{lem:sf-twist-interchange}`, `\Cref{thm:sf-global-duality}`, `\Cref{thm:sf-tensor-hom}`, `def:coefficient-twists`, `def:weil-poincare-trace-cup`
+Uses: `\Cref{lem-sf-twist-interchange}`, `\Cref{thm-sf-global-duality}`, `\Cref{sk-thm-sf-tensor-hom}`, `def-coefficient-twists-detailed`, `def-weil-poincare-trace-cup`

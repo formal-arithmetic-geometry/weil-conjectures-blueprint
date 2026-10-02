@@ -68,4 +68,4 @@ chart, and the open-complement hypothesis of the affine-base form is
 discharged by the $c=2d$ bound established in (ii), so it is a theorem here
 and not an assumption.
 
-Uses: `cor:exc-closed-preservation-datum`, `cor:pur-general-admissibility-datum`, `cor:pur-smooth-admissibility`, `lem:exc-open-complement-known`, `lem:exc-residue-tor-test`, `thm:exc-explicit-preservation`
+Uses: `cor-pur-general-admissibility-datum`, `cor-pur-general-admissibility-datum`, `cor-pur-smooth-admissibility`, `lem-exc-open-complement-known`, `lem-exc-residue-tor-test`, `thm-exc-explicit-preservation`

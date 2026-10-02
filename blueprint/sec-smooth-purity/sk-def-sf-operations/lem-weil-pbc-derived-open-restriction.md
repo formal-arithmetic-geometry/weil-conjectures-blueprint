@@ -11,7 +11,7 @@ open immersion. In the
 cartesian square
 put $V=T\times_SU$, $b:V\hookrightarrow T$, and $f_U:V\to U$.
 For a finite ring $\Lambda$ and
-$L\in\hyperref[[def-weil-pbc-derived-categories]]{D^+(T_{\Et},\Lambda)}$,
+$L\in\hyperref[def-weil-pbc-derived-categories]{D^+(T_{\Et},\Lambda)}$,
 restriction gives a natural isomorphism
 
 $$

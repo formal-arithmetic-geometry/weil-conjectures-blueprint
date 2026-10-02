@@ -73,12 +73,12 @@ $\pi_1(U)\to\pi_1(C)$ is surjective. The Weil-group map of
 [sk-d-real-weil] is the pullback of this one along the degree map to
 $\mathbf Z$, so it is surjective too.
 
-The detailed forms are Blueprint 07, `lem:fin-normal-open-lisse-image`
-(Step 1), `lem:fin-normal-constant-open-image` (Step 3),
-`lem:fin-etale-normal-components` (Steps 0 and 4),
+The detailed forms are Blueprint 07, `lem-fin-normal-open-lisse-image`
+(Step 1), `lem-fin-normal-constant-open-image` (Step 3),
+`lem-fin-etale-normal-components` (Steps 0 and 4),
 `fin2-lem-lisse-trivialized-finite-etale` and
-`lem:fin-normalization-extends-cover`; and Blueprint 12,
-`lem:wf-boundary-stalk-invariants` (Step 2), resting on
-Blueprint 02, `prop:weil-pbc-strict-henselization-stalk-formula`.
+`lem-fin-normalization-extends-cover`; and Blueprint 12,
+`lem-wf-boundary-stalk-invariants` (Step 2), resting on
+Blueprint 02, `prop-weil-pbc-strict-henselization-stalk-formula`.
 
 Uses: [sk-d-real-boundary], [sk-d-real-setup], [sk-d-real-weil]
