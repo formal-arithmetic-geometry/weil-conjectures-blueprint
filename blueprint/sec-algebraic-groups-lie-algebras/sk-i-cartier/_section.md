@@ -4,7 +4,7 @@ kind = "section"
 title = "Characteristic-zero group smoothness"
 order = 2489
 uses = ["sk-d-geometry", "sk-d-tangent", "sk-i-geometry"]
-lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_charZero"]
+lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_charZero", "Matrix.GeneralLinearGroup.lieAlgebra_identityComponent", "Matrix.GeneralLinearGroup.finrank_lieAlgebra_eq_ringKrullDim", "Matrix.GeneralLinearGroup.dualUnit_add"]
 +++
 *Proposition (sketch).*
 

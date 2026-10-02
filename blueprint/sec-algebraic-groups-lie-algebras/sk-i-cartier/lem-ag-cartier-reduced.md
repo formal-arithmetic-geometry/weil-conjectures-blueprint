@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Cartier: group schemes in characteristic zero are smooth and reduced"
 order = 2492
 uses = ["def-wf-lie-algebra-derivation", "lem-wf-affine-nullstellensatz-vanishing", "lem-wf-affine-product-reduced", "lem-wf-same-lie-closed-subgroup"]
-lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_charZero"]
+lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_charZero", "Matrix.GeneralLinearGroup.lieAlgebra_identityComponent", "Matrix.GeneralLinearGroup.finrank_lieAlgebra_eq_ringKrullDim", "Matrix.GeneralLinearGroup.dualUnit_add"]
 +++
 Let $\mathcal G\subseteq\operatorname{GL}(V)$ over
 $k=\overline{\mathbf Q}_\ell$ be a closed subscheme of finite type, cut

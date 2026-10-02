@@ -4,7 +4,7 @@ kind = "section"
 title = "Normal restriction and passage to closure"
 order = 2513
 uses = ["sk-d-geometry", "sk-d-linear", "sk-d-monodromy", "sk-d-tangent", "sk-i-cartier", "sk-i-geometry"]
-lean = ["Subgroup.zariskiClosure", "Representation.isSemisimpleRepresentation_comp_subtype", "RepresentedDegreeDatum.geometricMonodromy_subgroupOf_normal", "RepresentedDegreeDatum.commutator_le_geometricMonodromy", "RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy"]
+lean = ["Matrix.GeneralLinearGroup.vanishingIdeal", "Matrix.GeneralLinearGroup.instIsHopfIdealVanishingIdeal", "Representation.isSemisimpleRepresentation_comp_subtype", "Matrix.GeneralLinearGroup.zeroLocus_vanishingIdeal_le_normalizer", "Matrix.GeneralLinearGroup.commutator_zeroLocus_vanishingIdeal_le", "Matrix.GeneralLinearGroup.lie_mem_lieAlgebra_of_commutator_le", "RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy", "RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy", "RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy", "RepresentedDegreeDatum.lie_mem_lieAlgebra_identityComponent_geometricMonodromy"]
 +++
 *Proposition (sketch).*
 
