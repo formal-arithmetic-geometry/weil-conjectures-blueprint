@@ -26,6 +26,17 @@ preserves injections of $A_T$-module sheaves.
 The same equivalence holds with the corresponding constructibility,
 derived-tensor and Tor-amplitude conditions on a small étale site.
 
+*Constructible variant.* If $T$ is Noetherian (for instance of finite type
+over $k$) and $K\in D^b_c(T_{\Et},A)$ on the small étale site has finite Tor
+amplitude in $[a,b]$, then $K$ is isomorphic in $D(T_{\Et},A)$ to a bounded
+complex $P$ of flat *constructible* $A_T$-module sheaves with $P^q=0$ for
+$q\notin[a,b]$; in particular every object of $D^b_{ctf}(T_{\Et},A)$ has such
+a model. The key input is that every constructible sheaf of $A$-modules on
+$T_{\Et}$ is a quotient of a finite direct sum of sheaves $j_{V!}A_V$ with
+$j_V:V\to T$ étale and $V$ affine (Stacks 095M; SGA $4\frac12$, Rapport, 4.6),
+and that kernels and cokernels of maps of constructible sheaves of
+$A$-modules are constructible.
+
 ## Proof
 
 *(ii)$\Rightarrow$(i).* A bounded-above complex of flat module
@@ -82,3 +93,21 @@ quasi-isomorphism: the truncation $\sigma_{\geq a}P$, whose terms are
 those of $P'$ with the induced differentials, maps quasi-isomorphically
 to $P$ because $P$ is exact below $a$, and $P\to K$ is a
 quasi-isomorphism by construction. This is (ii).
+
+*Constructible variant.* Run (i)$\Rightarrow$(ii) on $T_{\Et}$ with a
+bounded-above resolution $P\to K$, $P^q=0$ for $q>b$, whose terms are finite
+direct sums of sheaves $j_{V!}A_V$, $V\to T$ affine étale. Such a resolution
+is built inductively in decreasing degree: at each step one needs a map from
+a finite direct sum of sheaves $j_{V!}A_V$ onto a constructible sheaf (first
+the cohomology sheaves of $K$, then the kernels and cokernels that arise, all
+constructible because the cohomology sheaves of $K$ are and the constructible
+sheaves of $A$-modules form an abelian subcategory), and such a surjection
+exists by the key input; where the map has to be lifted through a surjection
+of sheaves, one refines each $V$ by a finite affine étale cover, over which
+the relevant sections lift, and the composite stays surjective
+(SGA $4\frac12$, Rapport, 4.6–4.8). The terms of $P$ are flat and
+constructible, so the argument above applies verbatim, and
+$Q=P^a/\operatorname{im}(P^{a-1}\to P^a)$ is the cokernel of a map of
+constructible sheaves, hence constructible as well as flat. Thus
+$P'=[Q\to P^{a+1}\to\cdots\to P^b]$ is a bounded complex of flat
+constructible sheaves in degrees $[a,b]$, quasi-isomorphic to $K$.

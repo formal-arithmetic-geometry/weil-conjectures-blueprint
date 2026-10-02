@@ -26,7 +26,9 @@ $\cO(D_{\mathrm{univ}})|_{\{[D]\}\times X}\cong\cO_X(D)$.
 
 *Hypothesis check (with the seam $S_1$).* A finite set of
 points of $X$ lies in an affine open: take $D_0=\sum_j[P_j]$ with
-$m=\sum_j[\kappa(P_j):k]\ge1$; by [sk-thm-picard-rr] (G) the module
+$m=\sum_j[\kappa(P_j):k]\ge1$; by [sk-thm-picard-rr] (G) (applicable:
+$X$ is geometrically irreducible and smooth, hence geometrically
+integral, so $H^0(X,\cO_X)=k$) the module
 $\cO_X(D_0)$ is ample, and by [sk-thm-picard-rr] (H) the complement of
 $\operatorname{Supp}(D_0)$ is affine and contains the points.
 *Smoothness.* $\Hilb^0_{X/k}=\Spec k$ and

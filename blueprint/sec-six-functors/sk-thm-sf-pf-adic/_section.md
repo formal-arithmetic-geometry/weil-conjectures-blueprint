@@ -3,7 +3,7 @@ id = "sk-thm-sf-pf-adic"
 kind = "section"
 title = "Projection formula: the derived-complete stage"
 order = 2095
-uses = ["sk-prop-sf-pf-reduction"]
+uses = ["sk-def-sf-operations", "sk-prop-sf-pf-reduction"]
 lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_of_derivedCompleteIntegral"]
 +++
 *Theorem (sketch).*

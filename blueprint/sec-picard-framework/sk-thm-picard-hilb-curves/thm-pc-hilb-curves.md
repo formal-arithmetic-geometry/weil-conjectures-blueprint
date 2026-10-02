@@ -26,7 +26,8 @@ which is finite locally free of degree $\binom{d_1+d_2}{d_1}$.
 ## Proof
 
 *Step 0: the affine-open hypothesis.*
-We verify the hypothesis of [lem-pc-hilb-representable].
+We verify the hypotheses of [lem-pc-hilb-representable]: $X$ is proper,
+hence separated, over $k$, and it remains to check the affine-open condition.
 Given finitely many points $x_1,\ldots,x_d\in X$, choose a closed
 point $Q$ different from every closed point in this list.
 Such a $Q$ exists: the complement of finitely many closed points

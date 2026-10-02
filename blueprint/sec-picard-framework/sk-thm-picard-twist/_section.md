@@ -21,7 +21,10 @@ $$
 
 Choose an ample $\cM$ on $X$. By [sk-thm-picard-serre-b], for $n\gg0$:
 $H^q(X_K,\cL\otimes\cM^{\otimes n}|_{X_K})=0$ for $q>0$, and by
-[sk-thm-picard-rr] (RR):
+[sk-thm-picard-rr] (RR) — applicable, since the integral smooth $X$
+has $H^0(X,\cO_X)$ a finite separable extension of the separably
+closed $k$, i.e. $H^0(X,\cO_X)=k$, whence $H^0(X_K,\cO_{X_K})=K$ by
+flat base change:
 
 $$
 \chi\bigl(\cL\otimes\cM^{\otimes n}\bigr)

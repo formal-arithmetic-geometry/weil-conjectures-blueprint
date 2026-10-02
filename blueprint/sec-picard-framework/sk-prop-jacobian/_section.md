@@ -18,7 +18,9 @@ $$
 \Pic^0(C)=\{\cL\in\Pic(C):\deg\cL=0\}\;\cong\;J(C)(k),
 $$
 
-and the formation of $J(C)$ commutes with algebraically closed base extension:
+where $\deg\cL=\chi(\cL)-\chi(\cO_C)$, equivalently (by
+[sk-thm-picard-rr](RR)) the divisor degree $\deg D$ of any $D$ with
+$\cL\cong\cO_C(D)$; and the formation of $J(C)$ commutes with algebraically closed base extension:
 $J(C_{k'})=J(C)\times_kk'$ for $k\subseteq k'$ algebraically closed.
 
 ## Proof

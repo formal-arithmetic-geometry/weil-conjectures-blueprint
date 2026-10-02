@@ -4,7 +4,7 @@ kind = "section"
 title = "Smooth-proper purity"
 order = 2867
 lean = ["TraceDatum.isPureOfWeight_map_P_of_pairing"]
-uses = ["sk-d-dl-general-weights", "sk-d-real-weights", "sk-def-cohfamily", "sk-prop-sf-comp-proper", "sk-thm-dl-general-sheaf", "sk-thm-poincare-duality", "sk-thm-properbasechange", "sk-thm-purity-transport", "sk-thm-sf-dual-perfect", "sk-thm-sf-verdier-exchange", "sk-thm-smooth-base-change", "sk-thm-smooth-purity"]
+uses = ["sk-d-dl-general-weights", "sk-d-real-weights", "sk-def-cohfamily", "sk-prop-sf-comp-proper", "sk-thm-dl-general-sheaf", "sk-thm-poincare-duality", "sk-thm-properbasechange", "sk-thm-purity-transport", "sk-thm-sf-dual-perfect", "sk-thm-sf-tensor-hom", "sk-thm-smooth-base-change", "sk-thm-smooth-purity"]
 +++
 *Proposition (sketch).*
 
@@ -44,13 +44,42 @@ most $w$ in the sense of [sk-d-dl-general-weights], so
 $w+i$ on $R^{i}f_{0!}\mathcal F_0=R^{i}f_{0*}\mathcal F_0$. By Step 1 this
 sheaf is lisse, so the bound is punctual.
 
-*Step 3 (lower bound by relative duality).* Relative Verdier duality
-([sk-thm-sf-verdier-exchange]) applied to $f_0$, together with the smooth
-orientation $\omega_{X_0/Y_0}\cong\Ql(d)[2d]$ furnished by
+*Step 3 (lower bound by relative duality).* The base $Y_0$ may be
+singular, so the duality is assembled over $Y_0$ from the tensor–Hom
+exchange and the relative dual, not from the absolute Verdier duality with
+$\omega_{Y}$. Write $f=f_0\times_{k_0}k$, $\mathcal F$ for the pullback of
+$\mathcal F_0$ to $X$ and $\Lambda$ for the coefficient field. The
+tensor–Hom form of the exchange ([sk-thm-sf-tensor-hom]) with
+$M=\mathcal F$ and $N=\Lambda_Y$, together with $Rf_!=Rf_*$ from Step 1,
+gives
+
+$$
+\RHom_Y\bigl(Rf_*\mathcal F,\Lambda_Y\bigr)
+\;\cong\;Rf_*\RHom_X\bigl(\mathcal F,Rf^!\Lambda_Y\bigr).
+$$
+
+The smooth orientation $\Lambda_X(d)[2d]\cong Rf^!\Lambda_Y$ of
 [sk-thm-smooth-purity], at the $\Qlb$-stage by
-[sk-thm-purity-transport], in the perfect form of
-[sk-thm-sf-dual-perfect],
-gives a Frobenius-equivariant isomorphism of lisse sheaves
+[sk-thm-purity-transport], and the relative perfect form
+$\theta_{f,\mathcal F}$ of [sk-thm-sf-dual-perfect] (the lisse
+$\mathcal F$ is perfect) identify the inner term:
+$\RHom_X(\mathcal F,Rf^!\Lambda_Y)\cong\mathcal F^{\vee}(d)[2d]$. Hence
+
+$$
+\RHom_Y\bigl(Rf_*\mathcal F,\Lambda_Y\bigr)
+\;\cong\;Rf_*\bigl(\mathcal F^{\vee}\bigr)(d)[2d].
+$$
+
+Now take cohomology sheaves in degree $-i$. On the right this is
+$R^{2d-i}f_*(\mathcal F^{\vee})(d)$. On the left, every $R^{j}f_*\mathcal F$
+is lisse by Step 1, hence locally free of finite rank over $\Lambda_Y$, so
+$\RHom_Y(R^{j}f_*\mathcal F,\Lambda_Y)=(R^{j}f_*\mathcal F)^{\vee}$ sits in
+degree $0$ (the local $\mathcal Ext^{p}$ vanish for $p>0$); the spectral
+sequence $\mathcal Ext^{p}_Y(R^{-q}f_*\mathcal F,\Lambda_Y)\Rightarrow
+\mathcal H^{p+q}\RHom_Y(Rf_*\mathcal F,\Lambda_Y)$ therefore degenerates and
+gives $\mathcal H^{-i}\RHom_Y(Rf_*\mathcal F,\Lambda_Y)=(R^{i}f_*\mathcal F)^{\vee}$. The three isomorphisms are compatible with the Frobenius
+structures, the orientation being compatible with base change, so the
+outcome is a Frobenius-equivariant isomorphism of lisse sheaves
 
 $$
 \bigl(R^{i}f_{0*}\mathcal F_0\bigr)^{\vee}
@@ -93,4 +122,4 @@ because purity is read off eigenvalue by eigenvalue. All the arithmetic
 sits in [sk-thm-dl-general-sheaf]: without it Step 3 bounds nothing, and
 with it both inequalities are automatic.
 
-Uses: [sk-d-dl-general-weights], [sk-d-real-weights], [sk-def-cohfamily], [sk-prop-sf-comp-proper], [sk-thm-dl-general-sheaf], [sk-thm-poincare-duality], [sk-thm-properbasechange], [sk-thm-purity-transport], [sk-thm-sf-dual-perfect], [sk-thm-sf-verdier-exchange], [sk-thm-smooth-base-change], [sk-thm-smooth-purity]
+Uses: [sk-d-dl-general-weights], [sk-d-real-weights], [sk-def-cohfamily], [sk-prop-sf-comp-proper], [sk-thm-dl-general-sheaf], [sk-thm-poincare-duality], [sk-thm-properbasechange], [sk-thm-purity-transport], [sk-thm-sf-dual-perfect], [sk-thm-sf-tensor-hom], [sk-thm-smooth-base-change], [sk-thm-smooth-purity]

@@ -22,6 +22,7 @@ $$
 What is not formal is that statement itself: at $M=\Lambda_X$, $N=\Lambda_Y$
 it reads $\omega_{X\times Y}\cong\omega_X\boxtimes\omega_Y$, which is $\alpha$
 with constant coefficients and therefore needs purity, localization and
-dévissage as above. For *perfect* $M$ it is formal, by
+dévissage as above. For *perfect* $M$, $N$ on *smooth* $X$, $Y$
+(of pure dimension) it is formal, by
 [sk-thm-sf-dual-perfect] and [sk-prop-sf-dualizable-biduality]; that
 perfect case is the base of the induction, not a substitute for it.

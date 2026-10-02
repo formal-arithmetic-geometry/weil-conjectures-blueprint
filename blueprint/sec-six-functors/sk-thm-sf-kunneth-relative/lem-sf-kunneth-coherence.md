@@ -33,8 +33,19 @@ compact-support chapter, and the projection transformation of [def-sf-pf], which
 an identity between composites of canonical maps attached to the same pasted
 squares; such identities are the content of [lem-sf-mate], pasting the
 squares and using the pentagon of [prop-compactification-coherence-detailed]:
-(i) and (ii) reduce to the coherence of the symmetry and
-the associativity of $\otimes^L$ with $\operatorname{PF}$
-([prop-sf-pf-coherence]), and (iii)–(iv) to the
-coherence of $\operatorname{Ex}_!$ with itself and with
-$\operatorname{PF}$ in the pasted squares, which is the same mate identity.
+(ii) reduces to the coherence of the associativity of $\otimes^L$ with
+$\operatorname{PF}$, the pentagon of [prop-sf-pf-coherence]; (iv) to the
+identity clause of [prop-sf-pf-coherence] and the identity-square clause of
+(A2); (iii) is the base-change clause of [prop-sf-pf-coherence] — the
+projection transformation commutes with $\operatorname{Ex}_!$ through the
+monoidality of pullback — applied to $\operatorname{PF}_q$ and
+$\operatorname{PF}_g$, together with the pasting of $\operatorname{Ex}_!$
+for the three Cartesian squares over $B'\to B$; and (i) is the mate identity
+behind that base-change clause: after reduction to proper $f,g$ by the
+independence of the compactification, $\operatorname{PF}\circ(\operatorname{Ex}_!\otimes1)$
+is the transpose of the pulled-back counit tensored with the identity (see
+the proof of [prop-sf-pf-coherence]), so both the isomorphism and its
+swapped version are inverse to the transpose under $L(f\times_Bg)^*\dashv R(f\times_Bg)_*$
+of the symmetric map
+$Lp^*Lf^*Rf_*K\otimes^LLq^*Lg^*Rg_*L\to Lp^*K\otimes^LLq^*L$ given by the
+two counits.

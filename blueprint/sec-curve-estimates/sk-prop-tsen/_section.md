@@ -7,7 +7,7 @@ uses = ["sk-def-av-pic", "sk-def-br", "sk-def-cr", "sk-def-curve"]
 +++
 *Proposition (sketch).*
 
-For $C$ smooth proper over algebraically closed $k$, the function
+For $C$ a smooth proper connected curve (so integral of dimension $1$) over algebraically closed $k$, the function
 field $k(C)$ is a $C_1$ field and therefore
 
 $$

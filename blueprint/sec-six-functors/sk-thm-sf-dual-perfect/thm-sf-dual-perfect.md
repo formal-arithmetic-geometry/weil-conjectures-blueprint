@@ -26,6 +26,16 @@ $\mathbb D_X$ restricts to an anti-equivalence on the perfect objects,
 the biduality $K\to\mathbb D_X\mathbb D_XK$ being, under this
 identification, the coefficient-dual biduality $K\to K^{\vee\vee}$.
 
+*Relative form.* The same holds for a smooth separated finite-type
+$f:X\to Y$ of pure relative dimension $d$ over an arbitrary base $Y$ of the
+setting: with the orientation $\gamma_f:\Lambda_X(d)[2d]\xrightarrow{\sim}
+Rf^!\Lambda_Y$ of [def-sf-orientation] and
+$\mathbb D_{X/Y}K=R\mathcal Hom_X(K,Rf^!\Lambda_Y)$, the composite of
+$R\mathcal Hom_X(K,\gamma_f^{-1})$ with the twist interchange is a natural
+isomorphism $\mathbb D_{X/Y}K\xrightarrow{\sim}K^\vee(d)[2d]$ for perfect
+$K$, with the same biduality statement; the absolute case is $f=a_X$. The
+proof below uses nothing about the base beyond the orientation.
+
 ## Proof
 
 Step 1: the definition. By [def-pod-conventions],

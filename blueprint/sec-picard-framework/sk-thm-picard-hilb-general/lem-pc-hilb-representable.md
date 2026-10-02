@@ -9,12 +9,15 @@ lean = ["AlgebraicGeometry.isRepresentable_hilbertPresheaf"]
 (Picard Schemes of Curves, Proposition 44.2.6 (Tag
 [0B9A](https://stacks.math.columbia.edu/tag/0B9A)) with Remark 44.2.7,
 Tag [0B9B](https://stacks.math.columbia.edu/tag/0B9B).) Let $X\to S$
-be a morphism of schemes and $d\geq0$. Assume that for all points
+be a separated morphism of schemes and $d\geq0$. Assume that for all points
 $s\in S$ and $x_1,\dots,x_d\in X_s$ (a finite set of points of a fibre)
 there exists an affine open $U\subset X$ containing them
 (e.g. if $X\to S$ is quasi-projective, or if there exists an ample
 invertible sheaf on $X$). Then $\operatorname{Hilb}^d_{X/S}$ is representable by a
-scheme $\underline{\operatorname{Hilb}}^d_{X/S}$.
+scheme $\underline{\operatorname{Hilb}}^d_{X/S}$. (Separatedness cannot be
+dropped: for $d=1$ the affine-open hypothesis is vacuous, but for the
+affine line with doubled origin over a field $\operatorname{Hilb}^1$ is not
+representable, by Lundkvist–Skjelnes.)
 
 ## Proof
 
@@ -65,6 +68,11 @@ affine)* by [lem-pc-schemes-criterion] applied to the family
 $(F_U)_U$: the sheaf condition (1) is [lem-pc-hilb-sheaf];
 condition (2)(a) is the content of the affine claim itself (the
 identity $F_U=\operatorname{Hilb}^d_{U/S}$, and the claim for the affine $U$);
+the identity holds because a closed subscheme $Z\subseteq U_T$ that is
+finite over $T$ is proper over $T$, so, $X_T\to T$ being separated (base
+change of $X\to S$), the immersion $Z\to X_T$ is proper, hence a closed
+immersion, and $Z$ is a closed subscheme of $X_T$ contained in $U_T$
+(conversely a closed subscheme of $X_T$ inside $U_T$ is closed in $U_T$);
 (2)(b) and (2)(c) are Steps 5 and 6. So it remains to prove the
 affine claim, which is done in Step 4.
 

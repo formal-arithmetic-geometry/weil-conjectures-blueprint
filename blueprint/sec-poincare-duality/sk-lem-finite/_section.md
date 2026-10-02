@@ -3,7 +3,7 @@ id = "sk-lem-finite"
 kind = "section"
 title = "Finiteness: the global sections are perfect at the point"
 order = 2426
-uses = ["sk-def-perfect", "sk-def-set", "sk-prop-sf-trace-perfectness"]
+uses = ["sk-def-perfect", "sk-def-set", "sk-prop-sf-trace-perfectness", "sk-thm-sf-ctf-stability", "sk-thm-sf-direct-image-tor-amplitude"]
 +++
 *Lemma (sketch).*
 
@@ -27,10 +27,13 @@ thm:pod-point-perfectness.)
 bounded constructible complex of finite Tor amplitude. The structure
 morphism $a_X$ is separated of finite type over the field $k$, so the
 finiteness chain of 9 applies: the sheaves $R^qa_{X,*}K$ and
-$R^qa_{X,!}K$ are constructible, the compact-support ones vanish above the
-bound $2\dim X$ (sbc-thm-finiteness-finite-type,
-obl:fin-comparison), and the ordinary ones vanish above $2\dim X$ by
-the cohomological-dimension bound fin4-lem-fibrewise-cohomological-dimension.
+$R^qa_{X,!}K$ are constructible and, if the cohomology sheaves of $K$
+lie in degrees $[a,b]$, both vanish for $q\notin[a,b+2\dim X]$: the
+compact-support ones by sbc-thm-finiteness-finite-type and
+obl:fin-comparison, the ordinary ones by the cohomological-dimension
+bound fin4-lem-fibrewise-cohomological-dimension, each applied to the
+cohomology sheaves of $K$ through the spectral sequence of the truncations
+(for $K=\Lambda[-1]$ on a point the bound is $1$, not $2\dim X=0$).
 At the geometric point $s$ a constructible complex is a bounded complex of
 finite modules (def:weil-finite-coefficient-point), so
 $\RGammac(X,K)$ and $\RGamma(X,K)$ are bounded with finite cohomology.
@@ -46,8 +49,21 @@ part of prop:trf-compact-support-perfectness.
 *Step 3 (the stages and the duals).* The uniform-tower reconstruction
 places $\RGammac(X,K)$ in $D^b_{\mathrm{fg}}(\Oe)$ with perfect
 reductions of one common amplitude
-(lem:weil-pbc-reconstruction-uniform-tower), and the rational and
-algebraically closed stages follow by flat extension of scalars
+(lem:weil-pbc-reconstruction-uniform-tower). The same holds for
+$\RGamma(X,K)$: choose a compactification $j:X\hookrightarrow\bar X$
+of the separated finite-type $k$-scheme $X$, as in the definition of
+$Rf_!$ in [sk-def-ops]. Then
+$Ra_{X*}=Ra_{\bar X*}Rj_*=Ra_{\bar X!}Rj_*$, $\bar X$ being proper,
+i.e. $\RGamma(X,K)=\RGammac(\bar X,Rj_*K)$; and $Rj_*$ carries
+$\Dctf(X,\Lambda)$ to $\Dctf(\bar X,\Lambda)$, with Tor amplitude
+$[a,b]\mapsto[a,b+2\dim X]$, compatibly with the finite reductions
+([sk-thm-sf-direct-image-tor-amplitude];
+[sk-thm-sf-ctf-stability](iii),(vii)). So $(Rj_*K_n)_n$ is again a
+normalized system with common bounds on the proper $\bar X$, and the
+compact-support case just proved, applied to $\bar X$ and $Rj_*K$,
+places $\RGamma(X,K)$ in $D^b_{\mathrm{fg}}(\Oe)$ with perfect
+reductions of one common amplitude. The rational and algebraically closed
+stages of $\RGammac$ and $\RGamma$ follow by flat extension of scalars
 ([sk-def-ops]); the dual of a bounded complex of finite projective modules
 is again one, termwise. This is the point-perfectness
 thm:pod-point-perfectness of 15, and it is assembled from the

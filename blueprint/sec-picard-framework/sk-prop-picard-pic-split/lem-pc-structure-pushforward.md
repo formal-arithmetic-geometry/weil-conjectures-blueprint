@@ -3,7 +3,7 @@ id = "lem-pc-structure-pushforward"
 kind = "lemma"
 title = "The open locus of $H^0$ of the structure sheaf"
 order = 813
-uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-picard-presheaf", "lem-pc-coherent-hi", "lem-sc-flat-base-change-coherent"]
+uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-picard-presheaf", "lem-pc-finite-support-hi", "lem-sc-flat-base-change-coherent"]
 +++
 Let $k$ be a field, $X$ a
 smooth projective curve over
@@ -15,7 +15,7 @@ morphism of the base change.
 
 Since $X$ is proper over $k$, $f_T$ is proper, hence quasi-compact and
 quasi-separated, so $f_{T,*}\mathcal{O}_{X_T}$ is quasi-coherent
-([lem-pc-coherent-hi](1)). To identify it with $\mathcal{O}_T$ it
+([lem-pc-finite-support-hi](1)). To identify it with $\mathcal{O}_T$ it
 suffices to show that its sections over every affine open
 $V=\operatorname{Spec}(A)\subseteq T$ equal $A$ compatibly with localization: by
 [lem-sc-flat-base-change-coherent] applied to $X$ proper over $k$,

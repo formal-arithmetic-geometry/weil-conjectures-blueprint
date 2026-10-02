@@ -29,7 +29,8 @@ Rf_{1!}Rf_1^!L_1\boxtimes Rf_{2!}Rf_2^!L_2
 L_1\boxtimes L_2 ,
 $$
 where the $\varepsilon_i$ are the counits of $Rf_{i!}\dashv Rf_i^!$.
-1. **(iii)** The *external Hom* map
+1. **(iii)** For $E_i\in\Dctf(Y_i,\Lambda)$, on the same scheme $Y_i$ as
+$L_i$, the *external Hom* map
 $$
 \beta:\RHom(E_1,L_1)\boxtimes\RHom(E_2,L_2)
 \longrightarrow\RHom\bigl(E_1\boxtimes E_2,L_1\boxtimes L_2\bigr)
@@ -47,7 +48,8 @@ $$
 \end{aligned}
 $$
 using the unit identifications $\RHom(\Lambda_X,M)=M$ and
-$\Lambda_X\boxtimes N=p_Y^*N$.
+$\Lambda_X\boxtimes N=p_Y^*N$; here $\beta$ is applied to the pairs
+$(E_1,L_1)=(\Lambda_X,M)$ on $X$ and $(E_2,L_2)=(N,\omega_Y)$ on $Y$.
 
 Only $\mathrm{Ku}_!$ is built from isomorphisms; invertibility of
 $\alpha,\beta,\kappa$ is the content of [sk-thm-sf-kunneth-verdier].

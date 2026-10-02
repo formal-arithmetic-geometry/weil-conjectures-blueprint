@@ -26,4 +26,8 @@ $$
 $$
 
 of the derived exchange morphism [def-weil-pbc-derived-exchange] is
-an isomorphism in $\Dplus(Y'_{\Et})$.
+an isomorphism in $\Dplus(Y'_{\Et})$. Here *torsion* means that the
+canonical map $\varinjlim_nF[n]\to F$, $F[n]=\ker(n:F\to F)$, is an
+isomorphism, equivalently that every geometric stalk $F_{\bar x}$ is a
+torsion group (each local section is, locally on $X_{\Et}$, killed by a
+positive integer); it is not required that every group $F(U)$ be torsion.

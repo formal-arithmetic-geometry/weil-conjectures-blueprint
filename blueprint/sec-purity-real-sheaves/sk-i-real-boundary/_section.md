@@ -41,9 +41,16 @@ sheaf is constructible; hence $J$ is.
 *Step 2 (the boundary stalk).* The stalk of $J$ at a geometric
 boundary point $\bar s$ is computed on the punctured strict henselian
 trait at $s$. The strict-henselization stalk formula identifies it with
-the invariants of the geometric generic stalk under
-$I_s=\Gal(\overline{K_s}/K_s)$, i.e. with $V_s^{I_s}$, where $K_s$ is
-the fraction field of the henselization as in [sk-d-real-boundary].
+the invariants of the geometric generic stalk under the inertia group
+$I_s=\Gal(\overline{K_s}/K_s^{\mathrm{sh}})$, i.e. with $V_s^{I_s}$,
+where $K_s$ is the fraction field of the henselization as in
+[sk-d-real-boundary] and $K_s^{\mathrm{sh}}\subset\overline{K_s}$ is
+the fraction field of the strict henselization, the generic point of the
+trait. Since $\Gal(K_s^{\mathrm{sh}}/K_s)=\Gal(\overline{k(s)}/k(s))$,
+this is the kernel of
+$\Gal(\overline{K_s}/K_s)\to\Gal(\overline{k(s)}/k(s))$ of
+[sk-d-real-boundary], whereas $\Gal(\overline{K_s}/K_s)$ itself is the
+decomposition group.
 The Weil structures descend through the trait, so the identification is
 equivariant for the residue Frobenius lift.
 

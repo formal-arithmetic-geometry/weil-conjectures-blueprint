@@ -14,7 +14,13 @@ $D^b_{ctf}(T,\Lambda)$ with twists $(-)(m)$, exceptionally admissible
 $Rf^{!}$. For $Y$ separated finite type: $\Aaf^1_Y$, zero section
 $s:Y\hookrightarrow\Aaf^1_Y$, open complement
 $j:\mathbf G_{m,Y}\hookrightarrow\Aaf^1_Y$, global coordinate $t$; the
-finite-level twist is $A(1)=\mu_{\ell^N}\otimes_{\Z/\ell^N}A$ and the
+finite-level twist is $A(1)=\mu_{\ell^N}\otimes_{\Z/\ell^N}A$, where
+$N\ge1$ is an integer with $\ell^NA=0$ (for $A=A_{E,n}$ one may take $N=n$,
+as $\varpi^n$ divides $\ell^n$; the sheaf
+$\mu_{\ell^N}\otimes_{\Z/\ell^N}A=\Z_\ell(1)\otimes_{\Z_\ell}A$ does not depend
+on the choice, and when $e=e(E/\mathbf Q_\ell)$ divides $n$ the choice
+$N=n/e$ makes $A=\mathcal O_E/\ell^N\cong(\Z/\ell^N)^{ef}$ free over
+$\Z/\ell^N$, lem:pur-finite-kummer-level), and the
 *Kummer class of $t$* is
 
 $$
@@ -22,9 +28,9 @@ $$
 $$
 
 the boundary of the $A$-coefficient Kummer sequence for $t$
-(equivalently the class of the torsor
-$\mathcal T_t=\Spec\mathcal O[T_0]/(T_0^N-t)$), compatible with base
-change. For a closed immersion $i:Z\hookrightarrow X$ with ideal sheaf
+(equivalently the class of the $\mu_{\ell^N}$-torsor
+$\mathcal T_t=\Spec\mathcal O[T_0]/(T_0^{\ell^N}-t)$, tensored with $A$),
+compatible with base change. For a closed immersion $i:Z\hookrightarrow X$ with ideal sheaf
 $\mathcal I_Z$ the normal cone is
 $N_{Z/X}=\Spec_Z\bigl(\bigoplus_{r\ge0}\mathcal I_Z^{\,r}/\mathcal I_Z^{\,r+1}\bigr)$;
 when $i$ is regular of pure codimension $c$ the conormal sheaf

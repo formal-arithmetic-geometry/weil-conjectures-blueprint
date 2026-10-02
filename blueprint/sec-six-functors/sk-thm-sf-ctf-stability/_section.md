@@ -3,12 +3,15 @@ id = "sk-thm-sf-ctf-stability"
 kind = "section"
 title = "Stability of the constructible finite-Tor subcategories"
 order = 2202
-uses = ["sk-cor-sf-direct-image-ctf", "sk-prop-sf-comparison", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-hom-ctf"]
+uses = ["sk-cor-sf-direct-image-ctf", "sk-def-sf-setting", "sk-prop-sf-comparison", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-hom-ctf"]
 lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_leftDerivedUpperStar", "AlgebraicGeometry.Etale.constructibleFiniteTor_tensor", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerStar", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedUpperShriek"]
 +++
 *Theorem (sketch).*
 
-For separated finite-type morphisms and complexes in the stated finite-Tor
+For separated finite-type morphisms $f:X\to Y$ of finite-type $k$-schemes
+($k=\overline{\mathbf F}_q$ as in [sk-def-sf-setting]; the dimension bounds
+below are those of these schemes, which is what justifies the global
+amplitude shifts) and complexes in the stated finite-Tor
 domains, *each clause being a statement about the functor of
 [sk-def-sf-operations] between the small categories written in it*:
 (i) the functor $Lf^*:\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$ is defined;

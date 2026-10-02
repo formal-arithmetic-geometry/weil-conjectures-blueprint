@@ -3,11 +3,15 @@ id = "sk-prop-sf-rf-shriek-preservation"
 kind = "section"
 title = "Preservation for the exceptional inverse image"
 order = 2059
+uses = ["sk-def-sf-setting"]
 lean = ["AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_rightDerivedUpperShriek_of_isOpenImmersion", "AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_rightDerivedUpperShriek_of_isFinite_of_etale", "AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_rightDerivedUpperShriek_of_isClosedImmersion", "AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_rightDerivedUpperShriek_of_smoothOfRelativeDimension", "AlgebraicGeometry.Etale.exists_shift_constructibleTorAmplitudeIn_rightDerivedUpperShriek"]
 +++
 *Proposition (sketch).*
 
-Let $A=A_{E,n}$ and let $f:X\to Y$ be separated of finite type, carrying the
+Let $A=A_{E,n}$ and let $f:X\to Y$ be a separated finite-type morphism of
+finite-type $k$-schemes ($k=\overline{\mathbf F}_q$ as in
+[sk-def-sf-setting]; the dimension bounds below are those of these
+schemes), carrying the
 ambient datum of [sk-def-sf-admissible] where the statement says so. Then
 $Rf^!$ preserves the constructible intervals and the finite-Tor subcategory in
 the following cases: (i) $f$ an open immersion or finite étale, with the

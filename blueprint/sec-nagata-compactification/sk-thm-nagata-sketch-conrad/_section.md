@@ -21,8 +21,11 @@ $Y\to X$. The four stages below are the elimination branch of the
 diagram.
 
 *Affine base, quasi-affine target, $U=V$.*
-Embed the target into relative affine space using
-[sk-prop-nagata-sketch-zmt]. Express the finitely many coordinates of
+Over the affine base a quasi-affine target is a quasi-affine scheme, so
+[sk-prop-nagata-sketch-zmt](ii) embeds it into relative affine space
+(this affine-base case is the only form in which (ii) is used; the
+later stages reduce to it by covering the base). Express the finitely
+many coordinates of
 $f$ on a finite principal-open cover of $U$. Clearing denominators
 and blowing up the resulting finite-type ideal extends these coordinates
 on an open of the blow-up with closed graph. Make $U$ scheme-theoretically dense, restrict to the inverse image of

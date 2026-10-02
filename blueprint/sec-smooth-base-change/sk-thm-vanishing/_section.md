@@ -44,14 +44,22 @@ geometrically connected fibres and a section $\sigma$, and
 $\xi\in H^1(Y,\Z/d\Z)$. By [sk-prop-ext-invariance] the pullback
 map $H^1(X_L,\Z/d\Z)\to H^1(Y,\Z/d\Z)$ is an isomorphism, so $\xi$ comes from a class on
 $X_L$; by [sk-prop-input-torsors] this
-class is a $\Z/d\Z$-torsor $P\to X_L$, i.e. a finite étale Galois
-cover; over the $L$-point $\sigma(\eta)$ it is trivial ($L$
-algebraically closed), so $P$ has an $L$-point above
-$\sigma(\eta)$; by [sk-prop-input-spreading] $P$ spreads to a
-finite étale Galois cover
-$X'\to X$; then $X'\times_XY$ is the pullback of $P$ along itself
-and carries the diagonal section, so the class of $\xi$ is killed in
-$H^1(X'\times_XY,\Z/d\Z)$: $\{X'\to X\}$ is the required étale
-cover and the sheaf is zero.
+class is a $\Z/d\Z$-torsor $P\to X_L$, a finite étale cover with a
+free transitive $\Z/d\Z$-action. It need not be connected ($X_L$ is
+connected, and $P$ is connected only when the class corresponds to a
+*surjection* $\pi_1(X_L)\to\Z/d\Z$), so it need not be Galois;
+let $P_0\subseteq P$ be a connected component. Then $P_0\to X_L$ is
+a finite étale Galois cover whose group is the stabiliser
+$G\subseteq\Z/d\Z$ of $P_0$ (the image of $\pi_1(X_L)$), $|G|$
+divides $d$, and $P$ is the torsor induced from the $G$-torsor
+$P_0$; in particular $P_0\to X_L$ trivializes $P$ (the diagonal
+section of $P_0\times_{X_L}P_0$). Over the $L$-point $\sigma(\eta)$
+the cover $P_0$ is split ($L$ algebraically closed), so $P_0$ has an
+$L$-point above $\sigma(\eta)$; by [sk-prop-input-spreading] $P_0$
+spreads to a finite étale Galois cover $X'\to X$ with group $G$
+and $X'\times_XX_L=P_0$; then $X'\times_XY\to Y$ is the pullback of
+$P_0\to X_L$, over which $P$, hence $\xi$, is trivial, so the class
+of $\xi$ is killed in $H^1(X'\times_XY,\Z/d\Z)$: $\{X'\to X\}$ is
+the required étale cover and the sheaf is zero.
 
 Uses: [sk-def-smooth], [sk-prop-cd-affine], [sk-prop-etale-normal], [sk-prop-ext-invariance], [sk-prop-input-spreading], [sk-prop-input-torsors], [sk-prop-normal-form]
