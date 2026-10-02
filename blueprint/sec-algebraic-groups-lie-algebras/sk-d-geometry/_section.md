@@ -4,7 +4,7 @@ kind = "section"
 title = "Affine geometry and matrix groups"
 order = 2475
 uses = ["sk-d-linear"]
-lean = ["Matrix.zariskiTopology", "Matrix.GeneralLinearGroup.zariskiTopology", "Matrix.IsRegularOn", "Matrix.IsRegularHom", "Subgroup.identityComponent", "Subgroup.centerOf"]
+lean = ["Matrix.GeneralLinearGroup.CoordinateRing", "Matrix.GeneralLinearGroup.scheme", "Matrix.GeneralLinearGroup.homMulEquiv", "Matrix.GeneralLinearGroup.zeroLocus", "Matrix.GeneralLinearGroup.subgroupScheme", "Matrix.GeneralLinearGroup.identityComponent", "Matrix.GeneralLinearGroup.center", "Matrix.GeneralLinearGroup.RationalHom"]
 +++
 *Definition (sketch).*
 
