@@ -20,9 +20,9 @@ systems $(K_n)_n$ with $K_n\in D^b_{ctf}(-,A_{E,n})$ and common bounds and
 stratifications, $D^b_{ctf}(-,E)$ its rationalization, and
 $D^b_{ctf}(-,\overline{\mathbf Q}_\ell)$ the colimit over finite
 $E/\mathbf Q_\ell$ (Blueprint 01,
-`def:weil-pbc-adic-coefficient-datum`,
-`def:weil-pbc-rational-category`,
-`def:weil-pbc-qbar-category`). Let $f:X\to Y$ be smooth separated
+`def-weil-pbc-adic-coefficient-datum`,
+`def-weil-pbc-rational-category`,
+`def-weil-pbc-qbar-category`). Let $f:X\to Y$ be smooth separated
 of relative dimension $d$ and let $K\in D^b_{ctf}(Y,\Lambda)$. Then the
 purity map
 
@@ -46,10 +46,10 @@ map $R\Gamma_c(X,\Lambda_X(d)[2d])\to\Lambda$.
 The coefficient compatibilities and this counit normalization also hold
 for the finite-coefficient isomorphisms of [sk-thm-smooth-purity].
 (Blueprint 14,
-`thm:pur-finite-reduction-of-purity`,
-`thm:pur-adic-reconstruction`,
-`thm:pur-rational-and-qbar-purity` and
-`cor:pur-adic-and-rational-smooth-dualizing-complexes`.)
+`thm-pur-finite-reduction-of-purity`,
+`thm-pur-adic-reconstruction`,
+`thm-pur-rational-and-qbar-purity` and
+`cor-pur-adic-and-rational-smooth-dualizing-complexes`.)
 
 ## Proof
 

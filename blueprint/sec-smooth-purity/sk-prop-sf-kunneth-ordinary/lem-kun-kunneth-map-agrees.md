@@ -15,18 +15,18 @@ $$
 \begin{aligned}
 &\RGamma\bigl((X\times_kY)_{\Et},
 \pr_1^{-1}E\kunotimes{\mathbf Z}\pr_2^{-1}K\bigr)\\
-&\quad\xrightarrow[\Cref{lem:kun-leray-bdd}]{\ \sim\ }
+&\quad\xrightarrow[\Cref{lem-kun-leray-bdd}]{\ \sim\ }
 \RGamma\bigl(Y_{\Et},R\operatorname{pr}_{2,*}
 (\pr_1^{-1}E\kunotimes{\mathbf Z}\pr_2^{-1}K)\bigr)\\
-&\quad\xrightarrow[\Cref{lem:kun-0F0F}]{\ \sim\ }
+&\quad\xrightarrow[\Cref{lem-kun-0f0f}]{\ \sim\ }
 \RGamma\bigl(Y_{\Et},R\operatorname{pr}_{2,*}\pr_1^{-1}E
 \kunotimes{\mathbf Z}K\bigr)\\
-&\quad\xrightarrow[\Cref{[thm-weil-pbc-bounded-below]}]{\ \sim\ }
+&\quad\xrightarrow[\Cref{thm-weil-pbc-bounded-below}]{\ \sim\ }
 \RGamma\bigl(Y_{\Et},\underline{\RGamma(X_{\Et},E)}
 \kunotimes{\mathbf Z}K\bigr)\\
-&\quad\xrightarrow[\Cref{lem:kun-0F0E}]{\ \sim\ }
+&\quad\xrightarrow[\Cref{lem-kun-0f0e}]{\ \sim\ }
 \RGamma(Y_{\Et},K)\kunotimes{\mathbf Z}\RGamma(X_{\Et},E)\\
-&\quad\xrightarrow[\Cref{lem:kun-tensor-sym}]{\ \sim\ }
+&\quad\xrightarrow[\Cref{lem-kun-tensor-sym}]{\ \sim\ }
 \RGamma(X_{\Et},E)\kunotimes{\mathbf Z}\RGamma(Y_{\Et},K).
 \end{aligned}
 $$

@@ -18,4 +18,4 @@ stratification of $U$ witnessing constructibility, together with the closed
 complement $Y\setminus U$, stratifies $Y$; and the amplitude is tested by
 restricting an arbitrary sheaf on $Y$ to $U$.
 
-Uses: `\Cref{def:sf-operations}`, `lem:trf-open-ctf`
+Uses: `\Cref{sk-def-sf-operations}`, `lem-trf-open-ctf`

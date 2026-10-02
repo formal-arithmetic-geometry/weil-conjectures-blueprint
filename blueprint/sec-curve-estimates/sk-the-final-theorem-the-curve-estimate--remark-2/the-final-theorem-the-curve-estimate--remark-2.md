@@ -4,4 +4,4 @@ kind = "remark"
 order = 1033
 +++
 In the split chapter of the sketch blueprint, [thm-sc-proper-cohomology]
-is labeled `thm:final`.
+is labeled `sk-thm-curveestimate`.

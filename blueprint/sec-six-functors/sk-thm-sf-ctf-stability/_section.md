@@ -56,4 +56,4 @@ bound, hence not on the stage; the finite-level comparison isomorphisms are
 [sk-prop-sf-pf-reduction] for the projection formula and the recorded
 clause of prop:functor-package otherwise.
 
-Uses: `\Cref{cor:sf-direct-image-ctf}`, `\Cref{prop:sf-comparison}`, `\Cref{prop:sf-rf-shriek-preservation}`, `\Cref{thm:sf-direct-image-tor-amplitude}`, `\Cref{thm:sf-hom-ctf}`, `prop:functor-package`
+Uses: `\Cref{sk-cor-sf-direct-image-ctf}`, `\Cref{sk-prop-sf-comparison}`, `\Cref{sk-prop-sf-rf-shriek-preservation}`, `\Cref{thm-sf-direct-image-tor-amplitude}`, `\Cref{thm-sf-hom-ctf}`, `prop-functor-package`

@@ -10,7 +10,7 @@ normal geometrically connected curve $X_0$. Its *determinantal-weight
 multiset* is
 
 $$
-\bigl\{\!\bigl\{\hyperref[def:wf-determinantal-weight]{\dw_\iota(S)}:
+\bigl\{\!\bigl\{\hyperref[def-wf-determinantal-weight]{\dw_\iota(S)}:
 S\text{ a simple summand of }V^{\mathrm{ss}}\bigr\}\!\bigr\},
 $$
 

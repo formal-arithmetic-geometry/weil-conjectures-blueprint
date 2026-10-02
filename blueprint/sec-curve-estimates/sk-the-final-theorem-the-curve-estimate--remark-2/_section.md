@@ -7,4 +7,4 @@ order = 1032
 *Remark (sketch).*
 
 In the split chapter of the sketch blueprint, [sk-thm-curveestimate]
-is labeled `thm:final`.
+is labeled `sk-thm-curveestimate`.

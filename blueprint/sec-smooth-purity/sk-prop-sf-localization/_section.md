@@ -66,4 +66,4 @@ $\delta_L$ to agree (BBD, 1.1.9–1.1.10).
 Source: open–closed localization in SGA 4, XVII–XVIII; used in SGA 5, III,
 proof of 1.7.4.
 
-Uses: `\Cref{lem:sf-determination}`, `\Cref{prop:sf-closed-unit}`, `\Cref{prop:sf-open-closed-triangle}`
+Uses: `\Cref{sk-lem-sf-determination}`, `\Cref{sk-prop-sf-closed-unit}`, `\Cref{sk-prop-sf-open-closed-triangle}`

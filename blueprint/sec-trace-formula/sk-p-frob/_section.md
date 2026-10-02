@@ -13,7 +13,7 @@ local term at $\bar x$ is
 
 $$
 \LT_{\bar x}(\varphi_m)=
-\hyperref[d:trace]{\tr_A}(F_{x,m}\mid K_{\bar x}).
+\hyperref[sk-d-trace]{\tr_A}(F_{x,m}\mid K_{\bar x}).
 $$
 
 No local constancy of $K$ at $\bar x$ is assumed.

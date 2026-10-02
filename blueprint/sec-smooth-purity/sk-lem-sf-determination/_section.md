@@ -22,4 +22,4 @@ vanishing cohomology is zero. For the second clause, two such transformations
 differ by one vanishing on generators, and the first clause descends from
 generators to shifts, cones and summands.
 
-Uses: `\Cref{def:sf-operations}`
+Uses: `\Cref{sk-def-sf-operations}`

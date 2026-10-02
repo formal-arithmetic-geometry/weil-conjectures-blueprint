@@ -9,22 +9,22 @@ inputs are the trace formula, Poincaré duality and the weight estimate, and
 its output is the five statements [thm-weil-final-rationality]–[thm-weil-final-functional-equation]. In the
 compiled blueprint the layer is carried by
 `16_zeta_linear_algebra.tex` (the linear algebra:
-`def:zl-frobenius-trace-series`,
-`lem:zl-log-det-identity`,
-`lem:zl-euler-product-identity`,
-`thm:zl-lefschetz-weil-identity`,
-`thm:zl-functional-equation`,
-`thm:zl-riemann-hypothesis`) and by
+`def-zl-frobenius-trace-series`,
+`lem-zl-log-det-identity`,
+`lem-zl-euler-product-identity`,
+`thm-zl-lefschetz-weil-identity`,
+`thm-weil-final-functional-equation`,
+`sk-thm-rh`) and by
 `18_final_weil_statements.tex` (the assembly:
-`prop:every-iterate-trace`, `prop:trace-determinant`,
-`prop:euler-product`, `prop:weil-rationality-criterion`,
-`prop:rational-descent`, `prop:weight-purity-roots`,
-`prop:weight-separation`, `prop:duality-reciprocity`,
-`prop:functional-equation`, `prop:weil-betti-comparison`,
-`thm:weil-realization-independence`,
-`thm:weil-final-rationality`, `thm:weil-final-integrality`,
-`thm:weil-final-rh`, `thm:weil-final-betti`,
-`thm:weil-final-functional-equation`).
+`prop-every-iterate-trace`, `prop-trace-determinant`,
+`prop-euler-product`, `prop-weil-rationality-criterion`,
+`prop-rational-descent`, `prop-weight-purity-roots`,
+`prop-weight-separation`, `prop-duality-reciprocity`,
+`prop-functional-equation`, `prop-weil-betti-comparison`,
+`thm-weil-realization-independence`,
+`thm-weil-final-rationality`, `thm-weil-final-integrality`,
+`thm-weil-final-rh`, `thm-weil-final-betti`,
+`thm-weil-final-functional-equation`).
 
 *The one structural point.* The coefficients of $Z$ are integral
 *by construction* (the exponential definition, [prop-euler-product]), while

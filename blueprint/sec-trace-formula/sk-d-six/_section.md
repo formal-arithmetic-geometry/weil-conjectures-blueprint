@@ -12,7 +12,7 @@ On the geometric categories, a package consists of the
 ordinary functors
 
 $$
-f^*,\quad Rf_*,\quad Rf_!,\quad f^!,\quad\otimes_A^{\mathrm L},\quad\RHom,
+f^*,\quad Rf_*,\quad Rf_!,\quad f^!,\quad\otimes_A^{\mathrm L},\quad\RHom_A,
 $$
 
 with $f^*\dashv Rf_*$ and $Rf_!\dashv f^!$, their units, counits and
@@ -25,7 +25,7 @@ $Rf_*=Rf_!$ for proper $f$. Put
 
 $$
 \begin{gathered}
-\omega_X=a_X^!A,\qquad D_XK=\RHom(K,\omega_X),\\
+\omega_X=a_X^!A,\qquad D_XK=\RHom_A(K,\omega_X),\\
 R\Gamma_c(X,K)=Ra_{X!}K,\qquad
 M\boxt N=p_X^*M\otimes_A^{\mathrm L}p_Y^*N.
 \end{gathered}

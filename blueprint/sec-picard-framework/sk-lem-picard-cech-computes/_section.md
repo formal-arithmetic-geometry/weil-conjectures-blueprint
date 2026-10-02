@@ -47,6 +47,6 @@ and is $A$-linear.
 
 This is Stacks, Cohomology of Schemes, Lemma 30.2.6
 ([`01XD`](https://stacks.math.columbia.edu/tag/01XD)); the detailed form is Blueprint 50,
-`lem:pc-cech-computes`.
+`lem-pc-cech-computes`.
 
 Uses: [sk-lem-picard-affine], [sk-thm-picard-cech]

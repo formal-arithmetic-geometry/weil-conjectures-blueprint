@@ -89,11 +89,11 @@ sense of [sk-def-groth-ss], and the construction applies verbatim.
 For proper $f$ and coherent $F$, this gives the coherent sequence
 named in the statement.
 
-This is Blueprint 05, `thm:sp-grothendieck` together with
-`thm:sp-grothendieck-base-change`, read through the étale
-dictionary `def:sp-etale-dictionary`; the Cartan–Eilenberg input
-of Step 2 is `thm:sp-if-e1` and the collapse of Step 3 is
-`lem:sp-edge-collapse`.
+This is Blueprint 05, `thm-sp-grothendieck` together with
+`thm-sp-grothendieck-base-change`, read through the étale
+dictionary `def-sp-etale-dictionary`; the Cartan–Eilenberg input
+of Step 2 is `thm-sp-if-e1` and the collapse of Step 3 is
+`lem-sp-edge-collapse`.
 
 The topos form of the sequence and of the acyclicity criterion are
 Stacks, Cohomology on Sites, Lemmas 21.14.5/21.14.6
@@ -102,7 +102,6 @@ Stacks, Cohomology on Sites, Lemmas 21.14.5/21.14.6
 for ringed spaces Lemmas 20.13.4/20.13.8
 ([`01F2`](https://stacks.math.columbia.edu/tag/01F2),
 [`01F6`](https://stacks.math.columbia.edu/tag/01F6)); the
-detailed forms are Blueprint 17, `pqf-lem-leray`, and Blueprint
-05, `lem:sp-leray-acyclicity`.
+detailed form is Blueprint 17, `pqf-lem-leray`.
 
 Uses: [sk-def-groth-ss]

@@ -76,4 +76,4 @@ symmetry of the relative product in [sk-thm-sf-kunneth-relative].) The
 last clause is [sk-prop-sf-pf-reduction], [sk-thm-sf-pf-field] and
 [sk-thm-sf-pf-proetale].
 
-Uses: `\Cref{lem:sf-mate}`, `\Cref{prop:sf-comp-proper}`, `\Cref{prop:sf-pf-reduction}`, `\Cref{thm:sf-pf-field}`, `\Cref{thm:sf-pf-finite}`, `\Cref{thm:sf-pf-proetale}`
+Uses: `\Cref{lem-sf-mate}`, `\Cref{sk-prop-sf-comp-proper}`, `\Cref{prop-sf-pf-reduction}`, `\Cref{thm-sf-pf-field}`, `\Cref{thm-sf-pf-finite}`, `\Cref{thm-sf-pf-proetale}`

@@ -12,7 +12,7 @@ Then its coefficient dual
 $K^\vee=R\mathcal Hom_X(K,\Lambda_X)$, formed with the
 derived internal Hom,
 is perfect over $\Lambda_X$ as well, and in particular
-$K^\vee\in \hyperref[def:weil-finite-torsion-constructibility]{D^b_{ctf}(X,\Lambda)}$.
+$K^\vee\in \hyperref[def-weil-finite-torsion-constructibility]{D^b_{ctf}(X,\Lambda)}$.
 
 ## Proof
 

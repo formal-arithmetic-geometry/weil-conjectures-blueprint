@@ -60,7 +60,7 @@ injectivity half of the sheaf condition.
 
 This is the proof of Stacks, Picard Schemes of Curves, Lemma 44.4.3
 ([`0B9N`](https://stacks.math.columbia.edu/tag/0B9N)); the detailed forms are Blueprint 50,
-`lem:pc-k-sheaf` and `lem:pc-fpqc-descent` (Descent,
+`lem-pc-k-sheaf` and `lem-pc-fpqc-descent` (Descent,
 Proposition 35.5.2, [`023T`](https://stacks.math.columbia.edu/tag/023T)).
 
 Uses: [sk-def-picard-pic], [sk-thm-picard-descent]

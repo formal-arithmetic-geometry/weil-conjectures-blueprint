@@ -49,4 +49,4 @@ whose generic-stalk cohomology has only trivial $\pi_1$-composition factors
 form a thick subcategory containing every $Rg_*j_!\Lambda_U$ but not the
 order-$2$ Kummer sheaf.
 
-Uses: `\Cref{lem:sf-determination}`, `\Cref{prop:sf-open-closed-triangle}`, `\Cref{thm:sf-ctf-stability}`, `\Cref{lem:sf-flat-model}`
+Uses: `\Cref{sk-lem-sf-determination}`, `\Cref{sk-prop-sf-open-closed-triangle}`, `\Cref{thm-sf-ctf-stability}`, `\Cref{lem-sf-flat-model}`

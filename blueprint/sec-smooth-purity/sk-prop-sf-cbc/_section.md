@@ -36,10 +36,9 @@ same restriction). Whenever $\operatorname{Ex}_!$ is said to be an
 isomorphism "at every coefficient stage", this typing is meant.
 Chapter 17 (compact-support base change): the stages are
 thm:cbc-finite-torsion (finite coefficients, all of $D^+$ of the
-étale site), cor:cbc-degreewise-constructible (the constructible
-landing), thm:cbc-finite-level-proetale (pro-étale, for objects with
+étale site), thm:cbc-finite-level-proetale (pro-étale, for objects with
 an étale-origin witness), thm:cbc-complete-proetale (derived-complete
 coefficients, the completed exchange), thm:cbc-finite-extension
 ($\Dbc(X,E)$) and thm:cbc-qbar ($\Dbc(X,\Qlb)$).
 
-Uses: `cor:cbc-degreewise-constructible`, `thm:cbc-complete-proetale`, `thm:cbc-finite-extension`, `thm:cbc-finite-level-proetale`, `thm:cbc-finite-torsion`, `thm:cbc-qbar`
+Uses: `thm-cbc-complete-proetale`, `thm-cbc-finite-extension`, `thm-cbc-finite-level-proetale`, `thm-cbc-finite-torsion`, `thm-cbc-qbar`

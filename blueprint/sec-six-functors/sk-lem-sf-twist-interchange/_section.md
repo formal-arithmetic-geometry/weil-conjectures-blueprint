@@ -29,4 +29,4 @@ $M$ and agree at the generator $M=\Lambda_X$. For perfect $K$ the map is the
 identification of [sk-prop-sf-dualizable-biduality] twisted by the invertible
 local system, computed locally on a bounded complex of finite projectives.
 
-Uses: `\Cref{prop:sf-dualizable-biduality}`, `def:coefficient-twists`, [sk-lem-sf-determination]
+Uses: `\Cref{sk-prop-sf-dualizable-biduality}`, `def-coefficient-twists-detailed`, [sk-lem-sf-determination]

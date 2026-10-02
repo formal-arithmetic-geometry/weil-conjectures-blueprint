@@ -28,7 +28,7 @@ Tensor–Hom adjunction, the projection formula, and exceptional adjunction
 define $[u]$ as the inverse image of $u$ under
 
 $$
-\operatorname{Hom}\bigl(Rc_!A_C,\RHom(p_2^*K,p_1^!L)\bigr)
+\operatorname{Hom}\bigl(Rc_!A_C,\RHom_A(p_2^*K,p_1^!L)\bigr)
 \simeq\operatorname{Hom}(c_2^*K,c_1^!L).
 $$
 

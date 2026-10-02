@@ -66,8 +66,8 @@ $\operatorname{Gal}$-equivariant by construction, and so is its
 restriction to $\ell^n$-torsion.
 
 The detailed form, stated over an arbitrary base field, is Blueprint 06b,
-`thm:sc-jacobian-representability`; the rigidified construction of
-Step 1–2 is Blueprint 50, `thm:pc-picard-representable`, carried
+`thm-sc-jacobian-representability`; the rigidified construction of
+Step 1–2 is Blueprint 50, `thm-pc-picard-representable`, carried
 out there over separably closed fields, and the passage from those to a
 general base is exactly the descent of Step 3.
 

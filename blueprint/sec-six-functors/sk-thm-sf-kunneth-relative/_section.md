@@ -116,4 +116,4 @@ $\sigma\circ\kappa^{\mathrm{rel}}_{L,K}$ are inverse to the transpose of the
 symmetric map $Lp^*Lf^*Rf_*K\otimes^LLq^*Lg^*Rg_*L\to Lp^*K\otimes^LLq^*L$
 given by the two counits (lem:sf-kunneth-coherence spells this out).
 
-Uses: `\Cref{lem:sf-mate}`, `\Cref{prop:sf-cbc}`, `\Cref{prop:sf-comp-proper}`, `\Cref{prop:sf-pf-coherence}`, `\Cref{rem:sf-pf-done}`, `\Cref{thm:sf-comp-composition}`, `def:pur-support-cohomology`, `def:pur-supported-exterior-product`
+Uses: `\Cref{lem-sf-mate}`, `\Cref{sk-prop-sf-cbc}`, `\Cref{sk-prop-sf-comp-proper}`, `\Cref{prop-sf-pf-coherence}`, `\Cref{rem-sf-pf-done}`, `\Cref{thm-sf-comp-composition}`, `def-pur-support-cohomology`, `def-pur-supported-exterior-product`

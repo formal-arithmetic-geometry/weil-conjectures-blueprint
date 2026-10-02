@@ -54,4 +54,4 @@ $(E_1,L_1)=(\Lambda_X,M)$ on $X$ and $(E_2,L_2)=(N,\omega_Y)$ on $Y$.
 Only $\mathrm{Ku}_!$ is built from isomorphisms; invertibility of
 $\alpha,\beta,\kappa$ is the content of [sk-thm-sf-kunneth-verdier].
 
-Uses: `\Cref{def:sf-exchanges}`, `\Cref{def:sf-operations}`, `\Cref{thm:sf-kunneth-relative}`
+Uses: `\Cref{sk-def-sf-exchanges}`, `\Cref{sk-def-sf-operations}`, `\Cref{thm-sf-kunneth-relative}`

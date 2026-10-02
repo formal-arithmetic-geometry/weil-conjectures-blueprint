@@ -60,8 +60,8 @@ scheme $Z(s)$ is a proper closed subset of a one-dimensional Noetherian
 scheme and hence a finite set of closed points. By Step 3 there is an
 $x\in X(k)$ with $x_K\notin Z(s)$, i.e. $s$ does not vanish at $x_K$.
 
-Steps 1–2 are Blueprint 50, `lem:pc-rational-points-dense`,
-resting on `lem:pc-dense-separable-points` (Stacks, Varieties,
+Steps 1–2 are Blueprint 50, `lem-pc-rational-points-dense`,
+resting on `lem-pc-dense-separable-points` (Stacks, Varieties,
 Lemma 33.25.6, [`056U`](https://stacks.math.columbia.edu/tag/056U)) and
-`lem:pc-sepclosed-finite-sep-trivial`; Steps 3–4 are Step 3 of
-`lem:pc-twist` there.
+`lem-pc-sepclosed-finite-sep-trivial`; Steps 3–4 are Step 3 of
+`lem-pc-twist` there.

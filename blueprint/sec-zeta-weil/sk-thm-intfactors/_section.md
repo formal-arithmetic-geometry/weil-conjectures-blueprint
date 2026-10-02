@@ -27,7 +27,7 @@ a factorization that is independent of $\ell$.
 
 By [sk-thm-rationality], $Z\in\Q(T)\cap(1+T\Z[[T]])$. *Fatou's
 lemma* (Fatou, Acta Math. 30 (1906); in the expanded blueprint
-`prop:weil-integral-rational-series`) upgrades this to a
+`prop-weil-integral-rational-series`) upgrades this to a
 normalized integral presentation: a rational power series with
 *integer* coefficients can be written $Z=A/B$ with $A,B\in\Z[T]$,
 $B(0)=1$ and $\gcd(A,B)=1$ in $\Q[T]$, and then $A(0)=Z(0)=1$. Sketch:
@@ -75,16 +75,15 @@ determinant formula, and independence of $\ell$ follows because the
 presentation $A/B$ and the weight grouping do not mention $\ell$.
 *Provenance.* The realization-independence step — that the
 factorization is common to all $\ell$ — is the deepest *algebraic*
-step of this layer, and the two points above compress eight statements of the
-expanded blueprint: `thm:weil-realization-independence` with
-`prop:weil-intrinsic-weights` and
-`lem:embedding-extension` for the intrinsic weight and the
-embedding transport, `prop:galois-weight-strata`,
-`prop:galois-weight-strata-integrality` and
-`prop:galois-weight-strata-identification` for the Galois stability,
+step of this layer, and the two points above compress seven statements of the
+expanded blueprint: `thm-weil-realization-independence` with
+`lem-embedding-extension` for the intrinsic weight and the
+embedding transport, `prop-galois-weight-strata`,
+`prop-galois-weight-strata-integrality` and
+`prop-galois-weight-strata-identification` for the Galois stability,
 integrality and identification of the strata, and
-`prop:integral-recovery` with
-`lem:weil-finite-coordinate-detection` for the recovery of the
+`prop-integral-recovery` with
+`lem-weil-finite-coordinate-detection` for the recovery of the
 integral factors. These are pure algebra: no geometric input enters beyond
 [sk-prop-rootpurity].
 

@@ -10,7 +10,7 @@ between finite-type schemes, with the finite coefficients of
 [sbc-def-coefficient-conventions].
 Let $a:G\hookrightarrow Y$ be open, with closed complement
 $i:Z\hookrightarrow Y$, and assume $bi:Z\to S$ is finite.
-For $K\in\hyperref[def:weil-pbc-derived-categories]{D^+(Y,\Lambda)}$,
+For $K\in\hyperref[def-weil-pbc-derived-categories]{D^+(Y,\Lambda)}$,
 suppose $a^*K$ and the direct image
 $Rb_*K$ belong to their respective
 bounded constructible categories.

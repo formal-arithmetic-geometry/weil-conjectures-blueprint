@@ -46,4 +46,4 @@ the projection formula, so the composite is the canonical comparison;
 [sk-prop-sf-comparison] transports it between the coefficient stages. The
 same statement is 0F1N and SGA 5, III, 1.1 and 1.6.4.
 
-Uses: `\Cref{prop:sf-comparison}`, `\Cref{rem:sf-pf-done}`, `\Cref{thm:smooth-base-change}`, `fix-prop-projection-formula`
+Uses: `\Cref{sk-prop-sf-comparison}`, `\Cref{rem-sf-pf-done}`, `\Cref{sk-thm-smooth-base-change}`, `fix-prop-projection-formula`

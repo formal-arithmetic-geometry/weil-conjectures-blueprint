@@ -20,4 +20,4 @@ gives no nonzero map $\Lambda\to\Lambda[1]$ of pairs). Only traces, stalk
 Frobenius maps, weights of cohomology sheaves, equivariant maps and
 functorial triangles are used.
 
-Uses: `def:trf-strict-weil-complex`
+Uses: `def-trf-strict-weil-complex`

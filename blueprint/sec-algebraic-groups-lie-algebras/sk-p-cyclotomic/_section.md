@@ -11,7 +11,7 @@ lean = ["cyclotomicCharacter_frobeniusEquiv_pow", "cyclotomicCharacter_frobenius
 On both $\Zell(1)$ and $\Qell(1)$,
 arithmetic Frobenius acts as multiplication by
 $q$, and geometric Frobenius acts as multiplication by
-$q^{-1}\in\hyperref[d:ab-tate]{\Zell}^{\times}$.
+$q^{-1}\in\hyperref[sk-d-ab-tate]{\Zell}^{\times}$.
 
 ## Proof
 

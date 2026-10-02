@@ -28,4 +28,4 @@ its compact-support corollary, and the projection formula is
 lem:kun-0F0G (torsion ring) and lem:kun-0F0F (integer
 coefficients).
 
-Uses: `def:kun-derived-tensor`, `def:kun-kunneth-map`, `lem:kun-0F0F`, `lem:kun-0F0G`, `lem:kun-0F14a`, `lem:kun-0F14b`, `thm:kun-0F1P`
+Uses: `def-kun-derived-tensor`, `def-kun-kunneth-map`, `lem-kun-0f0f`, `lem-kun-0f0g`, `lem-kun-0f14a`, `lem-kun-0f14b`, `thm-kun-0f1p`

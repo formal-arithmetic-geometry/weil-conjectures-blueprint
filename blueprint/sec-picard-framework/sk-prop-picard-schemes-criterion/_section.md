@@ -58,4 +58,4 @@ $a^*\xi=t$.
 This is Stacks, Schemes, Lemma 26.15.4
 ([`01JJ`](https://stacks.math.columbia.edu/tag/01JJ)), the glueing input being Schemes,
 Lemma 26.14.2; the detailed form is Blueprint 50,
-`lem:pc-schemes-criterion`.
+`lem-pc-schemes-criterion`.

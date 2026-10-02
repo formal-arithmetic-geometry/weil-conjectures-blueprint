@@ -88,7 +88,7 @@ dense: there are infinitely many $k$-rational points of $X$.
 For $x\in X(k)$ the pullback $x_K=\operatorname{Spec}(K)\times_kx$ is a $K$-rational
 point of $X_K$ and the family $(x_K)_{x\in X(k)}$ is Zariski dense in
 $X_K$ (it is infinite, and a closed subset of the integral
-$\hyperref[def:pc-curve]{curve}$ $X_K$ containing infinitely many closed
+$\hyperref[def-pc-curve]{curve}$ $X_K$ containing infinitely many closed
 points is all of $X_K$; $X_K$ is integral by [prop-pc-xk-integral]).
 Choose a non-zero $s\in H^0(X_K,\mathcal{L})$. Since $s\neq0$ and $X_K$ is
 integral, $s_\eta\neq0$ at the generic point, so the zero scheme
