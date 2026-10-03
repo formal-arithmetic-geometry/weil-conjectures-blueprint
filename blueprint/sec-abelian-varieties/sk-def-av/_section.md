@@ -2,7 +2,7 @@
 id = "sk-def-av"
 kind = "section"
 title = "Abelian varieties"
-lean = ["AlgebraicGeometry.AbelianVariety"]
+lean = ["AlgebraicGeometry.IsAbelianScheme"]
 order = 427
 +++
 *Definition (sketch).*

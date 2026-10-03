@@ -2,7 +2,7 @@
 id = "lem-sc-av-commutative"
 kind = "lemma"
 title = "Abelian varieties are commutative"
-lean = ["AlgebraicGeometry.AbelianVariety.isCommMonObj"]
+lean = ["AlgebraicGeometry.IsAbelianScheme.isCommMonObj"]
 order = 492
 uses = ["def-sc-abelian-variety", "lem-sc-rigidity"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sc-abelian-variety"
 kind = "definition"
 title = "Abelian varieties"
-lean = ["AlgebraicGeometry.AbelianVariety"]
+lean = ["AlgebraicGeometry.IsAbelianScheme"]
 order = 428
 uses = ["def-sc-group-scheme"]
 +++
