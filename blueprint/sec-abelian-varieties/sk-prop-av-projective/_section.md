@@ -2,7 +2,7 @@
 id = "sk-prop-av-projective"
 kind = "section"
 title = "Abelian varieties are projective"
-lean = ["AlgebraicGeometry.IsAbelianVariety.exists_isClosedImmersion_projectiveSpace", "AlgebraicGeometry.IsAbelianVariety.exists_isAmple"]
+lean = ["AlgebraicGeometry.AbelianVariety.exists_isClosedImmersion_projectiveSpace", "AlgebraicGeometry.AbelianVariety.exists_isAmple"]
 order = 473
 uses = ["sk-def-av", "sk-def-av-ample-degree"]
 +++

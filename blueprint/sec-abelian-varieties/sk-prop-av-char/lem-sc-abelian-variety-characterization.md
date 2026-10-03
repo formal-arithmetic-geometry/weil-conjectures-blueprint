@@ -2,7 +2,7 @@
 id = "lem-sc-abelian-variety-characterization"
 kind = "lemma"
 title = "Abelian varieties are the complete group varieties"
-lean = ["AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral", "AlgebraicGeometry.IsAbelianVariety.irreducibleSpace"]
+lean = ["AlgebraicGeometry.AbelianVariety.geometricallyIntegral", "AlgebraicGeometry.AbelianVariety.irreducibleSpace"]
 order = 472
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme"]
 +++

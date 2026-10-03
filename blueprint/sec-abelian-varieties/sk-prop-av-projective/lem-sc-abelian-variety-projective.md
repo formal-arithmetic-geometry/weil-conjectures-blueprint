@@ -2,7 +2,7 @@
 id = "lem-sc-abelian-variety-projective"
 kind = "lemma"
 title = "Abelian varieties are projective"
-lean = ["AlgebraicGeometry.IsAbelianVariety.exists_isClosedImmersion_projectiveSpace", "AlgebraicGeometry.IsAbelianVariety.exists_isAmple"]
+lean = ["AlgebraicGeometry.AbelianVariety.exists_isClosedImmersion_projectiveSpace", "AlgebraicGeometry.AbelianVariety.exists_isAmple"]
 order = 474
 uses = ["def-sc-abelian-variety"]
 +++
