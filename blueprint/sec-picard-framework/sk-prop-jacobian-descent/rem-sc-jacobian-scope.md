@@ -21,8 +21,10 @@ $J$ over $k_0$. Representability over a general ground field, that is,
 the existence of an abelian variety over $k$ representing
 $\operatorname{Pic}^0_{C/k}$ for a geometrically integral smooth projective
 curve $C$ over $k$ in the vocabulary of [def-sc-general-curve], is
-*not* proved here: it would require Grothendieck's existence theorem for
-the Picard functor in the presence of a rational point together with a descent
-from a finite separable extension, and the representability criterion of the
-Picard chapter cannot supply that base case by itself. No statement of this
-blueprint uses the general-field form.
+*not* proved here: it requires a descent from the separable closure (the
+representability over $k_s$ of [thm-pc-picard-representable], spread out to a
+finite separable level and descended), and the representability criterion of the
+Picard chapter cannot supply that base case over a finite extension by itself,
+since its twist lemma needs the dense rational points of a separably closed
+field even when the curve has a rational point. No statement of this chapter
+uses the general-field form; it is supplied by the descent chapter.

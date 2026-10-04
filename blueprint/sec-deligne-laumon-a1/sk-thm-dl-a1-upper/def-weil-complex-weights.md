@@ -18,16 +18,19 @@ $$
 
 for the geometric-Frobenius automorphism [def-weil-frobenius-detailed]. Fix
 $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, $w\in\mathbf R$, and let $K\in
-D^b_{c,\mathrm W}(Y,\Qlb)$ be a Weil complex. Let $a_Y:Y\to\Spec k$ be
-exceptional-adjoint admissible at $\Qlb$ in the admissibility sense. Choose a
+D^b_{c,\mathrm W}(Y,\Qlb)$ be a Weil complex. Let $a_Y:Y\to\Spec k$ be the structure morphism, with $Ra_Y^!$ its
+constructible exceptional inverse image [def-weil-exceptional-inverse-image]
+at $\Qlb$ (defined for every separated finite-type morphism; no admissibility
+hypothesis in the ambient sense of
+[def-weil-exceptional-adjoint-admissibility] is imposed). Choose a
 dualizing Weil complex $(\omega_Y,\theta_{\omega_Y})$ and require
 
 $$
  \operatorname{For}(\omega_Y)=Ra_Y^!\Qlb,
 $$
 
-where $Ra_Y^!$ denotes the exceptional inverse image for the admissible
-structure morphism. Require
+where $Ra_Y^!$ denotes the exceptional inverse image for the structure
+morphism. Require
 $\theta_{\omega_Y}:Lg_Y^*\operatorname{For}(\omega_Y)
 \xrightarrow{\sim}\operatorname{For}(\omega_Y)$ to be the canonical
 functorial Weil lift induced by geometric-Frobenius base change and the

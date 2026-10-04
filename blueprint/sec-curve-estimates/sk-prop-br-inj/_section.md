@@ -3,7 +3,7 @@ id = "sk-prop-br-inj"
 kind = "section"
 title = "Generic-point injection for the Brauer group"
 order = 900
-uses = ["sk-def-br", "sk-prop-divisor-gen"]
+uses = ["sk-def-br", "sk-prop-divisor-gen", "sk-prop-hilbert90"]
 lean = ["AlgebraicGeometry.Scheme.injective_cohomologyMap_gmSheaf_two"]
 +++
 *Proposition (sketch).*
@@ -38,13 +38,27 @@ $$
 \to H^2(X,i_*\mathbb G_{m,\eta})
 $$
 
-is exact, so $H^2(X,\mathbb G_m)\hookrightarrow H^2(X,i_*\mathbb G_{m,\eta})$, and the Leray spectral sequence for
-$i$ with $R^qi_*\mathbb G_{m,\eta}$ concentrated in degree $0$ in
-the relevant range identifies the target with
-$H^2(\eta,\mathbb G_m)=\Br(k(X))$. (In degrees $0$ and $1$ the same
+is exact, so $H^2(X,\mathbb G_m)\hookrightarrow H^2(X,i_*\mathbb G_{m,\eta})$. Next, $R^1i_*\mathbb G_{m,\eta}=0$:
+its stalk at a geometric point $\bar x$ over $x\in X$ is
+$H^1(\Spec(A\otimes_{\mathcal O_{X,x}}k(X)),\mathbb G_m)
+=\Pic(A\otimes_{\mathcal O_{X,x}}k(X))$ by Hilbert 90
+([sk-prop-hilbert90]), where $A=\mathcal O^{\mathrm{sh}}_{X,\bar x}$
+is a regular local ring, hence a UFD, and a localization of a UFD is
+a UFD, whose Picard group is trivial. In the Leray spectral sequence
+$E_2^{a,b}=H^a(X,R^bi_*\mathbb G_{m,\eta})\Rightarrow
+H^{a+b}(\eta,\mathbb G_m)$ the only differential into $E_2^{2,0}$
+comes from $E_2^{0,1}=H^0(X,R^1i_*\mathbb G_{m,\eta})=0$, so the edge
+map $H^2(X,i_*\mathbb G_{m,\eta})\to H^2(\eta,\mathbb G_m)=\Br(k(X))$
+is injective, and the composite is the claimed injection. (We do
+*not* assert $H^2(X,i_*\mathbb G_{m,\eta})=\Br(k(X))$ or
+$R^2i_*\mathbb G_{m,\eta}=0$: both fail for
+$X=\Spec\mathbf C[[x,y]]$, where $H^2(X,i_*\mathbb G_{m,\eta})=0$
+because $X$ is strictly local (Stacks `03QO`) while
+$\Br(\mathbf C((x,y)))$ contains the quaternion class $(x,y)$,
+detected by its $x$-adic residue.) (In degrees $0$ and $1$ the same
 sequence gives $H^0(X,\mathbb G_m)=k^\times$ for $X$ proper
 connected over algebraically closed $k$ and
 $H^1(X,\mathbb G_m)=\Pic(X)=\mathrm{Div}(X)/\mathrm{Princ}(X)$,
 which is (P1) of [sk-def-pic].)
 
-Uses: [sk-def-br], [sk-prop-divisor-gen]
+Uses: [sk-def-br], [sk-prop-divisor-gen], [sk-prop-hilbert90]

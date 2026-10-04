@@ -4,12 +4,14 @@ kind = "section"
 title = "The weight estimate: Deligne purity"
 order = 2870
 lean = ["Polynomial.IsMixedOfWeightLE", "TraceDatum.norm_eq_of_mem_roots_charpoly_map_of_pairing"]
-uses = ["sk-cor-dl-general-complex", "sk-d-dl-general-weights", "sk-d-real-weights", "sk-def-cohfamily", "sk-def-roots", "sk-p-real-purity", "sk-prop-sf-comp-proper", "sk-prop-smooth-proper-purity", "sk-thm-dl-a1-upper", "sk-thm-dl-general-sheaf", "sk-thm-poincare-duality"]
+uses = ["sk-cor-dl-general-complex", "sk-d-dl-general-weights", "sk-d-real-weights", "sk-def-cohfamily", "sk-def-roots", "sk-def-sf-operations", "sk-p-real-purity", "sk-prop-sf-comp-proper", "sk-prop-smooth-proper-purity", "sk-thm-dl-a1-upper", "sk-thm-dl-general-sheaf", "sk-thm-poincare-duality"]
 +++
 *Proposition (sketch).*
 
 Let $X_0/k_0$ be smooth, proper and geometrically connected of pure dimension
-$d$, and suppose the structure morphism is exceptional-adjoint admissible.
+$d$ (no admissibility hypothesis on the structure morphism; its exceptional
+adjoint is the unconditional one of [sk-def-sf-operations](vi), so the
+statement applies to every $X_0$ of [sk-def-cohfamily]).
 Then for every $0\le i\le2d$:
 
 1. the constant Weil sheaf is $\iota$-pure of weight $0$;

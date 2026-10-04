@@ -3,7 +3,7 @@ id = "sk-prop-an"
 kind = "section"
 title = "$\\Aaf^1\\Rightarrow\\Aaf^n$: the model purity"
 order = 1962
-uses = ["sk-def-purity-conv", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-a1-kummer", "sk-prop-cd", "sk-prop-h2", "sk-prop-sf-cbc", "sk-prop-sf-open-closed-triangle", "sk-thm-properbasechange"]
+uses = ["sk-def-purity-conv", "sk-lem-sf-mate", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-a1-kummer", "sk-prop-cd", "sk-prop-h2", "sk-prop-sf-cbc", "sk-prop-sf-open-closed-triangle", "sk-thm-properbasechange"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpaceZero"]
 +++
 *Proposition (sketch).*
@@ -95,21 +95,47 @@ Steps 1–4 prove the $Rz^{!}$-form (i); Steps 5–7 prove the $R\pi^{!}$-form
 (ii) directly from the affine-line computation, together with the
 normalization (iii).
 
-*Step 1: the model case.* Write
-$\Aaf^c_B=\Aaf^1_B\times_B\cdots\times_B\Aaf^1_B$ and $z=s\times_B\cdots\times_Bs$.
-Künneth for cohomology with supports gives
+*Step 1: the model case, by iterating the affine line.* Write
+$\Aaf^c_B=\Aaf^1_{B'}$ with $B'=\Aaf^{c-1}_B$, let $p':\Aaf^1_{B'}\to B'$ be
+the last-coordinate projection with zero section
+$s':B'\hookrightarrow\Aaf^1_{B'}$, and let $z_{c-1}:B\hookrightarrow B'$ be
+the zero section of $\Aaf^{c-1}_B$, so that $z=s'\circ z_{c-1}$ and, by the
+composition law ([sk-lem-sf-mate], for closed immersions),
+$Rz^{!}\cong Rz_{c-1}^{!}Rs'^{!}$. No Künneth formula for $Rz^{!}$ of
+general constructible inputs is used: the relative identity
+$Rz^{!}(K_1\boxtimes_BK_2)\simeq Rs^{!}K_1\otimes^{\mathrm L}Rs^{!}K_2$ is
+*false* in general (for $B=\Aaf^1_k$, $K_1=K_2=i_*\Lambda_B$ with $i$ the
+graph $x=b$, and $e:\{0\}\hookrightarrow B$, the two sides are
+$e_*\Lambda(-1)[-2]$ and $e_*\Lambda(-2)[-4]$); only constant coefficients
+enter, and for them the calculation is the following. A twist pulled back
+from $B'$ passes through $Rs'^{!}$ (the projection formula for $Rs'_!=Rs'_*$,
+transposed; $\Lambda(1)$ is invertible), so with
+$\Lambda_{\Aaf^c_B}(c)[2c]=\Lambda_{\Aaf^1_{B'}}(1)[2]\otimes Lp'^{*}\Lambda_{B'}(c-1)[2c-2]$ and [sk-prop-a1] over the base $B'$,
 
 $$
-Rz^{!}\bigl(K_1\boxtimes_B\cdots\boxtimes_BK_c\bigr)
-\ \simeq\ Rs^{!}K_1\otimes^{\mathrm L}\cdots\otimes^{\mathrm L}Rs^{!}K_c ,
+Rs'^{!}\Lambda_{\Aaf^c_B}(c)[2c]\ \cong\
+Rs'^{!}\Lambda_{\Aaf^1_{B'}}(1)[2]\otimes\Lambda_{B'}(c-1)[2c-2]
+\ \xrightarrow{\ \mathrm{pur}_{s'}^{-1}\otimes1\ }\
+\Lambda_{B'}(c-1)[2c-2],
 $$
 
-the case $c=2$ iterated. Take $K_i=\Lambda_{\Aaf^1_B}(1)[2]$ and use
-$\Lambda(c)[2c]=(\Lambda(1)[2])^{\otimes c}$: by [sk-prop-a1] each factor
-is $\Lambda_B$, so $Rz^{!}\Lambda_{\Aaf^c_B}(c)[2c]\cong\Lambda_B$, with
-canonical generator $\mathrm{pur}_s\otimes\cdots\otimes\mathrm{pur}_s$, the
-cup product with supports $\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$
-of the pulled-back rank-one classes $\partial\kappa(t_i)\in H^2_{\{t_i=0\}}$.
+and then, by induction on $c$ (the case $c=1$ being [sk-prop-a1]),
+$Rz^{!}\Lambda_{\Aaf^c_B}(c)[2c]\cong Rz_{c-1}^{!}\Lambda_{B'}(c-1)[2c-2] \cong\Lambda_B$. The isomorphism is canonical and compatible with base
+change, each step being so ([sk-prop-a1], and the compatibility of the
+composition law with base change), and its generator is
+
+$$
+\mathrm{th}_c:=Rz_{c-1}^{!}\bigl(\mathrm{pur}_{s'}\otimes1\bigr)\circ
+\mathrm{th}_{c-1}:\ \Lambda_B\longrightarrow Rz^{!}\Lambda_{\Aaf^c_B}(c)[2c],
+\qquad \mathrm{th}_1=\mathrm{pur}_s,
+$$
+
+the iterated Kummer boundary with supports. It is the cup product with
+supports $\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$ of the
+pulled-back rank-one classes $\partial\kappa(t_i)\in H^2_{\{t_i=0\}}$: the
+boundary with supports along the last coordinate, applied to a class
+supported on $\{t_1=\cdots=t_{c-1}=0\}$, is the cup product with
+$\partial\kappa(t_c)$, and the factors commute (all degrees are even).
 
 *Step 2: the sheaf of orientations.* Let $\pi:E\to Z$ have rank $c$ and
 choose an étale cover $\{U_\alpha\to Z\}$ trivializing $E$. Formation of
@@ -166,10 +192,18 @@ $$
 
 is an isomorphism compatible with base change. Let
 $t_q:Rq_*\Lambda(1)[2]\to\Lambda_Y$ be the projection onto the second
-summand, the *trace*, normalized by $t_q(h)=1$; every section of $q$ has
-class $h$ (its divisor has degree one), so $t_q$ sends the class of any
-section to $1$ and is invariant under automorphisms of $\mathbf P^1_Y$ over
-$Y$.
+summand, the *trace*, normalized by $t_q(h)=1$. Since the first summand
+$\Lambda_Y(1)[2]$ has no $\mathcal H^0$, $t_q$ is the truncation
+$Rq_*\Lambda(1)[2]\to\mathcal H^0=R^2q_*\Lambda(1)\cong\Lambda_Y$ onto the top
+cohomology sheaf, the identification being "fibrewise degree" (the class of
+a point of a fibre $\mapsto1$); so $t_q$ does not depend on the choice of
+$h$, kills the base summand $q^{*}H^2(Y,\Lambda(1))$, and is invariant under
+automorphisms of $\mathbf P^1_Y$ over $Y$, which preserve fibrewise degree.
+A section $\sigma$ of $q$ has divisor $\sigma(Y)$ of fibrewise degree one,
+so its class is $h+q^{*}c$ for some $c\in H^2(Y,\Lambda(1))$ — not
+necessarily $h$ itself: for $Y=\mathbf P^1$ the diagonal section has class
+$h_{\mathrm{fibre}}+h_{\mathrm{base}}$ — and $t_q$ sends the class of every
+section to $1$, the base summand dying under $t_q$.
 *(b) The affine-line trace.* Put
 
 $$
@@ -244,14 +278,16 @@ $p_{c-1}$ and $s'$ that of $p'$. Tate twists pulled back from the base pass
 through $R(-)^{!}$ (the projection formula for $R(-)_!$, transposed), so for
 $M=Rp_{c-1}^{!}\Lambda_B\cong\Lambda_{B'}(c-1)[2c-2]$ the map
 $Rs'^{!}\gamma_{p',M}$ is $M\otimes Rs'^{!}\gamma_{p',\Lambda}$; with Step 5(d)
-and the Künneth identification of Step 1
-($\mathrm{th}=\mathrm{pur}_s\boxtimes\cdots\boxtimes\mathrm{pur}_s$, the last
-factor along $s'$) this gives
+over the base $B'$ and the iterative identification of Step 1
+($\mathrm{th}_c=Rz_{c-1}^{!}(\mathrm{pur}_{s'}\otimes1)\circ\mathrm{th}_{c-1}$,
+the last factor along $s'$) this gives
 
 $$
-Rz^{!}\gamma_{p_c,\Lambda}\circ\mathrm{th}
-=\bigl(Rz_{c-1}^{!}\gamma_{p_{c-1},\Lambda}\circ\mathrm{th}_{c-1}\bigr)\otimes
-\bigl(Rs'^{!}\gamma_{p',\Lambda}\circ\mathrm{pur}_s\bigr)=\mathrm{id},
+Rz^{!}\gamma_{p_c,\Lambda}\circ\mathrm{th}_c
+=Rz_{c-1}^{!}\Bigl(\gamma_{p_{c-1},\Lambda}\otimes
+\bigl(Rs'^{!}\gamma_{p',\Lambda}\circ\mathrm{pur}_{s'}\bigr)\Bigr)\circ
+\mathrm{th}_{c-1}
+=Rz_{c-1}^{!}\gamma_{p_{c-1},\Lambda}\circ\mathrm{th}_{c-1}=\mathrm{id},
 $$
 
 which is (iii) for $\Aaf^c_B$; equivalently $\int_{p_c}$ sends
@@ -280,4 +316,4 @@ zero, so $\gamma_{\pi,K}$ is an isomorphism. Base change and the
 normalization (iii) are inherited from Step 6 in the same way (detailed:
 cor:pur-vector-bundle-purity).
 
-Uses: [sk-def-purity-conv], [sk-prop-a1-inv], [sk-prop-a1], [sk-prop-a1-kummer], [sk-prop-cd], [sk-prop-h2], [sk-prop-sf-cbc], [sk-prop-sf-open-closed-triangle], [sk-thm-properbasechange]
+Uses: [sk-def-purity-conv], [sk-prop-a1-inv], [sk-prop-a1], [sk-prop-a1-kummer], [sk-prop-cd], [sk-prop-h2], [sk-prop-sf-cbc], [sk-prop-sf-open-closed-triangle], [sk-thm-properbasechange], [sk-lem-sf-mate]

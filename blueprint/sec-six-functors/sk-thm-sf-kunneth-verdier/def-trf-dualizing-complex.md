@@ -12,7 +12,8 @@ separated finite-type
 $k$-scheme whose
 structure morphism
 $a_Y:Y\to s$ is
-exceptionally admissible. Put
+exceptionally admissible in the sense of [def-trf-admissibility] (which
+holds for every such $Y$; no ambient datum is assumed). Put
 
 $$
 \omega_{Y,A}:=Ra_Y^!A_s,\qquad

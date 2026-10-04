@@ -48,13 +48,16 @@ Step 5: surjectivity. Let $P$ be an $M$-torsor and trivialize it over
 a cover $\{U_i\to Y\}$ with sections $p_i\in P(U_i)$ (possible by
 Step 2 applied to the locally constant structure); put
 $c_{ij}=p_i-p_j\in\underline M(U_{ij})$. The $c_{ij}$ form a Čech
-1-cocycle. The standard exact sequence of Čech complexes
-$0\to\check C^\bullet(\mathcal U,\underline M)\to C^\bullet(\mathcal U,I)\to C^\bullet(\mathcal U,J)\to0$ has a long exact
-cohomology sequence — the five-term exact sequence of the Čech
-double complex, a computation in homological algebra — which identifies
-$\check H^1(\mathcal U,\underline M)$ with the classes in
-$H^1(Y_{\Et},\underline M)$ whose restrictions to the $U_i$ vanish; the
-class $\alpha$ of the cocycle is such a class. Both $P$ and the lifting
-torsor $P_s$ for a representative $s$ of $\alpha$ are built from the
-same trivializations and the same glueing data, so $P\cong P_s$.
+1-cocycle. The Čech complex of the Godement sheaf $I$ of
+[lem-galois-flasque] with respect to any covering is acyclic in
+positive degrees: at each geometric point it is the cochain complex
+of the nerve of a surjection of sets, which is contractible, and
+products of such complexes are again acyclic in positive degrees.
+Hence $c_{ij}=a_i|_{U_{ij}}-a_j|_{U_{ij}}$ for some
+$a_i\in I(U_i)$. The sections $d(a_i)\in J(U_i)$ agree on the
+overlaps, because $d(c_{ij})=0$, so they glue to $s\in J(Y)$, and
+$a_i\in P_s(U_i)$ are trivializations of the lifting torsor $P_s$ with
+transition data $a_i-a_j=c_{ij}$. Both $P$ and $P_s$ are therefore
+glued from the trivial torsors $\underline M|_{U_i}$ by the same
+cocycle $(c_{ij})$, so $P\cong P_s$.
 Steps 1–5 give the bijection.

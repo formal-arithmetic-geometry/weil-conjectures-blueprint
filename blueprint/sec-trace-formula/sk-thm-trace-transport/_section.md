@@ -3,7 +3,7 @@ id = "sk-thm-trace-transport"
 kind = "section"
 title = "Transport of the trace formula to the non-finite stages"
 order = 2394
-uses = ["sk-d-setup", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-i-curve-zero", "sk-p-trace-coeff", "sk-prop-cd", "sk-prop-logdet", "sk-prop-trace-adic", "sk-thm-sf-ctf-stability", "sk-thm-trace-formula"]
+uses = ["sk-d-setup", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-def-sf-weil-complexes", "sk-i-curve-zero", "sk-p-trace-coeff", "sk-prop-cd", "sk-prop-logdet", "sk-prop-trace-adic", "sk-thm-sf-ctf-stability", "sk-thm-trace-formula"]
 lean = ["AlgebraicGeometry.ProEtale.trace_globalOperator_eq_sum_and_eulerProduct"]
 +++
 *Theorem (sketch).*
@@ -19,7 +19,12 @@ finite-level objects, the $E$-stage its
 rationalization, and the $\overline{\mathbf Q}_\ell$-stage the colimit over
 finite $E/\mathbf Q_\ell$. Let $X_0/\mathbf F_q$ be separated of finite
 type and let $K$ be a Weil datum with coefficients in
-$\Lambda$. Then:
+$\Lambda$, that is, a Weil pair at the stage $\Lambda$ in the all-stage
+sense of [sk-def-sf-weil-complexes]: at $\mathcal O_E$ a normalized system
+of finite-level Weil pairs ([sk-d-weil]) whose transitions commute with the
+$\varphi_n$ (a compatible tower of Weil pairs as in
+[sk-prop-trace-adic](ii)), and at $E$ and $\overline{\mathbf Q}_\ell$ its
+rationalization and colimit. Then:
 
 1. **(a)** *Trace identity.* The identity of
 [sk-thm-trace-formula] holds for every $m\ge1$ with $A$ replaced by
@@ -111,4 +116,4 @@ homomorphism, so it carries the identity in
 $\overline{\mathbf Q}_\ell[[T]]$ coefficientwise to one in
 $\mathbf C[[T]]$.
 
-Uses: [sk-d-setup], [sk-d-six], [sk-d-trace], [sk-d-weil], [sk-i-curve-zero], [sk-p-trace-coeff], [sk-prop-cd], [sk-prop-logdet], [sk-prop-trace-adic], [sk-thm-sf-ctf-stability], [sk-thm-trace-formula]
+Uses: [sk-d-setup], [sk-d-six], [sk-d-trace], [sk-d-weil], [sk-def-sf-weil-complexes], [sk-i-curve-zero], [sk-p-trace-coeff], [sk-prop-cd], [sk-prop-logdet], [sk-prop-trace-adic], [sk-thm-sf-ctf-stability], [sk-thm-trace-formula]

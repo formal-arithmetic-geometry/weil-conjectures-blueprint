@@ -32,9 +32,17 @@ locus where $a$ is a unit, so an $n$-th root of a unit exists
 étale locally, which is exactly surjectivity of a map of étale
 sheaves. Hence the sequence is exact.
 
-Note the hypothesis is necessary: if $n$ is divisible by
-$\operatorname{char}k=p$ the map $\omega\mapsto\omega^n$ is not an
-epimorphism of étale sheaves ($T^p-a$ is inseparable; the correct
-replacement is the Artin–Schreier sequence).
+Note the hypothesis cannot be dropped in general: if $n$ is
+divisible by $\operatorname{char}k=p$ the map $\omega\mapsto\omega^n$
+need *not* be an epimorphism of étale sheaves. (It is one for
+$C=\Spec k$, $k$ being algebraically closed; but on $\mathbb G_{m,k}$
+the unit $t$ acquires no $p$-th root in any separable extension of
+$k(t)$, since $T^p-t$ is inseparable, so $t$ is not a $p$-th power
+étale locally.) The two standard replacements differ: the fppf
+Kummer sequence (Stacks `03PK`) keeps $\mu_p$ and
+$\mathbb G_m$ but changes the topology, whereas the Artin–Schreier
+sequence $0\to\Z/p\to\mathbb G_a\xrightarrow{F-1}\mathbb G_a\to0$
+(Stacks `0A3J`) computes $\Z/p$-cohomology on the étale site
+through $\mathbb G_a$.
 
 Uses: [sk-def-curve], [sk-def-kummer]

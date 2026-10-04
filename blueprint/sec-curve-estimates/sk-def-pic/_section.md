@@ -59,8 +59,10 @@ is exact, i.e. $\Pic(C)=\mathrm{Div}(C)/\mathrm{Princ}(C)$.
 $f\in k(C)^\times$ is a finite surjective morphism
 $f:C\to\Pone$ of degree $d=[k(C):k(t)]$ with
 $\operatorname{div}(f)=f^*[0]-f^*[\infty]$, and
-$\deg f^*=\deg f\cdot\deg$ (equivalently
-$\deg f_*=\deg f\cdot\deg$) for a finite flat morphism, so
+$\deg(f^*D)=\deg f\cdot\deg D$ for a finite flat morphism $f$ of
+proper curves and a divisor $D$ on its target (whereas pushforward
+preserves degrees, $\deg(f_*D)=\deg D$, and $f_*f^*D=\deg f\cdot D$;
+Stacks `02R3`, `0AZ0`), so
 $\deg\operatorname{div}(f)=d-d=0$; a constant $f$ has
 $\operatorname{div}(f)=0$. Hence $\deg$ descends to $\Pic(C)$, and
 it is surjective because $C$, being of dimension $1$, has a closed

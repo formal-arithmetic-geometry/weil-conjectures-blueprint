@@ -21,7 +21,11 @@ Lemma 33.44.14, [Tag 0B5X](https://stacks.math.columbia.edu/tag/0B5X).*)
 (The hypothesis $\dim C=1$ cannot be dropped: on a proper curve
 $C=\operatorname{Spec}k$ of dimension zero every invertible module,
 ample or not, is trivial and $\chi(C,\mathcal L^{\otimes m})=1$ for all
-$m$, so the degree is $0$.)
+$m$, so the coefficient of $m$ is $0$; note that the Hilbert degree
+$\deg_{\mathcal L}(C)$ of [def-sc-hilbert-degree] is then $0!\cdot1=1$,
+since in dimension $g=0$ the leading coefficient is the constant term.
+The two numbers agree only when $\dim C=1$, which is the case the lemma
+is about.)
 
 ## Proof
 

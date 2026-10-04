@@ -5,13 +5,17 @@ title = "Additivity of trace classes"
 order = 2354
 uses = ["d-curve-pieces", "def-trf-fixed-scheme", "def-trf-integration", "def-trf-local-term", "def-weil-scheme-morphism-properties", "lem-trf-integration-linear", "lem-trf-trace-triangle-compatibility", "prop-functor-package", "prop-sf-open-closed-triangle-all-stages", "prop-weil-open-closed-recollement-adjunctions", "thm-trf-frobenius-fixed-points"]
 +++
-1. Let
+1. Let $i:Z\hookrightarrow X$ be a closed subscheme with open complement
+$j:U\hookrightarrow X$ which is $c$-invariant, $c_2(c_1^{-1}(Z))\subset Z$,
+let
 $$
-K'\longrightarrow K\longrightarrow K''\longrightarrow K'[1]
+K'=j_!j^*K\longrightarrow K\longrightarrow K''=Ri_*i^*K\longrightarrow K'[1]
 $$
-be a distinguished triangle in $D^b_{ctf}(X,A)$ with an induced
-morphism $(u',u,u'')$ of the corresponding triangles of the functors
-$Lc_2^*$ and $Rc_1^!$. Then
+be its open–closed triangle, and let $(u',u,u'')$ be the induced morphism
+of the corresponding triangles of the functors $Lc_2^*$ and $Rc_1^!$, with
+$u'=[j]_!(u|_U)$ and $u''=[i]_!(u|_Z)$ the induced coefficient morphisms of
+[lem-trf-trace-triangle-compatibility] (an arbitrary morphism of
+distinguished triangles is not enough, see there). Then
 $$
 \operatorname{Tr}_c(u)=
 \operatorname{Tr}_c(u')+\operatorname{Tr}_c(u'')
@@ -92,8 +96,12 @@ because $j^*Ri_*=0$ ([prop-weil-open-closed-recollement-adjunctions],
 as in the Hom vanishing of [prop-sf-open-closed-triangle-all-stages]).
 Hence $w=u^Z$.
 
-Thus $(u^U,v,u^Z)$ is a morphism of the triangles, and (1) gives the
-identity of trace classes. The fixed scheme $F=\operatorname{Fix}(\Phi)$
+Thus $(u^U,v,u^Z)$ is the induced morphism of the open–closed triangles
+for the closed point $Z=\{\bar x\}$, which is $c$-invariant because
+$c_1=\operatorname{id}$ and $\Phi(\bar x)=\bar x$, and $u^U,u^Z$ are the
+induced coefficient morphisms $[j]_!(v|_U)$, $[i]_!(v|_Z)$ of
+[lem-trf-trace-triangle-compatibility]; so (1) gives the identity of trace
+classes. The fixed scheme $F=\operatorname{Fix}(\Phi)$
 is a finite disjoint union of copies of $\operatorname{Spec}k$ by
 [thm-trf-frobenius-fixed-points], hence proper over $s$ with finitely
 many open-and-closed components, so (1) also gives the identity of local

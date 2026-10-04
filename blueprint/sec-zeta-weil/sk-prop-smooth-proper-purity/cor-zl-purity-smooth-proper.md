@@ -20,9 +20,10 @@ global geometric Frobenius
 in the geometric-Frobenius convention, and
 let $(\Qlb)_X$ be the constant
 $\Qlb$-sheaf on
-$X$, and assume that the structure morphism
-$a_X:X_0\to\Spec k_0$ is exceptional-adjoint admissible at $\Qlb$
-([def-weil-exceptional-adjoint-admissibility]). Then, for every $i\in\mathbf Z$, the Frobenius module
+$X$; no admissibility hypothesis is imposed on the structure morphism
+$a_X:X_0\to\Spec k_0$ (its exceptional inverse image is the constructible
+one, defined for every separated finite-type morphism; the ambient notion of
+[def-weil-exceptional-adjoint-admissibility] is not used). Then, for every $i\in\mathbf Z$, the Frobenius module
 
 $$
 (H^i(X,\Qlb),F)
@@ -38,9 +39,9 @@ $H_c^i(X,\Qlb)=H^i(X,\Qlb)$ (proper coincidence,
 This is the absolute case of [prop-zl-smooth-proper-relative-purity].
 Take $Y_0=\Spec k_0$ and $f_0=a_X:X_0\to\Spec k_0$, the structure morphism of
 [def-weil-finite-field-fiber]: it is smooth and proper of pure relative
-dimension $d$, and it and the structure morphisms ($a_X$ and
-$\operatorname{id}_{\Spec k_0}$) are exceptional-adjoint admissible by
-hypothesis. Take $\mathcal F_0=(\Qlb)_{X_0}$, the constant Weil sheaf. It is
+dimension $d$, and [prop-zl-smooth-proper-relative-purity] imposes no
+admissibility hypothesis on it or on the structure morphisms. Take
+$\mathcal F_0=(\Qlb)_{X_0}$, the constant Weil sheaf. It is
 lisse, and it is punctually $\iota$-pure of weight $0$ in the sense of
 [def-weil-punctual-weights]: at every closed point $x$ the local
 Frobenius of [def-weil-local-frobenius-trace] is the identity of the

@@ -10,9 +10,10 @@ Fix the finite-field datum $(p,a,q,k_0,k)$, where $q=p^a$, a prime
 $\ell\neq p$, an algebraic closure $\Qlb$ of $\Ql=\mathbf Q_\ell$ and an
 isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$. Let
 $f_0:X_0\to Y_0$ be a smooth proper morphism of separated finite-type
-$k_0$-schemes of pure relative dimension $d\in\mathbf Z_{\geq0}$, with
-$f_0$ and the structure morphisms exceptional-adjoint admissible (so that
-the operations of [prop-weil-operations] apply), and let
+$k_0$-schemes of pure relative dimension $d\in\mathbf Z_{\geq0}$ (no
+admissibility hypothesis on $f_0$ or the structure morphisms: the exceptional
+inverse images are the constructible ones, defined for every separated
+finite-type morphism, so the operations of [prop-weil-operations] apply), and let
 $\mathcal F_0$ be a lisse $\Qlb$-Weil sheaf on $X_0$ which is punctually
 $\iota$-pure of weight $w\in\mathbf R$ in the sense of
 [def-weil-punctual-weights]. Then for every $i\in\mathbf Z$:
@@ -132,8 +133,8 @@ $\iota$-pure of weight $-w-2d$.
 The relative duality isomorphism is assembled from three canonical
 isomorphisms, each a morphism of Weil complexes by [prop-weil-operations]
 (composition, purity and duality isomorphisms are Weil). First, the
-tensor–Hom form of the Verdier exchange [lem-sf-tensor-hom], applied to the
-admissible $f$ with $M=\mathcal F$ and $N=\Qlb_Y$, together with $Rf_!=Rf_*$
+tensor–Hom form of the Verdier exchange [lem-sf-tensor-hom], applied to
+$f$ with $M=\mathcal F$ and $N=\Qlb_Y$, together with $Rf_!=Rf_*$
 from Step 1:
 
 $$

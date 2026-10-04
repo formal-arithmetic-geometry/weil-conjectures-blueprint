@@ -3,104 +3,80 @@ id = "lem-trf-trace-triangle-compatibility"
 kind = "lemma"
 title = "Triangle compatibility of the trace class"
 order = 2353
-uses = ["def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-supported-pairing", "def-trf-trace-class", "def-trf-trace-class-source", "def-weil-derived-pullback-tensor-hom", "lem-kun-stalk-faithful-derived", "lem-trf-global-operator-triangulated", "lem-trf-trace-class-diagonal-pairing", "prop-trf-pairing-point-normalization", "prop-trf-trace-formal-laws", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-evaluation-finite", "thm-trf-kunneth-verdier"]
+uses = ["d-curve-pieces", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-supported-pairing", "def-trf-trace-class", "def-trf-trace-class-source", "def-weil-derived-pullback-tensor-hom", "lem-trf-global-operator-triangulated", "lem-trf-local-term-locality", "lem-trf-trace-class-diagonal-pairing", "prop-trf-trace-formal-laws", "thm-trf-dualizing-complex-composition", "thm-trf-kunneth-verdier"]
 +++
-Let $K'\to K\to K''\to K'[1]$ be a distinguished triangle in
-$D^b_{ctf}(X,A)$ and let $(u',u,u'')$ be a morphism of the
-corresponding triangles of the functors $Lc_2^*$ and $Rc_1^!$, so
-that $\widetilde u\mapsto(\widetilde u',\widetilde u'')$ under the
-induced maps of trace-class sources and $u,u',u''$ correspond under
-the mate bijections of [def-trf-trace-class-source]. Then the
+Let $c=(c_1,c_2):C\to X\times X$ be an admissible correspondence with
+coefficient $K\in D^b_{ctf}(X,A)$ and $u:c_2^*K\to c_1^!K$
+([def-trf-correspondence]), with fixed scheme $F$, and let
+$i:Z\hookrightarrow X$ be a closed subscheme with open complement
+$j:U\hookrightarrow X$ which is *$c$-invariant*: $c_2(c_1^{-1}(Z))\subset Z$
+set-theoretically, so that $c_1^{-1}(Z)\subset c_2^{-1}(Z)$ and
+$c_2^{-1}(U)\subset c_1^{-1}(U)$. Then $u$ induces coefficient morphisms
+$u^U$ on $K'=j_!j^*K$ and $u^Z$ on $K''=Ri_*i^*K$: $u^U=[j]_!(u|_U)$ is
+the extension by zero of the restriction of $u$ to the open correspondence
+$c|_U$ on $c^{-1}(U\times U)=c_2^{-1}(U)$, and $u^Z=[i]_!(u|_Z)$ is the
+pushforward of the restriction of $u$ to the closed correspondence
+$c|_Z:c_1^{-1}(Z)_{\mathrm{red}}\to Z\times Z$ (in the Frobenius case
+these are the pieces $u^U,u^Z$ of [d-curve-pieces]). The triple
+$(u^U,u,u^Z)$ is a morphism of the open–closed triangles
+$K'\to K\to K''\to K'[1]$ of the functors $Lc_2^*$ and $Rc_1^!$, and the
 Verdier trace classes of [def-trf-trace-class] satisfy
 
 $$
-\operatorname{Tr}_c(u)=\operatorname{Tr}_c(u')+\operatorname{Tr}_c(u'')
+\operatorname{Tr}_c(u)=\operatorname{Tr}_c(u^U)+\operatorname{Tr}_c(u^Z)
 $$
 
 in $\operatorname{Hom}_{D(F,A)}(A_F,\omega_{F,A})$.
-This is the additivity of the Verdier trace class; the proof below reduces
-it to the point normalization of the supported pairing, so that no
-filtered construction is needed. (*Source:* SGA 5, Exposé III,
-4.2 and [Varshavsky,
-Lefschetz–Verdier trace formula and a generalization of a theorem of
-Fujiwara](https://arxiv.org/pdf/math/0505564), Section 5; the argument below is the blueprint-internal one.)
+This is the additivity of the Verdier trace class along a $c$-invariant
+open–closed decomposition
+([Varshavsky, Prop. 1.5.10](https://arxiv.org/abs/math/0505564), proved in
+his §5.3 by filtered trace maps; classically SGA 5, Exposé III, 4.13). It
+is *not* asserted for an arbitrary morphism $(u',u,u'')$ of distinguished
+triangles in $D^b_{ctf}(X,A)$: for the identity correspondence of a point
+that assertion is the additivity of the categorical trace on arbitrary
+endomorphisms of distinguished triangles of perfect complexes, which fails
+([prop-trf-trace-formal-laws], item (2)).
 
 ## Proof
 
-By [lem-trf-trace-class-diagonal-pairing] the trace class is the supported
-pairing $\operatorname{Tr}_c(u)=\langle u,1_K\rangle_{\mathrm{LV}}$ of
-[def-trf-supported-pairing]; by [def-trf-trace-class] it is
-the composite of the mate $\widetilde u$ of
-[def-trf-correspondence] with the trace map
-$\mathfrak t_{c,K}$. Both descriptions produce an element of
-$\operatorname{Hom}_{D(F,A)}(A_F,\omega_{F,A})$, and both are natural
-in the coefficient: the ingredients of the pairing recipe are the
-Kunneth–Verdier isomorphisms
-[thm-trf-kunneth-verdier], the projection formula and
-$!$-base change, the Verdier evaluations and the exceptional
-adjunctions, all of which are compatible with pullback by
-[def-weil-derived-pullback-tensor-hom].
+*The induced morphisms.* Restriction of $u$ to the open correspondence
+$c|_U$ uses only $j^*=j^!$ and the inclusions $c_2^{-1}(U)\subset c_1^{-1}(U)$;
+the extension by zero $[j]_!(u|_U):c_2^*j_!j^*K\to c_1^!j_!j^*K$ is the
+composite of the open $!$-base change $c_2^*j_!\cong j_!(c_2|_U)^*$, of
+$j_!(u|_U)$ and of the canonical map $j_!(c_1|_U)^!\to c_1^!j_!$. The
+restriction $u|_Z$ exists because $Z$ is $c$-invariant ($c|_Z$ is the
+correspondence induced on $c_1^{-1}(Z)_{\mathrm{red}}$, and $u$ pulls back
+along the closed immersion of correspondences), and $[i]_!(u|_Z)$ is its
+coefficient pushforward along the proper morphism $[i]$ of correspondences,
+as in [thm-trf-dualizing-complex-composition] and the proper pushforward
+of this chapter. That $(u^U,u,u^Z)$ is a morphism of the open–closed
+triangles is checked by adjunction exactly as in the Frobenius case treated
+in the proof of item (2) of the trace-class additivity proposition of this
+block, the third square following from the first two and the vanishing
+$\operatorname{Hom}(j_!N[1],Ri_*M)=0$.
 
-*Step 1 (reduction to the geometric points of $F$).* A morphism
-of complexes of $A_F$-modules vanishes if and only if all its
-pullbacks to geometric points vanish, by
-[lem-kun-stalk-faithful-derived]. For a geometric point
-$\bar y\to F$, the pullback of the dualizing complex is the dualizing
-complex of the point, $A$ in degree $0$, by the composition
-property [thm-trf-dualizing-complex-composition] applied to the
-morphism $\Spec\kappa(\bar y)\to F$, since a point has dualizing
-complex $A$ ([def-trf-dualizing-complex]). Hence it suffices to
-prove
+*Additivity.* The identity of trace classes is
+[Varshavsky, Prop. 1.5.10](https://arxiv.org/abs/math/0505564) in our leg
+convention (his $c$-morphisms are $c_1^*\mathcal F\to c_2^!\mathcal F$, so
+his $c_2^{-1}(Z)$ is our $c_1^{-1}(Z)$ and his $c$-invariance
+$c_1(c_2^{-1}(Z))\subset Z$ is our $c_2(c_1^{-1}(Z))\subset Z$). His proof
+(§5.3, Lemma 5.3.2, after Illusie, SGA 5 III 4.13) lifts the trace map to
+the filtered derived category $D^bF_{ctf}(X,A)$: the two-step filtration
+$j_!j^*K\subset K$ makes $(K,u)$ a filtered $c$-morphism whose graded
+pieces are $(j_!j^*K,u^U)$ and $(Ri_*i^*K,u^Z)$, the trace map is a
+morphism of filtered bifunctors, and the trace of a filtered $c$-morphism
+is the sum of the traces of its graded pieces. The argument needs the
+filtered origin of the triple: it is not a consequence of the three squares
+commuting in the derived category.
 
-$$
-Li_{\bar y}^*\operatorname{Tr}_c(u)
-=Li_{\bar y}^*\operatorname{Tr}_c(u')
-+Li_{\bar y}^*\operatorname{Tr}_c(u'')
-\qquad\text{in }A
-$$
-
-for every geometric point $\bar y$ of $F$.
-
-*Step 2 (the restriction at a point is a categorical trace).* At
-$\bar y$ the correspondence has support the point $\bar y$, so its
-two legs induce the two maps between the stalks which constitute the
-correspondence data of the point, and the recipe of
-[def-trf-supported-pairing] is built from operations which are
-natural in the coefficient; hence the restriction of the pairing to
-$\bar y$ is the supported pairing of the restricted data. By the
-point normalization
-[prop-trf-pairing-point-normalization] that pairing is the
-categorical trace $\operatorname{tr}_A(v_{\bar y}u_{\bar y}\mid P)$;
-for the trace class one takes $v=1_K$, and the value of the stalk
-trace is $\operatorname{tr}_A(u_{\bar y}\mid K_{\bar y})$, as computed
-in [thm-trf-fixed-point-evaluation-finite]. Thus
-
-$$
-Li_{\bar y}^*\operatorname{Tr}_c(u)
-=\operatorname{tr}_A(u_{\bar y}\mid K_{\bar y}),
-$$
-
-and likewise for $u'$ and $u''$.
-
-*Step 3 (additivity of the three stalk traces).* Pullback to the
-geometric point is exact, so the restrictions
-$K'_{\bar y}\to K_{\bar y}\to K''_{\bar y}\to K'_{\bar y}[1]$ again form a distinguished triangle, and the
-compatibility hypothesis on $(u',u,u'')$ is preserved by the
-naturality of the pullback functors; consequently the three
-endomorphisms $u'_{\bar y},u_{\bar y},u''_{\bar y}$ form an
-endomorphism of this triangle, exactly as in
-[lem-trf-global-operator-triangulated] after restriction to the
-point. Triangle additivity of the categorical trace
-[prop-trf-trace-formal-laws](2) therefore gives
-
-$$
-\operatorname{tr}_A(u_{\bar y}\mid K_{\bar y})
-=\operatorname{tr}_A(u'_{\bar y}\mid K'_{\bar y})
-+\operatorname{tr}_A(u''_{\bar y}\mid K''_{\bar y}).
-$$
-
-*Conclusion.* Combining Steps 2 and 3, the pullbacks of
-$\operatorname{Tr}_c(u)$ and of
-$\operatorname{Tr}_c(u')+\operatorname{Tr}_c(u'')$ to every geometric
-point of $F$ agree; by Step 1 the two classes are equal, which is the
-assertion.
+*What the previous argument got wrong.* An earlier proof of this lemma
+restricted the trace classes to the geometric points $\bar y$ of $F$ and
+claimed $Li_{\bar y}^*\operatorname{Tr}_c(u)=\operatorname{tr}_A(u_{\bar y}\mid K_{\bar y})$
+in general. This is false: the stalk at $\bar y$ of the trace-class source
+$R\mathcal Hom_A(c_2^*K,c_1^!K)$ is not $R\mathcal Hom_A(K_{\bar y},K_{\bar y})$
+(for $K=j_!A$ on $\mathbf A^1$ the source is $Rj_*A$, with nonzero stalk at
+$0$ although $K_0=0$), and the equality of the local term with the stalk
+trace holds only under a contracting hypothesis
+([lem-trf-local-term-locality], item (1)). The reduction to the point
+normalization is therefore not available, and the filtered argument above
+replaces it.

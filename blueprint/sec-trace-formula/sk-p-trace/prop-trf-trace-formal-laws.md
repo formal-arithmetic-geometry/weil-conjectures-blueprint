@@ -15,14 +15,26 @@ $\Lambda\in\{E,\Qlb\}$ when infinite coefficients occur:
 1. *Conjugacy invariance.* If $w:P_1\xrightarrow{\sim}P_2$ is
 an isomorphism and $v_2\circ w=w\circ v_1$, then
 $\operatorname{tr}_A(v_1\mid P_1)=\operatorname{tr}_A(v_2\mid P_2)$.
-1. *Triangle additivity.* If
-$P'\to P\to P''\to P'[1]$ is a distinguished triangle in
-$D^b_{\mathrm{fin}}(A)$ with an endomorphism $(v',v,v'')$ of the
-triangle, then
+1. *Filtered (triangle) additivity.* Let $P'\to P\to P''\to P'[1]$ be a
+distinguished triangle in $D^b_{\mathrm{fin}}(A)$ and $(v',v,v'')$ an
+endomorphism of it *of filtered origin*: the triangle is the cofibre
+sequence of a two-step filtered object $P'\subset P$ with graded pieces
+$P'$ and $P''$, and $(v',v,v'')$ is induced by an endomorphism of this
+filtered object in the filtered derived category $DF(A)$ (for instance by
+a chain endomorphism of a short exact sequence $0\to P'\to P\to P''\to0$
+of bounded complexes of finite projective modules, strictly compatible
+with the maps). Then
 $$
 \operatorname{tr}_A(v\mid P)=
 \operatorname{tr}_A(v'\mid P')+\operatorname{tr}_A(v''\mid P'').
 $$
+The filtered origin cannot be dropped: for an endomorphism of a
+distinguished triangle in the Verdier derived category whose squares
+commute only up to unspecified homotopy, additivity fails (Ferrand's
+example, cf. [Stacks, Tag 087J](https://stacks.math.columbia.edu/tag/087J):
+over $R=\mathbf Z/4$, the sequence $0\to R[-1]\to[R\xrightarrow{2}R]\to R\to0$
+with $(v',v,v'')=(0,(0,2),0)$, where $(0,2)$ is $0$ in degree $0$ and
+$2$ in degree $1$, has $\operatorname{tr}_A(v\mid P)=-2\neq0$).
 1. *Scalar extension.* For a ring homomorphism
 $\rho:A\to B$, $\rho\bigl(\operatorname{tr}_A(v\mid P)\bigr) =\operatorname{tr}_B\bigl(v\otimes_A^LB\mid P\otimes_A^LB\bigr)$.
 1. *Supertrace over a field.* For
@@ -86,71 +98,50 @@ $$
 where the second equality uses $v_2\otimes^L1=\iota_w\circ(v_1\otimes^L1) \circ\iota_w^{-1}$ together with the first square, and the third the
 naturality of $\operatorname{sym}$ and the second square.
 
-*(2) Triangle additivity.* The classical lemma on triangulated
-categories used here is: *every distinguished triangle in a
-Verdier triangulated category is isomorphic to the mapping-cone
-triangle of its boundary morphism*: for
-$P'\xrightarrow{u}P\xrightarrow{v}P''\xrightarrow{w}P'[1]$ the
-boundary is $\delta=w[-1]:P''[-1]\to P'$, and the axioms
-(of which the relevant one is the octahedral axiom) give an
-isomorphism of triangles
-
-$$
-\begin{array}{ccccccc}
-P' & \xrightarrow{\ u\ } & P & \xrightarrow{\ v\ } &
-P'' & \xrightarrow{\ w\ } & P'[1]\\
-\cong\downarrow & & \cong\downarrow & & \cong\downarrow & &
-\cong\downarrow\\
-P' & \xrightarrow{\ \ } & \operatorname{cone}(\delta) &
-\xrightarrow{\ \ } & P'' & \xrightarrow{\ \ } & P'[1].
-\end{array}
-$$
-
-The triple $(v',v,v'')$ is transported along this isomorphism to an
-endomorphism $(v'_c,\bar v,v''_c)$ of the cone triangle, the outer
-components being the conjugates of $v'$ and $v''$ by the outer
-vertical isomorphisms; by (1) the traces of the three endomorphisms
-are unchanged by this transport (the outer traces are preserved by
-conjugacy invariance, and the middle trace is well defined on the
-quasi-isomorphism class of the triangle). For the cone, the objects
-and the morphisms are given by complexes: with
-$\delta:P''[-1]\to P'$ a morphism of bounded complexes of finite
-projective modules,
-
-$$
-\operatorname{cone}(\delta)^n=P'^n\oplus P''^n,
-\qquad
-d(b,a)=\bigl(db+\delta(a),-da\bigr),
-$$
-
-and an endomorphism of the cone triangle is a family
-$(\beta^n,\alpha^n,s^n)$ with
+*(2) Filtered additivity.* This is the additivity of the trace on the
+filtered derived category of perfect complexes,
+[Stacks, Tag 03TJ](https://stacks.math.columbia.edu/tag/03TJ). Concretely,
+an object of $DF(A)$ with a two-step filtration and perfect graded pieces is
+represented by a filtered bounded complex of finite projective modules
+$M'\subset M$ with $M'$ and $M''=M/M'$ bounded complexes of finite
+projectives (the sequence $0\to M'\to M\to M''\to0$ is then degreewise
+split), and a morphism in $DF(A)$ between such filtered complexes is
+represented by a strict morphism of filtered complexes (filtered
+quasi-isomorphisms are inverted, and a filtered map out of a filtered
+complex of projectives with projective graded pieces lifts along a filtered
+quasi-isomorphism). A strict endomorphism $\bar v$ of $M'\subset M$ is, in
+degree $n$ and for a splitting $M^n=M'^n\oplus M''^n$, block triangular,
 
 $$
 \bar v^n=\begin{pmatrix}\beta^n & s^n\\ 0 & \alpha^n\end{pmatrix},
 $$
 
-where the diagonal blocks $\beta^n$ and $\alpha^n$ are the
-components of endomorphisms of the complexes $P'$ and $P''$
-representing $v'$ and $v''$, and
-$s^n:P''^n\to P'^n$ is a family of maps subject to the compatibility
-with the differential (its existence is exactly the condition that
-$(v',\bar v,v'')$ is an endomorphism of the cone triangle). The
-trace of a block-triangular matrix is the sum of the traces of the
-diagonal blocks, so by the chain-level formula of
-[lem-trf-chain-supertrace],
+with $\beta$ the restricted chain endomorphism of $M'$, which represents
+$v'$, $\alpha$ the induced chain endomorphism of $M''$, which represents
+$v''$, and $s^n:M''^n\to M'^n$ some family of maps. The trace of a
+block-triangular matrix is the sum of the traces of its diagonal blocks, so
+by the chain-level formula of [lem-trf-chain-supertrace]
 
 $$
 \begin{gathered}
-\operatorname{tr}_A(v\mid P)\\
-=\sum_i(-1)^i\operatorname{Tr}(\bar v^i\mid\operatorname{cone}(\delta)^i)\\
-=\sum_i(-1)^i\operatorname{Tr}(v'^i\mid P'^i)
-+\sum_i(-1)^i\operatorname{Tr}(v''^i\mid P''^i)\\
+\operatorname{tr}_A(v\mid P)
+=\sum_i(-1)^i\operatorname{Tr}(\bar v^i\mid M^i)\\
+=\sum_i(-1)^i\operatorname{Tr}(\beta^i\mid M'^i)
++\sum_i(-1)^i\operatorname{Tr}(\alpha^i\mid M''^i)
 =\operatorname{tr}_A(v'\mid P')+\operatorname{tr}_A(v''\mid P''),
 \end{gathered}
 $$
 
-which is (2).
+the traces being independent of the chosen representatives by (1) and
+[lem-trf-chain-supertrace]. The flaw of the naive argument for an
+arbitrary endomorphism $(v',v,v'')$ of the triangle in the plain derived
+category is visible here: one then only knows that $v$ is represented by a
+chain map $M\to M$ whose squares with $M'\to M$ and $M\to M''$ commute up
+to homotopy, and such a map need not be block triangular with diagonal
+blocks representing $v'$ and $v''$. In Ferrand's example above every chain
+representative of $v$ acts on the subcomplex $M'=R[-1]$ by $2$, which
+represents $2\neq v'=0$ (the square commutes only up to the homotopy
+$\mathrm{id}:M'^1\to M^0$), and the supertraces differ by $-2$.
 
 *(3) Scalar extension.* The derived scalar extension
 $F=-\otimes_A^LB:D(A)\to D(B)$ is exact (it is the derived tensor
@@ -226,9 +217,10 @@ $$
 0\to P^{\leq i}\to P^{\leq i+1}\to C_i\to0
 $$
 
-are degreewise split, hence give distinguished triangles of
-$D^b_{\mathrm{fin}}(\Lambda)$ compatible with the endomorphisms. By
-(2), and by the chain-level computation of
+are degreewise split short exact sequences of complexes with strictly
+compatible chain endomorphisms, hence give distinguished triangles of
+$D^b_{\mathrm{fin}}(\Lambda)$ with endomorphisms of filtered origin in the
+sense of (2). By (2), and by the chain-level computation of
 [lem-trf-chain-supertrace] applied to $C_i$,
 
 $$
