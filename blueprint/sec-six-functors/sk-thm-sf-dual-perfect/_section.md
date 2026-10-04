@@ -9,7 +9,7 @@ lean = ["AlgebraicGeometry.Etale.Orientation.nonempty_iso_verdierDual_coefficien
 *Theorem (sketch).*
 
 Let $f:X\to Y$ be smooth, separated of finite type and of pure relative
-dimension $d$, admissible, with orientation
+dimension $d$, with orientation
 $\gamma_f=\gamma_{f,\Lambda_Y}:\Lambda_X(d)[2d]\xrightarrow{\sim}Rf^!\Lambda_Y$
 of [sk-def-sf-orientation] (which is [sk-thm-smooth-purity]; the base $Y$
 is arbitrary within the setting of [sk-def-sf-orientation]). Put

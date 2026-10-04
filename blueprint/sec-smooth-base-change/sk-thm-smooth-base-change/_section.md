@@ -47,9 +47,11 @@ affine and $X\to S$ factoring through $\Aaf^d_S$; writing $X\to \Aaf^{d-1}_S\to\
 compatibility of the base-change map, it suffices to prove the
 assertion for affine smooth $X\to S$ of relative dimension one.
 *Induction on $q$*: for $q\ge1$ with the theorem known in
-degrees $<q$, the hypothesis of [sk-lem-induction] holds (applied
-after arbitrary base change), and the lemma gives
-$\mathrm{BC}(f,n,q)$; running the filtered colimit back over $n$
+degrees $<q$, that theorem applied to every base change $f_{S'}$ of
+$f$ (again affine smooth of relative dimension one) and every qcqs
+$T\to S'$ is exactly $\mathrm{UBC}^{\le q-1}(f,n)$, the hypothesis of
+[sk-lem-induction]; the lemma gives $\mathrm{BC}(f,n,q)$ (indeed
+universally); running the filtered colimit back over $n$
 finishes the degree-$q$ case. Induction on $q$ concludes.
 
 Uses: [sk-def-bc], [sk-def-smooth], [sk-lem-induction], [sk-prop-deg0], [sk-prop-input-spreading], [sk-prop-input-torsors]

@@ -27,10 +27,14 @@ compiled blueprint the layer is carried by
 `thm-weil-final-functional-equation`).
 
 *The one structural point.* The coefficients of $Z$ are integral
-*by construction* (the exponential definition, [prop-euler-product]), while
+*by the Euler product* ([prop-euler-product]; the exponential definition
+alone only gives rational coefficients), while
 the factorization is $\ell$-adic *by construction* (one chosen $\ell$,
 [prop-trace-determinant]). The two meet exactly twice: in the
 rationality descent of [prop-rational-descent], where integrality of the
 coefficients propagates the Hankel rank bound from $\Ql$ to $\Q$, and in the
-realization-independence of [prop-integral-recovery]. Every step that may split
+realization-independence of [prop-integral-recovery], where integrality of the
+coefficients enters once more through Fatou's lemma, which produces the
+integral presentation $Z=A/B$ and with it the integrality of the reciprocal
+roots. Every step that may split
 into very many statements is marked qualitatively above.

@@ -10,15 +10,18 @@ order = 2257
 [sk-thm-sf-package] except for the residues named below; the orientation
 clause (5); the perfect case of clause (6); every statement of
 §§ *What the earlier chapters prove* except where a *Conditional on* line says otherwise.
-*Conditional*: (a) the pro-étale existence half of clause (1) and, with
-it, the general clause (v) and (vi) of [sk-thm-sf-ctf-stability] and the
-general biduality of [sk-prop-sf-biduality-general] rest on
-$\operatorname{FullCD}$ for the compactification, whose exact residue is the
-uniform vanishing on the pro-étale module sheaves that are *not* of
-étale origin; on the étale-origin class — which contains every object of
-$\Dctf$ — $\operatorname{FullCD}$ is the theorem
-[sk-prop-sf-fullcd-etale-origin], so the residue affects only the ambient
-half of [sk-prop-sf-existence] (b) ([sk-rem-sf-fullcd-scope]).
+*Conditional*: (a) only the optional *ambient* half of clause (1)
+— the adjunction $Rf_!\dashv Rf^{\times}$ on all of $D(-_{\Proet},\Lambda)$,
+[sk-prop-sf-existence](b) — which rests on the ambient datum
+$\operatorname{FullCD}$ for the compactification; that hypothesis is
+*false in general* ([sk-rem-sf-fullcd-scope]), so this half
+is not a theorem, and it is consumed by nothing: clauses (v) and (vi) of
+[sk-thm-sf-ctf-stability], the general biduality of
+[sk-prop-sf-biduality-general] and every other use of $Rf^!$ are formulated
+with the unconditional constructible adjoint of [sk-def-sf-operations](vi),
+[sk-prop-sf-existence](c), on the étale-origin class, where
+$\operatorname{FullCD}$ is the theorem [sk-prop-sf-fullcd-etale-origin]
+([sk-rem-sf-fullcd-scope]).
 (b) Clause (vii) of [sk-thm-sf-ctf-stability] in the case of a reduction
 tower with no uniform trivializing cover
 (no uniform trivializing cover). (c) [sk-prop-sf-comp-coherence],

@@ -3,7 +3,7 @@ id = "sk-prop-cohsm"
 kind = "section"
 title = "Cohomological smoothness"
 order = 1991
-uses = ["sk-prop-a1", "sk-prop-an"]
+uses = ["sk-prop-a1", "sk-prop-an", "sk-prop-sf-cbc"]
 lean = ["AlgebraicGeometry.Etale.isInvertible_dualizingComplex", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_obj_derivedTensor", "AlgebraicGeometry.Etale.nonempty_iso_leftDerivedUpperStar_comp_rightDerivedUpperShriek"]
 +++
 *Proposition (sketch).*
@@ -16,10 +16,24 @@ rank-one object, canonically formed, compatible with base change);
 1. **(b)** *tensor formula:* for every
 $K\in D^b_{ctf}(Y,\Lambda)$,
 $Lf^{*}K\otimes^{\mathbb L}\omega_f\ \cong\ Rf^{!}K$;
-1. **(c)** *smooth base change for $R^{!}$:* in a Cartesian
-square with $f$ smooth and $f'$ the base change,
-$Rp'^{!}Lf^{*}\cong Lg^{*}Rf^{!}$; in particular, in the diagonal
-square,
+1. **(c)** *smooth base change for $R^{!}$:* for every Cartesian
+square
+$$
+\begin{array}{ccc}
+X'&\xrightarrow{\ u\ }&X\\
+{\scriptstyle f'}\downarrow&&\downarrow{\scriptstyle f}\\
+Y'&\xrightarrow{\ v\ }&Y
+\end{array}
+$$
+with $f$ smooth (so $f'$ is smooth of the same relative dimension) and $v$
+arbitrary, the canonical comparison maps
+$$
+Lu^{*}Rf^{!}K\ \xrightarrow{\ \sim\ }\ Rf'^{!}Lv^{*}K
+\quad(K\in D^b_{ctf}(Y,\Lambda)),\qquad
+Lu^{*}\omega_f\ \xrightarrow{\ \sim\ }\ \omega_{f'}
+$$
+are isomorphisms; in particular, in the diagonal square ($X'=X\times_YX$,
+$u=p_2$, $v=f$, $f'=p_1$, and symmetrically),
 $\omega_{p_1}\cong Lp_2^{*}\omega_f$, $\omega_{p_2}\cong Lp_1^{*}\omega_f$.
 
 Content: the proof is Steps 1–6 below; the model case is Move
@@ -144,28 +158,34 @@ for the twist, $\omega_f\cong\mathcal L[2d]$ is invertible, with
 inverse $\mathcal L^{-1}[-2d]$ (the shift is compatible with
 $\otimes^{\mathbb L}$ on bounded objects): this is (a).
 
-*Step 5: base change and (c).* Let $v:Y'\to Y$ be a base
-change and $f'$ the base-changed morphism. The canonical map
-$Lv^{*}\omega_f\to\omega_{f'}$: after the base change of the
-charts (the normal form and the model base-change of
-[sk-prop-an] (ii)), the diagram is transported to the model case
-$p_d:\Aaf^d_{Y'}\to Y'$, where the map is the identity of the
-constant $\Lambda(d)[2d]$; hence it is étale-locally (in the
-source and the base) the identity, and by the same stalk/step-(iii)
-argument it is an isomorphism — so
-$Lv^{*}\omega_f\cong\omega_{f'}$, and, together with the naturality
-of $\varphi$, the same argument gives the compatibility of
-$\varphi$ with base change. Read in the Cartesian square with $f$
-smooth,
+*Step 5: base change and (c).* Let $v:Y'\to Y$ be arbitrary and
+form the Cartesian square of (c), with $u:X'=X\times_YY'\to X$ and
+$f':X'\to Y'$ the base change of $f$. The canonical comparison
+$Lu^{*}Rf^{!}K\to Rf'^{!}Lv^{*}K$ is the transpose, under
+$Rf'_!\dashv Rf'^{!}$, of
+$Rf'_!Lu^{*}Rf^{!}K\xleftarrow{\ \mathrm{Ex}_!\ }Lv^{*}Rf_!Rf^{!}K \xrightarrow{\ Lv^{*}\varepsilon\ }Lv^{*}K$, with $\mathrm{Ex}_!$ invertible
+by [sk-prop-sf-cbc]; for $K=\Lambda_Y$ it is the map
+$Lu^{*}\omega_f\to\omega_{f'}$ (note that $\omega_f=Rf^{!}\Lambda_Y$ lives on
+$X$, so it is pulled back along $u$, not along $v$). After the base change
+of the charts (the normal form and the model base-change of
+[sk-prop-an] (ii)), the comparison is transported to the model case
+$p_d:\Aaf^d_{Y'}\to Y'$, where it is the identity of the constant
+$\Lambda(d)[2d]$; hence it is étale-locally (in the source and the base)
+the identity, and by the same stalk/step-(iii) argument it is an isomorphism
+— so $Lu^{*}\omega_f\cong\omega_{f'}$, and, together with the naturality of
+$\varphi$, the same argument gives the compatibility of $\varphi$ with base
+change, hence $Lu^{*}Rf^{!}K\cong Rf'^{!}Lv^{*}K$ for every $K$ (the two
+canonical maps being compatible through $\varphi$ and the projection
+formula). Specializing to the diagonal square $X\times_YX$ with its two
+projections ($u=p_2$, $v=f$, $f'=p_1$, and symmetrically) gives
 
 $$
-Rp_1^{!}Lf^{*}\ \cong\ Lp_2^{*}Rf^{!},
+Lp_2^{*}Rf^{!}\ \cong\ Rp_1^{!}Lf^{*},\qquad
+\omega_{p_1}\cong Lp_2^{*}\omega_f,\qquad
+\omega_{p_2}\cong Lp_1^{*}\omega_f .
 $$
 
-in particular $\omega_{p_1}\cong Lp_2^{*}\omega_f$ and
-$\omega_{p_2}\cong Lp_1^{*}\omega_f$ (the case $K=\Lambda_Y$ with
-$v=p_2$; general $K$ follows by the projection formula, the two
-canonical maps being compatible). This is (c).
+This is (c).
 
 *Step 6: composition.* The canonical map is natural in $f$;
 for composable smooth morphisms both the associators and the
@@ -175,4 +195,4 @@ compatible with the tower of affine-space projections — hence the
 composition compatibility used in the diagonal argument (the chain
 rule $\omega_{vu}\cong\omega_u\otimes Lu^{*}\omega_v$).
 
-Uses: [sk-prop-a1], [sk-prop-an]
+Uses: [sk-prop-a1], [sk-prop-an], [sk-prop-sf-cbc]

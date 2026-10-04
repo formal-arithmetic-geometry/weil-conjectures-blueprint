@@ -59,19 +59,22 @@ transformations;
 $$
 Rf^!:D^b_c(Y,\Lambda)\longrightarrow D^b_c(X,\Lambda),
 $$
-the right adjoint of $Rf_!$, as in
+the right adjoint of $Rf_!$ on the bounded constructible categories, as in
 the exceptional inverse
-image notation, whose existence, interval boundedness, finite-Tor
-preservation, and refinement compatibility of units and counits are
-the explicit hypothesis
+image notation [def-weil-exceptional-inverse-image]: the constructible
+exceptional adjoint, transported from the etale one, whose existence and
+adjunction, interval boundedness, finite-Tor preservation, and refinement
+compatibility of units and counits are theorems for every separated
+finite-type morphism of finite-type $k$-schemes (thm-sf-ambient-adjoint-class,
+thm-sf-preservation-class); the ambient notion
 exceptional-adjoint
-admissibility;
+admissibility is not assumed, its clause (1) being false in general;
 1. the dualizing objects $\omega_{X,\Lambda}=Ra_X^!\Lambda$ and
 the Verdier dual $D_X(-)=R\mathcal Hom_{\Lambda}(-,\omega_{X,\Lambda})$,
 formed from the exceptional adjoint and the derived internal Hom already
-listed above, whenever the structure morphism is admissible.
+listed above, for every separated finite-type $X$.
 
 This definition names operations and their construction data. It asserts
 neither smooth purity nor Verdier biduality. Preservation of the displayed
 constructible domains is established by the separate operation theorems;
-the adjoint is used only with the stated admissibility hypothesis.
+the adjoint is the constructible one, available without hypothesis.

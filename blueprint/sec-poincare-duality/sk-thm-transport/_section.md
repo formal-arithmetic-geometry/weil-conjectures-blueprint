@@ -38,7 +38,9 @@ stagewise and the comparison maps are equivariant
 thm:pod-qbar-coefficient-pairing).
 *Step 3 (what is transported).* The transported data are exactly the
 isomorphism, its degreewise form, the map of [sk-cor-trace] and the
-equivariance, similitude and reciprocity of [sk-thm-frobenius], since each
+equivariance and similitude of [sk-thm-frobenius] (a) at every stage,
+together with its reciprocity clause (b) at the field stages $E$ and
+$\Qlb$ only, where the degreewise form is perfect; each
 of these is constructed from the pairing and the trace alone and no further
 input enters.
 

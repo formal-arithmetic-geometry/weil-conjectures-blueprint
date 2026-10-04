@@ -18,7 +18,11 @@ finite-Tor subcategories, the
 separated finite-type
 morphism conditions, and the
 exceptional-adjoint
-admissibility condition. Use the
+admissibility condition in its constructible form (the exceptional inverse
+image of [def-weil-exceptional-inverse-image], defined for every separated
+finite-type morphism; the ambient clause (1) of
+[def-weil-exceptional-adjoint-admissibility] is not assumed, as it fails in
+general). Use the
 derived pullback, tensor, and
 internal-Hom operations, the
 derived direct-image and
@@ -55,9 +59,10 @@ g_Y=\operatorname{id}_{Y_0}\times\operatorname{Spec}(\operatorname{Frob}_q),
 $$
 
 using the geometric-Frobenius convention.
-If $f$ is
-exceptional-adjoint
-admissible, then $Rf^!$ also has an equivariant lift, with its Weil
+The constructible exceptional inverse image $Rf^!$ of
+[def-weil-exceptional-inverse-image] — available for every separated
+finite-type $f$, so that no admissibility hypothesis is needed — also has an
+equivariant lift, with its Weil
 isomorphism induced by the corresponding exchange and adjunction maps. For
 example, the Weil isomorphism on $Rf_*K$ is
 

@@ -29,8 +29,10 @@ coordinate algebra over the image of Frobenius. Thus $\Phi_m$ is
 finite, hence proper, as required by [sk-d-operator]. Each fixed point
 is a reduced clopen component. At $x$, with $a_i=t_i(x)$, one has
 $\Phi_m^*(t_i-a_i)=(t_i-a_i)^{q^m}$. Consequently the induced map on
-the cotangent space is zero; the graph and diagonal satisfy the curve
-general-position hypotheses used in [sk-i-curve-zero].
+the cotangent space is zero, i.e. the graph correspondence $(1,\Phi_m)$
+is contracting near $\bar x$ in the sense used in [sk-i-curve-zero];
+that contracting property, not a stalk computation, is what makes the
+local terms of this correspondence computable from stalks.
 
 Use the pieces of [sk-d-curve-pieces]. The open piece
 $K^U=j_!j^*K$ is an extension by zero across the closed point $\bar x$,

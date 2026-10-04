@@ -37,7 +37,15 @@ $S'\to S$ (here $n$ is invertible on $S'$ because it is invertible on
 $S$); this is the form in which the property is used, since the
 arguments below apply it to base changes of $f$, and to horizontal
 sides $T\to S'$ whose composite with $S'\to S$ need not be
-quasi-compact and quasi-separated. The smooth-base-change theorem of
+quasi-compact and quasi-separated. We write $\mathrm{UBC}^{\le q}(f,n)$
+for the cumulative universal property "$BC(f,n,q')$ holds universally
+for all $q'\leq q$"; it is the property $BC(f,n,q)$ of the Stacks
+Project, Tag 0F02, and it is the hypothesis of the reduction lemmas of
+this chapter. The fixed-base property does not imply the universal one:
+there are flat, finitely presented $f$ with geometrically connected
+fibres for which $BC(f,n,0)$ holds but $BC(f_{\mathbf A^1_S},n,0)$
+fails, so the quantifier over $S'\to S$ cannot be dropped from the
+hypotheses. The smooth-base-change theorem of
 this chapter is the assertion $BC(f,n,q)$ for every $q$ and every
 smooth $f$; since smoothness is stable under base change, it gives
 $BC(f,n,q)$ universally for every smooth $f$ and every $q$.

@@ -21,10 +21,12 @@ $$
 Q\xrightarrow{\ \eta_i^!\ }Ri^!Ri_*Q .
 $$
 
-No boundedness or constructibility of $Q$ is required. In particular, if $i$
-carries the ambient exceptional right adjoint datum
-[def-weil-ambient-exceptional-adjoint], computed with the compactification
-$Z\xrightarrow{\mathrm{id}}Z\xrightarrow{i}T$ so that $Ri_{!,n}=Ri_*$, then
+No boundedness or constructibility of $Q$ is required. In particular, for the
+constructible exceptional adjoint $Ri^!$ of
+[def-weil-exceptional-inverse-image] — which exists without the ambient datum
+of [def-weil-ambient-exceptional-adjoint], that datum being false in general —
+computed with the compactification
+$Z\xrightarrow{\mathrm{id}}Z\xrightarrow{i}T$ so that $Ri_{!,n}=Ri_*$,
 for $Q\in D^b_c(Z,A)$ the unit of the adjunction
 $\Hom_T(Ri_!K,L)\cong\Hom_Z(K,Ri^!L)$ of
 [def-weil-exceptional-inverse-image] is an isomorphism

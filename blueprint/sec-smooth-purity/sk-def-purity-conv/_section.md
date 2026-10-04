@@ -3,6 +3,7 @@ id = "sk-def-purity-conv"
 kind = "section"
 title = "Purity conventions and the rank-one datum"
 order = 1886
+uses = ["sk-def-sf-operations"]
 lean = ["AlgebraicGeometry.Etale.sectionInvariant", "AlgebraicGeometry.Etale.dualizingComplex", "AlgebraicGeometry.Scheme.Hom.NormalConeData", "AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData"]
 +++
 *Remark (sketch).*
@@ -10,8 +11,9 @@ lean = ["AlgebraicGeometry.Etale.sectionInvariant", "AlgebraicGeometry.Etale.dua
 Finite coefficients $\Lambda=A=A_{E,n}=\mathcal O_E/\varpi^n$ for a finite
 extension $E/\mathbf Q_\ell$ with uniformizer $\varpi$, with $\ell$ invertible on
 every scheme in sight ($\ell\ne p$ in characteristic $p$); pro-étale sites,
-$D^b_{ctf}(T,\Lambda)$ with twists $(-)(m)$, exceptionally admissible
-$Rf^{!}$. For $Y$ separated finite type: $\Aaf^1_Y$, zero section
+$D^b_{ctf}(T,\Lambda)$ with twists $(-)(m)$, and the constructible exceptional
+inverse image $Rf^{!}$ of [sk-def-sf-operations](vi), which exists for every
+separated finite-type morphism (no admissibility hypothesis). For $Y$ separated finite type: $\Aaf^1_Y$, zero section
 $s:Y\hookrightarrow\Aaf^1_Y$, open complement
 $j:\mathbf G_{m,Y}\hookrightarrow\Aaf^1_Y$, global coordinate $t$; the
 finite-level twist is $A(1)=\mu_{\ell^N}\otimes_{\Z/\ell^N}A$, where

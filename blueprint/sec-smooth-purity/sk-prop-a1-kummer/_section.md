@@ -3,7 +3,7 @@ id = "sk-prop-a1-kummer"
 kind = "section"
 title = "The affine line and $\\mathbf G_m$ with $\\Lambda(1)$-coefficients"
 order = 1900
-uses = ["sk-def-av-pic", "sk-def-curve", "sk-def-purity-conv", "sk-prop-cd", "sk-prop-kummer-exact", "sk-thm-smooth-base-change"]
+uses = ["sk-def-av-pic", "sk-def-curve", "sk-def-purity-conv", "sk-prop-cd", "sk-prop-cd-affine", "sk-prop-kummer-exact", "sk-thm-smooth-base-change"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerStar_affineLine", "AlgebraicGeometry.Etale.nonempty_iso_homology_zero_multiplicativeGroup", "AlgebraicGeometry.Etale.nonempty_iso_homology_one_multiplicativeGroup", "AlgebraicGeometry.Etale.isZero_homology_multiplicativeGroup"]
 +++
 *Proposition (sketch).*
@@ -26,16 +26,53 @@ Compare Milne, *Lectures on Étale Cohomology*, §16; SGA 4, IX.
 
 ## Proof
 
-*Reduction to a geometric fibre.* $p$ and $\pi$ are smooth, so by
-smooth base change ([sk-thm-smooth-base-change]; §[sec-smooth-base-change]
-does not use the present section, so the reference is not circular) the
-formation of $Rp_*\Lambda$ and $R\pi_*\Lambda(1)$ commutes with arbitrary
-base change on $Y$. All three clauses may therefore be checked on stalks,
-i.e. for $Y=\Spec k$ with $k$ separably closed, and after enlarging $k$ we
-may take it algebraically closed. Then $\Aaf^1_k$ and $\mathbf G_{m,k}$ are
-affine curves in the sense of [sk-def-curve]. The twist $\Lambda(1)$ is
-pulled back from $Y$, so by the projection formula the twisted and untwisted
-statements determine one another.
+*Reduction to a geometric fibre.* Smoothness of $p$ and $\pi$ is
+*not* what reduces the statement to a fibre: smooth base change
+([sk-thm-smooth-base-change]) requires the *base-changing* arrow to
+be smooth, and the formation of a direct image does not in general commute
+with an arbitrary base change of $Y$ (for $j:\mathbf G_{m,k}\hookrightarrow \Aaf^1_k$ one has $(j_*\Lambda)_{\bar 0}=\Lambda$, while the source
+base-changed to $\bar 0$ is empty). The reduction is the following, with
+$k=\overline{\mathbf F}_q$ the algebraically closed field of
+[sk-def-sf-setting] over which $Y$ lives. Let $\bar y$ be a geometric
+point of $Y$ and $S'=\Spec\mathcal O^{\mathrm{sh}}_{Y,\bar y}$ its strict
+henselization, a $k$-scheme. As $p$ and $\pi$ are quasi-compact and
+quasi-separated, the stalk formula gives
+$(Rp_*\Lambda)_{\bar y}\simeq R\Gamma(\Aaf^1_{S'},\Lambda)$ and
+$(R\pi_*\Lambda(1))_{\bar y}\simeq R\Gamma(\mathbf G_{m,S'},\Lambda(1))$,
+compatibly with $p^*$ and with the restriction of $\kappa(t)$. Now
+$\Aaf^1_{S'}=\Aaf^1_k\times_kS'$, and smooth base change applies to the
+Cartesian square whose *smooth* side is $\Aaf^1_k\to\Spec k$ and whose
+base-changing arrow is $g:S'\to\Spec k$ (quasi-compact quasi-separated), for
+the constant sheaf $\Lambda$ on $S'$: with $h:\Aaf^1_{S'}\to\Aaf^1_k$ the
+projection, $f^{-1}R^qg_*\Lambda\xrightarrow{\sim}R^qh_*\Lambda$. Since $S'$
+is strictly henselian and $k$ algebraically closed, $R^qg_*\Lambda$ is the
+constant sheaf $H^q(S',\Lambda)$, i.e. $\Lambda$ for $q=0$ and $0$ for
+$q>0$; hence $\Lambda_{\Aaf^1_k}\xrightarrow{\sim}Rh_*\Lambda$ and
+$h^*:R\Gamma(\Aaf^1_k,\Lambda)\xrightarrow{\sim}R\Gamma(\Aaf^1_{S'},\Lambda)$.
+The same square with $\mathbf G_{m,k}$ in place of $\Aaf^1_k$ gives
+$h^*:R\Gamma(\mathbf G_{m,k},\Lambda(1))\xrightarrow{\sim} R\Gamma(\mathbf G_{m,S'},\Lambda(1))$, carrying the Kummer class of the
+coordinate of $\mathbf G_{m,k}$ to the restriction of $\kappa(t)$ (the Kummer
+boundary commutes with pullback). These are the specific
+$\Aaf^1$- and $\mathbf G_m$-homotopy-invariance inputs over a strictly
+henselian base (§[sec-smooth-base-change] does not use the present
+section, so the reference is not circular). All three clauses are
+statements about cohomology sheaves and about the sections $p^*$, $\kappa(t)$
+of them, so they may be checked on geometric stalks, where they become the
+corresponding statements for $\Aaf^1_k$ and $\mathbf G_{m,k}$ over the
+algebraically closed $k$; geometric stalks are conservative. Then
+$\Aaf^1_k$ and $\mathbf G_{m,k}$ are affine curves in the sense of
+[sk-def-curve]. The twist $\Lambda(1)$ is pulled back from $Y$, so by the
+projection formula the twisted and untwisted statements determine one
+another.
+
+*Base change on $Y$.* For $g:Y'\to Y$ with base changes $p',\pi'$ and
+coordinate $t'$, the base-change maps $g^*Rp_*\Lambda\to Rp'_*\Lambda$ and
+$g^*R\pi_*\Lambda(1)\to R\pi'_*\Lambda(1)$ are compatible with the units
+$p^*,\pi^*$ and carry $g^*\kappa(t)$ to $\kappa(t')$. Once (a)–(c) are
+known over $Y$ and over $Y'$, both sides have cohomology sheaves only in
+degree $0$ (resp. degrees $0,1$), identified by these sections, so the
+base-change maps are isomorphisms. The compatibility with base change in
+the statement is thus a consequence of (a)–(c), not an input to their proof.
 
 *Coefficients.* With $N$ as in [sk-def-purity-conv], $\ell^NA=0$ and
 $\Lambda(1)=\mu_{\ell^N}\otimes_{\Z/\ell^N\Z}A$. We reduce to
@@ -60,7 +97,7 @@ over $\Z/\ell^N\Z$, and one may instead tensor the $\mu_{\ell^N}$-computation
 with $A$ directly.)
 
 *Clause (c).* $\ell$ is prime to $\operatorname{char}k$ and both curves
-are affine, so [sk-prop-cd] gives $H^q(-,\mu_{\ell^N})=0$ for $q\ge2$.
+are affine, so [sk-prop-cd-affine] gives $H^q(-,\mu_{\ell^N})=0$ for $q\ge2$.
 This is (c), and it reduces (a) and (b) to degrees $0$ and $1$.
 
 *Degrees $0$ and $1$.* By [sk-prop-kummer-exact] with $n=\ell^N$

@@ -13,10 +13,13 @@ connected of pure dimension $d\in\mathbf Z_{\geq0}$. Put
 $X=X_0\times_{k_0}k$, and let $a_X:X\to\Spec k$ be its structure morphism.
 Write $H^i(X,-)$ and $H_c^i(X,-)$ for the ordinary and compactly supported
 cohomology groups, and, for every integer $m$, write $\Ql(m)$ for the Tate
-twist [def-coefficient-twists-detailed] of degree $m$. Assume that $a_X$ is
-exceptional-adjoint admissible at $\Ql$ and $\Qlb$, and write $Ra_X^!$ and
-$\otimes^L$ for the exceptional inverse image and the derived tensor product,
-respectively, using the derived pullback/tensor/Hom notation. Choose an
+twist [def-coefficient-twists-detailed] of degree $m$. Write $Ra_X^!$ for
+the constructible exceptional inverse image of
+[def-weil-exceptional-inverse-image] at $\Ql$ and $\Qlb$ — defined for every
+separated finite-type morphism, so no admissibility hypothesis on $a_X$ is
+imposed (the ambient notion of [def-weil-exceptional-adjoint-admissibility]
+is not used) — and $\otimes^L$ for the derived tensor product, using the
+derived pullback/tensor/Hom notation. Choose an
 orientation isomorphism for the smooth structure morphism $a_X:X\to\Spec k$,
 
 $$

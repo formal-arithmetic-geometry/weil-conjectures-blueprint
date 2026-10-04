@@ -7,18 +7,26 @@ uses = ["sk-def-av-pic", "sk-def-br", "sk-def-curve", "sk-prop-hilbert90", "sk-p
 +++
 *Proposition (sketch).*
 
-For $C$ as in [sk-def-curve] and every $F$ in
-$D^b(C_{\Et},\Z/n)$ with $n$ prime to $\operatorname{char}k$:
+For $C$ as in [sk-def-curve], $n$ prime to $\operatorname{char}k$,
+and every sheaf $F$ of $\Z/n$-modules on $C_{\Et}$ (more generally
+every torsion sheaf whose torsion is prime to $\operatorname{char}k$):
 $H^q(C,F)=0$ for $q\ge3$ (the étale cohomological dimension of a
 curve over an algebraically closed field is $\le2$; the sharper
 bound $\le1$ for $C$ affine is [sk-prop-cd-affine], and the
 $p$-primary bound in characteristic $p$ goes through the
-Artin–Schreier sequence).
+Artin–Schreier sequence). Consequently, for a complex $F$ in
+$D^b(C_{\Et},\Z/n)$ with $\mathcal H^i(F)=0$ for $i>b$, one has
+$H^q(C,F)=0$ for $q>b+2$; the shift cannot be dropped, since
+$F=(\Z/2)[-3]$ on $\Pone$ has $H^3(\Pone,F)=H^0(\Pone,\Z/2)\neq0$.
 
 ## Proof
 
-The hypercohomology spectral sequence reduces a bounded complex to its
-cohomology sheaves, so it is enough to treat a single torsion sheaf $F$.
+We first treat a single torsion sheaf $F$. The complex form then
+follows from the hypercohomology spectral sequence
+$E_2^{a,i}=H^a(C,\mathcal H^i(F))\Rightarrow H^{a+i}(C,F)$: its
+$E_2$-terms vanish for $a\ge3$ by the sheaf case and for $i>b$ by
+hypothesis, so $H^q(C,F)=0$ for $q>b+2$ (the shift $b$ stays in the
+bound; it does not become $q\ge3$).
 The argument of Blueprint 06b/06c runs at the generic point; it does
 *not* pass through [sk-prop-cd-affine], so there is no circularity.
 

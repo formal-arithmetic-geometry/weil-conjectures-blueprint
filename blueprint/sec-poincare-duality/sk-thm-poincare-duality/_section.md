@@ -3,13 +3,15 @@ id = "sk-thm-poincare-duality"
 kind = "section"
 title = "Poincaré duality"
 order = 2452
-uses = ["sk-cor-trace", "sk-def-pairing", "sk-def-set", "sk-def-trace-cup", "sk-def-weil", "sk-lem-finite", "sk-prop-sf-biduality-general", "sk-prop-sf-dualizable-biduality", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-purity-transport", "sk-thm-sf-global-duality", "sk-thm-sf-identification", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange", "sk-thm-transport"]
+uses = ["sk-cor-trace", "sk-def-pairing", "sk-def-set", "sk-def-sf-operations", "sk-def-trace-cup", "sk-def-weil", "sk-lem-finite", "sk-prop-sf-biduality-general", "sk-prop-sf-dualizable-biduality", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-purity-transport", "sk-thm-sf-global-duality", "sk-thm-sf-identification", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange", "sk-thm-transport"]
 +++
 *Theorem (sketch).*
 
 Let $p$ be prime, $a\ge1$, $q=p^a$, $k_0=\Fq$, $k=\overline{\mathbf F}_q$, $\ell\ne p$. Let $X_0/k_0$ be smooth, proper and geometrically
-connected of pure dimension $d$, put $X=X_0\times_{k_0}k$ and assume
-$a_X:X\to\Spec k$ exceptional-adjoint admissible. Let
+connected of pure dimension $d$, and put $X=X_0\times_{k_0}k$ with
+structure morphism $a_X:X\to\Spec k$ (no admissibility hypothesis: the
+exceptional adjoint used is the unconditional one of
+[sk-def-sf-operations](vi), [sk-def-set]). Let
 $K_X=(\Ql)_X$ with its canonical Weil structure, $F$ the geometric
 Frobenius on $\RGamma(X,K_X)$ and on the $H^i(X,\Ql)$, and
 $\langle-,-\rangle_i$ the trace–cup pairing with values in $\Ql(-d)$.
@@ -52,8 +54,9 @@ $\Qlb$-stage by [sk-thm-transport]. Item (3): the degreewise form of
 $\langle-,-\rangle_i$ after that transport, and the graded-commutativity
 clause $\langle y,x\rangle_{2d-i}=(-1)^i\langle x,y\rangle_i$ is the
 graded-commutativity of the cup product entering the definition of the
-pairing ([sk-def-trace-cup]). Items (4) and (5) are [sk-thm-frobenius]:
-the similitude is its untwisted clause, and the eigenvalue statement is the
+pairing ([sk-def-trace-cup]). Items (4) and (5) are [sk-thm-frobenius]
+at the field stage $\Qlb$: the similitude is its untwisted clause (a), and
+the eigenvalue statement is clause (b), the
 conjugation of $F_{K^\vee}$ with $q^d(F_{c,K}^{-1})^{\mathsf t}$ together
 with the invariance of the characteristic polynomial under transposition.
 Item (6): if $k_0'/k_0$ has degree $r$, then the geometric Frobenius of
