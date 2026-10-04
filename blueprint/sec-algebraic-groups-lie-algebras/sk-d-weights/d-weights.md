@@ -4,7 +4,7 @@ kind = "definition"
 title = "Operations and weight characters"
 order = 2537
 uses = ["d-monodromy", "def-mg-determinant-line", "def-mg-weil-composition-series"]
-lean = ["Representation.RealWeightCharacter", "Representation.detCharacter", "Representation.HasFiniteGeometricDet", "Representation.detWeight"]
+lean = ["Representation.RealCharacter", "Representation.detCharacter", "Representation.HasFiniteGeometricDet", "Representation.detWeight"]
 +++
 Representations of the same degree datum ([d-monodromy]) have
 diagonal tensor action and the induced action on exterior powers.

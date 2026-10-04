@@ -5,7 +5,7 @@ title = "A positive central representative"
 order = 2527
 tags = ["latex:proposition"]
 uses = ["d-central", "d-monodromy", "lem-ag-closure-commutators", "lem-wf-algebraic-component-cosets", "p-product"]
-lean = ["RepresentedDegreeDatum.exists_isPositiveCentralPair"]
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair"]
 +++
 Every semisimple represented degree datum ([d-monodromy])
 admits a positive central pair ([d-central]) $(N,z)$, that is $N>0$ and

@@ -4,7 +4,7 @@ kind = "section"
 title = "A positive central representative"
 order = 2526
 uses = ["sk-d-central", "sk-d-monodromy", "sk-i-restriction", "sk-p-geometry", "sk-p-product"]
-lean = ["RepresentedDegreeDatum.exists_isPositiveCentralPair"]
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair"]
 +++
 *Proposition (sketch).*
 
