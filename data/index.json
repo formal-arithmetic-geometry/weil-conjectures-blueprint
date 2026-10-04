@@ -85,6 +85,13 @@
    "date": "2026-10-04"},
   {"summary":
    {"total": 2318,
+    "proved": 342,
+    "byStatus": {"stated": 90, "proved": 342, "missing": 25, "absent": 1861}},
+   "sha": "d950052b2e3f02eb891db190a197850928b3f887",
+   "file": "data/d950052b2e3f02eb891db190a197850928b3f887.json",
+   "date": "2026-10-04"},
+  {"summary":
+   {"total": 2318,
     "proved": 344,
     "byStatus": {"stated": 91, "proved": 344, "missing": 22, "absent": 1861}},
    "sha": "ef5414ab8912a67914a8801c31a8eb47bac86e90",

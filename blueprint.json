@@ -1374,7 +1374,8 @@
    "attrs":
    {"title": "Positive central pairs",
     "order": 2525,
-    "lean": ["RepresentedDegreeDatum.IsPositiveCentralPair"]}},
+    "lean":
+    ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-d-curve-pieces/d-curve-pieces.md",
     "anonymous": false},
@@ -1409,12 +1410,12 @@
    {"title": "Represented degree data and monodromy",
     "order": 2506,
     "lean":
-    ["DegreeDatum",
-     "RepresentedDegreeDatum",
-     "RepresentedDegreeDatum.arithmeticMonodromy",
-     "RepresentedDegreeDatum.geometricMonodromy",
-     "RepresentedDegreeDatum.frobenius",
-     "RepresentedDegreeDatum.IsSemisimple"]}},
+    ["AlgebraicGeometry.Monodromy.DegreeDatum",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobenius",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsSemisimple"]}},
   {"source":
    {"file":
     "blueprint/sec-purity-real-sheaves/sk-d-real-boundary/d-real-boundary.md",
@@ -1481,7 +1482,7 @@
    {"title": "Operations and weight characters",
     "order": 2537,
     "lean":
-    ["Representation.RealWeightCharacter",
+    ["Representation.RealCharacter",
      "Representation.detCharacter",
      "Representation.HasFiniteGeometricDet",
      "Representation.detWeight"]}},
@@ -23867,7 +23868,8 @@
    {"title": "A positive central representative",
     "tags": ["latex:proposition"],
     "order": 2527,
-    "lean": ["RepresentedDegreeDatum.exists_isPositiveCentralPair"]}},
+    "lean":
+    ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair"]}},
   {"source":
    {"file": "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-exact/p-dl-a1-exact.md",
     "anonymous": false},
@@ -23948,8 +23950,8 @@
     "lean":
     ["AlgebraicGeometry.GeneralLinearGroup.surjective_mulCenterIdentityComponent",
      "AlgebraicGeometry.GeneralLinearGroup.exists_mul_eq_of_containsCommutators",
-     "RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy",
-     "RepresentedDegreeDatum.exists_mem_center_mul_mem_geometricMonodromy_eq"]}},
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_mem_center_mul_mem_geometricMonodromy_eq"]}},
   {"source":
    {"file":
     "blueprint/sec-purity-real-sheaves/sk-p-real-integral/p-real-integral.md",
@@ -65503,7 +65505,8 @@
    "attrs":
    {"title": "Positive central pairs",
     "order": 2524,
-    "lean": ["RepresentedDegreeDatum.IsPositiveCentralPair"]}},
+    "lean":
+    ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-d-corr/_section.md",
     "anonymous": false},
@@ -65674,12 +65677,12 @@
    {"title": "Represented degree data and monodromy",
     "order": 2499,
     "lean":
-    ["DegreeDatum",
-     "RepresentedDegreeDatum",
-     "RepresentedDegreeDatum.arithmeticMonodromy",
-     "RepresentedDegreeDatum.geometricMonodromy",
-     "RepresentedDegreeDatum.frobenius",
-     "RepresentedDegreeDatum.IsSemisimple"]}},
+    ["AlgebraicGeometry.Monodromy.DegreeDatum",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobenius",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsSemisimple"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-d-operator/_section.md",
     "anonymous": false},
@@ -65973,7 +65976,7 @@
    {"title": "Operations and weight characters",
     "order": 2535,
     "lean":
-    ["Representation.RealWeightCharacter",
+    ["Representation.RealCharacter",
      "Representation.detCharacter",
      "Representation.HasFiniteGeometricDet",
      "Representation.detWeight"]}},
@@ -66908,13 +66911,16 @@
      "AlgebraicGeometry.GeneralLinearGroup.containsCommutators_subgroupSchemeHom",
      "AlgebraicGeometry.GeneralLinearGroup.lie_mem_range_lieAlgebraMap",
      "AlgebraicGeometry.GeneralLinearGroup.lie_mem_range_lieAlgebraMap_identityComponent",
-     "RepresentedDegreeDatum.arithmeticMonodromy_le_geometricMonodromy",
-     "RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy",
-     "RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy",
-     "RepresentedDegreeDatum.containsCommutators_subgroupSchemeHom_arithmeticMonodromy_le_geometricMonodromy",
-     "RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy",
-     "RepresentedDegreeDatum.lie_mem_lieAlgebra_identityComponent_geometricMonodromy",
-     "RepresentedDegreeDatum.isSemisimpleRepresentation_standardRepresentation_identityComponent"]}},
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy_le_geometricMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.containsCommutators_subgroupSchemeHom_arithmeticMonodromy_le_geometricMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.lie_mem_lieAlgebra_identityComponent_geometricMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.isSemisimpleRepresentation_standardRepresentation_identityComponent",
+     "AlgebraicGeometry.GeneralLinearGroup.derivedIdeal",
+     "AlgebraicGeometry.GeneralLinearGroup.containsCommutators_iff_le_derivedIdeal",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy_le_derivedIdeal_arithmeticMonodromy"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-i-topology/_section.md",
     "anonymous": false},
@@ -67544,7 +67550,8 @@
    "attrs":
    {"title": "A positive central representative",
     "order": 2526,
-    "lean": ["RepresentedDegreeDatum.exists_isPositiveCentralPair"]}},
+    "lean":
+    ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair"]}},
   {"source":
    {"file":
     "blueprint/sec-algebraic-groups-lie-algebras/sk-p-comparison/_section.md",
@@ -67840,8 +67847,8 @@
     "lean":
     ["AlgebraicGeometry.GeneralLinearGroup.surjective_mulCenterIdentityComponent",
      "AlgebraicGeometry.GeneralLinearGroup.exists_mul_eq_of_containsCommutators",
-     "RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy",
-     "RepresentedDegreeDatum.exists_mem_center_mul_mem_geometricMonodromy_eq"]}},
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy",
+     "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_mem_center_mul_mem_geometricMonodromy_eq"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-p-proper/_section.md",
     "anonymous": false},
@@ -67887,7 +67894,8 @@
    "attrs":
    {"title": "Central scalars and weight readout",
     "order": 2552,
-    "lean": ["RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair"]}},
+    "lean":
+    ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair"]}},
   {"source":
    {"file": "blueprint/sec-purity-real-sheaves/sk-p-real-integral/_section.md",
     "anonymous": false},
@@ -254948,265 +254956,6 @@
    "The character `χ_z` sending an element `w` of the split cyclic extension to `z ^ deg w`, where\nthe degree `deg w` is read off by `SemidirectProduct.rightHom`.\n(blueprint: `sk-d-ab-rankone`)",
    "deps": [],
    "axioms": ["Quot.sound", "propext"]},
-  "RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy":
-  {"exists": false},
-  "RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy":
-  {"status": "stated",
-   "signature":
-   "theorem RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy.{u_1, u_2, u_3, u_4} {W : Type u_1}\n  [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) (R : Type u_4) [CommRing R] [Algebra k R] :\n  ((Matrix.GeneralLinearGroup.zeroLocus D.geometricMonodromy R).subgroupOf\n      (Matrix.GeneralLinearGroup.zeroLocus D.arithmeticMonodromy R)).Normal",
-   "range":
-   {"startLine": 184,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 196},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "The geometric monodromy group is a normal subgroup scheme of the arithmetic one: for every\n`k`-algebra `R`, the `R`-points of `H` form a normal subgroup of the `R`-points of `G`. This is the\nclosure of the normality of `ρ(P)` in `ρ(W)`.\n(blueprint: `sk-i-restriction`)",
-   "deps":
-   ["DegreeDatum",
-    "Matrix.GeneralLinearGroup.CoordinateRing",
-    "Matrix.GeneralLinearGroup.zeroLocus",
-    "RepresentedDegreeDatum",
-    "RepresentedDegreeDatum.arithmeticMonodromy",
-    "RepresentedDegreeDatum.arithmeticMonodromy_le_geometricMonodromy",
-    "RepresentedDegreeDatum.geometricMonodromy"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "RepresentedDegreeDatum.lie_mem_lieAlgebra_identityComponent_geometricMonodromy":
-  {"status": "stated",
-   "signature":
-   "theorem RepresentedDegreeDatum.lie_mem_lieAlgebra_identityComponent_geometricMonodromy.{u_1, u_2, u_3}\n  {W : Type u_1} [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) [IsAlgClosed k] [CharZero k] {X Y : Matrix n n k}\n  (hX :\n    X ∈\n      Matrix.GeneralLinearGroup.lieAlgebra\n        (Matrix.GeneralLinearGroup.identityComponent D.arithmeticMonodromy))\n  (hY :\n    Y ∈\n      Matrix.GeneralLinearGroup.lieAlgebra\n        (Matrix.GeneralLinearGroup.identityComponent D.arithmeticMonodromy)) :\n  ⁅X, Y⁆ ∈\n    Matrix.GeneralLinearGroup.lieAlgebra\n      (Matrix.GeneralLinearGroup.identityComponent D.geometricMonodromy)",
-   "range":
-   {"startLine": 231,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 239},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "The derived algebra of `Lie G°` lies in `Lie H°`. Over an algebraically closed field of\ncharacteristic zero the identity components have the same Lie algebras as `G` and `H`.\n(blueprint: `sk-i-restriction`)",
-   "deps":
-   ["DegreeDatum",
-    "Matrix.GeneralLinearGroup.CoordinateRing",
-    "Matrix.GeneralLinearGroup.identityComponent",
-    "Matrix.GeneralLinearGroup.lieAlgebra",
-    "Matrix.GeneralLinearGroup.lieAlgebra_identityComponent",
-    "RepresentedDegreeDatum",
-    "RepresentedDegreeDatum.arithmeticMonodromy",
-    "RepresentedDegreeDatum.geometricMonodromy",
-    "RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy":
-  {"status": "stated",
-   "signature":
-   "theorem RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy.{u_1, u_2, u_3} {W : Type u_1}\n  [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) {X Y : Matrix n n k}\n  (hX : X ∈ Matrix.GeneralLinearGroup.lieAlgebra D.arithmeticMonodromy)\n  (hY : Y ∈ Matrix.GeneralLinearGroup.lieAlgebra D.arithmeticMonodromy) :\n  ⁅X, Y⁆ ∈ Matrix.GeneralLinearGroup.lieAlgebra D.geometricMonodromy",
-   "range":
-   {"startLine": 221,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 229},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "The derived algebra of `Lie G` lies in `Lie H`, over any field: the bracket comes from the\ncommutator of `1 + εX` and `1 + δY` over `k[ε, δ]/(ε², δ²)`, which lies in `H` by\n`commutator_zeroLocus_le_zeroLocus_geometricMonodromy`.\n(blueprint: `sk-i-restriction`)",
-   "deps":
-   ["DegreeDatum",
-    "Matrix.GeneralLinearGroup.CoordinateRing",
-    "Matrix.GeneralLinearGroup.dualUnit_add",
-    "Matrix.GeneralLinearGroup.lieAlgebra",
-    "Matrix.GeneralLinearGroup.zeroLocus",
-    "RepresentedDegreeDatum",
-    "RepresentedDegreeDatum.arithmeticMonodromy",
-    "RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy",
-    "RepresentedDegreeDatum.geometricMonodromy"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "RepresentedDegreeDatum.isSemisimpleRepresentation_standardRepresentation_identityComponent":
-  {"exists": false},
-  "RepresentedDegreeDatum.geometricMonodromy":
-  {"status": "proved",
-   "signature":
-   "def RepresentedDegreeDatum.geometricMonodromy.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) :\n  Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)",
-   "range":
-   {"startLine": 113,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 117},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "The geometric monodromy group `H = closure ρ(P)`, as a closed subgroup scheme of `GL_n`: the\nHopf ideal of equations vanishing on `ρ(P)`, which cuts out the reduced Zariski closure.\n(blueprint: `sk-d-monodromy`)",
-   "deps":
-   ["DegreeDatum",
-    "Matrix.GeneralLinearGroup.CoordinateRing",
-    "RepresentedDegreeDatum"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "RepresentedDegreeDatum.frobenius":
-  {"status": "proved",
-   "signature":
-   "def RepresentedDegreeDatum.frobenius.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2} [Fintype n]\n  [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) : GL n k",
-   "range":
-   {"startLine": 145,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 147},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "definition",
-   "exists": true,
-   "doc": "The Frobenius element `F = ρ(γ)`.\n(blueprint: `sk-d-monodromy`)",
-   "deps": ["DegreeDatum", "RepresentedDegreeDatum"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "RepresentedDegreeDatum.exists_mem_center_mul_mem_geometricMonodromy_eq":
-  {"exists": false},
-  "RepresentedDegreeDatum.exists_isPositiveCentralPair": {"exists": false},
-  "RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair":
-  {"status": "stated",
-   "signature":
-   "theorem RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair.{u_1, u_2, u_3} {W : Type u_1}\n  [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) (χ : Representation.RealWeightCharacter k) {N : ℕ} {z : GL n k}\n  (hz : D.IsPositiveCentralPair N z) {U S : Subrepresentation D.asRepresentation} (hUS : U < S)\n  (hdet : Representation.HasFiniteGeometricDet D.deg (S.subquotient U)) (c : kˣ)\n  (hc : ∀ x ∈ S, (Matrix.toLinAlgEquiv' ↑z) x - ↑c • x ∈ U) :\n  Representation.detWeight χ D.degreeOneElement (S.subquotient U) = Multiplicative.toAdd (χ c) / ↑N",
-   "range":
-   {"startLine": 114,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Weights.lean",
-    "endLine": 126},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Weights",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "Fix a real weight character `χ` and a positive central pair `(N, z)` for a represented degree\ndatum.  If a nonzero `W`-subquotient `Q = S / U` of the defining representation has finite\ngeometric determinant and `z` acts on `Q` as the scalar `c`, then `dw_χ(Q) = χ(c) / N`.  The\nscalar hypothesis is automatic when `Q` is simple, by Schur's lemma.\n(blueprint: `sk-p-readout`)",
-   "deps":
-   ["DegreeDatum",
-    "Representation",
-    "Representation.HasFiniteGeometricDet",
-    "Representation.RealWeightCharacter",
-    "Representation.detWeight",
-    "RepresentedDegreeDatum",
-    "RepresentedDegreeDatum.IsPositiveCentralPair",
-    "Subrepresentation"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "RepresentedDegreeDatum.containsCommutators_subgroupSchemeHom_arithmeticMonodromy_le_geometricMonodromy":
-  {"exists": false},
-  "RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy":
-  {"status": "stated",
-   "signature":
-   "theorem RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy.{u_1, u_2, u_3, u_4}\n  {W : Type u_1} [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) (R : Type u_4) [CommRing R] [Algebra k R] :\n  ⁅Matrix.GeneralLinearGroup.zeroLocus D.arithmeticMonodromy R,\n      Matrix.GeneralLinearGroup.zeroLocus D.arithmeticMonodromy R⁆ ≤\n    Matrix.GeneralLinearGroup.zeroLocus D.geometricMonodromy R",
-   "range":
-   {"startLine": 199,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 213},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "Every commutator of the arithmetic monodromy group lies in the geometric one: for every\n`k`-algebra `R`, `⁅G(R), G(R)⁆ ⊆ H(R)`. This is the closure of `⁅ρ(W), ρ(W)⁆ ⊆ ρ(P)`, which holds\nbecause `W ⧸ P ≅ ℤ` is abelian.\n(blueprint: `sk-i-restriction`)",
-   "deps":
-   ["DegreeDatum",
-    "Matrix.GeneralLinearGroup.CoordinateRing",
-    "Matrix.GeneralLinearGroup.zeroLocus",
-    "RepresentedDegreeDatum",
-    "RepresentedDegreeDatum.arithmeticMonodromy",
-    "RepresentedDegreeDatum.geometricMonodromy"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "RepresentedDegreeDatum.arithmeticMonodromy_le_geometricMonodromy":
-  {"status": "proved",
-   "signature":
-   "theorem RepresentedDegreeDatum.arithmeticMonodromy_le_geometricMonodromy.{u_1, u_2, u_3} {W : Type u_1}\n  [Group W] {n : Type u_2} [Fintype n] [DecidableEq n] {k : Type u_3} [Field k]\n  (D : RepresentedDegreeDatum W n k) : D.arithmeticMonodromy ≤ D.geometricMonodromy",
-   "range":
-   {"startLine": 170,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 175},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "The ideal of `G` is contained in the ideal of `H`; that is, `H ⊆ G` as closed subschemes of\n`GL_n`.\n(blueprint: `sk-i-restriction`)",
-   "deps":
-   ["DegreeDatum",
-    "Matrix.GeneralLinearGroup.CoordinateRing",
-    "RepresentedDegreeDatum",
-    "RepresentedDegreeDatum.arithmeticMonodromy",
-    "RepresentedDegreeDatum.geometricMonodromy"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "RepresentedDegreeDatum.arithmeticMonodromy":
-  {"status": "proved",
-   "signature":
-   "def RepresentedDegreeDatum.arithmeticMonodromy.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) :\n  Ideal (Matrix.GeneralLinearGroup.CoordinateRing n k)",
-   "range":
-   {"startLine": 107,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 111},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "The arithmetic monodromy group `G = closure ρ(W)`, as a closed subgroup scheme of `GL_n`: the\nHopf ideal of equations vanishing on `ρ(W)`, which cuts out the reduced Zariski closure.\n(blueprint: `sk-d-monodromy`)",
-   "deps":
-   ["Matrix.GeneralLinearGroup.CoordinateRing", "RepresentedDegreeDatum"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "RepresentedDegreeDatum.IsSemisimple":
-  {"status": "proved",
-   "signature":
-   "def RepresentedDegreeDatum.IsSemisimple.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) : Prop",
-   "range":
-   {"startLine": 156,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 161},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "A datum is *semisimple* when `n → k` is a semisimple `W`-representation.  This is an `abbrev`\nso that the underlying class `Representation.IsSemisimpleRepresentation` stays visible to\ninstance search.\n(blueprint: `sk-d-monodromy`)",
-   "deps":
-   ["Representation",
-    "Representation.IsSemisimpleRepresentation",
-    "RepresentedDegreeDatum"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "RepresentedDegreeDatum.IsPositiveCentralPair":
-  {"status": "stated",
-   "signature":
-   "def RepresentedDegreeDatum.IsPositiveCentralPair.{u_1, u_2, u_3} {W : Type u_1} [Group W] {n : Type u_2}\n  [Fintype n] [DecidableEq n] {k : Type u_3} [Field k] (D : RepresentedDegreeDatum W n k) (N : ℕ)\n  (z : GL n k) : Prop",
-   "range":
-   {"startLine": 163,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 168},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "A *positive central pair* for the datum is a pair `(N, z)` with `N > 0` and\n`z ∈ Z(G) ∩ H Fᴺ`.\n(blueprint: `sk-d-central`)",
-   "deps":
-   ["DegreeDatum",
-    "Matrix.GeneralLinearGroup.CoordinateRing",
-    "Matrix.GeneralLinearGroup.center",
-    "Matrix.GeneralLinearGroup.zeroLocus",
-    "RepresentedDegreeDatum",
-    "RepresentedDegreeDatum.arithmeticMonodromy",
-    "RepresentedDegreeDatum.frobenius",
-    "RepresentedDegreeDatum.geometricMonodromy"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "RepresentedDegreeDatum":
-  {"status": "proved",
-   "signature":
-   "structure RepresentedDegreeDatum.{u_1, u_2, u_3} (W : Type u_1) [Group W] (n : Type u_2) (k : Type u_3)\n  [Fintype n] [DecidableEq n] [Field k] : Type (max (max u_1 u_2) u_3)",
-   "range":
-   {"startLine": 90,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 96},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "structure",
-   "exists": true,
-   "doc":
-   "A represented degree datum adds to a degree datum a representation `ρ : W → GL n k` on\n`n → k`.\n(blueprint: `sk-d-monodromy`)",
-   "deps": ["DegreeDatum"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "Representation.isSemisimpleRepresentation_comp_subtype":
   {"status": "stated",
    "signature":
@@ -255241,7 +254990,6 @@
    ["Representation",
     "Representation.HasFiniteGeometricDet",
     "Representation.IsIrreducible",
-    "Representation.RealWeightCharacter",
     "Representation.detWeight",
     "Subrepresentation",
     "exteriorPower.map"],
@@ -255264,7 +255012,6 @@
    ["Representation",
     "Representation.HasFiniteGeometricDet",
     "Representation.IsIrreducible",
-    "Representation.RealWeightCharacter",
     "Representation.detWeight",
     "Subrepresentation"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
@@ -255282,10 +255029,7 @@
    "exists": true,
    "doc":
    "The *determinant weight* of a representation with respect to a real weight character `χ` and\na degree-one element `γ` is `dw_χ(ρ) = χ(δ(γ)) / dim V`.\n(blueprint: `sk-d-weights`)",
-   "deps":
-   ["Representation",
-    "Representation.RealWeightCharacter",
-    "Representation.detCharacter"],
+   "deps": ["Representation", "Representation.detCharacter"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "Representation.detCharacter":
   {"status": "proved",
@@ -255303,22 +255047,7 @@
    "The *determinant character* of a representation `ρ` is the homomorphism `δ(w) = det ρ(w)`,\nvalued in the units of `k` because `ρ(w)` is invertible.\n(blueprint: `sk-d-weights`)",
    "deps": ["Representation"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "Representation.RealWeightCharacter":
-  {"status": "proved",
-   "signature":
-   "def Representation.RealWeightCharacter.{u_4} (k : Type u_4) [Field k] : Type u_4",
-   "range":
-   {"startLine": 75,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Weights.lean",
-    "endLine": 78},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Weights",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "A *real weight character* is a group homomorphism `λ` from the units of `k` to the reals\nunder addition.\n(blueprint: `sk-d-weights`)",
-   "deps": [],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "Representation.RealCharacter": {"exists": false},
   "Representation.IsSemisimpleRepresentation":
   {"status": "proved",
    "signature":
@@ -256362,22 +256091,6 @@
    "**Dense overlap of a partial union**: if a dense subset of `X` is contained in two\nsets `U` and `V` whose union is open, then `U ∩ V` is dense in the subspace `U ∪ V`.\nThis is the induction invariant used to glue compactifications along a finite affine\ncover with dense total intersection.\n(Blueprint: `lemma:nagata-partial-union-overlap-dense`.)",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "DegreeDatum":
-  {"status": "proved",
-   "signature":
-   "structure DegreeDatum.{u_1} (W : Type u_1) [Group W] : Type u_1",
-   "range":
-   {"startLine": 77,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/LinearAlgebraicGroup/Monodromy.lean",
-    "endLine": 88},
-   "module": "WeilConjectures.AlgebraicGeometry.LinearAlgebraicGroup.Monodromy",
-   "kind": "structure",
-   "exists": true,
-   "doc":
-   "A degree datum: a group `W`, a surjective homomorphism `deg : W → ℤ` and a chosen element\n`γ` of degree one.\n(blueprint: `sk-d-monodromy`)",
-   "deps": [],
-   "axioms": ["Quot.sound", "propext"]},
   "CompositionSeries":
   {"status": "proved",
    "signature":
@@ -266932,6 +266645,42 @@
     "AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_isSeparated_locallyOfFinitePresentation",
     "AlgebraicGeometry.nagataCompactification_of_locallyOfFinitePresentation"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.lie_mem_lieAlgebra_identityComponent_geometricMonodromy":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.isSemisimpleRepresentation_standardRepresentation_identityComponent":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy_le_derivedIdeal_arithmeticMonodromy":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobenius":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_mem_center_mul_mem_geometricMonodromy_eq":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.containsCommutators_subgroupSchemeHom_arithmeticMonodromy_le_geometricMonodromy":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy_le_geometricMonodromy":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsSemisimple":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair":
+  {"exists": false},
+  "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum": {"exists": false},
+  "AlgebraicGeometry.Monodromy.DegreeDatum": {"exists": false},
   "AlgebraicGeometry.JacobianTorsionDatum.tateModule":
   {"status": "proved",
    "signature":
@@ -268030,7 +267779,10 @@
   {"exists": false},
   "AlgebraicGeometry.GeneralLinearGroup.exists_mul_eq_of_containsCommutators":
   {"exists": false},
+  "AlgebraicGeometry.GeneralLinearGroup.derivedIdeal": {"exists": false},
   "AlgebraicGeometry.GeneralLinearGroup.containsCommutators_subgroupSchemeHom":
+  {"exists": false},
+  "AlgebraicGeometry.GeneralLinearGroup.containsCommutators_iff_le_derivedIdeal":
   {"exists": false},
   "AlgebraicGeometry.Etale.upperStar_map_baseChangeMap_app_counit":
   {"status": "proved",
@@ -273780,7 +273532,7 @@
    "sk-p-real-purity": "stated",
    "sk-p-real-operations": "proved",
    "sk-p-real-integral": "stated",
-   "sk-p-readout": "stated",
+   "sk-p-readout": "missing",
    "sk-p-rankone": "stated",
    "sk-p-proper": "missing",
    "sk-p-product": "missing",
@@ -273911,7 +273663,7 @@
    "sk-def-as": "proved",
    "sk-d-weil-push": "missing",
    "sk-d-weil": "missing",
-   "sk-d-weights": "proved",
+   "sk-d-weights": "missing",
    "sk-d-trace-class": "missing",
    "sk-d-trace": "missing",
    "sk-d-tangent": "proved",
@@ -273932,7 +273684,7 @@
    "sk-d-proper-pushforward": "missing",
    "sk-d-pairing": "missing",
    "sk-d-operator": "missing",
-   "sk-d-monodromy": "proved",
+   "sk-d-monodromy": "missing",
    "sk-d-local-term": "missing",
    "sk-d-lines": "proved",
    "sk-d-linear": "proved",
@@ -273943,7 +273695,7 @@
    "sk-d-dl-a1-setup": "proved",
    "sk-d-curve-pieces": "missing",
    "sk-d-corr": "missing",
-   "sk-d-central": "stated",
+   "sk-d-central": "missing",
    "sk-d-ab-tate": "proved",
    "sk-d-ab-rankone": "proved",
    "sk-d-ab-field": "missing",
@@ -276210,16 +275962,16 @@
    "def-amb-finite-locally-free-module": "absent",
    "def-amb-etale-compact-support": "absent",
    "def-a1-constituent-nonexceptional": "stated",
-   "d-weights": "proved",
+   "d-weights": "missing",
    "d-relative-frob": "absent",
    "d-real-setup": "absent",
    "d-real-series": "absent",
    "d-real-cohom": "absent",
    "d-real-boundary": "absent",
-   "d-monodromy": "proved",
+   "d-monodromy": "missing",
    "d-lines": "absent",
    "d-curve-pieces": "absent",
-   "d-central": "stated",
+   "d-central": "missing",
    "d-ab-rankone": "proved",
    "d-ab-field": "missing",
    "cor-zl-rfshriek-sheaf": "stated",
@@ -276820,7 +276572,7 @@
     "sk-def-as": {"total": 1, "proved": 1},
     "sk-d-weil-push": {"total": 6, "proved": 0},
     "sk-d-weil": {"total": 7, "proved": 0},
-    "sk-d-weights": {"total": 2, "proved": 1},
+    "sk-d-weights": {"total": 2, "proved": 0},
     "sk-d-trace-class": {"total": 5, "proved": 0},
     "sk-d-tangent": {"total": 1, "proved": 1},
     "sk-d-six": {"total": 3, "proved": 0},
@@ -276837,7 +276589,7 @@
     "sk-d-proper-pushforward": {"total": 3, "proved": 0},
     "sk-d-pairing": {"total": 3, "proved": 0},
     "sk-d-operator": {"total": 4, "proved": 0},
-    "sk-d-monodromy": {"total": 11, "proved": 1},
+    "sk-d-monodromy": {"total": 11, "proved": 0},
     "sk-d-local-term": {"total": 2, "proved": 0},
     "sk-d-linear": {"total": 3, "proved": 0},
     "sk-d-lie": {"total": 4, "proved": 0},
@@ -276880,7 +276632,7 @@
     "sec-deligne-laumon-general": {"total": 32, "proved": 1},
     "sec-deligne-laumon-a1": {"total": 72, "proved": 0},
     "sec-curve-estimates": {"total": 132, "proved": 7},
-    "sec-algebraic-groups-lie-algebras": {"total": 86, "proved": 5},
+    "sec-algebraic-groups-lie-algebras": {"total": 86, "proved": 3},
     "sec-abelian-varieties": {"total": 125, "proved": 15},
     "sbc-thm-universal-test-vanishing": {"total": 1, "proved": 0},
     "sbc-thm-spreading-finite-etale-galois": {"total": 1, "proved": 0},
@@ -279002,12 +278754,12 @@
     "def-amb-finite-locally-free-module": {"total": 1, "proved": 0},
     "def-amb-etale-compact-support": {"total": 1, "proved": 0},
     "def-a1-constituent-nonexceptional": {"total": 1, "proved": 0},
-    "d-weights": {"total": 1, "proved": 1},
+    "d-weights": {"total": 1, "proved": 0},
     "d-relative-frob": {"total": 1, "proved": 0},
     "d-real-series": {"total": 1, "proved": 0},
     "d-real-cohom": {"total": 1, "proved": 0},
     "d-real-boundary": {"total": 1, "proved": 0},
-    "d-monodromy": {"total": 1, "proved": 1},
+    "d-monodromy": {"total": 1, "proved": 0},
     "d-curve-pieces": {"total": 1, "proved": 0},
     "d-central": {"total": 1, "proved": 0},
     "d-ab-rankone": {"total": 1, "proved": 1},
@@ -281415,12 +281167,12 @@
     "def-amb-finite-locally-free-module": {"total": 1, "proved": 0},
     "def-amb-etale-compact-support": {"total": 1, "proved": 0},
     "def-a1-constituent-nonexceptional": {"total": 1, "proved": 0},
-    "d-weights": {"total": 1, "proved": 1},
+    "d-weights": {"total": 1, "proved": 0},
     "d-relative-frob": {"total": 1, "proved": 0},
     "d-real-series": {"total": 1, "proved": 0},
     "d-real-cohom": {"total": 1, "proved": 0},
     "d-real-boundary": {"total": 1, "proved": 0},
-    "d-monodromy": {"total": 1, "proved": 1},
+    "d-monodromy": {"total": 1, "proved": 0},
     "d-curve-pieces": {"total": 1, "proved": 0},
     "d-central": {"total": 1, "proved": 0},
     "d-ab-rankone": {"total": 1, "proved": 1},
@@ -281500,6 +281252,46 @@
   [{"objects": ["d-ab-field"],
     "message":
     "blueprint/sec-abelian-varieties/sk-d-ab-field/d-ab-field.md: 'd-ab-field' names 'AlgebraicGeometry.IsAbelianScheme', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["d-central"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-central/d-central.md: 'd-central' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/d-monodromy.md: 'd-monodromy' names 'AlgebraicGeometry.Monodromy.DegreeDatum', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/d-monodromy.md: 'd-monodromy' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/d-monodromy.md: 'd-monodromy' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsSemisimple', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/d-monodromy.md: 'd-monodromy' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/d-monodromy.md: 'd-monodromy' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobenius', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/d-monodromy.md: 'd-monodromy' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["d-weights"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-weights/d-weights.md: 'd-weights' names 'Representation.RealCharacter', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["def-pod-dual-tate-datum"],
@@ -281619,7 +281411,7 @@
     "code": "missing-lean"},
    {"objects": ["p-central"],
     "message":
-    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-central/p-central.md: 'p-central' names 'RepresentedDegreeDatum.exists_isPositiveCentralPair', which does not exist in the Lean environment",
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-central/p-central.md: 'p-central' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["p-product"],
@@ -281634,12 +281426,12 @@
     "code": "missing-lean"},
    {"objects": ["p-product"],
     "message":
-    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-product/p-product.md: 'p-product' names 'RepresentedDegreeDatum.exists_mem_center_mul_mem_geometricMonodromy_eq', which does not exist in the Lean environment",
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-product/p-product.md: 'p-product' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_mem_center_mul_mem_geometricMonodromy_eq', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["p-product"],
     "message":
-    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-product/p-product.md: 'p-product' names 'RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy', which does not exist in the Lean environment",
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-product/p-product.md: 'p-product' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["prop-av-tate-rank"],
@@ -281682,6 +281474,11 @@
     "blueprint/sec-abelian-varieties/sk-d-ab-field/_section.md: 'sk-d-ab-field' names 'AlgebraicGeometry.IsAbelianScheme', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
+   {"objects": ["sk-d-central"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-central/_section.md: 'sk-d-central' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
    {"objects": ["sk-d-corr"],
     "message":
     "blueprint/sec-trace-formula/sk-d-corr/_section.md: 'sk-d-corr' names 'AlgebraicGeometry.ProEtale.Correspondence', which does not exist in the Lean environment",
@@ -281700,6 +281497,36 @@
    {"objects": ["sk-d-local-term"],
     "message":
     "blueprint/sec-trace-formula/sk-d-local-term/_section.md: 'sk-d-local-term' names 'AlgebraicGeometry.ProEtale.GeometricOperations.localTerm', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/_section.md: 'sk-d-monodromy' names 'AlgebraicGeometry.Monodromy.DegreeDatum', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/_section.md: 'sk-d-monodromy' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/_section.md: 'sk-d-monodromy' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsSemisimple', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/_section.md: 'sk-d-monodromy' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/_section.md: 'sk-d-monodromy' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobenius', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-d-monodromy"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-monodromy/_section.md: 'sk-d-monodromy' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-d-operator"],
@@ -281740,6 +281567,11 @@
    {"objects": ["sk-d-trace-class"],
     "message":
     "blueprint/sec-trace-formula/sk-d-trace-class/_section.md: 'sk-d-trace-class' names 'AlgebraicGeometry.ProEtale.GeometricOperations.traceClass', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-d-weights"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-d-weights/_section.md: 'sk-d-weights' names 'Representation.RealCharacter', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-d-weil"],
@@ -281804,7 +281636,17 @@
     "code": "missing-lean"},
    {"objects": ["sk-i-restriction"],
     "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'AlgebraicGeometry.GeneralLinearGroup.containsCommutators_iff_le_derivedIdeal', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-i-restriction"],
+    "message":
     "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'AlgebraicGeometry.GeneralLinearGroup.containsCommutators_subgroupSchemeHom', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-i-restriction"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'AlgebraicGeometry.GeneralLinearGroup.derivedIdeal', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-i-restriction"],
@@ -281829,12 +281671,42 @@
     "code": "missing-lean"},
    {"objects": ["sk-i-restriction"],
     "message":
-    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'RepresentedDegreeDatum.containsCommutators_subgroupSchemeHom_arithmeticMonodromy_le_geometricMonodromy', which does not exist in the Lean environment",
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy_le_geometricMonodromy', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-i-restriction"],
     "message":
-    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'RepresentedDegreeDatum.isSemisimpleRepresentation_standardRepresentation_identityComponent', which does not exist in the Lean environment",
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-i-restriction"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.containsCommutators_subgroupSchemeHom_arithmeticMonodromy_le_geometricMonodromy', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-i-restriction"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy_le_derivedIdeal_arithmeticMonodromy', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-i-restriction"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.isSemisimpleRepresentation_standardRepresentation_identityComponent', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-i-restriction"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-i-restriction"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.lie_mem_lieAlgebra_identityComponent_geometricMonodromy', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-i-restriction"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md: 'sk-i-restriction' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-i-topology"],
@@ -281864,7 +281736,7 @@
     "code": "missing-lean"},
    {"objects": ["sk-p-central"],
     "message":
-    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-central/_section.md: 'sk-p-central' names 'RepresentedDegreeDatum.exists_isPositiveCentralPair', which does not exist in the Lean environment",
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-central/_section.md: 'sk-p-central' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-p-frob"],
@@ -281899,17 +281771,22 @@
     "code": "missing-lean"},
    {"objects": ["sk-p-product"],
     "message":
-    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-product/_section.md: 'sk-p-product' names 'RepresentedDegreeDatum.exists_mem_center_mul_mem_geometricMonodromy_eq', which does not exist in the Lean environment",
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-product/_section.md: 'sk-p-product' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_mem_center_mul_mem_geometricMonodromy_eq', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-p-product"],
     "message":
-    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-product/_section.md: 'sk-p-product' names 'RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy', which does not exist in the Lean environment",
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-product/_section.md: 'sk-p-product' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-p-proper"],
     "message":
     "blueprint/sec-trace-formula/sk-p-proper/_section.md: 'sk-p-proper' names 'AlgebraicGeometry.ProEtale.GeometricOperations.borelMoorePushforward_traceClass', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-p-readout"],
+    "message":
+    "blueprint/sec-algebraic-groups-lie-algebras/sk-p-readout/_section.md: 'sk-p-readout' names 'AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-p-trace"],
@@ -282739,31 +282616,6 @@
    {"objects": ["d-ab-rankone", "sk-d-ab-rankone"],
     "message":
     "Lean shows 'd-ab-rankone' depends on 'sk-d-ab-rankone', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["d-central", "sk-d-geometry"],
-    "message":
-    "Lean shows 'd-central' depends on 'sk-d-geometry', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["d-central", "sk-d-monodromy"],
-    "message":
-    "Lean shows 'd-central' depends on 'sk-d-monodromy', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["d-monodromy", "sk-d-geometry"],
-    "message":
-    "Lean shows 'd-monodromy' depends on 'sk-d-geometry', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["d-monodromy", "sk-d-linear"],
-    "message":
-    "Lean shows 'd-monodromy' depends on 'sk-d-linear', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["d-monodromy", "sk-d-monodromy"],
-    "message":
-    "Lean shows 'd-monodromy' depends on 'sk-d-monodromy', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["d-weights", "sk-d-linear"],
@@ -293116,11 +292968,6 @@
     "Lean shows 'sk-d-ab-tate' depends on 'def-tate-module-abelian-group', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-d-central", "d-monodromy"],
-    "message":
-    "Lean shows 'sk-d-central' depends on 'd-monodromy', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-d-dl-a1-setup", "d-ab-field"],
     "message":
     "Lean shows 'sk-d-dl-a1-setup' depends on 'd-ab-field', but no 'uses' edge declares it",
@@ -293332,11 +293179,6 @@
    {"objects": ["sk-d-lines", "def-nagata-affine-proj"],
     "message":
     "Lean shows 'sk-d-lines' depends on 'def-nagata-affine-proj', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-d-monodromy", "d-monodromy"],
-    "message":
-    "Lean shows 'sk-d-monodromy' depends on 'd-monodromy', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-d-real-boundary", "def-sc-curves"],
@@ -294890,21 +294732,6 @@
    {"objects": ["sk-i-real-sheaves", "sk-def-curve"],
     "message":
     "Lean shows 'sk-i-real-sheaves' depends on 'sk-def-curve', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-i-restriction", "d-monodromy"],
-    "message":
-    "Lean shows 'sk-i-restriction' depends on 'd-monodromy', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-i-restriction", "def-wf-lie-algebra-derivation"],
-    "message":
-    "Lean shows 'sk-i-restriction' depends on 'def-wf-lie-algebra-derivation', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-i-restriction", "lem-ag-cartier-reduced"],
-    "message":
-    "Lean shows 'sk-i-restriction' depends on 'lem-ag-cartier-reduced', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-input-weights", "sk-prop-rootpurity"],
@@ -299390,21 +299217,6 @@
    {"objects": ["sk-p-rankone", "d-ab-rankone"],
     "message":
     "Lean shows 'sk-p-rankone' depends on 'd-ab-rankone', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-p-readout", "d-central"],
-    "message":
-    "Lean shows 'sk-p-readout' depends on 'd-central', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-p-readout", "d-monodromy"],
-    "message":
-    "Lean shows 'sk-p-readout' depends on 'd-monodromy', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-p-readout", "d-weights"],
-    "message":
-    "Lean shows 'sk-p-readout' depends on 'd-weights', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-p-real-integral", "def-sc-curves"],
@@ -306903,6 +306715,11 @@
     "'uses' edge d-ab-rankone -> d-monodromy is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["d-central", "d-monodromy"],
+    "message":
+    "'uses' edge d-central -> d-monodromy is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["d-weights", "d-monodromy"],
     "message":
     "'uses' edge d-weights -> d-monodromy is declared, but the Lean dependency graph does not show it",
@@ -309072,6 +308889,16 @@
     "'uses' edge sk-d-ab-tate -> sk-d-ab-field is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["sk-d-central", "sk-d-geometry"],
+    "message":
+    "'uses' edge sk-d-central -> sk-d-geometry is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-d-central", "sk-d-monodromy"],
+    "message":
+    "'uses' edge sk-d-central -> sk-d-monodromy is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["sk-d-corr", "sk-d-setup"],
     "message":
     "'uses' edge sk-d-corr -> sk-d-setup is declared, but the Lean dependency graph does not show it",
@@ -309160,6 +308987,16 @@
    {"objects": ["sk-d-local-term", "sk-d-trace-class"],
     "message":
     "'uses' edge sk-d-local-term -> sk-d-trace-class is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-d-monodromy", "sk-d-geometry"],
+    "message":
+    "'uses' edge sk-d-monodromy -> sk-d-geometry is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-d-monodromy", "sk-d-linear"],
+    "message":
+    "'uses' edge sk-d-monodromy -> sk-d-linear is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-d-operator", "sk-d-corr"],
@@ -309705,6 +309542,26 @@
    {"objects": ["sk-i-relative-frob", "sk-d-setup"],
     "message":
     "'uses' edge sk-i-relative-frob -> sk-d-setup is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-i-restriction", "sk-d-geometry"],
+    "message":
+    "'uses' edge sk-i-restriction -> sk-d-geometry is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-i-restriction", "sk-d-monodromy"],
+    "message":
+    "'uses' edge sk-i-restriction -> sk-d-monodromy is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-i-restriction", "sk-d-tangent"],
+    "message":
+    "'uses' edge sk-i-restriction -> sk-d-tangent is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-i-restriction", "sk-i-cartier"],
+    "message":
+    "'uses' edge sk-i-restriction -> sk-i-cartier is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-i-restriction", "sk-i-geometry"],
@@ -310481,9 +310338,29 @@
     "'uses' edge sk-p-proper -> sk-thm-sf-package is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["sk-p-readout", "sk-d-central"],
+    "message":
+    "'uses' edge sk-p-readout -> sk-d-central is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-p-readout", "sk-d-linear"],
+    "message":
+    "'uses' edge sk-p-readout -> sk-d-linear is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-p-readout", "sk-d-monodromy"],
+    "message":
+    "'uses' edge sk-p-readout -> sk-d-monodromy is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["sk-p-readout", "sk-d-tangent"],
     "message":
     "'uses' edge sk-p-readout -> sk-d-tangent is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-p-readout", "sk-d-weights"],
+    "message":
+    "'uses' edge sk-p-readout -> sk-d-weights is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-p-readout", "sk-i-restriction"],
