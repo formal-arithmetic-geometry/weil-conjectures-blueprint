@@ -148,10 +148,14 @@ const SLUG_TEST = new RegExp(SLUG_PATTERN);
  * Render a markdown body into `target`:
  *   1. marked -> HTML
  *   2. KaTeX auto-render (so maths is out of the way)
- *   3. `[slug]` -> link to the object page
+ *   3. `[slug]` -> a cross reference ("Definition 1.2.1") linking to the
+ *      object page
  * `known` is a Set of existing ids; unknown slugs get a `broken` class.
+ * `refs` says how a reference reads and where it leads (see `linkifySlugs`);
+ * left out, it is `pageReferences`, the numbering of the active collapse
+ * order with links to object pages.
  */
-export function renderBody(target, text, known) {
+export function renderBody(target, text, known, refs) {
   clear(target);
   const src = typeof text === 'string' ? text : '';
   if (!src.trim()) {
@@ -169,8 +173,62 @@ export function renderBody(target, text, known) {
     target.innerHTML = '<pre>' + escapeHtml(src) + '</pre>';
   }
   renderMath(target);
-  linkifySlugs(target, known);
+  linkifySlugs(target, known, refs === undefined ? pageReferences : refs);
   return target;
+}
+
+/**
+ * Cross references outside the document view — object pages, the graph's side
+ * panel — read as the document numbers them, along the collapse order the
+ * route has chosen (the graph's `collapse=`) or else the default one, so the
+ * number a reader sees is the one they will find in the document.  They still
+ * lead to the object page: that is the page these views link objects to, and
+ * the document is one click further on from there.
+ */
+function pageReferences(slug) {
+  const m = app.model;
+  if (!m) return null;
+  const wanted = app.route && app.route.params.get('collapse');
+  const kind = wanted && m.kinds[wanted] && m.kinds[wanted].collapse
+    ? wanted
+    : m.defaultCollapse || m.collapseKinds[0];
+  if (!kind) return null;
+  const ref = model.referenceOf(model.documentOutline(m, kind), slug);
+  return ref && { ...ref, href: objectHref(slug) };
+}
+
+function escapeRegExp(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// The words prose names a reference with, besides the schema's own kind words:
+// a blueprint imported from LaTeX says "Thm [x]" and "Proposition [x]" whatever
+// the kind of `x` turned out to be, and "Thm Theorem 2.3" or "Theorem Section
+// 2.3" is worse than letting the author's word stand, which is what
+// `Theorem~\ref{…}` gave in the paper.
+const REFERENCE_WORDS = [
+  'theorem', 'thm', 'lemma', 'lem', 'proposition', 'prop', 'corollary', 'cor',
+  'definition', 'def', 'defn', 'remark', 'rem', 'example', 'exercise',
+  'construction', 'conjecture', 'claim', 'notation', 'observation',
+  'assumption', 'hypothesis', 'axiom', 'section', 'sec', 'chapter', 'chap',
+  'appendix', 'equation', 'eq',
+];
+
+// One pattern per snapshot: "<word>[s][.] " at the end of the text before the
+// reference, the word whole (`\p{L}`, so "dilemma [x]" does not count).
+let namingFor = null;
+let namingRe = null;
+
+function namesReference(before) {
+  const m = app.model;
+  if (namingFor !== m) {
+    const words = new Set(REFERENCE_WORDS);
+    for (const k of Object.keys((m && m.kinds) || {})) words.add(model.kindWord(k).toLowerCase());
+    const alt = [...words].sort((a, b) => b.length - a.length).map(escapeRegExp).join('|');
+    namingRe = new RegExp('(?:^|[^\\p{L}])(?:' + alt + ')s?\\.?\\s+$', 'iu');
+    namingFor = m;
+  }
+  return namingRe.test(before);
 }
 
 /**
@@ -259,8 +317,20 @@ export function renderMath(root) {
   }
 }
 
-/** Replace `[slug]` in text nodes by object links, skipping code and maths. */
-export function linkifySlugs(root, known) {
+/**
+ * Replace `[slug]` in text nodes by links, skipping code and maths.
+ *
+ * A reference reads the way a paper's does, "Definition 1.2.1": `refs(slug)`
+ * returns `{word, number, href}` for an object the document numbers, and
+ * `null` for one it does not, which keeps its slug as the link text.  When the
+ * prose already says the word ("by Lemma [lem-x]"), or any word a reference is
+ * named with ("Thm [x]", "Props. [x]", any kind of the schema), only the number
+ * is added, so it does not read "Lemma Lemma 2.3" or "Thm Theorem 2.3".  The slug is the link's tooltip
+ * either way, and an unknown slug is a broken link exactly as before.  Without
+ * `refs` every link text is the slug.  Explicit link text, `[text](…)`, is
+ * markdown's and never reaches this pass.
+ */
+export function linkifySlugs(root, known, refs) {
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
     acceptNode(node) {
       for (let p = node.parentNode; p && p !== root; p = p.parentNode) {
@@ -287,15 +357,24 @@ export function linkifySlugs(root, known) {
       if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
       const slug = m[1];
       const ok = !known || known.has(slug);
+      const ref = ok && refs ? refs(slug) : null;
+      let label = slug;
+      if (ref) {
+        // "Lemma [x]" and "Thm [x]" already have their word.
+        const said = new RegExp('(?:^|[^\\p{L}])' + escapeRegExp(ref.word) + '\\s+$', 'iu');
+        const before = text.slice(0, m.index);
+        label = said.test(before) || namesReference(before) ? ref.number : ref.word + ' ' + ref.number;
+      }
       frag.appendChild(
         el(
           'a',
           {
-            class: 'objlink' + (ok ? '' : ' broken'),
-            href: ok ? objectHref(slug) : '#/checks?code=bad-link',
+            class: 'objlink' + (ok ? '' : ' broken') + (ref ? ' ref' : ''),
+            href: ok ? (ref && ref.href) || objectHref(slug) : '#/checks?code=bad-link',
             title: ok ? slug : `${slug} does not resolve to an object`,
+            'data-ref': ref ? slug : null,
           },
-          slug,
+          label,
         ),
       );
       last = m.index + m[0].length;
@@ -412,9 +491,19 @@ const app = {
   progressBar,
   objectHeadBadges,
 
-  /** Navigate to a route. */
-  go(view, id, params) {
-    location.hash = buildHash(view, id, params);
+  /**
+   * Navigate to a route.  `replace` swaps the current history entry instead of
+   * pushing one, for a page that redirects an old-style link to where it now
+   * lives: Back must not land on the link again and be redirected again.
+   */
+  go(view, id, params, { replace = false } = {}) {
+    const hash = buildHash(view, id, params);
+    if (replace) {
+      history.replaceState(null, '', hash);
+      render();
+    } else {
+      location.hash = hash;
+    }
   },
 
   /**
@@ -545,6 +634,172 @@ function updateChrome() {
   }
 }
 
+// ---------------------------------------------------------------------------
+// the search box in the top bar
+// ---------------------------------------------------------------------------
+
+// It finds any object of the blueprint by id, title, Lean name or body and
+// goes to its page.  The matcher is `model.search`, the one the graph's
+// highlight and the progress listing use too, over the index it builds once
+// per snapshot; what is left per keystroke is one pass over that index, a few
+// milliseconds on a real blueprint, after a short debounce.
+//
+// Bare sugar edges are left out: every `uses/a/b` id matches whatever `a`
+// matches, and a real blueprint has several per statement, so they would push
+// the statements themselves off the list.  An edge with a title or prose of
+// its own is something to find, sugar or not, and is kept.
+const GLOBAL_RESULTS = 12;
+const GLOBAL_DEBOUNCE_MS = 100;
+
+const gsearch = { input: null, panel: null, list: null, foot: null, timer: null, hits: [], active: -1 };
+
+function setupGlobalSearch() {
+  const input = document.getElementById('gsearch-input');
+  const panel = document.getElementById('gsearch-panel');
+  const list = document.getElementById('gsearch-results');
+  const foot = document.getElementById('gsearch-foot');
+  if (!input || !panel || !list || !foot) return;
+  Object.assign(gsearch, { input, panel, list, foot });
+
+  input.addEventListener('input', () => {
+    clearTimeout(gsearch.timer);
+    gsearch.timer = setTimeout(runGlobalSearch, GLOBAL_DEBOUNCE_MS);
+  });
+  input.addEventListener('keydown', onGlobalSearchKey);
+  input.addEventListener('focus', () => { if (input.value.trim()) runGlobalSearch(); });
+  input.addEventListener('blur', () => closeGlobalSearch());
+  // Keep the focus in the box while a result is clicked: a blur on mousedown
+  // would close the list before the click arrived.
+  panel.addEventListener('mousedown', (ev) => ev.preventDefault());
+
+  // `/` from anywhere that is not itself taking text.
+  document.addEventListener('keydown', (ev) => {
+    if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey || ev.defaultPrevented) return;
+    if (takesText(ev.target)) return;
+    ev.preventDefault();
+    input.focus();
+    if (typeof input.select === 'function') input.select();
+  });
+}
+
+// A focused checkbox or slider does not take a `/` (the graph's filters keep
+// the focus after a click), so only the kinds of input that do are excluded.
+const NON_TEXT_INPUTS = new Set(['checkbox', 'radio', 'range', 'button', 'submit', 'reset', 'color', 'file']);
+
+function takesText(node) {
+  if (!node || node.nodeType !== 1) return false;
+  if (node.tagName === 'INPUT') return !NON_TEXT_INPUTS.has(String(node.type || 'text').toLowerCase());
+  return node.tagName === 'TEXTAREA' || node.tagName === 'SELECT' || !!node.isContentEditable;
+}
+
+/** Search for what is in the box now and show the list. Exported for tests. */
+export function runGlobalSearch() {
+  clearTimeout(gsearch.timer);
+  gsearch.timer = null;
+  const m = app.model;
+  const q = gsearch.input ? gsearch.input.value : '';
+  if (!m || !q.trim()) { closeGlobalSearch(); return; }
+  const accept = (o) => !(m.kinds[o.kind] && m.kinds[o.kind].sugar)
+    || !!(o.attrs.title || o.body.trim());
+  const hits = model.search(m, q, Infinity, { accept });
+  gsearch.hits = hits.slice(0, GLOBAL_RESULTS).map((h) => h.object);
+  gsearch.active = gsearch.hits.length ? 0 : -1;
+  drawGlobalResults(q.trim().toLowerCase(), hits.length);
+}
+
+function drawGlobalResults(q, total) {
+  const { input, panel, list, foot } = gsearch;
+  const m = app.model;
+  clear(list);
+  gsearch.hits.forEach((o, i) => {
+    const st = model.statusOf(m, o.id);
+    // Say which Lean name matched when that is why the object is listed: the
+    // title alone would not show it.
+    const lean = model.leanNamesOf(o).find((n) => n.toLowerCase().includes(q));
+    list.appendChild(el('a.gsearch-item', {
+      id: 'gsearch-opt-' + i, role: 'option', href: objectHref(o.id),
+      'aria-selected': 'false',
+      onmousemove: () => { if (gsearch.active !== i) setGlobalActive(i); },
+      onclick: (ev) => {
+        // A modified click opens a tab and leaves this one as it is.
+        if (ev.button || ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.altKey) return;
+        ev.preventDefault();
+        goToResult(i);
+      },
+    },
+    el('span.gsearch-title', model.titleOf(o)),
+    el('span.gsearch-meta',
+      kindBadge(o.kind),
+      st === null ? null : statusBadge(st),
+      el('span.gsearch-id', o.id),
+      lean ? el('span.gsearch-lean', lean) : null)));
+  });
+  const shown = gsearch.hits.length;
+  foot.textContent = !total ? 'No object matches.'
+    : total > shown ? `${shown} of ${total} matches; keep typing to narrow them down.`
+      : `${total} ${total === 1 ? 'match' : 'matches'}.`;
+  panel.hidden = false;
+  input.setAttribute('aria-expanded', 'true');
+  setGlobalActive(gsearch.active);
+  renderMath(list); // titles carry maths
+}
+
+function setGlobalActive(i) {
+  gsearch.active = i;
+  const items = gsearch.list.querySelectorAll('.gsearch-item');
+  items.forEach((a, k) => {
+    a.classList.toggle('active', k === i);
+    a.setAttribute('aria-selected', k === i ? 'true' : 'false');
+  });
+  if (i >= 0 && items[i]) {
+    gsearch.input.setAttribute('aria-activedescendant', items[i].id);
+    if (typeof items[i].scrollIntoView === 'function') items[i].scrollIntoView({ block: 'nearest' });
+  } else {
+    gsearch.input.removeAttribute('aria-activedescendant');
+  }
+}
+
+function closeGlobalSearch() {
+  if (!gsearch.panel) return;
+  clearTimeout(gsearch.timer);
+  gsearch.timer = null;
+  gsearch.panel.hidden = true;
+  gsearch.input.setAttribute('aria-expanded', 'false');
+  gsearch.input.removeAttribute('aria-activedescendant');
+}
+
+function goToResult(i) {
+  const o = gsearch.hits[i];
+  if (!o) return;
+  gsearch.input.value = '';
+  closeGlobalSearch();
+  gsearch.input.blur();
+  location.hash = objectHref(o.id);
+}
+
+function onGlobalSearchKey(ev) {
+  const open = !gsearch.panel.hidden;
+  const n = gsearch.hits.length;
+  if (ev.key === 'ArrowDown' || ev.key === 'ArrowUp') {
+    ev.preventDefault();
+    if (!open || gsearch.timer) { runGlobalSearch(); return; }
+    if (!n) return;
+    const step = ev.key === 'ArrowDown' ? 1 : -1;
+    setGlobalActive((gsearch.active + step + n) % n);
+  } else if (ev.key === 'Enter') {
+    ev.preventDefault();
+    // Enter straight after typing must not act on the list from before the
+    // last keystrokes: search now, then go.
+    if (!open || gsearch.timer) runGlobalSearch();
+    goToResult(gsearch.active);
+  } else if (ev.key === 'Escape') {
+    // Close the list first; a second Escape gives the keyboard back to the page.
+    ev.preventDefault();
+    if (open) closeGlobalSearch();
+    else gsearch.input.blur();
+  }
+}
+
 function updateTabs(view) {
   for (const a of document.querySelectorAll('#tabs a')) {
     a.classList.toggle('active', a.dataset.view === view || (view === 'object' && a.dataset.view === 'document'));
@@ -569,6 +824,7 @@ let lastPageKey = null;
 
 function render() {
   app.route = parseHash();
+  closeGlobalSearch(); // back, forward, a link: the list is about the page left behind
   updateTabs(app.route.view);
   const pageKey = app.route.view + ' ' + (app.route.id || '');
   if (pageKey !== lastPageKey) {
@@ -617,6 +873,7 @@ async function boot() {
     return;
   }
   await loadHistory();
+  setupGlobalSearch();
   window.addEventListener('hashchange', () => {
     if (suppressRoute > 0) {
       suppressRoute -= 1;

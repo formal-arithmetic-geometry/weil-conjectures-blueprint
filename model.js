@@ -118,6 +118,8 @@ export function buildModel(snapshot) {
     _views: new Map(), // memoised views, keyed by kind + normalised expanded set
     _search: null, // lowercase search index, built on first search
     _searchHits: new Map(), // memoised results per query string
+    _countable: null, // countable objects by title, for the progress listing
+    _outlines: new Map(), // memoised document outlines, per collapse kind
   };
   return model;
 }
@@ -833,6 +835,179 @@ export function visibleNodes(view) {
 }
 
 // ---------------------------------------------------------------------------
+// 4a. Transitive reduction of the drawn arcs
+// ---------------------------------------------------------------------------
+
+/**
+ * The arcs a reader can do without: those already implied by a longer path of
+ * the same kind.  If A uses B, B uses C and A uses C, the arc A -> C says
+ * nothing the other two do not, and on a real dependency graph such arcs are
+ * most of the ink.
+ *
+ * `arcs` is a list of `{id, kind, src, tgt, keep}`, directed src -> tgt in the
+ * model's sense, between whatever ids the caller draws as nodes.  The answer is
+ * the Set of ids that may be hidden.  Choices, and why:
+ *
+ *   * Per kind.  A path only implies an arc of its own kind: `uses` through a
+ *     `generalises` is not a use.  Nothing here knows any kind by name; arcs
+ *     are simply grouped by `kind`.
+ *   * On what the caller passes, which for the graph is the quotient as drawn
+ *     (after the kind and status filters), so an arc is never hidden in favour
+ *     of a path the reader cannot see.
+ *   * `keep: true` arcs count as paths but are never hidden.  The graph uses
+ *     this for the spokes of a junction: a junction carries more than its
+ *     reachability (other ends, objects attached to it), so it stays, but the
+ *     path src -> junction -> tgt does imply src -> tgt.
+ *   * Direction is the model's, src -> tgt.  A kind drawn reversed reverses
+ *     every one of its arcs, which leaves the set of implied arcs unchanged.
+ *   * Cycles.  On a cyclic graph the transitive reduction is not unique (in a
+ *     triangle with both orientations every arc is implied by the others, but
+ *     not all of them can go), so the reduction is taken on the condensation:
+ *     arcs inside a strongly connected component are never hidden, and an arc
+ *     between two components is hidden only when its target component is
+ *     reachable from its source component through some third component.  Two
+ *     arcs joining the same pair of components are both kept, since neither
+ *     can be preferred.  Hiding everything this says loses no reachability.
+ *
+ * Linear in the arcs plus one bitset of reachable components per component,
+ * which for the few thousand nodes of a fully expanded blueprint is a few
+ * megabytes at worst and normally nothing.
+ */
+export function transitiveReduction(arcs) {
+  const hidden = new Set();
+  const byKind = new Map();
+  for (const a of arcs || []) {
+    if (a.src == null || a.tgt == null || a.src === a.tgt) continue;
+    if (!byKind.has(a.kind)) byKind.set(a.kind, []);
+    byKind.get(a.kind).push(a);
+  }
+  for (const list of byKind.values()) reduceOneKind(list, hidden);
+  return hidden;
+}
+
+function reduceOneKind(arcs, hidden) {
+  const index = new Map();
+  const succ = [];
+  const at = (id) => {
+    let i = index.get(id);
+    if (i === undefined) {
+      i = succ.length;
+      index.set(id, i);
+      succ.push([]);
+    }
+    return i;
+  };
+  const ends = arcs.map((a) => [at(a.src), at(a.tgt)]);
+  for (const [u, v] of ends) succ[u].push(v);
+
+  // Tarjan numbers components in the order it finishes them, and a component
+  // finishes only after everything reachable from it: so every arc between two
+  // components runs from a higher number to a lower one.
+  const comp = stronglyConnected(succ);
+  let nComp = 0;
+  for (const c of comp) if (c + 1 > nComp) nComp = c + 1;
+
+  const csucc = Array.from({ length: nComp }, () => new Set());
+  for (const [u, v] of ends) if (comp[u] !== comp[v]) csucc[comp[u]].add(comp[v]);
+
+  // below[c]: the components reachable from c by a path of at least one arc,
+  // as a bitset.  Filled lowest number first, so every successor is done.
+  const words = (nComp + 31) >>> 5;
+  const below = new Array(nComp);
+  const setBit = (bits, i) => { bits[i >>> 5] |= 1 << (i & 31); };
+  const hasBit = (bits, i) => (bits[i >>> 5] & (1 << (i & 31))) !== 0;
+  for (let c = 0; c < nComp; c += 1) {
+    if (csucc[c].size === 0) { below[c] = null; continue; }
+    const bits = new Uint32Array(words);
+    for (const d of csucc[c]) {
+      setBit(bits, d);
+      const bd = below[d];
+      if (bd) for (let w = 0; w < words; w += 1) bits[w] |= bd[w];
+    }
+    below[c] = bits;
+  }
+
+  // An arc c -> d is implied when d is two or more steps below c, that is,
+  // below some successor of c.
+  const twoSteps = new Array(nComp);
+  const twoStepsOf = (c) => {
+    if (twoSteps[c] !== undefined) return twoSteps[c];
+    let bits = null;
+    for (const e of csucc[c]) {
+      const be = below[e];
+      if (!be) continue;
+      if (!bits) bits = new Uint32Array(words);
+      for (let w = 0; w < words; w += 1) bits[w] |= be[w];
+    }
+    twoSteps[c] = bits;
+    return bits;
+  };
+  arcs.forEach((a, i) => {
+    if (a.keep) return;
+    const cu = comp[ends[i][0]];
+    const cv = comp[ends[i][1]];
+    if (cu === cv) return; // inside a cycle: never hidden
+    const bits = twoStepsOf(cu);
+    if (bits && hasBit(bits, cv)) hidden.add(a.id);
+  });
+}
+
+/**
+ * Tarjan's strongly connected components, iteratively (a long chain of uses
+ * would overflow the stack recursively).  Returns comp[node] in finishing
+ * order, sinks first.
+ */
+function stronglyConnected(succ) {
+  const n = succ.length;
+  const index = new Int32Array(n).fill(-1);
+  const low = new Int32Array(n);
+  const comp = new Int32Array(n).fill(-1);
+  const onStack = new Uint8Array(n);
+  const stack = [];
+  let next = 0;
+  let nComp = 0;
+  for (let root = 0; root < n; root += 1) {
+    if (index[root] !== -1) continue;
+    const work = [[root, 0]]; // node, position in its successor list
+    index[root] = low[root] = next++;
+    stack.push(root);
+    onStack[root] = 1;
+    while (work.length) {
+      const top = work[work.length - 1];
+      const v = top[0];
+      if (top[1] < succ[v].length) {
+        const w = succ[v][top[1]];
+        top[1] += 1;
+        if (index[w] === -1) {
+          index[w] = low[w] = next++;
+          stack.push(w);
+          onStack[w] = 1;
+          work.push([w, 0]);
+        } else if (onStack[w]) {
+          low[v] = Math.min(low[v], index[w]);
+        }
+        continue;
+      }
+      work.pop();
+      if (work.length) {
+        const u = work[work.length - 1][0];
+        low[u] = Math.min(low[u], low[v]);
+      }
+      if (low[v] === index[v]) {
+        let w;
+        do {
+          w = stack.pop();
+          onStack[w] = 0;
+          comp[w] = nComp;
+        } while (w !== v);
+        nComp += 1;
+      }
+    }
+  }
+  return comp;
+}
+
+// ---------------------------------------------------------------------------
 // 5. Reading order (DESIGN 6: "a blueprint still reads as a paper")
 // ---------------------------------------------------------------------------
 
@@ -886,28 +1061,229 @@ export function topLevel(model, kind) {
   return [...order.roots].sort((a, b) => compareIds(model, a, b)).map((id) => model.byId.get(id));
 }
 
+/**
+ * The document as the document view sets it: which objects it shows, in what
+ * order, with what numbers, and which page each of them is read on.  Memoised
+ * per collapse kind, like the order itself.
+ *
+ * Two rules keep the result readable rather than a dump of every object in the
+ * snapshot:
+ *
+ *   * an object appears in the flow when it has prose of its own or children
+ *     in the collapse order.  Sugar-created edges with neither are structure,
+ *     not content, and are left to the graph;
+ *   * a binary edge with prose or a title but no children of its own is a
+ *     *step* of its source object, rendered as a block under it — "By
+ *     induction on the dimension" belongs under the theorem it proves, not as
+ *     a chapter.  An edge that does have children keeps its own place: it is a
+ *     coarse object carrying its own prose, and its details nest under it.
+ *
+ * Objects of the collapse kind itself are never in the flow: they *are* the
+ * structure.
+ *
+ * Numbers are the paper's: the third entry under the second top-level entry is
+ * "2.3".  An object with several parents is written out under the first and
+ * repeated, as a pointer, under the others; the repetition carries the number
+ * of the first occurrence and uses none of its own, so every object has exactly
+ * one number and a cross reference to it means one place.
+ *
+ * Returns
+ *   { kind,
+ *     entries,  // the flow, in reading order: {id, object, depth, number,
+ *               //   duplicate, parent, children}; `parent` is the enclosing
+ *               //   entry (null at the top), `children` the entries under it
+ *     roots,    // the top-level entries
+ *     byId,     // id -> its first (written-out) entry
+ *     steps,    // source id -> the step objects filed under it
+ *     stepOf }  // step id -> its source id
+ */
+export function documentOutline(model, kind) {
+  if (model._outlines.has(kind)) return model._outlines.get(kind);
+  const order = collapseOrder(model, kind);
+
+  const hasProse = (o) => !!(o.body && o.body.trim());
+  const hasTitle = (o) => !!(o.attrs && typeof o.attrs.title === 'string' && o.attrs.title);
+  const hasKids = (id) => childrenOf(order, id).length > 0;
+  // An object earns a place in the flow if it says something or contains
+  // something.
+  const inFlow = (o) => o.kind !== kind && (hasProse(o) || hasKids(o.id));
+
+  // Steps: leaf binary edges with something to say, filed under their source.
+  const steps = new Map();
+  const stepOf = new Map();
+  for (const o of model.objects) {
+    if (o.kind === kind) continue;
+    if (!isBinaryKind(model, o.kind)) continue;
+    if (hasKids(o.id)) continue; // it heads its own part of the document
+    if (!hasProse(o) && !hasTitle(o)) continue;
+    const src = boundaryEntry(o, 'src');
+    const srcObj = src && model.byId.get(src);
+    if (!srcObj || !inFlow(srcObj)) continue; // nothing to file it under
+    if (!steps.has(src)) steps.set(src, []);
+    steps.get(src).push(o);
+    stepOf.set(o.id, src);
+  }
+
+  // `readingOrder` gives the walk with its depths; an entry's parent in the
+  // flow is the nearest entry above it that is shallower.  Going by that
+  // rather than by `depth - 1` keeps the numbers whole even where a level was
+  // filtered out, which a broken snapshot can arrange.
+  const entries = [];
+  const roots = [];
+  const byId = new Map();
+  const counts = new Map(); // entry (or null) -> written-out children so far
+  const stack = []; // the chain of open entries, with their walk depths
+  for (const e of readingOrder(model, kind)) {
+    if (!e.object || !inFlow(e.object) || stepOf.has(e.id)) continue;
+    while (stack.length && stack[stack.length - 1].walkDepth >= e.depth) stack.pop();
+    const parent = stack.length ? stack[stack.length - 1].entry : null;
+    const first = byId.get(e.id);
+    const entry = {
+      id: e.id,
+      object: e.object,
+      depth: parent ? parent.depth + 1 : 0,
+      duplicate: !!first,
+      number: null,
+      parent,
+      children: [],
+    };
+    if (first) {
+      entry.number = first.number;
+    } else {
+      const k = (counts.get(parent) || 0) + 1;
+      counts.set(parent, k);
+      entry.number = parent ? parent.number + '.' + k : String(k);
+      byId.set(e.id, entry);
+    }
+    (parent ? parent.children : roots).push(entry);
+    entries.push(entry);
+    if (!entry.duplicate) stack.push({ walkDepth: e.depth, entry });
+  }
+
+  const outline = { kind, entries, roots, byId, steps, stepOf };
+  model._outlines.set(kind, outline);
+  return outline;
+}
+
+/** "Definition", "Section", "Main theorem": the lead word of a numbered entry. */
+export function kindWord(kind) {
+  const s = String(kind);
+  return s.charAt(0).toUpperCase() + s.slice(1).replace(/_/g, ' ');
+}
+
+/**
+ * How a cross reference to `id` reads along the outline, as a paper's would:
+ * `{ word: 'Definition', number: '1.2.1' }`, the lead word being the one the
+ * document view sets the entry under.  An object with several parents is
+ * referred to by its one number, the first occurrence's.  `null` for an object
+ * the document gives no number: one that is not in the flow, or a step, which
+ * is read as part of its source rather than on its own.
+ */
+export function referenceOf(outline, id) {
+  const entry = outline.byId.get(id);
+  if (!entry) return null;
+  return { word: kindWord(entry.object.kind), number: entry.number };
+}
+
+/**
+ * The page of the split document an object is read on: its own page if it has
+ * entries under it, otherwise its parent's, which shows it among its siblings
+ * (`null` is the top-level page).  A step is read wherever its source is.
+ * `undefined` when the object is not in the document at all.
+ */
+export function documentPageOf(outline, id) {
+  if (outline.stepOf.has(id)) return documentPageOf(outline, outline.stepOf.get(id));
+  const entry = outline.byId.get(id);
+  if (!entry) return undefined;
+  if (entry.children.length) return entry.id;
+  return entry.parent ? entry.parent.id : null;
+}
+
+/**
+ * Whether the page of `pageId` (null for the top level), inlining `levels`
+ * levels below itself, writes out `id`.
+ */
+export function documentPageShows(outline, pageId, levels, id) {
+  if (outline.stepOf.has(id)) id = outline.stepOf.get(id);
+  const entry = outline.byId.get(id);
+  if (!entry) return false;
+  if (pageId === null) return entry.depth < levels;
+  if (entry.id === pageId) return true;
+  for (let p = entry.parent; p; p = p.parent) {
+    if (p.id === pageId) return entry.depth - p.depth <= levels;
+  }
+  return false;
+}
+
+/**
+ * The entries a page writes out, in reading order: the page's own entry (none
+ * for the top level) and everything up to `levels` levels below it.
+ */
+export function documentPageEntries(outline, pageId, levels) {
+  const out = [];
+  const walk = (list, left) => {
+    if (left <= 0) return;
+    for (const e of list) {
+      out.push(e);
+      walk(e.children, left - 1);
+    }
+  };
+  if (pageId === null) {
+    walk(outline.roots, levels);
+  } else {
+    const entry = outline.byId.get(pageId);
+    if (!entry) return out;
+    out.push(entry);
+    walk(entry.children, levels);
+  }
+  return out;
+}
+
 // ---------------------------------------------------------------------------
 // 6. Search and aggregates
 // ---------------------------------------------------------------------------
 
 /**
- * Substring search over id, title and body.  Returns objects ranked by where
- * the match was found.  Empty query returns [].
+ * Substring search over id, title, the Lean declaration names (`attrs.lean`)
+ * and body.  Returns objects ranked by where the match was found.  Empty
+ * query returns [].
+ *
+ * `limit` may be `Infinity`.  `accept`, when given, is asked about every
+ * candidate before it is scored, which is how the top bar's search leaves out
+ * bare sugar edges: a real blueprint has several `uses/a/b` edges per
+ * statement, and every one of them matches by id whatever `a` and `b` match.
  */
-export function search(model, query, limit = 200) {
+export function search(model, query, limit = 200, { accept = null } = {}) {
   const q = (query || '').trim().toLowerCase();
   if (!q) return [];
   const hits = [];
   for (const row of searchIndex(model)) {
+    if (accept && !accept(row.object)) continue;
     let score = 0;
     if (row.id === q || row.title === q) score = 100;
+    else if (row.lean.includes(q)) score = 90;
     else if (row.id.includes(q)) score = 60;
     else if (row.title.includes(q)) score = 50;
+    else if (row.lean.some((n) => n.includes(q))) score = 40;
     else if (row.body.includes(q)) score = 20;
     if (score > 0) hits.push({ object: row.object, score });
   }
-  hits.sort((a, b) => b.score - a.score || (a.object.id < b.object.id ? -1 : 1));
-  return hits.slice(0, limit);
+  // Within one tier: statements before the edges between them, whose ids
+  // repeat their ends' ids, then the shorter id (the closer match), then the
+  // id itself, so the order is total and stable.
+  const isEdge = (o) => (o.boundary.length ? 1 : 0);
+  hits.sort((a, b) => b.score - a.score
+    || isEdge(a.object) - isEdge(b.object)
+    || a.object.id.length - b.object.id.length
+    || (a.object.id < b.object.id ? -1 : a.object.id > b.object.id ? 1 : 0));
+  return hits.length > limit ? hits.slice(0, limit) : hits;
+}
+
+/** The Lean declaration names an object carries, as a list (possibly empty). */
+export function leanNamesOf(object) {
+  const names = object && object.attrs ? object.attrs.lean : null;
+  if (Array.isArray(names)) return names.filter((n) => typeof n === 'string');
+  return typeof names === 'string' && names ? [names] : [];
 }
 
 /**
@@ -921,6 +1297,7 @@ function searchIndex(model) {
       object: o,
       id: o.id.toLowerCase(),
       title: titleOf(o).toLowerCase(),
+      lean: leanNamesOf(o).map((n) => n.toLowerCase()),
       body: (o.body || '').toLowerCase(),
     }));
   }
@@ -931,6 +1308,11 @@ function searchIndex(model) {
  * Ids matching a query, as a Set — used to highlight graph nodes.  The graph
  * asks for the same query more than once per keystroke (once while typing, once
  * when the route settles), so the answer is memoised per query string.
+ *
+ * Every match, not `search`'s default 200.  Sugar edges matched by id outrank
+ * statements matched by title or body, and in a real blueprint an ordinary
+ * word matches several hundred objects, most of the first 200 of them `uses/…`
+ * edges: the graph dimmed hundreds of nodes that did match.
  */
 export function searchIds(model, query) {
   const q = (query || '').trim().toLowerCase();
@@ -939,9 +1321,61 @@ export function searchIds(model, query) {
     const hit = model._searchHits.get(q);
     if (hit) return hit;
   }
-  const ids = new Set(search(model, q).map((h) => h.object.id));
+  const ids = new Set(search(model, q, Infinity).map((h) => h.object.id));
   if (model._searchHits) cachePut(model._searchHits, q, ids, SEARCH_CACHE_LIMIT);
   return ids;
+}
+
+/**
+ * The objects of countable kinds, sorted by title: the rows of the progress
+ * page's "All countable objects" table before any filter.  Memoised on the
+ * model, so filtering on every keystroke does not sort a few thousand titles
+ * each time.
+ */
+export function countableObjects(model) {
+  if (!model._countable) {
+    const rows = model.objects
+      .filter((o) => model.kinds[o.kind] && model.kinds[o.kind].countable)
+      .map((o) => ({ o, t: titleOf(o) }));
+    rows.sort((a, b) => (a.t < b.t ? -1 : a.t > b.t ? 1 : 0));
+    model._countable = rows.map((r) => r.o);
+  }
+  return model._countable;
+}
+
+/** `status` filter values of the progress listing that are not statuses. */
+export const LISTING_NONE = 'none'; // the kind carries no Lean reference
+export const LISTING_UNPROVED = 'unproved'; // anything but the two proved states
+
+/**
+ * Filter the progress listing.  Every filter is optional and they combine
+ * with "and":
+ *
+ *   * `q`      — the same matcher as `search` (id, title, Lean names, body);
+ *   * `kind`   — the object's kind;
+ *   * `status` — a derived status, `'none'` for objects without one, or
+ *                `'unproved'` for everything that is not proved (with or
+ *                without extra axioms);
+ *   * `under`  — an id that must be a strict ancestor of the object in the
+ *                collapse order `order`, at any depth, so "under a chapter"
+ *                takes in the lemmas of its sections too.
+ *
+ * Returns a new array, in the order of `objects`.
+ */
+export function filterListing(model, objects, { q = '', kind = null, status = null, under = null, order = null } = {}) {
+  const ids = q && q.trim() ? searchIds(model, q) : null;
+  return objects.filter((o) => {
+    if (kind && o.kind !== kind) return false;
+    if (status) {
+      const s = statusOf(model, o.id);
+      if (status === LISTING_NONE) { if (s !== null) return false; }
+      else if (status === LISTING_UNPROVED) { if (s === 'proved' || s === 'proved_with_axioms') return false; }
+      else if (s !== status) return false;
+    }
+    if (under && (!order || !ancestorsOf(order, o.id).includes(under))) return false;
+    if (ids && !ids.has(o.id)) return false;
+    return true;
+  });
 }
 
 /** Count of objects per derived status, over countable kinds only. */
