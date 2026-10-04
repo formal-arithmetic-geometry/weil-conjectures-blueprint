@@ -2,7 +2,7 @@
 id = "d-ab-field"
 kind = "definition"
 title = "Finite fields, Frobenius and abelian varieties"
-lean = ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic", "AlgebraicGeometry.IsAbelianVariety"]
+lean = ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic", "AlgebraicGeometry.IsAbelianScheme"]
 order = 466
 +++
 Fix distinct primes $p,\ell$, an integer $a\ge1$, a field $k_0$ with

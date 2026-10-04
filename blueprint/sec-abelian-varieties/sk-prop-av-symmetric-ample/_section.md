@@ -2,7 +2,7 @@
 id = "sk-prop-av-symmetric-ample"
 kind = "section"
 title = "A symmetric ample module"
-lean = ["AlgebraicGeometry.IsAbelianVariety.isAmple_symmetrisation", "AlgebraicGeometry.IsAbelianVariety.nonempty_iso_overPullback_inv_symmetrisation"]
+lean = ["AlgebraicGeometry.IsAbelianScheme.isAmple_symmetrisation", "AlgebraicGeometry.IsAbelianScheme.nonempty_iso_overPullback_inv_symmetrisation"]
 order = 475
 uses = ["sk-def-av", "sk-def-av-ample-degree", "sk-prop-av-projective"]
 +++

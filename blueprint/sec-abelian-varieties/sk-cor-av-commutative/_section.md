@@ -2,7 +2,7 @@
 id = "sk-cor-av-commutative"
 kind = "section"
 title = "Abelian varieties are commutative"
-lean = ["AlgebraicGeometry.IsAbelianVariety.isCommMonObj"]
+lean = ["AlgebraicGeometry.IsAbelianScheme.isCommMonObj", "AlgebraicGeometry.IsAbelianScheme.isCommMonObj_of_field"]
 order = 491
 uses = ["sk-def-av", "sk-prop-av-rigidity"]
 +++

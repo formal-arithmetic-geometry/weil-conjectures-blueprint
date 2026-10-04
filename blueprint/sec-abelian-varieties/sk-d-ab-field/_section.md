@@ -2,7 +2,7 @@
 id = "sk-d-ab-field"
 kind = "section"
 title = "Finite fields, Frobenius and abelian varieties"
-lean = ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic", "AlgebraicGeometry.IsAbelianVariety"]
+lean = ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic", "AlgebraicGeometry.IsAbelianScheme"]
 order = 465
 +++
 *Definition (sketch).*
