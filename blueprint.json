@@ -1343,7 +1343,7 @@
     "order": 466,
     "lean":
     ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic",
-     "AlgebraicGeometry.IsAbelianVariety"]}},
+     "AlgebraicGeometry.IsAbelianScheme"]}},
   {"source":
    {"file":
     "blueprint/sec-algebraic-groups-lie-algebras/sk-d-ab-rankone/d-ab-rankone.md",
@@ -4771,7 +4771,7 @@
    "attrs":
    {"title": "Abelian varieties",
     "order": 428,
-    "lean": ["AlgebraicGeometry.IsAbelianVariety"]}},
+    "lean": ["AlgebraicGeometry.IsAbelianScheme"]}},
   {"source":
    {"file":
     "blueprint/sec-abelian-varieties/sk-def-av-ample-degree/def-sc-ample.md",
@@ -7670,7 +7670,7 @@
    "attrs":
    {"title": "The Tate module used in the curve argument",
     "order": 470,
-    "lean": ["AlgebraicGeometry.IsAbelianVariety.tateModule"]}},
+    "lean": ["AlgebraicGeometry.IsAbelianScheme.tateModule"]}},
   {"source":
    {"file":
     "blueprint/sec-algebraic-groups-lie-algebras/sk-d-geometry/def-wf-algebraic-components.md",
@@ -14173,8 +14173,8 @@
    {"title": "Abelian varieties are the complete group varieties",
     "order": 472,
     "lean":
-    ["AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral",
-     "AlgebraicGeometry.IsAbelianVariety.irreducibleSpace"]}},
+    ["AlgebraicGeometry.IsAbelianScheme.geometricallyIntegral",
+     "AlgebraicGeometry.IsAbelianScheme.irreducibleSpace"]}},
   {"source":
    {"file":
     "blueprint/sec-abelian-varieties/sk-prop-av-projective/lem-sc-abelian-variety-projective.md",
@@ -14189,8 +14189,8 @@
    {"title": "Abelian varieties are projective",
     "order": 474,
     "lean":
-    ["AlgebraicGeometry.IsAbelianVariety.exists_isClosedImmersion_projectiveSpace",
-     "AlgebraicGeometry.IsAbelianVariety.exists_isAmple"]}},
+    ["AlgebraicGeometry.IsAbelianScheme.exists_isClosedImmersion_projectiveSpace",
+     "AlgebraicGeometry.IsAbelianScheme.exists_isAmple"]}},
   {"source":
    {"file":
     "blueprint/sec-curve-estimates/sk-prop-cd-affine/lem-sc-affine-cohomological-dimension.md",
@@ -14292,8 +14292,8 @@
    {"title": "Tensor products of ample modules",
     "order": 478,
     "lean":
-    ["AlgebraicGeometry.IsAbelianVariety.isAmple_symmetrisation",
-     "AlgebraicGeometry.IsAbelianVariety.nonempty_iso_overPullback_inv_symmetrisation"]}},
+    ["AlgebraicGeometry.IsAbelianScheme.isAmple_symmetrisation",
+     "AlgebraicGeometry.IsAbelianScheme.nonempty_iso_overPullback_inv_symmetrisation"]}},
   {"source":
    {"file":
     "blueprint/sec-smooth-purity/sk-prop-sf-cbc/lem-sc-arbitrary-curve-cd.md",
@@ -14354,7 +14354,9 @@
    "attrs":
    {"title": "Abelian varieties are commutative",
     "order": 492,
-    "lean": ["AlgebraicGeometry.IsAbelianVariety.isCommMonObj"]}},
+    "lean":
+    ["AlgebraicGeometry.IsAbelianScheme.isCommMonObj",
+     "AlgebraicGeometry.IsAbelianScheme.isCommMonObj_of_field"]}},
   {"source":
    {"file":
     "blueprint/sec-curve-estimates/sk-prop-ext-invariance/lem-sc-base-change-curve.md",
@@ -24554,7 +24556,7 @@
     "tags": ["latex:proposition"],
     "order": 591,
     "lean":
-    ["AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule"]}},
+    ["AlgebraicGeometry.IsAbelianScheme.nonempty_linearEquiv_tateModule"]}},
   {"source":
    {"file":
     "blueprint/sec-fourier-transform/sk-prop-base-linear/prop-base-linear.md",
@@ -65286,7 +65288,9 @@
    "attrs":
    {"title": "Abelian varieties are commutative",
     "order": 491,
-    "lean": ["AlgebraicGeometry.IsAbelianVariety.isCommMonObj"]}},
+    "lean":
+    ["AlgebraicGeometry.IsAbelianScheme.isCommMonObj",
+     "AlgebraicGeometry.IsAbelianScheme.isCommMonObj_of_field"]}},
   {"source":
    {"file":
     "blueprint/sec-deligne-laumon-general/sk-cor-dl-general-complex/_section.md",
@@ -65455,7 +65459,7 @@
     "order": 465,
     "lean":
     ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic",
-     "AlgebraicGeometry.IsAbelianVariety"]}},
+     "AlgebraicGeometry.IsAbelianScheme"]}},
   {"source":
    {"file":
     "blueprint/sec-algebraic-groups-lie-algebras/sk-d-ab-rankone/_section.md",
@@ -66024,7 +66028,7 @@
    "attrs":
    {"title": "Abelian varieties",
     "order": 427,
-    "lean": ["AlgebraicGeometry.IsAbelianVariety"]}},
+    "lean": ["AlgebraicGeometry.IsAbelianScheme"]}},
   {"source":
    {"file":
     "blueprint/sec-abelian-varieties/sk-def-av-ample-degree/_section.md",
@@ -66121,7 +66125,7 @@
    "attrs":
    {"title": "$\\ell$-adic Tate module",
     "order": 469,
-    "lean": ["AlgebraicGeometry.IsAbelianVariety.tateModule"]}},
+    "lean": ["AlgebraicGeometry.IsAbelianScheme.tateModule"]}},
   {"source":
    {"file": "blueprint/sec-smooth-base-change/sk-def-bc/_section.md",
     "anonymous": false},
@@ -68127,8 +68131,8 @@
    {"title": "Abelian varieties are the complete group varieties",
     "order": 471,
     "lean":
-    ["AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral",
-     "AlgebraicGeometry.IsAbelianVariety.irreducibleSpace"]}},
+    ["AlgebraicGeometry.IsAbelianScheme.geometricallyIntegral",
+     "AlgebraicGeometry.IsAbelianScheme.irreducibleSpace"]}},
   {"source":
    {"file":
     "blueprint/sec-abelian-varieties/sk-prop-av-connected-order/_section.md",
@@ -68423,8 +68427,8 @@
    {"title": "Abelian varieties are projective",
     "order": 473,
     "lean":
-    ["AlgebraicGeometry.IsAbelianVariety.exists_isClosedImmersion_projectiveSpace",
-     "AlgebraicGeometry.IsAbelianVariety.exists_isAmple"]}},
+    ["AlgebraicGeometry.IsAbelianScheme.exists_isClosedImmersion_projectiveSpace",
+     "AlgebraicGeometry.IsAbelianScheme.exists_isAmple"]}},
   {"source":
    {"file": "blueprint/sec-abelian-varieties/sk-prop-av-rigidity/_section.md",
     "anonymous": false},
@@ -68452,8 +68456,8 @@
    {"title": "A symmetric ample module",
     "order": 475,
     "lean":
-    ["AlgebraicGeometry.IsAbelianVariety.isAmple_symmetrisation",
-     "AlgebraicGeometry.IsAbelianVariety.nonempty_iso_overPullback_inv_symmetrisation"]}},
+    ["AlgebraicGeometry.IsAbelianScheme.isAmple_symmetrisation",
+     "AlgebraicGeometry.IsAbelianScheme.nonempty_iso_overPullback_inv_symmetrisation"]}},
   {"source":
    {"file": "blueprint/sec-abelian-varieties/sk-prop-av-tate-rank/_section.md",
     "anonymous": false},
@@ -68467,7 +68471,7 @@
    {"title": "The $\\ell$-adic Tate module is free of rank $2g$",
     "order": 590,
     "lean":
-    ["AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule"]}},
+    ["AlgebraicGeometry.IsAbelianScheme.nonempty_linearEquiv_tateModule"]}},
   {"source":
    {"file": "blueprint/sec-fourier-transform/sk-prop-base-change/_section.md",
     "anonymous": false},
@@ -256765,7 +256769,7 @@
    "exists": true,
    "doc":
    "Blueprint `sk-prop-av-divisible`: Surjectivity of multiplication by `n` on points.\n\nLet `A` be an abelian variety over an algebraically closed field `K` and `0 < n`. Then\n`[n] : A(K) ⟶ A(K)` is surjective: `A(K)` is a divisible abelian group.",
-   "deps": ["AlgebraicGeometry.IsAbelianVariety"],
+   "deps": ["AlgebraicGeometry.IsProper"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.surjective_npow_id":
   {"status": "stated",
@@ -256781,7 +256785,7 @@
    "exists": true,
    "doc":
    "Blueprint `sk-prop-av-mult-surjective`: Surjectivity of the multiplication map.\n\nLet `A` be an abelian variety over `K` and `0 < n`. Then `[n] : A ⟶ A` is surjective, so `A` is\na divisible group scheme.",
-   "deps": ["AlgebraicGeometry.IsAbelianVariety"],
+   "deps": ["AlgebraicGeometry.IsProper"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.subsingleton_compactlySupportedCohomology_directImage_zero":
   {"status": "stated",
@@ -257244,7 +257248,7 @@
    "doc":
    "Blueprint `sk-prop-av-mult-n-pullback`: Pullback of symmetric modules under multiplication\nby `n`.\n\nLet `A` be an abelian variety over `K` and let `N` be an invertible `𝒪_A`-module which is\n*symmetric*, that is `[-1]^* N ≅ N`. Then `[n]^* N ≅ N^{⊗ n²}` for every `n`.",
    "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
+   ["AlgebraicGeometry.IsProper",
     "AlgebraicGeometry.Scheme.Modules.IsInvertible"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.nonempty_iso_cube":
@@ -257262,7 +257266,7 @@
    "doc":
    "Blueprint `sk-prop-av-cube`: The theorem of the cube.\n\nLet `A` be an abelian variety over a field `K` and let `L` be an invertible `𝒪_A`-module. For\n`1 ≤ i₁ < ⋯ < i_t ≤ 3` let `m_{i₁…i_t} : A × A × A ⟶ A` be the partial sum map\n`(x₁, x₂, x₃) ↦ x_{i₁} + ⋯ + x_{i_t}`. Then\n`m₁₂₃^* L ⊗ m₁^* L ⊗ m₂^* L ⊗ m₃^* L ≅ m₁₂^* L ⊗ m₁₃^* L ⊗ m₂₃^* L`.",
    "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
+   ["AlgebraicGeometry.IsProper",
     "AlgebraicGeometry.Scheme.Modules.IsInvertible"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.nonempty_equiv_compactlySupportedCohomology_directImage_two":
@@ -258026,8 +258030,7 @@
    "exists": true,
    "doc":
    "Blueprint `sk-prop-av-isogeny`: The multiplication-by-`n` isogeny.\n\nLet `A` be an abelian variety over `K` and let `0 < n`. Then `[n] : A ⟶ A` is a finite flat\nsurjective homomorphism, hence an isogeny.",
-   "deps":
-   ["AlgebraicGeometry.IsAbelianVariety", "AlgebraicGeometry.IsIsogeny"],
+   "deps": ["AlgebraicGeometry.IsIsogeny", "AlgebraicGeometry.IsProper"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.isIso_restrict_imageι_comp_fst":
   {"status": "proved",
@@ -258114,7 +258117,7 @@
    "exists": true,
    "doc":
    "Blueprint `sk-prop-av-mult-finite`: Finiteness of the fibres of the multiplication map.\n\nLet `A` be an abelian variety over `K` and `0 < n`. Then `[n] : A ⟶ A` is finite.",
-   "deps": ["AlgebraicGeometry.IsAbelianVariety", "AlgebraicGeometry.IsFinite"],
+   "deps": ["AlgebraicGeometry.IsFinite", "AlgebraicGeometry.IsProper"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.isFinitePresentation_of_toDescentData_iso":
   {"status": "stated",
@@ -259740,7 +259743,7 @@
    "Blueprint `sk-prop-av-ntorsion-etale`: The `n`-torsion of an abelian variety is étale.\n\nLet `A` be an abelian variety over a field `K` of characteristic `p` and let `n` be prime to\n`p`. Then `A[n]` is an étale group scheme over `K`.",
    "deps":
    ["AlgebraicGeometry.Etale",
-    "AlgebraicGeometry.IsAbelianVariety",
+    "AlgebraicGeometry.IsProper",
     "AlgebraicGeometry.torsionSubgroupScheme"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.etale_of_not_dvd_finrankΓ":
@@ -259998,9 +260001,9 @@
    "Blueprint `sk-thm-av-final`: Abelian-variety estimate, clauses (a) and (b).\n\nLet `A` be an abelian variety of dimension `g` over a field `K`, let `p = char K` and let\n`0 < n`.\n\n* **(a)** `[n] : A ⟶ A` is a finite flat surjective homomorphism, hence an isogeny of degree\n  `n ^ (2 * g)`; `A[n] = ker [n]` is a finite flat group scheme over `K` of order `n ^ (2 * g)`.\n* **(b)** If `n` is prime to `p` (in particular if `p = 0`), then `A[n]` is étale of rank\n  `n ^ (2 * g)`; for `p > 0` and `n = p ^ e` clause (a) already gives that `A[p ^ e]` is finite\n  flat of order `p ^ (2 * g * e)`.",
    "deps":
    ["AlgebraicGeometry.Etale",
-    "AlgebraicGeometry.IsAbelianVariety",
     "AlgebraicGeometry.IsFinite",
     "AlgebraicGeometry.IsIsogeny",
+    "AlgebraicGeometry.IsProper",
     "AlgebraicGeometry.Scheme.Hom.finrankΓ",
     "AlgebraicGeometry.isogenyDegree",
     "AlgebraicGeometry.torsionSubgroupScheme"],
@@ -266962,10 +266965,7 @@
    "exists": true,
    "doc":
    "Blueprint `sk-d-real-jacobian`: Jacobian torsion data and Kummer coefficients.\n\nA Jacobian torsion datum for a proper smooth geometrically integral curve `p : C ⟶ Spec K`\nover a finite field, a prime `l`, a group `Γ` (the Galois group of `k / K`) and a `Γ`-module\n`Pic` (the Picard group of the geometric curve `C`, written additively) consists of an abelian\nvariety `J₀ = J` over `K` together with a compatible system of `Γ`-equivariant isomorphisms\n\n`J[lⁿ] ≃ Pic[lⁿ] = ker (l ^ n • · : Pic → Pic)`\n\ncarrying multiplication by `l` on `J[l ^ (n + 1)] → J[lⁿ]` to the `l`-th tensor power on line\nbundles, i.e. to multiplication by `l` on the additively written `Pic`.",
-   "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.IsCurve",
-    "AlgebraicGeometry.IsProper"],
+   "deps": ["AlgebraicGeometry.IsCurve", "AlgebraicGeometry.IsProper"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
   "AlgebraicGeometry.IsWeilFactorization.unique":
   {"status": "proved",
@@ -267261,8 +267261,7 @@
    "doc":
    "Blueprint `sk-def-av-jacobian`: The Jacobian\n\nLet `C` be a smooth projective geometrically integral curve over a field `K`, of genus `g`. A\n*Jacobian of `C`* is a pair `(J, φ)` consisting of an abelian variety `J` over `K` of dimension\n`g` together with an isomorphism of group-valued functors `φ : Pic⁰_{C/K} ≅ h_J` on `(Sch/K)`;\nthat is, `J` represents the degree-zero relative Picard functor.\n\nThe relative Picard functor `Pic⁰_{C/K}` enters as the parameter\n`P : (Over (Spec (.of K)))ᵒᵖ ⥤ GrpCat`, which the definition does not relate to `C`; see the\nimplementation notes of this file. The functor of points of `J` as a group-valued functor is\n`CategoryTheory.yonedaGrpObj J`.\n\nRepresentability is stated as `Nonempty (P ≅ yonedaGrpObj J)` rather than as a chosen\nisomorphism, so that `IsJacobian` is a `Prop`; the data of `φ` is recovered by choice.",
    "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.IsCurve",
+   ["AlgebraicGeometry.IsCurve",
     "AlgebraicGeometry.IsProper",
     "AlgebraicGeometry.Scheme.Hom.genus"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
@@ -267281,9 +267280,9 @@
    "doc":
    "Blueprint `sk-prop-av-isogeny-degree`: The degree of an isogeny is the degree of the kernel.\n\nAn isogeny of abelian varieties is a finite morphism.",
    "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.IsFinite",
-    "AlgebraicGeometry.IsIsogeny"],
+   ["AlgebraicGeometry.IsFinite",
+    "AlgebraicGeometry.IsIsogeny",
+    "AlgebraicGeometry.IsProper"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.IsIsogeny.flat":
   {"status": "stated",
@@ -267299,8 +267298,7 @@
    "exists": true,
    "doc":
    "Blueprint `sk-prop-av-isogeny-degree`: The degree of an isogeny is the degree of the kernel.\n\nAn isogeny of abelian varieties is a flat morphism.",
-   "deps":
-   ["AlgebraicGeometry.IsAbelianVariety", "AlgebraicGeometry.IsIsogeny"],
+   "deps": ["AlgebraicGeometry.IsIsogeny", "AlgebraicGeometry.IsProper"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.IsIsogeny.finrank_eq":
   {"status": "stated",
@@ -267317,8 +267315,8 @@
    "doc":
    "Blueprint `sk-prop-av-isogeny-degree`: The degree of an isogeny is the degree of the kernel.\n\nFor an isogeny `f : A ⟶ B` of abelian varieties with kernel of order `d`, the sheaf `f_* 𝒪_A` is\nlocally free of rank `d`: the degree of the finite flat morphism `f` equals the order of its\nkernel.",
    "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.IsIsogeny",
+   ["AlgebraicGeometry.IsIsogeny",
+    "AlgebraicGeometry.IsProper",
     "AlgebraicGeometry.isogenyDegree"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.IsIsogeny":
@@ -267757,211 +267755,20 @@
    "A `U`-admissible blow-up center on `X`; the associated `U`-admissible blow-up is the\nblow-up `I.blowup` of the center, with structure morphism `I.blowupMap`.\n(Blueprint: `def:nagata-admissible-blowup`.)",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "AlgebraicGeometry.IsAbelianVariety.tateModule":
-  {"status": "stated",
-   "signature":
-   "def AlgebraicGeometry.IsAbelianVariety.tateModule.{u} {K : Type u} [Field K] (ℓ : ℕ)\n  (A : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K))) [CategoryTheory.GrpObj A]\n  [AlgebraicGeometry.IsAbelianVariety A] :\n  AddSubgroup (ℕ → Additive (AlgebraicGeometry.Scheme.specAlgebraicClosure K ⟶ A))",
-   "range":
-   {"startLine": 56,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/TateModule.lean",
-    "endLine": 63},
-   "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.TateModule",
-   "kind": "definition",
-   "exists": true,
-   "doc":
-   "Blueprint `sk-def-av-tate`: `ℓ`-adic Tate module.\n\nThe *`ℓ`-adic Tate module* of an abelian variety `A` over `K` is the inverse limit\n`T_ℓ A = lim_n A[ℓ^n](K̄)`, the transition map from level `n + 1` to level `n` being\nmultiplication by `ℓ`. It is a `ℤ_[ℓ]`-module.",
-   "deps":
-   ["AddCommGroup.tateModule",
-    "AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.IsAbelianVariety.isCommMonObj"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule":
-  {"status": "stated",
-   "signature":
-   "theorem AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule.{u} {K : Type u} [Field K]\n  (ℓ : ℕ) [Fact (Nat.Prime ℓ)] (A : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K)))\n  [CategoryTheory.GrpObj A] [AlgebraicGeometry.IsAbelianVariety A] [IsAlgClosed K] (p : ℕ)\n  [CharP K p] (hℓ : ℓ ≠ p) :\n  Nonempty\n    (↥(AlgebraicGeometry.IsAbelianVariety.tateModule ℓ A) ≃ₗ[ℤ_[ℓ]]\n      Fin (2 * AlgebraicGeometry.IsAbelianVariety.dim A) → ℤ_[ℓ])",
-   "range":
-   {"startLine": 82,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/TateModule.lean",
-    "endLine": 88},
-   "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.TateModule",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "Blueprint `sk-prop-av-tate-rank`: The `ℓ`-adic Tate module is free of rank `2g`.\n\nLet `A` be an abelian variety of dimension `g` over an algebraically closed field `K` and let\n`ℓ ≠ char K`. Then `T_ℓ A ≅ ℤ_[ℓ] ^ (2 * g)`.",
-   "deps":
-   ["AddCommGroup.tateModule",
-    "AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.IsAbelianVariety.isCommMonObj",
-    "AlgebraicGeometry.IsAbelianVariety.tateModule"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.IsAbelianVariety.nonempty_iso_overPullback_inv_symmetrisation":
-  {"status": "stated",
-   "signature":
-   "theorem AlgebraicGeometry.IsAbelianVariety.nonempty_iso_overPullback_inv_symmetrisation.{u} {K : Type u}\n  [Field K] (A : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K)))\n  [CategoryTheory.GrpObj A] [AlgebraicGeometry.IsAbelianVariety A] (L : A.left.Modules)\n  [L.IsInvertible] :\n  Nonempty\n    (AlgebraicGeometry.Scheme.Modules.overPullback CategoryTheory.GrpObj.inv L.symmetrisation ≅\n      L.symmetrisation)",
-   "range":
-   {"startLine": 88,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Projective.lean",
-    "endLine": 96},
-   "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Projective",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "Blueprint `sk-prop-av-symmetric-ample`: A symmetric ample module.\n\nThe symmetrisation `N = L ⊗ [-1]^* L` of an invertible module on an abelian variety is\n*symmetric*, that is `[-1]^* N ≅ N`.",
-   "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.Scheme.Modules.IsInvertible"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.IsAbelianVariety.isCommMonObj":
-  {"status": "stated",
-   "signature":
-   "theorem AlgebraicGeometry.IsAbelianVariety.isCommMonObj.{u} {K : Type u} [Field K]\n  (A : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K))) [CategoryTheory.GrpObj A]\n  [AlgebraicGeometry.IsAbelianVariety A] : CategoryTheory.IsCommMonObj A",
-   "range":
-   {"startLine": 71,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Basic.lean",
-    "endLine": 84},
-   "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Basic",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "Blueprint `sk-cor-av-commutative`: Abelian varieties are commutative\n\nLet `A` be an abelian variety over `K`. Then `m ∘ s = m`, where `s` is the swap of the two\nfactors of `A ⊗ A`; that is, `A` is a commutative group object, and in particular `A(K)` is an\nabelian group.\n\nThis is Mathlib's `AlgebraicGeometry.isCommMonObj_of_isProper_of_geometricallyIntegral` applied\nto `AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral`. The blueprint instead deduces it\nfrom the rigidity lemma `AlgebraicGeometry.exists_eq_snd_comp`, which is recorded in\n`WeilConjectures.AlgebraicGeometry.AbelianVariety.Rigidity`, whose hypotheses on `X` an abelian\nvariety satisfies (see Stacks 04KV for geometric connectedness).",
-   "deps":
-   ["AlgebraicGeometry.Etale",
-    "AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral",
-    "AlgebraicGeometry.IsClosedImmersion.instIsIsoSchemeToImage",
-    "AlgebraicGeometry.IsClosedImmersion.of_comp",
-    "AlgebraicGeometry.IsFinite",
-    "AlgebraicGeometry.IsFinite.of_isProper_of_locallyQuasiFinite",
-    "AlgebraicGeometry.IsImmersion",
-    "AlgebraicGeometry.IsProper",
-    "AlgebraicGeometry.IsProper.of_comp",
-    "AlgebraicGeometry.IsSchemeTheoreticallyDominant",
-    "AlgebraicGeometry.IsSchemeTheoreticallyDominant.of_isDominant",
-    "AlgebraicGeometry.IsSchemeTheoreticallyDominant.of_isPullback",
-    "AlgebraicGeometry.QuasiCompact.of_comp",
-    "AlgebraicGeometry.Scheme.Hom.image",
-    "AlgebraicGeometry.Scheme.Hom.toImage",
-    "CategoryTheory.Limits.diagonal_pullback_fst",
-    "CompositionSeries",
-    "Ideal.map_pow",
-    "reesAlgebra"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.IsAbelianVariety.isAmple_symmetrisation":
-  {"status": "stated",
-   "signature":
-   "theorem AlgebraicGeometry.IsAbelianVariety.isAmple_symmetrisation.{u} {K : Type u} [Field K]\n  (A : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K))) [CategoryTheory.GrpObj A]\n  [AlgebraicGeometry.IsAbelianVariety A] (L : A.left.Modules) [L.IsInvertible]\n  (hample : AlgebraicGeometry.IsAmple A.hom L) : AlgebraicGeometry.IsAmple A.hom L.symmetrisation",
-   "range":
-   {"startLine": 79,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Projective.lean",
-    "endLine": 86},
-   "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Projective",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "Blueprint `sk-prop-av-symmetric-ample`: A symmetric ample module.\n\nLet `A` be an abelian variety over `K` and let `L` be an ample invertible `𝒪_A`-module. Then the\nsymmetrisation `L ⊗ [-1]^* L` is ample.",
-   "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.IsAmple",
-    "AlgebraicGeometry.Scheme.Modules.IsInvertible"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.IsAbelianVariety.irreducibleSpace":
-  {"status": "stated",
-   "signature":
-   "theorem AlgebraicGeometry.IsAbelianVariety.irreducibleSpace.{u} {K : Type u} [Field K]\n  (G : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K))) [CategoryTheory.GrpObj G]\n  [AlgebraicGeometry.IsAbelianVariety G] : IrreducibleSpace ↥G.left",
-   "range":
-   {"startLine": 61,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Basic.lean",
-    "endLine": 69},
-   "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Basic",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "Blueprint `sk-prop-av-char`: Abelian varieties are the complete group varieties.\n\nThe underlying space of an abelian variety is irreducible, being geometrically irreducible over\nthe one-point space `Spec K`.\n\nThis is also blueprint `lem-sc-abelian-variety-characterization`.",
-   "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral":
-  {"status": "stated",
-   "signature":
-   "theorem AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral.{u} {K : Type u} [Field K]\n  (G : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K))) [CategoryTheory.GrpObj G]\n  [AlgebraicGeometry.IsAbelianVariety G] : AlgebraicGeometry.GeometricallyIntegral G.hom",
-   "range":
-   {"startLine": 45,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Basic.lean",
-    "endLine": 59},
-   "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Basic",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "Blueprint `sk-prop-av-char`: Abelian varieties are the complete group varieties.\n\nLet `G` be a group scheme over a field `K` which is proper, connected and smooth over `K`, that\nis, an abelian variety in the sense of `AlgebraicGeometry.IsAbelianVariety`. Then `G` is\ngeometrically integral over `K`: it has a rational point, the unit, so connectedness gives\ngeometric connectedness; a smooth morphism with geometrically connected fibres is geometrically\nirreducible; and smoothness gives geometric reducedness.\n\nThis is also blueprint `lem-sc-abelian-variety-characterization`.",
-   "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
-    "CompositionSeries",
-    "Ideal.map_pow",
-    "IsRegularLocalRing.isDomain",
-    "reesAlgebra"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.IsAbelianVariety.exists_isClosedImmersion_projectiveSpace":
-  {"status": "stated",
-   "signature":
-   "theorem AlgebraicGeometry.IsAbelianVariety.exists_isClosedImmersion_projectiveSpace.{u} {K : Type u}\n  [Field K] (A : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K)))\n  [CategoryTheory.GrpObj A] [AlgebraicGeometry.IsAbelianVariety A] :\n  ∃ α,\n    ∃ (_ : Finite α),\n      ∃ j,\n        AlgebraicGeometry.IsClosedImmersion j ∧\n          CategoryTheory.CategoryStruct.comp j\n              (AlgebraicGeometry.ProjectiveSpace α (AlgebraicGeometry.Spec (CommRingCat.of K)) ↘\n                AlgebraicGeometry.Spec (CommRingCat.of K)) =\n            A.hom",
-   "range":
-   {"startLine": 59,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Projective.lean",
-    "endLine": 69},
-   "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Projective",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "Blueprint `sk-prop-av-projective`: Abelian varieties are projective.\n\nEvery abelian variety `A` over a field `K` admits a closed immersion into a projective space\nover `Spec K` compatible with the structure morphisms. The index type of the projective space\nis called `α`; `ι`, the usual name for an index type, is unavailable as an identifier here,\nbeing the token of the inversion notation `ι[A]`.",
-   "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.Proj",
-    "AlgebraicGeometry.ProjectiveSpace"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.IsAbelianVariety.exists_isAmple":
-  {"status": "stated",
-   "signature":
-   "theorem AlgebraicGeometry.IsAbelianVariety.exists_isAmple.{u} {K : Type u} [Field K]\n  (A : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K))) [CategoryTheory.GrpObj A]\n  [AlgebraicGeometry.IsAbelianVariety A] : ∃ M, M.IsInvertible ∧ AlgebraicGeometry.IsAmple A.hom M",
-   "range":
-   {"startLine": 71,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Projective.lean",
-    "endLine": 77},
-   "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Projective",
-   "kind": "theorem",
-   "exists": true,
-   "doc":
-   "Blueprint `sk-prop-av-projective`: Abelian varieties are projective.\n\nBeing projective, an abelian variety carries an ample invertible `𝒪_A`-module.",
-   "deps":
-   ["AlgebraicGeometry.IsAbelianVariety",
-    "AlgebraicGeometry.IsAmple",
-    "AlgebraicGeometry.Scheme.Modules.IsInvertible"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.IsAbelianVariety":
-  {"status": "proved",
-   "signature":
-   "structure AlgebraicGeometry.IsAbelianVariety.{u} {K : Type u} [Field K]\n  (A : CategoryTheory.Over (AlgebraicGeometry.Spec (CommRingCat.of K))) : Prop",
-   "range":
-   {"startLine": 46,
-    "file":
-    ".lake/packages/weil-conjectures/WeilConjectures/AlgebraicGeometry/AbelianVariety/Defs.lean",
-    "endLine": 52},
-   "module": "WeilConjectures.AlgebraicGeometry.AbelianVariety.Defs",
-   "kind": "structure",
-   "exists": true,
-   "doc":
-   "Blueprint `sk-def-av`: Abelian varieties.\n\nAn *abelian variety* over a field `K` is a group scheme over `K` which is proper, smooth and\nconnected; its *dimension* is `AlgebraicGeometry.IsAbelianVariety.dim`, the Krull dimension of\nits underlying space.",
-   "deps": ["AlgebraicGeometry.IsProper"],
-   "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "AlgebraicGeometry.IsAbelianScheme.tateModule": {"exists": false},
+  "AlgebraicGeometry.IsAbelianScheme.nonempty_linearEquiv_tateModule":
+  {"exists": false},
+  "AlgebraicGeometry.IsAbelianScheme.nonempty_iso_overPullback_inv_symmetrisation":
+  {"exists": false},
+  "AlgebraicGeometry.IsAbelianScheme.isCommMonObj_of_field": {"exists": false},
+  "AlgebraicGeometry.IsAbelianScheme.isCommMonObj": {"exists": false},
+  "AlgebraicGeometry.IsAbelianScheme.isAmple_symmetrisation": {"exists": false},
+  "AlgebraicGeometry.IsAbelianScheme.irreducibleSpace": {"exists": false},
+  "AlgebraicGeometry.IsAbelianScheme.geometricallyIntegral": {"exists": false},
+  "AlgebraicGeometry.IsAbelianScheme.exists_isClosedImmersion_projectiveSpace":
+  {"exists": false},
+  "AlgebraicGeometry.IsAbelianScheme.exists_isAmple": {"exists": false},
+  "AlgebraicGeometry.IsAbelianScheme": {"exists": false},
   "AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed":
   {"status": "stated",
    "signature":
@@ -273932,10 +273739,10 @@
    "sk-prop-br-inj": "stated",
    "sk-prop-base-linear": "missing",
    "sk-prop-base-change": "missing",
-   "sk-prop-av-tate-rank": "stated",
-   "sk-prop-av-symmetric-ample": "stated",
+   "sk-prop-av-tate-rank": "missing",
+   "sk-prop-av-symmetric-ample": "missing",
    "sk-prop-av-rigidity": "stated",
-   "sk-prop-av-projective": "stated",
+   "sk-prop-av-projective": "missing",
    "sk-prop-av-prime-p-etale": "stated",
    "sk-prop-av-pqf-finite": "proved",
    "sk-prop-av-ntorsion-etale": "stated",
@@ -273956,7 +273763,7 @@
    "sk-prop-av-cube": "stated",
    "sk-prop-av-const-locus": "stated",
    "sk-prop-av-connected-order": "stated",
-   "sk-prop-av-char": "stated",
+   "sk-prop-av-char": "missing",
    "sk-prop-av-ample-positive": "stated",
    "sk-prop-an": "stated",
    "sk-prop-a1-kummer": "stated",
@@ -274093,14 +273900,14 @@
    "sk-def-char": "proved",
    "sk-def-br": "stated",
    "sk-def-bc": "stated",
-   "sk-def-av-tate": "stated",
+   "sk-def-av-tate": "missing",
    "sk-def-av-pic": "proved",
    "sk-def-av-mult-n": "proved",
    "sk-def-av-jacobian": "proved",
    "sk-def-av-isogeny": "proved",
    "sk-def-av-group-scheme": "proved",
    "sk-def-av-ample-degree": "proved",
-   "sk-def-av": "proved",
+   "sk-def-av": "missing",
    "sk-def-as": "proved",
    "sk-d-weil-push": "missing",
    "sk-d-weil": "missing",
@@ -274139,7 +273946,7 @@
    "sk-d-central": "stated",
    "sk-d-ab-tate": "proved",
    "sk-d-ab-rankone": "proved",
-   "sk-d-ab-field": "proved",
+   "sk-d-ab-field": "missing",
    "sk-d-ab-cyclotomic": "proved",
    "sk-curve-calculations-pbc-for-the-projective-line--remark-1": "absent",
    "sk-cor-trace": "absent",
@@ -274152,7 +273959,7 @@
    "sk-cor-nagata-sketch-fp": "proved",
    "sk-cor-hasse": "proved",
    "sk-cor-dl-general-complex": "stated",
-   "sk-cor-av-commutative": "stated",
+   "sk-cor-av-commutative": "missing",
    "sk-c-proper-global": "missing",
    "sk-c-dl-a1-hc1": "stated",
    "sk-audit-what-is-elementary-in-this-layer-and-what-is-not--remark-1":
@@ -274559,7 +274366,7 @@
    "prop-coef-integral-exceptional-adjoint": "absent",
    "prop-coef-integral-dualizing": "absent",
    "prop-base-linear": "missing",
-   "prop-av-tate-rank": "stated",
+   "prop-av-tate-rank": "missing",
    "prop-av-tate-no-frobenius-fixed": "absent",
    "prop-asd-smooth-base-change": "absent",
    "prop-asd-internal-adjunction": "absent",
@@ -275356,12 +275163,12 @@
    "lem-sc-brauer-zero": "absent",
    "lem-sc-brauer-injectivity": "stated",
    "lem-sc-base-change-curve": "absent",
-   "lem-sc-av-commutative": "stated",
+   "lem-sc-av-commutative": "missing",
    "lem-sc-as-sequence": "absent",
    "lem-sc-artin-schreier-k": "absent",
    "lem-sc-artin-schreier-dimension": "absent",
    "lem-sc-arbitrary-curve-cd": "absent",
-   "lem-sc-ample-tensor": "stated",
+   "lem-sc-ample-tensor": "missing",
    "lem-sc-ample-positive-degree": "stated",
    "lem-sc-ample-complement-affine": "absent",
    "lem-sc-affine-unit-quotient": "absent",
@@ -275369,8 +275176,8 @@
    "lem-sc-affine-generic-second": "absent",
    "lem-sc-affine-constant-second": "absent",
    "lem-sc-affine-cohomological-dimension": "absent",
-   "lem-sc-abelian-variety-projective": "stated",
-   "lem-sc-abelian-variety-characterization": "stated",
+   "lem-sc-abelian-variety-projective": "missing",
+   "lem-sc-abelian-variety-characterization": "missing",
    "lem-rp-upper-bound": "absent",
    "lem-rp-positive-product-radius": "absent",
    "lem-rp-hc2-eigenvalue-determinant-weight": "absent",
@@ -275891,7 +275698,7 @@
    "def-wf-arithmetic-monodromy-extension": "absent",
    "def-wf-algebraic-representations": "absent",
    "def-wf-algebraic-components": "absent",
-   "def-wf-abelian-tate-module": "stated",
+   "def-wf-abelian-tate-module": "missing",
    "def-weil-weil-sheaf-complex": "absent",
    "def-weil-t-structure": "absent",
    "def-weil-smooth-proper-cohomological-family": "absent",
@@ -276139,7 +275946,7 @@
    "def-sc-cr-field": "absent",
    "def-sc-constant-sheaves": "absent",
    "def-sc-ample": "proved",
-   "def-sc-abelian-variety": "proved",
+   "def-sc-abelian-variety": "missing",
    "def-sbc-smooth-morphisms": "absent",
    "def-sbc-normal-dominant-galois": "absent",
    "def-sbc-affine-space": "absent",
@@ -276414,7 +276221,7 @@
    "d-curve-pieces": "absent",
    "d-central": "stated",
    "d-ab-rankone": "proved",
-   "d-ab-field": "proved",
+   "d-ab-field": "missing",
    "cor-zl-rfshriek-sheaf": "stated",
    "cor-zl-purity-smooth-proper": "absent",
    "cor-zl-hasse-weil-general-bound": "absent",
@@ -277009,7 +276816,7 @@
     "sk-def-av-isogeny": {"total": 1, "proved": 1},
     "sk-def-av-group-scheme": {"total": 4, "proved": 1},
     "sk-def-av-ample-degree": {"total": 3, "proved": 2},
-    "sk-def-av": {"total": 1, "proved": 1},
+    "sk-def-av": {"total": 1, "proved": 0},
     "sk-def-as": {"total": 1, "proved": 1},
     "sk-d-weil-push": {"total": 6, "proved": 0},
     "sk-d-weil": {"total": 7, "proved": 0},
@@ -277042,7 +276849,7 @@
     "sk-d-central": {"total": 1, "proved": 0},
     "sk-d-ab-tate": {"total": 1, "proved": 1},
     "sk-d-ab-rankone": {"total": 1, "proved": 1},
-    "sk-d-ab-field": {"total": 1, "proved": 1},
+    "sk-d-ab-field": {"total": 1, "proved": 0},
     "sk-d-ab-cyclotomic": {"total": 1, "proved": 0},
     "sk-curve-calculations-pbc-for-the-projective-line--remark-1":
     {"total": 12, "proved": 0},
@@ -277074,7 +276881,7 @@
     "sec-deligne-laumon-a1": {"total": 72, "proved": 0},
     "sec-curve-estimates": {"total": 132, "proved": 7},
     "sec-algebraic-groups-lie-algebras": {"total": 86, "proved": 5},
-    "sec-abelian-varieties": {"total": 125, "proved": 17},
+    "sec-abelian-varieties": {"total": 125, "proved": 15},
     "sbc-thm-universal-test-vanishing": {"total": 1, "proved": 0},
     "sbc-thm-spreading-finite-etale-galois": {"total": 1, "proved": 0},
     "sbc-thm-smooth-base-change": {"total": 1, "proved": 0},
@@ -278928,7 +278735,7 @@
     "def-sc-cr-field": {"total": 1, "proved": 0},
     "def-sc-constant-sheaves": {"total": 1, "proved": 0},
     "def-sc-ample": {"total": 1, "proved": 1},
-    "def-sc-abelian-variety": {"total": 1, "proved": 1},
+    "def-sc-abelian-variety": {"total": 1, "proved": 0},
     "def-sbc-smooth-morphisms": {"total": 1, "proved": 0},
     "def-sbc-normal-dominant-galois": {"total": 1, "proved": 0},
     "def-sbc-affine-space": {"total": 1, "proved": 0},
@@ -279204,7 +279011,7 @@
     "d-curve-pieces": {"total": 1, "proved": 0},
     "d-central": {"total": 1, "proved": 0},
     "d-ab-rankone": {"total": 1, "proved": 1},
-    "d-ab-field": {"total": 1, "proved": 1},
+    "d-ab-field": {"total": 1, "proved": 0},
     "cor-zl-rfshriek-sheaf": {"total": 1, "proved": 0},
     "cor-zl-purity-smooth-proper": {"total": 1, "proved": 0},
     "cor-zl-hasse-weil-general-bound": {"total": 1, "proved": 0},
@@ -281341,7 +281148,7 @@
     "def-sc-cr-field": {"total": 1, "proved": 0},
     "def-sc-constant-sheaves": {"total": 1, "proved": 0},
     "def-sc-ample": {"total": 1, "proved": 1},
-    "def-sc-abelian-variety": {"total": 1, "proved": 1},
+    "def-sc-abelian-variety": {"total": 1, "proved": 0},
     "def-sbc-smooth-morphisms": {"total": 1, "proved": 0},
     "def-sbc-normal-dominant-galois": {"total": 1, "proved": 0},
     "def-sbc-affine-space": {"total": 1, "proved": 0},
@@ -281617,7 +281424,7 @@
     "d-curve-pieces": {"total": 1, "proved": 0},
     "d-central": {"total": 1, "proved": 0},
     "d-ab-rankone": {"total": 1, "proved": 1},
-    "d-ab-field": {"total": 1, "proved": 1},
+    "d-ab-field": {"total": 1, "proved": 0},
     "cor-zl-rfshriek-sheaf": {"total": 1, "proved": 0},
     "cor-zl-purity-smooth-proper": {"total": 1, "proved": 0},
     "cor-zl-hasse-weil-general-bound": {"total": 1, "proved": 0},
@@ -281690,9 +281497,24 @@
     "cor-amb-affine-space-adjunction": {"total": 1, "proved": 0},
     "cor-a1-fourier-middle-hc1": {"total": 1, "proved": 0}}},
   "checks":
-  [{"objects": ["def-pod-dual-tate-datum"],
+  [{"objects": ["d-ab-field"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-d-ab-field/d-ab-field.md: 'd-ab-field' names 'AlgebraicGeometry.IsAbelianScheme', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["def-pod-dual-tate-datum"],
     "message":
     "blueprint/sec-poincare-duality/sk-def-weil/def-pod-dual-tate-datum.md: 'def-pod-dual-tate-datum' names 'AlgebraicGeometry.ProEtale.WeilComplex', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["def-sc-abelian-variety"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-def-av/def-sc-abelian-variety.md: 'def-sc-abelian-variety' names 'AlgebraicGeometry.IsAbelianScheme', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["def-wf-abelian-tate-module"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-def-av-tate/def-wf-abelian-tate-module.md: 'def-wf-abelian-tate-module' names 'AlgebraicGeometry.IsAbelianScheme.tateModule', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["lem-a1-artin-schreier-ramified-infinity"],
@@ -281750,6 +281572,46 @@
     "blueprint/sec-picard-framework/sk-lem-picard-cech-computes/lem-pc-cech-computes.md: 'lem-pc-cech-computes' names 'AlgebraicGeometry.Scheme.Modules.nonempty_cechComplex_homology_iso_H', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
+   {"objects": ["lem-sc-abelian-variety-characterization"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-char/lem-sc-abelian-variety-characterization.md: 'lem-sc-abelian-variety-characterization' names 'AlgebraicGeometry.IsAbelianScheme.geometricallyIntegral', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["lem-sc-abelian-variety-characterization"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-char/lem-sc-abelian-variety-characterization.md: 'lem-sc-abelian-variety-characterization' names 'AlgebraicGeometry.IsAbelianScheme.irreducibleSpace', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["lem-sc-abelian-variety-projective"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-projective/lem-sc-abelian-variety-projective.md: 'lem-sc-abelian-variety-projective' names 'AlgebraicGeometry.IsAbelianScheme.exists_isAmple', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["lem-sc-abelian-variety-projective"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-projective/lem-sc-abelian-variety-projective.md: 'lem-sc-abelian-variety-projective' names 'AlgebraicGeometry.IsAbelianScheme.exists_isClosedImmersion_projectiveSpace', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["lem-sc-ample-tensor"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-symmetric-ample/lem-sc-ample-tensor.md: 'lem-sc-ample-tensor' names 'AlgebraicGeometry.IsAbelianScheme.isAmple_symmetrisation', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["lem-sc-ample-tensor"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-symmetric-ample/lem-sc-ample-tensor.md: 'lem-sc-ample-tensor' names 'AlgebraicGeometry.IsAbelianScheme.nonempty_iso_overPullback_inv_symmetrisation', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["lem-sc-av-commutative"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-cor-av-commutative/lem-sc-av-commutative.md: 'lem-sc-av-commutative' names 'AlgebraicGeometry.IsAbelianScheme.isCommMonObj', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["lem-sc-av-commutative"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-cor-av-commutative/lem-sc-av-commutative.md: 'lem-sc-av-commutative' names 'AlgebraicGeometry.IsAbelianScheme.isCommMonObj_of_field', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
    {"objects": ["lem-sc-pic-tangent-space"],
     "message":
     "blueprint/sec-picard-framework/sk-prop-picard-jacobian-tangent/lem-sc-pic-tangent-space.md: 'lem-sc-pic-tangent-space' names 'AlgebraicGeometry.nonempty_tangentSpaceAt_equiv_H_one', which does not exist in the Lean environment",
@@ -281780,6 +281642,11 @@
     "blueprint/sec-algebraic-groups-lie-algebras/sk-p-product/p-product.md: 'p-product' names 'RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
+   {"objects": ["prop-av-tate-rank"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-tate-rank/prop-av-tate-rank.md: 'prop-av-tate-rank' names 'AlgebraicGeometry.IsAbelianScheme.nonempty_linearEquiv_tateModule', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
    {"objects": ["prop-base-linear"],
     "message":
     "blueprint/sec-fourier-transform/sk-prop-base-linear/prop-base-linear.md: 'prop-base-linear' names 'AlgebraicGeometry.Etale.fourierTransformTensorIso', which does not exist in the Lean environment",
@@ -281798,6 +281665,21 @@
    {"objects": ["sk-c-proper-global"],
     "message":
     "blueprint/sec-trace-formula/sk-c-proper-global/_section.md: 'sk-c-proper-global' names 'AlgebraicGeometry.ProEtale.GeometricOperations.trace_globalOperator_eq_integral_traceClass', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-cor-av-commutative"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-cor-av-commutative/_section.md: 'sk-cor-av-commutative' names 'AlgebraicGeometry.IsAbelianScheme.isCommMonObj', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-cor-av-commutative"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-cor-av-commutative/_section.md: 'sk-cor-av-commutative' names 'AlgebraicGeometry.IsAbelianScheme.isCommMonObj_of_field', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-d-ab-field"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-d-ab-field/_section.md: 'sk-d-ab-field' names 'AlgebraicGeometry.IsAbelianScheme', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-d-corr"],
@@ -281868,6 +281750,16 @@
    {"objects": ["sk-d-weil-push"],
     "message":
     "blueprint/sec-trace-formula/sk-d-weil-push/_section.md: 'sk-d-weil-push' names 'AlgebraicGeometry.ProEtale.WeilComplex.lowerShriekPush', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-def-av"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-def-av/_section.md: 'sk-def-av' names 'AlgebraicGeometry.IsAbelianScheme', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-def-av-tate"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-def-av-tate/_section.md: 'sk-def-av-tate' names 'AlgebraicGeometry.IsAbelianScheme.tateModule', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-def-frobmod"],
@@ -282028,6 +281920,41 @@
    {"objects": ["sk-p-trace-coeff"],
     "message":
     "blueprint/sec-trace-formula/sk-p-trace-coeff/_section.md: 'sk-p-trace-coeff' names 'AlgebraicGeometry.ProEtale.nonempty_iso_comp_lowerShriek_and_upperStar', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-prop-av-char"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-char/_section.md: 'sk-prop-av-char' names 'AlgebraicGeometry.IsAbelianScheme.geometricallyIntegral', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-prop-av-char"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-char/_section.md: 'sk-prop-av-char' names 'AlgebraicGeometry.IsAbelianScheme.irreducibleSpace', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-prop-av-projective"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-projective/_section.md: 'sk-prop-av-projective' names 'AlgebraicGeometry.IsAbelianScheme.exists_isAmple', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-prop-av-projective"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-projective/_section.md: 'sk-prop-av-projective' names 'AlgebraicGeometry.IsAbelianScheme.exists_isClosedImmersion_projectiveSpace', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-prop-av-symmetric-ample"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-symmetric-ample/_section.md: 'sk-prop-av-symmetric-ample' names 'AlgebraicGeometry.IsAbelianScheme.isAmple_symmetrisation', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-prop-av-symmetric-ample"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-symmetric-ample/_section.md: 'sk-prop-av-symmetric-ample' names 'AlgebraicGeometry.IsAbelianScheme.nonempty_iso_overPullback_inv_symmetrisation', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-prop-av-tate-rank"],
+    "message":
+    "blueprint/sec-abelian-varieties/sk-prop-av-tate-rank/_section.md: 'sk-prop-av-tate-rank' names 'AlgebraicGeometry.IsAbelianScheme.nonempty_linearEquiv_tateModule', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-prop-base-change"],
@@ -282807,11 +282734,6 @@
    {"objects": ["cor-zl-rfshriek-sheaf", "thm-nagata-compactification"],
     "message":
     "Lean shows 'cor-zl-rfshriek-sheaf' depends on 'thm-nagata-compactification', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["d-ab-field", "sk-def-conv"],
-    "message":
-    "Lean shows 'd-ab-field' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["d-ab-rankone", "sk-d-ab-rankone"],
@@ -284180,11 +284102,6 @@
     "Lean shows 'def-pc-picard-functor' depends on 'sk-def-av-pic', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["def-sc-abelian-variety", "sk-def-conv"],
-    "message":
-    "Lean shows 'def-sc-abelian-variety' depends on 'sk-def-conv', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["def-sc-ample", "def-nagata-affine-proj"],
     "message":
     "Lean shows 'def-sc-ample' depends on 'def-nagata-affine-proj', but no 'uses' edge declares it",
@@ -284225,11 +284142,6 @@
     "Lean shows 'def-sc-isogeny' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["def-sc-jacobian", "d-ab-field"],
-    "message":
-    "Lean shows 'def-sc-jacobian' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["def-sc-jacobian", "def-sc-curves"],
     "message":
     "Lean shows 'def-sc-jacobian' depends on 'def-sc-curves', but no 'uses' edge declares it",
@@ -284238,16 +284150,6 @@
    {"objects": ["def-sc-jacobian", "def-sc-genus"],
     "message":
     "Lean shows 'def-sc-jacobian' depends on 'def-sc-genus', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["def-sc-jacobian", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'def-sc-jacobian' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["def-sc-jacobian", "sk-def-av"],
-    "message":
-    "Lean shows 'def-sc-jacobian' depends on 'sk-def-av', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["def-sc-jacobian", "sk-def-conv"],
@@ -284441,36 +284343,6 @@
    {"objects": ["def-weil-point-counts-zeta", "sk-def-zeta"],
     "message":
     "Lean shows 'def-weil-point-counts-zeta' depends on 'sk-def-zeta', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["def-wf-abelian-tate-module", "d-ab-field"],
-    "message":
-    "Lean shows 'def-wf-abelian-tate-module' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["def-wf-abelian-tate-module", "lem-sc-av-commutative"],
-    "message":
-    "Lean shows 'def-wf-abelian-tate-module' depends on 'lem-sc-av-commutative', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["def-wf-abelian-tate-module", "sk-cor-av-commutative"],
-    "message":
-    "Lean shows 'def-wf-abelian-tate-module' depends on 'sk-cor-av-commutative', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["def-wf-abelian-tate-module", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'def-wf-abelian-tate-module' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["def-wf-abelian-tate-module", "sk-d-ab-tate"],
-    "message":
-    "Lean shows 'def-wf-abelian-tate-module' depends on 'sk-d-ab-tate', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["def-wf-abelian-tate-module", "sk-def-av"],
-    "message":
-    "Lean shows 'def-wf-abelian-tate-module' depends on 'sk-def-av', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["def-wf-lie-algebra-derivation", "lem-ag-cartier-reduced"],
@@ -285913,97 +285785,6 @@
     "Lean shows 'lem-pur-dnc-section-geometry' depends on 'sk-def-purity-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-characterization", "d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-characterization' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["lem-sc-abelian-variety-characterization", "def-nagata-rees-algebra"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-characterization' depends on 'def-nagata-rees-algebra', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["lem-sc-abelian-variety-characterization",
-     "lemma-nagata-localization-ideal-pow"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-characterization' depends on 'lemma-nagata-localization-ideal-pow', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-characterization", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-characterization' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-characterization", "sk-d-linear"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-characterization' depends on 'sk-d-linear', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-characterization", "sk-def-av"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-characterization' depends on 'sk-def-av', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-characterization", "sk-i-geometry"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-characterization' depends on 'sk-i-geometry', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-characterization", "sk-prop-av-char"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-characterization' depends on 'sk-prop-av-char', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-projective", "d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-projective' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-projective", "def-nagata-affine-proj"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-projective' depends on 'def-nagata-affine-proj', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["lem-sc-abelian-variety-projective",
-     "def-nagata-projective-space-base-change"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-projective' depends on 'def-nagata-projective-space-base-change', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-projective", "def-sc-ample"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-projective' depends on 'def-sc-ample', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["lem-sc-abelian-variety-projective", "def-sc-invertible-module"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-projective' depends on 'def-sc-invertible-module', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-projective", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-projective' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-projective", "sk-d-lines"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-projective' depends on 'sk-d-lines', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-projective", "sk-def-av"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-projective' depends on 'sk-def-av', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-abelian-variety-projective", "sk-def-av-ample-degree"],
-    "message":
-    "Lean shows 'lem-sc-abelian-variety-projective' depends on 'sk-def-av-ample-degree', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["lem-sc-ample-positive-degree", "def-nagata-rees-algebra"],
     "message":
     "Lean shows 'lem-sc-ample-positive-degree' depends on 'def-nagata-rees-algebra', but no 'uses' edge declares it",
@@ -286073,163 +285854,6 @@
    {"objects": ["lem-sc-ample-positive-degree", "sk-lem-sf-determination"],
     "message":
     "Lean shows 'lem-sc-ample-positive-degree' depends on 'sk-lem-sf-determination', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-ample-tensor", "d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-ample-tensor' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-ample-tensor", "def-sc-invertible-module"],
-    "message":
-    "Lean shows 'lem-sc-ample-tensor' depends on 'def-sc-invertible-module', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-ample-tensor", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-ample-tensor' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-ample-tensor", "sk-def-av"],
-    "message":
-    "Lean shows 'lem-sc-ample-tensor' depends on 'sk-def-av', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-ample-tensor", "sk-def-av-ample-degree"],
-    "message":
-    "Lean shows 'lem-sc-ample-tensor' depends on 'sk-def-av-ample-degree', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "cor-pqf-proper-quasifinite-finite"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'cor-pqf-proper-quasifinite-finite', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "def-nagata-dense-compactification"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'def-nagata-dense-compactification', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "def-nagata-rees-algebra"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'def-nagata-rees-algebra', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "def-nagata-scheme-image-factor"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'def-nagata-scheme-image-factor', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "def-nagata-scheme-theoretic-closure"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'def-nagata-scheme-theoretic-closure', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "def-nagata-scheme-theoretic-image"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'def-nagata-scheme-theoretic-image', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["lem-sc-av-commutative", "lem-sc-abelian-variety-characterization"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'lem-sc-abelian-variety-characterization', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["lem-sc-av-commutative", "lem-weil-pbc-closed-immersion-from-composite"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'lem-weil-pbc-closed-immersion-from-composite', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "lemma-nagata-dense-flat-pullback"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'lemma-nagata-dense-flat-pullback', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "lemma-nagata-diagonal-base-change"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'lemma-nagata-diagonal-base-change', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "lemma-nagata-localization-ideal-pow"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'lemma-nagata-localization-ideal-pow', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["lem-sc-av-commutative",
-     "lemma-nagata-open-immersion-qc-over-separated-target"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'lemma-nagata-open-immersion-qc-over-separated-target', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["lem-sc-av-commutative", "lemma-nagata-proper-to-separated-target"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'lemma-nagata-proper-to-separated-target', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["lem-sc-av-commutative", "lemma-nagata-reduced-dense-image-schematic"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'lemma-nagata-reduced-dense-image-schematic', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "lemma-nagata-scheme-image-ideal-qc"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'lemma-nagata-scheme-image-ideal-qc', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["lem-sc-av-commutative", "lemma-nagata-scheme-image-of-closed-immersion"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'lemma-nagata-scheme-image-of-closed-immersion', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "sk-d-linear"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'sk-d-linear', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "sk-def-av"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'sk-def-av', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "sk-def-conv"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'sk-def-conv', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "sk-def-nagata-sketch-data"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'sk-def-nagata-sketch-data', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "sk-lem-nagata-sketch-closure"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'sk-lem-nagata-sketch-closure', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "sk-prop-av-char"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'sk-prop-av-char', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-av-commutative", "sk-prop-av-pqf-finite"],
-    "message":
-    "Lean shows 'lem-sc-av-commutative' depends on 'sk-prop-av-pqf-finite', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["lem-sc-brauer-injectivity", "def-pc-ext"],
@@ -286487,21 +286111,6 @@
     "Lean shows 'lem-sc-finite-image-locus-open' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["lem-sc-isogeny-degree", "d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-isogeny-degree' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-isogeny-degree", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-isogeny-degree' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-isogeny-degree", "sk-def-av"],
-    "message":
-    "Lean shows 'lem-sc-isogeny-degree' depends on 'sk-def-av', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["lem-sc-isogeny-degree", "sk-def-av-isogeny"],
     "message":
     "Lean shows 'lem-sc-isogeny-degree' depends on 'sk-def-av-isogeny', but no 'uses' edge declares it",
@@ -286512,39 +286121,19 @@
     "Lean shows 'lem-sc-isogeny-degree' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["lem-sc-isogeny-facts", "d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-isogeny-facts' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-isogeny-facts", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-isogeny-facts' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-isogeny-facts", "sk-def-av"],
-    "message":
-    "Lean shows 'lem-sc-isogeny-facts' depends on 'sk-def-av', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["lem-sc-isogeny-facts", "sk-def-av-isogeny"],
     "message":
     "Lean shows 'lem-sc-isogeny-facts' depends on 'sk-def-av-isogeny', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["lem-sc-isogeny-surjective", "d-ab-field"],
+   {"objects": ["lem-sc-isogeny-facts", "sk-def-conv"],
     "message":
-    "Lean shows 'lem-sc-isogeny-surjective' depends on 'd-ab-field', but no 'uses' edge declares it",
+    "Lean shows 'lem-sc-isogeny-facts' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["lem-sc-isogeny-surjective", "sk-d-ab-field"],
+   {"objects": ["lem-sc-isogeny-surjective", "sk-def-conv"],
     "message":
-    "Lean shows 'lem-sc-isogeny-surjective' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-isogeny-surjective", "sk-def-av"],
-    "message":
-    "Lean shows 'lem-sc-isogeny-surjective' depends on 'sk-def-av', but no 'uses' edge declares it",
+    "Lean shows 'lem-sc-isogeny-surjective' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["lem-sc-kummer-exact", "lemma-nagata-diagonal-base-change"],
@@ -286567,44 +286156,14 @@
     "Lean shows 'lem-sc-kummer-exact' depends on 'sk-def-kummer', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["lem-sc-mult-n-finite-kernel", "d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-mult-n-finite-kernel' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-mult-n-finite-kernel", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-mult-n-finite-kernel' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-mult-n-finite-kernel", "sk-def-av"],
-    "message":
-    "Lean shows 'lem-sc-mult-n-finite-kernel' depends on 'sk-def-av', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["lem-sc-mult-n-finite-kernel", "sk-def-conv"],
     "message":
     "Lean shows 'lem-sc-mult-n-finite-kernel' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["lem-sc-mult-n-isogeny", "d-ab-field"],
+   {"objects": ["lem-sc-mult-n-isogeny", "sk-def-conv"],
     "message":
-    "Lean shows 'lem-sc-mult-n-isogeny' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-mult-n-isogeny", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-mult-n-isogeny' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-mult-n-isogeny", "sk-def-av"],
-    "message":
-    "Lean shows 'lem-sc-mult-n-isogeny' depends on 'sk-def-av', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-mult-n-pullback", "d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-mult-n-pullback' depends on 'd-ab-field', but no 'uses' edge declares it",
+    "Lean shows 'lem-sc-mult-n-isogeny' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["lem-sc-mult-n-pullback", "def-sc-invertible-module"],
@@ -286612,29 +286171,9 @@
     "Lean shows 'lem-sc-mult-n-pullback' depends on 'def-sc-invertible-module', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["lem-sc-mult-n-pullback", "sk-d-ab-field"],
+   {"objects": ["lem-sc-mult-n-pullback", "sk-def-conv"],
     "message":
-    "Lean shows 'lem-sc-mult-n-pullback' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-mult-n-pullback", "sk-def-av"],
-    "message":
-    "Lean shows 'lem-sc-mult-n-pullback' depends on 'sk-def-av', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-ntorsion-etale", "d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-ntorsion-etale' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-ntorsion-etale", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'lem-sc-ntorsion-etale' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["lem-sc-ntorsion-etale", "sk-def-av"],
-    "message":
-    "Lean shows 'lem-sc-ntorsion-etale' depends on 'sk-def-av', but no 'uses' edge declares it",
+    "Lean shows 'lem-sc-mult-n-pullback' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["lem-sc-ntorsion-etale", "sk-def-av-mult-n"],
@@ -292113,46 +291652,6 @@
     "Lean shows 'prop-ag-det-weight-two-factor-tensor' depends on 'sk-d-weights', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["prop-av-tate-rank", "d-ab-field"],
-    "message":
-    "Lean shows 'prop-av-tate-rank' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["prop-av-tate-rank", "def-tate-module-abelian-group"],
-    "message":
-    "Lean shows 'prop-av-tate-rank' depends on 'def-tate-module-abelian-group', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["prop-av-tate-rank", "lem-sc-av-commutative"],
-    "message":
-    "Lean shows 'prop-av-tate-rank' depends on 'lem-sc-av-commutative', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["prop-av-tate-rank", "sk-cor-av-commutative"],
-    "message":
-    "Lean shows 'prop-av-tate-rank' depends on 'sk-cor-av-commutative', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["prop-av-tate-rank", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'prop-av-tate-rank' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["prop-av-tate-rank", "sk-d-ab-tate"],
-    "message":
-    "Lean shows 'prop-av-tate-rank' depends on 'sk-d-ab-tate', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["prop-av-tate-rank", "sk-def-av"],
-    "message":
-    "Lean shows 'prop-av-tate-rank' depends on 'sk-def-av', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["prop-av-tate-rank", "sk-def-av-tate"],
-    "message":
-    "Lean shows 'prop-av-tate-rank' depends on 'sk-def-av-tate', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects":
     ["prop-constructible-derived-subcategory",
      "lemma-nagata-diagonal-base-change"],
@@ -293115,138 +292614,6 @@
     "Lean shows 'sk-c-dl-a1-hc1' depends on 'thm-nagata-compactification', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "cor-pqf-proper-quasifinite-finite"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'cor-pqf-proper-quasifinite-finite', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "def-nagata-dense-compactification"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'def-nagata-dense-compactification', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "def-nagata-rees-algebra"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'def-nagata-rees-algebra', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "def-nagata-scheme-image-factor"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'def-nagata-scheme-image-factor', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "def-nagata-scheme-theoretic-closure"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'def-nagata-scheme-theoretic-closure', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "def-nagata-scheme-theoretic-image"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'def-nagata-scheme-theoretic-image', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["sk-cor-av-commutative", "lem-sc-abelian-variety-characterization"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'lem-sc-abelian-variety-characterization', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["sk-cor-av-commutative", "lem-weil-pbc-closed-immersion-from-composite"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'lem-weil-pbc-closed-immersion-from-composite', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "lemma-nagata-dense-flat-pullback"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'lemma-nagata-dense-flat-pullback', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "lemma-nagata-diagonal-base-change"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'lemma-nagata-diagonal-base-change', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "lemma-nagata-localization-ideal-pow"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'lemma-nagata-localization-ideal-pow', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["sk-cor-av-commutative",
-     "lemma-nagata-open-immersion-qc-over-separated-target"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'lemma-nagata-open-immersion-qc-over-separated-target', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["sk-cor-av-commutative", "lemma-nagata-proper-to-separated-target"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'lemma-nagata-proper-to-separated-target', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["sk-cor-av-commutative", "lemma-nagata-reduced-dense-image-schematic"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'lemma-nagata-reduced-dense-image-schematic', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "lemma-nagata-scheme-image-ideal-qc"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'lemma-nagata-scheme-image-ideal-qc', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["sk-cor-av-commutative", "lemma-nagata-scheme-image-of-closed-immersion"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'lemma-nagata-scheme-image-of-closed-immersion', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "sk-d-linear"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'sk-d-linear', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "sk-def-conv"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'sk-def-conv', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "sk-def-nagata-sketch-data"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'sk-def-nagata-sketch-data', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "sk-lem-nagata-sketch-closure"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'sk-lem-nagata-sketch-closure', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "sk-prop-av-char"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'sk-prop-av-char', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-cor-av-commutative", "sk-prop-av-pqf-finite"],
-    "message":
-    "Lean shows 'sk-cor-av-commutative' depends on 'sk-prop-av-pqf-finite', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-cor-dl-general-complex", "cor-zl-rfshriek-sheaf"],
     "message":
     "Lean shows 'sk-cor-dl-general-complex' depends on 'cor-zl-rfshriek-sheaf', but no 'uses' edge declares it",
@@ -293739,11 +293106,6 @@
     "Lean shows 'sk-d-ab-cyclotomic' depends on 'def-tate-module-abelian-group', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-d-ab-field", "sk-def-conv"],
-    "message":
-    "Lean shows 'sk-d-ab-field' depends on 'sk-def-conv', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-d-ab-rankone", "d-ab-rankone"],
     "message":
     "Lean shows 'sk-d-ab-rankone' depends on 'd-ab-rankone', but no 'uses' edge declares it",
@@ -294037,29 +293399,9 @@
     "Lean shows 'sk-d-real-detweights' depends on 'sk-def-curve', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-d-real-jacobian", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-d-real-jacobian' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-d-real-jacobian", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-d-real-jacobian' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-d-real-jacobian", "def-sc-curves"],
     "message":
     "Lean shows 'sk-d-real-jacobian' depends on 'def-sc-curves', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-d-real-jacobian", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-d-real-jacobian' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-d-real-jacobian", "sk-def-av"],
-    "message":
-    "Lean shows 'sk-d-real-jacobian' depends on 'sk-def-av', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-d-real-jacobian", "sk-def-conv"],
@@ -294182,11 +293524,6 @@
     "Lean shows 'sk-def-as' depends on 'sk-def-sf-operations', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-def-av", "sk-def-conv"],
-    "message":
-    "Lean shows 'sk-def-av' depends on 'sk-def-conv', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-def-av-ample-degree", "def-nagata-affine-proj"],
     "message":
     "Lean shows 'sk-def-av-ample-degree' depends on 'def-nagata-affine-proj', but no 'uses' edge declares it",
@@ -294228,16 +293565,6 @@
     "Lean shows 'sk-def-av-isogeny' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-def-av-jacobian", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-def-av-jacobian' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-def-av-jacobian", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-def-av-jacobian' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-def-av-jacobian", "def-sc-curves"],
     "message":
     "Lean shows 'sk-def-av-jacobian' depends on 'def-sc-curves', but no 'uses' edge declares it",
@@ -294246,11 +293573,6 @@
    {"objects": ["sk-def-av-jacobian", "def-sc-genus"],
     "message":
     "Lean shows 'sk-def-av-jacobian' depends on 'def-sc-genus', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-def-av-jacobian", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-def-av-jacobian' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-def-av-jacobian", "sk-def-conv"],
@@ -294281,46 +293603,6 @@
    {"objects": ["sk-def-av-pic", "sk-lem-sf-determination"],
     "message":
     "Lean shows 'sk-def-av-pic' depends on 'sk-lem-sf-determination', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-def-av-tate", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-def-av-tate' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-def-av-tate", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-def-av-tate' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-def-av-tate", "def-tate-module-abelian-group"],
-    "message":
-    "Lean shows 'sk-def-av-tate' depends on 'def-tate-module-abelian-group', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-def-av-tate", "lem-sc-av-commutative"],
-    "message":
-    "Lean shows 'sk-def-av-tate' depends on 'lem-sc-av-commutative', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-def-av-tate", "sk-cor-av-commutative"],
-    "message":
-    "Lean shows 'sk-def-av-tate' depends on 'sk-cor-av-commutative', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-def-av-tate", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-def-av-tate' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-def-av-tate", "sk-d-ab-tate"],
-    "message":
-    "Lean shows 'sk-def-av-tate' depends on 'sk-d-ab-tate', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-def-av-tate", "sk-def-av"],
-    "message":
-    "Lean shows 'sk-def-av-tate' depends on 'sk-def-av', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-def-bc", "lemma-nagata-diagonal-base-change"],
@@ -300635,46 +299917,6 @@
     "Lean shows 'sk-prop-av-ample-positive' depends on 'sk-lem-sf-determination', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-char", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-char' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-char", "def-nagata-rees-algebra"],
-    "message":
-    "Lean shows 'sk-prop-av-char' depends on 'def-nagata-rees-algebra', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-char", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-char' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-char", "lem-sc-abelian-variety-characterization"],
-    "message":
-    "Lean shows 'sk-prop-av-char' depends on 'lem-sc-abelian-variety-characterization', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-char", "lemma-nagata-localization-ideal-pow"],
-    "message":
-    "Lean shows 'sk-prop-av-char' depends on 'lemma-nagata-localization-ideal-pow', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-char", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-char' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-char", "sk-d-linear"],
-    "message":
-    "Lean shows 'sk-prop-av-char' depends on 'sk-d-linear', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-char", "sk-i-geometry"],
-    "message":
-    "Lean shows 'sk-prop-av-char' depends on 'sk-i-geometry', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-connected-order", "sk-def-conv"],
     "message":
     "Lean shows 'sk-prop-av-connected-order' depends on 'sk-def-conv', but no 'uses' edge declares it",
@@ -300685,24 +299927,14 @@
     "Lean shows 'sk-prop-av-const-locus' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-cube", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-cube' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-cube", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-cube' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-cube", "def-sc-invertible-module"],
     "message":
     "Lean shows 'sk-prop-av-cube' depends on 'def-sc-invertible-module', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-cube", "sk-d-ab-field"],
+   {"objects": ["sk-prop-av-cube", "sk-def-conv"],
     "message":
-    "Lean shows 'sk-prop-av-cube' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-av-cube' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-deg-pullback", "def-nagata-rees-algebra"],
@@ -300779,19 +300011,9 @@
     "Lean shows 'sk-prop-av-deg-pullback' depends on 'sk-lem-sf-determination', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-divisible", "d-ab-field"],
+   {"objects": ["sk-prop-av-divisible", "sk-def-conv"],
     "message":
-    "Lean shows 'sk-prop-av-divisible' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-divisible", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-divisible' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-divisible", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-divisible' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-av-divisible' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-finite-etale-points", "sk-def-conv"],
@@ -300804,34 +300026,14 @@
     "Lean shows 'sk-prop-av-image-open' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-isogeny", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-isogeny' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-isogeny", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-isogeny' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-isogeny", "def-sc-isogeny"],
     "message":
     "Lean shows 'sk-prop-av-isogeny' depends on 'def-sc-isogeny', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-isogeny", "sk-d-ab-field"],
+   {"objects": ["sk-prop-av-isogeny", "sk-def-conv"],
     "message":
-    "Lean shows 'sk-prop-av-isogeny' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-isogeny-degree", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-isogeny-degree' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-isogeny-degree", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-isogeny-degree' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-av-isogeny' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-isogeny-degree", "def-sc-isogeny"],
@@ -300839,29 +300041,9 @@
     "Lean shows 'sk-prop-av-isogeny-degree' depends on 'def-sc-isogeny', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-isogeny-degree", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-isogeny-degree' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-isogeny-degree", "sk-def-conv"],
     "message":
     "Lean shows 'sk-prop-av-isogeny-degree' depends on 'sk-def-conv', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-mult-finite", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-mult-finite' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-mult-finite", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-mult-finite' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-mult-finite", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-mult-finite' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-mult-finite", "sk-def-conv"],
@@ -300869,59 +300051,24 @@
     "Lean shows 'sk-prop-av-mult-finite' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-mult-n-pullback", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-mult-n-pullback' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-mult-n-pullback", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-mult-n-pullback' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-mult-n-pullback", "def-sc-invertible-module"],
     "message":
     "Lean shows 'sk-prop-av-mult-n-pullback' depends on 'def-sc-invertible-module', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-mult-n-pullback", "sk-d-ab-field"],
+   {"objects": ["sk-prop-av-mult-n-pullback", "sk-def-conv"],
     "message":
-    "Lean shows 'sk-prop-av-mult-n-pullback' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-av-mult-n-pullback' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-mult-surjective", "d-ab-field"],
+   {"objects": ["sk-prop-av-mult-surjective", "sk-def-conv"],
     "message":
-    "Lean shows 'sk-prop-av-mult-surjective' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-mult-surjective", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-mult-surjective' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-mult-surjective", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-mult-surjective' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-ntorsion-etale", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-ntorsion-etale' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-ntorsion-etale", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-ntorsion-etale' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-av-mult-surjective' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-ntorsion-etale", "def-sc-mult-n"],
     "message":
     "Lean shows 'sk-prop-av-ntorsion-etale' depends on 'def-sc-mult-n', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-ntorsion-etale", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-ntorsion-etale' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-ntorsion-etale", "sk-def-conv"],
@@ -300997,115 +300144,9 @@
     "Lean shows 'sk-prop-av-prime-p-etale' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-projective", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-projective' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-projective", "def-nagata-affine-proj"],
-    "message":
-    "Lean shows 'sk-prop-av-projective' depends on 'def-nagata-affine-proj', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects":
-    ["sk-prop-av-projective", "def-nagata-projective-space-base-change"],
-    "message":
-    "Lean shows 'sk-prop-av-projective' depends on 'def-nagata-projective-space-base-change', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-projective", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-projective' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-projective", "def-sc-ample"],
-    "message":
-    "Lean shows 'sk-prop-av-projective' depends on 'def-sc-ample', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-projective", "def-sc-invertible-module"],
-    "message":
-    "Lean shows 'sk-prop-av-projective' depends on 'def-sc-invertible-module', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-projective", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-projective' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-projective", "sk-d-lines"],
-    "message":
-    "Lean shows 'sk-prop-av-projective' depends on 'sk-d-lines', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-rigidity", "sk-def-conv"],
     "message":
     "Lean shows 'sk-prop-av-rigidity' depends on 'sk-def-conv', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-symmetric-ample", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-symmetric-ample' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-symmetric-ample", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-symmetric-ample' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-symmetric-ample", "def-sc-ample"],
-    "message":
-    "Lean shows 'sk-prop-av-symmetric-ample' depends on 'def-sc-ample', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-symmetric-ample", "def-sc-invertible-module"],
-    "message":
-    "Lean shows 'sk-prop-av-symmetric-ample' depends on 'def-sc-invertible-module', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-symmetric-ample", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-symmetric-ample' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-tate-rank", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-tate-rank' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-tate-rank", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-prop-av-tate-rank' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-tate-rank", "def-tate-module-abelian-group"],
-    "message":
-    "Lean shows 'sk-prop-av-tate-rank' depends on 'def-tate-module-abelian-group', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-tate-rank", "def-wf-abelian-tate-module"],
-    "message":
-    "Lean shows 'sk-prop-av-tate-rank' depends on 'def-wf-abelian-tate-module', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-tate-rank", "lem-sc-av-commutative"],
-    "message":
-    "Lean shows 'sk-prop-av-tate-rank' depends on 'lem-sc-av-commutative', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-tate-rank", "sk-cor-av-commutative"],
-    "message":
-    "Lean shows 'sk-prop-av-tate-rank' depends on 'sk-cor-av-commutative', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-tate-rank", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-prop-av-tate-rank' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-prop-av-tate-rank", "sk-d-ab-tate"],
-    "message":
-    "Lean shows 'sk-prop-av-tate-rank' depends on 'sk-d-ab-tate', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-br-inj", "def-pc-ext"],
@@ -303254,16 +302295,6 @@
     "Lean shows 'sk-the-subsheaf-ff-and-its-representability--remark-1' depends on 'sk-the-hilbert-functor--definition-1', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["sk-thm-av-final", "d-ab-field"],
-    "message":
-    "Lean shows 'sk-thm-av-final' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-thm-av-final", "def-sc-abelian-variety"],
-    "message":
-    "Lean shows 'sk-thm-av-final' depends on 'def-sc-abelian-variety', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["sk-thm-av-final", "def-sc-isogeny"],
     "message":
     "Lean shows 'sk-thm-av-final' depends on 'def-sc-isogeny', but no 'uses' edge declares it",
@@ -303272,11 +302303,6 @@
    {"objects": ["sk-thm-av-final", "def-sc-mult-n"],
     "message":
     "Lean shows 'sk-thm-av-final' depends on 'def-sc-mult-n', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["sk-thm-av-final", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'sk-thm-av-final' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-thm-av-final", "sk-def-av-group-scheme"],
@@ -306406,21 +305432,6 @@
     "Lean shows 'thm-a1-line-middle-extension-upper' depends on 'thm-nagata-compactification', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["thm-av-final", "d-ab-field"],
-    "message":
-    "Lean shows 'thm-av-final' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["thm-av-final", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'thm-av-final' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["thm-av-final", "sk-def-av"],
-    "message":
-    "Lean shows 'thm-av-final' depends on 'sk-def-av', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
    {"objects": ["thm-av-final", "sk-def-av-group-scheme"],
     "message":
     "Lean shows 'thm-av-final' depends on 'sk-def-av-group-scheme', but no 'uses' edge declares it",
@@ -307220,19 +306231,9 @@
     "Lean shows 'thm-sc-serre-duality-curve' depends on 'sk-lem-sf-determination', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
-   {"objects": ["thm-sc-theorem-of-cube", "d-ab-field"],
+   {"objects": ["thm-sc-theorem-of-cube", "sk-def-conv"],
     "message":
-    "Lean shows 'thm-sc-theorem-of-cube' depends on 'd-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["thm-sc-theorem-of-cube", "sk-d-ab-field"],
-    "message":
-    "Lean shows 'thm-sc-theorem-of-cube' depends on 'sk-d-ab-field', but no 'uses' edge declares it",
-    "level": "warning",
-    "code": "actual-not-declared"},
-   {"objects": ["thm-sc-theorem-of-cube", "sk-def-av"],
-    "message":
-    "Lean shows 'thm-sc-theorem-of-cube' depends on 'sk-def-av', but no 'uses' edge declares it",
+    "Lean shows 'thm-sc-theorem-of-cube' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["thm-sf-comp-composition", "def-nagata-compactifiable"],
@@ -308182,6 +307183,11 @@
     "'uses' edge def-sc-isogeny -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["def-sc-jacobian", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge def-sc-jacobian -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["def-sc-jacobian", "def-sc-pic0"],
     "message":
     "'uses' edge def-sc-jacobian -> def-sc-pic0 is declared, but the Lean dependency graph does not show it",
@@ -308223,9 +307229,19 @@
     "'uses' edge def-weil-pbc-property -> def-weil-pbc-cartesian-square is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["def-wf-abelian-tate-module", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge def-wf-abelian-tate-module -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["def-wf-abelian-tate-module", "def-sc-mult-n"],
     "message":
     "'uses' edge def-wf-abelian-tate-module -> def-sc-mult-n is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["def-wf-abelian-tate-module", "def-tate-module-abelian-group"],
+    "message":
+    "'uses' edge def-wf-abelian-tate-module -> def-tate-module-abelian-group is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects":
@@ -308484,14 +307500,40 @@
     "'uses' edge lem-pc-zero-scheme-properties -> def-sc-invertible-module is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects":
+    ["lem-sc-abelian-variety-characterization", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge lem-sc-abelian-variety-characterization -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["lem-sc-abelian-variety-projective", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge lem-sc-abelian-variety-projective -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["lem-sc-ample-positive-degree", "def-sc-curves"],
     "message":
     "'uses' edge lem-sc-ample-positive-degree -> def-sc-curves is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["lem-sc-ample-tensor", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge lem-sc-ample-tensor -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["lem-sc-ample-tensor", "def-sc-ample"],
+    "message":
+    "'uses' edge lem-sc-ample-tensor -> def-sc-ample is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["lem-sc-ample-tensor", "lem-chow-segre"],
     "message":
     "'uses' edge lem-sc-ample-tensor -> lem-chow-segre is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["lem-sc-av-commutative", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge lem-sc-av-commutative -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["lem-sc-av-commutative", "lem-sc-rigidity"],
@@ -308512,6 +307554,16 @@
    {"objects": ["lem-sc-frobenius-fixed-invariance", "lem-sc-lang-steinberg"],
     "message":
     "'uses' edge lem-sc-frobenius-fixed-invariance -> lem-sc-lang-steinberg is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["lem-sc-isogeny-degree", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge lem-sc-isogeny-degree -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["lem-sc-isogeny-facts", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge lem-sc-isogeny-facts -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["lem-sc-isogeny-facts", "def-sc-hilbert-degree"],
@@ -308559,6 +307611,11 @@
     "'uses' edge lem-sc-isogeny-facts -> thm-sc-theorem-of-cube is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["lem-sc-isogeny-surjective", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge lem-sc-isogeny-surjective -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["lem-sc-isogeny-surjective", "def-sc-mult-n"],
     "message":
     "'uses' edge lem-sc-isogeny-surjective -> def-sc-mult-n is declared, but the Lean dependency graph does not show it",
@@ -308572,6 +307629,11 @@
    {"objects": ["lem-sc-kummer-exact", "def-sc-curves"],
     "message":
     "'uses' edge lem-sc-kummer-exact -> def-sc-curves is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["lem-sc-mult-n-finite-kernel", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge lem-sc-mult-n-finite-kernel -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["lem-sc-mult-n-finite-kernel", "def-sc-mult-n"],
@@ -308610,6 +307672,11 @@
     "'uses' edge lem-sc-mult-n-finite-kernel -> lem-sc-mult-n-pullback is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["lem-sc-mult-n-isogeny", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge lem-sc-mult-n-isogeny -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["lem-sc-mult-n-isogeny", "def-sc-mult-n"],
     "message":
     "'uses' edge lem-sc-mult-n-isogeny -> def-sc-mult-n is declared, but the Lean dependency graph does not show it",
@@ -308625,6 +307692,11 @@
     "'uses' edge lem-sc-mult-n-isogeny -> lem-sc-mult-n-homomorphism is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["lem-sc-mult-n-pullback", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge lem-sc-mult-n-pullback -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["lem-sc-mult-n-pullback", "def-sc-mult-n"],
     "message":
     "'uses' edge lem-sc-mult-n-pullback -> def-sc-mult-n is declared, but the Lean dependency graph does not show it",
@@ -308633,6 +307705,11 @@
    {"objects": ["lem-sc-mult-n-pullback", "thm-sc-theorem-of-cube"],
     "message":
     "'uses' edge lem-sc-mult-n-pullback -> thm-sc-theorem-of-cube is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["lem-sc-ntorsion-etale", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge lem-sc-ntorsion-etale -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["lem-sc-ntorsion-etale", "lem-sc-av-commutative"],
@@ -309660,6 +308737,16 @@
     "'uses' edge prop-a1-fourier-middle-extension -> rem-dl-a1-conventions is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["prop-av-tate-rank", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge prop-av-tate-rank -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["prop-av-tate-rank", "def-wf-abelian-tate-module"],
+    "message":
+    "'uses' edge prop-av-tate-rank -> def-wf-abelian-tate-module is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["prop-av-tate-rank", "lem-sc-isogeny-surjective"],
     "message":
     "'uses' edge prop-av-tate-rank -> lem-sc-isogeny-surjective is declared, but the Lean dependency graph does not show it",
@@ -309917,6 +309004,11 @@
    {"objects": ["sk-c-proper-global", "sk-thm-sf-package"],
     "message":
     "'uses' edge sk-c-proper-global -> sk-thm-sf-package is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-cor-av-commutative", "sk-def-av"],
+    "message":
+    "'uses' edge sk-cor-av-commutative -> sk-def-av is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-cor-av-commutative", "sk-prop-av-rigidity"],
@@ -310263,6 +309355,11 @@
    {"objects": ["sk-def-as", "sk-def-char"],
     "message":
     "'uses' edge sk-def-as -> sk-def-char is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-def-av-jacobian", "sk-def-av"],
+    "message":
+    "'uses' edge sk-def-av-jacobian -> sk-def-av is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-def-av-jacobian", "sk-def-av-pic"],
@@ -311734,6 +310831,11 @@
     "'uses' edge sk-prop-an -> sk-thm-properbasechange is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-char", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-char -> sk-def-av is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-char", "sk-def-av-group-scheme"],
     "message":
     "'uses' edge sk-prop-av-char -> sk-def-av-group-scheme is declared, but the Lean dependency graph does not show it",
@@ -311744,6 +310846,11 @@
     "'uses' edge sk-prop-av-const-locus -> sk-def-av is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-cube", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-cube -> sk-def-av is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-cube", "sk-def-av-pic"],
     "message":
     "'uses' edge sk-prop-av-cube -> sk-def-av-pic is declared, but the Lean dependency graph does not show it",
@@ -311752,6 +310859,11 @@
    {"objects": ["sk-prop-av-deg-pullback", "sk-def-av-pic"],
     "message":
     "'uses' edge sk-prop-av-deg-pullback -> sk-def-av-pic is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-divisible", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-divisible -> sk-def-av is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-divisible", "sk-def-av-mult-n"],
@@ -311787,6 +310899,11 @@
    {"objects": ["sk-prop-av-image-open", "sk-def-av"],
     "message":
     "'uses' edge sk-prop-av-image-open -> sk-def-av is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-isogeny", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-isogeny -> sk-def-av is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-isogeny", "sk-def-av-ample-degree"],
@@ -311839,6 +310956,11 @@
     "'uses' edge sk-prop-av-isogeny -> sk-prop-av-symmetric-ample is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-isogeny-degree", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-isogeny-degree -> sk-def-av is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-isogeny-degree", "sk-def-av-group-scheme"],
     "message":
     "'uses' edge sk-prop-av-isogeny-degree -> sk-def-av-group-scheme is declared, but the Lean dependency graph does not show it",
@@ -311867,6 +310989,11 @@
    {"objects": ["sk-prop-av-lang-steinberg", "sk-prop-av-fixed-points"],
     "message":
     "'uses' edge sk-prop-av-lang-steinberg -> sk-prop-av-fixed-points is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-mult-finite", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-mult-finite -> sk-def-av is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-mult-finite", "sk-def-av-mult-n"],
@@ -311914,6 +311041,11 @@
     "'uses' edge sk-prop-av-mult-hom -> sk-def-av-mult-n is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-mult-n-pullback", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-mult-n-pullback -> sk-def-av is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-mult-n-pullback", "sk-def-av-mult-n"],
     "message":
     "'uses' edge sk-prop-av-mult-n-pullback -> sk-def-av-mult-n is declared, but the Lean dependency graph does not show it",
@@ -311932,6 +311064,11 @@
    {"objects": ["sk-prop-av-mult-surjective", "sk-cor-av-commutative"],
     "message":
     "'uses' edge sk-prop-av-mult-surjective -> sk-cor-av-commutative is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-mult-surjective", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-mult-surjective -> sk-def-av is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-mult-surjective", "sk-def-av-mult-n"],
@@ -311957,6 +311094,11 @@
    {"objects": ["sk-prop-av-ntorsion-etale", "sk-cor-av-commutative"],
     "message":
     "'uses' edge sk-prop-av-ntorsion-etale -> sk-cor-av-commutative is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-ntorsion-etale", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-ntorsion-etale -> sk-def-av is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-ntorsion-etale", "sk-def-av-group-scheme"],
@@ -312004,6 +311146,16 @@
     "'uses' edge sk-prop-av-prime-p-etale -> sk-prop-av-connected-order is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-projective", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-projective -> sk-def-av is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-projective", "sk-def-av-ample-degree"],
+    "message":
+    "'uses' edge sk-prop-av-projective -> sk-def-av-ample-degree is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-rigidity", "sk-prop-av-const-locus"],
     "message":
     "'uses' edge sk-prop-av-rigidity -> sk-prop-av-const-locus is declared, but the Lean dependency graph does not show it",
@@ -312014,9 +311166,29 @@
     "'uses' edge sk-prop-av-rigidity -> sk-prop-av-image-open is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-symmetric-ample", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-symmetric-ample -> sk-def-av is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-symmetric-ample", "sk-def-av-ample-degree"],
+    "message":
+    "'uses' edge sk-prop-av-symmetric-ample -> sk-def-av-ample-degree is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-symmetric-ample", "sk-prop-av-projective"],
     "message":
     "'uses' edge sk-prop-av-symmetric-ample -> sk-prop-av-projective is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-tate-rank", "sk-def-av"],
+    "message":
+    "'uses' edge sk-prop-av-tate-rank -> sk-def-av is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-prop-av-tate-rank", "sk-def-av-tate"],
+    "message":
+    "'uses' edge sk-prop-av-tate-rank -> sk-def-av-tate is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-prop-av-tate-rank", "sk-prop-av-divisible"],
@@ -312596,6 +311768,11 @@
    {"objects": ["sk-the-hilbert-functor--definition-1", "sk-def-av-jacobian"],
     "message":
     "'uses' edge sk-the-hilbert-functor--definition-1 -> sk-def-av-jacobian is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["sk-thm-av-final", "sk-def-av"],
+    "message":
+    "'uses' edge sk-thm-av-final -> sk-def-av is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects": ["sk-thm-av-final", "sk-def-av-tate"],
@@ -313727,6 +312904,11 @@
     "'uses' edge thm-a1-line-middle-extension-upper -> p-dl-a1-exact is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["thm-av-final", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge thm-av-final -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects": ["thm-av-final", "def-wf-abelian-tate-module"],
     "message":
     "'uses' edge thm-av-final -> def-wf-abelian-tate-module is declared, but the Lean dependency graph does not show it",
@@ -314150,6 +313332,11 @@
    {"objects": ["thm-sc-serre-duality-curve", "def-sc-invertible-module"],
     "message":
     "'uses' edge thm-sc-serre-duality-curve -> def-sc-invertible-module is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["thm-sc-theorem-of-cube", "def-sc-abelian-variety"],
+    "message":
+    "'uses' edge thm-sc-theorem-of-cube -> def-sc-abelian-variety is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects":

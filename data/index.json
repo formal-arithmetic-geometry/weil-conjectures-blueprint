@@ -82,4 +82,11 @@
     "byStatus": {"stated": 97, "proved": 346, "missing": 14, "absent": 1861}},
    "sha": "b9cd0f490abf8d78ff3ce99b78f58f036d5d2af7",
    "file": "data/b9cd0f490abf8d78ff3ce99b78f58f036d5d2af7.json",
+   "date": "2026-10-04"},
+  {"summary":
+   {"total": 2318,
+    "proved": 344,
+    "byStatus": {"stated": 91, "proved": 344, "missing": 22, "absent": 1861}},
+   "sha": "ef5414ab8912a67914a8801c31a8eb47bac86e90",
+   "file": "data/ef5414ab8912a67914a8801c31a8eb47bac86e90.json",
    "date": "2026-10-04"}]}
