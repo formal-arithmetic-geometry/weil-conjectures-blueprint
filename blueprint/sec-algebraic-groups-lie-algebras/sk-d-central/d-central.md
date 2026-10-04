@@ -4,7 +4,7 @@ kind = "definition"
 title = "Positive central pairs"
 order = 2525
 uses = ["d-monodromy"]
-lean = ["RepresentedDegreeDatum.IsPositiveCentralPair"]
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair"]
 +++
 For the monodromy data $(G,H,F)$ of a represented degree datum
 ([d-monodromy]), a positive central pair is
