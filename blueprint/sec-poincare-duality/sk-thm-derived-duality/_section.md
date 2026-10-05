@@ -3,7 +3,7 @@ id = "sk-thm-derived-duality"
 kind = "section"
 title = "Degreewise duality over a field"
 order = 2437
-lean = ["AlgebraicGeometry.Etale.degreewisePoincarePairing", "AlgebraicGeometry.Etale.isPerfectPairing_poincarePairing", "AlgebraicGeometry.Etale.isPerfPair_degreewisePoincarePairing", "AlgebraicGeometry.Etale.untwistedDegreewisePoincarePairing", "AlgebraicGeometry.Etale.bijective_untwistedDegreewisePoincarePairing", "AlgebraicGeometry.Etale.isPerfPair_degreewisePoincarePairing_of_isProper"]
+lean = ["AlgebraicGeometry.Etale.isPerfectPairing_poincarePairing", "AlgebraicGeometry.Etale.TateOrientation.isPerfectPairing_poincarePairing", "AlgebraicGeometry.Etale.degreewisePoincarePairing", "AlgebraicGeometry.Etale.isPerfPair_degreewisePoincarePairing", "AlgebraicGeometry.Etale.untwistedDegreewisePoincarePairing", "AlgebraicGeometry.Etale.bijective_untwistedDegreewisePoincarePairing", "AlgebraicGeometry.Etale.isPerfPair_degreewisePoincarePairing_of_isProper"]
 uses = ["sk-def-pairing", "sk-lem-finite", "sk-thm-sf-identification"]
 +++
 *Corollary (sketch).*

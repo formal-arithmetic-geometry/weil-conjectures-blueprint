@@ -3,7 +3,7 @@ id = "sk-cor-trace"
 kind = "section"
 title = "The trace isomorphism"
 order = 2442
-lean = ["AlgebraicGeometry.Etale.bijective_traceMap", "AlgebraicGeometry.Etale.twistedTraceMap", "AlgebraicGeometry.Etale.twistedTraceMap_eq_degreewisePoincarePairing", "AlgebraicGeometry.Etale.twistedTraceMap_fundamentalClass"]
+lean = ["AlgebraicGeometry.Etale.bijective_traceMap", "AlgebraicGeometry.Etale.twistedTraceMap", "AlgebraicGeometry.Etale.twistedTraceMap_eq_degreewisePoincarePairing", "AlgebraicGeometry.Etale.rationalPointClass", "AlgebraicGeometry.Etale.isUnit_twistedTraceMap_rationalPointClass"]
 uses = ["sk-def-trace-cup", "sk-lem-finite", "sk-prop-an", "sk-thm-purity-transport", "sk-thm-regular", "sk-thm-sf-identification", "sk-thm-smooth-purity"]
 +++
 *Corollary (sketch).*

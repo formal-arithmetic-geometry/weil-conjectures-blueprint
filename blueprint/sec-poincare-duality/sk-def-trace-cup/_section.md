@@ -3,7 +3,7 @@ id = "sk-def-trace-cup"
 kind = "section"
 title = "Trace and trace–cup pairing"
 order = 2420
-lean = ["AlgebraicGeometry.Etale.cupProduct", "AlgebraicGeometry.Etale.traceMap", "AlgebraicGeometry.Etale.traceCupPairing"]
+lean = ["AlgebraicGeometry.Etale.unitCupProduct", "AlgebraicGeometry.Etale.traceMap", "AlgebraicGeometry.Etale.traceCupPairing", "AlgebraicGeometry.Etale.traceCupPairing_eq_untwistedDegreewisePoincarePairing", "AlgebraicGeometry.Etale.bijective_traceCupPairing"]
 uses = ["sk-def-ops", "sk-def-sf-orientation"]
 +++
 *Definition (sketch).*

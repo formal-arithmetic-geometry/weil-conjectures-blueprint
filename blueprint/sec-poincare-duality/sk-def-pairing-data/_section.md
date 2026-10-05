@@ -3,7 +3,7 @@ id = "sk-def-pairing-data"
 kind = "section"
 title = "The pairing data"
 order = 2416
-lean = ["AlgebraicGeometry.Etale.mixedSupportCupProduct", "AlgebraicGeometry.Etale.smoothTrace"]
+lean = ["AlgebraicGeometry.Etale.mixedSupportCupProduct", "AlgebraicGeometry.Etale.smoothTrace", "AlgebraicGeometry.Etale.TateOrientation", "AlgebraicGeometry.Etale.TateOrientation.smoothTrace"]
 uses = ["sk-def-ops", "sk-def-sf-orientation"]
 +++
 *Definition (sketch).*
