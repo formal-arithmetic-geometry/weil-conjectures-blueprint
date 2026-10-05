@@ -37,10 +37,14 @@ discarding coordinates. A flasque sheaf is acyclic: in
 $0\to\mathcal A\to\mathcal B\to\mathcal C\to0$ with $\mathcal A$
 flasque, local liftings of a section of $\mathcal C$ patch, so global
 sections are right exact on such sequences and dimension shifting
-gives $H^q(\mathcal A)=0$ for $q\ge1$. Truncating a flasque
-resolution of $\underline M$ in degrees $\le1$ gives
-$0\to\underline M\to I\xrightarrow{d}J\to0$ with $I,J$ acyclic, hence
-$H^1(Y_{\Et},\underline M)=\operatorname{coker}(d_Y)$.
+gives $H^q(\mathcal A)=0$ for $q\ge1$. Put $I=G(\underline M)$ and
+$J=I/\underline M$, so that
+$0\to\underline M\to I\xrightarrow{d}J\to0$ is exact with $I$
+acyclic; the long exact sequence gives
+$H^1(Y_{\Et},\underline M)=\operatorname{coker}(d_Y)$. (Only the
+acyclicity of $I$ is used: $J$ is not acyclic in general, since
+$H^a(J)=H^{a+1}(\underline M)$ for $a\ge1$, which is nonzero e.g. for
+$\Z/\ell$ on $\Pone$ over an algebraically closed field.)
 
 *From a class to a torsor.* For $s\in J(Y)$ put
 $P_s(U)=\{x\in I(U):d(x)=s|_U\}$, with $M$ acting by translation.
@@ -60,13 +64,14 @@ says exactly that the $a_i$ agree on overlaps, so they glue to $a\in I(Y)$ with 
 *Surjectivity.* Trivialize an $M$-torsor $P$ over a cover
 $\{U_i\to Y\}$ by sections $p_i$ and put
 $c_{ij}=p_i-p_j\in\underline M(U_{ij})$, a Čech $1$-cocycle. The
-five-term sequence of the Čech double complex of
-$0\to\underline M\to I\to J\to0$ identifies
-$\check H^1(\mathcal U,\underline M)$ with the classes in
-$H^1(Y_{\Et},\underline M)$ restricting to $0$ on each $U_i$, and the
-class $\alpha$ of $(c_{ij})$ is one of these; $P$ and the lifting
-torsor $P_s$ of a representative $s$ of $\alpha$ are glued from the
-same trivializations and the same cocycle, so $P\cong P_s$.
+Čech complex of the Godement sheaf $I$ with respect to any
+covering is acyclic in positive degrees (at each geometric point it
+is the cochain complex of the nerve of a surjection of sets, which is
+contractible), so $c_{ij}=a_i|_{U_{ij}}-a_j|_{U_{ij}}$ with
+$a_i\in I(U_i)$; the sections $d(a_i)\in J(U_i)$ agree on overlaps
+and glue to $s\in J(Y)$. Then $a_i\in P_s(U_i)$ trivialize $P_s$
+with the same cocycle $(c_{ij})$, so $P$ and $P_s$ are glued from the
+same trivial torsors by the same transition data, and $P\cong P_s$.
 
 *Torsors are finite étale covers.* The functor
 $P\mapsto\underline{\operatorname{Hom}}_Y(-,P)$ from finite étale
@@ -93,4 +98,13 @@ finite étale cover whose automorphism group $\Z/d\Z$ acts simply
 transitively on the fibre, that is, a Galois cover with group
 $\Z/d\Z$.
 
-Uses: `cor:galois-abelian-h1`, [sk-def-smooth], `thm:galois-lc-etale`, `thm:galois-torsor-h1`
+*Scope of the Lean statement.* The bijection is stated together with
+the one further property that [sk-thm-vanishing] uses, namely that the
+class of a torsor vanishes exactly when its structure morphism admits
+a section. Its naturality in $Y$ is not stated: expressing it needs a
+pullback map $H^1(Y_{\Et},M)\to H^1(Y'_{\Et},M)$ on sheaf cohomology
+along a morphism of schemes, which is not yet available. The
+connectedness criterion above, which needs the étale fundamental
+group, is likewise left to the prose.
+
+Uses: `cor-galois-abelian-h1`, [sk-def-smooth], `thm-galois-lc-etale`, `thm-galois-torsor-h1`

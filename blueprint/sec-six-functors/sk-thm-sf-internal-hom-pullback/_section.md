@@ -27,4 +27,4 @@ $M^\vee\otimes^L_\Lambda N\cong\RHom_\Lambda(M,N)$ with finitely many summands
 in each total degree, and both sides of the displayed map commute with
 $Lg^*$.
 
-Uses: `\Cref{def:sf-operations}`, `thm:trf-internal-hom-pullback`
+Uses: `\Cref{sk-def-sf-operations}`, `thm-trf-internal-hom-pullback`

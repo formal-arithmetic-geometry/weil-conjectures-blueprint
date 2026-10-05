@@ -53,4 +53,4 @@ identity over the source and use the same proper base-change maps on each
 Cartesian rectangle, so their pasting identity together with the refinement
 transitivity of [sk-prop-sf-comp-coherence] gives associativity.
 
-Uses: `\Cref{prop:nagata-sketch-comp-category}`, `\Cref{prop:sf-comp-coherence}`, `\Cref{thm:properbasechange}`
+Uses: `\Cref{sk-prop-nagata-sketch-comp-category}`, `\Cref{sk-prop-sf-comp-coherence}`, `\Cref{sk-thm-properbasechange}`

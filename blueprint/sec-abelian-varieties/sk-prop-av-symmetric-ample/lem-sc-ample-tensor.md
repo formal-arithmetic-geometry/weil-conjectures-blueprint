@@ -2,7 +2,7 @@
 id = "lem-sc-ample-tensor"
 kind = "lemma"
 title = "Tensor products of ample modules"
-lean = ["AlgebraicGeometry.isAmple_tensorObj_overPullback_inv"]
+lean = ["AlgebraicGeometry.IsAbelianScheme.isAmple_symmetrisation", "AlgebraicGeometry.IsAbelianScheme.nonempty_iso_overPullback_inv_symmetrisation"]
 order = 478
 uses = ["def-sc-abelian-variety", "def-sc-ample", "lem-chow-segre"]
 +++

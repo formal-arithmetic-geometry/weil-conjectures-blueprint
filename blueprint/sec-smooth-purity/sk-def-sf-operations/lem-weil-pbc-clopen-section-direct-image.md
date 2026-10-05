@@ -10,7 +10,7 @@ $s:X\hookrightarrow V$ an
 open immersion with
 closed image and $p s=\operatorname{id}_X$.
 For a finite ring $\Lambda$ and
-$K\in\hyperref[[def-weil-pbc-derived-categories]]{D^+(X_{\Et},\Lambda)}$,
+$K\in\hyperref[def-weil-pbc-derived-categories]{D^+(X_{\Et},\Lambda)}$,
 restriction to this component gives a canonical isomorphism
 
 $$

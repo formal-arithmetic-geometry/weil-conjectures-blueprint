@@ -4,7 +4,7 @@ kind = "section"
 title = "Weak $\\Aaf^1$-invariance"
 order = 1954
 uses = ["sk-def-purity-conv"]
-lean = ["AlgebraicGeometry.Etale.injective_upperStar_map_of_isFiniteLocallyConstantSheaf", "AlgebraicGeometry.Etale.eq_of_upperStar_oneSection_eq"]
+lean = ["AlgebraicGeometry.Etale.injective_upperStar_map_of_isFiniteLocallyConstantSheaf", "AlgebraicGeometry.Etale.injective_upperStar_oneSection_map_of_isFiniteLocallyConstantSheaf", "AlgebraicGeometry.Etale.eq_of_leftDerivedUpperStar_oneSection_eq"]
 +++
 *Proposition (sketch).*
 

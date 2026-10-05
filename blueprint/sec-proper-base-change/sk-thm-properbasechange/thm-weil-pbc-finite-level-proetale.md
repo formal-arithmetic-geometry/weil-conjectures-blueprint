@@ -17,6 +17,10 @@ $$
 is an isomorphism. It is independent of replacing the witness by an
 isomorphic witness.
 
+*Source note:* for proper base change on the pro-etale site, see Stacks
+Project, Pro-etale Cohomology, Section 61.30
+([Tag 09C8](https://stacks.math.columbia.edu/tag/09C8)).
+
 ## Proof
 
 The bounded-below theorem of the proper-base-change chapter makes the etale

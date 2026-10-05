@@ -7,8 +7,17 @@ uses = ["def-pur-support-cohomology", "def-sf-datum", "def-sf-pf"]
 +++
 In the setting of [def-sf-datum], let $B$ be a separated finite-type
 $k$-scheme, $f:X\to B$, $g:Y\to B$ separated finite type, $p,q$ the
-projections of $X\times_BY$, and put $K\boxtimes L=p^*K\otimes^L_\Lambda q^*L$ for $K\in D^b_{ctf}(X,\Lambda)$, $L\in D^b_{ctf}(Y,\Lambda)$. Then
-the canonical map
+projections of $X\times_BY$ (so $f\times_Bg=g\circ q$), and put $K\boxtimes L=p^*K\otimes^L_\Lambda q^*L$ for $K\in D^b_{ctf}(X,\Lambda)$, $L\in D^b_{ctf}(Y,\Lambda)$.
+Define the canonical map as the composite of the inverse of the
+composition isomorphism $Rg_!Rq_!\cong R(f\times_Bg)_!$ of (A4), the inverse
+of the projection transformation of [def-sf-pf] for $q$ at $(p^*K,L)$, the
+inverse of the base-change exchange
+$\operatorname{Ex}_!:Lg^*Rf_!K\to Rq_!Lp^*K$ of (A2), the symmetry of
+$\otimes^L_\Lambda$, and the inverse of the projection transformation for $g$
+at $(L,Rf_!K)$ followed by the symmetry, i.e. of the four steps of the proof
+below (its coherence — symmetry, triple products, base change, projection
+formula — is the separate coherence lemma for the relative product). Then this
+canonical map
 
 $$
 R(f\times_Bg)_!\bigl(K\boxtimes L\bigr)\xrightarrow{\ \sim\ }

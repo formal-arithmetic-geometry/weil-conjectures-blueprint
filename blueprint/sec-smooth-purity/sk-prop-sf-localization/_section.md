@@ -14,8 +14,15 @@ a coefficient stage of [sk-def-sf-setting], the adjunction maps of
 [sk-def-sf-operations] form a distinguished triangle
 
 $$
-Ri_*Ri^!L\longrightarrow L\longrightarrow Rj_*j^*L\xrightarrow{+1}.
+Ri_*Ri^!L\longrightarrow L\longrightarrow Rj_*j^*L\xrightarrow{\ \delta_L\ }
+Ri_*Ri^!L[1].
 $$
+
+Since $\operatorname{Hom}(Ri_*A,Rj_*B[n])=0$ for all $A$, $B$ and $n$, the
+connecting map $\delta_L$ is the unique one completing the two adjunction
+maps to a distinguished triangle, and the triangle is natural in $L$: for
+$f:L\to L'$ the triple $(Ri_*Ri^!f,f,Rj_*j^*f)$ is a morphism of triangles,
+and the only one extending $f$.
 
 ## Proof
 
@@ -47,7 +54,16 @@ so $C\cong Rj_*j^*L$ compatibly with the maps from $L$
 ([sk-lem-sf-determination] for the two-out-of-three step).
 [sk-prop-sf-closed-unit] is what makes the first rewriting an isomorphism on
 the nose rather than up to the unit.
+*Uniqueness and naturality.* By $j^*\dashv Rj_*$ and $j^*Ri_*=0$,
+$\operatorname{Hom}(Ri_*A,Rj_*B[n])=\operatorname{Hom}(j^*Ri_*A,B[n])=0$. If
+two maps $Rj_*j^*L\to Rj_*j^*L'$ agree after composing with
+$L\to Rj_*j^*L$, their difference factors through $\delta_L$, hence through
+an element of $\operatorname{Hom}(Ri_*Ri^!L[1],Rj_*j^*L')=0$; dually on the
+first vertex. So a morphism of triangles is determined by its middle
+component, and the morphism given by the axiom extending $f$ must be
+$(Ri_*Ri^!f,f,Rj_*j^*f)$; for $f=\mathrm{id}$ this forces two choices of
+$\delta_L$ to agree (BBD, 1.1.9–1.1.10).
 Source: open–closed localization in SGA 4, XVII–XVIII; used in SGA 5, III,
 proof of 1.7.4.
 
-Uses: `\Cref{lem:sf-determination}`, `\Cref{prop:sf-closed-unit}`, `\Cref{prop:sf-open-closed-triangle}`
+Uses: `\Cref{sk-lem-sf-determination}`, `\Cref{sk-prop-sf-closed-unit}`, `\Cref{sk-prop-sf-open-closed-triangle}`

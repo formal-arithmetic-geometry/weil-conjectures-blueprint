@@ -3,12 +3,15 @@ id = "sk-thm-sf-ctf-stability"
 kind = "section"
 title = "Stability of the constructible finite-Tor subcategories"
 order = 2202
-uses = ["sk-cor-sf-direct-image-ctf", "sk-prop-sf-comparison", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-hom-ctf"]
+uses = ["sk-cor-sf-direct-image-ctf", "sk-def-sf-operations", "sk-def-sf-setting", "sk-prop-sf-comparison", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-hom-ctf"]
 lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_leftDerivedUpperStar", "AlgebraicGeometry.Etale.constructibleFiniteTor_tensor", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerStar", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedUpperShriek"]
 +++
 *Theorem (sketch).*
 
-For separated finite-type morphisms and complexes in the stated finite-Tor
+For separated finite-type morphisms $f:X\to Y$ of finite-type $k$-schemes
+($k=\overline{\mathbf F}_q$ as in [sk-def-sf-setting]; the dimension bounds
+below are those of these schemes, which is what justifies the global
+amplitude shifts) and complexes in the stated finite-Tor
 domains, *each clause being a statement about the functor of
 [sk-def-sf-operations] between the small categories written in it*:
 (i) the functor $Lf^*:\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$ is defined;
@@ -19,8 +22,9 @@ $[a,b],[c,d]\mapsto[c-b-2m,d-a+2m]$, sharpened to $[c-b,d-a]$ when the first
 argument is site-perfect;
 (iii) $Rf_*:\Dctf(X,\Lambda)\to\Dctf(Y,\Lambda)$ is defined;
 (iv) $Rf_!:\Dctf(X,\Lambda)\to\Dctf(Y,\Lambda)$ is defined;
-(v) $Rf^!:\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$ is defined for every $f$
-carrying the ambient datum; (vi) $\mathbb D_X:\Dctf(X,\Lambda)\to \Dctf(X,\Lambda)$ is defined and is a contravariant anti-equivalence with
+(v) $Rf^!:\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$ is defined for every $f$,
+with no admissibility hypothesis ([sk-def-sf-operations](vi),
+[sk-prop-sf-rf-shriek-preservation]); (vi) $\mathbb D_X:\Dctf(X,\Lambda)\to \Dctf(X,\Lambda)$ is defined and is a contravariant anti-equivalence with
 $\mathbb D_X\mathbb D_X\cong\mathrm{id}$; (vii) each of (i)–(vi) is compatible
 with finite reduction and scalar extension, and (i)–(vi) with the pro-étale
 realization.
@@ -53,4 +57,13 @@ bound, hence not on the stage; the finite-level comparison isomorphisms are
 [sk-prop-sf-pf-reduction] for the projection formula and the recorded
 clause of prop:functor-package otherwise.
 
-Uses: `\Cref{cor:sf-direct-image-ctf}`, `\Cref{prop:sf-comparison}`, `\Cref{prop:sf-rf-shriek-preservation}`, `\Cref{thm:sf-direct-image-tor-amplitude}`, `\Cref{thm:sf-hom-ctf}`, `prop:functor-package`
+*Conditional on* clause (vii) in the case of a reduction tower for which no single
+finite étale cover trivialises all stages. Everything else in the theorem
+is unconditional; in particular clauses (v) and (vi) carry no admissibility
+hypothesis, the exceptional adjoint being the constructible one of
+[sk-def-sf-operations] (vi) (the former residue "vanishing for pro-étale
+module sheaves not of étale origin" concerned only the ambient
+[sk-prop-sf-existence] (b), which is false in general and not used,
+[sk-rem-sf-fullcd-scope]). The one residue is the reduction
+towers with no uniform trivializing cover.
+Uses: `\Cref{sk-cor-sf-direct-image-ctf}`, `\Cref{sk-prop-sf-comparison}`, `\Cref{sk-prop-sf-rf-shriek-preservation}`, `\Cref{thm-sf-direct-image-tor-amplitude}`, `\Cref{thm-sf-hom-ctf}`, `prop-functor-package`

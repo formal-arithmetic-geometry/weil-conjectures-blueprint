@@ -40,10 +40,10 @@ $$
 g^{-1}Rf_!K&=g^{-1}Rp_*j_!K
 &&\text{(definitions)}\\
 &\xrightarrow{\ \sim\ }Rp'_*g^{-1}j_!K
-&&\text{(\Cref{[thm-weil-pbc-bounded-below]} applied to the
+&&\text{(\Cref{thm-weil-pbc-bounded-below} applied to the
 proper \(p\))}\\
 &\xrightarrow{\ \sim\ }Rp'_*j'_!g'^{-1}K
-&&\text{(\Cref{cor:cbc-derived-extension-zero-base-change})}\\
+&&\text{(\Cref{cor-cbc-derived-extension-zero-base-change})}\\
 &=Rf'_!g'^{-1}K &&\text{(definitions).}
 \end{aligned}
 $$

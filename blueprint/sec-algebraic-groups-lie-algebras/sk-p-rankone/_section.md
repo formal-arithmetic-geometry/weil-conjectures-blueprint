@@ -4,7 +4,7 @@ kind = "section"
 title = "Rank-one factorization"
 order = 2531
 uses = ["sk-d-ab-rankone"]
-lean = ["SemidirectProduct.rankOne_factorization"]
+lean = ["SemidirectProduct.eq_finitePart_mul_degreeCharacter", "SemidirectProduct.finitePart_inrOfAddOne", "SemidirectProduct.range_finitePart", "SemidirectProduct.finite_range_finitePart"]
 +++
 *Proposition (sketch).*
 

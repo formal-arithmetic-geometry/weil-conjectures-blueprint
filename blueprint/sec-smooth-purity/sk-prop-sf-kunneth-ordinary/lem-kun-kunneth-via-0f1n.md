@@ -16,7 +16,7 @@ composite
 $$
 \begin{aligned}
 &\RGamma(X_{\Et},E)\kunotimes{\kunZn}\RGamma(Y_{\Et},K)\\
-&\quad\xrightarrow[\Cref{lem:kun-0F12}]{\ \sim\ }
+&\quad\xrightarrow[\Cref{lem-kun-0f12}]{\ \sim\ }
 \RGamma\bigl(X_{\Et},E\kunotimes{\kunZn}\underline{\RGamma(Y_{\Et},K)}\bigr)\\
 &\quad\xrightarrow{\ \RGamma(X_{\Et},\varphi)\ }
 \RGamma\bigl((X\times_kY)_{\Et},

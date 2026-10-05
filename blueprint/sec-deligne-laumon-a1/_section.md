@@ -9,7 +9,7 @@ content: a sketch of the affine-line weight estimate via curve perverse sheaves,
 Fourier transform, real-sheaf purity, and positive squared traces.  
 key result: Theorem [sk-thm-dl-a1-upper].  
 references: `weil2curves_blueprint.tex`, especially
-`thm:affine-line-middle-upper`; source labels below are provenance.
+`sk-thm-dl-a1-upper`; source labels below are provenance.
 
 The target is the affine-line step in the source: if $j:U_0\hookrightarrow \mathbf A^1_{\mathbf F_q}$ is dense and $F$ is pure of weight $w$ and
 unramified at infinity, then $H_c^r(\mathbf A^1,j_*F)$ has weights at most

@@ -45,4 +45,4 @@ unit and the counit. The constant case is $F=\Lambda_X$, with
 $j^*\Lambda_X=\Lambda_U$ and $i^*\Lambda_X=\Lambda_Z$.
 This is the elementary sheaf sequence used in SGA 5, III, proof of 1.7.4.
 
-Uses: `\Cref{def:sf-operations}`, `\Cref{def:sf-setting}`
+Uses: `\Cref{sk-def-sf-operations}`, `\Cref{def-sf-setting}`

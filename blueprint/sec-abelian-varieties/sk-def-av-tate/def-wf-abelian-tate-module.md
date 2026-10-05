@@ -2,7 +2,7 @@
 id = "def-wf-abelian-tate-module"
 kind = "definition"
 title = "The Tate module used in the curve argument"
-lean = ["AlgebraicGeometry.tateModule"]
+lean = ["AlgebraicGeometry.IsAbelianScheme.tateModule"]
 order = 470
 uses = ["def-sc-abelian-variety", "def-sc-mult-n", "def-tate-module-abelian-group"]
 +++

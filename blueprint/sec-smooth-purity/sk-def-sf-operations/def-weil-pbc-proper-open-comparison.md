@@ -10,7 +10,7 @@ proper, and let
 $j_i:X\hookrightarrow T_i$ be
 open immersions with
 $u j_1=j_2$. Fix a finite ring $\Lambda$ and
-$K\in\hyperref[[def-weil-pbc-derived-categories]]{D^+(X_{\Et},\Lambda)}$.
+$K\in\hyperref[def-weil-pbc-derived-categories]{D^+(X_{\Et},\Lambda)}$.
 Set $V=T_1\times_{T_2}X$, with projections $b:V\to T_1$ and
 $p:V\to X$, and let $s:X\to V$ be the morphism induced by $j_1$,
 so that $b s=j_1$ and $p s=\operatorname{id}_X$. Define

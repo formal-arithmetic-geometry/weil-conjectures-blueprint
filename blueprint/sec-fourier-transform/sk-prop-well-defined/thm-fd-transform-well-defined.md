@@ -3,7 +3,7 @@ id = "thm-fd-transform-well-defined"
 kind = "theorem"
 title = "Well-definedness of the Fourier–Deligne transform"
 order = 2697
-lean = ["AlgebraicGeometry.Etale.boundedConstructible_fourierTransform_obj"]
+lean = ["AlgebraicGeometry.Etale.boundedConstructible_fourierTransform_obj_of_boundedConstructible", "AlgebraicGeometry.Etale.fourierTransformBoundedConstructible"]
 uses = ["def-fd-kernel", "def-fd-transform", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "prop-functor-package", "prop-kernel-lisse"]
 +++
 Let $S_0$ be a separated

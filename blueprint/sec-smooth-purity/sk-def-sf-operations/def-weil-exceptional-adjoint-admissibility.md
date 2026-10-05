@@ -47,3 +47,19 @@ with uniform bounds and when the finite-reduction and scalar-extension maps
 for the corresponding right adjoints are isomorphisms. These are proof
 obligations for restriction of an ambient right adjoint, not consequences of
 the definition of a separated finite-type morphism.
+
+*Warning.* Clause (1) is not satisfied in general: its
+$\operatorname{FullCD}$ condition fails for the structure morphism of an
+elliptic curve over $\overline{\mathbf F}_p$ with $A=\mathbf F_r$, $r\neq p$,
+and for that morphism $Rf_!=Rf_*$ has no right adjoint on the ambient derived
+category, nor on $D^+$ (rem:sf-ambient-counterexample in the six-functors
+chapter). Hence the structure morphism of a smooth proper variety may *not*
+be presupposed exceptional-adjoint admissible in this sense, and no statement
+on the proof chain of this blueprint assumes it. What the blueprint uses is
+the constructible exceptional adjoint of def-weil-exceptional-inverse-image,
+defined without clause (1) from the etale adjoint; for it the analogues of
+(1)–(3) on $D^b_c$ and $D^b_{ctf}$ are theorems for every separated
+finite-type morphism of finite-type $k$-schemes (thm-sf-ambient-adjoint-class
+for the adjunction, thm-sf-preservation-class for the two preservation
+clauses with the constants $c_f^-=-2D$, $c_f^+=2\dim Y+1$). The present
+definition is retained only to name the stronger, optional, ambient notion.

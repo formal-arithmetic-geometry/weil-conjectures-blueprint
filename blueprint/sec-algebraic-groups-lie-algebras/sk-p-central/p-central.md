@@ -5,19 +5,24 @@ title = "A positive central representative"
 order = 2527
 tags = ["latex:proposition"]
 uses = ["d-central", "d-monodromy", "lem-ag-closure-commutators", "lem-wf-algebraic-component-cosets", "p-product"]
-lean = ["RepresentedDegreeDatum.exists_admissibleChoice_and_isPositiveCentralPair"]
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair"]
 +++
 Every semisimple represented degree datum ([d-monodromy])
-admits admissible choices ([d-central]); the displayed
-construction gives a positive central pair $(N,z)$, that is $N=mr>0$ and
-$z\in Z(G)\cap HF^N$, for every such choice.
+admits a positive central pair ([d-central]) $(N,z)$, that is $N>0$ and
+$z\in Z(G)\cap HF^N$.
 
 ## Proof
 
 The finite component group from [lem-wf-algebraic-component-cosets]
-supplies $m>0$ with $F^m\in G^\circ$. The factorization $F^m=ch$ with
-$c\in Z(G^\circ)^\circ$ and $h\in H^\circ$ is supplied by [p-product],
-so choose the data of [d-central]. Since $G^\circ$ is normal, all
+supplies $m>0$ with $F^m\in G^\circ$. By [p-product], factor $F^m=ch$ with
+$c\in Z(G^\circ)^\circ$ and $h\in H^\circ$, and choose a finite list
+$g_1,\ldots,g_r$ meeting every coset of $G^\circ$ exactly once. Put
+
+$$
+N=mr,\qquad z=\prod_{i=1}^r g_i c g_i^{-1}.
+$$
+
+Since $G^\circ$ is normal, all
 conjugates of $c$ lie in its abelian center. Replacing a coset
 representative by $g_i u$, $u\in G^\circ$, leaves its factor unchanged;
 the factors commute. Left multiplication permutes the component cosets,

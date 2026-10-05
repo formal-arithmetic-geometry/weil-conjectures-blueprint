@@ -4,7 +4,7 @@ kind = "section"
 title = "Brauer group"
 order = 889
 uses = ["sec-abelian-varieties", "sk-def-curve", "sk-prop-hilbert90"]
-lean = ["AlgebraicGeometry.Scheme.brauerGroup"]
+lean = ["AlgebraicGeometry.Scheme.CohomologicalBrauerGroup"]
 +++
 *Definition (sketch).*
 

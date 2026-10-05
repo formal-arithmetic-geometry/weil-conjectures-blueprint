@@ -4,7 +4,7 @@ kind = "section"
 title = "Semi-continuity of weights"
 order = 2650
 uses = ["sk-d-real-boundary", "sk-d-real-cohom", "sk-d-real-series", "sk-d-real-weights", "sk-d-real-weil", "sk-i-real-boundary", "sk-i-real-normalization", "sk-p-linear-filtration", "sk-p-linear-spectra", "sk-p-real-integral", "sk-p-real-sections", "sk-thm-derived-duality", "sk-thm-trace-transport"]
-lean = ["AlgebraicGeometry.BoundaryDatum.weight_le_of_hasWeightsAtMost", "AlgebraicGeometry.BoundaryDatum.isPunctuallyPure_of_isPunctuallyPure_restrict"]
+lean = ["AlgebraicGeometry.BoundaryDatum.frobeniusWeight_le_of_hasWeightsAtMost", "AlgebraicGeometry.BoundaryDatum.isPunctuallyPure_of_isPunctuallyPure_restrict"]
 +++
 *Proposition (sketch).*
 
@@ -41,8 +41,8 @@ Set $J=j_*\mathcal F$. Its nonzero global sections have support all of
 the affine curve, so $H_c^0(C,J)=0$.
 The exact sequence $0\to j_!\mathcal F\to J\to i_*i^*J\to0$, the vanishing
 above degree zero of a sheaf supported on finitely many points
-(Blueprint 02, `lem:weil-pbc-finite-direct-image-exact` with
-`lem:weil-pbc-zero-dimensional-cohomology`), and
+(Blueprint 02, `lemma-weil-pbc-finite-direct-image-exact` with
+`lem-weil-pbc-zero-dimensional-cohomology`), and
 [sk-thm-derived-duality] give $H_c^2(C,J)=V_{\pi_1(U)}(-1)$.
 On this quotient a degree-$e$ Frobenius acts as $F_Q^e$.
 Choose one closed point of $U_0$: quotient eigenvalues occur in the

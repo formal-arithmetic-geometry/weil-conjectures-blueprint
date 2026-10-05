@@ -4,7 +4,6 @@ kind = "section"
 title = "Transport through the coefficient stages"
 order = 2448
 uses = ["sk-cor-trace", "sk-def-ops", "sk-def-set", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-sf-identification", "sk-thm-sf-package"]
-lean = ["AlgebraicGeometry.ProEtale.degreewisePoincarePairing_transport"]
 +++
 *Theorem (sketch).*
 
@@ -39,7 +38,9 @@ stagewise and the comparison maps are equivariant
 thm:pod-qbar-coefficient-pairing).
 *Step 3 (what is transported).* The transported data are exactly the
 isomorphism, its degreewise form, the map of [sk-cor-trace] and the
-equivariance, similitude and reciprocity of [sk-thm-frobenius], since each
+equivariance and similitude of [sk-thm-frobenius] (a) at every stage,
+together with its reciprocity clause (b) at the field stages $E$ and
+$\Qlb$ only, where the degreewise form is perfect; each
 of these is constructed from the pairing and the trace alone and no further
 input enters.
 

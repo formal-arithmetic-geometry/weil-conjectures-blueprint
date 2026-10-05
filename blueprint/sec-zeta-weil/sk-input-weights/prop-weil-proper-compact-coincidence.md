@@ -16,7 +16,7 @@ Ra_{Y!}\cong Ra_{Y*},
 $$
 
 so that $H_c^i(Y,K)\cong H^i(Y,K)$ for every $K$. (This is
-$\Cref{def:compact-support-direct-image}$ and
+$\Cref{def-compact-support-direct-image-detailed}$ and
 [def-weil-derived-direct-image] applied to a proper structure
 morphism, and the exchange criterion of the proper base-change theorem
 for the identity base change.)

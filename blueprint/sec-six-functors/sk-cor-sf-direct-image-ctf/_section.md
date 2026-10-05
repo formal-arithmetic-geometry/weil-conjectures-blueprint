@@ -21,4 +21,4 @@ directions;
 and the comparison direct image of [sk-prop-sf-comparison] carries it
 back.
 
-Uses: `\Cref{prop:sf-comparison}`, `\Cref{thm:sf-direct-image-tor-amplitude}`
+Uses: `\Cref{sk-prop-sf-comparison}`, `\Cref{thm-sf-direct-image-tor-amplitude}`

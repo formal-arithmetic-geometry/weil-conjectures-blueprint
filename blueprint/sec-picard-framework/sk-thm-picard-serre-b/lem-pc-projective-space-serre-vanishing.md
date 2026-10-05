@@ -7,7 +7,7 @@ uses = ["def-pc-projective-space-twist", "lem-pc-projective-space-cohomology-bou
 +++
 Let $A$ be Noetherian and $\mathcal F$ a
 coherent module on
-$P=\hyperref[def:pc-projective-space-twist]{\mathbf P^n_A}$.
+$P=\hyperref[def-pc-projective-space-twist]{\mathbf P^n_A}$.
 There is $d_0\ge0$ such that $H^q(P,\mathcal F(d))=0$ for
 all $d\ge d_0$ and all $q>0$.
 

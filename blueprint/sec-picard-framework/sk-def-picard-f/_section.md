@@ -4,7 +4,7 @@ kind = "section"
 title = "The subfunctor $F$"
 order = 818
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
-lean = ["AlgebraicGeometry.picardFunctorF"]
+lean = ["AlgebraicGeometry.picardFunctorInvertibleDirectImage"]
 +++
 *Definition (sketch).*
 

@@ -177,9 +177,9 @@ $$
 &p^{-1}\pi_{i,*}\underline{\kunFl}\kunotimes{\kunFl}
 (f')^{-1}R^qg_*\mathcal F\\
 &\qquad=\pi'_{i,*}\underline{\kunFl}\kunotimes{\kunFl}
-(f')^{-1}R^qg_*\mathcal F\bigr)\qquad(\text{\Cref{[lemma-weil-pbc-finite-exchange]}})\\
+(f')^{-1}R^qg_*\mathcal F\bigr)\qquad(\text{\Cref{lemma-weil-pbc-finite-exchange}})\\
 &\qquad=\pi'_{i,*}\bigl((\pi'_i)^{-1}(f')^{-1}R^qg_*\mathcal F\bigr)
-\qquad(\text{\Cref{lem:kun-0F0G}}).
+\qquad(\text{\Cref{lem-kun-0f0g}}).
 \end{aligned}
 $$
 
@@ -191,11 +191,11 @@ $$
 \kunotimes{\kunFl}e^{-1}\mathcal F\bigr)\\
 &\qquad=R^qh_*\bigl(\rho_{i,*}\underline{\kunFl}
 \kunotimes{\kunFl}e^{-1}\mathcal F\bigr)
-\qquad(\text{\Cref{[lemma-weil-pbc-finite-exchange]}})\\
+\qquad(\text{\Cref{lemma-weil-pbc-finite-exchange}})\\
 &\qquad=R^qh_*\bigl(\rho_{i,*}\rho_i^{-1}e^{-1}\mathcal F\bigr)
-\qquad(\text{\Cref{lem:kun-0F0G}})\\
+\qquad(\text{\Cref{lem-kun-0f0g}})\\
 &\qquad=\pi'_{i,*}R^qh_{i,*}\rho_i^{-1}e^{-1}\mathcal F
-\qquad(\text{\Cref{lem:kun-leray-finite}}).
+\qquad(\text{\Cref{lem-kun-leray-finite}}).
 \end{aligned}
 $$
 

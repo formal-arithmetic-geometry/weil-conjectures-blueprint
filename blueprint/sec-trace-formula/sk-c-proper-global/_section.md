@@ -14,8 +14,8 @@ With compact cohomology, its
 global operator satisfies
 
 $$
-\hyperref[d:trace]{\tr_A}\bigl(T_c(u)\mid R\Gamma_c(X,K)\bigr)
-=\hyperref[d:integral]{\int_{\Fix(c)}}\hyperref[d:trace-class]{\Tr_c(u)}.
+\hyperref[sk-d-trace]{\tr_A}\bigl(T_c(u)\mid R\Gamma_c(X,K)\bigr)
+=\hyperref[sk-d-integral]{\int_{\Fix(c)}}\hyperref[sk-d-trace-class]{\Tr_c(u)}.
 $$
 
 ## Proof

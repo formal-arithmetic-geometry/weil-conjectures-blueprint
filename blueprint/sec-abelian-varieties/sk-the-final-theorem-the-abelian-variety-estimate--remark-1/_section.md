@@ -64,8 +64,8 @@ with 06d\_group\_schemes.tex, 06f\_divisors\_picard\_riemann\_roch.tex,
 | [sk-prop-av-cube] | thm:sc-theorem-of-cube | `0BFE`, `0BF4` |
 | [sk-prop-av-mult-n-pullback] | lem:sc-mult-n-pullback | `0BFF` |
 | [sk-prop-av-deg-pullback] | lem:sc-deg-pullback-finite | `0BEX` |
-| [sk-prop-av-const-locus], [sk-prop-av-image-open] | lem:sc-constant-locus-closed, lem:sc-finite-image-locus-open | `0AH8` |
-| [sk-prop-av-rigidity] | lem:sc-rigidity | Milne I, Mumford II.6 |
+| [sk-prop-av-const-locus], [sk-prop-av-image-open] | lem:sc-constant-locus-closed, lem:sc-finite-image-locus-open | `01UA`, `0AH8` |
+| [sk-prop-av-rigidity] | lem:sc-rigidity | `0BUG` (Step 4); cf. Milne I, Mumford II.6 |
 | [sk-cor-av-commutative] | lem:sc-av-commutative | `0BFD` (alternative) |
 | [sk-prop-av-mult-hom] | lem:sc-mult-n-homomorphism (`06d`) | — |
 | [sk-prop-av-pqf-finite] | thm:pqf-finite-iff-proper-finite-fibres | `02OG` |

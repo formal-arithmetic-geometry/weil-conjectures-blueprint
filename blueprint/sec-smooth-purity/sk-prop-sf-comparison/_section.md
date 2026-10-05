@@ -3,7 +3,7 @@ id = "sk-prop-sf-comparison"
 kind = "section"
 title = "The pro-étale comparison"
 order = 1649
-lean = ["AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.full_and_faithful_comparisonUpperStar", "AlgebraicGeometry.ProEtale.nonempty_iso_comparisonUpperStar_comp_rightDerivedLowerStar"]
+lean = ["AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar", "AlgebraicGeometry.ProEtale.nonempty_iso_comparisonUpperStar_comp_rightDerivedLowerStar"]
 +++
 *Proposition (sketch).*
 
@@ -27,4 +27,4 @@ prop:weil-pbc-comparison-direct-image and
 lem:weil-pbc-pullback-preserves-bounded-constructible; Chapter 17 for the
 detection clauses lem:cbc-proetale-stalk-conservative.
 
-Uses: `lem:cbc-proetale-stalk-conservative`, `lem:weil-pbc-pullback-preserves-bounded-constructible`, `prop:weil-pbc-comparison-direct-image`, `thm:weil-pbc-site-comparison`
+Uses: `lem-cbc-proetale-stalk-conservative`, `lem-weil-pbc-pullback-preserves-bounded-constructible`, `prop-weil-pbc-comparison-direct-image`, `thm-weil-pbc-site-comparison`

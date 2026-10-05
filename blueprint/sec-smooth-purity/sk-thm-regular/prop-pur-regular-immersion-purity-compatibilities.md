@@ -9,9 +9,14 @@ uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-frame
 In the situation of [thm-pur-regular-immersion-purity], the purity
 isomorphism is compatible with
 
-1. *base change* along any morphism of pairs (the base change
-of a regular closed immersion is quasi-regular, and the statement is
-for the resulting immersions of the same codimension $c$);
+1. *base change* along an étale morphism $X'\to X$, and more generally
+along a smooth morphism $X'\to X$ of smooth $k$-schemes: then
+$Z'=Z\times_XX'$ is smooth over $Z$, hence regular, and
+$Z'\hookrightarrow X'$ is a regular closed immersion of the same pure
+codimension $c$ (flat base change preserves regular sequences), so the
+base-changed pair is again in the situation of
+[thm-pur-regular-immersion-purity]. Base change along an arbitrary
+morphism of pairs would leave that situation and is not claimed;
 1. *transverse composition* of regular immersions: for
 $i:Z\hookrightarrow Y$ and $j:Y\hookrightarrow X$ transverse regular
 immersions of codimensions $b$ and $d$, the purity isomorphisms for
@@ -32,7 +37,7 @@ morphisms, the composition law for $(-)^!$ and the co-projection
 classes carry the content (everything else is the canonical
 six-functor structure).
 
-*(a) Base change.* The structure morphisms and the whole
+*(a) Base change.* For $X'\to X$ smooth (in particular étale) the structure morphisms and the whole
 composite identification of Steps 1–2 are stable under base change
 (the structure morphisms of the base-changed pair are the base changes
 of the structure morphisms; the smooth purity identification

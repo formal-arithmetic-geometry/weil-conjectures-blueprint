@@ -31,9 +31,11 @@ $[a-2d,b-2d]$; in particular $Rf^!$ carries $D^b_{ctf}(Y,A)$
 into $D^b_{ctf}(X,A)$.
 
 Thus every smooth morphism is
-exceptional-adjoint admissible at $A=A_{E,n}$ in the full sense of
-[def-weil-exceptional-adjoint-admissibility], on the complexes of the
-blueprint's coefficient class that the two clauses below quantify over: the
+exceptional-adjoint admissible at $A=A_{E,n}$ in the constructible sense —
+the three clauses of [def-weil-exceptional-adjoint-admissibility] read on the
+complexes of the blueprint's coefficient class that the two clauses below
+quantify over; the unrestricted clause (1) of that definition, on all
+pro-etale sheaves, is false in general and is not asserted —: the
 preservation
 clauses are consequences of purity, not hypotheses of it, and the ambient
 datum that the earlier form of this corollary assumed is not an assumption

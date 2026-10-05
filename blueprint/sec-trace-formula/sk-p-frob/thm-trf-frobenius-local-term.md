@@ -83,7 +83,12 @@ $u^U:L\Phi^*K^U\to K^U$ is a Frobenius coefficient morphism for
 $\Phi=\Phi^m$ on $K^U$, and it is not required to be invertible.
 Hence $\operatorname{LT}_{\bar x}(u^U)=0$ by the zero-stalk vanishing
 of [lem-trf-local-term-locality]: item (3) in the smooth-curve setting
-of [d-curve-pieces], and item (2) for general $X_0$.
+of [d-curve-pieces], and item (2) for general $X_0$, the graph of $\Phi$
+being contracting at $\bar x$ because
+$\Phi^{\cdot}(\mathcal I_{\bar x})\mathcal O_X\subset\mathcal I_{\bar x}^{\,q^m}$
+(verified in the proof of item (3) there). This is the only step of the
+proof that is not formal: it rests on Varshavsky's
+contracting-correspondence theorem, quoted in that lemma.
 
 *Step 3: the closed piece.* By [d-curve-pieces],
 $u^Z=[i,i]_!(v_{\bar x})$ is the coefficient pushforward of

@@ -17,7 +17,8 @@ and derived direct images.
 
 Both equations are the mate versions of the identity and pasting laws for
 $\theta_\square$ recorded in [def-weil-pbc-cartesian-square],
-transported through the adjunction calculus for $u^{-1}\dashv Ru_*$. By
+transported through the adjunction calculus for the adjunctions
+$f'^{-1}\dashv Rf'_*$ and $f^{-1}\dashv Rf_*$ of the squares involved. By
 [lemma-weil-pbc-derived-exchange-replacement] every displayed map is the
 specified derived exchange morphism of
 [def-weil-pbc-derived-exchange].

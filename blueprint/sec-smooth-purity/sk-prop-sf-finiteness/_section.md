@@ -118,4 +118,4 @@ all surviving total degrees are $\le2d+c$. For $K$ separably closed every
 torsion étale sheaf on $\Spec K$ is acyclic in positive degrees, so
 $\mathrm{cd}_{\mathrm{tor}}(\Spec K)=0$ (lem:kun-cd-sep-closed-point).
 
-Uses: `lem:kun-cd-sep-closed-point`, `sbc-thm-finiteness-finite-type`, `thm:dg-finite-type-constructibility`, `thm:sc-finite-type-torsion-cd`, `thm:weil-pbc-direct-image-finiteness-proper`
+Uses: `lem-kun-cd-sep-closed-point`, `sbc-thm-finiteness-finite-type`, `thm-dg-finite-type-constructibility`, `thm-sc-finite-type-torsion-cd`, `thm-weil-pbc-direct-image-finiteness-proper`

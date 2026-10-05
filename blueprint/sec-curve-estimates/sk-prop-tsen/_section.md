@@ -4,11 +4,10 @@ kind = "section"
 title = "Tsen's theorem"
 order = 893
 uses = ["sk-def-av-pic", "sk-def-br", "sk-def-cr", "sk-def-curve"]
-lean = ["AlgebraicGeometry.isCrField_functionField", "AlgebraicGeometry.subsingleton_brauerGroup_spec_functionField"]
 +++
 *Proposition (sketch).*
 
-For $C$ smooth proper over algebraically closed $k$, the function
+For $C$ a smooth proper connected curve (so integral of dimension $1$) over algebraically closed $k$, the function
 field $k(C)$ is a $C_1$ field and therefore
 
 $$

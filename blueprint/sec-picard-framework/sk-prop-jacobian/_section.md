@@ -18,7 +18,9 @@ $$
 \Pic^0(C)=\{\cL\in\Pic(C):\deg\cL=0\}\;\cong\;J(C)(k),
 $$
 
-and the formation of $J(C)$ commutes with algebraically closed base extension:
+where $\deg\cL=\chi(\cL)-\chi(\cO_C)$, equivalently (by
+[sk-thm-picard-rr](RR)) the divisor degree $\deg D$ of any $D$ with
+$\cL\cong\cO_C(D)$; and the formation of $J(C)$ commutes with algebraically closed base extension:
 $J(C_{k'})=J(C)\times_kk'$ for $k\subseteq k'$ algebraically closed.
 
 ## Proof
@@ -76,6 +78,6 @@ $\Pic_{C_{k'}/k'}$ and its degree-zero part is $J(C_{k'})$.
 (Classical: Mumford and Milne, *Abelian Varieties*; Stacks
 [`0BA0`](https://stacks.math.columbia.edu/tag/0BA0); the
 detailed blueprint node is
-`thm:sc-jacobian-representability`.)
+`thm-sc-jacobian-representability`.)
 
 Uses: [sk-def-av-jacobian], [sk-def-picard-f], [sk-lem-picard-f-open], [sk-lem-picard-zero-dictionary], [sk-prop-picard-degree-decomposition], [sk-prop-picard-jacobian-tangent], [sk-prop-picard-pic-split], [sk-thm-picard-f-representable], [sk-thm-picard-hilb-curves], [sk-thm-picard-rr], [sk-thm-picard-twist]

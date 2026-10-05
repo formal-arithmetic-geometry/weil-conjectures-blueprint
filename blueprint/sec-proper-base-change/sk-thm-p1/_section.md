@@ -3,7 +3,7 @@ id = "sk-thm-p1"
 kind = "section"
 title = "Curve calculations $\\Rightarrow$ PBC($\\Pone$)"
 order = 1107
-lean = ["AlgebraicGeometry.Etale.satisfiesBaseChange_projectiveLine"]
+lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine"]
 uses = ["sk-def-br", "sk-def-conv", "sk-def-ia", "sk-def-pbc", "sk-thm-curveestimate", "sk-thm-iff"]
 +++
 *Theorem (sketch).*
@@ -28,12 +28,31 @@ $(C_5)\ C\ \text{proper},\ F\ \text{constructible}\ \Rightarrow\ H^q(C,F)\ \text
 $(C_6)\ k\subset k'\ \text{algebraically closed},\ F\ \text{prime to }p \Rightarrow\ H^q(C,F)\cong H^q(C_{k'},F);$  
 $(C_7)\ C\ \text{proper}\ \Rightarrow\ H^q(C,F)\cong H^q(C_{k'},F) \text{ for all torsion }F;$  
 $(C_8)\ a:U\hookrightarrow C\ \text{open}\ \Rightarrow\ a^*:H^2(C,F)\twoheadrightarrow H^2(U,a^{-1}F).$
-(**Uses Thm [sk-thm-curveestimate]**) For the constant sheaf $\Fq$ on a smooth curve these are explicit
-computations: $H^0(C,\Fq)=\Fq$, $H^1(C,\Fq)=\Fq^{2g}$ ($g$ the genus;
-the ``Kummer route'' $\mathbf F_n\simeq\mu_n$), and
-$H^q(C,\Fq)=0$ for $q\ge2$ (the étale cohomological dimension of a
-curve is $1$); on an affine $U$ one has $H^q(U,j_!\Fq)=0$ for $q\ge2$,
-and the analogues hold for $\Fp$ in characteristic $p$.  
+(**Uses Thm [sk-thm-curveestimate]**) For the constant sheaf
+$\Fq=\Z/n$ of order $n$ prime to $\operatorname{char}k$ on a smooth
+proper connected curve $C$ of genus $g$ these are explicit
+computations (the ``Kummer route'': a primitive $n$-th root of unity
+identifies $\Z/n\simeq\mu_n$, and the Kummer sequence reads $H^1$ and
+$H^2$ off $\Pic(C)$): $H^0(C,\Z/n)=\Z/n$,
+$H^1(C,\Z/n)=\Pic(C)[n]\simeq(\Z/n)^{2g}$,
+$H^2(C,\Z/n)=\Pic(C)/n\simeq\Z/n$ (via the degree), and
+$H^q(C,\Z/n)=0$ for $q\ge3$; this is [sk-thm-curveestimate]. For
+an affine open $j:U\hookrightarrow C$ one has $H^q(U,\Z/n)=0$ for
+$q\ge2$ (the étale cohomological dimension of an *affine*
+curve is $1$; that of the proper $C$ is $2$), and $H^q(C,j_!\Z/n)=0$
+for $q\ge3$ with $H^2(C,j_!\Z/n)\to H^2(C,\Z/n)$ surjective (its
+cokernel injects into $H^2$ of the finite set $C\setminus U$, which
+is $0$); these are $(C_2)$ and $(C_8)$ for the constant sheaf. In
+characteristic $p$ the analogues for $\Fp$ come from the
+Artin–Schreier sequence
+$0\to\Fp\to\mathcal O_C\xrightarrow{F-1}\mathcal O_C\to0$:
+$H^0(C,\Fp)=\Fp$, $H^1(C,\Fp)=\ker(F-1\mid H^1(C,\mathcal O_C))$ is
+finite of $\Fp$-dimension the $p$-rank of $C$ (at most $g$, not
+$2g$), $H^2(C,\Fp)=\operatorname{coker}(F-1\mid H^1(C,\mathcal O_C))=0$
+($F-1$ is surjective on a finite-dimensional vector space over the
+algebraically closed $k$), and $H^q(C,\Fp)=0$ for $q\ge3$; on an
+affine $U$ one has $H^q(U,\Fp)=0$ for $q\ge2$ because $\mathcal O_U$
+has no higher cohomology.  
 From these,
 by finiteness of the normalization, constructible and dense-open
 reduction

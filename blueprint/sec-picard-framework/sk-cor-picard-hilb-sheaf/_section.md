@@ -30,7 +30,7 @@ also the Zariski sheaf property, which is the form used in
 
 This is Stacks, Picard Schemes of Curves, Lemma 44.2.1
 ([`0B95`](https://stacks.math.columbia.edu/tag/0B95)); the detailed form is Blueprint 50,
-`lem:pc-hilb-sheaf`, whose two inputs are descent for closed
+`lem-pc-hilb-sheaf`, whose two inputs are descent for closed
 immersions ([`03I0`](https://stacks.math.columbia.edu/tag/03I0)) and the fpqc-local nature of
 ``finite locally free of degree $d$'' ([`02VO`](https://stacks.math.columbia.edu/tag/02VO)).
 

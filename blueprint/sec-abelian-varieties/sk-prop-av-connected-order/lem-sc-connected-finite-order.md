@@ -2,7 +2,7 @@
 id = "lem-sc-connected-finite-order"
 kind = "lemma"
 title = "Order of connected finite group schemes"
-lean = ["AlgebraicGeometry.finrankΓ_eq_pow_of_connected"]
+lean = ["AlgebraicGeometry.exists_finrankΓ_eq_pow"]
 order = 576
 uses = ["def-sc-group-scheme"]
 +++

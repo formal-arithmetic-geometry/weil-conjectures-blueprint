@@ -23,4 +23,4 @@ isomorphisms. For $\Qlb$ each object is represented over a finite stage by
 def:weil-algebraically-closed-coefficients, and compatibility with scalar
 extension makes the finite-stage system descend to the $2$-colimit.
 
-Uses: `\Cref{thm:sf-pf-adic}`, `def:weil-algebraically-closed-coefficients`, `def:weil-rationalization-karoubi`
+Uses: `\Cref{thm-sf-pf-adic}`, `def-weil-algebraically-closed-coefficients`, `def-weil-rationalization-karoubi`

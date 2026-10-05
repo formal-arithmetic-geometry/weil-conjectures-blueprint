@@ -28,7 +28,7 @@ $$
 
 which in the first quadrant is finite in each degree, so that convergence
 is automatic. (Blueprint 05,
-`def:sp-composite-acyclicity`, `def:sp-exact-couple`,
-`def:sp-image-filtration`, `def:sp-convergence`; the
+`def-sp-composite-acyclicity`, `def-sp-exact-couple`,
+`def-sp-image-filtration`, `def-sp-convergence`; the
 étale substitution $\mathcal A=\mathrm{Ab}(X_{\Et})$, $F=f_*$, $G=h_*$
-is `def:sp-etale-dictionary`.)
+is `def-sp-etale-dictionary`.)

@@ -5,7 +5,7 @@ title = "Spectra of the operations"
 order = 2551
 uses = ["d-weights", "p-linear-triangular"]
 tags = ["latex:proposition"]
-lean = ["LinearMap.charpoly_roots_tensorProduct", "LinearMap.charpoly_roots_exteriorPower", "LinearMap.charpoly_roots_dualMap_inv"]
+lean = ["LinearMap.charpoly_roots_tensorProduct", "LinearMap.charpoly_roots_exteriorPower", "LinearMap.charpoly_roots_dualMap_symm"]
 +++
 If $f$ has eigenvalue multiset
 $\operatorname{eig}(f)=\{\alpha_1,\ldots,\alpha_r\}$ and $g$ has

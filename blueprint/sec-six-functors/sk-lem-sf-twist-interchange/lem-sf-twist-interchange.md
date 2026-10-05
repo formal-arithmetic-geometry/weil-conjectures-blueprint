@@ -3,7 +3,7 @@ id = "lem-sf-twist-interchange"
 kind = "lemma"
 title = "Internal Hom with an invertible twist"
 order = 2176
-uses = ["def-coefficient-twists-detailed", "def-sf-datum", "def-weil-derived-pullback-tensor-hom", "lem-sf-generating-class-determination", "lem-sf-hom-finite-projective", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
+uses = ["def-coefficient-twists-detailed", "def-sf-datum", "def-weil-derived-pullback-tensor-hom", "lem-sf-hom-finite-projective", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
 +++
 In the setting of [def-sf-datum], let $K$ be perfect over
 $\Lambda_X$, let $M\in D^b_{ctf}(X,\Lambda)$ and $m\in\mathbf Z$. Then
@@ -18,10 +18,17 @@ $R\mathcal H om_X(K,\Lambda_X(m)[n])\cong K^\vee(m)[n]$.
 By [def-coefficient-twists-detailed] each $\Lambda(m)_X$ is invertible locally
 constant of rank one with
 $\Lambda(m)_X\otimes^L\Lambda(-m)_X\cong\Lambda_X$, so
-$T_m=-\otimes^L\Lambda(m)_X$ is an exact autoequivalence; an exact
-equivalence commutes with the derived internal Hom, and both sides of the
-asserted map are exact functors of $M$ agreeing on the generator
-$M=\Lambda_X$ ([lem-sf-generating-class-determination]). For $K$ perfect the asserted map is the identification of
+$T_m=-\otimes^L\Lambda(m)_X$ is an exact autoequivalence with inverse
+$T_{-m}$. For an invertible $N$ the canonical map
+$c_{M,N}:R\mathcal H om_X(K,M)\otimes^LN\to R\mathcal H om_X(K,M\otimes^LN)$,
+the tensor–Hom transpose of $\mathrm{ev}\otimes1$, is an isomorphism
+directly: by the coherence of these maps,
+$c_{M\otimes N,N^{-1}}\circ(c_{M,N}\otimes N^{-1})=c_{M,N\otimes N^{-1}}$ is
+the identity under $N\otimes^LN^{-1}\cong\Lambda_X$, and symmetrically on
+the other side, so $c_{M,N}$ has a two-sided inverse. No appeal to a
+generator is made: $\Lambda_X$ does not generate $D^b_{ctf}(X,\Lambda)$, so
+agreement of the two sides at $M=\Lambda_X$ would prove nothing, and
+[lem-sf-generating-class-determination] is not used. For $K$ perfect the asserted map is the identification of
 [prop-sf-dualizable-hom] twisted by the invertible local system
 $\Lambda(m)_X$, and one computes it locally with a bounded complex
 of finite projective modules, where the identification is termwise by

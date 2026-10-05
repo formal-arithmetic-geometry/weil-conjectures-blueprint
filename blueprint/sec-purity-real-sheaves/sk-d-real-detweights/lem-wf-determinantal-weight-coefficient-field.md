@@ -10,7 +10,7 @@ $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and let $\mathcal V$ be an
 irreducible lisse Weil sheaf of rank $r$ on $X_0$ whose
 representation is defined over finite extensions
 $E\subseteq E'$ of $\mathbf Q_\ell$. If
-$\hyperref[def:mg-determinant-line]{\det(\mathcal V)}$, read with
+$\hyperref[def-mg-determinant-line]{\det(\mathcal V)}$, read with
 coefficients in $E$, is
 punctually $\iota$-pure of weight
 $a$, then it is punctually $\iota$-pure of the same weight $a$ when

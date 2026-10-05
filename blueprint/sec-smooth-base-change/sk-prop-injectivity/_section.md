@@ -75,7 +75,7 @@ This is the form in which the statement is used in
 This is Stacks, Étale Cohomology, Lemma 59.88.2
 ([`0F03`](https://stacks.math.columbia.edu/tag/0F03)); the detailed form is Blueprint 07,
 `sbc-lem-bc-injectivity`, whose acyclicity input is Blueprint 02,
-`lem:weil-pbc-leray-acyclicity`, and whose long exact sequences
-are `lem:weil-pbc-five-lemma-transfer`.
+`lemma-weil-pbc-leray-acyclicity`, and whose long exact sequences
+are `lemma-weil-pbc-five-lemma-transfer`.
 
 Uses: [sk-def-bc]

@@ -9,7 +9,7 @@ Let $b:Y\to S$ be proper
 between finite-type $k$-schemes, with the finite coefficients of
 [sbc-def-coefficient-conventions].
 For an ordinary derived
-complex $K\in\hyperref[def:weil-pbc-constructible-complexes]{D^b_c(Y,\Lambda)}$,
+complex $K\in\hyperref[def-weil-pbc-constructible-complexes]{D^b_c(Y,\Lambda)}$,
 its derived direct image
 $Rb_*K$ belongs to $D^b_c(S,\Lambda)$.
 

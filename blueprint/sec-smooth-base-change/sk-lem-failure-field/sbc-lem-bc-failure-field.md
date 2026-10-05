@@ -104,6 +104,9 @@ is injective, and applying
 [sbc-lem-bc-injectivity] (3), for the base change $f'$ along
 $g'\circ j:V\to S'$, to
 $j^{-1}\mathcal F'\subset\mathcal J$ gives $P(V)$.
+- *(4) Empty scheme.* If $T'=\emptyset$ then $Y'=X'\times_{S'}T'=\emptyset$,
+so $R^qh'_*(e')^{-1}\mathcal F'=0$; hence $\xi'=0$ lies in the image and
+$P(\emptyset)$ fails.
 
 By [sbc-lem-bc-minimal-counterexample], $P(\operatorname{Spec}K)$
 holds for some field $K$ with a morphism $\operatorname{Spec}K\to T\to S'$,

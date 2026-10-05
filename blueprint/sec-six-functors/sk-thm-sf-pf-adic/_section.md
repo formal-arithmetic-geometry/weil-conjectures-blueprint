@@ -3,7 +3,7 @@ id = "sk-thm-sf-pf-adic"
 kind = "section"
 title = "Projection formula: the derived-complete stage"
 order = 2095
-uses = ["sk-prop-sf-pf-reduction"]
+uses = ["sk-def-sf-operations", "sk-prop-sf-pf-reduction"]
 lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_of_derivedCompleteIntegral"]
 +++
 *Theorem (sketch).*
@@ -26,4 +26,4 @@ morphism of derived-complete complexes with the given reductions; it is an
 isomorphism because its reductions are and reduction is conservative on
 derived-complete complexes of finite Tor amplitude.
 
-Uses: `\Cref{prop:sf-pf-reduction}`, `def:weil-derived-complete-integral`, `lem:weil-pbc-reconstruction-uniform-tower`
+Uses: `\Cref{prop-sf-pf-reduction}`, `def-weil-derived-complete-integral-detailed`, `lem-weil-pbc-reconstruction-uniform-tower`

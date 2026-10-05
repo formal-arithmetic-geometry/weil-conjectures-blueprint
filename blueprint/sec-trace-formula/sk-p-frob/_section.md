@@ -13,7 +13,7 @@ local term at $\bar x$ is
 
 $$
 \LT_{\bar x}(\varphi_m)=
-\hyperref[d:trace]{\tr_A}(F_{x,m}\mid K_{\bar x}).
+\hyperref[sk-d-trace]{\tr_A}(F_{x,m}\mid K_{\bar x}).
 $$
 
 No local constancy of $K$ at $\bar x$ is assumed.
@@ -29,12 +29,15 @@ coordinate algebra over the image of Frobenius. Thus $\Phi_m$ is
 finite, hence proper, as required by [sk-d-operator]. Each fixed point
 is a reduced clopen component. At $x$, with $a_i=t_i(x)$, one has
 $\Phi_m^*(t_i-a_i)=(t_i-a_i)^{q^m}$. Consequently the induced map on
-the cotangent space is zero; the graph and diagonal satisfy the curve
-general-position hypotheses used in [sk-i-curve-zero].
+the cotangent space is zero, i.e. the graph correspondence $(1,\Phi_m)$
+is contracting near $\bar x$ in the sense used in [sk-i-curve-zero];
+that contracting property, not a stalk computation, is what makes the
+local terms of this correspondence computable from stalks.
 
-Use the pieces of [sk-d-curve-pieces]. Open extension in
-Extension by zero in [sk-prop-sf-open-closed-triangle] gives
-$(K^U)_{\bar x}=0$, so [sk-i-curve-zero]
+Use the pieces of [sk-d-curve-pieces]. The open piece
+$K^U=j_!j^*K$ is an extension by zero across the closed point $\bar x$,
+so $(K^U)_{\bar x}=0$ by the stalk computation in the open–closed
+triangle of [sk-prop-sf-open-closed-triangle], and [sk-i-curve-zero]
 kills its local term. For that application, base change $X_0$ to
 $\mathbf F_{q^m}$ and use $u^U$ as the one-step Weil map; the chosen
 point is rational over this field. By [sk-i-additivity], only the closed piece

@@ -3,11 +3,14 @@ id = "sk-def-roots"
 kind = "section"
 title = "Reciprocal roots, weights and integrality"
 order = 2858
-lean = ["Polynomial.IsPureOfWeight", "Polynomial.IsUniversallyPureOfWeight", "AlgebraicGeometry.weilEulerChar", "shiftSpan"]
+lean = ["Polynomial.IsPureOfWeight", "Polynomial.IsUniversallyPureOfWeight", "Polynomial.alternatingNatDegreeSum", "shiftSpan"]
 +++
 *Definition (sketch).*
 
-With $P_i\in\Z[T]$ of [sk-thm-intfactors] put $b_i=\deg P_i$ and
+With $P_i\in\Z[T]$ the integral factor that [sk-thm-intfactors] produces
+later (a forward pointer only: nothing here depends on it, and the notions
+below are applied to the $\ell$-adic factors $P_{i,\ell}$ wherever they are
+used before that theorem) put $b_i=\deg P_i$ and
 $P_i^{\#}(U)=U^{b_i}P_i(U^{-1})$. A *reciprocal root* is a root
 $\alpha\in\overline{\Q}$ of $P_i^{\#}$, and $\beta=\alpha^{-1}$ is the
 corresponding *ordinary root*. Fix an embedding

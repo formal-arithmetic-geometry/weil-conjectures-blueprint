@@ -4,7 +4,7 @@ kind = "section"
 title = "Operations and weight characters"
 order = 2535
 uses = ["sk-d-linear", "sk-d-monodromy"]
-lean = ["RealWeightCharacter", "Representation.detCharacter", "Representation.HasFiniteGeometricDet", "Representation.detWeight"]
+lean = ["Representation.RealCharacter", "Representation.detCharacter", "Representation.HasFiniteGeometricDet", "Representation.detWeight"]
 +++
 *Definition (sketch).*
 

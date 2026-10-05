@@ -4,7 +4,7 @@ kind = "section"
 title = "Closed-immersion unit"
 order = 1852
 uses = ["sk-def-sf-operations", "sk-prop-sf-existence"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_rightDerivedLowerStar_obj"]
+lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekAdjunction_unit_app"]
 +++
 *Proposition (sketch).*
 
@@ -37,4 +37,4 @@ an isomorphism $Ri^!Ri_*Q\cong Q$, and the triangle identities of the
 adjunction identify its inverse with $\eta_i^!$.
 Source: closed-immersion adjunction in SGA 4, XVII–XVIII.
 
-Uses: `\Cref{def:sf-operations}`, `\Cref{prop:sf-existence}`
+Uses: `\Cref{sk-def-sf-operations}`, `\Cref{sk-prop-sf-existence}`

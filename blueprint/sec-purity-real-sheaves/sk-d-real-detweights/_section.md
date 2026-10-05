@@ -4,7 +4,7 @@ kind = "section"
 title = "Determinant weights and weight blocks"
 order = 2631
 uses = ["sk-d-real-operations", "sk-d-real-weights", "sk-p-real-rankone"]
-lean = ["AlgebraicGeometry.WeilGroup.HasDetWeight", "AlgebraicGeometry.rankAbove", "AlgebraicGeometry.weightSumAbove"]
+lean = ["AlgebraicGeometry.WeilGroup.HasDetWeight"]
 +++
 *Definition (sketch).*
 

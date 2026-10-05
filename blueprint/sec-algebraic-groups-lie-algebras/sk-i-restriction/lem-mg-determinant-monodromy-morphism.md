@@ -10,7 +10,7 @@ determinant line induces a
 degree-preserving, componentwise regular homomorphism
 
 $$
-\Delta_\rho:\hyperref[def:wf-arithmetic-monodromy-extension]{G_{\mathrm{arith}}(\rho)}\longrightarrow
+\Delta_\rho:\hyperref[def-wf-arithmetic-monodromy-extension]{G_{\mathrm{arith}}(\rho)}\longrightarrow
 G_{\mathrm{arith}}(\det\rho),
 \qquad (h,m)\longmapsto(\det h,m),
 $$

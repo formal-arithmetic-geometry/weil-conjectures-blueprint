@@ -4,7 +4,7 @@ kind = "section"
 title = "Deligne–Laumon affine-line estimate"
 order = 2785
 uses = ["sk-c-dl-a1-hc1", "sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-dl-a1-exact", "sk-p-linear-filtration"]
-lean = ["AlgebraicGeometry.hasWeightsAtMost_compactlySupportedCohomology_directImage"]
+lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.hasWeightsAtMost_compactlySupportedCohomology_directImage", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.subsingleton_compactlySupportedCohomology_directImage_zero", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isPureOfWeightOver_compactlySupportedCohomology_directImage_two"]
 +++
 *Theorem (sketch).*
 

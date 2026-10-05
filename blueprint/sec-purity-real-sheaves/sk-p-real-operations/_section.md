@@ -10,8 +10,9 @@ lean = ["AlgebraicGeometry.WeilGroup.localPolynomial_eq_charpolyRev_of_isConj"]
 
 Keep the notation of [sk-i-real-sheaves], and let $x$ be a closed point of
 $C_0$ of degree $e_x$, with local Frobenius $F_x$ acting on the stalk
-$\mathcal F_{\bar x}$; by [sk-d-real-weil] it acts through a conjugacy
-class of degree $e_x$ in $W(C_0)$. Use the tensor equivalence of
+$\mathcal F_{\bar x}$; by [sk-d-real-weil] it acts through the
+conjugacy class in $W(C_0)$ of geometric Frobenius elements at $x$,
+which have degree $e_x$. Use the tensor equivalence of
 [sk-i-real-sheaves] for the operations of [sk-d-real-operations], and
 write $P_x$ for the local characteristic polynomial of
 [sk-d-real-weights]. Then

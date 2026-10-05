@@ -3,34 +3,50 @@ id = "sk-lem-sf-ctf-generation"
 kind = "section"
 title = "Finite/open generation of $\\Dctf$"
 order = 2219
-uses = ["sk-lem-sf-determination", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-ctf-stability"]
+uses = ["sk-lem-sf-determination", "sk-lem-sf-flat-model", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-ctf-stability"]
 lean = ["AlgebraicGeometry.Etale.ctf_generated_by_rightDerivedLowerStar_rightDerivedLowerShriek"]
 +++
 *Lemma (sketch).*
 
-On a separated finite-type $k$-scheme, $\Dctf(-,\Lambda)$ is generated as a
-thick subcategory by the objects $Rg_*j_!\Lambda_U$, where $U$ is an open
-stratum of a stratification, $j:U\hookrightarrow\overline U$ is the open
-immersion into its closure and $g:\overline U\to X$ is that closure's finite
-map to the ambient scheme.
+On a separated finite-type $k$-scheme $X$, $\Dctf(X,\Lambda)$ is generated as
+a thick subcategory by the objects $Rg_*j_!L$, where $U\subset X$ is a locally
+closed stratum of a stratification, $j:U\hookrightarrow\overline U$ is the
+open immersion into its closure, $g:\overline U\hookrightarrow X$ is the closed
+immersion of the closure, and $L$ is a lisse sheaf of $\Lambda$-modules on $U$
+with flat stalks. The lisse coefficients cannot in general be replaced by
+constant ones $L=\Lambda_U$.
 
 ## Proof
 
-An object of $\Dctf$ has finitely many cohomology sheaves, each
-constructible, so its truncation triangles and [sk-lem-sf-determination]
-reduce the claim to a single constructible sheaf $F$. Choose a
-stratification on which $F$ is lisse. For a stratum $U$ with closure
-$\overline U$, the sheaf $F$ sits in an exact sequence with $g_*j_!(F|_U)$ and
-a sheaf supported on the complement — the constant open–closed triangle
-[sk-prop-sf-open-closed-triangle] in the relevant twisted form — so induction on the
-number of strata reduces to $g_*j_!L$ with $L$ lisse on $U$. A lisse $L$ is a
-successive extension of the composition factors of its generic stalk, viewed
-as a module over the fundamental group of $U$ with coefficients in the finite
-ring $\Lambda$; a simple constructible sheaf is $i_*M$ for a closed immersion
-of an irreducible closed subset and a simple $\Lambda$-module $M$, obtained by
-taking the maximal irreducible closed subset on which the sheaf is nonzero.
-Each such factor is a direct summand of $Rg_*j_!\Lambda_U$ for a suitable
-finite étale $g$, hence lies in the thick closure. That the generators and
-the intermediate objects stay in $\Dctf$ is [sk-thm-sf-ctf-stability].
+The generators lie in $\Dctf$: a lisse flat $L$ has Tor amplitude $[0,0]$,
+and $j_!$, $Rg_*$ preserve $\Dctf$ ([sk-thm-sf-ctf-stability]).
+Conversely, when $\Lambda$ is not a field the truncations of an object of
+$\Dctf$ need not have finite Tor amplitude, so one dévisses a flat model
+rather than the cohomology sheaves. By the constructible variant of
+[sk-lem-sf-flat-model] (whose input is that every constructible sheaf is a
+quotient of a finite sum of the flat constructible sheaves $j_{V!}\Lambda_V$,
+$V\to X$ affine étale, Stacks 095M, and that kernels and cokernels of
+maps of constructible sheaves are constructible), $K\in\Dctf$ is isomorphic
+to a bounded complex $P$ of flat constructible sheaves. The
+stupid-truncation triangles
+$\sigma_{\ge q+1}P\to\sigma_{\ge q}P\to P^q[-q]\xrightarrow{+1}$ reduce the
+claim to one flat constructible sheaf $F$. Choose a dense open
+$U\subset X$ on which $F$ is lisse, with closed complement $i:Z\hookrightarrow
+X$. The sequence $0\to j_!(F|_U)\to F\to i_*i^*F\to0$ of
+[sk-prop-sf-open-closed-triangle] has $F|_U$ lisse with flat stalks and
+$i^*F$ flat constructible on $Z$, of smaller dimension; induction on
+dimension, pushing forward along the closed immersion $i$, exhibits $F$ as a
+finite iterated extension of objects $Rg_*j_!L$ of the stated form, and each
+extension is a distinguished triangle. Hence, by [sk-lem-sf-determination],
+a natural transformation of exact functors on $\Dctf$ is invertible as soon
+as it is invertible on these generators. For a single generator one may
+further pass to a finite étale Galois cover $\pi:V\to U$ trivializing $L$,
+on which $\pi^*L$ is constant; this reduction is local on $U$ and is not a
+dévissage, since $L$ need not be a direct summand of $\pi_*\pi^*L$ when
+$\ell$ divides the order of the monodromy. Constant coefficients alone do not
+generate: for $X=\mathbf G_m$, $p\ne2$, $\Lambda=\mathbf F_3$, the complexes
+whose generic-stalk cohomology has only trivial $\pi_1$-composition factors
+form a thick subcategory containing every $Rg_*j_!\Lambda_U$ but not the
+order-$2$ Kummer sheaf.
 
-Uses: `\Cref{lem:sf-determination}`, `\Cref{prop:sf-open-closed-triangle}`, `\Cref{thm:sf-ctf-stability}`
+Uses: `\Cref{sk-lem-sf-determination}`, `\Cref{sk-prop-sf-open-closed-triangle}`, `\Cref{thm-sf-ctf-stability}`, `\Cref{lem-sf-flat-model}`

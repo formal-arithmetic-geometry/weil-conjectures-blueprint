@@ -2,7 +2,7 @@
 id = "sk-def-av-tate"
 kind = "section"
 title = "$\\ell$-adic Tate module"
-lean = ["AlgebraicGeometry.tateModule"]
+lean = ["AlgebraicGeometry.IsAbelianScheme.tateModule"]
 order = 469
 +++
 *Definition (sketch).*

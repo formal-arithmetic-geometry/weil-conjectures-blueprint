@@ -11,7 +11,7 @@ lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_isSeparated_local
 A separated finite-type $f:X\to S$ with $S$ qcqs factors as
 
 $$
-X\lhook\joinrel\longrightarrow X^{\mathrm{fp}}
+X\hookrightarrow X^{\mathrm{fp}}
 \longrightarrow S,
 $$
 

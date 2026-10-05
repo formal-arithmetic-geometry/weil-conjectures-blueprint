@@ -4,7 +4,7 @@ kind = "lemma"
 title = "A regular immersion of smooth schemes over a perfect field"
 order = 2032
 uses = ["def-pur-conventions", "def-pur-regular-immersion", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "lem-sc-smooth-regular"]
-lean = ["AlgebraicGeometry.IsRegularImmersion.smooth_of_smooth"]
+lean = ["AlgebraicGeometry.IsRegularImmersion.smooth_comp", "AlgebraicGeometry.IsRegularImmersion.ringKrullDim_stalk_add"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $i:Z\hookrightarrow X$ be a

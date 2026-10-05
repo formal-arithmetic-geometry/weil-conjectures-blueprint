@@ -20,7 +20,8 @@ Apply this to all generic points of the Noetherian scheme $X$ and
 choose a finite subcover. Every $U_i$ contains those generic points,
 so their total intersection is dense. An immersion
 $U_i\to\mathbb A^{n_i}_S\hookrightarrow\mathbb P^{n_i}_S$ exists by
-[sk-prop-nagata-sketch-zmt]; its scheme-theoretic image is a
+[sk-prop-nagata-sketch-zmt](ii), $U_i$ being affine, hence a
+quasi-affine scheme; its scheme-theoretic image is a
 compactification by [sk-lem-nagata-sketch-closure].
 
 Uses: [sk-lem-nagata-sketch-closure], [sk-prop-nagata-sketch-zmt]

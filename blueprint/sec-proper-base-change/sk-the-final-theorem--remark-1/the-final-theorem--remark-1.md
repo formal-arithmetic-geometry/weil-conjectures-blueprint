@@ -12,11 +12,11 @@ critical path (Step 1 of the final theorem and the hypothesis of the
 reduction), and its own decomposition is by far the largest one.
 The target theorem is last, as the readme's decomposition order
 prescribes. The blueprint labels:
-`thm:weil-pbc-chow`,
-`prop:weil-pbc-property-iff-acyclicity`,
-`lem:weil-pbc-leray-acyclicity` (the acyclicity criterion
+`thm-chow-lemma`,
+`lemma-weil-pbc-property-iff-acyclicity`,
+`lemma-weil-pbc-leray-acyclicity` (the acyclicity criterion
 [lemma-weil-pbc-leray-acyclicity]),
-`thm:weil-grothendieck-spectral-sequence` (deferred to its
+`lem-weil-pbc-grothendieck-spectral-sequence` (deferred to its
 own blueprint),
-`prop:weil-pbc-projective-line`,
-`prop:weil-pbc-reduction-to-projective-line`.
+`prop-weil-pbc-projective-line`,
+`prop-weil-pbc-reduction-to-projective-line`.

@@ -23,7 +23,7 @@ $\varphi^{[m]}$. Its description as
 $R\Gamma_c(X,\varphi^{[m]})\circ g_{\gamma,c}^{m,*}$, where
 $g_{\gamma,c}^{m,*}$ is the compact-support base-change isomorphism
 along the automorphism $g_\gamma^m$, is
-`lem:trf-frobenius-operator-compact-description` of the trace-formula chapter. It is the
+`lem-trf-frobenius-operator-compact-description` of the trace-formula chapter. It is the
 endomorphism of the
 compact-support
 cohomology $H_c^i(X,K)$ in the finite coefficient stage.

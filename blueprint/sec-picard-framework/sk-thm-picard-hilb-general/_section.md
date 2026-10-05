@@ -7,7 +7,8 @@ lean = ["AlgebraicGeometry.isRepresentable_hilbertPresheaf"]
 +++
 *Theorem (sketch).*
 
-Let $X\to S$ and $d\ge0$. Assume that for every $s\in S$ and every
+Let $X\to S$ be a *separated* morphism and $d\ge0$. Assume that
+for every $s\in S$ and every
 finite set of points $x_1,\dots,x_d$ of $X_s$ there is an affine
 open $U\subseteq X$ containing them (true if $X\to S$ is
 quasi-projective or if $X$ carries an ample invertible module).
@@ -28,8 +29,13 @@ $\Hilb^d_{Y/S}$ and one may assume $X$ is a closed subscheme of an
 affine space over $S$. (2) *Reduction to the affine claim*: the
 subfunctors $F_U$ ($Z\subseteq U_T$, $U\subseteq X$ affine) are open
 (the complement of the closed image of $Z\cap(X\setminus U)$ under
-$Z\to T$) and cover by the hypothesis; by
+$Z\to T$) and cover by the hypothesis, and $F_U=\Hilb^d_{U/S}$: a
+closed subscheme $Z\subseteq U_T$ finite over $T$ is proper over $T$,
+hence, $X_T\to T$ being separated, closed in $X_T$; by
 [sk-prop-picard-schemes-criterion] it suffices to prove the affine claim.
+Separatedness cannot be dropped: for $d=1$ the affine-open hypothesis
+is vacuous, yet for the affine line with doubled origin over a field
+$\Hilb^1$ is not representable (Lundkvist–Skjelnes).
 (3) *Affine claim*: take $\mathfrak U$-free
 $a=R[x_i;i\in I]$, $S=\Spec R$ and for $W=\{f_1,\dots,f_d\}\subseteq a$ the subfunctor $F_W$ of those $Z$ for which
 $\oplus_{f\in W}\cO_T\twoheadrightarrow\cO_Z$. $F_W$ is represented

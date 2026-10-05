@@ -162,6 +162,22 @@ $$
 R\Gamma_c(X,j_!j^*K)\to R\Gamma_c(X,K)\to R\Gamma_c(X,i_*i^*K)\to .
 $$
 
+More precisely, they form an endomorphism of this triangle *of filtered
+origin*: the open–closed triangle is the cofibre sequence of the inclusion
+$j_!j^*K\to K$, a two-step filtered object with graded pieces $j_!j^*K$ and
+$i_*i^*K$; the maps $\psi_U,\psi_K,\psi_Z$ are the components of one
+endomorphism of this filtered object (Step 2 exhibits $\psi_U$ as the
+restriction of $\psi_K$ to the subobject and $\psi_Z$ as the induced map on
+the quotient, with the identifications $b_g$, $e_g$ natural in the
+coefficient); and $R\Gamma_c(X,-)\circ g^{m,*}_{\gamma,c}$ is a natural
+transformation of exact functors, so it carries this filtered endomorphism
+to an endomorphism of the two-step filtered perfect complex
+$R\Gamma_c(X,j_!j^*K)\subset R\Gamma_c(X,K)$ in the filtered derived
+category $DF(A)$. This filtered origin is what Step 5 uses; an endomorphism
+of the distinguished triangle in the plain derived category, with its three
+squares commuting only up to unspecified homotopies, would not suffice
+([prop-trf-trace-formal-laws], item (2)).
+
 *Step 4: identification with the operators on $U$ and $Z$.* By the
 composition law and $Ri_!=Ri_*$ for the proper $i$
 ([prop-functor-package], clause (3)),
@@ -183,8 +199,8 @@ $E_{i_*i^*K}$ to $F_{c,i^*K}^{\,m}$, and $E_K=F_{c,K}^{\,m}$.
 *Step 5: traces.* All three complexes are perfect by
 [prop-trf-compact-support-perfectness], applied to
 $K$, $j^*K$ and $i^*K$, which lie in $D^b_{ctf}$ by Step 1.
-Triangle additivity [prop-trf-trace-formal-laws](2) applied to
-the endomorphism of Step 3 gives
+Filtered additivity [prop-trf-trace-formal-laws](2) applied to
+the filtered endomorphism of Step 3 gives
 $\operatorname{tr}_A(E_K)=\operatorname{tr}_A(E_{j_!j^*K})+\operatorname{tr}_A(E_{i_*i^*K})$,
 and conjugacy invariance [prop-trf-trace-formal-laws](1) together
 with Step 4 converts the right-hand side to the traces on

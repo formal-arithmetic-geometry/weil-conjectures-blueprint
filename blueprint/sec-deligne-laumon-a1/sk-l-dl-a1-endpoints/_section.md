@@ -4,7 +4,7 @@ kind = "section"
 title = "Degree zero and degree two"
 order = 2729
 uses = ["sk-d-dl-a1-setup", "sk-p-linear-filtration", "sk-thm-derived-duality", "sk-thm-sf-dual-perfect", "sk-thm-sf-global-duality"]
-lean = ["AlgebraicGeometry.compactlySupportedCohomology_directImage_endpoints"]
+lean = ["AlgebraicGeometry.subsingleton_compactlySupportedCohomology_directImage", "AlgebraicGeometry.subsingleton_compactlySupportedCohomology_directImage_zero", "AlgebraicGeometry.nonempty_equiv_compactlySupportedCohomology_directImage_two", "AlgebraicGeometry.isPureOfWeightOver_compactlySupportedCohomology_directImage_two"]
 +++
 *Lemma (sketch).*
 

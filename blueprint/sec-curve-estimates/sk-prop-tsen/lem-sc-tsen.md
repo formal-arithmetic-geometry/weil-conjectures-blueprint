@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Tsen's theorem"
 order = 896
 uses = ["def-sc-cr-field", "def-sc-curves", "def-sc-function-field", "lem-sc-c1-brauer-trivial", "lem-sc-c1-finite-extension"]
-lean = ["AlgebraicGeometry.isCrField_functionField", "AlgebraicGeometry.subsingleton_brauerGroup_spec_functionField"]
 +++
 Let $C$ be a connected curve over an
 algebraically closed field $k$. Then the function field $k(C)$

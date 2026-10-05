@@ -8,7 +8,10 @@ lean = ["AlgebraicGeometry.Etale.nonempty_iso_verdierDual_rightDerivedLowerShrie
 +++
 *Theorem (sketch).*
 
-Assume that $f:X\to Y$ and the structure morphisms carry the ambient datum.
+Let $f:X\to Y$ be a separated finite-type morphism of finite-type $k$-schemes,
+with $Rf^!$ and the dualizing complexes $\omega_X=Ra_X^!\Lambda$,
+$\omega_Y=Ra_Y^!\Lambda$ formed with the constructible exceptional adjoint of
+[sk-def-sf-operations](vi) (no admissibility datum is assumed).
 Then $Rf^!\omega_Y\cong\omega_X$, and for $M\in\Dctf(X,\Lambda)$ there is a canonical isomorphism
 
 $$
@@ -29,4 +32,4 @@ Naturality and the compatibilities are those of the two ingredients. (This
 proof uses only the tensor–Hom exchange and never the duality chapter, which
 is what removes the proof cycle between the framework and duality chapters.)
 
-Uses: `\Cref{def:sf-operations}`, `\Cref{lem:sf-mate}`, `\Cref{thm:sf-tensor-hom}`, `def:weil-exceptional-inverse-image`
+Uses: `\Cref{sk-def-sf-operations}`, `\Cref{lem-sf-mate}`, `\Cref{sk-thm-sf-tensor-hom}`, `def-weil-exceptional-inverse-image`

@@ -41,14 +41,22 @@ $\deg_{[n]^*\cN}(A)=\deg[n]\deg_{\cN}(A)$
 
 *(b)* The first clause is (a) with $n=p^e$. For the second,
 $A[n]$ is finite flat of order $n^{2g}$ by (a); write
-$G=A[n]$. If $p>0$, the identity component $G^0$ is a connected
-finite flat group scheme, so $\lvert G^0\rvert$ is a power of $p$ by
-[lem-sc-connected-finite-order]; as $\lvert G^0\rvert$ divides
-$\lvert G\rvert=n^{2g}$ and $p\nmid n$, we get $G^0=\Spec k$, so $G$
-is reduced and hence étale over $k$; for $p=0$ the same conclusion is
-Cartier's theorem. Both cases are the statement of
-[lem-sc-fg-order-prime-etale] applied to the finite flat group scheme
-$A[n]$ of order $n^{2g}$.
+$G=A[n]$ and let $\bar k$ be an algebraic closure of $k$. Then
+$G_{\bar k}=A_{\bar k}[n]$ is a finite flat group scheme over $\bar k$
+of order $n^{2g}$, prime to $p$, so it is étale over $\bar k$ by
+[lem-sc-fg-order-prime-etale] (for $p>0$: the identity component
+$(G_{\bar k})^0$ is a connected finite flat group scheme, so its order
+is a power of $p$ by [lem-sc-connected-finite-order] and divides
+$n^{2g}$, whence $(G_{\bar k})^0=\Spec\bar k$; every connected
+component of $G_{\bar k}$ is a translate of $(G_{\bar k})^0$ by a
+$\bar k$-point, so $G_{\bar k}$ is reduced, hence étale over the
+algebraically closed $\bar k$; for $p=0$ this is Cartier's theorem).
+Finally étaleness descends to $k$: $G$ is flat over $k$ and
+$\Omega_{G/k}\otimes_k\bar k\cong\Omega_{G_{\bar k}/\bar k}=0$, so
+$\Omega_{G/k}=0$ and $G$ is étale over $k$. (The passage to
+$\bar k$ is needed: over an imperfect $k$ a finite reduced $k$-scheme
+need not be étale, so one cannot conclude directly from
+$G^0=\Spec k$.)
 
 *(c)* Assume $k$ algebraically closed and $n$ prime to $p$. By
 (b), $A[n]$ is finite étale of order $n^{2g}$, so

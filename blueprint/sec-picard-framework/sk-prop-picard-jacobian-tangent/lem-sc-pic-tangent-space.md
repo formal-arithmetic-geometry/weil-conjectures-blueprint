@@ -14,7 +14,8 @@ the Picard functor, represented by a
 group scheme locally of finite type over $k$ (which it is by
 [thm-pc-picard-representable]). Then
 the tangent space of $\operatorname{Pic}_{C/k}$ at the identity
-is canonically isomorphic to $H^1(C,\mathcal O_C)$.
+is canonically isomorphic to $H^1(C,\mathcal O_C)$ as a
+$k$-vector space (a $k$-linear isomorphism).
 
 ## Proof
 
@@ -35,16 +36,31 @@ $$
 $$
 
 reads $g_{ij}+g_{jk}=g_{ik}$, and changing the trivializations
-on $U_i$ by $1+\varepsilon h_i$ changes $g_{ij}$ by
+on $U_i$ by $1+\varepsilon h_i$ changes $g_{ij}$ to
 $g_{ij}+h_j-h_i$. The deformations modulo isomorphism are
-therefore exactly the Cech 1-cohomology classes
+therefore in bijection, via $(1+\varepsilon g_{ij})\mapsto[(g_{ij})]$,
+with the Cech 1-cohomology classes
 
 $$
 \check H^1(\{U_i\},\mathcal O)=H^1(C,\mathcal O_C),
 $$
 
 the affine Cech computation of
-[lem-sc-cech-spectral]. (*Reference for the
+[lem-sc-cech-spectral].
+
+This bijection is $k$-linear for the $k$-vector space structure of
+the tangent space
+$T_e=\ker(\operatorname{Pic}_{C/k}(k[\varepsilon])\to\operatorname{Pic}_{C/k}(k))$:
+addition is the group law, i.e. the tensor product of line bundles,
+whose transition functions multiply,
+$(1+\varepsilon a)(1+\varepsilon b)=1+\varepsilon(a+b)$ (this agrees
+with the addition defined through
+$k[\varepsilon]\times_kk[\varepsilon]=k[\varepsilon_1,\varepsilon_2]/(\varepsilon_1,\varepsilon_2)^2$);
+and $\lambda\in k$ acts by pullback along the $k$-algebra map
+$\sigma_\lambda:k[\varepsilon]\to k[\varepsilon]$,
+$\varepsilon\mapsto\lambda\varepsilon$, which sends the transition
+functions $1+\varepsilon g_{ij}$ to $1+\varepsilon\lambda g_{ij}$, i.e.
+the class $[(g_{ij})]$ to $\lambda[(g_{ij})]$. (*Reference for the
 general statement that the tangent space of the Picard scheme is
 $H^1(C,\mathcal O_C)$: Stacks Project, Picard Schemes of Curves,
 Chapter 44, [Tag 0B92](https://stacks.math.columbia.edu/tag/0B92).*)

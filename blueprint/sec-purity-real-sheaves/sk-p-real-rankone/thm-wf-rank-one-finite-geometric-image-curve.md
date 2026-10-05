@@ -13,7 +13,7 @@ $\Pi=\pi_1(U,\bar u)$. Let $\ell\nmid q$, let
 $E/\mathbf Q_\ell$ be finite, and let
 
 $$
-\chi:\hyperref[def:wf-weil-group]{W(U_0,\bar u)}\longrightarrow E^\times
+\chi:\hyperref[def-wf-weil-group]{W(U_0,\bar u)}\longrightarrow E^\times
 $$
 
 be a continuous character. Then $\chi(\Pi)$ is finite. Equivalently,

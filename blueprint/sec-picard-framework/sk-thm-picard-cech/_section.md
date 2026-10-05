@@ -78,6 +78,6 @@ collapse used in [sk-lem-picard-cech-computes].
 
 This is Stacks, Cohomology on Sites, Lemma 21.10.6
 ([`03AZ`](https://stacks.math.columbia.edu/tag/03AZ)); the
-detailed form is Blueprint 06, `lem:sc-cech-spectral`.
+detailed form is Blueprint 06, `lem-sc-cech-spectral`.
 
 Uses: [sk-def-groth-ss]
