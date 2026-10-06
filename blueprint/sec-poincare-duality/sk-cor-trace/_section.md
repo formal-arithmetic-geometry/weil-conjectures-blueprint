@@ -3,7 +3,7 @@ id = "sk-cor-trace"
 kind = "section"
 title = "The trace isomorphism"
 order = 2442
-lean = ["AlgebraicGeometry.Etale.bijective_traceMap", "AlgebraicGeometry.Etale.twistedTraceMap", "AlgebraicGeometry.Etale.twistedTraceMap_eq_degreewisePoincarePairing", "AlgebraicGeometry.Etale.rationalPointClass", "AlgebraicGeometry.Etale.isUnit_twistedTraceMap_rationalPointClass"]
+lean = ["AlgebraicGeometry.Etale.bijective_traceMap", "AlgebraicGeometry.Etale.twistedTraceMap", "AlgebraicGeometry.Etale.bijective_twistedTraceMap", "AlgebraicGeometry.Etale.exists_traceMap_eq", "AlgebraicGeometry.Etale.rationalPointClass", "AlgebraicGeometry.Etale.isUnit_twistedTraceMap_rationalPointClass"]
 uses = ["sk-def-trace-cup", "sk-lem-finite", "sk-prop-an", "sk-thm-purity-transport", "sk-thm-regular", "sk-thm-sf-identification", "sk-thm-smooth-purity"]
 +++
 *Corollary (sketch).*
@@ -101,5 +101,26 @@ reductions and with scalar extension ([sk-thm-purity-transport]). Hence
 $\operatorname{tr}^{(-d)}_X(d)[x\subset X]\in\Oe$ reduces to $1$ at
 every level, so it equals $1$, and the $E$- and $\Qlb$-statements
 follow by scalar extension.
+
+*Finite level, without field hypothesis and without properness.* At
+$\Lambda=A_{E,n}$, for $X$ smooth and connected of pure dimension $d$,
+the trace $H^{2d}_c(X,\Lambda(d))\to\Lambda$ is an isomorphism (SGA 4
+XVIII 2.9). Indeed $H^q_c(X,M)=0$ for $q>2d$ and every sheaf $M$, so
+$Ra_{X!}\Lambda_X(d)[2d]$ has amplitude $\le 0$, and through $\gamma$,
+$H^{2d}_c(X,\Lambda(d))=H^0(Ra_{X!}Ra_X^!\Lambda)$. The twisted trace is
+$H^0$ of the counit $\varepsilon_{a_X}$, which is an isomorphism on
+$H^0$ because, by the adjunction $Ra_{X!}\dashv Ra_X^!$, it is dual to the
+identification $H^0(X,\Lambda)=\Lambda$ of the connected $X$. The untwisted trace $\operatorname{tr}^{(-d)}_X$ is the
+twisted one read through $\Lambda(d)\cong\Lambda$ (which exists over the
+separably closed $k$), so it is an isomorphism as well.
+
+*What is formalised of the normalization.* The normalized orientation of
+[sk-thm-smooth-purity] is not yet formalised. For an *arbitrary*
+orientation $\gamma$, the formalisation states that
+$\operatorname{tr}^{(-d)}_X(d)[x\subset X]$ is a unit of $\Lambda$
+(proper $X$, $\Lambda=A_{E,n}$); replacing $\gamma$ by $u\cdot\gamma$,
+$u\in\Lambda^\times$, multiplies it by $u^{-1}$, so exactly one
+orientation gives $1$. The statement $=1$ for the normalized orientation
+is left for when that orientation is defined.
 
 Uses: [sk-def-trace-cup], [sk-lem-finite], [sk-thm-sf-identification]
