@@ -3,6 +3,7 @@ id = "sk-thm-transport"
 kind = "section"
 title = "Transport through the coefficient stages"
 order = 2448
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_rightDerivedLowerStar", "AlgebraicGeometry.Etale.isPerfectPairing_poincarePairing_reductionModIdeal", "AlgebraicGeometry.Etale.derivedComplete_coefficientDual", "AlgebraicGeometry.Etale.derivedCompleteIntegral_coefficientDual"]
 uses = ["sk-cor-trace", "sk-def-ops", "sk-def-set", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-sf-identification", "sk-thm-sf-package"]
 +++
 *Theorem (sketch).*

@@ -3,6 +3,7 @@ id = "sk-thm-derived-duality"
 kind = "section"
 title = "Degreewise duality over a field"
 order = 2437
+lean = ["AlgebraicGeometry.Etale.isPerfectPairing_poincarePairing", "AlgebraicGeometry.Etale.TateOrientation.isPerfectPairing_poincarePairing", "AlgebraicGeometry.Etale.degreewisePoincarePairing", "AlgebraicGeometry.Etale.isPerfPair_degreewisePoincarePairing", "AlgebraicGeometry.Etale.isPerfPair_degreewisePoincarePairing_of_isProper", "AlgebraicGeometry.Etale.untwistedDegreewisePoincarePairing", "AlgebraicGeometry.Etale.exists_untwistedDegreewisePoincarePairing_eq", "AlgebraicGeometry.Etale.bijective_untwistedDegreewisePoincarePairing", "AlgebraicGeometry.Etale.bijective_untwistedDegreewisePoincarePairing_flip"]
 uses = ["sk-def-pairing", "sk-lem-finite", "sk-thm-sf-identification"]
 +++
 *Corollary (sketch).*
@@ -33,5 +34,17 @@ Eliminating the twist through
 $\Lambda(d)\otimes_\Lambda\Lambda(-d)\cong\Lambda$ gives the
 line-valued form. For proper $X$, $Ra_{X!}\cong Ra_{X*}$, so
 $H_c$ may be replaced by $H$.
+
+*Formalisation stage.* The degreewise statements are formalised first
+for a *finite* field $\Lambda$ (an $\mathbb F_\ell$-algebra that is a
+field), at which the six operations and [sk-lem-finite] are available.
+The stages $E$ and $\Qlb$ are not yet covered. They are meant to follow
+by the same argument once the six operations are transported to them
+([sk-thm-purity-transport]): the derived isomorphism and the
+perfectness of the point complexes hold there, and the splitting of a
+perfect complex over a field is stage-independent. The line-valued form is
+obtained from $\langle-,-\rangle_i$ by composing with linear isomorphisms
+$H^j(X,K^\vee)\cong H^j(X,K^\vee(d))$ and $\Lambda\cong\Lambda(-d)$,
+which exist since $k$ is separably closed.
 
 Uses: [sk-def-pairing], [sk-lem-finite], [sk-thm-sf-identification]

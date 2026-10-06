@@ -3,6 +3,7 @@ id = "sk-thm-product"
 kind = "section"
 title = "Supported product over a relative base"
 order = 2436
+lean = ["AlgebraicGeometry.Etale.externalProduct", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_externalProduct_closedImmersion", "AlgebraicGeometry.Etale.nonempty_iso_compactlySupported_externalProduct_closedImmersion"]
 uses = ["sk-def-ops", "sk-thm-sf-kunneth-relative"]
 +++
 *Theorem (sketch).*
