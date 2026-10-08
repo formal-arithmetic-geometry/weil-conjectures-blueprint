@@ -65532,7 +65532,9 @@
    "attrs":
    {"title": "Curve coefficient pieces",
     "order": 2339,
-    "lean": ["AlgebraicGeometry.ProEtale.WeilComplex.curvePieces"]}},
+    "lean":
+    ["AlgebraicGeometry.ProEtale.WeilComplex.closedPiece",
+     "AlgebraicGeometry.ProEtale.WeilComplex.openPiece"]}},
   {"source":
    {"file": "blueprint/sec-deligne-laumon-a1/sk-d-dl-a1-setup/_section.md",
     "anonymous": false},
@@ -66808,7 +66810,8 @@
    "attrs":
    {"title": "Compact trace additivity",
     "order": 2372,
-    "lean": ["AlgebraicGeometry.ProEtale.trace_globalOperator_add"]}},
+    "lean":
+    ["AlgebraicGeometry.ProEtale.trace_globalOperator_eq_trace_add_trace"]}},
   {"source":
    {"file": "blueprint/sec-purity-real-sheaves/sk-i-real-boundary/_section.md",
     "anonymous": false},
@@ -66895,7 +66898,8 @@
    {"title": "Relative Frobenius",
     "order": 2361,
     "lean":
-    ["AlgebraicGeometry.ProEtale.isFinite_relativeFrobenius_and_isUniversalHomeomorphism"]}},
+    ["AlgebraicGeometry.ProEtale.isFinite_relativeFrobenius",
+     "AlgebraicGeometry.ProEtale.isUniversalHomeomorphism_relativeFrobenius"]}},
   {"source":
    {"file":
     "blueprint/sec-algebraic-groups-lie-algebras/sk-i-restriction/_section.md",
@@ -66939,7 +66943,8 @@
    {"title": "Topological invariance",
     "order": 2357,
     "lean":
-    ["AlgebraicGeometry.ProEtale.isEquivalence_leftDerivedUpperStar_of_isFinite"]}},
+    ["AlgebraicGeometry.ProEtale.isEquivalence_leftDerivedUpperStar",
+     "AlgebraicGeometry.ProEtale.ctf_leftDerivedUpperStar_obj_iff"]}},
   {"source":
    {"file": "blueprint/sec-zeta-weil/sk-input-weights/_section.md",
     "anonymous": false},
@@ -67807,7 +67812,7 @@
    "attrs":
    {"title": "Triangularization",
     "order": 2389,
-    "lean": ["Module.End.exists_invariant_flag"]}},
+    "lean": ["Module.End.exists_complete_invariant_flag"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-p-local/_section.md",
     "anonymous": false},
@@ -68040,7 +68045,8 @@
    "attrs":
    {"title": "Trace on perfect complexes",
     "order": 2302,
-    "lean": ["DerivedCategory.trace_eq_sum_negOnePow_trace"]}},
+    "lean":
+    ["DerivedCategory.trace_eq_algebraMap_sum_negOnePow_linearMapTrace"]}},
   {"source":
    {"file": "blueprint/sec-trace-formula/sk-p-trace-coeff/_section.md",
     "anonymous": false},
@@ -68054,7 +68060,8 @@
    {"title": "Finite-level coefficient change",
     "order": 2382,
     "lean":
-    ["AlgebraicGeometry.ProEtale.nonempty_iso_comp_lowerShriek_and_upperStar"]}},
+    ["AlgebraicGeometry.ProEtale.nonempty_rightDerivedLowerShriek_comp_iso",
+     "AlgebraicGeometry.ProEtale.nonempty_leftDerivedUpperStar_comp_iso"]}},
   {"source":
    {"file": "blueprint/sec-smooth-purity/sk-prop-a1/_section.md",
     "anonymous": false},
@@ -69382,7 +69389,10 @@
    {"title": "Adic realization",
     "order": 2384,
     "lean":
-    ["AlgebraicGeometry.ProEtale.derivedComplete_limit_and_nonempty_iso_limit"]}},
+    ["AlgebraicGeometry.ProEtale.derivedComplete_limit",
+     "AlgebraicGeometry.ProEtale.nonempty_derivedCompletionDiagram_obj_limit_iso",
+     "AlgebraicGeometry.ProEtale.nonempty_rightDerivedLowerShriek_obj_limit_iso",
+     "AlgebraicGeometry.ProEtale.nonempty_leftDerivedUpperStar_obj_limit_iso"]}},
   {"source":
    {"file": "blueprint/sec-curve-estimates/sk-prop-tsen/_section.md",
     "anonymous": false},
@@ -70634,7 +70644,7 @@
    {"title": "Transport of the trace formula to the non-finite stages",
     "order": 2394,
     "lean":
-    ["AlgebraicGeometry.ProEtale.trace_globalOperator_eq_sum_and_eulerProduct"]}},
+    ["AlgebraicGeometry.ProEtale.hasProd_inv_alternatingCharpolyRevProd"]}},
   {"source":
    {"file": "blueprint/sec-zeta-weil/sk-thm-tracetodeterminant/_section.md",
     "anonymous": false},
@@ -255376,7 +255386,7 @@
    "If a scalar `c` acts on a nonzero invariant subquotient `S ⧸ U` of `V`, then `c` is an\neigenvalue of the endomorphism on all of `V`.\n(blueprint: `sk-p-linear-filtration`)",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "Module.End.exists_invariant_flag": {"exists": false},
+  "Module.End.exists_complete_invariant_flag": {"exists": false},
   "Matrix.GeneralLinearGroup.zeroLocus":
   {"status": "proved",
    "signature":
@@ -255797,7 +255807,8 @@
    "Blueprint `sk-d-ab-field`: Finite fields, Frobenius and abelian varieties.\n\nFix a finite field `K` with `q` elements and an algebraic extension `L`. The *arithmetic\nFrobenius* is `σ : x ↦ x ^ q`; the *geometric Frobenius* is `F = σ⁻¹`.",
    "deps": [],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
-  "DerivedCategory.trace_eq_sum_negOnePow_trace": {"exists": false},
+  "DerivedCategory.trace_eq_algebraMap_sum_negOnePow_linearMapTrace":
+  {"exists": false},
   "DerivedCategory.homologyProperty_isTriangulated":
   {"status": "proved",
    "signature":
@@ -266061,11 +266072,10 @@
     "AlgebraicGeometry.ProEtale.dualizingComplex",
     "CategoryTheory.Pretriangulated.isIso₃_of_isIso₁₂"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
+  "AlgebraicGeometry.ProEtale.trace_globalOperator_eq_trace_add_trace":
+  {"exists": false},
   "AlgebraicGeometry.ProEtale.trace_globalOperator_eq_sum_trace_stalkFrobenius":
   {"exists": false},
-  "AlgebraicGeometry.ProEtale.trace_globalOperator_eq_sum_and_eulerProduct":
-  {"exists": false},
-  "AlgebraicGeometry.ProEtale.trace_globalOperator_add": {"exists": false},
   "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekAdjunction":
   {"status": "stated",
    "signature":
@@ -266092,6 +266102,14 @@
     "reesAlgebra"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
   "AlgebraicGeometry.ProEtale.relativeFrobenius": {"exists": false},
+  "AlgebraicGeometry.ProEtale.nonempty_rightDerivedLowerShriek_obj_limit_iso":
+  {"exists": false},
+  "AlgebraicGeometry.ProEtale.nonempty_rightDerivedLowerShriek_comp_iso":
+  {"exists": false},
+  "AlgebraicGeometry.ProEtale.nonempty_leftDerivedUpperStar_obj_limit_iso":
+  {"exists": false},
+  "AlgebraicGeometry.ProEtale.nonempty_leftDerivedUpperStar_comp_iso":
+  {"exists": false},
   "AlgebraicGeometry.ProEtale.nonempty_iso_comparisonUpperStar_comp_rightDerivedLowerStar":
   {"status": "stated",
    "signature":
@@ -266116,7 +266134,7 @@
     "Ideal.map_pow",
     "reesAlgebra"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.ProEtale.nonempty_iso_comp_lowerShriek_and_upperStar":
+  "AlgebraicGeometry.ProEtale.nonempty_derivedCompletionDiagram_obj_limit_iso":
   {"exists": false},
   "AlgebraicGeometry.ProEtale.isZero_homology_rightDerivedLowerStar_comparisonUpperStar":
   {"status": "stated",
@@ -266144,9 +266162,12 @@
     "IsSepClosed",
     "reesAlgebra"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.ProEtale.isFinite_relativeFrobenius_and_isUniversalHomeomorphism":
+  "AlgebraicGeometry.ProEtale.isUniversalHomeomorphism_relativeFrobenius":
   {"exists": false},
-  "AlgebraicGeometry.ProEtale.isEquivalence_leftDerivedUpperStar_of_isFinite":
+  "AlgebraicGeometry.ProEtale.isFinite_relativeFrobenius": {"exists": false},
+  "AlgebraicGeometry.ProEtale.isEquivalence_leftDerivedUpperStar":
+  {"exists": false},
+  "AlgebraicGeometry.ProEtale.hasProd_inv_alternatingCharpolyRevProd":
   {"exists": false},
   "AlgebraicGeometry.ProEtale.full_comparisonUpperStar":
   {"status": "stated",
@@ -266225,7 +266246,8 @@
    "Blueprint `sk-def-ops`: The six operations, the dualizing complex, the duals.\n\nThe naive dual `K ↦ K^∨ = RHom_{Λ_X}(K, Λ_X)` on `D(X_proét)`, the internal hom into the\nconstant sheaf `Λ_X = 𝟙_ D(X_proét)`.",
    "deps": ["CategoryTheory.Pretriangulated.isIso₃_of_isIso₁₂"],
    "axioms": ["Classical.choice", "Quot.sound", "propext", "sorryAx"]},
-  "AlgebraicGeometry.ProEtale.derivedComplete_limit_and_nonempty_iso_limit":
+  "AlgebraicGeometry.ProEtale.derivedComplete_limit": {"exists": false},
+  "AlgebraicGeometry.ProEtale.ctf_leftDerivedUpperStar_obj_iff":
   {"exists": false},
   "AlgebraicGeometry.ProEtale.comparisonUpperStar":
   {"status": "proved",
@@ -266269,8 +266291,9 @@
     "Ideal.map_pow",
     "reesAlgebra"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "AlgebraicGeometry.ProEtale.WeilComplex.openPiece": {"exists": false},
   "AlgebraicGeometry.ProEtale.WeilComplex.lowerShriekPush": {"exists": false},
-  "AlgebraicGeometry.ProEtale.WeilComplex.curvePieces": {"exists": false},
+  "AlgebraicGeometry.ProEtale.WeilComplex.closedPiece": {"exists": false},
   "AlgebraicGeometry.ProEtale.WeilComplex": {"exists": false},
   "AlgebraicGeometry.ProEtale.ProperPushforwardDiagram": {"exists": false},
   "AlgebraicGeometry.ProEtale.HasUniformCohomologicalDimensionLE":
@@ -281845,7 +281868,12 @@
     "code": "missing-lean"},
    {"objects": ["sk-d-curve-pieces"],
     "message":
-    "blueprint/sec-trace-formula/sk-d-curve-pieces/_section.md: 'sk-d-curve-pieces' names 'AlgebraicGeometry.ProEtale.WeilComplex.curvePieces', which does not exist in the Lean environment",
+    "blueprint/sec-trace-formula/sk-d-curve-pieces/_section.md: 'sk-d-curve-pieces' names 'AlgebraicGeometry.ProEtale.WeilComplex.closedPiece', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-d-curve-pieces"],
+    "message":
+    "blueprint/sec-trace-formula/sk-d-curve-pieces/_section.md: 'sk-d-curve-pieces' names 'AlgebraicGeometry.ProEtale.WeilComplex.openPiece', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-d-geometry"],
@@ -282000,17 +282028,27 @@
     "code": "missing-lean"},
    {"objects": ["sk-i-global-additivity"],
     "message":
-    "blueprint/sec-trace-formula/sk-i-global-additivity/_section.md: 'sk-i-global-additivity' names 'AlgebraicGeometry.ProEtale.trace_globalOperator_add', which does not exist in the Lean environment",
+    "blueprint/sec-trace-formula/sk-i-global-additivity/_section.md: 'sk-i-global-additivity' names 'AlgebraicGeometry.ProEtale.trace_globalOperator_eq_trace_add_trace', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-i-relative-frob"],
     "message":
-    "blueprint/sec-trace-formula/sk-i-relative-frob/_section.md: 'sk-i-relative-frob' names 'AlgebraicGeometry.ProEtale.isFinite_relativeFrobenius_and_isUniversalHomeomorphism', which does not exist in the Lean environment",
+    "blueprint/sec-trace-formula/sk-i-relative-frob/_section.md: 'sk-i-relative-frob' names 'AlgebraicGeometry.ProEtale.isFinite_relativeFrobenius', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-i-relative-frob"],
+    "message":
+    "blueprint/sec-trace-formula/sk-i-relative-frob/_section.md: 'sk-i-relative-frob' names 'AlgebraicGeometry.ProEtale.isUniversalHomeomorphism_relativeFrobenius', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-i-topology"],
     "message":
-    "blueprint/sec-trace-formula/sk-i-topology/_section.md: 'sk-i-topology' names 'AlgebraicGeometry.ProEtale.isEquivalence_leftDerivedUpperStar_of_isFinite', which does not exist in the Lean environment",
+    "blueprint/sec-trace-formula/sk-i-topology/_section.md: 'sk-i-topology' names 'AlgebraicGeometry.ProEtale.ctf_leftDerivedUpperStar_obj_iff', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-i-topology"],
+    "message":
+    "blueprint/sec-trace-formula/sk-i-topology/_section.md: 'sk-i-topology' names 'AlgebraicGeometry.ProEtale.isEquivalence_leftDerivedUpperStar', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-lem-as-properties"],
@@ -282075,7 +282113,7 @@
     "code": "missing-lean"},
    {"objects": ["sk-p-linear-triangular"],
     "message":
-    "blueprint/sec-trace-formula/sk-p-linear-triangular/_section.md: 'sk-p-linear-triangular' names 'Module.End.exists_invariant_flag', which does not exist in the Lean environment",
+    "blueprint/sec-trace-formula/sk-p-linear-triangular/_section.md: 'sk-p-linear-triangular' names 'Module.End.exists_complete_invariant_flag', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-p-local"],
@@ -282095,12 +282133,17 @@
     "code": "missing-lean"},
    {"objects": ["sk-p-trace"],
     "message":
-    "blueprint/sec-trace-formula/sk-p-trace/_section.md: 'sk-p-trace' names 'DerivedCategory.trace_eq_sum_negOnePow_trace', which does not exist in the Lean environment",
+    "blueprint/sec-trace-formula/sk-p-trace/_section.md: 'sk-p-trace' names 'DerivedCategory.trace_eq_algebraMap_sum_negOnePow_linearMapTrace', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-p-trace-coeff"],
     "message":
-    "blueprint/sec-trace-formula/sk-p-trace-coeff/_section.md: 'sk-p-trace-coeff' names 'AlgebraicGeometry.ProEtale.nonempty_iso_comp_lowerShriek_and_upperStar', which does not exist in the Lean environment",
+    "blueprint/sec-trace-formula/sk-p-trace-coeff/_section.md: 'sk-p-trace-coeff' names 'AlgebraicGeometry.ProEtale.nonempty_leftDerivedUpperStar_comp_iso', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-p-trace-coeff"],
+    "message":
+    "blueprint/sec-trace-formula/sk-p-trace-coeff/_section.md: 'sk-p-trace-coeff' names 'AlgebraicGeometry.ProEtale.nonempty_rightDerivedLowerShriek_comp_iso', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-prop-av-char"],
@@ -282185,7 +282228,22 @@
     "code": "missing-lean"},
    {"objects": ["sk-prop-trace-adic"],
     "message":
-    "blueprint/sec-trace-formula/sk-prop-trace-adic/_section.md: 'sk-prop-trace-adic' names 'AlgebraicGeometry.ProEtale.derivedComplete_limit_and_nonempty_iso_limit', which does not exist in the Lean environment",
+    "blueprint/sec-trace-formula/sk-prop-trace-adic/_section.md: 'sk-prop-trace-adic' names 'AlgebraicGeometry.ProEtale.derivedComplete_limit', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-prop-trace-adic"],
+    "message":
+    "blueprint/sec-trace-formula/sk-prop-trace-adic/_section.md: 'sk-prop-trace-adic' names 'AlgebraicGeometry.ProEtale.nonempty_derivedCompletionDiagram_obj_limit_iso', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-prop-trace-adic"],
+    "message":
+    "blueprint/sec-trace-formula/sk-prop-trace-adic/_section.md: 'sk-prop-trace-adic' names 'AlgebraicGeometry.ProEtale.nonempty_leftDerivedUpperStar_obj_limit_iso', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-prop-trace-adic"],
+    "message":
+    "blueprint/sec-trace-formula/sk-prop-trace-adic/_section.md: 'sk-prop-trace-adic' names 'AlgebraicGeometry.ProEtale.nonempty_rightDerivedLowerShriek_obj_limit_iso', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-thm-inversion"],
@@ -282205,7 +282263,7 @@
     "code": "missing-lean"},
    {"objects": ["sk-thm-trace-transport"],
     "message":
-    "blueprint/sec-trace-formula/sk-thm-trace-transport/_section.md: 'sk-thm-trace-transport' names 'AlgebraicGeometry.ProEtale.trace_globalOperator_eq_sum_and_eulerProduct', which does not exist in the Lean environment",
+    "blueprint/sec-trace-formula/sk-thm-trace-transport/_section.md: 'sk-thm-trace-transport' names 'AlgebraicGeometry.ProEtale.hasProd_inv_alternatingCharpolyRevProd', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["cor-a1-fourier-middle-hc1", "d-ab-field"],
