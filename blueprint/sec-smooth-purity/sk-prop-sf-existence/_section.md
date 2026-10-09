@@ -4,7 +4,7 @@ kind = "section"
 title = "Existence of the exceptional right adjoint"
 order = 1801
 uses = ["sk-prop-sf-comparison"]
-lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekAdjunction", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekAdjunction"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekAdjunction", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekAdjunction", "AlgebraicGeometry.ProEtale.nonempty_adjunction_constructibleUpperShriek"]
 +++
 *Proposition (sketch).*
 

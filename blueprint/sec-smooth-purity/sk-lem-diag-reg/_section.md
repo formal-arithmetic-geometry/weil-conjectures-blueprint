@@ -11,8 +11,9 @@ lean = ["AlgebraicGeometry.isRegularImmersion_diagonal"]
 Let $f:X\to Y$ be smooth, separated, of pure relative dimension $d$, put
 $W=X\times_YX$ with projections $p_1,p_2$ and diagonal
 $\Delta:X\hookrightarrow W$. Then $\Delta$ is a regular closed immersion of
-pure codimension $d$, and its normal bundle is canonically
-$N_{\Delta/W}\cong T_{X/Y}$, the relative tangent bundle of $f$.
+pure codimension $d$, and its normal bundle as a closed section of $p_1$
+([sk-def-purity-conv]) is canonically $N_{\Delta/W}\cong T_{X/Y}$, the relative
+tangent bundle of $f$.
 
 ## Proof
 

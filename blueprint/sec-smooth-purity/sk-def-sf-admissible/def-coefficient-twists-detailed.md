@@ -61,3 +61,12 @@ For every $m\in\mathbf Z$ and every $K\in D(S_{\mathrm{proet}},\Lambda)$, set
 $$
  K(m)=K\otimes^L_{\Lambda_S}\Lambda(m).
 $$
+
+At the finite stage $\Lambda=A_{E,n}$, $\Lambda(m)_S$ is a locally constant sheaf of
+$\Lambda_S$-modules, locally free of rank one, placed in degree $0$: étale-locally on $S$ the
+group $\mu_{\ell^r}$ is constant, so $\Lambda(1)_S$ is étale-locally isomorphic to $\Lambda_S$,
+and hence so is every $\Lambda(m)_S$. In particular $\Lambda(m)_S$ is bounded, constructible
+(one stratum, finite stalks) and flat, so it lies in $D^b_{ctf}(S,\Lambda)$
+[def-weil-finite-tor-amplitude]. It is invertible, with inverse $\Lambda(-m)_S$. Since
+$D^b_{ctf}(S,\Lambda)$ is stable under shifts and under $\otimes^L$, also
+$\Lambda_S(m)[2m]\in D^b_{ctf}(S,\Lambda)$.

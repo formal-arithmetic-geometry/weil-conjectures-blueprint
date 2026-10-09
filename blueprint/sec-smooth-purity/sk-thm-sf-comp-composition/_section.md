@@ -4,7 +4,7 @@ kind = "section"
 title = "The composition law for $Rf_!$"
 order = 1515
 uses = ["sec-nagata-compactification", "sec-proper-base-change", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-comp-coherence", "sk-thm-properbasechange"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp", "AlgebraicGeometry.Etale.rightDerivedLowerShriekCompIso"]
 +++
 *Theorem (sketch).*
 

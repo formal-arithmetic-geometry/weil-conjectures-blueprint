@@ -4,7 +4,7 @@ kind = "section"
 title = "Purity conventions and the rank-one datum"
 order = 1886
 uses = ["sk-def-sf-operations"]
-lean = ["AlgebraicGeometry.Etale.sectionInvariant", "AlgebraicGeometry.Etale.dualizingComplex", "AlgebraicGeometry.Scheme.Hom.NormalConeData", "AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData"]
+lean = ["AlgebraicGeometry.Etale.sectionInvariant", "AlgebraicGeometry.Etale.dualizingComplex", "AlgebraicGeometry.Scheme.Hom.sectionNormalCone", "AlgebraicGeometry.Scheme.Hom.deformationSpace", "AlgebraicGeometry.Scheme.Hom.deformationProj", "AlgebraicGeometry.Scheme.Hom.deformationSection", "AlgebraicGeometry.Etale.constructibleFiniteTor_tateObject", "AlgebraicGeometry.Etale.constructibleFiniteTor_twistShift_constantComplex"]
 +++
 *Remark (sketch).*
 
@@ -32,12 +32,7 @@ $$
 the boundary of the $A$-coefficient Kummer sequence for $t$
 (equivalently the class of the $\mu_{\ell^N}$-torsor
 $\mathcal T_t=\Spec\mathcal O[T_0]/(T_0^{\ell^N}-t)$, tensored with $A$),
-compatible with base change. For a closed immersion $i:Z\hookrightarrow X$ with ideal sheaf
-$\mathcal I_Z$ the normal cone is
-$N_{Z/X}=\Spec_Z\bigl(\bigoplus_{r\ge0}\mathcal I_Z^{\,r}/\mathcal I_Z^{\,r+1}\bigr)$;
-when $i$ is regular of pure codimension $c$ the conormal sheaf
-$\mathcal I_Z/\mathcal I_Z^2$ is locally free of rank $c$ and $N_{Z/X}\to Z$
-is a vector bundle of rank $c$ with zero section $z$. For a smooth
+compatible with base change. For a smooth
 $g:V\to B$ with a closed section $s:B\hookrightarrow V$, the *section
 invariant* is
 
@@ -55,4 +50,15 @@ $$
 the blow-up minus the strict transform of the closed fibre. It carries
 $\widetilde g:\mathcal D_sV\to\Aaf^1_B$ with a section
 $\widetilde s:\Aaf^1_B\to\mathcal D_sV$, and the *family object* is
-$\mathcal F=L\widetilde s^{*}\omega_{\widetilde g}$.
+$\mathcal F=L\widetilde s^{*}\omega_{\widetilde g}$. The *normal bundle of the
+section* is the fibre over $t=0$,
+
+$$
+N_s=\mathcal D_sV\times_{\widetilde g,\Aaf^1_B,0}B,
+$$
+
+with projection $\pi_N:N_s\to B$ and zero section $0_N=(\widetilde s\circ0,\mathrm{id})$.
+By the Rees description it is the normal cone
+$\Spec_B\bigl(\bigoplus_{r\ge0}\mathcal I_s^{\,r}/\mathcal I_s^{\,r+1}\bigr)$, a vector
+bundle of rank $d$ when $g$ is smooth of relative dimension $d$
+([sk-lem-geometry] (1)); the definition does not use this.

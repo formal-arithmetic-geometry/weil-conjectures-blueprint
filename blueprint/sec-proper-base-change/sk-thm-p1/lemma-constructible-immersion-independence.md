@@ -3,7 +3,7 @@ id = "lemma-constructible-immersion-independence"
 kind = "lemma"
 title = "Independence of the scheme structure"
 order = 1169
-lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.upperStar_of_range_subset", "AlgebraicGeometry.Scheme.isFiniteLocallyConstantSheaf_upperStar_iff_of_range_eq"]
+lean = ["AlgebraicGeometry.Scheme.IsLocallyConstantSheaf.upperStar_of_range_subset", "AlgebraicGeometry.Scheme.IsFiniteSheaf.upperStar_of_range_subset", "AlgebraicGeometry.Scheme.isLocallyConstantSheaf_upperStar_iff_of_range_eq", "AlgebraicGeometry.Scheme.isFiniteSheaf_upperStar_iff_of_range_eq"]
 uses = ["def-constructible-finite-locally-constant", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-stratification", "lemma-constructible-universal-homeomorphism-invariance", "prop-constructible-pullback"]
 +++
 Let $a\colon Z\to X$ and $b\colon Z'\to X$ be immersions with the same

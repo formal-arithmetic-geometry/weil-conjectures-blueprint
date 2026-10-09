@@ -2100,6 +2100,7 @@ node & detailed blueprint label & quoted external input \\
 \newcommand{\Sh}{\mathsf{Sh}}
 \newcommand{\Cech}{\check{H}}
 \newcommand{\rk}{\operatorname{rk}}
+\newcommand{\C}{\mathbb C}
 \section{Picard Framework}
 \label{sec:picard-framework}
 \begin{abstract}
@@ -5401,7 +5402,7 @@ $\mathcal F'\to j_*\mathcal J\oplus i_*i^{-1}\mathcal F'$ puts the
 surviving element into one of the two summands.  The closed summand
 is handled by the exactness of $i_*$.  For the open summand one
 cannot use exactness of $j_*$, which fails in general
-($R^1j_*(\Z/\ell)\neq0$ for $j:\gm\hookrightarrow\Aaf^1$); instead
+($R^1j_*(\Z/\ell)\neq0$ for $j:\mathbf G_m\hookrightarrow\Aaf^1$); instead
 let $e':Y'=X\times_ST'\to T'$ be the base change of $f$ along
 $T'\to S$ and $j':V\times_{T'}Y'\to Y'$.  The hypothesis
 $\mathrm{UBC}^{\le q-1}(f,n)$ applied to $e'$ and the qcqs morphism
@@ -6370,9 +6371,10 @@ Cartesian square, the exchange transformation
 $\operatorname{Ex}_!:Lg^*Rf_!\to Rf'_!Lg'^*$ of \Cref{def:sf-exchanges} is an
 isomorphism, natural in the coefficient complex and coherent for identity and
 pasted squares, \emph{with the following typing only}: (a) at a finite stage
-$\Lambda=A_{E,n}$, on all of $D^+(X_{\Et},\Lambda)$, as functors
-$D^+(X_{\Et},\Lambda)\to D^+(Y'_{\Et},\Lambda)$ on the small \'etale site
-(\up{thm:cbc-finite-torsion}), and on the \'etale-origin complexes
+$\Lambda=A_{E,n}$, on the whole \emph{unbounded} derived category, as functors
+$D(X_{\Et},\Lambda)\to D(Y'_{\Et},\Lambda)$ on the small \'etale site
+(\stacks{0F7H}; in particular on $D^+(X_{\Et},\Lambda)$,
+\up{thm:cbc-finite-torsion}), and on the \'etale-origin complexes
 $\nu_X^*D^+(X_{\Et},\Lambda)$ of the small pro-\'etale site
 (\up{thm:cbc-finite-level-proetale}) --- hence in $\Dbc(Y',\Lambda)$ whenever
 the two sides are bounded constructible; (b) at the stages $\mathcal O_E$,
@@ -6393,7 +6395,13 @@ same restriction).  Whenever $\operatorname{Ex}_!$ is said to be an
 isomorphism ``at every coefficient stage'', this typing is meant.
 \prov{Chapter 17 (compact-support base change): the stages are
 \up{thm:cbc-finite-torsion} (finite coefficients, all of $D^+$ of the
-\'etale site), \up{cor:cbc-degreewise-constructible} (the constructible
+\'etale site; the unbounded statement is \stacks{0F7H}, whose proof is the
+same compactification argument with the unbounded proper base change
+\stacks{0F0C} in place of the bounded-below one: $\Lambda$ is killed by some
+$n$, and a proper morphism over a quasi-compact base has fibres of bounded
+dimension, so its direct image has finite cohomological dimension on sheaves
+of $\Lambda$-modules and $Rp_*$ is computed termwise on K-injective
+complexes), \up{cor:cbc-degreewise-constructible} (the constructible
 landing), \up{thm:cbc-finite-level-proetale} (pro-\'etale, for objects with
 an \'etale-origin witness), \up{thm:cbc-complete-proetale} (derived-complete
 coefficients, the completed exchange), \up{thm:cbc-finite-extension}
@@ -7116,12 +7124,7 @@ $\Z/\ell^N$, \bp{lem:pur-finite-kummer-level}), and the
 the boundary of the $A$-coefficient Kummer sequence for $t$
 (equivalently the class of the $\mu_{\ell^N}$-torsor
 $\mathcal T_t=\Spec\mathcal O[T_0]/(T_0^{\ell^N}-t)$, tensored with $A$),
-compatible with base change.  For a closed immersion $i:Z\hookrightarrow X$ with ideal sheaf
-$\mathcal I_Z$ the normal cone is
-$N_{Z/X}=\Spec_Z\bigl(\bigoplus_{r\ge0}\mathcal I_Z^{\,r}/\mathcal I_Z^{\,r+1}\bigr)$;
-when $i$ is regular of pure codimension $c$ the conormal sheaf
-$\mathcal I_Z/\mathcal I_Z^2$ is locally free of rank $c$ and $N_{Z/X}\to Z$
-is a vector bundle of rank $c$ with zero section $z$.  For a smooth
+compatible with base change.  For a smooth
 $g:V\to B$ with a closed section $s:B\hookrightarrow V$, the \emph{section
 invariant} is
 \[
@@ -7135,7 +7138,16 @@ and the deformation to the normal cone \emph{of the section} is
 the blow-up minus the strict transform of the closed fibre.  It carries
 $\widetilde g:\mathcal D_sV\to\Aaf^1_B$ with a section
 $\widetilde s:\Aaf^1_B\to\mathcal D_sV$, and the \emph{family object} is
-$\mathcal F=L\widetilde s^{*}\omega_{\widetilde g}$.
+$\mathcal F=L\widetilde s^{*}\omega_{\widetilde g}$.  The \emph{normal bundle of
+the section} is the fibre over $t=0$,
+\[
+N_s=\mathcal D_sV\times_{\widetilde g,\Aaf^1_B,0}B,
+\]
+with projection $\pi_N:N_s\to B$ and zero section
+$0_N=(\widetilde s\circ0,\mathrm{id})$.  By the Rees description it is the normal
+cone $\Spec_B\bigl(\bigoplus_{r\ge0}\mathcal I_s^{\,r}/\mathcal I_s^{\,r+1}\bigr)$, a
+vector bundle of rank $d$ when $g$ is smooth of relative dimension $d$
+(\Cref{lem:geometry}(1)); the definition does not use this.
 \end{remark}
 
 \subsection{Move (1): the $\mathbf A^1$ computation}
@@ -7871,13 +7883,17 @@ rule $\omega_{vu}\cong\omega_u\otimes Lu^{*}\omega_v$).
 \uses{\up{def:purity-conv}}
 In the conventions of \Cref{def:purity-conv} let $g:V\to B$ be smooth of pure
 relative dimension $d$ with closed section $s$, and let $N_s\to B$ be the
-normal bundle of $s$ with zero section $0_N$ and projection $\pi_N$.  Then:
+normal bundle of $s$ (the fibre of $\widetilde g$ over $t=0$) with zero section
+$0_N$ and projection $\pi_N$.  Then:
 \begin{enumerate}
 \item[(1)] \emph{the fibres.}  The fibre of $\widetilde g$ over $1$ is
-$(g:V\to B,s)$ and the fibre over $0$ is $(\pi_N:N_s\to B,0_N)$;  writing
+$(g:V\to B,s)$, and the fibre over $0$ is $(\pi_N:N_s\to B,0_N)$ by the
+definition of $N_s$;  writing
 $i_0,i_1:B\to\Aaf^1_B$ for the two sections, base change gives
 $Li_1^{*}\mathcal F\simeq\mathcal C(g,s)$ and
-$Li_0^{*}\mathcal F\simeq\mathcal C(\pi_N,0_N)$.
+$Li_0^{*}\mathcal F\simeq\mathcal C(\pi_N,0_N)$.  Moreover $N_s$ is the normal
+cone $\Spec_B\bigl(\bigoplus_{r\ge0}\mathcal I_s^{\,r}/\mathcal I_s^{\,r+1}\bigr)$,
+and $\pi_N:N_s\to B$ is a vector bundle of rank $d$ with zero section $0_N$.
 \item[(2)] \emph{coordinates.}  Since $s$ is a section of a smooth map, there
 are \'etale-locally coordinates $x_1,\dots,x_d$ on $V$ over $B$ in which $s$
 is $x_i=0$;  on the deformation chart $u_i=x_i/t$, so $\widetilde g$ is smooth
@@ -7905,8 +7921,11 @@ $\Spec_V\bigl(\bigoplus_{r\in\Z}\mathcal I_s^{\,r}t^{-r}\bigr)$, with
 $\mathcal I_s^{\,r}=\mathcal O_V$ for $r\le0$ and $\widetilde g$ induced by
 $t$.  Inverting $t$ gives $\mathcal O_V[t,t^{-1}]$, which is (3) and the
 fibre $V$ over $1$;  setting $t=0$ gives
-$\bigoplus_{r\ge0}\mathcal I_s^{\,r}/\mathcal I_s^{\,r+1}$, the normal cone,
-a vector bundle because a section of a smooth map is a regular immersion.
+$\bigoplus_{r\ge0}\mathcal I_s^{\,r}/\mathcal I_s^{\,r+1}$, so the fibre $N_s$ over
+$0$ is the normal cone.  It is a vector bundle of rank $d$ because a section
+of a smooth map is a regular immersion of codimension $d$:  the conormal sheaf
+$\mathcal I_s/\mathcal I_s^{2}$ is locally free of rank $d$ and
+$\bigoplus_r\mathcal I_s^{\,r}/\mathcal I_s^{\,r+1}=\mathrm{Sym}^\bullet(\mathcal I_s/\mathcal I_s^2)$.
 This is (1), the comparison of fibres being base change for $\omega$
 (\Cref{prop:cohsm}(c)).
 
@@ -7978,8 +7997,9 @@ extending $\kappa^{\circ}$.  Restricting at $t=0$ and using
 Let $f:X\to Y$ be smooth, separated, of pure relative dimension $d$, put
 $W=X\times_YX$ with projections $p_1,p_2$ and diagonal
 $\Delta:X\hookrightarrow W$.  Then $\Delta$ is a regular closed immersion of
-pure codimension $d$, and its normal bundle is canonically
-$N_{\Delta/W}\cong T_{X/Y}$, the relative tangent bundle of $f$.
+pure codimension $d$, and its normal bundle as a closed section of $p_1$
+(\Cref{def:purity-conv}) is canonically $N_{\Delta/W}\cong T_{X/Y}$, the
+relative tangent bundle of $f$.
 \end{lemma}
 \begin{proof}[Proof idea]
 \uses{\up{def:purity-conv}}
@@ -10194,8 +10214,8 @@ general, \Cref{rem:sf-ambient-counterexample}).
 \item[(2)] \emph{Base change.} For every Cartesian square the exchange
 transformation $\operatorname{Ex}_!:Lg^*Rf_!\to Rf'_!Lg'^*$ of
 \Cref{def:sf-exchanges} is a natural isomorphism with exactly the typing of
-\Cref{prop:sf-cbc} --- at $\Lambda=A_{E,n}$ on $D^+$ of the small \'etale site
-and on the \'etale-origin complexes of the pro-\'etale site; at
+\Cref{prop:sf-cbc} --- at $\Lambda=A_{E,n}$ on the unbounded $D$ of the small
+\'etale site (\stacks{0F7H}) and on the \'etale-origin complexes of the pro-\'etale site; at
 $\mathcal O_E,E,\Qlb$ only on $\Dbc$ of the adic pro-\'etale categories, as
 the completed exchange, and never on the discrete non-torsion coefficients of
 the small \'etale site, exactly as for $\operatorname{Ex}_*$ below; it is the
@@ -11019,7 +11039,7 @@ defined, without any invertibility of $u$.
 The stalk at $\bar x$ of the trace-class source $\RHom(c_2^*K,c_1^!K)$ is
 \emph{not} $\RHom(K_{\bar x},K_{\bar x})$:  restriction to a point does not
 commute with internal Hom.  For $K=j_!A$ on $\mathbf A^1$ with
-$j:\gm\hookrightarrow\mathbf A^1$ one has $\RHom(j_!A,j_!A)\simeq Rj_*A$,
+$j:\mathbf G_m\hookrightarrow\mathbf A^1$ one has $\RHom(j_!A,j_!A)\simeq Rj_*A$,
 whose stalk at $0$ is $A$ in degree $0$ although $K_0=0$.  So the vanishing
 is not a formal consequence of locality on the fixed scheme.  It is the
 local-term theorem for contracting correspondences of Varshavsky
@@ -13822,6 +13842,7 @@ and assume finite geometric determinants of the relevant constituents.}
 \newcommand{\GL}{\operatorname{GL}}
 \newcommand{\wt}{\operatorname{wt}}
 \newcommand{\dw}{\operatorname{dw}}
+\newcommand{\Hom}{\operatorname{Hom}}
 \ExplSyntaxOn
 \RenewDocumentCommand{\source}{m}{
   \par\smallskip\noindent{\scriptsize\normalfont\raggedright

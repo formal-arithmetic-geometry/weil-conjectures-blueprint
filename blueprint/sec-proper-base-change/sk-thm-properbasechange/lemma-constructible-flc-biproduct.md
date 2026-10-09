@@ -3,7 +3,7 @@ id = "lemma-constructible-flc-biproduct"
 kind = "lemma"
 title = "Finite direct sums"
 order = 1295
-lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.biprod", "AlgebraicGeometry.Scheme.IsFiniteSheaf.biprod", "AlgebraicGeometry.Scheme.IsLocallyConstantSheaf.biprod", "CategoryTheory.Sheaf.IsConstant.biprod"]
+lean = ["AlgebraicGeometry.Scheme.IsLocallyConstantSheaf.biprod", "AlgebraicGeometry.Scheme.IsFiniteSheaf.biprod", "AlgebraicGeometry.Scheme.IsFiniteSheaf.biprod", "AlgebraicGeometry.Scheme.IsLocallyConstantSheaf.biprod", "CategoryTheory.Sheaf.IsConstant.biprod"]
 uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-kun-separably-closed", "lemma-constructible-common-refinement", "lemma-constructible-pullback-constant", "lemma-constructible-pullback-locally-constant"]
 +++
 Finite direct sums of finite locally constant sheaves are finite locally

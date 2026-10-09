@@ -4,19 +4,23 @@ kind = "section"
 title = "Geometry of the deformation of a section"
 order = 1997
 uses = ["sk-def-purity-conv", "sk-prop-an"]
-lean = ["AlgebraicGeometry.Scheme.Hom.nonempty_deformationToNormalConeData"]
+lean = ["AlgebraicGeometry.Scheme.Hom.isPullback_sectionNormalCone", "AlgebraicGeometry.Scheme.Hom.exists_isPullback_deformationOneFibre", "AlgebraicGeometry.Scheme.Hom.smoothOfRelativeDimension_deformationProj", "AlgebraicGeometry.Scheme.Hom.smoothOfRelativeDimension_sectionNormalConeProj"]
 +++
 *Lemma (sketch).*
 
 In the conventions of [sk-def-purity-conv] let $g:V\to B$ be smooth of pure
 relative dimension $d$ with closed section $s$, and let $N_s\to B$ be the
-normal bundle of $s$ with zero section $0_N$ and projection $\pi_N$. Then:
+normal bundle of $s$ (the fibre of $\widetilde g$ over $t=0$) with zero section
+$0_N$ and projection $\pi_N$. Then:
 
 1. **(1)** *the fibres.* The fibre of $\widetilde g$ over $1$ is
-$(g:V\to B,s)$ and the fibre over $0$ is $(\pi_N:N_s\to B,0_N)$; writing
+$(g:V\to B,s)$, and the fibre over $0$ is $(\pi_N:N_s\to B,0_N)$ by the
+definition of $N_s$; writing
 $i_0,i_1:B\to\Aaf^1_B$ for the two sections, base change gives
 $Li_1^{*}\mathcal F\simeq\mathcal C(g,s)$ and
-$Li_0^{*}\mathcal F\simeq\mathcal C(\pi_N,0_N)$.
+$Li_0^{*}\mathcal F\simeq\mathcal C(\pi_N,0_N)$. Moreover $N_s$ is the normal
+cone $\Spec_B\bigl(\bigoplus_{r\ge0}\mathcal I_s^{\,r}/\mathcal I_s^{\,r+1}\bigr)$,
+and $\pi_N:N_s\to B$ is a vector bundle of rank $d$ with zero section $0_N$.
 1. **(2)** *coordinates.* Since $s$ is a section of a smooth map, there
 are étale-locally coordinates $x_1,\dots,x_d$ on $V$ over $B$ in which $s$
 is $x_i=0$; on the deformation chart $u_i=x_i/t$, so $\widetilde g$ is smooth
@@ -43,8 +47,11 @@ $\Spec_V\bigl(\bigoplus_{r\in\Z}\mathcal I_s^{\,r}t^{-r}\bigr)$, with
 $\mathcal I_s^{\,r}=\mathcal O_V$ for $r\le0$ and $\widetilde g$ induced by
 $t$. Inverting $t$ gives $\mathcal O_V[t,t^{-1}]$, which is (3) and the
 fibre $V$ over $1$; setting $t=0$ gives
-$\bigoplus_{r\ge0}\mathcal I_s^{\,r}/\mathcal I_s^{\,r+1}$, the normal cone,
-a vector bundle because a section of a smooth map is a regular immersion.
+$\bigoplus_{r\ge0}\mathcal I_s^{\,r}/\mathcal I_s^{\,r+1}$, so the fibre $N_s$ over
+$0$ is the normal cone. It is a vector bundle of rank $d$ because a section
+of a smooth map is a regular immersion of codimension $d$: the conormal sheaf
+$\mathcal I_s/\mathcal I_s^{2}$ is locally free of rank $d$ and
+$\bigoplus_r\mathcal I_s^{\,r}/\mathcal I_s^{\,r+1}=\mathrm{Sym}^\bullet(\mathcal I_s/\mathcal I_s^2)$.
 This is (1), the comparison of fibres being base change for $\omega$
 ([sk-prop-cohsm] (c)).
 

@@ -4,7 +4,7 @@ kind = "section"
 title = "Rank-one orientation: the fundamental class of the zero section"
 order = 1950
 uses = ["sk-def-purity-conv", "sk-prop-a1-kummer"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineLineZero"]
+lean = ["AlgebraicGeometry.Etale.isIso_supportedClassMap_kummerBoundary_coord"]
 +++
 *Proposition (sketch).*
 

@@ -4,7 +4,7 @@ kind = "section"
 title = "Co-projection for a closed immersion"
 order = 2005
 uses = ["sk-def-purity-conv"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_derivedTensor_of_isInvertible"]
+lean = ["AlgebraicGeometry.Etale.coprojectionMap", "AlgebraicGeometry.Etale.isIso_coprojectionMap"]
 +++
 *Lemma (sketch).*
 

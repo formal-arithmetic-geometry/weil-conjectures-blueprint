@@ -3,7 +3,7 @@ id = "sk-prop-sf-kunneth-ordinary"
 kind = "section"
 title = "Künneth and the projection formula in ordinary étale cohomology"
 order = 1654
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_kunneth"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_kunneth", "AlgebraicGeometry.Etale.rightDerivedLowerStarProjectionMap", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerStarProjectionMap_of_isProper"]
 +++
 *Proposition (sketch).*
 

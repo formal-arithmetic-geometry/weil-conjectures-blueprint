@@ -5,7 +5,7 @@ title = "Proper morphisms: compact supports equal direct image"
 order = 1876
 tags = ["latex:corollary"]
 uses = ["def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-weil-pbc-derived-exchange", "def-weil-pbc-scheme-conventions", "thm-cbc-finite-torsion"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_rightDerivedLowerStar"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekIsoRightDerivedLowerStar"]
 +++
 For a proper
 $f:X\to Y$ and the canonical identification

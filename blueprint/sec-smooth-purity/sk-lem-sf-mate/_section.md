@@ -4,7 +4,7 @@ kind = "section"
 title = "Mate calculus for a pasted adjunction"
 order = 1869
 uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-prop-sf-comparison", "sk-prop-sf-existence", "sk-thm-sf-comp-composition"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_comp"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekCompIso"]
 +++
 *Lemma (sketch).*
 

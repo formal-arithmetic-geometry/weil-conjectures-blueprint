@@ -4,7 +4,7 @@ kind = "section"
 title = "$\\Aaf^1\\Rightarrow\\Aaf^n$: the model purity"
 order = 1962
 uses = ["sk-def-purity-conv", "sk-lem-sf-mate", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-a1-kummer", "sk-prop-cd", "sk-prop-h2", "sk-prop-sf-cbc", "sk-prop-sf-open-closed-triangle", "sk-thm-properbasechange"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpaceZero"]
+lean = ["AlgebraicGeometry.Etale.affineSpaceThomClass", "AlgebraicGeometry.Etale.isIso_affineSpaceThomClass", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpace", "AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_affineSpace", "AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_sectionNormalConeProj"]
 +++
 *Proposition (sketch).*
 

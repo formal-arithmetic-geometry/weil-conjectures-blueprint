@@ -1,0 +1,1199 @@
+\documentclass[10pt]{article}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\else
+  \usepackage{fontspec}
+\fi
+\usepackage[a4paper,margin=2.2cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{statement}[definition]{Statement}
+\theoremstyle{remark}
+\newtheorem{gap}[definition]{Gap}
+\newtheorem{remark}[definition]{Remark}
+
+\setlist{nosep,leftmargin=2em}
+\emergencystretch=3em
+
+% Lean identifiers (breakable, verbatim underscores)
+\newcommand{\lean}[1]{{\small\nolinkurl{#1}}}
+% Lean identifiers containing Unicode (typeset with \texttt, underscores escaped by hand)
+\newcommand{\leanu}[1]{{\small\texttt{#1}}}
+% Unicode characters in Lean identifiers; `newunicodechar' works with pdfLaTeX, XeLaTeX, LuaLaTeX
+% and tectonic alike (`\DeclareUnicodeCharacter' exists only under pdfLaTeX)
+\usepackage{newunicodechar}
+\newunicodechar{Λ}{\ensuremath{\Lambda}}
+\newunicodechar{≅}{\ensuremath{\cong}}
+\newunicodechar{≫}{\ensuremath{\gg}}
+\newunicodechar{𝔸}{\ensuremath{\mathbb A}}
+\newunicodechar{ι}{\ensuremath{\iota}}
+\newunicodechar{₁}{\ensuremath{{}_1}}
+\newunicodechar{₂}{\ensuremath{{}_2}}
+\newunicodechar{₃}{\ensuremath{{}_3}}
+\newunicodechar{𝔪}{\ensuremath{\mathfrak m}}
+\newunicodechar{𝟙}{\ensuremath{\mathbf 1}}
+% header line of every entry: Lean constant, blueprint node, status of its proof
+\ExplSyntaxOn
+\NewDocumentCommand{\leanlist}{m}
+  { \clist_set:Nn \l_tmpa_clist {#1}
+    \clist_map_inline:Nn \l_tmpa_clist { \lean{##1}\space\space } }
+\ExplSyntaxOff
+\newcommand{\src}[3]{\par\noindent{\footnotesize\raggedright\textsf{Lean:}~\leanlist{#1}\\
+  \textsf{Blueprint:}~\texttt{#2}\quad\textsf{Lean proof:}~#3\par}\smallskip}
+\newcommand{\SORRY}{\textcolor{red!70!black}{\texttt{sorry}}}
+\newcommand{\PROVED}{\textcolor{green!40!black}{term given}}
+\newcommand{\DEF}{definition}
+\newcommand{\CHOSEN}{\textcolor{orange!70!black}{\textsf{[uses the chosen $\alpha$, Def.~\ref{def:chosen-comp}]}}}
+
+\newcommand{\et}{\text{\'et}}
+\newcommand{\pet}{\text{pro\'et}}
+\newcommand{\Sh}[2]{\mathrm{Sh}({#1}_{\et},#2)}
+\newcommand{\ShP}[2]{\mathrm{Sh}({#1}_{\pet},#2)}
+\newcommand{\D}[2]{D({#1}_{\et},#2)}
+\newcommand{\Dp}[2]{D^{+}({#1}_{\et},#2)}
+\newcommand{\DP}[2]{D({#1}_{\pet},#2)}
+\newcommand{\Mod}{\mathrm{Mod}}
+\newcommand{\Aff}[2]{\mathbb A^{#1}_{#2}}
+\newcommand{\one}{\mathbf 1}
+\newcommand{\Lt}{\otimes^{L}}
+\newcommand{\Spec}{\operatorname{Spec}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\RHom}{R\mathcal{H}om}
+\newcommand{\Ex}{\operatorname{Ex}}
+\newcommand{\ctf}{\mathrm{ctf}}
+\newcommand{\Dbc}{D^b_c}
+\newcommand{\Dbctf}{D^b_{\ctf}}
+\newcommand{\exiso}{\mathrel{\overset{\exists}{\cong}}}
+
+\newcommand{\stacks}[1]{\href{https://stacks.math.columbia.edu/tag/#1}{Stacks~#1}}
+
+\title{Smooth Purity: the Lean statements, read literally}
+\author{}
+\date{Branch \texttt{smooth-purity} (HEAD \texttt{f1f58aec} plus the uncommitted changes of the canonical-maps work) of
+\texttt{formal-arithmetic-geometry/weil-conjectures}}
+
+\begin{document}
+\maketitle
+
+\section*{Purpose and reading conventions}
+
+This document restates, in mathematical language, every Lean declaration attached
+(through the \texttt{lean = [...]} field) to a node of the blueprint chapter
+\texttt{sec-smooth-purity}, i.e.\ the ``Smooth Purity'' section of
+\texttt{wholeblueprint-final.tex}, together with the Lean definitions these statements
+are phrased in. The aim is \emph{exactness with respect to the Lean code}, not
+readability or mathematical correctness. Proofs are omitted.
+
+\begin{enumerate}
+\item \textbf{Hypotheses.} The hypotheses listed for a statement are exactly the binders
+of the elaborated Lean constant, as printed by \texttt{\#check} against the built
+\texttt{.olean} files (Lean \texttt{v4.33.1}). In particular a section variable that a
+statement does not mention is \emph{not} a hypothesis, even though it appears in the
+\texttt{variable} line of the file; and an instance hypothesis that is never used is still
+listed. Where this makes the Lean statement differ from the blueprint statement, a
+\emph{Gap} remark says so.
+\item \textbf{``There exists an isomorphism''} renders the Lean type
+\leanu{Nonempty (a ≅ b)}. It asserts only that \emph{some} isomorphism exists: no map is
+named, and no naturality, canonicity, normalisation, base-change or composition
+compatibility is asserted unless it is written out.
+\item \textbf{Universes.} Every scheme lives in a fixed universe $u$
+(\lean{Scheme.{u}}). A coefficient ring is $\Lambda:\mathtt{Type}\,(u+1)$, commutative.
+$\Mod_\Lambda$ denotes \lean{ModuleCat.{u+1} Λ}. A coefficient category is
+$A:\mathtt{Type}\,u'$ with morphisms in $\mathtt{Type}\,(u+1)$.
+\item \textbf{Status.} ``Lean proof: \SORRY'' means that the proof body of the declaration is
+literally \texttt{sorry}; ``\PROVED'' means that a proof term or construction is given.
+Every declaration below depends \emph{transitively} on \texttt{sorryAx} (for instance
+through sheafification on small sites, or through the existence of the right adjoint
+$Rf^!$), so ``\PROVED'' does not mean axiom-free.
+\item \textbf{Canonical maps.} Where the blueprint states that a specific map is an isomorphism, the
+Lean side defines that map (a \lean{def}) and states \lean{IsIso} of it; ``there exists an isomorphism'' is used only where
+no canonical map is available, and a Gap says why. Maps built from the chosen composition isomorphism of $Rf_!$
+(Def.~\ref{def:chosen-comp}) are marked \CHOSEN.
+\item \textbf{Blueprint names without a Lean declaration} are collected in
+Appendix~\ref{app:missing}.
+\end{enumerate}
+
+\tableofcontents
+
+%======================================================================
+\section{Standing hypotheses on coefficients}
+%======================================================================
+
+The following bundles of type-class hypotheses on a coefficient category $A$ recur. They
+are named here only for brevity; each statement says which bundles it carries.
+
+\begin{definition}[Hypothesis bundles]\label{def:bundles}
+Let $A:\mathtt{Type}\,u'$.
+\begin{itemize}
+\item[\textbf{(Ab)}] $A$ is a category with $\Hom$-types in $\mathtt{Type}\,(u+1)$, is
+abelian, and is Grothendieck abelian at universe level $u+1$
+(\lean{IsGrothendieckAbelian.{u + 1} A}).
+\item[\textbf{(Mon)}] $A$ carries a monoidal category structure that is monoidal
+preadditive, symmetric and monoidal closed, and $A$ has functorial flat resolutions
+(\leanu{Abelian.HasFunctorialFlatResolution A}).
+\item[\textbf{(Shf)}] \leanu{HasSmallSiteSheafify A}: for every category $C$ in
+$\mathtt{Type}\,(u+1)$ with $\Hom$-types in $\mathtt{Type}\,(u+1)$ and every Grothendieck
+topology $J$ on $C$, $A$-valued presheaves on $(C,J)$ admit sheafification
+(\leanu{HasSheafify J A}).
+\item[\textbf{(Conc)}] $A$ is a concrete category, with
+$\mathrm{FA}:A\to A\to\mathtt{Type}\,(u+1)$ and carrier $\mathrm{CA}:A\to\mathtt{Type}\,(u+1)$.
+\item[\textbf{(Conc$^+_T$)}] for a scheme $T$: $A$ is a concrete category (with
+$\mathrm{FC}$ in an arbitrary universe, carrier in $\mathtt{Type}\,(u+1)$), the forgetful
+functor reflects isomorphisms and preserves filtered colimits of size $u+1$, and
+$T_{\et}$ satisfies \leanu{HasSheafCompose (forget A)}.
+\end{itemize}
+For $A=\Mod_\Lambda$ the needed instances are found by instance resolution. That is
+why the statements specialised to $\Lambda$ do not list these bundles.
+\end{definition}
+
+%======================================================================
+\section{Definitions}
+%======================================================================
+
+\subsection{Sites, sheaves and derived categories}
+
+\begin{definition}\label{def:sheaves}
+For a scheme $X$, $\Sh{X}{A}$ is \leanu{Sheaf X.smallEtaleTopology A}, the category of
+$A$-valued sheaves on the small étale site of $X$. $\D{X}{A}$ is the \emph{unbounded}
+derived category \leanu{DerivedCategory (Sheaf X.smallEtaleTopology A)}, and $\Dp{X}{A}$ is
+the bounded-below one \lean{DerivedCategory.Plus}. $\ShP{X}{A}$ and $\DP{X}{A}$ are the
+analogues for the small pro-étale topology \leanu{Scheme.ProEt.topology X}. For
+$A=\Mod_\Lambda$ we write $\D{X}{\Lambda}$. $H^q:\D{X}{A}\to\Sh{X}{A}$ is
+\leanu{DerivedCategory.homologyFunctor \_ q}, and $\iota_0$ is the functor
+\leanu{DerivedCategory.singleFunctor \_ 0} placing an object in degree $0$.
+The canonical t-structure is Mathlib's \lean{DerivedCategory.TStructure.t}; an object is
+\emph{bounded} (\lean{t.bounded}) if it is both $\ge n$ and $\le n'$ for some
+$n,n'\in\mathbb Z$. The property \leanu{homologyConcentratedIn a b} means $\ge a$ and $\le b$ in
+that t-structure.
+\end{definition}
+
+\begin{definition}[Derived functors]\label{def:derived}
+For an additive functor $F$ between abelian categories:
+\begin{itemize}
+\item $\mathrm{R}(F)$ (\lean{Functor.rightDerivedFunctor}) is the total right derived
+functor $D\to D$ of $F$ on unbounded derived categories, computed with K-injective
+resolutions (\lean{totalRightDerived} of $F$ on homotopy categories followed by $Q_h$, with
+respect to quasi-isomorphisms).
+\item $\mathrm{L}(F)$ (\lean{Functor.leftDerivedFunctor}) is the total left derived functor
+with respect to the K-flat left derivability structure. It requires $F$ to preserve K-flat
+quasi-isomorphisms.
+\item $\mathrm{D}(F)$ (\lean{mapDerivedCategory}) is the functor induced by an exact $F$.
+$\mathrm{R}^{+}(F)$ and $\mathrm{D}^{+}(F)$ are the bounded-below analogues
+(\lean{rightDerivedFunctorPlus}, \lean{mapDerivedCategoryPlus}).
+\end{itemize}
+\end{definition}
+
+\begin{definition}[Underived operations on étale sheaves]\label{def:sf-operations-underived}
+Assume (Ab). Let $g:Z\to Y$ be a morphism of schemes.
+\begin{itemize}
+\item $g_*:\Sh{Z}{A}\to\Sh{Y}{A}$ (\lean{AlgebraicGeometry.Etale.lowerStar}) is the
+sheaf pushforward along the continuous functor ``base change along $g$'' from étale
+$Y$-schemes to étale $Z$-schemes, so that $(g_*G)(V\to Y)=G(V\times_YZ\to Z)$.
+\item $g^*:\Sh{Y}{A}\to\Sh{Z}{A}$ (\lean{AlgebraicGeometry.Etale.upperStar}) is
+\lean{Functor.sheafPullbackConstruction.sheafPullback} of the same base-change functor:
+pointwise left Kan extension of presheaves followed by sheafification. It is left
+adjoint to $g_*$ (\lean{Etale.upperStarLowerStarAdjunction}).
+\item For an open immersion $j:U\to X$, $j_!:\Sh{U}{A}\to\Sh{X}{A}$
+(\lean{AlgebraicGeometry.Etale.openImmersionLowerShriek}) is
+\leanu{Etale.localizationLowerShriek A j}, extension by zero. It is left adjoint to $j^*$
+(\lean{Etale.openImmersionLowerShriekUpperStarAdjunction}).
+\end{itemize}
+Proof status: \PROVED\ (\DEF s).
+\end{definition}
+
+\begin{definition}[Derived pullback, pushforward, tensor and internal Hom]\label{def:derived-ops}
+Assume (Ab) and (Mon). Then $Lg^*:=\mathrm{L}(g^*):\D{Y}{A}\to\D{Z}{A}$ and
+$Rg_*:=\mathrm{R}(g_*):\D{Z}{A}\to\D{Y}{A}$. The adjunction $Lg^*\dashv Rg_*$ is
+\lean{Etale.derivedUpperStarLowerStarAdjunction}.
+\begin{itemize}
+\item $-\Lt-:\D{X}{A}\to\D{X}{A}\to\D{X}{A}$
+(\lean{AlgebraicGeometry.Etale.derivedTensor}) is \lean{curriedTensor} of the monoidal
+structure on $\D{X}{A}$ obtained from the K-flat left derivability structure
+(\lean{DerivedCategory.hasDerivedMonoidalCategory}). Its monoidal unit is written $\one_{\D{X}{A}}$, or $\one$
+(Lean \leanu{𝟙\_ \_}); it is isomorphic to the unit of $\Sh{X}{A}$ placed in degree $0$ (\lean{unitIsoSingle}).
+\item $\RHom:\D{X}{A}^{\mathrm{op}}\to\D{X}{A}\to\D{X}{A}$
+(\lean{AlgebraicGeometry.Etale.derivedHom}) is \lean{MonoidalClosed.internalHom} of that
+monoidal closed structure.
+\end{itemize}
+Further named isomorphisms used below:
+\lean{leftDerivedUpperStarComp}: $L(g_1g_2)^*\cong Lg_1^*\circ Lg_2^*$ (written
+$L(g_1\gg g_2)^*\cong Lg_2^*\ggg Lg_1^*$), and \lean{leftDerivedUpperStarTensorIso}:
+$Lg^*(K\Lt M)\cong Lg^*K\Lt Lg^*M$, which requires the extra class
+\leanu{UpperStarPreservesFlat A}; and the unit comparison \lean{leftDerivedUpperStarUnit}: $Lg^*\one\to\one$, composed of
+$\one\cong\iota_0(\one)$ (\lean{unitIsoSingle}), $Lg^*\iota_0\cong\iota_0g^*$ on the exact $g^*$, and the oplax unit
+$g^*\one\to\one$ of $g^*$. That it is an isomorphism (\lean{isIso_leftDerivedUpperStarUnit}) is \SORRY.
+\end{definition}
+
+\subsection{Compactifications and the compactly supported operations}
+
+\begin{definition}[Compactifications]\label{def:compactification}
+\src{AlgebraicGeometry.Compactification}{(Nagata chapter)}{\DEF}
+A \emph{compactification} $c$ of $f:X\to Y$ is a tuple $(Z,g,i)$ with $g:Z\to Y$ proper,
+$i:X\to Z$ an open immersion, and $f=i\gg g$ (that is, $f=g\circ i$).
+\leanu{HasCompactification f} is the proposition that some compactification of $f$ exists.
+Given it, \leanu{HasCompactification.compactification f} is \emph{one arbitrary
+compactification}, chosen by \lean{Classical.arbitrary}; we denote it $c_f$.
+A \emph{refinement} $r:c\to d$ of compactifications of the same $f$
+(\lean{Compactification.Refinement}) is a morphism $r:c.Z\to d.Z$ with $c.i\gg r=d.i$
+and $r\gg d.g=c.g$. \leanu{Compactification.ofIsPullback sq c} is the base change of $c$ along
+a cartesian square $sq$: ambient scheme $c.Z\times_{Y}Y'$, with the induced maps.
+\end{definition}
+
+\begin{definition}[Compactly supported direct image]\label{def:lower-shriek}
+\src{AlgebraicGeometry.Etale.rightDerivedLowerShriek}{sk-def-sf-operations}{\DEF}
+Assume (Ab). For a compactification $c=(Z,g,i)$ of $f$,
+\[
+Rf_!(c):=\mathrm D(i_!)\ggg Rg_*:\ \D{X}{A}\to\D{Y}{A}
+\qquad(\text{\lean{rightDerivedLowerShriekOfCompactification}}),
+\]
+i.e.\ $K\mapsto Rg_*(i_!K)$, where $i_!$ is applied degreewise ($i_!$ is exact). It is
+\emph{not} the derived functor of $g_*i_!$. The bounded-below version is
+$Rf_!(c)^+:=\mathrm D^+(i_!)\ggg\mathrm R^+(g_*)$. For $f$ with
+\leanu{HasCompactification f}, $Rf_!:=Rf_!(c_f)$ with $c_f$ the chosen compactification of
+Definition~\ref{def:compactification}.
+\end{definition}
+
+\begin{definition}[Exceptional inverse image]\label{def:upper-shriek}
+\src{AlgebraicGeometry.Etale.rightDerivedUpperShriek}{sk-def-sf-operations}{\DEF}
+Assume (Ab), and let $f$ admit a compactification. The instance
+\lean{isLeftAdjoint_rightDerivedLowerShriek} asserts that $Rf_!$ is a left adjoint; its proof is \SORRY.
+Then $Rf^!:\D{Y}{A}\to\D{X}{A}$ is \lean{(R(f)_![A]).rightAdjoint}, an \emph{arbitrary
+choice} of right adjoint of $Rf_!$, and
+\lean{rightDerivedUpperShriekAdjunction}: $Rf_!\dashv Rf^!$ is the adjunction obtained from
+that choice. No property of $Rf^!$ other than this adjunction is definitional.
+\end{definition}
+
+\begin{definition}[The chosen composition isomorphism]\label{def:chosen-comp}
+\src{AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp, AlgebraicGeometry.Etale.rightDerivedLowerShriekCompIso}{sk-thm-sf-comp-composition}{existence \SORRY; the choice is a \DEF}
+\textbf{Declaration.} For $f:X\to Y$, $g:Y\to S$ with $f$, $g$, $f\gg g$ admitting compactifications, Lean states only that
+\emph{some} isomorphism $R(f\gg g)_!\cong Rf_!\ggg Rg_!$ exists, and then \emph{chooses one}
+(\lean{Classical.choice}):
+\[
+\alpha_{f,g}:\ R(f\gg g)_!\ \xrightarrow{\ \sim\ }\ Rf_!\ggg Rg_!\qquad(\text{\lean{rightDerivedLowerShriekCompIso}}).
+\]
+This chosen $\alpha$ is \emph{not} the blueprint's canonical composition isomorphism of \texttt{sk-thm-sf-comp-composition}
+(built from compactifications and proper base change): nothing ties it to compactifications, it need not be the identity
+when $f$ or $g$ is an identity, and it need not be associative. Every map below that is built from it is marked
+\CHOSEN; all such maps are \lean{@[no_expose]} definitions, and statements about them hold for this particular choice.
+\end{definition}
+
+\begin{definition}[Derived global sections and compact support cohomology]\label{def:RGamma}
+Assume (Ab).
+$R\Gamma(X,-):=\mathrm R(\Gamma(X_{\et},-)):\D{X}{A}\to D(A)$
+(\lean{Etale.rightDerivedGlobalSections}). For $f:X\to Y$ admitting a compactification,
+$R\Gamma_c(X/Y,-):=Rf_!\ggg R\Gamma(Y,-)$ (\lean{compactlySupportedGlobalSections}) and
+$H^q_c(X/Y,-):=H^q\circ R\Gamma_c(X/Y,-):\D{X}{A}\to A$ (\lean{compactlySupportedCohomology},
+notation \lean{H_c(f)[A](q)}).
+\end{definition}
+
+\begin{definition}[Dualizing complex]\label{def:dualizing}
+\src{AlgebraicGeometry.Etale.dualizingComplex}{sk-def-purity-conv}{\DEF}
+Assume (Ab), (Mon). Let $a:X\to S$ be a morphism admitting a compactification, and let $\one_{\D{S}{A}}$ be the
+monoidal unit of $\D{S}{A}$ for the derived tensor product. The \emph{dualizing complex} of $a$ is the object
+\[
+\omega_a\ :=\ Ra^!\bigl(\one_{\D{S}{A}}\bigr)\ \in\ \D{X}{A},
+\]
+where $Ra^!$ is the chosen right adjoint of $Ra_!$ of Def.~\ref{def:upper-shriek}. For $A=\Mod_\Lambda$ the unit is the
+constant complex, $\one_{\D{S}{\Lambda}}=\Lambda_S$ (Def.~\ref{def:constant}), so $\omega_a=Ra^!\Lambda_S$, which is the
+blueprint's $\omega_a$. It is determined up to unique isomorphism, since $Ra^!$ is a right adjoint; nothing else about
+$\omega_a$ (constructibility, invertibility for smooth $a$, base change) is definitional: those are
+Statements~\ref{st:dualizing-comp}, \ref{st:cohsm} and~\ref{st:smooth-purity}.
+\end{definition}
+
+\subsection{Coefficient objects and finiteness conditions}
+
+\begin{remark}[Notation: the constant complex]\label{def:constant}
+\src{AlgebraicGeometry.Etale.constantComplex}{sk-def-sf-setting}{an \lean{abbrev}}
+For $A=\Mod_\Lambda$ the unit of Def.~\ref{def:derived-ops} is written $\Lambda_X:=\one_{\D{X}{\Lambda}}$, because every
+statement of the purity chapter is normalized against it. This is notation, not a new object:
+\leanu{constantComplex Λ X} is an \lean{abbrev} for \leanu{𝟙\_ \_}, and is not identified with a constant sheaf by definition.
+\end{remark}
+
+\begin{definition}[Stratifications, finite / locally constant / constructible sheaves]\label{def:constructible}
+\begin{enumerate}
+\item A \emph{topological stratification} of a space $T$ (\lean{Topology.Stratification}) is
+$n\in\mathbb N$ and subsets $T_0,\dots,T_{n-1}$ that are locally closed, pairwise disjoint and
+cover $T$. A \emph{stratification of a scheme} $X$ (\lean{Scheme.Stratification}) is a
+topological stratification of $|X|$ together with, for each $k<n$, a scheme $X_k$ and an
+immersion $\iota_k:X_k\to X$ with set-theoretic image exactly $T_k$.
+\item Assume (Ab), (Conc). $F\in\Sh{X}{A}$ is \emph{finite} (\lean{IsFiniteSheaf}) if for every
+field $\Omega$ in $\mathtt{Type}\,u$ that is separably closed and every $s:\Spec\Omega\to X$,
+the underlying type of the stalk (\leanu{(pointSmallEtale s).sheafFiber.obj F}) is finite.
+\item $F$ is \emph{locally constant} (\lean{IsLocallyConstantSheaf}) if there is an étale cover
+$\{U_i\to X\}$ (a cover for \lean{Scheme.etalePrecoverage}) such that the restriction of $F$ to
+each localised site $X_{\et}/U_i$ is constant (\lean{Sheaf.IsConstant}).
+\item Assume (Ab), (Conc) [and (Shf) where stated]. $F$ is \emph{constructible}
+(\lean{IsConstructibleSheaf}) if there is a stratification of $X$ such that
+$\iota_k^*F$ is locally constant and finite for every $k$. ``Finite locally constant'' is not a separate notion: it is
+the two conditions (2) and (3) together, and statements assume both.
+\end{enumerate}
+\end{definition}
+
+\begin{definition}[Bounded constructible objects]\label{def:sf-setting}
+\src{AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructible}{sk-def-sf-setting}{\DEF}
+Assume (Ab), (Conc). $M\in\D{X}{A}$ has \emph{constructible homology}
+(\lean{Etale.DerivedCategory.constructibleHomology}) if $H^n(M)$ is constructible for all
+$n\in\mathbb Z$. $M$ is \emph{bounded constructible}
+(\lean{Etale.DerivedCategory.boundedConstructible}) if it is bounded for the canonical
+t-structure \emph{and} has constructible homology. $\Dbc(X,A)$
+(\lean{Etale.DerivedCategoryBoundedConstructible}) is the full subcategory of these objects.
+\leanu{Etale.constructibleSheaf A X} is constructibility as an object property of $\Sh{X}{A}$.
+\end{definition}
+
+\begin{definition}[Tor amplitude]\label{def:tor}
+\src{DerivedCategory.torAmplitudeIn, DerivedCategory.finiteTorAmplitude}{sk-def-sf-setting}{\DEF s}
+For an abelian $C$ with a monoidal structure on $D(C)$, $M\in D(C)$ has \emph{Tor amplitude in $[a,b]$} if for every
+$F\in C$ the object $M\otimes\iota_0F$ has homology concentrated in $[a,b]$; it has \emph{finite Tor amplitude} if this
+holds for some $a,b\in\mathbb Z$. On étale sites these are \leanu{Etale.DerivedCategory.torAmplitudeIn A X a b} and
+\leanu{Etale.DerivedCategory.finiteTorAmplitude A X}, the case $C=\Sh{X}{A}$; for $\Lambda$-coefficients one takes
+$A=\Mod_\Lambda$, there is no separate $\Lambda$-version.
+\end{definition}
+
+\begin{definition}[$\Dbctf$]\label{def:ctf}
+\src{AlgebraicGeometry.Etale.DerivedCategory.constructibleFiniteTor}{sk-def-sf-setting}{\DEF}
+Assume (Ab), (Mon), (Conc), (Shf). $K\in\D{X}{A}$ lies in $\Dbctf(X,A)$ iff $K$ is bounded constructible
+(Def.~\ref{def:sf-setting}) and has finite Tor amplitude (Def.~\ref{def:tor}). This is an object property; the full
+subcategory is \leanu{DerivedCategoryFiniteTor A X}. $\Dbctf(X,\Lambda)$ is the case $A=\Mod_\Lambda$.
+\end{definition}
+
+\begin{remark}[Bounded flat complexes]\label{def:flatcx}
+There is no separate definition. A \emph{bounded flat complex in $[a,b]$} is a $\mathbb Z$-indexed cochain complex $P$ in
+$\Sh{X}{\Mod_\Lambda}$ with \leanu{P.IsStrictlyGE a} and \leanu{P.IsStrictlyLE b} (Mathlib: $P^q=0$ for $q<a$ or $q>b$)
+and every $P^q$ flat (\lean{ObjectProperty.flat}), and statements spell these three conditions out. Flatness is that
+$P^q\otimes-$ is exact; the Lean definition, written for an arbitrary monoidal category, also asks $-\otimes P^q$ to be
+exact, which is automatic here because $\Sh{X}{\Mod_\Lambda}$ is braided ($\Lambda$ is commutative).
+\end{remark}
+
+\begin{definition}[Invertible objects]\label{def:invertible}
+\leanu{Etale.DerivedCategory.isInvertible Λ X L}: there is $M\in\D{X}{\Lambda}$ with an
+isomorphism $L\Lt M\cong\Lambda_X$.
+\end{definition}
+
+\begin{definition}[Invertible exponent]\label{def:invexp}
+\src{AlgebraicGeometry.HasInvertibleExponent}{sk-def-purity-conv}{\DEF}
+$\Lambda$ (any commutative ring) has invertible exponent on $X$ if there is $n\in\mathbb N$
+with $n>0$, $n\cdot1_\Lambda=0$, and $n$ a unit in $\Gamma(X,\mathcal O_X)$.
+\end{definition}
+
+\begin{definition}[Finite reduction]\label{def:reduction}
+For an ideal $J\subseteq\Lambda$, \leanu{reductionModIdeal Λ X J}$:\D{X}{\Lambda}\to\D{X}{\Lambda}$ is
+$K\mapsto K\Lt\iota_0\bigl(\underline{\Lambda/J}\bigr)$, where $\underline{\Lambda/J}$ is the
+constant sheaf (\lean{constantSheaf}) on the $\Lambda$-module $\Lambda/J$.
+\end{definition}
+
+\subsection{Tate twist datum, twists, section invariant}
+
+\begin{definition}[Tate twists]\label{def:tate}
+\src{AlgebraicGeometry.Scheme.rootsOfUnitySheaf, AlgebraicGeometry.Etale.tateSheaf, AlgebraicGeometry.Etale.tateObject, AlgebraicGeometry.Etale.tateTwist, AlgebraicGeometry.Etale.twistShift}{sk-def-purity-conv}{\DEF s}
+Let $n:=\operatorname{char}\Lambda$ (\leanu{ringChar Λ}), the exponent of $\Lambda$ when $\Lambda$ is finite.
+\begin{enumerate}
+\item $\mu_n:=\ker(n:\mathbb G_m\to\mathbb G_m)$ is the sheaf of $n$-th roots of unity on $X_{\et}$
+(\lean{Scheme.rootsOfUnitySheaf}), with $\mathbb G_m$ the étale sheaf of units (\lean{Scheme.gmSheaf}).
+\item $\Lambda_X(1)^\flat:=\Lambda\otimes_{\mathbb Z}\mu_n$, the sheafification of the objectwise extension of scalars
+(\lean{tateSheaf}), and $\Lambda_X(1):=\iota_0\Lambda_X(1)^\flat$.
+\item $\Lambda_X(0):=\Lambda_X$, $\Lambda_X(k+1):=\Lambda_X(k)\Lt\Lambda_X(1)$ for $k\in\mathbb N$, and
+$\Lambda_X(-k):=\RHom(\Lambda_X(k),\Lambda_X)$ for $k\ge1$ (\lean{tateObject}).
+\item $K(m):=K\Lt\Lambda_X(m)$ (\lean{tateTwist}) and $K(m)[2m]:=(K\Lt\Lambda_X(m))[2m]$ (\lean{twistShift}); so
+``$\Lambda_X(m)[2m]$'' in a statement means \leanu{twistShift} applied to $\Lambda_X$.
+\end{enumerate}
+The identifications $\Lambda_X(0)\cong\Lambda_X$ (by definition), $\Lambda_X(m)\Lt\Lambda_X(m')\cong\Lambda_X(m+m')$ and
+$Lf^*\Lambda_Y(m)\cong\Lambda_X(m)$ (\lean{tateObjectZeroIso}, \lean{tateObjectAddIso}, \lean{leftDerivedUpperStarTateObjectIso}), and
+their unit, associativity, composition and product coherences, are declarations about these objects. The last two
+isomorphisms assume $\Lambda$ of invertible exponent (on $X$, resp.\ $Y$), without which they do not exist; their bodies and
+all coherences are \SORRY. That $\Lambda_X(m)$ is invertible and lies in
+$\Dbctf(X,\Lambda)$ is a theorem for $\Lambda$ finite with invertible exponent on $X$ (\SORRY); it fails otherwise, e.g.\
+$\mu_p=0$ on reduced schemes of characteristic $p$.
+\end{definition}
+
+\begin{definition}[Kummer class]\label{def:kummer}
+\src{AlgebraicGeometry.Scheme.kummerSequence, AlgebraicGeometry.Etale.kummerClass, AlgebraicGeometry.Etale.kummerBoundary, AlgebraicGeometry.Etale.supportedClassMap, AlgebraicGeometry.Etale.kummerBoundaryProduct}{sk-def-purity-conv}{\DEF s}
+For a unit $u\in\Gamma(X,\mathcal O_X)^\times$, the \emph{Kummer class} $\kappa(u):\Lambda_X\to\Lambda_X(1)[1]$ (\lean{kummerClass}) is $u$,
+viewed as a map $\mathbb Z_X\to\mathbb G_m$, followed by the connecting map $\mathbb G_m\to\mu_n[1]$ of the Kummer sequence
+$0\to\mu_n\to\mathbb G_m\xrightarrow{n}\mathbb G_m\to0$ (\lean{Scheme.kummerSequence}, short exact when $n$ is invertible on $X$),
+tensored with $\Lambda$; it assumes $\Lambda$ of invertible exponent on $X$. Concretely: pull the Kummer sequence back along $u$
+to $0\to\mu_n\to E_u\to\mathbb Z_X\to0$, extend scalars to $\Lambda$, and take the connecting map of the resulting short exact
+sequence. The definition has no \SORRY; it uses the \SORRY ed exactness \lean{kummerExtensionScalars_shortExact}. Naturality
+under $Lf^*$ (\lean{leftDerivedUpperStar_map_kummerClass}) and $\kappa(uv)=\kappa(u)+\kappa(v)$ (\lean{kummerClass_mul}) are
+theorems (\SORRY). From it: the \emph{Kummer
+boundary} $\partial\kappa(f):\Lambda_U\to(Ri_!Ri^!\Lambda_U(1))[2]$ for $f\in\Gamma(U,\mathcal O_U)$, $i:V(f)\to U$ (the adjoint of
+$\kappa(f|_{D(f)})$ followed by the boundary of the supported localization triangle); the adjoint $\Lambda_Z\to Ri^!L$ of a class
+with supports (\lean{supportedClassMap}); and the cup product $\partial\kappa(f_1)\cup\cdots\cup\partial\kappa(f_n)$
+(\lean{kummerBoundaryProduct}).
+\end{definition}
+
+\begin{remark}[Former interface classes]
+Earlier versions took the twist and the Kummer classes as parameters (\leanu{HasTateTwist Λ}, \leanu{HasKummerClass Λ},
+\leanu{HasKummerClass.IsNormalized Λ}). Statements quantified over all such data were false over non-separably-closed bases,
+since the untwisted datum $\Lambda(m):=\Lambda$ satisfies every axiom. The classes are removed; the normalization is now the
+theorem of Statement~\ref{st:a1}.
+\end{remark}
+
+\begin{definition}[Section invariant]\label{def:section-invariant}
+\src{AlgebraicGeometry.Etale.sectionInvariant}{sk-def-purity-conv}{\DEF}
+For $g:V\to B$ admitting a compactification and \emph{any} morphism $s:B\to V$ (no section
+condition is imposed),
+$\mathcal C(g,s):=Ls^*\omega_g=Ls^*Rg^!\Lambda_B\in\D{B}{\Lambda}$, with $A=\Mod_\Lambda$.
+\end{definition}
+
+\subsection{Geometry: affine space, regular immersions, normal cones, deformation}
+
+\begin{definition}[Affine space and its sections]\label{def:affine}
+$\Aff{n}{S}$ is \leanu{𝔸(ULift (Fin n); S)}, affine $n$-space over $S$ with coordinates indexed by
+$\mathrm{ULift}(\mathrm{Fin}\,n)$, and $p:\Aff nS\to S$ is its structure map. The zero section
+$0:S\to\Aff nS$ (\lean{AffineSpace.zeroSection}) and unit section $1:S\to\Aff nS$
+(\lean{AffineSpace.oneSection}) are the $S$-points all of whose coordinates are $0$, resp.\ $1$.
+\end{definition}
+
+\begin{definition}[Regular immersion]\label{def:regimm}
+\src{AlgebraicGeometry.IsRegularImmersion}{sk-lem-diag-reg}{\DEF}
+$i:Z\to X$ is a \emph{regular immersion of pure codimension $c$} if $i$ is a closed immersion
+and for every $x\in X$ (including $x\notin i(Z)$) there are an affine open $U\ni x$ and a list
+$r=(r_1,\dots,r_c)$ of elements of $\Gamma(X,U)$ of length exactly $c$ that is \emph{weakly}
+regular in $\Gamma(X,U)$ (\lean{RingTheory.Sequence.IsWeaklyRegular}) and generates the ideal
+$\ker(i)(U)$.
+\end{definition}
+
+\begin{definition}[Deformation to the normal cone of a section]\label{def:dnc}
+\src{AlgebraicGeometry.Scheme.Hom.deformationSpace, AlgebraicGeometry.Scheme.Hom.deformationProj, AlgebraicGeometry.Scheme.Hom.deformationSection}{sk-def-purity-conv}{\DEF s}
+Let $g:V\to B$ and $s:B\to V$ with $s\gg g=\mathrm{id}_B$ and $s$ a closed immersion. Put $W=V\times_B\Aff1B$
+(\lean{deformationAmbient}), let $c=(s,0):B\to W$ (\lean{deformationCenter}) and $e=(\mathrm{id},0\circ g):V\to W$
+(\lean{deformationClosedFibre}); both are closed immersions (proved). Let $I=\ker c$ (\lean{deformationCenterIdeal}),
+$\mathrm{Bl}_IW\to W$ the blow-up of the repository (\lean{Scheme.IdealSheafData.blowup}, glued from affine blow-ups) and
+$\widetilde e\to\mathrm{Bl}_IW$ the strict transform of $e$ (\lean{strictTransformMap}: the scheme-theoretic image of the
+part of $V\times_W\mathrm{Bl}_IW$ over the complement of the support of $I$), a closed immersion. Then
+\[
+\mathcal D_sV:=\mathrm{Bl}_IW\setminus\mathrm{range}(\widetilde e)\quad(\text{an open subscheme}),\qquad
+\tilde g:\mathcal D_sV\hookrightarrow\mathrm{Bl}_IW\to W\xrightarrow{\mathrm{pr}_2}\Aff1B .
+\]
+The section $\tilde s:\Aff1B\to\mathcal D_sV$ (\lean{deformationSection}) is \emph{a choice} (\lean{Classical.choose})
+from Statement~\ref{st:geometry}(0): some $\sigma$ with $\sigma\gg\tilde g=\mathrm{id}$ lifting $(s\circ p,\mathrm{id}):\Aff1B\to W$.
+\end{definition}
+
+\begin{definition}[Normal bundle of a section]\label{def:normalcone}
+\src{AlgebraicGeometry.Scheme.Hom.sectionNormalCone}{sk-def-purity-conv}{\DEF}
+In the situation of Definition~\ref{def:dnc}, $N_s:=\mathcal D_sV\times_{\tilde g,\Aff1B,0}B$ is the fibre of $\tilde g$ over the
+zero section. Its projection $\pi_N:N_s\to B$ is the second projection (\lean{sectionNormalConeProj}), and $\iota_0:N_s\to\mathcal D_sV$ is the
+first (\leanu{sectionNormalConeι}). The zero section is $0_N:=(0\gg\tilde s,\mathrm{id}):B\to N_s$ (\lean{sectionNormalConeZero}), so
+$0_N\gg\pi_N=\mathrm{id}$ and $0_N\gg\iota_0=0\gg\tilde s$.
+\end{definition}
+
+\begin{gap}
+The definition is the blueprint's (\texttt{def-pur-normal-bundle}): $N_s$ is the fibre of $\tilde g$ over $0$. The blueprint
+also asserts that $N_s$ is the normal cone $\Spec_B\bigoplus_{r\ge0}\mathcal I^r/\mathcal I^{r+1}$ and a vector bundle of rank $d$
+(\texttt{sk-lem-geometry}(1)). Lean has neither relative $\Spec$ nor vector bundles, so it states only that $\pi_N$ is smooth of
+relative dimension $d$ (Statement~\ref{st:geometry}(4)). What smooth purity, Step~3, uses of the vector-bundle structure is
+stated separately as Statement~\ref{st:an-vb}.
+\end{gap}
+
+\begin{definition}[Smoothness (Mathlib)]\label{def:smooth}
+\leanu{SmoothOfRelativeDimension n f}: for each $x\in X$ there are affine opens $V\ni x$,
+$U\ni f(x)$ with $V\subseteq f^{-1}U$ such that $\Gamma(Y,U)\to\Gamma(X,V)$ is standard smooth of
+relative dimension $n$ (it has a submersive presentation of dimension $n$).
+\leanu{Smooth f} is Mathlib's smoothness without a fixed dimension.
+\end{definition}
+
+\subsection{Exchange maps}
+
+\begin{definition}[Exchange transformations]\label{def:sf-exchanges}
+\src{AlgebraicGeometry.Etale.baseChange, AlgebraicGeometry.Etale.derivedBaseChangeMapPlus, AlgebraicGeometry.Etale.derivedBaseChangeMap, AlgebraicGeometry.Etale.rightDerivedLowerShriekBaseChangeMap}{sk-def-sf-exchanges}{\DEF s}
+Let $sq$ be a commutative square $g'\gg f=f'\gg g$ with $f:X\to Y$, $g:Y'\to Y$,
+$f':X'\to Y'$, $g':X'\to X$.
+\begin{enumerate}
+\item \leanu{Etale.derivedBaseChangeMapPlus A sq} (Ab):
+$\mathrm R^+(f_*)\ggg\mathrm D^+(g^*)\Rightarrow\mathrm D^+(g'^*)\ggg\mathrm R^+(f'_*)$ on
+bounded-below categories: the transformation out of the right derived functor induced by the
+underived exchange \lean{baseChangeMapHomotopyPlus}.
+\item \leanu{Etale.baseChange A sq} (Ab, Mon): a transformation with the same source and target as
+(1). It is \lean{@[no_expose]}; per its docstring it is the composite of unit insertion, square
+transport and counit contraction.
+\item \leanu{Etale.derivedBaseChangeMap A sq} (Ab, Mon, Shf):
+$Rf_*\ggg Lg^*\Rightarrow Lg'^*\ggg Rf'_*$ on unbounded categories, the mate of
+\lean{derivedSquareUpperStarIso} ($Lg^*\ggg Lf'^*\cong Lf^*\ggg Lg'^*$) for
+$Lf^*\dashv Rf_*$ and $Lf'^*\dashv Rf'_*$.
+\item \leanu{Etale.rightDerivedLowerShriekBaseChangeMap Λ sq} ($A=\Mod_\Lambda$, $\Lambda$ finite), for $sq$
+\emph{cartesian}, $f,f'$ admitting compactifications and $f'$ quasi-compact:
+$\Ex_!:Rf_!\ggg Lg^*\Rightarrow Lg'^*\ggg Rf'_!$, the composite of
+\lean{rightDerivedLowerShriekOfCompactificationBaseChangeMap} for $c_f$ (whiskering of (3) for
+the proper part and the base-change isomorphism for $i_!$), landing in
+$Rf'_!(\mathrm{ofIsPullback}\ sq\ c_f)$, followed by \lean{rightDerivedLowerShriekIso}:
+$Rf'_!(c)\cong Rf'_!$ (whose existence rests on a \SORRY ed comparison instance, stated for
+$\Lambda$ finite, where it holds by \stacks{0F7H}, Lemma~63.9.1).
+\end{enumerate}
+\end{definition}
+
+\begin{definition}[Comparison between compactifications on $D^+$]\label{def:sf-comp-coherence}
+\src{AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison}{sk-prop-sf-comp-coherence}{\PROVED}
+Assume (Ab), (Shf). For compactifications $c,d$ of $f$, a refinement $r:c\to d$ and a proof that
+the square $(c.i,\mathrm{id}_X,r,d.i)$ is cartesian, a morphism of functors
+$\rho_r:Rf_!(d)^+\Rightarrow Rf_!(c)^+$: the unit of $\mathrm D(r)^*\dashv\mathrm R(r)_*$, then
+the inverse of $\mathrm D(c.i)_!\cong\mathrm D(d.i)_!\ggg\mathrm D(r)^*$, then
+$\mathrm R(r)_*\ggg\mathrm R(d.g)_*\cong\mathrm R(c.g)_*$.
+\end{definition}
+
+\subsection{Pro-étale ingredients}
+
+\begin{definition}[Comparison functor]\label{def:nu}
+\src{AlgebraicGeometry.ProEtale.comparisonUpperStar}{sk-prop-sf-comparison}{\DEF}
+Assume (Ab). $\nu^*:\Sh{X}{A}\to\ShP{X}{A}$ is
+\lean{sheafPullbackConstruction.sheafPullback} along the inclusion
+\leanu{Scheme.toProEt X} of the small étale into the small pro-étale site: left Kan extension
+followed by sheafification.
+\end{definition}
+
+\begin{definition}[Uniform cohomological dimension; ambient datum; admissibility]\label{def:sf-admissible}
+\src{AlgebraicGeometry.ProEtale.HasUniformCohomologicalDimensionLE, AlgebraicGeometry.ProEtale.HasAmbientExceptionalRightAdjoint, AlgebraicGeometry.ProEtale.IsExceptionalAdjointAdmissible}{sk-def-sf-admissible}{\DEF s}
+Assume (Ab).
+\begin{enumerate}
+\item $p:X\to Y$ \emph{has uniform cohomological dimension $\le c$}
+(\leanu{HasUniformCohomologicalDimensionLE A p c}) if for every object $V\to Y$ of $Y_{\pet}$,
+every cartesian square $(g':X'\to X,\ p':X'\to V)$ over $(p,\ V\to Y)$, every
+$F\in\ShP{X'}{A}$ and every $r\in\mathbb Z$ with $c<r$:
+$H^r\bigl(Rp'_{\pet,*}\iota_0F\bigr)=0$.
+\item For $f$ admitting a compactification, \leanu{HasAmbientExceptionalRightAdjoint A f}: there
+is $c\in\mathbb N$ such that the proper part $c_f.g$ of the \emph{chosen} compactification has
+uniform cohomological dimension $\le c$.
+\item With moreover (Conc), (Mon): \leanu{IsExceptionalAdjointAdmissible A f} is (2) together
+with: for every functor $G$ with $Rf_!\dashv G$ on pro-étale derived categories,
+(a) $G$ maps bounded constructible objects (pro-étale version) to bounded constructible ones;
+(b) there are $c_1,c_2\in\mathbb Z$, independent of $G$, with $G$ mapping bounded constructible
+objects with homology in $[a,b]$ into objects with homology in $[a+c_1,b+c_2]$, for all $a,b$;
+(c) $G$ preserves the pro-étale $\Dbctf$ property.
+\end{enumerate}
+\end{definition}
+
+\subsection{Open--closed and localization constructions}
+
+\begin{definition}[Open--closed short complex]\label{def:ocsc}
+\src{AlgebraicGeometry.Etale.openClosedShortComplex}{sk-prop-sf-open-closed-triangle}{\PROVED}
+Assume (Ab). For an open immersion $j:U\to X$, any $i:Z\to X$ with
+$\mathrm{range}(j)\cap\mathrm{range}(i)=\emptyset$, and $F\in\Sh{X}{A}$: the short complex
+$j_!j^*F\xrightarrow{\ \varepsilon\ }F\xrightarrow{\ \eta\ }i_*i^*F$, with $\varepsilon$ the counit of
+$j_!\dashv j^*$ and $\eta$ the unit of $i^*\dashv i_*$.
+\end{definition}
+
+\begin{definition}[Supported localization triangle and boundary]\label{def:loc}
+\src{AlgebraicGeometry.Etale.supportedLocalizationTriangle, AlgebraicGeometry.Etale.supportedLocalizationBoundary}{sk-prop-sf-localization}{\DEF}
+Assume (Ab), (Mon). For $i:Z\to X$ admitting a compactification, any $j:U\to X$,
+$L\in\D{X}{A}$ and $w:Rj_*Lj^*L\to(Ri_!Ri^!L)[1]$, the triangle
+\[
+Ri_!Ri^!L\xrightarrow{\ \varepsilon_L\ }L\xrightarrow{\ \eta_L\ }Rj_*Lj^*L\xrightarrow{\ w\ }(Ri_!Ri^!L)[1],
+\]
+with $\varepsilon$ the counit of $Ri_!\dashv Ri^!$ and $\eta$ the unit of $Lj^*\dashv Rj_*$. With
+(Shf), $i$ a closed immersion, $j$ an open immersion and $\mathrm{range}(i)=\mathrm{range}(j)^c$,
+\lean{supportedLocalizationBoundary} is the $w$ chosen by \lean{Classical.choose} from
+Statement~\ref{st:loc}(2).
+\end{definition}
+
+\subsection{Integral coefficients}
+
+\begin{definition}[$\mathcal O_E$ and derived completeness]\label{def:complete}
+Let $\ell$ be prime, $E$ a field with an algebra map $E\to\overline{\mathbb Q}_\ell$
+(\leanu{PadicAlgCl l}) and \lean{Small.{u+1} E}. No finiteness of $E$ over $\mathbb Q_\ell$ and no
+$\mathbb Q_\ell$-algebra structure is assumed. $\mathcal O_E$ (\leanu{PadicAlgCl.integers l E}) is
+the valuation subring of $E$ for the norm restricted from $\overline{\mathbb Q}_\ell$; it is used
+through its copy \lean{Shrink.{u+1}} in $\mathtt{Type}\,(u+1)$, and $\mathfrak m_E$
+(\lean{maximalIdealShrink}) is the image of its maximal ideal.
+For a site $(C,J)$ and an ideal $I$, $K\in D(J,\Mod_R)$ is \emph{derived complete}
+(\leanu{DerivedCategory.derivedComplete J I}) if the cone $K\to K\Lt\iota_0(\underline{R/I^n})$
+($n\in\mathbb N$), with point $K$, is a \emph{limit cone in the derived category}
+(\leanu{Nonempty (IsLimit ...)}).
+\leanu{DerivedCategory.derivedCompleteIntegral J l E}$:=$\leanu{derivedComplete J 𝔪\_E} with
+$R=\mathrm{Shrink}\,\mathcal O_E$.
+\end{definition}
+
+%======================================================================
+\section{Statements: Six Functors prerequisites}
+%======================================================================
+
+\begin{statement}[Closure properties of $\Dbctf$]\label{st:ctf}
+\src{AlgebraicGeometry.Etale.DerivedCategory.constructibleFiniteTor_constantComplex, AlgebraicGeometry.Etale.DerivedCategory.constructibleFiniteTor_shift, AlgebraicGeometry.Etale.DerivedCategory.constructibleFiniteTor_derivedTensor, AlgebraicGeometry.Etale.constructibleFiniteTor_tateObject, AlgebraicGeometry.Etale.constructibleFiniteTor_twistShift_constantComplex}{sk-def-sf-setting, sk-def-purity-conv}{all \SORRY}
+Let $X$ be any scheme.
+\begin{enumerate}
+\item If $\Lambda$ is finite, $\Lambda_X\in\Dbctf(X,\Lambda)$.
+\item If $K\in\Dbctf(X,\Lambda)$, then $K[n]\in\Dbctf(X,\Lambda)$ for every $n\in\mathbb Z$.
+\item If $\Lambda$ is finite and $K,L\in\Dbctf(X,\Lambda)$, then $K\Lt L\in\Dbctf(X,\Lambda)$.
+\item If $\Lambda$ is finite with invertible exponent on $X$: $\Lambda_X(m)\in\Dbctf(X,\Lambda)$ for every $m$ (Def.~\ref{def:tate}).
+\item If $\Lambda$ is finite with invertible exponent on $X$: $(\Lambda_X\Lt\Lambda_X(m))[2m]\in\Dbctf(X,\Lambda)$.
+\end{enumerate}
+\end{statement}
+\begin{remark}
+Item (5) is what the co-projection, Statement~\ref{st:coproj}, needs in order to be applied with $K=\Lambda_X$ and
+$L=\Lambda_X(n)[2n]$, as in the blueprint's proof of \texttt{sk-thm-regular}, Step~2.
+\end{remark}
+
+\begin{statement}[Triangulated subcategories]\label{st:tri}
+\src{AlgebraicGeometry.Etale.DerivedCategory.boundedConstructible_isTriangulated, AlgebraicGeometry.Etale.DerivedCategory.constructibleHomology_isTriangulated, DerivedCategory.homologyProperty_isTriangulated}{sk-prop-sf-cbc}{\PROVED}
+\begin{enumerate}
+\item Let $A$ satisfy (Ab), (Conc), (Shf), and let $X$ be a scheme such that constructible
+sheaves in $\Sh{X}{A}$ are closed under kernels, cokernels and extensions, and the forgetful
+functor of $A$ preserves finite limits. Then the bounded constructible objects and the
+objects with constructible homology are triangulated subcategories of $\D{X}{A}$.
+\item For any abelian $A$ with a derived category and any object property $P$ of $A$ that
+contains zero and is closed under isomorphisms, kernels, cokernels and extensions, the
+property ``all $H^n(M)$ satisfy $P$'' (\leanu{homologyProperty P}) is triangulated.
+\end{enumerate}
+\end{statement}
+
+\begin{statement}[Sheaf-level ingredients of compact-support base change]\label{st:cbc-sheaf}
+\par\noindent{\footnotesize\raggedright\textsf{Lean:}~eleven declarations, named in the items\\
+  \textsf{Blueprint:}~\texttt{sk-prop-sf-cbc}\quad\textsf{Lean proof:}~see items\par}\smallskip
+Items (4)--(10) assume (Ab) for $A$ where a coefficient category occurs; items (1)--(3) are purely ring/scheme-theoretic.
+\begin{enumerate}
+\item \lean{Etale.exists_isPullback_of_isClosedImmersion} [\PROVED]. Let $i:Z\to X$ be a closed
+immersion and $p:W\to Z$ étale. For every $w\in W$ there are an open $W_0\ni w$ of $W$, a scheme
+$V$, an étale $q:V\to X$ and $a:W_0\to V$ such that the square $(a,\ W_0\hookrightarrow W\xrightarrow{p}Z,\ q,\ i)$
+is cartesian.
+\item \lean{Etale.exists_pullback_hom_of_isClosedImmersion} [\PROVED]. Same $i,p$; let $\Omega$ be a
+field in $\mathtt{Type}\,u$ (not necessarily separably closed) and $s:\Spec\Omega\to W$. There are
+$V$, étale $q:V\to X$ and $g:V\times_XZ\to W$ with $g\gg p=\mathrm{pr}_2$, and
+$t:\Spec\Omega\to V\times_XZ$ with $t\gg g=s$.
+\item \lean{Algebra.IsStandardEtale.exists_algEquiv_quotient_tensor} [\PROVED]. For commutative rings
+$R,S$, an ideal $I\subseteq R$ and a standard étale $(R/I)$-algebra $S$, there are a commutative ring $T$
+and a standard étale $R$-algebra structure on $T$ with $(R/I)\otimes_RT\cong S$ as $(R/I)$-algebras.
+\item \lean{Scheme.initial_pointSmallEtaleElementsBaseChange} [\PROVED]. For a closed immersion
+$i:Z\to X$, $\Omega$ separably closed and $s:\Spec\Omega\to Z$, the functor
+\leanu{pointSmallEtaleElementsBaseChange i s} from the category of elements of the fibre functor
+of the point $s\gg i$ of $X_{\et}$ to that of the point $s$ of $Z_{\et}$ (induced by base change
+along $i$) is initial.
+\item \lean{Etale.lowerStarCompSheafFiberIso} [\PROVED, a \DEF]. Same $i,s$: a natural isomorphism
+$(s\gg i)^*\circ i_*\cong s^*$ of stalk functors $\Sh{Z}{A}\to A$.
+\item \lean{Etale.fullyFaithfulLowerStar} [\PROVED, a \DEF] and
+\lean{Etale.isIso_upperStarLowerStarAdjunction_counit} [\PROVED]. For a closed immersion $i:Z\to X$
+and (Conc$^+_Z$): $i_*$ is fully faithful (a chosen \lean{FullyFaithful} structure), and the counit
+$i^*i_*\Rightarrow\mathrm{id}$ is an isomorphism.
+\item \lean{Etale.isZero_upperStar_lowerStar_of_disjoint_range} [\PROVED] and
+\lean{Etale.isZero_upperStar_openImmersionLowerShriek_of_disjoint_range} [\PROVED]. For $j:U\to X$
+an open immersion, any $i:Z\to X$ with disjoint ranges: $j^*i_*H=0$ for every $H\in\Sh{Z}{A}$, and
+$i^*j_!G=0$ for every $G\in\Sh{U}{A}$.
+\item \lean{Scheme.Stratification.openClosed} [\PROVED, a \DEF]. For $j$ an open immersion and $i$ a closed
+immersion with $\mathrm{range}(i)=\mathrm{range}(j)^c$, and stratifications $S_U,S_Z$ of $U,Z$:
+the stratification of $X$ with strata $j(S_{U,l})$ and $i(S_{Z,l})$ and immersions $\iota\gg j$,
+$\iota\gg i$.
+\item \lean{Scheme.isConstructibleSheaf_iff_upperStar} [\PROVED]. Same $j,i$; (Shf), (Conc). $F$
+is constructible iff $j^*F$ and $i^*F$ are.
+\item \lean{Scheme.IsConstructibleSheaf.openImmersionLowerShriek} [\PROVED] and
+\lean{AlgebraicGeometry.Scheme.IsConstructibleSheaf.lowerStar_of_isClosedImmersion} [\PROVED]. Same $j,i$; (Shf), (Conc), forget preserves finite
+limits [for $i_*$ additionally (Conc$^+_Z$)]. If $G$ is constructible then so is $j_!G$, resp.\ $i_*G$.
+\item \lean{TopCat.Sheaf.IsFlasque} (Mathlib, a \DEF): a sheaf on a topological space is flasque if
+every restriction map $F(V)\to F(U)$ is an epimorphism.
+\end{enumerate}
+\end{statement}
+
+\begin{statement}[Compact-support base change]\label{st:cbc}
+\src{AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekBaseChangeMap}{sk-prop-sf-cbc}{\PROVED}
+Let $\Lambda$ be finite. Let $g'\gg f=f'\gg g$ be a \emph{cartesian} square with $f$ and $f'$ admitting
+compactifications and $f'$ quasi-compact. Then
+$\Ex_!:Rf_!\ggg Lg^*\Rightarrow Lg'^*\ggg Rf'_!$ (Def.~\ref{def:sf-exchanges}(4), $A=\Mod_\Lambda$) is an
+isomorphism of functors $\D{X}{\Lambda}\to\D{Y'}{\Lambda}$.
+\end{statement}
+\begin{remark}
+Stated on unbounded derived categories, as in the blueprint: for torsion $\Lambda$ compact-support
+base change holds on all of $D(X_{\et},\Lambda)$, \stacks{0F7H} (Lemma~63.9.4). Its proof is the
+compactification argument with the unbounded proper base change \stacks{0F0C}, which holds since
+$\Lambda$ is killed by some $n$ and a proper morphism over a quasi-compact base has fibres of bounded
+dimension, so its direct image has finite cohomological dimension; the independence of $Rf_!$ of the
+compactification on the unbounded categories is \stacks{0F7H} (Lemma~63.9.1). No finite-type
+hypothesis is needed beyond the compactifications (an open immersion followed by a proper morphism is
+separated and locally of finite type, and $f'$ is quasi-compact), and no invertible-exponent
+hypothesis.
+\end{remark}
+\begin{gap}
+The proof goes through the \SORRY ed comparison instance
+\lean{isIso_rightDerivedLowerShriekOfCompactificationComparison}, stated for $A=\Mod_\Lambda$ with
+$\Lambda$ finite, where it is the independence of $Rf_!$ of the compactification on unbounded
+categories, \stacks{0F7H} (Lemma~63.9.1).
+\end{gap}
+
+\begin{statement}[Coherence of the comparisons]\label{st:comp-coh}
+\src{AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison_id, AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison_comp}{sk-prop-sf-comp-coherence}{\PROVED}
+Assume (Ab), (Shf). (i) For a compactification $c$ and the identity refinement (with a proof that its
+square is cartesian), $\rho_{\mathrm{id}}=\mathrm{id}_{Rf_!(c)^+}$. (ii) For refinements $r:c\to d$,
+$s:d\to e$ with cartesian squares, $\rho_{r\circ s}=\rho_s\gg\rho_r$.
+\end{statement}
+
+\begin{statement}[Pro-étale comparison]\label{st:comparison}
+\src{AlgebraicGeometry.ProEtale.full_comparisonUpperStar, AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar, AlgebraicGeometry.ProEtale.nonempty_iso_comparisonUpperStar_comp_rightDerivedLowerStar}{sk-prop-sf-comparison}{\SORRY\ (all three)}
+Assume (Ab). (i) $\nu^*:\Sh{X}{A}\to\ShP{X}{A}$ is full and faithful, for every scheme $X$.
+(ii) For $u:U\to V$ quasi-compact and quasi-separated there exists an isomorphism of functors
+$\Dp{U}{A}\to D^+(V_{\pet},A)$:
+$\mathrm R^+(u_{\et,*})\ggg\mathrm D^+(\nu_V^*)\exiso\mathrm D^+(\nu_U^*)\ggg\mathrm R^+(u_{\pet,*})$.
+\end{statement}
+
+\begin{statement}[Finiteness]\label{st:finiteness}
+\src{AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerShriek}{sk-prop-sf-finiteness}{\SORRY}
+Let $\Lambda$ be finite, $k$ a field in $\mathtt{Type}\,u$, $f:X\to Y$ admitting a compactification,
+$\Lambda$ with invertible exponent on $X$, $a_X:X\to\Spec k$ and $a_Y:Y\to\Spec k$ locally of finite type
+with $f\gg a_Y=a_X$. If $K\in\D{X}{\Lambda}$ is bounded constructible, then so is $Rf_!K$.
+\end{statement}
+
+\begin{statement}[Finiteness of $Rf_*$: current form]\label{st:finiteness-star}
+\src{AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar_of_hasInvertibleExponent}{sk-prop-sf-finiteness}{\SORRY}
+Let $\Lambda$ be finite, $k$ a field, $f:X\to Y$ quasi-compact, $\Lambda$ with invertible exponent on $X$,
+and $a_X,a_Y$ locally of finite type over $\Spec k$ with $f\gg a_Y=a_X$. If $K$ is bounded constructible,
+then so is $Rf_*K$.
+\end{statement}
+
+\begin{statement}[Finiteness of $Rf_*$: the blueprint name]\label{st:finiteness-tor}
+\src{AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar}{sk-prop-sf-finiteness, sk-thm-sf-direct-image-tor-amplitude}{\SORRY}
+In the setting of Statement~\ref{st:finiteness-star}, with $f$ moreover separated, let $d\in\mathbb N$ with
+$\dim_{\mathrm{top}}X\le d$ and let $K$ be bounded constructible with Tor amplitude in $[a,b]$. Then $Rf_*K$ is bounded
+constructible.
+\end{statement}
+\begin{gap}
+Ported from \texttt{origin/slopmaster} (\path{SixFunctors/Etale/Derived/Stability.lean}), where it was stated for a general
+coefficient category $A$ with no finite-coefficient, invertible-exponent or finite-type hypotheses; that form is false
+(Artin--Schreier: $H^1(\mathbb A^1_{\overline{\mathbb F}_p},\mathbb F_p)$ is infinite). Here it carries the blueprint's hypotheses,
+so its conclusion is already Statement~\ref{st:finiteness-star}. The Tor-amplitude half of
+\texttt{sk-thm-sf-direct-image-tor-amplitude} ($Rf_*K$ has Tor amplitude in $[a,b+2d]$) is not stated.
+\end{gap}
+
+\begin{statement}[Künneth]\label{st:kunneth}
+\src{AlgebraicGeometry.Etale.nonempty_iso_kunneth}{sk-prop-sf-kunneth-ordinary}{\SORRY}
+Let $\Lambda$ be finite, $k$ separably closed, $a_X:X\to\Spec k$, $a_Y:Y\to\Spec k$ locally of finite type,
+$\Lambda$ with invertible exponent on $X$ and on $Y$, and $(p_1:W\to X,\ p_2:W\to Y)$ cartesian over
+$(a_X,a_Y)$. For \emph{all} $E\in\D{X}{\Lambda}$, $K\in\D{Y}{\Lambda}$ there exists an isomorphism in
+$D(\Mod_\Lambda)$
+\[
+R\Gamma(X,E)\otimes R\Gamma(Y,K)\exiso R\Gamma\bigl(W,\ Lp_1^*E\Lt Lp_2^*K\bigr),
+\]
+$\otimes$ being the monoidal structure on $D(\Mod_\Lambda)$.
+\end{statement}
+\begin{gap}
+Only existence: the Künneth map $\kappa_{E,K}$ is not defined, because $R\Gamma$ has no lax monoidal structure on this branch.
+\end{gap}
+
+\begin{statement}[Projection formula for a proper morphism]\label{st:pf-proper}
+\src{AlgebraicGeometry.Etale.rightDerivedLowerStarProjectionMap, AlgebraicGeometry.Etale.isIso_rightDerivedLowerStarProjectionMap_of_isProper}{sk-prop-sf-kunneth-ordinary}{\DEF; \SORRY}
+Let $\Lambda$ be finite with invertible exponent on $X$ and on $Y$, and $f:X\to Y$ proper. For all $E\in\D{X}{\Lambda}$ and
+$L\in\D{Y}{\Lambda}$ the projection map $Rf_*E\Lt L\to Rf_*(E\Lt Lf^*L)$ (the transpose under $Lf^*\dashv Rf_*$ of the tensor
+comparison followed by $\varepsilon\otimes1$) is an isomorphism.
+\end{statement}
+
+\begin{statement}[$\mathrm{FullCD}$ on the étale-origin class]\label{st:fullcd}
+\src{AlgebraicGeometry.ProEtale.isZero_homology_rightDerivedLowerStar_comparisonUpperStar}{sk-prop-sf-fullcd-etale-origin}{\SORRY}
+Let $\Lambda$ be finite, $k$ separably closed, $p:X'\to Y$ proper, $a_{X'}$, $a_Y$ locally of finite type over
+$\Spec k$ with $p\gg a_Y=a_{X'}$, $\Lambda$ with invertible exponent on $X'$, $d\in\mathbb N$ with
+$\dim_{\mathrm{top}}X'\le d$. For every cartesian square $(g':X''\to X',\ p':X''\to Y'')$ over $(p,\ g:Y''\to Y)$
+of schemes, every $F\in\Sh{X''}{\Mod_\Lambda}$ and every $r>2d$:
+$H^r\bigl(Rp'_{\pet,*}\,\iota_0\,\nu^*_{X''}F\bigr)=0$ in $\ShP{Y''}{\Mod_\Lambda}$.
+\end{statement}
+
+\begin{statement}[Existence of the exceptional adjunction]\label{st:existence}
+\src{AlgebraicGeometry.Etale.rightDerivedUpperShriekAdjunction, AlgebraicGeometry.ProEtale.rightDerivedUpperShriekAdjunction}{sk-prop-sf-existence}{\DEF s}
+(i) Étale (Ab): for every $f$ admitting a compactification, the adjunction $Rf_!\dashv Rf^!$ of
+Def.~\ref{def:upper-shriek}. Its existence uses the \SORRY ed instance that $Rf_!$ is a left adjoint;
+there is \emph{no} admissibility hypothesis.
+(ii) Pro-étale (Ab): for $f$ admitting a compactification \emph{and an instance that the pro-étale
+$Rf_!$ is a left adjoint}, the adjunction $Rf_!\dashv Rf^!$ with $Rf^!$ a chosen right adjoint.
+By \lean{HasAmbientExceptionalRightAdjoint.isLeftAdjoint} [\SORRY], Def.~\ref{def:sf-admissible}(2)
+implies that instance.
+\end{statement}
+
+\begin{definition}[Constructible exceptional inverse image on pro-étale sites]\label{def:constructible-upper-shriek}
+\src{AlgebraicGeometry.ProEtale.constructibleUpperShriek}{sk-def-sf-operations (vi)}{\DEF}
+Assume (Ab). For $f:X\to Y$ admitting a compactification,
+\[
+Rf^!_{\mathrm c}:=\mathrm R^+(\nu_{Y,*})\ggg(Rf^!)^+\ggg\mathrm D^+(\nu_X^*):\ D^+(Y_{\pet},A)\to D^+(X_{\pet},A),
+\]
+i.e.\ $L\mapsto\nu_X^*\,f^\times R\nu_{Y,*}L$, with $(Rf^!)^+$ the étale exceptional inverse image of
+Def.~\ref{def:upper-shriek} restricted to $D^+$ (\lean{Etale.rightDerivedUpperShriekPlus}). No hypothesis that the pro-étale
+$Rf_!$ is a left adjoint is needed.
+\end{definition}
+
+\begin{statement}[Adjunction on objects of étale origin]\label{st:existence-c}
+\src{AlgebraicGeometry.ProEtale.nonempty_adjunction_constructibleUpperShriek}{sk-prop-sf-existence (c)}{\SORRY}
+Assume (Ab), (Mon). For $f$ admitting a compactification there exists an adjunction
+\[
+\mathrm D^+(\nu_X^*)\ggg(Rf_!)^+_{\pet}\ \dashv\ Rf^!_{\mathrm c}\ggg\mathrm R^+(\nu_{X,*})
+\]
+between functors $D^+(X_{\et},A)\rightleftarrows D^+(Y_{\pet},A)$, i.e.\ $\Hom(Rf_!\nu_X^*G,L)\cong\Hom(G,R\nu_{X,*}Rf^!_{\mathrm c}L)$
+naturally in $G\in D^+(X_{\et},A)$ and $L\in D^+(Y_{\pet},A)$.
+\end{statement}
+\begin{gap}
+The blueprint states $\Hom(Rf_!\nu^*G,L)\cong\Hom(\nu^*G,Rf^!L)$; the two agree because $\nu_X^*$ is fully faithful on $D^+$
+(Statement~\ref{st:comparison}). Compatibility of units and counits with refinements of the compactification is not stated.
+\end{gap}
+
+\begin{statement}[Perfectness of compact cohomology]\label{st:trace-perf}
+\src{AlgebraicGeometry.Etale.isZero_compactlySupportedCohomology_of_lt, AlgebraicGeometry.Etale.finite_compactlySupportedCohomology}{sk-prop-sf-trace-perfectness}{\SORRY\ (both)}
+Let $\Lambda$ be finite, $k$ separably closed, $a_X:X\to\Spec k$ separated, locally of finite type and admitting
+a compactification, $\Lambda$ with invertible exponent on $X$, and $K\in\Dbctf(X,\Lambda)$. Then
+(i) there are $a,b\in\mathbb Z$ with $H^q_c(X/k,K)=0$ whenever $q<a$ or $b<q$; and
+(ii) for every $q$, $H^q_c(X/k,K)$ is a finitely generated $\Lambda$-module (\lean{Module.Finite}).
+\end{statement}
+
+\begin{statement}[Flat model]\label{st:flat-model}
+\src{AlgebraicGeometry.Etale.torAmplitudeIn_iff_exists_flatModel}{sk-lem-sf-flat-model}{\SORRY}
+For any commutative $\Lambda$, $a\le b$ and bounded constructible $K\in\D{X}{\Lambda}$: $K$ has Tor amplitude in
+$[a,b]$ in the sense of Def.~\ref{def:tor} ($A=\Mod_\Lambda$) iff there is a cochain complex $P$ that is a bounded flat complex in
+$[a,b]$ (Def.~\ref{def:flatcx}) with $K\cong Q(P)$.
+\end{statement}
+
+\begin{statement}[Open--closed sequence]\label{st:oc}
+\src{AlgebraicGeometry.Etale.shortExact_openClosedShortComplex}{sk-prop-sf-open-closed-triangle}{\PROVED}
+Assume (Ab), (Conc$^+_Z$) and $X_{\et}$ \leanu{HasSheafCompose (forget A)}. For $j$ an open immersion, $i$ a closed
+immersion with $\mathrm{range}(i)=\mathrm{range}(j)^c$, and $F\in\Sh{X}{A}$, the complex of Def.~\ref{def:ocsc} is
+short exact: $0\to j_!j^*F\to F\to i_*i^*F\to0$.
+\end{statement}
+
+\begin{statement}[Closed-immersion unit]\label{st:closed-unit}
+\src{AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekAdjunction_unit_app}{sk-prop-sf-closed-unit}{\SORRY}
+Assume (Ab), (Shf). For a closed immersion $i:Z\to X$ admitting a compactification and \emph{every}
+$Q\in\D{Z}{A}$ (no $\Dbctf$ restriction), the unit $Q\to Ri^!Ri_!Q$ of $Ri_!\dashv Ri^!$ is an isomorphism.
+\end{statement}
+
+\begin{statement}[Determination on two of three terms]\label{st:det}
+\par\noindent{\footnotesize\raggedright\textsf{Lean:}~\leanu{CategoryTheory.Pretriangulated.isIso₃\_of\_isIso₁₂} (Mathlib)\\
+  \textsf{Blueprint:}~\texttt{sk-lem-sf-determination}\quad\textsf{Lean proof:}~\PROVED\par}\smallskip
+In a pretriangulated category, for a morphism $\varphi:T\to T'$ of distinguished triangles with $\varphi_1$ and
+$\varphi_2$ isomorphisms, $\varphi_3$ is an isomorphism.
+\end{statement}
+
+\begin{statement}[Supported localization]\label{st:loc}
+\src{AlgebraicGeometry.Etale.subsingleton_hom_shift_rightDerivedLowerShriek_rightDerivedLowerStar, AlgebraicGeometry.Etale.existsUnique_distTriang_supportedLocalization, AlgebraicGeometry.Etale.supportedLocalizationTriangle_mem_distTriang, AlgebraicGeometry.Etale.exists_triangleHom_supportedLocalization, AlgebraicGeometry.Etale.triangleHom_supportedLocalization_ext}{sk-prop-sf-localization}{(1),(2-existence) \SORRY; rest \PROVED}
+Assume (Ab), (Shf), (Mon); $i:Z\to X$ admits a compactification.
+\begin{enumerate}
+\item If $\mathrm{range}(i)\cap\mathrm{range}(j)=\emptyset$, then for all $B\in\D{Z}{A}$, $C\in\D{U}{A}$, $n\in\mathbb Z$,
+$\Hom\bigl((Ri_!B)[n],Rj_*C\bigr)$ has at most one element.
+\item If $i$ is a closed immersion, $j$ an open immersion and $\mathrm{range}(i)=\mathrm{range}(j)^c$, then for every
+$L\in\D{X}{A}$ there is exactly one $w$ making the triangle of Def.~\ref{def:loc} distinguished; in particular the
+triangle with $w=$\lean{supportedLocalizationBoundary} is distinguished.
+\item If the ranges are disjoint, then for $\varphi:L\to L'$ and distinguished triangles with connecting maps $w,w'$,
+there is a morphism of triangles $\tau$ with $\tau_1=Ri_!Ri^!\varphi$, $\tau_2=\varphi$, $\tau_3=Rj_*Lj^*\varphi$; and any
+two morphisms between these triangles with equal middle component are equal.
+\end{enumerate}
+\end{statement}
+
+\begin{definition}[Composition isomorphism of $R(-)^!$]\label{st:mate}
+\src{AlgebraicGeometry.Etale.rightDerivedUpperShriekCompIso}{sk-lem-sf-mate (b)}{\DEF\ (\lean{@[no_expose]})}
+\CHOSEN\ Assume (Ab), (Shf). For $f:X\to Y$, $g:Y\to S$ with $f$, $g$ and $f\gg g$ admitting compactifications,
+\[
+c_{f,g}:\ R(f\gg g)^!\ \xrightarrow{\ \sim\ }\ Rg^!\ggg Rf^!\qquad(\text{i.e.\ }R(gf)^!\cong Rf^!\circ Rg^!),
+\]
+the conjugate of $\alpha_{f,g}^{-1}$ under $R(f\gg g)_!\dashv R(f\gg g)^!$ and the composite adjunction
+$Rf_!\ggg Rg_!\dashv Rg^!\ggg Rf^!$ (\lean{conjugateIsoEquiv}). It is an isomorphism by construction.
+\end{definition}
+
+\begin{statement}[Proper coincidence]\label{st:comp-proper}
+\src{AlgebraicGeometry.Etale.rightDerivedLowerShriekIsoRightDerivedLowerStar}{sk-prop-sf-comp-proper}{\DEF\ (an isomorphism, through a \SORRY ed \lean{IsIso} instance)}
+Assume (Ab), (Shf). For $f$ proper with \leanu{HasCompactification f}, the isomorphism of functors $Rf_!\cong Rf_*$ built
+from the comparison $Rf_!(c_f)\to R(c_f.g)_*\circ Ri_*$ and $f=c_f.i\gg c_f.g$. Independence of the compactification is not
+stated.
+\end{statement}
+
+\begin{statement}[Projection formula, finite coefficients]\label{st:pf}
+\src{AlgebraicGeometry.Etale.projectionMap, AlgebraicGeometry.Etale.isIso_projectionMap_app_app, AlgebraicGeometry.Etale.isIso_projectionMap_of_isClosedImmersion}{sk-thm-sf-pf-finite, sk-def-sf-exchanges}{\DEF; both statements \SORRY}
+The \emph{projection map} $\mathrm{PF}:Rf_!K\Lt L\to Rf_!(K\Lt Lf^*L)$ (\lean{projectionMap}, ported from
+\texttt{slopmaster}) is the natural transformation of bifunctors
+$Rg_*(i_!K)\Lt L\to Rg_*(i_!K\Lt Lg^*L)\cong Rg_*(i_!(K\Lt Li^*Lg^*L))\cong Rg_*(i_!(K\Lt Lf^*L))$ for the chosen
+compactification $(Z,g,i)$ of $f$.
+\begin{enumerate}
+\item Let $\Lambda$ be finite with invertible exponent on $Y$, $f$ admitting a compactification and locally of finite type,
+$K\in\D{X}{\Lambda}$ bounded constructible and $L\in\Dbctf(Y,\Lambda)$. Then $\mathrm{PF}_{K,L}$ is an isomorphism.
+\item For a closed immersion $i$ admitting a compactification, $\mathrm{PF}$ is an isomorphism for all $K$ and $L$.
+\end{enumerate}
+\end{statement}
+
+\begin{statement}[Reduction compatibilities]\label{st:pf-red}
+\src{AlgebraicGeometry.Etale.leftDerivedUpperStarConstantIso, AlgebraicGeometry.Etale.rightDerivedLowerShriekReductionModIdeal, AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekReductionModIdeal, AlgebraicGeometry.Etale.reductionModIdealLeftDerivedUpperStarIso}{sk-prop-sf-pf-reduction}{\DEF s; the \lean{IsIso} statement \SORRY}
+For any commutative $\Lambda$, $f$ and an ideal $J$, write $M_X=\iota_0\underline{\Lambda/J}_X$.
+\begin{enumerate}
+\item $Lf^*M_Y\cong M_X$ (\lean{leftDerivedUpperStarConstantIso}): $Lf^*$ agrees with $f^*$ in degree $0$, and $f^*$ of a
+constant sheaf is constant.
+\item The comparison $Rf_!K\Lt M_Y\xrightarrow{\mathrm{PF}}Rf_!(K\Lt Lf^*M_Y)\cong Rf_!(K\Lt M_X)$, for $f$ admitting a
+compactification, is an isomorphism of functors.
+\item The isomorphism $Lf^*(L\Lt M_Y)\cong Lf^*L\Lt Lf^*M_Y\cong Lf^*L\Lt M_X$ of the monoidal structure of $Lf^*$ and (1)
+(\lean{reductionModIdealLeftDerivedUpperStarIso}; a definition, nothing to prove).
+\end{enumerate}
+\end{statement}
+
+%======================================================================
+\section{Statements: the five moves}
+%======================================================================
+
+\noindent\textbf{Common hypotheses (H$_\Lambda$).} In this section and the next, unless said otherwise:
+$\Lambda$ is a \emph{finite} commutative ring in $\mathtt{Type}\,(u+1)$, the twists are those of Def.~\ref{def:tate}, and
+$A=\Mod_\Lambda$.
+
+\subsection*{Move (1): the $\mathbb A^1$ computation}
+
+\begin{statement}[$\mathbb A^1$ and $\mathbb G_m$ with $\Lambda(1)$-coefficients]\label{st:a1-kummer}
+\src{AlgebraicGeometry.Etale.affineLineUnit, AlgebraicGeometry.Etale.isIso_affineLineUnit, AlgebraicGeometry.Etale.multiplicativeGroupDegreeZeroMap, AlgebraicGeometry.Etale.isIso_homology_zero_map_multiplicativeGroupDegreeZeroMap, AlgebraicGeometry.Etale.multiplicativeGroupDegreeOneMap, AlgebraicGeometry.Etale.isIso_homology_zero_map_multiplicativeGroupDegreeOneMap, AlgebraicGeometry.Etale.isZero_homology_rightDerivedLowerStar_multiplicativeGroup}{sk-prop-a1-kummer}{\DEF s; statements \SORRY}
+Let $Y$ be any scheme with $\Lambda$ of invertible exponent on $Y$, $p:\Aff1Y\to Y$, $G=D(t)\subseteq\Aff1Y$ the open where
+the coordinate $t$ is invertible (\lean{multiplicativeGroupOpen}), and $\pi:G\to Y$.
+\begin{enumerate}
+\item (H$_\Lambda$) The map $\Lambda_Y\to Rp_*\Lambda_{\Aff1Y}$, the unit of $Lp^*\dashv Rp_*$ followed by $Rp_*$ of the unit
+comparison $Lp^*\Lambda_Y\to\Lambda_{\Aff1Y}$ (\lean{leftDerivedUpperStarUnit}), is an isomorphism.
+\item (H$_\Lambda$) The map $\pi^*:\Lambda_Y(1)\to R\pi_*\Lambda_G(1)$ (unit, then $Lp^*\Lambda_Y(1)\cong\Lambda_G(1)$, Def.~\ref{def:tate})
+is an isomorphism on $H^0$.
+\item (H$_\Lambda$, Def.~\ref{def:kummer}) The map
+$\Lambda_Y\to(R\pi_*\Lambda_G(1))[1]$ adjoint to the Kummer class $\kappa(t)$ is an isomorphism on $H^0$, i.e.\
+$\Lambda_Y\cong R^1\pi_*\Lambda(1)$, $1\mapsto\kappa(t)$.
+\item (H$_\Lambda$) $H^m(R\pi_*\Lambda_G(1))=0$ for $m\ge2$.
+\end{enumerate}
+\end{statement}
+
+\begin{statement}[Rank-one orientation]\label{st:a1}
+\src{AlgebraicGeometry.Etale.isIso_supportedClassMap_kummerBoundary_coord}{sk-prop-a1}{\SORRY}
+Assume (H$_\Lambda$) and let $Y$ be any scheme with $\Lambda$ of invertible exponent:
+the fundamental class $\mathrm{pur}_s:\Lambda_{V(t)}\to Rs^!(\Lambda(1)[2])$ of the zero section $s:V(t)\to\Aff1Y$, the adjoint
+of the Kummer boundary $\partial\kappa(t)$, is an isomorphism.
+\end{statement}
+\begin{gap}
+The zero section is the closed subscheme $V(t)$; its identification with $Y$ is not formalised.
+\end{gap}
+
+\subsection*{Move (2): weak $\mathbb A^1$-invariance, and $\mathbb A^1\Rightarrow\mathbb A^n$}
+
+\begin{statement}[Weak $\mathbb A^1$-invariance]\label{st:a1-inv}
+\src{AlgebraicGeometry.Etale.injective_upperStar_map_of_isFiniteLocallyConstantSheaf, AlgebraicGeometry.Etale.injective_upperStar_oneSection_map_of_isFiniteLocallyConstantSheaf, AlgebraicGeometry.Etale.eq_of_leftDerivedUpperStar_oneSection_eq, AlgebraicGeometry.Etale.exists_iso_leftDerivedUpperStar_of_locally}{sk-prop-a1-inv}{\SORRY\ (all four)}
+Assume (H$_\Lambda$), $Y$ any scheme with $\Lambda$ of invertible exponent on $Y$.
+\begin{enumerate}
+\item Let $j:G\to\Aff1Y$ be an open immersion with $\mathrm{range}(j)=\mathrm{range}(0)^c$. For finite locally constant
+$L,M\in\Sh{\Aff1Y}{\Mod_\Lambda}$, the map $\Hom(L,M)\to\Hom(j^*L,j^*M)$, $\varphi\mapsto j^*\varphi$, is injective.
+\item Same $j$; let $i_1:Y\to G$ with $i_1\gg j=1$ (unit section). For finite locally constant
+$L,M\in\Sh{G}{\Mod_\Lambda}$, $\varphi\mapsto i_1^*\varphi$ is injective on $\Hom(L,M)$.
+\item Let $F\in\D{\Aff1Y}{\Lambda}$ be invertible, $C\in\D{Y}{\Lambda}$, and $\alpha,\beta:F\cong Lp^*C$ isomorphisms with
+$L1^*(\alpha)=L1^*(\beta)$ as morphisms. Then $\alpha=\beta$.
+\item (Gluing.) Let $F\in\D{\Aff1Y}{\Lambda}$ be invertible, $C\in\D{Y}{\Lambda}$ and $\varphi:L1^*F\cong C$. Let
+$e_i:U_i\to Y$ be a jointly surjective family of étale maps such that, for every $i$, there is some isomorphism
+$L(\mathbb A^1_{e_i})^*F\cong Lp_i^*Le_i^*C$ on $\Aff1{U_i}$. Then there is $\kappa:F\cong Lp^*C$ with
+$L1^*\kappa$, composed with $L1^*Lp^*C\cong C$ (\lean{oneSectionLeftDerivedUpperStarIso}), equal to $\varphi$; by (3) it is unique.
+\end{enumerate}
+\end{statement}
+\begin{gap}
+In (4) the local isomorphisms are not required to be normalized at $t=1$ (each can be renormalized by an automorphism of
+$Le_i^*C$), and the hypotheses on $F,C$ are ``$F$ invertible and étale-locally a pullback of $C$'' rather than the blueprint's
+``$F$ étale-locally a shift and twist of a lisse rank-one sheaf, $F,C\in\Dbctf$''. The identification $L0^*F\cong C$ is
+$L0^*\kappa$ followed by the analogous isomorphism for the zero section; it is not given a name.
+\end{gap}
+
+\begin{statement}[Model purity for $\mathbb A^c$: the Thom class]\label{st:an}
+\src{AlgebraicGeometry.Etale.affineSpaceThomClass, AlgebraicGeometry.Etale.isIso_affineSpaceThomClass}{sk-prop-an (i)}{\DEF; \SORRY}
+$\Lambda$ finite, $c\in\mathbb N$, $B$ \emph{any} scheme
+with $\Lambda$ of invertible exponent. The Thom class $\mathrm{th}:\Lambda_{V(t)}\to Rz^!(\Lambda(c)[2c])$, the adjoint of
+$\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$ for the zero section $z:V(t_1,\dots,t_c)\to\Aff cB$, is an isomorphism.
+\end{statement}
+\begin{gap}
+The zero section is the closed subscheme $V(t_1,\dots,t_c)$; its identification with $B$ is not formalised. Base-change
+compatibility is not stated. The blueprint takes $B$ of finite type over $k$; the Lean statement has no field under $B$.
+\end{gap}
+
+\begin{statement}[Affine-space purity: the $R\pi^!$-form]\label{st:an-ii}
+\src{AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpace, AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_affineSpace}{sk-prop-an (ii)}{\SORRY\ (both)}
+Assume (H$_\Lambda$). Let $c\in\mathbb N$ and let $B$ be \emph{any} scheme with $\Lambda$ of invertible exponent on $B$, and let
+$\pi:\Aff cB\to B$ be the projection, assumed to admit a compactification (an instance hypothesis). Then:
+\begin{enumerate}
+\item there exists an isomorphism of functors $\Dbctf(B,\Lambda)\to\D{\Aff cB}{\Lambda}$
+\[
+R\pi^!|_{\Dbctf}\ \exiso\ \bigl(L\pi^*(-)\Lt\Lambda_{\Aff cB}(c)\bigr)[2c]\big|_{\Dbctf},
+\]
+i.e.\ an isomorphism $R\pi^!K\cong(L\pi^*K\Lt\Lambda_{\Aff cB}(c))[2c]$ \emph{natural in} $K\in\Dbctf(B,\Lambda)$ (the full
+subcategory being \leanu{(constructibleFiniteTor (ModuleCat Λ) B).FullSubcategory}, mapped in by \leanu{ι});
+\item there exists an isomorphism $\omega_\pi\exiso(\Lambda_{\Aff cB}\Lt\Lambda_{\Aff cB}(c))[2c]$.
+\end{enumerate}
+\end{statement}
+\begin{gap}
+That the isomorphism of (1) is the transpose $\gamma_{\pi,K}$ of the integration map, its base-change compatibility and the
+composition law along $\Aff{c+e}B=\Aff c{\Aff eB}$ are not stated: the projection map and a canonical composition
+isomorphism for $R(-)^!$ are not defined on this branch. As in Statement~\ref{st:an}, there is no field under $B$. The
+vector-bundle form is stated only for the normal bundle of a section (Statement~\ref{st:an-vb}); Mathlib has no vector
+bundles over a scheme.
+\end{gap}
+
+\begin{statement}[Vector-bundle purity for the normal bundle of a section]\label{st:an-vb}
+\src{AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_sectionNormalConeProj}{sk-prop-an (ii), vector-bundle form}{\SORRY}
+Assume (H$_\Lambda$). Let $g:V\to B$ be smooth of relative dimension $d$, $s:B\to V$ a closed immersion with
+$s\gg g=\mathrm{id}_B$, $\pi_N:N_s\to B$ the normal bundle of Definition~\ref{def:normalcone}, assumed to admit a
+compactification, and $\Lambda$ of invertible exponent on $B$. There exists an isomorphism
+$\omega_{\pi_N}\exiso(\Lambda_{N_s}\Lt\Lambda_{N_s}(d))[2d]$.
+\end{statement}
+\begin{remark}
+This is the input of smooth purity, Step~3: pulling back along $0_N$ gives $\mathcal C(\pi_N,0_N)\cong\Lambda_B(d)[2d]$. It is not a
+consequence of the smoothness of $\pi_N$, which would make Step~3 circular.
+\end{remark}
+
+\begin{remark}[Clause (iii) of \texttt{sk-prop-an} is not stated]
+The normalization says that $\Lambda_B\xrightarrow{\mathrm{th}}Rz^!\Lambda(c)[2c]\xrightarrow{Rz^!\gamma_{\pi,\Lambda}}
+Rz^!R\pi^!\Lambda_B\cong\Lambda_B$ is the identity. It is an equation between the Thom class, $\gamma_{\pi,\Lambda}$ and the
+composition isomorphism, none of which is a Lean definition; over the existence statements \ref{st:an} and \ref{st:an-ii}
+it would be vacuous. The source records it as a \texttt{TODO(unify)} in \path{Purity/Smooth/AffineLine.lean}.
+\end{remark}
+
+\subsection*{Move (3): cohomological smoothness}
+
+\begin{statement}[Cohomological smoothness, as formalised]\label{st:cohsm}
+\src{AlgebraicGeometry.Etale.isInvertible_dualizingComplex, AlgebraicGeometry.Etale.boundedConstructible_dualizingComplex, AlgebraicGeometry.Etale.tensorFormulaMap, AlgebraicGeometry.Etale.isIso_tensorFormulaMap, AlgebraicGeometry.Etale.rightDerivedUpperShriekBaseChange, AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChange}{sk-prop-cohsm}{\DEF s; statements \SORRY}
+Assume (H$_\Lambda$). Let $d\in\mathbb N$ and $f:X\to Y$ be separated, smooth of relative dimension $d$ and admit a
+compactification, with $\Lambda$ of invertible exponent on $X$.
+\begin{enumerate}
+\item[(a)] $\omega_f$ is invertible (Def.~\ref{def:invertible}), and bounded with constructible cohomology.
+\item[(b)] Let moreover $f$ be locally of finite type and $\Lambda$ of invertible exponent on $Y$. For $K\in\Dbctf(Y,\Lambda)$ the
+\emph{tensor-formula map} $\varphi_K:\omega_f\Lt Lf^*K\to Rf^!K$ is an isomorphism. $\varphi_K$ is the transpose under
+$Rf_!\dashv Rf^!$ of $Rf_!(\omega_f\Lt Lf^*K)\xrightarrow{\mathrm{PF}^{-1}}Rf_!\omega_f\Lt K\xrightarrow{\varepsilon\otimes1}\Lambda_Y\Lt K\cong K$;
+it is defined when $\mathrm{PF}_{\omega_f,K}$ is invertible, which (a) and Statement~\ref{st:pf} provide.
+\item[(c)] For every cartesian square $g'\gg f=f'\gg g$ with $f'$ admitting a compactification and quasi-compact, the
+\emph{base-change map} $Rf^!\ggg Lg'^*\to Lg^*\ggg Rf'^!$, the mate of $\Ex_!^{-1}$ under $Rf_!\dashv Rf^!$ and
+$Rf'_!\dashv Rf'^!$, is an isomorphism of functors.
+\end{enumerate}
+\end{statement}
+\begin{gap}
+The unused \leanu{[Finite Λ]} is included. The smoothness instance is included through
+\lean{include hf in}; since $d$ does not occur in the conclusions, it must be supplied by name at a use site. (b) needs the
+exponent of $\Lambda$ invertible on $Y$ and (c) needs $f'$ quasi-compact, because the maps are built from the inverses of
+$\mathrm{PF}$ and $\Ex_!$, whose invertibility statements carry these hypotheses.
+\end{gap}
+
+\begin{statement}[Additivity of the dualizing complex]\label{st:dualizing-comp}
+\src{AlgebraicGeometry.Etale.constructibleFiniteTor_dualizingComplex, AlgebraicGeometry.Etale.dualizingComplexCompMap, AlgebraicGeometry.Etale.isIso_dualizingComplexCompMap}{sk-thm-smooth-purity}{\DEF\ (\lean{@[no_expose]}); statements \SORRY}
+\CHOSEN\ Assume (H$_\Lambda$). For $f$ smooth separated of relative dimension $d$ with $\Lambda$ of invertible exponent on $X$,
+$\omega_f\in\Dbctf(X,\Lambda)$. For $g:W\to X$ smooth separated of relative dimension $e$ and locally of finite type,
+$f:X\to Y$ as before, $g\gg f$ admitting a compactification and $\Lambda$ of invertible exponent on $W$ and $X$, the map
+\[
+\omega_g\Lt Lg^*\omega_f\xrightarrow{\ \varphi_{\omega_f}\ }Rg^!\omega_f\xrightarrow{\ c_{g,f}^{-1}\ }\omega_{g\gg f}
+\]
+(the tensor-formula map of $g$, Statement~\ref{st:cohsm}(b), then the inverse of $c_{g,f}$ of Def.~\ref{st:mate} at $\Lambda_Y$) is an
+isomorphism.
+\end{statement}
+
+\subsection*{Move (4): the deformation to the normal cone of a section}
+
+\begin{statement}[Geometry of the deformation]\label{st:geometry}
+\src{AlgebraicGeometry.Scheme.Hom.exists_deformationSection, AlgebraicGeometry.Scheme.Hom.isPullback_sectionNormalCone, AlgebraicGeometry.Scheme.Hom.exists_isPullback_deformationOneFibre, AlgebraicGeometry.Scheme.Hom.smoothOfRelativeDimension_deformationProj, AlgebraicGeometry.Scheme.Hom.smoothOfRelativeDimension_sectionNormalConeProj, AlgebraicGeometry.Scheme.Hom.isClosedImmersion_sectionNormalConeZero}{sk-lem-geometry, sk-def-purity-conv}{(1) \PROVED; the rest \SORRY}
+Let $g:V\to B$ and let $s$ be a closed immersion with $s\gg g=\mathrm{id}_B$; notation as in Definitions~\ref{def:dnc} and~\ref{def:normalcone}.
+\begin{enumerate}
+\item[(0)] There is $\sigma:\Aff1B\to\mathcal D_sV$ with $\sigma\gg\tilde g=\mathrm{id}$, whose composite with $\mathcal D_sV\to W$ is
+$(s\circ p,\mathrm{id})$.
+\item[(1)] The square $(\iota_0,\pi_N,\tilde g,0)$ is cartesian (by definition).
+\item[(2)] There is $\iota_1:V\to\mathcal D_sV$ with $(\iota_1,g,\tilde g,1)$ cartesian and $s\gg\iota_1=1\gg\tilde s$.
+\item[(3)] If $g$ is smooth of relative dimension $d$, so is $\tilde g$.
+\item[(4)] If $g$ is smooth of relative dimension $d$, so is $\pi_N$.
+\item[(5)] $0_N$ is a closed immersion.
+\end{enumerate}
+\end{statement}
+\begin{statement}[Local structure of the deformation]\label{st:geometry-local}
+\src{AlgebraicGeometry.Scheme.Hom.exists_etale_coordinates_of_section, AlgebraicGeometry.Scheme.Hom.exists_etale_deformationSpace_map, AlgebraicGeometry.Scheme.Hom.exists_isPullback_deformationSpace_baseChange, AlgebraicGeometry.Scheme.Hom.exists_iso_deformationSpace_affineSpace, AlgebraicGeometry.Scheme.Hom.exists_isPullback_deformationSpace_multiplicativeGroup, AlgebraicGeometry.Etale.nonempty_iso_sectionInvariant_deformation_affineSpace}{sk-lem-geometry (2)--(5)}{\SORRY\ (all six)}
+Same notation; $g$ smooth of relative dimension $d$ where stated.
+\begin{enumerate}
+\item (Normal form.) There are a jointly surjective étale family $b_i:B'_i\to B$, étale $w_i:W_i\to V$ with sections $\sigma_i$
+over $b_i$ such that $(\sigma_i,b_i,w_i,s)$ is cartesian (i.e.\ $w_i^{-1}(s(B))=\sigma_i(B'_i)$), and étale
+$x_i:W_i\to\Aff d{B'_i}$ over $B'_i$ with $\sigma_i\gg x_i=0$.
+\item (Étale localization.) For $e:V'\to V$ étale with a section $s'$ of $e\gg g$ such that $(s',\mathrm{id},e,s)$ is cartesian,
+there is an étale $\varphi:\mathcal D_{s'}V'\to\mathcal D_sV$ over $\Aff1B$ with $\tilde s'\gg\varphi=\tilde s$.
+\item (Base change.) For $g$ smooth and a cartesian square $(b_V,g',g,b)$ with a section $s'$ of $g'$ over $s$, there is
+$\varphi:\mathcal D_{s'}V'\to\mathcal D_sV$ with $(\varphi,\tilde g',\tilde g,\Aff1b)$ cartesian and
+$\tilde s'\gg\varphi=\Aff1b\gg\tilde s$.
+\item (Standard pair, geometric half.) $\mathcal D_0(\Aff dS)\cong\Aff d{\Aff1S}$ over $\Aff1S$, carrying $\tilde s$ to the zero section.
+\item (Punctured trivialization, geometric half;
+\lean{exists_isPullback_deformationSpace_multiplicativeGroup}.) There is $\varphi:V\times_B\mathbb G_{m,B}\to\mathcal D_sV$
+with $(\varphi,\mathrm{pr}_2,\tilde g,\mathbb G_{m,B}\hookrightarrow\Aff1B)$ cartesian and $(s\times1)\gg\varphi=\tilde s|_{\mathbb G_{m,B}}$;
+here $\mathbb G_{m,B}$ is the basic open $D(t)$ (\lean{AffineSpace.multiplicativeGroupOpen}).
+\item (Standard pair, cohomological half; \lean{Etale.nonempty_iso_sectionInvariant_deformation_affineSpace},
+in \path{Purity/Smooth/Deformation.lean}.) Assume (H$_\Lambda$) and $\Lambda$ of invertible exponent on $B$. For the zero
+section of $\Aff dB$, there exists an isomorphism $L\tilde s^*\omega_{\tilde g}\exiso La^*\Lambda_B(d)[2d]$, $a:\Aff1B\to B$.
+\end{enumerate}
+\end{statement}
+\begin{gap}
+Only the geometric half of (3) is stated; the cohomological trivialization $\kappa^\circ$ follows from it and base change
+for $\omega$, and is only needed for the normalization and uniqueness clauses of the DNC isomorphism, which are not stated
+(Statement~\ref{st:dnc}).
+\end{gap}
+
+\begin{statement}[DNC invariance]\label{st:dnc}
+\src{AlgebraicGeometry.Etale.nonempty_iso_sectionInvariant_normalCone}{sk-thm-dnc}{\SORRY}
+Assume (H$_\Lambda$). Let $g:V\to B$ be smooth of relative dimension $d$ and admit a compactification, $s:B\to V$ a closed
+immersion with $s\gg g=\mathrm{id}_B$, $N_s$ the normal bundle of Definition~\ref{def:normalcone}, with $\pi_N$ admitting a compactification,
+and $\Lambda$ of invertible exponent on $B$. There exists an isomorphism $\mathcal C(g,s)\exiso\mathcal C(\pi_N,0_N)$.
+\end{statement}
+\begin{gap}
+Normalisation on standard pairs, uniqueness and base-change compatibility are not stated (TODO in the source).
+\end{gap}
+
+\subsection*{Move (5): the diagonal}
+
+\begin{statement}[The diagonal is regular]\label{st:diag}
+\src{AlgebraicGeometry.isRegularImmersion_diagonal}{sk-lem-diag-reg}{\SORRY\ (an instance)}
+Let $f:X\to Y$ be separated and smooth of relative dimension $d$. Then the diagonal $\Delta:X\to X\times_YX$ is a regular
+immersion of pure codimension $d$ (Def.~\ref{def:regimm}). The identification $N_\Delta\cong T_{X/Y}$ is not stated.
+\end{statement}
+
+\begin{statement}[Co-projection for a closed immersion]\label{st:coproj}
+\src{AlgebraicGeometry.Etale.coprojectionMap, AlgebraicGeometry.Etale.isIso_coprojectionMap}{sk-lem-coprojection}{\DEF; \SORRY}
+Assume (H$_\Lambda$). Let $i:Z\to X$ be a closed immersion admitting a compactification. The \emph{co-projection map}
+$Ri^!K\Lt Li^*L\to Ri^!(K\Lt L)$ is the transpose under $Ri_!\dashv Ri^!$ of
+$Ri_!(Ri^!K\Lt Li^*L)\xrightarrow{\mathrm{PF}^{-1}}Ri_!Ri^!K\Lt L\xrightarrow{\varepsilon\otimes1}K\Lt L$ (Statement~\ref{st:pf}(2)).
+For $K,L\in\Dbctf(X,\Lambda)$ with $L$ invertible it is an isomorphism. There is no invertible-exponent hypothesis.
+\end{statement}
+
+%======================================================================
+\section{Statements: smooth purity, transport, regular immersions}
+%======================================================================
+
+\begin{statement}[Finite-coefficient smooth purity]\label{st:smooth-purity}
+\src{AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_twistShift, AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_twistShift}{sk-thm-smooth-purity}{\SORRY\ (both)}
+Assume (H$_\Lambda$). Let $d\in\mathbb N$ and $f:X\to Y$ be separated, smooth of relative dimension $d$, admitting a
+compactification, with $\Lambda$ of invertible exponent on $X$. Then:
+\begin{enumerate}
+\item there exists an isomorphism $\omega_f\ \exiso\ (\Lambda_X\Lt\Lambda_X(d))[2d]$;
+\item for every $K\in\Dbctf(Y,\Lambda)$ there exists an isomorphism $Rf^!K\ \exiso\ (Lf^*K\Lt\Lambda_X(d))[2d]$.
+\end{enumerate}
+\end{statement}
+\begin{gap}
+The blueprint asserts a \emph{canonical} isomorphism compatible with base change and with composition (twist additivity),
+and agreement with the model isomorphism of \texttt{sk-prop-an} for vector bundles. The Lean statements assert only existence
+of some isomorphism, deliberately: the blueprint's isomorphism is the composite of Step~1 (the base-change map of
+Statement~\ref{st:cohsm}(c)), Step~2 (the DNC isomorphism, unique by $\mathbb A^1$-invariance) and Step~3 (vector-bundle purity
+$\gamma_{\pi_N}$, the transpose of a trace glued from affine-space traces). The affine-space trace for $c>1$ would use the chosen
+$\alpha$ (Def.~\ref{def:chosen-comp}), but the trace itself is not a consequence of $\alpha$, and the gluing needs a
+vector-bundle structure on $N_s$; so the final statement is wrapped as existence. The isomorphism of (2) is not stated to
+be natural in $K$. There is no hypothesis on $Y$ (finite type, invertible exponent on $Y$) beyond what is listed.
+\end{gap}
+
+\begin{remark}[No Lean statement for \texttt{sk-thm-purity-transport}]\label{st:transport}
+The blueprint places the non-torsion stages $\mathcal O_E$, $E$, $\overline{\mathbb Q}_\ell$ on the pro-étale site only. The former
+Lean statement, preservation of derived completeness by the étale $Rf^!$ with $\mathcal O_E$-coefficients, was stated on the
+étale site and has been removed. The adic exceptional inverse image of the blueprint (levelwise on normalized systems, from
+the finite-level functor of Def.~\ref{def:constructible-upper-shriek}) needs reduction functors
+$D(-,\mathcal O_E)\to D(-,A_{E,n})$ and derived limits, which are not available; \path{Purity/Smooth/Transport.lean} records
+this as a \texttt{TODO(unify)}. The derived-complete objects (Def.~\ref{def:complete}) are defined for any site, so the
+pro-étale $\mathcal O_E$-stage can be phrased once that functor exists.
+\end{remark}
+
+\begin{statement}[Regular immersions of smooth schemes over a perfect field]\label{st:regular-smooth}
+\src{AlgebraicGeometry.IsRegularImmersion.smooth_comp, AlgebraicGeometry.IsRegularImmersion.ringKrullDim_stalk_add}{sk-lem-regular-smooth}{\SORRY\ (both)}
+Let $k$ be a perfect field, $c\in\mathbb N$, $i:Z\to X$ a regular immersion of pure codimension $c$, $a_X:X\to\Spec k$
+smooth, $i\gg a_X$ locally of finite type, and every local ring $\mathcal O_{Z,z}$ regular. Then
+(i) $i\gg a_X$ is smooth; (ii) for every $z\in Z$, $\dim\mathcal O_{X,i(z)}=\dim\mathcal O_{Z,z}+c$ (Krull dimensions in
+$\mathbb N_\infty\cup\{\bot\}$).
+\end{statement}
+
+\begin{statement}[Purity for regular closed immersions]\label{st:regular}
+\src{AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_of_isRegularImmersion}{sk-thm-regular}{\SORRY}
+Let $\Lambda$ be finite with a Tate twist datum, $k$ a perfect field, $c,n,m\in\mathbb N$ with $m+c=n$, $i:Z\to X$ a regular
+immersion of pure codimension $c$ admitting a compactification, $a_X:X\to\Spec k$ separated, smooth of relative dimension $n$
+and admitting a compactification, $i\gg a_X$ smooth of relative dimension $m$ and admitting a compactification, and $\Lambda$ of
+invertible exponent on $X$ and on $Z$. There exists an isomorphism
+\[
+\omega_i=Ri^!\Lambda_X\ \exiso\ (\Lambda_Z\Lt\Lambda_Z(-c))[-2c].
+\]
+\end{statement}
+\begin{gap}
+The smoothness of $Z$ over $k$ is a \emph{hypothesis} (\leanu{SmoothOfRelativeDimension m (i ≫ aX)}), whereas regularity of $Z$
+is not assumed; the blueprint derives the former from the latter via Statement~\ref{st:regular-smooth}. The isomorphism is not
+identified with $\mathrm{cl}_i(-c)[-2c]^{-1}$, and no base-change or exterior-product compatibility is stated.
+\end{gap}
+
+\begin{remark}
+The blueprint node \texttt{sk-rem-split} has no Lean declaration.
+\end{remark}
+
+\end{document}

@@ -4,7 +4,7 @@ kind = "section"
 title = "Supported localization"
 order = 1865
 uses = ["sk-lem-sf-determination", "sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle"]
-lean = ["AlgebraicGeometry.Etale.exists_distTriang_supportedLocalization"]
+lean = ["AlgebraicGeometry.Etale.existsUnique_distTriang_supportedLocalization"]
 +++
 *Proposition (sketch).*
 

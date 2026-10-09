@@ -4,7 +4,7 @@ kind = "section"
 title = "Proper coincidence"
 order = 1875
 uses = ["sk-def-sf-exchanges", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-thm-properbasechange"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_rightDerivedLowerStar"]
+lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekIsoRightDerivedLowerStar"]
 +++
 *Proposition (sketch).*
 

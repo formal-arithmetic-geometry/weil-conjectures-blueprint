@@ -3,17 +3,21 @@ id = "lem-pur-dnc-section-geometry"
 kind = "lemma"
 title = "Geometry of the deformation"
 order = 1998
-uses = ["cor-pur-vector-bundle-purity", "def-pur-co-smoothness", "def-pur-conventions", "def-pur-dnc-section-family", "def-pur-normal-bundle", "def-pur-section-invariant", "def-weil-scheme-morphism-properties", "lem-pur-regular-immersion-linearization", "sbc-thm-etale-local-normal-form"]
-lean = ["AlgebraicGeometry.Scheme.Hom.nonempty_deformationToNormalConeData"]
+uses = ["cor-pur-vector-bundle-purity", "def-pur-co-smoothness", "def-pur-conventions", "def-pur-dnc-section-family", "def-pur-normal-bundle", "def-pur-section-invariant", "def-pur-vector-bundle-zero-section", "def-weil-scheme-morphism-properties", "lem-pur-regular-immersion-linearization", "sbc-thm-etale-local-normal-form"]
+lean = ["AlgebraicGeometry.Scheme.Hom.isPullback_sectionNormalCone", "AlgebraicGeometry.Scheme.Hom.exists_isPullback_deformationOneFibre", "AlgebraicGeometry.Scheme.Hom.smoothOfRelativeDimension_deformationProj", "AlgebraicGeometry.Scheme.Hom.smoothOfRelativeDimension_sectionNormalConeProj"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting), in the situation of
 [def-pur-dnc-section-family] with $g:V\to B$ smooth of pure
 relative dimension $d$ and $N_s\to B$ the normal bundle of the
-section:
+section ([def-pur-normal-bundle], the fibre of $\widetilde g$ over $0$):
 
 1. *the fibers.* The fiber of $\widetilde g$ over $1$ is
-$(g:V\to B,s)$ and the fiber over $0$ is the
-$\pi_N:N_s\to B$ with its zero section; hence by the
+$(g:V\to B,s)$, and the fiber over $0$ is
+$\pi_N:N_s\to B$ with its zero section by [def-pur-normal-bundle]. The latter is
+the normal cone
+$\operatorname{Spec}_B\bigl(\bigoplus_{r\geq0}\mathcal I_s^r/\mathcal I_s^{r+1}\bigr)$
+and a vector bundle of rank $d$ with zero section $0_N$
+([def-pur-vector-bundle-zero-section]). Hence by the
 base-change compatibility of [def-pur-co-smoothness]
 (applied to the closed immersions $i_1,i_0$ of the two
 sections of $\mathbf A^1_B$),
@@ -57,9 +61,14 @@ Use the blow-up construction of [def-pur-dnc-section-family] and the section inv
 Item (1): the blow-up along $s(B)\times\{0\}$ is fiberwise trivial
 away from the center, and the strict transform of
 $V\times_B\{0\}$ is removed; the fiber of $\widetilde g$ over
-$t\neq0$ is $V$ with the section $s$, and the exceptional
-division of the affine cone identifies the fiber over $0$ with the
-normal bundle $N_s$ of the section. Items (2): the coordinates are
+$t\neq0$ is $V$ with the section $s$. The fiber over $0$ is $N_s$ by
+definition; on the Rees description
+$\mathcal D_sV=\operatorname{Spec}_V\bigl(\bigoplus_{r\in\mathbf Z}\mathcal I_s^rt^{-r}\bigr)$
+it is $\operatorname{Spec}_B\bigl(\bigoplus_{r\geq0}\mathcal I_s^r/\mathcal I_s^{r+1}\bigr)$,
+and since a section of a smooth map is a regular immersion of codimension $d$
+the conormal sheaf $\mathcal I_s/\mathcal I_s^2$ is locally free of rank $d$ and
+this algebra is $\mathrm{Sym}^\bullet(\mathcal I_s/\mathcal I_s^2)$, so $N_s$ is a
+vector bundle of rank $d$. Items (2): the coordinates are
 the ones of the relative linearization; on the chart
 $u_i=x_i/t$, the map $\widetilde g$ is the projection
 $(u,x',t)\mapsto(x',t)$ into the base coordinates, smooth of

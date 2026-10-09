@@ -3,7 +3,7 @@ id = "lem-pur-diagonal-regular-immersion"
 kind = "lemma"
 title = "The diagonal is a regular immersion"
 order = 2004
-uses = ["def-pur-conventions", "def-pur-regular-immersion", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "sbc-thm-etale-local-normal-form"]
+uses = ["def-pur-conventions", "def-pur-normal-bundle", "def-pur-regular-immersion", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "sbc-thm-etale-local-normal-form"]
 lean = ["AlgebraicGeometry.isRegularImmersion_diagonal"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
@@ -12,7 +12,8 @@ separated, of pure
 relative dimension $d$, and put $W=X\times_YX$ with projections
 $p_1,p_2$ and diagonal $\Delta:X\hookrightarrow W$. Then $\Delta$
 is a regular closed immersion of
-pure codimension $d$, and its normal bundle is canonically
+pure codimension $d$, and its normal bundle as a closed section of $p_1$
+([def-pur-normal-bundle]) is canonically
 
 $$
 N_{\Delta/W}\;\cong\;T_{X/Y}

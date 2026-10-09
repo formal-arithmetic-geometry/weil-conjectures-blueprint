@@ -3,7 +3,7 @@ id = "sk-lem-sf-flat-model"
 kind = "section"
 title = "Bounded flat model of finite Tor amplitude"
 order = 1829
-lean = ["AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatModel"]
+lean = ["AlgebraicGeometry.Etale.torAmplitudeIn_iff_exists_flatModel"]
 +++
 *Lemma (sketch).*
 

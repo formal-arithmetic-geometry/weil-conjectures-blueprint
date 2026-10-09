@@ -4,7 +4,6 @@ kind = "section"
 title = "Smooth purity over $\\mathcal O_E$, $E$ and $\\overline{\\mathbf Q}_\\ell$"
 order = 2020
 uses = ["sk-def-purity-conv", "sk-lem-sf-flat-model", "sk-prop-a1", "sk-prop-cohsm", "sk-thm-smooth-purity"]
-lean = ["AlgebraicGeometry.Etale.derivedCompleteIntegral_rightDerivedUpperShriek"]
 +++
 *Theorem (sketch).*
 

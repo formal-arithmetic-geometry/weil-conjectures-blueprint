@@ -4,7 +4,7 @@ kind = "section"
 title = "Cohomological smoothness"
 order = 1991
 uses = ["sk-prop-a1", "sk-prop-an", "sk-prop-sf-cbc"]
-lean = ["AlgebraicGeometry.Etale.isInvertible_dualizingComplex", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_obj_derivedTensor", "AlgebraicGeometry.Etale.nonempty_iso_leftDerivedUpperStar_comp_rightDerivedUpperShriek"]
+lean = ["AlgebraicGeometry.Etale.isInvertible_dualizingComplex", "AlgebraicGeometry.Etale.boundedConstructible_dualizingComplex", "AlgebraicGeometry.Etale.tensorFormulaMap", "AlgebraicGeometry.Etale.isIso_tensorFormulaMap", "AlgebraicGeometry.Etale.rightDerivedUpperShriekBaseChange", "AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChange"]
 +++
 *Proposition (sketch).*
 

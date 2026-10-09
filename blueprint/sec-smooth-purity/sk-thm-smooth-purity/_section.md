@@ -4,7 +4,7 @@ kind = "section"
 title = "Finite-coefficient smooth purity"
 order = 2008
 uses = ["sk-def-purity-conv", "sk-lem-diag-reg", "sk-prop-an", "sk-prop-cohsm", "sk-thm-dnc"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_twistShift", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_twistShift"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_twistShift", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_twistShift", "AlgebraicGeometry.Etale.constructibleFiniteTor_dualizingComplex", "AlgebraicGeometry.Etale.dualizingComplexCompMap", "AlgebraicGeometry.Etale.isIso_dualizingComplexCompMap"]
 +++
 *Theorem (sketch).*
 

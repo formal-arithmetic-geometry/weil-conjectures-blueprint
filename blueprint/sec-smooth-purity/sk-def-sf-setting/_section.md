@@ -3,7 +3,7 @@ id = "sk-def-sf-setting"
 kind = "section"
 title = "Coefficients and sites"
 order = 1451
-lean = ["AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructible", "AlgebraicGeometry.Etale.DerivedCategory.boundedConstructibleFiniteTor", "AlgebraicGeometry.Etale.constantComplex"]
+lean = ["AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructible", "AlgebraicGeometry.Etale.DerivedCategory.constructibleFiniteTor", "AlgebraicGeometry.Etale.constantComplex", "AlgebraicGeometry.Etale.DerivedCategory.constructibleFiniteTor_constantComplex", "AlgebraicGeometry.Etale.DerivedCategory.constructibleFiniteTor_shift", "AlgebraicGeometry.Etale.DerivedCategory.constructibleFiniteTor_derivedTensor"]
 +++
 *Remark (sketch).*
 
