@@ -291,8 +291,13 @@ label.chk input { margin: 0; }
    viewport instead (the graph did: `calc(100vh - var(--topbar-h))`) cannot
    know whether the banner is there, and while a historical snapshot was on
    screen the graph ran 47px off the bottom, taking the status line and the
-   legend with it. */
+   legend with it.
+   The top bar and the banner keep their own height: a flex item shrinks by
+   default, and on any page taller than the window the column squeezed the
+   52px top bar to the 33px of its tallest child, so the tabs sat cramped on
+   every page but the graph, the one page that fits the window exactly. */
 body { display: flex; flex-direction: column; }
+.topbar, .banner { flex: none; }
 .app { flex: 1 1 auto; min-height: 0; }
 
 .page {
@@ -580,6 +585,18 @@ table.grid tr:last-child td { border-bottom: 0; }
   color: var(--muted);
   font-weight: 600;
 }
+/* A long listing behind a disclosure: the summary reads as the other sections'
+   headings, with the browser's own marker in front saying it opens. */
+.side section.fold > details > summary {
+  cursor: pointer;
+  font-size: .76rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--muted);
+  font-weight: 600;
+}
+.side section.fold > details > summary:hover { color: var(--fg); }
+.side section.fold > details[open] > summary { margin-bottom: .35rem; }
 .side ul { margin: 0; padding-left: 1.05rem; }
 .side li { margin: .12em 0; }
 .side .hint { color: var(--faint); font-size: .84rem; }
@@ -603,6 +620,14 @@ table.grid tr:last-child td { border-bottom: 0; }
   margin: 1rem 0;
 }
 .panel > h2:first-child, .panel > h3:first-child { margin-top: 0; }
+
+/* A panel behind a disclosure (the object page's long listings): its heading
+   is the summary, with the browser's own marker in front saying it opens, and
+   a shut panel is that one line. */
+details.panel > summary { cursor: pointer; }
+details.panel > summary > h3 { display: inline; margin: 0; }
+details.panel > summary:hover > h3 { color: var(--accent); }
+details.panel[open] > summary { margin-bottom: .6rem; }
 
 dl.kv { display: grid; grid-template-columns: max-content 1fr; gap: .25em .9em; margin: 0; }
 dl.kv dt { color: var(--muted); font-size: .85rem; }
@@ -873,6 +898,25 @@ ul.objlist .role {
   stroke-dasharray: 4 3;
 }
 .gnode.compound .label { fill: var(--muted); font-size: 12.5px; }
+
+/* A title with maths: KaTeX's HTML in a <foreignObject> (see graph.js,
+   `measureMathTitles`).  The same font as the SVG labels, the colour from
+   `color` since HTML has no `fill`, and every line on one line: the lines were
+   broken when the node was measured, and must not be broken again. */
+/* Not selectable either: a drag that pans across it would paint it as a text
+   selection, which SVG text in the graph never shows. */
+.gnode foreignObject.label { overflow: visible; pointer-events: none; -webkit-user-select: none; user-select: none; }
+.gmath { font-size: 12px; font-weight: 550; line-height: 15px; color: var(--fg); text-align: center; }
+.gmath.section { font-size: 12.5px; color: var(--muted); text-align: left; }
+.gmath .gm-line, .gmath .gm-tok { white-space: nowrap; }
+.gmath .katex { font-size: 1.1em; }
+.gmath .katex-html { white-space: nowrap; }
+.gmath-measure {
+  position: absolute; left: -100000px; top: 0;
+  visibility: hidden; pointer-events: none; contain: layout style;
+}
+.gmath-measure .gm-tok { display: inline-block; }
+.gmath-measure .gm-line { width: max-content; }
 .gnode.junction .shape { fill: var(--graph-junction); stroke: var(--bg); stroke-width: 2; }
 .gnode.junction.selected .shape { fill: var(--accent); stroke: var(--accent); }
 
