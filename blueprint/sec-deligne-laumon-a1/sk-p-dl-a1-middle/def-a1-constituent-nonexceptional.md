@@ -4,7 +4,7 @@ kind = "definition"
 title = "Nonexceptional irreducible lisse sheaf (constituent form)"
 order = 2752
 uses = ["def-fd-artin-schreier-sheaf", "def-wf-fundamental-representation", "rem-dl-a1-conventions"]
-lean = ["AlgebraicGeometry.WeilSheaf.IsNonexceptional"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsNonexceptional"]
 +++
 In the conventions of [rem-dl-a1-conventions], let
 $j:U_0\hookrightarrow A_0=\mathbf A^1_{k_0}$ be a dense open immersion
