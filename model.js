@@ -179,20 +179,16 @@ const TYPE_SHAPE = {
 };
 
 /**
- * What a node is, for drawing: {word, mark, shape}.  A declaration's word is
- * its kind.  A section that opens with a statement word ("*Proposition
- * (sketch).*") is a sketch-level declaration and takes that word; any other
- * section is a section.  `shape` is `definition`, `statement`, `remark`,
- * `section`, or `other`.  Memoised on the model.
+ * What a node is, for drawing: {word, mark, shape}.  The word is its kind; a
+ * sketch of a statement is an object of that statement's kind (`blueprint
+ * migrate` turns the sections that used to stand for one into it).  `shape`
+ * is `definition`, `statement`, `remark`, `section`, or `other`.  Memoised on
+ * the model.
  */
 export function nodeType(model, o) {
   let t = model._types.get(o.id);
   if (t) return t;
-  let word = o.kind;
-  if (o.kind === 'section') {
-    const m = /^\s*\*\s*(Definition|Theorem|Proposition|Lemma|Corollary|Remark)\b/.exec(o.body || '');
-    if (m) word = m[1].toLowerCase();
-  }
+  const word = o.kind;
   const shape = TYPE_SHAPE[word] || (word === 'section' ? 'section' : 'other');
   t = { word, mark: TYPE_MARK[word] || word.slice(0, 3), shape };
   model._types.set(o.id, t);
@@ -264,11 +260,41 @@ export function isReversedKind(model, kindName) {
   return !!k && k.arrow === 'reverse';
 }
 
-/** Kinds that can appear as an arc in the graph (nonempty boundary). */
+/**
+ * The id of the object `object` is attached to, when its boundary is exactly
+ * one object (a proof and its statement, DESIGN 2.5), else null.
+ */
+export function attachedTo(object) {
+  return object && object.boundary.length === 1 ? object.boundary[0].id : null;
+}
+
+/**
+ * How a proof is introduced: "Proof." untitled, "Proof of the detailed
+ * form." when its title says what it proves, "Proof (by induction)."
+ * otherwise.  Returns the text after the word "Proof".
+ */
+export function proofLeadRest(object) {
+  const t = object && object.attrs && object.attrs.title;
+  if (typeof t !== 'string' || !t) return '.';
+  return /^of\s/.test(t) ? ' ' + t + '.' : ' (' + t + ').';
+}
+
+/**
+ * true when objects of the kind are attached to a single object: one role,
+ * holding at most one object.  They are never drawn as arcs of their own.
+ */
+export function isAttachedKind(model, kindName) {
+  const b = model.kinds[kindName] && model.kinds[kindName].boundary;
+  if (!b) return false;
+  const roles = Object.values(b);
+  return roles.length === 1 && roles[0] && roles[0].max === 1;
+}
+
+/** Kinds that can appear as an arc in the graph (a boundary of two or more). */
 export function edgeKinds(model) {
   return Object.keys(model.kinds).filter((k) => {
     const b = model.kinds[k] && model.kinds[k].boundary;
-    return b && Object.keys(b).length > 0;
+    return b && Object.keys(b).length > 0 && !isAttachedKind(model, k);
   });
 }
 
@@ -620,13 +646,31 @@ export function makeView(model, kind, expandedIds = []) {
     return out;
   }
 
+  // anchor(id): what `id` stands for.  An object attached to a single object
+  // (a proof) and with no parent of its own stands for that object, and so on
+  // down the chain; anything else stands for itself, and so does an object
+  // whose chain runs in a circle, as `anchor` in View.lean decides (DESIGN 3).
+  function anchor(id) {
+    let cur = id;
+    const seen = new Set([id]);
+    for (;;) {
+      if (parentsOf(order, cur).length > 0) return cur;
+      const next = attachedTo(model.byId.get(cur));
+      if (next == null || !model.byId.has(next)) return cur;
+      if (seen.has(next)) return id;
+      seen.add(next);
+      cur = next;
+    }
+  }
+
   const view = {
     model,
     kind,
     order,
     expanded,
     visible,
-    rep: (id) => rep(id),
+    anchor,
+    rep: (id) => rep(anchor(id)),
     isVisible: (id) => visible.has(id),
     isExpanded: (id) => expanded.has(id),
     isExpandable: (id) => order.expandable.has(id),
@@ -777,8 +821,11 @@ export function quotient(view, options = {}) {
     // matters is whether the coarse story names the pair outright or only
     // reaches it through the quotient.
     if (isBinaryKind(model, o.kind)) {
-      const a = boundaryEntry(o, 'src');
-      const b = boundaryEntry(o, 'tgt');
+      // An end attached to another object (a proof) stands for it.
+      const src = boundaryEntry(o, 'src');
+      const tgt = boundaryEntry(o, 'tgt');
+      const a = src == null ? null : view.anchor(src);
+      const b = tgt == null ? null : view.anchor(tgt);
       if (a != null && b != null) {
         if (view.isVisible(a) && view.isVisible(b)) {
           if (a !== b) bump(a, b, o.kind, 'declared', o.id);
@@ -1148,6 +1195,9 @@ export function topLevel(model, kind) {
  *   * an object appears in the flow when it has prose of its own or children
  *     in the collapse order.  Sugar-created edges with neither are structure,
  *     not content, and are left to the graph;
+ *   * a proof is filed under the statement it proves and read there, after it;
+ *     it has no number of its own.  A proof with children of its own in the
+ *     collapse order keeps its own place, as a step does;
  *   * a binary edge with prose or a title but no children of its own is a
  *     *step* of its source object, rendered as a block under it — "By
  *     induction on the dimension" belongs under the theorem it proves, not as
@@ -1171,7 +1221,8 @@ export function topLevel(model, kind) {
  *     roots,    // the top-level entries
  *     byId,     // id -> its first (written-out) entry
  *     steps,    // source id -> the step objects filed under it
- *     stepOf }  // step id -> its source id
+ *     proofs,   // statement id -> the proofs filed under it
+ *     stepOf }  // step or proof id -> the id it is filed under
  */
 export function documentOutline(model, kind) {
   if (model._outlines.has(kind)) return model._outlines.get(kind);
@@ -1199,6 +1250,19 @@ export function documentOutline(model, kind) {
     steps.get(src).push(o);
     stepOf.set(o.id, src);
   }
+
+  // Proofs: attached to a statement in the flow, filed under it.
+  const proofs = new Map();
+  for (const o of model.objects) {
+    if (o.kind !== 'proof' || hasKids(o.id)) continue;
+    const of = attachedTo(o);
+    const ofObj = of && model.byId.get(of);
+    if (!ofObj || !inFlow(ofObj)) continue;
+    if (!proofs.has(of)) proofs.set(of, []);
+    proofs.get(of).push(o);
+    stepOf.set(o.id, of);
+  }
+  for (const list of proofs.values()) list.sort((a, b) => compareIds(model, a.id, b.id));
 
   // `readingOrder` gives the walk with its depths; an entry's parent in the
   // flow is the nearest entry above it that is shallower.  Going by that
@@ -1236,7 +1300,7 @@ export function documentOutline(model, kind) {
     if (!entry.duplicate) stack.push({ walkDepth: e.depth, entry });
   }
 
-  const outline = { kind, entries, roots, byId, steps, stepOf };
+  const outline = { kind, entries, roots, byId, steps, proofs, stepOf };
   model._outlines.set(kind, outline);
   return outline;
 }
@@ -1252,8 +1316,8 @@ export function kindWord(kind) {
  * `{ word: 'Definition', number: '1.2.1' }`, the lead word being the one the
  * document view sets the entry under.  An object with several parents is
  * referred to by its one number, the first occurrence's.  `null` for an object
- * the document gives no number: one that is not in the flow, or a step, which
- * is read as part of its source rather than on its own.
+ * the document gives no number: one that is not in the flow, or a step or a
+ * proof, which is read as part of its source rather than on its own.
  */
 export function referenceOf(outline, id) {
   const entry = outline.byId.get(id);
@@ -1264,7 +1328,8 @@ export function referenceOf(outline, id) {
 /**
  * The page of the split document an object is read on: its own page if it has
  * entries under it, otherwise its parent's, which shows it among its siblings
- * (`null` is the top-level page).  A step is read wherever its source is.
+ * (`null` is the top-level page).  A step is read wherever its source is, a
+ * proof wherever its statement is.
  * `undefined` when the object is not in the document at all.
  */
 export function documentPageOf(outline, id) {

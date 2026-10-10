@@ -126,6 +126,13 @@
    "file": "data/cb5e993aa130bcf1cd3b7ec94fc3cc4724496e80.json",
    "date": "2026-10-08"},
   {"summary":
+   {"total": 2671,
+    "proved": 496,
+    "byStatus": {"stated": 319, "proved": 496, "missing": 21, "absent": 1835}},
+   "sha": "459947ea943acafdc1f121eaba5031b9a75b282b",
+   "file": "data/459947ea943acafdc1f121eaba5031b9a75b282b.json",
+   "date": "2026-10-10"},
+  {"summary":
    {"total": 2318,
     "proved": 378,
     "byStatus": {"stated": 120, "proved": 378, "missing": 10, "absent": 1810}},

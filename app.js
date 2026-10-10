@@ -252,6 +252,17 @@ function isProofHeading(node) {
   return /^proof\b/i.test(String(node.textContent || '').trim());
 }
 
+/**
+ * A proof as a disclosure: `head` is its summary, `body` what folds away, an
+ * end mark closes it.  Open or folded as the reader last chose.  The one shape
+ * for a proof object (`DESIGN.md` §2.5) and for a `## Proof` section still in
+ * a body.
+ */
+export function proofDisclosure(head, body) {
+  body.appendChild(el('div.proof-end', { 'aria-hidden': 'true' }, '\u220e'));
+  return el('details.proof', { open: !proofsFolded }, el('summary.proof-head', head), body);
+}
+
 /** Wrap every proof among the top-level blocks of a rendered body. */
 export function foldProofs(target) {
   const blocks = [...target.childNodes];
@@ -266,10 +277,7 @@ export function foldProofs(target) {
       if (n.nodeType === 1 && /^H[1-6]$/.test(n.tagName) && Number(n.tagName[1]) <= level) break;
       body.appendChild(n);
     }
-    const details = el('details.proof', { open: !proofsFolded });
-    target.insertBefore(details, h);
-    details.appendChild(el('summary.proof-head', h));
-    details.appendChild(body);
+    target.insertBefore(proofDisclosure(h, body), blocks[j] || null);
     i = j - 1;
   }
   return target;
@@ -615,6 +623,7 @@ const app = {
   renderBody,
   renderMath,
   proofToggle,
+  proofDisclosure,
   katexOptions,
   linkifySlugs,
   objLink,

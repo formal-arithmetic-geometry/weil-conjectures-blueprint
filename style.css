@@ -691,6 +691,15 @@ ul.objlist .role {
 .doc-entry .prose { margin-top: .5rem; }
 .doc-entry.dup { opacity: .75; }
 
+/* A proof follows its statement as in a paper: "Proof." run in, its prose,
+   and an end mark at the right (`proofDisclosure` in app.js, which also
+   makes it fold; see "Proofs fold" below). */
+.proof { margin: .6rem 0 1rem; }
+a.proof-word { font-style: italic; font-weight: 400; color: inherit; }
+.proof-prose > p:first-child { margin-top: 0; }
+.proof-body > :last-child { margin-bottom: .3em; }
+.proof-end { text-align: right; line-height: 1; color: var(--muted); }
+
 .step {
   margin: .8rem 0 .8rem 1.2rem;
   padding: .55rem .9rem;
@@ -1036,35 +1045,14 @@ textarea {
 button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
 button.primary:hover { background: var(--accent); filter: brightness(1.08); }
 
-/* The document's search box heads the left column. */
-.doc-search { margin: 0 0 1rem; }
-.doc-search input[type="search"] { width: 100%; font-size: .88rem; }
-.doc-search-foot:not(:empty) { margin: .35rem 0 .2rem; }
-.doc-search-results { display: flex; flex-direction: column; gap: .1rem; }
-.doc-search-item {
-  display: block;
-  padding: .35em .5em;
-  border-radius: var(--radius);
-  color: var(--fg);
-}
-.doc-search-item:hover, .doc-search-item.active { background: var(--accent-soft); text-decoration: none; }
-.doc-search-title { display: block; overflow-wrap: anywhere; }
-.doc-search-title .num { font-weight: 700; }
-.doc-search-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .35em; margin-top: .1em; }
-.doc-search-meta code, .doc-search-id {
-  font-family: var(--mono); font-size: .74rem; color: var(--muted); overflow-wrap: anywhere;
-}
-.doc-search-meta .badge { font-size: .68rem; }
-.doc-search + .toc-head { border-top: 1px solid var(--border); padding-top: .8rem; }
-
-/* The entry a search result or a focus link led to. */
+/* The entry a focus link led to, or a proof's, marked briefly. */
 @keyframes doc-flash {
   from { background: var(--accent-soft); }
   to { background: transparent; }
 }
-.doc-entry.flash, .step.flash { animation: doc-flash 1.6s ease-out; }
+.doc-entry.flash, .step.flash, .proof.flash { animation: doc-flash 1.6s ease-out; }
 @media (prefers-reduced-motion: reduce) {
-  .doc-entry.flash, .step.flash { animation: none; outline: 2px solid var(--accent-soft); }
+  .doc-entry.flash, .step.flash, .proof.flash { animation: none; outline: 2px solid var(--accent-soft); }
 }
 
 /* Proofs fold under their "Proof." heading. */
@@ -1091,8 +1079,6 @@ details.proof:not([open]) > summary::after {
   font-size: .82rem;
 }
 details.proof > summary:hover > :is(h1, h2, h3, h4, h5, h6) { color: var(--accent); }
-details.proof > .proof-body > :last-child::after { content: " ∎"; color: var(--muted); }
-details.proof > .proof-body > :is(ul, ol, pre, div, table):last-child::after { content: none; }
 
 /* Comments, at the foot of an object's page. */
 .comments h3 { margin-top: 0; }
