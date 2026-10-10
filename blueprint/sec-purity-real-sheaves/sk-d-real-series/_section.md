@@ -1,12 +1,11 @@
 +++
 id = "sk-d-real-series"
-kind = "section"
+kind = "definition"
 title = "Radius of a formal series"
 order = 2604
 lean = ["PowerSeries.radius", "PowerSeries.HasNonnegCoeffs"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For $f(T)=\sum_{n\ge0}a_nT^n\in\mathbf C[[T]]$, let $R(f)$ be the
 supremum of $r\ge0$ such that $\sum_n|a_n|t^n$ converges for every
 $0\le t<r$. A nonnegative series has all $a_n\in\mathbf R_{\ge0}$.

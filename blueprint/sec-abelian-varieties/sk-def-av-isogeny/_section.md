@@ -1,12 +1,11 @@
 +++
 id = "sk-def-av-isogeny"
-kind = "section"
+kind = "definition"
 title = "Isogenies and their degree"
 lean = ["AlgebraicGeometry.IsIsogeny", "AlgebraicGeometry.isogenyDegree"]
 order = 430
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $A,B$ be group schemes over $k$.
 An *isogeny* $f:A\to B$ is a surjective homomorphism of $k$-group
 schemes with finite kernel; its *degree* is the order of the kernel,

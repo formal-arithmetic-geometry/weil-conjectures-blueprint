@@ -1,13 +1,12 @@
 +++
 id = "sk-def-set"
-kind = "section"
+kind = "remark"
 title = "The fixed setting"
 order = 2404
 uses = ["sk-def-sf-operations", "sk-def-sf-setting", "sk-prop-sf-existence", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-ctf-stability"]
 lean = ["AlgebraicGeometry.PoincareDualitySetting"]
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Work with the finite-field datum $(p,a,q,k_0,k)$, $\ell$, $E$, $\Oe$,
 $\varpi_E$, $\AEn=\Oe/\varpi_E^n$ and the coefficient stages
 $\Lambda\in\{\AEn,\Oe,E,\Qlb\}$ fixed in [sk-def-sf-setting]. Let $X_0/k_0$ be smooth of relative

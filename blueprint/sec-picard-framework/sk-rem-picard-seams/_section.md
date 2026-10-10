@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-picard-seams"
-kind = "section"
+kind = "remark"
 title = "The dependencies are one-way: $\\mathbf A\\Rightarrow\\mathbf B$ at four seams"
 order = 870
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 The decomposition of Strand A and its spectral-sequence inputs
 makes the four seams visible.
 

@@ -10,11 +10,3 @@ morphism [def-weil-pbc-symmetric-product-morphism]. It is finite and
 surjective. Equivalently, over every algebraically closed geometric point of
 $S$, every binary form of degree $n$ factors as a product of $n$ linear forms,
 including factors at infinity.
-
-## Proof
-
-Over an algebraically closed geometric point, every binary form of degree $n$
-factors as a product of $n$ linear forms, so every geometric fibre of the
-morphism constructed in [lem-weil-pbc-symmetric-product-finite] is nonempty; a
-finite-type morphism with nonempty geometric fibres is surjective
-([lem-weil-pbc-surjective-nonempty-fibres]).

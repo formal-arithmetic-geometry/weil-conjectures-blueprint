@@ -14,13 +14,3 @@ $(\mathit{Sch}/k)_{fppf}$ are isomorphic. In particular
 $\operatorname{Pic}_{X/k,\sigma}$ is an fppf sheaf (represented once $\operatorname{Pic}_{X/k}$ is;
 and covariantly: if $\operatorname{Pic}_{X/k,\sigma}$ is representable, then so is
 $\operatorname{Pic}_{X/k}$, by the group law of [thm-pc-pic-split]).
-
-## Proof
-
-By [lem-pc-rational-hyp] and [thm-pc-pic-split],
-$\operatorname{Pic}_{X/k}$ is the fppf sheafification of the presheaf
-$K(T)=\operatorname{Ker}(\sigma_T^*)$, and by [lem-pc-k-sheaf] the
-presheaf $K$ is itself an fppf sheaf; since
-$\operatorname{Pic}_{X/k,\sigma}=K$ ([def-pc-pic-sigma-functor]), the two functors
-are naturally isomorphic. [The reference is the discussion in Stacks
-Project, Picard Schemes of Curves, Section 44.6, after Lemma 44.6.1.]

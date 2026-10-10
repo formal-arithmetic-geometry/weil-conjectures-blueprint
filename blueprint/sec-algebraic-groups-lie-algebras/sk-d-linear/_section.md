@@ -1,12 +1,11 @@
 +++
 id = "sk-d-linear"
-kind = "section"
+kind = "definition"
 title = "Coefficients and representations"
 order = 2458
 lean = ["Representation", "Subrepresentation", "Representation.IsIrreducible", "Representation.IsSemisimpleRepresentation", "exteriorPower.map", "CompositionSeries"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Until the finite-field subsection, $k$ is an algebraically closed field of
 characteristic zero, and all vector spaces are finite dimensional over
 $k$. Write $\End(V)$ for linear endomorphisms and $\GL(V)$ for invertible

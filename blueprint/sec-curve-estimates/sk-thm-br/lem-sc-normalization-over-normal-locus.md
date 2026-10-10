@@ -10,9 +10,3 @@ and $\nu:X^{\nu}\to X$ its normalization
 ([def-sc-normalization]). For every open $U\subseteq X$
 which is normal, the induced morphism
 $X^{\nu}\times_XU\to U$ is an isomorphism.
-
-## Proof
-
-Over a normal open $U$, the integral closure of $\mathcal O_U$ in $k(X)$ is $\mathcal O_U$ itself (a normal domain is
-integrally closed in its fraction field), so
-$X^{\nu}\times_XU\to U$ is an isomorphism.

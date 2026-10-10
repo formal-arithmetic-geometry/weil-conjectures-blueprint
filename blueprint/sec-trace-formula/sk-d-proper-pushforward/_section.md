@@ -1,13 +1,12 @@
 +++
 id = "sk-d-proper-pushforward"
-kind = "section"
+kind = "definition"
 title = "Proper pushforward of a correspondence and its trace"
 order = 2325
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-d-trace-class"]
 lean = ["AlgebraicGeometry.ProEtale.ProperPushforwardDiagram"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $(C,c,u)$ be an endocorrespondence on $(X,K)$. A proper pushforward
 diagram consists of a scheme $Y$ over $s$, a proper $s$-morphism $f:X\to Y$,
 a scheme $D$ over $s$ with $s$-morphisms $b=(b_1,b_2):D\to Y\times Y$, where

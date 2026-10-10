@@ -1,12 +1,11 @@
 +++
 id = "sk-prop-sf-comparison"
-kind = "section"
+kind = "proposition"
 title = "The pro-étale comparison"
 order = 1649
 lean = ["AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar", "AlgebraicGeometry.ProEtale.nonempty_iso_comparisonUpperStar_comp_rightDerivedLowerStar"]
+tags = ["sketch"]
 +++
-*Proposition (sketch).*
-
 For the comparison morphism $\nu_T:T_{\Proet}\to T_{\Et}$ and a finite
 coefficient ring, the functor
 $\nu_T^*:D^+(T_{\Et},\Lambda)\to D^+(T_{\Proet},\Lambda)$ is exact and fully
@@ -23,10 +22,3 @@ $D^+$ for $u$ quasi-compact and quasi-separated, holds for an arbitrary
 Grothendieck abelian coefficient category in place of $\Lambda$-modules.
 Detection is by covering families, not by geometric points:
 geometric-point stalks are *not* conservative on all pro-étale sheaves.
-
-## Proof
-
-The full faithfulness, the comparison of direct images and the preservation
-of bounded constructible complexes are the site-comparison results for the
-pro-étale site; the detection clauses are the conservativity lemma for
-complexes on the pro-étale site.

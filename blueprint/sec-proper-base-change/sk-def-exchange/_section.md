@@ -1,13 +1,12 @@
 +++
 id = "sk-def-exchange"
-kind = "section"
+kind = "definition"
 title = "Exchange morphism"
 order = 1035
 lean = ["AlgebraicGeometry.Etale.baseChange"]
 uses = ["sk-def-conv"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $\mathcal A$ be a Grothendieck abelian category carrying a closed symmetric
 monoidal structure, additive in each variable, with functorial flat
 resolutions. For a commutative square of schemes

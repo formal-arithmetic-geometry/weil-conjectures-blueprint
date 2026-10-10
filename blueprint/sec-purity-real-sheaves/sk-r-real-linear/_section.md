@@ -1,12 +1,11 @@
 +++
 id = "sk-r-real-linear"
-kind = "section"
+kind = "remark"
 title = "Weights, reality and semisimplification"
 order = 2597
 uses = ["sk-d-real-operations", "sk-d-real-weights", "sk-p-linear-filtration", "sk-p-linear-spectra", "sk-p-linear-triangular", "sk-p-real-operations", "sk-r-linear-library"]
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 The finite-dimensional linear algebra used in this section is
 that of [sk-p-linear-filtration],
 [sk-p-linear-triangular] and [sk-p-linear-spectra], taken over

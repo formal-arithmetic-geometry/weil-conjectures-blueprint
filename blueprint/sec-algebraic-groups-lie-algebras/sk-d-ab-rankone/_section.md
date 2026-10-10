@@ -1,13 +1,12 @@
 +++
 id = "sk-d-ab-rankone"
-kind = "section"
+kind = "definition"
 title = "A split cyclic extension and rank-one characters"
 order = 2529
 uses = ["sk-d-monodromy"]
 lean = ["SemidirectProduct.inrOfAddOne", "SemidirectProduct.degreeCharacter", "SemidirectProduct.finitePart"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $P$ be a group and $\alpha$ an automorphism. Put
 $W=P\rtimes_\alpha\mathbf Z$, with multiplication
 

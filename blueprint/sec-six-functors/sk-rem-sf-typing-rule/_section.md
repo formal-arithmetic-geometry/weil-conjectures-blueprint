@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-sf-typing-rule"
-kind = "section"
+kind = "remark"
 title = "The typing rule of this section"
 order = 2042
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 An operation is introduced in this section *only on the ambient
 categories of [sk-def-sf-categories]*; no preservation property is built
 into a definition. ``Descent'' of an operation to a small category means one

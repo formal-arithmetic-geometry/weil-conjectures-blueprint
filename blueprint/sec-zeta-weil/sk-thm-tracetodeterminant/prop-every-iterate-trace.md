@@ -66,12 +66,3 @@ $$
 N_n(X_0)=\sum_{i=0}^{2d}(-1)^i
 \Tr(F_{i,\ell}^n\mid V_{i,\ell}).
 $$
-
-## Proof
-
-The local alternating trace is the one defined in
-[def-weil-local-frobenius-trace].
-The trace identity and its constant-sheaf and proper-specialization clauses
-are supplied by [thm-weil-grothendieck-lefschetz-trace]; finiteness and
-the Frobenius action are [prop-cohomological-finiteness]. Thus the
-displayed formulae follow.

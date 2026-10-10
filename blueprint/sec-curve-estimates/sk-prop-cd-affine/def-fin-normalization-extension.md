@@ -17,8 +17,3 @@ $\operatorname{Spec}\overline B^{\,L}$, where $\overline B^{\,L}$
 is the integral closure of $B$ in $L$.
 
 For $L=K$ this is exactly the normalization [def-sc-normalization].
-
-## Proof
-
-Integral closure commutes with localization, so the affine constructions
-$\operatorname{Spec}\overline B^{\,L}$ glue to a scheme over $X$.

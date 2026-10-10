@@ -1,12 +1,11 @@
 +++
 id = "sk-def-bc"
-kind = "section"
+kind = "definition"
 title = "The recorded base-change property"
 order = 1364
 lean = ["AlgebraicGeometry.Etale.BaseChangeProperty", "AlgebraicGeometry.Etale.baseChangeHomologyMap"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For a morphism $f:X\to S$, a commutative ring $\Lambda$, and an integer
 $q$, write $\mathrm{BC}(f,\Lambda,q)$ for: for every
 quasi-compact quasi-separated $g:T\to S$, every sheaf $\mathcal F$ of

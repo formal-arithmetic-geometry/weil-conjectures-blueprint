@@ -1,13 +1,12 @@
 +++
 id = "sk-thm-picard-descent"
-kind = "section"
+kind = "theorem"
 title = "Descent"
 order = 762
 uses = ["sk-def-av-pic"]
 lean = ["AlgebraicGeometry.bijective_toDescentData_map", "AlgebraicGeometry.exists_isQuasicoherent_toDescentData_iso", "AlgebraicGeometry.isFinitePresentation_of_toDescentData_iso", "AlgebraicGeometry.isLocallyFree_of_toDescentData_iso", "AlgebraicGeometry.isInvertible_of_toDescentData_iso", "AlgebraicGeometry.isSheaf_fpqc_finiteLocallyFreeSubscheme"]
+tags = ["sketch"]
 +++
-*Theorem (sketch).*
-
 Let $\{T_i\to T\}_{i\in I}$ be an fpqc covering.
 
 1. **(D1)** *Descending modules.* Descent data for
@@ -25,12 +24,3 @@ subschemes $Z_i\subseteq X_{T_i}$, finite flat of degree $d$ over
 $T_i$, with cocycle-compatible cartesian identifications, glue to a
 closed subscheme $Z\subseteq X_T$, finite flat of degree $d$ over
 $T$, with $Z\times_TT_i\cong Z_i$.
-
-## Proof
-
-(D1): the fpqc sheaf sequence for $\cO$ and the functor
-$\cM\mapsto\ker(\prod f_{i,*}\cM\rightrightarrows\cdots)$; flatness
-and finite presentation are fpqc-local, hence so is finite local
-freeness, which is equivalent to their conjunction. (D2): the ideals
-$\cI_{Z_i}$ form a descent datum for quotient modules of $\cO_X$ by
-(D1).

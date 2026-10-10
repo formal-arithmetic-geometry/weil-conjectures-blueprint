@@ -10,10 +10,3 @@ uses = ["def-nagata-blowup-product-domination-maps", "def-nagata-effective-carti
 The constructed $d_{\mathcal I}$ and $d_{\mathcal J}$ are morphisms over
 $X$. If both ideals restrict to the unit ideal on an open $U$, the product
 blow-up and both maps restrict to the identity over $U$.
-
-## Proof
-
-The maps are composites over $X$ by definition. On $U$, all three ideals
-are the unit ideal, so all three blow-ups are identified with $U$ by the
-complement theorem. The universal maps are unique over $U$, hence become
-the identity under these identifications.

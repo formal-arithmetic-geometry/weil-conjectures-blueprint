@@ -11,8 +11,3 @@ compactifiable. Then the constructed $C_i$ is a compactification of
 $U_i\to S$ whose open immersion $U_i\hookrightarrow X_i$ is
 scheme-theoretically dense; in particular $X_i\to S$ is proper and
 $U_i\hookrightarrow X_i$ is a quasi-compact open immersion.
-
-## Proof
-
-This is exactly [prop-nagata-dense-refinement], applied to each selected
-compactification $C_i^0$.

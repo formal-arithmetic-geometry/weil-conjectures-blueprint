@@ -12,7 +12,3 @@ separably closed function field.
 1. A separated etale morphism $U\to X$ is a disjoint union of open
 immersions.
 1. All local rings of $X$ are strictly henselian.
-
-## Proof
-
-This is classical, Stacks Project, Lemma 59.80.4 ([Tag 09Z9](https://stacks.math.columbia.edu/tag/09Z9)): over an integral normal scheme with separably closed function field, separated etale morphisms are disjoint unions of open immersions, and all local rings are strictly henselian. No separate proof is given.

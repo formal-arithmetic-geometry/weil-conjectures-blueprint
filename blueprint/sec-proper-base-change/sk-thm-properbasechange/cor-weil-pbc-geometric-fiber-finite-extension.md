@@ -14,8 +14,3 @@ $$
  Ra_{\bar y,*}Li_{\bar y}^*K
  \quad\text{in }\Dbc(\operatorname{Spec}\Omega,E).
 $$
-
-## Proof
-
-Specialize [thm-weil-pbc-finite-extension] to the geometric-point base
-change.

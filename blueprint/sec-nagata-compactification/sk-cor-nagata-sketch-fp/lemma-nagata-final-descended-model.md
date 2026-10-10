@@ -9,9 +9,3 @@ For $Y\to S$ as in [def-nagata-final-descended-model], the morphism
 $Y_{\lambda_Y}\to S_{\lambda_Y}$ is separated and of
 finite presentation, $S_{\lambda_Y}$ is Noetherian, and $\epsilon_Y$ is an
 isomorphism over $S$.
-
-## Proof
-
-The first and third assertions are the property of the constructed separated
-descent stage. The selected base stage belongs to $\mathsf N_f$, so it is
-Noetherian by [lemma-nagata-final-noetherian-base-system].

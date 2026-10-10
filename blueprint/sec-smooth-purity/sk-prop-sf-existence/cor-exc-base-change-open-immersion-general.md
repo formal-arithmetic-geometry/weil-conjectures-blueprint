@@ -16,12 +16,3 @@ assembly on affine charts requires. On the blueprint's coefficient class
 [def-sf-fullcd-used-class] the ambient datum displayed as the hypothesis
 is the theorem [cor-sf-ambient-adjoint-discharge], so the comparison is
 an isomorphism on that class without hypothesis.
-
-## Proof
-
-Choose a compactification $X\xrightarrow{j_0}\overline X\xrightarrow{p}Y$
-of [thm-nagata-compactification], with $p$ proper. By
-[prop-exc-base-change-proper] the comparison holds for $p$ against
-the open immersion $g$, and by
-[cor-exc-base-change-reduces-to-proper] the comparison for $f$
-follows from that for $p$.

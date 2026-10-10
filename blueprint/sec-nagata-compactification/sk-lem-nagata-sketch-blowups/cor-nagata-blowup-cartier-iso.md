@@ -9,8 +9,3 @@ uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-n
 +++
 Let $X$ be a scheme. If $\mathcal I$ is an invertible ideal on $X$, then
 $b_{X,\mathcal I}$ is an isomorphism.
-
-## Proof
-
-The identity of $X$ lifts to the blow-up by the universal property. Compose
-this lift with the blow-up map in both orders and use uniqueness.

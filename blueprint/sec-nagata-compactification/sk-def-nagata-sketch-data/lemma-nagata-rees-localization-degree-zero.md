@@ -7,8 +7,3 @@ uses = ["lemma-nagata-rees-degree-zero", "prop-nagata-rees-localization"]
 +++
 On degree zero, the constructed coefficientwise localization map is the standard ring
 equivalence $A_s\otimes_AA\cong A_s$.
-
-## Proof
-
-Evaluate both maps on a constant monomial and use ring-homomorphism
-extensionality.

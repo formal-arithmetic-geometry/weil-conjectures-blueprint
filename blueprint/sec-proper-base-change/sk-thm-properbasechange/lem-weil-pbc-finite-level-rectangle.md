@@ -14,11 +14,3 @@ $$
  \end{array}
 $$
 commutes. Equivalently, $v'_nh_n=h'_nv_n$.
-
-## Proof
-
-The two routes around the rectangle are both the level-$n$ reduction of the
-base-change mate, computed through the projection-formula isomorphisms on
-the two sides; naturality of the perfect-coefficient projection-formula map
-with respect to the base-change mate makes them equal, with the arrows of
-[def-weil-pbc-four-arrows].

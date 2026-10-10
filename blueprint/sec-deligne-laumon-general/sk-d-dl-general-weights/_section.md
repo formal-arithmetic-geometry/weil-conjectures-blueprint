@@ -1,13 +1,12 @@
 +++
 id = "sk-d-dl-general-weights"
-kind = "section"
+kind = "definition"
 title = "Mixed upper bounds"
 order = 2810
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsMixedOfWeightsAtMost", "AlgebraicGeometry.LAdicWeilComplex.IsMixedOfWeightsAtMost"]
 uses = ["sk-d-dl-a1-setup"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Retain $k_0=\mathbf F_q$, geometric Frobenius, and a field embedding
 $\iota:\DLRQ\hookrightarrow\mathbf C$. Let $X_0$ be a $k_0$-scheme,
 with the coefficient framework of Section [sec-six-functors]. A

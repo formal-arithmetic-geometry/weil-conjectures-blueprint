@@ -1,13 +1,12 @@
 +++
 id = "sk-def-picard-f"
-kind = "section"
+kind = "definition"
 title = "The subfunctor $F$"
 order = 818
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.picardFunctorInvertibleDirectImage"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $k$ be a field, $X$ a $k$-scheme with a $k$-rational point $\sigma$,
 and $G:=\Pic_{X/k,\sigma}$. For a $k$-scheme $T$, with $f_T:X_T\to T$,
 

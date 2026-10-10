@@ -12,9 +12,3 @@ $\lambda_{\mathrm{rel}}(X/S)$ to be their common upper bound together with
 $\lambda_{\mathrm{raw}}(X/S)$. Let
 $\mathsf R_{X,\lambda_{\mathrm{rel}}}$ be the raw datum transported to this
 stage.
-
-## Proof
-
-Canonical comparison maps identify the source and target of each later-stage
-equality. Transporting its witness preserves the equation, so the finite
-upper-bound list is well defined.

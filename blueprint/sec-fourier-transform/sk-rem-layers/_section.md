@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-layers"
-kind = "section"
+kind = "remark"
 title = "The three layers, and why the order matters"
 order = 2717
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 *Layer 1 (this file).* The transform and everything that follows from
 the six operations and the classical trace formula. Nothing here mentions a
 weight: there is no $L^2$-weight parameter, no punctual purity, no

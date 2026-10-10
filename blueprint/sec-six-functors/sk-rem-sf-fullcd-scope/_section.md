@@ -1,12 +1,11 @@
 +++
 id = "sk-rem-sf-fullcd-scope"
-kind = "section"
+kind = "remark"
 title = "What this does and does not discharge"
 order = 2050
 uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-prop-sf-existence"]
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 [sk-prop-sf-fullcd-etale-origin] is the form of
 $\operatorname{FullCD}$ that every consumer downstream actually uses: all of
 [sk-prop-sf-rf-shriek-preservation], [sk-prop-sf-biduality-general],

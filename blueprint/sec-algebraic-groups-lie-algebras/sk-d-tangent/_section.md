@@ -1,13 +1,12 @@
 +++
 id = "sk-d-tangent"
-kind = "section"
+kind = "definition"
 title = "Tangent spaces and rational actions"
 order = 2480
 uses = ["sk-d-geometry", "sk-d-lie"]
 lean = ["AlgebraicGeometry.tangentGroup", "AlgebraicGeometry.GrpObj.Lie", "AlgebraicGeometry.GeneralLinearGroup.lieAlgebraEquivMatrix", "AlgebraicGeometry.GeneralLinearGroup.RationalHom", "AlgebraicGeometry.GeneralLinearGroup.RationalHom.differential"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For an affine variety $X$ and a $k$-point $x$,
 let $\mathfrak m_x$ be the maximal ideal of functions vanishing at $x$.
 The tangent space is $T_xX=(\mathfrak m_x/\mathfrak m_x^2)^\vee$.

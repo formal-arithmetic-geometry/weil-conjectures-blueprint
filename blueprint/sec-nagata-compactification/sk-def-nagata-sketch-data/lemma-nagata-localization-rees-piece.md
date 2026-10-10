@@ -13,9 +13,3 @@ A_s\otimes_A\mathcal R_A(I)_n
 $$
 
 for every $n$.
-
-## Proof
-
-Identify the two modules with
-$A_s\otimes_AI^n$ and $(IA_s)^n$, then use exactness of localization and
-[lemma-nagata-localization-ideal-pow].

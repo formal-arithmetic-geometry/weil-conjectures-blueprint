@@ -12,12 +12,3 @@ reductions are the corresponding finite internal Homs. If the
 reduction Tor intervals of $K,L$ are $[a,b]$, $[c,e]$
 and $\dim X\leq d$, one output interval is
 $[c-b-2d,e-a+2d]$.
-
-## Proof
-
-Completeness and the canonical reductions follow from
-[lem-coef-integral-hom-reduction]. The input reductions are
-finite-Tor by [lem-coef-integral-residue-tor]. Their internal
-Homs are constructible with the stated uniform bound by
-[cor-weil-finite-constructible-hom]. These are exactly the
-remaining conditions on the integral output.

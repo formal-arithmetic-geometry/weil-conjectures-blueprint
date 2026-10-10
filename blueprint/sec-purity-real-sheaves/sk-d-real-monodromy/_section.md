@@ -1,13 +1,12 @@
 +++
 id = "sk-d-real-monodromy"
-kind = "section"
+kind = "definition"
 title = "Arithmetic monodromy and a central representative"
 order = 2629
 uses = ["sk-d-real-setup", "sk-d-real-weil", "sk-d-monodromy", "sk-d-central"]
 lean = ["AlgebraicGeometry.WeilGroup.toLinearAut"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For the Weil representation
 $\rho:W(C_0)\to\GL(V)$ over the coefficient field
 $K=\Qlb$ (algebraically closed of characteristic zero), with $\gamma$ of

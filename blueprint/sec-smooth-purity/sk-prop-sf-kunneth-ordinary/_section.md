@@ -1,12 +1,11 @@
 +++
 id = "sk-prop-sf-kunneth-ordinary"
-kind = "section"
+kind = "proposition"
 title = "Künneth and the projection formula in ordinary étale cohomology"
 order = 1654
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_kunneth"]
+tags = ["sketch"]
 +++
-*Proposition (sketch).*
-
 Let $k$ be a separably closed field, let $\Lambda$ be a finite commutative
 ring, and let $X,Y$ be $k$-schemes locally of finite type on which the
 exponent of $\Lambda$ is invertible. Let $W$ be a scheme with morphisms

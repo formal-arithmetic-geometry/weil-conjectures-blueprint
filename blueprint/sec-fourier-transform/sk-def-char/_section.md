@@ -1,13 +1,12 @@
 +++
 id = "sk-def-char"
-kind = "section"
+kind = "definition"
 title = "Additive characters"
 order = 2671
 lean = ["AddChar.FiniteField.primitiveChar"]
 uses = ["sk-def-fourier-set"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 A *nondegenerate additive character* of $k$ (finite or algebraically
 closed of characteristic $p$) is a nontrivial homomorphism
 $\psi:(k,+)\to\Qlb^\times$. For $k_0=\Fq$, a field $F'$ of characteristic

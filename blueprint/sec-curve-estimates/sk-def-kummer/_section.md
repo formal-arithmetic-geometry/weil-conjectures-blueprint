@@ -1,13 +1,12 @@
 +++
 id = "sk-def-kummer"
-kind = "section"
+kind = "definition"
 title = "The Kummer sequence"
 order = 873
 uses = ["sk-def-curve"]
 lean = ["AlgebraicGeometry.Scheme.kummerSequence"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For a scheme $X$ (for instance $C$ as in [sk-def-curve]) and a
 natural number $n$, the *Kummer sequence* is the sequence of étale
 sheaves on $X$

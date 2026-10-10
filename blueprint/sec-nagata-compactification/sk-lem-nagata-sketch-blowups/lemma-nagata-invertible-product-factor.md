@@ -10,11 +10,3 @@ Let $X$ be a scheme and let $\mathcal I,\mathcal J$ be quasi-coherent
 ideals on $X$. If the product
 $\mathcal I\mathcal J$ is invertible, then each of $\mathcal I$ and
 $\mathcal J$ is invertible.
-
-## Proof
-
-Work on affine opens and apply
-[lemma-nagata-ideal-invertible-product-factor] to the corresponding
-ideals. The resulting local invertible-module structures and regular
-generators are compatible under localization, so both ideal sheaves define
-effective Cartier divisors.

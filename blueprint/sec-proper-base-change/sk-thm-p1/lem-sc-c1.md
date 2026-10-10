@@ -12,8 +12,3 @@ $\mathbf F_n$ (see [def-weil-pbc-etale-sheaves]) satisfies
 $\mathcal C_1(C,\mathbf F_n)$ of
 [def-weil-pbc-eight-curve-assertions]: $H^q(C_{\Et},\mathbf F_n)=0$
 for every $q>2$.
-
-## Proof
-
-The sheaf $\mathbf F_n$ is torsion; the assertion is
-[lem-sc-cohomological-dimension] applied to it.

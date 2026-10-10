@@ -1,0 +1,22 @@
++++
+kind  = "proof"
+of    = "sk-p-readout"
++++
+The subspaces $U\subseteq S$ of $V=k^n$ are stable under $\rho(W)$, hence
+under its Zariski closure $G$ by the density statement of
+[sk-i-restriction]; so $Q=S/U$ is a rational representation of $G$, and a
+simple $W$-subquotient is simple for $G$. If simple, the central element $z$
+acts by a nonzero scalar by Schur's lemma of [sk-r-linear-library].
+For the general
+scalar-action case, let $r=\dim Q$ and let $\delta:G\to k^\times$
+be its rational determinant character. Its restriction to $H$ has
+finite image: the inverse image of the finite closed set
+$\delta(\rho(P))$ is closed and contains the dense subgroup $\rho(P)$.
+The character of [sk-d-weights] kills finite-order elements:
+if $a^m=1$ with $m>0$, then $m\lambda(a)=\lambda(a^m)=0$.
+Write $z=hF^N$ using [sk-d-central]. Taking determinants gives
+$c_Q^r=\delta(h)\delta(F)^N$. Apply the character of [sk-d-weights],
+which kills the finite-order factor $\delta(h)$, and divide by $rN$.
+Replacing $\gamma$ by $u\gamma$, $u\in P$, also changes its determinant
+by a finite-order factor, proving independence of the lift.
+This argument assumes the pair; it does not use its existence theorem.

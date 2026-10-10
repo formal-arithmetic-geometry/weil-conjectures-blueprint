@@ -1,13 +1,12 @@
 +++
 id = "sk-d-trace"
-kind = "section"
+kind = "definition"
 title = "Ordinary categorical trace"
 order = 2273
 uses = ["sk-d-setup"]
 lean = ["CategoryTheory.MonoidalCategory.trace"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $\mathcal C$ be a braided monoidal category with unit $\mathbf 1$, and let
 $P\in\mathcal C$ have a right dual $P^\vee$, with coevaluation
 $\mathrm{coev}:\mathbf 1\to P\otimes P^\vee$ and evaluation

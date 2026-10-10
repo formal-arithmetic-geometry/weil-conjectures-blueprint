@@ -1,12 +1,11 @@
 +++
 id = "sk-def-av-ample-degree"
-kind = "section"
+kind = "definition"
 title = "Ample modules and the Hilbert degree"
 lean = ["AlgebraicGeometry.IsAmple", "AlgebraicGeometry.Scheme.Hom.degree"]
 order = 435
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $X$ be a scheme over a field $k$. An $\cO_X$-module $\cM$ is
 *very ample* if it is the pullback of $\cO(1)$ along a closed immersion
 $X\hookrightarrow\mathbf P^N_k$ over $k$, and *ample* if

@@ -1,13 +1,12 @@
 +++
 id = "sk-thm-sf-dual-perfect"
-kind = "section"
+kind = "theorem"
 title = "The dual of a perfect complex"
 order = 2177
 uses = ["sk-def-sf-orientation", "sk-lem-sf-twist-interchange", "sk-prop-sf-dualizable-biduality"]
 lean = ["AlgebraicGeometry.Etale.Orientation.nonempty_iso_verdierDual_coefficientDual", "AlgebraicGeometry.Etale.Orientation.isDualizable_verdierDual"]
+tags = ["sketch"]
 +++
-*Theorem (sketch).*
-
 Let $f:X\to Y$ be smooth, separated of finite type and of pure relative
 dimension $d$, with orientation
 $\gamma_f=\gamma_{f,\Lambda_Y}:\Lambda_X(d)[2d]\xrightarrow{\sim}Rf^!\Lambda_Y$
@@ -32,14 +31,3 @@ D_{X/Y}K$ is the coefficient-dual biduality $K\to K^{\vee\vee}$ of
 $f=a_X$: then $\mathbb D_{X/Y}=\mathbb D_X$, $Rf^!\Lambda=\omega_X$, and we
 write $\gamma_X=\gamma_{a_X}$ and $\theta_K=\theta_{a_X,K}:\mathbb
 D_XK\xrightarrow{\sim}K^\vee(d)[2d]$.
-
-## Proof
-
-The first arrow is $\RHom_X(K,-)$ of the isomorphism $\gamma_f^{-1}$, hence
-an isomorphism; the second is [sk-lem-sf-twist-interchange] with $m=d$
-together with the shift of the second variable, an isomorphism since $K$ is
-perfect. Both are natural in $K$, and nothing about the base $Y$ beyond the
-orientation is used. Applying $\theta_f$ twice and
-[sk-lem-sf-twist-interchange] with $m=-d$ to the perfect $K^\vee$ gives
-$\mathbb D_{X/Y}\mathbb D_{X/Y}K\cong K^{\vee\vee}$, under which the biduality is
-$K\to K^{\vee\vee}$, an isomorphism by [sk-prop-sf-dualizable-biduality].

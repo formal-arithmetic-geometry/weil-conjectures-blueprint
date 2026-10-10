@@ -1,13 +1,12 @@
 +++
 id = "sk-d-trace-class"
-kind = "section"
+kind = "definition"
 title = "Diagonal trace class"
 order = 2313
 uses = ["sk-d-corr", "sk-d-pairing"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.traceClass"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $s$ be the spectrum of a field, $X$ quasi-compact and compactifiable
 over $s$, and $K\in D^b_{ctf}(X,A)$.
 For $(X,K)$, the diagonal identity is the

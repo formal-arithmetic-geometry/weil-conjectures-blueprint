@@ -12,14 +12,3 @@ $U\to X\times_SY$ be a morphism whose first projection is the given open
 immersion. If $Z$ is its scheme-theoretic image, then the projection
 $Z\to X$ has inverse image $U$ over the open $U\subseteq X$, and this
 inverse image maps isomorphically to $U$.
-
-## Proof
-
-By [lemma-nagata-scheme-image-restrict-open], restriction to
-$U\times_SY$ commutes with taking the scheme-theoretic image. On this
-open target the original map is a section of
-$U\times_SY\to U$. That projection is separated, so its section is a
-closed immersion. By
-[lemma-nagata-scheme-image-of-closed-immersion], its
-scheme-theoretic image is canonically its source, compatibly with the
-projection to $U$.

@@ -1,13 +1,12 @@
 +++
 id = "sk-d-real-log"
-kind = "section"
+kind = "definition"
 title = "Small logarithm"
 order = 2614
 uses = ["sk-d-real-weil"]
 lean = ["PadicAlgCl.smallLog", "PadicAlgCl.smallUnits"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For a finite coefficient model $E/\Ql$, normalize
 $v_\ell(\ell)=1$, put $U_E=1+\ell^2\mathcal O_E$, and define
 

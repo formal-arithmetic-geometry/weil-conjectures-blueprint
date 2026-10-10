@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-sf-pf-done"
-kind = "section"
+kind = "remark"
 title = "The interface is discharged"
 order = 2103
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 By [sk-thm-sf-pf-finite], [sk-prop-sf-pf-reduction],
 [sk-thm-sf-pf-adic], [sk-thm-sf-pf-field], [sk-thm-sf-pf-proetale] and
 [sk-prop-sf-pf-coherence] every obligation listed in the interface

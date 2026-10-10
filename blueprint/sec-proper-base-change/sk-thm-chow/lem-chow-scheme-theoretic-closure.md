@@ -25,16 +25,3 @@ $V_1\cap\dots\cap V_m=U$, then $V_1^{*}\cap\dots\cap V_m^{*}=X^{*}\cap U$.
 In particular, if $X=U_1\cup\dots\cup U_m$ is a finite affine open covering
 with $U=U_1\cap\dots\cap U_m$, then the opens $U_i^{*}$ are affine, cover
 $X^{*}$, and satisfy $U_1^{*}\cap\dots\cap U_m^{*}=U$.
-
-## Proof
-
-By construction $X^{*}\to X$ is a closed immersion, and $U$ factors through it.
-Its image is a closed subset containing the dense subset $U$, hence is all of
-$X$, so $X^{*}\to X$ is surjective. The quasi-coherent ideal sheaf of $X^{*}$
-is $\ker(\mathcal O_X\to u_*\mathcal O_U)$, whose restriction to $U$ is
-$\ker(\mathcal O_U\to\mathcal O_U)=0$; hence $X^{*}\cap U=U$ and $X^{*}\to X$
-is an isomorphism over $U$. This proves (1). Since formation of the
-scheme-theoretic image commutes with restriction to opens, the
-scheme-theoretic image of $U\to X^{*}$ is $X^{*}$, which is (2). For (3), each
-$U_i^{*}$ is a closed subscheme of the affine scheme $U_i$, hence affine, and
-$U_1^{*}\cap\dots\cap U_m^{*}=X^{*}\cap U=U$.

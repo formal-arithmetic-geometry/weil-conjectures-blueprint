@@ -21,18 +21,3 @@ $\delta_K:K\to D_XD_XK$. It is compatible with shifts and is a
 morphism of distinguished triangles. The same formal construction
 applies on the pro-etale site whenever its ambient dualizing object is
 specified; it does not assume that $D_XK$ is constructible.
-
-## Proof
-
-The tensor–internal-Hom adjunction of
-[def-weil-derived-pullback-tensor-hom] has evaluation as its
-counit. Compose that evaluation with tensor symmetry, and transpose
-under the same adjunction, obtaining $\delta_K$. Naturality of the
-counit gives naturality of this map. Internal Hom is triangulated in
-each variable, with the standard shift and Koszul-sign conventions, by
-[lem-sf-hom-triangulated] (on the pro-etale site by the same Hom-complex
-argument);
-the natural transformation to its double application therefore
-commutes with shifts and gives a morphism of triangles. This
-construction takes place in the ambient categories, before any
-preservation assertion.

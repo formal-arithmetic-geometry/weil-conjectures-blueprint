@@ -13,10 +13,3 @@ $\Lambda$-sheaf on $X_{{\mathrm{et}}}$ (the ring $\Lambda$ of
 images $R^qf_*F$ of [def-weil-pbc-direct-image] are
 constructible on
 $S_{{\mathrm{et}}}$ for every $q\geq0$, and $R^qf_*F=0$ for $q>0$.
-
-## Proof
-
-Apply [lem-fin-finite-morphism], which proves both
-constructibility of $f_*F$ and exactness of finite direct image.
-It uses the finite-stalk formula and the earlier finite-image
-constructibility proof, with no cardinality or general finiteness input.

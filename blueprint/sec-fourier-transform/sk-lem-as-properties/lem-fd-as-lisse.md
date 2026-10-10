@@ -12,7 +12,3 @@ $$
 \mathcal L_{\psi,f}\otimes\mathcal L_{\psi,g}\cong\mathcal L_{\psi,f+g},\qquad
 (\mathcal L_{\psi,f})^{-1}\cong\mathcal L_{\psi,-f}\cong\mathcal L_{\psi^{-1},f}.
 $$
-
-## Proof
-
-This is immediate from the decomposition of [lem-fd-as-characters] (the tensor and inverse of the rank-one isotypic components correspond to the sums $f+g$ and $-f$ of the functions).

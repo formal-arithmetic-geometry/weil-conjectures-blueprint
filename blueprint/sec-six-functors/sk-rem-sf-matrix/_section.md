@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-sf-matrix"
-kind = "section"
+kind = "remark"
 title = "The preservation matrix"
 order = 2215
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Short of the residue above, the following cells are *proved*:
 $Lf^*:\Dbc(Y)\to\Dbc(X)$, $Rf_*:\Dbc(X)\to\Dbc(Y)$ and
 $Rf_!:\Dbc(X)\to\Dbc(Y)$ (unconditional, every finite-type $f$);

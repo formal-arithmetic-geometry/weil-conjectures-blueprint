@@ -1,13 +1,12 @@
 +++
 id = "sk-def-as"
-kind = "section"
+kind = "definition"
 title = "The Artin–Schreier sheaf"
 order = 2676
 lean = ["AlgebraicGeometry.Etale.artinSchreierSheaf"]
 uses = ["sk-def-char"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $k$ be a finite field with $q$ elements, $\Lambda$ a commutative ring
 in which $q$ is invertible, and $\Psi:(k,+)\to\Lambda^\times$ an additive
 character. The Artin–Schreier map $\mathrm{AS}_q:\Aone_k\to\Aone_k$,

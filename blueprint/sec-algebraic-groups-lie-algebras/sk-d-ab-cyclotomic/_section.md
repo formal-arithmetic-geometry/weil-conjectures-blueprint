@@ -1,13 +1,12 @@
 +++
 id = "sk-d-ab-cyclotomic"
-kind = "section"
+kind = "definition"
 title = "The cyclotomic Tate module"
 order = 2565
 uses = ["sk-d-ab-field", "sk-d-ab-tate"]
 lean = ["cyclotomicTateModule"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 The multiplicative group scheme $\mathbf G_m$ has
 $\mathbf G_m(R)=R^\times$ for each commutative
 $k_0$-algebra $R$.

@@ -1,13 +1,12 @@
 +++
 id = "sk-def-ia"
-kind = "section"
+kind = "definition"
 title = "Injective acyclicity"
 order = 1049
 lean = ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity"]
 uses = ["sk-def-conv", "sk-def-exchange"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $\Lambda$ be a commutative ring. For a morphism of schemes $f:X\to Y$,
 write $\mathrm{IA}_\Lambda(f)$ if for every base change $g:Y'\to Y$ — with
 $f':X'\to Y'$ and $g':X'\to X$ the two other sides of the cartesian square of

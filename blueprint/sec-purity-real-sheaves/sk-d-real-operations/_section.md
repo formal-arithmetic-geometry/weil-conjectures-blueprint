@@ -1,13 +1,12 @@
 +++
 id = "sk-d-real-operations"
-kind = "section"
+kind = "definition"
 title = "Operations, constituents and coinvariants"
 order = 2585
 uses = ["sec-algebraic-groups-lie-algebras", "sec-six-functors", "sk-d-real-weil"]
 lean = ["AlgebraicGeometry.WeilGroup.constLine", "AlgebraicGeometry.WeilGroup.tateLine", "Representation.IsIrreducible", "Representation.IsConstituent"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For Weil representations use the ordinary direct sum,
 diagonal tensor action, exterior action on $\bigwedge^r V$, dual action
 $(g\lambda)(v)=\lambda(g^{-1}v)$, and determinant

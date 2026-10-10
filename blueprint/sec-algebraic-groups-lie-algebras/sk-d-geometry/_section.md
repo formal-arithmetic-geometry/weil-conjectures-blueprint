@@ -1,13 +1,12 @@
 +++
 id = "sk-d-geometry"
-kind = "section"
+kind = "definition"
 title = "Affine geometry and matrix groups"
 order = 2475
 uses = ["sk-d-linear"]
 lean = ["Matrix.GeneralLinearGroup.CoordinateRing", "AlgebraicGeometry.GeneralLinearGroup", "AlgebraicGeometry.GeneralLinearGroup.homMulEquiv", "Matrix.GeneralLinearGroup.zeroLocus", "AlgebraicGeometry.GeneralLinearGroup.subgroupScheme", "Matrix.GeneralLinearGroup.identityComponent", "Matrix.GeneralLinearGroup.center", "AlgebraicGeometry.GeneralLinearGroup.RationalHom"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 An affine variety over $k$ is the spectrum of a
 finitely generated reduced commutative $k$-algebra; reduced means that
 the algebra has no nonzero nilpotents. Closed subvarieties are given by

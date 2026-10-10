@@ -1,13 +1,12 @@
 +++
 id = "sk-lem-kernel-composition"
-kind = "section"
+kind = "proposition"
 title = "P11: composition of kernel transforms"
 order = 2711
 lean = ["AlgebraicGeometry.Etale.kernelTransformCompIso"]
 uses = ["sk-def-ft"]
+tags = ["sketch"]
 +++
-*Proposition (sketch).*
-
 Let $V\to S$, $V^\vee\to S$, $V'\to S$ be separated finite-type $S$-schemes,
 let $\mathcal K\in\Dbc(V\times_SV^\vee,E)$ and
 $\mathcal K'\in\Dbc(V^\vee\times_SV',E)$, and let
@@ -29,18 +28,3 @@ $$
 and shift $[a+b]$, the $r_{ij}$ being the projections of the triple product.
 In particular $\FT_{\psi^{-1}}\FT_\psi$ is the kernel transform with kernel
 $\mathcal K_{\psi^{-1}}\ast\mathcal K_\psi$ and shift $[2r]$.
-
-## Proof
-
-Substituting the definitions and using
-$p_2\circ r_{12}=r_2=q_1\circ r_{23}$, base change for the compact-support
-direct image along $q_1$ gives $q_1^*p_{2,!}\cong r_{23,!}r_{12}^*$, and the
-projection formula for $r_{23}$ moves $r_{23}^*\mathcal K'$ inside; the
-composition law $q_2\circ r_{23}=r_3$ then gives
-$\Phi_{\mathcal K'}\Phi_{\mathcal K}(K) =r_{3,!}(r_1^*K\otimes^Lr_{12}^*\mathcal K\otimes^Lr_{23}^*\mathcal K')[a+b]$
-with $r_1=p_1\circ r_{12}$. The kernel transform with kernel
-$\mathcal K'\ast\mathcal K$ has the same value: the projection formula for
-$r_{13}$ together with $r_{13}^*s_1^*\cong r_1^*$, $s_2\circ r_{13}=r_3$ and
-the composition law turns it into the same expression, so the two kernels
-agree. All steps are instances of the six operations
-(prop:functor-package).

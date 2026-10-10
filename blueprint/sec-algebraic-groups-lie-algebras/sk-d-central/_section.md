@@ -1,13 +1,12 @@
 +++
 id = "sk-d-central"
-kind = "section"
+kind = "definition"
 title = "Positive central pairs"
 order = 2524
 uses = ["sk-d-geometry", "sk-d-monodromy"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For data $(G,H,F)$, a positive central pair is
 $(N,z)$ with $N\in\mathbf Z_{>0}$ and
 $z\in\hyperref[sk-d-geometry]{Z(G)}(k)\cap H(k)F^N$, a $k$-point of

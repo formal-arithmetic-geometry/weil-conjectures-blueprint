@@ -7,10 +7,3 @@ uses = ["def-nagata-affine-neighbourhood-generic-points", "lemma-nagata-affine-n
 +++
 The constructed open $A(x;\eta_1,\ldots,\eta_r)$ is affine and contains
 $x$ and every $\eta_i$.
-
-## Proof
-
-The selected witness exists by
-[lemma-nagata-affine-neighbourhood-generic-points-exists]; its
-specification says that the open is affine and contains $x$ and every
-selected generic point.

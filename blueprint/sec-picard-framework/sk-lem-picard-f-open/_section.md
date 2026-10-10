@@ -1,26 +1,15 @@
 +++
 id = "sk-lem-picard-f-open"
-kind = "section"
+kind = "lemma"
 title = "$F$ is an open subfunctor"
 order = 821
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.isOpenImmersion_picardFunctorInvertibleDirectImage_ι"]
+tags = ["sketch"]
 +++
-*Lemma (sketch).*
-
 Let $k$ be separably closed and $X$ a $k$-scheme which is proper, smooth
 of relative dimension $1$ and geometrically integral over $k$, with a
 $k$-rational point $\sigma$; let $F\subseteq G=\Pic_{X/k,\sigma}$ be
 the subfunctor of classes $\cL$ with $Rf_{T,*}\cL$ an invertible
 $\cO_T$-module placed in degree $0$. Then $F\subseteq G$ is a subfunctor and the
 inclusion is representable by open immersions.
-
-## Proof
-
-*(This is the seam $S_3$.)* Apply [sk-thm-picard-perfect] to the
-proper morphism $f_T:X_T\to T$ of finite presentation and the flat
-family $\cL$ of finite presentation: for $i=0$, $r=1$ the locus
-where $Rf_{T,*}\cL$ is finite locally free of rank $1$ in degree
-$0$ is open, and the same computation with a shifted degree covers
-the general case. Subfunctor property: base change of the statement
-([sk-thm-picard-semicon] and the base-change comparison).

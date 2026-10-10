@@ -1,12 +1,11 @@
 +++
 id = "sk-def-sf-orientation"
-kind = "section"
+kind = "definition"
 title = "Orientation: an interface record"
 order = 2046
 lean = ["AlgebraicGeometry.Etale.Orientation", "AlgebraicGeometry.Etale.Orientation.nonempty_iso_dualizingComplex"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 An *orientation* for a smooth separated finite-type $f:X\to Y$ of pure
 relative dimension $d$ is an isomorphism
 $\gamma_{f,\Lambda_Y}:Lf^*\Lambda_Y(d)[2d]\xrightarrow{\sim}Rf^!\Lambda_Y$,

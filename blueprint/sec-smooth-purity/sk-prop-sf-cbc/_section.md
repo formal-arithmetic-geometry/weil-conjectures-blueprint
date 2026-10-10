@@ -1,13 +1,12 @@
 +++
 id = "sk-prop-sf-cbc"
-kind = "section"
+kind = "proposition"
 title = "Compact-support base change"
 order = 1517
 uses = ["sk-def-av-jacobian"]
 lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekBaseChangeMap"]
+tags = ["sketch"]
 +++
-*Proposition (sketch).*
-
 For $f:X\to Y$ admitting a compactification, $g:Y'\to Y$ arbitrary and a
 Cartesian square whose base change $f':X'\to Y'$ is quasi-compact and admits a
 compactification, the exchange transformation
@@ -35,18 +34,3 @@ the discrete non-torsion coefficients $\mathcal O_E,E,\Qlb$ on the small
 [sk-prop-sf-comp-proper], for which [sk-thm-sf-package] (2) records the
 same restriction). Whenever $\operatorname{Ex}_!$ is said to be an
 isomorphism "at every coefficient stage", this typing is meant.
-
-## Proof
-
-The stages are proved separately. For finite coefficients on the étale site,
-choose a compactification $f=rj$ with $j$ an open immersion and $r$ proper,
-and base change it to a compactification $f'=r'j'$ of $f'$. Then
-$\operatorname{Ex}_!$ is the exchange map computed with these
-compactifications, followed by the comparison isomorphism identifying the
-functor $Rr'_*j'_!$ with $Rf'_!$. The exchange for $j_!$ is an isomorphism
-because extension by zero commutes with every base change, so the computed
-exchange reduces to the base-change map $Lg^*Rr_*\to Rr'_*Lg''^*$ for the
-proper morphism $r:Z\to Y$, where $g'':Z'=Z\times_YY'\to Z$ is the projection, which is an isomorphism on $D^+$ by proper base
-change with torsion coefficients. The remaining stages are: the pro-étale site, for objects with an étale-origin witness;
-derived-complete coefficients, with the completed exchange; $\Dbc(X,E)$; and
-$\Dbc(X,\Qlb)$.

@@ -1,13 +1,12 @@
 +++
 id = "sk-d-weights"
-kind = "section"
+kind = "definition"
 title = "Operations and weight characters"
 order = 2535
 uses = ["sk-d-linear", "sk-d-monodromy"]
 lean = ["Representation.RealCharacter", "Representation.detCharacter", "Representation.HasFiniteGeometricDet", "Representation.detWeight"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Representations of the same degree datum have
 diagonal tensor action and the induced action on exterior powers.
 For rank $r$, the determinant representation is $\bigwedge^r V$;

@@ -1,13 +1,12 @@
 +++
 id = "sk-def-ops"
-kind = "section"
+kind = "definition"
 title = "The six operations, the dualizing complex, the duals"
 order = 2408
 uses = ["sk-def-set"]
 lean = ["AlgebraicGeometry.ProEtale.dualizingComplex", "AlgebraicGeometry.ProEtale.verdierDual", "AlgebraicGeometry.ProEtale.derivedDual", "AlgebraicGeometry.ProEtale.cohomology"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 In the setting of [sk-def-set], let $\Dctf(X,\Lambda)$ be the bounded
 constructible finite-Tor category on the small pro-étale site, with
 $Lf^*,Rf_*,Rf_!,Rf^!,\otimes^L_\Lambda,R\mathcal H om_\Lambda$, where

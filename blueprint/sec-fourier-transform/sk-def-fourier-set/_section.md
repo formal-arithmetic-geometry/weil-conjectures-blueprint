@@ -1,12 +1,11 @@
 +++
 id = "sk-def-fourier-set"
-kind = "section"
+kind = "remark"
 title = "The coefficient setting: six operations only"
 order = 2669
 lean = ["AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructible"]
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Fix a prime $p$, a power $q=p^a$, the fields $k_0=\Fq$ and $k=\bar k_0$, a
 prime $\ell\ne p$, and a finite extension $E/\Ql$ with algebraic closure
 $\Qlb$. All schemes are separated of finite type over $k_0$. We use:

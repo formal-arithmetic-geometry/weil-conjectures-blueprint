@@ -1,13 +1,12 @@
 +++
 id = "sk-lem-sf-determination"
-kind = "section"
+kind = "lemma"
 title = "Invertibility on a generating class"
 order = 1862
 uses = ["sk-def-sf-operations"]
 lean = ["CategoryTheory.Pretriangulated.isIso₃_of_isIso₁₂"]
+tags = ["sketch"]
 +++
-*Lemma (sketch).*
-
 Let $\Phi,\Psi$ be exact functors of triangulated categories and let
 $\alpha:\Phi\to\Psi$ be natural. If $\alpha$ is an isomorphism on two terms of
 a distinguished triangle, it is an isomorphism on the third; $\alpha$ is an
@@ -37,14 +36,3 @@ $R$ and differ on $P$. Likewise two natural transformations agreeing at
 every geometric stalk need not agree. Equalities between comparison maps are
 therefore proved from their constructions, never
 from agreement on generators or on stalks.
-
-## Proof
-
-Apply $H^q$ to the map of triangles: two columns of the ladder are
-isomorphisms, so the third is, by the five lemma; a morphism whose cone has
-vanishing cohomology is zero. Shifts: $\alpha_{X[1]}=\alpha_X[1]$ by
-exactness. Summands: $\alpha_{X\oplus Y}=\alpha_X\oplus\alpha_Y$ by
-additivity, and the inverse of an invertible diagonal map is diagonal, so each
-summand is invertible. The class of objects on which $\alpha$ is invertible
-is therefore closed under shifts, cones and direct summands, i.e. it is a
-thick subcategory.

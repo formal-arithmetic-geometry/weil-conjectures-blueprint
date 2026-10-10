@@ -1,12 +1,11 @@
 +++
 id = "sk-def-sf-operations"
-kind = "section"
+kind = "definition"
 title = "The six operations: ambient typing"
 order = 1453
 lean = ["AlgebraicGeometry.Etale.upperStar", "AlgebraicGeometry.Etale.rightDerivedLowerShriek", "AlgebraicGeometry.Etale.rightDerivedUpperShriek", "AlgebraicGeometry.Etale.derivedTensor", "AlgebraicGeometry.Etale.derivedHom", "AlgebraicGeometry.Etale.openImmersionLowerShriek"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For a separated finite-type $f:X\to Y$ the six operations are the following
 functors of ambient categories:
 

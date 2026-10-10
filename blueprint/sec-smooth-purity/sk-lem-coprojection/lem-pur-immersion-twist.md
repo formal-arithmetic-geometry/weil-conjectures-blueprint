@@ -23,10 +23,3 @@ $L=\Lambda_X(m)[2m]$ (an invertible object of
 [def-weil-derived-tensor], whose restriction to $Z$ is
 $\Lambda_Z(m)[2m]$ by the [def-coefficient-twists-detailed]
 restriction compatibility).
-
-## Proof
-
-Apply [lem-pur-coprojection] to the object $K$ on $W=X$ and
-the invertible object $L=\Lambda_X(m)[2m]$, and use the
-[def-coefficient-twists-detailed] identification
-$i^*\Lambda_X(m)=\Lambda_Z(m)$.

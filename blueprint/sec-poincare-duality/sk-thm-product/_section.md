@@ -1,12 +1,11 @@
 +++
 id = "sk-thm-product"
-kind = "section"
+kind = "theorem"
 title = "Supported product over a relative base"
 order = 2436
 uses = ["sk-def-ops", "sk-thm-sf-kunneth-relative"]
+tags = ["sketch"]
 +++
-*Theorem (sketch).*
-
 In the setting of [sk-def-set], let $B$ be a finite-type $k$-scheme,
 $f:X\to B$, $g:Y\to B$ separated of finite type,
 $h=f\times_Bg:X\times_BY\to B$ with projections $p,q$, and
@@ -21,13 +20,3 @@ $$
 
 For $B=\Spec k$ this reads
 $R\Gamma_c(Z,i^*K)\otimes^L_\Lambda R\Gamma_c(W,j^*L)\cong R\Gamma_c\bigl(Z\times W,(K\boxtimes L)|_{Z\times W}\bigr)$.
-
-## Proof
-
-Apply the relative compact-support product of
-[sk-thm-sf-kunneth-relative] to $i_*i^*K$ and $j_*j^*L$, using that
-the exterior product of extensions by zero along closed immersions is the
-extension by zero of the exterior product:
-$(i_*i^*K)\boxtimes(j_*j^*L)\cong(i\times_Bj)_*(i\times_Bj)^*(K\boxtimes L)$.
-For $B=\Spec k$, apply $\Fib_s$ of [sk-def-ops]; since $i$ and $j$
-are proper, $Ra_{X!}i_*=Ra_{Z!}$ and $Ra_{Y!}j_*=Ra_{W!}$.

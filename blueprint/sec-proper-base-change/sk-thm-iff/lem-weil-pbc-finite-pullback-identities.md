@@ -21,11 +21,3 @@ $u:T'\to T$, $i:Z\to T$:
 4. descended sections are preserved: if $x\in\Gamma(T,G)$ and
    $x'\in\Gamma(T',u^{-1}G)$ satisfy $u^\sharp(x)=x'$, then
    $a^\sharp(x')=\Gamma(\theta)(b^\sharp(i^\sharp(x)))$.
-
-## Proof
-
-The first three equations are the functoriality of the inverse-image unit of
-[def-weil-pbc-inverse-image], applied to the identity $T\times_TT=T$, to
-composites, and to the two equal composites $u\circ a=i\circ b$ (the square
-isomorphism being the composite of the two composition isomorphisms). The
-fourth follows from the third by substituting $x'=u^\sharp(x)$.

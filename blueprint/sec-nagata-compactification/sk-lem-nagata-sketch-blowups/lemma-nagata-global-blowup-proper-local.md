@@ -9,10 +9,3 @@ uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", 
 Let $U\subseteq X$ be an affine open such that $\mathcal I(U)$ is a finitely
 generated ideal. Then the restriction of $b_{X,\mathcal I}$ over $U$ is
 proper.
-
-## Proof
-
-Finite type of $\mathcal I$ gives finite generation of the corresponding
-ideal on the affine open. Transfer
-[lemma-nagata-affine-blowup-proper] through
-[prop-nagata-global-blowup-cover-independent].

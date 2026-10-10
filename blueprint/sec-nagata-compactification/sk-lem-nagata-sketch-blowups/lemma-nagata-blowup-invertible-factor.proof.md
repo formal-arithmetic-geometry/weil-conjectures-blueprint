@@ -1,0 +1,17 @@
++++
+kind  = "proof"
+of    = "lemma-nagata-blowup-invertible-factor"
++++
+Tensor the tautological quotient for $\mathcal J$ with the pullback of the
+invertible ideal $\mathcal L$ to obtain an invertible quotient of
+$\mathcal L\mathcal J$; this gives a lift from
+$\operatorname{Bl}_{\mathcal J}(X)$ to
+$\operatorname{Bl}_{\mathcal L\mathcal J}(X)$. Conversely, tensor the
+tautological quotient of $\mathcal L\mathcal J$ with the dual of the
+pulled-back invertible module $\mathcal L$. The evaluation isomorphism
+gives an invertible quotient of $\mathcal J$ and hence a reverse lift.
+Locally this is division by a basis of $\mathcal L$, so the quotient maps
+are compatible with the specified ideal inclusions and glue independently
+of the chosen bases. Both composites induce the original tautological
+quotient, so uniqueness in
+[thm-nagata-blowup-universal-property] makes them identities.

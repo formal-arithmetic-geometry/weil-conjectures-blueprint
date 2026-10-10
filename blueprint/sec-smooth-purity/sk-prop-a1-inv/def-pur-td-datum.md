@@ -58,7 +58,3 @@ $$
 
 natural in $A\in D^b_{ctf}(X,\Lambda)$ and
 $K\in D^b_{ctf}(Y,\Lambda)$.
-
-## Proof
-
-The induced functor $G_L$ is a functor by [lem-weil-derived-tensor-functorial].

@@ -1,13 +1,12 @@
 +++
 id = "sk-def-purity-conv"
-kind = "section"
+kind = "remark"
 title = "Purity conventions and the rank-one datum"
 order = 1886
 uses = ["sk-def-sf-operations"]
 lean = ["AlgebraicGeometry.Etale.sectionInvariant", "AlgebraicGeometry.Etale.dualizingComplex", "AlgebraicGeometry.Scheme.Hom.NormalConeData", "AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData"]
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Finite coefficients $\Lambda=A=A_{E,n}=\mathcal O_E/\varpi^n$ for a finite
 extension $E/\mathbf Q_\ell$ with uniformizer $\varpi$, with $\ell$ invertible on
 every scheme in sight ($\ell\ne p$ in characteristic $p$); pro-étale sites,

@@ -16,13 +16,3 @@ If $K$ is represented by a pair $(E,K_E)$ with $K_E\in\Dbc(X,E)$, this map
 is represented after a finite overfield $M$ by the $M$-coefficient exchange
 isomorphism of [thm-weil-pbc-finite-extension] applied to $T_{M/E}K_E$. The
 result is independent of $E$, $M$, and the representative.
-
-## Proof
-
-The scalar-compatible family of finite-extension exchange maps descends to a
-natural transformation by [prop-weil-pbc-descent-functors]; at every finite
-stage it is an isomorphism by [thm-weil-pbc-finite-extension], and the
-descent formula preserves this property through the common-stage colimit of
-[def-weil-pbc-qbar-category]. Independence of the representatives is the
-independence statement of [thm-weil-pbc-finite-extension] together with the
-equivalence relation of [def-weil-pbc-finite-stage-pair-category].

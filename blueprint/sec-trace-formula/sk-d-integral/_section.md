@@ -1,13 +1,12 @@
 +++
 id = "sk-d-integral"
-kind = "section"
+kind = "definition"
 title = "Borel–Moore sections and integration"
 order = 2281
 uses = ["sk-d-setup", "sk-d-six"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.borelMoorePushforward"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 A Borel–Moore section on a geometric scheme $T$ is
 $\alpha:A_T\to\omega_T$ in the derived category.
 For proper $h:T\to T'$ over $s$, define $h_*\alpha$ by

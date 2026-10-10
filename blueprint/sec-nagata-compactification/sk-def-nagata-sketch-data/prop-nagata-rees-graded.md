@@ -9,10 +9,3 @@ uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-c
 +++
 The family $n\mapsto\mathcal R_A(I)_n$ defines an
 $\mathbb N$-graded-ring structure on $\mathcal R_A(I)$.
-
-## Proof
-
-Use [lemma-nagata-rees-piece-mul] for graded multiplication,
-[lemma-nagata-rees-sum-components] for existence of the direct-sum
-decomposition, and [lemma-nagata-rees-components-unique] for
-uniqueness.

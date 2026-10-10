@@ -1,13 +1,12 @@
 +++
 id = "sk-d-relative-frob"
-kind = "section"
+kind = "definition"
 title = "The relative Frobenius factorization"
 order = 2359
 uses = ["sk-d-setup", "sk-d-weil"]
 lean = ["AlgebraicGeometry.ProEtale.relativeFrobenius"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $f:X\to Y$ be a morphism of schemes and let $\Phi_{X,m}:X\to X$,
 $\Phi_{Y,m}:Y\to Y$ be endomorphisms with $\Phi_{Y,m}f=f\Phi_{X,m}$. The case of
 interest is a map $f_0:X_0\to Y_0$ of

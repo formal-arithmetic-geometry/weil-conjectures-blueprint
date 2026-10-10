@@ -1,13 +1,12 @@
 +++
 id = "sk-d-lines"
-kind = "section"
+kind = "remark"
 title = "The affine and projective lines"
 order = 2374
 uses = ["sk-d-setup"]
 lean = ["AlgebraicGeometry.ProjectiveSpace"]
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Over a finite field $F$ from the coefficient setup, the projective line
 $\mathbf P^1_F$ is the projective space over $\operatorname{Spec}F$ with
 homogeneous coordinates $T_0,T_1$, that is, the base change

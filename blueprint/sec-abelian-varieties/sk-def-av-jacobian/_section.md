@@ -1,13 +1,12 @@
 +++
 id = "sk-def-av-jacobian"
-kind = "section"
+kind = "definition"
 title = "The Jacobian"
 lean = ["AlgebraicGeometry.IsJacobian"]
 order = 446
 uses = ["sec-nagata-compactification", "sk-def-av", "sk-def-av-pic", "sk-def-curve"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $C$ be a smooth projective geometrically integral curve over $k$,
 of genus $g$. A *Jacobian of $C$* is a pair $(J,\varphi)$
 consisting of an abelian variety $J$ over $k$ of dimension $g$

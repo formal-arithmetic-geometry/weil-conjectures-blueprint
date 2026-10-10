@@ -13,9 +13,3 @@ $\lambda_{\mathrm{raw}}(X/S)$ to be the selected
 upper bound of their finitely many stages, and denote the resulting raw
 datum over $S_{\lambda_{\mathrm{raw}}}$ by
 $\mathsf R_{X,\lambda_{\mathrm{raw}}}^{\mathrm{raw}}$.
-
-## Proof
-
-Each object is transported by the canonical base-change map to the selected
-upper bound. Functoriality supplies the comparison maps and coherence, so
-the raw datum is well defined.

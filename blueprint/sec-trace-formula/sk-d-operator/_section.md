@@ -1,13 +1,12 @@
 +++
 id = "sk-d-operator"
-kind = "section"
+kind = "definition"
 title = "Global operators"
 order = 2287
 uses = ["sk-d-corr", "sk-d-six"]
 lean = ["AlgebraicGeometry.ProEtale.Correspondence.globalOperator"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For an endocorrespondence with $c_2$ proper, the
 unit, proper identification, and exceptional counit
 define

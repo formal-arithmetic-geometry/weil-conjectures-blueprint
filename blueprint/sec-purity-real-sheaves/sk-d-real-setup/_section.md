@@ -1,11 +1,10 @@
 +++
 id = "sk-d-real-setup"
-kind = "section"
+kind = "remark"
 title = "Fields, curves and Frobenius"
 order = 2575
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Fix $q=p^a$, $a\ge1$, an algebraic closure $k=\overline{\Fq}$, a prime
 $\ell\ne p$, and a field embedding $\iota:\Qlb\hookrightarrow\mathbf C$.
 A curve $C_0/\Fq$ is a nonempty, separated, smooth scheme of finite type,

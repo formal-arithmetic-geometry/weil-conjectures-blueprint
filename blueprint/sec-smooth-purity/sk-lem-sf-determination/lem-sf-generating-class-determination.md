@@ -18,12 +18,3 @@ but nonzero on $P=[R\xrightarrow{\epsilon}R]$, so $\mathrm{id}$ and
 $\begin{pmatrix}1&0\\ \eta&1\end{pmatrix}$ are natural automorphisms of
 $\mathrm{Id}\oplus[1]$ agreeing on $R$ and differing on $P$. Equalities of
 comparison maps must be proved from their constructions.
-
-## Proof
-
-The class of objects on which $\alpha$ is invertible is closed under
-cones by [lem-sf-triangle-two-out-of-three], under shifts because
-$\alpha_{X[1]}=\alpha_X[1]$ by exactness, and under direct summands because
-$\alpha_{X\oplus Y}=\alpha_X\oplus\alpha_Y$ and the inverse of an invertible
-diagonal map is diagonal. It is therefore a thick subcategory containing the
-given class.

@@ -14,9 +14,3 @@ U\times_S(X_i\setminus\overline Z_{i,j})
 $$
 
 is constructible.
-
-## Proof
-
-The source and target are of finite type over the Noetherian scheme $S$.
-The displayed morphism is an immersion and hence of finite type. Chevalley's
-theorem makes its image constructible.

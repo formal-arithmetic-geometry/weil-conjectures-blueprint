@@ -1,13 +1,12 @@
 +++
 id = "sk-thm-sf-identification"
-kind = "section"
+kind = "theorem"
 title = "The derived Poincaré pairing is the duality isomorphism"
 order = 2182
 uses = ["sk-lem-sf-twist-interchange", "sk-thm-sf-global-duality", "sk-thm-sf-tensor-hom"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerStar_coefficientDual_of_orientation"]
+tags = ["sketch"]
 +++
-*Theorem (sketch).*
-
 Let $X$ satisfy the hypotheses of [sk-thm-sf-global-duality],
 with the orientation of [sk-def-sf-orientation] fixed, and let
 $K\in\Dctf(X,\Lambda)$ be perfect over $\Lambda_X$. Then the tensor–internal-Hom
@@ -31,16 +30,3 @@ $\Lambda=\mathcal O_E$ the degreewise form fails in general: a torsion
 class in $H^i_c$ pairs to zero with everything, and
 $H^{-i}(\RG_c^\vee)$ picks up an $\operatorname{Ext}^1$ term from the
 torsion of $H^{i+1}_c$; only the derived statement holds there.
-
-## Proof
-
-The pairing $\beta_K$ is the composite of the mixed-support cup product, the
-evaluation $K\otimes^LK^\vee\to\Lambda_X$ (twisted), and the normalized trace,
-i.e. the counit of $Ra_{X!}\dashv Ra_X^!$ read through the orientation. The
-chain of [sk-thm-sf-tensor-hom] with $M=K$, $N=\Lambda$ and $f=a_X$ is, by
-[sk-lem-sf-mate], the transpose of exactly that composite; hence the adjoint
-of $\beta_K$ is the composite of the duality isomorphism with the orientation
-identification, which is an isomorphism. Degreewise this is the shift
-convention together with $H^{-i}(C^\vee)\cong H^i(C)^\vee$ for a perfect point
-complex, which holds when $\operatorname{Hom}(-,\Lambda)$ is exact, i.e. for
-$\Lambda\in\{A_{E,n},E,\Qlb\}$.

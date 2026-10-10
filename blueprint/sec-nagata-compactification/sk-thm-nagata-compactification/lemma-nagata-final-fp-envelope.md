@@ -8,8 +8,3 @@ uses = ["def-nagata-final-fp-envelope", "prop-nagata-finite-type-closed-in-fp"]
 The map $i_f^{\mathrm{fp}}\colon X\hookrightarrow X_f^{\mathrm{fp}}$ is a
 closed immersion over $S$, and
 $X_f^{\mathrm{fp}}\to S$ is separated and of finite presentation.
-
-## Proof
-
-These are precisely the three properties established for the constructed
-envelope in [prop-nagata-finite-type-closed-in-fp].

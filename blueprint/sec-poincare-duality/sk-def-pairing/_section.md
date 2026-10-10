@@ -1,12 +1,11 @@
 +++
 id = "sk-def-pairing"
-kind = "section"
+kind = "definition"
 title = "The derived pairing, and perfectness of a pairing"
 order = 2418
 uses = ["sk-def-pairing-data", "sk-def-perfect"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 In the setting of [sk-def-pairing-data], for $K$ perfect over
 $\Lambda_X$ the *derived Poincaré pairing* is the composite
 

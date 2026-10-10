@@ -9,10 +9,3 @@ lean = ["AlgebraicGeometry.LAdicWeilSheaf.subsingleton_compactlySupportedCohomol
 Let $Z_0$ be finite over $k_0$ and let $\mathcal G$ be a
 Weil sheaf on $Z_0$. Then
 $H_c^r(Z,\mathcal G)=0$ for $r\neq0$.
-
-## Proof
-
-After geometric base change a finite scheme is a finite discrete space:
-its cohomology is concentrated in degree zero, and the higher
-compact-support groups of [def-weil-ordinary-compact-cohomology]
-vanish since the scheme is zero-dimensional.

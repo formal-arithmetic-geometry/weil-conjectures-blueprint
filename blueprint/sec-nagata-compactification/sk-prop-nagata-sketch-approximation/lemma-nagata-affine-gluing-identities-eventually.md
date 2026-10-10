@@ -8,11 +8,3 @@ uses = ["def-nagata-affine-gluing-valid-stage", "lemma-nagata-affine-gluing-coef
 The overlap maps in $\mathsf G_{S,\lambda_{\mathrm{glue}}}$ preserve the
 selected opens, are mutually inverse, and satisfy all identity and
 triple-overlap cocycle equations.
-
-## Proof
-
-Every required equality is determined by finitely many generators after
-localization. Equality in the colimit is witnessed at a finite stage.
-The definition includes all those witness stages in one finite set, and the
-selected upper-bound lemma makes every equation hold simultaneously at
-$\lambda_{\mathrm{glue}}(S)$.

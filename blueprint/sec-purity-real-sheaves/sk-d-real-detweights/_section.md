@@ -1,13 +1,12 @@
 +++
 id = "sk-d-real-detweights"
-kind = "section"
+kind = "definition"
 title = "Determinant weights and weight blocks"
 order = 2631
 uses = ["sk-d-real-operations", "sk-d-real-weights", "sk-p-real-rankone"]
 lean = ["AlgebraicGeometry.WeilGroup.HasDetWeight"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 A Weil sheaf $V$ given by a representation of $W(C_0)$ on a
 $\Qlb$-vector space of finite dimension $r$ has determinant weight $\gamma\in\mathbf R$
 if $\det V$ is punctually $\iota$-pure of weight $r\gamma$, i.e.

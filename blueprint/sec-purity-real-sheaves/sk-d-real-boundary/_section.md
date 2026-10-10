@@ -1,13 +1,12 @@
 +++
 id = "sk-d-real-boundary"
-kind = "section"
+kind = "definition"
 title = "Boundary extension and inertia"
 order = 2640
 uses = ["sec-algebraic-groups-lie-algebras", "sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weil"]
 lean = ["AlgebraicGeometry.BoundaryDatum", "AlgebraicGeometry.BoundaryDatum.boundaryStalk"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $j:U_0\hookrightarrow C_0$ be a nonempty open in a
 curve, with finite complement $S_0$, and let
 $\mathcal F$ be lisse Weil on $U_0$, with representation $\rho$ of
@@ -36,23 +35,3 @@ Residue Frobenius lifts in $W(K_s)$ differ by elements of $I_s$, so they
 act unambiguously on the invariants $V_s^{I_s}$.
 Another choice of path changes the homomorphism by conjugation, and
 $V_s^{I_s}$ with its residue Frobenius action is independent of the choice up to Frobenius-equivariant isomorphism.
-
-## Proof
-
-Another path changes the homomorphism by conjugation by some
-$g\in\pi_1(U_0)$. Write $g=wd$ with $w\in W(U_0)$ and $d$ in the image
-$D$ of $\Gal(\overline K_s/K_s)$: with $\deg$ extended to
-$\pi_1(U_0)\to\widehat{\mathbf Z}$ as in [sk-d-real-weil], one has
-$\deg(D)=e_s\widehat{\mathbf Z}$, because $\Gal(\overline K_s/K_s)$ maps
-onto $\Gal(\overline{k(s)}/k(s))=\Gal(k/k(s))$, and
-$\widehat{\mathbf Z}=\mathbf Z+e_s\widehat{\mathbf Z}$; so some $d\in D$
-has $\deg g-\deg d\in\mathbf Z$, and $w=gd^{-1}$ lies in $W(U_0)$.
-Conjugation by $d$ preserves the image of the normal subgroup $I_s$, and
-it changes the image of a residue Frobenius lift $\Phi$ only by an
-element of $I_s$, because the residue Galois group
-$\Gal(\overline{k(s)}/k(s))$ is abelian, so that
-$\delta\Phi\delta^{-1}\Phi^{-1}\in I_s$ for every
-$\delta\in\Gal(\overline K_s/K_s)$. Hence the invariant space for the
-new homomorphism is $\rho(w)V_s^{I_s}$, and the map $\rho(w)$ identifies
-the two invariant spaces Frobenius-equivariantly, so $V_s^{I_s}$ is
-independent of the choice up to Frobenius-equivariant isomorphism.

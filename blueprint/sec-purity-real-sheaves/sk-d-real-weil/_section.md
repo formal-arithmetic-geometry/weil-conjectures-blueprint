@@ -1,13 +1,12 @@
 +++
 id = "sk-d-real-weil"
-kind = "section"
+kind = "definition"
 title = "Weil sheaves and their representations"
 order = 2577
 uses = ["sk-d-real-setup"]
 lean = ["AlgebraicGeometry.WeilGroup", "AlgebraicGeometry.WeilGroup.IsLisse"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Choose a geometric base point on the curve $C$.
 Let $P=\pi_1(C)$ be its profinite etale fundamental group, defined by
 the fiber functor on finite etale covers. The Weil group $W(C_0)$ is the
@@ -37,21 +36,3 @@ over $x$ to the base point. It has degree $e_x$, and it is well defined
 up to conjugacy in $W(C_0)$.
 A constructible Weil sheaf is lisse of finite rank on each stratum of a
 finite stratification into locally closed subschemes.
-
-## Proof
-
-The local Frobenius $F_x$ is well defined up to conjugacy in $W(C_0)$.
-Changing the path conjugates it by some $g\in\pi_1(C_0)$, and this is
-already a conjugation inside $W(C_0)$: identify $\Gal(k/\Fq)$ with
-$\widehat{\mathbf Z}$ by sending geometric Frobenius to $1$, so that
-$\deg$ extends to $\pi_1(C_0)\to\widehat{\mathbf Z}$ with
-$W(C_0)=\deg^{-1}(\mathbf Z)$. Since
-$\widehat{\mathbf Z}=\mathbf Z+e_x\widehat{\mathbf Z}$, write
-$\deg g=n+e_xt$ with $n\in\mathbf Z$ and $t\in\widehat{\mathbf Z}$, and
-let $F_x^t$ be the image of the $t$-th power of geometric Frobenius in
-the procyclic group $\Gal(\overline{k(x)}/k(x))\simeq\widehat{\mathbf Z}$;
-it has degree $e_xt$ and commutes with $F_x$. Then $w=gF_x^{-t}$ has
-degree $n$, so $w\in W(C_0)$, and
-$gF_xg^{-1}=wF_x^{t}F_xF_x^{-t}w^{-1}=wF_xw^{-1}$. Hence conjugacy in
-$\pi_1(C_0)$ and in $W(C_0)$ agree on $F_x$, and $F_x$ is well defined
-up to conjugacy in $W(C_0)$.

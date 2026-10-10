@@ -1,13 +1,12 @@
 +++
 id = "sk-d-corr"
-kind = "section"
+kind = "definition"
 title = "Correspondences and supported classes"
 order = 2275
 uses = ["sk-d-setup", "sk-d-six", "sk-thm-sf-comp-composition"]
 lean = ["AlgebraicGeometry.ProEtale.Correspondence"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $X,Y$ be schemes over $s$, with
 $K\in D(X,A)$ and $L\in D(Y,A)$.
 A correspondence from $(X,K)$ to $(Y,L)$ consists of a scheme $C$ over $s$,

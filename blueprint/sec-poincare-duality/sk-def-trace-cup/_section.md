@@ -1,12 +1,11 @@
 +++
 id = "sk-def-trace-cup"
-kind = "section"
+kind = "definition"
 title = "Trace and trace–cup pairing"
 order = 2420
 uses = ["sk-def-ops", "sk-def-sf-orientation"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 In the setting of [sk-def-set] with $X_0$ in addition *proper*,
 so that $R\Gamma_c=R\Gamma$, the trace map is
 $\operatorname{tr}^{(-d)}_X:H^{2d}(X,\Lambda)\to\Lambda(-d)$, the

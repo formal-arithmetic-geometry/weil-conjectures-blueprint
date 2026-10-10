@@ -10,14 +10,3 @@ an isomorphism is itself an isomorphism and remains an isomorphism after
 $\Rlim$. If a derived complete object $C$ satisfies $C\otimes_A^LP_n=0$ for
 every $n$, then $C=0$. Consequently a morphism between derived complete
 objects is an isomorphism once every finite reduction is an isomorphism.
-
-## Proof
-
-The evaluation functors of [def-weil-pbc-derived-inverse-limit] are jointly
-conservative on the tower category, and $\Rlim$ is a triangulated functor ([prop-weil-pbc-rlim-functoriality]), so
-the first assertion holds. For a derived complete $C$,
-[prop-weil-pbc-koszul-reconstruction] identifies $C$ with $\Rlim C_\bullet$,
-and the vanishing of every finite reduction kills the tower $C_\bullet$
-levelwise, hence $C=0$; the cone of a morphism between derived complete
-objects is again derived complete, so the last assertion follows from the
-second.

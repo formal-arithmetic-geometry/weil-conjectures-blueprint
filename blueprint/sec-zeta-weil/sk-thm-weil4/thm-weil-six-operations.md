@@ -13,8 +13,3 @@ hold on the constructible domains proved in the package. General
 Verdier biduality at all four coefficient stages is
 [thm-sf-biduality-class]; finite coefficients use $D^b_{ctf}$,
 and the integral and field stages use the specified $D^b_c$.
-
-## Proof
-
-Apply the terminal assembly [prop-functor-package]. This theorem is
-an export of its seven clauses and is not an input to their proofs.

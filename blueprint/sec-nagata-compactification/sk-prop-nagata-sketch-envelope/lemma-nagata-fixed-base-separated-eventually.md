@@ -8,10 +8,3 @@ uses = ["def-nagata-fixed-base-separated-stage", "lemma-nagata-fixed-base-separa
 +++
 For every $\alpha\geq\alpha_{\mathrm{sep}}$, the morphism
 $X_\alpha\to S$ is separated.
-
-## Proof
-
-The witness supplied by
-[lemma-nagata-fixed-base-separated-stage-exists] contains the eventual
-separatedness proof. Project that field along the index selected in
-[def-nagata-fixed-base-separated-stage].

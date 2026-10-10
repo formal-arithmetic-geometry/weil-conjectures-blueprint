@@ -75,15 +75,3 @@ condition is invariant under every embedding of its number field into
 $\mathbf C$. Then for every integer $i$ with $0\leq i\leq2d$ each
 $R_i$ is stable, with multiplicities, under
 $\operatorname{Gal}(\overline{\mathbf Q}/\mathbf Q)$.
-
-## Proof
-
-The polynomials $A^\#,B^\#$ of
-[def-weil-ordinary-reciprocal-roots] have rational coefficients,
-so their root multisets are stable under
-$\operatorname{Gal}(\overline{\mathbf Q}/\mathbf Q)$, and by
-[lem-embedding-extension] the $q$-Weil condition of weight $i$
-of [def-weil-numbers] is Galois-stable. Hence, for each $i$,
-the submultiset $R_i$ is stable under
-$\operatorname{Gal}(\overline{\mathbf Q}/\mathbf Q)$, with
-multiplicities, which is the assertion.

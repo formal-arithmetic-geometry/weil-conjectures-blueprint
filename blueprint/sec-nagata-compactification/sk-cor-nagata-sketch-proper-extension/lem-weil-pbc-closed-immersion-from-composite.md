@@ -8,7 +8,3 @@ lean = ["AlgebraicGeometry.IsClosedImmersion.of_comp"]
 Let $r:T\to V$ and $p:V\to S$ be scheme morphisms. If $p$ is
 separated and $p\circ r$ is a closed immersion, then $r$ is a
 closed immersion.
-
-## Proof
-
-Omitted.

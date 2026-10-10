@@ -1,13 +1,12 @@
 +++
 id = "sk-def-weil"
-kind = "section"
+kind = "definition"
 title = "Weil structures and their Frobenius normalization"
 order = 2423
 uses = ["sk-def-ops"]
 lean = ["AlgebraicGeometry.Etale.WeilComplex"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 In the setting of [sk-def-set], let $g_\gamma$ be the geometric
 Frobenius automorphism and let $\Lambda(r)$ be the Tate twist, on which
 geometric Frobenius acts by $q^{-r}$ (hence $q^{r}$ on
