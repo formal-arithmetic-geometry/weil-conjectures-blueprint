@@ -9,8 +9,16 @@ which gives locally $D=\operatorname{Spec}(A/(f))$ of finite presentation over t
 affine base); hence the base change $D_T\to T$ is flat and of finite
 presentation; it is the closed subscheme $D\times_ST\subseteq X\times_ST=X_T$ (closed immersions are stable under base change and
 the base change of a closed subscheme followed by the projection is
-the closed subscheme of the product), with ideal sheaf the pullback
-$g_X^*\mathcal{I}_D$ ([lem-pc-closed-imm-base-change]): as
+the closed subscheme of the product), with ideal sheaf the image of
+$g_X^*\mathcal{I}_D\to\mathcal{O}_{X_T}$ ([lem-pc-closed-imm-base-change]).
+The base change $g_X$ need not be flat, but this map is injective because
+$D$ is flat over $S$: locally $X=\operatorname{Spec}B$ over
+$S=\operatorname{Spec}A$ and $D=\operatorname{Spec}(B/hB)$ with $h\in B$ a
+nonzerodivisor, and the exact sequence $0\to B\xrightarrow{h}B\to B/hB\to0$
+stays exact after $\otimes_AA'$ for every $A$-algebra $A'$ because $B/hB$ is
+$A$-flat (this is the argument of Divisors, Lemma 31.19.1, Tag
+[056Q](https://stacks.math.columbia.edu/tag/056Q), which shows that $D_T$ is
+an effective Cartier divisor). Hence $\mathcal{I}_{D_T}=g_X^*\mathcal{I}_D$: as
 $\mathcal{I}_D$ is an invertible ideal sheaf, $g_X^*\mathcal{I}_D$ is invertible, so
 $D_T$ is an effective Cartier divisor on $X_T$ (the pullback of a
 locally principal ideal is locally principal, and invertibility of the

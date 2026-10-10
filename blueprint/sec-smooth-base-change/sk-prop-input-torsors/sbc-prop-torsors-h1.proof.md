@@ -7,10 +7,10 @@ The bijection, with its naturality, is [thm-galois-torsor-h1]. By
 $P\mapsto\underline{\operatorname{Hom}}_Y(-,P)$ is an equivalence from
 finite etale $Y$-schemes to finite locally constant sheaves which carries
 simply transitive $M$-actions to simply transitive ones, and conversely;
-since an $M$-torsor is by [def-weil-pbc-finite-torsors] a finite locally
-constant sheaf with an $M$-action for which $M\times P\to P\times_YP$ is
-an isomorphism, $M$-torsors are the same as finite etale $Y$-schemes with
-a simply transitive $M$-action.
+since an $M$-torsor is by [def-weil-pbc-finite-torsors] a sheaf with an
+$M$-action for which $M\times P\to P\times_YP$ is an isomorphism and which
+has sections locally, $M$-torsors are the same as finite etale $Y$-schemes,
+surjective over $Y$, with a simply transitive $M$-action.
 
 Now let $Y$ be connected and $P$ an $M$-torsor, viewed as a
 finite etale $Y$-scheme with $M$ acting by $Y$-automorphisms. By
@@ -20,7 +20,8 @@ $\pi_1(Y,\bar y)$-set $|P_{\bar y}|$, and the $M$-action with an action
 of $M$ on $|P_{\bar y}|$ by $\pi_1$-equivariant maps; this action is
 simply transitive because the isomorphism $M\times P\to P\times_YP$
 becomes $M\times|P_{\bar y}|\cong|P_{\bar y}|\times|P_{\bar y}|$ under
-the exact functor $F_{\bar y}$. In particular $|P_{\bar y}|\neq\emptyset$.
+the exact functor $F_{\bar y}$, and $|P_{\bar y}|\neq\emptyset$ because
+$P\to Y$ is surjective.
 
 *The homomorphism.* Fix $p\in|P_{\bar y}|$. By simple transitivity there
 is a unique $f_P(g)\in M$ with $g\cdot p=p+f_P(g)$. As the two actions

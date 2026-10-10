@@ -15,5 +15,7 @@ $$
 where $\underline{\operatorname{Hom}}_Y(T,P)$ is the set of
 $Y$-morphisms $T\to P$, is an equivalence of categories. It is
 compatible with base change and with the fibre functors, and it carries
-$M$-torsors to $M$-torsors and simply transitive $M$-actions to
-simply transitive ones.
+finite etale $Y$-schemes $P$ which are surjective over $Y$ and carry a
+simply transitive $M$-action ($\underline M\times P\to P\times_YP$ an
+isomorphism) to the $M$-torsors of [def-weil-pbc-finite-torsors], and
+conversely.

@@ -31,4 +31,9 @@ statement: the fibre of the sheaf of morphisms is
 $\operatorname{Hom}_{\bar y}(\bar y,P)=|P_{\bar y}|$, and an $M$-action
 on $P$ corresponds to one on the sheaf, the map
 $M\times P\to P\times_YP$ being an isomorphism exactly when the action on
-each fibre is simply transitive.
+each fibre is simply transitive, which is condition (1) of
+[def-weil-pbc-finite-torsors]; condition (2), that the sheaf has sections
+locally, holds exactly when $P\to Y$ is surjective: a surjective finite
+etale $P\to Y$ is an etale covering of $Y$ over which $P$ acquires the
+diagonal section, and conversely sections over a covering force
+surjectivity.
