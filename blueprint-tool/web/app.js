@@ -357,10 +357,11 @@ function namesReference(before) {
  * `\varpi_E^n` into emphasis and a display formula into two paragraphs
  * before KaTeX ever sees them.  So every maths span is lifted out first and
  * put back, HTML-escaped, after marked has run.  Recognised, in this order:
- * `$$…$$`, `\[…\]`, `\(…\)`, `$…$` (no newline inside, not followed by a
- * digit, so prices survive); fenced and inline code are left to marked.
+ * `$$…$$`, `\[…\]`, `\(…\)`, `$…$`; fenced and inline code are left
+ * to marked. Inline formulas may wrap across source lines and start with
+ * digits (e.g. `$0=[0]$`), just as they may in KaTeX auto-render.
  */
-const MATH_RE = /(```[\s\S]*?```|`[^`\n]*`)|(\$\$[\s\S]+?\$\$|\\\[[\s\S]+?\\\]|\\\([\s\S]+?\\\)|\$(?!\s|\d)(?:[^$\n\\]|\\.)+?\$)/g;
+const MATH_RE = /(```[\s\S]*?```|`[^`\n]*`)|(\$\$[\s\S]+?\$\$|\\\[[\s\S]+?\\\]|\\\([\s\S]+?\\\)|\$(?!\s)(?:[^$\\]|\\[\s\S])+?\$)/g;
 
 export function shieldMath(src) {
   const spans = [];
