@@ -21,5 +21,6 @@ group
 $\operatorname{GL}(V)=\operatorname{Spec} \overline{\mathbf Q}_\ell[x_{ij},\det(x)^{-1}]$ of [def-sc-general-linear-group], not in the ambient
 affine space of all matrices. Equivalently it is the common zero locus
 in $\operatorname{GL}(V)$ of the regular functions vanishing on
-$\rho(\Pi)$. That this closure is a subgroup is
-[lem-wf-zariski-closure-subgroup].
+$\rho(\Pi)$.
+
+This closure is a subgroup of $\operatorname{GL}(V)$.

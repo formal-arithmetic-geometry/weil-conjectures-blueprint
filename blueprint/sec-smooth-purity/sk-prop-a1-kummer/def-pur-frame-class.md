@@ -24,6 +24,7 @@ $$
 $$
 
 where the Kummer classes are those of
-[def-pur-affine-line-datum]. Each factor has degree two and
-twist one; their supports intersect in $Z\cap U$, giving degree
-$2c$ and twist $c$.
+[def-pur-affine-line-datum].
+
+Each factor $\alpha_j$ has degree two and twist one; their supports
+intersect in $Z\cap U$, giving degree $2c$ and twist $c$.

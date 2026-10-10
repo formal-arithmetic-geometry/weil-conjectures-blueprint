@@ -10,9 +10,7 @@ field and $X$ a scheme of finite type over $K$. Let $F$ be an
 abelian sheaf on $X_{\Et}$ whose support
 is contained in the set of
 closed points of $X$. Then
-$H^q(X_{\Et},F)=0$ for $q>0$. (*Source:* Stacks Project,
-Tag [0F1F](https://stacks.math.columbia.edu/tag/0F1F), first
-assertion.)
+$H^q(X_{\Et},F)=0$ for $q>0$.
 
 ## Proof
 

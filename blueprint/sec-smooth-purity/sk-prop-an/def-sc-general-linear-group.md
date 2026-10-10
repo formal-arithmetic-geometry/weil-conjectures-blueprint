@@ -19,10 +19,8 @@ with comultiplication $m^*(x_{ij})=\sum_{r=1}^{c}x_{ir}\otimes x_{rj}$,
 counit $\varepsilon(x_{ij})=\delta_{ij}$ and antipode
 $i^*(x_{ij})=(-1)^{i+j}M_{ji}/\det$, where $M_{ji}$ is the
 determinant of the matrix obtained from $(x_{kl})$ by deleting row
-$j$ and column $i$; the group-scheme axioms of
-[def-sc-group-scheme] hold because matrix multiplication is
-associative, $1$ is a unit and $A\cdot A^{\mathrm{adj}}=\det(A)\cdot1$
-with $A^{\mathrm{adj}}=(M_{kl})$. Its $R$-points are
+$j$ and column $i$, as a group scheme in the sense of
+[def-sc-group-scheme]. Its $R$-points are
 $\mathrm{GL}_c(R)$, the group of invertible $c\times c$ matrices over
 $R$. The *special linear group scheme* is the closed
 subgroup scheme
@@ -33,5 +31,11 @@ $$
 
 The determinant defines a homomorphism
 $\det:\mathrm{GL}_{c,k}\to\mathbf G_m$ with
-[def-sc-gm-ga], dual to $t\mapsto\det$; it is multiplicative
-because $\det(AB)=\det(A)\det(B)$.
+[def-sc-gm-ga], dual to $t\mapsto\det$.
+
+## Proof
+
+The group-scheme axioms of [def-sc-group-scheme] hold because matrix
+multiplication is associative, $1$ is a unit and
+$A\cdot A^{\mathrm{adj}}=\det(A)\cdot1$ with $A^{\mathrm{adj}}=\bigl((-1)^{k+l}M_{lk}\bigr)_{k,l}$. The
+determinant is a homomorphism because $\det(AB)=\det(A)\det(B)$.

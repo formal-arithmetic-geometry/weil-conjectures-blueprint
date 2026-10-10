@@ -14,11 +14,14 @@ X\xrightarrow{j}\overline X\xrightarrow{p}S,
 \qquad p\circ j=f,
 $$
 
-where $j$ is a quasi-compact open immersion and $p$ is proper.
-It is *scheme-theoretically dense* if
-$\mathcal O_{\overline X}\to j_*\mathcal O_X$ is injective.
-For a quasi-compact open $U\subseteq T$ in a qcqs scheme, a
+where $j$ is an open immersion and $p$ is proper.
+It is *scheme-theoretically dense* if $j$ is scheme-theoretically
+dominant: no nonzero quasi-coherent ideal of $\mathcal O_{\overline X}$ is
+contained in the kernel of $\mathcal O_{\overline X}\to j_*\mathcal O_X$.
+For an open $U\subseteq T$ of a scheme $T$, a
 *$U$-admissible blow-up* is
 $\Bl_{\mathcal I}(T)\to T$, with $\mathcal I$ a finite-type
-quasi-coherent ideal satisfying $\mathcal I|_U=\mathcal O_U$.
-It is an isomorphism over $U$.
+quasi-coherent ideal whose support $V(\mathcal I)$ is disjoint from $U$,
+i.e. $\mathcal I|_U=\mathcal O_U$.
+
+A $U$-admissible blow-up is an isomorphism over $U$.

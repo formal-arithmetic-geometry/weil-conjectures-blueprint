@@ -40,9 +40,7 @@ $$
  Rf_{*,n}\bigl(K\otimes^L_{\mathcal O_E}A_{E,n}\bigr);
 $$
 
-its being an isomorphism, and its compatibility with composition and scalar
-extension, are separate comparison assertions, not part of this definition of
-the derived direct image. Here $A_{E,n}$ and finite-level constructibility
+Here $A_{E,n}$ and finite-level constructibility
 are the finite-torsion coefficient data
 [def-weil-finite-torsion-constructibility], and $\mathcal H^r$ is the
 cohomology-sheaf functor [def-weil-derived-cohomology-sheaves]. For

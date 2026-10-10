@@ -19,13 +19,12 @@ definitions of the properties, being Zariski-local and stable under
 composition with the projections). For the universal closedness, use
 the valuative criterion for properness ([lem-pc-projective-proper]
 cites it, Tag 0BX4): a valuation square
-a valuation square
 
 $$
 \operatorname{Spec} K \longrightarrow X'
 $$
 
-oindent over
+over
 
 $$
 \operatorname{Spec} V \longrightarrow S'

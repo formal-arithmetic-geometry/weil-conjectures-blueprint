@@ -8,16 +8,18 @@ lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.integral_eq_sum_localTer
 +++
 *Proposition (sketch).*
 
-Suppose the intersection support of an opposite pair is
-a finite disjoint union $E=\coprod_{\beta\in B}\beta$ of clopen
-subschemes, each proper over $s$. Then integration
-of the pairing is the sum of its
+Let $E$ be proper over $s$ and suppose $E$ is a finite disjoint union
+$E=\coprod_{\beta\in B}\beta$ of clopen subschemes, i.e. a finite family of open
+immersions with closed, pairwise disjoint images covering $E$. Then for every
+Borel–Moore section $\alpha:A_E\to\omega_E$ the integral is the sum of the
 local terms:
 
 $$
-\int_E\langle u,v\rangle_{\mathrm{LV}}
-=\sum_{\beta\in B}\LT_\beta(u,v).
+\int_E\alpha=\sum_{\beta\in B}\LT_\beta(\alpha).
 $$
+
+In particular, for the intersection support of an opposite pair,
+$\int_E\langle u,v\rangle_{\mathrm{LV}}=\sum_{\beta\in B}\LT_\beta(u,v)$.
 
 ## Proof
 
@@ -77,5 +79,3 @@ For $s$, its structure map and the inclusion of its sole component
 are identities. Both integration adjunction maps are identities,
 so the normalization of [sk-p-pairing] also gives
 $\LT_s(w)=\tr_A(w)$ for a perfect complex.
-
-Uses: [sk-d-corr], [sk-d-integral], [sk-d-local-term], [sk-d-pairing], [sk-p-pairing], [sk-thm-sf-package]

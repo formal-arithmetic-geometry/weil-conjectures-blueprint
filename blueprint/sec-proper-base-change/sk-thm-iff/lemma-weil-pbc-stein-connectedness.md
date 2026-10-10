@@ -5,28 +5,6 @@ title = "Stein connectedness for $\\mathbf P^1_A$"
 order = 1077
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "def-weil-pbc-stein-factorization", "def-weil-pbc-strict-henselian-setup", "lem-weil-pbc-closed-immersion-products", "lemma-weil-pbc-spectral-restriction"]
 +++
-Every irreducible closed subset of $X$ meets $X_0$ in a connected nonempty
-set. Consequently $\Gamma(X,F)\xrightarrow{\sim}\Gamma(X_0,F_0)$ for every
-Zariski sheaf $F$.
-
-## Proof
-
-Fix an irreducible closed subset and give it the reduced closed-subscheme
-structure $C\subseteq X$. The map $C\to S$ is proper. Its Stein
-factorization gives $C\xrightarrow{u}\operatorname{Spec}B \xrightarrow{v}S$, with $A\to B$ integral and $u$ having geometrically
-connected fibres. Since $(A,\mathfrak m)$ is henselian,
-$(B,\mathfrak mB)$ is a henselian pair. The image
-$D=v(\operatorname{Spec}B)$ is irreducible and closed because $C\to S$ is
-proper. Henselian connectedness makes $D\cap V(\mathfrak m)$ connected and
-nonempty. The map
-$C\cap X_0\to D\cap V(\mathfrak m)$ is closed and surjective with connected
-fibres, so the closed-surjection connected-fibre criterion makes
-$C\cap X_0$ connected. This expands Tag
-`0A0B`; the final equality of sections is Lemma
-[lemma-weil-pbc-spectral-restriction].
-
-## Detailed form
-
 Let $(A,I)$ be henselian [def-weil-pbc-henselian-terminology] and let
 $p:Y\to\operatorname{Spec}A$ be proper
 [def-weil-pbc-scheme-conventions]. In the Stein factorization
@@ -40,18 +18,6 @@ $A\to B$ is finite and $(B,IB)$ is henselian. Every irreducible closed subset
 of $Y$ meets $Y_0$ in a nonempty connected subset. Therefore the Zariski
 restriction criterion of [lemma-weil-pbc-spectral-restriction] applies to
 $(Y,Y_0)$.
-
-**Status.** This statement is a conditional assembly: its two classical
-inputs are named and isolated in the interface
-[thm-weil-pbc-stein-inputs], and everything else is proved here. Proved in
-this blueprint: (a) given that $A\to B$ is finite, the pair $(B,IB)$ is
-henselian; (b) $Y$ is spectral and $Y_0$ is closed in $Y$; (c) hence the
-Zariski restriction criterion applies to $(Y,Y_0)$. Outsourced to
-[thm-weil-pbc-stein-inputs]: (i) the finiteness of $A\to B$ for an arbitrary
-affine henselian base; (ii) the connectedness input; (iii) the Zariski
-comparison for the constructible sheaf occurring in the degree-zero argument,
-which the locally constant form [lemma-weil-pbc-spectral-restriction] does not
-supply.
 
 ## Proof
 
@@ -91,3 +57,17 @@ We repeat the warning of input (iii) of [thm-weil-pbc-stein-inputs]: that
 criterion is available for *locally constant* sheaves only, and the
 constructible sheaf to which the degree-zero argument applies it is not known
 to be locally constant.
+
+Fix an irreducible closed subset and give it the reduced closed-subscheme
+structure $C\subseteq X$. The map $C\to S$ is proper. Its Stein
+factorization gives $C\xrightarrow{u}\operatorname{Spec}B \xrightarrow{v}S$, with $A\to B$ integral and $u$ having geometrically
+connected fibres. Since $(A,\mathfrak m)$ is henselian,
+$(B,\mathfrak mB)$ is a henselian pair. The image
+$D=v(\operatorname{Spec}B)$ is irreducible and closed because $C\to S$ is
+proper. Henselian connectedness makes $D\cap V(\mathfrak m)$ connected and
+nonempty. The map
+$C\cap X_0\to D\cap V(\mathfrak m)$ is closed and surjective with connected
+fibres, so the closed-surjection connected-fibre criterion makes
+$C\cap X_0$ connected. This expands Tag
+`0A0B`; the final equality of sections is Lemma
+[lemma-weil-pbc-spectral-restriction].

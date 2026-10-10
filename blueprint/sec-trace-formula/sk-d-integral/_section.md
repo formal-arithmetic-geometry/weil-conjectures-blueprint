@@ -10,13 +10,12 @@ lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.borelMoorePushforward"]
 
 A Borel–Moore section on a geometric scheme $T$ is
 $\alpha:A_T\to\omega_T$ in the derived category.
-For proper $h:T\to T'$, define $h_*\alpha$ by
+For proper $h:T\to T'$ over $s$, define $h_*\alpha$ by
 
 $$
-A_{T'}\longrightarrow Rh_*A_T\xrightarrow{Rh_*\alpha}Rh_*\omega_T
+A_{T'}\longrightarrow Rh_*h^*A_{T'}\simeq Rh_*A_T\xrightarrow{Rh_*\alpha}Rh_*\omega_T
 \simeq Rh_!h^!\omega_{T'}\xrightarrow{\varepsilon_h^!}\omega_{T'}.
 $$
 
-If $T$ is proper over $s$, set $\int_T\alpha=(a_T)_*\alpha\in A$.
-
-Uses: [sk-d-setup], [sk-d-six]
+If $T$ is proper over $s$, set $\int_T\alpha=(a_T)_*\alpha$, read through the
+normalization $\omega_s\simeq A_s$ as an element of $\operatorname{End}(A_s)=A$.

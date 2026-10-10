@@ -5,8 +5,8 @@ title = "Weil equivariance of purity and trace"
 order = 2238
 uses = ["def-coefficient-twists-detailed", "def-pur-compact-support-transport", "def-pur-conventions", "def-pur-scheme-geometric-frobenius", "def-pur-smooth-pullback-exchange", "def-pur-smooth-trace", "def-pur-tate-datum", "def-sbc-smooth-morphisms", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-adic-reconstruction", "thm-pur-smooth-base-change-coherence"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
-geometric-Frobenius datum,
+In the purity conventions of this chapter ([def-pur-conventions]), fix the
+geometric-Frobenius datum of [def-pur-scheme-geometric-frobenius],
 and let $f:X\to Y$ be smooth of relative dimension $d$ with strict
 Weil datum $(K,\varphi_K)$ as in [def-pur-tate-datum]. Then smooth
 purity is equivariant: the square

@@ -14,7 +14,6 @@ After restriction to a nonempty open of $S$, the reduced closed
 complement $Z$ of
 $\bigcup_{\alpha,r}t_{\alpha r}^{-1}(V_{\alpha r})$
 is finite over $S$.
-The notation refers to scheme conventions.
 
 ## Proof
 

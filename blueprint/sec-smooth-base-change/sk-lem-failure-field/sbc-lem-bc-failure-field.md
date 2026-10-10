@@ -28,7 +28,6 @@ $$
 
 is not an isomorphism. If $S$ is separated, then moreover
 $S'\to S$ is an affine morphism.
-(*Stacks Project, Lemma 59.88.6, [Tag `0F07`](https://stacks.math.columbia.edu/tag/0F07).*)
 
 ## Proof
 

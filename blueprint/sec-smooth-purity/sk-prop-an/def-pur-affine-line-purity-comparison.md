@@ -30,5 +30,3 @@ $$
 
 using the compact-support projection map
 and Tate twists.
-Thus $\gamma_{p,K}:Lp^*K(1)[2]\to Rp^!K$ is defined in the ambient
-category; its isomorphy and bounded constructibility are conclusions.

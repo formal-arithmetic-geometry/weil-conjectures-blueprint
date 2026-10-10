@@ -4,11 +4,11 @@ kind = "definition"
 title = "Nonexceptional irreducible lisse sheaf (constituent form)"
 order = 2752
 uses = ["def-fd-artin-schreier-sheaf", "def-wf-fundamental-representation", "rem-dl-a1-conventions"]
-lean = ["AlgebraicGeometry.WeilSheaf.IsNonexceptional"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsNonexceptional"]
 +++
 In the conventions of [rem-dl-a1-conventions], let
 $j:U_0\hookrightarrow A_0=\mathbf A^1_{k_0}$ be a dense open immersion
-and let $\mathcal M$ be a nonzero irreducible lisse Weil sheaf on
+and let $\mathcal M$ be a lisse Weil sheaf on
 $U_0$, with geometric fundamental representation
 $\rho_{\mathrm{geom}}:\pi_1(U,\bar\eta)\to\operatorname{GL}(V)$,
 $V=\mathcal M_{\bar\eta}$, as in

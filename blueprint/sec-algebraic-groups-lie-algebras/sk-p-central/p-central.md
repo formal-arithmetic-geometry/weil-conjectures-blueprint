@@ -7,11 +7,15 @@ tags = ["latex:proposition"]
 uses = ["d-central", "d-monodromy", "lem-ag-closure-commutators", "lem-wf-algebraic-component-cosets", "p-product"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair"]
 +++
-Every semisimple represented degree datum ([d-monodromy])
+Every semisimple represented degree datum ([d-monodromy]) over an
+algebraically closed field $k$ of characteristic zero
 admits a positive central pair ([d-central]) $(N,z)$, that is $N>0$ and
-$z\in Z(G)\cap HF^N$.
+$z\in Z(G)(k)\cap H(k)F^N$.
 
 ## Proof
+
+The hypothesis that $k$ is algebraically closed of characteristic zero
+is used through [lem-wf-algebraic-component-cosets] and [p-product].
 
 The finite component group from [lem-wf-algebraic-component-cosets]
 supplies $m>0$ with $F^m\in G^\circ$. By [p-product], factor $F^m=ch$ with

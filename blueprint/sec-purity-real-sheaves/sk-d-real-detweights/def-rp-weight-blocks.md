@@ -32,6 +32,10 @@ N_\gamma=\sum_{\dw_\iota(V_a)>\gamma}r_a,\qquad
 B_\gamma=\sum_{\dw_\iota(V_a)>\gamma}r_a\,\dw_\iota(V_a).
 $$
 
+These notions do not depend on the choices made.
+
+## Proof
+
 These notions do not depend on the choices made. By
 [lem-mg-jordan-holder] the factors $V_a$ are determined up to
 permutation, isomorphism and multiplicity by $\mathcal F_0$; for a

@@ -39,9 +39,6 @@ Weil datum, $H^0(K)=\Oe/\varpi_E$ while $H^0(K^\vee)=0$ and
 $H^1(K^\vee)=\Oe/\varpi_E$; the degreewise form of the duality is not
 perfect there ([sk-thm-sf-identification]), the missing information being
 carried by an $\operatorname{Ext}^1$ term.
-(Blueprint 15, thm:pod-equivariance-of-the-twisted-pairing,
-cor:pod-untwisted-similitude,
-cor:pod-reciprocal-eigenvalues.)
 
 ## Proof
 
@@ -51,8 +48,7 @@ $\Gamma_c$-realization, both of which are lifted to Weil complexes by the
 functoriality built into [sk-def-weil]; the evaluation is a morphism of
 Weil objects; and the orientation of [sk-def-sf-orientation] is
 Frobenius-equivariant, by the Weil equivariance of purity and trace
-(thm:pur-weil-equivariance-of-purity-and-trace, whose target datum on
-the coefficient ring is the canonical one).
+(whose target datum on the coefficient ring is the canonical one).
 *Step 2 (the pairing is a morphism of Weil objects).* Composing, the
 triple $\bigl(\RGammac(X,K),\RGamma(X,K^\vee(d))[2d],\Lambda\bigr)$ carries
 the Weil data $\varphi_{c,K}$, $\varphi_{K^\vee(d)}$ and the canonical
@@ -95,8 +91,4 @@ statement shows that (b) genuinely fails there; the derived equivariance of
 Step 2 is all that survives at that stage. (The conjugacy alone holds
 whenever the degreewise pairing is perfect, e.g. over $\AEn$ for proper
 $X$ by [sk-thm-sf-identification], since $\Phi$ is then an
-isomorphism of $\Lambda$-modules.) No step uses properness. These are
-thm:pod-equivariance-of-the-twisted-pairing,
-cor:pod-untwisted-similitude and cor:pod-reciprocal-eigenvalues.
-
-Uses: [sk-def-pairing], [sk-def-sf-orientation], [sk-def-weil], [sk-thm-derived-duality]
+isomorphism of $\Lambda$-modules.) No step uses properness.

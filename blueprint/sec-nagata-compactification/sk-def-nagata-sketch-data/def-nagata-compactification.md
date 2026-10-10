@@ -12,5 +12,5 @@ $$
 X\xrightarrow{j}\overline X\xrightarrow{p}S,
 $$
 
-and an equality $j;p=f$, such that $j$ is a quasi-compact open immersion and
+and an equality $j;p=f$, such that $j$ is an open immersion and
 $p$ is proper.

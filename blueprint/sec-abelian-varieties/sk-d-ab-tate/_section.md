@@ -25,6 +25,3 @@ $\ell^d(\ell^ct-\ell^bu)=0$ for some $d\ge0$.
 An automorphism $s$ of $M$ acts coordinatewise and on fractions, and
 $(V_\ell M)^s$ denotes its fixed submodule. For
 an abelian variety, write $T_\ell A,V_\ell A$.
-def:ab-torsion;def:ab-adic-scalars;def:ab-localization;def:ab-tate-module
-
-Uses: [sk-d-ab-field]

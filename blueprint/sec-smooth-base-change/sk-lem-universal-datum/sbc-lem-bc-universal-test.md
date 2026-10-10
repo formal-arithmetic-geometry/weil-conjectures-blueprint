@@ -27,7 +27,6 @@ field of $S'$),
 
 and there exists an integer $d\mid n$ such that
 $R^qh_*(\mathbf Z/d\mathbf Z)$ is nonzero.
-(*Stacks Project, Lemma 59.88.7, [Tag `0F08`](https://stacks.math.columbia.edu/tag/0F08).*)
 
 ## Proof
 

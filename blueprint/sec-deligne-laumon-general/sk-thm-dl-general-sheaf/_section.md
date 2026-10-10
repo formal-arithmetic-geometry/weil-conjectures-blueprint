@@ -8,9 +8,11 @@ uses = ["sk-d-dl-general-weights", "sk-i-topology", "sk-l-dl-general-composition
 +++
 *Theorem (sketch).*
 
-For a separated finite-type morphism $f_0:X_0\to Y_0$ and a
-constructible Weil sheaf $F_0$ mixed of weights at most $w$,
-$R^rf_{0!}F_0$ is mixed of weights at most $w+r$ for every $r$.
+Let $f_0:X_0\to Y_0$ be a separated finite-type morphism of
+$k_0$-schemes, with $Y_0$ separated of finite type over $k_0$. For every
+constructible Weil sheaf $F_0$ on $X_0$ that is $\iota$-mixed of weights
+at most $w$, $R^rf_{0!}F_0$ is $\iota$-mixed of weights at most $w+r$
+for every $r\ge0$.
 
 ## Proof
 
@@ -33,5 +35,3 @@ over a dense open factors through a finite map and successive
 affine-line projections. The quasi-finite and composition lemmas apply
 to this factorization. The complements have smaller support and are
 restored by [sk-l-dl-general-excision]. This proves the sheaf assertion.
-
-Uses: [sk-d-dl-general-weights], [sk-l-dl-general-composition], [sk-l-dl-general-excision], [sk-l-dl-general-normalization], [sk-l-dl-general-quasifinite], [sk-p-dl-general-relative-line]

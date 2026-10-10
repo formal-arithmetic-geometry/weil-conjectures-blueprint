@@ -45,11 +45,4 @@ $$
 the restriction $\mathcal F|_{\overline X\times_YV}$ being the pullback
 along the projection $\overline X\times_YV\to\overline X$, which is again
 of étale origin on the base-changed source by
-[lem-sf-fullcd-class-restriction]. The two displayed clauses are the
-two clauses of [def-weil-full-cohomological-dimension] with the
-quantifier over *all* sheaves of $A$-modules replaced by the
-quantifier over this class, and nothing else is changed: in particular
-$\operatorname{FullCD}(p,A;c)$ implies
-$\operatorname{FullCD}_{\mathrm{cls}}(p,A;c)$ for every $c$, the class
-being a class of sheaves. The class-restricted datum is the form
-the blueprint uses, and it is the form referred to as the class form below.
+[lem-sf-fullcd-class-restriction].

@@ -21,5 +21,3 @@ to [thm-pur-diagonal-dualizing-object] and
 The coherence of this chosen orientation is the later conclusion
 [thm-pur-smooth-base-change-coherence]; it is not an input to
 affine-line purity or orientation-free exceptional base change.
-This dependency order does not infer any theorem from a package
-summary or certify the separate proofs of the optional Thom route.

@@ -22,7 +22,7 @@ as $\varpi^n$ divides $\ell^n$; the sheaf
 $\mu_{\ell^N}\otimes_{\Z/\ell^N}A=\Z_\ell(1)\otimes_{\Z_\ell}A$ does not depend
 on the choice, and when $e=e(E/\mathbf Q_\ell)$ divides $n$ the choice
 $N=n/e$ makes $A=\mathcal O_E/\ell^N\cong(\Z/\ell^N)^{ef}$ free over
-$\Z/\ell^N$, lem:pur-finite-kummer-level), and the
+$\Z/\ell^N$), and the
 *Kummer class of $t$* is
 
 $$

@@ -29,25 +29,20 @@ dual of [def-trf-dualizing-complex] with
 [thm-trf-dualizing-complex-composition] and
 [thm-trf-verdier-biduality], and the internal-Hom/pullback and
 fixed-square base changes ([thm-trf-internal-hom-pullback],
-[thm-trf-fixed-point-base-change]); the naive single-leg
-identification is explicitly rejected in the preceding discussion,
-and only the displayed valid exchanges are used;
+[thm-trf-fixed-point-base-change]); only the displayed valid
+exchanges are used, not a naive single-leg identification;
 1. the trace class, integration, and local terms
 ([def-trf-trace-class], [def-trf-integration],
 [def-trf-local-term]) built on the fixed-point evaluation
-[thm-trf-verdier-duality], whose external-duality construction is
-proved in this chapter from the Kunneth–Verdier chain, and the
-etale-pullback, additivity and localization statements are now
-theorems of this chapter; no retired
-diagram labels are used. The proper-pushforward compatibility is
-discharged by [thm-trf-trace-proper-compatibility]; the precise
-inventory of what remains is [rem-trf-verdier-decomposition];
-1. the trace-compatibility interfaces: the proper-pushforward
-compatibility is proved as [thm-trf-trace-proper-compatibility]
-(so the former interface [lem-trf-proper-pushforward-trace-class]
-is retired), and the etale-pullback compatibility
+[thm-trf-verdier-duality], whose external-duality construction
+comes from the Kunneth–Verdier chain; see also
+[rem-trf-verdier-decomposition];
+1. the trace-compatibility statements: the proper-pushforward
+compatibility [thm-trf-trace-proper-compatibility]
+(with its special case [lem-trf-proper-pushforward-trace-class]),
+the etale-pullback compatibility
 *Etale pullback compatibility of trace maps* and the additivity
-[prop-trf-trace-class-additivity] are proved; then the
+[prop-trf-trace-class-additivity]; then the
 fixed-point localization
 [thm-trf-fixed-point-localization] and the assembly
 [thm-trf-lefschetz-verdier] of the comparison; the fixed scheme of a
@@ -71,55 +66,3 @@ integral model with non-invertible Frobenius coefficient morphisms
 ([prop-trf-adic-coefficient-morphism-systems]) and the integral
 coefficient-morphism trace formula
 [thm-trf-integral-adic-coefficient-morphism-trace-formula].
-
-The chapter has no imported geometric input any more. The four
-statements that were carried as classical inputs are now theorems of this
-manuscript, each with its classical source recorded as provenance:
-
-1. the exceptional pullback isomorphism for an étale morphism is
-proved as *Exceptional pullback along an etale morphism* from the smooth purity
-of the manuscript's smooth-purity chapter
-([def-pur-smooth-purity-map], [thm-pur-cohomological-smoothness])
-and the composition laws of the six-operations package;
-1. the additivity of the Verdier trace class along distinguished
-triangles [lem-trf-trace-triangle-compatibility] is proved by
-reducing it to the point normalization of the supported pairing
-([prop-trf-pairing-point-normalization] of the trace-formula chapter) and the
-triangle additivity of the categorical trace
-([prop-trf-trace-formal-laws]); its classical source is SGA 5,
-Exposé III, 4.2 and
-[Varshavsky, Section 5](https://arxiv.org/pdf/math/0505564);
-1. the deformation-to-the-normal-cone reduction
-*Normal-cone reduction for the trace* is proved from the
-deformation invariance and the dualizing-object identification of the
-smooth-purity chapter of this manuscript
-([thm-pur-dnc-invariance], [thm-pur-diagonal-dualizing-object])
-together with the normal-cone evaluation and the contracting computation
-(*Normal-cone evaluation of the trace map*,
-*Trace map of a contracting correspondence*); its classical source is SGA 5,
-Exposé III, 4.3–4.4 and Varshavsky 2.1.1;
-1. the normal-cone evaluation of the trace map of a contracting
-correspondence *Normal-cone evaluation of the trace map* is proved
-from the contracting reduction *Contracting local model at an isolated fixed point*, the
-point normalization [prop-trf-pairing-point-normalization], the Thom
-and affine-line normalizations of the smooth-purity chapter
-([thm-pur-rank-one-thom],
-*Trace normalization of the affine-line purity*,
-[lem-pur-lisse-uniqueness]) and the dualizing composition
-[thm-trf-dualizing-complex-composition]; its classical source is
-Varshavsky, Theorem 2.1.2 with SGA 5, Exposé III, 4.3–4.4.
-
-Everything else is proved in this chapter or quoted from the trace-formula chapter
-(the six-functor package, Verdier biduality, and the base-change and
-projection rules). In particular the proper-pushforward trace
-identity is [thm-trf-trace-proper-compatibility], the étale
-pullback identity is *Etale pullback compatibility of trace maps*, the
-additivity is [prop-trf-trace-class-additivity], the fixed-point
-localization is [thm-trf-fixed-point-localization], the
-comparison is [thm-trf-lefschetz-verdier], and the four
-coefficient-level trace formulas are
-[thm-trf-grothendieck-lefschetz-finite-ring],
-[thm-trf-integral-adic-coefficient-morphism-trace-formula],
-[thm-trf-trace-formula-e],
-[thm-trf-grothendieck-lefschetz-qbar] with the corollary
-[cor-trf-point-counting].

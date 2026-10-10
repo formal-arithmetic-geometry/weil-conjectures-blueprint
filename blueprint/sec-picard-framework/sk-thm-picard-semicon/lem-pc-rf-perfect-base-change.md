@@ -33,5 +33,4 @@ $\mathcal{O}_X$-module of finite presentation, flat over $S$. Then
 $Rf_*\mathcal{G}$ is a perfect object of $D(\mathcal{O}_S)$ and its
 formation commutes with arbitrary base change.'', which is this lemma;
 its proof is the cohomology-and-base-change theorem of the same section
-(Lemma 36.30.1, Tag [0A1H](https://stacks.math.columbia.edu/tag/0A1H)),
-not decomposed here.
+(Lemma 36.30.1, Tag [0A1H](https://stacks.math.columbia.edu/tag/0A1H)).

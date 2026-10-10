@@ -23,4 +23,3 @@ $$
 
 The first isomorphism is the proper projection formula of
 [lem-amb-proper-coproducts-projection].
-The notation refers to the proved projective-line decomposition, and Tate twists.

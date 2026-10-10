@@ -7,57 +7,99 @@ lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteDegree_center_le_b
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "def-nagata-relative-proj", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-dense-flat-pullback", "lemma-nagata-extended-ideal-affine-chart", "lemma-nagata-finite-type-ideal-extension-exists", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "lemma-nagata-relative-proj-exists", "prop-nagata-affine-blowup-chart", "prop-nagata-affine-blowup-chart-cover", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded", "thm-nagata-global-blowup-complement", "thm-nagata-global-blowup-proper"]
 +++
 Let $\mathcal I$ be a finite type quasi-coherent ideal on a qcqs scheme
-$X$, put $\mathcal A=\bigoplus_{n\geq0}\mathcal I^n$, and let
-$b\colon X'=\operatorname{Proj}_X(\mathcal A)\to X$ be the structure map.
-For every finite-presentation
-closed immersion $Z'\hookrightarrow X'$ there exist $d>0$ and a finite type
-submodule $\mathcal F\subseteq\mathcal I^d$ such that
+$X$, let $b\colon X'=\operatorname{Bl}_{\mathcal I}(X)\to X$ be its blow-up
+with exceptional ideal $\mathcal I_E=\mathcal I\mathcal O_{X'}$, and let
+$\mathcal I_{Z'}\subseteq\mathcal O_{X'}$ be a finite type quasi-coherent
+ideal, defining a finite-presentation closed immersion
+$Z'\hookrightarrow X'$. Then there exist $d>0$ and a finite type
+quasi-coherent ideal $\mathcal F\subseteq\mathcal I^d$ on $X$ such that
 
 $$
-Z'=\operatorname{Proj}_X(\mathcal A/\mathcal F\mathcal A)
+\mathcal F\mathcal O_{X'}=\mathcal I_E^d\,\mathcal I_{Z'}.
 $$
-
-and the support of $\mathcal I^d/\mathcal F$ is contained in the union of
-$V(\mathcal I)$ and the underlying topological image $b(|Z'|)$ in $X$.
 
 ## Proof
 
-Identify $X'$ with the global blow-up obtained by gluing the same affine
-Rees-algebra Proj charts; under this identification $b$ is
-$b_{X,\mathcal I}$. Thus the properness and complement results cited below
-apply to $b$.
-Put $Z=V(\mathcal I)$, $S=b(|Z'|)$, and
-$U=X\setminus(Z\cup S)$. Properness of $b$ makes $S$ closed. Moreover
-$X\setminus Z$ is quasi-compact because $\mathcal I$ is of finite type,
-and $b^{-1}(X\setminus Z)\to X\setminus Z$ is an isomorphism. Under this
-isomorphism, $U$ corresponds to the complement of the finite-presentation
-closed subscheme $Z'$ in $b^{-1}(X\setminus Z)$; that complement is
-quasi-compact. Thus $U$ is a quasi-compact open disjoint from $b(|Z'|)$.
+**Step 0: the maximal candidate.** Since $\mathcal I$ is of finite type,
+$b$ is proper ([thm-nagata-global-blowup-proper]), in particular
+quasi-compact and separated, so direct images along $b$ of quasi-coherent
+modules are quasi-coherent. For $d\geq1$ let
+$\mathcal H_d\subseteq\mathcal O_X$ be the intersection of $\mathcal I^d$
+with the inverse image of $b_*(\mathcal I_E^d\mathcal I_{Z'})$ under
+$\mathcal O_X\to b_*\mathcal O_{X'}$; it is a quasi-coherent ideal, and its
+sections over $V$ are the $m\in\mathcal I^d(V)$ whose image in
+$\mathcal O_{X'}(b^{-1}(V))$ lies in $\mathcal I_E^d\mathcal I_{Z'}$. By
+adjunction every ideal $\mathcal F\subseteq\mathcal H_d$ satisfies
+$\mathcal F\mathcal O_{X'}\subseteq\mathcal I_E^d\mathcal I_{Z'}$ and
+$\mathcal F\subseteq\mathcal I^d$.
 
-Let $\mathcal H\subseteq\mathcal O_{X'}$ be the finite-type
-quasi-coherent ideal defining $Z'$. On an affine chart
-$D_+(a)\simeq\operatorname{Spec}(A[\mathcal I/a])$, choose finitely many
-generators of $\mathcal H$ and clear their powers of $a$. After increasing
-the common exponent, every generator is represented by a homogeneous
-numerator in one degree. Taking a finite affine cover of $X$ and of the
-finitely many standard charts, and then a common degree $d>0$, gives a
-finite collection of homogeneous elements in $\mathcal I^d$.
+**Step 1: charts.** Choose a finite affine cover $V_1,\ldots,V_r$ of $X$,
+$V_k=\operatorname{Spec}(A_k)$, and a finite generating set $s_k$ of
+$I_k=\mathcal I(V_k)$. By [prop-nagata-global-blowup-cover-independent],
+$b^{-1}(V_k)=\operatorname{Bl}_{I_k}(\operatorname{Spec}A_k)$, which is
+covered by the finitely many charts
+$D_+(at)\cong\operatorname{Spec}(A_k[I_k/a])$, $a\in s_k$
+([prop-nagata-affine-blowup-chart-cover],
+[prop-nagata-affine-blowup-chart]). On the $a$-chart the exceptional
+ideal is $(a)$ ([lemma-nagata-extended-ideal-affine-chart],
+[lemma-nagata-chart-extended-ideal-principal]), and since $\mathcal I_{Z'}$
+is of finite type its sections there form a finitely generated ideal of
+$A_k[I_k/a]$; choose finitely many generators, each written as a fraction
+$g/a^e$ with $g\in I_k^e$.
 
-More invariantly, let $M_d$ be the quasi-coherent submodule of
-$\mathcal I^d$ consisting of sections whose induced section of
-$\mathcal O_{X'}(d)$ lies in $\mathcal H(d)$. The preceding chart
-calculation says that, for $d$ sufficiently large, the image of $M_d$ in
-$\mathcal H(d)$ generates $\mathcal H(d)$; hence the homogeneous ideal
-generated by $M_d$ has Proj equal to $Z'$. Because $U$ is quasi-compact,
-choose finitely many affine opens covering it and finitely many local
-generators of $\mathcal I^d|_U=M_d|_U$. Apply the general finite-type
-submodule-extension result of
-[lemma-nagata-finite-type-ideal-extension-exists] to the finite-type
-submodule of $M_d|_U$ generated by these sections, and enlarge the resulting
-finite-type submodule $\mathcal F\subseteq M_d$ by the finitely many cleared
-homogeneous equations above. Consequently
-$\mathcal F\mathcal A$ cuts out $Z'$ on every standard chart, while
-$\mathcal F|_U=\mathcal I^d|_U$. (On overlaps the descriptions agree after
-localizing at the chart generator; the localization cocycle makes these
-equalities descend.) The latter equality gives
-$\operatorname{Supp}(\mathcal I^d/\mathcal F)\subseteq V(\mathcal I)\cup b(|Z'|)$ and completes the construction.
+**Step 2: uniform numerators.** Fix $k$, a chart $a\in s_k$ and a chosen
+generator $\mu=g/a^e$ on it. For another chart $c\in s_k$, the element
+$g/c^e$ of $A_k[I_k/c]$ becomes $(a/c)^e\mu$ after inverting $a/c$, i.e. on
+the overlap of the two charts, so its image there lies in the extension of
+$\mathcal I_{Z'}(D_+(ct))$; clearing the denominator, $(a/c)^N g/c^e$ lies
+in $\mathcal I_{Z'}(D_+(ct))$ for all large $N$. Choose $N$ working for all
+$c\in s_k$. For every $j\geq N$ put $m=a^jg\in I_k^{d}$ with $d=j+e$. Then
+$m/a^d=\mu$ on the $a$-chart, and $m/c^d=(a/c)^j\,g/c^e$ lies in
+$\mathcal I_{Z'}(D_+(ct))$ for every $c\in s_k$. As there are finitely many
+$k$, charts and generators, there is one $d\geq1$ for which every chosen
+generator $\mu$ on every chart of every $V_k$ is of the form $m/a^d$ with a
+numerator $m\in I_k^d$ satisfying $m/c^d\in\mathcal I_{Z'}(D_+(ct))$ for
+all $c\in s_k$. Let $M_k\subseteq I_k^d$ be the finite set of these
+numerators for $V_k$.
+
+**Step 3: the numerators lie in $\mathcal H_d$.** For $m\in M_k$ and
+$c\in s_k$, on the $c$-chart $m=c^d\cdot(m/c^d)\in(c)^d\,\mathcal I_{Z'}=
+\mathcal I_E^d\mathcal I_{Z'}$. The charts cover $b^{-1}(V_k)$, so
+$m\in\mathcal H_d(V_k)$.
+
+**Step 4: a finite type ideal through the numerators.** Let
+$F_k^0\subseteq\mathcal H_d(V_k)$ be the ideal generated by $M_k$, and let
+$j_k\colon V_k\hookrightarrow X$ (quasi-compact, as $X$ is
+quasi-separated). The intersection of $\mathcal H_d$ with the inverse image
+of $j_{k*}\widetilde{F_k^0}$ is a quasi-coherent ideal on $X$ contained in
+$\mathcal H_d$ whose restriction to $V_k$ is the finite type ideal
+$\widetilde{F_k^0}$. By the second assertion of
+[lemma-nagata-finite-type-ideal-extension-exists] it contains a finite
+type quasi-coherent ideal $\mathcal F_k$ with
+$\mathcal F_k|_{V_k}=\widetilde{F_k^0}$. Put
+$\mathcal F=\mathcal F_1+\cdots+\mathcal F_r$, a finite type quasi-coherent
+ideal contained in $\mathcal H_d\subseteq\mathcal I^d$.
+
+**Step 5: the equality.** By Step 0,
+$\mathcal F\mathcal O_{X'}\subseteq\mathcal I_E^d\mathcal I_{Z'}$.
+Conversely, on the $a$-chart of $V_k$ the ideal
+$\mathcal I_E^d\mathcal I_{Z'}$ is $a^d\,\mathcal I_{Z'}(D_+(at))$,
+generated by the elements $a^d\mu=a^d(m/a^d)=m$ with $m\in M_k\subseteq
+\mathcal F(V_k)$; hence it is contained in $\mathcal F\mathcal O_{X'}$ there.
+The charts cover $X'$, so
+$\mathcal F\mathcal O_{X'}=\mathcal I_E^d\mathcal I_{Z'}$.
+
+**Consequences.** Such a pair also satisfies
+$|V(\mathcal F)|=|V(\mathcal I)|\cup b(|Z'|)$: from
+$\mathcal F\subseteq\mathcal I^d$ we get $V(\mathcal I)\subseteq V(\mathcal F)$;
+from the equality, $b^{-1}(V(\mathcal F))=b^{-1}(V(\mathcal I))\cup|Z'|$, so
+$b(|Z'|)\subseteq V(\mathcal F)$; and if $x\in V(\mathcal F)\setminus V(\mathcal I)$,
+then $b$ is an isomorphism over $X\setminus V(\mathcal I)$
+([thm-nagata-global-blowup-complement]) and the point over $x$ lies in
+$b^{-1}(V(\mathcal F))\setminus b^{-1}(V(\mathcal I))\subseteq|Z'|$, so
+$x\in b(|Z'|)$. In particular the support of $\mathcal I^d/\mathcal F$ is
+contained in $V(\mathcal I)\cup b(|Z'|)$. Finally, with
+$\mathcal A=\bigoplus_{n\geq0}\mathcal I^n$ and $X'=\operatorname{Proj}_X(\mathcal A)$,
+the equality says that on each chart $D_+(at)$ the ideal of $Z'$ is
+generated by the fractions $f/a^d$, $f\in\mathcal F$, i.e.
+$Z'=\operatorname{Proj}_X(\mathcal A/\mathcal F\mathcal A)$.

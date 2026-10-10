@@ -42,5 +42,3 @@ of the derived algebra inside the center, which is zero, so the quotient is
 perfect. Lift an expression of each quotient class as a
 sum of brackets; the difference from these lifted brackets lies in
 $Z(L)$. This proves the sum formula, including the zero-dimensional case.
-
-Uses: [sk-d-lie]

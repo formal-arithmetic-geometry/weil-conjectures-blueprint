@@ -23,14 +23,6 @@ cartesian, where $S'$ is
 affine, integral, and normal with algebraically closed function field
 $K$, and an integer $d\mid n$ such that
 $R^qh_*(\underline{\mathbf Z/d\mathbf Z})$ is nonzero.
-(*Source:* Stacks Project,
-[Tag
-`0F1D`](https://stacks.math.columbia.edu/tag/0F1D).) In the Stacks Project the proof uses Lemma 59.88.7,
-[Tag `0F08`](https://stacks.math.columbia.edu/tag/0F08)
-(the witness diagram produced by a failure of $BC(f,n,q)$) and Lemma
-59.90.2, [Tag
-`0F0B`](https://stacks.math.columbia.edu/tag/0F0B) (the total direct image of $\mathbf Z/d\mathbf Z$ along
-the extension of the function field is again $\mathbf Z/d\mathbf Z$).
 
 ## Proof
 

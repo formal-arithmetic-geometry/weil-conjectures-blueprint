@@ -6,8 +6,6 @@ order = 815
 uses = ["def-pc-pic-sigma-functor", "def-pc-picard-functor", "def-pc-subfunctor", "lem-pc-k-sheaf", "lem-pc-pic-exact"]
 lean = ["AlgebraicGeometry.injective_pic_map_snd", "AlgebraicGeometry.pic_map_sectionBaseChange_snd", "AlgebraicGeometry.bijective_toPicardFunctor_picardFunctorNormalized", "AlgebraicGeometry.bijective_pic_split"]
 +++
-(Picard Schemes of Curves, Lemma 44.4.3, Tag
-[0B9N](https://stacks.math.columbia.edu/tag/0B9N).)
 Let $f:X\to S$ be a morphism of schemes as in
 Definition [def-pc-picard-functor].
 Assume $f$ has a section $\sigma$ and that

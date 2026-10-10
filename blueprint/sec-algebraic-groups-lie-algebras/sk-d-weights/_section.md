@@ -26,5 +26,3 @@ For a composition series, constituent weights
 mean the weights of its simple quotients. For a chosen simple
 decomposition $V=\bigoplus_j V_j$, the rank-counted list repeats
 $\dw_\lambda(V_j)$ exactly $\dim V_j$ times.
-
-Uses: [sk-d-linear], [sk-d-monodromy]

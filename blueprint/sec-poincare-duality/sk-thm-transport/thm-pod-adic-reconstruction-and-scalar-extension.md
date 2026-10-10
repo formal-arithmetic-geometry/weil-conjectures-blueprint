@@ -11,13 +11,13 @@ let $K$ be a derived-complete
 site-perfect $\mathcal O_E$-complex whose reductions
 $K_n=K\otimes^L A_{E,n}$ form a normalized system with common
 constructible and finite-Tor bounds. Assume the admissible structure
-morphism and coefficient conventions used for the Poincare pairing. The finite-level pairings $\beta _{K_n}$ of Definition 9.17 form a morphism of normalized systems in the sense of Definition 2.148 (by Theorem 9.33), and they induce the $\mathcal O_E$-valued derived Poincare pairing
+morphism and coefficient conventions used for the Poincare pairing. The finite-level pairings $\beta _{K_n}$ of [def-pod-derived-poincare-pairing] form a morphism of normalized systems (by [thm-pod-finite-reduction]), and they induce the $\mathcal O_E$-valued derived Poincare pairing
 
 $$
 R\Gamma _c(X,K)\otimes ^L_{\mathcal O_E}R\Gamma \bigl(X,K^\vee (d)\bigr)[2d] \longrightarrow \mathcal O_E,
 $$
 
-perfect in the sense of the uniform-tower reconstruction of Lemma 2.156: the inverse of its adjoint is the canonical isomorphism
+perfect in the sense of the uniform-tower reconstruction of [lem-weil-pbc-reconstruction-uniform-tower]: the inverse of its adjoint is the canonical isomorphism
 
 $$
 R\Gamma _c(X,K)^\vee \xrightarrow {\  \sim \  } R\Gamma \bigl(X,K^\vee (d)\bigr)[2d]

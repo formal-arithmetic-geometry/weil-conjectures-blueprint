@@ -14,7 +14,7 @@ then $H^j(M)=0$ for $j\neq i$ and $H^i(M)\cong E$.
 ## Proof
 
 By definition of the shift, $H^j(\mathcal{N}[0])$ is the $j$-th cohomology of
-the complex with $\mathcal{N}$ in degree $0$, i.e. $0$ for $j e0$ and $H^0$ is
+the complex with $\mathcal{N}$ in degree $0$, i.e. $0$ for $j\ne0$ and $H^0$ is
 $\mathcal{N}$; cohomology is invariant under quasi-isomorphism, and
 $M\cong\mathcal{N}[0]$ is an isomorphism in $D(\mathcal{O}_X)$, which means that the
 two complexes are connected by a zig-zag of quasi-isomorphisms (that

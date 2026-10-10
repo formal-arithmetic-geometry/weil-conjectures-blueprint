@@ -20,5 +20,7 @@ $$
  Lg'^*Lf^*Rf_*\xrightarrow{Lg'^*\varepsilon_f}Lg'^*,
 $$
 
-using the derived operations on ringed pro-etale topoi. It is defined before
-any completeness or constructibility condition.
+using the derived operations on ringed pro-etale topoi.
+
+The transformation is defined before, and independently of, any completeness
+or constructibility condition.

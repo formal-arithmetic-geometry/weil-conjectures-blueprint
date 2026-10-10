@@ -4,21 +4,17 @@ kind = "definition"
 title = "Normalized real envelope"
 order = 2764
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.realEnvelope"]
 +++
-Let $\mathcal F$ be a lisse Weil sheaf punctually $\iota$-pure of
-weight $w$ on a separated finite-type $k_0$-scheme, and fix
-$\iota:\Qlb\xrightarrow{\sim}\mathbf C$ as in
-[def-weil-punctual-weights]. Using $\iota$, define
+Let $\mathcal F$ be a Weil sheaf on a $k_0$-scheme and let
+$b\in\Qlb^\times$. Put
 
 $$
-b=\iota^{-1}\bigl(q^{-w/2}\bigr)\in\Qlb^\times,
-\qquad
 \mathcal F^0=\mathcal F\otimes\mathcal B_b,
 $$
 
-(where $\mathcal B_b$ is the
-constant Weil twist of
-[def-wf-constant-weil-twist]), and put
+where $\mathcal B_b$ is the constant Weil twist of
+[def-wf-constant-weil-twist], and
 
 $$
 \operatorname{Env}_\iota(\mathcal F;b)=\mathcal F^0\oplus
@@ -26,4 +22,7 @@ $$
 $$
 
 This direct sum is the *normalized real envelope* associated with
-$b$.
+$b$. It is intended for $\mathcal F$ lisse and punctually $\iota$-pure of
+weight $w$ ([def-weil-punctual-weights]) and $|\iota(b)|=q^{-w/2}$, for
+instance $b=\iota^{-1}(q^{-w/2})$ for the fixed isomorphism
+$\iota:\Qlb\xrightarrow{\sim}\mathbf C$.

@@ -4,18 +4,22 @@ kind = "section"
 title = "Group–Lie comparison"
 order = 2496
 uses = ["sk-d-geometry", "sk-d-lie", "sk-d-tangent", "sk-i-cartier", "sk-p-geometry"]
-lean = ["Matrix.GeneralLinearGroup.invariant_iff_differential_invariant", "Matrix.GeneralLinearGroup.lieAlgebra_identityComponent_center"]
+lean = ["AlgebraicGeometry.GeneralLinearGroup.invariant_iff_differential_invariant", "AlgebraicGeometry.GeneralLinearGroup.range_lieAlgebraMap_identityComponent_center"]
 +++
 *Proposition (sketch).*
 
-Let $G$ be a connected matrix algebraic group.
-For a rational representation $r:G\to\GL(M)$,
-a subspace $U\subseteq M$ is $G$-invariant if and only if it is
+Let $k$ be algebraically closed of characteristic zero and let $G$ be a
+connected matrix algebraic group over $k$.
+For a rational representation $r:G\to\GL(M)$, $M=k^m$,
+a subspace $U\subseteq M$ is invariant under $G(k)$ if and only if it is
 invariant under $dr(\Lie(G))$. Moreover,
 
 $$
-\Lie\bigl(Z(G)^\circ\bigr)=Z\bigl(\Lie(G)\bigr).
+\Lie\bigl(Z(G)^\circ\bigr)=Z\bigl(\Lie(G)\bigr),
 $$
+
+as subspaces of $\Lie(G)$ via the differential of the inclusion
+$Z(G)^\circ\subseteq G$.
 
 ## Proof
 
@@ -37,5 +41,3 @@ The subspace assertion just proved makes this line $G$-invariant;
 its last coordinate forces $(\operatorname{Ad}(g)x,1)=(x,1)$.
 Finally [sk-i-cartier] identifies the tangent spaces of $Z(G)$ and
 $Z(G)^\circ$.
-
-Uses: [sk-d-geometry], [sk-d-lie], [sk-d-tangent], [sk-i-cartier], [sk-p-geometry]

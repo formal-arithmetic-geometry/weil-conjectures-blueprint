@@ -30,10 +30,6 @@ $$
 Its restriction to $U'$ is the identity, after the pullback
 identifications. These isomorphisms respect identity squares and
 pasting of Cartesian squares.
-(Source for the etale version:
-[Stacks, Tag 03S6](https://stacks.math.columbia.edu/tag/03S6),
-Lemma 59.70.5, the underived statement $j'_!f'^{-1}=f^{-1}j_!$ on
-sheaves; the derived form and the compatibilities are proved below.)
 
 ## Proof
 

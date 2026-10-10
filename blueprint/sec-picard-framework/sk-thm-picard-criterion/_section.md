@@ -8,7 +8,8 @@ lean = ["AlgebraicGeometry.isRepresentable_of_representable_open_subfunctor"]
 *Theorem (sketch).*
 
 Let $G:(\Sch/k)^{\mathrm{op}}\to\mathsf{Groups}$ with: (1) $G$ a
-Zariski sheaf; (2)(a) there is a representable subfunctor
+Zariski sheaf whose values $G(T)$ are small, i.e. lie in the same
+universe as the $k$-schemes $T$; (2)(a) there is a representable subfunctor
 $F\subseteq G$; (2)(b) the inclusion is representable by open
 immersions; (2)(c) *generation*: for every field extension
 $K/k$ and every $g\in G(K)$ there is $g'\in G(k)$ with
@@ -17,8 +18,11 @@ $k$.
 
 ## Proof
 
-$F_i:=g_i^{-1}F$ ($g_i\in G(k)$) are representable, open in $G$, and
-cover $G$ by (2)(c) applied pointwise; the criterion
+$F_i:=g_i^{-1}F$ ($g_i\in G(k)$, a set by the smallness in (1)) are
+representable, open in $G$, and cover $G$ by (2)(c) applied pointwise;
+the criterion (applied to the functor
+$T\mapsto\coprod_{a:T\to\Spec k}G(T,a)$ on all schemes, which is
+represented by a scheme over $k$ exactly when $G$ is)
 [sk-prop-picard-schemes-criterion] gives the representing scheme; the
 group structure is induced by the group-valued structure of $G$
 (Yoneda).

@@ -16,7 +16,8 @@ B_n @>{v'_n}>> D_n
 $$
 
 commutes. Hence reduction of
-$\operatorname{Ex}^{\mathrm{comp}}_{\square,K}$ modulo $I^n$, conjugated
+$\operatorname{Ex}^{\mathrm{comp}}_{\square,K}$ of
+[def-weil-pbc-completed-base-change-map] modulo $I^n$, conjugated
 by the displayed canonical reduction isomorphisms, is exactly the S8
 transported finite-level exchange map $v'_n=\operatorname{Ex}_{\square,K_n}$.
 The squares for $n+1\to n$ commute, and the assertion is natural for
@@ -82,31 +83,6 @@ definition of $\Theta_T$ transports $\Theta_{D,\infty}$ across $t$, and its
 $n$th component is $\delta_n$, giving the second. The completed Frobenius
 equation for $\overline\xi_n$, together with finite-level equivariance of
 $v'_n$, now says that every arrow of the reduction square is a Weil morphism.
-
-## Detailed form
-
-For every $n$, reduction of $\Ex^{\mathrm{comp}}_{\square,K}$ of
-[def-weil-pbc-completed-base-change-map] modulo $I^n$, conjugated by
-the canonical reduction isomorphisms, is exactly
-$$
- \Ex_{\square,K_n}:Lg_n^*Rf_*K_n
- \xrightarrow{\sim}Rf'_*Lg_n'^*K_n.
-$$
-These reduction squares commute with $n+1\to n$ and with compatible
-endomorphisms.
-
-*Source note:* the reduction of the completed pullback is the formula
-$Lf^*_{comp}M=\Rlim Lf^*(M\otimes^L_\Lambda\underline{\Lambda/I^n})$ of
-Stacks Project, Lemma 61.20.2 ([Tag
-099N](https://stacks.math.columbia.edu/tag/099N)), whose $n$-th level is
-$Lf_n^*$ of the $n$-th level; Stacks states the formula for the completed
-pullback of one object of $D(\mathcal C,\Lambda)$, whereas the displayed
-statement reduces the completed base-change exchange map of
-[def-weil-pbc-completed-base-change-map], which the verified entries
-do not construct, and the blueprint adds that reduction together with its
-compatibility with the transitions and with compatible endomorphisms.
-
-## Proof
 
 Tensoring the defining composite of
 [def-weil-pbc-completed-base-change-map] with $P_n$ and using the

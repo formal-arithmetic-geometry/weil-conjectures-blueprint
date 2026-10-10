@@ -5,18 +5,40 @@ title = "Etale cohomology continuity"
 order = 955
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-etale-section-continuity", "lem-weil-pbc-hypercover-refinement", "lemma-weil-pbc-fibre-product-limit", "lemma-weil-pbc-finite-hypercover-descent", "thm-weil-pbc-hypercover-cohomology"]
 +++
-Let $(X_i)$ be a cofiltered inverse system of quasi-compact and
-quasi-separated schemes with affine transition maps and limit $X_\infty$.
-For a torsion sheaf $F_i$ descending to one stage, the natural map
+Let $(X_i)_{i\in I}$ be a cofiltered inverse system of quasi-compact
+quasi-separated schemes [def-weil-pbc-scheme-conventions] with affine
+transition maps and limit $X$. Let $F_i$ be a torsion sheaf
+[def-weil-pbc-etale-sheaves] on $X_i$, and write $F_j$ and $F$ for its
+pullbacks to later stages and to $X$. Then
 
 $$
-\varinjlim_{j\geq i}H^q(X_j,F_j)\longrightarrow
-H^q(X_\infty,F_\infty)
+ \varinjlim_{j\geq i}H^q(X_j,F_j)
+ \xrightarrow{\sim}H^q(X,F)
+ \qquad(q\geq0).
 $$
-
-is an isomorphism.
 
 ## Proof
+
+Let a class in $H^q(X,F)$ be given. By
+[thm-weil-pbc-hypercover-cohomology], it is represented by a cocycle in
+$C^q(U,F)$ on a hypercover finite in each degree. Descend the truncation
+through degree $q+1$ using [lemma-weil-pbc-finite-hypercover-descent]. By
+[lem-weil-pbc-etale-section-continuity], its cocycle descends to a section at
+a later stage, and the equation $\delta z=0$ holds at a further stage. That
+cocycle represents a class in $H^q(X_j,F_j)$. This proves surjectivity of the
+comparison.
+
+For injectivity, represent a stagewise class by a hypercover cocycle, again
+using [thm-weil-pbc-hypercover-cohomology]. If its pullback vanishes on $X$,
+that theorem and [lem-weil-pbc-hypercover-refinement] give a refinement of
+the pulled-back hypercover on which the cocycle is a boundary. Descend the
+truncation of the refinement, its map to the original hypercover, its
+primitive, and the boundary equation, using the same two descent lemmas. The
+class is then zero at a later stage. For degree zero, replace the primitive
+by the assertion that the section is zero; section continuity applies
+directly. All the maps are pullbacks of sections, so the isomorphism is the
+canonical restriction map in the statement and is natural in the sheaf and in
+the inverse system.
 
 We first recall why finite hypercover data compute the required cohomology.
 For an etale hypercover $U_\bullet\to Z$, put
@@ -71,40 +93,3 @@ All constructions commute with restriction and with the transition maps,
 so the resulting bijection is the canonical map in the statement. This
 expands the continuity input of Tag `03Q6`; neither the hypercover nor
 the common finite stage is suppressed.
-
-## Detailed form
-
-Let $(X_i)_{i\in I}$ be a cofiltered inverse system of quasi-compact
-quasi-separated schemes [def-weil-pbc-scheme-conventions] with affine
-transition maps and limit $X$. Let $F_i$ be a torsion sheaf
-[def-weil-pbc-etale-sheaves] on $X_i$, and write $F_j$ and $F$ for its
-pullbacks to later stages and to $X$. Then
-
-$$
- \varinjlim_{j\geq i}H^q(X_j,F_j)
- \xrightarrow{\sim}H^q(X,F)
- \qquad(q\geq0).
-$$
-
-## Proof
-
-Let a class in $H^q(X,F)$ be given. By
-[thm-weil-pbc-hypercover-cohomology], it is represented by a cocycle in
-$C^q(U,F)$ on a hypercover finite in each degree. Descend the truncation
-through degree $q+1$ using [lemma-weil-pbc-finite-hypercover-descent]. By
-[lem-weil-pbc-etale-section-continuity], its cocycle descends to a section at
-a later stage, and the equation $\delta z=0$ holds at a further stage. That
-cocycle represents a class in $H^q(X_j,F_j)$. This proves surjectivity of the
-comparison.
-
-For injectivity, represent a stagewise class by a hypercover cocycle, again
-using [thm-weil-pbc-hypercover-cohomology]. If its pullback vanishes on $X$,
-that theorem and [lem-weil-pbc-hypercover-refinement] give a refinement of
-the pulled-back hypercover on which the cocycle is a boundary. Descend the
-truncation of the refinement, its map to the original hypercover, its
-primitive, and the boundary equation, using the same two descent lemmas. The
-class is then zero at a later stage. For degree zero, replace the primitive
-by the assertion that the section is zero; section continuity applies
-directly. All the maps are pullbacks of sections, so the isomorphism is the
-canonical restriction map in the statement and is natural in the sheaf and in
-the inverse system.

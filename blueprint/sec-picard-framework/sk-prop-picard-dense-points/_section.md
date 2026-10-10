@@ -8,8 +8,7 @@ lean = ["AlgebraicGeometry.Scheme.Hom.denseRange_fieldPoints"]
 +++
 *Proposition (sketch).*
 
-Let $X$ be a smooth scheme over a separably closed field $k$ with
-$X(k)\neq\emptyset$. Then $X(k)$ is Zariski dense in $X$; in
+Let $X$ be a smooth scheme over a separably closed field $k$. Then $X(k)$ is Zariski dense in $X$; in
 particular, for a smooth projective curve $X$ over separably closed
 $k$, the set $X(k)$ is infinite (and, by density, for every
 non-zero global section of a line bundle on $X_K$, $K=k$ or a
@@ -42,8 +41,7 @@ $K/k$ of a separably closed field is trivial: it is simple,
 $K=k[\alpha]$, and the minimal polynomial of $\alpha$ is irreducible and
 separable, hence has a root in $k$, hence is linear. So the points of
 Step 1 satisfy $\kappa(x)=k$, i.e. they are $k$-rational, and $X(k)$ is
-dense. In particular $X(k)\ne\emptyset$ as soon as $X\ne\emptyset$, so
-that hypothesis of the statement is automatic.
+dense. In particular $X(k)\ne\emptyset$ as soon as $X\ne\emptyset$.
 
 *Step 3 (a curve has infinitely many rational points).* On a
 smooth projective curve a finite set of closed points is not dense, $X$
@@ -59,9 +57,3 @@ $s$ at the generic point is nonzero, $X_K$ being integral, so the zero
 scheme $Z(s)$ is a proper closed subset of a one-dimensional Noetherian
 scheme and hence a finite set of closed points. By Step 3 there is an
 $x\in X(k)$ with $x_K\notin Z(s)$, i.e. $s$ does not vanish at $x_K$.
-
-Steps 1–2 are Blueprint 50, `lem-pc-rational-points-dense`,
-resting on `lem-pc-dense-separable-points` (Stacks, Varieties,
-Lemma 33.25.6, [`056U`](https://stacks.math.columbia.edu/tag/056U)) and
-`lem-pc-sepclosed-finite-sep-trivial`; Steps 3–4 are Step 3 of
-`lem-pc-twist` there.

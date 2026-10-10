@@ -76,5 +76,3 @@ divisibility of $J_{\overline C}(k)$ ([sk-thm-av-final](d)) to
 correct $y$ by an element of $J_{\overline C}[n](k')= J_{\overline C}[n](k)$ ([sk-thm-av-final](c)). The five lemma
 gives the isomorphism in degree $1$. For $q\ge2$ both sides vanish
 by [sk-prop-cd-affine].
-
-Uses: [sk-def-curve], [sk-def-kummer], [sk-def-pic], [sk-prop-cd-affine], [sk-prop-jacobian], [sk-prop-kummer-exact], [sk-thm-av-final], [sk-thm-curveestimate]

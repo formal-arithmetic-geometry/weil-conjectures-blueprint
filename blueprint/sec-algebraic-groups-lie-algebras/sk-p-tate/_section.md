@@ -31,5 +31,3 @@ All $t_n$ lie in the finite group $A^\sigma$, whose $\ell$-primary
 subgroup is killed by a uniform $\ell^e$. Compatibility then gives
 $t_n=\ell^et_{n+e}=0$. Finally an automorphism and its inverse have the
 same fixed vectors, so the assertion holds for $F$.
-
-Uses: [sk-d-ab-field], [sk-d-ab-tate]

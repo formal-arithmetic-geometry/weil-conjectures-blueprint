@@ -12,3 +12,13 @@ $C_{S'}$ to be
 $$
 X\times_SS'\longrightarrow\overline X\times_SS'\longrightarrow S'.
 $$
+
+More generally, if $u\colon X'\to S'$ is the base change of $f$ along
+$S'\to S$ (a cartesian square with top map $h\colon X'\to X$), define the
+base-changed factorization of $u$ to be
+
+$$
+X'\longrightarrow\overline X\times_SS'\longrightarrow S',
+$$
+
+whose first map is induced by $X'\xrightarrow{h}X\to\overline X$ and $u$.

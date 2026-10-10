@@ -17,20 +17,15 @@ $$
 in which each $\mathcal E_i$ is a finite direct sum of modules
 $\mathcal O(d)$, $d\in\mathbf Z$, with the convention of
 [def-sc-p1-standard].
-(*Source: the graded Hilbert syzygy theorem – the polynomial
-ring $S=k[x_0,x_1]$ has graded global dimension two, so every
-finitely generated graded $S$-module has a graded free resolution
-of length at most two – combined with the description of coherent
-modules on $\operatorname{Proj}S$ as $\widetilde M$ for finitely
-generated graded $S$-modules; homological algebra; classical, EGA
-II, $\S$2, and Hartshorne, *Algebraic Geometry*, II.5.*)
 
 ## Proof
 
-By the description quoted in the statement (classical: the
-coherent module $\mathcal G$ is $\widetilde M$ for a finitely
-generated graded module $M$ over $S=k[x_0,x_1]$), the graded
-Hilbert syzygy theorem quoted in the statement gives a graded free
+By the description of coherent modules on $\operatorname{Proj}S$
+(classical: the coherent module $\mathcal G$ is $\widetilde M$ for a
+finitely generated graded module $M$ over $S=k[x_0,x_1]$), and the
+graded Hilbert syzygy theorem (the polynomial ring $S$ has graded global
+dimension two, so every finitely generated graded $S$-module has a graded
+free resolution of length at most two), there is a graded free
 resolution
 
 $$

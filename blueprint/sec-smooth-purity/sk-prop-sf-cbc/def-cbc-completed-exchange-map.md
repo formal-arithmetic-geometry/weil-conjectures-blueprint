@@ -20,5 +20,4 @@ as the composite of the completed proper-base-change exchange map of
 [thm-weil-pbc-complete-proetale] applied to $p$ and
 $j_!K$, with the completed extension-by-zero comparison
 $Lg'^*_{\mathrm{comp}}j_!K\xrightarrow{\sim}j'_!Lg'^*_{\mathrm{comp}}K$
-of [lem-cbc-completed-extension-zero-comparison]; this is the
-coefficient-level form of the map of [def-cbc-exchange-map].
+of [lem-cbc-completed-extension-zero-comparison].

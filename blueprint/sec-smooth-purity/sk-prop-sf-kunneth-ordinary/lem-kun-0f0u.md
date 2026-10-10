@@ -19,18 +19,6 @@ $$
 of $X'$ as an inverse limit of affine schemes $X_i$ of finite type over
 $L$ with affine transition morphisms and
 $\kundim X_i<\kundim X$ for every $i$.
-(*Source:* the case of Stacks Project,
-[Tag `0F0U`](https://stacks.math.columbia.edu/tag/0F0U) that is
-used in this chapter, namely the presentation of the strict henselization as a
-limit of smaller-dimensional finite type models. In the Stacks Project the
-proof uses Noether normalization, Algebra, Lemma 10.115.5,
-[Tag `00OZ`](https://stacks.math.columbia.edu/tag/00OZ)
-(available in this manuscript as thm:zl-relative-noether), a linear
-change of coordinates putting the image of $x$ at the generic point of the
-linear subspace, the description of the strict henselization as the filtered
-colimit of the pointed etale neighbourhoods
-([def-weil-pbc-strict-henselization-limit]), and the dimension bound for
-an algebra which is quasi-finite over a polynomial ring.)
 
 ## Proof
 

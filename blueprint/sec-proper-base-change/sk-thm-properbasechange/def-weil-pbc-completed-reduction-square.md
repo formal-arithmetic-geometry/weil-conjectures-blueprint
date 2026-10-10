@@ -41,7 +41,3 @@ $$
 \operatorname{Ex}^{\mathrm{comp}}_{\square,K}\otimes^L1_{P_n}:
 S\otimes^LP_n\longrightarrow T\otimes^LP_n.
 $$
-
-Thus every arrow in the completed reduction square is named, typed, and
-expressed as an ordered composite of reduction, direct-image, projection-
-formula, or base-change maps.

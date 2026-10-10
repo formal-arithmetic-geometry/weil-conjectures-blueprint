@@ -16,7 +16,6 @@ a^{-1}j_!F\xrightarrow{\ \sim\ }j'_!a_U^{-1}F
 $$
 
 for every sheaf $F$ on $U_{\Et}$, and the same holds for complexes.
-(*Stacks Project, Etale Cohomology, Lemma 59.70.5, [Tag `03S6`](https://stacks.math.columbia.edu/tag/03S6).*)
 
 ## Proof
 

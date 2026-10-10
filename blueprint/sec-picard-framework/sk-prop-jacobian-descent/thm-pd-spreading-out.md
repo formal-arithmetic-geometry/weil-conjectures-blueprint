@@ -21,9 +21,6 @@ morphisms $\psi_i,\chi_i:V_i\to W_i$ whose base changes to $S$ agree,
 there is $i'\geq i$ with
 $\psi_i\times_{S_i}S_{i'}=\chi_i\times_{S_i}S_{i'}$.
 
-This is Stacks Project, Limits of Schemes, Lemma 32.10.1, Tag
-[01ZM](https://stacks.math.columbia.edu/tag/01ZM).
-
 ## Proof
 
 This is Stacks Project, Limits of Schemes, Lemma 32.10.1, Tag

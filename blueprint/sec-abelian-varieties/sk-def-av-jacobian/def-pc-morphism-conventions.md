@@ -5,8 +5,7 @@ title = "Morphism-theoretic conventions from file 02"
 order = 450
 uses = ["def-pc-projective-morphism", "def-pc-scheme", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties"]
 +++
-All morphism-theoretic notions used below are the ones already introduced
-in file 02: *quasi-compact*, *quasi-separated*,
+All morphism-theoretic notions used below are the standard ones: *quasi-compact*, *quasi-separated*,
 *separated*, *locally of finite type* and *of finite
 type*, *locally of finite presentation* and *of finite
 presentation*, *surjective*, *open immersion*,

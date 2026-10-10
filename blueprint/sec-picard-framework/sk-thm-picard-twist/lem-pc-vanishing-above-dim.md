@@ -14,9 +14,6 @@ $$
 H^i(X,\mathcal{F})=0\qquad\text{for all }i\ge2 .
 $$
 
-(EGA III$_1$, (3.2.1): cohomology of a Noetherian scheme of
-dimension $d$ vanishes above $d$; here $d=1$.)
-
 ## Proof
 
 *Step 1: the point $P$ and the first affine open.* The curve $X$

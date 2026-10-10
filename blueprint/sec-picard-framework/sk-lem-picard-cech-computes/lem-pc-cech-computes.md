@@ -4,14 +4,16 @@ kind = "lemma"
 title = "The Cech complex computes cohomology"
 order = 610
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-vanishing", "lem-sc-cech-spectral"]
-lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_cechComplex_homology_iso_H"]
+lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_cechComplex_linearEquiv_H"]
 +++
 Let $X$ be a scheme and let $\mathcal U:X=\bigcup_{i\in I}U_i$ be an
-open covering such that all $U_{i_0\dots i_p}$ are affine. Then for any
-quasi-coherent $\mathcal{O}_X$-module $\mathcal{F}$:
+open covering such that all finite intersections $U_{i_0\dots i_p}$ are
+affine. Then for any quasi-coherent $\mathcal{O}_X$-module $\mathcal{F}$
+there is, for every $p\ge0$, an isomorphism of
+$\Gamma(X,\mathcal O_X)$-modules
 
 $$
-\check H^p(\mathcal U,\mathcal{F})=H^p(X,\mathcal{F})\qquad\text{for all }p\ge0 .
+\check H^p(\mathcal U,\mathcal{F})\cong H^p(X,\mathcal{F}).
 $$
 
 ## Proof
@@ -28,7 +30,11 @@ $\underline H^q(\mathcal{F})(U_J)=H^q(U_J,\mathcal{F}|_{U_J})=0$ by
 spectral sequence degenerates at $E_2$, and the filtration of
 $H^n(X,\mathcal{F})$ has only the nonzero piece
 $E_\infty^{n,0}\cong\operatorname{gr}^n H^n(X,\mathcal F)$: thus
-$\check H^p(\mathcal U,\mathcal{F})=H^p(X,\mathcal{F})$ for all $p$. (This is the
+$\check H^p(\mathcal U,\mathcal{F})=H^p(X,\mathcal{F})$ for all $p$. This
+identification is $\Gamma(X,\mathcal O_X)$-linear: an element
+$a\in\Gamma(X,\mathcal O_X)$ acts on both sides through the endomorphism
+$a\cdot\colon\mathcal F\to\mathcal F$, and the spectral sequence is natural
+in $\mathcal F$. (This is the
 argument of Stacks Project, Cohomology of Schemes, Lemma 30.2.6, Tag
 [01XD](https://stacks.math.columbia.edu/tag/01XD); its two
 ingredients, Cech acyclicity of injective sheaves and the spectral

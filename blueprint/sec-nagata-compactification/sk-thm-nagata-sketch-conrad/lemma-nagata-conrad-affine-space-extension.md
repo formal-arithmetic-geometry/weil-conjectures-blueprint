@@ -20,8 +20,7 @@ $$
 \widetilde X\times_X\mathbb A^n_X
 $$
 
-is closed. That is, $(W,\widetilde f)$ is a quasi-domination of
-$\widetilde X$ over $\mathbb A^n_X$ extending $f$.
+is closed.
 
 No density hypothesis on $U$ is needed here; when $U$ is dense in $X$, the
 open $W$ is automatically dense in $\widetilde X$ by
@@ -86,6 +85,4 @@ For the last sentence: $\mathbb P^n_X\to X$ is separated, so the graph
 $\Gamma_{\widetilde f}\subseteq\widetilde X\times_X\mathbb P^n_X$ is closed.
 Taking $W=\widetilde f^{-1}(\mathbb A^n_X)$, which is an open subscheme of
 $\widetilde X$ containing the inverse image of $U$, the intersection
-$\Gamma_{\widetilde f|_W}=\Gamma_{\widetilde f}\cap(\widetilde X\times_X \mathbb A^n_X)$ is closed in $\widetilde X\times_X\mathbb A^n_X$, which is
-the quasi-domination condition of
-[def-nagata-conrad-quasi-domination].
+$\Gamma_{\widetilde f|_W}=\Gamma_{\widetilde f}\cap(\widetilde X\times_X \mathbb A^n_X)$ is closed in $\widetilde X\times_X\mathbb A^n_X$, as required.

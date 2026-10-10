@@ -12,9 +12,8 @@ $\rho:W(X_0)\to\operatorname{GL}(V)$ be the representation of a lisse
 Weil sheaf, with the monodromy data of [def-wf-monodromy-data], computed
 with one fixed degree-one element $s$, and let
 $z=(h,m)\in G^{[m]}(\Qlb)$ be an algebraic-monodromy element of positive
-degree $m$ which is central in $G_{\mathrm{arith}}(\rho)$ (an element
-furnished by [lem-mg-common-positive-central-element] when $\rho$ is
-semisimple). Let $Q\neq0$ be a Weil-stable subquotient of $V$, or more
+degree $m$ which is central in $G_{\mathrm{arith}}(\rho)$ (such an
+element exists when $\rho$ is semisimple). Let $Q\neq0$ be a Weil-stable subquotient of $V$, or more
 generally any of the tensor, exterior-power or iterated-subquotient
 constructions of [lem-mg-degree-component-functoriality], of rank $r$,
 with Weil representation $\rho_Q$, with finite geometric determinant,

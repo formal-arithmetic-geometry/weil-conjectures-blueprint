@@ -14,8 +14,6 @@ H^q(C_{\Et},\mathbf Z/d\mathbf Z)=0\qquad(q>1)
 $$
 
 with $H^0(C_{\Et},\mathbf Z/d\mathbf Z)=\mathbf Z/d\mathbf Z$.
-(*the Jacobian chapter, [thm-sc-affine-cohomology]; Stacks Project,
-Theorem 59.83.10, [Tag `03SC`](https://stacks.math.columbia.edu/tag/03SC), (2).*)
 
 ## Proof
 

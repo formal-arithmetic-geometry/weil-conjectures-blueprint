@@ -29,5 +29,3 @@ satisfies $|\iota(\beta)|=q^{i/2}$. Hence every reciprocal root
 $\alpha=\beta$ has $|\iota(\alpha)|=q^{i/2}$ (whereas the ordinary roots
 have $|\iota(\beta^{-1})|=q^{-i/2}$; for $H^{2}(\mathbf P^{1})$ the two
 values are $q$ and $q^{-1}$).
-
-Uses: [sk-def-cohfamily], [sk-def-roots], [sk-input-weights]

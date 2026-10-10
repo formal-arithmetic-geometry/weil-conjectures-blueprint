@@ -8,9 +8,11 @@ lean = ["AlgebraicGeometry.ProEtale.relativeFrobenius"]
 +++
 *Definition (sketch).*
 
-For a map $f_0:X_0\to Y_0$ of
-finite-type separated schemes over $\mathbf F_q$,
-write $f:X\to Y$ for its geometric base change and put
+Let $f:X\to Y$ be a morphism of schemes and let $\Phi_{X,m}:X\to X$,
+$\Phi_{Y,m}:Y\to Y$ be endomorphisms with $\Phi_{Y,m}f=f\Phi_{X,m}$. The case of
+interest is a map $f_0:X_0\to Y_0$ of
+finite-type separated schemes over $\mathbf F_q$, with $f:X\to Y$ its geometric
+base change and $\Phi_{X,m}$, $\Phi_{Y,m}$ the Frobenius maps. Put
 
 $$
 X'_m=Y\times_{\Phi_{Y,m},Y,f}X,
@@ -18,7 +20,4 @@ X'_m=Y\times_{\Phi_{Y,m},Y,f}X,
 \quad r_m=(f,\Phi_{X,m}):X\to X'_m.
 $$
 
-Here the maps $\Phi$ are the Frobenius maps;
-$p_mr_m=\Phi_{X,m}$ and $f'_mr_m=f$.
-
-Uses: [sk-d-setup], [sk-d-weil]
+Then $p_mr_m=\Phi_{X,m}$ and $f'_mr_m=f$.

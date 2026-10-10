@@ -18,8 +18,7 @@ $$
 \pr_1^{-1}E\kunotimes{\kunZn}\pr_2^{-1}K\bigr)
 $$
 
-is an isomorphism. (*Source:* Stacks Project, Tag
-[0F1P](https://stacks.math.columbia.edu/tag/0F1P).)
+is an isomorphism.
 
 ## Proof
 

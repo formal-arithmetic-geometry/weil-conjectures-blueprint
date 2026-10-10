@@ -110,9 +110,7 @@ P^n_{Y'}$ are a proper surjection and a closed immersion, and the identity
 $f\circ\pi=p\circ i$ of morphisms over $Y$ base changes to the corresponding
 identity over $Y'$. $\square$
 
-## Remark
-
-The proof never descends $X$ itself: when $f$ is not of finite presentation
+**Remark.** The proof never descends $X$ itself: when $f$ is not of finite presentation
 no descent $X=X_0\times_{Y_0}Y$ need exist. Only the separated finitely presented
 envelope $X^{\mathrm{fp}}$ is descended, Chow's lemma is applied to its
 noetherian model, which is merely separated of finite type, and properness of

@@ -16,8 +16,6 @@ $$
 
 such that $g$ is $e$ followed by the projection
 $p_d:\mathbf A^d_Y\to Y$ of [def-sbc-affine-space].
-(*Stacks Project, Morphisms, [Tag `054L`](https://stacks.math.columbia.edu/tag/054L) = Lemma
-29.37.21.*)
 
 ## Proof
 

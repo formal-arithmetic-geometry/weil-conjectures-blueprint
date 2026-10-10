@@ -33,8 +33,7 @@ Rf^!\Lambda_Y$ of [def-sf-orientation] and
 $\mathbb D_{X/Y}K=R\mathcal Hom_X(K,Rf^!\Lambda_Y)$, the composite of
 $R\mathcal Hom_X(K,\gamma_f^{-1})$ with the twist interchange is a natural
 isomorphism $\mathbb D_{X/Y}K\xrightarrow{\sim}K^\vee(d)[2d]$ for perfect
-$K$, with the same biduality statement; the absolute case is $f=a_X$. The
-proof below uses nothing about the base beyond the orientation.
+$K$, with the same biduality statement; the absolute case is $f=a_X$.
 
 ## Proof
 

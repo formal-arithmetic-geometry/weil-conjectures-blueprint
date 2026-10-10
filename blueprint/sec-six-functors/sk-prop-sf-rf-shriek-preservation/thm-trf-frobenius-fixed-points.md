@@ -177,5 +177,3 @@ diagonal $\{(v,v)\}$ intersect in $0$ (transversality), and the
 Beilinson-type multiplicity datum
 $\det(1-d\Phi^m)=1\neq0$ is the same conclusion: the graph meets the
 diagonal transversally with local multiplicity one, as asserted.
-
-*Recorded in advance* from chapter *The trace formula* of the source.

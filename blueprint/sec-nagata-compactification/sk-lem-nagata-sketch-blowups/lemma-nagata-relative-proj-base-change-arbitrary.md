@@ -5,12 +5,6 @@ title = "Relative Proj base change for an arbitrary morphism"
 order = 107
 uses = ["lemma-nagata-proj-chart-ring-cocycle", "prop-nagata-relative-proj-functoriality"]
 +++
-**Status.** Bypassed by the formalized route: no separate relative-Proj
-primitive was formalized. The blow-up is glued from the affine Proj charts
-(`AlgebraicGeometry.Proj.basicOpenIsoSpec`,
-`AlgebraicGeometry.Proj.iSup_basicOpen_eq_top`) with
-`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`.
-
 For any morphism $g\colon Y\to X$ and graded quasi-coherent algebra
 $\mathcal A$ on $X$, coefficientwise pullback gives a canonical isomorphism
 

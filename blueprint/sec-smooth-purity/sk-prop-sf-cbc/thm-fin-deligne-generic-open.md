@@ -19,7 +19,6 @@ Rj_{U,*}F|_{X_U}\big|_{Y_T}
 $$
 
 is an isomorphism.
-The notation refers to ordinary derived categories.
 
 ## Proof
 

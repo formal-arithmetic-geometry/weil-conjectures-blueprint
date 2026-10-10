@@ -92,4 +92,4 @@ formulated in it use compact supports $R\Gamma_c$ against ordinary
 cohomology $R\Gamma$ and never compare the two. Properness is imposed
 explicitly, and only, in the statements that need
 $Ra_{X!}\cong Ra_{X*}$ (the untwisted trace on $H^{2d}$, the trace–cup
-pairing on ordinary cohomology, and proper Poincare duality).
+pairing on ordinary cohomology, and proper Poincaré duality).

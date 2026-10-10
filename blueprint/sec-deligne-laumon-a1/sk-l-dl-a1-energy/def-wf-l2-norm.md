@@ -20,7 +20,7 @@ $$
 
 (the square of the $L^2$-norm of the trace function of the
 Frobenius of the $k_m$-basis). The *$L^2$-weight parameter*
-of $\mathcal F$ (the $\|\cdot\|$ of the Ch. I route) is
+of $\mathcal F$ is
 
 $$
 \|\mathcal F\|\;:=\;\sup\Bigl\{\beta\in\mathbf R:\

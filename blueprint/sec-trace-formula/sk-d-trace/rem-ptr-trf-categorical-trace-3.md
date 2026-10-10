@@ -5,7 +5,7 @@ title = "Pointer to the properties of [def-trf-categorical-trace]"
 order = 2274
 uses = ["def-trf-categorical-trace", "lem-trf-finite-tor-amplitude-perfect"]
 +++
-In the notation of [def-trf-categorical-trace], the following holds. The
+In the notation of [def-trf-categorical-trace], the
 finite-coefficient
 categories over a point of the trace-formula chapter are the bounded
 complexes with finite cohomology modules; that the two descriptions

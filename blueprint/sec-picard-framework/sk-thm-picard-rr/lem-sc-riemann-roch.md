@@ -35,8 +35,6 @@ $$
 \chi(C,\mathcal L)=\deg\mathcal L+1-g.
 $$
 
-(*Stacks Project, Algebraic Curves, Lemma 53.5.2,
-[Tag 0BS6](https://stacks.math.columbia.edu/tag/0BS6).*)
 In particular $\chi(C,\mathcal O_C)=1-g$.
 
 2. (*Riemann–Roch for coherent modules.*) For every coherent

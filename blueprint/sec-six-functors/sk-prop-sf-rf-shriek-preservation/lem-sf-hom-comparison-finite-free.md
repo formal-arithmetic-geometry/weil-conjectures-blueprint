@@ -23,9 +23,7 @@ $$
 R\mathcal H om_A(\nu_T^*P',\nu_T^*N),
 $$
 
-is an isomorphism. The second variable is required only to be a bounded
-complex with constructible cohomology: no étale finite-Tor hypothesis
-on it is used.
+is an isomorphism.
 
 ## Proof
 

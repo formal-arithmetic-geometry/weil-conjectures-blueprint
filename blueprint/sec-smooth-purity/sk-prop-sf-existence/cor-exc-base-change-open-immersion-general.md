@@ -15,8 +15,7 @@ passage from an affine open of the base to the base, which is what an
 assembly on affine charts requires. On the blueprint's coefficient class
 [def-sf-fullcd-used-class] the ambient datum displayed as the hypothesis
 is the theorem [cor-sf-ambient-adjoint-discharge], so the comparison is
-an isomorphism on that class without hypothesis, and it is on that class that
-the assembly of [thm-pur-general-admissibility] consumes it.
+an isomorphism on that class without hypothesis.
 
 ## Proof
 

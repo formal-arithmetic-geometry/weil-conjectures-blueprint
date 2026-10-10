@@ -52,9 +52,7 @@ and satisfies the cocycle condition for triples of compactifications.
 The comparison is asserted on the domain declared in
 [def-weil-compact-support-candidate]: the complexes of the pro-etale
 site that come from the etale site with an
-etale-origin witness. It is
-not asserted, and not claimed anywhere in the blueprint, on the whole of
-$D(X_{\mathrm{proet}},A)$.
+etale-origin witness.
 
 ## Proof
 

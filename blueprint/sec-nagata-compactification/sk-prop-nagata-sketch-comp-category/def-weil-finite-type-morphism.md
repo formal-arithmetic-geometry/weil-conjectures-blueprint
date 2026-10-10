@@ -10,5 +10,4 @@ affine open cover by $\operatorname{Spec}B$ with $B$ a finitely generated
 $A$-algebra. It is *quasi-compact* if every such preimage is quasi-compact.
 It is *of finite type* if both conditions hold; equivalently, the affine
 cover of each $f^{-1}(V)$ can be chosen finite. For a scheme over a field,
-finite type refers to its structure morphism. See
-[Stacks Project, Section 29.15](https://stacks.math.columbia.edu/tag/01T0).
+finite type refers to its structure morphism.

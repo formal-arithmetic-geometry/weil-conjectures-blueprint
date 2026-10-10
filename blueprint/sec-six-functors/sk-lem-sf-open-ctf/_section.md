@@ -8,14 +8,18 @@ lean = ["AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_rightDerivedLowerSh
 +++
 *Lemma (sketch).*
 
-Let $j:U\hookrightarrow Y$ be an open immersion of finite-type $k$-schemes and
-let $K\in\Dctf(U,\Lambda)$ at a finite coefficient stage. Then
-$j_!K\in\Dctf(Y,\Lambda)$, and its cohomological range and Tor amplitude may be
-taken to be those of $K$.
-Chapter 19, lem:trf-open-ctf: $j_!$ is exact, so
+Let $j:U\hookrightarrow Y$ be an open immersion admitting a compactification,
+let $a\le b$ be integers, and let $K$ be a bounded constructible complex of
+$\Lambda$-modules on $U$ with cohomology concentrated in $[a,b]$ and Tor
+amplitude in $[a,b]$. Then $Rj_!K$ is bounded constructible on $Y$, with
+cohomology concentrated in $[a,b]$ and Tor amplitude in $[a,b]$; in particular
+$j_!$ carries $\Dctf(U,\Lambda)$ into $\Dctf(Y,\Lambda)$ without moving the
+interval.
+
+## Proof
+
+$j_!$ is exact, so
 $\mathcal H^r(j_!K)=j_!\mathcal H^r(K)$ and the range does not grow; a finite
 stratification of $U$ witnessing constructibility, together with the closed
 complement $Y\setminus U$, stratifies $Y$; and the amplitude is tested by
 restricting an arbitrary sheaf on $Y$ to $U$.
-
-Uses: `\Cref{sk-def-sf-operations}`, `lem-trf-open-ctf`

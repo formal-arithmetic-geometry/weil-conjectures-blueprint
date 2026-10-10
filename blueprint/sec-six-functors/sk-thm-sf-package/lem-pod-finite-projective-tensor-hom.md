@@ -5,7 +5,7 @@ title = "Internal Hom with a finite projective module"
 order = 2244
 uses = ["def-pod-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-geometric-hypotheses", "def-weil-pbc-proetale-site"]
 +++
-In the Poincare duality conventions of this chapter (the fixed setting),
+In the Poincare duality conventions of this chapter (the fixed setting), let
 $P$ be a finite projective $\Lambda_X$-module on the
 small pro-etale site of $X$,
 put $P^\vee=\mathcal Hom_X(P,\Lambda_X)$, and let

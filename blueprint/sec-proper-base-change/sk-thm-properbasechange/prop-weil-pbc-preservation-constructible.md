@@ -25,21 +25,6 @@ $$
 The two pullbacks have reduction amplitude $[a,b]$ and the two direct images
 have reduction amplitude contained in $[a,b+c]$.
 
-*Source note:* no Stacks Project entry states this preservation: the
-constructibility of the four outputs is the adic constructibility of
-Definition 61.29.1 ([Tag 09C1](https://stacks.math.columbia.edu/tag/09C1))
-and Proposition 61.29.7 ([Tag
-09C7](https://stacks.math.columbia.edu/tag/09C7)), and the amplitude bounds
-are those of Lemma 59.92.2 ([Tag
-095U](https://stacks.math.columbia.edu/tag/095U)) and Theorem 63.14.5 ([Tag
-0GL0](https://stacks.math.columbia.edu/tag/0GL0)), each stated for a single
-complex on a Noetherian scheme; the closest packaged form is Lemma 61.29.2
-([Tag 09C2](https://stacks.math.columbia.edu/tag/09C2)), which realizes one
-constructible $K$ as $\Rlim K_n$ with a common interval and etale origins
-but says nothing about functors. The blueprint adds the simultaneous
-statement for the completed pullbacks and direct images of
-$\Dbc(X_{\Proet},A)$ whose reductions share the interval $[a,b]$.
-
 ## Proof
 
 By [thm-weil-pbc-amplification-proper] the three conditions

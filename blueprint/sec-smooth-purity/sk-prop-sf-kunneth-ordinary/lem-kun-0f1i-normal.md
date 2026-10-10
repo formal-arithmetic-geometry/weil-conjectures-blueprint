@@ -11,9 +11,7 @@ be an affine, integral and normal $K$-scheme with algebraically
 closed function field $L$, set $X'=X\times_KS'$,
 $Y=X'\times_{S'}\Spec(L)$, and let $h:Y\to X'$ be the projection.
 Then $R^qh_*\underline{\mathbf Z/d\mathbf Z}=0$ for all $q>0$
-and all $d\mid n$. (*Source:* Stacks Project, Tag
-[0F1I](https://stacks.math.columbia.edu/tag/0F1I), final
-reduction.)
+and all $d\mid n$.
 
 ## Proof
 

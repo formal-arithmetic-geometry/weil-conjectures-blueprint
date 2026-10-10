@@ -3,7 +3,7 @@ id = "sk-i-dl-general-real"
 kind = "section"
 title = "Real sheaves on an arbitrary base"
 order = 2829
-lean = ["AlgebraicGeometry.WeilSheaf.IsReal.isMixed"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsReal.isMixed"]
 uses = ["sk-d-dl-general-weights", "sk-d-real-weights", "sk-i-topology", "sk-l-dl-general-quasifinite", "sk-p-real-integral", "sk-p-real-purity", "sk-p-real-rankone", "sk-prop-sf-open-closed-triangle"]
 +++
 *Proposition (sketch).*
@@ -70,5 +70,3 @@ $$
 
 The open term is mixed by extension by zero; the closed term is mixed
 by induction. Splicing their filtrations proves the proposition.
-
-Uses: [sk-d-dl-general-weights], [sk-d-real-weights], [sk-l-dl-general-quasifinite], [sk-p-real-purity], [sk-p-real-rankone], [sk-prop-sf-open-closed-triangle]

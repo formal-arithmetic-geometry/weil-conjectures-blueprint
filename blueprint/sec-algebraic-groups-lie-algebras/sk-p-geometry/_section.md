@@ -4,14 +4,12 @@ kind = "section"
 title = "Algebraic-group geometry"
 order = 2493
 uses = ["sk-d-geometry", "sk-i-cartier", "sk-i-geometry"]
-lean = ["Matrix.GeneralLinearGroup.isPrime_identityComponent", "Matrix.GeneralLinearGroup.normal_zeroLocus_identityComponent", "Matrix.GeneralLinearGroup.finiteIndex_zeroLocus_identityComponent", "Matrix.GeneralLinearGroup.toPrimeSpectrum_mem_connectedComponentIn_iff", "AlgebraicGeometry.isClosed_range_of_isMonHom", "AlgebraicGeometry.isIso_left_of_topologicalKrullDim_eq", "Matrix.GeneralLinearGroup.eq_of_ringKrullDim_eq"]
+lean = ["Matrix.GeneralLinearGroup.isPrime_identityComponent", "Matrix.GeneralLinearGroup.normal_zeroLocus_identityComponent", "Matrix.GeneralLinearGroup.finiteIndex_zeroLocus_identityComponent", "Matrix.GeneralLinearGroup.toPrimeSpectrum_mem_connectedComponentIn_iff", "AlgebraicGeometry.isClosed_range_of_isMonHom", "AlgebraicGeometry.isIso_left_of_topologicalKrullDim_eq"]
 +++
 *Proposition (sketch).*
 
 For matrix algebraic groups over $k$:
 
-0pt
-0pt
 1. $G^\circ$ is a closed, normal, irreducible subgroup, and its
 finitely many cosets are exactly the connected components of $G$.
 1. The image on $k$-points of a regular homomorphism $G\to K$
@@ -33,5 +31,3 @@ Translating $U$ shows that $S$ is open; its other cosets are open too.
 Thus $S$ is closed, and density gives $S=K'$. Finally, for connected
 $G$, irreducibility and strict dimension drop in [sk-i-geometry]
 exclude a proper closed subgroup of equal dimension.
-
-Uses: [sk-d-geometry], [sk-i-cartier], [sk-i-geometry]

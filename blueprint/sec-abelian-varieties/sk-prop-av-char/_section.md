@@ -2,7 +2,7 @@
 id = "sk-prop-av-char"
 kind = "section"
 title = "Abelian varieties are the complete group varieties"
-lean = ["AlgebraicGeometry.IsAbelianScheme.geometricallyIntegral", "AlgebraicGeometry.IsAbelianScheme.irreducibleSpace"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral", "AlgebraicGeometry.IsAbelianVariety.irreducibleSpace"]
 order = 471
 uses = ["sk-def-av", "sk-def-av-group-scheme"]
 +++
@@ -25,5 +25,3 @@ geometrically integral, and the two notions agree. The smoothness
 hypothesis cannot be dropped: for $\operatorname{char}k=p>0$ the
 finite group schemes $\alpha_p=\Spec k[x]/(x^p)$ and
 $\mu_p=\Spec k[x]/(x^p-1)$ are proper and connected but not reduced.
-
-Uses: [sk-def-av-group-scheme], [sk-def-av]

@@ -6,12 +6,15 @@ order = 874
 uses = ["def-sc-curves"]
 lean = ["AlgebraicGeometry.Scheme.kummerSequence"]
 +++
-Let $C$ be a curve over $k$ and let
-$n$ be prime to $\operatorname{char}k$. The
+Let $X$ be a scheme (for instance a curve $C$ over $k$ as in
+[def-sc-curves]) and let $n$ be a natural number. The
 *Kummer sequence* is the sequence of etale sheaves on
-$C_{\Et}$
+$X_{\Et}$
 
 $$
 1\longrightarrow\mu_n\longrightarrow\mathbf G_m
-\xrightarrow{\ t\mapsto t^n\ }\mathbf G_m\longrightarrow1.
+\xrightarrow{\ t\mapsto t^n\ }\mathbf G_m\longrightarrow1,
 $$
+
+where $\mathbf G_m$ is the sheaf of units of the structure sheaf and
+$\mu_n$ is the kernel of $t\mapsto t^n$.

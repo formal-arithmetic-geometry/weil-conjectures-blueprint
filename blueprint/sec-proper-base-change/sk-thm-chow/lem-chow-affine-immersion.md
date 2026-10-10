@@ -7,9 +7,9 @@ lean = ["AlgebraicGeometry.exists_isImmersion_projectiveSpace"]
 uses = ["def-nagata-affine-proj", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-projective-space-base-change", "def-nagata-relative-affine-space", "def-weil-pbc-scheme-conventions", "prop-nagata-proj-standard-open"]
 +++
 Let $S$ be a scheme and let $V$ be an affine scheme equipped with a morphism
-$g\colon V\to S$ that is locally of finite type. Then there are a finite index
-set $n$ and an immersion $j\colon V\to\mathbf P^n_S$ with
-$j$ followed by $\mathbf P^n_S\to S$ equal to $g$. Here the homogeneous
+$g\colon V\to S$ that is locally of finite type. Then there are a finite set
+$n$ and an immersion $j\colon V\to\mathbf P^n_S$ with
+$j$ followed by $\mathbf P^n_S\to S$ equal to $g$, where the homogeneous
 coordinates $T_i$ of $\mathbf P^n_S$ are indexed by the finite set $n$.
 
 ## Proof
@@ -77,29 +77,3 @@ $D(b_\lambda)\to\mathbf A^{\,n\setminus\{\lambda\}}_{W_\lambda}$ is a closed
 immersion, and composing with the open immersion
 $\mathbf A^{\,n\setminus\{\lambda\}}_{W_\lambda}\to \mathbf A^{\,n\setminus\{\lambda\}}_S$ shows that the restriction of $j$ over
 $D_+(T_\lambda)$ is an immersion.
-
-## Detailed form
-
-Let $Y=\operatorname{Spec}A$ be affine and let $U$ be an affine scheme of
-finite type over $Y$, say $U=\operatorname{Spec}B$ with $B$ generated as an
-$A$-algebra by $b_1,\dots,b_m$. Then the $A$-algebra surjection
-$A[x_1,\dots,x_m]\twoheadrightarrow B$, $x_j\mapsto b_j$, defines a closed
-immersion
-
-$$
- U\hookrightarrow\mathbf A^m_Y,
-$$
-
-and composing with the open immersion $\mathbf A^m_Y\hookrightarrow\mathbf
-P^m_Y$ (where $\mathbf A^m_Y=D_+(x_0)\subseteq\mathbf P^m_Y$) gives an
-immersion $j:U\hookrightarrow\mathbf P^m_Y$.
-
-## Proof
-
-The surjection $A[x_1,\dots,x_m]\twoheadrightarrow B$ is a surjective ring
-homomorphism between the coordinate rings of affine schemes, so it induces a
-closed immersion of affine schemes (on affines, closed immersions are exactly
-those induced by surjective ring homomorphisms). The composite with the open
-immersion $\mathbf A^m_Y=D_+(x_0)\hookrightarrow\mathbf P^m_Y$ is an
-immersion, since a composite of an open and a closed immersion is an
-immersion.

@@ -6,98 +6,96 @@ order = 208
 lean = ["AlgebraicGeometry.disjoint_closure_range_of_blowupMap_sup"]
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-blowup-chart-ring", "def-nagata-conrad-disjointness-setup", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-conrad-strict-transform-in-charts", "lemma-nagata-dense-flat-pullback", "lemma-nagata-extended-ideal-affine-chart", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-restrict-open", "prop-nagata-affine-blowup-chart", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded"]
 +++
-In the situation of [def-nagata-conrad-disjointness-setup], the two
-closed subsets
+Let $X$ be a scheme, let $U\subseteq V\subseteq X$ be opens, and let
+$p\colon Z\to X$ and $f\colon Y\to Z$ be morphisms with
+$p(f(Y))\subseteq U$; write $\overline Y$ for the scheme-theoretic image of
+$f$. Let $\mathcal I_1,\mathcal I_2$ be quasi-coherent ideals on $X$ with
+$V\setminus U\subseteq V(\mathcal I_1)$ and
+$V(\mathcal I_2)\cap V=\varnothing$, and suppose
 
 $$
-\overline{Y'},\qquad
+\mathcal I_2\mathcal O_Z\subseteq\mathcal I_1^2\mathcal O_Z+\mathcal I_{\overline Y},
+$$
+
+that is, the closed subscheme $p^{-1}(V(\mathcal I_1^2))\cap\overline Y$ of
+$Z$ factors through $p^{-1}(V(\mathcal I_2))$. Let $q\colon X'\to X$ be the
+blow-up of $X$ along $\mathcal I_1+\mathcal I_2$. Let $Z'$ be a scheme with
+morphisms $r\colon Z'\to Z$ and $p'\colon Z'\to X'$ such that
+$p\circ r=q\circ p'$, and let $Y'$ be a scheme with a morphism
+$f_Y\colon Y'\to Y$ and a quasi-compact morphism $f'\colon Y'\to Z'$ such
+that $r\circ f'=f\circ f_Y$ (for instance the base changes of $Z$ and $Y$
+along $q$). Then the two closed subsets
+
+$$
+\overline{f'(Y')},\qquad
 p'^{-1}\bigl(\overline{q^{-1}(V\setminus U)}\bigr)
 $$
 
-of $Z'$ are disjoint. In words: after the base change by $q$, the closure
-of the image of $Y$ in $Z$ no longer meets the part of $Z$ lying over the
-closure of $V\setminus U$.
+of $Z'$ are disjoint.
 
 ## Proof
 
-Formation of topological closures commutes with restriction to an open
-subspace, and by [lemma-nagata-scheme-image-restrict-open] the same
-holds for scheme-theoretic images of quasi-compact immersions. The
-assertion is therefore local on $X$ and on $Z$, so we may assume
-$X=\operatorname{Spec}(A)$ and $Z=\operatorname{Spec}(B)$. Put
-$I_j=\Gamma(X,\mathcal I_j)$. We construct, locally on $X'$, a function on
-$Z'$ which vanishes on $p'^{-1}(\overline{q^{-1}(V\setminus U)})$ and equals
-$1$ on $\overline{Y'}$.
+Put $\mathcal K=\mathcal I_1+\mathcal I_2$, so $X'=\operatorname{Bl}_{\mathcal K}(X)$.
+Since $V(\mathcal K)\subseteq V(\mathcal I_2)\subseteq X\setminus V\subseteq X\setminus U$,
+the centre does not meet $U$. Suppose, for a contradiction, that a point
+$x\in Z'$ lies in $\overline{f'(Y')}$ and in
+$p'^{-1}\bigl(\overline{q^{-1}(V\setminus U)}\bigr)$. Since $V(\mathcal I_1)$
+is closed and contains $V\setminus U$, we have
+$\overline{q^{-1}(V\setminus U)}\subseteq q^{-1}(V(\mathcal I_1))$, so
+$q(p'(x))\in V(\mathcal I_1)$.
 
-*Step 1: the charts $U(s_2)$, $s_2\in I_2$, cover
-$\overline{q^{-1}(V\setminus U)}$.* The strict transform of $V(\mathcal I_1)$
-is a closed subscheme of $X'$. Since $q$ is an isomorphism over $V$ we have
-$q^{-1}(V\setminus U)\cong V\setminus U$ as topological spaces, and the
-underlying space of $V(\mathcal I_1)$ contains $\overline{V\setminus U}$; so
-$\overline{q^{-1}(V\setminus U)}$ lies inside the strict transform of
-$V(\mathcal I_1)$. By
-[lemma-nagata-conrad-strict-transform-in-charts], applied to the two
-centres $V(\mathcal I_1)$ and $V(\mathcal I_2)$, that strict transform is
-covered by the charts $U(s_2)$ with $s_2\in I_2$.
+*Step 1: the charts at sections of $\mathcal I_1$ miss the boundary.* Choose
+an affine open $W=\operatorname{Spec}(A)$ of $X$ containing $q(p'(x))$, and
+put $I_j=\Gamma(W,\mathcal I_j)$, $K=I_1+I_2$. Over $W$ the blow-up is
+covered by the charts $U(s)=\operatorname{Spec}(A[K/s])$ for $s\in I_1\cup I_2$,
+since these elements generate $K$ ([lemma-nagata-rees-generators-cover-proj]).
+Let $s\in I_1$. On $U(s)$ the extended ideal of $K$ is generated by $s$
+([lemma-nagata-chart-extended-ideal-principal]), and $s\in I_1$, so the
+extended ideals of $I_1$ and of $K$ coincide there. Hence a point of
+$U(s)$ lying over $V(\mathcal I_1)$ lies over
+$V(\mathcal K)\subseteq X\setminus V$; in particular $U(s)$ does not meet
+$q^{-1}(V\setminus U)$, and as $U(s)$ is open it does not meet the closure
+either. Therefore $p'(x)$ lies in a chart $U(s_2)$ with $s_2\in I_2$.
 
-*Step 2: reduction.* By Step 1 the opens $p'^{-1}(U(s_2))$, for
-$s_2\in I_2$, cover $p'^{-1}(\overline{q^{-1}(V\setminus U)})$, and
+*Step 2: an equation on an affine probe.* Choose an affine open
+$\operatorname{Spec}(R)\subseteq Z'$ containing $x$ such that $p'$ maps it
+into $U(s_2)$ and $r$ maps it into an affine open
+$\operatorname{Spec}(B)\subseteq Z$ lying over $W$. Let $\sigma\in R$ be the
+image of $s_2$, let $\mathfrak a_1=I_1R$ (the extended ideal of
+$\mathcal I_1$ on the probe, [lemma-nagata-extended-ideal-affine-chart]),
+and let $\mathfrak n\subseteq R$ be the kernel of
+$R\to\Gamma\bigl(f'^{-1}(\operatorname{Spec}R),\mathcal O_{Y'}\bigr)$.
+Write $\mathfrak m\subseteq B$ for the kernel of
+$B\to\Gamma(f^{-1}(\operatorname{Spec}B),\mathcal O_Y)$, the sections of
+$\mathcal I_{\overline Y}$. Because $r\circ f'=f\circ f_Y$, an element of
+$\mathfrak m$ maps into $\mathfrak n$. The hypothesis
+$\mathcal I_2\mathcal O_Z\subseteq\mathcal I_1^2\mathcal O_Z+\mathcal I_{\overline Y}$
+gives $s_2\in I_1^2B+\mathfrak m$ in $B$, hence
+$\sigma\in\mathfrak a_1^2+\mathfrak n$ in $R$. On $U(s_2)$ every element
+$t$ of $I_1$ equals $s_2\cdot(t/s_2)$ with $t/s_2\in A[K/s_2]$
+([def-nagata-blowup-chart-ring]), so $\mathfrak a_1^2\subseteq\sigma\mathfrak a_1$.
+Thus $\sigma=\sigma h+n$ with $h\in\mathfrak a_1$ and $n\in\mathfrak n$,
+i.e. $\sigma(1-h)\in\mathfrak n$.
 
-$$
-p'^{-1}\bigl(\overline{q^{-1}(V\setminus U)}\bigr)
-\subseteq p'^{-1}\bigl(q^{-1}(T_1)\bigr)
-$$
+*Step 3: $\sigma$ is a unit on $Y'$.* We have
+$q\circ p'\circ f'=p\circ r\circ f'=p\circ f\circ f_Y$, whose image lies in
+$U$; so $f'$ maps into $p'^{-1}(q^{-1}(U))$. Over $q^{-1}(U)$ the extended
+centre $\mathcal K\mathcal O_{X'}$ is the unit ideal, because the centre
+misses $U$, while on $U(s_2)$ it is generated by $s_2$. Hence the image of
+$\sigma$ in $\Gamma\bigl(f'^{-1}(\operatorname{Spec}R),\mathcal O_{Y'}\bigr)$
+is a unit. As $\sigma(1-h)$ maps to $0$ there, so does $1-h$, i.e.
+$1-h\in\mathfrak n$.
 
-because $\overline{V\setminus U}\subseteq V(\mathcal I_1)=T_1$ as sets. So
-it suffices to prove, for every $s_2\in I_2$,
-
-$$
-p'^{-1}\bigl(q^{-1}(T_1)\bigr)\cap p'^{-1}(U(s_2))\cap\overline{Y'}
-=\varnothing .
-$$
-
-*Step 3: an equation for $s_2$ on $\overline Y$.* By hypothesis (3) of
-[def-nagata-conrad-disjointness-setup], $p^{-1}(T_1)\cap\overline Y$ is
-a closed subscheme of $p^{-1}(T_2)$, so $p^{\#}(s_2)\in B$ vanishes on it.
-Hence $p^{\#}(s_2)=t_1+g$ with $t_1$ vanishing on the closed subscheme
-$p^{-1}(T_1)$, which is cut out by $I_1^2B$, and $g$ vanishing on
-$\overline Y$. Write $t_1=\sum_ib_is_{1i}r_{1i}$ with $s_{1i},r_{1i}\in I_1$
-and $b_i\in B$. Since $Y\hookrightarrow\overline Y$ is a schematically dense
-open immersion, we get on $\overline Y$ the identity
-$s_2=\sum_ib_is_{1i}r_{1i}$.
-
-*Step 4: $s_2$ is a unit where it matters.* The scheme $Y$ lies over
-$U\subseteq V$ and $V$ does not meet $T_2$, so
-
-$$
-Y'\cap p'^{-1}(U(s_2))
-\subseteq p'^{-1}\bigl(U(s_2)\cap(X'\setminus q^{-1}(T_2))\bigr).
-$$
-
-On $U(s_2)\setminus q^{-1}(T_2)$ the section $s_2$ vanishes nowhere, hence is
-a unit. Dividing the identity of Step 3 by $s_2$ therefore gives
-
-$$
-h:=\sum_ib_i\Bigl(\frac{s_{1i}}{s_2}\Bigr)r_{1i}=1
-\qquad\text{on }Y'\cap p'^{-1}(U(s_2)).
-$$
-
-Each $s_{1i}/s_2$ is a global section of $\mathcal O$ on the chart $U(s_2)$,
-by the very definition of the chart algebra
-([def-nagata-blowup-chart-ring]), so $h$ is a global function on the
-open subscheme $p'^{-1}(U(s_2))$ of $Z'$.
-
-*Step 5: passing to the closure.* The immersion
-$Y'\cap p'^{-1}(U(s_2))\to p'^{-1}(U(s_2))$ is quasi-compact, so $h=1$ on the
-scheme-theoretic image $\overline{Y'\cap p'^{-1}(U(s_2))}$ as well
-([def-nagata-scheme-theoretic-closure]); and that image is
-$\overline{Y'}\cap p'^{-1}(U(s_2))$, because closures commute with
-restriction to an open subscheme.
-
-*Step 6: conclusion.* All the $r_{1i}$ lie in $I_1$, so $h$ vanishes on
-$p'^{-1}(q^{-1}(V(\mathcal I_1)))\cap p'^{-1}(U(s_2))$. Thus the single
-function $h$ takes the value $1$ on
-$\overline{Y'}\cap p'^{-1}(U(s_2))$ and the value $0$ on
-$p'^{-1}(q^{-1}(V(\mathcal I_1)))\cap p'^{-1}(U(s_2))$, so these two subsets
-are disjoint. Since $V(\mathcal I_1)=V(\mathcal I_1^2)=T_1$ as sets, this is
-exactly eq:nagata-conrad-disjointness-local.
+*Step 4: conclusion.* Now $1=h+(1-h)\in\mathfrak a_1+\mathfrak n$, so
+$V(\mathfrak a_1)\cap V(\mathfrak n)=\varnothing$ in $\operatorname{Spec}(R)$.
+But $x\in V(\mathfrak a_1)$, because $q(p'(x))\in V(\mathcal I_1)$; and
+$x\in V(\mathfrak n)$, because $V(\mathfrak n)$ is a closed subset of
+$\operatorname{Spec}(R)$ containing $f'(Y')\cap\operatorname{Spec}(R)$ (every
+element of $\mathfrak n$ vanishes at the image of each point of
+$f'^{-1}(\operatorname{Spec}R)$), and closures commute with restriction to
+the open $\operatorname{Spec}(R)$, so it contains
+$\overline{f'(Y')}\cap\operatorname{Spec}(R)\ni x$. This contradiction
+proves that the two closed subsets are disjoint. (The quasi-compactness of
+$f'$ is not needed for this; it only serves to identify
+$\overline{f'(Y')}$ with the underlying set of the scheme-theoretic image of
+$f'$.)

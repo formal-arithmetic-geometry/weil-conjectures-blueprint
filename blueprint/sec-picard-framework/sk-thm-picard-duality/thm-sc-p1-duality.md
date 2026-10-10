@@ -29,9 +29,7 @@ $$
 
 (with $\operatorname{Ext}$ of [def-sc-ext-sheaf]; all groups
 involved are finite-dimensional, the cohomology of coherent modules
-on a proper scheme over a field being finite-dimensional: *Source:
-Stacks Project, Cohomology of Schemes, Proposition 30.19.1,
-[Tag 02O5](https://stacks.math.columbia.edu/tag/02O5)*).
+on a proper scheme over a field being finite-dimensional).
 
 ## Proof
 

@@ -21,9 +21,7 @@ morphism of the Kummer exact sequence of
 [def-pur-affine-line-datum] (the identification
 $H^1(T_{\Et},\mathbf G_m)=\operatorname{Pic}(T)$ is the standard one:
 the $A$-torsor of isomorphisms $\mathcal O_T\to M$ recovers $M$
-as $(T\times M)/\mathbf G_m$; it is recorded for curves in
-lem:sc-line-bundle-torsor, lem:sc-h1-gm-pic and its proof is the
-same over any base, cf. the source note to lem:sc-h1-gm-pic).
+as $(T\times M)/\mathbf G_m$).
 Then
 
 $$

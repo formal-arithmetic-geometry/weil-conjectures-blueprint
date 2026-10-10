@@ -22,5 +22,4 @@ These results supply the coefficient comparisons on the stated
 constructible categories. They do not supply an exceptional
 adjunction for arbitrary unbounded pro-etale complexes; that
 separate domain remains in the existing record
-[open-sf-preservation-gaps]. This summary exports the
-individual proofs and is not an input to them.
+[open-sf-preservation-gaps].

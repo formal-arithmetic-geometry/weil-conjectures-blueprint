@@ -3,18 +3,16 @@ id = "thm-constructible-serre"
 kind = "theorem"
 title = "Constructible sheaves form a weak Serre subcategory"
 order = 1299
-lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.cokernel", "AlgebraicGeometry.Scheme.IsConstructibleSheaf.kernel"]
+lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.biprod", "AlgebraicGeometry.Scheme.IsConstructibleSheaf.cokernel", "AlgebraicGeometry.Scheme.IsConstructibleSheaf.kernel"]
 uses = ["def-constructible-constructible", "def-constructible-finite-locally-constant", "def-constructible-refines", "def-constructible-stratification", "def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "lemma-constructible-common-refinement", "lemma-constructible-flc-biproduct", "lemma-constructible-flc-serre", "lemma-constructible-iso-invariance", "lemma-constructible-of-refines", "lemma-weil-pbc-geometric-stalk-conservative", "prop-constructible-pullback", "prop-weil-pbc-geometric-stalks-exact"]
 +++
-Let $\mathcal A=\mathrm{Mod}_\Lambda$ with $\Lambda$ a finite ring. The
-kernel and the cokernel of a morphism between constructible sheaves on
-$\et X$, finite direct sums of constructible sheaves, and the middle term of
-a short exact sequence whose outer terms are constructible, are
-constructible. Consequently the constructible sheaves form a weak Serre
-subcategory of $\shv{\et X}$. (The kernel and cokernel statements are
-formalised, for any ring $\Lambda$, as are the instances
-`IsClosedUnderKernels` and `IsClosedUnderCokernels` of
-`Etale.constructibleSheaf`; the extension statement is not.)
+Let $\mathcal A=\mathrm{Mod}_\Lambda$ with $\Lambda$ a ring. The kernel and
+the cokernel of a morphism between constructible sheaves on $\et X$, and
+finite direct sums of constructible sheaves, are constructible. If
+$\Lambda$ is finite, the middle term of a short exact sequence whose outer
+terms are constructible is constructible as well; consequently, for a
+finite ring $\Lambda$, the constructible sheaves form a weak Serre
+subcategory of $\shv{\et X}$.
 
 ## Proof
 
@@ -33,21 +31,6 @@ handles extensions, and [lemma-constructible-flc-biproduct] handles
 finite direct sums. A full subcategory of an abelian category closed under
 kernels, cokernels and extensions is a weak Serre subcategory.
 
-## Detailed form
-
-For a scheme $T$ and a finite ring $\Lambda$, the constructible
-$\Lambda$-module sheaves on $T_{\Et}$ form a weak Serre subcategory of
-$\Mod(T_{\Et},\Lambda)$: kernels, cokernels, and extensions of constructible
-sheaves are constructible.
-
-*Source:* Stacks Project, Etale Cohomology, Lemma 59.71.6, [Tag
-03RZ](https://stacks.math.columbia.edu/tag/03RZ). The pro-etale counterpart
-of the weak-Serre assertion, stated there for a Noetherian coefficient ring,
-is Stacks Project, Section 61.27, [Tag
-09AI](https://stacks.math.columbia.edu/tag/09AI); the form used here is the
-etale statement just cited, for a finite ring $\Lambda$.
-
-## Proof
 
 Work on an affine open of $T$, and refine the finitely many partitions of
 the given constructible sheaves to one common partition, as in the
@@ -81,14 +64,3 @@ sequences makes the middle map an isomorphism; equivalently, apply the same
 argument on every stalk and conservativity of geometric stalks. Thus $F$ is
 finite locally constant near every point. Applying this on the common
 partition proves extension closure and completes the proof.
-
-## Detailed form
-
-Let $X$ be a scheme and $\Lambda$ a finite ring. The category of
-constructible $\Lambda$-module sheaves on $X_{\Et}$ is closed under
-kernels, cokernels, and extensions inside $\Mod(X_{\Et},\Lambda)$.
-
-## Proof
-
-This is [thm-constructible-serre] of the proper-base-change chapter,
-restated in the notation of this chapter.

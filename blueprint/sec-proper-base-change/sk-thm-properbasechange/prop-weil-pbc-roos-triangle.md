@@ -27,26 +27,6 @@ $$
  \to\varprojlim_nH^i(U,M_n)\to0.
 $$
 
-(*Source note:* the canonical triangle is Stacks Project, More on Algebra,
-Lemma 15.88.9 (Tag [07KX](https://stacks.math.columbia.edu/tag/07KX)): for
-$K=(K_n^\bullet)$ in $D(\textit{Ab}(\mathbf N))$ there is a canonical
-distinguished triangle $R\lim K\to\prod_nK_n^\bullet\to\prod_nK_n^\bullet\to
-R\lim K[1]$, so that $R\lim K$ is a derived limit in the sense of Definition
-13.34.1 (Tag [08TC](https://stacks.math.columbia.edu/tag/08TC)); the
-associated short exact sequences are Lemma 15.88.10 (Tag
-[07KY](https://stacks.math.columbia.edu/tag/07KY): the long exact cohomology
-sequence breaks up into $0\to R^1\lim_nH^{p-1}(K_n^\bullet)\to H^p(R\lim
-K)\to\lim_nH^p(K_n^\bullet)\to0$), and the representation of $\Rlim$ by the
-two-term complex $\prod A_n\to\prod A_n$, $(x_n)\mapsto(x_n-f_{n+1}(x_{n+1}))$,
-in degrees $0,1$, together with $R^p\lim A_n=0$ for $p>1$, is Lemma 15.88.1
-(Tag [07KW](https://stacks.math.columbia.edu/tag/07KW)). The Stacks entries
-are stated for towers of abelian groups; the blueprint states the same
-triangle for the tower category $\operatorname{Tow}_A(T)$ over $T_{\Proet}$
-with $A_T$-coefficients, where the two derived products are those of
-[prop-weil-pbc-derived-product-representation], and it evaluates the Milnor
-sequence at a weakly contractible quasi-compact $U\in T_{\Proet}$, which is
-the form in which it is used below.)
-
 ## Proof
 
 The triangle is the definition of $\Rlim$ in

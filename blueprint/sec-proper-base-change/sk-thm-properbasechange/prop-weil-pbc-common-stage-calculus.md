@@ -29,20 +29,6 @@ $[-1]$, and every finite-stage inclusion
 $j_E:\mathcal C_E(T)\to\mathcal P_T$ commutes with shifts through the
 specified comparison.
 
-*Source note:* no Stacks Project entry states this form: the ledger's
-verified entries contain no filtered-colimit category, and the blueprint
-adds the common-stage calculus, in which every finite diagram and every
-asserted equality in $\mathcal P_T$ is represented over one finite
-coefficient field. The nearest entries, each fetched and quoted, are
-Definition 4.21.1 ([Tag 00D3](https://stacks.math.columbia.edu/tag/00D3),
-the directed-set condition satisfied by the poset $\mathsf{FinExt}_\ell$)
-and Lemma 4.21.5 ([Tag 0032](https://stacks.math.columbia.edu/tag/0032))
-with Remark 4.21.6 ([Tag
-09P8](https://stacks.math.columbia.edu/tag/09P8)). Difference: Stacks
-computes the colimit of a diagram in one fixed category, whereas the colimit
-here indexes a category, so addition, composition, shifts and finitely many
-asserted equalities must first be transported to one common stage.
-
 ## Proof
 
 The relation of [def-weil-pbc-finite-stage-pair-category] is reflexive and

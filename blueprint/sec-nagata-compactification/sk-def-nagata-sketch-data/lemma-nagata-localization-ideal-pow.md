@@ -5,11 +5,14 @@ title = "Localization commutes with powers of an ideal"
 order = 37
 lean = ["Ideal.map_pow"]
 +++
-Let $s\in A$. For every $n$ there is a canonical equality
+Let $\varphi\colon A\to B$ be a ring homomorphism and $I\subseteq A$ an
+ideal. For every $n$,
 
 $$
-(I^n)A_s=(IA_s)^n.
+(I^n)B=(IB)^n.
 $$
+
+In particular $(I^n)A_s=(IA_s)^n$ for $s\in A$.
 
 ## Proof
 

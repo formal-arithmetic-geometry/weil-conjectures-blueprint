@@ -58,5 +58,3 @@ computation after substituting a generator of the centre. Item (4) is this
 computation for the standard pair together with [sk-prop-an] (ii), and (5) is
 the base-change behaviour of the Rees algebra, of the punctured
 trivialization and of the normal cone.
-
-Uses: [sk-def-purity-conv], [sk-prop-an]

@@ -14,9 +14,7 @@ F_{\bar y}:\mathrm{FLC}(Y)\longrightarrow(\text{finite sets}),\qquad
 $$
 
 and on $\mathrm{F\acute Et}(Y)$ the notation
-$P\mapsto|P_{\bar y}|$ of [def-galois-categories] is used; that
-the two functors correspond under the identification of
-[thm-galois-lc-etale] is part of that theorem. Its
+$P\mapsto|P_{\bar y}|$ of [def-galois-categories] is used. Its
 *automorphism group*
 
 $$
@@ -30,3 +28,8 @@ discrete topologies; this is the *etale fundamental group* of $Y$ at
 $\bar y$. A $\pi_1(Y,\bar y)$-set is a finite set with a continuous
 action of $\pi_1(Y,\bar y)$, and such sets form the category
 $\pi_1(Y,\bar y)\text{-}\mathbf{Set}$.
+
+The functor $F_{\bar y}$ on $\mathrm{FLC}(Y)$ and the functor
+$P\mapsto|P_{\bar y}|$ on $\mathrm{F\acute Et}(Y)$ correspond under the
+equivalence $\mathrm{F\acute Et}(Y)\simeq\mathrm{FLC}(Y)$ of
+[thm-galois-lc-etale].

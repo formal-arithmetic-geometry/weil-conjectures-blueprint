@@ -21,5 +21,4 @@ $$
  g_Y=\operatorname{id}_{Y_0}\times\Spec(\gamma):Y\longrightarrow Y.
 $$
 
-This is distinct from the absolute $q$-power morphism of $Y$; every Frobenius
-operator in this blueprint is induced by $g_Y$ and is geometric.
+This is distinct from the absolute $q$-power morphism of $Y$.

@@ -55,19 +55,6 @@ $$
  \xrightarrow{\sim}\Rlim Rf_*^{\operatorname{Tow}}K_\bullet.
 $$
 
-The commutation $Rf_*\Rlim\xrightarrow{\sim}\Rlim Rf_*^{\operatorname{Tow}}$
-and the completeness of $Rf_*K$ for derived complete $K$ are clauses (1), (3)
-and (4) of Stacks Project, Lemma 61.20.2 (Tag
-[099N](https://stacks.math.columbia.edu/tag/099N), Section 61.20, Tag
-[099L](https://stacks.math.columbia.edu/tag/099L)): the Stacks entry assumes
-a Noetherian ring $\Lambda$, an ideal $I\subset\Lambda$ and a morphism of
-topoi, and states that $Rf_*$ sends $D_{comp}$ into $D_{comp}$ and that
-$Rf_*K=\Rlim Rf_*(K\otimes^L_\Lambda\underline{\Lambda/I^n})$; the form used
-here is its tower-level refinement over $T_{\Proet}$, and the finite-level
-projection-formula isomorphisms coming from
-[lemma-weil-pbc-perfect-projection-formula] are not part of the Stacks
-statement.
-
 ## Proof
 
 The tower category of [def-weil-pbc-adic-coefficient-datum] is Grothendieck

@@ -31,5 +31,3 @@ $\mathbb D_Y(Rf_!M)=\RHom_Y(Rf_!M,\omega_Y)\cong Rf_*\RHom_X(M,f^!\omega_Y)\cong
 Naturality and the compatibilities are those of the two ingredients. (This
 proof uses only the tensor–Hom exchange and never the duality chapter, which
 is what removes the proof cycle between the framework and duality chapters.)
-
-Uses: `\Cref{sk-def-sf-operations}`, `\Cref{lem-sf-mate}`, `\Cref{sk-thm-sf-tensor-hom}`, `def-weil-exceptional-inverse-image`

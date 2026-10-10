@@ -19,12 +19,11 @@ $$
 \operatorname{eig}(f^\vee)=\{\alpha_i^{-1}\}
 $$
 
-(the last for invertible $f$); in particular $\alpha^n$ is an eigenvalue of
+(the last for invertible $f$, where $f^\vee=(f^{-1})^*$ is the
+contragredient on the dual space); in particular $\alpha^n$ is an eigenvalue of
 $f^{\otimes n}$. Concretely, in an exterior basis a diagonal map with
 entries $c_1,\ldots,c_r$ has entries $c_{i_1}\cdots c_{i_s}$ with
-$i_1<\cdots<i_s$. These are used with the operations of [sk-d-linear],
-[sk-d-weights].
-lem:exterior-basis
+$i_1<\cdots<i_s$.
 
 ## Proof
 
@@ -50,5 +49,3 @@ The exterior basis and the sign rule are Mathlib's
 `exteriorPower.basis_apply` and
 `AlternatingMap.map_perm`; the tensor, exterior and dual spectra
 themselves are absent there.
-
-Uses: [sk-d-linear], [sk-d-weights], [sk-p-linear-triangular]

@@ -7,16 +7,19 @@ lean = ["AlgebraicGeometry.Etale.cohomologyEquiv", "AlgebraicGeometry.Etale.coho
 tags = ["latex:proposition"]
 uses = ["def-pc-ext", "lemma-constructible-pullback-constant", "lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence"]
 +++
-Let $u:X_0\to X$ be a universal homeomorphism. Pullback along $u$ is an
-equivalence between the small etale topos of $X$ and that of $X_0$, and for
-every abelian sheaf $F$ on $X_{\mathrm{et}}$ and every $n$ it induces an
-isomorphism
+Let $u:X_0\to X$ be a universal homeomorphism. For every coefficient
+category $\mathcal A$, restriction along base change (the pushforward
+$u_*$) is an equivalence between $\mathcal A$-valued sheaves on
+$X_{0,\mathrm{et}}$ and on $X_{\mathrm{et}}$; for $\mathcal A$ Grothendieck
+abelian, pullback $u^{-1}$ is an equivalence from sheaves on
+$X_{\mathrm{et}}$ to sheaves on $X_{0,\mathrm{et}}$, quasi-inverse to $u_*$.
+For every abelian sheaf $F$ on $X_{\mathrm{et}}$ and every $n\ge0$, the map
+induced by $u^{-1}$ (and the identification $u^{-1}\mathbf Z\cong\mathbf Z$
+of constant sheaves) is an isomorphism
 
 $$
 H^n(X_{\mathrm{et}},F)\xrightarrow{\sim}H^n(X_{0,\mathrm{et}},u^{-1}F).
 $$
-
-This is Tag `03SI`.
 
 ## Proof
 

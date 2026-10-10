@@ -20,8 +20,7 @@ $$
 \ker f:=G\times_{H,f,e_H}\operatorname{Spec}k.
 $$
 
-(That this fibre product is a closed subgroup scheme is
-[lem-sc-kernel-subgroup].) The group scheme $G$ is *finite* if its
+The group scheme $G$ is *finite* if its
 structure morphism $G\to\operatorname{Spec}k$ is finite in the sense
 of [def-weil-pbc-scheme-conventions]; then $G=\operatorname{Spec}A$
 with $A=\Gamma(G,\mathcal O_G)$ a finite-dimensional $k$-algebra, and
@@ -35,6 +34,8 @@ The group scheme $G$ is *étale* over $k$ if its structure morphism is
 étale in the sense of [def-weil-pbc-scheme-conventions]. A finite
 $k$-algebra $A$ is a *finite étale $k$-algebra* if it is isomorphic to
 a finite product $L_1\times\dots\times L_r$ of finite separable field
-extensions $L_j$ of $k$. For finite $G$, the group scheme $G$ is étale
-over $k$ if and only if $\Gamma(G,\mathcal O_G)$ is a finite étale
-$k$-algebra ([lem-sc-finite-etale-algebra-criterion]).
+extensions $L_j$ of $k$.
+
+The kernel $\ker f$ is a closed subgroup scheme of $G$. For finite $G$,
+the group scheme $G$ is étale over $k$ if and only if
+$\Gamma(G,\mathcal O_G)$ is a finite étale $k$-algebra.

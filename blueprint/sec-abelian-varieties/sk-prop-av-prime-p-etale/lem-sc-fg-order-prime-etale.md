@@ -6,12 +6,25 @@ lean = ["AlgebraicGeometry.etale_of_not_dvd_finrankΓ"]
 order = 578
 uses = ["def-sc-group-scheme", "lem-sc-connected-finite-order", "lem-sc-finite-etale-algebra-criterion"]
 +++
-Let $G$ be a finite flat group
-scheme over an algebraically closed field $k$ of characteristic
+Let $G$ be a finite group
+scheme over a field $k$ of characteristic
 $p\geq0$, of order $m$ with $p\nmid m$ (for $p=0$, any
 $m$). Then $G$ is etale over $k$.
 
 ## Proof
+
+We first reduce to $k$ algebraically closed. Let $\bar k$ be an
+algebraic closure of $k$ and $B$ the coordinate ring of $G$. Then
+$G_{\bar k}$ is a finite group scheme over $\bar k$ with coordinate
+ring $B\otimes_k\bar k$, so its order
+$\dim_{\bar k}(B\otimes_k\bar k)=\dim_kB=m$ is unchanged, and the
+characteristic of $\bar k$ is still $p$. Moreover $G$ is etale over $k$
+if and only if $G_{\bar k}$ is etale over $\bar k$: a finite
+$k$-algebra $B$ is etale if and only if $\Omega_{B/k}=0$, and
+$\Omega_{B\otimes_k\bar k/\bar k}=\Omega_{B/k}\otimes_k\bar k$ vanishes
+if and only if $\Omega_{B/k}$ does, since $\bar k$ is faithfully flat
+over $k$. Hence it suffices to treat $G_{\bar k}$, and from now on we
+assume that $k$ is algebraically closed.
 
 Write the coordinate ring of $G$ as $B=\prod_iB_i$ with the $B_i$
 finite local $k$-algebras, one for each point of the finite discrete
@@ -59,7 +72,4 @@ $y_i,z_i\in\mathfrak m$; applying the antipode-twisted
 multiplication iteratively, the standard Cartier argument produces
 from $x$ a nonzero primitive element, whose $n$-th divided
 power is nonzero for every $n$, contradicting the finite
-dimension of $A$; hence $\mathfrak m=0$ and $G$ is etale. The
-interface is used exactly once in this chapter, namely for the
-characteristic-zero half of this lemma; the characteristic-$p$ half
-is proved above from [lem-sc-connected-finite-order].
+dimension of $A$; hence $\mathfrak m=0$ and $G$ is etale.

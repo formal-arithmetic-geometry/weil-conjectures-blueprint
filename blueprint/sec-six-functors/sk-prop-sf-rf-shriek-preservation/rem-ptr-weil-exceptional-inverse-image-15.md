@@ -5,7 +5,7 @@ title = "Pointer to the properties of [def-weil-exceptional-inverse-image]"
 order = 2094
 uses = ["def-weil-exceptional-inverse-image", "thm-sf-preservation-class"]
 +++
-In the notation of [def-weil-exceptional-inverse-image], the following holds. What the two displayed typings use
+In the notation of [def-weil-exceptional-inverse-image], what the two displayed typings use
 in addition, namely that the values of the right adjoint lie again in
 $D^b_c$ and in $D^b_{ctf}$, is no longer an assumption on those two
 categories either: at every finite coefficient stage, and with constants

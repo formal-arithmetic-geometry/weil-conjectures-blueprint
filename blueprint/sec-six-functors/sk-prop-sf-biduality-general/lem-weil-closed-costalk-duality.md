@@ -16,8 +16,6 @@ $$
 \alpha_K:Ri^!D_TK\xrightarrow{\sim}D_Zi^*K.
 $$
 
-This assertion does not use biduality.
-
 ## Proof
 
 For any test complex $N$ on $Z$, the tensor adjunction of

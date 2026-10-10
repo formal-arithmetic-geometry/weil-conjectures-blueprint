@@ -53,5 +53,3 @@ the compactifications involved; the two composites then restrict to the same
 identity over the source and use the same proper base-change maps on each
 Cartesian rectangle, so their pasting identity together with the refinement
 transitivity of [prop-compactification-coherence-detailed] gives associativity.
-
-Uses: [cor-weil-pbc-geometric-fiber-finite], [def-compact-support-direct-image-detailed], [def-weil-compactifications-refinements], [lem-weil-derived-direct-image-composition], [prop-compactification-coherence-detailed], [prop-compactification-refinement], [thm-nagata-compactification], [thm-weil-pbc-finite-level-proetale]

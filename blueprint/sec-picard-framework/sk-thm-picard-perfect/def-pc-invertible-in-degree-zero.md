@@ -11,5 +11,4 @@ for an invertible $\mathcal{O}_X$-module $\mathcal{N}$: $M$ is quasi-isomorphic 
 complex $\mathcal{N}$ concentrated in degree $0$. It is a
 *finite locally free rank $r$ module placed in degree $i$* if
 $M\cong E[-i]$ with $E$ finite locally free of rank $r$
-([def-pc-finite-locally-free]). The structure of the cohomology of
-$M$ in this situation is [lem-pc-degree-zero-properties].
+([def-pc-finite-locally-free]).

@@ -18,9 +18,12 @@ write $P_x$ for the local characteristic polynomial of
 [sk-d-real-weights]. Then
 
 $$
-P_x(\mathcal F,T)=\det\bigl(1-T\,\rho(F_x)\mid V\bigr)
-\qquad\text{for every closed }x .
+P_x(\mathcal F,T)=\det\bigl(1-T\,\rho(g)\mid V\bigr)
 $$
+
+for every closed point $x$ and every $g\in W(C_0)$ conjugate in $W(C_0)$
+to the local Frobenius element at $x$; in particular $P_x$ does not depend
+on the choice of that element within its conjugacy class.
 
 ## Proof
 
@@ -29,8 +32,6 @@ lisse Weil sheaves are *defined* by transport along the equivalence, so
 only the local polynomial needs an argument. Iterating the Frobenius
 structure map $e_x$ times on the stalk at $\bar x$ realizes $F_x$ as $\rho$ of
 any member of the degree-$e_x$ class supplied by $x$. A characteristic
-polynomial is invariant under conjugation, so $\det(1-T\rho(F_x)\mid V)$ is
-independent of the member chosen and agrees with the stalkwise $P_x$ of
-[sk-d-real-weights].
-
-Uses: [sk-d-real-operations], [sk-d-real-weights], [sk-d-real-weil], [sk-i-real-sheaves]
+polynomial is invariant under conjugation, so $\det(1-T\rho(g)\mid V)$ is
+the same for every $g$ conjugate in $W(C_0)$ to the local Frobenius element
+at $x$, and it agrees with the stalkwise $P_x$ of [sk-d-real-weights].

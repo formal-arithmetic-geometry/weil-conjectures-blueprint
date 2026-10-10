@@ -24,9 +24,7 @@ $$
 \longrightarrow\mathbf Z,\qquad (h,m)\longmapsto m.
 $$
 
-That the displayed multiplication is a group law, and that $\deg_G$ is
-then a group homomorphism, The
-map to matrices is $(h,m)\mapsto h\rho(s)^m$. This map need not be
-injective: the integer in the second coordinate is deliberately retained,
-because it records the Weil degree even when two degree components have the
-same matrix image.
+The map to matrices is $(h,m)\mapsto h\rho(s)^m$. This map need not be
+injective: the integer in the second coordinate is retained because it
+records the Weil degree even when two degree components have the same
+matrix image.

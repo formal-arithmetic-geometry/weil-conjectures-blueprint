@@ -8,9 +8,9 @@ uses = ["sec-nagata-compactification", "sk-def-curve"]
 +++
 *Definition (sketch).*
 
-Let $C$ be a smooth projective geometrically integral curve over a
-field $k$. We write $\Pic(C)=H^1(C_{\Et},\gm)$ for the group of
-invertible $\cO_C$-modules up to isomorphism; there is a
-*degree* homomorphism $\deg:\Pic(C)\to\Z$, and
-$\Pic^0(C):=\ker(\deg)$. For a field extension $K/k$ we write
-$C_K=C\times_kK$ and $\Pic^0(C_K)$ for the degree-zero part over $K$.
+Let $C$ be a scheme over a field $k$. We write $\Pic(C)$ for the set of
+invertible $\cO_C$-modules up to isomorphism (for $C$ a smooth projective
+geometrically integral curve this is the group $H^1(C_{\Et},\gm)$). The
+*degree* of a class is $\deg\cL:=\chi(C,\cL)-\chi(C,\cO_C)$, and
+$\Pic^0(C):=\{\cL\in\Pic(C):\deg\cL=0\}$. For a field extension $K/k$ we
+write $C_K=C\times_kK$ and $\Pic^0(C_K)$ for the degree-zero part over $K$.

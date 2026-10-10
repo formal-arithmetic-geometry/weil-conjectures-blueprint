@@ -5,8 +5,7 @@ title = "Local regularity theory: already in file 06"
 order = 703
 uses = ["def-pc-smooth-projective-curve", "def-sc-curves", "lem-sc-point-cartier", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
-The local regularity facts used in this blueprint are already decomposed
-in file 06: [lem-sc-smooth-regular] (a smooth curve over a field has
+The local regularity facts needed here are [lem-sc-smooth-regular] (a smooth curve over a field has
 regular, hence domain, local rings), [lem-sc-regular-dim1-dvr] (a
 regular local ring of dimension $1$ is a discrete valuation ring) and
 [lem-sc-point-cartier] (a closed point of a smooth connected curve is an

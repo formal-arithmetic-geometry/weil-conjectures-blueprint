@@ -14,7 +14,6 @@ $$
 
 on $X_{\Et}$; more generally for $K\in D(Y_{\Et})$ the cohomology sheaf
 $R^qh_*K$ is associated with $U\mapsto H^q(U\times_XY,K|_{U\times_XY})$.
-(*Stacks Project, Lemma 59.51.6, [Tag `03Q8`](https://stacks.math.columbia.edu/tag/03Q8).*)
 
 ## Proof
 

@@ -4,22 +4,26 @@ kind = "lemma"
 title = "The perfect locus with fixed degree"
 order = 681
 uses = ["def-pc-base-change", "def-pc-derived-category", "def-pc-derived-pullback", "def-pc-invertible-in-degree-zero", "def-pc-morphism-conventions", "def-pc-perfect-complex"]
-lean = ["AlgebraicGeometry.Scheme.Modules.isOpen_setOf_hFiber_le", "AlgebraicGeometry.Scheme.Modules.isZero_higherDirectImage_restrict", "AlgebraicGeometry.Scheme.Modules.isFiniteLocallyFreeOfRank_higherDirectImage_restrict"]
+lean = ["AlgebraicGeometry.Scheme.Modules.IsFiniteFreeComplex.exists_opens_range_subset_iff"]
 +++
-Let $X$ be a scheme and let $E\in D(\mathcal{O}_X)$ be
-perfect. Given $i,r\in\mathbb{Z}$ there is
+Let $X$ be a scheme and let $P$ be a bounded complex of finite free
+$\mathcal{O}_X$-modules concentrated in degrees $[0,d]$, representing a
+perfect object $E\in D(\mathcal{O}_X)$. Given integers $i,r\ge0$ there is
 an open subscheme $U\subseteq X$ characterized by the property: a
-morphism $f:Y\to X$ factors through $U$ if and only if $Lf^*E$ is
-isomorphic to a locally free $\mathcal{O}_Y$-module of rank $r$ placed in
-degree $i$.
+morphism $f:Y\to X$ factors through $U$ if and only if
+$Lf^*E=f^*P$ is isomorphic to a locally free $\mathcal{O}_Y$-module of
+rank $r$ placed in degree $i$, that is, the cohomology sheaves
+$H^q(f^*P)$ vanish for $q\neq i$ and $H^i(f^*P)$ is finite locally free
+of rank $r$.
 
 ## Proof
 
-If $r<0$, take $U=\varnothing$. Otherwise let $x\in X$. By
-[def-pc-perfect-complex], near $x$ the object $E$ is represented
-by a bounded complex $M^\bullet$ of finite free modules: the finitely
-many projective terms can all be made free after shrinking.
-Over the local ring $\mathcal O_{X,x}$, if a matrix of a differential
+Since the terms of $P$ are free, hence flat, $f^*P$ computes $Lf^*E$
+for every $f:Y\to X$ ([def-pc-perfect-complex]); and a complex whose
+cohomology sheaves vanish outside degree $i$ is quasi-isomorphic to its
+$i$-th cohomology sheaf placed in degree $i$, so the two descriptions of
+the condition agree. Let $x\in X$ and let $M^\bullet$ be the restriction
+of $P$ to a neighbourhood of $x$. Over the local ring $\mathcal O_{X,x}$, if a matrix of a differential
 has a unit entry, row and column operations put that entry in a
 $1\times1$ identity block. The equations $d^{j+1}d^j=0$ and
 $d^jd^{j-1}=0$ force the adjacent maps into and out of this block

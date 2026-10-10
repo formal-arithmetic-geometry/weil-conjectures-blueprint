@@ -16,10 +16,7 @@ by that comparison and is not used as an automatic consequence; see
 structure morphism of an elliptic curve over $\overline{\mathbf F}_p$ and
 $A=\mathbf F_r$ there is a pro-étale sheaf, not of étale origin, with nonzero
 cohomology in every degree, so $Rf_!=Rf_*$ does not preserve coproducts and
-has no right adjoint on $D$ or on $D^+$ (the counterexample is recorded in the
-sketch block of this remark and in rem:sf-ambient-counterexample). The former
-recorded input "i:pe-direct-image-coproducts" is therefore false in general
-and not used; what remains open is nothing that the blueprint needs. General finite-coefficient Verdier
+has no right adjoint on $D$ or on $D^+$. General finite-coefficient Verdier
 biduality is independently proved in [thm-fix-general-biduality],
 and its boundary exchange is [cor-weil-boundary-duality-discharge];
 neither assertion needs the unrestricted ambient adjunction left open here.

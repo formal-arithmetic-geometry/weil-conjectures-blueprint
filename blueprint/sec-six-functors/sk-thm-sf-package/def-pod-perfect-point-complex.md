@@ -5,7 +5,7 @@ title = "Perfect point complex"
 order = 2243
 uses = ["def-pod-conventions", "def-weil-finite-coefficient-point", "def-weil-geometric-hypotheses"]
 +++
-In the Poincare duality conventions of this chapter (the fixed setting),
+In the Poincare duality conventions of this chapter (the fixed setting), an
 object $C$ of the
 category at the point is
 *perfect* if it is quasi-isomorphic to a bounded complex of finite

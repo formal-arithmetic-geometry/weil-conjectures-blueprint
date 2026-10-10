@@ -31,8 +31,6 @@ $\Lambda=\mathcal O_E$ the degreewise form fails in general: a torsion
 class in $H^i_c$ pairs to zero with everything, and
 $H^{-i}(\RG_c^\vee)$ picks up an $\operatorname{Ext}^1$ term from the
 torsion of $H^{i+1}_c$; only the derived statement holds there.
-For nonproper $X$ the degreewise assertion over field coefficients is
-recorded separately in [sk-thm-derived-duality].
 
 ## Proof
 
@@ -46,5 +44,3 @@ identification, which is an isomorphism. Degreewise this is the shift
 convention together with $H^{-i}(C^\vee)\cong H^i(C)^\vee$ for a perfect point
 complex, which holds when $\operatorname{Hom}(-,\Lambda)$ is exact, i.e. for
 $\Lambda\in\{A_{E,n},E,\Qlb\}$.
-
-Uses: `\Cref{lem-sf-twist-interchange}`, `\Cref{thm-sf-global-duality}`, `\Cref{sk-thm-sf-tensor-hom}`, `def-coefficient-twists-detailed`, `def-weil-poincare-trace-cup`

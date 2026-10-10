@@ -18,8 +18,3 @@ opens are required to be the relative affine schemes of the degree-zero
 homogeneous localizations at those generators. The existence and
 compatibility of this object are supplied by
 [lemma-nagata-relative-proj-exists].
-
-This node is not formalized: it presupposes relative Proj, which is not
-formalized either. Everything that needs only the scheme
-$\mathbf P^r_X\to X$, and not its standard charts, uses
-[def-nagata-projective-space-base-change] instead.

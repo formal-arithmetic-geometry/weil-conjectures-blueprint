@@ -5,12 +5,6 @@ title = "Noetherian base system used in the final assembly"
 order = 371
 uses = ["def-nagata-glued-limit-comparison", "def-nagata-noetherian-inverse-system"]
 +++
-**Status.** Bypassed by the formalized route: the final assembly is carried
-out inside `AlgebraicGeometry.NagataCompactification` and
-`AlgebraicGeometry.nagataCompactification_of_locallyOfFinitePresentation`,
-which produce the factorization and its three properties directly, without
-separately named intermediate objects.
-
 Define
 
 $$

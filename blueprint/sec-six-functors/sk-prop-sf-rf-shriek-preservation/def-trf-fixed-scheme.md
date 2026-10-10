@@ -37,5 +37,3 @@ $$
 
 with each $\beta$ an open-and-closed
 subscheme of $F$.
-
-*Recorded in advance* from chapter *The trace formula* of the source.

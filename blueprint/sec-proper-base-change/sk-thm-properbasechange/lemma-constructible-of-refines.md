@@ -9,7 +9,7 @@ uses = ["def-constructible-constructible", "def-constructible-finite-locally-con
 Let $(\iota_k\colon Z_k\to X)_k$ be a stratification with all
 $\iota_k^*\mathcal F$ finite locally constant, and let
 $(\kappa_l\colon W_l\to X)_l$ refine it. Then all $\kappa_l^*\mathcal F$
-are finite locally constant.
+are finite locally constant; in particular $\mathcal F$ is constructible.
 
 ## Proof
 
@@ -21,4 +21,6 @@ $\kappa_l$. Its pullback of $\mathcal F$ is
 $\kappa_l'^*\iota_k^*\mathcal F$, finite locally constant by
 [prop-constructible-pullback] (its lemmas for locally constant and
 finite sheaves). By [lemma-constructible-immersion-independence],
-$\kappa_l^*\mathcal F$ is finite locally constant.
+$\kappa_l^*\mathcal F$ is finite locally constant. As $l$ was arbitrary, the
+stratification $(\kappa_l)_l$ (and already $(\iota_k)_k$) witnesses that
+$\mathcal F$ is constructible in the sense of [def-constructible-constructible].

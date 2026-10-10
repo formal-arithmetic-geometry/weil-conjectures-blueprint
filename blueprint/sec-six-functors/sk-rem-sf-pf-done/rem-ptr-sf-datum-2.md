@@ -5,5 +5,6 @@ title = "Pointer to the properties of [def-sf-datum]"
 order = 2111
 uses = ["def-sf-datum", "fix-lem-exchanges", "fix-prop-projection-formula"]
 +++
-In the notation of [def-sf-datum], the following holds. [fix-lem-exchanges],
-[fix-prop-projection-formula];
+For the operations of [def-sf-datum], the exchange transformations are
+[fix-lem-exchanges] and the projection formula is
+[fix-prop-projection-formula].

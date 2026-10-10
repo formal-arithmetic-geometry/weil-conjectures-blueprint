@@ -8,7 +8,7 @@ lean = ["AlgebraicGeometry.Scheme.IsQcqsLocalProperty", "AlgebraicGeometry.exist
 +++
 *Lemma (sketch).*
 
-(Stacks Project, Lemma 59.88.5, Tag `0F06`.) Let $T$ be
+Let $T$ be
 quasi-compact quasi-separated and let $P$ be a property of qcqs
 schemes over $T$ such that: (1) $P$ is invariant under thickenings;
 (2) $P$ is compatible with limits with affine transition morphisms;
@@ -28,5 +28,3 @@ component of $T'$; it is the limit of its affine open
 neighbourhoods $V$, and each such $V$ has $P$: otherwise (3) gives
 $P(T'\setminus V)$, a strictly smaller closed subscheme as
 $\eta\in V$, against minimality. Then (2) gives $P(\eta)$.
-
-Uses: [sk-def-bc]

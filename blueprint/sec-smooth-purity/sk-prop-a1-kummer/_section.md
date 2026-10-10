@@ -22,7 +22,6 @@ is free of rank one on the Kummer class $\kappa(t)$.
 All three are compatible with base change on $Y$, as is $\kappa(t)$.
 Equivalently, (a)–(c) are the corresponding statements for
 $\Aaf^1$ and $\mathbf G_m$ over a geometric point.
-Compare Milne, *Lectures on Étale Cohomology*, §16; SGA 4, IX.
 
 ## Proof
 
@@ -122,5 +121,3 @@ which is $\kappa(t)$ by [sk-def-purity-conv]; and
 $H^0(\mathbf G_{m,k},\mu_{\ell^N})=\mu_{\ell^N}(k)$ is free of rank one, with
 restriction from $\Aaf^1_k$ an isomorphism onto it. Tensoring with $F$
 and the dévissage above give (b).
-
-Uses: [sk-def-curve], [sk-def-purity-conv], [sk-prop-cd], [sk-prop-kummer-exact], [sk-thm-smooth-base-change]

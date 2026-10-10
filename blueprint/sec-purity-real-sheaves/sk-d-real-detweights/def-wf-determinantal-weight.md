@@ -19,6 +19,7 @@ $$
 \dw_\iota(\mathcal V):=\frac{a}{r}.
 $$
 
-That this number does not depend on the chosen finite coefficient field is
-[lem-wf-determinantal-weight-coefficient-field]. We use the same
+We use the same
 notation for the associated representation $V$.
+This number does not depend on the chosen finite coefficient field, by
+[lem-wf-determinantal-weight-coefficient-field].

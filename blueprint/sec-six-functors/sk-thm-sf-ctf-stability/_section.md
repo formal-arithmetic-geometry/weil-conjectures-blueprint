@@ -66,4 +66,3 @@ module sheaves not of étale origin" concerned only the ambient
 [sk-prop-sf-existence] (b), which is false in general and not used,
 [sk-rem-sf-fullcd-scope]). The one residue is the reduction
 towers with no uniform trivializing cover.
-Uses: `\Cref{sk-cor-sf-direct-image-ctf}`, `\Cref{sk-prop-sf-comparison}`, `\Cref{sk-prop-sf-rf-shriek-preservation}`, `\Cref{thm-sf-direct-image-tor-amplitude}`, `\Cref{thm-sf-hom-ctf}`, `prop-functor-package`

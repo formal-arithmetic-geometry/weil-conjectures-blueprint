@@ -12,7 +12,5 @@ $\operatorname{Pic}_{X/S}$ is the fppf sheafification of the
 Picard presheaf on
 $(\mathit{Sch}/S)_{fppf}$ ([def-pc-fppf-site]); if it is
 representable ([def-pc-representable-functor]), the representing
-scheme is $\underline{\operatorname{Pic}}_{X/S}$ (Stacks Project, Picard Schemes of
-Curves, Definition 44.4.1, Tag
-[0B9L](https://stacks.math.columbia.edu/tag/0B9L)). For $S=\operatorname{Spec}(k)$ we write
+scheme is $\underline{\operatorname{Pic}}_{X/S}$. For $S=\operatorname{Spec}(k)$ we write
 $\operatorname{Pic}_{X/k}$.

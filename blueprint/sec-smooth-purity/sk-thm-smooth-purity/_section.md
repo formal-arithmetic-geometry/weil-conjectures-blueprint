@@ -27,7 +27,7 @@ of smooth morphisms (twist additivity). *Agreement on the model:*
 for the projection $\pi$ of a vector bundle of rank $d$ (in particular for
 $p_d:\Aaf^d_Y\to Y$) the isomorphism $\omega_\pi\cong\Lambda(d)[2d]$
 constructed below is the $R\pi^{!}$-form $\gamma_{\pi,\Lambda}$ of
-[sk-prop-an] (ii) (detailed: lem:pur-projection-purity-agreement).
+[sk-prop-an] (ii).
 
 ## Proof
 
@@ -92,5 +92,3 @@ $T=N_\Delta\cong\pi^{*}E$. Hence the composite of Steps 1–3 is
 $\gamma_{\pi,\Lambda}^{-1}$: the isomorphism $\omega_\pi\cong\Lambda_E(d)[2d]$
 of this theorem for $\pi$ is the $R\pi^{!}$-form of [sk-prop-an] (ii)
 (detailed: lem:pur-projection-purity-agreement).
-
-Uses: [sk-def-purity-conv], [sk-lem-diag-reg], [sk-prop-an], [sk-prop-cohsm], [sk-thm-dnc]

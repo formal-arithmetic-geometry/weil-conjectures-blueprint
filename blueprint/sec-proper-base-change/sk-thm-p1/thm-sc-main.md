@@ -12,7 +12,7 @@ $\mathbf F_r$ be the constant sheaf
 $\mathcal C_1,\dots,\mathcal C_8$ of
 [def-weil-pbc-eight-curve-assertions].
 
-1. **(a)** If $r\neq\operatorname{char}k$, then
+**(a)** If $r\neq\operatorname{char}k$, then
 $\mathbf F_r$ satisfies $\mathcal C_1$, $\mathcal C_4$,
 $\mathcal C_6$, and $\mathcal C_8$; it satisfies $\mathcal C_2$
 when $C$ is affine and $\mathcal C_5,\mathcal C_7$ when $C$
@@ -38,11 +38,13 @@ $$
 and all these identifications are compatible with
 algebraically closed field
 extension (the pullback maps are isomorphisms).
-1. **(b)** If $\operatorname{char}k=p>0$, the constant sheaf
+
+**(b)** If $\operatorname{char}k=p>0$, the constant sheaf
 $\mathbf F_p$ satisfies $\mathcal C_1$, $\mathcal C_3$, and
 $\mathcal C_8$; it satisfies $\mathcal C_2$ when $C$ is affine
 and $\mathcal C_5,\mathcal C_7$ when $C$ is proper.
-1. **(c)** The maps in $\mathcal C_6$, $\mathcal C_7$, and
+
+**(c)** The maps in $\mathcal C_6$, $\mathcal C_7$, and
 $\mathcal C_8$ are the pullback and restriction maps fixed in
 [def-weil-pbc-eight-curve-assertions] (and in
 [def-sc-field-extension]).

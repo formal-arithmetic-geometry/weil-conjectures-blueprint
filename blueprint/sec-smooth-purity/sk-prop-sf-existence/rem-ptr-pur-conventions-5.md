@@ -23,6 +23,4 @@ both halves, the vanishing one being the class-restricted datum
 [thm-sf-fullcd-class] with the bound $2\dim\overline X$ and the
 existence one [thm-sf-ambient-adjoint-class]; the datum stays an
 assumption only for the complexes that are not of étale origin, as
-[rem-sf-class-adjoint-residue] records, and this chapter applies the
-adjunction $Rf_!\dashv Rf^!$ only to the coefficients named in the next
-paragraph.
+[rem-sf-class-adjoint-residue] records.

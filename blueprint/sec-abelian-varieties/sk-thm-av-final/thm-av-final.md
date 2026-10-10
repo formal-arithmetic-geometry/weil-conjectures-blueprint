@@ -2,7 +2,7 @@
 id = "thm-av-final"
 kind = "theorem"
 title = "Abelian-variety estimate"
-lean = ["AlgebraicGeometry.abelianVariety_estimate"]
+lean = ["AlgebraicGeometry.abelianVariety_estimate", "AlgebraicGeometry.abelianVariety_estimate_of_isAlgClosed"]
 order = 593
 uses = ["def-sc-abelian-variety", "def-sc-isogeny", "def-sc-mult-n", "def-wf-abelian-tate-module", "lem-sc-connected-finite-order", "lem-sc-divisible-group-structure", "lem-sc-fg-order-prime-etale", "lem-sc-finite-flat-surj-points", "lem-sc-finite-nonempty-point", "lem-sc-isogeny-facts", "lem-sc-isogeny-surjective", "lem-sc-mult-n-finite-flat", "lem-sc-ntorsion-etale", "prop-av-tate-rank", "rem-ptr-sc-abelian-variety-1", "rem-ptr-sc-isogeny-2"]
 +++
@@ -77,5 +77,3 @@ $A[\ell^n](k)\cong(\Z/\ell^n\Z)^{2g}$ by (c) and the transition maps
 are surjective by [lem-sc-finite-flat-surj-points], [lem-sc-finite-nonempty-point], [lem-sc-isogeny-surjective], so the inverse limit
 $T_\ell A$ of [def-wf-abelian-tate-module] is $\Z_\ell^{2g}$; this is
 [prop-av-tate-rank], and $V_\ell A=T_\ell A\otimes\Q_\ell$.
-
-Uses: [def-sc-isogeny], [rem-ptr-sc-isogeny-2], [def-sc-mult-n], [def-wf-abelian-tate-module], [def-sc-abelian-variety], [rem-ptr-sc-abelian-variety-1], [lem-sc-connected-finite-order], [lem-sc-divisible-group-structure], [lem-sc-finite-flat-surj-points], [lem-sc-finite-nonempty-point], [lem-sc-isogeny-surjective], [lem-sc-isogeny-facts], [lem-sc-mult-n-finite-flat], [lem-sc-ntorsion-etale], [lem-sc-fg-order-prime-etale], [prop-av-tate-rank]

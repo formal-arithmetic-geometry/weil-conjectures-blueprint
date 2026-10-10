@@ -17,5 +17,4 @@ the site and compact-support comparisons, and the uniform-tower
 reconstruction of chap:ambient-foundations. No duality statement is used anywhere in this
 section: the projection formula is a statement about the compatibility of
 $Rf_!$ with the tensor product, and it is logically prior to Verdier
-duality. The status of the remaining inputs of the framework, and of the nodes of the smooth-purity chapter that this chapter completes, is recorded in
-[rem-sf-ledger].
+duality.

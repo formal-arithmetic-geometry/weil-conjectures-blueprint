@@ -22,8 +22,8 @@ $\mathcal H^r$, the
 compact-support direct image
 $Rf_!$, and the
 exceptional inverse image
-$Rf^!$, with $Rf_!\dashv Rf^!$ and the
-exchange and projection and [def-weil-exceptional-inverse-image]). Use the
+$Rf^!$ of [def-weil-exceptional-inverse-image], with $Rf_!\dashv Rf^!$, and the
+exchange and projection maps. Use the
 coefficient twists of degree
 $m\in\mathbf Z$,
 

@@ -16,5 +16,6 @@ $$
 
 are isomorphisms and satisfy the quotient cocycle. Restriction of
 scalars uses [def-weil-completed-integral-coefficients].
+
 No common stratification or integral local model is part of this
-definition. Such finiteness assertions must be proved separately.
+definition; such finiteness assertions must be proved separately.

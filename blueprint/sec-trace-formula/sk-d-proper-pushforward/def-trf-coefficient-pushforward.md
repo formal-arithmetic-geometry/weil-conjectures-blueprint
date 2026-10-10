@@ -54,8 +54,7 @@ $$
 [f,g]_!u:=\delta\circ Rg_*u\circ\gamma:\
 b_2^*K'\longrightarrow b_1^!K',
 $$
-a correspondence on $(Y,K')$ supported on $b$ (Varshavsky, loc. cit.,
-1.2.4).
+a correspondence on $(Y,K')$ supported on $b$.
 1. *The induced map of fixed schemes.* Let $F_c=\operatorname{Fix}(c)$
 and $F_b=\operatorname{Fix}(b)$ be the fixed schemes of
 [def-trf-fixed-scheme], with projections $i_c:F_c\to C$, $d_c:F_c\to X$
@@ -66,8 +65,6 @@ unique morphism
 $$
 h:F_c\longrightarrow F_b,\qquad i_bh=g\,i_c,\qquad d_bh=f\,d_c .
 $$
-Its properness, and hence the Borel–Moore pushforward of the trace
-class along $h$, are established in the next lemma of this block.
 
 *The Cartesian case.* Neither construction uses a Cartesian
 square, but they reduce to the familiar maps when the squares are

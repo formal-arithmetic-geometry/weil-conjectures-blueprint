@@ -6,7 +6,7 @@ order = 1946
 uses = ["def-pur-affine-line-datum", "def-pur-conventions", "def-weil-derived-direct-image", "def-weil-exceptional-inverse-image", "fix-prop-adjunctions", "lem-amb-cartier-kummer-map", "lem-amb-closed-support-hom", "lem-pur-support-localization-triangle", "lem-weil-derived-direct-image-composition", "prop-pur-gm-relative-kummer", "thm-pur-with-support-exactness"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
-explicit ingredients, let $\Lambda=A$, and let
+let $\Lambda=A$, and let
 $s:Y\hookrightarrow\mathbf A^1_Y$ be the zero section. Then:
 
 1. The object $Rs^!\Lambda_{\mathbf A^1_Y}(1)[2]$ lies in
@@ -25,11 +25,6 @@ to an element of the space of morphisms
 $$
 \operatorname{Hom}_{D(Y,\Lambda)}\bigl(\Lambda_Y,Rs^!\Lambda_{\mathbf A^1_Y}(1)[2]\bigr).
 $$
-
-(Source: the Gysin sequence of the zero section, i.e. the
-affine-line case of the fundamental exact sequence of cohomological
-purity – Milne, Lectures on Etale Cohomology, Section 16, Theorems
-16.1 and 16.7, and Proposition 16.11 (the case $r=2c-1=1$).)
 
 ## Proof
 

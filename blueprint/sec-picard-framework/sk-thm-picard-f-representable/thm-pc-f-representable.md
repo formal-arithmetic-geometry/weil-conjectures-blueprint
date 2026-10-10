@@ -6,22 +6,37 @@ order = 831
 uses = ["def-pc-derived-category", "def-pc-f-subfunctor", "def-pc-finite-locally-free", "def-pc-genus", "def-pc-hilb-functor", "def-pc-pic-sigma-functor", "def-pc-rational-point", "def-pc-relative-effective-cartier", "def-pc-representable-functor", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-subfunctor", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "lem-pc-cartier-criterion", "lem-pc-f-open-subfunctor", "lem-pc-flat-rf-open", "lem-pc-hilb-representable", "lem-pc-projection-formula", "lem-pc-recd-pullback", "lem-pc-rf-base-change-flat-module", "lem-pc-universal-adjoint-section", "lem-pc-universal-divisor", "lem-pc-zero-scheme-recd", "prop-pc-xk-integral", "thm-pc-hilb-curves"]
 lean = ["AlgebraicGeometry.isRepresentable_picardFunctorInvertibleDirectImage"]
 +++
-(Picard Schemes of Curves, Lemma 44.6.4, Tag
-[0B9X](https://stacks.math.columbia.edu/tag/0B9X).)
 Let $k$ be a separably closed field,
-let $X$ be a
-smooth projective curve of
-genus $g$ over $k$ with a
+let $X$ be a scheme over $k$ which is smooth of relative dimension $1$,
+proper and geometrically integral over $k$ (for instance a smooth
+projective curve over $k$), of genus $g=\dim_kH^1(X,\mathcal{O}_X)$, with a
 $k$-rational point $\sigma$, and let
 $F$ be the subfunctor of
-[lem-pc-f-open-subfunctor]. Then $F$ is representable by an open
+[lem-pc-f-open-subfunctor]. Let $H$ be a $k$-scheme representing
+$\operatorname{Hilb}^g_{X/k}$. Then there are a scheme $W$ and an open
+immersion $j:W\to H$ such that $W$, viewed as a $k$-scheme through $j$,
+represents $F$; that is, $F$ is representable by an open
 subscheme of $\underline{\operatorname{Hilb}}^g_{X/k}$.
 
 ## Proof
 
-Write $H:=\underline{\operatorname{Hilb}}^g_{X/k}$; it exists by [prop-pc-xk-integral]
-(2) and [thm-pc-hilb-curves]. Let $D_{\mathrm{univ}}\subset H\times X$
-be the universal divisor, and let
+*Preliminaries.* The scheme $X$ is projective over $k$: it is separated
+of finite type of dimension $1$ over a field, hence quasi-projective, and a
+proper quasi-projective scheme over a field is projective
+([Tag 0B45](https://stacks.math.columbia.edu/tag/0B45)). Being
+geometrically integral, it is integral; so $X$ is a smooth projective
+curve in the sense of [def-pc-smooth-projective-curve], to which the
+lemmas on smooth projective curves used below apply, and
+[prop-pc-xk-integral] applies to it.
+
+Let $H$ be the given $k$-scheme representing $\operatorname{Hilb}^g_{X/k}$
+(such an $H$ exists by [thm-pc-hilb-curves], and any two are canonically
+isomorphic), and let $D_{\mathrm{univ}}\subset H\times X$ be the universal
+object, the element of $\operatorname{Hilb}^g_{X/k}(H)$ corresponding to
+$\mathrm{id}_H$; it is a relative effective Cartier divisor on
+$H\times X/H$ by [lem-pc-cartier-criterion] ((1)$\Rightarrow$(2), the
+projection $H\times X\to H$ being smooth of relative dimension $1$), as in
+[lem-pc-universal-divisor]. Let
 
 $$
 \mathcal{L}_H:=\mathcal{O}(D_{\mathrm{univ}})\otimes
@@ -69,8 +84,8 @@ $\mathcal{L}\otimes f_T^*\mathcal{N}^{-1}$ ([lem-pc-zero-scheme-recd]). By
 [lem-pc-zero-scheme-recd], $D:=Z(s)$ is a relative effective Cartier
 divisor on $X_T/T$ which is finite locally free of degree $g$; hence
 $D\in\operatorname{Hilb}^g_{X/k}(T)$ ([def-pc-hilb-functor]) and, by the
-representability of $\operatorname{Hilb}^g_{X/k}$ ([thm-pc-hilb-curves] (1)), there
-is a morphism $m:T\to H$ with $D=(m\times\mathrm{id}_X)^*D_{\mathrm{univ}}$
+representability of $\operatorname{Hilb}^g_{X/k}$ by $H$, there
+is a unique morphism $m:T\to H$ with $D=(m\times\mathrm{id}_X)^*D_{\mathrm{univ}}$
 (the universal object of [lem-pc-universal-divisor]).
 
 *$m$ factors through $W$.* By
@@ -134,3 +149,5 @@ $\theta\circ\psi=\mathrm{id}$ on $F(T)$ was computed above
 ($(m\times\mathrm{id})^*\mathcal{L}_H\cong\mathcal{L}$). Hence $\psi$ is an isomorphism of
 functors $h_W\cong F$, i.e. $F$ is representable (by the open subscheme
 $W$ of $H$, which is a scheme: open subschemes of schemes are schemes).
+Taking for $j:W\to H$ the inclusion of this open subscheme gives the
+statement.

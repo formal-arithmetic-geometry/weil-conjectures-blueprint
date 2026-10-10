@@ -21,8 +21,7 @@ Then the exchange morphism of
 [def-kun-unbounded-exchange],
 $q^{-1}Rj_*F\to Rh_*p^{-1}F$, is an isomorphism for every abelian
 sheaf $F$ on $U_{\Et}$ whose stalks are torsion of orders
-invertible in $K$. (*Source:* Stacks Project, Tag
-[0F1H](https://stacks.math.columbia.edu/tag/0F1H).)
+invertible in $K$.
 
 ## Proof
 

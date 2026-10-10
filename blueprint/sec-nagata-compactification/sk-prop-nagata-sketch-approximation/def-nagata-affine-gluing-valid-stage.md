@@ -5,12 +5,6 @@ title = "Cocycle-valid stage of an affine gluing presentation"
 order = 336
 uses = ["def-nagata-affine-gluing-coefficient-stage", "def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
-**Status.** Bypassed by the formalized route: the finite-presentation and
-Noetherian descent is done in one step by
-`AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation_of_isSeparated`
-and `AlgebraicGeometry.Scheme.nonempty_noetherianApproximation`, so
-this stage-by-stage bookkeeping is never carried out.
-
 For every identity, inverse, open-preservation, and triple-cocycle equation
 in $\mathsf G_S$, select a finite stage at which that equation holds on the
 chosen generators after localization. Define

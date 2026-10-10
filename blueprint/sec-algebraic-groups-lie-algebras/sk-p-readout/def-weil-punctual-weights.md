@@ -14,7 +14,7 @@ $\mathcal F$ be a constructible $\Qlb$-sheaf in the constructible heart,
 carrying the Weil-sheaf structure. For each closed point $y\in|Y_0|$, use the
 closed-point notation [def-weil-point-counts-zeta], set $q_y=\#\kappa(y)$,
 choose an embedding $\kappa(y)\hookrightarrow k$, and choose a geometric
-point $\bar y\to Y$ above $y$ (the eigenvalues of $F_y$ do not depend on these choices, by [lem-weil-local-frobenius-conjugacy-class]). Let $F_y$ be the local geometric-Frobenius
+point $\bar y\to Y$ above $y$. Let $F_y$ be the local geometric-Frobenius
 operator [def-weil-local-frobenius-trace] on $\mathcal F_{\bar y}$. For
 $w\in\mathbf R$, call $\mathcal F$ punctually $\iota$-pure of weight $w$ if
 every eigenvalue $\alpha$ of every $F_y$ satisfies
@@ -33,3 +33,7 @@ $$
 
 such that each quotient $\mathcal F_r/\mathcal F_{r-1}$ is punctually
 $\iota$-pure of weight $w_r$.
+
+The eigenvalues of $F_y$ do not depend on the choices of the embedding
+$\kappa(y)\hookrightarrow k$ and of $\bar y$, by
+[lem-weil-local-frobenius-conjugacy-class].

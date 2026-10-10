@@ -6,7 +6,7 @@ order = 84
 lean = ["AlgebraicGeometry.IsSchemeTheoreticallyDominant.of_isPullback", "AlgebraicGeometry.Scheme.Hom.ker_pullback_snd"]
 uses = ["def-nagata-dense-compactification", "def-nagata-extended-ideal", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++
-Let $h\colon U\to X$ be quasi-compact and quasi-separated with
+Let $h\colon U\to X$ be quasi-compact with
 scheme-theoretic image $X$, and let
 $q\colon P\to X$ be flat. Then
 
@@ -16,98 +16,72 @@ $$
 
 has scheme-theoretic image $P$.
 
+More generally, let $g\colon T\to Y$ be quasi-compact, let
+$q\colon Y'\to Y$ be flat, and let $g'\colon T\times_YY'\to Y'$ be the base
+change. Then the ideal sheaf $\ker(g')$ of $\operatorname{SIm}(g')$ equals
+the ideal sheaf of the closed subscheme
+$\operatorname{SIm}(g)\times_YY'\hookrightarrow Y'$; that is,
+$\operatorname{SIm}(g')\cong\operatorname{SIm}(g)\times_YY'$ as closed
+subschemes of $Y'$.
+
 ## Proof
 
-By [lemma-nagata-dense-flat-pullback], the scheme-theoretic
-image after pullback is canonically the pullback of the scheme-theoretic
-image of $h$. By hypothesis that image is $X$, and its pullback along
-$P\to X$ is the identity closed subscheme of $P$. Thus the base-changed
-morphism is scheme-theoretically dense in $P$.
+We first prove the general statement and then deduce the first one. This is
+Stacks Project, Tag 081I; the argument below uses only that $g$ is
+quasi-compact.
 
-## Localization of the affine image kernel
-
-Let $A$ be a ring, let $T\to\operatorname{Spec}(A)$ be quasi-compact and
-quasi-separated, and let $s\in A$. Put
-
-$$
-I=\ker\bigl(A\longrightarrow\Gamma(T,\mathcal O_T)\bigr).
-$$
-
-If $T_s=T\times_{\operatorname{Spec}(A)}\operatorname{Spec}(A_s)$, then
-
-$$
-\ker\bigl(A_s\longrightarrow\Gamma(T_s,\mathcal O_{T_s})\bigr)=IA_s.
-$$
-
-This equality is functorial under further localization.
-
-*Proof.*
-Choose a finite affine cover $(T_i)$ of $T$. Quasi-separatedness makes
-each $T_i\cap T_j$ quasi-compact, so choose a finite affine refinement of
-every such intersection. The sheaf equalizer for this finite covering
-computes $\Gamma(T,\mathcal O_T)$ from finite products of the coordinate
-rings of the selected affine opens and their finite affine refinements.
-Localizing this equalizer at $s$ is exact, commutes with its finite
-products, and replaces every selected affine by its inverse image in
-$T_s$. It therefore computes $\Gamma(T_s,\mathcal O_{T_s})$. Taking the
-kernel of the structural map gives $IA_s$. Repeating the same construction
-after a second localization gives the stated functoriality.
-
-## Flat base change of the affine image kernel
-
-Let $A\to B$ be flat, let $T\to\operatorname{Spec}(A)$ be quasi-compact
-and quasi-separated, and put
+**Step 1: the kernel over an affine open.** Let
+$V=\operatorname{Spec}(A)\subseteq Y$ be an affine open. Since $g$ is
+quasi-compact, $g^{-1}(V)$ is covered by finitely many affine opens
+$T_k=\operatorname{Spec}(C_k)$, $k=1,\ldots,n$. Because $\mathcal O_T$ is a
+sheaf, for every open $V_0\subseteq V$ the restriction map
+$\Gamma(g^{-1}(V_0),\mathcal O_T)\to\prod_k\Gamma(T_k\cap g^{-1}(V_0),
+\mathcal O_T)$ is injective. Hence the kernel of
+$\mathcal O_V\to(g_*\mathcal O_T)|_V$ equals the kernel of
+$\mathcal O_V\to\bigoplus_k(g_k)_*\mathcal O_{T_k}$, where
+$g_k\colon T_k\to V$ is the restriction of $g$. Each $g_k$ is a morphism of
+affine schemes, so $(g_k)_*\mathcal O_{T_k}$ is the quasi-coherent sheaf
+associated with the $A$-module $C_k$. Therefore the kernel of
+$\mathcal O_V\to(g_*\mathcal O_T)|_V$ is the quasi-coherent ideal associated
+with
 
 $$
-I=\ker\bigl(A\longrightarrow\Gamma(T,\mathcal O_T)\bigr).
+I=\ker\Bigl(A\longrightarrow\prod_{k=1}^nC_k\Bigr).
 $$
 
-For $T_B=T\times_{\operatorname{Spec}(A)}\operatorname{Spec}(B)$ one has
+In particular this kernel is quasi-coherent, so by
+[def-nagata-scheme-theoretic-image] and [lemma-nagata-scheme-image-ideal-qc]
+it is $\ker(g)|_V$, and $\operatorname{SIm}(g)\cap V=\operatorname{Spec}(A/I)$.
+
+**Step 2: flat base change over affine opens.** Let
+$V'=\operatorname{Spec}(B)\subseteq q^{-1}(V)$ be an affine open; the ring
+map $A\to B$ is flat. The base change $g'$ is quasi-compact, and
+$g'^{-1}(V')=g^{-1}(V)\times_VV'$ is covered by the finitely many affine opens
+$T_k\times_VV'=\operatorname{Spec}(C_k\otimes_AB)$. Step 1 applied to $g'$
+and this cover gives
 
 $$
-\ker\bigl(B\longrightarrow\Gamma(T_B,\mathcal O_{T_B})\bigr)=IB.
+\ker(g')|_{V'}=\ker\Bigl(B\longrightarrow\prod_{k=1}^n
+C_k\otimes_AB\Bigr)^{\sim}.
 $$
 
-The equality is natural in the flat algebra $B$ and commutes with
-localization on $B$.
+The sequence $0\to I\to A\to\prod_kC_k$ is exact and the product is finite,
+so tensoring with the flat $A$-algebra $B$ gives an exact sequence
+$0\to I\otimes_AB\to B\to\prod_k C_k\otimes_AB$. Hence the kernel above is
+the image of $I\otimes_AB\to B$, that is, $IB$. On the other hand,
+$\operatorname{SIm}(g)\times_YV'=\operatorname{Spec}(A/I)\times_{\operatorname{Spec}(A)}
+\operatorname{Spec}(B)=\operatorname{Spec}(B/IB)$, so by
+[def-nagata-extended-ideal] the ideal of the closed subscheme
+$\operatorname{SIm}(g)\times_YY'\hookrightarrow Y'$ is also $IB$ on $V'$.
 
-*Proof.*
-Use the finite affine cover and finite affine refinements from
-[lemma-nagata-dense-flat-pullback]. Tensor its finite
-sheaf equalizer with $B$. Flatness makes tensoring exact, and tensoring
-commutes with the finite products in this diagram. The resulting affine
-coordinate rings are precisely those of the base-changed cover of $T_B$,
-so the resulting equalizer computes $\Gamma(T_B,\mathcal O_{T_B})$.
-Exactness identifies the kernel of the base-changed structural map with
-$I\otimes_A B$, whose image in $B$ is $IB$. Naturality follows from the
-naturality of tensor product, and compatibility with localization is
-[lemma-nagata-dense-flat-pullback] applied over $B$.
+**Step 3: globalization.** The affine opens $V'$ as in Step 2, for $V$
+running over the affine opens of $Y$, cover $Y'$. Two quasi-coherent ideal
+sheaves of $\mathcal O_{Y'}$ that agree on every member of an open cover are
+equal. Hence $\ker(g')$ equals the ideal sheaf of
+$\operatorname{SIm}(g)\times_YY'$, which is the general statement.
 
-## Flat base change of a scheme-theoretic image (Stacks Project)
-
-Let $g\colon T\to Y$ be quasi-compact and quasi-separated and let
-$q\colon Y'\to Y$ be flat. For the base change
-$g'\colon T\times_YY'\to Y'$ one has a canonical isomorphism
-
-$$
-\operatorname{SIm}(g')
-\cong\operatorname{SIm}(g)\times_YY'
-$$
-
-of closed subschemes of $Y'$.
-
-*Proof.*
-Work over an affine open $V=\operatorname{Spec}(A)\subseteq Y$ and an
-affine open $V'=\operatorname{Spec}(B)\subseteq q^{-1}(V)$. The ring map
-$A\to B$ is flat. Apply
-[lemma-nagata-dense-flat-pullback] to
-$T\times_YV\to\operatorname{Spec}(A)$. It identifies the ideal of the
-image after base change to $V'$ with the extension to $B$ of the original
-image ideal. The latter is exactly the ideal defining
-$\operatorname{SIm}(g)\times_YV'$ under the closed-subscheme pullback
-isomorphism. Naturality and localization compatibility in
-[lemma-nagata-dense-flat-pullback] show that these affine
-identifications agree on all overlaps. Gluing gives the displayed
-canonical isomorphism of closed subschemes of $Y'$. This is the
-finite-affine-cover proof of Stacks Project, Tag 081I
-(Lemma 29.26.16), with $f=q$ and $g$ the morphism in the present statement.
+**Step 4: the dense case.** Apply the general statement to $g=h$ and
+$q\colon P\to X$. By hypothesis $\ker(h)=0$, i.e.
+$\operatorname{SIm}(h)=X$, and the pullback of the closed subscheme $X$ of
+$X$ along $q$ is $P$ itself, with ideal $0$. Hence the kernel of
+$U\times_XP\to P$ is $0$, i.e. its scheme-theoretic image is $P$.

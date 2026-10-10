@@ -8,17 +8,19 @@ order = 574
 Let $D$ be a divisible abelian group, $\ell$ a prime and
 $r\geq0$ an integer such that $D[\ell]$ has order $\ell^r$.
 Then $D[\ell^n]\cong(\mathbf Z/\ell^n\mathbf Z)^r$ for every
-$n\geq1$.
+$n\geq0$.
 
 ## Proof
 
 We prove by induction on $n$ that
 $D[\ell^n]\cong(\mathbf Z/\ell^n\mathbf Z)^r$, using only
-divisibility of $D$ and the given size of $D[\ell]$. The case
+divisibility of $D$ and the given size of $D[\ell]$. For $n=0$
+both sides are trivial groups: $D[1]=0$ and
+$(\mathbf Z/\mathbf Z)^r=0$. The case
 $n=1$ is the hypothesis: $D[\ell]$ is a group killed by $\ell$
 of order $\ell^r$, hence $\cong(\mathbf Z/\ell\mathbf Z)^r$.
 
-For the induction step, multiplication by $\ell$ gives an exact
+For the induction step from $n\geq1$ to $n+1$, multiplication by $\ell$ gives an exact
 sequence
 
 $$

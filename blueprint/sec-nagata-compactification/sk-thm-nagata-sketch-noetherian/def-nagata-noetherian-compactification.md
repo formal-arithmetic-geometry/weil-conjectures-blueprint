@@ -6,40 +6,39 @@ order = 324
 lean = ["AlgebraicGeometry.noetherianCompactificationConstruction"]
 uses = ["def-nagata-affine-compactification", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-dense-affine-cover", "def-nagata-partial-affine-unions", "def-nagata-two-open-compactification-candidate", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-final-density", "lemma-nagata-partial-union-overlap-dense", "lemma-nagata-two-open-candidate-proper", "lemma-nagata-two-open-valuative-lifting", "prop-nagata-affine-compactification", "thm-nagata-two-open"]
 +++
-Let $S$ be Noetherian and let $X\to S$ be separated and of finite type.
-Then $X$ is Noetherian, hence qcqs, and the finite generic-point argument
-supplies the selected dense affine cover
-$\mathcal U_X=(U_1,\ldots,U_n)$ from
-[def-nagata-dense-affine-cover]. Define pairs $(\mathsf C_r,h_r)$
-recursively along the partial unions of
-[def-nagata-partial-affine-unions], where $h_r$ is an explicit proof
-that $\mathsf C_r$ is a compactification of $X_r\to S$. Since
-$X_0=\emptyset$, the morphism $X_0\to S$ is proper, so set
+Let $S$ be Noetherian, let $f\colon X\to S$ be separated and of finite
+type, and let $U_1,\ldots,U_n$ be affine opens of $X$ whose total
+intersection $U_1\cap\cdots\cap U_n$ is dense in $X$ (for instance the
+selected dense affine cover $\mathcal U_X$ of
+[def-nagata-dense-affine-cover]). With $X_r$ the partial unions of
+[def-nagata-partial-affine-unions], define for every $r\in\mathbb N$ a
+compactification $\mathsf C_r$ of $X_r\to S$ in the sense of
+[def-nagata-compactification], recursively on $r$; at each stage
+$\mathsf C_r$ is a chosen compactification of $X_r\to S$, whose existence
+is supplied as follows.
+
+1. $X_0=\emptyset$, so $X_0\to S$ is proper and compactifies itself.
+1. If $r\geq n$ then $X_{r+1}=X_r$, which has the compactification
+$\mathsf C_r$.
+1. $X_1=U_1$ is affine, and [prop-nagata-affine-compactification]
+compactifies it.
+1. If $1\leq r<n$, apply [thm-nagata-two-open] to the open cover
+$X_{r+1}=X_r\cup U_{r+1}$, using the compactification $\mathsf C_r$ of
+$X_r$, the affine compactification of $U_{r+1}$ from
+[prop-nagata-affine-compactification], and the dense overlap from
+[lemma-nagata-partial-union-overlap-dense].
+
+Finally define
 
 $$
-(\mathsf C_0,h_0)
-=\bigl(\emptyset\hookrightarrow\emptyset\to S,
-\text{the witness that a proper morphism compactifies itself}\bigr).
+\mathsf C_{\mathrm{Noeth}}(X/S)=\mathsf C_n .
 $$
 
-Given $(\mathsf C_{r-1},h_{r-1})$, the next stage is $X_r=X_{r-1}\cup U_r$.
-If $r>n$ there is nothing to add and $X_r=X_{r-1}$. If $r=1$ then
-$X_1=U_1$ is affine and
-[prop-nagata-affine-compactification] supplies $(\mathsf C_1,h_1)$.
-Otherwise apply [thm-nagata-two-open] to the open cover
-$X_r=X_{r-1}\cup U_r$, using $h_{r-1}$, the affine compactification witness
-for $U_r$ from [prop-nagata-affine-compactification], and the dense
-overlap from [lemma-nagata-partial-union-overlap-dense]. Choose the
-resulting candidate and its compactification proof as
-$(\mathsf C_r,h_r)$, and finally define
-
-$$
-\mathsf C_{\mathrm{Noeth}}(X/S)=\mathsf C_n,
-\qquad h_{\mathrm{Noeth}}=h_n.
-$$
-
-The recursive datum is therefore a dependent finite sequence of pairs, not
-an unproved sequence of candidates. At every stage also record that
-$X_r\to S$ is separated and of finite type, as follows by restricting the
-corresponding properties of $X\to S$ to the open $X_r\subseteq X$; these
-are the hypotheses used at the next application of the two-open theorem.
+Since $S$ is Noetherian and $X\to S$ is of finite type, $X$ is Noetherian,
+hence quasi-compact and quasi-separated, and the finite generic-point
+argument of [def-nagata-dense-affine-cover] supplies such a family covering
+$X$. At every stage $X_r\to S$ is separated and of finite type, by
+restricting the corresponding properties of $X\to S$ to the open
+$X_r\subseteq X$ (a finite union of affine opens, hence quasi-compact);
+these are the hypotheses used at the next application of
+[thm-nagata-two-open].

@@ -14,7 +14,7 @@ to a qcqs ambient scheme while preserving a specified open on which they
 are trivial. For $T\to X$ and $b:X'\to X$ with centre $C$, the
 *strict transform* of $T$ is the scheme-theoretic closure of
 $T\times_X(X\setminus C)$ in $T\times_XX'$; it is the blow-up of $T$
-in the pulled-back ideal. Scheme-theoretic density of a preserved open
+in the pulled-back ideal. Scheme-theoretic density of a quasi-compact preserved open
 survives an admissible blow-up.
 
 ## Proof
@@ -30,5 +30,3 @@ show that a scheme-theoretically dense preserved open remains so.
 Moreover, choosing a finite-type ideal with zero set exactly
 $X\setminus U$ makes $U$ scheme-theoretically dense in its blow-up,
 even when $U$ was not dense in $X$.
-
-Uses: [sk-def-nagata-sketch-data], [sk-lem-nagata-sketch-closure]

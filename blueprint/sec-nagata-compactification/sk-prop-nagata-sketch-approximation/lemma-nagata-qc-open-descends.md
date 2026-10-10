@@ -5,12 +5,6 @@ title = "Property of the descended quasi-compact open"
 order = 348
 uses = ["def-nagata-qc-open-descent", "lemma-nagata-directed-finite-upper-bound"]
 +++
-**Status.** Bypassed by the formalized route: the finite-presentation and
-Noetherian descent is done in one step by
-`AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation_of_isSeparated`
-and `AlgebraicGeometry.Scheme.nonempty_noetherianApproximation`, so
-this stage-by-stage bookkeeping is never carried out.
-
 The constructed $W_{\lambda_W}$ is quasi-compact, and its inverse image in
 $Y$ is exactly $W$.
 

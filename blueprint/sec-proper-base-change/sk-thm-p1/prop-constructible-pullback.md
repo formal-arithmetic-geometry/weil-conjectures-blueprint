@@ -8,7 +8,8 @@ tags = ["latex:proposition"]
 uses = ["def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-finite", "lemma-constructible-pullback-locally-constant", "lemma-constructible-pullback-stratification"]
 +++
 Let $g\colon Y\to X$ be a morphism and let $\mathcal F\in\shv{\et X}$ be
-constructible. Then $g^*\mathcal F$ is constructible. In particular
+constructible. Then $g^*\mathcal F$ is constructible. Likewise, if
+$\mathcal F$ is finite locally constant, so is $g^*\mathcal F$. In particular
 constructibility is preserved by restriction to an open, to a closed
 subscheme, and to any locally closed subscheme.
 
@@ -24,3 +25,8 @@ $\iota_k'^*g^*\mathcal F\cong g_k^*\iota_k^*\mathcal F$, which is finite
 locally constant by
 [lemma-constructible-pullback-locally-constant], [lemma-constructible-pullback-finite]
 and [lemma-constructible-iso-invariance].
+
+If $\mathcal F$ is finite locally constant, then $g^*\mathcal F$ is locally
+constant by [lemma-constructible-pullback-locally-constant] and has finite
+stalks by [lemma-constructible-pullback-finite], so it is finite locally
+constant.

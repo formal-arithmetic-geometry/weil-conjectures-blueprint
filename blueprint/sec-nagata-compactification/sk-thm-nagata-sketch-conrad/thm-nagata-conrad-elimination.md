@@ -6,38 +6,69 @@ order = 220
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_partialSection"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-quasi-affine-morphism", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-affine-blowup-complement", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-blowup-base-change-reduction", "lemma-nagata-conrad-closed-target-reduction", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-graph-closure-quasi-finite", "lemma-nagata-conrad-quasi-affine-general", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-localization-ideal-pow", "lemma-nagata-quasi-affine-morphism-of-quasi-finite", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "lemma-nagata-scheme-image-ideal-qc", "prop-nagata-affine-blowup-chart", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded", "thm-nagata-global-blowup-proper"]
 +++
-Let $S$ be qcqs and let $X$ and $Y$ be qcqs $S$-schemes with $Y\to S$
-separated and of finite type. Let $U\subseteq V\subseteq X$ be dense open
-subschemes whose open immersions into $X$ are quasi-compact, and let $(U,f)$
-be a quasi-domination of $V$ over $Y$ in the sense of
-[def-nagata-conrad-quasi-domination]. There exists a $V$-admissible
-blow-up $\widetilde X\to X$ such that $\widetilde X$ quasi-dominates $Y$ in a
-manner extending $f\colon U\to Y$.
+Let $X$ be a quasi-compact and quasi-separated scheme, let
+$U\subseteq V\subseteq X$ be quasi-compact opens with $U$ dense in $X$,
+and let $p\colon Y\to X$ be separated and of finite type with $Y$
+quasi-compact and quasi-separated. Let $f\colon U\to Y$ be a section of
+$p$ over $U$ whose image is closed in $p^{-1}(V)$. There are a
+$V$-admissible blow-up $\pi\colon\widetilde X\to X$, an open
+$W\subseteq\widetilde X$ containing $\pi^{-1}(U)$ and a morphism
+$g\colon W\to Y$ with $p\circ g=\pi|_W$ extending $f$ (that is,
+$g|_{\pi^{-1}(U)}=f\circ\pi|_{\pi^{-1}(U)}$), whose graph is closed in
+$Y\times_X\widetilde X$.
 
 ## Proof
 
-The morphism $f$ is automatically quasi-compact and quasi-separated.
-Replacing $Y$ by $Y\times_SX$ we may assume $X=S$; thus $p\colon Y\to X$ is
-separated and of finite type and $f\colon U\to Y$ is a section of $p$ over
-$U$ whose image is closed in the part of $Y$ lying over $V$.
+The density of $U$ is not used below.
 
-If $p$ is quasi-affine, this is
-[lemma-nagata-conrad-quasi-affine-general]. In general, let
-$q\colon\widetilde X\to X$ be the $V$-admissible blow-up produced by
-[lemma-nagata-conrad-graph-closure-quasi-finite] and let
-$\overline{F(U)}\subseteq\widetilde X\times_XY$ be the scheme-theoretic image
-of $F=(\sigma,f)$. That lemma makes
-$\overline{F(U)}\to\widetilde X$ quasi-finite and separated, so
-[lemma-nagata-quasi-affine-morphism-of-quasi-finite] makes it
-quasi-affine as a morphism to $\widetilde X$. (Note that $\widetilde X$ is a
-blow-up of a qcqs scheme and is not itself quasi-affine, so the absolute form
-of quasi-affineness is not available here.)
+If $p$ is quasi-affine in the sense of [def-nagata-quasi-affine-morphism],
+this is [lemma-nagata-conrad-quasi-affine-general]: its finite type ideal
+$\mathcal I$ with $V(\mathcal I)\cap V=\varnothing$ defines a
+$V$-admissible blow-up, and it supplies $W\supseteq\pi^{-1}(U)$ and the
+extension $g$ with closed graph.
 
-By [lemma-nagata-conrad-blowup-base-change-reduction] we may base change
-along the $V$-admissible blow-up $q$ without leaving the statement of the
-theorem; [lemma-nagata-conrad-dense-in-admissible-blowup] keeps $U$ and
-$V$ dense. After that base change the scheme-theoretic image
-$\overline{f(U)}$ of $U$ in $Y$ is quasi-affine over the base, so
-[lemma-nagata-conrad-closed-target-reduction] lets us replace $Y$ by
-$\overline{f(U)}$, and we are reduced to the quasi-affine case already
-treated.
+In general, let $q\colon\widetilde X\to X$ be the $V$-admissible blow-up and
+$\sigma\colon U\hookrightarrow\widetilde X$ the open immersion with
+$q\circ\sigma$ the inclusion of $U$ produced by
+[lemma-nagata-conrad-graph-closure-quasi-finite], let
+$F=(f,\sigma)\colon U\to Y\times_X\widetilde X$, and let
+$Z=\overline{F(U)}\subseteq Y\times_X\widetilde X$ be the scheme-theoretic
+image of $F$, with closed immersion $i\colon Z\hookrightarrow Y\times_X\widetilde X$
+and $p_Z=\mathrm{pr}_{\widetilde X}\circ i\colon Z\to\widetilde X$. That lemma
+makes $p_Z$ locally quasi-finite, locally of finite type, quasi-compact and
+separated, so [lemma-nagata-quasi-affine-morphism-of-quasi-finite] makes $p_Z$
+quasi-affine as a morphism. (Neither $\widetilde X$ nor $Z$ need be
+quasi-affine as a scheme, so only the relative form of quasi-affineness is
+available here.)
+
+We now check the hypotheses of [lemma-nagata-conrad-quasi-affine-general]
+over $\widetilde X$. The blow-up $q$ is proper
+([lemma-nagata-blowup-proper]), so $\widetilde X$ is quasi-compact and
+quasi-separated, and $q^{-1}(U)\subseteq q^{-1}(V)$ are quasi-compact opens.
+The scheme $Z$ is quasi-compact and quasi-separated, since $p_Z$ is
+quasi-compact and separated over the qcqs scheme $\widetilde X$. Since the
+centre of $q$ is disjoint from $V\supseteq U$, $q$ restricts to an
+isomorphism $q^{-1}(V)\to V$ (apply
+[lemma-nagata-affine-blowup-complement] on an affine open cover of $V$), and
+$\sigma$ is an isomorphism of $U$ onto $q^{-1}(U)$, inverse to $q$ there. Let
+$f'\colon q^{-1}(U)\to Y\times_X\widetilde X$ be the base change of $f$, i.e.
+the section of the projection $p'\colon Y\times_X\widetilde X\to\widetilde X$
+over $q^{-1}(U)$ induced by $f\circ q|_{q^{-1}(U)}$. Under
+$\sigma\colon U\cong q^{-1}(U)$ it is $F$, so $f'$ factors through $Z$ as
+$f'=i\circ f''$ with $f''\colon q^{-1}(U)\to Z$ a section of $p_Z$ over
+$q^{-1}(U)$. Over $q^{-1}(V)\cong V$ the morphism $p'$ is identified with
+$p^{-1}(V)\to V$ and the image of $f'$ with the image of $f$, which is
+closed in $p^{-1}(V)$; hence the image of $f'$ is closed in
+$p'^{-1}(q^{-1}(V))$, and the image of $f''$, being its inverse image under
+$i$, is closed in $p_Z^{-1}(q^{-1}(V))$.
+
+So [lemma-nagata-conrad-quasi-affine-general] applies to
+$(\widetilde X,\,q^{-1}(U)\subseteq q^{-1}(V),\,p_Z,\,f'')$ and gives a
+$q^{-1}(V)$-admissible blow-up of $\widetilde X$ together with an open
+containing the inverse image of $q^{-1}(U)$ and an extension of $f''$ with
+closed graph. By [lemma-nagata-conrad-closed-target-reduction] applied to the
+closed immersion $i$ (with $p'\circ i=p_Z$), the data
+$(\widetilde X,q^{-1}(U),q^{-1}(V),p',f'=i\circ f'')$ admit an extension
+in the sense of [lemma-nagata-conrad-blowup-base-change-reduction]. By that
+lemma, applied to the $V$-admissible blow-up $q$, the original data
+$(X,U,V,p,f)$ admit an extension, which is the assertion.

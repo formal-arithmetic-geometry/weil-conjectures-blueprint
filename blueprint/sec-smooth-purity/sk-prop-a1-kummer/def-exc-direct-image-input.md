@@ -24,10 +24,3 @@ field with $\operatorname{char}(K)$ prime to $N$, and let $W$
 be a finite-type $K$-scheme of dimension at most $d$. Then
 $H^q(W,M)=0$ for every $q>2d$ and every torsion sheaf of abelian
 groups $M$ on $W_{{\mathrm{et}}}$.
-
-Both clauses concern the ordinary direct image and the etale cohomology
-of schemes only: neither of them mentions the exceptional inverse image,
-the ambient exceptional right adjoint datum, purity, or base change. Both
-clauses are proved in this blueprint, in the constructibility chapter and the Jacobian chapter
-respectively; the classical sources of the two statements, and the way
-they are used here, are recorded in the remark that follows.

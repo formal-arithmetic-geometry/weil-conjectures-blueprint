@@ -5,10 +5,9 @@ title = "Constructible representation of an $H^1$ class"
 order = 1136
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-constructible-approximation", "lemma-weil-pbc-constructible-finite-pushforward"]
 +++
-For an injective sheaf $I$ of $\mathbf F_\ell$-modules on $\mathbf P^1_A$,
-every class
-$c\in H^1(X_0,I_0)$ admits finite $\mathbf F_\ell$-modules $M_i$, finite finitely presented
-morphisms $h_i:V_i\to X$, and a map
+Let $I$ be an injective sheaf of $\mathbf F_\ell$-modules on $X=\mathbf P^1_A$.
+Every class $c\in H^1(X_0,I_0)$ admits finite $\mathbf F_\ell$-modules $M_i$,
+finite finitely presented morphisms $h_i:V_i\to X$, and a map
 $\bigoplus_i(h_i)_*\underline{M_i}\to I$ such that $c$ is the image of a
 tuple of classes in
 $\bigoplus_iH^1(X_0,(h_i)_*\underline{M_i}|_{X_0})$.
@@ -64,29 +63,3 @@ $$
 
 Thus $c'$ is the required finite tuple, and the displayed map $F'\to I$
 sends that tuple to the original class.
-
-## Detailed form
-
-Let $I$ be an injective sheaf of $\mathbf F_r$-modules on $X=\mathbf P^1_A$.
-Every class $c\in H^1(X_0,I_0)$ is the image of a finite tuple of classes
-belonging to sheaves
-
-$$
- (h_i)_*\underline{M_i},
-$$
-
-where $h_i:V_i\to X$ is finite and finitely presented and $M_i$ is a finite
-$\mathbf F_r$-module.
-
-## Proof
-
-View $c$ as the isomorphism class of an $I_0$-torsor. It is trivial on a
-quasi-compact etale cover, so choosing local origins gives a Cech cocycle with
-finitely many components; [lemma-weil-pbc-constructible-approximation] supplies
-a constructible $\mathbf F_r$-module sheaf $F$, a map $F\to I$, and lifts of
-the finitely many cocycle components and equations.
-[lemma-weil-pbc-constructible-finite-pushforward] gives a monomorphism
-$F\hookrightarrow\bigoplus_i(h_i)_*\underline{M_i}$, and injectivity of $I$
-extends the map $F\to I$ across it. The image of the lifted tuple in
-$\bigoplus_iH^1(X_0,(h_i)_*\underline{M_i}|_{X_0})$ maps to $c$, as the Cech
-complexes are compatible.

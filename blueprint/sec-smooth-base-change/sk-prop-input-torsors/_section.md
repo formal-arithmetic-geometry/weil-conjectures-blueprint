@@ -17,16 +17,13 @@ $$
 
 between the isomorphism classes of $M$-torsors on $Y_{\Et}$ and
 $H^1(Y_{\Et},\underline M)$, and an $M$-torsor is the same thing as a
-finite étale $Y$-scheme with a simply transitive $M$-action. For
+finite étale surjective $Y$-scheme with a simply transitive
+$M$-action. Under this bijection the class of a torsor vanishes exactly
+when its structure morphism admits a section. For
 $M=\Z/d\Z$ and $Y$ connected with geometric point $\bar y$, the
 torsor attached to a class is connected — that is, a Galois cover
-with group $\Z/d\Z$, the input taken by [sk-prop-input-spreading]
-— exactly when the corresponding continuous homomorphism
+with group $\Z/d\Z$ — exactly when the corresponding continuous homomorphism
 $\pi_1(Y,\bar y)\to\Z/d\Z$ is surjective.
-(02NE, together with the finite-étale correspondence;
-cf. Milne, *Lectures on Étale Cohomology*, III.3.)
-The sketch below condenses the proofs of the detailed blueprint,
-Ch. 02b.
 
 ## Proof
 
@@ -98,13 +95,11 @@ finite étale cover whose automorphism group $\Z/d\Z$ acts simply
 transitively on the fibre, that is, a Galois cover with group
 $\Z/d\Z$.
 
-*Scope of the Lean statement.* The bijection is stated together with
-the one further property that [sk-thm-vanishing] uses, namely that the
-class of a torsor vanishes exactly when its structure morphism admits
-a section. Its naturality in $Y$ is not stated: expressing it needs a
-pullback map $H^1(Y_{\Et},M)\to H^1(Y'_{\Et},M)$ on sheaf cohomology
-along a morphism of schemes, which is not yet available. The
-connectedness criterion above, which needs the étale fundamental
-group, is likewise left to the prose.
-
-Uses: `cor-galois-abelian-h1`, [sk-def-smooth], `thm-galois-lc-etale`, `thm-galois-torsor-h1`
+*Trivial classes.* The class $0$ corresponds to $P_0=\ker d=\underline M$,
+the trivial torsor. A torsor $P$ with a global section $p$ is trivial, by
+$m\mapsto p+m$, and the trivial torsor has the section $0$; so the class of
+$P$ vanishes exactly when $P$ has a global section. Through the
+representing finite étale $Y$-scheme, a global section of the sheaf $P$ is
+a $Y$-morphism $Y\to P$, i.e. a section of the structure morphism.
+Finally, the structure morphism of the representing scheme is surjective:
+étale locally it is $\coprod_{m\in M}Y\to Y$, and $M$ is nonempty.

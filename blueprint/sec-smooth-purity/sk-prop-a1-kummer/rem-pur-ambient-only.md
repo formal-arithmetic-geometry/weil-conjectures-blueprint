@@ -54,8 +54,7 @@ of a general separated finite-type morphism, so the present chapter and
 the chapter on exceptional right adjoints do not use each other's
 conclusions: that chapter records the smooth adjunction as a separate
 obligation, and this chapter records the preservation clauses as
-conclusions rather than hypotheses
-(rem:weil-admissibility-split).
+conclusions rather than hypotheses.
 
 General finite-coefficient Verdier biduality on $D^b_{ctf}$ is
 the independent geometric theorem [thm-fix-general-biduality].
@@ -65,15 +64,14 @@ solely from existence or preservation of an ambient right adjoint.
 The subsequent coefficient comparisons extend it to the specified
 integral and field categories, as exported in
 [thm-sf-biduality-class]. The smooth orientation constructed in
-this chapter identifies the dualizing object in that separate theorem;
-this navigation record is not an input to the purity proof.
+this chapter identifies the dualizing object in that separate theorem.
 
 The two closed-immersion statements
 ([lem-exc-closed-amplitude], [prop-exc-closed-tor]) are conditional on
 the open-complement condition of the pair they treat, which is a statement
 about the ordinary direct image and is proved in the chapter on exceptional
-right adjoints from the direct-image finiteness theorems of Blueprints 06b
-and 07 ([thm-sf-preservation-class]). Apart from the ambient
+right adjoints from the direct-image finiteness theorems
+([thm-sf-preservation-class]). Apart from the ambient
 exceptional right adjoint datum — a theorem on the coefficients used
 here, as just recorded — this chapter therefore assumes no geometric
 hypothesis at all.

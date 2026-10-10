@@ -5,7 +5,7 @@ title = "Base change for the dualizing object of a projection"
 order = 2009
 uses = ["def-pur-co-smoothness", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "sbc-thm-etale-local-normal-form"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
+In the purity conventions of [def-pur-conventions],
 let $f:X\to Y$ be smooth separated of pure relative dimension
 $d$, put $W=X\times_YX$ with projections $p_1,p_2$. The square
 

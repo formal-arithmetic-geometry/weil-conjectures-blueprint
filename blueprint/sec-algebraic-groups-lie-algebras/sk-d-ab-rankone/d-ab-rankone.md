@@ -21,9 +21,10 @@ defines a degree datum $(P\rtimes_\alpha\mathbf Z,\deg,(1,1))$ with kernel
 $P\times\{0\}$. Every element has a unique form $u\gamma^n$ with $u\in P$
 and $n=\deg(u\gamma^n)$. For a field $E$, a rank-one character is a homomorphism
 $\chi:W\to E^\times$. It has finite geometric image if $\chi(P)$ is
-finite, and finite image if $\chi(W)$ is finite. These are distinct
-conditions; no topology is needed for the following factorization.
-For such a character, set $z=\chi(\gamma)$ and define the functions
+finite, and finite image if $\chi(W)$ is finite.
+More generally, for a homomorphism $\chi:W\to A$ into a commutative
+group $A$ (a rank-one character being the case $A=E^\times$), set
+$z=\chi(\gamma)$ and define the functions
 
 $$
 \chi_z(w)=z^{\deg(w)},\qquad
@@ -31,6 +32,3 @@ $$
 $$
 
 so that $\chi(w)=\chi_{\mathrm{fin}}(w)\chi_z(w)$ by construction.
-def:ab-cyclic-extension;def:ab-finite-character;def:ab-finite-part
-
-Uses: [d-monodromy]

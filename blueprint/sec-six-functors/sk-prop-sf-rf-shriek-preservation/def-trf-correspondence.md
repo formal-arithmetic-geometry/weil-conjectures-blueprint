@@ -31,5 +31,3 @@ of [def-trf-admissibility]; $c_2$ is the ordinary pullback leg
 and $c_1$ the exceptional leg. The correspondence is
 *admissible* if $c_1$ and every base change of $c_1$ occurring
 below are exceptionally admissible at $A$.
-
-*Recorded in advance* from chapter *The trace formula* of the source.

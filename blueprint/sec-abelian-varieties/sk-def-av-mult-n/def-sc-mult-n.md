@@ -6,15 +6,16 @@ lean = ["AlgebraicGeometry.torsionSubgroupScheme"]
 order = 434
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "lem-sc-kernel-subgroup"]
 +++
-Let $A$ be an abelian variety
-over $k$ and $n\geq1$. The $n$-th *multiplication map*
-$[n]:A\to A$ is the
-homomorphism given on points by
-$a\mapsto a+\cdots+a$ ($n$ summands). The $n$-*torsion
-subgroup scheme* is the kernel
+Let $A$ be a group scheme
+over $k$ and $n\geq0$. The $n$-th *multiplication map*
+$[n]:A\to A$ is the $n$-th power map, given on points by
+$a\mapsto a+\cdots+a$ ($n$ summands, written additively). The
+$n$-*torsion subgroup scheme* is its kernel
 
 $$
-A[n]:=\ker([n]),
+A[n]:=\ker([n])=A\times_{[n],A,e}\operatorname{Spec}k.
 $$
 
-a closed subgroup scheme of $A$ ([def-sc-group-scheme], [lem-sc-kernel-subgroup]).
+When $A$ is commutative (for instance an abelian variety), $[n]$ is a
+homomorphism and $A[n]$ is a closed subgroup scheme of $A$
+([def-sc-group-scheme], [lem-sc-kernel-subgroup]).

@@ -11,11 +11,6 @@ derived pullback
 along absolute $p$-power Frobenius $F_X$ has a canonical
 trivialization $LF_X^*\simeq\operatorname{id}$. It commutes with
 restriction to open subschemes and with its multiplicative iterates.
-(Source for the input: [Stacks,
-Tag 0F6W](https://stacks.math.columbia.edu/tag/0F6W), Lemma 37.64.15 – for a weakly etale $U\to X$ the relative
-Frobenius $F_{U/X}:U\to U\times_{X,F_X}X$ is an isomorphism; the
-trivialization of the derived pullback and its compatibilities with
-restriction and with the iterates are the content of the proof below.)
 
 ## Proof
 
@@ -77,5 +72,3 @@ so the same maps on complexes give the derived assertion with
 $r_V$ to an open gives the same relative Frobenius there.
 Composing them gives relative $p^m$-power Frobenius, proving the
 restriction and iteration assertions.
-
-*Recorded in advance* from chapter *The trace formula* of the source.

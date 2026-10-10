@@ -28,5 +28,3 @@ are [lem-weil-verdier-preservation-strata]. General finite-stage biduality is
 the exceptional adjunction is [prop-coef-integral-exceptional-adjoint].
 Normalized DVR towers reconstruct by [lem-coef-normalized-dvr-effectivity].
 The scope for other towers is [rem-sf-tower-shapes-occurring].
-
-This record collects results and supplies no premise to their proofs.

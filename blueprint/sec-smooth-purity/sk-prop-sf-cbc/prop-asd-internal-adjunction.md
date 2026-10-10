@@ -15,8 +15,6 @@ Rf_*R\mathcal Hom_A(M,f^\times K)
 \xrightarrow{\sim}R\mathcal Hom_A(Rf_!M,K).
 $$
 
-The notation refers to derived pullback and internal Hom, and ordinary etale compact supports.
-
 ## Proof
 
 For every test complex $Q$ on $S$, the ordinary

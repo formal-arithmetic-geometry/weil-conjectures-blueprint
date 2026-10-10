@@ -40,22 +40,3 @@ $$
 as the resulting equivalence classes. Addition, identities, negatives, and
 composition are computed after transporting all representatives to one
 common finite overfield.
-
-*Source note:* no Stacks Project entry states this construction: the
-ledger's verified entries contain no filtered-colimit or Karoubi
-construction of coefficient categories, and the blueprint adds the pair
-category $\mathcal P_T$ of finite stages, whose morphism sets are filtered
-colimits over the finite extensions $E/\Ql$. The nearest entries, each
-fetched and quoted, are Categories, Definition 4.21.1 ([Tag
-00D3](https://stacks.math.columbia.edu/tag/00D3), directed set) and Lemma
-4.21.5 ([Tag 0032](https://stacks.math.columbia.edu/tag/0032), a filtered
-index category may be replaced by a directed set without changing colimits)
-with Remark 4.21.6 ([Tag
-09P8](https://stacks.math.columbia.edu/tag/09P8), a colimit indexed by a
-finite filtered category need not be trivial), and Definition 61.29.1 ([Tag
-09C1](https://stacks.math.columbia.edu/tag/09C1)), which fixes one
-Noetherian coefficient ring $\Lambda$ and forms no colimit over coefficient
-fields. Difference: those entries take colimits of diagrams inside a fixed
-category and keep the coefficient ring fixed, whereas the blueprint adds
-both the filtered poset $\mathsf{FinExt}_\ell$ and the category
-$\mathcal P_T$ built from it.

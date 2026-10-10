@@ -6,7 +6,7 @@ order = 2011
 tags = ["latex:corollary"]
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
+In the purity conventions of [def-pur-conventions],
 let $f:X\to Y$ be smooth separated of pure relative dimension $d$
 and let $K\in D^b_{ctf}(Y,\Lambda)$. Substituting the identification
 of [thm-pur-diagonal-dualizing-object] into the tensor formula of

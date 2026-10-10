@@ -8,11 +8,18 @@ uses = ["sk-def-av-group-scheme", "sk-prop-av-connected-order"]
 +++
 *Proposition (sketch).*
 
-Let $G$ be a finite flat group scheme over an algebraically closed
-field $k$ of characteristic $p\ge0$, of order $m$ with $p\nmid m$ (for
+Let $G$ be a finite group scheme over a field $k$ of characteristic
+$p\ge0$, of order $m$ with $p\nmid m$ (for
 $p=0$, any $m$). Then $G$ is étale over $k$.
 
 ## Proof
+
+Base change to an algebraic closure $\bar k$ does not change the order
+($\dim_{\bar k}(\cO_G\otimes_k\bar k)=\dim_k\cO_G$) or the
+characteristic, and $G$ is étale over $k$ iff $G_{\bar k}$ is étale over
+$\bar k$, because $\Omega_{G_{\bar k}/\bar k}=\Omega_{G/k}\otimes_k\bar k$
+and $\bar k$ is faithfully flat over $k$. So we may assume $k$
+algebraically closed.
 
 Over the algebraically closed $k$, a finite scheme is étale iff it is
 reduced: writing the coordinate ring as a product of finite local
@@ -28,5 +35,3 @@ $G$ is reduced, hence étale. For $p=0$ this is Cartier's theorem
 (`047N`): every finite group scheme over a field of
 characteristic zero is smooth, and a finite smooth group scheme is
 étale.
-
-Uses: [sk-def-av-group-scheme], [sk-prop-av-connected-order]

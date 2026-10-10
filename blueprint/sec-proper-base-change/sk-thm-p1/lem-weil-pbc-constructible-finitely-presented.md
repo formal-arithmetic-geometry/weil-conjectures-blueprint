@@ -18,8 +18,6 @@ $$
 is a bijection; equivalently, every morphism $F\to G$ factors through one of
 the $G_i$, and any two such factorizations agree after passing to a common
 refinement of the index.
-(*Stacks Project, Etale Cohomology, Lemma 59.73.8, Tag
-[09Z4](https://stacks.math.columbia.edu/tag/09Z4).*)
 
 ## Proof
 

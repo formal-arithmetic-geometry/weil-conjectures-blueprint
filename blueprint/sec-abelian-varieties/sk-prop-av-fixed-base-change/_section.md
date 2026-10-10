@@ -26,5 +26,3 @@ polynomials in $x_m$ with coefficients in $k$, and the remaining
 equation is $\varphi(x_m)=0$ for a nonzero polynomial $\varphi\in k[X]$; all its roots lie in the algebraically closed field $k$. The
 two solution sets therefore agree blockwise, and the map is injective,
 so it is an isomorphism.
-
-Uses: [sk-def-av], [sk-prop-av-lang-steinberg]

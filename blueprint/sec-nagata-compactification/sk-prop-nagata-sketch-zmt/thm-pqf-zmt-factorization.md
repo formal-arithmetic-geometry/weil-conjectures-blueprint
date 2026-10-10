@@ -14,13 +14,6 @@ quasi-compact open
 immersion $j:X\hookrightarrow T$ and a
 finite morphism
 $p:T\to S$ with $f=p\circ j$.
-(*Stacks Project: the Zariski main theorem, More on Morphisms,
-Lemma 37.43.3, Tag [05K0](https://stacks.math.columbia.edu/tag/05K0);
-the
-normalization-of-the-target-in-the-source constructions used in the
-proof are the quasi-finite-locus theorem Tag
-[03GW](https://stacks.math.columbia.edu/tag/03GW) and Tag
-[02LR](https://stacks.math.columbia.edu/tag/02LR).*)
 
 ## Proof
 

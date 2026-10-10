@@ -4,11 +4,6 @@ kind = "definition"
 title = "Quasi-domination (Conrad)"
 order = 178
 +++
-**Status.** Bypassed by the formalized route: quasi-dominations are not
-introduced in Lean. The extension statements are proved directly from
-scheme-theoretic dominance and separatedness, through
-`AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant_of_isSeparated`.
-
 Let $X$ and $Y$ be $S$-schemes with $Y\to S$ separated. A
 *quasi-domination of $X$ over $Y$* is a pair $(U,f)$ consisting of a
 dense open subscheme $U\subseteq X$ and an $S$-morphism $f\colon U\to Y$

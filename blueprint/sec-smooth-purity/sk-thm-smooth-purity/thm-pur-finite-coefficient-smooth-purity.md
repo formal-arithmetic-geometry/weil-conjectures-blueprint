@@ -21,12 +21,9 @@ tensor, and internal Hom, the
 compact-support direct
 image $Rf_!$, and the
 exceptional inverse image
-$Rf^!$ of the operations — on the coefficient class of this chapter the
-ambient
-exceptional right
-adjoint datum of [def-weil-ambient-exceptional-adjoint] that supplies it
-is the theorem [cor-sf-ambient-adjoint-discharge], and no ambient
-hypothesis is retained here — and let
+$Rf^!$ of the operations (on this coefficient class the ambient
+exceptional right adjoint datum of [def-weil-ambient-exceptional-adjoint]
+is supplied by [cor-sf-ambient-adjoint-discharge]), and let
 $K(m)=K\otimes^L_{\Lambda_T}\Lambda(m)$
 be the coefficient twist of degree
 $m\in\mathbf Z$. Let $f:X\to Y$ be a

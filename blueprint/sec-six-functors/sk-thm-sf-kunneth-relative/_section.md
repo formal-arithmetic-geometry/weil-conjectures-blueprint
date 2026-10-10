@@ -37,9 +37,7 @@ transformation and $\operatorname{Ex}_!:Lg^*Rf_!\to Rq_!Lp^*$ the exchange
 transformation of [sk-def-sf-exchanges] for the Cartesian square
 $(p,q,f,g)$, and $\sigma$ the symmetry of $\otimes^L$; the second variable
 $Rf_!K$ of $\operatorname{PF}_{g,L,Rf_!K}$ lies in $\Dctf(B,\Lambda)$, as the
-typing of [sk-def-sf-exchanges] requires, by [sk-thm-sf-ctf-stability] (iv)
-(stated below; step (4) of the proof records why this forward reference is
-not circular). Then every arrow is an isomorphism
+typing of [sk-def-sf-exchanges] requires, by [sk-thm-sf-ctf-stability] (iv). Then every arrow is an isomorphism
 ([sk-thm-sf-comp-composition], [sk-rem-sf-pf-done],
 [sk-prop-sf-cbc]), so
 
@@ -115,5 +113,3 @@ the compactification), both $\kappa^{\mathrm{rel}}_{K,L}$ and
 $\sigma\circ\kappa^{\mathrm{rel}}_{L,K}$ are inverse to the transpose of the
 symmetric map $Lp^*Lf^*Rf_*K\otimes^LLq^*Lg^*Rg_*L\to Lp^*K\otimes^LLq^*L$
 given by the two counits (lem:sf-kunneth-coherence spells this out).
-
-Uses: `\Cref{lem-sf-mate}`, `\Cref{sk-prop-sf-cbc}`, `\Cref{sk-prop-sf-comp-proper}`, `\Cref{prop-sf-pf-coherence}`, `\Cref{rem-sf-pf-done}`, `\Cref{thm-sf-comp-composition}`, `def-pur-support-cohomology`, `def-pur-supported-exterior-product`

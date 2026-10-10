@@ -16,6 +16,3 @@ $\mathcal O_U^{\oplus n}\twoheadrightarrow\mathcal F|_U$.
 every open $U$ and every map
 $\mathcal O_U^{\oplus n}\to\mathcal F|_U$ the kernel is of finite
 type.
-
-(*Stacks Project, Cohomology of Sheaves, Chapter 20, Tag
-[01DW](https://stacks.math.columbia.edu/tag/01DW).*)

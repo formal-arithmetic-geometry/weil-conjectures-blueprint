@@ -11,7 +11,10 @@ lean = ["AlgebraicGeometry.ProEtale.dualizingComplex", "AlgebraicGeometry.ProEta
 In the setting of [sk-def-set], let $\Dctf(X,\Lambda)$ be the bounded
 constructible finite-Tor category on the small pro-étale site, with
 $Lf^*,Rf_*,Rf_!,Rf^!,\otimes^L_\Lambda,R\mathcal H om_\Lambda$, where
-$Rf_!$ is defined by a compactification and $Rf_!\dashv Rf^!$. Put
+$Rf_!$ is defined by a compactification and $Rf^!$ is its right
+adjoint on $\Dctf$ (the constructible exceptional adjoint of
+[sk-def-set], which exists for every separated finite-type morphism;
+no ambient adjoint on the full derived category is required). Put
 
 $$
 \omega_{X,\Lambda}=Ra_X^!\Lambda,\qquad
@@ -21,7 +24,3 @@ $$
 
 and $\RGammac(X,K)=\Fib_s(Ra_{X!}K)$,
 $\RGamma(X,K)=\Fib_s(Ra_{X*}K)$, with cohomology $H^i_c,H^i$.
-(Blueprint 1 and 15, def:weil-ordinary-compact-cohomology,
-def:weil-exceptional-inverse-image.)
-
-Uses: [sk-def-set]

@@ -18,7 +18,7 @@ of the chain are stated for separably closed $k$ —Stacks states
 are only used in the separably closed case (the deeper geometric
 irreducibility of $X$ is automatic then; cf. [prop-pc-xk-integral]
 and the discussion in [thm-pc-picard-representable]). The proof of
-[prop-pc-xk-integral] uses the ``smoothness'' route
+[prop-pc-xk-integral] uses the "smoothness" route
 (smooth $\Rightarrow$ regular $\Rightarrow$ normal $\Rightarrow$
 decomposition into integral components, with connectedness); the
 classical alternative route goes through the fact that $\bar k/k$ is

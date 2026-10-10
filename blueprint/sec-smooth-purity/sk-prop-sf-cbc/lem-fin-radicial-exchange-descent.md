@@ -11,7 +11,6 @@ $S$-schemes with a constructible finite sheaf $F$ on $X$.
 Suppose the direct image after base change to $S'$ is bounded
 constructible and its formation commutes with every further base
 change from a Noetherian scheme. Then the same assertions hold over $S$.
-The notation refers to the canonical exchange morphism.
 
 ## Proof
 

@@ -23,7 +23,7 @@ $$
 It is obtained by pulling back sections in the two factors and
 tensoring them: their supports meet in $Z\times W$.
 Derive this pairing with K-flat tensor and injective support
-resolutions. Thus its composition with the map forgetting support
-is the ordinary exterior product,
-and its cohomology uses the
-support functors.
+resolutions.
+
+Its composition with the map forgetting support is the ordinary exterior
+product.

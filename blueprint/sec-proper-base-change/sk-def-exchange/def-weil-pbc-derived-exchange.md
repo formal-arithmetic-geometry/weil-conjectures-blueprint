@@ -6,54 +6,62 @@ order = 1040
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus"]
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-underived-exchange"]
 +++
-For $K\in D^+(X_{\mathrm{et}})$ choose an injective resolution
-$K\xrightarrow{\simeq}I^\bullet$. Apply
-$\operatorname{Ex}_{\square,I^r}$ in every degree and use the naturality
-lemma to obtain a morphism of complexes
+Let $\mathcal A$ be a Grothendieck abelian category for which $\mathcal A$-valued
+sheaves on small étale sites admit sheafification, and let $\square$ be a
+commutative square $f\circ g'=g\circ f'$ of schemes as in
+[def-weil-pbc-underived-exchange] (for instance a cartesian square
+[def-weil-pbc-cartesian-square]). The inverse images $g^{-1}$, $g'^{-1}$ are
+exact and induce functors on the bounded below derived categories
+[def-weil-pbc-derived-categories] of $\mathcal A$-valued étale sheaves, and the
+direct images [def-weil-pbc-direct-image] have right derived functors
+$Rf_*$, $Rf'_*$ on $\Dplus$.
+
+The *derived exchange morphism* is the natural transformation
 
 $$
-g^{-1}f_*I^\bullet\longrightarrow f'_*g'^{-1}I^\bullet.
+ \Ex_{\square}:g^{-1}Rf_*\longrightarrow Rf'_*g'^{-1}
 $$
 
-Choose a K-injective replacement
-$g'^{-1}I^\bullet\xrightarrow{\simeq}J^\bullet$ in the Grothendieck
-category of etale abelian sheaves on $X'$. Compose the displayed map with
-$f'_*g'^{-1}I^\bullet\to f'_*J^\bullet$ and define
+of functors $\Dplus(X_{\Et},\mathcal A)\to\Dplus(Y'_{\Et},\mathcal A)$
+characterized by the universal property of the right derived functor
+$g^{-1}Rf_*$ of $g^{-1}f_*$: it is the unique natural transformation such that,
+for every bounded below complex $K$ of $\mathcal A$-valued sheaves on $X_{\Et}$,
+the composite
 
 $$
-\operatorname{Ex}_{\square,K}:g^{-1}f_*I^\bullet\longrightarrow f'_*J^\bullet
+ g^{-1}f_*K\xrightarrow{g^{-1}(\eta_K)}g^{-1}Rf_*K
+ \xrightarrow{\Ex_{\square,K}}Rf'_*g'^{-1}K
 $$
 
-to be its class in $D^+(Y'_{\mathrm{et}})$. The target complex is a model
-for $Rf'_*g'^{-1}K$, since $J^\bullet$ is K-injective; the source is a model
-for $g^{-1}Rf_*K$ because $g^{-1}$ is exact.
-Its class in $D^+(Y'_{\mathrm{et}})$ is
+equals the termwise underived exchange morphism
+[def-weil-pbc-underived-exchange]
+$\Ex^0_{\square,K}:g^{-1}f_*K\to f'_*g'^{-1}K$ followed by the canonical map
+$f'_*g'^{-1}K\to Rf'_*g'^{-1}K$; here $\eta_K:f_*K\to Rf_*K$ is the canonical
+map. In particular, if $K\xrightarrow{\simeq}I^\bullet$ is an injective
+(K-injective [def-weil-pbc-kinjective-resolutions]) resolution, so that
+$f_*I^\bullet$ computes $Rf_*K$, then $\Ex_{\square,K}$ is represented by
+$\Ex^0_{\square,I^\bullet}:g^{-1}f_*I^\bullet\to f'_*g'^{-1}I^\bullet$
+followed by $f'_*g'^{-1}I^\bullet\to Rf'_*g'^{-1}I^\bullet$; concretely,
+choosing a K-injective replacement $g'^{-1}I^\bullet\xrightarrow{\simeq}J^\bullet$
+on $X'_{\Et}$, it is the class in $\Dplus(Y'_{\Et},\mathcal A)$ of
 
 $$
-\operatorname{Ex}_{\square,K}:g^{-1}Rf_*K\longrightarrow
-Rf'_*g'^{-1}K.
+ g^{-1}f_*I^\bullet\xrightarrow{\Ex^0_{\square,I^\bullet}}f'_*g'^{-1}I^\bullet
+ \longrightarrow f'_*J^\bullet,
 $$
 
-## Detailed form
+whose source is a model of $g^{-1}Rf_*K$ (as $g^{-1}$ is exact) and whose
+target is a model of $Rf'_*g'^{-1}K$ (as $J^\bullet$ is K-injective).
 
-For $K\in\Dplus(X_{\Et})$, the *derived exchange morphism* is the adjoint
-mate
-
-$$
- \Ex_{\square,K}:g^{-1}Rf_*K\longrightarrow Rf'_*g'^{-1}K
-$$
-
-of the composite
+Equivalently, $\Ex_{\square,K}$ is the adjoint mate, under the derived
+adjunction $f'^{-1}\dashv Rf'_*$, of the composite
 
 $$
  f'^{-1}g^{-1}Rf_*K\xrightarrow{\theta_\square}
  g'^{-1}f^{-1}Rf_*K\xrightarrow{g'^{-1}\varepsilon_f}g'^{-1}K,
 $$
 
-using the derived adjunction of the inverse-image adjunction
-[def-weil-pbc-inverse-image] and the specified isomorphism $\theta_\square$
-of the cartesian square [def-weil-pbc-cartesian-square].
-Equivalently, choose a K-injective resolution
-[def-weil-pbc-kinjective-resolutions] $K\to I$, apply the underived exchange
-morphism [def-weil-pbc-underived-exchange] $\Ex^0_{\square,I}$ term
-by term, and compare $g'^{-1}I$ with a K-injective resolution on $X'$.
+where $\theta_\square$ is the square isomorphism of
+[def-weil-pbc-underived-exchange] and $\varepsilon_f$ is the counit of the
+derived adjunction $f^{-1}\dashv Rf_*$ induced by the inverse-image adjunction
+[def-weil-pbc-inverse-image].

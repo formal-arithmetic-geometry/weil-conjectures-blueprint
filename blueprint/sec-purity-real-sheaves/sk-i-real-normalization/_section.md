@@ -63,5 +63,3 @@ This is Stacks, Lemma 10.115.4
 inductive step is Lemma 10.115.3
 ([`00OX`](https://stacks.math.columbia.edu/tag/00OX)),
 specialized to $\dim B=1$.
-
-Uses: [sk-d-real-setup]

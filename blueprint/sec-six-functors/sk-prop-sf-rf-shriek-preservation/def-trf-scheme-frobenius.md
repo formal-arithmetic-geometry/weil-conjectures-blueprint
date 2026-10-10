@@ -35,5 +35,3 @@ for the arithmetic Galois automorphism. On the
 small pro-etale site, the
 derived pullback functors $L\Phi^m{}^*$ and $Lg_\gamma^{m*}$ are the
 pullbacks along these endomorphisms.
-
-*Recorded in advance* from chapter *The trace formula* of the source.

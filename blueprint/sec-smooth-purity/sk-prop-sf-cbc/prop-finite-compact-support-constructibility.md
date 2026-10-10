@@ -54,13 +54,6 @@ $$
 
 The restriction and its amplitude bound commute with finite coefficient
 reduction.
-(*Source: the finiteness of compact-support direct images of
-constructible torsion sheaves: Stacks Project, More Étale Cohomology,
-Section 63.14 (Complexes with constructible cohomology), Theorem 63.14.5,
-[Tag `0GL0`](https://stacks.math.columbia.edu/tag/0GL0);
-the fibre-dimension amplitude bounds are the finiteness bounds of the
-same formalism, cf. Stacks Project, Etale Cohomology, Lemma 59.92.2,
-[Tag `095U`](https://stacks.math.columbia.edu/tag/095U).*)
 
 ## Proof
 

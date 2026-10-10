@@ -25,42 +25,22 @@ $f$ is locally of finite presentation over a locally Noetherian
 $S$ — the index $\lambda_0$ may be chosen so that
 $T_{\lambda_0}$ is finite and of finite presentation over $S$.
 
-(*Stacks Project*: the descent is the step of the proof of the
-Zariski main theorem, More on Morphisms, Lemma 37.43.3,
-[Tag 05K0](https://stacks.math.columbia.edu/tag/05K0), that its
-limit lemma
-[Tag 01ZM](https://stacks.math.columbia.edu/tag/01ZM) does not
-supply — that lemma descends the open subscheme $\iota_f(X)$ to an
-open $U\subseteq T_{\lambda_0}$, exhibiting $X$ as the fibre product
-$N_f\times_{T_{\lambda_0}}U$, whose projection onto $U$ is the base
-change of the integral morphism $\nu_f$, hence finite and surjective of
-the same degree as $\nu_f$, and therefore not an immersion as soon as
-one fibre of $\nu_f$ over $U$ has more than one point; what is
-needed in addition is the spreading out of the *closed* immersion
-$X\to U$, Limits of Schemes, Lemma 32.4.16,
-[Tag 081B](https://stacks.math.columbia.edu/tag/081B), together with
-the descent of the quasi-compact open, Limits of Schemes, Lemma 32.4.11,
-[Tag 01Z4](https://stacks.math.columbia.edu/tag/01Z4). The
-factorization of the immersion is Morphisms of Schemes, Lemma 29.3.2,
-[Tag 01QV](https://stacks.math.columbia.edu/tag/01QV). The
-finite-presentation refinement of the theorem,
-[Tag 0F2N](https://stacks.math.columbia.edu/tag/0F2N), is a
-statement about the factorization scheme $T$ and not about a stage of
-the presentation above: its proof replaces that presentation by an
-approximating directed system of finite finitely presented $S$-schemes,
-Limits of Schemes, Lemma 32.9.8,
-[Tag 09YY](https://stacks.math.columbia.edu/tag/09YY). Hence for
-$f$ locally of finite presentation over a general quasi-compact
-quasi-separated $S$ the clause about a stage of the presentation of the
-finite-approximation tail is not proved here: Tag 09YY does not apply to
-that presentation, whose transition maps are affine and dual to the
-injective algebra maps $\mathcal A_\lambda\hookrightarrow\mathcal A_\mu$ rather than closed immersions. The clause holds in the corrected
-form proved in the last section of this
-chapter: Tag 09YY, applied to the finite scheme $T$ of the factorization
-constructed above, replaces it by a finite and finitely presented
+Descending only the open subscheme $\iota_f(X)$ to an open
+$U\subseteq T_{\lambda_0}$ does not suffice: it exhibits $X$ as the fibre
+product $N_f\times_{T_{\lambda_0}}U$, whose projection onto $U$ is the base
+change of the integral morphism $\nu_f$, hence finite and surjective of the
+same degree as $\nu_f$, and therefore not an immersion as soon as one fibre
+of $\nu_f$ over $U$ has more than one point. What is needed in addition is
+the spreading out of the *closed* immersion $X\to U$. For $f$ locally of
+finite presentation over a general quasi-compact quasi-separated $S$, the
+finite-presentation clause is not claimed for a stage of this
+presentation, whose transition maps are dual to injective algebra maps
+$\mathcal A_\lambda\hookrightarrow\mathcal A_\mu$ rather than closed
+immersions. It holds in a corrected form: the finite scheme $T$ of the
+factorization can be replaced by a finite and finitely presented
 $S$-scheme containing $X$ as a quasi-compact open subscheme. Over a
-locally Noetherian $S$ the clause holds for the tail itself, because
-every finite $S$-scheme is then of finite presentation.)
+locally Noetherian $S$ the clause holds for the presentation itself,
+because every finite $S$-scheme is then of finite presentation.
 
 ## Proof
 

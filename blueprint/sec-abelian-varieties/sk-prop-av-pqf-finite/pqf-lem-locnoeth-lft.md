@@ -8,8 +8,6 @@ uses = ["def-weil-pbc-scheme-conventions", "pqf-def-locnoeth"]
 If $S$ is
 locally Noetherian and $f:X\to S$ is
 locally of finite type, then $X$ is locally Noetherian.
-(*Stacks Project, Morphisms of Schemes, Lemma 29.15.6, Tag
-[01T6](https://stacks.math.columbia.edu/tag/01T6).*)
 
 ## Proof
 

@@ -10,7 +10,6 @@ Let $k$ be a field, let $A$ be a finite ring annihilated by
 an integer invertible in $k$, and let $j:X\hookrightarrow Y$
 be an open immersion of finite-type $k$-schemes. For every
 $K\in D^b_c(X,A)$, one has $Rj_*K\in D^b_c(Y,A)$.
-The notation refers to bounded constructible complexes, and ordinary derived categories.
 
 ## Proof
 

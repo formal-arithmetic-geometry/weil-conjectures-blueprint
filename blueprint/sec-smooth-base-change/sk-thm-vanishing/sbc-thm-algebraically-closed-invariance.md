@@ -16,9 +16,6 @@ H^q(C_{\Et},\mathbf Z/d\mathbf Z)
 $$
 
 is an isomorphism.
-(*the Jacobian chapter, [thm-sc-constant-invariance] (= Lemma
-59.83.12, [Tag `0A5E`](https://stacks.math.columbia.edu/tag/0A5E) of Stacks Project for the corresponding
-statement).*)
 
 ## Proof
 

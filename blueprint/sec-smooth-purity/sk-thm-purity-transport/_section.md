@@ -19,10 +19,7 @@ where $D^b_{ctf}(-,\mathcal O_E)$ is the adic category of normalized
 systems $(K_n)_n$ with $K_n\in D^b_{ctf}(-,A_{E,n})$ and common bounds and
 stratifications, $D^b_{ctf}(-,E)$ its rationalization, and
 $D^b_{ctf}(-,\overline{\mathbf Q}_\ell)$ the colimit over finite
-$E/\mathbf Q_\ell$ (Blueprint 01,
-`def-weil-pbc-adic-coefficient-datum`,
-`def-weil-pbc-rational-category`,
-`def-weil-pbc-qbar-category`). Let $f:X\to Y$ be smooth separated
+$E/\mathbf Q_\ell$. Let $f:X\to Y$ be smooth separated
 of relative dimension $d$ and let $K\in D^b_{ctf}(Y,\Lambda)$. Then the
 purity map
 
@@ -45,11 +42,6 @@ and the counit of $Ra_{X!}\dashv Ra_X^{!}$ is the normalized integration
 map $R\Gamma_c(X,\Lambda_X(d)[2d])\to\Lambda$.
 The coefficient compatibilities and this counit normalization also hold
 for the finite-coefficient isomorphisms of [sk-thm-smooth-purity].
-(Blueprint 14,
-`thm-pur-finite-reduction-of-purity`,
-`thm-pur-adic-reconstruction`,
-`thm-pur-rational-and-qbar-purity` and
-`cor-pur-adic-and-rational-smooth-dualizing-complexes`.)
 
 ## Proof
 
@@ -98,5 +90,3 @@ $Ra_{X!}\dashv Ra_X^{!}$ becomes the transported normalized integration
 map. Only the finite stage is proved in this document; Steps 2–4 are
 sketches of Blueprint 14, where the reconstruction and transport lemmas
 are carried out in full.
-
-Uses: [sk-def-purity-conv], [sk-lem-sf-flat-model], [sk-prop-a1], [sk-prop-cohsm], [sk-thm-smooth-purity]

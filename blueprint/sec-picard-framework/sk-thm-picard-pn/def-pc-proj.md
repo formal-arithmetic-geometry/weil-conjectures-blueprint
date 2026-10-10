@@ -13,5 +13,3 @@ the restriction maps are the graded localization maps.
 Write $V_+(I)$ for the closed set of homogeneous primes containing $I$.
 Here $\mathbf P^n_k=\operatorname{Proj}(k[x_0,\ldots,x_n])$, with
 each $x_i$ of degree one.
-
-*Mathlib:* `AlgebraicGeometry.Proj`, `AlgebraicGeometry.projIsoSpec`, `ProjectiveSpectrum.basicOpen`. These are basic Mathlib notions used throughout, so they are not mapped as the Lean declarations of this object.

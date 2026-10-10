@@ -18,9 +18,6 @@ $$
 ordered by divisibility; $n\in I_K$ is called *invertible in
 $K$*. A torsion sheaf on the etale site of a $K$-scheme has
 *orders invertible in $K$* if every element of every geometric
-stalk is killed by some $n\in I_K$. For $K$ of
-characteristic $p>0$ this says the stalks have no
-$p$-primary torsion; for $\operatorname{char}K=0$ it is no
-condition besides torsion. A complex $K\in D(T_{\Et})$ has
+stalk is killed by some $n\in I_K$. A complex $K\in D(T_{\Et})$ has
 *torsion cohomology with orders invertible in $K$* if every
 $\mathcal H^q(K)$ has that property.

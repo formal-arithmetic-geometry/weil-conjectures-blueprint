@@ -26,9 +26,6 @@ space of a vector bundle;
 cup product of the two localized classes;
 1. *(L4)* after forgetting support it is $c_r(F)$.
 
-Its construction uses only ordinary cohomology-with-support groups
-and the projective-bundle formula.
-
 ## Proof
 
 The line-bundle class in the proposed construction is the divisor class of [lem-pur-divisor-class]; products have their twists identified by [def-coefficient-twists-detailed].

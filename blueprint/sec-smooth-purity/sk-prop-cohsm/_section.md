@@ -8,13 +8,16 @@ lean = ["AlgebraicGeometry.Etale.isInvertible_dualizingComplex", "AlgebraicGeome
 +++
 *Proposition (sketch).*
 
-For every smooth separated $f:X\to Y$ of pure relative dimension
-$d$:
+Let $\Lambda$ be a finite commutative ring equipped with Tate twists
+$\Lambda(m)$, and let $f:X\to Y$ be a separated morphism, smooth of pure
+relative dimension $d$, admitting a compactification, such that the exponent
+of $\Lambda$ is invertible on $X$. Then:
 
-1. **(a)** $\omega_f=Rf^{!}\Lambda_Y$ is *invertible* (lisse
-rank-one object, canonically formed, compatible with base change);
+1. **(a)** $\omega_f=Rf^{!}\Lambda_Y$ is *invertible*: there is an object
+$M$ of $D(X_{\mathrm{et}},\Lambda)$ with
+$\omega_f\otimes^{\mathbb L}M\cong\Lambda_X$;
 1. **(b)** *tensor formula:* for every
-$K\in D^b_{ctf}(Y,\Lambda)$,
+$K\in D^b_{ctf}(Y,\Lambda)$ there is an isomorphism
 $Lf^{*}K\otimes^{\mathbb L}\omega_f\ \cong\ Rf^{!}K$;
 1. **(c)** *smooth base change for $R^{!}$:* for every Cartesian
 square
@@ -25,27 +28,14 @@ X'&\xrightarrow{\ u\ }&X\\
 Y'&\xrightarrow{\ v\ }&Y
 \end{array}
 $$
-with $f$ smooth (so $f'$ is smooth of the same relative dimension) and $v$
-arbitrary, the canonical comparison maps
+with $v$ arbitrary and $f'$ admitting a compactification, there is a natural
+isomorphism of functors $D(Y_{\mathrm{et}},\Lambda)\to D(X'_{\mathrm{et}},\Lambda)$
 $$
-Lu^{*}Rf^{!}K\ \xrightarrow{\ \sim\ }\ Rf'^{!}Lv^{*}K
-\quad(K\in D^b_{ctf}(Y,\Lambda)),\qquad
-Lu^{*}\omega_f\ \xrightarrow{\ \sim\ }\ \omega_{f'}
+Lu^{*}\circ Rf^{!}\ \cong\ Rf'^{!}\circ Lv^{*};
 $$
-are isomorphisms; in particular, in the diagonal square ($X'=X\times_YX$,
-$u=p_2$, $v=f$, $f'=p_1$, and symmetrically),
+in particular $Lu^{*}\omega_f\cong\omega_{f'}$, and in the diagonal square
+($X'=X\times_YX$, $u=p_2$, $v=f$, $f'=p_1$, and symmetrically)
 $\omega_{p_1}\cong Lp_2^{*}\omega_f$, $\omega_{p_2}\cong Lp_1^{*}\omega_f$.
-
-Content: the proof is Steps 1–6 below; the model case is Move
-(2$'$) ([sk-prop-an]: $\Aaf^n$-purity, iterating the
-$\Aaf^1$-computation), the étale machinery is the local normal
-form (Blueprint 07-new) and the lemma that isomorphisms descend
-along étale surjections. *(The abstract criterion
-``ULA $\Rightarrow$ cohomological smoothness'' — Zavyalov 5.7.7,
-with ULA of smooth morphisms, Blueprint 07-new / Stacks
-`0GJM` — is *not* used here: it belongs to the
-general six-functor dictionary, while for smooth morphisms the
-proof below is self-contained once the $\Aaf^n$-model is known.)*
 
 ## Proof
 
@@ -194,5 +184,3 @@ canonical, and the two assemblies agree because the model case is
 compatible with the tower of affine-space projections — hence the
 composition compatibility used in the diagonal argument (the chain
 rule $\omega_{vu}\cong\omega_u\otimes Lu^{*}\omega_v$).
-
-Uses: [sk-prop-a1], [sk-prop-an], [sk-prop-sf-cbc]

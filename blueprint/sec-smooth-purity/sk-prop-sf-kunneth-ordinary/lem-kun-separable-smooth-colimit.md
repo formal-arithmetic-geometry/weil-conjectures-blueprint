@@ -10,11 +10,6 @@ colimit of finitely generated smooth $K$-algebras, and the colimit may be
 taken over smooth $K$-subalgebras of $L$ with the inclusions as transition
 maps; consequently $\Spec(L)$ is the inverse limit of the corresponding
 affine smooth $K$-schemes with affine transition morphisms.
-(*Source:* Stacks Project, Algebra, Lemma 10.158.11,
-[Tag `07BV`](https://stacks.math.columbia.edu/tag/07BV); the
-finitely generated case is the imported statement
-[lem-kun-fg-separable-smooth] and the algebraic case is proved in this
-chapter.)
 
 ## Proof
 

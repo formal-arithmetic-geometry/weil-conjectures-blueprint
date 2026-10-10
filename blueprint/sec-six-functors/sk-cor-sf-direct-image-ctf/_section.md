@@ -20,5 +20,3 @@ directions;
 [sk-thm-sf-direct-image-tor-amplitude] gives the bound on the étale side;
 and the comparison direct image of [sk-prop-sf-comparison] carries it
 back.
-
-Uses: `\Cref{sk-prop-sf-comparison}`, `\Cref{thm-sf-direct-image-tor-amplitude}`

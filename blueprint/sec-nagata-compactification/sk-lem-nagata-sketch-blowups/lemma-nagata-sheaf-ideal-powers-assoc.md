@@ -4,12 +4,6 @@ kind = "lemma"
 title = "Associativity of ideal-power multiplication"
 order = 104
 +++
-**Status.** Bypassed by the formalized route: no separate relative-Proj
-primitive was formalized. The blow-up is glued from the affine Proj charts
-(`AlgebraicGeometry.Proj.basicOpenIsoSpec`,
-`AlgebraicGeometry.Proj.iSup_basicOpen_eq_top`) with
-`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`.
-
 For a quasi-coherent ideal $\mathcal I\subseteq\mathcal O_X$, the canonical
 maps $\mathcal I^m\otimes\mathcal I^n\to\mathcal I^{m+n}$ are associative
 and have $\mathcal I^0=\mathcal O_X$ as a two-sided unit.

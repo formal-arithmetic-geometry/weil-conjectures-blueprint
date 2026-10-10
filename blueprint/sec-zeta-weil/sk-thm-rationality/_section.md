@@ -8,12 +8,14 @@ uses = ["sk-def-roots", "sk-def-zeta", "sk-prop-criterion", "sk-prop-euler", "sk
 +++
 *Theorem (sketch).*
 
-Let $X_0/\Fq$ be smooth, proper and geometrically connected of pure dimension
-$d$. Then
+Let $X_0$ be a scheme of finite type (quasi-compact and locally of finite
+type) over $\Fq$. Then there are $A,B\in\Z[T]$ with $B(0)=1$ and
 
 $$
-Z(X_0,T)\in\Q(T)\cap(1+T\Z[[T]]).
+B(T)\,Z(X_0,T)=A(T)\quad\text{in }\Q[[T]];
 $$
+
+in particular $Z(X_0,T)\in\Q(T)\cap(1+T\Z[[T]])$.
 
 ## Proof
 
@@ -27,5 +29,3 @@ matrix whose $\Ql$-rank is $<r'$, hence whose determinant is $0$ in $\Z$; rank
 is unchanged by field extension, so $\rank_{\Q}\mathcal H(Z)\le r$ as well.
 Applying [sk-prop-criterion] over the prime field $\Q$ gives
 $Z\in\Q(T)$. Integrality of the coefficients is [sk-prop-euler].
-
-Uses: [sk-def-roots], [sk-def-zeta], [sk-prop-criterion], [sk-prop-euler], [sk-thm-tracetodeterminant]

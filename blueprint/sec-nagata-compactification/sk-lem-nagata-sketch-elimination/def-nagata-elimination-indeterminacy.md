@@ -3,14 +3,11 @@ id = "def-nagata-elimination-indeterminacy"
 kind = "definition"
 title = "Elimination-of-indeterminacy construction"
 order = 228
-lean = ["AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap"]
 uses = ["cor-nagata-blowup-product-common-refinement", "cor-nagata-conrad-proper-target-extension", "def-nagata-admissible-blowup", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-composition-of-blowups-comparison", "def-nagata-conrad-quasi-domination", "def-nagata-constructible-closed-support", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-qc-open-complement-ideal", "def-nagata-scheme-image-comparison", "def-nagata-strict-transform", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-over-open", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "lemma-nagata-composition-center-ideal", "lemma-nagata-composition-extended-ideal-equality", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-constructible-closed-support", "lemma-nagata-dense-flat-pullback", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent", "thm-nagata-composition-of-blowups", "thm-nagata-conrad-elimination", "thm-nagata-global-blowup-proper"]
 +++
 Let $q\colon Z\to X$ be separated and of finite type, let $X$ be qcqs, and
-let $U\subseteq X$ be quasi-compact. Fix an isomorphism
-$e_U\colon q^{-1}(U)\xrightarrow{\sim}U$ over $U$. The construction is the
-bridge of [the-general-case-via-zariski-s-main-theorem--remark-2], with each
-choice labelled.
+let $U\subseteq X$ be a quasi-compact open. Fix an isomorphism
+$e_U\colon q^{-1}(U)\xrightarrow{\sim}U$ over $U$.
 
 1. By [lemma-nagata-conrad-schematically-dense-blowup], select a finite type
 ideal $\mathcal I_0$ with $V(\mathcal I_0)=X\setminus U$ and put
@@ -42,7 +39,3 @@ dominates $\operatorname{Bl}_{\mathcal I}(X_1)$ over $X_1$, and by
 [lemma-nagata-admissible-blowup-comp] the composite
 $X^{\mathrm{el}}(q,U)\to X_1\to X$ is a $U$-admissible blow-up of $X$
 ([def-nagata-admissible-blowup]).
-
-The centres $\mathcal I_0$ and $\mathcal I$ are labelled selections, so
-$X^{\mathrm{el}}(q,U)$ is a named object rather than an unspecified
-existential variable.

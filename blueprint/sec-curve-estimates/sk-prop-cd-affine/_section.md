@@ -17,8 +17,7 @@ H^q(C_{\Et},F)=0\qquad(q>1).
 $$
 
 Equivalently, the étale cohomological dimension of an affine curve
-over an algebraically closed field is $\le1$. (Stacks Project,
-Theorem 59.83.10, Tag `03SC`, (2).)
+over an algebraically closed field is $\le1$.
 
 ## Proof
 
@@ -72,5 +71,3 @@ quasi-coherent sheaves. Hence $H^q(C,\Z/p\Z)=0$ for $q\ge2$, and
 the case of $\Z/p^m\Z$ follows by induction along
 $0\to\Z/p\Z\to\Z/p^m\Z\to\Z/p^{m-1}\Z\to0$. Splitting $n$ into its
 prime-to-$p$ and $p$-primary parts finishes the proof.
-
-Uses: [sk-def-curve], [sk-def-kummer], [sk-prop-br-inj], [sk-prop-cd], [sk-prop-h2], [sk-prop-kummer-exact], [sk-prop-tsen], [sk-thm-av-final]

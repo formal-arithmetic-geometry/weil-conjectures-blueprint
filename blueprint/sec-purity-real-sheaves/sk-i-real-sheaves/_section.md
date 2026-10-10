@@ -17,7 +17,9 @@ $\mathcal O_E$ and maximal ideal $\mathfrak m_E$, all as in
 generic stalk $\mathcal F_{\bar\eta}$.
 
 The functor $\mathcal F\mapsto(V,\rho)=(\mathcal F_{\bar\eta}, \rho_{\mathcal F})$ is an exact tensor equivalence between lisse Weil sheaves
-on $C_0$ and the representations of [sk-d-real-weil]: a short exact
+on $C_0$ and the lisse representations of [sk-d-real-weil], i.e. the
+representations of $W(C_0)$ on finite-dimensional $\Qlb$-vector spaces whose
+restriction to $P$ is continuous: a short exact
 sequence $0\to\mathcal F'\to\mathcal F\to\mathcal F''\to0$ corresponds to
 $0\to V'\to V\to V''\to0$. Subobjects, quotients and subquotients therefore
 match on the two sides, in both directions.
@@ -87,5 +89,3 @@ $W(C_0)$-equivariance; hence full faithfulness.
 systems and survive the localization and the filtered colimit, and Weil
 kernels and cokernels are computed on the underlying sheaves. The matching
 of subobjects, quotients and subquotients follows.
-
-Uses: [sk-d-real-setup], [sk-d-real-weil], [sk-i-real-galois]

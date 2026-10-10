@@ -4,66 +4,84 @@ kind = "section"
 title = "Supported localization"
 order = 1865
 uses = ["sk-lem-sf-determination", "sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle"]
-lean = ["AlgebraicGeometry.Etale.exists_distTriang_supportedLocalization"]
+lean = ["AlgebraicGeometry.Etale.existsUnique_distTriang_supportedLocalization"]
 +++
 *Proposition (sketch).*
 
-Let $i:Z\hookrightarrow X$ be a closed immersion of finite-type $k$-schemes,
-with complementary open $j:U\hookrightarrow X$. For $L\in\Dctf(X,\Lambda)$ at
-a coefficient stage of [sk-def-sf-setting], the adjunction maps of
-[sk-def-sf-operations] form a distinguished triangle
+Let $i:Z\hookrightarrow X$ be a closed immersion of schemes which admits a
+compactification, and let $j:U\hookrightarrow X$ be an open immersion whose
+image is the complement of the image of $i$. Let the coefficients be a
+Grothendieck abelian category $\mathcal A$ with a closed symmetric monoidal
+structure admitting functorial flat resolutions (for instance
+$\Lambda$-modules), with the derived operations of [sk-def-sf-operations]; as
+$i$ is proper, $Ri_!=Ri_*$. For every $L\in D(X_{\Et},\mathcal A)$
+(unbounded), the counit of $Ri_!\dashv Ri^!$ and the unit of
+$Lj^*\dashv Rj_*$ extend to a distinguished triangle
 
 $$
-Ri_*Ri^!L\longrightarrow L\longrightarrow Rj_*j^*L\xrightarrow{\ \delta_L\ }
-Ri_*Ri^!L[1].
+Ri_!Ri^!L\longrightarrow L\longrightarrow Rj_*Lj^*L\xrightarrow{\ \delta_L\ }
+Ri_!Ri^!L[1],
 $$
 
-Since $\operatorname{Hom}(Ri_*A,Rj_*B[n])=0$ for all $A$, $B$ and $n$, the
-connecting map $\delta_L$ is the unique one completing the two adjunction
-maps to a distinguished triangle, and the triangle is natural in $L$: for
-$f:L\to L'$ the triple $(Ri_*Ri^!f,f,Rj_*j^*f)$ is a morphism of triangles,
-and the only one extending $f$.
+and $\delta_L$ is the unique map $Rj_*Lj^*L\to Ri_!Ri^!L[1]$ making this
+triangle distinguished.
+
+Moreover, since the images of $i$ and $j$ are disjoint,
+$\operatorname{Hom}((Ri_!B)[n],Rj_*C)=0$ for all $B\in D(Z_{\Et},\mathcal A)$,
+$C\in D(U_{\Et},\mathcal A)$ and $n\in\mathbf Z$, and the triangle is natural in
+$L$: for $f:L\to L'$ the triple $(Ri_!Ri^!f,f,Rj_*Lj^*f)$ is a morphism of
+triangles, and it is the only one with middle component $f$.
 
 ## Proof
 
-This is the previous triangle turned around by adjunction. Apply
-$\operatorname{Hom}(-,L)$ to the triangle of
-[sk-prop-sf-open-closed-triangle] for an arbitrary
-$M\in\Dctf(X,\Lambda)$ and rewrite the two outer terms. On the closed side,
-$Ri_*=Ri_!$ and $Ri_!\dashv Ri^!$, then $i^*\dashv Ri_*$, give
+*The vanishing.* By $Lj^*\dashv Rj_*$,
+$\operatorname{Hom}((Ri_!B)[n],Rj_*C)\cong\operatorname{Hom}((Lj^*Ri_!B)[n],C)$,
+and $Lj^*Ri_!=0$ by base change of $Ri_!$ along $j$, the fibre product
+$Z\times_XU$ being empty.
 
-$$
-\operatorname{Hom}(Ri_*i^*M,L)\cong\operatorname{Hom}(i^*M,Ri^!L)
-\cong\operatorname{Hom}(M,Ri_*Ri^!L);
-$$
+*Existence.* First, for every $M\in D(X_{\Et},\mathcal A)$, represented by a
+complex of sheaves, the functors $j^*$, $j_!$, $i^*$, $i_*$ are exact, so
+applying the short exact sequence of [sk-prop-sf-open-closed-triangle]
+termwise gives a short exact sequence of complexes
+$0\to j_!j^*M\to M\to i_*i^*M\to0$, hence a distinguished triangle
+$j_!j^*M\to M\to Ri_*i^*M\xrightarrow{+1}$. In particular, if $j^*M=0$ then
+$M\cong Ri_*i^*M$.
 
-on the open side, $j_!\dashv j^*$ and $j^*\dashv Rj_*$ give
+Complete the counit to a distinguished triangle
+$Ri_!Ri^!L\xrightarrow{\varepsilon_L}L\xrightarrow{u}C\xrightarrow{w}
+Ri_!Ri^!L[1]$. Apply $Lj^*$: as $Lj^*Ri_!=0$, $Lj^*u$ is an isomorphism
+$Lj^*L\cong Lj^*C$. Apply $Ri^!$: by [sk-prop-sf-closed-unit] the unit
+$Q\to Ri^!Ri_!Q$ is an isomorphism, so by the triangle identity
+$Ri^!\varepsilon_L$ is an isomorphism and $Ri^!C=0$.
 
-$$
-\operatorname{Hom}(j_!j^*M,L)\cong\operatorname{Hom}(j^*M,j^*L)
-\cong\operatorname{Hom}(M,Rj_*j^*L).
-$$
+Now let $D$ be the cone of the unit $C\to Rj_*Lj^*C$. Since $j$ is an open
+immersion, $Lj^*Rj_*\cong\mathrm{id}$ via the counit, so $Lj^*D=0$; and
+$Ri^!Rj_*=0$, because
+$\operatorname{Hom}(B,Ri^!Rj_*C')\cong\operatorname{Hom}(Ri_!B,Rj_*C')=0$ for
+all $B$ by the vanishing above, so $Ri^!D=0$ as $Ri^!C=0$. From $Lj^*D=0$ we
+get $D\cong Ri_*i^*D$, whence $i^*D\cong Ri^!Ri_!i^*D\cong Ri^!D=0$ by
+[sk-prop-sf-closed-unit] again, and $D=0$. So $C\to Rj_*Lj^*C$ is an
+isomorphism, and composing with $Rj_*Lj^*u^{-1}$ gives an isomorphism
+$\varphi:C\xrightarrow{\sim}Rj_*Lj^*L$ with $\varphi\circ u=\eta_L$, by
+naturality of the unit. Transporting the triangle along $\varphi$, i.e.
+setting $\delta_L=w\circ\varphi^{-1}$, gives a distinguished triangle
+$(\varepsilon_L,\eta_L,\delta_L)$.
 
-So $\operatorname{Hom}(M,-)$ carries the two candidate maps — the counit
-$Ri_*Ri^!L\to L$ and the unit $L\to Rj_*j^*L$ — to a long exact sequence,
-for every $M$ and all shifts. Complete the counit to a distinguished triangle
-$Ri_*Ri^!L\to L\to C\xrightarrow{+1}$. Comparing its long exact sequence with
-the one above gives a natural isomorphism
-$\operatorname{Hom}(M,C)\cong\operatorname{Hom}(M,Rj_*j^*L)$ in every degree,
-so $C\cong Rj_*j^*L$ compatibly with the maps from $L$
-([sk-lem-sf-determination] for the two-out-of-three step).
-[sk-prop-sf-closed-unit] is what makes the first rewriting an isomorphism on
-the nose rather than up to the unit.
-*Uniqueness and naturality.* By $j^*\dashv Rj_*$ and $j^*Ri_*=0$,
-$\operatorname{Hom}(Ri_*A,Rj_*B[n])=\operatorname{Hom}(j^*Ri_*A,B[n])=0$. If
-two maps $Rj_*j^*L\to Rj_*j^*L'$ agree after composing with
-$L\to Rj_*j^*L$, their difference factors through $\delta_L$, hence through
-an element of $\operatorname{Hom}(Ri_*Ri^!L[1],Rj_*j^*L')=0$; dually on the
-first vertex. So a morphism of triangles is determined by its middle
-component, and the morphism given by the axiom extending $f$ must be
-$(Ri_*Ri^!f,f,Rj_*j^*f)$; for $f=\mathrm{id}$ this forces two choices of
-$\delta_L$ to agree (BBD, 1.1.9–1.1.10).
+*Uniqueness and naturality.* Let $f:L\to L'$ and suppose given distinguished
+triangles of the stated form on $L$ and on $L'$ (with any connecting maps).
+Since
+$\eta_{L'}\circ f\circ\varepsilon_L=\eta_{L'}\circ\varepsilon_{L'}\circ
+Ri_!Ri^!f=0$, the axioms of a triangulated category give a morphism of triangles with middle component $f$.
+Two maps $Rj_*Lj^*L\to Rj_*Lj^*L'$ agreeing after composition with
+$\eta_L$ differ by a map factoring through $\delta_L$, hence through an
+element of $\operatorname{Hom}(Ri_!Ri^!L[1],Rj_*Lj^*L')=0$; dually on the first
+vertex. So a morphism between these triangles is determined by its middle
+component, and the one extending $f$ must be $(Ri_!Ri^!f,f,Rj_*Lj^*f)$, as
+these components commute with $\varepsilon$ and $\eta$ by naturality. For
+$L=L'$, $f=\mathrm{id}$ and two choices $\delta_L$, $\delta'_L$ of connecting
+map, the morphism of triangles is $(\mathrm{id},\mathrm{id},\mathrm{id})$, and
+compatibility with the connecting maps gives $\delta_L=\delta'_L$ (BBD,
+1.1.9–1.1.10).
+
 Source: open–closed localization in SGA 4, XVII–XVIII; used in SGA 5, III,
 proof of 1.7.4.
-
-Uses: `\Cref{sk-lem-sf-determination}`, `\Cref{sk-prop-sf-closed-unit}`, `\Cref{sk-prop-sf-open-closed-triangle}`

@@ -44,5 +44,3 @@ $\mathbb G_m$ but changes the topology, whereas the Artin–Schreier
 sequence $0\to\Z/p\to\mathbb G_a\xrightarrow{F-1}\mathbb G_a\to0$
 (Stacks `0A3J`) computes $\Z/p$-cohomology on the étale site
 through $\mathbb G_a$.
-
-Uses: [sk-def-curve], [sk-def-kummer]

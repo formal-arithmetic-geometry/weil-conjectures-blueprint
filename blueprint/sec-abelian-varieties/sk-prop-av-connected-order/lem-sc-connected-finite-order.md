@@ -19,9 +19,7 @@ Ann. of Math. 68 (1958), §5–§6; Waterhouse, *Introduction to
 Affine Group Schemes*, Ch. 11; and, for the restricted
 Poincare–Birkhoff–Witt theorem used in (ii), Jacobson, *Lie
 Algebras*, Ch. V, §7. This is not basic algebra, so the assertion is
-recorded here as an interface rather than proved: it is used only in
-the characteristic-$p$ half of the following group-scheme statement,
-and it is not used anywhere else in this chapter. What
+recorded here as an interface rather than proved. What
 follows is the outline of the standard argument, not a proof.
 Let $G=\operatorname{Spec}A$, where $A$ is a finite local Hopf
 $k$-algebra (connected means the local ring $A$ has no other

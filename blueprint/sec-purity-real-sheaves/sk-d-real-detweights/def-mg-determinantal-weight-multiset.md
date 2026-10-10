@@ -14,5 +14,5 @@ $$
 S\text{ a simple summand of }V^{\mathrm{ss}}\bigr\}\!\bigr\},
 $$
 
-with one entry for every occurrence of $S$. Its independence of the
-chosen composition series is [lem-mg-semisimplification-independent].
+with one entry for every occurrence of $S$. It does not depend on the chosen
+composition series.

@@ -10,11 +10,11 @@ Let $X$ be qcqs, let $U\subseteq V\subseteq X$ be quasi-compact opens, let
 $p\colon Y\to X$ be separated and locally of finite type with $Y$ qcqs, and
 let $f\colon U\to Y$ be a section of $p$ over $U$ whose image is closed in
 $p^{-1}(V)$. There is a $V$-admissible blow-up
-$q\colon\widetilde X=\operatorname{Bl}_{\mathcal I}(X)\to X$ with the
-following property. Let $\sigma\colon U\hookrightarrow\widetilde X$ be the
-canonical section of $q$ over $U$, let
-$F=(f,\sigma)\colon U\to Y\times_X\widetilde X$ be the induced quasi-compact
-immersion, and let $\overline{F(U)}$ be its scheme-theoretic image. Then
+$q\colon\widetilde X=\operatorname{Bl}_{\mathcal I}(X)\to X$ and an open
+immersion $\sigma\colon U\hookrightarrow\widetilde X$ with
+$q\circ\sigma$ the inclusion of $U$, with the following property. Let
+$F=(f,\sigma)\colon U\to Y\times_X\widetilde X$ be the induced morphism
+and let $\overline{F(U)}$ be its scheme-theoretic image. Then
 
 $$
 \overline{F(U)}\longrightarrow\widetilde X
@@ -55,7 +55,11 @@ ambient closedness of the strict transform — is unnecessary.
 Put $\mathcal I=\prod_{Z\in S}\mathcal I_Z$; it is of finite type and
 $V(\mathcal I)=\bigcup_ZV(\mathcal I_Z)$ misses $V$, so
 $q\colon\widetilde X=\operatorname{Bl}_{\mathcal I}(X)\to X$ is a
-$V$-admissible blow-up. For each $Z\in S$ the inverse image of
+$V$-admissible blow-up. As its centre misses $V\supseteq U$, $q$ restricts to
+an isomorphism $q^{-1}(U)\to U$ ([lemma-nagata-affine-blowup-complement],
+on an affine open cover of $U$); let $\sigma\colon U\hookrightarrow\widetilde X$
+be its inverse followed by the inclusion of $q^{-1}(U)$. This is an open
+immersion with $q\circ\sigma$ the inclusion of $U$. For each $Z\in S$ the inverse image of
 $\mathcal I_Z$ on $\widetilde X$ is a factor of the invertible ideal
 $\mathcal I\cdot\mathcal O_{\widetilde X}$, hence invertible
 ([lemma-nagata-invertible-product-factor]), so the universal property of

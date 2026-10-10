@@ -18,5 +18,4 @@ $$
 
 The transition maps are the componentwise localization maps; common
 refinements use intersections of parts and products of denominators. This
-specifies an ind-Zariski [def-weil-pbc-ind-etale-algebra] algebra, without
-asserting its geometric properties in the definition.
+specifies an ind-Zariski [def-weil-pbc-ind-etale-algebra] algebra.

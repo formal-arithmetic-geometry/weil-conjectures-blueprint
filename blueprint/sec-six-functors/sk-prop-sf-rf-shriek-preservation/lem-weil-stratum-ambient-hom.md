@@ -14,8 +14,6 @@ R\mathcal Hom_X(Rs_!P,M)
 \cong Rs_*R\mathcal Hom_S(P,Rs^!M).
 $$
 
-No constructible-preservation or biduality assertion is assumed.
-
 ## Proof
 
 Factor $s$ into an open and a closed immersion. The adjunctions of

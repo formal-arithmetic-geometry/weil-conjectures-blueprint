@@ -18,7 +18,7 @@ $$
 H_c^i(X,\Lambda )\times H^{2d-i}(X,\Lambda ) \longrightarrow \Lambda (-d),
 $$
 
-for every $i\in \mathbf Z$. Since $X$ is geometrically connected, the $i=2d$ case together with $H^0(X,\Lambda)\cong\Lambda$ (the connectedness clause of Proposition 1.58) gives
+for every $i\in \mathbf Z$. Since $X$ is geometrically connected, the $i=2d$ case together with $H^0(X,\Lambda)\cong\Lambda$ (the connectedness clause of [prop-cohomological-finiteness]) gives
 
 $$
 H_c^{2d}\bigl(X,\Lambda (d)\bigr)\cong \Lambda , \qquad H_c^{2d}(X,\Lambda )\cong \Lambda (-d),

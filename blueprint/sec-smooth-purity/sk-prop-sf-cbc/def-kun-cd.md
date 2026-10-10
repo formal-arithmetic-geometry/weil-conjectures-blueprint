@@ -14,8 +14,4 @@ torsion etale sheaf $F$ and
 every $q>d$; it is $+\infty$ if no such $d$ exists. For a
 quasi-compact quasi-separated morphism $f:X\to Y$, $\kuncd(f)$ is
 the least $d$ such that $R^qf_*F=0$ for every torsion etale sheaf
-$F$ on $X_{\Et}$ and every $q>d$. The equivalent description of this
-vanishing by the strict local test schemes over a geometric point of
-$Y$, that is, by the corresponding filtered colimits of cohomology
-groups over the pointed etale neighbourhoods, is
-[lem-kun-cd-stalk-criterion].
+$F$ on $X_{\Et}$ and every $q>d$.

@@ -13,8 +13,3 @@ $$
 H^i\bigl(E\kunotimes{\Lambda}\mathcal M\bigr)=0
 \qquad\text{for all }i\notin[a,b]\ \ (\text{resp. }i<a).
 $$
-
-That a bounded complex of flat $\Lambda_T$-module sheaves supported in
-degrees $[a,b]$ has tor amplitude in $[a,b]$ is recorded with the
-other properties of this notion; boundedness alone
-does not imply finite tor amplitude.

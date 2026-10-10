@@ -6,7 +6,7 @@ order = 2001
 tags = ["latex:proposition"]
 uses = ["cor-pur-vector-bundle-purity", "def-pur-co-smoothness", "def-pur-conventions", "def-pur-dnc-section-family", "def-weil-derived-tensor", "lem-pur-concentrated-complex-shift", "lem-pur-dnc-section-geometry", "prop-pur-a1-invariance", "thm-pur-cohomological-smoothness"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting), in the situation of
+In the purity conventions of [def-pur-conventions], in the situation of
 [def-pur-dnc-section-family] with family object $F$, let
 $a:\mathbf A^1_B\to B$ be the projection and let
 $i_1:B\to\mathbf A^1_B$ be the section $t=1$.

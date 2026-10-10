@@ -111,5 +111,4 @@ the point-count convention is the one of
 geometrically connected case the same trace formula is the input of
 the trace-to-determinant identity [thm-zl-lefschetz-weil-identity]
 of the zeta chapter, which converts the per-iterate point counts into the
-determinant factorization of the zeta series; this is the form used
-in the final theorem's trace-to-determinant step.
+determinant factorization of the zeta series.

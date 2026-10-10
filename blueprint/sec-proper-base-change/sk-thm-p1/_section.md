@@ -8,14 +8,24 @@ uses = ["sk-def-br", "sk-def-conv", "sk-def-ia", "sk-def-pbc", "sk-thm-curveesti
 +++
 *Theorem (sketch).*
 
-For every scheme $S$, the projection $\Pone_S\to S$ satisfies
-$\mathrm{PBC}$.
+Let $\Lambda$ be a commutative ring. For every scheme $S$, the projection
+$\Pone_S\to S$ satisfies $\mathrm{PBC}_\Lambda$: for every base change
+$T\to S$ and every $K\in\Dplus(\Pone_{S,\Et},\Lambda)$ all of whose
+cohomology sheaves are torsion, the exchange morphism is an isomorphism.
 
 ## Proof
 
-It suffices ([sk-thm-iff]) to prove $\mathrm{IA}_r$ for the
-projection, i.e. the vanishings of [sk-def-ia]. The proof depends
-on the *curve calculations*, which we now exhibit.
+Write $p:\Pone_S\to S$, and for a base change $g:T\to S$ let
+$p':\Pone_T\to T$ and $g':\Pone_T\to\Pone_S$ be the other two sides of the
+cartesian square. Higher direct images and cohomology of a sheaf of
+$\Lambda$-modules agree with those of its underlying abelian sheaf, and a
+sheaf of $\Lambda$-modules is torsion when its underlying abelian sheaf is, so
+the torsion-sheaf statements below apply to sheaves of $\Lambda$-modules. We
+first prove that for every torsion sheaf $F$ of $\Lambda$-modules on
+$\Pone_{S,\Et}$ and every $q$ the exchange morphism
+$g^{-1}R^qp_*F\to R^qp'_*g'^{-1}F$ is an isomorphism (steps (i)–(iii)), and
+then pass to complexes (step (iv)). The proof depends on the *curve
+calculations*, which we now exhibit.
 
 *(i) The curve calculations.* For $C$ separated of finite type
 over an algebraically closed $k$ with $\dim C\le1$ and $F$ torsion,
@@ -28,7 +38,7 @@ $(C_5)\ C\ \text{proper},\ F\ \text{constructible}\ \Rightarrow\ H^q(C,F)\ \text
 $(C_6)\ k\subset k'\ \text{algebraically closed},\ F\ \text{prime to }p \Rightarrow\ H^q(C,F)\cong H^q(C_{k'},F);$  
 $(C_7)\ C\ \text{proper}\ \Rightarrow\ H^q(C,F)\cong H^q(C_{k'},F) \text{ for all torsion }F;$  
 $(C_8)\ a:U\hookrightarrow C\ \text{open}\ \Rightarrow\ a^*:H^2(C,F)\twoheadrightarrow H^2(U,a^{-1}F).$
-(**Uses Thm [sk-thm-curveestimate]**) For the constant sheaf
+For the constant sheaf
 $\Fq=\Z/n$ of order $n$ prime to $\operatorname{char}k$ on a smooth
 proper connected curve $C$ of genus $g$ these are explicit
 computations (the ``Kummer route'': a primitive $n$-th root of unity
@@ -77,13 +87,34 @@ $H^q(\Pone_A,F)\cong H^q(\Pone_s,F|)$ for every torsion $F$. (This
 comparison is where the curve calculations of (i) enter for the
 constant sheaf on the closed fibre $\Pone_s$.)
 
-*(iii) Arbitrary $S$.* The stalk of the exchange morphism at a
-geometric point $\bar t\to T$ (over $\bar s\to S$) is the canonical
-pullback $H^q(\Pone_{\kappa(\bar s)},F)\to H^q(\Pone_{\kappa(\bar t)},F)$ between separably closed fields, an
-isomorphism by the invariance obtained in (i) (the curve
-calculations). So the exchange map is an isomorphism at every
-geometric stalk: $\mathrm{IA}_r$ holds for the projection (geometric
-stalks are conservative), and [sk-thm-iff] converts it into
-$\mathrm{PBC}$.
+*(iii) Arbitrary $S$, one sheaf.* Let $F$ be a torsion sheaf of
+$\Lambda$-modules on $\Pone_{S,\Et}$. The stalk of
+$g^{-1}R^qp_*F\to R^qp'_*g'^{-1}F$ at a geometric point $\bar t\to T$
+(over $\bar s\to S$) is, by (ii) applied over the strict henselizations of
+$S$ at $\bar s$ and of $T$ at $\bar t$, the canonical pullback
+$H^q(\Pone_{\kappa(\bar s)},F|)\to H^q(\Pone_{\kappa(\bar t)},F|)$ between
+separably closed fields, an isomorphism by the invariance obtained in (i).
+Geometric stalks are conservative, so the exchange morphism is an
+isomorphism on every cohomology sheaf of $F$ placed in degree $0$; that is,
+the exchange morphism $\Ex_{\square,F}$ is an isomorphism in
+$\Dplus(T_{\Et},\Lambda)$. In particular, if $I$ is a torsion injective
+sheaf of $\Lambda$-modules, then $R^qp_*I=0$ for $q>0$, hence
+$R^qp'_*g'^{-1}I\cong g^{-1}R^qp_*I=0$: the projection satisfies
+$\mathrm{IA}_\Lambda$ of [sk-def-ia].
 
-Uses: [sk-def-conv], [sk-def-ia], [sk-def-pbc], [sk-thm-curveestimate], [sk-thm-iff]
+*(iv) Complexes.* Let $K\in\Dplus(\Pone_{S,\Et},\Lambda)$ have torsion
+cohomology sheaves and fix $m\in\mathbf Z$; we show that
+$H^m(\Ex_{\square,K})$ is an isomorphism. The functors $g^{-1}Rp_*$ and
+$Rp'_*g'^{-1}$ are triangulated, $\Ex_\square$ is a morphism of triangulated
+functors, and both functors carry $D^{\geq m+1}$ into $D^{\geq m+1}$ ($g^{-1}$
+and $g'^{-1}$ are exact, $p_*$ and $p'_*$ left exact). Applied to the
+triangle $\tau_{\leq m}K\to K\to\tau_{>m}K\to$, this shows that $H^m$ of
+either functor at $K$ equals $H^m$ at $\tau_{\leq m}K$, compatibly with
+$\Ex_\square$. Since $K$ is bounded below, $\tau_{\leq m}K$ is bounded, and
+by induction on the number of its nonzero cohomology sheaves, using the
+triangles $\tau_{\leq n-1}K\to\tau_{\leq n}K\to H^n(K)[-n]\to$ and the five
+lemma on the long exact cohomology sequences, it suffices that
+$\Ex_{\square,H^n(K)[-n]}$ is an isomorphism. This is (iii) for the torsion
+sheaf $H^n(K)$, shifted. Hence $\Ex_{\square,K}$ is an isomorphism, which is
+$\mathrm{PBC}_\Lambda$ for the projection. (For a torsion ring $\Lambda$ the
+same conclusion also follows from $\mathrm{IA}_\Lambda$ by [sk-thm-iff].)

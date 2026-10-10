@@ -2,7 +2,7 @@
 id = "sk-prop-av-projective"
 kind = "section"
 title = "Abelian varieties are projective"
-lean = ["AlgebraicGeometry.IsAbelianScheme.exists_isClosedImmersion_projectiveSpace", "AlgebraicGeometry.IsAbelianScheme.exists_isAmple"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.exists_isClosedImmersion_projectiveSpace", "AlgebraicGeometry.IsAbelianVariety.exists_isAmple"]
 order = 473
 uses = ["sk-def-av", "sk-def-av-ample-degree"]
 +++
@@ -19,5 +19,3 @@ proper scheme over a field is projective (`0B45`, applied with
 $S=\Spec k$). A projective scheme carries an ample module, namely the
 pullback of $\cO(1)$ under the closed immersion into projective space
 ([sk-def-av-ample-degree]).
-
-Uses: [sk-def-av-ample-degree], [sk-def-av]

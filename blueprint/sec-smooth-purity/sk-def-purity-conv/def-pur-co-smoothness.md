@@ -28,6 +28,3 @@ Y'&\xrightarrow{\ g\ }&Y,
 $$
 the canonical base-change map
 $Lg'^*\omega_f\to\omega_{f'}$ is an isomorphism.
-
-At this stage no isomorphism $\omega_f\simeq\Lambda_X(d)[2d]$ is part
-of the definition.

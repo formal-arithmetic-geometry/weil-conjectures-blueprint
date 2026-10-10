@@ -15,7 +15,7 @@ $$
 W_0\cong V\times_XZ.
 $$
 
-In the pointed form used below, if $\bar w\colon\Spec\Omega\to W$ is a point
+In pointed form: if $\bar w\colon\Spec\Omega\to W$ is a point
 of $W$ with values in a field, then there are a scheme $V$ étale over $X$
 and a morphism $V\times_XZ\to W$ of $Z$-schemes through which $\bar w$
 factors: apply the above at the image point of $\bar w$ and compose the

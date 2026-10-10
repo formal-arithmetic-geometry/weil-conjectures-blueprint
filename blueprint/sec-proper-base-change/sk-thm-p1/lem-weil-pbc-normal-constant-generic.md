@@ -11,8 +11,6 @@ $\underline E$ be the constant etale sheaf with value a finite abelian group
 $E$. Then the canonical map $\underline E\to g_*\underline E$ is an
 isomorphism. The same holds for the inclusion $j:U\hookrightarrow Y$ of a
 nonempty open subscheme.
-(*Stacks Project, Etale Cohomology, Lemma 59.73.13, Tag
-[09Z5](https://stacks.math.columbia.edu/tag/09Z5).*)
 
 ## Proof
 

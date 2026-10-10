@@ -13,6 +13,5 @@ $$
 \mathfrak z(\mathfrak g)=\{X\in\mathfrak g:[X,Y]=0\text{ for all }Y\in\mathfrak g\}.
 $$
 
-That this sum is again solvable, and is therefore the unique largest
-solvable ideal of $\mathfrak g$, is
-recorded with the other properties of this notion;
+The sum $\operatorname{rad}(\mathfrak g)$ is again solvable, and is
+therefore the unique largest solvable ideal of $\mathfrak g$.

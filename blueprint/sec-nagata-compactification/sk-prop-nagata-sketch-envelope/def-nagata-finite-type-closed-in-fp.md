@@ -5,12 +5,6 @@ title = "Separated finite-presentation envelope"
 order = 396
 uses = ["def-nagata-finite-type-fp-model-system", "def-nagata-fixed-base-separated-stage"]
 +++
-**Status.** Bypassed by the formalized route: the finite-presentation and
-Noetherian descent is done in one step by
-`AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation_of_isSeparated`
-and `AlgebraicGeometry.Scheme.nonempty_noetherianApproximation`, so
-this stage-by-stage bookkeeping is never carried out.
-
 Let $S$ be qcqs and let $X\to S$ be separated and of finite type. Form
 
 $$

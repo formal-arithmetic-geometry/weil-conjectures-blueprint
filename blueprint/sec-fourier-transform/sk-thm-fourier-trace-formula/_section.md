@@ -16,7 +16,7 @@ $$
 
 Thus, up to the sign coming from the shift $[1]$, the trace function of the
 transform is the classical Fourier transform of the trace function of the
-input. (Blueprint thm:fd-fourier-trace.)
+input.
 
 ## Proof
 
@@ -29,5 +29,3 @@ complex as the sum of the traces at the geometric points of the fibre, i.e. as $
 $[1]$ of [sk-def-ft]. The trace of a tensor product is the product of the
 traces, and the trace of the Artin–Schreier factor at $x$ is
 $\psi(\Tr_{\mathbf F_{q^n}/k_0}(xy))$ by [sk-lem-as-properties].
-
-Uses: [sk-def-ft], [sk-def-trace], [sk-lem-as-properties], [sk-prop-stalk]

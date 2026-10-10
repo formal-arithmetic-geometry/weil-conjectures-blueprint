@@ -5,7 +5,7 @@ title = "Smooth base-change coherence"
 order = 2018
 uses = ["cor-pur-vector-bundle-purity", "def-coefficient-twists-detailed", "def-exchange-projection", "def-pur-conventions", "def-pur-smooth-purity-map", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-coprojection", "lem-pur-diagonal-base-change", "lem-pur-smb-extraordinary", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
+Work in the purity conventions of [def-pur-conventions], let
 $A=A_{E,n}$, and let
 
 $$

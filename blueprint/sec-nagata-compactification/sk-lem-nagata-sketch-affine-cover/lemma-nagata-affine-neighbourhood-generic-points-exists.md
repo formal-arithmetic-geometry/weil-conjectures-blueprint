@@ -4,11 +4,6 @@ kind = "lemma"
 title = "Existence of an affine neighbourhood through finitely many generic points, [stacks-project]"
 order = 313
 +++
-**Status.** Bypassed by the formalized route: the affine cover meeting the
-selected generic points is produced in one step by
-`AlgebraicGeometry.exists_isAffineOpen_iSup_eq_top_and_genericPoints_subset_iInter`
-and `AlgebraicGeometry.Scheme.finiteAffineOpenCoverDenseIInter`.
-
 Let $X$ be quasi-separated, let $x\in X$, and let
 $\eta_1,\ldots,\eta_r$ be generic points of finitely many distinct
 irreducible components. There is an affine open of $X$ containing $x$ and

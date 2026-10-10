@@ -20,11 +20,3 @@ $\mathrm{FIN}(u,\Lambda;c)$ if:
 2. *amplitude:* there is an integer $c\in\mathbf Z_{\geq0}$ such that
    $R^qu_*F=0$ for every $q>c$ and every constructible sheaf $F$ of
    $\Lambda_{S,\Proet}$-modules on $S_{\Proet}$.
-
-The identification of constructible sheaves on $T_{\Proet}$ with the
-pullbacks $\nu_T^*F_{\Et}$ of constructible etale sheaves is the equivalence
-of Stacks Project, Section 61.27 ([Tag
-09AI](https://stacks.math.columbia.edu/tag/09AI)), whose coefficient ring is
-assumed Noetherian; the finiteness condition $\mathrm{FIN}(u,\Lambda;c)$
-itself, in particular its finite-level form for $\Lambda=P_n=A/I^n$, is a
-hypothesis of this blueprint rather than a quoted statement.

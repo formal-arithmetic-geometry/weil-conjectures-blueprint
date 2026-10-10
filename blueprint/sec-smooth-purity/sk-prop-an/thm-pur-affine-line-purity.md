@@ -20,11 +20,6 @@ $$
 $$
 
 It is natural in $K$ and compatible with arbitrary base change of $Y$.
-(Source: the relative affine-line case of cohomological purity, as in
-Milne, Lectures on Etale Cohomology, Section 16, Theorems 16.1 and
-16.7 and Proposition 16.11, with the acyclicity computation of Example
-16.3 and the Gysin sequence of the divisor, over an arbitrary base
-scheme.)
 
 ## Proof
 

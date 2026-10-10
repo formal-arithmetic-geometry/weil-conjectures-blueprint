@@ -5,9 +5,9 @@ title = "Formalization route: Tag 081S from Theorem 2.4 and Zariski's Main Theor
 order = 227
 uses = ["cor-nagata-blowup-product-common-refinement", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-strict-transform-closure-characterization", "thm-nagata-conrad-elimination"]
 +++
-[lemma-nagata-elimination-indeterminacy] (Stacks Tag 081S) is
-formalized along this section, not along a module-flattening argument. The bridge is the
-following argument, which uses no further input; it is carried out as the
+[lemma-nagata-elimination-indeterminacy] (Stacks Tag 081S) can be
+proved along this section, without a module-flattening argument. The bridge
+is the following argument, which uses no further input; it is carried out as the
 construction [def-nagata-elimination-indeterminacy] and the proof of
 [lemma-nagata-elimination-indeterminacy] at the end of this section.
 
@@ -48,9 +48,6 @@ subscheme, whence $Z'=W'$ and $Z'\to X'$ is an open immersion.
 This is exactly the conclusion of
 [lemma-nagata-elimination-indeterminacy]. The two external inputs are
 Zariski's Main Theorem, used once in the proof of
-[thm-nagata-conrad-elimination] and available in Mathlib as
-`Mathlib/AlgebraicGeometry/ZariskisMainTheorem.lean`, and the
+[thm-nagata-conrad-elimination], and the
 immersion of a quasi-affine scheme into relative affine space (Stacks Tag
-04II), used in [lemma-nagata-conrad-quasi-affine-affine-base] and
-already formalized as
-`AlgebraicGeometry.exists_immersion_affineSpace_of_quasiAffine`.
+04II), used in [lemma-nagata-conrad-quasi-affine-affine-base].

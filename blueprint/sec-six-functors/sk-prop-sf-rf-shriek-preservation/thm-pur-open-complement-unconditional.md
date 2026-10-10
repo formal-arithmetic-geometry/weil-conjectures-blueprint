@@ -25,13 +25,7 @@ condition holds for every $n\geq1$ with the same constant $2d$; for the
 chart complements $W_U\subseteq\mathbf A^{d_U}_V$ of the assembly
 [thm-pur-general-admissibility], where
 $d_U+\dim V\leq d_U+\dim Y$, it holds with
-$c_U=2(d_U+\dim V)$, again independent of $n$. The special cases
-recorded in [lem-exc-open-complement-known] — dimension zero, where an
-open immersion of a zero-dimensional Noetherian scheme is also closed, and
-dimension at most one, by
-[thm-exc-curve-open-dimension-general], [thm-exc-curve-open-constructible-general]
-— are independent computations of the same condition and are neither used
-nor superseded here.
+$c_U=2(d_U+\dim V)$, again independent of $n$.
 
 ## Proof
 

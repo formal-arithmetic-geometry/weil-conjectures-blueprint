@@ -23,8 +23,7 @@ $$
 \cong\operatorname{Hom}(K,Rf_n^\times L).
 $$
 Thus this formula is the right adjoint relative to the bounded-below
-comparison class. It applies in particular to the bounded constructible
-inputs used here.
+comparison class.
 1. Compactification comparisons of these functors are canonical and
 satisfy the cocycle condition.
 

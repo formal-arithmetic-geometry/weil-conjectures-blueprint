@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.QuasiDomination"]
 +++
 *Definition (sketch).*
 
-For a separated $S$-scheme $Y$, a *quasi-domination of $X$ over $Y$*
-is a map $f:U\to Y$ on a dense open $U\subseteq X$ whose graph is
-closed in $X\times_SY$. The closedness is required in this full
-product, not just in $U\times_SY$.
+For a separated $S$-scheme $Y$ and an $S$-scheme $X$, a
+*quasi-domination of $X$ over $Y$* is an $S$-morphism $f:U\to Y$ on a dense
+open $U\subseteq X$ whose graph is closed in $Y\times_SX$. The closedness is
+required in this full product, not just in $Y\times_SU$.

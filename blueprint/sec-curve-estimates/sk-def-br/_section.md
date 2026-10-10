@@ -8,7 +8,7 @@ lean = ["AlgebraicGeometry.Scheme.CohomologicalBrauerGroup"]
 +++
 *Definition (sketch).*
 
-For $C$ as in [sk-def-curve], the *Brauer group* of $C$ is
-$\Br(C)=H^2(C_{\Et},\mathbb G_m)$.
-
-Uses: [sk-def-curve]
+For a scheme $X$ (for instance $C$ as in [sk-def-curve]), the
+*(cohomological) Brauer group* of $X$ is
+$\Br(X)=H^2(X_{\Et},\mathbb G_m)$, where $\mathbb G_m$ is the sheaf of
+units of the structure sheaf on the small étale site.

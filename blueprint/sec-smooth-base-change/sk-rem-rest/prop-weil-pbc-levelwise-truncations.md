@@ -36,62 +36,7 @@ Then for every $m\in\mathbf Z$:
     \mathcal H^q(K_{n+1})\otimes^L_{P_{n+1}}P_n
     \longrightarrow\mathcal H^q(K_n)
    $$
-   is an isomorphism.
-
-   By the Künneth spectral sequence of the Koszul triangle,
-   $$
-    E_2^{p,q}=\operatorname{Tor}_p^{P_{n+1}}
-    \bigl(\mathcal H^q(K_{n+1}),P_n\bigr)\Rightarrow
-    \mathcal H^{q-p}(K_n),
-   $$
-   condition (1) is precisely the vanishing of the higher Tor-terms
-   $\operatorname{Tor}_p^{P_{n+1}}(\mathcal H^q(K_{n+1}),P_n)$, $p\ge1$, in
-   the range $q\ge m+1$, i.e. the vanishing of the Künneth obstruction of
-   the reduction morphism above level $m$. A sufficient condition is that
-   the cohomology sheaves $\mathcal H^i(K)$ of the ambient object
-   (equivalently, of the local models) be $\varpi$-torsion-free (over the
-   discrete valuation ring $A_T$ equivalently flat) for all $i\ge m+1$,
-   because then
-   $\mathcal H^q(K_{n+1})=\mathcal H^q(K)\otimes^L_{A_T}(P_{n+1})_T$ has no
-   higher $\varpi$-torsion and the morphism of (1) is the identity on
-   $(\mathcal H^q(K)/\varpi^{n+1})\otimes^L_{P_{n+1}}P_n$.
-
-   *In general the levelwise truncations are not adic towers*: the failure
-   is exactly the Tor-contribution. For instance, for
-   $K=(A_T/\varpi)[-(m+1)]$ (a single shift of the constant
-   $\varpi$-torsion sheaf) one has
-   $$
-    K_n=K\otimes^L_{A_T}(P_n)_T
-    =\bigl((A_T/\varpi)\oplus(A_T/\varpi)[1]\bigr)[-(m+1)]
-   $$
-   for every $n\ge1$ — the two-term Koszul resolution of $(P_n)_T$ over
-   $A_T$ gives
-   $\operatorname{Tor}_1^{A_T}(A_T/\varpi,(P_n)_T)=A_T/\varpi$ — and hence
-   $\tau^{\le m}K_n=(A_T/\varpi)[-m]$ for every $n$, whereas
-   $$
-    (\tau^{\le m}K_{n+1})\otimes^L_{P_{n+1}}P_n
-    =\bigl((A_T/\varpi)\otimes^L_{P_{n+1}}P_n\bigr)[-m],
-   $$
-   whose cohomology is $A_T/\varpi$ in *every* degree $\le m$ (since
-   $\operatorname{Tor}_i^{P_{n+1}}(A_T/\varpi,P_n)=A_T/\varpi$ for all
-   $i\ge0$, $n\ge1$); this is not $(A_T/\varpi)[-m]$, so the levelwise
-   truncated tower $\tau^{\le m}K_\bullet$ fails to be an adic tower.
-
-   Statements (i) and (ii) are therefore asserted under the
-   Tor-compatibility condition (1); statement (iii) holds unconditionally,
-   being a formal property of the canonical truncations. The levelwise form
-   is recorded here as the natural algebraic preparation of the
-   derived-limit statement for the completed category, where the condition
-   is imposed as an explicit hypothesis; the sufficient condition recorded
-   above is that the cohomology sheaves of the local models be flat over
-   $A_T$, which is strictly stronger than finiteness of the terms of the
-   models. *Local freeness of the terms of a model does not imply (1)*: for
-   the two-term complex $P_{n+1}\xrightarrow{\ \varpi\ }P_{n+1}$ the terms
-   are free while the first cohomology is the torsion module $P_n$, so
-   freeness of the terms forces neither torsion-freeness of the cohomology
-   nor the vanishing of the higher Tor terms in (1). Condition (1) is
-   therefore carried as a hypothesis in (i) and (ii) and is never deduced
-   from freeness;
+   is an isomorphism;
 2. if $K_\bullet$ is uniformly bounded constructible, with local models
    $L_{\alpha j}$ supported in $[d_0,d_1]$ and with the isomorphisms
    $K_n|_{U_{\alpha j}}\simeq L_{\alpha j}\otimes^L_{A_T}(P_n)_T$ for every
@@ -126,25 +71,58 @@ Then for every $m\in\mathbf Z$:
    $(\tau^{\le m}L_n^{\mathrm{et}},\nu^*\tau^{\le m}\circ\alpha_n)$ and
    $(\tau^{\ge m+1}L_n^{\mathrm{et}},\nu^*\tau^{\ge m+1}\circ\alpha_n)$.
 
-*Source note:* no Stacks Project entry states this levelwise form. The
-truncations used are Stacks': Homological Algebra, Section 12.15 ([Tag
-0118](https://stacks.math.columbia.edu/tag/0118)) defines the canonical
-truncations $\tau_{\le m},\tau_{\ge m}$ of a complex of an abelian category
-with $H^i(\tau_{\le m}A^\bullet)=H^i(A^\bullet)$ for $i\le m$ and $0$ for
-$i>m$ (and dually for $\tau_{\ge m+1}$), and Remark 13.12.4 ([Tag
-08J5](https://stacks.math.columbia.edu/tag/08J5)) gives the canonical
-truncation triangle in $D(\mathcal A)$. Difference: Stacks truncates
-complexes of one fixed abelian category, whereas the statement here is about
-the truncation tower of a strict tower of complexes over the varying
-coefficient rings $P_n$, and it adds the Tor-compatibility condition (1),
-the local models and the compatible etale-origin witnesses. The nearest
-constructibility and completion entries are Definition 61.29.1 ([Tag
-09C1](https://stacks.math.columbia.edu/tag/09C1)), Proposition 61.29.7 ([Tag
-09C7](https://stacks.math.columbia.edu/tag/09C7)), Lemmas 61.20.1 and
-61.20.2 ([Tag 099M](https://stacks.math.columbia.edu/tag/099M), [Tag
-099N](https://stacks.math.columbia.edu/tag/099N)) and, for the reduction
-tower of one constructible object, Lemma 61.29.2 ([Tag
-09C2](https://stacks.math.columbia.edu/tag/09C2)).
+Statements (i) and (ii) are asserted under the Tor-compatibility
+condition (1); statement (iii) holds unconditionally, being a formal
+property of the canonical truncations.
+
+Since $\mathcal H^q(K_{n+1})\otimes^L_{P_{n+1}}P_n$ has cohomology
+$\operatorname{Tor}_p^{P_{n+1}}(\mathcal H^q(K_{n+1}),P_n)$ in degree $-p$,
+condition (1) says that for $q\ge m+1$ the higher Tor terms
+$\operatorname{Tor}_p^{P_{n+1}}(\mathcal H^q(K_{n+1}),P_n)$, $p\ge1$, vanish
+and $\mathcal H^q(K_{n+1})\otimes_{P_{n+1}}P_n\to\mathcal H^q(K_n)$ is an
+isomorphism; these Tor terms are the Künneth obstruction in the spectral
+sequence
+$$
+ E_2^{p,q}=\operatorname{Tor}_p^{P_{n+1}}
+ \bigl(\mathcal H^q(K_{n+1}),P_n\bigr)\Rightarrow
+ \mathcal H^{q-p}(K_n)
+$$
+of the reduction morphism. A sufficient condition is that the cohomology
+sheaves $\mathcal H^i(K)$ of the ambient object (equivalently, of the local
+models) be $\varpi$-torsion-free (over the discrete valuation ring $A_T$
+equivalently flat) for all $i\ge m+1$, because then
+$\mathcal H^q(K_{n+1})=\mathcal H^q(K)\otimes^L_{A_T}(P_{n+1})_T$ has no
+higher $\varpi$-torsion and the morphism of (1) is the identity on
+$(\mathcal H^q(K)/\varpi^{n+1})\otimes^L_{P_{n+1}}P_n$.
+
+*In general the levelwise truncations are not adic towers*: the failure
+is exactly the Tor-contribution. For instance, for
+$K=(A_T/\varpi)[-(m+1)]$ (a single shift of the constant
+$\varpi$-torsion sheaf) one has
+$$
+ K_n=K\otimes^L_{A_T}(P_n)_T
+ =\bigl((A_T/\varpi)\oplus(A_T/\varpi)[1]\bigr)[-(m+1)]
+$$
+for every $n\ge1$ — the two-term Koszul resolution of $(P_n)_T$ over
+$A_T$ gives
+$\operatorname{Tor}_1^{A_T}(A_T/\varpi,(P_n)_T)=A_T/\varpi$ — and hence
+$\tau^{\le m}K_n=(A_T/\varpi)[-m]$ for every $n$, whereas
+$$
+ (\tau^{\le m}K_{n+1})\otimes^L_{P_{n+1}}P_n
+ =\bigl((A_T/\varpi)\otimes^L_{P_{n+1}}P_n\bigr)[-m],
+$$
+whose cohomology is $A_T/\varpi$ in *every* degree $\le m$ (since
+$\operatorname{Tor}_i^{P_{n+1}}(A_T/\varpi,P_n)=A_T/\varpi$ for all
+$i\ge0$, $n\ge1$); this is not $(A_T/\varpi)[-m]$, so the levelwise
+truncated tower $\tau^{\le m}K_\bullet$ fails to be an adic tower.
+
+*Local freeness of the terms of a model does not imply (1)*: for the
+two-term complex $P_{n+1}\xrightarrow{\ \varpi\ }P_{n+1}$ the terms are
+free while the first cohomology is the torsion module $P_n$, so freeness of
+the terms forces neither torsion-freeness of the cohomology nor the
+vanishing of the higher Tor terms in (1). Flatness of the cohomology
+sheaves of the local models is strictly stronger than finiteness of their
+terms.
 
 ## Proof
 
@@ -203,7 +181,7 @@ isomorphisms of (i) follow, and the cocycle is inherited from the quotient
 cocycle of $K_\bullet$. When condition (1) fails, the displayed end terms of
 the triangle carry the Tor-contributions of the Künneth spectral sequence in
 the wrong degrees, and the composite is in general only a canonical
-morphism, not an isomorphism; the counterexample of the statement shows the
+morphism, not an isomorphism; the counterexample after the statement shows the
 failure is real.
 
 *Step 2: the models of (ii).* The local models here are those of the
@@ -244,7 +222,3 @@ site-comparison inverse image $\nu^*$
 $K_n\simeq\nu^*L_n^{\mathrm{et}}$ one has
 $\tau^{\le m}K_n\simeq\nu^*\tau^{\le m}L_n^{\mathrm{et}}$, and the
 normalization compatibility is the naturality of $\nu^*$.
-
-The source records that audit item BC-03 was resolved for this proposition
-by carrying the Tor-compatibility condition (1) as an explicit hypothesis
-instead of deducing it from freeness.

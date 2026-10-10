@@ -9,18 +9,6 @@ Let $T$ be Noetherian and $\Lambda$ a finite commutative ring. Every
 subsheaf of a constructible $\Lambda$-module sheaf on the small etale site
 is constructible.
 
-*Source note:* this is Stacks Project, Section 59.74, Constructible sheaves
-on Noetherian schemes ([Tag 03RY](https://stacks.math.columbia.edu/tag/03RY)),
-whose Proposition 59.74.1 (3) states that for a Noetherian scheme $X$ and a
-Noetherian ring $\Lambda$ every submodule and quotient module of a
-constructible sheaf of $\Lambda$-modules on $X_{\Et}$ is constructible (the
-weak Serre input being Lemma 59.71.6, [Tag
-03RZ](https://stacks.math.columbia.edu/tag/03RZ)). The blueprint's statement
-is the same assertion for a finite commutative ring $\Lambda$, which is
-Noetherian, on the small etale site of a Noetherian $T$, and it adds a
-self-contained proof by Noetherian induction on geometric stalks in place of
-Stacks' proof through a finite partition into locally constant pieces.
-
 ## Proof
 
 Let $G\subset F$, with $F$ constructible. For a constant finite module sheaf

@@ -3,6 +3,7 @@ id = "lem-zl-relative-curve-mixedness"
 kind = "lemma"
 title = "Mixedness of the direct images over a relative affine curve"
 order = 2843
+lean = ["AlgebraicGeometry.exists_isMixedOfWeightsAtMost_higherLowerShriek_of_isAffine_fiber"]
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "def-weil-scheme-morphism-properties", "def-wf-constant-weil-twist", "def-wf-normalized-real-envelope", "lem-a1-mixed-direct-summand", "lem-wf-constant-twist-cohomology", "lem-wf-envelope-real", "lem-zl-relative-envelope-factor-reality", "sbc-thm-finiteness-finite-type", "thm-cbc-qbar", "thm-zl-real-mixed-by-curves"]
 +++
 Fix the coefficient and weight conventions of
@@ -18,11 +19,6 @@ $w$. Then for every $i$ there is a real number $u_i$ such that
 $R^ih_!\mathcal F$ is
 $\iota$-mixed of weights at most
 $u_i$.
-The proof follows the reduction in Kiehl–Weissauer I.7, pp. 53–54:
-the curve bound separates the two cohomological root radii, and
-[thm-zl-real-mixed-by-curves] supplies mixedness on the base by
-geometric reduction to the already proved real-sheaf theorem on curves.
-No instance of the general direct-image weight theorem is imported.
 
 ## Proof
 

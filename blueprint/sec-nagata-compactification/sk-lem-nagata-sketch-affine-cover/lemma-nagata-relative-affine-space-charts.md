@@ -5,10 +5,6 @@ title = "Relative affine-space charts and base change"
 order = 309
 uses = ["def-nagata-relative-affine-space"]
 +++
-**Status.** Bypassed by the formalized route: relative affine space is
-`AlgebraicGeometry.AffineSpace`, which already carries its charts and
-base change, so they are not reconstructed here.
-
 The affine charts in [def-nagata-relative-affine-space] glue to a
 scheme over $S$. Their transition maps satisfy the cocycle condition,
 and for every $T\to S$ there is a canonical isomorphism

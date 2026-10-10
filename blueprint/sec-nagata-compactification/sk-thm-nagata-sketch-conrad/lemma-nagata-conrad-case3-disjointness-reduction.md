@@ -10,16 +10,24 @@ Let $X$ be qcqs, let $U\subseteq V\subseteq X$ be quasi-compact open
 subschemes, let $p\colon Y\to X$ be a morphism with $Y$ qcqs, and let
 $f\colon U\to Y$ be a section of $p$ over $U$ whose image is closed in
 $p^{-1}(V)$. There is a $V$-admissible blow-up
-$q\colon\widetilde X=\operatorname{Bl}_{\mathcal I}(X)\to X$ such that, after
-base change along $q$, the closure of the image of $f$ is disjoint from the
-part lying over $\overline{q^{-1}(V\setminus U)}$.
+$q\colon\widetilde X=\operatorname{Bl}_{\mathcal I}(X)\to X$ with the
+following property. Let $Z'$ be a scheme with morphisms $r\colon Z'\to Y$
+and $p'\colon Z'\to\widetilde X$ such that $p\circ r=q\circ p'$, and let $Y'$
+be a scheme with a morphism $f_Y\colon Y'\to U$ and a quasi-compact morphism
+$f'\colon Y'\to Z'$ such that $r\circ f'=f\circ f_Y$ (for instance the base
+changes of $Y$ and of $f$ along $q$). Then the closure of $f'(Y')$ is
+disjoint from $p'^{-1}\bigl(\overline{q^{-1}(V\setminus U)}\bigr)$.
 
 ## Proof
 
-We produce the two centres required by
-[lemma-nagata-conrad-disjointness-blowup], applied with $Z=Y$, with the
-open immersions $U\subseteq V\subseteq X$, and with $f(U)=\Gamma_f$ in the
-role of the scheme lying over $U$.
+We produce the two ideals $\mathcal I_1,\mathcal I_2$ required by
+[lemma-nagata-conrad-disjointness-blowup], applied to the opens
+$U\subseteq V\subseteq X$, to $p\colon Y\to X$ in the role of $Z\to X$, and
+to $f\colon U\to Y$ in the role of the morphism whose source lies over
+$U$ (indeed $p\circ f$ is the inclusion of $U$). The morphism $f$ is
+quasi-compact, since $U$ is quasi-compact and $Y$ is quasi-separated, so
+its scheme-theoretic image $\overline{f(U)}$ has underlying set the
+closure of $f(U)$.
 
 Let $\mathcal H$ be the ideal of the reduced structure on the closed subset
 $\overline{V\setminus U}$, so $V(\mathcal H)=\overline{V\setminus U}$; since
@@ -58,12 +66,18 @@ $\mathcal I_2=\mathcal I_{1,\alpha}^2+\mathcal K^n$, so that
 $T_2=V(\mathcal I_2)=T_1\cap V(\mathcal K^n)$ is disjoint from $V$, and
 $\mathcal I=\mathcal I_1+\mathcal I_2$. The centre $\mathcal I$ is of finite
 type and $V(\mathcal I)\subseteq V(\mathcal I_2)\subseteq X\setminus V$, so
-the blow-up is $V$-admissible; the containment
-$\overline{V\setminus U}=V(\mathcal H)\subseteq V(\mathcal I_{1,\alpha})$
-holds because $\mathcal I_{1,\alpha}\subseteq\mathcal H$, the scheme $f(U)$
-lies over $U$ because $f$ is a section of $p$, and the displayed containment
-is hypothesis (3) of [def-nagata-conrad-disjointness-setup]. So
-[lemma-nagata-conrad-disjointness-blowup] applies and gives the
+the blow-up is $V$-admissible. The hypotheses of
+[lemma-nagata-conrad-disjointness-blowup] hold: $V\setminus U\subseteq
+\overline{V\setminus U}=V(\mathcal H)\subseteq V(\mathcal I_{1,\alpha})$
+because $\mathcal I_{1,\alpha}\subseteq\mathcal H$; $V(\mathcal I_2)\cap V=\varnothing$;
+$p(f(U))=U$ because $f$ is a section of $p$; and
+$\mathcal I_2\mathcal O_Y=\mathcal I_{1,\alpha}^2\mathcal O_Y+\mathcal K^n\mathcal O_Y
+\subseteq\mathcal I_{1,\alpha}^2\mathcal O_Y+\mathcal I_{\overline{f(U)}}$ by
+the last display. Its blow-up is $q\colon\widetilde X=\operatorname{Bl}_{\mathcal I}(X)\to X$,
+and for every $Z',r,p',Y',f_Y,f'$ as in the statement (where
+$f_Y\colon Y'\to U$ and $r\circ f'=f\circ f_Y$) it gives that
+$\overline{f'(Y')}$ is disjoint from
+$p'^{-1}\bigl(\overline{q^{-1}(V\setminus U)}\bigr)$, which is the
 assertion.
 
 (Conrad additionally arranges $\mathcal I_{1,\alpha}|_U=\mathcal O_U$; this

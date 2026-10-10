@@ -32,6 +32,11 @@ The local generic stalk $V_s$ is the space of $\rho$ with $W(K_s)$ acting throug
 Residue Frobenius lifts in $W(K_s)$ differ by elements of $I_s$, so they act
 unambiguously on the invariants $V_s^{I_s}$ in the sense of
 [def-real-weil-representation-operations].
+Another choice of path changes the homomorphism by conjugation, and
+$V_s^{I_s}$ with its residue Frobenius action is independent of the choice up to Frobenius-equivariant isomorphism.
+
+## Proof
+
 Another path changes the homomorphism by conjugation by some
 $g\in\pi_1(U_0)$. Write $g=wd$ with $w\in W(U_0)$ and $d$ in the image
 $D$ of $\Gal(\overline K_s/K_s)$: identify $\Gal(k/\Fq)$ with
@@ -51,5 +56,3 @@ $\delta\in\Gal(\overline K_s/K_s)$. Hence the invariant space for the
 new homomorphism is $\rho(w)V_s^{I_s}$, and the map $\rho(w)$ identifies
 the two invariant spaces Frobenius-equivariantly, so $V_s^{I_s}$ is
 independent of the choice up to Frobenius-equivariant isomorphism.
-
-Uses: [d-real-setup], [def-real-weil-representation-operations], [def-wf-fundamental-representation], [def-wf-weil-group]

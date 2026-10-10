@@ -11,23 +11,26 @@ lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPo
 Fix a real weight character $\lambda$,
 monodromy data and a
 positive central pair $(N,z)$.
-Let $Q\ne0$ be a $W$-subquotient of a
-rational $G$-representation, with
+Let $Q=S/U\ne0$ be a $W$-subquotient of the
+defining representation $V=k^n$ of the datum, with
 finite geometric determinant. If $z$ acts on
-$Q$ as a scalar $c_Q$, then
+$Q$ as a scalar $c_Q\in k^\times$, then
 
 $$
 \dw_\lambda(Q)=\frac{\lambda(c_Q)}{N}.
 $$
 
-The scalar-action hypothesis holds whenever $Q$ is simple.
+The scalar-action hypothesis holds whenever $Q$ is simple and $k$ is
+algebraically closed.
 The determinant weight is independent of the chosen degree-one lift.
 
 ## Proof
 
-By [sk-i-restriction], $Q$ is rational for $G$, and a simple
-$W$-subquotient is simple for $G$. If simple, the central element $z$
-acts by a nonzero scalar by Schur's lemma in r:linear-library.
+The subspaces $U\subseteq S$ of $V=k^n$ are stable under $\rho(W)$, hence
+under its Zariski closure $G$ by the density statement of
+[sk-i-restriction]; so $Q=S/U$ is a rational representation of $G$, and a
+simple $W$-subquotient is simple for $G$. If simple, the central element $z$
+acts by a nonzero scalar by Schur's lemma of [sk-r-linear-library].
 For the general
 scalar-action case, let $r=\dim Q$ and let $\delta:G\to k^\times$
 be its rational determinant character. Its restriction to $H$ has
@@ -41,5 +44,3 @@ which kills the finite-order factor $\delta(h)$, and divide by $rN$.
 Replacing $\gamma$ by $u\gamma$, $u\in P$, also changes its determinant
 by a finite-order factor, proving independence of the lift.
 This argument assumes the pair; it does not use its existence theorem.
-
-Uses: [sk-d-central], [sk-d-linear], [sk-d-monodromy], [sk-d-tangent], [sk-d-weights], [sk-i-restriction], [sk-r-linear-library]

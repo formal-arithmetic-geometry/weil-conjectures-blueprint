@@ -14,7 +14,5 @@ $$
 $$
 
 and $F$ is *globally generated* if this morphism is an
-epimorphism of sheaves; the equivalent description by surjectivity of
-the evaluation morphism on every geometric stalk is
-recorded with the other properties of this notion. For abelian sheaves take
+epimorphism of sheaves. For abelian sheaves take
 $\Lambda=\mathbf Z$.

@@ -15,8 +15,7 @@ open-complement condition of [def-exc-open-complement-bound] with
 $c=2d$.
 Independently of the general argument, the condition is immediate in
 dimension zero, where an open immersion of a zero-dimensional Noetherian
-scheme is also closed and both clauses are immediate, and it is proved in
-dimension at most one in
+scheme is also closed, and it holds in dimension at most one by
 [thm-exc-curve-open-dimension-general], [thm-exc-curve-open-constructible-general].
 
 ## Proof

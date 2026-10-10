@@ -23,8 +23,4 @@ $$
 $$
 
 given by the open counit and the closed unit. An *open--closed recollement
-triangle* means a distinguished triangle extending this specified pair. This
-names the data and the required property; existence of this triangle is not
-assumed in the definition. It will follow from the sheaf-level exact sequence
-when the complementary open immersion is quasi-compact, in particular for the
-Noetherian schemes used in the finite-field applications.
+triangle* means a distinguished triangle extending this specified pair.

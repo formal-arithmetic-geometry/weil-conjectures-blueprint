@@ -29,6 +29,4 @@ over $E(\mu_p)$ after extension of scalars.) No weight, no $L^2$-weight
 parameter and no purity notion is used
 anywhere in this file; the Tate twist is a coefficient normalization (the
 blueprint records its definition among the weight foundations, but no weight
-statement of that chapter is used below). (Blueprint def:weil-pbc-qbar-category,
-prop:functor-package, def:weil-ordinary-compact-cohomology,
-def:wf-tate-twist.)
+statement of that chapter is used below).

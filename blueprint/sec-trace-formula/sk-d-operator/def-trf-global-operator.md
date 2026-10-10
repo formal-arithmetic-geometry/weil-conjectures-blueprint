@@ -32,7 +32,7 @@ where $R\Gamma_c$ is the compact-support cohomology of the
 coefficient conventions
 (computed with the
 compact-support direct
-image, and:
+image), and:
 
 1. the first arrow is the unit of the adjunction
 $Lc_2^*\dashv Rc_{2*}$ of the
@@ -53,8 +53,7 @@ $$
 which is correctly an isomorphism of functors with the associativity
 compatibility: this arrow transports the compact-support cohomology of
 $C$ to that of $X$ along the exceptional leg (it is *not* the
-projection formula; the projection formula is not used here, and the
-coinage of the terminology in earlier drafts was a slip);
+projection formula);
 1. the last arrow is the counit
 $\varepsilon_{c_1}:Rc_{1!}Rc_1^!\to\operatorname{id}$ of the
 adjunction $Rc_{1!}\dashv Rc_1^!$ of [def-trf-admissibility],
@@ -63,4 +62,4 @@ $R\Gamma_c(X,-)$ (exact, so it maps the counit to an arrow in the
 derived category).
 
 The composite is a morphism of $D^b_{\mathrm{fin}}(A)$
-by [lem-trf-global-operator-perfect], and
+by [lem-trf-global-operator-perfect].

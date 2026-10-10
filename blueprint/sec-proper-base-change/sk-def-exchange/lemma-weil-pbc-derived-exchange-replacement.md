@@ -6,39 +6,58 @@ order = 1043
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_ext", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_fac_app"]
 uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-underived-exchange", "lem-weil-pbc-derived-exchange-termwise", "lemma-weil-pbc-underived-exchange-naturality"]
 +++
-The K-injective replacement used in Definition
-[def-weil-pbc-derived-exchange] gives a well-defined derived exchange
-map, independent of all replacement choices.
+Let $\square$ be a commutative square of schemes and $\mathcal A$ a coefficient
+category as in [def-weil-pbc-derived-exchange]. For every bounded below
+complex $K$ of $\mathcal A$-valued sheaves on $X_{\Et}$, the composite
+
+$$
+ g^{-1}f_*K\xrightarrow{g^{-1}(\eta_K)}g^{-1}Rf_*K
+ \xrightarrow{\Ex_{\square,K}}Rf'_*g'^{-1}K
+$$
+
+of the derived exchange morphism [def-weil-pbc-derived-exchange] with
+$g^{-1}$ of the canonical map $\eta_K:f_*K\to Rf_*K$ equals the termwise
+underived exchange morphism [def-weil-pbc-underived-exchange]
+$\Ex^0_{\square,K}:g^{-1}f_*K\to f'_*g'^{-1}K$ followed by the canonical map
+$f'_*g'^{-1}K\to Rf'_*g'^{-1}K$. Conversely, every natural transformation
+$g^{-1}Rf_*\to Rf'_*g'^{-1}$ on $\Dplus(X_{\Et},\mathcal A)$ satisfying this
+identity for every bounded below complex $K$ equals $\Ex_{\square}$. In
+particular, if $K$ is a bounded below complex of injectives
+[def-weil-pbc-kinjective-resolutions], $\Ex_{\square,K}$ is computed by the
+termwise underived exchange morphism, independently of any choices.
 
 ## Proof
 
-Given two K-injective replacements $J^\bullet$ and $J'^\bullet$, the identity
-of $g'^{-1}I^\bullet$ lifts to maps $J^\bullet\to J'^\bullet$ and
-$J'^\bullet\to J^\bullet$ because K-injective complexes are homotopically
-injective. Their composites are homotopic to the identities by lifting the
-homotopies of the replacement quasi-isomorphisms. Applying $f'_*$ preserves
-chain homotopies. The two resulting maps from
-$g^{-1}f_*I^\bullet$ therefore define the same morphism in the derived
-category. A comparison of two injective resolutions of $K$ is handled by
-the same lifting argument, and naturality of the underived exchange map
-commutes with the comparison maps. Thus the class is canonical.
+Write $Q$ for the passage from bounded below complexes (up to homotopy) to
+$\Dplus$, and $c_M:f'_*M\to Rf'_*M$ for the canonical map. The termwise
+underived exchange morphisms $\Ex^0_{\square,K}$, followed by
+$c_{g'^{-1}K}$, form a natural transformation
+$\beta:g^{-1}f_*\to Rf'_*g'^{-1}Q$ of functors on bounded below complexes up to
+homotopy: $\Ex^0_\square$ is natural [lemma-weil-pbc-underived-exchange-naturality],
+so applied degreewise it commutes with chain maps and carries chain homotopies
+to chain homotopies.
 
-## Detailed form
+Because $g^{-1}$ is exact, the pair $(g^{-1}Rf_*,\,g^{-1}\eta)$ is a right
+derived functor of $g^{-1}f_*$: for every functor $G$ on $\Dplus(X_{\Et},\mathcal A)$
+and every natural transformation $\beta:g^{-1}f_*\to GQ$ there is a unique
+natural transformation $\alpha:g^{-1}Rf_*\to G$ with
+$\alpha_K\circ g^{-1}(\eta_K)=\beta_K$ for all $K$. (Uniqueness: every object of
+$\Dplus$ is isomorphic to a bounded below complex of injectives $I$
+[def-weil-pbc-kinjective-resolutions], and for such $I$ the map $\eta_I$ is an
+isomorphism, so $\alpha_I=\beta_I\circ(g^{-1}\eta_I)^{-1}$ is forced.
+Existence: define $\alpha$ by this formula on a chosen injective resolution of
+each object; naturality of $\beta$ and the homotopy uniqueness of maps into
+complexes of injectives make it well defined and natural, and naturality of
+$\beta$ along $K\to I$ gives $\alpha_K\circ g^{-1}(\eta_K)=\beta_K$ for every $K$.)
 
-Let $K\to I$ and $K\to J$ be two K-injective resolutions
-[def-weil-pbc-kinjective-resolutions]. Every comparison $I\to J$ over $K$
-gives the same derived exchange morphism of the derived exchange morphism
-[def-weil-pbc-derived-exchange], and two such comparisons are
-chain-homotopic. Consequently $\Ex_{\square,K}$ is independent of the
-resolution and is natural in $K$.
+By [def-weil-pbc-derived-exchange], $\Ex_\square$ is the transformation
+$\alpha$ attached to $\beta$ above. The first assertion is the identity
+$\alpha\circ g^{-1}\eta=\beta$, and the converse assertion is the uniqueness
+part of the universal property. Finally, if $K$ is a bounded below complex of
+injectives, then $\eta_K$ is an isomorphism, so
 
-## Proof
+$$
+ \Ex_{\square,K}=c_{g'^{-1}K}\circ\Ex^0_{\square,K}\circ(g^{-1}\eta_K)^{-1},
+$$
 
-The comparison lemma for K-injective resolutions stated in
-[def-weil-pbc-kinjective-resolutions] supplies the chain maps and their
-homotopy uniqueness; by [lem-weil-pbc-derived-exchange-termwise] the termwise
-underived exchange on such a resolution computes the derived exchange
-morphism $\Ex_{\square,K}$ of [def-weil-pbc-derived-exchange], so
-any two comparisons over $K$ give the same morphism of the derived category,
-and the naturality of $\Ex_{\square,K}$ in $K$ follows from the naturality of
-the underived exchange.
+an expression involving no choices.

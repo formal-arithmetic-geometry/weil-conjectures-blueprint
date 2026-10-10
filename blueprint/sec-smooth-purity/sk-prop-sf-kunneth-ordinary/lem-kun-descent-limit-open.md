@@ -12,11 +12,6 @@ affine with coordinate ring $A=\varinjlim_iA_i$, and let $U\subseteq X$
 be a quasi-compact open subscheme. Then there are $i$ and a
 quasi-compact open $U_i\subseteq X_i$ with
 $U=p_i^{-1}(U_i)=U_i\times_{X_i}X$.
-(*Source:* the affine case of the descent of a quasi-compact open
-along an affine limit, Stacks Project, Limits of Schemes,
-[Lemma 32.10.1, Tag
-`01ZM`](https://stacks.math.columbia.edu/tag/01ZM); the general case of that tag, for arbitrary quasi-compact
-quasi-separated $X_i$, is not needed in this chapter.)
 
 ## Proof
 

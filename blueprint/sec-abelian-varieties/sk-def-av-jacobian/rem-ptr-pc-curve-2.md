@@ -5,6 +5,6 @@ title = "Pointer to the properties of [def-pc-curve]"
 order = 461
 uses = ["def-pc-curve"]
 +++
-In the notation of [def-pc-curve], the following holds. the two are compared in
+In the notation of [def-pc-curve]: the two curve notions are compared in
 [lem-pc-curves-are-sc], which identifies them on smooth
 proper integral curves over algebraically closed fields.

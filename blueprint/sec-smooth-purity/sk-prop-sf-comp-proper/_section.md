@@ -33,5 +33,3 @@ identification entering the construction of $\operatorname{Ex}_!$ in
 [sk-def-sf-exchanges] is the identity, so $\operatorname{Ex}_!$ reduces to
 the exchange map $\operatorname{Ex}_*$ attached to the proper $f$, which is the
 one appearing in [sk-thm-properbasechange].
-
-Uses: `\Cref{sk-def-sf-exchanges}`, `\Cref{sk-prop-sf-cbc}`, `\Cref{sk-prop-sf-comp-coherence}`, `\Cref{sk-thm-properbasechange}`

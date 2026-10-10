@@ -46,5 +46,3 @@ maps. This is an equality of morphisms proved from the constructions; it is
 which would be insufficient ([sk-lem-sf-determination]). Both horizontal
 maps are isomorphisms by [sk-thm-sf-pf-finite], whence the equivalence of
 invertibility.
-
-Uses: `\Cref{thm-sf-pf-finite}`, `prop-functor-package`, [sk-def-sf-exchanges], [sk-lem-sf-determination]

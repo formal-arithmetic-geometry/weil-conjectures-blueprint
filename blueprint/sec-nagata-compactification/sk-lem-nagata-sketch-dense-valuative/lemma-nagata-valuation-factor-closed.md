@@ -6,7 +6,7 @@ order = 277
 lean = ["AlgebraicGeometry.IsClosedImmersion.exists_lift_of_isFractionRing"]
 uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-comparison", "lemma-nagata-reduced-dense-image-schematic", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
 +++
-Let $A$ be a valuation ring with fraction field $K$, let $Z\hookrightarrow Y$
+Let $A$ be a domain with fraction field $K$, let $Z\hookrightarrow Y$
 be a closed immersion, and let $g\colon\operatorname{Spec}(A)\to Y$. If the
 restriction of $g$ to $\operatorname{Spec}(K)$ factors through $Z$, then
 $g$ factors through $Z$.

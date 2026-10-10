@@ -11,7 +11,7 @@ so that $A$ is a local Artinian ring with maximal ideal
 $(\varpi_E)$, and let $C$ be a bounded complex of $A$-modules
 whose cohomology modules are finite, i.e. an object of the
 finite-coefficient
-category over a point of the trace-formula chapter. Then $C$ has
+category over a point. Then $C$ has
 finite Tor amplitude if and
 only if $C$ lies in $D^b_{\mathrm{fin}}(A)$ in the sense of
 [def-trf-categorical-trace], i.e. if and only if $C$ is

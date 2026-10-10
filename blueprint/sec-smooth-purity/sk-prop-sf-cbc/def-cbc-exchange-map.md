@@ -30,5 +30,4 @@ of [def-weil-pbc-cartesian-square] for the proper $p$ and the
 cartesian square $(\bar g',p')$, applied to $j_!K$, with the
 extension-by-zero identification
 $g^{-1}j_!K\xrightarrow{\sim}j'_!g_U^{-1}K=j'_!g'^{-1}K$ of
-[cor-cbc-derived-extension-zero-base-change]; this is the map
-denoted $\operatorname{Ex}_!$ in [def-exchange-projection].
+[cor-cbc-derived-extension-zero-base-change].

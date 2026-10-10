@@ -4,7 +4,7 @@ kind = "section"
 title = "The tangent space of the Jacobian"
 order = 846
 uses = ["sk-def-av-jacobian", "sk-def-picard-pic", "sk-lem-picard-cech-computes", "sk-prop-picard-degree-decomposition"]
-lean = ["AlgebraicGeometry.nonempty_tangentSpaceAt_equiv_H_one"]
+lean = ["AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one"]
 +++
 *Proposition (sketch).*
 
@@ -58,5 +58,3 @@ $T_e\underline{\Pic}^0_{C/k}\cong\check H^1(\mathfrak U,\cO_C)$, and
 $\check H^1(\mathfrak U,\cO_C)\cong H^1(C,\cO_C)$ $k$-linearly by
 [sk-lem-picard-cech-computes]; its dimension is the genus $g$ by the
 conventions.
-
-Uses: [sk-prop-picard-degree-decomposition], [sk-def-picard-pic], [sk-lem-picard-cech-computes]

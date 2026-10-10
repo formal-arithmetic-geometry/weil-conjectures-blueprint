@@ -26,5 +26,3 @@ transitions: after increasing the index the stage is separated
 (01ZH). Choose such a stage as $X^{\mathrm{fp}}$;
 this is 01ZJ. No finite-presentation hypothesis on the
 closed immersion $X\hookrightarrow X^{\mathrm{fp}}$ is required.
-
-Uses: [sk-prop-nagata-sketch-fp-models]

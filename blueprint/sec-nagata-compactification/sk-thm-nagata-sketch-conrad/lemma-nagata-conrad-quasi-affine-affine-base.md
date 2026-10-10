@@ -6,12 +6,15 @@ order = 210
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_of_isQuasiAffine"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-relative-affine-space", "def-nagata-scheme-image-comparison", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-affine-space-extension", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-dense-flat-pullback", "lemma-nagata-quasi-affine-immersion-affine-space-exists", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
-Let $X$ be affine, let $U\subseteq X$ be a quasi-compact open, let
-$p\colon Y\to X$ be quasi-affine and of finite type, and let $f\colon U\to Y$
-be an $X$-morphism. There is a $U$-admissible blow-up
-$\widetilde X\to X$ in which $U$ is scheme-theoretically dense, together with
-a quasi-domination $(W,\widetilde f)$ of $\widetilde X$ over $Y$ extending
-$f$.
+Let $X$ be affine, let $U\subseteq X$ be a quasi-compact open, let $Y$ be a
+quasi-affine scheme, let $p\colon Y\to X$ be locally of finite type, and
+let $f\colon U\to Y$ be an $X$-morphism. There is a $U$-admissible blow-up
+$\pi\colon\widetilde X\to X$ in which $\pi^{-1}(U)$ is
+scheme-theoretically dense, together with an open
+$W\subseteq\widetilde X$ containing $\pi^{-1}(U)$ and an $X$-morphism
+$\widetilde f\colon W\to Y$ extending $f$ whose graph is closed in
+$Y\times_X\widetilde X$; thus $(W,\widetilde f)$ is a quasi-domination of
+$\widetilde X$ over $Y$ extending $f$.
 
 ## Proof
 
@@ -19,9 +22,10 @@ By [lemma-nagata-quasi-affine-immersion-affine-space-exists] there are
 an $n$ and a quasi-compact immersion $i\colon Y\to\mathbb A^n_X$ over $X$.
 Put $F=i\circ f\colon U\to\mathbb A^n_X$. By
 [lemma-nagata-conrad-affine-space-extension] there is a $U$-admissible
-blow-up $\widetilde X_0\to X$ carrying a quasi-domination
-$(\widetilde W_0,\widetilde F_0)$ of $\widetilde X_0$ over $\mathbb A^n_X$
-extending $F$.
+blow-up $\widetilde X_0\to X$, an open $\widetilde W_0\subseteq\widetilde X_0$
+containing the inverse image of $U$ and an $X$-morphism
+$\widetilde F_0\colon\widetilde W_0\to\mathbb A^n_X$ extending $F$ whose
+graph is closed in $\widetilde X_0\times_X\mathbb A^n_X$.
 
 Next make $U$ scheme-theoretically dense. By
 [lemma-nagata-conrad-schematically-dense-blowup] there is a

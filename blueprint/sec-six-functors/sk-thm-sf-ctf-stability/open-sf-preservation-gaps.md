@@ -13,7 +13,7 @@ is as follows:
 
 1. General duality at $\mathcal O_E,E,\Qlb$ is now supplied
 by [thm-sf-biduality-class], using the independent finite and
-integral coefficient comparisons. It is no longer an open input.
+integral coefficient comparisons.
 1. The dimension-free internal-Hom bound $[c-b,d-a]$ still requires
 a site-perfect first variable. Its failure for a general constructible
 first variable, recorded in [rem-sf-proetale-hom-status], is compatible

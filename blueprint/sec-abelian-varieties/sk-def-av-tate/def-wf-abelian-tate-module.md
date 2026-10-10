@@ -2,12 +2,12 @@
 id = "def-wf-abelian-tate-module"
 kind = "definition"
 title = "The Tate module used in the curve argument"
-lean = ["AlgebraicGeometry.IsAbelianScheme.tateModule"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.tateModule"]
 order = 470
 uses = ["def-sc-abelian-variety", "def-sc-mult-n", "def-tate-module-abelian-group"]
 +++
-Let $A$ be an abelian variety over an
-algebraically closed field of characteristic different from $\ell$. For
+Let $\ell$ be a prime and $A$ an abelian variety over a field $k$
+with algebraic closure $\overline k$. For
 the torsion subgroup
 $A[\ell^n]=\ker([\ell^n]:A\to A)$, define
 
@@ -20,8 +20,7 @@ $$
 where the transition map from level $n+1$ to level $n$ is
 multiplication by $\ell$. Every endomorphism of $A$, and every
 semilinear automorphism of $A$ over an automorphism of the ground field,
-acts componentwise on these inverse limits; for the geometric Jacobian of a
-curve these semilinear automorphisms are supplied by the next lemma.
+acts componentwise on these inverse limits.
 The abelian-variety and torsion-subgroup conventions are those of
 [def-sc-abelian-variety], [def-sc-mult-n].
 

@@ -8,7 +8,9 @@ lean = ["AlgebraicGeometry.exists_jacobian"]
 +++
 *Proposition (sketch).*
 
-$\underline{\Pic}^0_{C/k}$ is a proper, smooth, connected, commutative
+Let $k$ be separably closed and $C$ a $k$-scheme which is proper, smooth
+of relative dimension $1$ and geometrically integral over $k$, of genus
+$g=\dim_kH^1(C,\cO_C)$. Then $\underline{\Pic}^0_{C/k}$ is a proper, smooth, connected, commutative
 group scheme of dimension $g$ over $k$, that is, an abelian variety, with
 $T_e\underline{\Pic}^0_{C/k}\cong H^1(C,\cO_C)$. Hence
 $J(C)=\underline{\Pic}^0_{C/k}$, with its representing isomorphism, is the
@@ -24,6 +26,9 @@ $\cL\cong\cO_C(D)$; and the formation of $J(C)$ commutes with algebraically clos
 $J(C_{k'})=J(C)\times_kk'$ for $k\subseteq k'$ algebraically closed.
 
 ## Proof
+
+Since a scheme which is proper over a field and of dimension $1$ is projective over it, $C$ is a smooth projective curve, so the results of
+this chapter for smooth projective curves apply to it.
 
 *Why this is the Jacobian.* By [sk-prop-picard-degree-decomposition]
 the subfunctor $\Pic^0_{C/k}$ is represented by the open and closed subgroup
@@ -79,5 +84,3 @@ $\Pic_{C_{k'}/k'}$ and its degree-zero part is $J(C_{k'})$.
 [`0BA0`](https://stacks.math.columbia.edu/tag/0BA0); the
 detailed blueprint node is
 `thm-sc-jacobian-representability`.)
-
-Uses: [sk-def-av-jacobian], [sk-def-picard-f], [sk-lem-picard-f-open], [sk-lem-picard-zero-dictionary], [sk-prop-picard-degree-decomposition], [sk-prop-picard-jacobian-tangent], [sk-prop-picard-pic-split], [sk-thm-picard-f-representable], [sk-thm-picard-hilb-curves], [sk-thm-picard-rr], [sk-thm-picard-twist]

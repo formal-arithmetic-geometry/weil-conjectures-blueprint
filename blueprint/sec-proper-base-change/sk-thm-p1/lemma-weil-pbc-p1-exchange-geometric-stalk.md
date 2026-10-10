@@ -5,14 +5,17 @@ title = "Exchange on a geometric stalk"
 order = 1149
 uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-etale-sheaves", "prop-weil-pbc-p1-strict-henselian-comparison", "prop-weil-pbc-strict-henselization-stalk-formula", "prop-weil-pbc-strict-local-exchange"]
 +++
-For $p:\mathbf P^1_S\to S$, a base change $g:T\to S$, and
-$\bar t\to T$ with image $\bar s\to S$, the stalk of
-$\operatorname{Ex}_{\square,F}$ is the restriction map
+Let $p:\mathbf P^1_S\to S$, let $g:T\to S$, and let $\bar t\to T$ have image
+$\bar s\to S$. For a torsion sheaf $F$ and every $q$, the stalk of the
+exchange morphism [def-weil-pbc-derived-exchange] is the canonical restriction
 
 $$
-H^q(\mathbf P^1_{\kappa(\bar s)},F|)
-\longrightarrow H^q(\mathbf P^1_{\kappa(\bar t)},F|).
+ H^q(\mathbf P^1_{\kappa(\bar s)},F|)
+ \longrightarrow
+ H^q(\mathbf P^1_{\kappa(\bar t)},F|),
 $$
+
+where both residue fields are separably closed.
 
 ## Proof
 
@@ -58,22 +61,6 @@ commutes degree by degree and hence in the derived category. The lower
 square is the identical calculation after passing to the closed geometric
 fibres. Therefore the stalk of the named S0 exchange is exactly the field
 extension map displayed in the bottom row, not an abstract replacement.
-
-## Detailed form
-
-Let $p:\mathbf P^1_S\to S$, let $g:T\to S$, and let $\bar t\to T$ have image
-$\bar s\to S$. For a torsion sheaf $F$ and every $q$, the stalk of the
-exchange morphism [def-weil-pbc-derived-exchange] is the canonical restriction
-
-$$
- H^q(\mathbf P^1_{\kappa(\bar s)},F|)
- \longrightarrow
- H^q(\mathbf P^1_{\kappa(\bar t)},F|),
-$$
-
-where both residue fields are separably closed.
-
-## Proof
 
 The strict-henselization stalk formula
 [prop-weil-pbc-strict-henselization-stalk-formula] identifies the source and

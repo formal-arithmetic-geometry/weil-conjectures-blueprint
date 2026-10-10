@@ -22,5 +22,4 @@ $\Dbc,\Dctf,D_c^{[a,b]}$ are as in [sk-def-sf-categories]; ``ét'' and
 | $Rf^!$ | *defined* on $\Dctf(Y,\Lambda)$ as $\nu_X^*f^{\times}R\nu_{Y,*}$, the étale adjoint of [sk-prop-sf-existence] (a) transported along the comparison ([sk-def-sf-operations] (vi), [sk-prop-sf-existence] (c)) | $\Dctf(Y)\to\Dctf(X)$ for *every* separated finite-type $f$ of finite-type $k$-schemes, with no admissibility hypothesis; shifts $[a,b]\mapsto[a-2d,b-2d]$ for $f$ smooth of pure relative dimension $d$, $[a,b]\mapsto[a,b+2d+1]$ for a closed immersion into a target of dimension $\le d$ (a target-dimension bound; no codimension-only bound is asserted), and $[a,b]\mapsto[a-2D,b+2\dim Y+1]$ in general, $D$ the maximal embedding dimension of the affine charts ([sk-prop-sf-rf-shriek-preservation], [sk-thm-sf-ctf-stability] (v)) |
 | $\mathbb D_X$ | $D(X)^{\mathrm{op}}\to D(X)$, $\RHom_X(-,\omega_X)$ | $\Dctf(X)\to\Dctf(X)$, a contravariant anti-equivalence, for every separated finite-type $X$ ([sk-prop-sf-biduality-general], [sk-thm-sf-ctf-stability] (vi)) |
 
-The table is an enumeration: every entry is a theorem of the blueprint, and
-the conditional entries are listed in [sk-rem-sf-ledger].
+The table is an enumeration: every entry is a theorem of the blueprint.

@@ -13,7 +13,6 @@ Rq_*\dashv q^*(1)[2]
 $$
 
 The counit is $\epsilon$ of [def-amb-p1-trace].
-The notation refers to the projective line, and Tate twists.
 
 ## Proof
 

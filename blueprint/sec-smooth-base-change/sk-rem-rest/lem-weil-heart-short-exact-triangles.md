@@ -45,10 +45,6 @@ T^{\le0}\cap\mathcal T^{\ge0}$ be its heart, which is abelian by
    \cdots\to H^{i}(X)\to H^{i}(Y)\to H^{i}(Z)\to H^{i+1}(X)\to\cdots .
    $$
 
-(*Source: Beilinson--Bernstein--Deligne, Faisceaux pervers, 1.3.3--1.3.6
-and 1.1.9--1.1.10; no Stacks Project entry states this form, for the
-reasons recorded at [def-weil-t-structure].*)
-
 ## Proof
 
 Throughout, axiom 1 of [def-weil-t-structure] gives $\mathcal T^{\le

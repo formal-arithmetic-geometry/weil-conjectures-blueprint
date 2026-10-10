@@ -10,15 +10,6 @@ $U_{\Et}$. There are finite morphisms $h_i:V_i\to U$ and finite abelian groups
 $M_i$ with a monomorphism
 $C\hookrightarrow\bigoplus_i(h_i)_*\underline{M_i}$.
 
-**Status.** The two sub-gaps this statement used to carry are closed. (a) The
-extension of the generic map is valid because the normalization $V$ is normal:
-the extension lemma is [lem-weil-pbc-normal-constant-generic]; no locally
-constant sheaf is extended across a boundary, the sheaf extended is the
-constant sheaf. (b) The factorization of $C\to h_*\underline M$ through one
-finite stage is the finite-presentation property of constructible sheaves in
-the category of sheaves, [lem-weil-pbc-constructible-finitely-presented],
-recorded as the classical input Tag 09Z4.
-
 ## Proof
 
 *Step 1: the local model at a point.* For every geometric point $\bar x\to U$,
@@ -45,9 +36,9 @@ $$
 $$
 
 of sheaves on $U$, the morphism $h$ being the composite of the normalization
-with $V\to Z\hookrightarrow U$. This is the step that the former pending note
-recorded as unjustified: the justification is exactly the normality of $V$,
-and no locally constant sheaf is extended across a boundary.
+with $V\to Z\hookrightarrow U$. The justification of this step is exactly
+the normality of $V$, and no locally constant sheaf is extended across a
+boundary.
 
 *Step 3: the stalk map at $\bar x$.* Choose a lift $\bar y$ of $\bar x$ to
 $V$. The diagram

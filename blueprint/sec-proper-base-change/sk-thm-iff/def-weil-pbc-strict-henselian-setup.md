@@ -3,22 +3,18 @@ id = "def-weil-pbc-strict-henselian-setup"
 kind = "definition"
 title = "Strictly henselian setup"
 order = 1076
+lean = ["AlgebraicGeometry.Etale.projectiveLineClosedFibreRestriction"]
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-henselian-terminology", "def-weil-pbc-inverse-image"]
 +++
-Let $(A,\mathfrak m)$ be strictly henselian local, $S=\operatorname{Spec}A$,
-$s=\operatorname{Spec}(A/\mathfrak m)$, $X=\mathbf P^1_S$, and
-$X_0=\mathbf P^1_s$. For a sheaf $F$ on $X_{\mathrm{et}}$ write
-$F_0$ for its inverse image on $(X_0)_{\mathrm{et}}$.
-
-## Detailed form
-
-Let $(A,\mathfrak m)$ be strictly henselian local, put $S=\operatorname{Spec}A$,
-$s=\operatorname{Spec}(A/\mathfrak m)$, $X=\mathbf P^1_S$, and $X_0=\mathbf
-P^1_s$. For an etale sheaf $F$ on $X$, write $F_0$ for its inverse image on
-$X_0$ and let
+Let $\Lambda$ be a commutative ring and $(A,\mathfrak m)$ a local ring (in the
+application strictly henselian [def-weil-pbc-henselian-terminology]); put
+$S=\operatorname{Spec}A$, $s=\operatorname{Spec}(A/\mathfrak m)$,
+$X=\mathbf P^1_S$, and $X_0=\mathbf P^1_s$, the closed fibre. For an etale
+[def-weil-pbc-etale-site] sheaf $F$ of $\Lambda$-modules on $X$, write $F_0$ for
+its inverse image [def-weil-pbc-inverse-image] on $X_0$ and let
 
 $$
  \operatorname{res}_F:\Gamma(X,F)\longrightarrow\Gamma(X_0,F_0)
 $$
 
-be restriction.
+be restriction, i.e. the pullback of global sections along $X_0\to X$.

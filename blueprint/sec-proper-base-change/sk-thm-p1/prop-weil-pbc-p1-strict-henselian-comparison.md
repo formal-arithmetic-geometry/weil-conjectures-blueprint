@@ -6,10 +6,12 @@ order = 1142
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-strict-henselian-setup", "lemma-weil-pbc-etale-degree-zero", "lemma-weil-pbc-p1-injective-acyclic", "prop-weil-pbc-p1-acyclicity"]
 +++
-For every torsion sheaf $F$ on $X$, restriction induces isomorphisms
+In the setup of [def-weil-pbc-strict-henselian-setup], for every torsion
+etale sheaf $F$ on $X$, restriction gives natural isomorphisms
 
 $$
-H^q(X,F)\xrightarrow{\sim}H^q(X_0,F_0)\qquad(q\geq0).
+ H^q(X,F)\xrightarrow{\sim}H^q(X_0,F_0)
+ \qquad(q\geq0).
 $$
 
 ## Proof
@@ -20,20 +22,7 @@ The preceding lemma makes each $I_0^r$ acyclic, so Leray's acyclicity lemma
 identifies $R\Gamma(X_0,F_0)$ with $\Gamma(X_0,I_0^\bullet)$. Degree-zero
 restriction identifies this complex with $\Gamma(X,I^\bullet)$ term by term.
 Taking cohomology gives the displayed isomorphisms, and naturality follows
-from the naturality of the restriction map and of injective resolutions. The
-source locators are Tags `0A0C` and `0A3S`.
-
-## Detailed form
-
-In the setup of [def-weil-pbc-strict-henselian-setup], for every torsion
-etale sheaf $F$ on $X$, restriction gives natural isomorphisms
-
-$$
- H^q(X,F)\xrightarrow{\sim}H^q(X_0,F_0)
- \qquad(q\geq0).
-$$
-
-## Proof
+from the naturality of the restriction map and of injective resolutions.
 
 Choose a K-injective resolution $F\to I^\bullet$. By the acyclicity statement
 of [prop-weil-pbc-p1-acyclicity] each $I^m|_{X_0}$ is acyclic on $X_0$, so

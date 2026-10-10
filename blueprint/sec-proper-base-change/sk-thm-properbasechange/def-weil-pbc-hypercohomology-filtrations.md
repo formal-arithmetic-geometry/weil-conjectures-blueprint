@@ -5,7 +5,7 @@ title = "Hypercohomology filtrations"
 order = 1315
 uses = ["def-sp-etale-dictionary", "def-sp-truncation-couple", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange", "def-weil-pbc-direct-image", "lem-sp-finite-filtration-induction", "lem-sp-shift-identification", "thm-sp-truncation-e2"]
 +++
-Let $K\in D^+(X_{\mathrm{et}})$ have torsion cohomology sheaves and choose
+Let $K\in\Dplus(X_{\Et})$ have torsion cohomology sheaves and choose
 $a$ with $\mathcal H^q(K)=0$ for $q<a$. The canonical truncation tower
 $\tau_{\leq q}K$ defines spectral sequences
 
@@ -25,26 +25,6 @@ Their filtration in total degree $n$ is the image filtration induced by
 $\mathcal H^n(Rf_*\tau_{\leq q}K)\to\mathcal H^n(Rf_*K)$; the second
 filtration is induced by
 $\mathcal H^n(Rf'_*g'^{-1}\tau_{\leq q}K)\to \mathcal H^n(Rf'_*g'^{-1}K)$.
-
-## Detailed form
-
-Let $K\in\Dplus(X_{\Et})$ have torsion cohomology and choose $a$ with
-$\mathcal H^q(K)=0$ for $q<a$. Canonical truncations define spectral sequences
-
-$$
- E_2^{p,q}=R^pf_*\mathcal H^q(K)
- \Longrightarrow\mathcal H^{p+q}(Rf_*K)
-$$
-
-and
-
-$$
- E_2'{}^{p,q}=R^pf'_*g'^{-1}\mathcal H^q(K)
- \Longrightarrow\mathcal H^{p+q}(Rf'_*g'^{-1}K),
-$$
-
-whose filtration in degree $n$ is the image filtration obtained from
-$\tau_{\leq q}K\to K$.
 
 ## Proof
 

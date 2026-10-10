@@ -47,10 +47,3 @@ morphism, hence finite.
 base change $U=U_0\times_{\Fq}k$ is connected, and it is dense in
 $C_0\times_{\Fq}k$; a scheme with a dense connected open subscheme is
 connected, since each part of a separation would have to meet that open.
-
-Steps 1–5 are the argument of Blueprint 06,
-`lem-sc-compactification`, whose normalization package is
-`lem-sc-normalization-properties`(a)–(c); it is stated there
-over an algebraically closed field, but no step uses algebraic closedness.
-
-Uses: [sk-d-real-setup], [sk-thm-nagata-compactification]

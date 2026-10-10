@@ -15,7 +15,6 @@ $$
 
 is a contravariant exact anti-equivalence of $D^b_{ctf}(Y,A)$,
 and the natural map $\delta_K:K\to D_YD_YK$ is an isomorphism.
-No boundary duality input is a hypothesis of this theorem.
 
 ## Proof
 

@@ -8,8 +8,8 @@ lean = ["AlgebraicGeometry.Scheme.LocalRepresentability.isRepresentable"]
 +++
 *Proposition (sketch).*
 
-Let $G:(\Sch/S)^{\mathrm{op}}\to\mathsf{Set}$ be a Zariski sheaf and
-$(F_i)_{i\in I}$ representable subfunctors, each representable by
+Let $G:\Sch^{\mathrm{op}}\to\mathsf{Set}$ be a Zariski sheaf on the category of schemes and
+$(F_i)_{i\in I}$, indexed by a set $I$, representable subfunctors, each representable by
 open immersions, with $G=\bigcup_iF_i$ in the sense that for every
 $T$ and $\xi\in G(T)$ there is an open covering $T=\bigcup_aT_a$ and
 indices $i_a$ with $\xi|_{T_a}\in F_{i_a}(T_a)$. Then $G$ is
@@ -38,7 +38,7 @@ $\varphi_{ij}^{-1}(U_{ji}\cap U_{jk})=U_{ij}\cap U_{ik}$ holds because
 both sides are the largest open $W\subseteq U_{ij}$ with
 $\xi_i|_W\in F_k(W)$, and the cocycle condition holds because both
 composites pull $\xi_k$ back to $\xi_i$ and that morphism is unique.
-The glueing lemma for schemes then gives a scheme $X$ over $S$ with open
+The glueing lemma for schemes then gives a scheme $X$ with open
 immersions $X_i\hookrightarrow X$ intersecting in the $U_{ij}$.
 
 *Step 3 ($X$ represents $G$).* The $\xi_i$ agree on the overlaps,
@@ -57,5 +57,4 @@ $a^*\xi=t$.
 
 This is Stacks, Schemes, Lemma 26.15.4
 ([`01JJ`](https://stacks.math.columbia.edu/tag/01JJ)), the glueing input being Schemes,
-Lemma 26.14.2; the detailed form is Blueprint 50,
-`lem-pc-schemes-criterion`.
+Lemma 26.14.2.

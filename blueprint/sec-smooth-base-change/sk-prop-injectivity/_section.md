@@ -8,28 +8,28 @@ lean = ["AlgebraicGeometry.Etale.mono_baseChangeHomologyMap", "AlgebraicGeometry
 +++
 *Proposition (sketch).*
 
-Let $q\ge1$ and assume $\mathrm{BC}(f,n,q-1)$ of [sk-def-bc] holds.
-Then for every square and every $\Z/n\Z$-sheaf $\mathcal F$ as there:
+Let $\Lambda$ be a commutative ring, let $q\ge1$ and assume
+$\mathrm{BC}(f,\Lambda,q-1)$ of [sk-def-bc] holds. Then for every square
+as there (with $g$ quasi-compact and quasi-separated) and every sheaf
+$\mathcal F$ of $\Lambda$-modules on $T_{\Et}$:
 
 1. the base-change map
 $f^{-1}R^qg_*\mathcal F\to R^qh_*e^{-1}\mathcal F$ is *injective*;
-1. if $\mathcal F\subseteq\mathcal G$ with $\mathcal G$ annihilated by
-$n$, the cokernel for $\mathcal F$ is contained in the cokernel for
+1. if $\mathcal F\subseteq\mathcal G$ with $\mathcal G$ a sheaf of
+$\Lambda$-modules, the cokernel for $\mathcal F$ is contained in the cokernel for
 $\mathcal G$;
 1. if moreover $\mathcal G$ is an injective sheaf of
-$\Z/n\Z$-modules, that cokernel is contained in
+$\Lambda$-modules, that cokernel is contained in
 $R^qh_*e^{-1}\mathcal G$.
 
-Consequently a failure of $\mathrm{BC}(f,n,q)$ is witnessed by a nonzero
-element of the cokernel in the stalk at a geometric point of $X$. The
-degree-$(q-1)$ hypothesis is not decorative: it is exactly what makes
-two of the vertical arrows in the proof isomorphisms.
+Consequently a failure of $\mathrm{BC}(f,\Lambda,q)$ is witnessed by a nonzero
+element of the cokernel in the stalk at a geometric point of $X$.
 
 ## Proof
 
 *Step 1 (embed in an injective).* Choose a short exact sequence
 $0\to\mathcal F\to\mathcal I\to\mathcal Q\to0$ with $\mathcal I$ an
-injective sheaf of $\Z/n\Z$-modules on $T_{\Et}$. An injective object
+injective sheaf of $\Lambda$-modules on $T_{\Et}$. An injective object
 is its own injective resolution, so $R^qg_*\mathcal I=0$ for $q>0$.
 
 *Step 2 (compare the two long exact sequences).* The functors
@@ -51,7 +51,7 @@ $$
 The top right entry is $f^{-1}R^qg_*\mathcal I=0$ by Step 1, so the top
 row exhibits $f^{-1}R^qg_*\mathcal F$ as the cokernel of its left map.
 The two left-hand verticals are isomorphisms by
-$\mathrm{BC}(f,n,q-1)$, so that cokernel is identified with the cokernel
+$\mathrm{BC}(f,\Lambda,q-1)$, so that cokernel is identified with the cokernel
 of the bottom left map, which is the image of
 $R^{q-1}h_*e^{-1}\mathcal Q\to R^qh_*e^{-1}\mathcal F$. The middle
 vertical is therefore the inclusion of that image: this is (1).
@@ -67,15 +67,8 @@ $\mathcal F$ into the one for $\mathcal G$.
 *Step 4 (a failure is a cokernel element at a point).* By (1) the
 base-change map is an isomorphism if and only if its cokernel vanishes,
 and a sheaf vanishes if and only if all its stalks do; so if
-$\mathrm{BC}(f,n,q)$ fails there is a geometric point $\bar x$ of $X$
+$\mathrm{BC}(f,\Lambda,q)$ fails there is a geometric point $\bar x$ of $X$
 and an element of $(R^qh_*e^{-1}\mathcal F)_{\bar x}$ outside the image.
-This is the form in which the statement is used in
-[sk-lem-failure-field].
 
 This is Stacks, Étale Cohomology, Lemma 59.88.2
-([`0F03`](https://stacks.math.columbia.edu/tag/0F03)); the detailed form is Blueprint 07,
-`sbc-lem-bc-injectivity`, whose acyclicity input is Blueprint 02,
-`lemma-weil-pbc-leray-acyclicity`, and whose long exact sequences
-are `lemma-weil-pbc-five-lemma-transfer`.
-
-Uses: [sk-def-bc]
+([`0F03`](https://stacks.math.columbia.edu/tag/0F03)).

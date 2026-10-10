@@ -14,8 +14,6 @@ $$
 u^*f^\times K\cong(fu)^\times K.
 $$
 
-The notation refers to ordinary etale compact supports.
-
 ## Proof
 
 An etale morphism is a local homeomorphism of etale topoi.

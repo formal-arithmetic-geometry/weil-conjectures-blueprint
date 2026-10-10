@@ -18,10 +18,7 @@ D_Y(Rf_!M)\xrightarrow{\ \sim\ }Rf_*D_X(M),
 $$
 
 natural in $M$, compatible with finite reduction, scalar extension, and
-shifts. ([fix-cor-verdier-exchange]; the difference from
-the compiled chapter is that the proof below uses only
-[lem-sf-tensor-hom] and never the duality chapter, which removes the
-cycle recorded in [rem-sf-yoga].)
+shifts.
 
 ## Proof
 

@@ -15,5 +15,8 @@ $$
 \;\longrightarrow\;\mathcal{O}_X\Bigr).
 $$
 
-Its basic properties (well-definedness, local form
-$\operatorname{Spec}(A/(a))$, compatibility with flat base change, $Z(s)=X \Leftrightarrow s=0$) are [lem-pc-zero-scheme-properties].
+If $U=\operatorname{Spec}(A)\subseteq X$ is an open affine with
+$\mathcal M|_U\cong\mathcal O_U$ and $s|_U$ corresponds to $a\in A$,
+then $Z(s)\cap U=\operatorname{Spec}(A/(a))$. The formation of $Z(s)$
+is compatible with flat base change, and $Z(s)=X$ if and only if
+$s=0$.

@@ -11,11 +11,11 @@ over a field $k$, with multiplication $m$, inverse $i$, unit $e$
 and structure morphism $p:G\to\Spec k$. Define
 $[0]:=e\circ p:G\to G$ and, inductively,
 $[n+1]:=m\circ([n],\mathrm{id}_G):G\to G$. Then for all
-$n,m\geq0$:
+$n,n'\geq0$:
 
 1. **(a)** $[n]$ is a homomorphism of group schemes and
 $[n](R)(x)=nx$ for every $k$-algebra $R$ and $x\in G(R)$;
-1. **(b)** $m\circ([n],[m])=[n+m]$ and $[n]\circ[m]=[nm]$;
+1. **(b)** $m\circ([n],[n'])=[n+n']$ and $[n]\circ[n']=[nn']$;
 1. **(c)** $[n]\circ e=e$ and $[n]\circ i=i\circ[n]$.
 
 ## Proof
@@ -34,8 +34,8 @@ construction; hence $[n]$ is a homomorphism of group schemes in the
 sense of [def-sc-group-scheme].
 
 (b) Both identities follow from (a) on $R$-points:
-$[n](x)\cdot[m](x)=(n+m)x=[n+m](x)$ and
-$[n]([m](x))=n(mx)=(nm)x=[nm](x)$.
+$[n](x)\cdot[n'](x)=(n+n')x=[n+n'](x)$ and
+$[n]([n'](x))=n(n'x)=(nn')x=[nn'](x)$.
 
 (c) $[n](R)(e)=ne=e$ and
 $[n](R)(i(x))=n(-x)=-(nx)=i([n](R)(x))$, again by (a).

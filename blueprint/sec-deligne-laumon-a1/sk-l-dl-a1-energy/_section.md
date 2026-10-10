@@ -4,7 +4,7 @@ kind = "section"
 title = "Weight detection by trace energy"
 order = 2756
 uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-linear-spectra", "sk-prop-logdet", "sk-thm-trace-transport"]
-lean = ["AlgebraicGeometry.WeilSheaf.traceEnergy", "AlgebraicGeometry.WeilSheaf.le_sub_one_of_traceEnergy_le"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.traceEnergy", "AlgebraicGeometry.LAdicWeilSheaf.le_sub_one_of_traceEnergy_le"]
 +++
 *Lemma (sketch).*
 
@@ -17,8 +17,8 @@ S_n(V_0,N)=\sum_{x\in V_0(\mathbf F_{q^n})}
 $$
 
 where $\DLAFr_x$ means Frobenius relative to $\mathbf F_{q^n}$.
-If $S_n(V_0,N)\le Cq^{nB}$ for every $n\ge1$, with $C$ independent of
-$n$, then $v\le B-1$.
+If $S_n(V_0,N)\le Cq^{nB}$ for every $n\ge1$, with a constant $C>0$
+independent of $n$, then $v\le B-1$.
 
 ## Proof
 
@@ -51,5 +51,3 @@ agrees with the rational germ; therefore the surviving pole cannot lie
 in that disk. Thus $q^{-(v+1)}\ge q^{-B}$, or $v\le B-1$.
 This argument uses no weight estimate for $H_c^1(V,D)$ and requires
 only one surviving pole, rather than noncancellation of every factor.
-
-Uses: [sk-d-dl-a1-setup], [sk-l-dl-a1-endpoints], [sk-prop-logdet], [sk-thm-trace-transport]

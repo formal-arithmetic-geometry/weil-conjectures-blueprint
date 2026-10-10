@@ -6,14 +6,13 @@ order = 835
 uses = ["def-pc-cover", "def-pc-open-subfunctor", "def-pc-representable-functor", "def-pc-subfunctor", "def-pc-zariski-sheaf-property", "lem-pc-schemes-criterion"]
 lean = ["AlgebraicGeometry.isRepresentable_of_representable_open_subfunctor"]
 +++
-(Picard Schemes of Curves, Lemma 44.5.1, Tag
-[0B9Q](https://stacks.math.columbia.edu/tag/0B9Q).)
 Let $k$ be a field and let
 $G:(\mathit{Sch}/k)^{\mathrm{op}}\to\textit{Groups}$ be a functor. With the
 terminology of
 Definition [def-pc-subfunctor], assume:
 
-1. **(1)** $G$ satisfies the sheaf property for the Zariski topology ([def-pc-zariski-sheaf-property]);
+1. **(1)** $G$ satisfies the sheaf property for the Zariski topology ([def-pc-zariski-sheaf-property]),
+and its values $G(T)$ are small, i.e. lie in the same universe as the $k$-schemes $T$;
 1. **(2)(a)** there exists a subfunctor $F\subseteq G$ such that $F$ is
 representable;
 1. **(2)(b)** $F\subseteq G$ is representable by open immersions ([def-pc-open-subfunctor]);
@@ -24,7 +23,28 @@ Then $G$ is representable by a group scheme over $k$.
 
 ## Proof
 
-Apply [lem-pc-schemes-criterion] with $S=\operatorname{Spec}(k)$ and $I=G(k)$: for
+*Reduction to functors on all schemes.* [lem-pc-schemes-criterion] is
+stated for functors on the category of all schemes. To a functor $H$ on
+$\mathit{Sch}/k$ associate the functor $\tilde H$ on all schemes with
+$\tilde H(T)=\coprod_{a:T\to\operatorname{Spec}k}H(T,a)$, where $(T,a)$ is
+$T$ viewed as a $k$-scheme via $a$. Then $\tilde H$ is a Zariski sheaf if
+$H$ is (a Zariski covering of $T$ refines to coverings of the $k$-schemes
+$(T,a)$, and the structure morphisms glue uniquely), subfunctors of $H$
+give subfunctors of $\tilde H$, a $k$-scheme $P$ representing $H$ gives the
+scheme $P$ representing $\tilde H$ (a morphism $T\to P$ is the same as a
+$k$-structure $a$ on $T$ together with a $k$-morphism $(T,a)\to P$),
+representability by open immersions is preserved (the base change along
+$h_T\to\tilde H$ only involves the $k$-structure carried by the element),
+and conversely a scheme $P$ representing $\tilde H$ comes with the morphism
+$P\to\operatorname{Spec}k$ induced by $\tilde H\to h_{\operatorname{Spec}k}$,
+$(a,\xi)\mapsto a$, and then represents $H$ as a $k$-scheme. So it
+suffices to apply [lem-pc-schemes-criterion] to $\tilde G$ and the family
+$(\tilde F_i)_{i\in I}$ constructed below; we argue with $G$ and the $F_i$,
+the translation being the one just described.
+
+*The family.* Let $I=G(k)$; it is a set because the values of $G$ are
+small by (1), so $(F_i)_{i\in I}$ is a family indexed by a set, as
+[lem-pc-schemes-criterion] requires. For
 $i=g'\in I$ let $F_i\subseteq G$ be the subfunctor
 
 $$

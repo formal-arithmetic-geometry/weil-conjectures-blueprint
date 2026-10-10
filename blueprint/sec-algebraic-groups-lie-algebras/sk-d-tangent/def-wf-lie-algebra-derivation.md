@@ -4,7 +4,7 @@ kind = "definition"
 title = "Tangent spaces, Lie algebras and rational actions"
 order = 2481
 uses = ["def-wf-algebraic-representations", "def-wf-lie-algebra"]
-lean = ["AlgebraicGeometry.tangentGroup", "Matrix.GeneralLinearGroup.lieAlgebra", "Matrix.GeneralLinearGroup.RationalHom", "Matrix.GeneralLinearGroup.RationalHom.differential"]
+lean = ["AlgebraicGeometry.tangentGroup", "AlgebraicGeometry.GrpObj.Lie", "AlgebraicGeometry.GeneralLinearGroup.lieAlgebraEquivMatrix", "AlgebraicGeometry.GeneralLinearGroup.RationalHom", "AlgebraicGeometry.GeneralLinearGroup.RationalHom.differential"]
 +++
 *Tangent spaces and differentials.* Let $X=\operatorname{Spec}A$ be a
 finite-type affine $k$-scheme (for instance an affine variety, i.e.
@@ -22,9 +22,7 @@ $A\to k[\varepsilon]/\varepsilon^2$ reducing to evaluation at $x$
 modulo $\varepsilon$: such a map is $f\mapsto f(x)+\varepsilon\,v(f)$
 with $v$ a $k$-derivation at $x$, and $v\mapsto v|_{\mathfrak m_x}$
 identifies these derivations with the linear forms on $\mathfrak m_x$
-killing $\mathfrak m_x^2$ (the Leibniz rule forces
-$v(\mathfrak m_x^2)=0$ and $v(1)=0$, and conversely every such form
-extends uniquely via $A=k\oplus\mathfrak m_x$). A regular map
+killing $\mathfrak m_x^2$. A regular map
 $\varphi:X\to Y$ with comorphism $\varphi^*:B\to A$ satisfies
 $\varphi^*\mathfrak m_{\varphi(x)}\subseteq\mathfrak m_x$, hence induces
 $\mathfrak m_{\varphi(x)}/\mathfrak m_{\varphi(x)}^2\to
@@ -38,8 +36,14 @@ d\varphi_x$.
 a closed subgroup scheme of finite type (see the last paragraph), for
 example a smooth matrix group. For a commutative $k$-algebra $R$, the
 $R$-points $G(R)$ are the matrices in $\operatorname{GL}(V\otimes_kR)$
-satisfying the defining equations of $G$ over $R$. Its *Lie algebra* is
-$\operatorname{Lie}(G)=T_1G$; by the dual-number description, and
+satisfying the defining equations of $G$ over $R$. For any group scheme
+$G$ over $k$ with unit section $e$, the *Lie algebra* is
+$\operatorname{Lie}(G)=\operatorname{Hom}_k(e^*\Omega^1_{G/k},k)=T_1G$,
+the tangent space at $1$, which is also the *tangent group*
+$\ker\big(G(k[\varepsilon]/\varepsilon^2)\to G(k)\big)$ of dual-number points
+reducing to $1$; its bracket is the mixed term of the commutator of two
+such points over $k[\varepsilon,\delta]/(\varepsilon^2,\delta^2)$. For
+$G\subseteq\operatorname{GL}(V)$, by the dual-number description, and
 identifying $T_1\operatorname{GL}(V)=\operatorname{End}(V)$ through
 $X\mapsto1+\varepsilon X$,
 
@@ -49,24 +53,26 @@ $$
 $$
 
 a Lie algebra in the sense of [def-wf-lie-algebra] under the bracket
-$[X,Y]=XY-YX$ of $\operatorname{End}(V)$. (That this subspace is
-closed under the bracket, and that $dr$ below preserves brackets, is standard: compare
-Milne, *Algebraic Groups* (2017), Chapter 10.)
+$[X,Y]=XY-YX$ of $\operatorname{End}(V)$; for $G=\operatorname{GL}_n$ this
+identifies $\operatorname{Lie}(\operatorname{GL}_n)$ with
+$\mathfrak{gl}_n(k)$ as Lie algebras.
 
-*Rational actions.* A *rational representation* of $G$ is a regular
-homomorphism $r:G\to\operatorname{GL}(M)$, i.e. an algebraic-group
+*Rational actions.* A *rational representation* of a group scheme $G$
+over $k$ on $M=k^m$ is a homomorphism of group schemes
+$r:G\to\operatorname{GL}(M)=\operatorname{GL}_m$ over $k$; for a matrix
+group $G$ it is a regular homomorphism, i.e. an algebraic-group
 module in the sense of [def-wf-algebraic-representations]. Its
 differential at $1$ is the linear map
 $dr:\operatorname{Lie}(G)\to\operatorname{End}(M)$ characterized by
 $r(1+\varepsilon X)=1+\varepsilon\,dr(X)$ over
-$k[\varepsilon]/\varepsilon^2$; it is a Lie representation of
+$k[\varepsilon]/\varepsilon^2$ (in general, the differential of $r$ read in
+$\mathfrak{gl}_m$ through $\operatorname{Lie}(\operatorname{GL}_m)=\mathfrak{gl}_m$);
+it is a Lie representation of
 $\operatorname{Lie}(G)$ on $M$ in the sense of [def-wf-lie-algebra],
 i.e. $dr([X,Y])=dr(X)dr(Y)-dr(Y)dr(X)$. The *adjoint action*
 is $\operatorname{Ad}(g)X=gXg^{-1}$ for $g\in G(k)$, preserving
 $\operatorname{Lie}(G)$ because conjugation by $g$ preserves $G$; its
-differential is $\operatorname{ad}(Y)X=[Y,X]$, since over
-$k[\varepsilon]/\varepsilon^2$ one has
-$(1+\varepsilon Y)X(1+\varepsilon Y)^{-1}=X+\varepsilon(YX-XY)$.
+differential is $\operatorname{ad}(Y)X=[Y,X]$.
 
 *Matrix group schemes and smoothness.* A *finite-type matrix group
 scheme* is a closed subscheme $\mathcal G\subseteq\operatorname{GL}(V)$
@@ -82,3 +88,22 @@ $\ge$ always holds), and $X$ is *smooth over $k$ at $x$* when
 $\mathcal O_{X,x}$ is regular ($k$ being algebraically closed of
 characteristic zero, hence perfect). A *smooth matrix group* is a
 matrix group smooth at every closed point.
+
+## Proof
+
+*The dual-number description of $T_xX$.* A $k$-algebra map
+$A\to k[\varepsilon]/\varepsilon^2$ reducing to evaluation at $x$ has the
+form $f\mapsto f(x)+\varepsilon\,v(f)$ with $v$ a $k$-derivation at $x$.
+The Leibniz rule forces $v(\mathfrak m_x^2)=0$ and $v(1)=0$, so
+$v|_{\mathfrak m_x}$ is a linear form killing $\mathfrak m_x^2$; conversely
+every such form extends uniquely to a derivation at $x$ via
+$A=k\oplus\mathfrak m_x$. The chain rule follows because the dual-number
+description of the differential is composition with comorphisms.
+
+*The Lie algebra and the adjoint action.* That
+$\operatorname{Lie}(G)\subseteq\operatorname{End}(V)$ is closed under the
+bracket, and that $dr$ preserves brackets, is standard (Milne,
+*Algebraic Groups* (2017), Chapter 10). For the adjoint action, over
+$k[\varepsilon]/\varepsilon^2$ one has
+$(1+\varepsilon Y)X(1+\varepsilon Y)^{-1}=X+\varepsilon(YX-XY)$, so the
+differential of $\operatorname{Ad}$ is $\operatorname{ad}(Y)X=[Y,X]$.

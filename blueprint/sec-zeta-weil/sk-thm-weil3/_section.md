@@ -16,5 +16,3 @@ $|\tau(\beta)|=q^{-i/2}$ for every ordinary root.
 ## Proof
 
 This is [sk-thm-rh].
-
-Uses: [sk-thm-rh]

@@ -16,9 +16,6 @@ proper with finite
 fibres, in the sense of
 [pqf-def-quasifinite].
 
-(*Stacks Project, Cohomology of Schemes, Lemma 30.21.1, Tag
-[02OG](https://stacks.math.columbia.edu/tag/02OG).*)
-
 ## Proof
 
 *(1) $\Rightarrow$ (2).* If $f$ is finite, then $f$ is proper by

@@ -13,8 +13,12 @@ spectrum of the integral closure of $\mathcal O_X$ in
 $L$, with its canonical map to $X$. On an
 affine open
 $\operatorname{Spec}B$, this is
-$\operatorname{Spec}\overline B^{,L}$.
-Integral closure commutes with localization, so these
-affine constructions glue. For $L=K$, this is exactly
-[def-sc-normalization]; finiteness is not included in
-the definition.
+$\operatorname{Spec}\overline B^{\,L}$, where $\overline B^{\,L}$
+is the integral closure of $B$ in $L$.
+
+For $L=K$ this is exactly the normalization [def-sc-normalization].
+
+## Proof
+
+Integral closure commutes with localization, so the affine constructions
+$\operatorname{Spec}\overline B^{\,L}$ glue to a scheme over $X$.

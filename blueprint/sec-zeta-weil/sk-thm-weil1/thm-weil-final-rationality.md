@@ -9,9 +9,8 @@ uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-wei
 Fix a finite field
 $k_0=\mathbf F_q$ of characteristic $p$, with algebraic closure
 $k=\overline{\mathbf F}_q$.
-Let $X_0/k_0$ be
-smooth, proper and geometrically
-connected of pure dimension $d\geq0$, and put $X=X_0\times_{k_0}k$.
+Let $X_0$ be a $k_0$-scheme of finite type (quasi-compact and locally of
+finite type over $k_0$).
 For an indeterminate $T$, use the
 point-count zeta series
 
@@ -21,11 +20,16 @@ Z(X_0,T)=\exp\left(\sum_{n\geq1}
 $$
 
 Here $|X_0|$ is the set of closed points and
-$\deg(x)=[\kappa(x):k_0]$. Then
+$\deg(x)=[\kappa(x):k_0]$. Then there are polynomials
+$A,B\in\mathbf Z[T]$ with $B(0)=1$ and
 
 $$
-Z(X_0,T)\in1+T\mathbf Z[[T]]\cap\mathbf Q(T),
-\qquad
+B(T)\,Z(X_0,T)=A(T)\quad\text{in }\mathbf Q[[T]],
+$$
+
+so that in particular $Z(X_0,T)\in1+T\mathbf Z[[T]]\cap\mathbf Q(T)$; and
+
+$$
 Z(X_0,T)=\prod_{x\in|X_0|}(1-T^{\deg(x)})^{-1}.
 $$
 

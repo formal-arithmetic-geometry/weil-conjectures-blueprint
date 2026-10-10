@@ -86,5 +86,3 @@ representability of $\Pic^0_{C/k}$ by an abelian variety is
 [sk-prop-jacobian-descent] ([sec-picard-framework]); the Kummer
 identification of $H^1$ of a curve with the Tate module of its
 Jacobian is part of the real-purity section ([sk-d-real-jacobian]).
-
-Uses: [sk-def-av-isogeny], [sk-def-av-mult-n], [sk-def-av-tate], [sk-def-av], [sk-prop-av-connected-order], [sk-prop-av-divisible-structure], [sk-prop-av-divisible], [sk-prop-av-isogeny], [sk-prop-av-ntorsion-etale], [sk-prop-av-prime-p-etale], [sk-prop-av-tate-rank]

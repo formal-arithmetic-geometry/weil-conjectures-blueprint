@@ -15,5 +15,4 @@ $$
 
 where $\widetilde{\mathcal O_X}$ is the integral closure of
 $\mathcal O_X$ in the constant sheaf $K$, together with the
-canonical morphism $\nu:X^{\nu}\to X$. Finiteness is a
-separate property of this morphism; it is not part of the definition.
+canonical morphism $\nu:X^{\nu}\to X$.

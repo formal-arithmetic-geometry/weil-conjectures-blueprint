@@ -3,10 +3,12 @@ id = "lemma-nagata-key-boundary-disjointness"
 kind = "lemma"
 title = "Prepared boundaries, the comparison boundary, and key disjointness"
 order = 272
-lean = ["AlgebraicGeometry.TwoOpenSide.KeyDisjoint", "AlgebraicGeometry.TwoOpenSide.admissibleBlowup", "AlgebraicGeometry.TwoOpenSide.isProper_comparisonFst", "AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide", "AlgebraicGeometry.exists_prepared_twoOpenSide"]
+lean = ["AlgebraicGeometry.TwoOpenSide.KeyDisjoint", "AlgebraicGeometry.TwoOpenSide.admissibleBlowup", "AlgebraicGeometry.TwoOpenSide.isIso_comparisonFst_restrict_isoOpen", "AlgebraicGeometry.TwoOpenSide.isProper_comparisonFst", "AlgebraicGeometry.TwoOpenSide.isProper_comparisonSnd", "AlgebraicGeometry.exists_admissibleBlowup_comparisonBoundary_subset_selfBoundary", "AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide", "AlgebraicGeometry.exists_prepared_twoOpenSide"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-graph-extension", "def-nagata-isomorphism-near-closure", "def-nagata-maximal-isomorphism-open", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-separate-constructible-closed", "def-nagata-strict-transform", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-comparison-space", "def-nagata-two-open-dense-compactifications", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-admissible-blowup-over-open", "lemma-nagata-blowup-proper", "lemma-nagata-boundary-disjoint-persists", "lemma-nagata-boundary-loci", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-graph-extension", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-isomorphism-near-closure", "lemma-nagata-maximal-isomorphism-open", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-proper-to-separated-target", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-restrict-open", "lemma-nagata-scheme-image-strict-transform", "lemma-nagata-scheme-image-universal", "lemma-nagata-separate-constructible-closed", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-two-open-dense-compactifications", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
-Let $X_1,X_2$ be the prepared ambient schemes of
+Let $S$ be Noetherian, let $U\to S$ be separated and of finite type, and
+let $U=U_1\cup U_2$ be an open cover such that each $U_i\to S$ is
+compactifiable. Let $X_1,X_2$ be the prepared ambient schemes of
 [def-nagata-two-open-prepared-boundaries], with the opens
 $U_i\subseteq V_i\subseteq X_i$, the maps $\psi_i\colon V_i\to U$, the
 boundary loci $Z_{i,k}$ of [def-nagata-two-open-boundary-loci] and their
@@ -30,12 +32,14 @@ $p_i\colon X_{12}\to X_i$ be as in
 3. *(Improved comparison.)* Let
 
    $$
-   X_1^{\mathrm{cmp}}=\mathsf{IsoBl}_{V_1,Z_{1,2}}(p_1)\longrightarrow X_1
+   X_1^{\mathrm{cmp}}\longrightarrow X_1
    $$
 
-   be the construction of [def-nagata-isomorphism-near-closure] applied to
-   the proper map $p_1$, the open $V_1$ and the closed subset
-   $Z_{1,2}\subseteq V_1$. This is a further $V_1$-admissible blow-up.
+   be a $V_1$-admissible blow-up as provided by
+   [lemma-nagata-isomorphism-near-closure] for the proper map $p_1$, the
+   open $V_1$ and the closed subset $Z_{1,2}\subseteq V_1$ (for instance
+   $\mathsf{IsoBl}_{V_1,Z_{1,2}}(p_1)$ of
+   [def-nagata-isomorphism-near-closure]).
    Replace $X_1$ by $X_1^{\mathrm{cmp}}$ (transporting
    $V_1,U_1,\psi_1,Z_{1,k}$, and taking the closures $\overline Z_{1,k}$ in
    $X_1^{\mathrm{cmp}}$), and replace $X_{12}$ and $p_1,p_2$ by the
@@ -44,8 +48,9 @@ $p_i\colon X_{12}\to X_i$ be as in
    this new $X_{12}$ is the strict transform of the old one. For the new
    data, (1) and (2) still hold, and moreover $p_1$ is an isomorphism over
    an open neighbourhood of $\overline Z_{1,2}$ in $X_1$.
-4. *(Key disjointness.)* For the improved data of (3), inside
-   $X_1\times_SX_2$ one has
+4. *(Key disjointness.)* For the improved data of (3), the projection
+   $p_2$ maps $p_1^{-1}(\overline Z_{1,2})$ into $\overline Z_{2,2}$.
+   Consequently, inside $X_1\times_SX_2$ one has
 
    $$
    X_{12}\cap
@@ -137,14 +142,18 @@ and $V_1$ is a quasi-compact open. The map $p_1$ is proper by Step 3,
 $p_1^{-1}(V_1)=V_{12}$ by Step 4, the subset $Z_{1,2}$ is closed in $V_1$ by
 [lemma-nagata-boundary-loci], and $p_1^{-1}(V_1)\to V_1$ is an isomorphism
 over the open neighbourhood $\psi_1^{-1}(U_2)$ of $Z_{1,2}$ by (2). These
-are the hypotheses of [def-nagata-isomorphism-near-closure], and
-[lemma-nagata-isomorphism-near-closure] shows that
-$X_1^{\mathrm{cmp}}\to X_1$ is $V_1$-admissible and that the strict
+are the hypotheses of [lemma-nagata-isomorphism-near-closure] (the open
+$\psi_1^{-1}(U_2)$ of $V_1$ is open in $X_1$), so
+$X_1^{\mathrm{cmp}}\to X_1$ is $V_1$-admissible and the strict
 transform of $p_1$ is an isomorphism over an open neighbourhood of the
-closure of $Z_{1,2}$ in $X_1^{\mathrm{cmp}}$.
+closure of (the inverse image of) $Z_{1,2}$ in $X_1^{\mathrm{cmp}}$.
 
 The projection of $V_{12}\to X_1\times_SX_2$ to $X_1$ factors through the
-open $V_1$, so [lemma-nagata-scheme-image-strict-transform] identifies the
+open $V_1$, and $V_{12}\to X_1\times_SX_2$ is quasi-compact because $V_{12}$
+is Noetherian. The scheme $X_1^{\mathrm{cmp}}\times_SX_2$ is proper over the
+Noetherian $S$, hence Noetherian, so every open immersion into a closed
+subscheme of it is quasi-compact; this gives the quasi-compactness proviso
+of [lemma-nagata-scheme-image-strict-transform], which then identifies the
 scheme-theoretic image of the lifted map
 $V_{12}\to X_1^{\mathrm{cmp}}\times_SX_2$, that is, the comparison space
 formed with $X_1^{\mathrm{cmp}}$, with the strict transform of $X_{12}$;
@@ -165,12 +174,8 @@ $$
 Inside $V_{12}$ one has $Z_{12,2}=(p_2|_{V_{12}})^{-1}(Z_{2,2})$. Indeed,
 let $z=(v_1,v_2)$ be a point of $V_{12}=V_1\times_UV_2$. The fibre-product
 equality gives $\psi_1(v_1)=\psi_2(v_2)=u\in U$. Since
-$Z_{1,2}=V_1\times_UZ_2$ and $Z_{2,2}=V_2\times_UZ_2$, membership in either
-inverse image is equivalent to $u\in Z_2$. Scheme-theoretically, both sides
-are the pullback of the closed subscheme $Z_2\hookrightarrow U$ along the
-equal composites $V_{12}\rightrightarrows U$, and the canonical
-associativity isomorphisms for fibre products identify the two closed
-subschemes. Consequently
+$Z_{1,2}=\psi_1^{-1}(Z_2)$ and $Z_{2,2}=\psi_2^{-1}(Z_2)$, membership in either
+inverse image is equivalent to $u\in Z_2$. Consequently
 
 $$
 p_2(Z_{12,2})\subseteq Z_{2,2}\subseteq\overline Z_{2,2}.
@@ -192,7 +197,8 @@ contained in the closed subset $p_2^{-1}(\overline Z_{2,2})$ of $X_{12}$.
 Because $Z_{12,2}$ is dense in $C$ by Step 7, this closed subset also
 contains $C$. Thus $p_2(C)\subseteq\overline Z_{2,2}$. The closed subsets
 $\overline Z_{2,2}$ and $\overline Z_{2,1}$ of $X_2$ are disjoint by (1).
-Hence no point of $C$ maps into $\overline Z_{2,1}$ under $p_2$. A point of
+This is the first assertion of (4), and hence no point of $C$ maps into
+$\overline Z_{2,1}$ under $p_2$. A point of
 $X_{12}\cap(\overline Z_{1,2}\times_S\overline Z_{2,1})$ would be a point of
 $C$ whose image under $p_2$ lies in $\overline Z_{2,1}$; so the
 intersection is empty, which is (4).

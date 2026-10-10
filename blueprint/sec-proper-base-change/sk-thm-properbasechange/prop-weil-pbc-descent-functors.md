@@ -30,29 +30,6 @@ In particular, the scalar-compatible families $(Rf_{*,E})_E$ and
 $(Lg_E^*)_E$ descend to exact functors on $\Qlb$ coefficient categories, and
 the finite-stage exchange maps descend to a natural transformation.
 
-*Source note:* no Stacks Project entry states this descent of functors: the
-ledger's verified entries contain no filtered-colimit-of-categories
-statement — the nearest, the Chapter 61 coefficient entries 09BS, 09BT, 09C1
-and 09C7, work with one fixed Noetherian coefficient ring — and the
-blueprint adds the descent of scalar-compatible exact functors and of their
-natural transformations to the $\Qlb$ coefficient categories, together with
-the descended direct images, pullbacks and exchange maps. The closest
-descent statements in Stacks, each fetched and quoted, are the universal
-properties of a localization and of a Verdier quotient: Lemma 13.5.7 ([Tag
-05R7](https://stacks.math.columbia.edu/tag/05R7), an exact functor out of
-$\mathcal D$ that inverts the multiplicative system factors uniquely and
-exactly through $S^{-1}\mathcal D$) and Lemma 13.6.8 ([Tag
-05RJ](https://stacks.math.columbia.edu/tag/05RJ), the same for the quotient
-$\mathcal D/\mathcal B$ by a full triangulated subcategory), with Definition
-13.6.1 ([Tag 05RB](https://stacks.math.columbia.edu/tag/05RB), saturated,
-i.e. thick, triangulated subcategory) and Definition 13.6.7 ([Tag
-05RI](https://stacks.math.columbia.edu/tag/05RI),
-$\mathcal D/\mathcal B=S^{-1}\mathcal D$). Difference: a localization or
-quotient inverts a multiplicative system inside one category and its
-factorization needs no further data, whereas $\mathcal P_T$ is a filtered
-colimit of categories and the functors descend with the explicit
-$\beta$-isomorphisms of [prop-weil-pbc-scalar-extension].
-
 ## Proof
 
 Define $\Phi(E,K)=(E,\Phi_EK)$ on objects and, on a representative $(M,u)$,

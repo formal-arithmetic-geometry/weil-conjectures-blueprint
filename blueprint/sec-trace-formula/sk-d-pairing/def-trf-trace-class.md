@@ -5,9 +5,6 @@ title = "Trace-class notation conditional on its construction"
 order = 2309
 uses = ["def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-trace-class-source", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
-That this construction is unconditional is
-[prop-trf-trace-class-unconditional].
-
 Fix the global finite-field datum
 and the coefficient
 conventions, $A=A_{E,n}$, $s=\Spec k$, and let

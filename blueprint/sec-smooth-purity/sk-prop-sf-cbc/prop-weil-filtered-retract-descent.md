@@ -14,29 +14,6 @@ $\mathcal P_T$ is idempotent complete: every idempotent of $\mathcal P_T$
 splits, and a splitting may be represented over a single finite coefficient
 field.
 
-*Source note:* no Stacks Project entry states this descent: the ledger's
-verified entries contain no idempotent-completion or filtered-colimit entry,
-and the blueprint adds the splitting of an idempotent of the pair category
-over a single finite coefficient field, given idempotent completeness of the
-finite-stage categories. The nearest entries, each fetched and quoted, are
-Homological Algebra, Definition 12.4.1 ([Tag
-09SG](https://stacks.math.columbia.edu/tag/09SG), Karoubian: every
-idempotent endomorphism of an object has a kernel) and Lemma 12.4.2 ([Tag
-09SH](https://stacks.math.columbia.edu/tag/09SH), Karoubian iff every
-idempotent has a cokernel iff $z=x\oplus y$ with $p$ the projection onto
-$y$), with the Karoubianity criteria Lemma 12.4.3 ([Tag
-05QV](https://stacks.math.columbia.edu/tag/05QV), countable products with
-kernels of maps having a right inverse) and Lemma 13.4.14 ([Tag
-05QW](https://stacks.math.columbia.edu/tag/05QW), a triangulated category
-with countable products, or with countable coproducts, is Karoubian); the
-only idempotent inside a filtered colimit in Stacks is the one of Remark
-4.21.6 ([Tag 09P8](https://stacks.math.columbia.edu/tag/09P8)), where the
-colimit of an idempotent diagram in *Sets* is its image. Difference: those
-entries test a category that is already given, and Stacks constructs no
-idempotent completion (the request to add the Karoubi envelope stands as a
-comment on Section 12.4, Tag 09SF); here idempotent completeness is assumed
-for every finite stage and the conclusion is a splitting over one stage.
-
 ## Proof
 
 Let $e:(E,K)\to(E,K)$ be an idempotent of the pair category

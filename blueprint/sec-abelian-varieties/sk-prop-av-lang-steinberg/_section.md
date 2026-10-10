@@ -34,5 +34,3 @@ and substitution into the last equation gives a polynomial equation
 $\varphi(x_m)=0$ whose linear coefficient is $1$, hence a nonzero
 polynomial of degree $\le p^m$ with a root in the algebraically closed
 field $k$. Back-substitution produces $x_i$ with $F(x)-x=w$.
-
-Uses: [sk-def-av], [sk-prop-av-fixed-points]

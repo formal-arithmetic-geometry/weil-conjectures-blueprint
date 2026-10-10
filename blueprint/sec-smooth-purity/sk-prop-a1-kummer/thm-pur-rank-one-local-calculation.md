@@ -46,8 +46,7 @@ site by [thm-weil-pbc-site-comparison], the coefficients being
 finite-torsion. (The identification of the $H^0$-terms and of
 $A(1)_{\bar y}\cong A$ uses a primitive $\ell^N$-th root of unity in
 $\Omega$, in the sense of [def-sc-mu-trivialization], and
-[lem-sc-primitive-root] for its existence. Source: Milne, Lectures
-on Etale Cohomology, Section 14, Proposition 14.3, and Example 16.3.)
+[lem-sc-primitive-root] for its existence.)
 
 ## Proof
 

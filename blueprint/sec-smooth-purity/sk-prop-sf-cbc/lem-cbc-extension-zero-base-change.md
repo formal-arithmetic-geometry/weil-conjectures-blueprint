@@ -22,7 +22,7 @@ $$
 g^{-1}j_!F\xrightarrow{\ \sim\ }j'_!g_U^{-1}F
 $$
 
-u
+is an isomorphism, where the canonical map is the one adjoint to the
 identification $j'^{-1}g^{-1}=g_U^{-1}j^{-1}$ (the square commutes)
 composed with the counit of
 [def-weil-pbc-extension-by-zero]. For a finite commutative ring

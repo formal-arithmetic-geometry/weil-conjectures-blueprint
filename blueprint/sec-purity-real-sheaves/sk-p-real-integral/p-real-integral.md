@@ -38,5 +38,3 @@ $L/\mathfrak m_E^nL$ is a finite set, so the image of $\pi_1(U)$ in its
 automorphisms is finite, and these reductions form the compatible system of
 finite locally constant sheaves whose limit is the lisse $\mathcal O_E$-sheaf
 on $U$ with stalk $L$.
-
-Uses: [def-wf-fundamental-representation], [lem-wf-weil-fundamental-representation], [lem-wf-weil-group-exact-sequence], [prop-wf-weil-sheaf-representation-equivalence]

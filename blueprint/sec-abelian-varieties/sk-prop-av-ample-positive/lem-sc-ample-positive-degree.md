@@ -11,21 +11,18 @@ dimension one (in the sense of [def-sc-curves]; $C$ need not be
 connected and may have zero-dimensional connected components), and
 $\mathcal L$ an ample invertible $\mathcal O_C$-module
 ([def-sc-ample]). Then $\deg\mathcal L>0$, where
-$\deg\mathcal L:=\deg_{\mathcal L}(C)$ is the degree of
-[def-sc-hilbert-degree], i.e. the coefficient of $m$ in the Hilbert
-polynomial $m\mapsto\chi(C,\mathcal L^{\otimes m})$ of
-[lem-sc-hilbert-polynomial]. In particular $\mathcal L$ is not
-trivial. (For a connected curve this is *Stacks Project, Varieties,
-Lemma 33.44.14, [Tag 0B5X](https://stacks.math.columbia.edu/tag/0B5X).*)
+$\deg\mathcal L:=\deg_{\mathcal L}(C)=\chi(C,\mathcal L)-\chi(C,\mathcal O_C)$
+is the degree of [def-sc-hilbert-degree] (with $g=\dim C=1$), i.e. the
+coefficient of $m$ in the Hilbert polynomial
+$m\mapsto\chi(C,\mathcal L^{\otimes m})$ of [lem-sc-hilbert-polynomial].
+In particular $\mathcal L$ is not trivial.
 
-(The hypothesis $\dim C=1$ cannot be dropped: on a proper curve
-$C=\operatorname{Spec}k$ of dimension zero every invertible module,
-ample or not, is trivial and $\chi(C,\mathcal L^{\otimes m})=1$ for all
-$m$, so the coefficient of $m$ is $0$; note that the Hilbert degree
-$\deg_{\mathcal L}(C)$ of [def-sc-hilbert-degree] is then $0!\cdot1=1$,
-since in dimension $g=0$ the leading coefficient is the constant term.
-The two numbers agree only when $\dim C=1$, which is the case the lemma
-is about.)
+The hypothesis $\dim C=1$ cannot be dropped: on the proper curve
+$C=\operatorname{Spec}k$ of dimension zero every invertible module, ample
+or not, is trivial and $\chi(C,\mathcal L^{\otimes m})=1$ for all $m$, so
+$\chi(C,\mathcal L)-\chi(C,\mathcal O_C)=0$, while the degree
+$\deg_{\mathcal L}(C)$ of [def-sc-hilbert-degree] (now with $g=0$) is
+$\chi(C,\mathcal O_C)=1$.
 
 ## Proof
 

@@ -8,8 +8,6 @@ uses = ["def-weil-pbc-scheme-conventions", "pqf-def-coherent", "pqf-lem-associat
 Let $f:X\to S$ be a quasi-compact and quasi-separated morphism of
 schemes. Then $f_*$ transforms quasi-coherent $\mathcal O_X$-modules
 into quasi-coherent $\mathcal O_S$-modules.
-(*Stacks Project, Schemes, Lemma 26.24.1, Tag
-[01LC](https://stacks.math.columbia.edu/tag/01LC).*)
 
 ## Proof
 

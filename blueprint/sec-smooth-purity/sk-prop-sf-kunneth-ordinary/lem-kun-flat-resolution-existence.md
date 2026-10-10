@@ -11,10 +11,6 @@ etale site of $T$ admits a
 quasi-isomorphism $\mathcal K^\bullet\to\mathcal G^\bullet$ from a
 K-flat complex whose terms are flat
 $\Lambda_T$-module sheaves.
-(*Source:* the argument is the one of Stacks Project,
-[Lemma 21.17.11, Tag
-`06YS`](https://stacks.math.columbia.edu/tag/06YS), with the successive approximations replaced by the
-functorial replacement below.)
 
 ## Proof
 

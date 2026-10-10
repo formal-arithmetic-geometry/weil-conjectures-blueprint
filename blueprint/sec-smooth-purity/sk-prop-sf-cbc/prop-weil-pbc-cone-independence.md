@@ -15,25 +15,6 @@ morphism of triangles whose first two components are identities. Thus
 distinguishedness in [def-weil-pbc-common-stage-cones] is independent of
 every representative, common field, and cone choice.
 
-*Source note:* no Stacks Project entry states this independence: the
-blueprint adds the proof that distinguishedness of a common-stage triangle
-is independent of the representative, the common field and the chosen cone,
-which is what makes the pair category a triangulated category below. The
-fixed-category input is Stacks': Lemma 13.4.7 ([Tag
-014B](https://stacks.math.columbia.edu/tag/014B), fetched and quoted) states
-that a morphism $f:X\to Y$ of a pre-triangulated category has a
-distinguished triangle $(X,Y,Z,f,g,h)$ unique up to (nonunique) isomorphism
-of triangles, more precisely that a second such triangle is related to the
-first by an isomorphism $(1,1,c)$ — exactly the assertion that two cone
-triangles are isomorphic by a morphism of triangles with identity on source
-and target — with Lemma 13.4.3 ([Tag
-014A](https://stacks.math.columbia.edu/tag/014A), if two of the three
-components of a morphism of distinguished triangles are isomorphisms so is
-the third). Difference: 014B is internal to one pre-triangulated category,
-whereas the blueprint must also compare the cone triangles of the scalar
-extensions $T_{N/M}$ and of different representatives of one morphism of
-$\mathcal P_T$.
-
 ## Proof
 
 For $M\subset N$, the functor $T_{N/M}$ of

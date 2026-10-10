@@ -13,13 +13,11 @@ counterexample chain anchored at the minimal-counterexample lemma
 `0F06`), while the curve-test lane ([sk-thm-vanishing])
 makes it zero. *(ii) The curve-estimate seam:*
 [sk-prop-ext-invariance] (the algebraically closed
-field-extension invariance) is Blueprint 06 /
-`OBL-PBC-CURVES` — the same input that computes the
+field-extension invariance) is the same input that computes the
 closed fibre of $\mathbb P^1$ in proper base change; it is used in
 [sk-thm-vanishing] at $q=1$ only, together with the torsor
-translation [sk-prop-input-torsors] (proved in Ch. 02b of the
-detailed blueprint and sketched here) and the spreading theorem
-[sk-prop-input-spreading] (I5, tame extension), the deepest of
+translation [sk-prop-input-torsors] and the spreading theorem
+[sk-prop-input-spreading] (tame extension), the deepest of
 the lane's inputs and the one the blueprint carries only in
 sketch.
 *(iii) This is Stacks' second, shorter proof:* the

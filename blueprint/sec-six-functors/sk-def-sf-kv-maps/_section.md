@@ -14,7 +14,6 @@ of [sk-def-sf-operations](vi) (no admissibility datum of
 [sk-def-sf-admissible] is assumed), put $f=f_1\times f_2$, and let
 $L_i\in\Dctf(Y_i,\Lambda)$, $B_i\in\Dctf(X_i,\Lambda)$.
 
-3pt
 1. **(i)** The $!$-Künneth
 $\mathrm{Ku}_!:Rf_!(B_1\boxtimes B_2)\xrightarrow{\ \sim\ } Rf_{1!}B_1\boxtimes Rf_{2!}B_2$ is [sk-thm-sf-kunneth-relative] for the base
 $B=Y_1\times Y_2$, using
@@ -60,5 +59,3 @@ $(E_1,L_1)=(\Lambda_X,M)$ on $X$ and $(E_2,L_2)=(N,\omega_Y)$ on $Y$.
 
 Only $\mathrm{Ku}_!$ is built from isomorphisms; invertibility of
 $\alpha,\beta,\kappa$ is the content of [sk-thm-sf-kunneth-verdier].
-
-Uses: `\Cref{sk-def-sf-exchanges}`, `\Cref{sk-def-sf-operations}`, `\Cref{sk-def-sf-admissible}`, `\Cref{thm-sf-kunneth-relative}`

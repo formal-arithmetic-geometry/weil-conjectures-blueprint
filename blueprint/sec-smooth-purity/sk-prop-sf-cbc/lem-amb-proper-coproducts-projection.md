@@ -16,8 +16,6 @@ $$
 K\otimes_A^LRr_*L\longrightarrow Rr_*(r^*K\otimes_A^LL).
 $$
 
-The notation refers to derived direct images, and inverse images.
-
 ## Proof
 
 Test the projection map of

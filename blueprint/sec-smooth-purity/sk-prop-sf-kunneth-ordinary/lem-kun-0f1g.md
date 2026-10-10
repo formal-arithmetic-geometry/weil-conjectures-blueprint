@@ -15,9 +15,6 @@ Q=0\quad\Longleftrightarrow\quad H^i(X_{\Et},Q)=0\text{ for all }
 i .
 $$
 
-(*Source:* Stacks Project, Tag
-[0F1G](https://stacks.math.columbia.edu/tag/0F1G).)
-
 ## Proof
 
 The implication from left to right is clear by functoriality of the

@@ -25,8 +25,8 @@ $$
 $$
 
 and one then writes $K=R\varprojlim_nK_n$. The displayed triangle is the
-*Roos triangle* of the system. The definition is made inside the triangulated
-category $\mathcal D$, for an inverse system of objects *of* $\mathcal D$: no
-resolution of the system is chosen and no model for $\mathcal D$ is fixed. It
-is Definition 13.34.1 of the Stacks Project, Tag
-[08TC](https://stacks.math.columbia.edu/tag/08TC).
+*Roos triangle* of the system.
+
+The definition is made inside the triangulated category $\mathcal D$, for an
+inverse system of objects *of* $\mathcal D$: no resolution of the system is
+chosen and no model for $\mathcal D$ is fixed.

@@ -22,4 +22,4 @@ For a functor with all $F(X)$ finite, $\operatorname{Aut}(F)$ is
 identified with the subgroup of
 $\prod_X\operatorname{Aut}(F(X))$ formed by the tuples induced by the
 natural automorphisms of $F$, and carries the topology induced from the
-product of the discrete topologies;
+product of the discrete topologies.

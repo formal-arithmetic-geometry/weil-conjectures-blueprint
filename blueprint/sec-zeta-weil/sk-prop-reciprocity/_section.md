@@ -58,5 +58,3 @@ $\langle y,x\rangle_{2d-i}=(-1)^i\langle x,y\rangle_i$ makes the middle pairing
 alternating for odd $d$, because a nondegenerate alternating form on a
 finite-dimensional vector space has even dimension. Hence $d\chi$ is even in
 both cases.
-
-Uses: [sk-def-cohfamily], [sk-def-roots], [sk-thm-intfactors], [sk-thm-poincare-duality]

@@ -86,5 +86,3 @@ integrality and identification of the strata, and
 `lem-weil-finite-coordinate-detection` for the recovery of the
 integral factors. These are pure algebra: no geometric input enters beyond
 [sk-prop-rootpurity].
-
-Uses: [sk-def-cohfamily], [sk-def-roots], [sk-prop-rootpurity], [sk-prop-separation], [sk-thm-rationality]

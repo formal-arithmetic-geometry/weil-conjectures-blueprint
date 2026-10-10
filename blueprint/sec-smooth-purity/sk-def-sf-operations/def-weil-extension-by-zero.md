@@ -31,5 +31,4 @@ $$
  \longrightarrow \Sh(\overline X_{\mathrm{proet}},A)
 $$
 
-by its action on sections and sheafification; no conservativity of ordinary
-geometric stalks is part of the definition.
+by its action on sections and sheafification.

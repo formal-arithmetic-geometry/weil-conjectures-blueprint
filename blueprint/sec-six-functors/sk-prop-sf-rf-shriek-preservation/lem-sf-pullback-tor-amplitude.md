@@ -13,8 +13,7 @@ bounded constructible
 complex of finite Tor amplitude
 in $[a,b]$. Then $Lf^*K\in D^b_c(X,A)$ is bounded constructible and has
 finite Tor amplitude in $[a,b]$. Consequently $Lf^*$ carries
-$D^b_{ctf}(Y,A)$ into $D^b_{ctf}(X,A)$, which is clause (i) of
-the finite-Tor preservation summary at the finite coefficient stages.
+$D^b_{ctf}(Y,A)$ into $D^b_{ctf}(X,A)$.
 
 ## Proof
 

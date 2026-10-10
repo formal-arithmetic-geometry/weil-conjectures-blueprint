@@ -30,7 +30,6 @@ $(f\circ i)^{-1}Rg_*K\to Rj_*(e\circ k)^{-1}K$ is an isomorphism
 (``the outer rectangle'') and the analogous statement holds
 degreewise for an abelian sheaf $\mathcal F$ on $T_{\Et}$ and the maps
 $R^q$.
-(*Stacks Project, Lemma 59.86.2, [Tag `0EZS`](https://stacks.math.columbia.edu/tag/0EZS).*)
 
 ## Proof
 

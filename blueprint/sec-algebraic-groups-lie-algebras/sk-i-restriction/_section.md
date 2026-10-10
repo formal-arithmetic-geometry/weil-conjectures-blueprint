@@ -9,22 +9,31 @@ lean = ["Representation.isSemisimpleRepresentation_comp_subtype", "AlgebraicGeom
 *Proposition (sketch).*
 
 A finite-dimensional semisimple representation restricts semisimply
-to a normal subgroup (the finite-dimensional normal-restriction argument).
+to a normal subgroup.
 For a rational action, invariance under a Zariski-dense subgroup is
 equivalent to invariance under its closure: the stabilizer equations
 are closed. Invariant subspaces and quotients carry induced rational
 actions; direct sums, tensor products, exterior powers and determinants
 of rational actions are rational. The closures $G,H$ of
-[sk-d-monodromy] are algebraic groups, $H$ is normal in $G$, and
+[sk-d-monodromy] are algebraic groups, closed subgroup schemes of
+$\GL_n$ with $H\subseteq G$; for every $k$-algebra $R$, $H(R)$ is normal
+in $G(R)$, and
 
 $$
-aba^{-1}b^{-1}\in H\quad(a,b\in G),\qquad
-[\Lie(G^\circ),\Lie(G^\circ)]\subseteq\Lie(H^\circ).
+aba^{-1}b^{-1}\in H(R)\quad(a,b\in G(R)),\qquad
+[\Lie(G),\Lie(G)]\subseteq\Lie(H).
 $$
 
-These are the statements about [sk-d-linear], [sk-d-geometry],
-[sk-d-tangent] used in the monodromy arguments below.
-lem:clifford-restriction;lem:monodromy-stable;lem:monodromy-normal;lem:monodromy-commutators;lem:monodromy-lie-commutators;lem:rational-subquotients;lem:rational-direct-sum;lem:rational-tensor;lem:rational-exterior;lem:rational-determinant
+Thus $H$ contains the commutators of $G$ as group schemes; equivalently,
+$H$ contains the derived subgroup $[G,G]$, the smallest closed subgroup
+scheme of $G$ containing the commutators of $G$. More generally, if
+$H\subseteq G$ are closed subgroup schemes of $\GL_n$ such that the
+commutators of $G(R)$ lie in $H(R)$ for every $k$-algebra $R$, then $H$
+contains the commutators of $G$ as group schemes, hence is normal in $G$,
+and $[\Lie(G),\Lie(G)]\subseteq\Lie(H)$. If $k$ is algebraically closed
+of characteristic zero, then moreover
+$[\Lie(G^\circ),\Lie(G^\circ)]\subseteq\Lie(H^\circ)$, and for a
+semisimple datum $k^n$ is a semisimple representation of $G^\circ(k)$.
 
 ## Proof
 
@@ -67,24 +76,51 @@ polynomials in the original entries, and the inverse is given by the same
 formulas at $g^{-1}$. The determinant is the top exterior power on a
 one-dimensional space, hence a rational character.
 
-*Normality and commutators.* The kernel $P$ of the degree map in
-[sk-d-monodromy] is normal, so conjugation by an element of $\rho(W)$
-preserves $\rho(P)$ and, being a homeomorphism, preserves its closure $H$.
-For fixed $h\in H$ the condition $ghg^{-1}\in H$ is closed in $G$ and
-contains $\rho(W)$, hence contains $G$; applying it to $g^{-1}$ gives
-$gHg^{-1}=H$. Since $\mathbf Z$ is abelian the degree map kills
-commutators, so commutators of elements of $\rho(W)$ lie in $H$. Fixing
-one variable, $a\mapsto aba^{-1}b^{-1}$ is regular, so the preimage of $H$
-is closed and contains $\rho(W)$, hence $G$; fixing $a\in G$ and repeating
-in the other variable gives the assertion on all of $G\times G$. No
-quotient algebraic group is needed.
+*Normality and commutators on $R$-points.* Write $A=k[x_{ij},\det^{-1}]$
+and, for a subgroup $\Gamma\subseteq\GL_n(k)$, $I_\Gamma\subseteq A$ for the
+ideal of functions vanishing on $\Gamma$; by [sk-d-monodromy],
+$G=V(I_{\rho(W)})$ and $H=V(I_{\rho(P)})$, and $\rho(P)\subseteq\rho(W)$
+gives $I_{\rho(W)}\subseteq I_{\rho(P)}$, i.e. $H(R)\subseteq G(R)$ for every
+$k$-algebra $R$. The kernel $P$ of the degree map is normal, and since
+$\mathbf Z$ is abelian the degree map kills commutators, so
+$[\rho(W),\rho(W)]\subseteq\rho(P)$. We show: if $\Delta\subseteq\Gamma$
+are subgroups of $\GL_n(k)$ with $[\Gamma,\Gamma]\subseteq\Delta$, then
+$aba^{-1}b^{-1}\in V(I_\Delta)(R)$ for all $a,b\in V(I_\Gamma)(R)$ and all $R$.
+Let $f\in I_\Delta$ and let $F\in A\otimes_kA$ be the function
+$F(a,b)=f(aba^{-1}b^{-1})$; it vanishes on $\Gamma\times\Gamma$. In
+$A\otimes_k(A/I_\Gamma)$ write $\bar F=\sum_i\varphi_i\otimes\bar\psi_i$ with
+$\bar\psi_1,\ldots,\bar\psi_m$ linearly independent. As $I_\Gamma$ is the
+ideal of $\Gamma$, $A/I_\Gamma$ embeds in the functions on $\Gamma$, so there
+are $b_1,\ldots,b_m\in\Gamma$ with $(\psi_i(b_j))$ invertible. For each $j$,
+$\sum_i\varphi_i\,\psi_i(b_j)=F(-,b_j)$ vanishes on $\Gamma$, so lies in
+$I_\Gamma$; inverting the matrix gives $\varphi_i\in I_\Gamma$. Hence
+$F\in I_\Gamma\otimes A+A\otimes I_\Gamma$, so $F(a,b)=0$ for
+$a,b\in V(I_\Gamma)(R)$. Applied to $\Gamma=\rho(W)$, $\Delta=\rho(P)$ this is
+the commutator assertion, and normality of $H(R)$ in $G(R)$ follows from
+$ghg^{-1}=(ghg^{-1}h^{-1})h$.
 
-*The Lie inclusion.* The commutator morphism $G\times G\to G$ sends
-every $k$-point into $H$, and its source is reduced by [sk-i-geometry],
-so the vanishing principle there factors it through $H$ — which must be
-done before evaluating on nonreduced rings. For
-$X,Y\in\Lie(G^\circ)$ take
-$R=k[\varepsilon,\delta]/(\varepsilon^2,\delta^2)$; direct matrix
+*Commutators as group schemes and the derived subgroup.* Let
+$H\subseteq G$ be closed subgroup schemes of $\GL_n$ such that the
+commutators of $G(R)$ lie in $H(R)$ for every $R$. Take $R$ the
+coordinate ring of $G\times G$ and $a,b\in G(R)$ the two projections: their
+commutator lies in $H(R)$, i.e. the commutator morphism $G\times G\to G$
+factors through $H$. The commutator of any two points $a,b:X\to G$ is the
+composite of $(a,b):X\to G\times G$ with this morphism, so it factors
+through $H$: $H$ contains the commutators of $G$ as group schemes, and
+then $H$ is normal in $G$ by $ghg^{-1}=(ghg^{-1}h^{-1})h$. A morphism to
+$G=V(I)$ factors through $V(J)$, $J\supseteq I$, if and only if $J$ maps to
+zero; so if $V(J)$ and $V(J')$ contain the commutators of $G$, so does
+$V(J+J')$, and the sum of all Hopf ideals $J\supseteq I$ with this property
+is a Hopf ideal (the Hopf conditions are additive) cutting out the
+smallest closed subgroup scheme $[G,G]$ containing the commutators of $G$.
+Thus $H$ contains the commutators of $G$ if and only if
+$H\supseteq[G,G]$. For the monodromy pair, the previous paragraph supplies
+the hypothesis.
+
+*The Lie inclusion.* Let $H\subseteq G$ be as in the previous paragraph,
+over any field $k$, and $X,Y\in\Lie(G)$. Take
+$R=k[\varepsilon,\delta]/(\varepsilon^2,\delta^2)$; then $1+\varepsilon X$
+and $1+\delta Y$ lie in $G(R)$ by [sk-d-tangent], and direct matrix
 multiplication gives
 
 $$
@@ -92,11 +128,21 @@ $$
 =1+\varepsilon\delta(XY-YX),
 $$
 
-an $R$-point of $H$. For a defining equation $f$ of $H$, expansion at $1$
-reads $f(1+\varepsilon\delta Z)=f(1)+\varepsilon\delta\,df_1(Z)$, and
-$\varepsilon\delta$ is linearly independent of $1,\varepsilon,\delta$ in
-$R$, so $df_1([X,Y])=0$. The linear tangent equations of [sk-d-tangent]
-put $[X,Y]$ in $\Lie(H)$, which equals $\Lie(H^\circ)$ by
-[sk-i-cartier]. Spanning over all such brackets gives the inclusion.
+an $R$-point of $H$ by hypothesis. The $k$-algebra map
+$k[\eta]/\eta^2\to R$, $\eta\mapsto\varepsilon\delta$, is injective and
+carries $1+\eta[X,Y]$ to this point; so for each defining equation $f$ of
+$H$, $f(1+\eta[X,Y])$ maps to $0$ and hence vanishes, i.e.
+$1+\eta[X,Y]\in H(k[\eta]/\eta^2)$ and $[X,Y]\in\Lie(H)$ by
+[sk-d-tangent]. No reducedness is used. If $k$ is algebraically closed of
+characteristic zero, [sk-i-cartier] gives $\Lie(G^\circ)=\Lie(G)$ and
+$\Lie(H^\circ)=\Lie(H)$ through the inclusions, so
+$[\Lie(G^\circ),\Lie(G^\circ)]\subseteq\Lie(H^\circ)$.
 
-Uses: [sk-d-geometry], [sk-d-linear], [sk-d-monodromy], [sk-d-tangent], [sk-i-cartier], [sk-i-geometry]
+*Semisimplicity for $G^\circ(k)$.* Let the datum be semisimple and $k$
+algebraically closed. By the density paragraph, the $W$-stable subspaces
+of $k^n$ are exactly the $G(k)$-stable ones, so a decomposition of $k^n$
+into simple $W$-modules is a decomposition into simple $G(k)$-modules.
+Conjugation by $g\in G(k)$ is an automorphism of $G$ fixing $1$, so it
+preserves the connected component of $1$; thus $G^\circ(k)$ is normal in
+$G(k)$, and the normal-restriction paragraph shows that $k^n$ is a
+semisimple $G^\circ(k)$-module.

@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.jj": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/wholeblueprint-final.aux": true,
+        "**/wholeblueprint-final.log": true,
+        "**/wholeblueprint-final.gz": true,
+        "**/wholeblueprint-final.out": true,
+        "**/weil_conjectures_detailed.aux": true,
+        "**/weil_conjectures_detailed.log": true,
+        "**/weil_conjectures_detailed.gz": true,
+        "**/weil_conjectures_detailed.out": true
+    }
+}

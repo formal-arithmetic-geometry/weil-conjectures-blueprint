@@ -7,8 +7,8 @@ uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-proje
 lean = ["AlgebraicGeometry.exists_jacobian"]
 +++
 Let $k$ be a separably closed field and let $C$ be a
-smooth projective curve over $k$
-which is geometrically integral,
+$k$-scheme which is proper and smooth of relative dimension $1$ over $k$
+and geometrically integral,
 of genus $g=g(C)=\dim_kH^1(C,\mathcal O_C)$ ([def-pc-genus]). There is
 an abelian variety $J_C$ over
 $k$, the *Jacobian* of $C$ in the sense of [def-sc-jacobian], of dimension $g$, together
@@ -25,8 +25,6 @@ $k$ they are the $\operatorname{Pic}^0(C)$ of [def-sc-pic0], so that
 $\operatorname{Pic}^0(C)=J_C(k)$ canonically in that case. Moreover $J_C$
 is compatible with base change along extensions of separably closed fields:
 $J_{C_{k'}}\cong(J_C)_{k'}$ for $k\subseteq k'$ separably closed.
-The scope of this result, and the case of a general ground field, are
-discussed in a remark below in this chapter.
 
 ## Proof
 
@@ -35,6 +33,11 @@ of a smooth projective curve over a separably closed field is
 representable, with the full decomposition carried out there (*reference: Stacks Project, Picard Schemes of Curves, Proposition 44.6.6, [Tag 0B9Z](https://stacks.math.columbia.edu/tag/0B9Z)*); cf. Mumford, Abelian Varieties; Milne, Abelian Varieties, Ch. 12. We outline the
 classical construction; the existence and property statements are
 theorems of the sources above.
+
+*(0) Projectivity.* Since a scheme which is proper over a field and of dimension $1$ is projective over it,
+$C$ is a smooth projective curve ([def-pc-smooth-projective-curve]), and it
+is geometrically integral by hypothesis; so the results for smooth
+projective curves cited below apply to $C$.
 
 *(1) The Picard functor.* $\operatorname{Pic}_{C/k}$ and
 $\operatorname{Pic}^0_{C/k}\subseteq\operatorname{Pic}_{C/k}$ are

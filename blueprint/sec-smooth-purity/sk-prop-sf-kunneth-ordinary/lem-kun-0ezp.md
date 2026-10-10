@@ -18,11 +18,6 @@ $$
 Consequently, for every morphism $f:X\to Y$ of schemes, the higher
 direct images of [def-weil-pbc-direct-image] vanish:
 $R^qf_*F=0$ for $q>0$.
-(*Source:* this is the case of Stacks Project, Tag
-[0EZP](https://stacks.math.columbia.edu/tag/0EZP) that is used in this
-chapter, namely the case of the spectrum of a separably closed field; the
-general statement of that tag, for an integral normal scheme with separably
-closed function field, is not needed here.)
 
 ## Proof
 

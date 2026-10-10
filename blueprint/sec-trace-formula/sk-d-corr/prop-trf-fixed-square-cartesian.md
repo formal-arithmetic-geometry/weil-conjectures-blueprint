@@ -34,7 +34,7 @@ $$
 
 (the adjoint form of the composition law $R(c_1i_F)_!\cong Rc_{1!}Ri_{F!}$ of [thm-sf-comp-composition],
 as $d=c_1i_F$); it is the only unconditional "!"-transport of the two
-legs in the fixed square, see also the remark below.
+legs in the fixed square.
 
 ## Proof
 

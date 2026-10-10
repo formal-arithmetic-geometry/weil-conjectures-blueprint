@@ -5,12 +5,6 @@ title = "Preparation data for separating two closed boundaries, [stacks-project]
 order = 246
 uses = ["def-nagata-admissible-blowup", "def-nagata-qc-open-complement-ideal", "def-nagata-strict-transform", "lemma-nagata-chart-generator-regular", "lemma-nagata-finite-type-nil-ideal-nilpotent"]
 +++
-**Status.** Bypassed by the formalized route: boundary separation is
-`AlgebraicGeometry.separationBlowup` with
-`AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures`,
-proved from Deligne's disjointness blow-up rather than from this
-preparation.
-
 Let $X$ be qcqs, let $U\subseteq X$ be quasi-compact open, and let
 $Z_i=V(\mathcal I_i)\hookrightarrow X$ be finite-presentation closed
 immersions with $Z_1\cap Z_2\cap U=\varnothing$. Put

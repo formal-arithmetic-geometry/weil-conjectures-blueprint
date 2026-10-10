@@ -5,8 +5,7 @@ title = "The addition morphism on Hilbert schemes"
 order = 787
 uses = ["def-pc-finite-locally-free", "def-pc-hilb-functor", "lem-pc-cartier-criterion"]
 +++
-(Picard Schemes of Curves, Lemma 44.3.4, Tag
-[0B9G](https://stacks.math.columbia.edu/tag/0B9G).) Let $X\to S$ be
+Let $X\to S$ be
 a separated smooth morphism of relative dimension $1$, assume that
 all the functors $\operatorname{Hilb}^e_{X/S}$ are representable,
 and let $d\geq0$. There is a canonical morphism

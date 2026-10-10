@@ -12,6 +12,7 @@ Let $f:X\to Y$ be a separated finite-type morphism of finite-type
 $k$-schemes, with $f^!=Rf^!$ the constructible exceptional adjoint of
 [sk-def-sf-operations] (vi) (no admissibility datum is assumed), and let
 $M\in\Dctf(X,\Lambda)$ and $N\in\Dctf(Y,\Lambda)$. Then there is a canonical isomorphism
+
 $$
 Rf_*\RHom_X(M,f^!N)\xrightarrow{\ \sim\ }\RHom_Y(Rf_!M,N),
 $$
@@ -47,5 +48,3 @@ a full subcategory containing both sides (each is the comparison image of the
 corresponding complex on the étale site, [sk-prop-sf-comparison]), so
 the two objects represent the same functor there and Yoneda gives the
 isomorphism.
-
-Uses: `\Cref{sk-def-sf-exchanges}`, `\Cref{sk-def-sf-operations}`, `\Cref{lem-sf-mate}`, `\Cref{sk-thm-sf-pf-finite}`, `\Cref{sk-thm-sf-pf-adic}`, `\Cref{sk-thm-sf-pf-field}`, `\Cref{sk-thm-sf-pf-proetale}`, `\Cref{sk-rem-sf-pf-done}`, `def-weil-derived-pullback-tensor-hom`

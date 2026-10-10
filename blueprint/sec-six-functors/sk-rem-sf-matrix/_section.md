@@ -17,5 +17,4 @@ $Rf^!:\Dctf(Y)\to\Dctf(X)$ for open immersions, finite étale morphisms,
 closed immersions, smooth morphisms, and in fact every separated finite-type
 $f$, with no admissibility hypothesis;
 $\mathbb D_X:\Dctf(X)\to\Dctf(X)$ in the perfect case and in general, again
-unconditionally. This matrix is the enumeration that the final
-proposition consumes.
+unconditionally.

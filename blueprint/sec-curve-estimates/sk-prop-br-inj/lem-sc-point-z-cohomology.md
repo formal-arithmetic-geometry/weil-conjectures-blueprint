@@ -3,8 +3,10 @@ id = "lem-sc-point-z-cohomology"
 kind = "lemma"
 title = "Cohomology of the constant sheaf $\\mathbf Z$ on a point"
 order = 901
+lean = ["AlgebraicGeometry.Scheme.subsingleton_H_constantSheaf_of_isSepClosed"]
 +++
-Let $k$ be an algebraically closed field. Then
+Let $k$ be a separably closed field (for instance an algebraically
+closed one). Then
 $H^q(\operatorname{Spec}k_{\Et},\mathbf Z)=0$ for all $q\geq1$.
 
 ## Proof
@@ -23,7 +25,7 @@ discrete Galois module defines such a sheaf); the global sections
 functor corresponds to taking $\operatorname{Gal}(k_s/k)$-invariants.
 Hence $H^q(\operatorname{Spec}k_{\Et},\mathbf Z)$ is the group
 cohomology $H^q(\operatorname{Gal}(k_s/k),\mathbf Z)$. For $k$
-algebraically closed, $k_s=k$ and the Galois group is trivial, so
+separably closed, $k_s=k$ and the Galois group is trivial, so
 $H^q=0$ for $q\geq1$ (the group cohomology of the trivial group
 with any coefficients vanishes in positive degrees: the functor of
 invariants of the trivial group is exact).

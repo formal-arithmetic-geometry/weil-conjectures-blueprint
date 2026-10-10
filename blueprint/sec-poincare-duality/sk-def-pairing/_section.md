@@ -30,6 +30,4 @@ summand and fixes the normalization.
 
 A morphism $b:C\otimes^L_\Lambda D\to\Lambda$ of perfect point complexes
 is *perfect* if its tensor–internal-Hom adjoint $D\to C^\vee$ is an
-isomorphism. (Blueprint 13, def:sf-pairing.)
-
-Uses: [sk-def-pairing-data], [sk-def-perfect]
+isomorphism.

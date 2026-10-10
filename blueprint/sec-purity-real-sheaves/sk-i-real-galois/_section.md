@@ -18,8 +18,9 @@ becomes constant on an etale covering.
 
 The geometric-stalk functor is an exact tensor equivalence between locally
 constant sheaves of finite $\Lambda$-modules on $Y_\Et$ and finite
-$\Lambda$-modules carrying a continuous action of $\pi_1(Y,\bar y)$,
-compatibly with base change along a map $\Lambda\to\Lambda'$ of finite rings.
+$\Lambda$-modules carrying a continuous action of $\pi_1(Y,\bar y)$
+(every stabilizer open); the underlying $\Lambda$-module of the
+representation attached to a sheaf is its stalk at $\bar y$.
 
 ## Proof
 
@@ -45,11 +46,17 @@ sheaf is a $\Lambda$-action on the corresponding object, carried by both
 equivalences; composing them gives the geometric-stalk functor of the
 statement.
 
-*Exactness, tensor and coefficients.* Two locally constant sheaves
+*Exactness and tensor.* Two locally constant sheaves
 become constant on a common etale covering, on which a map between them is a
 map of constant sheaves; its kernel and cokernel are therefore again locally
 constant, and are computed on stalks, so the equivalence is exact. The same
-common covering computes $\otimes_\Lambda$ and the base change
-$-\otimes_\Lambda\Lambda'$ stalkwise, giving the remaining two compatibilities.
+common covering computes $\otimes_\Lambda$ stalkwise, so the equivalence is
+compatible with tensor products.
 
-Uses: [sk-d-real-setup]
+*Compatibility with the stalk.* By construction the functor is the composite
+of the two equivalences above, and the fibre $F_{\bar y}(P)$ of the cover $P$
+attached to a locally constant sheaf $\mathcal F$ is the set of sections of
+$\mathcal F$ over $\bar y$, i.e. the stalk $\mathcal F_{\bar y}$, with the
+$\Lambda$-module structure induced from $\mathcal F$. Hence the underlying
+$\Lambda$-module of the representation attached to $\mathcal F$ is
+$\mathcal F_{\bar y}$, naturally in $\mathcal F$.

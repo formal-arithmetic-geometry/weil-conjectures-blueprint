@@ -11,13 +11,12 @@ over $S$ put
 
 $$
 \operatorname{Hilb}^d_{X/S}(T):=\bigl\{Z\subset X_T\ \text{a closed subscheme}:\
-Z\to T\text{ is finite locally free of degree }d\bigr\},
+Z\to T\text{ is finite, flat and locally of finite presentation of degree }d\bigr\},
 $$
 
-where ``finite locally free of degree $d$'' is
-Definition [def-pc-finite-locally-free] and $X_T$ is the base change of
+where "of degree $d$" means that the rank of $Z\to T$ is constantly equal to $d$, i.e. $Z\to T$
+is finite locally free of degree $d$ in the sense of
+Definition [def-pc-finite-locally-free], and $X_T$ is the base change of
 [def-pc-base-change]. If this functor is representable
 ([def-pc-representable-functor]), the representing scheme is
-$\underline{\operatorname{Hilb}}^d_{X/S}$ (Stacks Project, Picard Schemes of Curves,
-Chapter 44, Section 44.2, Tag
-[0B94](https://stacks.math.columbia.edu/tag/0B94)).
+$\underline{\operatorname{Hilb}}^d_{X/S}$.

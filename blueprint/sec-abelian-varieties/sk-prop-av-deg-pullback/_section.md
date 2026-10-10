@@ -30,5 +30,3 @@ of $\chi$ plus devissage reduces to $\mathcal E$ invertible, where the
 two polynomials differ in degree $\le g-1$). Hence the leading
 coefficients, and with them the degrees of [sk-def-av-ample-degree],
 multiply by $\deg(f)$.
-
-Uses: [sk-def-av-ample-degree]

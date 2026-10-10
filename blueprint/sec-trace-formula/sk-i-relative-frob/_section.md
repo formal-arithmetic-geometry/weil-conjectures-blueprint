@@ -49,5 +49,3 @@ injective and surjective, $F_{X_0/Y_0}$ is a universal homeomorphism
 this is the relative-Frobenius statement
 [Stacks, Tag 0CCB](https://stacks.math.columbia.edu/tag/0CCB)). Base
 changing to $k$ gives the claim for $r_m$.
-
-Uses: [sk-d-relative-frob], [sk-d-setup]

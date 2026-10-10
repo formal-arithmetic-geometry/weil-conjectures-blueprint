@@ -5,14 +5,6 @@ title = "Flat base-change comparison for blow-ups"
 order = 116
 uses = ["def-nagata-extended-ideal", "def-nagata-flat-pullback-rees-map", "def-nagata-global-blowup", "lemma-nagata-flat-pullback-rees", "prop-nagata-relative-proj-functoriality"]
 +++
-**Status.** Bypassed by the formalized route: blow-ups are never
-base-changed along a flat morphism. Every base-change step the route takes
-goes through the universal property
-`AlgebraicGeometry.Scheme.IdealSheafData.exists_lift_blowup` and
-the chart pullback squares
-`AlgebraicGeometry.Scheme.IdealSheafData.isPullback_blowup$\iota$`
-instead.
-
 Let $g\colon Y\to X$ be flat and let
 $\mathcal I\subseteq\mathcal O_X$ be a quasi-coherent ideal. With
 $\mathcal I\mathcal O_Y$ defined in

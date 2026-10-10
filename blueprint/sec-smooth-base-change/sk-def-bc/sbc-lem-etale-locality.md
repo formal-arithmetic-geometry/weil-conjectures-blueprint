@@ -31,8 +31,6 @@ $f_i^{-1}R^qg_{i,*}\mathcal F_i=R^qh_{i,*}e_i^{-1}\mathcal F_i$
 for all $i$, then
 $f^{-1}R^qg_*\mathcal F=R^qh_*e^{-1}\mathcal F$.
 
-(*Stacks Project, Lemma 59.86.1, [Tag `0EZR`](https://stacks.math.columbia.edu/tag/0EZR).*)
-
 ## Proof
 
 Restricting to $U_i$ and using the factorizations

@@ -17,7 +17,7 @@ $$
 with the projections; for $g:T'\to T$ the *base change of a
 module* $\mathcal{F}$ on $X_T$ is $\mathcal{F}_{T'}=g_X^*\mathcal{F}$ where
 $g_X:X_{T'}\to X_T$. For a point $t\in T$ the *fibre*
-$X_t=X\times_S\operatorname{Spec}(\kappa(t))$ and the *geometric fibre* $X_{\bar t}$ are as in
-Definition def:weil-pbc-scheme-conventions.
+is $X_t=X\times_S\operatorname{Spec}(\kappa(t))$ and the *geometric fibre* is
+$X_{\bar t}=X\times_S\operatorname{Spec}(\overline{\kappa(t)})$.
 If $f$ has a section $\sigma:S\to X$ and $T$ is over $S$, then
 $\sigma_T:=(\mathrm{id}_T\times\sigma):T\to X_T$ is the induced section.

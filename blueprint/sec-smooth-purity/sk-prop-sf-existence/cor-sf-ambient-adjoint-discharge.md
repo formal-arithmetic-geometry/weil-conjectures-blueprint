@@ -14,9 +14,7 @@ bounded-class uses of clause (1) of
 interpretation. The unrestricted ambient datum of
 [def-weil-ambient-exceptional-adjoint] is not asserted here; it is false in
 general (an elliptic curve over $\overline{\mathbf F}_p$ with
-$A=\mathbf F_r$, rem:sf-ambient-counterexample in the six-functors chapter),
-and the constructible exceptional adjoint of
-def-weil-exceptional-inverse-image is what the blueprint uses.
+$A=\mathbf F_r$).
 
 ## Proof
 

@@ -9,8 +9,7 @@ In the setting of [def-sf-datum], let $\Lambda=A_{E,n}$, let
 $f:X\to Y$ be separated of finite type, and let $K$ and $L$ be bounded
 constructible complexes on the étale sites with $L$ of finite Tor
 amplitude. Then $\operatorname{PF}_{f,K,L}$ is an isomorphism, natural in
-$K$ and $L$. ([lem-weil-finite-compact-projection-formula]; its proof is complete
-and is the base case of the passage to all stages below.)
+$K$ and $L$ ([lem-weil-finite-compact-projection-formula]).
 
 ## Proof
 

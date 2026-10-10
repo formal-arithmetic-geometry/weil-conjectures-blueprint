@@ -32,5 +32,3 @@ $$
 V^I=\{v\in V:gv=v\text{ for all }g\in I\},\qquad
 V_I=V/\langle gv-v:g\in I,\ v\in V\rangle .
 $$
-
-Uses: [def-mg-determinant-line], [def-mg-weil-composition-series], [def-mg-weil-semisimplification], [def-wf-fundamental-representation], [def-wf-weil-group]

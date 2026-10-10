@@ -5,11 +5,19 @@ title = "Locally constant sheaf reduction"
 order = 1145
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-exchange", "lemma-weil-pbc-finite-l-group-filtration", "lemma-weil-pbc-finite-stalk-formula", "thm-galois-lc-etale"]
 +++
-For irreducible $U$ and finite locally constant $G$ of
-$\mathbf F_\ell$-vector spaces, there is a finite etale
-$v:V\to U$ of degree prime to $\ell$ such that $v^{-1}G$ has a filtration by
-constant $\mathbf F_\ell$-sheaves, and $G$ is a direct summand of
-$v_*v^{-1}G$.
+Let $U$ be irreducible and let $G$ be a finite locally constant sheaf of
+$\mathbf F_\ell$-vector spaces on $U_{\Et}$. There is a connected finite
+etale $v:V\to U$ of degree prime to $\ell$ such that $v^{-1}G$ has a
+filtration by subsheaves with constant $\mathbf F_\ell$-quotients. The
+adjunction unit and the trace satisfy
+
+$$
+ G\xrightarrow{\eta}v_*v^{-1}G
+ \xrightarrow{\operatorname{tr}}G
+   =\deg(v)\operatorname{id}_G,
+$$
+
+so $G$ is a direct summand of $v_*v^{-1}G$.
 
 ## Proof
 
@@ -58,34 +66,18 @@ The stalk formulas are preserved by base change, so the direct-summand
 decomposition and every filtration exact sequence are compatible with the
 cohomology comparison maps.
 
-## Detailed form
-
-Let $U$ be irreducible and let $G$ be a finite locally constant $\mathbf
-F_r$-sheaf. There is a connected finite etale map $v:V\to U$ of degree prime
-to $r$ such that $v^{-1}G$ has a filtration with constant $\mathbf
-F_r$-quotients. The adjunction unit and trace satisfy
-
-$$
- G\xrightarrow{\eta}v_*v^{-1}G
- \xrightarrow{\operatorname{tr}}G
-   =\deg(v)\operatorname{id}_G,
-$$
-
-so $G$ is a direct summand of $v_*v^{-1}G$.
-
-## Proof
-
-Under the finite-etale correspondence of [thm-galois-lc-etale], the finite locally constant $\mathbf
-F_r$-sheaf $G$ on the irreducible $U$ corresponds to a finite etale
-$U$-scheme, and the (profinite) monodromy group is the finite group $H$ acting
-on the geometric stalk $G_{\bar u}$, acting through a finite quotient
-associated with the correspondence. Let $H'$ be a Sylow $r$-subgroup of $H$,
-of index prime to $r$, and let $v:V\to U$ be the corresponding connected
-finite etale map of degree $[H:H']$; then the monodromy of $v^{-1}G$ is the
-$r$-group $H'$, so the finite $r$-group filtration of
-[lemma-weil-pbc-finite-l-group-filtration] applied to the $H'$-module $G_{\bar
-u}$ gives a filtration of $v^{-1}G$ with constant $\mathbf F_r$-quotients. At
-a geometric point, the unit $G\to v_*v^{-1}G$ is the diagonal and the trace is
-the sum over the finite fibre, by [lemma-weil-pbc-finite-stalk-formula], so
-their composite is $\deg(v)\operatorname{id}_G$ with
-$\deg(v)\not\equiv0\pmod r$, and $G$ is a direct summand of $v_*v^{-1}G$.
+Under the finite-etale correspondence of [thm-galois-lc-etale], the finite
+locally constant $\mathbf F_\ell$-sheaf $G$ on the irreducible $U$
+corresponds to a finite etale $U$-scheme, and its monodromy is the action of
+the finite group $Q$ (the image of $\rho$) on the geometric stalk
+$G_{\bar u}$. Let $H$ be a Sylow $\ell$-subgroup of $Q$, of index prime to
+$\ell$, and let $v:V\to U$ be the corresponding connected finite etale map of
+degree $[Q:H]$; then the monodromy of $v^{-1}G$ is the $\ell$-group $H$, so
+the finite $\ell$-group filtration of
+[lemma-weil-pbc-finite-l-group-filtration] applied to the $H$-module
+$G_{\bar u}$ gives a filtration of $v^{-1}G$ with constant
+$\mathbf F_\ell$-quotients. At a geometric point, the unit
+$G\to v_*v^{-1}G$ is the diagonal and the trace is the sum over the finite
+fibre, by [lemma-weil-pbc-finite-stalk-formula], so their composite is
+$\deg(v)\operatorname{id}_G$ with $\deg(v)\not\equiv0\pmod\ell$, and $G$ is a
+direct summand of $v_*v^{-1}G$.

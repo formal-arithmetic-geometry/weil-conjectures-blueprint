@@ -22,9 +22,7 @@ variety; the vanishing principle above therefore applies to it, so a
 regular function on such a product vanishing at all its $k$-points is
 zero. This is what lets a morphism defined on a product, such as a
 commutator map, be tested on rational points in each variable
-separately. These are the affine-geometric facts
-used below with [sk-d-geometry], [sk-d-tangent].
-thm:ag-noetherian;thm:ag-nullstellensatz;thm:ag-chevalley;lem:ag-constructible-open;thm:ag-dimension-drop;thm:ag-regular-domain
+separately.
 
 ## Proof
 
@@ -86,5 +84,3 @@ local ring is a domain (00NP), one of the four foundational
 inputs the full source retains. It is used only to see that the
 irreducible components of a smooth variety are disjoint, and again for the
 reducedness clause of [sk-i-cartier].
-
-Uses: [sk-d-geometry], [sk-d-tangent]

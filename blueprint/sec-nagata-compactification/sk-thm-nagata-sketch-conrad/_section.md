@@ -8,17 +8,21 @@ lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_partialSection"]
 +++
 *Theorem (sketch).*
 
-Let $X,Y$ be qcqs $S$-schemes with $Y\to S$ separated and of finite
-type. Let $U\subseteq V\subseteq X$ be dense quasi-compact opens,
-and suppose $f:U\to Y$ quasi-dominates $V$ over $Y$.
-There is a $V$-admissible blow-up $X'\to X$ and a quasi-domination
-$f':W\to Y$ of $X'$ extending $f$.
+Let $X$ be a quasi-compact and quasi-separated scheme, let
+$U\subseteq V\subseteq X$ be quasi-compact opens with $U$ dense in $X$,
+and let $p\colon Y\to X$ be separated and of finite type with $Y$
+quasi-compact and quasi-separated. Let $f\colon U\to Y$ be a section of
+$p$ over $U$ whose image is closed in $p^{-1}(V)$. There are a
+$V$-admissible blow-up $\pi\colon\widetilde X\to X$, an open
+$W\subseteq\widetilde X$ containing $\pi^{-1}(U)$ and a morphism
+$g\colon W\to Y$ with $p\circ g=\pi|_W$ extending $f$ (that is,
+$g|_{\pi^{-1}(U)}=f\circ\pi|_{\pi^{-1}(U)}$), whose graph is closed in
+$Y\times_X\widetilde X$.
 
 ## Proof
 
-Replace $Y$ by $X\times_SY$ to regard $f$ as a partial section of
-$Y\to X$. The four stages below are the elimination branch of the
-diagram.
+The density of $U$ is not needed. The four stages below are the
+elimination branch of the diagram.
 
 *Affine base, quasi-affine target, $U=V$.*
 Over the affine base a quasi-affine target is a quasi-affine scheme, so
@@ -56,5 +60,3 @@ After a common $V$-admissible refinement, the closed graph over $X'$
 has finite fibres and is quasi-finite. Zariski's Main Theorem makes
 this graph quasi-affine over $X'$, reducing to the preceding case.
 Composition of admissible blow-ups finishes the construction.
-
-Uses: [sk-def-nagata-sketch-quasidomination], [sk-lem-nagata-sketch-blowups], [sk-prop-nagata-sketch-zmt]

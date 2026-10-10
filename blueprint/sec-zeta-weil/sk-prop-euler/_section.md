@@ -35,5 +35,3 @@ because $Y_0$ is of finite type over a finite field, so modulo $T^{m+1}$ the
 product is a finite product of the series
 $(1-T^{\deg y})^{-1}=\sum_{j\ge0}T^{j\deg y}\in1+T\Z[[T]]$; hence every
 coefficient of $Z$ is an integer and $Z\in1+T\Z[[T]]$.
-
-Uses: [sk-def-zeta]

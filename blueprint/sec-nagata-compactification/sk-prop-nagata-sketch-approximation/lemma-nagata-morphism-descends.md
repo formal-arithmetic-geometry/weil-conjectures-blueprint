@@ -5,12 +5,6 @@ title = "Property of the descended morphism, [stacks-project]"
 order = 354
 uses = ["def-nagata-morphism-descent", "lemma-nagata-affine-fp-descends", "lemma-nagata-qc-open-descends"]
 +++
-**Status.** Bypassed by the formalized route: the finite-presentation and
-Noetherian descent is done in one step by
-`AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation_of_isSeparated`
-and `AlgebraicGeometry.Scheme.nonempty_noetherianApproximation`, so
-this stage-by-stage bookkeeping is never carried out.
-
 The base change of the constructed
 $\varphi_{\lambda_\varphi}$ to $S$ is $\varphi$.
 

@@ -23,11 +23,4 @@ $$
 
 with components the structure morphism of
 $\operatorname{Bl}_{\mathcal I\mathcal O_Y}(Y)$ and the lift $\rho$.
-The morphism $\psi_{f,\mathcal I}$ is a closed immersion: this is
-Zariski-local on $Y\times_XX'$, and over an affine open
-$V=\operatorname{Spec}(B)\subseteq Y$ lying over an affine open
-$\operatorname{Spec}(A)\subseteq X$ and a standard chart of $X'$ at
-$a\in I$, it is the $\operatorname{Spec}$ of the canonical ring map
-$B\otimes_AA[I/a]\to B[IB/\varphi(a)]$, which is surjective because a
-fraction $y/\varphi(a)^n$ with $y\in I^nB$ is a $B$-linear combination of
-fractions $\varphi(z)/\varphi(a)^n$ with $z\in I^n$.
+The morphism $\psi_{f,\mathcal I}$ is a closed immersion.

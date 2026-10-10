@@ -8,10 +8,13 @@ lean = ["AlgebraicGeometry.picardFunctorInvertibleDirectImage"]
 +++
 *Definition (sketch).*
 
-Let $k$ be separably closed, $X$ a smooth projective curve of genus
-$g$ with a $k$-rational point $\sigma$, and $G:=\Pic_{X/k,\sigma}$.
+Let $k$ be a field, $X$ a $k$-scheme with a $k$-rational point $\sigma$,
+and $G:=\Pic_{X/k,\sigma}$. For a $k$-scheme $T$, with $f_T:X_T\to T$,
 
 $$
-F(T)=\Bigl\{\cL\in G(T):\ Rf_{T,*}\cL\ \text{is isomorphic to an
-invertible }\cO_T\text{-module placed in degree }0\Bigr\}.
+F(T)=\Bigl\{\cL\in G(T):\ R^0f_{T,*}\cL\ \text{is invertible and }
+R^qf_{T,*}\cL=0\text{ for }q>0\Bigr\},
 $$
+
+i.e. $Rf_{T,*}\cL$ is isomorphic to an invertible $\cO_T$-module placed in
+degree $0$.

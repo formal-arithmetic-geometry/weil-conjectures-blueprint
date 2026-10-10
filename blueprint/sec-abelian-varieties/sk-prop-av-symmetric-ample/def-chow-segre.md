@@ -19,25 +19,17 @@ s\colon\mathbf P^{n}_S\times_S\mathbf P^{m}_S
 \bigl[x_k\,y_l\bigr]_{(k,l)\in n\times m} .
 $$
 
-In the classical indexing this is
-$\mathbf P^{n_1}_S\times_S\mathbf P^{n_2}_S\to\mathbf P^{N}_S$ with
-$N=(n_1+1)(n_2+1)-1$; iterating it $m-1$ times embeds an $m$-fold product
-into $\mathbf P^{N}_S$ with $N=\prod_{i=1}^m(n_i+1)-1$.
-
-## Detailed form
-
-For integers $n_1,\dots,n_m\geq0$, let $N=\prod_{i=1}^m(n_i+1)-1$ and let the
-coordinates of $\mathbf P^N_Y$ be $X_{e}$, indexed by tuples
-$e=(e_1,\dots,e_m)$ with $0\leq e_i\leq n_i$. The *Segre embedding* is the
-morphism of $Y$-schemes
+Iterating it, for finitely many index sets $n_1,\dots,n_m$ one obtains the
+morphism of $S$-schemes
 
 $$
- s:\prod_{i=1}^m\mathbf P^{n_i}_Y\longrightarrow\mathbf P^N_Y,
-$$
-
-given by the multihomogeneous coordinates
-
-$$
+ s:\prod_{i=1}^m\mathbf P^{n_i}_S\longrightarrow
+ \mathbf P^{n_1\times\dots\times n_m}_S,
+ \qquad
  x\longmapsto\bigl[\prod_{i=1}^m x_{i,e_i}\bigr]_{e},
- \qquad x=(x_{i,0}:\cdots:x_{i,n_i})_{i=1}^m.
 $$
+
+where $x=\bigl((x_{i,k})_{k\in n_i}\bigr)_{i=1}^m$ and the target coordinates
+$X_e$ are indexed by the tuples $e=(e_1,\dots,e_m)\in n_1\times\dots\times
+n_m$. In the classical indexing $n_i=\{0,\dots,n_i\}$ the target is
+$\mathbf P^{N}_S$ with $N=\prod_{i=1}^m(n_i+1)-1$.

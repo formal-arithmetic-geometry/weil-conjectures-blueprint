@@ -14,18 +14,6 @@ category of towers. Then the derived product $R\!\prod_nM_n$ of
 [def-weil-pbc-derived-inverse-limit] is represented by
 $\prod_n\operatorname{ev}_n(I_\bullet)$.
 
-(*Source note:* the representing complex is Stacks Project, Derived
-Categories, Lemma 13.31.5 (Tag
-[0BK6](https://stacks.math.columbia.edu/tag/0BK6)): if the $I_t^\bullet$ are
-K-injective complexes and $I^n=\prod_tI_t^n$ exists for all $n$, then
-$I^\bullet$ is K-injective and represents the product of the $I_t^\bullet$ in
-$D(\mathcal A)$; the termwise description of products is Lemma 13.34.2 (Tag
-[07KC](https://stacks.math.columbia.edu/tag/07KC)). Stacks states this for an
-arbitrary index set in one abelian category; the form used here applies it to
-the levelwise K-injective representatives of the evaluations of one tower
-object, the products being taken in the tower category
-$\operatorname{Tow}_A(T)$ and the result being read in $D(T_{\Proet},A)$.)
-
 ## Proof
 
 By [def-weil-pbc-derived-inverse-limit] the derived product $R\!\prod_nM_n$

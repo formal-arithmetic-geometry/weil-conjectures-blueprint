@@ -17,5 +17,5 @@ $$
 \mathcal F_{\bar y},\qquad |P_{\bar y}|
 $$
 
-for the fibre at $\bar y$; An $M$-torsor is as in
+for the fibre at $\bar y$. An $M$-torsor is as in
 [def-weil-pbc-finite-torsors].

@@ -20,5 +20,6 @@ $$
 Regarded as a sheaf on $Z$, it is
 $s^!M:=s^{-1}\mathcal G_ZM$; thus $s_*s^!M=\mathcal G_ZM$.
 Here $s^!$ is a left exact functor, distinct from the ordinary
-restriction $s^{-1}$. A sheaf $I$ is *flasque for this pair*
+restriction $s^{-1}$.
+A sheaf $I$ is *flasque for this pair*
 if $I\to j_*j^*I$ is an epimorphism.

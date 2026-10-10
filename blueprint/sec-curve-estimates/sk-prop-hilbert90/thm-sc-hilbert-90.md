@@ -26,7 +26,6 @@ $\varepsilon^{-1}\mathcal O_X^{\times}\to\mathbf G_m$, and the
 composite sending the class of $\mathcal L$ to the class of the
 $\mathbf G_m$-torsor
 $\underline{\operatorname{Isom}}(\mathcal O_{X_{\Et}},\mathcal L_{\Et})$.
-(*Stacks Project, Tag [03P8](https://stacks.math.columbia.edu/tag/03P8)*.)
 
 ## Proof
 

@@ -29,5 +29,3 @@ $H^1(C,\mathbb G_m)=\Pic(C)$ by [sk-def-pic] and the last term
 $H^2(C,\mathbb G_m)=\Br(C)=0$ by [sk-thm-br], $C$ being smooth
 proper) the displayed quotient is the cokernel of
 $n:\Pic(C)\to\Pic(C)$.
-
-Uses: [sk-def-br], [sk-def-kummer], [sk-def-pic], [sk-prop-kummer-exact], [sk-thm-br]

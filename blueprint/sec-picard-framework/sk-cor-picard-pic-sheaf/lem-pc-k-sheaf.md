@@ -6,8 +6,6 @@ order = 809
 uses = ["def-pc-fppf-site", "def-pc-pic-sigma-functor", "def-pc-picard-functor", "def-pc-subfunctor", "lem-pc-fpqc-descent", "lem-pc-sigma-subfunctor"]
 lean = ["AlgebraicGeometry.isSheaf_picardFunctorNormalized"]
 +++
-(Picard Schemes of Curves, proof of Lemma 44.4.3 (Tag
-[0B9N](https://stacks.math.columbia.edu/tag/0B9N)).)
 Let $f:X\to S$ be a morphism of schemes as in
 Definition [def-pc-picard-functor].
 Assume $f$ has a section $\sigma$ and that

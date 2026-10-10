@@ -4,13 +4,10 @@ kind = "lemma"
 title = "Serre vanishing"
 order = 629
 uses = ["def-pc-projective-space-twist", "def-sc-ample", "def-sc-invertible-module", "lem-pc-closed-immersion-coherent-cohomology", "lem-pc-projective-space-serre-vanishing", "pqf-def-coherent"]
-lean = ["AlgebraicGeometry.Scheme.Modules.exists_subsingleton_H_tensor_twist"]
+lean = ["AlgebraicGeometry.Scheme.Modules.exists_subsingleton_H_tensorObj_tensorPow"]
 +++
-(Cohomology of Schemes, Lemma 30.17.1, Tag
-[0B5U](https://stacks.math.columbia.edu/tag/0B5U), for schemes
-proper over a field; EGA III$_1$, Proposition (2.6.1).)
-Let $k$ be a field, let $X$ be a proper scheme over $k$, let $\mathcal{L}$ be an
-ample invertible $\mathcal{O}_X$-module, and let $\mathcal{F}$ be a
+Let $k$ be a field, let $X$ be a scheme over $k$, let $\mathcal{L}$ be an
+ample invertible $\mathcal{O}_X$-module (in the sense of [def-sc-ample]), and let $\mathcal{F}$ be a
 coherent $\mathcal{O}_X$-module. Then there exists $n_0\geq0$ such that
 
 $$

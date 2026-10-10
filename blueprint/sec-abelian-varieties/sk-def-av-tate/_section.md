@@ -2,13 +2,13 @@
 id = "sk-def-av-tate"
 kind = "section"
 title = "$\\ell$-adic Tate module"
-lean = ["AlgebraicGeometry.IsAbelianScheme.tateModule"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.tateModule"]
 order = 469
 +++
 *Definition (sketch).*
 
-Let $A$ be an abelian variety over $k$ and $\ell\ne\operatorname{char}k$
-a prime. The *$\ell$-adic Tate module* of $A$ is the inverse
+Let $A$ be an abelian variety over a field $k$, with algebraic closure
+$\bar k$, and let $\ell$ be a prime. The *$\ell$-adic Tate module* of $A$ is the inverse
 limit
 
 $$

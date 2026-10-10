@@ -27,16 +27,7 @@ in that order. Every step commutes with field extension, giving the result.
 For separably closed $k\subseteq k'$, apply Lemma
 [lemma-weil-pbc-curve-separably-closed-passage] to the algebraically
 closed result just proved. Its commutative rectangle identifies the
-resulting isomorphism with the specified restriction map. This expands Tags
-`03SC` and `0A5E`.
-
-## Detailed form
-
-Let $k\subset k'$ be separably closed, let $C$ be proper of dimension at most
-one over $k$, and let $F$ be torsion. The same canonical restriction map is an
-isomorphism in every degree.
-
-## Proof
+resulting isomorphism with the specified restriction map.
 
 Pass to compatible algebraic closures: the isomorphism of
 [prop-weil-pbc-algebraically-closed-extension] holds for the two algebraically

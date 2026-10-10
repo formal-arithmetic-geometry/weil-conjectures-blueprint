@@ -43,5 +43,4 @@ $$
 Pushout monicity makes $F\to F'$ injective. The image of $c$ in
 $H^q(T_0,D_0)$ is carried to zero in $H^q(T_0,D)$ because its pullback to
 $V_0$ is zero and $h_*$ is exact. The pushout square therefore carries $c$
-to zero in $H^q(T_0,F'_0)$. This displays both the common dominating cover
-and the null-homotopy square and closes Tag `09ZE`'s effacement step.
+to zero in $H^q(T_0,F'_0)$.

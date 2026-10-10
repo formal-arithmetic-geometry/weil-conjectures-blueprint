@@ -8,12 +8,15 @@ uses = ["def-weil-pbc-scheme-conventions", "pqf-def-affine-morphism", "pqf-def-q
 tags = ["latex:corollary"]
 +++
 Let $f:X\to S$ be a morphism of schemes (no hypothesis on $S$). If
-$f$ is proper and quasi-finite, then $f$ is finite.
-(*Stacks Project, More on Morphisms, a consequence of Zariski's main
-theorem; the locally Noetherian case is Tag
-[02OG](https://stacks.math.columbia.edu/tag/02OG).*)
+$f$ is proper and locally quasi-finite, then $f$ is finite. (As a proper
+morphism is quasi-compact, "locally quasi-finite" may equivalently be
+replaced by "quasi-finite" here.)
 
 ## Proof
+
+A locally quasi-finite morphism that is quasi-compact, in particular a
+proper one, is quasi-finite ([pqf-lem-qf-locqf-qc]); so we may assume
+that $f$ is proper and quasi-finite.
 
 *Step 0: reduction to an affine base.* By
 [def-weil-pbc-scheme-conventions], $f$ is finite if and only if it is

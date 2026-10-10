@@ -6,21 +6,19 @@ lean = ["AlgebraicGeometry.Scheme.Hom.degree"]
 order = 438
 uses = ["def-sc-ample"]
 +++
-Let $X$ be a proper scheme of dimension $g$ over a field $k$
-and $\mathcal M$ an ample invertible
-$\mathcal O_X$-module. The *degree* of $X$ with respect to
-$\mathcal M$ is
+Let $X$ be a scheme over a field $k$ and $\mathcal M$ an
+$\mathcal O_X$-module. Let $g$ be the Krull dimension of the
+underlying topological space of $X$ (read as $g=0$ if $X$ is empty or
+infinite-dimensional). The *degree* of $X$ with respect to $\mathcal M$
+is the $g$-th forward difference at $0$ of the Hilbert function
+$m\mapsto\chi(X,\mathcal M^{\otimes m})$:
 
 $$
-\deg_{\mathcal M}(X):=g!\cdot
-\bigl(\text{leading coefficient of }m\mapsto\chi(X,\mathcal
-M^{\otimes m})\bigr),
+\deg_{\mathcal M}(X):=\sum_{i=0}^{g}(-1)^{g-i}\binom gi\,
+\chi(X,\mathcal M^{\otimes i}).
 $$
 
-the leading coefficient being taken for the function
-$m\mapsto\chi(X,\mathcal M^{\otimes m})$ of $m$. That this
-function is a numerical polynomial in $m$ of total degree at most
-$g$ – the Hilbert polynomial of $\mathcal M$ – so that the
-leading coefficient, and hence the degree, is well defined, is
-[lem-sc-hilbert-polynomial], and it is not part of the
-definition.
+When $X$ is proper and $\mathcal M$ is an ample invertible module, the
+Hilbert function is a numerical polynomial of degree at most $g$
+([lem-sc-hilbert-polynomial]), and $\deg_{\mathcal M}(X)$ is $g!$
+times its coefficient of $m^g$.

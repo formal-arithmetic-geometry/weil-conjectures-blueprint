@@ -8,8 +8,14 @@ lean = ["AlgebraicGeometry.ProEtale.trace_globalOperator_eq_sum_trace_stalkFrobe
 +++
 *Proposition (sketch).*
 
-For every Weil datum on a separated finite-type
-$X_0/\mathbf F_q$ and every $m\ge1$, with
+Let $\Omega$ be an algebraically closed field, $s=\operatorname{Spec}\Omega$, and
+let $X_0$ be a separated scheme of finite type over a finite field $\mathbf F_q$
+with $X=X_0\times_{\mathbf F_q}\Omega$ compactifiable over $s$. For every Weil
+datum $(K,\varphi)$ on $X$ (model Frobenius, $K\in D^b_{ctf}(X,A)$, $\varphi$
+invertible) and every $m\ge1$, assume that $\Phi_m$ is proper, that
+$R\Gamma_c(X,K)$ and every geometric stalk $K_{\bar x}$ are perfect (dualizable),
+and that $\Phi_m$ has finitely many fixed points $\bar x:s\to X$ over $s$; these
+are the points of $X_0(\mathbf F_{q^m})$. Then, with
 compact cohomology and ordinary traces,
 
 $$
@@ -70,5 +76,3 @@ $U_i\setminus\bigcup_{j<i}U_j$. The successive closed complements
 give a finite localization filtration. Repeated
 [sk-i-global-additivity] combines their proven trace formulas;
 their rational points form the same disjoint partition.
-
-Uses: [sk-c-proper-global], [sk-d-lines], [sk-d-six], [sk-d-trace], [sk-d-weil-push], [sk-d-weil], [sk-i-global-additivity], [sk-i-topology], [sk-p-frob], [sk-p-local], [sk-p-trace], [sk-thm-sf-package]

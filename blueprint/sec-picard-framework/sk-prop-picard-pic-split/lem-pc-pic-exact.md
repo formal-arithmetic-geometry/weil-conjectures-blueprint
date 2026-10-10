@@ -5,8 +5,6 @@ title = "Exactness of the Picard sequence"
 order = 814
 uses = ["def-pc-fppf-site", "def-pc-picard-functor", "def-sc-invertible-module", "def-sc-picard-group", "lem-pc-fpqc-descent"]
 +++
-(Picard Schemes of Curves, Lemma 44.4.2, Tag
-[0B9M](https://stacks.math.columbia.edu/tag/0B9M).)
 Let $f:X\to S$ be a morphism of schemes as in
 Definition [def-pc-picard-functor].
 If $\mathcal{O}_T\to f_{T,*}\mathcal{O}_{X_T}$ is an isomorphism for all

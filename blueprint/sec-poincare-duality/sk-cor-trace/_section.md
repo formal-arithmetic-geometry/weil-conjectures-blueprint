@@ -27,8 +27,7 @@ of smooth purity and of the counits with composition
 ([sk-thm-smooth-purity], [sk-thm-purity-transport]). Here
 $[x\subset X]$ is defined at $\Lambda=A_{E,n}$; at $\Oe$ it means the
 compatible system of the finite-level classes, and at $E$, $\Qlb$ its
-image under scalar extension. (Blueprint 13, cor:sf-trace; 15,
-cor:pod-constant-coefficients, thm:pod-trace-isomorphism.)
+image under scalar extension.
 
 ## Proof
 
@@ -42,8 +41,7 @@ and the Ext term vanishes: $H^1(X,\Oe)$ is torsion-free, since
 $H^0(X,\Oe)\to H^0(X,A_{E,1})$ is surjective, $X$ being connected.)
 Since $X$ is proper, $Ra_{X!}\cong Ra_{X*}$ by [sk-def-ops] and hence
 $H^0_c=H^0$; since $X$ is geometrically connected, $H^0(X,\Lambda)\cong \Lambda$ with the geometric Frobenius acting as the identity, which is the
-$H^0$-clause of the finiteness interface
-prop:cohomological-finiteness. Therefore
+$H^0$-clause of cohomological finiteness. Therefore
 $\Lambda^\vee\cong H^{2d}(X,\Lambda)(d)$, i.e. $H^{2d}(X,\Lambda)\cong\Lambda(-d)$. The isomorphism produced this way is
 the composite of the counit $\varepsilon_{a_X}$ of
 $Ra_{X!}\dashv Ra_X^!$ with the orientation
@@ -100,5 +98,3 @@ reductions and with scalar extension ([sk-thm-purity-transport]). Hence
 $\operatorname{tr}^{(-d)}_X(d)[x\subset X]\in\Oe$ reduces to $1$ at
 every level, so it equals $1$, and the $E$- and $\Qlb$-statements
 follow by scalar extension.
-
-Uses: [sk-def-trace-cup], [sk-lem-finite], [sk-thm-sf-identification]

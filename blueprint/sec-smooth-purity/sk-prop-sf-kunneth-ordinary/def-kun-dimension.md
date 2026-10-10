@@ -13,9 +13,3 @@ subsets of $|X|$. For $x\in X$, the *dimension at $x$* is
 $$
 \kundim_xX=\min\{\kundim U:x\in U\subseteq X\text{ open}\}.
 $$
-
-For a scheme $X$ of finite type over a field $K$ the finiteness
-$\kundim X<\infty$ is recorded with the other properties of this notion, and the
-computation of the dimension at a point $x\in X$ in terms of the
-transcendence degree of
-[def-kun-support] is [lem-kun-dimension-formula].

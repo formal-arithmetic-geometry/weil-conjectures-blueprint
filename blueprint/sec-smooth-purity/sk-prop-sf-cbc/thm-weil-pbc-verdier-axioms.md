@@ -22,26 +22,6 @@ Consequently $\mathcal P_T$ is an ordinary triangulated category. Every
 finite-stage inclusion $j_E:\mathcal C_E(T)\to\mathcal P_T$ is exact, and
 the identifications $j_FT_{F/E}\simeq j_E$ are exact natural isomorphisms.
 
-*Source note:* no Stacks Project entry states this verification: the four
-axioms verified here are exactly Stacks Project, Derived Categories,
-Definition 13.3.2 ([Tag 0145](https://stacks.math.columbia.edu/tag/0145),
-fetched and quoted: "the definition of a triangulated category as given in
-Verdier's thesis", an additive category with an additive auto-equivalence
-$[1]$ and a set of distinguished triangles subject to TR1--TR4, TR4 being
-the octahedral axiom); the triangles and their morphisms are Definition
-13.3.1 ([Tag 0144](https://stacks.math.columbia.edu/tag/0144)) and the exact
-functors of the last sentence are Definition 13.3.3 ([Tag
-014V](https://stacks.math.columbia.edu/tag/014V)). The closest verification
-of the axioms in Stacks for a category that is constructed rather than
-assumed is Proposition 13.5.6 ([Tag
-05R6](https://stacks.math.columbia.edu/tag/05R6)), which proves TR1--TR4 for
-a localization $S^{-1}\mathcal D$ whose distinguished triangles are by
-definition the images of distinguished triangles of $\mathcal D$, and Lemma
-13.4.15 ([Tag 014C](https://stacks.math.columbia.edu/tag/014C)) is the
-normal form for TR4. The blueprint adds the verification for the triangles
-of [def-weil-pbc-common-stage-cones] together with the exactness of the
-finite-stage inclusions $j_E$.
-
 ## Proof
 
 TR1: every morphism has a cone triangle by

@@ -21,7 +21,7 @@ $$
 where $|U_0|$ is the set of closed points, $d(x)$ the degree of
 $x$, and the right-hand side is the graded form of the
 Grothendieck–Lefschetz trace formula
-[thm-trf-grothendieck-lefschetz-qbar] of the trace-formula chapter (summed
+[thm-trf-grothendieck-lefschetz-qbar] (summed
 with the signs $(-1)^{i+1}$).
 
 ## Proof

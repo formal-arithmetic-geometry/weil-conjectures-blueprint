@@ -7,8 +7,6 @@ uses = ["def-weil-pbc-scheme-conventions"]
 +++
 An integral morphism of schemes which is locally of finite type is
 finite.
-(*Stacks Project, Morphisms of Schemes, Lemma 29.45.4, Tag
-[01WJ](https://stacks.math.columbia.edu/tag/01WJ).*)
 
 ## Proof
 

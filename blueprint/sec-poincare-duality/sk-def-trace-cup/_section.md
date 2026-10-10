@@ -17,7 +17,3 @@ $$
 \langle x,y\rangle_i=\operatorname{tr}^{(-d)}_X(x\smile y):
 H^i(X,\Lambda)\times H^{2d-i}(X,\Lambda)\to\Lambda(-d).
 $$
-
-(Blueprint 1, def:weil-poincare-trace-cup.)
-
-Uses: [sk-def-ops], [sk-def-sf-orientation]

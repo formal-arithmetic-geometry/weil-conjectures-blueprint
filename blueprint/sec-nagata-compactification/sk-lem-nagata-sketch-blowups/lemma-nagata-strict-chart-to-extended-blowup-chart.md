@@ -5,15 +5,6 @@ title = "Well-definedness of the extended-ideal chart map"
 order = 147
 uses = ["def-nagata-strict-chart-to-extended-blowup-chart"]
 +++
-**Status.** Bypassed by the formalized route: the strict transform is
-supplied by the API of
-`WeilConjectures/Compactification/StrictTransform.lean` —
-`AlgebraicGeometry.strictTransform`, its closed immersion
-`AlgebraicGeometry.Scheme.IdealSheafData.isClosedImmersion_pullbackLift_blowup_comap`,
-and the pullback square
-`AlgebraicGeometry.isPullback_strictTransformOpen` — so the
-strict-transform chart rings and their cocycle are never assembled by hand.
-
 The assignment defining $\sigma_a$ respects addition, multiplication, the
 localization relations in $A[I/a]$, and the two $A$-algebra structures.
 Consequently $\sigma_a$ is a well-defined $B$-algebra homomorphism.

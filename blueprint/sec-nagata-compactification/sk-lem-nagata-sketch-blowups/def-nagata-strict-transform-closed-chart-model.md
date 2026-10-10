@@ -5,15 +5,6 @@ title = "Closed chart model of the global strict transform"
 order = 156
 uses = ["def-nagata-global-blowup", "def-nagata-strict-transform-chart-ring", "lemma-nagata-strict-transform-chart-localization-data"]
 +++
-**Status.** Bypassed by the formalized route: the strict transform is
-supplied by the API of
-`WeilConjectures/Compactification/StrictTransform.lean` —
-`AlgebraicGeometry.strictTransform`, its closed immersion
-`AlgebraicGeometry.Scheme.IdealSheafData.isClosedImmersion_pullbackLift_blowup_comap`,
-and the pullback square
-`AlgebraicGeometry.isPullback_strictTransformOpen` — so the
-strict-transform chart rings and their cocycle are never assembled by hand.
-
 Let $f\colon Y\to X$, let $\mathcal I$ be a finite-type quasi-coherent
 ideal, and put $X'=\operatorname{Bl}_{\mathcal I}(X)$. Choose an affine
 cover $V_i=\operatorname{Spec}(A_i)$ of $X$, finite generating sets for
@@ -27,4 +18,4 @@ blow-up chart. The transition maps are the localizations of
 [lemma-nagata-strict-transform-chart-localization-data]; they preserve
 the quotient ideals and satisfy the double- and triple-overlap identities.
 These maps, together with the affine closed immersions, are the specified
-scheme-glue datum. No affineness of an unchosen fibre product is used.
+scheme-glue datum.

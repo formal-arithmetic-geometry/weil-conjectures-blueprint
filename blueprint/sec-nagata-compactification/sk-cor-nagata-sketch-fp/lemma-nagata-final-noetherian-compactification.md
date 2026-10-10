@@ -5,12 +5,6 @@ title = "Property of the selected Noetherian compactification"
 order = 376
 uses = ["def-nagata-final-noetherian-compactification", "lemma-nagata-final-descended-model", "thm-nagata-noetherian"]
 +++
-**Status.** Bypassed by the formalized route: the final assembly is carried
-out inside `AlgebraicGeometry.NagataCompactification` and
-`AlgebraicGeometry.nagataCompactification_of_locallyOfFinitePresentation`,
-which produce the factorization and its three properties directly, without
-separately named intermediate objects.
-
 The constructed $C_{Y,\lambda_Y}$ is a compactification of
 $Y_{\lambda_Y}\to S_{\lambda_Y}$.
 

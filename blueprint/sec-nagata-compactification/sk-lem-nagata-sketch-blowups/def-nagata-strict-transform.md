@@ -6,15 +6,19 @@ order = 136
 lean = ["AlgebraicGeometry.strictTransform"]
 uses = ["def-nagata-global-blowup", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++
-Let $Z\to X$ be a morphism and let $X'\to X$ be the blow-up of a
-finite-presentation center $C\subseteq X$. Put $U=X\setminus C$; then
-$U\hookrightarrow X$ is quasi-compact. The *strict transform* of $Z$
-is the scheme-theoretic closure of
+Let $f\colon Z\to X$ and $\pi\colon X'\to X$ be morphisms and let
+$U\subseteq X$ be an open subscheme. Let
+$\Omega\subseteq Z\times_XX'$ be the open subscheme lying over $U$,
 
 $$
-(Z\times_XU)\times_U(X'\times_XU)
+\Omega=(Z\times_XU)\times_U(X'\times_XU).
 $$
 
-in $Z\times_XX'$, in the sense of
-[def-nagata-scheme-theoretic-closure]. It is not enough to use only
-the topological closure.
+The *strict transform* of $Z$ (relative to $U$) is the
+scheme-theoretic image of the open immersion
+$\Omega\hookrightarrow Z\times_XX'$, in the sense of
+[def-nagata-scheme-theoretic-image]; it is a closed subscheme of
+$Z\times_XX'$. For the blow-up
+$X'=\operatorname{Bl}_{\mathcal I}(X)\to X$ of a quasi-coherent ideal
+$\mathcal I$ one takes $U=X\setminus V(\mathcal I)$, and speaks of the
+strict transform of $Z$ along the blow-up.

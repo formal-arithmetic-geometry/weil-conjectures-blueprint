@@ -42,5 +42,3 @@ sides agree in degree $r$ once $m\gg r$. The residue
 test lem:exc-residue-tor-test converts the concentration of
 $Rf_*(K\otimes^L_A\kappa_X)$ in $[a,b+2d]$ into finite Tor
 amplitude of $Rf_*K$ in $[a,b+2d]$.
-
-Uses: `\Cref{lem-sf-flat-model}`, `\Cref{sk-prop-sf-finiteness}`, `lem-exc-residue-tor-test`, `thm-sc-finite-type-torsion-cd`, `lem-sf-projection-finite-constant`

@@ -5,14 +5,18 @@ title = "Normalization and smooth constant case"
 order = 1181
 uses = ["lemma-weil-pbc-curve-dense-open-reduction", "lemma-weil-pbc-normalization-exact-sequence", "lemma-weil-pbc-smooth-curve-artin-schreier", "lemma-weil-pbc-smooth-curve-kummer-localization"]
 +++
-For a reduced curve, extension-invariance for $j_!\underline{\mathbf F_\ell}$
-reduces through the finite normalization to the corresponding calculation on
-a smooth curve, both for proper and affine opens and also when
-$\ell=\operatorname{char}k$.
+Let $X$ be a reduced separated curve of finite type over an algebraically
+closed field $k$, let $j:U\hookrightarrow X$ be an open immersion, and let
+$\ell$ be a prime (possibly $\ell=\operatorname{char}k$). Then all applicable
+assertions among the eight curve assertions $\mathcal C_1,\dots,\mathcal C_8$
+(vanishing, finiteness, invariance under algebraically closed extension of
+$k$, and surjectivity of $H^2$ onto opens)
+hold for the sheaf $j_!\underline{\mathbf F_\ell}$ on $X$.
 
 ## Proof
 
-The normalization $X^\nu$ is a finite disjoint union of smooth curves and
+Let $\nu:X^\nu\to X$ be the finite normalization and $j^\nu:U^\nu\hookrightarrow X^\nu$
+the pullback of $j$. The normalization $X^\nu$ is a finite disjoint union of smooth curves and
 points. On a component disjoint from $U^\nu$ the extension-by-zero sheaf is
 zero and every assertion is immediate; on every other component $U^\nu$ is
 dense. The dense-open localization lemma on $X^\nu$ therefore reduces
@@ -29,5 +33,4 @@ then transfers them to $j_!\underline{\mathbf F_\ell}$, including the
 low-degree comparison maps and assertion (8). Properness is preserved by
 finite normalization; affineness is preserved because a finite morphism
 over an affine is affine. This completes the normalization, proper/affine
-localization, prime-to-characteristic, and characteristic-$\ell$ branches
-without an unnamed smooth-curve calculation.
+localization, prime-to-characteristic, and characteristic-$\ell$ branches.

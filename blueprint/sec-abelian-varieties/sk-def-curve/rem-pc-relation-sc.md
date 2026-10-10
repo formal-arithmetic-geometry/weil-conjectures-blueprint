@@ -5,7 +5,7 @@ title = "Relation to the curves of file 06"
 order = 420
 uses = ["def-sc-curves"]
 +++
-File 06 uses a slightly coarser notion: for a field $k$, a *curve
+The curve-calculation chapter uses a slightly coarser notion: for a field $k$, a *curve
 over $k$* there is a separated scheme of finite type over $k$
 of dimension at most $1$ ([def-sc-curves]). A
 smooth projective curve in

@@ -8,7 +8,8 @@ lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_le_of_ofFiniteType_le_iS
 Let $X$ be quasi-compact, let $\mathcal A\subseteq\mathcal O_X$ be a finite
 type quasi-coherent ideal, and let $(\mathcal B_\alpha)_\alpha$ be a nonempty
 family of quasi-coherent ideals on $X$ which is directed under inclusion. If
-$\mathcal A\subseteq\bigcup_\alpha\mathcal B_\alpha$, then
+$\mathcal A$ is contained in the supremum $\sum_\alpha\mathcal B_\alpha$ of
+the family, then
 $\mathcal A\subseteq\mathcal B_{\alpha_0}$ for some single index $\alpha_0$.
 
 ## Proof

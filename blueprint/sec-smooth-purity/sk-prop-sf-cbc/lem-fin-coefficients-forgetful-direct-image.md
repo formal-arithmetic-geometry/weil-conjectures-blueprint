@@ -12,7 +12,6 @@ the derived direct image of the
 underlying $\mathbf F_\ell$-sheaf, together with its induced
 $A$-action. In particular a sheaf annihilated by a prime $\ell$ can
 be computed using $\mathbf F_\ell$-coefficients.
-The notation refers to ordinary derived categories.
 
 ## Proof
 

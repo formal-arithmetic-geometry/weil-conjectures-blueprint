@@ -8,9 +8,13 @@ lean = ["AlgebraicGeometry.WeilGroup.HasDetWeight"]
 +++
 *Definition (sketch).*
 
+A Weil sheaf $V$ given by a representation of $W(C_0)$ on a
+$\Qlb$-vector space of finite dimension $r$ has determinant weight $\gamma\in\mathbf R$
+if $\det V$ is punctually $\iota$-pure of weight $r\gamma$, i.e.
+$\wt_{\iota,q_x}(\det F_x\mid V)=r\gamma$ for every closed point $x$.
 For a nonzero irreducible Weil sheaf $V$,
 rank-one purity assigns a unique
-pure weight to $\det V$. Define
+pure weight to $\det V$, so $V$ has exactly one determinant weight
 
 $$
 \dw_\iota(V)=\frac{\wt_\iota(\det V)}{\operatorname{rank}V}.
@@ -28,5 +32,3 @@ $$
 N_\gamma=\sum_{\dw_\iota(V_a)>\gamma}r_a,\qquad
 B_\gamma=\sum_{\dw_\iota(V_a)>\gamma}r_a\dw_\iota(V_a).
 $$
-
-Uses: [sk-d-real-operations], [sk-d-real-weights], [sk-p-real-rankone]

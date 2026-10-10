@@ -11,7 +11,7 @@ lean = ["AlgebraicGeometry.WeilGroup.hasWeightsAtMost_of_isReal"]
 Let $U_0$ be an affine smooth geometrically connected
 curve over $\Fq$, and let $\mathcal F\ne0$ be a
 $\iota$-real lisse Weil sheaf.
-If $d$ is the largest determinant weight of
+If $d\in\mathbf R$ bounds from above the determinant weights of
 its irreducible constituents, all its local Frobenius eigenvalues
 have $\iota$-weight at most $d$.
 
@@ -64,5 +64,3 @@ $$
 $$
 
 Letting $m\to\infty$ proves the desired bound.
-
-Uses: [sk-d-real-cohom], [sk-d-real-detweights], [sk-d-real-operations], [sk-d-real-series], [sk-d-real-setup], [sk-d-real-weights], [sk-d-real-weil], [sk-p-linear-spectra], [sk-p-linear-triangular], [sk-p-real-rankone], [sk-p-tensor], [sk-thm-derived-duality], [sk-thm-trace-transport]

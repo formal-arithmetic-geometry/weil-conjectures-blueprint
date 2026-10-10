@@ -30,15 +30,6 @@ $\Dbc(T,E)$ for which the localization functor is t-exact; the truncation
 functors are the levelwise canonical truncations on an integral
 representative, and the heart is the essential image of the integral heart.
 
-*Source note:* no Stacks Project entry states this form: Stacks has no
-t-structure or heart, and its truncation entries (Homological Algebra,
-Section 12.15, [Tag 0118](https://stacks.math.columbia.edu/tag/0118); Remark
-13.12.4, [Tag 08J5](https://stacks.math.columbia.edu/tag/08J5)) concern the
-complexes of one fixed abelian category and are not stable under changing
-the coefficient ring; the blueprint adds the bounded t-structure on the
-rational category $\Dbc(T,E)$, its $t$-exactness for the localization
-functor and the identification of its heart with the integral heart.
-
 ## Proof
 
 The shift conditions hold first for the integral representatives in
@@ -70,8 +61,3 @@ the bounded category $\Dbc(T,\mathcal O_E)$. The t-exactness of the
 localization functor is the identity on objects together with the displayed
 definitions of the two subcategories, and the heart is the essential image
 in $\Dbc(T,E)$ of the integral heart.
-
-The source records that audit item BC-03 is resolved for this proposition:
-its truncation functors are those of [thm-weil-pbc-integral-truncations],
-whose proof is complete once the Tor-compatibility condition is carried as
-an explicit hypothesis.

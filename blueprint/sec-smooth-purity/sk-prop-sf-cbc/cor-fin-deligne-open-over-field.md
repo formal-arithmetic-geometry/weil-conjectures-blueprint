@@ -10,7 +10,6 @@ Let $k$ be a field of characteristic different from $\ell$,
 let $j:X\hookrightarrow Y$ be an open immersion of finite-type
 $k$-schemes, and let $F$ be a constructible
 $\mathbf F_\ell$-sheaf. Then $Rj_*F\in D^b_c(Y,\mathbf F_\ell)$.
-The notation refers to ordinary derived categories.
 
 ## Proof
 

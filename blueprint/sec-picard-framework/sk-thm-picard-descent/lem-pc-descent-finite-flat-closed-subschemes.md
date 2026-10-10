@@ -6,9 +6,7 @@ order = 764
 uses = ["def-pc-finite-locally-free", "lem-pc-fpqc-descent"]
 lean = ["AlgebraicGeometry.isSheaf_fpqc_finiteLocallyFreeSubscheme"]
 +++
-(Descent, Lemma 35.37.2, Tag
-[03I0](https://stacks.math.columbia.edu/tag/03I0), together with the
-fpqc-local nature of finite locally free morphisms.) Let $X\to S$ be a
+Let $X\to S$ be a
 morphism of schemes, $T$ an $S$-scheme, $\{g_i:T_i\to T\}_{i\in I}$ an
 fpqc covering of $S$-schemes, and $d\geq0$; write
 $X_T:=X\times_ST$, $X_{T_i}:=X\times_ST_i$ and $T_{ii'}:=T_i\times_TT_{i'}$.

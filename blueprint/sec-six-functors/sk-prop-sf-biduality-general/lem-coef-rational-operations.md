@@ -7,7 +7,7 @@ uses = ["cor-coef-integral-internal-hom", "def-weil-derived-complete", "def-weil
 +++
 In the rationalized constructible categories, the internal Hom
 and exceptional inverse image agree with the operations defined
-by coefficient passage in the manuscript. The integral tensor
+by coefficient passage. The integral tensor
 product used for this passage is the completed derived tensor
 product. In particular
 

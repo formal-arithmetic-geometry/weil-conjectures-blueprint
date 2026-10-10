@@ -14,7 +14,6 @@ $F$ on $X$, one may require its pullback to $V$ to be
 locally constant. Every component of the complement in the
 generic fiber then has dimension strictly smaller than the
 dimension of the component of $X_{S'}$ that contains it.
-The notation refers to scheme conventions.
 
 ## Proof
 

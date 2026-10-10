@@ -17,10 +17,7 @@ $$
 \tau_{\le n-1}K\to\tau_{\le n}K\to\mathcal H^n(K)[-n]\to
 $$
 
-is the truncation couple of [def-sp-truncation-couple] in
-the spectral-sequence chapter; these truncation triangles are the ones used for the
-hypercohomology
-filtrations of the spectral-sequence chapter.
+is the truncation couple of [def-sp-truncation-couple].
 
 In a triangulated category with countable direct sums, the
 *homotopy colimit* of a sequence $E_0\to E_1\to\cdots$ is
@@ -36,6 +33,4 @@ The colimit of etale sheaves is the sheafification of the objectwise
 colimit of the underlying presheaves. Geometric stalks are computed
 by filtered colimits of sections over
 pointed etale
-neighbourhoods; their commutation with colimits of sheaves, hence
-with colimits of complexes of sheaves, is
-[lem-kun-stalks-commute-colimits].
+neighbourhoods.

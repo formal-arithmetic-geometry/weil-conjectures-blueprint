@@ -40,13 +40,6 @@ the functors are inverse images along the maps of a cartesian square, this
 says that the spectral sequence is compatible with inverse image along a base
 change.
 
-**Status.** The vertical maps were formerly called "natural transformations
-$\alpha:A\to A'$", a type the proof cannot use; they are now specified as
-additive exact functors, and their exactness is exactly what transports
-resolutions. The proof is written out through the double complexes of
-[thm-sp-grothendieck] and the couple morphisms of
-[lem-sp-couple-morphism].
-
 ## Proof
 
 *Step 1: the map of double complexes.* By the proof of

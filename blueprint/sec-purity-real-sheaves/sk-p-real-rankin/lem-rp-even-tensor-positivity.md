@@ -13,10 +13,10 @@ $k_0$-scheme. Then for every closed point $x$ and every
 $k\ge1$, with $\mathcal G_0^{\otimes k}$ the $k$-fold tensor power of
 [def-real-weil-representation-operations]:
 
-1. **(i)** the local characteristic polynomial
+**(i)** the local characteristic polynomial
 $\iota\det(1-tF_x,\mathcal G^{\otimes k}_{0,\bar x})$ has real
 coefficients;
-1. **(ii)** if $k$ is even, the power series
+**(ii)** if $k$ is even, the power series
 $$
 \iota\det(1-tF_x,\mathcal G^{\otimes k}_{0,\bar x})^{-1}
 =\sum_{n\ge0}a_nt^n

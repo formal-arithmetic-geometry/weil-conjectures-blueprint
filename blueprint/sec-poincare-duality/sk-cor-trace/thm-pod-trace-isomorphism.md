@@ -11,7 +11,7 @@ $$
 \operatorname {tr}_X:\   H_c^{2d}\bigl(X,\Lambda (d)\bigr)\xrightarrow {\  \sim \  }\Lambda
 $$
 
-is an isomorphism, and so is its untwisted form (the twist elimination of Definition 1.49)
+is an isomorphism, and so is its untwisted form (the twist elimination)
 
 $$
 \operatorname {tr}^{(-d)}_X:\   H_c^{2d}(X,\Lambda )\xrightarrow {\  \sim \  }\Lambda (-d).

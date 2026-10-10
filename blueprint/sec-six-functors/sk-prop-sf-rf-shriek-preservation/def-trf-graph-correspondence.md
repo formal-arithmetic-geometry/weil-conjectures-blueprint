@@ -20,5 +20,3 @@ a cohomological correspondence whose
 fixed scheme, in the sense of [def-trf-fixed-scheme], is
 $\operatorname{Fix}(c)=\operatorname{Fix}(h)$, the scheme-theoretic
 equalizer of $h$ and $\operatorname{id}_X$.
-
-*Recorded in advance* from chapter *The trace formula* of the source.

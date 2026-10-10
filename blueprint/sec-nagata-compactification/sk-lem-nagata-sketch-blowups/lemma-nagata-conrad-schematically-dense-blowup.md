@@ -7,19 +7,36 @@ lean = ["AlgebraicGeometry.IsAdmissible.exists_comp_isSchemeTheoreticallyDominan
 uses = ["def-nagata-admissible-blowup", "def-nagata-constructible-closed-support", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-qc-open-complement-ideal", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-constructible-closed-support", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
 Let $X$ be qcqs and let $U\subseteq X$ be a quasi-compact open. There is a
-$U$-admissible blow-up $X_1\to X$ in which $U$ is scheme-theoretically
-dense. If $U$ is dense in $X$ and $\widetilde X\to X$ is any $U$-admissible
-blow-up, the same applies to $\widetilde X$, and the composite
-$X_1\to\widetilde X\to X$ is again a $U$-admissible blow-up of $X$.
+$U$-admissible blow-up $X_1\to X$ in which the inverse image of $U$ is
+scheme-theoretically dense. More generally, for every $U$-admissible
+blow-up $\widetilde X\to X$ there are a $U$-admissible blow-up $X_1\to X$
+in which the inverse image of $U$ is scheme-theoretically dense and a
+morphism $X_1\to\widetilde X$ over $X$.
 
 ## Proof
 
-By [lemma-nagata-qc-open-complement-ideal-exists] there is a finite
-type quasi-coherent ideal $\mathcal I_0\subseteq\mathcal O_X$ with
-$V(\mathcal I_0)=X\setminus U$. Its blow-up is $U$-admissible, and $U$ is
-scheme-theoretically dense in it by the second assertion of
-[lemma-nagata-conrad-dense-in-admissible-blowup]. Applying this to
-$\widetilde X$ in place of $X$ — legitimate because the preserved open of
-a $U$-admissible blow-up is again quasi-compact — and composing,
-[lemma-nagata-admissible-blowup-comp] identifies the composite with a
-single $U$-admissible blow-up of $X$.
+*First assertion.* By [lemma-nagata-qc-open-complement-ideal-exists]
+there is a finite type quasi-coherent ideal
+$\mathcal I_0\subseteq\mathcal O_X$ with $V(\mathcal I_0)=X\setminus U$.
+Its blow-up $X_1\to X$ is $U$-admissible, and the inverse image of
+$U=X\setminus V(\mathcal I_0)$ is scheme-theoretically dense in $X_1$ by
+the last assertion of [lemma-nagata-conrad-dense-in-admissible-blowup].
+
+*Second assertion.* Let $\pi\colon\widetilde X=\operatorname{Bl}_{\mathcal I}(X)\to X$
+be $U$-admissible. Since $\mathcal I$ is of finite type, $\pi$ is proper
+([lemma-nagata-blowup-proper]); hence $\widetilde X$ is again
+quasi-compact and quasi-separated, and $\widetilde U=\pi^{-1}(U)$ is a
+quasi-compact open of $\widetilde X$. Apply the first assertion to
+$\widetilde U\subseteq\widetilde X$: there is a finite type ideal
+$\mathcal I_2$ on $\widetilde X$ with
+$V(\mathcal I_2)=\widetilde X\setminus\widetilde U$ whose blow-up
+$q\colon X_2=\operatorname{Bl}_{\mathcal I_2}(\widetilde X)\to\widetilde X$ is
+$\widetilde U$-admissible and in which $q^{-1}(\widetilde U)$ is
+scheme-theoretically dense. By [lemma-nagata-admissible-blowup-comp]
+there are a finite type ideal $\mathcal K$ on $X$ with
+$V(\mathcal K)\cap U=\varnothing$ and an isomorphism
+$\theta\colon X_1:=\operatorname{Bl}_{\mathcal K}(X)\xrightarrow{\sim}X_2$
+over $X$. Then $X_1\to X$ is $U$-admissible, $q\circ\theta\colon X_1\to\widetilde X$
+is a morphism over $X$, and the inverse image of $U$ in $X_1$ is
+$\theta^{-1}(q^{-1}(\widetilde U))$, which is scheme-theoretically dense
+because $\theta$ is an isomorphism.

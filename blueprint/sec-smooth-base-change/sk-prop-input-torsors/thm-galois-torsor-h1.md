@@ -12,9 +12,7 @@ $$
 \operatorname{Tor}^1(Y,M)\xrightarrow{\ \sim\ }H^1(Y_{\Et},\underline M),
 $$
 
-natural in $(Y,M)$. For a curve the statement is proved independently in
-the smooth-curve chapter by $\operatorname{Ext}^1$ and the Baer-sum
-description of torsors.
+natural in $(Y,M)$.
 
 ## Proof
 

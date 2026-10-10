@@ -23,5 +23,3 @@ shorter dependence
 $\sum_{i\ge2}\bigl((\lambda_i/\lambda_1)-(\lambda_i/\lambda_1)^p\bigr)v_i=0$;
 minimality forces $\lambda_i/\lambda_1\in\F_p$, contradicting
 $\F_p$-independence. Hence $r\le\dim_kV$.
-
-Uses: [sk-def-av]

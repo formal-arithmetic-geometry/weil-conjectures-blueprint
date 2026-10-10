@@ -20,5 +20,3 @@ T_c(u):R\Gamma_c(X,K)&\longrightarrow R\Gamma_c(X,Rc_{2*}c_2^*K)
 \simeq R\Gamma_c(X,Rc_{1!}c_1^!K)\longrightarrow R\Gamma_c(X,K).
 \end{aligned}
 $$
-
-Uses: [sk-d-corr], [sk-d-six]

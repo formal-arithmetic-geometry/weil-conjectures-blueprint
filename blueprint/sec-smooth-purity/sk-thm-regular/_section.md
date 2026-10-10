@@ -170,5 +170,3 @@ associativity of supported cup products (no signs, all degrees even);
 gluing gives the asserted identity, and by (c) the exterior product of
 $\operatorname{cl}_{i_1}$ and $\operatorname{cl}_{i_2}$ is
 $\operatorname{cl}_{i_1\times i_2}$.
-
-Uses: [sk-def-purity-conv], [sk-lem-coprojection], [sk-lem-regular-smooth], [sk-prop-a1], [sk-prop-a1-inv], [sk-prop-an], [sk-thm-dnc], [sk-thm-smooth-purity]

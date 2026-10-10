@@ -5,8 +5,7 @@ title = "Hilbert schemes of curves are smooth"
 order = 788
 uses = ["def-pc-morphism-conventions", "lem-pc-hilb-addition"]
 +++
-(Picard Schemes of Curves, Lemma 44.3.5, Tag
-[0B9H](https://stacks.math.columbia.edu/tag/0B9H).) Let $X\to S$ be
+Let $X\to S$ be
 a separated smooth morphism of relative dimension $1$ such that
 all the functors $\operatorname{Hilb}^e_{X/S}$ are representable. Then
 $\underline{\operatorname{Hilb}}^d_{X/S}$ is smooth over $S$ of relative dimension $d$

@@ -27,5 +27,6 @@ $$
 
 For $v_n$ use
 $Lg^*((Rf_*K)\otimes P_n)\simeq(Lg^*Rf_*K)\otimes P_n$.
-The transported S8 map is $v'_n$, because its construction was identified
-there with this unit–counit exchange map.
+The finite-level base-change map transported to the pro-étale site is
+$v'_n$, because its construction is identified with this unit–counit
+exchange map.

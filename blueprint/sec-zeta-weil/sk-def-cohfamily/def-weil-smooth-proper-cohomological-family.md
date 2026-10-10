@@ -20,10 +20,7 @@ $$
  F_{i,\ell}=F_\ell\vert_{V_{i,\ell}}.
 $$
 
-The finiteness of the spaces $V_{i,\ell}$, the invertibility of the operators
-$F_{i,\ell}$, and the vanishing of $H^i(X,\Ql)$ outside $0\leq i\leq2d$ are
-the cohomological-finiteness proposition, and are not part of the definition
-of the family. Define
+Define
 
 $$
  P_{i,\ell}(T)=
@@ -32,3 +29,9 @@ $$
 
 It has constant coefficient $1$, degree $\dim_{\Ql}V_{i,\ell}$, and leading
 coefficient $(-1)^{\dim V_{i,\ell}}\det(F_{i,\ell})$.
+
+The finiteness of the spaces $V_{i,\ell}$, the invertibility of the operators
+$F_{i,\ell}$, and the vanishing of $H^i(X,\Ql)$ outside $0\leq i\leq2d$ are
+the content of the cohomological-finiteness proposition
+[prop-cohomological-finiteness]; they are not part of the definition of the
+family.

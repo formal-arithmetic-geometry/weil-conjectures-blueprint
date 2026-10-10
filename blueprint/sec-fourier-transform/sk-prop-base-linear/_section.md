@@ -31,5 +31,3 @@ ${p'}^*N$ — legitimate because $p_2$ is separated of finite type and
 ${p'}^*N$ has finite Tor amplitude — gives
 $p_{2,!}\bigl(p_1^*K\otimes^L\mathcal K_\psi\bigr)\otimes^L{p'}^*N$, and the
 shift $[r]$ commutes with the tensor product by a constant.
-
-Uses: [sk-def-ft]

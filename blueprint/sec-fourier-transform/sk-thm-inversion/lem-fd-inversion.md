@@ -21,18 +21,7 @@ $$
 \operatorname{FT}_\psi\operatorname{FT}_\psi(K)\cong{\iota'}^*K(-r),
 $$
 
-where $(-r)$ is the $r$-fold Tate twist of [def-wf-tate-twist]
-(exponent $r$: the relative dimension of the line, since the
-compactly supported cohomology of the affine space
-$\mathbf A^r_k$ carries the twist
-$\overline{\mathbf Q}_\ell(-r)$ – the Poincare dual of the constant
-sheaf
-– in the top-degree contribution of the fibre integral; for $r=1$
-this is the single twist $(-1)$).
-(*Source: Fourier–Deligne inversion with geometric Frobenius and
-the normalization $[r]$ of [def-fd-transform]; the same-kernel
-calculation as the same-character square; Laumon, *Transformation
-de Fourier*, (2.1.3), (2.5.6).*)
+where $(-r)$ is the $r$-fold Tate twist of [def-wf-tate-twist].
 
 ## Proof
 

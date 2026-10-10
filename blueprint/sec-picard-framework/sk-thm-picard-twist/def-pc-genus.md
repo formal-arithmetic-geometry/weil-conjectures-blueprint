@@ -13,6 +13,3 @@ irreducible. The *genus* of $X$ is
 $$
 g(X):=\dim_kH^1(X,\mathcal{O}_X)\in\Z_{\geq0}
 $$
-
-(Stacks Project, Picard Schemes of Curves, Definition 44.6.3, Tag
-[0B9W](https://stacks.math.columbia.edu/tag/0B9W)).

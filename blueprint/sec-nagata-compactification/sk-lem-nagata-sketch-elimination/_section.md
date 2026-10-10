@@ -25,5 +25,3 @@ has closed graph $\Gamma_{f'}\simeq W$ containing $U$ schematically
 densely, so this closure is $\Gamma_{f'}$. Hence $Z'\simeq W$ is open
 in $X'$. This is the Deligne–Conrad route in the diagram; the
 flattening route also recorded in the detailed chapter is not needed here.
-
-Uses: [sk-lem-nagata-sketch-blowups], [sk-thm-nagata-sketch-conrad]

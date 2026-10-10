@@ -8,7 +8,10 @@ lean = ["AlgebraicGeometry.picardFunctorDegree", "AlgebraicGeometry.exists_decom
 +++
 *Proposition (sketch).*
 
-The function $t\mapsto\deg\cL_t$ is locally constant on
+Let $k$ be separably closed, $C$ a $k$-scheme which is proper, smooth of
+relative dimension $1$ and geometrically integral over $k$, $P\in C(k)$,
+and $\underline{\Pic}_{C/k}$ a $k$-scheme representing $\Pic_{C/k}$, with
+universal class $\cL$. The function $t\mapsto\deg\cL_t$ is locally constant on
 $\underline{\Pic}_{C/k}$. Hence
 
 $$
@@ -44,5 +47,3 @@ $\cO_C(dP)$ is a $k$-point of $\underline{\Pic}^d_{C/k}$, translation by
 a $k$-point is an automorphism of the group scheme
 $\underline{\Pic}_{C/k}$ with inverse the translation by
 $\cO_C(-dP)$, and it adds $d$ to the degree.
-
-Uses: [sk-prop-picard-pic-split], [sk-thm-picard-main], [sk-thm-picard-rr], [sk-thm-picard-semicon]

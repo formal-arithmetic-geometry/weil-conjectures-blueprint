@@ -15,9 +15,9 @@ $$
 S=\varprojlim_{\lambda\in I_S}S_\lambda .
 $$
 
-We write $\mathsf N(S)=(I_S,(S_\lambda)_\lambda, (t_{\mu\lambda})_{\lambda\leq\mu})$ for such a system. Each stage
-$S_\lambda$ is then a Noetherian scheme, by the Hilbert basis theorem. The
-construction of the following subsection produces such a system for every
-quasi-compact quasi-separated $S$, by gluing the affine case
-([lemma-nagata-noetherian-inverse-system-affine]) over a finite affine
-cover.
+We write $\mathsf N(S)=(I_S,(S_\lambda)_\lambda, (t_{\mu\lambda})_{\lambda\leq\mu})$ for such a system.
+
+Each stage
+$S_\lambda$ is then a Noetherian scheme, by the Hilbert basis theorem. Such
+a system exists for every quasi-compact quasi-separated $S$, by gluing the
+affine case over a finite affine cover.

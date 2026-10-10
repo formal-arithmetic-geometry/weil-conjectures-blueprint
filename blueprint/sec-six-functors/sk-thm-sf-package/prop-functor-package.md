@@ -129,4 +129,3 @@ The integral and field anti-equivalences are
 The exceptional adjunction and its coefficient comparisons are
 [lem-coef-finite-exceptional], [prop-coef-integral-exceptional-adjoint], [lem-coef-rational-operations].
 Finally apply [fix-prop-coherence].
-Each ingredient has its own proof; this proposition is a terminal summary.

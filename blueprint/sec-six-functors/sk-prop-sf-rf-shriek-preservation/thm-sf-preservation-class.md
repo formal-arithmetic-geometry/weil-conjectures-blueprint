@@ -32,13 +32,7 @@ $$
 with $\nu_X,\nu_Y$ the comparison morphisms of
 [def-weil-pbc-site-comparison-morphism], be the right adjoint of
 $Rf_{!,n}$ that [thm-sf-ambient-adjoint-class] constructs on the
-blueprint's coefficient class [def-sf-fullcd-used-class]; that the
-bounded constructible and finite-Tor objects of
-[def-weil-finite-torsion-constructibility] and
-[def-weil-finite-tor-amplitude] are exactly the complexes of étale
-origin is [lem-sf-proetale-constructible-origin], and that both halves
-of the ambient datum are theorems on them is
-[cor-sf-ambient-adjoint-discharge]. Read the
+blueprint's coefficient class [def-sf-fullcd-used-class]. Read the
 exceptional inverse image
 $Rf^!$ as the restriction of $Rf_n^{\times}$ to $D^b_c(Y,A)$ and to its
 finite-Tor objects, and use the
@@ -61,20 +55,7 @@ constants;
 1. consequently $f$ satisfies clauses (2) and (3) of
 [def-weil-exceptional-adjoint-admissibility] at every finite coefficient
 stage, with the signed constants $c_f^-=-2D$ and $c_f^+=2\dim Y+1$ of
-that definition, *without* assuming clause (1) of that definition and
-*without* assuming the ambient exceptional right adjoint datum of
-[def-weil-ambient-exceptional-adjoint]: on the two categories
-$D^b_c$ and $D^b_{ctf}$ that datum is the theorem
-[cor-sf-ambient-adjoint-discharge]. In particular clause (v) of
-the finite-Tor preservation summary holds at the stage $\Lambda=A$ for
-*every* separated finite-type morphism $f$ with separated finite-type
-target, the ambient datum
-displayed there being redundant on that category.
-
-This theorem concerns the finite coefficient stage and objects of
-étale origin. The integral and field stages are established separately
-in the subsequent coefficient-comparison sections; they are not premises
-of this finite preservation argument.
+that definition, *without* assuming clause (1) of that definition.
 
 ## Proof
 

@@ -8,8 +8,11 @@ lean = ["AlgebraicGeometry.exists_isPunctuallyPureOfWeight_of_isFourierPartner"]
 +++
 *Proposition (sketch).*
 
-For nonexceptional $M$ pure of weight $w$, the irreducible sheaf $M'$
-in [sk-p-dl-a1-middle] is pure of some real weight $v$.
+Let $\psi$ be nontrivial. For an irreducible lisse $M$ (nonzero, with no
+lisse subsheaves other than $0$ and $M$) which is
+nonexceptional and punctually $\iota$-pure of weight $w$, the sheaf $M'$
+of any Fourier partner $(j'_*M')[1]\simeq\DLAFT_\psi((j_*M)[1])$, as in
+[sk-p-dl-a1-middle], is punctually $\iota$-pure of some real weight $v$.
 
 ## Proof
 
@@ -34,10 +37,11 @@ $$
 This is real for every finite extension. At a fixed closed point, all
 Frobenius power traces are therefore real; Newton identities imply
 that its characteristic polynomial is real. Hence $H$ is $\iota$-real.
-The correction sequence makes $M'$ on this open an irreducible
-constituent of $H$, so real-sheaf purity gives a weight $v$.
+The transform $\DLAFT_\psi((j_*M)[1])$ is also the middle extension of
+an irreducible lisse sheaf, and two lisse sheaves with isomorphic
+shifted middle extensions agree on a common dense open; so, after
+shrinking the open, $M'$ is irreducible there. The correction sequence
+makes $M'$ on this open an irreducible constituent of $H$, so real-sheaf purity gives a weight $v$.
 Semicontinuity applied to $M'$ and its lisse dual extends purity to
 its full lisse domain. Forming the envelope after zero extension is
 what avoids assuming reality of $j_*M$.
-
-Uses: [sk-p-dl-a1-correction], [sk-p-real-purity], [sk-p-real-semi], [sk-thm-fourier-trace-formula]

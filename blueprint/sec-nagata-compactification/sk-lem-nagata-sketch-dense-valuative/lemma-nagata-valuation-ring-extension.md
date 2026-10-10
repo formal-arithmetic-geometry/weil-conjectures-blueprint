@@ -8,10 +8,8 @@ uses = ["lemma-nagata-local-domain-valuation-dominates", "lemma-nagata-valuation
 +++
 Let $A$ be a valuation ring with fraction field $K$, and let
 $K\hookrightarrow L$ be a field extension. There exists a valuation ring
-$B\subseteq L$ with fraction field $L$ which dominates $A$. In Lean the
-conclusion is recorded in the combined form $K\cap B=A$ of
-[lemma-nagata-valuation-intersection], from which the domination is
-recovered.
+$B\subseteq L$ with fraction field $L$ such that $K\cap B=A$; in
+particular $B$ dominates $A$.
 
 ## Proof
 
@@ -28,3 +26,5 @@ there; this again contradicts maximality. Hence the maximal subring has
 fraction field $L$. The same maximality argument applied to $x$ and
 $x^{-1}$ for every $0\ne x\in L$ proves that it is a valuation ring, and
 its maximal ideal contracts to $\mathfrak m_A$, so it dominates $A$.
+Finally, $B$ is a valuation ring of $L$ dominating the image of $A$, so
+$K\cap B=A$ by [lemma-nagata-valuation-intersection].

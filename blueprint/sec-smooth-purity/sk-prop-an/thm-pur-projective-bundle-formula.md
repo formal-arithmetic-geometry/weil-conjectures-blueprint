@@ -18,8 +18,7 @@ $$
 \xrightarrow{\ \sim\ }Rp_*\Lambda_{\mathbf P_B(F)}
 $$
 
-is an isomorphism, base-change compatible. This statement uses no
-purity isomorphism.
+is an isomorphism, base-change compatible.
 
 ## Proof
 

@@ -4,25 +4,31 @@ kind = "lemma"
 title = "The divisor exact sequence"
 order = 899
 uses = ["def-sc-curves", "lem-sc-regular-dim1-dvr"]
+lean = ["AlgebraicGeometry.IsCurve.exists_shortExact_divisorSequence"]
 +++
 Let $\overline C$ be a proper smooth
 connected curve over an algebraically closed field
 $k$, $S\subset\overline C$ a finite set of closed points,
 $j:C:=\overline C\setminus S\hookrightarrow\overline C$ the open
 immersion, and $i_P:\{P\}\hookrightarrow\overline C$ the
-inclusions. The sequence of etale sheaves on
-$\overline C_{\Et}$
+inclusions. There is a morphism $d$ of etale sheaves on
+$\overline C_{\Et}$ such that the sequence
 
 $$
 0\longrightarrow\mathbf G_m\longrightarrow j_*\mathbf G_m
-\longrightarrow\bigoplus_{P\in S}i_{P*}\mathbf Z\longrightarrow0
+\xrightarrow{\ d\ }\bigoplus_{P\in S}i_{P*}\mathbf Z\longrightarrow0
 $$
 
-is exact.
+is exact, where the first map is the unit
+$\mathbf G_m\to j_*j^*\mathbf G_m=j_*\mathbf G_m$ (restriction of units
+to $C$).
 
 ## Proof
 
-It suffices to check exactness on stalks at geometric points (the
+Take for $d$ the map sending a unit $f$ of $j_*\mathbf G_m$ over an
+etale $U\to\overline C$, i.e. a unit on $U\times_{\overline C}C$, to its
+orders of vanishing at the points of $U$ over $S$; it kills the restricted
+units. It suffices to check exactness on stalks at geometric points (the
 stalk functors at geometric points are jointly conservative, and
 exactness of a sequence of sheaves is checked stalkwise). At a
 geometric point with image in $C$, the stalk of

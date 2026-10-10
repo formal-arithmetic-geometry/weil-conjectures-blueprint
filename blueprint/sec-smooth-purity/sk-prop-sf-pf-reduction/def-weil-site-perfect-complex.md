@@ -19,6 +19,4 @@ $\widehat{\mathcal O}_{E,U_\alpha}$. At the rational stage
 of finite sums of the unit $E_{U_\alpha}$ in that localized category. An
 object of the common-stage $\Qlb$-category
 [def-weil-algebraically-closed-coefficients] is site-perfect if some
-finite-field representative is site-perfect. This condition requires a cover
-of the site; perfectness of individual geometric stalks alone does not supply
-one.
+finite-field representative is site-perfect.

@@ -15,24 +15,6 @@ $$
 and carries the class of objects with cohomology in $[a,b]$ into the same
 class.
 
-*Source note:* no Stacks Project entry states this form. Stacks' nearest
-entries are the equivalence defined by $\epsilon^{-1}$ between constructible
-sheaves on $X_{\Et}$ and on $X_{\Proet}$, Lemma 61.27.2 ([Tag
-09AK](https://stacks.math.columbia.edu/tag/09AK)), its complex-level form
-for bounded below complexes, Lemma 61.27.4 ([Tag
-09AL](https://stacks.math.columbia.edu/tag/09AL)), and the weak Serre
-property of the constructible category, Lemma 61.27.3 ([Tag
-09B5](https://stacks.math.columbia.edu/tag/09B5)); the constructibility
-entries Definition 61.29.1 ([Tag
-09C1](https://stacks.math.columbia.edu/tag/09C1)) and Proposition 61.29.7
-([Tag 09C7](https://stacks.math.columbia.edu/tag/09C7)) are stated for a
-Noetherian scheme and a Noetherian coefficient ring and concern adic
-constructibility, and no entry states that a pullback preserves a
-cohomological interval. Difference: the blueprint adds the exactness of
-$Lg^*=g^{-1}$ on the finite coefficient rings $P_n$ and the preservation of
-the interval $[a,b]$, for the bounded constructible categories of
-[def-weil-pbc-constructible-direct-image-finiteness].
-
 ## Proof
 
 On the etale site, inverse image is exact and takes a constructible

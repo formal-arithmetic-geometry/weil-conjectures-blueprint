@@ -7,8 +7,7 @@ uses = ["lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-five-lemma-t
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] assume for
 some $q\geq1$ that $\mathrm{BC}(f,n,q-1)$ holds universally (in the
-single degree $q-1$, which is all that [sbc-lem-bc-injectivity]
-needs).
+single degree $q-1$).
 Consider commutative
 diagrams
 
@@ -40,7 +39,6 @@ $$
 
 is an isomorphism, then
 $f'^{-1}R^qg_*\mathcal F\to R^qh_*e^{-1}\mathcal F$ is an isomorphism.
-(*Stacks Project, Lemma 59.88.3, [Tag `0F04`](https://stacks.math.columbia.edu/tag/0F04).*)
 
 ## Proof
 

@@ -12,4 +12,4 @@ $W\subseteq\underline{\Hilb}^g_{X/k}$ represents $F$; the inverse is
 $D\mapsto\cO(D)\otimes\operatorname{pr}_T^*\sigma_T^*\cO(D)^{-1}$
 (the $\sigma$-normalization of $\cO(D)$ on $X_T$, as for the
 normalized universal module in the proof of $F$'s representability). This is the precise
-sense in which ``$F$ is a subsheaf of the Hilbert functor''.
+sense in which "$F$ is a subsheaf of the Hilbert functor".

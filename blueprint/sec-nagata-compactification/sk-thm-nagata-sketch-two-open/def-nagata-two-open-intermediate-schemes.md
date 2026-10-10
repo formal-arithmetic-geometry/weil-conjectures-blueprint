@@ -3,7 +3,7 @@ id = "def-nagata-two-open-intermediate-schemes"
 kind = "definition"
 title = "Intermediate two-open schemes"
 order = 285
-lean = ["AlgebraicGeometry.TwoOpenSide.interior"]
+lean = ["AlgebraicGeometry.TwoOpenSide.interior", "AlgebraicGeometry.TwoOpenSide.intermediate", "AlgebraicGeometry.TwoOpenSide.intermediateU", "AlgebraicGeometry.TwoOpenSide.intermediateInterior", "AlgebraicGeometry.TwoOpenSide.intermediateHom"]
 uses = ["def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-key-boundary-disjointness"]
 +++
 For $\{i,j\}=\{1,2\}$, define

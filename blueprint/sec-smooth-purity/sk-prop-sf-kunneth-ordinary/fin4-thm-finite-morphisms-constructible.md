@@ -12,8 +12,7 @@ $\Lambda$-sheaf on $X_{{\mathrm{et}}}$ (the ring $\Lambda$ of
 [sbc-def-coefficient-conventions]). Then the higher direct
 images $R^qf_*F$ of [def-weil-pbc-direct-image] are
 constructible on
-$S_{{\mathrm{et}}}$ for every $q\geq0$, and $R^qf_*F=0$ for $q>0$:
-the vanishing bound $2\cdot0$ of the zero relative dimension.
+$S_{{\mathrm{et}}}$ for every $q\geq0$, and $R^qf_*F=0$ for $q>0$.
 
 ## Proof
 

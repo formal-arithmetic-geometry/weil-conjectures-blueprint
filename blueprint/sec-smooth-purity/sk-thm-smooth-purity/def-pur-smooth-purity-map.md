@@ -5,7 +5,7 @@ title = "Smooth purity map"
 order = 2012
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-cohomological-smoothness"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
+Work in the purity conventions of [def-pur-conventions], let
 $A=A_{E,n}$, let $f:X\to Y$ be smooth,
 separated, of pure
 relative dimension $d$, and let $K\in D^b_{ctf}(Y,\Lambda)$. The

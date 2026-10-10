@@ -21,22 +21,6 @@ $d_1:E_1^{r,s}\to E_1^{r,s+1}$, induced by the differential of $K^\bullet$,
 and the abutment is the cohomology of the derived functor of $K^\bullet$,
 independent of the resolution.
 
-**Status.** The proof formerly invoked Stacks Tags 0130/0131 for the whole
-bicomplex spectral sequence without constructing it. It is now an application
-of [thm-sp-spectral-object-yields] to the total complex of the double complex
-with its second-degree filtration ([def-sp-double-complex-total],
-[thm-sp-double-complex-spectral-sequences] (II)), together with the standard identification
-of the row cohomology with the derived functors.
-
-It also formerly asserted that a Cartan--Eilenberg resolution computes the
-derived functor of a complex, attributing that to
-[def-sp-left-exact-additive], which defines derived functors only on objects,
-and then took independence of the resolution from
-[lem-sp-kinjective-computes], whose own proof appealed back to this theorem.
-$Rv$ on complexes is now defined once, in [def-sp-kinjective-bridge], and both
-steps are readings of that definition. The dependence runs one way: this
-theorem uses the lemma, the lemma does not use this theorem.
-
 ## Proof
 
 Each row $A^{\bullet,s}$ is an injective resolution of $K^s$, so the entries

@@ -9,13 +9,10 @@ uses = ["cor-sf-ambient-adjoint-discharge", "def-pur-conventions", "def-weil-amb
 In the purity conventions of this chapter
 ([def-pur-conventions] fixed setting), let $f:X\to Y$ be a
 separated finite-type
-morphism. The
-ambient exceptional right
-adjoint datum of [def-weil-ambient-exceptional-adjoint] was the
-hypothesis under which this corollary was formerly stated; on the bounded
-constructible and finite-Tor coefficients of its two clauses it is the theorem
-[cor-sf-ambient-adjoint-discharge], so it is not assumed, and the two
-clauses below hold without it. Then $f$
+morphism. The ambient exceptional right adjoint datum of
+[def-weil-ambient-exceptional-adjoint] is not assumed: on the bounded
+constructible and finite-Tor coefficients of the two clauses below it is the
+theorem [cor-sf-ambient-adjoint-discharge]. Then $f$
 satisfies the two preservation clauses of
 [def-weil-exceptional-adjoint-admissibility]: with the affine charts
 $U\subseteq f^{-1}(V)$ and the integers $d_U$ of

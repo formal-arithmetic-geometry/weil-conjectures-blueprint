@@ -10,8 +10,7 @@ Let $X=\varprojlim_\alpha X_\alpha$ over a base $S$, where the terms are
 qcqs, the transition maps are affine, and every $X_\alpha\to S$ is
 quasi-compact — which is automatic when $S$ is quasi-separated. If
 $X\to S$ is separated, then there is an index $\alpha_0$ such that
-$X_\alpha\to S$ is separated for every $\alpha\geq\alpha_0$. No
-finite-presentation hypothesis on the $X_\alpha\to S$ is needed.
+$X_\alpha\to S$ is separated for every $\alpha\geq\alpha_0$.
 
 ## Proof
 

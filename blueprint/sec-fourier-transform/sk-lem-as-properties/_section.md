@@ -35,9 +35,6 @@ function on $\Aone_{k_0}$ is
 $t_{\mathcal L_{\psi,ax}}(u)=\psi(\Tr_{\kappa(u)/k_0}(au))$; and
 $H^q(\Aone_{\bar k},\mathcal L_{\psi_a})=0$ for $(q,a)\neq(0,0)$, while
 $H^0(\Aone_{\bar k},\Qlb)=\Qlb$ and $H^q(\Aone_{\bar k},\Qlb)=0$ for $q>0$.
-(Blueprint lem:fd-as-cover, lem:fd-as-cover-affine-line,
-lem:fd-as-characters, lem:fd-as-lisse, lem:fd-as-trace,
-lem:fd-cohomology-affine-line-character.)
 
 ## Proof
 
@@ -83,5 +80,3 @@ automorphism of $\Aone$ with $m_a^*\mathcal L_{\psi,x}=\mathcal L_{\psi,ax}$
 (the Artin–Schreier covering of $ax$ is the pullback along $m_a$ of that of
 $x$), so $H^q(\Aone_{\bar k},\mathcal L_{\psi_a})\cong
 H^q(\Aone_{\bar k},\mathcal L_{\psi,x})=0$ for all $q$.
-
-Uses: [sk-def-as], [sk-def-fourier-set]

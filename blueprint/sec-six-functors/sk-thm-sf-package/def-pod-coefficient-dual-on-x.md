@@ -5,7 +5,7 @@ title = "Coefficient dual on $X$"
 order = 2245
 uses = ["def-pod-conventions", "def-weil-geometric-hypotheses"]
 +++
-In the Poincare duality conventions of this chapter (the fixed setting),
+In the Poincare duality conventions of this chapter (the fixed setting), let
 $K\in D^b_{ctf}(X,\Lambda)$. The *coefficient dual* is
 
 $$

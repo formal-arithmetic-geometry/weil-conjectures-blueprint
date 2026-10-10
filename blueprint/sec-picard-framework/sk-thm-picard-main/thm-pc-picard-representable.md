@@ -6,20 +6,26 @@ order = 837
 uses = ["cor-pc-sigma-pic-iso", "def-pc-genus", "def-pc-pic-sigma-functor", "def-pc-picard-functor", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-subfunctor", "lem-pc-f-open-subfunctor", "lem-pc-k-sheaf", "lem-pc-rational-hyp", "lem-pc-rational-points-dense", "lem-pc-sigma-k-points", "lem-pc-twist", "lem-pc-vanishing-above-dim", "lem-pc-zariski-coverings-are-fppf", "prop-pc-xk-integral", "thm-pc-criterion", "thm-pc-f-representable", "thm-pc-pic-split"]
 lean = ["AlgebraicGeometry.isRepresentable_picardFunctor"]
 +++
-(Stacks Project, Picard Schemes of Curves, Proposition 44.6.6, Tag
-[0B9Z](https://stacks.math.columbia.edu/tag/0B9Z).)
 Let $k$ be a separably closed field.
-Let $X$ be a
-smooth projective curve over
-$k$. Then the
+Let $X$ be a scheme over $k$ which is smooth of relative dimension $1$,
+proper and geometrically integral over $k$ (for instance a smooth
+projective curve over $k$). Then the
 Picard functor $\operatorname{Pic}_{X/k}$ is
 representable, and the representing scheme
 $\underline{\operatorname{Pic}}_{X/k}$ is a group scheme over $k$.
 
 ## Proof
 
-Since $k$ is separably closed and $X$ is smooth over $k$ (hence nonempty:
-$X$ is a variety), there exists a
+*Preliminaries.* The scheme $X$ is projective over $k$: it is separated
+of finite type of dimension $1$ over a field, hence quasi-projective, and a
+proper quasi-projective scheme over a field is projective
+([Tag 0B45](https://stacks.math.columbia.edu/tag/0B45)). Being
+geometrically integral, it is integral, so $X$ is a smooth projective curve
+over $k$ in the sense of [def-pc-smooth-projective-curve], and the results
+on smooth projective curves cited below apply to it.
+
+Since $k$ is separably closed and $X$ is smooth over $k$ (and nonempty,
+being integral), there exists a
 $k$-rational point $\sigma$ of $X$ by
 [lem-pc-rational-points-dense]. By [cor-pc-sigma-pic-iso] it
 suffices to show that the functor
@@ -40,14 +46,23 @@ $K=\operatorname{Pic}_{X/k,\sigma}$ was shown in
 [lem-pc-k-sheaf]. Since every Zariski covering is an fppf covering ([lem-pc-zariski-coverings-are-fppf])
 (affine-locally the maps $\operatorname{Spec}(A_f)\to\operatorname{Spec}(A)$ are flat and of finite
 presentation, $A\to A_f$ being the localization), it satisfies the sheaf
-property for the Zariski topology. [Condition (1); note that
+property for the Zariski topology. Its values are small: for a
+$k$-scheme $T$, $\operatorname{Pic}_{X/k,\sigma}(T)$ is a set of isomorphism
+classes of invertible modules on $X_T$, and every invertible module is
+isomorphic to one glued from copies of $\mathcal O$ on an open cover of
+$X_T$ by transition functions, which form a set. [Condition (1); note that
 [cor-pc-sigma-pic-iso] gives the same conclusion from the fact that
 $\operatorname{Pic}_{X/k}$ is by definition an fppf sheaf.]
 1. **(2)(a)** The subfunctor $F$ of [lem-pc-f-open-subfunctor] is
-representable: [thm-pc-f-representable] represents it by the open
-subscheme $W\subseteq\underline{\operatorname{Hilb}}^g_{X/k}$ (the genus $g$ is finite:
-$X$ is a smooth projective curve over $k$, geometrically irreducible by
-[prop-pc-xk-integral], so [def-pc-genus] applies).
+representable: the genus $g=\dim_kH^1(X,\mathcal O_X)$ is finite ($X$ is
+a smooth projective curve over $k$, geometrically irreducible by
+[prop-pc-xk-integral], so [def-pc-genus] applies); the functor
+$\operatorname{Hilb}^g_{X/k}$ is represented by a $k$-scheme
+$H=\underline{\operatorname{Hilb}}^g_{X/k}$ (the representability of the Hilbert
+functors of a geometrically integral smooth proper curve, Stacks
+[Tag 0B9I](https://stacks.math.columbia.edu/tag/0B9I)); and
+[thm-pc-f-representable], applied to this $H$, represents $F$ by an open
+subscheme $W\subseteq H$.
 1. **(2)(b)** $F\subseteq\operatorname{Pic}_{X/k,\sigma}$ is representable by open
 immersions: [lem-pc-f-open-subfunctor].
 1. **(2)(c)** Let $K/k$ be a field extension and let

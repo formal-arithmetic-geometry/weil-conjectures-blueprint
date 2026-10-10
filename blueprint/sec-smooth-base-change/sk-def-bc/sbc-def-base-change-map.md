@@ -34,11 +34,7 @@ identifications of the composite functors, and where
 $\varepsilon_f$ is the counit of $Lf^*\dashv Rf_*$; it is
 the derived exchange morphism of
 [def-weil-pbc-derived-exchange] read on the same
-square with the vertical and horizontal sides exchanged. Its
-naturality in $K$ is the corresponding statement below, and its
-compatibility with the composition of squares and with base change
-along the square is the corresponding statement below and
-the corresponding statement below.
+square with the vertical and horizontal sides exchanged.
 For $F\in\Ab(T_{\Et})$, the *base-change map in degree $q$* is
 the $q$-th cohomology sheaf of $\operatorname{BC}_{f,g}$ applied to
 $F$ (placed in degree zero):

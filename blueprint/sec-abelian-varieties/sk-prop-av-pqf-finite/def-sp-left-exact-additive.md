@@ -14,8 +14,9 @@ derived functors* $R^nv$ ($n\geq0$) are defined via injective resolutions
 [def-sp-injective-resolutions]: for an injective resolution $X\to I^\bullet$,
 
 $$
- R^nv(X):=\mathcal H^n(v(I^\bullet)),
+ R^nv(X):=\mathcal H^n(v(I^\bullet)).
 $$
 
-the independence of the choice and the identification $R^0v=v$ being the
-well-definedness lemma below.
+Up to canonical isomorphism, $R^nv(X)$ does not depend on the choice of the
+injective resolution, and $R^0v=v$; this is the well-definedness lemma for
+derived functors.

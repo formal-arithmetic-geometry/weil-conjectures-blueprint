@@ -17,9 +17,10 @@ with $\omega_{Y,\Lambda}=Ra_Y^!\Lambda\in\Dctf(Y,\Lambda)$
 ([sk-prop-sf-rf-shriek-preservation]) is a contravariant exact
 anti-equivalence of $\Dctf(Y,\Lambda)$ with $\mathbb D_Y\mathbb D_Y\cong \mathrm{id}$: the double-dual morphism $\delta_K$ is an isomorphism for every
 $K$.
-Chapter 1 (framework chapter), prop:functor-package(7), restated
-as thm:sf-biduality of `10b_six_functor_formalism.tex`, after
-Deligne, *SGA $4\frac12$*, Ch. 5 (Dualité) 1.1–1.2 and Ch. 7
+
+## Proof
+
+As in Deligne, *SGA $4\frac12$*, Ch. 5 (Dualité) 1.1–1.2 and Ch. 7
 (Théorèmes de finitude) 4.1–4.6: locality, a finite smooth
 stratification, the locally-free case on a stratum, and the restriction to a
 stratum; the algebraic half of the coefficient hypothesis is coefficient
@@ -40,11 +41,3 @@ rem-weil-biduality-coefficients). The Artinian-stage argument is therefore in
 scope only at $A_{E,n}$; the derived-complete integral stage and the field
 stages are reached from it by the coefficient transports
 thm-coef-integral-verdier, thm-coef-rational-verdier, thm-coef-qbar-verdier.
-nothing: the former hypothesis "$a_Y$ carries the ambient datum" (the
-hypothesis of [sk-prop-sf-existence] (b), false in general by
-[sk-rem-sf-fullcd-scope]) has been discharged, the dualizing
-complex being formed with the unconditional constructible adjoint of
-[sk-def-sf-operations] (vi) and [sk-prop-sf-existence] (c); the detailed
-proof thm:fix-general-biduality is a geometric argument on $\Dctf$ that
-uses no ambient adjoint.
-Uses: `prop-functor-package`, `thm-sf-biduality-class`

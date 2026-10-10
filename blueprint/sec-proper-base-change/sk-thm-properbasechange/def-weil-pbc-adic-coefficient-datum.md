@@ -57,14 +57,3 @@ $$
 $$
 
 satisfying the quotient cocycle.
-
-The reduction tower $K_n=K\otimes^L_{A_T}(P_n)_T$ with $P_n=A/I^n$, and the
-derived completeness tested by it, are the constant Noetherian case of Stacks
-Project, Section 61.20 (Tag
-[099L](https://stacks.math.columbia.edu/tag/099L)) and Lemma 61.20.1 (Tag
-[099M](https://stacks.math.columbia.edu/tag/099M)), which for a Noetherian
-ring $\Lambda$ and an ideal $I\subset\Lambda$ on an arbitrary site states
-$K^\wedge=\Rlim(K\otimes^L_\Lambda\underline{\Lambda/I^n})$; the Stacks entry
-assumes a Noetherian ring and an ideal, while the form used here is the
-decomposed datum of the tower category $\operatorname{Tow}_A(T)$ over
-$T_{\Proet}$, with each $P_n$ required to be perfect.
