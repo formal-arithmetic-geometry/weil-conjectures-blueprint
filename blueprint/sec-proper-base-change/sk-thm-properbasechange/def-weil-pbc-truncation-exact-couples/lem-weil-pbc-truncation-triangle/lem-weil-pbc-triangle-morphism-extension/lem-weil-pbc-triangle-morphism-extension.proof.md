@@ -1,0 +1,25 @@
++++
+kind  = "proof"
+of    = "lem-weil-pbc-triangle-morphism-extension"
+uses  = ["lem-weil-pbc-hom-into-triangle-exact", "def-weil-triangulated-category", "def-weil-pbc-triangles-with-shift", "lem-weil-pbc-hom-out-of-triangle-exact", "lem-weil-pbc-tr3-second-square"]
+tags  = ["sheaf-dag"]
++++
+**Step 1.** **Step 1 ((a) ⇒ (b)).** Suppose $v'gu=0$. The morphism $gu:X\to Y'$ satisfies $v'\circ(gu)=0$, so by the exactness of $\Hom(X,X')\to\Hom(X,Y')\to\Hom(X,Z')$ ([lem-weil-pbc-hom-into-triangle-exact] (ii), applied to the triangle $(X',Y',Z',u',v',d')$ with $W=X$) there is $f:X\to X'$ with $gu=u'f$, i.e. the square (1) commutes.
+
+**Step 2.** **Step 2 ((b) ⇒ (c)).** If $f$ satisfies $u'f=gu$, axiom TR3 of [def-weil-triangulated-category] (BBD call it TR 2 here) applied to the two distinguished triangles and the pair $(f,g)$ gives $h:Z\to Z'$ with $hv=v'g$ and $f[1 ]\circ d=d'\circ h$, so $(f,g,h)$ is a morphism of triangles [def-weil-pbc-triangles-with-shift].
+
+**Step 3.** **Step 3 ((c) ⇒ (b), (c) ⇒ (b'), (b) ⇒ (a)).** A morphism of triangles $(f,g,h)$ [def-weil-pbc-triangles-with-shift] has $u'f=gu$ and $hv=v'g$ among its conditions, so (c) gives (b) and (b'). If $u'f=gu$, then $v'gu=v'u'f=0$ because $v'u'=0$ ([lem-weil-pbc-hom-into-triangle-exact] (i) for the triangle $(X',Y',Z',u',v',d')$).
+
+**Step 4.** **Step 4 ((a) ⇒ (b')).** Suppose $v'gu=0$. The morphism $v'g:Y\to Z'$ satisfies $(v'g)\circ u=0$, so by the exactness of $\Hom(Z,Z')\to\Hom(Y,Z')\to\Hom(X,Z')$ ([lem-weil-pbc-hom-out-of-triangle-exact] (i), applied to the triangle $(X,Y,Z,u,v,d)$ with $W=Z'$) there is $h:Z\to Z'$ with $v'g=hv$, i.e. the square (2) commutes.
+
+**Step 5.** **Step 5 ((b') ⇒ (c) and (b') ⇒ (a)).** If $hv=v'g$, [lem-weil-pbc-tr3-second-square] (TR3 for the second square, the dual of Step 2) applied to $(g,h)$ gives $f:X\to X'$ with $gu=u'f$ and $f[1 ]\circ d=d'\circ h$, so $(f,g,h)$ is a morphism of triangles: (c). Also $v'gu=hvu=0$ since $vu=0$ ([lem-weil-pbc-hom-into-triangle-exact] (i) for $(X,Y,Z,u,v,d)$): (a). With Steps 1-4 this proves the equivalence of (a), (b), (b'), (c), i.e. part (1).
+
+**Step 6.** **Step 6 (uniqueness of $f$ in (2)).** Suppose $\Hom(X[1 ],Z')=0$ and $f_1,f_2:X\to X'$ both satisfy $u'f_i=gu$. Put $e=f_1-f_2$ (the category is additive); then $u'e=0$. The shift $[1 ]$ is an additive functor, so $u'[1 ]\circ e[1 ]=(u'e)[1 ]=0$. By [lem-weil-pbc-hom-into-triangle-exact] (iii) for the triangle $(X',Y',Z',u',v',d')$ with $W=X[1 ]$ there is $k:X[1 ]\to Z'$ with $e[1 ]=d'\circ k$; since $\Hom(X[1 ],Z')=0$, $k=0$ and $e[1 ]=0$. As $[1 ]$ is an automorphism (an auto-equivalence suffices) of $\mathcal T$ [def-weil-triangulated-category], it is faithful, so $e=0$, i.e. $f_1=f_2$. (BBD state the hypothesis as $\Hom^{-1}(X,Z')=\Hom(X,Z'[-1 ])=0$ and use the exact sequence $\Hom(X,Z'[-1 ])\to\Hom(X,X')\to\Hom(X,Y')$; the shift $[1 ]$ identifies it with $\Hom(X[1 ],Z')\to\Hom(X[1 ],X'[1 ])\to\Hom(X[1 ],Y'[1 ])$ used here.)
+
+**Step 7.** **Step 7 (uniqueness of $h$ in (2)).** Suppose $\Hom(X[1 ],Z')=0$ and $h_1,h_2:Z\to Z'$ both satisfy $h_iv=v'g$. Put $e=h_1-h_2$; then $ev=0$. By [lem-weil-pbc-hom-out-of-triangle-exact] (ii) for the triangle $(X,Y,Z,u,v,d)$ with $W=Z'$ there is $k:X[1 ]\to Z'$ with $e=k\circ d$; since $\Hom(X[1 ],Z')=0$, $k=0$, so $e=0$ and $h_1=h_2$.
+
+**Step 8.** **Step 8 (any such $f$, $h$ form a morphism of triangles).** Suppose $\Hom(X[1 ],Z')=0$, $u'f=gu$ and $hv=v'g$. By Step 2 (TR3 of [def-weil-triangulated-category] applied to $(f,g)$) there is $h_0$ with $(f,g,h_0)$ a morphism of triangles; $h_0v=v'g$, so $h_0=h$ by Step 7. Hence $(f,g,h)$ is a morphism of triangles [def-weil-pbc-triangles-with-shift]; in particular $d'\circ h=f[1 ]\circ d$. This finishes part (2).
+
+**Step 9.** **Step 9 (part (3): uniqueness of the third arrow).** Let $\Hom(X[1 ],Z)=0$ and let $x:Z\to X[1 ]$ be such that $(X,Y,Z,u,v,x)$ is distinguished. Apply part (2) to the triangles $(X,Y,Z,u,v,d)$ and $(X',Y',Z',u',v',d')=(X,Y,Z,u,v,x)$ with $g=\mathrm{id}_Y$; here $\Hom(X[1 ],Z')=\Hom(X[1 ],Z)=0$. The morphisms $f=\mathrm{id}_X$ and $h=\mathrm{id}_Z$ satisfy $u\circ\mathrm{id}_X=\mathrm{id}_Y\circ u$ and $\mathrm{id}_Z\circ v=v\circ\mathrm{id}_Y$, so by Step 8 $(\mathrm{id}_X,\mathrm{id}_Y,\mathrm{id}_Z)$ is a morphism of triangles, and its third square reads $x\circ\mathrm{id}_Z=\mathrm{id}_X[1 ]\circ d$. Since $[1 ]$ is a functor, $\mathrm{id}_X[1 ]=\mathrm{id}_{X[1 ]}$, hence $x=d$. Conversely $d$ itself has the property, so $d$ is the unique such morphism.
+
+*Source: bbd-faisceaux-pervers_Asterisque-100-1982.pdf, Proposition 1.1.9 and its proof (pp. 23-24, pdf pages 24-25), Corollaire 1.1.10 (ii) and its proof (p. 24, pdf page 25).*
