@@ -129,6 +129,13 @@
    {"total": 2318,
     "proved": 378,
     "byStatus": {"stated": 120, "proved": 378, "missing": 10, "absent": 1810}},
+   "sha": "8c6c941477c1c2afe013536f68e18ad60766040f",
+   "file": "data/8c6c941477c1c2afe013536f68e18ad60766040f.json",
+   "date": "2026-10-10"},
+  {"summary":
+   {"total": 2318,
+    "proved": 378,
+    "byStatus": {"stated": 120, "proved": 378, "missing": 10, "absent": 1810}},
    "sha": "94be14e986a7bbfb917545ef50ad80919fbab038",
    "file": "data/94be14e986a7bbfb917545ef50ad80919fbab038.json",
    "date": "2026-10-10"}]}
