@@ -1,13 +1,12 @@
 +++
 id = "sk-d-weil-push"
-kind = "section"
+kind = "definition"
 title = "Weil $!$-pushforward"
 order = 2363
 uses = ["sk-d-operator", "sk-d-relative-frob", "sk-d-six", "sk-d-weil", "sk-i-relative-frob", "sk-i-topology"]
 lean = ["AlgebraicGeometry.ProEtale.WeilComplex.lowerShriekPush"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $(K,\varphi)$ be a Weil complex on $X$ with Frobenius $\Phi_X=\Phi_{X,1}$, let
 $f:X\to Y$ be compactifiable, and let $\Phi_Y=\Phi_{Y,1}$ be an endomorphism of
 $Y$ over $s$ with $\Phi_Yf=f\Phi_X$ such that the relative Frobenius $r_1$ of

@@ -1,13 +1,12 @@
 +++
 id = "sk-def-picard-pic"
-kind = "section"
+kind = "definition"
 title = "Picard functor and its $\\sigma$-normalized version"
 order = 796
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.picardFunctor", "AlgebraicGeometry.picardFunctorNormalized"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For $f:X\to S$, the *Picard functor* $\Pic_{X/S}$ is the fppf
 sheafification of the presheaf $T\mapsto\Pic(X_T)$ on
 $(\Sch/S)_{fppf}$. For a section

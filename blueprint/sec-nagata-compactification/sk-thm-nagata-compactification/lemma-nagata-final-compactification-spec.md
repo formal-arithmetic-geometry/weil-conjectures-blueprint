@@ -11,15 +11,3 @@ $X\to X_f^{\mathrm{fp}}\to\overline X_f^{\mathrm{fp}}$. The map
 $j^{\mathrm{cl}}_f$ is its canonical image factor and $p^{\mathrm{cl}}_f$ is the restriction of the
 ambient structural morphism. These identifications commute with the
 displayed factorization over $S$.
-
-## Proof
-
-Unfold $\mathsf{Closed}$ in
-[def-nagata-final-compactification]. Its ambient object is defined as
-`Scheme.Hom.image` of the stated composite, and its first map is
-`Scheme.Hom.toImage`; the factorization equality is
-[lemma-nagata-scheme-image-universal]. The last map is obtained by
-restricting the already specified map
-$\overline X_f^{\mathrm{fp}}\to S$, so the two identifications are
-compatible with the structural morphisms by the same factorization
-equality.

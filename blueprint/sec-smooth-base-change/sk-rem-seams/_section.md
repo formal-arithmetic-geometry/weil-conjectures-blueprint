@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-seams"
-kind = "section"
+kind = "remark"
 title = "The seams"
 order = 1448
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 *(i) The two lanes contradict (this is the whole proof):* a
 first failure in degree $q$ produces a universal curve-test datum
 with $R^qh_*(\Z/d\Z)\neq0$ ([sk-lem-universal-datum], from the

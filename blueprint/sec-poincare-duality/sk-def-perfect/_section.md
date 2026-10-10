@@ -1,13 +1,12 @@
 +++
 id = "sk-def-perfect"
-kind = "section"
+kind = "definition"
 title = "Perfectness at the point and on $X$"
 order = 2412
 uses = ["sk-def-ops"]
 lean = ["CategoryTheory.IsDualizable"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 In the setting of [sk-def-ops], an object $K$ of a symmetric monoidal
 category $(\mathcal C,\otimes,\mathbf 1)$ is *dualizable* if it has a
 right dual: an object $K^\vee$ with an evaluation

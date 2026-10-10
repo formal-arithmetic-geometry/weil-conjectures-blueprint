@@ -1,12 +1,11 @@
 +++
 id = "sk-d-dl-a1-setup"
-kind = "section"
+kind = "remark"
 title = "Affine-line and weight conventions"
 order = 2722
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsGeometricallyConstant", "AlgebraicGeometry.LAdicWeilSheaf.IsUnramifiedAtInfinity"]
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Fix $k_0=\mathbf F_q$, its algebraic closure $k$, a prime $\ell\ne \operatorname{char}(k_0)$, and $\iota:\DLAQ\simeq\mathbf C$. Write
 $A_0=\mathbf A^1_{k_0}$, $A=A_0\otimes k$, and use a prime to denote the
 dual affine line. All cohomology is geometric, with geometric Frobenius.

@@ -1,13 +1,12 @@
 +++
 id = "sk-d-monodromy"
-kind = "section"
+kind = "definition"
 title = "Represented degree data and monodromy"
 order = 2499
 uses = ["sk-d-geometry", "sk-d-linear"]
 lean = ["AlgebraicGeometry.Monodromy.DegreeDatum", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobenius", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsSemisimple"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 A degree datum consists of a group $W$, a surjective homomorphism
 $\deg:W\to\mathbf Z$, and a chosen element $\gamma$ of degree $1$.
 Put $P=\ker(\deg)$; every $w$ has the form $u\gamma^{\deg w}$ with

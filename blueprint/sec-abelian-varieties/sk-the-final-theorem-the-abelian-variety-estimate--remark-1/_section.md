@@ -1,11 +1,10 @@
 +++
 id = "sk-the-final-theorem-the-abelian-variety-estimate--remark-1"
-kind = "section"
+kind = "remark"
 title = "Remark"
 order = 594
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 *Where this feeds in.*
 
 - **Smooth base change** ([sec-smooth-base-change],

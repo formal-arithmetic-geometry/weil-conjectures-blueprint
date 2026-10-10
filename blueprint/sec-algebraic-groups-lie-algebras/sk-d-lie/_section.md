@@ -1,13 +1,12 @@
 +++
 id = "sk-d-lie"
-kind = "section"
+kind = "definition"
 title = "Lie algebras, radicals and centers"
 order = 2462
 uses = ["sk-d-linear"]
 lean = ["LieAlgebra.radical", "LieAlgebra.center", "LieAlgebra.HasCentralRadical", "killingForm"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 A Lie algebra is a $k$-vector space $L$ with a
 bilinear alternating bracket satisfying the Jacobi identity.
 An ideal $I$ satisfies $[L,I]\subseteq I$. Write $[I,I]$ for the span

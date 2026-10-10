@@ -18,12 +18,3 @@ $p\circ i\circ g=\pi|_W$ and $(i\circ g)|_{\pi^{-1}(U)}=f\circ\pi|_{\pi^{-1}(U)}
 and its graph is closed in $Y\times_X\widetilde X$; that is, the conclusion of
 [thm-nagata-conrad-elimination] holds for $(X,U,V,p,f)$ with the same
 admissible blow-up and the same open subscheme of it.
-
-## Proof
-
-The extension of $f$ is the extension $g\colon W\to Y'$ of $f'$ followed by
-$i$; it is a section of $p$ over $W$ and extends $f$ because $i$ is a
-morphism over $X$. The comparison morphism
-$Y'\times_XX'\to Y\times_XX'$ is a base change of $i$, hence again a closed
-immersion, and the graph of $i\circ g$ is the image of the graph of $g$ under
-it. A closed immersion is a closed map, so that image is closed.

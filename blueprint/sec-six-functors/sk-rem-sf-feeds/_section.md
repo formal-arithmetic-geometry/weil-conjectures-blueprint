@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-sf-feeds"
-kind = "section"
+kind = "remark"
 title = "Where this feeds"
 order = 2263
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 The package [sk-thm-sf-package] is consumed as follows. The smooth-purity
 chapter needs clause (7) — the relative product theorem — as the relative
 input for its affine-line orientation and its affine-space case. The duality

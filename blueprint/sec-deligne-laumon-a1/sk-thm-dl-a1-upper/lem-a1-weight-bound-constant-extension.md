@@ -14,12 +14,3 @@ $|\iota(\lambda)|^2\leq(q^m)^b$. Then every eigenvalue $\alpha$ of
 $F$ satisfies $|\iota(\alpha)|^2\leq q^b$: the weight bound for the
 target over the extended finite field implies the same bound over the
 original field.
-
-## Proof
-
-For an extension of degree $m$, Frobenius becomes $F^m$
-and the field cardinality becomes $q^m$, and the eigenvalues of
-$F^m$ are the $m$-th powers of those of $F$ in the convention of
-[def-weil-frobenius-module-weights].
-Thus $|\iota(\alpha^m)|^2=|\iota(\alpha)|^{2m}\leq(q^m)^b=q^{mb}$ is
-equivalent to $|\iota(\alpha)|^2\leq q^b$.

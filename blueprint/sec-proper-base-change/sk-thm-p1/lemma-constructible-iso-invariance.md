@@ -9,10 +9,3 @@ uses = ["def-constructible-constant", "def-constructible-constructible", "def-co
 If $\mathcal F\cong\mathcal F'$ in $\shv{\et X}$, then $\mathcal F$ is
 locally constant (finite, finite locally constant, constructible) if and
 only if $\mathcal F'$ is.
-
-## Proof
-
-An isomorphism of sheaves induces isomorphisms of the restrictions to every
-localised site, of all stalks, and of all pullbacks, and each of the four
-notions is a condition on these. A trivialising datum, respectively a
-stratification, for $\mathcal F$ is therefore one for $\mathcal F'$.

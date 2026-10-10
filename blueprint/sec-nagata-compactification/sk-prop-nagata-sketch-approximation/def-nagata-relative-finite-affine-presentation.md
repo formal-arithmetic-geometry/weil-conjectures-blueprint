@@ -11,10 +11,3 @@ presentations of all chart algebras over the base chart algebras, finite
 basic-open presentations of the overlaps, and the two directions of every
 overlap isomorphism. Record these data and their finite identity, inverse,
 and cocycle equations as $\mathsf R_X$.
-
-## Proof
-
-Quasi-compactness gives finite affine covers and quasi-separatedness makes
-overlaps quasi-compact. Finite presentation supplies finite generators and
-relations; record both overlap directions and the finite identity and
-cocycle equations as $\mathsf R_X$.

@@ -1,12 +1,11 @@
 +++
 id = "sk-def-frobmod"
-kind = "section"
+kind = "definition"
 title = "Frobenius modules and their trace series"
 order = 2387
 lean = ["LinearMap.traceSeries", "LinearMap.alternatingTraceSeries"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 A *Frobenius module* is a pair $(V,F)$ consisting of a
 finite-dimensional $\Qlb$-vector space $V$ and a $\Qlb$-linear automorphism
 $F:V\to V$. More generally, for a field $K$, a finite-dimensional $K$-vector

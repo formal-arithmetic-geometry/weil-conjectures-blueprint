@@ -7,9 +7,3 @@ uses = ["def-nagata-quasi-affine-immersion-affine-space", "lemma-nagata-quasi-af
 +++
 The constructed morphism
 $\iota_X\colon X\to\mathbb A^n_S$ is an immersion.
-
-## Proof
-
-The selected witness is supplied by
-[lemma-nagata-quasi-affine-immersion-affine-space-exists]; its
-specification field is precisely that $\iota_X$ is an immersion over $S$.

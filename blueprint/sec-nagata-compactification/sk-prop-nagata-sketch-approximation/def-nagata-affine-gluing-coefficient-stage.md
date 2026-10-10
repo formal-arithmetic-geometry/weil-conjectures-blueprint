@@ -14,9 +14,3 @@ $\lambda_{\mathrm{coeff}}(S)$ to be the selected finite upper bound of all
 chartwise coefficient indices, and denote the resulting finite-stage raw
 gluing datum by
 $\mathsf G_{S,\lambda_{\mathrm{coeff}}}^{\mathrm{raw}}$.
-
-## Proof
-
-The identity and
-cocycle paths in the finite gluing groupoid show that one such finite
-closure suffices.

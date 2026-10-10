@@ -1,0 +1,22 @@
++++
+kind  = "proof"
+of    = "prop-weil-pbc-proetale-constant-exact"
++++
+By [def-weil-pbc-proetale-operations] the module inverse image is
+
+$$
+ u^*F=u^{-1}F\otimes_{u^{-1}\Lambda_{V,\Proet}}\Lambda_{U,\Proet},
+$$
+
+and [prop-weil-pbc-proetale-constant-ring-map] identifies the base ring
+$u^{-1}\Lambda_{V,\Proet}$ with $\Lambda_{U,\Proet}$, so that $u^*F\cong
+u^{-1}F\otimes_{\Lambda_{U,\Proet}}\Lambda_{U,\Proet}\cong u^{-1}F$,
+naturally in $F$. The functor $u^{-1}$ is exact: by
+[def-weil-pbc-inverse-image] the presheaf inverse image is computed
+sectionwise and has both a left and a right adjoint, so it preserves kernels
+and cokernels, and sheafification of presheaves of abelian groups is exact
+(Stacks Project, Lemma 7.10.15, Tag
+[00WJ](https://stacks.math.columbia.edu/tag/00WJ)); this is the argument of
+[prop-weil-pbc-inverse-image-exact] carried out on the small pro-etale site
+in place of the small etale site. Hence $u^*$, being naturally isomorphic to
+$u^{-1}$, is exact as well.

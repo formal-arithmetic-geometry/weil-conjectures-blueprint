@@ -1,11 +1,10 @@
 +++
 id = "sk-the-five-assembled-theorems--remark-1"
-kind = "section"
+kind = "remark"
 title = "Remark"
 order = 2938
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 *Where this feeds.* This layer is the last one of the blueprint: its
 inputs are the trace formula, Poincaré duality and the weight estimate, and
 its output is the five statements [sk-thm-weil1]–[sk-thm-weil5].

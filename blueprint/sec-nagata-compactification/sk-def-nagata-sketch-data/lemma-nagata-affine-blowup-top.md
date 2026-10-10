@@ -9,8 +9,3 @@ uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-n
 If $I=A$ is the unit ideal, the structure morphism
 $\operatorname{Bl}_I(\operatorname{Spec}A)\to\operatorname{Spec}(A)$ is an
 isomorphism.
-
-## Proof
-
-The Rees algebra of the unit ideal is $A[t]$. The single standard open
-$D_+(t)$ covers Proj, and its chart algebra $A[A/1]$ is $A$.

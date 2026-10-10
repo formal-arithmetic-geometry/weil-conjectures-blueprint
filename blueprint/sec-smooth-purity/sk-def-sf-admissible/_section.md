@@ -1,12 +1,11 @@
 +++
 id = "sk-def-sf-admissible"
-kind = "section"
+kind = "definition"
 title = "Admissibility datum: an explicit hypothesis"
 order = 1503
 lean = ["AlgebraicGeometry.ProEtale.HasAmbientExceptionalRightAdjoint", "AlgebraicGeometry.ProEtale.HasUniformCohomologicalDimensionLE"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $f:X\to Y$ be separated of finite type with a chosen compactification
 $X\xrightarrow{j}\overline X\xrightarrow{p}Y$. Two data of different
 strength are distinguished by name.

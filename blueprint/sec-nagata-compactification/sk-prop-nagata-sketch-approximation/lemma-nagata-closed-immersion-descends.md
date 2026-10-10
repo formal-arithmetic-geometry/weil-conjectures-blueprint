@@ -7,9 +7,3 @@ uses = ["def-nagata-closed-immersion-stage", "lemma-nagata-closed-immersion-stag
 +++
 For every $\mu\geq\mu_{\mathrm{cl}}(g)$, the base change $g_\mu$ is a
 closed immersion.
-
-## Proof
-
-Project the eventual closed-immersion field of the witness in
-[lemma-nagata-closed-immersion-stage-exists] along the index selected in
-[def-nagata-closed-immersion-stage].

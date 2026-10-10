@@ -1,11 +1,10 @@
 +++
 id = "sk-rationality-the-criterion-and-the-descent--remark-1"
-kind = "section"
+kind = "remark"
 title = "Remark"
 order = 2893
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 *Why the descent is needed.* The factorization of
 [sk-thm-tracetodeterminant] is produced by one chosen $\ell$, so it only
 exhibits $Z\in\Ql(T)$. The argument above does not compare the different

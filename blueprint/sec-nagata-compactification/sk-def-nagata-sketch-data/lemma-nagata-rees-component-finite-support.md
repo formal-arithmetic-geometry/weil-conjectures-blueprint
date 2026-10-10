@@ -8,8 +8,3 @@ uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-p
 +++
 For $F\in\mathcal R_A(I)$, only finitely many homogeneous components
 $F_nt^n$ are nonzero.
-
-## Proof
-
-The components are indexed by the support of the underlying polynomial,
-which is finite.

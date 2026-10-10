@@ -1,12 +1,11 @@
 +++
 id = "sk-def-cohfamily"
-kind = "section"
+kind = "definition"
 title = "The smooth-proper cohomological family"
 order = 2855
 lean = ["TraceDatum", "TraceDatum.P"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $X_0/k_0$ be smooth, proper and geometrically connected of pure dimension
 $d\ge0$, put $X=X_0\times_{k_0}k$, fix $\ell\ne p$ and write $\Ql=\mathbf Q_\ell$. Let $F$ be the geometric Frobenius acting on the ordinary
 cohomology $H^{i}(X,\Ql)$, and put

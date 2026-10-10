@@ -16,9 +16,3 @@ points of $X$: for every open $U\subseteq X$ which is normal, the
 induced morphism $X^{\nu}\times_XU\to U$ is an isomorphism.
 1. **(c)** If $\dim X=1$ and $k$ is perfect, then
 $X^{\nu}$ is smooth over $k$.
-
-## Proof
-
-Part (a) is [lem-sc-normalization-exists]; part (b) is
-[lem-sc-normalization-over-normal-locus]; part (c) is
-[lem-sc-normalized-curve-smooth].

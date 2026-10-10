@@ -1,13 +1,12 @@
 +++
 id = "sk-the-hilbert-functor--definition-1"
-kind = "section"
+kind = "definition"
 title = "Hilbert functor"
 order = 765
 uses = ["sk-def-av-jacobian"]
 lean = ["AlgebraicGeometry.hilbertPresheaf"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For $X\to S$ and $d\ge0$,
 
 $$

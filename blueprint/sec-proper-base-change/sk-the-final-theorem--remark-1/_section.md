@@ -1,11 +1,10 @@
 +++
 id = "sk-the-final-theorem--remark-1"
-kind = "section"
+kind = "remark"
 title = "Remark"
 order = 1361
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Only the six theorems of §§ *The six theorems* are statements; every other fact used
 in the proofs is argued inline (finite morphisms, composition,
 cancellation, the symmetric product, étale locality, the

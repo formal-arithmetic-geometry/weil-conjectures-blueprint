@@ -10,10 +10,3 @@ In the situation of [prop-weight-purity], for every
 $0\leq i\leq2d$ the
 Frobenius module
 $H^i(X,\Qlb)$ is $\iota$-pure of weight $i$.
-
-## Proof
-
-Clause (4) of [thm-weil-deligne-purity] states that the
-geometric-Frobenius module $H^i(X,\Qlb)$ of the situation of
-[prop-weight-purity] is $\iota$-pure of weight $i$, in the sense
-of [def-weil-frobenius-module-weights].

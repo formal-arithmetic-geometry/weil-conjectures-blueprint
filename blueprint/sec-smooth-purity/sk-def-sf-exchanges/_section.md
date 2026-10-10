@@ -1,12 +1,11 @@
 +++
 id = "sk-def-sf-exchanges"
-kind = "section"
+kind = "definition"
 title = "Exchange and projection transformations, typed"
 order = 1500
 lean = ["AlgebraicGeometry.Etale.baseChange", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus", "AlgebraicGeometry.Etale.derivedBaseChangeMap", "AlgebraicGeometry.Etale.rightDerivedLowerShriekBaseChangeMap", "AlgebraicGeometry.Etale.projectionMap"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $f:X\to Y$ be separated of finite type with a Cartesian square (for
 $\operatorname{Ex}_*$ any commutative square suffices)
 

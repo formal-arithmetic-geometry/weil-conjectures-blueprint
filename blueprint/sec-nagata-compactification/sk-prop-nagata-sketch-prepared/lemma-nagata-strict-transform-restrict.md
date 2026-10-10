@@ -11,10 +11,3 @@ $f\colon Y\to X$ be a morphism. Over $X\setminus C$, the strict transform of
 $f$ is canonically the ordinary pullback $Y\times_X(X\setminus C)$.
 This identification is compatible with the projection to the original
 scheme.
-
-## Proof
-
-This is exactly
-[lemma-nagata-strict-transform-over-complement], applied to the ideal
-defining $C$. The compatibility with the projection is part of that
-canonical identification.

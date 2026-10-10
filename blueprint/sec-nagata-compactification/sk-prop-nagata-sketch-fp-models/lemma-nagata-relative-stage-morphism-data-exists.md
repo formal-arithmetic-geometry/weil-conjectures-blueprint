@@ -9,10 +9,3 @@ If $S$ is qcqs and $X\to S$ is locally of finite type with $X$
 quasi-compact and quasi-separated, then a finite-stage datum exists after enlarging both
 indices. Its chart maps use only finitely many coefficients and relations,
 and their base change to $S$ is the original morphism.
-
-## Proof
-
-Choose finite affine presentations of source and target charts. Their
-finitely many coefficients, structural maps, and overlap identities occur
-at one common stage by the finite-data lemma; enlarging both indices gives
-the required compatible datum and immersion charts.

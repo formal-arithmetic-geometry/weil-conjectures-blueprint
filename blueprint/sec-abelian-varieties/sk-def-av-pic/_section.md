@@ -1,13 +1,12 @@
 +++
 id = "sk-def-av-pic"
-kind = "section"
+kind = "definition"
 title = "$\\Pic$, degree, $\\Pic^0$"
 lean = ["AlgebraicGeometry.Scheme.Pic", "AlgebraicGeometry.Scheme.Hom.picZero"]
 order = 440
 uses = ["sec-nagata-compactification", "sk-def-curve"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $C$ be a scheme over a field $k$. We write $\Pic(C)$ for the set of
 invertible $\cO_C$-modules up to isomorphism (for $C$ a smooth projective
 geometrically integral curve this is the group $H^1(C_{\Et},\gm)$). The

@@ -1,12 +1,11 @@
 +++
 id = "sk-def-av-group-scheme"
-kind = "section"
+kind = "definition"
 title = "Group schemes, order, and étaleness"
 lean = ["CategoryTheory.GrpObj.ker", "AlgebraicGeometry.Scheme.Hom.finrankΓ"]
 order = 421
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $k$ be a field. A *group scheme* over $k$ is a group object
 in the category of $k$-schemes: a $k$-scheme $G$ with $k$-morphisms
 $m:G\times_kG\to G$ (multiplication), $e:\Spec k\to G$ (unit) and

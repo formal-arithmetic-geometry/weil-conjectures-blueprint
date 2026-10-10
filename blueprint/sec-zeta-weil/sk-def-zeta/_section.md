@@ -1,12 +1,11 @@
 +++
 id = "sk-def-zeta"
-kind = "section"
+kind = "definition"
 title = "The point-count zeta series"
 order = 2853
 lean = ["AlgebraicGeometry.Scheme.Hom.pointCount", "AlgebraicGeometry.Scheme.Hom.zetaSeries"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $k_0=\Fq$ be a finite field of characteristic $p$, with algebraic closure
 $k=\Fbar$, and let $X_0$ be a $k_0$-scheme. For $n\ge1$ let $\Fqn$ be the
 degree-$n$ extension of $k_0$ (the splitting field of $T^{q^{n}}-T$ over

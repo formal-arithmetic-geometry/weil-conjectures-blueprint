@@ -1,13 +1,12 @@
 +++
 id = "sk-def-pbc"
-kind = "section"
+kind = "definition"
 title = "The PBC property"
 order = 1047
 lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange"]
 uses = ["sk-def-conv", "sk-def-exchange"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $\Lambda$ be a commutative ring. For a morphism of schemes $f:X\to Y$,
 write $\mathrm{PBC}_\Lambda(f)$ if for every cartesian square of
 [sk-def-exchange] (every base change $g:Y'\to Y$ of $f$) and every object

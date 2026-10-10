@@ -18,11 +18,3 @@ $$
 
 form a finite open cover of
 $\operatorname{Bl}_I(\operatorname{Spec}A)$.
-
-## Proof
-
-The opens $D_+(f_it)$ cover by
-[lemma-nagata-rees-generators-cover-proj]. Replace each one by the
-affine spectrum supplied by [prop-nagata-affine-blowup-chart]. The
-compatibility of the open embeddings with the structure map is part of that
-chart isomorphism.

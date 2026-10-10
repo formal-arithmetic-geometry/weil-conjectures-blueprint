@@ -1,12 +1,11 @@
 +++
 id = "sk-def-pairing-data"
-kind = "section"
+kind = "definition"
 title = "The pairing data"
 order = 2416
 uses = ["sk-def-ops", "sk-def-sf-orientation"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 In the setting of [sk-def-ops], the *mixed-support cup product* is
 
 $$

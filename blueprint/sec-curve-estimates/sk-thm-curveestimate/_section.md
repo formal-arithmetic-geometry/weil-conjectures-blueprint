@@ -1,12 +1,11 @@
 +++
 id = "sk-thm-curveestimate"
-kind = "section"
+kind = "theorem"
 title = "Curve estimate"
 order = 1022
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-prop-cd", "sk-prop-h1", "sk-prop-h2", "sk-prop-jacobian", "sk-thm-av-final", "sk-thm-picard-duality", "sk-thm-picard-rr"]
+tags = ["sketch"]
 +++
-*Theorem (sketch).*
-
 Let $C$ be smooth proper connected (hence of dimension $1$,
 [sk-def-curve]; for $C=\Spec k$ one has $H^2(C,\Z/n)=0$ and the
 statement is false) of genus $g$ over algebraically

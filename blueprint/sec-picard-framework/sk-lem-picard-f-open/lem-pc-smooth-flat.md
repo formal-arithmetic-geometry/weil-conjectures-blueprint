@@ -7,9 +7,3 @@ uses = ["def-pc-morphism-conventions", "def-weil-scheme-morphism-properties", "l
 +++
 A smooth morphism of schemes is flat and locally of finite
 presentation.
-
-## Proof
-
-By [lem-pc-smooth-characterization] a smooth morphism is flat and
-locally of finite presentation (its fibres are also smooth, but we do
-not need this here).

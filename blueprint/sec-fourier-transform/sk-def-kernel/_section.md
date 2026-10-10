@@ -1,13 +1,12 @@
 +++
 id = "sk-def-kernel"
-kind = "section"
+kind = "definition"
 title = "The Fourier kernel and integrand"
 order = 2690
 lean = ["AlgebraicGeometry.Etale.fourierKernel"]
 uses = ["sk-def-as", "sk-def-fourier-set"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $\Lambda$ be a commutative ring in which $p$ is invertible, let
 $\pi:V\to S$ and $\pi':V'\to S$ be morphisms of schemes with
 $V\times_SV'$ of characteristic $p$, let

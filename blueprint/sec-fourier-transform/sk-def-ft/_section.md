@@ -1,13 +1,12 @@
 +++
 id = "sk-def-ft"
-kind = "section"
+kind = "definition"
 title = "The Fourier–Deligne transform"
 order = 2692
 lean = ["AlgebraicGeometry.Etale.fourierTransform"]
 uses = ["sk-def-kernel", "sk-lem-as-properties"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 With $\Lambda$, $\pi:V\to S$, $\pi':V'\to S$, $b$, $\Psi$ and the kernel
 $\mathcal K_\psi$ of [sk-def-kernel], let $p_1:V\times_SV'\to V$ and
 $p_2:V\times_SV'\to V'$ be the projections, assume $p_2$ admits a

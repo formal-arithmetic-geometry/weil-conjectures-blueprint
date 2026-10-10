@@ -17,15 +17,3 @@ $\operatorname{FullCD}$ needs no computation of geometric-point stalks,
 and the failure of conservativity of the geometric-point stalks recorded in
 clause (4) of [lem-cbc-proetale-stalk-conservative] does not obstruct
 it.
-
-## Proof
-
-The cohomology sheaves $\mathcal H^r(Rp_*\mathcal F)$ vanish for $r>c$
-if and only if their evaluations at all affine weakly contractible objects
-of $Y_{\Proet}$ vanish, by
-[lem-sf-proetale-vanishing-detection](i) applied on $Y_{\Proet}$;
-this is the first equivalence. The relative clause is the same statement
-applied to the base-changed morphisms $p_V$, with the same detection
-device on $V_{\Proet}$, which is legitimate because the base change of a
-proper finite-type morphism is proper of finite type. The last sentence
-restates the detection device used.

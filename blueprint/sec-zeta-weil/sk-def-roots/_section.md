@@ -1,12 +1,11 @@
 +++
 id = "sk-def-roots"
-kind = "section"
+kind = "definition"
 title = "Reciprocal roots, weights and integrality"
 order = 2858
 lean = ["Polynomial.IsPureOfWeight", "Polynomial.IsUniversallyPureOfWeight", "Polynomial.alternatingNatDegreeSum", "shiftSpan"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 With $P_i\in\Z[T]$ the integral factor that [sk-thm-intfactors] produces
 later put $b_i=\deg P_i$ and $P_i^{\#}(U)=U^{b_i}P_i(U^{-1})$. (Nothing here
 depends on that theorem: wherever these notions are used before it, they are

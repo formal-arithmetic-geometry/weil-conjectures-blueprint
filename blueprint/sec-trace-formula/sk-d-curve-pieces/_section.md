@@ -1,13 +1,12 @@
 +++
 id = "sk-d-curve-pieces"
-kind = "section"
+kind = "definition"
 title = "Curve coefficient pieces"
 order = 2339
 uses = ["sk-d-proper-pushforward", "sk-d-setup", "sk-d-six", "sk-d-weil"]
 lean = ["AlgebraicGeometry.ProEtale.WeilComplex.closedPiece", "AlgebraicGeometry.ProEtale.WeilComplex.openPiece"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let a Weil datum have $X_0$ smooth of pure
 dimension one. Fix $m\ge1$ and
 $x\in X_0(\mathbf F_{q^m})$. On $X$ let $i:\{\bar x\}\hookrightarrow X$

@@ -11,9 +11,3 @@ morphism of [def-weil-pbc-derived-exchange]; in particular for
 sheaves (complexes concentrated in degree $0$) with
 $\Lambda$-module structure it agrees with the exchange morphism of
 [def-weil-pbc-underived-exchange].
-
-## Proof
-
-Both morphisms are defined as the same adjoint mate of the same
-composite and are independent of the K-injective model
-(lem:weil-pbc-derived-exchange-replacement), so they agree.

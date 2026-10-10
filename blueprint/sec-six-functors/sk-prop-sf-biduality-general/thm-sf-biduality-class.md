@@ -26,18 +26,3 @@ same assertion holds for the uniform Tor intervals of the finite
 reductions. In particular the finite or integral dualizing object
 has interval $[-2\dim X,0]$. Field objects may be computed from
 any integral representative and then localized.
-
-## Proof
-
-The finite-stage anti-equivalence is [thm-fix-general-biduality],
-with its independent bound from
-[lem-weil-verdier-preservation-strata]. The normalized-tower
-argument and the integral evaluation comparison give
-[thm-coef-integral-verdier], including the same reduction bounds.
-Its domain is the whole integral constructible category by
-[lem-coef-integral-residue-tor].
-The exact scalar localization and the common finite coefficient
-stage give respectively [thm-coef-rational-verdier] and
-[thm-coef-qbar-verdier]. Those proofs transport the evaluation
-map itself, so the resulting isomorphism is the stated double-dual
-map at every coefficient stage.

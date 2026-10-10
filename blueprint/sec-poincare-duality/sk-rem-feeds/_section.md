@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-feeds"
-kind = "section"
+kind = "remark"
 title = "Where this feeds, and what remains"
 order = 2455
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Global duality and the pairing
 identification are cited directly as [sk-thm-sf-global-duality] and
 [sk-thm-sf-identification]; their degreewise field consequence is

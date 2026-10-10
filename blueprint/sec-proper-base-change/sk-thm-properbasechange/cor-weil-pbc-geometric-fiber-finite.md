@@ -23,10 +23,3 @@ $$
  (R^qf_*F)_{\bar y}\xrightarrow{\sim}
  H^q(X_{\bar y},F|_{X_{\bar y}}).
 $$
-
-## Proof
-
-Specialize [prop-weil-proet-finite-proper-base-change] to the cartesian square
-[def-weil-pbc-cartesian-square] defined by the geometric point $\bar y$, whose
-base change is $\operatorname{Spec}\Omega\to Y$; the second formula is the
-cohomological consequence for the sheaf $F$ placed in degree zero.

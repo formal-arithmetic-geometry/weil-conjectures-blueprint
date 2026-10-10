@@ -1,12 +1,11 @@
 +++
 id = "sk-def-curve"
-kind = "section"
+kind = "definition"
 title = "Curves and genus"
 lean = ["AlgebraicGeometry.IsCurve", "AlgebraicGeometry.Scheme.Hom.genus"]
 order = 417
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $k$ be a field (in this chapter algebraically closed). A *curve*
 over $k$ is a separated scheme of finite type over $k$ of dimension
 $\le1$; it is *smooth* (resp. *proper*) if its structure morphism is

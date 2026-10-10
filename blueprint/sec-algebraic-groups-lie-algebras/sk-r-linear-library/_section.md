@@ -1,12 +1,11 @@
 +++
 id = "sk-r-linear-library"
-kind = "section"
+kind = "remark"
 title = "The linear-algebra library"
 order = 2538
 uses = ["sk-d-linear"]
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Three standard facts about finite-dimensional representations over a field
 $k$; they are quoted, not proved here.
 

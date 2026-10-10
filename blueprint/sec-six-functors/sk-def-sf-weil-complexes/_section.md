@@ -1,12 +1,11 @@
 +++
 id = "sk-def-sf-weil-complexes"
-kind = "section"
+kind = "definition"
 title = "Strict Weil complexes"
 order = 2164
 lean = ["AlgebraicGeometry.Etale.WeilComplex"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 A *strict Weil complex* at $\Lambda$ on $X=X_0\times_{k_0}k$ is a pair
 $(K,\varphi)$ with $K\in\Dctf(X,\Lambda)$ and an isomorphism
 $\varphi:Lg_\gamma^*K\xrightarrow{\sim}K$ for the geometric-Frobenius

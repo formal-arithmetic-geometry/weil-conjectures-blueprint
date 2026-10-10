@@ -1,12 +1,11 @@
 +++
 id = "sk-def-groth-ss"
-kind = "section"
+kind = "definition"
 title = "Composable pair with acyclicity; the couple of a double complex"
 order = 597
 lean = ["CategoryTheory.Functor.IsAcyclicComposablePair", "CategoryTheory.SpectralSequence.Abutment"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $\mathcal A\xrightarrow{\,F\,}\mathcal B\xrightarrow{\,G\,}\mathcal C$
 be additive functors, where $\mathcal A$ and $\mathcal B$ are Grothendieck
 abelian categories (so they have enough injectives and the right derived

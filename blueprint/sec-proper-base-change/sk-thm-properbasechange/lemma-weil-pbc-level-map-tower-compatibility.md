@@ -26,12 +26,3 @@ d_{n+1,n}h'_{n+1}&=h'_nc_{n+1,n},&
 d_{n+1,n}v'_{n+1}&=v'_nb_{n+1,n}.
 \end{aligned}
 $$
-
-## Proof
-
-The first and third equations are the coefficient-tower equations for the
-two projection formulas. The second follows by tensor naturality of
-$\xi_K$ with respect to $q_n$. The last is naturality of the unit–counit
-exchange map with respect to $K_{n+1}\to K_n$. Expanded after adjunction,
-both sides of the last equation are the counit of $K$ followed by the same
-coefficient quotient. Hence all four equations hold componentwise.

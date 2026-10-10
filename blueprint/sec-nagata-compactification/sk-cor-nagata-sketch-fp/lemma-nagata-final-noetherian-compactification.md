@@ -7,10 +7,3 @@ uses = ["def-nagata-final-noetherian-compactification", "lemma-nagata-final-desc
 +++
 The constructed $C_{Y,\lambda_Y}$ is a compactification of
 $Y_{\lambda_Y}\to S_{\lambda_Y}$.
-
-## Proof
-
-The base is Noetherian and the descended morphism is separated and of
-finite presentation, hence of finite type. Therefore
-[thm-nagata-noetherian] applies to the
-explicitly selected recursive construction and gives the assertion.

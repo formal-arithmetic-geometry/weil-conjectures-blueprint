@@ -14,8 +14,3 @@ Rp_*(j_!E\otimes^LLp^*F^\bullet),
 $$
 
 with inverse $\rho_{p,j_!E,F}$.
-
-## Proof
-
-Apply the signed-totalization lemma to the morphism of ringed pro-etale
-topoi induced by $p$ and the object $j_!E$.

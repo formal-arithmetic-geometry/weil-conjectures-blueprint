@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-sf-typing"
-kind = "section"
+kind = "remark"
 title = "Typing table: ambient definition, small-category theorem"
 order = 2044
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 For each operation the second column is where it is *defined*, the third
 where it is *proved* to descend, with the statement that proves it.
 $\Dbc,\Dctf,D_c^{[a,b]}$ are as in [sk-def-sf-categories]; ``ét'' and

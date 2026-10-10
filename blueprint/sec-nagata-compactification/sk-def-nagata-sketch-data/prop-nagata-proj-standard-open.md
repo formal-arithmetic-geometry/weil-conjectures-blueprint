@@ -17,12 +17,3 @@ $$
 If a family $(f_i)$ of elements of $R$ generates an ideal containing the
 irrelevant ideal $R_+$, the $D_+(f_i)$ (the loci of homogeneous primes not
 containing $f_i$) cover $\operatorname{Proj}(R)$.
-
-## Proof
-
-The standard-open isomorphism is `Proj.basicOpenIsoSpec`.
-The cover assertion is
-`AlgebraicGeometry.Proj.iSup_basicOpen_eq_top`; its hypothesis
-that the chosen homogeneous family generates the irrelevant ideal is the
-assumption in the statement.
-Thus no independently glued affine scheme is being used.

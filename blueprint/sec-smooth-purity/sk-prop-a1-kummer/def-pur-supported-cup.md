@@ -23,9 +23,3 @@ read as an element of $H_{Z\cap W}^{a+b}(X,F\otimes^L_\Lambda G)$.
 The first identification is the stalkwise identification of the
 coefficient sheaves. Tensor and shifts are those
 of derived tensor.
-
-## Proof
-
-The first identification is well defined: each stalk of the coefficient
-sheaves is either $0$ or the free module $\Lambda$, so these sheaves are flat
-and their tensor is the coefficient sheaf on the intersection.

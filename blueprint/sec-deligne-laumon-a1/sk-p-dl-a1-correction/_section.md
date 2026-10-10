@@ -1,13 +1,12 @@
 +++
 id = "sk-p-dl-a1-correction"
-kind = "section"
+kind = "proposition"
 title = "The zero-extension comparison"
 order = 2767
 uses = ["sk-p-dl-a1-middle", "sk-p-dl-a1-perverse", "sk-p-real-semi"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.nonempty_fourierCorrection", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection.isLisse", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection.hasWeightsAtMost"]
+tags = ["sketch"]
 +++
-*Proposition (sketch).*
-
 Let $\psi$ be nontrivial. For an irreducible lisse $M$ (nonzero, with no
 lisse subsheaves other than $0$ and $M$) which is
 nonexceptional and punctually $\iota$-pure of weight $w$, put
@@ -24,19 +23,3 @@ $$
 
 The correction $B'$ is lisse on the entire dual line, with weights at
 most $w$.
-
-## Proof
-
-Rotate the triangle of $0\to j_!M\to j_*M\to B\to0$ to
-$B\to j_!M[1]\to j_*M[1]\to B[1]$. Its first three terms form a short
-exact sequence of curve perverse sheaves. Apply perverse Fourier
-exactness. Each punctual summand of $B$ transforms into a lisse
-Artin–Schreier kernel with its coefficient module, shifted by one;
-the middle-extension transform is $(j'_*M')[1]$. Ordinary cohomology
-gives the asserted concentration and exact sequence.
-
-At a boundary point $s$, $B_{\bar s}=(j_*M)_{\bar s}$ has weights at
-most $w$ by semicontinuity. The Artin–Schreier kernel has weight zero.
-For nonrational $s$, Frobenius permutes its geometric summands; taking
-a power around a permutation cycle gives the same normalized weight
-bound. Thus every summand, and hence $B'$, has weights at most $w$.

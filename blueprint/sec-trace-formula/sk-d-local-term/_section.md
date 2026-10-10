@@ -1,13 +1,12 @@
 +++
 id = "sk-d-local-term"
-kind = "section"
+kind = "definition"
 title = "Local terms"
 order = 2335
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-pairing", "sk-d-six", "sk-d-trace-class"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.localTerm"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $E$ be proper over $s$, let $\alpha:A_E\to\omega_E$ be a Borel–Moore
 section, and let $j_B:B\hookrightarrow E$ be an open immersion with closed
 image. The clopen piece $B$ cuts out an idempotent

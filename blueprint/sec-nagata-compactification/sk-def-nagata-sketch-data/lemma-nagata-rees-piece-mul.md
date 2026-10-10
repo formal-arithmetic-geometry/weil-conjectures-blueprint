@@ -13,9 +13,3 @@ $$
 \mathcal R_A(I)_m\cdot\mathcal R_A(I)_n
 \subseteq\mathcal R_A(I)_{m+n}.
 $$
-
-## Proof
-
-Write the two elements as $at^m$ and $bt^n$ with $a\in I^m$ and
-$b\in I^n$. Their product is $(ab)t^{m+n}$ and
-$ab\in I^mI^n=I^{m+n}$.

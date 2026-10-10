@@ -10,14 +10,3 @@ equivalences between the restrictions of $(R_{(f)})_0$ and
 $(R_{(g)})_0$ to the overlap indexed by $fg$. These equivalences are the
 identity for $f=g$, are inverse under exchange of $f$ and $g$, and satisfy
 the cocycle equality on the triple localization indexed by $fgh$.
-
-## Proof
-
-Use the canonical maps between the homogeneous localizations at $f$, $g$,
-and $fg$. On a representative $x/f^m$ each map sends the fraction to its
-image in the localization at $fg$; the localization relation proves
-independence of representatives. The identity, inverse, and triple
-cocycle equations follow because both sides are the same map into the
-localization at $fgh$. These are the compatibilities used by the verified
-declarations `Proj.basicOpenIsoSpec` and
-`Proj.affineOpenCover`.

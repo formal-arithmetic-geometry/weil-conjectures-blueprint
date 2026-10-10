@@ -12,11 +12,3 @@ $v\colon V\to T$ be a scheme-theoretically dominant morphism
 [def-nagata-scheme-theoretic-image] (for instance the inclusion of a
 scheme-theoretically dense open subscheme) with $a\circ v=b\circ v$. Then
 $a=b$.
-
-## Proof
-
-This is 01RH. Concretely, the equaliser of $a$ and $b$ is the
-base change of the diagonal $Y\to Y\times_S Y$ along
-$(a,b)\colon T\to Y\times_S Y$, hence a closed subscheme of $T$ because
-$Y\to S$ is separated; it contains $V$, which is scheme-theoretically dense, so
-it is all of $T$.

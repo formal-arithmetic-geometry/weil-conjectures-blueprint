@@ -1,13 +1,12 @@
 +++
 id = "sk-p-rankone"
-kind = "section"
+kind = "proposition"
 title = "Rank-one factorization"
 order = 2531
 uses = ["sk-d-ab-rankone"]
 lean = ["SemidirectProduct.eq_finitePart_mul_degreeCharacter", "SemidirectProduct.finitePart_inrOfAddOne", "SemidirectProduct.range_finitePart", "SemidirectProduct.finite_range_finitePart"]
+tags = ["sketch"]
 +++
-*Proposition (sketch).*
-
 Let $\chi:W\to A$ be a homomorphism into a commutative group $A$ (for a
 rank-one character, $A=E^\times$), and $z=\chi(\gamma)$.
 The functions $\chi_z$ and
@@ -21,14 +20,3 @@ for every $w\in W$. Moreover,
 $\chi_{\mathrm{fin}}(\gamma)=1$ and
 $\chi_{\mathrm{fin}}(W)=\chi(P)$; in particular, if $\chi$ has finite
 geometric image, then $\chi_{\mathrm{fin}}$ has finite image.
-
-## Proof
-
-The degree in [sk-d-ab-rankone] is additive, so
-$w\mapsto z^{\deg(w)}$ is a character. Since $E^\times$ is abelian,
-its quotient with $\chi$ is again a character. For the unique normal
-form $w=u\gamma^n$, multiplicativity gives
-$\chi_{\mathrm{fin}}(w)=\chi(u)z^nz^{-n}=\chi(u)$.
-Thus its image is exactly the assumed finite set $\chi(P)$.
-Its value at $\gamma$ is $1$, and the displayed factorization follows
-by cancellation.

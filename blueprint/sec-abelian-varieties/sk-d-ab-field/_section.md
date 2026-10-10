@@ -1,12 +1,11 @@
 +++
 id = "sk-d-ab-field"
-kind = "section"
+kind = "definition"
 title = "Finite fields, Frobenius and abelian varieties"
 lean = ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic", "AlgebraicGeometry.IsAbelianVariety"]
 order = 465
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Fix distinct primes $p,\ell$, an integer $a\ge1$, a field $k_0$ with
 $q=p^a$ elements, and an algebraic closure $\bar k$.
 Arithmetic Frobenius is $\sigma:x\mapsto x^q$ on $\bar k$; geometric

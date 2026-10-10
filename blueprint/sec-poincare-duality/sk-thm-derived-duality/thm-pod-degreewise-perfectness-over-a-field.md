@@ -18,7 +18,3 @@ H^{2d-i}\bigl(X,K^\vee (d)\bigr) \xrightarrow {\  \sim \  }H_c^i(X,K)^\vee
 $$
 
 – the adjoint of $\langle -,-\rangle _i$, the right side being the ordinary dual of a finite-dimensional $\Lambda$-vector space – is an isomorphism; equivalently each bilinear pairing $\langle -,-\rangle _i$ is perfect, and the line-valued pairing $H_c^i(X,K)\times H^{2d-i}(X,K^\vee )\to \Lambda (-d)$ is perfect degreewise.
-
-## Proof
-
-The derived duality of [thm-pod-derived-poincare-duality] is an isomorphism of perfect point complexes over the field $\Lambda$ (the field-stage case of [thm-pod-point-perfectness]). Apply $H^{-i}$ to both sides. On the right, $H^{-i}(C^\vee )\cong H^i(C)^\vee$ for $C=R\Gamma _c(X,K)$, a bounded complex of finite-dimensional vector spaces (the field-stage definition of perfectness, [def-pod-perfect-point-complex]), hence with bounded finite-dimensional cohomology by [lem-pod-perfect-point-complex-field], by [lem-pod-cohomology-of-dual-over-field]. On the left, $H^{-i}\bigl(R\Gamma (X,K^\vee (d))[2d]\bigr) =H^{2d-i}(X,K^\vee (d))$ by the shift convention. Hence the isomorphism and hence the perfectness of the degreewise pairings, the derived pairing being perfect by [thm-pod-derived-poincare-duality]; the line-valued form follows from the twist elimination of [prop-pod-degree-of-the-pairing].

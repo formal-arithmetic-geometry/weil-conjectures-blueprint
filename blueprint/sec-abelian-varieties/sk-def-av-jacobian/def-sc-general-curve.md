@@ -25,10 +25,3 @@ algebraically closed conventions of the smooth-curve chapter, and
 $g(C)=g(C_{k'})$ with the genus of [def-sc-genus]; in particular the
 degree and $\operatorname{Pic}^0$ conventions of [def-sc-pic0] apply to
 $C_{k'}$.
-
-## Proof
-
-The genus is finite because coherent cohomology of a proper scheme over a
-field is finite-dimensional. It is invariant under base change,
-$g(C_{k'})=g(C)$, by flat base change along the base change
-$C_{k'}\to C$ of [def-pc-base-change].

@@ -1,13 +1,12 @@
 +++
 id = "sk-def-sf-kv-maps"
-kind = "section"
+kind = "definition"
 title = "The product comparison maps"
 order = 2222
 uses = ["sec-smooth-purity", "sk-def-sf-admissible", "sk-def-sf-exchanges", "sk-def-sf-operations", "sk-thm-sf-kunneth-relative"]
 lean = ["AlgebraicGeometry.Etale.HasKunnethComparisons"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For $i=1,2$ let $f_i:X_i\to Y_i$ be separated of finite type between
 finite-type $k$-schemes, with $Rf_i^!$ the constructible exceptional adjoints
 of [sk-def-sf-operations](vi) (no admissibility datum of

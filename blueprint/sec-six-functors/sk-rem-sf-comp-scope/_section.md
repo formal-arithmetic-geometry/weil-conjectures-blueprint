@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-sf-comp-scope"
-kind = "section"
+kind = "remark"
 title = "Scope of the coherence"
 order = 2168
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 The argument tests geometric stalks and therefore proves the coherence on the
 étale-origin complexes $\nu_X^*D^+(X_{\Et},\Lambda)$ — the range in which
 [sk-def-sf-operations] (iv) asserts compactification-independence.

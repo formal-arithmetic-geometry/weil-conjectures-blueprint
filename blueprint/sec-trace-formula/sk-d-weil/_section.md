@@ -1,13 +1,12 @@
 +++
 id = "sk-d-weil"
-kind = "section"
+kind = "definition"
 title = "Frobenius and Weil data"
 order = 2294
 uses = ["sk-d-corr", "sk-d-operator", "sk-d-setup", "sk-d-six"]
 lean = ["AlgebraicGeometry.ProEtale.WeilComplex"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $X$ be a scheme over $s$. A *Weil complex* on $X$ consists of an
 endomorphism $\Phi_1:X\to X$ over $s$ (so it fixes the scalar field $k$), a
 complex $K\in D(X,A)$, and a *Frobenius coefficient morphism*

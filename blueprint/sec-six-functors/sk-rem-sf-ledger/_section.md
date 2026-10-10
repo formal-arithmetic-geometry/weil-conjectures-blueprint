@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-sf-ledger"
-kind = "section"
+kind = "remark"
 title = "Ledger: what is unconditional, what is conditional, what is open"
 order = 2257
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 *Unconditional*: clauses (2), (3), (4), (7), (8) of
 [sk-thm-sf-package] except for the residues named below; the orientation
 clause (5); the perfect case of clause (6); every statement of

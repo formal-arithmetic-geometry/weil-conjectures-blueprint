@@ -11,10 +11,3 @@ The ideal $\mathcal I_Y(W)$ is finite type and quasi-coherent, and
 $$
 V(\mathcal I_Y(W))=Y\setminus W.
 $$
-
-## Proof
-
-The witness supplied by
-[lemma-nagata-qc-open-complement-ideal-exists] has exactly these
-fields, and the definition selects its ideal component. Projecting those
-fields proves the statement.

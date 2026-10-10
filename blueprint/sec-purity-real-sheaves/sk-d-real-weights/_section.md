@@ -1,13 +1,12 @@
 +++
 id = "sk-d-real-weights"
-kind = "section"
+kind = "definition"
 title = "Local weights and reality"
 order = 2588
 uses = ["sk-d-real-setup", "sk-d-real-weil"]
 lean = ["AlgebraicGeometry.WeilGroup.IsPunctuallyPure", "AlgebraicGeometry.WeilGroup.frobeniusWeight", "AlgebraicGeometry.WeilGroup.localPolynomial", "AlgebraicGeometry.WeilGroup.HasWeightsAtMost", "AlgebraicGeometry.WeilGroup.IsReal"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For a Weil sheaf $\mathcal F$, given by a representation $\rho$ of
 $W(C_0)$ on a finite-dimensional $\Qlb$-vector space $V$,
 and a closed point $x$ with local Frobenius $F_x$ of [sk-d-real-weil], use the

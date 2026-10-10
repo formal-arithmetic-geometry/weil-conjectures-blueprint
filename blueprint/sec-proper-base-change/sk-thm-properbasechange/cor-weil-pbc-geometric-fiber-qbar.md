@@ -16,8 +16,3 @@ $$
 For a representative $(E,K_E)$, this is represented over a finite overfield
 by the finite-extension formula of
 [cor-weil-pbc-geometric-fiber-finite-extension] applied to $T_{M/E}K_E$.
-
-## Proof
-
-Specialize [thm-weil-pbc-qbar] to the geometric-point base change; the
-representative statement is the displayed form in [thm-weil-pbc-qbar].

@@ -1,13 +1,12 @@
 +++
 id = "sk-i-additivity"
-kind = "section"
+kind = "proposition"
 title = "Localization trace additivity"
 order = 2351
 uses = ["sk-d-curve-pieces", "sk-d-integral", "sk-d-local-term", "sk-d-trace-class"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.traceClass_graph_eq_traceClass_add_traceClass"]
+tags = ["sketch"]
 +++
-*Proposition (sketch).*
-
 Let $s$ be the spectrum of a field, $X$ quasi-compact and compactifiable over
 $s$, and let $(K,\varphi)$ be a Weil complex on $X$ in the sense of [sk-d-weil],
 with $K\in D^b_{ctf}(X,A)$ and arbitrary (not necessarily invertible) Frobenius
@@ -24,16 +23,3 @@ $$
 $$
 
 as maps $A_F\to\omega_F$ on the fixed scheme $F=\Fix(1,\Phi_m)$.
-
-## Proof
-
-The three coefficient morphisms form a morphism of the distinguished
-triangle attached to the open–closed decomposition, compatibly with the
-two functors $Lc_2^*$ and $Rc_1^!$. Triangle compatibility of the trace
-class then gives the identity for the classes themselves, in the group of
-maps $A_F\to\omega_F$ on the fixed scheme. Since the fixed scheme is proper
-with finitely many clopen components and integration is $A$-linear by
-[sk-d-integral], the identity descends to the
-local terms component by component. No
-invertibility of the coefficient morphisms is used: only exactness and the
-formal laws of the trace enter.

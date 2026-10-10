@@ -1,11 +1,10 @@
 +++
 id = "sk-audit-what-is-elementary-in-this-layer-and-what-is-not--remark-1"
-kind = "section"
+kind = "remark"
 title = "Remark"
 order = 2941
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 *Consequence for the sketch.* Because the layer is elementary apart from
 the four points above, a proof sketch of the passage from the three abstract
 inputs to the five Weil conjectures can be written once and for all, with the

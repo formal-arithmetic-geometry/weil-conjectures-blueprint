@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-absent"
-kind = "section"
+kind = "remark"
 title = "What is deliberately absent, and why"
 order = 2719
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Three things that a reader of the compiled Fourier–Deligne chapter might expect are
 *not* in this file, on purpose. (i) The purity of the kernel
 ($\mathcal K_\psi$ punctually $\iota$-pure of weight $0$) is a weight-theoretic

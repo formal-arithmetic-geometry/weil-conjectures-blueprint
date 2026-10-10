@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-split"
-kind = "section"
+kind = "remark"
 title = "What sits where"
 order = 2036
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 The five moves are the whole proof. Conveniently located: the
 rank-one computation (Kummer $c_1$, excision, Gysin identification of
 $Rs^{!}(1)[2]$ with $H^2_s$) — inside [sk-prop-a1-kummer], proved from

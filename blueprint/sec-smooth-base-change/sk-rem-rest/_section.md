@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-rest"
-kind = "section"
+kind = "remark"
 title = "Classical form and the following sections"
 order = 1418
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 *Classical form* ([sk-def-bc] with the roles of $f$ and $g$
 exchanged): if $g$ is smooth and $f$ qcqs, then
 $g^{-1}R^qf_*\mathcal F\cong R^qf'_*v^{-1}\mathcal F$ for

@@ -1,13 +1,12 @@
 +++
 id = "sk-def-trace"
-kind = "section"
+kind = "definition"
 title = "The trace function, and the classical Fourier transform"
 order = 2688
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.traceFunction"]
 uses = ["sk-def-char", "sk-def-fourier-set"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For a Weil complex $K$ on a separated finite-type $k_0$-scheme and an
 $\mathbf F_{q^n}$-point $x$,
 

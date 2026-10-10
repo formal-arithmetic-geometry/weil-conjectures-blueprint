@@ -12,10 +12,3 @@ $\mathbf F_r$ satisfies $\mathcal C_6(C,\mathbf F_r)$ of
 [def-weil-pbc-eight-curve-assertions]: the pullback maps
 $\rho^q_{k'/k}(C,\mathbf F_r)$ of [def-sc-field-extension] are
 isomorphisms for every $q\geq0$.
-
-## Proof
-
-This is the invariant part of [thm-sc-constant-invariance]
-(applied to $n=r$); the maps are the pullback maps of
-[def-sc-field-extension] and agree with those fixed in
-[def-weil-pbc-eight-curve-assertions].

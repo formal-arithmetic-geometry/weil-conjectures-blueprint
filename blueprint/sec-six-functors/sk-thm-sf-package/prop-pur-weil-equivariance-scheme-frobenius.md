@@ -11,11 +11,3 @@ Precomposing the vertical maps of the three squares of
 corresponding $\kappa_X$ or $\kappa_Y$ of
 [def-pur-scheme-geometric-frobenius] gives the same three squares
 for the scheme-Frobenius maps $u_N$.
-
-## Proof
-
-The isomorphisms $\kappa_X,\kappa_Y$ of
-[def-pur-scheme-geometric-frobenius] identify $L\Phi^*$ with
-$Lg_\gamma^*$ compatibly with the pullback-composition identifications
-and with $f$, so precomposing the vertical maps preserves the
-commutativity of the squares.

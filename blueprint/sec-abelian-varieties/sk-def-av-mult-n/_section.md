@@ -1,12 +1,11 @@
 +++
 id = "sk-def-av-mult-n"
-kind = "section"
+kind = "definition"
 title = "Multiplication by $n$ and $n$-torsion"
 lean = ["AlgebraicGeometry.torsionSubgroupScheme"]
 order = 433
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $A$ be a group scheme over $k$ and $n\ge0$. The $n$-th
 *multiplication map* $[n]:A\to A$ is the $n$-th power map, given on
 points by $a\mapsto a+\dots+a$ ($n$ summands), and the $n$-th

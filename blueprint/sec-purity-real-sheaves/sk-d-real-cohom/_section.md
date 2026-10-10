@@ -1,13 +1,12 @@
 +++
 id = "sk-d-real-cohom"
-kind = "section"
+kind = "definition"
 title = "Cohomology and the Euler series"
 order = 2602
 uses = ["sec-smooth-purity", "sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil"]
 lean = ["AlgebraicGeometry.WeilGroup.eulerSeries"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 For any abelian sheaf $A$ on the etale site, ordinary cohomology means
 $H^i(C,A)=R^i\Gamma(C,A)$, computed by an injective resolution.
 For a constructible Weil sheaf $\mathcal K$ on a

@@ -12,7 +12,3 @@ same as that of $T'$: pullback along $T''\to T'$ induces an
 isomorphism of sites, hence an equivalence of the categories of
 etale sheaves identifying the
 cohomology of the two schemes.
-
-## Proof
-
-This is classical, Stacks Project, Etale Cohomology, Proposition 59.45.4 ([Tag 03SI](https://stacks.math.columbia.edu/tag/03SI)): a thickening induces an isomorphism of small etale sites, hence an equivalence of the categories of etale sheaves identifying the cohomology of the two schemes. No separate proof is given.

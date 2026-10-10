@@ -21,15 +21,3 @@ $D=\max_Ud_U$ and $c_U=2\,(d_U+\dim Y)$. Then $Rf^!$ carries
 $D_c^{[a,b]}(Y,A)$ into $D_c^{[a-2D,b-2D+c]}(X,A)$ for
 $c=\max_U\bigl(c_U+1+2(D-d_U)\bigr)$, and it carries finite Tor
 amplitude in $[a,b]$ to finite Tor amplitude in $[a-2D,b-2D+c]$.
-
-## Proof
-
-For each chart the target $\mathbf A^{d_U}_V$ of the chartwise
-presentation is of finite type over $k$ of dimension
-$d_U+\dim V\leq d_U+\dim Y$. The open complement $W_U$ of $U$ in it
-therefore satisfies the open-complement condition with constant
-$2(d_U+\dim V)$ by [lem-exc-open-complement-known], hence also with
-the larger constant $c_U=2(d_U+\dim Y)$, the condition being monotone
-in its constant. The hypothesis of
-[thm-pur-general-admissibility] is thus satisfied with these
-constants, and its conclusion is the assertion.

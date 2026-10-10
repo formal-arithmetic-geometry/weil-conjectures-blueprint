@@ -14,11 +14,3 @@ of [def-sf-datum] (i.e. the ambient right adjoints of
 preservation clause (3)). Then the mate of the composition isomorphism
 $R(gf)_!\cong Rg_!Rf_!$ of [thm-sf-comp-composition] under these adjunctions is the isomorphism $(gf)^!\cong f^!g^!$, and the
 units and counits of the composite adjunctions are the pasted ones.
-
-## Proof
-
-The pasting of the units and counits is recorded in
-[fix-prop-adjunctions]: the functoriality of the mate construction
-gives the isomorphism of right adjoints from the isomorphism of left
-adjoints $R(gf)_!\cong Rg_!Rf_!$, and the triangle identities of the
-composite are the composites of the component ones.

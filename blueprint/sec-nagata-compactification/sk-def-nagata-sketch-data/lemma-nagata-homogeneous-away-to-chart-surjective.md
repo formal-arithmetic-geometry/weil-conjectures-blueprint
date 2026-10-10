@@ -6,8 +6,3 @@ order = 31
 uses = ["lemma-nagata-chart-ring-normal-form", "lemma-nagata-homogeneous-away-to-chart"]
 +++
 The constructed map $\theta_a$ is surjective.
-
-## Proof
-
-A normal-form element $x/a^n$ is the image of
-$(xt^n)/(at)^n$.

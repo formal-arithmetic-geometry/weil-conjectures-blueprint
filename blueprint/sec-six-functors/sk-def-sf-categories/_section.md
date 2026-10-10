@@ -1,13 +1,12 @@
 +++
 id = "sk-def-sf-categories"
-kind = "section"
+kind = "remark"
 title = "Ambient categories and small subcategories"
 order = 2040
 uses = ["sk-def-sf-operations"]
 lean = ["AlgebraicGeometry.Etale.DerivedCategoryFiniteTor"]
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Fix a scheme $T$ carrying a coefficient stage $\Lambda$ and a site — the
 *small étale* or the *small pro-étale* site of
 def:weil-pbc-etale-site and def:weil-pbc-proetale-site. The

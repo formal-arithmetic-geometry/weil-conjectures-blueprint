@@ -1,12 +1,11 @@
 +++
 id = "sk-def-nagata-sketch-data"
-kind = "section"
+kind = "definition"
 title = "Compactification and admissible blow-up"
 order = 3
 lean = ["AlgebraicGeometry.Compactification", "AlgebraicGeometry.IsSchemeTheoreticallyDominant", "AlgebraicGeometry.IsAdmissible"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 A *compactification* of $f:X\to S$ is a factorization
 
 $$

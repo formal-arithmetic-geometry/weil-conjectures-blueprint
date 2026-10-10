@@ -1,12 +1,11 @@
 +++
 id = "sk-def-smooth"
-kind = "section"
+kind = "definition"
 title = "Smooth and allowed coefficients"
 order = 1373
 lean = ["AlgebraicGeometry.Scheme.IsTorsionSheafOfInvertibleOrder"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 A morphism is *smooth* if it is flat, locally of finite
 presentation and its geometric fibres are smooth varieties. A sheaf
 of $\Lambda$-modules on $T_{\Et}$, for a scheme $T$ and a commutative

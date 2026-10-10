@@ -1,12 +1,11 @@
 +++
 id = "sk-def-conv"
-kind = "section"
+kind = "definition"
 title = "Scheme and morphism conventions"
 order = 1
 lean = ["AlgebraicGeometry.IsProper", "AlgebraicGeometry.IsFinite", "AlgebraicGeometry.IsImmersion", "AlgebraicGeometry.Etale"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 A morphism $f:X\to Y$ is *proper* if it is separated, locally of finite
 type and universally closed; *finite* if it is affine and
 $f_*\mathcal O_X$ is a finite $\mathcal O_Y$-algebra; an

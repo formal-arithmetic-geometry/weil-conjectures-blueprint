@@ -6,7 +6,3 @@ order = 1531
 +++
 A flat morphism locally of finite presentation is an open map, and the same
 holds after every base change.
-
-## Proof
-
-Omitted; the statement is already in Mathlib.

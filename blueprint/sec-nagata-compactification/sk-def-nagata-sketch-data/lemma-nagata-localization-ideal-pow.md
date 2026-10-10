@@ -13,8 +13,3 @@ $$
 $$
 
 In particular $(I^n)A_s=(IA_s)^n$ for $s\in A$.
-
-## Proof
-
-Extension of ideals along a ring homomorphism preserves products and the
-unit ideal. Induct on $n$.

@@ -1,13 +1,12 @@
 +++
 id = "sk-d-pairing"
-kind = "section"
+kind = "definition"
 title = "The supported pairing recipe"
 order = 2308
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-thm-sf-kunneth-verdier"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.supportedPairing"]
+tags = ["sketch"]
 +++
-*Definition (sketch).*
-
 Let $s$ be the spectrum of a field, $X,Y$ quasi-compact and compactifiable over
 $s$, $K\in D^b_{ctf}(X,A)$ and $L\in D^b_{ctf}(Y,A)$.
 For an opposite pair, use the inverse

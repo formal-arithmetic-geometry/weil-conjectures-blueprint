@@ -1,11 +1,10 @@
 +++
 id = "sk-rem-sf-kv-formal"
-kind = "section"
+kind = "remark"
 title = "What is formal and what is not"
 order = 2229
+tags = ["sketch"]
 +++
-*Remark (sketch).*
-
 Given biduality [sk-prop-sf-biduality-general], the Verdier exchange
 [sk-thm-sf-verdier-exchange] has as its adjoint
 $Rf^!\cong\mathbb D_X\,Lf^*\,\mathbb D_Y$, and the internal adjunction
