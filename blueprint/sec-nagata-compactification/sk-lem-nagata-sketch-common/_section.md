@@ -3,7 +3,6 @@ id = "sk-lem-nagata-sketch-common"
 kind = "lemma"
 title = "Common modification"
 order = 234
-uses = ["sk-lem-nagata-sketch-blowups", "sk-lem-nagata-sketch-elimination"]
 lean = ["AlgebraicGeometry.nonempty_commonModification"]
 tags = ["sketch"]
 +++

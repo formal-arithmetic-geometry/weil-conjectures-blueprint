@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-p-exterior"
+uses = ["sk-d-monodromy", "sk-p-central", "sk-p-linear-filtration", "sk-p-readout"]
 +++
 *Reduction to a degree datum.* If $\deg$ is trivial, then $W=P$ and every
 representation with finite geometric determinant has weight $0$: its

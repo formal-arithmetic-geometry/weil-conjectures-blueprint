@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-pc-zero-scheme-recd"
+uses = ["lem-pc-zero-scheme-properties"]
 +++
 $\mathcal{M}:=\mathcal{L}\otimes f_T^*\mathcal{N}^{-1}$ is an invertible module on $X_T$ and
 $s\in H^0(X_T,\mathcal{M})$. By

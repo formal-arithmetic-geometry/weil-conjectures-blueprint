@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-admissible-blowup-comp"
+uses = ["def-nagata-composition-of-blowups-comparison", "lemma-nagata-composition-center-ideal", "lemma-nagata-composition-extended-ideal-equality", "thm-nagata-composition-of-blowups"]
 +++
 Both centers $\mathcal I_1$ and $\mathcal I_2$ are of finite type, so
 [thm-nagata-composition-of-blowups], applied to $\mathcal I=\mathcal I_1$

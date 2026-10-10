@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-weil-pbc-finite-morphism"
+uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-underived-exchange", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-exchange"]
 +++
 Every base change $f':X'\to Y'$ of the finite morphism $f$ is finite. For a
 cartesian square with $f$ on the right and $g$ arbitrary,

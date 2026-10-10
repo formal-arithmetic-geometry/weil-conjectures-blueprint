@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Existence of a stage where a finite-presentation map is closed"
 order = 364
 lean = ["AlgebraicGeometry.Scheme.exists_isClosedImmersion_overPullbackMap"]
-uses = ["lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-filtered-colimit-finite-data"]
+uses = ["lemma-nagata-filtered-colimit-finite-data"]
 +++
 Let $(S_\lambda)$ be a cofiltered inverse system of schemes with affine
 transition maps and limit $S$. Let $g_\lambda\colon Z_\lambda\to Y_\lambda$

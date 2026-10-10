@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Finite descent compatibility"
 order = 1083
 lean = ["AlgebraicGeometry.Etale.globalSectionsUpperStarMap_descent"]
-uses = ["def-weil-pbc-finite-section-pullback", "lemma-weil-pbc-finite-pullback-closed-fibre", "lemma-weil-pbc-finite-pullback-composition"]
+uses = ["def-weil-pbc-finite-section-pullback", "lemma-weil-pbc-finite-pullback-composition"]
 +++
 Let $u:T'\to T$ be a morphism of schemes (in the applications finite
 surjective) and $G$ an etale sheaf on $T$ (with values in $\mathcal A$ as in

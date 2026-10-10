@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sf-package"
+uses = ["sk-def-sf-kv-maps", "sk-prop-sf-biduality-general", "sk-prop-sf-existence", "sk-prop-sf-pf-coherence", "sk-thm-sf-comp-composition", "sk-thm-sf-ctf-stability", "sk-thm-sf-kunneth-verdier", "sk-thm-sf-verdier-exchange"]
 +++
 Every clause is one of the propositions of §§ *What the earlier chapters prove* or
 §§ *What this section proves*, with the following assembly.

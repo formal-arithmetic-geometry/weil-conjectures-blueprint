@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-nagata-compactification"
+uses = ["def-nagata-compactifiable", "lemma-nagata-final-basechanged-compactification", "prop-nagata-closed-subscheme-compactifiable", "prop-nagata-finite-type-closed-in-fp"]
 +++
 By [prop-nagata-finite-type-closed-in-fp], $f$ factors as the closed
 immersion $i_f^{\mathrm{fp}}\colon X\hookrightarrow X_f^{\mathrm{fp}}$

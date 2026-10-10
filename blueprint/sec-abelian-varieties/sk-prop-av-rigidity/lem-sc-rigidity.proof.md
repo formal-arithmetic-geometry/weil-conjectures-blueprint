@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-sc-rigidity"
+uses = ["lem-sc-constant-locus-closed"]
 +++
 *Classical references: Milne, Abelian Varieties, Ch. I (the
 rigidity lemma); Mumford, Abelian Varieties, II.6 (both over an

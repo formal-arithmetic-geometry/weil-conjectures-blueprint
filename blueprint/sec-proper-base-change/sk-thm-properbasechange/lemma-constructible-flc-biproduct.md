@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Finite direct sums"
 order = 1295
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.biprod", "AlgebraicGeometry.Scheme.IsFiniteSheaf.biprod", "AlgebraicGeometry.Scheme.IsLocallyConstantSheaf.biprod", "CategoryTheory.Sheaf.IsConstant.biprod"]
-uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-kun-separably-closed", "lemma-constructible-common-refinement", "lemma-constructible-pullback-constant", "lemma-constructible-pullback-locally-constant"]
+uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "lemma-constructible-common-refinement"]
 +++
 Finite direct sums of finite locally constant sheaves are finite locally
 constant; the same holds for locally constant sheaves, for finite

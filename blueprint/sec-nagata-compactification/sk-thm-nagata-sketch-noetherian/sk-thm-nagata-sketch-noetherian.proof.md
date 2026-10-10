@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-nagata-sketch-noetherian"
+uses = ["sk-lem-nagata-sketch-affine-cover"]
 +++
 Compactify the affine opens from [sk-lem-nagata-sketch-affine-cover].
 Induct on $X_r=U_1\cup\cdots\cup U_r$. The overlap

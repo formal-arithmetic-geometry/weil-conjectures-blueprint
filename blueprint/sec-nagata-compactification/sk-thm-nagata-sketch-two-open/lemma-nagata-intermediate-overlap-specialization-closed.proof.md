@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-intermediate-overlap-specialization-closed"
+uses = ["lemma-nagata-proper-extension-graph-closed"]
 +++
 Let a point of the image specialize to $(u,x)$ in the displayed target. If
 $u\notin U_i$, then

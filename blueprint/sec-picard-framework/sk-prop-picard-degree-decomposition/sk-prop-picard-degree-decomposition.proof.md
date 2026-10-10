@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-picard-degree-decomposition"
+uses = ["sk-def-av-pic"]
 +++
 The projection $C\times_k\underline{\Pic}_{C/k}\to\underline{\Pic}_{C/k}$
 is proper and flat and $\cL_{\mathrm{univ}}$ is invertible, hence flat

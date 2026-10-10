@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-p-real-semi"
+uses = ["sk-d-real-series", "sk-p-linear-spectra"]
 +++
 Fix a boundary point and replace $C_0$ by an affine neighborhood.
 The stalk in [sk-d-real-boundary], [sk-i-real-boundary] is unchanged.

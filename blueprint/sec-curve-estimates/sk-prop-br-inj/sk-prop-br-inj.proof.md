@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-br-inj"
+uses = ["sk-prop-divisor-gen"]
 +++
 Take the long exact cohomology sequence of [sk-prop-divisor-gen].
 The third term is a direct sum of the sheaves $i_{x*}\Z$, and

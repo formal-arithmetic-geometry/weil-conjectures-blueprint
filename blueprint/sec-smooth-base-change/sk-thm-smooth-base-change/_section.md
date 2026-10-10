@@ -3,7 +3,7 @@ id = "sk-thm-smooth-base-change"
 kind = "theorem"
 title = "Smooth base change"
 order = 1416
-uses = ["sk-def-bc", "sk-def-smooth", "sk-lem-induction", "sk-prop-deg0", "sk-prop-input-spreading", "sk-prop-input-torsors"]
+uses = ["sk-def-bc", "sk-def-smooth", "sk-prop-input-spreading", "sk-prop-input-torsors"]
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_smooth"]
 tags = ["sketch"]
 +++

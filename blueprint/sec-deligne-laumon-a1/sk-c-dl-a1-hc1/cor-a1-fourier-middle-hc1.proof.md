@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "cor-a1-fourier-middle-hc1"
+uses = ["cor-fd-origin-stationary-phase", "prop-a1-fourier-middle-extension"]
 +++
 *Step 1: the transform of the middle extension.* Since $\psi$ is
 nontrivial and $\mathcal M$ is an irreducible (in particular nonzero)

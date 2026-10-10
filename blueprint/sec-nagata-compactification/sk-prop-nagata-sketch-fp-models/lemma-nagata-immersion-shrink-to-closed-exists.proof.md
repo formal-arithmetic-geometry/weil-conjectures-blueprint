@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-immersion-shrink-to-closed-exists"
+uses = ["lem-weil-pbc-closed-immersion-from-composite"]
 +++
 Factor the immersion as a closed immersion $X\hookrightarrow U$ followed by
 an open immersion $U\hookrightarrow Y$. The image of the quasi-compact

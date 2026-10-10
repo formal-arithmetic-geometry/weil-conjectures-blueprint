@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-extend-admissible-blowup"
+uses = ["def-nagata-constructible-closed-support", "def-nagata-effective-cartier-ideal", "def-nagata-finite-type-ideal-extension", "def-nagata-invertible-ideal", "def-nagata-qc-open-complement-ideal", "lemma-nagata-constructible-closed-support", "lemma-nagata-dense-flat-pullback", "lemma-nagata-extend-finite-type-ideal", "lemma-nagata-finite-type-ideal-extension-exists", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
 +++
 By [lemma-nagata-extend-finite-type-ideal], the ideal
 $\mathcal I_X(\mathcal J)$ is finite type, restricts to $\mathcal J$ on

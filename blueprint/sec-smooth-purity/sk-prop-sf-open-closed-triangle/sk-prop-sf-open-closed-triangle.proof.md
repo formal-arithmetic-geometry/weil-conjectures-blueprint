@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-sf-open-closed-triangle"
+uses = ["sk-def-sf-operations"]
 +++
 *The sequence is a complex, naturally in $F$.* Both maps are components of
 natural transformations (the counit of $j_!\dashv j^*$ and the unit of

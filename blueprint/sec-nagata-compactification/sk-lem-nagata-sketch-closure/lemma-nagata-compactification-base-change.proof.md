@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-compactification-base-change"
+uses = ["def-nagata-compactification", "def-nagata-compactification-base-change"]
 +++
 Let $C=(X\xrightarrow{j}\overline X\xrightarrow{p}S)$. Open immersions and
 proper morphisms are stable under arbitrary base change, so

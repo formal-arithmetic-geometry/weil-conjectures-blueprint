@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-immersion-into-fp-model"
+uses = ["def-nagata-noetherian-inverse-system", "prop-nagata-noetherian-inverse-system"]
 +++
 This is the argument of Tag 01ZE. It uses only a Noetherian approximation of
 $X$ itself, not the relative stage data of

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Identity and cocycle laws for affine restriction"
 order = 47
 lean = ["AlgebraicGeometry.AffineBlowup.hom_comp"]
-uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-localization-mul", "lemma-nagata-rees-localization-one", "lemma-nagata-rees-piece-membership", "prop-nagata-affine-blowup-restrict", "prop-nagata-rees-graded"]
+uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "lemma-nagata-rees-localization-mul", "lemma-nagata-rees-localization-one", "prop-nagata-affine-blowup-restrict"]
 +++
 Let $\varphi\colon A\to B$ and $\psi\colon B\to C$ be ring homomorphisms and
 let $I\subseteq A$, $J\subseteq B$, $K\subseteq C$ be ideals with

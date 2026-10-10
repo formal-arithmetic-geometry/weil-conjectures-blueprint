@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-nagata-affine-blowup-chart-cover"
+uses = ["lemma-nagata-rees-piece-membership"]
 +++
 The opens $D_+(f_it)$ cover by
 [lemma-nagata-rees-generators-cover-proj]. Replace each one by the

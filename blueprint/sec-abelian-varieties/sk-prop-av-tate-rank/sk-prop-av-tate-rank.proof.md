@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-av-tate-rank"
+uses = ["sk-prop-av-divisible"]
 +++
 By [sk-prop-av-ntorsion-etale] each level is
 $A[\ell^n](k)\cong(\Z/\ell^n\Z)^{2g}$, and by [sk-prop-av-divisible]

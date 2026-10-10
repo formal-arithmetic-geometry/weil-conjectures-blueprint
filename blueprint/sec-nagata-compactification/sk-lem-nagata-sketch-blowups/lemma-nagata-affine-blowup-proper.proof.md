@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-affine-blowup-proper"
+uses = ["prop-nagata-rees-finite-generation"]
 +++
 By [def-nagata-affine-blowup], the affine blow-up is
 $\operatorname{Proj}(\mathcal R_A(I))\to\operatorname{Spec}A$, the

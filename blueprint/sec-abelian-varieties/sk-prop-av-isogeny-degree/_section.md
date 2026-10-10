@@ -4,7 +4,7 @@ kind = "proposition"
 title = "The degree of an isogeny is the degree of the kernel"
 lean = ["AlgebraicGeometry.IsIsogeny.finrank_eq", "AlgebraicGeometry.IsIsogeny.isFinite", "AlgebraicGeometry.IsIsogeny.flat"]
 order = 556
-uses = ["sk-def-av", "sk-def-av-group-scheme", "sk-def-av-isogeny", "sk-def-av-pic", "sk-prop-av-mult-finite", "sk-prop-av-pqf-finite"]
+uses = ["sk-def-av", "sk-def-av-isogeny", "sk-def-av-pic", "sk-prop-av-mult-finite"]
 tags = ["sketch"]
 +++
 Let $f:A\to B$ be an isogeny of abelian varieties ([sk-def-av-isogeny])

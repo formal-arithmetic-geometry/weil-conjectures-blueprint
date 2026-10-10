@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-weil-pbc-chow-embedding-over-x"
+uses = ["cor-chow-lemma-proper", "lem-weil-pbc-closed-immersion-from-composite"]
 +++
 We prove the general statement first. The identification
 $\mathbf P^n_X=X\times_Y\mathbf P^n_Y$ is the defining fibre-product identity

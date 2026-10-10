@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The graph of the cover"
 order = 1057
 lean = ["AlgebraicGeometry.ChowGraph", "AlgebraicGeometry.ChowGraph.emb", "AlgebraicGeometry.ChowGraph.exists_isClosedImmersion_over", "AlgebraicGeometry.ChowGraph.proj", "AlgebraicGeometry.ChowGraph.toGraph"]
-uses = ["def-chow-segre", "def-nagata-affine-proj", "def-nagata-dense-compactification", "def-nagata-projective-space-base-change", "def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-chow-closed-model", "lem-chow-scheme-theoretic-closure", "lem-chow-segre", "lem-chow-tuple-immersion", "lem-weil-pbc-closed-immersion-products", "lemma-nagata-dense-affine-cover-exists", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
+uses = ["def-chow-segre", "def-nagata-affine-proj", "def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-chow-closed-model", "lem-chow-scheme-theoretic-closure", "lem-chow-tuple-immersion", "lem-weil-pbc-closed-immersion-products", "lemma-nagata-dense-affine-cover-exists"]
 +++
 Let $f\colon X\to S$ be a morphism of schemes, let $U_1,\dots,U_m$ be finitely
 many open subschemes of $X$ and put $U:=U_1\cap\dots\cap U_m$. For each $i$ let

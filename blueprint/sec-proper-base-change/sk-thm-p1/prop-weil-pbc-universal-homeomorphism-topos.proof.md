@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-weil-pbc-universal-homeomorphism-topos"
+uses = ["lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence"]
 +++
 Base change is an equivalence of the underlying categories and matches the
 covering families, hence is an equivalence of sites; so restriction along it

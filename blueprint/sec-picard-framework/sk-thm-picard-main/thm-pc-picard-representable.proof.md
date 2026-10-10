@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-pc-picard-representable"
+uses = ["def-pc-pic-sigma-functor", "lem-pc-f-open-subfunctor", "lem-pc-k-sheaf", "lem-pc-rational-points-dense", "lem-pc-twist", "thm-pc-criterion", "thm-pc-f-representable", "thm-pc-pic-split"]
 +++
 *Preliminaries.* The scheme $X$ is projective over $k$: it is separated
 of finite type of dimension $1$ over a field, hence quasi-projective, and a

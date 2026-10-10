@@ -3,7 +3,6 @@ id = "sk-lem-nagata-sketch-boundary"
 kind = "lemma"
 title = "Separating boundary closures"
 order = 244
-uses = ["sk-lem-nagata-sketch-blowups"]
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
 tags = ["sketch"]
 +++

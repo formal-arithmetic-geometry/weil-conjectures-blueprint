@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "cor-nagata-conrad-proper-target-extension"
+uses = ["lem-weil-pbc-closed-immersion-from-composite", "thm-nagata-conrad-elimination"]
 +++
 Put $P=Y\times_SX$ and let $p\colon P\to X$ be the second projection. As a
 base change of the proper morphism $y$, the morphism $p$ is proper; in

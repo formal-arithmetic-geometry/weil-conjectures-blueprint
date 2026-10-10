@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-key-boundary-disjointness"
+uses = ["def-nagata-compactification", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-graph-extension", "def-nagata-strict-transform", "lemma-nagata-admissible-blowup-over-open", "lemma-nagata-blowup-proper", "lemma-nagata-boundary-disjoint-persists", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-graph-extension", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-isomorphism-near-closure", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-proper-to-separated-target", "lemma-nagata-separate-constructible-closed", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-two-open-dense-compactifications", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
 **Step 1: the chosen graph extensions.** For each $i$,
 [lemma-nagata-graph-extension] says that the replacement

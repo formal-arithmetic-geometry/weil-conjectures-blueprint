@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-nagata-affine-blowup-restrict"
+uses = ["def-nagata-affine-blowup-chart-map", "def-nagata-affine-proj", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-localization-map", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "prop-nagata-affine-blowup-chart", "prop-nagata-rees-localization"]
 +++
 Write $R=\mathcal R_A(I)$, $R'=\mathcal R_B(J)$ and
 $b\colon\operatorname{Bl}_I(\operatorname{Spec}A)\to\operatorname{Spec}A$,

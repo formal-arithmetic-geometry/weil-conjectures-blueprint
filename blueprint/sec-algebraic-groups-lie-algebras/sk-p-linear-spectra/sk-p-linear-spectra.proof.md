@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-p-linear-spectra"
+uses = ["sk-p-linear-triangular"]
 +++
 Use [sk-p-linear-triangular] to pick bases in which $f$ and $g$ are
 upper triangular, with diagonals $\alpha_1,\ldots,\alpha_r$ and

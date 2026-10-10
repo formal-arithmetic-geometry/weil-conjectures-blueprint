@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Basic facts about isogenies"
 lean = ["AlgebraicGeometry.isIsogeny_npow_id", "AlgebraicGeometry.isogenyDegree_npow_id", "AlgebraicGeometry.flat_torsionSubgroupScheme", "AlgebraicGeometry.finrankΓ_torsionSubgroupScheme"]
 order = 561
-uses = ["def-sc-abelian-variety", "def-sc-hilbert-degree", "def-sc-isogeny", "def-sc-mult-n", "lem-sc-abelian-variety-projective", "lem-sc-ample-tensor", "lem-sc-deg-pullback-finite", "lem-sc-finite-constant-length-flat", "lem-sc-hilbert-polynomial", "lem-sc-isogeny-degree", "lem-sc-mult-n-finite-flat", "lem-sc-mult-n-isogeny", "lem-sc-mult-n-pullback", "thm-sc-theorem-of-cube"]
+uses = ["def-sc-abelian-variety", "def-sc-hilbert-degree", "def-sc-isogeny", "def-sc-mult-n", "lem-sc-abelian-variety-projective", "lem-sc-ample-tensor", "lem-sc-deg-pullback-finite", "lem-sc-finite-constant-length-flat", "lem-sc-hilbert-polynomial", "lem-sc-isogeny-degree", "lem-sc-mult-n-finite-flat", "lem-sc-mult-n-pullback", "thm-sc-theorem-of-cube"]
 +++
 Let $A$ be an abelian variety of
 dimension $g$ over a field $k$ and $n\geq1$.

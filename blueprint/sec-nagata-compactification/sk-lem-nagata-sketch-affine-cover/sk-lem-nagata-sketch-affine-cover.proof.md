@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-lem-nagata-sketch-affine-cover"
+uses = ["sk-prop-nagata-sketch-zmt"]
 +++
 Every point $x$ of $X$ has an affine open neighbourhood containing all
 the finitely many generic points of the irreducible components: take an

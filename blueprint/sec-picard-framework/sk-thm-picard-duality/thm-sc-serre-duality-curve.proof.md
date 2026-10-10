@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-sc-serre-duality-curve"
+uses = ["def-sc-invertible-module"]
 +++
 All modules below are finite locally free, hence coherent on the
 Noetherian scheme $C$ ([pqf-def-coherent]); their cohomology groups are

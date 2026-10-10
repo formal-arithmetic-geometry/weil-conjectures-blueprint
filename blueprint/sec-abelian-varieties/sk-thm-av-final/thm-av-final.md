@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Abelian-variety estimate"
 lean = ["AlgebraicGeometry.abelianVariety_estimate", "AlgebraicGeometry.abelianVariety_estimate_of_isAlgClosed"]
 order = 593
-uses = ["def-sc-abelian-variety", "def-sc-isogeny", "def-sc-mult-n", "def-wf-abelian-tate-module", "lem-sc-connected-finite-order", "lem-sc-divisible-group-structure", "lem-sc-fg-order-prime-etale", "lem-sc-finite-flat-surj-points", "lem-sc-finite-nonempty-point", "lem-sc-isogeny-facts", "lem-sc-isogeny-surjective", "lem-sc-mult-n-finite-flat", "lem-sc-ntorsion-etale", "prop-av-tate-rank", "rem-ptr-sc-abelian-variety-1", "rem-ptr-sc-isogeny-2"]
+uses = ["def-sc-abelian-variety", "def-sc-isogeny", "def-sc-mult-n", "def-wf-abelian-tate-module", "lem-sc-connected-finite-order", "lem-sc-divisible-group-structure", "lem-sc-fg-order-prime-etale", "lem-sc-finite-flat-surj-points", "lem-sc-finite-nonempty-point", "rem-ptr-sc-abelian-variety-1", "rem-ptr-sc-isogeny-2"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over a field $k$, let
 $p=\operatorname{char}k$ and let $n\ge1$.

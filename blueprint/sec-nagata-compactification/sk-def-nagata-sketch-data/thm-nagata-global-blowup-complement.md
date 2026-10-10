@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Complement of the center"
 order = 59
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isIso_blowupMap_restrict_support_compl"]
-uses = ["def-nagata-global-blowup", "lemma-nagata-affine-blowup-complement", "lemma-nagata-ideal-unit-off-support", "prop-nagata-global-blowup-cover-independent"]
+uses = ["def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $\mathcal I\subseteq\mathcal O_X$ be a quasi-coherent ideal and let
 $U=X\setminus V(\mathcal I)$. The restriction

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-scheme-image-strict-transform"
+uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-factor", "lemma-nagata-dense-flat-pullback", "lemma-nagata-strict-transform-over-complement", "thm-nagata-global-blowup-complement"]
 +++
 Put $P=X\times_SY$, $P'=X'\times_SY$, let $W_P\subseteq P$ be the preimage
 of $W$, and let $\Omega\subseteq Z\times_PP'$ be the open part lying over

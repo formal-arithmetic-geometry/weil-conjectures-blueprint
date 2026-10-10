@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-wf-l2-purity-rigidity"
+uses = ["def-wf-normalized-real-envelope", "lem-wf-constant-twist-weight", "lem-wf-envelope-real", "lem-wf-l2-upper", "thm-wf-l2-dictionary"]
 +++
 Write $\mathcal G^0=\mathcal G\otimes\mathcal B_b$ for the normalizing
 twist of [def-wf-normalized-real-envelope], so that

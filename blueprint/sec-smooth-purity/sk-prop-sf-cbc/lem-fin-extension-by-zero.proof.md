@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-fin-extension-by-zero"
+uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "def-kun-separably-closed", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "lemma-openclosed-vanishing-lowershriek", "prop-constructible-open-closed"]
 +++
 By [def-weil-pbc-constructible-complexes] $U$ has a finite
 partition $U=\bigsqcup_\alpha U_\alpha$ into locally closed

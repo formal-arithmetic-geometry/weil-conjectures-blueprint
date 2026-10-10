@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-pc-hilb-curves"
+uses = ["lem-pc-hilb-representable"]
 +++
 *Step 0: the affine-open hypothesis.*
 We verify the hypotheses of [lem-pc-hilb-representable]: $X$ is proper,

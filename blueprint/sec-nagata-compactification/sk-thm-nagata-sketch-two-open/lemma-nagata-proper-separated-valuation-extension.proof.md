@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-proper-separated-valuation-extension"
+uses = ["lemma-nagata-proper-valuative-criterion-existence-api"]
 +++
 Recall that $f$ is proper if and only if it is separated, quasi-compact,
 locally of finite type and universally closed.

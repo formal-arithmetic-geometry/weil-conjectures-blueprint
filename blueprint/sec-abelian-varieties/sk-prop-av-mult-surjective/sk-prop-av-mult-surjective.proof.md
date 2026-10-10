@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-av-mult-surjective"
+uses = ["sk-cor-av-commutative", "sk-prop-av-mult-finite", "sk-prop-av-mult-hom"]
 +++
 The image $H:=[n](A)$ is a closed subgroup scheme of $A$: it is the
 image of a homomorphism from the proper $A$ to the separated finite

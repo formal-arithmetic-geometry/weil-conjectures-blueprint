@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-openclosed-etale-lifts-locally"
+uses = ["lemma-openclosed-standard-etale-lift"]
 +++
 The assertion is local at $w$, so we may shrink $X$, $Z$ and $W$ around
 $i(q(w))$ and $w$. Choose an affine open $\Spec R\subseteq X$ containing

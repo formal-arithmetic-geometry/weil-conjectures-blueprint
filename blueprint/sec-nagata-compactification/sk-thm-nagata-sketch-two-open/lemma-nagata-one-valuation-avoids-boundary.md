@@ -4,7 +4,7 @@ kind = "lemma"
 title = "One valuation extension avoids the forbidden boundary"
 order = 294
 lean = ["AlgebraicGeometry.TwoOpenSide.KeyDisjoint.avoids"]
-uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-comparison-space", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-key-boundary-disjointness", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-valuation-factor-closed", "lemma-nagata-valuation-open-closed-point", "lemma-nagata-valuation-pair-factors-comparison"]
+uses = ["def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-key-boundary-disjointness", "lemma-nagata-valuation-open-closed-point", "lemma-nagata-valuation-pair-factors-comparison"]
 +++
 Assume the key boundary disjointness of
 [lemma-nagata-key-boundary-disjointness]: no point of $X_{12}$ lies over

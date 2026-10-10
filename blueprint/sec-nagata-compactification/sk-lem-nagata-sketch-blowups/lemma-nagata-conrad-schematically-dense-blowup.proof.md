@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-conrad-schematically-dense-blowup"
+uses = ["def-nagata-constructible-closed-support", "def-nagata-qc-open-complement-ideal", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-constructible-closed-support", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "thm-nagata-global-blowup-proper"]
 +++
 *First assertion.* By [lemma-nagata-qc-open-complement-ideal-exists]
 there is a finite type quasi-coherent ideal

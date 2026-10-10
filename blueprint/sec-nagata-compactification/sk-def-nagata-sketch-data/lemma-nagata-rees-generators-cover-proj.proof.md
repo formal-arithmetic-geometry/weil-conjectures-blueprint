@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-rees-generators-cover-proj"
+uses = ["lemma-nagata-rees-piece-membership", "prop-nagata-proj-standard-open"]
 +++
 The elements $at$, $a\in I$, are homogeneous of degree one by
 [lemma-nagata-rees-degree-one-element]. They generate an ideal containing

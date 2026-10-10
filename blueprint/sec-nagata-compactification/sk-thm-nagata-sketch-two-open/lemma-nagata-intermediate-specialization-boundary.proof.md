@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-intermediate-specialization-boundary"
+uses = ["lemma-nagata-proper-extension-graph-closed"]
 +++
 The image of $U_i$ is contained in the image of
 $\gamma_i\colon V_i\to U\times_SX_i$. The latter image is closed by

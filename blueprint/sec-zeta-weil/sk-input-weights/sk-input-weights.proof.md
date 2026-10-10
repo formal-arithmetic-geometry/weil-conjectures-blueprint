@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-input-weights"
+uses = ["sk-def-roots", "sk-prop-smooth-proper-purity"]
 +++
 Clauses (1) and (3) are formal, clause (2) and the relative estimate are
 [sk-thm-dl-general-sheaf], and clauses (4)–(5) follow from

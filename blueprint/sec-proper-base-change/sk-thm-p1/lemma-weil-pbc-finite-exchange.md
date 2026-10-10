@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Finite exchange isomorphism"
 order = 1121
 lean = ["AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite", "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite"]
-uses = ["def-kun-separably-closed", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-geometric-fibre", "def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange", "lemma-openclosed-point-ulift", "lemma-openclosed-stalk-upperstar", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange"]
 +++
 Let the coefficient category $\mathcal A$ be concrete, with forgetful
 functor reflecting isomorphisms and preserving filtered colimits, and with

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-nagata-rees-localization"
+uses = ["lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-piece-membership"]
 +++
 Write $R=\mathcal R_A(I)$ and $R'=\mathcal R_B(J)$, and identify $B$ with
 $A_s$.

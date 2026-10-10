@@ -4,7 +4,7 @@ kind = "lemma"
 title = "An effective Cartier ideal is invertible"
 order = 98
 lean = ["AlgebraicGeometry.isEffectiveCartierCenter_iff_isInvertible_ker"]
-uses = ["def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal", "def-nagata-scheme-image-comparison", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
+uses = ["def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal"]
 +++
 Let $z\colon Z\to X$ be a closed immersion. Then $z$ is an effective
 Cartier centre — that is, there are an invertible ideal $\mathcal J$ on $X$

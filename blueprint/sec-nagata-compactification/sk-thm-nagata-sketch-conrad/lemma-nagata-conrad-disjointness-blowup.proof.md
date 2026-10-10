@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-conrad-disjointness-blowup"
+uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-dense-flat-pullback", "lemma-nagata-extended-ideal-affine-chart", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "lemma-nagata-scheme-image-ideal-qc", "prop-nagata-affine-blowup-chart", "prop-nagata-rees-graded"]
 +++
 Put $\mathcal K=\mathcal I_1+\mathcal I_2$, so $X'=\operatorname{Bl}_{\mathcal K}(X)$.
 Since $V(\mathcal K)\subseteq V(\mathcal I_2)\subseteq X\setminus V\subseteq X\setminus U$,

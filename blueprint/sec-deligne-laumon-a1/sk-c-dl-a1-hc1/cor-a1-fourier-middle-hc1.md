@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Fourier bound for middle-extension cohomology"
 order = 2782
 tags = ["latex:corollary"]
-uses = ["cor-fd-l2-plancherel-middle-extension", "cor-fd-origin-stationary-phase", "def-fd-nonexceptional", "def-weil-punctual-weights", "def-wf-fundamental-representation", "def-wf-middle-extension", "lem-a1-unramified-nonexceptional", "lem-wf-boundary-semicontinuity", "prop-a1-fourier-middle-extension"]
+uses = ["cor-fd-l2-plancherel-middle-extension", "def-fd-nonexceptional", "def-weil-punctual-weights", "def-wf-fundamental-representation", "def-wf-middle-extension", "lem-a1-unramified-nonexceptional", "lem-wf-boundary-semicontinuity"]
 lean = ["AlgebraicGeometry.hasWeightsAtMost_compactlySupportedCohomology_one"]
 +++
 Let $\psi$ be a nontrivial additive character of $k_0$, let

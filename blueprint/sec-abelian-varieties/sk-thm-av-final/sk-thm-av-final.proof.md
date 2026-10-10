@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-av-final"
+uses = ["sk-prop-av-isogeny", "sk-prop-av-ntorsion-etale"]
 +++
 *(a)* This is exactly [sk-prop-av-isogeny]: $[n]$ is a
 homomorphism ([sk-prop-av-mult-hom] with [sk-cor-av-commutative]), has

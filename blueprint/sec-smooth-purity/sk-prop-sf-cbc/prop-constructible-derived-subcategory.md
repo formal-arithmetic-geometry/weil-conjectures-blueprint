@@ -5,7 +5,7 @@ title = "The constructible derived category"
 order = 1523
 lean = ["AlgebraicGeometry.Etale.DerivedCategory.boundedConstructible_isTriangulated", "AlgebraicGeometry.Etale.DerivedCategory.constructibleHomology_isTriangulated", "DerivedCategory.homologyProperty_isTriangulated"]
 tags = ["latex:proposition"]
-uses = ["def-constructible-constant", "def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "def-kun-separably-closed", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "thm-constructible-serre"]
+uses = ["def-constructible-constructible", "thm-constructible-serre"]
 +++
 Let $\mathcal A$ be a Grothendieck abelian coefficient category (for
 instance $\mathcal A=\mathrm{Mod}_\Lambda$), and assume that the

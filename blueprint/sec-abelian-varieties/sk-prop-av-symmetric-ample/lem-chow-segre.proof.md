@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-chow-segre"
+uses = ["def-nagata-homogeneous-localization-degree-zero", "lemma-nagata-projective-space-base-change-proper", "prop-nagata-proj-standard-open"]
 +++
 *Reference: Stacks Project, Constructions of Schemes, Lemma 27.13.6,
 [Tag 01WD](https://stacks.math.columbia.edu/tag/01WD).*

@@ -5,7 +5,7 @@ title = "Projective-line proper base change"
 order = 1183
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine", "AlgebraicGeometry.Etale.hasInjectiveAcyclicity_projectiveLine"]
 tags = ["latex:proposition"]
-uses = ["def-weil-pbc-injective-acyclicity-property", "def-weil-pbc-property", "lemma-weil-pbc-geometric-stalk-conservative", "lemma-weil-pbc-p1-exchange-geometric-stalk", "lemma-weil-pbc-property-iff-acyclicity", "prop-weil-pbc-proper-curve-sepclosed-invariance"]
+uses = ["def-weil-pbc-injective-acyclicity-property", "def-weil-pbc-property", "lemma-weil-pbc-p1-exchange-geometric-stalk", "lemma-weil-pbc-property-iff-acyclicity", "prop-weil-pbc-proper-curve-sepclosed-invariance"]
 +++
 Let $\Lambda$ be a commutative ring, let $S$ be a scheme and let
 $p:\mathbf P^1_S\to S$ be the projection. For every morphism $g:T\to S$, with

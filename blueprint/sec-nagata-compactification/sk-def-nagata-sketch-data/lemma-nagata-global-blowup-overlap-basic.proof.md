@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-global-blowup-overlap-basic"
+uses = ["prop-nagata-affine-blowup-restrict"]
 +++
 Put $A=A_V=\Gamma(V,\mathcal O_X)$ and $B=A_W=\Gamma(W,\mathcal O_X)$.
 Since $W=D(s)$ is a basic open of the affine scheme $V$, the restriction

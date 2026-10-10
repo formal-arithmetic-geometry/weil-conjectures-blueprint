@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-weil-pbc-prime-torsion-devissage"
+uses = ["lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-prime-factor-induction"]
 +++
 The filtered union $F=\varinjlim_nF[n]$ is Lemma
 [lemma-weil-pbc-torsion-filtered-union]. The exact sequence is the

@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Integral Frobenius factors"
 order = 2901
 lean = ["AlgebraicGeometry.IsWeilFactorization.unique", "TraceDatum.exists_isWeilFactorization"]
-uses = ["sk-def-cohfamily", "sk-def-roots", "sk-prop-rootpurity", "sk-prop-separation", "sk-thm-rationality"]
+uses = ["sk-def-cohfamily", "sk-def-roots", "sk-prop-rootpurity", "sk-thm-rationality"]
 tags = ["sketch"]
 +++
 For every $0\le i\le2d$ there is a unique polynomial $P_i(T)\in\Z[T]$ with

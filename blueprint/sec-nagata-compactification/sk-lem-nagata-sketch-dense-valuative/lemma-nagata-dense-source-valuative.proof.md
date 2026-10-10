@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-dense-source-valuative"
+uses = ["def-nagata-dense-compactification", "def-nagata-dense-valuation-probe", "def-nagata-extended-ideal", "def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-composite-valuation-ring", "lemma-nagata-dense-flat-pullback", "lemma-nagata-dense-valuation-probe", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "lemma-nagata-valuation-ring-extension"]
 +++
 **Universal closedness.** Assume $f$ is quasi-compact. By the existence
 part of the valuative criterion (Stacks Project, Tag 01KF) it suffices to

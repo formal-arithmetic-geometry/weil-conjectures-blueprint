@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-constructible-pullback-locally-constant"
+uses = ["lemma-constructible-pullback-constant"]
 +++
 *The localised site.* Let $\pi\colon U\to X$ be étale. An object of the
 localised site is an étale $X$-scheme $V$ with an $X$-morphism $V\to U$;

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Finite support of the homogeneous decomposition"
 order = 18
 lean = ["AlgebraicGeometry.reesGrading_isInternal"]
-uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-piece-mul"]
+uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece"]
 +++
 For $F\in\mathcal R_A(I)$, only finitely many homogeneous components
 $F_nt^n$ are nonzero.

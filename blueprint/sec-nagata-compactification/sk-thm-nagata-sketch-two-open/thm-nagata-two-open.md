@@ -4,7 +4,7 @@ kind = "theorem"
 title = "[stacks-project]"
 order = 305
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-common-modification", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-global-blowup", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-compactification-candidate", "def-nagata-two-open-final-modification", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-admissible-blowup-over-open", "lemma-nagata-blowup-proper", "lemma-nagata-boundary-loci", "lemma-nagata-common-modification", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-dense-source-valuative", "lemma-nagata-intermediate-separated", "lemma-nagata-key-boundary-disjointness", "lemma-nagata-one-valuation-avoids-boundary", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-proper-valuative-criterion-existence-api", "lemma-nagata-separated-valuation-lift-unique", "lemma-nagata-two-open-candidate-proper", "lemma-nagata-two-open-density-transport", "lemma-nagata-two-open-final-modification", "lemma-nagata-valuation-open-closed-point", "lemma-nagata-valuation-pair-factors-comparison", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-compactifiable", "def-nagata-two-open-compactification-candidate", "def-nagata-two-open-final-modification", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-two-open-candidate-proper", "lemma-nagata-two-open-final-modification"]
 +++
 Let $S$ be a Noetherian scheme and let $U\to S$ be a separated
 morphism which is locally of finite type and quasi-compact. Let

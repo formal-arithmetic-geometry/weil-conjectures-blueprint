@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Prime-torsion devissage"
 order = 1090
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isTorsionSheaf"]
-uses = ["lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-prime-factor-induction", "lemma-weil-pbc-torsion-filtered-union"]
+uses = ["lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-torsion-filtered-union"]
 +++
 Let $\Lambda$ be a commutative ring and $\square$ a cartesian square in which
 $f$ (equivalently, by base change, also $f'$) is quasi-compact and

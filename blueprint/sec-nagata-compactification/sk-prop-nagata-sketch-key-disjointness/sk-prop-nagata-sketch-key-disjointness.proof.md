@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-nagata-sketch-key-disjointness"
+uses = ["sk-prop-nagata-sketch-prepared"]
 +++
 The restriction $p_1^{-1}(V_1)=V_{12}\to V_1$ is the base change of
 $\psi_2$. It is therefore an isomorphism near $Z_{1,2}$, because

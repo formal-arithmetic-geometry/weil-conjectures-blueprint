@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-chow-affine-through-generic-points"
+uses = ["lem-chow-disjoint-affines"]
 +++
 After renumbering, let $x\in Z_i$ precisely for $i\leq r$, so that $x\notin
 Z_k$ for $k>r$.

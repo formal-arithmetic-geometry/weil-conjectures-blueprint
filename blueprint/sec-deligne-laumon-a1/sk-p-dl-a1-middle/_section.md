@@ -3,7 +3,7 @@ id = "sk-p-dl-a1-middle"
 kind = "proposition"
 title = "Irreducible middle extensions under Fourier"
 order = 2750
-uses = ["sk-d-dl-a1-setup", "sk-i-dl-a1-local", "sk-p-dl-a1-perverse", "sk-thm-inversion"]
+uses = ["sk-d-dl-a1-setup", "sk-i-dl-a1-local", "sk-thm-inversion"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsNonexceptional", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.IsFourierPartner", "AlgebraicGeometry.exists_middleExtension_fourierTransform", "AlgebraicGeometry.isNonexceptional_of_isUnramifiedAtInfinity"]
 tags = ["sketch"]
 +++

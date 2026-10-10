@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-i-real-compactification"
+uses = ["sk-thm-nagata-compactification"]
 +++
 *Step 1 (compactify).* Being smooth and geometrically connected,
 $U_0$ is integral. [sk-thm-nagata-compactification] gives an open immersion of $U_0$

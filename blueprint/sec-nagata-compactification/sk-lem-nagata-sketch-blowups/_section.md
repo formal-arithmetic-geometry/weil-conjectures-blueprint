@@ -3,7 +3,7 @@ id = "sk-lem-nagata-sketch-blowups"
 kind = "lemma"
 title = "Blow-ups and strict transforms"
 order = 87
-uses = ["sk-def-nagata-sketch-data", "sk-lem-nagata-sketch-closure"]
+uses = ["sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isProper_blowupMap", "AlgebraicGeometry.strictTransform", "AlgebraicGeometry.IsAdmissible.exists_extend", "AlgebraicGeometry.IsAdmissible.isSchemeTheoreticallyDominant_preimage_ι"]
 tags = ["sketch"]
 +++

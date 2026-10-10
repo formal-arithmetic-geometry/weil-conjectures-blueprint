@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Finite pullback and closed-fibre restriction"
 order = 1082
 lean = ["AlgebraicGeometry.Etale.globalSectionsUpperStarMap_comp_squareUpperStarIso"]
-uses = ["def-weil-pbc-finite-section-pullback", "lemma-weil-pbc-finite-pullback-composition"]
+uses = ["def-weil-pbc-finite-section-pullback"]
 +++
 Consider a commutative square of schemes
 

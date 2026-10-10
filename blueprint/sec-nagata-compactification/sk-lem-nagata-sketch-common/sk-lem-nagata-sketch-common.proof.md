@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-lem-nagata-sketch-common"
+uses = ["sk-lem-nagata-sketch-blowups", "sk-lem-nagata-sketch-elimination"]
 +++
 Take $X_{12}=\SIm(U\to X_1\times_SX_2)$. Its projections are
 isomorphisms over $U$. Eliminate indeterminacy for both projections,

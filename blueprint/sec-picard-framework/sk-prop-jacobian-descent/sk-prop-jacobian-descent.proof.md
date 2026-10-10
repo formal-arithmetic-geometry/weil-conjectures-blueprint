@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-jacobian-descent"
+uses = ["sk-prop-jacobian"]
 +++
 Write $C_s=C_0\times_{k_0}k_s$ and
 $F:=\Pic^0_{C_0/k_0}\subseteq\Pic_{C_0/k_0}$ for the subsheaf of classes

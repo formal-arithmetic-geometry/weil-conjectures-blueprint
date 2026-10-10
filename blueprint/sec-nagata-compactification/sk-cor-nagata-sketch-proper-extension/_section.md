@@ -3,7 +3,6 @@ id = "sk-cor-nagata-sketch-proper-extension"
 kind = "corollary"
 title = "Extension to a proper target"
 order = 222
-uses = ["sk-thm-nagata-sketch-conrad"]
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_of_isProper"]
 tags = ["sketch"]
 +++

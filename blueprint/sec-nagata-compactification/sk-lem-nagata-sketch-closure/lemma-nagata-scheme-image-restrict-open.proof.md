@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-scheme-image-restrict-open"
+uses = ["lemma-nagata-dense-flat-pullback"]
 +++
 The inclusion $W\hookrightarrow Y$ is an open immersion, hence flat, and
 $g_W$ is the base change of the quasi-compact morphism $g$ along it. By

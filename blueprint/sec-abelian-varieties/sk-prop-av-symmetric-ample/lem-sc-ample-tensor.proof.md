@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-sc-ample-tensor"
+uses = ["lem-chow-segre"]
 +++
 *Reference: Stacks Project, Properties of Schemes, Lemma
 28.27.5, [Tag 0890](https://stacks.math.columbia.edu/tag/0890).*

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Multiplication by $n$ is surjective with finite kernel"
 lean = ["AlgebraicGeometry.surjective_npow_id", "AlgebraicGeometry.isFinite_torsionSubgroupScheme", "AlgebraicGeometry.isMonHom_npow_id"]
 order = 555
-uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-mult-n", "lem-sc-image-subgroup", "lem-sc-mult-n-finite-kernel", "lem-sc-mult-n-homomorphism"]
+uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-mult-n", "lem-sc-image-subgroup"]
 +++
 Let $A$ be an abelian variety
 over a field $k$, and let $n\geq1$. Then the map $[n]$ of

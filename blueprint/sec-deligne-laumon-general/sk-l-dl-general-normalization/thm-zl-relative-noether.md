@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Relative Noether normalization"
 order = 2826
 lean = ["AlgebraicGeometry.exists_partition_isFinite_toIteratedAffineLine"]
-uses = ["def-sbc-affine-space", "def-weil-pbc-scheme-conventions", "def-zl-localized-coordinates", "lem-zl-affine-partition", "lem-zl-spread-normalization"]
+uses = ["def-sbc-affine-space", "def-weil-pbc-scheme-conventions"]
 +++
 Let $f:X_0\to Y_0$ be a morphism of finite type to a Noetherian
 scheme $Y_0$ (for instance a separated finite-type morphism of

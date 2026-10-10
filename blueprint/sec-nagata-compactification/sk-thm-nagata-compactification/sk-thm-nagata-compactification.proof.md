@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-nagata-compactification"
+uses = ["sk-cor-nagata-sketch-fp", "sk-prop-nagata-sketch-envelope"]
 +++
 Choose the closed envelope $X\hookrightarrow X^{\mathrm{fp}}$ from
 [sk-prop-nagata-sketch-envelope], and compactify

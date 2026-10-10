@@ -5,7 +5,7 @@ title = "Topological invariance of the small etale topos"
 order = 1167
 lean = ["AlgebraicGeometry.Etale.cohomologyEquiv", "AlgebraicGeometry.Etale.cohomologyMap_bijective", "AlgebraicGeometry.Etale.isEquivalence_upperStar", "AlgebraicGeometry.Etale.sheafEquivalence"]
 tags = ["latex:proposition"]
-uses = ["def-pc-ext", "lemma-constructible-pullback-constant", "lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence"]
+uses = ["def-pc-ext", "lemma-constructible-pullback-constant"]
 +++
 Let $u:X_0\to X$ be a universal homeomorphism. For every coefficient
 category $\mathcal A$, restriction along base change (the pushforward

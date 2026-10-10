@@ -4,7 +4,7 @@ kind = "proposition"
 title = "The $\\ell$-adic Tate module is free of rank $2g$"
 lean = ["AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule"]
 order = 590
-uses = ["sk-def-av", "sk-def-av-tate", "sk-prop-av-divisible", "sk-prop-av-ntorsion-etale"]
+uses = ["sk-def-av", "sk-def-av-tate", "sk-prop-av-ntorsion-etale"]
 tags = ["sketch"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over an algebraically

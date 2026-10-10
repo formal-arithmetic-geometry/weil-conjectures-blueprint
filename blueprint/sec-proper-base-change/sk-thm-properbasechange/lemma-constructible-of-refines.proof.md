@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-constructible-of-refines"
+uses = ["lemma-constructible-immersion-independence"]
 +++
 Fix $l$ and choose $k$ with $X'_l\subseteq X_k$. The base change
 $\kappa'_l\colon W_l\times_XZ_k\to Z_k$ of $\kappa_l$ is an immersion, and

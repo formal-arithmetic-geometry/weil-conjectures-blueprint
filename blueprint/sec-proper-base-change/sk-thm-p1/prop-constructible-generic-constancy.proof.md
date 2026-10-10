@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-constructible-generic-constancy"
+uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-locally-constant", "def-kun-separably-closed", "lemma-constructible-immersion-independence", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "lemma-openclosed-stalk-upperstar"]
 +++
 Let $(\iota_k\colon Z_k\to X)_{k<n}$ be a stratification witnessing
 constructibility, with strata $X_k=\iota_k(Z_k)$, and let

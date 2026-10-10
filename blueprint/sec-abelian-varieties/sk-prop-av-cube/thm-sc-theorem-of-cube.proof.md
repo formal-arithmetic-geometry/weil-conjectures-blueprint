@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-sc-theorem-of-cube"
+uses = ["lem-sc-abelian-variety-characterization"]
 +++
 *Reference: Stacks Project, Groupoid Schemes, Lemma 39.9.6,
 [Tag 0BFE](https://stacks.math.columbia.edu/tag/0BFE).* Apply

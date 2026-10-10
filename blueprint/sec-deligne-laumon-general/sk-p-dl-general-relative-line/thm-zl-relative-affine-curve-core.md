@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Pure lisse relative affine-curve step"
 order = 2844
 lean = ["AlgebraicGeometry.isMixedOfWeightsAtMost_higherLowerShriek_of_isAffine_fiber"]
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "def-weil-scheme-morphism-properties", "lem-zl-mixed-punctual-cutoff", "lem-zl-relative-curve-mixedness", "lem-zl-relative-curve-punctual"]
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "def-weil-scheme-morphism-properties"]
 +++
 Fix the coefficient and weight conventions of
 [def-weil-punctual-weights]. Let $h:U_0\to Y_0$ be a

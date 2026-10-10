@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-chow-affine-immersion"
+uses = ["def-nagata-homogeneous-localization-degree-zero", "def-nagata-relative-affine-space", "prop-nagata-proj-standard-open"]
 +++
 Write $B=\Gamma(V,\mathcal O_V)$, so that $V=\Spec B$. We give an elementary
 construction; it does not use ample invertible sheaves.

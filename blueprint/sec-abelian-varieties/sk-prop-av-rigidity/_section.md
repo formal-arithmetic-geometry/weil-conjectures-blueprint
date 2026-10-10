@@ -4,7 +4,7 @@ kind = "proposition"
 title = "The rigidity lemma"
 lean = ["AlgebraicGeometry.exists_eq_snd_comp"]
 order = 489
-uses = ["sk-prop-av-const-locus", "sk-prop-av-image-open"]
+uses = ["sk-prop-av-image-open"]
 tags = ["sketch"]
 +++
 Let $X,Y,Z$ be $k$-schemes with $X$ proper, geometrically connected

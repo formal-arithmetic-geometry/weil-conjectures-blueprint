@@ -5,7 +5,7 @@ title = "Pullback of constructible sheaves"
 order = 1165
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.upperStar", "AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.upperStar"]
 tags = ["latex:proposition"]
-uses = ["def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-finite", "lemma-constructible-pullback-locally-constant", "lemma-constructible-pullback-stratification"]
+uses = ["def-constructible-constructible", "def-constructible-finite-locally-constant"]
 +++
 Let $g\colon Y\to X$ be a morphism and let $\mathcal F\in\shv{\et X}$ be
 constructible. Then $g^*\mathcal F$ is constructible. Likewise, if

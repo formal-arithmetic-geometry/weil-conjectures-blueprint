@@ -4,7 +4,7 @@ kind = "lemma"
 title = "An admissible blow-up is unchanged over the preserved open"
 order = 62
 lean = ["AlgebraicGeometry.IsAdmissible.isIso_blowupMap_restrict"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "lemma-nagata-affine-blowup-complement", "lemma-nagata-ideal-unit-off-support", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
 +++
 Let $\mathcal I$ be a $U$-admissible blow-up center on $X$ and let
 $\pi\colon\operatorname{Bl}_{\mathcal I}(X)\to X$ be the associated

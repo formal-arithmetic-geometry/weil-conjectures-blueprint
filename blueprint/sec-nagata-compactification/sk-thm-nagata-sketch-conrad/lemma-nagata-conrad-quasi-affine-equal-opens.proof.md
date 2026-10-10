@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-conrad-quasi-affine-equal-opens"
+uses = ["def-nagata-constructible-closed-support", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-invertible-ideal", "def-nagata-qc-open-complement-ideal", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-quasi-affine-affine-base", "lemma-nagata-constructible-closed-support", "lemma-nagata-dense-flat-pullback", "lemma-nagata-ext-scheme-theoretically-dominant-separated", "lemma-nagata-extend-admissible-blowup", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-invertible-product-factor", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property", "thm-nagata-global-blowup-proper"]
 +++
 Choose a finite affine open cover $X=\bigcup_{i=0}^nW_i$ and put
 $U_i=U\cap W_i$, a quasi-compact open of $W_i$, and $Y_i=p^{-1}(W_i)$,

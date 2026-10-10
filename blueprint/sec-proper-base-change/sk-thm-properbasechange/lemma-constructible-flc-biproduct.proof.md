@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-constructible-flc-biproduct"
+uses = ["def-kun-separably-closed", "lemma-constructible-pullback-constant", "lemma-constructible-pullback-locally-constant"]
 +++
 For two sheaves with trivialising data $(U_i\to X)_i$ and $(V_j\to X)_j$,
 the family $(U_i\times_XV_j\to X)_{i,j}$ is an étale cover trivialising

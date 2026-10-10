@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Curve testing for geometric irreducibility"
 order = 2832
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.exists_isClosedImmersion_isIrreducibleLocalSystem_upperStar"]
-uses = ["def-weil-pbc-qbar-category", "def-wf-fundamental-representation", "lem-zl-bertini-finite-cover-curve", "lem-zl-finite-matrix-irreducibility"]
+uses = ["def-weil-pbc-qbar-category", "def-wf-fundamental-representation", "lem-zl-finite-matrix-irreducibility"]
 +++
 Let $X_0$ be a smooth, geometrically connected, affine scheme of
 relative dimension $d\geq1$ over a finite field $k_0=\mathbf F_q$, with

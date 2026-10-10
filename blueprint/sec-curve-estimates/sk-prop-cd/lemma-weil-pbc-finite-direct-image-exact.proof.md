@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-weil-pbc-finite-direct-image-exact"
+uses = ["def-kun-separably-closed", "def-weil-pbc-geometric-fibre", "lemma-openclosed-point-ulift", "lemma-weil-pbc-finite-stalk-formula"]
 +++
 *Left exactness.* By [def-weil-pbc-direct-image],
 $(f_*G)(V)=G(X\times_YV)$ for $V\to Y$ etale. Kernels of sheaves in the

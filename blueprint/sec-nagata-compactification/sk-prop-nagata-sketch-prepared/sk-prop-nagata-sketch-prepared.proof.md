@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-nagata-sketch-prepared"
+uses = ["sk-lem-nagata-sketch-boundary", "sk-lem-nagata-sketch-graph"]
 +++
 Refine the two compactifications to scheme-theoretically dense ones
 and apply proper graph

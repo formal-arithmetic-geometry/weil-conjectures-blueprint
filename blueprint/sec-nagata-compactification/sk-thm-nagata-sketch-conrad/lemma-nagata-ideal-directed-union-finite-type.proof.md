@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-ideal-directed-union-finite-type"
+uses = ["lemma-nagata-dense-flat-pullback", "lemma-nagata-finite-type-ideal-extension-exists"]
 +++
 The family of finite type subideals is closed under sums, hence directed, and
 its union is contained in $\mathcal H$. For the reverse inclusion let $V$ be

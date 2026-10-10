@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Quasi-affine target, $U\\subseteq V$ (Conrad)"
 order = 216
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_of_isQuasiAffineHom_of_le"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-quasi-affine-morphism", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-case3-disjointness-reduction", "lemma-nagata-conrad-case3-smaller-base", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-conrad-quasi-affine-equal-opens", "lemma-nagata-extend-admissible-blowup", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup", "def-nagata-quasi-affine-morphism", "lemma-nagata-conrad-dense-in-admissible-blowup", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be qcqs, let $U\subseteq V\subseteq X$ be quasi-compact open
 subschemes, let $Y$ be qcqs and let $p\colon Y\to X$ be separated,

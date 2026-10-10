@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Étale morphisms lift locally along a closed immersion"
 order = 1520
 lean = ["AlgebraicGeometry.Etale.exists_isPullback_of_isClosedImmersion", "AlgebraicGeometry.Etale.exists_pullback_hom_of_isClosedImmersion"]
-uses = ["lemma-openclosed-standard-etale-lift"]
 +++
 Let $i\colon Z\to X$ be a closed immersion, let $q\colon W\to Z$ be étale
 and let $w\in W$. Then there are an open subscheme $W_0\subseteq W$

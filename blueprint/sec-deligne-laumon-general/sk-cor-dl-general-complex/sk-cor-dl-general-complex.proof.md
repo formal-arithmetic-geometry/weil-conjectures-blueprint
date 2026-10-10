@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-cor-dl-general-complex"
+uses = ["sk-thm-dl-general-sheaf"]
 +++
 In the finite hypercohomology spectral sequence
 

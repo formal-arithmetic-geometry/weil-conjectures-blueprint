@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-weil-pbc-universal-homeomorphism-site-equivalence"
+uses = ["lem-weil-pbc-closed-immersion-from-composite", "lemma-nagata-affine-finite-type-is-quasi-affine"]
 +++
 *Full faithfulness* (Tag `04DY`). Faithfulness only uses that
 $u$ is surjective and that etale morphisms are unramified: two

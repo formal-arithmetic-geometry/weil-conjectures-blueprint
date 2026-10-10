@@ -4,7 +4,6 @@ kind = "lemma"
 title = "[stacks-project]"
 order = 236
 lean = ["AlgebraicGeometry.IsSeparated.of_two_open_cover"]
-uses = ["lemma-nagata-diagonal-mixed-open"]
 +++
 Let $X=U\cup V$ be an open cover over $S$. Assume that $U\to S$ and
 $V\to S$ are separated and that

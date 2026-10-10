@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "cor-pc-dense-points-curves-sections"
+uses = ["lem-pc-rational-points-dense"]
 +++
 (1) Let $p:X_K\to X$ be the projection. It is the base change of
 $\operatorname{Spec}K\to\operatorname{Spec}k$ along $X\to\operatorname{Spec}k$, and the structure morphism of any

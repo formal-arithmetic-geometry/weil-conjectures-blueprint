@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-dense-affine-cover-exists"
+uses = ["lem-chow-affine-through-generic-points"]
 +++
 **Step 1: an affine open through $x$ and all generic points.** Let
 $x\in X$. A generic point $\eta_j$ lies in no irreducible component other

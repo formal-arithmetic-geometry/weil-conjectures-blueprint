@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-nagata-noetherian-inverse-system"
+uses = ["lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-noetherian-inverse-system-affine"]
 +++
 Nonemptiness and directedness of the index type, including the transition
 identities, are supplied by

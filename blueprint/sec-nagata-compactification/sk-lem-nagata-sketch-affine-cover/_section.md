@@ -3,7 +3,7 @@ id = "sk-lem-nagata-sketch-affine-cover"
 kind = "lemma"
 title = "Affine starting pieces and dense overlaps"
 order = 306
-uses = ["sk-lem-nagata-sketch-closure", "sk-prop-nagata-sketch-zmt"]
+uses = ["sk-lem-nagata-sketch-closure"]
 lean = ["AlgebraicGeometry.Scheme.finiteAffineOpenCoverDenseIInter_spec", "AlgebraicGeometry.HasCompactification.of_isQuasiAffine"]
 tags = ["sketch"]
 +++

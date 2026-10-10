@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Flat base change of scheme-theoretic images and dense pullbacks"
 order = 84
 lean = ["AlgebraicGeometry.IsSchemeTheoreticallyDominant.of_isPullback", "AlgebraicGeometry.Scheme.Hom.ker_pullback_snd"]
-uses = ["def-nagata-dense-compactification", "def-nagata-extended-ideal", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
+uses = ["def-nagata-dense-compactification", "def-nagata-extended-ideal"]
 +++
 Let $h\colon U\to X$ be quasi-compact with
 scheme-theoretic image $X$, and let

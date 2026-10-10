@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-two-open-density-transport"
+uses = ["def-nagata-two-open-boundary-loci", "lemma-nagata-boundary-loci"]
 +++
 The initial copies of $U$ are scheme-theoretically dense by hypothesis.
 Every graph, boundary-separation, and final modification in the displayed

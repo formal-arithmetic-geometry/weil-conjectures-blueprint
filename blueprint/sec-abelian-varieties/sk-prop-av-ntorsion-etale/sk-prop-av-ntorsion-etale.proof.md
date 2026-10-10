@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-av-ntorsion-etale"
+uses = ["sk-cor-av-commutative", "sk-def-av-group-scheme", "sk-prop-av-prime-p-etale"]
 +++
 By [sk-prop-av-isogeny], $A[n]$ is a finite flat group scheme of order
 $n^{2g}$ over $k$, with $n$ prime to $\operatorname{char}k$; by

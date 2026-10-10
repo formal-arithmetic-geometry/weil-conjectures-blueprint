@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-zl-relative-noether"
+uses = ["def-zl-localized-coordinates", "lem-zl-affine-partition", "lem-zl-spread-normalization"]
 +++
 All schemes under consideration are Noetherian, being of finite type
 over the Noetherian scheme $Y_0$. We use induction

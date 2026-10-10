@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-composition-extended-ideal-equality"
+uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-blowup-product-comparison", "def-nagata-blowup-product-domination-maps", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-invertible-ideal", "def-nagata-proj-closed-center-finite-degree", "lemma-nagata-blowup-invertible-factor", "lemma-nagata-composition-center-ideal", "lemma-nagata-invertible-ideal-tensor-power", "lemma-nagata-product-ideal-common-blowup", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-product-ideal", "thm-nagata-blowup-universal-property"]
 +++
 Let $D_+(at)=\operatorname{Spec}(R_a)$ be a standard chart of the first
 blow-up, where $R_a=A[\mathcal I/a]$ and $a\in\mathcal I$. The extended

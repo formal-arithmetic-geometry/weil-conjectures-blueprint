@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sf-ctf-stability"
+uses = ["sk-prop-sf-rf-shriek-preservation"]
 +++
 (i) pullback: the pullback of a flat model is flat, and pullback preserves
 bounded constructibility (lem:weil-pbc-pullback-preserves-bounded-constructible);

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properties of the closed-subscheme system, [stacks-project]"
 order = 388
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_le_of_mem", "AlgebraicGeometry.Scheme.IdealSheafData.isClosedImmersion_fgSubDiagram_map", "AlgebraicGeometry.Scheme.IdealSheafData.isLimitFgSubCone", "AlgebraicGeometry.Scheme.IdealSheafData.locallyOfFinitePresentation_fgSub_subschemeι"]
-uses = ["def-nagata-closed-subscheme-fp-system", "def-nagata-extended-ideal", "def-nagata-noetherian-inverse-system", "def-nagata-scheme-image-comparison", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-noetherian-inverse-system"]
+uses = ["def-nagata-closed-subscheme-fp-system"]
 +++
 Every $X_\alpha\hookrightarrow Y$ is of finite presentation and all
 transitions are closed immersions. If $Y$ is quasi-compact and

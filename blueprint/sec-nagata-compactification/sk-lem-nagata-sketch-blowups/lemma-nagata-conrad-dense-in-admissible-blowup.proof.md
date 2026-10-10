@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-conrad-dense-in-admissible-blowup"
+uses = ["lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement", "thm-nagata-global-blowup-proper"]
 +++
 Put $W=X\setminus V(\mathcal I)$. By the first assertion of
 [lemma-nagata-admissible-blowup-preserves-density], $\pi^{-1}(W)$ is

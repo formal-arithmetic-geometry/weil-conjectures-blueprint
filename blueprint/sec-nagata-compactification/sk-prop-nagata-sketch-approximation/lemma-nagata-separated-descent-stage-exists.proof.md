@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-separated-descent-stage-exists"
+uses = ["lemma-nagata-closed-immersion-stage-exists", "lemma-nagata-diagonal-base-change"]
 +++
 Let $D$ be the diagonal of the finite-presentation descended model over
 $S_{\lambda_{\mathrm{rel}}}$. It is of finite presentation by

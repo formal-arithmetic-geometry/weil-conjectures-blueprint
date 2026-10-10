@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-valuation-ring-extension"
+uses = ["lemma-nagata-local-domain-valuation-dominates", "lemma-nagata-valuation-intersection"]
 +++
 Apply Stacks Project, Tag 00IA (Lemma 10.50.2), to the inclusion
 $K\hookrightarrow L$. Its proof considers the partially ordered set of

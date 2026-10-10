@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Geometric stalk formula for finite direct image"
 order = 997
 lean = ["AlgebraicGeometry.Etale.lowerStarSheafFiberIsoPi", "AlgebraicGeometry.Etale.stalkRestrict"]
-uses = ["def-kun-separably-closed", "def-weil-pbc-cartesian-square", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-fibre", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-fin-finite-splitting", "lemma-weil-pbc-geometric-stalk-conservative"]
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-fibre", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-fin-finite-splitting", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $f:X\to Y$ be a finite morphism of schemes, let $\mathcal A$ be a
 Grothendieck abelian coefficient category for which presheaves on small etale

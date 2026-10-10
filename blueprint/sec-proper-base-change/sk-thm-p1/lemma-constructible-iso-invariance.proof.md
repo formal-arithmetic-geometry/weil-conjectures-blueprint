@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-constructible-iso-invariance"
+uses = ["def-constructible-constant", "def-constructible-stratification", "def-kun-separably-closed"]
 +++
 An isomorphism of sheaves induces isomorphisms of the restrictions to every
 localised site, of all stalks, and of all pullbacks, and each of the four

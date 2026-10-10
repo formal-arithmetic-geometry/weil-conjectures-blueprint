@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-strict-transform-closure-characterization"
+uses = ["def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++
 On an $a$-chart put $C=C_a(A,B,I)$. A closed subscheme containing the
 preserved open is given by a quotient $C\twoheadrightarrow C/K$ for which

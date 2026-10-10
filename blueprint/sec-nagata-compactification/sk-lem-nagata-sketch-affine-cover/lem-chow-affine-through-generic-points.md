@@ -4,7 +4,7 @@ kind = "lemma"
 title = "An affine open containing a point and all generic points"
 order = 317
 lean = ["AlgebraicGeometry.exists_isAffineOpen_mem_of_subset_genericPoints"]
-uses = ["def-weil-pbc-scheme-conventions", "lem-chow-disjoint-affines"]
+uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be a quasi-separated scheme, let $Z_1,\dots,Z_n$ be pairwise distinct
 irreducible components of $X$ with generic points $\eta_i$, and let $x\in X$.

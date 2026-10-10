@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-constructible-serre"
+uses = ["def-constructible-finite-locally-constant", "def-constructible-refines", "def-constructible-stratification", "lemma-constructible-common-refinement", "lemma-constructible-flc-biproduct", "lemma-constructible-flc-serre", "lemma-constructible-iso-invariance", "lemma-constructible-of-refines"]
 +++
 Let $\varphi\colon\mathcal F\to\mathcal F'$ be a morphism of constructible
 sheaves. By [lemma-constructible-common-refinement] and

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-intermediate-overlap-closed"
+uses = ["lemma-nagata-proper-extension-graph-closed"]
 +++
 By [lemma-nagata-intermediate-overlap-constructible], the image is
 constructible. By

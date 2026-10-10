@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-nagata-sketch-envelope"
+uses = ["sk-prop-nagata-sketch-fp-models"]
 +++
 Use [sk-prop-nagata-sketch-fp-models]. Separatedness over a fixed
 qcqs base is eventually detected in a qcqs inverse system with affine

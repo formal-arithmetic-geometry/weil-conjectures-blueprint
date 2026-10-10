@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-sc-jacobian-representability"
+uses = ["prop-pd-picard-degree-decomposition", "thm-pc-picard-representable"]
 +++
 [thm-pc-picard-representable] of the Picard chapter – the Picard functor
 of a smooth projective curve over a separably closed field is

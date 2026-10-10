@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-av-isogeny"
+uses = ["sk-prop-av-mult-hom", "sk-prop-av-mult-surjective"]
 +++
 $[n]$ is a homomorphism by [sk-prop-av-mult-hom] and
 [sk-cor-av-commutative], finite by [sk-prop-av-mult-finite] and

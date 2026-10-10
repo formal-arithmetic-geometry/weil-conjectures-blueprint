@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-separated-two-open-cover"
+uses = ["lemma-nagata-diagonal-mixed-open"]
 +++
 The target of $\Delta_{X/S}$ is covered by
 

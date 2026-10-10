@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-p-dl-a1-middle"
+uses = ["sk-p-dl-a1-perverse"]
 +++
 The simple objects in the curve perverse heart are punctual objects
 and $(j_*M)[1]$ for irreducible lisse $M$. This follows by restricting

@@ -4,7 +4,7 @@ kind = "theorem"
 title = "General $Rf_!$ weight theorem"
 order = 2851
 lean = ["AlgebraicGeometry.LAdicWeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
-uses = ["cor-zl-rfshriek-sheaf", "def-weil-complex-weights", "def-weil-pbc-qbar-category", "lem-zl-sheaves-to-complexes"]
+uses = ["def-weil-complex-weights", "def-weil-pbc-qbar-category", "lem-zl-sheaves-to-complexes"]
 +++
 For every separated finite-type morphism $f:X_0\to Y_0$ of separated
 finite-type $k_0$-schemes and every constructible $\Qlb$-Weil complex

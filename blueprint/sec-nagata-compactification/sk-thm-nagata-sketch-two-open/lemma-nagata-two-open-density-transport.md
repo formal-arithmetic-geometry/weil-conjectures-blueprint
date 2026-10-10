@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Density and quasi-compactness under the finite modification diagram"
 order = 300
 lean = ["AlgebraicGeometry.TwoOpenSide.dense_range_intermediateU"]
-uses = ["def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-boundary-loci", "lemma-nagata-two-open-final-modification"]
+uses = ["def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-two-open-final-modification"]
 +++
 In the finite diagram defining $W'_1,W'_2$ and $W$, assume that $U$ is
 scheme-theoretically dense in each initial ambient piece and that every

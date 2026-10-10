@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-composition-center-ideal"
+uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-blowup-product-comparison", "def-nagata-blowup-product-domination-maps", "def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal", "def-nagata-proj-closed-center-finite-degree", "lemma-nagata-affine-blowup-complement", "lemma-nagata-blowup-invertible-factor", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-invertible-ideal-tensor-power", "lemma-nagata-product-ideal-common-blowup", "lemma-nagata-proj-closed-center-finite-degree-exists", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-product-ideal", "thm-nagata-blowup-universal-property"]
 +++
 Write $S=b(|Z'|)$ and $\mathcal J=\mathcal F\subseteq\mathcal I^d$ as in
 the definition. The module $\mathcal F$ is finite type, and the product of

@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Surjectivity of multiplication by $n$ on points"
 lean = ["AlgebraicGeometry.surjective_npow_points"]
 order = 569
-uses = ["sk-def-av", "sk-def-av-mult-n", "sk-prop-av-isogeny"]
+uses = ["sk-def-av", "sk-def-av-mult-n"]
 tags = ["sketch"]
 +++
 Let $A$ be an abelian variety over an algebraically closed field $k$

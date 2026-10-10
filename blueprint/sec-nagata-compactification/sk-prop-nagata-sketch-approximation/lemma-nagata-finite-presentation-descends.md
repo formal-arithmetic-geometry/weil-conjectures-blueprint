@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Property of finite-presentation descent, [stacks-project]"
 order = 363
 lean = ["AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation"]
-uses = ["def-nagata-finite-presentation-descent", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-relative-gluing-axioms-eventually", "lemma-nagata-relative-gluing-datum-descends"]
+uses = ["def-nagata-finite-presentation-descent", "lemma-nagata-relative-gluing-axioms-eventually", "lemma-nagata-relative-gluing-datum-descends"]
 +++
 Let $(S_\lambda)$ be a cofiltered inverse system of quasi-compact
 quasi-separated schemes with affine transition maps and limit $S$, and let

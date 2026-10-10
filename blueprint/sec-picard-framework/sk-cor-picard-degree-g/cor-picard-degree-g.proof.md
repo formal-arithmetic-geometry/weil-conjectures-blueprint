@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "cor-picard-degree-g"
+uses = ["lem-sc-riemann-roch"]
 +++
 The vanishing gives $\chi(\cL)=h^0(X_K,\cL)=1$
 ([def-pc-euler-characteristic]), and $\deg\cL=\chi(\cL)-\chi(\cO_{X_K})$

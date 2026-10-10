@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-dl-general-sheaf"
+uses = ["sk-l-dl-general-composition", "sk-l-dl-general-excision", "sk-l-dl-general-quasifinite", "sk-p-dl-general-relative-line"]
 +++
 First prove the assertion for every affine-line projection
 $\pi_0:\mathbf A^1_{Y_0}\to Y_0$, by Noetherian induction on the base.
