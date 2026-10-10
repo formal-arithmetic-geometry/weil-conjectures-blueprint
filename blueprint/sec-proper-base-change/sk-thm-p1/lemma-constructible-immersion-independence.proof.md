@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-constructible-immersion-independence"
+uses = ["lemma-constructible-iso-invariance", "lemma-constructible-universal-homeomorphism-invariance", "prop-constructible-pullback"]
 +++
 Let $W=Z\times_XZ'$ with projections $p\colon W\to Z$ and $q\colon W\to Z'$.
 The projection $p$ is an immersion, as a base change of $b$, and it is

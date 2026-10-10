@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Consequences of the density of rational points"
 order = 753
 tags = ["latex:corollary"]
-uses = ["def-pc-curve", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-sc-invertible-module", "lem-pc-rational-points-dense"]
+uses = ["def-pc-curve", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-sc-invertible-module"]
 lean = ["AlgebraicGeometry.Scheme.Hom.denseRange_baseChangeFieldPoint", "AlgebraicGeometry.Scheme.Hom.exists_baseChangeFieldPoint_notMem_support_zeroLocus", "AlgebraicGeometry.Scheme.Hom.exists_fieldPoints_notMem_support_zeroLocus", "AlgebraicGeometry.Scheme.Hom.infinite_fieldPoints"]
 +++
 Let $k$ be a separably closed field and let $X$ be a scheme over $k$

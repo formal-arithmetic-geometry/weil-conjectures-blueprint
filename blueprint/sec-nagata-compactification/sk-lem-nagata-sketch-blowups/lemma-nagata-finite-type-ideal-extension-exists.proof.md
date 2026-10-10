@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-finite-type-ideal-extension-exists"
+uses = ["lemma-nagata-dense-flat-pullback"]
 +++
 We prove the module versions; the ideal versions are the case
 $\mathcal F=\mathcal O_X$, where all submodules are ideals. Let

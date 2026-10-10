@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "def-nagata-global-blowup-glue-data"
+uses = ["lemma-nagata-global-blowup-overlap-basic"]
 +++
 For affine opens $W\subseteq V$, the transition map
 $\mathsf B_W(\mathcal I)\to\mathsf B_V(\mathcal I)$ is induced by the

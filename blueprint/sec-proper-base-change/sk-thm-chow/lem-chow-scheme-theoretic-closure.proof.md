@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-chow-scheme-theoretic-closure"
+uses = ["def-nagata-scheme-image-factor", "lemma-nagata-immersion-open-in-scheme-image"]
 +++
 By construction $X^{*}\to X$ is a closed immersion, and $U$ factors through it.
 Its image is a closed subset containing the dense subset $U$, hence is all of

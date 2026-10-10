@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-av-divisible"
+uses = ["sk-prop-av-isogeny"]
 +++
 By [sk-prop-av-isogeny], $[n]$ is finite flat and surjective; a finite
 flat surjective morphism over the algebraically closed field $k$ is

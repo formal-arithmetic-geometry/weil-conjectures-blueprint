@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-smooth-base-change"
+uses = ["sk-lem-induction", "sk-prop-deg0"]
 +++
 *Negative degrees*: both sides vanish for $q<0$.
 *Degree zero*: [sk-prop-deg0] (smooth is flat, of finite

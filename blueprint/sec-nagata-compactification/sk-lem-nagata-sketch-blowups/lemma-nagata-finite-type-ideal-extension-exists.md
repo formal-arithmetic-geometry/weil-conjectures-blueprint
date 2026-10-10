@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Existence of a finite-type extension of an ideal"
 order = 126
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_comap_eq", "AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_le_comap_eq"]
-uses = ["def-nagata-extended-ideal", "lemma-nagata-dense-flat-pullback"]
+uses = ["def-nagata-extended-ideal"]
 +++
 Let $X$ be quasi-compact and quasi-separated and let $W\subseteq X$ be a
 quasi-compact open.

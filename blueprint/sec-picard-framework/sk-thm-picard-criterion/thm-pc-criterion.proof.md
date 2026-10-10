@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-pc-criterion"
+uses = ["lem-pc-schemes-criterion"]
 +++
 *Reduction to functors on all schemes.* [lem-pc-schemes-criterion] is
 stated for functors on the category of all schemes. To a functor $H$ on

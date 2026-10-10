@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-nagata-sketch-conrad"
+uses = ["sk-lem-nagata-sketch-blowups"]
 +++
 The density of $U$ is not needed. The four stages below are the
 elimination branch of the diagram.

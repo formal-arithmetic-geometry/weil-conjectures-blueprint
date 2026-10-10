@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Existence of a separated descent stage"
 order = 367
 lean = ["AlgebraicGeometry.Scheme.exists_isSeparated_pullback_snd"]
-uses = ["def-nagata-finite-presentation-descent", "lemma-nagata-closed-immersion-stage-exists", "lemma-nagata-diagonal-base-change", "lemma-nagata-diagonal-finite-presentation", "lemma-nagata-finite-presentation-descends"]
+uses = ["def-nagata-finite-presentation-descent", "lemma-nagata-diagonal-finite-presentation", "lemma-nagata-finite-presentation-descends"]
 +++
 Let $(S_\lambda)$ be a cofiltered inverse system of schemes with affine
 transition maps and limit $S$, and let $X\to S$ be separated. Let

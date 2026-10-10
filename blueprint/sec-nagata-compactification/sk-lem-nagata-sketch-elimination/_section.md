@@ -3,7 +3,7 @@ id = "sk-lem-nagata-sketch-elimination"
 kind = "lemma"
 title = "Elimination of indeterminacy"
 order = 226
-uses = ["sk-lem-nagata-sketch-blowups", "sk-thm-nagata-sketch-conrad"]
+uses = ["sk-lem-nagata-sketch-blowups"]
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap"]
 tags = ["sketch"]
 +++

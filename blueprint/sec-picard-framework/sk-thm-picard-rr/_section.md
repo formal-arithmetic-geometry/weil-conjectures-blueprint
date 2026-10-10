@@ -3,7 +3,7 @@ id = "sk-thm-picard-rr"
 kind = "theorem"
 title = "Riemann–Roch for curves, and its geometric corollary"
 order = 705
-uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-picard-duality"]
+uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.Scheme.eulerChar_free_eq", "AlgebraicGeometry.Scheme.eulerChar_unit_eq", "AlgebraicGeometry.Scheme.finrankH_zero_eq", "AlgebraicGeometry.Scheme.isAmple_of_degree_pos", "AlgebraicGeometry.Scheme.isAffine_compl_of_isAmple"]
 tags = ["sketch"]
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-openclosed-lowerstar-fully-faithful"
+uses = ["def-kun-separably-closed", "lemma-openclosed-point-ulift", "lemma-openclosed-stalk-lowerstar", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Fix $\mathcal H\in\shv{\et Z}$. By [lemma-openclosed-point-ulift] it is
 enough to show that $\varepsilon_{\mathcal H}$ is an isomorphism on the stalk

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-sc-isogeny-surjective"
+uses = ["lem-sc-isogeny-facts"]
 +++
 By [lem-sc-isogeny-facts](a), $[n]$ is a finite flat
 surjective morphism, so it is surjective on $k$-points by

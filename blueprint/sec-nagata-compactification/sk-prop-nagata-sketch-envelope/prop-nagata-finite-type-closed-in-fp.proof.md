@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-nagata-finite-type-closed-in-fp"
+uses = ["def-nagata-finite-type-fp-model-system", "lemma-nagata-finite-type-fp-model-system", "lemma-nagata-fixed-base-separated-eventually", "lemma-nagata-fixed-base-separated-stage-exists"]
 +++
 A finite-type morphism over a quasi-compact base has quasi-compact source,
 and separatedness makes that source quasi-separated, so the model system is

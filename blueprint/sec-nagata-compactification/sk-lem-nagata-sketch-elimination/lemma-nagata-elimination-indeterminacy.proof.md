@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-elimination-indeterminacy"
+uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-composition-of-blowups-comparison", "def-nagata-constructible-closed-support", "def-nagata-dense-compactification", "def-nagata-qc-open-complement-ideal", "def-nagata-scheme-image-comparison", "lemma-nagata-admissible-blowup-over-open", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "lemma-nagata-composition-center-ideal", "lemma-nagata-composition-extended-ideal-equality", "lemma-nagata-constructible-closed-support", "lemma-nagata-dense-flat-pullback", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "lemma-nagata-strict-transform-over-complement", "thm-nagata-composition-of-blowups", "thm-nagata-conrad-elimination", "thm-nagata-global-blowup-proper"]
 +++
 Fix an isomorphism $e_U\colon q^{-1}(U)\xrightarrow{\sim}U$ over $U$ (the
 inverse of the given isomorphism) and form the construction of

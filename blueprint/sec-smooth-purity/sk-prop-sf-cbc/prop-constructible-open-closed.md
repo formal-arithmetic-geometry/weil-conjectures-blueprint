@@ -5,7 +5,7 @@ title = "Open–closed criterion"
 order = 1537
 lean = ["AlgebraicGeometry.Scheme.Stratification.openClosed", "AlgebraicGeometry.Scheme.isConstructibleSheaf_iff_upperStar"]
 tags = ["latex:proposition"]
-uses = ["def-constructible-constructible", "def-constructible-finite-locally-constant", "def-constructible-stratification", "lemma-constructible-iso-invariance", "prop-constructible-pullback"]
+uses = ["def-constructible-constructible", "def-constructible-stratification"]
 +++
 Let $j\colon U\to X$ be an open immersion and $i\colon Z\to X$ a closed
 immersion whose range is the complement of the range of $j$. Stratifications

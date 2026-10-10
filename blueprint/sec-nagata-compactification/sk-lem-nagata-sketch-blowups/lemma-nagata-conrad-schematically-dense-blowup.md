@@ -4,7 +4,7 @@ kind = "lemma"
 title = "An admissible blow-up making the open scheme-theoretically dense"
 order = 176
 lean = ["AlgebraicGeometry.IsAdmissible.exists_comp_isSchemeTheoreticallyDominant_preimage", "AlgebraicGeometry.exists_isAdmissible_isSchemeTheoreticallyDominant_preimage"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-constructible-closed-support", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-qc-open-complement-ideal", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-constructible-closed-support", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be qcqs and let $U\subseteq X$ be a quasi-compact open. There is a
 $U$-admissible blow-up $X_1\to X$ in which the inverse image of $U$ is

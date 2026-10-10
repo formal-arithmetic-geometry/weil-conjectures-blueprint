@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-nagata-closed-subscheme-compactifiable"
+uses = ["def-nagata-closed-subscheme-compactification", "def-nagata-compactification"]
 +++
 Since $X'\to S$ is compactifiable, it has a compactification
 $C'=(X'\xrightarrow{j'}\overline X'\xrightarrow{p'}S)$

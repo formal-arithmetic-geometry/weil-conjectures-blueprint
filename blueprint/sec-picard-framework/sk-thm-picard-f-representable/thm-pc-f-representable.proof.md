@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-pc-f-representable"
+uses = ["lem-pc-f-open-subfunctor", "lem-pc-zero-scheme-recd"]
 +++
 *Preliminaries.* The scheme $X$ is projective over $k$: it is separated
 of finite type of dimension $1$ over a field, hence quasi-projective, and a

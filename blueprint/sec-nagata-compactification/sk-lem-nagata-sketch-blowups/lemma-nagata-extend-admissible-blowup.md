@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Property of the extended admissible blow-up, [stacks-project]"
 order = 174
 lean = ["AlgebraicGeometry.IsAdmissible.exists_extend", "AlgebraicGeometry.IsAdmissible.exists_extend_of_disjoint", "AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_comap_eq_of_disjoint"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-constructible-closed-support", "def-nagata-effective-cartier-ideal", "def-nagata-extended-admissible-blowup", "def-nagata-extended-ideal", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "def-nagata-qc-open-complement-ideal", "lemma-nagata-constructible-closed-support", "lemma-nagata-dense-flat-pullback", "lemma-nagata-extend-finite-type-ideal", "lemma-nagata-finite-type-ideal-extension-exists", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-flat-base-change", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-extended-admissible-blowup", "def-nagata-extended-ideal", "def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-flat-base-change"]
 +++
 Let $X$ be quasi-compact and quasi-separated, let $A,B\subseteq X$ be
 quasi-compact opens, and let $\mathcal J$ be a finite type quasi-coherent

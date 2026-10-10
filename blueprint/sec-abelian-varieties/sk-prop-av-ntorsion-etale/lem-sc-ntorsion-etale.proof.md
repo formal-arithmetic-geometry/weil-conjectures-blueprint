@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-sc-ntorsion-etale"
+uses = ["lem-sc-divisible-group-structure", "lem-sc-fg-order-prime-etale", "lem-sc-finite-etale-points", "lem-sc-isogeny-facts", "lem-sc-isogeny-surjective", "lem-sc-mult-n-etale-kernel", "lem-sc-mult-n-finite-flat"]
 +++
 By [lem-sc-isogeny-facts](b), $A[n]$ is a finite flat group
 scheme of order $n^{2g}$ over the field $k$, and $n^{2g}$ is prime to

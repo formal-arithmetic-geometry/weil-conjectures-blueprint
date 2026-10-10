@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-sc-mult-n-isogeny"
+uses = ["lem-sc-mult-n-finite-kernel", "lem-sc-mult-n-homomorphism"]
 +++
 *Reference: Stacks Project, Groupoid Schemes, Proposition
 39.9.11 (3) and (5), [Tag 03RP](https://stacks.math.columbia.edu/tag/03RP), whose proof is Lemma 39.9.8,

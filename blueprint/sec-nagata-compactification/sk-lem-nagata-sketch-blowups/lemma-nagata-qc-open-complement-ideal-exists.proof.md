@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-qc-open-complement-ideal-exists"
+uses = ["def-nagata-extended-ideal", "lemma-nagata-finite-type-ideal-extension-exists"]
 +++
 Let $\mathcal K\subseteq\mathcal O_Y$ be the quasi-coherent ideal defining
 the reduced induced closed subscheme on $Y\setminus W$. Its restriction to

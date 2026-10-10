@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-sc-mult-n-pullback"
+uses = ["thm-sc-theorem-of-cube"]
 +++
 *Reference: Stacks Project, Groupoid Schemes, Lemma 39.9.7,
 [Tag 0BFF](https://stacks.math.columbia.edu/tag/0BFF).*

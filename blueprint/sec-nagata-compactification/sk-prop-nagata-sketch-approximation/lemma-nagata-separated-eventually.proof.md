@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-separated-eventually"
+uses = ["lemma-nagata-finite-presentation-descends", "lemma-nagata-separated-descent-stage-exists"]
 +++
 The initial descended model is finite presentation and has base change $X$.
 The diagonal base-change lemma identifies the base change of its diagonal

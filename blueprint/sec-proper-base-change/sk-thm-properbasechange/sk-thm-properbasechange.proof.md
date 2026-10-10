@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-properbasechange"
+uses = ["sk-def-pbc", "sk-thm-p1", "sk-thm-reduction"]
 +++
 **Step 1 ($\Pone$).** By [sk-thm-p1], for every scheme $S$ the
 projection $\Pone_S\to S$ satisfies $\mathrm{PBC}_\Lambda$: the exchange

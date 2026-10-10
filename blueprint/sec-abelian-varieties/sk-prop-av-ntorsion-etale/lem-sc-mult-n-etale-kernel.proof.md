@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-sc-mult-n-etale-kernel"
+uses = ["lem-sc-fg-order-prime-etale", "lem-sc-mult-n-finite-flat"]
 +++
 *Reference: Stacks Project, Groupoid Schemes, Lemma 39.9.9,
 [Tag 0BFH](https://stacks.math.columbia.edu/tag/0BFH).*

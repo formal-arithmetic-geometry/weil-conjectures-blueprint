@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-conrad-quasi-affine-general"
+uses = ["def-nagata-dense-compactification", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-case3-disjointness-reduction", "lemma-nagata-conrad-case3-smaller-base", "lemma-nagata-conrad-quasi-affine-equal-opens", "lemma-nagata-extend-admissible-blowup", "thm-nagata-global-blowup-proper"]
 +++
 *Step 1: separating $p(\overline{f(U)})$ from $\overline{V\setminus U}$.*
 [lemma-nagata-conrad-case3-disjointness-reduction] gives a $V$-admissible

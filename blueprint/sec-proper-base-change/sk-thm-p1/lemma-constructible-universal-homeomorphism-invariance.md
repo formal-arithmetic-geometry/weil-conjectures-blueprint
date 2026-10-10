@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Invariance under universal homeomorphisms"
 order = 1168
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.of_upperStar", "AlgebraicGeometry.Scheme.IsFiniteSheaf.of_upperStar", "AlgebraicGeometry.Scheme.IsLocallyConstantSheaf.of_upperStar", "AlgebraicGeometry.Scheme.exists_comp_eq_of_surjective", "AlgebraicGeometry.Scheme.isFiniteLocallyConstantSheaf_upperStar_iff", "CategoryTheory.Sheaf.isConstant_upperStar_iff"]
-uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-kun-separably-closed", "lem-weil-pbc-closed-immersion-from-composite", "lemma-constructible-pullback-constant", "lemma-constructible-pullback-finite", "lemma-constructible-pullback-locally-constant", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-openclosed-stalk-upperstar", "prop-constructible-pullback", "prop-weil-pbc-universal-homeomorphism-topos", "thm-weil-pbc-universal-homeomorphism-invariance"]
+uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "lemma-constructible-pullback-finite", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $u\colon Z'\to Z$ be a universal homeomorphism. Then
 $\mathcal G\in\shv{\et Z}$ is constant (locally constant) if and only if

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-p-readout"
+uses = ["sk-i-restriction"]
 +++
 The subspaces $U\subseteq S$ of $V=k^n$ are stable under $\rho(W)$, hence
 under its Zariski closure $G$ by the density statement of

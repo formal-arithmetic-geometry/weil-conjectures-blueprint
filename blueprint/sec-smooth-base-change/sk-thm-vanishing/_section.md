@@ -3,7 +3,7 @@ id = "sk-thm-vanishing"
 kind = "theorem"
 title = "Vanishing in the universal curve test"
 order = 1410
-uses = ["sk-def-smooth", "sk-prop-cd-affine", "sk-prop-etale-normal", "sk-prop-ext-invariance", "sk-prop-input-spreading", "sk-prop-input-torsors", "sk-prop-normal-form"]
+uses = ["sk-def-smooth", "sk-prop-cd-affine", "sk-prop-etale-normal", "sk-prop-ext-invariance"]
 lean = ["AlgebraicGeometry.Etale.CurveTestDatum.isZero_higherDirectImage_constantSheaf"]
 tags = ["sketch"]
 +++

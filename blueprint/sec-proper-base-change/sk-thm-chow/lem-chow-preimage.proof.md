@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-chow-preimage"
+uses = ["def-nagata-affine-proj", "def-nagata-dense-compactification", "def-nagata-projective-space-base-change", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lem-chow-agree-on-dense-open", "lem-chow-tuple-immersion", "lemma-nagata-dense-flat-pullback", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-projective-space-base-change-proper", "lemma-nagata-proper-to-separated-target", "lemma-nagata-scheme-image-ideal-qc"]
 +++
 The inclusion $V_i\subseteq\pi^{-1}(U_i)$ holds because $\pi|_{V_i}=p_i|_{V_i}$
 takes values in $U_i$. The morphism $p_i|_{V_i}\colon V_i\to U_i$ is proper,

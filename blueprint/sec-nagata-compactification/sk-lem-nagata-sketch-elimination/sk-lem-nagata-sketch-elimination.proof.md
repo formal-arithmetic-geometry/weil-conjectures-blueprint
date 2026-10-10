@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-lem-nagata-sketch-elimination"
+uses = ["sk-thm-nagata-sketch-conrad"]
 +++
 First blow up a finite-type ideal supported exactly on $X\setminus U$
 so that $U$ becomes scheme-theoretically dense. Apply

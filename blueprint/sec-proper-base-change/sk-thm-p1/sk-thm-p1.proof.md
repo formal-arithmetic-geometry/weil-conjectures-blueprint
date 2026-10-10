@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-p1"
+uses = ["sk-def-conv", "sk-def-ia"]
 +++
 Write $p:\Pone_S\to S$, and for a base change $g:T\to S$ let
 $p':\Pone_T\to T$ and $g':\Pone_T\to\Pone_S$ be the other two sides of the

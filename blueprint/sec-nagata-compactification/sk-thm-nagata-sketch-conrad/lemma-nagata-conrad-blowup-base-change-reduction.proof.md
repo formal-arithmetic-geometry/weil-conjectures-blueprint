@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-conrad-blowup-base-change-reduction"
+uses = ["lemma-nagata-admissible-blowup-comp"]
 +++
 Let $X''\to X'$ be a $q^{-1}(V)$-admissible blow-up solving the problem
 upstairs. By [lemma-nagata-admissible-blowup-comp] the composite

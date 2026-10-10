@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Universal property of the scheme-theoretic image"
 order = 71
 lean = ["AlgebraicGeometry.IsClosedImmersion.lift"]
-uses = ["def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
+uses = ["def-nagata-scheme-image-comparison"]
 +++
 The composite of $g^{\mathrm{im}}$ with
 $\operatorname{SIm}(g)\hookrightarrow Y$ is $g$. For every closed

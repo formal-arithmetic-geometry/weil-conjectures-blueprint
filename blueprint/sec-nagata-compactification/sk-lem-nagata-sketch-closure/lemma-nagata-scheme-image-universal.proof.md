@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-scheme-image-universal"
+uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 The factorization equality is `Scheme.Hom.toImage_imageι`.
 Let $\mathcal I_Z$ be the ideal of $Z$. From

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-cor-nagata-sketch-proper-extension"
+uses = ["sk-thm-nagata-sketch-conrad"]
 +++
 Replace $Y$ by $Y\times_SX$: then $f$ becomes a section over $U$ of the
 proper morphism $Y\times_SX\to X$, with closed image over $U$ because that

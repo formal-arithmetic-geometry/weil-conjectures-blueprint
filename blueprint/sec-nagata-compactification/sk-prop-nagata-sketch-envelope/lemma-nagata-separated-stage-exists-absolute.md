@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Existence of a separated stage, absolute case, [stacks-project]"
 order = 392
 lean = ["AlgebraicGeometry.Scheme.exists_isSeparated_of_isLimit"]
-uses = ["lemma-nagata-affine-finite-type-is-quasi-affine"]
 +++
 Let $Y=\varprojlim_\alpha Y_\alpha$ be a cofiltered limit of qcqs schemes with
 affine transition maps. If $Y$ is separated, then there is an index

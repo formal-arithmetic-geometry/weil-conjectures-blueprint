@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-nagata-dense-refinement"
+uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-ideal-qc"]
 +++
 Write $C=(X\xrightarrow{j}\overline X\xrightarrow{p}S)$. Since $p$ is
 proper, it is quasi-separated, and $j;p=f$ is quasi-compact; by

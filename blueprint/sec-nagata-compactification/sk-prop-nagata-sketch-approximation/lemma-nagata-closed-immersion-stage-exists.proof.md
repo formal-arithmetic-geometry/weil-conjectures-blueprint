@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-closed-immersion-stage-exists"
+uses = ["lemma-nagata-affine-finite-type-is-quasi-affine"]
 +++
 Cover $Y_\lambda$ by finitely many affine opens and cover the inverse images
 in $Z_\lambda$ by finitely many affine opens; this is finite because the

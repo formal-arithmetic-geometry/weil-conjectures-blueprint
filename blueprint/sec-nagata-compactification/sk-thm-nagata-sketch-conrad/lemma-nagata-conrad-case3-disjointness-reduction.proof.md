@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-conrad-case3-disjointness-reduction"
+uses = ["def-nagata-constructible-closed-support", "def-nagata-extended-ideal", "def-nagata-qc-open-complement-ideal", "lemma-nagata-conrad-disjointness-blowup", "lemma-nagata-constructible-closed-support", "lemma-nagata-finite-type-ideal-compact", "lemma-nagata-finite-type-ideal-power-in-ideal", "lemma-nagata-ideal-directed-union-finite-type", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists"]
 +++
 We produce the two ideals $\mathcal I_1,\mathcal I_2$ required by
 [lemma-nagata-conrad-disjointness-blowup], applied to the opens

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Resolution independence, identities, and pasting"
 order = 1046
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_ext", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
-uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-underived-exchange", "lemma-weil-pbc-derived-exchange-replacement"]
+uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-underived-exchange"]
 +++
 Let $\mathcal A$ be a coefficient category as in
 [def-weil-pbc-derived-exchange], and consider derived exchange morphisms

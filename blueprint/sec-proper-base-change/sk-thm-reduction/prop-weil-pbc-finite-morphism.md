@@ -5,7 +5,7 @@ title = "Finite morphisms satisfy proper base change"
 order = 1193
 lean = ["AlgebraicGeometry.Etale.isBaseChangeIsoSheaf_of_isFinite", "AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite"]
 tags = ["latex:proposition"]
-uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-exchange", "lemma-weil-pbc-property-iff-acyclicity"]
+uses = ["def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-property-iff-acyclicity"]
 +++
 Let $f:X\to Y$ be a finite morphism, and consider sheaves with values in
 $\Lambda$-modules for a ring $\Lambda$ (more generally, in a Grothendieck

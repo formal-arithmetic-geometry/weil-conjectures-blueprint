@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Multiplication by $d$ prime to the characteristic is etale"
 lean = ["AlgebraicGeometry.etale_npow_id", "AlgebraicGeometry.etale_torsionSubgroupScheme"]
 order = 588
-uses = ["def-sc-abelian-variety", "def-sc-mult-n", "lem-sc-fg-order-prime-etale", "lem-sc-mult-n-finite-flat"]
+uses = ["def-sc-abelian-variety", "def-sc-mult-n"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over a field $k$
 and let $d\geq1$ with $\operatorname{char}k\nmid d$. Then the

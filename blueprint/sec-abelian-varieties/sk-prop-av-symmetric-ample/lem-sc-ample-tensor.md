@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Tensor products of ample modules"
 lean = ["AlgebraicGeometry.IsAmple.tensorObj", "AlgebraicGeometry.IsAbelianVariety.isAmple_symmetrisation", "AlgebraicGeometry.IsAbelianVariety.nonempty_iso_overPullback_inv_symmetrisation"]
 order = 478
-uses = ["def-sc-abelian-variety", "def-sc-ample", "lem-chow-segre"]
+uses = ["def-sc-abelian-variety", "def-sc-ample"]
 +++
 Let $X$ be a scheme over a field $k$ and let $\mathcal L$ and
 $\mathcal M$ be ample invertible

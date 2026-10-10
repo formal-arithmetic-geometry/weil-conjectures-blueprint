@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The $n$-torsion of an abelian variety is etale"
 lean = ["AlgebraicGeometry.etale_torsionSubgroupScheme", "AlgebraicGeometry.isFinite_torsionSubgroupScheme", "AlgebraicGeometry.bijective_toUnit_comp_torsionSubgroupScheme", "AlgebraicGeometry.nonempty_addEquiv_torsionBy"]
 order = 589
-uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-mult-n", "lem-sc-av-commutative", "lem-sc-divisible-group-structure", "lem-sc-fg-order-prime-etale", "lem-sc-finite-etale-points", "lem-sc-isogeny-facts", "lem-sc-isogeny-surjective", "lem-sc-mult-n-etale-kernel", "lem-sc-mult-n-finite-flat"]
+uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-mult-n", "lem-sc-av-commutative"]
 +++
 Let $A$ be an abelian variety
 of dimension $g$ over a field $k$ and let

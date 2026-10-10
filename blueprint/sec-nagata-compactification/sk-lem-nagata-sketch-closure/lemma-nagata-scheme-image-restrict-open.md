@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Restriction of a scheme-theoretic image to an open target"
 order = 85
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_morphismRestrict"]
-uses = ["def-nagata-extended-ideal", "def-nagata-scheme-theoretic-image", "lemma-nagata-dense-flat-pullback"]
+uses = ["def-nagata-extended-ideal", "def-nagata-scheme-theoretic-image"]
 +++
 Let $g\colon T\to Y$ be quasi-compact, let
 $W\subseteq Y$ be open, let $T_W=T\times_YW$, and let

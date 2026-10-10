@@ -3,7 +3,6 @@ id = "sk-thm-nagata-sketch-two-open"
 kind = "theorem"
 title = "Two-open compactification"
 order = 284
-uses = ["sk-lem-nagata-sketch-common", "sk-lem-nagata-sketch-dense-valuative", "sk-prop-nagata-sketch-key-disjointness"]
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
 tags = ["sketch"]
 +++

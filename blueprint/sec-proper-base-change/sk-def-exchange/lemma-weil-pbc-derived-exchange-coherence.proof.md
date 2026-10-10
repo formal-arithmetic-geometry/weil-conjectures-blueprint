@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-weil-pbc-derived-exchange-coherence"
+uses = ["def-weil-pbc-cartesian-square", "lemma-weil-pbc-derived-exchange-replacement"]
 +++
 *(1)* This is the uniqueness part of
 [lemma-weil-pbc-derived-exchange-replacement]. Independence of the resolution

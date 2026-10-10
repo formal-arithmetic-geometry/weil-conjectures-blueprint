@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-fixed-base-separated-stage-exists"
+uses = ["lemma-nagata-separated-stage-exists-absolute"]
 +++
 Since $X_{\alpha_1}$ is quasi-compact for one fixed index $\alpha_1$, its
 image meets only finitely many affine opens $V_1,\dots,V_n$ of $S$ covering

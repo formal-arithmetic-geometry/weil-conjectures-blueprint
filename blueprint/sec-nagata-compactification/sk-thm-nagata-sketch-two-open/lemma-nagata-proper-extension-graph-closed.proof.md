@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-proper-extension-graph-closed"
+uses = ["def-nagata-compactifiable", "def-nagata-compactification", "lemma-nagata-proper-to-separated-target"]
 +++
 By [def-nagata-two-open-graph-extensions], the morphism
 $\psi_i\colon V_i\to U$ is proper. Regard

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Total transform of a Cartier ideal under a blow-up"
 order = 121
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.comap_blowupMap"]
-uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-blowup-chart-ring", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-invertible-ideal", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-extended-ideal-affine-chart", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-affine-blowup-chart", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded"]
+uses = ["def-nagata-blowup-chart-ring", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-invertible-ideal", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open"]
 +++
 Let $\mathcal L\subseteq\mathcal O_T$ be an invertible ideal and let
 $T'=\operatorname{Bl}_{\mathcal K}(T)\to T$ be the blow-up of $T$ along an

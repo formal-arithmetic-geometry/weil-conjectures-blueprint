@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Property of the selected separated descent stage, [stacks-project]"
 order = 369
 lean = ["AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation_of_isSeparated"]
-uses = ["def-nagata-separated-descent-stage", "lemma-nagata-closed-immersion-descends", "lemma-nagata-diagonal-base-change", "lemma-nagata-finite-presentation-descends", "lemma-nagata-separated-descent-stage-exists"]
+uses = ["def-nagata-separated-descent-stage", "lemma-nagata-closed-immersion-descends", "lemma-nagata-diagonal-base-change"]
 +++
 Let $(S_\lambda)$ be a cofiltered inverse system of quasi-compact
 quasi-separated schemes with affine transition maps and limit $S$, and let

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-zl-curve-testing-irreducibility"
+uses = ["lem-zl-bertini-finite-cover-curve"]
 +++
 Use the geometric representations of
 [def-wf-fundamental-representation], and choose finite coefficient

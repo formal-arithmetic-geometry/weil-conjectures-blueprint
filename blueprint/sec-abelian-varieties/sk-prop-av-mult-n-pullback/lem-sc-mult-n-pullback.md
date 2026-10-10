@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Pullback of symmetric modules under multiplication by $n$"
 lean = ["AlgebraicGeometry.nonempty_iso_overPullback_npow_id"]
 order = 482
-uses = ["def-sc-abelian-variety", "def-sc-mult-n", "thm-sc-theorem-of-cube"]
+uses = ["def-sc-abelian-variety", "def-sc-mult-n"]
 +++
 Let $A$ be an abelian variety
 over a field $k$, let $\mathcal N$ be an invertible

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-constructible-pullback"
+uses = ["def-constructible-finite", "def-constructible-locally-constant", "def-constructible-stratification", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-finite", "lemma-constructible-pullback-locally-constant", "lemma-constructible-pullback-stratification"]
 +++
 Let $(\iota_k\colon Z_k\to X)_k$ be a stratification of $X$ with all
 $\iota_k^*\mathcal F$ finite locally constant, and let

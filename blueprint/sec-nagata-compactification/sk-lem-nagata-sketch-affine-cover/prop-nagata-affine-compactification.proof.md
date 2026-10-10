@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-nagata-affine-compactification"
+uses = ["def-nagata-affine-compactification", "def-nagata-compactification", "def-nagata-relative-affine-space", "lemma-nagata-quasi-affine-immersion-affine-space-exists"]
 +++
 By [lemma-nagata-quasi-affine-immersion-affine-space-exists] and
 [lemma-nagata-quasi-affine-immersion-affine-space] there are a finite

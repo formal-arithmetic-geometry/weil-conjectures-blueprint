@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-intfactors"
+uses = ["sk-prop-separation"]
 +++
 By [sk-thm-rationality], $Z\in\Q(T)\cap(1+T\Z[[T]])$. *Fatou's
 lemma* (Fatou, Acta Math. 30 (1906); in the expanded blueprint

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-lem-nagata-sketch-near-closure"
+uses = ["sk-lem-nagata-sketch-boundary", "sk-lem-nagata-sketch-elimination"]
 +++
 Enlarge $T$ and the closed non-isomorphism locus in $V$ to disjoint
 constructible closed subsets. Separate their closures by

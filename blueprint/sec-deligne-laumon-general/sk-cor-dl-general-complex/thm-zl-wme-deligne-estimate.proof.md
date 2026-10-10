@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-zl-wme-deligne-estimate"
+uses = ["cor-zl-rfshriek-sheaf"]
 +++
 By [cor-zl-rfshriek-sheaf], every mixed Weil sheaf $\mathcal F$ of
 weights at most $v$ has $R^af_!\mathcal F$ mixed of weights at most

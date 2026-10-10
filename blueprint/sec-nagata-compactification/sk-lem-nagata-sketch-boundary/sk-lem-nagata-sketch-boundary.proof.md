@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-lem-nagata-sketch-boundary"
+uses = ["sk-lem-nagata-sketch-blowups"]
 +++
 Represent the two subsets by finite-type ideals on $V$, extend the
 ideals to $X$, and apply the closed-boundary separation blow-up.

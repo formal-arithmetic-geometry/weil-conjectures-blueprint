@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-av-mult-finite"
+uses = ["sk-prop-av-ample-positive", "sk-prop-av-mult-n-pullback", "sk-prop-av-pqf-finite", "sk-prop-av-symmetric-ample"]
 +++
 By [sk-prop-av-symmetric-ample] there is an ample $\cN$ with
 $[-1]^*\cN\cong\cN$, and by [sk-prop-av-mult-n-pullback]

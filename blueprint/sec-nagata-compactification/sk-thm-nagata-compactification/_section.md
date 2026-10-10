@@ -3,7 +3,7 @@ id = "sk-thm-nagata-compactification"
 kind = "theorem"
 title = "Nagata compactification"
 order = 398
-uses = ["sk-cor-nagata-sketch-fp", "sk-lem-nagata-sketch-closure", "sk-prop-nagata-sketch-envelope"]
+uses = ["sk-lem-nagata-sketch-closure"]
 lean = ["AlgebraicGeometry.NagataCompactification"]
 tags = ["sketch"]
 +++

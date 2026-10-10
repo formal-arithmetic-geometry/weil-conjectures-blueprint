@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-sc-isogeny-facts"
+uses = ["lem-sc-mult-n-isogeny"]
 +++
 *Reference for the classical inputs: Stacks Project, Groupoid
 Schemes, Section 39.9, [Tag 0BF9](https://stacks.math.columbia.edu/tag/0BF9) – in particular Lemma 39.9.2, [Tag 0BFA](https://stacks.math.columbia.edu/tag/0BFA)

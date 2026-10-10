@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-strict-transform-ambient-closed"
+uses = ["def-nagata-strict-transform", "lemma-nagata-strict-transform-closure-characterization", "thm-nagata-strict-transform-is-blowup"]
 +++
 By [thm-nagata-strict-transform-is-blowup], the strict transform is the
 blow-up of $Z$ in the extended center ideal. On an affine chart

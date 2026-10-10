@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-p-real-rankone"
+uses = ["sk-d-real-log"]
 +++
 *Proper curves.*
 Choose a completion with [sk-i-real-compactification] and let $J_0$ be

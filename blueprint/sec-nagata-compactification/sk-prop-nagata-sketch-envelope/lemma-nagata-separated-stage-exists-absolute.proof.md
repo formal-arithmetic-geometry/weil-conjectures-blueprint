@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-separated-stage-exists-absolute"
+uses = ["lemma-nagata-affine-finite-type-is-quasi-affine"]
 +++
 Choose a finite affine open cover $U_1,\dots,U_m$ of one stage
 $Y_{\alpha_1}$ and let $U_{\alpha,k}$, $U_k$ denote the inverse images in

@@ -4,7 +4,7 @@ kind = "corollary"
 title = "The derived direct-image bound"
 order = 2850
 lean = ["AlgebraicGeometry.LAdicWeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
-uses = ["sk-d-dl-general-weights", "sk-thm-dl-general-sheaf"]
+uses = ["sk-d-dl-general-weights"]
 tags = ["sketch"]
 +++
 Let $f_0:X_0\to Y_0$ be a separated finite-type morphism of

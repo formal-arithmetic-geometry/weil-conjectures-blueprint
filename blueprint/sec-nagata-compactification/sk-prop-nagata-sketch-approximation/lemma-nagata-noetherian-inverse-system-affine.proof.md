@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-noetherian-inverse-system-affine"
+uses = ["lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-ring-finite-type-subalgebras"]
 +++
 Finitely generated $\mathbf Z$-subalgebras are directed by
 [lemma-nagata-ring-finite-type-subalgebras], and each

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "cor-zl-rfshriek-sheaf"
+uses = ["lem-zl-composition-weight-bound"]
 +++
 Regard $\mathcal F$ as a complex concentrated in degree zero. The
 definition [def-weil-complex-weights] identifies its upper bound

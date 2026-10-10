@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-zl-spread-normalization"
+uses = ["lem-zl-noether-normalization-field"]
 +++
 Put $K=\operatorname{Frac}A$ and fix algebra generators
 $b_1,\ldots,b_m$ of $B$ over $A$.

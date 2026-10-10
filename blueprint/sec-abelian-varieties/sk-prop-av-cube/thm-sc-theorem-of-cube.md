@@ -4,7 +4,7 @@ kind = "theorem"
 title = "The theorem of the cube"
 lean = ["AlgebraicGeometry.nonempty_iso_cube"]
 order = 480
-uses = ["def-sc-abelian-variety", "def-sc-invertible-module", "lem-sc-abelian-variety-characterization"]
+uses = ["def-sc-abelian-variety", "def-sc-invertible-module"]
 +++
 Let $A$ be an abelian variety
 over a field $k$, and let $\mathcal L$ be an

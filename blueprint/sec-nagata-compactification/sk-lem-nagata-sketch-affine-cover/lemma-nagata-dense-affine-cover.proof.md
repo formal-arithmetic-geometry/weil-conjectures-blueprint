@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-dense-affine-cover"
+uses = ["lemma-nagata-dense-affine-cover-exists"]
 +++
 The selected witness is supplied by
 [lemma-nagata-dense-affine-cover-exists]. Its specification fields say

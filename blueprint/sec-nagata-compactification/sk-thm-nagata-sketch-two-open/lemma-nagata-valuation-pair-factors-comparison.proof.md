@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-valuation-pair-factors-comparison"
+uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-comparison-space", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-valuation-factor-closed"]
 +++
 The two generic maps have the same image in $U$, so their pair lands in
 $V_1\times_UV_2=V_{12}$. Composing with the canonical image-factor map

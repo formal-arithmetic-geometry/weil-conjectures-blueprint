@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-p-real-rankin"
+uses = ["sk-d-real-cohom", "sk-d-real-series", "sk-p-linear-spectra", "sk-p-real-rankone", "sk-p-tensor"]
 +++
 For $m\ge1$, put $\mathcal H_m=\mathcal F^{\otimes2m}$.
 The tensor rule in [sk-p-tensor] bounds its constituent determinant

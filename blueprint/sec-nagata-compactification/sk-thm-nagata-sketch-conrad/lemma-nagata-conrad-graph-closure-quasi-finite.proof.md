@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-conrad-graph-closure-quasi-finite"
+uses = ["def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-invertible-ideal", "def-nagata-quasi-affine-morphism", "lemma-nagata-affine-blowup-complement", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-quasi-affine-general", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-invertible-product-factor", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property", "thm-nagata-global-blowup-proper"]
 +++
 Choose a finite affine open cover $\{Z\}_{Z\in S}$ of $Y$ and fix one of its
 members $Z$. Since $Z$ is affine it is quasi-affine, and the composite

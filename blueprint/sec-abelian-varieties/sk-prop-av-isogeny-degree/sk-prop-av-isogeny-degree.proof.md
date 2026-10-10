@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-av-isogeny-degree"
+uses = ["sk-def-av-group-scheme", "sk-prop-av-pqf-finite"]
 +++
 $f$ is proper ($A$ is proper) and its fibres become translates $x+K$ of
 the finite kernel after extending the residue field (see below), hence

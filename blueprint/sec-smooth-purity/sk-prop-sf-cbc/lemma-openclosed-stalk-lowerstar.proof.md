@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-openclosed-stalk-lowerstar"
+uses = ["lemma-openclosed-etale-lifts-locally"]
 +++
 Write $\mathrm N(\bar x)$ for the cofiltered category of étale
 neighbourhoods $(V,\bar v)$ of $\bar x$ in $\et X$ and $\mathrm N(\bar z)$

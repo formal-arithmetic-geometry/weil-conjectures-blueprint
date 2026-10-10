@@ -4,7 +4,7 @@ kind = "lemma"
 title = "[stacks-project]"
 order = 164
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_isClosedImmersion_blowup_comap"]
-uses = ["def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-strict-transform", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent", "prop-nagata-strict-transform-chart-iso", "prop-nagata-strict-transform-closed-fiber-product", "thm-nagata-strict-transform-is-blowup"]
+uses = ["def-nagata-extended-ideal", "def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent", "prop-nagata-strict-transform-chart-iso", "prop-nagata-strict-transform-closed-fiber-product"]
 +++
 Let $j\colon Z\hookrightarrow X$ be a closed immersion and let $\mathcal I$
 be a quasi-coherent ideal on $X$. Then there is a closed immersion

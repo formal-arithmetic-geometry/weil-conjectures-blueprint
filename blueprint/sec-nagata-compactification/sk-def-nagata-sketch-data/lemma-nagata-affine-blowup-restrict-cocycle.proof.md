@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-affine-blowup-restrict-cocycle"
+uses = ["def-nagata-affine-proj", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-piece-membership", "prop-nagata-rees-graded"]
 +++
 Applying $\psi\varphi$ to a coefficient is the same as applying $\varphi$
 and then $\psi$, so the graded ring homomorphisms of

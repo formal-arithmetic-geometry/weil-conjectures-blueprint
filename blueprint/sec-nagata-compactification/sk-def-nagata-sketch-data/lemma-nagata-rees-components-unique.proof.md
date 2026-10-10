@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-rees-components-unique"
+uses = ["lemma-nagata-rees-piece-mul"]
 +++
 Apply the coefficient projection in a fixed degree $n\in E$. Every summand
 of degree different from $n$ has zero $n$th component, so the projection of

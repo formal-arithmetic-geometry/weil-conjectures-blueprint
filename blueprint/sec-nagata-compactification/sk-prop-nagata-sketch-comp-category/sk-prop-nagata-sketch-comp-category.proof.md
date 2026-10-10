@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-nagata-sketch-comp-category"
+uses = ["sk-lem-nagata-sketch-closure"]
 +++
 (i) Given $c_1,c_2$, consider
 

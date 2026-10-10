@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-c-dl-a1-hc1"
+uses = ["sk-p-dl-a1-fourier-weight"]
 +++
 Semicontinuity bounds the weights of $j'_*M'$ by $v\le w+1$ even
 at singular points. At $0$ the Fourier kernel is trivial, and the

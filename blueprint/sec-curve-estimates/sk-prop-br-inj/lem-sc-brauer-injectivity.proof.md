@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-sc-brauer-injectivity"
+uses = ["lem-sc-divisor-sequence-general"]
 +++
 Write $X^{(1)}$ for the set of codimension-one points of $X$ and, for
 $x\in X^{(1)}$, $i_x:\operatorname{Spec}k(x)\to X$ for the canonical

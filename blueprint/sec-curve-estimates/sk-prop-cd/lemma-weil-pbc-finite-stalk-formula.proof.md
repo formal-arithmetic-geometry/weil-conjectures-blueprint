@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-weil-pbc-finite-stalk-formula"
+uses = ["def-kun-separably-closed"]
 +++
 After base change to the strict henselization at $\bar y$, the finite scheme
 $X_{\bar y}$ is the spectrum of a finite algebra over a strictly henselian

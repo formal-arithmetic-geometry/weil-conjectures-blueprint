@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-conrad-quasi-affine-affine-base"
+uses = ["def-nagata-relative-affine-space", "def-nagata-scheme-image-comparison", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-affine-space-extension", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-dense-flat-pullback", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "thm-nagata-global-blowup-proper"]
 +++
 By [lemma-nagata-quasi-affine-immersion-affine-space-exists] there are
 an $n$ and a quasi-compact immersion $i\colon Y\to\mathbb A^n_X$ over $X$.

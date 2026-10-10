@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-pc-pic-split"
+uses = ["lem-pc-k-sheaf"]
 +++
 Since $\sigma$ is a section of $f$, we have
 $\sigma_T^*\circ f_T^*=\mathrm{id}_{\operatorname{Pic}(T)}$; hence $f_T^*$ is injective and, by

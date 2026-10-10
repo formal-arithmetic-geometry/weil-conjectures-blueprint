@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-scheme-image-partial-section"
+uses = ["def-nagata-extended-ideal", "lem-weil-pbc-closed-immersion-from-composite", "lemma-nagata-dense-flat-pullback", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
 By [lemma-nagata-scheme-image-restrict-open], restriction to
 $U\times_SY$ commutes with taking the scheme-theoretic image. On this

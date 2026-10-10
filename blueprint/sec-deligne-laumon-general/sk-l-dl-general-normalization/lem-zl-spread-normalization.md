@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Spreading affine normalization to a principal open"
 order = 2824
 lean = ["Algebra.FiniteType.exists_finite_aeval_away"]
-uses = ["def-weil-pbc-scheme-conventions", "def-zl-localized-coordinates", "lem-zl-noether-normalization-field"]
+uses = ["def-weil-pbc-scheme-conventions", "def-zl-localized-coordinates"]
 +++
 Let $A$ be a domain and $B$ a finitely generated commutative
 $A$-algebra. There are $0\neq s_0\in A$, $d\geq0$, and

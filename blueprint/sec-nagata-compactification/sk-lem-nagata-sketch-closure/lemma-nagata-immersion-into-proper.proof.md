@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-immersion-into-proper"
+uses = ["def-nagata-compactification", "def-nagata-immersion-compactification", "lemma-nagata-open-immersion-qc-over-separated-target"]
 +++
 Write $f\colon X\to S$ for the composite. Since $Y\to S$ is proper, it is
 separated, hence quasi-separated; as $f$ is quasi-compact,

@@ -3,7 +3,7 @@ id = "lem-pc-hilb-representable"
 kind = "lemma"
 title = "Hilbert schemes of points are representable"
 order = 782
-uses = ["def-pc-finite-locally-free", "def-pc-fppf-site", "def-sc-ample", "lem-pc-hilb-sheaf", "lem-pc-schemes-criterion"]
+uses = ["def-pc-finite-locally-free", "def-pc-fppf-site", "def-sc-ample"]
 lean = ["AlgebraicGeometry.isRepresentable_hilbertPresheaf"]
 +++
 Let $X\to S$

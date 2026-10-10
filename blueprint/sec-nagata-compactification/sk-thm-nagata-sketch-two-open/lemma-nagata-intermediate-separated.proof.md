@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-intermediate-separated"
+uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-two-open-boundary-loci", "lemma-nagata-boundary-loci", "lemma-nagata-intermediate-overlap-closed", "lemma-nagata-intermediate-overlap-constructible", "lemma-nagata-intermediate-overlap-specialization-closed", "lemma-nagata-intermediate-specialization-boundary", "lemma-nagata-separated-two-open-cover"]
 +++
 The opens $U$ and $X_i\setminus\overline Z_{i,j}$ cover $W_i$. The first
 is separated and of finite type over $S$ by the section hypotheses. The

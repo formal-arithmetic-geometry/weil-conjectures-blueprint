@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-chow-graph"
+uses = ["def-nagata-dense-compactification", "def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lem-chow-segre", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
 +++
 Each $j_i|_U$ is an immersion, being the composition of the open immersion
 $U\to U_i$ with the immersion $j_i$. Hence $j$ is an immersion by

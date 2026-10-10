@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-weil-pbc-projective-line"
+uses = ["lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Higher direct images and cohomology of a sheaf of $\Lambda$-modules agree
 with those of the underlying abelian sheaf, so the torsion-sheaf results below

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-zl-relative-curve-mixedness"
+uses = ["def-wf-normalized-real-envelope", "lem-wf-envelope-real", "lem-zl-relative-envelope-factor-reality", "thm-zl-real-mixed-by-curves"]
 +++
 Normalize $\mathcal F$ as in
 [def-wf-normalized-real-envelope]: put

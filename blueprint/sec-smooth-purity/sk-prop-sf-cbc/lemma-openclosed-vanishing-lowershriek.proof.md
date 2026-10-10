@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-openclosed-vanishing-lowershriek"
+uses = ["lemma-openclosed-vanishing-lowerstar"]
 +++
 The point of the argument is that no section of $j_!\mathcal G$ is computed:
 $j_!$ is a sheafification and its sections are not accessible. Instead one

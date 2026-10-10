@@ -3,7 +3,7 @@ id = "sk-prop-nagata-sketch-key-disjointness"
 kind = "proposition"
 title = "Improved comparison and key disjointness"
 order = 270
-uses = ["sk-lem-nagata-sketch-image-transform", "sk-lem-nagata-sketch-near-closure", "sk-prop-nagata-sketch-prepared"]
+uses = ["sk-lem-nagata-sketch-image-transform", "sk-lem-nagata-sketch-near-closure"]
 lean = ["AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide"]
 tags = ["sketch"]
 +++

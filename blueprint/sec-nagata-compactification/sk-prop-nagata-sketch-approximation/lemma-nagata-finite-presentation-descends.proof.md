@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-finite-presentation-descends"
+uses = ["lemma-nagata-affine-finite-type-is-quasi-affine"]
 +++
 Use the affine gluing theorem in the following explicit form: a finite
 family of affine schemes $T_a=\operatorname{Spec}(A_a)$, quasi-compact open

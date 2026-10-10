@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The Segre embedding is a closed immersion"
 order = 477
 lean = ["AlgebraicGeometry.ProjectiveSpace.exists_isClosedImmersion_pi", "AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_segre", "AlgebraicGeometry.ProjectiveSpace.isProper_pi_hom"]
-uses = ["def-chow-segre", "def-nagata-affine-proj", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions", "lemma-nagata-projective-space-base-change-proper", "prop-nagata-proj-standard-open"]
+uses = ["def-chow-segre", "def-nagata-affine-proj", "def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions"]
 +++
 The binary Segre embedding
 $s:\mathbf P^{n}_S\times_S\mathbf P^{m}_S\to\mathbf P^{n\times m}_S$ of

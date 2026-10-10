@@ -4,7 +4,7 @@ kind = "theorem"
 title = "[stacks-project]"
 order = 123
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_iso"]
-uses = ["def-nagata-blowup-product-comparison", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "lemma-nagata-cartier-total-transform-blowup", "lemma-nagata-effective-cartier-is-invertible", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-invertible-ideal-mul", "lemma-nagata-invertible-product-factor", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
+uses = ["def-nagata-blowup-product-comparison", "def-nagata-extended-ideal", "def-nagata-global-blowup", "lemma-nagata-effective-cartier-is-invertible", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be a scheme and let $\mathcal I,\mathcal J$ be quasi-coherent
 ideals on $X$. Then there is an isomorphism

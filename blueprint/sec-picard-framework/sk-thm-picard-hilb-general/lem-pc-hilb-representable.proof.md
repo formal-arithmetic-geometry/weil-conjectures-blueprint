@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-pc-hilb-representable"
+uses = ["lem-pc-hilb-sheaf", "lem-pc-schemes-criterion"]
 +++
 *Step 1: the closed-immersion claim.* We shall use the following
 claim. *Let $i:X'\hookrightarrow Y$ be a closed immersion, let

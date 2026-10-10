@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-vanishing"
+uses = ["sk-prop-input-spreading", "sk-prop-input-torsors", "sk-prop-normal-form"]
 +++
 *Reduction to $\Z/d\Z$.* The higher direct images of a sheaf of
 $\Lambda$-modules are those of its underlying abelian sheaf. As an abelian

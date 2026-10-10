@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-p-tensor"
+uses = ["sk-d-monodromy", "sk-p-central", "sk-p-readout"]
 +++
 *Reduction to a pair of simple constituents.* Choose composition series
 of $V$ and of $E$ ([sk-r-linear-library]); the products of their terms

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-nagata-sketch-two-open"
+uses = ["sk-lem-nagata-sketch-common", "sk-lem-nagata-sketch-dense-valuative", "sk-prop-nagata-sketch-key-disjointness"]
 +++
 Put $D=U_1\cap U_2$. Choose compactifications of the $U_i\to S$ and turn
 them into prepared sides $U_i\subseteq V_i\subseteq X_i$ with

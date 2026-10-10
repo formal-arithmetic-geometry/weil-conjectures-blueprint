@@ -3,7 +3,7 @@ id = "sk-thm-nagata-sketch-conrad"
 kind = "theorem"
 title = "Extension of a partial section after an admissible blow-up"
 order = 202
-uses = ["sk-def-nagata-sketch-quasidomination", "sk-lem-nagata-sketch-blowups", "sk-prop-nagata-sketch-zmt"]
+uses = ["sk-def-nagata-sketch-quasidomination", "sk-prop-nagata-sketch-zmt"]
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_partialSection"]
 tags = ["sketch"]
 +++

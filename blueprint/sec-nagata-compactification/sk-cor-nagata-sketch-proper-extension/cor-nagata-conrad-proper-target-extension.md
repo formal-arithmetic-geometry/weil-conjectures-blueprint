@@ -5,7 +5,7 @@ title = "Extension of a rational map to a proper target (Conrad)"
 order = 225
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_of_isProper"]
 tags = ["latex:corollary"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "lem-weil-pbc-closed-immersion-from-composite", "lemma-nagata-conrad-morphism-is-quasi-domination", "lemma-nagata-conrad-quasi-domination-proper-target", "prop-nagata-global-blowup-cover-independent", "thm-nagata-conrad-elimination"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "lemma-nagata-conrad-morphism-is-quasi-domination", "lemma-nagata-conrad-quasi-domination-proper-target", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be a quasi-compact quasi-separated scheme with a morphism
 $x\colon X\to S$, let $U\subseteq X$ be a dense quasi-compact open, and let

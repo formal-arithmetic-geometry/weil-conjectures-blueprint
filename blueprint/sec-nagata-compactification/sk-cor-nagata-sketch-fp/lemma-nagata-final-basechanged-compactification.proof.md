@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-final-basechanged-compactification"
+uses = ["def-nagata-noetherian-inverse-system", "lemma-nagata-compactification-base-change", "lemma-nagata-separated-eventually", "prop-nagata-noetherian-inverse-system", "thm-nagata-noetherian"]
 +++
 A separated morphism is quasi-separated, so $Y\to S$ is quasi-compact,
 quasi-separated and locally of finite presentation, i.e. of finite

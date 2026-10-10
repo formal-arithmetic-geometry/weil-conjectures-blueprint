@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-constructible-open-closed"
+uses = ["def-constructible-finite-locally-constant", "lemma-constructible-iso-invariance", "prop-constructible-pullback"]
 +++
 ``Only if'' is [prop-constructible-pullback]. Conversely let
 $(\kappa_l\colon W_l\to U)_{l<m}$ and $(\lambda_k\colon V_k\to Z)_{k<n}$ be

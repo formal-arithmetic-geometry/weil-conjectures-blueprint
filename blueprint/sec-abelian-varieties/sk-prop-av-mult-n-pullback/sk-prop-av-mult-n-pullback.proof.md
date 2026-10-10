@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-av-mult-n-pullback"
+uses = ["sk-prop-av-cube"]
 +++
 For $n=0$ the map $[0]$ factors through $\Spec k$, and every
 invertible module on $\Spec k$ is free of rank one, so

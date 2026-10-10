@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-lem-nagata-sketch-blowups"
+uses = ["sk-lem-nagata-sketch-closure"]
 +++
 Use the Rees algebra $\bigoplus_{n\geq0}\mathcal I^n$ and its Proj.
 For $I=(a_1,\ldots,a_r)$ on $\Spec A$, the charts are

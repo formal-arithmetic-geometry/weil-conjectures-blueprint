@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-fd-l2-middle-extension"
+uses = ["lem-wf-l2-purity-rigidity"]
 +++
 The rigidity [lem-wf-l2-purity-rigidity] gives
 $\|\mathcal M\|=w$ directly. For the comparison, the two sums agree

@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Proper base change"
 order = 1205
 lean = ["AlgebraicGeometry.Etale.isIso_baseChange_of_isProper"]
-uses = ["sk-def-conv", "sk-def-exchange", "sk-def-pbc", "sk-thm-p1", "sk-thm-reduction"]
+uses = ["sk-def-conv", "sk-def-exchange"]
 tags = ["sketch"]
 +++
 Let $\Lambda$ be a commutative ring, let $f:X\to Y$ be a proper morphism,

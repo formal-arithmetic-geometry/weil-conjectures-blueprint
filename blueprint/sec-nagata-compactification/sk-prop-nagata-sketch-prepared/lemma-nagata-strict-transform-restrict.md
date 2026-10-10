@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Strict transform over the complement of the center"
 order = 262
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isPullback_strictTransform_over_blowupMap"]
-uses = ["def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-global-blowup", "def-nagata-strict-transform", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X'\to X$ be the blow-up of a center $C\hookrightarrow X$ and let
 $f\colon Y\to X$ be a morphism. Over $X\setminus C$, the strict transform of

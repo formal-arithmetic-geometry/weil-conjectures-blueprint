@@ -4,7 +4,7 @@ kind = "lemma"
 title = "[stacks-project]"
 order = 233
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_lift_admissibleBlowup"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "lemma-nagata-dense-flat-pullback", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-transport-strict-transform", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-transport-strict-transform", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $x\colon X\to S$ and $y\colon Y\to S$ be morphisms of schemes, let
 $U\subseteq X$ be an open subscheme, and let $X'\to X$ be a $U$-admissible

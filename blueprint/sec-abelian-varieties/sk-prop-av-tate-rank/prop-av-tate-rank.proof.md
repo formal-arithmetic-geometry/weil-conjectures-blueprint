@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-av-tate-rank"
+uses = ["lem-sc-isogeny-surjective", "lem-sc-ntorsion-etale"]
 +++
 By [lem-sc-ntorsion-etale] each level is
 $A[\ell^n](k)\cong(\Z/\ell^n\Z)^{2g}$, and the transition map $[\ell]:A[\ell^{n+1}](k)\to A[\ell^n](k)$ is

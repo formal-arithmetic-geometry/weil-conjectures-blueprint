@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-closed-subscheme-fp-system"
+uses = ["def-nagata-extended-ideal", "def-nagata-noetherian-inverse-system", "def-nagata-scheme-image-comparison", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "prop-nagata-noetherian-inverse-system"]
 +++
 Finite type of $\mathcal I_\alpha$ is equivalent to finite presentation of
 $X_\alpha\hookrightarrow Y$, and each transition $X_\beta\to X_\alpha$ is a

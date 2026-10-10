@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-pc-twist"
+uses = ["cor-pc-dense-points-curves-sections", "def-sc-invertible-module", "lem-pc-rational-points-dense"]
 +++
 *Step 1: an ample polarisation.* The curve $X$ is projective over
 $k$: it is separated of finite type of dimension $1$ over a field,

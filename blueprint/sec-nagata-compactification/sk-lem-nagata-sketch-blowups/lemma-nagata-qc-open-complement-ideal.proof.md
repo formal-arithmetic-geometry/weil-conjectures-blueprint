@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-qc-open-complement-ideal"
+uses = ["def-nagata-extended-ideal", "lemma-nagata-finite-type-ideal-extension-exists"]
 +++
 The witness supplied by
 [lemma-nagata-qc-open-complement-ideal-exists] has exactly these

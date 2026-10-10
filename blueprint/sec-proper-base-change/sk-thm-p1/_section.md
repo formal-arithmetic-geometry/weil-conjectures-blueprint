@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Curve calculations $\\Rightarrow$ PBC($\\Pone$)"
 order = 1107
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine"]
-uses = ["sk-def-br", "sk-def-conv", "sk-def-ia", "sk-def-pbc", "sk-thm-curveestimate", "sk-thm-iff"]
+uses = ["sk-def-br", "sk-def-pbc", "sk-thm-curveestimate", "sk-thm-iff"]
 tags = ["sketch"]
 +++
 Let $\Lambda$ be a commutative ring. For every scheme $S$, the projection

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-av-rigidity"
+uses = ["sk-prop-av-const-locus"]
 +++
 Notation $f_{\bar y}$ as in [sk-prop-av-const-locus]; note
 $X\ne\emptyset$, being connected, and $\Gamma(X,\mathcal O_X)=k$

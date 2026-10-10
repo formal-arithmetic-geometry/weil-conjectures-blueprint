@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Density is preserved by an admissible blow-up"
 order = 103
 lean = ["AlgebraicGeometry.IsAdmissible.isSchemeTheoreticallyDominant_preimage_ι", "AlgebraicGeometry.Scheme.IdealSheafData.isSchemeTheoreticallyDominant_blowupMap_preimage_compl_support"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "def-nagata-scheme-theoretically-dense-open", "lemma-nagata-dense-flat-pullback", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-scheme-theoretically-dense-open", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $\mathcal I$ be a quasi-coherent ideal on a scheme $X$. Then the inverse
 image of $X\setminus V(\mathcal I)$ is scheme-theoretically dense in

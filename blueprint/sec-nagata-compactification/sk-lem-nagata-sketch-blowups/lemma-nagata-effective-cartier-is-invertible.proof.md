@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-effective-cartier-is-invertible"
+uses = ["def-nagata-scheme-image-comparison", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
 +++
 Suppose $\mathcal J$ is invertible and $\alpha\colon Z\xrightarrow{\sim}V(\mathcal J)$
 is an isomorphism over $X$, so that $z$ is $\alpha$ followed by the

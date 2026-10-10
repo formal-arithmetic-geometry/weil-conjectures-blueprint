@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Abelian-variety estimate"
 lean = ["AlgebraicGeometry.abelianVariety_estimate"]
 order = 592
-uses = ["sk-def-av", "sk-def-av-isogeny", "sk-def-av-mult-n", "sk-def-av-tate", "sk-prop-av-connected-order", "sk-prop-av-divisible", "sk-prop-av-divisible-structure", "sk-prop-av-isogeny", "sk-prop-av-ntorsion-etale", "sk-prop-av-prime-p-etale", "sk-prop-av-tate-rank"]
+uses = ["sk-def-av", "sk-def-av-isogeny", "sk-def-av-mult-n", "sk-def-av-tate", "sk-prop-av-connected-order", "sk-prop-av-divisible", "sk-prop-av-divisible-structure", "sk-prop-av-prime-p-etale", "sk-prop-av-tate-rank"]
 tags = ["sketch"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over a field $k$, let

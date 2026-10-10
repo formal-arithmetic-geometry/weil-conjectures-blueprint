@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-picard-rr"
+uses = ["sk-thm-picard-duality"]
 +++
 (RR): by additivity of $\chi$ in short exact sequences, the torsion
 part of $\cF$ (for which $\chi=h^0$ is the length, i.e. the degree) and a

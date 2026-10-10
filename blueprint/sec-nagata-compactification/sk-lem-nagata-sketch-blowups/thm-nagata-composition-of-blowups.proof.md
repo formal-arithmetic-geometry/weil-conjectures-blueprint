@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-nagata-composition-of-blowups"
+uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-blowup-product-comparison", "def-nagata-blowup-product-domination-maps", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-invertible-ideal", "def-nagata-proj-closed-center-finite-degree", "lemma-nagata-blowup-invertible-factor", "lemma-nagata-composition-center-ideal", "lemma-nagata-invertible-ideal-tensor-power", "lemma-nagata-product-ideal-common-blowup", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-product-ideal", "thm-nagata-blowup-universal-property"]
 +++
 Put $X_1=\operatorname{Bl}_{\mathcal I}(X)$ and
 $\mathcal J'=\mathcal J\mathcal O_{X_1}$. By the extended-ideal equality,

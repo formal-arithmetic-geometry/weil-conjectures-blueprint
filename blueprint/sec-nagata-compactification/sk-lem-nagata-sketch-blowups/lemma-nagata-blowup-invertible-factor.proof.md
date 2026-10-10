@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-blowup-invertible-factor"
+uses = ["def-nagata-extended-ideal", "lemma-nagata-cartier-total-transform-blowup", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-invertible-ideal-mul", "lemma-nagata-invertible-product-factor", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
 +++
 Tensor the tautological quotient for $\mathcal J$ with the pullback of the
 invertible ideal $\mathcal L$ to obtain an invertible quotient of

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The closed graph is quasi-finite over the blow-up (Conrad)"
 order = 217
 lean = ["AlgebraicGeometry.exists_isAdmissible_locallyQuasiFinite_image_graph"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "def-nagata-quasi-affine-morphism", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-affine-blowup-complement", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-blowup-proper", "lemma-nagata-conrad-quasi-affine-general", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-invertible-product-factor", "lemma-nagata-scheme-image-ideal-qc", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be qcqs, let $U\subseteq V\subseteq X$ be quasi-compact opens, let
 $p\colon Y\to X$ be separated and locally of finite type with $Y$ qcqs, and

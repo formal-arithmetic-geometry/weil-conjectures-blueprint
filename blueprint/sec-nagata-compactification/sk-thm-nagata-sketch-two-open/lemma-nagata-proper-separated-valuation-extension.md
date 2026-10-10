@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Valuative extension to a proper separated morphism"
 order = 297
 lean = ["AlgebraicGeometry.IsProper.eq_valuativeCriterion"]
-uses = ["lemma-nagata-proper-valuative-criterion-existence-api", "lemma-nagata-separated-valuation-lift-unique"]
+uses = ["lemma-nagata-separated-valuation-lift-unique"]
 +++
 A morphism $f\colon Y\to S$ is proper if and only if it is
 quasi-compact, quasi-separated and locally of finite type, and every

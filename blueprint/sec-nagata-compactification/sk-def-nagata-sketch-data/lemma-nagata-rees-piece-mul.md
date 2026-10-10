@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Multiplication of Rees pieces"
 order = 17
 lean = ["AlgebraicGeometry.reesGrading.instGradedMonoid"]
-uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-piece-membership"]
+uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece"]
 +++
 The pieces $\mathcal R_A(I)_n$ form a graded monoid:
 $1\in\mathcal R_A(I)_0$ and

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-nagata-noetherian"
+uses = ["def-nagata-compactification", "def-nagata-dense-affine-cover", "def-nagata-noetherian-compactification", "def-nagata-partial-affine-unions", "lemma-nagata-dense-affine-cover"]
 +++
 Since $S$ is Noetherian and $X\to S$ is of finite type, $X$ is Noetherian,
 hence quasi-compact and quasi-separated with finitely many irreducible

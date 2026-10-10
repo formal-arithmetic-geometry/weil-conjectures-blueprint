@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Noetherian approximation of an affine scheme"
 order = 343
 lean = ["AlgebraicGeometry.Scheme.NoetherianApproximation.ofIsAffine"]
-uses = ["def-nagata-noetherian-inverse-system", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-nagata-ring-finite-type-subalgebras"]
+uses = ["def-nagata-noetherian-inverse-system"]
 +++
 Let $S=\operatorname{Spec}(A)$ be an affine scheme. Order the finitely
 generated $\mathbf Z$-subalgebras $A_0\subseteq A$ by inclusion. Then the

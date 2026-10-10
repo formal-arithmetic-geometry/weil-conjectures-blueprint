@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properness of a blow-up"
 order = 163
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isProper_blowupMap"]
-uses = ["def-nagata-global-blowup", "lemma-nagata-global-blowup-proper-local", "lemma-nagata-projective-target-local", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++
 Let $X$ be a scheme and let $\mathcal I$ be a finite-type quasi-coherent
 ideal on $X$. Its blow-up is proper over $X$. In particular,
