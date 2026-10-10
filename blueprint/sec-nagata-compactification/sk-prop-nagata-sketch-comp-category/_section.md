@@ -8,23 +8,24 @@ lean = ["AlgebraicGeometry.Compactification.category", "AlgebraicGeometry.Compac
 +++
 *Proposition (sketch).*
 
-Let $S$ be qcqs and let $f:X\to S$ be separated of finite type. Let
+Let $f:X\to S$ be quasi-compact. Let
 $\operatorname{Comp}(f)$ be the category whose objects are the
 compactifications $c=(j,\bar f)$ of [sk-def-nagata-sketch-data] and whose
 morphisms $u:c_1\to c_2$ — the *refinements* — are the proper
 $S$-morphisms $u:\overline X_1\to\overline X_2$ with $u\circ j_1=j_2$.
-Its nonemptiness is supplied by [sk-thm-nagata-compactification].
-The category is cofiltered, with the following refinement properties:
+If $f$ admits a compactification (for instance when $S$ is qcqs and $f$ is
+separated of finite type, by [sk-thm-nagata-compactification]), the
+category is nonempty and cofiltered. In general it has the following
+refinement properties:
 
-2pt
 1. **(i)** any two objects admit a common refinement, hence so does every
 finite family;
 1. **(ii)** any two parallel refinements $u,v:c_1\to c_2$ are equalized by a
 further refinement $c'\to c_1$.
 
-Moreover the construction is compatible with base change: for $g:S'\to S$ the
-base change of a compactification of $f$ is a compactification of
-$f'=f\times_SS'$, a refinement base-changes to a refinement, and these base
+Moreover the construction is compatible with base change: for any $g:S'\to S$
+(and any $f$) the base change of a compactification of $f$ is a
+compactification of $f'=f\times_SS'$, a refinement base-changes to a refinement, and these base
 changes carry common refinements to common refinements.
 
 ## Proof
@@ -66,5 +67,3 @@ scheme-theoretic image and those two stability properties, and
 scheme-theoretic image of a quasi-compact morphism commutes with flat base
 change and with restriction to an open; so a base-changed common refinement is
 again one.
-
-Uses: [sk-def-nagata-sketch-data], [sk-lem-nagata-sketch-closure], [sk-thm-nagata-compactification]

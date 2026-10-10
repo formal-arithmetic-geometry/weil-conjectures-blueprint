@@ -8,13 +8,7 @@ uses = ["cor-pur-dualizing-object-purity", "cor-sf-ambient-adjoint-discharge", "
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $f:X\to Y$ be smooth separated of pure relative dimension $d$.
-The
-ambient exceptional right
-adjoint datum of [def-weil-ambient-exceptional-adjoint] was the
-hypothesis under which this corollary was formerly stated; it is not assumed
-here, being on the bounded constructible and finite-Tor coefficients that the
-two clauses below quantify over the theorem
-[cor-sf-ambient-adjoint-discharge]. Then $f$ satisfies the
+Then $f$ satisfies the
 two preservation clauses of
 [def-weil-exceptional-adjoint-admissibility], with
 $c_f^-=c_f^+=-2d$ in the signed convention of that definition:
@@ -31,20 +25,19 @@ $[a-2d,b-2d]$; in particular $Rf^!$ carries $D^b_{ctf}(Y,A)$
 into $D^b_{ctf}(X,A)$.
 
 Thus every smooth morphism is
-exceptional-adjoint admissible at $A=A_{E,n}$ in the constructible sense —
-the three clauses of [def-weil-exceptional-adjoint-admissibility] read on the
-complexes of the blueprint's coefficient class that the two clauses below
-quantify over; the unrestricted clause (1) of that definition, on all
-pro-etale sheaves, is false in general and is not asserted —: the
-preservation
-clauses are consequences of purity, not hypotheses of it, and the ambient
-datum that the earlier form of this corollary assumed is not an assumption
-either, by [cor-sf-ambient-adjoint-discharge]. The weaker statement
-``admissible at $\Lambda\in\{\mathcal O_E,E,\Qlb\}$'' demands in addition the
-uniformity of the two clauses over the finite stages and the
-finite-reduction and scalar-extension compatibilities of the right adjoints;
-those are the coefficient transport of the transport section at the end of
-this chapter, and they are *not* asserted here.
+exceptional-adjoint admissible at $A=A_{E,n}$ in the constructible sense:
+the preservation clauses of [def-weil-exceptional-adjoint-admissibility]
+hold on the complexes of the blueprint's coefficient class. The ambient
+exceptional right adjoint datum of [def-weil-ambient-exceptional-adjoint] is
+not assumed: on the bounded constructible and finite-Tor coefficients that
+the two clauses quantify over it is the theorem
+[cor-sf-ambient-adjoint-discharge]. The unrestricted clause (1) of
+[def-weil-exceptional-adjoint-admissibility], on all pro-étale sheaves, is
+false in general and is not asserted. Admissibility at
+$\Lambda\in\{\mathcal O_E,E,\Qlb\}$ demands in addition the uniformity of the
+two clauses over the finite stages and the finite-reduction and
+scalar-extension compatibilities of the right adjoints; those are the
+coefficient transport of the purity chapter and are not asserted here.
 
 ## Proof
 

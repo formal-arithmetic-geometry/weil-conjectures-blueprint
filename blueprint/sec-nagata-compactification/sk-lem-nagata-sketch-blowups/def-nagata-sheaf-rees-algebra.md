@@ -5,12 +5,6 @@ title = "Sheaf Rees algebra"
 order = 105
 uses = ["lemma-nagata-sheaf-ideal-powers-assoc"]
 +++
-**Status.** Bypassed by the formalized route: no separate relative-Proj
-primitive was formalized. The blow-up is glued from the affine Proj charts
-(`AlgebraicGeometry.Proj.basicOpenIsoSpec`,
-`AlgebraicGeometry.Proj.iSup_basicOpen_eq_top`) with
-`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`.
-
 Let $\mathcal I\subseteq\mathcal O_X$ be a quasi-coherent ideal sheaf. Define
 its sheaf Rees algebra by
 
@@ -26,4 +20,4 @@ by the universal property of the direct sum; the degree-zero inclusion is
 the unit. Associativity and the unit laws are exactly
 [lemma-nagata-sheaf-ideal-powers-assoc], so this is a graded
 quasi-coherent $\mathcal O_X$-algebra. The multiplication maps need not be
-injective, and no such hypothesis is used.
+injective.

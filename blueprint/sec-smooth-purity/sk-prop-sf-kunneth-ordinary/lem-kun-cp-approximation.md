@@ -14,12 +14,6 @@ generated subsheaf $G\subseteq F$ has support a finite set $Z$ of
 closed points of $X$, and for $Z$ with its reduced closed subscheme
 structure and $i:Z\to X$ the resulting closed immersion one has
 $G\cong i_*(G|_Z)$ in the sense of [lem-kun-04ca].
-(*Source:* this is the case of Stacks Project, Tag
-[0F0N](https://stacks.math.columbia.edu/tag/0F0N) used in this
-chapter, namely the case in which the specialization-closed set $E$ is
-the set of closed points of a scheme of finite type over a separably
-closed field; the approximating sheaves are then supported on finite sets
-of closed points.)
 
 ## Proof
 

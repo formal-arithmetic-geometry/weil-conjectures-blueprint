@@ -20,5 +20,4 @@ tensor dual $K^\vee=R\mathcal Hom_A(K,A_X)$ and the Verdier dual
 $D_XK=R\mathcal Hom_A(K,\omega_{X,A})$ of
 [def-trf-dualizing-complex] have different targets. In particular,
 $R\mathcal Hom_A(K,K)$ must not be identified with
-$K\otimes_A^LD_XK$. No identification between $\sigma_{h,K}$
-and a Verdier local term has been proved here.
+$K\otimes_A^LD_XK$.

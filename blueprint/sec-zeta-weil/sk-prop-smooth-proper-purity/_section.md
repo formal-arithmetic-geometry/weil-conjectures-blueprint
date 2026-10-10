@@ -15,16 +15,15 @@ unconditional ones of [sk-def-sf-operations](vi)), and let $\mathcal F_0$ be a l
 Weil sheaf on $X_0$ which is punctually $\iota$-pure of weight $w$ in the
 sense of [sk-d-real-weights]. Then for every $i$:
 
-1. **(a)** the canonical map
+- **(a)** the canonical map
 $R^{i}f_{0!}\mathcal F_0\to R^{i}f_{0*}\mathcal F_0$ is an isomorphism and
 this sheaf is lisse;
-1. **(b)** it is punctually $\iota$-pure of weight $w+i$.
+- **(b)** it is punctually $\iota$-pure of weight $w+i$.
 
 In the absolute case $Y_0=\Spec k_0$, $\mathcal F_0=(\Ql)_{X_0}$ — the
 setting of [sk-def-cohfamily] — clause (b) says that every
 eigenvalue $\alpha$ of geometric Frobenius on $H^{i}(X,\Ql)$ satisfies
-$|\iota(\alpha)|=q^{i/2}$; there the duality step is
-[sk-thm-poincare-duality] (5) and no relative duality is needed.
+$|\iota(\alpha)|=q^{i/2}$.
 
 ## Proof
 
@@ -122,5 +121,3 @@ properness and duality; no no-cancellation or coprimality argument enters,
 because purity is read off eigenvalue by eigenvalue. All the arithmetic
 sits in [sk-thm-dl-general-sheaf]: without it Step 3 bounds nothing, and
 with it both inequalities are automatic.
-
-Uses: [sk-d-dl-general-weights], [sk-d-real-weights], [sk-def-cohfamily], [sk-prop-sf-comp-proper], [sk-thm-dl-general-sheaf], [sk-thm-poincare-duality], [sk-thm-properbasechange], [sk-thm-purity-transport], [sk-thm-sf-dual-perfect], [sk-thm-sf-tensor-hom], [sk-thm-smooth-base-change], [sk-thm-smooth-purity]

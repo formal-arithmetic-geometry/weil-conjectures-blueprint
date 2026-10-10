@@ -27,8 +27,13 @@ $$
 $$
 
 and for every refinement of the compactification the units, counits and
-comparison maps agree. This datum asserts the *existence* of the ambient
-right adjoint and nothing about its values; it says nothing about
-constructibility or finite Tor amplitude.
+comparison maps agree.
 
-*Warning.* This datum is not satisfied in general. Its $\operatorname{FullCD}$ clause quantifies over *every* pro-etale sheaf of $A$-modules, and that fails already for the structure morphism of an elliptic curve $E$ over $\overline{\mathbf F}_p$ with $A=\mathbf F_r$, $r\neq p$: there is a pro-etale $A$-module sheaf $\mathcal F$ on $E$, not of etale origin, with $H^n(E_{\mathrm{proet}},\mathcal F)\neq0$ for every $n\geq1$, so $Rf_*=Rf_!$ does not preserve the coproduct $\bigoplus_n\mathcal F[n]$ and has no right adjoint on $D(E_{\mathrm{proet}},A)$ nor on $D^+$ (rem:sf-ambient-counterexample in the six-functors chapter). The datum is therefore never assumed on the proof chain of this blueprint; what is used is the constructible exceptional adjoint of def-weil-exceptional-inverse-image, whose existence and adjunction on the bounded-below complexes of etale origin is the theorem thm-sf-ambient-adjoint-class and whose preservation clauses are thm-sf-preservation-class.
+*Warning.* This datum is not satisfied in general. Its
+$\operatorname{FullCD}$ clause quantifies over *every* pro-etale sheaf of
+$A$-modules, and that fails already for the structure morphism of an elliptic
+curve $E$ over $\overline{\mathbf F}_p$ with $A=\mathbf F_r$, $r\neq p$: there
+is a pro-etale $A$-module sheaf $\mathcal F$ on $E$, not of etale origin, with
+$H^n(E_{\mathrm{proet}},\mathcal F)\neq0$ for every $n\geq1$, so
+$Rf_*=Rf_!$ does not preserve the coproduct $\bigoplus_n\mathcal F[n]$ and has
+no right adjoint on $D(E_{\mathrm{proet}},A)$ nor on $D^+$.

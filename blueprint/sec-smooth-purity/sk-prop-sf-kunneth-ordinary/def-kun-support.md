@@ -5,9 +5,7 @@ title = "Closed points, transcendence degree, support"
 order = 1673
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions"]
 +++
-Let $X$ be a scheme of finite type over a field $K$ (the
-scheme conventions of
-the proper-base-change chapter; in particular $X$ is Noetherian, quasi-compact and
+Let $X$ be a scheme of finite type over a field $K$ (in particular $X$ is Noetherian, quasi-compact and
 quasi-separated). A point $x\in X$ is *closed* if $\{x\}$ is
 closed in $|X|$; write
 
@@ -25,9 +23,7 @@ $$
 For an etale sheaf $F\in\Ab(X_{\Et})$, the *support*
 $\kunsupp F$ is the set of $x\in X$ such that $F_{\bar x}\ne0$
 for some geometric point
-$\bar x$ over $x$; that this set does not depend on the choice of
-the geometric point over $x$ is recorded with the other properties of
-this notion. For
+$\bar x$ over $x$. For
 $K\in D(X_{\Et})$ put
 
 $$

@@ -21,5 +21,3 @@ simple, semisimple and faithful have the corresponding meanings.
 The quotient $L/I$ has bracket induced from $L$, and the Killing form is
 $B_L(x,y)=\Tr(\operatorname{ad}(x)\operatorname{ad}(y))$, where
 $\operatorname{ad}(x)y=[x,y]$. A Lie algebra is perfect if $L=[L,L]$.
-
-Uses: [sk-d-linear]

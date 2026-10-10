@@ -13,8 +13,6 @@ $$
 Rp_{d!}\dashv p_d^*(d)[2d].
 $$
 
-The notation refers to affine space, ordinary etale compact supports, and Tate twists.
-
 ## Proof
 
 Let $j:\mathbf A^1_S\hookrightarrow\mathbf P^1_S$.

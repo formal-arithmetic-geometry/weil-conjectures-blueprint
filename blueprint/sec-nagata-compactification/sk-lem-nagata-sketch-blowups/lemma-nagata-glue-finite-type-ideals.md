@@ -4,11 +4,6 @@ kind = "lemma"
 title = "Gluing compatible finite-type ideals on two qc opens"
 order = 165
 +++
-**Status.** Bypassed by the formalized route: a finite-type ideal is
-extended from a quasi-compact open in one step by
-`AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_comap_eq`,
-so no separate two-open gluing lemma is needed.
-
 Let $U,W\subseteq X$ be quasi-compact opens of a qcqs scheme. If
 $\mathcal I_U\subseteq\mathcal O_U$ and
 $\mathcal I_W\subseteq\mathcal O_W$ are finite type quasi-coherent ideals

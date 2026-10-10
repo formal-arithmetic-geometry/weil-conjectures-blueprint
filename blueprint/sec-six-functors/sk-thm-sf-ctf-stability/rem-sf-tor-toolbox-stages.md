@@ -23,5 +23,4 @@ carries the constant coefficient sheaf to the constant coefficient sheaf
 with the same interval, as soon as the reduction isomorphism
 $Lf^*K\otimes_{\mathcal O_E}^LA_{E,j}\cong Lf^*(K\otimes_{\mathcal O_E}^LA_{E,j})$ and the derived completeness of
 $Lf^*K$ are available; both are instances of the finite-reduction clause
-proved for pullback in [lem-fix-operation-reduction]; clause (vii) of
-the finite-Tor preservation summary is a later summary of this computation.
+proved for pullback in [lem-fix-operation-reduction].

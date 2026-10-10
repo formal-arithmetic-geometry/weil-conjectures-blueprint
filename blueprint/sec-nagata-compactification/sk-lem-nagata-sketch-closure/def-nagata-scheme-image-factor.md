@@ -12,5 +12,7 @@ $$
 g^{\mathrm{im}}\colon T\longrightarrow\operatorname{SIm}(g)
 $$
 
-to be `Scheme.Hom.toImage g`. Its factorization equality is the
-verified theorem `Scheme.Hom.toImage_imageι`.
+to be the canonical factorization of $g$ through its scheme-theoretic
+image, so that $g_{\mathrm{im}}\circ g^{\mathrm{im}}=g$, where
+$g_{\mathrm{im}}\colon\operatorname{SIm}(g)\hookrightarrow Y$ is the
+closed immersion.

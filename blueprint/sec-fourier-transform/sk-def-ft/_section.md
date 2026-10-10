@@ -8,21 +8,20 @@ uses = ["sk-def-kernel", "sk-lem-as-properties"]
 +++
 *Definition (sketch).*
 
-With $V_0\to S_0$ of rank $r$ as above and the projections
-$p_1:V\times_SV^\vee\to V$, $p_2:V\times_SV^\vee\to V^\vee$, the
-*Fourier–Deligne transform* of $K\in\Dbc(V,E)$ is
+With $\Lambda$, $\pi:V\to S$, $\pi':V'\to S$, $b$, $\Psi$ and the kernel
+$\mathcal K_\psi$ of [sk-def-kernel], let $p_1:V\times_SV'\to V$ and
+$p_2:V\times_SV'\to V'$ be the projections, assume $p_2$ admits a
+compactification, and let $r\in\mathbf Z$. The *Fourier–Deligne transform*
+is the functor between the derived categories of étale sheaves of
+$\Lambda$-modules
 
 $$
-\FT_\psi(K):=p_{2,!}\bigl(p_1^*K\otimes^L_E\mathcal K_\psi\bigr)[r].
+\FT_\psi:D(V_{\mathrm{\acute et}},\Lambda)\to D(V'_{\mathrm{\acute et}},\Lambda),\qquad
+\FT_\psi(K):=Rp_{2,!}\bigl(p_1^*K\otimes^L_\Lambda\mathcal K_\psi\bigr)[r],
 $$
 
-The shift $[r]$ — the relative dimension of $V_0/S_0$ — is part of the
-definition: this is Laumon's normalization, the one for which inversion holds
-without a further shift, up to the twist $(-r)$. The transform with the
-inverse character is $\FT_{\psi^{-1}}$, whose kernel is
-$\mathcal K_{\psi^{-1}}\cong\mathcal K_\psi^{-1}$ by P1. On $\Aone$ one has
-$r=1$ and $\FT_\psi(K)=p_{2,!}(p_1^*K\otimes^L\mathcal K_\psi)[1]$; the
-transform of the inverse character is the same construction with
-$\psi^{-1}$ in the kernel. (Blueprint def:fd-transform.)
-
-Uses: [sk-def-kernel], [sk-lem-as-properties]
+$\mathcal K_\psi$ being placed in degree $0$. In the application $V_0\to S_0$
+is a vector bundle of rank $r$ and $V'=V_0^\vee$ (Laumon's normalization);
+the transform with the inverse character is the same construction with
+$\Psi^{-1}$ in place of $\Psi$. On $\Aone$ one has $r=1$ and
+$\FT_\psi(K)=Rp_{2,!}(p_1^*K\otimes^L\mathcal K_\psi)[1]$.

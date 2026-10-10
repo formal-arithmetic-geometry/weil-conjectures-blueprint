@@ -6,7 +6,7 @@ order = 1025
 +++
 *Remark (sketch).*
 
-This is the final part of this section, used in [sk-thm-p1]
+This is the final part of this section.
 
 ## Proof
 
@@ -18,5 +18,3 @@ $\Pic(C)[n]=\Pic^0(C)[n]=J(C)[n]$, which is $(\Z/n)^{2g}$ by
 [sk-prop-jacobian] and [sk-thm-av-final](c). By
 [sk-prop-h2], $H^2(C,\Z/n)=\Pic(C)/n\Pic(C)=(\Z/n)\oplus J(C)/nJ(C) =\Z/n$ by [sk-thm-av-final](d) (the $\Z/n$ is the degree part).
 The vanishing is [sk-prop-cd].
-
-Uses: [sk-prop-cd], [sk-prop-h1], [sk-prop-h2], [sk-prop-jacobian], [sk-thm-av-final]

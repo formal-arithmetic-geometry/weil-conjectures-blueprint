@@ -8,19 +8,21 @@ lean = ["AlgebraicGeometry.isSheaf_picardFunctorNormalized"]
 +++
 *Corollary (sketch).*
 
+Let $f\colon X\to S$ be a morphism of schemes.
 $\Pic_{X/S}$ is an fppf (hence Zariski) sheaf, being by
 [sk-def-picard-pic] an fppf sheafification. If in addition $f$ has a
 section $\sigma$ and $\cO_T\to f_{T,*}\cO_{X_T}$ is an isomorphism for
-all $T\in\Ob((\Sch/S)_{fppf})$ — the hypotheses of
-[sk-prop-picard-pic-split], satisfied for a smooth projective curve
-over a field with a rational point — then
+all $T\in\Ob((\Sch/S)_{fppf})$, then
 $\Pic_{X/S,\sigma}(T)=\ker\sigma_T^*$ is an fppf (hence Zariski) sheaf
-as well. The presheaf $T\mapsto\Pic(X_T)$ itself is in general
-*not* an fppf sheaf: [sk-thm-picard-descent] (D1) makes descent
+as well.
+
+These hypotheses are satisfied for a smooth projective curve over a field
+with a rational point. The presheaf $T\mapsto\Pic(X_T)$ itself is in
+general *not* an fppf sheaf: [sk-thm-picard-descent] (D1) makes descent
 data effective, but unnormalized glueing isomorphisms between the local
-modules need not satisfy the cocycle condition. Repairing that is
-exactly what the sheafification in [sk-def-picard-pic] and the
-$\sigma$-normalization below do.
+modules need not satisfy the cocycle condition. Repairing that is exactly
+what the sheafification in [sk-def-picard-pic] and the
+$\sigma$-normalization do.
 
 ## Proof
 
@@ -62,5 +64,3 @@ This is the proof of Stacks, Picard Schemes of Curves, Lemma 44.4.3
 ([`0B9N`](https://stacks.math.columbia.edu/tag/0B9N)); the detailed forms are Blueprint 50,
 `lem-pc-k-sheaf` and `lem-pc-fpqc-descent` (Descent,
 Proposition 35.5.2, [`023T`](https://stacks.math.columbia.edu/tag/023T)).
-
-Uses: [sk-def-picard-pic], [sk-thm-picard-descent]

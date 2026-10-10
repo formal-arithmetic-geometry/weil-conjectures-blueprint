@@ -19,7 +19,6 @@ v^*Rf_{U,*}L|_{X_U}\longrightarrow Rf_{T,*}L|_{X_T}
 $$
 
 is an isomorphism.
-The notation refers to ordinary derived categories.
 
 ## Proof
 

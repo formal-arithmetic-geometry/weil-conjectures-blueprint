@@ -13,5 +13,4 @@ $$
 $$
 
 with its structure morphism $\mathbf A^n_S\to S$; for $n=0$ one has
-$\mathbf A^0_S=S$. The smoothness of the projection is
-the corresponding statement below.
+$\mathbf A^0_S=S$.

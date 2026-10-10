@@ -12,8 +12,6 @@ Then $D_X$ carries $D^b_{ctf}(X_{\Et},A)$ into itself.
 More precisely, if $\dim X\leq d$ and $K$ has Tor amplitude
 in $[a,b]$, then $D_XK$ has Tor amplitude in
 $[-b-2d,-a]$. This bound is independent of the exponent $n$.
-This conclusion is independent of Verdier biduality and of the boundary
-exchange $i^*D_X\to D_ZRi^!$.
 
 ## Proof
 

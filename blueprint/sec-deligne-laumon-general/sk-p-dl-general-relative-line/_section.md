@@ -8,10 +8,12 @@ uses = ["sk-d-dl-general-weights", "sk-i-dl-general-real", "sk-l-dl-a1-endpoints
 +++
 *Proposition (sketch).*
 
-Let $h_0:U_0\to Y_0$ be the projection from an open
-$U_0\subset\mathbf A^1_{Y_0}$ whose geometric fibers are nonempty,
-and let $F_0$ be lisse and pure of weight $w$.
-Then $R^rh_{0!}F_0$ is mixed of weights at most $w+r$.
+Let $Y_0$ be a separated $k_0$-scheme of finite type, let
+$U_0\subset\mathbf A^1_{Y_0}$ be an open subscheme whose projection
+$h_0:U_0\to Y_0$ is surjective, and let $F_0$ be a lisse Weil sheaf on
+$U_0$, punctually $\iota$-pure of weight $w$.
+Then for every $r\ge0$, $R^rh_{0!}F_0$ is $\iota$-mixed of weights at
+most $w+r$.
 
 ## Proof
 
@@ -46,5 +48,3 @@ implies that both polynomials are real. Thus the constructible sheaves
 $R^rh_{0!}E_0$ are real, and [sk-i-dl-general-real] makes them mixed.
 Their direct summands $R^rh_{0!}F_0$ are mixed as well; the punctual
 bounds already proved bound every pure quotient in a mixed filtration.
-
-Uses: [sk-d-dl-general-weights], [sk-i-dl-general-real], [sk-l-dl-a1-endpoints], [sk-l-dl-general-open-line], [sk-prop-logdet], [sk-prop-sf-cbc], [sk-thm-sf-ctf-stability], [sk-thm-trace-transport]

@@ -16,9 +16,11 @@ $$
 
 is the map which on a trivializing open set is the
 affine-space integration of
-[lem-amb-affine-space-top-trace]. These maps glue
-as morphisms of sheaves: the source has cohomology
-only in degree zero on a trivializing cover, and
-[lem-amb-linear-trace-invariance] identifies the
-maps on every overlap.
-The notation refers to Tate twists.
+[lem-amb-affine-space-top-trace], glued over a trivializing cover.
+Here $(d)$ denotes the Tate twist.
+
+## Proof
+
+These maps glue as morphisms of sheaves: the source has cohomology only in
+degree zero on a trivializing cover, and [lem-amb-linear-trace-invariance]
+identifies the maps on every overlap.

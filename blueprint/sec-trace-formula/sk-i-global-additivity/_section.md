@@ -59,5 +59,3 @@ exactness of the global operator, its functorial origin and the formal laws
 of the trace are used; no trace of an individual, possibly nonperfect,
 cohomology module occurs, and the coefficient morphism need not be
 invertible.
-
-Uses: [sk-d-operator], [sk-d-six], [sk-d-trace], [sk-d-weil], [sk-p-trace], [sk-prop-sf-open-closed-triangle], [sk-thm-sf-package]

@@ -6,15 +6,16 @@ order = 266
 lean = ["AlgebraicGeometry.TwoOpenSide.forbiddenBoundary"]
 uses = ["def-nagata-two-open-graph-extensions"]
 +++
-For $\{i,j\}=\{1,2\}$, define
+For $\{i,j\}=\{1,2\}$, define the closed subsets
 
 $$
-Z_i=(U\setminus U_j)_{\mathrm{red}}\hookrightarrow U_i,
+Z_i=U\setminus U_j\subseteq U_i,
 \qquad
-Z_{i,k}=V_i\times_U Z_k\hookrightarrow V_i
+Z_{i,k}=\psi_i^{-1}(Z_k)\subseteq V_i
 \quad(k=1,2).
 $$
 
-Thus $Z_i$ is the canonical reduced closed subscheme on the indicated
-complement, and $Z_{i,k}$ carries the scheme-theoretic inverse-image
-structure rather than only its underlying closed set.
+The *forbidden boundary* of the $i$-th side is the closure
+$\overline Z_{i,j}$ of $Z_{i,j}=\psi_i^{-1}(U\setminus U_i)$ in $X_i$, and
+its *self boundary* is the closure $\overline Z_{i,i}$ of
+$Z_{i,i}=\psi_i^{-1}(U\setminus U_j)$ in $X_i$.

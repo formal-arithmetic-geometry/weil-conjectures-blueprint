@@ -5,11 +5,6 @@ title = "A quasi-domination over a proper target is everywhere defined (Conrad)"
 order = 223
 uses = ["def-nagata-conrad-quasi-domination"]
 +++
-**Status.** Bypassed by the formalized route: quasi-dominations are not
-introduced in Lean. The extension statements are proved directly from
-scheme-theoretic dominance and separatedness, through
-`AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant_of_isSeparated`.
-
 Let $Y\to S$ be proper and let $(U,f)$ be a quasi-domination of $X$ over
 $Y$. Then $U=X$; that is, $f$ extends to an $S$-morphism $X\to Y$.
 

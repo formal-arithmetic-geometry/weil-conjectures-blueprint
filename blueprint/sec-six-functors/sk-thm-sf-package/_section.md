@@ -14,7 +14,6 @@ operations of [sk-def-sf-operations] exist as functors of the ambient
 categories, they descend to the small categories as in [sk-rem-sf-typing],
 and they satisfy:
 
-2pt
 1. **(1)** *Adjunctions.* The functor $Lf^*$ is exact, hence preserves
 bounded-below objects, and its restriction
 $Lf^*:D^+(Y,\Lambda)\to D^+(X,\Lambda)$ is left adjoint to
@@ -26,9 +25,7 @@ $Rf^!:\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$ of [sk-def-sf-operations] (vi) is
 right adjoint to $Rf_!:\Dctf(X,\Lambda)\to\Dctf(Y,\Lambda)$,
 unconditionally, with units and counits compatible with composition,
 refinements and exchanges ([sk-prop-sf-existence] (c),
-[sk-prop-sf-rf-shriek-preservation], [sk-lem-sf-mate] (b),
-fix-prop-adjunctions); and — an optional ambient statement, used by
-nothing below — whenever $f$ carries the ambient datum of
+[sk-prop-sf-rf-shriek-preservation], [sk-lem-sf-mate] (b)); and, whenever $f$ carries the ambient datum of
 [sk-def-sf-admissible] (1), the ambient functor
 $Rf_!:D(X,\Lambda)\to D(Y,\Lambda)$ is left adjoint to the ambient functor
 $Rf^{\times}:D(Y,\Lambda)\to D(X,\Lambda)$ of [sk-def-sf-operations] (v),
@@ -47,28 +44,21 @@ compatible with pasting of squares, independent of the compactification
 (compatible with the refinement comparisons of [sk-prop-sf-comp-coherence])
 and compatible with the composition law of [sk-thm-sf-comp-composition],
 the last two on the étale-origin complexes of [sk-def-sf-operations] (iv)
-([sk-prop-sf-cbc], fix-lem-exchanges).
+([sk-prop-sf-cbc]).
 The exchange transformation $\operatorname{Ex}_*:Lg^*Rf_*\to Rf'_*Lg'^*$ is a
 natural isomorphism for proper $f$ ([sk-thm-properbasechange]) and for
 smooth $g$ ([sk-thm-smooth-base-change]), *with the following typing
 only*: (a) at a finite stage $\Lambda=A_{E,n}$, as functors
-$D^+(X,\Lambda)\to D^+(Y',\Lambda)$ on the small étale site
-(thm:weil-pbc-bounded-below,
-sbc-thm-bounded-below-derived-smooth-base-change) and on the
-étale-origin complexes of the pro-étale site
-(thm:weil-pbc-finite-level-proetale; for smooth $g$ on the bounded
-constructible ones, sbc-thm-finite-proetale-smooth-base-change); (b) at the stages
+$D^+(X,\Lambda)\to D^+(Y',\Lambda)$ on the small étale site and on the
+étale-origin complexes of the pro-étale site (for smooth $g$ on the bounded
+constructible ones); (b) at the stages
 $\mathcal O_E$, $E$, $\Qlb$, only on $\Dbc$ of the pro-étale (adic)
 categories — derived-complete $\mathcal O_E$-complexes whose reductions are
 of étale origin, their rationalizations and the $\Qlb$-colimit, with
 $\operatorname{Ex}_*$ the completed exchange — where it is deduced from (a)
 by derived limits over the finite reductions and then transported by
 rationalization and scalar extension, exactly as the projection formula is in
-[sk-thm-sf-pf-adic] and [sk-thm-sf-pf-field]
-(cor:weil-pbc-constructible-complete, thm:weil-pbc-finite-extension,
-thm:weil-pbc-qbar; sbc-thm-adic-smooth-base-change,
-sbc-thm-e-coefficient-smooth-base-change,
-sbc-thm-overline-mathbf-q-ell-coefficient-smooth-base-ch). No
+[sk-thm-sf-pf-adic] and [sk-thm-sf-pf-field]. No
 assertion is made for the discrete non-torsion coefficients $\mathcal O_E,E,\Qlb$
 on the small étale site, where $\operatorname{Ex}_*$ is not an isomorphism in
 general.
@@ -79,8 +69,7 @@ $\operatorname{Ex}_!$ of clause (2) (the base-change clause of
 [sk-prop-sf-pf-coherence])
 ([sk-thm-sf-pf-finite], [sk-prop-sf-pf-reduction],
 [sk-thm-sf-pf-adic], [sk-thm-sf-pf-field], [sk-thm-sf-pf-proetale],
-[sk-prop-sf-pf-coherence]); the interface
-fix-prop-projection-formula is discharged ([sk-rem-sf-pf-done]).
+[sk-prop-sf-pf-coherence]).
 1. **(4)** *Compactifications and proper coincidence.*
 $Rf_!=R\bar f_*j_!$ is independent of the compactification with the composition
 law $R(gf)_!\cong Rg_!Rf_!$, and $Rf_!\cong Rf_*$ for proper $f$
@@ -113,7 +102,7 @@ isomorphism itself stays outside the package).
 1. **(6)** *Duality.* With $\omega_X=Ra_X^!\Lambda$ formed from the
 constructible exceptional adjoint of [sk-def-sf-operations](vi) (no
 admissibility datum is assumed; [sk-prop-sf-biduality-general] is
-unconditional, [sk-rem-sf-ledger]),
+unconditional),
 $\mathbb D_X:\Dctf(X,\Lambda)\to\Dctf(X,\Lambda)$,
 $\mathbb D_X=\RHom_X(-,\omega_X)$ with $\omega_X=Ra_X^!\Lambda$, is a
 contravariant exact anti-equivalence,
@@ -133,7 +122,7 @@ $\varepsilon_{gf,M}$ agrees, through $\mathbb D_Z(\alpha_{g,f})$ and
 $R(gf)_*\cong Rg_*Rf_*$, with
 $Rg_*(\varepsilon_{f,M})\circ\varepsilon_{g,Rf_!M}$ (associativity of
 $\operatorname{PF}$, [sk-prop-sf-pf-coherence], and the mate calculus
-[sk-lem-sf-mate]; fix-prop-coherence). No compatibility of
+[sk-lem-sf-mate]). No compatibility of
 $\varepsilon$ with base change along an arbitrary $g$ is asserted
 ($\mathbb D$ does not commute with $Lg^*$ in general).
 Unconditionally, for $X$ smooth of pure dimension $d$ and perfect $K$, the
@@ -234,5 +223,3 @@ not proved in the blueprint: the *Conditional on* lines of
 [sk-thm-sf-ctf-stability] are the
 complete list of what is conditional, and they are restated in the ledger
 below.
-
-Uses: `\Cref{sk-cor-sf-direct-image-ctf}`, `\Cref{lem-sf-flat-model}`, `\Cref{lem-sf-twist-interchange}`, `\Cref{sk-prop-cohsm}`, `\Cref{sk-prop-nagata-sketch-comp-category}`, `\Cref{sk-prop-sf-biduality-general}`, `\Cref{sk-prop-sf-cbc}`, `\Cref{sk-prop-sf-comp-coherence}`, `\Cref{sk-prop-sf-comp-proper}`, `\Cref{sk-prop-sf-comparison}`, `\Cref{sk-prop-sf-dualizable-biduality}`, `\Cref{sk-prop-sf-existence}`, `\Cref{sk-prop-sf-finiteness}`, `\Cref{sk-prop-sf-kunneth-ordinary}`, `\Cref{prop-sf-pf-coherence}`, `\Cref{prop-sf-pf-reduction}`, `\Cref{sk-prop-sf-rf-shriek-preservation}`, `\Cref{sk-rem-sf-matrix}`, `\Cref{thm-nagata-compactification}`, `\Cref{sk-thm-properbasechange}`, `\Cref{sk-thm-purity-transport}`, `\Cref{thm-sf-comp-composition}`, `\Cref{thm-sf-ctf-stability}`, `\Cref{thm-sf-direct-image-tor-amplitude}`, `\Cref{thm-sf-dual-perfect}`, `\Cref{thm-sf-global-duality}`, `\Cref{thm-sf-hom-ctf}`, `\Cref{thm-sf-identification}`, `\Cref{thm-sf-kunneth-relative}`, `\Cref{thm-sf-pf-adic}`, `\Cref{thm-sf-pf-field}`, `\Cref{thm-sf-pf-finite}`, `\Cref{thm-sf-pf-proetale}`, `\Cref{sk-thm-sf-tensor-hom}`, `\Cref{thm-sf-verdier-exchange}`, `\Cref{sk-thm-smooth-base-change}`, `\Cref{sk-thm-smooth-purity}`, `\Cref{lem-sf-mate}`, `\Cref{def-sf-kv-maps}`, `\Cref{sk-thm-sf-kunneth-verdier}`, `\Cref{sk-def-sf-admissible}`

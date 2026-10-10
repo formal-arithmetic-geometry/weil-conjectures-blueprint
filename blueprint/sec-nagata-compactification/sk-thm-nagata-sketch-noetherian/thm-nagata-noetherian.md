@@ -6,14 +6,22 @@ order = 325
 lean = ["AlgebraicGeometry.nagataCompactification_of_isNoetherian"]
 uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-dense-affine-cover", "def-nagata-noetherian-compactification", "def-nagata-partial-affine-unions", "lemma-nagata-dense-affine-cover"]
 +++
-The recursively constructed factorization
+Let $S$ be Noetherian and let $X\to S$ be separated and of finite type.
+Then $X\to S$ is compactifiable: the recursively constructed factorization
 $\mathsf C_{\mathrm{Noeth}}(X/S)$ is a compactification of $X\to S$.
-Consequently $X\to S$ is compactifiable.
 
 ## Proof
 
-The final component $h_n$ of the dependent recursive datum in
-[def-nagata-noetherian-compactification] has the three fields required
-by [def-nagata-compactification], and $X_n=X$. Thus
-$\mathsf C_{\mathrm{Noeth}}(X/S)$ is a compactification of $X\to S$. No
-later induction theorem is used to define any earlier $\mathsf C_r$.
+Since $S$ is Noetherian and $X\to S$ is of finite type, $X$ is Noetherian,
+hence quasi-compact and quasi-separated with finitely many irreducible
+components. So [lemma-nagata-dense-affine-cover] provides the selected
+dense affine cover $\mathcal U_X=(U_1,\ldots,U_n)$ of
+[def-nagata-dense-affine-cover]: affine opens $U_i$ covering $X$ whose
+total intersection is dense in $X$. Apply
+[def-nagata-noetherian-compactification] to this family. Its stage
+$\mathsf C_n$ is a compactification of $X_n\to S$ in the sense of
+[def-nagata-compactification], and since the $U_i$ cover $X$ the partial
+union $X_n=U_1\cup\cdots\cup U_n$ of [def-nagata-partial-affine-unions] is
+$X$ itself. Thus $\mathsf C_{\mathrm{Noeth}}(X/S)=\mathsf C_n$ is a
+compactification of $X\to S$, and $X\to S$ is compactifiable in the sense
+of [def-nagata-compactifiable].

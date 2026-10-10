@@ -5,7 +5,7 @@ title = "Pointer to the properties of [def-trf-admissibility]"
 order = 2093
 uses = ["def-trf-admissibility", "lem-exc-open-complement-known", "thm-sf-preservation-class"]
 +++
-In the notation of [def-trf-admissibility], the following holds. The two *preservation* clauses
+In the notation of [def-trf-admissibility], the two *preservation* clauses
 (2) and (3) of the same definition — the typing
 $Rf^!:D^b_{ctf}(Y,A)\to D^b_{ctf}(X,A)$ together with the interval
 bounds — are theorems there as well, for *every* separated finite-type

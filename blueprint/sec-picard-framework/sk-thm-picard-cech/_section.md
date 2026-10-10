@@ -9,8 +9,8 @@ lean = ["CategoryTheory.Sheaf.exists_cechToDerivedSpectralSequence"]
 *Theorem (sketch).*
 
 Let $\mathcal C$ be a site with fibre products, $X\in\Ob(\mathcal C)$
-and $\mathfrak U=\{U_i\to X\}_{i\in I}$ a covering. For
-$F\in\Sh(X)$ there is a first-quadrant spectral sequence
+and $\mathfrak U=\{U_i\to X\}_{i\in I}$ a family of morphisms generating a covering
+sieve of $X$. For an abelian sheaf $F$ on $\mathcal C$ there is a first-quadrant spectral sequence
 
 $$
 E_2^{p,q}=\Cech^p\bigl(\mathfrak U,\ \mathcal H^q(F)\bigr)
@@ -73,11 +73,7 @@ $$
 *Step 4 (the edge map).* Combining Steps 2 and 3 gives the
 displayed sequence. When $\mathcal H^q(F)$ vanishes for $q>0$ the
 sequence collapses onto the row $q=0$ instead, and the edge maps
-$\Cech^q(\mathfrak U,F)\to H^q(X,F)$ are isomorphisms; this is the
-collapse used in [sk-lem-picard-cech-computes].
+$\Cech^q(\mathfrak U,F)\to H^q(X,F)$ are isomorphisms.
 
 This is Stacks, Cohomology on Sites, Lemma 21.10.6
-([`03AZ`](https://stacks.math.columbia.edu/tag/03AZ)); the
-detailed form is Blueprint 06, `lem-sc-cech-spectral`.
-
-Uses: [sk-def-groth-ss]
+([`03AZ`](https://stacks.math.columbia.edu/tag/03AZ)).

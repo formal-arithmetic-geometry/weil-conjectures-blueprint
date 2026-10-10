@@ -8,9 +8,10 @@ lean = ["AlgebraicGeometry.Scheme.injective_cohomologyMap_gmSheaf_two"]
 +++
 *Proposition (sketch).*
 
-Let $X$ be as in [sk-prop-divisor-gen] with function field
-$k(X)$. Then (Grothendieck's residue sequence) the base change map
-is injective:
+Let $X$ be an integral regular noetherian scheme (as in
+[sk-prop-divisor-gen]) with function field $k(X)$ and generic point
+$\eta=\Spec k(X)\to X$. Then (Grothendieck's residue sequence) the
+pullback map along $\eta$ is injective:
 
 $$
 \Br(X)=H^2(X,\mathbb G_m)\hookrightarrow
@@ -60,5 +61,3 @@ sequence gives $H^0(X,\mathbb G_m)=k^\times$ for $X$ proper
 connected over algebraically closed $k$ and
 $H^1(X,\mathbb G_m)=\Pic(X)=\mathrm{Div}(X)/\mathrm{Princ}(X)$,
 which is (P1) of [sk-def-pic].)
-
-Uses: [sk-def-br], [sk-prop-divisor-gen], [sk-prop-hilbert90]

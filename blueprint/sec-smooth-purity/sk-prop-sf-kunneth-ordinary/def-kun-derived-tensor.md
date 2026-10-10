@@ -18,9 +18,7 @@ K_1\kunotimes{\Lambda}K_2=P\otimes_\Lambda K_2
 \in D(T_{\Et},\Lambda),
 $$
 
-where $P\to K_1$ is a quasi-isomorphism with $P$ K-flat; the
-independence of the result of the chosen K-flat model is
-recorded with the other properties of this construction. For $K\in D(T_{\Et})$ and a complex of $\mathbf Z$-modules
+where $P\to K_1$ is a quasi-isomorphism with $P$ K-flat. For $K\in D(T_{\Et})$ and a complex of $\mathbf Z$-modules
 $\mathcal M^\bullet$, $K\kunotimes{\mathbf Z}\underline{\mathcal M^\bullet}$
 denotes derived tensor with the constant complex of
 [def-kun-constant-sheaf].

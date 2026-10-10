@@ -24,14 +24,3 @@ $$
 
 for every $n$. These isomorphisms intertwine the normalization maps of
 $M_\bullet$ with the quotient transition maps of the local reduction tower.
-
-The finite-level constructibility of the local models is the notion of Stacks
-Project, Section 61.27 (Tag
-[09AI](https://stacks.math.columbia.edu/tag/09AI)) and Definition 61.28.1
-(Tag [09BT](https://stacks.math.columbia.edu/tag/09BT), Section 61.28, Tag
-[09BS](https://stacks.math.columbia.edu/tag/09BS)): the Stacks entries define
-constructibility, lissity and adic lissity of a single sheaf $\mathcal
-F=\lim\mathcal F/I^n\mathcal F$ for a Noetherian ring $\Lambda$ with an ideal
-$I$, the adic lisse case by local isomorphism to $\underline M^\wedge$, and
-state no tower-level assertion; the form used here is a uniform tower with
-bounded local models and finite lisse reductions.

@@ -6,15 +6,15 @@ order = 99
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.isEffectiveCartierCenter"]
 uses = ["def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal"]
 +++
-An invertible ideal sheaf, viewed as an ideal by its specified inclusion into
-the structure sheaf, is an effective Cartier ideal.
+Let $\mathcal J$ be an invertible ideal on $X$. Then the closed immersion
+$V(\mathcal J)\hookrightarrow X$ is an effective Cartier centre, i.e. it is
+the closed subscheme cut out by an invertible ideal.
 
 ## Proof
 
-On an open set where the invertible ideal is free with basis $a$, the map
-$\mathcal O_X\to\mathcal I$ sending $1$ to $a$ is an isomorphism. The
-inclusion $\mathcal I\hookrightarrow\mathcal O_X$ is injective because
-$\mathcal I$ is an ideal submodule, so the composite
-$\mathcal O_X\to\mathcal O_X$ is multiplication by $a$ and is injective.
-Thus $a$ is a non-zero-divisor on every member of this cover, which is
-exactly the effective-Cartier condition.
+Take the invertible ideal $\mathcal J$ itself and the identity
+isomorphism of $V(\mathcal J)$ over $X$. Concretely, on an affine open
+$V\subseteq X$ where $\mathcal J(V)=(a)$ with $a$ a non-zero-divisor
+([def-nagata-invertible-ideal]), the closed subscheme
+$V(\mathcal J)\cap V$ is $\operatorname{Spec}(\mathcal O_X(V)/(a))$, cut
+out by the single regular equation $a$; such opens cover $X$.

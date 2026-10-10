@@ -15,7 +15,6 @@ $$
 
 is defined on the ordinary derived categories. The morphism
 $f$ need not be separated.
-The notation refers to bounded constructible complexes.
 
 ## Proof
 

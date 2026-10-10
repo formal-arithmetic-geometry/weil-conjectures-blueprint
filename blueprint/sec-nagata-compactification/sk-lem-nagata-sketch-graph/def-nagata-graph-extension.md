@@ -6,26 +6,18 @@ order = 242
 lean = ["AlgebraicGeometry.Compactification.ProperExtension"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-compactification", "def-nagata-elimination-indeterminacy", "def-nagata-global-blowup", "def-nagata-scheme-theoretic-image", "prop-nagata-global-blowup-cover-independent"]
 +++
-Let $U\to S$ be separated and of finite type, let $V\subseteq U$ be
-quasi-compact, and fix a compactification
-$V\hookrightarrow Y\to S$. Define
+Let $u\colon U\to S$ be a morphism of schemes, let $V\subseteq U$ be an
+open subscheme, and let $C=(V\xrightarrow{j}Y\xrightarrow{p}S)$ be a
+compactification of $V\to S$. A *graph extension* of $C$ consists of
 
-$$
-Z_V=\operatorname{SIm}
-\bigl(V\xrightarrow{(j,\,\mathrm{incl})}Y\times_SU\bigr).
-$$
+* a $V$-admissible blow-up $\pi\colon Y^{\mathrm{gr}}\to Y$ (admissible
+  with respect to the open $j(V)\subseteq Y$);
+* an open subscheme $V^{\mathrm{gr}}\subseteq Y^{\mathrm{gr}}$;
+* a proper morphism $\psi^{\mathrm{gr}}\colon V^{\mathrm{gr}}\to U$ with
+  $u\circ\psi^{\mathrm{gr}}=p\circ\pi|_{V^{\mathrm{gr}}}$;
+* an open immersion $v\colon V\to V^{\mathrm{gr}}$ with $\pi\circ v=j$;
 
-Apply [def-nagata-elimination-indeterminacy] to the first projection
-$Z_V\to Y$ over $V$. Denote the resulting blow-up by
-$Y^{\mathrm{gr}}\to Y$ and the open strict transform by
-$Z_V^{\mathrm{st}}\hookrightarrow Y^{\mathrm{gr}}$. Define
-
-$$
-V^{\mathrm{gr}}\subseteq Y^{\mathrm{gr}}
-\quad\text{to be the represented open subscheme }Z_V^{\mathrm{st}},
-\qquad
-\psi^{\mathrm{gr}}\colon V^{\mathrm{gr}}\longrightarrow U
-$$
-
-by transporting the second projection
-$Z_V^{\mathrm{st}}\to U$ across the open-immersion identification.
+such that $\psi^{\mathrm{gr}}\circ v$ is the inclusion $V\subseteq U$,
+$(\psi^{\mathrm{gr}})^{-1}(V)=v(V)$, and the restriction of
+$\psi^{\mathrm{gr}}$ over $V$ is an isomorphism
+$(\psi^{\mathrm{gr}})^{-1}(V)\xrightarrow{\sim}V$.

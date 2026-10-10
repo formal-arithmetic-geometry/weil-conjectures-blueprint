@@ -4,11 +4,9 @@ kind = "lemma"
 title = "FPQC descent for quasi-coherent modules"
 order = 763
 uses = ["def-sc-invertible-module"]
-lean = ["AlgebraicGeometry.bijective_toDescentData_map", "AlgebraicGeometry.exists_isQuasicoherent_toDescentData_iso", "AlgebraicGeometry.isFinitePresentation_of_toDescentData_iso", "AlgebraicGeometry.isLocallyFree_of_toDescentData_iso", "AlgebraicGeometry.isInvertible_of_toDescentData_iso"]
+lean = ["AlgebraicGeometry.bijective_toDescentData_map", "AlgebraicGeometry.exists_isQuasicoherent_toDescentData_iso", "AlgebraicGeometry.isFinitePresentation_of_toDescentData_iso", "AlgebraicGeometry.isLocallyFree_of_toDescentData_iso", "AlgebraicGeometry.isFiniteLocallyFreeOfRank_of_toDescentData_iso", "AlgebraicGeometry.isInvertible_of_toDescentData_iso"]
 +++
-(Descent, Proposition 35.5.2, Tag
-[023T](https://stacks.math.columbia.edu/tag/023T), and Descent,
-Section 35.7.) Let $\{f_i:S_i\to S\}_{i\in I}$ be an fpqc covering of
+Let $\{f_i:S_i\to S\}_{i\in I}$ be an fpqc covering of
 schemes.
 
 1. The functor $\mathcal{M}\mapsto(f_i^*\mathcal{M},\mathrm{can})_{i\in I}$
@@ -34,9 +32,8 @@ $S_i\times_SS_{i'}$ agree (i.e. compatible with the canonical gluing
 isomorphisms), then $\mathcal{L}\cong\mathcal{O}_S$. (Without the
 compatibility this fails already for Zariski coverings.)
 
-Applied to the fpqc covering $\{X_{T_i}\to X_T\}$ obtained by base change
-from an fpqc covering $\{T_i\to T\}$ and a morphism $X\to T$, this is
-the form in which the statement is used: cartesian families
+In particular, applied to the fpqc covering $\{X_{T_i}\to X_T\}$ obtained by base change
+from an fpqc covering $\{T_i\to T\}$ and a morphism $X\to T$: cartesian families
 $\mathcal{L}_i$ on $X_{T_i}$ satisfying the cocycle condition glue to an
 invertible $\mathcal{L}$ on $X_T$ with $\mathcal{L}|_{X_{T_i}}\cong\mathcal{L}_i$.
 

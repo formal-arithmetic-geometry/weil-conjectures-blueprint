@@ -10,12 +10,12 @@ and the coefficient
 conventions, $A=A_{E,n}$, $s=\Spec k$, and let $\beta$ be
 separated finite type
 and proper over $s$,
-with structure morphism
-$a_\beta:\beta\to s$ is exceptionally
-admissible and $\omega_{\beta,A}$ the
+with exceptionally
+admissible structure morphism
+$a_\beta:\beta\to s$ and $\omega_{\beta,A}$ the
 dualizing complex of
 [def-trf-dualizing-complex]. The *integration* (the
-``trace along $a_\beta$'') is the map
+"trace along $a_\beta$") is the map
 
 $$
 \int_\beta:

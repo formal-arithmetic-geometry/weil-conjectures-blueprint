@@ -4,12 +4,6 @@ kind = "definition"
 title = "Selected finite affine gluing presentation"
 order = 332
 +++
-**Status.** Bypassed by the formalized route: the finite-presentation and
-Noetherian descent is done in one step by
-`AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation_of_isSeparated`
-and `AlgebraicGeometry.Scheme.nonempty_noetherianApproximation`, so
-this stage-by-stage bookkeeping is never carried out.
-
 Let $S$ be quasi-compact and quasi-separated. Select a finite affine cover
 $S=\bigcup_{a=1}^nU_a$. For every pair $(a,b)$, select a finite affine
 cover $(U_{ab,r})_r$ of $U_a\cap U_b$ and then finite basic-open covers of

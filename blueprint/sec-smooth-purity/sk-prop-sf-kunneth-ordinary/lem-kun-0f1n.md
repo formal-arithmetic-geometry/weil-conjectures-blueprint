@@ -27,8 +27,7 @@ Rh_*\bigl(h^{-1}p^{-1}E\kunotimes{\kunZn}e^{-1}F\bigr)
 $$
 
 is an isomorphism for all $E\in D(X_{\Et},\kunZn)$ and
-$F\in D(T_{\Et},\kunZn)$. (*Source:* Stacks Project, Tag
-[0F1N](https://stacks.math.columbia.edu/tag/0F1N).)
+$F\in D(T_{\Et},\kunZn)$.
 
 ## Proof
 

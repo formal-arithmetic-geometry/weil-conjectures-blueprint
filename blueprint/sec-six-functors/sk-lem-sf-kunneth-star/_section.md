@@ -61,5 +61,3 @@ coefficient field and applies verbatim with $\kappa$ in place of
 $\mathbf F_\ell$. Both steps are natural in $L$ and $Q$, so the isomorphism
 is the canonical comparison; [sk-prop-sf-comparison] transports it to the
 pro-étale site. The same statement is SGA 5, III, 1.1 and 1.6.4.
-
-Uses: `\Cref{sk-prop-sf-kunneth-ordinary}`, `\Cref{sk-lem-sf-flat-model}`, `\Cref{sk-prop-sf-comparison}`, `lem-kun-0f1n`, `lem-kun-0f1j`

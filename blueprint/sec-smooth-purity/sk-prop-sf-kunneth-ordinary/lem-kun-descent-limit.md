@@ -15,16 +15,7 @@ $$
 \varinjlim_ip_i^{-1}p_{i,*}F\longrightarrow F
 $$
 
-is an isomorphism. (*Source:* Stacks Project,
-[Tag
-`0EYN`](https://stacks.math.columbia.edu/tag/0EYN).) In the Stacks Project this is a special case of Sites, Lemma 7.18.5,
-[Tag `0EXJ`](https://stacks.math.columbia.edu/tag/0EXJ), via
-Lemma 59.51.2, [Tag
-`0EYL`](https://stacks.math.columbia.edu/tag/0EYL) (the affine etale site of an affine limit is the colimit
-of the affine etale sites of the stages). The first step of that reduction,
-the descent of finitely presented algebras along the colimit of rings, is proved
-in this chapter as [lem-kun-fp-algebra-descent].
-The affine and torsion case recorded here is the one used in this chapter.
+is an isomorphism.
 
 ## Proof
 

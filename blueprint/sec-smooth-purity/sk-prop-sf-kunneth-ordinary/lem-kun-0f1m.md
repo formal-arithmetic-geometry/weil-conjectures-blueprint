@@ -12,10 +12,7 @@ amplitude in $[a,\infty)$ in the sense of
 by a K-flat complex $\mathcal E^\bullet$ of flat
 $\Lambda_T$-module sheaves with $\mathcal E^i=0$ for $i<a$;
 moreover $\mathcal E^\bullet$ may be chosen so that any pullback is
-again K-flat with flat terms. (*Source:* the argument is the one
-of Stacks Project, [Tag
-`0F1M`](https://stacks.math.columbia.edu/tag/0F1M); the only input used is the existence of flat resolutions
-of [lem-kun-flat-resolution-existence].)
+again K-flat with flat terms.
 
 ## Proof
 

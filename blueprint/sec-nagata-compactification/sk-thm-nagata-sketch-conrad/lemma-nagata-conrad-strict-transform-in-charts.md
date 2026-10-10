@@ -5,11 +5,6 @@ title = "Strict transforms live in the charts of the other centre (Deligne, *Lem
 order = 206
 uses = ["def-nagata-blowup-chart-ring", "def-nagata-strict-transform", "lemma-nagata-strict-transform-chart-closed", "prop-nagata-affine-blowup-chart-cover"]
 +++
-**Status.** Bypassed by the formalized route: Deligne's disjointness blow-up
-is formalized as the single statement
-`AlgebraicGeometry.disjoint_closure_range_of_blowupMap_sup`,
-which absorbs this step.
-
 Let $X$ be a scheme and let $Y,Y'\subseteq X$ be closed subschemes with
 quasi-coherent ideals $\mathcal I_Y,\mathcal I_{Y'}$. In
 $\widetilde X=\operatorname{Bl}_{\mathcal I_Y+\mathcal I_{Y'}}(X)$ the strict

@@ -20,5 +20,3 @@ $\overline{\mathbf Q}_\ell$-version is the filtered colimit over the
 finite subfields $E$ of its finite-stage analogue (the
 $2$-colimit of
 [def-weil-pbc-qbar-category]).
-
-*Recorded in advance* from chapter *Weight foundations and monodromy groups* of the source.

@@ -5,7 +5,10 @@ title = "Strict henselization from pointed neighbourhoods"
 order = 944
 uses = ["def-weil-pbc-pointed-etale-neighbourhoods"]
 +++
-Let
+Let $\bar s$ be a geometric point of a scheme $S$, let
+$\mathcal N^{\mathrm{aff}}_{\bar s}$ be the full subcategory of affine
+objects of the category of pointed etale neighbourhoods of $\bar s$
+([def-weil-pbc-pointed-etale-neighbourhoods]), and let
 
 $$
 \mathcal I_{\bar s}:=
@@ -22,8 +25,11 @@ $a^\#:A_W\to A_V$. Put
 $$
 A^{\mathrm{sh}}_{S,\bar s}:=\varinjlim_{\mathcal I_{\bar s}}D_{\bar s},
 \qquad
-S_{(\bar s)}:=\operatorname{Spec}A^{\mathrm{sh}}_{S,\bar s}.
+S_{(\bar s)}:=\operatorname{Spec}A^{\mathrm{sh}}_{S,\bar s};
 $$
+
+the ring $A^{\mathrm{sh}}_{S,\bar s}$ is also written
+$\mathcal O^{\mathrm{sh}}_{S,\bar s}$.
 
 The affine scheme–ring anti-equivalence carries the colimit cocone to the
 canonical limit cone
@@ -32,18 +38,3 @@ $$
 S_{(\bar s)}\xrightarrow{\sim}
 \varprojlim_{(V,\bar v)\in\mathcal N^{\mathrm{aff}}_{\bar s}}V.
 $$
-
-## Detailed form
-
-For affine $(V,\bar v)$ with $V=\operatorname{Spec}A_V$, put
-
-$$
- \mathcal O^{\mathrm{sh}}_{S,\bar s}
-   =\varinjlim_{(V,\bar v)}A_V,
- \qquad
- S_{(\bar s)}=\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{S,\bar s}.
-$$
-
-The canonical maps from $S_{(\bar s)}$ to the affine pointed etale
-neighborhoods identify it with their inverse limit; these affine
-neighborhoods form the indexing subcategory used in the displayed colimit.

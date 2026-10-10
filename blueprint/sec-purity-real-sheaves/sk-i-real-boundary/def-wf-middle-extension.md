@@ -17,5 +17,3 @@ means the ordinary sheaf direct image followed by a cohomological
 shift. The derived direct image is written $Rj_*\mathcal F$;
 its higher cohomology sheaves must be retained in derived adjunction
 and Verdier-duality formulas.
-
-*Recorded in advance* from chapter *Boundary weights, constant twists, and real envelopes* of the source.

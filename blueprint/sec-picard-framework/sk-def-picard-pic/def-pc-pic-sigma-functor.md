@@ -6,17 +6,20 @@ order = 799
 uses = ["def-pc-picard-presheaf", "def-pc-rational-point", "def-pc-subfunctor", "def-sc-picard-group"]
 lean = ["AlgebraicGeometry.picardFunctorNormalized"]
 +++
-Let $k$ be a field, $X$ a scheme over $k$, and $\sigma\in X(k)$ a
-$k$-rational point. For a scheme $T$
-over $k$ put
+Let $f:X\to S$ be a morphism of schemes and $\sigma:S\to X$ a section of
+$f$. For a scheme $T$ over $S$, with $\sigma_T:T\to X_T$ the base change
+of $\sigma$, put
 
 $$
-\operatorname{Pic}_{X/k,\sigma}(T):=\operatorname{Ker}\Bigl(\sigma_T^*:\operatorname{Pic}(X_T)
+\operatorname{Pic}_{X/S,\sigma}(T):=\operatorname{Ker}\Bigl(\sigma_T^*:\operatorname{Pic}(X_T)
 \longrightarrow\operatorname{Pic}(T)\Bigr),
 $$
 
 i.e. the set of isomorphism classes $[\mathcal L]$ for which
-$\sigma_T^*\mathcal L$ is isomorphic to $\mathcal O_T$.
-A trivialization is not part of an element of this kernel; when a
-proof chooses one, that choice is auxiliary. Its value at
-$T=\operatorname{Spec}(k)$ is computed in [lem-pc-sigma-k-points].
+$\sigma_T^*\mathcal L$ is isomorphic to $\mathcal O_T$. This is a
+subfunctor of the Picard presheaf $T\mapsto\operatorname{Pic}(X_T)$. When
+$S=\operatorname{Spec}(k)$ for a field $k$, so that $\sigma\in X(k)$ is a
+$k$-rational point, we write $\operatorname{Pic}_{X/k,\sigma}$.
+
+A trivialization of $\sigma_T^*\mathcal L$ is not part of an element of
+this kernel; when a proof chooses one, that choice is auxiliary.

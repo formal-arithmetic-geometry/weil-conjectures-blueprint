@@ -4,11 +4,6 @@ kind = "lemma"
 title = "A proper dense open immersion is an isomorphism"
 order = 256
 +++
-**Status.** Bypassed by the formalized route: the two-open theorem is
-concluded by
-`AlgebraicGeometry.HasCompactification.of_two_open_cover`, which
-never needs this criterion.
-
 Let $q\colon Z\to X$ be both proper and an open immersion. If its image
 contains a scheme-theoretically dense open subscheme of $X$, then $q$ is an
 isomorphism.

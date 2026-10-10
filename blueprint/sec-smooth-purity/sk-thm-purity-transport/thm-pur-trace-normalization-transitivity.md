@@ -5,7 +5,7 @@ title = "Trace normalization and transitivity"
 order = 2028
 uses = ["cor-pur-affine-space-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-projection-purity-agreement", "thm-pur-adic-reconstruction", "thm-pur-affine-line-orientation", "thm-pur-affine-line-purity", "thm-pur-composition-coherence", "thm-pur-finite-reduction-of-purity", "thm-pur-rational-and-qbar-purity", "thm-pur-smooth-base-change-coherence", "thm-sf-comp-composition"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
+Work in the purity conventions of [def-pur-conventions], let
 $A=A_{E,n}$, let $f:X\to Y$ and $g:Y\to Z$ be smooth separated
 morphisms of relative dimensions $d$ and $e$, and let
 $K\in D^b_{ctf}(Z,\Lambda)$. The typed composite

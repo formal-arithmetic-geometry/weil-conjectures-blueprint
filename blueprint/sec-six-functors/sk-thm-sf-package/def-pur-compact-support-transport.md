@@ -5,8 +5,8 @@ title = "Compact-support transport of a Weil datum"
 order = 2237
 uses = ["def-coefficient-twists-detailed", "def-exchange-projection", "def-pur-conventions", "def-pur-scheme-geometric-frobenius", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
-geometric-Frobenius datum,
+In the purity conventions of this chapter ([def-pur-conventions]), fix the
+geometric-Frobenius datum of [def-pur-scheme-geometric-frobenius],
 and let $M\in D^b_{ctf}(X,\Lambda)$ carry a strict Weil datum
 $\varphi_M:Lg_{X,\gamma}^*M\cong M$. The compact-support transport of the
 datum is

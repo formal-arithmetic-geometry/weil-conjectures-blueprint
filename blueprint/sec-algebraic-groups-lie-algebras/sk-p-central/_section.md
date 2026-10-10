@@ -8,10 +8,14 @@ lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCen
 +++
 *Proposition (sketch).*
 
-Every semisimple represented degree datum
+Every semisimple represented degree datum over an algebraically
+closed field $k$ of characteristic zero
 admits a positive central pair $(N,z)$.
 
 ## Proof
+
+The hypothesis that $k$ is algebraically closed of characteristic zero
+is used through [sk-p-geometry] and [sk-p-product].
 
 The finite component group from [sk-p-geometry] supplies $m>0$ with
 $F^m\in G^\circ$. By [sk-p-product], factor $F^m=ch$ with
@@ -31,5 +35,3 @@ By [sk-i-restriction], every commutator in $G$ lies in $H$.
 Thus each $g_i c g_i^{-1}$ has the same $H$-coset as $c$, namely
 $HF^m$, and multiplication yields $z\in HF^{mr}$.
 There is at least the identity coset, so $r>0$ and $N=mr>0$.
-
-Uses: [sk-d-central], [sk-d-monodromy], [sk-i-restriction], [sk-p-geometry], [sk-p-product]

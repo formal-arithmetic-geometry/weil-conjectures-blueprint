@@ -14,9 +14,4 @@ $\overline X_{\Proet}$ of [def-weil-pbc-proetale-site] a
 origin: $\mathcal F\cong\nu_{\overline X}^*\mathcal G$ for a sheaf
 $\mathcal G$ of $A$-modules on the small étale site, the comparison
 morphism $\nu_{\overline X}$ being that of
-[def-weil-pbc-site-comparison-morphism]. Equivalent descriptions of
-this class are the constructible sheaves in the intrinsic sense of
-[def-weil-finite-torsion-constructibility] and the complexes of
-[def-weil-pbc-constructible-complexes] on the étale side, by
-[lem-sf-proetale-constructible-origin]; the description by étale
-origin is the one used below.
+[def-weil-pbc-site-comparison-morphism].

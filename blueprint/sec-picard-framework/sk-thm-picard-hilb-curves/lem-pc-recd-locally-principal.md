@@ -5,8 +5,7 @@ title = "Effective Cartier divisors from local equations"
 order = 785
 uses = ["def-pc-morphism-conventions", "def-pc-relative-effective-cartier", "def-sc-effective-cartier-divisor"]
 +++
-(Divisors, Lemma 31.19.9, Tag
-[062Y](https://stacks.math.columbia.edu/tag/062Y).) Let
+Let
 $\phi:X\to S$ be a flat morphism of schemes of finite presentation and let
 $Z\subset X$ be a locally principal closed subscheme. If all fibres
 $Z_s\subset X_s$ are effective Cartier divisors on $X_s$, then $Z$ is a

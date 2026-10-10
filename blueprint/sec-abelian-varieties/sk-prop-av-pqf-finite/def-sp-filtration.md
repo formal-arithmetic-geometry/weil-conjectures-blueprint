@@ -12,5 +12,3 @@ $A\supseteq\cdots\supseteq F^nA\supseteq F^{n+1}A$; a *filtered object* is a
 pair $(A,F)$. The *graded pieces* are
 $\operatorname{gr}^nA:=F^nA/F^{n+1}A$. The filtration is *finite and
 separated* on $A$ if $F^0A=A$, $F^NA=0$ for some $N$, and $\bigcap_nF^nA=0$.
-(*Stacks Project: Definition 12.19.1, Tag
-[0121](https://stacks.math.columbia.edu/tag/0121).*)

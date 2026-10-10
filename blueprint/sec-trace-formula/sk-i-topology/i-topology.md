@@ -27,5 +27,3 @@ Tor amplitude are preserved on both sides, so the equivalence restricts to
 $D^b_{ctf}$; $Rr_*=Rr_!$ because $r$ is finite, hence proper, by
 [prop-functor-package]. A reduction is a finite universal homeomorphism, so the
 reduction clause is a special case.
-
-Uses: [def-trf-coefficient-conventions], [prop-functor-package]

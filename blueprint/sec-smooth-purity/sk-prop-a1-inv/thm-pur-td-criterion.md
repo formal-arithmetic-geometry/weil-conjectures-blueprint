@@ -6,12 +6,10 @@ order = 1956
 uses = ["cor-sf-ambient-adjoint-discharge", "def-pur-conventions", "def-pur-td-datum", "def-weil-ambient-exceptional-adjoint", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
-let $f:X\to Y$ be separated finite type; the
-ambient exceptional right
-adjoint datum of [def-weil-ambient-exceptional-adjoint] is not assumed,
-the right adjoint $Rf^!$ of $Rf_!$ on the bounded constructible and
-finite-Tor coefficients of this chapter being the theorem
-[cor-sf-ambient-adjoint-discharge] there. Let
+let $f:X\to Y$ be separated finite type, and let $Rf^!$ be the right adjoint
+of $Rf_!$ on the bounded constructible and finite-Tor coefficients of this
+chapter, which exists by [cor-sf-ambient-adjoint-discharge] (no ambient
+datum of [def-weil-ambient-exceptional-adjoint] is assumed). Let
 $L\in D^b_{ctf}(X,\Lambda)$ be tensor-invertible, and let
 $(\operatorname{tr}_f,\operatorname{cl}_\Delta)$ be a
 trace–diagonal datum. If the two

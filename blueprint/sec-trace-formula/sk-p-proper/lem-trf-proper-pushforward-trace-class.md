@@ -20,8 +20,5 @@ $$
 (with $(p_F)_*$ the pushforward of Borel–Moore sections along the
 proper $p_F$ of [def-trf-borel-moore-pushforward], sometimes written
 $(p_F)_!$) is therefore the special case $f=\operatorname{id}_X$, $g=p$ of
-[thm-trf-trace-proper-compatibility] (Varshavsky,
-[loc. cit.](https://arxiv.org/abs/math/0505564), 1.2.5); neither a
-properness hypothesis over $s$ nor a Cartesian condition is needed. The
-former open interface is therefore retired and is no longer listed among
-the unresolved inputs of this chapter.
+[thm-trf-trace-proper-compatibility]; neither a
+properness hypothesis over $s$ nor a Cartesian condition is needed.

@@ -25,13 +25,6 @@ in particular, for an invertible $\mathcal M$
 $H^0(C,\omega_C\otimes\mathcal M^{-1})$. Here $\omega_{\mathbf P^1}:=\Omega^1_{\mathbf P^1_k/k}$ and
 $\omega_C:=\Omega^1_{C/k}$
 ([def-sc-kahler-differentials]).
-(*Source: the classical Grothendieck duality for finite
-morphisms – the trace/fundamental-class isomorphism
-$\mathcal H om_{\mathcal O_{\mathbf P^1}}(f_*\mathcal O_C, \omega_{\mathbf P^1})\cong f_*\omega_C$ attached to a finite flat
-morphism, i.e. Hartshorne, *Algebraic Geometry*, III, (6.10),
-(6.12); the local algebra is the classical computation of the
-different/codifferent of a finite flat extension of discrete
-valuation rings, Serre, *Local Fields*, Ch. II, $\S$4.*)
 
 ## Proof
 

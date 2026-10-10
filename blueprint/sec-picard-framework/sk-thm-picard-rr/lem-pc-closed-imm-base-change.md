@@ -5,8 +5,7 @@ title = "The ideal sheaf of a base-changed closed immersion"
 order = 726
 uses = ["def-pc-scheme"]
 +++
-(Schemes, Lemma 26.18.2, Tag
-[01JY](https://stacks.math.columbia.edu/tag/01JY).) Closed immersions
+Closed immersions
 are stable under arbitrary base change; if $i:Z\to X$ is a closed
 immersion with ideal sheaf $\mathcal{I}_Z$, and $g:X'\to X$ is a morphism, then
 $Z'=Z\times_XX'$ is a closed subscheme of $X'$ whose ideal sheaf is the

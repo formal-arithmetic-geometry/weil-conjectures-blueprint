@@ -14,7 +14,6 @@ $$
 $$
 
 is an isomorphism, compatible with arbitrary change of $S$.
-The notation refers to the projective line, Tate twists, ordinary derived categories, and derived direct images.
 
 ## Proof
 

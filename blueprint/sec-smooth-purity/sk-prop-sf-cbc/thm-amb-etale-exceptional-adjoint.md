@@ -12,7 +12,6 @@ type. The ambient functor $Rf_!=Rr_*j_!$ on ordinary derived
 categories of etale $A$-module sheaves has a right adjoint,
 denoted $f^\times$. No restriction to a constructible
 subcategory is made in this assertion.
-The notation refers to ordinary derived categories, and ordinary etale compact supports.
 
 ## Proof
 

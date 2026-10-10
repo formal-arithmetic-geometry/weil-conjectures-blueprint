@@ -8,12 +8,14 @@ lean = ["AlgebraicGeometry.Etale.DerivedCategory.nonempty_iso_derivedHom_tensor"
 +++
 *Lemma (sketch).*
 
-Let $K$ be perfect over $\Lambda_X$, $M\in\Dctf(X,\Lambda)$ and $m\in\Z$. Then
-$\Lambda(m)_X$ is invertible locally constant of rank one and the canonical map
+Let $K\in D(X,\Lambda)$ be perfect over $\Lambda_X$, that is, dualizable for
+$\otimes^L_{\Lambda_X}$, let $T\in D(X,\Lambda)$ be invertible for
+$\otimes^L_{\Lambda_X}$ (for instance a Tate twist $\Lambda(m)_X$, $m\in\Z$), and
+let $M\in D(X,\Lambda)$. Then the canonical map
 
 $$
-\RHom_X\bigl(K,M\otimes^L_{\Lambda_X}\Lambda(m)_X\bigr)\to
-\RHom_X(K,M)\otimes^L_{\Lambda_X}\Lambda(m)_X
+\RHom_X\bigl(K,M\otimes^L_{\Lambda_X}T\bigr)\to
+\RHom_X(K,M)\otimes^L_{\Lambda_X}T
 $$
 
 is an isomorphism; in particular
@@ -21,18 +23,31 @@ $\RHom_X(K,\Lambda_X(m)[n])\cong K^\vee(m)[n]$.
 
 ## Proof
 
-By def:coefficient-twists each $\Lambda(m)_X$ is invertible locally
-constant of rank one with $\Lambda(m)\otimes^L\Lambda(-m)\cong\Lambda_X$, so
-$T_m=-\otimes^L\Lambda(m)_X$ is an exact autoequivalence with inverse
-$T_{-m}$. For an invertible $N$ the canonical map
-$c_{M,N}:\RHom_X(K,M)\otimes^LN\to\RHom_X(K,M\otimes^LN)$ (adjoint to
-$\mathrm{ev}\otimes1$) is an isomorphism: by the coherence of these maps,
-$c_{M\otimes N,N^{-1}}\circ(c_{M,N}\otimes N^{-1})=c_{M,N\otimes N^{-1}}$ is
-the identity under $N\otimes N^{-1}\cong\Lambda_X$, and symmetrically on the
-other side, so $c_{M,N}$ has a two-sided inverse. (No appeal to a generator
-is made: $\Lambda_X$ does not generate $\Dctf$, and [sk-lem-sf-determination]
-propagates invertibility only.) For perfect $K$ the map is the
-identification of [sk-prop-sf-dualizable-biduality] twisted by the invertible
-local system, computed locally on a bounded complex of finite projectives.
+Write $\otimes$ for $\otimes^L_{\Lambda_X}$. The canonical map
+$c_{M,N}:\RHom_X(K,M)\otimes N\to\RHom_X(K,M\otimes N)$ is the adjoint of
+$\mathrm{ev}\otimes1_N:\RHom_X(K,M)\otimes N\otimes K\to M\otimes N$ (up to the
+symmetry); the map of the statement is its inverse, once $c_{M,T}$ is shown
+to be invertible. Let $T^{-1}$ be an inverse of $T$, with
+$T\otimes T^{-1}\cong\Lambda_X$, so that $-\otimes T$ is an autoequivalence
+with quasi-inverse $-\otimes T^{-1}$, in particular left and right adjoint to
+it. For every $N$ the adjunctions give natural bijections
 
-Uses: `\Cref{sk-prop-sf-dualizable-biduality}`, `def-coefficient-twists-detailed`, [sk-lem-sf-determination]
+$$
+\operatorname{Hom}\bigl(N,\RHom_X(K,M)\otimes T\bigr)
+\cong\operatorname{Hom}\bigl(N\otimes T^{-1}\otimes K,M\bigr)
+\cong\operatorname{Hom}\bigl(N\otimes K,M\otimes T\bigr)
+\cong\operatorname{Hom}\bigl(N,\RHom_X(K,M\otimes T)\bigr),
+$$
+
+and following $1_{\RHom_X(K,M)\otimes T}$ through them (Yoneda) shows that the
+resulting isomorphism $\RHom_X(K,M)\otimes T\cong\RHom_X(K,M\otimes T)$ is
+the adjoint of $\mathrm{ev}\otimes1_T$, i.e. $c_{M,T}$. This argument uses
+neither a generator ($\Lambda_X$ does not generate $\Dctf$, and
+[sk-lem-sf-determination] propagates invertibility only) nor any property of
+$K$. For $K$ dualizable it is also the composite
+$\RHom_X(K,M\otimes T)\cong K^\vee\otimes M\otimes T\cong\RHom_X(K,M)\otimes T$
+of two instances of the identification of [sk-prop-sf-dualizable-biduality].
+For the last assertion,
+by def:coefficient-twists each $\Lambda(m)_X$ is invertible, locally
+constant of rank one, with $\Lambda(m)\otimes\Lambda(-m)\cong\Lambda_X$, so
+$T=\Lambda(m)_X[n]$ is invertible; take $M=\Lambda_X$.

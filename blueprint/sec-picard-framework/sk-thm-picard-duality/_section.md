@@ -21,14 +21,11 @@ $H^1(X,\omega_X)$ with the cokernel of
 $\Omega^1_{K/k}\to\bigoplus_x\Omega^1_{K/k}/\omega_{X,x}$, and
 $t_X\bigl((\eta_x)_x\bigr)=\sum_x\operatorname{res}_x(\eta_x)$, where
 $\operatorname{res}_x:\Omega^1_{K/k}\to k$ is Tate's $k$-linear residue
-at $x$ (J. Tate, *Residues of differentials on curves*, Ann. Sci.
-ÉNS 1968): it kills $\omega_{X,x}$, it satisfies the residue theorem
+at $x$: it kills $\omega_{X,x}$, it satisfies the residue theorem
 $\sum_x\operatorname{res}_x(\eta)=0$ for $\eta\in\Omega^1_{K/k}$, and it
 equals $\operatorname{Tr}_{\kappa(x)/k}$ of the classical residue
 (computed in $\widehat{\cO}_{X,x}\cong\kappa(x)[[t]]$) whenever
-$\kappa(x)/k$ is separable, hence at every $x$ when $k$ is perfect
-(Serre, *Groupes algébriques et corps de classes*, Ch. II, for
-$k$ algebraically closed). The residue theorem is exactly what makes
+$\kappa(x)/k$ is separable, hence at every $x$ when $k$ is perfect. The residue theorem is exactly what makes
 $t_X$ well defined on the cokernel. (The naive formula
 $\sum_x\operatorname{Tr}_{\kappa(x)/k}\circ\operatorname{res}_x$ is not
 available over imperfect $k$: at a closed point with $\kappa(x)/k$
@@ -61,11 +58,10 @@ $\dim_kH^1(C,\cO_C)$, the genus of the conventions of this section.
 
 ## Proof
 
-(Important) For curves it can be deduced from [sk-thm-picard-pn] and
+For curves it can be deduced from [sk-thm-picard-pn] and
 the adjunction of the canonical sheaf with the Cartier picture of
-divisors (the residue sequence). Only the curve case is used in this
-blueprint (for Riemann–Roch); the analogue for smooth proper $X$ of
-any dimension holds as well but is not needed. Local freeness cannot be
+divisors (the residue sequence). The analogue for a smooth proper
+$X$ of any dimension holds as well. Local freeness cannot be
 dropped in this form: for the skyscraper $\cF=\kappa(x)$ at a closed
 point of $\mathbf P^1$ one has $H^0(\cF)^\vee\neq0$ but
 $\cF^\vee=\mathcal Hom(\kappa(x),\cO)=0$; for coherent $\cF$ the right

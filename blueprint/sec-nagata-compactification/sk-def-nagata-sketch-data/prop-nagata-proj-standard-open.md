@@ -7,15 +7,16 @@ lean = ["AlgebraicGeometry.Proj.basicOpenIsoSpec", "AlgebraicGeometry.Proj.iSup_
 tags = ["latex:proposition"]
 uses = ["def-nagata-affine-proj", "def-nagata-homogeneous-localization-degree-zero", "lemma-nagata-proj-chart-ring-cocycle"]
 +++
-Each positive-degree homogeneous $f$ determines an open subscheme
+Each homogeneous $f$ of positive degree determines an open subscheme
 $D_+(f)\subseteq\operatorname{Proj}(R)$ and a canonical isomorphism
 
 $$
 D_+(f)\cong\operatorname{Spec}(R_{(f),0}).
 $$
 
-If homogeneous elements $(f_i)$ generate $R_+$, the $D_+(f_i)$ cover
-$\operatorname{Proj}(R)$.
+If a family $(f_i)$ of elements of $R$ generates an ideal containing the
+irrelevant ideal $R_+$, the $D_+(f_i)$ (the loci of homogeneous primes not
+containing $f_i$) cover $\operatorname{Proj}(R)$.
 
 ## Proof
 

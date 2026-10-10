@@ -9,7 +9,7 @@ The only hypothesis of [thm-pur-general-admissibility] is the
 open-complement condition
 ([def-exc-open-complement-bound]) for the finitely many complements of
 the affine charts inside affine space; the ambient exceptional right adjoint
-datum that the theorem formerly displayed is not one, being the theorem
+datum is not one, being the theorem
 [cor-sf-ambient-adjoint-discharge] on the coefficients it quantifies
 over. That condition is a theorem of this
 blueprint, not an assumption: [lem-exc-open-complement-known] derives

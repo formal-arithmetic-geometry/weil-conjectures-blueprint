@@ -5,71 +5,60 @@ title = "Six Functors"
 order = 2039
 uses = ["sec-nagata-compactification", "sec-proper-base-change", "sec-smooth-base-change", "sec-smooth-purity"]
 +++
-content: the six operations, projection formulas, duality, and preservation
-of constructible and finite-Tor categories.  
-key theorem: Thm [sk-thm-sf-package].  
-references: `six_functors_summary.tex`; the detailed source
-`version/sketch/10b_six_functor_formalism.tex`.
+**Content.** For separated finite-type morphisms of finite-type schemes over
+$k=\overline{\mathbf F}_q$ and every coefficient stage ($A_{E,n}$,
+$\mathcal O_E$, $E$, $\Qlb$), this section assembles the six operations
+$Lf^*,Rf_*,Rf_!,Rf^!,\otimes^L,\RHom$ into one package. The operations are
+defined only on ambient derived categories, and their descent to $\Dctf$ is
+proved, not assumed ([sk-rem-sf-typing]). Proper and smooth base change,
+Nagata compactification and smooth purity come from the earlier sections.
+This section then proves the projection formula at every stage
+([sk-prop-sf-pf-coherence]) and the stability of $\Dctf$ under all six
+operations ([sk-thm-sf-ctf-stability]). Duality comes next: the dualizing
+complex $\omega_X=Ra_X^!\Lambda$ gives biduality
+([sk-prop-sf-biduality-general]), the tensor–Hom exchange
+([sk-thm-sf-tensor-hom]) gives the Verdier exchange
+$\mathbb D_Y Rf_!\cong Rf_*\mathbb D_X$ ([sk-thm-sf-verdier-exchange]),
+and global duality follows ([sk-thm-sf-global-duality]). Last comes the
+Künneth–Verdier isomorphism ([sk-thm-sf-kunneth-verdier]). All of this is
+gathered into [sk-thm-sf-package].
 
-**Source conventions.** Numbered chapter references and source
-identifiers below refer to the expanded blueprint summarized by
-`six_functors_summary.tex`, rather than to section numbers of this
-merged document. Identifiers with targets in this document link to them;
-other identifiers are printed as provenance labels. Statements described
-as proved in earlier chapters refer to those detailed sources. The summary's
-conditional hypotheses and split markers are retained.
+**Key theorem.**
 
-The chapter is an *enumeration*: every property is either proved in an
-earlier chapter of the blueprint — and is then restated here as a proposition
-with its provenance, never as a definition — or is proved in this section, in
-which case an idea-proof is given. The target is the *six-operations
-package* consumed by the smooth-purity, Poincaré-duality, trace-formula and
-final chapters.
+- Thm [sk-thm-sf-package] (six-operations package): the six operations exist
+  on $\Dctf$ with the adjunctions $Lf^*\dashv Rf_*$ and $Rf_!\dashv Rf^!$.
+  They satisfy base change, the projection formula, $Rf_!\cong Rf_*$ for
+  proper $f$, the orientation $Rf^!\cong Lf^*(d)[2d]$ for smooth $f$, and
+  Verdier duality. Used in §[sec-trace-formula], §[sec-poincare-duality],
+  §[sec-purity-real-sheaves], §[sec-fourier-transform],
+  §[sec-deligne-laumon-a1], §[sec-deligne-laumon-general], §[sec-zeta-weil].
+- Thm [sk-thm-sf-ctf-stability] (stability of $\Dctf$): $Lf^*$, $\otimes^L$,
+  $\RHom$, $Rf_*$, $Rf_!$, $Rf^!$ and $\mathbb D_X$ all preserve the
+  constructible finite-Tor categories, with explicit Tor-amplitude bounds.
+  Used in §[sec-trace-formula], §[sec-poincare-duality],
+  §[sec-deligne-laumon-a1], §[sec-deligne-laumon-general].
+- Prop [sk-prop-sf-biduality-general] (general Verdier biduality):
+  $\mathbb D_Y=\RHom(-,Ra_Y^!\Lambda)$ is an anti-equivalence of
+  $\Dctf(Y,\Lambda)$ with $\mathbb D_Y\mathbb D_Y\cong\mathrm{id}$. Used in
+  §[sec-trace-formula], §[sec-poincare-duality], §[sec-purity-real-sheaves],
+  §[sec-deligne-laumon-a1], §[sec-zeta-weil].
+- Thm [sk-thm-sf-kunneth-verdier] (Künneth–Verdier):
+  $M\boxtimes\mathbb D_YN\xrightarrow{\sim}\RHom(p_Y^*N,Rp_X^!M)$ for
+  $M\in\Dctf(X,\Lambda)$, $N\in\Dctf(Y,\Lambda)$. Used in
+  §[sec-trace-formula], §[sec-deligne-laumon-a1].
 
-This is the brief blueprint of the six-functor step. In the compiled
-blueprint the six-functor chapter is a single long chapter whose opening
-node axiomatizes the six operations and proves the formal core from the
-axioms. Read as a *summary* the content is an enumeration, and that is
-the form given here:
+**References.**
 
-2pt
-1. §§ *Objects and notation* fixes the objects and *only* the objects:
-coefficient stages, *the ambient categories and their small
-subcategories*, the six operations *with their source and target
-categories*, the exchange and projection transformations, the admissibility
-hypothesis and the orientation *interface*. Every descent of an
-operation to a small category is a theorem, enumerated in a typing table
-([sk-rem-sf-typing]): no preservation property is built into a definition.
-1. §§ *What the earlier chapters prove* enumerates the properties that the earlier chapters
-of the blueprint prove. Each is stated as a proposition with a proof that
-names the statements proving it (compact-support base change, the
-pro-étale comparison, finiteness, Künneth, existence of the exceptional
-right adjoint, preservation for $Rf^!$, general biduality, and the four
-independent statements of the trace layer). Four properties are *not* restated here, being proved in
-this document: proper base change is [sk-thm-properbasechange]
-(§[sec-proper-base-change]), smooth base change is
-[sk-thm-smooth-base-change] (§[sec-smooth-base-change]), and the
-compactification package is [sk-thm-nagata-compactification] together with
-[sk-prop-nagata-sketch-comp-category]
-(§[sec-nagata-compactification]) and the coherence, composition and
-proper-coincidence statements of §§ *What this section proves*; and smooth purity is
-[sk-thm-smooth-purity] with [sk-prop-cohsm] and
-[sk-thm-purity-transport] (§[sec-smooth-purity]). All four are cited
-directly. Nothing in this subsection is assumed: every one of them is a
-theorem of this blueprint.
-1. §§ *What this section proves* proves, in this section, the coherence of the
-compact-support functor (refinement comparisons, the composition law, proper
-coincidence), the projection formula at
-every coefficient stage together with its coherence, the formal core, the
-rotation of the input face of the duality theorems, the relative product
-theorem, the stability of the finite-Tor subcategories, the two
-finite-Tor cells (direct image, internal Hom), and the Künneth–Verdier
-isomorphism with the exceptional and external-Hom comparisons it rests on. Each carries an idea-proof.
-1. §§ *The final proposition* states the final proposition — the six-operations
-package — and proves it by assembling the propositions of §§ *What the earlier chapters prove*
-and §§ *What this section proves*; a dependency figure and a ledger of what is conditional
-follow.
-
-Separation of conclusions is respected: every node below is a separate
-statement, and the steps that may split into very many statements carry a
-qualitative **split marker**.
+- Stacks Project: `0F1N`, `0F1J`, `0F1P` (Künneth formula); `09AK`, `0990`,
+  `0991` (pro-étale site, étale-origin complexes); `095M` (constructible
+  sheaves as quotients of $j_{V!}\Lambda_V$); `0656`, `07VI` (perfect
+  complexes over a regular ring); `03Q7`, `03PK` (strictly henselian stalks,
+  Kummer classes); `0BFH`, `0BF9` (multiplication covers of an elliptic
+  curve, used in a counterexample).
+- SGA 4, XVII, §5.2 (projection formula and base change).
+- P. Deligne, *SGA 4½*, Ch. 5 (Dualité) 1.1–1.2 and Ch. 7 (Théorèmes de
+  finitude) 4.1–4.6 (biduality).
+- SGA 5, III, 1.1 and 1.6.4 (Künneth formula); the Künneth–Verdier
+  isomorphism follows the SGA 5 route.
+- Varshavsky / SGA 5: normal-cone inputs to fixed-point localization, which
+  the trace layer takes as explicit hypotheses.

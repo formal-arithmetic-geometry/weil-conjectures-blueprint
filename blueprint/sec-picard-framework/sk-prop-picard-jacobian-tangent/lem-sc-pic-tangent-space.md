@@ -4,26 +4,29 @@ kind = "lemma"
 title = "The tangent space of the Picard scheme"
 order = 847
 uses = ["def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-picard-functor", "lem-sc-cech-spectral", "thm-pc-picard-representable"]
-lean = ["AlgebraicGeometry.nonempty_tangentSpaceAt_equiv_H_one"]
+lean = ["AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one"]
 +++
-Let $C$ be a smooth projective
-curve over a separably closed field $k$ which is
-geometrically integral, and let
-$\operatorname{Pic}_{C/k}$ be
-the Picard functor, represented by a
-group scheme locally of finite type over $k$ (which it is by
-[thm-pc-picard-representable]). Then
-the tangent space of $\operatorname{Pic}_{C/k}$ at the identity
-is canonically isomorphic to $H^1(C,\mathcal O_C)$ as a
-$k$-vector space (a $k$-linear isomorphism).
+Let $k$ be a separably closed field and $C$ a scheme over $k$ which
+is smooth of relative dimension $1$, proper and geometrically integral
+over $k$ (for instance a geometrically integral smooth projective curve).
+Let $J$ be a group scheme over $k$ representing the degree-zero part
+$\operatorname{Pic}^0_{C/k}$ of the Picard functor
+$\operatorname{Pic}_{C/k}$, with the group structure induced by that of
+$\operatorname{Pic}^0_{C/k}$. Then the tangent space of $J$ at the unit is
+isomorphic to $H^1(C,\mathcal O_C)$ as a $k$-vector space.
 
 ## Proof
 
-The tangent space classifies first-order deformations of the
+Let $k[\varepsilon]=k[x]/(x^2)$. The tangent space of $J$ at the unit is
+$T_e=\ker(J(k[\varepsilon])\to J(k))$, and since $J$ represents
+$\operatorname{Pic}^0_{C/k}$ it classifies first-order deformations of the
 trivial line bundle, i.e. line bundles on
-$C_{k[\varepsilon]}:=C\times_kk[\varepsilon]$,
-$\varepsilon^2=0$, reducing to the trivial bundle modulo
-$\varepsilon$. Cover $C$ by affine opens $\{U_i\}$. Over
+$C_{k[\varepsilon]}:=C\times_kk[\varepsilon]$ reducing to the trivial
+bundle modulo $\varepsilon$ (with the normalization of
+[def-sc-picard-functor]); such a bundle automatically has degree $0$, the
+degree being locally constant in families over the connected
+$\operatorname{Spec}k[\varepsilon]$, so the degree-zero condition is
+automatic. Cover $C$ by affine opens $\{U_i\}$. Over
 $U_i$, every deformation of the trivial bundle is the trivial
 bundle (a module over $\mathcal O(U_i)[\varepsilon]$ that is
 projective of rank one and reduces to $\mathcal O(U_i)$ is
@@ -50,7 +53,7 @@ the affine Cech computation of
 
 This bijection is $k$-linear for the $k$-vector space structure of
 the tangent space
-$T_e=\ker(\operatorname{Pic}_{C/k}(k[\varepsilon])\to\operatorname{Pic}_{C/k}(k))$:
+$T_e$:
 addition is the group law, i.e. the tensor product of line bundles,
 whose transition functions multiply,
 $(1+\varepsilon a)(1+\varepsilon b)=1+\varepsilon(a+b)$ (this agrees

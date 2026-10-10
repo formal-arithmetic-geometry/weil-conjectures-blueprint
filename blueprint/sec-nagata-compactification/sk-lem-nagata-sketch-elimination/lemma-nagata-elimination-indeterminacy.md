@@ -6,24 +6,21 @@ order = 229
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap"]
 uses = ["cor-nagata-blowup-product-common-refinement", "cor-nagata-conrad-proper-target-extension", "def-nagata-admissible-blowup", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-composition-of-blowups-comparison", "def-nagata-constructible-closed-support", "def-nagata-dense-compactification", "def-nagata-elimination-indeterminacy", "def-nagata-global-blowup", "def-nagata-qc-open-complement-ideal", "def-nagata-scheme-image-comparison", "def-nagata-strict-transform", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-over-open", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-blowup-proper", "lemma-nagata-composition-center-ideal", "lemma-nagata-composition-extended-ideal-equality", "lemma-nagata-constructible-closed-support", "lemma-nagata-dense-flat-pullback", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent", "thm-nagata-composition-of-blowups", "thm-nagata-conrad-elimination", "thm-nagata-global-blowup-proper"]
 +++
-The morphism $X^{\mathrm{el}}(q,U)\to X$ is $U$-admissible, and the
-constructed strict-transform projection
-$q^{\mathrm{el}}\colon Z^{\mathrm{el}}(q,U)\to X^{\mathrm{el}}(q,U)$ is
-an open immersion.
-
-This is exactly the formalised statement: the identification of the
-restriction of $q^{\mathrm{el}}$ over $U$ with the original chosen
-isomorphism $q^{-1}(U)\cong U$ is *not* asserted here, because it is
-already supplied to every consumer by
-[lemma-nagata-strict-transform-over-complement], which identifies the
-part of any strict transform lying over the preserved open with the ordinary
-base change.
+Let $X$ be qcqs, let $U\subseteq X$ be a quasi-compact open, and let
+$q\colon Z\to X$ be separated and of finite type such that
+$q^{-1}(U)\to U$ is an isomorphism. Then there is a $U$-admissible
+blow-up $X'\to X$ such that the strict transform $Z'\to X'$ of $Z$ is an
+open immersion.
 
 ## Proof
 
-Admissibility is [lemma-nagata-admissible-blowup-comp], as recorded in
-[def-nagata-elimination-indeterminacy]. For the open immersion, write
-$X'=X^{\mathrm{el}}(q,U)$ and $Z'=Z^{\mathrm{el}}(q,U)$.
+Fix an isomorphism $e_U\colon q^{-1}(U)\xrightarrow{\sim}U$ over $U$ (the
+inverse of the given isomorphism) and form the construction of
+[def-nagata-elimination-indeterminacy]; write $X'=X^{\mathrm{el}}(q,U)$ and
+$Z'=Z^{\mathrm{el}}(q,U)$. The blow-up $X'\to X$ is $U$-admissible by
+[lemma-nagata-admissible-blowup-comp], as recorded in
+[def-nagata-elimination-indeterminacy]. It remains to show that the
+strict transform $q^{\mathrm{el}}\colon Z'\to X'$ is an open immersion.
 
 The quasi-domination $(W,\widetilde s)$ supplied by
 [thm-nagata-conrad-elimination] pulls back along the domination

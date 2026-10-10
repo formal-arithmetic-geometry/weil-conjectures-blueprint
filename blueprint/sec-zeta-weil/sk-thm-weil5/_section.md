@@ -14,5 +14,3 @@ $\varepsilon=\pm1$ as in [sk-thm-fe].
 ## Proof
 
 This is [sk-thm-fe].
-
-Uses: [sk-thm-fe]

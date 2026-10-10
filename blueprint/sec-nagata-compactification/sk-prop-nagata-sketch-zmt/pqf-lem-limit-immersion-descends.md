@@ -11,8 +11,6 @@ quasi-compact $X_i$, and let $Y\to X$ be a morphism of $S$-schemes
 which is a closed immersion, with $Y$ locally of finite type over
 $S$. Then the composite $Y\to X\to X_i$ is a closed immersion for
 all sufficiently large $i$.
-(*Stacks Project, Limits of Schemes, Lemma 32.4.16 (1)*,
-[Tag 081B](https://stacks.math.columbia.edu/tag/081B).)
 
 ## Proof
 

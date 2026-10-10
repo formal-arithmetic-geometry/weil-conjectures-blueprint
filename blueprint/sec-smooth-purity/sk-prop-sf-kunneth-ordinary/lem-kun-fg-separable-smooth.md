@@ -8,11 +8,6 @@ Let $L/K$ be a finitely generated separable extension of fields. Then $L$
 is a filtered colimit of finitely generated smooth $K$-algebras, and the
 colimit may be taken over smooth $K$-subalgebras of $L$ with the inclusions
 as transition maps.
-(*Source:* the finitely generated case of Stacks Project, Algebra, Lemma
-10.158.11, [Tag `07BV`](https://stacks.math.columbia.edu/tag/07BV);
-the general separable case is deduced from it in
-[lem-kun-separable-smooth-colimit], and the algebraic case is proved there
-in [lem-kun-algebraic-separable-smooth].)
 
 ## Proof
 

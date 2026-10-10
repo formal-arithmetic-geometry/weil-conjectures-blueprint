@@ -16,7 +16,6 @@ Its image after forgetting support is
 $c_1(\mathcal O_T(D))$. For any base change under which
 the pullback divisor remains Cartier, the map pulls back to
 the corresponding map for that divisor.
-The notation refers to Kummer connecting maps, and Tate twists.
 
 ## Proof
 

@@ -8,10 +8,10 @@ lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.trace_globalOperator_eq_
 +++
 *Corollary (sketch).*
 
-Let $X$ be proper over $s$, $K\in D^b_{ctf}(X,A)$, and let
-$(C,c,u)$ have proper ordinary leg $c_2$.
-With compact cohomology, its
-global operator satisfies
+Let $s$ be the spectrum of a field, $X$ proper over $s$, $K\in D^b_{ctf}(X,A)$,
+and let $(C,c,u)$ be an endocorrespondence on $(X,K)$ with proper ordinary leg
+$c_2$ and with $\Fix(c)$ proper over $s$. Assume that $R\Gamma_c(X,K)$ is
+perfect (dualizable). Then its global operator on compact cohomology satisfies
 
 $$
 \hyperref[sk-d-trace]{\tr_A}\bigl(T_c(u)\mid R\Gamma_c(X,K)\bigr)
@@ -28,5 +28,3 @@ and apply [sk-p-proper]. By composition of adjunctions in
 On fixed supports the pushforward is [sk-d-integral].
 The point normalization in [sk-p-pairing] identifies the pushed trace
 class with the ordinary trace of that operator.
-
-Uses: [sk-d-corr], [sk-d-integral], [sk-d-operator], [sk-d-proper-pushforward], [sk-d-six], [sk-d-trace-class], [sk-d-trace], [sk-p-pairing], [sk-p-proper], [sk-thm-sf-package]

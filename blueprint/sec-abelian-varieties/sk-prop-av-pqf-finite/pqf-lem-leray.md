@@ -13,9 +13,6 @@ E_2^{p,q}=\mathrm H^p\bigl(Y,R^qf_*\mathcal F\bigr)
 \quad\Longrightarrow\quad \mathrm H^{p+q}(X,\mathcal F).
 $$
 
-(*Stacks Project, Cohomology of Sheaves, Lemma 20.13.4, Tag
-[01F2](https://stacks.math.columbia.edu/tag/01F2).*)
-
 ## Proof
 
 Apply the Grothendieck spectral sequence

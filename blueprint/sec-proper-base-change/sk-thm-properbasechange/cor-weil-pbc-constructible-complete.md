@@ -16,15 +16,6 @@ $$
 $$
 for every $K\in\Dbc(X_{\Proet},A)$.
 
-*Source note:* the isomorphism is Stacks Project, Pro-etale Cohomology,
-Theorem 61.30.1 ([Tag 09C9](https://stacks.math.columbia.edu/tag/09C9)) with
-$K$ satisfying its conditions, and the category $\Dbc(T_{\Proet},A)$ is that
-of Definition 61.29.1 ([Tag
-09C1](https://stacks.math.columbia.edu/tag/09C1)); the blueprint adds the
-restriction of the tower-level theorem to $\Dbc(X_{\Proet},A)$, with the
-amplitude bookkeeping proved in
-[prop-weil-pbc-preservation-constructible].
-
 ## Proof
 
 The isomorphism of [thm-weil-pbc-complete-proetale] exists for every derived

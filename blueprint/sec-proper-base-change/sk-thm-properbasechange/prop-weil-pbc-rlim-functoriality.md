@@ -21,18 +21,6 @@ $$
 is a triangulated functor, and any two such choices of functorial K-injective
 resolutions give isomorphic functors.
 
-(*Source note:* functoriality of the derived limit is contained in Stacks
-Project, Derived Categories, Definition 13.34.1 (Tag
-[08TC](https://stacks.math.columbia.edu/tag/08TC)), whose triangle is natural
-in the system, and the functorial K-injective resolutions fixed here are
-those of Theorem 19.12.6 (Tag
-[079P](https://stacks.math.columbia.edu/tag/079P)) together with the
-existence statement of Lemma 13.34.3 (Tag
-[0BK7](https://stacks.math.columbia.edu/tag/0BK7)). What Stacks does not
-state, and what the blueprint adds, is the resulting assignment
-$D(\operatorname{Tow}_A(T))\to D(T_{\Proet},A)$ as a triangulated functor,
-together with the comparison of any two choices of functorial resolutions.)
-
 ## Proof
 
 In a Grothendieck abelian category every complex admits a functorial

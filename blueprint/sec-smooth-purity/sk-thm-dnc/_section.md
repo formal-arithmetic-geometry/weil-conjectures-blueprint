@@ -51,5 +51,3 @@ extending $\kappa^{\circ}$. Restricting at $t=0$ and using
 [sk-lem-geometry] (1) gives the displayed isomorphism; uniqueness is again
 [sk-prop-a1-inv] (i). Base change and étale localization are those of
 [sk-lem-geometry] (5).
-
-Uses: [sk-def-purity-conv], [sk-lem-geometry], [sk-prop-a1-inv], [sk-prop-an], [sk-prop-cohsm]

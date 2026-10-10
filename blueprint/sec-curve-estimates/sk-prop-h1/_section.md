@@ -42,5 +42,3 @@ image of $\mathcal O_C(C)^\times$, which is the cokernel
 $\mathcal O_C(C)^\times/\mathcal O_C(C)^{\times n}$ of the $n$-th power map.
 This is the short exact sequence; when the $n$-th power map is surjective
 its first term vanishes.
-
-Uses: [sk-def-kummer], [sk-def-pic], [sk-prop-kummer-exact]

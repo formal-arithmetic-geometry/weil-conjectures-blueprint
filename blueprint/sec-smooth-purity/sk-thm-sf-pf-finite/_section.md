@@ -28,5 +28,3 @@ agreeing on $P=\Lambda$ (the unit identification), and the class of $P$ for
 which the map is an isomorphism is closed under finite sums, shifts, cones and
 direct summands. Hence all geometric stalks of the cone vanish, and geometric
 stalks are conservative on the étale site.
-
-Uses: `\Cref{sk-def-sf-exchanges}`, `def-compact-support-direct-image-detailed`, `lem-weil-finite-compact-projection-formula`

@@ -10,21 +10,39 @@ lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_isPullback_of_genericFibre"
 
 Let $S$ be a qcqs integral normal scheme with generic point $\eta$,
 let $C\to S$ be a qcqs smooth morphism with geometrically connected
-fibres, and fix a section $\sigma:S\to C$. Let $Z\to C_\eta$ be a
-finite étale Galois cover with group $G$, assume $|G|$ is
-invertible on $S$, and assume $Z$ carries a $\kappa(\eta)$-rational
-point above $\sigma(\eta)$. Then there is a finite étale Galois
-cover $\widetilde Z\to C$ with group $G$ whose restriction to
-$C_\eta$ is the given cover $Z\to C_\eta$.
+fibres, and fix a section $\sigma:S\to C$. Let $M$ be a finite abelian
+group with $|M|$ invertible on $S$, let $Z\to C_\eta$ be an $M$-torsor,
+i.e. a finite étale Galois cover with group $M$ (not necessarily
+connected), and assume $Z$ carries a $\kappa(\eta)$-rational
+point above $\sigma(\eta)$. Then there is an $M$-torsor
+$\widetilde Z\to C$ whose restriction to $C_\eta$ is the given torsor
+$Z\to C_\eta$: there is an $M$-equivariant morphism $Z\to\widetilde Z$
+over $C_\eta\to C$ making the resulting square Cartesian.
 
 ## Proof
 
-This is 0EZJ; the five steps below are the argument, which the
-detailed blueprint now carries in full at
-sbc-thm-spreading-finite-etale-galois. The tame structure results
-(0EYG, 0EYH, 0EYI) and the purity and depth-two
-extension results (0EYE, 0EY6, 0EY9) are quoted
-classical inputs; what is proved here is the assembly.
+This is Stacks, Fundamental Groups of Schemes, Lemma 58.31.9 (0EZJ).
+The tame structure results (0EYG, 0EYH, 0EYI) and the purity and
+depth-two extension results (0EYE, 0EY6, 0EY9) are quoted classical
+inputs; what is proved here is the assembly.
+
+*Reduction to a connected cover.* The generic fibre $C_\eta$ is connected,
+the fibres of $C\to S$ being geometrically connected. Let $Z_0\subseteq Z$
+be a connected component and $G\subseteq M$ its stabiliser. Then
+$Z_0\to C_\eta$ is a connected finite étale Galois cover with group $G$, and
+$Z\cong M\times^GZ_0$ is the torsor induced from it; $|G|$ divides $|M|$, so
+it is invertible on $S$. The fibre $Z_{\sigma(\eta)}$ is a disjoint union of
+copies of $\Spec\kappa(\eta)$, since it has a rational point and $M$ acts
+simply transitively; $Z_0\to C_\eta$ is finite étale and surjective onto the
+connected $C_\eta$, so $Z_0$ has a point over $\sigma(\eta)$, and that point
+is $\kappa(\eta)$-rational. If $\widetilde Z_0\to C$ is a Galois cover with
+group $G$ extending $Z_0$, then $\widetilde Z=M\times^G\widetilde Z_0$ is an
+$M$-torsor on $C$, and the $M$-equivariant map
+$Z\cong M\times^GZ_0\to M\times^G\widetilde Z_0$ makes the square with
+$C_\eta\to C$ Cartesian. So it suffices to treat a connected Galois cover
+$Z\to C_\eta$ with group $G$, $|G|$ invertible on $S$, with a
+$\kappa(\eta)$-rational point over $\sigma(\eta)$; the five steps below do so.
+They do not use that $G$ is abelian.
 
 *Limit reduction.* For $S$ Noetherian the statement is
 0EYJ. In general write the qcqs integral normal $S$ as a
@@ -103,13 +121,3 @@ union of copies of $V$; hence $Y'\times_C\Spec B^\wedge$ is split and
 $Y'\to C$ is étale where it had to be. Spreading $Y'$ out over a
 slightly larger open of $S$ (0BQ5, 0EY3)
 contradicts the maximality of $U$, so $U=S$.
-
-*Scope of the Lean statement.* Only the case of an abelian group
-$G=M$ is used by the smooth base change proof, and only that case is
-stated in Lean, as an extension of $M$-torsors in the sense of
-[sk-prop-input-torsors]. Neither the uniqueness of the extension nor
-connectedness of the extended cover is asserted: the torsors that
-[sk-thm-vanishing] spreads are those attached to an arbitrary class in
-$H^1$, which need not be connected.
-
-Uses: [sk-def-smooth], `sbc-thm-spreading-finite-etale-galois`

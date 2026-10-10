@@ -34,16 +34,6 @@ $$
 and analogous isomorphisms for pullback. Under these isomorphisms, scalar
 extension of the $E$-exchange map is the $E'$-exchange map.
 
-*Source:* the coherent scalar-extension package for finite coefficient
-fields, i.e. the coefficient-extension formalism of derived complete torsion
-coefficients: the exactness is the flatness of a finite field extension, and
-the associators, shift comparisons and the direct-image and pullback
-compatibilities are the standard derived-tensor-associativity and
-projection-formula identifications of the formalism, as in Milne, *Lectures
-on Etale Cohomology*, Section 19 (finiteness theorems; sheaves of
-$\mathbf Z_\ell$-modules); no Stacks Project tag is recorded for this
-package.
-
 ## Proof
 
 This is the recorded input of the statement, the coherent scalar-extension

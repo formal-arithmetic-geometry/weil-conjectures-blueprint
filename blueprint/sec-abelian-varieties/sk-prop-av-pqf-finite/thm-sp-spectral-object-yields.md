@@ -53,10 +53,6 @@ sequence of complexes for $p\leq q\leq r$. Then:
   cohomology concentrated in degrees $[p,p+1]$, then $E_r^{p,q}=0$ unless
   $p\geq0$ and $q\geq0$, and the entries stabilize for $r>\max(p,q)+1$.
 
-**Status.** This is the standard spectral sequence of a bounded filtered
-complex, proved from the chapter's own exact-couple machinery; the user of an
-earlier page formula, [thm-sp-if-e1], has been rewired accordingly.
-
 ## Proof
 
 Step 1: the exact couple. The short exact sequences $0\to F^{p+1}K^\bullet\to

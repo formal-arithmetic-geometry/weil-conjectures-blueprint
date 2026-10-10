@@ -7,14 +7,16 @@ order = 2776
 uses = ["cor-wf-unramified-boundary-purity", "def-a1-constituent-nonexceptional", "def-fd-transform", "def-weil-punctual-weights", "def-wf-determinantal-weight", "def-wf-iota-real", "def-wf-middle-extension", "fin2-lem-lisse-dense-open", "lem-a1-constituent-nonexceptional-comparison", "lem-fd-constituent-nonexceptional-concentration", "lem-fd-realified-kernel-real", "lem-fd-realness-pushforward", "prop-a1-fourier-middle-extension", "prop-fd-zero-extension-comparison", "rem-dl-a1-conventions", "thm-rp-real-lisse-purity-affine"]
 lean = ["AlgebraicGeometry.exists_isPunctuallyPureOfWeight_of_isFourierPartner"]
 +++
-In the conventions of [rem-dl-a1-conventions], let
+In the conventions of [rem-dl-a1-conventions], let $\psi$ be a
+nontrivial additive character of $k_0$, let
 $j:U_0\hookrightarrow A_0=\mathbf A^1_{k_0}$ be a dense open immersion
 and let $\mathcal M$ be a nonzero irreducible lisse Weil sheaf on $U_0$
-which is constituent-nonexceptional in the sense of
+(irreducible among lisse Weil sheaves: its only lisse Weil subsheaves are
+$0$ and $\mathcal M$) which is constituent-nonexceptional in the sense of
 [def-a1-constituent-nonexceptional] and punctually $\iota$-pure of
-weight $w$. Let $j':U'_0\hookrightarrow A'_0$ and the nonzero irreducible
-lisse Weil sheaf $\mathcal M'$ on $U'_0$ be those of
-[prop-a1-fourier-middle-extension], so that
+weight $w$. Let $j':U'_0\hookrightarrow A'_0$ be a dense open immersion
+into the dual line and $\mathcal M'$ a lisse Weil sheaf on $U'_0$
+(such data exist by [prop-a1-fourier-middle-extension]) with
 
 $$
 \operatorname{FT}_\psi\bigl((j_*\mathcal M)[1]\bigr)\cong(j'_*\mathcal M')[1].
@@ -70,11 +72,23 @@ $$
 \mathcal H|_{V'_0}\twoheadrightarrow\mathcal M'|_{V'_0}.
 $$
 
-The restriction $\mathcal M'|_{V'_0}$ is nonzero and irreducible: the
-Weil group of the dense open $V'_0$ of the normal connected curve
-$U'_0$ surjects onto that of $U'_0$ (the corresponding surjectivity of
-étale fundamental groups for a dense open of a normal connected scheme,
-SGA 1, Exp. V, 8.2), so the invariant subspaces are the same. Refining
+The restriction $\mathcal M'|_{V'_0}$ is nonzero and irreducible, after
+shrinking $V'_0$. Indeed, [prop-a1-fourier-middle-extension] also
+supplies a dense open $j'':U''_0\hookrightarrow A'_0$ and a nonzero
+irreducible lisse Weil sheaf $\mathcal M''$ on $U''_0$ with
+$\operatorname{FT}_\psi\bigl((j_*\mathcal M)[1]\bigr)\cong(j''_*\mathcal M'')[1]$.
+Hence $(j'_*\mathcal M')[1]\cong(j''_*\mathcal M'')[1]$, so
+$j'_*\mathcal M'\cong j''_*\mathcal M''$ (take $\mathcal H^{-1}$), and
+restricting to $V'_0\cap U''_0$, where both middle extensions restrict
+to the lisse sheaves themselves, gives
+$\mathcal M'|_{V'_0\cap U''_0}\cong\mathcal M''|_{V'_0\cap U''_0}$.
+Replace $V'_0$ by the dense open $V'_0\cap U''_0$. The restriction of the
+nonzero irreducible lisse sheaf $\mathcal M''$ to this dense open is
+again nonzero and irreducible: the Weil group of a dense open of the
+normal connected curve $U''_0$ surjects onto that of $U''_0$ (the
+corresponding surjectivity of étale fundamental groups for a dense open
+of a normal connected scheme, SGA 1, Exp. V, 8.2), so the invariant
+subspaces are the same. Refining
 the kernel of this epimorphism to a composition series of
 $\mathcal H|_{V'_0}$ shows that $\mathcal M'|_{V'_0}$ is an irreducible
 constituent of $\mathcal H|_{V'_0}$, which is lisse and $\iota$-real

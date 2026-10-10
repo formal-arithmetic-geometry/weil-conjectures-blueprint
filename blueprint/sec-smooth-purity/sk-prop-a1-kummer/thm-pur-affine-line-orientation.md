@@ -32,13 +32,7 @@ open-complement condition of
 with the shift $[2]$ and the twist
 $(1)$. Its restriction to every geometric point $\bar y\to Y$ is
 the normalized class $1\in H^2_{s(\bar y)}(\mathbf A^1_{\bar y},\Lambda(1))$ of
-[thm-pur-rank-one-local-calculation]. (Source: the affine-line
-case of cohomological purity, obtained from the Kummer sequence and the
-fundamental class of the zero section; Milne, Lectures on Etale
-Cohomology, Section 16, Theorems 16.1 and 16.7, and Proposition 16.11
-(the case $r=2c-1=1$ of the Gysin sequence of the divisor), with the
-acyclicity of the affine line computed in Example 16.3, for the
-relative form over a base scheme $Y$.)
+[thm-pur-rank-one-local-calculation].
 
 ## Proof
 

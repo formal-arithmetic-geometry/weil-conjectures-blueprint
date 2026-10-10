@@ -10,8 +10,6 @@ finite locally free morphism and let $V$
 be a scheme over $X$ such that $V\to X$ is
 projective. Then every
 descent datum on $V$ over $X/Y$ is effective.
-This is Stacks Project, Groupoid Schemes, Lemma 39.25.3, Tag
-[0CCJ](https://stacks.math.columbia.edu/tag/0CCJ).
 
 ## Proof
 

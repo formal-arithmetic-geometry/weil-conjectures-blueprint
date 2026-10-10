@@ -6,11 +6,9 @@ order = 824
 uses = ["def-pc-derived-category", "def-pc-f-subfunctor", "def-pc-pic-sigma-functor", "def-pc-subfunctor", "def-sc-invertible-module", "lem-pc-flat-rf-open", "lem-pc-rf-base-change-flat-module", "lem-pc-smooth-flat"]
 lean = ["AlgebraicGeometry.isOpenImmersion_picardFunctorInvertibleDirectImage_ι"]
 +++
-(Picard Schemes of Curves, Lemma 44.6.2, Tag
-[0B9V](https://stacks.math.columbia.edu/tag/0B9V).)
-Let $k$ be a field, let $X$ be a
-smooth projective curve over
-$k$ with a $k$-rational point $\sigma$, and let
+Let $k$ be a separably closed field, let $X$ be a $k$-scheme which is
+proper, smooth of relative dimension $1$ and geometrically integral over
+$k$, with a $k$-rational point $\sigma$, and let
 $F\subseteq\operatorname{Pic}_{X/k,\sigma}$ be the
 subfunctor
 

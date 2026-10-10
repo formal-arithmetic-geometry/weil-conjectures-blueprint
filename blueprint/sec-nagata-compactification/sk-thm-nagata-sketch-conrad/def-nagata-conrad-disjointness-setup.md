@@ -5,11 +5,6 @@ title = "The disjointness situation (Conrad)"
 order = 207
 uses = ["def-nagata-global-blowup", "def-nagata-scheme-theoretic-image"]
 +++
-**Status.** Bypassed by the formalized route: Deligne's disjointness blow-up
-is formalized as the single statement
-`AlgebraicGeometry.disjoint_closure_range_of_blowupMap_sup`,
-which absorbs this step.
-
 Consider open immersions $i\colon U\to V$ and $j\colon V\to X$, a morphism
 $p\colon Z\to X$, a scheme $Y$ over $U$, and a quasi-compact immersion
 $f\colon Y\to Z$ over $X$, so that the square

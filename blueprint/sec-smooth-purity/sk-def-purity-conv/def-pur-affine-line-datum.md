@@ -51,13 +51,7 @@ whose boundary map $\mathbf G_m(Y)\cong H^0(\mathbf G_{m,Y},\mathbf G_m) \to H^1
 $t\in\Gamma(\mathbf G_{m,Y},\mathbf G_m)$, followed by the coefficient
 extension $H^1(-,\mu_{\ell^N})\to H^1(-,A(1))$ induced by the canonical
 isomorphism $A(1)\cong\mu_{\ell^N}\otimes_{\mathbf Z/\ell^N}A$ of
-[lem-pur-finite-kummer-level]. (The naive tensor
-$\mathbf G_m\otimes_{\mathbf Z/\ell^N}A$ of the Kummer sequence is not
-defined at the level of sheaves: $\mathbf G_m$ is not a sheaf of
-$\mathbf Z/\ell^N$-modules, as it contains elements of order not
-dividing $\ell^N$; the $A$-coefficient form of the sequence is the
-one obtained by extending coefficients on the $\mu_{\ell^N}$-term and
-taking the connecting map, as above.) Equivalently, in *torsor
+[lem-pur-finite-kummer-level]. Equivalently, in *torsor
 form*: the $\ell^N$-th root of the coordinate defines the finite etale
 scheme
 
@@ -67,12 +61,7 @@ $$
 $$
 
 whose structure map $\mathcal T_t\to\mathbf G_{m,Y}$ is finite etale of
-degree $\ell^N$ – the quotient is of finite presentation; $T_0$ is a
-unit (the relation $T_0^{\ell^N}=t$ with $t$ a unit); and the
-derivative $\ell^N T_0^{\ell^N-1}$ is a unit because $\ell^N$ is
-invertible in the base field $k$ of [def-pur-conventions]
-($\ell\neq p$ there) and $T_0$ is a unit, so the monogenic etale
-criterion applies – and the multiplication of
+degree $\ell^N$, and the multiplication of
 $T_0$ by an $\ell^N$-th root of unity makes $\mathcal T_t$ a right
 $\mu_{\ell^N,\mathbf G_{m,Y}}$-torsor; with $A$-coefficients,
 $\mathcal T_t\otimes_{\mathbf Z/\ell^N}A$ is a right
@@ -85,3 +74,19 @@ the exceptional inverse
 image along the zero section are written $R^r s^!(-)$, and the
 supported cohomology of the pair $(s(Y),\mathbf A^1_Y)$ is that of
 [def-pur-support-cohomology].
+
+The naive tensor $\mathbf G_m\otimes_{\mathbf Z/\ell^N}A$ of the Kummer
+sequence is not defined at the level of sheaves: $\mathbf G_m$ is not a sheaf
+of $\mathbf Z/\ell^N$-modules, as it contains elements of order not dividing
+$\ell^N$; the $A$-coefficient form of the sequence is the one obtained by
+extending coefficients on the $\mu_{\ell^N}$-term and taking the connecting
+map, as above.
+
+## Proof
+
+The structure map $\mathcal T_t\to\mathbf G_{m,Y}$ is finite etale of degree
+$\ell^N$: the quotient is of finite presentation; $T_0$ is a unit (the
+relation $T_0^{\ell^N}=t$ with $t$ a unit); and the derivative
+$\ell^N T_0^{\ell^N-1}$ is a unit because $\ell^N$ is invertible in the base
+field $k$ of [def-pur-conventions] ($\ell\neq p$ there) and $T_0$ is a unit,
+so the monogenic etale criterion applies.

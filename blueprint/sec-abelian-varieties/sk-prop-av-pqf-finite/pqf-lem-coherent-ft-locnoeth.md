@@ -9,8 +9,6 @@ Let $X$ be a
 locally Noetherian scheme and
 $\mathcal F$ an $\mathcal O_X$-module. Then $\mathcal F$ is coherent
 if and only if it is quasi-coherent of finite type.
-(*Stacks Project, Cohomology of Schemes, Lemma 30.9.1, Tag
-[01XZ](https://stacks.math.columbia.edu/tag/01XZ).*)
 
 ## Proof
 

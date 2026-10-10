@@ -20,7 +20,6 @@ $$
 $$
 
 for every $p\geq0$.
-(*Stacks Project, Lemma 59.51.7, [Tag `09Z1`](https://stacks.math.columbia.edu/tag/09Z1).*)
 
 ## Proof
 

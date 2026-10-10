@@ -11,8 +11,7 @@ connected finite etale cover $P$ the stabilizer in $\pi_1(Y,\bar y)$ of a
 point of $P_{\bar y}$ is a bijection between the isomorphism classes of
 connected finite etale covers of $Y$ and the open subgroups of
 $\pi_1(Y,\bar y)$, and the degree of $P$ over $Y$ is the index of the
-subgroup. (This is the form used without citation in the proof of the
-finite-monodromy lemma of the smooth base change chapter.)
+subgroup.
 
 ## Proof
 

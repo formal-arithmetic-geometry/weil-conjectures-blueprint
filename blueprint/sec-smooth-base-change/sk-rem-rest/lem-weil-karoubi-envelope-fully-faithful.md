@@ -15,17 +15,6 @@ $$
 
 is fully faithful.
 
-(*Source note:* no Stacks Project entry states this form: Stacks does not
-construct the Karoubi envelope (Homological Algebra, Section 12.4, Tag
-[09SF](https://stacks.math.columbia.edu/tag/09SF), states the Karoubian
-property in Definition 12.4.1, Tag
-[09SG](https://stacks.math.columbia.edu/tag/09SG), and characterizes it in
-Lemma 12.4.2, Tag [09SH](https://stacks.math.columbia.edu/tag/09SH)), hence
-states no full faithfulness for the inclusion of a category in its envelope;
-the blueprint adds the elementary verification that the canonical functor is
-bijective on morphism sets, which is what the bounded-t-structure argument
-below uses to read an equivalence off full faithfulness.)
-
 ## Proof
 
 By [def-weil-karoubi-envelope] the objects of $\Kar(\mathcal T)$ are the

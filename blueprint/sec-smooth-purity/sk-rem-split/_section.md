@@ -13,8 +13,7 @@ the Kummer sequence and the cohomological-dimension bound of §[sec-curve-estima
 orientation itself derived in [sk-prop-a1]; the Künneth and
 frame-independence arguments (the Thom class is the $\Aaf^1$-class written in
 coordinates) — inside [sk-prop-an]; the geometry of the deformation of a
-*section* — [sk-lem-geometry], used by [sk-thm-dnc] and through it
-by [sk-thm-smooth-purity]. Purity for regular closed immersions
+*section* — [sk-lem-geometry]. Purity for regular closed immersions
 ([sk-thm-regular]) is *not* one of the moves: it is a consequence of
 [sk-thm-smooth-purity] for the two structure morphisms together with the
 co-projection [sk-lem-coprojection], and the deformation to the normal cone

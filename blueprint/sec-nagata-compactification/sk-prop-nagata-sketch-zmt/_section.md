@@ -7,15 +7,10 @@ lean = ["AlgebraicGeometry.Scheme.Hom.exists_isOpenImmersion_isAffineHom_of_loca
 +++
 *Proposition (sketch).*
 
-Let $S$ be qcqs.
-
-2pt
-1. **(i)** *(Zariski's Main Theorem.)* A separated, finite-type,
-everywhere quasi-finite morphism $f:X\to S$ factors as
-$X\xrightarrow{j}T\xrightarrow{p}S$ with $j$ a quasi-compact open immersion
-and $p$ finite; if $f$ is locally of finite presentation, $T$ may be taken
-finite and of finite presentation over $S$. In particular $f$ is
-quasi-affine.
+1. **(i)** *(Zariski's Main Theorem.)* A separated, quasi-compact,
+locally quasi-finite morphism $f:X\to S$ locally of finite type factors as
+$X\xrightarrow{j}T\xrightarrow{p}S$ with $j$ an open immersion and $p$
+affine.
 1. **(ii)** Let $X$ be a quasi-affine *scheme* (a quasi-compact
 open subscheme of an affine scheme; equivalently,
 $X\to\operatorname{Spec}\Gamma(X,\mathcal O_X)$ is a quasi-compact open
@@ -35,16 +30,19 @@ quasi-affine source, so the hypothesis is then automatic.)
 (i) Let $N_f$ be the normalization of $S$ in $X$, i.e. the relative
 integral closure $\nu_f:N_f\to S$ with
 $\nu_{f*}\mathcal O_{N_f}$ the integral closure of $\mathcal O_S$ in
-$f_*\mathcal O_X$. Then $\nu_f$ is integral, and because $f$ is everywhere
-quasi-finite the canonical $\iota_f:X\to N_f$ is a quasi-compact open
-immersion — this is the classical form of the theorem, 02LR, with
-the quasi-finite-locus input 03GW. Writing $\nu_f$ as a filtered
-limit of finite morphisms and using quasi-compactness of $\iota_f(X)$, the
-open immersion already factors through a finite stage $T\to S$, which gives
-the stated factorization (05F7, with the finite-presentation
-refinement 0F2N). Since a finite morphism is affine, $T\to S$ is
-affine, and an open immersion into an affine $S$-scheme is quasi-affine over
-$S$; hence $f$ is quasi-affine.
+$f_*\mathcal O_X$ (this is a quasi-coherent $\mathcal O_S$-algebra because
+$f$ is quasi-compact and separated, hence quasi-compact and
+quasi-separated). By construction $\nu_f$ is integral, in particular
+affine, and $f$ factors as $f=\nu_f\circ\iota_f$ through the canonical
+morphism $\iota_f:X\to N_f$. It remains to see that $\iota_f$ is an open
+immersion. Both the formation of $N_f$ and the property of being an open
+immersion are local on $S$ (the normalization commutes with restriction to
+opens of $S$), so we may assume $S$ affine. Then $f$ is separated, of finite
+type and quasi-finite at every point, and Zariski's Main Theorem in the
+form 02LR, with the quasi-finite-locus input 03GW, says that the
+canonical morphism $X\to N_f$ to the normalization of $S$ in $X$ is an open
+immersion. Hence $f=\nu_f\circ\iota_f$ with $\iota_f$ an open immersion
+and $\nu_f$ affine.
 
 (ii) Put $R=\Gamma(X,\mathcal O_X)$, so that $X\to\operatorname{Spec}R$ is
 a quasi-compact open immersion and the affine opens $X_f$, $f\in R$, form

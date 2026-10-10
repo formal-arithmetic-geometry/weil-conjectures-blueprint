@@ -20,10 +20,6 @@ coefficient twists carry their
 prescribed Frobenius actions. These assertions concern the underlying
 operations and their algebraic maps; equivariance of a geometric
 smooth-purity orientation requires its separate theorem.
-(For finite coefficients, a scheme-Frobenius form of the $Rf_!$
-comparison, which also applies to non-invertible Frobenius coefficient
-morphisms, is constructed later in [def-trf-weil-shriek-pushforward];
-it is not used here.)
 
 ## Proof
 

@@ -6,15 +6,6 @@ order = 157
 tags = ["latex:proposition"]
 uses = ["def-nagata-strict-transform", "def-nagata-strict-transform-closed-chart-model", "lemma-nagata-strict-transform-chart-closed", "lemma-nagata-strict-transform-chart-cocycle", "lemma-nagata-strict-transform-chart-localization-data"]
 +++
-**Status.** Bypassed by the formalized route: the strict transform is
-supplied by the API of
-`WeilConjectures/Compactification/StrictTransform.lean` —
-`AlgebraicGeometry.strictTransform`, its closed immersion
-`AlgebraicGeometry.Scheme.IdealSheafData.isClosedImmersion_pullbackLift_blowup_comap`,
-and the pullback square
-`AlgebraicGeometry.isPullback_strictTransformOpen` — so the
-strict-transform chart rings and their cocycle are never assembled by hand.
-
 Under the data of
 [def-nagata-strict-transform-closed-chart-model], the constructed chart
 model $Y^{\mathrm{st}}_{\mathrm{chart}}$ is a closed

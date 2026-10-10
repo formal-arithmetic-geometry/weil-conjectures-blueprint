@@ -25,7 +25,3 @@ $$
 
 The product is coefficientwise locally finite: modulo $T^{m+1}$, only
 closed points of degree at most $m$ occur.
-
-**Status.** Both displayed identities are formalized and proved in Lean, over
-$\mathbf Q$. The integrality assertion
-$Z(Y_0,T)\in1+T\mathbf Z[[T]]$ is not part of either Lean statement.

@@ -14,7 +14,6 @@ $K_\bullet=(K_n,t_{n+1,n})_{n\ge1}$ with $K_n\in D^b_{ctf}(X,A_n)$
 for $j\le n$, and *uniform* if the $K_n$ share a cohomological range and
 Tor amplitude.
 
-3pt
 1. **(i)** *Realization.* For a normalized uniform system the derived
 limit $K_{\mathcal O_E}=R\varprojlim_nK_n$ is derived complete, lies in the
 same range, and satisfies
@@ -55,11 +54,6 @@ system — a lattice — and every $E$-stage morphism is $\varpi^{-N}u$ for
 an integral $u$ and some $N$. The $\overline{\mathbf Q}_\ell$-stage is the filtered colimit over
 finite $E/\mathbf Q_\ell$, so each of its objects and morphisms is already represented
 at a finite stage.
-
-These are the realization statements of
-Bhatt–Scholze (§§6.5, 6.8; for the rationalization step (iii), 6.8.14 with
-6.8.12–6.8.13) and, for the perfect towers over the point in (ii),
-[Stacks, Tag 09AW](https://stacks.math.columbia.edu/tag/09AW).
 
 ## Proof
 
@@ -149,5 +143,3 @@ from the localized $t$-structure; transport of exact functors and of natural
 transformations is their $\mathcal O_E$-linearity. For $\overline{\mathbf Q}_\ell$, a filtered
 colimit of categories has every object and every morphism represented at a
 finite stage, and two representatives agree after a further finite extension.
-
-Uses: [sk-d-setup], [sk-d-six], [sk-d-weil], [sk-def-sf-weil-complexes], [sk-p-trace-coeff], [sk-prop-sf-trace-perfectness], [sk-thm-sf-ctf-stability]

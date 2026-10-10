@@ -17,16 +17,6 @@ in degrees $-1$ and $0$, in the sense of
 holds for $\mathcal O_E/\varpi^n$ over the ring of integers $\mathcal O_E$ of
 a finite extension $E/\Ql$.
 
-(*Source note:* perfectness is that of Stacks Project, More on Algebra,
-Definition 15.76.1 (Tag
-[0657](https://stacks.math.columbia.edu/tag/0657)): an object of $D(R)$ is
-perfect if it is quasi-isomorphic to a bounded complex of finite projective
-$R$-modules, so the displayed two-term complex of finite free $A$-modules
-presents $P_n$ as a perfect complex. Stacks states the definition for a ring
-$R$; the form used here is the same notion for $A=\Zl$ and $A=\mathcal O_E$
-with $P_n=A/I^n$, and [def-weil-pbc-adic-coefficient-datum] additionally
-requires each $P_n$ to be finite as a set.)
-
 ## Proof
 
 A uniformizer is a non-zero-divisor in a complete discrete valuation ring, so

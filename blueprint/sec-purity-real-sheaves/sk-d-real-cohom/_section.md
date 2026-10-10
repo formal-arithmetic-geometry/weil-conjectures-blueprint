@@ -29,5 +29,3 @@ $$
 
 Locally finite means that only finitely many factors contribute to any
 fixed coefficient; there are finitely many closed points of bounded degree.
-
-Uses: [sk-d-real-operations], [sk-d-real-setup], [sk-d-real-weights], [sk-d-real-weil]

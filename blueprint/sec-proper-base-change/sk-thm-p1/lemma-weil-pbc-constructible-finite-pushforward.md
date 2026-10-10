@@ -5,14 +5,14 @@ title = "Constructible sheaves reduce to finite pushforwards"
 order = 1132
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-constructible-finite-pushforward-approximation", "lemma-weil-pbc-constructible-approximation"]
 +++
-If $U$ is quasi-compact and quasi-separated, every constructible torsion
-sheaf $C$ admits a monomorphism
+If $U$ is quasi-compact and quasi-separated and $C$ is constructible torsion
+on $U_{\Et}$, there is a monomorphism
 
 $$
-C\longrightarrow\bigoplus_{i=1}^r(h_i)_*\underline{M_i},
+ C\hookrightarrow\bigoplus_{i=1}^m(h_i)_*\underline{M_i},
 $$
 
-where each $h_i:V_i\to U$ is finite and finitely presented and each $M_i$ is
+where every $h_i:V_i\to U$ is finite and finitely presented and every $M_i$ is
 a finite abelian group.
 
 ## Proof
@@ -48,25 +48,10 @@ $$
 by the dense-open unit in the first component and restriction to $Z$ in the
 remaining components. At a geometric point of $V$ the first component is
 injective, and at a geometric point of $Z$ the second block is injective, so
-the combined map is monic. This is the localization induction, including
-the boundary and overlap comparison. Pull the finite diagram and monomorphism
+the combined map is monic. Pull the finite diagram and monomorphism
 back to $U$. Etale inverse image is exact, and finite direct image commutes
 with this pullback by the finite geometric-stalk product formula. This gives
-the displayed monomorphism and expands Tag `09Z7`.
-
-## Detailed form
-
-If $U$ is quasi-compact and quasi-separated and $C$ is constructible torsion
-on $U_{\Et}$, there is a monomorphism
-
-$$
- C\hookrightarrow\bigoplus_{i=1}^m(h_i)_*\underline{M_i},
-$$
-
-where every $h_i:V_i\to U$ is finite and finitely presented and every $M_i$ is
-a finite abelian group.
-
-## Proof
+the displayed monomorphism.
 
 Apply [lem-weil-pbc-constructible-finite-pushforward-approximation] to $U$ and
 $C$. The finite maps obtained there are finite over the Noetherian

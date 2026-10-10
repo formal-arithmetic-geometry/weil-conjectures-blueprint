@@ -13,9 +13,6 @@ $E\in\Dplus(T_{\Et})$ have cohomology sheaves whose stalks are
 torsion of orders invertible in $K$, and let $E_L$ be the pullback
 of $E$ to $(T_L)_{\Et}$. Then $Rg_{L,*}E_L$ is the pullback of
 $Rg_*E$ to $S_L$.
-(*Source:* Stacks Project,
-[Tag `0F1C`](https://stacks.math.columbia.edu/tag/0F1C); the proof
-below follows the reduction recorded there.)
 
 ## Proof
 

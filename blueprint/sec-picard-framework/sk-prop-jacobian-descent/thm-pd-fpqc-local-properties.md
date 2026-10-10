@@ -10,17 +10,6 @@ such that $Z_K=Z\times_kK$, the base change of
 $Z$, is of finite type and smooth over
 $K$, proper over $K$, and connected.
 Then $Z$ is of finite type and smooth over $k$, proper over $k$, and connected.
-The corresponding statements, together with the case of a faithfully flat
-morphism that is merely locally of finite presentation, are Stacks Project,
-Descent, Section 35.23, Tag
-[02YJ](https://stacks.math.columbia.edu/tag/02YJ); for smoothness the
-precise statement is Lemma 35.23.29, Tag
-[02VL](https://stacks.math.columbia.edu/tag/02VL), for local finite
-presentation Lemma 35.14.3, Tag
-[02KL](https://stacks.math.columbia.edu/tag/02KL), and for smoothness
-along a faithfully flat morphism which is locally of finite presentation
-Lemma 35.14.5, Tag
-[05B5](https://stacks.math.columbia.edu/tag/05B5).
 
 ## Proof
 

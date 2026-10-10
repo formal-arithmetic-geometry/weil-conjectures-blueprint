@@ -13,8 +13,8 @@ $$
 \mu_n(U):=\{x\in\mathcal O_U(U):x^n=1\},\qquad U\to C\text{ etale},
 $$
 
-be the etale sheaf of $n$-th roots of unity. Given a root of unity
-$\zeta\in\mu_n(k)$, the *canonical trivialization associated
+be the etale sheaf of $n$-th roots of unity. Given a primitive $n$-th root of
+unity $\zeta\in\mu_n(k)$, the *canonical trivialization associated
 to $\zeta$* is the isomorphism of etale sheaves
 
 $$

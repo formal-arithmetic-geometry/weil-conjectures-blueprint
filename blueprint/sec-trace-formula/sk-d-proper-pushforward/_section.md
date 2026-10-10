@@ -8,9 +8,11 @@ lean = ["AlgebraicGeometry.ProEtale.ProperPushforwardDiagram"]
 +++
 *Definition (sketch).*
 
-Let $(C,c,u)$ be an endocorrespondence on $(X,K)$ and
-let $b=(b_1,b_2):D\to Y\times Y$. A proper pushforward diagram consists
-of proper $f:X\to Y$, $g:C\to D$ with $b_i g=fc_i$ for $i=1,2$.
+Let $(C,c,u)$ be an endocorrespondence on $(X,K)$. A proper pushforward
+diagram consists of a scheme $Y$ over $s$, a proper $s$-morphism $f:X\to Y$,
+a scheme $D$ over $s$ with $s$-morphisms $b=(b_1,b_2):D\to Y\times Y$, where
+$b_1$ is compactifiable and $Rb_{1!}$ has a right adjoint $b_1^!$, and a proper
+morphism $g:C\to D$ with $b_i g=fc_i$ for $i=1,2$ (and $b_1g$ compactifiable).
 Put $K'=Rf_*K$. Using the adjunctions and composition maps, set
 
 $$
@@ -35,10 +37,8 @@ $$
 b_2^*K'\longrightarrow b_1^!K'.
 $$
 
-The relations induce $h:\Fix(c)\to\Fix(b)$. For proper $h$, the
+The relations induce $h:\Fix(c)\to\Fix(b)$, the restriction of $g$. For proper $h$, the
 proper pushforward of the trace class is
 $h_*\Tr_c(u):A_{\Fix(b)}\to\omega_{\Fix(b)}$, using the
 Borel–Moore pushforward.
 No Cartesian condition on either leg square enters these constructions.
-
-Uses: [sk-d-corr], [sk-d-integral], [sk-d-six], [sk-d-trace-class]

@@ -15,12 +15,6 @@ f^{-1}g_*\mathcal F=h_*e^{-1}\mathcal F
 $$
 
 for any sheaf $\mathcal F$ on $T_{\Et}$.
-(*Stacks Project, Etale Cohomology, Section 59.87 (Base change
-for pushforward), [Tag `0EYS`](https://stacks.math.columbia.edu/tag/0EYS) = Lemma 59.87.2; the proof combines
-Lemma 59.87.1, [Tag `0EZX`](https://stacks.math.columbia.edu/tag/0EZX), with More on Morphisms, Lemma
-37.46.3, [Tag `0EY5`](https://stacks.math.columbia.edu/tag/0EY5): the connected components of the fibres
-correspond under the base change, and direct image is computed by the
-would-be equalizer of the section descriptions.*)
 
 ## Proof
 

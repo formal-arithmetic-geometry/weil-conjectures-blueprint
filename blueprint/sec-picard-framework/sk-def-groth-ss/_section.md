@@ -8,27 +8,33 @@ lean = ["CategoryTheory.Functor.IsAcyclicComposablePair", "CategoryTheory.Spectr
 *Definition (sketch).*
 
 Let $\mathcal A\xrightarrow{\,F\,}\mathcal B\xrightarrow{\,G\,}\mathcal C$
-be additive left exact functors between Grothendieck abelian categories,
-so that all three have enough injectives and the right derived functors
-$R^nF$, $R^nG$, $R^n(G\circ F)$ are computed on injective resolutions.
-An object $B\in\mathcal B$ is *$G$-acyclic* if $R^qG(B)=0$ for
+be additive functors, where $\mathcal A$ and $\mathcal B$ are Grothendieck
+abelian categories (so they have enough injectives and the right derived
+functors $R^nF$, $R^nG$, $R^n(G\circ F)$ are computed on injective
+resolutions) and $\mathcal C$ is
+abelian. An object $B\in\mathcal B$ is *$G$-acyclic* if $R^qG(B)=0$ for
 $q>0$, and $(F,G)$ is a *composable pair with acyclicity* if $F(I)$
 is $G$-acyclic for every injective $I\in\mathcal A$.
 
-For a first-quadrant double complex $D^{\bullet,\bullet}$ in
-$\mathcal C$, let $\operatorname{Tot}(D)$ be its total complex.
-Filtering $\operatorname{Tot}(D)$ by either degree gives a bigraded exact
-couple, and its derived couples give the two spectral sequences of $D$;
-both abut to $H^\bullet(\operatorname{Tot}D)$ with the image filtration
+Let $E$ be a first-quadrant cohomological spectral sequence in
+$\mathcal C$ starting at $E_2$, and put
+$E_\infty^{p,q}:=E_{p+q+2}^{p,q}$ (from this page on the differentials
+into and out of $(p,q)$ vanish). An *abutment* of $E$ to a family of
+objects $(H^n)_{n\geq0}$ of $\mathcal C$ is a decreasing filtration of
+each $H^n$ by subobjects
 
 $$
-F^pH^n=\operatorname{im}\bigl(H^n(F^p\operatorname{Tot}D)
-\longrightarrow H^n(\operatorname{Tot}D)\bigr),
+H^n=F^0H^n\supseteq F^1H^n\supseteq\cdots\supseteq F^{n+1}H^n=0
 $$
 
-which in the first quadrant is finite in each degree, so that convergence
-is automatic. (Blueprint 05,
-`def-sp-composite-acyclicity`, `def-sp-exact-couple`,
-`def-sp-image-filtration`, `def-sp-convergence`; the
-étale substitution $\mathcal A=\mathrm{Ab}(X_{\Et})$, $F=f_*$, $G=h_*$
-is `def-sp-etale-dictionary`.)
+such that $F^pH^n/F^{p+1}H^n\cong E_\infty^{p,q}$ whenever $p+q=n$.
+
+For a first-quadrant double complex $D^{\bullet,\bullet}$ in $\mathcal C$,
+let $\operatorname{Tot}(D)$ be its total complex. Filtering
+$\operatorname{Tot}(D)$ by either degree gives a bigraded exact couple,
+and its derived couples give the two spectral sequences of $D$. The image
+filtration
+$F^pH^n=\operatorname{im}\bigl(H^n(F^p\operatorname{Tot}D)\to
+H^n(\operatorname{Tot}D)\bigr)$ is an abutment of each of the two spectral
+sequences of $D$ to $H^\bullet(\operatorname{Tot}D)$; in the first quadrant
+it is finite in each degree, so convergence is automatic.

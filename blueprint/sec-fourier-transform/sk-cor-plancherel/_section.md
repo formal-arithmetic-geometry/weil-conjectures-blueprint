@@ -18,8 +18,6 @@ $$
 =q^n\sum_{x\in\mathbf F_{q^n}}\bigl|\iota\,t_K(x)\bigr|^2 .
 $$
 
-(Blueprint cor:fd-plancherel.)
-
 ## Proof
 
 Apply $\iota$ to the finite Fourier sum of P8, multiply by its complex
@@ -37,5 +35,3 @@ transported by $\iota$) makes the inner $y$-sum $q^n$
 on the diagonal and $0$ off it, which is the identity. This is the classical
 Plancherel theorem for the finite group $(\mathbf F_{q^n},+)$, transported to
 trace functions; no weight enters.
-
-Uses: [sk-lem-orthogonality], [sk-thm-fourier-trace-formula]

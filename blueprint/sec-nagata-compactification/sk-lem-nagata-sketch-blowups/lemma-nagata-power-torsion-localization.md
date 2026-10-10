@@ -6,9 +6,14 @@ order = 141
 lean = ["Submodule.localized'_powTorsion"]
 uses = ["def-nagata-power-torsion", "lemma-nagata-power-torsion-kernel-localization", "lemma-nagata-power-torsion-submodule"]
 +++
-Let $s\in R$. Under localization at $s$, the image of
-$\Gamma_{(a)}(M)$ is
-$\Gamma_{(a/1)}(M_s)$.
+Let $R$ be a ring, $M$ an $R$-module, $a\in R$, and let $S\subseteq R$ be a
+multiplicative subset. Under the localization map $M\to S^{-1}M$, the
+localization of $\Gamma_{(a)}(M)$ is the power-torsion submodule of
+$S^{-1}M$ for the image of $a$:
+
+$$
+S^{-1}\Gamma_{(a)}(M)=\Gamma_{(a/1)}(S^{-1}M).
+$$
 
 ## Proof
 
@@ -16,28 +21,6 @@ Localize the kernel description in
 [lemma-nagata-power-torsion-kernel-localization]. Localization is flat,
 so it preserves this kernel. The iterated localization $(M_s)_{a/1}$ is
 canonically $M_{sa}$.
-
-## Detailed form
-
-Let $R$ be a ring, $N$ an $R$-module, and $a,s\in R$. Under the canonical
-localization map one has
-
-$$
-\operatorname{im}\!\left(\Gamma_{(a)}(N)\to N_s\right)
-=\Gamma_{(a/1)}(N_s),
-$$
-
-and consequently a canonical isomorphism
-
-$$
-(N/\Gamma_{(a)}(N))_s
-\;\xrightarrow{\sim}\;
-N_s/\Gamma_{(a/1)}(N_s).
-$$
-
-These isomorphisms commute with successive localization at $s$ and $t$.
-
-## Proof
 
 The power-torsion submodule is the kernel of the map
 $N\to N_a$ by

@@ -6,6 +6,6 @@ order = 2582
 uses = ["def-galois-object"]
 +++
 In the notation of [def-galois-object], the following holds. The description of Galois covers by the
-degree is [lem-galois-axioms], and their description as the
+degree is [lem-galois-axioms], and the Galois covers are exactly the
 connected Galois objects of the Galois category
-$\mathrm{F\acute Et}(Y)$ is *Galois covers are the connected Galois objects*.
+$\mathrm{F\acute Et}(Y)$.

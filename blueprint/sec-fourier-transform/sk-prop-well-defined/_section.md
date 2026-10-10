@@ -8,9 +8,12 @@ uses = ["sk-def-ft", "sk-prop-kernel-lisse"]
 +++
 *Proposition (sketch).*
 
-For every $K\in\Dbc(V,E)$ one has $\FT_\psi(K)\in\Dbc(V^\vee,E)$, and
-$\FT_\psi:\Dbc(V,E)\to\Dbc(V^\vee,E)$ is an exact triangulated functor.
-(Blueprint thm:fd-transform-well-defined.)
+Let $\Lambda$ be a finite commutative ring in which $p$ is invertible and
+whose exponent is invertible on $S$, let $p_2$ be of finite type and
+admit a compactification, and let $V'$ be locally of finite type over a
+field. For every $K\in\Dbc(V,\Lambda)$ one has
+$\FT_\psi(K)\in\Dbc(V',\Lambda)$, so $\FT_\psi$ restricts to a functor
+$\Dbc(V,\Lambda)\to\Dbc(V',\Lambda)$.
 
 ## Proof
 
@@ -21,5 +24,3 @@ derived tensor product and the compact-support direct image along the
 separated finite-type $p_2$ are exact triangulated functors on their
 constructible and finite-Tor domains, and they preserve bounded
 constructible objects; the shift $[r]$ does too.
-
-Uses: [sk-def-ft], [sk-prop-kernel-lisse]

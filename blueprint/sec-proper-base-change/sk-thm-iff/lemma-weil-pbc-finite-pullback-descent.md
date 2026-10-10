@@ -3,15 +3,28 @@ id = "lemma-weil-pbc-finite-pullback-descent"
 kind = "lemma"
 title = "Finite descent compatibility"
 order = 1083
+lean = ["AlgebraicGeometry.Etale.globalSectionsUpperStarMap_descent"]
 uses = ["def-weil-pbc-finite-section-pullback", "lemma-weil-pbc-finite-pullback-closed-fibre", "lemma-weil-pbc-finite-pullback-composition"]
 +++
-Let $u:T'\to T$ be finite surjective. Suppose $s'\in(u^{-1}F)(T')$ is
-equipped with a descended section $s\in F(T)$, meaning
-$u_T^\sharp(s)=s'$. Then the same equality holds after restriction to a
-closed fibre.
+Let $u:T'\to T$ be a morphism of schemes (in the applications finite
+surjective) and $G$ an etale sheaf on $T$ (with values in $\mathcal A$ as in
+[def-weil-pbc-finite-section-pullback]). Suppose $x'\in\Gamma(T',u^{-1}G)$ is
+equipped with a descended section $x\in\Gamma(T,G)$, meaning $u^\sharp(x)=x'$
+(more generally, $x$ and $x'$ may be morphisms from an arbitrary object $M$ of
+$\mathcal A$ to the global sections). Then the same equality holds after
+restriction to a closed fibre: for every commutative square $u\circ a=i\circ b$
+as in [lemma-weil-pbc-finite-pullback-closed-fibre],
+
+$$
+a^\sharp(x')=\Gamma(\theta)\bigl(b^\sharp(i^\sharp(x))\bigr),
+$$
+
+with $\theta:b^{-1}i^{-1}G\cong a^{-1}u^{-1}G$ the square isomorphism.
 
 ## Proof
 
-The first equality is the descent witness. Its closed-fibre restriction is
-the equality supplied by Lemma
-[lemma-weil-pbc-finite-pullback-closed-fibre].
+The equality $u^\sharp(x)=x'$ is the descent witness. Applying $a^\sharp$ to it
+gives $a^\sharp(x')=a^\sharp(u^\sharp(x))$, and the right-hand side equals
+$\Gamma(\theta)(b^\sharp(i^\sharp(x)))$ by
+[lemma-weil-pbc-finite-pullback-closed-fibre]. The composition lemma
+[lemma-weil-pbc-finite-pullback-composition] is what that equation rests on.

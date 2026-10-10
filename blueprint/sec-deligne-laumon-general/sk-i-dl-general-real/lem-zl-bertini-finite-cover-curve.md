@@ -3,15 +3,20 @@ id = "lem-zl-bertini-finite-cover-curve"
 kind = "lemma"
 title = "Curves through prescribed points preserving a finite cover"
 order = 2830
+lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_connectedSpace_pullback"]
 uses = ["def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties"]
 +++
-Let $k$ be an algebraically closed field, let $X$ be a smooth
-connected affine $k$-scheme of dimension $d\geq2$, let
-$T\to X$ be a connected finite etale cover, and let $S\subset X(k)$
-be a nonempty finite set. There is a smooth connected closed affine
-curve $C\subset X$ containing $S$ such that $T\times_X C$ is
-connected. If $k=\overline{\mathbf F}_q$, the curve and its inclusion
-are defined over a finite extension of $\mathbf F_q$.
+Let $X_0$ be a smooth, geometrically connected, affine scheme of
+relative dimension $d\geq2$ over a finite field $k_0=\mathbf F_q$, let
+$k=\overline{\mathbf F}_q$ and $X=X_0\times_{k_0}k$, let $T\to X$ be a
+finite etale morphism with $T$ connected, and let $S\subset X(k)$ be a
+nonempty finite set. There are a smooth connected affine curve $C$ over
+$k$ and a closed immersion $i:C\hookrightarrow X$ whose image contains
+$S$, such that $T\times_X C$ is connected and $C$ is defined over a
+finite extension $\mathbf F_{q^m}$, $m\ge1$: there is an automorphism
+$\varphi$ of $C$ with $i\circ\varphi=(\mathrm{id}_{X_0}\times\sigma)^m\circ i$,
+where $\mathrm{id}_{X_0}\times\sigma$ is the geometric Galois Frobenius
+of $X$.
 
 ## Proof
 
@@ -25,7 +30,9 @@ We spell out the geometric input. We use the ordinary Bertini lemmas
 These are statements about schemes and linear systems, with no weight
 or monodromy hypothesis.
 
-Embed $X$ in projective space and let $\overline X$ be its
+Since $X_0$ is smooth, geometrically connected and affine of relative
+dimension $d$, the base change $X$ is a smooth connected affine
+$k$-scheme of dimension $d$. Embed $X$ in projective space and let $\overline X$ be its
 projective closure. For a sufficiently large $n$, let $V$ be
 the space of sections of $\mathcal O_{\overline X}(n)$ vanishing
 on the reduced finite subscheme $S$. Tag 0FD5 makes its base locus
@@ -67,8 +74,11 @@ of dimension $d-1$, contains $S$, and its inverse image $T_1$
 is connected and finite etale over it. Repeat this construction until
 dimension one. In dimension two the same argument applies, since
 the finite base locus still has codimension two. This proves the
-claim about $C$. Over $\overline{\mathbf F}_q$ all the finitely
-many defining equations and morphisms involve only finitely many
-coefficients, so descend to one finite constant-field extension.
+claim about $C$. All the finitely many defining equations and
+morphisms involve only finitely many coefficients of $k$, so they
+descend to one finite constant-field extension $\mathbf F_{q^m}$:
+$C=C_m\times_{\mathbf F_{q^m}}k$ for a closed subscheme $C_m$ of
+$X_0\times_{k_0}\mathbf F_{q^m}$. Then $\varphi=\mathrm{id}_{C_m}\times\sigma^m$
+is an automorphism of $C$ with $i\circ\varphi=(\mathrm{id}_{X_0}\times\sigma)^m\circ i$.
 Geometric smoothness and connectedness are the properties just proved
 after base change to $k$.

@@ -41,5 +41,3 @@ $(-1)^{i+1}=-1$ and odd exponents $+1$ gives
 $Z=\prod_{i\ \text{odd}}P_{i,\ell}\big/\prod_{i\ \text{even}}P_{i,\ell} =N_\ell/D_\ell$. The last assertion restates
 [sk-prop-rootpurity] root by root, the weights separating the factors
 uniquely because $q^{i/2}\ne q^{j/2}$ for $i\ne j$.
-
-Uses: [sk-def-cohfamily], [sk-def-roots], [sk-prop-rootpurity], [sk-thm-tracetodeterminant]

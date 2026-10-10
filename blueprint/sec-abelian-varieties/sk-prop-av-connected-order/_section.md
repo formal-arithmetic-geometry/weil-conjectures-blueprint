@@ -25,5 +25,3 @@ the Milnor–Moore structure theorem. By the restricted PBW theorem
 the ordered monomials $x_1^{a_1}\cdots x_r^{a_r}$, $0\le a_i<p$, form a
 $k$-basis of $u(\mathfrak g)$; hence
 $\lvert G\rvert=\dim_kA=\dim_ku(\mathfrak g)=p^r$.
-
-Uses: [sk-def-av-group-scheme]

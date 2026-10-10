@@ -32,7 +32,5 @@ Poincare pairing follow by the stated formal constructions. What is *not* formal
 axioms for the concrete coefficient system — for this blueprint,
 proper, smooth and compact-support base change, the compactification
 comparison, and the coefficient transports — and (ii) the orientation of
-item 5. In the compiled blueprint these are exactly where the open
-obligations live: the interface [fix-prop-projection-formula] (discharged in [thm-sf-pf-finite], [prop-sf-pf-reduction], [thm-sf-pf-adic], [thm-sf-pf-field], [thm-sf-pf-proetale] and [prop-sf-pf-coherence]), the base-change chapters, and the
-purity chapter. In this chapter the framework is axiomatized once, the
+item 5. In this chapter the framework is axiomatized once, the
 formal core is proved once, and the two non-formal inputs are supplied.

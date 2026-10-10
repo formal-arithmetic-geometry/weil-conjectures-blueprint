@@ -10,9 +10,6 @@ field and $X$ a scheme of finite type over $K$. Let $F$ be an
 abelian sheaf on $X_{\Et}$ whose support is contained in the set of
 closed points of $X$. Then $F$ is
 globally generated.
-(*Source:* Stacks Project, Tag
-[0F1F](https://stacks.math.columbia.edu/tag/0F1F), second
-assertion.)
 
 ## Proof
 

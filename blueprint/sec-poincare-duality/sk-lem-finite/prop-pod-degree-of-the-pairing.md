@@ -6,7 +6,7 @@ order = 2433
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-pod-derived-poincare-pairing"]
 +++
-In the Poincare duality conventions of this chapter (the fixed setting), let $\Lambda\in\{A,\mathcal O_E,E,\overline{\mathbf Q}_{\ell}\}$ and let $K\in D^b_{ctf}(X,\Lambda)$ be perfect over $\Lambda_X$. The shift convention $H^r(C[m])=H^{r+m}(C)$ identifies the degree-zero part of the derived pairing $\beta _K$ of Definition 9.17 with the pairings
+In the Poincare duality conventions of this chapter (the fixed setting), let $\Lambda\in\{A,\mathcal O_E,E,\overline{\mathbf Q}_{\ell}\}$ and let $K\in D^b_{ctf}(X,\Lambda)$ be perfect over $\Lambda_X$. The shift convention $H^r(C[m])=H^{r+m}(C)$ identifies the degree-zero part of the derived pairing $\beta _K$ of [def-pod-derived-poincare-pairing] with the pairings
 
 $$
 \langle -,-\rangle _i:\   H_c^i(X,K)\times H^{2d-i}\bigl(X,K^\vee (d)\bigr) \longrightarrow \Lambda \qquad (i\in \mathbf Z).

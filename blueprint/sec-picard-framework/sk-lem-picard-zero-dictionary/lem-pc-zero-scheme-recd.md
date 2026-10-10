@@ -3,24 +3,25 @@ id = "lem-pc-zero-scheme-recd"
 kind = "lemma"
 title = "The zero scheme of the adjoint section"
 order = 827
+lean = ["AlgebraicGeometry.isInvertible_zeroLocus_directImageCounit"]
 uses = ["cor-picard-degree-g", "def-pc-curve", "def-pc-degree-line-bundle", "def-pc-euler-characteristic", "def-pc-f-subfunctor", "def-pc-finite-locally-free", "def-pc-genus", "def-pc-rational-point", "def-pc-relative-effective-cartier", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-zero-scheme", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "lem-pc-cartier-criterion", "lem-pc-coherent-hi", "lem-pc-degree-base-change", "lem-pc-degree-zero-properties", "lem-pc-dim-base-change", "lem-pc-f-open-subfunctor", "lem-pc-flat-base-change-cohom", "lem-pc-proper-base-change", "lem-pc-rational-hyp", "lem-pc-recd-locally-principal", "lem-pc-rf-base-change-flat-module", "lem-pc-smooth-flat", "lem-pc-vanishing-above-dim", "lem-pc-zero-scheme-properties", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "prop-pc-xk-integral"]
 +++
-Let $k$ be a separably closed field,
-let $X$ be a smooth projective
-curve of
-genus $g$ over $k$ with a
-$k$-rational point $\sigma$. Let $T$ be
+Let $k$ be a field and let $X$ be a $k$-scheme which is proper, smooth of
+relative dimension $1$ and geometrically integral over $k$, of genus
+$g=\dim_kH^1(X,\mathcal O_X)$, with a $k$-rational point $\sigma$. Let $T$ be
 a scheme over $k$ and let
 $\mathcal{L}\in F(T)\subseteq\operatorname{Pic}_{X/k,\sigma}(T)$ (with $F$ as in
 [lem-pc-f-open-subfunctor]). Let $\mathcal{N}$ be an invertible
-$\mathcal{O}_T$-module with $Rf_{T,*}\mathcal{L}\cong\mathcal{N}[0]$, and let $s$ be the section
+$\mathcal{O}_T$-module with $Rf_{T,*}\mathcal{L}\cong\mathcal{N}[0]$ (for instance
+$\mathcal N=f_{T,*}\mathcal L$), and let $s$ be the section
 of $\mathcal{L}\otimes_{\mathcal{O}_{X_T}}f_T^*\mathcal{N}^{-1}$ corresponding to the adjunction
 map $f_T^*\mathcal{N}\to\mathcal{L}$ (via
 $\operatorname{Hom}(f_T^*\mathcal{N},\mathcal{L})\cong H^0(X_T,\mathcal{L}\otimes f_T^*\mathcal{N}^{-1})$,
 the tensor-Hom adjunction, $\mathcal{N}$ invertible). Then the
-zero scheme $D:=Z(s)$ is a
-relative effective Cartier
-divisor on $X_T/T$ which is finite locally free of degree $g$ over $T$.
+zero scheme $D:=Z(s)$, which is also the zero scheme of the adjunction
+map, is a relative effective Cartier divisor on $X_T/T$ (its ideal sheaf
+is invertible and $D\to T$ is flat) which is finite locally free of
+degree $g$ over $T$.
 
 ## Proof
 
@@ -51,10 +52,15 @@ $H^i(X_t,\mathcal{L}_t)=0$ for $i\ge2$ by [lem-pc-vanishing-above-dim],
 $\dim X_t=1$; the equality $H^0\cong\mathcal{N}_t$ also uses the canonical
 identification of $H^0$ of the complex $\mathcal{N}_t[0]$, [lem-pc-degree-zero-properties]).
 In particular $\dim_\kappa H^0(X_t,\mathcal{L}_t)=1$.
-Consider the identical analysis for $\mathcal{O}$: $X_t$ is a smooth projective
-curve over $\kappa$ with $H^0(X_t,\mathcal{O})=H^0(X,\mathcal{O})\otimes_k\kappa=\kappa$
-([lem-pc-flat-base-change-cohom] and
-[lem-pc-rational-hyp] plus [prop-pc-xk-integral]) and
+Consider the identical analysis for $\mathcal{O}$. First
+$H^0(X,\mathcal O_X)=k$: it is a finite $k$-algebra since $X$ is proper
+([lem-pc-coherent-hi]), and by flat base change
+([lem-pc-flat-base-change-cohom]) its base change to an algebraic closure
+$\bar k$ is $H^0(X_{\bar k},\mathcal O)$, a finite $\bar k$-algebra which is a
+domain because $X_{\bar k}$ is integral, hence equal to $\bar k$. So $X_t$ is
+proper and smooth of relative dimension $1$ over $\kappa$ with
+$H^0(X_t,\mathcal{O})=H^0(X,\mathcal{O})\otimes_k\kappa=\kappa$
+([lem-pc-flat-base-change-cohom]) and
 $\dim_\kappa H^1(X_t,\mathcal{O})=\dim_\kappa(H^1(X,\mathcal{O})\otimes_k\kappa)=g$
 ([lem-pc-flat-base-change-cohom], the genus being
 $\dim_kH^1(X,\mathcal{O})$, [def-pc-genus]); by
@@ -74,8 +80,7 @@ the statement, applied to the fibre data (with
 $Rf_{t,*}\mathcal{L}_t\cong\mathcal{N}_t[0]$), we have
 $H^0(X_t,\mathcal{M}_t)\cong\operatorname{Hom}(\mathcal{N}_t,H^0(X_t,\mathcal{L}_t))\cong\kappa$
 and $s_t$ corresponds to the identity endomorphism of $\mathcal{N}_t$, i.e. $s_t=1$ under these identifications). Since $X_t$ is integral
-([prop-pc-xk-integral] —the base change of a smooth projective
-curve over the separably closed field $k$ is integral), a non-zero
+($X$ being geometrically integral), a non-zero
 global section $s_t$ of an invertible module has non-zero stalk
 $s_{t,x}\neq0$ in $\mathcal{M}_{t,x}$ for every $x\in X_t$ (the restriction map
 $\mathcal{M}_{t,x}\hookrightarrow\mathcal{M}_{t,\eta}$ to the generic stalk is injective

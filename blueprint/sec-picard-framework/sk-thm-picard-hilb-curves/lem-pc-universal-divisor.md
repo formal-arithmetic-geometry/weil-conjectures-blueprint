@@ -5,8 +5,7 @@ title = "The universal divisor"
 order = 795
 uses = ["def-pc-divisor-line-bundle", "def-pc-hilb-functor", "def-pc-relative-effective-cartier", "def-sc-effective-cartier-divisor", "lem-pc-cartier-criterion", "lem-pc-recd-pullback", "thm-pc-hilb-curves"]
 +++
-(Picard Schemes of Curves, Remark 44.3.7, Tag
-[0B9J](https://stacks.math.columbia.edu/tag/0B9J).) Let $X$ be as
+Let $X$ be as
 in [thm-pc-hilb-curves] and let $d\geq0$. There is a relative
 effective Cartier divisor
 

@@ -7,24 +7,15 @@ lean = ["AlgebraicGeometry.ChowModification", "AlgebraicGeometry.ChowModificatio
 uses = ["def-nagata-affine-proj", "def-nagata-dense-compactification", "def-nagata-projective-space-base-change", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-chow-agree-on-dense-open", "lem-chow-closed-model", "lem-chow-glue", "lem-chow-graph", "lem-chow-preimage", "lem-chow-scheme-theoretic-closure", "lem-chow-segre", "lem-chow-tuple-immersion", "lem-weil-pbc-proper-closed-image", "lem-weil-pbc-proper-composition", "lem-weil-pbc-proper-immersion-closed", "lemma-nagata-dense-affine-cover-exists", "lemma-nagata-dense-flat-pullback", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-projective-space-base-change-proper", "lemma-nagata-projective-target-local", "lemma-nagata-scheme-image-ideal-qc"]
 +++
 Let $S$ be a noetherian scheme and let $f\colon X\to S$ be a separated morphism
-of finite type. Then there are an integer $n\geq0$, a scheme $X'$ over $S$, a
-morphism $\pi\colon X'\to X$ and an immersion $i\colon X'\to\mathbf P^n_S$ of
-$S$-schemes such that
+of finite type. Then there are a finite set $N$, a scheme $X'$, a
+morphism $\pi\colon X'\to X$ and an immersion $i\colon X'\to\mathbf P^N_S$
+into the projective space over $S$ with homogeneous coordinates indexed by $N$
+[def-nagata-projective-space-base-change], such that $i$ followed by the
+structure morphism $\mathbf P^N_S\to S$ equals $f\circ\pi$, and
 
 1. $\pi$ is proper and surjective, and
 1. there is a dense open subscheme $U\subseteq X$ such that
 $\pi^{-1}(U)\to U$ is an isomorphism.
-
-The formalisation makes $X'$, the index set of the homogeneous coordinates of
-the ambient projective space, $\pi$ and $i$ four separate definitions rather
-than existentially bound data, so that a consumer gets properness, surjectivity
-and the immersion property by typeclass inference; all four are read off a
-single auxiliary choice, `ChowModification.data`. Following
-[def-nagata-projective-space-base-change], $\mathbf P^n_S$ is
-$\mathbf P(N;S)$ for a finite type $N$ of homogeneous coordinates. Finally,
-[lem-chow-graph] needs the covering of Step 1 to be nonempty; this costs
-nothing, since $m=0$ happens only for $X$ empty, and one may then replace the
-covering by the one-element covering $\{X^{*}\}$.
 
 ## Proof
 
@@ -51,7 +42,9 @@ it is an isomorphism over $U$; so $\pi:=(X^{*}\to X)\circ\pi^{*}$ is proper and
 surjective, $U$ is a dense open subscheme of $X$, and
 $\pi^{-1}(U)=(\pi^{*})^{-1}(U)\to U$ is an isomorphism. We may therefore
 replace $X$ by $X^{*}$ and $U_i$ by $U_i^{*}$, and assume from now on that $U$
-is scheme-theoretically dense in $X$.
+is scheme-theoretically dense in $X$. (The covering may be assumed nonempty,
+as [lem-chow-graph] requires: $m=0$ happens only for $X$ empty, and one may then
+replace the covering by the one-element covering $\{X^{*}\}$.)
 
 *Step 3: the graph.* Apply [lem-chow-graph] to obtain immersions
 $j_i\colon U_i\to\mathbf P^{n_i}_S$, their closed models $Z_i$, the
@@ -86,19 +79,6 @@ immersion by [lem-chow-segre], gives a closed immersion
 $Z\to\mathbf P^N_S$. The subscheme $X'\subseteq Z$ is open, so the composition
 $i\colon X'\to\mathbf P^N_S$ is an immersion. Taking $n:=N$ completes the
 proof.
-
-## Detailed form
-
-In the situation of [lem-chow-glue], the morphism
-$\pi:X'\to X$ is proper and surjective, and
-
-$$
- \pi^{-1}(U)\xrightarrow{\sim}U
-$$
-
-is an isomorphism.
-
-## Proof
 
 *Properness of $\pi$.* By [lem-chow-preimage] the
 restrictions $\pi^{-1}(U_i)\to U_i$ are proper for every member of the finite

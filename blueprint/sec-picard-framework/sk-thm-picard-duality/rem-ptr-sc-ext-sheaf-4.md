@@ -5,7 +5,7 @@ title = "Pointer to the properties of [def-sc-ext-sheaf]"
 order = 690
 uses = ["def-sc-ext-sheaf", "lem-sc-ext-locally-free"]
 +++
-In the notation of [def-sc-ext-sheaf], the following holds. The
+In the notation of [def-sc-ext-sheaf], the
 long exact Ext sequence of a short exact sequence of
 $\mathcal O_X$-modules is the standard homological-algebra input
 here, and the identification of the higher Ext groups of a finite

@@ -11,8 +11,9 @@ For $K\in\Dbc(T_{\Proet},A)$ [def-weil-pbc-bounded-constructible-complete],
 with its canonical reduction tower $K_\bullet$ (uniformly bounded
 constructible with compatible etale-origin witnesses). *Assume that the
 Tor-compatibility condition (1) of [prop-weil-pbc-levelwise-truncations]
-holds for $K_\bullet$ above every level, equivalently that the cohomology
-sheaves of the local models are flat over $A_T$*, and define
+holds for $K_\bullet$ above every level* (this is the case, for instance,
+when the cohomology sheaves of the local models are flat over $A_T$), and
+define
 $$
  \tau^{\le m}K:=\Rlim\tau^{\le m}K_\bullet,\qquad
  \tau^{\ge m+1}K:=\Rlim\tau^{\ge m+1}K_\bullet,
@@ -50,25 +51,11 @@ $\tau^{\le m}K,\tau^{\ge m+1}K\in\Dbc(T_{\Proet},A)$, and:
    $$
    functorial in $K$.
 
-*Source note:* no Stacks Project entry states this form: the truncation
-functors of the derived complete category are built from the canonical
-truncations of complexes, Homological Algebra, Section 12.15 ([Tag
-0118](https://stacks.math.columbia.edu/tag/0118)), and their triangle,
-Remark 13.12.4 ([Tag 08J5](https://stacks.math.columbia.edu/tag/08J5)),
-neither of which knows a coefficient tower or a completeness condition on
-the middle term; the blueprint adds the construction of $\tau^{\le m}K$ and
-$\tau^{\ge m+1}K$ as derived limits of the levelwise truncation towers,
-together with their reductions, their cohomology and their truncation
-triangles.
-
 ## Proof
 
 Take the reduction tower and its local models. By
 [prop-weil-pbc-levelwise-truncations] (whose Tor-compatibility condition (1)
-holds here by the hypothesis of the statement, namely that the cohomology
-sheaves of the local models are flat over the discrete valuation ring $A_T$,
-equivalently $\varpi$-torsion-free, which is exactly the sufficient
-condition of that proposition), $\tau^{\le m}K_\bullet$ is an adic tower
+holds here by the hypothesis of the statement), $\tau^{\le m}K_\bullet$ is an adic tower
 which is uniformly bounded constructible and has compatible etale-origin
 witnesses, so by the reconstruction lemma for uniform towers its derived
 limit $\tau^{\le m}K$ is derived $I$-complete, has no cohomology outside the
@@ -91,9 +78,3 @@ isomorphisms being canonical), hence a triangle in
 $D(\operatorname{Tow}_A(T))$, whose image under the triangulated functor
 $\Rlim$ is the displayed triangle; its functoriality is inherited from the
 levelwise functoriality.
-
-The source records that audit item BC-03 was resolved for this theorem by
-defining $\tau^{\le m}K$ as the derived limit of the truncated tower and
-obtaining the reduction isomorphisms of (i) from the two reconstruction
-lemmas, rather than asserting that the ambient truncation commutes with
-reduction.

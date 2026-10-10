@@ -27,5 +27,3 @@ and evaluation gives $\sum_{i,a}(-1)^i\lambda_{ia}(v^ip_{ia})$.
 This is the asserted sum. The evaluation composite is unchanged when
 duality is transported along an isomorphism, by the triangle identities;
 in particular traces are invariant under conjugacy.
-
-Uses: [sk-d-trace]

@@ -15,6 +15,4 @@ class-restricted datum [def-sf-fullcd-class] supplied by
 [prop-sf-comparison-bound-zero], and the existence half, with its
 unit, counit and compactification comparisons, is
 [thm-sf-ambient-adjoint-class], both packaged as
-[cor-sf-ambient-adjoint-discharge] of the six-functor chapter; every
-statement of this manuscript that assumed this datum and quantifies only
-over those two categories has had the hypothesis removed.
+[cor-sf-ambient-adjoint-discharge] of the six-functor chapter.

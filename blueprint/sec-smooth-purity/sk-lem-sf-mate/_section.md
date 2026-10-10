@@ -22,9 +22,12 @@ adjunctions is an isomorphism of ambient functors
 $R(gf)^{\times}\cong Rf^{\times}Rg^{\times}:D(Z,\Lambda)\to D(X,\Lambda)$, and
 the unit and counit of $Rg_!Rf_!\dashv Rf^{\times}Rg^{\times}$ are the pasted
 ones; under the mate they are the unit and counit of
-$R(gf)_!\dashv R(gf)^{\times}$. (The datum is not available in general,
-[sk-rem-sf-fullcd-scope]; this clause is used nowhere below.)
-- **(b)** *Restricted form (unconditional).* For the constructible
+$R(gf)_!\dashv R(gf)^{\times}$.
+- **(b)** *Restricted form (unconditional).* On the small étale sites, for
+$f$, $g$ and $gf$ admitting compactifications, there is an isomorphism
+$R(gf)^{\times}\cong Rf^{\times}Rg^{\times}:D(Z_{\Et},\Lambda)\to D(X_{\Et},\Lambda)$
+between the right adjoints of the étale compact-support functors on the
+unbounded derived categories. For the constructible
 exceptional adjoints $Rf^!$, $Rg^!$, $R(gf)^!$ of [sk-def-sf-operations] (vi)
 — the functors $\nu^*f^{\times}R\nu_*$ of [sk-prop-sf-existence] (c),
 which exist for every separated finite-type $f$, $g$ — the mate of
@@ -33,12 +36,8 @@ under the adjunctions of [sk-prop-sf-existence] (c), is an isomorphism
 $(gf)^!\cong f^!g^!:D^+(Z,\Lambda)\to D^+(X,\Lambda)$, the units and
 counits of the composite adjunctions being the pasted ones; it restricts to
 $\Dctf(Z,\Lambda)\to\Dctf(X,\Lambda)$ as soon as the three functors are known
-to preserve $\Dctf$ ([sk-prop-sf-rf-shriek-preservation], whose proof uses
-only the $D^+$-form of this clause, so there is no circularity). No
-admissibility datum is assumed; when the ambient datum of (a) happens to
-hold, (b) is the restriction of (a).
-
-The notation $(gf)^!\cong f^!g^!$ used below always refers to (b).
+to preserve $\Dctf$. When the ambient datum of (a) holds, (b) is the
+restriction of (a).
 
 ## Proof
 
@@ -47,14 +46,19 @@ the mate construction gives an isomorphism of right adjoints from the
 isomorphism of left adjoints, and the triangle identities of the composite
 are the composites of the component ones. Nothing here uses constructibility
 or finite Tor amplitude: the statement is formal in the ambient adjunctions,
-which are exactly what clause (1) supplies. (b) On the étale sites the adjunctions of
-[sk-prop-sf-existence] (a) are honest adjunctions on the whole of $D(-_{\Et},A)$,
-so the formal mate calculus of (a) applies verbatim and gives
-$(gf)^{\times}\cong f^{\times}g^{\times}$ with pasted units and counits;
+which are exactly what clause (1) supplies. (b) On the étale sites, for
+$f$, $g$, $gf$ admitting compactifications, the right adjoints
+$f^{\times}$, $g^{\times}$, $(gf)^{\times}$ of the étale compact-support
+functors exist by [sk-prop-sf-existence] (a), and these are honest
+adjunctions on the whole of $D(-_{\Et},A)$. The composite
+$Rg^{\Et}_!Rf^{\Et}_!$ is left adjoint to $f^{\times}g^{\times}$, and the
+composition isomorphism $R(gf)^{\Et}_!\cong Rg^{\Et}_!Rf^{\Et}_!$ of
+[sk-thm-sf-comp-composition] is an isomorphism of left adjoints; since a
+right adjoint is unique up to unique isomorphism, its mate is an isomorphism
+$(gf)^{\times}\cong f^{\times}g^{\times}$, with pasted units and counits
+by the formal mate calculus of (a). This is the étale clause;
 $(gf)^!\cong f^!g^!$ is its transport along $\nu^*$, using
 $Rf_{!}\nu^*\cong\nu^*Rf^{\Et}_!$ ([sk-prop-sf-comparison]) and the full
 faithfulness of $\nu^*$ on $D^+$, which identifies the adjunction isomorphisms
 of [sk-prop-sf-existence] (c) with the étale ones. The restriction to
 $\Dctf$ is then immediate from the preservation.
-
-Uses: `\Cref{sk-def-sf-operations}`, `\Cref{thm-sf-comp-composition}`, `fix-prop-adjunctions`, [sk-def-sf-admissible]

@@ -35,7 +35,6 @@ $$
  \longrightarrow\Sh(Y_{\mathrm{proet}},\mathcal O_E)
 $$
 
-denotes the resulting *restriction of scalars*; its exactness is recorded
-with the other properties of this construction. The reduction morphisms
+denotes the resulting *restriction of scalars*. The reduction morphisms
 $A_{E,n+1}\twoheadrightarrow A_{E,n}$ are the maps
 $(A_{E,n+1})_Y\twoheadrightarrow(A_{E,n})_Y$ between constant sheaves.

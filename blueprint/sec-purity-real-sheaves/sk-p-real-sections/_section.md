@@ -32,5 +32,3 @@ every element; conversely every fixed vector defines one. This gives
 $H^0(U,\mathcal F|_{U})=V^{\pi_1(U)}$. The subgroup $\pi_1(U)$ is normal in
 $W(U_0)$, so the degree-one lift normalizes its action and therefore preserves
 the invariants; the identification is equivariant for the residual $F$.
-
-Uses: [sk-d-real-operations], [sk-d-real-weil], [sk-i-real-sheaves]

@@ -39,9 +39,7 @@ $$
 $$
 
 the sum is finite (only $0\leq p\leq n$ contribute, and
-$\operatorname{Tot}(D)^n=0$ for $n<0$), and $d\circ d=0$ because
-$d_I^2=d_{II}^2=0$ and the two cross terms $(-1)^{p+1}d_{II}d_I$ and
-$(-1)^pd_Id_{II}$ cancel.
+$\operatorname{Tot}(D)^n=0$ for $n<0$), and $d\circ d=0$.
 
 The *first* and *second filtrations* of $\operatorname{Tot}(D)$ are the
 decreasing filtrations [def-sp-filtration]
@@ -65,6 +63,10 @@ $$
  \ \text{with differential }d_I .
 $$
 
-(Stacks Project, Homological Algebra: double complexes and their associated
-total complexes, and the two filtrations used for the spectral sequences of
-a double complex.)
+## Proof
+
+On $D^{p,q}$ one has
+$d\circ d=d_I^2+(-1)^{p+1}d_{II}d_I+(-1)^pd_Id_{II}+d_{II}^2$: the first and
+last terms vanish because $d_I^2=d_{II}^2=0$, and the two cross terms
+$(-1)^{p+1}d_{II}d_I$ and $(-1)^pd_Id_{II}$ cancel because $d_I$ and $d_{II}$
+commute. Hence $d\circ d=0$.

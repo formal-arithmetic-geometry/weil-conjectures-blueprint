@@ -2,30 +2,20 @@
 id = "lem-sc-isogeny-facts"
 kind = "lemma"
 title = "Basic facts about isogenies"
-lean = ["AlgebraicGeometry.isIsogeny_npow_id"]
+lean = ["AlgebraicGeometry.isIsogeny_npow_id", "AlgebraicGeometry.isogenyDegree_npow_id", "AlgebraicGeometry.flat_torsionSubgroupScheme", "AlgebraicGeometry.finrankΓ_torsionSubgroupScheme"]
 order = 561
 uses = ["def-sc-abelian-variety", "def-sc-hilbert-degree", "def-sc-isogeny", "def-sc-mult-n", "lem-sc-abelian-variety-projective", "lem-sc-ample-tensor", "lem-sc-deg-pullback-finite", "lem-sc-finite-constant-length-flat", "lem-sc-hilbert-polynomial", "lem-sc-isogeny-degree", "lem-sc-mult-n-finite-flat", "lem-sc-mult-n-isogeny", "lem-sc-mult-n-pullback", "thm-sc-theorem-of-cube"]
 +++
 Let $A$ be an abelian variety of
-dimension $g$ over an algebraically closed field $k$ and
-$n\geq1$.
+dimension $g$ over a field $k$ and $n\geq1$.
 
-1. **(a)** The map $[n]$ of [def-sc-mult-n] is an
+**(a)** The map $[n]$ of [def-sc-mult-n] is an
 isogeny of degree $n^{2g}$, finite,
 flat and surjective.
-1. **(b)** In particular the kernel $A[n]$ is a finite flat group
+
+**(b)** In particular the kernel $A[n]$ is a finite flat group
 scheme of order $n^{2g}$ over $k$, and $[n]:A\to A$ is an fppf
 covering.
-
-(*Source: Stacks Project, Groupoid Schemes, Section 39.9, Tag
-[0BF9](https://stacks.math.columbia.edu/tag/0BF9); in particular Lemma 39.9.2, Tag [0BFA](https://stacks.math.columbia.edu/tag/0BFA) (abelian
-varieties are projective), Lemmas 39.9.6–39.9.7, Tags [0BFE](https://stacks.math.columbia.edu/tag/0BFE)
-and [0BFF](https://stacks.math.columbia.edu/tag/0BFF) (the theorem of the cube, see also More on
-Morphisms, Theorem 37.33.8, Tag [0BF4](https://stacks.math.columbia.edu/tag/0BF4)), Lemma 39.9.8, Tag
-[0BFG](https://stacks.math.columbia.edu/tag/0BFG) ($[d]$ is finite locally free of degree
-$d^{2\dim A}$), and Proposition 39.9.11, Tag [03RP](https://stacks.math.columbia.edu/tag/03RP); for the
-degree positivity, Stacks Project, Varieties, Lemma 33.45.9, Tag
-[0BEV](https://stacks.math.columbia.edu/tag/0BEV). Cf. the classical treatments of Mumford and Milne.*)
 
 ## Proof
 
@@ -37,7 +27,23 @@ Schemes, Section 39.9, [Tag 0BF9](https://stacks.math.columbia.edu/tag/0BF9) –
 recorded as [thm-sc-theorem-of-cube]; see also More on Morphisms, Theorem 37.33.8, [Tag 0BF4](https://stacks.math.columbia.edu/tag/0BF4)), Lemma
 39.9.8, [Tag 0BFG](https://stacks.math.columbia.edu/tag/0BFG) ($[d]$ is finite locally free of degree
 $d^{2\dim A}$, recorded as [lem-sc-mult-n-finite-flat]), and Proposition 39.9.11, [Tag 03RP](https://stacks.math.columbia.edu/tag/03RP); cf. the
-classical treatments of Mumford and Milne*. (a) By
+classical treatments of Mumford and Milne*.
+
+**Reduction to $k$ algebraically closed.** Let $\bar k$ be an algebraic
+closure of $k$. The base change $A_{\bar k}$ is an abelian variety of
+dimension $g$ over $\bar k$ ([def-sc-abelian-variety]), the base change of
+$[n]$ is the map $[n]$ of $A_{\bar k}$, and the base change of the kernel
+$A[n]=A\times_{[n],A,e}\Spec k$ is $A_{\bar k}[n]$ ([def-sc-mult-n]).
+Since $\Spec\bar k\to\Spec k$ is faithfully flat and quasi-compact, a
+morphism of $k$-schemes is finite, flat, resp. surjective as soon as its
+base change to $\bar k$ is (fpqc descent), and the rank of the locally
+free module $[n]_*\mathcal O_A$ and the order
+$\dim_k\Gamma(A[n],\mathcal O_{A[n]})$ of the finite kernel do not change
+under the base change $k\to\bar k$. So all assertions of (a) and (b) for
+$A$ follow from those for $A_{\bar k}$, and we may assume that $k$ is
+algebraically closed.
+
+(a) By
 [lem-sc-mult-n-isogeny], the map $[n]$ of
 [def-sc-mult-n] is a surjective homomorphism of group schemes
 with finite kernel $A[n]$, and it is finite (as in loc. cit.);

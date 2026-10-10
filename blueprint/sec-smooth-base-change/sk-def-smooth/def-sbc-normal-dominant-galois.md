@@ -15,13 +15,16 @@ by finite etale
 automorphisms, the quotient is $Z/G\cong C$, and $Z\to C$ is a
 $G$-torsor (the action is simply transitive on every geometric fibre);
 the *deck group* of a Galois cover is the group of its
-automorphisms over $C$; for a Galois cover with connected total space
-this group is $G$, as the deck-group lemma below records. A morphism $f:X\to S$ has
+automorphisms over $C$. A morphism $f:X\to S$ has
 *geometrically connected fibres* if for every point $s\in S$ the
 fibre $X_s$ is geometrically connected over $\kappa(s)$ (its base
 change to every separably closed extension of $\kappa(s)$ is connected).
 A morphism $f:X\to S$ has *geometrically reduced fibres* if for
-every point $s\in S$ the fibre $X_s$ is reduced after every separably
-closed extension of $\kappa(s)$; it has *geometrically connected,
+every point $s\in S$ the fibre $X_s$ is reduced after every field
+extension of $\kappa(s)$ (equivalently, after base change to an algebraic
+closure of $\kappa(s)$); it has *geometrically connected,
 resp. reduced, fibres* if the corresponding property holds for every
 geometric point.
+
+For a Galois cover with group $G$ and connected total space, the deck
+group is $G$.

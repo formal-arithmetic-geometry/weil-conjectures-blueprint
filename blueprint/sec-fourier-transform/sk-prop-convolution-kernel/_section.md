@@ -19,7 +19,7 @@ $$
 $$
 
 $\Delta:V\to V\times_SV$ being the diagonal and $\iota'$ the reflection of the
-addition. (Blueprint lem:fd-convolution-kernel.)
+addition.
 
 ## Proof
 
@@ -48,5 +48,3 @@ and shift $[-2r]$ extended by zero along the diagonal, which is the first
 identity; the same-character computation replaces $x-y$ by $x+y$, so the
 support is the anti-diagonal, the image of the diagonal under
 $\operatorname{id}\times\iota'$, giving the second.
-
-Uses: [sk-lem-as-properties], [sk-prop-an], [sk-prop-kernel-lisse], [sk-prop-stalk], [sk-thm-derived-duality]

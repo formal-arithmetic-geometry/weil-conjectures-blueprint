@@ -51,9 +51,7 @@ global-sections functor is exact, which is Stacks Project, Cohomology on
 Sites, Lemma 21.51.1,
 [Tag 0946](https://stacks.math.columbia.edu/tag/0946) – therefore does
 not apply to $\overline X\times_YW$, and no bound on those groups is
-recorded. A search of the sources recorded in this blueprint's audit ledger
-was carried out for exactly this bound, and it found no proof and no
-counterexample. On the pro-étale site the only vanishing statement for
+recorded. On the pro-étale site the only vanishing statement for
 *all* sheaves is the one just named, at a weakly contractible object;
 for sheaves of étale origin the sharper statement
 $R^q\nu_{\overline X,*}\nu_{\overline X}^*\mathcal G=0$ for $q>0$, that
@@ -226,28 +224,6 @@ point of every pro-étale base change is separably closed and no such
 periodic Galois group occurs; the transplant of the $K=\mathbf R$ example,
 of the skyscraper gadgets of the Zariski topology, and of the étale
 cohomological-dimension theorem therefore produces no counterexample here.
-Read in this round, each page fetched and compared with the claim made: the
-Chapter 61 table of contents
-([Tag 0965](https://stacks.math.columbia.edu/tag/0965), which contains
-no section on a cohomological dimension of the pro-étale site) and its
-Sections 61.13
-([Tag 098I](https://stacks.math.columbia.edu/tag/098I),
-[Tag 0990](https://stacks.math.columbia.edu/tag/0990)), 61.14
-([Tag 09A1](https://stacks.math.columbia.edu/tag/09A1),
-[Tag 09A2](https://stacks.math.columbia.edu/tag/09A2)), 61.15
-([Tag 0994](https://stacks.math.columbia.edu/tag/0994)), 61.18
-([Tag 0991](https://stacks.math.columbia.edu/tag/0991)), 61.19
-([Tag 099R](https://stacks.math.columbia.edu/tag/099R), with Lemmas
-61.19.3–61.19.6 and Example 61.19.12), 61.22
-([Tag 09B4](https://stacks.math.columbia.edu/tag/09B4)), together with
-Chapter 59's Sections 59.95
-([Tag 0F0V](https://stacks.math.columbia.edu/tag/0F0V)) and 59.96
-([Tag 0F0Z](https://stacks.math.columbia.edu/tag/0F0Z),
-[Tag 0F10](https://stacks.math.columbia.edu/tag/0F10)). The full
-Bhatt–Scholze paper was again not retrievable with the tools available here
-(the PDF endpoints returned a network error and an unsupported content
-type), so it was consulted only through the Stacks reproductions quoted
-above, as Section 12 of the audit ledger records.
 
 *The exact wording of the form that is false.* For a finite-type
 $k$-scheme $\overline X$ with $\dim\overline X\leq d$, a proper

@@ -24,7 +24,7 @@ $$
 $$
 
 Explicitly, with $\overline E=\mathbf P_B(E\oplus\mathcal O_B)$ and
-the localization triangle of the open $E=\overline E\setminus \mathbf P_B(E)$ of def:weil-open-closed-recollement, the two
+the localization triangle of the open $E=\overline E\setminus \mathbf P_B(E)$, the two
 [thm-pur-projective-bundle-formula] decompositions for the
 $\mathbf P^r$-bundle $\overline E\to B$ and the $\mathbf P^{r-1}$-bundle $\mathbf P_B(E)\to B$ identify the fiber of the
 restriction map with

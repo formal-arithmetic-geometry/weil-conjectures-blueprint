@@ -25,12 +25,7 @@ $$
 (f')^{-1}Rg_*F\longrightarrow Rh_*e^{-1}F
 $$
 
-is an isomorphism. (*Source:* Stacks Project, Tag
-[0F1I](https://stacks.math.columbia.edu/tag/0F1I), in the case
-used in this chapter, namely with $X$ of finite type over $K$; the
-general case of that tag reduces to this one by the approximation of a
-quasi-compact quasi-separated scheme by finite type models, which is not
-needed here.)
+is an isomorphism.
 
 ## Proof
 

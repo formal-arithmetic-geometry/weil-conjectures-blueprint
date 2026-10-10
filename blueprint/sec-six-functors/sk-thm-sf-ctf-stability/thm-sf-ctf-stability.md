@@ -23,14 +23,12 @@ If $K,L$ have Tor amplitude in $[a,b]$ and $[c,d]$ and
 $\dim X\leq m$, then $R\mathcal Hom(K,L)$ has Tor amplitude in
 $[c-b-2m,d-a+2m]$; if moreover $K$ is site-perfect, it has Tor
 amplitude in the sharper interval $[c-b,d-a]$.
-The elementary formula $R\mathcal Hom(K,L)=K^\vee\otimes^L L$
-with coefficient dual $K^\vee=R\mathcal Hom(K,A_X)$, and the
-dimension-free interval $[c-b,d-a]$, still require
-a site-perfect first argument (for the origin
-$i:\{0\}\hookrightarrow\mathbf A^1$, both $i_*A$ and $A$ have Tor
-amplitude $[0,0]$, while $R\mathcal Hom(i_*A,A)=i_*A(-1)[-2]$ has
-cohomology in degree $2$);
-the general preservation assertion uses geometric Verdier duality.
+The elementary formula $R\mathcal Hom(K,L)=K^\vee\otimes^L L$, with
+coefficient dual $K^\vee=R\mathcal Hom(K,A_X)$, and the dimension-free
+interval $[c-b,d-a]$ require a site-perfect first argument: for the origin
+$i:\{0\}\hookrightarrow\mathbf A^1$ both $i_*A$ and $A$ have Tor amplitude
+$[0,0]$, while $R\mathcal Hom(i_*A,A)=i_*A(-1)[-2]$ has cohomology in
+degree $2$.
 1. **(iii)** $Rf_*$ carries $D^b_{ctf}(X,A)$ into
 $D^b_{ctf}(Y,A)$; for input Tor amplitude $[a,b]$ and
 $\dim X\leq d$, the output has Tor amplitude in $[a,b+2d]$.
@@ -43,8 +41,7 @@ For input Tor interval $[a,b]$, one output interval is
 $[a-2\dim X,b+2\dim Y]$.
 1. **(vi)** For every separated finite-type $X/k$,
 $D_X=R\mathcal Hom_X(-,Ra_X^!A)$ is a contravariant exact
-anti-equivalence with $K\simeq D_XD_XK$, by the geometric
-Verdier-biduality theorem on this domain.
+anti-equivalence with $K\simeq D_XD_XK$.
 1. **(vii)** On the finite-Tor constructible domains,
 finite coefficient quotients commute with pullback, tensor, both
 direct images, general internal Hom, Verdier duality and the
@@ -56,9 +53,6 @@ category; Verdier duality is an anti-equivalence on it, with the
 canonical finite reductions of these operations. These conclusions
 pass to the bounded constructible categories at $E$ and
 $\Qlb$, with their specified coefficient-passage operations.
-The elementary site-perfect formula in (ii) retains its stated
-hypothesis. No unrestricted unbounded pro-etale exceptional
-adjunction is asserted here.
 
 ## Proof
 

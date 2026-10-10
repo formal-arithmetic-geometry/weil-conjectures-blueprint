@@ -5,9 +5,21 @@ title = "Constructible and primary reduction on curves"
 order = 1179
 uses = ["lemma-weil-pbc-curve-filtered-cohomology", "lemma-weil-pbc-eight-curve-devissage", "lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence"]
 +++
-For a separated finite-type curve $X$ over an algebraically closed field and
-a torsion sheaf $F$, extension-invariance of $H^q(X,F)$ reduces to the case
-where $X$ is reduced and $F$ is a constructible $\mathbf F_\ell$-sheaf.
+Let $X$ be a separated curve of finite type over an algebraically closed field
+$k$ (so $\dim X\leq1$), and let $k'/k$ be an algebraically closed extension.
+Suppose that for every prime $\ell$ and every constructible sheaf $G$ of
+$\mathbf F_\ell$-modules on $X_{\mathrm{red}}$ the pullback maps
+
+$$
+ H^q(X_{\mathrm{red}},G)\longrightarrow
+ H^q((X_{\mathrm{red}})_{k'},G_{k'})
+$$
+
+are isomorphisms for all $q$. Then for every torsion sheaf $F$ on $X_{\Et}$
+the pullback maps $H^q(X,F)\to H^q(X_{k'},F_{k'})$ are isomorphisms for all
+$q$. The same holds with the hypothesis only for primes
+$\ell\neq\operatorname{char}k$ and the conclusion only for $F$ prime to
+$\operatorname{char}k$.
 
 ## Proof
 
@@ -59,8 +71,9 @@ $$
 
 The quotient is killed by $\ell^{r-1}$ because
 $\ell^{r-1}s\in F[\ell]$. Pullback to $X_{k'}$ preserves this kernel,
-quotient, and both maps. Induction on $r$, with the base case
-$\ell F=0$, and the short-exact devissage lemma prove all applicable eight
-assertions. In particular assertion (7) gives the required proper
-field-extension invariance, reduced to constructible
-$\mathbf F_\ell$-module sheaves.
+quotient, and both maps. Induction on $r$, with the base case $\ell F=0$ given by the hypothesis,
+and the five lemma applied to the two long exact cohomology sequences,
+linked by the pullback maps (as in the short-exact devissage lemma), prove
+the comparison for $F$. If $F$ is prime to $\operatorname{char}k$, so are its
+constructible subsheaves, and only primes $\ell\neq\operatorname{char}k$
+occur in the decomposition.

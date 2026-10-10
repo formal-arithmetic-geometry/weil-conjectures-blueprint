@@ -8,10 +8,10 @@ lean = ["SemidirectProduct.eq_finitePart_mul_degreeCharacter", "SemidirectProduc
 +++
 *Proposition (sketch).*
 
-Let $\chi:W\to E^\times$ be a
-rank-one character with finite geometric image.
-The candidate functions $\chi_z$ and
-$\chi_{\mathrm{fin}}$ are characters, and
+Let $\chi:W\to A$ be a homomorphism into a commutative group $A$ (for a
+rank-one character, $A=E^\times$), and $z=\chi(\gamma)$.
+The functions $\chi_z$ and
+$\chi_{\mathrm{fin}}$ are homomorphisms, and
 
 $$
 \chi(w)=\chi_{\mathrm{fin}}(w)z^{\deg(w)}
@@ -19,8 +19,8 @@ $$
 
 for every $w\in W$. Moreover,
 $\chi_{\mathrm{fin}}(\gamma)=1$ and
-$\chi_{\mathrm{fin}}(W)=\chi(P)$, so $\chi_{\mathrm{fin}}$ has
-finite image.
+$\chi_{\mathrm{fin}}(W)=\chi(P)$; in particular, if $\chi$ has finite
+geometric image, then $\chi_{\mathrm{fin}}$ has finite image.
 
 ## Proof
 
@@ -32,5 +32,3 @@ $\chi_{\mathrm{fin}}(w)=\chi(u)z^nz^{-n}=\chi(u)$.
 Thus its image is exactly the assumed finite set $\chi(P)$.
 Its value at $\gamma$ is $1$, and the displayed factorization follows
 by cancellation.
-
-Uses: [sk-d-ab-rankone]

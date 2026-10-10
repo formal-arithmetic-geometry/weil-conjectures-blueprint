@@ -4,7 +4,7 @@ kind = "section"
 title = "Deligne–Laumon affine-line estimate"
 order = 2785
 uses = ["sk-c-dl-a1-hc1", "sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-dl-a1-exact", "sk-p-linear-filtration"]
-lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.hasWeightsAtMost_compactlySupportedCohomology_directImage", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.subsingleton_compactlySupportedCohomology_directImage_zero", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isPureOfWeightOver_compactlySupportedCohomology_directImage_two"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.hasWeightsAtMost_compactlySupportedCohomology_directImage", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.subsingleton_compactlySupportedCohomology_directImage_zero", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.isPureOfWeightOver_compactlySupportedCohomology_directImage_two"]
 +++
 *Theorem (sketch).*
 
@@ -37,5 +37,3 @@ the common upper bound from its two outer terms, because characteristic
 polynomials multiply in short exact sequences of Frobenius modules.
 Induction through the filtration proves the result. No splitting of
 the filtration or semisimplicity theorem for pure sheaves is required.
-
-Uses: [sk-c-dl-a1-hc1], [sk-d-dl-a1-setup], [sk-l-dl-a1-endpoints], [sk-p-dl-a1-exact]

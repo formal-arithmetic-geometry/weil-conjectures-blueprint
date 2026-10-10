@@ -18,8 +18,6 @@ A_P=R(p_a)_*\Delta_*A_P
 =\operatorname{id}_{A_P}.
 $$
 
-The notation refers to the projective line, projective-line integration, and Tate twists.
-
 ## Proof
 
 The equation $x_0y_1-x_1y_0=0$ shows that $\Delta$

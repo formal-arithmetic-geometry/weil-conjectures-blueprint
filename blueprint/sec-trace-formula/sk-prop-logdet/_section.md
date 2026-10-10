@@ -8,16 +8,21 @@ lean = ["LinearMap.inv_charpolyRev_eq_exp"]
 +++
 *Proposition (sketch).*
 
-Let $(V,F)$ be a Frobenius module. Then in $\Qlb[[T]]$
+Let $K$ be a field of characteristic zero, $V$ a finite-dimensional
+$K$-vector space and $F$ a $K$-linear endomorphism of $V$ (not necessarily
+invertible). Regard the polynomial $\det(1-TF\mid V)$, whose constant term
+is $1$, as a formal power series. Then in $K[[T]]$
 
 $$
-\begin{gathered}
-\log\det(1-TF\mid V)=-\sum_{n\ge1}\Tr(F^{n}\mid V)\frac{T^{n}}{n}
-=-\operatorname{tr}_F(T),\\[3pt]
-\text{equivalently}\qquad
-\exp\bigl(\operatorname{tr}_F(T)\bigr)=\det(1-TF\mid V)^{-1}.
-\end{gathered}
+\det(1-TF\mid V)^{-1}
+=\exp\Bigl(\sum_{n\ge1}\Tr(F^{n}\mid V)\frac{T^{n}}{n}\Bigr),
+\qquad\text{equivalently}\qquad
+\log\det(1-TF\mid V)=-\sum_{n\ge1}\Tr(F^{n}\mid V)\frac{T^{n}}{n}.
 $$
+
+In particular, for a Frobenius module $(V,F)$ (the case $K=\Qlb$),
+$\exp\bigl(\operatorname{tr}_F(T)\bigr)=\det(1-TF\mid V)^{-1}$ and
+$\log\det(1-TF\mid V)=-\operatorname{tr}_F(T)$ in $\Qlb[[T]]$.
 
 ## Proof
 
@@ -31,5 +36,3 @@ index range gives the identity. Exponentiating, and using that the formal
 exponential and logarithm are mutually inverse between $T\Qlb[[T]]$ and
 $1+T\Qlb[[T]]$, gives the second form. No semisimplicity is used: the
 computation is triangular and therefore valid for arbitrary $F$.
-
-Uses: [sk-def-frobmod]

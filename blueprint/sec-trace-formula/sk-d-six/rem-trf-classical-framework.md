@@ -10,7 +10,7 @@ the *classical* one of the framework chapter: ordinary categories, ordinary
 triangulated categories in the sense of Verdier, sets of morphisms,
 exact functors, natural transformations, and 2-categorical (bicategorical)
 arguments only. No $\infty$-category, no $\infty$-operad, no
-model-independent ``coherent'' higher machinery is used or assumed. The
+model-independent "coherent" higher machinery is used or assumed. The
 following conventions fix what this means for every phrase that could be
 read either way.
 
@@ -60,45 +60,21 @@ $Rg_!\circ Rf_!\cong R(gf)_!$ and their adjoint forms, with the
 identity compatibilities and the associativity pentagon;
    - for each $f$, the unit $\eta_f:\operatorname{id}\to Rf^!Rf_!$ and the counit $\varepsilon_f:Rf_!Rf^!\to \operatorname{id}$ of the adjunction $Rf_!\dashv Rf^!$;
    - the compatibility laws connecting these: the base-change
-cocycle over a composite of Cartesian squares (the ``outer square''
+cocycle over a composite of Cartesian squares (the "outer square"
 condition), the compatibility of the composition isomorphisms with
 the exchanges, the projection-formula–exchange cocycles, and the
 adjunction compatibility of the exchanges; each of these is a
 *stated, enumerated law of the interface*, not a consequence of
 coherence in a higher structure.
-Whenever this chapter writes ``the canonical map'' or ``the canonical
-isomorphism'', it means: a map or isomorphism *built from the
+Whenever this chapter writes "the canonical map" or "the canonical
+isomorphism", it means: a map or isomorphism *built from the
 data above* by composition, whiskering, and (where an adjoint is
-uniquely determined) the mate construction of
+uniquely determined) the mate construction. Where a needed coherence
 is not one of the enumerated laws, the coherence is either proved in
 this chapter by an explicit model (e.g. the Koszul computations of
 [lem-trf-chain-supertrace] and the split-exact-sequence
 computation of [prop-trf-trace-formal-laws]) or proved from the
-results of this manuscript with its classical source recorded as
-provenance. The four statements that used to be recorded as
-unresolved geometric interfaces are now discharged: the étale
-exceptional pullback by *Exceptional pullback along an etale morphism*
-(smooth purity of the manuscript), the triangle compatibility of the
-trace class by [lem-trf-trace-triangle-compatibility] (reduced to
-the point normalization [prop-trf-pairing-point-normalization]),
-the normal-cone reduction by *Normal-cone reduction for the trace*
-(from [thm-pur-dnc-invariance] and
-*Normal-cone evaluation of the trace map*), and the normal-cone
-evaluation of the contracting trace map by
-*Normal-cone evaluation of the trace map* (from the dualizing
-and Thom statements of the smooth-purity chapter and the contracting
-reduction *Contracting local model at an isolated fixed point*); the contracting
-computation *Trace map of a contracting correspondence* is proved from it.
-All other steps of the
-trace formula are proved inside this chapter: the
-proper-pushforward interface by
-[thm-trf-trace-proper-compatibility], the étale pullback
-compatibility by *Etale pullback compatibility of trace maps*, the
-additivity by [prop-trf-trace-class-additivity] and
-*Additivity of the categorical traces of the global operators*, the fixed-point
-localization by [thm-trf-fixed-point-localization] with the
-diagonal case *Localization in the diagonal case*, and the
-comparison [thm-trf-lefschetz-verdier].
+results of this manuscript.
 1. *The trace and the duality data.* The categorical trace of
 [def-trf-categorical-trace] is a 1-categorical construction: the
 strict symmetric monoidal structure on the model category of bounded
@@ -127,15 +103,12 @@ Karoubian category, as in
 compatibility of the trace with these operations is proved step by step
 (in [prop-trf-adic-coefficient-morphism-systems] and
 [thm-trf-integral-adic-coefficient-morphism-trace-formula]) from the explicit
-levelwise formulas, never from a general ``limits commute with
-functors'' statement in a higher category.
+levelwise formulas, never from a general "limits commute with
+functors" statement in a higher category.
 1. *Koszul sign convention.* In every explicit computation
 with complexes, the conventions of
 [lem-trf-chain-supertrace] are used: the differential of the
 tensor product of complexes is
 $d(p\otimes q)=dp\otimes q+(-1)^{|p|}p\otimes dq$, the braiding is
 $c(p\otimes q)=(-1)^{|p||q|}q\otimes p$, and the internal-Hom and
-duality data are the ones displayed there. These are the conventions
-of the classical references for the trace-class formalism ($SGA5$,
-Exposé III; Milne, *Lectures on Étale Cohomology*, Sections
-24–29), which are also written in the classical triangulated framework.
+duality data are the ones displayed there.

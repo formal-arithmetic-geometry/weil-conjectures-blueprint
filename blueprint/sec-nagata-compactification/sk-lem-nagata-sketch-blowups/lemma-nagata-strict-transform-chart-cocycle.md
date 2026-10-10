@@ -5,15 +5,6 @@ title = "Cocycle for strict-transform charts"
 order = 155
 uses = ["def-nagata-strict-transform-chart-comparison-localized", "lemma-nagata-affine-blowup-restrict-cocycle", "lemma-nagata-strict-transform-chart-localization", "lemma-nagata-strict-transform-chart-localization-data"]
 +++
-**Status.** Bypassed by the formalized route: the strict transform is
-supplied by the API of
-`WeilConjectures/Compactification/StrictTransform.lean` —
-`AlgebraicGeometry.strictTransform`, its closed immersion
-`AlgebraicGeometry.Scheme.IdealSheafData.isClosedImmersion_pullbackLift_blowup_comap`,
-and the pullback square
-`AlgebraicGeometry.isPullback_strictTransformOpen` — so the
-strict-transform chart rings and their cocycle are never assembled by hand.
-
 The localized strict-transform chart comparisons agree on double
 localizations and satisfy the cocycle equality on triple chart overlaps.
 

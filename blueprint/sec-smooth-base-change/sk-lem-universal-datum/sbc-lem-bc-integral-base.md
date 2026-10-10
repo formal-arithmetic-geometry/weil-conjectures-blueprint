@@ -6,7 +6,7 @@ order = 1395
 uses = ["lemma-weil-pbc-finite-direct-image-exact", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-integral-etale-direct-image-exact"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] and some
-$q\geq1$ (no base-change hypothesis on $f$ is needed here), consider
+$q\geq1$, consider
 commutative
 diagrams
 
@@ -34,7 +34,6 @@ $$
 is an isomorphism, then
 $f''^{-1}R^qg'_*\mathcal F\to R^qh'_*e^{-1}\mathcal F$ is an
 isomorphism.
-(*Stacks Project, Lemma 59.88.4, [Tag `0F05`](https://stacks.math.columbia.edu/tag/0F05).*)
 
 ## Proof
 

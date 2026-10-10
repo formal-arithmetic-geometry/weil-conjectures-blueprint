@@ -18,9 +18,7 @@ R\mathcal H om_Y(Rf_!M,N),
 $$
 
 natural in $M$ and $N$ and compatible with finite reduction, scalar
-extension, and shifts. ([fix-lem-tensor-adjunction]; the
-proof is the one given there, recalled here because the whole formal core
-rests on it.)
+extension, and shifts.
 
 ## Proof
 

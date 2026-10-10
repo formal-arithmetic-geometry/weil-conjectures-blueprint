@@ -8,16 +8,17 @@ lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_derivedTen
 +++
 *Lemma (sketch).*
 
-Let $i:Z\hookrightarrow X$ be a closed immersion, let
+Let $\Lambda$ be a finite commutative ring with a Tate twist datum, let
+$i:Z\hookrightarrow X$ be a closed immersion, let
 $K\in D^b_{ctf}(X,\Lambda)$ and let $L$ be an *invertible* object of
-$D^b_{ctf}(X,\Lambda)$. Then the canonical co-projection
+$D^b_{ctf}(X,\Lambda)$ (on the small étale sites). Then there is an isomorphism
 
 $$
-Ri^{!}\bigl(K\otimes^{\mathbb L}_{\Lambda_X}L\bigr)\ \xrightarrow{\ \sim\ }\
-Ri^{!}K\otimes^{\mathbb L}_{\Lambda_Z}Li^{*}L
+Ri^{!}\bigl(K\otimes^{\mathbb L}_{\Lambda_X}L\bigr)\ \cong\
+Ri^{!}K\otimes^{\mathbb L}_{\Lambda_Z}Li^{*}L :
 $$
 
-is an isomorphism: an invertible tensor factor passes through $i^{!}$ at the
+an invertible tensor factor passes through $i^{!}$ at the
 cost of restricting it. In particular, for $f:X\to Y$ with $f'=f\circ i$ and
 $B$ invertible on $Y$, taking $L=Lf^{*}B$ and using
 $Li^{*}Lf^{*}B\cong Lf'^{*}B$ gives
@@ -66,5 +67,3 @@ map, so Yoneda gives the asserted isomorphism. The displayed diagonal
 identity is this applied twice on $W$, with $K=\Lambda_W$ and the invertible
 factors $Lp_1^{*}\omega_f$, $Lp_2^{*}\omega_f$ — invertible because
 $\omega_f$ is, by [sk-prop-cohsm] (a).
-
-Uses: [sk-def-purity-conv]

@@ -8,25 +8,27 @@ lean = ["AlgebraicGeometry.Smooth.exists_etale_to_affineSpace", "AlgebraicGeomet
 +++
 *Proposition (sketch).*
 
-Let $g:X\to Y$ be smooth at $x\in X$, of relative dimension $d$
-there. Then, after replacing $X$ and $Y$ by affine neighbourhoods,
+Let $g:X\to Y$ be smooth of relative dimension $d$ and let $x\in X$.
+Then, after replacing $X$ and $Y$ by affine open neighbourhoods of $x$
+and $g(x)$,
 $g$ factors as
 
 $$
 X\ \xrightarrow{\ e\ }\ \Aaf^d_Y\ \xrightarrow{\ p_d\ }\ Y
 $$
 
-with $e$ étale and $p_d$ the projection. Moreover, for any smooth
-$f:X\to S$ there is an étale covering $\{U_i\to X\}_{i\in I}$ such
+with $e$ étale and $p_d$ the projection. Moreover, for any
+$f:X\to S$ that is flat, locally of finite presentation and with
+geometrically reduced fibres (for instance $f$ smooth) there is an étale covering $\{U_i\to X\}_{i\in I}$ such
 that each $U_i\to S$ factors as
 
 $$
 U_i\longrightarrow V_i\longrightarrow S
 $$
 
-with $V_i\to S$ étale and $U_i\to V_i$ smooth affine with
-geometrically connected fibres and a section.
-(Stacks Project, Tags `054L` and `0EY4`.)
+with $V_i\to S$ étale and $U_i\to V_i$ flat, locally of finite
+presentation and affine, with geometrically connected fibres and a
+section.
 
 ## Proof
 
@@ -55,7 +57,8 @@ induces an isomorphism on $\Omega_{-/Y}\otimes\kappa(x)$, which the
 choice of coordinates guarantees.) Composing with $p_d$ returns $g$
 by construction.
 
-*Slicing and relative connectedness.* Let $x\in X$ be a point
+*Slicing and relative connectedness, $f$ smooth.* We may assume $X$
+and $S$ affine. Let $x\in X$ be a point
 *closed in its own fibre* $X_s$, $s=f(x)$, *with
 $\kappa(x)/\kappa(s)$ separable*. Then
 $\mathfrak m_x/\mathfrak m_x^2$ computed in the smooth
@@ -96,4 +99,37 @@ separable closure are dense, and étale maps have separable residue
 extensions). Hence every connected component of every fibre lies in
 some $W_x$, and $\bigcup_xW_x=X$.
 
-Uses: [sk-def-smooth]
+*Making $U\to V$ affine, $f$ smooth.* Covering $V$ by affine opens, we
+may assume $V$ affine; then $X\times_SV$ is affine. The geometric fibres
+of $U\to V$ are smooth and connected, hence irreducible. Given a point
+$z\in U$, lying over $v\in V$, prime avoidance gives a principal open
+$D(a)\subseteq X\times_SV$ contained in the open $U$ and containing both $z$
+and $\sigma(v)$. Choose an affine open $V'\ni v$ of $V$ with
+$\sigma(V')\subseteq D(a)$ and put $U'=D(a)\times_VV'$, which is affine.
+The fibres of $U'\to V'$ are nonempty open subsets of the geometrically
+irreducible fibres of $U\to V$, so they are geometrically connected;
+$\sigma$ restricts to a section, and $U'\to V'$ is smooth and affine. The
+images of these $U'$ in $X$, over all $z\in U$, cover the image of $U$, so
+they still cover $X$.
+
+*The general case.* Now let $f$ be flat, locally of finite presentation,
+with geometrically reduced fibres. The locus $X^{\mathrm{sm}}\subseteq X$
+where $f$ is smooth is open, and $X^{\mathrm{sm}}\cap X_s$ is dense in every
+fibre $X_s$, because a geometrically reduced scheme locally of finite type
+over a field is smooth over it on a dense open. Run the slicing step at the
+points $x\in X^{\mathrm{sm}}$ closed in $X_s$ with $\kappa(x)/\kappa(s)$
+separable: it gives $V\to S$ étale and a section $\sigma$ of
+$X\times_SV\to V$ through $X^{\mathrm{sm}}\times_SV$. Let
+$U\subseteq X\times_SV$ be the relative connected component of $\sigma$;
+for a flat morphism locally of finite presentation with geometrically
+reduced fibres it is open, and $U\to V$ is flat, locally of finite
+presentation, with geometrically connected fibres and the section
+$\sigma$, while $U\to X$ is étale. As in the smooth case, the image of $U$
+in $X$ contains the connected component of $x$ in $X_s$. Every connected
+component of $X_s$ meets the dense subset $X^{\mathrm{sm}}\cap X_s$ and so
+contains such a point $x$; hence these images cover $X$. To make $U\to V$
+affine, the smooth-case argument does not apply, since the fibres of
+$U\to V$ need not be irreducible and an affine open neighbourhood of the
+section may disconnect them; this last step is Stacks, More on Morphisms,
+Lemma 37.46.3 ([`0EY5`](https://stacks.math.columbia.edu/tag/0EY5)), and is
+not proved here.

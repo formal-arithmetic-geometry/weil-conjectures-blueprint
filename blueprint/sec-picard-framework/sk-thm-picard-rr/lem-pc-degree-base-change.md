@@ -24,12 +24,6 @@ $0\to\mathcal{F}_1\to\mathcal{F}_2\to\mathcal{F}_3\to0$:
 $\chi(X,\mathcal{F}_2)=\chi(X,\mathcal{F}_1)+\chi(X,\mathcal{F}_3)$
 ([lem-pc-euler-additive]).
 
-(The general formula of Varieties, Lemma 33.44.5, Tag
-[0AYV](https://stacks.math.columbia.edu/tag/0AYV), is used below
-only through the effective-divisor case (2) and the case of a pullback
-from a point, which is explicit in the base change part (1) and in
-[lem-pc-degree-agrees-sc].)
-
 ## Proof
 
 *(3).* This is exactly [lem-pc-euler-additive].

@@ -15,5 +15,3 @@ $$
 \log(1+x)=\sum_{n\ge1}(-1)^{n+1}x^n/n\qquad
 (x\in\ell^2\mathcal O_E).
 $$
-
-Uses: [sk-d-real-weil]

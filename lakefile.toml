@@ -5,15 +5,17 @@
 # is built by Lake with the same toolchain as the project, which is what lets
 # `blueprint extract` import the project's modules and derive proof status from
 # them. Bump `rev` on weil-conjectures to move the blueprint to a newer state of
-# the formalisation.
+# the formalisation; the tool is the copy in `blueprint-tool/`.
 name = "weil-conjectures-blueprint"
 version = "0.1.0"
 defaultTargets = []
 
+# The blueprint tool, vendored from https://github.com/chrisflav/blueprint
+# (12dff24) so that it can carry local fixes: its dependency walk stays inside
+# the project (chrisflav/blueprint#1).
 [[require]]
 name = "blueprint"
-git = "https://github.com/chrisflav/blueprint"
-rev = "main"
+path = "blueprint-tool"
 
 [[require]]
 name = "weil-conjectures"

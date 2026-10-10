@@ -5,7 +5,7 @@ title = "Purity for regular closed immersions"
 order = 2034
 uses = ["cor-pur-affine-space-purity", "cor-pur-affine-space-zero-section-purity", "lem-pur-projection-purity-agreement", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-frame-class", "def-pur-regular-immersion", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-frame-independence", "lem-pur-immersion-twist", "lem-pur-kunneth-supported", "lem-pur-regular-immersion-linearization", "lem-pur-regular-immersion-smooth-structure", "thm-pur-composition-coherence", "thm-pur-diagonal-dualizing-object"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
+In the purity conventions of [def-pur-conventions],
 let $i:Z\hookrightarrow X$ be a
 regular closed immersion of pure
 codimension $c$, with $X$ smooth over the perfect field $k$ and

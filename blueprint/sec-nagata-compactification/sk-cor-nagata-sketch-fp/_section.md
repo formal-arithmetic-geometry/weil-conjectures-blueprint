@@ -16,5 +16,3 @@ admits a compactification.
 Descend to a separated finite-presentation model over a Noetherian
 $S_\lambda$, compactify it by [sk-thm-nagata-sketch-noetherian],
 and base change the resulting factorization to $S$.
-
-Uses: [sk-lem-nagata-sketch-closure], [sk-prop-nagata-sketch-approximation], [sk-thm-nagata-sketch-noetherian]

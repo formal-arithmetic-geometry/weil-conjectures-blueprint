@@ -34,5 +34,3 @@ $T^{\sum_i(-1)^{i+1}(-b_i)}=T^{\sum_i(-1)^{i}b_i}=T^{\chi}$. The constant is
 $\prod_iD_i^{(-1)^{i}}$ up to the sign $(-1)^{\sum_i(-1)^{i+1}b_i} =(-1)^{-\chi}=(-1)^{\chi}$. By [sk-prop-reciprocity] $d\chi$ is even, so
 $q^{d\chi/2}$ is defined and the constant is
 $\varepsilon q^{d\chi/2}$; this is the displayed identity.
-
-Uses: [sk-def-roots], [sk-def-zeta], [sk-prop-reciprocity], [sk-thm-tracetodeterminant]

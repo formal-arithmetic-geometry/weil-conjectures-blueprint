@@ -81,5 +81,3 @@ equals $H^q(k(C),M)=0$ by Step 3. With Step 2 this gives $H^q(C,F)=0$ for
 $q\ge3$. The $p$-primary part in characteristic $p$ is the
 Artin–Schreier bound, where $H^q(C,\mathcal O_C)$ is computed on the
 étale site by descent for quasi-coherent modules.
-
-Uses: [sk-def-br], [sk-def-curve], [sk-prop-hilbert90], [sk-prop-kummer-exact], [sk-prop-tsen]

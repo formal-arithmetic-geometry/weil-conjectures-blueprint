@@ -21,3 +21,18 @@ lake exe blueprint serve        # the site on localhost
 ```
 
 The site at https://blueprint.fuxi.merten.dev is rebuilt by CI on every push.
+
+### The blueprint tool
+
+The tool is vendored in `blueprint-tool/`, a copy of
+[chrisflav/blueprint](https://github.com/chrisflav/blueprint) at `12dff24`
+with local fixes, and Lake builds it from there (`path` in `lakefile.toml`),
+locally and in CI. Edit it in place; `lake exe blueprint` rebuilds it. Its
+own tests are `blueprint-tool/test.sh`.
+
+Local changes so far:
+
+* `extract`: the dependency walk stays inside the project, so a blueprint
+  object mapped to a Mathlib declaration no longer produces false
+  `actual-not-declared` warnings (chrisflav/blueprint#1). The project is the
+  roots of `[lean] modules`, extendable with `[lean] descend`.

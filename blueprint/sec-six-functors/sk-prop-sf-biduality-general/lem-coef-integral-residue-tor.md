@@ -14,7 +14,7 @@ $$
 D^b_c(X,R)=D^b_{ctf}(X,R)
 $$
 
-for this DVR coefficient category. This assertion does not equate
+for this DVR coefficient category. This does not equate
 constructibility with site-perfectness on the whole scheme.
 
 ## Proof

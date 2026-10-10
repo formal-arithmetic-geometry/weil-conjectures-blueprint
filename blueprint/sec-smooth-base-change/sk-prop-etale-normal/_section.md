@@ -12,7 +12,6 @@ Let $S$ be an integral normal scheme whose function field
 $L=\kappa(\eta)$ is separably closed, and let $V\to S$ be separated
 and étale. Then $V$ is a disjoint union of open subschemes of $S$
 — finitely many as soon as $V$ is quasi-compact.
-(Stacks Project, Lemma 59.80.4, Tag `09Z9`.)
 
 ## Proof
 
@@ -30,5 +29,3 @@ extension, so $\pi_*\mathcal O_W=\mathcal O_S$ by normality of $S$
 and $\pi$ is an isomorphism. Hence each $V_i\to S$ is an open
 immersion. If moreover $V$ is quasi-compact then $V_\eta$ is finite,
 so there are finitely many $V_i$.
-
-Uses: [sk-def-smooth]

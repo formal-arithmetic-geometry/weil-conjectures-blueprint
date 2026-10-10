@@ -48,5 +48,3 @@ assertion they agree on all of $\Aaf^1_{Y_{\alpha\beta}}$. The ordinary
 sheaf axiom glues them to a global isomorphism $F\simeq a^*C$, unique again
 by (i). Restricting along $i_0$ and $i_1$ gives the two identifications,
 hence the constancy.
-
-Uses: [sk-def-purity-conv]

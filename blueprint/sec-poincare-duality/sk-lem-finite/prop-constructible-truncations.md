@@ -76,5 +76,3 @@ identification. For a scheme automorphism $h$, the derived pullback
 $Lh^*$ of [def-weil-derived-pullback-tensor-hom] is exact
 triangulated, so it commutes with the canonical truncations and hence
 with $\mathcal H^i$.
-
-*Recorded in advance* from chapter *Verification of the operations and cohomological interfaces* of the source.

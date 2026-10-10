@@ -10,21 +10,6 @@ $\mathcal T$ is idempotent complete: every idempotent $e:K\to K$ of $\mathcal
 T$ splits, and the canonical fully faithful functor $\mathcal T\to\Kar(\mathcal
 T)$ of [def-weil-karoubi-envelope] is an exact equivalence.
 
-(*Source note:* no Stacks Project entry states this form: Stacks has no
-t-structure (hence no bounded t-structure and no heart) and no idempotent
-completion of a triangulated category; its Karoubianity entries are the
-definition of the Karoubian property (Definition 12.4.1, Tag
-[09SG](https://stacks.math.columbia.edu/tag/09SG)), the splitting criterion
-of Lemma 12.4.2 (Tag [09SH](https://stacks.math.columbia.edu/tag/09SH)) and
-the criteria of Lemma 12.4.3 (Tag
-[05QV](https://stacks.math.columbia.edu/tag/05QV): countable products and
-kernels of maps which have a right inverse, or dually countable coproducts
-and cokernels of maps which have a left inverse), which are sufficient
-conditions of a different kind and are not stated for triangulated
-categories. The blueprint adds the Karoubianity of a triangulated category
-carrying a bounded t-structure, the input used for the finite-stage and
-$\Qlb$ coefficient categories of this manuscript.*)
-
 ## Proof
 
 By [lem-weil-karoubi-envelope-triangulated] the envelope $\mathcal

@@ -18,4 +18,4 @@ $X_0$ with $H^1((V_i)_0,\underline{M_i})$. Torsor comparison lifts every
 component to $H^1(V_i,\underline{M_i})$, and Leray returns a class in
 $H^1(X,(h_i)_*\underline{M_i})$. Their finite sum maps to zero in $H^1(X,I)$
 because $I$ is injective. Restriction of the commuting square shows that the
-original class is zero. The source locator is Tag `0A5H`.
+original class is zero.

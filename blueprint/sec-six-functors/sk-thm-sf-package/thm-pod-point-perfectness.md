@@ -39,11 +39,7 @@ If $X_0$ is proper, the canonical comparison
 $R\Gamma_c(X,K)\xrightarrow{\sim}R\Gamma(X,K)$ of
 [def-weil-ordinary-compact-cohomology] identifies the two cases; in
 particular this applies in the fixed setting of
-[def-pod-conventions]. (Source: the finiteness theorems of etale
-cohomology, Milne, Lectures on Etale Cohomology, Sections 19 and 29,
-for the finiteness and the perfectness at the point. The finite-level
-compact-support membership $R\Gamma _c(X,K)\in D^b_{\mathrm{fin}}(A)$
-is recorded in [prop-trf-compact-support-perfectness].)
+[def-pod-conventions].
 
 ## Proof
 

@@ -5,12 +5,6 @@ title = "Properties of the selected finite affine presentation"
 order = 333
 uses = ["def-nagata-finite-affine-gluing-presentation"]
 +++
-**Status.** Bypassed by the formalized route: the finite-presentation and
-Noetherian descent is done in one step by
-`AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation_of_isSeparated`
-and `AlgebraicGeometry.Scheme.nonempty_noetherianApproximation`, so
-this stage-by-stage bookkeeping is never carried out.
-
 Every overlap in $\mathsf G_S$ is quasi-compact and represented by finitely
 many basic affine opens, all gluing identities form finite lists, and
 gluing $\mathsf G_S$ recovers $S$.

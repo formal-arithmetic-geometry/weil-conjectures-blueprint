@@ -25,12 +25,6 @@ Then $g^{-1}Rf_*E=Rf'_*(g')^{-1}E$ for any
 $E\in\Dplus(X_{\Et})$ whose cohomology sheaves have stalks which are
 torsion of orders invertible on $S$, in the sense of
 [def-kun-torsion-invertible].
-(*Source:* Stacks Project,
-[Tag
-`0F09`](https://stacks.math.columbia.edu/tag/0F09), in the case used in this chapter, in which every $S_i$ is
-quasi-compact and quasi-separated over $S$; the proof below assembles that
-case from the smooth base change theorem of the Kunneth chapter and the limit
-statement [lem-kun-0ezt].)
 
 ## Proof
 

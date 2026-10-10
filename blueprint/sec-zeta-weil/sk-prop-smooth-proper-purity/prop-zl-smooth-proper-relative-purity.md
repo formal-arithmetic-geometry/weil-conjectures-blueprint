@@ -18,10 +18,10 @@ $\mathcal F_0$ be a lisse $\Qlb$-Weil sheaf on $X_0$ which is punctually
 $\iota$-pure of weight $w\in\mathbf R$ in the sense of
 [def-weil-punctual-weights]. Then for every $i\in\mathbf Z$:
 
-1. **(a)** the canonical map
+- **(a)** the canonical map
 $R^{i}f_{0!}\mathcal F_0\to R^{i}f_{0*}\mathcal F_0$ is an isomorphism of
 Weil sheaves, and this sheaf is lisse;
-1. **(b)** it is punctually $\iota$-pure of weight $w+i$: for every closed
+- **(b)** it is punctually $\iota$-pure of weight $w+i$: for every closed
 point $y\in|Y_0|$, with $q_y=\#\kappa(y)$, every eigenvalue $\alpha$ of the
 local geometric Frobenius $F_y$ on
 $(R^{i}f_{0*}\mathcal F_0)_{\bar y}=H^{i}(X_{\bar y},\mathcal F)$

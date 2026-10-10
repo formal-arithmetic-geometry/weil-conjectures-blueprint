@@ -5,14 +5,6 @@ title = "Flat pullback commutes with ideal powers"
 order = 113
 uses = ["def-nagata-extended-ideal"]
 +++
-**Status.** Bypassed by the formalized route: blow-ups are never
-base-changed along a flat morphism. Every base-change step the route takes
-goes through the universal property
-`AlgebraicGeometry.Scheme.IdealSheafData.exists_lift_blowup` and
-the chart pullback squares
-`AlgebraicGeometry.Scheme.IdealSheafData.isPullback_blowup$\iota$`
-instead.
-
 Let $\mathcal I\subseteq\mathcal O_X$ be a quasi-coherent ideal. If
 $g\colon Y\to X$ is flat, then the image of $g^*(\mathcal I^n)$ in
 $\mathcal O_Y$ is $(\mathcal I\mathcal O_Y)^n$ for every $n$.

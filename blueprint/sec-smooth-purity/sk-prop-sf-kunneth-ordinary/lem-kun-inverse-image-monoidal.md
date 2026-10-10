@@ -17,9 +17,6 @@ $$
 of [def-kun-derived-tensor] associated with the
 inverse image $u^{-1}$ is an
 isomorphism, bifunctorial in $K$ and $L$.
-(*Source:* Stacks Project, Lemma 21.18.4,
-[Tag `07A4`](https://stacks.math.columbia.edu/tag/07A4),
-for the morphism of ringed topoi induced by $u$.)
 
 ## Proof
 

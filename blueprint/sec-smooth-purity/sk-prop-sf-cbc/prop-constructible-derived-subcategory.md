@@ -7,10 +7,18 @@ lean = ["AlgebraicGeometry.Etale.DerivedCategory.boundedConstructible_isTriangul
 tags = ["latex:proposition"]
 uses = ["def-constructible-constant", "def-constructible-constructible", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "def-kun-separably-closed", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant", "thm-constructible-serre"]
 +++
-Let $\mathcal A=\mathrm{Mod}_\Lambda$ with $\Lambda$ a finite ring. The
-full subcategory $D^b_c(\et X)$ of the bounded derived category
-$D^b(\shv{\et X})$ consisting of the complexes all of whose cohomology
-sheaves are constructible is a triangulated subcategory.
+Let $\mathcal A$ be a Grothendieck abelian coefficient category (for
+instance $\mathcal A=\mathrm{Mod}_\Lambda$), and assume that the
+constructible sheaves in $\shv{\et X}$ are closed under kernels, cokernels
+and extensions. Then the full subcategory of the derived category
+$D(\shv{\et X})$ consisting of the complexes all of whose cohomology
+sheaves are constructible is a triangulated subcategory, and so is its full
+subcategory $D^b_c(\et X)$ of bounded such complexes.
+
+More generally, in the derived category of any abelian category, the
+complexes all of whose cohomology objects lie in a class of objects that
+contains zero and is closed under isomorphisms, kernels, cokernels and
+extensions form a triangulated subcategory.
 
 ## Proof
 

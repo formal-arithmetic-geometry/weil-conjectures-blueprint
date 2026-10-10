@@ -4,14 +4,19 @@ kind = "lemma"
 title = "The open locus of invertible $Rf_*$"
 order = 682
 uses = ["def-pc-derived-category", "def-pc-derived-pullback", "def-pc-perfect-complex", "lem-pc-flat-complex-derived-pullback", "lem-pc-perfect-locus", "lem-pc-rf-perfect-base-change", "thm-pc-semicontinuity-base-change"]
+lean = ["AlgebraicGeometry.Scheme.Modules.exists_opens_range_subset_iff_isFiniteLocallyFreeInDegree"]
 +++
-(Derived Categories of Schemes, Lemma 36.32.3, Tag
-[0B9S](https://stacks.math.columbia.edu/tag/0B9S).) Let
+Let
 $f:X\to S$ be a proper morphism of finite presentation and let $\mathcal{F}$ be an
-$\mathcal{O}_X$-module of finite presentation, flat over $S$. Fix $i,r\in\mathbb{Z}$.
-Then there exists an open subscheme $U\subset S$ such that a morphism
+$\mathcal{O}_X$-module of finite presentation, flat over $S$. Fix integers $i,r\ge0$.
+Then there exists an open subscheme $U\subset S$, namely the set $U_{i,r}$ of points
+$s\in S$ with $H^q(X_s,\mathcal F_s)=0$ for $q\neq i$ and
+$\dim_{\kappa(s)}H^i(X_s,\mathcal F_s)=r$, such that a morphism
 $T\to S$ factors through $U$ if and only if $Rf_{T,*}\mathcal{F}_T$ is isomorphic
-to a finite locally free $\mathcal{O}_T$-module of rank $r$ placed in degree $i$.
+to a finite locally free $\mathcal{O}_T$-module of rank $r$ placed in degree $i$,
+that is, $R^qf_{T,*}\mathcal F_T=0$ for $q\neq i$ and $R^if_{T,*}\mathcal F_T$ is
+finite locally free of rank $r$. Here $f_T:X_T\to T$ is the base change of $f$ and
+$\mathcal F_T$ the pullback of $\mathcal F$ to $X_T$.
 
 ## Proof
 
@@ -58,19 +63,32 @@ which does not depend on $s\in V$. Hence $\beta^i$ is constant on $W$,
 and $U\cap V$ is either $W$ or empty. In either case it is open, and
 since such $V$ cover $S$, $U$ is open.
 
-*The functorial characterization.* Let $U_E$ be the open subscheme
-attached to the perfect object $E$ and to $i,r$ by [lem-pc-perfect-locus].
-A point $s\in S$ lies in $U_E$ iff $g_s:\operatorname{Spec}\kappa(s)\to S$
-factors through $U_E$, i.e. iff
-$Lg_s^*E\cong Rf_{s,*}\mathcal{F}_s$ is isomorphic to $\kappa(s)^{r}$
-placed in degree $i$. As $\operatorname{Spec}\kappa(s)$ is a point, the
-cohomology of $Rf_{s,*}\mathcal{F}_s$ is $H^*(X_s,\mathcal{F}_s)$, and a
-complex over a field is quasi-isomorphic to the sum of its shifted
-cohomology groups; so this holds iff $s\in U$. Thus $U=U_E$ as sets, and
-we give $U$ the open subscheme structure. By [lem-pc-perfect-locus] a
-morphism $g:T\to S$ factors through $U$ iff $Lg^*E$ is isomorphic to a
+*The functorial characterization.* Let $g:T\to S$. Both sides of the
+claimed equivalence are local on $T$: $g$ factors through the open $U$ iff
+it does so over each member of an open cover of $T$, and the vanishing and
+local freeness of the $R^qf_{T,*}\mathcal F_T$ are local on $T$, while
+higher direct images are compatible with restriction to opens of $T$. So
+we may assume that $g$ maps $T$ into one of the affine opens
+$V=\operatorname{Spec}(A)$ above, on which $E|_V$ is represented by the
+bounded complex $K$ of finite free modules; padding $K$ with zero terms we
+may assume $a\le i$, so that after shifting by $-a$ it is concentrated in
+degrees $[0,b-a]$ and $i$ becomes $i-a\ge0$. Let $U_K\subseteq V$ be the
+open subscheme attached to this complex and to $i-a,r$ by
+[lem-pc-perfect-locus]; undoing the shift, a morphism into $V$ factors
+through $U_K$ iff the pullback of $K$ is a finite locally free module of
+rank $r$ placed in degree $i$. A point $s\in V$ lies in $U_K$ iff
+$g_s:\operatorname{Spec}\kappa(s)\to V$ factors through $U_K$, i.e. iff
+$K\otimes_A\kappa(s)$, which computes $Lg_s^*E\cong Rf_{s,*}\mathcal{F}_s$,
+is isomorphic to $\kappa(s)^{r}$ placed in degree $i$. As
+$\operatorname{Spec}\kappa(s)$ is a point, the cohomology of
+$Rf_{s,*}\mathcal{F}_s$ is $H^*(X_s,\mathcal{F}_s)$, and a complex over a
+field is quasi-isomorphic to the sum of its shifted cohomology groups; so
+this holds iff $s\in U$. Thus $U\cap V=U_K$. By [lem-pc-perfect-locus],
+$g:T\to V$ factors through $U_K=U\cap V$ iff $Lg^*E$ is isomorphic to a
 finite locally free $\mathcal{O}_T$-module of rank $r$ placed in degree
-$i$, i.e. by the base-change isomorphism iff $Rf_{T,*}\mathcal{F}_T$ is.
+$i$, i.e. by the base-change isomorphism iff $Rf_{T,*}\mathcal{F}_T$ is;
+since $Rf_{T,*}\mathcal F_T$ has cohomology sheaves
+$R^qf_{T,*}\mathcal F_T$, this is the condition of the statement.
 On $U$ itself this gives (Nakayama, as in [lem-pc-perfect-locus]) that
 $Rf_*\mathcal{F}|_U$ is locally a free module of rank $r$ in degree $i$;
 no reducedness of $S$ is needed.

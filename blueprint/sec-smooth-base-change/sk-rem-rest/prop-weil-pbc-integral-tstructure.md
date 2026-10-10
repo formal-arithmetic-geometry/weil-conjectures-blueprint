@@ -19,17 +19,6 @@ functors are the $\tau^{\le m},\tau^{\ge m}$ of
 with cohomology concentrated in degree zero. The subcategory of
 $\varpi$-power-torsion objects is stable under the truncation functors.
 
-*Source note:* no Stacks Project entry states this form: Stacks defines no
-t-structure and no heart, and what it does provide is the truncation
-triangle
-$\tau_{\le a}K^\bullet\to K^\bullet\to\tau_{\ge a+1}K^\bullet\to(\tau_{\le a}K^\bullet)[1]$
-of a complex of an abelian category, Remark 13.12.4 ([Tag
-08J5](https://stacks.math.columbia.edu/tag/08J5)) with Section 12.15 ([Tag
-0118](https://stacks.math.columbia.edu/tag/0118)). The blueprint adds the
-standard t-structure on the derived complete category, its identification
-with the truncations of [thm-weil-pbc-integral-truncations] and the
-stability of the $\varpi$-power-torsion subcategory.
-
 ## Proof
 
 The shift conditions and the orthogonality of a t-structure, namely

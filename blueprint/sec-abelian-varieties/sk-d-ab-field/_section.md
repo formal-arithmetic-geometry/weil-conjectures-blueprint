@@ -2,7 +2,7 @@
 id = "sk-d-ab-field"
 kind = "section"
 title = "Finite fields, Frobenius and abelian varieties"
-lean = ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic", "AlgebraicGeometry.IsAbelianScheme"]
+lean = ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic", "AlgebraicGeometry.IsAbelianVariety"]
 order = 465
 +++
 *Definition (sketch).*
@@ -31,4 +31,3 @@ on its points over each $k_0$-algebra. An abelian variety $A_0/k_0$ is a
 proper, smooth, geometrically connected, commutative group scheme of
 finite type. Geometric connectedness means connectedness after extension
 to $\bar k$. Write $A=A_0(\bar k)$ additively.
-def:ab-scheme;def:ab-points;def:ab-proper-smooth;def:ab-finite-field;def:ab-group-scheme;def:ab-abelian-variety;def:ab-finite-type

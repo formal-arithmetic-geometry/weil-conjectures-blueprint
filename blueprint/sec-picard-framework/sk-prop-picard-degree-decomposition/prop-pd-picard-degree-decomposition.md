@@ -8,8 +8,8 @@ uses = ["cor-pc-sigma-pic-iso", "def-pc-degree-line-bundle", "def-pc-divisor-lin
 lean = ["AlgebraicGeometry.exists_decomposition_picardFunctor"]
 +++
 Let $k$ be a separably closed field
-and let $C$ be a smooth projective
-curve over $k$. Fix a $k$-rational point
+and let $C$ be a $k$-scheme which is proper, smooth of relative
+dimension $1$ and geometrically integral over $k$. Fix a $k$-rational point
 $P\in C(k)$ (one exists by [lem-pc-rational-points-dense]), and for
 $d\in\Z$ put $\mathcal{O}_C(dP):=\mathcal{O}_C(P)^{\otimes d}$ (a negative power
 meaning a power of the dual), where $\mathcal{O}_C(P)$ is the module of
@@ -52,7 +52,8 @@ with inverse the translation by $[\mathcal{O}_C(-dP)]$.
 
 ## Proof
 
-Throughout, for a field extension $K/k$ the base change $C_K$ is a smooth
+Since a scheme which is proper over a field and of dimension $1$ is projective over it, $C$ is a smooth projective
+curve. Throughout, for a field extension $K/k$ the base change $C_K$ is a smooth
 projective curve over $K$, in particular integral, with the $K$-rational
 point $P_K$ ([prop-pc-xk-integral], applied with $\sigma=P$); so $C$ is
 geometrically integral and [def-pd-fibrewise-degree],

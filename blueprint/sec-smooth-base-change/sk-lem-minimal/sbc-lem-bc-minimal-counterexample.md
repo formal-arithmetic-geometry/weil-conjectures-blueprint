@@ -23,7 +23,6 @@ or $P(Z)$ holds;
 
 Then $P(T)$ implies $P(\operatorname{Spec}K)$ for some morphism
 $\operatorname{Spec}K\to T$ where $K$ is a field.
-(*Stacks Project, Lemma 59.88.5, [Tag `0F06`](https://stacks.math.columbia.edu/tag/0F06).*)
 
 ## Proof
 

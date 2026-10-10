@@ -11,8 +11,7 @@ equivalence, including unique lifting of morphisms and group actions.
 
 ## Proof
 
-We expand the equivalence used by Tag `0A5G`; its source locator is
-Tag `0A48`. First suppose that $A$ is complete noetherian and put
+First suppose that $A$ is complete noetherian and put
 $Y_r=Y\times_AA/\mathfrak m^{r+1}$. Formal etaleness and nilpotent
 invariance of the etale site lift a finite etale $P_0\to Y_0$ uniquely to a
 compatible system $P_r\to Y_r$. Finiteness can be checked modulo the

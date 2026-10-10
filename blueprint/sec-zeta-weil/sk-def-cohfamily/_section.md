@@ -21,9 +21,10 @@ The tuple $(V_{i,\ell},F_{i,\ell},P_{i,\ell})_{0\le i\le2d}$ is the
 *smooth-proper cohomological family*. An *eigenvalue* of $F$ on
 $V_{i,\ell}$ always means an eigenvalue in $\Qlb$ of $F\otimes\Qlb$ on
 $V_{i,\ell}\otimes_{\Ql}\Qlb$, i.e. a root in $\Qlb$ of the characteristic
-polynomial of $F_{i,\ell}$; this is what $\iota$ is applied to. Notation
-(a forward pointer, not a dependency): $P_i\in\Z[T]$ denotes the integral
-Frobenius factor produced later by [sk-thm-intfactors], and $P_i^{(\ell)}$
-its coefficientwise extension $\Z[T]\to\Ql[T]$; nothing in this definition,
-nor in any statement before [sk-thm-intfactors], depends on $P_i$ —
-until then only the $\ell$-adic factors $P_{i,\ell}$ are used.
+polynomial of $F_{i,\ell}$; this is what a fixed isomorphism
+$\iota:\Qlb\xrightarrow{\sim}\mathbf C$ is applied to.
+
+Notation: $P_i\in\Z[T]$ denotes the integral Frobenius factor produced later
+by [sk-thm-intfactors], and $P_i^{(\ell)}$ its coefficientwise extension
+$\Z[T]\to\Ql[T]$; nothing in this definition depends on $P_i$, and until
+[sk-thm-intfactors] only the $\ell$-adic factors $P_{i,\ell}$ are used.

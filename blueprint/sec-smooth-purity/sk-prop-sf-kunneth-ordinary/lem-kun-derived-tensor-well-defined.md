@@ -21,10 +21,6 @@ is a quasi-isomorphism; consequently
 $K_1\kunotimes{\Lambda}K_2$ of [def-kun-derived-tensor] is
 independent, up to canonical isomorphism in $D(T_{\Et},\Lambda)$, of
 the chosen K-flat model of $K_1$.
-(*Source:* Stacks Project, Lemma 21.17.12,
-[Tag `06YT`](https://stacks.math.columbia.edu/tag/06YT),
-and Definition 21.17.13,
-[Tag `06YU`](https://stacks.math.columbia.edu/tag/06YU).)
 
 ## Proof
 

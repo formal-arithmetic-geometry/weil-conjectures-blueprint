@@ -47,5 +47,3 @@ has absolute value $q^{j/2}$, so $1$ (weight $0$) is a reciprocal root of
 $P_{0}$ only and $q^{d}$ (weight $2d$) of $P_{2d}$ only, each with
 multiplicity one. Hence $Z$ has a pole of order $1$ at $T=1$, and at
 $T=q^{-d}$, which differs from $1$ when $d\ge1$.
-
-Uses: [sk-def-cohfamily], [sk-def-roots], [sk-prop-rootpurity], [sk-thm-intfactors], [sk-thm-poincare-duality], [sk-thm-rationality]

@@ -8,9 +8,11 @@ lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
 +++
 *Lemma (sketch).*
 
-If $V\subseteq X$ is quasi-compact open in a qcqs scheme and
-$T_1,T_2$ are disjoint constructible closed subsets of $V$, a
-$V$-admissible blow-up makes their closures disjoint.
+Let $X$ be a qcqs scheme, let $V\subseteq X$ be a quasi-compact open, and
+let $T_1,T_2\subseteq V$ be disjoint closed subsets whose complements in $V$
+are quasi-compact (that is, constructible closed subsets of $V$). Then there
+is a $V$-admissible blow-up $\pi\colon X'\to X$ such that the closures of
+$\pi^{-1}(T_1)$ and $\pi^{-1}(T_2)$ in $X'$ are disjoint.
 
 ## Proof
 
@@ -18,5 +20,3 @@ Represent the two subsets by finite-type ideals on $V$, extend the
 ideals to $X$, and apply the closed-boundary separation blow-up.
 The strict-transform chart calculation separates their closures.
 Disjointness persists under any further blow-up preserving $V$.
-
-Uses: [sk-lem-nagata-sketch-blowups]

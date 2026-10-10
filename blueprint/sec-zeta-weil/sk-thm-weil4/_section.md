@@ -14,5 +14,3 @@ $b_0=b_{2d}=1$, $P_0=1-T$ and $P_{2d}=1-q^{d}T$.
 ## Proof
 
 This is [sk-thm-betti].
-
-Uses: [sk-thm-betti]

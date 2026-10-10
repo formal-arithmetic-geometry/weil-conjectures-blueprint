@@ -32,5 +32,3 @@ $$
 
 with the finite-coefficient
 categories over a point.
-
-*Recorded in advance* from chapter *The trace formula* of the source.

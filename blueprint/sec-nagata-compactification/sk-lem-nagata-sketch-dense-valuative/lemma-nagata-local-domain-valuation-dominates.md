@@ -5,8 +5,9 @@ title = "Valuation domination of a local domain"
 order = 278
 lean = ["LocalSubring.exists_le_valuationSubring"]
 +++
-If $B$ is a local domain with fraction field $L$, there is a valuation ring
-$C\subseteq L$ whose maximal ideal contracts to the maximal ideal of $B$.
+If $B$ is a local subring of a field $L$, there is a valuation ring
+$C$ of $L$ containing $B$ and dominating it, i.e. whose maximal ideal
+contracts to the maximal ideal of $B$.
 
 ## Proof
 

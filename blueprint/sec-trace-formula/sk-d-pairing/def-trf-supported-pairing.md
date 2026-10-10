@@ -116,6 +116,4 @@ $\operatorname{id}_X$); then $\bar d=\Delta_X$ and
 $E=C\times_{X\times_sX,c,\Delta_X}X=\Fix(c)$ is the fixed scheme of
 [def-trf-fixed-scheme]. Abbreviate
 $\LT_B(u,v)=\LT_B(\langle u,v\rangle_{\mathrm{LV}})$, the local term of
-[def-trf-local-term] (for $B$ a proper open-and-closed component). That
-$\langle u,1_K\rangle_{\mathrm{LV}}$ is the trace class of
-[def-trf-trace-class] is [lem-trf-trace-class-diagonal-pairing].
+[def-trf-local-term] (for $B$ a proper open-and-closed component).

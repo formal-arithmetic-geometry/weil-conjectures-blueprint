@@ -11,7 +11,6 @@ uses = ["sk-def-ft"]
 For a morphism $g:S'\to S$ of separated finite-type $k_0$-schemes and
 $V'=V\times_SS'$, there is a canonical identification
 $\FT_\psi(g^*K)\cong g^*\FT_\psi(K)$ for $K\in\Dbc(V,E)$.
-(Blueprint lem:fd-base-change.)
 
 ## Proof
 
@@ -25,5 +24,3 @@ base-changed square. The integrand base changes by pullback, and
 $g_V^*\mathcal K_\psi\cong\mathcal K'_\psi$ because the pairing base changes
 and the lisse Artin–Schreier sheaf pulls back to the sheaf of the
 base-changed function ([sk-def-kernel]); the shift commutes with pullback.
-
-Uses: [sk-def-ft]

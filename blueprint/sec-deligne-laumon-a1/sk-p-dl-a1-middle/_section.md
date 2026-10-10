@@ -4,11 +4,11 @@ kind = "section"
 title = "Irreducible middle extensions under Fourier"
 order = 2750
 uses = ["sk-d-dl-a1-setup", "sk-i-dl-a1-local", "sk-p-dl-a1-perverse", "sk-thm-inversion"]
-lean = ["AlgebraicGeometry.WeilSheaf.IsNonexceptional", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.IsFourierPartner", "AlgebraicGeometry.exists_middleExtension_fourierTransform", "AlgebraicGeometry.isNonexceptional_of_isUnramifiedAtInfinity"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsNonexceptional", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.IsFourierPartner", "AlgebraicGeometry.exists_middleExtension_fourierTransform", "AlgebraicGeometry.isNonexceptional_of_isUnramifiedAtInfinity"]
 +++
 *Proposition (sketch).*
 
-Call a nonzero irreducible lisse Weil sheaf $M$ on $U_0$
+Let $\psi$ be nontrivial. Call a nonzero irreducible lisse Weil sheaf $M$ on $U_0$
 *nonexceptional* if none of its geometric irreducible constituents
 is $\mathcal L_{\psi(ax)}|_U$, for any $a\in k$, including $a=0$.
 For such $M$, there are a dense open $j':U'_0\hookrightarrow A'_0$ and
@@ -40,5 +40,3 @@ minimal nonzero invariant subspace span the irreducible representation.
 Its nonzero space of geometric invariants is then Weil-stable and must
 be the whole representation. This also explains why arithmetic
 irreducibility suffices; geometric irreducibility is not assumed.
-
-Uses: [sk-d-dl-a1-setup], [sk-i-dl-a1-local], [sk-p-dl-a1-perverse], [sk-thm-inversion]

@@ -4,11 +4,13 @@ kind = "section"
 title = "The zero-extension comparison"
 order = 2767
 uses = ["sk-p-dl-a1-middle", "sk-p-dl-a1-perverse", "sk-p-real-semi"]
-lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_fourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.isLisse", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.hasWeightsAtMost"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.nonempty_fourierCorrection", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection.isLisse", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection.hasWeightsAtMost"]
 +++
 *Proposition (sketch).*
 
-For nonexceptional $M$ pure of weight $w$, put
+Let $\psi$ be nontrivial. For an irreducible lisse $M$ (nonzero, with no
+lisse subsheaves other than $0$ and $M$) which is
+nonexceptional and punctually $\iota$-pure of weight $w$, put
 $B=j_*M/j_!M$. There are ordinary sheaves $G$ and $B'$ such that
 
 $$
@@ -38,5 +40,3 @@ most $w$ by semicontinuity. The Artin–Schreier kernel has weight zero.
 For nonrational $s$, Frobenius permutes its geometric summands; taking
 a power around a permutation cycle gives the same normalized weight
 bound. Thus every summand, and hence $B'$, has weights at most $w$.
-
-Uses: [sk-p-dl-a1-middle], [sk-p-dl-a1-perverse], [sk-p-real-semi]

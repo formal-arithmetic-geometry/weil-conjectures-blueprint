@@ -12,10 +12,6 @@ finite etale $Y'$-schemes $P'$ endowed with a descent datum, i.e. an
 isomorphism $\varphi:p_1^*P'\cong p_2^*P'$ over $Y''$ satisfying
 $p_{13}^*\varphi=p_{23}^*\varphi\circ p_{12}^*\varphi$ over $Y'''$.
 
-**Status.** proved below from [lem-galois-glue] and the Zariski
-locality of "finite etale" on the target; no stack-theoretic input is
-used.
-
 ## Proof
 
 Step 1: full faithfulness. For objects $P,Q$ of

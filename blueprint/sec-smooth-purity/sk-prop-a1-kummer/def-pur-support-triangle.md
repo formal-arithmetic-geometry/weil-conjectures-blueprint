@@ -17,5 +17,4 @@ $$
 
 Let $u:A(K)\to B(K)$ be the inclusion. The cone complex is
 $\operatorname{Cone}(u)^m=B(K)^m\oplus A(K)^{m+1}$, with differential
-$d(b,a)=(d_Bb+u(a),-d_Aa)$. This construction specifies the maps; it does not identify
-ordinary restriction $s^{-1}$ with the derived functor $Rs^!$.
+$d(b,a)=(d_Bb+u(a),-d_Aa)$.

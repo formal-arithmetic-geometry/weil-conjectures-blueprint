@@ -12,7 +12,7 @@ type, and let $f:X\to Y$ be an $S$-morphism. Then the
 scheme-theoretic image $Z=f(X)$ of $f$ (the closed subscheme of $Y$
 whose quasi-coherent ideal is the kernel of
 $\mathcal O_Y\to f_*\mathcal O_X$; it is closed in $Y$ because $p$ is
-a closed map, by [lem-weil-pbc-proper-closed-image] of the ambient-foundations chapter) is proper over $S$, the induced morphism $X\to Z$ is proper and
+a closed map, by [lem-weil-pbc-proper-closed-image]) is proper over $S$, the induced morphism $X\to Z$ is proper and
 surjective, and the composite $X\to Z\to S$ is $p$.
 
 ## Proof

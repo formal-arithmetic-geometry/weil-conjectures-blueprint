@@ -6,10 +6,10 @@ order = 164
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_isClosedImmersion_blowup_comap"]
 uses = ["def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-strict-transform", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent", "prop-nagata-strict-transform-chart-iso", "prop-nagata-strict-transform-closed-fiber-product", "thm-nagata-strict-transform-is-blowup"]
 +++
-Let $Z\hookrightarrow X$ be a closed immersion and let $X'\to X$ be a
-blow-up. Blowing up $Z$ in the pulled-back center gives the strict transform
-of $Z$ in $X'$. Strict transforms computed inside $Z$ and inside $X$ agree
-under the induced closed immersion.
+Let $j\colon Z\hookrightarrow X$ be a closed immersion and let $\mathcal I$
+be a quasi-coherent ideal on $X$. Then there is a closed immersion
+$k\colon\operatorname{Bl}_{\mathcal I\mathcal O_Z}(Z)\hookrightarrow\operatorname{Bl}_{\mathcal I}(X)$
+with $b_{X,\mathcal I}\circ k=j\circ b_{Z,\mathcal I\mathcal O_Z}$.
 
 ## Proof
 

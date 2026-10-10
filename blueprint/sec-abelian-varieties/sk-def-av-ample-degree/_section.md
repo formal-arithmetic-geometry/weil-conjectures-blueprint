@@ -7,15 +7,19 @@ order = 435
 +++
 *Definition (sketch).*
 
-Let $X$ be a proper scheme of dimension $g$ over a field $k$. An
-invertible $\cO_X$-module $\cM$ is *ample* if $\cM^{\otimes m}$ is
-very ample for some $m\ge1$, i.e. if it is the pullback of
-$\cO(1)$ along a closed immersion $X\hookrightarrow\mathbf P^N_k$ for
-some $m$. For ample $\cM$ the function $m\mapsto \chi(X,\cM^{\otimes m})$ is a numerical polynomial of degree at most
-$g$ (the Hilbert polynomial), and the *degree of $X$ with respect
-to $\cM$* is
+Let $X$ be a scheme over a field $k$. An $\cO_X$-module $\cM$ is
+*very ample* if it is the pullback of $\cO(1)$ along a closed immersion
+$X\hookrightarrow\mathbf P^N_k$ over $k$, and *ample* if
+$\cM^{\otimes m}$ is very ample for some $m\ge1$. Let $g$ be the Krull
+dimension of $X$ ($g=0$ if $X$ is empty or infinite-dimensional). The
+*degree of $X$ with respect to $\cM$* is the $g$-th forward difference
+at $0$ of the Hilbert function $m\mapsto \chi(X,\cM^{\otimes m})$:
 
 $$
-\deg_{\cM}(X):=g!\cdot\bigl(\text{leading coefficient of }
-m\mapsto\chi(X,\cM^{\otimes m})\bigr).
+\deg_{\cM}(X):=\sum_{i=0}^{g}(-1)^{g-i}\binom gi\,
+\chi(X,\cM^{\otimes i}).
 $$
+
+For $X$ proper and $\cM$ ample invertible the Hilbert function is a
+numerical polynomial of degree at most $g$ (the Hilbert polynomial), and
+$\deg_{\cM}(X)$ is $g!$ times its coefficient of $m^g$.

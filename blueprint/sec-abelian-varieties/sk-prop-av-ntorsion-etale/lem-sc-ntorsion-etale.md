@@ -2,38 +2,40 @@
 id = "lem-sc-ntorsion-etale"
 kind = "lemma"
 title = "The $n$-torsion of an abelian variety is etale"
-lean = ["AlgebraicGeometry.etale_torsionSubgroupScheme"]
+lean = ["AlgebraicGeometry.etale_torsionSubgroupScheme", "AlgebraicGeometry.isFinite_torsionSubgroupScheme", "AlgebraicGeometry.bijective_toUnit_comp_torsionSubgroupScheme", "AlgebraicGeometry.nonempty_addEquiv_torsionBy"]
 order = 589
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-mult-n", "lem-sc-av-commutative", "lem-sc-divisible-group-structure", "lem-sc-fg-order-prime-etale", "lem-sc-finite-etale-points", "lem-sc-isogeny-facts", "lem-sc-isogeny-surjective", "lem-sc-mult-n-etale-kernel", "lem-sc-mult-n-finite-flat"]
 +++
 Let $A$ be an abelian variety
-of dimension $g$ over an algebraically closed field $k$ and let
-$n$ be prime to $\operatorname{char}k$. Then
+of dimension $g$ over a field $k$ and let
+$n\geq1$ be prime to $\operatorname{char}k$. Then
 $A[n]=\ker([n])$ ([def-sc-mult-n]) is a finite etale
-group scheme over $k$, the
+group scheme over $k$. If moreover $k$ is algebraically closed, the
 canonical base change map
 
 $$
 A[n](k)\xrightarrow{\ \sim\ }A[n](k')
 $$
 
-is an isomorphism for every extension $k\subseteq k'$ of
-algebraically closed fields, and
+is a bijection for every extension $k\subseteq k'$ of
+algebraically closed fields, and the $n$-torsion subgroup of $A(k)$
+satisfies
 
 $$
-A[n](k)\cong(\mathbf Z/n\mathbf Z)^{2g}.
+A[n](k)=A(k)[n]\cong(\mathbf Z/n\mathbf Z)^{2g}.
 $$
 
 ## Proof
 
 By [lem-sc-isogeny-facts](b), $A[n]$ is a finite flat group
-scheme of order $n^{2g}$, prime to $\operatorname{char}k$
-([lem-sc-mult-n-finite-flat]); by
-[lem-sc-fg-order-prime-etale] it is etale (equivalently, $[n]$ is etale, by
-[lem-sc-mult-n-etale-kernel]), and by
-[lem-sc-finite-etale-points] the map
-$A[n](k)\to A[n](k')$ is a bijection. It remains to identify the
-group structure. Since $[n]$ is surjective on $k$-points for
+scheme of order $n^{2g}$ over the field $k$, and $n^{2g}$ is prime to
+$\operatorname{char}k$ ([lem-sc-mult-n-finite-flat]); by
+[lem-sc-fg-order-prime-etale], which holds over any field, it is
+etale (equivalently, $[n]$ is etale, by [lem-sc-mult-n-etale-kernel]).
+
+Now let $k$ be algebraically closed. By [lem-sc-finite-etale-points]
+the map $A[n](k)\to A[n](k')$ is a bijection. It remains to identify
+the group structure. Since $[n]$ is surjective on $k$-points for
 every $n$ ([lem-sc-isogeny-surjective]), the group $A(k)$
 is divisible; by [lem-sc-av-commutative] it is abelian. For a
 prime power $\ell^e$ with $\ell\neq\operatorname{char}k$, the

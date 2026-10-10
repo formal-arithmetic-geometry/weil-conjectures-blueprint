@@ -13,10 +13,13 @@ X\xrightarrow{j}\overline X\xrightarrow{p}Y,
 \qquad f=pj,
 $$
 
-with $j$ a quasi-compact open immersion and $p$ proper. For this datum set
+with $j$ an open immersion and $p$ proper. For this datum and $E$ in the
+derived category of sheaves on $X_{\Et}$ set
 
 $$
-Rf_!^{(j,p)}E:=Rp_*j_!E.
+Rf_!^{(j,p)}E:=Rp_*j_!E,
 $$
+
+where $j_!$ (extension by zero) is exact and so is applied termwise.
 
 For proper $f$, its identity compactification is $(j,p)=(1_X,f)$.

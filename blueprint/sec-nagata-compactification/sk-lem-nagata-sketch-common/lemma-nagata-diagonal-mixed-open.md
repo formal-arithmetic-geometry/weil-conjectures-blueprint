@@ -5,8 +5,9 @@ title = "The diagonal on a mixed open"
 order = 235
 lean = ["AlgebraicGeometry.diagonalRestrictChartArrowIso"]
 +++
-Let $X=U\cup V$ be an open cover over $S$. The pullback of
-$\Delta_{X/S}$ to $U\times_SV$ is canonically the map
+Let $X$ be an $S$-scheme and let $U,V\subseteq X$ be open subschemes. The
+restriction of $\Delta_{X/S}$ over the open $U\times_SV\subseteq X\times_SX$
+is canonically isomorphic, as an arrow, to the map
 
 $$
 U\cap V\longrightarrow U\times_SV.

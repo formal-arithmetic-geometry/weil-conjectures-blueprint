@@ -37,10 +37,7 @@ in $A$, both sides being categorical traces of endomorphisms of
 perfect complexes. This is the coefficient-morphism variant of the
 finite-coefficient trace formula; for the scheme-Frobenius map
 $\psi=u_1$ of a strict Weil complex it gives the
-Grothendieck–Lefschetz formula over a finite ring, which is deduced from
-it below. It is the form needed
-when an integral lift of a field-stage Weil isomorphism is not itself
-invertible.
+Grothendieck–Lefschetz formula over a finite ring.
 
 ## Proof
 

@@ -28,8 +28,6 @@ for any $q$ and any abelian sheaf $\mathcal F$ on $T_{\Et}$ all of
 whose stalks at geometric points are torsion of orders invertible on
 $S$, the isomorphism being the base-change map of
 [sbc-def-base-change-map].
-(*Stacks Project, Etale Cohomology, Theorem 59.89.2, [Tag `0EYU`](https://stacks.math.columbia.edu/tag/0EYU); this chapter follows the second, shorter proof
-of that theorem.*)
 
 ## Proof
 

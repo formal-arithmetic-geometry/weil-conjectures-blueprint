@@ -3,11 +3,20 @@ id = "lemma-weil-pbc-prime-torsion-devissage"
 kind = "lemma"
 title = "Prime-torsion devissage"
 order = 1090
+lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isTorsionSheaf"]
 uses = ["lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-prime-factor-induction", "lemma-weil-pbc-torsion-filtered-union"]
 +++
-For a torsion sheaf $F$, write $F[n]=\ker(n:F\to F)$. Then
-$F=\varinjlim_nF[n]$; for $m\mid n$ the inclusion $F[m]\subseteq F[n]$
-is monic, and if $n=\prod_i\ell_i^{e_i}$, repeated use of
+Let $\Lambda$ be a commutative ring and $\square$ a cartesian square in which
+$f$ (equivalently, by base change, also $f'$) is quasi-compact and
+quasi-separated, and let $\Ex^q_{\square,E}:g^{-1}R^qf_*E\to R^qf'_*g'^{-1}E$ be
+the degree-$q$ exchange maps on sheaves $E$ of $\Lambda$-modules on $X_{\Et}$.
+Suppose that $\Ex^q_{\square,E}$ is an isomorphism for every $q$ and every sheaf
+$E$ killed by a prime. Then $\Ex^q_{\square,F}$ is an isomorphism for every $q$
+and every torsion sheaf $F$ (every geometric stalk is a torsion abelian group).
+
+For this, write $F[n]=\ker(n:F\to F)$. Then $F=\varinjlim_nF[n]$; for $m\mid n$
+the inclusion $F[m]\subseteq F[n]$ is monic, and if $n=\prod_i\ell_i^{e_i}$,
+repeated use of
 
 $$
 0\longrightarrow F[\ell_i]\longrightarrow F[n]
@@ -18,8 +27,15 @@ reduces assertions about $F[n]$ to assertions about $\ell_i$-torsion.
 
 ## Proof
 
-The filtered union is Lemma [lemma-weil-pbc-torsion-filtered-union].
-The exact sequence is the kernel–image sequence for multiplication by
-$\ell_i$, since the kernel in $F[n]$ is $F[\ell_i]$. Lemma [lemma-weil-pbc-prime-factor-induction] and the
-five-lemma transfer then prove the assertion for every $F[n]$, and
-Lemma [lemma-weil-pbc-direct-image-filtered-colimit] passes to $F$.
+The filtered union $F=\varinjlim_nF[n]$ is Lemma
+[lemma-weil-pbc-torsion-filtered-union]. The exact sequence is the
+kernel–image sequence for multiplication by $\ell_i$, since the kernel in
+$F[n]$ is $F[\ell_i]$. Lemma [lemma-weil-pbc-prime-factor-induction] (whose
+inductive step is the five-lemma transfer
+[lemma-weil-pbc-five-lemma-transfer]) proves that $\Ex^q_{\square,F[n]}$ is an
+isomorphism for every $n$ and $q$. Both $E\mapsto g^{-1}R^qf_*E$ and
+$E\mapsto R^qf'_*g'^{-1}E$ commute with filtered colimits: $g^{-1}$ and $g'^{-1}$
+are left adjoints, and $R^qf_*$, $R^qf'_*$ commute with filtered colimits for
+quasi-compact quasi-separated morphisms by
+[lemma-weil-pbc-direct-image-filtered-colimit]. Passing to the colimit over $n$,
+$\Ex^q_{\square,F}=\varinjlim_n\Ex^q_{\square,F[n]}$ is an isomorphism.

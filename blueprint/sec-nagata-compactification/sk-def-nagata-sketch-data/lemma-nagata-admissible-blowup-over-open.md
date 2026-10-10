@@ -6,16 +6,15 @@ order = 62
 lean = ["AlgebraicGeometry.IsAdmissible.isIso_blowupMap_restrict"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "lemma-nagata-affine-blowup-complement", "lemma-nagata-ideal-unit-off-support", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
 +++
-If $\pi\colon X'\to X$ is $U$-admissible, then its center ideal restricts to
-the unit ideal on $U$, and the induced morphism
-$X'\times_XU\to U$ is an isomorphism. The inverse and the equality over
-$U$ are part of the resulting specified isomorphism.
+Let $\mathcal I$ be a $U$-admissible blow-up center on $X$ and let
+$\pi\colon\operatorname{Bl}_{\mathcal I}(X)\to X$ be the associated
+$U$-admissible blow-up. Then the restriction
+$\pi^{-1}(U)\to U$ of $\pi$ is an isomorphism.
 
 ## Proof
 
-Choose the ideal and blow-up identification from
-[def-nagata-admissible-blowup]. The unit-ideal restriction is the
-disjointness condition on the center. Apply
-[thm-nagata-global-blowup-complement] to identify the blow-up over $U$
-with $U$, then transport that isomorphism across the chosen identification
-with $X'$.
+By [def-nagata-admissible-blowup] the support $V(\mathcal I)$ is disjoint
+from $U$, so $U$ is an open subset of $X\setminus V(\mathcal I)$. By
+[thm-nagata-global-blowup-complement] the restriction of $\pi$ over
+$X\setminus V(\mathcal I)$ is an isomorphism; restricting further over the
+open $U$ gives that $\pi^{-1}(U)\to U$ is an isomorphism.

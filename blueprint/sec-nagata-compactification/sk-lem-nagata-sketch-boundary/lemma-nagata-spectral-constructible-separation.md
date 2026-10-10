@@ -5,11 +5,6 @@ title = "Properties of the constructible separation data"
 order = 254
 uses = ["def-nagata-spectral-constructible-separation", "lemma-nagata-spectral-constructible-separation-exists"]
 +++
-**Status.** Bypassed by the formalized route: the existence statement
-`PrespectralSpace.exists_isCompact_isOpen_disjoint_union_eq_univ`
-is used directly, so no selected separation datum and specification lemma
-are introduced.
-
 The constructed subsets $T_c,T'_c$ are constructible and closed in $V$,
 and they satisfy
 

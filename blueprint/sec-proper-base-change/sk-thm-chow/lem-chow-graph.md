@@ -6,42 +6,34 @@ order = 1057
 lean = ["AlgebraicGeometry.ChowGraph", "AlgebraicGeometry.ChowGraph.emb", "AlgebraicGeometry.ChowGraph.exists_isClosedImmersion_over", "AlgebraicGeometry.ChowGraph.proj", "AlgebraicGeometry.ChowGraph.toGraph"]
 uses = ["def-chow-segre", "def-nagata-affine-proj", "def-nagata-dense-compactification", "def-nagata-projective-space-base-change", "def-nagata-scheme-image-comparison", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-chow-closed-model", "lem-chow-scheme-theoretic-closure", "lem-chow-segre", "lem-chow-tuple-immersion", "lem-weil-pbc-closed-immersion-products", "lemma-nagata-dense-affine-cover-exists", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal"]
 +++
-Let $S$ be noetherian, let $X\to S$ be separated of finite type and let
-$X=U_1\cup\dots\cup U_m$ be a finite affine open covering such that
-$U:=U_1\cap\dots\cap U_m$ is scheme-theoretically dense in $X$. Choose, by
-[lem-chow-affine-immersion], immersions
-$j_i\colon U_i\to\mathbf P^{n_i}_S$ and, by [lem-chow-closed-model],
-closed subschemes $Z_i\subseteq\mathbf P^{n_i}_S$ with $U_i\to Z_i$ a
-scheme-theoretically dense open immersion and $Z_i\to S$ proper. Let
-$Z\subseteq\mathbf P^{n_1}_S\times_S\dots\times_S\mathbf P^{n_m}_S$ be the
-scheme-theoretic image of
+Let $f\colon X\to S$ be a morphism of schemes, let $U_1,\dots,U_m$ be finitely
+many open subschemes of $X$ and put $U:=U_1\cap\dots\cap U_m$. For each $i$ let
+$Z_i$ be a proper closed model of $U_i\to S$ as in [lem-chow-closed-model]: a
+closed immersion $Z_i\to\mathbf P^{n_i}_S$ ($n_i$ a finite set) and a
+scheme-theoretically dense open immersion $U_i\to Z_i$ compatible with the
+maps to $S$. Let $Z\subseteq\mathbf P^{n_1}_S\times_S\dots\times_S\mathbf P^{n_m}_S$
+(the product in the category of $S$-schemes) be the scheme-theoretic image of
 
 $$
-j=(j_1|_U,\dots,j_m|_U)\colon U
-\longrightarrow\mathbf P^{n_1}_S\times_S\dots\times_S\mathbf P^{n_m}_S .
+j=(j_1,\dots,j_m)\colon U
+\longrightarrow\mathbf P^{n_1}_S\times_S\dots\times_S\mathbf P^{n_m}_S ,
 $$
 
-Then:
+where $j_i$ is the composite $U\subseteq U_i\to Z_i\to\mathbf P^{n_i}_S$. Then:
 
 1. $Z\to\mathbf P^{n_1}_S\times_S\dots\times_S\mathbf P^{n_m}_S$ is a
-closed immersion, $j$ induces an open immersion $U\to Z$ identifying $U$ with
-a scheme-theoretically dense open subscheme of $Z$, and $Z\to S$ is proper;
-1. for every $i$ the projection $\mathrm{pr}_i|_Z\colon Z\to\mathbf P^{n_i}_S$ factors through $Z_i$, and the induced morphism
-$p_i\colon Z\to Z_i$ is proper;
-1. $p_i|_U$ is the open immersion $U\to U_i\to Z_i$; in particular
-$U\subseteq p_i^{-1}(U_i)$.
+closed immersion and $Z\to S$ is proper; moreover there are a finite set $N$
+and a closed immersion $Z\to\mathbf P^N_S$ of $S$-schemes.
 
-The formalisation takes the $m$-fold fibre product
-$\mathbf P^{n_1}_S\times_S\dots\times_S\mathbf P^{n_m}_S$ to be the categorical
-product in the category of $S$-schemes, so that (1) is a closed immersion into
-that product rather than into a single projective space; the composition with
-the Segre embedding of [lem-chow-segre], giving a closed immersion
-$Z\to\mathbf P^N_S$ over $S$ as used in Step 7 of the proof of
-[thm-chow-lemma], is the separate statement
-`ChowGraph.exists_isClosedImmersion_over` listed above. It also
-weakens the hypotheses to what the proof uses:
-the members of the cover need not be affine and need not cover $X$, only $X$
-needs to be a noetherian space, and $U$ need not be dense in $X$.
+If moreover the underlying space of $X$ is noetherian:
+
+2. $j$ induces a scheme-theoretically dominant morphism $U\to Z$, which (if
+$m\geq1$) is an open immersion identifying $U$ with a scheme-theoretically
+dense open subscheme of $Z$;
+3. for every $i$ the projection $\mathrm{pr}_i|_Z\colon Z\to\mathbf P^{n_i}_S$
+factors through $Z_i$, and the induced morphism $p_i\colon Z\to Z_i$ is proper;
+4. $p_i|_U$ is the open immersion $U\to U_i\to Z_i$; in particular (if
+$m\geq1$) $U\subseteq p_i^{-1}(U_i)$.
 
 ## Proof
 
@@ -69,53 +61,6 @@ is proper by 01W6.
 Part (3) is immediate from $\mathrm{pr}_i\circ j=j_i|_U$ and the fact that
 $j_i$ identifies $U_i$ with an open subscheme of $Z_i$.
 
-## Detailed form
-
-Let $Y=\operatorname{Spec}A$ be affine, let $X\to Y$ be of finite type, and
-let $X=U_1\cup\dots\cup U_m$ be the affine open cover of
-[lemma-nagata-dense-affine-cover-exists], with its dense open $U:=\bigcap_iU_i$.
-Applying [lem-chow-scheme-theoretic-closure] (which keeps $X$ proper
-if it was, and keeps each $U_i$ affine and of finite type over $Y$), we assume
-from now on that $U$ is scheme-theoretically dense in $X$. For each $i$, let
-$U_i\hookrightarrow\mathbf P^{n_i}_Y$ be the immersion of
-[lem-chow-affine-immersion], and let
-$Z_i\subseteq\mathbf P^{n_i}_Y$ be the closed model of
-[lem-chow-closed-model], so that $U_i\hookrightarrow Z_i$ is a
-scheme-theoretically dense open immersion. Put
-
-$$
- Z:=\prod_{i=1}^mZ_i,
-$$
-
-and let $\widetilde X\subseteq Z$ be the scheme-theoretic image
-([def-nagata-scheme-theoretic-image]) of the diagonal morphism
-
-$$
- j=(j_1|_U,\dots,j_m|_U):U\longrightarrow Z.
-$$
-
-Then:
-
-- (i) $U\hookrightarrow\widetilde X$ is a scheme-theoretically dense open
-  immersion, and $\widetilde X\to Y$ is proper;
-- (ii) the projections $\mathrm{pr}_i|_{\widetilde X}:\widetilde
-  X\to\mathbf P^{n_i}_Y$ factor through $Z_i$, i.e. there are morphisms
-  $p_i:\widetilde X\to Z_i$ with
-  $p_i=(\mathrm{pr}_i|_{\widetilde X}\text{ co-restricted})$, and each $p_i$
-  is proper;
-- (iii) the composite
-
-  $$
-   \widetilde X\hookrightarrow Z\hookrightarrow\prod_{i=1}^m\mathbf P^{n_i}_Y
-   \xrightarrow{\ s\ }\mathbf P^N_Y,\qquad N=\prod_{i=1}^m(n_i+1)-1,
-  $$
-
-  of the closed immersion $\widetilde X\hookrightarrow Z$, the product of the
-  closed immersions $Z_i\hookrightarrow\mathbf P^{n_i}_Y$, and the Segre
-  embedding ([def-chow-segre],
-  [lem-chow-segre]) is a closed immersion.
-
-## Proof
 
 *The reduction step is legitimate.* By
 [lem-chow-scheme-theoretic-closure], $X^{*}\to X$ is a surjective

@@ -10,6 +10,10 @@ uses = ["def-constructible-constant", "def-constructible-constructible", "def-co
 Let $X$ be a scheme and let $\mathcal F\in\shv{\et X}$ be constructible.
 Then there is a dense open $U\subseteq X$ such that $\mathcal F|_U$ is
 finite locally constant. (No Noetherian hypothesis on $X$ is needed.)
+Moreover, for every finite stratification of a topological space the
+union of the interiors of the strata is dense, and a sheaf
+$\mathcal G\in\shv{\et X}$ whose pullbacks to the members of an open cover
+of $X$ are finite locally constant is finite locally constant.
 
 ## Proof
 

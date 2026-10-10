@@ -6,7 +6,7 @@ order = 1955
 uses = ["def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-weil-derived-tensor-functorial"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
-let $f:X\to Y$ be separated finite type; Put
+let $f:X\to Y$ be separated finite type; put
 $W=X\times_YX$ with projections $p_1,p_2$ and
 diagonal $\Delta$, and let $L\in D^b_{ctf}(X,\Lambda)$ be
 tensor-invertible. A *trace–diagonal datum* for $(f,L)$ is a
@@ -18,7 +18,7 @@ $$
 \operatorname{cl}_\Delta:\Delta_!\Lambda_X\longrightarrow p_2^*L.
 $$
 
-The *induced functor* (a functor by [lem-weil-derived-tensor-functorial]) is
+The *induced functor* is
 
 $$
 G_L:D^b_{ctf}(Y,\Lambda)\longrightarrow D^b_{ctf}(X,\Lambda),
@@ -33,7 +33,7 @@ $$
 \xrightarrow{\ \operatorname{id}\otimes\operatorname{tr}_f\ }K;
 $$
 
-$\operatorname{cl}_\Delta$ defines, the *unit*
+$\operatorname{cl}_\Delta$ defines the *unit*
 
 $$
 \eta_A:A\cong Rp_{2!}\bigl(p_1^*A\otimes^L_{\Lambda_W}\Delta_!\Lambda_X\bigr)
@@ -58,3 +58,7 @@ $$
 
 natural in $A\in D^b_{ctf}(X,\Lambda)$ and
 $K\in D^b_{ctf}(Y,\Lambda)$.
+
+## Proof
+
+The induced functor $G_L$ is a functor by [lem-weil-derived-tensor-functorial].

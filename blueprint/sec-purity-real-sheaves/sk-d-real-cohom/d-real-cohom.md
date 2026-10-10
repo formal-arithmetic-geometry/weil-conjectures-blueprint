@@ -28,5 +28,3 @@ $$
 
 Locally finite means that only finitely many factors contribute to any
 fixed coefficient; there are finitely many closed points of bounded degree.
-
-Uses: [d-real-setup], [def-weil-weil-sheaf-complex], [def-wf-constant-weil-twist], [def-wf-iota-real]

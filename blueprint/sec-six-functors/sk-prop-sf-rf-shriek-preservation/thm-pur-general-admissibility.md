@@ -8,14 +8,11 @@ uses = ["cor-exc-base-change-open-immersion-general", "cor-pur-smooth-admissibil
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $f:X\to Y$ be a
 separated finite-type
-morphism. The
-ambient exceptional right
-adjoint datum of [def-weil-ambient-exceptional-adjoint] was the
-hypothesis under which this theorem was formerly stated; it is not assumed
-here, the right adjoints $Rf^{\times}$, $R(\pi_U)^{\times}$,
-$R(i_U)^{\times}$ that the proof forms being available on the bounded
-constructible and finite-Tor coefficients of the two clauses below by
-[cor-sf-ambient-adjoint-discharge]. Cover $Y$ by finitely
+morphism. The ambient exceptional right adjoint datum of
+[def-weil-ambient-exceptional-adjoint] is not assumed: the right adjoints
+$Rf^{\times}$, $R(\pi_U)^{\times}$, $R(i_U)^{\times}$ that the proof forms
+exist on the bounded constructible and finite-Tor coefficients of the two
+clauses below by [cor-sf-ambient-adjoint-discharge]. Cover $Y$ by finitely
 many affine opens $V\subseteq Y$; for each $V$, $f^{-1}(V)$ is
 covered by finitely many affine opens $U\subseteq f^{-1}(V)$, and each
 $U\to V$ is affine of finite type, hence a closed subscheme of

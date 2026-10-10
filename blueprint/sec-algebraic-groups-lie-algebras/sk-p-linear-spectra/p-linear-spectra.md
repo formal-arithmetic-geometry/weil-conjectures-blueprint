@@ -18,12 +18,12 @@ $$
 \operatorname{eig}(f^\vee)=\{\alpha_i^{-1}\}
 $$
 
-(the last for invertible $f$); in particular $\alpha^n$ is an eigenvalue of
+(the last for invertible $f$, where $f^\vee=(f^{-1})^*$ is the
+contragredient on the dual space); in particular $\alpha^n$ is an eigenvalue of
 $f^{\otimes n}$. Concretely, in an exterior basis a diagonal map with
 entries $c_1,\ldots,c_r$ has entries $c_{i_1}\cdots c_{i_s}$ with
 $i_1<\cdots<i_s$. Applied to $\rho_V(w)$ and $\rho_W(w)$, these compute the spectra of the
 tensor, exterior-power and determinant representations of [d-weights].
-lem:exterior-basis
 
 ## Proof
 
@@ -49,5 +49,3 @@ The exterior basis and the sign rule are Mathlib's
 `exteriorPower.basis_apply` and
 `AlternatingMap.map_perm`; the tensor, exterior and dual spectra
 themselves are absent there.
-
-Uses: [d-weights], [p-linear-triangular]

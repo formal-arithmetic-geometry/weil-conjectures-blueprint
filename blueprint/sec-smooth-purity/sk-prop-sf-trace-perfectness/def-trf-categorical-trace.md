@@ -10,10 +10,7 @@ and the coefficient
 conventions, with $A=A_{E,n}$, and define
 $D^b_{\mathrm{fin}}(A)$ to be the category of *perfect*
 $A$-complexes, realized explicitly as the category of bounded
-complexes of finitely generated projective $A$-modules, (The
-perfect form is the one needed here: only perfect complexes are
-dualizable with respect to the derived tensor, so only for them does
-the coevaluation of the display below exist.)
+complexes of finitely generated projective $A$-modules.
 For $P\in D^b_{\mathrm{fin}}(A)$ put
 $P^\vee=R\operatorname{Hom}_A(P,A)$. The coevaluation and evaluation
 are
@@ -23,8 +20,7 @@ $$
 \operatorname{ev}_P:P^\vee\otimes_A^LP\longrightarrow A,
 $$
 
-the triangle identities for which are
-[lem-trf-chain-supertrace]; here $\otimes^L_A$ is the
+where $\otimes^L_A$ is the
 derived tensor over $A$. For an
 endomorphism $v:P\to P$, the *categorical trace* is
 
@@ -35,9 +31,5 @@ $$
 \in\operatorname{End}_{D(A)}(A)\cong A.
 $$
 
-The identification $\operatorname{End}_{D(A)}(A)\cong A$ is the
-classical one (a bounded complex concentrated in degree $0$ with
-zero differentials: the quasi-isomorphism class of an endomorphism of
-$A$ is its degree-$0$ scalar).
-
-*Recorded in advance* from chapter *The trace formula* of the source.
+Here $\operatorname{End}_{D(A)}(A)\cong A$ sends an endomorphism of
+$A$ to its degree-$0$ scalar.

@@ -10,24 +10,19 @@ In the conventions of [rem-dl-a1-conventions], let
 $j:U_0\hookrightarrow C_0$ be a dense open immersion of smooth
 curves over $k_0$, let $i:Z_0\hookrightarrow C_0$ be the closed
 complement with its reduced structure, and let $F$ be a lisse
-$\Qlb$-Weil sheaf on $U_0$, with dual $F^\vee$. Put
-$A(F)=i^*Rj_*F$ on $Z$. Then there is a canonical
-Frobenius-equivariant isomorphism
-
-$$
-\mathbb D_Z A(F)\;\simeq\;A(F^\vee)(1)[1].
-$$
-
-Consequently, for every missing closed point $s\in Z_0$, with
-geometric point $\bar s$ and local geometric Frobenius $F_s$, there is
-a canonical perfect $F_s$-equivariant pairing
+$\Qlb$-Weil sheaf on $U_0$, with dual $F^\vee$; write
+$A(F)=i^*Rj_*F$ on $Z$. Then, for every missing closed point $s\in Z_0$,
+with geometric point $\bar s$, local geometric Frobenius $F_s$ and
+$q_s=\#k(s)$, there is a perfect $F_s$-equivariant pairing
 
 $$
 (j_*F^\vee)_{\bar s}\otimes(R^1j_*F)_{\bar s}
 \longrightarrow\Qlb(-1),
 $$
 
-equivalently an isomorphism
+that is, a linear isomorphism
+$e:(j_*F^\vee)_{\bar s}\xrightarrow{\sim}(R^1j_*F)_{\bar s}^\vee$ with
+$e(F_sa)(F_sb)=q_s\,e(a)(b)$ for all $a,b$; equivalently an isomorphism
 $(R^1j_*F)_{\bar s}^\vee\simeq(j_*F^\vee)_{\bar s}(1)$. Here
 $j_*$ is the ordinary direct image.
 
@@ -128,4 +123,9 @@ orientations, whose equivariance and trace compatibility are
 [prop-pur-rational-purity-trace-coherence]. Hence the isomorphism of
 Step 4 is one of Weil complexes on $Z_0$, and its stalk at $\bar s$
 commutes with $F_s$; the twists carry their prescribed Frobenius
-actions.
+actions. Concretely, let $e:(j_*F^\vee)_{\bar s}\to(R^1j_*F)_{\bar s}^\vee$
+be the linear isomorphism underlying the stalk isomorphism of Step 5.
+The local Frobenius acts on $(j_*F^\vee)_{\bar s}(1)$ as $q_s^{-1}F_s$
+and on the dual $(R^1j_*F)_{\bar s}^\vee$ contragrediently, so
+equivariance reads $e(q_s^{-1}F_sa)=e(a)\circ F_s^{-1}$, that is,
+$e(F_sa)(F_sb)=q_s\,e(a)(b)$ for all $a,b$.

@@ -22,8 +22,7 @@ functorial in the pair $(X,X\setminus Z)$ and in $F$. The same
 statement holds for bounded-below complexes with torsion cohomology in the
 derived category of [def-weil-pbc-derived-categories], and on the
 pro-etale site of $X$ for finite-torsion coefficients, by the comparison
-[thm-weil-pbc-site-comparison]. (Source: Milne, Lectures on Etale
-Cohomology, Section 9, Theorem 9.3 and the exactness axiom of the etale site.)
+[thm-weil-pbc-site-comparison].
 
 ## Proof
 

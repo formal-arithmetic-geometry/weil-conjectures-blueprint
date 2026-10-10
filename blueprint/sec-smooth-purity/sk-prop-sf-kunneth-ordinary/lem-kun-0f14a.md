@@ -31,8 +31,7 @@ $$
 \pr_1^{-1}E\kunotimes{\mathbf Z}\pr_2^{-1}K\bigr)
 $$
 
-is an isomorphism. (*Source:* Stacks Project, Tag
-[0F14](https://stacks.math.columbia.edu/tag/0F14), part (1).)
+is an isomorphism.
 
 ## Proof
 

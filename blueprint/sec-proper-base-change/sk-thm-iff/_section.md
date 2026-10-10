@@ -8,9 +8,10 @@ uses = ["sk-def-conv", "sk-def-exchange", "sk-def-ia", "sk-def-pbc", "sk-thm-acy
 +++
 *Theorem (sketch).*
 
-For a proper morphism $f$:
-$\mathrm{PBC}(f)$ in the sense of [sk-def-pbc] holds if and only if
-$\mathrm{IA}(f)$ in the sense of [sk-def-ia] holds.
+Let $\Lambda$ be a commutative ring which is torsion as an additive group
+(e.g. $\Lambda=\mathbf Z/n\mathbf Z$), and let $f$ be a proper morphism of
+schemes. Then $\mathrm{PBC}_\Lambda(f)$ in the sense of [sk-def-pbc] holds if
+and only if $\mathrm{IA}_\Lambda(f)$ in the sense of [sk-def-ia] holds.
 
 ## Proof
 
@@ -32,5 +33,3 @@ restriction on spectral spaces, checked stalkwise, and geometric
 stalks are conservative). Prime coefficients give all $n$-torsion
 sheaves by the exact sequence $0\to F[r]\to F\to rF\to0$ and the
 five lemma; all torsion sheaves are filtered unions $F=\varinjlim F[n]$, over which the proper $R^qf_*$ commutes.
-
-Uses: [sk-def-conv], [sk-def-exchange], [sk-def-ia], [sk-def-pbc], [sk-thm-acyclicity]

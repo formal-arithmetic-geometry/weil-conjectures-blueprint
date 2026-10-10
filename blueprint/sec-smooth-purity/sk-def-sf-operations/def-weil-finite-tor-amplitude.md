@@ -38,9 +38,10 @@ $$
 $$
 
 The second equality is interpreted in the finite-stage triangulated
-2-colimit. For $A_{E,n}$, finite Tor amplitude is an additional condition and
-does not follow from bounded constructibility. At the integral stage it is
-imposed by the displayed definition; the separate residue-field argument
-below proves that every object of the derived-complete constructible category
-in fact satisfies it. This conclusion uses the compatibility of all
-reductions of one integral object.
+2-colimit.
+
+For $A_{E,n}$, finite Tor amplitude is an additional condition and does not
+follow from bounded constructibility. At the integral stage it is imposed by
+the displayed definition; a separate residue-field argument, using the
+compatibility of all reductions of one integral object, shows that every
+object of the derived-complete constructible category in fact satisfies it.

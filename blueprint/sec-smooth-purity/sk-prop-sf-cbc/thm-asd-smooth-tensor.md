@@ -17,8 +17,6 @@ $$
 f^*K\otimes_A^L\omega_f\xrightarrow{\sim}f^\times K.
 $$
 
-The notation refers to inverse images.
-
 ## Proof
 
 Construct the tensor morphism by transposing

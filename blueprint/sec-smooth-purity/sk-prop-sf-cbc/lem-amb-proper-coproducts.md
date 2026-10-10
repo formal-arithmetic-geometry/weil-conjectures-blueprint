@@ -9,7 +9,6 @@ Let $r:V\to T$ be a proper
 morphism of finite type between Noetherian schemes. On the
 ordinary derived categories
 of etale $A$-module sheaves, $Rr_*$ preserves arbitrary coproducts.
-The notation refers to derived direct images.
 
 ## Proof
 

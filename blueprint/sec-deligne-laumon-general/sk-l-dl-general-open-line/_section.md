@@ -9,8 +9,9 @@ uses = ["sk-d-dl-a1-setup", "sk-d-dl-general-weights", "sk-p-real-semi", "sk-pro
 *Lemma (sketch).*
 
 Let $C_0$ be a nonempty open of $\mathbf P^1_{k_0}$ and $F_0$ a lisse
-Weil sheaf pure of weight $w$. Then $H_c^r(C,F)$ has weights at most
-$w+r$, without a ramification restriction at the original infinity.
+Weil sheaf on $C_0$, punctually $\iota$-pure of weight $w$. Then for every
+$r\in\mathbf Z$, $H_c^r(C,F)$ has weights at most $w+r$, without a
+ramification restriction at the original infinity.
 
 ## Proof
 
@@ -34,5 +35,3 @@ one use $H^0(B)\to H_c^1(C,F)\to H^1(\mathbf P^1,J)\to0$;
 degrees zero and two follow by injection and isomorphism, respectively.
 The other degrees vanish. Constant extension replaces Frobenius by a
 power and preserves normalized weights, so the bounds descend.
-
-Uses: [sk-d-dl-a1-setup], [sk-d-dl-general-weights], [sk-p-real-semi], [sk-prop-sf-open-closed-triangle], [sk-thm-dl-a1-upper]

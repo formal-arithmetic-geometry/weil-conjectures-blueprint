@@ -9,15 +9,14 @@ Let $f:X\to Y$ be a proper morphism of schemes and $y\in Y$. Assume
 that $Y$ is locally Noetherian and that $f^{-1}(\{y\})$ is finite.
 Then for any coherent sheaf $\mathcal F$ on $X$ we have
 $(R^pf_*\mathcal F)_y=0$ for all $p>0$.
-(*Stacks Project, Cohomology of Schemes, Lemma 30.20.8, Tag
-[02OE](https://stacks.math.columbia.edu/tag/02OE), whose proof uses
-the theorem on formal functions, Theorem 30.20.5, Tag
-[02OC](https://stacks.math.columbia.edu/tag/02OC).*)
 
 ## Proof
 
-The theorem on formal functions (recorded classical input cited in the
-statement): with $\widehat{\mathcal O_{Y,y}}$ the completion of the
+*Reference: Stacks Project, Cohomology of Schemes, Lemma 30.20.8,
+[Tag 02OE](https://stacks.math.columbia.edu/tag/02OE).*
+We use the theorem on formal functions (Stacks Project, Cohomology of
+Schemes, Theorem 30.20.5,
+[Tag 02OC](https://stacks.math.columbia.edu/tag/02OC)): with $\widehat{\mathcal O_{Y,y}}$ the completion of the
 local ring, with the $n$-th infinitesimal neighbourhoods
 
 $$

@@ -21,8 +21,7 @@ $J_0$, on the right through that of $C_0$. In particular, for every $n$
 and every $\ell$, restricting to $\ell^n$-torsion gives a
 $\operatorname{Gal}(k_s/k_0)$-equivariant isomorphism
 $J_0[\ell^n](\bar k_0)\cong\Pic^0(C)[\ell^n]$. No rational point of
-$C_0$ is assumed; the finite-field case $k_0=\mathbf F_q$ is the one used
-downstream.
+$C_0$ is assumed.
 
 ## Proof
 
@@ -148,5 +147,3 @@ the rigidified construction over separably closed fields is Blueprint
 [0B9Z](https://stacks.math.columbia.edu/tag/0B9Z), which
 keeps the separably closed hypothesis), and the passage from $k_s$ to a
 general base is exactly Steps 2–4.
-
-Uses: [sk-def-picard-pic], [sk-prop-av-projective], [sk-prop-jacobian], [sk-prop-picard-degree-decomposition], [sk-prop-picard-pic-split], [sk-thm-picard-main]

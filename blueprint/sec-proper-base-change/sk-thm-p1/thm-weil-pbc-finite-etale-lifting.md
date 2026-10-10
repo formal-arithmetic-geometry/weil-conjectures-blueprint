@@ -14,17 +14,6 @@ $$
 
 It lifts morphisms and finite group actions uniquely.
 
-**Status.** The former proof invoked the torsion degree-zero comparison for
-the map $H^0(Z,\mathcal O_Z)\to H^0(Z_0,\mathcal O_{Z_0})$ on structure
-sheaves; that citation applies in neither reading, since the structure sheaf
-is not torsion and the two sheaves are different objects. The needed statement
-is the idempotent lifting interface
-[thm-weil-pbc-henselian-idempotent-lifting], which the proof now cites. The
-rest of the proof — properness of $Z$ over $S$, the dictionary between
-$Y$-morphisms $Y\to Z$ and rank-one idempotents, the Hom-computation, and
-uniqueness of the lifted group action — is proved here and depends on no
-further input.
-
 ## Proof
 
 Put $S=\operatorname{Spec}A$ and $S_0=\operatorname{Spec}(A/I)$, so

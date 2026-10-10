@@ -20,7 +20,6 @@ is an isomorphism for every complex $K$. At $K=A$
 it identifies $g'^*\omega_f$ with $\omega_{f'}$,
 and it respects the tensor isomorphism of
 [thm-asd-smooth-tensor].
-The notation refers to smooth morphisms, and derived pullback and internal Hom.
 
 ## Proof
 

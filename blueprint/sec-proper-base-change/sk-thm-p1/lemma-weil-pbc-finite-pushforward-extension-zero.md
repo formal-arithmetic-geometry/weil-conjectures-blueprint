@@ -5,15 +5,16 @@ title = "Finite pushforward and extension by zero"
 order = 1176
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-finite-open-comparison", "lemma-weil-pbc-curve-locally-constant-reduction", "lemma-weil-pbc-finite-open-comparison-inverse", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
-In a Cartesian square with $j,j'$ open immersions and $\bar v$ finite,
+Consider a Cartesian square as in [def-weil-pbc-finite-open-comparison],
+with $j_X,j_Y$ open immersions and $\bar v$ finite. The morphism
 
 $$
-j_!v_*G\xrightarrow{\sim}\bar v_*j'_!G
+\beta_{\bar v,j_Y,G}:(j_Y)_!v_*G\xrightarrow{\sim}\bar v_*(j_X)_!G
 $$
 
-is the map of Definition [def-weil-pbc-finite-open-comparison]. It is
-functorial in $G$, compatible with identity and composite finite maps, and
-commutes with arbitrary base change.
+of [def-weil-pbc-finite-open-comparison] is an isomorphism. It is natural in
+$G$, compatible with identity and composite finite maps, and commutes with
+arbitrary base change (in particular with extension of the ground field).
 
 ## Proof
 
@@ -99,17 +100,7 @@ same two comparisons in the other order. At a geometric point of
 $\widetilde V$, both routes pull each component $s_{\bar x}$ to the
 corresponding component over the pulled-back geometric fibre. Off
 $\widetilde V$, both routes are zero. The rectangle therefore commutes,
-and the inverse rectangle follows from the two inverse equations. This
-supplies the functoriality omitted at Tag `0GJ1`.
-
-## Detailed form
-
-The morphism $\beta_{\bar v,j_V,G}$ of
-[def-weil-pbc-finite-open-comparison] is an isomorphism. It is
-natural in $G$, compatible with identity and composite finite maps, and stable
-under extension of the ground field.
-
-## Proof
+and the inverse rectangle follows from the two inverse equations.
 
 At a geometric point $\bar y\to Y$, the stalk of the left side is
 $(v_*G)_{\bar y}$ if $\bar y\in V$ and $0$ otherwise; the stalk of the right

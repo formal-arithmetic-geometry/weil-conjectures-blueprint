@@ -8,17 +8,19 @@ lean = ["AlgebraicGeometry.Etale.baseChangeProperty_zero", "AlgebraicGeometry.Et
 +++
 *Proposition (sketch).*
 
-For a Cartesian square as in [sk-def-bc] in which $f:X\to S$ is flat
-and locally of finite presentation with geometrically reduced fibres (in
-particular for $f$ smooth), the degree-zero base-change map
+Let $\Lambda$ be a commutative ring. For a Cartesian square as in
+[sk-def-bc] (so $g$ is quasi-compact and quasi-separated) in which
+$f:X\to S$ is flat and locally of finite presentation with geometrically
+reduced fibres (in particular for $f$ smooth), the degree-zero
+base-change map
 
 $$
 f^{-1}g_*\mathcal F\longrightarrow h_*e^{-1}\mathcal F
 $$
 
-is an isomorphism, for *every* sheaf $\mathcal F$ on $T_{\Et}$ — no
-torsion hypothesis is needed in degree zero. Hence
-$\mathrm{BC}(f,n,0)$ holds for smooth $f$.
+is an isomorphism, for *every* sheaf $\mathcal F$ of $\Lambda$-modules on
+$T_{\Et}$ — no torsion hypothesis is needed in degree zero. Hence
+$\mathrm{BC}(f,\Lambda,0)$ holds for such $f$, in particular for smooth $f$.
 
 ## Proof
 
@@ -59,18 +61,13 @@ along the fpqc covering $U\to V$.
 Step 1 every object of $X_{\Et}$ has a covering by objects of the shape
 used in Step 2, so the two sheaves agree.
 
-*Step 4 ($\mathrm{BC}(f,n,0)$ for smooth $f$).* A smooth morphism
+*Step 4 ($\mathrm{BC}(f,\Lambda,0)$ for smooth $f$).* A smooth morphism
 is flat and locally of finite presentation and its geometric fibres are
 smooth varieties, hence reduced; so Steps 1–3 apply and give the
 degree-zero case of [sk-def-bc] for every quasi-compact
-quasi-separated $g:T\to S$ and every $\Z/n\Z$-sheaf $\mathcal F$.
+quasi-separated $g:T\to S$ and every sheaf $\mathcal F$ of $\Lambda$-modules.
 
 This is Stacks, Étale Cohomology, Lemma 59.87.2
 ([`0EYS`](https://stacks.math.columbia.edu/tag/0EYS)), combining Lemma 59.87.1
 ([`0EZX`](https://stacks.math.columbia.edu/tag/0EZX)) for Steps 2–3 with More on Morphisms,
-Lemma 37.46.3 ([`0EY5`](https://stacks.math.columbia.edu/tag/0EY5)) for Step 1; the detailed
-form is Blueprint 07,
-`sbc-lem-degree-zero-flat-base-change`. (The statement above is
-written in the letters of [sk-def-bc].)
-
-Uses: [sk-def-bc]
+Lemma 37.46.3 ([`0EY5`](https://stacks.math.columbia.edu/tag/0EY5)) for Step 1.

@@ -19,7 +19,7 @@ The base change $X_K=X\times_{\operatorname{Spec} k}\operatorname{Spec} K$ is pr
 (base change of proper [lem-pc-proper-base-change]), and the
 structure morphism $X\to\operatorname{Spec} k$ is proper, so by
 [lem-sc-flat-base-change-coherent] (the affine/flat base change
-case, already decomposed in file 06, applied with the flat $k$-algebra
+case, applied with the flat $k$-algebra
 $K$):
 
 $$

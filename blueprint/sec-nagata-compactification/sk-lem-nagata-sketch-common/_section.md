@@ -8,8 +8,8 @@ lean = ["AlgebraicGeometry.nonempty_commonModification"]
 +++
 *Lemma (sketch).*
 
-Suppose $U\hookrightarrow X_1,X_2$ are open immersions of separated
-finite-type $S$-schemes. There are $U$-admissible blow-ups
+Let $S$ be qcqs and suppose $U\hookrightarrow X_1,X_2$ are quasi-compact
+open immersions over $S$ of separated finite-type $S$-schemes. There are $U$-admissible blow-ups
 $X_i'\to X_i$ and open immersions $X_i'\hookrightarrow W$ covering
 a separated finite-type $S$-scheme $W$, with the two copies of $U$
 identified; see 0F3X.
@@ -24,5 +24,3 @@ schemes. Glue the resulting opens along this common transform.
 The overlap map to $X_1'\times_SX_2'$ is an immersion and is proper:
 its composite to $X_1\times_SX_2$ is proper, while the new product
 is separated over the old one. Thus the overlap map is closed. The diagonal criterion then gives separatedness of $W$.
-
-Uses: [sk-lem-nagata-sketch-blowups], [sk-lem-nagata-sketch-elimination]

@@ -22,17 +22,11 @@ $$
  \longrightarrow D(Y_{\mathrm{proet}},A_{E,n}),
 $$
 
-the functor of [def-weil-compact-support-candidate] attached to $c$. Its
-independence of the chosen compactification, and every other property
-asserted of it in this blueprint, are asserted on the subcategory $\mathcal
-D^{+}_{\mathrm{et}}(X,A_{E,n})$ of that definition, namely on the complexes
-that come from the etale site with an etale-origin witness; there the
-superscript is dropped. For a refinement $u:c_1\to c_2$, use the natural
+the functor of [def-weil-compact-support-candidate] attached to $c$. On the
+subcategory $\mathcal D^{+}_{\mathrm{et}}(X,A_{E,n})$ of that definition,
+namely on the complexes that come from the etale site with an etale-origin
+witness, the superscript is dropped. For a refinement $u:c_1\to c_2$, use the natural
 comparison isomorphism $Rf_{!,n}^{c_1}\xrightarrow{\sim}Rf_{!,n}^{c_2}$
 induced by proper composition and extension by zero. Require these
 comparisons to be the identity for identity refinements and transitive under
-composition. The independence of the resulting functor from the chosen object
-$c$, and the cocycle condition for the comparisons through a common
-refinement, are the compactification-coherence proposition; that $Rf_{!,n}$
-is a triangulated functor is
-[lem-compact-support-direct-image-triangulated].
+composition.

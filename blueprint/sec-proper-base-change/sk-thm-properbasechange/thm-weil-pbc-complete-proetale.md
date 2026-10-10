@@ -21,27 +21,6 @@ $$
 $$
 is an isomorphism.
 
-*Source note:* for proper base change on the pro-etale site, see Stacks
-Project, Pro-etale Cohomology, Section 61.30
-([Tag 09C8](https://stacks.math.columbia.edu/tag/09C8)). This statement is
-Theorem 61.30.1 there
-([Tag 09C9](https://stacks.math.columbia.edu/tag/09C9)): for $f:X\to Y$
-proper, a Noetherian ring $\Lambda$ with an ideal $I$ such that $\Lambda/I$
-is torsion, and $K\in D(X_{\Proet})$ derived complete with
-$K\otimes^L_\Lambda\underline{\Lambda/I^n}$ bounded below with cohomology
-sheaves coming from $X_{\Et}$ and $\Lambda/I^n$ a perfect $\Lambda$-module,
-the base change map $Lg^*_{comp}Rf_*K\to Rf'_*L(g')^*_{comp}K$ is an
-isomorphism. Hypothesis comparison: the blueprint's etale-origin witness is
-exactly Stacks' condition that $K\otimes^L_\Lambda\underline{\Lambda/I^n}$
-be bounded below and of etale origin, and the perfectness of $P_n=A/I^n$ is
-required in the adic coefficient datum; what the blueprint adds is the
-tower-level form, in which the witnesses are required to be compatible over
-$n$ and the completed pullback is the one defined in
-[def-weil-pbc-completed-pullback] from Lemma 61.20.2 ([Tag
-099N](https://stacks.math.columbia.edu/tag/099N)), the proof running through
-the finite-level rectangle and the completed-map reduction rather than
-through Stacks' reduction to etale cohomology.
-
 ## Proof
 
 By the finite-level theorem [thm-weil-pbc-finite-level-proetale], each

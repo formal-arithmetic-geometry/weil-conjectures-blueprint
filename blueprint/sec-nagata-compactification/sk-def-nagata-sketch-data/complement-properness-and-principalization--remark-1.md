@@ -4,10 +4,12 @@ kind = "remark"
 title = "Formalization route"
 order = 61
 +++
-The formal proof (`isProper_blowupMap`) follows this target-local
+The proof of properness follows this target-local
 reduction and settles the affine case
 ([lemma-nagata-affine-blowup-proper]) by identifying
 $\operatorname{Bl}_I(A)\to\operatorname{Spec}(A)$ with
-`Proj.toSpecZero` of the Rees algebra and invoking Mathlib's
-properness of $\operatorname{Proj}$ over its degree-zero part, fed by
+the structural morphism from $\operatorname{Proj}$ of the Rees algebra to the
+spectrum of its degree-zero part, and using
+properness of $\operatorname{Proj}$ over its degree-zero part for a graded
+ring of finite type over it, fed by
 [prop-nagata-rees-finite-generation]. Projectivity of the blow-up is therefore not needed.

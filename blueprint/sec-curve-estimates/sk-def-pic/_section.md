@@ -8,16 +8,17 @@ lean = ["AlgebraicGeometry.Scheme.CohomologicalPicardGroup"]
 +++
 *Definition (sketch).*
 
-For $C$ as in [sk-def-curve]: $\Pic(C)=H^1(C_{\Et},\mathbb G_m)$
-(invertible $\mathcal O_C$-modules up to isomorphism). For $C$
+For a scheme $X$ (for instance $C$ as in [sk-def-curve]), the
+*(cohomological) Picard group* is $\Pic(X)=H^1(X_{\Et},\mathbb G_m)$,
+$\mathbb G_m$ being the sheaf of units of the structure sheaf on the
+small étale site. For $C$
 smooth proper connected (in particular of dimension $1$,
 [sk-def-curve]) there is a *degree* homomorphism
 $\deg:\Pic(C)\to\Z$ and we set $\Pic^0(C)=\ker\deg$; for a group
 $f$ and $n\ge1$, $f[n]$, $n\cdot f$, $f/n\cdot f$ denote kernel,
 image and cokernel of the multiplication-by-$n$ map.
 
-*Two facts are asserted, not defined, in the above and each
-needs a proof of its own:*
+Two facts are asserted in the above:
 
 - **(P1)** *(Equivalence of the definitions of $\Pic$.)* The
 étale cohomology group $H^1(C_{\Et},\mathbb G_m)$ is canonically
@@ -32,7 +33,9 @@ $\deg\big(\sum_pn_p[p]\big)=\sum_pn_p[\kappa(p):k]$
 kills principal divisors, hence descends to a homomorphism
 $\Pic(C)\to\Z$; it is surjective and independent of all choices.
 
-*Sketch.* The first two clauses of (P1) are
+## Proof
+
+The first two clauses of (P1) are
 [sk-prop-hilbert90]: first cohomology of an abelian sheaf
 classifies torsors, a $\mathbb G_m$-torsor is the sheaf of
 isomorphisms of an invertible module, and the étale and the
@@ -70,5 +73,3 @@ point $p$, and over algebraically closed $k$ a closed
 point has $[\kappa(p):k]=1$ (for the zero-dimensional $C=\Spec k$,
 $\Pic(C)=0$ and no surjective degree exists, which is why dimension
 $1$ is required).
-
-Uses: [sk-def-curve], [sk-prop-hilbert90]

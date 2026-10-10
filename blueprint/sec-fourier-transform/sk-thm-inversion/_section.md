@@ -17,10 +17,6 @@ $$
 \FT_\psi\FT_\psi(K)\cong{\iota'}^*K(-r).
 $$
 
-(Blueprint lem:fd-inversion; proved here — the compiled
-chapter admitted this statement as an input, but the convolution computation
-below discharges it.)
-
 ## Proof
 
 By P11 the composite $\FT_{\psi^{-1}}\FT_\psi$ is the kernel transform with
@@ -42,5 +38,3 @@ $\FT_\psi\FT_\psi$ with the pullback along $\iota'$ of the identity transform,
 whence ${\iota'}^*K(-r)$. The only inputs are the six operations, the
 affine-space computation of the exponential sheaf and Poincaré duality: no
 weight theory is used.
-
-Uses: [sk-lem-kernel-composition], [sk-prop-convolution-kernel]

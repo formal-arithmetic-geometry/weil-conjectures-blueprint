@@ -8,29 +8,26 @@ lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.localTerm"]
 +++
 *Definition (sketch).*
 
-For an opposite pair $(C,c,u),(D,d,v)$, put $E=E(C,D)$.
-Let $j_B:B\hookrightarrow E$ be open and closed, with $B$ proper over $s$.
-The restriction of its pairing is
+Let $E$ be proper over $s$, let $\alpha:A_E\to\omega_E$ be a Borel–Moore
+section, and let $j_B:B\hookrightarrow E$ be an open immersion with closed
+image. The clopen piece $B$ cuts out an idempotent
 
 $$
-A_B\simeq j_B^*A_E\xrightarrow{j_B^*\langle u,v\rangle_{\mathrm{LV}}}
-j_B^*\omega_E\simeq\omega_B,
+e_B:A_E\longrightarrow Rj_{B*}j_B^*A_E\simeq j_{B!}j_B^*A_E\longrightarrow A_E,
 $$
 
-where the last identification uses open purity and dualizing composition.
-This restricted section is defined even when $B$ is not proper;
-properness is needed for the scalar integral below.
-Define its local term by integration:
+the unit of $j_B^*\dashv Rj_{B*}$ followed by the counit of $j_{B!}\dashv j_B^*$.
+Define the local term of $\alpha$ along $B$ by integration:
 
 $$
-\LT_B(u,v):=\int_B j_B^*\langle u,v\rangle_{\mathrm{LV}}\in A.
+\LT_B(\alpha):=\int_E\alpha\circ e_B\in A,
 $$
 
-For an endocorrespondence, use its trace class to set
-$\LT_B(u):=\int_B j_B^*\Tr_c(u)$, with $B\subseteq\Fix(c)$; it equals
-$\LT_B(u,1_K)$ because $\Tr_c(u)=\langle u,1_K\rangle_{\mathrm{LV}}$
+which is $\int_B\alpha|_B$. For an opposite pair $(C,c,u),(D,d,v)$ with
+$E=E(C,D)$ proper over $s$, put $\LT_B(u,v):=\LT_B(\langle u,v\rangle_{\mathrm{LV}})$.
+For an endocorrespondence with $\Fix(c)$ proper over $s$ and $B\subseteq\Fix(c)$
+clopen, use its trace class to set $\LT_B(u):=\LT_B(\Tr_c(u))$; it
+equals $\LT_B(u,1_K)$ because $\Tr_c(u)=\langle u,1_K\rangle_{\mathrm{LV}}$
 ([lem-trf-trace-class-diagonal-pairing]).
-The ambient support need not be proper. At a Frobenius fixed point,
+At a Frobenius fixed point,
 $\LT_{\bar x}$ means the local term on its reduced clopen point component.
-
-Uses: [sk-d-corr], [sk-d-integral], [sk-d-pairing], [sk-d-six], [sk-d-trace-class]

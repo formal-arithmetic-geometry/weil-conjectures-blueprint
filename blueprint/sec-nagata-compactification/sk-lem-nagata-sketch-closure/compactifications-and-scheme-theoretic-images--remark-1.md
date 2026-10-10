@@ -4,13 +4,12 @@ kind = "remark"
 title = "Formalization route"
 order = 66
 +++
-The formal proof (`Nagata.schemeImageFlatBaseChange`) does not run
-the affine kernel computations of
-[lemma-nagata-dense-flat-pullback] and
-[lemma-nagata-dense-flat-pullback]: it factors the base-changed
-morphism through $\operatorname{SIm}(g)\times_YY'$ and applies Mathlib's
-`IsSchemeTheoreticallyDominant.of_isPullback`, which encapsulates
+One need not run the affine kernel computations in the proof of
+[lemma-nagata-dense-flat-pullback]: one can factor the base-changed
+morphism through $\operatorname{SIm}(g)\times_YY'$ and use that
+quasi-compact scheme-theoretically dominant morphisms stay
+scheme-theoretically dominant under flat base change, which encapsulates
 those computations. Only quasi-compactness of $g$ is needed, and
-[lemma-nagata-scheme-image-restrict-open] is obtained in Lean as the
-special case of flat base change along an open immersion, reversing the
-order of these two lemmas.
+[lemma-nagata-scheme-image-restrict-open] is then the special case of
+flat base change along an open immersion, reversing the order of these two
+lemmas.

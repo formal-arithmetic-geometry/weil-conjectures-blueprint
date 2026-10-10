@@ -6,13 +6,17 @@ order = 790
 uses = ["def-pc-base-change", "def-pc-curve", "def-pc-degree-line-bundle", "def-pc-hilb-functor", "def-pc-morphism-conventions", "def-sc-effective-cartier-divisor", "lem-pc-ample-positive-degree", "lem-pc-cartier-criterion", "lem-pc-degree-base-change", "lem-pc-flat-source-descent", "lem-pc-hilb-addition", "lem-pc-hilb-representable", "lem-pc-hilb-smooth", "lem-sc-ample-complement-affine", "thm-pqf-finite-iff-proper-finite-fibres"]
 lean = ["AlgebraicGeometry.hilbertPresheaf_curve_representable", "AlgebraicGeometry.hilbertPresheaf_curve_points", "AlgebraicGeometry.hilbertPresheaf_curve_add"]
 +++
-(Picard Schemes of Curves, Proposition 44.3.6, Tag
-[0B9I](https://stacks.math.columbia.edu/tag/0B9I).) Let $X$ be a
-geometrically irreducible smooth proper curve over a field $k$ and let
+Let $X$ be a
+geometrically integral smooth proper curve over a field $k$ and let
 $d\geq0$. Then:
 
-1. $\operatorname{Hilb}^d_{X/k}$ is representable by a smooth proper variety
-$\underline{\operatorname{Hilb}}^d_{X/k}$ of dimension $d$ over $k$;
+1. $\operatorname{Hilb}^d_{X/k}$ is representable by a smooth proper geometrically
+integral variety $\underline{\operatorname{Hilb}}^d_{X/k}$ of dimension $d$ over $k$,
+and $\underline{\operatorname{Hilb}}^d_{X/k}\times_kX$ carries a universal effective
+Cartier divisor $D_{\mathrm{univ}}$: for every $k$-scheme $T$ and every
+$h:T\to\underline{\operatorname{Hilb}}^d_{X/k}$, the point of
+$\operatorname{Hilb}^d_{X/k}(T)$ classified by $h$ is the pullback of
+$D_{\mathrm{univ}}$ along $h\times\mathrm{id}_X:X_T\to\underline{\operatorname{Hilb}}^d_{X/k}\times_kX$;
 1. for a field extension $k'/k$ the $k'$-rational points of
 $\underline{\operatorname{Hilb}}^d_{X/k}$ are in bijection with the effective Cartier
 divisors of degree $d$ on $X_{k'}$;
@@ -21,7 +25,9 @@ $$
 \underline{\operatorname{Hilb}}^{d_1}_{X/k}\times_k\underline{\operatorname{Hilb}}^{d_2}_{X/k}
 \longrightarrow\underline{\operatorname{Hilb}}^{d_1+d_2}_{X/k}
 $$
-which is finite locally free of degree $\binom{d_1+d_2}{d_1}$.
+which on points is the addition of divisors $(D_1,D_2)\mapsto D_1+D_2$
+(the product of the ideal sheaves) and which is finite locally free of
+degree $\binom{d_1+d_2}{d_1}$.
 
 ## Proof
 
@@ -116,7 +122,31 @@ contradiction). So $\pi_d$ is surjective.
 Then $H_d$ is proper: $X^d$ is proper (finite products of proper schemes over $k$ are proper, the standard statement; and $X\to\operatorname{Spec} k$ is proper by hypothesis), $\pi_d$ is finite hence proper, so
 $H_d=\pi_d(X^d)$ is the image of a proper scheme under a proper morphism, hence proper (Morphisms, Lemma 29.42.9, Tag
 [03GN](https://stacks.math.columbia.edu/tag/03GN): the image of a proper morphism is proper). Finally $H_d$ is irreducible: $X^d$ is irreducible (geometrically irreducible over $k$: products of geometrically irreducible schemes over $k$ are irreducible: Varieties, Lemma 33.8.4, Tag
-[038F](https://stacks.math.columbia.edu/tag/038F)), and the image of an irreducible scheme under a continuous surjective map is irreducible; together with smoothness (hence reducedness: smooth over the field $k$ is reduced, the standard statement) $H_d$ is an integral separated scheme of finite type over $k$ of dimension $d$, i.e. a variety over $k$ ([def-pc-curve]: a variety is an integral separated scheme of finite type over $k$). This proves (1).
+[038F](https://stacks.math.columbia.edu/tag/038F)), and the image of an irreducible scheme under a continuous surjective map is irreducible; together with smoothness (hence reducedness: smooth over the field $k$ is reduced, the standard statement) $H_d$ is an integral separated scheme of finite type over $k$ of dimension $d$, i.e. a variety over $k$ ([def-pc-curve]: a variety is an integral separated scheme of finite type over $k$).
+
+*Geometric integrality.* $H_d$ is geometrically reduced, being smooth
+over $k$ (a smooth $k$-scheme stays smooth, hence reduced, after any field
+extension). It is geometrically irreducible: for a field extension
+$k'/k$ the base change $\pi_d\otimes_kk':X^d_{k'}\to(H_d)_{k'}$ is again
+surjective (surjectivity is stable under base change), and
+$X^d_{k'}=(X_{k'})^d$ is irreducible because $X$ is geometrically
+irreducible (Varieties, Lemma 33.8.4, as above), so its image
+$(H_d)_{k'}$ is irreducible. Hence $H_d$ is geometrically integral.
+
+*The universal divisor.* Let $Z_{\mathrm{univ}}\in\operatorname{Hilb}^d_{X/k}(H_d)$
+be the universal element, i.e. the element corresponding to
+$\mathrm{id}_{H_d}$: a closed subscheme of $H_d\times_kX$ finite locally
+free of degree $d$ over $H_d$. The projection $H_d\times_kX\to H_d$ is
+smooth of relative dimension $1$ (base change of $X\to\operatorname{Spec}k$),
+so by [lem-pc-cartier-criterion] ((1)$\Rightarrow$(2)) $Z_{\mathrm{univ}}$ is
+a relative effective Cartier divisor $D_{\mathrm{univ}}$ on
+$H_d\times_kX/H_d$, in particular an effective Cartier divisor. For a
+$k$-scheme $T$ and $h:T\to H_d$, naturality of the identification
+$\operatorname{Hom}_k(-,H_d)\cong\operatorname{Hilb}^d_{X/k}$ ([def-pc-hilb-functor])
+applied to $h=\mathrm{id}_{H_d}\circ h$ shows that the element classified
+by $h$ is $\operatorname{Hilb}^d_{X/k}(h)(Z_{\mathrm{univ}})$, the pullback of
+$D_{\mathrm{univ}}$ along $h\times\mathrm{id}_X:X_T\to H_d\times_kX$. This
+proves (1).
 
 *Step 2: the points of $H_d$; part (2).* For a field extension
 $k'/k$: a $k'$-rational point of $H_d$ is, by the representability of

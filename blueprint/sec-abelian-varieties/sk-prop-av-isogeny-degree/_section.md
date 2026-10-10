@@ -32,9 +32,8 @@ $K_\Omega\xrightarrow{\sim}f_\Omega^{-1}(y_\Omega)
 $\dim_{\kappa(y)}\Gamma(f^{-1}(y),\cO)
 =\dim_\Omega\Gamma(f^{-1}(y)\times_{\kappa(y)}\Omega,\cO)
 =\dim_\Omega(\cO_K\otimes_k\Omega)=d$, the fibre length being
-unchanged by the field extension $\kappa(y)\subseteq\Omega$. A finite surjective
-morphism with constant fibre length is flat and locally free of that
-rank (blueprint lem:sc-finite-constant-length-flat), so
-$f_*\cO_A$ is locally free of rank $d$.
-
-Uses: [sk-def-av-group-scheme], [sk-def-av-isogeny], [sk-def-av], [sk-prop-av-mult-finite], [sk-prop-av-pqf-finite]
+unchanged by the field extension $\kappa(y)\subseteq\Omega$. Since $B$ is reduced and
+the coherent sheaf $f_*\cO_A$ has fibre dimension
+$\dim_{\kappa(y)}(f_*\cO_A\otimes\kappa(y))=d$ at every point $y$,
+Nakayama's lemma shows that $f_*\cO_A$ is locally free of rank $d$;
+hence $f$ is flat.

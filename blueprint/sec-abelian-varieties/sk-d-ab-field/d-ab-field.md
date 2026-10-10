@@ -2,7 +2,7 @@
 id = "d-ab-field"
 kind = "definition"
 title = "Finite fields, Frobenius and abelian varieties"
-lean = ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic", "AlgebraicGeometry.IsAbelianScheme"]
+lean = ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic", "AlgebraicGeometry.IsAbelianVariety"]
 order = 466
 +++
 Fix distinct primes $p,\ell$, an integer $a\ge1$, a field $k_0$ with
@@ -29,4 +29,3 @@ on its points over each $k_0$-algebra. An abelian variety $A_0/k_0$ is a
 proper, smooth, geometrically connected, commutative group scheme of
 finite type. Geometric connectedness means connectedness after extension
 to $\bar k$. Write $A=A_0(\bar k)$ additively.
-def:ab-scheme;def:ab-points;def:ab-proper-smooth;def:ab-finite-field;def:ab-group-scheme;def:ab-abelian-variety;def:ab-finite-type

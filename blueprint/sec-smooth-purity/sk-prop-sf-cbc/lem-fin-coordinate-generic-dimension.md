@@ -11,7 +11,6 @@ $X\subset Y$ be open. If $\dim X_K\leq n$, then for every
 coordinate $t_r:X\to\mathbf A^1_S$, the fiber over the generic
 point of $\mathbf A^1_S$ has dimension at most $n-1$.
 An empty fiber is assigned dimension $-\infty$.
-The notation refers to scheme conventions.
 
 ## Proof
 

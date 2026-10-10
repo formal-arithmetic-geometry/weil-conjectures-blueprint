@@ -4,9 +4,10 @@ kind = "lemma"
 title = "Cohomology of a finite boundary"
 order = 2725
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.subsingleton_compactlySupportedCohomology_of_isFinite"]
 +++
 Let $Z_0$ be finite over $k_0$ and let $\mathcal G$ be a
-constructible Weil sheaf whose stalks have weights at most $w$. Then
+Weil sheaf on $Z_0$. Then
 $H_c^r(Z,\mathcal G)=0$ for $r\neq0$.
 
 ## Proof

@@ -23,7 +23,6 @@ $$
 
 where $\langle x,\xi\rangle:V_{\bar\xi}\to\mathbf A^{1}$ is the pairing with
 the point $\xi$.
-(Blueprint lem:fd-stalk-formula.)
 
 ## Proof
 
@@ -58,5 +57,3 @@ $\mathcal L_{\psi(\langle x,\xi_{\mathrm{univ}}\rangle)}$ for the tautological
 point $\xi_{\mathrm{univ}}$, not the pullback of
 $\mathcal L_{\psi(\langle x,\xi\rangle)}$ from $V_{\bar\xi}$, and the passage
 to the closed fibre is again this compact-support base change.)
-
-Uses: [sk-def-as], [sk-def-ft], [sk-def-kernel], [sk-prop-sf-cbc]

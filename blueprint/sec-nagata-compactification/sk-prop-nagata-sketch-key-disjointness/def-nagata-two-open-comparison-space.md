@@ -12,9 +12,8 @@ $$
 V_{12}=V_1\times_UV_2.
 $$
 
-The separatedness of $U\to S$ gives a closed immersion
-$V_{12}\to V_1\times_SV_2$, hence an immersion
-$V_{12}\to X_1\times_SX_2$. Define
+Let $V_{12}\to X_1\times_SX_2$ be the canonical morphism induced by the
+inclusions $V_i\subseteq X_i$. Define
 
 $$
 X_{12}=\operatorname{SIm}
@@ -23,3 +22,6 @@ $$
 
 and let $p_i\colon X_{12}\to X_i$ be the restrictions of the two product
 projections.
+
+When $U\to S$ is separated, $V_{12}\to V_1\times_SV_2$ is a closed
+immersion, hence $V_{12}\to X_1\times_SX_2$ is an immersion.

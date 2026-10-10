@@ -39,5 +39,3 @@ an ample module on a proper curve has positive degree
 Thus every fibre of $[n]$ is finite; since $[n]$ is proper ($A$ is
 proper and $A$ is separated) and quasi-finite, it is finite by
 [sk-prop-av-pqf-finite]. The kernel is the fibre over $e$.
-
-Uses: [sk-def-av-mult-n], [sk-def-av], [sk-prop-av-ample-positive], [sk-prop-av-mult-hom], [sk-prop-av-mult-n-pullback], [sk-prop-av-pqf-finite], [sk-prop-av-symmetric-ample]

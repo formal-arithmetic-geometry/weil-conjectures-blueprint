@@ -41,8 +41,9 @@ Set $J=j_*\mathcal F$. Its nonzero global sections have support all of
 the affine curve, so $H_c^0(C,J)=0$.
 The exact sequence $0\to j_!\mathcal F\to J\to i_*i^*J\to0$, the vanishing
 above degree zero of a sheaf supported on finitely many points
-(Blueprint 02, `lemma-weil-pbc-finite-direct-image-exact` with
-`lem-weil-pbc-zero-dimensional-cohomology`), and
+(it is a finite direct image, which is exact, of a sheaf on a
+zero-dimensional scheme, whose cohomology over $k$ vanishes in positive
+degrees), and
 [sk-thm-derived-duality] give $H_c^2(C,J)=V_{\pi_1(U)}(-1)$.
 On this quotient a degree-$e$ Frobenius acts as $F_Q^e$.
 Choose one closed point of $U_0$: quotient eigenvalues occur in the
@@ -71,5 +72,3 @@ Let $n\to\infty$ to obtain the first assertion in [sk-d-real-weights].
 For the consequence, use the extension identity of [sk-i-real-boundary]
 and apply the bound to $\mathcal G$ and $\mathcal G^\vee$;
 reciprocal eigenvalues in [sk-p-linear-spectra] supply the matching lower bound.
-
-Uses: [sk-d-real-boundary], [sk-d-real-cohom], [sk-d-real-series], [sk-d-real-weights], [sk-d-real-weil], [sk-i-real-boundary], [sk-i-real-normalization], [sk-p-linear-filtration], [sk-p-linear-spectra], [sk-thm-derived-duality], [sk-thm-trace-transport]

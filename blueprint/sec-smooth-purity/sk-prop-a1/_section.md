@@ -75,5 +75,3 @@ $\partial\kappa(t)$ restricts to the normalized generator $1$ at every
 geometric point. Finally a morphism $\Lambda_Y\to Rs^{!}\Lambda(1)[2]$ is a
 global section of the sheaf $\mathcal H^0$, hence determined by its stalks;
 so $\mathrm{pur}_s$ is the unique morphism with the stated normalization.
-
-Uses: [sk-def-purity-conv], [sk-prop-a1-kummer]

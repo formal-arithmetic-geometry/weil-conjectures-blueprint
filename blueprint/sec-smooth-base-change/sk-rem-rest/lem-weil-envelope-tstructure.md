@@ -22,17 +22,6 @@ where $e_{\le0}=\tau^{\le0}(e)$ and $e_{\ge1}=\tau^{\ge1}(e)$. Its heart is
 canonically equivalent to the Karoubi envelope $\Kar(\mathcal
 T^{\le0}\cap\mathcal T^{\ge0})$ of the heart of $\mathcal T$.
 
-(*Source note:* no Stacks Project entry states this form: it would require a
-t-structure on $\mathcal T$, which Stacks does not define (see the pages
-listed at [def-weil-t-structure]; the truncation triangle itself is Remark
-13.12.4, Tag [08J5](https://stacks.math.columbia.edu/tag/08J5)), and an
-idempotent completion of a triangulated category, which Stacks does not
-construct (Homological Algebra, Section 12.4, Tag
-[09SF](https://stacks.math.columbia.edu/tag/09SF)). The blueprint adds the
-retract-closure t-structure on the Karoubi envelope, functoriality of the
-truncation triangle under an idempotent endomorphism, and the identification
-of its heart with the envelope of the heart.)
-
 ## Proof
 
 The shift conditions of [def-weil-t-structure] and the orthogonality are

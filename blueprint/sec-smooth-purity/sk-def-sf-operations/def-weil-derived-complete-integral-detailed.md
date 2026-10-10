@@ -27,6 +27,8 @@ $$
 $$
 
 are contained in a single interval $[r,s]$ of $\mathbf Z$ with $r\leq s$
-independent of $n$. This uniform amplitude of the reductions is part of the
-definition of $D^b_c(Y,\mathcal O_E)$, and it is the only boundedness
-condition imposed on them.
+independent of $n$.
+
+This uniform amplitude of the reductions is part of the definition of
+$D^b_c(Y,\mathcal O_E)$, and it is the only boundedness condition imposed on
+them.

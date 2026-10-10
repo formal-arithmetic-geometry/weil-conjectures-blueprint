@@ -16,9 +16,5 @@ B(R)=\prod_{a=1}^t\overline{(R/\mathfrak p_a)}^{\,
 \operatorname{Frac}(R/\mathfrak p_a)}.
 $$
 
-The factors are the integral closures used in
-[def-sc-normalization], [def-fin-normalization-extension].
 The map $R\to B(R)$ is the product of the quotient maps
 followed by the inclusions in these integral closures.
-This defines the branch algebra without assuming its
-finiteness or a decomposition into local rings.

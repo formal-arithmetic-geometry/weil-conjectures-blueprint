@@ -111,5 +111,3 @@ Apply [sk-p-rankone] to obtain the finite-image character and constant
 factor. At a degree-$d$ point the scalar is $\zeta c^d$
 with $\zeta$ a root of unity, so its complex modulus is
 $|\iota(c)|^d=q^{dw/2}$. This is purity in [sk-d-real-weights].
-
-Uses: [sk-d-real-jacobian], [sk-d-real-log], [sk-d-real-setup], [sk-d-real-weights], [sk-d-real-weil], [sk-def-av-jacobian], [sk-def-av-pic], [sk-i-real-compactification], [sk-i-real-sheaves], [sk-lem-finite], [sk-p-rankone], [sk-p-real-integral], [sk-p-real-operations], [sk-prop-hilbert90], [sk-prop-jacobian-descent], [sk-prop-sf-open-closed-triangle], [sk-thm-av-final], [sk-thm-derived-duality], [sk-thm-frobenius]

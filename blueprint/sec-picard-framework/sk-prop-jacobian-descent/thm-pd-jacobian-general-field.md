@@ -7,9 +7,8 @@ uses = ["cor-pd-finite-level", "cor-pd-pic0-base-change", "def-pc-base-change", 
 lean = ["AlgebraicGeometry.exists_jacobian_descent"]
 +++
 Let $k$ be any field and let $C$ be a
-smooth projective curve over $k$
-which is
-geometrically connected, of genus
+$k$-scheme which is proper and smooth of relative dimension $1$ over $k$
+and geometrically connected, of genus
 $g$ ([def-pc-genus]). Then there is an
 abelian variety $J$ over $k$ of dimension
 $g$, together with a natural isomorphism of group-valued functors
@@ -60,8 +59,11 @@ No $k$-rational point of $C$ is assumed.
 ## Proof
 
 Fix a separable closure $k_s$ of $k$ as in [def-pd-separable-closure].
-The curve is a [def-pc-smooth-projective-curve] which is
-[def-pc-geometrically-irreducible], of genus $g$ in the sense of
+Since a scheme which is proper over a field and of dimension $1$ is projective over it, the curve is a
+[def-pc-smooth-projective-curve]; being smooth and geometrically
+connected, it is [def-pc-geometrically-irreducible] (its geometric fibre
+is regular, hence normal, and connected, hence irreducible). It is of genus
+$g$ in the sense of
 [def-pc-genus], and its degree-zero Picard functor is the
 [def-pd-degree-morphism] inside the [def-pc-picard-functor].
 

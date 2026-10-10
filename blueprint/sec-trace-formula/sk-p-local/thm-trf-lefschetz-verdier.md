@@ -33,13 +33,7 @@ categorical trace, and the
 $\operatorname{LT}_\beta(u)$ are the
 local terms. Equivalently, the
 categorical trace of the global operator equals the sum of the local
-terms over the fixed points. (Source: the Lefschetz–Verdier trace
-formula for cohomological correspondences; see Milne, Lectures on Etale
-Cohomology, Section 29 (the Lefschetz fixed-point formula for
-nonconstant sheaves), with Section 25 for the constant-sheaf case, and
-$SGA5$, Expose III. The comparison is assembled here from the
-trace-class machinery, the fixed-point localization theorem and the
-perfectness of the global operator; see the proof.)
+terms over the fixed points.
 
 ## Proof
 

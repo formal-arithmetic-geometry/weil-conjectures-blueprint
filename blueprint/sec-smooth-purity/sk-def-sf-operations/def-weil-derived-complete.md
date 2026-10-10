@@ -37,10 +37,10 @@ $$
  K\longrightarrow R\varprojlim_n\operatorname{Res}_nK_n,
 $$
 
-and $K$ is *derived complete* if this canonical map is an isomorphism. This
-is the coefficient-sheaf form of Definition 15.93.4 of the Stacks Project,
-Tag [091S](https://stacks.math.columbia.edu/tag/091S); the equivalent
-description of derived completeness by a derived limit over the Koszul tower
-$K_\bullet(A,f_1^n,\dots,f_r^n)$ of the generators of the ideal (in Situation
-15.93.15 of the Stacks Project) is Lemma 15.93.17, Tag
-[091Z](https://stacks.math.columbia.edu/tag/091Z).
+and $K$ is *derived complete* if this canonical map is an isomorphism.
+
+This is the coefficient-sheaf form of Definition 15.93.4 of the Stacks
+Project, Tag [091S](https://stacks.math.columbia.edu/tag/091S); derived
+completeness is equivalently described by a derived limit over the Koszul
+tower $K_\bullet(A,f_1^n,\dots,f_r^n)$ of the generators of the ideal (Stacks
+Project, Lemma 15.93.17, Tag [091Z](https://stacks.math.columbia.edu/tag/091Z)).

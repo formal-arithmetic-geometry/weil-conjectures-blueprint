@@ -6,22 +6,21 @@ order = 777
 uses = ["def-pc-representable-functor", "def-pc-subfunctor"]
 lean = ["AlgebraicGeometry.Scheme.LocalRepresentability.isRepresentable"]
 +++
-(Schemes, Lemma 26.15.4, Tag
-[01JJ](https://stacks.math.columbia.edu/tag/01JJ).) Let
-$F:(\mathit{Sch}/S)^{\mathrm{op}}\to\textit{Sets}$ be a functor and suppose:
+Let
+$F:(\mathit{Sch})^{\mathrm{op}}\to\textit{Sets}$ be a functor on the category of schemes and suppose:
 
 1. **(1)** $F$ satisfies the sheaf property for the Zariski topology;
-1. **(2)(a)** there exists a family $(F_i)_{i\in I}$ of subfunctors of
+1. **(2)(a)** there exists a family $(F_i)_{i\in I}$, indexed by a set $I$, of subfunctors of
 $F$ each of which is representable;
 1. **(2)(b)** each inclusion $F_i\subseteq F$ is
 representable by open immersions;
 1. **(2)(c)** the family $(F_i)_{i\in I}$ covers $F$.
 
-Then $F$ is representable by a scheme over $S$.
+Then $F$ is representable by a scheme.
 
 ## Proof
 
-For $i\in I$ choose a scheme $X_i$ over $S$ representing $F_i$ and the
+For $i\in I$ choose a scheme $X_i$ representing $F_i$ and the
 universal element $\xi_i\in F_i(X_i)\subseteq F(X_i)$, and let
 $U_{ij}\subseteq X_i$ be the open subscheme given by (2)(b) for the
 inclusion $F_j\subseteq F$: a morphism $T\to X_i$ factors through
@@ -74,7 +73,7 @@ unique). By the glueing lemma for schemes (Schemes, Lemma 26.14.2:
 a scheme $X$ with an open covering $X=\bigcup_{i}U_i$ and isomorphisms
 $\varphi_i:X_i\stackrel{\sim}{\to}U_i$ with the compatibility above
 glues to a scheme; note the family is a set: the $X_i$ form a set) we
-obtain a scheme $X$ over $S$ with open immersions
+obtain a scheme $X$ with open immersions
 $X_i\hookrightarrow X$ whose intersections are the $U_{ij}$.
 
 It remains to identify $X$ as a scheme representing $F$. The

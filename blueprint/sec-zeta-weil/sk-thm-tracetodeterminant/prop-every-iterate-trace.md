@@ -21,12 +21,11 @@ compactly supported
 cohomology. For every
 integer $n\geq1$ and each point $x\in Y_0(\mathbf F_{q^n})$, choose a
 geometric point
-$\bar x\to Y$ over $x$. The local operators
-$F_x^{(n)}$ and the stalk complexes
-$K_{\bar x}=L\bar x^*\operatorname{For}(K)$, using the
-derived pullback; these are the
-local Frobenius and stalk
-constructions; their alternating traces are independent of the choices.
+$\bar x\to Y$ over $x$. Let
+$F_x^{(n)}$ be the local Frobenius operators and
+$K_{\bar x}=L\bar x^*\operatorname{For}(K)$ the stalk complexes, formed with
+the derived pullback; their alternating traces are independent of the
+choices.
 The sets $Y_0(\mathbf F_{q^n})$ and their cardinalities $N_n(Y_0)$ use the
 point-count convention.
 For every such $n$, one has

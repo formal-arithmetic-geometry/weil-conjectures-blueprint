@@ -7,7 +7,7 @@ uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-wei
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property], assume for
 some $q\geq1$ that $\mathrm{BC}(f,n,q-1)$ holds universally (in the
-single degree $q-1$; no hypothesis in the degrees $<q-1$ is needed).
+single degree $q-1$).
 Let $S'\to S$ be a morphism, $f':X'=X\times_SS'\to S'$ the base change,
 $g:T\to S'$ a quasi-compact and quasi-separated morphism, and
 $h:Y=X'\times_{S'}T\to X'$, $e:Y\to T$ the projections. Then for
@@ -31,8 +31,6 @@ $$
 R^qh_*e^{-1}\mathcal F\bigr)
 \subset R^qh_*e^{-1}\mathcal G.
 $$
-
-(*Stacks Project, Lemma 59.88.2, [Tag `0F03`](https://stacks.math.columbia.edu/tag/0F03).*)
 
 ## Proof
 

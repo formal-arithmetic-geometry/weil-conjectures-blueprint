@@ -5,7 +5,7 @@ title = "Smooth pullback exchange for exceptional inverse image"
 order = 2017
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
+Work in the purity conventions of [def-pur-conventions], let
 $A=A_{E,n}$, and let
 
 $$
@@ -36,7 +36,3 @@ Lf'^*Lv^*K(d)[2d]
 \xrightarrow{\ \gamma_{f',Lv^*K}\ }
 Rf'^!Lv^*K.
 $$
-
-This is distinct from the right-adjoint mate $\operatorname{BC}^!_*$ of
-the compact-support base change; both source and target are fixed
-explicitly by the definitions.

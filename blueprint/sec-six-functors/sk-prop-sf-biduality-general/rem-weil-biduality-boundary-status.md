@@ -5,7 +5,7 @@ title = "Finite-stage completion and coefficient scope"
 order = 2155
 uses = ["cor-coef-finite-verdier", "cor-weil-boundary-duality-discharge", "cor-weil-finite-constructible-hom", "lem-weil-coefficient-frobenius", "lem-weil-finite-duality-site-comparison", "lem-weil-geometric-generic-exchange", "lem-weil-verdier-preservation-strata", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-weil-etale-geometric-biduality"]
 +++
-The finite-stage geometric gap is closed. Constructible preservation
+Constructible preservation
 is proved independently in [lem-weil-verdier-preservation-strata];
 the generic restriction comparisons of
 [lem-weil-geometric-generic-exchange] justify the dimension

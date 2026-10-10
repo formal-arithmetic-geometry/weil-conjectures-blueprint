@@ -5,8 +5,8 @@ title = "Composition coherence"
 order = 2016
 uses = ["cor-pur-vector-bundle-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-diagonal-base-change", "sbc-thm-etale-local-normal-form", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
-ingredients used here: the global finite-field datum $(p,a,q,k_0,k)$
+Work in the purity conventions of [def-pur-conventions], with the
+global finite-field datum $(p,a,q,k_0,k)$
 with $q=p^a$, the prime $\ell\neq p$, the finite extension
 $E/\Ql$ with valuation ring $\mathcal O_E$ and uniformizer
 $\varpi_E$, the level $n\geq1$, and the finite coefficient ring

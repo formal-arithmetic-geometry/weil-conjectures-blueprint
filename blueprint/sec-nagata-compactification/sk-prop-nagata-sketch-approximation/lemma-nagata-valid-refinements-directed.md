@@ -5,12 +5,6 @@ title = "Valid finite coefficient refinements form a directed set"
 order = 339
 uses = ["def-nagata-noetherian-stage", "lemma-nagata-affine-gluing-identities-eventually", "lemma-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
-**Status.** Bypassed by the formalized route: the finite-presentation and
-Noetherian descent is done in one step by
-`AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation_of_isSeparated`
-and `AlgebraicGeometry.Scheme.nonempty_noetherianApproximation`, so
-this stage-by-stage bookkeeping is never carried out.
-
 The valid finite coefficient refinements occurring in
 [def-nagata-noetherian-stage] are nonempty and directed under
 inclusion. If $\lambda\leq\mu$, inclusion of coefficient algebras induces

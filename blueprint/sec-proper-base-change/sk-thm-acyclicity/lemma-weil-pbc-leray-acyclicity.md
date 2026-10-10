@@ -34,11 +34,11 @@ In particular, for the etale direct image $v=f'_*$ [def-weil-pbc-direct-image]
 on sheaves of $\mathbf F_\ell$-modules: a (bounded-below) complex $I^\bullet$
 of $f'_*$-acyclic sheaves quasi-isomorphic to $K$ satisfies
 $\mathcal H^q(f'_*I^\bullet)\cong R^qf'_*K$, computed with the K-injective
-resolutions of [def-weil-pbc-kinjective-resolutions]. This is the form in
-which the injective-acyclicity property [def-weil-pbc-injective-acyclicity-property]
-is consumed: under $\mathrm{IA}(f)$ the sheaves $g'^{-1}I^m$ of an injective
-resolution $E\to I^\bullet$ are $f'_*$-acyclic, so $f'_*g'^{-1}I^\bullet$
-computes $Rf'_*g'^{-1}E$.
+resolutions of [def-weil-pbc-kinjective-resolutions]. In particular, under
+the injective-acyclicity property $\mathrm{IA}(f)$
+[def-weil-pbc-injective-acyclicity-property] the sheaves $g'^{-1}I^m$ of an
+injective resolution $E\to I^\bullet$ are $f'_*$-acyclic, so
+$f'_*g'^{-1}I^\bullet$ computes $Rf'_*g'^{-1}E$.
 
 ## Proof
 

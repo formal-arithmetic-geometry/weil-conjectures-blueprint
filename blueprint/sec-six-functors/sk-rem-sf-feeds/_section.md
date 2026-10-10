@@ -18,7 +18,4 @@ perfectness of compact-support cohomology), the trace-layer statements
 [sk-prop-sf-trace-perfectness], [sk-lem-sf-open-ctf] and
 [sk-thm-sf-internal-hom-pullback], and — outside the package — the
 Künneth–Verdier isomorphism [sk-thm-sf-kunneth-verdier], on which their
-supported pairing and local-term nodes rest. The final Weil statements cite the package through
-prop:weil-operations-verified. Corresponding blueprint source:
-`10b_six_functor_formalism.tex` of
-`version/sketch`, whose statements carry the labels reused above.
+supported pairing and local-term nodes rest.

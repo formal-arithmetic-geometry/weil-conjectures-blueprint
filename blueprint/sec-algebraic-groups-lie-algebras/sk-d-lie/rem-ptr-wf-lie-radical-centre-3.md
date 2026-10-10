@@ -5,6 +5,5 @@ title = "Pointer to the properties of [def-wf-lie-radical-centre]"
 order = 2467
 uses = ["def-wf-lie-radical-centre"]
 +++
-In the notation of [def-wf-lie-radical-centre], the following holds. that every automorphism of
-$\mathfrak g$ preserves it is
-*The solvable radical is characteristic*.
+In the notation of [def-wf-lie-radical-centre]: the solvable radical is
+characteristic, that is, every automorphism of $\mathfrak g$ preserves it.

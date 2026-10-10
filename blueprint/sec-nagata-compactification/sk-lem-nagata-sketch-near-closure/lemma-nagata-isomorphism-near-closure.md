@@ -6,12 +6,24 @@ order = 260
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isIso_strictTransformMap_near_closure"]
 uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-admissible-blowup", "def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-blowup-product-comparison", "def-nagata-blowup-product-domination-maps", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-effective-cartier-ideal", "def-nagata-elimination-indeterminacy", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-invertible-ideal", "def-nagata-isomorphism-near-closure", "def-nagata-maximal-isomorphism-open", "def-nagata-proj-closed-center-finite-degree", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "def-nagata-scheme-image-factor", "def-nagata-separate-constructible-closed", "def-nagata-strict-transform", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-affine-blowup-complement", "lemma-nagata-blowup-invertible-factor", "lemma-nagata-blowup-proper", "lemma-nagata-composition-center-ideal", "lemma-nagata-elimination-indeterminacy", "lemma-nagata-extend-admissible-blowup", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-invertible-ideal-tensor-power", "lemma-nagata-localization-ideal-pow", "lemma-nagata-maximal-isomorphism-open", "lemma-nagata-product-ideal-common-blowup", "lemma-nagata-proper-open-dense-iso", "lemma-nagata-proper-to-separated-target", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "lemma-nagata-separate-constructible-closed", "lemma-nagata-spectral-constructible-separation", "lemma-nagata-spectral-constructible-separation-exists", "lemma-nagata-strict-transform-closure-characterization", "lemma-nagata-strict-transform-over-complement", "prop-nagata-affine-blowup-chart", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded", "prop-nagata-strict-transform-closed-fiber-product", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-product-ideal", "thm-nagata-blowup-universal-property", "thm-nagata-global-blowup-proper", "thm-nagata-strict-transform-is-blowup"]
 +++
-If $U\to V$ is an isomorphism over an open neighbourhood of $T$, then
-$\mathsf{IsoBl}_{V,T}(q)\to X$ is $V$-admissible and the strict transform
-of $q$ is an isomorphism over an open neighbourhood of the closure of $T$
-in $\mathsf{IsoBl}_{V,T}(q)$.
+Let $X$ be quasi-compact and quasi-separated, let $q\colon Z\to X$ be
+proper, let $V\subseteq X$ be a quasi-compact open, and let $T\subseteq V$ be
+closed in $V$. If $q$ is an isomorphism over an open neighbourhood of $T$ in
+$X$, then there exist a $V$-admissible blow-up $\pi\colon X'\to X$ and an
+open $N'\subseteq X'$ containing the closure of $\pi^{-1}(T)$ such that the
+strict transform of $q$ along $\pi$ (relative to the complement of the
+centre) restricts to an isomorphism over $N'$.
 
 ## Proof
+
+We show that $\pi=\mathsf{IsoBl}_{V,T}(q)\to X$ of
+[def-nagata-isomorphism-near-closure] has this property; we use the
+notation of that construction: $U=q^{-1}(V)$, $E\subseteq V$ the complement
+of $\operatorname{IsoOpen}(U\to V)$, the separated pair $(T_c,E_c)$, the
+blow-up $X_1$, and $X_0=X_1\setminus\overline E_c$. Its hypotheses hold:
+if $N$ is an open neighbourhood of $T$ in $X$ over which $q$ is an
+isomorphism, then $U\to V$ is an isomorphism over the open neighbourhood
+$N\cap V$ of $T$ in $V$.
 
 By [lemma-nagata-maximal-isomorphism-open], the assumed isomorphism
 neighbourhood is contained in $\operatorname{IsoOpen}(U\to V)$; hence the
@@ -39,4 +51,8 @@ maps therefore transport across the canonical strict-transform comparison.
 Since $\overline T\subset X_0$, this transported isomorphism holds on an
 open neighbourhood of $\overline T$. Finally
 [lemma-nagata-admissible-blowup-comp] identifies the composite with one
-$V$-admissible blow-up, giving the asserted construction.
+$V$-admissible blow-up $\pi\colon X'\to X$. As $\pi$ is an isomorphism over
+$V\supseteq T$, the closure of $\pi^{-1}(T)$ in $X'$ is the closure of the
+copy of $T$ considered above; so the open neighbourhood just obtained is an
+open $N'$ containing the closure of $\pi^{-1}(T)$ over which the strict
+transform of $q$ along $\pi$ is an isomorphism.

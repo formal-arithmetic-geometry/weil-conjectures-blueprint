@@ -18,7 +18,7 @@ $$
  \Hom(K,L)[1/\varpi]
  =\Hom_{\Dbc(T,\mathcal O_E)}(K,L)\otimes_{\mathcal O_E}E.
 $$
-No Karoubi envelope is taken in this definition. That the category is
-idempotent complete, and that the canonical functor into the Karoubi
-envelope is consequently an exact equivalence, is recorded with the other
-properties of this construction.
+
+No Karoubi envelope is taken in this definition. The category is idempotent
+complete, and consequently the canonical functor into its Karoubi envelope is
+an exact equivalence.

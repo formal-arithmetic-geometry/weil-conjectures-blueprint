@@ -6,5 +6,5 @@ order = 5
 lean = ["AlgebraicGeometry.HasCompactification"]
 uses = ["def-nagata-compactification"]
 +++
-A morphism $f\colon X\to S$ is *compactifiable* if the type of
-compactifications of $f$ is nonempty.
+A morphism $f\colon X\to S$ is *compactifiable* if there exists a
+compactification of $f$.

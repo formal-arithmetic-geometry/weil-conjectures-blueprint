@@ -17,14 +17,16 @@ $\nu_V^*Ru_{\Et,*}\cong Ru_{\Proet,*}\nu_U^*$ is an isomorphism of functors
 $D^+(U_{\Et},\Lambda)\to D^+(V_{\Proet},\Lambda)$ for $u$ quasi-compact and
 quasi-separated; and a morphism of pro-étale complexes is an isomorphism if
 and only if it is one on a pro-étale covering family and on the affine
-ind-étale basis. Detection is by covering families, not by geometric points:
-clause (4) of lem:cbc-proetale-stalk-conservative records that
-geometric-point stalks are *not* conservative on all pro-étale sheaves,
-and no argument of this section uses them off the étale-origin objects
-([sk-rem-sf-comp-scope]).
-Chapter 4 for thm:weil-pbc-site-comparison,
-prop:weil-pbc-comparison-direct-image and
-lem:weil-pbc-pullback-preserves-bounded-constructible; Chapter 17 for the
-detection clauses lem:cbc-proetale-stalk-conservative.
+ind-étale basis. On sheaves, $\nu_T^*$ is full and faithful, and the
+isomorphism $\nu_V^*Ru_{\Et,*}\cong Ru_{\Proet,*}\nu_U^*$ of functors on
+$D^+$ for $u$ quasi-compact and quasi-separated, holds for an arbitrary
+Grothendieck abelian coefficient category in place of $\Lambda$-modules.
+Detection is by covering families, not by geometric points:
+geometric-point stalks are *not* conservative on all pro-étale sheaves.
 
-Uses: `lem-cbc-proetale-stalk-conservative`, `lem-weil-pbc-pullback-preserves-bounded-constructible`, `prop-weil-pbc-comparison-direct-image`, `thm-weil-pbc-site-comparison`
+## Proof
+
+The full faithfulness, the comparison of direct images and the preservation
+of bounded constructible complexes are the site-comparison results for the
+pro-étale site; the detection clauses are the conservativity lemma for
+complexes on the pro-étale site.

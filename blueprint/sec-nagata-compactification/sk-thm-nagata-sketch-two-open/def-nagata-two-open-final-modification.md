@@ -16,10 +16,3 @@ $$
 
 with the two constructed open immersions $W'_i\hookrightarrow W$ and their
 common open subscheme $U$.
-
-*Implementation note.* There is no separate Lean declaration for this
-construction. The proof of `AlgebraicGeometry.HasCompactification.of_two_open_cover`
-([thm-nagata-two-open]) obtains it inline, as
-`obtain ⟨cm⟩ := nonempty_commonModification ...` applied to the two intermediate
-schemes; its type is the structure `AlgebraicGeometry.CommonModification` of
-[def-nagata-common-modification].

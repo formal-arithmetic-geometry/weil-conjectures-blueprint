@@ -4,11 +4,11 @@ kind = "section"
 title = "Fourier exactness on a curve"
 order = 2737
 uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-prop-kernel-lisse", "sk-prop-stalk", "sk-thm-inversion"]
-lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseUpper", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.WeilComplex.IsCurvePerverse", "AlgebraicGeometry.isCurvePerverse_fourierTransform_obj_iff"]
+lean = ["AlgebraicGeometry.LAdicWeilComplex.IsCurvePerverseUpper", "AlgebraicGeometry.LAdicWeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.LAdicWeilComplex.IsCurvePerverse", "AlgebraicGeometry.isCurvePerverse_fourierTransform_obj_iff"]
 +++
 *Proposition (sketch).*
 
-The transform $\DLAFT_\psi$ is an exact equivalence of the perverse
+For nontrivial $\psi$, the transform $\DLAFT_\psi$ is an exact equivalence of the perverse
 categories of the two affine lines. On a smooth curve these categories
 are constructed from ordinary cohomology: the upper class has
 $\mathcal H^aK=0$ for $a>0$ and $\mathcal H^0K$ of finite support;
@@ -36,5 +36,3 @@ Ordinary truncation now shows that Fourier preserves the upper class.
 The inverse $\DLAFT_{\psi^{-1}}(1)$ preserves it for the same reason;
 orthogonality then gives preservation of the lower class and exactness
 on the hearts.
-
-Uses: [sk-d-dl-a1-setup], [sk-l-dl-a1-endpoints], [sk-prop-stalk], [sk-thm-inversion]

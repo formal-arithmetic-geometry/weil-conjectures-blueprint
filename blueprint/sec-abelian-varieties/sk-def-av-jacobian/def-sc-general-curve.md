@@ -12,18 +12,23 @@ and geometrically integral over
 $k$. Its *genus* is
 
 $$
-g(C):=\dim_kH^1(C,\mathcal O_C),
+g(C):=\dim_kH^1(C,\mathcal O_C).
 $$
 
-finite because coherent cohomology of a proper scheme over a field is
-finite-dimensional, and invariant under base change,
-$g(C_{k'})=g(C)$ for every field extension $k'/k$, by flat base change
-along the base change of [def-pc-base-change]. For an algebraically
+The genus is finite, and it is invariant under base change:
+$g(C_{k'})=g(C)$ for every field extension $k'/k$.
+
+For an algebraically
 closed extension $k'/k$ the base change $C_{k'}$ is a
 proper smooth connected curve in the sense of the
 algebraically closed conventions of the smooth-curve chapter, and
 $g(C)=g(C_{k'})$ with the genus of [def-sc-genus]; in particular the
 degree and $\operatorname{Pic}^0$ conventions of [def-sc-pic0] apply to
-$C_{k'}$. The statements of the present chapter that are formulated over an
-arbitrary field use this definition; the algebraically closed statements use
-[def-sc-curves].
+$C_{k'}$.
+
+## Proof
+
+The genus is finite because coherent cohomology of a proper scheme over a
+field is finite-dimensional. It is invariant under base change,
+$g(C_{k'})=g(C)$, by flat base change along the base change
+$C_{k'}\to C$ of [def-pc-base-change].

@@ -5,7 +5,7 @@ title = "Pointer to the properties of [def-trf-categorical-trace]"
 order = 2305
 uses = ["def-trf-categorical-trace", "lem-trf-chain-supertrace"]
 +++
-In the notation of [def-trf-categorical-trace], the following holds. The
+In the notation of [def-trf-categorical-trace], the
 explicit model-level formulas for $\operatorname{coev}_P$ and
 $\operatorname{ev}_P$, the verification of the triangle identities,
 and the Koszul sign convention of the symmetric monoidal structure

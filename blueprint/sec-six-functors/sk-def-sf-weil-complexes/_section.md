@@ -14,10 +14,8 @@ automorphism $g_\gamma$; with morphisms the maps of underlying complexes
 commuting with the $\varphi$'s, these form a category
 $D^b_{ctf,\mathrm W}(X,\Lambda)$ with a forgetful functor. This is a category
 of pairs over the underlying derived category, not a triangulated (derived)
-category of Weil sheaves: its Hom-groups are not Ext groups of Weil sheaves
-(a nonsplit Frobenius extension of $\Lambda$ by $\Lambda$, a Jordan block,
-gives no nonzero map $\Lambda\to\Lambda[1]$ of pairs). Only traces, stalk
-Frobenius maps, weights of cohomology sheaves, equivariant maps and
-functorial triangles are used.
+category of Weil sheaves.
 
-Uses: `def-trf-strict-weil-complex`
+Its Hom-groups are not Ext groups of Weil sheaves: a nonsplit Frobenius
+extension of $\Lambda$ by $\Lambda$ (a Jordan block) gives no nonzero map
+$\Lambda\to\Lambda[1]$ of pairs.

@@ -30,10 +30,7 @@ $$
 The isomorphisms are compatible with the factorization of
 [prop-trf-frobenius-factorization]: scheme Frobenius and geometric
 Galois Frobenius differ by a universal homeomorphism, namely the
-absolute $q$-power Frobenius. (Source: the comparison between
-geometric and arithmetic Frobenius, via the invariance of
-the etale site under universal homeomorphisms, is the terminal interface
-of the trace-formula chapter.)
+absolute $q$-power Frobenius.
 
 ## Proof
 
@@ -56,5 +53,3 @@ same construction is the multiplicative iterate $\kappa^{(m)}$:
 the relative Frobenius maps compose to the corresponding power maps.
 The resulting identifications therefore respect both the
 factorization and addition of the exponents.
-
-*Recorded in advance* from chapter *The trace formula* of the source.

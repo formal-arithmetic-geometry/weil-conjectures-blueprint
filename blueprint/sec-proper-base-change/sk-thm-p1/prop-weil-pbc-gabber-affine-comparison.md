@@ -6,61 +6,66 @@ order = 1134
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-etale-degree-zero", "lemma-weil-pbc-gabber-effacement"]
 +++
-For an affine henselian pair $(T,T_0)$ and torsion $F$,
-$H^q(T,F)\xrightarrow{\sim}H^q(T_0,F_0)$ for all $q\geq0$.
-
-## Proof
-
-Degree zero is the etale henselian restriction lemma applied on the affine.
-For $q>0$, assume comparison in all degrees below $q$. To prove injectivity,
-take a nonzero $\xi\in H^q(T,F)$ and apply effacement with closed subscheme
-$T$ itself, obtaining $F\hookrightarrow F'$ in which $\xi$ dies. Put
-$Q=F'/F$. Exactness lifts $\xi$ from $H^{q-1}(T,Q)$. The induction
-isomorphism in degree $q-1$ carries any such lift to $T_0$; if $\xi$ restricted
-to zero, exactness and the commutative boundary square would force the lift
-to come from $H^{q-1}(T,F')$, contradicting the choice of nonzero $\xi$.
-
-For surjectivity, take $\eta\in H^q(T_0,F_0)$ and use effacement with closed
-subscheme $T_0$ to choose $F\hookrightarrow F'$ killing $\eta$. Exactness
-lifts $\eta$ from $H^{q-1}(T_0,Q_0)$. By induction this lift is the
-restriction of a class in $H^{q-1}(T,Q)$, whose boundary in $H^q(T,F)$
-restricts to $\eta$. Thus the comparison is separately injective and
-surjective. This expands Tag `09ZI`; no statement is imported from
-that tag.
-
-## Detailed form
-
-Let $(A,I)$ be an affine henselian pair and let $X$ be an affine scheme of
-finite type over $\operatorname{Spec}A$, with closed fibre
-$X_0=X\times_{\operatorname{Spec}A}\operatorname{Spec}(A/I)$. Then for every
-torsion etale sheaf $F$ on $X$,
+Let $(A,I)$ be an affine henselian pair, $T=\operatorname{Spec}A$ and
+$T_0=\operatorname{Spec}(A/I)$. For every torsion etale sheaf $F$ on $T$, with
+restriction $F_0$ to $T_0$, restriction induces isomorphisms
 
 $$
- H^q(X,F)\xrightarrow{\sim}H^q(X_0,F_0)
+ H^q(T,F)\xrightarrow{\sim}H^q(T_0,F_0)
  \qquad(q\geq0).
 $$
 
-The case $X=\operatorname{Spec}A$ is the comparison for the affine henselian
-pair $(T,T_0)=(\operatorname{Spec}A,\operatorname{Spec}(A/I))$ itself. The
-relative form is the one used below: the affine charts of a finite-type
-$A$-scheme are affine of finite type over $A$, but they are *not* themselves
-henselian pairs, so the pair form alone does not apply to them.
+Consequently, if $X$ is an affine scheme over $T$ with closed fibre
+$X_0=X\times_TT_0$ and $F$ is a torsion etale sheaf on $X$, then
+restriction induces isomorphisms
 
-**Status.** This is the cited Gabber input (Stacks Project, Theorem 59.82.7,
-Tag [09ZI](https://stacks.math.columbia.edu/tag/09ZI)); its formal
-consequences are proved below in this section. The former effacement
-statements of this chapter were retired, since no proof uses them.
+$$
+ \varinjlim_{(U,U_0)}H^q(U,F|_U)\xrightarrow{\sim}H^q(X_0,F|_{X_0})
+ \qquad(q\geq0),
+$$
+
+the colimit running over the affine etale neighbourhoods $U\to X$ of $X_0$
+(etale morphisms inducing an isomorphism $U\times_XX_0\cong X_0$). The map
+$H^q(X,F)\to H^q(X_0,F|_{X_0})$ itself need not be an isomorphism when $X$
+is not a henselian pair: for $A=k[[t]]$, $I=(t)$ and
+$X=\operatorname{Spec}k((t))$ the closed fibre is empty while
+$H^0(X,\mathbf Z/n)=\mathbf Z/n$.
 
 ## Proof
 
-The statement is the input recorded in the reference: the Gabber comparison
-for affine henselian pairs, i.e. that for an affine henselian pair $(T,T_0)$
-and a torsion etale sheaf $F$ on $T$, the restriction map $H^q(T,F)\to
-H^q(T_0,F_0)$ is an isomorphism for every $q\geq0$ (Stacks Project, Theorem
-59.82.7, Tag [09ZI](https://stacks.math.columbia.edu/tag/09ZI)). Its proof is
-the effacement argument: by induction on $q$, classes of degree $q>0$ are
-killed by the effacement step, giving injectivity, and the induction step
-builds the extension of classes of degree $q-1$ from $T_0$ to $T$, giving
-surjectivity. The blueprint isolates this single assertion, proves separately
-its formal consequences (degree-zero comparisons over henselian pairs, and the
-acyclicity bound for restricted injectives), and does not discharge it here.
+*The pair.* Degree zero is the etale henselian restriction lemma
+[lemma-weil-pbc-etale-degree-zero]. Let $q>0$ and assume the comparison in
+degrees $<q$ for all torsion sheaves.
+
+Injectivity. Both sides commute with filtered colimits of sheaves on the
+quasi-compact quasi-separated schemes $T$ and $T_0$, and $F$ is the filtered
+union of its subsheaves $F[n]$, so we may assume $nF=0$ for some $n$. Embed
+$F$ into an injective sheaf $J$ of $\mathbf Z/n$-modules; $J$ is torsion and
+$H^q(T,J)=0$. Put $Q=J/F$, again killed by $n$. Let $\xi\in H^q(T,F)$
+restrict to $0$. Write $\xi=\delta(\zeta)$ with $\zeta\in H^{q-1}(T,Q)$. Its
+restriction $\zeta_0$ satisfies $\delta_0(\zeta_0)=\xi_0=0$, so $\zeta_0$
+comes from some $\theta_0\in H^{q-1}(T_0,J_0)$; by the induction hypothesis
+$\theta_0$ is the restriction of some $\theta\in H^{q-1}(T,J)$. Then
+$\zeta-\bar\theta$ (with $\bar\theta$ the image of $\theta$ in
+$H^{q-1}(T,Q)$) restricts to $0$, hence is $0$ by injectivity in degree
+$q-1$. So $\zeta=\bar\theta$ and $\xi=\delta(\bar\theta)=0$.
+
+Surjectivity. Let $\eta\in H^q(T_0,F_0)$. By
+[lemma-weil-pbc-gabber-effacement] there is a monomorphism $F\hookrightarrow
+F'$ of torsion sheaves such that the image of $\eta$ in $H^q(T_0,F'_0)$ is
+zero. Put $Q=F'/F$, a torsion sheaf. Then $\eta=\delta_0(\theta_0)$ for some
+$\theta_0\in H^{q-1}(T_0,Q_0)$, which by the induction hypothesis is the
+restriction of some $\theta\in H^{q-1}(T,Q)$; the boundary
+$\delta(\theta)\in H^q(T,F)$ restricts to $\delta_0(\theta_0)=\eta$, by
+naturality of the boundary maps under restriction.
+
+*Affine schemes over the pair.* Let $X=\operatorname{Spec}B$ over $A$, so
+$X_0=\operatorname{Spec}(B/IB)$, and let $(B^h,IB^h)$ be the henselization of
+the pair $(B,IB)$. It is a henselian pair with $B^h/IB^h=B/IB$, and
+$B^h=\varinjlim B'$ over the etale $B$-algebras $B'$ with $B/IB\cong
+B'/IB'$, i.e. over the affine etale neighbourhoods $U=\operatorname{Spec}B'$
+of $X_0$. The first part applied to $(B^h,IB^h)$ gives
+$H^q(\operatorname{Spec}B^h,F|)\cong H^q(X_0,F|_{X_0})$, and by continuity of
+etale cohomology along the cofiltered limit of affine schemes
+$\operatorname{Spec}B^h=\varprojlim U$,
+$H^q(\operatorname{Spec}B^h,F|)=\varinjlim_UH^q(U,F|_U)$.

@@ -23,6 +23,4 @@ $$
 Rf_!\bigl(K\otimes^L_\Lambda Lf^*L\bigr)
 $$
 
-of [def-exchange-projection]; axiom (A3) is the assertion
-that it is an isomorphism, and it is verified for the concrete
-compact-support direct image in [thm-sf-pf-finite], [prop-sf-pf-reduction], [thm-sf-pf-adic], [thm-sf-pf-field], [thm-sf-pf-proetale] and [prop-sf-pf-coherence].
+of [def-exchange-projection].

@@ -38,13 +38,10 @@ coefficient stages for *every* object of
 $D^b_{ctf}(X_{\Proet},A)$, with the amplitude $[a,b+2d]$, through
 [cor-sf-direct-image-ctf-nonproper] and the comparison direct image.
 The earlier corollary [cor-sf-direct-image-ctf-etale-origin] remains
-the special case of objects presented with an explicit étale model. In
-particular the transport no longer needs a pro-étale analogue of the
-residue test as an input: such a test is now a theorem,
-[lem-sf-proetale-residue-tor-test], proved from the origin statement
-and the transfer of the finite-Tor condition. What is still recorded in
-[open-sf-preservation-gaps] is not the direct-image cell but the
-internal-Hom cell and the full-cohomological-dimension interface.
+the special case of objects presented with an explicit étale model. A
+pro-étale analogue of the residue test is likewise a theorem,
+[lem-sf-proetale-residue-tor-test], proved from the origin statement and the
+transfer of the finite-Tor condition.
 
 The step that passes from a constant test sheaf to an arbitrary one is the
 residue test [lem-exc-residue-tor-test], which is available for

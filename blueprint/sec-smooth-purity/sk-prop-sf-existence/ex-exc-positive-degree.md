@@ -13,9 +13,6 @@ For nonzero $A=A_{E,n}$ with $\ell\neq p$, the
 cohomology sheaf
 $\mathcal H^2(Ri^!A_T)$ is nonzero. Thus no bound
 $Ri^!D^{[a,b]}\subseteq D^{[a-c,b]}$ is possible for this map.
-The support triangle uses the
-derived direct image of the
-complement.
 
 ## Proof
 

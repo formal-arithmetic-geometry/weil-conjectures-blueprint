@@ -27,11 +27,6 @@ Thus on the sheaves of étale origin – equivalently, by
 blueprint's class [def-sf-fullcd-used-class] – the vanishing degree of
 the comparison direct image is bounded by $M=0$, independently of the
 dimension of $X$ and of any constructibility of $G$.
-[thm-sf-fullcd-etale-origin] is the form of this statement that the
-chapter consumes: there the bound read off for the condition
-[def-weil-full-cohomological-dimension] is $2d$, the $2d$ being the
-étale direction of the Leray spectral sequence of
-[thm-sp-grothendieck] and not the comparison bound, which is $0$.
 
 ## Proof
 

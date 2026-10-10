@@ -5,7 +5,7 @@ title = "Scheme and geometric Frobenius of the purity datum"
 order = 2235
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-trf-frobenius-factorization", "prop-trf-scheme-galois-comparison", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
+In the purity conventions of this chapter ([def-pur-conventions]), fix the
 global finite-field datum
 $(p,a,q,k_0,k)$, and let $f_0:X_0\to Y_0$ be a
 finite-type separated
@@ -24,7 +24,7 @@ $$
 for the semilinear (geometric-Galois) automorphisms, and let $\Phi_X$,
 $\Phi_Y$ be the $q$-power scheme Frobenius endomorphisms of $X_0$
 resp. $Y_0$, base-changed to $X$ and $Y$, in the notation of
-[def-trf-scheme-frobenius]; they form the following commutative squares
+[def-trf-scheme-frobenius]; they form the following commutative squares:
 
 $$
 \begin{array}{ccc}
@@ -36,17 +36,16 @@ Y & \xrightarrow{\ g_{Y,\gamma}\ } & Y,
 \begin{array}{ccc}
 X & \xrightarrow{\ \Phi_X\ } & X\\
 f\downarrow & & \downarrow f\\
-Y & \xrightarrow{\ \Phi_Y\ } & Y,
+Y & \xrightarrow{\ \Phi_Y\ } & Y;
 \end{array}
 $$
 
-The first square is Cartesian, since its horizontal arrows are the
-compatible semilinear automorphisms. The second is commutative by
-the affine description of scheme Frobenius in
-[def-trf-scheme-frobenius]; it is not asserted to be Cartesian.
-The scheme-Frobenius forms below are transported from the first square
-using the comparison isomorphisms, not by applying Cartesian base change
-to the second square. The comparison
+the first square is Cartesian, since its horizontal arrows are the
+compatible semilinear automorphisms. The second is commutative by the
+affine description of scheme Frobenius in [def-trf-scheme-frobenius]; it
+is not asserted to be Cartesian, and the scheme-Frobenius forms are
+transported from the first square using the comparison isomorphisms, not
+by applying Cartesian base change to the second square. The comparison
 isomorphisms $\kappa_X,\kappa_Y$ are those of
 [prop-trf-scheme-galois-comparison]: the absolute Frobenius
 factorizes as

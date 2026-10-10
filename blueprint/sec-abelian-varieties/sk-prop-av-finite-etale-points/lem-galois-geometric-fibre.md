@@ -19,7 +19,6 @@ $\bar y=\operatorname{Spec}k$ with $k$ separably closed; then
 $P\times_Y\bar y=\operatorname{Spec}B$ for a finite etale
 $k$-algebra $B$, and a finite etale algebra over a separably closed
 field is a finite product of copies of that field (an elementary
-structural input; it is used again in Step 1 of the triviality theorem
-proved below). Hence $B\cong k^n$ for $n=\dim_kB$, and
+structural input). Hence $B\cong k^n$ for $n=\dim_kB$, and
 $P\times_Y\bar y$ is a finite disjoint union of copies of
 $\bar y$.

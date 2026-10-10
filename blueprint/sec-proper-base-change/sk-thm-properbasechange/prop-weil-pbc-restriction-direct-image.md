@@ -16,26 +16,6 @@ $$
 and if $K\in\Dbc(S_{\Proet},\Lambda)$ has cohomology in $[a,b]$, then
 $Ru_*K$ has cohomology in $[a,b+c]$.
 
-*Source note:* no Stacks Project entry states this conditional restriction.
-Stacks' constructibility entries are Definition 61.29.1 ([Tag
-09C1](https://stacks.math.columbia.edu/tag/09C1)) and Proposition 61.29.7
-([Tag 09C7](https://stacks.math.columbia.edu/tag/09C7)), stated on a
-Noetherian scheme for a Noetherian coefficient ring, together with Lemma
-61.29.2 ([Tag 09C2](https://stacks.math.columbia.edu/tag/09C2)), which
-realizes one constructible $K$ as $\Rlim K_n$ with each $K_n$ of bounded tor
-amplitude, constructible cohomology and etale origin; the finiteness and
-amplitude inputs are Lemma 59.92.2 ([Tag
-095U](https://stacks.math.columbia.edu/tag/095U): for $f$ proper with all
-fibres of dimension $\le n$ and every abelian torsion sheaf $\mathcal F$ on
-$X_{\Et}$ one has $R^qf_*\mathcal F=0$ for $q>2n$) and Theorem 63.14.5 ([Tag
-0GL0](https://stacks.math.columbia.edu/tag/0GL0): for $f$ separated of
-finite presentation and $K\in D^+_{tors,c}(X_{\Et},\Lambda)$, $Rf_!K$ has
-constructible cohomology sheaves). Difference: both are etale-site
-statements about a single coefficient ring, with no amplitude shift, no
-uniformity over a coefficient tower and no pro-etale site; the blueprint
-adds the transport of these conditions to the small pro-etale sites as the
-predicate $\mathrm{FIN}(u,\Lambda;c)$ and the amplitude shift by $c$.
-
 ## Proof
 
 An object $K\in\Dbc(S_{\Proet},\Lambda)$ has constructible cohomology

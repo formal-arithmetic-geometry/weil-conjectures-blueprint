@@ -13,4 +13,3 @@ the assertion that $R^qf_*F$, with direct image as in
 [def-weil-pbc-direct-image], is constructible for every $q\geq0$
 and every constructible $\Lambda$-sheaf $F$ in the sense of
 [def-weil-pbc-constructible-complexes].
-This predicate includes no uniform vanishing assertion.

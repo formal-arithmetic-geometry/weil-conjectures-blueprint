@@ -56,9 +56,8 @@ $$
 is represented by $\operatorname{Ex}_*$ for $\bar f$, followed by the
 canonical identification $L\bar g'^*j_!\cong j'_!Lg'^*$, where $\bar f':\bar
 X'\to Y'$ and $\bar g':\bar X'\to\bar X$ are the base changes of $\bar f$,
-and $j':X'\hookrightarrow\bar X'$ is the base change of $j$; the independence
-of this map from the compactification is the compactification-coherence
-proposition.
+and $j':X'\hookrightarrow\bar X'$ is the base change of $j$; this map is
+independent of the compactification by [prop-compactification-coherence-detailed].
 
 For $K\in D^b_c(X,\Lambda)$ and $L\in D^b_{ctf}(Y,\Lambda)$, the projection
 transformation is

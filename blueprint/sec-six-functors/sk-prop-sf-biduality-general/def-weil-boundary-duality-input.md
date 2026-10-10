@@ -31,6 +31,6 @@ and the inverse of $D_Z\alpha_K$ from
 [lem-weil-closed-costalk-duality], the restriction $i^*\delta_K$
 identifies with $\delta_{i^*K}$.
 
-The first clause includes preservation as a separate condition. The second
-clause interchanges ordinary and exceptional restriction; it does not
-identify $i^*$ with $Ri^!$.
+The first clause includes preservation of $D^b_{ctf}$ as a separate
+condition. The second clause interchanges ordinary and exceptional
+restriction; it does not identify $i^*$ with $Ri^!$.

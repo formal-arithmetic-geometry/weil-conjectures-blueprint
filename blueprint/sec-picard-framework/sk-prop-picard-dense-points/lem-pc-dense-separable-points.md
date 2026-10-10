@@ -4,9 +4,8 @@ kind = "lemma"
 title = "Density of rationally defined closed points"
 order = 751
 uses = ["def-pc-field-tower", "def-pc-morphism-conventions", "def-pc-scheme", "def-weil-scheme-morphism-properties"]
+lean = ["AlgebraicGeometry.Scheme.Hom.dense_setOf_isClosed_finite_isSeparable"]
 +++
-(Varieties, Lemma 33.25.6, Tag
-[056U](https://stacks.math.columbia.edu/tag/056U).)
 Let $k$ be a field and let $X$ be a scheme over $k$ which is smooth
 over $k$. Then the set of closed points $x\in X$ with $\kappa(x)/k$
 finite and separable is dense in $X$.
@@ -23,7 +22,6 @@ $$
 \pi:U\longrightarrow\mathbf A^d_k
 $$
 
-with $U\subseteq X$ a nonempty open and $\pi$ an 'etale morphism over $k$
 with $U\subseteq X$ a nonempty open and $\pi$ étale: since $X$ is
 smooth over the field $k$, the structure morphism is smooth, and a
 smooth $k$-algebra is Zariski-locally a standard smooth

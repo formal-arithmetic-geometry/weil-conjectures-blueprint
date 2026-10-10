@@ -20,5 +20,4 @@ The map in this formula is the unit of the open
 inverse-image and
 direct-image adjunction. A morphism of sheaves induces a
 map of these kernels and then its closed inverse image;
-this specifies the functor on morphisms. No adjunction or
-constructibility property is part of this construction.
+this specifies the functor on morphisms.

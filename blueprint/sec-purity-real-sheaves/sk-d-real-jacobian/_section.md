@@ -8,7 +8,7 @@ lean = ["AlgebraicGeometry.JacobianTorsionDatum", "AlgebraicGeometry.JacobianTor
 +++
 *Definition (sketch).*
 
-For a proper smooth geometrically connected curve $C_0/\Fq$, write
+For a proper smooth geometrically integral curve $C_0/\Fq$, write
 $C=C_0\times_{\Fq}k$ using geometric base change.
 The group $\operatorname{Pic}(C)$ consists of line bundles up to
 isomorphism, with tensor product as addition. A Jacobian torsion datum
@@ -28,5 +28,3 @@ The roots-of-unity system $(\mu_{\ell^n},z\mapsto z^\ell)$ defines
 $\mathbf Z_\ell(1)$; invert $\ell$ and extend coefficients to obtain
 $E(1)$. Geometric Frobenius acts on this line by $q^{-1}$, agreeing
 with the cohomological Tate convention.
-
-Uses: [sk-d-real-cohom], [sk-d-real-setup]

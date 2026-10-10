@@ -16,7 +16,4 @@ perfectness of compact-support cohomology), the trace-layer statements
 [prop-trf-compact-support-perfectness], [lem-trf-open-ctf] and
 [thm-trf-internal-hom-pullback], and — outside the package — the
 Künneth–Verdier isomorphism [thm-trf-kunneth-verdier], on which their
-supported pairing and local-term nodes rest. The final Weil statements cite the package through
-prop:weil-operations-verified. Corresponding blueprint source:
-`10b_six_functor_formalism.tex` of
-`version/sketch`, whose statements carry the labels reused above.
+supported pairing and local-term nodes rest.

@@ -5,28 +5,13 @@ title = "Torsion coefficient assembly"
 order = 1314
 uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-prime-factor-devissage", "lemma-weil-pbc-chow-factorization", "lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-prime-factor-induction", "lemma-weil-pbc-prime-proper-base-change", "lemma-weil-pbc-torsion-filtered-union", "prop-weil-pbc-reduction-to-projective-line", "thm-weil-pbc-stein-inputs"]
 +++
-For every torsion abelian sheaf $F$ and every proper Cartesian square, the
-specific map $\operatorname{Ex}_{\square,F}$ is an isomorphism.
-
-## Proof
-
-Write $F=\varinjlim_nF[n]$ and commute both sides of exchange with the
-filtered colimit. Induct on the number of prime factors of $n$ through
-$0\to F[\ell]\to F[n]\to F[n]/F[\ell]\to0$; the quotient is killed by
-$n/\ell$. Prime coefficients are handled by the preceding lemma, and the
-five-lemma transfer handles the induction step. Naturality shows at every
-stage that the comparison is the S0 exchange map.
-
-## Detailed form
-
 For every proper $f:X\to Y$, every cartesian base change, and every torsion
 abelian sheaf $F$ on $X_{\Et}$, the derived exchange morphism
-[def-weil-pbc-derived-exchange] is an isomorphism in every cohomological
-degree. This is the sheaf-level instance of the bounded-below theorem of this
-chapter applied to $K=F[0]$, whose exchange isomorphism has these degreewise
-maps as its cohomology-sheaf components; the direct assembly from
-[lemma-weil-pbc-prime-proper-base-change] given below is the step used in the proof of
-the bounded-below theorem.
+$\operatorname{Ex}_{\square,F}$ of [def-weil-pbc-derived-exchange] is an
+isomorphism in every cohomological degree. This is the sheaf-level instance,
+for $K=F[0]$, of the bounded-below proper base change theorem of this
+chapter, whose exchange isomorphism has these degreewise maps as its
+cohomology-sheaf components.
 
 ## Proof
 

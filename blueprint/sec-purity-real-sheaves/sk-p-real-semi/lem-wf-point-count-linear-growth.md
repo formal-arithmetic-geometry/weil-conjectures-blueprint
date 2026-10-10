@@ -44,4 +44,3 @@ an artinian ring of $k_n$-dimension $d$ has at most $d$ maximal ideals
 $d$ $k_n$-points, and $\mathbf A^1_{k_0}(k_n)$ has $q^n$ points, which
 gives the estimate.
 
-*Recorded in advance* from chapter *Boundary weights, constant twists, and real envelopes* of the source.

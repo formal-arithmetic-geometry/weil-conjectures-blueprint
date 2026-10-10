@@ -20,8 +20,7 @@ the ordinary direct image itself, and the general finite-type case is
 assembled from the open-immersion and proper cases by a finite alternating
 Cech resolution. The proper case is the comparison theorem
 [obl-fin-comparison], and the resulting finite-type statement is
-[sbc-thm-finiteness-finite-type], whose earlier circular
-open-immersion argument is thereby superseded.
+[sbc-thm-finiteness-finite-type].
 
 Clause (2) is the cohomological-dimension bound of a finite-type scheme
 over a separably closed field: the affine case is Stacks Project, Etale
@@ -35,5 +34,4 @@ comparison of the etale and Zariski topologies, with the vanishing of the
 torsion cohomological dimension of a separably closed field as the base
 case ([lem-kun-cd-sep-closed-point]).
 
-Consequently both clauses hold over every separably closed field, which is
-the form used below: [thm-exc-direct-image-input-holds].
+Consequently both clauses hold over every separably closed field.

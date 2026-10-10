@@ -45,8 +45,7 @@ explicit etale-origin witness for $K_n$
 admissibility of [def-trf-admissibility] for the graph correspondences of
 the iterates $\Phi^m$ and the fixed-point base changes on a chosen
 compactification defined over $k_0$. They concern $K_n$ and the geometry
-of $X_0$ only, not $\varphi_E$; they are the data "assumed at each
-finite level" in the source and are not proved here.
+of $X_0$ only, not $\varphi_E$.
 
 Then the $E$-vector spaces $H_c^i(X,K_E)$ and $H^j(K_{E,\bar y})$ are
 finite-dimensional and nonzero for only finitely many $i$, $j$, and for
@@ -72,9 +71,7 @@ This covers the Weil structure of every $E$-Weil complex. It also covers
 Weil maps that are not invertible after any rescaling on any lattice, such
 as $\varphi_E=\operatorname{diag}(1,\ell)$ on $E^2$ over
 $X_0=\Spec\mathbf F_q$ (the example of
-[prop-trf-rational-frobenius-integral-model]). The earlier hypothesis of a
-strict integral Weil presentation of some rescaling $c\,\varphi_E$ is a
-special case and is no longer needed.
+[prop-trf-rational-frobenius-integral-model]).
 
 ## Proof
 

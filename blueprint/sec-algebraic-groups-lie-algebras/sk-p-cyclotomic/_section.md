@@ -8,9 +8,11 @@ lean = ["cyclotomicCharacter_frobeniusEquiv_pow", "cyclotomicCharacter_frobenius
 +++
 *Proposition (sketch).*
 
-On both $\Zell(1)$ and $\Qell(1)$,
-arithmetic Frobenius acts as multiplication by
-$q$, and geometric Frobenius acts as multiplication by
+Let $\bar k$ be an algebraically closed field of characteristic $p$,
+let $q=p^a$ with $a\ge0$, and let $\ell\ne p$ be a prime. On the
+cyclotomic Tate module $\Zell(1)$ of $\bar k$, the $q$-power arithmetic
+Frobenius $x\mapsto x^q$ acts as multiplication by
+$q$, and the geometric Frobenius, its inverse, acts as multiplication by
 $q^{-1}\in\hyperref[sk-d-ab-tate]{\Zell}^{\times}$.
 
 ## Proof
@@ -21,6 +23,3 @@ its $q$th power. This is precisely multiplication by $q$ in
 each $\ell^n$ exists; uniqueness makes these inverses compatible under
 reduction. They define $q^{-1}$ in the ring of [sk-d-ab-tate].
 The inverse automorphism is therefore multiplication by $q^{-1}$.
-Both actions extend by the same formulas to localization.
-
-Uses: [sk-d-ab-cyclotomic], [sk-d-ab-field], [sk-d-ab-tate]

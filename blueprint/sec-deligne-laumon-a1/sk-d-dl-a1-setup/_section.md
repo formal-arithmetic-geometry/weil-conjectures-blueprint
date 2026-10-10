@@ -3,7 +3,7 @@ id = "sk-d-dl-a1-setup"
 kind = "section"
 title = "Affine-line and weight conventions"
 order = 2722
-lean = ["AlgebraicGeometry.WeilSheaf.IsGeometricallyConstant", "AlgebraicGeometry.WeilSheaf.IsUnramifiedAtInfinity"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsGeometricallyConstant", "AlgebraicGeometry.LAdicWeilSheaf.IsUnramifiedAtInfinity"]
 +++
 *Remark (sketch).*
 
@@ -18,7 +18,12 @@ The twist $(-1)$ raises weights by two.
 For a dense open $j:U_0\hookrightarrow A_0$, $j_*F$ denotes the
 *ordinary* sheaf direct image. Its stalks at missing points are
 inertia invariants; its curve perverse intermediate extension is
-$j_{!*}(F[1])=(j_*F)[1]$. Unramifiedness at infinity means that inertia
+$j_{!*}(F[1])=(j_*F)[1]$. A lisse Weil sheaf $F$ on $U_0$ is *unramified at infinity* if it
+extends to a lisse Weil sheaf on the open $U_0\cup\{\infty\}$ of
+$\mathbf P^1_{k_0}$ (with $A_0\subset\mathbf P^1_{k_0}$ the standard chart);
+equivalently, inertia
 at $\infty\in\mathbf P^1_k$ acts trivially on the geometric generic fiber.
-A geometrically constant sheaf has trivial geometric fundamental-group
-action, while its Frobenius module may be nontrivial.
+A Weil sheaf on $U_0$ is *geometrically constant* if its underlying étale
+sheaf is constant on every connected open of $U=U_0\otimes k$; for $U$
+connected this means that the geometric fundamental group acts
+trivially, while its Frobenius module may be nontrivial.

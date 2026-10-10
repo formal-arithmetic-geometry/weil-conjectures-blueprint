@@ -50,19 +50,10 @@ and likewise $d'_1=(j'_{q-1})_*(k'_q)_*$. This first
 exact-couple page is the page conventionally denoted $E_2$ in the
 hypercohomology indexing.
 
-## Detailed form
-
-For $q\geq a$, apply $g^{-1}Rf_*$ and $Rf'_*g'^{-1}$ to the truncation
-triangle
-
-$$
- \tau_{\leq q-1}K\to\tau_{\leq q}K
- \to\mathcal H^q(K)[-q]\to.
-$$
-
-The exchange morphisms [def-weil-pbc-derived-exchange] on its three terms give
-a morphism between the resulting exact couples. Its first graded component in
-bidegree $(p,q)$ is
+The vertical maps are the exchange morphisms
+[def-weil-pbc-derived-exchange] on the three terms of the truncation
+triangle; they form a morphism between the two exact couples, whose first
+graded component in bidegree $(p,q)$ is
 
 $$
  g^{-1}R^pf_*\mathcal H^q(K)\longrightarrow

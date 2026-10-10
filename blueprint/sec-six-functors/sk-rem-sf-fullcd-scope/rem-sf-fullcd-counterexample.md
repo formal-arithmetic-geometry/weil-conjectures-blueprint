@@ -22,11 +22,7 @@ $X_0$. The seven clauses below are the construction and its computation.
 The two sources used are Bhatt–Scholze,
 [arXiv:1309.1198v2](https://arxiv.org/html/1309.1198v2), and
 Bergfalk–Lambie-Hanson,
-[arXiv:2412.19605v2](https://arxiv.org/html/2412.19605v2); their exact
-statements, numbers and verbatim wording are recorded in Section 16.1 of the
-audit ledger, the first at Lemmas 5.1.1 and 5.1.2, Corollary 5.1.6,
-Definition 3.2.1, Example 4.1.10, Remark 4.1.11 and Proposition 4.2.8, the
-second at Theorem 4.3, Lemma 4.8 and Theorem 4.11.
+[arXiv:2412.19605v2](https://arxiv.org/html/2412.19605v2).
 
 1. **(i)** *$U$ is an affine pro-étale object of $X_{0,\Proet}$, a
 cofiltered limit of finite disjoint unions of points.* The profinite space
@@ -169,8 +165,6 @@ shows that the continuity statement $(\mathrm{C}_q)$ of that theorem
 $R^q\nu_{U,*}F_G\neq0$; the continuity route is therefore not a residue
 "for arbitrary sheaves" but a statement about the finite-type models, which is
 the form in which *Continuity for arbitrary sheaves gives the full cohomological-dimension bound* consumes it. Second,
-nothing here weakens any statement of this chapter: the class form
-[thm-sf-fullcd-used-class] and the sharp comparison bound
-[prop-sf-comparison-bound-zero] are unconditional on that class, and the
-only statement that changes status is $(\mathrm{G})$ itself, which passes
-from "open" to "false".
+the class form [thm-sf-fullcd-used-class] and the sharp comparison bound
+[prop-sf-comparison-bound-zero] are unconditional on that class; only
+$(\mathrm{G})$ itself is affected, and it is false.

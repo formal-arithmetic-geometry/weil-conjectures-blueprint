@@ -3,10 +3,13 @@ id = "lemma-nagata-intermediate-separated"
 kind = "lemma"
 title = "Separatedness of the intermediate schemes"
 order = 291
-lean = ["AlgebraicGeometry.TwoOpenSide.isSeparated_intermediateHom"]
+lean = ["AlgebraicGeometry.TwoOpenSide.isSeparated_intermediateHom", "AlgebraicGeometry.TwoOpenSide.locallyOfFiniteType_intermediateHom", "AlgebraicGeometry.TwoOpenSide.compactSpace_intermediate"]
 uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-boundary-loci", "lemma-nagata-intermediate-overlap-closed", "lemma-nagata-intermediate-overlap-constructible", "lemma-nagata-intermediate-overlap-specialization-closed", "lemma-nagata-intermediate-specialization-boundary", "lemma-nagata-separated-two-open-cover"]
 +++
-Each $W_i\to S$ is separated and of finite type.
+Let $S$ be a Noetherian scheme and $U\to S$ separated, locally of finite
+type and quasi-compact. Then each $W_i\to S$ is separated and locally of
+finite type, and $W_i$ is quasi-compact. In particular $W_i\to S$ is
+separated and of finite type.
 
 ## Proof
 
@@ -16,5 +19,11 @@ second has those properties because it is open in the proper scheme
 $X_i\to S$. Their overlap map is the closed immersion supplied by
 [lemma-nagata-intermediate-overlap-closed]. Apply
 [lemma-nagata-separated-two-open-cover] to these two opens to obtain
-separatedness of $W_i\to S$. Finite type is local on this finite open
-cover, so $W_i\to S$ is also of finite type.
+separatedness of $W_i\to S$. Being locally of finite type is local on
+the source, so $W_i\to S$ is locally of finite type. The open $U$ is
+quasi-compact, since $U\to S$ is quasi-compact and $S$ is quasi-compact.
+The scheme $X_i$ is of finite type over the Noetherian scheme $S$, hence
+Noetherian, so its open subscheme $X_i\setminus\overline Z_{i,j}$ is
+quasi-compact. Thus $W_i$, covered by these two opens, is quasi-compact.
+As $S$ is Noetherian, hence quasi-separated, $W_i\to S$ is quasi-compact,
+and so of finite type.

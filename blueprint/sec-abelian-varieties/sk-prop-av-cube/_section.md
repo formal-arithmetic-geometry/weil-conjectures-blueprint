@@ -39,5 +39,3 @@ $A\times A\times e$, $A\times e\times A$, $e\times A\times A$ the
 restriction of $\cM$ is $\cO$: all seven factors cancel there, since
 the partial sums collapse to $n_{12},n_1,n_2$ and $e^*\cL\cong\cO$.
 Hence $\cM\cong\cO$, which is the displayed relation.
-
-Uses: [sk-def-av]

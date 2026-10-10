@@ -58,5 +58,3 @@ by its pure determinant, again using [sk-p-real-rankone].
 Every factor must be $1$. This is purity on $U_0$ in [sk-d-real-weights],
 for each constituent separately. Each constituent is lisse on $C_0$,
 so [sk-p-real-semi] extends that purity over the missing points.
-
-Uses: [sk-d-real-detweights], [sk-d-real-operations], [sk-d-real-setup], [sk-d-real-weights], [sk-d-real-weil], [sk-i-real-boundary], [sk-p-exterior], [sk-p-linear-spectra], [sk-p-real-rankin], [sk-p-real-rankone], [sk-p-real-semi], [sk-r-real-linear]

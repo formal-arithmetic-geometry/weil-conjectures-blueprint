@@ -6,97 +6,27 @@ order = 2939
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures"]
 uses = ["def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-euler-product", "thm-weil-final-betti", "thm-weil-final-functional-equation", "thm-weil-final-integrality", "thm-weil-final-rationality", "thm-weil-final-rh"]
 +++
-Let $X_0$ be a smooth, proper, geometrically connected scheme of pure
-dimension $d$ over $\Fq$. Put $X=X_0\times_{\Fq}k$, let
-$\mathscr X$ be the resulting smooth-proper datum, and let
-$P_i=P_i(\mathscr X)$ be the canonical factors of
-Definition *Canonical integral cohomological factors*. Then the following
-statements hold.
+Let $k_0$ be a finite field with $q$ elements, let $X_0$ be a scheme over
+$k_0$ whose structure morphism $X_0\to\Spec k_0$ is smooth of relative
+dimension $d$, proper and geometrically integral, and let $Z(X_0,T)\in\mathbf Q[[T]]$
+be its point-count zeta series. Then there are polynomials
+$P_0,\dots,P_{2d}\in\mathbf Z[T]$ such that:
 
-1. The zeta series has both point-counting descriptions
+1. (*Factorization.*) $P_i(0)=1$ for every $i$, $P_0(T)=1-T$,
+$P_{2d}(T)=1-q^dT$, and
 $$
-Z(X_0,T)=
-\exp\left(\sum_{n\geq1}
-\#X_0(\mathbf F_{q^n})\frac{T^n}{n}\right)
-=\prod_{x\in|X_0|}(1-T^{\deg(x)})^{-1},
+Z(X_0,T)\prod_{\substack{0\leq i\leq2d\\ i\text{ even}}}P_i(T)
+=\prod_{\substack{0\leq i\leq2d\\ i\text{ odd}}}P_i(T)
+\quad\text{in }\mathbf Q[[T]].
 $$
-and belongs to $1+T\mathbf Z[[T]]\cap\mathbf Q(T)$.
-1. The polynomials $P_i$ are the unique polynomials
-$$
-P_i(T)\in\mathbf Z[T]
-\qquad(0\leq i\leq2d)
-$$
-with $P_i(0)=1$ such that, for every prime $\ell\neq p$,
-$$
-\bigl((\mathbf Z[T]\longrightarrow\Ql[T])(P_i)\bigr)(T)=
-\det(1-TF\mid H^i(X,\Ql)).
-$$
-They give the rational factorization
-$$
-Z(X_0,T)=
-\prod_{i=0}^{2d}P_i(T)^{(-1)^{i+1}}.
-$$
-1. Fix an algebraic closure $\overline{\mathbf Q}$ of $\mathbf Q$
-and regard $P_i\in\mathbf Z[T]$ inside
-$\overline{\mathbf Q}[T]$. For every $0\leq i\leq2d$, every
-reciprocal root $\alpha\in\overline{\mathbf Q}$ of $P_i$ is an
-algebraic integer
-and a $q$-Weil number of weight $i$:
-$$
-|\tau(\alpha)|=q^{i/2}
-$$
-for every embedding
-$\tau:\mathbf Q(\alpha)\hookrightarrow\mathbf C$. For every ordinary
-root $\beta\in\overline{\mathbf Q}$ of $P_i$ and every embedding
-$\tau:\mathbf Q(\beta)\hookrightarrow\mathbf C$, one has
-$|\tau(\beta)|=q^{-i/2}$.
-1. For every $0\leq i\leq2d$, with $b_i=\deg P_i$, and every
-prime $\ell\neq p$,
-$$
-b_i=\dim_{\Ql}H^i(X,\Ql),
-\qquad b_i=b_{2d-i},
-\qquad b_0=b_{2d}=1,
-$$
-independently of $\ell$. Moreover
-$$
-P_0(T)=1-T,
-\qquad
-P_{2d}(T)=1-q^dT.
-$$
-In particular $Z(X_0,T)$ has a pole of order exactly $1$ at $T=1$
-and, if $d\geq1$, a pole of order exactly $1$ at $T=q^{-d}$.
-1. If
-$$
-D_i=(-1)^{b_i}[T^{b_i}]P_i(T),
-\qquad
-\chi=\sum_{i=0}^{2d}(-1)^ib_i,
-$$
-then $d\chi$ is even and, for every $0\leq i\leq2d$,
-$$
-P_{2d-i}(q^{-d}T^{-1})
-=(-1)^{b_i}T^{-b_i}D_i^{-1}P_i(T),
-$$
-and
-$$
-Z(X_0,q^{-d}T^{-1})
-=\varepsilon q^{d\chi/2}T^\chi Z(X_0,T)
-$$
-for the sign
-$$
-\varepsilon=
-(-1)^\chi q^{-d\chi/2}
-\prod_{i=0}^{2d}D_i^{(-1)^i}
-\in\{1,-1\}.
-$$
-
-**Status.** Both Lean statements exist and both proofs are `sorry`.
-`weil_conjectures` states clauses (ii), (iii) and
-(v) for a smooth, proper, geometrically integral $X_0$, phrased
-through the three predicates `IsWeilFactorization`,
-`WeilFunctionalEquation` and `WeilRiemannHypothesis`, which are
-complete definitions; `zetaSeries_rational` states the rationality
-assertion of clause (i) for an arbitrary scheme of finite type over
-$\Fq$.
+1. (*Functional equation.*) For every $0\leq i\leq2d$, the multiset of
+complex roots of $P_{2d-i}$ is the image of the multiset of complex roots
+of $P_i$ under $z\mapsto(q^dz)^{-1}$; equivalently, $\alpha\mapsto q^d/\alpha$
+maps the reciprocal roots of $P_i$ bijectively, with multiplicity, onto
+those of $P_{2d-i}$.
+1. (*Riemann hypothesis.*) For every $0\leq i\leq2d$, every complex root
+$z$ of $P_i$ satisfies $|z|=q^{-i/2}$; equivalently, every reciprocal root
+of $P_i$ has absolute value $q^{i/2}$.
 
 ## Proof
 
@@ -183,5 +113,3 @@ in $\mathbf Q(T)$. Hence all assertions of (v) follow.
 
 The five independently verified clauses are exactly the conjunction stated
 in the theorem.
-
-Unresolved dependencies: def:weil-determinant-constants, def:weil-functional-equation-sign, prop:arithmetic-roots, prop:duality-reciprocity, prop:endpoints, prop:functional-equation, prop:integral-recovery

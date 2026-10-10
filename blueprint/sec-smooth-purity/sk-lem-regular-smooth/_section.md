@@ -9,10 +9,10 @@ lean = ["AlgebraicGeometry.IsRegularImmersion.smooth_comp", "AlgebraicGeometry.I
 *Lemma (sketch).*
 
 Let $i:Z\hookrightarrow X$ be a regular closed immersion of pure codimension
-$c$, with $X$ smooth over the perfect field $k$ and $Z$ regular. Then both
-structure morphisms $a_X:X\to\Spec k$ and $a_Z:Z\to\Spec k$ are smooth, and
-$a_Z=a_X\circ i$. On a connected component of $X$ of dimension $n$, the
-nonempty inverse image in $Z$ has pure dimension $m=n-c$.
+$c$, with $X$ smooth over the perfect field $k$ and $Z$ regular and locally
+of finite type over $k$. Then both structure morphisms $a_X:X\to\Spec k$ and
+$a_Z=a_X\circ i:Z\to\Spec k$ are smooth, and for every point $z\in Z$
+$$\dim\mathcal O_{X,i(z)}=\dim\mathcal O_{Z,z}+c.$$
 
 ## Proof
 
@@ -23,5 +23,3 @@ components have a fixed dimension; on a component of $X$ of dimension $n$
 the pure-codimension hypothesis gives dimension $n-c$ for each component of
 $Z$ lying in it. The identity $a_Z=a_X\circ i$ is the definition of $i$ as a
 $k$-morphism.
-
-Uses: [sk-def-purity-conv]

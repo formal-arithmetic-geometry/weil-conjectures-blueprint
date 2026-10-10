@@ -5,12 +5,6 @@ title = "Finite data and finite relations descend in a filtered colimit"
 order = 331
 uses = ["lemma-nagata-directed-finite-upper-bound"]
 +++
-**Status.** Bypassed by the formalized route: the finite-presentation and
-Noetherian descent is done in one step by
-`AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation_of_isSeparated`
-and `AlgebraicGeometry.Scheme.nonempty_noetherianApproximation`, so
-this stage-by-stage bookkeeping is never carried out.
-
 Let $(A_i)_{i\in I}$ be a directed system of rings with colimit $A$. Given
 finitely many elements of $A$ and finitely many equalities between ring
 expressions in those elements, there exists one stage $i$ and lifts of all

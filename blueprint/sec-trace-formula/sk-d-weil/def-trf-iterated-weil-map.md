@@ -23,6 +23,3 @@ $$
 u_m=\varphi^{[m]}\circ\kappa^{(m)}_K:
 L\Phi^m{}^*K\xrightarrow{\ \sim\ }K.
 $$
-
-The cocycle identity satisfied by the $\varphi^{[m]}$ is
-[lem-trf-iterated-weil-cocycle].

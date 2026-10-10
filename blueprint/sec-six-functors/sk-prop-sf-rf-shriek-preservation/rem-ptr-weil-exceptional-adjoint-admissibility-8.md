@@ -5,7 +5,7 @@ title = "Pointer to the properties of [def-weil-exceptional-adjoint-admissibilit
 order = 2092
 uses = ["cor-sf-ambient-adjoint-discharge", "def-sf-fullcd-used-class", "def-weil-exceptional-adjoint-admissibility", "lem-exc-open-complement-known", "thm-sf-preservation-class"]
 +++
-In the notation of [def-weil-exceptional-adjoint-admissibility], the following holds. In
+In the notation of [def-weil-exceptional-adjoint-admissibility]: in
 the setting of the global finite-field datum, that is for $S=\Spec k$ with
 $k=\Fbar$ and for finite-type $S$-schemes, all three
 clauses are nevertheless theorems on

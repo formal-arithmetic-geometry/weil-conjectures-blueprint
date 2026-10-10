@@ -11,10 +11,7 @@ $\iota:\Qlb\xrightarrow{\sim}\mathbf C$ as in
 constructible
 Weil sheaf on $X_0$, with the
 stalk Frobenius modules $(V_x,F_x)$ of
-[def-weil-punctual-weights]. Reality is a pointwise condition on
-those modules, so the definition is stated for constructible sheaves; the
-lisse case is the classical one, and is the case in which the notion of
-realizability below is applied. The *local characteristic
+[def-weil-punctual-weights]. The *local characteristic
 factor* of $\mathcal F$ at a closed point $x$ is
 
 $$
@@ -27,5 +24,4 @@ $\iota(P_x(T))\in\mathbf R[T]$ for every closed point $x\in|X_0|$;
 equivalently, the multiset of complex Frobenius eigenvalues is stable
 under complex conjugation at every closed point. The sheaf $\mathcal F$
 is *$\iota$-realizable* if it is a direct summand (in the category
-of Weil sheaves) of an $\iota$-real lisse Weil sheaf
-(*Deligne, Weil II, (1.2.13)*).
+of Weil sheaves) of an $\iota$-real lisse Weil sheaf.

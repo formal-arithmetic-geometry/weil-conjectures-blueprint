@@ -14,21 +14,6 @@ abelian category of towers, then $\varprojlim_nI_n$ represents the sequential
 derived inverse limit $\Rlim M_\bullet$ of
 [def-weil-pbc-derived-inverse-limit].
 
-(*Source note:* the model statement is Stacks Project, Derived Categories,
-Lemma 13.34.6 (Tag [070M](https://stacks.math.columbia.edu/tag/070M)): for a
-complex $K^\bullet$ and the inverse system $I_n^\bullet$ of bounded below
-complexes of injectives produced by Lemma 13.29.3,
-$I^\bullet=\lim_nI_n^\bullet$ exists, is K-injective, and represents
-$R\lim_n\tau_{\ge-n}K^\bullet$; existence of the derived limit is Lemma
-13.34.3 (Tag [0BK7](https://stacks.math.columbia.edu/tag/0BK7)), and
-functorial K-injective resolutions in a Grothendieck abelian category are
-Theorem 19.12.6 (Tag [079P](https://stacks.math.columbia.edu/tag/079P)).
-Stacks treats the truncation tower of a single complex of $D(\mathcal A)$,
-whereas the form used here resolves an arbitrary object of
-$\operatorname{Tow}_A(T)$ in the abelian category of towers over
-$T_{\Proet}$; that general-tower form is the one already recorded in the
-conventions chapter.)
-
 ## Proof
 
 By [def-weil-pbc-derived-inverse-limit] the object $\Rlim M_\bullet$ is the

@@ -33,7 +33,7 @@ complex $P$ of flat *constructible* $A_T$-module sheaves with $P^q=0$ for
 $q\notin[a,b]$; in particular every object of $D^b_{ctf}(T_{\Et},A)$ has such
 a model. The key input is that every constructible sheaf of $A$-modules on
 $T_{\Et}$ is a quotient of a finite direct sum of sheaves $j_{V!}A_V$ with
-$j_V:V\to T$ étale and $V$ affine (Stacks 095M; SGA $4\frac12$, Rapport, 4.6),
+$j_V:V\to T$ étale and $V$ affine,
 and that kernels and cokernels of maps of constructible sheaves of
 $A$-modules are constructible.
 

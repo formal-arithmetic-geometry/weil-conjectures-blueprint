@@ -6,12 +6,8 @@ order = 761
 uses = ["def-pc-curve", "def-pc-degree-line-bundle", "def-pc-derived-category", "def-pc-genus", "def-pc-rational-point", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-zero-scheme", "def-sc-ample", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "cor-pc-dense-points-curves-sections", "lem-pc-ample-positive-degree", "lem-pc-closed-imm-base-change", "lem-pc-degree-base-change", "lem-pc-dim-base-change", "lem-pc-euler-additive", "lem-pc-flat-base-change-cohom", "lem-pc-rational-points-dense", "lem-pc-serre-vanishing", "lem-pc-vanishing-above-dim", "lem-pc-very-ample-ample", "lem-sc-point-cartier", "prop-pc-xk-integral", "thm-picard-serre-a"]
 lean = ["AlgebraicGeometry.Scheme.exists_isInvertible_twist"]
 +++
-(Picard Schemes of Curves, Lemma 44.6.5, Tag
-[0B9Y](https://stacks.math.columbia.edu/tag/0B9Y); the proof is a
-variant of Varieties, Lemma 33.44.16, Tag
-[0B8Z](https://stacks.math.columbia.edu/tag/0B8Z).)
 Let $k$ be a separably closed field,
-let $X$ be a smooth projective curve of genus $g$ over $k$, let $K/k$ be
+let $X$ be a connected smooth proper curve of genus $g$ over $k$, let $K/k$ be
 a field extension and let $\mathcal{L}$ be an invertible sheaf on $X_K$. Then
 there exists an invertible sheaf $\mathcal{L}_0$ on $X$ such that
 
@@ -23,8 +19,18 @@ $$
 
 ## Proof
 
-*Step 1: an ample polarisation.* The smooth projective curve $X$
-carries a closed immersion $i:X\to\mathbf{P}^N_k$; by [lem-pc-very-ample-ample]
+*Step 1: an ample polarisation.* The curve $X$ is projective over
+$k$: it is separated of finite type of dimension $1$ over a field,
+hence quasi-projective (Stacks Project, Varieties, the section on
+curves: a separated scheme of finite type of dimension $\le1$ over a
+field is quasi-projective), and a proper quasi-projective scheme over a
+field is projective
+([Tag 0B45](https://stacks.math.columbia.edu/tag/0B45)). Being
+smooth, $X$ is normal, and a connected normal Noetherian scheme is
+integral; so $X$ is a smooth projective curve in the sense of
+[def-pc-smooth-projective-curve], it has a $k$-rational point by
+[lem-pc-rational-points-dense], and [prop-pc-xk-integral] applies to
+it. So $X$ carries a closed immersion $i:X\to\mathbf{P}^N_k$; by [lem-pc-very-ample-ample]
 the module $\mathcal{L}_0^{\bullet}:=i^*\mathcal{O}_{\mathbf{P}^N}(1)$ is ample on $X$ and, by
 [lem-pc-dim-base-change] and the same argument applied to
 $i_K:X_K\to\mathbf{P}^N_K$ (base change of $i$ along $K$, [lem-pc-closed-imm-base-change]),

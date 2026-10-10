@@ -17,8 +17,7 @@ point of $X$.
 1. $f$ is *quasi-finite* if it is of finite type and every point
 of $X$ is an isolated point of its fibre.
 
-This is Stacks Project, Morphisms of Schemes, Definition 29.21.1, Tag
-[01TD](https://stacks.math.columbia.edu/tag/01TD). We say that
+We say that
 $f$ *has finite fibres* if for every $s\in S$ the set
 $f^{-1}(\{s\})$ is finite; the *fibre* of $f$ at $s$ is the scheme
 $X_s=X\times_S\operatorname{Spec}\kappa(s)$.

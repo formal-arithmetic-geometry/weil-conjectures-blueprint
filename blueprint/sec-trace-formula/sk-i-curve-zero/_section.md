@@ -8,10 +8,15 @@ lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.localTerm_traceClass_eq_
 +++
 *Proposition (sketch).*
 
-In the smooth-curve setting, if $K_{\bar x}=0$
-then the local term $\LT_{\bar x}(\varphi_m)$ is
-zero. The same holds for an arbitrary Frobenius coefficient morphism
-$\Phi_m^*K\to K$.
+Let $s$ be the spectrum of a field and let $X$ be quasi-compact, compactifiable
+and smooth of relative dimension one over $s$. Let $(K,\varphi)$ be a Weil
+complex on $X$ with the model Frobenius of a scheme $X_0$ over a finite field
+$\mathbf F_q$, with $K\in D^b_{ctf}(X,A)$ and $\varphi:\Phi_1^*K\to K$ an
+arbitrary (not necessarily invertible) Frobenius coefficient morphism. Fix
+$m\ge1$, a point $\bar x:s\to X$ over $s$ fixed by $\Phi_m$, and a clopen
+subscheme $B$ of the fixed scheme $\Fix(1,\Phi_m)$ whose underlying set is
+$\{\bar x\}$; assume $\Fix(1,\Phi_m)$ is proper over $s$. If $K_{\bar x}=0$,
+then the local term $\LT_B(\varphi_m)$ is zero.
 
 ## Proof
 
@@ -61,5 +66,3 @@ time. Its proof reduces, through the localization trace additivity and the
 proper pushforward compatibility of this chapter, exactly to the vanishing
 asserted here, which is then established by the normal-cone argument; the
 blueprint quotes that argument rather than the invalid stalk computation.
-
-Uses: [sk-d-corr], [sk-d-curve-pieces], [sk-d-local-term], [sk-d-trace-class], [sk-p-pairing], [sk-thm-sf-package]

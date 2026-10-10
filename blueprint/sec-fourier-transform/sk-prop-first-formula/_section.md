@@ -22,8 +22,6 @@ $$
 $(-1)$ being the Tate twist of [sk-def-fourier-set]. (The transform is
 $E$-linear; the same formulas for the constant sheaf $\Qlb$ and the
 $\Qlb$-skyscraper follow by the extension of scalars $-\otimes_E\Qlb$.)
-(Blueprint the Fourier–Deligne chapter,
-lem:fd-first-formula.)
 
 ## Proof
 
@@ -57,5 +55,3 @@ kernel restricted to it is $\mathcal L_{\psi(0)}$, the $\chi=0$ component of
 [sk-lem-as-properties], i.e. the constant sheaf $\underline{E}$; the
 compact-support direct
 image is therefore $\underline{E}$, and the shift gives $\underline{E}[1]$.
-
-Uses: [sk-lem-as-properties], [sk-prop-stalk], [sk-thm-derived-duality], [sk-thm-frobenius]

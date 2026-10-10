@@ -8,23 +8,22 @@ uses = ["sk-def-char"]
 +++
 *Definition (sketch).*
 
-Let $\psi=\Psi\circ\Tr_{k_0/\Fp}$ be the additive character of
-[sk-def-char]. For $X_0/k_0$ and $f\in\Gamma(X_0,\mathcal O_{X_0})$, the
-Artin–Schreier covering is
-$\pi:Y=\Spec_{X_0}\mathcal O_{X_0}[T]/(T^p-T-f)\to X_0$ with its $\Fp$-action
-$\sigma_a:T\mapsto T+a$, which acts on $\pi_*\Qlb$ by pullback. The
-*Artin–Schreier sheaf* $\mathcal L_{\psi,f}$ is the $\Psi$-isotypic
-component
+Let $k$ be a finite field with $q$ elements, $\Lambda$ a commutative ring
+in which $q$ is invertible, and $\Psi:(k,+)\to\Lambda^\times$ an additive
+character. The Artin–Schreier map $\mathrm{AS}_q:\Aone_k\to\Aone_k$,
+$x\mapsto x^q-x$, satisfies $\mathrm{AS}_q\circ\sigma_a=\mathrm{AS}_q$
+for the translations $\sigma_a:x\mapsto x+a$ ($a\in k$), which therefore
+act on $(\mathrm{AS}_q)_*\Lambda$. The *Artin–Schreier sheaf*
+$\mathcal L_\Psi$ on $\Aone_k$ is the $\Psi$-isotypic component
 
 $$
-\mathcal L_{\psi,f}:=e_\Psi\,\pi_*\Qlb,\qquad
-e_\Psi=\frac1p\sum_{a\in\Fp}\Psi(-a)\,\sigma_a ,
+\mathcal L_\Psi:=\operatorname{im}\bigl(e_\Psi\mid(\mathrm{AS}_q)_*\Lambda\bigr),\qquad
+e_\Psi=\frac1q\sum_{a\in k}\Psi(-a)\,\sigma_a ,
 $$
 
-the subsheaf on which each $\sigma_a$ acts by $\Psi(a)$. The idempotent uses
-the character $\Psi$ of $\Fp$, not $\psi|_{\Fp}$, which is trivial when
-$p\mid[k_0:\Fp]$. For $a\in k_0$ put $\mathcal L_{\psi(af)}:=\mathcal L_{\psi,af}$; on $\Aone$ one writes $\mathcal L_\psi=\mathcal L_{\psi,x}$ and
-$\mathcal L_{\psi(ax)}=\mathcal L_{\psi,ax}$. (Blueprint the Fourier–Deligne chapter,
-def:fd-artin-schreier-sheaf.)
-
-Uses: [sk-def-char]
+on which each $\sigma_a$ acts by $\Psi(a)$. For a $k$-scheme $X$ and
+$f\in\Gamma(X,\mathcal O_X)$, viewed as $f:X\to\Aone_k$, put
+$\mathcal L_{\Psi,f}:=f^*\mathcal L_\Psi$. For the character $\psi$ of
+[sk-def-char] write $\mathcal L_{\psi,f}$, $\mathcal L_{\psi(af)}:=\mathcal L_{\psi,af}$
+for $a\in k_0$, and on $\Aone$, $\mathcal L_\psi=\mathcal L_{\psi,x}$ and
+$\mathcal L_{\psi(ax)}=\mathcal L_{\psi,ax}$.

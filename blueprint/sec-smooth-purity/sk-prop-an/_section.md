@@ -80,15 +80,6 @@ $\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$ — to $1$. Thus (i)
 is what (ii) becomes along the zero section, and the generator of (i) is the
 normalization of (ii).
 
-Clause (ii) is the model case of [sk-prop-cohsm] (Step 1),
-[sk-lem-geometry] (4) and [sk-thm-smooth-purity] (Step 3); clause (iii)
-is what [sk-thm-regular] (Step 4) and [sk-cor-trace] use.
-(Detailed: cor:pur-affine-space-purity,
-prop:pur-affine-space-purity-compatibilities,
-cor:pur-vector-bundle-purity for (ii);
-cor:pur-affine-space-zero-section-purity, thm:pur-vector-bundle-thom
-for (i) and (iii).)
-
 ## Proof
 
 Steps 1–4 prove the $Rz^{!}$-form (i); Steps 5–7 prove the $R\pi^{!}$-form
@@ -224,9 +215,7 @@ $Rp_!Lp^{*}K(1)[2]\cong K\otimes^{\mathbb L}Rp_!\Lambda(1)[2]
 \xrightarrow{1\otimes\int_p}K$, the first map being the projection formula
 $\mathrm{PF}$ of [sk-def-sf-exchanges] (an isomorphism by
 [sk-thm-sf-pf-finite]). That it is an isomorphism is the explicit
-projective-line adjunction $Rq_*\dashv q^{*}(1)[2]$ (detailed:
-thm:amb-p1-adjunction, cor:amb-affine-space-adjunction,
-thm:pur-affine-line-purity): its counit is $(1\otimes t_q)\circ\mathrm{PF}$,
+projective-line adjunction $Rq_*\dashv q^{*}(1)[2]$: its counit is $(1\otimes t_q)\circ\mathrm{PF}$,
 its unit $M\to q^{*}Rq_*M(1)[2]$ is induced by the supported class
 $c_\Delta:\Delta_*\Lambda\to\Lambda(1)[2]$ of the diagonal divisor
 $\Delta\subset\mathbf P^1_Y\times_Y\mathbf P^1_Y$ (the Kummer boundary of its
@@ -270,9 +259,7 @@ $Rp_{c!}\Lambda(c)[2c]\cong\Lambda_B$ by the projection formula. The
 composition law of (ii) is the associativity of the $c_{g,f}$ and of the
 twist-additivity isomorphisms, and a permutation of the coordinates permutes
 the factors of this composite, all shifts being even, so no Koszul sign
-appears (detailed: prop:pur-affine-space-composition-law,
-cor:pur-affine-space-purity,
-prop:pur-affine-space-purity-compatibilities). Normalization:
+appears. Normalization:
 $z=s'\circ z_{c-1}$ with $z_{c-1}:B\hookrightarrow B'$ the zero section of
 $p_{c-1}$ and $s'$ that of $p'$. Tate twists pulled back from the base pass
 through $R(-)^{!}$ (the projection formula for $R(-)_!$, transposed), so for
@@ -304,8 +291,7 @@ $Rz^{!}\Lambda_E(c)[2c]=R\pi_!Rz_*Rz^{!}\Lambda_E(c)[2c]\to R\pi_!\Lambda_E(c)[2
 which on $U_\alpha$ is the coordinate frame class — to $1$ by Step 6, so
 they agree on overlaps (two trivializations of a lisse rank-one sheaf that
 agree on a generating section agree) and glue by the sheaf axiom to a global
-trace $\int_\pi:R\pi_!\Lambda_E(c)[2c]\xrightarrow{\sim}\Lambda_Z$ (detailed:
-def:amb-vector-integration, lem:amb-linear-trace-invariance).
+trace $\int_\pi:R\pi_!\Lambda_E(c)[2c]\xrightarrow{\sim}\Lambda_Z$.
 Define $\gamma_{\pi,K}$ as its transpose, as in Step 5(c). For étale
 $u:U_\alpha\to Z$ with $u':E_{U_\alpha}\to E$, the composition law and
 $Ru^{!}=u^{*}$ give $u'^{*}R\pi^{!}=R\pi_{U_\alpha}^{!}u^{*}$, under which
@@ -313,7 +299,4 @@ $u'^{*}\gamma_{\pi,K}$ is the affine-space comparison
 $\gamma_{\pi_{U_\alpha},u^{*}K}$ of Step 6; the cone of $\gamma_{\pi,K}$ thus
 has vanishing cohomology sheaves at every geometric point of $E$, hence is
 zero, so $\gamma_{\pi,K}$ is an isomorphism. Base change and the
-normalization (iii) are inherited from Step 6 in the same way (detailed:
-cor:pur-vector-bundle-purity).
-
-Uses: [sk-def-purity-conv], [sk-prop-a1-inv], [sk-prop-a1], [sk-prop-a1-kummer], [sk-prop-cd], [sk-prop-h2], [sk-prop-sf-cbc], [sk-prop-sf-open-closed-triangle], [sk-thm-properbasechange], [sk-lem-sf-mate]
+normalization (iii) are inherited from Step 6 in the same way.

@@ -29,5 +29,3 @@ of $P_i$. Every embedding $\tau:\Q(\alpha)\hookrightarrow\C$ extends to an
 isomorphism $\Qlb\cong\C$, and [sk-prop-rootpurity], applied through that
 isomorphism, gives $|\tau(\alpha)|=q^{i/2}$. This is exactly the $q$-Weil
 condition of [sk-def-roots]; inverting gives the ordinary-root form.
-
-Uses: [sk-def-roots], [sk-def-zeta], [sk-prop-rootpurity], [sk-thm-intfactors]

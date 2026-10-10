@@ -36,5 +36,3 @@ $W(U_0)$, being the kernel of the degree map by
 [lem-wf-weil-group-exact-sequence], so the degree-one lift normalizes its
 action and therefore preserves
 the invariants; the identification is equivariant for the residual $F$.
-
-Uses: [def-real-weil-representation-operations], [def-wf-fundamental-representation], [def-wf-weil-group], [lem-wf-weil-group-exact-sequence], [prop-wf-weil-sheaf-representation-equivalence]

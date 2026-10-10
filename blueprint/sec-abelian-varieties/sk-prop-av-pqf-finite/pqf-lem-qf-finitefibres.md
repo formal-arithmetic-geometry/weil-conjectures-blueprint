@@ -9,8 +9,6 @@ Let $f:X\to S$ be a morphism of schemes. Then $f$ is
 quasi-finite if and only if $f$ is
 locally of finite type, of finite type, quasi-compact and has finite
 fibres.
-(*Stacks Project, Morphisms of Schemes, Lemma 29.21.10, Tag
-[02NH](https://stacks.math.columbia.edu/tag/02NH).*)
 
 ## Proof
 

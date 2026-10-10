@@ -8,7 +8,7 @@ lean = ["AlgebraicGeometry.Scheme.exists_isInvertible_twist"]
 +++
 *Theorem (sketch).*
 
-Let $k$ be separably closed, $X$ a smooth projective curve over $k$,
+Let $k$ be separably closed, $X$ a connected smooth proper curve over $k$,
 $K/k$ a field extension and $\cL$ a line bundle on $X_K$. Then
 there exists a line bundle $\cL_0$ on $X$ such that
 
@@ -19,7 +19,9 @@ $$
 
 ## Proof
 
-Choose an ample $\cM$ on $X$. By [sk-thm-picard-serre-b], for $n\gg0$:
+Choose an ample $\cM$ on $X$ (a proper curve over a field is
+projective, Tag [0B45](https://stacks.math.columbia.edu/tag/0B45)
+applied to the quasi-projective curve $X$). By [sk-thm-picard-serre-b], for $n\gg0$:
 $H^q(X_K,\cL\otimes\cM^{\otimes n}|_{X_K})=0$ for $q>0$, and by
 [sk-thm-picard-rr] (RR) — applicable, since the integral smooth $X$
 has $H^0(X,\cO_X)$ a finite separable extension of the separably

@@ -6,7 +6,12 @@ order = 268
 lean = ["AlgebraicGeometry.TwoOpenSide.Prepared"]
 uses = ["def-nagata-separate-constructible-closed", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions"]
 +++
-For $\{i,j\}=\{1,2\}$, define
+For $\{i,j\}=\{1,2\}$, the $i$-th side is *prepared* if its self boundary
+$\overline Z_{i,i}$ and its forbidden boundary $\overline Z_{i,j}$ (the
+closures in $X_i$ of $\psi_i^{-1}(U\setminus U_j)$ and
+$\psi_i^{-1}(U\setminus U_i)$) are disjoint.
+
+To prepare the sides, define
 
 $$
 X_i^{\mathrm{prep}}

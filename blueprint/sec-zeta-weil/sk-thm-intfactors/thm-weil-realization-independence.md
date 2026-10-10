@@ -43,12 +43,9 @@ $$
 C^\#(U)=U^{r_C}C(U^{-1}).
 $$
 
-For each $0\leq i\leq2d$, form the multiset
-ordinary roots $R_i$ of
-$A^\#$ when $i$ is odd and of $B^\#$ when $i$ is even whose elements
-are $q$-Weil numbers of weight $i$; the
-intrinsic weights and the Galois stability of these multisets are
-proved in *Intrinsic weights of the reciprocal roots* below. Put
+For each $0\leq i\leq2d$, form the multiset $R_i$ of those roots of
+$A^\#$ when $i$ is odd and of $B^\#$ when $i$ is even
+that are $q$-Weil numbers of weight $i$. Put
 
 $$
 Q_i(T)=\prod_{\alpha\in R_i}(1-\alpha T)\in\mathbf Z[T].
@@ -81,8 +78,7 @@ preserve the normalization $Q_i(0)=1$. If
 $N_\ell(T)=\prod_{\substack{0\leq i\leq2d\\i\ {\rm odd}}}P_{i,\ell}(T)$ and
 $D_\ell(T)=\prod_{\substack{0\leq i\leq2d\\i\ {\rm even}}}P_{i,\ell}(T)$, the
 parity-product construction gives
-$A^{(\ell)}=N_\ell$ and $B^{(\ell)}=D_\ell$. No additional assertion
-about Frobenius operators is made by this scalar comparison.
+$A^{(\ell)}=N_\ell$ and $B^{(\ell)}=D_\ell$.
 The scalar-extension notation is coefficientwise extension of integral
 polynomials.
 
@@ -192,9 +188,7 @@ the assertion, and $Q_i$ is the integral Frobenius factor of
 in degree $i$: its scalar extension along $\jmath_\ell$ is
 $P_{i,\ell}$ for every $\ell\neq p$.
 
-## Intrinsic weights of the reciprocal roots
-
-In the situation of [thm-weil-realization-independence], every root of
+**Intrinsic weights of the reciprocal roots.** In the situation of [thm-weil-realization-independence], every root of
 $A^\#$ or $B^\#$ has a unique weight in $\{0,\ldots,2d\}$, and the
 resulting multisets $R_i$ of
 ordinary roots that are

@@ -11,18 +11,6 @@ $\Lambda$ a finite commutative ring. A sheaf of $\Lambda$-modules on
 $X_{\Et}$ is a filtered colimit of
 constructible
 $\Lambda$-module sheaves.
-(*Source:* Stacks Project,
-[Lemma 59.73.2, Tag
-`03SA`](https://stacks.math.columbia.edu/tag/03SA), stated there for quasi-compact and quasi-separated
-schemes, the finite-type case being the one used here.) In the Stacks Project the proof uses Modules on Sites, Lemma 18.30.7,
-[Tag `093C`](https://stacks.math.columbia.edu/tag/093C)
-(every sheaf of modules is a filtered colimit of cokernels of maps
-between finite direct sums of the sheaves $j_{U!}\Lambda_U$ for $U$
-in a basis), together with Lemma 59.73.1,
-[Tag `03S8`](https://stacks.math.columbia.edu/tag/03S8)
-(those cokernels are constructible); the weak-Serre property used there,
-Lemma 59.71.6, [Tag
-`03RZ`](https://stacks.math.columbia.edu/tag/03RZ), is proved in this chapter as [thm-constructible-serre].
 
 ## Proof
 

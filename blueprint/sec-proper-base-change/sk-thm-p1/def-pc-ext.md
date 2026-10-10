@@ -16,10 +16,14 @@ $$
 $$
 
 the group of morphisms from $F$ to the $i$-fold shift of $G$ in the
-derived category ([def-pc-derived-category]); equivalently
-(i.e. by the standard identification of the two descriptions, the
-classical one via an injective resolution of $G$) it is the $i$-th
-cohomology of the derived $\mathbf R\Hom(F,G)$. For sheaves on a
+derived category ([def-pc-derived-category]); equivalently, it is the
+$i$-th cohomology of $\mathbf R\Hom(F,G)$, computed classically by an
+injective resolution of $G$ when $\mathcal A$ has enough injectives. When $\mathcal A$ has
+enough projectives, $\operatorname{Ext}^i_{\mathcal A}(F,G)$ is computed by a
+projective resolution $P_\bullet\to F$: it is the $i$-th cohomology of the
+complex $\Hom_{\mathcal A}(P_\bullet,G)$. In particular, if $F$ is
+projective then $\operatorname{Ext}^{i}_{\mathcal A}(F,G)=0$ for all $i\ge1$.
+For sheaves on a
 scheme $X$ one writes $\operatorname{Ext}^{i}_{\mathcal{O}_X}(-,-)$ (or
 $\operatorname{Ext}^{i}_X(-,-)$) for the case
 $\mathcal A$ the category of $\mathcal{O}_X$-modules, and

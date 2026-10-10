@@ -59,9 +59,9 @@ $$
 \qquad(\gamma\in\pi_1(X,\bar x),\ n\in\mathbf Z).
 $$
 
-That this formula defines a continuous representation, and that the
-resulting representation depends on the auxiliary choices only up to the
-change-of-base-point isomorphism, are recorded with the other properties
-of this construction. Thus
-every later expression $\rho:W(X_0)\to\operatorname{GL}(V)$ refers to
+Every later expression $\rho:W(X_0)\to\operatorname{GL}(V)$ refers to
 this extension, not merely to the geometric representation.
+
+This formula defines a continuous representation, and the resulting
+representation depends on the auxiliary choices only up to the
+change-of-base-point isomorphism.

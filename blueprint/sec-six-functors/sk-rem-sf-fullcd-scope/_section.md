@@ -17,20 +17,13 @@ $Rf^!$ of [sk-def-sf-operations] (vi), [sk-prop-sf-existence] (c). It
 does *not* discharge [sk-prop-sf-existence] (b), and nothing can:
 Brown representability needs $Rf_!$ to preserve arbitrary coproducts on the
 whole of $D(\overline X_{\Proet},A)$, which requires the vanishing on
-pro-étale $A$-module sheaves that are *not* of étale origin. Earlier
-versions recorded that step as an external input
-"i:pe-direct-image-coproducts" — the pro-étale analogue of the
-*proved* étale lemma lem:exc-direct-image-coproducts — together
-with the compact generation of $D(\overline X_{\Proet},A)$ by shifts of
-affine quasi-compact weakly contractible objects
-("i:pe-compact-generation"). *The first is false in general*,
-and with it (b): for the structure morphism of an elliptic curve over
-$\overline{\mathbf F}_p$ and $A=\mathbf F_r$ the direct image does not
-preserve coproducts (below). Its status is
-therefore changed from "recorded input" to *false in general; not
-used*. The compact generation statement is correct for ordinary ring
-coefficients but is not used either, the failing premise being the coproduct
-preservation. No statement of this blueprint depends on either.
+pro-étale $A$-module sheaves that are *not* of étale origin. That vanishing is
+*false in general*, and with it (b): for the structure morphism of an
+elliptic curve over $\overline{\mathbf F}_p$ and $A=\mathbf F_r$ the direct
+image does not preserve coproducts (below). The compact generation of
+$D(\overline X_{\Proet},A)$ by shifts of affine quasi-compact weakly
+contractible objects is correct for ordinary ring coefficients, but it does
+not help, the failing premise being the coproduct preservation.
 
 *The counterexample and the repair boundary.*
 Let $E_0/\mathbf F_q$ be an elliptic curve, $E=E_0\times\overline{\mathbf
@@ -83,5 +76,4 @@ the duality, trace and weight chapters use. Their terminal statements
 ([sk-thm-poincare-duality], [sk-input-weights],
 [sk-thm-tracetodeterminant], [sk-prop-rootpurity]) therefore hold for
 every smooth proper geometrically connected $X_0$ with no admissibility
-hypothesis, and [sk-def-sf-admissible] is never a premise on the proof
-chain to [sk-thm-weil1]–[sk-thm-weil5].
+hypothesis.

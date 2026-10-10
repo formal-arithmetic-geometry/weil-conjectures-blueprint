@@ -22,6 +22,3 @@ $$
 
 Positive central Frobenius representatives $(N,z)$ are the positive
 central pairs of [sk-d-central] for these data.
-def:monodromy; def:central-frobenius-representative
-
-Uses: [sk-d-real-setup], [sk-d-real-weil], [sk-d-monodromy], [sk-d-central]

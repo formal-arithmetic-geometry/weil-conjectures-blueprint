@@ -9,7 +9,6 @@ Let $f:V\to W$ be a
 weakly etale morphism
 and a universal homeomorphism.
 Then $f$ is an isomorphism.
-(Source: [Stacks, Tag 0F6V](https://stacks.math.columbia.edu/tag/0F6V).)
 
 ## Proof
 
@@ -33,5 +32,3 @@ $R\to B\rightrightarrows B\otimes_R B$ identifies $R$ with all of
 $B$, because the two arrows both become the identity under
 multiplication. Hence $R\to B$ is an isomorphism. These affine
 identifications prove the assertion.
-
-*Recorded in advance* from chapter *The trace formula* of the source.

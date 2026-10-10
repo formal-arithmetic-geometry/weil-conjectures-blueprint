@@ -22,8 +22,7 @@ g\cdot p=p+f_P(g)\qquad(g\in\pi_1(Y,\bar y));
 $$
 
 the class of $P$ is independent of the choice of $p$ because $M$ is
-abelian. (This is the identification used, without citation, in the proof
-of the additive-character lemma of the monodromy chapter.)
+abelian.
 
 ## Proof
 

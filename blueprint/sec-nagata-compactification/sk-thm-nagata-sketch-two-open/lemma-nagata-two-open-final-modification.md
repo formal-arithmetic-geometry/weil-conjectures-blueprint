@@ -10,13 +10,6 @@ are open immersions covering $W$; their copies of $U$ agree; and $W\to S$
 is separated and of finite type. In particular the induced map
 $j_W\colon U\to W$ is an open immersion.
 
-*Implementation note.* There is no separate Lean declaration for this
-lemma. Inside the proof of `AlgebraicGeometry.HasCompactification.of_two_open_cover`
-([thm-nagata-two-open]) the assertions are read off the output of
-`AlgebraicGeometry.nonempty_commonModification`
-([lemma-nagata-common-modification]); the open immersion $j_W$ is the local
-`jW := cm.u₁ ≫ cm.k₁` there.
-
 ## Proof
 
 The schemes $W_i$ are separated and of finite type by

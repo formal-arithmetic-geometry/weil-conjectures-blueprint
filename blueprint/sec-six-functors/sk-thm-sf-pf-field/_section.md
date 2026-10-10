@@ -8,10 +8,19 @@ lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_field"]
 +++
 *Theorem (sketch).*
 
-Let $K,L$ be obtained by rationalization from $\mathcal O_E$-objects, or
-represented at a finite stage $E'/\Ql$. Then
-$\operatorname{PF}_{f,K,L}$ is an isomorphism over $E$ and over $\Qlb$,
-compatible with the extension functors and with finite reduction.
+Let $f:X\to Y$ be a separated morphism of finite type, let $E/\Ql$ be a
+finite extension inside $\Qlb$, and let $F$ be $E$ or $\Qlb$. Let $K$ and
+$L$ be $\ell$-adic bounded constructible complexes of finite Tor amplitude
+on $X$ and $Y$ with coefficients in $F$: over $E$, rationalizations of
+derived-complete $\Dctf$-objects over $\mathcal O_E$; over $\Qlb$, objects
+represented at a finite stage $E'/\Ql$ in this way. Then the projection map
+
+$$
+\operatorname{PF}_{f,K,L}:Rf_!K\otimes^L L\longrightarrow Rf_!\bigl(K\otimes^L Lf^*L\bigr)
+$$
+
+is an isomorphism, compatibly with the extension functors and with finite
+reduction of the integral representatives.
 
 ## Proof
 
@@ -22,5 +31,3 @@ and counits are transported; an exact functor carries isomorphisms to
 isomorphisms. For $\Qlb$ each object is represented over a finite stage by
 def:weil-algebraically-closed-coefficients, and compatibility with scalar
 extension makes the finite-stage system descend to the $2$-colimit.
-
-Uses: `\Cref{thm-sf-pf-adic}`, `def-weil-algebraically-closed-coefficients`, `def-weil-rationalization-karoubi`

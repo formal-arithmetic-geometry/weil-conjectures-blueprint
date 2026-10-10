@@ -5,12 +5,6 @@ title = "Normal form in a chart algebra"
 order = 27
 uses = ["def-nagata-blowup-chart-ring"]
 +++
-**Status.** Bypassed by the formalized route: the affine blow-up and its
-charts are the construction `AlgebraicGeometry.AffineBlowup`, with
-`AffineBlowup.chart` and
-`AffineBlowup.isLocalization_away_map` supplying the chart algebra
-and its localization coherence, so neither is rebuilt by hand.
-
 Every element of $A[I/a]$ is represented in $A_a$ by $x/a^n$ for some
 $n\geq 0$ and $x\in I^n$.
 

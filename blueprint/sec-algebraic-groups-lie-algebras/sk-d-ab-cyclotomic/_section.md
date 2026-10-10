@@ -25,6 +25,3 @@ These are the Tate constructions for the abelian
 group $\bar k^\times$, written multiplicatively: addition is coordinatewise
 multiplication, and multiplication by $c\in\Zell$ sends $u_n$ to
 $u_n^{c_n}$. Galois acts on every coordinate.
-def:ab-multiplicative;def:ab-cyclotomic;lem:ab-cyclotomic-module
-
-Uses: [sk-d-ab-field], [sk-d-ab-tate]

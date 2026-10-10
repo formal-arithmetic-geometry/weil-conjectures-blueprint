@@ -22,5 +22,3 @@ union of finite-type quasi-coherent subideals $\mathcal I_\alpha$.
 Then $X_\alpha=V(\mathcal I_\alpha)\subseteq Y$ has finite
 presentation, and the quotient rings recover $X$ in the limit.
 This is the model construction of 09ZQ.
-
-Uses: [sk-prop-nagata-sketch-approximation]

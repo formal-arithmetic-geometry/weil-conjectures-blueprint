@@ -6,9 +6,7 @@ order = 782
 uses = ["def-pc-finite-locally-free", "def-pc-fppf-site", "def-sc-ample", "lem-pc-hilb-sheaf", "lem-pc-schemes-criterion"]
 lean = ["AlgebraicGeometry.isRepresentable_hilbertPresheaf"]
 +++
-(Picard Schemes of Curves, Proposition 44.2.6 (Tag
-[0B9A](https://stacks.math.columbia.edu/tag/0B9A)) with Remark 44.2.7,
-Tag [0B9B](https://stacks.math.columbia.edu/tag/0B9B).) Let $X\to S$
+Let $X\to S$
 be a separated morphism of schemes and $d\geq0$. Assume that for all points
 $s\in S$ and $x_1,\dots,x_d\in X_s$ (a finite set of points of a fibre)
 there exists an affine open $U\subset X$ containing them

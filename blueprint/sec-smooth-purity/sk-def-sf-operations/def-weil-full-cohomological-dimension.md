@@ -35,10 +35,7 @@ $$
 $A$-modules, $\operatorname{FullCD}(p,A;c)$ fails in general, even for $p$
 proper and smooth of dimension one over an algebraically closed field: for an
 elliptic curve $E$ over $\overline{\mathbf F}_p$, $A=\mathbf F_r$ with
-$r\neq p$, there is a pro-etale $A$-module sheaf $\mathcal F$ on $E$ with
-$H^n(E_{\mathrm{proet}},\mathcal F)\neq0$ for every $n\geq1$
-(rem:sf-ambient-counterexample in the six-functors chapter; the sheaf is not
-of etale origin). What does hold, with $c=2\dim\overline X$, is the
-restriction of the condition to the coefficient sheaves of etale origin,
-def-sf-fullcd-class and thm-sf-fullcd-class, and this restricted form is the
-only one the blueprint uses.
+$r\neq p$, there is a pro-etale $A$-module sheaf $\mathcal F$ on $E$ (not of
+etale origin) with $H^n(E_{\mathrm{proet}},\mathcal F)\neq0$ for every
+$n\geq1$. What does hold, with $c=2\dim\overline X$, is the restriction of
+the condition to the coefficient sheaves of etale origin.

@@ -29,8 +29,7 @@ $$
 in $A$, where $F_{y,m}$ is the
 local geometric Frobenius
 operator of [def-trf-frobenius-operators] and $K_{\bar y}$ is the
-stalk complex. The degree-dependence of the right-hand side is
-[lem-trf-frobenius-degree-formula].
+stalk complex.
 
 More generally, let $K\in D^b_{ctf}(X,A)$ carry no Weil structure and
 let $v:L\Phi^{m*}K\to K$ be an arbitrary, not necessarily invertible,
@@ -45,8 +44,7 @@ $$
 where $v_{\bar y}:K_{\bar y}\cong(L\Phi^{m*}K)_{\bar y}\to K_{\bar y}$
 is the stalk map at the fixed point $\bar y$. The first formula is the
 case $v=u_m$, whose stalk map at $\bar y$ is $F_{y,m}$
-([def-trf-frobenius-operators]). The case needed for the trace formula
-is $X_0$ smooth of pure dimension one.
+([def-trf-frobenius-operators]).
 
 ## Proof
 

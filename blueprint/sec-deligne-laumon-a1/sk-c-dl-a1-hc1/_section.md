@@ -8,7 +8,10 @@ lean = ["AlgebraicGeometry.hasWeightsAtMost_compactlySupportedCohomology_one"]
 +++
 *Corollary (sketch).*
 
-If $M$ is nonexceptional and pure of weight $w$, then
+Let $\psi$ be a nontrivial additive character of $k_0$. If $M$ is an
+irreducible lisse Weil sheaf on $U_0$ (nonzero, with no lisse Weil
+subsheaves other than $0$ and $M$) which is nonexceptional and
+punctually $\iota$-pure of weight $w$, then
 $H_c^1(A,j_*M)$ has weights at most $w+1$. In particular this holds
 for every irreducible, non-geometrically-constant $M$ unramified at infinity.
 
@@ -26,5 +29,3 @@ $$
 
 This is Frobenius-equivariant. The last assertion follows from the
 nonexceptionality test in [sk-p-dl-a1-middle].
-
-Uses: [sk-p-dl-a1-fourier-weight], [sk-p-dl-a1-middle], [sk-p-real-semi], [sk-prop-stalk]

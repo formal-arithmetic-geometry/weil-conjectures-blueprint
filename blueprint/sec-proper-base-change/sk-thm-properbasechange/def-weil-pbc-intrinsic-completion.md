@@ -35,14 +35,3 @@ $$
 The compatible degree-zero maps $A_T\to Q_m$ define $K\to
 K^{\wedge}_{\mathrm{Kos}}$. The object $K$ is derived $I$-complete if this
 map is an isomorphism.
-
-Derived completeness here is the condition
-$K\xrightarrow{\sim}\Rlim(K\otimes^L_\Lambda\underline{\Lambda/I^n})$ of
-Stacks Project, Lemma 61.20.1 (Tag
-[099M](https://stacks.math.columbia.edu/tag/099M), Section 61.20, Tag
-[099L](https://stacks.math.columbia.edu/tag/099L)): the Stacks entry assumes
-a Noetherian ring $\Lambda$ and an ideal $I$, and presents the completion as
-the left adjoint of $D_{comp}(\mathcal C,\Lambda)\subset D(\mathcal
-C,\Lambda)$, whereas the form used here is the Koszul model $Q_m$ over
-$A=\mathcal O_E$, $I=(\varpi)$, whose agreement with the quotient-tower form
-of 61.20.1 is [prop-weil-pbc-koszul-reconstruction].

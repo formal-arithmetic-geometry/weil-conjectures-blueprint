@@ -31,9 +31,6 @@ $$
 $$
 
 the line-valued form being $H_c^i(X,K)\times H^{2d-i}(X,K^\vee)\to \Lambda(-d)$.
-For nonproper $X$ the degreewise assertion over field coefficients is
-recorded separately in the Poincare duality chapter
-(thm-pod-degreewise-perfectness-over-a-field).
 
 ## Proof
 

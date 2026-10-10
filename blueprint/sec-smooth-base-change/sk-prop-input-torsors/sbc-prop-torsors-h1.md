@@ -22,10 +22,7 @@ etale $Y$-scheme, and $p\in|P_{\bar y}|$, let
 $f_P:\pi_1(Y,\bar y)\to M$ be defined by $g\cdot p=p+f_P(g)$; it is
 a continuous homomorphism independent of $p$ and of $P$ within its
 isomorphism class. Then $P$ is connected — that is, a Galois cover with
-group $M$ — exactly when $f_P$ is surjective (the case of the sketch is
-$M=\Z/d\Z$).
-(Stacks 02NE, together with the finite-etale correspondence; cf. Milne,
-*Lectures on Etale Cohomology*, III.3.)
+group $M$ — exactly when $f_P$ is surjective.
 
 ## Proof
 

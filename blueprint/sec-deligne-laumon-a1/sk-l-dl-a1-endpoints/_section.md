@@ -36,5 +36,3 @@ coinvariants' Frobenius is the $d$th power of
 the constant quotient's Frobenius, so purity of the stalk quotient gives
 weight $w$ for that module. The twist adds two. Curve cohomological
 dimension gives the remaining vanishings.
-
-Uses: [sk-d-dl-a1-setup], [sk-thm-derived-duality], [sk-thm-sf-dual-perfect], [sk-thm-sf-global-duality]

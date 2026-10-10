@@ -28,5 +28,3 @@ $\chi(\cL^{\otimes m})=1$, so the coefficient of $m$ is $0$, while the
 Hilbert degree of [sk-def-av-ample-degree] (with $g=0$) is
 $0!\cdot1=1$. The statement concerns the coefficient of $m$, i.e. the
 Hilbert degree in dimension one.
-
-Uses: [sk-def-av-ample-degree]

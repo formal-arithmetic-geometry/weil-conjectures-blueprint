@@ -30,5 +30,3 @@ $\chi$-degree, because the two degrees agree by [sk-thm-picard-rr](RR);
 and the genus $g$ of [sk-def-curve], $\dim_kH^0(C,\Omega^1_{C/k})$, is
 the dimension $\dim_kH^1(C,\cO_C)$ of $J(C)$ in [sk-prop-jacobian] by
 [sk-thm-picard-duality].
-
-Uses: [sk-def-curve], [sk-def-kummer], [sk-def-pic], [sk-prop-cd], [sk-prop-h1], [sk-prop-h2], [sk-prop-jacobian], [sk-thm-av-final], [sk-thm-picard-rr], [sk-thm-picard-duality]

@@ -7,10 +7,6 @@ uses = ["lemma-nagata-scheme-image-affine-saturation", "lemma-nagata-scheme-imag
 +++
 Let $h\colon T\to X\times_SY$ be quasi-compact, with
 first projection factoring through a quasi-compact open $U\subseteq X$.
-(The Stacks Project assumes $h$ quasi-separated as well; the formalised
-statement drops it, since the kernel ideal sheaf theory used here only needs
-quasi-compactness, exactly as recorded for
-[lemma-nagata-dense-flat-pullback].)
 Let $Z=\operatorname{SIm}(h)$ and let $\pi\colon X'\to X$ be a
 $U$-admissible blow-up. Via the canonical identity
 $X'\times_XU\cong U$, let $h'$ be the lifted map to $X'\times_SY$. Then

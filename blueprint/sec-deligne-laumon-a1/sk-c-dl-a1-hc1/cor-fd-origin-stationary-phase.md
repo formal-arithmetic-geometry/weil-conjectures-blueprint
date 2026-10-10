@@ -5,14 +5,17 @@ title = "The origin fiber is the stationary-phase contribution"
 order = 2781
 tags = ["latex:corollary"]
 uses = ["def-fd-nonexceptional", "def-fd-transform", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-a1-unramified-nonexceptional", "lem-fd-stalk-at-origin", "lem-wf-boundary-stalk-invariants", "prop-a1-fourier-middle-extension"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.nonempty_equiv_stalk_origin_of_isFourierPartner"]
 +++
-Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ and let $\mathcal M$ be
-irreducible and lisse on $U_0$, unramified at infinity, with
-Fourier-nonexceptional middle
-extension. Then the Fourier transform of [def-fd-transform] takes the
-middle-extension shape
-$\operatorname{FT}_\psi(j_{!*}\mathcal M[1])=j'_{!*}\mathcal M'[1]$,
-and the degree $-1$ part of the fiber at
+Let $\psi$ be an additive character of $k_0$, let
+$j:U_0\hookrightarrow\mathbf A^1_{k_0}$ and
+$j':U'_0\hookrightarrow A'_0$ be dense open immersions into
+the line and the dual line, and let $\mathcal M$ and $\mathcal M'$ be
+lisse Weil sheaves on $U_0$ and $U'_0$ whose middle extensions
+correspond under the Fourier transform of [def-fd-transform]:
+$\operatorname{FT}_\psi(j_{!*}\mathcal M[1])\cong j'_{!*}\mathcal M'[1]$,
+i.e. $\operatorname{FT}_\psi((j_*\mathcal M)[1])\cong(j'_*\mathcal M')[1]$.
+Then the degree $-1$ part of the fiber at
 the origin of the dual line is the $H_c^1$-term of the local Fourier
 exact sequence at the origin:
 
@@ -34,14 +37,15 @@ $(\mathcal M'_{\bar\eta})^{I_{0'}}$.
 
 ## Proof
 
-The shape: Fourier-nonexceptionality says in particular that
-$\mathcal M$ is not geometrically constant, so, being unramified at
-infinity, $\mathcal M$ is constituent-nonexceptional by
-[lem-a1-unramified-nonexceptional], and
-[prop-a1-fourier-middle-extension] gives an isomorphism of Weil
-complexes
+By hypothesis there is an isomorphism of Weil complexes
 $\operatorname{FT}_\psi(j_{!*}\mathcal M[1])\cong j'_{!*}\mathcal M'[1]=j'_*\mathcal M'[1]$
-with $\mathcal M'$ nonzero, irreducible and lisse.
+([def-wf-middle-extension]); no other property of $\mathcal M$,
+$\mathcal M'$ or $\psi$ is used. (Such a pair exists, with
+$\mathcal M'$ irreducible, when $\psi$ is nontrivial and $\mathcal M$ is
+irreducible and constituent-nonexceptional, by
+[prop-a1-fourier-middle-extension]; for instance when $\mathcal M$ is
+irreducible, unramified at infinity and not geometrically constant, by
+[lem-a1-unramified-nonexceptional].)
 
 The first identification is [lem-fd-stalk-at-origin]: the fiber of
 the transform at the origin is $R\Gamma_c(\mathbf A^1,j_*\mathcal M[1])[1]$,

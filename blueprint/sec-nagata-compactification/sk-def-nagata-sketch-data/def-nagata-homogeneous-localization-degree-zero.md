@@ -6,14 +6,13 @@ order = 8
 lean = ["HomogeneousLocalization.Away"]
 +++
 Let $R=\bigoplus_{n\geq0}R_n$ be an $\mathbb N$-graded commutative ring and
-let $f\in R_d$ be homogeneous with $d>0$. Write $R_{(f),0}$ for the
-degree-zero part of the homogeneous localization supplied by Mathlib's
-`HomogeneousLocalization.Away`. Its elements are represented by
+let $f\in R$. Write $R_{(f),0}$ for the degree-zero part of the homogeneous
+localization of $R$ away from $f$. Its elements are represented by
 
 $$
-\frac{x}{f^m},\qquad x\in R_{md},\quad m\geq0,
+\frac{x}{f^m},\qquad m\geq0,\quad x\in R_e,\quad f^m\in R_e
+\text{ for some } e,
 $$
 
-modulo the ordinary localization relation. This block fixes the notation
-used by the chart statements; it does not introduce a second localization
-implementation.
+modulo the ordinary localization relation. When $f\in R_d$ these are the
+fractions $x/f^m$ with $x\in R_{md}$.

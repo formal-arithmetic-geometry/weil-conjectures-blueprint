@@ -28,9 +28,7 @@ $$
 
 in $\operatorname{Hom}_{D(F,A)}(A_F,\omega_{F,A})$.
 This is the additivity of the Verdier trace class along a $c$-invariant
-open–closed decomposition
-([Varshavsky, Prop. 1.5.10](https://arxiv.org/abs/math/0505564), proved in
-his §5.3 by filtered trace maps; classically SGA 5, Exposé III, 4.13). It
+open–closed decomposition. It
 is *not* asserted for an arbitrary morphism $(u',u,u'')$ of distinguished
 triangles in $D^b_{ctf}(X,A)$: for the identity correspondence of a point
 that assertion is the additivity of the categorical trace on arbitrary

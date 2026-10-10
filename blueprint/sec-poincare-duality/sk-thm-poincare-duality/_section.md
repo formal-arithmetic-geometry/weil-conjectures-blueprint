@@ -36,10 +36,6 @@ $k_0'/k_0$ contained in $k$ with $r=[k_0':k_0]$, the geometric
 Frobenius of $k_0'$ is $F^r$, the pairings remain perfect and
 $\langle F^rx,F^ry\rangle_i=(q^r)^d\langle x,y\rangle_i$.
 
-(Blueprint 15, thm:pod-poincare-duality; the interface record is
-thm:weil-poincare-duality, and prop:poincare-pairing adds the
-graded-commutativity form of (3).)
-
 ## Proof
 
 Item (1) is [sk-cor-trace] at the stage $\Qlb$: the degreewise duality
@@ -66,5 +62,3 @@ $\beta_K$ is built from base change along the structure morphism and the
 orientation, both stable under the finite extension $k_0'/k_0$; and the
 similitude clause of [sk-thm-frobenius] applied to $F^r$ in place of
 $F$ gives $\langle F^rx,F^ry\rangle_i=(q^r)^d\langle x,y\rangle_i$.
-
-Uses: [sk-cor-trace], [sk-def-pairing], [sk-def-set], [sk-def-trace-cup], [sk-def-weil], [sk-lem-finite], [sk-prop-sf-biduality-general], [sk-prop-sf-dualizable-biduality], [sk-thm-derived-duality], [sk-thm-frobenius], [sk-thm-purity-transport], [sk-thm-sf-global-duality], [sk-thm-sf-identification], [sk-thm-sf-kunneth-relative], [sk-thm-sf-package], [sk-thm-sf-tensor-hom], [sk-thm-sf-verdier-exchange], [sk-thm-transport]

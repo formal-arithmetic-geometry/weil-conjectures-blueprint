@@ -20,8 +20,7 @@ $$
 
 the composite sending the class of an invertible module
 $\mathcal L$ to the class of the $\mathbb G_m$-torsor
-$\underline{\mathrm{Isom}}(\mathcal O_X,\mathcal L)$ (Stacks
-`03P8`, `040M`, `040D`). In particular
+$\underline{\mathrm{Isom}}(\mathcal O_X,\mathcal L)$. In particular
 $H^1(\Spec K,\mathbb G_m)=0$ for a field $K$.
 
 ## Proof
@@ -59,5 +58,3 @@ which kills the difference between the two topologies in degree $1$.
 
 The last assertion is the case $X=\Spec K$: a field has no
 nontrivial invertible modules.
-
-Uses: [sk-def-curve]

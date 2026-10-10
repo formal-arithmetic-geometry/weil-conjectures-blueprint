@@ -31,14 +31,6 @@ for every $p$, the right-hand side being the derived functor of
 
 3. **(Shift.)** $Rv(K[n])\cong(RvK)[n]$ for every $n\in\mathbb Z$.
 
-**Status.** The source proved the agreement in (2) by saying that a
-Cartan--Eilenberg resolution refines both routes, which made this lemma and
-the Cartan--Eilenberg theorem [thm-sp-if-e1] depend on each other. Nothing
-below uses a Cartan--Eilenberg resolution: (1) and (3) are formal
-consequences of K-injectivity, and (2) needs only that an injective
-resolution of an object is a bounded-below complex of injectives. The
-theorem now cites this lemma and not the other way round.
-
 ## Proof
 
 *The comparison principle.* Let $I$ be K-injective and let $s:A\to B$ be a

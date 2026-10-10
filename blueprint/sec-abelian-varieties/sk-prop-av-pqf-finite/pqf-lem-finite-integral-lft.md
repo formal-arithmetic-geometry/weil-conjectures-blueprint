@@ -7,8 +7,6 @@ uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A finite morphism of
 schemes is integral.
-(*Stacks Project, Morphisms of Schemes, Lemma 29.45.4, Tag
-[01WJ](https://stacks.math.columbia.edu/tag/01WJ).*)
 
 ## Proof
 

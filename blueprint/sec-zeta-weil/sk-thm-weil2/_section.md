@@ -15,5 +15,3 @@ $Z(X_0,T)=\prod_{i=0}^{2d}P_i(T)^{(-1)^{i+1}}$, independently of $\ell$.
 ## Proof
 
 This is [sk-thm-intfactors], restated as a Weil conjecture.
-
-Uses: [sk-def-zeta], [sk-thm-intfactors]

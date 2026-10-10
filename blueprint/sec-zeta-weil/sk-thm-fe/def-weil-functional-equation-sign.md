@@ -24,9 +24,7 @@ $$
 \Delta=\prod_{i=0}^{2d}D_i^{(-1)^i}.
 $$
 
-Assume $d\chi$ is even; in geometric applications this follows from the
-duality relations $b_i=b_{2d-i}$, $D_iD_{2d-i}=q^{db_i}$, and the
-evenness of the middle degree when $d$ is odd. Define
+Assume $d\chi$ is even. Define
 
 $$
 h=\frac{d\chi}{2}\in\mathbf Z

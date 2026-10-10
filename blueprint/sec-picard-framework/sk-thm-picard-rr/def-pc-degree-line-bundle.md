@@ -13,7 +13,6 @@ $$
 \deg(\mathcal{L}):=\chi(X,\mathcal{L})-\chi(X,\mathcal{O}_X)\in\Z
 $$
 
-(Varieties, Definition 33.44.1, Tag
-[0AYR](https://stacks.math.columbia.edu/tag/0AYR)). For an
+For an
 effective Cartier divisor $D$ on $X$ the degree of $D$ is
 $\deg(D):=\deg(\mathcal{O}_X(D))$.

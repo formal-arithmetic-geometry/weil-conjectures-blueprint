@@ -2,7 +2,7 @@
 id = "sk-cor-av-commutative"
 kind = "section"
 title = "Abelian varieties are commutative"
-lean = ["AlgebraicGeometry.IsAbelianScheme.isCommMonObj", "AlgebraicGeometry.IsAbelianScheme.isCommMonObj_of_field"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.isCommMonObj"]
 order = 491
 uses = ["sk-def-av", "sk-prop-av-rigidity"]
 +++
@@ -19,5 +19,3 @@ $X=Y=Z=A$ and $y_0=e$ gives $c(x,y)=c(e,y)=e$ for all $x,y$. (The
 hypotheses hold: $A$ is proper and separated of finite type, geometrically
 reduced since smooth, and geometrically connected since it is connected
 with the rational point $e$, `04KV`.)
-
-Uses: [sk-def-av], [sk-prop-av-rigidity]

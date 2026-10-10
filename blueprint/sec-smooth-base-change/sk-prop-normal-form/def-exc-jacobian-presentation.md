@@ -11,5 +11,4 @@ $$
  B=R[x_1,\ldots,x_m]/(f_1,\ldots,f_m)
 $$
 such that $\Delta=\det(\partial f_i/\partial x_j)$ has invertible image in
-$B$. Finite presentation and etaleness have the meanings fixed by the scheme
-conventions.
+$B$.

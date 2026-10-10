@@ -3,26 +3,22 @@ id = "sk-prop-sf-finiteness"
 kind = "section"
 title = "Finiteness and constructibility"
 order = 1652
-lean = ["AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar", "AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerShriek"]
+lean = ["AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar_of_hasInvertibleExponent", "AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerShriek"]
 +++
 *Proposition (sketch).*
 
-Let $\Lambda$ be a finite ring annihilated by an integer invertible on the
-schemes in question and let $f:X\to Y$ be a morphism of finite-type
-$k$-schemes. Then $Rf_*$ carries $\Dbc(X,\Lambda)$ into $\Dbc(Y,\Lambda)$
-(*separatedness of $f$ is not needed*); if $e$ bounds the dimensions of
-the geometric fibres and $f$ is separated, then $Rf_!$ carries
-$\Dbc(X,\Lambda)$ into $\Dbc(Y,\Lambda)$ and $R^qf_!\mathcal F=0$ for $q>2e$.
+Let $\Lambda$ be a finite commutative ring whose exponent is invertible on
+$X$ and let $f:X\to Y$ be a morphism of schemes locally of finite type over a
+field $k$. If $f$ is quasi-compact, then $Rf_*$ carries $\Dbc(X,\Lambda)$ into
+$\Dbc(Y,\Lambda)$ (*separatedness of $f$ is not needed*); if $f$ admits a
+compactification, then
+$Rf_!$ carries $\Dbc(X,\Lambda)$ into $\Dbc(Y,\Lambda)$, and if moreover $e$
+bounds the dimensions of the geometric fibres, then $R^qf_!\mathcal F=0$ for
+$q>2e$.
 Moreover the torsion cohomological dimension of a finite-type $k$-scheme of
 dimension $d$ over a field $k$ with $\mathrm{cd}_{\mathrm{tor}}(k)\le c$ is
 bounded by $2d+c$; in particular $\mathrm{cd}_{\mathrm{tor}}(\Spec K)=0$ for
 $K$ separably closed.
-Chapter 15 (finiteness and constructibility of direct images):
-thm:dg-finite-type-constructibility for ordinary direct images and
-sbc-thm-finiteness-finite-type for compact support; Chapter 4 for the
-proper case thm:weil-pbc-direct-image-finiteness-proper; Chapter 12
-(`06c`) for thm:sc-finite-type-torsion-cd; Chapter 16 for
-lem:kun-cd-sep-closed-point.
 
 ## Proof
 
@@ -69,7 +65,8 @@ is carried along. This gives $Rj_*:\Dbc(X,\Lambda)\to\Dbc(Y,\Lambda)$
 
 *Ordinary direct image, $f$ not necessarily separated*
 (thm:dg-finite-type-constructibility). The assertion is local on $Y$, so
-take $Y$ affine, and cover $X$ by finitely many affine opens
+take $Y$ affine; then $X$ is quasi-compact because $f$ is, and of finite type
+over $Y$, so cover $X$ by finitely many affine opens
 $X_1,\dots,X_r$. For $\emptyset\neq I\subseteq\{1,\dots,r\}$ the intersection
 $X_I=\bigcap_{i\in I}X_i$ is a quasi-compact open of an affine $X_i$, hence
 locally closed in some $\mathbf P^m_Y$; in its scheme-theoretic closure it is
@@ -90,8 +87,9 @@ obtained. Constructible sheaves form a Serre subcategory, so every page is
 constructible and the abutment has a finite constructible filtration.
 Separatedness is never used.
 
-*Compact supports* (sbc-thm-finiteness-finite-type). For separated
-$f$ write $f=rj$ by [sk-thm-nagata-compactification], so $Rf_!=Rr_*j_!$ by
+*Compact supports* (sbc-thm-finiteness-finite-type). Choose a
+compactification $f=rj$, with $j$ an open immersion and $r$ proper, so
+$Rf_!=Rr_*j_!$ by
 [sk-def-sf-operations] (iv). Extension by zero preserves constructibility,
 and $Rr_*$ is bounded constructible by the proper case; the vanishing
 $R^qf_!\mathcal F=0$ for $q>2e$ is read off the *original* fibres of $f$,
@@ -117,5 +115,3 @@ $q>d+c$. Grothendieck vanishing kills the spectral sequence for $p>d$. Hence
 all surviving total degrees are $\le2d+c$. For $K$ separably closed every
 torsion étale sheaf on $\Spec K$ is acyclic in positive degrees, so
 $\mathrm{cd}_{\mathrm{tor}}(\Spec K)=0$ (lem:kun-cd-sep-closed-point).
-
-Uses: `lem-kun-cd-sep-closed-point`, `sbc-thm-finiteness-finite-type`, `thm-dg-finite-type-constructibility`, `thm-sc-finite-type-torsion-cd`, `thm-weil-pbc-direct-image-finiteness-proper`

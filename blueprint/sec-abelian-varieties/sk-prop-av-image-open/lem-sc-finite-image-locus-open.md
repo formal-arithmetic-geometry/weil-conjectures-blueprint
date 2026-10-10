@@ -7,7 +7,7 @@ order = 488
 +++
 Let $k$ be a field, $X$ a $k$-scheme proper over $k$, $Z$ a
 $k$-scheme separated and locally of finite type over $k$, $Y$ a
-$k$-scheme, $f:X\times_kY\to Z$ a morphism and $y_0\in Y$ (an
+$k$-scheme, $f:X\times_kY\to Z$ a morphism of $k$-schemes and $y_0\in Y$ (an
 arbitrary point, not necessarily $k$-rational). For $y\in Y$ write
 
 $$

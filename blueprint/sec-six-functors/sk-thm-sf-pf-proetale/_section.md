@@ -21,5 +21,3 @@ $R\bar f_*j_!$ together with its exchange and projection maps; hence the
 comparison carries the étale projection transformation to the pro-étale
 one, and transporting [sk-thm-sf-pf-finite] along it gives the statement at
 every stage ([sk-thm-sf-pf-field] for the non-finite stages).
-
-Uses: `\Cref{thm-sf-pf-field}`, `def-weil-pbc-etale-origin-witness`, `thm-cbc-finite-level-proetale`, `thm-weil-pbc-site-comparison`

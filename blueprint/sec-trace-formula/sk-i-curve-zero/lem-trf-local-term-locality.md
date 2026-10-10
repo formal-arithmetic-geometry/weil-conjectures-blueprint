@@ -17,10 +17,7 @@ c_2^{\cdot}(\mathcal I_y)^n\subset\mathcal I_{y,C}^{\,n+1}\qquad\text{for some }
 $$
 
 where $\mathcal I_{y,C}=c_1^{\cdot}(\mathcal I_y)\mathcal O_C$ is the ideal of
-the reduced point $y\subset C$. This is Varshavsky's "$c$ stabilizes
-$Z=\{y\}$ and is contracting near $Z$"
-([Def. 2.1.1](https://arxiv.org/abs/math/0505564)), with the two legs
-interchanged to match the convention $u:c_2^*K\to c_1^!K$; the stabilizing
+the reduced point $y\subset C$. The stabilizing
 inclusion $c_2^{\cdot}(\mathcal I_y)\subset\mathcal I_{y,C}$ follows from
 $c_2(y)=y$, and the condition holds with $n=1$ whenever the map induced by
 $c_2$ on the cotangent space at $y$ is zero.

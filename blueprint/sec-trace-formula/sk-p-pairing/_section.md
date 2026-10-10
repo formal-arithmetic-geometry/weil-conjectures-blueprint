@@ -8,15 +8,15 @@ lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.integral_traceClass_eq_t
 +++
 *Proposition (sketch).*
 
-For a perfect $A$-complex $P$ on $s$ and an
-endomorphism $v:P\to P$, regard $v$ and $1_P$ as correspondences
-with support $s$. The supported pairing satisfies
+Let $s$ be the spectrum of a field. For a perfect (dualizable)
+$P\in D^b_{ctf}(s,A)$ and an endomorphism $v:P\to P$, regard $v$ as the
+endocorrespondence with support $s$, identity legs and coefficient map $v$;
+its fixed scheme is $s$. Its trace class, the supported pairing
+$\langle v,1_P\rangle_{\mathrm{LV}}$, integrates to the ordinary categorical trace:
 
 $$
-\langle v,1_P\rangle_{\mathrm{LV}}=\tr_A(v\mid P),
+\int_s\Tr_{\mathrm{id}}(v)=\int_s\langle v,1_P\rangle_{\mathrm{LV}}=\tr_A(v\mid P).
 $$
-
-where the right side is the ordinary categorical trace.
 
 ## Proof
 
@@ -41,5 +41,3 @@ the class of the diagonal identity maps to $1_K$. The supported cup
 product reduces by the projection formula and $!$-base change in
 [sk-d-six] to the displayed composite. This is the classical trace-class
 dictionary used by the general proper-compatibility theorem below, on the specified fixed scheme.
-
-Uses: [sk-d-corr], [sk-d-pairing], [sk-d-setup], [sk-d-six], [sk-d-trace-class], [sk-d-trace], [sk-p-trace], [sk-thm-sf-kunneth-verdier], [sk-thm-sf-package]

@@ -28,8 +28,7 @@ $$
 
 and shift $[a+b]$, the $r_{ij}$ being the projections of the triple product.
 In particular $\FT_{\psi^{-1}}\FT_\psi$ is the kernel transform with kernel
-$\mathcal K_{\psi^{-1}}\ast\mathcal K_\psi$ and shift $[2r]$. (Blueprint
-lem:fd-kernel-composition.)
+$\mathcal K_{\psi^{-1}}\ast\mathcal K_\psi$ and shift $[2r]$.
 
 ## Proof
 
@@ -45,5 +44,3 @@ $r_{13}$ together with $r_{13}^*s_1^*\cong r_1^*$, $s_2\circ r_{13}=r_3$ and
 the composition law turns it into the same expression, so the two kernels
 agree. All steps are instances of the six operations
 (prop:functor-package).
-
-Uses: [sk-def-ft]

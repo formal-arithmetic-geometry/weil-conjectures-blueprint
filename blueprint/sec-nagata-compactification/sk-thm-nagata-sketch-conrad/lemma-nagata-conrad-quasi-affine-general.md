@@ -11,9 +11,11 @@ subschemes, let $Y$ be qcqs and let $p\colon Y\to X$ be separated,
 quasi-affine and locally of finite type. Let $f\colon U\to Y$ be an
 $X$-morphism whose image is closed in $p^{-1}(V)$. There is a finite type
 quasi-coherent ideal $\mathcal I$ on $X$ with
-$V(\mathcal I)\subseteq X\setminus V$ such that
-$\operatorname{Bl}_{\mathcal I}(X)$ carries a quasi-domination over $Y$
-extending $f$.
+$V(\mathcal I)\subseteq X\setminus V$ such that, writing
+$\pi\colon\widetilde X=\operatorname{Bl}_{\mathcal I}(X)\to X$, there are an
+open $W\subseteq\widetilde X$ containing $\pi^{-1}(U)$ and an $X$-morphism
+$g\colon W\to Y$ extending $f$ whose graph is closed in
+$Y\times_X\widetilde X$.
 
 Neither $U$ nor $V$ needs to be assumed dense in $X$. The only density used
 below is that of the inverse image of $U$ in the blow-up of the smaller base
@@ -96,6 +98,11 @@ a $V$-admissible blow-up of $X$ by
 quasi-coherent ideal $\mathcal I$ on $X$ with
 $V(\mathcal I)\cap V=\varnothing$ and an $X$-isomorphism
 $\widetilde X_1\cong\operatorname{Bl}_{\mathcal I}(X)$. Transporting $(W,G)$
-along it, and composing $G$ with $Y_1\to Y$, gives the required
-quasi-domination of $\operatorname{Bl}_{\mathcal I}(X)$ over $Y$ extending
-$f$.
+along it, and composing $G$ with $Y_1\to Y$, gives an open
+$W\subseteq\operatorname{Bl}_{\mathcal I}(X)$ containing the inverse image of
+$U$ and an $X$-morphism $W\to Y$ extending $f$. Its graph is closed in
+$Y\times_X\operatorname{Bl}_{\mathcal I}(X)$: it is the image of the closed
+graph $\Gamma$ of Step 5 under the isomorphism
+$Y_1\times_{X_1}\widetilde X_1\cong Y\times_X\widetilde X_1$ (the two
+fibre products agree since $Y_1=Y\times_XX_1$), transported along
+$\widetilde X_1\cong\operatorname{Bl}_{\mathcal I}(X)$.

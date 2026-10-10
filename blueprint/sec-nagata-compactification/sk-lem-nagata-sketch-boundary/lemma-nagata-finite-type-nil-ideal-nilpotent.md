@@ -4,12 +4,6 @@ kind = "lemma"
 title = "A finite type nil ideal sheaf is uniformly nilpotent"
 order = 245
 +++
-**Status.** Bypassed by the formalized route: boundary separation is
-`AlgebraicGeometry.separationBlowup` with
-`AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures`,
-proved from Deligne's disjointness blow-up rather than from this
-preparation.
-
 Let $X$ be quasi-compact and let $\mathcal I$ be a finite type
 quasi-coherent ideal with $V(\mathcal I)=X$. Then there exists $n>0$ with
 $\mathcal I^n=0$.

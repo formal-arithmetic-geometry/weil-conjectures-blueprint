@@ -8,21 +8,28 @@ lean = ["AlgebraicGeometry.Scheme.exists_shortExact_divisorSequence"]
 +++
 *Proposition (sketch).*
 
-Let $X$ be an integral regular noetherian scheme (e.g. a smooth
-variety over a field) with generic point $\eta$, $i:\eta\to X$, and
-let $X^{(1)}$ be the set of codimension-$1$ points of $X$. There is
-an exact sequence of étale sheaves on $X$
+Let $X$ be an integral regular locally noetherian scheme (e.g. a
+smooth variety over a field) with generic point $\eta$, $i:\eta\to X$,
+and let $X^{(1)}$ be the set of codimension-$1$ points of $X$. There
+is a morphism $\operatorname{div}$ of étale sheaves on $X$ such that
+the sequence
 
 $$
 0\longrightarrow\mathbb G_m\longrightarrow i_*\mathbb G_{m,\eta}
 \xrightarrow{\ \operatorname{div}\ }
-\bigoplus_{x\in X^{(1)}}i_{x*}\Z\longrightarrow0 .
+\bigoplus_{x\in X^{(1)}}i_{x*}\Z\longrightarrow0 ,
 $$
 
-The divisor map sends a rational function to
-$\sum_{x\in X^{(1)}}\operatorname{ord}_x(\cdot)[x]$.
+whose first map is the unit
+$\mathbb G_m\to i_*i^*\mathbb G_m=i_*\mathbb G_{m,\eta}$, is exact.
 
 ## Proof
+
+Take for $\operatorname{div}$ the morphism sending a rational function $f$
+on an étale $U\to X$ to $\sum_{x\in U^{(1)}}\operatorname{ord}_x(f)[x]$,
+grouped according to the images of the points in $X^{(1)}$ (on each
+quasi-compact $U$ the sum is finite, $U$ being locally noetherian); it
+kills the image of the unit $\mathbb G_m\to i_*\mathbb G_{m,\eta}$.
 
 *Curve case.* Exactness is checked on stalks at geometric points.
 At the generic point both outer terms are as required. At a closed
@@ -50,5 +57,3 @@ at a time, so for each $\mathfrak p$ it is the preceding curve case
 applied to $\Spec A_{\mathfrak p}$, whose
 uniformiser supplies the required rational function; the direct sum
 (not product) is what makes the local finiteness usable.
-
-Uses: [sk-def-curve]

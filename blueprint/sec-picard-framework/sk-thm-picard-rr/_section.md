@@ -25,22 +25,24 @@ $\mathcal E=\cF/\mathcal T$ of rank $\rk\cF$, put
 $\deg\cF:=\sum_x\operatorname{length}_{\cO_{X,x}}(\cT_x)[\kappa(x):k]+\deg(\det\mathcal E)$
 $=\dim_kH^0(X,\mathcal T)+\deg(\det\mathcal E)$.
 
-1. ****(RR)**** $\chi(\cF)=\deg\cF+\rk(\cF)(1-g)$; in
+1. **(RR)** $\chi(\cF)=\deg\cF+\rk(\cF)(1-g)$; in
 particular $\chi(\cO_X)=1-g$, and for every line bundle
 $\deg\cL=\chi(\cL)-\chi(\cO_X)$, i.e. the divisor degree agrees with
 the $\chi$-degree used for the Picard scheme below (so the two
 definitions of $\Pic^0$, as kernel of either degree, coincide); and
 for a line bundle of degree $d$ with $d\ge2g-1$: $h^0(\cL)=d+1-g$.
-1. ****(G)**** *positive degree $\Rightarrow$ ample:* if
+1. **(G)** *positive degree $\Rightarrow$ ample:* if
 $\cL$ is a line bundle on $X$ with $\deg\cL>0$, then $\cL$ is ample
 ($h^0(\cL^{\otimes m})=m\deg\cL+1-g$ grows, and after base change to
 $\bar k$, where all closed points are rational, base-point freeness and
 the separation of points and tangent vectors follow from (RR) by
 subtracting one or two points; over a general $k$ subtracting a closed
 point $P$ changes $h^0$ by $[\kappa(P):k]$, not by $1$).
-1. ****(H)**** *affine complement:* if $\cL$ is ample
-and $D$ an effective Cartier divisor with $\cL\cong\cO_X(D)$, then
-$X\setminus\operatorname{Supp}(D)$ is affine.
+1. **(H)** *affine complement:* if $D$ is an effective Cartier divisor
+on $X$ such that $\cO_X(D)$ is ample, then
+$X\setminus\operatorname{Supp}(D)$ is affine (this part holds for any
+proper $k$-scheme $X$; smoothness, dimension one and $H^0(X,\cO_X)=k$
+are not needed).
 
 ## Proof
 

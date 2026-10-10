@@ -18,9 +18,4 @@ extension by zero,
 and $Rr_*$ is the ordinary
 derived direct image.
 For a proper refinement take the comparison which is the
-identity over $X$; the comparison lemma below proves
-that these maps give a compactification-independent
-functor, denoted $Rf_!$. This definition concerns
-the etale category; it does not identify it with a
-functor on the pro-etale category.
-The notation refers to ordinary derived categories.
+identity over $X$; the resulting functor is denoted $Rf_!$.

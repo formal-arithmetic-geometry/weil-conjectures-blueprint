@@ -20,8 +20,4 @@ $$
 
 for the higher direct images of
 $f$ on the small étale sites and for
-every sheaf $M$ of $A$-modules on $X_{\Et}$. This is the vanishing
-clause of the finiteness predicate $\mathrm{FIN}$ of
-[def-weil-pbc-constructible-direct-image-finiteness], read on the
-étale site and imposed on all module sheaves rather than on the
-constructible ones only.
+every sheaf $M$ of $A$-modules on $X_{\Et}$.

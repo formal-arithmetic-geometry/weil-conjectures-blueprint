@@ -59,5 +59,3 @@ both $d$ and $d'$; by (iii) the two resulting maps to each $c_i$ agree after a
 further refinement. Transitivity then gives $t_2t_1^{-1}=t_2'{t_1'}^{-1}$.
 For three compactifications, one common refinement of all three gives
 $(t_3t_2^{-1})(t_2t_1^{-1})=t_3t_1^{-1}$, the cocycle condition.
-
-Uses: `\Cref{sk-def-sf-operations}`, `\Cref{sk-prop-nagata-sketch-comp-category}`, `\Cref{sk-thm-properbasechange}`

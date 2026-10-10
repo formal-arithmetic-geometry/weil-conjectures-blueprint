@@ -8,8 +8,7 @@ uses = ["lem-weil-pbc-closed-immersion-from-composite"]
 +++
 Let $i\colon X\to Y$ be an immersion with $X$ quasi-compact. There is a
 quasi-compact open $W\subseteq Y$ containing $i(X)$ such that $X\to W$ is a
-closed immersion. (No quasi-separatedness assumption on $Y$ is needed; the
-formalised statement drops it.)
+closed immersion.
 
 ## Proof
 

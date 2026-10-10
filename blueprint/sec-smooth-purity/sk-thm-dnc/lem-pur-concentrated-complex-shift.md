@@ -5,7 +5,7 @@ title = "Complexes with cohomology in a single degree"
 order = 2000
 uses = ["def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative"]
 +++
-In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
+In the purity conventions of [def-pur-conventions],
 let $T$ be a separated
 finite-type $k$-scheme, let $K\in D^b_{ctf}(T,\Lambda)$ and let
 $r\in\mathbf Z$.

@@ -8,7 +8,11 @@ lean = ["AlgebraicGeometry.le_add_one_of_isFourierPartner"]
 +++
 *Proposition (sketch).*
 
-The weight $v$ of $M'$ satisfies $v\le w+1$.
+Let $\psi$ be nontrivial and let $M$ be an irreducible lisse sheaf
+(nonzero, with no lisse subsheaves other than $0$ and $M$), nonexceptional
+and punctually $\iota$-pure of weight $w$. If the sheaf $M'$ of a
+Fourier partner $\DLAFT_\psi((j_*M)[1])\simeq(j'_*M')[1]$ is punctually
+$\iota$-pure of weight $v$, then $v\le w+1$.
 
 ## Proof
 
@@ -30,7 +34,7 @@ S_n(U'_0,M')\le 2r^2q^{n(w+2)}+2b^2q^{n(w+1)}
 \le 2(r^2+b^2)q^{n(w+2)}.
 $$
 
-Now $M'\ne0$ is pure by [sk-p-dl-a1-some-weight]. Apply
+Now $M'\ne0$, since $(j'_*M')[1]$ is the transform of the nonzero
+object $(j_*M)[1]$, and $M'$ is pure of weight $v$ by hypothesis (such a
+weight exists by [sk-p-dl-a1-some-weight]). Apply
 [sk-l-dl-a1-energy] with $B=w+2$ to obtain $v\le w+1$.
-
-Uses: [sk-cor-plancherel], [sk-l-dl-a1-energy], [sk-p-dl-a1-correction], [sk-p-dl-a1-some-weight]

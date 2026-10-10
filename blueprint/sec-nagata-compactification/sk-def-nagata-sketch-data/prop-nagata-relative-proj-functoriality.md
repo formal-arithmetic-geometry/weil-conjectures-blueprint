@@ -6,12 +6,6 @@ order = 44
 tags = ["latex:proposition"]
 uses = ["def-nagata-relative-proj", "lemma-nagata-proj-chart-ring-cocycle", "lemma-nagata-relative-proj-exists"]
 +++
-**Status.** Bypassed by the formalized route: no separate relative-Proj
-primitive was formalized. The blow-up is glued from the affine Proj charts
-(`AlgebraicGeometry.Proj.basicOpenIsoSpec`,
-`AlgebraicGeometry.Proj.iSup_basicOpen_eq_top`) with
-`AlgebraicGeometry.Scheme.Cover.RelativeGluingData`.
-
 Relative Proj has the following properties.
 
 1. Its restriction to an affine open $V$ is canonically
@@ -27,10 +21,6 @@ $$
 \operatorname{Proj}_{X'}(g^*\mathcal A)
 \cong X'\times_X\operatorname{Proj}_X(\mathcal A).
 $$
-
-The same base-change construction is required for an arbitrary morphism
-$X'\to X$ when the universal blow-up lift is formed; that unrestricted
-comparison is recorded as a separate conditional interface below.
 
 ## Proof
 

@@ -9,9 +9,10 @@ lean = ["AlgebraicGeometry.Etale.CurveTestDatum.isZero_higherDirectImage_constan
 *Theorem (sketch).*
 
 Let $X\to S$ be affine smooth of relative dimension one with $X$
-affine, $S=\Spec A$ normal with algebraically closed fraction field
-$L$, $K/L$ an extension of algebraically closed fields, $d$
-invertible on $S$, and
+affine, $S=\Spec A$ with $A$ a normal domain with algebraically closed
+fraction field $L$, $K/L$ an extension of algebraically closed fields
+with $g$ the corresponding geometric generic point of $S$, $d$ an integer
+invertible on $S$, $\Lambda$ a commutative ring, and
 
 $$
 \begin{array}{ccc}
@@ -24,10 +25,22 @@ $$
 Then
 
 $$
-R^qh_*(\Z/d\Z)=0\qquad(q\ge1).
+R^qh_*(\Lambda/d\Lambda)=0\qquad(q\ge1)
 $$
 
+for the constant sheaf $\Lambda/d\Lambda$ on $Y_{\Et}$.
+
 ## Proof
+
+*Reduction to $\Z/d\Z$.* The higher direct images of a sheaf of
+$\Lambda$-modules are those of its underlying abelian sheaf. As an abelian
+group $\Lambda/d\Lambda$ has exponent dividing $d$, so it is a direct sum of
+cyclic groups $\Z/d'\Z$ with $d'\mid d$, and the constant sheaf
+$\Lambda/d\Lambda$ is the corresponding direct sum of constant sheaves
+$\Z/d'\Z$. Since $h$ is affine (a base change of $f$), it is quasi-compact
+and quasi-separated, so $R^qh_*$ commutes with direct sums. Each $d'\mid d$
+is invertible on $S$. It therefore suffices to prove $R^qh_*(\Z/d\Z)=0$ for
+$q\ge1$ and every integer $d$ invertible on $S$.
 
 $R^qh_*(\Z/d\Z)$ is the sheaf associated with
 $U\mapsto H^q(U\times_S\Spec K,\Z/d\Z)$ on $X_{\Et}$; we must kill
@@ -36,8 +49,10 @@ each $\xi$ in one of these groups on an étale cover of $U$.
 - $q>1$: $U\times_S\Spec K$ is an affine smooth curve over
 $K$, and [sk-prop-cd-affine] gives the vanishing.
 - $q=1$: by [sk-prop-normal-form] replace $U$ by an étale
-cover with $U\to V\to S$, $U\to V$ affine smooth with geometrically connected fibres
-and a section $\sigma$, $V\to S$ étale; by
+cover with $U\to V\to S$, $U\to V$ affine with geometrically connected fibres
+and a section $\sigma$, $V\to S$ étale ($f$ is smooth, so it has
+geometrically reduced fibres, and $U\to V$ is smooth because $U\to S$ is
+smooth and $V\to S$ is étale); by
 [sk-prop-etale-normal], $V$ is an open
 of the normal $S$, so we may assume $X\to S$ affine smooth, with
 geometrically connected fibres and a section $\sigma$, and
@@ -56,10 +71,9 @@ $P_0$; in particular $P_0\to X_L$ trivializes $P$ (the diagonal
 section of $P_0\times_{X_L}P_0$). Over the $L$-point $\sigma(\eta)$
 the cover $P_0$ is split ($L$ algebraically closed), so $P_0$ has an
 $L$-point above $\sigma(\eta)$; by [sk-prop-input-spreading] $P_0$
-spreads to a finite étale Galois cover $X'\to X$ with group $G$
-and $X'\times_XX_L=P_0$; then $X'\times_XY\to Y$ is the pullback of
+($G$ is a finite abelian group of order invertible on $S$, and $P_0$ is a
+$G$-torsor) spreads to a $G$-torsor $X'\to X$ with $X'\times_XX_L\cong P_0$
+$G$-equivariantly; then $X'\times_XY\to Y$ is the pullback of
 $P_0\to X_L$, over which $P$, hence $\xi$, is trivial, so the class
 of $\xi$ is killed in $H^1(X'\times_XY,\Z/d\Z)$: $\{X'\to X\}$ is
 the required étale cover and the sheaf is zero.
-
-Uses: [sk-def-smooth], [sk-prop-cd-affine], [sk-prop-etale-normal], [sk-prop-ext-invariance], [sk-prop-input-spreading], [sk-prop-input-torsors], [sk-prop-normal-form]

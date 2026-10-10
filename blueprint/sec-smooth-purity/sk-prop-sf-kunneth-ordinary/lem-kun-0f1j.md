@@ -32,8 +32,6 @@ induced by the counit of [def-weil-pbc-inverse-image]) is an
 isomorphism for every $E\in\Dplus(X_{\Et},\kunZn)$ of
 tor amplitude in $[a,\infty)$ for
 some $a\in\mathbf Z$ and every $F\in\Dplus(T_{\Et},\kunZn)$.
-(*Source:* Stacks Project, Tag
-[0F1J](https://stacks.math.columbia.edu/tag/0F1J).)
 
 ## Proof
 

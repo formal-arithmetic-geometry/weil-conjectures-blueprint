@@ -34,5 +34,3 @@ By [sk-prop-logdet] the inner series is $-\log P_{i,\ell}(T)$, so
 $\log Z=\sum_i(-1)^{i+1}\log P_{i,\ell} =\log\prod_iP_{i,\ell}^{(-1)^{i+1}}$. Exponentiating gives the identity; it
 lies in $\Ql(T)$ because the right side is a finite product of rational
 functions with constant term $1$, and in $\Ql[[T]]$ because the left side is.
-
-Uses: [sk-def-cohfamily], [sk-def-zeta], [sk-prop-logdet], [sk-thm-trace-formula], [sk-thm-trace-transport]

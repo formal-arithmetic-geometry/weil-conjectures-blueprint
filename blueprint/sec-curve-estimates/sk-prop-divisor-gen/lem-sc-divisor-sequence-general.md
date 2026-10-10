@@ -6,13 +6,13 @@ order = 898
 uses = ["lem-sc-regular-dim1-dvr"]
 lean = ["AlgebraicGeometry.Scheme.exists_shortExact_divisorSequence"]
 +++
-Let $X$ be an integral regular noetherian scheme (for example a
-connected smooth scheme over a field) with generic point
+Let $X$ be an integral regular locally noetherian scheme (for
+example a connected smooth scheme over a field) with generic point
 $j:\eta=\operatorname{Spec}k(X)\to X$, let $X^{(1)}$ be the set of
 codimension-one points of $X$, and for $x\in X^{(1)}$ let
 $i_x:\operatorname{Spec}k(x)\to X$ be the canonical morphism (not a
-closed immersion unless $x$ is closed). The sequence of etale sheaves
-on $X$
+closed immersion unless $x$ is closed). There is a morphism
+$\operatorname{div}$ of etale sheaves on $X$ such that the sequence
 
 $$
 0\longrightarrow\mathbf G_m\longrightarrow j_*\mathbf G_{m,\eta}
@@ -20,11 +20,17 @@ $$
 $$
 
 is exact, where the first map is the unit
-$\mathbf G_m\to j_*j^*\mathbf G_m$ and $\operatorname{div}$ sends a
-rational function $f$ to $\sum_{x\in X^{(1)}}\operatorname{ord}_x(f)[x]$.
+$\mathbf G_m\to j_*j^*\mathbf G_m$.
 
 ## Proof
 
+We take for $\operatorname{div}$ the morphism that sends a rational
+function $f$ on an etale $U\to X$ to
+$\sum\operatorname{ord}_u(f)[u]$, the sum over the codimension-one
+points $u$ of $U$ (which lie over points of $X^{(1)}$, $U\to X$ being
+etale), finite on each quasi-compact $U$ because $U$ is locally
+noetherian; the computation below shows that its stalks are the maps
+$f\mapsto(\operatorname{ord}_{\mathfrak q}f)_{\mathfrak q}$.
 Exactness is checked on stalks at geometric points $\bar x\to X$ lying
 over $x\in X$. Let $\mathcal O=\mathcal O_{X,x}$, $K=k(X)$ its fraction
 field, and $A=\mathcal O^{sh}_{X,\bar x}$ the strict henselization. Then

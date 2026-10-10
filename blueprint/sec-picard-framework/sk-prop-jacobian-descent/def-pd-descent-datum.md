@@ -14,7 +14,6 @@ $\mathrm{pr}_{01},\mathrm{pr}_{02},\mathrm{pr}_{12}:X_3\to X_2$. A
 $\varphi:\mathrm{pr}_0^*V\to\mathrm{pr}_1^*V$ of schemes over $X_2$ satisfying
 the cocycle condition
 $\mathrm{pr}_{02}^*\varphi =\mathrm{pr}_{12}^*\varphi\circ\mathrm{pr}_{01}^*\varphi$
-over $X_3$ (Stacks Project, Descent, Definition 35.34.1, Tag
-[023V](https://stacks.math.columbia.edu/tag/023V)). The datum is
+over $X_3$. The datum is
 *effective* if there are a scheme $V_0$ over $Y$ and an isomorphism
 $V\cong V_0\times_YX$ over $X$ whose pullback to $X_2$ recovers $\varphi$.

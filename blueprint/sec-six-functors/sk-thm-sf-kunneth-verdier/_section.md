@@ -12,8 +12,9 @@ The three maps of [sk-def-sf-kv-maps] are isomorphisms, natural in their
 variables, under the hypotheses of that definition (the $Rf_i^!$ are the
 constructible exceptional adjoints of [sk-def-sf-operations] (vi); no
 admissibility datum of [sk-def-sf-admissible] is assumed): the
-exceptional Künneth $\alpha$, the external Hom $\beta$, and
-in particular, for $X,Y$ separated of finite type over $k$, with the structure
+exceptional Künneth map $\alpha$, the external Hom map $\beta$, and the
+Künneth–Verdier map $\kappa$. In particular, for $X,Y$ separated of finite
+type over $k$, with the structure
 morphism $a_Y$ and the product projection $p_X=\operatorname{id}_X\times a_Y$
 as in [sk-def-sf-kv-maps] (iv), and
 $M\in\Dctf(X,\Lambda)$, $N\in\Dctf(Y,\Lambda)$,
@@ -122,5 +123,3 @@ $(N,\omega_Y)$, then $\RHom(1,\alpha)$ for the identification
 $M\boxtimes\omega_Y\simeq Rp_X^!M$, which is $\alpha$ for
 $\operatorname{id}_X\times a_Y$. Their composite is $\kappa_{M,N}$ by
 [sk-def-sf-kv-maps] (iv), and both factors have just been shown invertible.
-
-Uses: `\Cref{def-sf-kv-maps}`, `\Cref{sk-lem-sf-ctf-generation}`, `\Cref{sk-lem-sf-kunneth-star}`, `\Cref{sk-prop-sf-biduality-general}`, `\Cref{sk-prop-sf-dualizable-biduality}`, `\Cref{sk-thm-sf-tensor-hom}`, `\Cref{lem-sf-mate}`, `\Cref{sk-prop-sf-closed-unit}`, `\Cref{sk-prop-sf-localization}`, `\Cref{sk-thm-regular}`, `\Cref{sk-thm-smooth-purity}`

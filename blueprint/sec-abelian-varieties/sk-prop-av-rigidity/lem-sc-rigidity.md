@@ -8,10 +8,11 @@ uses = ["lem-sc-constant-locus-closed", "lem-sc-finite-image-locus-open"]
 +++
 Let $k$ be a field and $X,Y,Z$ schemes over $k$ with $X$ proper,
 geometrically connected and geometrically reduced over $k$, $Y$
-connected, and $Z$ separated and locally of finite type over $k$.
-Let $f:X\times_kY\to Z$ be a morphism such that
-$f(X\times\{y_0\})$ is a single point for some $k$-point
-$y_0\in Y(k)$. Then $f$ factors through the projection
+connected, and $Z$ separated over $k$.
+Let $f:X\times_kY\to Z$ be a morphism of $k$-schemes such that, for
+some point $y_0\in Y$, the image under $f$ of the fibre
+$\operatorname{pr}_2^{-1}(y_0)=X\times_k\Spec\kappa(y_0)$ is a single
+point. Then $f$ factors through the projection
 $X\times_kY\to Y$: there is a morphism $g:Y\to Z$ with
 $f=g\circ\operatorname{pr}_2$.
 
@@ -36,67 +37,31 @@ imperfect of characteristic $p$, $a\in k\smallsetminus k^p$,
 $k'=k(a^{1/p})$, $X=\Spec k'$ (proper, geometrically connected and
 reduced, but not geometrically reduced), $Y=\mathbf A^1_k$,
 $Z=\mathbf A^1_{k'}$ viewed over $k$ and $f$ the identity of
-$X\times_kY=\mathbf A^1_{k'}$, the fibre over $y_0=0$ is one point and
-Steps 1–3 below go through, but
+$X\times_kY=\mathbf A^1_{k'}$, the fibre over $y_0=0$ is one point, but
 $\operatorname{pr}_2:\mathbf A^1_{k'}\to\mathbf A^1_k$ is finite flat of
 degree $p$, hence not a monomorphism, so $f=g\circ\operatorname{pr}_2$
-is impossible; only Step 4 fails, as $\Gamma(X,\mathcal O_X)=k'\ne k$.
+is impossible; the argument below fails only in Step 1, as
+$\Gamma(X,\mathcal O_X)=k'\ne k$.
 
-*Notation.* For $y\in Y$ let $f_y:X_{\kappa(y)}\to Z_{\kappa(y)}$ be the
-fibre of $(f,\operatorname{pr}_2):X\times_kY\to Z\times_kY$ over $y$, and
-$f_{\bar y}:X_{\overline{\kappa(y)}}\to Z_{\overline{\kappa(y)}}$ its base
-change to an algebraic closure, as in
-[lem-sc-constant-locus-closed] and [lem-sc-finite-image-locus-open].
-Note $X\ne\emptyset$ (connected spaces are nonempty).
-
-*Step 1: the locus of geometrically constant fibres is closed and
-contains $y_0$.* Put
-
-$$
-L:=\{y\in Y: f_{\bar y}(X_{\overline{\kappa(y)}})\ \text{is a single point}\}.
-$$
-
-By [lem-sc-constant-locus-closed] applied to $X$, $Z$ and
-$f$, the set $L$ is closed in $Y$. Moreover $y_0\in L$: since $y_0$ is
-$k$-rational, $f_{y_0}$ is $f(-,y_0):X\to Z$, with image a single point
-$z_0$. Choosing a closed point $x\in X$, we get $z_0=f(x,y_0)$, so
-$\kappa(z_0)\subseteq\kappa(x)$ is finite over $k$, and the fibre of
-$Z_{\bar k}\to Z$ over $z_0$, namely $\Spec(\kappa(z_0)\otimes_k\bar k)$,
-is a finite discrete set. The image $f_{\bar y_0}(X_{\bar k})$ lies in
-it and is connected, because $X_{\bar k}$ is connected ($X$ is
-geometrically connected); hence it is a single point.
-
-*Step 2: $L$ is open.* Let $y\in L$; then $f_y(X_{\kappa(y)})$ is the
-image of the single point $f_{\bar y}(X_{\overline{\kappa(y)}})$, so it is
-finite. By [lem-sc-finite-image-locus-open] (whose sole input is Stacks
-Project, More on Morphisms, Lemma 37.44.3,
-[Tag 0AH8](https://stacks.math.columbia.edu/tag/0AH8)) there is an
-open neighbourhood $U_y\ni y$ such that $f_{y'}(X_{\kappa(y')})$ is
-finite for every $y'\in U_y$. Fix such $y'$. The image
-$f_{y'}(X_{\kappa(y')})$ is closed ($X_{\kappa(y')}$ is proper and
-$Z_{\kappa(y')}$ separated) and finite in the scheme $Z_{\kappa(y')}$,
-which is locally of finite type over $\kappa(y')$, hence Jacobson; so it
-consists of closed points, whose residue fields are finite over
-$\kappa(y')$. Each of them has finitely many preimages in
-$Z_{\overline{\kappa(y')}}$, so $f_{\bar y'}(X_{\overline{\kappa(y')}})$
-is finite, hence discrete. It is also connected, being the image of the
-connected scheme $X_{\overline{\kappa(y')}}$; hence it is a single point,
-i.e. $y'\in L$. Hence $L$ is open.
-
-*Step 3: $L=Y$.* By Steps 1 and 2 the subset $L\subseteq Y$ is
-open, closed and nonempty, while $Y$ is connected; hence
-$L=Y$. Consequently, for every $y\in Y$ the set
-$f(\operatorname{pr}_2^{-1}(y))$, which is the image in $Z$ of
-$f_{\bar y}(X_{\overline{\kappa(y)}})$, is a single point $z_y$.
-
-*Step 4: the factorization.* By Stacks Project, Varieties, Lemma 33.9.3
+*Notation.* For $y\in Y$ let $f_{\bar y}:X_{\overline{\kappa(y)}}\to
+Z_{\overline{\kappa(y)}}$ be the base change of
+$(f,\operatorname{pr}_2):X\times_kY\to Z\times_kY$ along a geometric point
+$\bar y:\Spec\overline{\kappa(y)}\to Y$ over $y$, as in
+[lem-sc-constant-locus-closed]. Note $X\ne\emptyset$ (connected spaces
+are nonempty), and $\Gamma(X,\mathcal O_X)=k$ by Stacks Project,
+Varieties, Lemma 33.9.3
 ([Tag 0BUG](https://stacks.math.columbia.edu/tag/0BUG)), since $X$ is
-proper, geometrically connected and geometrically reduced over $k$, we
-have $\Gamma(X,\mathcal O_X)=k$. Let $y\in Y$ and choose an affine open
-$V\ni z_y$ of $Z$. The projection $\operatorname{pr}_2:X\times_kY\to Y$
-is proper, hence closed, so
+proper, geometrically connected and geometrically reduced over $k$.
+
+*Step 1: local factorization.* Let $y\in Y$ be a point such that
+$f(\operatorname{pr}_2^{-1}(y))$ is contained in an affine open
+$V\subseteq Z$; this holds in particular when
+$f(\operatorname{pr}_2^{-1}(y))$ is a single point. We show that there
+are an affine open $U\ni y$ of $Y$ and a $k$-morphism $g_U:U\to Z$ with
+$f|_{X\times_kU}=g_U\circ\operatorname{pr}_2$. The projection
+$\operatorname{pr}_2:X\times_kY\to Y$ is proper, hence closed, so
 $Y\smallsetminus\operatorname{pr}_2\bigl(f^{-1}(Z\smallsetminus V)\bigr)$
-is open; it contains $y$ because $f(\operatorname{pr}_2^{-1}(y))=\{z_y\}\subseteq V$.
+is open; it contains $y$ because $f(\operatorname{pr}_2^{-1}(y))\subseteq V$.
 Choose an affine open $U\ni y$ inside it; then
 $f(X\times_kU)\subseteq V$. By flat base change along the flat map
 $k\to\mathcal O(U)$ ($X$ is quasi-compact and separated),
@@ -106,13 +71,42 @@ $$
 $$
 
 the identification being $\operatorname{pr}_2^\#$. Since $V$ is affine,
-$f|_{X\times_kU}:X\times_kU\to V$ corresponds to a ring map
+$f|_{X\times_kU}:X\times_kU\to V$ corresponds to a $k$-algebra map
 $\mathcal O(V)\to\Gamma(X\times_kU,\mathcal O)=\mathcal O(U)$, i.e.
 $f|_{X\times_kU}=g_U\circ\operatorname{pr}_2$ for the morphism
-$g_U:U\to V\subseteq Z$ given by this ring map. Finally, the projection
+$g_U:U\to V\subseteq Z$ given by this ring map.
+
+*Step 2: the factorization locus.* Put
+
+$$
+L:=\{y\in Y:\ \text{there are an open }U\ni y\text{ and }g_U:U\to Z
+\text{ with }f|_{X\times_kU}=g_U\circ\operatorname{pr}_2\}.
+$$
+
+By definition $L$ is open, and $y_0\in L$ by Step 1, since
+$f(\operatorname{pr}_2^{-1}(y_0))$ is a single point by hypothesis.
+
+*Step 3: $L$ is closed.* Let $L'$ be the set of $y\in Y$ for which
+$f_{\bar y}(X_{\overline{\kappa(y)}})$ is a single point; it is closed
+by [lem-sc-constant-locus-closed] ($X$ is proper and nonempty, $Z$ is
+separated). We claim $L=L'$. If $y\in L$, with $f=g_U\circ\operatorname{pr}_2$
+over $U\ni y$, then $f_{\bar y}$ is the composite of the structure
+morphism $X_{\overline{\kappa(y)}}\to\Spec\overline{\kappa(y)}$ with the
+base change of $g_U$ along $\bar y$, so its image is a single point and
+$y\in L'$. Conversely, if $y\in L'$, then $f(\operatorname{pr}_2^{-1}(y))$
+is the image in $Z$ of the single point
+$f_{\bar y}(X_{\overline{\kappa(y)}})$, because
+$X_{\overline{\kappa(y)}}\to\operatorname{pr}_2^{-1}(y)
+=X\times_k\Spec\kappa(y)$ is surjective; hence it is a single point,
+and $y\in L$ by Step 1. So $L=L'$ is closed.
+
+*Step 4: $L=Y$ and gluing.* By Steps 2 and 3 the subset $L\subseteq Y$
+is open, closed and nonempty, while $Y$ is connected; hence $L=Y$, and
+$Y$ is covered by opens $U$ with morphisms $g_U:U\to Z$ such that
+$f|_{X\times_kU}=g_U\circ\operatorname{pr}_2$. The projection
 $X\times_kY\to Y$ is faithfully flat ($X\ne\emptyset$) and
 quasi-compact, hence an epimorphism in the category of schemes (fpqc
-descent of morphisms); therefore on overlaps $U\cap U'$ the morphisms
-$g_U$ and $g_{U'}$, both satisfying $f=g\circ\operatorname{pr}_2$ there,
-agree. The $g_U$ thus glue to $g:Y\to Z$ with
-$f=g\circ\operatorname{pr}_2$.
+descent of morphisms), and the same holds over every open of $Y$;
+therefore on overlaps $U\cap U'$ the morphisms $g_U$ and $g_{U'}$, both
+satisfying $f=g\circ\operatorname{pr}_2$ there, agree. The $g_U$ thus
+glue to $g:Y\to Z$ with $f=g\circ\operatorname{pr}_2$.

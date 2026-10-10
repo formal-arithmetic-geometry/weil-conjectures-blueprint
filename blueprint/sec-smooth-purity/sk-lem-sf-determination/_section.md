@@ -35,8 +35,7 @@ $$
 are two natural automorphisms of $\Phi=\mathrm{Id}\oplus[1]$ which agree on
 $R$ and differ on $P$. Likewise two natural transformations agreeing at
 every geometric stalk need not agree. Equalities between comparison maps are
-therefore proved from their constructions (as in the finite-reduction
-compatibility of the projection formula, sk-prop-sf-pf-reduction below), never
+therefore proved from their constructions, never
 from agreement on generators or on stalks.
 
 ## Proof
@@ -49,5 +48,3 @@ additivity, and the inverse of an invertible diagonal map is diagonal, so each
 summand is invertible. The class of objects on which $\alpha$ is invertible
 is therefore closed under shifts, cones and direct summands, i.e. it is a
 thick subcategory.
-
-Uses: `\Cref{sk-def-sf-operations}`

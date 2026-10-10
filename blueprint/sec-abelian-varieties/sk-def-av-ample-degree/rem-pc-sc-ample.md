@@ -6,7 +6,7 @@ order = 439
 uses = ["def-sc-ample"]
 +++
 The notions of *ample* and *very ample* invertible module are
-those of file 06: [def-sc-ample] (with the Stacks Project
+those of [def-sc-ample] (with the Stacks Project
 references Properties of Schemes, Section 28.27, Tag
 [01PR](https://stacks.math.columbia.edu/tag/01PR), Proposition
 28.27.13, Tag [01Q3](https://stacks.math.columbia.edu/tag/01Q3),

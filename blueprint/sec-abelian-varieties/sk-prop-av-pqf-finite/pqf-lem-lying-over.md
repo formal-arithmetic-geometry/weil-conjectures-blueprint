@@ -7,11 +7,6 @@ order = 531
 Let $A\hookrightarrow B$ be an injective integral map of rings. Then
 every prime $\mathfrak p\subset A$ is the contraction of a prime of
 $B$.
-(*Classical: this is the lying-over theorem; Stacks Project,
-Algebra, Lemma 10.36.22, Tag
-[00GU](https://stacks.math.columbia.edu/tag/00GU), is the going-up
-companion of it, and its proof invokes lying over as Algebra Lemma
-10.36.17.*)
 
 ## Proof
 

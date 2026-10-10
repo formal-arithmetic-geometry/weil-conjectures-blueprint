@@ -23,11 +23,6 @@ filtered limit $\varprojlim_{j\ge i}V_j$; each $V_j$ is
 quasi-compact, and the transition morphisms $V_{j'}\to V_j$ are
 affine.
 
-(*Stacks Project, Limits of Schemes, Lemma 32.4.11*,
-[Tag 01Z4](https://stacks.math.columbia.edu/tag/01Z4); clause (3)
-is the limit description of Limits of Schemes, Lemma 32.2.2,
-[Tag 01YX](https://stacks.math.columbia.edu/tag/01YX).)
-
 ## Proof
 
 *The affine case.* Suppose first that $S_0=\operatorname{Spec}R_0$

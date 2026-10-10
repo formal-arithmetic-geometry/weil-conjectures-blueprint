@@ -11,8 +11,6 @@ equivalence between etale $X$-schemes and etale $X_0$-schemes.
 
 ## Proof
 
-This is Tag `04DZ`; the formalization follows its second proof.
-
 *Full faithfulness* (Tag `04DY`). Faithfulness only uses that
 $u$ is surjective and that etale morphisms are unramified: two
 $X$-morphisms $T\to V$ into an etale $X$-scheme that agree after composing

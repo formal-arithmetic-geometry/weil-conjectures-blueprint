@@ -27,5 +27,3 @@ The first isomorphism is open $!$-base change. These are the induced
 maps on the two pieces of the functorial localization triangle.
 The construction also applies to a Frobenius coefficient morphism in
 the sense of [sk-d-weil].
-
-Uses: [sk-d-proper-pushforward], [sk-d-setup], [sk-d-six], [sk-d-weil]

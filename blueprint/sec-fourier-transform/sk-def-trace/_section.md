@@ -3,7 +3,7 @@ id = "sk-def-trace"
 kind = "section"
 title = "The trace function, and the classical Fourier transform"
 order = 2688
-lean = ["AlgebraicGeometry.WeilSheaf.traceFunction"]
+lean = ["AlgebraicGeometry.LAdicWeilSheaf.traceFunction"]
 uses = ["sk-def-char", "sk-def-fourier-set"]
 +++
 *Definition (sketch).*
@@ -17,8 +17,5 @@ t_K(x)=\Tr\bigl(F_x^{(n)}\mid K_{\bar x}\bigr)
 $$
 
 with the local Frobenius operators of def:weil-local-frobenius-trace.
-This is a numerical invariant of $K$; the classical Fourier transform of a
-function on $\mathbf F_{q^n}$, $\widehat f(y)=\sum_xf(x)\psi_n(xy)$, is the
-model for P8 below. (Blueprint def:fd-trace-function.)
-
-Uses: [sk-def-char], [sk-def-fourier-set]
+The classical Fourier transform of a function $f$ on $\mathbf F_{q^n}$ is
+$\widehat f(y)=\sum_xf(x)\psi_n(xy)$.

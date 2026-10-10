@@ -17,23 +17,6 @@ $$
 $$
 is exact and $E$-linear.
 
-*Source note:* no Stacks Project entry states this form: the ledger's
-verified entries contain no statement making a filtered colimit of
-triangulated categories triangulated, and the blueprint adds the
-$\Qlb$-linearity, the idempotent-complete triangulation and the exactness of
-the finite-stage inclusions $j_E$. What Stacks does provide, each page
-fetched and quoted, is the definition of the structure asserted here —
-Definition 13.3.2 ([Tag 0145](https://stacks.math.columbia.edu/tag/0145),
-TR1--TR4 with the octahedral axiom) with Definition 13.3.3 ([Tag
-014V](https://stacks.math.columbia.edu/tag/014V), exact functor) — the
-verification of the axioms for a localization, Proposition 13.5.6 ([Tag
-05R6](https://stacks.math.columbia.edu/tag/05R6)), and the Karoubianity
-criterion Lemma 13.4.14 ([Tag
-05QW](https://stacks.math.columbia.edu/tag/05QW)). Difference: all of these
-live in one additive category over one fixed coefficient ring, whereas the
-statement here concerns the filtered colimit $\mathcal P_T$ with its
-$\Qlb$-scalar action.
-
 ## Proof
 
 The scalar operation of [def-weil-pbc-qbar-category] is independent of $N$:

@@ -71,11 +71,3 @@ the case of relative dimension $\le1$, whose affine-line core
 is [sk-thm-dl-a1-upper] of §[sec-deligne-laumon-a1] and whose
 real-sheaf input is [sk-p-real-purity] of
 §[sec-purity-real-sheaves].
-
-Consequently the zeta layer's use of clause (5) through
-[sk-prop-rootpurity] rests on [sk-thm-trace-formula],
-[sk-thm-poincare-duality] and [sk-thm-dl-general-sheaf] alone. In the
-detailed source the packaged statement is `thm-weil-deligne-purity`,
-with the relative estimate `thm-zl-wme-deligne-estimate`.
-
-Uses: [sk-cor-dl-general-complex], [sk-d-dl-general-weights], [sk-d-real-weights], [sk-def-cohfamily], [sk-def-roots], [sk-p-real-purity], [sk-prop-sf-comp-proper], [sk-prop-smooth-proper-purity], [sk-thm-dl-a1-upper], [sk-thm-dl-general-sheaf], [sk-thm-poincare-duality]

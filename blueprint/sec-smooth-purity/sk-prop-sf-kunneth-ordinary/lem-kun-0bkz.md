@@ -11,9 +11,7 @@ admits a covering by objects of $\mathcal B$, and (2)
 $H^p(U_{\Et},\mathcal H^q(K))=0$ for all $p>0$, all
 $q\in\mathbf Z$, and all $U\in\mathcal B$. Then
 $H^q(U_{\Et},K)=H^0(U_{\Et},\mathcal H^q(K))$ for all $q$ and all
-$U\in\mathcal B$. (*Source:* Stacks Project,
-[Tag
-`0BKZ`](https://stacks.math.columbia.edu/tag/0BKZ).)
+$U\in\mathcal B$.
 
 ## Proof
 
