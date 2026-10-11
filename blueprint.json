@@ -91583,7 +91583,8 @@
     "tags": ["sketch"],
     "order": 1962,
     "lean":
-    ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpaceZero"]}},
+    ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpaceZero",
+     "AlgebraicGeometry.Etale.isIso_supportedClassMap_kummerBoundaryProduct_coord"]}},
   {"source":
    {"file":
     "blueprint/sec-abelian-varieties/sk-prop-av-ample-positive/_section.md",
@@ -305858,6 +305859,8 @@
     "CategoryTheory.GrothendieckTopology.Point.ulift",
     "IsSepClosed"],
    "axioms": ["Classical.choice", "Quot.sound", "propext"]},
+  "AlgebraicGeometry.Etale.isIso_supportedClassMap_kummerBoundaryProduct_coord":
+  {"exists": false},
   "AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekAdjunction_unit_app":
   {"valueDeps":
    ["AlgebraicGeometry.Etale.rightDerivedLowerShriek",
@@ -312037,7 +312040,7 @@
    "sk-prop-av-connected-order": "stated",
    "sk-prop-av-char": "stated",
    "sk-prop-av-ample-positive": "stated",
-   "sk-prop-an": "stated",
+   "sk-prop-an": "missing",
    "sk-prop-a1-kummer": "stated",
    "sk-prop-a1-inv": "stated",
    "sk-prop-a1": "stated",
@@ -320217,6 +320220,11 @@
    {"objects": ["sk-p-trace-coeff"],
     "message":
     "blueprint/sec-trace-formula/sk-p-trace-coeff/_section.md: 'sk-p-trace-coeff' names 'AlgebraicGeometry.ProEtale.nonempty_leftDerivedUpperStar_comp_iso', which does not exist in the Lean environment",
+    "level": "error",
+    "code": "missing-lean"},
+   {"objects": ["sk-prop-an"],
+    "message":
+    "blueprint/sec-smooth-purity/sk-prop-an/_section.md: 'sk-prop-an' names 'AlgebraicGeometry.Etale.isIso_supportedClassMap_kummerBoundaryProduct_coord', which does not exist in the Lean environment",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["sk-prop-base-change"],
@@ -339876,57 +339884,57 @@
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-an", "def-kun-separably-closed"],
     "message":
-    "Lean shows the statement of 'sk-prop-an' depends on 'def-kun-separably-closed', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-an' depends on 'def-kun-separably-closed', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-an", "def-nagata-compactifiable"],
     "message":
-    "Lean shows the statement of 'sk-prop-an' depends on 'def-nagata-compactifiable', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-an' depends on 'def-nagata-compactifiable', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-an", "def-nagata-compactification"],
     "message":
-    "Lean shows the statement of 'sk-prop-an' depends on 'def-nagata-compactification', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-an' depends on 'def-nagata-compactification', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-an", "def-nagata-relative-affine-space"],
     "message":
-    "Lean shows the statement of 'sk-prop-an' depends on 'def-nagata-relative-affine-space', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-an' depends on 'def-nagata-relative-affine-space', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-an", "def-sf-setting"],
     "message":
-    "Lean shows the statement of 'sk-prop-an' depends on 'def-sf-setting', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-an' depends on 'def-sf-setting', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-an", "lemma-openclosed-point-ulift"],
     "message":
-    "Lean shows the statement of 'sk-prop-an' depends on 'lemma-openclosed-point-ulift', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-an' depends on 'lemma-openclosed-point-ulift', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-an", "lemma-openclosed-stalk-upperstar"],
     "message":
-    "Lean shows the statement of 'sk-prop-an' depends on 'lemma-openclosed-stalk-upperstar', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-an' depends on 'lemma-openclosed-stalk-upperstar', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-an", "sk-def-conv"],
     "message":
-    "Lean shows the statement of 'sk-prop-an' depends on 'sk-def-conv', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-an' depends on 'sk-def-conv', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-an", "sk-def-nagata-sketch-data"],
     "message":
-    "Lean shows the statement of 'sk-prop-an' depends on 'sk-def-nagata-sketch-data', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-an' depends on 'sk-def-nagata-sketch-data', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-an", "sk-def-sf-operations"],
     "message":
-    "Lean shows the statement of 'sk-prop-an' depends on 'sk-def-sf-operations', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-an' depends on 'sk-def-sf-operations', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-an", "sk-def-sf-setting"],
     "message":
-    "Lean shows the statement of 'sk-prop-an' depends on 'sk-def-sf-setting', but no 'uses' edge declares it",
+    "Lean shows 'sk-prop-an' depends on 'sk-def-sf-setting', but no 'uses' edge declares it",
     "level": "warning",
     "code": "actual-not-declared"},
    {"objects": ["sk-prop-av-ample-positive", "def-sc-ample"],
