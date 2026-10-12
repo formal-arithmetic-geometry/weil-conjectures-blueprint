@@ -8301,7 +8301,7 @@
    "attrs": {"title": "Geometric Frobenius action", "order": 2409}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-absolute-frobenius-scheme.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-absolute-frobenius-scheme.md",
     "anonymous": false},
    "kind": "definition",
    "id": "def-weil-absolute-frobenius-scheme",
@@ -8973,7 +8973,7 @@
     "lean": ["IsLocallyClosed"]}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-locally-ringed-space-morphism.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-locally-ringed-space-morphism.md",
     "anonymous": false},
    "kind": "definition",
    "id": "def-weil-locally-ringed-space-morphism",
@@ -10469,7 +10469,8 @@
     "tags": ["sheaf-dag", "mathlib"],
     "lean": ["AlgebraicGeometry.Scheme.residueField"]}},
   {"source":
-   {"file": "blueprint/sec-smooth-purity/sk-unknown/def-weil-ring-frobenius.md",
+   {"file":
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-ring-frobenius.md",
     "anonymous": false},
    "kind": "definition",
    "id": "def-weil-ring-frobenius",
@@ -10484,7 +10485,7 @@
     "lean": ["frobenius, iterateFrobenius"]}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-scheme-characteristic-p.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-scheme-characteristic-p.md",
     "anonymous": false},
    "kind": "definition",
    "id": "def-weil-scheme-characteristic-p",
@@ -21151,7 +21152,7 @@
    "attrs": {"title": "Weight shift under a Tate twist", "order": 2962}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/lem-weil-absolute-frobenius-well-defined.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/lem-weil-absolute-frobenius-well-defined.md",
     "anonymous": false},
    "kind": "lemma",
    "id": "lem-weil-absolute-frobenius-well-defined",
@@ -30498,7 +30499,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "cor-a1-fourier-middle-hc1"}],
    "body":
-   "*Step 1: the transform of the middle extension.* Since $\\psi$ is\nnontrivial and $\\mathcal M$ is an irreducible (in particular nonzero)\nlisse Weil sheaf which is nonexceptional in the above sense,\n[prop-a1-fourier-middle-extension] supplies a dense open\n$j':U'_0\\hookrightarrow\\mathbf A^1_{k_0}$ of the dual line and a nonzero\nirreducible lisse Weil sheaf $\\mathcal M'$ on $U'_0$ with\n\n$$\n\\operatorname{FT}_\\psi\\bigl((j_*\\mathcal M)[1]\\bigr)\\cong(j'_*\\mathcal M')[1].\n$$\n\n*Step 2: the weight of $\\mathcal M'$.* Since $\\mathcal M$ is moreover\npunctually $\\iota$-pure of weight $w$, the last assertion of\n[cor-fd-l2-plancherel-middle-extension] shows that $\\mathcal M'$ is\npunctually $\\iota$-pure of weight exactly $w+1$ on all of $U'_0$.\n\n*Step 3: weights of the middle extension on the dual line.* The dual\nline is a smooth geometrically connected affine curve, and\n$\\mathcal M'$ is a nonzero lisse Weil sheaf on the dense open $U'_0$\nall of whose closed-point Frobenius eigenvalues satisfy\n$|\\iota(\\alpha)|^2=q_x^{w+1}\\le q_x^{w+1}$. Boundary semicontinuity\n[lem-wf-boundary-semicontinuity], with $\\beta=w+1$, shows that the\nmiddle extension $j'_*\\mathcal M'$ of [def-wf-middle-extension] has\npunctual weights at most $w+1$ at every closed point of the dual line,\nincluding the finitely many points outside $U'_0$, where it may be\nsingular.\n\n*Step 4: the origin fibre.* By the stationary-phase identification\n[cor-fd-origin-stationary-phase], applied to the pair $(j',\\mathcal M')$\nof Step 1, whose middle extension is the transform of that of\n$\\mathcal M$, there is a Frobenius-equivariant isomorphism\n\n$$\nH_c^1(\\mathbf A^1_{k_0},j_*\\mathcal M)\\cong(j'_*\\mathcal M')_{0'},\n$$\n\nthe geometric Frobenius of $k_0$ on the left corresponding to the local\nFrobenius $F_{0'}$ at the $k_0$-rational point $0'$ on the right. Hence\nthe eigenvalues of Frobenius on $H_c^1(\\mathbf A^1_{k_0},j_*\\mathcal M)$\nare those of $F_{0'}$ on the stalk, and by Step 3 (with $q_{0'}=q$)\neach of them satisfies $|\\iota(\\alpha)|^2\\le q^{w+1}$. In the\nconvention of [def-weil-punctual-weights], this says that\n$H_c^1(\\mathbf A^1_{k_0},j_*\\mathcal M)$ has weights at most $w+1$.",
+   "*Step 1: the transform of the middle extension.* The hypothesis\n[def-fd-nonexceptional] excludes, after geometric base change, a\nconstant sheaf up to a constant Weil twist; so $\\mathcal M$ is not\ngeometrically constant. Being nonzero, irreducible and unramified at\ninfinity, $\\mathcal M$ is therefore constituent-nonexceptional by\n[lem-a1-unramified-nonexceptional], and\n[prop-a1-fourier-middle-extension] supplies a dense open\n$j':U'_0\\hookrightarrow\\mathbf A^1_{k_0}$ of the dual line and a nonzero\nirreducible lisse Weil sheaf $\\mathcal M'$ on $U'_0$ with\n\n$$\n\\operatorname{FT}_\\psi\\bigl((j_*\\mathcal M)[1]\\bigr)\\cong(j'_*\\mathcal M')[1].\n$$\n\n*Step 2: the weight of $\\mathcal M'$.* Since $\\mathcal M$ is moreover\npunctually $\\iota$-pure of weight $w$, the last assertion of\n[cor-fd-l2-plancherel-middle-extension] shows that $\\mathcal M'$ is\npunctually $\\iota$-pure of weight exactly $w+1$ on all of $U'_0$.\n\n*Step 3: weights of the middle extension on the dual line.* The dual\nline is a smooth geometrically connected affine curve, and\n$\\mathcal M'$ is a nonzero lisse Weil sheaf on the dense open $U'_0$\nall of whose closed-point Frobenius eigenvalues satisfy\n$|\\iota(\\alpha)|^2=q_x^{w+1}\\le q_x^{w+1}$. Boundary semicontinuity\n[lem-wf-boundary-semicontinuity], with $\\beta=w+1$, shows that the\nmiddle extension $j'_*\\mathcal M'$ of [def-wf-middle-extension] has\npunctual weights at most $w+1$ at every closed point of the dual line,\nincluding the finitely many points outside $U'_0$, where it may be\nsingular.\n\n*Step 4: the origin fibre.* By the stationary-phase identification\n[cor-fd-origin-stationary-phase], whose hypotheses are those of the\npresent statement, there is a Frobenius-equivariant isomorphism\n\n$$\nH_c^1(\\mathbf A^1_{k_0},j_*\\mathcal M)\\cong(j'_*\\mathcal M')_{0'},\n$$\n\nthe geometric Frobenius of $k_0$ on the left corresponding to the local\nFrobenius $F_{0'}$ at the $k_0$-rational point $0'$ on the right. Hence\nthe eigenvalues of Frobenius on $H_c^1(\\mathbf A^1_{k_0},j_*\\mathcal M)$\nare those of $F_{0'}$ on the stalk, and by Step 3 (with $q_{0'}=q$)\neach of them satisfies $|\\iota(\\alpha)|^2\\le q^{w+1}$. In the\nconvention of [def-weil-punctual-weights], this says that\n$H_c^1(\\mathbf A^1_{k_0},j_*\\mathcal M)$ has weights at most $w+1$.\nThe irreducibility of the geometric fundamental representation of\n[def-wf-fundamental-representation] is not needed for this argument.",
    "attrs": {}},
   {"source":
    {"file":
@@ -30621,7 +30622,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "cor-fd-origin-stationary-phase"}],
    "body":
-   "By hypothesis there is an isomorphism of Weil complexes\n$\\operatorname{FT}_\\psi(j_{!*}\\mathcal M[1])\\cong j'_{!*}\\mathcal M'[1]=j'_*\\mathcal M'[1]$\n([def-wf-middle-extension]); no other property of $\\mathcal M$,\n$\\mathcal M'$ or $\\psi$ is used. (Such a pair exists, with\n$\\mathcal M'$ irreducible, when $\\psi$ is nontrivial and $\\mathcal M$ is\nirreducible and constituent-nonexceptional, by\n[prop-a1-fourier-middle-extension]; for instance when $\\mathcal M$ is\nirreducible, unramified at infinity and not geometrically constant, by\n[lem-a1-unramified-nonexceptional].)\n\nThe first identification is [lem-fd-stalk-at-origin]: the fiber of\nthe transform at the origin is $R\\Gamma_c(\\mathbf A^1,j_*\\mathcal M[1])[1]$,\nwhose degree $-1$ part is $H_c^1(\\mathbf A^1_{k_0},j_*\\mathcal M)$,\nwhile its degree $0$ part is\n$H_c^2(\\mathbf A^1_{k_0},j_*\\mathcal M)$. This identification is\nFrobenius-equivariant. Indeed, the Weil structure of\n$\\operatorname{FT}_\\psi(K_0)$ is the one transported from those of\n$K_0$ and of the kernel of [def-fd-transform] through $p_1^*$,\n$\\otimes$ and $p_{2,!}$, and the isomorphism of\n[lem-fd-stalk-at-origin] at the rational point $0'$ is composed of\nthe base change isomorphism for $p_{2,!}$ along\n$0'\\hookrightarrow V^\\vee$ and the trivialisation of the kernel on\nthe fibre $\\mathbf A^1\\times\\{0'\\}$ (the kernel of the zero function\n$x\\cdot0$ is the constant Weil sheaf). Both are natural isomorphisms\ndefined over $k_0$, so they commute with the Weil descent data, and the\nstalk Frobenius $F_{0'}$ of the transform corresponds to the geometric\nFrobenius on $R\\Gamma_c(\\mathbf A^1_{k_0},j_*\\mathcal M)$.\n\nFor the second identification, the transformed object has the shape\n$j'_*\\mathcal M'[1]$ of [def-wf-middle-extension], a single\nsheaf placed in degree $-1$; its fiber at the point $0'$ of the dual\nline is therefore concentrated in degree $-1$, where it is the stalk\n$(j'_*\\mathcal M')_{0'}$, and the isomorphism of Weil complexes above\ninduces a Frobenius-equivariant isomorphism of the fibres at the\nrational point $0'$. Comparing the two descriptions of the same fiber\ngives $H_c^1(\\mathbf A^1_{k_0},j_*\\mathcal M)\\cong(j'_*\\mathcal M')_{0'}$\nequivariantly, and $H_c^2(\\mathbf A^1_{k_0},j_*\\mathcal M)=0$\nbecause the degree $0$ part vanishes. If $0'\\notin U'_0$, the\nboundary-stalk description of\n[lem-wf-boundary-stalk-invariants] gives\n$(j'_*\\mathcal M')_{0'}=\\bigl(\\mathcal M'_{\\bar\\eta}\\bigr)^{I_{0'}}$,\nFrobenius-equivariantly; if $0'\\in U'_0$, the inertia $I_{0'}$ acts\ntrivially on the lisse sheaf $\\mathcal M'$ and the stalk is\n$\\mathcal M'_{\\bar\\eta}=(\\mathcal M'_{\\bar\\eta})^{I_{0'}}$. All\ncohomology is in the compact-support convention of\n[def-weil-ordinary-compact-cohomology].",
+   "The shape: Fourier-nonexceptionality says in particular that\n$\\mathcal M$ is not geometrically constant, so, being unramified at\ninfinity, $\\mathcal M$ is constituent-nonexceptional by\n[lem-a1-unramified-nonexceptional], and\n[prop-a1-fourier-middle-extension] gives an isomorphism of Weil\ncomplexes\n$\\operatorname{FT}_\\psi(j_{!*}\\mathcal M[1])\\cong j'_{!*}\\mathcal M'[1]=j'_*\\mathcal M'[1]$\nwith $\\mathcal M'$ nonzero, irreducible and lisse.\n\nThe first identification is [lem-fd-stalk-at-origin]: the fiber of\nthe transform at the origin is $R\\Gamma_c(\\mathbf A^1,j_*\\mathcal M[1])[1]$,\nwhose degree $-1$ part is $H_c^1(\\mathbf A^1_{k_0},j_*\\mathcal M)$,\nwhile its degree $0$ part is\n$H_c^2(\\mathbf A^1_{k_0},j_*\\mathcal M)$. This identification is\nFrobenius-equivariant. Indeed, the Weil structure of\n$\\operatorname{FT}_\\psi(K_0)$ is the one transported from those of\n$K_0$ and of the kernel of [def-fd-transform] through $p_1^*$,\n$\\otimes$ and $p_{2,!}$, and the isomorphism of\n[lem-fd-stalk-at-origin] at the rational point $0'$ is composed of\nthe base change isomorphism for $p_{2,!}$ along\n$0'\\hookrightarrow V^\\vee$ and the trivialisation of the kernel on\nthe fibre $\\mathbf A^1\\times\\{0'\\}$ (the kernel of the zero function\n$x\\cdot0$ is the constant Weil sheaf). Both are natural isomorphisms\ndefined over $k_0$, so they commute with the Weil descent data, and the\nstalk Frobenius $F_{0'}$ of the transform corresponds to the geometric\nFrobenius on $R\\Gamma_c(\\mathbf A^1_{k_0},j_*\\mathcal M)$.\n\nFor the second identification, the transformed object has the shape\n$j'_*\\mathcal M'[1]$ of [def-wf-middle-extension], a single\nsheaf placed in degree $-1$; its fiber at the point $0'$ of the dual\nline is therefore concentrated in degree $-1$, where it is the stalk\n$(j'_*\\mathcal M')_{0'}$, and the isomorphism of Weil complexes above\ninduces a Frobenius-equivariant isomorphism of the fibres at the\nrational point $0'$. Comparing the two descriptions of the same fiber\ngives $H_c^1(\\mathbf A^1_{k_0},j_*\\mathcal M)\\cong(j'_*\\mathcal M')_{0'}$\nequivariantly, and $H_c^2(\\mathbf A^1_{k_0},j_*\\mathcal M)=0$\nbecause the degree $0$ part vanishes. If $0'\\notin U'_0$, the\nboundary-stalk description of\n[lem-wf-boundary-stalk-invariants] gives\n$(j'_*\\mathcal M')_{0'}=\\bigl(\\mathcal M'_{\\bar\\eta}\\bigr)^{I_{0'}}$,\nFrobenius-equivariantly; if $0'\\in U'_0$, the inertia $I_{0'}$ acts\ntrivially on the lisse sheaf $\\mathcal M'$ and the stalk is\n$\\mathcal M'_{\\bar\\eta}=(\\mathcal M'_{\\bar\\eta})^{I_{0'}}$. All\ncohomology is in the compact-support convention of\n[def-weil-ordinary-compact-cohomology].",
    "attrs": {}},
   {"source":
    {"file":
@@ -32995,7 +32996,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-a1-geometric-coinvariants-pure"}],
    "body":
-   "*Step 1: $X_0$ geometrically connected.* Write $U_0=X_0$, $U=X$. The\ngeometric subgroup $\\pi_1(U)$ of the Weil group of\n[def-wf-fundamental-representation] is normal, so the subspace of $V$\nspanned by the vectors $gv-v$, $g\\in\\pi_1(U)$, is stable under the Weil\ngroup and $V\\twoheadrightarrow W$ is a quotient Weil representation. On\n$W$ the geometric subgroup acts trivially, so the action of any element\nof degree one of the Weil group on $W$ is a single operator $F_W$,\nindependent of the chosen lift; an element of degree $d$ acts by\n$F_W^d$.\n\nIf $U_0$ is empty, $W=0$. Otherwise choose a closed point $x\\in U_0$\n(a maximal ideal of the coordinate ring of a nonempty affine open; its\nresidue field is finite over $\\mathbf F_q$ because $U_0$ is locally of\nfinite type) and put $d=[\\kappa(x):\\mathbf F_q]$. A local Frobenius\nat $x$ is an element of degree $d$ of the Weil group, and under the\nidentification of $V$ with the stalk $\\mathcal F_{\\bar x}$ it acts as\nthe operator $F_x$ of [def-weil-punctual-weights]. Hence\n$V\\twoheadrightarrow W$ is an $F_x$-equivariant quotient onto\n$(W,F_W^d)$. In a basis of $V$ extending a basis of the kernel, the\nmatrix of $F_x$ is block upper triangular ([p-linear-filtration]), so\nevery eigenvalue of $F_W^d$ is an eigenvalue of $F_x$ on\n$\\mathcal F_{\\bar x}$, and has $\\iota$-modulus\n$|\\kappa(x)|^{w/2}=q^{dw/2}$ by punctual purity\n([def-weil-punctual-weights]). If $\\lambda$ is an eigenvalue of $F_W$,\nthen $\\lambda^d$ is an eigenvalue of $F_W^d$, so\n$|\\iota(\\lambda)|^d=q^{dw/2}$ and $|\\iota(\\lambda)|=q^{w/2}$. Thus\n$(W,F_W)$ is $\\iota$-pure of weight $w$ in the sense of\n[def-weil-frobenius-module-weights].\n\n*Step 2: the general case.* Each connected component $X_{0,i}$ of $X_0$\nis open, locally of finite type, and contains a closed point $x$ with\nfinite residue field; the algebraic closure $k_i$ of $k_0$ in\n$\\Gamma(X_{0,i},\\mathcal O)$ embeds into $\\kappa(x)$, so it is a finite\nfield, of degree $d_i$ say, and $X_{0,i}$ is geometrically connected\nover $k_i$. Hence $X_{0,i}\\otimes_{k_0}k$ is the disjoint union of the\n$d_i$ connected schemes $X_{i,\\sigma}=X_{0,i}\\otimes_{k_i,\\sigma}k$,\n$\\sigma\\in\\operatorname{Hom}_{k_0}(k_i,k)$, permuted cyclically by the\nFrobenius, and $F^{d_i}$ preserves each $X_{i,\\sigma}$ and acts there as\nthe Frobenius of $X_{0,i}$ over $k_i$. Over $k_i$ the sheaf $\\mathcal F$\nis still punctually $\\iota$-pure of weight $w$, since $F_x$ and\n$q_x=|\\kappa(x)|$ do not depend on the base field.\n\nPut $\\Gamma=\\Gamma(X,\\mathcal F^\\vee)=\\prod_{i,\\sigma}\\Gamma(X_{i,\\sigma},\\mathcal F^\\vee)$.\nBy Step 1 applied over $k_i$, each $\\Gamma(X_{i,\\sigma},\\mathcal F^\\vee)$\nis the dual of a module pure of weight $w$ for $F^{d_i}$, so every\neigenvalue of $F^{d_i}$ on it has $\\iota$-modulus $q^{-d_iw/2}$. Let\n$\\mu$ be an eigenvalue of the Frobenius on $\\Gamma$, with eigenvector\n$s\\neq0$, and choose $(i,\\sigma)$ with $s|_{X_{i,\\sigma}}\\neq0$. Since\n$F^{d_i}$ maps $X_{i,\\sigma}$ to itself, comparing restrictions in\n$F^{d_i}s=\\mu^{d_i}s$ shows that $\\mu^{d_i}$ is an eigenvalue of $F^{d_i}$\non $\\Gamma(X_{i,\\sigma},\\mathcal F^\\vee)$, so $|\\iota(\\mu)|=q^{-w/2}$. The\neigenvalues of the dual Frobenius $F_W$ on $W=\\Gamma^\\vee$ are the\ninverses of those on $\\Gamma$, hence all have $\\iota$-modulus $q^{w/2}$:\n$(W,F_W)$ is $\\iota$-pure of weight $w$.",
+   "The geometric subgroup $\\pi_1(U)$ of the Weil group of\n[def-wf-fundamental-representation] is normal, so the subspace of $V$\nspanned by the vectors $gv-v$, $g\\in\\pi_1(U)$, is stable under the Weil\ngroup and $V\\twoheadrightarrow W$ is a quotient Weil representation. On\n$W$ the geometric subgroup acts trivially, so the action of any element\nof degree one of the Weil group on $W$ is a single operator $F_W$,\nindependent of the chosen lift; an element of degree $d$ acts by\n$F_W^d$.\n\nChoose a closed point $x\\in U_0$ (a maximal ideal of the coordinate\nring of a nonempty affine open; its residue field is finite over\n$\\mathbf F_q$) and put $d=[\\kappa(x):\\mathbf F_q]$. A local Frobenius\nat $x$ is an element of degree $d$ of the Weil group, and under the\nidentification of $V$ with the stalk $\\mathcal F_{\\bar x}$ it acts as\nthe operator $F_x$ of [def-weil-punctual-weights]. Hence\n$V\\twoheadrightarrow W$ is an $F_x$-equivariant quotient onto\n$(W,F_W^d)$. In a basis of $V$ extending a basis of the kernel, the\nmatrix of $F_x$ is block upper triangular ([p-linear-filtration]), so\nevery eigenvalue of $F_W^d$ is an eigenvalue of $F_x$ on\n$\\mathcal F_{\\bar x}$, and has $\\iota$-modulus\n$|\\kappa(x)|^{w/2}=q^{dw/2}$ by punctual purity\n([def-weil-punctual-weights]). If $\\lambda$ is an eigenvalue of $F_W$,\nthen $\\lambda^d$ is an eigenvalue of $F_W^d$, so\n$|\\iota(\\lambda)|^d=q^{dw/2}$ and $|\\iota(\\lambda)|=q^{w/2}$. Thus\n$(W,F_W)$ is $\\iota$-pure of weight $w$ in the sense of\n[def-weil-frobenius-module-weights].",
    "attrs": {}},
   {"source":
    {"file":
@@ -33028,7 +33029,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-a1-local-boundary-duality"}],
    "body":
-   "Work on the geometric curves with $\\Qlb$-coefficients and the Weil\nstructures of [lem-fix-weil-operations]. The Verdier duals, their\nbiduality, the exceptional functors $Ri^!$ of\n[def-weil-exceptional-inverse-image] with $Ri_!=Ri_*\\dashv Ri^!$,\nand the identity $Rf^!=\\mathbb D_Xf^*\\mathbb D_Y$ are those of\n[thm-coef-qbar-verdier]. Smooth purity\n[thm-pur-rational-and-qbar-purity] for the structure map of $U$\ngives $\\omega_U\\simeq\\Qlb(1)[2]$, hence, $F$ being lisse,\n$\\mathbb D_UF\\simeq F^\\vee(1)[2]$ (the dual of a lisse sheaf is the\nfinite-rank coefficient dual; see [def-wf-tate-twist] for the twist).\n\n*Step 1: $\\mathbb D_CRj_*\\simeq j_!\\mathbb D_U$.* The exchange\n[fix-cor-verdier-exchange] for $f=j$ gives\n$\\mathbb D_C(j_!M)\\simeq Rj_*\\mathbb D_UM$. Put\n$M=\\mathbb D_UG$ for a constructible $G$ on $U$; biduality on $U$\ngives $Rj_*G\\simeq\\mathbb D_Cj_!\\mathbb D_UG$. In particular\n$Rj_*G$ is bounded constructible, and applying $\\mathbb D_C$ and\nbiduality on $C$ gives $\\mathbb D_CRj_*G\\simeq j_!\\mathbb D_UG$.\n\n*Step 2: $\\mathbb D_Zi^*\\simeq Ri^!\\mathbb D_C$.* By\n[thm-coef-qbar-verdier], $Ri^!=\\mathbb D_Zi^*\\mathbb D_C$, so\nbiduality on $C$ gives\n$Ri^!\\mathbb D_CK\\simeq\\mathbb D_Zi^*K$ for constructible $K$.\n\n*Step 3: $Ri^!j_!G\\simeq i^*Rj_*G[-1]$.* First\n$Ri^!Rj_*G=0$: for every $N$ on $Z$,\n\n$$\n\\operatorname{Hom}(N,Ri^!Rj_*G)\n\\cong\\operatorname{Hom}(i_*N,Rj_*G)\n\\cong\\operatorname{Hom}(j^*i_*N,G)=0,\n$$\n\nsince $j^*i_*=0$, and Yoneda applies. Next, the open–closed\nrecollement triangle ([def-weil-open-closed-recollement]), which exists at $\\Qlb$ with Weil-equivariant arrows by [prop-sf-open-closed-triangle-all-stages] (at a finite stage it is [lem-cbc-open-closed-recollement]), for $K=Rj_*G$, with\n$j^*Rj_*G\\simeq G$ by the unit/counit identities of\n[prop-weil-open-closed-recollement-adjunctions], reads\n\n$$\nj_!G\\longrightarrow Rj_*G\\longrightarrow i_*i^*Rj_*G\n\\xrightarrow{+1}.\n$$\n\nApply the exact functor $Ri^!$. The middle term vanishes, and the\nclosed-immersion unit $Q\\xrightarrow{\\sim}Ri^!Ri_*Q$ at $\\Qlb$,\nclause (4) of [prop-sf-localization-all-stages] (from the full faithfulness of\n[prop-sf-closed-unit-all-stages]; at a finite stage it is\n[prop-sf-closed-immersion-unit]), identifies the third term with\n$i^*Rj_*G$. Hence $Ri^!j_!G\\simeq i^*Rj_*G[-1]$.\n\n*Step 4: the isomorphism.* Combining the steps with\n$G=\\mathbb D_UF\\simeq F^\\vee(1)[2]$,\n\n$$\n\\begin{aligned}\n\\mathbb D_ZA(F)\n&\\simeq Ri^!\\mathbb D_CRj_*F\n\\simeq Ri^!j_!\\mathbb D_UF\\\\\n&\\simeq i^*Rj_*(\\mathbb D_UF)[-1]\n\\simeq A(F^\\vee)(1)[1].\n\\end{aligned}\n$$\n\n*Step 5: the stalks.* The reduced scheme $Z$ is finite over the\nalgebraically closed field $k$, hence a finite disjoint union of\ncopies of $\\operatorname{Spec}k$, smooth of dimension zero. Smooth\npurity [thm-pur-rational-and-qbar-purity] in dimension zero gives\n$\\omega_Z=\\Qlb$, so on the component $\\bar s$ the functor\n$\\mathbb D_Z$ is $R\\operatorname{Hom}_{\\Qlb}(-,\\Qlb)$ on bounded\ncomplexes of finite-dimensional spaces. By\n[lem-pod-cohomology-of-dual-over-field] (at a finite coefficient\nfield over which the stalk complex is defined, then extended to\n$\\Qlb$),\n\n$$\nH^{-1}\\bigl(\\mathbb D_ZA(F)\\bigr)_{\\bar s}\n\\simeq H^1(A(F)_{\\bar s})^\\vee=(R^1j_*F)_{\\bar s}^\\vee.\n$$\n\nOn the other side,\n$H^{-1}\\bigl(A(F^\\vee)(1)[1]\\bigr)_{\\bar s}\n=H^0\\bigl(Rj_*F^\\vee\\bigr)_{\\bar s}(1)=(j_*F^\\vee)_{\\bar s}(1)$,\nbecause the ordinary direct image is $\\mathcal H^0$ of the derived\none. This is the asserted isomorphism; its transpose is the\nasserted perfect pairing, the twist $(1)$ on one side becoming\n$(-1)$ in the target.\n\n*Frobenius equivariance.* Every map used is built from pullbacks,\ndirect images, internal Hom, evaluation, adjunction units and counits,\nand exchange maps, all Weil-equivariant by\n[lem-fix-weil-operations], together with the smooth-purity\norientations, whose equivariance and trace compatibility are\n[prop-pur-rational-purity-trace-coherence]. Hence the isomorphism of\nStep 4 is one of Weil complexes on $Z_0$, and its stalk at $\\bar s$\ncommutes with $F_s$; the twists carry their prescribed Frobenius\nactions. Concretely, let $e:(j_*F^\\vee)_{\\bar s}\\to(R^1j_*F)_{\\bar s}^\\vee$\nbe the linear isomorphism underlying the stalk isomorphism of Step 5.\nThe local Frobenius acts on $(j_*F^\\vee)_{\\bar s}(1)$ as $q_s^{-1}F_s$\nand on the dual $(R^1j_*F)_{\\bar s}^\\vee$ contragrediently, so\nequivariance reads $e(q_s^{-1}F_sa)=e(a)\\circ F_s^{-1}$, that is,\n$e(F_sa)(F_sb)=q_s\\,e(a)(b)$ for all $a,b$.",
+   "Work on the geometric curves with $\\Qlb$-coefficients and the Weil\nstructures of [lem-fix-weil-operations]. The Verdier duals, their\nbiduality, the exceptional functors $Ri^!$ of\n[def-weil-exceptional-inverse-image] with $Ri_!=Ri_*\\dashv Ri^!$,\nand the identity $Rf^!=\\mathbb D_Xf^*\\mathbb D_Y$ are those of\n[thm-coef-qbar-verdier]. Smooth purity\n[thm-pur-rational-and-qbar-purity] for the structure map of $U$\ngives $\\omega_U\\simeq\\Qlb(1)[2]$, hence, $F$ being lisse,\n$\\mathbb D_UF\\simeq F^\\vee(1)[2]$ (the dual of a lisse sheaf is the\nfinite-rank coefficient dual; see [def-wf-tate-twist] for the twist).\n\n*Step 1: $\\mathbb D_CRj_*\\simeq j_!\\mathbb D_U$.* The exchange\n[fix-cor-verdier-exchange] for $f=j$ gives\n$\\mathbb D_C(j_!M)\\simeq Rj_*\\mathbb D_UM$. Put\n$M=\\mathbb D_UG$ for a constructible $G$ on $U$; biduality on $U$\ngives $Rj_*G\\simeq\\mathbb D_Cj_!\\mathbb D_UG$. In particular\n$Rj_*G$ is bounded constructible, and applying $\\mathbb D_C$ and\nbiduality on $C$ gives $\\mathbb D_CRj_*G\\simeq j_!\\mathbb D_UG$.\n\n*Step 2: $\\mathbb D_Zi^*\\simeq Ri^!\\mathbb D_C$.* By\n[thm-coef-qbar-verdier], $Ri^!=\\mathbb D_Zi^*\\mathbb D_C$, so\nbiduality on $C$ gives\n$Ri^!\\mathbb D_CK\\simeq\\mathbb D_Zi^*K$ for constructible $K$.\n\n*Step 3: $Ri^!j_!G\\simeq i^*Rj_*G[-1]$.* First\n$Ri^!Rj_*G=0$: for every $N$ on $Z$,\n\n$$\n\\operatorname{Hom}(N,Ri^!Rj_*G)\n\\cong\\operatorname{Hom}(i_*N,Rj_*G)\n\\cong\\operatorname{Hom}(j^*i_*N,G)=0,\n$$\n\nsince $j^*i_*=0$, and Yoneda applies. Next, the open–closed\nrecollement triangle ([def-weil-open-closed-recollement]), which exists at $\\Qlb$ with Weil-equivariant arrows by [prop-sf-open-closed-triangle-all-stages] (at a finite stage it is [lem-cbc-open-closed-recollement]), for $K=Rj_*G$, with\n$j^*Rj_*G\\simeq G$ by the unit/counit identities of\n[prop-weil-open-closed-recollement-adjunctions], reads\n\n$$\nj_!G\\longrightarrow Rj_*G\\longrightarrow i_*i^*Rj_*G\n\\xrightarrow{+1}.\n$$\n\nApply the exact functor $Ri^!$. The middle term vanishes, and the\nclosed-immersion unit $Q\\xrightarrow{\\sim}Ri^!Ri_*Q$ at $\\Qlb$,\nclause (4) of [prop-sf-localization-all-stages] (from the full faithfulness of\n[prop-sf-closed-unit-all-stages]; at a finite stage it is\n[prop-sf-closed-immersion-unit]), identifies the third term with\n$i^*Rj_*G$. Hence $Ri^!j_!G\\simeq i^*Rj_*G[-1]$.\n\n*Step 4: the isomorphism.* Combining the steps with\n$G=\\mathbb D_UF\\simeq F^\\vee(1)[2]$,\n\n$$\n\\begin{aligned}\n\\mathbb D_ZA(F)\n&\\simeq Ri^!\\mathbb D_CRj_*F\n\\simeq Ri^!j_!\\mathbb D_UF\\\\\n&\\simeq i^*Rj_*(\\mathbb D_UF)[-1]\n\\simeq A(F^\\vee)(1)[1].\n\\end{aligned}\n$$\n\n*Step 5: the stalks.* The reduced scheme $Z$ is finite over the\nalgebraically closed field $k$, hence a finite disjoint union of\ncopies of $\\operatorname{Spec}k$, smooth of dimension zero. Smooth\npurity [thm-pur-rational-and-qbar-purity] in dimension zero gives\n$\\omega_Z=\\Qlb$, so on the component $\\bar s$ the functor\n$\\mathbb D_Z$ is $R\\operatorname{Hom}_{\\Qlb}(-,\\Qlb)$ on bounded\ncomplexes of finite-dimensional spaces. By\n[lem-pod-cohomology-of-dual-over-field] (at a finite coefficient\nfield over which the stalk complex is defined, then extended to\n$\\Qlb$),\n\n$$\nH^{-1}\\bigl(\\mathbb D_ZA(F)\\bigr)_{\\bar s}\n\\simeq H^1(A(F)_{\\bar s})^\\vee=(R^1j_*F)_{\\bar s}^\\vee.\n$$\n\nOn the other side,\n$H^{-1}\\bigl(A(F^\\vee)(1)[1]\\bigr)_{\\bar s}\n=H^0\\bigl(Rj_*F^\\vee\\bigr)_{\\bar s}(1)=(j_*F^\\vee)_{\\bar s}(1)$,\nbecause the ordinary direct image is $\\mathcal H^0$ of the derived\none. This is the asserted isomorphism; its transpose is the\nasserted perfect pairing, the twist $(1)$ on one side becoming\n$(-1)$ in the target.\n\n*Frobenius equivariance.* Every map used is built from pullbacks,\ndirect images, internal Hom, evaluation, adjunction units and counits,\nand exchange maps, all Weil-equivariant by\n[lem-fix-weil-operations], together with the smooth-purity\norientations, whose equivariance and trace compatibility are\n[prop-pur-rational-purity-trace-coherence]. Hence the isomorphism of\nStep 4 is one of Weil complexes on $Z_0$, and its stalk at $\\bar s$\ncommutes with $F_s$; the twists carry their prescribed Frobenius\nactions.",
    "attrs": {}},
   {"source":
    {"file":
@@ -41291,7 +41292,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-tw-punctual-rescaling"}],
    "body":
-   "Let $z$ be a closed point of $X'_0$ and $x=\\varphi(z)$, so that\n$\\kappa(x)\\subseteq\\kappa(z)$ are finite fields; put\n$r=[\\kappa(z):\\kappa(x)]$, so $q_z=q_x^r$. The stalk of\n$\\varphi^*\\mathcal F$ at a geometric point over $z$ is the stalk of\n$\\mathcal F$ at its image, and the local Frobenius of\n$\\varphi^*\\mathcal F$ at $z$ is $F_x^r$. Every eigenvalue of $F_x^r$ is\nof the form $\\beta^r$ with $\\beta$ an eigenvalue of $F_x$, and\n$|\\iota(\\beta)|=q_x^{w/2}$ by [def-weil-punctual-weights] on $X_0$.\nConsequently\n\n$$\n|\\iota(\\beta^r)|=q_x^{rw/2}=q_z^{w/2},\n$$\n\nwhich is the punctual weight condition at $z$.\n\nIn particular, let $h:X_0\\to Y_0$ be a finite-type morphism of\nfinite-type $k_0$-schemes, let $y\\in Y_0$ be a closed point with\n$m=[\\kappa(y):k_0]$, so $\\kappa(y)\\cong\\mathbf F_{q^m}$, and set\n\n$$\nX_y:=X_0\\times_{Y_0}\\operatorname{Spec}\\kappa(y).\n$$\n\nApplied to the closed immersion $X_y\\hookrightarrow X_0$, a closed\npoint $z$ of $X_y$ is the same closed point on $X_0$, with the same\nresidue field and the same local Frobenius ($r=1$). If\n$r'=[\\kappa(z):\\kappa(y)]$, then $q_z=q^{mr'}=(q^m)^{r'}$: residue\ncardinalities do not depend on the base field. So the restriction\n$\\mathcal F|_{X_y}$ is punctually pure of weight $w$ relative to\n$\\kappa(y)$ as well.",
+   "The inclusion $X_y\\hookrightarrow X_0$ is a closed immersion.\nThus a closed point $z$ of $X_y$ is the same closed point on\n$X_0$, with the same residue field and the same local Frobenius\noperator on the restricted stalk.\nIf $r=[\\kappa(z):\\kappa(y)]$, the tower of finite residue fields gives\n\n$$\n[\\kappa(z):k_0]=mr,\\qquad q_z=q^{mr}=(q^m)^r .\n$$\n\nConsequently an eigenvalue $\\alpha$ on that stalk satisfies\n\n$$\n|\\iota(\\alpha)|=q_z^{w/2}=(q^m)^{rw/2},\n$$\n\nby [def-weil-punctual-weights] on $X_0$.\nThis is the same punctual weight condition over $\\kappa(y)$.\nNo identification between the stalk at $z$ and a stalk at $y$\nis involved.",
    "attrs": {}},
   {"source":
    {"file":
@@ -42401,7 +42402,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-weil-pbc-mittag-leffler"}],
    "body":
-   "Descending chains of subgroups of a finite group stabilize, so the tower is\nMittag--Leffler and $\\varprojlim{}^1=0$ by the product-cokernel description\nof $\\varprojlim{}^1$ (Stacks, Tag\n[07KW](https://stacks.math.columbia.edu/tag/07KW): a Mittag--Leffler\nsystem is right acyclic for $\\lim$); the exact sequence of\n[prop-weil-pbc-roos-triangle] then identifies the Milnor map (Stacks, Tag\n[07KY](https://stacks.math.columbia.edu/tag/07KY)). Stacks states these\nfor towers of abelian groups; the argument applies verbatim to a tower of\nfinite abelian groups in the tower category over $T_{\\Proet}$, finiteness\nbeing what forces the Mittag--Leffler condition.",
+   "Descending chains of subgroups of a finite group stabilize, so the tower is\nMittag--Leffler and $\\varprojlim{}^1=0$ by the product-cokernel description\nof $\\varprojlim{}^1$; the exact sequence of\n[prop-weil-pbc-roos-triangle] then identifies the Milnor map.",
    "attrs": {}},
   {"source":
    {"file":
@@ -43462,7 +43463,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-wf-envelope-real"}],
    "body":
-   "At a closed point $y$, the local characteristic factor of the\nenvelope is the product of the local factors of the two summands, with\neigenvalues $\\beta_j$ (of $\\mathcal F^0_{\\bar y}$) and\n$\\beta_j^{-1}$ (of its dual), where\n$|\\iota(\\beta_j)|=1$: if $y$ has degree $m$, each $\\beta_j$ is\n$b^m\\alpha$ for an eigenvalue $\\alpha$ of $F_y$ on $\\mathcal F_{\\bar y}$,\nand $|\\iota(b^m\\alpha)|=q^{-mw/2}\\,q_y^{w/2}=1$ by the punctual purity of\n[def-weil-punctual-weights] and the normalization of $b$. Hence\n\n$$\n\\iota\\bigl(\\beta_j^{-1}\\bigr)=\\overline{\\iota(\\beta_j)}\n$$\n\n($\\overline z=|z|^2z^{-1}=z^{-1}$ for $|z|=1$), so the local\neigenvalue multiset is stable under complex conjugation; by\n[def-wf-iota-real] the envelope is $\\iota$-real.\n\nIf $\\mathcal F$ is lisse, then $\\mathcal F^0$, which has the same\nunderlying étale sheaf, is lisse, and so are its dual and the finite\ndirect sum $\\mathcal F^0\\oplus(\\mathcal F^0)^\\vee$, duals and finite\ndirect sums of locally constant sheaves of finite rank being locally\nconstant of finite rank.",
+   "At a closed point $y$, the local characteristic factor of the\nenvelope is the product of the local factors of the two summands, with\neigenvalues $\\beta_j$ (of $\\mathcal F^0_{\\bar y}$) and\n$\\beta_j^{-1}$ (of its dual), where\n$|\\iota(\\beta_j)|=q_y^{0}=1$ by the normalization of\n[def-wf-normalized-real-envelope] and the punctual purity of\nweight $0$ of [def-weil-punctual-weights]. Hence\n\n$$\n\\iota\\bigl(\\beta_j^{-1}\\bigr)=\\overline{\\iota(\\beta_j)}\n$$\n\n($\\overline z=|z|^2z^{-1}=z^{-1}$ for $|z|=1$), so the local\neigenvalue multiset is stable under complex conjugation; by\n[def-wf-iota-real] the envelope is $\\iota$-real.",
    "attrs": {}},
   {"source":
    {"file":
@@ -43829,7 +43830,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-zl-affine-partition"}],
    "body":
-   "By quasi-compactness, choose a finite affine open cover $U_1,\\ldots,U_m$.\nSet $S_i=U_i\\setminus\\bigcup_{j<i}U_j$, with its reduced\nclosed subscheme structure inside $U_i$.\nEach $S_i$ is affine, since it is closed in an affine scheme,\nand is locally closed in the sense of\n[def-weil-pbc-scheme-conventions]. Every point belongs\nto the piece indexed by the first $U_i$ containing it.\nHence these finitely many pieces are disjoint and cover $X$.",
+   "Choose a finite affine open cover $U_1,\\ldots,U_m$.\nSet $S_i=U_i\\setminus\\bigcup_{j<i}U_j$, with its reduced\nclosed subscheme structure inside $U_i$.\nEach $S_i$ is affine, since it is closed in an affine scheme,\nand is locally closed in the sense of\n[def-weil-pbc-scheme-conventions]. Every point belongs\nto the piece indexed by the first $U_i$ containing it.\nHence these finitely many pieces are disjoint and cover $X$.",
    "attrs": {}},
   {"source":
    {"file":
@@ -43840,7 +43841,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-zl-bertini-finite-cover-curve"}],
    "body":
-   "We spell out the geometric input. We use the ordinary Bertini lemmas\n[Stacks Project, Tag 0FD5](https://stacks.math.columbia.edu/tag/0FD5)\n(sections vanishing on a prescribed closed subscheme),\n[Tag 0FD6](https://stacks.math.columbia.edu/tag/0FD6)\n(smoothness), and\n[Tag 0G4F](https://stacks.math.columbia.edu/tag/0G4F)\n(geometric irreducibility of a linear system).\nThese are statements about schemes and linear systems, with no weight\nor monodromy hypothesis.\n\nSince $X_0$ is smooth, geometrically connected and affine of relative\ndimension $d$, the base change $X$ is a smooth connected affine\n$k$-scheme of dimension $d$. Embed $X$ in projective space and let $\\overline X$ be its\nprojective closure. For a sufficiently large $n$, let $V$ be\nthe space of sections of $\\mathcal O_{\\overline X}(n)$ vanishing\non the reduced finite subscheme $S$. Tag 0FD5 makes its base locus\non $X$ exactly $S$, and makes its associated map an immersion on\n$X\\setminus S$. Increasing $n$ if necessary makes\n\n$$\nV\\longrightarrow\\bigoplus_{s\\in S}\n(\\mathfrak m_s/\\mathfrak m_s^2)\\otimes\n\\mathcal O_{\\overline X}(n)|_s\n$$\n\nsurjective. Indeed, apply the usual eventual vanishing of coherent\n$H^1$ for an ample twist to the ideal of the union of the first\ninfinitesimal neighborhoods of these finitely many points. Thus\nnonzero first derivative at each $s$ is a nonempty open condition\non $V$. Tag 0FD6 on $X\\setminus S$, together with these finitely\nmany derivative conditions, makes a general member smooth everywhere\non $X$.\n\nFor completeness, the hypotheses of Tag 0G4F hold both on $X$ and\nfor the pulled-back linear system on $T$. Both schemes are smooth\nand connected over $k$, hence irreducible. The respective base\nloci are $S$ and its finite inverse image, of codimension at least\ntwo. Choose $x\\in X\\setminus S$. Since the linear system induces\nan immersion there, choose two sections vanishing at $x$ with\nindependent differentials, and a third section nonzero at $x$.\nThe common zero locus of the first two has a codimension-two component\nthrough $x$ not contained in the third divisor. At any point of\n$T$ above $x$, etaleness gives the same assertion for the\npulled-back sections. These verify the remaining hypothesis of\nTag 0G4F. A general member therefore cuts both $X$ and $T$\nin irreducible subschemes. Intersect the finitely many nonempty open\nconditions on the irreducible parameter space $V$, and choose a\n$k$-point in their intersection.\n\nThe resulting $X_1$ is a smooth connected closed affine subscheme\nof dimension $d-1$, contains $S$, and its inverse image $T_1$\nis connected and finite etale over it. Repeat this construction until\ndimension one. In dimension two the same argument applies, since\nthe finite base locus still has codimension two. This proves the\nclaim about $C$. All the finitely many defining equations and\nmorphisms involve only finitely many coefficients of $k$, so they\ndescend to one finite constant-field extension $\\mathbf F_{q^m}$:\n$C=C_m\\times_{\\mathbf F_{q^m}}k$ for a closed subscheme $C_m$ of\n$X_0\\times_{k_0}\\mathbf F_{q^m}$. Then $\\varphi=\\mathrm{id}_{C_m}\\times\\sigma^m$\nis an automorphism of $C$ with $i\\circ\\varphi=(\\mathrm{id}_{X_0}\\times\\sigma)^m\\circ i$.\nGeometric smoothness and connectedness are the properties just proved\nafter base change to $k$.",
+   "We spell out the geometric input. We use the ordinary Bertini lemmas\n[Stacks Project, Tag 0FD5](https://stacks.math.columbia.edu/tag/0FD5)\n(sections vanishing on a prescribed closed subscheme),\n[Tag 0FD6](https://stacks.math.columbia.edu/tag/0FD6)\n(smoothness), and\n[Tag 0G4F](https://stacks.math.columbia.edu/tag/0G4F)\n(geometric irreducibility of a linear system).\nThese are statements about schemes and linear systems, with no weight\nor monodromy hypothesis.\n\nEmbed $X$ in projective space and let $\\overline X$ be its\nprojective closure. For a sufficiently large $n$, let $V$ be\nthe space of sections of $\\mathcal O_{\\overline X}(n)$ vanishing\non the reduced finite subscheme $S$. Tag 0FD5 makes its base locus\non $X$ exactly $S$, and makes its associated map an immersion on\n$X\\setminus S$. Increasing $n$ if necessary makes\n\n$$\nV\\longrightarrow\\bigoplus_{s\\in S}\n(\\mathfrak m_s/\\mathfrak m_s^2)\\otimes\n\\mathcal O_{\\overline X}(n)|_s\n$$\n\nsurjective. Indeed, apply the usual eventual vanishing of coherent\n$H^1$ for an ample twist to the ideal of the union of the first\ninfinitesimal neighborhoods of these finitely many points. Thus\nnonzero first derivative at each $s$ is a nonempty open condition\non $V$. Tag 0FD6 on $X\\setminus S$, together with these finitely\nmany derivative conditions, makes a general member smooth everywhere\non $X$.\n\nFor completeness, the hypotheses of Tag 0G4F hold both on $X$ and\nfor the pulled-back linear system on $T$. Both schemes are smooth\nand connected over $k$, hence irreducible. The respective base\nloci are $S$ and its finite inverse image, of codimension at least\ntwo. Choose $x\\in X\\setminus S$. Since the linear system induces\nan immersion there, choose two sections vanishing at $x$ with\nindependent differentials, and a third section nonzero at $x$.\nThe common zero locus of the first two has a codimension-two component\nthrough $x$ not contained in the third divisor. At any point of\n$T$ above $x$, etaleness gives the same assertion for the\npulled-back sections. These verify the remaining hypothesis of\nTag 0G4F. A general member therefore cuts both $X$ and $T$\nin irreducible subschemes. Intersect the finitely many nonempty open\nconditions on the irreducible parameter space $V$, and choose a\n$k$-point in their intersection.\n\nThe resulting $X_1$ is a smooth connected closed affine subscheme\nof dimension $d-1$, contains $S$, and its inverse image $T_1$\nis connected and finite etale over it. Repeat this construction until\ndimension one. In dimension two the same argument applies, since\nthe finite base locus still has codimension two. This proves the\nclaim about $C$. Over $\\overline{\\mathbf F}_q$ all the finitely\nmany defining equations and morphisms involve only finitely many\ncoefficients, so descend to one finite constant-field extension.\nGeometric smoothness and connectedness are the properties just proved\nafter base change to $k$.",
    "attrs": {}},
   {"source":
    {"file":
@@ -43917,7 +43918,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-zl-finite-matrix-irreducibility"}],
    "body":
-   "First recall the elementary matrix-algebra argument behind Burnside's\nlemma. If a unital algebra $A\\subset\\operatorname{End}_k(W)$ acts\nirreducibly on a finite-dimensional vector space over an algebraically\nclosed field, Schur's lemma [lem-wf-schur-scalar] says\n$\\operatorname{End}_A(W)=k$. For linearly independent\n$w_1,\\ldots,w_r$, induction on $r$ shows that\n$A\\to W^r$, $a\\mapsto(aw_1,\\ldots,aw_r)$, is onto.\nFor the induction, its image projects onto $W^{r-1}$. The kernel\nin the last copy of $W$ is an $A$-submodule, hence is either\n$W$ or zero. In the latter case the image is the graph of an\n$A$-linear map $W^{r-1}\\to W$; Schur's lemma makes that map\n$(v_i)\\mapsto\\sum c_i v_i$. Applying it to the tuple furnished by\n$1\\in A$ contradicts the independence of the $w_i$.\nTaking a basis of $W$ proves $A=\\operatorname{End}_k(W)$.\n\nApply this to the span of $\\rho(\\Pi)$ after extending scalars from\n$E$ to $K$: the $K$-span of the matrices $\\rho(g)$ is all of\n$\\operatorname{End}_K(V\\otimes_EK)$. Hence the $E$-span already has\ndimension $n^2$, so choose $g_1,\\ldots,g_{n^2}\\in\\Pi$ whose matrices\nform an $E$-basis of $\\operatorname{End}_E(V)$.\n\nWrite the matrices in the basis $b$; their entries lie in\n$\\mathcal O$. The determinant $\\Delta$ of their $n^2$ vectorized\ncolumns is a nonzero element of $\\mathcal O$. Since $\\mathcal O$ is a\nNoetherian local domain, $\\bigcap_N\\mathfrak m^N=0$ by the Krull\nintersection theorem, so choose $N\\ge1$ with $\\Delta\\notin\\mathfrak m^N$.\nIf $\\Pi'$ is as in the statement, choose $h_j\\in\\Pi'$ whose matrices\nare congruent to those of $g_j$ modulo $\\mathfrak m^N$. Their column\ndeterminant $\\Delta'\\in\\mathcal O$ satisfies\n$\\Delta'\\equiv\\Delta\\pmod{\\mathfrak m^N}$, so $\\Delta'\\neq0$. Thus the\n$E$-span of $\\rho(\\Pi')$ is again the whole matrix algebra. The same is\ntrue after extending scalars to any field $K'\\supseteq E$, which\nexcludes any nonzero proper $\\Pi'$-invariant subspace of\n$V\\otimes_EK'$.\n\nIn the application, $E/\\mathbf Q_\\ell$ is finite, $\\mathcal O=\\mathcal O_E$,\nand $\\rho$ is a continuous representation of a profinite group.\nCompactness of $\\rho(\\Pi)$ supplies a basis $b$ as required (as in\n[p-real-integral]): for an initial lattice $L_0$, all its translates\nlie in $\\varpi_E^{-a}L_0$ for some $a$; their $\\mathcal O_E$-span is a\nfinitely generated torsion-free module containing $L_0$, and hence is a\nlattice $L$, stable under the whole group; take $b$ an\n$\\mathcal O_E$-basis of $L$. The congruence condition then says that\n$\\Pi'$ has the same image as $\\Pi$ on $L/\\varpi_E^NL$, and continuity\nensures that this reduction image is a finite quotient of $\\Pi$.",
+   "First recall the elementary matrix-algebra argument behind Burnside's\nlemma. If a unital algebra $A\\subset\\operatorname{End}_k(W)$ acts\nirreducibly on a finite-dimensional vector space over an algebraically\nclosed field, Schur's lemma [lem-wf-schur-scalar] says\n$\\operatorname{End}_A(W)=k$. For linearly independent\n$w_1,\\ldots,w_r$, induction on $r$ shows that\n$A\\to W^r$, $a\\mapsto(aw_1,\\ldots,aw_r)$, is onto.\nFor the induction, its image projects onto $W^{r-1}$. The kernel\nin the last copy of $W$ is an $A$-submodule, hence is either\n$W$ or zero. In the latter case the image is the graph of an\n$A$-linear map $W^{r-1}\\to W$; Schur's lemma makes that map\n$(v_i)\\mapsto\\sum c_i v_i$. Applying it to the tuple furnished by\n$1\\in A$ contradicts the independence of the $w_i$.\nTaking a basis of $W$ proves $A=\\operatorname{End}_k(W)$.\n\nApply this to the span of $\\rho(\\Pi)$ after extending scalars from\n$E$ to $\\Qlb$. The $E$-span already has dimension $n^2$,\nso choose $g_1,\\ldots,g_{n^2}\\in\\Pi$ whose matrices form an\n$E$-basis of $\\operatorname{End}_E(V)$.\nCompactness of $\\rho(\\Pi)$ supplies a stable lattice (as in [p-real-integral]): for an initial\nlattice $L_0$, all its translates lie in $\\varpi_E^{-a}L_0$\nfor some $a$; their $\\mathcal O_E$-span is a finitely generated\ntorsion-free module containing $L_0$, and hence is a lattice $L$.\nIt is stable under the whole group.\n\nWrite the matrices in a basis of $L$. The determinant $\\Delta$\nof their $n^2$ vectorized columns is a nonzero element of\n$\\mathcal O_E$. Choose $N>v_{\\varpi_E}(\\Delta)$.\nIf $\\Pi'$ has the same finite reduction image, choose\n$h_j\\in\\Pi'$ with\n$\\rho(h_j)\\equiv\\rho(g_j)\\pmod{\\varpi_E^N}$.\nTheir column determinant is congruent to $\\Delta$ modulo\n$\\varpi_E^N$, so is nonzero. Thus the $E$-span of\n$\\rho(\\Pi')$ is again the whole matrix algebra. The same is true\nafter extending scalars to $\\Qlb$, which excludes any nonzero\nproper invariant subspace. Continuity ensures that the reduction\nimage is a finite quotient of $\\Pi$.",
    "attrs": {}},
   {"source":
    {"file":
@@ -43939,7 +43940,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-zl-geometric-constituents-any-base"}],
    "body":
-   "Induction on $\\dim V$; for $V=0$ take $n=0$ and $m=1$. Let $V\\ne0$ and\nwrite $T=\\rho(F)$. Choose a nonzero $\\Pi$-stable subspace $U$ of minimal\ndimension; it is $\\Pi$-irreducible. Since $\\Pi$ is normal, each\n$T^jU$ ($j\\in\\mathbf Z$) is again $\\Pi$-stable and $\\Pi$-irreducible:\n$\\rho(g)T^jU=T^j\\rho(F^{-j}gF^j)U=T^jU$. Their sum $S$ is stable under\n$\\Pi$ and $T$, and is $\\Pi$-semisimple, being a sum of irreducible\n$\\Pi$-subspaces. Conjugation by $F$ permutes the isomorphism classes of\nirreducible $\\Pi$-representations, so $T$ permutes the finitely many\n$\\Pi$-isotypic components of $S$. Choose $m_1\\ge1$ and an isotypic\ncomponent $I\\neq0$ with $T^{m_1}I=I$.\n\nWrite $I\\simeq S_1\\otimes M$ with $\\Pi$ acting irreducibly on $S_1$ and\ntrivially on $M$. The conjugate of $S_1$ by $F^{m_1}$ lies in the same\nisotypic component, so there is an invertible $\\tau$ on $S_1$ with\n$\\tau\\rho(g)=\\rho(F^{m_1}gF^{-m_1})\\tau$ for $g\\in\\Pi$. Then\n$T^{m_1}(\\tau^{-1}\\otimes1)$ commutes with $\\Pi$ on $I$, and Schur's lemma\n[lem-wf-schur-scalar] identifies the action of $F^{m_1}$ on $I$ with\n$\\tau\\otimes B$ for an invertible operator $B$ on $M$. The operator $B$\nhas an eigenline $\\langle v\\rangle$, as $k$ is algebraically closed; the\nsubspace $U_1=S_1\\otimes v$ is $\\Pi$-irreducible and $T^{m_1}$-stable.\n\nApply the induction hypothesis to the representation of $W$ on $V/U_1$:\nit gives $m_2\\ge1$ and a chain of subspaces of $V/U_1$, stable under\n$\\Pi$ and $\\rho(F^{m_2})$, with $\\Pi$-irreducible quotients. Put\n$m=m_1m_2$ and take $U_1$ followed by the preimages of that chain.\nEvery member is stable under $\\Pi$ and under $\\rho(F^m)$, a power of\nboth $\\rho(F^{m_1})$ and $\\rho(F^{m_2})$; the successive quotients are\n$U_1$ and the quotients of the chain in $V/U_1$, all $\\Pi$-irreducible.\n\nIn the application, $X_0$ is smooth and geometrically connected over a\nfinite field, $\\mathcal G$ is a lisse $\\Qlb$-Weil sheaf on $X_0$, $V$ its\nrepresentation of the Weil group $W$ of [def-wf-weil-group] (via\n[def-wf-fundamental-representation]), $\\Pi=\\pi_1(X)$, and $F$ a\nFrobenius lift. The subgroup generated by $\\Pi$ and $F^m$ is the Weil\ngroup after a degree-$m$ constant extension, by the group calculation of\n[lem-wf-weil-group-constant-extension]. So after this constant extension\n$\\mathcal G$ has a finite filtration by lisse Weil subsheaves with\ngeometrically irreducible nonzero quotients.\nThese subrepresentations are objects of the finite-stage coefficient\ncategory.\nIndeed, start with a finite coefficient field defining the original\nrepresentation and its Frobenius map, as in\n[def-weil-pbc-qbar-category]. Choose bases for the finitely many\nsubspaces in the resulting filtration. Their finitely many coordinates\nbelong to one finite extension $E'$ of that field. The subspaces\nthey span over $E'$ are stable: this can be checked after the faithful\nscalar extension $E'\\subset\\Qlb$, where stability has already been\nproved. Their subspace and quotient representations are continuous\nfor the geometric fundamental group and inherit the $F^m$-action.\nThus they give lisse Weil subsheaves and quotients at the finite stage\n$E'$, which also justifies applying the finite matrix witnesses to\nthese constituents.\nThis argument concerns the extension $\\Pi\\rtimes\\mathbf Z$ only\nand does not use a rank-one weight theorem on $X_0$.",
+   "The rank gives finite length for representations of the Weil group\nof [def-wf-weil-group]. Treat an irreducible factor $V$ and\nwrite $\\Pi=\\pi_1(X)$.\nIts restriction to this normal subgroup is semisimple by\n[lem-mg-normal-restriction-semisimple]. A Frobenius lift permutes\nthe finitely many geometric isotypic components. Choose $m$ fixing\nthem all. The subgroup generated by $\\Pi$ and $F^m$ is the Weil\ngroup after a degree-$m$ constant extension, by the group calculation\nof [lem-wf-weil-group-constant-extension].\nRestriction to this finite-index normal subgroup is semisimple by\n[lem-wf-finite-index-restriction-semisimple].\n\nEach irreducible summand is geometrically isotypic, of the form\n$S\\otimes M$, with $\\Pi$ acting irreducibly on $S$ and trivially\non $M$. Choose an intertwiner $T$ on $S$ for conjugation by\n$F^m$. Schur's lemma [lem-wf-schur-scalar] identifies the\naction of $F^m$ with $T\\otimes B$ for an invertible operator\n$B$ on $M$. The operator $B$ has an eigenline over $\\Qlb$;\nits tensor product with $S$ is Weil-stable. Irreducibility forces\n$\\dim M=1$. Thus every such summand is geometrically irreducible.\nTaking a common multiple of the extension degrees for the finitely\nmany original factors and refining their filtration proves the claim.\nThese subrepresentations are objects of the finite-stage coefficient\ncategory.\nIndeed, start with a finite coefficient field defining the original\nrepresentation and its Frobenius map, as in\n[def-weil-pbc-qbar-category]. Choose bases for the finitely many\nsubspaces in the resulting filtration. Their finitely many coordinates\nbelong to one finite extension $E'$ of that field. The subspaces\nthey span over $E'$ are stable: this can be checked after the faithful\nscalar extension $E'\\subset\\Qlb$, where stability has already been\nproved. Their subspace and quotient representations are continuous\nfor the geometric fundamental group and inherit the $F^m$-action.\nThus they give lisse Weil subsheaves and quotients at the finite stage\n$E'$, which also justifies applying the finite matrix witnesses to\nthese constituents.\nThis argument concerns the extension $\\Pi\\rtimes\\mathbf Z$ only\nand does not use a rank-one weight theorem on $X_0$.",
    "attrs": {}},
   {"source":
    {"file":
@@ -44015,7 +44016,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-zl-quasi-finite"}],
    "body":
-   "Since $Y_0$ is of finite type over a field, it is quasi-compact and\nquasi-separated, so Zariski's main theorem in the form of the\nquasi-finite factorization [thm-pqf-zmt-factorization] factors $g$\nglobally as\n\n$$\nZ_0\\xrightarrow{\\ j_0\\ }\\overline Z_0\\xrightarrow{\\ \\bar g\\ }Y_0\n$$\n\nwith $j_0$ a quasi-compact open immersion and $\\bar g$ finite; in\nparticular $\\overline Z_0$ is again a separated finite-type\n$k_0$-scheme. The factorization is defined over $k_0$, so it base\nchanges to $k$ and is compatible with the geometric Frobenius\nautomorphisms; all functors below therefore carry Weil structures. By\nthe composition isomorphism and the properness law of\n[prop-functor-package] (clause 3), and since a finite morphism is\nproper,\n\n$$\nRg_!\\simeq R\\bar g_!\\,j_{0!}\\simeq R\\bar g_*\\,j_{0!}.\n$$\n\n*(1).* Extension by zero [def-weil-extension-by-zero] is exact: its\nstalk at a geometric point of $Z$ is the stalk of the input, and at a\ngeometric point of the complement it is $0$. The finite direct image\n$\\bar g_*$ is exact by [lemma-weil-pbc-finite-direct-image-exact], so\n$R\\bar g_*=\\bar g_*$. Both statements hold at every finite coefficient\nstage and hence, by the common-stage construction of\n[def-weil-pbc-qbar-category], for $\\Qlb$-coefficients. Thus for a Weil\nsheaf $\\mathcal F$ we get $Rg_!\\mathcal F\\simeq\\bar g_*j_{0!}\\mathcal F$,\na complex concentrated in degree $0$, i.e. $R^ig_!\\mathcal F=0$ for\n$i\\neq0$, and $g_!\\mathcal F=R^0g_!\\mathcal F=\\bar g_*j_{0!}\\mathcal F$.\nMore generally, applying the exact functor $\\bar g_*j_{0!}$ termwise\ngives $\\mathcal H^j(Rg_!K)=\\bar g_*j_{0!}\\mathcal H^j(K)=g_!\\mathcal H^j(K)$\nfor every Weil complex $K$ and every $j$.\n\n*(2).* We first show the complex form: if $K\\in D_{\\le w}(Z_0)$, then\n$Rg_!K\\in D_{\\le w}(Y_0)$. By (1) and the composition isomorphism it\nsuffices to treat the two pieces. For $j_0$: a closed point of\n$\\overline Z_0$ either lies in $Z_0$, where $j_{0!}K$ has the same stalk\nwith the same local Frobenius as $K$, or lies outside, where the stalk\nis $0$; so each $\\mathcal H^j(j_{0!}K)=j_{0!}\\mathcal H^j(K)$ receives,\nfrom a filtration of $\\mathcal H^j(K)$ with punctually pure quotients of\nweights $\\le w+j$ as in [def-weil-complex-weights], the filtration by\nthe (exact) extensions by zero, whose quotients are again punctually\npure of the same weights. Hence $j_{0!}K\\in D_{\\le w}(\\overline Z_0)$.\nFor $\\bar g$: the finite pushforward bound [lem-zl-finite-pushforward]\ngives $R\\bar g_*j_{0!}K\\in D_{\\le w}(Y_0)$.\n\nNow let $\\mathcal F$ be $\\iota$-mixed of weights at most $w$, i.e. it\nhas a finite filtration whose quotients are punctually $\\iota$-pure of\nweights $\\le w$. Regarded as a complex in degree $0$, this says exactly\n$\\mathcal F\\in D_{\\le w}(Z_0)$ by [def-weil-complex-weights]. By the\ncomplex form, $Rg_!\\mathcal F\\in D_{\\le w}(Y_0)$, and by (1) this\ncomplex is the sheaf $g_!\\mathcal F$ in degree $0$; reading\n[def-weil-complex-weights] in degree $0$, $g_!\\mathcal F$ is\n$\\iota$-mixed of weights at most $w$.\n\n*(3).* By (1), $g_!\\mathcal F=\\bar g_*(j_{0!}\\mathcal F)$. The stalks of\n$j_{0!}\\mathcal F$ at closed points of $Z_0$ are those of $\\mathcal F$,\nwith the same local Frobenius, and are $0$ at the other closed points\nof $\\overline Z_0$; so every local Frobenius eigenvalue of\n$\\mathcal G=j_{0!}\\mathcal F$ at a closed point $x$ of $\\overline Z_0$\nsatisfies $|\\iota(\\alpha)|\\le q_x^{w/2}$. Let $y$ be a closed point of\n$Y_0$. Since $\\bar g$ is finite, the geometric stalk of\n$\\bar g_*\\mathcal G$ at $\\bar y$ is the direct sum of the stalks of\n$\\mathcal G$ at the finitely many geometric points $\\bar x$ over\n$\\bar y$, and the geometric Frobenius at $y$ permutes these summands.\nOn an orbit of length $e$, belonging to a closed point $x$ over $y$\nwith $q_x=q_y^e$, the $e$-th power of the Frobenius at $y$ restricted\nto the corresponding summand is the local Frobenius $F_x$. Hence if\n$\\beta$ is an eigenvalue of the Frobenius at $y$ on that orbit, then\n$\\beta^e$ is an eigenvalue of $F_x$ on $\\mathcal G_{\\bar x}$, and\n\n$$\n|\\iota(\\beta)|^e=|\\iota(\\beta^e)|\\le q_x^{w/2}=(q_y^e)^{w/2},\n$$\n\nso $|\\iota(\\beta)|\\le q_y^{w/2}$. Every eigenvalue of the Frobenius at\n$y$ on $(g_!\\mathcal F)_{\\bar y}$ occurs on some orbit, which proves\n(3).",
+   "Since $Y_0$ is of finite type over a field, it is quasi-compact and\nquasi-separated, so Zariski's main theorem in the form of the\nquasi-finite factorization [thm-pqf-zmt-factorization] factors $g$\nglobally as\n\n$$\nZ_0\\xrightarrow{\\ j_0\\ }\\overline Z_0\\xrightarrow{\\ \\bar g\\ }Y_0\n$$\n\nwith $j_0$ a quasi-compact open immersion and $\\bar g$ finite; in\nparticular $\\overline Z_0$ is again a separated finite-type\n$k_0$-scheme. The factorization is defined over $k_0$, so it base\nchanges to $k$ and is compatible with the geometric Frobenius\nautomorphisms; all functors below therefore carry Weil structures. By\nthe composition isomorphism and the properness law of\n[prop-functor-package] (clause 3), and since a finite morphism is\nproper,\n\n$$\nRg_!\\simeq R\\bar g_!\\,j_{0!}\\simeq R\\bar g_*\\,j_{0!}.\n$$\n\n*(1).* Extension by zero [def-weil-extension-by-zero] is exact: its\nstalk at a geometric point of $Z$ is the stalk of the input, and at a\ngeometric point of the complement it is $0$. The finite direct image\n$\\bar g_*$ is exact by [lemma-weil-pbc-finite-direct-image-exact], so\n$R\\bar g_*=\\bar g_*$. Both statements hold at every finite coefficient\nstage and hence, by the common-stage construction of\n[def-weil-pbc-qbar-category], for $\\Qlb$-coefficients. Thus for a Weil\nsheaf $\\mathcal F$ we get $Rg_!\\mathcal F\\simeq\\bar g_*j_{0!}\\mathcal F$,\na complex concentrated in degree $0$, i.e. $R^ig_!\\mathcal F=0$ for\n$i\\neq0$. Applying the exact functor $\\bar g_*j_{0!}$ termwise gives\n$\\mathcal H^j(Rg_!K)=\\bar g_*j_{0!}\\mathcal H^j(K)=g_!\\mathcal H^j(K)$.\n\n*(2).* By (1) and the composition isomorphism it suffices to treat the\ntwo pieces. For $j_0$: a closed point of $\\overline Z_0$ either lies in\n$Z_0$, where $j_{0!}K$ has the same stalk with the same local\nFrobenius as $K$, or lies outside, where the stalk is $0$; so each\n$\\mathcal H^j(j_{0!}K)=j_{0!}\\mathcal H^j(K)$ receives, from a\nfiltration of $\\mathcal H^j(K)$ with punctually pure quotients of\nweights $\\le w+j$ as in [def-weil-complex-weights], the filtration\nby the (exact) extensions by zero, whose quotients are again punctually\npure of the same weights. Hence $j_{0!}K\\in D_{\\le w}(\\overline Z_0)$.\nFor $\\bar g$: the finite pushforward bound [lem-zl-finite-pushforward]\ngives $R\\bar g_*j_{0!}K\\in D_{\\le w}(Y_0)$.\n\n*In particular.* A mixed Weil sheaf $\\mathcal F$ has a finite\nfiltration with punctually pure quotients; if $w$ is the largest of\ntheir weights, then $\\mathcal F\\in D_{\\le w}(Z_0)$ by\n[def-weil-complex-weights]. By (2), $Rg_!\\mathcal F\\in D_{\\le w}(Y_0)$,\nand by (1) this complex is the sheaf $g_!\\mathcal F$ in degree $0$;\nso $g_!\\mathcal F$ is mixed of weights $\\le w$.",
    "attrs": {}},
   {"source":
    {"file":
@@ -44071,7 +44072,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-zl-root-radius-separation"}],
    "body":
-   "Over the algebraically closed field $\\mathbf C$, two nonzero\npolynomials are coprime if and only if they have no common root. A\ncommon root $z$ would satisfy $S=|z|^{-1}\\le R$, contradicting $R<S$.\nHence no root of $B$ is a root of $A$, and $A$ and $B$ are coprime.\n\nIn particular, if $A,B\\in1+T\\mathbf C[T]$, so that the numbers $z^{-1}$\nare their reciprocal roots, no cancellation occurs in $A(T)/B(T)$: its\nreciprocal poles of modulus $S$ are exactly the reciprocal roots of\n$B$, with multiplicity.",
+   "Cancellation in a quotient can occur only between equal roots of its\nnumerator and its denominator. Equal complex numbers have equal\nmodulus. Since the two allowed modulus sets are disjoint, no root of\n$B$ can be a root of $A$; hence every denominator root survives as a\npole with its original multiplicity.",
    "attrs": {}},
   {"source":
    {"file":
@@ -44104,7 +44105,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "lem-zl-spread-normalization"}],
    "body":
-   "Put $K=\\operatorname{Frac}A$ and fix algebra generators\n$b_1,\\ldots,b_m$ of $B$ over $A$.\nIf $B\\otimes_AK=0$, the equality $1=0$ in the localization\nmeans $s_0\\cdot1=0$ in $B$ for some $0\\neq s_0\\in A$.\nThen $B_s=0$ for every nonzero multiple $s$ of $s_0$, a finite\n$A_s$-module, and $d=0$ works; the injectivity clause is vacuous, as\n$A\\to B$ kills $s_0$.\n\nOtherwise [lem-zl-noether-normalization-field] supplies\n$t_1,\\ldots,t_d\\in B\\otimes_AK$ such that\n$K[T_1,\\ldots,T_d]\\to B\\otimes_AK$, $T_i\\mapsto t_i$, is injective and\n$B\\otimes_AK$ is finite over $K[t_1,\\ldots,t_d]$. Multiplying each\n$t_i$ by a nonzero element of $A$ changes neither the subalgebra\n$K[t_1,\\ldots,t_d]$ nor the algebraic independence, so we may assume\nthat every $t_i$ is the image of an element of $B$, again denoted\n$t_i$.\nEach $b_j$ therefore satisfies a monic equation\n\n$$\nb_j^{e_j}+\\sum_{r<e_j}c_{jr}(t_1,\\ldots,t_d)b_j^r=0,\n\\qquad c_{jr}\\in K[T_1,\\ldots,T_d].\n$$\n\nThis uses the elementary determinant argument for an element acting\non a finite module. Choose a nonzero product $s_1\\in A$ of\ndenominators so that every coefficient of every $c_{jr}$ lies in\n$A_{s_1}$.\nThe finitely many displayed equations hold after localization to\n$K$; each of their left-hand sides is consequently killed by some\nnonzero element of $A$. Enlarge $s_1$ by the product of these\nelements, obtaining $s_0$, so the equations already hold in\n$B_{s_0}$, and hence in $B_s$ for every nonzero multiple $s$ of\n$s_0$. Reducing powers with the monic equations shows that the\nfinitely many monomials\n\n$$\nb_1^{r_1}\\cdots b_m^{r_m},\\qquad 0\\leq r_j<e_j,\n$$\n\ngenerate $B_s=A_s[b_1,\\ldots,b_m]$ as an\n$A_s[t_1,\\ldots,t_d]$-module. Thus the map $\\nu_t$\nof [def-zl-localized-coordinates] is finite.\n\nFinally suppose $A\\to B$ injective. Then $B\\otimes_AK\\neq0$, so we are\nin the second case. The composite\n$A_s[T_1,\\ldots,T_d]\\to B_s\\to B\\otimes_AK$ equals the inclusion\n$A_s[T_1,\\ldots,T_d]\\subseteq K[T_1,\\ldots,T_d]$ ($A$ is a domain)\nfollowed by the injective map $K[T_1,\\ldots,T_d]\\to B\\otimes_AK$, so it\nis injective, and therefore so is $A_s[T_1,\\ldots,T_d]\\to B_s$.",
+   "Put $K=\\operatorname{Frac}A$ and fix algebra generators\n$b_1,\\ldots,b_m$ of $B$ over $A$.\nIf $B\\otimes_AK=0$, the equality $1=0$ in the localization\nmeans $s\\cdot1=0$ in $B$ for some $0\\neq s\\in A$.\nThen $B_s=0$, a finite $A_s$-module, and $d=0$ works.\n\nOtherwise [lem-zl-noether-normalization-field] supplies\n$t_1,\\ldots,t_d\\in B\\otimes_AK$ such that $B\\otimes_AK$\nis finite over $K[t_1,\\ldots,t_d]$.\nEach $b_j$ therefore satisfies a monic equation\n\n$$\nb_j^{e_j}+\\sum_{r<e_j}c_{jr}(t_1,\\ldots,t_d)b_j^r=0,\n\\qquad c_{jr}\\in K[T_1,\\ldots,T_d].\n$$\n\nThis uses the elementary determinant argument for an element acting\non a finite module. Choose a nonzero product $s_0\\in A$ of\ndenominators so that all $t_i$ lie in $B_{s_0}$ and every\ncoefficient of every $c_{jr}$ lies in $A_{s_0}$.\nThe finitely many displayed equations hold after localization to\n$K$; each of their left-hand sides is consequently killed by some\nnonzero element of $A$. Enlarge $s_0$ by the product of these\nelements, obtaining $s$, so the equations already hold in $B_s$.\nReducing powers with the monic equations shows that the finitely\nmany monomials\n\n$$\nb_1^{r_1}\\cdots b_m^{r_m},\\qquad 0\\leq r_j<e_j,\n$$\n\ngenerate $B_s=A_s[b_1,\\ldots,b_m]$ as an\n$A_s[t_1,\\ldots,t_d]$-module. Thus the map $\\nu_t$\nof [def-zl-localized-coordinates] is finite.",
    "attrs": {}},
   {"source":
    {"file":
@@ -47908,7 +47909,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "p-dl-a1-exact"}],
    "body":
-   "*Step 1: the obstruction is a connecting map.* The short exact\nsequence is a distinguished triangle $F_1\\to F\\to F_2\\xrightarrow{+1}$\nof Weil complexes on $U_0$. The derived direct image\n[def-weil-derived-direct-image] is a triangulated functor and, with\nits Weil structure and equivariant structure maps from\n[lem-fix-weil-operations], gives a distinguished triangle of Weil\ncomplexes $Rj_*F_1\\to Rj_*F\\to Rj_*F_2\\xrightarrow{+1}$ on $C_0$.\nSince $R^rj_*=0$ for $r<0$ and $R^0j_*=j_*$ is the ordinary direct\nimage ([def-wf-middle-extension]), its long exact sequence of\ncohomology sheaves begins\n\n$$\n0\\to j_*F_1\\to j_*F\\to j_*F_2\\xrightarrow{\\ \\delta\\ }R^1j_*F_1\\to\\cdots,\n$$\n\nand all maps, in particular $\\delta$, are morphisms of Weil sheaves.\nHence the asserted sequence is exact if and only if $\\delta=0$, and it\nsuffices to show that $\\delta$ vanishes on every geometric stalk.\n\n*Step 2: the open part.* By the unit/counit identities of\n[prop-weil-open-closed-recollement-adjunctions],\n$j^*Rj_*F_1\\simeq F_1$, so $j^*R^1j_*F_1=\\mathcal H^1(F_1)=0$ and\n$\\delta$ vanishes at every geometric point of $U$. Since $C_0$ is\nlocally of finite type over $k_0$, a sheaf on it vanishes once its stalks\nat geometric points over closed points vanish; and every point of $Z_0$\nis closed, because the non-closed points of the curve $C_0$ are generic\npoints of its irreducible components, which lie in the dense open $U_0$.\nIt remains to treat a geometric point $\\bar s$ over a closed point\n$s\\in Z_0$. There\n$\\delta_{\\bar s}:(j_*F_2)_{\\bar s}\\to(R^1j_*F_1)_{\\bar s}$ commutes\nwith the local geometric Frobenius $F_s$, since $\\delta$ is a morphism\nof Weil sheaves. Write $q_s=|\\kappa(s)|$.\n\n*Step 3: localisation at $s$.* The curve $C_0$ need not be separated,\nquasi-compact or geometrically connected, so before applying boundary\nsemicontinuity we localise. Let $X'_0\\subseteq C_0$ be a connected affine\nopen neighbourhood of $s$ (a connected component of an affine open\nneighbourhood; $C_0$ is smooth, so its local rings are regular and its\nconnected affine opens are irreducible). Then $X'_0$ is a smooth,\nseparated, irreducible affine curve of finite type over $k_0$. Let\n$k_1$ be the algebraic closure of $k_0$ in its function field, a finite\nfield; then $X'_0$ is geometrically connected over $k_1$, hence a curve\nover $k_1$ in the sense of [d-real-setup]. The open\n$U'_0:=U_0\\cap X'_0$ is dense in $X'_0$, so its complement is a proper\nclosed subset of an irreducible curve, hence finite. The formation of\n$j_*$ and $R^1j_*$ commutes with restriction to the open $X'_0$, so\n$(j_*F_2)_{\\bar s}$, $(j_*F_1^\\vee)_{\\bar s}$ and $(R^1j_*F_1)_{\\bar s}$\nare the corresponding stalks for $j':U'_0\\hookrightarrow X'_0$ and the\nrestrictions of the sheaves. Viewed over $k_1$ (Frobenius $F^{[k_1:k_0]}$),\nthe local Frobenius $F_x$ and the cardinality $q_x=|\\kappa(x)|$ at every\nclosed point $x$ are unchanged, so the punctual weight conditions below\nmean the same over $k_0$ and over $k_1$. If a restricted sheaf has rank\n$0$ the stalks in question vanish and there is nothing to prove.\n\n*Step 4: the source has weights at most $w$.* $F_2$ is punctually\npure, hence punctually mixed of weights at most $w$. The boundary\nsemicontinuity [lem-wf-boundary-semicontinuity], applied over $k_1$ to\n$j'$ and $F_2|_{U'_0}$ (Step 3) with $\\beta=w$, shows that every eigenvalue $\\alpha$ of $F_s$ on\n$(j_*F_2)_{\\bar s}$ satisfies $|\\iota(\\alpha)|^2\\le q_s^{w}$.\n\n*Step 5: the target has weights at least $w+2$.* The local boundary\nduality [lem-a1-local-boundary-duality] for $F_1$ gives an\n$F_s$-equivariant isomorphism\n\n$$\n(R^1j_*F_1)_{\\bar s}^\\vee\\simeq(j_*F_1^\\vee)_{\\bar s}(1);\n$$\n\nin particular $(R^1j_*F_1)_{\\bar s}$ is finite-dimensional, and on the\nleft $F_s$ acts contragrediently. The dual $F_1^\\vee$ is lisse and\npunctually $\\iota$-pure of weight $-w$ by [lem-tw-dual-negation], so\n[lem-wf-boundary-semicontinuity], applied over $k_1$ to $j'$ and\n$F_1^\\vee|_{U'_0}$ (Step 3) with $\\beta=-w$, bounds the\neigenvalues of $F_s$ on $(j_*F_1^\\vee)_{\\bar s}$ by\n$|\\iota(\\cdot)|^2\\le q_s^{-w}$. On the twist by $(1)$ the local\nFrobenius is multiplied by $q_s^{-1}$ ([lem-wf-tate-twist-frobenius]),\nso the eigenvalues on $(j_*F_1^\\vee)_{\\bar s}(1)$ satisfy\n$|\\iota(\\cdot)|^2\\le q_s^{-w-2}$. The eigenvalues of the contragredient\naction are the inverses $\\gamma^{-1}$ of the eigenvalues $\\gamma$ of\n$F_s$ on $(R^1j_*F_1)_{\\bar s}$ ([p-linear-spectra]). Hence\n$|\\iota(\\gamma)|^{-2}\\le q_s^{-w-2}$, that is,\n\n$$\n|\\iota(\\gamma)|^2\\ \\ge\\ q_s^{\\,w+2}\n$$\n\nfor every eigenvalue $\\gamma$ of $F_s$ on $(R^1j_*F_1)_{\\bar s}$.\n\n*Step 6: the weight gap.* Let $I\\subseteq(R^1j_*F_1)_{\\bar s}$ be the\nimage of $\\delta_{\\bar s}$. It is $F_s$-stable, a quotient of\n$(j_*F_2)_{\\bar s}$ and a subspace of $(R^1j_*F_1)_{\\bar s}$. By\n[lem-a1-spectrum-exact-sequence], applied to the two short exact\nsequences of Frobenius modules exhibiting $I$ as a quotient and as a\nsubobject, every eigenvalue $\\lambda$ of $F_s$ on $I$ satisfies both\n$|\\iota(\\lambda)|^2\\le q_s^{w}$ (Step 4) and\n$|\\iota(\\lambda)|^2\\ge q_s^{w+2}$ (Step 5). Since $q_s>1$ these are\nincompatible, so $I$ has no eigenvalue; being a finite-dimensional\nspace over the algebraically closed field $\\Qlb$, it is zero. Thus\n$\\delta_{\\bar s}=0$ for every boundary point, $\\delta=0$ by Step 2,\nand the sequence is exact by Step 1.",
+   "*Step 1: the obstruction is a connecting map.* The short exact\nsequence is a distinguished triangle $F_1\\to F\\to F_2\\xrightarrow{+1}$\nof Weil complexes on $U_0$. The derived direct image\n[def-weil-derived-direct-image] is a triangulated functor and, with\nits Weil structure and equivariant structure maps from\n[lem-fix-weil-operations], gives a distinguished triangle of Weil\ncomplexes $Rj_*F_1\\to Rj_*F\\to Rj_*F_2\\xrightarrow{+1}$ on $C_0$.\nSince $R^rj_*=0$ for $r<0$ and $R^0j_*=j_*$ is the ordinary direct\nimage ([def-wf-middle-extension]), its long exact sequence of\ncohomology sheaves begins\n\n$$\n0\\to j_*F_1\\to j_*F\\to j_*F_2\\xrightarrow{\\ \\delta\\ }R^1j_*F_1\\to\\cdots,\n$$\n\nand all maps, in particular $\\delta$, are morphisms of Weil sheaves.\nHence the asserted sequence is exact if and only if $\\delta=0$, and it\nsuffices to show that $\\delta$ vanishes on every geometric stalk.\n\n*Step 2: the open part.* By the unit/counit identities of\n[prop-weil-open-closed-recollement-adjunctions],\n$j^*Rj_*F_1\\simeq F_1$, so $j^*R^1j_*F_1=\\mathcal H^1(F_1)=0$ and\n$\\delta$ vanishes at every geometric point of $U$. It remains to treat\na geometric point $\\bar s$ over a closed point $s\\in Z_0$. There\n$\\delta_{\\bar s}:(j_*F_2)_{\\bar s}\\to(R^1j_*F_1)_{\\bar s}$ commutes\nwith the local geometric Frobenius $F_s$, since $\\delta$ is a morphism\nof Weil sheaves. Write $q_s=|\\kappa(s)|$.\n\n*Step 3: the source has weights at most $w$.* $F_2$ is punctually\npure, hence punctually mixed of weights at most $w$. The boundary\nsemicontinuity [lem-wf-boundary-semicontinuity], applied to $j$ and\n$F_2$ with $\\beta=w$, shows that every eigenvalue $\\alpha$ of $F_s$ on\n$(j_*F_2)_{\\bar s}$ satisfies $|\\iota(\\alpha)|^2\\le q_s^{w}$.\n\n*Step 4: the target has weights at least $w+2$.* The local boundary\nduality [lem-a1-local-boundary-duality] for $F_1$ gives an\n$F_s$-equivariant isomorphism\n\n$$\n(R^1j_*F_1)_{\\bar s}^\\vee\\simeq(j_*F_1^\\vee)_{\\bar s}(1);\n$$\n\nin particular $(R^1j_*F_1)_{\\bar s}$ is finite-dimensional, and on the\nleft $F_s$ acts contragrediently. The dual $F_1^\\vee$ is lisse and\npunctually $\\iota$-pure of weight $-w$ by [lem-tw-dual-negation], so\n[lem-wf-boundary-semicontinuity] with $\\beta=-w$ bounds the\neigenvalues of $F_s$ on $(j_*F_1^\\vee)_{\\bar s}$ by\n$|\\iota(\\cdot)|^2\\le q_s^{-w}$. On the twist by $(1)$ the local\nFrobenius is multiplied by $q_s^{-1}$ ([lem-wf-tate-twist-frobenius]),\nso the eigenvalues on $(j_*F_1^\\vee)_{\\bar s}(1)$ satisfy\n$|\\iota(\\cdot)|^2\\le q_s^{-w-2}$. The eigenvalues of the contragredient\naction are the inverses $\\gamma^{-1}$ of the eigenvalues $\\gamma$ of\n$F_s$ on $(R^1j_*F_1)_{\\bar s}$ ([p-linear-spectra]). Hence\n$|\\iota(\\gamma)|^{-2}\\le q_s^{-w-2}$, that is,\n\n$$\n|\\iota(\\gamma)|^2\\ \\ge\\ q_s^{\\,w+2}\n$$\n\nfor every eigenvalue $\\gamma$ of $F_s$ on $(R^1j_*F_1)_{\\bar s}$.\n\n*Step 5: the weight gap.* Let $I\\subseteq(R^1j_*F_1)_{\\bar s}$ be the\nimage of $\\delta_{\\bar s}$. It is $F_s$-stable, a quotient of\n$(j_*F_2)_{\\bar s}$ and a subspace of $(R^1j_*F_1)_{\\bar s}$. By\n[lem-a1-spectrum-exact-sequence], applied to the two short exact\nsequences of Frobenius modules exhibiting $I$ as a quotient and as a\nsubobject, every eigenvalue $\\lambda$ of $F_s$ on $I$ satisfies both\n$|\\iota(\\lambda)|^2\\le q_s^{w}$ (Step 3) and\n$|\\iota(\\lambda)|^2\\ge q_s^{w+2}$ (Step 4). Since $q_s>1$ these are\nincompatible, so $I$ has no eigenvalue; being a finite-dimensional\nspace over the algebraically closed field $\\Qlb$, it is zero. Thus\n$\\delta_{\\bar s}=0$ for every boundary point, $\\delta=0$ by Step 2,\nand the sequence is exact by Step 1.",
    "attrs": {}},
   {"source":
    {"file":
@@ -48644,7 +48645,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "prop-fd-zero-extension-comparison"}],
    "body":
-   "*Step 1: the boundary sheaf.* The map $j_!\\mathcal M\\to j_*\\mathcal M$ is\nan isomorphism over $U_0$ and $j_!\\mathcal M$ has zero stalks on $S_0$,\nso it is injective and $\\mathcal B$ vanishes on $U_0$. Hence\n$\\mathcal B$ is supported on the finite reduced closed subscheme $S_0$,\nand\n\n$$\n\\mathcal B\\cong\\bigoplus_{s\\in S_0}i_{s*}E_s,\n\\qquad E_s:=(j_*\\mathcal M)_{\\bar s},\n$$\n\nwhere $i_s:s\\hookrightarrow A_0$ is the inclusion of the closed point\n$s$ and $E_s$ is the boundary stalk with its Frobenius $F_s$, a\nfinite-dimensional Weil module of the residue field $k(s)$ of degree\n$d(s)$ over $k_0$.\n\n*Step 2: the transform of a boundary point.* Fix $s\\in S_0$ and a Weil\nmodule $E$ of $k(s)$. Put $A'_s:=s\\times_{k_0}A'_0=A'_0\\otimes_{k_0}k(s)$,\nlet $i'_s:A'_s\\hookrightarrow A_0\\times A'_0$ be the base change of $i_s$\nalong the first projection $p_1$, let $\\pi_s=p_2\\circ i'_s:A'_s\\to A'_0$\nbe the base change of $\\operatorname{Spec}k(s)\\to\\operatorname{Spec}k_0$,\nwhich is finite étale of degree $d(s)$, and let\n$q_s:A'_s\\to s$ be the projection. Pullback commutes with direct image\nalong the closed immersion $i_s$, so $p_1^*i_{s*}E\\cong i'_{s*}q_s^*E$,\nand the projection formula for the closed immersion $i'_s$ gives\n$i'_{s*}q_s^*E\\otimes\\mathcal K_\\psi\\cong\ni'_{s*}\\bigl(q_s^*E\\otimes i'^*_s\\mathcal K_\\psi\\bigr)$ for the kernel\n$\\mathcal K_\\psi$ of [def-fd-kernel]. The pairing restricted to\n$A'_s$ is the linear function $f_s:\\xi\\mapsto s\\xi$, so\n$\\mathcal L_s:=i'^*_s\\mathcal K_\\psi=f_s^*\\mathcal L_\\psi$ is the\nArtin–Schreier sheaf of [def-fd-artin-schreier-sheaf] attached to\n$s\\xi$, a lisse sheaf of rank one. Since\n$p_{2!}\\,i'_{s*}=(p_2 i'_s)_!=\\pi_{s!}=\\pi_{s*}$, the last because\n$\\pi_s$ is finite, the definition [def-fd-transform] gives\n\n$$\n\\operatorname{FT}_\\psi(i_{s*}E)\\cong\n\\pi_{s*}\\bigl(q_s^*E\\otimes\\mathcal L_s\\bigr)[1].\n$$\n\nThis is the computation of the second formula of [lem-fd-first-formula]\n(the case $s=0$, $E=\\overline{\\mathbf Q}_\\ell$) at a general closed\npoint. As the transform is additive, Step 1 gives\n$\\operatorname{FT}_\\psi(\\mathcal B)\\cong\\mathcal B'[1]$ with\n\n$$\n\\mathcal B':=\\bigoplus_{s\\in S_0}\n\\pi_{s*}\\bigl(q_s^*E_s\\otimes\\mathcal L_s\\bigr).\n$$\n\n*Step 3: $\\mathcal B'$ is lisse.* Each $q_s^*E_s\\otimes\\mathcal L_s$ is\nlisse on $A'_s$. After the base change to $k$, the finite étale map\n$\\pi_s$ becomes the projection\n$A'\\times\\operatorname{Hom}_{k_0}(k(s),k)\\to A'$ from a disjoint union\nof $d(s)$ copies of $A'$, so the direct image becomes a direct sum of\n$d(s)$ lisse sheaves on $A'$. Hence each summand, and $\\mathcal B'$,\nis lisse on the whole dual line.\n\n*Step 4: the weights of $\\mathcal B'$.* Since $\\mathcal M$ is\npunctually pure of weight $w$, it is punctually of weights at most $w$ in\nthe sense of [def-weil-punctual-weights], and the boundary\nsemicontinuity [lem-wf-boundary-semicontinuity] on the curve $A_0$ with\n$\\beta=w$ gives $|\\iota(\\mu)|^2\\le q_s^{\\,w}$ for every eigenvalue $\\mu$\nof $F_s$ on $E_s$.\n\nFix $s\\in S_0$, put $\\mathcal F_s:=q_s^*E_s\\otimes\\mathcal L_s$, and let\n$z$ be a closed point of $A'_s$ of degree $n$ over $k_0$. Its image in\n$s$ gives $d(s)\\mid n$, and the local Frobenius $F_z$ acts on the stalk\nof $q_s^*E_s$ as $F_s^{\\,n/d(s)}$, whose eigenvalues are the\n$(n/d(s))$-th powers of those of $F_s$ and so have squared modulus at\nmost $q_s^{\\,wn/d(s)}=q^{wn}$. On the rank-one stalk of\n$\\mathcal L_s=f_s^*\\mathcal L_\\psi$ the operator $F_z$ acts as\n$F_u^{\\,n/d(u)}$, where $u=f_s(z)$ is the image closed point of the line;\nby [lem-fd-as-trace] $F_u$ acts by the $p$-th root of unity\n$\\psi(\\operatorname{Tr}_{\\kappa(u)/k_0}(u))$. Hence every\neigenvalue of $F_z$ on $(\\mathcal F_s)_{\\bar z}$ has squared\n$\\iota$-modulus at most $q^{wn}$.\n\nNow let $y$ be a closed point of $A'_0$ with geometric point $\\bar y$.\nThe stalk of the finite direct image is the sum over the geometric\npoints of $A'_s$ above $\\bar y$,\n\n$$\n(\\pi_{s*}\\mathcal F_s)_{\\bar y}=\\bigoplus_{\\bar z\\mapsto\\bar y}\n(\\mathcal F_s)_{\\bar z},\n$$\n\nand $F_y$ permutes these summands. Its orbits correspond to the closed\npoints $z$ of $A'_s$ above $y$; if the orbit of $\\bar z$ has length $e$,\nthen $z$ has degree $n=e\\,d(y)$ and $F_y^{\\,e}$ maps the summand at\n$\\bar z$ to itself, acting there as $F_z$. Let $\\alpha$ be an eigenvalue\nof $F_y$ with eigenvector $v=(v_{\\bar z})$, and choose $\\bar z$ with\n$v_{\\bar z}\\ne0$, of orbit length $e$. Since $F_y^{\\,e}$ preserves each\nsummand of that orbit, comparing components of $F_y^{\\,e}v=\\alpha^ev$\ngives $F_zv_{\\bar z}=\\alpha^ev_{\\bar z}$. By the previous paragraph\n$|\\iota(\\alpha)|^{2e}\\le q^{we\\,d(y)}$, that is\n$|\\iota(\\alpha)|^2\\le q_y^{\\,w}$. An eigenvalue of $F_y$ on the finite\ndirect sum $\\mathcal B'_{\\bar y}$ is an eigenvalue on one of its\nsummands, which proves the weight bound.\n\n*Step 5: concentration and the exact sequence.* The short exact sequence\n$0\\to j_!\\mathcal M\\to j_*\\mathcal M\\to\\mathcal B\\to0$ of Step 1 gives a\ndistinguished triangle\n$j_!\\mathcal M[1]\\to(j_*\\mathcal M)[1]\\to\\mathcal B[1]\\to$. The transform\nis an exact triangulated functor by [thm-fd-transform-well-defined];\nby the hypothesis\n$\\operatorname{FT}_\\psi\\bigl((j_*\\mathcal M)[1]\\bigr)\\cong(j'_*\\mathcal M')[1]$\non the pair $(j',\\mathcal M')$ and by Step 2, and after rotation,\nthis gives a distinguished triangle\n\n$$\n\\mathcal B'[1]\\longrightarrow K\\longrightarrow(j'_*\\mathcal M')[1]\n\\longrightarrow\\mathcal B'[2],\n\\qquad K:=\\operatorname{FT}_\\psi\\bigl(j_!\\mathcal M[1]\\bigr).\n$$\n\nBoth outer terms have a single cohomology sheaf, in degree $-1$. The\nlong exact sequence of cohomology sheaves therefore gives\n$\\mathcal H^aK=0$ for $a\\ne-1$, so $K\\cong\\mathcal G[1]$ with\n$\\mathcal G:=\\mathcal H^{-1}K$, and in degree $-1$ it reads\n\n$$\n0=\\mathcal H^{-2}\\bigl((j'_*\\mathcal M')[1]\\bigr)\\to\\mathcal B'\\to\n\\mathcal G\\to j'_*\\mathcal M'\\to\\mathcal H^{0}\\bigl(\\mathcal B'[1]\\bigr)=0,\n$$\n\nwhich is the asserted exact sequence. All objects and maps carry the Weil\nstructure, since the transform and the triangles are formed in the Weil\ncategory. Only the hypothesis on $(j',\\mathcal M')$, not the\nirreducibility or nonexceptionality of $\\mathcal M$ themselves, enters\nthe argument; these hypotheses serve to guarantee that such a pair exists\n([prop-a1-fourier-middle-extension]).",
+   "*Step 1: the boundary sheaf.* The map $j_!\\mathcal M\\to j_*\\mathcal M$ is\nan isomorphism over $U_0$ and $j_!\\mathcal M$ has zero stalks on $S_0$,\nso it is injective and $\\mathcal B$ vanishes on $U_0$. Hence\n$\\mathcal B$ is supported on the finite reduced closed subscheme $S_0$,\nand\n\n$$\n\\mathcal B\\cong\\bigoplus_{s\\in S_0}i_{s*}E_s,\n\\qquad E_s:=(j_*\\mathcal M)_{\\bar s},\n$$\n\nwhere $i_s:s\\hookrightarrow A_0$ is the inclusion of the closed point\n$s$ and $E_s$ is the boundary stalk with its Frobenius $F_s$, a\nfinite-dimensional Weil module of the residue field $k(s)$ of degree\n$d(s)$ over $k_0$.\n\n*Step 2: the transform of a boundary point.* Fix $s\\in S_0$ and a Weil\nmodule $E$ of $k(s)$. Put $A'_s:=s\\times_{k_0}A'_0=A'_0\\otimes_{k_0}k(s)$,\nlet $i'_s:A'_s\\hookrightarrow A_0\\times A'_0$ be the base change of $i_s$\nalong the first projection $p_1$, let $\\pi_s=p_2\\circ i'_s:A'_s\\to A'_0$\nbe the base change of $\\operatorname{Spec}k(s)\\to\\operatorname{Spec}k_0$,\nwhich is finite étale of degree $d(s)$, and let\n$q_s:A'_s\\to s$ be the projection. Pullback commutes with direct image\nalong the closed immersion $i_s$, so $p_1^*i_{s*}E\\cong i'_{s*}q_s^*E$,\nand the projection formula for the closed immersion $i'_s$ gives\n$i'_{s*}q_s^*E\\otimes\\mathcal K_\\psi\\cong\ni'_{s*}\\bigl(q_s^*E\\otimes i'^*_s\\mathcal K_\\psi\\bigr)$ for the kernel\n$\\mathcal K_\\psi$ of [def-fd-kernel]. The pairing restricted to\n$A'_s$ is the linear function $f_s:\\xi\\mapsto s\\xi$, so\n$\\mathcal L_s:=i'^*_s\\mathcal K_\\psi=f_s^*\\mathcal L_\\psi$ is the\nArtin–Schreier sheaf of [def-fd-artin-schreier-sheaf] attached to\n$s\\xi$, a lisse sheaf of rank one. Since\n$p_{2!}\\,i'_{s*}=(p_2 i'_s)_!=\\pi_{s!}=\\pi_{s*}$, the last because\n$\\pi_s$ is finite, the definition [def-fd-transform] gives\n\n$$\n\\operatorname{FT}_\\psi(i_{s*}E)\\cong\n\\pi_{s*}\\bigl(q_s^*E\\otimes\\mathcal L_s\\bigr)[1].\n$$\n\nThis is the computation of the second formula of [lem-fd-first-formula]\n(the case $s=0$, $E=\\overline{\\mathbf Q}_\\ell$) at a general closed\npoint. As the transform is additive, Step 1 gives\n$\\operatorname{FT}_\\psi(\\mathcal B)\\cong\\mathcal B'[1]$ with\n\n$$\n\\mathcal B':=\\bigoplus_{s\\in S_0}\n\\pi_{s*}\\bigl(q_s^*E_s\\otimes\\mathcal L_s\\bigr).\n$$\n\n*Step 3: $\\mathcal B'$ is lisse.* Each $q_s^*E_s\\otimes\\mathcal L_s$ is\nlisse on $A'_s$. After the base change to $k$, the finite étale map\n$\\pi_s$ becomes the projection\n$A'\\times\\operatorname{Hom}_{k_0}(k(s),k)\\to A'$ from a disjoint union\nof $d(s)$ copies of $A'$, so the direct image becomes a direct sum of\n$d(s)$ lisse sheaves on $A'$. Hence each summand, and $\\mathcal B'$,\nis lisse on the whole dual line.\n\n*Step 4: the weights of $\\mathcal B'$.* Since $\\mathcal M$ is\npunctually pure of weight $w$, it is punctually of weights at most $w$ in\nthe sense of [def-weil-punctual-weights], and the boundary\nsemicontinuity [lem-wf-boundary-semicontinuity] on the curve $A_0$ with\n$\\beta=w$ gives $|\\iota(\\mu)|^2\\le q_s^{\\,w}$ for every eigenvalue $\\mu$\nof $F_s$ on $E_s$.\n\nFix $s\\in S_0$, put $\\mathcal F_s:=q_s^*E_s\\otimes\\mathcal L_s$, and let\n$z$ be a closed point of $A'_s$ of degree $n$ over $k_0$. Its image in\n$s$ gives $d(s)\\mid n$, and the local Frobenius $F_z$ acts on the stalk\nof $q_s^*E_s$ as $F_s^{\\,n/d(s)}$, whose eigenvalues are the\n$(n/d(s))$-th powers of those of $F_s$ and so have squared modulus at\nmost $q_s^{\\,wn/d(s)}=q^{wn}$. On the rank-one stalk of\n$\\mathcal L_s=f_s^*\\mathcal L_\\psi$ the operator $F_z$ acts as\n$F_u^{\\,n/d(u)}$, where $u=f_s(z)$ is the image closed point of the line;\nby [lem-fd-as-trace] $F_u$ acts by the $p$-th root of unity\n$\\psi(\\operatorname{Tr}_{\\kappa(u)/k_0}(u))$. Hence every\neigenvalue of $F_z$ on $(\\mathcal F_s)_{\\bar z}$ has squared\n$\\iota$-modulus at most $q^{wn}$.\n\nNow let $y$ be a closed point of $A'_0$ with geometric point $\\bar y$.\nThe stalk of the finite direct image is the sum over the geometric\npoints of $A'_s$ above $\\bar y$,\n\n$$\n(\\pi_{s*}\\mathcal F_s)_{\\bar y}=\\bigoplus_{\\bar z\\mapsto\\bar y}\n(\\mathcal F_s)_{\\bar z},\n$$\n\nand $F_y$ permutes these summands. Its orbits correspond to the closed\npoints $z$ of $A'_s$ above $y$; if the orbit of $\\bar z$ has length $e$,\nthen $z$ has degree $n=e\\,d(y)$ and $F_y^{\\,e}$ maps the summand at\n$\\bar z$ to itself, acting there as $F_z$. Let $\\alpha$ be an eigenvalue\nof $F_y$ with eigenvector $v=(v_{\\bar z})$, and choose $\\bar z$ with\n$v_{\\bar z}\\ne0$, of orbit length $e$. Since $F_y^{\\,e}$ preserves each\nsummand of that orbit, comparing components of $F_y^{\\,e}v=\\alpha^ev$\ngives $F_zv_{\\bar z}=\\alpha^ev_{\\bar z}$. By the previous paragraph\n$|\\iota(\\alpha)|^{2e}\\le q^{we\\,d(y)}$, that is\n$|\\iota(\\alpha)|^2\\le q_y^{\\,w}$. An eigenvalue of $F_y$ on the finite\ndirect sum $\\mathcal B'_{\\bar y}$ is an eigenvalue on one of its\nsummands, which proves the weight bound.\n\n*Step 5: concentration and the exact sequence.* The short exact sequence\n$0\\to j_!\\mathcal M\\to j_*\\mathcal M\\to\\mathcal B\\to0$ of Step 1 gives a\ndistinguished triangle\n$j_!\\mathcal M[1]\\to(j_*\\mathcal M)[1]\\to\\mathcal B[1]\\to$. The transform\nis an exact triangulated functor by [thm-fd-transform-well-defined];\nby [prop-a1-fourier-middle-extension] and Step 2, and after rotation,\nthis gives a distinguished triangle\n\n$$\n\\mathcal B'[1]\\longrightarrow K\\longrightarrow(j'_*\\mathcal M')[1]\n\\longrightarrow\\mathcal B'[2],\n\\qquad K:=\\operatorname{FT}_\\psi\\bigl(j_!\\mathcal M[1]\\bigr).\n$$\n\nBoth outer terms have a single cohomology sheaf, in degree $-1$. The\nlong exact sequence of cohomology sheaves therefore gives\n$\\mathcal H^aK=0$ for $a\\ne-1$, so $K\\cong\\mathcal G[1]$ with\n$\\mathcal G:=\\mathcal H^{-1}K$, and in degree $-1$ it reads\n\n$$\n0=\\mathcal H^{-2}\\bigl((j'_*\\mathcal M')[1]\\bigr)\\to\\mathcal B'\\to\n\\mathcal G\\to j'_*\\mathcal M'\\to\\mathcal H^{0}\\bigl(\\mathcal B'[1]\\bigr)=0,\n$$\n\nwhich is the asserted exact sequence. All objects and maps carry the Weil\nstructure, since the transform and the triangles are formed in the Weil\ncategory.",
    "attrs": {}},
   {"source":
    {"file":
@@ -54624,7 +54625,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "thm-fd-generic-fourier-sheaf-pure"}],
    "body":
-   "*Step 1: the real envelope after zero extension.* Put\n$b=\\iota^{-1}(q^w)$, $\\mathcal M^\\dagger=\\mathcal M^\\vee\\otimes\\mathcal B_b$,\nand let $\\mathcal K$ be the realified kernel on the Fourier square formed\nfrom $j_!\\mathcal M$ and $j_!\\mathcal M^\\dagger$ as in\n[lem-fd-realified-kernel-real]. By the general form of\n[lem-fd-realified-kernel-real], which needs only the purity of\n$\\mathcal M$, the constructible Weil sheaf $\\mathcal K$ is $\\iota$-real.\nBy [lem-fd-constituent-nonexceptional-concentration](3),\n$R^\\nu p_{2,!}\\mathcal K=0$ for $\\nu\\neq1$, and the sheaf\n\n$$\n\\mathcal G:=\\operatorname{FT}_\\psi(j_!\\mathcal M)\n$$\n\n(concentrated in degree $0$) is a direct summand of\n$\\mathcal H:=R^1p_{2,!}\\mathcal K$. By [lem-fd-realness-pushforward],\napplied to $\\mathcal K$ and this vanishing, $\\mathcal H$ is an\n$\\iota$-real constructible Weil sheaf on the dual line $A'_0$. Working\nwith $j_!\\mathcal M$ rather than $j_*\\mathcal M$ is what makes the\nreality available: at a missing point both summands of $\\mathcal K$ have\nzero stalk, while the boundary stalks of $j_*\\mathcal M$ and\n$j_*\\mathcal M^\\dagger$ need not have conjugate spectra.\n\n*Step 2: $\\mathcal G$ surjects onto the middle extension.* By the\nzero-extension comparison [prop-fd-zero-extension-comparison], whose\nhypotheses are exactly those of the present statement,\n$\\operatorname{FT}_\\psi(j_!\\mathcal M[1])\\cong\\mathcal G[1]$ and there is\na short exact sequence of Weil sheaves\n$0\\to\\mathcal B'\\to\\mathcal G\\to j'_*\\mathcal M'\\to0$ on the dual line,\nwith $j'_*\\mathcal M'$ the middle extension of\n[def-wf-middle-extension]. In particular\n$\\mathcal G\\to j'_*\\mathcal M'$ is an epimorphism of Weil sheaves.\n\n*Step 3: purity on a dense open.* By [fin2-lem-lisse-dense-open],\napplied to $\\mathcal H$ and to $\\mathcal G$ and intersected with\n$U'_0$, there is a dense open $V'_0\\subset U'_0$ on which $\\mathcal H$\nand $\\mathcal G$ are lisse. Restriction to $V'_0$ is exact and additive,\nand $(j'_*\\mathcal M')|_{V'_0}=\\mathcal M'|_{V'_0}$. Composing the\nprojection $\\mathcal H\\to\\mathcal G$ onto the direct summand with the\nepimorphism of Step 2 gives an epimorphism of lisse Weil sheaves\n\n$$\n\\mathcal H|_{V'_0}\\twoheadrightarrow\\mathcal M'|_{V'_0}.\n$$\n\nThe restriction $\\mathcal M'|_{V'_0}$ is nonzero and irreducible, after\nshrinking $V'_0$. Indeed, [prop-a1-fourier-middle-extension] also\nsupplies a dense open $j'':U''_0\\hookrightarrow A'_0$ and a nonzero\nirreducible lisse Weil sheaf $\\mathcal M''$ on $U''_0$ with\n$\\operatorname{FT}_\\psi\\bigl((j_*\\mathcal M)[1]\\bigr)\\cong(j''_*\\mathcal M'')[1]$.\nHence $(j'_*\\mathcal M')[1]\\cong(j''_*\\mathcal M'')[1]$, so\n$j'_*\\mathcal M'\\cong j''_*\\mathcal M''$ (take $\\mathcal H^{-1}$), and\nrestricting to $V'_0\\cap U''_0$, where both middle extensions restrict\nto the lisse sheaves themselves, gives\n$\\mathcal M'|_{V'_0\\cap U''_0}\\cong\\mathcal M''|_{V'_0\\cap U''_0}$.\nReplace $V'_0$ by the dense open $V'_0\\cap U''_0$. The restriction of the\nnonzero irreducible lisse sheaf $\\mathcal M''$ to this dense open is\nagain nonzero and irreducible: the Weil group of a dense open of the\nnormal connected curve $U''_0$ surjects onto that of $U''_0$ (the\ncorresponding surjectivity of étale fundamental groups for a dense open\nof a normal connected scheme, SGA 1, Exp. V, 8.2), so the invariant\nsubspaces are the same. Refining\nthe kernel of this epimorphism to a composition series of\n$\\mathcal H|_{V'_0}$ shows that $\\mathcal M'|_{V'_0}$ is an irreducible\nconstituent of $\\mathcal H|_{V'_0}$, which is lisse and $\\iota$-real\n([def-wf-iota-real]; reality is a pointwise condition and passes to\nthe open). As $V'_0$ is a dense open of the affine line, it is a smooth\ngeometrically connected affine curve, and\n[thm-rp-real-lisse-purity-affine] shows that $\\mathcal M'|_{V'_0}$ is\npunctually $\\iota$-pure of the real weight\n$v:=\\dw_\\iota(\\mathcal M'|_{V'_0})$, its determinantal weight of\n[def-wf-determinantal-weight].\n\n*Step 4: purity on all of $U'_0$.* The sheaf $\\mathcal M'$ is lisse on\nthe smooth geometrically connected curve $U'_0$ and its restriction to\nthe dense open $V'_0$ is punctually $\\iota$-pure of weight $v$. At a\npoint $x\\in U'_0\\setminus V'_0$ the inertia acts trivially, $\\mathcal M'$\nbeing lisse there, and the ordinary direct image from $V'_0$ recovers the\nstalk of $\\mathcal M'$ (the translation step of\n[lem-a1-constituent-nonexceptional-comparison]). The consequence\nclause of [cor-wf-unramified-boundary-purity] therefore gives that\n$\\mathcal M'$ is punctually $\\iota$-pure of weight $v$ on all of\n$U'_0$.",
+   "*Step 1: the real envelope after zero extension.* Put\n$b=\\iota^{-1}(q^w)$, $\\mathcal M^\\dagger=\\mathcal M^\\vee\\otimes\\mathcal B_b$,\nand let $\\mathcal K$ be the realified kernel on the Fourier square formed\nfrom $j_!\\mathcal M$ and $j_!\\mathcal M^\\dagger$ as in\n[lem-fd-realified-kernel-real]. By the general form of\n[lem-fd-realified-kernel-real], which needs only the purity of\n$\\mathcal M$, the constructible Weil sheaf $\\mathcal K$ is $\\iota$-real.\nBy [lem-fd-constituent-nonexceptional-concentration](3),\n$R^\\nu p_{2,!}\\mathcal K=0$ for $\\nu\\neq1$, and the sheaf\n\n$$\n\\mathcal G:=\\operatorname{FT}_\\psi(j_!\\mathcal M)\n$$\n\n(concentrated in degree $0$) is a direct summand of\n$\\mathcal H:=R^1p_{2,!}\\mathcal K$. By [lem-fd-realness-pushforward],\napplied to $\\mathcal K$ and this vanishing, $\\mathcal H$ is an\n$\\iota$-real constructible Weil sheaf on the dual line $A'_0$. Working\nwith $j_!\\mathcal M$ rather than $j_*\\mathcal M$ is what makes the\nreality available: at a missing point both summands of $\\mathcal K$ have\nzero stalk, while the boundary stalks of $j_*\\mathcal M$ and\n$j_*\\mathcal M^\\dagger$ need not have conjugate spectra.\n\n*Step 2: $\\mathcal G$ surjects onto the middle extension.* By the\nzero-extension comparison [prop-fd-zero-extension-comparison], whose\nhypotheses are exactly those of the present statement,\n$\\operatorname{FT}_\\psi(j_!\\mathcal M[1])\\cong\\mathcal G[1]$ and there is\na short exact sequence of Weil sheaves\n$0\\to\\mathcal B'\\to\\mathcal G\\to j'_*\\mathcal M'\\to0$ on the dual line,\nwith $j'_*\\mathcal M'$ the middle extension of\n[def-wf-middle-extension]. In particular\n$\\mathcal G\\to j'_*\\mathcal M'$ is an epimorphism of Weil sheaves.\n\n*Step 3: purity on a dense open.* By [fin2-lem-lisse-dense-open],\napplied to $\\mathcal H$ and to $\\mathcal G$ and intersected with\n$U'_0$, there is a dense open $V'_0\\subset U'_0$ on which $\\mathcal H$\nand $\\mathcal G$ are lisse. Restriction to $V'_0$ is exact and additive,\nand $(j'_*\\mathcal M')|_{V'_0}=\\mathcal M'|_{V'_0}$. Composing the\nprojection $\\mathcal H\\to\\mathcal G$ onto the direct summand with the\nepimorphism of Step 2 gives an epimorphism of lisse Weil sheaves\n\n$$\n\\mathcal H|_{V'_0}\\twoheadrightarrow\\mathcal M'|_{V'_0}.\n$$\n\nThe restriction $\\mathcal M'|_{V'_0}$ is nonzero and irreducible: the\nWeil group of the dense open $V'_0$ of the normal connected curve\n$U'_0$ surjects onto that of $U'_0$ (the corresponding surjectivity of\nétale fundamental groups for a dense open of a normal connected scheme,\nSGA 1, Exp. V, 8.2), so the invariant subspaces are the same. Refining\nthe kernel of this epimorphism to a composition series of\n$\\mathcal H|_{V'_0}$ shows that $\\mathcal M'|_{V'_0}$ is an irreducible\nconstituent of $\\mathcal H|_{V'_0}$, which is lisse and $\\iota$-real\n([def-wf-iota-real]; reality is a pointwise condition and passes to\nthe open). As $V'_0$ is a dense open of the affine line, it is a smooth\ngeometrically connected affine curve, and\n[thm-rp-real-lisse-purity-affine] shows that $\\mathcal M'|_{V'_0}$ is\npunctually $\\iota$-pure of the real weight\n$v:=\\dw_\\iota(\\mathcal M'|_{V'_0})$, its determinantal weight of\n[def-wf-determinantal-weight].\n\n*Step 4: purity on all of $U'_0$.* The sheaf $\\mathcal M'$ is lisse on\nthe smooth geometrically connected curve $U'_0$ and its restriction to\nthe dense open $V'_0$ is punctually $\\iota$-pure of weight $v$. At a\npoint $x\\in U'_0\\setminus V'_0$ the inertia acts trivially, $\\mathcal M'$\nbeing lisse there, and the ordinary direct image from $V'_0$ recovers the\nstalk of $\\mathcal M'$ (the translation step of\n[lem-a1-constituent-nonexceptional-comparison]). The consequence\nclause of [cor-wf-unramified-boundary-purity] therefore gives that\n$\\mathcal M'$ is punctually $\\iota$-pure of weight $v$ on all of\n$U'_0$.",
    "attrs": {}},
   {"source":
    {"file":
@@ -56647,7 +56648,7 @@
    "depth": 1,
    "boundary": [{"role": "of", "id": "thm-zl-relative-noether"}],
    "body":
-   "All schemes under consideration are Noetherian, being of finite type\nover the Noetherian scheme $Y_0$. We use induction\non closed subsets of the target, with their reduced structures.\nThis induction terminates because a Noetherian space has no infinite\nstrictly descending chain of closed subsets.\n\nFor a nonempty reduced target $Y$, take the finitely many\nirreducible components. In each component choose a nonempty\naffine open avoiding all the other components. These give disjoint\nintegral affine opens $V_j=\\operatorname{Spec}A_j$ of $Y$;\ntheir union contains every generic point of $Y$.\nFor each $j$, apply [lem-zl-affine-partition] to\n$X_0\\times_{Y_0}V_j$. The resulting finitely many reduced affine\npieces are $\\operatorname{Spec}B_{ji}$, with $B_{ji}$\na finitely generated $A_j$-algebra.\n\nApply [lem-zl-spread-normalization] to every $A_j\\to B_{ji}$.\nFor fixed $j$, multiply the finitely many nonzero denominators\nto obtain $s_j$. Localizing the resulting finite module\ngenerators once more preserves their generation, so all pieces\nover $D(s_j)\\subset V_j$ simultaneously have finite maps to\nrelative affine spaces. These maps are the explicit\n[def-zl-localized-coordinates] maps.\nThe open subset $V=\\bigcup_jD(s_j)$ still contains every generic\npoint of $Y$, and its pieces and their inverse images give the\nrequired finite partitions over $V$.\n\nThe complement $Y\\setminus V$ is a proper closed subset.\nApply the induction hypothesis to the restriction of $f$ over\nthis complement. Reduced source pieces factor through the reduced\ntarget, since a nilpotent section maps to zero in a reduced ring.\nCombining those partitions with the pieces over $V$ gives finite\npartitions of source and target by locally closed reduced\nsubschemes, as in [def-weil-pbc-scheme-conventions].\nFinally the standard coordinate projections factor each\n$\\mathbf A^d_{Y'_0}\\to Y'_0$ into the $d$ relative affine-line\nprojections of [def-sbc-affine-space].",
+   "All schemes under consideration are Noetherian. We use induction\non closed subsets of the target, with their reduced structures.\nThis induction terminates because a Noetherian space has no infinite\nstrictly descending chain of closed subsets.\n\nFor a nonempty reduced target $Y$, take the finitely many\nirreducible components. In each component choose a nonempty\naffine open avoiding all the other components. These give disjoint\nintegral affine opens $V_j=\\operatorname{Spec}A_j$ of $Y$;\ntheir union contains every generic point of $Y$.\nFor each $j$, apply [lem-zl-affine-partition] to\n$X_0\\times_{Y_0}V_j$. The resulting finitely many reduced affine\npieces are $\\operatorname{Spec}B_{ji}$, with $B_{ji}$\na finitely generated $A_j$-algebra.\n\nApply [lem-zl-spread-normalization] to every $A_j\\to B_{ji}$.\nFor fixed $j$, multiply the finitely many nonzero denominators\nto obtain $s_j$. Localizing the resulting finite module\ngenerators once more preserves their generation, so all pieces\nover $D(s_j)\\subset V_j$ simultaneously have finite maps to\nrelative affine spaces. These maps are the explicit\n[def-zl-localized-coordinates] maps.\nThe open subset $V=\\bigcup_jD(s_j)$ still contains every generic\npoint of $Y$, and its pieces and their inverse images give the\nrequired finite partitions over $V$.\n\nThe complement $Y\\setminus V$ is a proper closed subset.\nApply the induction hypothesis to the restriction of $f$ over\nthis complement. Reduced source pieces factor through the reduced\ntarget, since a nilpotent section maps to zero in a reduced ring.\nCombining those partitions with the pieces over $V$ gives finite\npartitions of source and target by locally closed reduced\nsubschemes, as in [def-weil-pbc-scheme-conventions].\nFinally the standard coordinate projections factor each\n$\\mathbf A^d_{Y'_0}\\to Y'_0$ into the $d$ relative affine-line\nprojections of [def-sbc-affine-space].",
    "attrs": {}},
   {"source":
    {"file":
@@ -66850,6 +66851,18 @@
    "attrs": {}},
   {"source":
    {"file":
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-absolute-frobenius-scheme.md",
+    "anonymous": true},
+   "kind": "refines",
+   "id": "refines/def-weil-absolute-frobenius-scheme/sk-def-sf-admissible",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "def-weil-absolute-frobenius-scheme"},
+    {"role": "tgt", "id": "sk-def-sf-admissible"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
     "blueprint/sec-picard-framework/sk-thm-picard-coherence/def-weil-abstract-derived-category.md",
     "anonymous": true},
    "kind": "refines",
@@ -67517,6 +67530,18 @@
    "boundary":
    [{"role": "src", "id": "def-weil-locally-closed-subset"},
     {"role": "tgt", "id": "sk-prop-nagata-sketch-comp-category"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-locally-ringed-space-morphism.md",
+    "anonymous": true},
+   "kind": "refines",
+   "id": "refines/def-weil-locally-ringed-space-morphism/sk-def-sf-admissible",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "def-weil-locally-ringed-space-morphism"},
+    {"role": "tgt", "id": "sk-def-sf-admissible"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -69012,6 +69037,30 @@
    "boundary":
    [{"role": "src", "id": "def-weil-residue-field"},
     {"role": "tgt", "id": "sk-p-readout"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-ring-frobenius.md",
+    "anonymous": true},
+   "kind": "refines",
+   "id": "refines/def-weil-ring-frobenius/sk-def-sf-admissible",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "def-weil-ring-frobenius"},
+    {"role": "tgt", "id": "sk-def-sf-admissible"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-scheme-characteristic-p.md",
+    "anonymous": true},
+   "kind": "refines",
+   "id": "refines/def-weil-scheme-characteristic-p/sk-def-sf-admissible",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "def-weil-scheme-characteristic-p"},
+    {"role": "tgt", "id": "sk-def-sf-admissible"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -79167,6 +79216,19 @@
    "boundary":
    [{"role": "src", "id": "lem-tw-tate-twist-weight-shift"},
     {"role": "tgt", "id": "sk-p-real-rankin"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/lem-weil-absolute-frobenius-well-defined.md",
+    "anonymous": true},
+   "kind": "refines",
+   "id":
+   "refines/lem-weil-absolute-frobenius-well-defined/sk-def-sf-admissible",
+   "depth": 1,
+   "boundary":
+   [{"role": "src", "id": "lem-weil-absolute-frobenius-well-defined"},
+    {"role": "tgt", "id": "sk-def-sf-admissible"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -142004,7 +142066,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-absolute-frobenius-scheme.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-absolute-frobenius-scheme.md",
     "anonymous": true},
    "kind": "uses",
    "id": "uses/def-weil-absolute-frobenius-scheme/def-pc-scheme",
@@ -142016,7 +142078,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-absolute-frobenius-scheme.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-absolute-frobenius-scheme.md",
     "anonymous": true},
    "kind": "uses",
    "id": "uses/def-weil-absolute-frobenius-scheme/def-weil-affine-spectrum",
@@ -142028,7 +142090,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-absolute-frobenius-scheme.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-absolute-frobenius-scheme.md",
     "anonymous": true},
    "kind": "uses",
    "id":
@@ -142041,7 +142103,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-absolute-frobenius-scheme.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-absolute-frobenius-scheme.md",
     "anonymous": true},
    "kind": "uses",
    "id": "uses/def-weil-absolute-frobenius-scheme/def-weil-ring-frobenius",
@@ -142053,7 +142115,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-absolute-frobenius-scheme.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-absolute-frobenius-scheme.md",
     "anonymous": true},
    "kind": "uses",
    "id":
@@ -142066,7 +142128,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-absolute-frobenius-scheme.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-absolute-frobenius-scheme.md",
     "anonymous": true},
    "kind": "uses",
    "id":
@@ -144190,7 +144252,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-locally-ringed-space-morphism.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-locally-ringed-space-morphism.md",
     "anonymous": true},
    "kind": "uses",
    "id": "uses/def-weil-locally-ringed-space-morphism/def-pc-scheme",
@@ -148188,7 +148250,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-scheme-characteristic-p.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-scheme-characteristic-p.md",
     "anonymous": true},
    "kind": "uses",
    "id": "uses/def-weil-scheme-characteristic-p/def-pc-scheme",
@@ -195983,7 +196045,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/lem-weil-absolute-frobenius-well-defined.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/lem-weil-absolute-frobenius-well-defined.md",
     "anonymous": true},
    "kind": "uses",
    "id": "uses/lem-weil-absolute-frobenius-well-defined/def-pc-scheme",
@@ -195995,7 +196057,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/lem-weil-absolute-frobenius-well-defined.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/lem-weil-absolute-frobenius-well-defined.md",
     "anonymous": true},
    "kind": "uses",
    "id":
@@ -196008,7 +196070,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/lem-weil-absolute-frobenius-well-defined.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/lem-weil-absolute-frobenius-well-defined.md",
     "anonymous": true},
    "kind": "uses",
    "id":
@@ -196021,7 +196083,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/lem-weil-absolute-frobenius-well-defined.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/lem-weil-absolute-frobenius-well-defined.md",
     "anonymous": true},
    "kind": "uses",
    "id":
@@ -196034,7 +196096,7 @@
    "attrs": {}},
   {"source":
    {"file":
-    "blueprint/sec-smooth-purity/sk-unknown/lem-weil-absolute-frobenius-well-defined.md",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/lem-weil-absolute-frobenius-well-defined.md",
     "anonymous": true},
    "kind": "uses",
    "id":
@@ -227056,11 +227118,98 @@
     "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-a1-fourier-middle-hc1.proof.md",
     "anonymous": true},
    "kind": "uses",
+   "id":
+   "uses/proof~cor-a1-fourier-middle-hc1/cor-fd-l2-plancherel-middle-extension",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-a1-fourier-middle-hc1"},
+    {"role": "tgt", "id": "cor-fd-l2-plancherel-middle-extension"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-a1-fourier-middle-hc1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
    "id": "uses/proof~cor-a1-fourier-middle-hc1/cor-fd-origin-stationary-phase",
    "depth": 2,
    "boundary":
    [{"role": "src", "id": "proof/cor-a1-fourier-middle-hc1"},
     {"role": "tgt", "id": "cor-fd-origin-stationary-phase"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-a1-fourier-middle-hc1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~cor-a1-fourier-middle-hc1/def-fd-nonexceptional",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-a1-fourier-middle-hc1"},
+    {"role": "tgt", "id": "def-fd-nonexceptional"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-a1-fourier-middle-hc1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~cor-a1-fourier-middle-hc1/def-weil-punctual-weights",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-a1-fourier-middle-hc1"},
+    {"role": "tgt", "id": "def-weil-punctual-weights"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-a1-fourier-middle-hc1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~cor-a1-fourier-middle-hc1/def-wf-fundamental-representation",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-a1-fourier-middle-hc1"},
+    {"role": "tgt", "id": "def-wf-fundamental-representation"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-a1-fourier-middle-hc1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~cor-a1-fourier-middle-hc1/def-wf-middle-extension",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-a1-fourier-middle-hc1"},
+    {"role": "tgt", "id": "def-wf-middle-extension"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-a1-fourier-middle-hc1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~cor-a1-fourier-middle-hc1/lem-a1-unramified-nonexceptional",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-a1-fourier-middle-hc1"},
+    {"role": "tgt", "id": "lem-a1-unramified-nonexceptional"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-a1-fourier-middle-hc1.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~cor-a1-fourier-middle-hc1/lem-wf-boundary-semicontinuity",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-a1-fourier-middle-hc1"},
+    {"role": "tgt", "id": "lem-wf-boundary-semicontinuity"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -227112,6 +227261,94 @@
    "boundary":
    [{"role": "src", "id": "proof/cor-chow-lemma-proper"},
     {"role": "tgt", "id": "lemma-nagata-proper-to-separated-target"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-fd-origin-stationary-phase.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~cor-fd-origin-stationary-phase/def-fd-transform",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-fd-origin-stationary-phase"},
+    {"role": "tgt", "id": "def-fd-transform"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-fd-origin-stationary-phase.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~cor-fd-origin-stationary-phase/def-weil-ordinary-compact-cohomology",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-fd-origin-stationary-phase"},
+    {"role": "tgt", "id": "def-weil-ordinary-compact-cohomology"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-fd-origin-stationary-phase.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~cor-fd-origin-stationary-phase/def-wf-middle-extension",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-fd-origin-stationary-phase"},
+    {"role": "tgt", "id": "def-wf-middle-extension"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-fd-origin-stationary-phase.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~cor-fd-origin-stationary-phase/lem-a1-unramified-nonexceptional",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-fd-origin-stationary-phase"},
+    {"role": "tgt", "id": "lem-a1-unramified-nonexceptional"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-fd-origin-stationary-phase.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~cor-fd-origin-stationary-phase/lem-fd-stalk-at-origin",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-fd-origin-stationary-phase"},
+    {"role": "tgt", "id": "lem-fd-stalk-at-origin"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-fd-origin-stationary-phase.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~cor-fd-origin-stationary-phase/lem-wf-boundary-stalk-invariants",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-fd-origin-stationary-phase"},
+    {"role": "tgt", "id": "lem-wf-boundary-stalk-invariants"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-c-dl-a1-hc1/cor-fd-origin-stationary-phase.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~cor-fd-origin-stationary-phase/prop-a1-fourier-middle-extension",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/cor-fd-origin-stationary-phase"},
+    {"role": "tgt", "id": "prop-a1-fourier-middle-extension"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -228086,6 +228323,248 @@
    "boundary":
    [{"role": "src", "id": "proof/def-weil-pbc-etale-constructible-sheaf"},
     {"role": "tgt", "id": "def-weil-pbc-inverse-image"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-l-dl-a1-endpoints/lem-a1-geometric-coinvariants-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-geometric-coinvariants-pure/def-weil-frobenius-module-weights",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-geometric-coinvariants-pure"},
+    {"role": "tgt", "id": "def-weil-frobenius-module-weights"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-l-dl-a1-endpoints/lem-a1-geometric-coinvariants-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-geometric-coinvariants-pure/def-weil-punctual-weights",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-geometric-coinvariants-pure"},
+    {"role": "tgt", "id": "def-weil-punctual-weights"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-l-dl-a1-endpoints/lem-a1-geometric-coinvariants-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-geometric-coinvariants-pure/def-wf-fundamental-representation",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-geometric-coinvariants-pure"},
+    {"role": "tgt", "id": "def-wf-fundamental-representation"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-l-dl-a1-endpoints/lem-a1-geometric-coinvariants-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-a1-geometric-coinvariants-pure/p-linear-filtration",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-geometric-coinvariants-pure"},
+    {"role": "tgt", "id": "p-linear-filtration"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-local-boundary-duality/def-weil-exceptional-inverse-image",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "def-weil-exceptional-inverse-image"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-local-boundary-duality/def-weil-open-closed-recollement",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "def-weil-open-closed-recollement"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-a1-local-boundary-duality/def-wf-tate-twist",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "def-wf-tate-twist"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-a1-local-boundary-duality/fix-cor-verdier-exchange",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "fix-cor-verdier-exchange"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-local-boundary-duality/lem-cbc-open-closed-recollement",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "lem-cbc-open-closed-recollement"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-a1-local-boundary-duality/lem-fix-weil-operations",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "lem-fix-weil-operations"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-local-boundary-duality/lem-pod-cohomology-of-dual-over-field",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "lem-pod-cohomology-of-dual-over-field"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-local-boundary-duality/prop-pur-rational-purity-trace-coherence",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "prop-pur-rational-purity-trace-coherence"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-local-boundary-duality/prop-sf-closed-immersion-unit",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "prop-sf-closed-immersion-unit"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-local-boundary-duality/prop-sf-closed-unit-all-stages",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "prop-sf-closed-unit-all-stages"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-local-boundary-duality/prop-sf-localization-all-stages",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "prop-sf-localization-all-stages"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-local-boundary-duality/prop-sf-open-closed-triangle-all-stages",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "prop-sf-open-closed-triangle-all-stages"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-local-boundary-duality/prop-weil-open-closed-recollement-adjunctions",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "prop-weil-open-closed-recollement-adjunctions"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-a1-local-boundary-duality/thm-coef-qbar-verdier",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "thm-coef-qbar-verdier"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-i-dl-a1-local/lem-a1-local-boundary-duality.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-a1-local-boundary-duality/thm-pur-rational-and-qbar-purity",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-a1-local-boundary-duality"},
+    {"role": "tgt", "id": "thm-pur-rational-and-qbar-purity"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -230137,6 +230616,18 @@
    "boundary":
    [{"role": "src", "id": "proof/lem-sp-exact-functor-couple"},
     {"role": "tgt", "id": "thm-sp-half-plane-convergence"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-p-dl-general-relative-line/lem-tw-punctual-rescaling.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-tw-punctual-rescaling/def-weil-punctual-weights",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-tw-punctual-rescaling"},
+    {"role": "tgt", "id": "def-weil-punctual-weights"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -233213,6 +233704,18 @@
    "attrs": {}},
   {"source":
    {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-l-dl-a1-endpoints/lem-weil-pbc-mittag-leffler.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-weil-pbc-mittag-leffler/prop-weil-pbc-roos-triangle",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-weil-pbc-mittag-leffler"},
+    {"role": "tgt", "id": "prop-weil-pbc-roos-triangle"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
     "blueprint/sec-proper-base-change/sk-thm-reduction/lem-weil-pbc-module-sheaves-colimits-forgetful.proof.md",
     "anonymous": true},
    "kind": "uses",
@@ -234823,6 +235326,42 @@
    "attrs": {}},
   {"source":
    {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-l-dl-a1-energy/lem-wf-envelope-real.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-wf-envelope-real/def-weil-punctual-weights",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-wf-envelope-real"},
+    {"role": "tgt", "id": "def-weil-punctual-weights"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-l-dl-a1-energy/lem-wf-envelope-real.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-wf-envelope-real/def-wf-iota-real",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-wf-envelope-real"},
+    {"role": "tgt", "id": "def-wf-iota-real"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-l-dl-a1-energy/lem-wf-envelope-real.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-wf-envelope-real/def-wf-normalized-real-envelope",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-wf-envelope-real"},
+    {"role": "tgt", "id": "def-wf-normalized-real-envelope"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
     "blueprint/sec-deligne-laumon-a1/sk-l-dl-a1-energy/lem-wf-l2-purity-rigidity.proof.md",
     "anonymous": true},
    "kind": "uses",
@@ -234883,6 +235422,18 @@
    "attrs": {}},
   {"source":
    {"file":
+    "blueprint/sec-deligne-laumon-general/sk-l-dl-general-normalization/lem-zl-affine-partition.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-zl-affine-partition/def-weil-pbc-scheme-conventions",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-affine-partition"},
+    {"role": "tgt", "id": "def-weil-pbc-scheme-conventions"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
     "blueprint/sec-deligne-laumon-general/sk-i-dl-general-real/lem-zl-curve-testing-irreducibility.proof.md",
     "anonymous": true},
    "kind": "uses",
@@ -234892,6 +235443,192 @@
    "boundary":
    [{"role": "src", "id": "proof/lem-zl-curve-testing-irreducibility"},
     {"role": "tgt", "id": "lem-zl-bertini-finite-cover-curve"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-i-dl-general-real/lem-zl-finite-matrix-irreducibility.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-zl-finite-matrix-irreducibility/lem-wf-schur-scalar",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-finite-matrix-irreducibility"},
+    {"role": "tgt", "id": "lem-wf-schur-scalar"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-i-dl-general-real/lem-zl-finite-matrix-irreducibility.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-zl-finite-matrix-irreducibility/p-real-integral",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-finite-matrix-irreducibility"},
+    {"role": "tgt", "id": "p-real-integral"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-i-dl-general-real/lem-zl-geometric-constituents-any-base.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-zl-geometric-constituents-any-base/def-weil-pbc-qbar-category",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-geometric-constituents-any-base"},
+    {"role": "tgt", "id": "def-weil-pbc-qbar-category"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-i-dl-general-real/lem-zl-geometric-constituents-any-base.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-zl-geometric-constituents-any-base/def-wf-weil-group",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-geometric-constituents-any-base"},
+    {"role": "tgt", "id": "def-wf-weil-group"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-i-dl-general-real/lem-zl-geometric-constituents-any-base.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-zl-geometric-constituents-any-base/lem-mg-normal-restriction-semisimple",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-geometric-constituents-any-base"},
+    {"role": "tgt", "id": "lem-mg-normal-restriction-semisimple"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-i-dl-general-real/lem-zl-geometric-constituents-any-base.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-zl-geometric-constituents-any-base/lem-wf-finite-index-restriction-semisimple",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-geometric-constituents-any-base"},
+    {"role": "tgt", "id": "lem-wf-finite-index-restriction-semisimple"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-i-dl-general-real/lem-zl-geometric-constituents-any-base.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-zl-geometric-constituents-any-base/lem-wf-schur-scalar",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-geometric-constituents-any-base"},
+    {"role": "tgt", "id": "lem-wf-schur-scalar"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-i-dl-general-real/lem-zl-geometric-constituents-any-base.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-zl-geometric-constituents-any-base/lem-wf-weil-group-constant-extension",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-geometric-constituents-any-base"},
+    {"role": "tgt", "id": "lem-wf-weil-group-constant-extension"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-l-dl-general-quasifinite/lem-zl-quasi-finite.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-zl-quasi-finite/def-weil-complex-weights",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-quasi-finite"},
+    {"role": "tgt", "id": "def-weil-complex-weights"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-l-dl-general-quasifinite/lem-zl-quasi-finite.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-zl-quasi-finite/def-weil-extension-by-zero",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-quasi-finite"},
+    {"role": "tgt", "id": "def-weil-extension-by-zero"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-l-dl-general-quasifinite/lem-zl-quasi-finite.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-zl-quasi-finite/def-weil-pbc-qbar-category",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-quasi-finite"},
+    {"role": "tgt", "id": "def-weil-pbc-qbar-category"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-l-dl-general-quasifinite/lem-zl-quasi-finite.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-zl-quasi-finite/lem-zl-finite-pushforward",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-quasi-finite"},
+    {"role": "tgt", "id": "lem-zl-finite-pushforward"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-l-dl-general-quasifinite/lem-zl-quasi-finite.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~lem-zl-quasi-finite/lemma-weil-pbc-finite-direct-image-exact",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-quasi-finite"},
+    {"role": "tgt", "id": "lemma-weil-pbc-finite-direct-image-exact"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-l-dl-general-quasifinite/lem-zl-quasi-finite.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-zl-quasi-finite/prop-functor-package",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-quasi-finite"},
+    {"role": "tgt", "id": "prop-functor-package"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-l-dl-general-quasifinite/lem-zl-quasi-finite.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-zl-quasi-finite/thm-pqf-zmt-factorization",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-quasi-finite"},
+    {"role": "tgt", "id": "thm-pqf-zmt-factorization"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -234943,6 +235680,18 @@
    "boundary":
    [{"role": "src", "id": "proof/lem-zl-relative-curve-mixedness"},
     {"role": "tgt", "id": "thm-zl-real-mixed-by-curves"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-l-dl-general-normalization/lem-zl-spread-normalization.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~lem-zl-spread-normalization/def-zl-localized-coordinates",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/lem-zl-spread-normalization"},
+    {"role": "tgt", "id": "def-zl-localized-coordinates"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -245239,6 +245988,127 @@
    "attrs": {}},
   {"source":
    {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-exact/p-dl-a1-exact.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~p-dl-a1-exact/def-weil-derived-direct-image",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/p-dl-a1-exact"},
+    {"role": "tgt", "id": "def-weil-derived-direct-image"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-exact/p-dl-a1-exact.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~p-dl-a1-exact/def-wf-middle-extension",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/p-dl-a1-exact"},
+    {"role": "tgt", "id": "def-wf-middle-extension"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-exact/p-dl-a1-exact.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~p-dl-a1-exact/lem-a1-local-boundary-duality",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/p-dl-a1-exact"},
+    {"role": "tgt", "id": "lem-a1-local-boundary-duality"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-exact/p-dl-a1-exact.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~p-dl-a1-exact/lem-a1-spectrum-exact-sequence",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/p-dl-a1-exact"},
+    {"role": "tgt", "id": "lem-a1-spectrum-exact-sequence"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-exact/p-dl-a1-exact.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~p-dl-a1-exact/lem-fix-weil-operations",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/p-dl-a1-exact"},
+    {"role": "tgt", "id": "lem-fix-weil-operations"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-exact/p-dl-a1-exact.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~p-dl-a1-exact/lem-tw-dual-negation",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/p-dl-a1-exact"},
+    {"role": "tgt", "id": "lem-tw-dual-negation"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-exact/p-dl-a1-exact.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~p-dl-a1-exact/lem-wf-boundary-semicontinuity",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/p-dl-a1-exact"},
+    {"role": "tgt", "id": "lem-wf-boundary-semicontinuity"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-exact/p-dl-a1-exact.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~p-dl-a1-exact/lem-wf-tate-twist-frobenius",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/p-dl-a1-exact"},
+    {"role": "tgt", "id": "lem-wf-tate-twist-frobenius"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-exact/p-dl-a1-exact.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~p-dl-a1-exact/p-linear-spectra",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/p-dl-a1-exact"},
+    {"role": "tgt", "id": "p-linear-spectra"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-exact/p-dl-a1-exact.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~p-dl-a1-exact/prop-weil-open-closed-recollement-adjunctions",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/p-dl-a1-exact"},
+    {"role": "tgt", "id": "prop-weil-open-closed-recollement-adjunctions"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
     "blueprint/sec-abelian-varieties/sk-prop-av-tate-rank/prop-av-tate-rank.proof.md",
     "anonymous": true},
    "kind": "uses",
@@ -245596,6 +246466,119 @@
    "boundary":
    [{"role": "src", "id": "proof/prop-constructible-pullback"},
     {"role": "tgt", "id": "lemma-constructible-pullback-stratification"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-correction/prop-fd-zero-extension-comparison.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~prop-fd-zero-extension-comparison/def-fd-artin-schreier-sheaf",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/prop-fd-zero-extension-comparison"},
+    {"role": "tgt", "id": "def-fd-artin-schreier-sheaf"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-correction/prop-fd-zero-extension-comparison.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~prop-fd-zero-extension-comparison/def-fd-kernel",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/prop-fd-zero-extension-comparison"},
+    {"role": "tgt", "id": "def-fd-kernel"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-correction/prop-fd-zero-extension-comparison.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~prop-fd-zero-extension-comparison/def-fd-transform",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/prop-fd-zero-extension-comparison"},
+    {"role": "tgt", "id": "def-fd-transform"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-correction/prop-fd-zero-extension-comparison.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~prop-fd-zero-extension-comparison/def-weil-punctual-weights",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/prop-fd-zero-extension-comparison"},
+    {"role": "tgt", "id": "def-weil-punctual-weights"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-correction/prop-fd-zero-extension-comparison.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~prop-fd-zero-extension-comparison/lem-fd-as-trace",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/prop-fd-zero-extension-comparison"},
+    {"role": "tgt", "id": "lem-fd-as-trace"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-correction/prop-fd-zero-extension-comparison.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~prop-fd-zero-extension-comparison/lem-fd-first-formula",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/prop-fd-zero-extension-comparison"},
+    {"role": "tgt", "id": "lem-fd-first-formula"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-correction/prop-fd-zero-extension-comparison.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~prop-fd-zero-extension-comparison/lem-wf-boundary-semicontinuity",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/prop-fd-zero-extension-comparison"},
+    {"role": "tgt", "id": "lem-wf-boundary-semicontinuity"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-correction/prop-fd-zero-extension-comparison.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~prop-fd-zero-extension-comparison/prop-a1-fourier-middle-extension",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/prop-fd-zero-extension-comparison"},
+    {"role": "tgt", "id": "prop-a1-fourier-middle-extension"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-correction/prop-fd-zero-extension-comparison.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~prop-fd-zero-extension-comparison/thm-fd-transform-well-defined",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/prop-fd-zero-extension-comparison"},
+    {"role": "tgt", "id": "thm-fd-transform-well-defined"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -248036,6 +249019,147 @@
    "attrs": {}},
   {"source":
    {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-some-weight/thm-fd-generic-fourier-sheaf-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~thm-fd-generic-fourier-sheaf-pure/cor-wf-unramified-boundary-purity",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-fd-generic-fourier-sheaf-pure"},
+    {"role": "tgt", "id": "cor-wf-unramified-boundary-purity"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-some-weight/thm-fd-generic-fourier-sheaf-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~thm-fd-generic-fourier-sheaf-pure/def-wf-determinantal-weight",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-fd-generic-fourier-sheaf-pure"},
+    {"role": "tgt", "id": "def-wf-determinantal-weight"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-some-weight/thm-fd-generic-fourier-sheaf-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~thm-fd-generic-fourier-sheaf-pure/def-wf-iota-real",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-fd-generic-fourier-sheaf-pure"},
+    {"role": "tgt", "id": "def-wf-iota-real"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-some-weight/thm-fd-generic-fourier-sheaf-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~thm-fd-generic-fourier-sheaf-pure/def-wf-middle-extension",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-fd-generic-fourier-sheaf-pure"},
+    {"role": "tgt", "id": "def-wf-middle-extension"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-some-weight/thm-fd-generic-fourier-sheaf-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~thm-fd-generic-fourier-sheaf-pure/fin2-lem-lisse-dense-open",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-fd-generic-fourier-sheaf-pure"},
+    {"role": "tgt", "id": "fin2-lem-lisse-dense-open"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-some-weight/thm-fd-generic-fourier-sheaf-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~thm-fd-generic-fourier-sheaf-pure/lem-a1-constituent-nonexceptional-comparison",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-fd-generic-fourier-sheaf-pure"},
+    {"role": "tgt", "id": "lem-a1-constituent-nonexceptional-comparison"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-some-weight/thm-fd-generic-fourier-sheaf-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~thm-fd-generic-fourier-sheaf-pure/lem-fd-constituent-nonexceptional-concentration",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-fd-generic-fourier-sheaf-pure"},
+    {"role": "tgt", "id": "lem-fd-constituent-nonexceptional-concentration"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-some-weight/thm-fd-generic-fourier-sheaf-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~thm-fd-generic-fourier-sheaf-pure/lem-fd-realified-kernel-real",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-fd-generic-fourier-sheaf-pure"},
+    {"role": "tgt", "id": "lem-fd-realified-kernel-real"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-some-weight/thm-fd-generic-fourier-sheaf-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~thm-fd-generic-fourier-sheaf-pure/lem-fd-realness-pushforward",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-fd-generic-fourier-sheaf-pure"},
+    {"role": "tgt", "id": "lem-fd-realness-pushforward"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-some-weight/thm-fd-generic-fourier-sheaf-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~thm-fd-generic-fourier-sheaf-pure/prop-fd-zero-extension-comparison",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-fd-generic-fourier-sheaf-pure"},
+    {"role": "tgt", "id": "prop-fd-zero-extension-comparison"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-a1/sk-p-dl-a1-some-weight/thm-fd-generic-fourier-sheaf-pure.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id":
+   "uses/proof~thm-fd-generic-fourier-sheaf-pure/thm-rp-real-lisse-purity-affine",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-fd-generic-fourier-sheaf-pure"},
+    {"role": "tgt", "id": "thm-rp-real-lisse-purity-affine"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
     "blueprint/sec-nagata-compactification/sk-lem-nagata-sketch-blowups/thm-nagata-blowup-principalizes-center.proof.md",
     "anonymous": true},
    "kind": "uses",
@@ -250232,6 +251356,30 @@
    "boundary":
    [{"role": "src", "id": "proof/thm-zl-relative-affine-curve-core"},
     {"role": "tgt", "id": "lem-zl-relative-curve-punctual"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-l-dl-general-normalization/thm-zl-relative-noether.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~thm-zl-relative-noether/def-sbc-affine-space",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-zl-relative-noether"},
+    {"role": "tgt", "id": "def-sbc-affine-space"}],
+   "body": "",
+   "attrs": {}},
+  {"source":
+   {"file":
+    "blueprint/sec-deligne-laumon-general/sk-l-dl-general-normalization/thm-zl-relative-noether.proof.md",
+    "anonymous": true},
+   "kind": "uses",
+   "id": "uses/proof~thm-zl-relative-noether/def-weil-pbc-scheme-conventions",
+   "depth": 2,
+   "boundary":
+   [{"role": "src", "id": "proof/thm-zl-relative-noether"},
+    {"role": "tgt", "id": "def-weil-pbc-scheme-conventions"}],
    "body": "",
    "attrs": {}},
   {"source":
@@ -376725,7 +377873,7 @@
     "sk-def-sf-operations": {"total": 43, "proved": 3},
     "sk-def-sf-kv-maps": {"total": 1, "proved": 0},
     "sk-def-sf-exchanges": {"total": 1, "proved": 0},
-    "sk-def-sf-admissible": {"total": 14, "proved": 1},
+    "sk-def-sf-admissible": {"total": 19, "proved": 2},
     "sk-def-roots": {"total": 8, "proved": 0},
     "sk-def-purity-conv": {"total": 12, "proved": 0},
     "sk-def-picard-pic": {"total": 8, "proved": 2},
@@ -376810,7 +377958,7 @@
     "sk-c-dl-a1-hc1": {"total": 2, "proved": 0},
     "sec-zeta-weil": {"total": 58, "proved": 1},
     "sec-trace-formula": {"total": 85, "proved": 0},
-    "sec-smooth-purity": {"total": 516, "proved": 17},
+    "sec-smooth-purity": {"total": 521, "proved": 18},
     "sec-smooth-base-change": {"total": 69, "proved": 2},
     "sec-six-functors-basics": {"total": 264, "proved": 47},
     "sec-six-functors": {"total": 141, "proved": 1},
@@ -383345,7 +384493,7 @@
     "code": "missing-lean"},
    {"objects": ["def-weil-ring-frobenius"],
     "message":
-    "blueprint/sec-smooth-purity/sk-unknown/def-weil-ring-frobenius.md: 'def-weil-ring-frobenius' names 'frobenius, iterateFrobenius', which the extractor did not find",
+    "blueprint/sec-smooth-purity/sk-def-sf-admissible/def-weil-ring-frobenius.md: 'def-weil-ring-frobenius' names 'frobenius, iterateFrobenius', which the extractor did not find",
     "level": "error",
     "code": "missing-lean"},
    {"objects": ["def-weil-unramified-morphism"],
@@ -455825,6 +456973,36 @@
     "'uses' edge p-linear-spectra -> d-weights is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
+   {"objects": ["proof/cor-a1-fourier-middle-hc1", "def-fd-nonexceptional"],
+    "message":
+    "'uses' edge proof/cor-a1-fourier-middle-hc1 -> def-fd-nonexceptional is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
+    ["proof/cor-a1-fourier-middle-hc1", "lem-a1-unramified-nonexceptional"],
+    "message":
+    "'uses' edge proof/cor-a1-fourier-middle-hc1 -> lem-a1-unramified-nonexceptional is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["proof/cor-fd-origin-stationary-phase", "def-fd-transform"],
+    "message":
+    "'uses' edge proof/cor-fd-origin-stationary-phase -> def-fd-transform is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
+    ["proof/cor-fd-origin-stationary-phase",
+     "lem-a1-unramified-nonexceptional"],
+    "message":
+    "'uses' edge proof/cor-fd-origin-stationary-phase -> lem-a1-unramified-nonexceptional is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
+    ["proof/cor-fd-origin-stationary-phase",
+     "prop-a1-fourier-middle-extension"],
+    "message":
+    "'uses' edge proof/cor-fd-origin-stationary-phase -> prop-a1-fourier-middle-extension is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
    {"objects":
     ["proof/def-sfb-comap-lower-star-iso", "def-sfb-comap-mapmod-square"],
     "message":
@@ -456018,6 +457196,12 @@
      "sk-prop-sfb-cartesian-coefficients"],
     "message":
     "'uses' edge proof/def-sfb-module-open-lower-shriek-adjunction -> sk-prop-sfb-cartesian-coefficients is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
+    ["proof/lem-a1-geometric-coinvariants-pure", "p-linear-filtration"],
+    "message":
+    "'uses' edge proof/lem-a1-geometric-coinvariants-pure -> p-linear-filtration is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects":
@@ -456288,6 +457472,64 @@
     "level": "info",
     "code": "declared-not-actual"},
    {"objects":
+    ["proof/lem-zl-quasi-finite", "lemma-weil-pbc-finite-direct-image-exact"],
+    "message":
+    "'uses' edge proof/lem-zl-quasi-finite -> lemma-weil-pbc-finite-direct-image-exact is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
+    ["proof/lem-zl-spread-normalization", "def-zl-localized-coordinates"],
+    "message":
+    "'uses' edge proof/lem-zl-spread-normalization -> def-zl-localized-coordinates is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["proof/p-dl-a1-exact", "lem-a1-local-boundary-duality"],
+    "message":
+    "'uses' edge proof/p-dl-a1-exact -> lem-a1-local-boundary-duality is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["proof/p-dl-a1-exact", "p-linear-spectra"],
+    "message":
+    "'uses' edge proof/p-dl-a1-exact -> p-linear-spectra is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
+    ["proof/prop-fd-zero-extension-comparison", "def-fd-artin-schreier-sheaf"],
+    "message":
+    "'uses' edge proof/prop-fd-zero-extension-comparison -> def-fd-artin-schreier-sheaf is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["proof/prop-fd-zero-extension-comparison", "def-fd-kernel"],
+    "message":
+    "'uses' edge proof/prop-fd-zero-extension-comparison -> def-fd-kernel is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects": ["proof/prop-fd-zero-extension-comparison", "def-fd-transform"],
+    "message":
+    "'uses' edge proof/prop-fd-zero-extension-comparison -> def-fd-transform is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
+    ["proof/prop-fd-zero-extension-comparison", "lem-fd-first-formula"],
+    "message":
+    "'uses' edge proof/prop-fd-zero-extension-comparison -> lem-fd-first-formula is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
+    ["proof/prop-fd-zero-extension-comparison",
+     "prop-a1-fourier-middle-extension"],
+    "message":
+    "'uses' edge proof/prop-fd-zero-extension-comparison -> prop-a1-fourier-middle-extension is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
+    ["proof/prop-fd-zero-extension-comparison",
+     "thm-fd-transform-well-defined"],
+    "message":
+    "'uses' edge proof/prop-fd-zero-extension-comparison -> thm-fd-transform-well-defined is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
     ["proof/prop-sfb-bounded-constructible-triangulated",
      "def-constructible-stratification"],
     "message":
@@ -456448,6 +457690,20 @@
     ["proof/sk-thm-sfb-shriek-base-change", "sk-thm-sfb-proper-base-change"],
     "message":
     "'uses' edge proof/sk-thm-sfb-shriek-base-change -> sk-thm-sfb-proper-base-change is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
+    ["proof/thm-fd-generic-fourier-sheaf-pure",
+     "lem-a1-constituent-nonexceptional-comparison"],
+    "message":
+    "'uses' edge proof/thm-fd-generic-fourier-sheaf-pure -> lem-a1-constituent-nonexceptional-comparison is declared, but the Lean dependency graph does not show it",
+    "level": "info",
+    "code": "declared-not-actual"},
+   {"objects":
+    ["proof/thm-fd-generic-fourier-sheaf-pure",
+     "prop-fd-zero-extension-comparison"],
+    "message":
+    "'uses' edge proof/thm-fd-generic-fourier-sheaf-pure -> prop-fd-zero-extension-comparison is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
    {"objects":
@@ -461160,75 +462416,6 @@
     "'uses' edge thm-zl-real-mixed-by-curves -> lem-zl-geometric-constituents-any-base is declared, but the Lean dependency graph does not show it",
     "level": "info",
     "code": "declared-not-actual"},
-   {"objects": ["def-weil-absolute-frobenius-scheme", "sec-abelian-varieties"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives def-weil-absolute-frobenius-scheme -> sec-abelian-varieties, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects":
-    ["def-weil-absolute-frobenius-scheme", "sec-nagata-compactification"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives def-weil-absolute-frobenius-scheme -> sec-nagata-compactification, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects": ["def-weil-absolute-frobenius-scheme", "sk-def-av-jacobian"],
-    "message":
-    "under 'refines' (expanding 'sec-abelian-varieties'): a hidden 'uses' edge gives def-weil-absolute-frobenius-scheme -> sk-def-av-jacobian, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects":
-    ["def-weil-absolute-frobenius-scheme",
-     "sk-prop-nagata-sketch-comp-category"],
-    "message":
-    "under 'refines' (expanding 'sec-nagata-compactification'): a hidden 'uses' edge gives def-weil-absolute-frobenius-scheme -> sk-prop-nagata-sketch-comp-category, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects":
-    ["def-weil-locally-ringed-space-morphism", "sec-abelian-varieties"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives def-weil-locally-ringed-space-morphism -> sec-abelian-varieties, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects": ["def-weil-locally-ringed-space-morphism", "sk-def-av-jacobian"],
-    "message":
-    "under 'refines' (expanding 'sec-abelian-varieties'): a hidden 'uses' edge gives def-weil-locally-ringed-space-morphism -> sk-def-av-jacobian, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects": ["def-weil-scheme-characteristic-p", "sec-abelian-varieties"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives def-weil-scheme-characteristic-p -> sec-abelian-varieties, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects": ["def-weil-scheme-characteristic-p", "sk-def-av-jacobian"],
-    "message":
-    "under 'refines' (expanding 'sec-abelian-varieties'): a hidden 'uses' edge gives def-weil-scheme-characteristic-p -> sk-def-av-jacobian, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects":
-    ["lem-weil-absolute-frobenius-well-defined", "sec-abelian-varieties"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives lem-weil-absolute-frobenius-well-defined -> sec-abelian-varieties, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects":
-    ["lem-weil-absolute-frobenius-well-defined", "sec-nagata-compactification"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives lem-weil-absolute-frobenius-well-defined -> sec-nagata-compactification, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects":
-    ["lem-weil-absolute-frobenius-well-defined", "sk-def-av-jacobian"],
-    "message":
-    "under 'refines' (expanding 'sec-abelian-varieties'): a hidden 'uses' edge gives lem-weil-absolute-frobenius-well-defined -> sk-def-av-jacobian, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects":
-    ["lem-weil-absolute-frobenius-well-defined",
-     "sk-prop-nagata-sketch-comp-category"],
-    "message":
-    "under 'refines' (expanding 'sec-nagata-compactification'): a hidden 'uses' edge gives lem-weil-absolute-frobenius-well-defined -> sk-prop-nagata-sketch-comp-category, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
    {"objects": ["sec-abelian-varieties", "sk-def-conv"],
     "message":
     "under 'refines' (expanding 'sec-nagata-compactification'): a hidden 'uses' edge gives sec-abelian-varieties -> sk-def-conv, which the coarse story does not declare",
@@ -462463,12 +463650,6 @@
    {"objects": ["sec-poincare-duality", "sk-thm-smooth-purity"],
     "message":
     "under 'refines' (expanding 'sec-smooth-purity'): a hidden 'uses' edge gives sec-poincare-duality -> sk-thm-smooth-purity, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects":
-    ["sec-proper-base-change", "def-weil-locally-ringed-space-morphism"],
-    "message":
-    "under 'refines' (fully collapsed): a hidden 'uses' edge gives sec-proper-base-change -> def-weil-locally-ringed-space-morphism, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
    {"objects": ["sec-proper-base-change", "sec-abelian-varieties"],
@@ -465005,6 +466186,11 @@
    {"objects": ["sk-def-set", "sec-smooth-purity"],
     "message":
     "under 'refines' (expanding 'sec-poincare-duality'): a hidden 'uses' edge gives sk-def-set -> sec-smooth-purity, which the coarse story does not declare",
+    "level": "info",
+    "code": "undeclared-edge"},
+   {"objects": ["sk-def-sf-admissible", "sec-abelian-varieties"],
+    "message":
+    "under 'refines' (expanding 'sec-smooth-purity'): a hidden 'uses' edge gives sk-def-sf-admissible -> sec-abelian-varieties, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
    {"objects": ["sk-def-sf-admissible", "sec-nagata-compactification"],
@@ -469722,11 +470908,6 @@
     ["sk-thm-nagata-sketch-two-open", "sk-prop-nagata-sketch-prepared"],
     "message":
     "under 'refines' (expanding 'sec-nagata-compactification'): a hidden 'uses' edge gives sk-thm-nagata-sketch-two-open -> sk-prop-nagata-sketch-prepared, which the coarse story does not declare",
-    "level": "info",
-    "code": "undeclared-edge"},
-   {"objects": ["sk-thm-p1", "def-weil-locally-ringed-space-morphism"],
-    "message":
-    "under 'refines' (expanding 'sec-proper-base-change'): a hidden 'uses' edge gives sk-thm-p1 -> def-weil-locally-ringed-space-morphism, which the coarse story does not declare",
     "level": "info",
     "code": "undeclared-edge"},
    {"objects": ["sk-thm-p1", "sec-abelian-varieties"],

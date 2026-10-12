@@ -175,6 +175,13 @@
    "file": "data/08c7e133095cabd3c540c569cd02cb5a4f04ba7b.json",
    "date": "2026-10-12"},
   {"summary":
+   {"total": 3147,
+    "proved": 638,
+    "byStatus": {"stated": 335, "proved": 638, "missing": 261, "absent": 1913}},
+   "sha": "0dee5d32ababf8e7ac26b08a0b6f2fc9cb928547",
+   "file": "data/0dee5d32ababf8e7ac26b08a0b6f2fc9cb928547.json",
+   "date": "2026-10-12"},
+  {"summary":
    {"total": 2671,
     "proved": 496,
     "byStatus": {"stated": 318, "proved": 496, "missing": 22, "absent": 1835}},
