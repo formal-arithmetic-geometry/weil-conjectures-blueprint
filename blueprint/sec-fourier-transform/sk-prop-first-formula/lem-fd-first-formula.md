@@ -2,7 +2,7 @@
 id = "lem-fd-first-formula"
 kind = "lemma"
 title = "The first Fourier formula"
-order = 3005
+order = 3039
 lean = ["AlgebraicGeometry.Etale.fourierTransformUnitIso", "AlgebraicGeometry.Etale.fourierTransformSkyscraperZeroIso"]
 uses = ["cor-pod-untwisted-similitude", "def-fd-transform", "def-pod-perfect-complex-on-x", "def-wf-tate-twist", "lem-fd-affine-line-constant-cohomology", "lem-fd-as-characters", "lem-fd-as-lisse", "lem-fd-cohomology-affine-line-character", "lem-fd-stalk-formula", "thm-pod-degreewise-perfectness-over-a-field"]
 +++

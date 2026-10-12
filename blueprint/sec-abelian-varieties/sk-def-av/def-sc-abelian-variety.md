@@ -3,7 +3,7 @@ id = "def-sc-abelian-variety"
 kind = "definition"
 title = "Abelian varieties"
 lean = ["AlgebraicGeometry.IsAbelianVariety"]
-order = 428
+order = 438
 uses = ["def-sc-group-scheme"]
 +++
 Let $k$ be a field. An *abelian variety* over $k$ is a

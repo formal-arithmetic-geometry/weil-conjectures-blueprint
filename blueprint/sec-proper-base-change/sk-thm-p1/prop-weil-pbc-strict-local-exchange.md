@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-strict-local-exchange"
 kind = "theorem"
 title = "Strict-local projective-line exchange"
-order = 1143
+order = 1182
 uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-henselian-terminology", "prop-weil-pbc-p1-strict-henselian-comparison"]
 tags = ["latex:proposition"]
 +++

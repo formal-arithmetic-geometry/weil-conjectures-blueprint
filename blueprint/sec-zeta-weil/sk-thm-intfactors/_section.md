@@ -2,7 +2,7 @@
 id = "sk-thm-intfactors"
 kind = "theorem"
 title = "Integral Frobenius factors"
-order = 3205
+order = 3239
 lean = ["AlgebraicGeometry.IsWeilFactorization.unique", "TraceDatum.exists_isWeilFactorization"]
 uses = ["sk-def-cohfamily", "sk-def-roots", "sk-prop-rootpurity", "sk-thm-rationality"]
 tags = ["sketch"]

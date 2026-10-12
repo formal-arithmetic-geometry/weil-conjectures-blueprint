@@ -2,7 +2,7 @@
 id = "thm-trf-coefficient-morphism-trace-formula"
 kind = "theorem"
 title = "Trace formula for Frobenius coefficient morphisms over a finite ring"
-order = 2683
+order = 2717
 uses = ["d-lines", "d-relative-frob", "def-trf-admissibility", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-trf-frobenius-coefficient-morphism", "def-trf-weil-shriek-pushforward", "def-weil-finite-field-fiber", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties", "fix-lem-finite-tor-perfect", "i-relative-frob", "i-topology", "lem-sf-proetale-constructible-origin", "lem-trf-chain-supertrace", "lem-trf-compactification-cohomology", "lem-trf-compactification-graph-operator", "lem-trf-global-operator-perfect", "lem-trf-weil-shriek-operator-fibres", "prop-trf-graph-operator", "prop-trf-trace-additivity-open-closed", "prop-trf-trace-formal-laws", "rem-ptr-trf-admissibility-12", "thm-sf-preservation-class", "thm-trf-frobenius-fixed-points", "thm-trf-frobenius-local-term", "thm-trf-lefschetz-verdier"]
 +++
 Fix the global finite-field datum $p,a,q,k_0,k$, where $q=p^a$, and

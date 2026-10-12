@@ -2,7 +2,7 @@
 id = "prop-trf-external-hom"
 kind = "theorem"
 title = "External Hom; the $\\beta$ map"
-order = 2531
+order = 2565
 tags = ["latex:proposition"]
 uses = ["def-sf-kv-maps", "def-trf-admissibility", "lem-sf-tensor-hom", "lem-trf-devissage-generation", "lem-trf-ordinary-kunneth", "prop-sf-dualizable-hom", "prop-trf-exceptional-kunneth"]
 +++

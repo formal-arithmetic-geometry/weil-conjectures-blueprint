@@ -2,7 +2,7 @@
 id = "lem-pur-immersion-twist"
 kind = "lemma"
 title = "The co-projection for the twist"
-order = 2311
+order = 2345
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "lem-pur-coprojection"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

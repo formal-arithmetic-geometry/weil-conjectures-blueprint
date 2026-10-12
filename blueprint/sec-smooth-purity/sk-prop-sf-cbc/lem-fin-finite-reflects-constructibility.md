@@ -2,7 +2,7 @@
 id = "lem-fin-finite-reflects-constructibility"
 kind = "lemma"
 title = "Finite direct image reflects constructibility"
-order = 1930
+order = 1965
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-constructible-subobjects-noetherian", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative", "thm-constructible-serre"]
 +++
 Let $p:Z\to S$ be a

@@ -2,7 +2,7 @@
 id = "def-nagata-affine-neighbourhood-generic-points"
 kind = "definition"
 title = "Affine neighbourhood containing selected generic points"
-order = 314
+order = 321
 uses = ["lemma-nagata-affine-neighbourhood-generic-points-exists"]
 +++
 Let $X$ be quasi-separated, let $x\in X$, and let

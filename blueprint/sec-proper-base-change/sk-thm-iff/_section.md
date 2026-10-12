@@ -2,7 +2,7 @@
 id = "sk-thm-iff"
 kind = "theorem"
 title = "PBC $\\Leftrightarrow$ IA"
-order = 1067
+order = 1099
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_iff_hasInjectiveAcyclicity"]
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-ia", "sk-def-pbc", "sk-thm-acyclicity"]
 tags = ["sketch"]

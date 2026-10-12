@@ -2,7 +2,7 @@
 id = "def-nagata-immersion-into-fp-model"
 kind = "definition"
 title = "Finite-presentation immersion model"
-order = 382
+order = 389
 uses = ["def-nagata-relative-stage-morphism-data", "lemma-nagata-relative-stage-morphism-data-exists"]
 +++
 Let $S$ be qcqs and let $X\to S$ be locally of finite type with $X$

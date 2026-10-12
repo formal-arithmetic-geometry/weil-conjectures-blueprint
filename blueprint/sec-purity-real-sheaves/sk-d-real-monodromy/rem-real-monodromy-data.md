@@ -2,7 +2,7 @@
 id = "rem-real-monodromy-data"
 kind = "remark"
 title = "Monodromy data of a Weil representation"
-order = 2934
+order = 2968
 uses = ["d-monodromy"]
 +++
 For a Weil representation $\rho:W(C_0)\to\mathrm{GL}(V)$ over $\overline{\mathbf Q}_\ell$ with

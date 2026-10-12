@@ -2,7 +2,7 @@
 id = "sk-lem-coprojection"
 kind = "lemma"
 title = "Co-projection for a closed immersion"
-order = 2309
+order = 2343
 uses = ["sk-def-purity-conv"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_derivedTensor_of_isInvertible"]
 tags = ["sketch"]

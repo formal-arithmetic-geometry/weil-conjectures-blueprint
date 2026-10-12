@@ -2,7 +2,7 @@
 id = "sk-thm-picard-main"
 kind = "theorem"
 title = "The Picard functor of a smooth projective curve over a separably closed field is representable"
-order = 836
+order = 842
 uses = ["sk-def-av-jacobian"]
 lean = ["AlgebraicGeometry.isRepresentable_picardFunctor"]
 tags = ["sketch"]

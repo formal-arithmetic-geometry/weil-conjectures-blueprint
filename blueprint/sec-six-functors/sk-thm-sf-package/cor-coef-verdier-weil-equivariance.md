@@ -2,7 +2,7 @@
 id = "cor-coef-verdier-weil-equivariance"
 kind = "theorem"
 title = "Weil equivariance of the completed coefficient duality"
-order = 2545
+order = 2579
 tags = ["latex:corollary"]
 uses = ["def-weil-weil-sheaf-complex", "lem-coef-integral-finite-extension", "lem-coef-rational-operations", "lem-fix-weil-operations", "thm-coef-qbar-verdier", "thm-coef-rational-verdier"]
 +++

@@ -2,7 +2,7 @@
 id = "def-nagata-qc-open-descent"
 kind = "definition"
 title = "Finite-stage model of a quasi-compact open"
-order = 347
+order = 354
 uses = ["def-nagata-basechanged-system", "def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 Fix $\lambda_0$, assume $Y_{\lambda_0}$ is qcqs, and put

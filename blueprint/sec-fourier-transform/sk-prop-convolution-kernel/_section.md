@@ -2,7 +2,7 @@
 id = "sk-prop-convolution-kernel"
 kind = "proposition"
 title = "P12: the convolution of the kernels is the delta kernel"
-order = 3017
+order = 3051
 lean = ["AlgebraicGeometry.Etale.fourierKernelConvolutionIso"]
 uses = ["sk-lem-as-properties", "sk-prop-an", "sk-prop-kernel-lisse", "sk-prop-stalk", "sk-thm-derived-duality"]
 tags = ["sketch"]

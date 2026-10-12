@@ -2,7 +2,7 @@
 id = "prop-galois-weight-strata-integrality"
 kind = "theorem"
 title = "Integrality of the normalized stratum polynomials"
-order = 3211
+order = 3245
 tags = ["latex:proposition"]
 uses = ["def-weil-numbers", "def-weil-ordinary-reciprocal-roots", "prop-galois-weight-strata"]
 +++

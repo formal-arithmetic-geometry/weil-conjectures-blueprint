@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-exchange-identity-pasting"
 kind = "lemma"
 title = "Identity and pasting equations for exchange"
-order = 1044
+order = 1072
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "lemma-weil-pbc-derived-exchange-replacement"]
 +++
 The transformation $\Ex_{\square}$ of the derived exchange morphism

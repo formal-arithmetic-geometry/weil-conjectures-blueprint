@@ -2,7 +2,7 @@
 id = "def-sfb-rationalization-quotient"
 kind = "definition"
 title = "The rationalization"
-order = 1580
+order = 1618
 uses = ["def-sfb-rationalization-morphisms", "lem-sfb-torsion-triangulated"]
 lean = ["CategoryTheory.Rationalization", "CategoryTheory.Rationalization.Q"]
 +++

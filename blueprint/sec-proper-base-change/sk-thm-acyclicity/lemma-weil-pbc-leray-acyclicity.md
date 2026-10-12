@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-leray-acyclicity"
 kind = "lemma"
 title = "Leray acyclicity criterion"
-order = 1066
+order = 1098
 uses = ["def-sp-acyclic", "def-sp-injective-resolutions", "def-sp-kinjective-bridge", "def-sp-left-exact-additive", "def-weil-pbc-direct-image", "def-weil-pbc-injective-acyclicity-property", "def-weil-pbc-kinjective-resolutions", "lem-sp-derived-well-defined", "lem-sp-kinjective-computes", "thm-sp-if-e1"]
 +++
 Let $v:\mathcal A\to\mathcal B$ be a left exact additive functor

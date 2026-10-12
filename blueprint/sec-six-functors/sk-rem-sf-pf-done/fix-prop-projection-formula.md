@@ -2,7 +2,7 @@
 id = "fix-prop-projection-formula"
 kind = "theorem"
 title = "Compact-support projection formula at all coefficient stages"
-order = 2413
+order = 2447
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "def-wf-tensor-product", "lem-fix-weil-operations", "lem-weil-finite-compact-projection-formula", "prop-sf-pf-coherence", "prop-sf-pf-reduction", "thm-sf-pf-adic", "thm-sf-pf-field", "thm-sf-pf-proetale", "thm-sf-comp-composition"]
 +++

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-constructible-complexes"
 kind = "definition"
 title = "Constructible finite-coefficient complexes"
-order = 1108
+order = 1146
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++
 Let $\Lambda$ be a finite commutative ring. A sheaf of $\Lambda_T$-modules on

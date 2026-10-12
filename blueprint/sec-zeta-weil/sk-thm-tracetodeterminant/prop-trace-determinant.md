@@ -2,7 +2,7 @@
 id = "prop-trace-determinant"
 kind = "theorem"
 title = "Trace-to-determinant factorization"
-order = 3188
+order = 3222
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-every-iterate-trace"]
 +++

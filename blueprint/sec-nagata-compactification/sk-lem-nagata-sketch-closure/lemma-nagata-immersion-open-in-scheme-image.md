@@ -2,7 +2,7 @@
 id = "lemma-nagata-immersion-open-in-scheme-image"
 kind = "lemma"
 title = "[stacks-project]"
-order = 73
+order = 81
 lean = ["AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact"]
 uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++

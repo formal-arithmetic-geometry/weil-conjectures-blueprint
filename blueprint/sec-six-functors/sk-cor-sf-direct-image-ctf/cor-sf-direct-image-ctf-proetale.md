@@ -2,7 +2,7 @@
 id = "cor-sf-direct-image-ctf-proetale"
 kind = "theorem"
 title = "The pro-étale direct image for all finite-Tor objects"
-order = 2499
+order = 2533
 tags = ["latex:corollary"]
 uses = ["cor-sf-direct-image-ctf-etale-origin", "cor-sf-direct-image-ctf-nonproper", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-sf-comparison-tor-amplitude", "lem-sf-etale-direct-image-vanishing", "lem-sf-proetale-constructible-origin", "prop-weil-pbc-comparison-direct-image", "thm-sf-direct-image-tor-amplitude"]
 +++

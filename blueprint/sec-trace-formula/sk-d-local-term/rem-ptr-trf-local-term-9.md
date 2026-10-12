@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-local-term-9"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-local-term]"
-order = 2642
+order = 2676
 uses = ["def-trf-local-term", "def-trf-local-term-pair", "lem-trf-local-term-point"]
 +++
 In the notation of [def-trf-local-term], the identification of the

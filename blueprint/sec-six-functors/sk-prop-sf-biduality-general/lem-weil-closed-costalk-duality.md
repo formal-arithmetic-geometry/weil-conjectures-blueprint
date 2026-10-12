@@ -2,7 +2,7 @@
 id = "lem-weil-closed-costalk-duality"
 kind = "lemma"
 title = "Exceptional restriction of a Verdier dual"
-order = 2429
+order = 2463
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement"]
 +++
 Let $i:Z\hookrightarrow T$ be a closed immersion and suppose the

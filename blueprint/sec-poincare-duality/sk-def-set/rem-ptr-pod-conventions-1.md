@@ -2,7 +2,7 @@
 id = "rem-ptr-pod-conventions-1"
 kind = "remark"
 title = "Pointer to the properties of [def-pod-conventions]"
-order = 2709
+order = 2743
 uses = ["cor-pur-smooth-admissibility", "cor-sf-ambient-adjoint-discharge", "def-pod-conventions", "thm-sf-preservation-class"]
 +++
 In the notation of [def-pod-conventions], the following holds. Of that hypothesis the

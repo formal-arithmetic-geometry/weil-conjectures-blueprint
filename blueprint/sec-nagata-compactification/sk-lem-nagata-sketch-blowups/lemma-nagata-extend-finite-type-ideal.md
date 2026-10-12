@@ -2,7 +2,7 @@
 id = "lemma-nagata-extend-finite-type-ideal"
 kind = "lemma"
 title = "Finite-type ideal extension, [stacks-project]"
-order = 167
+order = 175
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_comap_eq"]
 uses = ["def-nagata-extended-ideal", "def-nagata-finite-type-ideal-extension"]
 +++

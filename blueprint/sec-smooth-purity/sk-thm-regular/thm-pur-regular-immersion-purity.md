@@ -2,7 +2,7 @@
 id = "thm-pur-regular-immersion-purity"
 kind = "theorem"
 title = "Purity for regular closed immersions"
-order = 2338
+order = 2372
 uses = ["cor-pur-affine-space-purity", "cor-pur-affine-space-zero-section-purity", "lem-pur-projection-purity-agreement", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-frame-class", "def-pur-regular-immersion", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-frame-independence", "lem-pur-immersion-twist", "lem-pur-kunneth-supported", "lem-pur-regular-immersion-linearization", "lem-pur-regular-immersion-smooth-structure", "thm-pur-composition-coherence", "thm-pur-diagonal-dualizing-object"]
 +++
 In the purity conventions of [def-pur-conventions],

@@ -2,7 +2,7 @@
 id = "def-sfb-subfield-coefficient-map"
 kind = "definition"
 title = "The coefficient change $E_X\\to F_X$"
-order = 1694
+order = 1732
 uses = ["sk-prop-sfb-qlbar-colimit-point", "sk-def-sfb-pulled-back-coefficients", "def-sfb-coefficient-map"]
 lean = ["AlgebraicGeometry.ProEtale.padicSubfieldRingObjMap"]
 +++

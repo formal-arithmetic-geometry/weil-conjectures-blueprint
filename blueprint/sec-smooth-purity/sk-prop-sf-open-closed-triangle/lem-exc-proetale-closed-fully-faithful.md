@@ -2,7 +2,7 @@
 id = "lem-exc-proetale-closed-fully-faithful"
 kind = "lemma"
 title = "Full faithfulness of closed direct image"
-order = 2151
+order = 2185
 uses = ["def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "lem-exc-closed-inverse-image-formula", "lem-exc-closed-lift-reduction", "lem-exc-closed-localization"]
 +++
 For any closed immersion $i:Z\hookrightarrow X$, the adjunction counit

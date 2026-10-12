@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-open-section-clopen"
 kind = "lemma"
 title = "An open section is also closed"
-order = 1781
+order = 1819
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-closed-immersion-from-composite"]
 +++
 Let $p:V\to S$ be a

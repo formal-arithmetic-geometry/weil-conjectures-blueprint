@@ -2,7 +2,7 @@
 id = "def-nagata-compactifiable"
 kind = "definition"
 title = "Compactifiability"
-order = 5
+order = 13
 lean = ["AlgebraicGeometry.HasCompactification"]
 uses = ["def-nagata-compactification"]
 +++

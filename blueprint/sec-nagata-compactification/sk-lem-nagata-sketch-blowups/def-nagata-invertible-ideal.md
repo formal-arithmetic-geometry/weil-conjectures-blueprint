@@ -2,7 +2,7 @@
 id = "def-nagata-invertible-ideal"
 kind = "definition"
 title = "Invertible ideal"
-order = 96
+order = 104
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible"]
 +++
 A quasi-coherent ideal $\mathcal I\subseteq\mathcal O_X$ is

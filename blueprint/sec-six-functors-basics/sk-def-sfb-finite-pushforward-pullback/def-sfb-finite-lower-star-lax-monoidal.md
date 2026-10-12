@@ -2,7 +2,7 @@
 id = "def-sfb-finite-lower-star-lax-monoidal"
 kind = "definition"
 title = "$g_*$ is lax symmetric monoidal"
-order = 1460
+order = 1498
 uses = ["def-sfb-finite-lower-star", "sk-def-sfb-sheaf-tensor"]
 lean = ["AlgebraicGeometry.ProEtale.laxMonoidal_lowerStar", "AlgebraicGeometry.ProEtale.laxBraided_lowerStar"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-i-global-additivity"
 kind = "proposition"
 title = "Compact trace additivity"
-order = 2676
+order = 2710
 uses = ["sk-d-operator", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-p-trace", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-package"]
 lean = ["AlgebraicGeometry.ProEtale.trace_globalOperator_eq_trace_add_trace"]
 tags = ["sketch"]

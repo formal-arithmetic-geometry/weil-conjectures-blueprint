@@ -2,7 +2,7 @@
 id = "thm-pur-kummer-affine-line"
 kind = "theorem"
 title = "Kummer computations on the line and the punctured line"
-order = 2231
+order = 2265
 uses = ["def-sc-curves", "def-sc-kummer-sequence", "def-sc-mu-trivialization", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "lem-pur-affine-punctured-line-algebra", "lem-pur-kummer-coefficient-base-change", "lem-sc-brauer-zero", "lem-sc-cohomological-dimension", "lem-sc-h1-gm-pic", "lem-sc-kummer-exact", "lem-sc-primitive-root"]
 +++
 Let $k$ be an algebraically closed field, let $N\geq1$ be prime to

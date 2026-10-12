@@ -2,7 +2,7 @@
 id = "lem-sc-c7"
 kind = "lemma"
 title = "C7: invariance on proper curves"
-order = 1118
+order = 1157
 uses = ["def-sc-curves", "def-sc-field-extension", "def-weil-pbc-eight-curve-assertions", "lem-sc-artin-schreier-dimension", "lem-sc-artin-schreier-k", "lem-sc-as-sequence", "lem-sc-base-change-curve", "lem-sc-flat-base-change-coherent", "lem-sc-frobenius-fixed-invariance", "lem-sc-morphism-from-function", "lem-sc-proper-affine-finite", "thm-sc-constant-invariance"]
 +++
 Let $k\subseteq k'$ be algebraically closed, let $C$ be a

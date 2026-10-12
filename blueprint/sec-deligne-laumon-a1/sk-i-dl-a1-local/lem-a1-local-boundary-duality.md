@@ -2,7 +2,7 @@
 id = "lem-a1-local-boundary-duality"
 kind = "lemma"
 title = "Local boundary duality"
-order = 3031
+order = 3065
 uses = ["def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-wf-tate-twist", "fix-cor-verdier-exchange", "lem-cbc-open-closed-recollement", "lem-fix-weil-operations", "lem-pod-cohomology-of-dual-over-field", "prop-pur-rational-purity-trace-coherence", "prop-sf-closed-immersion-unit", "prop-sf-closed-unit-all-stages", "prop-sf-localization-all-stages", "prop-sf-open-closed-triangle-all-stages", "prop-weil-open-closed-recollement-adjunctions", "rem-dl-a1-conventions", "thm-coef-qbar-verdier", "thm-pur-rational-and-qbar-purity"]
 lean = ["AlgebraicGeometry.exists_linearEquiv_dual_stalk_higherDirectImage"]
 +++

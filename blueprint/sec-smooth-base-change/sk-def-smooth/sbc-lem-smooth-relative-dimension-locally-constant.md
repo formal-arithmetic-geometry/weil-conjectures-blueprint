@@ -2,7 +2,7 @@
 id = "sbc-lem-smooth-relative-dimension-locally-constant"
 kind = "lemma"
 title = "Local constancy of the relative dimension"
-order = 1376
+order = 1416
 uses = ["def-sbc-smooth-morphisms"]
 +++
 Let $f:X\to Y$ be a smooth

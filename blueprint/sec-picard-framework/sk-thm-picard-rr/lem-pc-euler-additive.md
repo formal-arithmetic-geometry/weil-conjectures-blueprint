@@ -2,7 +2,7 @@
 id = "lem-pc-euler-additive"
 kind = "lemma"
 title = "Additivity of the Euler characteristic"
-order = 739
+order = 746
 uses = ["def-pc-derived-direct-image", "def-pc-morphism-conventions", "lem-pc-coherent-hi"]
 +++
 Let $k$ be a field, $X$ a proper scheme over $k$, and let

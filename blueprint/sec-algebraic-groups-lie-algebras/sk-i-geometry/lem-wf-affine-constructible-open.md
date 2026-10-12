@@ -2,7 +2,7 @@
 id = "lem-wf-affine-constructible-open"
 kind = "lemma"
 title = "Chevalley constructibility and open pieces of constructible sets"
-order = 2790
+order = 2824
 uses = ["lem-wf-affine-noetherian-components"]
 +++
 Let $k$ be a field.

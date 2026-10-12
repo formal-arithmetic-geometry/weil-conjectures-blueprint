@@ -2,7 +2,7 @@
 id = "sk-prop-double-trace"
 kind = "corollary"
 title = "P10: trace-level Fourier inversion"
-order = 3014
+order = 3048
 uses = ["sk-lem-orthogonality", "sk-thm-fourier-trace-formula"]
 tags = ["sketch"]
 +++

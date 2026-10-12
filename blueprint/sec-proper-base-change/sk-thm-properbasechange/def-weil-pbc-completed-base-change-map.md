@@ -2,7 +2,7 @@
 id = "def-weil-pbc-completed-base-change-map"
 kind = "definition"
 title = "Completed base-change map"
-order = 1338
+order = 1378
 uses = ["def-weil-pbc-completed-pullback", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-projection-formula-map"]
 +++
 Let $K$ be derived complete and let every $K_n$ carry a specified

@@ -2,7 +2,7 @@
 id = "sk-prop-cd-affine"
 kind = "proposition"
 title = "Affine-curve cohomological dimension"
-order = 1010
+order = 1018
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-def-kummer", "sk-prop-br-inj", "sk-prop-cd", "sk-prop-h2", "sk-prop-kummer-exact", "sk-prop-tsen", "sk-thm-av-final"]
 tags = ["sketch"]
 +++

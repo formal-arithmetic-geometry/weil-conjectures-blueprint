@@ -2,7 +2,7 @@
 id = "sk-d-curve-pieces"
 kind = "definition"
 title = "Curve coefficient pieces"
-order = 2643
+order = 2677
 uses = ["sk-d-proper-pushforward", "sk-d-setup", "sk-d-six", "sk-d-weil"]
 lean = ["AlgebraicGeometry.ProEtale.WeilComplex.closedPiece", "AlgebraicGeometry.ProEtale.WeilComplex.openPiece"]
 tags = ["sketch"]

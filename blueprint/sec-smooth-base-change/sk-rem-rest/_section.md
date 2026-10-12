@@ -2,7 +2,7 @@
 id = "sk-rem-rest"
 kind = "remark"
 title = "Classical form and the following sections"
-order = 1418
+order = 1458
 tags = ["sketch"]
 +++
 *Classical form* ([sk-def-bc] with the roles of $f$ and $g$

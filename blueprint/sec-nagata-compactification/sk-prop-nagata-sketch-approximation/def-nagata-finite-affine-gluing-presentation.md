@@ -2,7 +2,7 @@
 id = "def-nagata-finite-affine-gluing-presentation"
 kind = "definition"
 title = "Selected finite affine gluing presentation"
-order = 332
+order = 339
 +++
 Let $S$ be quasi-compact and quasi-separated. Select a finite affine cover
 $S=\bigcup_{a=1}^nU_a$. For every pair $(a,b)$, select a finite affine

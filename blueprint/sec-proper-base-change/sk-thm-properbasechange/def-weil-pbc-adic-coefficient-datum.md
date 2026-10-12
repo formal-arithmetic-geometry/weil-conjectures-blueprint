@@ -2,7 +2,7 @@
 id = "def-weil-pbc-adic-coefficient-datum"
 kind = "definition"
 title = "Tower category and adic coefficient datum"
-order = 1239
+order = 1287
 uses = ["def-weil-pbc-kinjective-resolutions", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-proetale-site"]
 +++
 For a sheaf of rings $B_T$ on $T_{\Proet}$, define the Grothendieck abelian

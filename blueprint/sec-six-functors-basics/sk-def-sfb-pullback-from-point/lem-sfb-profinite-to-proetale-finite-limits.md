@@ -2,7 +2,7 @@
 id = "lem-sfb-profinite-to-proetale-finite-limits"
 kind = "lemma"
 title = "$S\\mapsto\\Spec LC(S,\\Z)$ preserves finite limits"
-order = 1481
+order = 1519
 uses = ["def-sfb-profinite-to-proetale"]
 lean = ["AlgebraicGeometry.ProEtale.preservesFiniteLimits_profiniteToProEt"]
 +++

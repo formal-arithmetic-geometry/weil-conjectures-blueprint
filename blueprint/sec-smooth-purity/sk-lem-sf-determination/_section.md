@@ -2,7 +2,7 @@
 id = "sk-lem-sf-determination"
 kind = "lemma"
 title = "Invertibility on a generating class"
-order = 2166
+order = 2200
 uses = ["sk-def-sf-operations"]
 lean = ["CategoryTheory.Pretriangulated.isIso₃_of_isIso₁₂"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "lem-exc-residue-tor-test"
 kind = "lemma"
 title = "Testing finite Tor amplitude at the residue field"
-order = 2127
+order = 2161
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $A=\mathcal O_E/\varpi_E^n$, let $\kappa=A/(\varpi_E)$,

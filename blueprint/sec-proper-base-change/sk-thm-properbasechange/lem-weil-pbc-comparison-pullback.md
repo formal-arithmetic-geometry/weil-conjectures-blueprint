@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-comparison-pullback"
 kind = "lemma"
 title = "Comparison inverse image commutes with scheme pullback"
-order = 1290
+order = 1338
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-sections"]
 +++
 For $u:U\to V$ there is a natural isomorphism

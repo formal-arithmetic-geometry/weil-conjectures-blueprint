@@ -2,7 +2,7 @@
 id = "lem-sc-divisor-exact-sequence"
 kind = "lemma"
 title = "The divisor exact sequence"
-order = 899
+order = 905
 uses = ["def-sc-curves", "lem-sc-regular-dim1-dvr"]
 lean = ["AlgebraicGeometry.IsCurve.exists_shortExact_divisorSequence"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sfb-continuous-map-condensed-ring-map"
 kind = "definition"
 title = "Functoriality of $\\underline T$ in $T$"
-order = 1469
+order = 1507
 uses = ["def-sfb-continuous-map-condensed-ring", "sk-def-sfb-ring-object"]
 lean = ["Profinite.continuousMapRingSheafMap"]
 +++

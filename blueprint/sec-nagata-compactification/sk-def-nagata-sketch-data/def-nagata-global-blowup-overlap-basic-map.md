@@ -2,7 +2,7 @@
 id = "def-nagata-global-blowup-overlap-basic-map"
 kind = "definition"
 title = "Basic-overlap comparison map"
-order = 49
+order = 57
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-global-blowup-local-model", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-affine-blowup-restrict", "prop-nagata-rees-graded"]
 +++
 If a basic affine open $D(s)$ lies in $V_i\cap V_j$, define

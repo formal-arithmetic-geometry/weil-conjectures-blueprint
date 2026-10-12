@@ -2,7 +2,7 @@
 id = "def-nagata-morphism-equality-stage"
 kind = "definition"
 title = "Stage of equality for two descended morphisms"
-order = 355
+order = 362
 uses = ["def-nagata-directed-finite-upper-bound", "def-nagata-qc-open-equality-stage", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 Let $\varphi_{\lambda_0},\psi_{\lambda_0}\colon X_{\lambda_0}\to Y_{\lambda_0}$ have equal base change to $S$. On a

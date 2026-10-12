@@ -2,7 +2,7 @@
 id = "def-nagata-strict-transform-chart-ring"
 kind = "definition"
 title = "Affine strict-transform chart ring"
-order = 144
+order = 152
 uses = ["def-nagata-power-torsion", "def-nagata-strict-transform-basechange-chart-ring"]
 +++
 Define

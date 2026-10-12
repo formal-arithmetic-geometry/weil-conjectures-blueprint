@@ -2,7 +2,7 @@
 id = "lem-galois-object-exists"
 kind = "lemma"
 title = "Galois objects dominate connected objects"
-order = 971
+order = 979
 uses = ["def-galois-category", "lem-galois-axioms"]
 +++
 Let $(\mathcal C,F)$ be a Galois category and $X$ a connected object.

@@ -2,7 +2,7 @@
 id = "sbc-lem-etale-over-normal"
 kind = "lemma"
 title = "Etale covers of a normal scheme with algebraically closed function field"
-order = 1403
+order = 1443
 uses = ["def-sbc-normal-dominant-galois"]
 +++
 Let $X$ be an

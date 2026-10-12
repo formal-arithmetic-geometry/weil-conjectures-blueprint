@@ -2,7 +2,7 @@
 id = "sk-i-relative-frob"
 kind = "proposition"
 title = "Relative Frobenius"
-order = 2665
+order = 2699
 uses = ["sk-d-relative-frob", "sk-d-setup"]
 lean = ["AlgebraicGeometry.ProEtale.isFinite_relativeFrobenius", "AlgebraicGeometry.ProEtale.isUniversalHomeomorphism_relativeFrobenius"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "def-sfb-derived-open-immersion-shriek-iso"
 kind = "definition"
 title = "Extension by zero commutes with $T$"
-order = 1690
+order = 1728
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-lower-shriek", "sk-prop-sfb-module-derived-factorization", "sk-def-sfb-derived-extension-of-scalars", "def-sfb-conjugate-pull-iso", "def-sfb-derived-comap-upper-star-iso"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso"]
 +++

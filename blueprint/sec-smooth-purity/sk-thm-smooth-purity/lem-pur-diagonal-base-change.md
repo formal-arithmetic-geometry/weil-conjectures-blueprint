@@ -2,7 +2,7 @@
 id = "lem-pur-diagonal-base-change"
 kind = "lemma"
 title = "Base change for the dualizing object of a projection"
-order = 2313
+order = 2347
 uses = ["def-pur-co-smoothness", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "sbc-thm-etale-local-normal-form"]
 +++
 In the purity conventions of [def-pur-conventions],

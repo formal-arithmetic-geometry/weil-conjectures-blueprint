@@ -2,7 +2,7 @@
 id = "pqf-lem-locqf-fibre-discrete"
 kind = "lemma"
 title = "Finite fibre over a point"
-order = 548
+order = 554
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-quasifinite", "pqf-lem-qf-finitefibres"]
 +++
 Let $f:X\to S$ be a morphism of schemes and $s\in S$. If $f$ is

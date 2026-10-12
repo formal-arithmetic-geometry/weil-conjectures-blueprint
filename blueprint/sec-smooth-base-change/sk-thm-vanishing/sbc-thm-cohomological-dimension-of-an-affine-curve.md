@@ -2,7 +2,7 @@
 id = "sbc-thm-cohomological-dimension-of-an-affine-curve"
 kind = "theorem"
 title = "Affine-curve cohomological dimension"
-order = 1411
+order = 1451
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-scheme-conventions", "thm-sc-affine-cohomology"]
 +++
 Let $k$ be algebraically closed, let $C$ be a

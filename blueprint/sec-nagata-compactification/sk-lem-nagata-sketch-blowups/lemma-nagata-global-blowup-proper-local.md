@@ -2,7 +2,7 @@
 id = "lemma-nagata-global-blowup-proper-local"
 kind = "lemma"
 title = "Local properness of the global blow-up"
-order = 91
+order = 99
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isProper_blowupMap_restrict"]
 uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "prop-nagata-global-blowup-cover-independent"]
 +++

@@ -2,7 +2,7 @@
 id = "sbc-thm-bounded-allowable-torsion"
 kind = "theorem"
 title = "Bounded allowable-torsion derived theorem"
-order = 1438
+order = 1476
 uses = ["def-weil-pbc-hypercohomology-filtrations", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-def-derived-categories-with-allowable-torsion", "sbc-lem-finite-range-comparison", "sbc-thm-smooth-base-change"]
 +++
 In the square of

@@ -2,7 +2,7 @@
 id = "pqf-lem-limit-immersion-descends"
 kind = "lemma"
 title = "Closed immersions spread out from a filtered limit"
-order = 196
+order = 203
 uses = ["def-weil-pbc-scheme-conventions", "pqf-lem-affine-local-target"]
 +++
 Let $S$ be a scheme, let $X=\varprojlim_{i\in I}X_i$ be a filtered

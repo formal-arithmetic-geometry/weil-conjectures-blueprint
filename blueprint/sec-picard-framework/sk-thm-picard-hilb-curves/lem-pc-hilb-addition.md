@@ -2,7 +2,7 @@
 id = "lem-pc-hilb-addition"
 kind = "lemma"
 title = "The addition morphism on Hilbert schemes"
-order = 787
+order = 793
 uses = ["def-pc-finite-locally-free", "def-pc-hilb-functor", "lem-pc-cartier-criterion"]
 +++
 Let $X\to S$ be

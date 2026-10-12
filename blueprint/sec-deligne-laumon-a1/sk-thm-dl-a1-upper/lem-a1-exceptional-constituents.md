@@ -2,7 +2,7 @@
 id = "lem-a1-exceptional-constituents"
 kind = "lemma"
 title = "Exceptional rank-one constituents"
-order = 3105
+order = 3139
 uses = ["cor-pod-untwisted-similitude", "def-fd-artin-schreier-sheaf", "def-pod-perfect-complex-on-x", "def-weil-extension-by-zero", "def-weil-open-closed-recollement", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-constant-weil-twist", "lem-a1-finite-boundary-cohomology", "lem-a1-finite-boundary-weights", "lem-a1-subquotient-extension-bounds", "lem-fd-affine-line-constant-cohomology", "lem-fd-as-lisse", "lem-fd-as-purity", "lem-fd-cohomology-affine-line-character", "lem-wf-constant-twist-weight", "lem-zl-affine-curve-range", "prop-sf-open-closed-triangle-all-stages", "thm-pod-degreewise-perfectness-over-a-field"]
 +++
 Let $\mathcal E$ be either a rank-one constant

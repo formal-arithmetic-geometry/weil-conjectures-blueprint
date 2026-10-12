@@ -2,7 +2,7 @@
 id = "lem-sc-divisor-sequence-general"
 kind = "lemma"
 title = "The divisor sequence of an integral regular scheme"
-order = 898
+order = 904
 uses = ["lem-sc-regular-dim1-dvr"]
 lean = ["AlgebraicGeometry.Scheme.exists_shortExact_divisorSequence"]
 +++

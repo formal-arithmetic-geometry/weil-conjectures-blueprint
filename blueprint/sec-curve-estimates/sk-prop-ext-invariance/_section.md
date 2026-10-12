@@ -2,7 +2,7 @@
 id = "sk-prop-ext-invariance"
 kind = "proposition"
 title = "Invariance under extension of algebraically closed fields"
-order = 1027
+order = 1035
 uses = ["sk-def-av-jacobian", "sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-prop-cd-affine", "sk-prop-jacobian", "sk-prop-kummer-exact", "sk-thm-av-final", "sk-thm-curveestimate"]
 tags = ["sketch"]
 +++

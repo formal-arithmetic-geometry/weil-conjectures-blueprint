@@ -2,7 +2,7 @@
 id = "lemma-nagata-glue-finite-type-ideals"
 kind = "lemma"
 title = "Gluing compatible finite-type ideals on two qc opens"
-order = 165
+order = 173
 +++
 Let $U,W\subseteq X$ be quasi-compact opens of a qcqs scheme. If
 $\mathcal I_U\subseteq\mathcal O_U$ and

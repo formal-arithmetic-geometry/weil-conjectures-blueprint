@@ -2,7 +2,7 @@
 id = "lem-sfb-derived-tensor-modules-derived"
 kind = "lemma"
 title = "The derived relative tensor product is a two-variable left derived functor"
-order = 1567
+order = 1605
 uses = ["def-sfb-derived-tensor-modules"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isLeftDerivedFunctor₂_derivedTensor", "CategoryTheory.Mod.isLeftDerivedFunctor₂_curriedTensor"]
 +++

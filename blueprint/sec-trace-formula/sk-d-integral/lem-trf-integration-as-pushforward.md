@@ -2,7 +2,7 @@
 id = "lem-trf-integration-as-pushforward"
 kind = "lemma"
 title = "Integration is pushforward to the point"
-order = 2588
+order = 2622
 uses = ["def-trf-borel-moore-pushforward", "def-trf-dualizing-complex", "def-trf-integration", "thm-trf-dualizing-complex-composition"]
 +++
 Fix the global finite-field datum

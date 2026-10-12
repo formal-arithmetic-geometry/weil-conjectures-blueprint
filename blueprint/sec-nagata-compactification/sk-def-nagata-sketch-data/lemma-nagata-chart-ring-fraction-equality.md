@@ -2,7 +2,7 @@
 id = "lemma-nagata-chart-ring-fraction-equality"
 kind = "lemma"
 title = "Equality criterion for chart fractions"
-order = 28
+order = 36
 uses = ["lemma-nagata-chart-ring-normal-form"]
 +++
 Two representatives $x/a^m$ and $y/a^n$ define the same element of

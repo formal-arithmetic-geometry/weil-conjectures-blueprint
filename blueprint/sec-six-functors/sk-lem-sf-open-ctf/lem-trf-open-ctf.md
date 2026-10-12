@@ -2,7 +2,7 @@
 id = "lem-trf-open-ctf"
 kind = "lemma"
 title = "Extension by zero preserves constructibility and Tor amplitude"
-order = 2465
+order = 2499
 uses = ["def-trf-coefficient-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-extension-by-zero", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "lem-trf-open-tensor"]
 +++
 Let $j:U\hookrightarrow Y$ be an

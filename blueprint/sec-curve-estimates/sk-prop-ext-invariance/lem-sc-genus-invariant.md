@@ -2,7 +2,7 @@
 id = "lem-sc-genus-invariant"
 kind = "lemma"
 title = "The genus is invariant under extension"
-order = 1030
+order = 1038
 uses = ["def-sc-curves", "def-sc-genus", "def-sc-jacobian", "lem-sc-flat-base-change-coherent", "thm-sc-jacobian-representability"]
 +++
 Let $C$ be a proper smooth connected curve over

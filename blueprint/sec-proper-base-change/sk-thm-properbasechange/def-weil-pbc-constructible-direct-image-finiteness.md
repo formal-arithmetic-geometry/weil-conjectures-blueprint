@@ -2,7 +2,7 @@
 id = "def-weil-pbc-constructible-direct-image-finiteness"
 kind = "definition"
 title = "Constructible direct-image finiteness condition"
-order = 1301
+order = 1341
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-constructible-complexes", "def-weil-pbc-proetale-modules", "def-weil-pbc-site-comparison-morphism"]
 +++
 For the adic coefficient datum, write $\Lambda=P_n=A/I^n$, and assume $T$

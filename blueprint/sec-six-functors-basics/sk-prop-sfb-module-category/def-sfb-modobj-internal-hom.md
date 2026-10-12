@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-internal-hom"
 kind = "definition"
 title = "Internal hom of module objects"
-order = 1526
+order = 1564
 uses = ["def-sfb-modobj-symmetric-tensor", "lem-sfb-modobj-abelian"]
 lean = ["CategoryTheory.Mod.monoidalClosed"]
 +++

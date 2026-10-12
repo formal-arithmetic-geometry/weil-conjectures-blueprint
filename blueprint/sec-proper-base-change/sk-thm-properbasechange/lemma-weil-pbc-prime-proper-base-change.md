@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-prime-proper-base-change"
 kind = "lemma"
 title = "Prime-coefficient proper base change"
-order = 1313
+order = 1353
 uses = ["def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-projective-line", "prop-weil-pbc-reduction-to-projective-line"]
 +++
 For every prime $r$, every proper $f:X\to Y$ (no finite-presentation

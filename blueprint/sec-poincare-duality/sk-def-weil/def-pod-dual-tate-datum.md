@@ -2,7 +2,7 @@
 id = "def-pod-dual-tate-datum"
 kind = "definition"
 title = "Dual and Tate Weil data"
-order = 2728
+order = 2762
 uses = ["def-trf-scheme-frobenius"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), let $(K,\varphi_K)$ be a strict Weil complex: a perfect $K\in D^b_{ctf}(X,A)$ with $\varphi _K:Lg_\gamma ^*K\xrightarrow {\sim }K$, where $g_\gamma$ is the geometric-Frobenius automorphism of [def-trf-scheme-frobenius]. Let $\varphi _A:Lg_\gamma ^*A_X\xrightarrow {\sim } A_X$ be the canonical Weil structure on the constant coefficient object, and let $\tau _r:Lg_\gamma ^*A_X(r)\xrightarrow {\sim }A_X(r)$ be the Tate datum of the purity chapter, on which geometric Frobenius acts by the scalar $q^{-r}$. The *contragredient datum* on the coefficient dual is the typed composite

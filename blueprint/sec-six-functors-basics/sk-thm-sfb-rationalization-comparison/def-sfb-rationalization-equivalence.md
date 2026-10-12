@@ -2,7 +2,7 @@
 id = "def-sfb-rationalization-equivalence"
 kind = "definition"
 title = "$D_{\\mathrm{cons}}(X,E)$ as the rationalization of $D_{\\mathrm{cons}}(X,\\mathcal O_E)$"
-order = 1596
+order = 1634
 uses = ["thm-sfb-extend-scalars-localization", "sk-def-sfb-rationalization"]
 lean = ["AlgebraicGeometry.ProEtale.rationalizationEquivalence", "AlgebraicGeometry.ProEtale.rationalizationQCompEquivalenceIso"]
 +++

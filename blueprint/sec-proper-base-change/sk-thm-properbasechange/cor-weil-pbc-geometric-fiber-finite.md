@@ -2,7 +2,7 @@
 id = "cor-weil-pbc-geometric-fiber-finite"
 kind = "theorem"
 title = "Finite-coefficient geometric-fiber formula"
-order = 1322
+order = 1362
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-scheme-conventions", "prop-weil-proet-finite-proper-base-change"]
 tags = ["latex:corollary"]
 +++

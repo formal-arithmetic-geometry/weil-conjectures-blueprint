@@ -2,7 +2,7 @@
 id = "sk-def-sfb-derived-categories"
 kind = "definition"
 title = "Derived categories and derived functors"
-order = 1552
+order = 1590
 uses = ["def-weil-abstract-derived-category", "def-weil-pbc-proetale-site"]
 lean = ["DerivedCategory", "CategoryTheory.Abelian.hasKInjectiveResolutions_of_isGrothendieckAbelian", "CategoryTheory.Functor.rightDerivedFunctor", "CategoryTheory.Functor.rightDerivedFunctorIsoMapDerivedCategory", "CategoryTheory.Functor.PreservesKFlatQuasiIso", "CategoryTheory.Functor.leftDerivedFunctor", "CategoryTheory.Functor.leftDerivedFunctorIsoMapDerivedCategory"]
 tags = ["sketch"]

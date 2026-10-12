@@ -2,7 +2,7 @@
 id = "lem-fin-projective-finite-fibres"
 kind = "lemma"
 title = "Projective morphisms with finite fibres are finite"
-order = 1900
+order = 1935
 uses = ["def-pc-projective-morphism", "def-pc-projective-space-twist", "def-weil-pbc-scheme-conventions", "lem-pc-projective-coherent-finiteness", "lem-pc-projective-proper", "lem-pc-projective-space-serre-vanishing", "lem-weil-pbc-proper-closed-image"]
 +++
 Let $f:D\to T$ be a

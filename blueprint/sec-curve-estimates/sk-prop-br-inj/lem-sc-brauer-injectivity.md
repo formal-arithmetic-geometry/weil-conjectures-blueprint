@@ -2,7 +2,7 @@
 id = "lem-sc-brauer-injectivity"
 kind = "lemma"
 title = "Brauer classes are determined by the generic fibre"
-order = 902
+order = 908
 uses = ["def-br", "lem-sc-point-z-cohomology", "lem-sp-grothendieck-edge-maps", "thm-sc-hilbert-90"]
 lean = ["AlgebraicGeometry.Scheme.injective_cohomologyMap_gmSheaf_two"]
 +++

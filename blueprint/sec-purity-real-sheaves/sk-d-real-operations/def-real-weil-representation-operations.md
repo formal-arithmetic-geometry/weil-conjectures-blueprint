@@ -2,7 +2,7 @@
 id = "def-real-weil-representation-operations"
 kind = "definition"
 title = "Operations on Weil representations"
-order = 2890
+order = 2924
 uses = ["def-mg-determinant-line", "def-mg-weil-composition-series", "def-mg-weil-semisimplification", "def-wf-fundamental-representation", "def-wf-weil-group"]
 +++
 Let $X_0$ be as in [def-wf-fundamental-representation], with Weil group

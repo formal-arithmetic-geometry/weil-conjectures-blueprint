@@ -2,7 +2,7 @@
 id = "def-nagata-immersion-compactification"
 kind = "definition"
 title = "Compactification constructed from an immersion"
-order = 74
+order = 82
 lean = ["AlgebraicGeometry.Compactification.ofIsImmersion"]
 uses = ["def-nagata-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-pc-hilb-smooth"
 kind = "lemma"
 title = "Hilbert schemes of curves are smooth"
-order = 788
+order = 794
 uses = ["def-pc-morphism-conventions", "lem-pc-hilb-addition"]
 +++
 Let $X\to S$ be

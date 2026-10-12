@@ -2,7 +2,7 @@
 id = "lemma-nagata-localization-rees-piece"
 kind = "lemma"
 title = "Localization of each Rees piece"
-order = 38
+order = 46
 uses = ["lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-piece-membership"]
 +++
 Flatness of $A\to A_s$ gives an $A_s$-linear equivalence

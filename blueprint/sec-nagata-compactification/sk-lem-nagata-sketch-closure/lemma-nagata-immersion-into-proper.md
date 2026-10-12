@@ -2,7 +2,7 @@
 id = "lemma-nagata-immersion-into-proper"
 kind = "lemma"
 title = "The immersion construction is a compactification"
-order = 80
+order = 88
 lean = ["AlgebraicGeometry.HasCompactification.of_isImmersion"]
 uses = ["def-nagata-compactifiable", "lemma-nagata-immersion-open-in-scheme-image"]
 +++

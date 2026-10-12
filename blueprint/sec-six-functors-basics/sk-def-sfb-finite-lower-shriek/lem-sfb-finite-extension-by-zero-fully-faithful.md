@@ -2,7 +2,7 @@
 id = "lem-sfb-finite-extension-by-zero-fully-faithful"
 kind = "lemma"
 title = "$j_!$ is fully faithful"
-order = 1602
+order = 1640
 uses = ["def-sfb-finite-extension-by-zero"]
 lean = ["AlgebraicGeometry.ProEtale.fullyFaithfulOpenImmersionLowerShriek"]
 +++

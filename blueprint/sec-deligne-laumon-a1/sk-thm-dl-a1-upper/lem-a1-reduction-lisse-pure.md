@@ -2,7 +2,7 @@
 id = "lem-a1-reduction-lisse-pure"
 kind = "lemma"
 title = "Lisse purity of the transported complex"
-order = 3103
+order = 3137
 uses = ["def-weil-punctual-weights", "lem-a1-finite-map-purity"]
 +++
 Let $C_0$ be a smooth geometrically connected affine curve, let

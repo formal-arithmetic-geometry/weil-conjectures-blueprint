@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-quasi-affine-general"
 kind = "lemma"
 title = "Quasi-affine target, $U\\subseteq V$ (Conrad)"
-order = 216
+order = 223
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_of_isQuasiAffineHom_of_le"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup", "def-nagata-quasi-affine-morphism", "lemma-nagata-conrad-dense-in-admissible-blowup", "prop-nagata-global-blowup-cover-independent"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sc-generic-kummer-residues"
 kind = "lemma"
 title = "The generic Kummer residue sheaf"
-order = 982
+order = 990
 uses = ["cor-sc-hilbert-90-field", "def-sc-curves", "def-sc-divisor", "def-sc-function-field", "def-sc-kummer-sequence", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "prop-weil-pbc-geometric-stalks-exact", "prop-weil-pbc-strict-henselization-stalk-formula"]
 +++
 Let $C/k$ be a smooth integral separated

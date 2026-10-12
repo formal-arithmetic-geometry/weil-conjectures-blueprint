@@ -2,7 +2,7 @@
 id = "lemma-nagata-blowup-invertible-factor"
 kind = "lemma"
 title = "Blow-up is unchanged after multiplying by an invertible factor"
-order = 131
+order = 139
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_isInvertible_iso"]
 uses = ["def-nagata-effective-cartier-ideal", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "prop-nagata-global-blowup-cover-independent"]
 +++

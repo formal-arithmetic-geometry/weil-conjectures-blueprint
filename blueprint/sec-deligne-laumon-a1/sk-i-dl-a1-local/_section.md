@@ -2,7 +2,7 @@
 id = "sk-i-dl-a1-local"
 kind = "proposition"
 title = "Local boundary duality and ramification at infinity"
-order = 3028
+order = 3062
 uses = ["sk-d-dl-a1-setup", "sk-d-real-boundary", "sk-prop-sf-biduality-general", "sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle", "sk-rem-sf-kv-formal", "sk-thm-sf-ctf-stability", "sk-thm-sf-dual-perfect", "sk-thm-sf-verdier-exchange"]
 lean = ["AlgebraicGeometry.exists_linearEquiv_dual_stalk_higherDirectImage", "AlgebraicGeometry.not_isUnramifiedAtInfinity_artinSchreier"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "lem-pur-kunneth-supported"
 kind = "lemma"
 title = "Kunneth for cohomology with closed support"
-order = 2243
+order = 2277
 uses = ["def-kun-derived-tensor", "def-kun-tor-amplitude", "def-pur-support-cohomology", "def-pur-supported-exterior-product", "def-weil-finite-field-fiber", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties", "lem-kun-kunneth-map-natural", "lem-pur-ordinary-kunneth-finite-ring", "lem-pur-support-restriction-triangle", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-comparison-direct-image", "thm-weil-pbc-site-comparison"]
 +++
 Let $k$ be the algebraically closed field of

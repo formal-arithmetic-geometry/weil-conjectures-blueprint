@@ -2,7 +2,7 @@
 id = "lem-pc-schemes-criterion"
 kind = "lemma"
 title = "A representability criterion via covers"
-order = 777
+order = 783
 uses = ["def-pc-representable-functor", "def-pc-subfunctor"]
 lean = ["AlgebraicGeometry.Scheme.LocalRepresentability.isRepresentable"]
 +++

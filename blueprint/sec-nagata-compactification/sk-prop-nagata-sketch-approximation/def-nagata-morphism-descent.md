@@ -2,7 +2,7 @@
 id = "def-nagata-morphism-descent"
 kind = "definition"
 title = "Finite-stage model of a morphism"
-order = 353
+order = 360
 uses = ["def-nagata-affine-fp-descent", "def-nagata-directed-finite-upper-bound", "def-nagata-qc-open-descent", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 Let $X_{\lambda_0},Y_{\lambda_0}$ be of finite presentation over

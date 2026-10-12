@@ -2,7 +2,7 @@
 id = "lem-pc-projective-coherent-finiteness"
 kind = "lemma"
 title = "Coherent cohomology of a projective scheme over a Noetherian ring"
-order = 656
+order = 662
 uses = ["def-pc-projective-morphism", "def-pc-projective-space-twist", "lem-pc-closed-immersion-coherent-cohomology", "lem-pc-projective-space-coherent-finiteness", "lem-pc-projective-space-cohomology-bound", "pqf-def-coherent", "pqf-def-cohomology"]
 +++
 Let $A$ be Noetherian, let $f:X\to\operatorname{Spec}(A)$ be

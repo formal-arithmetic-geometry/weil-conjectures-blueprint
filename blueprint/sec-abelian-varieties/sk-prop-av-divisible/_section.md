@@ -3,7 +3,7 @@ id = "sk-prop-av-divisible"
 kind = "proposition"
 title = "Surjectivity of multiplication by $n$ on points"
 lean = ["AlgebraicGeometry.surjective_npow_points"]
-order = 569
+order = 575
 uses = ["sk-def-av", "sk-def-av-mult-n"]
 tags = ["sketch"]
 +++

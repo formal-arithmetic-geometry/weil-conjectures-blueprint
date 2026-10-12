@@ -2,7 +2,7 @@
 id = "def-trf-borel-moore-pushforward"
 kind = "definition"
 title = "Borel–Moore sections and their proper pushforward"
-order = 2586
+order = 2620
 uses = ["def-compact-support-direct-image-detailed", "def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-dualizing-complex", "def-weil-derived-direct-image", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "thm-trf-dualizing-complex-composition"]
 +++
 Fix the global finite-field datum

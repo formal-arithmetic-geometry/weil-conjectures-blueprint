@@ -2,7 +2,7 @@
 id = "lem-sfb-pullback-from-point-comp-monoidal"
 kind = "lemma"
 title = "$f^*\\circ p_Y^*\\cong p_X^*$ is monoidal"
-order = 1502
+order = 1540
 uses = ["def-sfb-pullback-from-point-comp-iso", "sk-def-sfb-finite-pushforward-pullback", "sk-def-sfb-sheaf-tensor"]
 lean = ["AlgebraicGeometry.ProEtale.isMonoidal_upperStarFromPointComp"]
 +++

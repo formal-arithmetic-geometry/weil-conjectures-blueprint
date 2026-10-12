@@ -2,7 +2,7 @@
 id = "lem-sfb-lc-weakly-etale"
 kind = "lemma"
 title = "$\\Spec LC(S,\\Z)$ is weakly étale over $\\Spec\\Z$"
-order = 1479
+order = 1517
 uses = ["def-weil-scheme-morphism-properties"]
 lean = ["AlgebraicGeometry.ProEtale.weaklyEtale_toSpecZ_profiniteToScheme"]
 +++

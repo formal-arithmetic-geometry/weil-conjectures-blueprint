@@ -2,7 +2,7 @@
 id = "lem-kun-unbounded-exchange-natural"
 kind = "lemma"
 title = "Naturality of the unbounded exchange morphism"
-order = 1969
+order = 2004
 uses = ["def-kun-unbounded-exchange", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $\square=(f,f',g,g',\alpha)$ be a cartesian square and $\Lambda$

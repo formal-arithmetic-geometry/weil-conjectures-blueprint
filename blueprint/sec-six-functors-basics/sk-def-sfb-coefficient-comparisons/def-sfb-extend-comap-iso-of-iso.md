@@ -2,7 +2,7 @@
 id = "def-sfb-extend-comap-iso-of-iso"
 kind = "definition"
 title = "Restriction of scalars and extension of scalars along isomorphisms"
-order = 1676
+order = 1714
 uses = ["sk-def-sfb-change-of-scalars"]
 lean = ["CategoryTheory.Mod.extendScalarsComapIsoOfIsIso"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-pc-sepclosed-finite-sep-trivial"
 kind = "lemma"
 title = "Separably closed fields: finite separable extensions are trivial"
-order = 748
+order = 755
 uses = ["def-pc-separably-closed"]
 +++
 Let $k$ be a separably closed field.

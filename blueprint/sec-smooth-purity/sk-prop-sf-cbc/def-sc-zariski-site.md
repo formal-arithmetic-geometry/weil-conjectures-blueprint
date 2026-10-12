@@ -2,7 +2,7 @@
 id = "def-sc-zariski-site"
 kind = "definition"
 title = "The small Zariski site"
-order = 1856
+order = 1891
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 For a scheme $X$,

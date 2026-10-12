@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-tower-compatibility"
 kind = "lemma"
 title = "Compatibility with the coefficient tower"
-order = 1345
+order = 1385
 uses = ["def-weil-pbc-four-arrows", "def-weil-pbc-four-corners", "lem-weil-pbc-finite-level-rectangle"]
 +++
 The transition morphisms $P_{n+1}\to P_n$ make each of the four corner

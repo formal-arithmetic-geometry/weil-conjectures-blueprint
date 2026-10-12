@@ -3,7 +3,7 @@ id = "def-sc-curves"
 kind = "definition"
 title = "Curves over algebraically closed fields"
 lean = ["AlgebraicGeometry.IsCurve"]
-order = 418
+order = 428
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be a field (in this chapter $k$ is algebraically closed). A

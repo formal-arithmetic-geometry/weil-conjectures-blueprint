@@ -2,7 +2,7 @@
 id = "thm-a1-curve-perverse-heart"
 kind = "theorem"
 title = "The perverse t-structure on a smooth curve and its heart"
-order = 3051
+order = 3085
 uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "def-per-perverse-subcategories", "def-per-support-condition", "def-weil-t-structure", "def-wf-middle-extension", "lem-exc-closed-support-triangle", "lem-per-dual-lisse-tensor", "lem-weil-closed-costalk-duality", "lem-weil-heart-short-exact-triangles", "prop-constructible-truncations", "prop-sf-localization-all-stages", "prop-weil-heart-abelian", "rem-dl-a1-conventions", "thm-coef-qbar-verdier"]
 +++
 In the setting of [def-per-support-condition], let the base field $k$ be

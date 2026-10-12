@@ -2,7 +2,7 @@
 id = "thm-trf-verdier-duality"
 kind = "theorem"
 title = "External duality for the fixed-point trace"
-order = 2620
+order = 2654
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-external-product", "def-trf-trace-class-source", "def-weil-exceptional-inverse-image", "def-weil-finite-tor-amplitude", "lem-trf-exceptional-internal-hom-exchange", "thm-trf-kunneth-verdier"]
 +++
 Use the finite coefficient ring

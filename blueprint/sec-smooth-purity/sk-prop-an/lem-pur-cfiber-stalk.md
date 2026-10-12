@@ -2,7 +2,7 @@
 id = "lem-pur-cfiber-stalk"
 kind = "lemma"
 title = "Stalk of the compactly supported direct image"
-order = 2288
+order = 2322
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-compact-support-direct-image-detailed", "def-pur-conventions", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-geometric-stalks", "def-weil-scheme-morphism-properties", "thm-cbc-finite-level-proetale"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

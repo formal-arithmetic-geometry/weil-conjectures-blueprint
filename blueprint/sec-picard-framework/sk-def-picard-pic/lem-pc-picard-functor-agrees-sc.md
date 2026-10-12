@@ -2,7 +2,7 @@
 id = "lem-pc-picard-functor-agrees-sc"
 kind = "lemma"
 title = "Agreement with the affine Picard functor of file 06"
-order = 805
+order = 811
 uses = ["def-pc-fppf-site", "def-pc-picard-functor", "def-pc-picard-presheaf", "def-pc-scheme", "def-sc-picard-functor"]
 +++
 Let $k$ be a field and $X$ a

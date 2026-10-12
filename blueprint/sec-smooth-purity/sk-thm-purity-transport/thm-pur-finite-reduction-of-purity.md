@@ -2,7 +2,7 @@
 id = "thm-pur-finite-reduction-of-purity"
 kind = "theorem"
 title = "Finite reduction of purity"
-order = 2326
+order = 2360
 uses = ["cor-pur-affine-space-zero-section-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-purity-map", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative", "lem-pur-kunneth-supported", "lem-pur-lisse-uniqueness", "lem-sf-flat-model", "lem-sf-reduction-flat-model", "thm-pur-affine-line-orientation", "thm-pur-composition-coherence", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance", "thm-pur-smooth-base-change-coherence"]
 +++
 Work in the purity conventions of [def-pur-conventions], let

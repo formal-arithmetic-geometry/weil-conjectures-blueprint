@@ -2,7 +2,7 @@
 id = "lem-sfb-smul-id-in-w"
 kind = "lemma"
 title = "Multiplication by an element of the submonoid has torsion cone"
-order = 1579
+order = 1617
 uses = ["def-sfb-rationalization-morphisms"]
 lean = ["CategoryTheory.Rationalization.W_smul_id"]
 +++

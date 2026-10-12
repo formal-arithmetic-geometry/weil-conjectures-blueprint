@@ -2,7 +2,7 @@
 id = "prop-trf-rational-frobenius-integral-model"
 kind = "theorem"
 title = "Integral models of rational Frobenius operators"
-order = 2605
+order = 2639
 tags = ["latex:proposition"]
 uses = ["def-trf-coefficient-conventions", "def-trf-frobenius-coefficient-morphism", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "def-trf-scheme-frobenius", "def-weil-derived-complete-integral-detailed", "def-weil-derived-pullback-tensor-hom", "def-weil-global-geometric-frobenius", "def-weil-integral-rational-qbar-compact-support", "def-weil-pbc-adic-coefficient-datum", "def-weil-rationalization-karoubi", "def-weil-weil-sheaf-complex", "lem-trf-absolute-frobenius-site", "lem-trf-frobenius-operator-compact-description", "prop-trf-graph-frobenius-operator", "prop-trf-scheme-galois-comparison", "prop-weil-pbc-rational-transport", "thm-trf-frobenius-fixed-points"]
 +++

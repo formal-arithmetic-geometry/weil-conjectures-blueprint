@@ -2,7 +2,7 @@
 id = "sk-thm-picard-hilb-curves"
 kind = "theorem"
 title = "Hilbert schemes of smooth projective curves"
-order = 783
+order = 789
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.hilbertPresheaf_curve_representable", "AlgebraicGeometry.hilbertPresheaf_curve_points", "AlgebraicGeometry.hilbertPresheaf_curve_add"]
 tags = ["sketch"]

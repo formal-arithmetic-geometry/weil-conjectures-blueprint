@@ -2,7 +2,7 @@
 id = "cor-pod-untwisted-similitude"
 kind = "theorem"
 title = "Untwisted similitude"
-order = 2750
+order = 2784
 tags = ["latex:corollary"]
 uses = ["def-coefficient-twists-detailed", "def-pod-dual-tate-datum", "def-pur-tate-datum", "def-weil-frobenius-coefficient-twists", "def-weil-global-geometric-frobenius", "prop-pod-degree-of-the-pairing", "thm-pod-equivariance-of-the-twisted-pairing"]
 +++

@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-finite-stage-karoubian"
 kind = "theorem"
 title = "Finite-stage rational categories are Karoubian"
-order = 1433
+order = 1471
 uses = ["def-weil-pbc-rational-category", "def-weil-t-structure", "prop-weil-localized-tstructure", "thm-weil-karoubian-bounded-t"]
 +++
 For $E/\Ql$ finite, the category $\Dbc(T,E)$

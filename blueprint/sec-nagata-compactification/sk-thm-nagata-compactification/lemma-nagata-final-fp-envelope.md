@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-fp-envelope"
 kind = "lemma"
 title = "Properties of the final finite-presentation envelope"
-order = 400
+order = 407
 uses = ["def-nagata-final-fp-envelope", "prop-nagata-finite-type-closed-in-fp"]
 +++
 The map $i_f^{\mathrm{fp}}\colon X\hookrightarrow X_f^{\mathrm{fp}}$ is a

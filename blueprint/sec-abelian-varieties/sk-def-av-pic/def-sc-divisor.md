@@ -2,7 +2,7 @@
 id = "def-sc-divisor"
 kind = "definition"
 title = "Divisors, principal divisors, class group"
-order = 444
+order = 454
 uses = ["def-sc-curves", "def-sc-function-field"]
 +++
 Let $C$ be a connected curve over $k$. A

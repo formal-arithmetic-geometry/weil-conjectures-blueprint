@@ -2,7 +2,7 @@
 id = "thm-sf-direct-image-tor-amplitude"
 kind = "theorem"
 title = "Direct image and finite Tor amplitude"
-order = 2370
+order = 2404
 uses = ["def-sf-uniform-direct-image-vanishing", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "lem-exc-residue-tor-test", "lem-sf-flat-model", "lem-sf-projection-finite-constant", "sbc-def-coefficient-conventions", "thm-dg-finite-type-constructibility", "thm-sp-truncation-e2"]
 +++
 Fix an algebraically closed field $k$, a prime

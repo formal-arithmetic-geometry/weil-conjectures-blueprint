@@ -2,7 +2,7 @@
 id = "cor-pur-vector-bundle-purity"
 kind = "theorem"
 title = "Vector-bundle purity"
-order = 2294
+order = 2328
 tags = ["latex:corollary"]
 uses = ["cor-amb-affine-space-adjunction", "def-amb-p1-trace", "def-amb-vector-integration", "def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-amb-affine-space-top-trace", "lem-amb-linear-trace-invariance", "thm-amb-vector-bundle-purity", "thm-sf-ambient-adjoint-class", "thm-weil-pbc-site-comparison"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-wf-curve-normal-smooth-compactification"
 kind = "lemma"
 title = "Smooth proper compactification of a normal finite-field curve"
-order = 2917
+order = 2951
 uses = ["def-sc-normalization", "def-weil-pbc-scheme-conventions", "lem-sc-dim0-finite", "lem-sc-normal-dim1-dvr", "lem-sc-normalization-properties", "lem-wf-finite-field-curve-quasi-projective"]
 +++
 Let $k_0=\mathbf F_q$, and let $U_0$ be a normal, geometrically

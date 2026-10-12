@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-projective-line"
 kind = "theorem"
 title = "Projective-line proper base change"
-order = 1183
+order = 1230
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine", "AlgebraicGeometry.Etale.hasInjectiveAcyclicity_projectiveLine"]
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-injective-acyclicity-property", "def-weil-pbc-property", "lemma-weil-pbc-p1-exchange-geometric-stalk", "lemma-weil-pbc-property-iff-acyclicity", "prop-weil-pbc-proper-curve-sepclosed-invariance"]

@@ -2,7 +2,7 @@
 id = "lemma-nagata-invertible-ideal-is-effective-cartier"
 kind = "lemma"
 title = "An invertible ideal is effective Cartier"
-order = 99
+order = 107
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.isEffectiveCartierCenter"]
 uses = ["def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal"]
 +++

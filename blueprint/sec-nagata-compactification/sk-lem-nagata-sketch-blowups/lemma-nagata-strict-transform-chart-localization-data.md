@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-transform-chart-localization-data"
 kind = "lemma"
 title = "Localization data for strict-transform chart quotients"
-order = 154
+order = 162
 uses = ["def-nagata-strict-transform-chart-ring", "lemma-nagata-power-torsion-localization"]
 +++
 For $s\in B$, the canonical map

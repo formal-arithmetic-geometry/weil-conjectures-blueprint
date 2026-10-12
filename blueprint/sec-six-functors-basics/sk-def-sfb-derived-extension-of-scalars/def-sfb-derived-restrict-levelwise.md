@@ -2,7 +2,7 @@
 id = "def-sfb-derived-restrict-levelwise"
 kind = "definition"
 title = "Derived restriction of scalars is termwise"
-order = 1573
+order = 1611
 uses = ["lem-sfb-extend-scalars-kflat", "sk-def-sfb-change-of-scalars", "sk-def-sfb-derived-categories"]
 lean = ["CategoryTheory.Mod.rightDerivedComapIsoMapDerivedCategory"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sfb-open-immersion-shriek-iso"
 kind = "definition"
 title = "Extension of scalars commutes with $j_!$"
-order = 1689
+order = 1727
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-lower-shriek", "sk-def-sfb-change-of-scalars", "def-sfb-conjugate-pull-iso", "def-sfb-comap-upper-star-iso"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.openImmersionShriekIso"]
 +++

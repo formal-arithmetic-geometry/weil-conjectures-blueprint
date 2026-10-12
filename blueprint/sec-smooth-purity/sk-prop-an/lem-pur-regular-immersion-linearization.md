@@ -2,7 +2,7 @@
 id = "lem-pur-regular-immersion-linearization"
 kind = "lemma"
 title = "Etale linearization of a regular immersion"
-order = 2284
+order = 2318
 uses = ["def-pur-conventions", "def-pur-regular-immersion", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "lem-sc-smooth-regular", "sbc-thm-etale-local-normal-form"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

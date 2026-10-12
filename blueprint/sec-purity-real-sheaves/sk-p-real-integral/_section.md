@@ -2,7 +2,7 @@
 id = "sk-p-real-integral"
 kind = "proposition"
 title = "Integral models"
-order = 2899
+order = 2933
 uses = ["sec-algebraic-groups-lie-algebras", "sk-d-real-weil", "sk-i-real-sheaves"]
 lean = ["AlgebraicGeometry.WeilGroup.IsLisse.exists_lattice"]
 tags = ["sketch"]

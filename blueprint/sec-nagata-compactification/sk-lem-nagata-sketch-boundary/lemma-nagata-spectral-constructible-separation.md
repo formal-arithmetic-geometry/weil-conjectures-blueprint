@@ -2,7 +2,7 @@
 id = "lemma-nagata-spectral-constructible-separation"
 kind = "lemma"
 title = "Properties of the constructible separation data"
-order = 254
+order = 261
 uses = ["def-nagata-spectral-constructible-separation", "lemma-nagata-spectral-constructible-separation-exists"]
 +++
 The constructed subsets $T_c,T'_c$ are constructible and closed in $V$,

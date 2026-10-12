@@ -2,7 +2,7 @@
 id = "sbc-lem-strict-henselian-constant-cohomology"
 kind = "lemma"
 title = "Constant-sheaf cohomology of a strictly henselian local scheme"
-order = 1441
+order = 1479
 uses = ["def-weil-pbc-etale-cohomology"]
 +++
 Let $(R,\mathfrak m)$ be a strictly henselian local ring, let

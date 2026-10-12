@@ -2,7 +2,7 @@
 id = "lem-pur-concentrated-complex-shift"
 kind = "lemma"
 title = "Complexes with cohomology in a single degree"
-order = 2304
+order = 2338
 uses = ["def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative"]
 +++
 In the purity conventions of [def-pur-conventions],

@@ -2,7 +2,7 @@
 id = "rem-ptr-pc-hilb-functor-12"
 kind = "remark"
 title = "Pointer to the properties of [def-pc-hilb-functor]"
-order = 770
+order = 776
 uses = ["def-pc-hilb-functor", "lem-pc-hilb-functorial"]
 +++
 In the notation of [def-pc-hilb-functor], the

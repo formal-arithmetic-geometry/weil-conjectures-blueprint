@@ -2,7 +2,7 @@
 id = "lem-sfb-comap-preserves-k-injectives"
 kind = "lemma"
 title = "Flat restriction of scalars preserves K-injectives"
-order = 1684
+order = 1722
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-change-of-scalars", "sk-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.preservesKInjectiveComplexes_comap_coefficientMap"]
 +++

@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-proetale-operations-8"
 kind = "remark"
 title = "Pointer to the properties of the pro-etale operations"
-order = 1237
+order = 1285
 uses = ["def-weil-pbc-proetale-operations", "prop-weil-pbc-proetale-constant-exact", "prop-weil-pbc-proetale-constant-ring-map"]
 +++
 In the notation of [def-weil-pbc-proetale-operations], the following holds.

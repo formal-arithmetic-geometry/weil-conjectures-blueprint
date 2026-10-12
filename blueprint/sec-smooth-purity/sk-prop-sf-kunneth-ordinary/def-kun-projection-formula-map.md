@@ -2,7 +2,7 @@
 id = "def-kun-projection-formula-map"
 kind = "definition"
 title = "The projection-formula morphism"
-order = 2039
+order = 2073
 uses = ["def-kun-derived-tensor", "def-weil-pbc-inverse-image", "lem-kun-inverse-image-monoidal"]
 +++
 Let $f:X\to Y$ be a morphism of schemes, $\Lambda$ a commutative

@@ -2,7 +2,7 @@
 id = "def-constructible-finite-locally-constant"
 kind = "definition"
 title = "Finite locally constant sheaves"
-order = 1157
+order = 1197
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf"]
 uses = ["def-constructible-finite", "def-constructible-locally-constant"]
 +++

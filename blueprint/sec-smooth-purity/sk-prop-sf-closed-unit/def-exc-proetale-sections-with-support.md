@@ -2,7 +2,7 @@
 id = "def-exc-proetale-sections-with-support"
 kind = "definition"
 title = "The pro-etale sheaf exceptional-image construction"
-order = 2162
+order = 2196
 uses = ["def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions"]
 +++
 Let $i:Z\hookrightarrow T$ be a

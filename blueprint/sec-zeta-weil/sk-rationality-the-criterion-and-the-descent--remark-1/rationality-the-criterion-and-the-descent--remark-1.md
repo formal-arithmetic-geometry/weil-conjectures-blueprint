@@ -1,7 +1,7 @@
 +++
 id = "rationality-the-criterion-and-the-descent--remark-1"
 kind = "remark"
-order = 3198
+order = 3232
 +++
 *Why the descent is needed.* The factorization of
 [prop-trace-determinant] is produced by one chosen $\ell$, so it only

@@ -2,7 +2,7 @@
 id = "def-cbc-open-immersion-square"
 kind = "definition"
 title = "Open-immersion square"
-order = 1172
+order = 1219
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-scheme-conventions"]
 +++
 An *open-immersion square* is a pair consisting of a

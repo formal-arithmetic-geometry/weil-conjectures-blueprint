@@ -2,7 +2,7 @@
 id = "def-sfb-dc-upper-shriek-adjunction"
 kind = "definition"
 title = "The adjunction $Rf_!\\dashv Rf^!$ on $D_{\\mathrm{cons}}$"
-order = 1745
+order = 1783
 uses = ["def-sfb-dc-upper-shriek-functor", "def-sfb-dc-upper-shriek-of-compactification-adjunction", "sk-def-sfb-dc-lower-shriek"]
 +++
 In the situation of [def-sfb-dc-upper-shriek-functor], the adjunction

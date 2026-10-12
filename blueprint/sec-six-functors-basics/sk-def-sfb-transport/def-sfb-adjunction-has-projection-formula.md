@@ -2,7 +2,7 @@
 id = "def-sfb-adjunction-has-projection-formula"
 kind = "definition"
 title = "Adjunctions satisfying the projection formula"
-order = 1549
+order = 1587
 lean = ["CategoryTheory.Adjunction.HasProjectionFormula"]
 +++
 Let $P\dashv S$ be an adjunction, with $P\colon\mathcal C\to\mathcal D$ and

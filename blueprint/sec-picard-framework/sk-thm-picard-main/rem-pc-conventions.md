@@ -2,7 +2,7 @@
 id = "rem-pc-conventions"
 kind = "remark"
 title = "The meaning of ``curve'' and the role of separably closedness"
-order = 838
+order = 844
 +++
 In Stacks Project, Chapter 44, a *smooth projective curve over $k$*
 is a variety (integral, separated, finite type, dimension $1$) which is

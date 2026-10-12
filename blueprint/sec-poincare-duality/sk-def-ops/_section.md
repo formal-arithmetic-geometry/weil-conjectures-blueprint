@@ -2,7 +2,7 @@
 id = "sk-def-ops"
 kind = "definition"
 title = "The six operations, the dualizing complex, the duals"
-order = 2712
+order = 2746
 uses = ["sk-def-set"]
 lean = ["AlgebraicGeometry.ProEtale.dualizingComplex", "AlgebraicGeometry.ProEtale.verdierDual", "AlgebraicGeometry.ProEtale.derivedDual", "AlgebraicGeometry.ProEtale.cohomology"]
 tags = ["sketch"]

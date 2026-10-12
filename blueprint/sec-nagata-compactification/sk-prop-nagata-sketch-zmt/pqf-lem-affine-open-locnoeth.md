@@ -2,7 +2,7 @@
 id = "pqf-lem-affine-open-locnoeth"
 kind = "lemma"
 title = "Affine opens of a locally Noetherian scheme"
-order = 197
+order = 204
 uses = ["pqf-def-locnoeth"]
 +++
 Let $S$ be a locally Noetherian scheme and

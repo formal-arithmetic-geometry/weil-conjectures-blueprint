@@ -2,7 +2,7 @@
 id = "rem-pur-ambient-only"
 kind = "remark"
 title = "The ambient datum of this chapter is a theorem on its coefficients"
-order = 2252
+order = 2286
 uses = ["def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "lem-exc-open-complement-known", "lem-exc-residue-tor-test", "lem-sf-proetale-constructible-origin", "prop-exc-closed-tor", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class"]
 +++
 Of the three clauses of

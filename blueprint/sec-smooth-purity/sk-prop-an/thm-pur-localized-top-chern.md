@@ -2,7 +2,7 @@
 id = "thm-pur-localized-top-chern"
 kind = "theorem"
 title = "Localized top Chern class"
-order = 2291
+order = 2325
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-frame-class", "def-pur-support-cohomology", "def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "lem-pur-divisor-class", "lem-pur-frame-independence", "lem-pur-kummer-additivity", "lem-pur-kunneth-supported", "thm-pur-projective-bundle-formula"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

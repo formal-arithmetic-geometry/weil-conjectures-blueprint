@@ -2,7 +2,7 @@
 id = "def-sfb-constructible-extend-comp-iso"
 kind = "definition"
 title = "Transitivity on bounded constructible complexes"
-order = 1713
+order = 1751
 uses = ["def-sfb-constructible-extend-subfield", "def-sfb-constructible-extend-to-qlbar", "def-sfb-derived-extend-comp-iso"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleToPadicAlgClCompIso"]
 +++

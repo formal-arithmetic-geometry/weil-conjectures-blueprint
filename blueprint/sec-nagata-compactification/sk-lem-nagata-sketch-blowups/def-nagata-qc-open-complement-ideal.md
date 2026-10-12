@@ -2,7 +2,7 @@
 id = "def-nagata-qc-open-complement-ideal"
 kind = "definition"
 title = "Finite-type ideal attached to a quasi-compact open"
-order = 169
+order = 177
 lean = ["AlgebraicGeometry.Scheme.exists_finiteType_ideal_coe_support_eq_compl"]
 uses = ["def-nagata-extended-ideal", "lemma-nagata-finite-type-ideal-extension-exists", "lemma-nagata-qc-open-complement-ideal-exists"]
 +++

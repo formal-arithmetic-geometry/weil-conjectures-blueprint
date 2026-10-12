@@ -2,7 +2,7 @@
 id = "def-sfb-module-lower-star-comp"
 kind = "definition"
 title = "Composition isomorphism of pushforwards of module objects"
-order = 1635
+order = 1673
 uses = ["def-sfb-module-lower-star"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.lowerStarComp"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-open-line"
 kind = "lemma"
 title = "Removing the condition at infinity"
-order = 3131
+order = 3165
 lean = ["AlgebraicGeometry.hasWeightsAtMost_compactlySupportedCohomology_of_projectiveLine"]
 uses = ["sk-d-dl-a1-setup", "sk-d-dl-general-weights", "sk-p-real-semi", "sk-prop-sf-open-closed-triangle", "sk-thm-dl-a1-upper"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "cor-sf-direct-image-ctf-nonproper"
 kind = "theorem"
 title = "The direct image on finite Tor amplitude for a non-proper morphism"
-order = 2495
+order = 2529
 tags = ["latex:corollary"]
 uses = ["def-sf-uniform-direct-image-vanishing", "def-weil-finite-tor-amplitude", "def-weil-pbc-etale-site", "def-weil-scheme-morphism-properties", "lem-sf-etale-direct-image-vanishing", "thm-sf-direct-image-tor-amplitude"]
 +++

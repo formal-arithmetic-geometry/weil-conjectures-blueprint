@@ -2,7 +2,7 @@
 id = "sk-d-real-weil"
 kind = "definition"
 title = "Weil sheaves and their representations"
-order = 2881
+order = 2915
 uses = ["sk-d-real-setup"]
 lean = ["AlgebraicGeometry.WeilGroup", "AlgebraicGeometry.WeilGroup.IsLisse"]
 tags = ["sketch"]

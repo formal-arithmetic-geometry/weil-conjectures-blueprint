@@ -2,7 +2,7 @@
 id = "lem-finrepair-modification-extension-zero"
 kind = "lemma"
 title = "Extension by zero under a proper modification"
-order = 1898
+order = 1933
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $\pi:Y\to X$ be proper and let $j:U\hookrightarrow X$ be open

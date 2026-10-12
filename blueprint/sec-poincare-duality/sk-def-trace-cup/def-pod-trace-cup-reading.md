@@ -2,7 +2,7 @@
 id = "def-pod-trace-cup-reading"
 kind = "definition"
 title = "Poincare duality conventions: trace and trace-cup pairing"
-order = 2726
+order = 2760
 uses = ["cor-cbc-proper-coincidence", "def-pod-conventions", "def-pur-smooth-trace", "def-weil-poincare-trace-cup"]
 +++
 In the conventions of [def-pod-conventions] ($X_0$ not necessarily

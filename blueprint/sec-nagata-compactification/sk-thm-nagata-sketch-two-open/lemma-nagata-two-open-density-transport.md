@@ -2,7 +2,7 @@
 id = "lemma-nagata-two-open-density-transport"
 kind = "lemma"
 title = "Density and quasi-compactness under the finite modification diagram"
-order = 300
+order = 307
 lean = ["AlgebraicGeometry.TwoOpenSide.dense_range_intermediateU"]
 uses = ["def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-two-open-final-modification"]
 +++

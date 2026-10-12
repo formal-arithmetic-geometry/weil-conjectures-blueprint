@@ -2,7 +2,7 @@
 id = "def-weil-normalized-integral-fraction"
 kind = "definition"
 title = "Normalized reduced integral fraction"
-order = 3166
+order = 3200
 uses = ["def-weil-formal-power-series"]
 +++
 Fix an indeterminate $T$, and let

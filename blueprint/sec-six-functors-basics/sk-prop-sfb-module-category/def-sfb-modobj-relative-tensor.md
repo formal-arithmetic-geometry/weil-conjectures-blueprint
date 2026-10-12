@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-relative-tensor"
 kind = "definition"
 title = "The relative tensor product $\\otimes_{\\mathcal R}$"
-order = 1524
+order = 1562
 uses = ["def-sfb-symmetric-bimod-module-iso", "lem-sfb-modobj-symmetric-bimodules", "lem-sfb-symmetric-bimod-tensor"]
 lean = ["CategoryTheory.Mod.monoidalCategory"]
 +++

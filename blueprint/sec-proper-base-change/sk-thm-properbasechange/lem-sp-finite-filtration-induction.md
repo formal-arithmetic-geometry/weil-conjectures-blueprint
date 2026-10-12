@@ -2,7 +2,7 @@
 id = "lem-sp-finite-filtration-induction"
 kind = "lemma"
 title = "Finite filtration induction"
-order = 1209
+order = 1258
 uses = ["def-sp-filtration"]
 +++
 Let $(A,F)$ and $(A',F')$ be filtered objects [def-sp-filtration] with finite

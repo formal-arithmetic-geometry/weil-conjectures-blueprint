@@ -2,7 +2,7 @@
 id = "cor-exc-base-change-open-immersion-general"
 kind = "theorem"
 title = "Base change for an arbitrary morphism, against an open immersion"
-order = 2119
+order = 2153
 tags = ["latex:corollary"]
 uses = ["cor-exc-base-change-reduces-to-proper", "cor-sf-ambient-adjoint-discharge", "def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "prop-exc-base-change-proper", "thm-nagata-compactification"]
 +++

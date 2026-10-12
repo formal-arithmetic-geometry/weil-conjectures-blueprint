@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-level-map-operator-naturality"
 kind = "lemma"
 title = "Operator naturality of the finite rectangle"
-order = 1331
+order = 1371
 uses = ["def-weil-pbc-level-map-arrows", "lemma-weil-pbc-projection-formula-base-change-naturality"]
 +++
 Let $\phi:K\to K$ be a tower-compatible endomorphism. Give

@@ -2,7 +2,7 @@
 id = "lem-asd-smooth-generic-direct-image"
 kind = "lemma"
 title = "A smooth source with locally constant coefficients"
-order = 1936
+order = 1971
 uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "lem-fin-compact-bounded-and-base-change", "lem-fin-lisse-field-dual", "prop-asd-internal-adjunction", "prop-asd-smooth-base-change", "sbc-def-base-change-map", "sbc-lem-smooth-relative-dimension-locally-constant", "thm-asd-smooth-tensor"]
 +++
 Let $S$ be integral and of finite type over a field $k$, let

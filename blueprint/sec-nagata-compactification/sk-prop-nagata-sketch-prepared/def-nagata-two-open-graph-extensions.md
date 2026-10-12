@@ -2,7 +2,7 @@
 id = "def-nagata-two-open-graph-extensions"
 kind = "definition"
 title = "Chosen graph extensions"
-order = 265
+order = 272
 lean = ["AlgebraicGeometry.TwoOpenSide"]
 uses = ["def-nagata-graph-extension", "def-nagata-two-open-dense-compactifications"]
 +++

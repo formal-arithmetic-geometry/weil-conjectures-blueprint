@@ -3,7 +3,7 @@ id = "lem-sc-constant-locus-closed"
 kind = "lemma"
 title = "The locus of parameters with constant fibre is closed"
 lean = ["AlgebraicGeometry.isClosed_setOf_subsingleton_image"]
-order = 486
+order = 492
 +++
 Let $k$ be a field, $X$ a $k$-scheme proper over $k$, $Z$ a
 $k$-scheme separated over $k$, $Y$ a $k$-scheme and

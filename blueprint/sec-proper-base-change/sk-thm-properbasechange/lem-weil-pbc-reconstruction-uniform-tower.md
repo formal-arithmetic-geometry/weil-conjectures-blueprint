@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-reconstruction-uniform-tower"
 kind = "lemma"
 title = "Reconstruction of a uniform local tower"
-order = 1251
+order = 1299
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-intrinsic-completion", "lem-weil-pbc-finite-reduction-reconstruction", "prop-weil-pbc-koszul-reconstruction"]
 +++
 Let $M_\bullet$ be a uniformly bounded constructible adic tower in the sense

@@ -2,7 +2,7 @@
 id = "thm-cbc-complete-proetale"
 kind = "theorem"
 title = "Complete pro-etale compact-support base change"
-order = 1893
+order = 1928
 uses = ["def-cbc-compact-support-square", "def-cbc-completed-exchange-map", "def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-scheme-conventions", "lem-cbc-completed-extension-zero-comparison", "lem-cbc-proetale-extension-zero", "thm-weil-pbc-complete-proetale"]
 +++
 Let $(A,I)$ satisfy [def-weil-pbc-adic-coefficient-datum], let

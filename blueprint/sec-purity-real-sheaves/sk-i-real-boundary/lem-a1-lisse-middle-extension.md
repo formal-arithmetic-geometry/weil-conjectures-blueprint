@@ -2,7 +2,7 @@
 id = "lem-a1-lisse-middle-extension"
 kind = "lemma"
 title = "Recovery from a dense lisse open"
-order = 2949
+order = 2983
 uses = ["def-wf-middle-extension", "lem-wf-boundary-stalk-invariants"]
 +++
 If $\mathcal F$ is lisse on a smooth curve $C_0$ and

@@ -2,7 +2,7 @@
 id = "def-nagata-dense-refinement"
 kind = "definition"
 title = "Dense-refinement construction"
-order = 81
+order = 89
 lean = ["AlgebraicGeometry.Compactification.denseRefinement"]
 uses = ["def-nagata-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-ideal-qc"]
 +++

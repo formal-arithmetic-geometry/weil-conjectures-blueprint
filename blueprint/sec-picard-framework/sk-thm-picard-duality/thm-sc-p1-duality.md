@@ -2,7 +2,7 @@
 id = "thm-sc-p1-duality"
 kind = "theorem"
 title = "Duality on the projective line"
-order = 696
+order = 702
 uses = ["def-sc-ext-sheaf", "def-sc-kahler-differentials", "def-sc-p1-standard", "lem-pc-projective-space-serre-pairing", "lem-sc-ext-locally-free", "lem-sc-four-lemma", "lem-sc-p1-graded-resolution", "lem-sc-p1-hi-vanishing", "lem-sc-p1-monomial", "lem-sc-p1-twist-exists"]
 +++
 Let $k$ be an algebraically closed field. For every coherent

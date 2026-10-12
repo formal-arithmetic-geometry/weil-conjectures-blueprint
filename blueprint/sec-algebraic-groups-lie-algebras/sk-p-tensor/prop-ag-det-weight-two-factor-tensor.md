@@ -2,7 +2,7 @@
 id = "prop-ag-det-weight-two-factor-tensor"
 kind = "theorem"
 title = "Determinant weights of a tensor product of two sheaves (conditional)"
-order = 2863
+order = 2897
 uses = ["cor-mg-central-determinant-weight", "d-weights", "def-mg-weil-composition-series", "def-mg-weil-semisimplification", "lem-mg-common-positive-central-element", "lem-mg-composition-series-exists", "lem-mg-degree-component-functoriality", "lem-mg-filtered-tensor-product", "lem-mg-filtration-refinement", "lem-mg-jordan-holder", "lem-wf-schur-scalar"]
 lean = ["Representation.exists_detWeight_eq_add_of_subquotient_tprod"]
 +++

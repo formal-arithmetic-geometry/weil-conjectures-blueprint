@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-qbar-idempotent-complete"
 kind = "theorem"
 title = "The Qbar-l category is idempotent complete"
-order = 1846
+order = 1881
 uses = ["def-weil-karoubi-envelope", "def-weil-pbc-qbar-category", "lem-weil-karoubi-envelope-fully-faithful", "lem-weil-karoubi-envelope-triangulated", "prop-weil-filtered-retract-descent", "thm-weil-pbc-finite-stage-karoubian"]
 +++
 The category $\Dbc(T,\Qlb)=\mathcal P_T$ of

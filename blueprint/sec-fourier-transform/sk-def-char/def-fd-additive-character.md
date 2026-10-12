@@ -2,7 +2,7 @@
 id = "def-fd-additive-character"
 kind = "definition"
 title = "Additive characters"
-order = 2976
+order = 3010
 lean = ["AddChar.FiniteField.primitiveChar"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

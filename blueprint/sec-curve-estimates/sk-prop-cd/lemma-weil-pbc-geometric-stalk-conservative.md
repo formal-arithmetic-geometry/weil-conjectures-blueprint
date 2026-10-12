@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-geometric-stalk-conservative"
 kind = "lemma"
 title = "Conservativity of geometric stalks"
-order = 991
+order = 999
 lean = ["AlgebraicGeometry.Scheme.isIso_of_isIso_sheafFiber_map"]
 uses = ["def-kun-separably-closed", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "lemma-openclosed-point-ulift", "prop-weil-pbc-geometric-stalks-exact"]
 +++

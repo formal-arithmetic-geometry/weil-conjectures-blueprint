@@ -2,7 +2,7 @@
 id = "def-nagata-strict-transform-chart-comparison-localized"
 kind = "definition"
 title = "Localized strict-transform chart comparison"
-order = 152
+order = 160
 uses = ["def-nagata-strict-transform-chart-comparison"]
 +++
 After localizing the base ring or a chart ring, define

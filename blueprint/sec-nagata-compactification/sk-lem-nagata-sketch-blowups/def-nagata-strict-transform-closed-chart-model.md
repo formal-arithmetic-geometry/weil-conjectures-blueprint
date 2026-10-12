@@ -2,7 +2,7 @@
 id = "def-nagata-strict-transform-closed-chart-model"
 kind = "definition"
 title = "Closed chart model of the global strict transform"
-order = 156
+order = 164
 uses = ["def-nagata-global-blowup", "def-nagata-strict-transform-chart-ring", "lemma-nagata-strict-transform-chart-localization-data"]
 +++
 Let $f\colon Y\to X$, let $\mathcal I$ be a finite-type quasi-coherent

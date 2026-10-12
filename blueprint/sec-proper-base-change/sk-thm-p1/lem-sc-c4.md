@@ -2,7 +2,7 @@
 id = "lem-sc-c4"
 kind = "lemma"
 title = "C4: finiteness for constructible prime-to-char sheaves"
-order = 1115
+order = 1154
 uses = ["def-sc-curves", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lem-sc-affine-open-proper", "lem-sc-affine-unit-quotient", "lem-sc-compactification", "lem-sc-pic-affine", "thm-sc-affine-cohomology", "thm-sc-proper-cohomology"]
 +++
 Let $k$ be algebraically closed, let $C$ be a

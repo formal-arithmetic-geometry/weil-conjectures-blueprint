@@ -2,7 +2,7 @@
 id = "i-relative-frob"
 kind = "theorem"
 title = "Relative Frobenius"
-order = 2666
+order = 2700
 uses = ["d-relative-frob", "def-weil-scheme-morphism-properties"]
 tags = ["latex:proposition"]
 +++

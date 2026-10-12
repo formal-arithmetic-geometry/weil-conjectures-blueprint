@@ -2,7 +2,7 @@
 id = "lem-sf-class-compact-support-comparison"
 kind = "lemma"
 title = "On the coefficient class the compact-support functor is computed on the étale site"
-order = 2110
+order = 2144
 uses = ["def-amb-etale-compact-support", "def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "def-weil-extension-by-zero", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-extension-by-zero", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-extension-zero-comparison", "prop-weil-pbc-comparison-direct-image"]
 +++
 Let $K_0$ be a field, let $X,Y$ be

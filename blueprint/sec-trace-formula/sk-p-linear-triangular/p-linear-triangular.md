@@ -2,7 +2,7 @@
 id = "p-linear-triangular"
 kind = "theorem"
 title = "Triangularization"
-order = 2694
+order = 2728
 tags = ["latex:proposition"]
 +++
 A single endomorphism of a finite-dimensional

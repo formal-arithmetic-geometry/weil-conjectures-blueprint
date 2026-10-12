@@ -2,7 +2,7 @@
 id = "def-nagata-effective-cartier-ideal"
 kind = "definition"
 title = "Effective Cartier ideal"
-order = 97
+order = 105
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible"]
 +++
 A quasi-coherent ideal $\mathcal I\subseteq\mathcal O_X$ is an

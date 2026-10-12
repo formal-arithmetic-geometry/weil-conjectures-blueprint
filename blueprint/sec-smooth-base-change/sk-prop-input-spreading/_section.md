@@ -2,7 +2,7 @@
 id = "sk-prop-input-spreading"
 kind = "proposition"
 title = "Spreading a finite étale Galois cover"
-order = 1404
+order = 1444
 uses = ["sk-def-smooth"]
 lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_isPullback_of_genericFibre"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-dense-valuative"
 kind = "lemma"
 title = "Dense-source valuative criterion"
-order = 273
+order = 280
 lean = ["AlgebraicGeometry.UniversallyClosed.of_valuativeCriterion_of_isDominant", "AlgebraicGeometry.IsSeparated.of_valuativeCriterion_of_isDominant"]
 tags = ["sketch"]
 +++

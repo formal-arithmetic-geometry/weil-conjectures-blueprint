@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-weak-etale-tor"
 kind = "lemma"
 title = "Flat diagonal and Tor groups"
-order = 1216
+order = 1264
 uses = ["def-weil-pbc-ind-etale-algebra"]
 +++
 If $A\to B$ is weakly etale [def-weil-pbc-ind-etale-algebra], then for

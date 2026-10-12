@@ -2,7 +2,7 @@
 id = "cor-a1-fourier-middle-hc1"
 kind = "theorem"
 title = "Fourier bound for middle-extension cohomology"
-order = 3086
+order = 3120
 tags = ["latex:corollary"]
 uses = ["cor-fd-l2-plancherel-middle-extension", "def-fd-nonexceptional", "def-weil-punctual-weights", "def-wf-fundamental-representation", "def-wf-middle-extension", "lem-a1-unramified-nonexceptional", "lem-wf-boundary-semicontinuity"]
 lean = ["AlgebraicGeometry.hasWeightsAtMost_compactlySupportedCohomology_one"]

@@ -2,7 +2,7 @@
 id = "prop-sfb-module-left-derived-upper-star-levelwise"
 kind = "proposition"
 title = "The derived pullback of module objects is levelwise"
-order = 1652
+order = 1690
 uses = ["sk-def-sfb-module-derived-pushpull", "sk-prop-sfb-module-pullback-exact", "sk-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.leftDerivedUpperStarIsoMapDerivedCategory"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sc-etale-affine-qcoherent"
 kind = "lemma"
 title = "Etale acyclicity of a quasi-coherent module on an affine"
-order = 959
+order = 967
 uses = ["def-sc-etale-qcoherent-module", "lem-pc-cech-exact", "lem-sc-cech-spectral"]
 +++
 Let $X$ be an affine scheme and $\mathcal F$ a quasi-coherent module.

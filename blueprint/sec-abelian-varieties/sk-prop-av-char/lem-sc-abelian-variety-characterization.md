@@ -3,7 +3,7 @@ id = "lem-sc-abelian-variety-characterization"
 kind = "lemma"
 title = "Abelian varieties are the complete group varieties"
 lean = ["AlgebraicGeometry.IsAbelianVariety.geometricallyIntegral", "AlgebraicGeometry.IsAbelianVariety.irreducibleSpace"]
-order = 472
+order = 478
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme"]
 +++
 Let $k$ be a field and $A$ a

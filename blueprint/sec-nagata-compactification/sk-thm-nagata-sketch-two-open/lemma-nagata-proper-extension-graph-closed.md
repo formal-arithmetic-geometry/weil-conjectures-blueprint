@@ -2,7 +2,7 @@
 id = "lemma-nagata-proper-extension-graph-closed"
 kind = "lemma"
 title = "Closed image of the proper extension graph"
-order = 286
+order = 293
 lean = ["AlgebraicGeometry.TwoOpenSide.isProper_graph"]
 uses = ["def-nagata-two-open-graph-extensions"]
 +++

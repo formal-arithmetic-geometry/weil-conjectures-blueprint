@@ -2,7 +2,7 @@
 id = "def-zl-frobenius-trace-series"
 kind = "definition"
 title = "Frobenius trace series"
-order = 2692
+order = 2726
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-weil-sheaf-complex"]
 +++
 Fix the finite-field datum

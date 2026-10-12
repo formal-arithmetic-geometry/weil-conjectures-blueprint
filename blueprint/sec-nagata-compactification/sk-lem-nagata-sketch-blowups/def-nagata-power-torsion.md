@@ -2,7 +2,7 @@
 id = "def-nagata-power-torsion"
 kind = "definition"
 title = "Power-torsion submodule"
-order = 138
+order = 146
 lean = ["Submodule.powTorsion"]
 +++
 Let $R$ be a ring, let $M$ be an $R$-module, and let $a\in R$. Define

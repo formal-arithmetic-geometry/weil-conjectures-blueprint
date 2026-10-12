@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proper-open-comparison-composition"
 kind = "lemma"
 title = "Composition of proper-open comparison maps"
-order = 1787
+order = 1825
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-proper-open-comparison", "lem-weil-pbc-derived-open-restriction", "lem-weil-pbc-proper-open-identification", "lem-weil-pbc-proper-open-section"]
 +++
 Let $u:T_1\to T_2$ and $v:T_2\to T_3$ be proper maps with

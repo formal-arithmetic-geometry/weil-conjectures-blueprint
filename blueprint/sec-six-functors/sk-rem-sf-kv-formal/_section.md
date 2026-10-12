@@ -2,7 +2,7 @@
 id = "sk-rem-sf-kv-formal"
 kind = "remark"
 title = "What is formal and what is not"
-order = 2533
+order = 2567
 tags = ["sketch"]
 +++
 Given biduality [sk-prop-sf-biduality-general], the Verdier exchange

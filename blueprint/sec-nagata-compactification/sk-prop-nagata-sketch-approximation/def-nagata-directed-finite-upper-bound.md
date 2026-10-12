@@ -2,7 +2,7 @@
 id = "def-nagata-directed-finite-upper-bound"
 kind = "definition"
 title = "Selected upper bound of a finite set"
-order = 328
+order = 335
 +++
 Let $I$ be a nonempty directed preorder. Fix a base point $i_\varnothing$
 and, for each pair $(i,j)$, fix a selected common upper bound $d(i,j)$,

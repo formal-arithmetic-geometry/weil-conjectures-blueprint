@@ -2,7 +2,7 @@
 id = "def-nagata-relative-finite-affine-presentation"
 kind = "definition"
 title = "Selected finite relative affine presentation"
-order = 357
+order = 364
 +++
 Let $S$ be qcqs and let $X\to S$ be of finite presentation. Select a
 finite affine cover of

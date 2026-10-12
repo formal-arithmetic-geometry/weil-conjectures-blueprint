@@ -2,7 +2,7 @@
 id = "sk-prop-sfb-module-pullback-exact"
 kind = "proposition"
 title = "The pullback of module objects is exact"
-order = 1637
+order = 1675
 uses = ["sk-def-sfb-module-pushforward-pullback"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteColimits_upperStar", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_upperStar", "AlgebraicGeometry.ProEtale.CondensedRing.preservesHomology_upperStar"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "lemma-nagata-power-torsion-submodule"
 kind = "lemma"
 title = "Power torsion is a submodule"
-order = 139
+order = 147
 lean = ["Submodule.powTorsion"]
 uses = ["def-nagata-power-torsion"]
 +++

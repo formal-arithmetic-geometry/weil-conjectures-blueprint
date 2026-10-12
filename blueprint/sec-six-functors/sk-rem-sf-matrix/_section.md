@@ -2,7 +2,7 @@
 id = "sk-rem-sf-matrix"
 kind = "remark"
 title = "The preservation matrix"
-order = 2519
+order = 2553
 tags = ["sketch"]
 +++
 Short of the residue above, the following cells are *proved*:

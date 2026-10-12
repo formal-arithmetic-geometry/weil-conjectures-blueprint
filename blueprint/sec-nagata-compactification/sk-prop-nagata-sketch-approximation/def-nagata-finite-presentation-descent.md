@@ -2,7 +2,7 @@
 id = "def-nagata-finite-presentation-descent"
 kind = "definition"
 title = "Finite-presentation descent construction"
-order = 362
+order = 369
 uses = ["def-nagata-relative-gluing-valid-stage"]
 +++
 Define

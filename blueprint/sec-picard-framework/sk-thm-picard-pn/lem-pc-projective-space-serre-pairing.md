@@ -2,7 +2,7 @@
 id = "lem-pc-projective-space-serre-pairing"
 kind = "lemma"
 title = "Top cohomology of twists on projective space as a dual"
-order = 619
+order = 625
 uses = ["def-pc-projective-space-twist", "lem-pc-cech-computes", "lem-pc-projective-space-twist-cohomology", "lem-pc-twist-tensor", "pqf-def-cohomology"]
 +++
 Let $A$ be a commutative ring, $n\ge1$, $P=\mathbf P^n_A$ with the

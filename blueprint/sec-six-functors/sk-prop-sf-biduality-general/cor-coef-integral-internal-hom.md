@@ -2,7 +2,7 @@
 id = "cor-coef-integral-internal-hom"
 kind = "theorem"
 title = "Integral constructible internal Hom"
-order = 2451
+order = 2485
 tags = ["latex:corollary"]
 uses = ["cor-weil-finite-constructible-hom", "lem-coef-integral-hom-reduction", "lem-coef-integral-residue-tor"]
 +++

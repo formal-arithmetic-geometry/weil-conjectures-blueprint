@@ -2,7 +2,7 @@
 id = "sk-thm-fe"
 kind = "theorem"
 title = "Functional equation"
-order = 3224
+order = 3258
 lean = ["AlgebraicGeometry.weilSign", "AlgebraicGeometry.WeilFunctionalEquation.alternatingProdEval_eq"]
 uses = ["sk-def-roots", "sk-def-zeta", "sk-prop-reciprocity", "sk-thm-tracetodeterminant"]
 tags = ["sketch"]

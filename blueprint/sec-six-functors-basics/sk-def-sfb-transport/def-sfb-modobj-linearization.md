@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-linearization"
 kind = "definition"
 title = "Linearization of a functor with a projection formula"
-order = 1546
+order = 1584
 uses = ["def-sfb-projection-formula", "sk-def-sfb-module-objects"]
 lean = ["CategoryTheory.Functor.ProjectionFormula.mapModLeft"]
 +++

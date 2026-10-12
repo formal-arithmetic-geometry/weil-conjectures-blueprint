@@ -2,7 +2,7 @@
 id = "lem-wf-finite-field-tate-no-fixed"
 kind = "lemma"
 title = "Arithmetic Frobenius has no fixed vector on the Jacobian Tate module"
-order = 2926
+order = 2960
 uses = ["d-ab-field", "def-sc-jacobian", "def-tate-module-abelian-group", "def-wf-abelian-tate-module", "lem-wf-geometric-jacobian-galois-action", "prop-av-tate-no-frobenius-fixed", "thm-av-final", "thm-pd-jacobian-general-field"]
 +++
 Let $C_0/\mathbf F_Q$ be a smooth projective geometrically connected curve,

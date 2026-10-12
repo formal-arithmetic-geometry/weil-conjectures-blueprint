@@ -2,7 +2,7 @@
 id = "def-nagata-final-fp-envelope"
 kind = "definition"
 title = "Finite-presentation envelope used in the final assembly"
-order = 399
+order = 406
 uses = ["def-nagata-finite-type-closed-in-fp"]
 +++
 Define

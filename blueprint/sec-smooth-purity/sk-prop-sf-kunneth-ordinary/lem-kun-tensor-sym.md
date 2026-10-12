@@ -2,7 +2,7 @@
 id = "lem-kun-tensor-sym"
 kind = "lemma"
 title = "Symmetry of the derived tensor product"
-order = 2014
+order = 2048
 uses = ["def-kun-derived-tensor", "def-weil-pbc-derived-categories"]
 +++
 For a commutative ring $\Lambda$ and $A,B\in D(T_{\Et},\Lambda)$

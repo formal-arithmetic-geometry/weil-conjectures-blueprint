@@ -2,7 +2,7 @@
 id = "lem-tw-root-of-unity-modulus"
 kind = "lemma"
 title = "Modulus of a root of unity"
-order = 2931
+order = 2965
 uses = ["def-tw-eigenvalue"]
 +++
 Every root of unity $\zeta\in\overline{\mathbf Q}_\ell^\times$ has

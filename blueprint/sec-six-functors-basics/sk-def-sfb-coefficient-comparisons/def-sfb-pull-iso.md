@@ -2,7 +2,7 @@
 id = "def-sfb-pull-iso"
 kind = "definition"
 title = "Underived (Pull)"
-order = 1679
+order = 1717
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-pushforward-pullback", "sk-def-sfb-change-of-scalars", "def-sfb-conjugate-pull-iso", "def-sfb-comap-lower-star-iso"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.pullIso"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-thm-picard-f-representable"
 kind = "theorem"
 title = "$F$ is representable"
-order = 828
+order = 834
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.isRepresentable_picardFunctorInvertibleDirectImage"]
 tags = ["sketch"]

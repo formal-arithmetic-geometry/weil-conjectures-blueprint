@@ -2,7 +2,7 @@
 id = "def-sfb-derived-pull-iso"
 kind = "definition"
 title = "(Pull)"
-order = 1686
+order = 1724
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-pushpull", "sk-def-sfb-derived-extension-of-scalars", "def-sfb-conjugate-pull-iso", "def-sfb-derived-comap-lower-star-iso"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso"]
 +++

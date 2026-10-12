@@ -2,7 +2,7 @@
 id = "lem-wf-degree-component-image"
 kind = "lemma"
 title = "Matrix image of a degree component"
-order = 2809
+order = 2843
 uses = ["def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-weil-fundamental-representation"]
 +++
 In the situation of [def-wf-degree-components], for every

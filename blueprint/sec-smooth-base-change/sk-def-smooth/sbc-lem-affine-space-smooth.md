@@ -2,7 +2,7 @@
 id = "sbc-lem-affine-space-smooth"
 kind = "lemma"
 title = "Affine space is smooth"
-order = 1378
+order = 1418
 uses = ["def-sbc-affine-space", "def-sbc-smooth-morphisms"]
 +++
 For every scheme $S$ and every $n\geq0$, the projection

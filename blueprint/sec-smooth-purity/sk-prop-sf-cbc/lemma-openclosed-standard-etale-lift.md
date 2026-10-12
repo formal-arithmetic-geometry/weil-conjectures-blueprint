@@ -2,7 +2,7 @@
 id = "lemma-openclosed-standard-etale-lift"
 kind = "lemma"
 title = "Lifting a standard étale algebra along a quotient"
-order = 1823
+order = 1861
 lean = ["Algebra.IsStandardEtale.exists_algEquiv_quotient_tensor"]
 +++
 Let $R$ be a commutative ring and $I\subseteq R$ an ideal. Recall that a

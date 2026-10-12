@@ -2,7 +2,7 @@
 id = "sk-thm-p1"
 kind = "theorem"
 title = "Curve calculations $\\Rightarrow$ PBC($\\Pone$)"
-order = 1107
+order = 1139
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine"]
 uses = ["sk-def-br", "sk-def-pbc", "sk-thm-curveestimate", "sk-thm-iff"]
 tags = ["sketch"]

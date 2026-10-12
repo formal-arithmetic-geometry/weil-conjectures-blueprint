@@ -2,7 +2,7 @@
 id = "def-nagata-spectral-constructible-separation"
 kind = "definition"
 title = "Constructible separation data in a spectral space"
-order = 253
+order = 260
 uses = ["lemma-nagata-spectral-constructible-separation-exists"]
 +++
 Let $T,T'\subseteq V$ be disjoint closed subsets of a spectral space.

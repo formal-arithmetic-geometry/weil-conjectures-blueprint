@@ -2,7 +2,7 @@
 id = "lem-a1-curve-hc2-bound"
 kind = "lemma"
 title = "Top compact-support bound on a curve"
-order = 3038
+order = 3072
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "lem-a1-affine-hc2", "lem-a1-subquotient-extension-bounds", "lem-tw-tate-twist-weight-shift"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.hasWeightsAtMostOver_compactlySupportedCohomology_two"]
 +++

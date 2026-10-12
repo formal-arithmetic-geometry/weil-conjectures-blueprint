@@ -2,7 +2,7 @@
 id = "lem-sc-normalization-properties"
 kind = "lemma"
 title = "Properties of the normalization"
-order = 919
+order = 925
 uses = ["def-sc-normalization", "lem-sc-normalization-exists", "lem-sc-normalization-over-normal-locus", "lem-sc-normalized-curve-smooth"]
 +++
 Let $X$ be an integral scheme of finite type over a field $k$

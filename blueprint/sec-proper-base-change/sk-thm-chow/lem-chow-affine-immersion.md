@@ -2,7 +2,7 @@
 id = "lem-chow-affine-immersion"
 kind = "lemma"
 title = "An affine scheme of finite type immerses into projective space"
-order = 1053
+order = 1085
 lean = ["AlgebraicGeometry.exists_isImmersion_projectiveSpace"]
 uses = ["def-nagata-affine-proj", "def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions"]
 +++

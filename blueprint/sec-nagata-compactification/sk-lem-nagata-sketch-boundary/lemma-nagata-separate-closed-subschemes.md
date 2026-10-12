@@ -2,7 +2,7 @@
 id = "lemma-nagata-separate-closed-subschemes"
 kind = "lemma"
 title = "Properties of the closed-boundary separation blow-up, [stacks-project]"
-order = 248
+order = 255
 lean = ["AlgebraicGeometry.disjoint_range_strictTransformMap_sup"]
 uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-separate-closed-subschemes", "def-nagata-strict-transform", "lemma-nagata-separate-closed-data-exists", "lemma-nagata-strict-transform-ambient-closed", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open"]
 +++

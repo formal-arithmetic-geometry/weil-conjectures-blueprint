@@ -2,7 +2,7 @@
 id = "prop-sfb-module-left-derived-upper-star-iso"
 kind = "proposition"
 title = "$Lf^*$ is $L(\\operatorname{Ext}_{\\alpha_f})\\circ D(\\operatorname{mapMod}(f^*))$"
-order = 1651
+order = 1689
 uses = ["sk-def-sfb-module-derived-pushpull", "def-sfb-module-upper-star", "lem-sfb-module-mapmod-pullback-kflat", "sk-def-sfb-derived-extension-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.leftDerivedUpperStarIso"]
 +++

@@ -2,7 +2,7 @@
 id = "rem-sf-comp-scope"
 kind = "remark"
 title = "Scope of the coherence"
-order = 2473
+order = 2507
 +++
 The argument tests geometric stalks and therefore proves the coherence on the
 étale-origin complexes $\nu_X^*D^+(X_{\Et},\Lambda)$ — the range in which

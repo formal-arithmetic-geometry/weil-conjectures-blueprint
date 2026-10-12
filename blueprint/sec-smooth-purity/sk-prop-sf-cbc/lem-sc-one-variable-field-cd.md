@@ -2,7 +2,7 @@
 id = "lem-sc-one-variable-field-cd"
 kind = "lemma"
 title = "One-variable fields over a separably closed field"
-order = 1853
+order = 1888
 uses = ["def-sc-etale-torsion-cd", "lem-sc-arbitrary-curve-cd", "lem-sc-cd-affine-limit", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 If $F$ is separably closed, then

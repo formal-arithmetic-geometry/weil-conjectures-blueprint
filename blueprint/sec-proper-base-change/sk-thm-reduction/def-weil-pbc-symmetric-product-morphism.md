@@ -2,7 +2,7 @@
 id = "def-weil-pbc-symmetric-product-morphism"
 kind = "definition"
 title = "Symmetric-product coordinate morphism"
-order = 1199
+order = 1246
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 For $n\geq1$ and a scheme $S$, define polynomials $F_0,\dots,F_n$ by

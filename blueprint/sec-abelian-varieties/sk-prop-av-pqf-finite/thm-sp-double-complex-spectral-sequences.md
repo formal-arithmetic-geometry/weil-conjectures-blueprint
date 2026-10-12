@@ -2,7 +2,7 @@
 id = "thm-sp-double-complex-spectral-sequences"
 kind = "theorem"
 title = "The two spectral sequences of a first-quadrant double complex"
-order = 518
+order = 524
 uses = ["def-sp-convergence", "def-sp-double-complex-total", "def-sp-image-filtration", "thm-sp-spectral-object-yields"]
 +++
 Let $D^{\bullet,\bullet}$ be a first-quadrant double complex in an abelian

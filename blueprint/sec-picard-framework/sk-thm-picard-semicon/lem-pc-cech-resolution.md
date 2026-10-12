@@ -2,7 +2,7 @@
 id = "lem-pc-cech-resolution"
 kind = "lemma"
 title = "The Cech resolution and derived direct image"
-order = 670
+order = 676
 uses = ["def-pc-derived-direct-image", "def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-morphism-hi", "lem-pc-affine-vanishing"]
 +++
 Let $S=\operatorname{Spec}(A)$, let $f:X\to S$ be a separated,

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-strict-w-cover"
 kind = "definition"
 title = "The strict w-local cover"
-order = 1228
+order = 1276
 uses = ["def-weil-pbc-etale-contraction", "def-weil-pbc-retained-localization", "def-weil-pbc-w-localization", "lem-weil-pbc-w-localization-points"]
 +++
 For a ring $A$, put $W=A^w$, let $I$ be the radical ideal defining its closed

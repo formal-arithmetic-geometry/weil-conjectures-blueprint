@@ -2,7 +2,7 @@
 id = "lem-fin-closed-immersion"
 kind = "theorem"
 title = "Closed immersions preserve constructibility"
-order = 1897
+order = 1932
 tags = ["latex:corollary"]
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.lowerStar_of_isClosedImmersion"]
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism"]

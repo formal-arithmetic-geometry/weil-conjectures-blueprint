@@ -2,7 +2,7 @@
 id = "lem-sf-twist-interchange"
 kind = "lemma"
 title = "Internal Hom with an invertible twist"
-order = 2480
+order = 2514
 uses = ["def-coefficient-twists-detailed", "def-sf-datum", "def-weil-derived-pullback-tensor-hom", "lem-sf-hom-finite-projective", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
 +++
 In the setting of [def-sf-datum], let $K$ be perfect over

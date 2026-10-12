@@ -2,7 +2,7 @@
 id = "prop-pur-adic-reconstruction-trace-coherence"
 kind = "theorem"
 title = "Adic transport of trace and coherence"
-order = 2328
+order = 2362
 tags = ["latex:proposition"]
 uses = ["def-pur-conventions", "def-pur-smooth-trace", "lem-weil-pbc-reconstruction-uniform-tower", "thm-pur-adic-reconstruction", "thm-pur-composition-coherence", "thm-pur-smooth-base-change-coherence"]
 +++

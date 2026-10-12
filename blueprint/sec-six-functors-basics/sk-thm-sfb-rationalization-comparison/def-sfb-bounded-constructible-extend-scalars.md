@@ -2,7 +2,7 @@
 id = "def-sfb-bounded-constructible-extend-scalars"
 kind = "definition"
 title = "Extension of scalars on bounded constructible complexes"
-order = 1594
+order = 1632
 uses = ["lem-sfb-extend-scalars-bounded-constructible"]
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructibleExtendScalars", "AlgebraicGeometry.ProEtale.boundedConstructibleExtendScalarsCompatibility"]
 +++

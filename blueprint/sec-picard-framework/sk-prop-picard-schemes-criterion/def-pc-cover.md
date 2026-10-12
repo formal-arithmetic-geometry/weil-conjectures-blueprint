@@ -2,7 +2,7 @@
 id = "def-pc-cover"
 kind = "definition"
 title = "Covers of a functor"
-order = 780
+order = 786
 uses = ["def-pc-scheme", "def-pc-subfunctor"]
 +++
 Let $F:(\mathit{Sch})^{\mathrm{op}}\to\textit{Sets}$ be a functor and

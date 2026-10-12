@@ -2,7 +2,7 @@
 id = "rem-ptr-galois-categories-1"
 kind = "remark"
 title = "Pointer to the properties of [def-galois-categories]"
-order = 585
+order = 591
 uses = ["def-galois-categories", "lem-galois-geometric-fibre"]
 +++
 In the notation of [def-galois-categories]: $|P_{\bar y}|$ is the set of commutative

@@ -2,7 +2,7 @@
 id = "prop-trf-trace-formal-laws"
 kind = "theorem"
 title = "Formal laws for the categorical trace"
-order = 2611
+order = 2645
 tags = ["latex:proposition"]
 uses = ["def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-weil-algebraically-closed-coefficients", "def-weil-derived-tensor", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-rationalization-karoubi", "lem-trf-chain-supertrace"]
 +++

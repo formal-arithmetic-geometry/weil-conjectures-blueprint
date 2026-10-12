@@ -2,7 +2,7 @@
 id = "def-sfb-derived-tensor-sheaves"
 kind = "definition"
 title = "Derived tensor product of pro-étale sheaves"
-order = 1562
+order = 1600
 uses = ["lem-sfb-derived-monoidal", "sk-def-sfb-sheaf-tensor", "sk-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.derivedTensor"]
 +++

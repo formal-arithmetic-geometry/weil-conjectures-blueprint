@@ -2,7 +2,7 @@
 id = "lemma-nagata-ring-finite-type-subalgebras"
 kind = "lemma"
 title = "A ring is the filtered colimit of its finite-type $\\mathbf Z$-subalgebras"
-order = 330
+order = 337
 lean = ["CommRingCat.isColimitFgSubalgebraCocone"]
 +++
 For every ring $A$, its finitely generated $\mathbf Z$-subalgebras form a

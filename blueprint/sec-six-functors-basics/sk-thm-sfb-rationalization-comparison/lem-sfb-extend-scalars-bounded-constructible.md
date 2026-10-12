@@ -2,7 +2,7 @@
 id = "lem-sfb-extend-scalars-bounded-constructible"
 kind = "lemma"
 title = "Derived extension of scalars preserves bounded constructible complexes"
-order = 1593
+order = 1631
 uses = ["def-sfb-integers-to-subfield", "sk-def-sfb-derived-extension-of-scalars", "sk-def-sfb-bounded-constructible"]
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalars_obj"]
 +++

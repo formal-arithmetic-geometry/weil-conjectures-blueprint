@@ -2,7 +2,7 @@
 id = "def-rp-weight-blocks"
 kind = "definition"
 title = "Rank-counted determinant weights and weight blocks"
-order = 2941
+order = 2975
 uses = ["def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "lem-mg-jordan-holder"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, fix

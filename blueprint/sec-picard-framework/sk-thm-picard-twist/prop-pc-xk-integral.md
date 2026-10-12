@@ -2,7 +2,7 @@
 id = "prop-pc-xk-integral"
 kind = "theorem"
 title = "Base changes of $X$ are smooth projective curves"
-order = 760
+order = 766
 tags = ["latex:proposition"]
 uses = ["def-pc-curve", "def-pc-rational-point", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "lem-pc-closed-imm-base-change", "lem-pc-dim-base-change", "lem-pc-flat-base-change-cohom", "lem-pc-flat-field", "lem-pc-h0-geom-connected", "lem-pc-h0-proper-variety", "lem-pc-projective-proper", "lem-pc-proper-base-change", "lem-sc-smooth-regular", "rem-pc-regular-normal"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-noetherian-compactification"
 kind = "lemma"
 title = "Property of the selected Noetherian compactification"
-order = 376
+order = 383
 uses = ["def-nagata-final-noetherian-compactification", "lemma-nagata-final-descended-model", "thm-nagata-noetherian"]
 +++
 The constructed $C_{Y,\lambda_Y}$ is a compactification of

@@ -2,7 +2,7 @@
 id = "lem-wf-same-lie-closed-subgroup"
 kind = "lemma"
 title = "Smoothness, dimension and Lie algebras of matrix groups"
-order = 2795
+order = 2829
 uses = ["def-wf-algebraic-components", "def-wf-lie-algebra-derivation", "lem-ag-equal-dimension-subgroup", "lem-sc-translation-automorphism", "lem-wf-smooth-components-disjoint"]
 +++
 Let $K$ be a closed matrix group over $\overline{\mathbf Q}_\ell$.

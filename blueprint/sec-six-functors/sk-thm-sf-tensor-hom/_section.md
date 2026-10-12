@@ -2,7 +2,7 @@
 id = "sk-thm-sf-tensor-hom"
 kind = "theorem"
 title = "Tensor–Hom form of the exchange"
-order = 2470
+order = 2504
 uses = ["sk-def-sf-exchanges", "sk-def-sf-operations", "sk-lem-sf-mate", "sk-prop-sf-comparison", "sk-prop-sf-existence", "sk-rem-sf-pf-done", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_derivedHom_rightDerivedLowerShriek"]
 tags = ["sketch"]

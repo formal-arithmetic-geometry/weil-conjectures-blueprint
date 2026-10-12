@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-site-comparison-finite-level"
 kind = "theorem"
 title = "Exactness and full faithfulness at finite level"
-order = 1285
+order = 1333
 uses = ["def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-injective-acyclicity", "lem-weil-pbc-comparison-sections", "lem-weil-pbc-etale-restriction-injectives", "lem-weil-pbc-ind-etale-basis", "lem-weil-pbc-proetale-restriction-injectives"]
 tags = ["latex:proposition"]
 +++

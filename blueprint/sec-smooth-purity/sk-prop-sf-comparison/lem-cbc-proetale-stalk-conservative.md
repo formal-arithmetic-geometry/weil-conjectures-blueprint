@@ -2,7 +2,7 @@
 id = "lem-cbc-proetale-stalk-conservative"
 kind = "lemma"
 title = "Detecting isomorphisms on the pro-etale site"
-order = 1954
+order = 1989
 uses = ["def-weil-pbc-ind-etale-basis", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-ind-etale-basis", "lemma-weil-pbc-geometric-stalk-conservative", "thm-weil-pbc-site-comparison"]
 +++
 Let $\Lambda$ be a finite discrete ring and let $T$ be a scheme.

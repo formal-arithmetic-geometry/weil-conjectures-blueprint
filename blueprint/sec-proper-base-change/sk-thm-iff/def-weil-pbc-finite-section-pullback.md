@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-section-pullback"
 kind = "definition"
 title = "Pullback of a section along a finite morphism"
-order = 1078
+order = 1110
 lean = ["AlgebraicGeometry.Etale.globalSectionsUpperStarMap"]
 uses = ["def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions"]
 +++

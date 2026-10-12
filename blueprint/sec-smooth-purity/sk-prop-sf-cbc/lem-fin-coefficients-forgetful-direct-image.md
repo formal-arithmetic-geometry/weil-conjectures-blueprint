@@ -2,7 +2,7 @@
 id = "lem-fin-coefficients-forgetful-direct-image"
 kind = "lemma"
 title = "Changing finite coefficient rings in a direct image"
-order = 1943
+order = 1978
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image"]
 +++
 Let $\ell$ be a prime, let $A$ be a finite $\mathbf F_\ell$-algebra,

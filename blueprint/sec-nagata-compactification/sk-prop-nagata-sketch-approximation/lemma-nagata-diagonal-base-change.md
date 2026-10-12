@@ -2,7 +2,7 @@
 id = "lemma-nagata-diagonal-base-change"
 kind = "lemma"
 title = "Diagonal commutes with base change"
-order = 327
+order = 334
 lean = ["CategoryTheory.Limits.diagonal_pullback_fst"]
 +++
 For $X_\lambda\to S_\lambda$ and $S\to S_\lambda$, the base change of

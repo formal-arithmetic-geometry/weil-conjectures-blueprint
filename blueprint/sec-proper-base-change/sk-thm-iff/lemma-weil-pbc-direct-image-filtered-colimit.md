@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-direct-image-filtered-colimit"
 kind = "lemma"
 title = "Filtered colimits and higher direct image"
-order = 1087
+order = 1119
 lean = ["AlgebraicGeometry.Etale.preservesColimitsOfShape_higherDirectImage"]
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-qcqs-higher-direct-image"]
 +++

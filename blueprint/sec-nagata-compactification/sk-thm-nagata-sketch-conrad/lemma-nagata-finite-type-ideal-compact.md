@@ -2,7 +2,7 @@
 id = "lemma-nagata-finite-type-ideal-compact"
 kind = "lemma"
 title = "A finite type ideal is compact in the lattice of quasi-coherent ideals"
-order = 204
+order = 211
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_le_of_ofFiniteType_le_iSup", "AlgebraicGeometry.Scheme.IdealSheafData.exists_mem_le_of_ofFiniteType_le_sSup"]
 +++
 Let $X$ be quasi-compact, let $\mathcal A\subseteq\mathcal O_X$ be a finite

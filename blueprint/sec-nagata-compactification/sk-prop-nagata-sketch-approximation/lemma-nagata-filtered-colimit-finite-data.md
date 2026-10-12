@@ -2,7 +2,7 @@
 id = "lemma-nagata-filtered-colimit-finite-data"
 kind = "lemma"
 title = "Finite data and finite relations descend in a filtered colimit"
-order = 331
+order = 338
 uses = ["lemma-nagata-directed-finite-upper-bound"]
 +++
 Let $(A_i)_{i\in I}$ be a directed system of rings with colimit $A$. Given

@@ -2,7 +2,7 @@
 id = "def-sc-effective-cartier-divisor"
 kind = "definition"
 title = "Effective Cartier divisors"
-order = 707
+order = 713
 uses = ["def-sc-curves"]
 +++
 Let $C$ be a curve. An *effective Cartier divisor* on $C$ is a closed

@@ -2,7 +2,7 @@
 id = "lemma-nagata-finite-type-ideal-extension-exists"
 kind = "lemma"
 title = "Existence of a finite-type extension of an ideal"
-order = 126
+order = 134
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_comap_eq", "AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_le_comap_eq"]
 uses = ["def-nagata-extended-ideal"]
 +++

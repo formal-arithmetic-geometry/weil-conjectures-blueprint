@@ -2,7 +2,7 @@
 id = "lem-pd-geometric-curve"
 kind = "lemma"
 title = "The geometric curve is a smooth projective geometrically integral curve"
-order = 857
+order = 863
 uses = ["def-pc-base-change", "def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-pd-separable-closure", "lem-pc-dim-base-change"]
 +++
 Let $k$ be a field and let $C$ be a

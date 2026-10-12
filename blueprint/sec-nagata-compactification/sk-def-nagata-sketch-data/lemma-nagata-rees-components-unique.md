@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-components-unique"
 kind = "lemma"
 title = "Uniqueness of the homogeneous decomposition"
-order = 20
+order = 28
 lean = ["AlgebraicGeometry.reesGrading_isInternal"]
 uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-piece-membership"]
 +++

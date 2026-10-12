@@ -2,7 +2,7 @@
 id = "def-pc-divisor-line-bundle"
 kind = "definition"
 title = "The module $\\mathcal{O}_X(D)$ of an effective Cartier divisor"
-order = 721
+order = 727
 uses = ["def-sc-divisor", "def-sc-effective-cartier-divisor", "def-sc-invertible-module"]
 +++
 Let $S$ be a scheme and let $D\subset S$ be an

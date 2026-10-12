@@ -2,7 +2,7 @@
 id = "thm-sfb-constructible-cocone-two-colimit"
 kind = "theorem"
 title = "The constructible cocone is a filtered 2-colimit"
-order = 1718
+order = 1756
 uses = ["def-sfb-constructible-cocone", "sk-def-sfb-filtered-two-colimit"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleCocone_isFilteredTwoColimit"]
 +++

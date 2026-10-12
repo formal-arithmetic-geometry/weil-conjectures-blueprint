@@ -2,7 +2,7 @@
 id = "def-nagata-homogeneous-localization-degree-zero"
 kind = "definition"
 title = "Degree-zero homogeneous localization"
-order = 8
+order = 16
 lean = ["HomogeneousLocalization.Away"]
 +++
 Let $R=\bigoplus_{n\geq0}R_n$ be an $\mathbb N$-graded commutative ring and

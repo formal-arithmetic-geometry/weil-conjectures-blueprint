@@ -2,7 +2,7 @@
 id = "sk-prop-logdet"
 kind = "proposition"
 title = "Logarithm of the Frobenius determinant"
-order = 2695
+order = 2729
 uses = ["sk-def-frobmod", "sk-p-linear-triangular"]
 lean = ["LinearMap.inv_charpolyRev_eq_exp"]
 tags = ["sketch"]

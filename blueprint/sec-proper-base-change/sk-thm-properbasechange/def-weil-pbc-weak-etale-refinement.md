@@ -2,7 +2,7 @@
 id = "def-weil-pbc-weak-etale-refinement"
 kind = "definition"
 title = "An affine refinement of a weakly etale algebra"
-order = 1231
+order = 1279
 uses = ["def-weil-pbc-ind-etale-algebra", "def-weil-pbc-retained-localization", "def-weil-pbc-strict-w-cover", "lem-weil-pbc-strict-w-cover"]
 +++
 For a weakly etale [def-weil-pbc-ind-etale-algebra] map $A\to B$, take

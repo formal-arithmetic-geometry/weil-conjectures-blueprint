@@ -2,7 +2,7 @@
 id = "lem-kun-unbounded-exchange-agrees"
 kind = "lemma"
 title = "The unbounded exchange extends the bounded exchange"
-order = 1971
+order = 2006
 uses = ["def-kun-unbounded-exchange", "def-weil-pbc-derived-exchange", "def-weil-pbc-underived-exchange", "lemma-weil-pbc-derived-exchange-replacement"]
 +++
 For $K\in\Dplus(X_{\Et})$ the exchange morphism

@@ -2,7 +2,7 @@
 id = "sk-def-sfb-dc-restricted-functors"
 kind = "definition"
 title = "$Lf^*$, $Rf_*$, $j_!$, $\\otimes^{\\mathrm L}$, $\\RHom$ on $D_{\\mathrm{cons}}$: restrictions"
-order = 1722
+order = 1760
 uses = ["sk-def-sfb-dc-setting", "sk-def-sfb-derived-tensor-hom", "sk-thm-sfb-rationalization-comparison", "sk-thm-sfb-qlbar-two-colimit"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStar", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStarComp", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_obj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerStar", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_openImmersionLowerShriek_obj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekUpperStarAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_derivedTensor_obj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_derivedHom_obj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleTensor", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleHom", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleTensorHomAdjunction"]
 tags = ["sketch"]

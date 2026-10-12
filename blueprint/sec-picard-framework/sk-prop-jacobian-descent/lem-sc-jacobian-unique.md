@@ -2,7 +2,7 @@
 id = "lem-sc-jacobian-unique"
 kind = "lemma"
 title = "Uniqueness of the Jacobian"
-order = 852
+order = 858
 uses = ["def-sc-general-curve", "def-sc-jacobian"]
 +++
 Let $C$ be a geometrically integral smooth

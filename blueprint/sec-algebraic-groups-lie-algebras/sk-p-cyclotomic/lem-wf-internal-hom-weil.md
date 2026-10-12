@@ -2,7 +2,7 @@
 id = "lem-wf-internal-hom-weil"
 kind = "lemma"
 title = "Internal Hom of Weil complexes"
-order = 2875
+order = 2909
 uses = ["def-wf-internal-hom", "def-wf-weil-category", "lem-wf-tensor-weil"]
 +++
 The construction of [def-wf-internal-hom] restricts to an exact

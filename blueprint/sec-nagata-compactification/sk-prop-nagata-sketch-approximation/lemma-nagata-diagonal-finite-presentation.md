@@ -2,7 +2,7 @@
 id = "lemma-nagata-diagonal-finite-presentation"
 kind = "lemma"
 title = "Diagonal of a finite-presentation morphism"
-order = 345
+order = 352
 lean = ["AlgebraicGeometry.Scheme.Hom.diagonal_finitePresentation"]
 +++
 If $f\colon X\to S$ is locally of finite presentation and

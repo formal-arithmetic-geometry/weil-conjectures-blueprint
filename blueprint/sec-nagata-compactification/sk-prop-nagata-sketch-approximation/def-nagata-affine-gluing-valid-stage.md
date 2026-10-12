@@ -2,7 +2,7 @@
 id = "def-nagata-affine-gluing-valid-stage"
 kind = "definition"
 title = "Cocycle-valid stage of an affine gluing presentation"
-order = 336
+order = 343
 uses = ["def-nagata-affine-gluing-coefficient-stage", "def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 For every identity, inverse, open-preservation, and triple-cocycle equation

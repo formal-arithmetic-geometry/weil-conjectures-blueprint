@@ -2,7 +2,7 @@
 id = "rem-ptr-sc-divisor-2"
 kind = "remark"
 title = "Pointer to the properties of [def-sc-divisor]"
-order = 710
+order = 716
 uses = ["def-sc-divisor", "def-sc-effective-cartier-divisor", "lem-sc-cartier-divisor-points", "lem-sc-point-cartier"]
 +++
 In the notation of [def-sc-divisor], the following holds. When all

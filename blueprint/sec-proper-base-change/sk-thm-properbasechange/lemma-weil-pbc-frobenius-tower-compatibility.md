@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-frobenius-tower-compatibility"
 kind = "lemma"
 title = "Frobenius compatibility with tower transitions"
-order = 1335
+order = 1375
 uses = ["def-weil-pbc-frobenius-corner-structures", "lemma-weil-pbc-frobenius-level-rectangle", "lemma-weil-pbc-level-map-tower-compatibility"]
 +++
 For the four transitions $a_{n+1,n},b_{n+1,n},c_{n+1,n},d_{n+1,n}$,

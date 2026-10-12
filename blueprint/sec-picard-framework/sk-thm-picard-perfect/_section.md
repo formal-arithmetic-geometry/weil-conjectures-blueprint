@@ -2,7 +2,7 @@
 id = "sk-thm-picard-perfect"
 kind = "theorem"
 title = "Openness of the perfect locus"
-order = 677
+order = 683
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.Scheme.Modules.isOpen_setOf_hFiber_le", "AlgebraicGeometry.Scheme.Modules.isZero_higherDirectImage_restrict", "AlgebraicGeometry.Scheme.Modules.isFiniteLocallyFreeOfRank_higherDirectImage_restrict"]
 tags = ["sketch"]

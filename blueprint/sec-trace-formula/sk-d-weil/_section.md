@@ -2,7 +2,7 @@
 id = "sk-d-weil"
 kind = "definition"
 title = "Frobenius and Weil data"
-order = 2598
+order = 2632
 uses = ["sk-d-corr", "sk-d-operator", "sk-d-setup", "sk-d-six"]
 lean = ["AlgebraicGeometry.ProEtale.WeilComplex"]
 tags = ["sketch"]

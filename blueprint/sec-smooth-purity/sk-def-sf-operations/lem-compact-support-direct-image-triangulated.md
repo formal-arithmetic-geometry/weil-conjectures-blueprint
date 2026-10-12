@@ -2,7 +2,7 @@
 id = "lem-compact-support-direct-image-triangulated"
 kind = "lemma"
 title = "Triangulatedness of the finite-level compact-support direct image"
-order = 1797
+order = 1835
 uses = ["def-compact-support-direct-image-detailed", "def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-derived-direct-image", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "lem-weil-extension-by-zero-exact"]
 +++
 Let $K_0$ be a field, let $X,Y$ be finite-type

@@ -1,6 +1,6 @@
 +++
 id = "the-final-theorem-the-curve-estimate--remark-1"
 kind = "remark"
-order = 1026
+order = 1034
 +++
 This is the final part of this section.

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-truncation-exact-couples"
 kind = "definition"
 title = "The two truncation exact couples"
-order = 1317
+order = 1357
 uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-hypercohomology-filtrations"]
 +++
 For every $q\geq a$, set

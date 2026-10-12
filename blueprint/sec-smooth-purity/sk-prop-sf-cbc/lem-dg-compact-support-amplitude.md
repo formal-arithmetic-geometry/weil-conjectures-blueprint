@@ -2,7 +2,7 @@
 id = "lem-dg-compact-support-amplitude"
 kind = "lemma"
 title = "The compact-support bound uses the original fibres"
-order = 1929
+order = 1964
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-amb-etale-compact-support", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions", "lem-kun-cd-sep-closed-point", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-geometric-stalk-conservative", "thm-nagata-compactification", "thm-sc-finite-type-torsion-cd"]
 +++
 Let $f:X\to Y$ be a separated finite-type morphism of finite-type

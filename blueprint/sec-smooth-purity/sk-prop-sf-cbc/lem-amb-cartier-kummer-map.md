@@ -2,7 +2,7 @@
 id = "lem-amb-cartier-kummer-map"
 kind = "lemma"
 title = "A Cartier divisor gives a supported Kummer map"
-order = 1873
+order = 1908
 uses = ["def-coefficient-twists-detailed", "def-sc-effective-cartier-divisor", "def-sc-kummer-sequence", "def-weil-pbc-derived-categories", "lem-amb-closed-support-hom", "lem-amb-kummer-any-base"]
 +++
 Let $i:D\hookrightarrow T$ be an effective Cartier divisor.

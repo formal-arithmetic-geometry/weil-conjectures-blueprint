@@ -2,7 +2,7 @@
 id = "lem-sfb-derived-tensor-sheaves-derived"
 kind = "lemma"
 title = "The derived tensor product of sheaves is a two-variable left derived functor"
-order = 1563
+order = 1601
 uses = ["def-sfb-derived-tensor-sheaves"]
 lean = ["AlgebraicGeometry.ProEtale.isLeftDerivedFunctor₂_derivedTensor"]
 +++

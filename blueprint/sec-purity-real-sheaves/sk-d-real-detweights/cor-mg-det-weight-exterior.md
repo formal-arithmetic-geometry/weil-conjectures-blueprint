@@ -2,7 +2,7 @@
 id = "cor-mg-det-weight-exterior"
 kind = "theorem"
 title = "Determinant weights of an exterior power"
-order = 2943
+order = 2977
 tags = ["latex:corollary"]
 uses = ["def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "def-wf-geometric-semisimplicity", "lem-rp-determinant-weights-agree", "prop-ag-det-weight-exterior"]
 +++

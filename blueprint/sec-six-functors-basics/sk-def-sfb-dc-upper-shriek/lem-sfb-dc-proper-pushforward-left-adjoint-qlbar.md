@@ -2,7 +2,7 @@
 id = "lem-sfb-dc-proper-pushforward-left-adjoint-qlbar"
 kind = "lemma"
 title = "$Rp_*$ on $D_{\\mathrm{cons}}(-,\\Qlb)$ is a left adjoint for proper $p$"
-order = 1741
+order = 1779
 uses = ["def-sfb-dc-lower-star", "sk-def-sfb-qlbar-condensed"]
 +++
 Let $\Lambda=\underline{\Qlb}$ ([sk-def-sfb-qlbar-condensed]) and let $p\colon Z\to Y$ be a proper

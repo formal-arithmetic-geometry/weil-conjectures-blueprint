@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-component-finite-support"
 kind = "lemma"
 title = "Finite support of the homogeneous decomposition"
-order = 18
+order = 26
 lean = ["AlgebraicGeometry.reesGrading_isInternal"]
 uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece"]
 +++

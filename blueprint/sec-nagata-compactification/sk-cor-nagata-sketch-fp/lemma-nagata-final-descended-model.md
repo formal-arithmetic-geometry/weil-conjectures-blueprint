@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-descended-model"
 kind = "lemma"
 title = "Properties of the final descended model"
-order = 374
+order = 381
 uses = ["def-nagata-final-descended-model", "lemma-nagata-final-noetherian-base-system", "lemma-nagata-separated-eventually"]
 +++
 For $Y\to S$ as in [def-nagata-final-descended-model], the morphism

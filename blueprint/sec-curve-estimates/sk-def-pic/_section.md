@@ -2,7 +2,7 @@
 id = "sk-def-pic"
 kind = "definition"
 title = "Picard group, degree, $\\Pic^0$"
-order = 885
+order = 891
 uses = ["sk-def-av-pic", "sk-def-curve", "sk-prop-hilbert90"]
 lean = ["AlgebraicGeometry.Scheme.CohomologicalPicardGroup"]
 tags = ["sketch"]

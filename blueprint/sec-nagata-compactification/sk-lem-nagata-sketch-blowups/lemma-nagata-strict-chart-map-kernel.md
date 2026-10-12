@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-chart-map-kernel"
 kind = "lemma"
 title = "Kernel of the map to the extended-ideal chart"
-order = 149
+order = 157
 uses = ["def-nagata-power-torsion", "def-nagata-strict-chart-to-extended-blowup-chart", "lemma-nagata-power-torsion-kernel-localization", "lemma-nagata-strict-chart-map-surjective"]
 +++
 The kernel of $\sigma_a$ is exactly

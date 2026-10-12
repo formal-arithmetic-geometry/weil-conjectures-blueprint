@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-spectral-restriction"
 kind = "lemma"
 title = "Zariski restriction on a spectral space"
-order = 1075
+order = 1107
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++
 Let $T$ be spectral [def-weil-pbc-scheme-conventions] and $T_0\subset T$

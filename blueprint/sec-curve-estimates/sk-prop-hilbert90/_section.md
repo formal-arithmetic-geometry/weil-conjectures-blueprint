@@ -2,7 +2,7 @@
 id = "sk-prop-hilbert90"
 kind = "proposition"
 title = "Hilbert 90"
-order = 877
+order = 883
 uses = ["sk-def-av-pic", "sk-def-curve"]
 lean = ["AlgebraicGeometry.Scheme.subsingleton_cohomologicalPicardGroup_of_field"]
 tags = ["sketch"]

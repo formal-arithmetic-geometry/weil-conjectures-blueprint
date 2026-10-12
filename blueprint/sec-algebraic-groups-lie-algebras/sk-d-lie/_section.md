@@ -2,7 +2,7 @@
 id = "sk-d-lie"
 kind = "definition"
 title = "Lie algebras, radicals and centers"
-order = 2766
+order = 2800
 uses = ["sk-d-linear"]
 lean = ["LieAlgebra.radical", "LieAlgebra.center", "LieAlgebra.HasCentralRadical", "killingForm"]
 tags = ["sketch"]

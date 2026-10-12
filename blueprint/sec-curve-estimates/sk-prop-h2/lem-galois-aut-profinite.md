@@ -2,7 +2,7 @@
 id = "lem-galois-aut-profinite"
 kind = "lemma"
 title = "$\\operatorname{Aut}(F)$ is profinite"
-order = 969
+order = 977
 uses = ["def-galois-category", "def-galois-fibre-functor"]
 +++
 Let $\mathcal C$ be a category and $F:\mathcal C\to\mathbf{Sets}$ a

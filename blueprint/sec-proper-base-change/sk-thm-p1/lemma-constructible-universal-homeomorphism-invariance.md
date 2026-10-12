@@ -2,7 +2,7 @@
 id = "lemma-constructible-universal-homeomorphism-invariance"
 kind = "lemma"
 title = "Invariance under universal homeomorphisms"
-order = 1168
+order = 1213
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.of_upperStar", "AlgebraicGeometry.Scheme.IsFiniteSheaf.of_upperStar", "AlgebraicGeometry.Scheme.IsLocallyConstantSheaf.of_upperStar", "AlgebraicGeometry.Scheme.exists_comp_eq_of_surjective", "AlgebraicGeometry.Scheme.isFiniteLocallyConstantSheaf_upperStar_iff", "CategoryTheory.Sheaf.isConstant_upperStar_iff"]
 uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "lemma-constructible-pullback-finite", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++

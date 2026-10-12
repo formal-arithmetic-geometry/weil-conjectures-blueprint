@@ -2,7 +2,7 @@
 id = "lem-mg-exterior-direct-sum"
 kind = "lemma"
 title = "Exterior power of a direct sum"
-order = 2851
+order = 2885
 uses = ["def-wf-weil-category"]
 +++
 Let $V_1,\ldots,V_s$ be finite-dimensional Weil

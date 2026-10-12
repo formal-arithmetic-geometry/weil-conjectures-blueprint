@@ -2,7 +2,7 @@
 id = "thm-sp-grothendieck"
 kind = "theorem"
 title = "Grothendieck spectral sequence"
-order = 524
+order = 530
 uses = ["def-sp-composite-acyclicity", "def-sp-convergence", "def-sp-double-complex-total", "def-sp-exact-couple", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "lem-sp-edge-collapse", "thm-sp-double-complex-spectral-sequences", "thm-sp-if-e1"]
 +++
 Let $(F,G)$ be a composable pair [def-sp-composite-acyclicity] with $F$

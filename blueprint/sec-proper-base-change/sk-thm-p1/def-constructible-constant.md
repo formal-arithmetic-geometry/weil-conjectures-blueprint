@@ -2,7 +2,7 @@
 id = "def-constructible-constant"
 kind = "definition"
 title = "Constant sheaves"
-order = 1154
+order = 1193
 lean = ["CategoryTheory.Sheaf.IsConstant"]
 +++
 A sheaf $\mathcal F\in\shv{\et X}$ is *constant* if it lies in the

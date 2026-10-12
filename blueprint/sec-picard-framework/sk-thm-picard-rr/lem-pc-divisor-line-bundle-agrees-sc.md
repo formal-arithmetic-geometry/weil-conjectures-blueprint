@@ -2,7 +2,7 @@
 id = "lem-pc-divisor-line-bundle-agrees-sc"
 kind = "lemma"
 title = "$\\mathcal{O}_X(D)$ agrees with the divisor module of file 06"
-order = 722
+order = 728
 uses = ["def-pc-divisor-line-bundle", "def-sc-divisor", "def-sc-effective-cartier-divisor", "lem-sc-point-cartier", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
 Let $k$ be a field, $C$ a smooth connected curve over $k$

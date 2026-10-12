@@ -2,7 +2,7 @@
 id = "lem-pc-linear-pair-graded-finite"
 kind = "lemma"
 title = "A degree bound for a pair of linear forms"
-order = 652
+order = 658
 uses = ["def-pc-proj", "def-pc-standard-graded-algebra"]
 +++
 Let $S$ be a standard graded

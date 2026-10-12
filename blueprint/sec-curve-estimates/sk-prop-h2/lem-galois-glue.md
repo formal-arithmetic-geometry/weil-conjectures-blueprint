@@ -2,7 +2,7 @@
 id = "lem-galois-glue"
 kind = "lemma"
 title = "Glueing of schemes along open immersions"
-order = 963
+order = 971
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $Y$ be a scheme, let $\{Y_i\to Y\}$ be a Zariski cover, and for

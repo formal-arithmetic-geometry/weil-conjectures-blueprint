@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-strict-henselization-stalk-formula"
 kind = "theorem"
 title = "Strict-henselization stalk formula"
-order = 956
+order = 964
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit", "lemma-weil-pbc-affine-neighbourhood-cofinal", "lemma-weil-pbc-etale-cohomology-continuity", "lemma-weil-pbc-fibre-product-limit"]
 +++

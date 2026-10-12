@@ -2,7 +2,7 @@
 id = "lem-sc-normal-dim1-dvr"
 kind = "lemma"
 title = "One-dimensional normal local rings"
-order = 917
+order = 923
 +++
 A one-dimensional noetherian normal local domain is a discrete
 valuation ring.

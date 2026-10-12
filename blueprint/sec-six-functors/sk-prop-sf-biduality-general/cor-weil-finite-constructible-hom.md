@@ -2,7 +2,7 @@
 id = "cor-weil-finite-constructible-hom"
 kind = "theorem"
 title = "Internal Hom for arbitrary finite-stage constructible complexes"
-order = 2442
+order = 2476
 tags = ["latex:corollary"]
 uses = ["def-weil-derived-pullback-tensor-hom", "lem-sf-tensor-ctf", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata", "thm-fix-general-biduality"]
 +++

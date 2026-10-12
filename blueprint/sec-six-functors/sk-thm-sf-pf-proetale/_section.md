@@ -2,7 +2,7 @@
 id = "sk-thm-sf-pf-proetale"
 kind = "theorem"
 title = "Projection formula: the pro-étale realization"
-order = 2403
+order = 2437
 uses = ["sk-thm-sf-pf-field"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-def-cr"
 kind = "definition"
 title = "$C_r$ fields"
-order = 891
+order = 897
 tags = ["sketch"]
 +++
 Let $r\ge0$. A field $K$ is *$C_r$* if every homogeneous

@@ -2,7 +2,7 @@
 id = "def-sfb-point-upper-star"
 kind = "definition"
 title = "The inverse image $p^*$ from the point"
-order = 1487
+order = 1525
 uses = ["lem-sfb-point-lan-exists", "sk-def-sfb-finite-pushforward-pullback"]
 lean = ["AlgebraicGeometry.ProEtale.pointUpperStar"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-wf-finite-constant-h1-pi1"
 kind = "lemma"
 title = "Finite constant torsors and the etale fundamental group"
-order = 2922
+order = 2956
 uses = ["cor-galois-abelian-h1", "def-weil-pbc-etale-cohomology", "def-wf-weil-group", "thm-galois-fundamental", "thm-galois-lc-etale", "thm-galois-torsor-h1"]
 +++
 Let $U_0/k_0$ be geometrically connected and separated of finite type,

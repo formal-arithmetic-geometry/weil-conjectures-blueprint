@@ -2,7 +2,7 @@
 id = "def-weil-finite-torsion-constructibility"
 kind = "definition"
 title = "Finite-torsion constructibility"
-order = 1758
+order = 1796
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 For the global finite-field datum [def-weil-finite-field-fiber], fix a prime

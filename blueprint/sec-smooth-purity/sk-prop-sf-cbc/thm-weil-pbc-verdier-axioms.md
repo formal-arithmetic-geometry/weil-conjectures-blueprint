@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-verdier-axioms"
 kind = "theorem"
 title = "Verdier axioms and stagewise triangulation"
-order = 1844
+order = 1879
 uses = ["def-weil-pbc-common-stage-cones", "def-weil-pbc-finite-stage-pair-category", "prop-weil-pbc-common-stage-calculus", "prop-weil-pbc-cone-independence"]
 +++
 The shift and distinguished triangles of [def-weil-pbc-common-stage-cones]

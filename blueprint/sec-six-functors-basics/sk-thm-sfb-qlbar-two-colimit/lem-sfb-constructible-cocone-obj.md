@@ -2,7 +2,7 @@
 id = "lem-sfb-constructible-cocone-obj"
 kind = "lemma"
 title = "(Obj) for the constructible cocone"
-order = 1717
+order = 1755
 uses = ["def-sfb-constructible-cocone", "sk-def-sfb-filtered-two-colimit"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleCocone_essSurjObj"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-p-tensor"
 kind = "proposition"
 title = "Tensor-product weights"
-order = 2862
+order = 2896
 uses = ["sk-d-linear", "sk-d-weights", "sk-i-restriction", "sk-r-linear-library"]
 lean = ["Representation.exists_detWeight_eq_add_of_subquotient_tprod"]
 tags = ["sketch"]

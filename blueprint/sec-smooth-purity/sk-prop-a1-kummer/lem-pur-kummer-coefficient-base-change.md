@@ -2,7 +2,7 @@
 id = "lem-pur-kummer-coefficient-base-change"
 kind = "lemma"
 title = "Base change of the Kummer coefficients"
-order = 2229
+order = 2263
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-sc-curves", "def-weil-pbc-etale-sheaves", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-finite-kummer-level"]
 +++
 Fix the finite-field datum of [def-pur-conventions], let $k$ be

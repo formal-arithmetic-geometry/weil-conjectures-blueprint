@@ -2,7 +2,7 @@
 id = "lem-galois-transitive"
 kind = "lemma"
 title = "The action of $\\operatorname{Aut}(F)$ is transitive"
-order = 972
+order = 980
 uses = ["def-galois-category", "lem-galois-aut-profinite", "lem-galois-axioms", "lem-galois-object-exists"]
 +++
 Let $(\mathcal C,F)$ be a Galois category, $G=\operatorname{Aut}(F)$ and

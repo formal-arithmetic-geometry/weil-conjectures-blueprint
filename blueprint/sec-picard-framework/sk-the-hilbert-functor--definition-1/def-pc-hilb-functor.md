@@ -2,7 +2,7 @@
 id = "def-pc-hilb-functor"
 kind = "definition"
 title = "The Hilbert functor $\\operatorname{Hilb}^d_{X/S}$"
-order = 767
+order = 773
 uses = ["def-pc-base-change", "def-pc-finite-locally-free", "def-pc-representable-functor"]
 lean = ["AlgebraicGeometry.hilbertPresheaf"]
 +++

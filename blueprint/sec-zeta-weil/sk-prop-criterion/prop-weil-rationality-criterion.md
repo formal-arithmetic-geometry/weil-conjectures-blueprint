@@ -2,7 +2,7 @@
 id = "prop-weil-rationality-criterion"
 kind = "theorem"
 title = "Rationality criterion"
-order = 3193
+order = 3227
 tags = ["latex:proposition"]
 uses = ["def-weil-field", "def-weil-formal-power-series", "def-weil-hankel-matrix", "lem-weil-finite-coordinate-detection"]
 +++

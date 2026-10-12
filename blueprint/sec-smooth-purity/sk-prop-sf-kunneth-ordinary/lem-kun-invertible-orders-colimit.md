@@ -2,7 +2,7 @@
 id = "lem-kun-invertible-orders-colimit"
 kind = "lemma"
 title = "The colimit description of invertible orders"
-order = 1992
+order = 2026
 uses = ["def-kun-torsion-invertible", "def-weil-pbc-etale-sheaves", "lem-kun-stalks-commute-colimits", "lemma-weil-pbc-geometric-stalk-conservative", "lemma-weil-pbc-torsion-filtered-union"]
 +++
 Let $K$ be a field and $F$ a

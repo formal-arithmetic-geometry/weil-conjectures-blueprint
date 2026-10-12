@@ -2,7 +2,7 @@
 id = "thm-sf-fullcd-etale-origin"
 kind = "theorem"
 title = "FullCD for coefficients of étale origin"
-order = 2095
+order = 2129
 uses = ["def-weil-full-cohomological-dimension", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-sf-etale-direct-image-vanishing", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-comparison-direct-image"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, an integer

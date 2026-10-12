@@ -2,7 +2,7 @@
 id = "lem-pc-projective-space-canonical"
 kind = "lemma"
 title = "The canonical sheaf of projective space"
-order = 620
+order = 626
 uses = ["def-pc-proj", "def-pc-projective-space-twist", "def-sc-invertible-module", "lem-pc-projective-space-twist-cohomology"]
 +++
 Let $A$ be a commutative ring, $n\ge1$, and $P=\mathbf P^n_A$ with

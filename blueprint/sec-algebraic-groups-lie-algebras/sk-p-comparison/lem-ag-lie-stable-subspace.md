@@ -2,7 +2,7 @@
 id = "lem-ag-lie-stable-subspace"
 kind = "lemma"
 title = "Group-invariant and Lie-invariant subspaces agree"
-order = 2801
+order = 2835
 uses = ["def-wf-algebraic-components", "def-wf-algebraic-representations", "def-wf-lie-algebra-derivation", "lem-ag-cartier-reduced", "lem-wf-same-lie-closed-subgroup"]
 +++
 Let $H\subseteq\operatorname{GL}(V)$ be a connected closed matrix group

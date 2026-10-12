@@ -2,7 +2,7 @@
 id = "sk-lem-sf-flat-model"
 kind = "lemma"
 title = "Bounded flat model of finite Tor amplitude"
-order = 2133
+order = 2167
 lean = ["AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatModel"]
 tags = ["sketch"]
 +++

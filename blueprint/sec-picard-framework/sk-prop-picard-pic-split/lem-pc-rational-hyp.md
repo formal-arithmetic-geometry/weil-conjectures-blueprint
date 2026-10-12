@@ -2,7 +2,7 @@
 id = "lem-pc-rational-hyp"
 kind = "lemma"
 title = "Curves with a rational point satisfy the hypotheses"
-order = 816
+order = 822
 uses = ["def-pc-rational-point", "def-pc-smooth-projective-curve", "lem-pc-flat-base-change-cohom", "lem-pc-flat-field", "lem-pc-h0-proper-variety", "lem-pc-structure-pushforward", "thm-pc-pic-split"]
 +++
 Let $k$ be a field and let $X$ be a

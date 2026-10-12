@@ -2,7 +2,7 @@
 id = "lem-coef-finite-exceptional"
 kind = "lemma"
 title = "Finite exceptional adjoints and coefficient change"
-order = 2452
+order = 2486
 uses = ["cor-coef-finite-verdier", "fix-cor-verdier-exchange", "fix-lem-tensor-adjunction", "lem-fix-compact-support-coefficient-change", "thm-fix-general-biduality", "thm-sf-preservation-class"]
 +++
 For a separated finite-type $f:X\to Y$, on the finite-Tor

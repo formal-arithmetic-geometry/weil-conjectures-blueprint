@@ -2,7 +2,7 @@
 id = "sk-def-sfb-finite-derived-lower-shriek"
 kind = "definition"
 title = "Derived lower shriek and $R\\Gamma_c$ (finite coefficients)"
-order = 1613
+order = 1651
 uses = ["def-weil-pbc-proetale-site", "sk-def-nagata-sketch-data", "sk-def-sfb-finite-derived-functors"]
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerShriekOfCompactification", "AlgebraicGeometry.ProEtale.rightDerivedLowerShriek", "AlgebraicGeometry.ProEtale.rightDerivedLowerShriekPlus", "AlgebraicGeometry.ProEtale.rightDerivedLowerShriekPlusCompatibility", "AlgebraicGeometry.ProEtale.rightDerivedGlobalSections", "AlgebraicGeometry.ProEtale.compactlySupportedGlobalSections"]
 tags = ["sketch"]

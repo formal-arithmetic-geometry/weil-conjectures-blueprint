@@ -2,7 +2,7 @@
 id = "sk-def-sfb-condensed-ring"
 kind = "definition"
 title = "Condensed coefficient rings $\\underline T$"
-order = 1467
+order = 1505
 uses = ["sk-def-sfb-ring-object"]
 lean = ["Profinite.continuousMapRingSheaf", "Profinite.continuousMapRingObj", "Profinite.continuousMapRingSheafMap", "Profinite.padicIntCondensedRing", "Profinite.padicCondensedRing", "Profinite.padicSubfieldCondensedRing", "Profinite.padicIntegersCondensedRing"]
 tags = ["sketch"]

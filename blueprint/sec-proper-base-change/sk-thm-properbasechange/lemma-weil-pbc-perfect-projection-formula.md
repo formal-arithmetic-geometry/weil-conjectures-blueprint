@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-perfect-projection-formula"
 kind = "lemma"
 title = "Perfect projection formula for reductions"
-order = 1275
+order = 1323
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-complete-coefficient-datum", "def-weil-pbc-proetale-operations", "def-weil-pbc-projection-formula-map", "lemma-weil-pbc-projection-formula-base-change-naturality", "lemma-weil-pbc-projection-formula-identity-compactification", "lemma-weil-pbc-projection-formula-totalization", "lemma-weil-pbc-projection-formula-tower-compatibility"]
 +++
 For fixed $f$ and $K$, the full subcategory of objects $P$ for which

@@ -2,7 +2,7 @@
 id = "lem-ag-equal-dimension-subgroup"
 kind = "lemma"
 title = "A closed subgroup of full dimension is everything"
-order = 2794
+order = 2828
 uses = ["lem-wf-affine-dimension-drop"]
 +++
 Let $G\subseteq\operatorname{GL}(V)$ be an irreducible closed matrix

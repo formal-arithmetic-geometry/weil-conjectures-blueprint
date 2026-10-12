@@ -2,7 +2,7 @@
 id = "sk-prop-h1"
 kind = "proposition"
 title = "$H^1$ via Kummer"
-order = 926
+order = 932
 uses = ["sk-def-kummer", "sk-def-pic", "sk-prop-kummer-exact"]
 tags = ["sketch"]
 +++

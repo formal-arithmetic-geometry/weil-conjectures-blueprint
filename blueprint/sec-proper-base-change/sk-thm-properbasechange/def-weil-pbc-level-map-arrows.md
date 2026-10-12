@@ -2,7 +2,7 @@
 id = "def-weil-pbc-level-map-arrows"
 kind = "definition"
 title = "The four finite-level arrows"
-order = 1328
+order = 1368
 uses = ["def-weil-pbc-level-map-corners"]
 +++
 Let $\xi_K:Lg^*Rf_*K\to Rf'_*E$ be the unit–counit exchange map

@@ -2,7 +2,7 @@
 id = "sbc-prop-torsors-h1"
 kind = "theorem"
 title = "Torsors and etale $H^1$"
-order = 1409
+order = 1449
 tags = ["latex:proposition"]
 uses = ["def-galois-fibre-functor", "def-weil-pbc-finite-torsors", "lem-fet-galois-category", "lem-galois-axioms", "thm-galois-fundamental", "thm-galois-lc-etale", "thm-galois-torsor-h1"]
 +++

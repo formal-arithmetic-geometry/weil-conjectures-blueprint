@@ -2,7 +2,7 @@
 id = "def-nagata-two-open-dense-compactifications"
 kind = "definition"
 title = "Chosen dense compactifications of the two opens"
-order = 263
+order = 270
 uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-dense-compactification", "def-nagata-dense-refinement", "prop-nagata-dense-refinement"]
 +++
 Let $C_i^0$ be a chosen compactification of the compactifiable morphism

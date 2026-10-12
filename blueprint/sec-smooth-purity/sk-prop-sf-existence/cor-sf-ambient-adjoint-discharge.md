@@ -2,7 +2,7 @@
 id = "cor-sf-ambient-adjoint-discharge"
 kind = "theorem"
 title = "The ambient datum relative to the bounded comparison class"
-order = 2112
+order = 2146
 tags = ["latex:corollary"]
 uses = ["def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class"]
 +++

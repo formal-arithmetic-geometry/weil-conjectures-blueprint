@@ -2,7 +2,7 @@
 id = "def-wf-l2-norm"
 kind = "definition"
 title = "The $L^2$-weight parameter"
-order = 3061
+order = 3095
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve over

@@ -2,7 +2,7 @@
 id = "lem-sc-torsor-h1"
 kind = "lemma"
 title = "First cohomology classifies torsors"
-order = 880
+order = 886
 uses = ["def-sc-gm-torsor", "lem-sc-ext-torsor"]
 +++
 Let $X$ be a scheme (for instance a curve $C$ as in

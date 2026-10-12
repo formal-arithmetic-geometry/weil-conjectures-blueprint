@@ -2,7 +2,7 @@
 id = "sk-prop-nagata-sketch-comp-category"
 kind = "proposition"
 title = "The compactification category and common refinements"
-order = 408
+order = 415
 uses = ["sk-def-nagata-sketch-data", "sk-thm-nagata-compactification"]
 lean = ["AlgebraicGeometry.Compactification.category", "AlgebraicGeometry.Compactification.isCofiltered", "AlgebraicGeometry.Compactification.exists_common_refinement", "AlgebraicGeometry.Compactification.baseChange"]
 tags = ["sketch"]

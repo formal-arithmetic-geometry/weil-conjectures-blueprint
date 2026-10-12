@@ -2,7 +2,7 @@
 id = "def-nagata-affine-gluing-coefficient-stage"
 kind = "definition"
 title = "Coefficient stage of an affine gluing presentation"
-order = 334
+order = 341
 uses = ["def-nagata-directed-finite-upper-bound", "def-nagata-finite-affine-gluing-presentation", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 Start with the finite lists of basic-open elements in $\mathsf G_S$.

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-open-comparison-inverse"
 kind = "lemma"
 title = "Section and stalk inverse for the finite-open map"
-order = 1175
+order = 1222
 uses = ["def-weil-pbc-finite-open-comparison"]
 +++
 The map $\beta_{\bar v,j_Y,G}$ is an isomorphism. Its inverse is obtained by

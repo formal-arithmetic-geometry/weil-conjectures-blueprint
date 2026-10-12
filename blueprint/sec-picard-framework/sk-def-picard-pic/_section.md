@@ -2,7 +2,7 @@
 id = "sk-def-picard-pic"
 kind = "definition"
 title = "Picard functor and its $\\sigma$-normalized version"
-order = 796
+order = 802
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.picardFunctor", "AlgebraicGeometry.picardFunctorNormalized"]
 tags = ["sketch"]

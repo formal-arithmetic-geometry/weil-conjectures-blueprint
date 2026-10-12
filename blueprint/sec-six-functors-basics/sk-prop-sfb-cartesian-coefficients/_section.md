@@ -2,7 +2,7 @@
 id = "sk-prop-sfb-cartesian-coefficients"
 kind = "proposition"
 title = "Cartesian coefficient system"
-order = 1509
+order = 1547
 uses = ["sk-def-sfb-coefficient-morphisms"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom", "AlgebraicGeometry.ProEtale.condensedPushforwardHom_id", "AlgebraicGeometry.ProEtale.condensedPushforwardHom_comp"]
 tags = ["sketch"]

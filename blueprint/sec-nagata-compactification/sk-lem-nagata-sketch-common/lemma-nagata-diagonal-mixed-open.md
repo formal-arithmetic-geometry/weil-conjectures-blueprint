@@ -2,7 +2,7 @@
 id = "lemma-nagata-diagonal-mixed-open"
 kind = "lemma"
 title = "The diagonal on a mixed open"
-order = 235
+order = 242
 lean = ["AlgebraicGeometry.diagonalRestrictChartArrowIso"]
 +++
 Let $X$ be an $S$-scheme and let $U,V\subseteq X$ be open subschemes. The

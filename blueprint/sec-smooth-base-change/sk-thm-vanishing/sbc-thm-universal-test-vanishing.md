@@ -2,7 +2,7 @@
 id = "sbc-thm-universal-test-vanishing"
 kind = "theorem"
 title = "Vanishing in the universal curve test"
-order = 1413
+order = 1453
 uses = ["def-sbc-normal-dominant-galois", "def-sbc-smooth-morphisms", "def-weil-pbc-scheme-conventions", "sbc-def-base-change-square", "sbc-lem-etale-over-normal", "sbc-lem-higher-direct-image-presheaf", "sbc-lem-slicing", "sbc-prop-torsors-h1", "sbc-thm-algebraically-closed-invariance", "sbc-thm-cohomological-dimension-of-an-affine-curve", "sbc-thm-spreading-finite-etale-galois"]
 +++
 Let

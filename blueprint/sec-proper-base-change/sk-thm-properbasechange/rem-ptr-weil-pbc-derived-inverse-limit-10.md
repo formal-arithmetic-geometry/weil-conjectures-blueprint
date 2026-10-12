@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-derived-inverse-limit-10"
 kind = "remark"
 title = "Pointer to the derived product notation"
-order = 1245
+order = 1293
 uses = ["def-weil-pbc-derived-inverse-limit", "prop-weil-pbc-derived-product-representation"]
 +++
 In the notation of [def-weil-pbc-derived-inverse-limit], the following holds.

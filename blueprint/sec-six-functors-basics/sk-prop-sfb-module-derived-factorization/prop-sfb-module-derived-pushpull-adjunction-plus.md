@@ -2,7 +2,7 @@
 id = "prop-sfb-module-derived-pushpull-adjunction-plus"
 kind = "proposition"
 title = "Bounded below adjunction $D^+(f^*)\\dashv R^+f_*$"
-order = 1654
+order = 1692
 uses = ["sk-def-sfb-module-derived-pushpull", "sk-prop-sfb-module-pullback-exact", "sk-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarLowerStarAdjunctionPlus"]
 +++

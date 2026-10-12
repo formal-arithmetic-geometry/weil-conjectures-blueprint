@@ -2,7 +2,7 @@
 id = "lem-pc-pic-exact"
 kind = "lemma"
 title = "Exactness of the Picard sequence"
-order = 814
+order = 820
 uses = ["def-pc-fppf-site", "def-pc-picard-functor", "def-sc-invertible-module", "def-sc-picard-group", "lem-pc-fpqc-descent"]
 +++
 Let $f:X\to S$ be a morphism of schemes as in

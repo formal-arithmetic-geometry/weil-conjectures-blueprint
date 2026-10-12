@@ -2,7 +2,7 @@
 id = "lem-zl-bertini-finite-cover-curve"
 kind = "lemma"
 title = "Curves through prescribed points preserving a finite cover"
-order = 3134
+order = 3168
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_connectedSpace_pullback"]
 uses = ["def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties"]
 +++

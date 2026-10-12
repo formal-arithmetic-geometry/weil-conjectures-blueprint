@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-transform-restrict"
 kind = "lemma"
 title = "Strict transform over the complement of the center"
-order = 262
+order = 269
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isPullback_strictTransform_over_blowupMap"]
 uses = ["def-nagata-global-blowup", "def-nagata-strict-transform", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent"]
 +++

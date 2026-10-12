@@ -2,7 +2,7 @@
 id = "def-weil-pbc-proper-open-comparison"
 kind = "definition"
 title = "Comparison map for a proper map fixing an open"
-order = 1779
+order = 1817
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
 +++
 Let $u:T_1\to T_2$ be

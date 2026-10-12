@@ -2,7 +2,7 @@
 id = "lem-pc-cech-exact"
 kind = "lemma"
 title = "The Amitsur complex of a faithfully flat ring map"
-order = 606
+order = 612
 uses = ["def-pc-scheme"]
 +++
 Let $A\to A'$ be a faithfully flat ring map and $M$ an $A$-module.
