@@ -1,0 +1,7 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-flat-colimit-presentation-same-universe"
++++
+Use Module.Flat.iff_lTensor_preserves_shortComplex_exact. For an exact short complex C, form the short complex of J-diagrams whose three terms are pres.diag tensor C.X_k. The arrows are obtained by whiskering the curried tensor functor maps of C.f and C.g. Their composite is zero by C.zero and functoriality. Evaluation at each j is exact by Module.Flat.lTensor_shortComplex_exact and the given flatness hypothesis. The diagram short complex is exact by ShortComplex.exact_iff_evaluation. (`Module.Flat, RingHom.Flat` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Flat/Basic.lean))).
+
+Tensoring on the right preserves the three colimit cocones of pres by `CategoryTheory.ihom.instIsLeftAdjointTensorRightOfClosed, CategoryTheory.Limits.isColimitOfPreserves` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Monoidal/Closed/Braided.lean)). Apply Mathlib CategoryTheory.Limits.colim.exact_mapShortComplex using exactness of filtered colimits in ModuleCat (ModuleCat.AB). The compatibility equations are the whisker_exchange identities. Thus tensoring C on the left with M is exact, which gives flatness. The cited existing Lean declaration is already completely proved, with no sorry. (`CategoryTheory.Limits.colimit` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/HasLimits.lean))).

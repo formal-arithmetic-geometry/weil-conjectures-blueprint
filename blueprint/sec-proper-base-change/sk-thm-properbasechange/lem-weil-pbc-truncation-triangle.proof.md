@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-weil-pbc-truncation-triangle"
 uses  = ["def-sbc-standard-tstructure-derived-category", "def-weil-abstract-derived-category", "def-weil-pbc-derived-categories", "def-weil-t-structure", "def-weil-triangulated-category", "lem-weil-pbc-complex-ses-triangle", "lem-weil-pbc-triangle-morphism-extension", "lem-weil-pbc-truncation-descends", "lem-weil-pbc-truncation-step-ses"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** **Step 1 (the short exact sequence of truncations).** By [lem-weil-pbc-truncation-step-ses] (a), (b), the inclusion $i_q$ sits in a short exact sequence of complexes $0\to\tau_{\leq q-1}K\xrightarrow{i_q}\tau_{\leq q}K\xrightarrow{p_q}M_q(K)\to0$, where $M_q(K)=\tau_{\leq q}K/\tau_{\leq q-1}K$ is the two-term complex $K^{q-1}/\Ker d^{q-1}\to\Ker d^q$ in degrees $q-1,q$ (it is not $H^q(K)[-q ]$ itself), and $j_q=\bar j_q\circ p_q$ with $\bar j_q:M_q(K)\to H^q(K)[-q ]$ a quasi-isomorphism.
 

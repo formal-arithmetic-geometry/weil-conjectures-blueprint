@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-weil-pbc-truncation-step-ses"
 uses  = ["def-weil-abstract-derived-category", "lem-weil-pbc-coimage-mono", "lem-weil-pbc-cochain-complexes-degreewise-exact", "def-sp-abelian"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** **Step 1 (the inclusion $i_q$).** By the definition of $\tau_{\leq q}$ applied to $q$ and to $q-1$: $(\tau_{\leq q-1}K)^r=K^r$ for $r\leq q-2$, $=\Ker d^{q-1}$ for $r=q-1$, $=0$ for $r\geq q$; and $(\tau_{\leq q}K)^r=K^r$ for $r\leq q-1$, $=\Ker d^q$ for $r=q$, $=0$ for $r>q$. Define $i_q^r$ as the identity of $K^r$ for $r\leq q-2$, the inclusion $\Ker d^{q-1}\hookrightarrow K^{q-1}$ for $r=q-1$, and $0$ for $r\geq q$. Both complexes are subcomplexes of $K$ and $i_q$ commutes with these inclusions into $K$ in every degree, so $i_q$ commutes with the differentials (they are restrictions of those of $K$): $\tau_{\leq q-1}K$ is a subcomplex of $\tau_{\leq q}K$. Each $i_q^r$ is a monomorphism of $\mathcal A$.
 

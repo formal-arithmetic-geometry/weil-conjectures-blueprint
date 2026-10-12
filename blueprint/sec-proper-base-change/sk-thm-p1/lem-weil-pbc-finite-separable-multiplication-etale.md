@@ -1,0 +1,8 @@
++++
+id = "lem-weil-pbc-finite-separable-multiplication-etale"
+kind = "lemma"
+title = "Multiplication of a finite separable extension is etale"
+lean = ["AlgebraicGeometry.finite_separable_multiplication_etale"]
+source = "literature/stacks-project/algebra.tex, Lemma Tag 07QH (lemma-geometrically-regular-over-separable-algebraic, line 47219), proof, second paragraph: 'Since $k'/k$ is an etale extension of rings, we see that $k'\\otimes_kk'\\to k'$ is etale (Lemma 00U2)'. A route in Stacks: Lemma 0C2X (lemma-separable-algebraic-diagonal, line 10221) identifies $\\mu$ with a localization $k'\\otimes_kk'\\to(k'\\otimes_kk')_Q$ at one element ($k'=k(\\alpha)$, $Q$ the cofactor of $x-\\alpha$ in the minimal polynomial), etale by Lemma 00U2 (1) (lemma-etale, line 39290); etale implies smooth by definition of an etale ring map (Stacks 00U1)."
++++
+Let $k'/k$ be a field extension `Algebra` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Algebra/Algebra/Defs.lean)) which is finite ($\dim_kk'<\infty$) and separable algebraic `Algebra.IsSeparable` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/FieldTheory/Separable.lean)). Let $\mu:k'\otimes_kk'\to k'$, $a\otimes b\mapsto ab$, be the multiplication map. Then $\operatorname{Spec}\mu:\operatorname{Spec}k'\to\operatorname{Spec}(k'\otimes_kk')$ is etale `AlgebraicGeometry.Etale` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Morphisms/Etale.lean)); in particular $\mu$ is a smooth ring map `Algebra.Smooth` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Smooth/Basic.lean)).

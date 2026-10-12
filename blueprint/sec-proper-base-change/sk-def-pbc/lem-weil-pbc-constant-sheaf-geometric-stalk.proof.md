@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-weil-pbc-constant-sheaf-geometric-stalk"
 uses  = ["def-weil-pbc-constant-sheaf", "def-weil-pbc-sheafification", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods", "lem-weil-pbc-sheafification-geometric-stalk", "lem-weil-pbc-pointed-etale-neighbourhoods-cofiltered", "lem-weil-pbc-colimit-constant-connected-diagram", "def-weil-pbc-category-colimit"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** *The stalk of $\underline E$ is the stalk of the constant presheaf.* Let $P$ be the constant presheaf $U\mapsto E$ on $T_{\Et}$ (all restriction maps $\mathrm{id}_E$), so that $\underline E=P^\#$ with canonical map $\iota:P\to\underline E$ [def-weil-pbc-constant-sheaf], [def-weil-pbc-sheafification]. Define the stalk of the presheaf $P$ at $\bar t$ as $P_{\bar t}=\varinjlim_{(U,\bar u)\in\mathcal N_{\bar t}^{\mathrm{op}}}P(U)$, with coprojections $c_{(U,\bar u)}:E=P(U)\to P_{\bar t}$, the same colimit formula as for the stalk of a sheaf [def-weil-pbc-geometric-stalks] over the pointed etale neighbourhoods [def-weil-pbc-pointed-etale-neighbourhoods]. By [lem-weil-pbc-sheafification-geometric-stalk] (Stacks 03PT (2)) the map $\iota_{\bar t}:P_{\bar t}\to\underline E_{\bar t}$ induced by $\iota$, which sends $c_{(U,\bar u)}(e)$ to the class of $\iota_U(e)$ at $(U,\bar u)$, is an isomorphism of abelian groups.
 

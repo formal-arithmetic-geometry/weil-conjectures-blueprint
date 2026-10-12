@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-weil-pbc-henselian-local-root-lifting"
 uses  = ["lem-weil-pbc-finite-algebra-local-radical", "def-weil-pbc-henselian-terminology", "lem-weil-pbc-monic-quotient-free", "lem-weil-pbc-finite-flat-local-free", "lem-weil-pbc-root-lifting-etale-retraction", "lem-weil-pbc-etale-retraction-finite-product-local"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** *Uniqueness of lifts holds for every local ring.* Let $B$ be a finite $R$-algebra and $e,e'\in B$ idempotents with $e\equiv e'\bmod\mathfrak mB$. Put $d=e-e'\in\mathfrak mB$. Expanding with $e^2=e$, $e'^2=e'$: $d^2=e-2ee'+e'$ and $d^3=d\cdot d^2=(e-2ee'+ee')-(ee'-2ee'+e')=e-e'=d$, so $d(1-d^2)=0$. Since $d^2\in\mathfrak mB$ and $\mathfrak mB$ lies in the Jacobson radical of $B$ [lem-weil-pbc-finite-algebra-local-radical], $1-d^2$ is a unit of $B$; hence $d=0$, i.e. $e=e'$. So for every finite $R$-algebra $B$ the reduction map from idempotents of $B$ to idempotents of $B/\mathfrak mB$ is injective, and (i) amounts to its surjectivity for all finite $B$.
 

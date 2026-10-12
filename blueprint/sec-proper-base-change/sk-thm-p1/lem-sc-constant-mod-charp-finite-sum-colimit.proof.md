@@ -1,0 +1,13 @@
++++
+kind = "proof"
+of = "lem-sc-constant-mod-charp-finite-sum-colimit"
++++
+Put M = Λ/(p). The image of p in M is zero by Ideal.Quotient.eq_zero_iff_mem and Ideal.mem_span_singleton_self. Thus p times each element is zero by nsmul_eq_mul; apply lem-weil-pbc-zmod-module-structure-killed-by-n. Restrict scalars along ULift.ringEquiv to R = ULift (ZMod p) in the coefficient universe. (`AddCommGroup.zmodModule` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Algebra/Module/ZMod.lean))).
+
+Choose a basis B of M over R by the empty-set case of lem-weil-pbc-vector-space-basis-through-vector (Module.Basis.ofVectorSpace). Its representation identifies M with finitely supported functions B →₀ R. Apply ModuleCat.finsuppCoconeIsColimit to identify these with the coproduct of copies of R. Compose the unique coproduct-point isomorphism with b.repr.symm.toModuleIso. (`Module.Basis.extend, Module.Basis.coe_extend, Module.Basis.subset_extend, linearIndepOn_singleton_iff` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/LinearAlgebra/Basis/VectorSpace.lean))).
+
+Directly specialize the generic Mathlib theorem CoproductsFromFiniteFiltered.isColimitFiniteSubproductsCocone to a : B → ModuleCat R. The diagram liftToFinsetObj has finite coproducts as its values and the full coproduct as its colimit point. Finset (Discrete B) is filtered: empty set gives an object and union gives upper bounds. Lean infers its small-category and filtered instances.
+
+Map this cocone through coefficient forgetting followed by constantSheaf. ModuleCat.Colimits gives preservation for the first functor; the second is the left adjoint in lem-weil-pbc-constant-sheaf-maps-global-sections. Apply lem-weil-pbc-constant-module-sheaf-underlying at M and compose with the mapped coproduct-point isomorphism. Construct the required sheafification instance explicitly from limit and filtered-colimit preservation. Extend the cocone along the resulting isomorphism to the underlying constantModSheaf and transport IsColimit with Cocone.ext. (`CategoryTheory.constantSheafAdj` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/ConstantSheaf.lean)), `CategoryTheory.constantCommuteCompose` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/ConstantSheaf.lean))).
+
+For each finite subset S, compose PreservesCoproduct.iso with biproduct.isoCoproduct.symm and biproduct.whiskerEquiv for Fintype.equivFin S. These three existing Mathlib isomorphisms give exactly the requested finite biproduct. The zero quotient has an empty basis and gives the empty biproduct. No geometric assumption enters.

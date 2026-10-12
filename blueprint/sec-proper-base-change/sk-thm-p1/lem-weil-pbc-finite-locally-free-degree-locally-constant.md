@@ -1,0 +1,11 @@
++++
+id = "lem-weil-pbc-finite-locally-free-degree-locally-constant"
+kind = "lemma"
+title = "The fibre degree of a finite locally free morphism is locally constant"
+uses = ["def-pc-finite-locally-free"]
+lean = ["AlgebraicGeometry.finiteLocallyFree_fiberDimension_isLocallyConstant"]
+source = "literature/stacks-project/morphisms.tex, Stacks Morphisms, Section 02K9 (section-finite-locally-free): Definition 02KA (rank/degree), Lemma 02KB (lemma-finite-flat: finite, flat, lfp iff affine with f_*O_X finite locally free), Lemma 04MH (lemma-finite-locally-free: decomposition S = coprod S_d, proof 'a finite locally free sheaf locally has a well defined rank. Details omitted.')"
++++
+Let $f:Y\to X$ be a finite locally free morphism of schemes [def-pc-finite-locally-free], i.e. finite, flat and locally of finite presentation. For $x\in X$ with residue field $\kappa(x)$ `AlgebraicGeometry.Scheme.residueField` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/ResidueField.lean)) let $Y_x=Y\times_X\operatorname{Spec}\kappa(x)$ be the fibre `CategoryTheory.Limits.pullback` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/Shapes/Pullback/HasPullback.lean)) and
+$$\delta_f(x)=\dim_{\kappa(x)}\Gamma(Y_x,\mathcal O_{Y_x}).$$
+Then $\delta_f(x)$ is finite for every $x\in X$, and the function $\delta_f:X\to\mathbf Z_{\ge0}$ is locally constant on the underlying topological space of $X$ (every point has an open neighbourhood on which $\delta_f$ is constant). Equivalently, $X=\coprod_{d\ge0}X_d$ with $X_d=\delta_f^{-1}(d)$ open and closed, and $f^{-1}(X_d)\to X_d$ is finite locally free of degree $d$ in the sense of [def-pc-finite-locally-free].

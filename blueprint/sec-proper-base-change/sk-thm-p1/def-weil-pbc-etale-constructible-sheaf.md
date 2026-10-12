@@ -3,7 +3,7 @@ id = "def-weil-pbc-etale-constructible-sheaf"
 kind = "definition"
 title = "Constructible sheaf of modules on the small etale site"
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-etale-sheaves", "def-constructible-stratification", "def-weil-constructible-subset", "def-weil-pbc-inverse-image", "def-constructible-locally-constant"]
-tags = ["sheaf-dag", "stacks-095E"]
+tags = ["stacks-095E"]
 +++
 Let $T$ be a scheme and $\Lambda$ a finite commutative ring, let $T_{\Et}$ be the small etale site of $T$ [def-weil-pbc-etale-site] and $\Lambda_T$ its constant sheaf of rings, and let $\mathcal F$ be a sheaf of $\Lambda_T$-modules on $T_{\Et}$ [def-weil-pbc-etale-sheaves]. The sheaf $\mathcal F$ is *constructible* if there is a stratification $(\iota_k\colon Z_k\to T)_{k<n}$ of the scheme $T$ [def-constructible-stratification] (a finite partition $T=\coprod_{k<n}T_k$ of the underlying space into pairwise disjoint locally closed subsets, a partition in the sense of Stacks 09XZ with no condition on closures of strata, together with immersions $\iota_k$ of schemes $Z_k$ with set-theoretic image $T_k$) such that
 (a) every stratum $T_k$ is a constructible subset of the underlying space of $T$ [def-weil-constructible-subset], and

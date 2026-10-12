@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-weil-pbc-module-sheaves-grothendieck-abelian"
 uses  = ["def-weil-pbc-constant-sheaf", "def-weil-pbc-abelian-etale-sheaves", "def-weil-sheaf-of-modules-category", "def-sp-abelian", "lem-weil-pbc-module-sheaves-colimits-forgetful", "def-weil-pbc-sheafification", "lem-weil-pbc-abelian-etale-sheaves-grothendieck", "lem-weil-pbc-affine-etale-essentially-small-cover", "lem-weil-pbc-free-yoneda-presheaf-module", "def-weil-presheaf-modules-sheafification", "def-sp-grothendieck-abelian"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** *Abelian.* Write $\mathcal O=\Lambda_T$, a sheaf of rings on $T_{\Et}$ [def-weil-pbc-constant-sheaf]. Sheafification of presheaves of abelian groups exists on $T_{\Et}$ [def-weil-pbc-abelian-etale-sheaves] (in Mathlib: HasSheafify and WEqualsLocallyBijective for T.smallEtaleTopology, AffineEtale.lean:112,124). Hence the category $\Mod(\mathcal O)$ of sheaves of $\mathcal O$-modules is abelian [def-weil-sheaf-of-modules-category], [def-sp-abelian]: kernels are computed sectionwise and cokernels are the sheafifications of the sectionwise cokernels. By [lem-weil-pbc-module-sheaves-colimits-forgetful] (1) the forgetful functor $\mathrm{forget}:\Mod(\mathcal O)\to\Ab(T_{\Et})$ is faithful and exact.
 

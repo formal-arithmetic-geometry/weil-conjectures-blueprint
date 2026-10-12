@@ -1,0 +1,9 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-finite-product-normal"
++++
+Let $I$ be the finite index set of factors and let $\mathfrak p$ be any prime ideal of $R=\prod_{i\in I}R_i$. By `PrimeSpectrum.exists_comap_evalRingHom_eq` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Spectrum/Prime/RingHom.lean)) there are an index $i\in I$ and a prime ideal $\mathfrak q\subset R_i$ for which $\mathfrak p=\pi_i^{-1}(\mathfrak q)$. This also deals with $I=\varnothing$: the asserted existence of $i$ contradicts emptiness, so the zero product ring has no primes and the normal-ring condition is vacuous.
+
+For the index and prime just obtained, `Localization.AtPrime.mapPiEvalRingHom_bijective` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Localization/AtPrime/Basic.lean)) identifies $R_{\mathfrak p}$ with $(R_i)_{\mathfrak q}$ through the map induced by the coordinate projection. The hypothesis that $R_i$ is a normal ring means precisely, by `IsIntegrallyClosed, IsDomain, Localization.AtPrime` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/IntegralClosure/IntegrallyClosed.lean)), that $(R_i)_{\mathfrak q}$ is a normal domain.
+
+Apply `IsIntegrallyClosed.of_equiv; MulEquiv.isDomain_iff` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/IntegralClosure/IntegrallyClosed.lean)) to the isomorphism of step 2. It makes $R_{\mathfrak p}$ a normal domain. Since $\mathfrak p$ was arbitrary, the defining condition `IsIntegrallyClosed, IsDomain, Localization.AtPrime` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/IntegralClosure/IntegrallyClosed.lean)) holds for $R$.

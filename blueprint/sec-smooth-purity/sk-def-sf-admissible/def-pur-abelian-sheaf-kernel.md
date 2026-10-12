@@ -3,7 +3,7 @@ id = "def-pur-abelian-sheaf-kernel"
 kind = "definition"
 title = "Kernel of a morphism of sheaves of abelian groups on a site"
 lean = ["CategoryTheory.sheafIsAbelian"]
-tags = ["sheaf-dag", "mathlib", "stacks-03CO"]
+tags = ["mathlib", "stacks-03CO"]
 +++
 Let $\mathcal C$ be a site and $\varphi:\mathcal F\to\mathcal G$ a morphism of sheaves
 of abelian groups on $\mathcal C$. Its *kernel* $\ker\varphi$ is the kernel of $\varphi$

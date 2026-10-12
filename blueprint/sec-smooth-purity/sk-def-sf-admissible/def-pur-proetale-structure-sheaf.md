@@ -3,7 +3,7 @@ id = "def-pur-proetale-structure-sheaf"
 kind = "definition"
 title = "The structure sheaf of rings on the small pro-etale site"
 uses = ["def-weil-pbc-small-proetale-site"]
-tags = ["sheaf-dag", "stacks-03P4"]
+tags = ["stacks-03P4"]
 +++
 Let $S$ be a scheme and $S_{\mathrm{proet}}$ its small pro-etale site
 [def-weil-pbc-small-proetale-site]. The *structure sheaf* $\mathcal O_S$ on

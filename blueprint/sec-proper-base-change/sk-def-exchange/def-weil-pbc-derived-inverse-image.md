@@ -4,7 +4,7 @@ kind = "definition"
 title = "Inverse image on bounded below derived categories"
 uses = ["def-pc-scheme", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-inverse-image", "prop-weil-pbc-inverse-image-exact", "lem-sf-exact-functor-derived-triangulated", "def-weil-abstract-derived-category", "lem-weil-pbc-exact-functor-derived-factorization", "def-weil-pbc-derived-categories", "lem-weil-pbc-exact-functor-bounded-below", "lem-weil-pbc-triangulated-functor-restriction", "prop-weil-pbc-inverse-image-modules-exact"]
 lean = ["branch", "declarations", "note"]
-tags = ["sheaf-dag", "stacks-0735"]
+tags = ["stacks-0735"]
 +++
 Let $u:U\to V$ be a morphism of schemes [def-pc-scheme], let $\Ab(T_{\Et})$ denote the category of abelian sheaves on the small etale site of a scheme $T$ [def-weil-pbc-abelian-etale-sheaves], and let $u^{-1}:\Ab(V_{\Et})\to\Ab(U_{\Et})$ be the inverse image [def-weil-pbc-inverse-image], an exact functor [prop-weil-pbc-inverse-image-exact]. Applying $u^{-1}$ termwise to cochain complexes, $K^\bullet\mapsto u^{-1}K^\bullet=(u^{-1}K^r,u^{-1}d^r)_r$, induces a triangulated functor $u^{-1}_D:D(V_{\Et})\to D(U_{\Et})$ [lem-sf-exact-functor-derived-triangulated] together with a natural isomorphism
 

@@ -3,7 +3,7 @@ id = "lem-pur-torsion-sheaf-constant-module"
 kind = "lemma"
 title = "An abelian sheaf killed by N is a module over the constant sheaf Z/N"
 uses = ["def-weil-pbc-constant-sheaf", "def-weil-sheaf-of-modules-category"]
-tags = ["sheaf-dag", "stacks-03CY"]
+tags = ["stacks-03CY"]
 +++
 Let $\mathcal C$ be a site, $N\in\mathbf Z_{\geq1}$, and let $(\mathbf Z/N\mathbf Z)_{\mathcal C}$
 be the constant sheaf of rings [def-weil-pbc-constant-sheaf] with value

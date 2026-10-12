@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Element chasing up to refinements in an abelian category"
 uses = ["def-sp-abelian"]
 lean = ["CategoryTheory.ShortComplex.exact_iff_exact_up_to_refinements"]
-tags = ["sheaf-dag", "mathlib", "stacks-08N5"]
+tags = ["mathlib", "stacks-08N5"]
 +++
 Let $\mathcal A$ be an abelian category [def-sp-abelian]. Call a morphism $a:T\to X$ from an arbitrary object $T$ an *element* of $X$, and for an element $a$ an *epimorphic refinement* a composite $a\circ\rho$ with $\rho:T'\twoheadrightarrow T$ an epimorphism. Then:
 

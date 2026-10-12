@@ -1,0 +1,9 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-locally-constant-germ-evaluation"
++++
+Choose for each stalk element a representative using Mathlib TopCat.Presheaf.exists_germ_eq. Define evaluation to be the value of this representative at x. For any other representative of the same germ, TopCat.Presheaf.germ_eq gives equal restrictions on a common neighbourhood; evaluating these at x proves the evaluation formula. Every stalk element has a representative, so the formula also proves uniqueness. (`CategoryTheory.Limits.colimit` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/HasLimits.lean)), `CategoryTheory.Limits.Types.jointly_surjective, CategoryTheory.Limits.Types.FilteredColimit.isColimit_eq_iff, CategoryTheory.Limits.Types.FilteredColimit.isColimit_eq_iff'` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/Types/Filtered.lean))).
+
+The map ev_x is surjective: for each r in R, the constant map U to R with value r is locally constant, and the germ of this map at x is sent by ev_x to r.
+
+Represent the two stalk elements by ga on Va and gb on Vb using TopCat.Presheaf.exists_germ_eq. The evaluation formula shows that their values at x agree. IsLocallyConstant.isOpen_fiber gives open fibres of these point values in Va and Vb. Their images in X are open because the inclusions of open subspaces are open maps. Intersect these images to obtain a common open neighbourhood of x. The two restrictions there are equal by LocallyConstant.ext, since each equals its value at x. Apply TopCat.Presheaf.germ_ext to obtain equality of the germs. (`CategoryTheory.Limits.Types.jointly_surjective, CategoryTheory.Limits.Types.FilteredColimit.isColimit_eq_iff, CategoryTheory.Limits.Types.FilteredColimit.isColimit_eq_iff'` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/Types/Filtered.lean))).

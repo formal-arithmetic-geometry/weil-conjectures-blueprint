@@ -1,0 +1,8 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-over-pullback-diagonal-closed-immersion"
+uses = ["def-pc-base-change"]
++++
+Form the two base-changed projections a,b from (X ×_Y X) ×_S T to X ×_S T. Their composites with the base-changed f agree, giving e to (X ×_S T) ×_{Y ×_S T} (X ×_S T). Conversely the latter object has two components to X and equal components to T; these give v in the reverse direction. Checking both projections twice proves e and v are inverse. This uses only the fibre-product universal property `CategoryTheory.Limits.pullback` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/Shapes/Pullback/HasPullback.lean)) and base-change definition [def-pc-base-change].
+
+The base-changed diagonal composed with e equals the diagonal of the base-changed f, by checking its two projections. Closed immersions `AlgebraicGeometry.IsClosedImmersion` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Morphisms/ClosedImmersion.lean)) are invariant under composition with isomorphisms. Separatedness `AlgebraicGeometry.IsProper` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Morphisms/Proper.lean)) is precisely the closed-immersion property of this diagonal, yielding the equivalence. The Lean proof constructs and checks the isomorphism explicitly. (`CategoryTheory.Limits.pullback` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/Shapes/Pullback/HasPullback.lean))).
