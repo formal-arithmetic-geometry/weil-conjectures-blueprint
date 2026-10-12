@@ -2,7 +2,7 @@
 id = "def-sfb-padic-integers-condensed-ring"
 kind = "definition"
 title = "The condensed ring $\\underline{\\mathcal O}_E$"
-order = 1511
+order = 1524
 uses = ["def-sfb-continuous-map-condensed-ring", "def-sfb-continuous-map-condensed-ring-map", "def-sfb-padic-int-condensed-ring", "def-sfb-padic-subfield-condensed-ring"]
 lean = ["Profinite.padicIntegersCondensedRing"]
 +++

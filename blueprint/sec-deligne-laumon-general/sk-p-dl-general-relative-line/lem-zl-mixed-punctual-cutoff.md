@@ -2,7 +2,7 @@
 id = "lem-zl-mixed-punctual-cutoff"
 kind = "lemma"
 title = "Punctual cutoff for an already mixed sheaf"
-order = 3180
+order = 3182
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsMixedOfWeightsAtMost.of_hasWeightsAtMost"]
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "p-linear-filtration"]
 +++

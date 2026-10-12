@@ -2,7 +2,7 @@
 id = "fix-lem-finite-tor-perfect"
 kind = "lemma"
 title = "Geometric-stalk perfectness at finite and field coefficients"
-order = 2163
+order = 2167
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-geometric-stalks", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi"]
 +++
 Let $\Lambda=A_{E,n}$, let $M\in D^b_{ctf}(Y,\Lambda)$ be a

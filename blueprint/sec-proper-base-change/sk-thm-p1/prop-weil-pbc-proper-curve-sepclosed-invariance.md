@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-proper-curve-sepclosed-invariance"
 kind = "theorem"
 title = "Proper curve invariance over separably closed fields"
-order = 1229
+order = 1248
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-curve-constructible-primary-reduction", "lemma-weil-pbc-curve-dense-open-reduction", "lemma-weil-pbc-curve-locally-constant-reduction", "lemma-weil-pbc-curve-normalization-constant", "lemma-weil-pbc-curve-separably-closed-passage", "lemma-weil-pbc-finite-pushforward-extension-zero", "lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence", "prop-weil-pbc-algebraically-closed-extension", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++

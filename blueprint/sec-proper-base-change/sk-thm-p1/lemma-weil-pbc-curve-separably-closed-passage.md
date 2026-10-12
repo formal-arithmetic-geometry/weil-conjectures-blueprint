@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-curve-separably-closed-passage"
 kind = "lemma"
 title = "Passage between separably closed fields"
-order = 1187
+order = 1203
 uses = ["lem-pc-homeo-pure-insep", "lem-pc-kbar-pure-insep", "lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence"]
 +++
 Let $k\subseteq k'$ be separably closed fields, let $C$ be proper of

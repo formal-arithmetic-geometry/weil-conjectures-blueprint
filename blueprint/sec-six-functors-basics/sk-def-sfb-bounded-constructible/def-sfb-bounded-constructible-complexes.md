@@ -2,7 +2,7 @@
 id = "def-sfb-bounded-constructible-complexes"
 kind = "definition"
 title = "Bounded constructible complexes"
-order = 1625
+order = 1638
 uses = ["sk-def-sfb-derived-categories", "sk-def-sfb-constructible", "def-weil-abstract-derived-category"]
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible", "AlgebraicGeometry.ProEtale.BoundedConstructible"]
 +++

@@ -2,7 +2,7 @@
 id = "def-exc-etale-algebra-lift"
 kind = "definition"
 title = "Lifting a Jacobian presentation"
-order = 2174
+order = 1141
 uses = ["def-exc-jacobian-presentation"]
 +++
 Let $I\subset A$ be an ideal, and specify a square Jacobian presentation

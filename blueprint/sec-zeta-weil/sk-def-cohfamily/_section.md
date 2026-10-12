@@ -2,7 +2,7 @@
 id = "sk-def-cohfamily"
 kind = "definition"
 title = "The smooth-proper cohomological family"
-order = 3193
+order = 3195
 lean = ["TraceDatum", "TraceDatum.P"]
 tags = ["sketch"]
 +++

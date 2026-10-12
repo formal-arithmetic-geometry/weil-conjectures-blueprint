@@ -2,7 +2,7 @@
 id = "def-sfb-finite-extension-by-zero"
 kind = "definition"
 title = "Extension by zero $j_!$"
-order = 1637
+order = 1650
 uses = ["def-weil-pbc-proetale-site"]
 lean = ["AlgebraicGeometry.ProEtale.openImmersionLowerShriek"]
 +++

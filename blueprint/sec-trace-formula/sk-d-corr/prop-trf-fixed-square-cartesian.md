@@ -2,7 +2,7 @@
 id = "prop-trf-fixed-square-cartesian"
 kind = "theorem"
 title = "The fixed square is Cartesian"
-order = 2617
+order = 2619
 tags = ["latex:proposition"]
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-fixed-scheme", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "thm-sf-comp-composition"]
 +++

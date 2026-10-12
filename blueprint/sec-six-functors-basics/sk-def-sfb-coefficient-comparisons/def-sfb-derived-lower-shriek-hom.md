@@ -2,7 +2,7 @@
 id = "def-sfb-derived-lower-shriek-hom"
 kind = "definition"
 title = "(Shriek)"
-order = 1729
+order = 1742
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-lower-shriek", "def-sfb-derived-push-hom", "def-sfb-derived-open-immersion-shriek-iso"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedLowerShriekHom"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-tower-compatibility"
 kind = "lemma"
 title = "Projection formulas form a coefficient tower"
-order = 1321
+order = 1340
 uses = ["def-weil-pbc-complete-coefficient-datum", "def-weil-pbc-projection-formula-arrows"]
 +++
 For every $n$, let $q_n:P_{n+1}\to P_n$ be the quotient. The square

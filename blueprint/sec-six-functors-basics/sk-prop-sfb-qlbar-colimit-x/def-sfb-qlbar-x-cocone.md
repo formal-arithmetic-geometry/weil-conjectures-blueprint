@@ -2,7 +2,7 @@
 id = "def-sfb-qlbar-x-cocone"
 kind = "definition"
 title = "The cocone $E_X\\to\\overline{\\mathbf Q}_{\\ell,X}$"
-order = 1536
+order = 1549
 uses = ["def-sfb-qlbar-coefficient-ring", "def-sfb-subfield-coefficient-ring", "sk-def-sfb-pullback-from-point", "sk-prop-sfb-qlbar-colimit-point"]
 lean = ["AlgebraicGeometry.ProEtale.padicAlgClRingObjCocone"]
 +++

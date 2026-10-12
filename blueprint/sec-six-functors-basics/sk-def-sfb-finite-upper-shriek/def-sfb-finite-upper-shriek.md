@@ -2,7 +2,7 @@
 id = "def-sfb-finite-upper-shriek"
 kind = "definition"
 title = "Exceptional pullback $Rf^!$"
-order = 1661
+order = 1674
 uses = ["def-sfb-finite-upper-shriek-compactification", "sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedUpperShriek"]
 +++

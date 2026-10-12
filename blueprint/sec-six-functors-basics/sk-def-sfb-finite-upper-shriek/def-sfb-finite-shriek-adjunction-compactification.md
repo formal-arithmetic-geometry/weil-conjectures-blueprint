@@ -2,7 +2,7 @@
 id = "def-sfb-finite-shriek-adjunction-compactification"
 kind = "definition"
 title = "The adjunction $Rf_!^c\\dashv Rf^!_c$"
-order = 1662
+order = 1675
 uses = ["def-sfb-finite-derived-extension-by-zero-adjunction", "def-sfb-finite-derived-lower-shriek-compactification", "def-sfb-finite-derived-pullback-iso", "def-sfb-finite-upper-shriek-compactification", "thm-sfb-finite-proper-pushforward-left-adjoint"]
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedUpperShriekOfCompactificationAdjunction"]
 +++

@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-amplification-proper"
 kind = "theorem"
 title = "Amplification for proper base-change squares"
-order = 1394
+order = 1413
 uses = ["def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-cartesian-square", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-finite-level-amplification", "def-weil-pbc-scheme-conventions", "def-weil-pbc-tower-preservation", "def-weil-pbc-witness-compatibility", "lem-weil-pbc-comparison-pullback", "lem-weil-pbc-pullback-preserves-bounded-constructible", "prop-weil-pbc-amplification-consequences", "prop-weil-pbc-comparison-direct-image", "thm-weil-pbc-direct-image-finiteness-proper"]
 +++
 Let $\square$ be the cartesian square [def-weil-pbc-cartesian-square] with

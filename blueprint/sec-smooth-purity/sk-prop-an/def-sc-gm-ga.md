@@ -2,7 +2,7 @@
 id = "def-sc-gm-ga"
 kind = "definition"
 title = "The multiplicative group, the additive group, and their finite subgroups"
-order = 2301
+order = 2303
 uses = ["def-sc-gm-torsor", "def-sc-group-scheme", "def-sc-group-scheme-subgroup", "def-sc-kummer-sequence"]
 +++
 Let $k$ be a field. The *multiplicative group* is the

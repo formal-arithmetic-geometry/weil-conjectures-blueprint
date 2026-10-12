@@ -2,7 +2,7 @@
 id = "thm-pod-adic-reconstruction-and-scalar-extension"
 kind = "theorem"
 title = "Adic reconstruction and scalar extension"
-order = 2788
+order = 2790
 uses = ["def-pod-conventions", "def-pod-derived-poincare-pairing", "def-weil-pbc-adic-coefficient-datum", "lem-weil-pbc-reconstruction-uniform-tower", "thm-pod-derived-poincare-duality", "thm-pod-finite-reduction"]
 +++
 Let $X/k$ be smooth and geometrically connected as in

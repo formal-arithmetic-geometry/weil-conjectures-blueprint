@@ -2,7 +2,7 @@
 id = "def-fd-trace-function"
 kind = "definition"
 title = "Trace function of a Weil complex"
-order = 3027
+order = 3029
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.traceFunction"]
 uses = ["def-weil-local-frobenius-trace", "def-weil-pbc-qbar-category"]
 +++

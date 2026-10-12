@@ -2,7 +2,7 @@
 id = "prop-euler-product"
 kind = "theorem"
 title = "Closed-point and integral-series identity"
-order = 3215
+order = 3216
 lean = ["AlgebraicGeometry.Scheme.Hom.pointCount_eq_sum", "AlgebraicGeometry.Scheme.Hom.zetaSeries_eq_tprod"]
 tags = ["latex:proposition"]
 uses = ["def-weil-point-counts-zeta", "lemma-nagata-affine-finite-type-is-quasi-affine"]

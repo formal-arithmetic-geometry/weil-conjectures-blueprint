@@ -2,7 +2,7 @@
 id = "def-trf-global-operator"
 kind = "definition"
 title = "Global operator of a correspondence"
-order = 2626
+order = 2628
 uses = ["def-compact-support-direct-image-detailed", "def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-weil-derived-direct-image", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "prop-functor-package"]
 +++
 In the setting of [def-trf-correspondence], assume that the

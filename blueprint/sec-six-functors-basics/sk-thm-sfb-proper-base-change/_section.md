@@ -2,7 +2,7 @@
 id = "sk-thm-sfb-proper-base-change"
 kind = "theorem"
 title = "Proper base change on $D_{\\mathrm{cons}}$"
-order = 1785
+order = 1798
 uses = ["sk-def-sfb-base-change-morphism"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper_padicAlgCl"]
 tags = ["sketch"]

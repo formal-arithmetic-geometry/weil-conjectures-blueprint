@@ -2,7 +2,7 @@
 id = "lem-wf-cartan-trace-criterion"
 kind = "lemma"
 title = "Cartan's trace criterion"
-order = 2808
+order = 2810
 uses = ["lem-wf-engel-matrix"]
 +++
 Let $M$ be a finite-dimensional vector space over $\Qlb$, and let

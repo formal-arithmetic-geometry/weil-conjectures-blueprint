@@ -2,7 +2,7 @@
 id = "rem-coef-finite-normalized-towers"
 kind = "remark"
 title = "Normalized towers supplied to the integral argument"
-order = 2482
+order = 2484
 uses = ["cor-coef-finite-verdier", "def-weil-derived-complete-integral-detailed", "def-weil-pbc-adic-coefficient-datum", "lem-coef-finite-dualizing", "lem-weil-verdier-preservation-strata"]
 +++
 The objects $\omega_{X,A_{E,n}}$, with transition maps

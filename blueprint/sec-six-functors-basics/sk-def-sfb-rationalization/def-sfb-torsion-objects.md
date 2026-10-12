@@ -2,7 +2,7 @@
 id = "def-sfb-torsion-objects"
 kind = "definition"
 title = "Torsion objects"
-order = 1614
+order = 1627
 lean = ["CategoryTheory.Rationalization.torsion"]
 +++
 Let $\mathcal T$ be a preadditive category that is linear over a commutative ring $R$,

@@ -2,7 +2,7 @@
 id = "lem-weil-bounded-finite-tor-perfect"
 kind = "lemma"
 title = "Bounded complexes of finite Tor amplitude are perfect"
-order = 2406
+order = 2408
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-site-perfect-complex"]
 +++
 Let $R$ be a Noetherian ring and let $K$ be a bounded complex of finite

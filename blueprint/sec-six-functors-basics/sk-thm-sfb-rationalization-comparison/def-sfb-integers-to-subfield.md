@@ -2,7 +2,7 @@
 id = "def-sfb-integers-to-subfield"
 kind = "definition"
 title = "The inclusion $\\mathcal O_{E,X}\\to E_X$"
-order = 1630
+order = 1643
 uses = ["def-sfb-integers-to-subfield-point", "sk-def-sfb-pullback-from-point", "sk-def-sfb-pulled-back-coefficients"]
 lean = ["AlgebraicGeometry.ProEtale.padicIntegersToPadicSubfield"]
 +++

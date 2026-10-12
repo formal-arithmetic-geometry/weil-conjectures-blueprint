@@ -2,7 +2,7 @@
 id = "thm-galois-torsor-h1"
 kind = "theorem"
 title = "Torsors and first etale cohomology"
-order = 1448
+order = 1462
 uses = ["def-galois-categories", "def-weil-pbc-etale-cohomology", "def-weil-pbc-finite-torsors", "lem-galois-flasque", "thm-galois-lc-etale"]
 +++
 In the situation of [def-galois-categories], let $M$ be a finite

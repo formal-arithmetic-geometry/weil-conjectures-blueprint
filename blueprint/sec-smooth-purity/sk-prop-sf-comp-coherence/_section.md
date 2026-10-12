@@ -2,7 +2,7 @@
 id = "sk-prop-sf-comp-coherence"
 kind = "proposition"
 title = "Coherence of the compactification comparisons"
-order = 1855
+order = 1868
 uses = ["sk-def-sf-operations", "sk-prop-nagata-sketch-comp-category", "sk-thm-properbasechange"]
 lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison", "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison_id", "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison_comp"]
 tags = ["sketch"]

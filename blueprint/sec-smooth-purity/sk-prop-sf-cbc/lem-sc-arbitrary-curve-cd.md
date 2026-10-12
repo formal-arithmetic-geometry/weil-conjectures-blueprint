@@ -2,7 +2,7 @@
 id = "lem-sc-arbitrary-curve-cd"
 kind = "lemma"
 title = "The torsion bound on an arbitrary algebraic curve"
-order = 1885
+order = 1895
 uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-fin-normalization-extension-finite", "lem-sc-affine-cohomological-dimension", "lem-sc-cohomological-dimension", "lem-sc-normal-dim1-dvr", "lem-weil-pbc-zero-dimensional-cohomology", "lemma-weil-pbc-finite-direct-image-exact", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $X$ be a

@@ -2,7 +2,7 @@
 id = "sk-thm-frobenius"
 kind = "theorem"
 title = "Frobenius: equivariance, similitudine, reciprocity"
-order = 2783
+order = 2785
 uses = ["sk-def-pairing", "sk-def-sf-orientation", "sk-def-weil", "sk-thm-derived-duality"]
 tags = ["sketch"]
 +++

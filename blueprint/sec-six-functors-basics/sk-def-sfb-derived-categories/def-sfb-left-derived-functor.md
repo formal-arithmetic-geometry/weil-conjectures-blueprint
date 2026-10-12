@@ -2,7 +2,7 @@
 id = "def-sfb-left-derived-functor"
 kind = "definition"
 title = "Left derived functor via K-flat resolutions"
-order = 1595
+order = 1608
 uses = ["def-sfb-preserves-kflat-quasi-iso"]
 lean = ["CategoryTheory.Functor.leftDerivedFunctor"]
 +++

@@ -2,7 +2,7 @@
 id = "rem-layers"
 kind = "remark"
 title = "The three layers, and why the order matters"
-order = 3056
+order = 3058
 +++
 *Layer 1 (this file).* The transform and everything that follows from
 the six operations and the classical trace formula. Nothing here mentions a

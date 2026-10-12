@@ -2,7 +2,7 @@
 id = "lem-sf-proetale-residue-tor-test"
 kind = "lemma"
 title = "The residue test on the pro-étale site"
-order = 2205
+order = 2207
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, an integer

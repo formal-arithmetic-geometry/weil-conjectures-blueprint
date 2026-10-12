@@ -2,7 +2,7 @@
 id = "prop-exc-open-adjoint"
 kind = "theorem"
 title = "The right adjoint for an open immersion"
-order = 2191
+order = 2193
 tags = ["latex:proposition"]
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-weil-extension-by-zero-adjunction", "lem-weil-extension-by-zero-exact"]
 +++

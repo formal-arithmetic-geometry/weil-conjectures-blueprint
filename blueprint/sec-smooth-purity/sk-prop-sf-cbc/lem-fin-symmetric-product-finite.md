@@ -2,7 +2,7 @@
 id = "lem-fin-symmetric-product-finite"
 kind = "lemma"
 title = "A finite symmetric-product cover over a Noetherian base"
-order = 1936
+order = 1943
 uses = ["def-pc-projective-morphism", "def-weil-pbc-scheme-conventions", "def-weil-pbc-symmetric-product-morphism", "lem-chow-segre", "lem-fin-projective-finite-fibres", "lem-weil-pbc-symmetric-product-properties"]
 +++
 For a Noetherian scheme $S$ and $n\geq1$, the

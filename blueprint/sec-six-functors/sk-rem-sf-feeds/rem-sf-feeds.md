@@ -2,7 +2,7 @@
 id = "rem-sf-feeds"
 kind = "remark"
 title = "Where this feeds"
-order = 2602
+order = 2604
 +++
 The package [prop-functor-package] is consumed as follows. The smooth-purity
 chapter needs clause (7) — the relative product theorem — as the relative

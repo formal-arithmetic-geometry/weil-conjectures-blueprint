@@ -2,7 +2,7 @@
 id = "sk-thm-dl-a1-upper"
 kind = "theorem"
 title = "Deligne–Laumon affine-line estimate"
-order = 3123
+order = 3125
 uses = ["sk-c-dl-a1-hc1", "sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-dl-a1-exact", "sk-p-linear-filtration"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.hasWeightsAtMost_compactlySupportedCohomology_directImage", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.subsingleton_compactlySupportedCohomology_directImage_zero", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.isPureOfWeightOver_compactlySupportedCohomology_directImage_two"]
 tags = ["sketch"]

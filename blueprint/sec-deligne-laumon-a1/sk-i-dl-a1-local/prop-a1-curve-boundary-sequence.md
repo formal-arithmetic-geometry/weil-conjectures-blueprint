@@ -2,7 +2,7 @@
 id = "prop-a1-curve-boundary-sequence"
 kind = "theorem"
 title = "Boundary localization triangle for a curve"
-order = 3064
+order = 3066
 tags = ["latex:proposition"]
 uses = ["def-weil-open-closed-recollement", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-a1-finite-boundary-cohomology", "lem-fin-boundary-sheaf", "prop-sf-open-closed-triangle-all-stages"]
 +++

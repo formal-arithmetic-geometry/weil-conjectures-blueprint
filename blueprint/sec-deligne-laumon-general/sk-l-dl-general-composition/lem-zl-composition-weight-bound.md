@@ -2,7 +2,7 @@
 id = "lem-zl-composition-weight-bound"
 kind = "lemma"
 title = "Composition preserves the direct-image weight bound"
-order = 3159
+order = 3161
 lean = ["AlgebraicGeometry.HasDirectImageWeightBound.comp"]
 uses = ["def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-qbar-category", "def-weil-punctual-weights", "lem-a1-mixed-direct-summand", "lem-zl-shriek-composition", "lemma-weil-pbc-hypercohomology-convergence"]
 +++

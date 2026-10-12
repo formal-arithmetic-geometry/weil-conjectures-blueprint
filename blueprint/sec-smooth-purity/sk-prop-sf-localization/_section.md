@@ -2,7 +2,7 @@
 id = "sk-prop-sf-localization"
 kind = "proposition"
 title = "Supported localization"
-order = 2203
+order = 2205
 uses = ["sk-lem-sf-determination", "sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle"]
 lean = ["AlgebraicGeometry.Etale.existsUnique_distTriang_supportedLocalization"]
 tags = ["sketch"]

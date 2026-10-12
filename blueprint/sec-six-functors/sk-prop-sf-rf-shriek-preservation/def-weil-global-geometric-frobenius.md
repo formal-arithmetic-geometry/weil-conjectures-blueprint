@@ -2,7 +2,7 @@
 id = "def-weil-global-geometric-frobenius"
 kind = "definition"
 title = "Global geometric Frobenius"
-order = 2399
+order = 2401
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-ordinary-compact-cohomology", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, a

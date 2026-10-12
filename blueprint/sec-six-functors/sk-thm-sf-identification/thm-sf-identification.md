@@ -2,7 +2,7 @@
 id = "thm-sf-identification"
 kind = "theorem"
 title = "The pairing is the duality isomorphism"
-order = 2524
+order = 2526
 uses = ["def-sf-cup", "def-sf-orientation", "def-sf-pairing", "def-sf-pf", "lem-sf-detection", "lem-sf-mate", "lem-sf-tensor-hom", "lem-sf-twist-interchange", "thm-sf-global-duality"]
 +++
 In the setting of [def-sf-pairing] — so $X$ satisfies the hypotheses of

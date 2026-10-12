@@ -2,7 +2,7 @@
 id = "lem-kun-tensor-unit"
 kind = "lemma"
 title = "Tensor unit"
-order = 2049
+order = 2053
 uses = ["def-kun-constant-sheaf", "def-weil-pbc-etale-sheaves"]
 +++
 For a commutative ring $\Lambda$ and

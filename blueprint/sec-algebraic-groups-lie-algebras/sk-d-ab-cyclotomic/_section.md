@@ -2,7 +2,7 @@
 id = "sk-d-ab-cyclotomic"
 kind = "definition"
 title = "The cyclotomic Tate module"
-order = 2903
+order = 2905
 uses = ["sk-d-ab-field", "sk-d-ab-tate"]
 lean = ["cyclotomicTateModule"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-def-as"
 kind = "definition"
 title = "The Artin–Schreier sheaf"
-order = 3014
+order = 3016
 lean = ["AlgebraicGeometry.Etale.artinSchreierSheaf"]
 uses = ["sk-def-char"]
 tags = ["sketch"]

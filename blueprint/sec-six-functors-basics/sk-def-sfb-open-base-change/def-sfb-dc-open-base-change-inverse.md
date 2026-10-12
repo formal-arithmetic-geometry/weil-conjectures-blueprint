@@ -2,7 +2,7 @@
 id = "def-sfb-dc-open-base-change-inverse"
 kind = "definition"
 title = "The extension-by-zero base change isomorphism"
-order = 1789
+order = 1802
 uses = ["thm-sfb-dc-open-base-change-iso"]
 +++
 For a cartesian square as in [thm-sfb-dc-open-base-change-iso], the *extension-by-zero base

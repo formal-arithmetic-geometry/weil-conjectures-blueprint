@@ -2,7 +2,7 @@
 id = "cor-sf-fullcd-weakly-contractible-test"
 kind = "theorem"
 title = "FullCD tested on affine weakly contractible objects"
-order = 2131
+order = 2135
 tags = ["latex:corollary"]
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-full-cohomological-dimension", "def-weil-pbc-direct-image", "def-weil-pbc-proetale-site", "lem-cbc-proetale-stalk-conservative", "lem-sf-proetale-vanishing-detection"]
 +++

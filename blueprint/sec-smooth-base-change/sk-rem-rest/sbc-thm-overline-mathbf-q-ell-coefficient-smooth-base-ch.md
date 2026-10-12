@@ -2,7 +2,7 @@
 id = "sbc-thm-overline-mathbf-q-ell-coefficient-smooth-base-ch"
 kind = "theorem"
 title = "$\\overline{\\mathbf Q}_\\ell$-coefficient smooth base change"
-order = 1484
+order = 1497
 uses = ["sbc-thm-e-coefficient-smooth-base-change"]
 +++
 Assume the hypotheses of ambient $E$-coefficient smooth base change

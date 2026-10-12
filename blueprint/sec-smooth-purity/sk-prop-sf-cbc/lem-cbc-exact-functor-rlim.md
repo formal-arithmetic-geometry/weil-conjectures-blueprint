@@ -2,7 +2,7 @@
 id = "lem-cbc-exact-functor-rlim"
 kind = "lemma"
 title = "Exact functors commute with derived limits of towers"
-order = 1925
+order = 1933
 uses = ["def-weil-pbc-derived-inverse-limit", "prop-weil-pbc-roos-triangle"]
 +++
 Let $F$ be a triangulated functor between the derived categories of

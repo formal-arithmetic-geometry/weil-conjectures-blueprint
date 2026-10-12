@@ -2,7 +2,7 @@
 id = "lem-trf-integration-component-sum"
 kind = "lemma"
 title = "Integration splits over the open–closed components"
-order = 2686
+order = 2688
 uses = ["def-trf-coefficient-conventions", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-integration", "def-trf-local-term", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-functor-package", "thm-trf-dualizing-complex-composition"]
 +++
 Fix the coefficient

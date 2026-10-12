@@ -2,7 +2,7 @@
 id = "sk-d-real-weights"
 kind = "definition"
 title = "Local weights and reality"
-order = 2926
+order = 2928
 uses = ["sk-d-real-setup", "sk-d-real-weil"]
 lean = ["AlgebraicGeometry.WeilGroup.IsPunctuallyPure", "AlgebraicGeometry.WeilGroup.frobeniusWeight", "AlgebraicGeometry.WeilGroup.localPolynomial", "AlgebraicGeometry.WeilGroup.HasWeightsAtMost", "AlgebraicGeometry.WeilGroup.IsReal"]
 tags = ["sketch"]

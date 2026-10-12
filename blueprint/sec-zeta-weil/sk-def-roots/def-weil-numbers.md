@@ -2,7 +2,7 @@
 id = "def-weil-numbers"
 kind = "definition"
 title = "Weil numbers"
-order = 3202
+order = 3203
 uses = ["def-weil-finite-field-fiber"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, and let

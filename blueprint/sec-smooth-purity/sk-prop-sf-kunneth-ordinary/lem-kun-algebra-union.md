@@ -2,7 +2,7 @@
 id = "lem-kun-algebra-union"
 kind = "lemma"
 title = "Algebras are unions of finite type subalgebras"
-order = 2085
+order = 2089
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Every $K$-algebra $B$ is the filtered union of its finitely

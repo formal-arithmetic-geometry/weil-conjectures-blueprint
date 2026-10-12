@@ -2,7 +2,7 @@
 id = "lem-kun-global-generated-stalkwise"
 kind = "lemma"
 title = "Global generation is stalkwise surjectivity"
-order = 2030
+order = 2034
 uses = ["def-kun-constant-sheaf", "def-kun-global-generated", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $T$ be a scheme, $\Lambda$ a commutative ring and $F$ a sheaf

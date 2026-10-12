@@ -2,7 +2,7 @@
 id = "lem-a1-unramified-at-infinity"
 kind = "lemma"
 title = "Removing a regular point to arrange infinity"
-order = 3138
+order = 3140
 uses = ["def-weil-open-closed-recollement", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-a1-finite-boundary-cohomology", "lem-wf-dense-open-pi1-surjective", "prop-sf-open-closed-triangle-all-stages"]
 +++
 Let $\mathcal F$ be a punctually pure lisse Weil sheaf of weight $w$

@@ -2,7 +2,7 @@
 id = "sk-prop-sf-comparison"
 kind = "proposition"
 title = "The pro-étale comparison"
-order = 1988
+order = 1992
 lean = ["AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar", "AlgebraicGeometry.ProEtale.nonempty_iso_comparisonUpperStar_comp_rightDerivedLowerStar"]
 tags = ["sketch"]
 +++

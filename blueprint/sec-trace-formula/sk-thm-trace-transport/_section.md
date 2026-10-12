@@ -2,7 +2,7 @@
 id = "sk-thm-trace-transport"
 kind = "theorem"
 title = "Transport of the trace formula to the non-finite stages"
-order = 2732
+order = 2734
 uses = ["sk-d-setup", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-def-sf-weil-complexes", "sk-i-curve-zero", "sk-p-trace-coeff", "sk-prop-cd", "sk-prop-logdet", "sk-prop-trace-adic", "sk-thm-sf-ctf-stability", "sk-thm-trace-formula"]
 lean = ["AlgebraicGeometry.ProEtale.hasProd_inv_alternatingCharpolyRevProd"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "prop-weil-open-closed-recollement-adjunctions"
 kind = "theorem"
 title = "Adjunctions of the open-closed recollement"
-order = 2187
+order = 2189
 uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-open-closed-recollement", "def-weil-pbc-proetale-operations", "def-weil-scheme-morphism-properties", "lem-exc-proetale-closed-fully-faithful", "lem-exc-proetale-open-unit", "lem-weil-extension-by-zero-adjunction", "lem-weil-extension-by-zero-exact", "prop-weil-pbc-kinjective-resolutions-exist", "prop-weil-pbc-proetale-constant-exact"]
 tags = ["latex:proposition"]
 +++

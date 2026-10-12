@@ -2,7 +2,7 @@
 id = "cor-wf-rank-one-punctual-purity-curve"
 kind = "theorem"
 title = "Punctual purity of a rank-one Weil character on a curve"
-order = 2966
+order = 2968
 tags = ["latex:corollary"]
 uses = ["cor-wf-rank-one-degree-factorization-curve", "def-weil-local-frobenius-trace", "def-weil-punctual-weights", "def-wf-fundamental-representation", "def-wf-weil-group", "lem-tw-root-of-unity-modulus", "p-real-operations", "thm-wf-rank-one-finite-geometric-image-curve"]
 +++

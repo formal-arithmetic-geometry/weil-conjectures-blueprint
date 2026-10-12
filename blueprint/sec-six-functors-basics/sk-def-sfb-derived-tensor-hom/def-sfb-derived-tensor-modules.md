@@ -2,7 +2,7 @@
 id = "def-sfb-derived-tensor-modules"
 kind = "definition"
 title = "Derived tensor product of module objects"
-order = 1604
+order = 1617
 uses = ["lem-sfb-derived-monoidal", "sk-prop-sfb-module-category", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-condensed-ring"]
 lean = ["CategoryTheory.Mod.derivedMonoidalCategory", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensor"]
 +++

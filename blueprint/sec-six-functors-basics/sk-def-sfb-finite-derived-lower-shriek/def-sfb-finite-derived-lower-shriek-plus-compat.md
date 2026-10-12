@@ -2,7 +2,7 @@
 id = "def-sfb-finite-derived-lower-shriek-plus-compat"
 kind = "definition"
 title = "$Rf_!$ on $D^+$ is a restriction"
-order = 1655
+order = 1668
 uses = ["def-sfb-finite-derived-lower-shriek", "def-sfb-finite-derived-lower-shriek-plus"]
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerShriekPlusCompatibility"]
 +++

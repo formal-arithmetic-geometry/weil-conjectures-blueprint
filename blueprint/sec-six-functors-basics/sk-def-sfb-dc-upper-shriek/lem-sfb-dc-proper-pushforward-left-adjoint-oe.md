@@ -2,7 +2,7 @@
 id = "lem-sfb-dc-proper-pushforward-left-adjoint-oe"
 kind = "lemma"
 title = "$Rp_*$ on $D_{\\mathrm{cons}}(-,\\cO_E)$ is a left adjoint for proper $p$"
-order = 1778
+order = 1791
 uses = ["def-sfb-dc-lower-star", "sk-def-sfb-condensed-ring"]
 +++
 Let $E\subseteq\Qlb$ be a finite extension of $\mathbf Q_\ell$ with ring of integers $\cO_E$, let

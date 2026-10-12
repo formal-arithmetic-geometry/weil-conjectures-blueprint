@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-finite-level-proetale"
 kind = "theorem"
 title = "Finite-level pro-etale proper base change"
-order = 1365
+order = 1384
 uses = ["def-weil-pbc-ambient-ringed-exchange", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-transport-identifies-exchange", "thm-weil-pbc-bounded-below", "thm-weil-pbc-site-comparison"]
 +++
 Let $\Lambda$ be finite, let $f$ be proper, and let

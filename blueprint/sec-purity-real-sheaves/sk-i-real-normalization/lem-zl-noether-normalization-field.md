@@ -2,7 +2,7 @@
 id = "lem-zl-noether-normalization-field"
 kind = "lemma"
 title = "Noether normalization over a field"
-order = 2986
+order = 2988
 lean = ["exists_finite_inj_algHom_of_fg"]
 +++
 Let $K$ be a field and $B\neq0$ a finitely generated commutative

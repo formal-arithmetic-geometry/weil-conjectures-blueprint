@@ -3,7 +3,7 @@ id = "prop-pur-gm-relative-kummer"
 kind = "theorem"
 tags = ["latex:proposition"]
 title = "The affine line and the punctured line over a base"
-order = 2273
+order = 2275
 uses = ["def-coefficient-twists-detailed", "def-pur-affine-line-datum", "def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "fix-prop-adjunctions", "lem-pur-a1-direct-image", "lem-pur-finite-kummer-level", "lem-weil-derived-direct-image-composition", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-strict-henselization-stalk-formula", "sbc-lem-strict-henselian-constant-cohomology", "sbc-thm-smooth-base-change", "thm-pur-kummer-affine-line", "thm-weil-pbc-site-comparison"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

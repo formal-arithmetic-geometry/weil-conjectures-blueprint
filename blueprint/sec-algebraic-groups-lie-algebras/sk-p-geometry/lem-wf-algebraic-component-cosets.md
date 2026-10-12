@@ -2,7 +2,7 @@
 id = "lem-wf-algebraic-component-cosets"
 kind = "lemma"
 title = "Identity component, cosets, and the finite component group"
-order = 2832
+order = 2834
 uses = ["def-wf-algebraic-components", "lem-wf-affine-noetherian-components"]
 +++
 For a closed algebraic subgroup $H\subseteq\operatorname{GL}(V)$,

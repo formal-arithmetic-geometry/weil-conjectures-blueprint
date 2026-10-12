@@ -2,7 +2,7 @@
 id = "def-sfb-point-adjunction"
 kind = "definition"
 title = "The adjunction $p^*\\dashv p_*$"
-order = 1526
+order = 1539
 uses = ["def-sfb-point-lower-star", "def-sfb-point-upper-star"]
 lean = ["AlgebraicGeometry.ProEtale.pointUpperStarLowerStarAdjunction"]
 +++

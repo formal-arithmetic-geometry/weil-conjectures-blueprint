@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-exact"
 kind = "proposition"
 title = "Exactness at a fixed pure weight"
-order = 3121
+order = 3123
 uses = ["sk-d-dl-a1-setup", "sk-i-dl-a1-local", "sk-p-real-semi"]
 lean = ["AlgebraicGeometry.shortExact_map_directImage"]
 tags = ["sketch"]

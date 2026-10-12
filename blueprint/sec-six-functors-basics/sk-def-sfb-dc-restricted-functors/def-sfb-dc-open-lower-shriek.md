@@ -2,7 +2,7 @@
 id = "def-sfb-dc-open-lower-shriek"
 kind = "definition"
 title = "$j_!$ on $D_{\\mathrm{cons}}$"
-order = 1768
+order = 1781
 uses = ["lem-sfb-dc-open-lower-shriek-preserves", "sk-def-sfb-module-lower-shriek"]
 +++
 Let $\Lambda$ be a commutative condensed ring and let $j\colon U\to X$ be an open immersion of

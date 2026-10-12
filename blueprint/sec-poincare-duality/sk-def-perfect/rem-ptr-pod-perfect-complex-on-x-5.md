@@ -2,7 +2,7 @@
 id = "rem-ptr-pod-perfect-complex-on-x-5"
 kind = "remark"
 title = "Pointer to the properties of [def-pod-perfect-complex-on-x]"
-order = 2752
+order = 2754
 uses = ["def-pod-coefficient-dual-on-x", "def-pod-perfect-complex-on-x", "prop-pod-perfect-local-model"]
 +++
 In the notation of [def-pod-perfect-complex-on-x], the following holds. The

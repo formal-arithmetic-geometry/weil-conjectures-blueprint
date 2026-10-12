@@ -2,7 +2,7 @@
 id = "def-sfb-dc-upper-shriek-of-compactification-adjunction"
 kind = "definition"
 title = "The adjunction $Rf_!^c\\dashv Rf^!_c$"
-order = 1781
+order = 1794
 uses = ["def-sfb-dc-open-lower-shriek-adjunction", "def-sfb-dc-upper-shriek-of-compactification", "sk-def-sfb-dc-lower-shriek"]
 +++
 In the situation of [def-sfb-dc-upper-shriek-of-compactification], the adjunction

@@ -2,7 +2,7 @@
 id = "rem-sf-finite-level-comparison-ingredient"
 kind = "remark"
 title = "The local-model proof and normalized DVR reconstruction"
-order = 2546
+order = 2548
 uses = ["cor-coef-finite-verdier", "def-coef-normalized-dvr-tower", "def-weil-pbc-bounded-constructible-tower", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-coef-integral-hom-reduction", "lem-coef-normalized-dvr-effectivity", "prop-coef-integral-exceptional-adjoint"]
 +++
 The proof of *The finite-level comparison isomorphisms of the package, from uniform local models* uses the uniform

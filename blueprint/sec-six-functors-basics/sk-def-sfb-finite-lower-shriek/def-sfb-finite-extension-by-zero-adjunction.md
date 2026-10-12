@@ -2,7 +2,7 @@
 id = "def-sfb-finite-extension-by-zero-adjunction"
 kind = "definition"
 title = "The adjunction $j_!\\dashv j^*$"
-order = 1638
+order = 1651
 uses = ["def-sfb-finite-extension-by-zero", "def-sfb-finite-upper-star"]
 lean = ["AlgebraicGeometry.ProEtale.openImmersionLowerShriekUpperStarAdjunction"]
 +++

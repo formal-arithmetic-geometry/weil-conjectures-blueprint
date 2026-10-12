@@ -2,7 +2,7 @@
 id = "def-sfb-subfield-to-qlbar-coefficient-map"
 kind = "definition"
 title = "The coefficient change $E_X\\to\\overline{\\mathbf Q}_{\\ell,X}$"
-order = 1733
+order = 1746
 uses = ["sk-def-sfb-qlbar-condensed", "sk-prop-sfb-qlbar-colimit-point", "sk-def-sfb-pulled-back-coefficients", "def-sfb-coefficient-map"]
 lean = ["AlgebraicGeometry.ProEtale.padicSubfieldRingObjToPadicAlgCl"]
 +++

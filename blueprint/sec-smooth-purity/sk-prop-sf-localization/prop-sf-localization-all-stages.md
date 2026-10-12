@@ -2,7 +2,7 @@
 id = "prop-sf-localization-all-stages"
 kind = "theorem"
 title = "The closed-support triangle at every coefficient stage"
-order = 2206
+order = 2208
 tags = ["latex:proposition"]
 uses = ["def-sc-etale-torsion-cd", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-tor-amplitude", "def-weil-pbc-proetale-operations", "def-weil-rationalization-karoubi", "def-weil-weil-sheaf-complex", "lem-exc-proetale-closed-essential-image", "lem-exc-proetale-closed-exact", "lem-exc-proetale-closed-support", "lem-exc-proetale-support-triangle", "lem-exc-residue-tor-test", "lem-sf-etale-direct-image-vanishing", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-residue-tor-test", "lem-sf-triangle-two-out-of-three", "lemma-weil-pbc-completed-pullback-reduction", "prop-sf-closed-immersion-unit", "prop-sf-closed-unit-all-stages", "prop-sf-open-closed-triangle-all-stages", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-descent-functors", "prop-weil-pbc-direct-image-limits", "prop-weil-pbc-proetale-constant-ring-map", "prop-weil-pbc-rational-transport", "prop-weil-pbc-roos-triangle", "prop-weil-pbc-scalar-extension", "thm-constructible-serre", "thm-fin-open-immersion", "thm-sc-finite-type-torsion-cd", "thm-sp-truncation-e2", "thm-weil-pbc-site-comparison", "thm-weil-pbc-verdier-axioms"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-p-real-sections"
 kind = "proposition"
 title = "Global sections as invariants"
-order = 2931
+order = 2933
 uses = ["sec-algebraic-groups-lie-algebras", "sk-d-real-operations", "sk-d-real-weil", "sk-i-real-sheaves"]
 lean = ["AlgebraicGeometry.WeilGroup.globalSections_eq_invariants", "AlgebraicGeometry.WeilGroup.globalSections"]
 tags = ["sketch"]

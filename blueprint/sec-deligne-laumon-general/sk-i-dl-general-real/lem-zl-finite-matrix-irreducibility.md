@@ -2,7 +2,7 @@
 id = "lem-zl-finite-matrix-irreducibility"
 kind = "lemma"
 title = "Absolute irreducibility has a finite matrix witness"
-order = 3169
+order = 3171
 lean = ["Representation.exists_forall_isIrreducible_baseChange_of_congr"]
 uses = ["lem-wf-schur-scalar", "p-real-integral"]
 +++

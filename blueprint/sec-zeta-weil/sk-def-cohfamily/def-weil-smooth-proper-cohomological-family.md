@@ -2,7 +2,7 @@
 id = "def-weil-smooth-proper-cohomological-family"
 kind = "definition"
 title = "The smooth-proper cohomological family"
-order = 3194
+order = 3196
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-weil-sheaf-complex", "prop-cohomological-finiteness"]
 +++
 Fix the finite-field datum $p,a,q,k_0,k$, where $q=p^a$. Let $X_0/k_0$ be

@@ -2,7 +2,7 @@
 id = "sbc-lem-finite-range-comparison"
 kind = "lemma"
 title = "Finite-range comparison"
-order = 1474
+order = 1487
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-hypercohomology-filtrations"]
 +++
 If $H^q(K)=0$ outside $[a,b]$ and the comparison of the two

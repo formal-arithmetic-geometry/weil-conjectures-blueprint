@@ -2,7 +2,7 @@
 id = "sk-thm-sf-ctf-stability"
 kind = "theorem"
 title = "Stability of the constructible finite-Tor subcategories"
-order = 2540
+order = 2542
 uses = ["sk-cor-sf-direct-image-ctf", "sk-def-sf-operations", "sk-def-sf-setting", "sk-prop-sf-comparison", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-hom-ctf"]
 lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_leftDerivedUpperStar", "AlgebraicGeometry.Etale.constructibleFiniteTor_tensor", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerStar", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedUpperShriek"]
 tags = ["sketch"]

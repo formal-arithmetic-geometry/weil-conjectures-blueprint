@@ -2,7 +2,7 @@
 id = "sk-d-real-monodromy"
 kind = "definition"
 title = "Arithmetic monodromy and a central representative"
-order = 2967
+order = 2969
 uses = ["sk-d-real-setup", "sk-d-real-weil", "sk-d-monodromy", "sk-d-central"]
 lean = ["AlgebraicGeometry.WeilGroup.toLinearAut"]
 tags = ["sketch"]

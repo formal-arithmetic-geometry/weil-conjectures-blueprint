@@ -2,7 +2,7 @@
 id = "sk-p-rankone"
 kind = "proposition"
 title = "Rank-one factorization"
-order = 2869
+order = 2871
 uses = ["sk-d-ab-rankone"]
 lean = ["SemidirectProduct.eq_finitePart_mul_degreeCharacter", "SemidirectProduct.finitePart_inrOfAddOne", "SemidirectProduct.range_finitePart", "SemidirectProduct.finite_range_finitePart"]
 tags = ["sketch"]

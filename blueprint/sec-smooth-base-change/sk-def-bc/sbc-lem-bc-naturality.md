@@ -2,7 +2,7 @@
 id = "sbc-lem-bc-naturality"
 kind = "lemma"
 title = "Naturality of the base-change map"
-order = 1409
+order = 1427
 uses = ["sbc-def-base-change-map", "sbc-def-base-change-square"]
 +++
 For a base-change square the

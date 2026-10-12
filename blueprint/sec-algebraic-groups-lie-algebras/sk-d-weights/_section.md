@@ -2,7 +2,7 @@
 id = "sk-d-weights"
 kind = "definition"
 title = "Operations and weight characters"
-order = 2873
+order = 2875
 uses = ["sk-d-linear", "sk-d-monodromy"]
 lean = ["Representation.RealCharacter", "Representation.detCharacter", "Representation.HasFiniteGeometricDet", "Representation.detWeight"]
 tags = ["sketch"]

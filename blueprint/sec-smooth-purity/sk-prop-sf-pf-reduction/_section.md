@@ -2,7 +2,7 @@
 id = "sk-prop-sf-pf-reduction"
 kind = "proposition"
 title = "Projection formula: compatibility with finite reduction"
-order = 2218
+order = 2220
 uses = ["sk-def-sf-exchanges", "sk-lem-sf-determination", "sk-thm-sf-pf-finite"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_leftDerivedUpperStar"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "def-sfb-derived-extend-restrict-adjunction"
 kind = "definition"
 title = "Derived adjunction between extension and restriction of scalars"
-order = 1610
+order = 1623
 uses = ["lem-sfb-extend-scalars-kflat", "sk-def-sfb-change-of-scalars", "sk-def-sfb-derived-categories"]
 lean = ["CategoryTheory.Mod.derivedExtendRestrictAdjunction"]
 +++

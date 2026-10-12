@@ -2,7 +2,7 @@
 id = "sk-lem-failure-field"
 kind = "lemma"
 title = "A failure is detected on the generic fibre"
-order = 1427
+order = 1443
 uses = ["sk-def-bc"]
 lean = ["AlgebraicGeometry.Etale.FieldFailure", "AlgebraicGeometry.Etale.nonempty_fieldFailure"]
 tags = ["sketch"]

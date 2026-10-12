@@ -2,7 +2,7 @@
 id = "prop-pur-affine-space-purity-compatibilities"
 kind = "theorem"
 title = "Symmetry and compatibilities of affine-space purity"
-order = 2317
+order = 2319
 tags = ["latex:proposition"]
 uses = ["cor-pur-affine-space-purity", "def-coefficient-twists-detailed", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-pur-affine-space-composition-law", "thm-pur-affine-line-purity"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sc-etale-torsion-cd"
 kind = "definition"
 title = "Etale torsion cohomological dimension bound"
-order = 1884
+order = 1894
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves"]
 +++
 For a scheme $X$ and an integer $c\geq0$, write

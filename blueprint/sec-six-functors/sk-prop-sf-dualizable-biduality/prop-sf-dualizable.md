@@ -2,7 +2,7 @@
 id = "prop-sf-dualizable"
 kind = "theorem"
 title = "Perfect complexes are dualizable"
-order = 2511
+order = 2513
 tags = ["latex:proposition"]
 uses = ["def-sf-datum", "def-weil-derived-pullback-tensor-hom", "lem-sf-hom-finite-projective"]
 +++

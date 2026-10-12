@@ -2,7 +2,7 @@
 id = "prop-trf-graph-operator"
 kind = "theorem"
 title = "Graph construction of the global operator"
-order = 2631
+order = 2633
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-trf-global-operator", "def-weil-derived-direct-image"]
 +++

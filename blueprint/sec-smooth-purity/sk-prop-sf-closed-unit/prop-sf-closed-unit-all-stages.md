@@ -2,7 +2,7 @@
 id = "prop-sf-closed-unit-all-stages"
 kind = "theorem"
 title = "Closed direct image is fully faithful at every coefficient stage"
-order = 2199
+order = 2201
 tags = ["latex:proposition"]
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-exceptional-inverse-image", "def-weil-rationalization-karoubi", "prop-sf-closed-immersion-unit", "prop-weil-open-closed-recollement-adjunctions", "prop-weil-pbc-direct-image-limits", "prop-weil-pbc-roos-triangle", "prop-weil-pbc-scalar-extension"]
 +++

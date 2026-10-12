@@ -2,7 +2,7 @@
 id = "sk-def-set"
 kind = "remark"
 title = "The fixed setting"
-order = 2742
+order = 2744
 uses = ["sk-def-sf-operations", "sk-def-sf-setting", "sk-prop-sf-existence", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-ctf-stability"]
 lean = ["AlgebraicGeometry.PoincareDualitySetting"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-w-local-partition"
 kind = "lemma"
 title = "Clopen partitions on a w-local affine scheme"
-order = 1269
+order = 1288
 uses = ["def-weil-pbc-w-local"]
 +++
 The patch topology of an affine scheme is compact Hausdorff. For a w-local

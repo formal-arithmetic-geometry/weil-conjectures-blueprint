@@ -2,7 +2,7 @@
 id = "rem-sf-clause-vii-status"
 kind = "remark"
 title = "Proved coefficient transport and its domains"
-order = 2545
+order = 2547
 uses = ["cor-coef-finite-verdier", "def-coef-normalized-dvr-tower", "lem-coef-finite-exceptional", "lem-coef-integral-finite-extension", "lem-coef-integral-hom-reduction", "lem-coef-normalized-dvr-effectivity", "lem-coef-rational-operations", "lem-fix-operation-reduction", "lem-fix-weil-operations", "prop-coef-integral-exceptional-adjoint", "rem-sf-tower-shapes-occurring", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-sf-hom-ctf"]
 +++
 Pullback, tensor, and the elementary coefficient comparisons are

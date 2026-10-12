@@ -2,7 +2,7 @@
 id = "prop-sfb-module-derived-lower-shriek-chosen-plus-restriction"
 kind = "proposition"
 title = "$R^+f_!$ is the restriction of $Rf_!$"
-order = 1701
+order = 1714
 uses = ["def-sfb-module-derived-lower-shriek-chosen", "def-sfb-module-derived-lower-shriek-chosen-plus"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekPlusCompatibility"]
 +++

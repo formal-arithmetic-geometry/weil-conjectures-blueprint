@@ -2,7 +2,7 @@
 id = "lem-a1-finite-length"
 kind = "lemma"
 title = "Finite length of a lisse Weil sheaf on a curve"
-order = 3130
+order = 3132
 uses = ["def-weil-pbc-constructible-complexes", "def-wf-weil-category"]
 +++
 Let $C_0$ be a smooth geometrically connected curve and let

@@ -2,7 +2,7 @@
 id = "lem-wf-finite-index-restriction-semisimple"
 kind = "lemma"
 title = "Restriction to a finite-index normal subgroup"
-order = 2854
+order = 2856
 uses = ["def-wf-semisimple-module", "def-wf-simple-module"]
 +++
 Let $N\triangleleft\Gamma$ be a normal subgroup of finite index. If

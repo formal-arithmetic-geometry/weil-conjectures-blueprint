@@ -2,7 +2,7 @@
 id = "lem-sfb-modobj-restriction-preserves-limits"
 kind = "lemma"
 title = "Restriction of scalars preserves limits"
-order = 1572
+order = 1585
 uses = ["def-sfb-modobj-extend-restrict-adjunction", "def-sfb-modobj-extension"]
 lean = ["CategoryTheory.Mod.instPreservesLimitsOfSizeComap_weilConjectures"]
 +++

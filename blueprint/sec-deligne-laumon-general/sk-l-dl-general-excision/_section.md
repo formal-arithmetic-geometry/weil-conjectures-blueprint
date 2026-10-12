@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-excision"
 kind = "lemma"
 title = "Open–closed reduction"
-order = 3152
+order = 3154
 lean = ["AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed"]
 uses = ["sk-d-dl-general-weights", "sk-prop-sf-open-closed-triangle"]
 tags = ["sketch"]

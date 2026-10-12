@@ -2,7 +2,7 @@
 id = "sk-def-sf-weil-complexes"
 kind = "definition"
 title = "Strict Weil complexes"
-order = 2502
+order = 2504
 lean = ["AlgebraicGeometry.Etale.WeilComplex"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-r-real-linear"
 kind = "remark"
 title = "Weights, reality and semisimplification"
-order = 2935
+order = 2937
 uses = ["sk-d-real-operations", "sk-d-real-weights", "sk-p-linear-filtration", "sk-p-linear-spectra", "sk-p-linear-triangular", "sk-p-real-operations", "sk-r-linear-library"]
 tags = ["sketch"]
 +++

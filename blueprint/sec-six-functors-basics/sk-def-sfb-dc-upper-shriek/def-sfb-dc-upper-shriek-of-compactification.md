@@ -2,7 +2,7 @@
 id = "def-sfb-dc-upper-shriek-of-compactification"
 kind = "definition"
 title = "$Rf^!_c$ for a compactification $c$"
-order = 1780
+order = 1793
 uses = ["def-sfb-dc-lower-star", "def-sfb-dc-upper-star", "sk-def-sfb-dc-setting"]
 +++
 Let $\Lambda$ be as in [def-sfb-dc-lower-star], let $f\colon X\to Y$ be a morphism of the setting

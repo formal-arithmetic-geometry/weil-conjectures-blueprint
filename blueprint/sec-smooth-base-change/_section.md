@@ -2,7 +2,7 @@
 id = "sec-smooth-base-change"
 kind = "section"
 title = "Smooth Base Change"
-order = 1403
+order = 1422
 uses = ["sec-curve-estimates"]
 +++
 **Content.** For a Cartesian square with $f\colon X\to S$ smooth and $g\colon T\to S$ quasi-compact quasi-separated, the base-change map $f^{-1}R^qg_*\mathcal F\to R^qh_*e^{-1}\mathcal F$ of [sk-def-bc] is an isomorphism for torsion $\mathcal F$ of orders invertible on $S$. The section follows the Stacks Project's second, shorter proof. Degree zero holds for any flat finitely presented $f$ with geometrically reduced fibres [sk-prop-deg0]. Passing to filtered colimits reduces to $\mathbb Z/n$-coefficients, and the étale-local normal form [sk-prop-normal-form] reduces to affine smooth curves $X\to S$. Then one inducts on $q$ [sk-lem-induction], with two lanes that contradict each other. The counterexample lane uses injectivity of the critical map [sk-prop-injectivity] and minimal counterexamples [sk-lem-minimal], [sk-lem-failure-field] to turn a first failure into a universal curve-test datum with $R^qh_*(\mathbb Z/d)\neq0$ over a normal base with algebraically closed function field [sk-lem-universal-datum]. The curve-test lane shows that this sheaf vanishes [sk-thm-vanishing]. For $q\ge2$ this is cohomological dimension of affine curves. For $q=1$ it combines torsors [sk-prop-input-torsors], field-extension invariance and the spreading of Galois covers [sk-prop-input-spreading].

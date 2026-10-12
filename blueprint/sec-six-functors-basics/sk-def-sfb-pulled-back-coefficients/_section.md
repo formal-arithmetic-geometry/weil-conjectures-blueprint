@@ -2,7 +2,7 @@
 id = "sk-def-sfb-pulled-back-coefficients"
 kind = "definition"
 title = "Coefficients pulled back from the point"
-order = 1532
+order = 1545
 uses = ["sk-def-sfb-pullback-from-point"]
 lean = ["AlgebraicGeometry.ProEtale.condensedRingObj", "AlgebraicGeometry.ProEtale.coefficientRing", "AlgebraicGeometry.ProEtale.isCommMonObj_condensedRingObj"]
 tags = ["sketch"]

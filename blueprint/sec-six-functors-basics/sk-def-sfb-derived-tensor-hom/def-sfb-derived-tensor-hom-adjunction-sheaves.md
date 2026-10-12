@@ -2,7 +2,7 @@
 id = "def-sfb-derived-tensor-hom-adjunction-sheaves"
 kind = "definition"
 title = "Tensor-hom adjunction for pro-étale sheaves"
-order = 1603
+order = 1616
 uses = ["def-sfb-derived-hom-sheaves"]
 lean = ["AlgebraicGeometry.ProEtale.derivedTensorHomAdjunction", "AlgebraicGeometry.ProEtale.derivedTensorHomAdjunction₂"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-prop-sfb-qlbar-colimit-x"
 kind = "proposition"
 title = "$\\overline{\\mathbf Q}_{\\ell,X}=\\colim_E E_X$"
-order = 1533
+order = 1546
 uses = ["sk-def-sfb-pulled-back-coefficients"]
 lean = ["AlgebraicGeometry.ProEtale.padicSubfieldRingObj", "AlgebraicGeometry.ProEtale.padicAlgClRingObj", "AlgebraicGeometry.ProEtale.padicAlgClRingObjCocone", "AlgebraicGeometry.ProEtale.isColimitPadicAlgClRingObjCocone"]
 tags = ["sketch"]

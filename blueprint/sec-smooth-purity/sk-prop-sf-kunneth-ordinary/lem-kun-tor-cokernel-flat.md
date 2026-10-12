@@ -2,7 +2,7 @@
 id = "lem-kun-tor-cokernel-flat"
 kind = "lemma"
 title = "Flatness criterion for a cokernel"
-order = 2053
+order = 2057
 uses = ["def-kun-derived-tensor", "def-weil-pbc-etale-sheaves"]
 +++
 Let $\Lambda$ be a commutative ring, $T$ a scheme,

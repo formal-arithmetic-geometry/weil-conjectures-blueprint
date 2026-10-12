@@ -2,7 +2,7 @@
 id = "lem-pur-support-restriction-triangle"
 kind = "lemma"
 title = "Restriction triangle inside a closed support"
-order = 2274
+order = 2276
 uses = ["def-pur-flasque-support", "def-pur-support-cohomology", "def-weil-open-closed-recollement", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-site", "def-weil-pbc-kinjective-resolutions", "def-weil-scheme-morphism-properties"]
 +++
 Let $T$ be a scheme, let $B,C\subseteq T$ be

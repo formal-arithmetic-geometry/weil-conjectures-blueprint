@@ -2,7 +2,7 @@
 id = "lem-sfb-dc-open-lower-shriek-preserves"
 kind = "lemma"
 title = "$j_!$ preserves bounded constructible complexes"
-order = 1767
+order = 1780
 uses = ["sk-def-sfb-bounded-constructible", "sk-def-sfb-dc-setting", "sk-def-sfb-module-lower-shriek", "sk-prop-sfb-module-derived-factorization"]
 +++
 Let $\Lambda$ be a commutative condensed ring and let $j\colon U\to X$ be an open immersion of

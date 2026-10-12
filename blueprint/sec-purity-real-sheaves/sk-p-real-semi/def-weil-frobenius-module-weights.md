@@ -2,7 +2,7 @@
 id = "def-weil-frobenius-module-weights"
 kind = "definition"
 title = "Weights of finite-dimensional Frobenius modules"
-order = 2989
+order = 2991
 uses = ["def-weil-finite-field-fiber"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, and let $q=p^a$ be the

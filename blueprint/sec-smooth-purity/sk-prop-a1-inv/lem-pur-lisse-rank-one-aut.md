@@ -2,7 +2,7 @@
 id = "lem-pur-lisse-rank-one-aut"
 kind = "lemma"
 title = "Automorphisms of a rank-one finite locally constant sheaf"
-order = 2297
+order = 2299
 uses = ["def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

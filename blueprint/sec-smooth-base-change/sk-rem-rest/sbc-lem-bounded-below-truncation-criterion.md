@@ -2,7 +2,7 @@
 id = "sbc-lem-bounded-below-truncation-criterion"
 kind = "lemma"
 title = "Bounded-below truncation criterion"
-order = 1477
+order = 1490
 uses = ["def-weil-pbc-hypercohomology-filtrations", "sbc-def-derived-categories-with-allowable-torsion"]
 +++
 Let $K\in D^+_{\mathcal P\text{-tor}}(T_{\Et})$. For fixed $n$, only

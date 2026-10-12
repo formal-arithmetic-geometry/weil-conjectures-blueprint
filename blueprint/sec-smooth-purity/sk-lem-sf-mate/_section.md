@@ -2,7 +2,7 @@
 id = "sk-lem-sf-mate"
 kind = "lemma"
 title = "Mate calculus for a pasted adjunction"
-order = 2207
+order = 2209
 uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-prop-sf-comparison", "sk-prop-sf-existence", "sk-thm-sf-comp-composition"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_comp"]
 tags = ["sketch"]

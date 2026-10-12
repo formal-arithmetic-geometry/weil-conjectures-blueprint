@@ -2,7 +2,7 @@
 id = "lem-trf-devissage-generation"
 kind = "lemma"
 title = "Constructible devissage: the thick-subcategory generation"
-order = 2559
+order = 2561
 uses = ["def-trf-coefficient-conventions", "def-weil-pbc-constructible-complexes", "lem-fin-constructible-devissage", "lem-sf-flat-model", "lem-sf-triangle-two-out-of-three", "lem-trf-simple-constructible"]
 +++
 Let $X$ be a separated finite-type scheme over $k$ and $A$ a

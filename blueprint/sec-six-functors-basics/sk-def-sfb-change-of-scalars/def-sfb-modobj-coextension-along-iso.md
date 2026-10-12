@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-coextension-along-iso"
 kind = "definition"
 title = "Coextension along an isomorphism is restriction along the inverse"
-order = 1578
+order = 1591
 uses = ["def-sfb-modobj-restrict-coextend-adjunction", "def-sfb-modobj-restriction-equivalence"]
 lean = ["CategoryTheory.Mod.coextendScalarsIsoComapInv"]
 +++

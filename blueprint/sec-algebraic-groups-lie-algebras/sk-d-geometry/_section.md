@@ -2,7 +2,7 @@
 id = "sk-d-geometry"
 kind = "definition"
 title = "Affine geometry and matrix groups"
-order = 2813
+order = 2815
 uses = ["sk-d-linear"]
 lean = ["Matrix.GeneralLinearGroup.CoordinateRing", "AlgebraicGeometry.GeneralLinearGroup", "AlgebraicGeometry.GeneralLinearGroup.homMulEquiv", "Matrix.GeneralLinearGroup.zeroLocus", "AlgebraicGeometry.GeneralLinearGroup.subgroupScheme", "Matrix.GeneralLinearGroup.identityComponent", "Matrix.GeneralLinearGroup.center", "AlgebraicGeometry.GeneralLinearGroup.RationalHom"]
 tags = ["sketch"]

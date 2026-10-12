@@ -2,7 +2,7 @@
 id = "lem-a1-punctual-bound-module-mixed"
 kind = "lemma"
 title = "Punctual bound suffices for a module bound"
-order = 3126
+order = 3128
 uses = ["def-weil-frobenius-module-weights", "lem-a1-spectrum-exact-sequence"]
 +++
 Let $(V,F)$ be a finite-dimensional $\Qlb$-Frobenius module in the

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-curve-constructible-primary-reduction"
 kind = "lemma"
 title = "Constructible and primary reduction on curves"
-order = 1226
+order = 1245
 uses = ["lemma-weil-pbc-curve-filtered-cohomology", "lemma-weil-pbc-eight-curve-devissage", "lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence"]
 +++
 Let $X$ be a separated curve of finite type over an algebraically closed field

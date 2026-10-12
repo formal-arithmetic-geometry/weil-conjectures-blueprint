@@ -2,7 +2,7 @@
 id = "cor-amb-affine-space-adjunction"
 kind = "theorem"
 title = "Affine-space ambient adjunction"
-order = 1913
+order = 1923
 tags = ["latex:corollary"]
 uses = ["def-amb-etale-compact-support", "def-coefficient-twists-detailed", "def-sbc-affine-space", "def-weil-pbc-derived-categories", "lem-amb-etale-adjoint-locality", "lem-amb-etale-compact-comparisons", "thm-amb-p1-adjunction"]
 +++

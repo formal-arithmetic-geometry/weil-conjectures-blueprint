@@ -2,7 +2,7 @@
 id = "def-weil-integral-frobenius-factor"
 kind = "definition"
 title = "Integral realization of a Frobenius factor"
-order = 3195
+order = 3197
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-smooth-proper-cohomological-family"]
 +++
 Fix a prime $p$, $a\in\mathbf Z_{\geq1}$, put $q=p^a$,

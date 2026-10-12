@@ -2,7 +2,7 @@
 id = "lem-pur-co-smooth-composition"
 kind = "lemma"
 title = "Composition"
-order = 2331
+order = 2333
 uses = ["def-pur-co-smoothness", "def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

@@ -2,7 +2,7 @@
 id = "sk-def-sfb-dc-upper-shriek"
 kind = "definition"
 title = "$Rf^!$ on $D_{\\mathrm{cons}}$"
-order = 1776
+order = 1789
 uses = ["sk-def-sfb-dc-lower-shriek"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isLeftAdjoint_boundedConstructibleLowerStar_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isLeftAdjoint_boundedConstructibleLowerStar_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isLeftAdjoint_boundedConstructibleLowerStar_padicAlgClRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekOfCompactification", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekOfCompactificationAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriek", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekAdjunction"]
 tags = ["sketch"]

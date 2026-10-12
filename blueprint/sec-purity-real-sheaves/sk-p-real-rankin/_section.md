@@ -2,7 +2,7 @@
 id = "sk-p-real-rankin"
 kind = "proposition"
 title = "Rankin–Selberg upper bound"
-order = 2995
+order = 2997
 uses = ["sk-d-real-detweights", "sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil", "sk-p-linear-filtration", "sk-p-linear-triangular", "sk-p-real-operations", "sk-thm-derived-duality", "sk-thm-trace-transport"]
 lean = ["AlgebraicGeometry.WeilGroup.hasWeightsAtMost_of_isReal"]
 tags = ["sketch"]

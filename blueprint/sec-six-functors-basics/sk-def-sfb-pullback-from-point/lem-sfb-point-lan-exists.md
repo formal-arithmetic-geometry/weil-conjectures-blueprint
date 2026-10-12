@@ -2,7 +2,7 @@
 id = "lem-sfb-point-lan-exists"
 kind = "lemma"
 title = "Left Kan extensions along $u^{\\mathrm{op}}$ exist"
-order = 1524
+order = 1537
 uses = ["def-sfb-profinite-to-proetale"]
 lean = ["AlgebraicGeometry.ProEtale.hasLeftKanExtension_op_profiniteToProEt"]
 +++

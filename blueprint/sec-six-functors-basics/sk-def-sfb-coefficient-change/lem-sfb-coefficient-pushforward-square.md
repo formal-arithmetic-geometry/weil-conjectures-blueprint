@@ -2,7 +2,7 @@
 id = "lem-sfb-coefficient-pushforward-square"
 kind = "lemma"
 title = "Coefficient changes commute with $\\eta_f$"
-order = 1708
+order = 1721
 uses = ["def-sfb-coefficient-map", "sk-def-sfb-coefficient-morphisms", "sk-def-sfb-finite-pushforward-pullback"]
 lean = ["AlgebraicGeometry.ProEtale.condensedPushforwardHom_comp_map_coefficientMap"]
 +++

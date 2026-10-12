@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-transport-identifies-exchange"
 kind = "lemma"
 title = "Transport identifies the exchange map"
-order = 1364
+order = 1383
 uses = ["def-weil-pbc-ambient-ringed-exchange", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-comparison-direct-image"]
 +++
 For a cartesian square [def-weil-pbc-cartesian-square] and

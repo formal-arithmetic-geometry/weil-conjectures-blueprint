@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-ambient-exceptional-adjoint-11"
 kind = "remark"
 title = "Pointer to the properties of [def-weil-ambient-exceptional-adjoint]"
-order = 2155
+order = 2159
 uses = ["cor-sf-ambient-adjoint-discharge", "def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "prop-sf-comparison-bound-zero", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class"]
 +++
 In the notation of [def-weil-ambient-exceptional-adjoint], the following holds. Read on the blueprint's

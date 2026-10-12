@@ -2,7 +2,7 @@
 id = "def-weil-field"
 kind = "definition"
 title = "Fields"
-order = 3198
+order = 1144
 +++
 A field is a commutative ring $K$ with $0\neq1$ in which
 every nonzero element has a multiplicative inverse.

@@ -2,7 +2,7 @@
 id = "def-fd-transform"
 kind = "definition"
 title = "The Fourier–Deligne transform"
-order = 3031
+order = 3033
 lean = ["AlgebraicGeometry.Etale.fourierTransform"]
 uses = ["def-fd-kernel", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++

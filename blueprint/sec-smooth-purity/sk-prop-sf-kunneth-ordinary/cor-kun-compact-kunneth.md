@@ -2,7 +2,7 @@
 id = "cor-kun-compact-kunneth"
 kind = "theorem"
 title = "Künneth formula for compactly supported cohomology"
-order = 2124
+order = 2128
 tags = ["latex:corollary"]
 uses = ["def-compact-support-direct-image-detailed", "def-kun-kunneth-map", "def-weil-extension-by-zero", "thm-kun-0f1p"]
 +++

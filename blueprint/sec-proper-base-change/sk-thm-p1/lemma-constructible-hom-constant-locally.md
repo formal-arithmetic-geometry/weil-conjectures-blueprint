@@ -2,7 +2,7 @@
 id = "lemma-constructible-hom-constant-locally"
 kind = "lemma"
 title = "Morphisms between constant sheaves"
-order = 1194
+order = 1210
 lean = ["CategoryTheory.Sheaf.isConstant_cokernel_over", "CategoryTheory.Sheaf.isConstant_kernel_over", "CategoryTheory.exists_mem_forall_exists_constantSheafOverHom_comp_map_eq", "CategoryTheory.exists_mem_forall_exists_linearMap"]
 uses = ["def-constructible-constant"]
 +++

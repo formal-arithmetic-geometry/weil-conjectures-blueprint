@@ -2,7 +2,7 @@
 id = "lem-zl-finite-pushforward"
 kind = "lemma"
 title = "Finite pushforward preserves upper weights"
-order = 3127
+order = 3129
 uses = ["def-weil-complex-weights", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-stalk-formula", "prop-functor-package"]
 +++
 If $g:Z_0\to Y_0$ is finite and

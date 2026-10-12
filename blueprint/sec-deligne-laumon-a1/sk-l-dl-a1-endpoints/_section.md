@@ -2,7 +2,7 @@
 id = "sk-l-dl-a1-endpoints"
 kind = "lemma"
 title = "Degree zero and degree two"
-order = 3067
+order = 3069
 uses = ["sk-d-dl-a1-setup", "sk-p-linear-filtration", "sk-thm-derived-duality", "sk-thm-sf-dual-perfect", "sk-thm-sf-global-duality"]
 lean = ["AlgebraicGeometry.subsingleton_compactlySupportedCohomology_directImage", "AlgebraicGeometry.subsingleton_compactlySupportedCohomology_directImage_zero", "AlgebraicGeometry.nonempty_equiv_compactlySupportedCohomology_directImage_two", "AlgebraicGeometry.isPureOfWeightOver_compactlySupportedCohomology_directImage_two"]
 tags = ["sketch"]

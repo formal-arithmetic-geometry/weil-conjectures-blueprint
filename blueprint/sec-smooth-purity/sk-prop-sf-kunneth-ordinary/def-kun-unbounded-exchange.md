@@ -2,7 +2,7 @@
 id = "def-kun-unbounded-exchange"
 kind = "definition"
 title = "Unbounded derived exchange morphism"
-order = 2003
+order = 2007
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $\square=(f,f',g,g',\alpha)$ be a

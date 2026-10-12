@@ -2,7 +2,7 @@
 id = "lem-wf-conjugation-geometric-monodromy"
 kind = "lemma"
 title = "Conjugation preserves the geometric monodromy group"
-order = 2840
+order = 2842
 uses = ["def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-weil-fundamental-representation", "lem-wf-zariski-closure-subgroup"]
 +++
 Let $X_0$ be a geometrically connected separated finite-type

@@ -2,7 +2,7 @@
 id = "def-trf-kernel-pushforward-maps"
 kind = "definition"
 title = "Kernel, evaluation and support maps of a proper pushforward diagram"
-order = 2666
+order = 2668
 uses = ["def-sf-kv-maps", "def-trf-coefficient-pushforward", "def-trf-dualizing-complex", "def-trf-external-product", "def-trf-trace-class-source", "fix-prop-adjunctions", "lem-trf-fixed-map-proper", "lem-trf-trace-map-from-external-duality", "prop-functor-package", "thm-sf-comp-composition", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change", "thm-trf-verdier-duality"]
 +++
 Let $(f,g):(C,c)\to(D,b)$ be a proper pushforward diagram of

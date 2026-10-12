@@ -2,7 +2,7 @@
 id = "sk-d-real-series"
 kind = "definition"
 title = "Radius of a formal series"
-order = 2942
+order = 2944
 lean = ["PowerSeries.radius", "PowerSeries.HasNonnegCoeffs"]
 tags = ["sketch"]
 +++

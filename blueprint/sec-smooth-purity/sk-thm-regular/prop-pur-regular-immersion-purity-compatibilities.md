@@ -2,7 +2,7 @@
 id = "prop-pur-regular-immersion-purity-compatibilities"
 kind = "theorem"
 title = "Compatibilities of purity for regular immersions"
-order = 2373
+order = 2375
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-frame-class", "def-pur-regular-immersion", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-frame-independence", "lem-pur-kunneth-supported", "thm-pur-diagonal-dualizing-object", "thm-pur-regular-immersion-purity"]
 +++

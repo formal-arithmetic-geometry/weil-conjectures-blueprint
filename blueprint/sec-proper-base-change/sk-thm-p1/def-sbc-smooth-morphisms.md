@@ -2,7 +2,7 @@
 id = "def-sbc-smooth-morphisms"
 kind = "definition"
 title = "Smooth morphisms"
-order = 1414
+order = 1143
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A morphism of schemes $f:X\to Y$ is *smooth* if it is locally of

@@ -2,7 +2,7 @@
 id = "lem-wf-compact-character-logarithm"
 kind = "lemma"
 title = "A multiplicative curve character produces an invariant additive character"
-order = 2954
+order = 2956
 uses = ["def-wf-weil-group", "lem-wf-deep-principal-unit-log", "lem-wf-weil-group-exact-sequence"]
 +++
 Let $U_0/k_0$ be as in

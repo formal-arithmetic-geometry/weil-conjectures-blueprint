@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-strict-w-cover"
 kind = "lemma"
 title = "Properties of the strict w-local cover"
-order = 1277
+order = 1296
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-ind-etale-algebra", "def-weil-pbc-strict-w-cover", "def-weil-pbc-w-local", "lem-weil-pbc-etale-contraction", "lem-weil-pbc-ind-etale-stability", "lem-weil-pbc-retained-localization", "lem-weil-pbc-w-localization-points", "lem-weil-pbc-weak-etale-field"]
 +++
 The algebra $C_A$ is faithfully flat and ind-etale

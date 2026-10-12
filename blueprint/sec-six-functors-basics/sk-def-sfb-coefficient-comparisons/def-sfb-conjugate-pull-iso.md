@@ -2,7 +2,7 @@
 id = "def-sfb-conjugate-pull-iso"
 kind = "definition"
 title = "The conjugate isomorphism in a square of adjunctions"
-order = 1712
+order = 1725
 lean = ["CategoryTheory.Adjunction.pullIsoOfComapIso"]
 +++
 Consider four adjunctions

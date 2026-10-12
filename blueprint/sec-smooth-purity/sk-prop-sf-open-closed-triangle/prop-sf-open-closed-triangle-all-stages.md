@@ -2,7 +2,7 @@
 id = "prop-sf-open-closed-triangle-all-stages"
 kind = "theorem"
 title = "The open–closed triangle at every coefficient stage"
-order = 2189
+order = 2191
 tags = ["latex:proposition"]
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-frobenius-detailed", "def-weil-integral-rational-qbar-compact-support", "def-weil-open-closed-recollement", "def-weil-rationalization-karoubi", "def-weil-weil-sheaf-complex", "fix-lem-exchanges", "lem-cbc-completed-extension-zero-comparison", "lem-cbc-open-closed-recollement", "lem-cbc-proetale-extension-zero-comparison", "lem-sf-proetale-constructible-origin", "lem-weil-pbc-comparison-pullback", "lemma-weil-pbc-completed-pullback-reduction", "prop-weil-open-closed-recollement-adjunctions", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-descent-functors", "prop-weil-pbc-direct-image-limits", "prop-weil-pbc-rational-transport", "prop-weil-pbc-roos-triangle", "prop-weil-pbc-scalar-extension", "prop-weil-pbc-site-comparison-finite-level", "thm-weil-pbc-verdier-axioms"]
 +++

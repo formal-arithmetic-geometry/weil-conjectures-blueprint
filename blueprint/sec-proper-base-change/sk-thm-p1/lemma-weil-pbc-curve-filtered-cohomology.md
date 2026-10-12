@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-curve-filtered-cohomology"
 kind = "lemma"
 title = "Filtered cohomology continuity on a curve"
-order = 1189
+order = 1205
 uses = ["def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-cohomology-filtered-colimit"]
 +++
 Let $X$ be quasi-compact and quasi-separated and let $(F_\lambda)$ be a

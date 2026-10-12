@@ -2,7 +2,7 @@
 id = "sk-def-sf-categories"
 kind = "remark"
 title = "Ambient categories and small subcategories"
-order = 2378
+order = 2380
 uses = ["sk-def-sf-operations"]
 lean = ["AlgebraicGeometry.Etale.DerivedCategoryFiniteTor"]
 tags = ["sketch"]

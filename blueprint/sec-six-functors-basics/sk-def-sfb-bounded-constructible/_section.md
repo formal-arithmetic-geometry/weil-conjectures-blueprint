@@ -2,7 +2,7 @@
 id = "sk-def-sfb-bounded-constructible"
 kind = "definition"
 title = "Bounded constructible derived category"
-order = 1624
+order = 1637
 uses = ["sk-def-sfb-derived-categories", "sk-def-sfb-constructible", "def-weil-abstract-derived-category"]
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible", "AlgebraicGeometry.ProEtale.BoundedConstructible", "AlgebraicGeometry.ProEtale.mem_boundedConstructible_iff", "AlgebraicGeometry.ProEtale.isTriangulated_boundedConstructible"]
 tags = ["sketch"]

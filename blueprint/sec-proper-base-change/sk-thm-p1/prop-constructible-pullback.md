@@ -2,7 +2,7 @@
 id = "prop-constructible-pullback"
 kind = "theorem"
 title = "Pullback of constructible sheaves"
-order = 1210
+order = 1226
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.upperStar", "AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.upperStar"]
 tags = ["latex:proposition"]
 uses = ["def-constructible-constructible", "def-constructible-finite-locally-constant"]

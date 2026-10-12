@@ -2,7 +2,7 @@
 id = "sk-thm-sfb-rationalization-comparison"
 kind = "theorem"
 title = "$E$-coefficients as $\\mathcal O_E$-coefficients with $\\ell$ inverted"
-order = 1628
+order = 1641
 uses = ["sk-def-sfb-derived-extension-of-scalars", "sk-def-sfb-rationalization", "sk-def-sfb-bounded-constructible"]
 lean = ["AlgebraicGeometry.ProEtale.padicIntegersRingObjToContinuousMapRingObj", "AlgebraicGeometry.ProEtale.padicIntegersToPadicSubfield", "AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalars_obj", "AlgebraicGeometry.ProEtale.boundedConstructibleExtendScalars", "AlgebraicGeometry.ProEtale.boundedConstructibleExtendScalarsCompatibility", "AlgebraicGeometry.ProEtale.isLocalization_boundedConstructibleExtendScalars", "AlgebraicGeometry.ProEtale.rationalizationEquivalence", "AlgebraicGeometry.ProEtale.rationalizationQCompEquivalenceIso"]
 tags = ["sketch"]

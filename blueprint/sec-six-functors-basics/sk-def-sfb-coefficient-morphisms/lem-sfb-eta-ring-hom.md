@@ -2,7 +2,7 @@
 id = "lem-sfb-eta-ring-hom"
 kind = "lemma"
 title = "$\\eta_f$ is a morphism of ring objects"
-order = 1546
+order = 1559
 uses = ["def-sfb-eta", "lem-sfb-alpha-ring-hom", "sk-def-sfb-finite-pushforward-pullback"]
 lean = ["AlgebraicGeometry.ProEtale.isMonHom_condensedPushforwardHom"]
 +++

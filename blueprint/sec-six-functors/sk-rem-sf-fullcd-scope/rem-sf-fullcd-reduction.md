@@ -2,7 +2,7 @@
 id = "rem-sf-fullcd-reduction"
 kind = "remark"
 title = "What $\\operatorname{FullCD}$ supplies, and what would discharge it"
-order = 2392
+order = 2394
 uses = ["cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-cbc-proetale-stalk-conservative", "lem-sf-etale-direct-image-vanishing", "lem-sf-fullcd-detection-equivalence", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-vanishing-detection", "open-sf-ambient-adjoint-input", "prop-sf-comparison-bound-zero", "rem-sf-fullcd-counterexample", "rem-sf-fullcd-general-form", "thm-sc-finite-type-torsion-cd", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
 +++
 The named interface [open-sf-ambient-adjoint-input] turns on the full

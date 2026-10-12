@@ -2,7 +2,7 @@
 id = "def-weil-frobenius-coefficient-twists"
 kind = "definition"
 title = "Frobenius on coefficient twists"
-order = 2226
+order = 2228
 uses = ["def-coefficient-twists-detailed", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, where

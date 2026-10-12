@@ -2,7 +2,7 @@
 id = "lem-weil-stratum-ambient-hom"
 kind = "lemma"
 title = "Internal Hom from extension along a stratum"
-order = 2407
+order = 2409
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-open-closed-recollement", "lem-exc-closed-ambient"]
 +++
 Let $s:S\hookrightarrow X$ be a locally closed immersion. On either

@@ -2,7 +2,7 @@
 id = "lem-sfb-comap-mapmod-square-underlying"
 kind = "lemma"
 title = "The square isomorphism is the identity on underlying objects"
-order = 1711
+order = 1724
 uses = ["def-sfb-comap-mapmod-square"]
 lean = ["CategoryTheory.Mod.comapMapModComapIso_hom_app_hom"]
 +++

@@ -2,7 +2,7 @@
 id = "prop-constructible-open-closed"
 kind = "theorem"
 title = "Open–closed criterion"
-order = 1877
+order = 1227
 lean = ["AlgebraicGeometry.Scheme.Stratification.openClosed", "AlgebraicGeometry.Scheme.isConstructibleSheaf_iff_upperStar"]
 tags = ["latex:proposition"]
 uses = ["def-constructible-constructible", "def-constructible-stratification"]

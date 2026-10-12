@@ -2,7 +2,7 @@
 id = "lem-trf-exceptional-internal-hom-exchange"
 kind = "lemma"
 title = "Exceptional internal Hom versus exceptional pullback"
-order = 2653
+order = 2655
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "prop-functor-package"]
 +++
 Fix the coefficient

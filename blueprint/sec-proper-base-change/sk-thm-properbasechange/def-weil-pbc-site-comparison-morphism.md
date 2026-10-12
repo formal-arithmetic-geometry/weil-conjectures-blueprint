@@ -2,7 +2,7 @@
 id = "def-weil-pbc-site-comparison-morphism"
 kind = "definition"
 title = "The comparison morphism of sites"
-order = 1325
+order = 1344
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-proetale-site"]
 +++
 For a scheme $T$, the inclusion of etale $T$-schemes into weakly etale

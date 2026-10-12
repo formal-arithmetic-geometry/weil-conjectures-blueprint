@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-affine-etale-essentially-small-cover"
 kind = "lemma"
 title = "A set of affine etale schemes covers every object of the small etale site"
-order = 1141
+order = 1151
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site"]
 lean = ["AlgebraicGeometry.Scheme.AffineEtale.instEssentiallySmall"]
 tags = ["mathlib", "stacks-021A"]

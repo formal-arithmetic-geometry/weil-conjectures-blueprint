@@ -2,7 +2,7 @@
 id = "lem-pur-dnc-section-geometry"
 kind = "lemma"
 title = "Geometry of the deformation"
-order = 2336
+order = 2338
 uses = ["cor-pur-vector-bundle-purity", "def-pur-co-smoothness", "def-pur-conventions", "def-pur-dnc-section-family", "def-pur-normal-bundle", "def-pur-section-invariant", "def-weil-scheme-morphism-properties", "lem-pur-regular-immersion-linearization", "sbc-thm-etale-local-normal-form"]
 lean = ["AlgebraicGeometry.Scheme.Hom.nonempty_deformationToNormalConeData"]
 +++

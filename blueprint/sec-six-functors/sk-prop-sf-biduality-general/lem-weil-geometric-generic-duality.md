@@ -2,7 +2,7 @@
 id = "lem-weil-geometric-generic-duality"
 kind = "lemma"
 title = "The double dual on a geometric generic fibre"
-order = 2465
+order = 2467
 uses = ["cor-amb-affine-space-adjunction", "lem-weil-delta-restriction", "lem-weil-duality-pairing", "lem-weil-geometric-generic-exchange", "lem-weil-verdier-preservation-strata", "thm-amb-etale-exceptional-adjoint"]
 +++
 Let $X$ be separated of finite type over $k$, let

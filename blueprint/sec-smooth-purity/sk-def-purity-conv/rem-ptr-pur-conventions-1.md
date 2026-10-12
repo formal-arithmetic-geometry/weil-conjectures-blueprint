@@ -2,7 +2,7 @@
 id = "rem-ptr-pur-conventions-1"
 kind = "remark"
 title = "Pointer to the properties of [def-pur-conventions]"
-order = 2237
+order = 2239
 uses = ["def-pur-conventions"]
 +++
 In the notation of [def-pur-conventions], the following holds. The preservation clauses (2)

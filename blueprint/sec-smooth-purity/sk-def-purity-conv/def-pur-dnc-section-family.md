@@ -2,7 +2,7 @@
 id = "def-pur-dnc-section-family"
 kind = "definition"
 title = "Deformation space of a closed section"
-order = 2236
+order = 2238
 uses = ["def-pur-conventions", "def-pur-section-invariant", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting), in the situation of

@@ -2,7 +2,7 @@
 id = "def-sfb-left-derived-exact"
 kind = "definition"
 title = "Left derived functor of an exact functor"
-order = 1596
+order = 1609
 uses = ["def-sfb-left-derived-functor"]
 lean = ["CategoryTheory.Functor.leftDerivedFunctorIsoMapDerivedCategory"]
 +++

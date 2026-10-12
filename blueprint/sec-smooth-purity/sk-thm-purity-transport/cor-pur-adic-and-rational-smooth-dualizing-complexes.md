@@ -2,7 +2,7 @@
 id = "cor-pur-adic-and-rational-smooth-dualizing-complexes"
 kind = "theorem"
 title = "Adic and rational smooth dualizing complexes"
-order = 2368
+order = 2370
 tags = ["latex:corollary"]
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-rational-and-qbar-purity", "thm-pur-trace-normalization-transitivity"]
 +++

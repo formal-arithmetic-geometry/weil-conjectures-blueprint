@@ -2,7 +2,7 @@
 id = "rem-kun-input-inventory"
 kind = "remark"
 title = "Inventory of the imported inputs of this chapter"
-order = 2120
+order = 2124
 uses = ["lem-kun-0f14a", "lem-kun-0f14b", "lem-kun-0f1h", "lem-kun-0f1i", "lem-kun-0f1j", "lem-kun-0f1n", "thm-kun-0f1p"]
 +++
 The Kunneth-specific arguments of this chapter are decomposed in full:

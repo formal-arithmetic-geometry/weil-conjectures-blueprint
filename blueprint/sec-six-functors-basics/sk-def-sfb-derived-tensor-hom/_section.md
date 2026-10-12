@@ -2,7 +2,7 @@
 id = "sk-def-sfb-derived-tensor-hom"
 kind = "definition"
 title = "Derived tensor product and derived internal hom"
-order = 1597
+order = 1610
 uses = ["sk-def-sfb-derived-categories"]
 lean = ["DerivedCategory.hasDerivedMonoidalCategory", "DerivedCategory.monoidalClosed", "AlgebraicGeometry.ProEtale.derivedTensor", "AlgebraicGeometry.ProEtale.isLeftDerivedFunctor₂_derivedTensor", "AlgebraicGeometry.ProEtale.derivedHom", "AlgebraicGeometry.ProEtale.derivedTensorHomAdjunction", "AlgebraicGeometry.ProEtale.derivedTensorHomAdjunction₂", "CategoryTheory.Mod.derivedMonoidalCategory", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensor", "AlgebraicGeometry.ProEtale.CondensedRing.isLeftDerivedFunctor₂_derivedTensor", "CategoryTheory.Mod.isLeftDerivedFunctor₂_curriedTensor", "AlgebraicGeometry.ProEtale.CondensedRing.derivedHom", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensorHomAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensorHomAdjunction₂"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "lem-wf-boundary-stalk-invariants"
 kind = "lemma"
 title = "Boundary stalk as inertia invariants"
-order = 2982
+order = 2984
 uses = ["d-real-boundary", "def-weil-pbc-geometric-stalks", "def-wf-fundamental-representation", "def-wf-middle-extension", "prop-weil-pbc-strict-henselization-stalk-formula"]
 +++
 Let $j:U_0\hookrightarrow C_0$ be a dense open immersion of smooth

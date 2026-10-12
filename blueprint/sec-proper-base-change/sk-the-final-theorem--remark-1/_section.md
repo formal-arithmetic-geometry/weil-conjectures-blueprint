@@ -2,7 +2,7 @@
 id = "sk-the-final-theorem--remark-1"
 kind = "remark"
 title = "Remark"
-order = 1401
+order = 1420
 tags = ["sketch"]
 +++
 Only the six theorems of §§ *The six theorems* are statements; every other fact used

@@ -2,7 +2,7 @@
 id = "lem-fin-radicial-exchange-descent"
 kind = "lemma"
 title = "Descending the exchange property through a universal homeomorphism"
-order = 1975
+order = 1979
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-universal-homeomorphism-base-change", "sbc-def-base-change-map", "sbc-lem-base-change-composition", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $S'\to S$ be finite, surjective and radicial, and let

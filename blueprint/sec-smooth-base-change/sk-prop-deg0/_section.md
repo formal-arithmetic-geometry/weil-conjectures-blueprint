@@ -2,7 +2,7 @@
 id = "sk-prop-deg0"
 kind = "proposition"
 title = "Degree-zero flat base change"
-order = 1421
+order = 1437
 uses = ["sk-def-bc"]
 lean = ["AlgebraicGeometry.Etale.baseChangeProperty_zero", "AlgebraicGeometry.Etale.baseChangeProperty_zero_of_smooth"]
 tags = ["sketch"]

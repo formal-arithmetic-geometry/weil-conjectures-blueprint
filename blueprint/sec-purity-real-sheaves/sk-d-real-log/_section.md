@@ -2,7 +2,7 @@
 id = "sk-d-real-log"
 kind = "definition"
 title = "Small logarithm"
-order = 2952
+order = 2954
 uses = ["sk-d-real-weil"]
 lean = ["PadicAlgCl.smallLog", "PadicAlgCl.smallUnits"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sbc-thm-spreading-finite-etale-galois"
 kind = "theorem"
 title = "Spreading a finite etale Galois cover"
-order = 1445
+order = 1459
 uses = ["def-sbc-normal-dominant-galois", "def-sbc-smooth-morphisms", "def-weil-pbc-scheme-conventions"]
 +++
 Let $S$ be a

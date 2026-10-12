@@ -2,7 +2,7 @@
 id = "thm-zl-lefschetz-weil-identity"
 kind = "theorem"
 title = "Trace-to-determinant identity"
-order = 3217
+order = 3218
 uses = ["cor-trf-point-counting", "def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "lem-zl-log-det-identity"]
 +++
 Fix the finite-field datum

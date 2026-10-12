@@ -2,7 +2,7 @@
 id = "sbc-lem-base-change-composition"
 kind = "lemma"
 title = "Base change for a composite square"
-order = 1411
+order = 1429
 uses = ["lem-weil-pbc-exchange-identity-pasting", "sbc-def-base-change-map", "sbc-def-base-change-square"]
 +++
 Consider a tower of Cartesian diagrams of schemes

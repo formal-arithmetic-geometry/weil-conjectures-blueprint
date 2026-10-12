@@ -2,7 +2,7 @@
 id = "lem-sf-fullcd-detection-equivalence"
 kind = "lemma"
 title = "The full cohomological-dimension condition is a bound on the pro-étale cohomology of the base-changed source"
-order = 2132
+order = 2136
 uses = ["cor-sf-fullcd-weakly-contractible-test", "def-weil-derived-cohomology-sheaves", "def-weil-full-cohomological-dimension", "def-weil-pbc-direct-image", "def-weil-pbc-proetale-site", "lem-sf-proetale-vanishing-detection", "thm-sp-grothendieck"]
 +++
 In the setting of [def-weil-full-cohomological-dimension] the condition

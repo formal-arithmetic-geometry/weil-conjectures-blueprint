@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-weil-sheaf-complex-7"
 kind = "remark"
 title = "Pointer to the properties of the Weil category"
-order = 1850
+order = 1863
 uses = ["def-weil-weil-sheaf-complex"]
 +++
 In the notation of [def-weil-weil-sheaf-complex], the following holds. That

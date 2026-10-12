@@ -2,7 +2,7 @@
 id = "def-pod-conventions"
 kind = "definition"
 title = "Poincare duality conventions"
-order = 2429
+order = 2431
 uses = ["cor-pur-finite-stage-smooth-dualizing-complex", "def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-trf-frobenius-operators", "def-weil-algebraically-closed-coefficients", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-coefficient-twists", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-weil-sheaf-complex"]
 +++
 Fix the global finite-field datum

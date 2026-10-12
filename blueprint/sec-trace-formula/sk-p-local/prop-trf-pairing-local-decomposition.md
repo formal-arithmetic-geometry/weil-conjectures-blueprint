@@ -2,7 +2,7 @@
 id = "prop-trf-pairing-local-decomposition"
 kind = "theorem"
 title = "Decomposition of the pairing into local terms"
-order = 2687
+order = 2689
 tags = ["latex:proposition"]
 uses = ["def-trf-correspondence-between-pairs", "def-trf-dualizing-complex", "def-trf-integration", "def-trf-local-term", "def-trf-local-term-pair", "def-trf-supported-pairing", "lem-trf-integration-component-sum", "lem-trf-trace-class-diagonal-pairing", "prop-trf-pairing-point-normalization"]
 +++

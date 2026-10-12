@@ -2,7 +2,7 @@
 id = "sbc-lem-smooth-criterion"
 kind = "lemma"
 title = "Smoothness by flatness and smooth fibres"
-order = 1415
+order = 1432
 uses = ["def-sbc-smooth-morphisms"]
 +++
 A morphism $f:X\to Y$ of schemes is

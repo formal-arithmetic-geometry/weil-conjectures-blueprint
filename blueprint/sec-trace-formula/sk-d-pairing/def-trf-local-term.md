@@ -2,7 +2,7 @@
 id = "def-trf-local-term"
 kind = "definition"
 title = "Local term of a correspondence"
-order = 2648
+order = 2650
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-integration", "def-trf-trace-class", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "prop-functor-package", "thm-trf-dualizing-complex-composition", "thm-trf-frobenius-fixed-points"]
 +++
 Fix the global finite-field datum

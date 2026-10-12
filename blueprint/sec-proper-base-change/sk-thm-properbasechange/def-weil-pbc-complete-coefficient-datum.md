@@ -2,7 +2,7 @@
 id = "def-weil-pbc-complete-coefficient-datum"
 kind = "definition"
 title = "Adic coefficient datum and reduction tower"
-order = 1303
+order = 1322
 +++
 Let $\Lambda$ be Noetherian, let $I=(f_1,\ldots,f_r)\subseteq\Lambda$ have
 $\Lambda/I$ torsion, and suppose every $P_n:=\Lambda/I^n$ is perfect over

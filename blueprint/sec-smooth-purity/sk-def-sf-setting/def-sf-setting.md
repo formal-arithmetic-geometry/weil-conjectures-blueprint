@@ -2,7 +2,7 @@
 id = "def-sf-setting"
 kind = "remark"
 title = "Coefficients and sites"
-order = 1794
+order = 1807
 lean = ["AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructible", "AlgebraicGeometry.Etale.DerivedCategory.boundedConstructibleFiniteTor", "AlgebraicGeometry.Etale.constantComplex"]
 +++
 Fix the global finite-field datum $(p,a,q,k_0,k)$ with $k=\overline{\mathbf F}_q$, a prime $\ell\neq p$, a finite extension $E/\Ql$ with valuation ring

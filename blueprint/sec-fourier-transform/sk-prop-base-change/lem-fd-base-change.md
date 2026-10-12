@@ -2,7 +2,7 @@
 id = "lem-fd-base-change"
 kind = "lemma"
 title = "Base change of the transform"
-order = 3041
+order = 3043
 lean = ["AlgebraicGeometry.Etale.fourierTransformBaseChangeIso"]
 uses = ["def-fd-kernel", "def-fd-transform", "def-weil-pbc-scheme-conventions", "lem-fd-as-lisse", "sbc-prop-extension-by-zero-and-arbitrary-base-change", "thm-weil-pbc-qbar"]
 +++

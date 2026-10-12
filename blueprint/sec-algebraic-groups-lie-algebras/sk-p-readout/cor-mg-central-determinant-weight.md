@@ -2,7 +2,7 @@
 id = "cor-mg-central-determinant-weight"
 kind = "theorem"
 title = "Central element determines the determinant weight"
-order = 2895
+order = 2897
 tags = ["latex:corollary"]
 uses = ["d-weights", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-monodromy-data", "def-wf-weil-category", "lem-mg-degree-component-functoriality", "lem-mg-determinant-monodromy-morphism", "lem-wf-rank-one-algebraic-extension", "lem-wf-schur-scalar"]
 +++

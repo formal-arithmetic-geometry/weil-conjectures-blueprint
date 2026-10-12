@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-admissibility-12"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-admissibility]"
-order = 2148
+order = 2152
 uses = ["cor-sf-ambient-adjoint-discharge", "def-trf-admissibility", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility"]
 +++
 In the notation of [def-trf-admissibility], the following holds. Of the ambient

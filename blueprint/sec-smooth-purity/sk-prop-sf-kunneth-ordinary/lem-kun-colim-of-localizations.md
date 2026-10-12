@@ -2,7 +2,7 @@
 id = "lem-kun-colim-of-localizations"
 kind = "lemma"
 title = "Colimit of localizations"
-order = 2086
+order = 2090
 uses = ["def-kun-separably-closed", "lem-kun-algebra-union"]
 +++
 Let $B$ be an integral $K$-algebra which is a filtered union

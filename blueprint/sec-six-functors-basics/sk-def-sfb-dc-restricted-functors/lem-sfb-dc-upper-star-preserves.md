@@ -2,7 +2,7 @@
 id = "lem-sfb-dc-upper-star-preserves"
 kind = "lemma"
 title = "$Lf^*$ preserves bounded constructible complexes"
-order = 1761
+order = 1774
 uses = ["sk-def-sfb-bounded-constructible", "sk-def-sfb-dc-setting", "sk-def-sfb-module-derived-pushpull"]
 +++
 Let $\Lambda$ be a commutative condensed ring and let $f\colon X\to Y$ be a morphism of the

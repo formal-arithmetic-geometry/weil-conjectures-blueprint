@@ -2,7 +2,7 @@
 id = "def-weil-exceptional-adjoint-admissibility"
 kind = "definition"
 title = "Exceptional-adjoint admissibility"
-order = 1816
+order = 1829
 uses = ["def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-scheme-morphism-properties"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf

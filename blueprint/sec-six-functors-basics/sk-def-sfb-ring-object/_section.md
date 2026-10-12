@@ -2,7 +2,7 @@
 id = "sk-def-sfb-ring-object"
 kind = "definition"
 title = "Ring objects of abelian sheaves"
-order = 1504
+order = 1517
 uses = ["sk-def-sfb-sheaf-tensor"]
 lean = ["CategoryTheory.MonObj", "AddCommGrpCat.ringMonObj", "CategoryTheory.Functor.monObjCompForget₂", "CategoryTheory.Sheaf.sheafifyRingPresheaf", "CategoryTheory.Sheaf.monObj_sheafCompose_obj", "CategoryTheory.Sheaf.isMonHom_sheafCompose_map"]
 tags = ["sketch"]

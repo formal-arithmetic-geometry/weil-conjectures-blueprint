@@ -2,7 +2,7 @@
 id = "lem-kun-0f1d"
 kind = "lemma"
 title = "Failure of base change produces an integral normal base"
-order = 2097
+order = 2101
 uses = ["def-kun-bc-property", "def-weil-pbc-cartesian-square"]
 +++
 Let $f:X\to S$ be a morphism of schemes and $n\ge1$ an integer

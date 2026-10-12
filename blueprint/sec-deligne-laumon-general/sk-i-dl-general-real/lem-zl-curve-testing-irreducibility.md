@@ -2,7 +2,7 @@
 id = "lem-zl-curve-testing-irreducibility"
 kind = "lemma"
 title = "Curve testing for geometric irreducibility"
-order = 3170
+order = 3172
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.exists_isClosedImmersion_isIrreducibleLocalSystem_upperStar"]
 uses = ["def-weil-pbc-qbar-category", "def-wf-fundamental-representation", "lem-zl-finite-matrix-irreducibility"]
 +++

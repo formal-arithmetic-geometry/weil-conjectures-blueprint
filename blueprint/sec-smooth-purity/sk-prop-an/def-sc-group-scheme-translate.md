@@ -2,7 +2,7 @@
 id = "def-sc-group-scheme-translate"
 kind = "definition"
 title = "Translations and conjugation"
-order = 2302
+order = 2304
 uses = ["def-sc-group-scheme", "def-sc-group-scheme-subgroup"]
 +++
 Let $G$ be a group scheme over a field

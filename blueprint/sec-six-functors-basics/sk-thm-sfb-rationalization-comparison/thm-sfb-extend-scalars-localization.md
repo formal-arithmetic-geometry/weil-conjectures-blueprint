@@ -2,7 +2,7 @@
 id = "thm-sfb-extend-scalars-localization"
 kind = "theorem"
 title = "Extension of scalars to $E$ is a localization on bounded constructible complexes"
-order = 1633
+order = 1646
 uses = ["def-sfb-bounded-constructible-extend-scalars", "sk-def-sfb-rationalization", "sk-def-sfb-bounded-constructible"]
 lean = ["AlgebraicGeometry.ProEtale.isLocalization_boundedConstructibleExtendScalars"]
 +++

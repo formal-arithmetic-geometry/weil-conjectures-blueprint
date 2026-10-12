@@ -2,7 +2,7 @@
 id = "sk-d-integral"
 kind = "definition"
 title = "Borel–Moore sections and integration"
-order = 2619
+order = 2621
 uses = ["sk-d-setup", "sk-d-six"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.borelMoorePushforward"]
 tags = ["sketch"]

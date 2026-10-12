@@ -2,7 +2,7 @@
 id = "lem-sfb-derived-monoidal"
 kind = "lemma"
 title = "The derived category of a monoidal Grothendieck abelian category is monoidal"
-order = 1598
+order = 1611
 uses = ["sk-def-sfb-derived-categories"]
 lean = ["DerivedCategory.hasDerivedMonoidalCategory"]
 +++

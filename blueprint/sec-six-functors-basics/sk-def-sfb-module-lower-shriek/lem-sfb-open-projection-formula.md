@@ -2,7 +2,7 @@
 id = "lem-sfb-open-projection-formula"
 kind = "lemma"
 title = "Projection formula for extension by zero"
-order = 1677
+order = 1690
 uses = ["sk-def-sfb-sheaf-tensor", "sk-def-sfb-finite-pushforward-pullback", "sk-def-sfb-finite-lower-shriek"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.hasProjectionFormula_openImmersion"]
 +++

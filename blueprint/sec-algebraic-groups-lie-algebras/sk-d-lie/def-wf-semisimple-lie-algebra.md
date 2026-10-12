@@ -2,7 +2,7 @@
 id = "def-wf-semisimple-lie-algebra"
 kind = "definition"
 title = "Semisimple Lie algebra"
-order = 2802
+order = 2804
 uses = ["def-wf-lie-algebra"]
 +++
 A finite-dimensional Lie algebra in characteristic zero is

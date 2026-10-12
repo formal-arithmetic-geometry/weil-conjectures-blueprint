@@ -2,7 +2,7 @@
 id = "def-weil-completed-integral-coefficients"
 kind = "definition"
 title = "Completed integral coefficient sheaf"
-order = 1797
+order = 1810
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site"]
 +++
 For the global finite-field datum [def-weil-finite-field-fiber], fix a prime

@@ -2,7 +2,7 @@
 id = "lem-ag-homomorphism-image-closed"
 kind = "lemma"
 title = "The image of a regular homomorphism is closed"
-order = 2833
+order = 2835
 uses = ["def-wf-algebraic-components", "lem-wf-affine-constructible-open", "lem-wf-algebraic-component-cosets"]
 +++
 Let $G\subseteq\operatorname{GL}(V)$ and $K\subseteq\operatorname{GL}(W)$

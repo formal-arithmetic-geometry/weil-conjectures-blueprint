@@ -2,7 +2,7 @@
 id = "lem-a1-mixed-direct-summand"
 kind = "lemma"
 title = "Mixedness passes to subobjects, quotients, extensions and direct summands"
-order = 3149
+order = 3151
 uses = ["def-weil-constructible-heart", "def-weil-frobenius-module-weights", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-a1-extension-bounds", "lem-a1-subquotient-extension-bounds"]
 +++
 Fix $\iota:\Qlb\xrightarrow{\sim}\mathbf C$ and $w\in\mathbf R$, and let

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-h1-constructible-representation"
 kind = "lemma"
 title = "Constructible representation of an $H^1$ class"
-order = 1175
+order = 1191
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-constructible-approximation", "lemma-weil-pbc-constructible-finite-pushforward"]
 +++
 Let $I$ be an injective sheaf of $\mathbf F_\ell$-modules on $X=\mathbf P^1_A$.
