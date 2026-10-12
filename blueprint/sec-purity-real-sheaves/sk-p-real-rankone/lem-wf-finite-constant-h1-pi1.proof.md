@@ -7,7 +7,7 @@ torsors under the constant group $M$. By
 [thm-galois-lc-etale], their underlying sheaves
 are finite etale covers. The finite-etale fibre-functor equivalence of
 [thm-galois-fundamental] sends a torsor $P$
-to a finite set $P_{\bar u}$ with commuting actions of
+to a nonempty finite set $P_{\bar u}$ with commuting actions of
 $\pi_1(U,\bar u)$ and $M$,
 the latter simply transitive. Choose $p\in P_{\bar u}$. For every
 $g\in\pi_1(U,\bar u)$, there is a unique $f_P(g)\in M$ such that

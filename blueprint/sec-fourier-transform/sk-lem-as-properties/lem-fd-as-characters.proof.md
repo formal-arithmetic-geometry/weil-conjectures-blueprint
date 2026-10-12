@@ -24,10 +24,10 @@ $$
 
 that is $Y\times_{X_0}Y\cong\mathbf F_p\times Y$ by $(y,y')\mapsto(y'-y,y)$.
 Consequently the $\mathbf F_p$-action is simply transitive on the geometric
-fibres of $\pi$, so $\pi$ is an $\mathbf F_p$-torsor and
-$\underline{\operatorname{Hom}}_{X_0}(-,Y)$ is a finite locally constant sheaf
-with simply transitive $\mathbf F_p$-action in the sense of
-[def-weil-pbc-finite-torsors].
+fibres of $\pi$, and $\pi$ is finite etale and surjective, so
+$\underline{\operatorname{Hom}}_{X_0}(-,Y)$ is an $\mathbf F_p$-torsor in the
+sense of [def-weil-pbc-finite-torsors]: the action on its sections is simply
+transitive, and it has sections locally since $\pi$ is an etale covering.
 *Step 2 (the pushforward is lisse of rank $p$).* Pulling back along the
 étale cover $\pi$ and using Step 1 identifies
 $\pi^*\pi_*\overline{\mathbf Q}_\ell$ with the constant sheaf

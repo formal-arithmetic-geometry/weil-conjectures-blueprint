@@ -12,11 +12,11 @@ action of $\underline M$.
 Step 2: $P_s$ is an $M$-torsor. If $x,x'\in P_s(U)$ then
 $d(x-x')=0$, so $x'-x\in\ker d(U)=\underline M(U)$; hence
 $M\times P_s\to P_s\times P_s$, $(m,x)\mapsto(x+m,x)$, is an
-isomorphism. It is locally nonempty because $J$ is the quotient sheaf of
+isomorphism, which is condition (1) of [def-weil-pbc-finite-torsors].
+Condition (2), local nonemptiness, holds because $J$ is the quotient sheaf of
 $I$: over a cover $\{U_i\}$ there are $x_i\in I(U_i)$ with
 $d(x_i)=s|_{U_i}$, and then $P_s|_{U_i}\cong\underline M|_{U_i}$. So
-$P_s$ is finite locally constant with simply transitive $M$-action,
-i.e. an $M$-torsor.
+$P_s$ is an $M$-torsor, locally isomorphic to $\underline M$.
 Step 3: well-definedness and naturality. Translation by $x\in I(Y)$
 identifies $P_{s+d(x)}\cong P_s$, so $s\mapsto[P_s]$ factors through
 $\operatorname{coker}(d_Y)\cong H^1(Y_{\Et},\underline M)$; functoriality
@@ -30,7 +30,7 @@ torsor structures says exactly that the $a_i$ agree on overlaps, so they
 glue to $a\in I(Y)$ with $d(a)=s'-s$. Hence $s-s'\in \operatorname{im}(d_Y)$ and the classes agree.
 Step 5: surjectivity. Let $P$ be an $M$-torsor and trivialize it over
 a cover $\{U_i\to Y\}$ with sections $p_i\in P(U_i)$ (possible by
-Step 2 applied to the locally constant structure); put
+condition (2) of [def-weil-pbc-finite-torsors]); put
 $c_{ij}=p_i-p_j\in\underline M(U_{ij})$. The $c_{ij}$ form a Čech
 1-cocycle. The Čech complex of the Godement sheaf $I$ of
 [lem-galois-flasque] with respect to any covering is acyclic in

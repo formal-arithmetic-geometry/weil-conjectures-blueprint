@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-pc-twist"
-uses = ["cor-pc-dense-points-curves-sections", "def-sc-invertible-module", "lem-pc-rational-points-dense"]
+uses = ["cor-pc-dense-points-curves-sections", "def-sc-invertible-module", "lem-pc-flat-field", "lem-pc-rational-points-dense"]
 +++
 *Step 1: an ample polarisation.* The curve $X$ is projective over
 $k$: it is separated of finite type of dimension $1$ over a field,
@@ -114,7 +114,10 @@ $H^1(X_K,\mathcal{I}\otimes\mathcal{L})=0$.
 Iterating (for $j=1,\dots,t-1$: pick any $x_j\in X(k)$ with the property
 of Step 3 —there are infinitely many, so distinct ones may be chosen;
 the ideal sheaves $\mathcal{I}_{x_j}$ are invertible, and
-$\mathcal{I}_{x_j,K}=\mathcal{I}_{x_j}\otimes\mathcal{O}_{X_K}$ by [lem-pc-closed-imm-base-change])
+$\mathcal{I}_{x_j,K}=\mathcal{I}_{x_j}\otimes\mathcal{O}_{X_K}$ by [lem-pc-closed-imm-base-change],
+the base change $X_K\to X$ being flat as the base change of
+$\operatorname{Spec}K\to\operatorname{Spec}k$, which is flat by
+[lem-pc-flat-field])
 we reach a module
 
 $$

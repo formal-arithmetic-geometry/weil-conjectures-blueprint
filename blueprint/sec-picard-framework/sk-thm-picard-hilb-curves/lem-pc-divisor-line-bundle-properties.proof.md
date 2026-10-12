@@ -6,11 +6,13 @@ of    = "lem-pc-divisor-line-bundle-properties"
 invertible $\mathcal{O}_S$-module; by [lem-pc-tensor-dual-invertible] its
 dual $\mathcal{O}_S(D)=\mathcal{I}_D^\vee$ is invertible.
 
-(2) The ideal sheaf of the base change is the pullback of the ideal
-sheaf ([lem-pc-closed-imm-base-change]:
-$\mathcal{I}_{D_Y}=\operatorname{im}(g^*\mathcal{I}_D\to\mathcal{O}_Y)=g^*\mathcal{I}_D$; flatness of
-$g$ is not needed for the closed subscheme, and the identification is
-exact because $g^*$ is right exact), and the pullback of a dual is the
+(2) By [lem-pc-closed-imm-base-change] the ideal sheaf of the base
+change is the image of $g^*\mathcal{I}_D\to\mathcal{O}_Y$, and since $g$ is
+flat this map is injective, so
+$\mathcal{I}_{D_Y}=\operatorname{im}(g^*\mathcal{I}_D\to\mathcal{O}_Y)=g^*\mathcal{I}_D$
+(flatness is used here: for $g$ the closed immersion of $D$ itself,
+$g^*\mathcal{I}_D$ is invertible on $D$ while $\mathcal{I}_{D_Y}=0$), and the
+pullback of a dual is the
 dual of the pullback:
 $g^*(\mathcal{I}_D^\vee)=\mathcal{H}om(g^*\mathcal{I}_D,\mathcal{O}_Y)$ (both are invertible
 and the canonical map is an isomorphism; check locally after a
