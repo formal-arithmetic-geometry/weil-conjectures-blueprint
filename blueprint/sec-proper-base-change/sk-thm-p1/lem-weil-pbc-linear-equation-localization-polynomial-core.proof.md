@@ -1,0 +1,5 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-linear-equation-localization-polynomial-core"
++++
+Use polynomial evaluation for the forward map. For the inverse, send X_i to f(i)⁻¹(1−∑ j ≠ i f(j)Y_j) and X_j to Y_j otherwise. The relation evaluates to zero; factor through the quotient, then extend through localization since f(i) maps to a unit. The extension respects Af coefficients by uniqueness of localization. The two composites fix all generators, using the relation for X_i, and are identities by polynomial, quotient and localization uniqueness. (`MvPolynomial, MvPolynomial.aeval, MvPolynomial.algHom_ext` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Algebra/MvPolynomial/Basic.lean)), `Localization.Away` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/GroupTheory/MonoidLocalization/Away.lean)), `IsLocalization.Away.lift, IsLocalization.Away.lift_eq, IsLocalization.ringHom_ext` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Localization/Away/Basic.lean))).

@@ -1,0 +1,8 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-ext-exact-functor-composition-comparison"
+uses = ["def-pc-ext", "def-weil-abstract-derived-category"]
++++
+Use the exact functors on derived categories from `CategoryTheory.Functor.mapDerivedCategoryFactors` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Algebra/Homology/DerivedCategory/ExactFunctor.lean)). Form the comparison mapDerivedCategoryNatIso e followed by mapDerivedCategoryCompIso F G; the existing library instances show that this comparison commutes with shifts. Expand mapDerivedCategorySingleFunctor on single complexes into the factorization isomorphism followed by localization of singleMapHomologicalComplex. Apply mapDerivedCategoryCompIso_fac and mapDerivedCategoryNatIso_fac. The two remaining complex-morphism equalities are checked degreewise: at degree zero the single comparisons are identities and elsewhere the maps are zero. This proves compatibility of the comparison with e on each single complex. ([def-weil-abstract-derived-category]).
+
+Identify Ext classes with shifted morphisms by [def-pc-ext], using Ext.comp_hom, Ext.mk₀_hom and Ext.mapExactFunctor_hom. Cancel the single-complex comparison isomorphisms to obtain the corresponding inverse-component equality. Apply ShiftedHom.map_naturality to x.hom and the shift-compatible comparison. Precompose with the inverse H single comparison and postcompose with the shifted composite F/G single comparison. Substitute the endpoint equalities just proved, expand the composite functor shift isomorphism, and use commShiftIso_hom_naturality_assoc to obtain precisely the required Ext equality.

@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-sp-exact-functor-couple"
 uses  = ["def-sp-exact-couple", "lem-sp-exact-functor-preserves-homology", "lem-sp-derived-couple-exact", "lem-sp-couple-morphism", "thm-sp-half-plane-convergence", "def-sp-convergence", "def-sp-filtration"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** **Part 1: $\Phi C$ is an exact couple.** By [def-sp-exact-couple] (Stacks Definition 12.21.1, Tag 011Q, bigraded as in Remark 12.21.5, Tag 0AMJ) an exact couple is the datum of the maps $\alpha$, $f$, $g$ of bidegrees $(-1,+1)$, $(+2,-1)$, $(0,0)$ such that at every bidegree the three-term sequences $E^{p-2,q+1}\xrightarrow{f}D^{p,q}\xrightarrow{\alpha}D^{p-1,q+1}$, $D^{p,q}\xrightarrow{g}E^{p,q}\xrightarrow{f}D^{p+2,q-1}$ and $D^{p+1,q-1}\xrightarrow{\alpha}D^{p,q}\xrightarrow{g}E^{p,q}$ are exact (kernel equals image; consecutive composites zero). Applying $\Phi$ gives maps of the same bidegrees between the objects $\Phi D^{p,q}$, $\Phi E^{p,q}$; $\Phi$ is additive, so it sends the zero composites to zero, and by [lem-sp-exact-functor-preserves-homology](c) it carries each of these exact sequences to an exact sequence. So $\Phi C$ satisfies the three exactness conditions at every bidegree.
 

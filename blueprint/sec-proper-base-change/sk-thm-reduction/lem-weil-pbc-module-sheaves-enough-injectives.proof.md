@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-weil-pbc-module-sheaves-enough-injectives"
 uses  = ["lem-weil-pbc-module-sheaves-grothendieck-abelian", "def-sp-grothendieck-abelian", "lem-sp-grothendieck-enough-injectives", "def-sp-injective-resolutions"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** *$\Mod(T_{\Et},R)$ and $\Ab(T_{\Et})$ are Grothendieck abelian.* By [lem-weil-pbc-module-sheaves-grothendieck-abelian] with $\Lambda=R$, the category $\Mod(T_{\Et},R)$ of sheaves of $R_T$-modules is a Grothendieck abelian category [def-sp-grothendieck-abelian]: it is abelian, has all small colimits, filtered colimits in it are exact, and it has a generator ($\bigoplus_U j_{U!}R_U$ over a set of representatives $U$ of an essentially small dense subcategory of $T_{\Et}$). The same lemma (its case $\Lambda=\mathbf Z$) says that $\Ab(T_{\Et})$ is Grothendieck abelian.
 

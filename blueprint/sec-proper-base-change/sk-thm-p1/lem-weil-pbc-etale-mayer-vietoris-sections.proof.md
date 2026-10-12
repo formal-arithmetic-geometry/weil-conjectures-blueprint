@@ -1,0 +1,10 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-etale-mayer-vietoris-sections"
+uses = ["def-weil-pbc-etale-site"]
++++
+The inclusions U → X and V → X form a covering of the small etale site: their underlying scheme maps have ranges U and V, and the cover hypothesis says their union is all X. This is checked with Scheme.ofArrows_mem_smallEtaleTopology_iff and Scheme.Opens.range_ι. ([def-weil-pbc-etale-site], `AlgebraicGeometry.Etale.of_comp, AlgebraicGeometry.Etale.etale_comp, instance [IsOpenImmersion f] : Etale f` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Morphisms/Etale.lean))).
+
+The scheme pullback of the two open inclusions is U∩V, with its two inclusion maps (isPullback_opens_inf, the open-fibre-product fact). On a cone of compatible sections, apply the sheaf amalgamation axiom to the Bool-indexed covering. For a relation with equal indices cancel the monomorphic open immersion. For a relation with different indices lift the pair of maps through the intersection pullback, then use the cone relation and functoriality of restrictions to verify compatibility. (`AlgebraicGeometry.Scheme.pullback_map_isOpenImmersion, AlgebraicGeometry.Scheme.Pullback.range_map` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Pullbacks.lean)), `CategoryTheory.Sheaf` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/Sheaf.lean))).
+
+The amalgamation axiom gives the cone map with its two required composites; separatedness gives uniqueness. Thus the section square is a pullback in abelian groups. Forgetting to sets preserves this limit. The equivalence between a limiting cone point and {(s,t) | s|=t|} proves the section injection and supplies a preimage for every pair killed by the difference. Conversely, restrictions of a global section agree by the square relation. (`CategoryTheory.Sheaf` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/Sheaf.lean))).

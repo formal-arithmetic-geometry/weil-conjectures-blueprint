@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-weil-pbc-triangle-morphism-extension"
 uses  = ["lem-weil-pbc-hom-into-triangle-exact", "def-weil-triangulated-category", "def-weil-pbc-triangles-with-shift", "lem-weil-pbc-hom-out-of-triangle-exact", "lem-weil-pbc-tr3-second-square"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** **Step 1 ((a) ⇒ (b)).** Suppose $v'gu=0$. The morphism $gu:X\to Y'$ satisfies $v'\circ(gu)=0$, so by the exactness of $\Hom(X,X')\to\Hom(X,Y')\to\Hom(X,Z')$ ([lem-weil-pbc-hom-into-triangle-exact] (ii), applied to the triangle $(X',Y',Z',u',v',d')$ with $W=X$) there is $f:X\to X'$ with $gu=u'f$, i.e. the square (1) commutes.
 

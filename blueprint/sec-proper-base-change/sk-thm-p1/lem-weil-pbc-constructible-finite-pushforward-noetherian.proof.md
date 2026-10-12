@@ -1,6 +1,7 @@
 +++
-kind  = "proof"
-of    = "lem-weil-pbc-constructible-finite-pushforward-noetherian"
+kind = "proof"
+of = "lem-weil-pbc-constructible-finite-pushforward-noetherian"
+uses = ["lem-weil-pbc-constructible-finitely-presented", "lem-weil-pbc-constructible-noetherian-finite-selection", "lem-weil-pbc-normal-constant-generic"]
 +++
 *Step 1: the local model at a point.* For every geometric point $\bar x\to U$,
 constructibility gives a finite separable extension $K/\kappa(x)$ and a finite
@@ -26,9 +27,9 @@ $$
 $$
 
 of sheaves on $U$, the morphism $h$ being the composite of the normalization
-with $V\to Z\hookrightarrow U$. The justification of this step is exactly
-the normality of $V$, and no locally constant sheaf is extended across a
-boundary.
+with $V\to Z\hookrightarrow U$. This is the step that the former pending note
+recorded as unjustified: the justification is exactly the normality of $V$,
+and no locally constant sheaf is extended across a boundary.
 
 *Step 3: the stalk map at $\bar x$.* Choose a lift $\bar y$ of $\bar x$ to
 $V$. The diagram

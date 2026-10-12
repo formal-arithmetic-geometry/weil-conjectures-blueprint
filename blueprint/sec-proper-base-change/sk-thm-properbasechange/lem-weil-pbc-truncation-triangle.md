@@ -3,7 +3,7 @@ id = "lem-weil-pbc-truncation-triangle"
 kind = "lemma"
 title = "The truncation triangle tau_{<=q-1}K -> tau_{<=q}K -> H^q(K)[-q] is distinguished"
 uses = ["def-weil-abstract-derived-category", "def-weil-triangulated-category", "def-sbc-standard-tstructure-derived-category", "lem-weil-pbc-truncation-descends", "def-weil-pbc-derived-categories"]
-tags = ["sheaf-dag", "stacks-08J5"]
+tags = ["stacks-08J5"]
 +++
 Let $\mathcal A$ be an abelian category with derived category $D(\mathcal A)$ [def-weil-abstract-derived-category], a triangulated category [def-weil-triangulated-category], with cohomology functors $H^n$ and shift $[1 ]$, $(M[1 ])^r=M^{r+1}$, $d_{M[1 ]}=-d_M$. For a complex $K$ of $\mathcal A$ and $q\in\mathbf Z$ let $\tau_{\leq q}K$ be the canonical truncation, the subcomplex $\cdots\to K^{q-2}\to K^{q-1}\to\Ker(d^q_K)\to0\to\cdots$ of $K$ (the truncation of the standard t-structure [def-sbc-standard-tstructure-derived-category]), so that $\tau_{\leq q-1}K\subseteq\tau_{\leq q}K$, and let $H^q(K)[-q ]$ be the complex with the single object $H^q(K)$ placed in degree $q$. Let $i_q:\tau_{\leq q-1}K\to\tau_{\leq q}K$ be the inclusion and $j_q:\tau_{\leq q}K\to H^q(K)[-q ]$ the morphism of complexes which in degree $q$ is the projection $\Ker(d^q_K)\to H^q(K)$ and zero in the other degrees. Then there is a unique morphism $k_q:H^q(K)[-q ]\to(\tau_{\leq q-1}K)[1 ]$ in $D(\mathcal A)$ such that
 $$

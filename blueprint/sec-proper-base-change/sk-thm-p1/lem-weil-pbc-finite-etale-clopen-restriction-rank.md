@@ -1,0 +1,8 @@
++++
+id = "lem-weil-pbc-finite-etale-clopen-restriction-rank"
+kind = "lemma"
+title = "Rank compatibility for clopen restrictions of finite etale morphisms"
+lean = ["AlgebraicGeometry.Scheme.finiteEtale_clopen_restriction_rank"]
+source = "Mathlib/AlgebraicGeometry/Morphisms/FlatRank.lean, finrank_of_isPullback (165–170), Restrict.lean isPullback_morphismRestrict (586); corrected blueprint finite-etale lifting steps 3 and 5"
++++
+Let $q:X\to S$ be finite etale `CategoryTheory.MorphismProperty.Over, CategoryTheory.MorphismProperty.Over.pullback` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/MorphismProperty/Comma.lean)) and let $(j:X_0\to X,q_0:X_0\to S_0,q,i:S_0\to S)$ be a cartesian square of schemes `CategoryTheory.Limits.pullback` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/Shapes/Pullback/HasPullback.lean)). Let $W\subseteq X$ be open `AlgebraicGeometry.IsOpenImmersion` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/OpenImmersion.lean)) and closed. Then both $q|_W:W\to S$ and $q_0|_{j^{-1}W}:j^{-1}W\to S_0$ are finite etale. For each $x\in S_0$, the rank of the second morphism at $x$ equals the rank of the first at $i(x)$, in the sense of `AlgebraicGeometry.Scheme.Hom.isLocallyConstant_finrank, AlgebraicGeometry.Scheme.Hom.finrank_of_isPullback, AlgebraicGeometry.Scheme.Hom.isIso_iff_finrank_eq` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Morphisms/FlatRank.lean)).

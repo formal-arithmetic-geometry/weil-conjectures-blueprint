@@ -3,7 +3,7 @@ id = "lem-sp-exact-functor-couple"
 kind = "lemma"
 title = "Exact functors carry exact couples and their spectral sequences"
 uses = ["def-sp-abelian", "def-sp-exact-couple", "thm-sp-half-plane-convergence", "def-sp-filtration", "def-sp-convergence"]
-tags = ["sheaf-dag", "stacks-011Q"]
+tags = ["stacks-011Q"]
 +++
 Let $\Phi:\mathcal A\to\mathcal B$ be an exact additive functor between abelian categories [def-sp-abelian], and let $C=(D,E,\alpha,f,g)$ be an exact couple in $\mathcal A$ [def-sp-exact-couple], with iterated couples $C_r=(D_r,E_r,\alpha_r,f_r,g_r)$, $C_2=C$, $C_{r+1}=C_r'$, and spectral sequence $(E_r,d_r)_{r\geq2}$, $d_r=g_r\circ f_r$. Write $\Phi C=(\Phi D,\Phi E,\Phi\alpha,\Phi f,\Phi g)$ for the datum obtained by applying $\Phi$ to every component $D^{p,q}$, $E^{p,q}$ and every structure map. Then:
 

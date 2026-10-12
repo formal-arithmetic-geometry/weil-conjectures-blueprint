@@ -3,7 +3,7 @@ id = "lem-weil-pbc-truncation-couple-morphism"
 kind = "lemma"
 title = "The exchange morphisms on the truncation triangles form a morphism of exact couples"
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-inverse-image", "def-weil-pbc-direct-image", "lem-weil-pbc-derived-direct-image-triangulated", "def-weil-pbc-derived-exchange", "lem-weil-pbc-truncation-triangle", "def-weil-derived-cohomology-sheaves", "def-sp-exact-couple", "lem-weil-pbc-exact-functor-bounded-below"]
-tags = ["sheaf-dag", "stacks-0DDE"]
+tags = ["stacks-0DDE"]
 +++
 Let $\square=(f,f',g,g',\alpha)$ be a cartesian square of schemes [def-weil-pbc-cartesian-square], with $f:X\to Y$, $g:Y'\to Y$, $f':X'\to Y'$, $g':X'\to X$. On the bounded below derived categories of etale abelian sheaves [def-weil-pbc-derived-categories] put
 $$

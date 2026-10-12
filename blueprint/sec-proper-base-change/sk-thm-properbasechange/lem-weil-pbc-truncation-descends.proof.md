@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-weil-pbc-truncation-descends"
 uses  = ["lem-weil-pbc-truncation-cohomology", "def-weil-abstract-derived-category", "lem-weil-pbc-truncation-step-ses", "lem-weil-pbc-localization-universal-property"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** **Step 1 ((a) for $\tau_{\leq q}$).** Let $s:K\to L$ be a quasi-isomorphism. The morphism $\tau_{\leq q}s$ is the restriction of $s$ to the subcomplexes ($s^r$ for $r<q$, the map $\Ker d^q_K\to\Ker d^q_L$ induced by $s^q$, $0$ for $r>q$), so $c_{q,L}\circ\tau_{\leq q}s=s\circ c_{q,K}$ for the inclusions $c_q:\tau_{\leq q}\to\mathrm{id}$, and $H^r(c_{q,L})\circ H^r(\tau_{\leq q}s)=H^r(s)\circ H^r(c_{q,K})$ by functoriality of $H^r$. For $r\le q$, $H^r(c_{q,K})$ and $H^r(c_{q,L})$ are isomorphisms [lem-weil-pbc-truncation-cohomology] and $H^r(s)$ is one by hypothesis, so $H^r(\tau_{\leq q}s)=H^r(c_{q,L})^{-1}H^r(s)H^r(c_{q,K})$ is an isomorphism. For $r>q$, $H^r(\tau_{\leq q}K)=H^r(\tau_{\leq q}L)=0$ [lem-weil-pbc-truncation-cohomology], and a morphism between zero objects is an isomorphism. So $\tau_{\leq q}s$ is a quasi-isomorphism; the same with $q-1$ for $\tau_{\leq q-1}s$. (Mathlib: `CochainComplex.quasiIso_truncLEMap_iff`, Mathlib/Algebra/Homology/Embedding/CochainComplex.lean:305.)
 

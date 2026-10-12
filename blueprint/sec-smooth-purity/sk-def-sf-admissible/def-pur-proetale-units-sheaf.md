@@ -3,7 +3,7 @@ id = "def-pur-proetale-units-sheaf"
 kind = "definition"
 title = "The multiplicative group sheaf G_m on the small pro-etale site"
 uses = ["def-weil-pbc-small-proetale-site", "def-pur-proetale-structure-sheaf"]
-tags = ["sheaf-dag", "stacks-03P4"]
+tags = ["stacks-03P4"]
 +++
 Let $S$ be a scheme, $S_{\mathrm{proet}}$ its small pro-etale site
 [def-weil-pbc-small-proetale-site] and $\mathcal O_S$ its structure sheaf of rings

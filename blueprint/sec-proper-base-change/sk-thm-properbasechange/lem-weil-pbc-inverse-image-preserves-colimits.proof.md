@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-weil-pbc-inverse-image-preserves-colimits"
 uses  = ["def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-category-colimit", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "lem-weil-pbc-left-adjoint-preserves-colimits"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** By [def-weil-pbc-inverse-image] the inverse image $u^{-1}:\Ab(V_{\Et})\to\Ab(U_{\Et})$ is the left adjoint of the direct image $u_*:\Ab(U_{\Et})\to\Ab(V_{\Et})$ of [def-weil-pbc-direct-image]: there are bijections $\operatorname{Hom}_{\Ab(U_{\Et})}(u^{-1}G,F)\cong\operatorname{Hom}_{\Ab(V_{\Et})}(G,u_*F)$ natural in $G\in\Ab(V_{\Et})$ and $F\in\Ab(U_{\Et})$ [def-weil-pbc-abelian-etale-sheaves], with unit $\eta_u$ and counit $\varepsilon_u$. This is an instance of the definition.
 
