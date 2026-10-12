@@ -2,7 +2,7 @@
 id = "rem-ptr-kun-torsion-invertible-3"
 kind = "remark"
 title = "Pointer to the properties of [def-kun-torsion-invertible]"
-order = 1682
+order = 1986
 uses = ["def-kun-torsion-invertible", "lem-kun-zn-sheaf-invertible-orders"]
 +++
 In the notation of [def-kun-torsion-invertible], the following holds. A sheaf of $\kunZn$-modules

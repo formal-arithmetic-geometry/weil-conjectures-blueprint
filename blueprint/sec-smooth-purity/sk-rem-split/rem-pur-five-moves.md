@@ -2,7 +2,7 @@
 id = "rem-pur-five-moves"
 kind = "remark"
 title = "The five moves of the purity proof"
-order = 2038
+order = 2342
 +++
 The five moves are the whole proof. Conveniently located: the
 rank-one computation (Kummer $c_1$, excision, Gysin identification of

@@ -2,7 +2,7 @@
 id = "prop-asd-internal-adjunction"
 kind = "theorem"
 title = "Internal ambient adjunction"
-order = 1576
+order = 1880
 tags = ["latex:proposition"]
 uses = ["def-amb-etale-compact-support", "def-asd-compactifiable", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-derived-categories", "lem-amb-proper-coproducts-projection", "thm-amb-etale-exceptional-adjoint"]
 +++

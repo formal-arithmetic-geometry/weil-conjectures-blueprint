@@ -2,7 +2,7 @@
 id = "prop-weil-realization-independent-degrees"
 kind = "theorem"
 title = "Realization-independent degrees of the integral factors"
-order = 2925
+order = 3229
 tags = ["latex:proposition"]
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-smooth-proper-cohomological-family", "prop-arithmetic-roots", "prop-integral-recovery"]
 +++

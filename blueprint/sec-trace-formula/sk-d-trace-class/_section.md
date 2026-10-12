@@ -2,7 +2,7 @@
 id = "sk-d-trace-class"
 kind = "definition"
 title = "Diagonal trace class"
-order = 2313
+order = 2617
 uses = ["sk-d-corr", "sk-d-pairing"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.traceClass"]
 tags = ["sketch"]

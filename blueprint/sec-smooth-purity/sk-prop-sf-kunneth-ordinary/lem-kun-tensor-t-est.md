@@ -2,7 +2,7 @@
 id = "lem-kun-tensor-t-est"
 kind = "lemma"
 title = "Left t-exactness of derived direct image"
-order = 1727
+order = 2031
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-hypercohomology-filtrations"]
 +++
 Let $f:X\to Y$ be a morphism of schemes and $E\in\Dplus(X_{\Et})$.

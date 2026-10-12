@@ -2,7 +2,7 @@
 id = "sk-prop-stalk"
 kind = "proposition"
 title = "P3: the stalks are fibre integrals"
-order = 2698
+order = 3002
 lean = ["AlgebraicGeometry.Etale.fourierTransformStalkIso"]
 uses = ["sk-def-as", "sk-def-ft", "sk-def-kernel", "sk-prop-sf-cbc"]
 tags = ["sketch"]

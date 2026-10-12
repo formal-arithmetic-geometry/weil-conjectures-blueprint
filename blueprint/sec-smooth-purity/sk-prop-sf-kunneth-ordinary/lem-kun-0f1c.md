@@ -2,7 +2,7 @@
 id = "lem-kun-0f1c"
 kind = "lemma"
 title = "Direct image commutes with base change along field extensions"
-order = 1758
+order = 2062
 uses = ["def-kun-separably-closed", "def-weil-pbc-scheme-conventions", "lem-kun-0f09", "lem-kun-separable-smooth-colimit", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $L/K$ be an extension of fields and $g:T\to S$ a

@@ -2,7 +2,7 @@
 id = "sk-thm-dnc"
 kind = "theorem"
 title = "DNC invariance of the section dualizing line"
-order = 1999
+order = 2303
 uses = ["sk-def-purity-conv", "sk-lem-geometry", "sk-prop-a1-inv", "sk-prop-an", "sk-prop-cohsm"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_sectionInvariant_normalCone"]
 tags = ["sketch"]

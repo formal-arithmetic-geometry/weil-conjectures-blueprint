@@ -2,7 +2,7 @@
 id = "lem-kun-cd-stalk-criterion"
 kind = "lemma"
 title = "Vanishing of a higher direct image, checked at a geometric point"
-order = 1655
+order = 1959
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $f:X\to Y$ be a

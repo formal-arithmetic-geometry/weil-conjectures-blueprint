@@ -2,7 +2,7 @@
 id = "prop-pur-affine-line-orientation-uniqueness"
 kind = "theorem"
 title = "Uniqueness of the global orientation"
-order = 1952
+order = 2256
 tags = ["latex:proposition"]
 uses = ["def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-scheme-morphism-properties", "lem-pur-gysin-structure", "thm-pur-affine-line-orientation", "thm-pur-rank-one-local-calculation"]
 +++

@@ -2,7 +2,7 @@
 id = "def-wf-tensor-product"
 kind = "definition"
 title = "Derived tensor product"
-order = 2107
+order = 2411
 uses = ["def-wf-weil-category"]
 +++
 On $D(X,E)$ the derived tensor product $-\otimes^L_E-$ is computed

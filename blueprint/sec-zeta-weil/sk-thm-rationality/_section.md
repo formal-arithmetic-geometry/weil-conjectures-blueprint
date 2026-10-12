@@ -2,7 +2,7 @@
 id = "sk-thm-rationality"
 kind = "theorem"
 title = "Rationality of the zeta series"
-order = 2890
+order = 3194
 lean = ["AlgebraicGeometry.Scheme.zetaSeries_rational"]
 uses = ["sk-def-roots", "sk-def-zeta", "sk-prop-criterion", "sk-prop-euler", "sk-thm-tracetodeterminant"]
 tags = ["sketch"]

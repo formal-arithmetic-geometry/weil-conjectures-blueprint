@@ -2,7 +2,7 @@
 id = "lem-wf-tate-twist-frobenius"
 kind = "lemma"
 title = "Frobenius on the stalk of a twist"
-order = 2573
+order = 2877
 uses = ["def-wf-internal-hom", "def-wf-tate-twist", "def-wf-tensor-product", "lem-wf-tate-twist-compatibility"]
 +++
 For every $m\in\mathbf Z$ and every closed point $x$ of $X_0$, the

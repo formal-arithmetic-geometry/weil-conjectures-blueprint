@@ -2,7 +2,7 @@
 id = "sk-p-cyclotomic"
 kind = "proposition"
 title = "Cyclotomic Frobenius"
-order = 2568
+order = 2872
 uses = ["sk-d-ab-cyclotomic", "sk-d-ab-field", "sk-d-ab-tate"]
 lean = ["cyclotomicCharacter_frobeniusEquiv_pow", "cyclotomicCharacter_frobeniusEquiv_pow_inv_mul"]
 tags = ["sketch"]

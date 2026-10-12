@@ -2,7 +2,7 @@
 id = "def-wf-lie-algebra"
 kind = "definition"
 title = "Lie algebras, ideals, solvability and Lie representations"
-order = 2463
+order = 2767
 +++
 Let $k$ be a field. A *Lie algebra* over $k$ is a $k$-vector space $L$
 with a bilinear map $[\,\cdot,\cdot\,]:L\times L\to L$ (the *bracket*)

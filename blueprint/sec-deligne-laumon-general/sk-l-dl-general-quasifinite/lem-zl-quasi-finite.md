@@ -2,7 +2,7 @@
 id = "lem-zl-quasi-finite"
 kind = "lemma"
 title = "Quasi-finite morphisms: exactness and upper-weight bound"
-order = 2818
+order = 3122
 lean = ["AlgebraicGeometry.isZero_higherLowerShriek_of_quasiFinite", "AlgebraicGeometry.LAdicWeilSheaf.IsMixedOfWeightsAtMost.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.LAdicWeilSheaf.HasWeightsAtMost.higherLowerShriek_zero_of_quasiFinite"]
 uses = ["def-weil-complex-weights", "def-weil-extension-by-zero", "def-weil-pbc-qbar-category", "lem-zl-finite-pushforward", "lemma-weil-pbc-finite-direct-image-exact", "prop-functor-package", "thm-pqf-zmt-factorization"]
 +++

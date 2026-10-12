@@ -2,7 +2,7 @@
 id = "lem-trf-fixed-map-proper"
 kind = "lemma"
 title = "The induced map of fixed schemes is proper"
-order = 2327
+order = 2631
 uses = ["def-trf-borel-moore-pushforward", "def-trf-coefficient-pushforward", "def-trf-fixed-scheme", "def-trf-trace-class", "def-weil-scheme-morphism-properties", "lem-kun-proper-stability", "lem-weil-pbc-closed-immersion-proper"]
 +++
 Let $(f,g):(C,c)\to(D,b)$ be a proper pushforward diagram of

@@ -2,7 +2,7 @@
 id = "thm-amb-vector-bundle-purity"
 kind = "theorem"
 title = "Vector-bundle purity before smooth orientation"
-order = 1973
+order = 2277
 uses = ["cor-amb-affine-space-adjunction", "def-amb-vector-integration", "def-asd-vector-bundle-zero-section", "def-coefficient-twists-detailed", "def-weil-pbc-derived-categories", "lem-amb-etale-adjoint-locality", "lem-amb-proper-coproducts-projection", "lemma-weil-pbc-geometric-stalk-conservative", "thm-amb-etale-exceptional-adjoint"]
 +++
 Let $\pi:E\to S$ be a vector bundle of rank $d$

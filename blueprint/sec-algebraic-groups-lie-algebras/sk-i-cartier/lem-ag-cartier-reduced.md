@@ -2,7 +2,7 @@
 id = "lem-ag-cartier-reduced"
 kind = "lemma"
 title = "Cartier: group schemes in characteristic zero are smooth and reduced"
-order = 2492
+order = 2796
 uses = ["def-wf-lie-algebra-derivation", "lem-wf-affine-nullstellensatz-vanishing", "lem-wf-affine-product-reduced", "lem-wf-same-lie-closed-subgroup"]
 lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_charZero", "AlgebraicGeometry.GrpObj.finrank_lie_eq_topologicalKrullDim", "AlgebraicGeometry.GeneralLinearGroup.finrank_lie_eq_ringKrullDim", "AlgebraicGeometry.GrpObj.lieEquivIdentityComponent", "AlgebraicGeometry.GeneralLinearGroup.lieAlgebraEquivIdentityComponent", "AlgebraicGeometry.GrpObj.lieEquiv_mul"]
 +++

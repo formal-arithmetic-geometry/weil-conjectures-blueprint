@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-composition"
 kind = "lemma"
 title = "Composition"
-order = 2819
+order = 3123
 lean = ["AlgebraicGeometry.HasDirectImageWeightBound.comp"]
 uses = ["sk-d-dl-general-weights", "sk-thm-sf-comp-composition"]
 tags = ["sketch"]

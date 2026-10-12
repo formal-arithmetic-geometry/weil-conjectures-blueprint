@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-quasifinite"
 kind = "lemma"
 title = "Quasi-finite morphisms"
-order = 2817
+order = 3121
 lean = ["AlgebraicGeometry.isZero_higherLowerShriek_of_quasiFinite", "AlgebraicGeometry.LAdicWeilSheaf.IsMixedOfWeightsAtMost.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.LAdicWeilSheaf.HasWeightsAtMost.higherLowerShriek_zero_of_quasiFinite"]
 uses = ["sk-d-dl-general-weights", "sk-prop-sf-cbc"]
 tags = ["sketch"]

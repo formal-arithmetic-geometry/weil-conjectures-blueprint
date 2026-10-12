@@ -2,7 +2,7 @@
 id = "sk-i-additivity"
 kind = "proposition"
 title = "Localization trace additivity"
-order = 2351
+order = 2655
 uses = ["sk-d-curve-pieces", "sk-d-integral", "sk-d-local-term", "sk-d-trace-class"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.traceClass_graph_eq_traceClass_add_traceClass"]
 tags = ["sketch"]

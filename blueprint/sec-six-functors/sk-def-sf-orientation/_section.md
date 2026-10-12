@@ -2,7 +2,7 @@
 id = "sk-def-sf-orientation"
 kind = "definition"
 title = "Orientation: an interface record"
-order = 2046
+order = 2350
 lean = ["AlgebraicGeometry.Etale.Orientation", "AlgebraicGeometry.Etale.Orientation.nonempty_iso_dualizingComplex"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "thm-coef-integral-verdier"
 kind = "theorem"
 title = "Integral Verdier biduality"
-order = 2146
+order = 2450
 uses = ["def-weil-derived-complete", "lem-coef-integral-hom-reduction", "lem-coef-integral-residue-tor", "lem-weil-duality-pairing", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata", "prop-coef-integral-dualizing", "thm-fix-general-biduality"]
 +++
 Set

@@ -2,7 +2,7 @@
 id = "prop-pod-biduality-at-the-point"
 kind = "theorem"
 title = "Biduality at the point"
-order = 2415
+order = 2719
 tags = ["latex:proposition"]
 uses = ["def-pod-conventions", "def-pod-perfect-point-complex", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "def-weil-geometric-hypotheses", "lem-pod-finite-projective-tensor-hom"]
 +++

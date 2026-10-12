@@ -2,7 +2,7 @@
 id = "rem-sf-typing-rule"
 kind = "remark"
 title = "The typing rule of this section"
-order = 2043
+order = 2347
 +++
 An operation is introduced in this section *only on the ambient
 categories of [def-sf-categories]*; no preservation property is built

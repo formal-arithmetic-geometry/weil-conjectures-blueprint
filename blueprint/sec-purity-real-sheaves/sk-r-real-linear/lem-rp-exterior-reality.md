@@ -2,7 +2,7 @@
 id = "lem-rp-exterior-reality"
 kind = "lemma"
 title = "Reality of exterior powers"
-order = 2600
+order = 2904
 uses = ["def-real-weil-representation-operations", "def-wf-iota-real", "def-wf-weil-category", "p-linear-spectra", "p-linear-triangular"]
 +++
 If $\mathcal G_0$ is an $\iota$-real lisse Weil sheaf, then

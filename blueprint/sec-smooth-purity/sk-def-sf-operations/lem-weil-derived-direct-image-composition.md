@@ -2,7 +2,7 @@
 id = "lem-weil-derived-direct-image-composition"
 kind = "lemma"
 title = "Composition of derived direct images"
-order = 1470
+order = 1774
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-limit", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-kinjective-resolutions", "def-weil-rationalization-karoubi", "lem-sp-kinjective-computes", "lem-weil-pbc-direct-image-preserves-injectives", "lem-weil-restriction-of-scalars-exact", "lem-weil-scalar-extension-composition"]
 +++
 Let $X\xrightarrow{f}Y\xrightarrow{g}Z$ be morphisms of schemes on which

@@ -2,7 +2,7 @@
 id = "prop-pod-integral-degreewise-form"
 kind = "theorem"
 title = "Integral degreewise form"
-order = 2449
+order = 2753
 tags = ["latex:proposition"]
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-finite-coefficient-point", "def-weil-finite-tor-amplitude", "thm-pod-derived-poincare-duality"]
 +++

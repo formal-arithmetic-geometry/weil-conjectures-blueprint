@@ -2,7 +2,7 @@
 id = "lem-kun-flat-resolution-existence"
 kind = "lemma"
 title = "Flat K-flat resolutions"
-order = 1723
+order = 2027
 uses = ["def-kun-derived-tensor", "def-kun-truncations", "def-weil-pbc-derived-categories", "lem-kun-bounded-flat-replacement", "lem-kun-complex-colimit-hocolim", "lem-kun-hocolim-truncations", "lem-kun-kflat-criteria", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $\Lambda$ be a commutative ring and $T$ a scheme. Every complex

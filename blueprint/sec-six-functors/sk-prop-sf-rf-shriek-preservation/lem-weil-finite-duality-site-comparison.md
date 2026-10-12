@@ -2,7 +2,7 @@
 id = "lem-weil-finite-duality-site-comparison"
 kind = "lemma"
 title = "Finite-stage duality under the site comparison"
-order = 2084
+order = 2388
 uses = ["def-weil-open-closed-recollement", "def-weil-site-perfect-complex", "lem-exc-closed-support-triangle", "lem-sf-comparison-tor-amplitude", "lem-sf-hom-comparison-finite-free", "lem-sf-hom-triangulated", "lem-sf-proetale-constructible-origin", "lem-weil-stratum-ambient-hom", "lem-weil-verdier-preservation-strata", "prop-weil-pbc-comparison-direct-image", "thm-pur-finite-coefficient-smooth-purity"]
 +++
 Let $X$ be a separated finite-type scheme over

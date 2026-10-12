@@ -2,7 +2,7 @@
 id = "lem-fd-affine-line-constant-cohomology"
 kind = "lemma"
 title = "Constant cohomology of the affine line"
-order = 2684
+order = 2988
 uses = ["def-fd-additive-character", "def-weil-pbc-qbar-category", "lem-sc-pic-affine", "sbc-thm-cohomological-dimension-of-an-affine-curve", "thm-sc-affine-cohomology"]
 +++
 For $k$ finite or algebraically closed,

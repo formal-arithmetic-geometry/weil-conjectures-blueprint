@@ -2,7 +2,7 @@
 id = "def-cbc-exchange-map"
 kind = "definition"
 title = "Compact-support exchange map"
-order = 1528
+order = 1832
 uses = ["cor-cbc-derived-extension-zero-base-change", "def-cbc-compact-support-square", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange"]
 +++
 Let $\square$ be a

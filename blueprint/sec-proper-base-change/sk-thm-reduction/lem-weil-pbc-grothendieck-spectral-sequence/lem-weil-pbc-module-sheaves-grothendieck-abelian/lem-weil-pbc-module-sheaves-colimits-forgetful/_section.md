@@ -1,9 +1,0 @@
-+++
-id = "lem-weil-pbc-module-sheaves-colimits-forgetful"
-kind = "lemma"
-title = "Colimits of sheaves of modules and the forgetful functor to abelian sheaves"
-uses = ["def-weil-pbc-sheafification", "def-weil-sheaf-of-modules-category", "def-weil-presheaf-modules-sheafification", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-category-colimit"]
-refines = "proof/lem-weil-pbc-module-sheaves-grothendieck-abelian"
-tags = ["sheaf-dag", "stacks-03DA"]
-+++
-Let $\mathcal C$ be a site on which every presheaf of abelian groups has a sheafification [def-weil-pbc-sheafification] (e.g. the small etale site of a scheme), let $\mathcal O$ be a sheaf of rings on $\mathcal C$, let $\Mod(\mathcal O)$ be the abelian category of sheaves of $\mathcal O$-modules [def-weil-sheaf-of-modules-category] and $\Ab(\mathcal C)$ the category of sheaves of abelian groups on $\mathcal C$, and let $\mathrm{forget}:\Mod(\mathcal O)\to\Ab(\mathcal C)$ be the functor forgetting the $\mathcal O$-module structure. Then: (1) $\mathrm{forget}$ is faithful and exact: it preserves kernels and cokernels (kernels are sectionwise, cokernels are the sheafified sectionwise cokernels in both categories); (2) every diagram $\mathcal I\to\Mod(\mathcal O)$, $i\mapsto\mathcal F_i$, indexed by a small category $\mathcal I$, has a colimit, namely the sheafification [def-weil-presheaf-modules-sheafification] of the sectionwise colimit $V\mapsto\colim_i\mathcal F_i(V)$ with its evident $\mathcal O$-module structure, and every such diagram has a limit, computed sectionwise; (3) $\mathrm{forget}$ commutes with all small colimits and limits: the underlying abelian sheaf of $\colim_i\mathcal F_i$ (resp. $\lim_i\mathcal F_i$) is the colimit (resp. limit) of the underlying abelian sheaves in $\Ab(\mathcal C)$.

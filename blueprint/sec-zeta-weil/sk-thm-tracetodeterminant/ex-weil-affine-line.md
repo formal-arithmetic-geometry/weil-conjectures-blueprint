@@ -2,7 +2,7 @@
 id = "ex-weil-affine-line"
 kind = "remark"
 title = "Affine-line compact-support normalization"
-order = 2882
+order = 3186
 tags = ["latex:example"]
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-ordinary-compact-cohomology"]
 +++

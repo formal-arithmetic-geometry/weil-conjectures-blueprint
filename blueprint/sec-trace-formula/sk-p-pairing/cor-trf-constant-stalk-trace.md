@@ -2,7 +2,7 @@
 id = "cor-trf-constant-stalk-trace"
 kind = "theorem"
 title = "Constant coefficients have unit stalk trace"
-order = 2322
+order = 2626
 tags = ["latex:corollary"]
 uses = ["def-trf-categorical-trace", "def-weil-derived-pullback-tensor-hom", "def-weil-site-perfect-complex", "lem-trf-chain-supertrace"]
 +++

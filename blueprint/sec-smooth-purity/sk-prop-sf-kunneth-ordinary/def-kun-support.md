@@ -2,7 +2,7 @@
 id = "def-kun-support"
 kind = "definition"
 title = "Closed points, transcendence degree, support"
-order = 1673
+order = 1977
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be a scheme of finite type over a field $K$ (in particular $X$ is Noetherian, quasi-compact and

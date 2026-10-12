@@ -2,7 +2,7 @@
 id = "def-trf-supported-pairing"
 kind = "definition"
 title = "The supported pairing recipe"
-order = 2311
+order = 2615
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-correspondence-between-pairs", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-integration", "def-trf-local-term", "def-trf-supported-class", "def-weil-derived-pullback-tensor-hom", "lem-trf-correspondence-class", "prop-functor-package", "prop-trf-exceptional-kunneth", "thm-trf-dualizing-complex-composition", "thm-trf-kunneth-verdier"]
 +++
 Fix the coefficient conventions of

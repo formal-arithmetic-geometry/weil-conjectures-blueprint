@@ -2,7 +2,7 @@
 id = "lem-exc-closed-ambient"
 kind = "lemma"
 title = "Closed-immersion right adjoint before restriction"
-order = 1803
+order = 2107
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $i:Z\hookrightarrow T$ be a

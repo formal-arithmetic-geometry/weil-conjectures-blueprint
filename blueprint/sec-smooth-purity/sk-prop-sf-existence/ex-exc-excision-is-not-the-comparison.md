@@ -2,7 +2,7 @@
 id = "ex-exc-excision-is-not-the-comparison"
 kind = "remark"
 title = "The excision comparison is not the base-change comparison"
-order = 1816
+order = 2120
 tags = ["latex:example"]
 uses = ["def-weil-extension-by-zero", "def-weil-pbc-direct-image", "prop-exc-ambient-dual-base-change"]
 +++

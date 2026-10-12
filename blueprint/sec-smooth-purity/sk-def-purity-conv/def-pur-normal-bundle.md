@@ -2,7 +2,7 @@
 id = "def-pur-normal-bundle"
 kind = "definition"
 title = "Normal bundle and zero section"
-order = 1894
+order = 2198
 uses = ["def-pur-conventions", "def-pur-regular-immersion", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

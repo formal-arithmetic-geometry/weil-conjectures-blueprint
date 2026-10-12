@@ -2,7 +2,7 @@
 id = "def-weil-open-closed-recollement"
 kind = "definition"
 title = "Open--closed recollement"
-order = 1834
+order = 2138
 uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf

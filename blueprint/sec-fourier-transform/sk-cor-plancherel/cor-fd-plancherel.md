@@ -2,7 +2,7 @@
 id = "cor-fd-plancherel"
 kind = "theorem"
 title = "Plancherel identity"
-order = 2709
+order = 3013
 tags = ["latex:corollary"]
 uses = ["def-fd-trace-function", "def-fd-transform", "lem-fd-additive-orthogonality", "thm-fd-fourier-trace"]
 +++

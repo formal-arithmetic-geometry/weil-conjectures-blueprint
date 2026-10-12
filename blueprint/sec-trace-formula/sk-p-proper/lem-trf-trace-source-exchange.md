@@ -2,7 +2,7 @@
 id = "lem-trf-trace-source-exchange"
 kind = "lemma"
 title = "Exchange of the trace-class sources: the kernel of the coefficient pushforward"
-order = 2330
+order = 2634
 uses = ["def-exchange-projection", "def-sf-kv-maps", "def-trf-coefficient-pushforward", "def-trf-kernel-pushforward-maps", "fix-prop-adjunctions", "fix-prop-coherence", "fix-prop-projection-formula", "lem-trf-correspondence-class", "lem-trf-exceptional-internal-hom-exchange", "thm-trf-kunneth-verdier", "thm-trf-verdier-duality"]
 +++
 Let $(f,g):(C,c)\to(D,b)$ be a proper pushforward diagram of

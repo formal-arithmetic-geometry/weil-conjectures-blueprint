@@ -2,7 +2,7 @@
 id = "prop-weil-integral-rational-series"
 kind = "theorem"
 title = "Normalized integral fraction for an integral rational series"
-order = 2902
+order = 3206
 tags = ["latex:proposition"]
 uses = ["def-weil-normalized-integral-fraction", "lem-weil-finite-coordinate-detection", "prop-weil-rationality-criterion"]
 +++

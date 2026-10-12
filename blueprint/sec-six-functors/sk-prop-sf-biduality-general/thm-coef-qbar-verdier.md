@@ -2,7 +2,7 @@
 id = "thm-coef-qbar-verdier"
 kind = "theorem"
 title = "Verdier biduality at algebraically closed coefficients"
-order = 2154
+order = 2458
 uses = ["def-weil-algebraically-closed-coefficients", "lem-coef-rational-operations", "lem-coef-rational-retract-evaluation", "prop-weil-pbc-common-stage-calculus", "prop-weil-pbc-descent-functors", "thm-coef-rational-verdier"]
 +++
 The finite-field dualities and their scalar-extension comparisons

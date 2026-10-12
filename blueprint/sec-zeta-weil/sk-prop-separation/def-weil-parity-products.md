@@ -2,7 +2,7 @@
 id = "def-weil-parity-products"
 kind = "definition"
 title = "Odd and even parity products"
-order = 2899
+order = 3203
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-smooth-proper-cohomological-family"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$,

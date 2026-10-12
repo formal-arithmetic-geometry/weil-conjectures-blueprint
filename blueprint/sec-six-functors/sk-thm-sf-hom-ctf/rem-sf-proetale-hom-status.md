@@ -2,7 +2,7 @@
 id = "rem-sf-proetale-hom-status"
 kind = "remark"
 title = "Geometric and site-perfect internal-Hom bounds"
-order = 2201
+order = 2505
 uses = ["cor-sf-hom-ctf-proetale-unconditional", "cor-weil-finite-constructible-hom", "def-weil-site-perfect-complex", "thm-sf-hom-comparison-constructible", "thm-sf-hom-ctf"]
 +++
 The sharp coefficient-only bound in

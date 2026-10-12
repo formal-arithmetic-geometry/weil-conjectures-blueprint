@@ -2,7 +2,7 @@
 id = "lem-kun-closed-point-field"
 kind = "lemma"
 title = "Residue fields of closed points"
-order = 1694
+order = 1998
 uses = ["def-kun-separably-closed", "def-kun-support", "def-weil-pbc-scheme-conventions", "lem-kun-sep-closed-finite-extension-purely-inseparable", "lem-kun-sep-closed-finite-extension-sep-closed"]
 +++
 Let $X$ be a scheme of

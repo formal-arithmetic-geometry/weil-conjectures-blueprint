@@ -2,7 +2,7 @@
 id = "sk-thm-product"
 kind = "theorem"
 title = "Supported product over a relative base"
-order = 2436
+order = 2740
 uses = ["sk-def-ops", "sk-thm-sf-kunneth-relative"]
 tags = ["sketch"]
 +++

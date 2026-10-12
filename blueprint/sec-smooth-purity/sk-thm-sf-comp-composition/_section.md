@@ -2,7 +2,7 @@
 id = "sk-thm-sf-comp-composition"
 kind = "theorem"
 title = "The composition law for $Rf_!$"
-order = 1515
+order = 1819
 uses = ["sec-nagata-compactification", "sec-proper-base-change", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-comp-coherence", "sk-thm-properbasechange"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp"]
 tags = ["sketch"]

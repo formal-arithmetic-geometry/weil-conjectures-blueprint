@@ -2,7 +2,7 @@
 id = "rem-absent"
 kind = "remark"
 title = "What is deliberately absent, and why"
-order = 2720
+order = 3024
 +++
 Three things that a reader of the compiled Fourier–Deligne chapter might expect are
 *not* in this file, on purpose. (i) The purity of the kernel

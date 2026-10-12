@@ -2,7 +2,7 @@
 id = "rem-a1-fourier-ready-interface"
 kind = "remark"
 title = "Scope of the curve reduction"
-order = 2794
+order = 3098
 +++
 The degree-one estimate for an irreducible factor identifies the Fourier
 transform of the ordinary middle extension $(j_*\mathcal M)[1]$ with a

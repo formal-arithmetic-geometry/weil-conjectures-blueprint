@@ -2,7 +2,7 @@
 id = "lem-trf-proper-pushforward-trace-class"
 kind = "remark"
 title = "Proper pushforward compatibility of trace maps: discharged"
-order = 2333
+order = 2637
 uses = ["def-trf-borel-moore-pushforward", "def-trf-coefficient-pushforward", "thm-trf-trace-proper-compatibility"]
 +++
 Let $p:C'\to C$ be proper, $c_i'=c_i p$, and let

@@ -2,7 +2,7 @@
 id = "prop-pod-degree-of-the-pairing"
 kind = "theorem"
 title = "Degree of the pairing"
-order = 2433
+order = 2737
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-pod-derived-poincare-pairing"]
 +++

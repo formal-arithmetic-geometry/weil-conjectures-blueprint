@@ -2,7 +2,7 @@
 id = "thm-sf-pf-adic"
 kind = "theorem"
 title = "Derived-complete reconstruction over $\\mathcal O_E$"
-order = 2096
+order = 2400
 uses = ["def-sf-datum", "def-sf-pf", "def-weil-derived-complete-integral-detailed", "lem-weil-pbc-reconstruction-uniform-tower", "prop-sf-pf-reduction", "thm-sf-pf-finite"]
 +++
 In the setting of [def-sf-datum], let $K,L$ be derived-complete

@@ -2,7 +2,7 @@
 id = "sk-thm-sf-pf-finite"
 kind = "theorem"
 title = "Projection formula, finite coefficients"
-order = 1877
+order = 2181
 uses = ["sk-def-sf-exchanges"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_derivedTensor_rightDerivedLowerShriek"]
 tags = ["sketch"]

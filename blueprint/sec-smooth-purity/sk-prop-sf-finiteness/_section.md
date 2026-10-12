@@ -2,7 +2,7 @@
 id = "sk-prop-sf-finiteness"
 kind = "proposition"
 title = "Finiteness and constructibility"
-order = 1652
+order = 1956
 lean = ["AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar_of_hasInvertibleExponent", "AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerShriek"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "def-trf-correspondence-between-pairs"
 kind = "definition"
 title = "Correspondences between pairs and opposite correspondences"
-order = 2276
+order = 2580
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-fixed-scheme", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum

@@ -2,7 +2,7 @@
 id = "sk-def-sf-exchanges"
 kind = "definition"
 title = "Exchange and projection transformations, typed"
-order = 1500
+order = 1804
 lean = ["AlgebraicGeometry.Etale.baseChange", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus", "AlgebraicGeometry.Etale.derivedBaseChangeMap", "AlgebraicGeometry.Etale.rightDerivedLowerShriekBaseChangeMap", "AlgebraicGeometry.Etale.projectionMap"]
 tags = ["sketch"]
 +++

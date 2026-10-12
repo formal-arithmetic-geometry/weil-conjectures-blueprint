@@ -2,7 +2,7 @@
 id = "lem-wf-pure-realizable"
 kind = "lemma"
 title = "A pure sheaf is realizable"
-order = 2751
+order = 3055
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist", "def-wf-iota-real"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsPunctuallyPureOfWeight.isReal_biprod_constantTwist_dual", "AlgebraicGeometry.LAdicWeilSheaf.IsPunctuallyPureOfWeight.isRealizable"]
 +++

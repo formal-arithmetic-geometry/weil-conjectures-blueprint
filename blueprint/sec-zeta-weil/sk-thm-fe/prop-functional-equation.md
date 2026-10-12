@@ -2,7 +2,7 @@
 id = "prop-functional-equation"
 kind = "theorem"
 title = "Functional equation"
-order = 2922
+order = 3226
 tags = ["latex:proposition"]
 uses = ["def-weil-determinant-constants", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-functional-equation-sign", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-duality-reciprocity", "prop-trace-determinant"]
 +++

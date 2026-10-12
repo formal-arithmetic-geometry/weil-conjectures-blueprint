@@ -2,7 +2,7 @@
 id = "prop-duality-reciprocity"
 kind = "theorem"
 title = "Duality reciprocity"
-order = 2919
+order = 3223
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-weil-betti-numbers", "def-weil-determinant-constants", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-poincare-trace-cup", "def-weil-smooth-proper-cohomological-family", "lem-weil-alternating-form-dimension", "prop-poincare-pairing"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-audit-what-is-elementary-in-this-layer-and-what-is-not--remark-1"
 kind = "remark"
 title = "Remark"
-order = 2941
+order = 3245
 tags = ["sketch"]
 +++
 *Consequence for the sketch.* Because the layer is elementary apart from

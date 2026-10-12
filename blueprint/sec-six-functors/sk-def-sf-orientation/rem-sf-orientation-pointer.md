@@ -2,7 +2,7 @@
 id = "rem-sf-orientation-pointer"
 kind = "remark"
 title = "Where the orientation is constructed"
-order = 2048
+order = 2352
 uses = ["def-sf-orientation"]
 +++
 The orientation datum of [def-sf-orientation] is not assumed: it is

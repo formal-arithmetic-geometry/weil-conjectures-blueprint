@@ -2,7 +2,7 @@
 id = "d-relative-frob"
 kind = "definition"
 title = "The relative Frobenius factorization"
-order = 2360
+order = 2664
 uses = ["def-trf-coefficient-conventions", "def-trf-scheme-frobenius"]
 +++
 Fix the global finite-field datum $p,a,q,k_0,k$ and the coefficient

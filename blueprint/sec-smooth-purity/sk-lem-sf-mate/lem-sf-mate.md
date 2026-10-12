@@ -2,7 +2,7 @@
 id = "lem-sf-mate"
 kind = "lemma"
 title = "Mate calculus for a pasted adjunction"
-order = 1874
+order = 2178
 uses = ["def-sf-datum", "def-weil-exceptional-adjoint-admissibility", "fix-prop-adjunctions", "thm-sf-comp-composition"]
 +++
 In the setting of [def-sf-datum], let

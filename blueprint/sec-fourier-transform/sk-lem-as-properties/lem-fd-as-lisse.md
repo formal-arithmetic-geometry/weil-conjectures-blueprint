@@ -2,7 +2,7 @@
 id = "lem-fd-as-lisse"
 kind = "lemma"
 title = "Multiplicativity of the Artin–Schreier sheaves"
-order = 2685
+order = 2989
 lean = ["AlgebraicGeometry.Etale.isLocallyConstantSheaf_artinSchreierSheaf", "AlgebraicGeometry.Etale.artinSchreierSheafAddIso", "AlgebraicGeometry.Etale.artinSchreierSheafZeroIso"]
 uses = ["lem-fd-as-characters"]
 +++

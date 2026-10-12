@@ -2,7 +2,7 @@
 id = "sk-def-zeta"
 kind = "definition"
 title = "The point-count zeta series"
-order = 2853
+order = 3157
 lean = ["AlgebraicGeometry.Scheme.Hom.pointCount", "AlgebraicGeometry.Scheme.Hom.zetaSeries"]
 tags = ["sketch"]
 +++

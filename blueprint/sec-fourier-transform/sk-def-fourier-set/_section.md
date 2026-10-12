@@ -2,7 +2,7 @@
 id = "sk-def-fourier-set"
 kind = "remark"
 title = "The coefficient setting: six operations only"
-order = 2669
+order = 2973
 lean = ["AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructible"]
 tags = ["sketch"]
 +++

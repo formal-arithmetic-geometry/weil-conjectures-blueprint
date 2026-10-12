@@ -2,7 +2,7 @@
 id = "cor-rp-euler-product"
 kind = "theorem"
 title = "Euler product of the $L$-function of a lisse sheaf"
-order = 2663
+order = 2967
 tags = ["latex:corollary"]
 uses = ["d-real-cohom", "def-weil-punctual-weights", "def-wf-weil-category", "lem-a1-affine-hc0", "thm-trf-grothendieck-lefschetz-qbar", "thm-trf-l-function-euler-product"]
 +++

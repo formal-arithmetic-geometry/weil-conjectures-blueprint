@@ -2,7 +2,7 @@
 id = "sk-d-trace"
 kind = "definition"
 title = "Ordinary categorical trace"
-order = 2273
+order = 2577
 uses = ["sk-d-setup"]
 lean = ["CategoryTheory.MonoidalCategory.trace"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "cor-fin-deligne-open-finite-coefficients"
 kind = "theorem"
 title = "Open direct images with arbitrary finite allowable coefficients"
-order = 1640
+order = 1944
 tags = ["latex:corollary"]
 uses = ["cor-fin-deligne-open-over-field", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions", "lem-fin-coefficients-forgetful-direct-image", "sbc-def-coefficient-conventions", "thm-constructible-serre", "thm-sp-truncation-e2"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-d-dl-a1-setup"
 kind = "remark"
 title = "Affine-line and weight conventions"
-order = 2722
+order = 3026
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsGeometricallyConstant", "AlgebraicGeometry.LAdicWeilSheaf.IsUnramifiedAtInfinity"]
 tags = ["sketch"]
 +++

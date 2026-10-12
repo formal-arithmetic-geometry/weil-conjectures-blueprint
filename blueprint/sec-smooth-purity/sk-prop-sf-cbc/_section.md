@@ -2,7 +2,7 @@
 id = "sk-prop-sf-cbc"
 kind = "proposition"
 title = "Compact-support base change"
-order = 1517
+order = 1821
 uses = ["sk-def-av-jacobian"]
 lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekBaseChangeMap"]
 tags = ["sketch"]

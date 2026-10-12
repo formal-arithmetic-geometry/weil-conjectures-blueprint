@@ -2,7 +2,7 @@
 id = "lem-fin-finite-morphism"
 kind = "lemma"
 title = "Finite direct images of constructible sheaves"
-order = 1580
+order = 1884
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-pushforward-constructible-noetherian", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-stalk-formula", "sbc-def-coefficient-conventions"]
 +++
 Let $f:X\to S$ be finite

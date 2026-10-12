@@ -2,7 +2,7 @@
 id = "d-monodromy"
 kind = "definition"
 title = "Represented degree data and monodromy"
-order = 2506
+order = 2810
 uses = ["def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-degree-component-image", "lem-wf-zariski-closure-subgroup"]
 lean = ["AlgebraicGeometry.Monodromy.DegreeDatum", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobenius", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsSemisimple"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sf-hom-finite-projective"
 kind = "lemma"
 title = "Internal Hom with a finite projective module"
-order = 2082
+order = 2386
 uses = ["def-sf-datum", "def-weil-derived-pullback-tensor-hom"]
 +++
 In the setting of [def-sf-datum], let $P$ be a finite projective

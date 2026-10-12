@@ -2,7 +2,7 @@
 id = "lem-trf-simple-constructible"
 kind = "lemma"
 title = "Simple constructible sheaves"
-order = 2220
+order = 2524
 +++
 Let $X$ be a Noetherian scheme and $\Lambda$ a finite ring. Every
 simple object of the abelian category of constructible $\Lambda$-sheaves on

@@ -2,7 +2,7 @@
 id = "lem-sf-ext-sheaf-constructible"
 kind = "lemma"
 title = "Constructible internal Hom with a site-perfect first variable"
-order = 2197
+order = 2501
 uses = ["def-weil-site-perfect-complex", "lem-sf-hom-finite-projective", "thm-constructible-serre"]
 +++
 If $K$ is site-perfect and $M$ is bounded constructible on
