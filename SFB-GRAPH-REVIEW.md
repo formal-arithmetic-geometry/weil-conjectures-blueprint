@@ -2,7 +2,8 @@
 
 The section was imported on 2026-10-12 from `DerivedCategoryAndSixFunctorsChoice.tex`. Afterwards the blueprint
 graph looked much less linear: there were many edges crossing between lines, and some went back into blocks of
-earlier sections. This file records why, and what to change. **Nothing below has been applied yet.**
+earlier sections. This file records why, and what to change. **Suggestions A and B have been applied.** The
+redundant-edge list was recomputed against the files first and matched the table exactly.
 
 ## Findings
 

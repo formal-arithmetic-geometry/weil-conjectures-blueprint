@@ -3,7 +3,7 @@ id = "sk-def-sfb-module-objects"
 kind = "definition"
 title = "Module objects and the category $\\Mod_{\\Lambda_X}$"
 order = 1513
-uses = ["def-weil-pbc-proetale-site", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-ring-object", "sk-def-sfb-sheaf-tensor", "sec-picard-framework"]
+uses = ["def-weil-pbc-proetale-site", "sk-def-sfb-pulled-back-coefficients"]
 lean = ["CategoryTheory.ModObj", "CategoryTheory.Mod", "CategoryTheory.Mod.forget", "CategoryTheory.Mod.regular"]
 tags = ["sketch"]
 +++

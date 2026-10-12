@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-sfb-cartesian-coefficients"
-uses = ["sk-def-sfb-pullback-from-point-comp"]
+uses = []
 +++
 Part 1 is [lem-sfb-alpha-iso]: $\alpha_f$ is a component of the natural
 isomorphism of [sk-def-sfb-pullback-from-point-comp]. Parts 2 and 3 are

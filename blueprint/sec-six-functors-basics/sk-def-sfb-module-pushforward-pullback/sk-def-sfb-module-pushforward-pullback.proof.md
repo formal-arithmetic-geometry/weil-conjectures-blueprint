@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-def-sfb-module-pushforward-pullback"
-uses = ["sk-def-sfb-sheaf-tensor", "sk-prop-sfb-cartesian-coefficients", "sk-prop-sfb-module-category"]
+uses = ["sk-prop-sfb-cartesian-coefficients"]
 +++
 The pushforward and its left exactness are [def-sfb-module-lower-star], the
 pullback is [def-sfb-module-upper-star], and the adjunction $f^*\dashv f_*$ is

@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-sfb-module-derived-factorization"
-uses = ["sk-prop-sfb-module-pullback-exact", "sk-def-sfb-finite-pushforward-pullback", "sk-prop-sfb-module-category"]
+uses = []
 +++
 (1) is [prop-sfb-module-right-derived-lower-star-iso]. (2) is
 [lem-sfb-module-mapmod-pullback-kflat] together with

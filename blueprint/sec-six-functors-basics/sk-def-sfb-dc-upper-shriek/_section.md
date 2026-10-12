@@ -3,7 +3,7 @@ id = "sk-def-sfb-dc-upper-shriek"
 kind = "definition"
 title = "$Rf^!$ on $D_{\\mathrm{cons}}$"
 order = 1738
-uses = ["sk-def-sfb-condensed-ring", "sk-def-sfb-dc-lower-shriek", "sk-def-sfb-dc-restricted-functors", "sk-def-sfb-dc-setting", "sk-def-sfb-qlbar-condensed", "sk-thm-sfb-qlbar-two-colimit"]
+uses = ["sk-def-sfb-dc-lower-shriek"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isLeftAdjoint_boundedConstructibleLowerStar_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isLeftAdjoint_boundedConstructibleLowerStar_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isLeftAdjoint_boundedConstructibleLowerStar_padicAlgClRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekOfCompactification", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekOfCompactificationAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriek", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekAdjunction"]
 tags = ["sketch"]
 +++

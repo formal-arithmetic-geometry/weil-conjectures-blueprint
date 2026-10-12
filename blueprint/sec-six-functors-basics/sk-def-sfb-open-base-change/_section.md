@@ -3,7 +3,7 @@ id = "sk-def-sfb-open-base-change"
 kind = "definition"
 title = "Base change for extension by zero on $D_{\\mathrm{cons}}$"
 order = 1748
-uses = ["sk-def-sfb-base-change-morphism", "sk-def-sfb-dc-restricted-functors", "sk-def-sfb-dc-setting"]
+uses = ["sk-def-sfb-base-change-morphism"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekBaseChange", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekBaseChange", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekBaseChangeIso"]
 tags = ["sketch"]
 +++

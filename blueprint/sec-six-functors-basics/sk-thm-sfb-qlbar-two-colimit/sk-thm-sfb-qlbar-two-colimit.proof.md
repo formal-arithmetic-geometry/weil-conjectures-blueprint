@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sfb-qlbar-two-colimit"
-uses = ["sk-prop-sfb-qlbar-colimit-x", "sk-def-sfb-constructible"]
+uses = []
 +++
 *The cocone.* The derived extensions of scalars are [def-sfb-derived-extend-subfield] and
 [def-sfb-derived-extend-to-qlbar], with transitivity [def-sfb-derived-extend-comp-iso]. They

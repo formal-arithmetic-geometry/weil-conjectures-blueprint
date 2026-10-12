@@ -3,7 +3,7 @@ id = "sk-def-sfb-coefficient-morphisms"
 kind = "definition"
 title = "The canonical coefficient morphisms $\\alpha_f$, $\\eta_f$"
 order = 1503
-uses = ["sk-def-sfb-finite-pushforward-pullback", "sk-def-sfb-pullback-from-point-comp", "sk-def-sfb-pulled-back-coefficients"]
+uses = ["sk-def-sfb-pullback-from-point-comp", "sk-def-sfb-pulled-back-coefficients"]
 lean = ["AlgebraicGeometry.ProEtale.condensedPullbackHom", "AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom", "AlgebraicGeometry.ProEtale.coefficientPullbackIso", "AlgebraicGeometry.ProEtale.condensedPushforwardHom", "AlgebraicGeometry.ProEtale.isMonHom_condensedPushforwardHom"]
 tags = ["sketch"]
 +++

@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-def-sfb-module-lower-shriek"
-uses = ["sk-prop-sfb-cartesian-coefficients", "sk-prop-sfb-module-category"]
+uses = []
 +++
 The projection formula is [lem-sfb-open-projection-formula]. The linear extension by
 zero and its adjunction are [def-sfb-module-linear-open-lower-shriek]. The extension

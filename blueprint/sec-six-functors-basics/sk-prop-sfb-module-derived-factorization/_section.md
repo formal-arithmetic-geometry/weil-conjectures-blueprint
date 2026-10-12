@@ -3,7 +3,7 @@ id = "sk-prop-sfb-module-derived-factorization"
 kind = "proposition"
 title = "Factorizations and levelwise descriptions of the derived functors"
 order = 1648
-uses = ["sk-def-sfb-module-derived-pushpull", "sk-def-sfb-module-pushforward-pullback", "sk-def-sfb-module-lower-shriek", "sk-def-sfb-derived-categories", "sk-def-sfb-derived-extension-of-scalars", "sk-def-sfb-change-of-scalars", "sk-def-sfb-transport"]
+uses = ["sk-def-sfb-module-derived-pushpull", "sk-def-sfb-module-lower-shriek", "sk-def-sfb-derived-extension-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.preservesKFlatComplexes_mapMod_upperStar", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerStarIso", "AlgebraicGeometry.ProEtale.CondensedRing.leftDerivedUpperStarIso", "AlgebraicGeometry.ProEtale.CondensedRing.leftDerivedUpperStarIsoMapDerivedCategory", "AlgebraicGeometry.ProEtale.CondensedRing.leftDerivedUpperStarComp", "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarLowerStarAdjunctionPlus", "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionLowerShriekUpperStarAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionLowerShriekUpperStarAdjunctionPlus"]
 tags = ["sketch"]
 +++

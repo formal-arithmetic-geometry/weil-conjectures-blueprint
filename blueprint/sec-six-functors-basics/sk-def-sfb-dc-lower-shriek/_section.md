@@ -3,7 +3,7 @@ id = "sk-def-sfb-dc-lower-shriek"
 kind = "definition"
 title = "$Rf_!$ on $D_{\\mathrm{cons}}$: assembled from $i_!$ and $Rp_*$"
 order = 1737
-uses = ["sk-def-sfb-dc-restricted-functors", "sk-def-sfb-dc-setting", "sk-def-sfb-module-derived-lower-shriek"]
+uses = ["sk-def-sfb-dc-restricted-functors"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactification", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekOfCompactificationCompatibility", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekCompatibility"]
 tags = ["sketch"]
 +++

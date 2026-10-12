@@ -3,7 +3,7 @@ id = "sk-prop-sfb-qlbar-colimit-point"
 kind = "proposition"
 title = "$\\underline{\\overline{\\mathbf Q}}_\\ell=\\operatorname{colim}_E\\underline E$ on the point"
 order = 1475
-uses = ["sk-def-sfb-condensed-ring", "sk-def-sfb-qlbar-condensed", "sk-def-sfb-ring-object"]
+uses = ["sk-def-sfb-qlbar-condensed"]
 lean = ["Profinite.padicSubfieldRingObjMap", "Profinite.padicSubfieldRingObjToPadicAlgCl", "Profinite.isColimitPadicAlgClRingObjCocone"]
 tags = ["sketch"]
 +++

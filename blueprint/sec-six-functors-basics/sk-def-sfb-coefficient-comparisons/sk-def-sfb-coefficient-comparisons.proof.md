@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-def-sfb-coefficient-comparisons"
-uses = ["sk-def-sfb-transport", "sk-prop-sfb-cartesian-coefficients", "sk-def-sfb-derived-extension-of-scalars", "sk-prop-sfb-module-derived-factorization"]
+uses = ["sk-prop-sfb-module-derived-factorization"]
 +++
 *Formal input.* For a lax monoidal functor and a commutative square of ring objects,
 restriction of scalars commutes with "transport, then restrict along the vertical maps"

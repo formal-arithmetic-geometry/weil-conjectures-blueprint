@@ -3,7 +3,7 @@ id = "sk-def-sfb-coefficient-change"
 kind = "definition"
 title = "Change of condensed coefficients"
 order = 1665
-uses = ["sk-def-sfb-condensed-ring", "sk-def-sfb-pullback-from-point", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-coefficient-morphisms", "sk-def-sfb-finite-pushforward-pullback", "sk-def-sfb-module-objects", "sk-def-sfb-derived-categories", "sk-def-sfb-derived-extension-of-scalars", "sk-def-sfb-pullback-from-point-comp"]
+uses = ["sk-def-sfb-coefficient-morphisms", "sk-def-sfb-derived-extension-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientMap", "AlgebraicGeometry.ProEtale.coefficientMap_id", "AlgebraicGeometry.ProEtale.coefficientMap_comp", "AlgebraicGeometry.ProEtale.map_coefficientMap_comp_condensedPullbackHom", "AlgebraicGeometry.ProEtale.condensedPushforwardHom_comp_map_coefficientMap"]
 tags = ["sketch"]
 +++

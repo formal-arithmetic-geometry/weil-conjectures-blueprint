@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-def-sfb-dc-restricted-functors"
-uses = ["sk-def-sfb-constructible", "sk-def-sfb-module-pushforward-pullback", "sk-prop-sfb-module-pullback-exact"]
+uses = []
 +++
 The preservation statements are [lem-sfb-dc-upper-star-preserves],
 [lem-sfb-dc-lower-star-preserves], [lem-sfb-dc-open-lower-shriek-preserves],

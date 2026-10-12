@@ -3,7 +3,7 @@ id = "sk-def-sfb-transport"
 kind = "definition"
 title = "Transport of module objects and projection formulas"
 order = 1542
-uses = ["sk-def-sfb-change-of-scalars", "sk-def-sfb-module-objects", "sk-def-sfb-ring-object"]
+uses = ["sk-def-sfb-change-of-scalars"]
 lean = ["CategoryTheory.Functor.mapMod", "CategoryTheory.Adjunction.mapModAdjunction", "CategoryTheory.Functor.ProjectionFormula", "CategoryTheory.Functor.ProjectionFormula.mapModLeft", "CategoryTheory.Functor.ProjectionFormula.mapModRight", "CategoryTheory.Functor.ProjectionFormula.mapModAdjunction", "CategoryTheory.Adjunction.HasProjectionFormula", "CategoryTheory.Adjunction.projectionFormula", "CategoryTheory.Adjunction.mapModLeftAdjunction"]
 tags = ["sketch"]
 +++

@@ -3,7 +3,7 @@ id = "sk-def-sfb-module-lower-shriek"
 kind = "definition"
 title = "Extension by zero and lower shriek of module objects"
 order = 1638
-uses = ["sk-def-sfb-sheaf-tensor", "sk-def-sfb-finite-pushforward-pullback", "sk-def-sfb-finite-lower-shriek", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-coefficient-morphisms", "sk-def-sfb-module-objects", "sk-def-sfb-change-of-scalars", "sk-def-sfb-transport", "sk-def-sfb-module-pushforward-pullback", "sk-def-nagata-sketch-data", "sec-nagata-compactification"]
+uses = ["sk-def-sfb-finite-lower-shriek", "sk-def-sfb-module-pushforward-pullback", "sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.hasProjectionFormula_openImmersion", "AlgebraicGeometry.ProEtale.CondensedRing.linearOpenImmersionLowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.linearOpenImmersionLowerShriekAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.preservesHomology_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.openImmersionLowerShriekUpperStarAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.compactificationLowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.lowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_lowerShriek"]
 tags = ["sketch"]
 +++

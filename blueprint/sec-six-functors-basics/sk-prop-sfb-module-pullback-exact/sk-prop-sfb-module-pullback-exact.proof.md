@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-sfb-module-pullback-exact"
-uses = ["sk-def-sfb-finite-pushforward-pullback", "sk-prop-sfb-module-category", "sk-def-sfb-transport", "sk-def-sfb-change-of-scalars", "sk-prop-sfb-cartesian-coefficients"]
+uses = []
 +++
 Right exactness holds because $f^*$ is a left adjoint
 ([sk-def-sfb-module-pushforward-pullback]).

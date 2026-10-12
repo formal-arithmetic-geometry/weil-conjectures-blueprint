@@ -3,7 +3,7 @@ id = "sec-six-functors-basics"
 kind = "section"
 title = "Six Functors: Basic Constructions"
 order = 1450
-uses = ["sec-nagata-compactification", "sec-picard-framework", "sec-proper-base-change", "sk-def-nagata-sketch-data", "sk-prop-nagata-sketch-comp-category", "sk-thm-nagata-compactification", "sk-thm-p1", "sk-thm-picard-coherence", "sk-thm-picard-semicon", "sk-thm-properbasechange"]
+uses = ["sec-nagata-compactification", "sec-picard-framework", "sec-proper-base-change"]
 +++
 **Content.** This section sets up the pro-étale derived categories and the six
 functors on which the later six-functor sections rest, following

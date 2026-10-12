@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sfb-proper-base-change"
-uses = ["sk-thm-properbasechange", "sk-thm-sfb-rationalization-comparison", "sk-thm-sfb-qlbar-two-colimit"]
+uses = ["sk-thm-properbasechange"]
 +++
 Following Bhatt–Scholze, §6.7, reduce to the torsion case. Let $\Lambda=\underline E$, and write
 $\cO_E$ for the ring of integers, with uniformizer $\varpi$. A bounded constructible

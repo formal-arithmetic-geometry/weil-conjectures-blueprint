@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sfb-shriek-base-change"
-uses = ["sk-def-sfb-open-base-change", "sk-thm-sfb-proper-base-change"]
+uses = ["sk-thm-sfb-proper-base-change"]
 +++
 By definition ([sk-def-sfb-shriek-base-change-morphism]), $\mathrm{Ex}_!^c$ is the composite of
 two morphisms. The first is the base change morphism of the cartesian square formed by

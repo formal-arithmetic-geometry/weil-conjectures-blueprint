@@ -3,7 +3,7 @@ id = "sk-def-sfb-constructible"
 kind = "definition"
 title = "Locally finitely presented and constructible modules"
 order = 1582
-uses = ["def-weil-pbc-proetale-site", "def-constructible-stratification", "sk-def-sfb-sheaf-tensor", "sk-def-sfb-ring-object", "sk-def-sfb-finite-pushforward-pullback", "sk-def-sfb-module-objects", "sk-prop-sfb-module-category", "sk-def-sfb-transport", "sec-picard-framework", "sec-proper-base-change"]
+uses = ["def-weil-pbc-proetale-site", "def-constructible-stratification", "sk-def-sfb-transport"]
 lean = ["CategoryTheory.Mod.IsFinitelyPresented", "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented", "AlgebraicGeometry.ProEtale.IsConstructible"]
 tags = ["sketch"]
 +++

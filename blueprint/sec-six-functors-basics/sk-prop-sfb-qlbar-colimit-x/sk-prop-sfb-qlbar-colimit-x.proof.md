@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-sfb-qlbar-colimit-x"
-uses = ["sk-def-sfb-pullback-from-point", "sk-prop-sfb-qlbar-colimit-point"]
+uses = ["sk-prop-sfb-qlbar-colimit-point"]
 +++
 The ring objects $E_X$ and $\overline{\mathbf Q}_{\ell,X}$ are
 [def-sfb-subfield-coefficient-ring] and [def-sfb-qlbar-coefficient-ring]. The

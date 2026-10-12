@@ -3,7 +3,7 @@ id = "sk-def-sfb-module-derived-lower-shriek"
 kind = "definition"
 title = "Derived lower shriek of module objects"
 order = 1657
-uses = ["sk-def-sfb-module-lower-shriek", "sk-def-sfb-module-derived-pushpull", "sk-def-sfb-derived-categories", "sk-def-nagata-sketch-data", "sec-nagata-compactification"]
+uses = ["sk-def-sfb-module-lower-shriek", "sk-def-sfb-module-derived-pushpull", "sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekOfCompactification", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekOfCompactificationPlus", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekOfCompactificationPlusCompatibility", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekPlus", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekPlusCompatibility"]
 tags = ["sketch"]
 +++
