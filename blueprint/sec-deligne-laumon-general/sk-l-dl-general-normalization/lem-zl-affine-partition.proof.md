@@ -1,8 +1,9 @@
 +++
-kind  = "proof"
-of    = "lem-zl-affine-partition"
+kind = "proof"
+of = "lem-zl-affine-partition"
+uses = ["def-weil-pbc-scheme-conventions"]
 +++
-By quasi-compactness, choose a finite affine open cover $U_1,\ldots,U_m$.
+Choose a finite affine open cover $U_1,\ldots,U_m$.
 Set $S_i=U_i\setminus\bigcup_{j<i}U_j$, with its reduced
 closed subscheme structure inside $U_i$.
 Each $S_i$ is affine, since it is closed in an affine scheme,

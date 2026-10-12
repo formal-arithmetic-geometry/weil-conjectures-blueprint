@@ -1,6 +1,7 @@
 +++
-kind  = "proof"
-of    = "lem-zl-quasi-finite"
+kind = "proof"
+of = "lem-zl-quasi-finite"
+uses = ["def-weil-complex-weights", "def-weil-extension-by-zero", "def-weil-pbc-qbar-category", "lem-zl-finite-pushforward", "lemma-weil-pbc-finite-direct-image-exact", "prop-functor-package", "thm-pqf-zmt-factorization"]
 +++
 Since $Y_0$ is of finite type over a field, it is quasi-compact and
 quasi-separated, so Zariski's main theorem in the form of the
@@ -33,53 +34,24 @@ stage and hence, by the common-stage construction of
 [def-weil-pbc-qbar-category], for $\Qlb$-coefficients. Thus for a Weil
 sheaf $\mathcal F$ we get $Rg_!\mathcal F\simeq\bar g_*j_{0!}\mathcal F$,
 a complex concentrated in degree $0$, i.e. $R^ig_!\mathcal F=0$ for
-$i\neq0$, and $g_!\mathcal F=R^0g_!\mathcal F=\bar g_*j_{0!}\mathcal F$.
-More generally, applying the exact functor $\bar g_*j_{0!}$ termwise
-gives $\mathcal H^j(Rg_!K)=\bar g_*j_{0!}\mathcal H^j(K)=g_!\mathcal H^j(K)$
-for every Weil complex $K$ and every $j$.
+$i\neq0$. Applying the exact functor $\bar g_*j_{0!}$ termwise gives
+$\mathcal H^j(Rg_!K)=\bar g_*j_{0!}\mathcal H^j(K)=g_!\mathcal H^j(K)$.
 
-*(2).* We first show the complex form: if $K\in D_{\le w}(Z_0)$, then
-$Rg_!K\in D_{\le w}(Y_0)$. By (1) and the composition isomorphism it
-suffices to treat the two pieces. For $j_0$: a closed point of
-$\overline Z_0$ either lies in $Z_0$, where $j_{0!}K$ has the same stalk
-with the same local Frobenius as $K$, or lies outside, where the stalk
-is $0$; so each $\mathcal H^j(j_{0!}K)=j_{0!}\mathcal H^j(K)$ receives,
-from a filtration of $\mathcal H^j(K)$ with punctually pure quotients of
-weights $\le w+j$ as in [def-weil-complex-weights], the filtration by
-the (exact) extensions by zero, whose quotients are again punctually
+*(2).* By (1) and the composition isomorphism it suffices to treat the
+two pieces. For $j_0$: a closed point of $\overline Z_0$ either lies in
+$Z_0$, where $j_{0!}K$ has the same stalk with the same local
+Frobenius as $K$, or lies outside, where the stalk is $0$; so each
+$\mathcal H^j(j_{0!}K)=j_{0!}\mathcal H^j(K)$ receives, from a
+filtration of $\mathcal H^j(K)$ with punctually pure quotients of
+weights $\le w+j$ as in [def-weil-complex-weights], the filtration
+by the (exact) extensions by zero, whose quotients are again punctually
 pure of the same weights. Hence $j_{0!}K\in D_{\le w}(\overline Z_0)$.
 For $\bar g$: the finite pushforward bound [lem-zl-finite-pushforward]
 gives $R\bar g_*j_{0!}K\in D_{\le w}(Y_0)$.
 
-Now let $\mathcal F$ be $\iota$-mixed of weights at most $w$, i.e. it
-has a finite filtration whose quotients are punctually $\iota$-pure of
-weights $\le w$. Regarded as a complex in degree $0$, this says exactly
-$\mathcal F\in D_{\le w}(Z_0)$ by [def-weil-complex-weights]. By the
-complex form, $Rg_!\mathcal F\in D_{\le w}(Y_0)$, and by (1) this
-complex is the sheaf $g_!\mathcal F$ in degree $0$; reading
-[def-weil-complex-weights] in degree $0$, $g_!\mathcal F$ is
-$\iota$-mixed of weights at most $w$.
-
-*(3).* By (1), $g_!\mathcal F=\bar g_*(j_{0!}\mathcal F)$. The stalks of
-$j_{0!}\mathcal F$ at closed points of $Z_0$ are those of $\mathcal F$,
-with the same local Frobenius, and are $0$ at the other closed points
-of $\overline Z_0$; so every local Frobenius eigenvalue of
-$\mathcal G=j_{0!}\mathcal F$ at a closed point $x$ of $\overline Z_0$
-satisfies $|\iota(\alpha)|\le q_x^{w/2}$. Let $y$ be a closed point of
-$Y_0$. Since $\bar g$ is finite, the geometric stalk of
-$\bar g_*\mathcal G$ at $\bar y$ is the direct sum of the stalks of
-$\mathcal G$ at the finitely many geometric points $\bar x$ over
-$\bar y$, and the geometric Frobenius at $y$ permutes these summands.
-On an orbit of length $e$, belonging to a closed point $x$ over $y$
-with $q_x=q_y^e$, the $e$-th power of the Frobenius at $y$ restricted
-to the corresponding summand is the local Frobenius $F_x$. Hence if
-$\beta$ is an eigenvalue of the Frobenius at $y$ on that orbit, then
-$\beta^e$ is an eigenvalue of $F_x$ on $\mathcal G_{\bar x}$, and
-
-$$
-|\iota(\beta)|^e=|\iota(\beta^e)|\le q_x^{w/2}=(q_y^e)^{w/2},
-$$
-
-so $|\iota(\beta)|\le q_y^{w/2}$. Every eigenvalue of the Frobenius at
-$y$ on $(g_!\mathcal F)_{\bar y}$ occurs on some orbit, which proves
-(3).
+*In particular.* A mixed Weil sheaf $\mathcal F$ has a finite
+filtration with punctually pure quotients; if $w$ is the largest of
+their weights, then $\mathcal F\in D_{\le w}(Z_0)$ by
+[def-weil-complex-weights]. By (2), $Rg_!\mathcal F\in D_{\le w}(Y_0)$,
+and by (1) this complex is the sheaf $g_!\mathcal F$ in degree $0$;
+so $g_!\mathcal F$ is mixed of weights $\le w$.
