@@ -2,7 +2,7 @@
 id = "lem-zl-affine-partition"
 kind = "lemma"
 title = "A finite affine partition"
-order = 2825
+order = 3129
 lean = ["AlgebraicGeometry.Scheme.exists_partition_isImmersion_isAffine_isReduced"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

@@ -2,7 +2,7 @@
 id = "rem-ptr-pur-smooth-purity-map-4"
 kind = "remark"
 title = "Pointer to the properties of [def-pur-smooth-purity-map]"
-order = 2013
+order = 2317
 uses = ["def-pur-smooth-purity-map", "thm-pur-diagonal-dualizing-object"]
 +++
 In the notation of [def-pur-smooth-purity-map], the following holds. The second isomorphism is the *inverse* of the

@@ -2,7 +2,7 @@
 id = "lem-zl-affine-curve-hc2-purity"
 kind = "lemma"
 title = "Purity of the top affine-curve factor"
-order = 2840
+order = 3144
 lean = ["AlgebraicGeometry.isPureOfWeightOver_compactlySupportedCohomology_two_of_isAffine"]
 uses = ["def-weil-frobenius-module-weights", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "lem-a1-affine-hc2-pure"]
 +++

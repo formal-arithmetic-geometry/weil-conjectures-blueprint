@@ -2,7 +2,7 @@
 id = "lem-trf-local-frobenius-conjugacy"
 kind = "lemma"
 title = "Conjugacy of the local Frobenius along the Frobenius orbit"
-order = 2344
+order = 2648
 uses = ["def-trf-coefficient-conventions", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "lem-trf-iterated-weil-cocycle", "prop-trf-compact-support-perfectness", "prop-trf-scheme-galois-comparison", "prop-trf-trace-formal-laws", "thm-trf-frobenius-fixed-points"]
 +++
 Fix the coefficient

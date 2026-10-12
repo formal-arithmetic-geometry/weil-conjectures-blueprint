@@ -2,7 +2,7 @@
 id = "lem-exc-closed-support-triangle"
 kind = "lemma"
 title = "Closed-support triangle before restriction"
-order = 1804
+order = 2108
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-exc-closed-ambient", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $i:Z\hookrightarrow T$ be a

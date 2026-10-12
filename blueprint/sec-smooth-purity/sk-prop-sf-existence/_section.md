@@ -2,7 +2,7 @@
 id = "sk-prop-sf-existence"
 kind = "proposition"
 title = "Existence of the exceptional right adjoint"
-order = 1801
+order = 2105
 uses = ["sk-prop-sf-comparison"]
 lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekAdjunction", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekAdjunction"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-thm-weil2"
 kind = "theorem"
 title = "Weil conjectures II: integral Frobenius factors"
-order = 2929
+order = 3233
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.IsWeilFactorization"]
 uses = ["sk-def-zeta", "sk-thm-intfactors"]
 tags = ["sketch"]

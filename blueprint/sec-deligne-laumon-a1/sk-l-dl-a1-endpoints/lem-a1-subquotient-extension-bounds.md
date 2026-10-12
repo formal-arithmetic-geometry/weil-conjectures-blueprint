@@ -2,7 +2,7 @@
 id = "lem-a1-subquotient-extension-bounds"
 kind = "lemma"
 title = "Subquotient bounds for Frobenius modules"
-order = 2733
+order = 3037
 uses = ["def-weil-frobenius-module-weights", "lem-a1-spectrum-exact-sequence", "p-linear-filtration"]
 +++
 If $(V,F)$ is mixed of weights at most $w$, then every

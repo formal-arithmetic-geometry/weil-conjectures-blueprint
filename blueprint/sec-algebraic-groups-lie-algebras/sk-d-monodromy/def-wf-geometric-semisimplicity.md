@@ -2,7 +2,7 @@
 id = "def-wf-geometric-semisimplicity"
 kind = "definition"
 title = "Geometric semisimplicity"
-order = 2512
+order = 2816
 uses = ["def-wf-fundamental-representation", "def-wf-weil-group"]
 +++
 The representation $\rho$ is *geometrically semisimple* if the

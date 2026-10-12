@@ -2,7 +2,7 @@
 id = "lem-wf-curve-kummer-jacobian-tate-module"
 kind = "lemma"
 title = "Kummer identifies curve cohomology with the Jacobian Tate module"
-order = 2610
+order = 2914
 uses = ["def-coefficient-twists-detailed", "def-sc-jacobian", "def-sc-kummer-sequence", "def-sc-pic0", "def-wf-abelian-tate-module", "lem-sc-global-functions", "lem-sc-h1-gm-pic", "lem-sc-kummer-exact", "lem-wf-geometric-jacobian-galois-action", "thm-sc-jacobian-representability"]
 +++
 Let $C_0/k_0$ be a smooth projective geometrically connected curve, put

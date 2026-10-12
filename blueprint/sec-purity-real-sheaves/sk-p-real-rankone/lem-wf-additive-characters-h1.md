@@ -2,7 +2,7 @@
 id = "lem-wf-additive-characters-h1"
 kind = "lemma"
 title = "Continuous $\\mathbf Z_\\ell$-characters are compatible finite-level classes"
-order = 2619
+order = 2923
 uses = ["def-weil-pbc-etale-cohomology", "def-wf-weil-group", "lem-wf-finite-constant-h1-pi1"]
 +++
 Let $U_0/k_0$ be geometrically connected and separated of finite type,

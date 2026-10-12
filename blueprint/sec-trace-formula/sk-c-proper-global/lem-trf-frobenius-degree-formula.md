@@ -2,7 +2,7 @@
 id = "lem-trf-frobenius-degree-formula"
 kind = "lemma"
 title = "Degree formula for the local Frobenius"
-order = 2345
+order = 2649
 uses = ["def-trf-frobenius-operators", "def-trf-iterated-weil-map", "lem-trf-iterated-weil-cocycle", "lem-trf-local-frobenius-conjugacy", "prop-trf-scheme-galois-comparison", "prop-trf-trace-formal-laws"]
 +++
 Let $x\in|X_0|$ be a closed point with degree

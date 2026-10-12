@@ -2,7 +2,7 @@
 id = "def-sf-cup"
 kind = "definition"
 title = "Mixed-support cup product"
-order = 2184
+order = 2488
 uses = ["def-sf-datum", "def-weil-derived-tensor"]
 +++
 In the setting of [def-sf-datum], let $K,L\in D^b_{ctf}(X,\Lambda)$.

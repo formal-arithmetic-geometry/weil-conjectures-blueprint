@@ -2,7 +2,7 @@
 id = "lem-sf-reduction-flat-model"
 kind = "lemma"
 title = "Reduction of the flat model"
-order = 1832
+order = 2136
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-site", "def-weil-pbc-proetale-site", "lem-exc-constant-inverse-image-flat", "lem-sf-flat-model"]
 +++
 Let $A_{E,m}$ and $A_{E,n}$ be two finite coefficient stages with

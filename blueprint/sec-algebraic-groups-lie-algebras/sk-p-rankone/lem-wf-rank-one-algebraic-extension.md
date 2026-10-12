@@ -2,7 +2,7 @@
 id = "lem-wf-rank-one-algebraic-extension"
 kind = "lemma"
 title = "Arithmetic monodromy after finite geometric image"
-order = 2534
+order = 2838
 uses = ["def-wf-arithmetic-monodromy-extension", "def-wf-geometric-monodromy-group"]
 +++
 Let $\chi:W(X_0)\to E^\times$ be a continuous rank-one Weil character,

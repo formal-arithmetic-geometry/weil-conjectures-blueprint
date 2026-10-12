@@ -2,7 +2,7 @@
 id = "lem-fd-stalk-formula"
 kind = "lemma"
 title = "Stalks of the transform are fibre integrals"
-order = 2699
+order = 3003
 lean = ["AlgebraicGeometry.Etale.fourierTransformStalkIso"]
 uses = ["def-fd-kernel", "def-fd-transform", "def-weil-pbc-qbar-category", "thm-cbc-finite-extension", "thm-cbc-qbar"]
 +++

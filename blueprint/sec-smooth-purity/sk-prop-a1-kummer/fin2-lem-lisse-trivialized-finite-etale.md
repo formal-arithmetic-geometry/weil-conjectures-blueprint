@@ -2,7 +2,7 @@
 id = "fin2-lem-lisse-trivialized-finite-etale"
 kind = "lemma"
 title = "Finite etale trivialization of a lisse sheaf"
-order = 1904
+order = 2208
 uses = ["cor-galois-open-subgroups", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "thm-galois-fundamental", "thm-galois-lc-etale"]
 +++
 Let $X$ be of finite type over a field, let $\Lambda$ be

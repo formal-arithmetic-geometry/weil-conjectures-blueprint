@@ -2,7 +2,7 @@
 id = "thm-sf-fullcd-used-class"
 kind = "theorem"
 title = "The full cohomological-dimension condition on the blueprint's coefficient class"
-order = 1796
+order = 2100
 uses = ["def-sf-fullcd-used-class", "def-weil-derived-cohomology-sheaves", "def-weil-full-cohomological-dimension", "def-weil-pbc-direct-image", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-sf-fullcd-detection-equivalence", "lem-sf-proetale-constructible-origin", "thm-sf-fullcd-etale-origin"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, $n\geq1$,

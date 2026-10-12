@@ -2,7 +2,7 @@
 id = "sk-prop-a1-inv"
 kind = "proposition"
 title = "Weak $\\Aaf^1$-invariance"
-order = 1954
+order = 2258
 uses = ["sk-def-purity-conv"]
 lean = ["AlgebraicGeometry.Etale.injective_upperStar_map_of_isFiniteLocallyConstantSheaf", "AlgebraicGeometry.Etale.injective_upperStar_oneSection_map_of_isFiniteLocallyConstantSheaf", "AlgebraicGeometry.Etale.eq_of_leftDerivedUpperStar_oneSection_eq"]
 tags = ["sketch"]

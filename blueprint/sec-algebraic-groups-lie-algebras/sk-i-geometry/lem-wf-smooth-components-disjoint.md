@@ -2,7 +2,7 @@
 id = "lem-wf-smooth-components-disjoint"
 kind = "lemma"
 title = "Irreducible components of a smooth variety do not meet"
-order = 2487
+order = 2791
 uses = ["lem-sc-regular-local-domain", "lem-wf-affine-noetherian-components"]
 +++
 Let $X$ be an affine scheme of finite type over a field $k$ whose local

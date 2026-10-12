@@ -2,7 +2,7 @@
 id = "sk-rem-absent"
 kind = "remark"
 title = "What is deliberately absent, and why"
-order = 2719
+order = 3023
 tags = ["sketch"]
 +++
 Three things that a reader of the compiled Fourier–Deligne chapter might expect are

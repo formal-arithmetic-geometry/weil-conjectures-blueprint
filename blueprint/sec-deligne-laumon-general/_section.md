@@ -2,7 +2,7 @@
 id = "sec-deligne-laumon-general"
 kind = "section"
 title = "Deligne–Laumon: Reduction to the Affine Line"
-order = 2809
+order = 3113
 uses = ["sec-algebraic-groups-lie-algebras", "sec-deligne-laumon-a1", "sec-purity-real-sheaves", "sec-six-functors", "sec-smooth-purity", "sec-trace-formula"]
 +++
 **Content.** This section proves Deligne's main theorem of Weil II in

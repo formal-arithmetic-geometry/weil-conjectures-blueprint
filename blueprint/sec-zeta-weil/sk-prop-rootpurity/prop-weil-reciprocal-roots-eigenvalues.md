@@ -2,7 +2,7 @@
 id = "prop-weil-reciprocal-roots-eigenvalues"
 kind = "theorem"
 title = "Reciprocal roots as eigenvalues"
-order = 2896
+order = 3200
 tags = ["latex:proposition"]
 uses = ["def-weil-frobenius-detailed", "def-weil-ordinary-reciprocal-roots", "def-weil-smooth-proper-cohomological-family"]
 +++

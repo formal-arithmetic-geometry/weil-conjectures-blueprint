@@ -2,7 +2,7 @@
 id = "sk-c-dl-a1-hc1"
 kind = "corollary"
 title = "The degree-one estimate for an irreducible factor"
-order = 2780
+order = 3084
 uses = ["sk-p-dl-a1-middle", "sk-p-linear-filtration", "sk-p-real-semi", "sk-prop-stalk"]
 lean = ["AlgebraicGeometry.hasWeightsAtMost_compactlySupportedCohomology_one"]
 tags = ["sketch"]

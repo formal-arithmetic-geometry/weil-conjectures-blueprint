@@ -2,7 +2,7 @@
 id = "sk-p-dl-general-relative-line"
 kind = "proposition"
 title = "Direct images from a relative open affine line"
-order = 2835
+order = 3139
 lean = ["AlgebraicGeometry.isMixedOfWeightsAtMost_higherLowerShriek_of_affineLine"]
 uses = ["sk-d-dl-general-weights", "sk-i-dl-general-real", "sk-l-dl-a1-endpoints", "sk-l-dl-general-open-line", "sk-p-linear-filtration", "sk-prop-logdet", "sk-prop-sf-cbc", "sk-thm-sf-ctf-stability", "sk-thm-trace-transport"]
 tags = ["sketch"]

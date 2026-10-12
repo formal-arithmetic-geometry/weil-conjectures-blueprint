@@ -2,7 +2,7 @@
 id = "def-pur-vector-bundle-thom-class"
 kind = "definition"
 title = "Thom class of a vector bundle"
-order = 1988
+order = 2292
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-vector-bundle-zero-section", "def-weil-derived-tensor", "thm-pur-localized-top-chern", "thm-pur-projective-bundle-formula"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

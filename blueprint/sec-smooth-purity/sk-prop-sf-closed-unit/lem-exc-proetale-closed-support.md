@@ -2,7 +2,7 @@
 id = "lem-exc-proetale-closed-support"
 kind = "lemma"
 title = "Pro-etale closed support before constructible restriction"
-order = 1859
+order = 2163
 uses = ["def-exc-proetale-sections-with-support", "def-weil-derived-direct-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-exc-proetale-closed-essential-image", "lem-exc-proetale-closed-exact", "lem-exc-proetale-closed-fully-faithful", "prop-exc-open-adjoint", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $T$ be Noetherian, let $i:Z\hookrightarrow T$ be a

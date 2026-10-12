@@ -2,7 +2,7 @@
 id = "lem-kun-0f0u"
 kind = "lemma"
 title = "Strict henselization as a limit"
-order = 1762
+order = 2066
 uses = ["def-kun-dimension", "def-kun-separably-closed", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit"]
 +++
 Let $K$ be a field, $X$ a scheme of finite type over $K$, and $x\in X$

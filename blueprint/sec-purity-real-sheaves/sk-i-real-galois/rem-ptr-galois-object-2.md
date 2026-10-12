@@ -2,7 +2,7 @@
 id = "rem-ptr-galois-object-2"
 kind = "remark"
 title = "Pointer to the properties of [def-galois-object]"
-order = 2582
+order = 2886
 uses = ["def-galois-object"]
 +++
 In the notation of [def-galois-object], the following holds. The description of Galois covers by the

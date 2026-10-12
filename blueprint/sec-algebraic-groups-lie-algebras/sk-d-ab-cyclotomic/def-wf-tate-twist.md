@@ -2,7 +2,7 @@
 id = "def-wf-tate-twist"
 kind = "definition"
 title = "Tate twists"
-order = 2566
+order = 2870
 uses = ["def-weil-pbc-proetale-site", "def-wf-weil-category"]
 +++
 On the pro-etale site put

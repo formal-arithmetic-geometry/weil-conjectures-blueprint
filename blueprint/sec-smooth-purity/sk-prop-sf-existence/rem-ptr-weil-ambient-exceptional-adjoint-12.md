@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-ambient-exceptional-adjoint-12"
 kind = "remark"
 title = "Pointer to the properties of [def-weil-ambient-exceptional-adjoint]"
-order = 1819
+order = 2123
 uses = ["def-weil-ambient-exceptional-adjoint", "rem-sf-class-adjoint-residue"]
 +++
 In the notation of [def-weil-ambient-exceptional-adjoint], the following holds. The datum is

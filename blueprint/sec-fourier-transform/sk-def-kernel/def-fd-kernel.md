@@ -2,7 +2,7 @@
 id = "def-fd-kernel"
 kind = "definition"
 title = "The Fourier kernel and integrand"
-order = 2691
+order = 2995
 lean = ["AlgebraicGeometry.Etale.fourierKernel"]
 uses = ["def-fd-artin-schreier-sheaf", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++

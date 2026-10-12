@@ -2,7 +2,7 @@
 id = "prop-sf-closed-immersion-unit"
 kind = "theorem"
 title = "The closed-immersion exceptional unit"
-order = 1860
+order = 2164
 tags = ["latex:proposition"]
 uses = ["def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-weil-scheme-morphism-properties", "lem-exc-proetale-closed-exact", "lem-exc-proetale-closed-support", "prop-weil-open-closed-recollement-adjunctions"]
 +++

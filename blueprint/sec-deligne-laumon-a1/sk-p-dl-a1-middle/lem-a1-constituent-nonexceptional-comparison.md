@@ -2,7 +2,7 @@
 id = "lem-a1-constituent-nonexceptional-comparison"
 kind = "lemma"
 title = "Constituent-nonexceptional versus Fourier-nonexceptional"
-order = 2753
+order = 3057
 uses = ["def-a1-constituent-nonexceptional", "def-fd-nonexceptional", "def-wf-constant-weil-twist", "def-wf-middle-extension"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.isFourierNonexceptional_of_isNonexceptional", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.isNonexceptional_iff_isFourierNonexceptional"]
 +++

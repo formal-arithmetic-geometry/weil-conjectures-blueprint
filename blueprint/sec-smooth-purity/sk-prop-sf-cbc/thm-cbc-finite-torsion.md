@@ -2,7 +2,7 @@
 id = "thm-cbc-finite-torsion"
 kind = "theorem"
 title = "Compact-support base change at finite coefficients"
-order = 1529
+order = 1833
 uses = ["cor-cbc-derived-extension-zero-base-change", "def-cbc-compact-support-square", "def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "prop-compactification-coherence-detailed", "thm-nagata-compactification", "thm-weil-pbc-bounded-below"]
 +++
 Let $\square$ be a

@@ -2,7 +2,7 @@
 id = "lem-kun-derived-tensor-well-defined"
 kind = "lemma"
 title = "Independence of the K-flat model"
-order = 1684
+order = 1988
 uses = ["def-kun-derived-tensor", "def-weil-pbc-derived-categories"]
 +++
 Let $\Lambda$ be a commutative ring, $T$ a scheme, and let

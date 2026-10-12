@@ -2,7 +2,7 @@
 id = "lem-wf-l2-upper"
 kind = "lemma"
 title = "The $L^2$-weight is at most the weight"
-order = 2760
+order = 3064
 uses = ["def-weil-punctual-weights", "def-wf-l2-norm", "lem-wf-point-count-linear-growth"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.l2Weight_le_of_hasWeightsAtMost"]
 +++

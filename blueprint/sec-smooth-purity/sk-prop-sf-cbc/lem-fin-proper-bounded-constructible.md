@@ -2,7 +2,7 @@
 id = "lem-fin-proper-bounded-constructible"
 kind = "lemma"
 title = "Bounded constructible complexes under a proper direct image"
-order = 1624
+order = 1928
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "sbc-def-coefficient-conventions", "thm-constructible-serre", "thm-fin-proper-case", "thm-sp-truncation-e2"]
 +++
 Let $b:Y\to S$ be proper

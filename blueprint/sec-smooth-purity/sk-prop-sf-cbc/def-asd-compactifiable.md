@@ -2,7 +2,7 @@
 id = "def-asd-compactifiable"
 kind = "definition"
 title = "Compactifiable morphism"
-order = 1559
+order = 1863
 uses = ["def-weil-compactifications-refinements", "def-weil-scheme-morphism-properties", "thm-nagata-compactification"]
 +++
 A separated finite-type

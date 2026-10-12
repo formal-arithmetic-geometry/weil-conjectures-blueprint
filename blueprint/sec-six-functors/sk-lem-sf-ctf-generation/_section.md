@@ -2,7 +2,7 @@
 id = "sk-lem-sf-ctf-generation"
 kind = "lemma"
 title = "Finite/open generation of $\\Dctf$"
-order = 2219
+order = 2523
 uses = ["sk-lem-sf-determination", "sk-lem-sf-flat-model", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-ctf-stability"]
 lean = ["AlgebraicGeometry.Etale.ctf_generated_by_rightDerivedLowerStar_rightDerivedLowerShriek"]
 tags = ["sketch"]

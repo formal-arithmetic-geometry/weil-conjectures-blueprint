@@ -2,7 +2,7 @@
 id = "lem-kun-dimension-formula"
 kind = "lemma"
 title = "Dimension formula for finite type schemes"
-order = 1675
+order = 1979
 uses = ["def-kun-support"]
 +++
 Let $K$ be a field, $X$ a scheme of finite type over $K$, and

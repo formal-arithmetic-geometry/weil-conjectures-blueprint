@@ -2,7 +2,7 @@
 id = "rem-ptr-kun-derived-tensor-5"
 kind = "remark"
 title = "Pointer to the properties of [def-kun-derived-tensor]"
-order = 1724
+order = 2028
 uses = ["def-kun-derived-tensor", "lem-kun-derived-tensor-triangulated", "lem-kun-tensor-sym", "lem-kun-tensor-unit"]
 +++
 In the notation of [def-kun-derived-tensor], the following holds. The functoriality of the

@@ -2,7 +2,7 @@
 id = "thm-zl-wme-deligne-estimate"
 kind = "theorem"
 title = "General $Rf_!$ weight theorem"
-order = 2851
+order = 3155
 lean = ["AlgebraicGeometry.LAdicWeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
 uses = ["def-weil-complex-weights", "def-weil-pbc-qbar-category", "lem-zl-sheaves-to-complexes"]
 +++

@@ -2,7 +2,7 @@
 id = "prop-constructible-derived-subcategory"
 kind = "theorem"
 title = "The constructible derived category"
-order = 1523
+order = 1827
 lean = ["AlgebraicGeometry.Etale.DerivedCategory.boundedConstructible_isTriangulated", "AlgebraicGeometry.Etale.DerivedCategory.constructibleHomology_isTriangulated", "DerivedCategory.homologyProperty_isTriangulated"]
 tags = ["latex:proposition"]
 uses = ["def-constructible-constructible", "thm-constructible-serre"]

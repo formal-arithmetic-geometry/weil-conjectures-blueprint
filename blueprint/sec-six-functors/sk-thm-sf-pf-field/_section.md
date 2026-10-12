@@ -2,7 +2,7 @@
 id = "sk-thm-sf-pf-field"
 kind = "theorem"
 title = "Projection formula: rational and algebraically closed stages"
-order = 2097
+order = 2401
 uses = ["sk-thm-sf-pf-adic"]
 lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_field"]
 tags = ["sketch"]

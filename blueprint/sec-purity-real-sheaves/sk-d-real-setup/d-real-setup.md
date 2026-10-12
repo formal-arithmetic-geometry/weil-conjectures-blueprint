@@ -2,7 +2,7 @@
 id = "d-real-setup"
 kind = "remark"
 title = "Fields, curves and Frobenius"
-order = 2576
+order = 2880
 +++
 Fix $q=p^a$, $a\ge1$, an algebraic closure $k=\overline{\Fq}$, a prime
 $\ell\ne p$, and a field embedding $\iota:\Qlb\hookrightarrow\mathbf C$.

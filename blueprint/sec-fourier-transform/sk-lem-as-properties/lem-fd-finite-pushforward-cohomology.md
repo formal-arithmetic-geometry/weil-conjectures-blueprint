@@ -2,7 +2,7 @@
 id = "lem-fd-finite-pushforward-cohomology"
 kind = "lemma"
 title = "Cohomology of a finite pushforward"
-order = 2683
+order = 2987
 uses = ["def-fd-artin-schreier-sheaf", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-finite-direct-image-exact"]
 +++
 For a finite morphism $\pi:Y\to X_0$ and a torsion etale sheaf $\mathcal F$ on $Y$,

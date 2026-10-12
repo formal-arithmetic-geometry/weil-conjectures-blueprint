@@ -2,7 +2,7 @@
 id = "lem-sf-kunneth-coherence"
 kind = "lemma"
 title = "Coherence of the relative product"
-order = 2189
+order = 2493
 uses = ["def-compact-support-direct-image-detailed", "def-sf-pf", "lem-sf-mate", "prop-compactification-coherence-detailed", "prop-sf-pf-coherence", "thm-sf-comp-composition", "thm-sf-kunneth-relative", "thm-sf-pf-finite"]
 +++
 In the setting of [thm-sf-kunneth-relative], the isomorphism

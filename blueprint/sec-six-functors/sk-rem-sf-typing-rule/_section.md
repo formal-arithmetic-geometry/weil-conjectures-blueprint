@@ -2,7 +2,7 @@
 id = "sk-rem-sf-typing-rule"
 kind = "remark"
 title = "The typing rule of this section"
-order = 2042
+order = 2346
 tags = ["sketch"]
 +++
 An operation is introduced in this section *only on the ambient

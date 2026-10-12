@@ -2,7 +2,7 @@
 id = "sk-lem-orthogonality"
 kind = "lemma"
 title = "Orthogonality"
-order = 2673
+order = 2977
 lean = ["AddChar.sum_eq_ite", "AddChar.sum_mulShift"]
 uses = ["sk-def-char"]
 tags = ["sketch"]

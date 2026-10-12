@@ -2,7 +2,7 @@
 id = "lem-sc-zariski-flasque-acyclic"
 kind = "lemma"
 title = "Flasque sheaves are acyclic"
-order = 1556
+order = 1860
 uses = ["def-sc-zariski-cohomology", "def-sc-zariski-flasque"]
 +++
 For a flasque abelian sheaf

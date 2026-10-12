@@ -2,7 +2,7 @@
 id = "def-pur-compact-support-transport"
 kind = "definition"
 title = "Compact-support transport of a Weil datum"
-order = 2237
+order = 2541
 uses = ["def-coefficient-twists-detailed", "def-exchange-projection", "def-pur-conventions", "def-pur-scheme-geometric-frobenius", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions]), fix the

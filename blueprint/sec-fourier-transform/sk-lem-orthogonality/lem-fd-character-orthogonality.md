@@ -2,7 +2,7 @@
 id = "lem-fd-character-orthogonality"
 kind = "lemma"
 title = "Orthogonality of additive characters"
-order = 2674
+order = 2978
 lean = ["AddChar.sum_eq_ite"]
 uses = ["def-fd-additive-character"]
 +++

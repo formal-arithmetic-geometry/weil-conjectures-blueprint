@@ -2,7 +2,7 @@
 id = "lem-sf-tor-sheaf-constructible"
 kind = "lemma"
 title = "Tor sheaves of constructible sheaves"
-order = 2118
+order = 2422
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, $n\geq1$, and

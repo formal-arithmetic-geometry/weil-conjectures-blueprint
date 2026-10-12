@@ -2,7 +2,7 @@
 id = "thm-weil-final-functional-equation"
 kind = "theorem"
 title = "Weil conjectures V: functional equation"
-order = 2937
+order = 3241
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.WeilFunctionalEquation"]
 uses = ["def-weil-betti-numbers", "def-weil-determinant-constants", "def-weil-finite-field-fiber", "def-weil-functional-equation-sign", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "prop-duality-reciprocity", "prop-functional-equation", "prop-poincare-pairing", "thm-weil-final-betti", "thm-weil-final-integrality"]
 +++

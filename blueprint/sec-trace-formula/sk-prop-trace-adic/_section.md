@@ -2,7 +2,7 @@
 id = "sk-prop-trace-adic"
 kind = "proposition"
 title = "Adic realization"
-order = 2384
+order = 2688
 uses = ["sk-d-setup", "sk-d-six", "sk-d-weil", "sk-def-sf-weil-complexes", "sk-p-trace-coeff", "sk-prop-sf-trace-perfectness", "sk-thm-sf-ctf-stability"]
 lean = ["AlgebraicGeometry.ProEtale.derivedComplete_limit", "AlgebraicGeometry.ProEtale.nonempty_derivedCompletionDiagram_obj_limit_iso", "AlgebraicGeometry.ProEtale.nonempty_rightDerivedLowerShriek_obj_limit_iso", "AlgebraicGeometry.ProEtale.nonempty_leftDerivedUpperStar_obj_limit_iso"]
 tags = ["sketch"]

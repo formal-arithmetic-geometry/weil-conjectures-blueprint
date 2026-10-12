@@ -2,7 +2,7 @@
 id = "lem-pur-a1-components"
 kind = "lemma"
 title = "The connected components of the affine line over a base"
-order = 1958
+order = 2262
 uses = ["def-pur-conventions", "def-sbc-affine-space", "def-weil-scheme-morphism-properties", "sbc-lem-affine-space-smooth"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

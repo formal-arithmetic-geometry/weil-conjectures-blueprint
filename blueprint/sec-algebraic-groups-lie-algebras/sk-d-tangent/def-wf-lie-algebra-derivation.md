@@ -2,7 +2,7 @@
 id = "def-wf-lie-algebra-derivation"
 kind = "definition"
 title = "Tangent spaces, Lie algebras and rational actions"
-order = 2481
+order = 2785
 uses = ["def-wf-algebraic-representations", "def-wf-lie-algebra"]
 lean = ["AlgebraicGeometry.tangentGroup", "AlgebraicGeometry.GrpObj.Lie", "AlgebraicGeometry.GeneralLinearGroup.lieAlgebraEquivMatrix", "AlgebraicGeometry.GeneralLinearGroup.RationalHom", "AlgebraicGeometry.GeneralLinearGroup.RationalHom.differential"]
 +++

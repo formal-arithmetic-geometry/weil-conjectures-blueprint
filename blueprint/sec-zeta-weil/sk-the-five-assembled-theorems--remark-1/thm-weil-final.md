@@ -2,7 +2,7 @@
 id = "thm-weil-final"
 kind = "theorem"
 title = "Weil conjectures for a smooth proper variety"
-order = 2939
+order = 3243
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures"]
 uses = ["def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-euler-product", "thm-weil-final-betti", "thm-weil-final-functional-equation", "thm-weil-final-integrality", "thm-weil-final-rationality", "thm-weil-final-rh"]
 +++

@@ -2,7 +2,7 @@
 id = "rem-ptr-pod-conventions-3"
 kind = "remark"
 title = "Pointer to the properties of [def-pod-conventions]"
-order = 2407
+order = 2711
 uses = ["def-pod-conventions", "rem-sf-class-adjoint-residue", "rem-sf-finite-level-comparison-ingredient"]
 +++
 In the notation of [def-pod-conventions], the following holds. What this assumption still supplies is

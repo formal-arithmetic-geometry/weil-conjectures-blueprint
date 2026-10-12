@@ -2,7 +2,7 @@
 id = "lem-kun-dimension-extension"
 kind = "lemma"
 title = "Dimension after extension and restriction"
-order = 1729
+order = 2033
 uses = ["def-kun-dimension", "def-weil-pbc-scheme-conventions", "lem-kun-dimension-formula"]
 +++
 Let $X$ be a scheme of finite type over a field $K$. For every

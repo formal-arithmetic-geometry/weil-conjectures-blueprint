@@ -2,7 +2,7 @@
 id = "sk-def-char"
 kind = "definition"
 title = "Additive characters"
-order = 2671
+order = 2975
 lean = ["AddChar.FiniteField.primitiveChar"]
 uses = ["sk-def-fourier-set"]
 tags = ["sketch"]

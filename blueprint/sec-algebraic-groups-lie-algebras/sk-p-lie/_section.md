@@ -2,7 +2,7 @@
 id = "sk-p-lie"
 kind = "proposition"
 title = "Lie algebra structure"
-order = 2468
+order = 2772
 uses = ["sk-d-lie"]
 lean = ["LieAlgebra.hasCentralRadical_of_isFaithful", "LieAlgebra.center_sup_derivedSeries_eq_top"]
 tags = ["sketch"]

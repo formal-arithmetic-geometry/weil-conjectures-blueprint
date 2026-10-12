@@ -2,7 +2,7 @@
 id = "lem-exc-proetale-closed-essential-image"
 kind = "lemma"
 title = "The essential image of closed direct image"
-order = 1857
+order = 2161
 uses = ["def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "lem-exc-closed-localization", "lem-exc-open-closed-detection", "lem-exc-proetale-closed-fully-faithful", "prop-weil-pbc-proetale-constant-exact"]
 +++
 For a closed immersion $i:Z\hookrightarrow X$ with quasi-compact open

@@ -2,7 +2,7 @@
 id = "prop-trf-trace-additivity-open-closed"
 kind = "theorem"
 title = "Additivity of the Frobenius traces along an open–closed decomposition"
-order = 2373
+order = 2677
 tags = ["latex:proposition"]
 uses = ["def-exchange-projection", "def-trf-categorical-trace", "def-trf-frobenius-coefficient-morphism", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "def-trf-weil-extension-zero", "fix-lem-exchanges", "lem-trf-adjoint-mate", "lem-trf-frobenius-open-square", "lem-trf-frobenius-operator-compact-description", "lem-trf-open-square-exchange", "prop-functor-package", "prop-sf-open-closed-triangle-all-stages", "prop-trf-compact-support-perfectness", "prop-trf-graph-operator", "prop-trf-trace-formal-laws", "prop-weil-open-closed-recollement-adjunctions", "thm-sf-ctf-stability"]
 +++

@@ -2,7 +2,7 @@
 id = "cor-zl-hasse-bound"
 kind = "theorem"
 title = "Hasse–Weil bound"
-order = 2915
+order = 3219
 tags = ["latex:corollary"]
 uses = ["cor-trf-point-counting", "def-sc-curves", "def-sc-genus", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-geometric-hypotheses", "def-weil-rationalization-karoubi", "prop-cohomological-finiteness", "prop-endpoints", "prop-weight-purity-roots", "thm-sc-proper-cohomology"]
 +++

@@ -2,7 +2,7 @@
 id = "fix-prop-adjunctions"
 kind = "theorem"
 title = "Adjunctions of the datum"
-order = 1872
+order = 2176
 tags = ["latex:proposition"]
 uses = ["def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-integral-rational-qbar-compact-support", "def-weil-pbc-derived-categories", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "fix-lem-exchanges", "lem-weil-derived-direct-image-composition", "lem-weil-derived-tensor-resolution-independent", "thm-sf-comp-composition"]
 +++

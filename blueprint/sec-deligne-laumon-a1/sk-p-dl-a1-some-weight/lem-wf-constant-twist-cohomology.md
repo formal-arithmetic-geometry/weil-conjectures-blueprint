@@ -2,7 +2,7 @@
 id = "lem-wf-constant-twist-cohomology"
 kind = "lemma"
 title = "Projection formula for a constant twist"
-order = 2772
+order = 3076
 uses = ["def-weil-pbc-scheme-conventions", "def-wf-constant-weil-twist", "fix-prop-projection-formula"]
 +++
 In the setting of [def-wf-constant-weil-twist], let

@@ -2,7 +2,7 @@
 id = "def-weil-sequence-subspace"
 kind = "definition"
 title = "Vector subspaces of a sequence space"
-order = 2886
+order = 3190
 +++
 Let $K$ be a field.
 The sequence space $K^{\mathbf Z_{\geq0}}$ has coordinatewise addition

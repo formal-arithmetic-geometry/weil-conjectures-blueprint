@@ -2,7 +2,7 @@
 id = "prop-pur-a1-invariance"
 kind = "theorem"
 title = "Invariance along the affine line"
-order = 1961
+order = 2265
 tags = ["latex:proposition"]
 uses = ["def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-a1-components", "lem-pur-lisse-uniqueness"]
 +++

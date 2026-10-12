@@ -2,7 +2,7 @@
 id = "lem-weil-geometric-generic-exchange"
 kind = "lemma"
 title = "Geometric generic restriction and the boundary operations"
-order = 2126
+order = 2430
 uses = ["def-weil-open-closed-recollement", "def-weil-site-perfect-complex", "lem-exc-closed-amplitude", "lem-exc-closed-support-triangle", "lem-weil-bounded-finite-tor-perfect", "lem-weil-pbc-derived-cohomology-continuity", "lem-weil-stratum-ambient-hom", "sbc-thm-bounded-below-derived-smooth-base-change", "thm-dg-finite-type-constructibility", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $B$ be a smooth integral curve over $k$, let

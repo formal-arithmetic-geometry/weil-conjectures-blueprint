@@ -2,7 +2,7 @@
 id = "lem-mg-filtered-exterior-power"
 kind = "lemma"
 title = "Exterior power of a filtered representation"
-order = 2546
+order = 2850
 uses = ["def-mg-weil-composition-series"]
 +++
 Let $0=V_0\subsetneq\cdots\subsetneq V_t=V$ be a

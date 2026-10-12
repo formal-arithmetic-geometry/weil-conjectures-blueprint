@@ -2,7 +2,7 @@
 id = "def-pur-smooth-purity-map"
 kind = "definition"
 title = "Smooth purity map"
-order = 2012
+order = 2316
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-cohomological-smoothness"]
 +++
 Work in the purity conventions of [def-pur-conventions], let

@@ -2,7 +2,7 @@
 id = "sk-i-real-normalization"
 kind = "proposition"
 title = "One-dimensional Noether normalization"
-order = 2647
+order = 2951
 uses = ["sk-d-real-setup"]
 lean = ["exists_finite_inj_algHom_polynomial_of_ringKrullDim_eq_one"]
 tags = ["sketch"]

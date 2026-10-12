@@ -2,7 +2,7 @@
 id = "prop-trf-karoubi-independence"
 kind = "theorem"
 title = "Representative independence of the summand trace"
-order = 2398
+order = 2702
 tags = ["latex:proposition"]
 uses = ["def-trf-categorical-trace", "def-trf-karoubi-trace", "def-weil-finite-field-fiber", "def-weil-pbc-qbar-category", "prop-trf-trace-formal-laws", "thm-trf-trace-formula-e"]
 +++

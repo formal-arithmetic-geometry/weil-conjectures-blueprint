@@ -2,7 +2,7 @@
 id = "lem-kun-compactification-affine"
 kind = "lemma"
 title = "Compactification of an affine scheme"
-order = 1746
+order = 2050
 uses = ["def-kun-dimension", "def-kun-projective", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be an affine scheme of finite type over a field $K$. There

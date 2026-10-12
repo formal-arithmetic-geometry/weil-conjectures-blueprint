@@ -2,7 +2,7 @@
 id = "sk-thm-weil4"
 kind = "theorem"
 title = "Weil conjectures IV: Betti symmetry"
-order = 2933
+order = 3237
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.WeilFunctionalEquation.natDegree_rev"]
 uses = ["sk-thm-betti"]
 tags = ["sketch"]

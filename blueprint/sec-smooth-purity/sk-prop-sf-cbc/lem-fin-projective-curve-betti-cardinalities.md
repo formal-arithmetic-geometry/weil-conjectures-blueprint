@@ -2,7 +2,7 @@
 id = "lem-fin-projective-curve-betti-cardinalities"
 kind = "lemma"
 title = "Betti cardinalities in a smooth projective curve family"
-order = 1610
+order = 1914
 uses = ["def-pc-projective-morphism", "def-sbc-smooth-morphisms", "def-sc-curves", "def-sc-genus", "def-sc-mu-trivialization", "def-weil-pbc-etale-cohomology", "def-weil-pbc-scheme-conventions", "lem-fin-projective-flat-coherent-ranks", "lem-sc-cohomological-dimension", "lem-sc-global-functions", "thm-sc-proper-cohomology"]
 +++
 Let $S$ be Noetherian

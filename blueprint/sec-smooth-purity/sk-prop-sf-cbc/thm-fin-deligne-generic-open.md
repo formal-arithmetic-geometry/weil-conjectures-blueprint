@@ -2,7 +2,7 @@
 id = "thm-fin-deligne-generic-open"
 kind = "theorem"
 title = "Generic bounded constructibility for an open immersion"
-order = 1637
+order = 1941
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-asd-smooth-generic-direct-image", "lem-fin-closed-immersion", "lem-fin-coordinate-generic-dimension", "lem-fin-finite-boundary-comparison", "lem-fin-finite-boundary-reconstruction", "lem-fin-generic-radicial-smoothing", "lem-fin-projective-coordinate-boundary", "lem-fin-radicial-exchange-descent", "lemma-weil-pbc-finite-exchange", "sbc-def-base-change-map", "sbc-lem-base-change-composition", "thm-constructible-serre", "thm-sp-truncation-e2", "thm-weil-pbc-bounded-below", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $S$ be integral and of finite type over a field $k$, let

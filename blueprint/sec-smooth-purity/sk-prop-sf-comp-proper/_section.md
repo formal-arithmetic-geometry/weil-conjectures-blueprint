@@ -2,7 +2,7 @@
 id = "sk-prop-sf-comp-proper"
 kind = "proposition"
 title = "Proper coincidence"
-order = 1875
+order = 2179
 uses = ["sk-def-sf-exchanges", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-thm-properbasechange"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_rightDerivedLowerStar"]
 tags = ["sketch"]

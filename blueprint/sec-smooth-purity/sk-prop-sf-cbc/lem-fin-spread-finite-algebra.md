@@ -2,7 +2,7 @@
 id = "lem-fin-spread-finite-algebra"
 kind = "lemma"
 title = "Spreading a finite algebra from the generic fibre"
-order = 1612
+order = 1916
 uses = ["def-weil-pbc-scheme-conventions", "lem-pc-section-clearing-denominators", "pqf-def-coherent"]
 +++
 Let $A$ be a Noetherian domain with fraction field $K$, and let

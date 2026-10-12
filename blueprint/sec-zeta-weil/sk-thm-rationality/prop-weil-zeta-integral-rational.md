@@ -2,7 +2,7 @@
 id = "prop-weil-zeta-integral-rational"
 kind = "theorem"
 title = "The zeta series is integral and rational"
-order = 2892
+order = 3196
 tags = ["latex:proposition"]
 uses = ["def-weil-point-counts-zeta", "prop-euler-product", "prop-rational-descent"]
 +++

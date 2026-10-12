@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-some-weight"
 kind = "proposition"
 title = "The generic Fourier sheaf is pure of some weight"
-order = 2770
+order = 3074
 uses = ["sk-p-dl-a1-correction", "sk-p-real-purity", "sk-p-real-semi", "sk-prop-kernel-lisse", "sk-thm-fourier-trace-formula"]
 lean = ["AlgebraicGeometry.exists_isPunctuallyPureOfWeight_of_isFourierPartner"]
 tags = ["sketch"]

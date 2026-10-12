@@ -2,7 +2,7 @@
 id = "lem-a1-extension-bounds"
 kind = "lemma"
 title = "Extension bounds for Frobenius modules"
-order = 2790
+order = 3094
 uses = ["def-weil-frobenius-module-weights"]
 +++
 Let $0\to V'\to V\to V''\to 0$ be an exact sequence of Frobenius
