@@ -2,7 +2,7 @@
 id = "def-weil-cohomological-support"
 kind = "definition"
 title = "Cohomological support"
-order = 1762
+order = 1813
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-pbc-proetale-site"]
 +++
 For a complex $K$ of sheaves on the small pro-etale site

@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-proetale-constant-exact"
 kind = "theorem"
 title = "Exactness of the pro-etale inverse image for constant coefficients"
-order = 1236
+order = 1303
 uses = ["def-weil-pbc-inverse-image", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-inverse-image-exact", "prop-weil-pbc-proetale-constant-ring-map"]
 tags = ["latex:proposition"]
 +++

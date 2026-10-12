@@ -2,7 +2,7 @@
 id = "def-nagata-qc-open-equality-stage"
 kind = "definition"
 title = "Stage of equality for descended quasi-compact opens"
-order = 349
+order = 356
 uses = ["def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 Let $W_{1,\lambda_0},W_{2,\lambda_0}\subseteq Y_{\lambda_0}$ be

@@ -2,7 +2,7 @@
 id = "lem-pod-point-dualizing-complex"
 kind = "lemma"
 title = "Dualizing complex of the point"
-order = 2551
+order = 2587
 uses = ["def-pod-conventions", "def-pod-perfect-point-complex", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-coefficient-point", "def-weil-geometric-hypotheses"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting),

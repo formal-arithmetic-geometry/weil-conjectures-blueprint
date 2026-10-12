@@ -2,7 +2,7 @@
 id = "sk-def-sfb-coefficient-change"
 kind = "definition"
 title = "Change of condensed coefficients"
-order = 1665
+order = 1716
 uses = ["sk-def-sfb-coefficient-morphisms", "sk-def-sfb-derived-extension-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientMap", "AlgebraicGeometry.ProEtale.coefficientMap_id", "AlgebraicGeometry.ProEtale.coefficientMap_comp", "AlgebraicGeometry.ProEtale.map_coefficientMap_comp_condensedPullbackHom", "AlgebraicGeometry.ProEtale.condensedPushforwardHom_comp_map_coefficientMap"]
 tags = ["sketch"]

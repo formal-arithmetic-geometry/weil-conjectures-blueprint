@@ -2,7 +2,7 @@
 id = "lemma-nagata-ideal-directed-union-finite-type"
 kind = "lemma"
 title = "An ideal is the directed union of its finite type subideals, [stacks-project]"
-order = 205
+order = 212
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.directedOn_ofFiniteType_le", "AlgebraicGeometry.Scheme.IdealSheafData.exists_ofFiniteType_le_comap_eq_top_of_le", "AlgebraicGeometry.Scheme.IdealSheafData.sSup_ofFiniteType_le_comap_eq_top_eq", "AlgebraicGeometry.Scheme.IdealSheafData.sSup_ofFiniteType_le_eq"]
 uses = ["def-nagata-extended-ideal"]
 +++

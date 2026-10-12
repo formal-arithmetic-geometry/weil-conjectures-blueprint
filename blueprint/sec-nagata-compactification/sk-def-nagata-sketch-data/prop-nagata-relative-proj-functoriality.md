@@ -2,7 +2,7 @@
 id = "prop-nagata-relative-proj-functoriality"
 kind = "theorem"
 title = "Restriction, base change, and functoriality of Proj"
-order = 44
+order = 52
 tags = ["latex:proposition"]
 uses = ["def-nagata-relative-proj", "lemma-nagata-proj-chart-ring-cocycle", "lemma-nagata-relative-proj-exists"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-pc-coherent-hi"
 kind = "lemma"
 title = "Coherence and finiteness of higher direct images"
-order = 659
+order = 665
 uses = ["def-pc-morphism-conventions", "lem-pc-finite-support-hi", "lem-pc-projective-coherent-higher-images"]
 lean = ["AlgebraicGeometry.Scheme.Modules.isFinitePresentation_higherDirectImage", "AlgebraicGeometry.Scheme.Modules.finite_sections_higherDirectImage", "AlgebraicGeometry.Scheme.Modules.exists_isZero_higherDirectImage_restrict", "AlgebraicGeometry.Scheme.Modules.exists_isZero_higherDirectImage"]
 +++

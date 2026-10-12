@@ -2,7 +2,7 @@
 id = "lem-galois-axioms"
 kind = "lemma"
 title = "Consequences of the axioms"
-order = 970
+order = 978
 uses = ["def-galois-category"]
 +++
 Let $(\mathcal C,F)$ be a Galois category. Then:

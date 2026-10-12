@@ -2,7 +2,7 @@
 id = "lem-rp-even-tensor-positivity"
 kind = "lemma"
 title = "Even tensor powers of a real sheaf are positive"
-order = 2965
+order = 3001
 uses = ["def-real-weil-representation-operations", "def-weil-pbc-scheme-conventions", "def-wf-iota-real", "def-wf-weil-category", "p-linear-spectra"]
 +++
 Let $\mathcal G_0$ be a lisse

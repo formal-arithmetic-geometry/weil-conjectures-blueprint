@@ -2,7 +2,7 @@
 id = "lem-finrepair-finite-surjection-cancellation"
 kind = "lemma"
 title = "Constructibility descends through a finite surjection"
-order = 1902
+order = 1944
 uses = ["def-finrepair-property-c", "def-weil-pbc-scheme-conventions", "lem-fin-finite-morphism", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative", "thm-constructible-serre", "thm-sp-if-e1"]
 +++
 Let $f:X\to S$ be a morphism between schemes of finite type over $k$,

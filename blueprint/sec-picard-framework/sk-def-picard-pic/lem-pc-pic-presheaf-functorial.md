@@ -2,7 +2,7 @@
 id = "lem-pc-pic-presheaf-functorial"
 kind = "lemma"
 title = "The Picard presheaf is a functor"
-order = 803
+order = 809
 uses = ["def-pc-base-change", "def-pc-picard-presheaf", "def-sc-invertible-module", "lem-pc-tensor-dual-invertible"]
 +++
 Let $f:X\to S$ be a morphism of schemes. The assignment of

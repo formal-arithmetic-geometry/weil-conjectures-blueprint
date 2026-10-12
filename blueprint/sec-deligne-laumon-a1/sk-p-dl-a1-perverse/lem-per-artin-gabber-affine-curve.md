@@ -2,7 +2,7 @@
 id = "lem-per-artin-gabber-affine-curve"
 kind = "lemma"
 title = "Affine pushforward is perverse up to the relative dimension"
-order = 3047
+order = 3083
 uses = ["def-per-perverse-subcategories", "def-weil-derived-cohomology-sheaves", "def-weil-open-closed-recollement", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "fix-cor-verdier-exchange", "lem-sc-cohomological-dimension", "lemma-weil-pbc-etale-cohomology-continuity", "prop-sf-open-closed-triangle-all-stages"]
 +++
 Let $f:X\to Y$ be an

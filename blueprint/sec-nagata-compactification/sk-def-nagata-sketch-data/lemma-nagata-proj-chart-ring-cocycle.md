@@ -2,7 +2,7 @@
 id = "lemma-nagata-proj-chart-ring-cocycle"
 kind = "lemma"
 title = "Coherence of the standard Proj chart rings"
-order = 9
+order = 17
 uses = ["def-nagata-homogeneous-localization-degree-zero"]
 +++
 For positive-degree homogeneous $f,g,h$, localization induces canonical

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-adic-completion-reduction"
 kind = "lemma"
 title = "Finite reduction of adic completion"
-order = 1260
+order = 1327
 uses = ["lemma-weil-pbc-koszul-quotient-limit"]
 +++
 For every $a\geq1$, projection to level $a$ induces a functorial

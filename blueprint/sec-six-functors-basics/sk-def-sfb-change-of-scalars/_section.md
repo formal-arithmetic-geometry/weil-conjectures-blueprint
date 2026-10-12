@@ -2,7 +2,7 @@
 id = "sk-def-sfb-change-of-scalars"
 kind = "definition"
 title = "Restriction, extension and coextension of scalars"
-order = 1529
+order = 1580
 uses = ["sk-prop-sfb-module-category"]
 lean = ["CategoryTheory.Mod.comap", "CategoryTheory.Mod.extendScalars", "CategoryTheory.Mod.extendRestrictAdjunction", "CategoryTheory.Mod.preservesFiniteColimits_extendScalars", "CategoryTheory.Mod.instPreservesLimitsOfSizeComap_weilConjectures", "CategoryTheory.Mod.coextendScalars", "CategoryTheory.Mod.restrictCoextendAdjunction", "CategoryTheory.Mod.instPreservesColimitsOfSizeComap_weilConjectures", "CategoryTheory.Mod.comapEquivalenceOfIsIso", "CategoryTheory.Mod.extendScalarsIsoComapInv", "CategoryTheory.Mod.coextendScalarsIsoComapInv", "CategoryTheory.Mod.extendScalarsIsoCoextendScalars"]
 tags = ["sketch"]

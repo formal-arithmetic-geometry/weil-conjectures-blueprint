@@ -2,7 +2,7 @@
 id = "lem-sc-artin-schreier-k"
 kind = "lemma"
 title = "Artin–Schreier on algebraically closed fields"
-order = 566
+order = 572
 +++
 Let $k$ be an algebraically closed field of characteristic
 $p>0$. Then the Artin–Schreier map

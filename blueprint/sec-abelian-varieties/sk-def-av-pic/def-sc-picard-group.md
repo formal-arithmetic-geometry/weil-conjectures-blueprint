@@ -3,7 +3,7 @@ id = "def-sc-picard-group"
 kind = "definition"
 title = "The Picard group"
 lean = ["AlgebraicGeometry.Scheme.Pic"]
-order = 443
+order = 453
 uses = ["def-sc-curves", "def-sc-invertible-module"]
 +++
 Let $C$ be a curve. The

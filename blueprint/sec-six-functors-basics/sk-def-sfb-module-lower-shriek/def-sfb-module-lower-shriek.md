@@ -2,7 +2,7 @@
 id = "def-sfb-module-lower-shriek"
 kind = "definition"
 title = "Lower shriek of module objects"
-order = 1644
+order = 1695
 uses = ["def-sfb-module-compactification-lower-shriek", "sk-def-sfb-finite-lower-shriek"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.lowerShriek"]
 +++

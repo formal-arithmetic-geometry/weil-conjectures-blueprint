@@ -2,7 +2,7 @@
 id = "def-pc-zariski-sheaf-property"
 kind = "definition"
 title = "Zariski sheaf property of a functor"
-order = 778
+order = 784
 uses = ["def-pc-scheme"]
 +++
 Let $F:(\mathit{Sch})^{\mathrm{op}}\to\textit{Sets}$ be a functor. $F$

@@ -2,7 +2,7 @@
 id = "lem-kun-kunneth-map-agrees"
 kind = "lemma"
 title = "Compatibility of the Kunneth map with Leray, proper base change and the projection formula"
-order = 2047
+order = 2085
 uses = ["def-kun-derived-tensor", "def-kun-kunneth-map", "def-kun-unbounded-exchange", "def-weil-pbc-inverse-image", "lem-kun-0f0c", "lem-kun-0f0e", "lem-kun-0f0f", "lem-kun-0f0g", "lem-kun-0f10", "lem-kun-0f12", "lem-kun-inverse-image-monoidal", "lem-kun-leray-bdd", "lem-kun-leray-unbdd", "lem-kun-pullback-constant", "lem-kun-tensor-sym", "lem-kun-tensor-unit", "lem-kun-unbounded-exchange-natural", "lem-weil-pbc-exchange-identity-pasting", "thm-weil-pbc-bounded-below"]
 +++
 Let $k$ be a separably closed field, $X$ a proper scheme over

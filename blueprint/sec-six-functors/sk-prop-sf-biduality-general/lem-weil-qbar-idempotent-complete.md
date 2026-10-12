@@ -2,7 +2,7 @@
 id = "lem-weil-qbar-idempotent-complete"
 kind = "lemma"
 title = "Idempotent completeness of the common-stage category"
-order = 2419
+order = 2455
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-karoubi-envelope", "def-weil-rationalization-karoubi", "prop-weil-filtered-retract-descent", "thm-weil-pbc-finite-stage-karoubian"]
 +++
 Fix the global finite-field datum [def-weil-finite-field-fiber], a prime

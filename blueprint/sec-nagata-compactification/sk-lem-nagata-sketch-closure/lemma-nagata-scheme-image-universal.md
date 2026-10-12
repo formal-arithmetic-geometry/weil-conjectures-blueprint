@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-image-universal"
 kind = "lemma"
 title = "Universal property of the scheme-theoretic image"
-order = 71
+order = 79
 lean = ["AlgebraicGeometry.IsClosedImmersion.lift"]
 uses = ["def-nagata-scheme-image-comparison"]
 +++

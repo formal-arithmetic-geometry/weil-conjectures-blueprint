@@ -2,7 +2,7 @@
 id = "prop-nagata-proj-standard-open"
 kind = "theorem"
 title = "Standard affine opens of Proj"
-order = 11
+order = 19
 lean = ["AlgebraicGeometry.Proj.basicOpenIsoSpec", "AlgebraicGeometry.Proj.iSup_basicOpen_eq_top"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-affine-proj", "def-nagata-homogeneous-localization-degree-zero", "lemma-nagata-proj-chart-ring-cocycle"]

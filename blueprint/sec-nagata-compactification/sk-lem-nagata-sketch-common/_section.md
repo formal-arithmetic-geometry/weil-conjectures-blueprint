@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-common"
 kind = "lemma"
 title = "Common modification"
-order = 234
+order = 241
 lean = ["AlgebraicGeometry.nonempty_commonModification"]
 tags = ["sketch"]
 +++

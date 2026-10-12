@@ -2,7 +2,7 @@
 id = "lem-sfb-dc-hom-preserves"
 kind = "lemma"
 title = "$\\RHom$ preserves bounded constructible complexes ($\\ell$-adic $\\Lambda$)"
-order = 1733
+order = 1784
 uses = ["sk-def-sfb-bounded-constructible", "sk-def-sfb-condensed-ring", "sk-def-sfb-dc-setting", "sk-def-sfb-derived-tensor-hom", "sk-def-sfb-qlbar-condensed"]
 +++
 Let $\Lambda$ be one of $\underline{\cO}_E$, $\underline E$ ($E/\mathbf Q_\ell$ finite;

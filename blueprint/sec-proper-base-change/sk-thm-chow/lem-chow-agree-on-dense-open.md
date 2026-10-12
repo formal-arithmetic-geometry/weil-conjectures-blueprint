@@ -2,7 +2,7 @@
 id = "lem-chow-agree-on-dense-open"
 kind = "lemma"
 title = "Two morphisms agreeing on a scheme-theoretically dense open"
-order = 1056
+order = 1088
 lean = ["AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant"]
 uses = ["def-nagata-dense-compactification", "def-nagata-scheme-theoretic-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-closed-immersion-products"]
 +++

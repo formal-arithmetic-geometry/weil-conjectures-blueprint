@@ -2,7 +2,7 @@
 id = "prop-sf-pf-coherence"
 kind = "theorem"
 title = "Coherence of the projection formula"
-order = 2406
+order = 2442
 tags = ["latex:proposition"]
 uses = ["def-sf-datum", "def-sf-pf", "fix-prop-adjunctions", "prop-sf-pf-reduction", "thm-sf-pf-field", "thm-sf-pf-proetale", "thm-sf-comp-composition"]
 +++

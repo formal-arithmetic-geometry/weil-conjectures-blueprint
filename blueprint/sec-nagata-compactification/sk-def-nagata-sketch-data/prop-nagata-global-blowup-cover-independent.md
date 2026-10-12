@@ -2,7 +2,7 @@
 id = "prop-nagata-global-blowup-cover-independent"
 kind = "theorem"
 title = "The global blow-up map, its affine restrictions, and independence of the affine cover"
-order = 56
+order = 64
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowup", "AlgebraicGeometry.Scheme.IdealSheafData.blowupMap", "AlgebraicGeometry.Scheme.IdealSheafData.blowupMap_preimage", "AlgebraicGeometry.Scheme.IdealSheafData.blowupι_blowupMap", "AlgebraicGeometry.Scheme.IdealSheafData.isPullback_blowupι"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-global-blowup", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-global-blowup-overlap-cocycle", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-affine-blowup-restrict", "prop-nagata-rees-graded"]

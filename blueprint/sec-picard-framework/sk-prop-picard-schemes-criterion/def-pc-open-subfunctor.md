@@ -2,7 +2,7 @@
 id = "def-pc-open-subfunctor"
 kind = "definition"
 title = "Subfunctors representable by open immersions"
-order = 779
+order = 785
 uses = ["def-pc-scheme", "def-pc-subfunctor"]
 +++
 Let $F:(\mathit{Sch})^{\mathrm{op}}\to\textit{Sets}$ be a functor and

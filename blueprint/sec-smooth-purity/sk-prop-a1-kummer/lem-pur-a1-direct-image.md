@@ -2,7 +2,7 @@
 id = "lem-pur-a1-direct-image"
 kind = "lemma"
 title = "The affine line has no higher direct images"
-order = 2238
+order = 2274
 uses = ["def-pur-conventions", "def-weil-derived-direct-image", "fix-prop-adjunctions", "lem-weil-derived-direct-image-composition", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-strict-henselization-stalk-formula", "sbc-def-base-change-map", "sbc-lem-strict-henselian-constant-cohomology", "sbc-thm-smooth-base-change", "thm-pur-kummer-affine-line", "thm-weil-pbc-site-comparison"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

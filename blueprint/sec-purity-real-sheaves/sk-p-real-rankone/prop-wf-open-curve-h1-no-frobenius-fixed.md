@@ -2,7 +2,7 @@
 id = "prop-wf-open-curve-h1-no-frobenius-fixed"
 kind = "theorem"
 title = "No Frobenius-fixed compatible class on an open normal curve"
-order = 2929
+order = 2965
 tags = ["latex:proposition"]
 uses = ["def-tw-frobenius-action", "def-weil-pbc-scheme-conventions", "lem-wf-curve-normal-smooth-compactification", "lem-wf-open-curve-residue-sequence", "lem-wf-proper-curve-compatible-h1-no-fixed"]
 +++

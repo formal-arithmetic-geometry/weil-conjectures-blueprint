@@ -2,7 +2,7 @@
 id = "lem-sc-riemann-roch"
 kind = "lemma"
 title = "Riemann–Roch on a proper smooth curve"
-order = 706
+order = 712
 uses = ["def-sc-curves", "def-sc-function-field", "def-sc-genus", "def-sc-invertible-module", "def-sc-pic0"]
 lean = ["AlgebraicGeometry.Scheme.eulerChar_free_eq", "AlgebraicGeometry.Scheme.eulerChar_unit_eq"]
 +++

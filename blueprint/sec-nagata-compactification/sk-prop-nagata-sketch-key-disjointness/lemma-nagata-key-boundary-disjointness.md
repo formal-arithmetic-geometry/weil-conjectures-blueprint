@@ -2,7 +2,7 @@
 id = "lemma-nagata-key-boundary-disjointness"
 kind = "lemma"
 title = "Prepared boundaries, the comparison boundary, and key disjointness"
-order = 272
+order = 279
 lean = ["AlgebraicGeometry.TwoOpenSide.KeyDisjoint", "AlgebraicGeometry.TwoOpenSide.admissibleBlowup", "AlgebraicGeometry.TwoOpenSide.isIso_comparisonFst_restrict_isoOpen", "AlgebraicGeometry.TwoOpenSide.isProper_comparisonFst", "AlgebraicGeometry.TwoOpenSide.isProper_comparisonSnd", "AlgebraicGeometry.exists_admissibleBlowup_comparisonBoundary_subset_selfBoundary", "AlgebraicGeometry.exists_prepared_keyDisjoint_twoOpenSide", "AlgebraicGeometry.exists_prepared_twoOpenSide"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-compactifiable", "def-nagata-isomorphism-near-closure", "def-nagata-maximal-isomorphism-open", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-separate-constructible-closed", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-comparison-space", "def-nagata-two-open-dense-compactifications", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-boundary-loci", "lemma-nagata-maximal-isomorphism-open", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-restrict-open", "lemma-nagata-scheme-image-strict-transform", "lemma-nagata-scheme-image-universal"]
 +++

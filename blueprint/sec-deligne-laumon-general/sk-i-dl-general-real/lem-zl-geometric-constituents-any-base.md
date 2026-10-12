@@ -2,7 +2,7 @@
 id = "lem-zl-geometric-constituents-any-base"
 kind = "lemma"
 title = "Geometric constituents after a constant extension on any base"
-order = 3137
+order = 3173
 lean = ["Representation.exists_filtration_isIrreducible_restrict"]
 uses = ["def-weil-pbc-qbar-category", "def-wf-fundamental-representation", "def-wf-weil-group", "lem-mg-normal-restriction-semisimple", "lem-wf-finite-index-restriction-semisimple", "lem-wf-schur-scalar", "lem-wf-weil-group-constant-extension"]
 +++

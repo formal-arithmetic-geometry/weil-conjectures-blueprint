@@ -2,7 +2,7 @@
 id = "lem-wf-l2-purity-rigidity"
 kind = "lemma"
 title = "The $L^2$-weight of a punctually pure lisse sheaf equals its weight"
-order = 3070
+order = 3106
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist", "def-wf-iota-real", "def-wf-l2-norm", "lem-tw-dual-negation"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.l2Weight_eq_of_isPunctuallyPureOfWeight"]
 +++

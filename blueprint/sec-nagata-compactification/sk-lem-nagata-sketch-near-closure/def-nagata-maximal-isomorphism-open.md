@@ -2,7 +2,7 @@
 id = "def-nagata-maximal-isomorphism-open"
 kind = "definition"
 title = "Maximal isomorphism open"
-order = 257
+order = 264
 lean = ["AlgebraicGeometry.Scheme.Hom.maximalIsomorphismOpen"]
 +++
 For a morphism $q\colon Z\to X$, define $\operatorname{IsoOpen}(q)$ to be

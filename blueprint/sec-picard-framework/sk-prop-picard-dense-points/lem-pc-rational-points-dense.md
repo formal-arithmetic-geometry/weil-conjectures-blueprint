@@ -2,7 +2,7 @@
 id = "lem-pc-rational-points-dense"
 kind = "lemma"
 title = "Rational points on smooth schemes over separably closed fields"
-order = 752
+order = 759
 uses = ["def-pc-separably-closed", "lem-pc-sepclosed-finite-sep-trivial"]
 lean = ["AlgebraicGeometry.Scheme.Hom.denseRange_fieldPoints", "AlgebraicGeometry.Scheme.Hom.nonempty_fieldPoints"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sf-fullcd-class-restriction"
 kind = "lemma"
 title = "The coefficient class is stable under restriction to a pro-étale base change"
-order = 2102
+order = 2140
 uses = ["def-sf-fullcd-used-class", "def-weil-pbc-etale-sheaves", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-pullback"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, an integer

@@ -2,7 +2,7 @@
 id = "sk-prop-picard-dense-points"
 kind = "proposition"
 title = "Zariski density of rational points"
-order = 746
+order = 753
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.Scheme.Hom.denseRange_fieldPoints"]
 tags = ["sketch"]

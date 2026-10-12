@@ -3,7 +3,7 @@ id = "sk-def-av-tate"
 kind = "definition"
 title = "$\\ell$-adic Tate module"
 lean = ["AlgebraicGeometry.IsAbelianVariety.tateModule"]
-order = 469
+order = 475
 tags = ["sketch"]
 +++
 Let $A$ be an abelian variety over a field $k$, with algebraic closure

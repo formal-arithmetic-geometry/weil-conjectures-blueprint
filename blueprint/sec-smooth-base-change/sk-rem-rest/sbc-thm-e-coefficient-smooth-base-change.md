@@ -2,7 +2,7 @@
 id = "sbc-thm-e-coefficient-smooth-base-change"
 kind = "theorem"
 title = "$E$-coefficient smooth base change"
-order = 1445
+order = 1496
 uses = ["def-weil-pbc-rational-category", "sbc-def-admissible-lattices", "sbc-def-base-change-square", "sbc-thm-adic-smooth-base-change", "sbc-thm-smooth-base-change"]
 +++
 In the square of

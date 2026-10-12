@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-proj-invertible-tensor-powers-affine"
 kind = "lemma"
 title = "Affine chart calculation for an invertible tensor algebra"
-order = 108
+order = 116
 uses = ["def-nagata-invertible-ideal", "def-nagata-relative-proj", "prop-nagata-proj-standard-open"]
 +++
 Let $V=\operatorname{Spec}(A)$ be an affine open on which the invertible

@@ -2,7 +2,7 @@
 id = "sk-def-sfb-pullback-from-point-comp"
 kind = "definition"
 title = "$f^*\\circ p_Y^*\\cong p_X^*$"
-order = 1500
+order = 1551
 uses = ["sk-def-sfb-pullback-from-point"]
 lean = ["AlgebraicGeometry.ProEtale.upperStarFromPointComp", "AlgebraicGeometry.ProEtale.isMonoidal_upperStarFromPointComp"]
 tags = ["sketch"]

@@ -1,7 +1,7 @@
 +++
 id = "the-final-theorem--remark-1"
 kind = "remark"
-order = 1362
+order = 1421
 +++
 Only the six theorems of §§ *The six theorems* are statements; every other fact used
 in the proofs is argued inline (finite morphisms, composition,

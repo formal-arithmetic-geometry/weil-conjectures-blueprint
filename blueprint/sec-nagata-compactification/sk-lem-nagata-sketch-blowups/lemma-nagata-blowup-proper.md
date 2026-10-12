@@ -2,7 +2,7 @@
 id = "lemma-nagata-blowup-proper"
 kind = "lemma"
 title = "Properness of a blow-up"
-order = 163
+order = 171
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isProper_blowupMap"]
 uses = ["def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
 +++

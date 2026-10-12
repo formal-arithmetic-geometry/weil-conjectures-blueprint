@@ -2,7 +2,7 @@
 id = "lem-sc-finite-etale-algebra-criterion"
 kind = "lemma"
 title = "Finite étale group schemes and finite étale algebras"
-order = 423
+order = 433
 uses = ["def-sc-group-scheme", "def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be a field and $A$ a finite $k$-algebra. Then

@@ -2,7 +2,7 @@
 id = "lemma-nagata-flat-pullback-ideal-pow"
 kind = "lemma"
 title = "Flat pullback commutes with ideal powers"
-order = 113
+order = 121
 uses = ["def-nagata-extended-ideal"]
 +++
 Let $\mathcal I\subseteq\mathcal O_X$ be a quasi-coherent ideal. If

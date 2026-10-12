@@ -2,7 +2,7 @@
 id = "lem-kun-03sa"
 kind = "lemma"
 title = "Constructible generation"
-order = 2076
+order = 2114
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "thm-constructible-serre"]
 +++
 Let $X$ be a scheme of

@@ -2,7 +2,7 @@
 id = "lem-wf-schur-scalar"
 kind = "lemma"
 title = "Schur's scalar lemma"
-order = 2843
+order = 2879
 uses = ["def-wf-simple-module"]
 +++
 Let a group $A$ act irreducibly on a finite-dimensional vector space

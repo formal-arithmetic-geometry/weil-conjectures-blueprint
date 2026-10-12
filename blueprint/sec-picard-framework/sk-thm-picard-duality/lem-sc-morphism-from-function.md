@@ -2,7 +2,7 @@
 id = "lem-sc-morphism-from-function"
 kind = "lemma"
 title = "Rational functions define finite morphisms to $\\mathbf P^1$"
-order = 699
+order = 705
 uses = ["def-sc-curves", "def-sc-function-field", "lem-sc-dim0-finite", "lem-sc-rational-function-morphism", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++
 Let $C$ be a proper smooth connected curve over

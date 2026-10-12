@@ -2,7 +2,7 @@
 id = "explicit-final-assembly--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 401
+order = 408
 +++
 The Lean statement
 (`nagataCompactification_of_locallyOfFinitePresentation`) asserts the

@@ -2,7 +2,7 @@
 id = "def-mg-weil-semisimplification"
 kind = "definition"
 title = "Semisimplification of a Weil representation"
-order = 2844
+order = 2880
 uses = ["def-mg-weil-composition-series"]
 +++
 For a composition series

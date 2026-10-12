@@ -2,7 +2,7 @@
 id = "def-nagata-relative-stage-morphism-data"
 kind = "definition"
 title = "Finite-stage data for a morphism"
-order = 380
+order = 387
 uses = ["def-nagata-glued-limit-comparison", "def-nagata-noetherian-inverse-system"]
 +++
 Let $X\to S$ be a morphism and choose the inverse systems

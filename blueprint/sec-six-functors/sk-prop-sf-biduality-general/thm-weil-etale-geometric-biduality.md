@@ -2,7 +2,7 @@
 id = "thm-weil-etale-geometric-biduality"
 kind = "theorem"
 title = "Finite-stage etale Verdier biduality"
-order = 2432
+order = 2468
 uses = ["lem-fin-coordinate-generic-dimension", "lem-sf-etale-direct-image-vanishing", "lem-weil-coefficient-frobenius", "lem-weil-delta-proper-pushforward", "lem-weil-delta-restriction", "lem-weil-duality-pairing", "lem-weil-geometric-generic-duality", "lem-weil-verdier-preservation-strata", "thm-nagata-compactification", "thm-sf-direct-image-tor-amplitude", "thm-sp-truncation-e2"]
 +++
 For every separated finite-type $X/k$, the natural map

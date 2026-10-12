@@ -2,7 +2,7 @@
 id = "sk-thm-chow"
 kind = "theorem"
 title = "Chow"
-order = 1051
+order = 1083
 lean = ["AlgebraicGeometry.ChowModification.nonempty_data", "AlgebraicGeometry.ChowModification.isClosedImmersion_toProjectiveSpace"]
 uses = ["sk-def-conv"]
 tags = ["sketch"]

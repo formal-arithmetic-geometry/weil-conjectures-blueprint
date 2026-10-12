@@ -2,7 +2,7 @@
 id = "prop-exc-closed-tor"
 kind = "theorem"
 title = "Finite Tor amplitude for closed support"
-order = 2217
+order = 2253
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "lem-exc-closed-support-triangle", "lem-exc-constant-tensor", "lem-exc-direct-image-coproducts", "lem-exc-residue-tor-test"]
 +++

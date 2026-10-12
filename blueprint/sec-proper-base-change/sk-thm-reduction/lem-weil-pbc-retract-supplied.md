@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-retract-supplied"
 kind = "lemma"
 title = "Retract supplied by a proper surjection"
-order = 1187
+order = 1253
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $f:X\to Y$ be proper and surjective, let $I$ be injective on $Y_{\Et}$,

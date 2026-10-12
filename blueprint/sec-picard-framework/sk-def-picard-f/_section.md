@@ -2,7 +2,7 @@
 id = "sk-def-picard-f"
 kind = "definition"
 title = "The subfunctor $F$"
-order = 818
+order = 824
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.picardFunctorInvertibleDirectImage"]
 tags = ["sketch"]

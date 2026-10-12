@@ -2,7 +2,7 @@
 id = "def-sfb-finite-derived-global-sections"
 kind = "definition"
 title = "Derived global sections $R\\Gamma(X,-)$"
-order = 1618
+order = 1669
 uses = ["def-weil-pbc-proetale-site", "sk-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedGlobalSections"]
 +++

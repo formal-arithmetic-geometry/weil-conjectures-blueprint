@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-perverse"
 kind = "proposition"
 title = "Fourier exactness on a curve"
-order = 3041
+order = 3077
 uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-prop-kernel-lisse", "sk-prop-stalk", "sk-thm-inversion"]
 lean = ["AlgebraicGeometry.LAdicWeilComplex.IsCurvePerverseUpper", "AlgebraicGeometry.LAdicWeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.LAdicWeilComplex.IsCurvePerverse", "AlgebraicGeometry.isCurvePerverse_fourierTransform_obj_iff"]
 tags = ["sketch"]

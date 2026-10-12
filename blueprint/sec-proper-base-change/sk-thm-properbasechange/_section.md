@@ -2,7 +2,7 @@
 id = "sk-thm-properbasechange"
 kind = "theorem"
 title = "Proper base change"
-order = 1205
+order = 1271
 lean = ["AlgebraicGeometry.Etale.isIso_baseChange_of_isProper"]
 uses = ["sk-def-conv", "sk-def-exchange"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "def-sfb-constructible-module"
 kind = "definition"
 title = "Constructible modules on the pro-étale site"
-order = 1585
+order = 1636
 uses = ["def-sfb-locally-finitely-presented", "def-constructible-stratification"]
 lean = ["AlgebraicGeometry.ProEtale.IsConstructible"]
 +++

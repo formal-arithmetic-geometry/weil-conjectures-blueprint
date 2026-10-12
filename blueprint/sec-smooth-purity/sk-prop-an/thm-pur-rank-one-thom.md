@@ -2,7 +2,7 @@
 id = "thm-pur-rank-one-thom"
 kind = "theorem"
 title = "Rank-one Thom isomorphism"
-order = 2289
+order = 2325
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-vector-bundle-zero-section", "def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-cfiber-stalk", "lem-pur-divisor-class", "lem-pur-frame-independence", "thm-pur-rank-one-local-calculation"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

@@ -2,7 +2,7 @@
 id = "def-nagata-relative-proj"
 kind = "definition"
 title = "Relative Proj"
-order = 12
+order = 20
 uses = ["def-nagata-affine-proj"]
 +++
 Let $X$ be a scheme and

@@ -2,7 +2,7 @@
 id = "thm-trf-l-function-euler-product"
 kind = "theorem"
 title = "Euler-product form of the trace formula"
-order = 2704
+order = 2740
 uses = ["def-trf-frobenius-operators", "def-weil-finite-field-fiber", "def-weil-pbc-rational-category", "def-weil-scheme-morphism-properties", "lem-sf-separably-closed-torsion-cd", "lem-trf-compactification-cohomology", "lem-trf-frobenius-degree-formula", "lem-trf-iterated-weil-cocycle", "lem-trf-local-frobenius-conjugacy", "lem-zl-euler-product-identity", "prop-trf-adic-coefficient-morphism-systems", "prop-trf-rational-frobenius-integral-model", "prop-trf-trace-formal-laws", "prop-weil-pbc-rational-transport", "thm-nagata-compactification", "thm-sc-finite-type-torsion-cd", "thm-trf-grothendieck-lefschetz-qbar", "thm-trf-trace-formula-e"]
 +++
 Fix the global finite-field datum

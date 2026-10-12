@@ -2,7 +2,7 @@
 id = "sk-thm-nagata-sketch-two-open"
 kind = "theorem"
 title = "Two-open compactification"
-order = 284
+order = 291
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "def-trf-dualizing-complex"
 kind = "definition"
 title = "Dualizing complex and Verdier dual"
-order = 2529
+order = 2565
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum

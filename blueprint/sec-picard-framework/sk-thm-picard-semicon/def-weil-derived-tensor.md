@@ -2,7 +2,7 @@
 id = "def-weil-derived-tensor"
 kind = "definition"
 title = "Derived tensor notation"
-order = 663
+order = 669
 uses = ["def-weil-pbc-proetale-site"]
 +++
 Fix a scheme $Y$ and a commutative ring $A$, and use the small pro-etale site

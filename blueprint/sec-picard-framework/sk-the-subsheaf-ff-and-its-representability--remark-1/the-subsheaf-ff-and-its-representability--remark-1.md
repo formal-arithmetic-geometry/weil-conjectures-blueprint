@@ -2,7 +2,7 @@
 id = "the-subsheaf-ff-and-its-representability--remark-1"
 kind = "remark"
 title = "$F$ is a subfunctor of the Hilbert functor"
-order = 833
+order = 839
 lean = ["AlgebraicGeometry.exists_injective_natTrans_hilbertPresheaf"]
 +++
 The dictionary of [lem-pc-zero-scheme-recd] ($\cL\mapsto D=Z(s)$)

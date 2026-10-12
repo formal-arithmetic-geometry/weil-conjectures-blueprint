@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-complete-proetale"
 kind = "theorem"
 title = "Complete pro-etale proper base change"
-order = 1349
+order = 1408
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-completed-base-change-map", "def-weil-pbc-completed-pullback", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-levelwise-isomorphism-cones", "lemma-weil-pbc-completed-exchange-coherence", "lemma-weil-pbc-completed-map-reduction", "prop-weil-pbc-direct-image-limits", "thm-weil-pbc-finite-level-proetale"]
 +++
 Let $A$ and $I$ satisfy the adic coefficient datum, let $f:X\to Y$ be

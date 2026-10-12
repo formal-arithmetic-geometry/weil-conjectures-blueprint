@@ -2,7 +2,7 @@
 id = "sk-thm-picard-hilb-general"
 kind = "theorem"
 title = "Representability of $\\Hilb^d$ — general case"
-order = 781
+order = 787
 lean = ["AlgebraicGeometry.isRepresentable_hilbertPresheaf"]
 tags = ["sketch"]
 +++

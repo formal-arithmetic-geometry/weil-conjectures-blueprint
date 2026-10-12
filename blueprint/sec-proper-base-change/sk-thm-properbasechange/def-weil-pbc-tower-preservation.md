@@ -2,7 +2,7 @@
 id = "def-weil-pbc-tower-preservation"
 kind = "definition"
 title = "Tower preservation condition"
-order = 1353
+order = 1412
 uses = ["def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-finite-level-amplification"]
 +++
 For such a cartesian square $\square$, write $\mathrm{TOW}(\square)$ if the

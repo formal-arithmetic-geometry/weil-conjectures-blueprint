@@ -2,7 +2,7 @@
 id = "def-sf-pf"
 kind = "definition"
 title = "Coefficient dual, Verdier dual, and the projection formula"
-order = 1806
+order = 1857
 uses = ["def-exchange-projection", "def-sf-datum", "def-weil-derived-pullback-tensor-hom"]
 +++
 In the setting of [def-sf-datum], let $a_X:X\to\operatorname{Spec}k$ be

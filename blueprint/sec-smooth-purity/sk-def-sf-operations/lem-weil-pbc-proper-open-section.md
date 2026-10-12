@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proper-open-section"
 kind = "lemma"
 title = "The section of the comparison square and the open it fixes"
-order = 1782
+order = 1833
 uses = ["def-weil-pbc-proper-open-comparison", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-open-section-clopen", "lem-weil-pbc-proper-open-p-proper"]
 +++
 Let $u:T_1\to T_2$ be

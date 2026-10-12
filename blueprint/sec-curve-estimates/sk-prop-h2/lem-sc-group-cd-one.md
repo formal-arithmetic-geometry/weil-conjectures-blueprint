@@ -2,7 +2,7 @@
 id = "lem-sc-group-cd-one"
 kind = "lemma"
 title = "A degree-two criterion for continuous cohomology"
-order = 979
+order = 987
 uses = ["def-exc-continuous-cohomology", "lem-sc-sylow-module-filtration"]
 +++
 Let $G$ be profinite and $\ell$ prime. Suppose that

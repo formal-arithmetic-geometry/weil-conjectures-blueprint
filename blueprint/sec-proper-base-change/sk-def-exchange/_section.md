@@ -2,7 +2,7 @@
 id = "sk-def-exchange"
 kind = "definition"
 title = "Exchange morphism"
-order = 1035
+order = 1043
 lean = ["AlgebraicGeometry.Etale.baseChange"]
 uses = ["sk-def-conv"]
 tags = ["sketch"]

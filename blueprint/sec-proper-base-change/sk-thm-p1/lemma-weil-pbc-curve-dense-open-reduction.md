@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-curve-dense-open-reduction"
 kind = "lemma"
 title = "Dense-open localization reduction"
-order = 1180
+order = 1246
 uses = ["def-constructible-constructible", "def-constructible-stratification", "lemma-weil-pbc-curve-constructible-primary-reduction", "lemma-weil-pbc-eight-curve-devissage", "prop-constructible-generic-constancy"]
 +++
 Let $X$ be a reduced separated curve of finite type over an algebraically

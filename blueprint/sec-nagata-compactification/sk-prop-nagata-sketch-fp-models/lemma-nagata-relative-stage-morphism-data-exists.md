@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-stage-morphism-data-exists"
 kind = "lemma"
 title = "Existence of finite-stage data for a finite-type morphism"
-order = 381
+order = 388
 uses = ["def-nagata-relative-stage-morphism-data", "lemma-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 If $S$ is qcqs and $X\to S$ is locally of finite type with $X$

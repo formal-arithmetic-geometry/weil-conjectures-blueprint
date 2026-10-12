@@ -2,7 +2,7 @@
 id = "lem-fin-normal-constant-open-image"
 kind = "lemma"
 title = "A constant sheaf across a dense normal open"
-order = 2210
+order = 2246
 uses = ["def-sbc-normal-dominant-galois", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-etale-normal-components", "lem-weil-pbc-flat-lfp-open"]
 +++
 Let $Y$ be a Noetherian

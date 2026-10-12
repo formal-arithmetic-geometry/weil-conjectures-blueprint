@@ -3,7 +3,7 @@ id = "sk-prop-av-rigidity"
 kind = "proposition"
 title = "The rigidity lemma"
 lean = ["AlgebraicGeometry.exists_eq_snd_comp"]
-order = 489
+order = 495
 uses = ["sk-prop-av-image-open"]
 tags = ["sketch"]
 +++

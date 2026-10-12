@@ -2,7 +2,7 @@
 id = "sk-thm-picard-twist"
 kind = "theorem"
 title = "The twist lemma"
-order = 754
+order = 761
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-picard-serre-a"]
 lean = ["AlgebraicGeometry.Scheme.exists_isInvertible_twist"]
 tags = ["sketch"]

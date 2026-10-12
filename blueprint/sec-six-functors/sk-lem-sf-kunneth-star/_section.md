@@ -2,7 +2,7 @@
 id = "sk-lem-sf-kunneth-star"
 kind = "lemma"
 title = "Ordinary Künneth with an identity factor"
-order = 2521
+order = 2557
 uses = ["sk-lem-sf-flat-model", "sk-prop-sf-comparison", "sk-prop-sf-kunneth-ordinary"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_externalProduct_rightDerivedLowerStar"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-d-monodromy"
 kind = "definition"
 title = "Represented degree data and monodromy"
-order = 2803
+order = 2839
 uses = ["sk-d-geometry", "sk-d-linear"]
 lean = ["AlgebraicGeometry.Monodromy.DegreeDatum", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobenius", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsSemisimple"]
 tags = ["sketch"]

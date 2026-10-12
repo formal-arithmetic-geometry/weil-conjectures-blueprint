@@ -2,7 +2,7 @@
 id = "lem-fd-stalk-at-origin"
 kind = "lemma"
 title = "Stalk of the transform at the origin of the dual line"
-order = 3050
+order = 3086
 uses = ["def-fd-kernel", "def-fd-transform", "def-weil-ordinary-compact-cohomology", "lem-fd-stalk-formula"]
 +++
 Let $K_0$ be a Weil complex on $\mathbf A^1_{k_0}$ (in the

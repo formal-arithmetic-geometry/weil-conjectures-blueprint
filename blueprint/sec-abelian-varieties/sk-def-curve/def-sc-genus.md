@@ -3,7 +3,7 @@ id = "def-sc-genus"
 kind = "definition"
 title = "The genus of a curve"
 lean = ["AlgebraicGeometry.Scheme.Hom.genus"]
-order = 419
+order = 429
 uses = ["def-sc-curves"]
 +++
 Let $C$ be a proper smooth connected curve over

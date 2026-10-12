@@ -2,7 +2,7 @@
 id = "cor-mg-det-weight-finite-tensor"
 kind = "theorem"
 title = "Determinant weights of a finite tensor power"
-order = 2942
+order = 2978
 tags = ["latex:corollary"]
 uses = ["def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "def-wf-geometric-semisimplicity", "lem-mg-jordan-holder", "lem-rp-determinant-weights-agree", "prop-ag-det-weight-two-factor-tensor"]
 +++

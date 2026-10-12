@@ -2,7 +2,7 @@
 id = "sec-poincare-duality"
 kind = "section"
 title = "Poincaré Duality"
-order = 2707
+order = 2743
 uses = ["sec-six-functors", "sec-smooth-purity"]
 +++
 **Content.** For $X_0/\mathbf F_q$ smooth, separated and geometrically

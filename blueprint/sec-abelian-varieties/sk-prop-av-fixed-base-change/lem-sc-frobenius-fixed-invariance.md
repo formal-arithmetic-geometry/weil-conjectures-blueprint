@@ -3,7 +3,7 @@ id = "lem-sc-frobenius-fixed-invariance"
 kind = "lemma"
 title = "Fixed points under algebraically closed base change"
 lean = ["LinearMap.Frobenius.bijective_tmul_fixedPoints"]
-order = 568
+order = 574
 uses = ["lem-sc-lang-steinberg"]
 +++
 Let $k\subseteq k'$ be an extension of algebraically closed

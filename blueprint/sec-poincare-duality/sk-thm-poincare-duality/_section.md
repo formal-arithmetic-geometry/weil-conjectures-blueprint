@@ -2,7 +2,7 @@
 id = "sk-thm-poincare-duality"
 kind = "theorem"
 title = "Poincaré duality"
-order = 2756
+order = 2792
 uses = ["sk-cor-trace", "sk-def-pairing", "sk-def-set", "sk-def-sf-operations", "sk-def-trace-cup", "sk-def-weil", "sk-lem-finite", "sk-prop-sf-biduality-general", "sk-prop-sf-dualizable-biduality", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-purity-transport", "sk-thm-sf-global-duality", "sk-thm-sf-identification", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange", "sk-thm-transport"]
 tags = ["sketch"]
 +++

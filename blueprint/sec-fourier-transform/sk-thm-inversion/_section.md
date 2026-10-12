@@ -2,7 +2,7 @@
 id = "sk-thm-inversion"
 kind = "theorem"
 title = "P13: invertibility of the transform"
-order = 3019
+order = 3055
 lean = ["AlgebraicGeometry.Etale.fourierTransformInversionIso", "AlgebraicGeometry.Etale.fourierTransformSquareIso"]
 uses = ["sk-lem-kernel-composition", "sk-prop-convolution-kernel"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "lem-sfb-finite-upper-shriek-bounded-below"
 kind = "lemma"
 title = "$Rf^!$ preserves bounded below objects"
-order = 1627
+order = 1678
 uses = ["def-sfb-finite-upper-shriek", "sk-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.plus_rightDerivedUpperShriek_obj"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sfb-coefficient-pullback-square"
 kind = "lemma"
 title = "Coefficient changes commute with $\\alpha_f$"
-order = 1669
+order = 1720
 uses = ["def-sfb-coefficient-map", "sk-def-sfb-coefficient-morphisms", "sk-def-sfb-finite-pushforward-pullback"]
 lean = ["AlgebraicGeometry.ProEtale.map_coefficientMap_comp_condensedPullbackHom"]
 +++

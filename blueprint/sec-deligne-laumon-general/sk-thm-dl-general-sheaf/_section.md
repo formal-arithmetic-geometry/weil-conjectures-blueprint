@@ -2,7 +2,7 @@
 id = "sk-thm-dl-general-sheaf"
 kind = "theorem"
 title = "Deligne–Laumon direct-image bound"
-order = 3149
+order = 3185
 lean = ["AlgebraicGeometry.hasDirectImageWeightBound_over_finiteField"]
 uses = ["sk-d-dl-general-weights", "sk-i-topology", "sk-l-dl-general-normalization"]
 tags = ["sketch"]

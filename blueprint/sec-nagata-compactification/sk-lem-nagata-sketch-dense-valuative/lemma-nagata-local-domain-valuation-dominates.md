@@ -2,7 +2,7 @@
 id = "lemma-nagata-local-domain-valuation-dominates"
 kind = "lemma"
 title = "Valuation domination of a local domain"
-order = 278
+order = 285
 lean = ["LocalSubring.exists_le_valuationSubring"]
 +++
 If $B$ is a local subring of a field $L$, there is a valuation ring

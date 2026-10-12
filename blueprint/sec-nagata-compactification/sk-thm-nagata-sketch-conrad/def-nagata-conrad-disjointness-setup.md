@@ -2,7 +2,7 @@
 id = "def-nagata-conrad-disjointness-setup"
 kind = "definition"
 title = "The disjointness situation (Conrad)"
-order = 207
+order = 214
 uses = ["def-nagata-global-blowup", "def-nagata-scheme-theoretic-image"]
 +++
 Consider open immersions $i\colon U\to V$ and $j\colon V\to X$, a morphism

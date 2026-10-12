@@ -2,7 +2,7 @@
 id = "sk-p-tate"
 kind = "proposition"
 title = "Tate modules and Frobenius"
-order = 2866
+order = 2902
 uses = ["sk-d-ab-field", "sk-d-ab-tate"]
 lean = ["AddCommGroup.eq_zero_of_mem_tateModule_of_forall_fixed"]
 tags = ["sketch"]

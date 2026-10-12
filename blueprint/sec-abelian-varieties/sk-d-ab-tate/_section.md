@@ -3,7 +3,7 @@ id = "sk-d-ab-tate"
 kind = "definition"
 title = "Integral and rational Tate modules"
 lean = ["AddCommGroup.tateModule", "AddCommGroup.rationalTateModule"]
-order = 467
+order = 473
 uses = ["sk-d-ab-field"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sc-group-scheme"
 kind = "definition"
 title = "Group schemes over a field"
-order = 422
+order = 432
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be a field. A $k$-*group scheme* is a $k$-scheme

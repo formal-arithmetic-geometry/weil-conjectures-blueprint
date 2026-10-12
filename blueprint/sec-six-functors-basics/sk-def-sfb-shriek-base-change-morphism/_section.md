@@ -2,7 +2,7 @@
 id = "sk-def-sfb-shriek-base-change-morphism"
 kind = "definition"
 title = "Compact-support base change morphism $\\mathrm{Ex}_!^c$"
-order = 1752
+order = 1803
 uses = ["sk-def-nagata-sketch-data", "sk-def-sfb-dc-lower-shriek", "sk-def-sfb-open-base-change", "sk-prop-nagata-sketch-comp-category"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekBaseChange"]
 tags = ["sketch"]

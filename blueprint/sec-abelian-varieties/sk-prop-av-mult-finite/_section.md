@@ -3,7 +3,7 @@ id = "sk-prop-av-mult-finite"
 kind = "proposition"
 title = "Finiteness of the fibres of the multiplication map"
 lean = ["AlgebraicGeometry.isFinite_npow_id"]
-order = 551
+order = 557
 uses = ["sk-def-av", "sk-def-av-mult-n", "sk-prop-av-mult-hom"]
 tags = ["sketch"]
 +++

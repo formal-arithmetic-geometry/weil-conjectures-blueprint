@@ -2,7 +2,7 @@
 id = "def-constructible-stratification"
 kind = "definition"
 title = "Stratifications"
-order = 1158
+order = 1215
 lean = ["AlgebraicGeometry.Scheme.Stratification", "Topology.Stratification"]
 +++
 A *stratification* of a topological space $T$ is a finite family

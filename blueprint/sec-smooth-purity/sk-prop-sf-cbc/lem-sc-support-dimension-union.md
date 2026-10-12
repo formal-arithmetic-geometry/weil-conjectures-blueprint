@@ -2,7 +2,7 @@
 id = "lem-sc-support-dimension-union"
 kind = "lemma"
 title = "A sheaf supported in low dimension is a filtered union"
-order = 1854
+order = 1899
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $B$ be a finite-type

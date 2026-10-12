@@ -2,7 +2,7 @@
 id = "def-sfb-finite-derived-extension-by-zero-adjunction-plus"
 kind = "definition"
 title = "The derived adjunction $D^+(j_!)\\dashv D^+(j^*)$"
-order = 1612
+order = 1663
 uses = ["def-sfb-finite-derived-extension-by-zero-adjunction"]
 lean = ["AlgebraicGeometry.ProEtale.derivedOpenImmersionLowerShriekUpperStarAdjunctionPlus"]
 +++

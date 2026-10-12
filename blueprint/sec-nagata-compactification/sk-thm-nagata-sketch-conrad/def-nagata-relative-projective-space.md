@@ -2,7 +2,7 @@
 id = "def-nagata-relative-projective-space"
 kind = "definition"
 title = "Relative projective space"
-order = 203
+order = 210
 uses = ["def-nagata-relative-proj", "lemma-nagata-relative-proj-exists"]
 +++
 For $r\in\mathbb N$, define the relative projective-space interface by

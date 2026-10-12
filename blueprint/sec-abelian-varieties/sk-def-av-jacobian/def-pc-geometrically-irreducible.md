@@ -2,7 +2,7 @@
 id = "def-pc-geometrically-irreducible"
 kind = "definition"
 title = "Geometric properties"
-order = 456
+order = 462
 uses = ["def-pc-base-change", "def-pc-scheme"]
 +++
 Let $k$ be a field and $X$ a scheme over $k$. $X$ is

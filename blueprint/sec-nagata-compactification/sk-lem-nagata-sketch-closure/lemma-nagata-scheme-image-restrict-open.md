@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-image-restrict-open"
 kind = "lemma"
 title = "Restriction of a scheme-theoretic image to an open target"
-order = 85
+order = 93
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_morphismRestrict"]
 uses = ["def-nagata-extended-ideal", "def-nagata-scheme-theoretic-image"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sfb-modobj-extension-right-exact"
 kind = "lemma"
 title = "Extension of scalars is right exact"
-order = 1533
+order = 1584
 uses = ["def-sfb-modobj-extend-restrict-adjunction", "def-sfb-modobj-extension"]
 lean = ["CategoryTheory.Mod.preservesFiniteColimits_extendScalars"]
 +++

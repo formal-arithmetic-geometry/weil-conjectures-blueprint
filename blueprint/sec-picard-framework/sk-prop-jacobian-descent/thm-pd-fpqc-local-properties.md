@@ -2,7 +2,7 @@
 id = "thm-pd-fpqc-local-properties"
 kind = "theorem"
 title = "Properties of morphisms are local in the fpqc topology on the target"
-order = 867
+order = 873
 uses = ["def-pc-base-change", "def-pc-finite-locally-free", "def-pc-morphism-conventions"]
 +++
 Let $k\subseteq K$ be a finite field extension and let $Z$ be a scheme over $k$

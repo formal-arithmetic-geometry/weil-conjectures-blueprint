@@ -2,7 +2,7 @@
 id = "def-sfb-finite-upper-shriek-plus"
 kind = "definition"
 title = "Exceptional pullback on $D^+$"
-order = 1628
+order = 1679
 uses = ["def-sfb-finite-upper-shriek", "lem-sfb-finite-upper-shriek-bounded-below"]
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedUpperShriekPlus"]
 +++

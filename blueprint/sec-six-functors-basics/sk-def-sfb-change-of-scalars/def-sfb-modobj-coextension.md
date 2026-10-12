@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-coextension"
 kind = "definition"
 title = "Coextension of scalars"
-order = 1535
+order = 1586
 uses = ["sk-def-sfb-module-objects"]
 lean = ["CategoryTheory.Mod.coextendScalars"]
 +++

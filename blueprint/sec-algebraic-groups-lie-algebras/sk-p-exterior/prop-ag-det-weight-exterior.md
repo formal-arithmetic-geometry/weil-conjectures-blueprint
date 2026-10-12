@@ -2,7 +2,7 @@
 id = "prop-ag-det-weight-exterior"
 kind = "theorem"
 title = "Determinant weights of an exterior power (conditional)"
-order = 2865
+order = 2901
 uses = ["cor-mg-central-determinant-weight", "d-weights", "def-mg-weil-composition-series", "def-mg-weil-semisimplification", "def-wf-monodromy-data", "def-wf-weil-category", "lem-mg-common-positive-central-element", "lem-mg-composition-series-exists", "lem-mg-degree-component-functoriality", "lem-mg-filtered-exterior-power", "lem-mg-filtration-refinement", "lem-wf-schur-scalar"]
 lean = ["Representation.exists_multiset_le_and_detWeight_eq_sum_of_exteriorPower"]
 +++

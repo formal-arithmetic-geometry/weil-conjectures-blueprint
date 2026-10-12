@@ -2,7 +2,7 @@
 id = "an-arbitrary-composition-of-two-blow-ups--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 129
+order = 137
 +++
 Stacks Tag 0803 can be recast purely in ideal-sheaf terms: $Z'$ is replaced
 by a finite-type ideal sheaf $\mathcal J$ on the blow-up, and the conclusion

@@ -2,7 +2,7 @@
 id = "sk-thm-acyclicity"
 kind = "theorem"
 title = "Acyclicity criterion"
-order = 1065
+order = 1097
 tags = ["sketch"]
 +++
 Let $v$ be a left exact functor between abelian categories with

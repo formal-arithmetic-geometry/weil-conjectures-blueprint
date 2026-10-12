@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-inverse-image-3"
 kind = "remark"
 title = "Pointer to the properties of the inverse image"
-order = 940
+order = 948
 uses = ["def-weil-pbc-inverse-image"]
 +++
 In the notation of [def-weil-pbc-inverse-image], the following holds. That

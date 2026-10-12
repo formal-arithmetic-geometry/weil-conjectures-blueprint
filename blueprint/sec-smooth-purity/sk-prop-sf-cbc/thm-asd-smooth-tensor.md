@@ -2,7 +2,7 @@
 id = "thm-asd-smooth-tensor"
 kind = "theorem"
 title = "Smooth cohomological duality without a chosen orientation"
-order = 1879
+order = 1924
 uses = ["cor-amb-affine-space-adjunction", "def-asd-compactifiable", "def-sbc-smooth-morphisms", "def-weil-derived-tensor", "def-weil-pbc-derived-categories", "def-weil-pbc-inverse-image", "lem-amb-etale-adjoint-locality", "lem-amb-proper-coproducts-projection", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-thm-etale-local-normal-form", "thm-amb-etale-exceptional-adjoint"]
 +++
 Let $f:X\to S$ be smooth, separated, compactifiable,

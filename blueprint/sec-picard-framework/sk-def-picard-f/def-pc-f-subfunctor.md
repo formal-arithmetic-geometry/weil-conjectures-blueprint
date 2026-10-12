@@ -2,7 +2,7 @@
 id = "def-pc-f-subfunctor"
 kind = "definition"
 title = "The open subfunctor $F$"
-order = 819
+order = 825
 uses = ["def-pc-base-change", "def-pc-derived-direct-image", "def-pc-invertible-in-degree-zero", "def-pc-pic-sigma-functor", "def-pc-subfunctor"]
 lean = ["AlgebraicGeometry.picardFunctorInvertibleDirectImage"]
 +++

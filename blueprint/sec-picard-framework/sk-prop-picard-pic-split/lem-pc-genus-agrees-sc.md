@@ -2,7 +2,7 @@
 id = "lem-pc-genus-agrees-sc"
 kind = "lemma"
 title = "Agreement with the genus of file 06"
-order = 811
+order = 817
 uses = ["def-pc-genus", "def-pc-smooth-projective-curve", "def-sc-curves", "def-sc-genus"]
 +++
 Let $k$ be an algebraically closed field and $C$ a

@@ -2,7 +2,7 @@
 id = "def-nagata-finite-type-closed-in-fp"
 kind = "definition"
 title = "Separated finite-presentation envelope"
-order = 396
+order = 403
 uses = ["def-nagata-finite-type-fp-model-system", "def-nagata-fixed-base-separated-stage"]
 +++
 Let $S$ be qcqs and let $X\to S$ be separated and of finite type. Form

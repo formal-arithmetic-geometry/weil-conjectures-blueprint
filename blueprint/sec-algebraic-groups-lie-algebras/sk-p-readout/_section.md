@@ -2,7 +2,7 @@
 id = "sk-p-readout"
 kind = "proposition"
 title = "Central scalars and weight readout"
-order = 2856
+order = 2892
 uses = ["sk-d-central", "sk-d-linear", "sk-d-monodromy", "sk-d-tangent", "sk-d-weights", "sk-r-linear-library"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-hypercohomology-filtrations"
 kind = "definition"
 title = "Hypercohomology filtrations"
-order = 1315
+order = 1374
 uses = ["def-sp-etale-dictionary", "def-sp-truncation-couple", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange", "def-weil-pbc-direct-image", "lem-sp-finite-filtration-induction", "lem-sp-shift-identification", "thm-sp-truncation-e2"]
 +++
 Let $K\in\Dplus(X_{\Et})$ have torsion cohomology sheaves and choose

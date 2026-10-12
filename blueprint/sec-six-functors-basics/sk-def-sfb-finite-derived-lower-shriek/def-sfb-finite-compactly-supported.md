@@ -2,7 +2,7 @@
 id = "def-sfb-finite-compactly-supported"
 kind = "definition"
 title = "Compactly supported cohomology complex $R\\Gamma_c$"
-order = 1619
+order = 1670
 uses = ["def-sfb-finite-derived-global-sections", "def-sfb-finite-derived-lower-shriek"]
 lean = ["AlgebraicGeometry.ProEtale.compactlySupportedGlobalSections"]
 +++

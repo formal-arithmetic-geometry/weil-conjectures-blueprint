@@ -2,7 +2,7 @@
 id = "lem-pc-curves-are-sc"
 kind = "lemma"
 title = "Curves in the sense of file 06"
-order = 455
+order = 461
 uses = ["def-pc-curve", "def-pc-dimension", "def-pc-smooth-projective-curve", "def-sc-curves"]
 +++
 Let $k$ be an algebraically closed field and let $X$ be a

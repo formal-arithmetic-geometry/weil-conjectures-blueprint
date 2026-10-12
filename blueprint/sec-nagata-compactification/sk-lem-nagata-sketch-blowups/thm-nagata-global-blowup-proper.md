@@ -2,7 +2,7 @@
 id = "thm-nagata-global-blowup-proper"
 kind = "theorem"
 title = "Properness of the global blow-up"
-order = 92
+order = 100
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isProper_blowupMap"]
 uses = ["def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent"]
 +++

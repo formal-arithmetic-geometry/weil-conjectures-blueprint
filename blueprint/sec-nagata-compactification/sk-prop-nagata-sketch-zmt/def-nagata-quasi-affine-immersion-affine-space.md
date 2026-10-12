@@ -2,7 +2,7 @@
 id = "def-nagata-quasi-affine-immersion-affine-space"
 kind = "definition"
 title = "Affine-space immersion attached to a quasi-affine scheme"
-order = 188
+order = 196
 uses = ["def-nagata-relative-affine-space", "lemma-nagata-quasi-affine-immersion-affine-space-exists"]
 +++
 Under the hypotheses of

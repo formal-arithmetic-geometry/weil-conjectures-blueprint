@@ -2,7 +2,7 @@
 id = "def-nagata-glued-limit-comparison"
 kind = "definition"
 title = "Comparison from the original scheme to the inverse limit"
-order = 342
+order = 349
 uses = ["def-nagata-noetherian-inverse-system"]
 +++
 The inclusions of every finite coefficient algebra into the original chart

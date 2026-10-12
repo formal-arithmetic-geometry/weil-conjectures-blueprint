@@ -2,7 +2,7 @@
 id = "lem-sc-smooth-regular"
 kind = "lemma"
 title = "Smoothness implies regularity"
-order = 692
+order = 698
 uses = ["def-sc-curves", "lem-sc-regular-local-domain"]
 +++
 Let $C$ be a smooth curve over a field

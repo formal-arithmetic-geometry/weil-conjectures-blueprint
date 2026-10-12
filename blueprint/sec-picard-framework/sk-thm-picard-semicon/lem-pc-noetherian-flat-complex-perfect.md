@@ -2,7 +2,7 @@
 id = "lem-pc-noetherian-flat-complex-perfect"
 kind = "lemma"
 title = "A bounded flat complex with finite cohomology over a Noetherian ring"
-order = 672
+order = 678
 uses = ["def-pc-perfect-complex", "def-weil-abstract-derived-category"]
 +++
 Let $A$ be a Noetherian ring and let $C$ be an object of the

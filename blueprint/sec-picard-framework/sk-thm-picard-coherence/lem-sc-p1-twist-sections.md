@@ -2,7 +2,7 @@
 id = "lem-sc-p1-twist-sections"
 kind = "lemma"
 title = "Sections of the twists"
-order = 637
+order = 643
 uses = ["def-sc-p1-standard"]
 +++
 Let $k$ be a field, $d\in\mathbf Z$, and let $\mathcal O(d)$

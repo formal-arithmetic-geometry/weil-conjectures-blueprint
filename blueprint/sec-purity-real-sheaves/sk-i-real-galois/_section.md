@@ -2,7 +2,7 @@
 id = "sk-i-real-galois"
 kind = "proposition"
 title = "Galois correspondence for finite local systems"
-order = 2884
+order = 2920
 uses = ["sk-d-real-setup"]
 lean = ["AlgebraicGeometry.Scheme.exists_equivalence_isFiniteLocallyConstantSheaf", "Rep.IsFiniteContinuous"]
 tags = ["sketch"]

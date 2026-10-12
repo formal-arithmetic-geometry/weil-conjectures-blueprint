@@ -2,7 +2,7 @@
 id = "def-weil-pbc-level-map-corners"
 kind = "definition"
 title = "Four finite-level rectangle corners"
-order = 1327
+order = 1386
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-complete-coefficient-datum"]
 +++
 For the proper Cartesian square $\square$, put $E=L(g')^*K$ and, for every

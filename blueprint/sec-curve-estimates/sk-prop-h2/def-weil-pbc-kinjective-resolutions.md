@@ -2,7 +2,7 @@
 id = "def-weil-pbc-kinjective-resolutions"
 kind = "definition"
 title = "K-injective resolutions"
-order = 934
+order = 942
 uses = ["def-weil-pbc-derived-categories"]
 +++
 A complex $I$ of sheaves on an etale site is *K-injective* if for every

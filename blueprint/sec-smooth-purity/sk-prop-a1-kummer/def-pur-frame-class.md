@@ -2,7 +2,7 @@
 id = "def-pur-frame-class"
 kind = "definition"
 title = "Class of a frame"
-order = 2246
+order = 2282
 uses = ["def-coefficient-twists-detailed", "def-pur-affine-line-datum", "def-pur-conventions", "def-pur-supported-cup", "def-weil-derived-cohomology-sheaves", "thm-pur-with-support-exactness"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

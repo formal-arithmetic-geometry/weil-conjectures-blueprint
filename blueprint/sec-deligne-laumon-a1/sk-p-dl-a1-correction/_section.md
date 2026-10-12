@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-correction"
 kind = "proposition"
 title = "The zero-extension comparison"
-order = 3071
+order = 3107
 uses = ["sk-p-dl-a1-middle", "sk-p-dl-a1-perverse", "sk-p-real-semi"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.nonempty_fourierCorrection", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection.isLisse", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection.hasWeightsAtMost"]
 tags = ["sketch"]

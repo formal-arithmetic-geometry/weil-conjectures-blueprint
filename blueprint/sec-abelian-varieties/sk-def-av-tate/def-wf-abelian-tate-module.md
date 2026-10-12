@@ -3,7 +3,7 @@ id = "def-wf-abelian-tate-module"
 kind = "definition"
 title = "The Tate module used in the curve argument"
 lean = ["AlgebraicGeometry.IsAbelianVariety.tateModule"]
-order = 470
+order = 476
 uses = ["def-sc-abelian-variety", "def-sc-mult-n", "def-tate-module-abelian-group"]
 +++
 Let $\ell$ be a prime and $A$ an abelian variety over a field $k$

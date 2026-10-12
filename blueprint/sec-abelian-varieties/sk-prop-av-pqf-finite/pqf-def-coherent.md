@@ -2,7 +2,7 @@
 id = "pqf-def-coherent"
 kind = "definition"
 title = "Coherent and quasi-coherent modules"
-order = 526
+order = 532
 +++
 Let $X$ be a scheme and $\mathcal F$ an $\mathcal O_X$-module.
 

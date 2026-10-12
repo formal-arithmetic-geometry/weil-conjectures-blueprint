@@ -2,7 +2,7 @@
 id = "sk-def-purity-conv"
 kind = "remark"
 title = "Purity conventions and the rank-one datum"
-order = 2190
+order = 2226
 uses = ["sk-def-sf-operations"]
 lean = ["AlgebraicGeometry.Etale.sectionInvariant", "AlgebraicGeometry.Etale.dualizingComplex", "AlgebraicGeometry.Scheme.Hom.NormalConeData", "AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData"]
 tags = ["sketch"]

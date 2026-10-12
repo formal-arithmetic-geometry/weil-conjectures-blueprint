@@ -2,7 +2,7 @@
 id = "cor-trf-point-counting"
 kind = "theorem"
 title = "Point-counting trace formula"
-order = 2705
+order = 2741
 tags = ["latex:corollary"]
 uses = ["cor-trf-constant-stalk-trace", "def-trf-frobenius-operators", "def-weil-finite-field-fiber", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "thm-trf-grothendieck-lefschetz-qbar"]
 +++

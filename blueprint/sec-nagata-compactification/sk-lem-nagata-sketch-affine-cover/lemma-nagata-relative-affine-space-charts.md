@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-affine-space-charts"
 kind = "lemma"
 title = "Relative affine-space charts and base change"
-order = 309
+order = 316
 uses = ["def-nagata-relative-affine-space"]
 +++
 The affine charts in [def-nagata-relative-affine-space] glue to a

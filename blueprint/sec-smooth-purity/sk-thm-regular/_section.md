@@ -2,7 +2,7 @@
 id = "sk-thm-regular"
 kind = "theorem"
 title = "Purity for regular closed immersions"
-order = 2337
+order = 2373
 uses = ["sk-def-purity-conv", "sk-lem-coprojection", "sk-lem-regular-smooth", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-an", "sk-thm-dnc", "sk-thm-smooth-purity"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_of_isRegularImmersion"]
 tags = ["sketch"]

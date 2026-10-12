@@ -2,7 +2,7 @@
 id = "rem-ptr-pc-divisor-line-bundle-4"
 kind = "remark"
 title = "Pointer to the properties of [def-pc-divisor-line-bundle]"
-order = 741
+order = 748
 uses = ["def-pc-divisor-line-bundle"]
 +++
 In the notation of [def-pc-divisor-line-bundle], the following holds.

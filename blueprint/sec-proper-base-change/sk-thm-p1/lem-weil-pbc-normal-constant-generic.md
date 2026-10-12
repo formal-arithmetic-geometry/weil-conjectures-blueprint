@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-normal-constant-generic"
 kind = "lemma"
 title = "Constant sheaves on a normal scheme and the generic point"
-order = 1129
+order = 1183
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit", "lemma-weil-pbc-etale-cohomology-continuity", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $Y$ be an integral normal scheme with function field $K$, let

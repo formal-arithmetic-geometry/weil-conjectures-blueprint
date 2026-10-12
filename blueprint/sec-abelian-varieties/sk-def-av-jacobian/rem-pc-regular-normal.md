@@ -2,7 +2,7 @@
 id = "rem-pc-regular-normal"
 kind = "remark"
 title = "Regular schemes are normal; the normal decomposition"
-order = 459
+order = 465
 uses = ["def-pc-scheme"]
 +++
 We use the following two facts of the Stacks Project:

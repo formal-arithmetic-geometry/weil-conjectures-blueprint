@@ -2,7 +2,7 @@
 id = "thm-sf-hom-comparison-constructible"
 kind = "theorem"
 title = "Internal-Hom comparison for finite-Tor constructible inputs"
-order = 2502
+order = 2538
 uses = ["def-weil-pbc-site-comparison-morphism", "lem-weil-finite-duality-site-comparison"]
 +++
 Let $X$ be a finite-type $\overline{\mathbf F}_q$-scheme,

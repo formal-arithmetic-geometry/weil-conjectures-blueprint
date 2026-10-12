@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-closure"
 kind = "lemma"
 title = "Scheme-theoretic closure and compactification"
-order = 63
+order = 71
 uses = ["sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.Scheme.Hom.image", "AlgebraicGeometry.Compactification.ofIsImmersion", "AlgebraicGeometry.Compactification.denseRefinement", "AlgebraicGeometry.Compactification.baseChange"]
 tags = ["sketch"]

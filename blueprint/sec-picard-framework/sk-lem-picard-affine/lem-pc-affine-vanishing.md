@@ -2,7 +2,7 @@
 id = "lem-pc-affine-vanishing"
 kind = "lemma"
 title = "Vanishing of cohomology on affine schemes"
-order = 608
+order = 614
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-cech-complex"]
 lean = ["AlgebraicGeometry.Scheme.Modules.subsingleton_H_succ_of_isAffine"]
 +++

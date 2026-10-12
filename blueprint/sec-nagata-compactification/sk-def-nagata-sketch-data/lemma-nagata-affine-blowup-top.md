@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-blowup-top"
 kind = "lemma"
 title = "Blow-up of the unit ideal"
-order = 36
+order = 44
 lean = ["AlgebraicGeometry.AffineBlowup.isIso_toSpec_of_eq_top"]
 uses = ["def-nagata-affine-blowup", "def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-mul", "prop-nagata-rees-graded"]
 +++

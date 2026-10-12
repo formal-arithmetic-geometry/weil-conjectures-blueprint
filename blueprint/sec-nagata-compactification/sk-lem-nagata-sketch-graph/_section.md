@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-graph"
 kind = "lemma"
 title = "Proper graph extension"
-order = 241
+order = 248
 uses = ["sk-lem-nagata-sketch-image-transform"]
 lean = ["AlgebraicGeometry.Compactification.nonempty_properExtension"]
 tags = ["sketch"]

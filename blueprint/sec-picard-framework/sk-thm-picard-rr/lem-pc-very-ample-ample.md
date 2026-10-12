@@ -2,7 +2,7 @@
 id = "lem-pc-very-ample-ample"
 kind = "lemma"
 title = "Ample line bundles from projective embeddings"
-order = 731
+order = 738
 uses = ["def-pc-morphism-conventions", "def-sc-ample", "def-sc-invertible-module", "lem-pc-closed-imm-base-change"]
 +++
 Let $k$ be a field, let $i:X\hookrightarrow\mathbf{P}^n_k$ be a closed immersion

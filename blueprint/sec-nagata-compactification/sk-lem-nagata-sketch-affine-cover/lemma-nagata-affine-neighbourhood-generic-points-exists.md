@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-neighbourhood-generic-points-exists"
 kind = "lemma"
 title = "Existence of an affine neighbourhood through finitely many generic points, [stacks-project]"
-order = 313
+order = 320
 +++
 Let $X$ be quasi-separated, let $x\in X$, and let
 $\eta_1,\ldots,\eta_r$ be generic points of finitely many distinct

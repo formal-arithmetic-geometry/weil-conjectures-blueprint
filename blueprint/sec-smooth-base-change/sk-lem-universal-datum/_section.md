@@ -2,7 +2,7 @@
 id = "sk-lem-universal-datum"
 kind = "lemma"
 title = "Universal curve-test datum for a failure"
-order = 1392
+order = 1448
 uses = ["sk-def-bc", "sk-def-smooth"]
 lean = ["AlgebraicGeometry.Etale.CurveTestDatum", "AlgebraicGeometry.Etale.exists_curveTestDatum"]
 tags = ["sketch"]

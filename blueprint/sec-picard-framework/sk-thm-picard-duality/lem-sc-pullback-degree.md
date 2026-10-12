@@ -2,7 +2,7 @@
 id = "lem-sc-pullback-degree"
 kind = "lemma"
 title = "Degree of pullbacks of divisors"
-order = 700
+order = 706
 uses = ["def-sc-curves", "def-sc-divisor", "lem-sc-point-cartier"]
 +++
 Let $\pi:C\to C'$ be a finite flat morphism of proper smooth

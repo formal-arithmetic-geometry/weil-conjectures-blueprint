@@ -2,7 +2,7 @@
 id = "lem-pd-degree-locally-constant"
 kind = "lemma"
 title = "The fibrewise degree is a locally constant function, and is a base-change invariant"
-order = 842
+order = 848
 uses = ["def-pc-base-change", "def-pc-degree-line-bundle", "def-pc-euler-characteristic", "def-pd-fibrewise-degree", "def-sc-invertible-module", "def-pc-perfect-complex", "lem-pc-degree-base-change", "lem-pc-euler-additive", "lem-pc-flat-complex-derived-pullback", "lem-pc-rf-perfect-base-change", "thm-pc-semicontinuity-base-change"]
 +++
 In the situation of [def-pd-fibrewise-degree]:

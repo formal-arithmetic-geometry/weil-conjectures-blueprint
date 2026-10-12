@@ -2,7 +2,7 @@
 id = "lemma-nagata-separate-constructible-closed"
 kind = "lemma"
 title = "Properties of constructible-boundary separation"
-order = 251
+order = 258
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "def-nagata-separate-constructible-closed", "prop-nagata-global-blowup-cover-independent"]
 +++

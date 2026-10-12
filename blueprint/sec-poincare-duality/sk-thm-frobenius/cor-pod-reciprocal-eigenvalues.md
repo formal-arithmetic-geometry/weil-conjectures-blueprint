@@ -2,7 +2,7 @@
 id = "cor-pod-reciprocal-eigenvalues"
 kind = "theorem"
 title = "Reciprocal eigenvalues"
-order = 2751
+order = 2787
 tags = ["latex:corollary"]
 uses = ["cor-pod-untwisted-similitude", "def-weil-finite-coefficient-point", "thm-pod-degreewise-perfectness-over-a-field", "thm-pod-proper-poincare-duality"]
 +++

@@ -2,7 +2,7 @@
 id = "thm-fd-fourier-perverse"
 kind = "theorem"
 title = "Perverse amplitude of the Fourier transform"
-order = 3049
+order = 3085
 uses = ["def-fd-kernel", "def-fd-transform", "def-per-perverse-subcategories", "def-weil-pbc-scheme-conventions", "lem-fd-as-lisse", "lem-per-artin-gabber-affine-curve", "lem-per-lisse-tensor-permanence", "lem-per-smooth-pullback-t-exact", "prop-kernel-lisse"]
 +++
 Let $k_0=\mathbf F_q$, let $V=V^\vee=\mathbf A^1_{k_0}$, let

@@ -2,7 +2,7 @@
 id = "lem-a1-affine-hc0"
 kind = "lemma"
 title = "Vanishing of $H_c^0$ on a nonproper curve"
-order = 2963
+order = 2999
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-pbc-constructible-complexes", "def-wf-weil-category"]
 +++
 Let $U_0$ be a smooth geometrically connected affine curve and let

@@ -2,7 +2,7 @@
 id = "def-nagata-strict-transform-chart-comparison"
 kind = "definition"
 title = "Strict-transform chart comparison"
-order = 150
+order = 158
 uses = ["def-nagata-strict-chart-to-extended-blowup-chart", "def-nagata-strict-transform-chart-ring"]
 +++
 Define

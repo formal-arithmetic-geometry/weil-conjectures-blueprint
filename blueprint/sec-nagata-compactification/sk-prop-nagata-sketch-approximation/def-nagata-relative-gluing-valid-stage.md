@@ -2,7 +2,7 @@
 id = "def-nagata-relative-gluing-valid-stage"
 kind = "definition"
 title = "Cocycle-valid stage for the relative datum"
-order = 360
+order = 367
 uses = ["def-nagata-directed-finite-upper-bound", "def-nagata-morphism-equality-stage", "def-nagata-qc-open-equality-stage", "def-nagata-relative-gluing-datum-descent", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 For the raw datum, form the finite list of required equalities of overlap

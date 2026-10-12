@@ -2,7 +2,7 @@
 id = "def-nagata-relative-gluing-datum-descent"
 kind = "definition"
 title = "Finite-stage raw relative gluing datum"
-order = 358
+order = 365
 uses = ["def-nagata-affine-fp-descent", "def-nagata-directed-finite-upper-bound", "def-nagata-morphism-descent", "def-nagata-qc-open-descent", "def-nagata-relative-finite-affine-presentation", "lemma-nagata-affine-fp-descends", "lemma-nagata-morphism-descends", "lemma-nagata-qc-open-descends"]
 +++
 Descend every chart algebra in $\mathsf R_X$ using

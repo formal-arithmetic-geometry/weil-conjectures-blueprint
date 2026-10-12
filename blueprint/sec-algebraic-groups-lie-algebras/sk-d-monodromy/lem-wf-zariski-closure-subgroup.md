@@ -2,7 +2,7 @@
 id = "lem-wf-zariski-closure-subgroup"
 kind = "lemma"
 title = "Zariski closure of a matrix subgroup"
-order = 2804
+order = 2840
 +++
 Let $\Gamma$ be a subgroup of $\operatorname{GL}(V)$ over
 $\overline{\mathbf Q}_\ell$, and let $H$ be its Zariski closure

@@ -2,7 +2,7 @@
 id = "cor-fd-origin-stationary-phase"
 kind = "theorem"
 title = "The origin fiber is the stationary-phase contribution"
-order = 3085
+order = 3121
 tags = ["latex:corollary"]
 uses = ["def-fd-nonexceptional", "def-fd-transform", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-a1-unramified-nonexceptional", "lem-fd-stalk-at-origin", "lem-wf-boundary-stalk-invariants", "prop-a1-fourier-middle-extension"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.nonempty_equiv_stalk_origin_of_isFourierPartner"]

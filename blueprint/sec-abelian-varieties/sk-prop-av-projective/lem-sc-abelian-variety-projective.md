@@ -3,7 +3,7 @@ id = "lem-sc-abelian-variety-projective"
 kind = "lemma"
 title = "Abelian varieties are projective"
 lean = ["AlgebraicGeometry.IsAbelianVariety.exists_isClosedImmersion_projectiveSpace", "AlgebraicGeometry.IsAbelianVariety.exists_isAmple"]
-order = 474
+order = 480
 uses = ["def-sc-abelian-variety"]
 +++
 Every abelian variety $A$ over

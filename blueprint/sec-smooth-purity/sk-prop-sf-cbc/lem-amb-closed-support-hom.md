@@ -2,7 +2,7 @@
 id = "lem-amb-closed-support-hom"
 kind = "lemma"
 title = "Closed support as a relative section complex"
-order = 1872
+order = 1917
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-weil-scheme-morphism-properties", "lem-amb-etale-adjoint-locality", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $i:D\hookrightarrow T$ be a closed immersion,

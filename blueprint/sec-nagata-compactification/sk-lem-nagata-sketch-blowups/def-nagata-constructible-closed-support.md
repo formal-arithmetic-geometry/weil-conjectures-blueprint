@@ -2,7 +2,7 @@
 id = "def-nagata-constructible-closed-support"
 kind = "definition"
 title = "Ideal whose support is a constructible closed subset"
-order = 171
+order = 179
 lean = ["AlgebraicGeometry.Scheme.exists_finiteType_ideal_coe_support_eq_compl"]
 uses = ["def-nagata-extended-ideal", "def-nagata-qc-open-complement-ideal", "lemma-nagata-finite-type-ideal-extension-exists"]
 +++

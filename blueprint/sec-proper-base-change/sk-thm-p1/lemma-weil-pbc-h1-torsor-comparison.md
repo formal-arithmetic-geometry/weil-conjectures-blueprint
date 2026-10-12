@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-h1-torsor-comparison"
 kind = "lemma"
 title = "Finite-etale torsor comparison"
-order = 1139
+order = 1194
 uses = ["def-weil-pbc-finite-torsors", "def-weil-pbc-strict-henselian-setup", "lemma-weil-pbc-etale-degree-zero", "lemma-weil-pbc-finite-etale-henselian-lifting", "lemma-weil-pbc-finite-locally-constant-etale-equivalence", "thm-galois-lc-etale", "thm-weil-pbc-finite-etale-lifting"]
 +++
 Let $(A,I)$ be a henselian pair, let $Y\to\operatorname{Spec}A$ be proper,

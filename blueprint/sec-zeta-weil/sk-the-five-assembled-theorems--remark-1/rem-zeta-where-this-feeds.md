@@ -2,7 +2,7 @@
 id = "rem-zeta-where-this-feeds"
 kind = "remark"
 title = "Where the final layer feeds"
-order = 3244
+order = 3278
 +++
 *Where this feeds.* This layer is the last one of the blueprint: its
 inputs are the trace formula, Poincaré duality and the weight estimate, and

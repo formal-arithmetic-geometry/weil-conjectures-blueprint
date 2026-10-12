@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-transform-chart-closed"
 kind = "lemma"
 title = "Closedness of the strict-transform chart"
-order = 145
+order = 153
 uses = ["def-nagata-strict-transform-chart-ring", "lemma-nagata-power-torsion-submodule"]
 +++
 The quotient map

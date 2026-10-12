@@ -2,7 +2,7 @@
 id = "thm-exc-curve-open-constructible-general"
 kind = "theorem"
 title = "Open direct-image constructibility on arbitrary curves"
-order = 2224
+order = 2260
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-dvr-galois", "lem-exc-field-discrete-modules", "lem-exc-punctured-curve-branches", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-exc-curve-open-dimension-general", "thm-fin-open-degree-zero"]
 +++
 Let $T$ be of finite type of dimension at most one over

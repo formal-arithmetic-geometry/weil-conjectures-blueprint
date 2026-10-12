@@ -2,7 +2,7 @@
 id = "sk-thm-sfb-shriek-base-change"
 kind = "theorem"
 title = "Base change for the lower shriek on $D_{\\mathrm{cons}}$"
-order = 1753
+order = 1804
 uses = ["sk-def-sfb-shriek-base-change-morphism"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerShriekBaseChange", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerShriekBaseChange_padicAlgCl"]
 tags = ["sketch"]

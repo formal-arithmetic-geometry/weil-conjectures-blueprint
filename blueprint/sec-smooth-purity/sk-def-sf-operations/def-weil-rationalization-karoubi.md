@@ -2,7 +2,7 @@
 id = "def-weil-rationalization-karoubi"
 kind = "definition"
 title = "Rationalization (scalar localization)"
-order = 1764
+order = 1815
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility"]
 +++
 For the global finite-field datum [def-weil-finite-field-fiber], fix a prime

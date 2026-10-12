@@ -2,7 +2,7 @@
 id = "lem-pc-flat-source-descent"
 kind = "lemma"
 title = "Flatness descends along a flat surjection on the source"
-order = 789
+order = 795
 uses = ["def-pc-morphism-conventions"]
 +++
 Let $X'\xrightarrow{u}X\xrightarrow{f}S$ be morphisms of schemes.

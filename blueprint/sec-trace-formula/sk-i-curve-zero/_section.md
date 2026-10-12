@@ -2,7 +2,7 @@
 id = "sk-i-curve-zero"
 kind = "proposition"
 title = "Zero-stalk vanishing on a smooth curve"
-order = 2645
+order = 2681
 uses = ["sk-d-corr", "sk-d-curve-pieces", "sk-d-local-term", "sk-d-trace-class", "sk-p-pairing", "sk-thm-sf-package"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.localTerm_traceClass_eq_zero_of_isZero"]
 tags = ["sketch"]

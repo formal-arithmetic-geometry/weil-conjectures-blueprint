@@ -2,7 +2,7 @@
 id = "lem-sc-riemann-roch-large-degree"
 kind = "lemma"
 title = "Sections of line bundles of degree at least $2g-1$"
-order = 717
+order = 723
 uses = ["def-sc-curves", "def-sc-genus", "def-sc-pic0", "lem-sc-canonical-degree", "lem-sc-negative-degree-no-sections", "lem-sc-riemann-roch", "thm-sc-serre-duality-curve"]
 +++
 Let $k$ be algebraically closed, $C$ a proper smooth connected curve of

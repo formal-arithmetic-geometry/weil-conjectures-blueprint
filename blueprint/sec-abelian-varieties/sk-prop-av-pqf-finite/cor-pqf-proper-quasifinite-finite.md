@@ -3,7 +3,7 @@ id = "cor-pqf-proper-quasifinite-finite"
 kind = "theorem"
 title = "Proper quasi-finite morphisms are finite"
 lean = ["AlgebraicGeometry.IsFinite.of_isProper_of_locallyQuasiFinite"]
-order = 547
+order = 553
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-affine-morphism", "pqf-def-quasifinite", "pqf-lem-affine-local-target", "pqf-lem-proper-basic", "pqf-lem-qf-finitefibres", "pqf-lem-qf-locqf-qc", "thm-pqf-finite-iff-proper-finite-fibres", "thm-pqf-zmt-factorization"]
 tags = ["latex:corollary"]
 +++

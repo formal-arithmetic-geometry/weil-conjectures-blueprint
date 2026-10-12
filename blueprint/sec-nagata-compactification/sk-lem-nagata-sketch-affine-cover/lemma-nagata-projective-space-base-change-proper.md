@@ -2,7 +2,7 @@
 id = "lemma-nagata-projective-space-base-change-proper"
 kind = "lemma"
 title = "Projective space is proper over its base"
-order = 308
+order = 315
 lean = ["AlgebraicGeometry.ProjectiveSpace.instIsProper"]
 uses = ["def-nagata-affine-proj", "def-nagata-projective-space-base-change"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-pur-frame-independence"
 kind = "lemma"
 title = "Independence of the frame"
-order = 2247
+order = 2283
 uses = ["def-pur-frame-class", "def-pur-support-cohomology", "lem-pur-kunneth-supported"]
 +++
 In the situation of [def-pur-frame-class], the class

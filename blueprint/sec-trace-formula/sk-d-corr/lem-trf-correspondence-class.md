@@ -2,7 +2,7 @@
 id = "lem-trf-correspondence-class"
 kind = "lemma"
 title = "The class of a correspondence"
-order = 2582
+order = 2618
 uses = ["def-trf-admissibility", "def-trf-correspondence-between-pairs", "def-trf-supported-class", "def-weil-derived-pullback-tensor-hom", "prop-functor-package"]
 +++
 In the setting of [def-trf-correspondence-between-pairs], let

@@ -3,7 +3,7 @@ id = "def-sc-pic0"
 kind = "definition"
 title = "Degree and $\\operatorname{Pic}^0$"
 lean = ["AlgebraicGeometry.Scheme.Hom.picZero"]
-order = 445
+order = 455
 uses = ["def-sc-curves", "def-sc-divisor", "def-sc-picard-group"]
 +++
 Let $C$ be a scheme over a field $k$, and for an $\mathcal O_C$-module

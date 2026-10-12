@@ -2,7 +2,7 @@
 id = "sk-prop-picard-pic-split"
 kind = "proposition"
 title = "The split exact sequence"
-order = 810
+order = 816
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.injective_pic_map_snd", "AlgebraicGeometry.pic_map_sectionBaseChange_snd", "AlgebraicGeometry.bijective_toPicardFunctor_picardFunctorNormalized", "AlgebraicGeometry.bijective_pic_split"]
 tags = ["sketch"]

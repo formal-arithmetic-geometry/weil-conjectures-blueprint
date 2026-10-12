@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-level-map-derived-limit"
 kind = "lemma"
 title = "The rectangle passes to the derived inverse limit"
-order = 1336
+order = 1395
 uses = ["def-weil-pbc-adic-derived-inverse-limit", "lemma-weil-pbc-level-map-operator-naturality", "lemma-weil-pbc-level-map-rectangle", "lemma-weil-pbc-level-map-tower-compatibility"]
 +++
 Write $A_\infty=R\varprojlim A_n$ and likewise for the other three towers,

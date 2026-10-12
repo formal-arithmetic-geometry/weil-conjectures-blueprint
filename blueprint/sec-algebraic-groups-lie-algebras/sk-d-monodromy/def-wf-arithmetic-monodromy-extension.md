@@ -2,7 +2,7 @@
 id = "def-wf-arithmetic-monodromy-extension"
 kind = "definition"
 title = "Arithmetic monodromy extension"
-order = 2807
+order = 2843
 uses = ["def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-conjugation-geometric-monodromy"]
 +++
 Choose $s\in W(X_0)$ with $\deg(s)=1$, and let

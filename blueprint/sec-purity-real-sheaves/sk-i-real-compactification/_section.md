@@ -2,7 +2,7 @@
 id = "sk-i-real-compactification"
 kind = "proposition"
 title = "Smooth proper completion"
-order = 2915
+order = 2951
 uses = ["sk-d-real-setup"]
 lean = ["AlgebraicGeometry.exists_smooth_properCompactification"]
 tags = ["sketch"]

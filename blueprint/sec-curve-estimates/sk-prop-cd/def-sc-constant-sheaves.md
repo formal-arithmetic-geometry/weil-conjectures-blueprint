@@ -2,7 +2,7 @@
 id = "def-sc-constant-sheaves"
 kind = "definition"
 title = "Constant etale sheaves on a curve"
-order = 1007
+order = 1015
 uses = ["def-sc-curves", "def-weil-pbc-etale-sheaves"]
 +++
 Let $C$ be a curve and let $n\geq1$.

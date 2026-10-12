@@ -2,7 +2,7 @@
 id = "cor-cbc-derived-extension-zero-base-change"
 kind = "theorem"
 title = "Derived extension-by-zero base change"
-order = 1830
+order = 1881
 tags = ["latex:corollary"]
 uses = ["def-cbc-open-immersion-square", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "lem-cbc-extension-zero-base-change"]
 +++

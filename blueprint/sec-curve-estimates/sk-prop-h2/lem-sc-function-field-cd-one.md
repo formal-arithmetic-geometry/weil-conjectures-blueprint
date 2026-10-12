@@ -2,7 +2,7 @@
 id = "lem-sc-function-field-cd-one"
 kind = "lemma"
 title = "Cohomology of an algebraic extension of a curve function field"
-order = 981
+order = 989
 uses = ["def-sc-curves", "def-sc-function-field", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-exc-field-discrete-modules", "lem-sc-as-sequence", "lem-sc-etale-affine-qcoherent", "lem-sc-group-cd-one", "lem-sc-tsen", "lem-weil-pbc-cohomology-filtered-colimit", "lemma-weil-pbc-torsion-filtered-union"]
 +++
 Let $k$ be algebraically closed, $C/k$ an integral

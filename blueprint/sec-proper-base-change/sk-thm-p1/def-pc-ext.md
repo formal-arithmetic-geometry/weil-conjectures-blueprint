@@ -2,7 +2,7 @@
 id = "def-pc-ext"
 kind = "definition"
 title = "Extensions"
-order = 1166
+order = 1228
 lean = ["CategoryTheory.Abelian.Ext", "CategoryTheory.ProjectiveResolution.isoExt", "isZero_Ext_succ_of_projective"]
 +++
 Let $\mathcal A$ be an abelian category (for a scheme $X$: the category

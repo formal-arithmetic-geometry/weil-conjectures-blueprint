@@ -2,7 +2,7 @@
 id = "def-weil-hankel-matrix"
 kind = "definition"
 title = "Hankel matrix of a power series"
-order = 3167
+order = 3202
 uses = ["def-weil-field", "def-weil-formal-power-series"]
 +++
 Let $K$ be a field, let

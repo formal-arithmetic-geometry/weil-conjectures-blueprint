@@ -2,7 +2,7 @@
 id = "lemma-nagata-maximal-isomorphism-open"
 kind = "lemma"
 title = "Properties of the maximal isomorphism open"
-order = 258
+order = 265
 lean = ["AlgebraicGeometry.Scheme.Hom.isIso_restrict_maximalIsomorphismOpen", "AlgebraicGeometry.Scheme.Hom.le_maximalIsomorphismOpen"]
 uses = ["def-nagata-maximal-isomorphism-open"]
 +++

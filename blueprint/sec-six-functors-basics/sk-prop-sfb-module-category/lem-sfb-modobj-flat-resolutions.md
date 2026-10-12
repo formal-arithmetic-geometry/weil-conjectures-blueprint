@@ -2,7 +2,7 @@
 id = "lem-sfb-modobj-flat-resolutions"
 kind = "lemma"
 title = "Functorial flat resolutions of module objects"
-order = 1528
+order = 1579
 uses = ["def-sfb-modobj-symmetric-tensor", "lem-sfb-modobj-abelian", "lem-sfb-modobj-forget-faithful", "lem-sfb-modobj-forget-left-exact", "lem-sfb-modobj-forget-right-exact"]
 lean = ["CategoryTheory.Mod.hasFunctorialFlatResolution"]
 +++

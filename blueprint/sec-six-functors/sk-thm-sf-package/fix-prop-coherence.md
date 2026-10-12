@@ -2,7 +2,7 @@
 id = "fix-prop-coherence"
 kind = "theorem"
 title = "Coherence of the proved comparisons"
-order = 2559
+order = 2595
 tags = ["latex:proposition"]
 uses = ["cor-coef-verdier-weil-equivariance", "def-fix-six-functor-datum", "fix-cor-verdier-exchange", "fix-lem-exchanges", "fix-prop-projection-formula", "lem-coef-finite-exceptional", "lem-coef-integral-finite-extension", "lem-coef-integral-hom-reduction", "lem-coef-rational-operations", "lem-fix-operation-reduction", "lem-fix-weil-operations", "prop-coef-integral-exceptional-adjoint", "prop-pur-weil-equivariance-compatibilities", "thm-coef-finite-hom", "thm-pod-finite-reduction", "thm-pur-finite-reduction-of-purity"]
 +++

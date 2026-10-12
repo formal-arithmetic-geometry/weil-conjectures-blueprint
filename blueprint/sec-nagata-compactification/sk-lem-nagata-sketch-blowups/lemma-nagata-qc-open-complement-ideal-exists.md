@@ -2,7 +2,7 @@
 id = "lemma-nagata-qc-open-complement-ideal-exists"
 kind = "lemma"
 title = "Existence of an ideal defining the complement of a qc open"
-order = 168
+order = 176
 lean = ["AlgebraicGeometry.Scheme.exists_finiteType_ideal_coe_support_eq_compl"]
 +++
 Let $W\subseteq Y$ be a quasi-compact open in a qcqs scheme. There exists

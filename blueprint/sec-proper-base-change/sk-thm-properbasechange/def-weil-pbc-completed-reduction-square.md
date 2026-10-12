@@ -2,7 +2,7 @@
 id = "def-weil-pbc-completed-reduction-square"
 kind = "definition"
 title = "The four edges of the completed reduction square"
-order = 1341
+order = 1400
 uses = ["def-weil-pbc-completed-base-change-map"]
 +++
 Put

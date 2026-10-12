@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-exact-couple-abutment"
 kind = "lemma"
 title = "Finite rows and the abutment comparison"
-order = 1318
+order = 1377
 uses = ["def-sp-convergence", "def-weil-pbc-derived-exchange", "def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-truncation-exact-couples", "lem-sp-couple-morphism", "lemma-weil-pbc-hypercohomology-convergence", "thm-sp-half-plane-convergence"]
 +++
 In total degree $n$, the map on the abutments of the spectral sequences of

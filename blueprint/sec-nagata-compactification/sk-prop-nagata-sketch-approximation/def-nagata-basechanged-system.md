@@ -2,7 +2,7 @@
 id = "def-nagata-basechanged-system"
 kind = "definition"
 title = "Base-changed system over a chosen stage"
-order = 346
+order = 353
 +++
 Fix $\lambda_0\in I$ and a scheme $Y_{\lambda_0}$ equipped with a morphism
 to $S_{\lambda_0}$. On the cofinal directed subsystem

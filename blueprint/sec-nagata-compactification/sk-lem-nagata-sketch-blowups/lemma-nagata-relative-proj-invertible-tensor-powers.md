@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-proj-invertible-tensor-powers"
 kind = "lemma"
 title = "Proj of the tensor powers of an invertible ideal"
-order = 109
+order = 117
 uses = ["def-nagata-invertible-ideal", "def-nagata-relative-proj", "lemma-nagata-relative-proj-exists", "lemma-nagata-relative-proj-invertible-tensor-powers-affine"]
 +++
 If $\mathcal L$ is an invertible ideal on $Y$, the relative Proj of

@@ -2,7 +2,7 @@
 id = "sk-prop-tsen"
 kind = "proposition"
 title = "Tsen's theorem"
-order = 893
+order = 899
 uses = ["sk-def-av-pic", "sk-def-br", "sk-def-cr", "sk-def-curve"]
 tags = ["sketch"]
 +++

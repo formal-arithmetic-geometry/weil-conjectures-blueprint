@@ -3,7 +3,7 @@ id = "d-ab-field"
 kind = "definition"
 title = "Finite fields, Frobenius and abelian varieties"
 lean = ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic", "AlgebraicGeometry.IsAbelianVariety"]
-order = 466
+order = 472
 +++
 Fix distinct primes $p,\ell$, an integer $a\ge1$, a field $k_0$ with
 $q=p^a$ elements, and an algebraic closure $\bar k$.

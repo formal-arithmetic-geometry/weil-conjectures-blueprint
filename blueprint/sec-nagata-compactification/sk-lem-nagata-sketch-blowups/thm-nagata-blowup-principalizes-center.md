@@ -2,7 +2,7 @@
 id = "thm-nagata-blowup-principalizes-center"
 kind = "theorem"
 title = "Principalization of the center ideal"
-order = 102
+order = 110
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isInvertible_comap_blowupMap"]
 uses = ["def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-invertible-ideal", "lemma-nagata-chart-generators-associated", "prop-nagata-affine-blowup-chart-cover", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open"]
 +++

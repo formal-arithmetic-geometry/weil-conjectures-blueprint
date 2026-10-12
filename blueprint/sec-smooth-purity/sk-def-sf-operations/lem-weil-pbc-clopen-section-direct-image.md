@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-clopen-section-direct-image"
 kind = "lemma"
 title = "Direct image from an open and closed section"
-order = 1784
+order = 1835
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $p:V\to X$ be a scheme morphism and

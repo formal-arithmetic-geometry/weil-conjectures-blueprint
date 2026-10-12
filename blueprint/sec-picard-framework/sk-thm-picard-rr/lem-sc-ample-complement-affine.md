@@ -2,7 +2,7 @@
 id = "lem-sc-ample-complement-affine"
 kind = "lemma"
 title = "Complements of ample divisors are affine"
-order = 714
+order = 720
 uses = ["def-sc-ample", "def-sc-divisor", "def-sc-effective-cartier-divisor"]
 +++
 Let $X$ be a proper scheme over a field $k$, $D\subseteq X$ an

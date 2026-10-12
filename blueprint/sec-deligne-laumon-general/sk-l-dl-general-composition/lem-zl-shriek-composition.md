@@ -2,7 +2,7 @@
 id = "lem-zl-shriek-composition"
 kind = "lemma"
 title = "Composition of exceptional direct images"
-order = 3124
+order = 3160
 uses = ["def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "prop-functor-package"]
 +++
 For composable separated finite-type morphisms

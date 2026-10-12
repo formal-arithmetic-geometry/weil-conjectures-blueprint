@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-gluing-identities-eventually"
 kind = "lemma"
 title = "The selected finite-stage datum satisfies the gluing axioms"
-order = 337
+order = 344
 uses = ["def-nagata-affine-gluing-valid-stage", "lemma-nagata-affine-gluing-coefficients-descend", "lemma-nagata-directed-finite-upper-bound"]
 +++
 The overlap maps in $\mathsf G_{S,\lambda_{\mathrm{glue}}}$ preserve the

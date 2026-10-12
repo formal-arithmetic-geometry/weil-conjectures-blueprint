@@ -2,7 +2,7 @@
 id = "sk-rationality-the-criterion-and-the-descent--remark-1"
 kind = "remark"
 title = "Remark"
-order = 3197
+order = 3231
 tags = ["sketch"]
 +++
 *Why the descent is needed.* The factorization of

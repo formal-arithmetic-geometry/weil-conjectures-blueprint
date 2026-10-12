@@ -2,7 +2,7 @@
 id = "def-pd-separable-closure"
 kind = "definition"
 title = "Separable closure"
-order = 856
+order = 862
 uses = ["def-pc-base-change", "def-pc-separably-closed"]
 +++
 Let $k$ be a field. A *separable closure* of $k$ is a field $k_s$

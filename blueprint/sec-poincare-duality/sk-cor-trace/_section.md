@@ -2,7 +2,7 @@
 id = "sk-cor-trace"
 kind = "corollary"
 title = "The trace isomorphism"
-order = 2746
+order = 2782
 uses = ["sk-def-trace-cup", "sk-lem-finite", "sk-prop-an", "sk-thm-purity-transport", "sk-thm-regular", "sk-thm-sf-identification", "sk-thm-smooth-purity"]
 tags = ["sketch"]
 +++

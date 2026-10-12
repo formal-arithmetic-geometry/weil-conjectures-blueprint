@@ -2,7 +2,7 @@
 id = "sk-p-exterior"
 kind = "proposition"
 title = "Exterior-power weights"
-order = 2864
+order = 2900
 uses = ["sk-d-linear", "sk-d-weights", "sk-i-restriction", "sk-p-linear-spectra"]
 lean = ["Representation.exists_multiset_le_and_detWeight_eq_sum_of_exteriorPower"]
 tags = ["sketch"]

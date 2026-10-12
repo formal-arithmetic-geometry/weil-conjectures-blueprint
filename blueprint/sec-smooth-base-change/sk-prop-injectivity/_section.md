@@ -2,7 +2,7 @@
 id = "sk-prop-injectivity"
 kind = "proposition"
 title = "Injectivity of the critical map"
-order = 1383
+order = 1439
 uses = ["sk-def-bc"]
 lean = ["AlgebraicGeometry.Etale.mono_baseChangeHomologyMap", "AlgebraicGeometry.Etale.mono_cokernelMap", "AlgebraicGeometry.Etale.mono_cokernelDesc"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "def-sp-double-complex-total"
 kind = "definition"
 title = "First-quadrant double complexes, total complex and the two filtrations"
-order = 516
+order = 522
 uses = ["def-sp-abelian", "def-sp-filtration"]
 +++
 Let $\mathcal C$ be an abelian category [def-sp-abelian]. A *double complex*

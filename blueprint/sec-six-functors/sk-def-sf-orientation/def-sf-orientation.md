@@ -2,7 +2,7 @@
 id = "def-sf-orientation"
 kind = "definition"
 title = "Orientation datum"
-order = 2351
+order = 2387
 uses = ["def-sf-datum"]
 +++
 In the setting of [def-sf-datum], an *orientation datum* consists

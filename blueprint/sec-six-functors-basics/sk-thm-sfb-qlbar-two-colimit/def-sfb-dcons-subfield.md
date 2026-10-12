@@ -2,7 +2,7 @@
 id = "def-sfb-dcons-subfield"
 kind = "definition"
 title = "$D_{\\mathrm{cons}}(X,E)$"
-order = 1707
+order = 1758
 uses = ["sk-def-sfb-bounded-constructible", "def-sfb-subfield-coefficient-map"]
 lean = ["AlgebraicGeometry.ProEtale.PadicSubfieldConstructible"]
 +++

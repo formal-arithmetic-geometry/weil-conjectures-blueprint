@@ -2,7 +2,7 @@
 id = "lemma-nagata-sheaf-ideal-powers-assoc"
 kind = "lemma"
 title = "Associativity of ideal-power multiplication"
-order = 104
+order = 112
 +++
 For a quasi-coherent ideal $\mathcal I\subseteq\mathcal O_X$, the canonical
 maps $\mathcal I^m\otimes\mathcal I^n\to\mathcal I^{m+n}$ are associative

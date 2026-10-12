@@ -2,7 +2,7 @@
 id = "sec-curve-estimates"
 kind = "section"
 title = "Curve Estimates"
-order = 872
+order = 878
 uses = ["sec-abelian-varieties", "sec-picard-framework", "sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-av-final"]
 +++
 **Content.** For a smooth proper connected curve $C$ of genus $g$ over an

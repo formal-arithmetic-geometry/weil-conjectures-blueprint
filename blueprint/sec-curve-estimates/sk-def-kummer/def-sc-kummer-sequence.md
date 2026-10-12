@@ -2,7 +2,7 @@
 id = "def-sc-kummer-sequence"
 kind = "definition"
 title = "The Kummer sequence"
-order = 874
+order = 880
 uses = ["def-sc-curves"]
 lean = ["AlgebraicGeometry.Scheme.kummerSequence"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-tw-tate-twist-weight-shift"
 kind = "lemma"
 title = "Weight shift under a Tate twist"
-order = 2962
+order = 2998
 uses = ["def-coefficient-twists-detailed", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-module-weights", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-tw-multiplicativity"]
 +++
 Fix the finite-field datum

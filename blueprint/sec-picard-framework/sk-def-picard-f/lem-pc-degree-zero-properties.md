@@ -2,7 +2,7 @@
 id = "lem-pc-degree-zero-properties"
 kind = "lemma"
 title = "Cohomology of a module in degree zero"
-order = 820
+order = 826
 uses = ["def-pc-derived-category", "def-pc-finite-locally-free", "def-sc-invertible-module"]
 +++
 Let $X$ be a scheme, $M\in D(\mathcal{O}_X)$ and let $\mathcal{N}$ be an

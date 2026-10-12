@@ -2,7 +2,7 @@
 id = "def-sfb-derived-hom-modules"
 kind = "definition"
 title = "Derived internal hom of module objects"
-order = 1568
+order = 1619
 uses = ["def-sfb-derived-tensor-modules", "lem-sfb-derived-monoidal-closed"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedHom"]
 +++

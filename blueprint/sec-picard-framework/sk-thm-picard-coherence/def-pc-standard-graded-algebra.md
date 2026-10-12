@@ -2,7 +2,7 @@
 id = "def-pc-standard-graded-algebra"
 kind = "definition"
 title = "Standard graded algebras"
-order = 645
+order = 651
 +++
 Let $k$ be a field. A standard graded $k$-algebra is a commutative
 $k$-algebra with a direct-sum decomposition $S=\bigoplus_{n\ge0}S_n$

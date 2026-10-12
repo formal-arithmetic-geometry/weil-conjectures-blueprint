@@ -2,7 +2,7 @@
 id = "prop-a1-middle-extension-curve-upper"
 kind = "theorem"
 title = "Upper bound for a curve middle extension"
-order = 3112
+order = 3148
 tags = ["latex:proposition"]
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-a1-affine-core-of-curve", "lem-a1-extension-bounds", "lem-a1-finite-boundary-cohomology", "lem-a1-finite-boundary-weights", "lem-a1-lisse-middle-extension", "lem-a1-subquotient-extension-bounds", "lem-wf-boundary-semicontinuity", "lem-wf-boundary-stalk-invariants", "prop-a1-curve-boundary-sequence", "thm-a1-affine-curve-upper"]
 +++

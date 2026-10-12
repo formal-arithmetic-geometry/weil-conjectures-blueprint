@@ -2,7 +2,7 @@
 id = "lem-mg-normal-restriction-semisimple"
 kind = "lemma"
 title = "Restriction of a semisimple representation to a normal subgroup"
-order = 2822
+order = 2858
 uses = ["def-wf-geometric-semisimplicity", "def-wf-semisimple-module", "def-wf-simple-module"]
 +++
 Let $N\triangleleft\Gamma$ be a normal subgroup, with no finiteness

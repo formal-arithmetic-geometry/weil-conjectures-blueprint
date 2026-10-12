@@ -2,7 +2,7 @@
 id = "sk-i-cartier"
 kind = "proposition"
 title = "Characteristic-zero group smoothness"
-order = 2793
+order = 2829
 uses = ["sk-d-geometry", "sk-d-tangent", "sk-i-geometry"]
 lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_charZero", "AlgebraicGeometry.GrpObj.finrank_lie_eq_topologicalKrullDim", "AlgebraicGeometry.GeneralLinearGroup.finrank_lie_eq_ringKrullDim", "AlgebraicGeometry.GrpObj.lieEquivIdentityComponent", "AlgebraicGeometry.GeneralLinearGroup.lieAlgebraEquivIdentityComponent", "AlgebraicGeometry.GrpObj.lieEquiv_mul"]
 tags = ["sketch"]

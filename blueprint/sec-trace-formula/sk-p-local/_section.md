@@ -2,7 +2,7 @@
 id = "sk-p-local"
 kind = "proposition"
 title = "Decomposition into local terms"
-order = 2651
+order = 2687
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-local-term", "sk-d-pairing", "sk-p-pairing", "sk-thm-sf-package"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.integral_eq_sum_localTerm"]
 tags = ["sketch"]

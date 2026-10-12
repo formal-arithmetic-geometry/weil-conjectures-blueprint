@@ -3,7 +3,7 @@ id = "def-sc-invertible-module"
 kind = "definition"
 title = "Invertible modules and their duals"
 lean = ["SheafOfModules.IsInvertible"]
-order = 442
+order = 452
 +++
 Let $X$ be a scheme (for instance a curve $C$ as in [def-sc-curves],
 in which case one speaks of invertible $\mathcal O_C$-modules). An

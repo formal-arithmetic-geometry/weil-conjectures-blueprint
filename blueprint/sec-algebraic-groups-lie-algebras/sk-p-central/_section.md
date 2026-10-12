@@ -2,7 +2,7 @@
 id = "sk-p-central"
 kind = "proposition"
 title = "A positive central representative"
-order = 2830
+order = 2866
 uses = ["sk-d-central", "sk-d-monodromy", "sk-i-restriction", "sk-p-geometry", "sk-p-product"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair"]
 tags = ["sketch"]

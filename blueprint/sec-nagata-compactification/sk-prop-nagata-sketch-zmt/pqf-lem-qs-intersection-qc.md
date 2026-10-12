@@ -2,7 +2,7 @@
 id = "pqf-lem-qs-intersection-qc"
 kind = "lemma"
 title = "Intersections of quasi-compact opens"
-order = 194
+order = 201
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be a

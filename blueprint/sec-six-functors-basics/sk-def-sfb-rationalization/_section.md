@@ -2,7 +2,7 @@
 id = "sk-def-sfb-rationalization"
 kind = "definition"
 title = "Rationalization of a linear triangulated category"
-order = 1575
+order = 1626
 lean = ["CategoryTheory.Rationalization.torsion", "CategoryTheory.Rationalization.instIsTriangulatedTorsion", "CategoryTheory.Rationalization.W", "CategoryTheory.Rationalization.W_smul_id", "CategoryTheory.Rationalization", "CategoryTheory.Rationalization.Q", "CategoryTheory.Rationalization.isIso_smul_id", "CategoryTheory.Rationalization.linear"]
 tags = ["sketch"]
 +++

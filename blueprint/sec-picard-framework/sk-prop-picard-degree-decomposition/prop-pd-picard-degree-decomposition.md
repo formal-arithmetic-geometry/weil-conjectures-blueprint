@@ -2,7 +2,7 @@
 id = "prop-pd-picard-degree-decomposition"
 kind = "theorem"
 title = "Degree decomposition of the Picard scheme"
-order = 844
+order = 850
 tags = ["latex:proposition"]
 uses = ["cor-pc-sigma-pic-iso", "def-pc-degree-line-bundle", "def-pc-divisor-line-bundle", "def-pc-euler-characteristic", "def-pc-picard-functor", "def-pc-rational-point", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-subfunctor", "def-pd-degree-morphism", "def-pd-fibrewise-degree", "def-sc-effective-cartier-divisor", "lem-pc-degree-agrees-sc", "lem-pc-degree-base-change", "lem-pc-rational-points-dense", "lem-pc-vanishing-above-dim", "lem-pd-degree-locally-constant", "lem-sc-point-cartier", "prop-pc-xk-integral", "rem-pc-group-structure", "thm-pc-picard-representable"]
 lean = ["AlgebraicGeometry.exists_decomposition_picardFunctor"]

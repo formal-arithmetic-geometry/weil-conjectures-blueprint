@@ -2,7 +2,7 @@
 id = "def-weil-pbc-geometric-fibre"
 kind = "definition"
 title = "Geometric fibre of a finite morphism"
-order = 995
+order = 1003
 lean = ["AlgebraicGeometry.Scheme.Hom.GeometricFiber", "AlgebraicGeometry.Scheme.Hom.GeometricFiber.finite"]
 +++
 Let $h:W\to V$ be a morphism of schemes, let $\Omega$ be a field and let

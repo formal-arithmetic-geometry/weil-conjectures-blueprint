@@ -2,7 +2,7 @@
 id = "def-mg-weil-composition-series"
 kind = "definition"
 title = "Composition series of a Weil representation"
-order = 2840
+order = 2876
 uses = ["def-wf-monodromy-data"]
 +++
 Let $V$ be the finite-dimensional Weil representation in the

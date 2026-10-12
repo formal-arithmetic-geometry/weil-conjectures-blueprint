@@ -2,7 +2,7 @@
 id = "thm-sf-verdier-exchange"
 kind = "theorem"
 title = "Verdier-duality exchange"
-order = 2475
+order = 2511
 uses = ["def-sf-datum", "def-sf-pf", "def-trf-admissibility", "def-weil-exceptional-inverse-image", "fix-cor-verdier-exchange", "lem-sf-mate", "lem-sf-tensor-hom", "thm-sf-comp-composition"]
 +++
 In the setting of [def-sf-datum], let $f:X\to Y$ be a separated

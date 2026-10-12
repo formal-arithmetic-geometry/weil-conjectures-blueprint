@@ -2,7 +2,7 @@
 id = "sbc-lem-bc-injectivity"
 kind = "lemma"
 title = "Injectivity of the critical map and its cokernel"
-order = 1384
+order = 1440
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-leray-acyclicity", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-naturality"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property], assume for

@@ -2,7 +2,7 @@
 id = "lem-kun-change-of-rings-tensor"
 kind = "lemma"
 title = "Change of rings for the derived tensor"
-order = 2053
+order = 2091
 uses = ["def-kun-derived-tensor", "def-kun-torsion-invertible"]
 +++
 Let $\Lambda'=\kunZn$, let $M$ be a flat $\Lambda'$-module, let

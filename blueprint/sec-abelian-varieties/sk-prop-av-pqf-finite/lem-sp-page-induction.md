@@ -2,7 +2,7 @@
 id = "lem-sp-page-induction"
 kind = "lemma"
 title = "Page induction"
-order = 512
+order = 518
 uses = ["def-sp-convergence", "def-sp-spectral-sequence"]
 +++
 Let $\varphi:E\to E'$ be a morphism of spectral sequences

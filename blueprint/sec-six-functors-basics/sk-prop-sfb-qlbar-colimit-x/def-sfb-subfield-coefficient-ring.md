@@ -2,7 +2,7 @@
 id = "def-sfb-subfield-coefficient-ring"
 kind = "definition"
 title = "The coefficient ring $E_X$"
-order = 1496
+order = 1547
 uses = ["sk-def-sfb-condensed-ring", "sk-def-sfb-pulled-back-coefficients"]
 lean = ["AlgebraicGeometry.ProEtale.padicSubfieldRingObj"]
 +++

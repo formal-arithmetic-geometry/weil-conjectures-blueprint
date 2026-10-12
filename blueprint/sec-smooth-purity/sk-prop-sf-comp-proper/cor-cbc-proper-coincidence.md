@@ -2,7 +2,7 @@
 id = "cor-cbc-proper-coincidence"
 kind = "theorem"
 title = "Proper morphisms: compact supports equal direct image"
-order = 2180
+order = 2216
 tags = ["latex:corollary"]
 uses = ["def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-weil-pbc-derived-exchange", "def-weil-pbc-scheme-conventions", "thm-cbc-finite-torsion"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_rightDerivedLowerStar"]

@@ -2,7 +2,7 @@
 id = "lem-wf-point-count-linear-growth"
 kind = "lemma"
 title = "Linear growth of the point count on an affine curve"
-order = 2956
+order = 2992
 uses = ["def-weil-pbc-scheme-conventions", "lem-zl-noether-normalization-dimension"]
 +++
 Let $U_0$ be a smooth affine curve over $k_0=\mathbf F_q$ (in the

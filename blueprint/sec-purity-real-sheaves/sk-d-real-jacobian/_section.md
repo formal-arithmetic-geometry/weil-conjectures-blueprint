@@ -2,7 +2,7 @@
 id = "sk-d-real-jacobian"
 kind = "definition"
 title = "Jacobian torsion data and Kummer coefficients"
-order = 2910
+order = 2946
 uses = ["sk-d-real-cohom", "sk-d-real-setup", "sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.JacobianTorsionDatum", "AlgebraicGeometry.JacobianTorsionDatum.tateModule"]
 tags = ["sketch"]

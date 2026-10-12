@@ -2,7 +2,7 @@
 id = "def-nagata-sheaf-rees-algebra"
 kind = "definition"
 title = "Sheaf Rees algebra"
-order = 105
+order = 113
 uses = ["lemma-nagata-sheaf-ideal-powers-assoc"]
 +++
 Let $\mathcal I\subseteq\mathcal O_X$ be a quasi-coherent ideal sheaf. Define

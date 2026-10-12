@@ -2,7 +2,7 @@
 id = "lem-rp-upper-bound"
 kind = "lemma"
 title = "Upper bound via the largest determinant weight"
-order = 2968
+order = 3004
 uses = ["cor-mg-det-weight-finite-tensor", "cor-rp-euler-product", "d-real-cohom", "def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-mg-weil-semisimplification", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "def-wf-iota-real", "def-wf-weil-category", "lem-mg-normal-restriction-semisimple", "lem-mg-semisimplification-independent", "lem-rp-even-tensor-positivity", "lem-rp-hc2-eigenvalue-determinant-weight", "lem-rp-positive-product-radius", "p-linear-filtration", "p-linear-spectra"]
 +++
 Let $U_0$ be a smooth geometrically connected affine curve, let

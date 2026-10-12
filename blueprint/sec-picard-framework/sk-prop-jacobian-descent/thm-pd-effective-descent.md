@@ -2,7 +2,7 @@
 id = "thm-pd-effective-descent"
 kind = "theorem"
 title = "Effective descent for quasi-projective schemes"
-order = 864
+order = 870
 uses = ["cor-pd-finite-level", "def-pc-finite-locally-free", "def-pc-morphism-conventions", "def-pc-projective-morphism", "def-pd-descent-datum"]
 +++
 Let $X\to Y$ be a surjective

@@ -2,7 +2,7 @@
 id = "thm-sf-dual-perfect"
 kind = "theorem"
 title = "The dual of a perfect complex"
-order = 2482
+order = 2518
 uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "cor-pur-finite-stage-smooth-dualizing-complex", "def-pod-conventions", "def-sf-datum", "def-sf-orientation", "def-weil-derived-pullback-tensor-hom", "lem-sf-hom-finite-projective", "lem-sf-twist-interchange", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
 +++
 In the Poincare duality conventions of [def-pod-conventions] (an

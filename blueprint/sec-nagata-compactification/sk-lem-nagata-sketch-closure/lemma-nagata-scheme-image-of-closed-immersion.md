@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-image-of-closed-immersion"
 kind = "lemma"
 title = "Scheme-theoretic image of a closed immersion"
-order = 69
+order = 77
 lean = ["AlgebraicGeometry.IsClosedImmersion.instIsIsoSchemeToImage"]
 uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++

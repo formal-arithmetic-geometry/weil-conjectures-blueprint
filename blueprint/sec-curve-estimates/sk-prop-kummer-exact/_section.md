@@ -2,7 +2,7 @@
 id = "sk-prop-kummer-exact"
 kind = "proposition"
 title = "Exactness of the Kummer sequence"
-order = 875
+order = 881
 uses = ["sk-def-curve", "sk-def-kummer"]
 lean = ["AlgebraicGeometry.Scheme.kummerSequence_shortExact"]
 tags = ["sketch"]

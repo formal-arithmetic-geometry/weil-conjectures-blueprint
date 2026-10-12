@@ -2,7 +2,7 @@
 id = "lem-sf-hom-triangulated"
 kind = "lemma"
 title = "Exactness of the internal Hom in each variable"
-order = 2385
+order = 2421
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-pbc-etale-site", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $A$ be a commutative ring, let $X$ be a scheme and let

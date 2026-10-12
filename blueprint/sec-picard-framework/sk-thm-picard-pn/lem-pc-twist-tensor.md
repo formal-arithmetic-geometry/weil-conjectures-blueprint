@@ -2,7 +2,7 @@
 id = "lem-pc-twist-tensor"
 kind = "lemma"
 title = "Twists and tensor products"
-order = 616
+order = 622
 uses = ["def-pc-proj", "def-pc-projective-space-twist", "def-sc-invertible-module"]
 +++
 Let $A$ be a commutative ring, $n\ge0$,

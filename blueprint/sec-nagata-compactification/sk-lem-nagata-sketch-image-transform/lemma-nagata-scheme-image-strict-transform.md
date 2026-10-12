@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-image-strict-transform"
 kind = "lemma"
 title = "[stacks-project]"
-order = 233
+order = 240
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_lift_admissibleBlowup"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-transport-strict-transform", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent"]
 +++

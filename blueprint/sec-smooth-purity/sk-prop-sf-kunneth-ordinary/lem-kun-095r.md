@@ -2,7 +2,7 @@
 id = "lem-kun-095r"
 kind = "lemma"
 title = "Pushforward of constructible sheaves along finite morphisms"
-order = 2078
+order = 2116
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "fin4-thm-finite-morphisms-constructible", "lemma-weil-pbc-finite-direct-image-exact", "sbc-def-coefficient-conventions"]
 +++
 Let $k$ be a field, $X$ and $Y$ schemes of

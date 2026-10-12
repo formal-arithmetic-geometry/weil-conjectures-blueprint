@@ -2,7 +2,7 @@
 id = "cor-mg-rankone-weight-from-element"
 kind = "theorem"
 title = "Rank-one weight from a positive-degree element"
-order = 2860
+order = 2896
 tags = ["latex:corollary"]
 uses = ["def-weil-punctual-weights", "def-wf-weil-category", "def-wf-weil-group", "lem-wf-rank-one-component-modulus"]
 +++

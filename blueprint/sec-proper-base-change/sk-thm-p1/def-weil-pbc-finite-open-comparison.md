@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-open-comparison"
 kind = "definition"
 title = "Finite-open comparison map"
-order = 1174
+order = 1240
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange"]
 +++
 Consider a Cartesian square

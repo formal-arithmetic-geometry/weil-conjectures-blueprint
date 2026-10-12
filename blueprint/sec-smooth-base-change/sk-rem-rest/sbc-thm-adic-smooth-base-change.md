@@ -2,7 +2,7 @@
 id = "sbc-thm-adic-smooth-base-change"
 kind = "theorem"
 title = "Adic smooth base change"
-order = 1443
+order = 1494
 uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-completed-pullback", "lemma-weil-pbc-perfect-projection-formula", "sbc-def-base-change-square", "sbc-thm-finite-proetale-smooth-base-change", "sbc-thm-smooth-base-change", "thm-weil-pbc-complete-proetale"]
 +++
 In the square of

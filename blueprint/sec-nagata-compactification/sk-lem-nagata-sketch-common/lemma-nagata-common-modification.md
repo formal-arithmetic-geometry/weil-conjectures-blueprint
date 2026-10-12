@@ -2,7 +2,7 @@
 id = "lemma-nagata-common-modification"
 kind = "lemma"
 title = "Properties of the common modification, [stacks-project]"
-order = 240
+order = 247
 lean = ["AlgebraicGeometry.nonempty_commonModification"]
 uses = ["def-nagata-common-modification", "def-nagata-elimination-indeterminacy", "def-nagata-global-blowup-overlap-basic-map", "lemma-nagata-proper-to-separated-target", "lemma-nagata-rees-generators-cover-proj", "prop-nagata-proj-standard-open"]
 +++

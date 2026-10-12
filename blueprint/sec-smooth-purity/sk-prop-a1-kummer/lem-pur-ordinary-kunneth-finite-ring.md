@@ -2,7 +2,7 @@
 id = "lem-pur-ordinary-kunneth-finite-ring"
 kind = "lemma"
 title = "Ordinary Kunneth at a finite coefficient ring"
-order = 2241
+order = 2277
 uses = ["def-kun-derived-tensor", "def-kun-kunneth-map", "def-weil-finite-field-fiber", "def-weil-pbc-derived-categories", "def-weil-scheme-morphism-properties", "lem-kun-0f10", "lem-kun-0f12", "thm-kun-0f1p"]
 +++
 Let $k$ be the algebraically closed field of

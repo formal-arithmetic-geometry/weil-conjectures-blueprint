@@ -2,7 +2,7 @@
 id = "lem-pc-finite-support-hi"
 kind = "lemma"
 title = "Finite support of higher direct images"
-order = 642
+order = 648
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-vanishing", "lem-pc-cech-computes"]
 +++
 Let $f:X\to S$ be a quasi-compact, quasi-separated morphism of schemes.

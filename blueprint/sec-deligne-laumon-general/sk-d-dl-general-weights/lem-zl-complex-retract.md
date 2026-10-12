@@ -2,7 +2,7 @@
 id = "lem-zl-complex-retract"
 kind = "lemma"
 title = "Retract stability of complex weights"
-order = 3117
+order = 3153
 uses = ["def-weil-complex-weights", "def-weil-derived-cohomology-sheaves", "def-weil-punctual-weights", "lem-a1-mixed-direct-summand"]
 +++
 Every direct summand of an object of $D_{\le w}(X_0)$ again belongs to

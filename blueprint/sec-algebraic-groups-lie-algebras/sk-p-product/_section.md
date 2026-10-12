@@ -2,7 +2,7 @@
 id = "sk-p-product"
 kind = "proposition"
 title = "The central–geometric product"
-order = 2826
+order = 2862
 uses = ["sk-d-geometry", "sk-d-monodromy", "sk-d-tangent", "sk-i-cartier", "sk-i-restriction", "sk-p-comparison", "sk-p-geometry", "sk-p-lie"]
 lean = ["AlgebraicGeometry.GeneralLinearGroup.surjective_mulCenterIdentityComponent", "AlgebraicGeometry.GeneralLinearGroup.exists_mul_eq_of_containsCommutators", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.surjective_mul_center_geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_mem_center_mul_mem_geometricMonodromy_eq"]
 tags = ["sketch"]

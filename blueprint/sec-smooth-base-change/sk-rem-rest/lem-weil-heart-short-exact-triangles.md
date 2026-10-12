@@ -2,7 +2,7 @@
 id = "lem-weil-heart-short-exact-triangles"
 kind = "lemma"
 title = "Short exact sequences in the heart are triangles"
-order = 1447
+order = 1498
 uses = ["def-weil-t-structure", "prop-weil-heart-abelian"]
 +++
 Let $(\mathcal T^{\le0},\mathcal T^{\ge0})$ be a t-structure on a

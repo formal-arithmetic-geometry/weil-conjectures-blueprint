@@ -2,7 +2,7 @@
 id = "lem-sc-c2"
 kind = "lemma"
 title = "C2: vanishing on affine curves"
-order = 1113
+order = 1165
 uses = ["def-sc-curves", "def-weil-pbc-eight-curve-assertions", "lem-sc-affine-cohomological-dimension", "lem-sc-artin-schreier-dimension", "thm-sc-affine-cohomology"]
 +++
 Let $k$ be algebraically closed, let $C$ be a

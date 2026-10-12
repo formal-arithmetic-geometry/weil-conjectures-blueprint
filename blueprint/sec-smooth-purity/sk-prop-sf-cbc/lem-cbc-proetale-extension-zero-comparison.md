@@ -2,7 +2,7 @@
 id = "lem-cbc-proetale-extension-zero-comparison"
 kind = "lemma"
 title = "Comparison of extension by zero with the site morphism"
-order = 1888
+order = 1931
 uses = ["def-weil-extension-by-zero", "def-weil-pbc-extension-by-zero", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-cbc-extension-zero-composition", "lem-cbc-proetale-extension-zero"]
 +++
 Let $\nu_X:X_{\Proet}\to X_{\Et}$ be the comparison morphism of

@@ -2,7 +2,7 @@
 id = "def-mg-determinantal-weight-multiset"
 kind = "definition"
 title = "Determinantal-weight multiset"
-order = 2940
+order = 2976
 uses = ["def-mg-weil-semisimplification", "def-wf-determinantal-weight"]
 +++
 Let $V$ be a finite-dimensional Weil representation on the preceding

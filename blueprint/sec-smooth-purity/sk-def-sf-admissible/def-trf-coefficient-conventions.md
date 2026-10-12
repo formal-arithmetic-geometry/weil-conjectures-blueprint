@@ -2,7 +2,7 @@
 id = "def-trf-coefficient-conventions"
 kind = "definition"
 title = "Trace-formula coefficient conventions"
-order = 1815
+order = 1866
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum

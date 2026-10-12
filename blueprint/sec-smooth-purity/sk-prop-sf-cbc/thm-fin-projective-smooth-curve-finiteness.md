@@ -2,7 +2,7 @@
 id = "thm-fin-projective-smooth-curve-finiteness"
 kind = "theorem"
 title = "Constant-coefficient finiteness for projective smooth curves"
-order = 1915
+order = 1954
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-pc-projective-morphism", "def-sbc-smooth-morphisms", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "fin4-lem-stalk-constructibility-criterion", "lem-fin-projective-curve-betti-cardinalities", "lem-pc-projective-proper"]
 +++
 Let $S$ be Noetherian

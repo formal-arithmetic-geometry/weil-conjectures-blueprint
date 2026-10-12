@@ -2,7 +2,7 @@
 id = "sk-lem-kernel-composition"
 kind = "proposition"
 title = "P11: composition of kernel transforms"
-order = 3015
+order = 3051
 lean = ["AlgebraicGeometry.Etale.kernelTransformCompIso"]
 uses = ["sk-def-ft"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "def-sfb-constructible-cocone"
 kind = "definition"
 title = "The cocone $E\\mapsto D_{\\mathrm{cons}}(X,E)$"
-order = 1714
+order = 1765
 uses = ["sk-def-sfb-filtered-two-colimit", "def-sfb-dcons-subfield", "def-sfb-dcons-qlbar", "def-sfb-constructible-extend-subfield", "def-sfb-constructible-extend-to-qlbar", "def-sfb-constructible-extend-comp-iso"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleCocone"]
 +++

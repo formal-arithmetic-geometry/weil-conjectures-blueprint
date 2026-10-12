@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-projective-summand"
 kind = "lemma"
 title = "Finite-projective summand equations"
-order = 1266
+order = 1333
 uses = ["def-weil-pbc-projection-formula-arrows", "lemma-weil-pbc-projection-formula-finite-free"]
 +++
 For a finite projective $F^r$ and a displayed splitting $(i_r,p_r)$, the

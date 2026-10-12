@@ -2,7 +2,7 @@
 id = "sk-p-linear-filtration"
 kind = "proposition"
 title = "Characteristic polynomials along a filtration"
-order = 2852
+order = 2888
 uses = ["sk-d-linear"]
 lean = ["LinearMap.charpoly_eq_charpoly_restrict_mul_charpoly_mapQ", "Module.End.hasEigenvalue_of_subquotient"]
 tags = ["sketch"]

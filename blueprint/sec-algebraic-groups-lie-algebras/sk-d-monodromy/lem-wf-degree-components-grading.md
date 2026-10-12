@@ -2,7 +2,7 @@
 id = "lem-wf-degree-components-grading"
 kind = "lemma"
 title = "The degree components multiply by degree"
-order = 2813
+order = 2849
 uses = ["def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "lem-wf-arith-extension-group"]
 +++
 In the situation of [def-wf-degree-components], for all

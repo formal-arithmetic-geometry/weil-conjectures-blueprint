@@ -2,7 +2,7 @@
 id = "lemma-nagata-extended-ideal-affine-chart"
 kind = "lemma"
 title = "Extended ideal on an affine blow-up chart"
-order = 101
+order = 109
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.ideal_top_comap_specMap_fromSpec"]
 uses = ["def-nagata-extended-ideal", "lemma-nagata-chart-extended-ideal-principal"]
 +++

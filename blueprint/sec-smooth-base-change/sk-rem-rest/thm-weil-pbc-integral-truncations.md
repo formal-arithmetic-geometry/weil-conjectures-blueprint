@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-integral-truncations"
 kind = "theorem"
 title = "Truncations of the integral category"
-order = 1430
+order = 1482
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-bounded-constructible-complete", "def-weil-pbc-bounded-constructible-tower", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-intrinsic-completion", "lem-weil-pbc-finite-reduction-reconstruction", "lem-weil-pbc-reconstruction-uniform-tower", "prop-weil-pbc-levelwise-truncations"]
 +++
 Let the adic datum be $A=\mathcal O_E$, $I=(\varpi)$, $P_n=A_{E,n}$, and let

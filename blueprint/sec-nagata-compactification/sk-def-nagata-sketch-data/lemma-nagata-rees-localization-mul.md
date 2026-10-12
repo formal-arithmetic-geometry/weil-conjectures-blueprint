@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-localization-mul"
 kind = "lemma"
 title = "Iterated localization coherence"
-order = 43
+order = 51
 uses = ["prop-nagata-rees-localization"]
 +++
 Localizing first at $s$ and then at $t$ gives the same graded equivalence as

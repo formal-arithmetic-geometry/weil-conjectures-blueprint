@@ -2,7 +2,7 @@
 id = "def-nagata-blowup-product-comparison"
 kind = "definition"
 title = "Comparison maps for the product-ideal blow-up"
-order = 122
+order = 130
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_iso"]
 uses = ["def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "lemma-nagata-cartier-total-transform-blowup", "lemma-nagata-effective-cartier-is-invertible", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-invertible-ideal-mul", "lemma-nagata-invertible-product-factor", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
 +++

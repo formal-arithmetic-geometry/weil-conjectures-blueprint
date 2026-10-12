@@ -2,7 +2,7 @@
 id = "lem-pc-genus-well-defined"
 kind = "lemma"
 title = "Well-definedness of the genus"
-order = 736
+order = 743
 uses = ["def-pc-morphism-conventions", "lem-pc-curve-coherent-finiteness", "lem-sc-flat-base-change-coherent"]
 +++
 Let $k$ be a field and $X$ a smooth projective curve over $k$ which is

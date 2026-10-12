@@ -2,7 +2,7 @@
 id = "sk-rem-sf-comp-scope"
 kind = "remark"
 title = "Scope of the coherence"
-order = 2472
+order = 2508
 tags = ["sketch"]
 +++
 The argument tests geometric stalks and therefore proves the coherence on the

@@ -2,7 +2,7 @@
 id = "cor-coef-finite-verdier"
 kind = "theorem"
 title = "Finite reductions of Verdier duality"
-order = 2446
+order = 2482
 tags = ["latex:corollary"]
 uses = ["lem-coef-finite-dualizing", "lem-weil-duality-pairing", "lem-weil-verdier-preservation-strata", "thm-coef-finite-hom"]
 +++

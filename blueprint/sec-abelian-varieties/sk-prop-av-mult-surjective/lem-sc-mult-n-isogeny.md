@@ -3,7 +3,7 @@ id = "lem-sc-mult-n-isogeny"
 kind = "lemma"
 title = "Multiplication by $n$ is surjective with finite kernel"
 lean = ["AlgebraicGeometry.surjective_npow_id", "AlgebraicGeometry.isFinite_torsionSubgroupScheme", "AlgebraicGeometry.isMonHom_npow_id"]
-order = 555
+order = 561
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-mult-n", "lem-sc-image-subgroup"]
 +++
 Let $A$ be an abelian variety

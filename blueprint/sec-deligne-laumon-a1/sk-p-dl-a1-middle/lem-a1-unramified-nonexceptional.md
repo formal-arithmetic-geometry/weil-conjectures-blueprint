@@ -2,7 +2,7 @@
 id = "lem-a1-unramified-nonexceptional"
 kind = "lemma"
 title = "Unramified at infinity and not geometrically constant implies nonexceptional"
-order = 3058
+order = 3094
 uses = ["def-a1-constituent-nonexceptional", "def-wf-fundamental-representation", "lem-a1-artin-schreier-ramified-infinity", "lem-mg-normal-restriction-semisimple", "rem-dl-a1-conventions"]
 lean = ["AlgebraicGeometry.isNonexceptional_of_isUnramifiedAtInfinity"]
 +++

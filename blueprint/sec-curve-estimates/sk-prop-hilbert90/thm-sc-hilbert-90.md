@@ -2,7 +2,7 @@
 id = "thm-sc-hilbert-90"
 kind = "theorem"
 title = "Hilbert 90 for a scheme"
-order = 882
+order = 888
 uses = ["def-sc-gm-torsor", "def-sc-invertible-module", "lem-sc-line-bundle-torsor", "lem-sc-torsor-h1"]
 +++
 Let $X$ be a scheme (for instance a curve $C$ as in

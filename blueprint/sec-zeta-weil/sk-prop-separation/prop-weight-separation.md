@@ -2,7 +2,7 @@
 id = "prop-weight-separation"
 kind = "theorem"
 title = "Weight separation"
-order = 3204
+order = 3238
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-ordinary-reciprocal-roots", "def-weil-parity-products", "def-weil-point-counts-zeta", "def-weil-punctual-weights", "def-weil-smooth-proper-cohomological-family"]
 +++

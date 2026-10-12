@@ -2,7 +2,7 @@
 id = "rem-pur-assembly-status"
 kind = "remark"
 title = "Status of the assembly"
-order = 2253
+order = 2289
 uses = ["def-exc-direct-image-input", "def-exc-open-complement-bound", "lem-exc-open-complement-known", "thm-dg-finite-type-constructibility", "thm-exc-direct-image-input-holds", "thm-sc-finite-type-torsion-cd"]
 +++
 The only hypothesis of [thm-pur-general-admissibility] is the

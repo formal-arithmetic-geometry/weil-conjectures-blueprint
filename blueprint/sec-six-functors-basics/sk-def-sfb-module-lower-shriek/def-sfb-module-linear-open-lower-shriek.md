@@ -2,7 +2,7 @@
 id = "def-sfb-module-linear-open-lower-shriek"
 kind = "definition"
 title = "Linear extension by zero"
-order = 1640
+order = 1691
 uses = ["lem-sfb-open-projection-formula", "sk-def-sfb-transport", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-module-objects"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.linearOpenImmersionLowerShriek"]
 +++

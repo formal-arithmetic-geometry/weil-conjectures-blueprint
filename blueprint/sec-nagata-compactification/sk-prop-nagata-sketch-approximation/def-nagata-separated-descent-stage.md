@@ -2,7 +2,7 @@
 id = "def-nagata-separated-descent-stage"
 kind = "definition"
 title = "Separated stage of a descended finite-presentation model"
-order = 368
+order = 375
 uses = ["def-nagata-finite-presentation-descent", "lemma-nagata-separated-descent-stage-exists"]
 +++
 Let $X\to S$ be separated and of finite presentation, and start from its

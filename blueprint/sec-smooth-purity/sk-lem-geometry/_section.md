@@ -2,7 +2,7 @@
 id = "sk-lem-geometry"
 kind = "lemma"
 title = "Geometry of the deformation of a section"
-order = 2301
+order = 2337
 uses = ["sk-def-purity-conv", "sk-prop-an"]
 lean = ["AlgebraicGeometry.Scheme.Hom.nonempty_deformationToNormalConeData"]
 tags = ["sketch"]

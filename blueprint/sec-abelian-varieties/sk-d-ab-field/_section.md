@@ -3,7 +3,7 @@ id = "sk-d-ab-field"
 kind = "definition"
 title = "Finite fields, Frobenius and abelian varieties"
 lean = ["FiniteField.geometricFrobeniusAlgEquivOfAlgebraic", "AlgebraicGeometry.IsAbelianVariety"]
-order = 465
+order = 471
 tags = ["sketch"]
 +++
 Fix distinct primes $p,\ell$, an integer $a\ge1$, a field $k_0$ with

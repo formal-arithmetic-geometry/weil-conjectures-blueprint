@@ -2,7 +2,7 @@
 id = "def-nagata-affine-fp-descent"
 kind = "definition"
 title = "Finite-stage model of a finitely presented affine algebra"
-order = 351
+order = 358
 uses = ["def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++
 Suppose $S_{\lambda_0}=\operatorname{Spec}(A_{\lambda_0})$,

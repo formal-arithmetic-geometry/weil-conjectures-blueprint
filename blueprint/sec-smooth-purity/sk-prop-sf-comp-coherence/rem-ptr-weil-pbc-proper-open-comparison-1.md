@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-proper-open-comparison-1"
 kind = "remark"
 title = "Pointer to the properties of [def-weil-pbc-proper-open-comparison]"
-order = 1818
+order = 1869
 uses = ["def-weil-pbc-proper-open-comparison", "lem-weil-pbc-proper-open-identification", "lem-weil-pbc-proper-open-section"]
 +++
 In the notation of [def-weil-pbc-proper-open-comparison], the following holds. The map $p$,

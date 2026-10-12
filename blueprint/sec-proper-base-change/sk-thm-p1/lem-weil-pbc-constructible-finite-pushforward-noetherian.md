@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-constructible-finite-pushforward-noetherian"
 kind = "lemma"
 title = "Noetherian finite-pushforward embedding"
-order = 1130
+order = 1185
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-constructible-finitely-presented", "lem-weil-pbc-normal-constant-generic"]
 +++
 Let $U$ be Noetherian and let $C$ be a constructible torsion abelian sheaf on

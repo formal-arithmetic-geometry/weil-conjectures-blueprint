@@ -2,7 +2,7 @@
 id = "def-weil-pbc-C6"
 kind = "definition"
 title = "Assertion (C6): invariance under algebraically closed extension, coefficient prime to the characteristic"
-order = 1103
+order = 1135
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-extension-pullback", "def-weil-pbc-primary-torsion"]
 +++
 For every curve coefficient pair [def-weil-pbc-curve-setting] $(C,F)$ with $F$

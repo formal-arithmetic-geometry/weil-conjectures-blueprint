@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-torsors"
 kind = "definition"
 title = "Finite torsors"
-order = 582
+order = 588
 uses = ["def-weil-pbc-etale-sheaves"]
 +++
 Let $M$ be a finite abelian group and let $\underline M$ be the constant

@@ -2,7 +2,7 @@
 id = "lemma-nagata-composition-extended-ideal-equality"
 kind = "lemma"
 title = "Comparison of the two second-center ideals"
-order = 133
+order = 141
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_comp"]
 uses = ["def-nagata-global-blowup", "lemma-nagata-chart-extended-ideal-principal", "prop-nagata-global-blowup-cover-independent"]
 +++

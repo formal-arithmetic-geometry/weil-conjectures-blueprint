@@ -2,7 +2,7 @@
 id = "lem-wf-finite-field-curve-quasi-projective"
 kind = "lemma"
 title = "Finite-field curves admit a projective closure"
-order = 2916
+order = 2952
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $k_0$ be a field and let $U_0$ be an integral separated scheme of

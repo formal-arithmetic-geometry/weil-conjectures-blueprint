@@ -2,7 +2,7 @@
 id = "lem-wf-real-semisimplification"
 kind = "lemma"
 title = "Reality survives semisimplification"
-order = 2905
+order = 2941
 uses = ["def-mg-weil-composition-series", "def-mg-weil-semisimplification", "def-weil-punctual-weights", "def-wf-iota-real", "def-wf-monodromy-data", "p-linear-filtration", "p-real-operations"]
 +++
 The semisimplification of an $\iota$-real lisse Weil sheaf (of the

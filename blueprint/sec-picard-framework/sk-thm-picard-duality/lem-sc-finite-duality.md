@@ -2,7 +2,7 @@
 id = "lem-sc-finite-duality"
 kind = "lemma"
 title = "Duality along a finite flat morphism of smooth curves"
-order = 697
+order = 703
 uses = ["def-sc-curves", "def-sc-invertible-module", "def-sc-kahler-differentials", "lem-sc-invertible-dual", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
 Let $k$ be an algebraically closed field, $C$ a smooth

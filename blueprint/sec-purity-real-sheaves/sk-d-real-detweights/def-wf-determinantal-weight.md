@@ -2,7 +2,7 @@
 id = "def-wf-determinantal-weight"
 kind = "definition"
 title = "Determinantal weight"
-order = 2938
+order = 2974
 uses = ["def-mg-determinant-line", "def-weil-punctual-weights", "lem-wf-determinantal-weight-coefficient-field", "lem-wf-determinantal-weight-exists"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, fix

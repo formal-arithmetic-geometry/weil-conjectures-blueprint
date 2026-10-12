@@ -2,7 +2,7 @@
 id = "thm-trf-finite-coefficient-map"
 kind = "theorem"
 title = "Compatibility with a finite coefficient map"
-order = 2687
+order = 2723
 uses = ["def-exchange-projection", "def-trf-coefficient-conventions", "def-trf-frobenius-operators", "def-weil-derived-tensor", "def-weil-finite-field-fiber", "prop-trf-trace-formal-laws"]
 +++
 Fix the global finite-field datum

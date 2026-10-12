@@ -2,7 +2,7 @@
 id = "sk-def-pbc"
 kind = "definition"
 title = "The PBC property"
-order = 1047
+order = 1075
 lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange"]
 uses = ["sk-def-conv", "sk-def-exchange"]
 tags = ["sketch"]

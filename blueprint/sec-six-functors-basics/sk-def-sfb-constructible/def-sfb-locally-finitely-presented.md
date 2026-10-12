@@ -2,7 +2,7 @@
 id = "def-sfb-locally-finitely-presented"
 kind = "definition"
 title = "Locally finitely presented modules on the pro-étale site"
-order = 1584
+order = 1635
 uses = ["def-sfb-finitely-presented-module", "def-weil-pbc-proetale-site", "sk-def-sfb-sheaf-tensor", "sk-def-sfb-ring-object", "sk-def-sfb-finite-pushforward-pullback", "sk-def-sfb-transport"]
 lean = ["AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented"]
 +++

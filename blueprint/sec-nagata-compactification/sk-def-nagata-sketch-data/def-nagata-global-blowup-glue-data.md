@@ -2,7 +2,7 @@
 id = "def-nagata-global-blowup-glue-data"
 kind = "definition"
 title = "Raw global blow-up gluing datum"
-order = 54
+order = 62
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowupGluingData", "AlgebraicGeometry.Scheme.IdealSheafData.blowupNatTrans_equifibered"]
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-global-blowup-overlap-cocycle", "lemma-nagata-global-blowup-overlap-id-symm", "lemma-nagata-global-blowup-overlap-independent", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-rees-graded"]
 +++

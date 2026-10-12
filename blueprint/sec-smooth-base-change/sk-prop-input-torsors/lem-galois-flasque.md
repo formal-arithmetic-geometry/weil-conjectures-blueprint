@@ -2,7 +2,7 @@
 id = "lem-galois-flasque"
 kind = "lemma"
 title = "Flasque resolutions and the connecting map"
-order = 1407
+order = 1461
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves"]
 +++
 Let $\mathcal F$ be a sheaf of abelian groups on $Y_{\Et}$. Then there

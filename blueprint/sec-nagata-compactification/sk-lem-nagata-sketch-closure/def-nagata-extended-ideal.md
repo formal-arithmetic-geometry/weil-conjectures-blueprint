@@ -2,7 +2,7 @@
 id = "def-nagata-extended-ideal"
 kind = "definition"
 title = "Extended ideal along a morphism"
-order = 77
+order = 85
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.comap"]
 +++
 For $f\colon Y\to X$ and a quasi-coherent ideal

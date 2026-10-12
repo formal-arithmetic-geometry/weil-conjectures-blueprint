@@ -2,7 +2,7 @@
 id = "thm-kun-0f1p"
 kind = "theorem"
 title = "Kunneth formula, etale cohomology"
-order = 2085
+order = 2123
 uses = ["def-kun-kunneth-map", "def-kun-separably-closed", "lem-kun-0f10", "lem-kun-0f12", "lem-kun-0f1n", "lem-kun-cd-sep-closed-point", "lem-kun-kunneth-via-0f1n", "lem-kun-leray-unbdd"]
 +++
 Let $k$ be a separably closed

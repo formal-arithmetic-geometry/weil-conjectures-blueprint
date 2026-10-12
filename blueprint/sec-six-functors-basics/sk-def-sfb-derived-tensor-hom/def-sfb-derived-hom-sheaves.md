@@ -2,7 +2,7 @@
 id = "def-sfb-derived-hom-sheaves"
 kind = "definition"
 title = "Derived internal hom of pro-étale sheaves"
-order = 1564
+order = 1615
 uses = ["def-sfb-derived-tensor-sheaves", "lem-sfb-derived-monoidal-closed"]
 lean = ["AlgebraicGeometry.ProEtale.derivedHom"]
 +++

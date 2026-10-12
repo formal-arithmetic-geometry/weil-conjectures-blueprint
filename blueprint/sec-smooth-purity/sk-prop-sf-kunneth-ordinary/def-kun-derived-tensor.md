@@ -2,7 +2,7 @@
 id = "def-kun-derived-tensor"
 kind = "definition"
 title = "Derived tensor product of etale sheaves"
-order = 1987
+order = 2026
 uses = ["def-kun-constant-sheaf", "def-weil-pbc-etale-site"]
 +++
 Let $\Lambda$ be a commutative ring and $T$ a scheme, and work on

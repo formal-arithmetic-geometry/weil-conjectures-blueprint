@@ -2,7 +2,7 @@
 id = "thm-trf-integral-adic-coefficient-morphism-trace-formula"
 kind = "theorem"
 title = "Integral adic trace formula for Frobenius coefficient morphisms"
-order = 2699
+order = 2735
 uses = ["def-trf-adic-system", "def-trf-admissibility", "def-trf-coefficient-conventions", "def-weil-finite-field-fiber", "def-weil-pbc-etale-origin-witness", "prop-trf-adic-coefficient-morphism-systems", "prop-trf-rational-frobenius-integral-model", "thm-trf-coefficient-morphism-trace-formula"]
 +++
 Fix the global finite-field datum $p,a,q,k_0,k$ and the coefficient
