@@ -168,6 +168,13 @@
    "file": "data/1472287a7ad11ba20c0b0d00cb74e005886d7567.json",
    "date": "2026-10-11"},
   {"summary":
+   {"total": 2848,
+    "proved": 587,
+    "byStatus": {"stated": 318, "proved": 587, "missing": 56, "absent": 1887}},
+   "sha": "08c7e133095cabd3c540c569cd02cb5a4f04ba7b",
+   "file": "data/08c7e133095cabd3c540c569cd02cb5a4f04ba7b.json",
+   "date": "2026-10-12"},
+  {"summary":
    {"total": 2671,
     "proved": 496,
     "byStatus": {"stated": 318, "proved": 496, "missing": 22, "absent": 1835}},
