@@ -1,6 +1,7 @@
 +++
-kind  = "proof"
-of    = "lem-a1-local-boundary-duality"
+kind = "proof"
+of = "lem-a1-local-boundary-duality"
+uses = ["def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-wf-tate-twist", "fix-cor-verdier-exchange", "lem-cbc-open-closed-recollement", "lem-fix-weil-operations", "lem-pod-cohomology-of-dual-over-field", "prop-pur-rational-purity-trace-coherence", "prop-sf-closed-immersion-unit", "prop-sf-closed-unit-all-stages", "prop-sf-localization-all-stages", "prop-sf-open-closed-triangle-all-stages", "prop-weil-open-closed-recollement-adjunctions", "thm-coef-qbar-verdier", "thm-pur-rational-and-qbar-purity"]
 +++
 Work on the geometric curves with $\Qlb$-coefficients and the Weil
 structures of [lem-fix-weil-operations]. The Verdier duals, their
@@ -97,9 +98,4 @@ orientations, whose equivariance and trace compatibility are
 [prop-pur-rational-purity-trace-coherence]. Hence the isomorphism of
 Step 4 is one of Weil complexes on $Z_0$, and its stalk at $\bar s$
 commutes with $F_s$; the twists carry their prescribed Frobenius
-actions. Concretely, let $e:(j_*F^\vee)_{\bar s}\to(R^1j_*F)_{\bar s}^\vee$
-be the linear isomorphism underlying the stalk isomorphism of Step 5.
-The local Frobenius acts on $(j_*F^\vee)_{\bar s}(1)$ as $q_s^{-1}F_s$
-and on the dual $(R^1j_*F)_{\bar s}^\vee$ contragrediently, so
-equivariance reads $e(q_s^{-1}F_sa)=e(a)\circ F_s^{-1}$, that is,
-$e(F_sa)(F_sb)=q_s\,e(a)(b)$ for all $a,b$.
+actions.

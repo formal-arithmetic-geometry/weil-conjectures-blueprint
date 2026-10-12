@@ -1,16 +1,16 @@
 +++
-kind  = "proof"
-of    = "cor-fd-origin-stationary-phase"
+kind = "proof"
+of = "cor-fd-origin-stationary-phase"
+uses = ["def-fd-transform", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-a1-unramified-nonexceptional", "lem-fd-stalk-at-origin", "lem-wf-boundary-stalk-invariants", "prop-a1-fourier-middle-extension"]
 +++
-By hypothesis there is an isomorphism of Weil complexes
+The shape: Fourier-nonexceptionality says in particular that
+$\mathcal M$ is not geometrically constant, so, being unramified at
+infinity, $\mathcal M$ is constituent-nonexceptional by
+[lem-a1-unramified-nonexceptional], and
+[prop-a1-fourier-middle-extension] gives an isomorphism of Weil
+complexes
 $\operatorname{FT}_\psi(j_{!*}\mathcal M[1])\cong j'_{!*}\mathcal M'[1]=j'_*\mathcal M'[1]$
-([def-wf-middle-extension]); no other property of $\mathcal M$,
-$\mathcal M'$ or $\psi$ is used. (Such a pair exists, with
-$\mathcal M'$ irreducible, when $\psi$ is nontrivial and $\mathcal M$ is
-irreducible and constituent-nonexceptional, by
-[prop-a1-fourier-middle-extension]; for instance when $\mathcal M$ is
-irreducible, unramified at infinity and not geometrically constant, by
-[lem-a1-unramified-nonexceptional].)
+with $\mathcal M'$ nonzero, irreducible and lisse.
 
 The first identification is [lem-fd-stalk-at-origin]: the fiber of
 the transform at the origin is $R\Gamma_c(\mathbf A^1,j_*\mathcal M[1])[1]$,

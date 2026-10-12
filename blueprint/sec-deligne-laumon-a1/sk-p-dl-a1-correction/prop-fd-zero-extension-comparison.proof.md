@@ -1,6 +1,7 @@
 +++
-kind  = "proof"
-of    = "prop-fd-zero-extension-comparison"
+kind = "proof"
+of = "prop-fd-zero-extension-comparison"
+uses = ["def-fd-artin-schreier-sheaf", "def-fd-kernel", "def-fd-transform", "def-weil-punctual-weights", "lem-fd-as-trace", "lem-fd-first-formula", "lem-wf-boundary-semicontinuity", "prop-a1-fourier-middle-extension", "thm-fd-transform-well-defined"]
 +++
 *Step 1: the boundary sheaf.* The map $j_!\mathcal M\to j_*\mathcal M$ is
 an isomorphism over $U_0$ and $j_!\mathcal M$ has zero stalks on $S_0$,
@@ -107,9 +108,7 @@ $0\to j_!\mathcal M\to j_*\mathcal M\to\mathcal B\to0$ of Step 1 gives a
 distinguished triangle
 $j_!\mathcal M[1]\to(j_*\mathcal M)[1]\to\mathcal B[1]\to$. The transform
 is an exact triangulated functor by [thm-fd-transform-well-defined];
-by the hypothesis
-$\operatorname{FT}_\psi\bigl((j_*\mathcal M)[1]\bigr)\cong(j'_*\mathcal M')[1]$
-on the pair $(j',\mathcal M')$ and by Step 2, and after rotation,
+by [prop-a1-fourier-middle-extension] and Step 2, and after rotation,
 this gives a distinguished triangle
 
 $$
@@ -130,7 +129,4 @@ $$
 
 which is the asserted exact sequence. All objects and maps carry the Weil
 structure, since the transform and the triangles are formed in the Weil
-category. Only the hypothesis on $(j',\mathcal M')$, not the
-irreducibility or nonexceptionality of $\mathcal M$ themselves, enters
-the argument; these hypotheses serve to guarantee that such a pair exists
-([prop-a1-fourier-middle-extension]).
+category.
