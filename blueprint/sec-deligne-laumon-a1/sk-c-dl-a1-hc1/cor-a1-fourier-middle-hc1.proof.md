@@ -1,11 +1,14 @@
 +++
-kind  = "proof"
-of    = "cor-a1-fourier-middle-hc1"
-uses = ["cor-fd-origin-stationary-phase", "prop-a1-fourier-middle-extension"]
+kind = "proof"
+of = "cor-a1-fourier-middle-hc1"
+uses = ["cor-fd-l2-plancherel-middle-extension", "cor-fd-origin-stationary-phase", "def-fd-nonexceptional", "def-weil-punctual-weights", "def-wf-fundamental-representation", "def-wf-middle-extension", "lem-a1-unramified-nonexceptional", "lem-wf-boundary-semicontinuity", "prop-a1-fourier-middle-extension"]
 +++
-*Step 1: the transform of the middle extension.* Since $\psi$ is
-nontrivial and $\mathcal M$ is an irreducible (in particular nonzero)
-lisse Weil sheaf which is nonexceptional in the above sense,
+*Step 1: the transform of the middle extension.* The hypothesis
+[def-fd-nonexceptional] excludes, after geometric base change, a
+constant sheaf up to a constant Weil twist; so $\mathcal M$ is not
+geometrically constant. Being nonzero, irreducible and unramified at
+infinity, $\mathcal M$ is therefore constituent-nonexceptional by
+[lem-a1-unramified-nonexceptional], and
 [prop-a1-fourier-middle-extension] supplies a dense open
 $j':U'_0\hookrightarrow\mathbf A^1_{k_0}$ of the dual line and a nonzero
 irreducible lisse Weil sheaf $\mathcal M'$ on $U'_0$ with
@@ -31,9 +34,8 @@ including the finitely many points outside $U'_0$, where it may be
 singular.
 
 *Step 4: the origin fibre.* By the stationary-phase identification
-[cor-fd-origin-stationary-phase], applied to the pair $(j',\mathcal M')$
-of Step 1, whose middle extension is the transform of that of
-$\mathcal M$, there is a Frobenius-equivariant isomorphism
+[cor-fd-origin-stationary-phase], whose hypotheses are those of the
+present statement, there is a Frobenius-equivariant isomorphism
 
 $$
 H_c^1(\mathbf A^1_{k_0},j_*\mathcal M)\cong(j'_*\mathcal M')_{0'},
@@ -46,3 +48,5 @@ are those of $F_{0'}$ on the stalk, and by Step 3 (with $q_{0'}=q$)
 each of them satisfies $|\iota(\alpha)|^2\le q^{w+1}$. In the
 convention of [def-weil-punctual-weights], this says that
 $H_c^1(\mathbf A^1_{k_0},j_*\mathcal M)$ has weights at most $w+1$.
+The irreducibility of the geometric fundamental representation of
+[def-wf-fundamental-representation] is not needed for this argument.
