@@ -1,0 +1,11 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-cyclic-module-constant-reflection"
++++
+Let V forget cyclic module coefficients. Any additive map between V(P) and V(Q) is linear: write each lifted residue r as the image of an integer a, and use f(a x)=a f(x). Thus V is full and faithful, and so is its sheaf-composition functor. This is implemented by constructing a linear map from each additive map, then using the Mathlib fullness instances for sheafCompose. (`AddCommGroup.zmodModule` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Algebra/Module/ZMod.lean))).
+
+Choose a constant abelian value E for the underlying sheaf G. Form Q=coker(n id_E). The cokernel projection is surjective; applying its zero-composition identity to y shows n times the image of y is zero, so nQ=0. Give Q the canonical Z/n-module action and restrict scalars along ULift.ringEquiv. No finiteness or point of the site is required. (`AddCommGroup.zmodModule` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Algebra/Module/ZMod.lean))).
+
+The constant abelian sheaf functor L preserves cokernels, since it is a left adjoint (Mathlib constantSheafAdj, with the terminal object Over.mkIdTerminal). Every section of G is annihilated by n, using (n : ULift (ZMod n))=0. Conjugating through L(E) ≅ G gives L.map(n id_E)=0. Preservation of cokernels then identifies L(Q) with the cokernel of zero on L(E); in particular L.map(cokernel.π) is an isomorphism. These categorical calculations are explicitly proved using PreservesCokernel.π_iso_hom and cokernel.π_of_zero. (`CategoryTheory.constantSheaf` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/ConstantSheaf.lean))).
+
+Constants commute with forgetting, so L(Q) is the underlying abelian sheaf of the constant cyclic module Q. Compose this comparison with G ≅ L(E) and the isomorphism L(E) ≅ L(Q). The full faithful sheaf-composition functor lifts this isomorphism back to cyclic module sheaves using preimageIso. Hence the original module sheaf is constant. (`CategoryTheory.constantCommuteCompose` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/ConstantSheaf.lean))).

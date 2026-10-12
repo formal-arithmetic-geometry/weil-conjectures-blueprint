@@ -1,0 +1,7 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-affine-chart-base-change-iso"
++++
+Map the affine pullback Spec(B) ×[Spec(R)] Spec(A) to Z ×[S] T using the specified presentations and the chart inclusions. The two compatibility equations make this a map of diagrams. It is an open immersion with image p⁻¹(V) ∩ q⁻¹(t⁻¹(W)), by the open fibre-product lemma. The containment V⊆z⁻¹(W) and p≫z=q≫t imply p⁻¹(V)⊆q⁻¹(t⁻¹(W)); hence the image is p⁻¹(V). The two open immersions with this same image give an isomorphism with the inverse-image open subscheme. (`CategoryTheory.Limits.pullback` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/Shapes/Pullback/HasPullback.lean)), `AlgebraicGeometry.Scheme.pullback_map_isOpenImmersion, AlgebraicGeometry.Scheme.Pullback.range_map` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Pullbacks.lean))).
+
+Compose the inverse of the open-subscheme isomorphism with pullback symmetry and pullbackSpecIso R A B. The projection equations of pullback.map, pullback symmetry and pullbackSpecIso show that its inverse projects to Spec(includeRight)≫eB⁻¹≫ιV and Spec(includeLeft)≫e⁻¹≫ι(t⁻¹W), respectively. No nonzero-ring or nonempty-chart hypothesis is used. (`AlgebraicGeometry.pullbackSpecIso` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Pullbacks.lean))).

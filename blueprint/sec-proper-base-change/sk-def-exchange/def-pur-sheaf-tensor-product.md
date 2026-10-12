@@ -3,7 +3,7 @@ id = "def-pur-sheaf-tensor-product"
 kind = "definition"
 title = "Tensor product of sheaves of modules on a site"
 order = 1045
-tags = ["sheaf-dag", "stacks-03EK"]
+tags = ["stacks-03EK"]
 +++
 Let $\mathcal C$ be a site, $\mathcal O$ a sheaf of commutative rings on
 $\mathcal C$, and $\mathcal F,\mathcal G$ sheaves of $\mathcal O$-modules. The

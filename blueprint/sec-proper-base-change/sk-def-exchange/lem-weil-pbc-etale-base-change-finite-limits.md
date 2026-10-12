@@ -5,7 +5,7 @@ title = "The base-change functor between small etale sites commutes with finite 
 order = 1056
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site"]
 lean = ["CategoryTheory.MorphismProperty.Over.instPreservesFiniteLimitsTopPullback"]
-tags = ["sheaf-dag", "mathlib", "stacks-021D"]
+tags = ["mathlib", "stacks-021D"]
 +++
 Let $u:U\to V$ be a morphism of schemes [def-pc-scheme], and let $V_{\Et}$, $U_{\Et}$ be the small etale sites [def-weil-pbc-etale-site] (objects: etale morphisms $W\to V$, resp. $W'\to U$; morphisms: morphisms over the base). Then:
 

@@ -3,7 +3,7 @@ id = "lem-sp-derived-couple-exact"
 kind = "lemma"
 title = "The derived couple of an exact couple is exact"
 uses = ["def-sp-abelian", "def-sp-exact-couple"]
-tags = ["sheaf-dag", "stacks-011R"]
+tags = ["stacks-011R"]
 +++
 Let $\mathcal A$ be an abelian category [def-sp-abelian] and $s\geq0$ an integer. An *exact couple of type $s$* $(D,E,\alpha,f,g)$ in $\mathcal A$ consists of objects $D^{p,q},E^{p,q}$ ($p,q\in\mathbf Z$) and morphisms $\alpha:D^{p,q}\to D^{p-1,q+1}$, $f:E^{p,q}\to D^{p+2,q-1}$, $g:D^{p,q}\to E^{p+s,q-s}$ such that at every $(p,q)$ the three sequences
 $$E^{p-2,q+1}\xrightarrow{f}D^{p,q}\xrightarrow{\alpha}D^{p-1,q+1},\qquad D^{p-s,q+s}\xrightarrow{g}E^{p,q}\xrightarrow{f}D^{p+2,q-1},\qquad D^{p+1,q-1}\xrightarrow{\alpha}D^{p,q}\xrightarrow{g}E^{p+s,q-s}$$

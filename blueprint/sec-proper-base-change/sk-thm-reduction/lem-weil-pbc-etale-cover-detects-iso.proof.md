@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-weil-pbc-etale-cover-detects-iso"
 uses  = ["def-weil-pbc-inverse-image", "lem-weil-pbc-etale-cover-geometric-point-lift", "def-weil-geometric-point", "lemma-openclosed-stalk-upperstar", "def-weil-pbc-geometric-stalks", "lemma-weil-pbc-geometric-stalk-conservative"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** *The easy direction.* If $\varphi$ is an isomorphism with inverse $\psi$, then $t_i^{-1}$, being a functor $\Ab(T_{\Et})\to\Ab(T_{i,\Et})$ [def-weil-pbc-inverse-image], sends $\psi\circ\varphi=\mathrm{id}_G$ and $\varphi\circ\psi=\mathrm{id}_H$ to $t_i^{-1}\psi\circ t_i^{-1}\varphi=\mathrm{id}$ and $t_i^{-1}\varphi\circ t_i^{-1}\psi=\mathrm{id}$; so every $t_i^{-1}\varphi$ is an isomorphism.
 

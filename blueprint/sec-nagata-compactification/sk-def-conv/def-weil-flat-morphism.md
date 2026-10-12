@@ -5,6 +5,6 @@ title = "Flat morphism of schemes"
 order = 7
 uses = ["def-pc-scheme"]
 lean = ["AlgebraicGeometry.Flat"]
-tags = ["sheaf-dag", "mathlib", "stacks-01U3"]
+tags = ["mathlib", "stacks-01U3"]
 +++
 Let $f:X\to S$ be a morphism of schemes [def-pc-scheme]. For $x\in X$, $f$ induces a local homomorphism of local rings $\mathcal O_{S,f(x)}\to\mathcal O_{X,x}$. The morphism $f$ is *flat at $x$* if $\mathcal O_{X,x}$ is a flat $\mathcal O_{S,f(x)}$-module, and *flat* if it is flat at every point of $X$.

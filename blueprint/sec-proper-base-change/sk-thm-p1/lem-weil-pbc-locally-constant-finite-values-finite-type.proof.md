@@ -1,0 +1,9 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-locally-constant-finite-values-finite-type"
++++
+Fix i and a tuple x : Fin n → M_i whose span is top. The displayed sum of projections followed by scalar multiplication is Fintype.linearCombination Λ x, by extensionality and evaluation of the finite sum. Mathlib span_range_eq_top_iff_surjective_fintypeLinearCombination gives its surjectivity, including n = 0. By ModuleCat.epi_iff_surjective it is an epimorphism of modules. (`Module.Finite` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Finiteness/Defs.lean))).
+
+The constant presheaf functor preserves epimorphisms componentwise. The sheafification functor preserves epimorphisms as a left adjoint. Their composite constantSheaf therefore preserves the epimorphism in step 1 (Mathlib Functor.map_epi). Compose with the inverse of the supplied isomorphism α_i to obtain exactly the epimorphism of the more-precisely clause. This is the constant-sheaf surjection argument of Stacks 093J; no separate local-surjectivity or abelian-forgetful argument is needed. (`CategoryTheory.constantSheaf` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/ConstantSheaf.lean))).
+
+For every i, Module.Finite.exists_fin chooses n and x spanning M_i. Use the epimorphism of step 2 as the finite free constant-sheaf presentation on that member of the supplied etale cover. The cover and these presentations witness IsFiniteTypeEtaleModuleSheaf F directly. (`Module.Finite` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Finiteness/Defs.lean)), `SheafOfModules.IsFiniteType` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Algebra/Category/ModuleCat/Sheaf/Generators.lean))).

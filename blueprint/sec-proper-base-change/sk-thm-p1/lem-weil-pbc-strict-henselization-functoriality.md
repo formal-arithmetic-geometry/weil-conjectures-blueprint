@@ -3,7 +3,7 @@ id = "lem-weil-pbc-strict-henselization-functoriality"
 kind = "lemma"
 title = "Strict henselizations at a geometric point and their functoriality"
 uses = ["def-pc-scheme", "def-weil-geometric-point", "def-weil-pbc-strict-henselization-limit", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-relative-separable-closure", "def-weil-residue-field", "def-weil-pbc-henselian-terminology", "def-weil-locally-ringed-space-morphism", "def-pc-fibre-product"]
-tags = ["sheaf-dag", "stacks-04HX"]
+tags = ["stacks-04HX"]
 +++
 Let $g:T\to S$ be a morphism of schemes [def-pc-scheme], let $\bar t:\operatorname{Spec}\Omega\to T$ be a geometric point [def-weil-geometric-point] lying over $t\in T$, and let $\bar s=g\circ\bar t$, a geometric point of $S$ lying over $s=g(t)$. For a geometric point $\bar x:\operatorname{Spec}\Omega\to Y$ of a scheme $Y$ lying over $y$, write $\mathcal O^{\mathrm{sh}}_{Y,\bar x}=\varinjlim_{(V,\bar v)}A_V$ and $Y_{(\bar x)}=\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{Y,\bar x}$ as in [def-weil-pbc-strict-henselization-limit] (colimit over the affine pointed etale neighbourhoods $(V=\operatorname{Spec}A_V,\bar v)$ of $\bar x$ [def-weil-pbc-pointed-etale-neighbourhoods]), with its canonical maps $c_V:Y_{(\bar x)}\to V$ and $j_Y:Y_{(\bar x)}\to Y$ (the composite of $c_V$ with $V\to Y$, for any $V$), and write $\kappa(\bar x)\subset\Omega$ for the separable algebraic closure [def-weil-pbc-relative-separable-closure] of the residue field $\kappa(y)$ [def-weil-residue-field] inside $\Omega$, which is a $\kappa(y)$-extension through $\bar x$. Then:
 

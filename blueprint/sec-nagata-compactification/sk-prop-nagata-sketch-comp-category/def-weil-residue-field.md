@@ -4,7 +4,7 @@ kind = "definition"
 title = "Residue field of a point of a scheme"
 order = 417
 lean = ["AlgebraicGeometry.Scheme.residueField"]
-tags = ["sheaf-dag", "mathlib"]
+tags = ["mathlib"]
 +++
 Let $X$ be a scheme and $x\in X$ a point, with local ring $\mathcal O_{X,x}$ (the stalk of the structure sheaf at $x$) and maximal ideal $\mathfrak m_x$. The *residue field* of $X$ at $x$ is the field
 

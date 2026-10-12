@@ -2,7 +2,6 @@
 kind  = "proof"
 of    = "lem-weil-pbc-strict-henselization-functoriality"
 uses  = ["def-pc-scheme", "def-weil-affine-spectrum", "def-weil-geometric-point", "def-weil-pbc-relative-separable-closure", "def-pc-separably-closed", "lem-weil-pbc-etale-local-ring-triples", "lem-weil-pbc-strict-henselization-triples", "def-weil-pbc-henselian-terminology", "def-weil-pbc-strict-henselization-limit", "def-weil-etale-morphism", "def-weil-pbc-category-colimit", "def-weil-locally-ringed-space-morphism", "def-weil-residue-field", "lem-weil-pbc-map-into-henselian-colimit"]
-tags  = ["sheaf-dag"]
 +++
 **Step 1.** *Two elementary facts used throughout.* (a) If $X=\operatorname{Spec}B$ with $B$ local and $\varphi:X\to Z$ is a morphism of schemes whose closed point maps into an open $Z'\subset Z$, then $\varphi$ factors (uniquely, $Z'\to Z$ being a monomorphism) through $Z'$: every prime of $B$ lies in the maximal ideal, so every point of $X$ generalizes the closed point, its image generalizes a point of $Z'$, and open subsets are stable under generization. (b) For an affine $U=\operatorname{Spec}A$, morphisms $\operatorname{Spec}B\to U$ are the same as ring maps $A\to B$ [def-weil-affine-spectrum]; for a field $K$ a morphism $\operatorname{Spec}K\to\operatorname{Spec}B$ is a ring map $B\to K$, whose kernel is the prime that is the image point, and which factors as $B\to\kappa(\mathfrak q)\to K$ with $\kappa(\mathfrak q)\to K$ the field map of [def-weil-geometric-point].
 

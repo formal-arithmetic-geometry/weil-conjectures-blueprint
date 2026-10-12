@@ -1,0 +1,11 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-directed-colimit-base-change-elementwise"
++++
+Restrict to the nonempty directed upper tail J = {i : I | i₀ ≤ i}. Equip A i = F.obj i with its F.obj i₀-algebra structure. Functoriality gives S-linear transition maps f and coprojections α, satisfying directed-system and cocone compatibility laws. (`CategoryTheory.Limits.colimit` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/HasLimits.lean))).
+
+Define g : Module.DirectLimit A f →ₗ[S] colimit F using Module.DirectLimit.lift and compatibility. Concrete.colimit_exists_rep for CommRingCat gives a ring representative; move it above i₀ to prove g surjective. Concrete.colimit_exists_of_rep_eq gives a common later stage for equal ring representatives; Module.DirectLimit.of_f then proves g injective. This identifies the upper-tail module direct limit with the ring colimit. (`CategoryTheory.Limits.Concrete.isColimit_rep_eq_iff_exists` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/ConcreteCategory/Basic.lean))).
+
+Let E = LinearEquiv.ofBijective g. Compose (TensorProduct.directLimitLeft f M₀).symm with E.rTensor M₀ to obtain e from the direct limit of the stage tensors to R ⊗[S] M₀. Tensor induction, directLimitLeft_symm_of_tmul and Module.DirectLimit.lift_of show e of a stage tensor is α.rTensor M₀ of that tensor. (`CategoryTheory.ihom.instIsLeftAdjointTensorRightOfClosed, CategoryTheory.Limits.isColimitOfPreserves` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Monoidal/Closed/Braided.lean))).
+
+Apply Module.DirectLimit.exists_of to e.symm x for the representative clause. For eventual vanishing, injectivity of e identifies the stage tensor class with zero; Module.DirectLimit.of.zero_exact then supplies a later upper-tail stage. Directed-system identities of the tensor transitions are checked on pure tensors. (`CategoryTheory.Limits.Concrete.isColimit_exists_rep, CategoryTheory.Limits.Concrete.isColimit_rep_eq_iff_exists, ModuleCat.FilteredColimits.forget_preservesFilteredColimits` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/ConcreteCategory/Basic.lean))).

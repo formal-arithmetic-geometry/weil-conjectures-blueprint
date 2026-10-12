@@ -3,7 +3,7 @@ id = "lem-weil-pbc-injective-acyclicity-bounded-below"
 kind = "lemma"
 title = "Injective acyclicity gives bounded-below base change (Lean split, general coefficients)"
 uses = ["def-weil-proper-morphism", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-torsion-etale-sheaf", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-derived-exchange"]
-tags = ["sheaf-dag", "stacks-0A4B"]
+tags = ["stacks-0A4B"]
 +++
 Let $\Lambda$ be a commutative ring and $f:X\to Y$ a proper morphism of schemes [def-weil-proper-morphism]. Call a sheaf $F$ of $\Lambda_X$-modules on $X_{\Et}$ [def-weil-pbc-derived-categories] *torsion* if its underlying abelian sheaf is torsion [def-weil-pbc-torsion-etale-sheaf] (equivalently, every geometric stalk is a torsion abelian group). Assume that for every morphism $g:Y'\to Y$, every cartesian square [def-weil-pbc-cartesian-square]
 

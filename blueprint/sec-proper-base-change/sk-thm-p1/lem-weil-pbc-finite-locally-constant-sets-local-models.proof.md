@@ -1,0 +1,6 @@
++++
+kind = "proof"
+of = "lem-weil-pbc-finite-locally-constant-sets-local-models"
+uses = ["def-weil-pbc-etale-site"]
++++
+Use the essential-image definition of a constant sheaf to choose its constant value on each cover member. Delete empty members, retaining a jointly surjective cover indexed by their subtype, which is empty when the base is empty. On each retained member choose a point and the separable closure of its residue field, giving a geometric point s of that member and a composed point of the base. Localize the base site point at the lift s. FunctorToTypes.fromOverFunctorElementsEquivalence identifies its pointed neighbourhoods with the over-category of the original pointed neighbourhood category; Over.initial_forget and Functor.Final.colimitIso identify the restricted stalk with the original stalk. Apply the local constant-sheaf isomorphism and the source library's sheafFiberConstantSheafIso to identify the constant value with that stalk. IsFiniteSheaf makes the stalk finitely generated; transport this property through the isomorphism and use ConcreteCategory.isFinitelyGenerated_iff_finite to make the constant value finite. ([def-weil-pbc-etale-site], `CategoryTheory.constantSheaf` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/ConstantSheaf.lean))).

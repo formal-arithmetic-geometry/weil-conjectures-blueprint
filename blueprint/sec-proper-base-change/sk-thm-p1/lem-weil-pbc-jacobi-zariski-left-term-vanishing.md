@@ -1,0 +1,8 @@
++++
+id = "lem-weil-pbc-jacobi-zariski-left-term-vanishing"
+kind = "lemma"
+title = "Vanishing of the left base-change term of the Jacobi-Zariski sequence"
+lean = ["Algebra.jacobiZariski_leftTerm_vanishing"]
+source = "literature/stacks-project/algebra.tex, Algebra, Lemma Tag 00S2 (lemma-exact-sequence-NL), final assertion ('if Tor_1^B(Omega_{B/A},C) = Tor_2^B(Omega_{B/A},C) = 0 then H_1(NL_{B/A} (x)_B C) = H_1(L_{B/A}) (x)_B C') and its proof, lines 35444-35446 and 35467-35485; here the Tor hypotheses are replaced by projectivity of Omega_{B/A}, which implies them"
++++
+Let $A\to B$ be a homomorphism of commutative rings such that $H_1(L_{B/A})=0$ and the module of Kähler differentials $\Omega_{B/A}$ `KaehlerDifferential` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Kaehler/Basic.lean)) is a projective $B$-module, where $\mathrm{NL}_{B/A}=\bigl(N_1\xrightarrow{\ \delta\ }N_0\bigr)$, $N_1=I/I^2$, $N_0=\bigoplus_{b\in B}B\,\mathrm d[b]$, is the naive cotangent complex of the canonical presentation $A[B]\to B$ and $H_1(L_{B/A})=\ker\delta$, as in `Algebra.Smooth` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Smooth/Basic.lean)). Let $\mathfrak a\subseteq B$ be an ideal and $C=B/\mathfrak a$, and let $\mathrm{NL}_{B/A}\otimes_BC$ be the two-term complex $N_1\otimes_BC\xrightarrow{\ \delta\otimes\mathrm{id}_C\ }N_0\otimes_BC$. Then $$H_1(\mathrm{NL}_{B/A}\otimes_BC)=\ker(\delta\otimes\mathrm{id}_C)\cong H_1(L_{B/A})\otimes_BC=0.$$ More precisely, the map $H_1(L_{B/A})\otimes_BC\to N_1\otimes_BC$ induced by the inclusion $\ker\delta\subseteq N_1$ is injective with image $\ker(\delta\otimes\mathrm{id}_C)$.
