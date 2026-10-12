@@ -1,0 +1,65 @@
+latex import report for /home/christian/weil-conjectures/blueprint/src/content.tex
+
+  objects        1068
+    definition: 277
+    lemma: 488
+    remark: 73
+    section: 104
+    theorem: 126
+  files written  1068
+  uses edges     2327
+  lean names     462
+  katex macros   59
+  unlabelled environments  16
+  duplicate labels         0
+  unresolved uses          33
+    def-weil-pbc-etale-proetale-inclusion -> def:weil-small-etale-pretopology
+    def-weil-pbc-etale-proetale-inclusion -> def:weil-small-etale-topology
+    def-weil-pbc-etale-proetale-inclusion -> def:weil-small-proetale-category
+    def-weil-pbc-etale-proetale-inclusion -> def:weil-small-proetale-precoverage
+    def-weil-pbc-etale-proetale-inclusion -> def:weil-small-proetale-topology
+    lemma-weil-efi-site-covering-family-image -> def:weil-small-etale-pretopology
+    lemma-weil-efi-site-covering-family-image -> def:weil-small-proetale-precoverage
+    lemma-weil-efi-site-covering-sieve-image -> def:weil-small-etale-topology
+    lemma-weil-efi-site-covering-sieve-image -> def:weil-small-proetale-topology
+    def-weil-efi-coeff-zl-reduction-tower -> def:weil-a2-derived-category
+    def-weil-efi-coeff-intrinsic-constructible-zl-category -> def:weil-a2-derived-category
+    def-weil-pbc-a2-constructible-rebind -> def:weil-a1-rfshriek-selected
+    def-weil-pbc-a2-constructible-rebind -> def:weil-a1-torsion-derived-category
+    def-weil-pbc-a2-constructible-rebind -> def:weil-a2-constructible-stratification-witness
+    def-weil-pbc-a2-constructible-rebind -> def:weil-a2-dbc-torsion
+    def-weil-pbc-a2-constructible-rebind -> def:weil-a2-dbc-zl
+    def-weil-pbc-a2-constructible-rebind -> def:weil-a2-finite-level-etale-origin-realization
+    def-weil-pbc-a2-constructible-rebind -> def:weil-a2-proper-complete-base-change-datum
+    def-weil-pbc-a2-constructible-rebind -> def:weil-a2-torsion-constructibility-witness
+    lemma-weil-pbc-a2-reduction-tensor-transport -> def:weil-a2-completed-tensor
+    lemma-weil-pbc-a2-reduction-tensor-transport -> def:weil-a2-finite-reduction
+    lemma-weil-pbc-a2-reduction-tensor-transport -> def:weil-a2-reduction-transition
+    lemma-weil-pbc-a2-reduction-tensor-transport -> lemma:weil-a2-finite-reduction-package-independent
+    lemma-weil-pbc-a2-reduction-tensor-transport -> prop:weil-a2-finite-reduction-functor
+    lemma-weil-pbc-a2-comparison-rfshriek-transport -> def:weil-a1-rfshriek-selected
+    lemma-weil-pbc-a2-comparison-rfshriek-transport -> def:weil-a1-torsion-derived-category
+    lemma-weil-pbc-a2-comparison-rfshriek-transport -> def:weil-a2-etale-origin-datum
+    lemma-weil-pbc-a2-comparison-rfshriek-transport -> def:weil-a2-etale-proetale-direct-image-comparison
+    lemma-weil-pbc-a2-comparison-rfshriek-transport -> def:weil-a2-etale-proetale-pullback-comparison
+    lemma-weil-pbc-a2-comparison-rfshriek-transport -> def:weil-a2-six-operation-coefficient-target
+    lemma-weil-pbc-a2-s7-s10-endpoint-compatibility -> def:weil-a2-finite-etale-proper-base-change-map
+    lemma-weil-pbc-a2-s7-s10-endpoint-compatibility -> def:weil-a2-proetale-proper-base-change-map
+    lemma-weil-pbc-a2-s7-s10-endpoint-compatibility -> def:weil-a2-transported-finite-level-base-change-map
+
+  dropped commands (11 distinct)
+    52  \Needspace
+    26  \refstepcounter
+    26  \stacksproject
+    26  \theimportedinterface
+    6  \detokenize
+    3  \deepresult
+    2  \iota
+    2  \pi
+    1  \caption
+    1  \endfirsthead
+    1  \endhead
+
+  environments kept but not understood (2 distinct)
+    1  longtable
+    1  verbatim
