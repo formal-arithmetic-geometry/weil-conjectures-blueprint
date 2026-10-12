@@ -1,10 +1,9 @@
 +++
-kind  = "proof"
-of    = "thm-zl-relative-noether"
-uses = ["def-zl-localized-coordinates", "lem-zl-affine-partition", "lem-zl-spread-normalization"]
+kind = "proof"
+of = "thm-zl-relative-noether"
+uses = ["def-sbc-affine-space", "def-weil-pbc-scheme-conventions", "def-zl-localized-coordinates", "lem-zl-affine-partition", "lem-zl-spread-normalization"]
 +++
-All schemes under consideration are Noetherian, being of finite type
-over the Noetherian scheme $Y_0$. We use induction
+All schemes under consideration are Noetherian. We use induction
 on closed subsets of the target, with their reduced structures.
 This induction terminates because a Noetherian space has no infinite
 strictly descending chain of closed subsets.

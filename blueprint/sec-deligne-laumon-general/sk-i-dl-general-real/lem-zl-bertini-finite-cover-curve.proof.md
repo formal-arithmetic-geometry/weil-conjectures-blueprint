@@ -1,6 +1,6 @@
 +++
-kind  = "proof"
-of    = "lem-zl-bertini-finite-cover-curve"
+kind = "proof"
+of = "lem-zl-bertini-finite-cover-curve"
 +++
 We spell out the geometric input. We use the ordinary Bertini lemmas
 [Stacks Project, Tag 0FD5](https://stacks.math.columbia.edu/tag/0FD5)
@@ -12,9 +12,7 @@ We spell out the geometric input. We use the ordinary Bertini lemmas
 These are statements about schemes and linear systems, with no weight
 or monodromy hypothesis.
 
-Since $X_0$ is smooth, geometrically connected and affine of relative
-dimension $d$, the base change $X$ is a smooth connected affine
-$k$-scheme of dimension $d$. Embed $X$ in projective space and let $\overline X$ be its
+Embed $X$ in projective space and let $\overline X$ be its
 projective closure. For a sufficiently large $n$, let $V$ be
 the space of sections of $\mathcal O_{\overline X}(n)$ vanishing
 on the reduced finite subscheme $S$. Tag 0FD5 makes its base locus
@@ -56,11 +54,8 @@ of dimension $d-1$, contains $S$, and its inverse image $T_1$
 is connected and finite etale over it. Repeat this construction until
 dimension one. In dimension two the same argument applies, since
 the finite base locus still has codimension two. This proves the
-claim about $C$. All the finitely many defining equations and
-morphisms involve only finitely many coefficients of $k$, so they
-descend to one finite constant-field extension $\mathbf F_{q^m}$:
-$C=C_m\times_{\mathbf F_{q^m}}k$ for a closed subscheme $C_m$ of
-$X_0\times_{k_0}\mathbf F_{q^m}$. Then $\varphi=\mathrm{id}_{C_m}\times\sigma^m$
-is an automorphism of $C$ with $i\circ\varphi=(\mathrm{id}_{X_0}\times\sigma)^m\circ i$.
+claim about $C$. Over $\overline{\mathbf F}_q$ all the finitely
+many defining equations and morphisms involve only finitely many
+coefficients, so descend to one finite constant-field extension.
 Geometric smoothness and connectedness are the properties just proved
 after base change to $k$.
