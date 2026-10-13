@@ -1,9 +1,9 @@
 +++
 id = "d-lines"
-kind = "remark"
+kind = "definition"
 title = "The affine and projective lines"
-order = 2715
-uses = ["def-trf-coefficient-conventions", "rem-ptr-trf-coefficient-conventions-1"]
+order = 2719
+uses = ["def-trf-coefficient-conventions", "prop-trf-compact-support-perfectness"]
 +++
 Over a finite field $F$ from the coefficient setup,
 put $\mathbf A^1_F=\operatorname{Spec}F[t]$.

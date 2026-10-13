@@ -2,7 +2,7 @@
 id = "thm-amb-etale-exceptional-adjoint"
 kind = "theorem"
 title = "The ordinary ambient exceptional adjoint"
-order = 1914
+order = 1918
 uses = ["def-amb-etale-compact-support", "def-weil-compactifications-refinements", "def-weil-pbc-derived-categories", "lem-amb-etale-compact-comparisons", "lem-amb-proper-coproducts"]
 +++
 Let $f:X\to S$ admit a compactification

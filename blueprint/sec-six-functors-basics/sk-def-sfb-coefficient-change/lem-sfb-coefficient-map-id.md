@@ -2,7 +2,7 @@
 id = "lem-sfb-coefficient-map-id"
 kind = "lemma"
 title = "The coefficient change of the identity"
-order = 1718
+order = 1722
 uses = ["def-sfb-coefficient-map"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientMap_id"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-koszul-quotient-limit"
 kind = "lemma"
 title = "Koszul and quotient towers have the same limit"
-order = 1326
+order = 1327
 uses = ["def-weil-pbc-adic-derived-inverse-limit", "def-weil-pbc-complete-coefficient-datum", "def-weil-pbc-completion-map", "def-weil-pbc-intrinsic-koszul-completion"]
 +++
 There is a functorial isomorphism

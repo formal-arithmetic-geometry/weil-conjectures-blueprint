@@ -2,7 +2,7 @@
 id = "sbc-lem-integral-etale-direct-image-exact"
 kind = "lemma"
 title = "Etale direct image is exact for integral morphisms"
-order = 1449
+order = 1450
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-direct-image-exact"]
 +++
 Let $\pi:T'\to T$ be an

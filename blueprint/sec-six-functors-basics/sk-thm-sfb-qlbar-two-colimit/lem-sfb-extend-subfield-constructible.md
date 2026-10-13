@@ -2,7 +2,7 @@
 id = "lem-sfb-extend-subfield-constructible"
 kind = "lemma"
 title = "$T_{E,F}$ preserves bounded constructible complexes"
-order = 1760
+order = 1764
 uses = ["def-sfb-derived-extend-subfield", "sk-def-sfb-bounded-constructible"]
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalarsSubfield_obj"]
 +++

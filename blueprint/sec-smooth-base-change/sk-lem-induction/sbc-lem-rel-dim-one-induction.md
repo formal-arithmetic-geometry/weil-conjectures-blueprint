@@ -2,7 +2,7 @@
 id = "sbc-lem-rel-dim-one-induction"
 kind = "lemma"
 title = "The induction step in relative dimension one"
-order = 1469
+order = 1470
 uses = ["def-sbc-smooth-morphisms", "sbc-def-base-change-property", "sbc-lem-bc-universal-test", "sbc-thm-universal-test-vanishing"]
 +++
 Let $f:X\to S$ be an affine smooth morphism of relative dimension one

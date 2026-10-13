@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-linearization-right-adjoint"
 kind = "definition"
 title = "Linearization of a right adjoint"
-order = 1598
+order = 1602
 uses = ["def-sfb-projection-formula", "sk-def-sfb-module-objects"]
 lean = ["CategoryTheory.Functor.ProjectionFormula.mapModRight"]
 +++

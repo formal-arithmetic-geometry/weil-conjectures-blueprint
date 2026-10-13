@@ -2,7 +2,7 @@
 id = "lem-wf-affine-dimension-drop"
 kind = "lemma"
 title = "Proper closed subsets have strictly smaller dimension"
-order = 2825
+order = 2829
 +++
 Let $X$ be an irreducible affine variety over a field $k$, with
 coordinate algebra $k[X]$ (finitely generated and reduced). Then $k[X]$

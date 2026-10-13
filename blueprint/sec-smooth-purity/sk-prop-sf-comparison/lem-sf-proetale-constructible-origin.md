@@ -2,7 +2,7 @@
 id = "lem-sf-proetale-constructible-origin"
 kind = "lemma"
 title = "Constructible pro-étale coefficients are of étale origin"
-order = 1994
+order = 1998
 uses = ["def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-complexes", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative", "thm-weil-pbc-site-comparison"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, an integer

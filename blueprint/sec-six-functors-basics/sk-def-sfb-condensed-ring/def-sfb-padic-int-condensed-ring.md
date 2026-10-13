@@ -2,7 +2,7 @@
 id = "def-sfb-padic-int-condensed-ring"
 kind = "definition"
 title = "The condensed ring $\\underline{\\mathbf Z}_\\ell$"
-order = 1521
+order = 1525
 uses = ["def-sfb-continuous-map-condensed-ring"]
 lean = ["Profinite.padicIntCondensedRing"]
 +++

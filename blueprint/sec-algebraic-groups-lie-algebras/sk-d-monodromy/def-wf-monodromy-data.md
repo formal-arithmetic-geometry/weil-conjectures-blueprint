@@ -2,7 +2,7 @@
 id = "def-wf-monodromy-data"
 kind = "definition"
 title = "Monodromy data"
-order = 2851
+order = 2855
 uses = ["def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-geometric-monodromy-group", "lem-wf-degree-components-grading"]
 +++
 The tuple consisting of $\rho$, the geometric group

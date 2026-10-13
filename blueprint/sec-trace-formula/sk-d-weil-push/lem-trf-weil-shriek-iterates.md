@@ -2,7 +2,7 @@
 id = "lem-trf-weil-shriek-iterates"
 kind = "lemma"
 title = "Iterates of the Weil $!$-pushforward"
-order = 2705
+order = 2709
 uses = ["d-relative-frob", "def-exchange-projection", "def-trf-frobenius-coefficient-morphism", "def-trf-weil-shriek-pushforward", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "fix-lem-exchanges", "prop-functor-package"]
 +++
 In the setting of [def-trf-weil-shriek-pushforward], let

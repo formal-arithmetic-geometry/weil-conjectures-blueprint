@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-qbar"
 kind = "theorem"
 title = "Qbar-l proper base change"
-order = 1418
+order = 1419
 uses = ["def-weil-pbc-finite-stage-pair-category", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-descent-functors", "thm-weil-pbc-finite-extension"]
 +++
 Let $f:X\to Y$ be proper, let $g:Y'\to Y$ be arbitrary, and let

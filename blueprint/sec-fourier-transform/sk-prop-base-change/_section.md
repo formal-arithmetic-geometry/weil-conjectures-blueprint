@@ -2,7 +2,7 @@
 id = "sk-prop-base-change"
 kind = "proposition"
 title = "P5: base change"
-order = 3042
+order = 3046
 lean = ["AlgebraicGeometry.Etale.fourierTransformBaseChangeIso"]
 uses = ["sk-def-ft"]
 tags = ["sketch"]

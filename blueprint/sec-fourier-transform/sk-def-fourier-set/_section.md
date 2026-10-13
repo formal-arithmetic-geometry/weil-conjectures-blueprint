@@ -1,8 +1,8 @@
 +++
 id = "sk-def-fourier-set"
-kind = "remark"
+kind = "definition"
 title = "The coefficient setting: six operations only"
-order = 3009
+order = 3013
 lean = ["AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructible"]
 tags = ["sketch"]
 +++

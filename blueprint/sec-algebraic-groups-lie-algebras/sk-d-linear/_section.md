@@ -2,7 +2,7 @@
 id = "sk-d-linear"
 kind = "definition"
 title = "Coefficients and representations"
-order = 2798
+order = 2802
 lean = ["Representation", "Subrepresentation", "Representation.IsIrreducible", "Representation.IsSemisimpleRepresentation", "exteriorPower.map", "CompositionSeries"]
 tags = ["sketch"]
 +++

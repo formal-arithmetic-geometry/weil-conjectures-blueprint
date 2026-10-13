@@ -2,7 +2,7 @@
 id = "lem-cbc-proetale-extension-zero"
 kind = "lemma"
 title = "Extension by zero on the pro-etale site"
-order = 1929
+order = 1933
 uses = ["def-weil-extension-by-zero", "def-weil-pbc-derived-categories", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions"]
 +++
 For an open immersion

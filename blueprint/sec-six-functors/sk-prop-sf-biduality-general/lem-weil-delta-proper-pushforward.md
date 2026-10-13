@@ -2,7 +2,7 @@
 id = "lem-weil-delta-proper-pushforward"
 kind = "lemma"
 title = "The double-dual morphism under a proper push-forward"
-order = 2463
+order = 2467
 uses = ["lem-amb-proper-coproducts-projection", "lem-weil-duality-pairing", "prop-asd-internal-adjunction", "thm-amb-etale-exceptional-adjoint"]
 +++
 Let $f:X\to Y$ be a proper morphism of separated finite-type

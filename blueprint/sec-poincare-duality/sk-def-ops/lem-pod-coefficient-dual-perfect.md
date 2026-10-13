@@ -2,7 +2,7 @@
 id = "lem-pod-coefficient-dual-perfect"
 kind = "lemma"
 title = "Perfectness is preserved by coefficient duality"
-order = 2750
+order = 2754
 uses = ["def-pod-coefficient-dual-on-x", "def-pod-perfect-complex-on-x", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "lem-pod-finite-projective-tensor-hom", "prop-pod-perfect-local-model"]
 +++
 In the Poincare duality conventions of

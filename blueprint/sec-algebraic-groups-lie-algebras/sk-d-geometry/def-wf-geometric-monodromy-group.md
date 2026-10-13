@@ -2,7 +2,7 @@
 id = "def-wf-geometric-monodromy-group"
 kind = "definition"
 title = "Geometric monodromy group"
-order = 2818
+order = 2822
 uses = ["def-sc-general-linear-group", "def-wf-fundamental-representation", "def-wf-weil-group"]
 +++
 Let $\Pi=\pi_1(X,\bar x)$ be the geometric subgroup of the

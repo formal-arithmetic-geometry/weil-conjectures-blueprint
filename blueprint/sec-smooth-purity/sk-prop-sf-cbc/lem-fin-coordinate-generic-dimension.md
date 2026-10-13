@@ -2,7 +2,7 @@
 id = "lem-fin-coordinate-generic-dimension"
 kind = "lemma"
 title = "Coordinate projections lower generic dimension"
-order = 1976
+order = 1980
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $S$ be integral with function field $K$, let

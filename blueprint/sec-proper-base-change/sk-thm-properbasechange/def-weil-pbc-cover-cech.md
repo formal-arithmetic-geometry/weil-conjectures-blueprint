@@ -2,7 +2,7 @@
 id = "def-weil-pbc-cover-cech"
 kind = "definition"
 title = "Covering Cech complexes"
-order = 1348
+order = 1349
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-proetale-modules"]
 +++
 For a finite covering $\mathcal V=\{V_a\to U\}_{a=1}^m$ on either site and a

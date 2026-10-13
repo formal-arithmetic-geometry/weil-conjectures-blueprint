@@ -2,7 +2,7 @@
 id = "sk-thm-fourier-trace-formula"
 kind = "theorem"
 title = "P8: the Fourier trace formula"
-order = 3046
+order = 3050
 uses = ["sk-def-ft", "sk-def-trace", "sk-lem-as-properties", "sk-prop-stalk"]
 tags = ["sketch"]
 +++

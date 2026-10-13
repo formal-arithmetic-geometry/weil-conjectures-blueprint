@@ -2,7 +2,7 @@
 id = "def-kun-constant-sheaf"
 kind = "definition"
 title = "Constant sheaves and constant complexes"
-order = 2022
+order = 2026
 uses = ["def-weil-pbc-etale-site"]
 +++
 For a scheme $T$, a commutative ring $\Lambda$ and a

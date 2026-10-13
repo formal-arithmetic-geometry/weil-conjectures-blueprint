@@ -2,7 +2,7 @@
 id = "sbc-thm-etale-local-normal-form"
 kind = "theorem"
 title = "Etale-local normal form of a smooth morphism"
-order = 1454
+order = 1455
 uses = ["def-exc-jacobian-presentation", "def-sbc-affine-space", "def-sbc-smooth-morphisms", "lem-exc-etale-jacobian-presentation"]
 +++
 Let $g:Y'\to Y$ be

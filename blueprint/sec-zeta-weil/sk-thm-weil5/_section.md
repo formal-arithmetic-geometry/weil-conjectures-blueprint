@@ -2,7 +2,7 @@
 id = "sk-thm-weil5"
 kind = "theorem"
 title = "Weil conjectures V: functional equation"
-order = 3274
+order = 3278
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.WeilFunctionalEquation"]
 uses = ["sk-thm-fe"]
 tags = ["sketch"]

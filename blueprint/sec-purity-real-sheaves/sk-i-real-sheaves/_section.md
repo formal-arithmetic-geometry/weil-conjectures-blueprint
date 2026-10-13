@@ -2,7 +2,7 @@
 id = "sk-i-real-sheaves"
 kind = "proposition"
 title = "The lisse sheaf–representation equivalence"
-order = 2923
+order = 2927
 uses = ["sk-d-real-setup", "sk-d-real-weil", "sk-i-real-galois"]
 lean = ["AlgebraicGeometry.WeilGroup.isLisseRep_shortExact_iff", "AlgebraicGeometry.WeilGroup.isLisseRep"]
 tags = ["sketch"]

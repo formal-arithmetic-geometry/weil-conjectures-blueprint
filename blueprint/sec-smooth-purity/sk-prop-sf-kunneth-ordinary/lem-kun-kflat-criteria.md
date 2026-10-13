@@ -2,7 +2,7 @@
 id = "lem-kun-kflat-criteria"
 kind = "lemma"
 title = "K-flat criteria"
-order = 2055
+order = 2059
 uses = ["def-kun-derived-tensor", "def-kun-truncations", "def-weil-pbc-etale-sheaves"]
 +++
 Let $\Lambda$ be a commutative ring and $T$ a scheme, and work on

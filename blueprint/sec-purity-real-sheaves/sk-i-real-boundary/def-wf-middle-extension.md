@@ -2,7 +2,7 @@
 id = "def-wf-middle-extension"
 kind = "definition"
 title = "Middle extension on a curve"
-order = 2983
+order = 2987
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++
 Let $j:U_0\hookrightarrow C_0$ be a dense open immersion between

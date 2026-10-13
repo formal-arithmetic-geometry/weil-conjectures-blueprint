@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-frobenius-level-rectangle"
 kind = "lemma"
 title = "The finite rectangle is a Weil rectangle"
-order = 1393
+order = 1394
 uses = ["def-weil-pbc-frobenius-corner-structures", "lemma-weil-pbc-derived-exchange-coherence", "lemma-weil-pbc-level-map-rectangle"]
 +++
 All four finite-level edges are Weil-equivariant:

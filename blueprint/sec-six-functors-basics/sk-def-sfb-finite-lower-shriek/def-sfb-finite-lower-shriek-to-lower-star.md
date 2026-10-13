@@ -2,7 +2,7 @@
 id = "def-sfb-finite-lower-shriek-to-lower-star"
 kind = "definition"
 title = "The comparison $f_!\\to f_*$"
-order = 1656
+order = 1660
 uses = ["def-sfb-finite-extension-by-zero-adjunction", "def-sfb-finite-lower-shriek", "def-sfb-finite-lower-star-comp"]
 lean = ["AlgebraicGeometry.ProEtale.lowerShriekToLowerStar"]
 +++

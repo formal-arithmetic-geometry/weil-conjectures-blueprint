@@ -2,7 +2,7 @@
 id = "def-finrepair-property-c"
 kind = "definition"
 title = "Constructibility under direct image"
-order = 1938
+order = 1942
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "sbc-def-coefficient-conventions"]
 +++
 Fix the finite coefficient ring $\Lambda$ of

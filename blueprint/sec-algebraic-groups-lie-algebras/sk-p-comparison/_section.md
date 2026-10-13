@@ -2,7 +2,7 @@
 id = "sk-p-comparison"
 kind = "proposition"
 title = "Group–Lie comparison"
-order = 2836
+order = 2840
 uses = ["sk-d-geometry", "sk-d-lie", "sk-d-tangent", "sk-i-cartier", "sk-p-geometry"]
 lean = ["AlgebraicGeometry.GeneralLinearGroup.invariant_iff_differential_invariant", "AlgebraicGeometry.GeneralLinearGroup.range_lieAlgebraMap_identityComponent_center"]
 tags = ["sketch"]

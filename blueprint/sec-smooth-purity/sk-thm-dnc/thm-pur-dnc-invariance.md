@@ -2,7 +2,7 @@
 id = "thm-pur-dnc-invariance"
 kind = "theorem"
 title = "DNC invariance of the section dualizing line"
-order = 2342
+order = 2346
 uses = ["def-pur-conventions", "def-pur-dnc-section-family", "def-weil-scheme-morphism-properties", "lem-pur-dnc-section-geometry", "lem-pur-lisse-rank-one-aut", "prop-pur-dnc-family-constancy"]
 +++
 In the purity conventions of [def-pur-conventions], in the situation of

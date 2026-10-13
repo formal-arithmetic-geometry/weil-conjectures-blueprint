@@ -2,7 +2,7 @@
 id = "lem-kun-zn-sheaf-invertible-orders"
 kind = "lemma"
 title = "Modules over $\\kunZn$ have invertible orders"
-order = 2024
+order = 2028
 uses = ["def-kun-torsion-invertible", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++
 Let $K$ be a field and $n\in I_K$ an integer invertible in $K$

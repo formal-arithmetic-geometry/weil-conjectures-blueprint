@@ -2,7 +2,7 @@
 id = "thm-pur-rational-and-qbar-purity"
 kind = "theorem"
 title = "Rational and $\\Qlb$ purity"
-order = 2366
+order = 2370
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-pbc-qbar-category", "def-weil-pbc-rational-category", "def-weil-scheme-morphism-properties", "prop-pur-rational-purity-transitivity-summands", "prop-weil-pbc-rational-transport", "thm-pur-adic-reconstruction"]
 +++
 Work in the purity conventions of [def-pur-conventions], let

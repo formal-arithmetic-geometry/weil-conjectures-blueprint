@@ -2,7 +2,7 @@
 id = "def-pur-regular-immersion"
 kind = "definition"
 title = "Regular closed immersion of pure codimension"
-order = 2233
+order = 2237
 uses = ["def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

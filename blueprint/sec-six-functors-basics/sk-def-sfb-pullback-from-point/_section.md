@@ -2,7 +2,7 @@
 id = "sk-def-sfb-pullback-from-point"
 kind = "definition"
 title = "Pulling back from the point"
-order = 1529
+order = 1533
 uses = ["def-weil-pbc-proetale-site", "sk-def-sfb-condensed-ring", "sk-def-sfb-finite-pushforward-pullback"]
 lean = ["AlgebraicGeometry.ProEtale.weaklyEtale_toSpecZ_profiniteToScheme", "AlgebraicGeometry.ProEtale.profiniteToProEt", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_profiniteToProEt", "AlgebraicGeometry.ProEtale.coverPreserving_profiniteToProEt", "AlgebraicGeometry.ProEtale.isContinuous_profiniteToProEt", "AlgebraicGeometry.ProEtale.profiniteToProEtOf", "AlgebraicGeometry.ProEtale.pointLowerStar", "AlgebraicGeometry.ProEtale.hasLeftKanExtension_op_profiniteToProEt", "AlgebraicGeometry.ProEtale.pointUpperStar", "AlgebraicGeometry.ProEtale.pointUpperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.isIso_η_pointUpperStar", "AlgebraicGeometry.ProEtale.isIso_δ_pointUpperStar", "AlgebraicGeometry.ProEtale.laxBraided_pointUpperStar", "AlgebraicGeometry.ProEtale.upperStarFromPoint", "AlgebraicGeometry.ProEtale.isLeftAdjoint_upperStarFromPoint"]
 tags = ["sketch"]

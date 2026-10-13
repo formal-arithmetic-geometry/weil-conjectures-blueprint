@@ -2,7 +2,7 @@
 id = "sk-d-real-cohom"
 kind = "definition"
 title = "Cohomology and the Euler series"
-order = 2942
+order = 2946
 uses = ["sec-smooth-purity", "sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil"]
 lean = ["AlgebraicGeometry.WeilGroup.eulerSeries"]
 tags = ["sketch"]

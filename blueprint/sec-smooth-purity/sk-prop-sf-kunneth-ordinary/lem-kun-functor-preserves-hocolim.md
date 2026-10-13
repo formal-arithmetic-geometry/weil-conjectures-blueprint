@@ -2,7 +2,7 @@
 id = "lem-kun-functor-preserves-hocolim"
 kind = "lemma"
 title = "Exact coproduct-preserving functors preserve telescopes"
-order = 2063
+order = 2067
 uses = ["def-kun-truncations", "def-weil-pbc-derived-categories"]
 +++
 Let $\mathcal T,\mathcal T'$ be triangulated categories with

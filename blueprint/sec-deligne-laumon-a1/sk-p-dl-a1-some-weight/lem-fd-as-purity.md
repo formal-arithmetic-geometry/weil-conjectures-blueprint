@@ -2,7 +2,7 @@
 id = "lem-fd-as-purity"
 kind = "lemma"
 title = "Purity of the Artin–Schreier sheaf"
-order = 3111
+order = 3115
 uses = ["def-fd-artin-schreier-sheaf", "def-weil-punctual-weights", "lem-fd-as-lisse", "lem-fd-as-trace", "lem-tw-root-of-unity-modulus"]
 +++
 Let $k_0=\mathbf F_q$ and fix

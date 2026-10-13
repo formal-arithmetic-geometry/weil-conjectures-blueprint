@@ -2,7 +2,7 @@
 id = "lem-sfb-profinite-to-proetale-continuous"
 kind = "lemma"
 title = "$S\\mapsto\\Spec LC(S,\\Z)$ is continuous"
-order = 1534
+order = 1538
 uses = ["lem-sfb-profinite-to-proetale-cover-preserving", "lem-sfb-profinite-to-proetale-finite-limits"]
 lean = ["AlgebraicGeometry.ProEtale.isContinuous_profiniteToProEt"]
 +++

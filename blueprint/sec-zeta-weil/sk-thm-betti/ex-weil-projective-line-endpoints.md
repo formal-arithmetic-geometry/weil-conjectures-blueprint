@@ -2,7 +2,7 @@
 id = "ex-weil-projective-line-endpoints"
 kind = "remark"
 title = "Projective-line endpoint normalization"
-order = 3262
+order = 3266
 tags = ["latex:example"]
 uses = ["def-weil-point-counts-zeta"]
 +++

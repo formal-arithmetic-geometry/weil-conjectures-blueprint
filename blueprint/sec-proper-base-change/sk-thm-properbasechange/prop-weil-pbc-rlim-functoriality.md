@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-rlim-functoriality"
 kind = "theorem"
 title = "Functoriality of the sequential derived inverse limit"
-order = 1309
+order = 1310
 uses = ["def-weil-derived-limit", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-derived-inverse-limit-computation"]
 tags = ["latex:proposition"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-d-real-operations"
 kind = "definition"
 title = "Operations, constituents and coinvariants"
-order = 2925
+order = 2929
 uses = ["sec-algebraic-groups-lie-algebras", "sec-six-functors", "sk-d-real-weil"]
 lean = ["AlgebraicGeometry.WeilGroup.constLine", "AlgebraicGeometry.WeilGroup.tateLine", "Representation.IsIrreducible", "Representation.IsConstituent"]
 tags = ["sketch"]

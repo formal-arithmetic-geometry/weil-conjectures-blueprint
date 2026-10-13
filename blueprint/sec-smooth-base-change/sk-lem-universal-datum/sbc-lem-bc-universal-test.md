@@ -2,7 +2,7 @@
 id = "sbc-lem-bc-universal-test"
 kind = "lemma"
 title = "Universal curve-test datum for a failure"
-order = 1452
+order = 1453
 uses = ["sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-failure-field", "sbc-lem-bc-integral-base", "sbc-lem-bc-integral-surjective"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] assume for

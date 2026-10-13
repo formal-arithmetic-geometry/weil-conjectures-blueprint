@@ -2,8 +2,8 @@
 id = "thm-trf-frobenius-local-term"
 kind = "theorem"
 title = "Local term of the Frobenius correspondence"
-order = 2696
-uses = ["d-curve-pieces", "def-trf-borel-moore-pushforward", "def-trf-coefficient-conventions", "def-trf-coefficient-pushforward", "def-trf-frobenius-coefficient-morphism", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "def-trf-local-term", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "fix-lem-finite-tor-perfect", "lem-trf-frobenius-degree-formula", "lem-trf-local-term-locality", "lem-trf-local-term-point", "prop-trf-pairing-local-decomposition", "prop-trf-trace-class-additivity", "rem-ptr-trf-admissibility-12", "thm-sf-preservation-class", "thm-trf-frobenius-fixed-points", "thm-trf-trace-proper-compatibility"]
+order = 2700
+uses = ["d-curve-pieces", "def-trf-borel-moore-pushforward", "def-trf-coefficient-conventions", "def-trf-coefficient-pushforward", "def-trf-frobenius-coefficient-morphism", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "def-trf-local-term", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "fix-lem-finite-tor-perfect", "lem-trf-frobenius-degree-formula", "lem-trf-local-term-locality", "lem-trf-local-term-point", "prop-trf-pairing-local-decomposition", "prop-trf-trace-class-additivity", "cor-sf-ambient-adjoint-discharge", "thm-sf-preservation-class", "thm-trf-frobenius-fixed-points", "thm-trf-trace-proper-compatibility"]
 +++
 Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, and the

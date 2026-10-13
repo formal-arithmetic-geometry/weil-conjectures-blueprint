@@ -2,8 +2,8 @@
 id = "rem-sf-ctf-descent"
 kind = "remark"
 title = "How the verified domains enter the formal framework"
-order = 2554
-uses = ["cor-coef-integral-internal-hom", "def-sf-datum", "lem-coef-finite-exceptional", "lem-coef-rational-operations", "open-sf-preservation-gaps", "prop-coef-integral-exceptional-adjoint", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-sf-ctf-stability"]
+order = 2558
+uses = ["cor-coef-integral-internal-hom", "def-sf-datum", "lem-coef-finite-exceptional", "lem-coef-rational-operations", "prop-coef-integral-exceptional-adjoint", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-sf-ctf-stability"]
 +++
 The clauses of [thm-sf-ctf-stability] may be substituted into
 the formal axioms of [def-sf-datum] only on their displayed

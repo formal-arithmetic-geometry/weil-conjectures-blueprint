@@ -2,7 +2,7 @@
 id = "lem-tw-dual-negation"
 kind = "lemma"
 title = "Weight of the linear dual"
-order = 2939
+order = 2943
 uses = ["def-real-weil-representation-operations", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-tw-multiplicativity", "p-linear-spectra"]
 +++
 In the setting of [def-weil-punctual-weights], if a lisse

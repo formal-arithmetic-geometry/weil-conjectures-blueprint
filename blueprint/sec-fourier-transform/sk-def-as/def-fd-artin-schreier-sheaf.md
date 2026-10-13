@@ -2,7 +2,7 @@
 id = "def-fd-artin-schreier-sheaf"
 kind = "definition"
 title = "The Artin–Schreier sheaf"
-order = 3017
+order = 3021
 lean = ["AlgebraicGeometry.Etale.artinSchreierSheaf"]
 uses = ["def-fd-additive-character", "def-weil-pbc-etale-site", "def-weil-pbc-finite-torsors", "def-weil-pbc-scheme-conventions"]
 +++

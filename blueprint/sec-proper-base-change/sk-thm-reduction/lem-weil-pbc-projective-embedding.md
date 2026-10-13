@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-projective-embedding"
 kind = "lemma"
 title = "Projective embedding over the source"
-order = 1263
+order = 1264
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-immersion-closed", "lem-weil-pbc-proper-to-separated", "lemma-weil-pbc-chow-factorization"]
 +++
 With the notation of [lemma-weil-pbc-chow-factorization], the map

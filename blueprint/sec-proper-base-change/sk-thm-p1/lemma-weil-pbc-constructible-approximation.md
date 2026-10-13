@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-constructible-approximation"
 kind = "lemma"
 title = "Constructible approximation for effacement"
-order = 1180
+order = 1181
 uses = ["def-weil-pbc-constructible-complexes", "lemma-weil-pbc-finite-stage-killing"]
 +++
 Let $(T,T_0)$ be an affine henselian pair, let $F$ be a torsion sheaf on

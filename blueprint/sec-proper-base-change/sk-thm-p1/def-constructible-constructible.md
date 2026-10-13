@@ -2,7 +2,7 @@
 id = "def-constructible-constructible"
 kind = "definition"
 title = "Constructible sheaves"
-order = 1218
+order = 1219
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf"]
 uses = ["def-constructible-finite-locally-constant", "def-constructible-stratification"]
 +++

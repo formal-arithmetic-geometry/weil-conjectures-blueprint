@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-injective-restriction-acyclicity"
 kind = "lemma"
 title = "Injective restriction acyclicity bound"
-order = 1190
+order = 1191
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-gabber-affine-comparison"]
 +++
 Let $(A,J)$ be an affine henselian pair, let $Y$ be separated of finite type

@@ -2,7 +2,7 @@
 id = "sk-lem-induction"
 kind = "lemma"
 title = "The induction step in relative dimension one"
-order = 1468
+order = 1469
 uses = ["sk-def-bc", "sk-lem-universal-datum", "sk-thm-vanishing"]
 lean = ["AlgebraicGeometry.Etale.UniversalBaseChangeProperty.of_forall_lt"]
 tags = ["sketch"]

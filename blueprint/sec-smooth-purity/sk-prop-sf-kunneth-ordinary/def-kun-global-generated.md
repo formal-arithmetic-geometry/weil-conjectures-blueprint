@@ -2,7 +2,7 @@
 id = "def-kun-global-generated"
 kind = "definition"
 title = "Globally generated sheaves"
-order = 2033
+order = 2037
 uses = ["def-kun-constant-sheaf", "def-weil-pbc-etale-sheaves"]
 +++
 Let $T$ be a scheme and $F$ a sheaf of $\Lambda_T$-modules on

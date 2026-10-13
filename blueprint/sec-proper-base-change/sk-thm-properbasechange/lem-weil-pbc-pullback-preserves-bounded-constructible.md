@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-pullback-preserves-bounded-constructible"
 kind = "lemma"
 title = "Pullback preserves bounded constructibility"
-order = 1362
+order = 1363
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-proetale-operations", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-inverse-image-exact"]
 +++
 Let $\Lambda=P_n$ be as in

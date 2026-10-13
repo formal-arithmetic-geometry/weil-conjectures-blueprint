@@ -2,7 +2,7 @@
 id = "sbc-lem-bc-integral-surjective"
 kind = "lemma"
 title = "Integral surjective base change on the target"
-order = 1450
+order = 1451
 uses = ["lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-five-lemma-transfer", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-injectivity", "sbc-lem-integral-etale-direct-image-exact"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] assume for

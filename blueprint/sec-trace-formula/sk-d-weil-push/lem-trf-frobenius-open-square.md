@@ -2,7 +2,7 @@
 id = "lem-trf-frobenius-open-square"
 kind = "lemma"
 title = "Frobenius preserves an open subscheme defined over the finite field"
-order = 2708
+order = 2712
 uses = ["def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 Fix the finite-field datum.

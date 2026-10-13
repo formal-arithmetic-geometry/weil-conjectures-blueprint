@@ -2,7 +2,7 @@
 id = "thm-coef-rational-verdier"
 kind = "theorem"
 title = "Verdier biduality over a finite coefficient field"
-order = 2491
+order = 2495
 uses = ["def-weil-rationalization-karoubi", "lem-coef-integral-finite-extension", "lem-coef-integral-residue-tor", "prop-weil-pbc-rational-transport", "thm-coef-integral-verdier"]
 +++
 For every finite extension $E/\Ql$, integral duality induces

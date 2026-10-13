@@ -2,7 +2,7 @@
 id = "sk-p-linear-spectra"
 kind = "proposition"
 title = "Spectra of the operations"
-order = 2890
+order = 2894
 uses = ["sk-d-linear", "sk-d-weights"]
 lean = ["LinearMap.charpoly_roots_tensorProduct", "LinearMap.charpoly_roots_exteriorPower", "LinearMap.charpoly_roots_dualMap_symm"]
 tags = ["sketch"]

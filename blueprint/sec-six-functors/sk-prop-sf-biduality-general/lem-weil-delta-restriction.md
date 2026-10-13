@@ -2,7 +2,7 @@
 id = "lem-weil-delta-restriction"
 kind = "lemma"
 title = "The double-dual morphism restricts"
-order = 2464
+order = 2468
 uses = ["def-weil-derived-pullback-tensor-hom", "lem-amb-etale-adjoint-locality", "lem-weil-duality-pairing"]
 +++
 Let $j:W\to Y$ be etale between separated finite-type schemes over

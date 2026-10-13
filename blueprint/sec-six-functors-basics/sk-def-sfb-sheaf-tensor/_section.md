@@ -2,7 +2,7 @@
 id = "sk-def-sfb-sheaf-tensor"
 kind = "definition"
 title = "Tensor product of pro-étale sheaves"
-order = 1503
+order = 1507
 uses = ["def-weil-pbc-proetale-site"]
 lean = ["CategoryTheory.Sheaf.monoidalCategory", "AlgebraicGeometry.ProEtale.sheafMonoidalCategory", "AlgebraicGeometry.ProEtale.sheafSymmetricCategory", "AlgebraicGeometry.ProEtale.sheafMonoidalClosed", "AlgebraicGeometry.ProEtale.preservesColimitsOfSize_tensorLeft_sheaf", "AddCommGrpCat.monoidalCategory", "AddCommGrpCat.monoidalClosed"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "thm-weil-final-betti"
 kind = "theorem"
 title = "Weil conjectures IV: Betti symmetry"
-order = 3273
+order = 3277
 uses = ["def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "prop-endpoints", "prop-integral-recovery", "prop-poincare-pairing", "prop-weil-betti-comparison", "thm-weil-final-integrality", "thm-weil-final-rh", "thm-weil-poincare-duality", "thm-weil-six-operations"]
 +++
 Fix a finite field

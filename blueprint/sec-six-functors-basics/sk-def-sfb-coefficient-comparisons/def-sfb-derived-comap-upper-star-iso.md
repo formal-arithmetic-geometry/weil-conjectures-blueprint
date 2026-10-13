@@ -2,7 +2,7 @@
 id = "def-sfb-derived-comap-upper-star-iso"
 kind = "definition"
 title = "Derived restriction of scalars commutes with $D(f^*)$"
-order = 1733
+order = 1737
 uses = ["def-sfb-comap-upper-star-iso", "sk-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedComapUpperStarIso"]
 +++

@@ -1,8 +1,8 @@
 +++
 id = "def-fourier-set"
-kind = "remark"
+kind = "definition"
 title = "The coefficient setting: six operations only"
-order = 3010
+order = 3014
 lean = ["AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructible"]
 +++
 Fix a prime $p$, a power $q=p^a$, the fields $k_0=\Fq$ and $k=\bar k_0$, a

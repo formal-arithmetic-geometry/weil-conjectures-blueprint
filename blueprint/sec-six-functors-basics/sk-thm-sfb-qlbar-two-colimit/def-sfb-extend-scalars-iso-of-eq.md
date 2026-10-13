@@ -2,7 +2,7 @@
 id = "def-sfb-extend-scalars-iso-of-eq"
 kind = "definition"
 title = "Extension of scalars along equal morphisms"
-order = 1756
+order = 1760
 uses = ["sk-def-sfb-change-of-scalars"]
 lean = ["CategoryTheory.Mod.extendScalarsIsoOfEq"]
 +++

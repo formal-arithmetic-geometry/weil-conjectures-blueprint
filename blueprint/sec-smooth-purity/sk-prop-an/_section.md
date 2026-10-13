@@ -2,7 +2,7 @@
 id = "sk-prop-an"
 kind = "proposition"
 title = "$\\Aaf^1\\Rightarrow\\Aaf^n$: the model purity"
-order = 2302
+order = 2306
 uses = ["sk-def-purity-conv", "sk-lem-sf-mate", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-a1-kummer", "sk-prop-cd", "sk-prop-h2", "sk-prop-sf-cbc", "sk-prop-sf-open-closed-triangle", "sk-thm-properbasechange"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpaceZero", "AlgebraicGeometry.Etale.isIso_supportedClassMap_kummerBoundaryProduct_coord"]
 tags = ["sketch"]

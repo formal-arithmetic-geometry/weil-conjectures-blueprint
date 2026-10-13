@@ -2,7 +2,7 @@
 id = "rem-weil-biduality-coefficients"
 kind = "remark"
 title = "Ordinary, derived, and geometric biduality"
-order = 2461
+order = 2465
 uses = ["def-weil-finite-torsion-constructibility", "lem-weil-coefficient-frobenius"]
 +++
 For $R=\mathcal O_E$ and $T=R/\varpi_E R$, ordinary duality gives

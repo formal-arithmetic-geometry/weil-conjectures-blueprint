@@ -2,7 +2,7 @@
 id = "sbc-lem-identity-and-base-change-composition"
 kind = "lemma"
 title = "Identity and base-change composition"
-order = 1430
+order = 1431
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "lem-weil-pbc-exchange-identity-pasting"]
 +++
 For a cartesian square of

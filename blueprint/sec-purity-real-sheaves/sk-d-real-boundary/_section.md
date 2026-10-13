@@ -2,7 +2,7 @@
 id = "sk-d-real-boundary"
 kind = "definition"
 title = "Boundary extension and inertia"
-order = 2980
+order = 2984
 uses = ["sec-algebraic-groups-lie-algebras", "sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weil"]
 lean = ["AlgebraicGeometry.BoundaryDatum", "AlgebraicGeometry.BoundaryDatum.boundaryStalk"]
 tags = ["sketch"]

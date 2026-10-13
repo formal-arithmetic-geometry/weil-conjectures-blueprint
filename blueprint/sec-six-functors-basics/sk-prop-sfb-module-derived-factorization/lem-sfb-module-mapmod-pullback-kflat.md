@@ -2,7 +2,7 @@
 id = "lem-sfb-module-mapmod-pullback-kflat"
 kind = "lemma"
 title = "Transport along the pullback preserves K-flat complexes"
-order = 1700
+order = 1704
 uses = ["sk-def-sfb-finite-pushforward-pullback", "sk-def-sfb-transport", "sk-prop-sfb-module-category", "sk-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.preservesKFlatComplexes_mapMod_upperStar"]
 +++

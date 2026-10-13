@@ -2,7 +2,7 @@
 id = "lem-sfb-alpha-ring-hom"
 kind = "lemma"
 title = "$\\alpha_f$ is a morphism of ring objects"
-order = 1556
+order = 1560
 uses = ["def-sfb-alpha", "lem-sfb-pullback-from-point-comp-monoidal", "sk-def-sfb-finite-pushforward-pullback"]
 lean = ["AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom"]
 +++

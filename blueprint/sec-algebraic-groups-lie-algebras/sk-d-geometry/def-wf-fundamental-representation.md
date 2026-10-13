@@ -2,7 +2,7 @@
 id = "def-wf-fundamental-representation"
 kind = "definition"
 title = "Geometric and Weil fundamental representations"
-order = 2816
+order = 2820
 uses = ["cor-galois-lisse-representations", "def-galois-fibre-functor", "def-tw-frobenius-action", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "def-weil-weil-sheaf-complex"]
 +++
 Let $X_0$ be a

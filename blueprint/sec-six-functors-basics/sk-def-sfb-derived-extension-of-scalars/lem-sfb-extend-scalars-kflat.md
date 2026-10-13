@@ -2,7 +2,7 @@
 id = "lem-sfb-extend-scalars-kflat"
 kind = "lemma"
 title = "Extension of scalars preserves K-flat quasi-isomorphisms"
-order = 1622
+order = 1626
 uses = ["sk-def-sfb-change-of-scalars", "def-sfb-preserves-kflat-quasi-iso"]
 lean = ["CategoryTheory.Mod.preservesKFlatQuasiIso"]
 +++

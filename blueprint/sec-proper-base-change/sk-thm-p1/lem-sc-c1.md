@@ -2,7 +2,7 @@
 id = "lem-sc-c1"
 kind = "lemma"
 title = "C1: vanishing above degree two"
-order = 1164
+order = 1165
 uses = ["def-sc-curves", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lem-sc-cohomological-dimension"]
 +++
 Let $k$ be algebraically closed, let $C$ be a

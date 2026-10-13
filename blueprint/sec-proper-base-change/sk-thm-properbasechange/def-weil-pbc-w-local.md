@@ -2,7 +2,7 @@
 id = "def-weil-pbc-w-local"
 kind = "definition"
 title = "Patch topology and w-local affine schemes"
-order = 1287
+order = 1288
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 For an affine scheme [def-weil-pbc-scheme-conventions]

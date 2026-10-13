@@ -2,7 +2,7 @@
 id = "lem-wf-boundary-semicontinuity"
 kind = "lemma"
 title = "Boundary semicontinuity of weights on a curve"
-order = 2995
+order = 2999
 uses = ["d-real-cohom", "d-real-setup", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-a1-affine-hc2", "lem-wf-boundary-stalk-invariants", "lem-wf-euler-product-middle-extension", "lem-wf-point-count-linear-growth", "p-linear-spectra", "prop-sf-open-closed-triangle-all-stages"]
 +++
 Let $X_0$ be a curve over $k_0=\mathbf F_q$ in the sense of

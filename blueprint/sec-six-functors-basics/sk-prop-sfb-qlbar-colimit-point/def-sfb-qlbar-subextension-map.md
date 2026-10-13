@@ -2,7 +2,7 @@
 id = "def-sfb-qlbar-subextension-map"
 kind = "definition"
 title = "The inclusions $\\underline E\\to\\underline F$"
-order = 1527
+order = 1531
 uses = ["def-sfb-continuous-map-condensed-ring-map", "def-sfb-padic-subfield-condensed-ring", "sk-def-sfb-qlbar-condensed"]
 lean = ["Profinite.padicSubfieldRingObjMap"]
 +++

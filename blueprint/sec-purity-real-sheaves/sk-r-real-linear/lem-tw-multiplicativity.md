@@ -2,7 +2,7 @@
 id = "lem-tw-multiplicativity"
 kind = "lemma"
 title = "Weights multiply under tensor product"
-order = 2938
+order = 2942
 uses = ["def-tw-eigenvalue"]
 +++
 If $\alpha,\beta$ are eigenvalues of weights $w_1,w_2$ (as in

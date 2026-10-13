@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-normalization"
 kind = "lemma"
 title = "Generic relative Noether normalization"
-order = 3162
+order = 3166
 lean = ["AlgebraicGeometry.exists_dense_isFinite_toIteratedAffineLine"]
 uses = ["sk-i-real-normalization"]
 tags = ["sketch"]

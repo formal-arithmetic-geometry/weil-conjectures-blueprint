@@ -2,7 +2,7 @@
 id = "def-exc-ind-etale-closed-lift"
 kind = "definition"
 title = "The ind-etale lift along a closed subscheme"
-order = 2178
+order = 2182
 uses = ["def-weil-pbc-ind-etale-algebra"]
 +++
 For an ideal $I\subset A$ and an ind-etale $A/I$-algebra $\overline C$, let

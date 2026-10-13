@@ -1,8 +1,8 @@
 +++
 id = "sk-d-lines"
-kind = "remark"
+kind = "definition"
 title = "The affine and projective lines"
-order = 2714
+order = 2718
 uses = ["sk-d-setup"]
 lean = ["AlgebraicGeometry.ProjectiveSpace"]
 tags = ["sketch"]

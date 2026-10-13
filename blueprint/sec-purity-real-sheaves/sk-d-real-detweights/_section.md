@@ -2,7 +2,7 @@
 id = "sk-d-real-detweights"
 kind = "definition"
 title = "Determinant weights and weight blocks"
-order = 2971
+order = 2975
 uses = ["sk-d-real-operations", "sk-d-real-weights", "sk-p-real-rankone"]
 lean = ["AlgebraicGeometry.WeilGroup.HasDetWeight"]
 tags = ["sketch"]

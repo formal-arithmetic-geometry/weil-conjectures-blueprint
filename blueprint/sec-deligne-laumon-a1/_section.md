@@ -2,7 +2,7 @@
 id = "sec-deligne-laumon-a1"
 kind = "section"
 title = "Deligne–Laumon on the Affine Line: Proof Sketch"
-order = 3061
+order = 3065
 uses = ["sec-algebraic-groups-lie-algebras", "sec-fourier-transform", "sec-poincare-duality", "sec-purity-real-sheaves", "sec-six-functors", "sec-smooth-purity", "sec-trace-formula"]
 +++
 **Content.** Let $j\colon U_0\hookrightarrow\mathbf A^1_{\mathbf F_q}$ be a

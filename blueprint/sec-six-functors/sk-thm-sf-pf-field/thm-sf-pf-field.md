@@ -2,7 +2,7 @@
 id = "thm-sf-pf-field"
 kind = "theorem"
 title = "Rational and algebraically closed stages"
-order = 2438
+order = 2442
 uses = ["def-sf-datum", "def-sf-pf", "def-weil-algebraically-closed-coefficients", "def-weil-rationalization-karoubi", "thm-sf-pf-adic"]
 +++
 In the setting of [def-sf-datum], let $K,L$ be obtained by

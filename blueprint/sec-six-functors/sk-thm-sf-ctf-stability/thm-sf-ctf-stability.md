@@ -2,7 +2,7 @@
 id = "thm-sf-ctf-stability"
 kind = "theorem"
 title = "Preservation on the proved finite-Tor domains"
-order = 2553
+order = 2557
 uses = ["cor-coef-finite-verdier", "cor-pur-general-admissibility-datum", "cor-pur-smooth-admissibility", "cor-coef-integral-internal-hom", "cor-sf-direct-image-ctf-proetale", "cor-sf-hom-ctf-proetale-unconditional", "cor-weil-finite-constructible-hom", "def-compact-support-direct-image-detailed", "def-weil-derived-complete-integral-detailed", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "def-weil-site-perfect-complex", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-coef-integral-hom-reduction", "lem-coef-integral-residue-tor", "lem-coef-rational-operations", "lem-exc-constant-inverse-image-flat", "lem-fix-operation-reduction", "lem-sf-etale-direct-image-vanishing", "lem-weil-pbc-pullback-preserves-bounded-constructible", "prop-coef-integral-exceptional-adjoint", "prop-exc-closed-tor", "prop-sf-dualizable-hom", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-pur-general-admissibility", "thm-pur-open-complement-unconditional", "thm-sf-direct-image-tor-amplitude", "thm-sf-hom-ctf", "thm-sf-preservation-class"]
 +++
 Fix the finite-field datum,

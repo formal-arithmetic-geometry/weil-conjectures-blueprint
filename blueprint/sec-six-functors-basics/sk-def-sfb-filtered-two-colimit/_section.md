@@ -2,7 +2,7 @@
 id = "sk-def-sfb-filtered-two-colimit"
 kind = "definition"
 title = "Filtered 2-colimits of categories"
-order = 1752
+order = 1756
 lean = ["CategoryTheory.CategoryCocone", "CategoryTheory.CategoryCocone.EssSurjObj", "CategoryTheory.CategoryCocone.HomSurj", "CategoryTheory.CategoryCocone.HomInj", "CategoryTheory.CategoryCocone.IsFilteredTwoColimit", "CategoryTheory.CategoryCocone.IsFilteredTwoColimit.exists_iso", "CategoryTheory.CategoryCocone.IsFilteredTwoColimit.exists_map_eq"]
 tags = ["sketch"]
 +++

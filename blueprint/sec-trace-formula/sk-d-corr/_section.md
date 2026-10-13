@@ -2,7 +2,7 @@
 id = "sk-d-corr"
 kind = "definition"
 title = "Correspondences and supported classes"
-order = 2615
+order = 2619
 uses = ["sk-d-setup", "sk-d-six", "sk-thm-sf-comp-composition"]
 lean = ["AlgebraicGeometry.ProEtale.Correspondence"]
 tags = ["sketch"]

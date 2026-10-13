@@ -2,7 +2,7 @@
 id = "lem-cbc-open-closed-recollement"
 kind = "lemma"
 title = "Open-closed recollement"
-order = 2190
+order = 2194
 uses = ["def-weil-open-closed-recollement", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-direct-image-exact", "prop-weil-open-closed-recollement-adjunctions"]
 +++
 Let $i:Z\hookrightarrow X$ be a

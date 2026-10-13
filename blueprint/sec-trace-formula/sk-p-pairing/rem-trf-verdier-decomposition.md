@@ -2,7 +2,7 @@
 id = "rem-trf-verdier-decomposition"
 kind = "remark"
 title = "Status of the fixed-point trace construction"
-order = 2663
+order = 2667
 uses = ["cor-trf-constant-stalk-trace", "def-trf-dualizing-complex", "lem-trf-trace-map-from-external-duality", "thm-trf-fixed-point-evaluation-finite", "thm-trf-internal-hom-pullback", "thm-trf-verdier-duality"]
 +++
 The proved internal-Hom comparison

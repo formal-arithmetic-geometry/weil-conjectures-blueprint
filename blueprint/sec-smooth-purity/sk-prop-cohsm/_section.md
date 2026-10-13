@@ -2,7 +2,7 @@
 id = "sk-prop-cohsm"
 kind = "proposition"
 title = "Cohomological smoothness"
-order = 2331
+order = 2335
 uses = ["sk-prop-a1", "sk-prop-an", "sk-prop-sf-cbc"]
 lean = ["AlgebraicGeometry.Etale.isInvertible_dualizingComplex", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_obj_derivedTensor", "AlgebraicGeometry.Etale.nonempty_iso_leftDerivedUpperStar_comp_rightDerivedUpperShriek"]
 tags = ["sketch"]

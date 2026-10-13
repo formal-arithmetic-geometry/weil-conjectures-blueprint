@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-symmetric-product-surjective"
 kind = "lemma"
 title = "Surjectivity of the symmetric-product morphism"
-order = 1268
+order = 1269
 uses = ["def-weil-pbc-scheme-conventions", "def-weil-pbc-symmetric-product-morphism", "lem-weil-pbc-surjective-nonempty-fibres", "lem-weil-pbc-symmetric-product-finite"]
 +++
 Let $\sigma_n:(\mathbf P^1_S)^n\to\mathbf P^n_S$ be the symmetric-product

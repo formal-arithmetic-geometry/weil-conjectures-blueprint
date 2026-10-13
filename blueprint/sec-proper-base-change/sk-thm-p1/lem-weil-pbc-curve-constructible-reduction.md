@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-curve-constructible-reduction"
 kind = "lemma"
 title = "Reduction to constructible prime torsion"
-order = 1208
+order = 1209
 uses = ["def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lemma-weil-pbc-curve-filtered-cohomology", "lemma-weil-pbc-eight-curve-devissage", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $C$ be a proper curve over an algebraically closed field $k$ (separated

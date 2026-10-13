@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-w-localization-points"
 kind = "lemma"
 title = "Points of the affine w-localization"
-order = 1290
+order = 1291
 uses = ["def-weil-pbc-w-local", "def-weil-pbc-w-localization", "lem-weil-pbc-ind-etale-stability", "lem-weil-pbc-w-local-partition"]
 +++
 The points of $\operatorname{Spec}A^w$ are pairs $(x,y)$ of primes of $A$

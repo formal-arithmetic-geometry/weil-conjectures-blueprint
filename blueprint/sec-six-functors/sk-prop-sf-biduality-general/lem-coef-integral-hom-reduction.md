@@ -2,7 +2,7 @@
 id = "lem-coef-integral-hom-reduction"
 kind = "lemma"
 title = "Integral internal Hom and reduction"
-order = 2474
+order = 2478
 uses = ["def-weil-completed-integral-coefficients", "def-weil-derived-complete", "def-weil-derived-pullback-tensor-hom"]
 +++
 For arbitrary ambient complexes $K,L$ of $R_X$-modules,

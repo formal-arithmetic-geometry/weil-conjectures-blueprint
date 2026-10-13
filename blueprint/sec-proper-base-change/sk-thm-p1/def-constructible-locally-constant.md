@@ -2,7 +2,7 @@
 id = "def-constructible-locally-constant"
 kind = "definition"
 title = "Locally constant sheaves"
-order = 1211
+order = 1212
 lean = ["AlgebraicGeometry.Scheme.IsLocallyConstantSheaf", "AlgebraicGeometry.Scheme.LocallyConstantDatum"]
 uses = ["def-constructible-constant"]
 +++

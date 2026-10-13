@@ -2,7 +2,7 @@
 id = "thm-sfb-finite-lower-shriek-left-adjoint"
 kind = "theorem"
 title = "$Rf_!$ is a left adjoint"
-order = 1677
+order = 1681
 uses = ["def-sfb-finite-derived-lower-shriek", "def-sfb-finite-shriek-adjunction"]
 lean = ["AlgebraicGeometry.ProEtale.isLeftAdjoint_rightDerivedLowerShriek"]
 +++

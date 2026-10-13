@@ -2,7 +2,7 @@
 id = "prop-weight-purity-roots"
 kind = "theorem"
 title = "Reciprocal roots have the weight-$i$ absolute value"
-order = 3235
+order = 3239
 tags = ["latex:proposition"]
 uses = ["def-weil-frobenius-module-weights", "def-weil-ordinary-reciprocal-roots", "def-weil-smooth-proper-cohomological-family", "prop-weight-purity", "prop-weight-purity-ordinary"]
 +++

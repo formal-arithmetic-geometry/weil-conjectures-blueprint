@@ -2,7 +2,7 @@
 id = "def-pod-derived-poincare-pairing"
 kind = "definition"
 title = "Derived Poincare pairing"
-order = 2591
+order = 2595
 uses = ["def-pod-coefficient-dual-on-x"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), let $\Lambda\in\{A,\mathcal O_E,E,\overline{\mathbf Q}_{\ell}\}$ and let $K\in D^b_{ctf}(X,\Lambda)$ be perfect over $\Lambda_X$ (the case $\Lambda=A$ is the finite stage; the other coefficients are its transports). The *derived Poincare pairing* is the composite

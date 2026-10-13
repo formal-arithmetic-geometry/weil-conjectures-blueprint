@@ -2,7 +2,7 @@
 id = "sk-p-trace"
 kind = "proposition"
 title = "Trace on perfect complexes"
-order = 2642
+order = 2646
 uses = ["sk-d-trace"]
 lean = ["DerivedCategory.trace_eq_algebraMap_sum_negOnePow_linearMapTrace"]
 tags = ["sketch"]

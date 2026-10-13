@@ -2,7 +2,7 @@
 id = "thm-pod-identification-of-the-comparison"
 kind = "theorem"
 title = "Identification of the Poincare pairing with Verdier duality"
-order = 2593
+order = 2597
 uses = ["def-exchange-projection", "def-pod-coefficient-dual-on-x", "def-pod-conventions", "def-pod-derived-poincare-pairing", "def-pod-mixed-support-cup-product", "def-pod-perfect-complex-on-x", "def-pod-perfect-derived-pairing", "def-pur-smooth-trace", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-coefficient-point", "fix-prop-projection-formula", "lem-sf-tensor-hom", "thm-pod-global-verdier-duality", "thm-pur-finite-coefficient-smooth-purity", "thm-sf-dual-perfect", "thm-sf-identification", "thm-sf-verdier-exchange"]
 +++
 Fix $\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, the smooth

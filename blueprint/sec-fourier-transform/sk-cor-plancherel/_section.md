@@ -2,7 +2,7 @@
 id = "sk-cor-plancherel"
 kind = "corollary"
 title = "P9: Plancherel"
-order = 3048
+order = 3052
 uses = ["sk-lem-orthogonality", "sk-thm-fourier-trace-formula"]
 tags = ["sketch"]
 +++

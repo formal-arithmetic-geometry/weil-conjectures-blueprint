@@ -2,7 +2,7 @@
 id = "thm-wf-rank-one-finite-geometric-image-curve"
 kind = "theorem"
 title = "Finite geometric image of a rank-one Weil character on a curve"
-order = 2966
+order = 2970
 uses = ["def-weil-pbc-scheme-conventions", "def-wf-weil-group", "lem-wf-additive-characters-h1", "lem-wf-compact-character-logarithm", "lem-wf-deep-principal-unit-log", "prop-wf-open-curve-h1-no-frobenius-fixed"]
 +++
 Let $U_0/\mathbf F_q$ be normal, geometrically connected,

@@ -2,7 +2,7 @@
 id = "prop-trf-adic-coefficient-morphism-systems"
 kind = "theorem"
 title = "Adic realization for systems of Frobenius coefficient morphisms"
-order = 2726
+order = 2730
 tags = ["latex:proposition"]
 uses = ["def-trf-adic-system", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-trf-frobenius-coefficient-morphism", "def-weil-derived-complete-integral-detailed", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-integral-rational-qbar-compact-support", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-completed-pullback", "def-weil-pbc-derived-inverse-limit", "lem-fix-compact-support-coefficient-change", "lem-trf-chain-supertrace", "prop-trf-compact-support-perfectness", "prop-trf-graph-frobenius-operator", "prop-trf-rational-frobenius-integral-model", "prop-trf-scheme-galois-comparison", "prop-trf-trace-formal-laws", "thm-trf-finite-coefficient-map"]
 +++

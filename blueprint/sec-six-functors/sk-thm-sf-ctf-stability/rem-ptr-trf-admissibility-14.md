@@ -2,8 +2,8 @@
 id = "rem-ptr-trf-admissibility-14"
 kind = "remark"
 title = "Coefficient clauses in trace admissibility"
-order = 2549
-uses = ["def-trf-admissibility", "lem-coef-finite-exceptional", "lem-coef-rational-operations", "prop-coef-integral-exceptional-adjoint", "rem-sf-finite-level-comparison-ingredient"]
+order = 2553
+uses = ["def-trf-admissibility", "lem-coef-finite-exceptional", "lem-coef-rational-operations", "prop-coef-integral-exceptional-adjoint"]
 +++
 The coefficient comparisons in [def-trf-admissibility] on the
 constructible coefficient categories are supplied by

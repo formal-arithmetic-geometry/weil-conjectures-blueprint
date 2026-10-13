@@ -1,8 +1,8 @@
 +++
 id = "sk-rem-sf-matrix"
-kind = "remark"
+kind = "proposition"
 title = "The preservation matrix"
-order = 2555
+order = 2559
 tags = ["sketch"]
 +++
 Short of the residue above, the following cells are *proved*:

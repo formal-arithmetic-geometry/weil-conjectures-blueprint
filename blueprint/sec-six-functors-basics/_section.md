@@ -2,7 +2,7 @@
 id = "sec-six-functors-basics"
 kind = "section"
 title = "Six Functors: Basic Constructions"
-order = 1501
+order = 1505
 uses = ["sec-nagata-compactification", "sec-picard-framework", "sec-proper-base-change"]
 +++
 **Content.** This section sets up the pro-étale derived categories and the six

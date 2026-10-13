@@ -2,7 +2,7 @@
 id = "lem-exc-etale-algebra-lift"
 kind = "lemma"
 title = "Etale algebras lift across an arbitrary quotient"
-order = 1147
+order = 1148
 uses = ["def-exc-etale-algebra-lift", "def-weil-pbc-scheme-conventions", "lem-exc-etale-jacobian-presentation"]
 +++
 The algebra of [def-exc-etale-algebra-lift] is etale of finite presentation

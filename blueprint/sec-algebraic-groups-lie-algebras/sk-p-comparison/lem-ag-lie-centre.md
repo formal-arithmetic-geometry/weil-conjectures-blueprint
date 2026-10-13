@@ -2,7 +2,7 @@
 id = "lem-ag-lie-centre"
 kind = "lemma"
 title = "Lie algebra of the centre"
-order = 2838
+order = 2842
 uses = ["def-wf-lie-algebra-derivation", "def-wf-lie-radical-centre", "lem-ag-cartier-reduced", "lem-wf-algebraic-component-cosets", "lem-wf-same-lie-closed-subgroup"]
 +++
 Let $H\subseteq\operatorname{GL}(V)$ be a connected closed matrix group

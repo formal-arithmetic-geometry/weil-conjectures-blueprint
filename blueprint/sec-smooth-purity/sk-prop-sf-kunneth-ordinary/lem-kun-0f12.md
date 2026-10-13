@@ -2,7 +2,7 @@
 id = "lem-kun-0f12"
 kind = "lemma"
 title = "Tensor product with a constant complex"
-order = 2075
+order = 2079
 uses = ["def-kun-cd", "def-kun-derived-tensor", "def-kun-truncations", "def-weil-pbc-etale-cohomology", "def-weil-pbc-scheme-conventions", "lem-kun-0f11", "lem-kun-bounded-flat-replacement", "lem-kun-complex-colimit-hocolim", "lem-kun-derived-tensor-direct-sums", "lem-kun-derived-tensor-triangulated", "lem-kun-hocolim-truncations"]
 +++
 Let $X$ be a

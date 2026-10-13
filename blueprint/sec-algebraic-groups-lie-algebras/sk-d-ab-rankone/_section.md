@@ -2,7 +2,7 @@
 id = "sk-d-ab-rankone"
 kind = "definition"
 title = "A split cyclic extension and rank-one characters"
-order = 2869
+order = 2873
 uses = ["sk-d-monodromy"]
 lean = ["SemidirectProduct.inrOfAddOne", "SemidirectProduct.degreeCharacter", "SemidirectProduct.finitePart"]
 tags = ["sketch"]

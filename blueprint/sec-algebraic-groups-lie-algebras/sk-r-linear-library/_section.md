@@ -1,8 +1,8 @@
 +++
 id = "sk-r-linear-library"
-kind = "remark"
+kind = "proposition"
 title = "The linear-algebra library"
-order = 2878
+order = 2882
 uses = ["sk-d-linear"]
 tags = ["sketch"]
 +++

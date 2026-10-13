@@ -2,7 +2,7 @@
 id = "sk-def-sf-admissible"
 kind = "definition"
 title = "Admissibility datum: an explicit hypothesis"
-order = 1858
+order = 1862
 lean = ["AlgebraicGeometry.ProEtale.HasAmbientExceptionalRightAdjoint", "AlgebraicGeometry.ProEtale.HasUniformCohomologicalDimensionLE"]
 tags = ["sketch"]
 +++

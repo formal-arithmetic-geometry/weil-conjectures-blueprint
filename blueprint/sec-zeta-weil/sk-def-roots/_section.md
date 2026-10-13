@@ -2,7 +2,7 @@
 id = "sk-def-roots"
 kind = "definition"
 title = "Reciprocal roots, weights and integrality"
-order = 3198
+order = 3202
 lean = ["Polynomial.IsPureOfWeight", "Polynomial.IsUniversallyPureOfWeight", "Polynomial.alternatingNatDegreeSum", "shiftSpan"]
 tags = ["sketch"]
 +++

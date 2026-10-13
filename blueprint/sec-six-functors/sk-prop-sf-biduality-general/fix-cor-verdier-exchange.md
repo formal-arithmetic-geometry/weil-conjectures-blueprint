@@ -2,7 +2,7 @@
 id = "fix-cor-verdier-exchange"
 kind = "theorem"
 title = "Verdier-duality exchange"
-order = 2457
+order = 2461
 tags = ["latex:corollary"]
 uses = ["def-fix-six-functor-datum", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "fix-lem-tensor-adjunction", "fix-prop-adjunctions", "thm-sf-comp-composition"]
 +++

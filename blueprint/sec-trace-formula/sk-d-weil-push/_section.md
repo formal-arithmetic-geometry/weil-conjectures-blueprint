@@ -2,7 +2,7 @@
 id = "sk-d-weil-push"
 kind = "definition"
 title = "Weil $!$-pushforward"
-order = 2703
+order = 2707
 uses = ["sk-d-operator", "sk-d-relative-frob", "sk-d-six", "sk-d-weil", "sk-i-relative-frob", "sk-i-topology"]
 lean = ["AlgebraicGeometry.ProEtale.WeilComplex.lowerShriekPush"]
 tags = ["sketch"]

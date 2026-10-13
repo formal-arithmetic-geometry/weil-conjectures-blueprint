@@ -2,7 +2,7 @@
 id = "sbc-thm-algebraically-closed-invariance"
 kind = "theorem"
 title = "Invariance under extension of algebraically closed fields"
-order = 1466
+order = 1467
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-scheme-conventions", "thm-sc-constant-invariance"]
 +++
 Let $k\subseteq k'$ be algebraically closed, let $C$ be a

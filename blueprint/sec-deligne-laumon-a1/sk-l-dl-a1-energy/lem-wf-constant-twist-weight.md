@@ -2,7 +2,7 @@
 id = "lem-wf-constant-twist-weight"
 kind = "lemma"
 title = "Weight of a constant twist"
-order = 3103
+order = 3107
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsPunctuallyPureOfWeight.constantTwist"]
 +++

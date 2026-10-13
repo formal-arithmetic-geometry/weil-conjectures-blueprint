@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-symmetric-product-p1"
 kind = "lemma"
 title = "Symmetric product map"
-order = 1262
+order = 1263
 uses = ["cor-pqf-proper-quasifinite-finite", "lemma-weil-pbc-cancellation", "lemma-weil-pbc-composition", "prop-weil-pbc-finite-morphism"]
 +++
 For $n\geq1$ the formula

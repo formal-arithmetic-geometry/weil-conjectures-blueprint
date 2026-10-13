@@ -2,7 +2,7 @@
 id = "lem-wf-affine-nullstellensatz-vanishing"
 kind = "lemma"
 title = "Residue fields of closed points and the vanishing principle"
-order = 2824
+order = 2828
 +++
 Let $k$ be an algebraically closed field and $A$ a finitely generated
 commutative $k$-algebra, $X=\operatorname{Spec}A$.

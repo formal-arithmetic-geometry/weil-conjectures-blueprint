@@ -2,7 +2,7 @@
 id = "lem-sfb-module-upper-star-kflat-quasi-iso"
 kind = "lemma"
 title = "The pullback of module objects preserves K-flat quasi-isomorphisms"
-order = 1697
+order = 1701
 uses = ["sk-def-sfb-module-pushforward-pullback", "sk-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.preservesKFlatQuasiIso_upperStar"]
 +++

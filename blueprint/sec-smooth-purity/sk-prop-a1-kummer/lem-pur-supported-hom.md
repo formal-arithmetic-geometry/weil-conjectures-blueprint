@@ -2,7 +2,7 @@
 id = "lem-pur-supported-hom"
 kind = "lemma"
 title = "Supported cohomology as morphisms"
-order = 2280
+order = 2284
 uses = ["def-pur-flasque-support", "def-pur-support-cohomology", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties"]
 +++
 Let $i:Z\hookrightarrow X$ be a

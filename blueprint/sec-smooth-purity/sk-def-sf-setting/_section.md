@@ -1,8 +1,8 @@
 +++
 id = "sk-def-sf-setting"
-kind = "remark"
+kind = "definition"
 title = "Coefficients and sites"
-order = 1806
+order = 1810
 lean = ["AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructible", "AlgebraicGeometry.Etale.DerivedCategory.boundedConstructibleFiniteTor", "AlgebraicGeometry.Etale.constantComplex"]
 tags = ["sketch"]
 +++

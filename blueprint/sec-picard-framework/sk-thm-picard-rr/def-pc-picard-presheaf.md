@@ -3,7 +3,7 @@ id = "def-pc-picard-presheaf"
 kind = "definition"
 title = "The Picard presheaf"
 order = 729
-uses = ["def-pc-base-change", "def-sc-picard-group", "rem-pc-sc-modules"]
+uses = ["def-pc-base-change", "def-sc-picard-group", "def-sc-invertible-module"]
 +++
 Let $f:X\to S$ be a morphism of schemes. The *Picard presheaf* is
 

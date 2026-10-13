@@ -2,7 +2,7 @@
 id = "lem-pod-finite-projective-tensor-hom"
 kind = "lemma"
 title = "Internal Hom with a finite projective module"
-order = 2584
+order = 2588
 uses = ["def-pod-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-geometric-hypotheses", "def-weil-pbc-proetale-site"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), let

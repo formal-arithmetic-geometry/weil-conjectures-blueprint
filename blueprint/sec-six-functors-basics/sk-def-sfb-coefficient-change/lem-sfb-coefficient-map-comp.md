@@ -2,7 +2,7 @@
 id = "lem-sfb-coefficient-map-comp"
 kind = "lemma"
 title = "The coefficient change of a composite"
-order = 1719
+order = 1723
 uses = ["def-sfb-coefficient-map"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientMap_comp"]
 +++

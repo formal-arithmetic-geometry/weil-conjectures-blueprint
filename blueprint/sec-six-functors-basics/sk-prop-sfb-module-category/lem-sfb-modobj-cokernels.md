@@ -2,7 +2,7 @@
 id = "lem-sfb-modobj-cokernels"
 kind = "lemma"
 title = "Cokernels of module objects are computed in $\\mathcal C$"
-order = 1568
+order = 1572
 uses = ["sk-def-sfb-module-objects"]
 lean = ["CategoryTheory.Mod.isColimitCokernelCofork"]
 +++

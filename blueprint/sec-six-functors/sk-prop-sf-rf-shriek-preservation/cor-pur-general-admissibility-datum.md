@@ -2,7 +2,7 @@
 id = "cor-pur-general-admissibility-datum"
 kind = "theorem"
 title = "Preservation for a general separated finite-type morphism"
-order = 2419
+order = 2423
 tags = ["latex:corollary"]
 uses = ["cor-sf-ambient-adjoint-discharge", "def-pur-conventions", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-scheme-morphism-properties", "lem-exc-open-complement-known", "thm-pur-general-admissibility"]
 +++

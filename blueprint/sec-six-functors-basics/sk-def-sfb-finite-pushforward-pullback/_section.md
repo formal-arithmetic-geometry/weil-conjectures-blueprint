@@ -2,7 +2,7 @@
 id = "sk-def-sfb-finite-pushforward-pullback"
 kind = "definition"
 title = "Pushforward and pullback along base change (finite coefficients)"
-order = 1504
+order = 1508
 uses = ["def-weil-pbc-proetale-site", "sk-def-sfb-sheaf-tensor"]
 lean = ["AlgebraicGeometry.ProEtale.lowerStar", "AlgebraicGeometry.ProEtale.upperStar", "AlgebraicGeometry.ProEtale.upperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_upperStar", "AlgebraicGeometry.ProEtale.lowerStarId", "AlgebraicGeometry.ProEtale.lowerStarComp", "AlgebraicGeometry.ProEtale.upperStarComp", "AlgebraicGeometry.ProEtale.laxMonoidal_lowerStar", "AlgebraicGeometry.ProEtale.laxBraided_lowerStar", "AlgebraicGeometry.ProEtale.isIso_η_upperStar", "AlgebraicGeometry.ProEtale.isIso_δ_upperStar", "AlgebraicGeometry.ProEtale.monoidal_upperStar", "AlgebraicGeometry.ProEtale.laxBraided_upperStar", "AlgebraicGeometry.ProEtale.isMonoidal_upperStarLowerStarAdjunction"]
 tags = ["sketch"]
