@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-rational-transport"
 kind = "theorem"
 title = "Functorial transport to a finite field"
-order = 1365
+order = 1366
 uses = ["def-weil-pbc-rational-category"]
 tags = ["latex:proposition"]
 +++

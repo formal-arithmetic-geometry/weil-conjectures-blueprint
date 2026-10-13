@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-finite-reduction-reconstruction"
 kind = "lemma"
 title = "Finite reduction of reconstruction"
-order = 1316
+order = 1317
 uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "prop-weil-pbc-koszul-reconstruction", "prop-weil-pbc-roos-triangle"]
 +++
 For every $a\geq1$, the derived counit from inverse limit to evaluation

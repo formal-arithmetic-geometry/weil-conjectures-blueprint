@@ -2,7 +2,7 @@
 id = "def-kun-torsion-invertible"
 kind = "definition"
 title = "Torsion objects and orders invertible in a field"
-order = 2023
+order = 2027
 uses = ["def-weil-pbc-etale-sheaves"]
 +++
 For an etale abelian sheaf $F$ and $n\ge1$ write

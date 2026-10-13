@@ -2,7 +2,7 @@
 id = "def-pur-triangle-meaning"
 kind = "definition"
 title = "Canonicality, functoriality and etale base change of the triangle"
-order = 2272
+order = 2276
 uses = ["def-pur-support-triangle", "def-weil-scheme-morphism-properties"]
 +++
 For the support-localization triangle,

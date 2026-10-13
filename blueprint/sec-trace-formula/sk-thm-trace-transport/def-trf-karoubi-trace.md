@@ -2,7 +2,7 @@
 id = "def-trf-karoubi-trace"
 kind = "definition"
 title = "Trace on a Karoubi summand"
-order = 2737
+order = 2741
 uses = ["def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-weil-algebraically-closed-coefficients", "def-weil-finite-field-fiber", "def-weil-pbc-qbar-category"]
 +++
 Fix the global finite-field datum

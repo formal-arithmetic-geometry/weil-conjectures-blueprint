@@ -2,7 +2,7 @@
 id = "def-wf-simple-module"
 kind = "definition"
 title = "Simple algebraic-group module"
-order = 2800
+order = 2804
 uses = ["def-wf-algebraic-representations"]
 +++
 An algebraic-group module

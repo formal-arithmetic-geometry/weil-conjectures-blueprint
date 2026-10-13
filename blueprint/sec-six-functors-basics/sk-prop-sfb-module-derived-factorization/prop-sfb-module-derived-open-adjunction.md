@@ -2,7 +2,7 @@
 id = "prop-sfb-module-derived-open-adjunction"
 kind = "proposition"
 title = "Derived adjunction $D(j_!)\\dashv D(j^*)$ on module objects"
-order = 1706
+order = 1710
 uses = ["def-sfb-module-open-lower-shriek", "def-sfb-module-open-lower-shriek-adjunction", "sk-prop-sfb-module-pullback-exact", "sk-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionLowerShriekUpperStarAdjunction"]
 +++

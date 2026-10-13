@@ -2,7 +2,7 @@
 id = "prop-zl-smooth-proper-relative-purity"
 kind = "theorem"
 title = "Relative smooth-proper purity"
-order = 3207
+order = 3211
 tags = ["latex:proposition"]
 uses = ["cor-cbc-proper-coincidence", "cor-weil-pbc-geometric-fiber-finite", "cor-weil-pbc-geometric-fiber-qbar", "cor-zl-rfshriek-sheaf", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-sf-tensor-hom", "lem-sf-twist-interchange", "lem-wf-tate-twist-frobenius", "prop-weil-operations", "prop-weil-proet-finite-proper-base-change", "sbc-thm-smooth-base-change", "thm-fin-proper-constructibility-complete", "thm-pur-rational-and-qbar-purity"]
 +++

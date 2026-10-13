@@ -2,7 +2,7 @@
 id = "sk-prop-euler"
 kind = "proposition"
 title = "Closed-point Euler product and integrality"
-order = 3215
+order = 3219
 lean = ["AlgebraicGeometry.Scheme.Hom.pointCount_eq_sum", "AlgebraicGeometry.Scheme.Hom.zetaSeries_eq_tprod", "AlgebraicGeometry.Scheme.Hom.exists_int_zetaSeries"]
 uses = ["sk-def-zeta"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-thm-smooth-purity"
 kind = "theorem"
 title = "Finite-coefficient smooth purity"
-order = 2348
+order = 2352
 uses = ["sk-def-purity-conv", "sk-lem-diag-reg", "sk-prop-an", "sk-prop-cohsm", "sk-thm-dnc"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_twistShift", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_twistShift"]
 tags = ["sketch"]

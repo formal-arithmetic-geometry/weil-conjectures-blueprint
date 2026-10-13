@@ -2,7 +2,7 @@
 id = "lem-a1-middle-extension-endpoints"
 kind = "lemma"
 title = "Degree zero and degree two"
-order = 3076
+order = 3080
 uses = ["def-weil-frobenius-module-weights", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-fundamental-representation", "def-wf-middle-extension", "lem-a1-affine-hc0", "lem-a1-affine-hc2", "lem-a1-geometric-coinvariants-pure", "lem-wf-tate-twist-frobenius", "lem-zl-affine-curve-range", "prop-a1-curve-boundary-sequence"]
 lean = ["AlgebraicGeometry.subsingleton_compactlySupportedCohomology_directImage", "AlgebraicGeometry.subsingleton_compactlySupportedCohomology_directImage_zero", "AlgebraicGeometry.nonempty_equiv_compactlySupportedCohomology_directImage_two", "AlgebraicGeometry.isPureOfWeightOver_compactlySupportedCohomology_directImage_two"]
 +++

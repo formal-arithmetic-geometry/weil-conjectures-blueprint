@@ -2,7 +2,7 @@
 id = "lem-pod-cohomology-of-dual-over-field"
 kind = "lemma"
 title = "Cohomology of the dual of a finite complex over a field"
-order = 2779
+order = 2783
 uses = ["def-pod-perfect-point-complex", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "prop-pod-biduality-at-the-point"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), let $C$ be a bounded complex of finite-dimensional $E$-vector spaces, and let $C^\vee =R\operatorname {Hom}_E(C,E)$. The canonical evaluation $C\otimes _E^LC^\vee \to E$ induces perfect pairings

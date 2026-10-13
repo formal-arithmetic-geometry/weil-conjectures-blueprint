@@ -2,7 +2,7 @@
 id = "lem-cbc-extension-zero-base-change"
 kind = "lemma"
 title = "Extension by zero commutes with arbitrary base change"
-order = 1880
+order = 1884
 uses = ["def-cbc-open-immersion-square", "def-weil-pbc-extension-by-zero", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let

@@ -2,7 +2,7 @@
 id = "def-kun-tor-amplitude"
 kind = "definition"
 title = "Tor amplitude"
-order = 2029
+order = 2033
 +++
 Let $T$ be a scheme, $\Lambda$ a commutative ring, and
 $E\in D(T_{\Et},\Lambda)$, $a,b\in\mathbf Z$. The object $E$ has

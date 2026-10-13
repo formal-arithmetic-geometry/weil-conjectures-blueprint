@@ -2,7 +2,7 @@
 id = "sk-d-central"
 kind = "definition"
 title = "Positive central pairs"
-order = 2864
+order = 2868
 uses = ["sk-d-geometry", "sk-d-monodromy"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-prop-criterion"
 kind = "proposition"
 title = "Rationality criterion"
-order = 3224
+order = 3228
 lean = ["PowerSeries.exists_normalized_fraction_iff_finiteDimensional_shiftSpan"]
 uses = ["sk-def-roots"]
 tags = ["sketch"]

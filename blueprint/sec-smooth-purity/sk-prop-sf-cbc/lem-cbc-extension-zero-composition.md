@@ -2,7 +2,7 @@
 id = "lem-cbc-extension-zero-composition"
 kind = "lemma"
 title = "Composition of open immersions"
-order = 1928
+order = 1932
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
 +++
 For composable

@@ -2,7 +2,7 @@
 id = "lem-a1-weight-bound-constant-extension"
 kind = "lemma"
 title = "Weight bounds over a finite constant-field extension"
-order = 3142
+order = 3146
 uses = ["def-weil-frobenius-module-weights"]
 +++
 Let $k_0=\mathbf F_q$, let $k'_0=\mathbf F_{q^m}$ be a finite

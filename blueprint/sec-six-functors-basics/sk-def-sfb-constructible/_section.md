@@ -2,7 +2,7 @@
 id = "sk-def-sfb-constructible"
 kind = "definition"
 title = "Locally finitely presented and constructible modules"
-order = 1633
+order = 1637
 uses = ["def-weil-pbc-proetale-site", "def-constructible-stratification", "sk-def-sfb-transport"]
 lean = ["CategoryTheory.Mod.IsFinitelyPresented", "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented", "AlgebraicGeometry.ProEtale.IsConstructible"]
 tags = ["sketch"]

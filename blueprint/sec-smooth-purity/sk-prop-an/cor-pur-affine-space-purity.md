@@ -2,7 +2,7 @@
 id = "cor-pur-affine-space-purity"
 kind = "theorem"
 title = "Affine-space purity"
-order = 2318
+order = 2322
 tags = ["latex:corollary"]
 uses = ["def-coefficient-twists-detailed", "def-pur-affine-space-comparison", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-pur-affine-space-composition-law", "thm-pur-affine-line-purity"]
 +++

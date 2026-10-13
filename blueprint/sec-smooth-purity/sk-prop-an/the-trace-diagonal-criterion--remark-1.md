@@ -1,7 +1,7 @@
 +++
 id = "the-trace-diagonal-criterion--remark-1"
 kind = "remark"
-order = 2323
+order = 2327
 +++
 The criterion contains the complete categorical part of the
 argument. It is an assertion about ordinary functors between

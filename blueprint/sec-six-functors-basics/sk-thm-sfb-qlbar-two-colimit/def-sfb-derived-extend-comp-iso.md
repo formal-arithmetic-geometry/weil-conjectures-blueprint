@@ -2,7 +2,7 @@
 id = "def-sfb-derived-extend-comp-iso"
 kind = "definition"
 title = "Transitivity $T_{F,\\Qlb}\\circ T_{E,F}\\cong T_{E,\\Qlb}$"
-order = 1757
+order = 1761
 uses = ["def-sfb-derived-extend-subfield", "def-sfb-derived-extend-to-qlbar"]
 lean = ["AlgebraicGeometry.ProEtale.derivedExtendScalarsCompIso"]
 +++

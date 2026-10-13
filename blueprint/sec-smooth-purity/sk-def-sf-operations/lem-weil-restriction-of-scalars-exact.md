@@ -2,7 +2,7 @@
 id = "lem-weil-restriction-of-scalars-exact"
 kind = "lemma"
 title = "Exactness of restriction of scalars"
-order = 1811
+order = 1815
 uses = ["def-weil-completed-integral-coefficients", "def-weil-pbc-proetale-site"]
 +++
 Fix a prime $\ell\neq p$, a finite extension $E/\Ql$ with valuation ring

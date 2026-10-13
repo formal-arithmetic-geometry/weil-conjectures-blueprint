@@ -2,7 +2,7 @@
 id = "prop-kernel-lisse"
 kind = "theorem"
 title = "P1: the kernel is a lisse rank-one character sheaf"
-order = 3035
+order = 3039
 lean = ["AlgebraicGeometry.Etale.artinSchreierSheafMulIso", "AlgebraicGeometry.Etale.artinSchreierSheafInvIso", "AlgebraicGeometry.Etale.isLocallyConstantSheaf_artinSchreierSheaf"]
 uses = ["def-fd-kernel", "def-weil-finite-tor-amplitude", "lem-fd-as-lisse"]
 tags = ["latex:proposition"]

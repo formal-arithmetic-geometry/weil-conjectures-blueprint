@@ -2,7 +2,7 @@
 id = "lem-weil-extension-by-zero-exact"
 kind = "lemma"
 title = "Exactness of extension by zero"
-order = 1847
+order = 1851
 uses = ["def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Let $A$ be a finite commutative ring. Let $j:U\hookrightarrow\overline X$ be

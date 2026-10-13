@@ -2,7 +2,7 @@
 id = "lem-sf-derived-homology-long-exact"
 kind = "lemma"
 title = "Long exact cohomology sequence of a distinguished triangle in the derived category"
-order = 1273
+order = 1274
 uses = ["def-weil-abstract-derived-category", "def-weil-triangulated-category"]
 lean = ["DerivedCategory.HomologySequence.exact₂"]
 tags = ["mathlib", "stacks-05RS"]

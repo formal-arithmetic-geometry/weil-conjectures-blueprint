@@ -2,7 +2,7 @@
 id = "prop-constructible-generic-constancy"
 kind = "theorem"
 title = "Generic constancy"
-order = 1234
+order = 1235
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.exists_dense_open", "AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.of_openCover", "Topology.Stratification.dense_iUnion_interior_stratum"]
 tags = ["latex:proposition"]
 uses = ["def-constructible-constructible", "def-constructible-finite-locally-constant", "def-constructible-stratification", "prop-constructible-pullback"]

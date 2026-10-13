@@ -2,8 +2,8 @@
 id = "rem-ptr-weil-exceptional-inverse-image-16"
 kind = "remark"
 title = "Constructible exceptional inverse images at all coefficient stages"
-order = 2546
-uses = ["def-weil-exceptional-inverse-image", "lem-coef-finite-exceptional", "lem-coef-rational-operations", "prop-coef-integral-exceptional-adjoint", "rem-sf-class-adjoint-residue", "thm-coef-qbar-verdier"]
+order = 2550
+uses = ["def-weil-exceptional-inverse-image", "lem-coef-finite-exceptional", "lem-coef-rational-operations", "prop-coef-integral-exceptional-adjoint", "thm-coef-qbar-verdier"]
 +++
 The exceptional inverse image of
 [def-weil-exceptional-inverse-image] has finite coefficient

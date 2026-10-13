@@ -2,7 +2,7 @@
 id = "sk-prop-sfb-finite-extension-compatibility"
 kind = "proposition"
 title = "Compatibility for $E\\subseteq F$ and $E\\subseteq\\Qlb$"
-order = 1744
+order = 1748
 uses = ["sk-def-sfb-coefficient-comparisons"]
 lean = ["AlgebraicGeometry.ProEtale.padicSubfieldRingObjMap", "AlgebraicGeometry.ProEtale.padicSubfieldRingObjToPadicAlgCl", "AlgebraicGeometry.ProEtale.padicSubfieldRingObjMap_comp_toPadicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_extendScalars_padicSubfieldRingObjMap", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_extendScalars_padicSubfieldRingObjToPadicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_padicSubfieldRingObjMap", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_padicSubfieldRingObjToPadicAlgCl_of_isProper"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-derived-product-representation"
 kind = "theorem"
 title = "Representation of the derived product of a tower"
-order = 1311
+order = 1312
 uses = ["def-weil-derived-limit", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-kinjective-resolutions", "lem-weil-derived-limit-existence"]
 tags = ["latex:proposition"]
 +++

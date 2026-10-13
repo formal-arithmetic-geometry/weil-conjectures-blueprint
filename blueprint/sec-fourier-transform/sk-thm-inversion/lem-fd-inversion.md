@@ -2,7 +2,7 @@
 id = "lem-fd-inversion"
 kind = "theorem"
 title = "Fourier inversion"
-order = 3056
+order = 3060
 lean = ["AlgebraicGeometry.Etale.fourierTransformInversionIso", "AlgebraicGeometry.Etale.fourierTransformSquareIso"]
 uses = ["def-fd-transform", "def-wf-tate-twist", "lem-fd-convolution-kernel", "lem-fd-kernel-composition", "prop-functor-package"]
 +++

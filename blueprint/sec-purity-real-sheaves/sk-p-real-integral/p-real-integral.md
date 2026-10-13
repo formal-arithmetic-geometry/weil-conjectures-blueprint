@@ -2,7 +2,7 @@
 id = "p-real-integral"
 kind = "theorem"
 title = "Integral models"
-order = 2936
+order = 2940
 uses = ["def-wf-fundamental-representation", "lem-wf-weil-fundamental-representation", "lem-wf-weil-group-exact-sequence", "prop-wf-weil-sheaf-representation-equivalence"]
 tags = ["latex:proposition"]
 +++

@@ -2,7 +2,7 @@
 id = "prop-pur-affine-line-orientation-base-change"
 kind = "theorem"
 title = "Base change of the global orientation"
-order = 2293
+order = 2297
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-pur-affine-line-datum", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-exceptional-adjoint-admissibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-gysin-structure", "lem-pur-kummer-coefficient-base-change", "prop-pur-affine-line-orientation-uniqueness", "thm-pur-affine-line-orientation", "thm-pur-rank-one-local-calculation"]
 +++

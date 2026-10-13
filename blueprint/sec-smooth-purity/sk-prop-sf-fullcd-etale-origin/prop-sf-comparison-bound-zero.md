@@ -2,7 +2,7 @@
 id = "prop-sf-comparison-bound-zero"
 kind = "theorem"
 title = "The comparison bound on coefficients of étale origin is $M=0$"
-order = 2139
+order = 2143
 tags = ["latex:proposition"]
 uses = ["def-sf-fullcd-used-class", "def-weil-full-cohomological-dimension", "def-weil-pbc-etale-sheaves", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-sf-proetale-constructible-origin", "thm-sf-fullcd-etale-origin", "thm-sp-grothendieck"]
 +++

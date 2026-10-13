@@ -2,7 +2,7 @@
 id = "def-weil-pbc-w-localization"
 kind = "definition"
 title = "The affine w-localization"
-order = 1289
+order = 1290
 uses = ["def-weil-pbc-ind-etale-algebra", "def-weil-pbc-w-local"]
 +++
 For a ring $A$, consider finite partitions $\mathcal P$ of

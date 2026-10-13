@@ -2,7 +2,7 @@
 id = "lem-kun-fibre-product-limits"
 kind = "lemma"
 title = "Fibre products commute with inverse limits"
-order = 2003
+order = 2007
 +++
 Let $(X_i\to S_i\leftarrow Y_i)_{i\in I}$ be a compatible inverse
 system of schemes, and suppose all indicated inverse limits exist.

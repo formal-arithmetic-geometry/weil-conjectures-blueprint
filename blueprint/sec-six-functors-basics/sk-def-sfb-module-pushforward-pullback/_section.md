@@ -2,7 +2,7 @@
 id = "sk-def-sfb-module-pushforward-pullback"
 kind = "definition"
 title = "Pushforward and pullback of module objects"
-order = 1681
+order = 1685
 uses = ["sk-def-sfb-transport"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.lowerStar", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_lowerStar", "AlgebraicGeometry.ProEtale.CondensedRing.upperStar", "AlgebraicGeometry.ProEtale.CondensedRing.upperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.isMonoidal_lowerStarComp", "AlgebraicGeometry.ProEtale.CondensedRing.lowerStarComp", "AlgebraicGeometry.ProEtale.CondensedRing.upperStarComp"]
 tags = ["sketch"]

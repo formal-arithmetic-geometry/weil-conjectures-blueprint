@@ -2,7 +2,7 @@
 id = "prop-sfb-module-derived-open-adjunction-plus"
 kind = "proposition"
 title = "Bounded below adjunction $D^+(j_!)\\dashv D^+(j^*)$"
-order = 1707
+order = 1711
 uses = ["prop-sfb-module-derived-open-adjunction"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionLowerShriekUpperStarAdjunctionPlus"]
 +++

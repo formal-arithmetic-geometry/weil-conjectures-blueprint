@@ -1,8 +1,8 @@
 +++
 id = "sk-rem-sf-pf-done"
-kind = "remark"
+kind = "theorem"
 title = "The interface is discharged"
-order = 2443
+order = 2447
 tags = ["sketch"]
 +++
 By [sk-thm-sf-pf-finite], [sk-prop-sf-pf-reduction],

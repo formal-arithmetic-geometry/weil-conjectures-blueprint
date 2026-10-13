@@ -2,7 +2,7 @@
 id = "lem-pur-support-exact"
 kind = "lemma"
 title = "The exact sequence of supported sections for injective objects"
-order = 2270
+order = 2274
 uses = ["def-pur-flasque-support", "def-weil-open-closed-recollement", "def-weil-pbc-kinjective-resolutions"]
 +++
 For the closed–open pair of

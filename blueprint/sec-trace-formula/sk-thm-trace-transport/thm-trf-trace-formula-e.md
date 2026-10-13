@@ -2,7 +2,7 @@
 id = "thm-trf-trace-formula-e"
 kind = "theorem"
 title = "Trace formula over a finite extension"
-order = 2736
+order = 2740
 uses = ["def-trf-adic-system", "def-trf-admissibility", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-weil-cohomological-support", "def-weil-derived-complete-integral-detailed", "def-weil-finite-field-fiber", "def-weil-integral-rational-qbar-compact-support", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-rational-category", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "lem-trf-chain-supertrace", "prop-trf-adic-coefficient-morphism-systems", "prop-trf-rational-frobenius-integral-model", "prop-trf-trace-formal-laws", "prop-weil-pbc-rational-transport", "thm-trf-coefficient-morphism-trace-formula", "thm-trf-integral-adic-coefficient-morphism-trace-formula"]
 +++
 Fix the global finite-field datum

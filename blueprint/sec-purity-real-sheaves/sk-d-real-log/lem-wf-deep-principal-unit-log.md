@@ -2,7 +2,7 @@
 id = "lem-wf-deep-principal-unit-log"
 kind = "lemma"
 title = "The logarithm on sufficiently deep principal units"
-order = 2955
+order = 2959
 +++
 Let $E/\mathbf Q_\ell$ be finite, with valuation ring
 $\mathcal O_E$, maximal ideal $\mathfrak m_E$, and normalized valuation

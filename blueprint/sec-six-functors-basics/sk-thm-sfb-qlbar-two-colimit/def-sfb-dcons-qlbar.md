@@ -2,7 +2,7 @@
 id = "def-sfb-dcons-qlbar"
 kind = "definition"
 title = "$D_{\\mathrm{cons}}(X,\\Qlb)$"
-order = 1759
+order = 1763
 uses = ["sk-def-sfb-bounded-constructible", "def-sfb-subfield-to-qlbar-coefficient-map"]
 lean = ["AlgebraicGeometry.ProEtale.PadicAlgClConstructible"]
 +++

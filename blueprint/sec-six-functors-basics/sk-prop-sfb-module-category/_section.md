@@ -2,7 +2,7 @@
 id = "sk-prop-sfb-module-category"
 kind = "proposition"
 title = "Structure of $\\Mod_{\\mathcal R}(\\mathcal C)$"
-order = 1565
+order = 1569
 uses = ["sk-def-sfb-module-objects"]
 lean = ["CategoryTheory.Mod.instFaithfulForget_weilConjectures", "CategoryTheory.Mod.isLimitKernelFork", "CategoryTheory.Mod.isColimitCokernelCofork", "CategoryTheory.Mod.instAbelian_weilConjectures", "CategoryTheory.Mod.instPreservesFiniteLimitsForget_weilConjectures", "CategoryTheory.Mod.instPreservesFiniteColimitsForget_weilConjectures", "CategoryTheory.Mod.fullyFaithfulToBimod", "Bimod.IsSymmetric.iso", "Bimod.IsSymmetric.tensorBimod", "CategoryTheory.Mod.monoidalCategory", "CategoryTheory.Mod.symmetricCategory", "CategoryTheory.Mod.braidedCategory", "CategoryTheory.Mod.monoidalClosed", "CategoryTheory.Mod.isGrothendieckAbelian", "CategoryTheory.Mod.hasFunctorialFlatResolution"]
 tags = ["sketch"]

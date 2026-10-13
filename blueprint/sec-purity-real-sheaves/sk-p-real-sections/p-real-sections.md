@@ -2,7 +2,7 @@
 id = "p-real-sections"
 kind = "theorem"
 title = "Global sections as invariants"
-order = 2934
+order = 2938
 uses = ["def-real-weil-representation-operations", "def-wf-fundamental-representation", "def-wf-weil-group", "lem-wf-weil-group-exact-sequence", "prop-wf-weil-sheaf-representation-equivalence"]
 tags = ["latex:proposition"]
 +++

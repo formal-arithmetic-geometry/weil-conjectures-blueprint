@@ -2,7 +2,7 @@
 id = "lem-sfb-derived-monoidal-closed"
 kind = "lemma"
 title = "The derived category of a closed monoidal Grothendieck abelian category is closed"
-order = 1612
+order = 1616
 uses = ["lem-sfb-derived-monoidal"]
 lean = ["DerivedCategory.monoidalClosed"]
 +++

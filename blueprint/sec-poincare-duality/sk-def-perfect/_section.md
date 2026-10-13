@@ -2,7 +2,7 @@
 id = "sk-def-perfect"
 kind = "definition"
 title = "Perfectness at the point and on $X$"
-order = 2752
+order = 2756
 uses = ["sk-def-ops"]
 lean = ["CategoryTheory.IsDualizable"]
 tags = ["sketch"]

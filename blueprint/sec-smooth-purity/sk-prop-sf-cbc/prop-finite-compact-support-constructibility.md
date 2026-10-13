@@ -2,7 +2,7 @@
 id = "prop-finite-compact-support-constructibility"
 kind = "theorem"
 title = "Finite-level bounded constructibility for proper support"
-order = 1986
+order = 1990
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-fin-extension-by-zero", "obl-fin-comparison", "prop-weil-pbc-comparison-direct-image", "sbc-thm-finiteness-finite-type", "thm-constructible-serre"]
 +++

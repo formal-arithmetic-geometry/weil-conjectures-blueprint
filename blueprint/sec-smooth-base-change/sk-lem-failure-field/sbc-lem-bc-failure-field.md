@@ -2,7 +2,7 @@
 id = "sbc-lem-bc-failure-field"
 kind = "lemma"
 title = "A failure is detected on the generic fibre"
-order = 1447
+order = 1448
 uses = ["sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-injectivity", "sbc-lem-bc-minimal-counterexample", "sbc-lem-higher-direct-image-limit", "sbc-lem-thickening-etale-site"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] assume for

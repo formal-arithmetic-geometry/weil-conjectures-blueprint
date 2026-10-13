@@ -2,7 +2,7 @@
 id = "def-sfb-dc-lower-star"
 kind = "definition"
 title = "$Rf_*$ on $D_{\\mathrm{cons}}$"
-order = 1778
+order = 1782
 uses = ["lem-sfb-dc-lower-star-preserves", "sk-def-sfb-dc-setting", "sk-def-sfb-module-derived-pushpull"]
 +++
 Let $f\colon X\to Y$ be a morphism of the setting of [sk-def-sfb-dc-setting], and let $\Lambda$

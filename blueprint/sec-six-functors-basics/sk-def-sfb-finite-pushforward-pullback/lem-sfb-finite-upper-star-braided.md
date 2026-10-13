@@ -2,7 +2,7 @@
 id = "lem-sfb-finite-upper-star-braided"
 kind = "lemma"
 title = "$g^*$ is symmetric monoidal"
-order = 1515
+order = 1519
 uses = ["def-sfb-finite-lower-star-lax-monoidal", "def-sfb-finite-upper-star-monoidal"]
 lean = ["AlgebraicGeometry.ProEtale.laxBraided_upperStar"]
 +++

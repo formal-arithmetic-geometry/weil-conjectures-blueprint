@@ -2,7 +2,7 @@
 id = "lem-exc-direct-image-coproducts"
 kind = "lemma"
 title = "Finite cohomological dimension gives derived coproduct compatibility"
-order = 1910
+order = 1914
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-direct-image-filtered-colimit"]
 +++
 Let $u:U\to T$ be

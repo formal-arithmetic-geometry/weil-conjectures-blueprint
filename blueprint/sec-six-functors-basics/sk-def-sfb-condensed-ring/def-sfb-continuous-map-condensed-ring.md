@@ -2,7 +2,7 @@
 id = "def-sfb-continuous-map-condensed-ring"
 kind = "definition"
 title = "The condensed ring of continuous maps"
-order = 1519
+order = 1523
 uses = ["sk-def-sfb-ring-object"]
 lean = ["Profinite.continuousMapRingSheaf", "Profinite.continuousMapRingObj"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-def-frobmod"
 kind = "definition"
 title = "Frobenius modules and their trace series"
-order = 2727
+order = 2731
 lean = ["LinearMap.traceSeries", "LinearMap.alternatingTraceSeries"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-wf-conjugate-tensor-traces"
 kind = "lemma"
 title = "The conjugate-tensor trace identity"
-order = 3101
+order = 3105
 uses = ["cor-rp-euler-product", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "lem-zl-log-det-identity"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.traceFunction_tensorObj_and_l2Series_mul_lSeries"]
 +++

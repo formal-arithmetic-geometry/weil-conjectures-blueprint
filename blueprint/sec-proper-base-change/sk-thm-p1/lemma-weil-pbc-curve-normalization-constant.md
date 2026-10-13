@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-curve-normalization-constant"
 kind = "lemma"
 title = "Normalization and smooth constant case"
-order = 1247
+order = 1248
 uses = ["lemma-weil-pbc-curve-dense-open-reduction", "lemma-weil-pbc-normalization-exact-sequence", "lemma-weil-pbc-smooth-curve-artin-schreier", "lemma-weil-pbc-smooth-curve-kummer-localization"]
 +++
 Let $X$ be a reduced separated curve of finite type over an algebraically

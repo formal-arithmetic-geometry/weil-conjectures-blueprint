@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-extension"
 kind = "definition"
 title = "Extension of scalars"
-order = 1582
+order = 1586
 uses = ["lem-sfb-modobj-symmetric-bimodules", "sk-def-sfb-module-objects"]
 lean = ["CategoryTheory.Mod.extendScalars"]
 +++

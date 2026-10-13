@@ -2,7 +2,7 @@
 id = "def-mg-determinant-line"
 kind = "definition"
 title = "Determinant line"
-order = 2859
+order = 2863
 uses = ["def-wf-fundamental-representation", "def-wf-weil-category"]
 +++
 If $\mathcal V$ is a rank-$r$ lisse

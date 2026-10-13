@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-derived-inverse-limit-computation"
 kind = "theorem"
 title = "Computation of the sequential derived inverse limit"
-order = 1308
+order = 1309
 uses = ["def-weil-derived-limit", "def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-derived-inverse-limit", "def-weil-pbc-kinjective-resolutions", "lem-weil-derived-limit-existence"]
 tags = ["latex:proposition"]
 +++

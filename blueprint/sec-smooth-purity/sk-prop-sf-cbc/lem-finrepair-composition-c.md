@@ -2,7 +2,7 @@
 id = "lem-finrepair-composition-c"
 kind = "lemma"
 title = "Composition for constructibility alone"
-order = 1945
+order = 1949
 uses = ["def-finrepair-property-c", "lem-weil-pbc-grothendieck-spectral-sequence", "thm-constructible-serre"]
 +++
 If $\mathcal C(f)$ and $\mathcal C(g)$ hold for composable

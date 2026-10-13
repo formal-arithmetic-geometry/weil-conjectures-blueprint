@@ -2,7 +2,7 @@
 id = "lem-zl-root-radius-separation"
 kind = "lemma"
 title = "Separation by root radii"
-order = 3177
+order = 3181
 lean = ["Polynomial.isCoprime_of_norm_inv_roots"]
 +++
 Let $A(T),B(T)\in\mathbf C[T]$ be nonzero, and let $R<S$ be real

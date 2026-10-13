@@ -2,7 +2,7 @@
 id = "sbc-lem-degree-zero-flat-base-change"
 kind = "lemma"
 title = "Degree-zero flat base change"
-order = 1438
+order = 1439
 uses = ["def-sbc-normal-dominant-galois", "def-weil-pbc-direct-image", "sbc-def-base-change-square"]
 +++
 Consider a base-change square

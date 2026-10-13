@@ -1,6 +1,6 @@
 +++
 id = "rem-pc-group-structure"
-kind = "remark"
+kind = "definition"
 title = "Group scheme structure"
 order = 845
 +++

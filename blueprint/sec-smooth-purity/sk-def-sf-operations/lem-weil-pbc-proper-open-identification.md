@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proper-open-identification"
 kind = "lemma"
 title = "The specified comparison isomorphism"
-order = 1836
+order = 1840
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-proper-open-comparison", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-clopen-section-direct-image", "lem-weil-pbc-derived-open-restriction", "lem-weil-pbc-proper-open-section"]
 +++
 Let $u:T_1\to T_2$ be proper, let $j_i:X\hookrightarrow T_i$ be

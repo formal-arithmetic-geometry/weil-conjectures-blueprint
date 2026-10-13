@@ -2,7 +2,7 @@
 id = "lem-fin-constructible-devissage"
 kind = "lemma"
 title = "Devissage of a constructible sheaf"
-order = 1879
+order = 1883
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-extension-by-zero", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-coefficient-conventions"]
 +++
 Let $X$ be of finite type over $k$ and let $F$ be a

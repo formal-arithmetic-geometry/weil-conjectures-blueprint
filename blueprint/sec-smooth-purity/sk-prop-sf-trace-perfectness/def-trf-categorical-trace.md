@@ -2,7 +2,7 @@
 id = "def-trf-categorical-trace"
 kind = "definition"
 title = "Perfect complex and its categorical trace"
-order = 2168
+order = 2172
 uses = ["def-trf-coefficient-conventions", "def-weil-derived-tensor", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber"]
 +++
 Fix the global finite-field datum

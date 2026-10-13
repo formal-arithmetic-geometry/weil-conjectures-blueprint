@@ -2,7 +2,7 @@
 id = "lem-fd-realness-pushforward"
 kind = "lemma"
 title = "Reality survives the Fourier projection"
-order = 3113
+order = 3117
 uses = ["cor-trf-point-counting", "def-fd-transform", "def-weil-constructible-heart", "def-wf-iota-real", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-trf-grothendieck-lefschetz-qbar"]
 +++
 Let $k_0=\mathbf F_q$, let

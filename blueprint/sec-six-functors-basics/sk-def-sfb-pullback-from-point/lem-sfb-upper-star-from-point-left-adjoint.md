@@ -2,7 +2,7 @@
 id = "lem-sfb-upper-star-from-point-left-adjoint"
 kind = "lemma"
 title = "$p_X^*$ is a left adjoint"
-order = 1544
+order = 1548
 uses = ["def-sfb-point-adjunction", "def-sfb-upper-star-from-point", "sk-def-sfb-finite-pushforward-pullback"]
 lean = ["AlgebraicGeometry.ProEtale.isLeftAdjoint_upperStarFromPoint"]
 +++

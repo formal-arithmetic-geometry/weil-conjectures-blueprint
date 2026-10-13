@@ -2,7 +2,7 @@
 id = "lem-finrepair-constant-finite-comparison"
 kind = "lemma"
 title = "Constant coefficients under a finite normalization comparison"
-order = 1958
+order = 1962
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-finite-morphism", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-coefficient-conventions", "thm-constructible-serre"]
 +++
 Let $f:X\to S$ be proper between finite-type $k$-schemes and

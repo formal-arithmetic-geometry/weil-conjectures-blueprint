@@ -2,7 +2,7 @@
 id = "lem-exc-dvr-galois"
 kind = "lemma"
 title = "The prime-to-characteristic local Galois calculation"
-order = 2256
+order = 2260
 uses = ["def-exc-continuous-cohomology", "def-weil-pbc-henselian-terminology", "lem-exc-procyclic-two-term"]
 +++
 Let $R$ be an excellent discrete valuation ring which is

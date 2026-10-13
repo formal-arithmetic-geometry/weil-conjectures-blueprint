@@ -2,7 +2,7 @@
 id = "prop-sfb-bounded-constructible-triangulated"
 kind = "proposition"
 title = "Bounded constructible complexes form a triangulated subcategory"
-order = 1640
+order = 1644
 uses = ["def-sfb-bounded-constructible-complexes"]
 lean = ["AlgebraicGeometry.ProEtale.isTriangulated_boundedConstructible"]
 +++

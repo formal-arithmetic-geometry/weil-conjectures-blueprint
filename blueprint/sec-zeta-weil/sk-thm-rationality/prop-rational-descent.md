@@ -2,7 +2,7 @@
 id = "prop-rational-descent"
 kind = "theorem"
 title = "Rational descent of the zeta series"
-order = 3229
+order = 3233
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-hankel-matrix", "def-weil-normalized-integral-fraction", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-weil-rationality-criterion"]
 +++

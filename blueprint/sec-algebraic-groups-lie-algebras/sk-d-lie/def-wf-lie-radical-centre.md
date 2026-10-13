@@ -2,7 +2,7 @@
 id = "def-wf-lie-radical-centre"
 kind = "definition"
 title = "Solvable radical and centre of a Lie algebra"
-order = 2805
+order = 2809
 uses = ["def-wf-lie-algebra", "def-wf-semisimple-lie-algebra"]
 +++
 For a finite-dimensional Lie algebra $\mathfrak g$, its solvable

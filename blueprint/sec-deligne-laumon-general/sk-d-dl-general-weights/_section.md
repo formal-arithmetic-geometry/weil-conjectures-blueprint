@@ -2,7 +2,7 @@
 id = "sk-d-dl-general-weights"
 kind = "definition"
 title = "Mixed upper bounds"
-order = 3150
+order = 3154
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsMixedOfWeightsAtMost", "AlgebraicGeometry.LAdicWeilComplex.IsMixedOfWeightsAtMost"]
 uses = ["sk-d-dl-a1-setup"]
 tags = ["sketch"]

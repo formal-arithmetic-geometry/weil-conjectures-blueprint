@@ -2,7 +2,7 @@
 id = "lem-wf-tensor-weil"
 kind = "lemma"
 title = "Tensor product of Weil complexes"
-order = 2909
+order = 2913
 uses = ["def-wf-tensor-product", "def-wf-weil-category"]
 +++
 The construction of [def-wf-tensor-product] restricts to an exact

@@ -2,7 +2,7 @@
 id = "def-sfb-finite-upper-lower-star-adjunction"
 kind = "definition"
 title = "The adjunction $g^*\\dashv g_*$"
-order = 1507
+order = 1511
 uses = ["def-sfb-finite-lower-star", "def-sfb-finite-upper-star"]
 lean = ["AlgebraicGeometry.ProEtale.upperStarLowerStarAdjunction"]
 +++

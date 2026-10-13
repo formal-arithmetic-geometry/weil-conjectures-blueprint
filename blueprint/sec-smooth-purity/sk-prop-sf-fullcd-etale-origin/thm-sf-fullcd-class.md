@@ -2,7 +2,7 @@
 id = "thm-sf-fullcd-class"
 kind = "theorem"
 title = "The blueprint's coefficient class supplies the restricted datum, with $c=2\\dim\\overline X$"
-order = 2142
+order = 2146
 uses = ["def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-full-cohomological-dimension", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-sf-fullcd-class-restriction", "lem-sf-proetale-constructible-origin", "prop-sf-comparison-bound-zero", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
 +++
 In the setting of [thm-sf-fullcd-used-class] — $k=\Fbar$,

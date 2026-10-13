@@ -2,7 +2,7 @@
 id = "thm-constructible-serre"
 kind = "theorem"
 title = "Constructible sheaves form a weak Serre subcategory"
-order = 1233
+order = 1234
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.biprod", "AlgebraicGeometry.Scheme.IsConstructibleSheaf.cokernel", "AlgebraicGeometry.Scheme.IsConstructibleSheaf.kernel"]
 uses = ["def-constructible-constructible", "def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "lemma-weil-pbc-geometric-stalk-conservative", "prop-constructible-pullback", "prop-weil-pbc-geometric-stalks-exact"]
 +++

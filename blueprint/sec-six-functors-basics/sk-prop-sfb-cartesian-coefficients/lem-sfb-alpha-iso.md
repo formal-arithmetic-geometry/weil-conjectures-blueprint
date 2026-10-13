@@ -2,7 +2,7 @@
 id = "lem-sfb-alpha-iso"
 kind = "lemma"
 title = "$\\alpha_f$ is an isomorphism for every $f$"
-order = 1561
+order = 1565
 uses = ["def-sfb-alpha", "def-sfb-pullback-from-point-comp-iso"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom"]
 +++

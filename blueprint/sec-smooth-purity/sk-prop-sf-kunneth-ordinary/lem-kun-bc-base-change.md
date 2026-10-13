@@ -2,7 +2,7 @@
 id = "lem-kun-bc-base-change"
 kind = "lemma"
 title = "Base change maps are compatible with further base change"
-order = 2093
+order = 2097
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-inverse-image"]
 +++
 Given a

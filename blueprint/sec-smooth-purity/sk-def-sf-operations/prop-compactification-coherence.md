@@ -2,7 +2,7 @@
 id = "prop-compactification-coherence-detailed"
 kind = "theorem"
 title = "Compactification coherence"
-order = 1840
+order = 1844
 tags = ["latex:proposition"]
 uses = ["def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-weil-derived-direct-image-composition", "lem-weil-pbc-proper-open-comparison-proetale", "prop-compactification-refinement"]
 +++

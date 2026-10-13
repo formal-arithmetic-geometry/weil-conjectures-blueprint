@@ -2,7 +2,7 @@
 id = "cor-zl-hasse-weil-general-bound"
 kind = "theorem"
 title = "Hasse–Weil bound in every dimension"
-order = 3254
+order = 3258
 tags = ["latex:corollary"]
 uses = ["cor-trf-point-counting", "cor-zl-hasse-bound", "def-weil-algebraically-closed-coefficients", "def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-reciprocal-roots", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-endpoints", "prop-weight-purity-roots"]
 +++

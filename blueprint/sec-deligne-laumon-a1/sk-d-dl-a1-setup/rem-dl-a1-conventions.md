@@ -1,8 +1,8 @@
 +++
 id = "rem-dl-a1-conventions"
-kind = "remark"
+kind = "definition"
 title = "Affine-line and weight conventions"
-order = 3063
+order = 3067
 uses = ["def-weil-frobenius-detailed", "def-weil-punctual-weights", "def-wf-middle-extension", "def-wf-tate-twist"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsGeometricallyConstant", "AlgebraicGeometry.LAdicWeilSheaf.IsUnramifiedAtInfinity", "AlgebraicGeometry.LAdicWeilSheaf.IsIrreducibleLisse"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-weil-finite-coordinate-detection"
 kind = "lemma"
 title = "Finite coordinates detect a finite-dimensional sequence space"
-order = 3226
+order = 3230
 uses = ["def-weil-field", "def-weil-finite-dimensional-subspace", "def-weil-sequence-subspace"]
 +++
 Let $K$ be a field and

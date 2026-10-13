@@ -2,7 +2,7 @@
 id = "thm-fin-open-immersion"
 kind = "theorem"
 title = "Open-immersion direct images"
-order = 1996
+order = 2000
 uses = ["cor-fin-deligne-open-finite-coefficients", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "sbc-def-coefficient-conventions"]
 +++
 Let $j:U\hookrightarrow X$ be an

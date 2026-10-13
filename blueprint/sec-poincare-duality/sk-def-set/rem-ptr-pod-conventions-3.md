@@ -2,8 +2,8 @@
 id = "rem-ptr-pod-conventions-3"
 kind = "remark"
 title = "Pointer to the properties of [def-pod-conventions]"
-order = 2747
-uses = ["def-pod-conventions", "rem-sf-class-adjoint-residue", "rem-sf-finite-level-comparison-ingredient"]
+order = 2751
+uses = ["def-pod-conventions"]
 +++
 In the notation of [def-pod-conventions], the following holds. What this assumption still supplies is
 therefore the finite-reduction and scalar-extension compatibilities of the

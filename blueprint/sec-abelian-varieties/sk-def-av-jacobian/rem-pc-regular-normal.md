@@ -1,6 +1,6 @@
 +++
 id = "rem-pc-regular-normal"
-kind = "remark"
+kind = "lemma"
 title = "Regular schemes are normal; the normal decomposition"
 order = 465
 uses = ["def-pc-scheme"]

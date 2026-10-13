@@ -2,7 +2,7 @@
 id = "lem-finrepair-modification-c"
 kind = "lemma"
 title = "Proper modification transfer without an amplitude claim"
-order = 1941
+order = 1945
 uses = ["def-finrepair-property-c", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-extension-by-zero", "lem-finrepair-modification-extension-zero", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-geometric-stalk-conservative", "thm-constructible-serre"]
 +++
 Let $f:X\to S$ and $\pi:Y\to X$ be proper finite-type morphisms,

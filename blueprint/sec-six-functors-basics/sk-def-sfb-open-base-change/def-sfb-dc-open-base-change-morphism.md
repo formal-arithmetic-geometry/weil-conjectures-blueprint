@@ -2,7 +2,7 @@
 id = "def-sfb-dc-open-base-change-morphism"
 kind = "definition"
 title = "The extension-by-zero exchange morphism"
-order = 1800
+order = 1804
 uses = ["def-sfb-dc-open-lower-shriek-adjunction", "sk-def-sfb-base-change-morphism"]
 +++
 Let $\Lambda$ be a commutative condensed ring, and let

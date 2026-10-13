@@ -2,7 +2,7 @@
 id = "d-central"
 kind = "definition"
 title = "Positive central pairs"
-order = 2865
+order = 2869
 uses = ["d-monodromy"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair"]
 +++

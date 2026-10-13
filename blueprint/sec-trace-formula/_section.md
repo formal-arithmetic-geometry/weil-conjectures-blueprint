@@ -2,7 +2,7 @@
 id = "sec-trace-formula"
 kind = "section"
 title = "Trace Formula"
-order = 2605
+order = 2609
 uses = ["sec-curve-estimates", "sec-six-functors", "sec-smooth-purity"]
 +++
 **Content.** For a Weil complex $(K,\varphi)$ on a separated finite-type

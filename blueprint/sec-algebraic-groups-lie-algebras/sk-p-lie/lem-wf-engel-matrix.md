@@ -2,7 +2,7 @@
 id = "lem-wf-engel-matrix"
 kind = "lemma"
 title = "Engel's matrix lemma"
-order = 2809
+order = 2813
 +++
 Let $M\ne0$ be a finite-dimensional vector space over $\Qlb$, and let
 $\mathfrak n\subseteq\operatorname{End}(M)$ be a

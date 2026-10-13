@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-linearization-transport-adjunction"
 kind = "definition"
 title = "Linearization is left adjoint to transport"
-order = 1602
+order = 1606
 uses = ["def-sfb-adjunction-projection-formula", "def-sfb-modobj-linearization", "def-sfb-modobj-linearization-right-adjoint", "def-sfb-modobj-linearized-adjunction", "def-sfb-modobj-transport"]
 lean = ["CategoryTheory.Adjunction.mapModLeftAdjunction"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sfb-finite-upper-shriek-compactification"
 kind = "definition"
 title = "Exceptional pullback along a compactification"
-order = 1673
+order = 1677
 uses = ["def-sfb-finite-upper-star", "lem-sfb-finite-upper-star-exact", "sk-def-nagata-sketch-data", "thm-sfb-finite-proper-pushforward-left-adjoint"]
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedUpperShriekOfCompactification"]
 +++

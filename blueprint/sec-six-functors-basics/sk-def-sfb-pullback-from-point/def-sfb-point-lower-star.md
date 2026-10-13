@@ -2,7 +2,7 @@
 id = "def-sfb-point-lower-star"
 kind = "definition"
 title = "The direct image $p_*$ to the point"
-order = 1536
+order = 1540
 uses = ["lem-sfb-profinite-to-proetale-continuous"]
 lean = ["AlgebraicGeometry.ProEtale.pointLowerStar"]
 +++

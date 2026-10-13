@@ -1,8 +1,8 @@
 +++
 id = "thm-weil-pbc-henselian-idempotent-lifting"
-kind = "remark"
+kind = "theorem"
 title = "Idempotent lifting for the structure sheaf over a henselian pair"
-order = 1192
+order = 1193
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-stein-inputs"]
 tags = ["latex:openproblem"]
 +++
@@ -13,15 +13,3 @@ O_Z)$; equivalently, restriction induces a bijection on idempotents, and the
 open and closed subschemes of $Z_0$ are exactly the closed fibres of the open
 and closed subschemes of $Z$.
 
-(*The restriction map itself is **not** an isomorphism, and no such claim is
-made:* for $A=k[[t]]$, $I=(t)$ and $Z=\mathbf P^1_A$ the map is $k[[t]]\to k$,
-surjective but not injective. Only the idempotents are compared, and they
-correspond to the open and closed subschemes of the two schemes. The statement
-is the structure-sheaf counterpart of input (iii) of the Stein inputs: the
-locally constant form of the Zariski restriction criterion does not apply to
-the structure sheaf, which is not a torsion sheaf, so this idempotent
-correspondence has to be supplied separately. Classically it is the
-object-level half of the henselian-pair proper-base-change package: every
-connected component of $Z$ meets $Z_0$, which gives the surjectivity on
-components, hence on idempotents, while uniqueness follows because distinct
-clopens of $Z$ have distinct traces on $Z_0$.)

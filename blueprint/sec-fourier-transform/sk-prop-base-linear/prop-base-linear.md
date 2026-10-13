@@ -2,7 +2,7 @@
 id = "prop-base-linear"
 kind = "theorem"
 title = "P7: the transform is linear over the base"
-order = 3045
+order = 3049
 lean = ["AlgebraicGeometry.Etale.fourierTransformTensorIso"]
 uses = ["def-fd-kernel", "def-fd-transform", "def-wf-tate-twist", "prop-functor-package"]
 tags = ["latex:proposition"]

@@ -2,7 +2,7 @@
 id = "lem-sf-tensor-hom"
 kind = "lemma"
 title = "Tensor–Hom form of the exchange"
-order = 2507
+order = 2511
 uses = ["def-sf-datum", "def-sf-pf", "def-trf-admissibility", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "fix-lem-tensor-adjunction", "fix-prop-adjunctions"]
 +++
 In the setting of [def-sf-datum], let $f:X\to Y$ be a separated

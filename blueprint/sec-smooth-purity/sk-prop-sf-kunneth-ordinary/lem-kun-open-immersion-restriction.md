@@ -2,7 +2,7 @@
 id = "lem-kun-open-immersion-restriction"
 kind = "lemma"
 title = "Inverse image along an open immersion is a left inverse of direct image"
-order = 2041
+order = 2045
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-kun-leray-bdd"]
 +++
 Let $j:U\to X$ be an

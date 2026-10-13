@@ -2,7 +2,7 @@
 id = "def-sfb-module-upper-star-comp"
 kind = "definition"
 title = "Composition isomorphism of pullbacks of module objects"
-order = 1687
+order = 1691
 uses = ["def-sfb-module-upper-star", "def-sfb-module-upper-lower-adjunction", "def-sfb-module-lower-star-comp"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.upperStarComp"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sc-cd-affine-limit"
 kind = "lemma"
 title = "Passing a uniform torsion bound to an affine limit"
-order = 1896
+order = 1900
 uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-cohomology-filtered-colimit", "lemma-weil-pbc-etale-cohomology-continuity", "lemma-weil-pbc-torsion-filtered-union"]
 +++
 Let $X=\varprojlim_i X_i$ be a filtered inverse limit of

@@ -2,7 +2,7 @@
 id = "prop-weil-twist-preserves"
 kind = "theorem"
 title = "Twists preserve finiteness conditions"
-order = 2144
+order = 2148
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site"]
 +++

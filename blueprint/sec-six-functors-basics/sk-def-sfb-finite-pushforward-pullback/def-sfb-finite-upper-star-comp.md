@@ -2,7 +2,7 @@
 id = "def-sfb-finite-upper-star-comp"
 kind = "definition"
 title = "Composition isomorphism for pullbacks"
-order = 1510
+order = 1514
 uses = ["def-sfb-finite-lower-star-comp", "def-sfb-finite-upper-lower-star-adjunction"]
 lean = ["AlgebraicGeometry.ProEtale.upperStarComp"]
 +++

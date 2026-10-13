@@ -2,7 +2,7 @@
 id = "lem-trf-global-operator-naturality"
 kind = "lemma"
 title = "Naturality of the global operator"
-order = 2631
+order = 2635
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-global-operator"]
 +++
 Fix the coefficient

@@ -2,7 +2,7 @@
 id = "d-real-boundary"
 kind = "definition"
 title = "Boundary extension and inertia"
-order = 2981
+order = 2985
 uses = ["d-real-setup", "def-real-weil-representation-operations", "def-wf-fundamental-representation", "def-wf-weil-group"]
 +++
 Let $j:U_0\hookrightarrow C_0$ be a nonempty open in a

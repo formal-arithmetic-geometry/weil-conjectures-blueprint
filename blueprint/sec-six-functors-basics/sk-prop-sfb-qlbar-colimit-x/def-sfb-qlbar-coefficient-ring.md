@@ -2,7 +2,7 @@
 id = "def-sfb-qlbar-coefficient-ring"
 kind = "definition"
 title = "The coefficient ring $\\overline{\\mathbf Q}_{\\ell,X}$"
-order = 1548
+order = 1552
 uses = ["sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-qlbar-condensed"]
 lean = ["AlgebraicGeometry.ProEtale.padicAlgClRingObj"]
 +++

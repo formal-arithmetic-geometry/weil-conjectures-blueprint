@@ -2,7 +2,7 @@
 id = "rem-trf-alternate-references"
 kind = "remark"
 title = "Alternate references"
-order = 2721
+order = 2725
 uses = ["thm-trf-frobenius-fixed-points", "thm-trf-lefschetz-verdier"]
 +++
 The classical statements are also recorded, with proofs, in the Stacks

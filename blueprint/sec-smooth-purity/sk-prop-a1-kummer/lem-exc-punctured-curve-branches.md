@@ -2,7 +2,7 @@
 id = "lem-exc-punctured-curve-branches"
 kind = "lemma"
 title = "The punctured strictly local curve has DVR branches"
-order = 2258
+order = 2262
 uses = ["def-exc-local-curve-branches", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-stalk-formula"]
 +++
 Let $R$ be a reduced excellent one-dimensional

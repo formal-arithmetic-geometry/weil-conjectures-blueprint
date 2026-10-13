@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-symmetric-tensor"
 kind = "definition"
 title = "The symmetric monoidal structure on $\\Mod_{\\mathcal R}(\\mathcal C)$"
-order = 1576
+order = 1580
 uses = ["def-sfb-modobj-relative-tensor"]
 lean = ["CategoryTheory.Mod.symmetricCategory", "CategoryTheory.Mod.braidedCategory"]
 +++

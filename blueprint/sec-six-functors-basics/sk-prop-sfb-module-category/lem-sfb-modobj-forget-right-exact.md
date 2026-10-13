@@ -2,7 +2,7 @@
 id = "lem-sfb-modobj-forget-right-exact"
 kind = "lemma"
 title = "The forgetful functor on module objects is right exact"
-order = 1571
+order = 1575
 uses = ["lem-sfb-modobj-abelian", "lem-sfb-modobj-cokernels"]
 lean = ["CategoryTheory.Mod.instPreservesFiniteColimitsForget_weilConjectures"]
 +++

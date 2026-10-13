@@ -2,7 +2,7 @@
 id = "lem-kun-descent-limit"
 kind = "lemma"
 title = "A sheaf on an affine inverse limit is a colimit"
-order = 2001
+order = 2005
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions", "lem-kun-fp-algebra-descent"]
 +++
 Let $X=\varprojlim_iX_i$ be a directed inverse limit of affine schemes with

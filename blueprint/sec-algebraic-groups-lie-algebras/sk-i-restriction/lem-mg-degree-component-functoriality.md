@@ -2,7 +2,7 @@
 id = "lem-mg-degree-component-functoriality"
 kind = "lemma"
 title = "Degree components under subquotients and tensor constructions"
-order = 2860
+order = 2864
 uses = ["def-wf-degree-components", "def-wf-monodromy-data", "lem-wf-arith-extension-group", "lem-wf-stabilizer-density"]
 +++
 Let $\rho:W(X_0)\to\operatorname{GL}(V)$ have the monodromy data of

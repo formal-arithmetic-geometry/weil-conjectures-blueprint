@@ -1,8 +1,8 @@
 +++
 id = "rem-trf-classical-framework"
-kind = "remark"
+kind = "definition"
 title = "Classical framework convention: no $\\infty$-categories"
-order = 2612
+order = 2616
 uses = ["def-exchange-projection", "def-trf-categorical-trace", "def-weil-algebraically-closed-coefficients", "def-weil-finite-coefficient-point", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "lem-weil-pbc-reconstruction-uniform-tower", "prop-functor-package"]
 +++
 Throughout this chapter, and in every statement below, the framework is

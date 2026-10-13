@@ -2,7 +2,7 @@
 id = "rem-sfb-module-upper-shriek-and-qlbar"
 kind = "remark"
 title = "No ambient exceptional pullback; $\\Qlb$-coefficients"
-order = 1715
+order = 1719
 +++
 **No exceptional pullback on the ambient category.** On module objects, $Rf^!$ is not
 defined on the unbounded $D(\Mod_{\Lambda_X})$. It is constructed directly on the

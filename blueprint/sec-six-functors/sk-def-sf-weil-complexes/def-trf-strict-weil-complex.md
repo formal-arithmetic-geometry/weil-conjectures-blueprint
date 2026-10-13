@@ -2,7 +2,7 @@
 id = "def-trf-strict-weil-complex"
 kind = "definition"
 title = "Strict Weil complex at finite coefficients"
-order = 2505
+order = 2509
 uses = ["def-trf-coefficient-conventions", "def-trf-scheme-frobenius", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
 +++
 Fix the global finite-field datum

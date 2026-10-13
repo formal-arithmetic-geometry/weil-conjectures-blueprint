@@ -1,8 +1,8 @@
 +++
 id = "sk-d-real-setup"
-kind = "remark"
+kind = "definition"
 title = "Fields, curves and Frobenius"
-order = 2915
+order = 2919
 tags = ["sketch"]
 +++
 Fix $q=p^a$, $a\ge1$, an algebraic closure $k=\overline{\Fq}$, a prime

@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-descent-functors"
 kind = "theorem"
 title = "Descent of coefficient-compatible functors"
-order = 1371
+order = 1372
 uses = ["def-weil-pbc-finite-stage-pair-category", "def-weil-pbc-qbar-category", "prop-weil-pbc-scalar-extension"]
 tags = ["latex:proposition"]
 +++

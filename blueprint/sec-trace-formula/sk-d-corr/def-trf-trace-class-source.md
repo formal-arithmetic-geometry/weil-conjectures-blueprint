@@ -2,7 +2,7 @@
 id = "def-trf-trace-class-source"
 kind = "definition"
 title = "Trace-class source"
-order = 2620
+order = 2624
 uses = ["def-trf-correspondence", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility"]
 +++
 In the setting of [def-trf-correspondence], for an admissible

@@ -2,7 +2,7 @@
 id = "sec-algebraic-groups-lie-algebras"
 kind = "section"
 title = "Algebraic Groups and Lie Algebras"
-order = 2797
+order = 2801
 uses = ["sec-abelian-varieties", "sec-trace-formula"]
 +++
 **Content.** This section supplies the group theory and linear algebra behind

@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-transport"
 kind = "definition"
 title = "Transport of module objects along a lax monoidal functor"
-order = 1594
+order = 1598
 uses = ["sk-def-sfb-module-objects", "sk-def-sfb-ring-object"]
 lean = ["CategoryTheory.Functor.mapMod"]
 +++

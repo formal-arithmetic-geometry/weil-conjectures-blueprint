@@ -2,7 +2,7 @@
 id = "def-sf-uniform-direct-image-vanishing"
 kind = "definition"
 title = "Uniform vanishing of the higher direct images"
-order = 2130
+order = 2134
 uses = ["def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, an integer

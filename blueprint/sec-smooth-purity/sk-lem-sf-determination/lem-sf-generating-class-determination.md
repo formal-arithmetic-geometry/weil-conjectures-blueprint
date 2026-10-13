@@ -2,7 +2,7 @@
 id = "lem-sf-generating-class-determination"
 kind = "lemma"
 title = "Invertibility on a generating class"
-order = 2204
+order = 2208
 uses = ["def-sf-datum", "lem-sf-triangle-two-out-of-three"]
 +++
 In the setting of [def-sf-datum], a natural transformation $\alpha$ between

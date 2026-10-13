@@ -2,7 +2,7 @@
 id = "sk-def-smooth"
 kind = "definition"
 title = "Smooth and allowed coefficients"
-order = 1431
+order = 1432
 lean = ["AlgebraicGeometry.Scheme.IsTorsionSheafOfInvertibleOrder"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sfb-finite-lower-shriek"
 kind = "definition"
 title = "Lower shriek $f_!$"
-order = 1655
+order = 1659
 uses = ["def-sfb-finite-lower-shriek-compactification", "sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.ProEtale.lowerShriek"]
 +++

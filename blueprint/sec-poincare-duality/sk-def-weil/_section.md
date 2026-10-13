@@ -2,7 +2,7 @@
 id = "sk-def-weil"
 kind = "definition"
 title = "Weil structures and their Frobenius normalization"
-order = 2763
+order = 2767
 uses = ["sk-def-ops"]
 lean = ["AlgebraicGeometry.Etale.WeilComplex"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-prop-sf-open-closed-triangle"
 kind = "proposition"
 title = "The open–closed triangle"
-order = 2175
+order = 2179
 uses = ["sk-def-sf-setting"]
 lean = ["AlgebraicGeometry.Etale.openClosedShortComplex", "AlgebraicGeometry.Etale.shortExact_openClosedShortComplex"]
 tags = ["sketch"]

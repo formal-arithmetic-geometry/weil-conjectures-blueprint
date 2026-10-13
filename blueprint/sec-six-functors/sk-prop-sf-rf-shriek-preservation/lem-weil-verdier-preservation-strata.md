@@ -2,7 +2,7 @@
 id = "lem-weil-verdier-preservation-strata"
 kind = "lemma"
 title = "Constructible preservation before biduality"
-order = 2410
+order = 2414
 uses = ["def-weil-finite-torsion-constructibility", "def-weil-open-closed-recollement", "def-weil-site-perfect-complex", "lem-sf-etale-direct-image-vanishing", "lem-weil-bounded-finite-tor-perfect", "lem-weil-stratum-ambient-hom", "thm-asd-smooth-tensor", "thm-sf-direct-image-tor-amplitude"]
 +++
 Let $X$ be separated of finite type over $k$.

@@ -2,7 +2,7 @@
 id = "prop-sfb-finite-lower-shriek-proper"
 kind = "proposition"
 title = "$f_!\\cong f_*$ for proper $f$"
-order = 1657
+order = 1661
 uses = ["def-sfb-finite-lower-shriek-to-lower-star"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_lowerShriekToLowerStar"]
 +++

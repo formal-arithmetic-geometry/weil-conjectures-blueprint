@@ -2,7 +2,7 @@
 id = "lem-sfb-finite-upper-star-exact"
 kind = "lemma"
 title = "$g^*$ is exact"
-order = 1508
+order = 1512
 uses = ["def-sfb-finite-upper-lower-star-adjunction", "def-sfb-finite-upper-star"]
 lean = ["AlgebraicGeometry.ProEtale.preservesFiniteLimits_upperStar"]
 +++

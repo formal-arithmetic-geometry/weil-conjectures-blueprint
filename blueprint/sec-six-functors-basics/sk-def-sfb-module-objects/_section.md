@@ -2,7 +2,7 @@
 id = "sk-def-sfb-module-objects"
 kind = "definition"
 title = "Module objects and the category $\\Mod_{\\Lambda_X}$"
-order = 1564
+order = 1568
 uses = ["def-weil-pbc-proetale-site", "sk-def-sfb-pulled-back-coefficients"]
 lean = ["CategoryTheory.ModObj", "CategoryTheory.Mod", "CategoryTheory.Mod.forget", "CategoryTheory.Mod.regular"]
 tags = ["sketch"]

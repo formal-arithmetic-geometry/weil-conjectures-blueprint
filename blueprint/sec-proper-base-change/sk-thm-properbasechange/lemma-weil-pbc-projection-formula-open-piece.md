@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-open-piece"
 kind = "lemma"
 title = "Open-immersion tensor piece"
-order = 1336
+order = 1337
 uses = ["def-weil-pbc-projection-compactification"]
 +++
 For a bounded finite-projective complex $F^\bullet$ on $\overline X$, the

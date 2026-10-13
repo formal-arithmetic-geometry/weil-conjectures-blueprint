@@ -2,7 +2,7 @@
 id = "lem-kun-bc-map-on-cohomology"
 kind = "lemma"
 title = "Cohomology of a derived base-change map"
-order = 2094
+order = 2098
 uses = ["def-kun-truncations", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-direct-image", "def-weil-pbc-underived-exchange"]
 +++
 For a

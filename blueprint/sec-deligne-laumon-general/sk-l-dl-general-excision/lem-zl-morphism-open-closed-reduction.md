@@ -2,7 +2,7 @@
 id = "lem-zl-morphism-open-closed-reduction"
 kind = "lemma"
 title = "Open–closed reduction for the direct-image assertion"
-order = 3156
+order = 3160
 uses = ["def-weil-complex-weights", "def-weil-open-closed-recollement", "def-weil-punctual-weights", "lem-a1-mixed-direct-summand", "lem-sp-long-exact-of-triangle", "lem-weil-heart-short-exact-triangles", "lem-zl-complex-extension", "lem-zl-finite-pushforward", "lem-zl-open-closed-weight", "prop-functor-package", "prop-sf-open-closed-triangle-all-stages"]
 +++
 For a separated finite-type morphism $f_0:X_0\to Y_0$ of separated

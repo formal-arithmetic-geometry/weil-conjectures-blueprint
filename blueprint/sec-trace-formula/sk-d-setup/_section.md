@@ -1,8 +1,8 @@
 +++
 id = "sk-d-setup"
-kind = "remark"
+kind = "definition"
 title = "Coefficients and geometric categories"
-order = 2606
+order = 2610
 lean = ["AlgebraicGeometry.ProEtale.GeometricCoefficients"]
 tags = ["sketch"]
 +++

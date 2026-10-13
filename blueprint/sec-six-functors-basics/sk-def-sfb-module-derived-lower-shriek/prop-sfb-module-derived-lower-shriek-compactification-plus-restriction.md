@@ -2,7 +2,7 @@
 id = "prop-sfb-module-derived-lower-shriek-compactification-plus-restriction"
 kind = "proposition"
 title = "The bounded below derived lower shriek is a restriction"
-order = 1711
+order = 1715
 uses = ["def-sfb-module-derived-lower-shriek-compactification", "def-sfb-module-derived-lower-shriek-compactification-plus"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekOfCompactificationPlusCompatibility"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-coef-integral-residue-tor"
 kind = "lemma"
 title = "The residue reduction controls integral Tor amplitude"
-order = 2473
+order = 2477
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-finite-tor-amplitude", "lem-exc-residue-tor-test"]
 +++
 Let $K\in D^b_c(X,R)$ in the actual sense of
