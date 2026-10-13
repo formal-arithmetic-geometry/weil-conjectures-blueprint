@@ -1,0 +1,16 @@
++++
+id = "pur456-def-adjoint-datum"
+kind = "definition"
+title = "Specified ambient exceptional adjunction, finite coefficients"
+order = 1861
+tags = ["latex:bpdefinition"]
+uses = ["pur713-def-upper-shriek", "pur713-input-proper-adjoint", "pur713-lem-shriek-adjunction"]
++++
+Under Input [pur713-input-proper-adjoint], the finite-coefficient ambient exceptional adjunction for $f$ is the adjunction
+
+$$
+Rf_{!,\mathcal O_E/\varpi^n}\dashv Rf^!_{\mathcal O_E/\varpi^n},\qquad
+Rf^!_{\mathcal O_E/\varpi^n}:D(Y_{\Proet},\mathcal O_E/\varpi^n)\longrightarrow D(X_{\Proet},\mathcal O_E/\varpi^n),
+$$
+
+with the functors of Definitions “Finite-coefficient compact-support direct image” (`pur713-def-lower-shriek`) and [pur713-def-upper-shriek] and the unit and counit of the composite adjunction of Lemma [pur713-lem-shriek-adjunction], built from the proper right adjoint, unit and counit supplied by Input [pur713-input-proper-adjoint]. Mere existence of an unrelated adjoint does not specify this datum. No cohomological-dimension or preservation assertion is part of it.

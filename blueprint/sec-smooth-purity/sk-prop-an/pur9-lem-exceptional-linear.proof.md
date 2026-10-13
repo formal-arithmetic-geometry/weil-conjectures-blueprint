@@ -1,0 +1,5 @@
++++
+kind = "proof"
+of = "pur9-lem-exceptional-linear"
++++
+The derived functors of Definitions “Finite-coefficient derived direct image” (`pur713-def-derived-push`) and “Fixed-coefficient extension by zero” (`pur713-def-open-shriek`) are induced by $\mathcal O_E/\varpi^n$-linear additive functors through linear resolution and localization functors, so they are linear and commute with shifts; hence so is $Rf_{!,\mathcal O_E/\varpi^n}$. For $Rf^!_{\mathcal O_E/\varpi^n}$: the adjunction bijection $\operatorname{Hom}(K,Rf^!_{\mathcal O_E/\varpi^n}L)\cong\operatorname{Hom}(Rf_{!,\mathcal O_E/\varpi^n}K,L)$, $\phi\mapsto\varepsilon_L\circ Rf_{!,\mathcal O_E/\varpi^n}(\phi)$, is linear, and $Rf^!_{\mathcal O_E/\varpi^n}(a\cdot g)$ corresponds to $a\cdot g\circ\varepsilon$, so $Rf^!_{\mathcal O_E/\varpi^n}(a\cdot g)=a\cdot Rf^!_{\mathcal O_E/\varpi^n}(g)$. The natural bijections $\operatorname{Hom}(K,Rf^!_{\mathcal O_E/\varpi^n}(L[1]))\cong\operatorname{Hom}(Rf_{!,\mathcal O_E/\varpi^n}(K[-1]),L)\cong\operatorname{Hom}(K,(Rf^!_{\mathcal O_E/\varpi^n}L)[1])$ give the shift isomorphism by the Yoneda lemma.

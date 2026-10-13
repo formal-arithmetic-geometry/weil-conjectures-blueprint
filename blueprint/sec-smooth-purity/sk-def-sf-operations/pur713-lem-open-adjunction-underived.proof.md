@@ -1,0 +1,6 @@
++++
+kind = "proof"
+of = "pur713-lem-open-adjunction-underived"
+uses = ["pur713-input-change-scalars-iso"]
++++
+The projection formula of Input [pur713-input-open-projection] linearizes the adjunction $j_{!,\mathbf Z}\dashv j^{-1}_{\mathbf Z}$ of Input “Fixed-coefficient open-extension adjunction” (`pur713-input-open-fixed`) to an adjunction $j_!^{\mathcal R_{X,T}}\dashv(j^{-1}_{\mathbf Z})_{\mathcal R_{X,T}}$ between $j^{-1}_{\mathbf Z}\mathcal R_{X,T}$-modules and $\mathcal R_{X,T}$-modules; this is the linearization statement of the governing reference, §4.3. Its unit is the unit of $j_{!,\mathbf Z}\dashv j^{-1}_{\mathbf Z}$ on underlying sheaves, hence invertible by Input “Fixed-coefficient open-extension adjunction” (`pur713-input-open-fixed`). Since $\alpha_{j,T}$ is an isomorphism (Input [pur713-input-coefficient-open]), $\operatorname{Res}_{\alpha_{j,T}}$ is an equivalence with quasi-inverse $\operatorname{Ext}_{\alpha_{j,T}}$ by Input [pur713-input-change-scalars-iso], so $\operatorname{Res}_{\alpha_{j,T}}\dashv\operatorname{Ext}_{\alpha_{j,T}}$ with invertible unit. Composing the two adjunctions gives $j_{!,T}\dashv\operatorname{Ext}_{\alpha_{j,T}}\circ(j^{-1}_{\mathbf Z})_{\mathcal R_{X,T}}=j^*_T$, with invertible unit.

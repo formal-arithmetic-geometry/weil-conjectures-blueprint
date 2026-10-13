@@ -1,0 +1,6 @@
++++
+kind = "proof"
+of = "pur9-sp-lem-model"
+uses = ["pur9-cs-input-bc-model", "pur9-cs-lem-diagonal-square", "pur9-dnc-lem-base-change", "pur9-dnc-lem-standard", "pur9-lem-thom-normalization"]
++++
+Here $p_1:E\times_ZE\to E$ is the bundle $\pi^*E$, and $\Delta$ is the translate of its zero section by the tautological section; translation is an automorphism of $\pi^*E$ over $E$ carrying $(p_1,\Delta)$ to $(\pi^*E,0)$. The trace defining $\gamma_{\pi^*E,(\mathcal O_E/\varpi^n)_E}$ is translation invariant: the trace of the class of the universal section is a locally constant function on $E$, equal to $1$ along the zero section by Lemma [pur9-lem-thom-normalization], and every connected component of $E$ meets the zero section. Under $\gamma_{\pi}$ and $\gamma_{\pi^*E}$ the base-change isomorphism of Lemma [pur9-cs-lem-diagonal-square] is the identity, by Input [pur9-cs-input-bc-model] on trivializations; for the standard pair $\delta$ is the identity by Lemma [pur9-dnc-lem-standard] on étale trivializations of $E$, and $\delta$ is étale local by Lemma [pur9-dnc-lem-base-change]; the last step of $\Pi_\pi$ is $L0^*_{\mathcal O_E/\varpi^n}\gamma_{\pi_T}$ with $T=N_\Delta\cong\pi^*E$. Hence $\Pi_\pi=\gamma_{\pi}^{-1}$.

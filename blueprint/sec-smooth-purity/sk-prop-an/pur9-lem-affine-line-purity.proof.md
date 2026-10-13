@@ -1,0 +1,6 @@
++++
+kind = "proof"
+of = "pur9-lem-affine-line-purity"
+uses = ["pur456-lem-adjoint-comparison-finite", "pur713-def-shriek-projection", "pur713-input-comparison", "pur9-input-ambient-comparison"]
++++
+By Lemma [pur456-lem-adjoint-comparison-finite] (applicable since Input [pur9-input-ambient-comparison] supplies $\theta_{d_p}$ on the whole ambient category), $Rp^!_{\mathcal O_E/\varpi^n}\cong R^!_{d_p}=\mathrm D(\bar\jmath^*_{\mathcal O_E/\varpi^n})Rq^!_{\mathcal O_E/\varpi^n}$, compatibly with the adjunctions. Under these identifications, $\gamma_{p,K}$ is the mate of a composite built from $\operatorname{PF}$, $\theta_{d_p}$, the open counit and $t_q$; the projection equation of Input [pur713-input-comparison] (contained in Input [pur9-input-ambient-comparison]) and Definition [pur713-def-shriek-projection] for $d_p$ (which composes the projection map for $q$ with $\sigma^{-1}$ for $\bar\jmath$) identify it with $\mathrm D(\bar\jmath^*_{\mathcal O_E/\varpi^n})$ applied to the isomorphism of Input [pur9-input-p1-duality], after $\bar\jmath^*Lq^*_{\mathcal O_E/\varpi^n}=Lp^*_{\mathcal O_E/\varpi^n}$ (Lemma “The finite-coefficient inverse-image composition comparison is invertible” (`pur713-lem-pull-composition`)). Hence it is an isomorphism.

@@ -1,0 +1,5 @@
++++
+kind = "proof"
+of = "pur9-lem-tor-descends"
++++
+For an étale sheaf $M$, Input [pur9-input-site-monoidal] gives $L\nu^*_{Y,\mathcal O_E/\varpi^n}(H\otimes^L_{\mathcal O_E/\varpi^n}M)\cong L\nu^*_{Y,\mathcal O_E/\varpi^n}H\otimes^L_{\mathcal O_E/\varpi^n}\nu^*_{Y,\mathcal O_E/\varpi^n}M$, whose cohomology vanishes outside $[u,v]$. Since $\nu^*_{Y,\mathcal O_E/\varpi^n}$ is exact (Input “The site comparison is a morphism of sites” (`pur456-input-site-morphism`, see [sk-prop-sf-comp-coherence])), $\mathcal H^r(L\nu^*_{Y,\mathcal O_E/\varpi^n}(H\otimes^L_{\mathcal O_E/\varpi^n}M))=\nu^*_{Y,\mathcal O_E/\varpi^n}\mathcal H^r(H\otimes^L_{\mathcal O_E/\varpi^n}M)$. If a sheaf $N$ on $Y_{\Et}$ has $\nu^*_{Y,\mathcal O_E/\varpi^n}N=0$, then $N\cong R\nu_{Y,*,\mathcal O_E/\varpi^n}L\nu^*_{Y,\mathcal O_E/\varpi^n}N=0$ by Input “The bounded-below site-comparison theorem” (`pur7710-input-site-unit`, see [sk-prop-sf-comp-coherence]) applied to $N$ in degree zero. Hence $\mathcal H^r(H\otimes^L_{\mathcal O_E/\varpi^n}M)=0$ for $r\notin[u,v]$.

@@ -1,0 +1,6 @@
++++
+kind = "proof"
+of = "pur9-lem-localization-unique"
+uses = ["pur9-lem-open-restriction-closed"]
++++
+By the axioms of a triangulated category, $f$ extends to a morphism of triangles $(a,f,b)$. Any two candidates $b,b'$ for the third component satisfy $(b-b')\eta^j_L=0$, so $b-b'$ factors through $\partial_L$ via a map $Ri_{*,\mathcal O_E/\varpi^n}Ri^!_{\mathcal O_E/\varpi^n}L[1]\to Rj_{*,\mathcal O_E/\varpi^n}Lj^*_{\mathcal O_E/\varpi^n}L'$, which vanishes by Lemma [pur9-lem-open-restriction-closed]; similarly any two candidates $a,a'$ satisfy $\varepsilon^!_{L'}(a-a')=0$, so $a-a'$ factors through a map $Ri_{*,\mathcal O_E/\varpi^n}Ri^!_{\mathcal O_E/\varpi^n}L\to Rj_{*,\mathcal O_E/\varpi^n}Lj^*_{\mathcal O_E/\varpi^n}L'[-1]$, which vanishes. Naturality of $\varepsilon^!$ and $\eta^j$ shows that $Ri_{*,\mathcal O_E/\varpi^n}Ri^!_{\mathcal O_E/\varpi^n}f$ and $Rj_{*,\mathcal O_E/\varpi^n}Lj^*_{\mathcal O_E/\varpi^n}f$ are candidates, so $a=Ri_{*,\mathcal O_E/\varpi^n}Ri^!_{\mathcal O_E/\varpi^n}f$, $b=Rj_{*,\mathcal O_E/\varpi^n}Lj^*_{\mathcal O_E/\varpi^n}f$, and the third square of $(a,f,b)$ commutes. For $L=L'$, $f=\mathrm{id}$ and two completions $\partial,\partial'$, this gives a morphism of triangles $(\mathrm{id},\mathrm{id},\mathrm{id})$, whence $\partial'=\partial$.

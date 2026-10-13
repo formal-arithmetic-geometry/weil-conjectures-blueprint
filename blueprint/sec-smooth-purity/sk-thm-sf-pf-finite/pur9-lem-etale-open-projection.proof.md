@@ -1,0 +1,5 @@
++++
+kind = "proof"
+of = "pur9-lem-etale-open-projection"
++++
+Compute both sides on K-flat resolutions $P\to K$, $Q\to N$; all functors other than the tensor product are exact and levelwise (Lemmas “Exactness of étale inverse image” (`pur456-pbc-pullback-exact`, see [sk-thm-sf-comp-composition]) and “Exactness of étale extension by zero” (`pur456-pbc-open-exact`, see [sk-thm-sf-comp-composition])), so $\sigma^{\Et}$ is the termwise sheaf map $j_!(P\otimes j^*Q)\to j_!P\otimes Q$ adjoint to $1\otimes\mathrm{unit}$. At a geometric point over $U$, both stalks are $P_{\bar x}\otimes Q_{\bar x}$ and the map is the identity, because the unit of Lemma “The étale open-extension adjunction” (`pur456-pbc-open-adjunction`, see [sk-thm-sf-comp-composition]) is invertible; at a geometric point outside $U$, both stalks vanish by Lemma “Exactness of étale extension by zero” (`pur456-pbc-open-exact`, see [sk-thm-sf-comp-composition]). Geometric stalks detect isomorphisms of sheaves on the small étale site.

@@ -1,0 +1,6 @@
++++
+kind = "proof"
+of = "pur9-lem-a1-gm-base-change"
+uses = ["pur9-lem-a1-acyclic", "pur9-lem-gm-degree-zero", "pur9-lem-gm-kummer-generator", "pur9-lem-gm-vanishing", "pur9-lem-twist-additivity", "pur9-lem-twist-free"]
++++
+By Lemmas [pur9-lem-a1-acyclic], [pur9-lem-gm-degree-zero], [pur9-lem-gm-kummer-generator] and [pur9-lem-gm-vanishing] over $Y$ and over $Y'$, source and target have cohomology only in degree $0$, resp. degrees $0,1$, identified with constant sheaves by the units and by $\kappa_Y,\kappa_{Y'}$. The exchange maps are adjoint to counits, so they are compatible with the units in degree zero, and in degree one they are compatible with $\kappa_Y,\kappa_{Y'}$ by Lemma [pur9-lem-kummer-generator-base-change]. This proves the case $m=1$ for $\pi$. For general $m$, a basis of $P(m-1)$ (Lemma [pur9-lem-twist-free]) and Lemma [pur9-lem-twist-additivity] give an isomorphism of constant sheaves $(\mathcal O_E/\varpi^n)(1)\cong(\mathcal O_E/\varpi^n)(m)$ on $\mathbf G_{m,Y}$ and on $\mathbf G_{m,Y'}$, compatible with $g'^*_{\Et,\mathcal O_E/\varpi^n}$; the exchange maps are natural in the sheaf, so the case $m$ follows from the case $1$. The same argument with degree zero only applies to $p$.
