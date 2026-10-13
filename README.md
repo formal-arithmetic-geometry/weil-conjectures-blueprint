@@ -10,6 +10,16 @@ derived from the project's oleans rather than written here.
 The content was imported from the project's leanblueprint LaTeX sources
 (`blueprint/src/version/` in the project) and is edited here from now on.
 
+## Updated source notes
+
+[Condensed Coefficients and Six Functors in Ordinary Derived Categories](DerivedCategoryAndSixFunctorsChoice_readable.tex)
+(13 October 2026) is a newer standalone account of the coefficient and
+derived-category foundations, the construction of the exceptional inverse
+image, and smooth purity with its trace and Frobenius compatibility. It
+uses condensed rings to define coefficients uniformly. The supplied LaTeX
+source is kept alongside the node-based blueprint as a reference for this
+part of the project.
+
 ## Working locally
 
 ```
