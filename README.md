@@ -12,10 +12,14 @@ The content was imported from the project's leanblueprint LaTeX sources
 
 ## Updated source notes
 
-[Condensed Coefficients and Six Functors in Ordinary Derived Categories](DerivedCategoryAndSixFunctorsChoice_readable.tex)
-(13 October 2026) is a newer standalone account of the coefficient and
-derived-category foundations, the construction of the exceptional inverse
-image, and smooth purity with its trace and Frobenius compatibility. It
+[Condensed Coefficients, Proper Base Change and Six Functors in Ordinary Derived Categories](DerivedCategoryAndSixFunctorsChoice_readable.tex)
+(14 October 2026) is a newer standalone account of the coefficient and
+derived-category foundations, proper base change, the construction of the
+exceptional inverse image, and smooth purity with its trace and Frobenius
+compatibility. Its proper base change chapter follows the blueprint's
+injective acyclicity criterion, projective-line argument, and reduction
+through finite morphisms, symmetric powers, and Chow's lemma, then connects
+the torsion theorem to pro-étale and completed integral coefficients. It
 uses condensed rings to define coefficients uniformly. The supplied LaTeX
 source is kept alongside the node-based blueprint as a reference for this
 part of the project.

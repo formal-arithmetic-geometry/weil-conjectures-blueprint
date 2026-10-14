@@ -58,10 +58,10 @@
 \newcommand{\Ob}{\mathcal O}
 \newcommand{\Qb}{\overline{\mathbf Q}_{\ell}}
 \newtheorem{example}[theorem]{Example}
-\title{Condensed Coefficients and Six Functors\\
-in Ordinary Derived Categories}
+\title{Condensed Coefficients, Proper Base Change\\
+and Six Functors in Ordinary Derived Categories}
 \author{Weil conjectures project}
-\date{13 October 2026}
+\date{14 October 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -74,7 +74,9 @@ $E$ is a finite extension of $\mathbf Q_\ell$. All three coefficient
 sheaves come from one definition: a condensed ring $\Lambda$ on the point
 gives $\Lambda_X=p_X^*\Lambda$ on every scheme $X$. Compatibility with
 inverse image is then automatic, and the familiar completed descriptions
-are comparison theorems. The main
+are comparison theorems. We establish torsion proper base change
+through the projective line, henselian comparison and Chow's lemma,
+and explain its passage to these condensed coefficient rings. The main
 result is the existence of the exceptional inverse image: for every
 separated morphism of finite type $f$, the compactly supported direct
 image $Rf_!$ on bounded constructible complexes has a right adjoint
@@ -197,8 +199,8 @@ lisse $E$-sheaf contains a lattice after refining the stratification
 (\S\ref{b:sec:coefficients}). On the categorical side: a uniform bound on
 Ext groups between constructible sheaves, which comes from the finite
 cohomological dimension of $k$ and makes constructible complexes compact
-(\S\ref{b:sec:compactness}). On the geometric side: the explicit
-adjunction for the projective line, built from the cycle class of the
+(\S\ref{b:sec:compactness}). On the geometric side: proper base change
+(Section~\ref{sec:proper-base-change}), the explicit adjunction for the projective line, built from the cycle class of the
 diagonal, and Deligne's theorem that direct image along an open immersion
 preserves constructibility (\S\ref{b:sec:finite-geometric}). For smooth
 purity, in addition, the identification of the dualizing complex with
@@ -216,7 +218,10 @@ ordinary derived category of an abelian category of inverse systems,
 where a compatible family of finite-level maps is a single morphism.
 
 On a first reading one can take the following route. Read
-Section~\ref{sec:setting}. In Section~\ref{b:sec:coefficients} read the
+Section~\ref{sec:setting}. In Section~\ref{sec:proper-base-change},
+read the exchange map, the statement of Theorem~\ref{pbc:torsion-theorem},
+and the coefficient comparison in \S\ref{pbc:condensed}; the geometric
+proof can be read independently. In Section~\ref{b:sec:coefficients} read the
 statements and the lattice argument. In Section~\ref{sec:formal-half},
 accept compactness (Theorem~\ref{b:thm:constructible-compactness}) and
 Brown representability (Theorem~\ref{b:thm:brown-adjoint}) and skip
@@ -257,7 +262,11 @@ $D^b(\Cons(X,\Lambda))$.
 \subsection{Organization}
 Section~\ref{sec:setting} introduces the coefficient rings and the
 categories of constructible complexes, states the main theorem and
-explains its proof. Section~\ref{b:sec:coefficients} collects the facts
+explains its proof. Section~\ref{sec:proper-base-change} establishes
+proper base change before its first use in proper direct image. It
+follows the project blueprint's injective-acyclicity, projective-line
+and Chow-reduction route, recording the independent geometric inputs.
+Section~\ref{b:sec:coefficients} collects the facts
 that let us reduce questions about $E$- and $\Qbar$-coefficients to
 torsion coefficients. Sections~\ref{sec:formal-half}
 and~\ref{sec:restriction-chapter} carry out halves (A) and (B) for $E$
@@ -274,10 +283,13 @@ table is a guide.
 \hline
 Part & Coefficients and site & Purpose\\
 \hline
-\S\S\ref{sec:setting}--\ref{b:sec:coefficients}
+\S\ref{sec:setting}, \S\ref{b:sec:coefficients}
  & $\mathcal O_E$, $E$, $\Qbar$, pro-\'etale
  & coefficient rings, constructible complexes, reduction to finite
    coefficients\\
+\S\ref{sec:proper-base-change}
+ & discrete torsion, \'etale; then pro-\'etale
+ & exchange, injective acyclicity, projective line, Chow reduction\\
 \S\ref{sec:formal-half}
  & $E$, $\Qbar$, pro-\'etale
  & $f^!$ by Brown representability\\
@@ -684,6 +696,1366 @@ that part (4) uses. The \emph{canonical global} identification, independent
 of charts and compatible with base change, composition, trace and
 Frobenius, is smooth purity, proved in Section~\ref{sec:smooth-purity}.
 It is not used before.
+
+\section{Proper base change}
+\label{sec:proper-base-change}
+
+Proper base change identifies the stalks of a proper direct image with
+the cohomology of the geometric fibres. More generally, it says that
+pulling a proper family back to a new base and taking its cohomology can
+be done in either order. This is the geometric input behind the base
+change formula for compactly supported cohomology, and hence behind the
+six-functor formalism developed below. We prove the torsion theorem
+first, before using completion and change of coefficients to obtain its
+$\ell$-adic forms.
+
+The order of the proof follows the project's proper-base-change
+blueprint~\cite{BlueprintPBC}: construct the exchange morphism, isolate an injective
+acyclicity criterion, prove the projective-line case by calculations on
+curves and henselian comparison, and reduce arbitrary proper morphisms
+to that case. This order distinguishes three issues which must
+not be conflated: the existence of a canonical comparison map, its
+degree-zero isomorphism, and the vanishing needed to derive that
+isomorphism. In particular, inverse image is exact, but does not in
+general preserve injectives.
+
+\begin{convention}\label{pbc:conventions}
+In this section, schemes are arbitrary unless an additional hypothesis
+is stated. We work first on the small \'etale site $T_{\et}$, with
+abelian sheaves or sheaves of modules over a constant, discrete
+commutative ring $\Lambda$. We write
+$\D^+(T_{\et},\Lambda)$ for the bounded below derived category. Inverse
+image on these sheaves is denoted by $u^{-1}$; it is exact and agrees
+with $u^*$ for the constant coefficient rings under consideration.
+The derived direct image is $Ru_*$. All references to torsion mean
+torsion of the underlying abelian sheaves.
+
+There is no invertibility condition on the torsion coefficients in the
+proper base change theorem. Thus a prime $r$ appearing in this section
+may equal a residue characteristic. The standing condition on $\ell$
+from the introduction returns when we discuss the $\ell$-adic
+constructible theory.
+\end{convention}
+
+We use one standard compatibility between coefficient categories.
+Cohomology of a sheaf of $\Lambda$-modules is canonically the
+cohomology of its underlying abelian sheaf
+(\stacks{03FD}). Indeed, an injective module sheaf is acyclic for the
+underlying section functor on every object of the site. Applying this
+on the \'etale objects over the target gives the same compatibility for
+$R^qu_*$ and, by bounded below resolutions, for $Ru_*$. This assertion
+does not say that forgetting the module structure preserves injectives.
+
+\subsection{The exchange morphism and its compatibility with composition}
+
+Consider a Cartesian square
+\begin{equation}\label{pbc:square}
+\begin{CD}
+X' @>{g'}>> X\\
+@V{f'}VV @VV{f}V\\
+Y' @>{g}>> Y.
+\end{CD}
+\end{equation}
+The commutativity of the square supplies the canonical composition
+isomorphism
+\[
+ \theta_{\square}:f'^{-1}g^{-1}\xrightarrow{\sim}g'^{-1}f^{-1}.
+\]
+For a sheaf $F$ on $X_{\et}$, the \emph{underived exchange map}
+\begin{equation}\label{pbc:underived-exchange}
+ \operatorname{Ex}^0_{\square,F}:
+ g^{-1}f_*F\longrightarrow f'_*g'^{-1}F
+\end{equation}
+is the adjoint, under $f'^{-1}\dashv f'_*$, of
+\[
+ f'^{-1}g^{-1}f_*F
+ \xrightarrow{\theta_{\square}}g'^{-1}f^{-1}f_*F
+ \xrightarrow{g'^{-1}\varepsilon_f}g'^{-1}F.
+\]
+Here $\varepsilon_f:f^{-1}f_*\to\mathrm{id}$ is the counit.
+Equivalently, first apply the unit
+$g^{-1}f_*F\to f'_*f'^{-1}g^{-1}f_*F$, and then apply $f'_*$ to
+the displayed composite. This construction is natural in $F$.
+
+On sections, this map has a simple interpretation. A representative of
+a section of $g^{-1}f_*F$ over an \'etale $V\to Y'$ is given by an
+\'etale $W\to Y$, a map $V\to Y'\times_YW$, and a section over
+$X\times_YW$. Exchange restricts that section along
+\[
+ X'\times_{Y'}V\longrightarrow X\times_YW,
+\]
+and passes to sheafification. This description will identify the
+comparison map on stalks, rather than merely exhibit an abstract
+isomorphism between its source and target.
+
+\begin{definition}[Derived exchange]\label{pbc:exchange}
+For $K\in\D^+(X_{\et},\Lambda)$, the \emph{exchange morphism}
+\begin{equation}\label{pbc:derived-exchange}
+ \operatorname{Ex}_{\square,K}:
+ g^{-1}Rf_*K\longrightarrow Rf'_*g'^{-1}K
+\end{equation}
+is the adjoint, under $f'^{-1}\dashv Rf'_*$, of
+\[
+ f'^{-1}g^{-1}Rf_*K
+ \xrightarrow{\theta_{\square}}g'^{-1}f^{-1}Rf_*K
+ \xrightarrow{g'^{-1}\varepsilon_f}g'^{-1}K,
+\]
+where $\varepsilon_f$ now denotes the derived counit.
+\end{definition}
+
+The derived adjunction exists because inverse image is exact and its
+right adjoint preserves injectives. The construction of exchange itself
+requires only a commutative square; the Cartesian hypothesis becomes
+essential for its being an isomorphism.
+
+For later use we spell out how to compute
+\eqref{pbc:derived-exchange}. Choose a bounded below injective resolution
+$K\to I^\bullet$ and an injective replacement
+$g'^{-1}I^\bullet\to J^\bullet$. Exchange is represented by
+\begin{equation}\label{pbc:exchange-resolution}
+ g^{-1}f_*I^\bullet
+ \xrightarrow{\operatorname{Ex}^0_{\square,I^\bullet}}
+ f'_*g'^{-1}I^\bullet\longrightarrow f'_*J^\bullet.
+\end{equation}
+The first arrow is the degreewise underived exchange map. Exactness of
+$g^{-1}$ identifies the source with $g^{-1}Rf_*K$; the last complex
+computes $Rf'_*g'^{-1}K$. Comparison maps between injective resolutions
+are unique up to homotopy, so this formula is independent of the
+choices. It is the adjoint map of Definition~\ref{pbc:exchange}:
+adjunction sends the first arrow to the square isomorphism followed by
+the counit, and the replacement map gives the canonical passage to the
+derived direct image.
+
+\begin{lemma}[Identity and pasting]\label{pbc:exchange-pasting}
+Exchange is the identity for an identity square, and is compatible with
+horizontal and vertical pasting of Cartesian squares. More explicitly,
+if $h:Y''\to Y'$ is a second base change, with induced maps
+$h':X''\to X'$ and $f'':X''\to Y''$, the exchange map for $gh$ is
+\[
+ h^{-1}g^{-1}Rf_*K
+ \xrightarrow{h^{-1}\operatorname{Ex}_{\square,K}}
+ h^{-1}Rf'_*g'^{-1}K
+ \xrightarrow{\operatorname{Ex}_{h,g'^{-1}K}}
+ Rf''_*h'^{-1}g'^{-1}K,
+\]
+under the canonical composition isomorphisms.
+
+For composable maps $X\xrightarrow{f}Y\xrightarrow{e}Z$ and a base
+change $h:Z'\to Z$, put $Y'=Y\times_ZZ'$ and $X'=X\times_ZZ'$.
+Writing $e':Y'\to Z'$, $f':X'\to Y'$ and $g:Y'\to Y$,
+$g':X'\to X$, the exchange map for $ef$ is
+\[
+ h^{-1}Re_*Rf_*K
+ \xrightarrow{\operatorname{Ex}_{e,Rf_*K}}
+ Re'_*g^{-1}Rf_*K
+ \xrightarrow{Re'_*\operatorname{Ex}_{f,K}}
+ Re'_*Rf'_*g'^{-1}K.
+\]
+\end{lemma}
+\begin{proof}
+For an identity square the square isomorphism is the identity modulo
+the unit isomorphisms of inverse image. Its adjoint is the identity by
+the triangle identity for an adjunction.
+
+For pasting, expand each exchange map as unit, square isomorphism, and
+counit. The square isomorphism for the outer rectangle is the composite
+of the square isomorphisms for the inner squares. The adjacent unit and
+counit cancel by the triangle identities; naturality moves the remaining
+units and counits past the composition isomorphisms. The result is the
+unit--square-isomorphism--counit formula for the outer rectangle. The
+same calculation applies in the derived categories. In the vertical
+case the identifications $R(ef)_*\simeq Re_*Rf_*$ and
+$R(e'f')_*\simeq Re'_*Rf'_*$ are valid because direct image, being
+right adjoint to exact inverse image, preserves injectives. Alternatively,
+compute the outer exchange on an injective resolution as in
+\eqref{pbc:exchange-resolution}; the underived pasting calculation gives
+the same map after replacement.
+\end{proof}
+
+\subsection{The base change property and the degree-zero comparison}
+
+\begin{definition}[Torsion and the PBC property]\label{pbc:property}
+A sheaf $F$ of abelian groups, or of $\Lambda$-modules, is
+\emph{torsion} if every geometric stalk is a torsion abelian group.
+Equivalently,
+\[
+ F=\varinjlim_{n\geq1}F[n],\qquad F[n]=\ker(n:F\to F),
+\]
+where the positive integers are ordered by divisibility. These are
+sheaf colimits. The equivalence follows by taking geometric stalks,
+which commute with colimits and finite limits and detect isomorphisms.
+
+For a morphism $f:X\to Y$, write $\mathrm{PBC}_{\Lambda}(f)$ if
+\eqref{pbc:derived-exchange} is an isomorphism for every base change
+$g:Y'\to Y$ and every $K\in\D^+(X_{\et},\Lambda)$ with torsion
+cohomology sheaves. Put $\mathrm{PBC}(f)=\mathrm{PBC}_{\Z}(f)$.
+This is a property of the specified exchange morphism; properness is
+not part of the definition.
+\end{definition}
+
+Torsion is a local condition on sections: every section is killed by an
+integer after an \'etale covering, with the integer allowed to vary
+between members of the covering. It need not be killed by a single
+integer on an arbitrary, non-quasi-compact object. For example, the
+constant sheaf $\Q/\Z$ on a nonempty scheme is torsion, but on the
+disjoint union of countably many copies of the scheme its sections
+include $(1/2^n)_{n\geq1}$, which has infinite order.
+
+The degree-zero comparison is stronger than a torsion assertion: it
+holds for every \'etale sheaf of sets. Its geometric input must be
+established before the higher-cohomology argument.
+
+\begin{theorem}[Henselian-pair comparison in degree zero]
+\label{pbc:henselian-h0}
+Let $(A,J)$ be a henselian pair, let $Z\to\operatorname{Spec}A$ be
+proper, and let $i:Z_0=Z\times_A\operatorname{Spec}(A/J)\hookrightarrow Z$.
+For every sheaf of sets $F$ on $Z_{\et}$, restriction is a bijection
+\[
+ \Gamma(Z,F)\xrightarrow{\sim}\Gamma(Z_0,i^{-1}F).
+\]
+The comparison is natural in $F$. In particular it applies to sheaves
+of abelian groups and modules, with no torsion assumption.
+\end{theorem}
+
+This is the independent henselian degree-zero theorem
+\stacks{0A0C}. Its geometric content is the following. Every
+irreducible closed subset of a scheme proper over a henselian pair
+meets the closed member in a nonempty connected subset. Stein
+factorization and henselian connectedness prove this assertion
+(\stacks{0A0B}); spectral-space restriction then gives equality of
+sections for Zariski sheaves. The assertion also holds after every
+finite cover, since that cover remains proper over $A$. A finite
+surjection whose Zariski-local pieces factor through the \'etale covering,
+followed by descent on its self-intersection,
+upgrades the Zariski comparison to \'etale sheaves
+(\stacks{09ZF}). These are statements about sections and connectedness,
+not applications of higher proper base change. Over a general affine
+base the integral form of Stein factorization suffices here; finiteness
+of its algebra is not being assumed.
+
+\begin{proposition}[Proper base change in degree zero]
+\label{pbc:degree-zero}
+For \eqref{pbc:square} with $f$ proper, and for every \'etale sheaf of
+sets $F$ on $X$, the map
+\[
+ \operatorname{Ex}^0_{\square,F}:
+ g^{-1}f_*F\xrightarrow{\sim} f'_*g'^{-1}F
+\]
+is an isomorphism. Moreover, for a geometric point
+$\bar y:\operatorname{Spec}\Omega\to Y$, restriction identifies
+\begin{equation}\label{pbc:h0-fibre}
+ (f_*F)_{\bar y}\xrightarrow{\sim}
+ \Gamma(X_{\bar y},F|_{X_{\bar y}}).
+\end{equation}
+\end{proposition}
+\begin{proof}
+Let $Y_{(\bar y)}=\operatorname{Spec}\mathcal O^{\mathrm{sh}}_{Y,\bar y}$
+and $X_{(\bar y)}=X\times_YY_{(\bar y)}$. The degree-zero strict-local
+stalk formula gives
+\[
+ (f_*F)_{\bar y}\simeq\Gamma(X_{(\bar y)},F|_{X_{(\bar y)}}).
+\]
+This formula uses only quasi-compactness, quasi-separatedness, and
+\'etale continuity, not proper base change
+(\stacks{03Q9}, whose degree-zero continuity proof also applies to
+sheaves of sets). To recall its mechanism, the left side is the
+filtered colimit of $\Gamma(X\times_YV,F|)$ over pointed affine
+\'etale neighbourhoods $V$ of $\bar y$. Their inverse limit is
+$Y_{(\bar y)}$. A section on the limit is represented on a finite
+\'etale covering of a quasi-compact scheme; the covering objects,
+section representatives, and their finitely many agreement conditions
+descend to one neighbourhood. This gives surjectivity of the
+continuity map; descending the finite agreement conditions for two
+representatives gives injectivity.
+
+The local ring of $Y_{(\bar y)}$ is strictly henselian. Its residue
+field $\kappa(y)^{\mathrm{sep}}\subseteq\Omega$ is separably closed.
+Theorem~\ref{pbc:henselian-h0} identifies the last section set with
+sections over $X_{\kappa(y)^{\mathrm{sep}}}$. Extending a separably
+closed ground field preserves sections of a pulled-back \'etale sheaf
+(\stacks{0A3I}), so these sections equal
+$\Gamma(X_{\bar y},F|_{X_{\bar y}})$. This proves
+\eqref{pbc:h0-fibre}. Here $F|$ means inverse image of the given sheaf,
+also when $\Omega$ has transcendental elements over the residue field.
+
+Now choose $\bar y':\operatorname{Spec}\Omega\to Y'$ and use its
+composite $\bar y=g\bar y'$ as the geometric point of $Y$. Properness
+is preserved by base change, so \eqref{pbc:h0-fibre} applies to $f'$ as
+well as $f$. The Cartesian square identifies
+\[
+ X'_{\bar y'}=X\times_Y\operatorname{Spec}\Omega=X_{\bar y}
+\]
+and identifies the two inverse-image sheaves there. Thus the stalks of
+both sides of the desired map are the same section set. A section
+represented over $X\times_YV$ maps under underived exchange to its
+restriction over the base-changed neighbourhood, and hence to its
+restriction on this same fibre. The stalk map is therefore the
+identity under the displayed identifications. Geometric stalks detect
+isomorphisms, proving the assertion.
+\end{proof}
+
+\subsection{Injective acyclicity and the passage to torsion complexes}
+
+\begin{definition}[Injective acyclicity]\label{pbc:ia}
+For a ring $\Lambda$, write $\mathrm{IA}_{\Lambda}(f)$ if for every
+Cartesian square \eqref{pbc:square} and every injective sheaf $I$ of
+$\Lambda$-modules on $X_{\et}$ which is torsion, one has
+\[
+ R^qf'_*g'^{-1}I=0\qquad(q>0).
+\]
+For a prime $r$, abbreviate
+$\mathrm{IA}_r(f)=\mathrm{IA}_{\Z/r\Z}(f)$; every
+$\Z/r\Z$-module sheaf is torsion. Write $\mathrm{IA}(f)$ if
+$\mathrm{IA}_r(f)$ holds for every prime $r$.
+\end{definition}
+
+The point of this condition is that $g'^{-1}I$ need not be injective.
+It asks for exactly the weaker property needed to compute its direct
+image without another resolution.
+
+\begin{lemma}[Acyclic resolutions]\label{pbc:acyclicity}
+Let $v:\mathcal A\to\mathcal B$ be a left exact additive functor
+between abelian categories with enough injectives. If
+$F\to A^\bullet$ is a resolution and each $A^m$ is $v$-acyclic, then
+\[
+ \mathcal H^q(vA^\bullet)\simeq R^qvF.
+\]
+More generally, for a bounded below complex $A^\bullet$ of
+$v$-acyclic objects, the canonical comparison
+$vA^\bullet\to Rv(A^\bullet)$ is an isomorphism in the derived
+category.
+\end{lemma}
+\begin{proof}
+For the first assertion put $Z^0=F$ and let $Z^{m+1}$ be the image of
+$A^m\to A^{m+1}$. The exact sequences
+\[
+ 0\longrightarrow Z^m\longrightarrow A^m\longrightarrow
+ Z^{m+1}\longrightarrow0
+\]
+give
+\[
+ \operatorname{coker}(vA^m\to vZ^{m+1})\simeq R^1vZ^m,
+ \qquad R^avZ^{m+1}\simeq R^{a+1}vZ^m\quad(a\geq1).
+\]
+Left exactness identifies the kernel of
+$vA^q\to vA^{q+1}$ with $vZ^q$. Consequently, for $q\geq1$,
+\[
+ \mathcal H^q(vA^\bullet)
+ =\operatorname{coker}(vA^{q-1}\to vZ^q)
+ \simeq R^1vZ^{q-1}\simeq\cdots\simeq R^qvF,
+\]
+and degree zero is $vF$.
+
+For the complex assertion first observe that a bounded below exact
+complex of $v$-acyclic objects remains exact after applying $v$.
+Indeed, its cycle sequences have the same form, starting with a zero
+cycle at the first nonzero degree. The long exact sequences show
+inductively that all cycles are $v$-acyclic, so each cycle sequence
+remains short exact after $v$. Now choose a quasi-isomorphism
+$A^\bullet\to J^\bullet$ to a bounded below complex of injectives.
+Its cone is bounded below, exact, and termwise $v$-acyclic, since its
+terms are finite direct sums of terms of $A^\bullet$ and of
+$J^\bullet$. Applying $v$ to the cone shows that
+$vA^\bullet\to vJ^\bullet$ is a quasi-isomorphism. The target
+computes $Rv(A^\bullet)$, proving the assertion.
+\end{proof}
+
+We also need \'etale continuity for filtered colimits. If $u:T\to S$
+is quasi-compact and quasi-separated, then
+\begin{equation}\label{pbc:filtered-colimits}
+ \varinjlim_i R^qu_*F_i\xrightarrow{\sim}
+ R^qu_*\bigl(\varinjlim_i F_i\bigr)\qquad(q\geq0)
+\end{equation}
+for every filtered system of abelian \'etale sheaves
+(\stacks{09Z1}). The assertion remains true after any base change.
+One can check it on affine \'etale $V\to S$: $R^qu_*F$ is the
+sheafification of $V\mapsto H^q(T\times_SV,F|)$, and the schemes
+$T\times_SV$ are quasi-compact and quasi-separated. The finite-cover
+and finite-hypercover continuity argument makes their cohomology
+commute with filtered colimits. In degree $q$, only a finite
+$(q+1)$-skeleton is needed to represent a class and to witness that a
+class dies, so both the cocycle and the finitely many equality
+conditions come from a single index. This continuity statement is
+independent of proper base change.
+
+\begin{theorem}[PBC and injective acyclicity]\label{pbc:ia-equivalence}
+Let $f:X\to Y$ be proper. The following are equivalent:
+\begin{enumerate}[label=(\roman*)]
+\item $\mathrm{PBC}(f)$ holds for bounded below complexes with torsion
+  cohomology sheaves.
+\item For every torsion abelian sheaf $F$ and every base change
+  \eqref{pbc:square}, the maps
+  \[
+   g^{-1}R^qf_*F\longrightarrow R^qf'_*g'^{-1}F
+  \]
+  are isomorphisms for all $q\geq0$.
+\item $\mathrm{IA}_r(f)$ holds for every prime $r$.
+\end{enumerate}
+For a commutative ring $\Lambda$ annihilated by a positive integer,
+the corresponding fixed-coefficient statement is
+$\mathrm{PBC}_{\Lambda}(f)\Longleftrightarrow
+\mathrm{IA}_{\Lambda}(f)$.
+\end{theorem}
+\begin{proof}
+Condition (i) implies (ii) by placing $F$ in degree zero. If (ii)
+holds and $I$ is injective among $\Z/r\Z$-module sheaves, then
+$Rf_*I=f_*I$ in that coefficient category. Compatibility with
+underlying abelian cohomology, explained after
+Convention~\ref{pbc:conventions}, gives the same equality of underlying
+derived direct images. Applying (ii) to $I$ makes
+$Rf'_*g'^{-1}I$ isomorphic to the degree-zero complex $g^{-1}f_*I$.
+This proves (iii).
+
+Assume (iii). We first prove (ii) for sheaves killed by a prime $r$.
+Choose an injective resolution $F\to I^\bullet$ among
+$\Z/r\Z$-module sheaves. Exactness of $g'^{-1}$ makes
+$g'^{-1}I^\bullet$ a resolution of $g'^{-1}F$, and (iii) makes its
+terms $f'_*$-acyclic. Lemma~\ref{pbc:acyclicity} therefore identifies
+$f'_*g'^{-1}I^\bullet$ with $Rf'_*g'^{-1}F$. The complex
+$g^{-1}f_*I^\bullet$ computes $g^{-1}Rf_*F$ because inverse image
+is exact. Proposition~\ref{pbc:degree-zero} gives an isomorphism
+\[
+ g^{-1}f_*I^m\xrightarrow{\sim} f'_*g'^{-1}I^m
+\]
+in each degree. Naturality makes these into an isomorphism of
+complexes. Formula~\eqref{pbc:exchange-resolution} identifies that
+isomorphism with the derived exchange map. This proves all degrees
+of (ii) for prime-torsion sheaves.
+
+Next suppose $nF=0$. Induct on the number of prime factors of $n$,
+counted with multiplicity. The case $n=1$ is trivial. Choose a prime
+$r\mid n$ and use
+\[
+ 0\longrightarrow F[r]\longrightarrow F
+ \xrightarrow{r}rF\longrightarrow0.
+\]
+The kernel is killed by $r$, and the image $rF$ is killed by $n/r$.
+Applying the two derived functors gives a morphism of distinguished
+triangles whose outer exchange maps are isomorphisms by the preceding
+case and induction. The middle exchange is an isomorphism, by the
+long exact cohomology sequences and the five lemma. Thus (ii) holds
+for all sheaves killed by an integer.
+
+For a general torsion sheaf, write $F=\varinjlim_n F[n]$ as in
+Definition~\ref{pbc:property}. Inverse images commute with colimits,
+and both $f$ and $f'$ are quasi-compact and quasi-separated. Equation
+\eqref{pbc:filtered-colimits} identifies the exchange map in degree
+$q$ for $F$ with the filtered colimit of those for $F[n]$. Hence it
+is an isomorphism. This proves (ii).
+
+Finally let $K\in\D^+(X_{\et},\Z)$ have torsion cohomology. If $K$
+is bounded, induction on its cohomological length using the canonical
+truncation triangles and (ii) proves that its exchange map is an
+isomorphism. In general fix a degree $m$ and choose $N\geq m$.
+The complex $\tau_{\leq N}K$ is bounded and has the desired
+comparison. Both functors $g^{-1}Rf_*$ and $Rf'_*g'^{-1}$ send
+$\D^{\geq N+1}$ into $\D^{\geq N+1}$, since inverse images are exact
+and derived direct images are left $t$-exact. Applying them to
+\[
+ \tau_{\leq N}K\longrightarrow K\longrightarrow
+ \tau_{\geq N+1}K\xrightarrow{+1}
+\]
+shows that comparison for $K$ in degree $m$ is the comparison for
+$\tau_{\leq N}K$. It is an isomorphism. Since $m$ was arbitrary,
+(i) follows. No bound on the cohomological dimension of $f$ has been
+used in this truncation argument.
+
+For the fixed ring $\Lambda$ annihilated by an integer, every module
+sheaf is torsion. The same injective-resolution argument proves the
+sheaf assertion directly from $\mathrm{IA}_{\Lambda}(f)$, and the
+same truncation argument proves it for $\D^+$. The reverse implication
+follows by applying exchange to an injective $\Lambda$-module sheaf.
+\end{proof}
+
+\begin{remark}\label{pbc:proof-division}
+The preceding theorem is a criterion, not yet the proof of higher
+proper base change. Its only use of proper geometry is the
+degree-zero comparison of Proposition~\ref{pbc:degree-zero}.
+What remains is to establish $\mathrm{IA}_r(f)$ for proper $f$ and
+every prime $r$. The next step proves this for $\PP^1_S\to S$; the following step
+reduces arbitrary proper morphisms to that case. The prime-to-characteristic and
+characteristic-prime calculations in the latter step are different,
+although their categorical use in this criterion is identical.
+\end{remark}
+\subsection{The projective line: the geometric step}
+\label{pbc:projective-line-section}
+
+We now establish proper base change for
+$p:\PP^1_S\to S$.  The argument follows the curve-calculation route of
+the blueprint: first compare a projective line over a henselian local ring
+with its closed fibre, then identify geometric stalks, and finally use
+invariance of curve cohomology under extension of separably closed fields.
+The prime occurring in this proof is denoted by $r$; it need not be
+invertible on $S$.
+
+\subsubsection{The geometric inputs and their logical position}
+
+We use two independent henselian results.  They hold without Noetherian
+or characteristic restrictions.
+\begin{enumerate}[label=(\roman*)]
+\item \emph{Gabber's affine henselian comparison.}
+If $(B,J)$ is a henselian pair and $G$ is a torsion abelian sheaf on
+$\operatorname{Spec}(B)_{\et}$, restriction induces
+\[
+ H^q(\operatorname{Spec}B,G)
+ \xrightarrow{\sim}
+ H^q(\operatorname{Spec}(B/J),G|)
+ \qquad(q\geq0).
+\]
+This is \stacks{09ZI}; its proof is an affine effacement argument.
+\item \emph{Lifting finite \'etale covers over a proper henselian pair.}
+If $Y$ is proper over a henselian pair $(B,J)$, and
+$Y_0=Y\times_B B/J$, restriction gives an equivalence
+\[
+ \mathsf{F\acute Et}(Y)\xrightarrow{\sim}
+ \mathsf{F\acute Et}(Y_0).
+\]
+This is \stacks{0GS2}, proved by algebraization, approximation, and
+descent of finite presentation.  In particular, for a finite abelian
+group $M$, it gives
+\begin{equation}
+ H^1(Y,\underline M)\xrightarrow{\sim}H^1(Y_0,\underline M).
+ \label{pbc:finite-torsors}
+\end{equation}
+Indeed, these groups classify $M$-torsors.  Finite \'etale covers, their
+group actions, and the equations expressing simple transitivity are
+transported by the equivalence.
+\end{enumerate}
+These results are inputs to the proof below.  Neither is being deduced
+from the torsion proper base change theorem we are about to prove.
+The degree-zero result of Theorem~\ref{pbc:henselian-h0} is a third,
+already established, ingredient.  Sections comparison and equivalence
+of finite \'etale covers are separate statements: the former alone does
+not provide the existence of a lifted cover.
+
+Here is the curve input used later.  We state its full scope to keep track
+of the distinction between proper curves and affine curves in the
+residue characteristic.
+
+\begin{theorem}[Standard curve-cohomology input]
+\label{pbc:curve-input}
+Let $k$ be algebraically closed, let $C$ be a separated scheme of finite
+type over $k$ with $\dim C\leq1$, and let $F$ be a torsion abelian sheaf on
+$C_{\et}$.  The following assertions hold:
+\begin{enumerate}[label=$(C_{\arabic*})$,leftmargin=3.5em]
+\item $H^q(C,F)=0$ for $q>2$.
+\item If $C$ is affine, $H^q(C,F)=0$ for $q>1$.
+\item If $\operatorname{char}k=p>0$ and $F$ is $p$-primary,
+  $H^q(C,F)=0$ for $q>1$.
+\item If $F$ is constructible with finite stalks and prime to
+  $\operatorname{char}k$, all $H^q(C,F)$ are finite.
+\item If $C$ is proper and $F$ is constructible with finite stalks,
+  all $H^q(C,F)$ are finite.
+\item If $k'/k$ is an extension of algebraically closed fields and $F$
+  is prime to $\operatorname{char}k$, the pullback maps
+  $H^q(C,F)\to H^q(C_{k'},F|)$ are isomorphisms.
+\item If $C$ is proper, the maps in $(C_6)$ are isomorphisms for every
+  torsion $F$.
+\item For any open $U\subseteq C$, restriction
+  $H^2(C,F)\to H^2(U,F|_U)$ is surjective.
+\end{enumerate}
+In characteristic zero, the condition ``prime to the characteristic''
+places no restriction on a torsion sheaf.
+\end{theorem}
+
+This is the curve theorem of \stacks{03SC}, corresponding to the
+blueprint's eight assertions and its curve-estimate chapter.  Its
+independent curve calculations are standard geometric inputs here; they
+are not consequences of the proper base change theorem in these notes.
+To indicate their content, for a smooth proper connected curve of genus
+$g$ and an integer $n$ invertible in $k$, the Kummer sequence, the
+Jacobian, and higher vanishing for $\mathbf G_m$ (\stacks{03RM}) give
+\[
+ \begin{aligned}
+ H^0(C,\mu_n)&=\mu_n(k),&
+ H^1(C,\mu_n)&=\operatorname{Pic}^0(C)[n],\\
+ H^2(C,\mu_n)&=\Z/n,&
+ H^q(C,\mu_n)&=0\quad(q>2).
+ \end{aligned}
+\]
+The degree map gives the identification in degree two
+(\stacks{03RQ}).  In degree one the relevant group is the $n$-torsion
+of the Jacobian, whose geometric points do not change under an
+algebraically closed extension.  Thus these are identifications of the
+\emph{pullback maps}, not just a comparison of group cardinalities.
+
+For the characteristic-$p$ part, the Artin--Schreier sequence
+\[
+ 0\longrightarrow\mathbf F_p\longrightarrow\cO_C
+ \xrightarrow{\operatorname{Fr}-1}\cO_C\longrightarrow0
+\]
+is used instead.  On a proper smooth connected curve it gives
+\[
+ H^1(C,\mathbf F_p)
+ =\ker(\operatorname{Fr}-1\mid H^1(C,\cO_C)),\qquad
+ H^q(C,\mathbf F_p)=0\quad(q>1).
+\]
+The kernel is a finite \'etale group over $k$: the additive polynomial
+map $\operatorname{Fr}-1$ on the finite-dimensional cohomology space
+is surjective and has finite \'etale kernel.  Coherent flat base change
+therefore gives invariance of this kernel under algebraically closed
+extension (\stacks{0A3P}).  It has $\mathbf F_p$-dimension at most $g$;
+there is no assertion that it has dimension $2g$.
+
+For general coefficients one first uses constructible approximation and
+primary d\'evissage, then removes finitely many closed points so the
+remaining sheaf is finite locally constant.  A finite \'etale cover of degree
+prime to $r$ reduces its monodromy to an $r$-group; the resulting
+$\mathbf F_r$-representation has a filtration with constant quotients.
+The unit followed by trace is multiplication by the degree, so the
+original sheaf is a direct summand of this finite pushforward.
+Normalization and extension by zero then reduce to the smooth constant
+calculation.  This is the independent curve d\'evissage, rather than an
+appeal to the later smooth-purity or relative $\PP^1$ computations.
+
+\begin{lemma}[Extension of a separably closed ground field]
+\label{pbc:curve-field-extension}
+Let $k\subseteq k'$ be separably closed fields, let $C$ be proper over $k$
+with $\dim C\leq1$, and let $F$ be a torsion abelian sheaf on $C_{\et}$.
+Then the natural map
+\[
+ H^q(C,F)\xrightarrow{\sim}H^q(C_{k'},F|)
+ \qquad(q\geq0)
+\]
+is an isomorphism.
+\end{lemma}
+\begin{proof}
+Choose compatible algebraic closures $\bar k\subseteq\bar k'$.
+Because $k$ and $k'$ are separably closed, both $\bar k/k$ and
+$\bar k'/k'$ are purely inseparable.  The maps
+$C_{\bar k}\to C$ and $C_{\bar k'}\to C_{k'}$ are universal
+homeomorphisms, so they induce equivalences of small \'etale topoi
+(\stacks{03SI}).  The natural restriction square
+\[
+ \begin{CD}
+ H^q(C,F) @>>> H^q(C_{k'},F|)\\
+ @V{\sim}VV @VV{\sim}V\\
+ H^q(C_{\bar k},F|) @>>> H^q(C_{\bar k'},F|)
+ \end{CD}
+\]
+commutes.  Its bottom map is an isomorphism by $(C_7)$ of
+Theorem~\ref{pbc:curve-input}.  Hence so is the top map.
+This passage is also recorded in \stacks{0A5E}.
+\end{proof}
+
+\begin{remark}
+Properness in $(C_7)$ is essential when the torsion includes the
+characteristic.  For example, in characteristic $p$,
+\[
+ H^1(\A^1_k,\mathbf F_p)
+ =k[t]/\{h^p-h:h\in k[t]\},
+\]
+and extending an algebraically closed ground field can add new classes.
+Thus the field-extension step below uses \emph{proper} curve invariance,
+even though no invertibility hypothesis is imposed on the coefficients.
+\end{remark}
+
+\subsubsection{Restriction of injectives to the closed fibre}
+
+Let $A$ be a henselian local ring with maximal ideal $\mathfrak m$ and
+residue field $k$.  Set
+\[
+ X=\PP^1_A,\qquad X_0=\PP^1_k,\qquad i:X_0\hookrightarrow X.
+\]
+For a sheaf $G$ on $X_{\et}$ write $G_0=i^{-1}G$.
+
+We also use two standard finiteness facts about small \'etale topoi of
+quasi-compact quasi-separated schemes.  A sheaf of
+$\mathbf F_r$-modules is a filtered colimit of constructible ones
+(\stacks{03SA}), and cohomology commutes with filtered colimits
+(\stacks{03Q5}).  Moreover, a constructible sheaf $G$ of
+$\mathbf F_r$-modules admits a monomorphism
+\begin{equation}
+ G\lhook\joinrel\longrightarrow
+ \bigoplus_{a=1}^N(h_a)_*\underline{M_a},
+ \qquad h_a:Y_a\to X\ \text{finite and finitely presented},
+ \label{pbc:constructible-finite-embedding}
+\end{equation}
+with $M_a$ finite $\mathbf F_r$-modules (\stacks{09Z7}).  The
+quasi-compact quasi-separated hypothesis suffices; no Noetherian
+hypothesis on $A$ is implicit here.
+
+The finite direct-image fact used with
+\eqref{pbc:constructible-finite-embedding} is the independent finite case
+of Lemma~\ref{pbc:finite}:
+\begin{equation}
+ R^qh_*G=0\quad(q>0),\qquad
+ i^{-1}h_*G\xrightarrow{\sim}(h_0)_*i_Y^{-1}G
+ \quad(h\text{ finite}).
+ \label{pbc:finite-direct-image-used}
+\end{equation}
+It follows from the decomposition of a finite scheme over a strict
+localization into strictly henselian local schemes
+(\stacks{03QP}, \stacks{0959}), and does not presuppose the general
+proper base change theorem.
+
+\begin{lemma}[Acyclicity on the closed projective line]
+\label{pbc:p1-injective-fibre}
+If $I$ is an injective sheaf of $\mathbf F_r$-modules on $X_{\et}$,
+then $H^q(X_0,I_0)=0$ for every $q>0$.
+\end{lemma}
+\begin{proof}
+First consider an affine open $W=\operatorname{Spec}B$ of $X$, and set
+$J=\mathfrak mB$.  Form the henselization $(B^h,JB^h)$ of the pair
+$(B,J)$.  It has quotient $B/J$, and $B^h$ is the filtered colimit
+of the \'etale $B$-algebras $B'$ equipped with
+$B'/JB'\simeq B/J$.  Gabber's affine comparison and \'etale cohomology
+continuity give
+\begin{equation}
+ H^q(W_0,I_0|_{W_0})
+ \simeq H^q(\operatorname{Spec}B^h,I|)
+ \simeq\varinjlim_{B'}H^q(\operatorname{Spec}B',I|).
+ \label{pbc:affine-neighbourhood-vanishing}
+\end{equation}
+Restriction of an injective to an \'etale object is injective: the
+restriction functor has the exact left adjoint given by extension by
+zero in the localized site.  Thus every group on the right vanishes for
+$q>0$.  Notice that the comparison involves the henselized
+neighbourhoods, not a claim that $W$ itself is a henselian pair.
+
+The two standard affine charts $U,V\subset X$ have affine intersection.
+Consequently $U_0,V_0$, and $(U\cap V)_0$ are acyclic for the
+restriction of $I$ in positive degrees, by
+\eqref{pbc:affine-neighbourhood-vanishing}.  Mayer--Vietoris on $X_0$
+then gives $H^q(X_0,I_0)=0$ for $q\geq2$.  This is the two-chart
+case of \stacks{0A51}.
+
+It remains to deal with $\xi\in H^1(X_0,I_0)$.  Write $I$ as a filtered
+colimit of constructible $\mathbf F_r$-sheaves.  Pullback commutes with
+this colimit, as does $H^1$ on $X_0$.  Hence $\xi$ is the image of a
+class $\zeta\in H^1(X_0,G_0)$ for some constructible $G$ with a map
+$G\to I$.  Choose \eqref{pbc:constructible-finite-embedding} and put
+$P=\bigoplus_a(h_a)_*\underline{M_a}$.  Injectivity of $I$ extends
+$G\to I$ to $P\to I$; let $\zeta'$ be the image of $\zeta$ in
+$H^1(X_0,P_0)$.
+
+By \eqref{pbc:finite-direct-image-used} and Leray,
+\[
+ H^1(X_0,P_0)
+ \simeq\bigoplus_a H^1((Y_a)_0,\underline{M_a}),\qquad
+ H^1(X,P)\simeq\bigoplus_a H^1(Y_a,\underline{M_a}).
+\]
+Each $Y_a$ is proper over $A$, since it is finite over $X$.  The
+finite-torsor comparison \eqref{pbc:finite-torsors} therefore lifts
+$\zeta'$ to a class $\widetilde\zeta\in H^1(X,P)$.
+Its image in $H^1(X,I)$ is zero because $I$ is injective.  The natural
+restriction square
+\[
+ \begin{CD}
+ H^1(X,P) @>>> H^1(X,I)\\
+ @VVV @VVV\\
+ H^1(X_0,P_0) @>>> H^1(X_0,I_0)
+ \end{CD}
+\]
+shows that the image $\xi$ of $\zeta'$ is zero.  This proves the remaining
+degree.  The argument is the one in \stacks{0A5H}.
+\end{proof}
+
+\begin{proposition}[Henselian comparison for the projective line]
+\label{pbc:p1-henselian}
+For a henselian local ring $A$ and any torsion abelian sheaf $F$ on
+$\PP^1_A$, restriction induces natural isomorphisms
+\[
+ H^q(\PP^1_A,F)\xrightarrow{\sim}
+ H^q(\PP^1_k,F_0)\qquad(q\geq0).
+\]
+\end{proposition}
+\begin{proof}
+Suppose first that $rF=0$ for a prime $r$.  Take an injective resolution
+$F\to I^\bullet$ in sheaves of $\mathbf F_r$-modules on $X_{\et}$.
+Since $i^{-1}$ is exact, $F_0\to I_0^\bullet$ remains a resolution;
+Lemma~\ref{pbc:p1-injective-fibre} makes it a resolution by
+$\Gamma(X_0,-)$-acyclic sheaves.  Theorem~\ref{pbc:henselian-h0}
+identifies the two complexes of sections term by term:
+\[
+ \Gamma(X,I^\bullet)\xrightarrow{\sim}
+ \Gamma(X_0,I_0^\bullet).
+\]
+The left complex computes $R\Gamma(X,F)$, and the right computes
+$R\Gamma(X_0,F_0)$.  Thus their natural restriction map is a
+quasi-isomorphism.
+
+The class of sheaves for which this holds is closed under extensions,
+by the natural long exact cohomology sequences.  A sheaf killed by
+$r^a$ has a finite filtration with quotients killed by $r$; a sheaf
+killed by an integer $n$ is the finite direct sum of its primary parts.
+This gives the result for sheaves of bounded torsion.  Finally,
+$F=\varinjlim_n F[n]$, with positive integers ordered by divisibility.
+Both $X$ and $X_0$ are quasi-compact and quasi-separated, so
+\stacks{03Q5} passes the comparison to this filtered colimit.  All maps
+used are restriction maps, which also proves naturality in $F$.
+\end{proof}
+
+\subsubsection{Geometric stalks and arbitrary base change}
+
+Before applying the comparison, recall the strict-localization stalk
+formula.  For a quasi-compact quasi-separated $f:Z\to S$, a geometric
+point $\bar s$, and an abelian \'etale sheaf $G$, it says
+\begin{equation}
+ (R^qf_*G)_{\bar s}
+ \simeq H^q(Z\times_SS_{(\bar s)},G|),\qquad
+ S_{(\bar s)}=\operatorname{Spec}\cO^{\mathrm{sh}}_{S,\bar s}.
+ \label{pbc:strict-local-stalk}
+\end{equation}
+This statement precedes proper base change: the stalk is the filtered
+colimit of $H^q(Z\times_SV,G|)$ over pointed \'etale neighbourhoods
+$(V,\bar v)$ of $\bar s$, and \'etale cohomology continuity identifies
+that colimit with the cohomology of the indicated limit scheme
+(\stacks{03Q9}).
+
+\begin{proposition}[Proper base change for the projective line]
+\label{pbc:p1}
+Let $S$ be any scheme and $\Lambda$ any commutative ring.  In the
+cartesian square
+\[
+ \begin{CD}
+ \PP^1_T @>{g'}>> \PP^1_S\\
+ @V{p'}VV @VV{p}V\\
+ T @>{g}>> S,
+ \end{CD}
+\]
+the exchange map
+\[
+ g^{-1}Rp_*K\longrightarrow Rp'_*g'^{-1}K
+\]
+is an isomorphism for every $K\in D^+(\PP^1_{S,\et},\Lambda)$
+with torsion cohomology sheaves.  In particular, the projection satisfies
+the injective-acyclicity criterion of Proposition~\ref{pbc:ia-equivalence}.
+\end{proposition}
+\begin{proof}
+We first take a torsion sheaf $F$ in degree zero.  Choose a geometric
+point $\bar t:\operatorname{Spec}\Omega\to T$ and put
+$\bar s=g\bar t$.  The strict localizations fit into a natural map
+$T_{(\bar t)}\to S_{(\bar s)}$ of strictly henselian local schemes.
+Write $k_s,k_t$ for their residue fields; these are separably closed,
+and the map induces an inclusion $k_s\hookrightarrow k_t$.
+For each $q\geq0$, \eqref{pbc:strict-local-stalk} and
+Proposition~\ref{pbc:p1-henselian} give the commutative diagram
+\[
+ \begin{CD}
+ (g^{-1}R^qp_*F)_{\bar t}
+ @>{\operatorname{Ex}_{\bar t}}>>
+ (R^qp'_*g'^{-1}F)_{\bar t}\\
+ @V{\sim}VV @VV{\sim}V\\
+ H^q(\PP^1_{S_{(\bar s)}},F|)
+ @>>> H^q(\PP^1_{T_{(\bar t)}},F|)\\
+ @V{\sim}VV @VV{\sim}V\\
+ H^q(\PP^1_{k_s},F|)
+ @>>> H^q(\PP^1_{k_t},F|).
+ \end{CD}
+\]
+The middle and bottom arrows are the natural pullback maps.  The
+top square commutes by the definition of exchange: a section over
+$\PP^1_V$, for a pointed \'etale neighbourhood $V\to S$, is pulled
+back to $\PP^1_{V\times_ST}$.  Passing to the two strict localization
+limits gives exactly the middle arrow.  The bottom square is naturality
+of restriction to the closed fibres.  Thus this diagram identifies the
+\emph{specified exchange map}, rather than just its source and target.
+
+The bottom arrow is an isomorphism by
+Lemma~\ref{pbc:curve-field-extension}.  Hence every geometric stalk
+of $g^{-1}R^qp_*F\to R^qp'_*g'^{-1}F$ is an isomorphism.
+Geometric stalks are conservative, so exchange is an isomorphism for
+$F$ as an object of $D^+$.  Cohomology and higher direct image of
+$\Lambda$-module sheaves agree with those of their underlying abelian
+sheaves, so this also proves the assertion with the stated coefficient
+ring and its module structure.
+
+Now let $K\in D^+$ have torsion cohomology and fix $m\in\Z$.
+The two functors in exchange send $D^{\geq m+1}$ into
+$D^{\geq m+1}$, since inverse image is exact and direct image is
+left exact.  The truncation triangle for $\tau_{\leq m}K$ therefore
+reduces the degree-$m$ assertion to $\tau_{\leq m}K$, which is bounded.
+Successive truncation triangles reduce this bounded case to the
+shifted torsion sheaves $H^a(K)[-a]$.  Exchange is compatible with
+these triangles and has already been proved for those sheaves.
+It follows that exchange is an isomorphism in every degree for $K$.
+
+Finally, if $I$ is a torsion injective sheaf of $\Lambda$-modules, then
+$R^qp_*I=0$ for $q>0$.  The sheaf case of the theorem gives
+$R^qp'_*g'^{-1}I\simeq g^{-1}R^qp_*I=0$.  For
+$\Lambda=\mathbf F_r$ this is precisely the injective criterion needed
+in the next reduction.
+\end{proof}
+
+\begin{remark}
+The proof keeps the two geometric steps distinct.  Henselian comparison
+uses affine effacement and lifting of finite torsors; passage from one
+geometric stalk to another uses the curve calculation.  The explicit
+relative $\PP^1$ cohomology formula, its trace, and smooth purity may
+subsequently use proper base change.  None of them has been used to
+establish Proposition~\ref{pbc:p1}.
+\end{remark}
+\subsection{From the projective line to arbitrary proper morphisms}
+\label{pbc:sec-reduction}
+
+The projective-line case contains the cohomological difficulty of the
+theorem. The remaining reduction uses finite morphisms, a finite cover of
+projective space, and Chow's lemma. We give the reduction explicitly,
+including the direct-summand argument that allows a proper surjection to
+be cancelled.
+
+\begin{lemma}[Finite morphisms]\label{pbc:finite}
+Let $u:V\to W$ be finite. For an abelian sheaf $F$ and a geometric point
+$\bar w:\operatorname{Spec}(\Omega)\to W$, with $\Omega$ algebraically
+closed, one has
+\[
+ (u_*F)_{\bar w}
+ \simeq \prod_{\substack{\bar v:\operatorname{Spec}(\Omega)\to V\\
+                         u\bar v=\bar w}}F_{\bar v}.
+\]
+The product is finite. The functor $u_*$ is exact, and its formation
+commutes with arbitrary base change. Consequently the derived exchange
+is an isomorphism for every bounded below complex, with any constant
+coefficient ring; no torsion assumption is needed in this lemma.
+\end{lemma}
+
+\begin{proof}
+After passage to the strict henselization of $W$ at $\bar w$, the finite
+scheme $V$ is a finite disjoint union of strictly henselian local schemes.
+On each such local scheme, sections of an \'etale sheaf are its stalk at
+the closed geometric point. Indeed, every \'etale neighbourhood of that
+point admits a section, so a germ extends to a global section, and two
+extensions agreeing as germs agree after such a section. This also makes
+sections exact on abelian sheaves. The strict-local description of direct
+image therefore gives the displayed formula; see \stacks{03QP}.
+Geometric stalks are conservative and finite products of abelian groups
+are exact, so $u_*$ is exact.
+
+In a cartesian base-change square, the two geometric fibres are
+canonically the same after using the same geometric field. The
+underived exchange is the identity on the corresponding factors of the
+displayed formula. It is therefore an isomorphism. Both direct images in
+the square are exact, so their derived functors and the exchange can be
+computed term by term. The same argument applies to sheaves of modules.
+\end{proof}
+
+\begin{lemma}[Composition and cancellation]\label{pbc:composition-cancellation}
+Let $X\xrightarrow{u}Y\xrightarrow{v}Z$ be proper morphisms.
+\begin{enumerate}[label=(\roman*)]
+\item If $\mathrm{PBC}(u)$ and $\mathrm{PBC}(v)$ hold, then
+      $\mathrm{PBC}(vu)$ holds.
+\item If $u$ is surjective and $\mathrm{PBC}(u)$ and
+      $\mathrm{PBC}(vu)$ hold, then $\mathrm{PBC}(v)$ holds.
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+We use Proposition~\ref{pbc:ia-equivalence}. Fix a prime $r$ and an
+arbitrary base change $c:Z'\to Z$. Write $a:X'\to X$ and $b:Y'\to Y$
+for the projections, and $u':X'\to Y'$, $v':Y'\to Z'$ for the induced
+maps. Since inverse image of constant-coefficient module sheaves is
+exact, its right adjoint $u_*$ preserves injectives. Thus the
+Grothendieck spectral sequence for direct images is available:
+\begin{equation}\label{pbc:leray-reduction}
+ R^pv'_*R^qu'_*a^{-1}J
+ \ \Longrightarrow\ R^{p+q}(v'u')_*a^{-1}J.
+\end{equation}
+It is a first-quadrant spectral sequence, natural in the sheaf $J$;
+see \stacks{0734}. These are precisely the spectral-sequence hypotheses:
+the first direct image takes injectives to injectives, hence to objects
+acyclic for the second direct image.
+
+For (i), let $J$ be injective among $\mathbf F_r$-module sheaves on $X$.
+The condition $\mathrm{IA}_r(u)$ gives
+$R^qu'_*a^{-1}J=0$ for $q>0$. Degree-zero proper base change
+(Proposition~\ref{pbc:degree-zero}) identifies
+\[
+ u'_*a^{-1}J\simeq b^{-1}u_*J.
+\]
+The sheaf $u_*J$ is injective, so $\mathrm{IA}_r(v)$ kills
+$R^pv'_*b^{-1}u_*J$ for $p>0$. Thus
+\eqref{pbc:leray-reduction} gives
+$R^m(v'u')_*a^{-1}J=0$ for $m>0$. This proves
+$\mathrm{IA}_r(vu)$ for every $r$, and hence (i).
+
+For (ii), let $I$ be injective among $\mathbf F_r$-module sheaves on $Y$.
+Choose a monomorphism of sheaves
+\[
+             u^{-1}I\lhook\joinrel\longrightarrow J
+\]
+with $J$ injective on $X$, and let $\iota:I\to u_*J$ be its adjoint.
+This is a global sheaf morphism. It is monic: for a geometric point
+$\bar y$ choose a geometric point $\bar x$ above it, which exists by
+surjectivity of $u$. The composite
+\[
+ I_{\bar y}\xrightarrow{\iota_{\bar y}}(u_*J)_{\bar y}
+ \longrightarrow J_{\bar x}
+\]
+is the stalk of the chosen monomorphism, under
+$(u^{-1}I)_{\bar x}=I_{\bar y}$, so it is injective.
+Injectivity of $I$ now supplies a sheaf map $s:u_*J\to I$ satisfying
+$s\iota=\mathrm{id}_I$. Thus $I$ is a direct summand of $u_*J$.
+
+The assumptions on $u$ and $vu$ give
+\[
+ R^qu'_*a^{-1}J=0\quad(q>0),\qquad
+ R^m(v'u')_*a^{-1}J=0\quad(m>0).
+\]
+The spectral sequence \eqref{pbc:leray-reduction} collapses to its
+$q=0$ row and gives
+\[
+ R^pv'_*b^{-1}u_*J
+ \simeq R^pv'_*u'_*a^{-1}J=0\qquad(p>0).
+\]
+The splitting of $I\to u_*J$ remains a splitting after $b^{-1}$.
+Higher direct image preserves finite direct sums and their direct
+summands, so $R^pv'_*b^{-1}I=0$ for $p>0$. This proves
+$\mathrm{IA}_r(v)$, and (ii) follows for all primes $r$.
+\end{proof}
+
+\begin{lemma}[A finite cover of projective space]\label{pbc:symmetric-product}
+For every scheme $S$ and every $n\geq1$ there is a finite surjective
+$S$-morphism
+\[
+ \sigma_n:(\mathbf P^1_S)^n\longrightarrow\mathbf P^n_S.
+\]
+If $\mathrm{PBC}(\mathbf P^1_T\to T)$ holds for every scheme $T$, then
+$\mathrm{PBC}(\mathbf P^n_S\to S)$ holds for every $S$ and $n\geq0$.
+\end{lemma}
+
+\begin{proof}
+Use the coefficients of a product of binary linear forms:
+\[
+ \prod_{i=1}^n(x_iT+y_iU)
+       =\sum_{j=0}^nF_jT^{n-j}U^j,\qquad
+ \sigma_n\bigl(([x_i:y_i])_i\bigr)=[F_0:\cdots:F_n].
+\]
+Every $F_j$ is homogeneous of degree one in each pair $(x_i,y_i)$.
+The corresponding sections of $\mathcal O(1,\ldots,1)$ have no common
+zero: at a geometric point every linear factor is nonzero, so their
+product is nonzero. They therefore define the stated morphism over any
+$S$, and the construction commutes with base change.
+
+The elementary symmetric-polynomial description is visible on the
+target chart $F_0\ne0$. Its preimage is the chart where every $x_i$ is
+invertible. Over an affine base $\operatorname{Spec}(A)$ put
+$w_i=y_i/x_i$ and $c_j=F_j/F_0$. The coordinate map is
+\[
+ A[c_1,\ldots,c_n]\longrightarrow A[w_1,\ldots,w_n],
+       \qquad c_j\longmapsto e_j(w_1,\ldots,w_n).
+\]
+Each $w_i$ satisfies the monic equation
+\[
+ W^n-c_1W^{n-1}+c_2W^{n-2}-\cdots+(-1)^nc_n=0.
+\]
+This makes the map finite on that chart.
+
+Global finiteness follows from properness and finite fibres. The source
+is proper over $S$ and the target is separated over $S$, so $\sigma_n$
+is proper, by the closed-graph argument. Over an algebraically closed
+field a nonzero binary form of degree $n$ has a unique multiset of
+linear factors up to nonzero scalars. Its fibre therefore has at most
+$n!$ geometric points, given by their orderings. The fibres are of
+finite type over fields; having finitely many geometric points makes
+them zero dimensional. Thus $\sigma_n$ is quasi-finite, and a proper
+quasi-finite morphism is finite (\stacks{02LS}). Factorization of binary
+forms also shows that every geometric fibre is nonempty, so $\sigma_n$
+is surjective. This argument includes forms with a root at infinity.
+
+The projection $(\mathbf P^1_S)^n\to S$ is a composite of $n$
+projective-line projections over successive bases. It satisfies PBC by
+the hypothesis and Lemma~\ref{pbc:composition-cancellation}(i).
+Lemma~\ref{pbc:finite} gives PBC for $\sigma_n$.
+Lemma~\ref{pbc:composition-cancellation}(ii) cancels $\sigma_n$ and gives
+PBC for $\mathbf P^n_S\to S$. The case $n=0$ is the identity.
+\end{proof}
+
+\begin{lemma}[The form of Chow's lemma needed here]\label{pbc:chow}
+Let $f:X\to Y$ be proper with $Y$ affine. There exist a proper
+surjection $\pi:\widetilde X\to X$ and a closed immersion
+$i_Y:\widetilde X\hookrightarrow\mathbf P^n_Y$ such that
+$f\pi=q_Yi_Y$, where $q_Y:\mathbf P^n_Y\to Y$ is the projection.
+Moreover
+\[
+ i_X=(\pi,i_Y):\widetilde X\lhook\joinrel\longrightarrow
+       X\times_Y\mathbf P^n_Y=\mathbf P^n_X
+\]
+is a closed immersion. In particular both $\pi$ and $f\pi$ are
+projective morphisms.
+\end{lemma}
+
+\begin{proof}
+Chow's lemma over a quasi-compact quasi-separated base gives a proper
+surjection $\pi:\widetilde X\to X$ and an immersion
+$i_Y:\widetilde X\to\mathbf P^n_Y$; the version valid for arbitrary
+affine $Y$ is \stacks{0202}. Since $f\pi$ is proper and
+$\mathbf P^n_Y$ is separated over $Y$, the closed-graph argument makes
+$i_Y$ proper. A proper immersion is a closed immersion.
+
+For $i_X$, factor the map as
+\[
+ \widetilde X\xrightarrow{\Gamma_\pi}
+ \widetilde X\times_YX
+ \xrightarrow{i_Y\times\mathrm{id}_X}
+ \mathbf P^n_Y\times_YX.
+\]
+The first map is a closed immersion because $X$ is separated over $Y$;
+the second is a base change of $i_Y$. Hence their composite is a closed
+immersion, proving the additional assertion.
+\end{proof}
+
+\begin{remark}[The scope of the geometric input]\label{pbc:chow-scope}
+For schemes of finite type over the field $k$, the Noetherian version
+of Chow's lemma from the blueprint suffices. To retain the arbitrary-
+scheme statement in this section, one uses the stated version
+\stacks{0202}. Its approximation step first places a separated
+finite-type scheme as a closed subscheme of a separated scheme of
+finite presentation over the base. One descends the latter to a
+Noetherian approximation, applies Chow's lemma there, and pulls its
+cover back to the closed subscheme. Thus the argument does not presume
+that every proper morphism over a non-Noetherian base has finite
+presentation. After localization the base is affine, so the
+quasi-compactness and quasi-separatedness required for this input hold.
+\end{remark}
+
+\begin{proposition}[Reduction to the projective line]\label{pbc:reduction}
+If $\mathrm{PBC}(\mathbf P^1_S\to S)$ holds for every scheme $S$,
+then $\mathrm{PBC}(f)$ holds for every proper morphism of schemes $f$.
+\end{proposition}
+
+\begin{proof}
+The assertion is local on the target. In fact, higher direct images
+restrict to the corresponding higher direct images over an \'etale
+open of the target, compatibly with the canonical exchange. For an
+arbitrary base change $Y'\to Y$, the inverse images of an affine open
+cover of $Y$ cover $Y'$, where geometric stalks detect an isomorphism.
+We may therefore suppose $Y$ affine.
+
+Apply Lemma~\ref{pbc:chow}. The two maps $\pi$ and $f\pi$ factor as
+closed immersions $i_X$ and $i_Y$ followed by projective-space
+projections. Closed immersions are finite, so they satisfy PBC by
+Lemma~\ref{pbc:finite}. Projective-space projections satisfy PBC by
+Lemma~\ref{pbc:symmetric-product}. Composition therefore gives PBC for
+both $\pi$ and $f\pi$. As $\pi$ is surjective, cancellation gives PBC
+for $f$.
+\end{proof}
+
+\subsection{Proper base change and geometric fibres}
+\label{pbc:sec-torsion-theorem}
+
+\begin{theorem}[Proper base change with torsion cohomology]
+\label{pbc:torsion-theorem}
+Let $\Lambda$ be a commutative ring, let $f:X\to Y$ be a proper
+morphism of schemes, and let $g:Y'\to Y$ be arbitrary. Set
+$X'=X\times_YY'$, with projections $f':X'\to Y'$ and $g':X'\to X$.
+If $K\in D^+(X_{\et},\Lambda)$ has torsion underlying abelian
+cohomology sheaves, then the canonical exchange morphism
+\[
+ g^{-1}Rf_*K\longrightarrow Rf'_*g'^{-1}K
+\]
+is an isomorphism in $D^+(Y'_{\et},\Lambda)$.
+Neither constructibility nor invertibility of the torsion orders is
+required.
+\end{theorem}
+
+\begin{proof}
+The projective-line case is Proposition~\ref{pbc:p1}.
+Proposition~\ref{pbc:reduction} therefore proves proper base change for
+torsion abelian sheaves. We spell out the two passages from this case
+to the assertion.
+
+First let $K$ be a bounded below complex of abelian sheaves with torsion
+cohomology. Fix an integer $m$. Both $g^{-1}Rf_*$ and $Rf'_*g'^{-1}$
+send $D^{\geq m+1}$ to $D^{\geq m+1}$. Hence their $m$th cohomology on
+$K$ is unchanged upon replacing $K$ by $\tau_{\leq m}K$. This
+truncation is bounded. Its finite Postnikov filtration reduces the
+exchange isomorphism to torsion sheaves and their shifts, using
+truncation triangles. It follows in every degree $m$.
+
+Next forget the $\Lambda$-action. The forgetful functor to abelian
+sheaves is exact and conservative, and commutes with inverse image
+and direct image. It also commutes with bounded below derived direct
+image: an injective sheaf of $\Lambda$-modules is acyclic, as an
+abelian sheaf, for sections over every object of the site
+(\stacks{03FD}); the same assertion on the \'etale slices implies
+acyclicity for direct image. Thus a module-injective resolution
+computes the underlying abelian derived direct image.
+The units and counits defining the exchange are preserved under these
+identifications. The underlying map is consequently the same
+canonical exchange already proved to be an isomorphism, so its
+$\Lambda$-linear version is an isomorphism as well.
+\end{proof}
+
+\begin{corollary}[Geometric-fibre formula]\label{pbc:torsion-stalk}
+Under the hypotheses of Theorem~\ref{pbc:torsion-theorem}, for every
+geometric point $\bar y:\operatorname{Spec}(\Omega)\to Y$ there is a
+canonical isomorphism
+\[
+ (Rf_*K)_{\bar y}\simeq
+ R\Gamma\bigl(X_{\bar y,\et},K|_{X_{\bar y}}\bigr).
+\]
+For a torsion sheaf $F$ of $\Lambda$-modules this says
+\[
+ (R^qf_*F)_{\bar y}\simeq
+ H^q_{\et}(X_{\bar y},F|_{X_{\bar y}})\qquad(q\geq0).
+\]
+\end{corollary}
+
+\begin{proof}
+Take $Y'=\operatorname{Spec}(\Omega)$ in the theorem. The \'etale
+topos of a separably closed field is the point, so inverse image to
+$Y'$ is the geometric stalk and derived direct image to $Y'$ is
+derived global sections.
+\end{proof}
+
+\begin{remark}[Inputs and the role of properness]\label{pbc:reduction-inputs}
+This reduction uses the blueprint's Chow lemma, finite-morphism stalk
+formula, the proper quasi-finite criterion, and the Grothendieck
+spectral sequence. The cohomological input is entirely the
+projective-line argument, together with degree-zero proper base
+change and the injective-acyclicity criterion. Properness enters the
+degree-zero comparison, ensures that the Chow cover becomes
+projective, and permits cancellation after base change. The resulting
+stalk formula identifies direct image with the cohomology of the
+actual geometric fibre. The integral and rational coefficient
+comparisons below will transport this same exchange morphism to the
+condensed coefficient sheaves used throughout the notes.
+\end{remark}
+\subsection{Return to the pro-\'etale site and condensed coefficients}
+\label{pbc:condensed}
+
+We now return to the coefficient construction of
+Section~\ref{n:coefficients}. A discrete finite ring $A$ gives a
+condensed ring, and its pullback $A_X$ is the usual constant coefficient
+sheaf. Thus the theorem just proved supplies the finite-level geometric
+input for the same module-sheaf formalism used throughout these notes.
+
+\begin{corollary}[Classical finite coefficients on the pro-\'etale site]
+\label{pbc:proet-finite}
+Let $A$ be a finite commutative ring, $p:X\to Y$ proper, and $g:Y'\to Y$ any
+morphism. Let $p':X'\to Y'$ and $g':X'\to X$ be the projections from
+$X'=X\times_Y Y'$. If $K$ is the pullback of an object of
+$D^+(X_{\et},A)$, then the canonical map
+\[
+ g^*Rp_*K\longrightarrow Rp'_*g'^*K
+\]
+is an isomorphism in $D^+(Y'_{\proet},A)$.
+\end{corollary}
+\begin{proof}
+Write $\nu_T:T_{\proet}\to T_{\et}$ for the comparison morphism.
+For a quasi-compact quasi-separated morphism, $\nu^*$ commutes with
+derived direct image on bounded-below classical complexes
+(\stacks{09A6}); it also commutes with inverse image. Apply $\nu_{Y'}^*$
+to the exchange isomorphism of Theorem~\ref{pbc:torsion-theorem}.
+The comparison is the displayed canonical map: both are formed from
+the same units and counits of inverse image and direct image. Proper
+morphisms and their base changes are quasi-compact and quasi-separated,
+so the comparison theorem applies.
+\end{proof}
+
+There is a completeness issue when moving from finite coefficients to
+$\mathcal O_E$. The exact inverse image $g^*$ on all module sheaves
+need not preserve derived completeness. For a complex $M$ define its
+\emph{completed inverse image} by
+\[
+ g^*_{\mathrm{comp}}M
+   =R\varprojlim_n g^*(M\otimes^{\mathbf L}_{\mathcal O_{E,Y}}
+                                  (\mathcal O_E/\pi_E^n)_Y).
+\]
+Whenever we return to constructible complexes $\Dbc$ in this
+subsection, we resume the finite-type $k$-scheme assumptions of the
+introduction. The finite-coefficient corollary above and the completed
+proposition below retain their stated generality for arbitrary schemes.
+In this finite-type setting, for constructible integral inputs the
+completed inverse image agrees with $g^*$, by the
+integral constructibility criterion and the finite constant local
+models of Section~\ref{n:constructible}. The completed formulation is
+useful before finiteness of proper direct image has been established.
+
+\begin{proposition}[Proper base change for complete integral complexes]
+\label{pbc:complete}
+In the square above, fix $E/\Ql$ finite. Suppose that
+$K\in D(X_{\proet},\mathcal O_E)$ is derived $\pi_E$-complete and that
+each reduction
+\[
+ K_n=K\otimes^{\mathbf L}_{\mathcal O_{E,X}}
+                           (\mathcal O_E/\pi_E^n)_X
+\]
+is pulled back from a bounded-below complex on $X_{\et}$. Then the
+completed exchange map is an isomorphism
+\[
+ g^*_{\mathrm{comp}}Rp_*K
+       \xrightarrow{\ \sim\ }Rp'_*g'^*_{\mathrm{comp}}K.
+\]
+\end{proposition}
+\begin{proof}
+Derived completeness identifies $K$ with $R\varprojlim_nK_n$.
+The quotient $\mathcal O_E/\pi_E^n$ has the two-term finite free
+resolution $[\mathcal O_E\xrightarrow{\pi_E^n}\mathcal O_E]$.
+Consequently reduction is computed by a cone and commutes with the
+exact derived functor $Rp_*$:
+\[
+ (Rp_*K)\otimes^{\mathbf L}(\mathcal O_E/\pi_E^n)_Y
+                         \simeq Rp_*K_n.
+\]
+All these maps are the reductions of a single coefficient-tower
+construction. In particular, taking their derived limit gives
+\[
+ \begin{aligned}
+ g^*_{\mathrm{comp}}Rp_*K
+    &\simeq R\varprojlim_n g^*Rp_*K_n,\\
+ Rp'_*g'^*_{\mathrm{comp}}K
+    &\simeq R\varprojlim_n Rp'_*g'^*K_n.
+ \end{aligned}
+\]
+In the second line derived direct image commutes with derived inverse
+limits. At each level the comparison is an isomorphism by
+Corollary~\ref{pbc:proet-finite}. Their comparison is an isomorphism in
+the derived category of coefficient towers, since its cone has zero
+cohomology at every level; applying $R\varprojlim$ proves the claim.
+
+Equivalently, one may work over the constant sheaf $\mathcal O_E$ and
+apply \stacks{09C9}. Its perfect-quotient hypothesis is precisely the
+two-term resolution used above. The constant and completed coefficient
+rings have equivalent derived-complete categories by \stacks{099I},
+so this yields the same statement for the pulled-back condensed ring
+$\mathcal O_{E,X}$.
+\end{proof}
+
+For a constructible $K$, proper finiteness will show that $Rp_*K$ is
+again constructible. All inverse images in the preceding proposition
+are then already complete, and it becomes the ordinary exchange
+isomorphism
+\[
+ g^*Rp_*K\xrightarrow{\sim}Rp'_*g'^*K
+ \qquad(K\in\Dbc(X,\mathcal O_E)).
+\]
+Proposition~\ref{b:prop:proper-coefficients} proves this finiteness and
+uses Theorem~\ref{pbc:torsion-theorem} to identify the finite-level
+exchange maps. Its proof then treats $E$ and $\Qbar$: stratified
+lattices reduce to the integral case, inversion of $\ell$ commutes
+with bounded-below proper direct image, and descent to a finite
+extension of $\Ql$ handles $\Qbar$. Thus the geometrical theorem has
+one coefficient-independent source, while completion, localization
+and finite-extension descent specify how it reaches the three
+condensed coefficient rings.
+
+The unbounded localizing categories enter only later. Once proper
+direct image is known to preserve direct sums there, the exchange
+isomorphism on constructible generators extends to
+$\Loc(\Dbc(X,\Lambda))$ by
+Proposition~\ref{b:prop:proper-base-change-unbounded}. This distinguishes
+the bounded-below torsion theorem proved here from the additional
+argument needed for the unbounded categories used by Brown
+representability.
+
+\begin{example}[Fibrewise computation and the need for properness]
+For a proper $p:X\to Y$ and a geometric point $\bar y\to Y$, the
+torsion theorem gives
+\[
+ (R^qp_*F)_{\bar y}\simeq H^q(X_{\bar y},F|_{X_{\bar y}}).
+\]
+The same formula for constructible $\mathcal O_E$, $E$ and $\Qbar$
+coefficients follows from the comparisons just described. No smoothness
+of $p$ is required. Properness is essential: if
+$j:\mathbf G_m\hookrightarrow\mathbf A^1$ and $i:\{0\}\hookrightarrow
+\mathbf A^1$ over an algebraically closed field, then
+$i^*j_*A$ is nonzero for a nonzero finite constant ring $A$, whereas
+the base change of $\mathbf G_m$ to $\{0\}$ is empty. The degree-zero
+exchange map already fails to be an isomorphism in this nonproper
+example.
+\end{example}
 
 \section{Constructible sheaves and reduction to finite coefficients}
 \label{b:sec:coefficients}
@@ -1392,10 +2764,13 @@ target, by the preceding paragraph and
 Lemma~\ref{b:lem:integral-models}(3). Their reductions modulo $\pi_E$ are
 the torsion projection formula and proper base change maps. The first is
 an isomorphism by the projection formula for torsion coefficients
-(\stacks{0F0G}). The second is an isomorphism by the proper base change
-theorem, which says that for a Cartesian square with $p$ proper and any
-torsion complex $K$, the map $g^*Rp_*K\to Rp'_*g'^*K$ is an isomorphism
-(see \stacks{09C9} for this form). So the cone of each integral map is derived complete
+(\stacks{0F0G}). The second is an isomorphism by
+Theorem~\ref{pbc:torsion-theorem} and
+Corollary~\ref{pbc:proet-finite}: the finite reductions are bounded
+below classical complexes, so their canonical exchange maps are
+isomorphisms. Proposition~\ref{pbc:complete} supplies the completed
+integral version; the constructible inverse images here already
+are complete. So the cone of each integral map is derived complete
 and has zero reduction modulo $\pi_E$. Such a complex is zero (derived
 Nakayama): using the filtration of $\mathcal O_E/\pi_E^n$ with
 subquotients $\mathcal O_E/\pi_E$, its reductions modulo every $\pi_E^n$
@@ -2721,10 +4096,13 @@ quasi-separated schemes, \(Rf_!=Rp_*\circ j_!\) is defined on all of
 right adjoint \(f^!\) \stacks{0G2C}; in this subsection \(f^!\) always
 means this \'etale functor. Three theorems carry the geometry:
 \begin{itemize}
-\item \emph{Proper base change} (\stacks{0DDE}, \stacks{0F0C}): for a
-  Cartesian square with \(p\) proper, the base change map
-  \(g^*Rp_*K\to Rp'_*g'^*K\) is an isomorphism for every torsion complex
-  \(K\). In particular the stalk of \(Rp_*K\) at a geometric point
+\item \emph{Proper base change}: Theorem~\ref{pbc:torsion-theorem}
+  proves the bounded-below torsion case. For the finite coefficient
+  rings of this subsection its extension to arbitrary complexes is
+  \stacks{0F0C}, using the finite cohomological dimension of proper
+  direct image. Thus, for a Cartesian square with \(p\) proper,
+  \(g^*Rp_*K\to Rp'_*g'^*K\) is an isomorphism for
+  \(K\in D(X_{\et},\Lambda)\). In particular the stalk of \(Rp_*K\) at a geometric point
   \(\bar y\) is the cohomology of the fibre \(X_{\bar y}\).
 \item \emph{Finiteness} \stacks{0GL0}: \(Rf_!\) maps bounded
   constructible complexes to bounded constructible complexes.
@@ -6755,6 +8133,11 @@ SGA~4, Lecture Notes in Mathematics \textbf{269}, \textbf{270},
 A.~Grothendieck (dir.),
 \emph{Cohomologie $\ell$-adique et fonctions $L$},
 SGA~5, Lecture Notes in Mathematics \textbf{589}, Springer, 1977.
+
+\bibitem[BP]{BlueprintPBC}
+Formal Arithmetic Geometry project, \emph{The Weil conjectures: blueprint},
+section \emph{Proper Base Change}, revision \texttt{f93e404}.
+\href{https://github.com/formal-arithmetic-geometry/weil-conjectures-blueprint/tree/f93e4044b15d3e66893be38fa472491956ffaf83/blueprint/sec-proper-base-change}{Project blueprint}.
 
 \bibitem[Stacks]{Stacks}
 The Stacks Project Authors, \emph{The Stacks Project},
