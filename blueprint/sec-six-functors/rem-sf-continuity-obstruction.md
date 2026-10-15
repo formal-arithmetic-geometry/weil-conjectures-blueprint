@@ -2,7 +2,7 @@
 id = "rem-sf-continuity-obstruction"
 kind = "remark"
 title = "What the recorded proof of the comparison theorem uses, and why it does not extend to arbitrary sheaves"
-order = 2399
+order = 2492
 uses = ["cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-used-class", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-cbc-proetale-stalk-conservative", "lem-sf-etale-direct-image-vanishing", "lem-sf-proetale-vanishing-detection", "prop-sf-comparison-bound-zero", "thm-sf-fullcd-etale-origin"]
 +++
 The continuity statement $(\mathrm{C}_q)$ of
@@ -165,7 +165,7 @@ $(\mathrm{G})$ being false, by
 that counterexample's base change, by
 *Continuity for arbitrary sheaves implies the vanishing* – the condition
 $\operatorname{FullCD}(p,A;c_{\mathrm{cd}})$ of
-[open-sf-ambient-adjoint-input] is read on the blueprint's coefficient
+[sk-rem-sf-fullcd-scope] is read on the blueprint's coefficient
 class, where it is the theorem [thm-sf-fullcd-used-class] with the sharp
 comparison bound $M=0$ of [prop-sf-comparison-bound-zero]. Nothing
 here weakens the unconditional results: on the blueprint's coefficient class

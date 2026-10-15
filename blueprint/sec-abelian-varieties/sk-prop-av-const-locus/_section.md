@@ -3,7 +3,7 @@ id = "sk-prop-av-const-locus"
 kind = "proposition"
 title = "The locus of constant fibres is closed"
 lean = ["AlgebraicGeometry.isClosed_setOf_subsingleton_image"]
-order = 491
+order = 545
 uses = ["sk-def-av"]
 tags = ["sketch"]
 +++

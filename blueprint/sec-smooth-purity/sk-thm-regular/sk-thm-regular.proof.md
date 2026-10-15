@@ -40,7 +40,7 @@ $U\to X$ since $Ru^{!}=u^{*}$ for étale $u$.
 sections of the sheaf $\mathcal H^0$ on $Z_{\Et}$, so it suffices to compare
 two frames $f,f'$ on the same $U$ Zariski-locally. There $f'=Mf$ with
 $M\in GL_c(\mathcal O)$, and after shrinking $M$ is a product of diagonal,
-permutation and elementary matrices. The argument of [sk-prop-an], Step 3
+permutation and elementary matrices. The frame-change argument for the zero section of $\Aaf^c$
 applies verbatim: a unit $u$ has $\kappa(u)$ defined on all of $U$, so
 $\partial\kappa(u)=0$ and $\partial\kappa(uf_j)=\partial\kappa(f_j)$; the
 factors $\partial\kappa(f_j)$ have even degree, so permuting them costs no
@@ -74,14 +74,14 @@ $Ri_0^{!}Rp^{!}=\mathrm{id}$ (twists passing through $Ri_0^{!}$ by
 [sk-lem-coprojection]). By the agreement clause of
 [sk-thm-smooth-purity] ($p$ is the projection of a trivial vector bundle;
 the clause rests on the normalization of [sk-thm-dnc] in standard
-coordinates), that isomorphism is the $R\pi^{!}$-form $\gamma_{p,\Lambda}$
-of [sk-prop-an] (ii), and by the normalization [sk-prop-an] (iii),
+coordinates), that isomorphism is the affine-space purity comparison $\gamma_{p,\Lambda}$
+of [sk-prop-an] ([def-pur-affine-space-comparison]), and by the normalization in [cor-pur-affine-space-zero-section-purity],
 $Ri_0^{!}\gamma_{p,\Lambda}$ composed with $Ri_0^{!}Rp^{!}=\mathrm{id}$ is the
 inverse of the Thom class. Hence $\Phi_{i_0}(1)$ is the generator of
-[sk-prop-an] (i),
+[cor-pur-affine-space-zero-section-purity],
 $\mathrm{pur}_s\boxtimes\cdots\boxtimes\mathrm{pur}_s
-=\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$ ([sk-prop-an],
-Step 1, with [sk-prop-a1]): the class of the coordinate frame.
+=\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$ ([cor-pur-affine-space-zero-section-purity],
+with [sk-prop-a1]): the class of the coordinate frame.
 (iv) Kummer classes, boundaries and cup products with supports commute with
 pullback and $u^{*}t_j=f_j$, so $\Phi_i(1)|_{Z_U}=u'^{*}\Phi_{i_0}(1)
 =\operatorname{cl}(f)=[Z\subset X]|_{Z_U}$. Such $U$ cover $Z$, hence

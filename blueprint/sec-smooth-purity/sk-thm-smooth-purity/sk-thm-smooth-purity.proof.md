@@ -1,65 +1,24 @@
 +++
-kind  = "proof"
-of    = "sk-thm-smooth-purity"
+kind = "proof"
+of = "sk-thm-smooth-purity"
+uses = ["sk-prop-sp-orientation", "sk-prop-cohsm", "sk-lem-sp-finite-existence", "sk-lem-sp-reduction"]
 +++
-Put $W=X\times_YX$, let $p_1,p_2$ be its projections and let
-$\Delta:X\hookrightarrow W$ be the diagonal.
-*Step 1: the section invariant of the diagonal is $\omega_f$.* The
-square with $p_1,p_2$ over $f$ is Cartesian and $p_1$ is the base change of
-$f$, so $\omega_{p_1}\cong Lp_2^{*}\omega_f$ by [sk-prop-cohsm] (c). Since
-$p_2\circ\Delta=\mathrm{id}_X$,
+Choose $n$ with $\ell^nA=0$. The calculation of [sk-lem-sp-finite-existence]
+and [sk-prop-sp-orientation] works with $A$ throughout: extend the Kummer and
+diagonal classes along $\mathbf Z/\ell^n\mathbf Z\to A$; the projective-line
+splitting has two free summands, and its integration and triangle identities
+retain the same normalization. The local adjunctions therefore compute the
+Brown adjoint over $A$, and the vector-bundle and deformation arguments give
+$\omega_{f,A}\simeq A_X(d)[2d]$. Define $\gamma_{f,A}(K)$ as the composite
 
 $$
-\mathcal C(p_1,\Delta)=L\Delta^{*}\omega_{p_1}
-\cong L\Delta^{*}Lp_2^{*}\omega_f\cong\omega_f .
+f_A^{*}K\otimes^{\mathbf L}A_X(d)[2d]
+\xrightarrow{\ \sim\ }f_A^{*}K\otimes^{\mathbf L}\omega_{f,A}
+\xrightarrow{\ \sim\ }f_A^{!}K.
 $$
 
-*Step 2: the deformation to the normal cone of that section.* $\Delta$
-is a closed section of the smooth map $p_1$, with normal bundle
-$N_\Delta\cong T_{X/Y}$ of rank $d$ by [sk-lem-diag-reg]. Applying
-[sk-thm-dnc] to $(p_1,\Delta)$ gives
-
-$$
-\mathcal C(p_1,\Delta)\ \cong\ \mathcal C(\pi_T,0_T),\qquad
-\pi_T:T_{X/Y}\to X .
-$$
-
-*Step 3: the other side is the Tate twist.* Vector-bundle purity,
-the $R\pi^{!}$-form [sk-prop-an] (ii) applied to $\pi_T$, gives
-$\omega_{\pi_T}=R\pi_T^{!}\Lambda_X\cong\Lambda_{T_{X/Y}}(d)[2d]$, and
-pulling back along the zero section,
-
-$$
-\mathcal C(\pi_T,0_T)=L0_T^{*}\omega_{\pi_T}
-\cong L0_T^{*}\Lambda_{T_{X/Y}}(d)[2d]\cong\Lambda_X(d)[2d].
-$$
-
-Combining the three steps gives $\omega_f\cong\Lambda_X(d)[2d]$. Every step
-is canonical, by the uniqueness clause of [sk-thm-dnc]; base-change
-compatibility follows from that of the diagonal, of [sk-thm-dnc] and of
-[sk-prop-an] (ii), the normal bundle of the diagonal of a base change being the
-base change of the normal bundle. Substitution into [sk-prop-cohsm] (b)
-gives the purity map for every $K$. Compatibility with composition is
-that of [sk-prop-cohsm] (a),(c) and of the twist.
-
-*Agreement on the model.* Let $f=\pi:E\to Z$ be a vector bundle of
-rank $d$ with zero section $0_E$. Then $p_1:W=E\times_ZE\to E$ is the
-bundle $\pi^{*}E$ and $\Delta$ is the translate of its zero section by the
-tautological section; translation is an automorphism of $W$ over $E$
-carrying $(p_1,\Delta)$ to $(\pi^{*}E,0)$, and the trace $\int_{\pi^{*}E}$,
-hence $\gamma_{\pi^{*}E,\Lambda}$, is translation invariant, because the
-class of every section of a vector bundle integrates to $1$ (the integral
-of the class of the universal section is a locally constant function on
-$E$, equal to $1$ along the zero section by [sk-prop-an] (iii), and every
-connected component of $E$ meets the zero section, the fibres of $\pi$
-being connected). Under $\gamma_{\pi,\Lambda}$ and $\gamma_{\pi^{*}E,\Lambda}$
-the base-change isomorphism of Step 1 is the identity (base-change
-compatibility in [sk-prop-an] (ii)); on the standard pair $(\pi^{*}E,0)$
-the deformation space is $\pi^{*}E\times\Aaf^1$ with constant family object
-([sk-lem-geometry] (4)) and the isomorphism of [sk-thm-dnc] is the
-identity on the standard section invariant (its normalization clause); and
-Step 3 is $L0^{*}$ of $\gamma_{\pi_T,\Lambda}$ with
-$T=N_\Delta\cong\pi^{*}E$. Hence the composite of Steps 1–3 is
-$\gamma_{\pi,\Lambda}^{-1}$: the isomorphism $\omega_\pi\cong\Lambda_E(d)[2d]$
-of this theorem for $\pi$ is the $R\pi^{!}$-form of [sk-prop-an] (ii)
-(detailed: lem:pur-projection-purity-agreement).
+These are the orientation isomorphism of [sk-prop-sp-orientation] (over $A$)
+and the tensor-map isomorphism of [sk-prop-cohsm]. The construction is
+natural in $K$ and uses only free rank-one Tate sheaves, so it applies to every
+finite admissible $A$. [sk-lem-sp-reduction] verifies the compatibility of the
+normalization for different choices of $n$ and maps of finite rings.

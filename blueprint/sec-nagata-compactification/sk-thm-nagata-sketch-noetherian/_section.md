@@ -2,7 +2,7 @@
 id = "sk-thm-nagata-sketch-noetherian"
 kind = "theorem"
 title = "Nagata over a Noetherian base"
-order = 328
+order = 127
 uses = ["sk-thm-nagata-sketch-two-open"]
 lean = ["AlgebraicGeometry.nagataCompactification_of_isNoetherian"]
 tags = ["sketch"]

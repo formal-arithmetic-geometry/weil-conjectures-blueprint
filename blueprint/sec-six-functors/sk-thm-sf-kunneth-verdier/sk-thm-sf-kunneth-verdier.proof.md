@@ -22,7 +22,7 @@ pullback (for étale $u$, $Ru^!=Lu^*$, and the composition isomorphism of
 [sk-lem-sf-mate]), compatibly with $\alpha$ — and on a finite étale cover
 trivializing the $L_i$ they become finite free, the case just treated; this
 is a local reduction, not a dévissage (the lisse coefficients cannot be
-replaced by constant ones globally, [sk-lem-sf-ctf-generation]). For
+replaced by constant ones globally, [sk-lem-sf-flat-model]). For
 general $L_i\in\Dctf(Y_i,\Lambda)$ argue by induction on
 $\delta=\dim\operatorname{supp}L_1+\dim\operatorname{supp}L_2$; the claim is
 trivial if some $L_i=0$, and both sides of $\alpha$ are exact in each $L_i$,
@@ -40,7 +40,7 @@ check, [sk-lem-sf-mate]); likewise in the second variable. Since
 $L_i\cong Rg_{i*}g_i^*L_i$ for $Z_i=\operatorname{supp}L_i$
 ([sk-prop-sf-open-closed-triangle], as $L_i$ vanishes on the complement),
 we may assume $\dim Y_i=\dim\operatorname{supp}L_i$. Then by the generation
-[sk-lem-sf-ctf-generation] on $Y_i$ it suffices to treat the generators
+[sk-lem-sf-flat-model] on $Y_i$ it suffices to treat the generators
 $L_i=Rg_{i*}j_{i!}F_i$ with $F_i$ lisse with flat stalks on a stratum $U_i$
 dense in $\overline U_i$, $\dim\overline U_i\le\dim Y_i$, and by the closed
 pushforward just described we may take $\overline U_i=Y_i$, $L_i=j_{i!}F_i$.
@@ -66,7 +66,7 @@ in the second variable gives $(Rj_{1*}F_1,j_{2!}F_2)$, and then in the first
 variable $(j_{1!}F_1,j_{2!}F_2)$. Hence $\alpha$ is invertible.
 
 *The map $\beta$.* Both sides are exact in each $E_i$, so dévissage in
-both $E_i$, by [sk-lem-sf-ctf-generation], reduces to $E_i=Rh_{i!}F_i$ with
+both $E_i$, by [sk-lem-sf-flat-model], reduces to $E_i=Rh_{i!}F_i$ with
 $h_i=g_ij_i$, $g_i$ finite and $j_i$ open, and $F_i$ lisse on $U_i$ with flat
 stalks. Such an $F_i$ is dualizable: its stalks are finite flat, hence free,
 over the local ring $\Lambda$, so $F_i$ is locally finite free and

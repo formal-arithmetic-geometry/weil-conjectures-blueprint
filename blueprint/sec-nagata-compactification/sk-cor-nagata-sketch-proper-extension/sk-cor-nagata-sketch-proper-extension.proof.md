@@ -1,13 +1,20 @@
 +++
 kind  = "proof"
 of    = "sk-cor-nagata-sketch-proper-extension"
-uses = ["sk-thm-nagata-sketch-conrad"]
+uses = ["sk-thm-nagata-sketch-conrad", "sk-lem-nagata-boundary-divisor", "sk-lem-nagata-sketch-elimination", "sk-lem-nagata-sketch-blowups", "sk-lem-nagata-sketch-closure"]
 +++
-Replace $Y$ by $Y\times_SX$: then $f$ becomes a section over $U$ of the
-proper morphism $Y\times_SX\to X$, with closed image over $U$ because that
-morphism is separated. Apply [sk-thm-nagata-sketch-conrad] with $V=U$. The
-resulting partial extension $g\colon W\to Y\times_SX$ on an open
-$W\supseteq\pi^{-1}(U)$ of $X'$ has closed graph in
-$(Y\times_SX)\times_XX'$, which is proper over $X'$; so $W\to X'$ is both
-proper and an open immersion. Its image is dense, hence all of $X'$, and
-$g$ followed by the projection to $Y$ is the required $S$-morphism.
+Take the schematic closure $G$ of the graph of $a$ in $T\times_SY$
+([sk-lem-nagata-sketch-closure]). The projection $G\to T$ is proper, since
+$Y\to S$ is proper, and is an isomorphism over $U$. First make $U$
+schematically dense by [sk-lem-nagata-boundary-divisor], and replace $G$ by
+its strict transform. [sk-lem-nagata-sketch-elimination] then makes the
+strict transform of $G$ an open subscheme of a further blow-up $T'$. It is
+also proper over $T'$, being closed in the proper base change of $G$. Its
+image is thus closed as well as open and contains the schematically dense
+$U$. It is all of $T'$. The strict transform is therefore isomorphic to
+$T'$, and its map to $Y$ is the desired extension.
+[sk-lem-nagata-sketch-blowups] combines the successive modifications into a
+single admissible blow-up.
+
+(Equivalently, one may apply the partial-section extension
+[sk-thm-nagata-sketch-conrad] to the section of $Y\times_ST\to T$ over $U$.)

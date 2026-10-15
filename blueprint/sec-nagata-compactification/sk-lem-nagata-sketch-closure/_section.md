@@ -1,19 +1,16 @@
 +++
 id = "sk-lem-nagata-sketch-closure"
 kind = "lemma"
-title = "Scheme-theoretic closure and compactification"
-order = 71
+title = "Schematic closure and uniqueness"
+order = 4
 uses = ["sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.Scheme.Hom.image", "AlgebraicGeometry.Compactification.ofIsImmersion", "AlgebraicGeometry.Compactification.denseRefinement", "AlgebraicGeometry.Compactification.baseChange"]
 tags = ["sketch"]
 +++
-For a morphism $h:T\to Y$, its
-scheme-theoretic image $\SIm(h)$ is the smallest closed subscheme of $Y$
-through which $h$ factors. For quasi-compact $h$ it commutes with
-restriction to an open of $Y$.
-Consequently, a quasi-compact immersion into a proper $S$-scheme gives a
-compactification by taking its scheme-theoretic image. In particular,
-compactifications of quasi-compact morphisms admit dense refinements, and
-closed subschemes of a compactifiable quasi-compact $S$-scheme are
-compactifiable. Compactifications are
-preserved by base change.
+Let $i:U\to T$ be a quasi-compact immersion, with $T$ quasi-separated. Its
+scheme-theoretic image $\overline U\subseteq T$ is a closed subscheme,
+$U\to\overline U$ is an open immersion, and $U$ is scheme-theoretically
+dense in $\overline U$.
+
+If $U\subseteq T$ is a scheme-theoretically dense open and $Y\to S$ is
+separated, two $S$-maps $T\to Y$ agreeing on $U$ agree on $T$.

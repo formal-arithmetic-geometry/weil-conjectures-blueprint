@@ -27,7 +27,7 @@ dimension $g$, which descends to any base field.
 
 **Key theorem.**
 
-- Prop [sk-prop-jacobian] (the Jacobian is an abelian variety): for a
+- Prop [sk-thm-picard-main] (the Jacobian is an abelian variety): for a
   smooth projective curve $C$ of genus $g$ over algebraically closed $k$,
   $J(C)=\underline{\mathrm{Pic}}^0_{C/k}$ is an abelian variety of
   dimension $g$ with $T_eJ(C)\cong H^1(C,\mathcal O_C)$ and

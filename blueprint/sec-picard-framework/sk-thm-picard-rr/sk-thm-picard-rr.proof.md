@@ -3,35 +3,51 @@ kind  = "proof"
 of    = "sk-thm-picard-rr"
 uses = ["sk-thm-picard-duality"]
 +++
-(RR): by additivity of $\chi$ in short exact sequences, the torsion
-part of $\cF$ (for which $\chi=h^0$ is the length, i.e. the degree) and a
-filtration of the locally free quotient by line bundles (along which
-$\deg\det$ is additive) reduce the formula to
-line bundles $\cO_X(D)$. There $0\to\cO_X(D-x)\to\cO_X(D)\to\kappa(x)\to0$
-gives $\chi(\cO_X(D))=\chi(\cO_X(D-x))+[\kappa(x):k]$ (coherent
-cohomology vanishes in degrees $\ge2$ on the one-dimensional noetherian
-space $X$, so $\chi=h^0-h^1$ throughout); applied to $D$ when $n_x>0$
-and to $D+x$ when $n_x<0$ (where it reads
-$\chi(\cO_X(D))=\chi(\cO_X(D+x))-[\kappa(x):k]$), it lowers
-$\sum_x|n_x|$ by one and leaves $\chi-\deg$ unchanged, so by induction on
-$\sum_x|n_x|$, $\chi(\cO_X(D))=\deg D+\chi(\cO_X)$, and
-$\chi(\cO_X)=h^0-h^1=1-g$ by the hypotheses; this is also the equality
-$\deg\cL=\chi(\cL)-\chi(\cO_X)$. For $d\ge2g-1$,
-[sk-thm-picard-duality] gives
-$H^1(\cL)^\vee\cong H^0(\omega_X\otimes\cL^{-1})=0$, the latter of
-negative degree ($\deg\omega_X=\chi(\omega_X)-\chi(\cO_X)=2g-2$, as
-duality gives $h^0(\omega_X)=g$, $h^1(\omega_X)=1$; a nonzero section
-would give an effective divisor of negative degree), whence $h^0(\cL)=d+1-g$. (G): ampleness descends along the
-fpqc cover $\Spec\bar k\to\Spec k$ and $\deg$ is preserved by flat
-base change, and $X_{\bar k}$ is again a smooth proper connected curve
-of genus $g$ with $H^0=\bar k$ ($X$ is geometrically reduced with
-$H^0(X,\cO_X)=k$, hence geometrically integral); so we may take $k$
-algebraically closed, where every closed point is rational. Then for
-$m\deg\cL\ge2g+1$ and closed points $P,Q$ (possibly equal), (RR) in
-the range $d\ge2g-1$ gives
+This is coherent duality and Riemann–Roch for smooth curves (Stacks
+Project, Tag 0B5B); the duality is given by the residue trace on
+differentials ([sk-thm-picard-duality], with $n=1$, $q=1$, $\cF=\cL$).
+
+*Riemann–Roch.* By additivity of $\chi$ in short exact sequences, the
+torsion part of a coherent $\cF$ (for which $\chi=h^0$ is the length,
+i.e. the degree) and a filtration of the locally free quotient by line
+bundles (along which $\deg\det$ is additive) reduce the formula to line
+bundles $\cO_C(D)$. There
+$0\to\cO_C(D-x)\to\cO_C(D)\to\kappa(x)\to0$ gives
+$\chi(\cO_C(D))=\chi(\cO_C(D-x))+[\kappa(x):k]$ (coherent cohomology
+vanishes in degrees $\ge2$ on the one-dimensional noetherian space $C$,
+so $\chi=h^0-h^1$ throughout); applied to $D$ when $n_x>0$ and to $D+x$
+when $n_x<0$, it lowers $\sum_x|n_x|$ by one and leaves $\chi-\deg$
+unchanged, so by induction $\chi(\cO_C(D))=\deg D+\chi(\cO_C)$, and
+$\chi(\cO_C)=h^0-h^1=1-g$ because $H^0(C,\cO_C)=k$ ($C$ geometrically
+connected and geometrically reduced).
+
+*Canonical degree.* Duality with $\cL=\cO_C$ gives $h^0(\omega_{C/k})=g$
+and $h^1(\omega_{C/k})=h^0(\cO_C)=1$, so
+$\deg\omega_{C/k}=\chi(\omega_{C/k})-\chi(\cO_C)=(g-1)-(1-g)=2g-2$.
+
+*Field extension.* For $K/k$, flat base change identifies
+$H^i(C_K,\cL_K)=H^i(C,\cL)\otimes_kK$, degrees and the genus are
+preserved, $\omega_{C_K/K}=(\omega_{C/k})_K$, and the residue trace is
+compatible with base change, so all three identifications commute with
+extension of the ground field.
+
+*Vanishing.* If $\deg\cL>2g-2$, the dual sheaf
+$\omega_{C/k}\otimes\cL^{-1}$ has negative degree. A nonzero section of
+an invertible sheaf on an integral curve has an effective zero divisor,
+of degree $\ge0$, so a negative-degree sheaf has no nonzero section.
+Hence $H^1(C,\cL)=0$, and Riemann–Roch gives
+$h^0(C,\cL)=\chi(C,\cL)=\deg\cL+1-g$.
+
+*(G).* Ampleness descends along $\Spec\bar k\to\Spec k$ and degree is
+preserved by flat base change, so we may take $k$ algebraically closed,
+where every closed point is rational. For $m\deg\cL\ge2g+1$ and closed
+points $P,Q$ (possibly equal), the range $\deg>2g-2$ above gives
 $h^0(\cL^{\otimes m}(-P))=h^0(\cL^{\otimes m})-1$ and
 $h^0(\cL^{\otimes m}(-P-Q))=h^0(\cL^{\otimes m})-2$, i.e.
 $\cL^{\otimes m}$ is base-point free and separates points and tangent
 vectors; hence $\cL^{\otimes m}$ is very ample and $\cL$ is ample.
-(H): classical (the complement of an
-ample effective divisor is affine).
+
+*(H).* Classical: the complement of the support of an ample effective
+Cartier divisor $D$ is the non-vanishing locus of the canonical section
+of $\cO_X(D)$, and non-vanishing loci of sections of an ample sheaf on a
+proper scheme are affine.

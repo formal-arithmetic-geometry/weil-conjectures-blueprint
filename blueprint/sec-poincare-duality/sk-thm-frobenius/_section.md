@@ -3,10 +3,10 @@ id = "sk-thm-frobenius"
 kind = "theorem"
 title = "Frobenius: equivariance, similitudine, reciprocity"
 order = 2789
-uses = ["sk-def-pairing", "sk-def-sf-orientation", "sk-def-weil", "sk-thm-derived-duality"]
+uses = ["sk-def-pairing", "sk-def-sf-orientation", "sk-def-sf-weil-complexes", "sk-thm-derived-duality"]
 tags = ["sketch"]
 +++
-In the setting of [sk-def-weil] ($X_0$ need not be proper),
+In the setting of [sk-def-sf-weil-complexes] ($X_0$ need not be proper),
 for a strict Weil complex $K$ perfect over $\Lambda_X$:
 
 **(a)** *Equivariance and similitude, at every coefficient stage.* At every

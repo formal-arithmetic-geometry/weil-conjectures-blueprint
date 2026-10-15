@@ -1,35 +1,49 @@
 +++
-kind  = "proof"
-of    = "sk-thm-dnc"
+kind = "proof"
+of = "sk-thm-dnc"
+uses = ["sk-prop-cohsm"]
 +++
-*Step 1: the family object is a shift of a lisse line.* By
-[sk-lem-geometry] (2) $\widetilde g$ is smooth, so $\omega_{\widetilde g}$ is
-invertible by [sk-prop-cohsm] (a), and by [sk-lem-geometry] (2),(4) it is
-étale-locally $\Lambda(d)[2d]$; hence so is $\mathcal F$. Truncating a
-bounded complex which is étale-locally a shift of a rank-one locally
-constant sheaf gives $\mathcal F\simeq\mathcal L_{\mathcal F}(d)[2d]$ with
-$\mathcal L_{\mathcal F}$ finite locally constant of rank one on $\Aaf^1_B$,
-and likewise $\mathcal C(g,s)\simeq\mathcal L_1(d)[2d]$ on $B$. This
-reduction to honest sheaves is what permits the ordinary one-categorical
-descent below.
+By [sk-prop-cohsm], applied to the inclusions of the fibres $t=1$
+and $t=0$, the restrictions of $\widetilde s^*\omega_{\widetilde g}$ to $t=1$ and
+$t=0$ are $s^*\omega_g$ and $z^*\omega_\pi$. By [sk-prop-cohsm], both
+$\widetilde s^*\omega_{\widetilde g}[-2d]$ and $s^*\omega_g[-2d]$ are locally
+constant sheaves, free of rank one over $\mathbf Z/\ell^n\mathbf Z$. Morphisms between
+two such complexes are therefore morphisms of sheaves, and they glue.
 
-*Step 2: the punctured trivialization.* $\kappa^{\circ}$ of
-[sk-lem-geometry] (3) is defined over $\mathbf G_{m,B}$. Let $B_i\to B$ be
-an étale cover carrying coordinates of pairs as in [sk-lem-geometry] (2);
-on it the standard-pair computation of [sk-lem-geometry] (4) with
-[sk-prop-an] supplies
-$\kappa_i:\mathcal F|_{\Aaf^1_{B_i}}\xrightarrow{\sim}a_i^{*}\mathcal C(g,s)|_{B_i}$,
-normalized to be the identity at $t=1$. Both $j^{*}\kappa_i$ and
-$\kappa^{\circ}|_{\mathbf G_{m,B_i}}$ are maps between shifts of lisse
-rank-one sheaves agreeing at $t=1$, so they agree on $\mathbf G_{m,B_i}$ by
-the second assertion of [sk-prop-a1-inv] (i).
+*Local construction.* After passing to an étale cover $\{S_i\to S\}$ we may
+choose, for the base-changed section $s_i:S_i\to V\times_SS_i$, a neighbourhood
+$U_i$ of $s_i(S_i)$ and an étale map $e_i:U_i\to\mathbf A^d_{S_i}$ sending $s_i$ to
+the zero section. The inverse image of the zero section under $e_i$ is
+separated and étale over $S_i$, so $s_i(S_i)$ is open and closed in it. Its
+complement is closed in $U_i$, and we remove it from $U_i$. After this, the
+inverse image of the zero section is exactly $s_i(S_i)$, so $e_i$ is an étale
+map of pairs whose square of centres is Cartesian. Blowing up and removing the
+strict transform commute with étale base change, so $e_i$ induces an étale map
+from a neighbourhood of the deformed section in $\operatorname{Def}_s(V)$ to the
+deformation space of the zero section of $\mathbf A^d_{S_i}$. The latter is
+$\mathbf A^d_{\mathbf A^1_{S_i}}$, mapping to $\mathbf A^d_{S_i}$ by $x_i=tu_i$.
 
-*Step 3: gluing.* On $B_{ij}$ the maps $\kappa_i$ and $\kappa_j$ agree
-on $\mathbf G_{m,B_{ij}}$; removing the common shift and twist by Step 1,
-the first assertion of [sk-prop-a1-inv] (i) makes them agree on all of
-$\Aaf^1_{B_{ij}}$. They therefore glue, by the ordinary sheaf axiom, to a
-unique isomorphism $\kappa:\mathcal F\xrightarrow{\sim}a^{*}\mathcal C(g,s)$
-extending $\kappa^{\circ}$. Restricting at $t=0$ and using
-[sk-lem-geometry] (1) gives the displayed isomorphism; uniqueness is again
-[sk-prop-a1-inv] (i). Base change and étale localization are those of
-[sk-lem-geometry] (5).
+On $\mathbf A^d_{\mathbf A^1_{S_i}}$ the affine-space adjunction identifies the
+dualizing complex with the constant sheaf $(\mathbf Z/\ell^n\mathbf Z)(d)[2d]$, and so
+does the chart $e_i$ for $s^*\omega_g$ over $S_i$. Composing these two
+identifications gives an isomorphism over $\mathbf A^1_{S_i}$
+
+$$
+\widetilde s^*\omega_{\widetilde g}\xrightarrow{\ \sim\ }a^*s^*\omega_g.
+$$
+
+At $t=1$ it restricts to an automorphism of $s^*\omega_g$ over $S_i$. Composing
+with the pullback along $a$ of the inverse of this automorphism, we may assume
+that the local isomorphism is the identity at $t=1$.
+
+*Gluing.* Over $S_i\times_SS_j$ the two normalized local isomorphisms differ by
+an automorphism of the rank-one locally constant sheaf $a^*s^*\omega_g[-2d]$,
+that is, by a section of a locally constant sheaf of units of
+$\mathbf Z/\ell^n\mathbf Z$. The locus where this section equals $1$ is open and
+closed. On each geometric fibre $\mathbf A^1_{\bar b}$, which is connected, it
+contains the point $t=1$, so it is the whole fibre. Hence the section is $1$ at
+every geometric point, and the local isomorphisms agree on overlaps. They glue
+to a unique isomorphism over $\mathbf A^1_S$ that is the identity at $t=1$.
+
+Restricting it to $t=0$ gives an isomorphism $z^*\omega_\pi\simeq s^*\omega_g$,
+whose inverse is the asserted isomorphism.

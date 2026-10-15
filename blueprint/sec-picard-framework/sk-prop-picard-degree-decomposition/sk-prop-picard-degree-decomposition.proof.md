@@ -10,7 +10,7 @@ the base $R\mathrm{pr}_*\cL_{\mathrm{univ}}$ is represented by a bounded
 complex of finite free modules whose formation commutes with base change
 to the fibres; so $\chi(\cL_t)$ is the alternating sum of the ranks of
 that complex and is locally constant in $t$. By
-[sk-thm-picard-rr] (RR), $\chi(\cO_{C_{\kappa(t)}})=1-g$ does not depend
+[sk-thm-picard-rr], $\chi(\cO_{C_{\kappa(t)}})=1-g$ does not depend
 on $t$, so $\deg\cL_t=\chi(\cL_t)-(1-g)$ is locally constant, which
 gives the decomposition into open and closed pieces. A $T$-point
 factors through $\underline{\Pic}^d_{C/k}$ exactly when all its fibres

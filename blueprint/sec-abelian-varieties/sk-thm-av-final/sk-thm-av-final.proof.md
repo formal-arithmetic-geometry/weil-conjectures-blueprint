@@ -1,9 +1,40 @@
 +++
 kind  = "proof"
 of    = "sk-thm-av-final"
-uses = ["sk-prop-av-isogeny", "sk-prop-av-ntorsion-etale"]
+uses = ["sk-prop-av-isogeny", "sk-prop-av-cube", "sk-prop-av-symmetric-ample", "sk-prop-av-mult-n-pullback", "sk-prop-av-projective", "sk-prop-av-mult-finite", "sk-prop-av-mult-surjective", "sk-prop-av-deg-pullback", "sk-prop-av-finite-etale-points"]
 +++
-*(a)* This is exactly [sk-prop-av-isogeny]: $[n]$ is a
+*The proposition.* The coherent theorem of the cube
+([sk-prop-av-cube]) implies, for a symmetric ample invertible sheaf
+$\cM$,
+
+$$
+[n]^*\cM\simeq\cM^{\otimes n^2}
+$$
+
+([sk-prop-av-mult-n-pullback]). Such a sheaf exists because abelian
+varieties are projective ([sk-prop-av-projective]): symmetrize an ample
+sheaf by tensoring it with its pullback by $[-1]$
+([sk-prop-av-symmetric-ample]). If the kernel had positive dimension,
+restriction of $[n]^*\cM$ to a positive-dimensional component would be
+both trivial and ample, which is impossible. All fibres are translates of
+the kernel. Properness therefore makes $[n]$ finite
+([sk-prop-av-mult-finite]), and its closed image has dimension $g$, hence
+is all of $B$ ([sk-prop-av-mult-surjective]). Its tangent map at the
+identity is $n\cdot\mathrm{id}$, an isomorphism since $n$ is invertible in
+$k$; translations give the same at every point, so the morphism is étale
+(detailed node `det-av-final-etale`). Finally the intersection formula
+for a finite map ([sk-prop-av-deg-pullback]) gives
+
+$$
+\deg[n]\,(c_1(\cM)^g)=(c_1([n]^*\cM)^g)=n^{2g}(c_1(\cM)^g).
+$$
+
+The ample intersection number is positive, proving the degree formula.
+Hence $B[n]=[n]^{-1}(0)$ is finite étale over $k$ of rank $\deg[n]=n^{2g}$.
+See Stacks Project, Tags 0BFG and 03RP, and Milne, *Abelian Varieties*,
+Theorem 8.2.
+
+*The complements.* *(a)* This is exactly [sk-prop-av-isogeny]: $[n]$ is a
 homomorphism ([sk-prop-av-mult-hom] with [sk-cor-av-commutative]), has
 finite fibres ([sk-prop-av-mult-finite]) and is surjective
 ([sk-prop-av-mult-surjective]), is flat with locally free pushforward of
@@ -36,8 +67,7 @@ $G^0=\Spec k$.)
 *(c)* Assume $k$ algebraically closed and $n$ prime to $p$. By
 (b), $A[n]$ is finite étale of order $n^{2g}$, so
 $\lvert A[n](k)\rvert=n^{2g}$ and $A[n](k)\to A[n](k')$ is bijective
-by [sk-prop-av-finite-etale-points]. The group structure
-$(\Z/n\Z)^{2g}$ is the content of [sk-prop-av-ntorsion-etale]: the
+by [sk-prop-av-finite-etale-points]. For the group structure $(\Z/n\Z)^{2g}$: the
 prime-power case follows from divisibility of $A(k)$
 ([sk-prop-av-divisible]) and the structure theorem for torsion of a
 divisible group ([sk-prop-av-divisible-structure]), and the general case
@@ -55,7 +85,7 @@ $T_\ell A$ of [sk-def-av-tate] is $\Z_\ell^{2g}$; this is
 
 The Jacobian instance of these statements is not treated here: the
 representability of $\Pic^0_{C/k}$ by an abelian variety is
-[sk-prop-jacobian] and, over an arbitrary field,
+[sk-thm-picard-main] and, over an arbitrary field,
 [sk-prop-jacobian-descent] ([sec-picard-framework]); the Kummer
 identification of $H^1$ of a curve with the Tate module of its
 Jacobian is part of the real-purity section ([sk-d-real-jacobian]).

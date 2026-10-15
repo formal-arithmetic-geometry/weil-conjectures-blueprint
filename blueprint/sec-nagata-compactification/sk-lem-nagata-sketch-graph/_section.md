@@ -1,15 +1,14 @@
 +++
 id = "sk-lem-nagata-sketch-graph"
 kind = "lemma"
-title = "Proper graph extension"
-order = 248
-uses = ["sk-lem-nagata-sketch-image-transform"]
+title = "Graph extension from a compactification"
+order = 13
+uses = ["sk-lem-nagata-sketch-image-transform", "sk-def-nagata-admissible"]
 lean = ["AlgebraicGeometry.Compactification.nonempty_properExtension"]
 tags = ["sketch"]
 +++
-Let $S$ be qcqs, let $U\to S$ be separated and of finite type, let $A\subseteq U$ be
-a quasi-compact open, and fix a compactification $A\hookrightarrow X$.
-After an $A$-admissible blow-up of $X$ there is an open
-$A\subseteq V\subseteq X'$ and a proper map $\psi:V\to U$
-extending $A\hookrightarrow U$, with $\psi^{-1}(A)=A$ and
-$\psi|_A=\operatorname{id}_A$; see 0F3Z.
+Let $S$ be qcqs, $M\to S$ separated of finite type, and $V\subseteq M$ a
+quasi-compact open with a compactification $V\subseteq Y$ over $S$. After a
+$V$-admissible blow-up of $Y$ ([sk-def-nagata-admissible]) there is an open
+$V\subseteq V'\subseteq Y$ and a proper map $\psi:V'\to M$ with
+$\psi^{-1}(V)=V$ and $\psi|_V=\mathrm{id}_V$.

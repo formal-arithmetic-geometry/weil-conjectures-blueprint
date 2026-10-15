@@ -2,7 +2,7 @@
 id = "rem-sf-fullcd-general-form"
 kind = "remark"
 title = "The general form of $\\operatorname{FullCD}$, and the form the blueprint uses"
-order = 2396
+order = 2489
 uses = ["cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-used-class", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "lem-cbc-proetale-stalk-conservative", "lem-sf-etale-direct-image-vanishing", "lem-sf-fullcd-detection-equivalence", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-vanishing-detection", "prop-sf-comparison-bound-zero", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
 +++
 The condition [def-weil-full-cohomological-dimension] quantifies over

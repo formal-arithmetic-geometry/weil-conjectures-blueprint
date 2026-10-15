@@ -2,7 +2,7 @@
 id = "sk-prop-sf-trace-perfectness"
 kind = "proposition"
 title = "Perfectness of compact cohomology and of geometric stalks"
-order = 2168
+order = 1939
 lean = ["AlgebraicGeometry.Etale.isZero_compactlySupportedCohomology_of_lt", "AlgebraicGeometry.Etale.finite_compactlySupportedCohomology"]
 tags = ["sketch"]
 +++

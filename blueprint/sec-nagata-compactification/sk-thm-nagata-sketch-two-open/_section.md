@@ -1,14 +1,13 @@
 +++
 id = "sk-thm-nagata-sketch-two-open"
-kind = "theorem"
-title = "Two-open compactification"
-order = 291
+kind = "proposition"
+title = "The two-open compactification construction"
+order = 17
+uses = ["sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
 tags = ["sketch"]
 +++
-Let $S$ be a Noetherian scheme and let $U\to S$ be a separated
-morphism which is locally of finite type and quasi-compact. Let
-$U_1,U_2\subseteq U$ be open subschemes with $U_1\cup U_2=U$ and
-$U_1\cap U_2$ dense in $U$, such that both composites $U_i\hookrightarrow U\to S$
-are compactifiable.
-Then $U\to S$ is compactifiable.
+Let $S$ be Noetherian and $M\to S$ separated of finite type. Suppose
+$M=M_1\cup M_2$, each $M_i$ has a compactification over $S$
+([sk-def-nagata-sketch-data]), and $D=M_1\cap M_2$ is dense in $M$. Then $M$
+has a compactification over $S$.

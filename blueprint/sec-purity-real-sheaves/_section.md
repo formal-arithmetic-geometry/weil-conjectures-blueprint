@@ -3,7 +3,7 @@ id = "sec-purity-real-sheaves"
 kind = "section"
 title = "Purity of Real Sheaves on Curves"
 order = 2918
-uses = ["sec-abelian-varieties", "sec-algebraic-groups-lie-algebras", "sec-curve-estimates", "sec-nagata-compactification", "sec-picard-framework", "sec-poincare-duality", "sec-six-functors", "sec-smooth-purity", "sec-trace-formula", "sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-av-final"]
+uses = ["sec-abelian-varieties", "sec-algebraic-groups-lie-algebras", "sec-curve-estimates", "sec-nagata-compactification", "sec-picard-framework", "sec-poincare-duality", "sec-proetale-coefficients", "sec-six-functors", "sec-smooth-purity", "sec-trace-formula", "sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-av-final"]
 +++
 **Content.** For a smooth geometrically connected curve $C_0/\mathbf F_q$ and
 an $\iota$-real lisse Weil $\overline{\mathbf Q}_\ell$-sheaf $\mathcal F$

@@ -10,7 +10,7 @@ deriving, so on the unbounded derived categories $Li^*Ri_*=i^*i_*\cong
 hence $Ri_*:D(Z_{\mathrm{et}},\mathcal A)\to D(X_{\mathrm{et}},\mathcal A)$
 is fully faithful. Since $i$ is proper, $Ri_!\cong Ri_*$ (computed with the
 compactification $(\operatorname{id}_Z,i)$), so $Ri_!$ is fully faithful too,
-and $Ri^!$ is its right adjoint ([sk-prop-sf-existence] (a), unconditional on
+and $Ri^!$ is its right adjoint ([lem-exc-closed-ambient], unconditional on
 the ordinary étale derived categories). For every $P\in D(Z_{\mathrm{et}},
 \mathcal A)$ the composite
 

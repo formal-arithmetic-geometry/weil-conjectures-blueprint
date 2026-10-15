@@ -1,26 +1,7 @@
 +++
 id = "def-asd-vector-bundle-zero-section"
 kind = "definition"
-title = "Vector bundle with zero section"
+title = "Vector bundles"
 order = 2312
-uses = ["def-amb-finite-locally-free-module", "def-weil-scheme-morphism-properties"]
 +++
-Let $S$ be a Noetherian scheme and let $\mathcal E$ be a
-locally free sheaf of
-$\mathcal O_S$-modules of constant finite rank $d$.
-Its vector bundle is the relative affine scheme
-
-$$
-\pi:E=\operatorname{Spec}_S(\operatorname{Sym}^{\bullet}\mathcal E)
-\longrightarrow S.
-$$
-
-Here the symmetric algebra is formed on each open affine and the
-associated affine schemes glue by restriction. The augmentation
-$\operatorname{Sym}^{\bullet}\mathcal E\to\mathcal O_S$
-defines its closed
-zero section $z:S\hookrightarrow E$.
-A trivialization on a Zariski open $V\subset S$ is a choice
-$\mathcal E|_V\cong\mathcal O_V^d$, giving
-$E|_V\cong\mathbf A^d_V$. Changes of trivialization are invertible
-$d$-by-$d$ matrices of regular functions on overlaps.
+A vector bundle of rank $c\geq0$ over a scheme $Z$ is a morphism $\pi:V\to Z$ with $V=\operatorname{Spec}_Z\operatorname{Sym}_{\mathcal O_Z}(\mathcal Q)$ for a locally free $\mathcal O_Z$-module $\mathcal Q$ of rank $c$. Its zero section $z:Z\to V$ corresponds to the augmentation $\operatorname{Sym}(\mathcal Q)\to\mathcal O_Z$. A trivialization over an open $U\subseteq Z$ is a basis of $\mathcal Q|_U$; it identifies $V\times_ZU$ with $\Aaf^c_U$ over $U$, carrying $z$ to the zero section. Two trivializations over $U$ differ by a unique matrix in $\mathrm{GL}_c(\Gamma(U,\mathcal O_U))$.

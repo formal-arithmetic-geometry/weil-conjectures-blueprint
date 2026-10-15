@@ -1,41 +1,64 @@
 +++
 id = "sk-def-exchange"
 kind = "definition"
-title = "Exchange morphism"
-order = 1043
+title = "Derived exchange"
+order = 1044
 lean = ["AlgebraicGeometry.Etale.baseChange"]
-uses = ["sk-def-conv"]
+uses = ["sk-def-conv", "sk-def-pbc-conventions"]
 tags = ["sketch"]
 +++
-Let $\mathcal A$ be a Grothendieck abelian category carrying a closed symmetric
-monoidal structure, additive in each variable, with functorial flat
-resolutions. For a commutative square of schemes
+Consider a cartesian square
 
 $$
 \begin{array}{ccc}
 X' & \xrightarrow{g'} & X\\
-f'\downarrow & & \downarrow f\\
-Y' & \xrightarrow{g} & Y
+{\scriptstyle f'}\downarrow & & \downarrow{\scriptstyle f}\\
+Y' & \xrightarrow{g} & Y.
 \end{array}
 $$
 
-(i.e. $f\circ g'=g\circ f'$; for instance $X'=X\times_YY'$) there is an
-*exchange morphism*, natural in $F\in\Dplus(X_{\Et},\mathcal A)$,
+The commutativity of the square supplies the canonical composition
+isomorphism of functors $\Sh(Y_{\Et})\to\Sh(X'_{\Et})$
 
 $$
-\Ex_{\square,F}\ :\ g^{-1}Rf_*F\ \longrightarrow\ Rf'_*g'^{-1}F,
+\theta_\square:f'^{-1}g^{-1}\xrightarrow{\ \sim\ }g'^{-1}f^{-1}.
 $$
 
-namely the adjoint, under $f'^{-1}\dashv Rf'_*$, of the composite
+Since inverse images are exact, $\theta_\square$ also denotes the induced
+isomorphism of functors $D^+(Y_{\Et},\Lambda)\to D^+(X'_{\Et},\Lambda)$. (For
+$F\in\Sh(X_{\Et})$ the *underived exchange map*
+$\Ex^0_{\square,F}:g^{-1}f_*F\to f'_*g'^{-1}F$ in $\Sh(Y'_{\Et})$ is the
+adjoint, under $f'^{-1}\dashv f'_*$, of
+$f'^{-1}g^{-1}f_*F\xrightarrow{\theta_\square}g'^{-1}f^{-1}f_*F
+\xrightarrow{g'^{-1}\varepsilon_f}g'^{-1}F$, with $\varepsilon_f$ the counit;
+it is natural in $F$, and likewise for sheaves of $\Lambda$-modules.)
+
+**Definition (derived exchange).** For $K\in D^+(X_{\Et},\Lambda)$, the
+*exchange morphism*
 
 $$
-f'^{-1}g^{-1}Rf_*F\ \cong\ g'^{-1}f^{-1}Rf_*F
-\xrightarrow{\ g'^{-1}\varepsilon_f\ }g'^{-1}F,
+\Ex_{\square,K}:g^{-1}Rf_*K\longrightarrow Rf'_*g'^{-1}K
+\qquad\text{in }D^+(Y'_{\Et},\Lambda)
 $$
 
-where the isomorphism is induced by $f\circ g'=g\circ f'$ and
-$\varepsilon_f$ is the counit of $f^{-1}\dashv Rf_*$. That is,
-$\Ex_{\square,F}$ is the unit of $f'^{-1}\dashv Rf'_*$ at $g^{-1}Rf_*F$,
-followed by $Rf'_*$ of this composite. Here all functors are taken on the
-bounded below derived categories of $\mathcal A$-valued étale sheaves, and
-the adjunctions are the derived adjunctions.
+is the adjoint, under $f'^{-1}\dashv Rf'_*$, of
+
+$$
+f'^{-1}g^{-1}Rf_*K\xrightarrow{\ \theta_\square\ }g'^{-1}f^{-1}Rf_*K
+\xrightarrow{\ g'^{-1}\varepsilon_f\ }g'^{-1}K
+\qquad\text{in }D^+(X'_{\Et},\Lambda),
+$$
+
+where $\varepsilon_f:f^{-1}Rf_*\to\mathrm{id}$ now denotes the derived counit
+on $D^+(X_{\Et},\Lambda)$. The morphism is natural in $K$, so
+$\Ex_\square:g^{-1}Rf_*\to Rf'_*g'^{-1}$ is a natural transformation of
+functors $D^+(X_{\Et},\Lambda)\to D^+(Y'_{\Et},\Lambda)$.
+
+The derived adjunction exists because inverse image is exact and its right
+adjoint preserves injectives. The construction needs only a commutative
+square; the cartesian hypothesis matters for the question whether it is an
+isomorphism. Concretely, for a bounded below injective resolution
+$K\to I^\bullet$ and an injective replacement $g'^{-1}I^\bullet\to J^\bullet$,
+the exchange is represented by the morphism of complexes
+$g^{-1}f_*I^\bullet\xrightarrow{\Ex^0_{\square,I^\bullet}}f'_*g'^{-1}I^\bullet
+\to f'_*J^\bullet$, independently of the choices.

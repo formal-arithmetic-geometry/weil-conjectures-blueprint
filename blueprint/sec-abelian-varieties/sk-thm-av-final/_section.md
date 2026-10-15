@@ -1,12 +1,18 @@
 +++
 id = "sk-thm-av-final"
-kind = "theorem"
-title = "Abelian-variety estimate"
+kind = "proposition"
+title = "Multiplication on an abelian variety"
 lean = ["AlgebraicGeometry.abelianVariety_estimate"]
-order = 598
-uses = ["sk-def-av", "sk-def-av-isogeny", "sk-def-av-mult-n", "sk-def-av-tate", "sk-prop-av-connected-order", "sk-prop-av-divisible", "sk-prop-av-divisible-structure", "sk-prop-av-prime-p-etale", "sk-prop-av-tate-rank"]
+order = 427
+uses = ["sk-def-av", "sk-def-av-isogeny", "sk-def-av-mult-n", "sk-def-av-tate", "sk-prop-av-connected-order", "sk-prop-av-divisible", "sk-prop-av-divisible-structure", "sk-prop-av-prime-p-etale", "sk-prop-av-tate-rank", "sk-prop-av-isogeny"]
 tags = ["sketch"]
 +++
+Let $B/k$ be an abelian variety of dimension $g$, and let $n>0$ be
+invertible in $k$. Multiplication $[n]:B\to B$ is a finite étale
+surjection of degree $n^{2g}$. In particular $B[n]=\ker[n]$ is a finite
+étale group scheme of rank $n^{2g}$.
+
+*Complements* (proved in this sketch, and used by the curve estimates).
 Let $A$ be an abelian variety of dimension $g$ over a field $k$, let
 $p=\operatorname{char}k$ and let $n\ge1$.
 

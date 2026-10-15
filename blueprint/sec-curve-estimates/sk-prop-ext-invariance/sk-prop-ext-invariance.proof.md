@@ -22,7 +22,7 @@ $\mu_n(k)=\mu_n(k')$ (a primitive $n$-th root of unity in $k$ stays
 primitive in $k'$); in degree $1$ it is
 $J_C[n](k)\to J_C[n](k')$, bijective because $J_C[n]$ is a finite
 étale $k$-group scheme ([sk-thm-av-final](b),(c)) and
-$J_{C_{k'}}=(J_C)_{k'}$ ([sk-prop-jacobian]); in degree $2$ it is
+$J_{C_{k'}}=(J_C)_{k'}$ ([sk-thm-picard-main]); in degree $2$ it is
 $\Pic(C)/n\to\Pic(C_{k'})/n$, both $\Z/n$ via the degree map, which
 is preserved by base change. Hence each $\rho^q$ is an isomorphism.
 

@@ -2,7 +2,7 @@
 id = "sk-thm-picard-serre-b"
 kind = "theorem"
 title = "Serre's theorem B: vanishing after a twist"
-order = 628
+order = 720
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.Scheme.Modules.exists_subsingleton_H_tensor_twist"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "rem-sf-fullcd-counterexample-locus"
 kind = "remark"
 title = "Where the counterexample lives, and which restricted statements survive it"
-order = 2402
+order = 2495
 uses = ["def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-sf-proetale-constructible-origin", "prop-sf-comparison-bound-zero", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
 +++
 The three items of the refutation ([prop-sf-comparison-bound-zero], [rem-sf-fullcd-counterexample]) leave the following picture
@@ -89,7 +89,7 @@ statement is *false*: *The all-sheaves, uniform-in-the-base-change form of the c
 form recorded in [rem-sf-fullcd-general-form], in which the bound is asked
 for every sheaf of $A$-modules and uniformly over the base changes. The
 blueprint therefore restricts to the class it uses: the interface
-[open-sf-ambient-adjoint-input] is read on
+[sk-rem-sf-fullcd-scope] is read on
 [def-sf-fullcd-used-class], where the vanishing half is the
 class-restricted datum [def-sf-fullcd-class] supplied by
 [thm-sf-fullcd-class] and the existence half of the ambient datum is now

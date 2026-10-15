@@ -1,16 +1,18 @@
 +++
 kind  = "proof"
 of    = "sk-lem-nagata-sketch-blowups"
-uses = ["sk-lem-nagata-sketch-closure"]
+uses = ["sk-lem-nagata-sketch-closure", "sk-def-nagata-admissible"]
 +++
-Use the Rees algebra $\bigoplus_{n\geq0}\mathcal I^n$ and its Proj.
-For $I=(a_1,\ldots,a_r)$ on $\Spec A$, the charts are
-$\Spec A[I/a_i]$; quotienting the pulled-back chart by its
-$a_i$-power torsion gives the strict transform. These descriptions
-commute with localization. Finite-type ideals extend across
-quasi-compact opens; product ideals give common refinements, and the
-composition construction combines successive centres. The same charts
-show that a scheme-theoretically dense preserved open remains so.
-Moreover, choosing a finite-type ideal with zero set exactly
-$X\setminus U$ makes $U$ scheme-theoretically dense in its blow-up,
-even when $U$ was not dense in $X$.
+For ideals $\mathcal I,\mathcal J$, blowing up their product factors through
+both blow-ups. Indeed, after the product becomes an invertible ideal, each
+factor is invertible, and the universal property applies. More explicitly,
+first blowing up $\mathcal I$ and then the pulled-back $\mathcal J$ gives the
+blow-up of $\mathcal I\mathcal J$ (Stacks 080A). Induction proves the first
+assertion. For a center on the first blow-up which is not itself pulled back
+from $T$, the composition assertion is the finite-type ideal calculation in
+Stacks 080B.
+
+The extension assertion uses extension of finite-type quasi-coherent ideals
+from a quasi-compact open, with a center still outside $U$; the precise
+admissible extension result is Stacks 080M. These two results turn finitely
+many local constructions into one global modification preserving $U$.

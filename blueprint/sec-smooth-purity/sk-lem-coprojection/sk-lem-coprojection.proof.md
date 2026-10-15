@@ -25,4 +25,4 @@ The composite is natural in $A$ and is induced by the canonical co-projection
 map, so Yoneda gives the asserted isomorphism. The displayed diagonal
 identity is this applied twice on $W$, with $K=\Lambda_W$ and the invertible
 factors $Lp_1^{*}\omega_f$, $Lp_2^{*}\omega_f$ — invertible because
-$\omega_f$ is, by [sk-prop-cohsm] (a).
+$\omega_f$ is, being locally isomorphic to $\Lambda_X(d)[2d]$ by [sk-prop-cohsm].

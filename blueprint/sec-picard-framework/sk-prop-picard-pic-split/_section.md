@@ -1,24 +1,45 @@
 +++
 id = "sk-prop-picard-pic-split"
-kind = "proposition"
-title = "The split exact sequence"
-order = 816
-uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
+kind = "lemma"
+title = "Rigidification along a section"
+order = 604
+uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-picard-pic", "sk-cor-picard-pic-sheaf"]
 lean = ["AlgebraicGeometry.injective_pic_map_snd", "AlgebraicGeometry.pic_map_sectionBaseChange_snd", "AlgebraicGeometry.bijective_toPicardFunctor_picardFunctorNormalized", "AlgebraicGeometry.bijective_pic_split"]
 tags = ["sketch"]
 +++
-Let $f:X\to S$ with a section $\sigma$ and
-$\cO_T\overset{\sim}{\to}f_{T,*}\cO_{X_T}$ for all
-$T\in\Ob((\Sch/S)_{fppf})$ (for $X\to\Spec k$ a smooth projective
-curve with a $k$-point: $H^0(X,\cO_X)=k$ and the flat base change
-gives the condition). Then the sequence
+Let $f:C\to S$ be a morphism of schemes. Suppose that $f$ has a section
+$\sigma:S\to C$ and that
 
 $$
-0\longrightarrow\Pic(T)\xrightarrow{\ f_T^*\ }\Pic(X_T)
-\longrightarrow\Pic_{X/S}(T)\longrightarrow 0
+\cO_T\longrightarrow f_{T,*}\cO_{C_T}
+\quad\text{is an isomorphism for every }T\to S.
+\qquad(\ast)
 $$
 
-is exact and split by $\sigma_T^*$;
-$\Pic(X_T)=\Pic(T)\oplus\Pic_{X/S,\sigma}(T)$, and
-$\Pic_{X/S}$ is the sheafification of
-$T\mapsto\Pic_{X/S,\sigma}(T)$.
+Then $\operatorname{Pic}_{C/S}(T)$ is naturally the set of isomorphism
+classes of pairs $(\cL,\alpha)$, with $\cL$ invertible on $C_T$ and
+$\alpha:\sigma_T^*\cL\simeq\cO_T$. Every such pair has only the identity
+automorphism. There is a split exact sequence
+
+$$
+0\longrightarrow\operatorname{Pic}(T)
+\xrightarrow{\ f_T^*\ }\operatorname{Pic}(C_T)
+\longrightarrow\operatorname{Pic}_{C/S}(T)
+\longrightarrow0,
+$$
+
+whose retraction is $\sigma_T^*$. Normalization is given by
+
+$$
+\cL\longmapsto\cL\otimes f_T^*(\sigma_T^*\cL)^{-1}.
+$$
+
+In particular $\operatorname{Pic}(C_T)=\operatorname{Pic}(T)\oplus\operatorname{Pic}_{C/S,\sigma}(T)$,
+and $\operatorname{Pic}_{C/S,\sigma}\to\operatorname{Pic}_{C/S}$ is an
+isomorphism.
+
+For a smooth proper geometrically connected curve $C$ over a field $k$,
+one has $H^0(C,\cO_C)=k$, and flat coherent base change gives $(\ast)$
+for $C\to\Spec k$, since every $k$-scheme is flat over $k$. If $C$ has a
+$k$-point $P$, the lemma applies with $\sigma=P$ (Stacks Project,
+Tag 0B9U).

@@ -3,7 +3,7 @@ id = "sk-prop-av-mult-hom"
 kind = "proposition"
 title = "The $n$-fold sum is a homomorphism"
 lean = ["AlgebraicGeometry.isMonHom_npow_id"]
-order = 499
+order = 549
 uses = ["sk-cor-av-commutative", "sk-def-av-group-scheme", "sk-def-av-mult-n"]
 tags = ["sketch"]
 +++

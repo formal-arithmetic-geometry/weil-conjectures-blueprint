@@ -21,7 +21,7 @@ formula at the coefficient stage of $\Lambda$ — [sk-thm-sf-pf-finite] at
 $\Lambda=A_{E,n}$, and [sk-thm-sf-pf-adic], [sk-thm-sf-pf-field],
 [sk-thm-sf-pf-proetale] at the remaining stages, all stated in the ambient
 $D^+$ and collected in [sk-rem-sf-pf-done] — and the third is the adjunction
-$Rf_!\dashv Rf^!$ of [sk-prop-sf-existence](c), valid because
+$Rf_!\dashv Rf^!$ of [thm-sf-ambient-adjoint-class], valid because
 $M\otimes^LLf^*L$ is bounded below of étale origin when $L$ is. The chain
 is natural in $L$ ranging over the bounded-below complexes of étale origin,
 a full subcategory containing both sides (each is the comparison image of the

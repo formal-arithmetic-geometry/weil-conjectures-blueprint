@@ -1,29 +1,23 @@
 +++
 id = "sk-thm-sfb-proper-base-change"
-kind = "theorem"
-title = "Proper base change on $D_{\\mathrm{cons}}$"
-order = 1802
-uses = ["sk-def-sfb-base-change-morphism"]
+kind = "proposition"
+title = "Proper direct image of constructible complexes"
+order = 1519
+uses = ["sk-def-sfb-base-change-morphism", "sk-def-sfb-constructible", "sk-lem-integral-models", "sk-prop-ctf-finite-proper", "sk-thm-properbasechange"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper_padicAlgCl"]
 tags = ["sketch"]
 +++
-Let $\Lambda$ be $\underline E$ for a finite extension $E$ of $\mathbf Q_\ell$
-([sk-def-sfb-condensed-ring]) or $\Lambda=\underline{\Qlb}$ ([sk-def-sfb-qlbar-condensed]).
-Consider a **cartesian** square of schemes and morphisms of the setting
+Let $p\colon X\to Y$ be proper and let $\Lambda$ be admissible. Then
+$Rp_*\colon D(X_{\mathrm{proét}},\Lambda)\to D(Y_{\mathrm{proét}},\Lambda)$ maps $\Dctf(X,\Lambda)$
+into $\Dctf(Y,\Lambda)$ ([sk-def-sfb-constructible]). On these categories the canonical proper
+base change and projection formula maps are isomorphisms: for a cartesian square with
+$g\colon Y'\to Y$, $g'\colon X'\to X$ and $p'\colon X'\to Y'$, the base change map
+$g^*Rp_*\to Rp'_*g'^*$ ([sk-def-sfb-base-change-morphism]) is an isomorphism of functors
+$\Dctf(X,\Lambda)\to\Dctf(Y',\Lambda)$, and the projection formula map
+$Rp_*K\otimes^{\mathbf L}M\to Rp_*(K\otimes^{\mathbf L}p^*M)$ is an isomorphism in
+$D(Y_{\mathrm{proét}},\Lambda)$ for $K\in\Dctf(X,\Lambda)$ and $M\in\Dctf(Y,\Lambda)$.
 
-$$
-\begin{array}{ccc}
-X' & \xrightarrow{\;g'\;} & X\\
-{\scriptstyle f'}\downarrow & & \downarrow{\scriptstyle f}\\
-Y' & \xrightarrow{\;g\;} & Y
-\end{array}
-$$
-
-with $f$ **proper**. No hypothesis is imposed on $g$. Then the base change morphism of
-[sk-def-sfb-base-change-morphism],
-
-$$
-\mathrm{BC}_{sq}\colon Lg^*\circ Rf_*\xrightarrow{\ \sim\ }Rf'_*\circ Lg'^*,
-$$
-
-is an isomorphism of functors $D_{\mathrm{cons}}(X,\Lambda)\to D_{\mathrm{cons}}(Y',\Lambda)$.
+For $\Lambda=\cO_E,E,\Qlb$ the category $\Dctf$ is $\Dbc$, and the proof works with $\Dbc$. For
+$Y=\Spec k$ with $k$ algebraically closed, the proposition says that the cohomology groups
+$H^q(X,\Qlb)$ of a proper $X$ are finite-dimensional and vanish outside a bounded range of
+degrees.

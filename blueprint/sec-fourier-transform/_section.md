@@ -3,7 +3,7 @@ id = "sec-fourier-transform"
 kind = "section"
 title = "Fourier Transform"
 order = 3012
-uses = ["sec-poincare-duality", "sec-smooth-purity", "sk-thm-av-final"]
+uses = ["sec-poincare-duality", "sec-proetale-coefficients", "sec-smooth-purity", "sk-thm-av-final"]
 +++
 **Content.** For a vector bundle $V\to S$ of rank $r$ over $\mathbf F_q$ and
 a nontrivial additive character $\psi$ ([sk-def-char]), the Artin–Schreier

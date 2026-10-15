@@ -2,7 +2,7 @@
 id = "sk-thm-picard-descent"
 kind = "theorem"
 title = "Descent"
-order = 768
+order = 727
 uses = ["sk-def-av-pic"]
 lean = ["AlgebraicGeometry.bijective_toDescentData_map", "AlgebraicGeometry.exists_isQuasicoherent_toDescentData_iso", "AlgebraicGeometry.isFinitePresentation_of_toDescentData_iso", "AlgebraicGeometry.isLocallyFree_of_toDescentData_iso", "AlgebraicGeometry.isInvertible_of_toDescentData_iso", "AlgebraicGeometry.isSheaf_fpqc_finiteLocallyFreeSubscheme"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-rem-sf-pf-done"
 kind = "theorem"
 title = "The interface is discharged"
-order = 2447
+order = 2498
 tags = ["sketch"]
 +++
 By [sk-thm-sf-pf-finite], [sk-prop-sf-pf-reduction],

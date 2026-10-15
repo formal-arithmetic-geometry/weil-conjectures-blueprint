@@ -2,7 +2,7 @@
 id = "sk-prop-br-inj"
 kind = "proposition"
 title = "Generic-point injection for the Brauer group"
-order = 906
+order = 1000
 uses = ["sk-def-br", "sk-prop-hilbert90"]
 lean = ["AlgebraicGeometry.Scheme.injective_cohomologyMap_gmSheaf_two"]
 tags = ["sketch"]

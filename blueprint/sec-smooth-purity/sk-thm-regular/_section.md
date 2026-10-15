@@ -2,7 +2,7 @@
 id = "sk-thm-regular"
 kind = "theorem"
 title = "Purity for regular closed immersions"
-order = 2377
+order = 1948
 uses = ["sk-def-purity-conv", "sk-lem-coprojection", "sk-lem-regular-smooth", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-an", "sk-thm-dnc", "sk-thm-smooth-purity"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_of_isRegularImmersion"]
 tags = ["sketch"]
@@ -43,7 +43,7 @@ classes and their gluing make sense for every regular closed immersion;
 for the zero section of $\Aaf^1_Y$ the class so defined is
 $\mathrm{pur}_s$ of [sk-prop-a1], and for the zero section of $\Aaf^c_B$
 it is the generator $\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$
-of [sk-prop-an] (i), by the definition of those classes; these pairs are
+of [cor-pur-affine-space-zero-section-purity], by the definition of those classes; these pairs are
 in the situation of the theorem when $Y$, resp. $B$, is smooth over $k$.)
 - **(c)** The morphism
 

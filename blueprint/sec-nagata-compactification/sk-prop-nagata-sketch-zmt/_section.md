@@ -2,7 +2,7 @@
 id = "sk-prop-nagata-sketch-zmt"
 kind = "proposition"
 title = "Zariski's Main Theorem and affine-space immersions"
-order = 188
+order = 121
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isOpenImmersion_isAffineHom_of_locallyQuasiFinite", "AlgebraicGeometry.exists_immersion_affineSpace_of_quasiAffine"]
 tags = ["sketch"]
 +++

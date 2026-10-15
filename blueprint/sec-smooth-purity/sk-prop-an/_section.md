@@ -1,80 +1,36 @@
 +++
 id = "sk-prop-an"
 kind = "proposition"
-title = "$\\Aaf^1\\Rightarrow\\Aaf^n$: the model purity"
-order = 2306
-uses = ["sk-def-purity-conv", "sk-lem-sf-mate", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-a1-kummer", "sk-prop-cd", "sk-prop-h2", "sk-prop-sf-cbc", "sk-prop-sf-open-closed-triangle", "sk-thm-properbasechange"]
+title = "Vector-bundle purity"
+order = 1815
+uses = ["sk-def-purity-conv", "sk-lem-sf-mate", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-a1-kummer", "sk-prop-cd", "sk-prop-h2", "sk-prop-sf-cbc", "sk-prop-sf-open-closed-triangle", "sk-thm-properbasechange", "sk-prop-geo-p1-adjunction", "sk-lem-sp-finite-existence"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpaceZero"]
 tags = ["sketch"]
 +++
-In the conventions of [sk-def-purity-conv], let $B$ be separated finite
-type, $\pi=p_c:\Aaf^c_B\to B$ the projection and $z:B\hookrightarrow\Aaf^c_B$
-the zero section.
-
-- **(i)** *The $Rz^{!}$-form: the Thom class.*
-
-$$
-Rz^{!}\Lambda_{\Aaf^c_B}(c)[2c]\ \cong\ \Lambda_B,
-$$
-
-i.e. $Rz^{!}\Lambda_{\Aaf^c_B}\cong\Lambda_B(-c)[-2c]$, by a canonical
-base-change compatible isomorphism whose generator is the fundamental class
-of the zero section, the cup product with supports
-$\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$ of the Kummer
-boundaries of the coordinates. More generally, for a vector bundle
-$\pi:E\to Z$ of rank $c$ with zero section $z$ there is a *Thom class*
+*Integration on affine space.* Let $j:\mathbf A^1_S\hookrightarrow\mathbf P^1_S$ be the
+complement of the section at infinity and $p=q\circ j$. Composing
+[sk-prop-geo-p1-adjunction] with $j_!\dashv j^*$ gives $Rp_!\dashv p^*(-)(1)[2]$; at the
+constant sheaf its counit is the *trace map of the affine line*
+$\operatorname{Tr}_p:Rp_!(\mathbf Z/\ell^n\mathbf Z)_{\mathbf A^1_S}(1)[2]\to(\mathbf Z/\ell^n\mathbf Z)_S$,
+an isomorphism. For $p_j:\mathbf A^j_S\to S$ and $r_j:\mathbf A^j_S\to\mathbf A^{j-1}_S$
+forgetting the last coordinate, $\operatorname{Tr}_{p_j}$ is defined inductively
+as $\operatorname{Tr}_{p_{j-1}}\circ Rp_{j-1!}(\operatorname{Tr}_{r_j})$, using
+$Rp_{j!}=Rp_{j-1!}Rr_{j!}$ and the projection formula. For $j=d$ this is the
+*integration isomorphism* (the identity when $d=0$)
 
 $$
-\mathrm{th}_E:\ \Lambda_Z\ \xrightarrow{\ \sim\ }\ Rz^{!}\Lambda_E(c)[2c],
+\operatorname{Tr}_{p_d}:Rp_{d!}(\mathbf Z/\ell^n\mathbf Z)_{\mathbf A^d_S}(d)[2d]\xrightarrow{\ \sim\ }(\mathbf Z/\ell^n\mathbf Z)_S,
 $$
 
-which restricts to the previous one in any étale trivialization of $E$.
-- **(ii)** *The $R\pi^{!}$-form: affine-space and vector-bundle
-purity.* For every $K\in D^b_{ctf}(B,\Lambda)$ there is a canonical
-isomorphism
+the counit of $Rp_{d!}\dashv p_d^*(-)(d)[2d]$ at the constant sheaf; unit and
+counit commute with base change. On a vector bundle this gives an integration
+map after choosing a local frame; to get a global map one must show that it
+does not depend on the frame.
+
+**Proposition.** Let $\pi:V\to S$ be a vector bundle of rank $d$. For
+$K\in\Dctf(S_{\mathrm{proét}},\mathbf Z/\ell^n\mathbf Z)$, integration induces an isomorphism
+in $\Dctf(V_{\mathrm{proét}},\mathbf Z/\ell^n\mathbf Z)$
 
 $$
-\gamma_{\pi,K}:\ L\pi^{*}K(c)[2c]\ \xrightarrow{\ \sim\ }\ R\pi^{!}K,
+\pi^*K(d)[2d]\xrightarrow{\ \sim\ }\pi^!K.
 $$
-
-natural in $K$ and compatible with arbitrary base change in $B$; in
-particular $\omega_\pi=R\pi^{!}\Lambda_B\cong\Lambda_{\Aaf^c_B}(c)[2c]$.
-It is the transpose under $R\pi_!\dashv R\pi^{!}$ of the *integration
-map*
-
-$$
-R\pi_!L\pi^{*}K(c)[2c]\ \cong\ K\otimes^{\mathbb L}R\pi_!\Lambda_{\Aaf^c_B}(c)[2c]
-\ \xrightarrow{\ 1_K\otimes\int_\pi\ }\ K,
-$$
-
-where $\int_\pi:R\pi_!\Lambda_{\Aaf^c_B}(c)[2c]\xrightarrow{\sim}\Lambda_B$ is
-the affine-space trace of Step 5 below and the first map is the projection
-formula. Under $\Aaf^{c+e}_B=\Aaf^c_{\Aaf^e_B}$ it satisfies the composition
-law
-$\gamma_{p_{c+e},K}=c_{p_e,p_c}^{-1}\circ\gamma_{p_c,Rp_e^{!}K}\circ
-Lp_c^{*}(\gamma_{p_e,K})(c)[2c]$, with $c_{g,f}:R(gf)^{!}\cong Rf^{!}Rg^{!}$
-the composition isomorphism, and it is symmetric under permutations of the
-coordinates (every Koszul sign is $+1$, all shifts being even). More
-generally, for a vector bundle $\pi:E\to Z$ of rank $c$ there is a canonical
-isomorphism $\gamma_{\pi,K}:L\pi^{*}K(c)[2c]\xrightarrow{\sim}R\pi^{!}K$,
-compatible with base change, which is the affine-space one on every étale
-trivialization of $E$; in particular $\omega_\pi\cong\Lambda_E(c)[2c]$
-(*vector-bundle purity*).
-- **(iii)** *Normalization: the two forms agree along the zero
-section.* Since $\pi z=\mathrm{id}$, the composition isomorphism gives
-$Rz^{!}R\pi^{!}\cong\mathrm{id}$, and for every vector bundle $\pi:E\to Z$
-(with $Z=B$ for $E=\Aaf^c_B$) the composite
-
-$$
-\Lambda_Z\ \xrightarrow{\ \mathrm{th}_E\ }\ Rz^{!}\Lambda_E(c)[2c]
-\ \xrightarrow{\ Rz^{!}(\gamma_{\pi,\Lambda})\ }\ Rz^{!}R\pi^{!}\Lambda_Z
-\ \cong\ \Lambda_Z
-$$
-
-is the identity. Equivalently, $\int_\pi$ sends the *class of the zero
-section* — the image of $\mathrm{th}_E$ under
-$H^0(Z,Rz^{!}\Lambda_E(c)[2c])=H^{2c}_{z(Z)}(E,\Lambda(c))\to
-H^0(Z,R\pi_!\Lambda_E(c)[2c])$, which for $E=\Aaf^c_B$ is
-$\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$ — to $1$. Thus (i)
-is what (ii) becomes along the zero section, and the generator of (i) is the
-normalization of (ii).

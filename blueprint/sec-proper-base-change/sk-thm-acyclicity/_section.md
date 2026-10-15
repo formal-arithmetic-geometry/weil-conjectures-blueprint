@@ -1,18 +1,19 @@
 +++
 id = "sk-thm-acyclicity"
-kind = "theorem"
-title = "Acyclicity criterion"
-order = 1097
+kind = "lemma"
+title = "Acyclic resolutions"
+order = 1050
 lean = ["CategoryTheory.Functor.nonempty_rightDerivedObjIso_homology_of_acyclic"]
 tags = ["sketch"]
 +++
-Let $v$ be a left exact functor between abelian categories with
-enough injectives. If $F\to I^\bullet$ is a resolution by
-$v$-acyclic objects (i.e. $R^qvI^m=0$ for $q>0$), then
+Let $v:\mathcal A\to\mathcal B$ be a left exact additive functor between
+abelian categories with enough injectives. If $F\to A^\bullet$ is a resolution
+and each $A^m$ is $v$-acyclic, then
 
 $$
-\mathcal H^q(vI^\bullet)\xrightarrow{\ \sim\ }R^qvF :
+\mathcal H^q(vA^\bullet)\simeq R^qvF.
 $$
 
-the cohomology of a termwise-acyclic complex computes the derived
-functor.
+More generally, for a bounded below complex $A^\bullet$ of $v$-acyclic
+objects, the canonical comparison $vA^\bullet\to Rv(A^\bullet)$ is an
+isomorphism in $D^+(\mathcal B)$.

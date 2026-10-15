@@ -2,7 +2,7 @@
 id = "rem-sfb-coefficient-layers"
 kind = "remark"
 title = "Two layers of coefficients"
-order = 1506
+order = 1677
 +++
 The construction follows Bhatt–Scholze, *The pro-étale topology for schemes*,
 §6.8, for $\ell$-adic coefficients. Throughout, $X_{\mathrm{proét}}$ is the small

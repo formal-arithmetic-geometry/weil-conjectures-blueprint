@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-jacobian-descent"
-uses = ["sk-prop-jacobian"]
+uses = ["sk-thm-picard-main"]
 +++
 Write $C_s=C_0\times_{k_0}k_s$ and
 $F:=\Pic^0_{C_0/k_0}\subseteq\Pic_{C_0/k_0}$ for the subsheaf of classes
@@ -13,7 +13,7 @@ $\Pic^0_{C/\bar k_0}$.
 *Step 1 (the geometric case, carried out over the separable
 closure).* Over $\bar k_0$ the functor $\Pic^0_{C/\bar k_0}$ is
 represented by the abelian variety $J(C)$ of dimension $g$, with
-$J(C)(\bar k_0)=\Pic^0(C)$: this is [sk-prop-jacobian]. The
+$J(C)(\bar k_0)=\Pic^0(C)$: this is [sk-thm-picard-main]. The
 construction is available already over $k_s$: [sk-thm-picard-main]
 is stated for a separably closed field, so $\Pic_{C_s/k_s}$ is
 represented by a group scheme $P_s$ over $k_s$. The

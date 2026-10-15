@@ -2,8 +2,8 @@
 id = "sk-rem-sf-fullcd-scope"
 kind = "remark"
 title = "What this does and does not discharge"
-order = 2394
-uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-prop-sf-existence"]
+order = 2488
+uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-prop-sf-existence", "thm-sf-ambient-adjoint-class"]
 tags = ["sketch"]
 +++
 [sk-prop-sf-fullcd-etale-origin] is the form of
@@ -12,12 +12,12 @@ $\operatorname{FullCD}$ that every consumer downstream actually uses: all of
 [sk-thm-sf-tensor-hom], [sk-def-sf-kv-maps] and the duality and trace
 chapters work inside $\Dctf$, where [09AK](https://stacks.math.columbia.edu/tag/09AK) puts every object in the
 étale-origin class, and there the exceptional adjoint is the unconditional
-$Rf^!$ of [sk-def-sf-operations] (vi), [sk-prop-sf-existence] (c). It
-does *not* discharge [sk-prop-sf-existence] (b), and nothing can:
+$Rf^!$ of [sk-def-sf-operations] (vi), [thm-sf-ambient-adjoint-class]. It
+does *not* discharge the ambient datum [def-weil-ambient-exceptional-adjoint], and nothing can:
 Brown representability needs $Rf_!$ to preserve arbitrary coproducts on the
 whole of $D(\overline X_{\Proet},A)$, which requires the vanishing on
 pro-étale $A$-module sheaves that are *not* of étale origin. That vanishing is
-*false in general*, and with it (b): for the structure morphism of an
+*false in general*, and with it that datum: for the structure morphism of an
 elliptic curve over $\overline{\mathbf F}_p$ and $A=\mathbf F_r$ the direct
 image does not preserve coproducts (below). The compact generation of
 $D(\overline X_{\Proet},A)$ by shifts of affine quasi-compact weakly
@@ -68,11 +68,23 @@ rationalization restore the ambient adjoint. *Repair boundary.* The
 sheaf $\mathcal F$ is not of étale origin, and no statement of this
 blueprint applies an adjunction $Rf_!\dashv Rf^!$ outside the étale-origin
 class: the constructible exceptional adjoint $Rf^!$ of
-[sk-def-sf-operations] (vi), transported from the étale adjoint of
-[sk-prop-sf-existence] (a), is unconditional, preserves $\Dctf$
+[sk-def-sf-operations] (vi), transported from the étale adjoint $f^{\times}$ of
+[def-weil-exceptional-inverse-image], is unconditional, preserves $\Dctf$
 ([sk-prop-sf-rf-shriek-preservation]), and is the only exceptional functor
 the duality, trace and weight chapters use. Their terminal statements
 ([sk-thm-poincare-duality], [sk-input-weights],
 [sk-thm-tracetodeterminant], [sk-prop-rootpurity]) therefore hold for
 every smooth proper geometrically connected $X_0$ with no admissibility
 hypothesis.
+
+*Where the class adjoint stops.* The comparison construction of
+[thm-sf-ambient-adjoint-class] provides the exceptional right adjoint relative
+to bounded-below inputs of étale origin. It suffices for the bounded
+constructible class; its finite-coefficient preservation is
+[thm-sf-preservation-class]. An adjunction for arbitrary unbounded pro-étale
+complexes is not proved by that comparison and is not used as an automatic
+consequence (see [rem-sf-class-adjoint-residue]); by the counterexample above
+it is false in general. General finite-coefficient Verdier biduality is
+independently proved in [thm-fix-general-biduality], and its boundary exchange
+is [cor-weil-boundary-duality-discharge]; neither needs the unrestricted
+ambient adjunction.

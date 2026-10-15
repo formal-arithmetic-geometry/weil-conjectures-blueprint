@@ -3,7 +3,7 @@ id = "sk-def-av-ample-degree"
 kind = "definition"
 title = "Ample modules and the Hilbert degree"
 lean = ["AlgebraicGeometry.IsAmple", "AlgebraicGeometry.Scheme.Hom.degree"]
-order = 445
+order = 533
 tags = ["sketch"]
 +++
 Let $X$ be a scheme over a field $k$. An $\cO_X$-module $\cM$ is

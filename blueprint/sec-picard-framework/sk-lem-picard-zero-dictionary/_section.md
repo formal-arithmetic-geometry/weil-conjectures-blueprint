@@ -2,7 +2,7 @@
 id = "sk-lem-picard-zero-dictionary"
 kind = "lemma"
 title = "The zero-scheme dictionary"
-order = 831
+order = 735
 uses = ["sk-cor-picard-degree-g", "sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.exists_isEffectiveCartierCenter_hilbertPresheaf"]
 tags = ["sketch"]

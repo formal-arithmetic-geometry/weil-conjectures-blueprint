@@ -2,7 +2,7 @@
 id = "rem-sfb-constructible-coefficients"
 kind = "remark"
 title = "Constructibility over the coefficient rings"
-order = 1652
+order = 1679
 +++
 The definitions of [sk-def-sfb-constructible] and [sk-def-sfb-bounded-constructible] are
 made for an arbitrary ring object $\mathcal R$, so they apply directly to the coefficient

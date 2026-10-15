@@ -3,7 +3,7 @@ id = "sec-six-functors"
 kind = "section"
 title = "Six Functors"
 order = 2383
-uses = ["sec-nagata-compactification", "sec-proper-base-change", "sec-smooth-base-change", "sec-smooth-purity"]
+uses = ["sec-nagata-compactification", "sec-proetale-coefficients", "sec-proper-base-change", "sec-smooth-base-change", "sec-smooth-purity"]
 +++
 **Content.** For separated finite-type morphisms of finite-type schemes over
 $k=\overline{\mathbf F}_q$ and every coefficient stage ($A_{E,n}$,
