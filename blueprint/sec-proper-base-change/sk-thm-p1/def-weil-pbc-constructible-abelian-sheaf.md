@@ -3,7 +3,6 @@ id = "def-weil-pbc-constructible-abelian-sheaf"
 kind = "definition"
 title = "Constructible abelian sheaf on the small etale site"
 uses = ["def-constructible-stratification", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image"]
-source = "literature/stacks-project/etale-cohomology.tex, Definition 03RW (definition-constructible), part (2), etale-cohomology.tex line 11672, with Definition 03RU (definition-finite-locally-constant), abelian part, line 9917, and Lemma 095E (lemma-constructible-quasi-compact-quasi-separated) (3), line 11717"
 +++
 Let $T$ be a scheme and $C$ an abelian sheaf on its small etale site $T_{\Et}$ [def-weil-pbc-etale-site], i.e. an object of $\Ab(T_{\Et})$ `CategoryTheory.Sheaf` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/Sheaf.lean)). The sheaf $C$ is a *constructible abelian sheaf* if there is a stratification $(\iota_k\colon Z_k\to T)_{k<r}$ of the scheme $T$ [def-constructible-stratification] (a finite partition $T=\coprod_{k<r}T_k$ of the underlying space into pairwise disjoint locally closed subsets, with immersions of schemes $\iota_k$ with set-theoretic image $T_k$) such that
 (a) every stratum $T_k$ is a constructible subset of the underlying space of $T$ `Topology.IsConstructible` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Topology/Constructible.lean)), and

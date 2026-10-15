@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Degreewise middle maps between split horseshoe rows"
 uses = ["def-sp-abelian", "def-sp-injective-resolutions"]
 lean = ["CategoryTheory.InjectiveResolution.horseshoe_degreewise_map"]
-source = "literature/stacks-project/homology.tex, Tag 0136, implication that a short exact sequence beginning with an injective splits; horseshoe naturality Step 1"
 +++
 Let C be an abelian category [def-sp-abelian]. Let X, Y, Z and X', Y', Z' be
 nonnegative cochain complexes. Let alpha: X to Y, beta: Y to Z, alpha': X' to Y',

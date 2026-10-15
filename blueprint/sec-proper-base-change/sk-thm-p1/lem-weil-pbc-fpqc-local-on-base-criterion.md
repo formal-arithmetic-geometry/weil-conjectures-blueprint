@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Criterion for a property of morphisms to descend along fpqc coverings (Stacks 02KP, fpqc case)"
 uses = ["def-pc-scheme"]
 lean = ["AlgebraicGeometry.fpqc_local_on_base_criterion"]
-source = "literature/stacks-project/descent.tex, Descent, Lemma Tag 02KP (lemma-descending-properties-morphisms, line 5407) with tau = fpqc, the direction 'each base change has P => f has P' of 'fpqc local on the base' (Definition Tag 02KO, definition-property-morphisms-local, line 5310); its proof ('details omitted') goes through Topologies, Definition Tag 022B (topologies-definition-fpqc-covering, topologies.tex line 2888) and Lemma Tag 022E (topologies-lemma-fpqc-affine, topologies.tex line 3151: an fpqc covering of an affine scheme is refined by a finite fpqc covering by affine opens of the members). Condition (0) is the standing convention of Definition 02KO ('we see (or require) that property P holds for X -> Y iff it holds for any arrow isomorphic to it')."
 +++
 Let $\mathcal P$ be a class of morphisms of schemes [def-pc-scheme] satisfying the following four conditions.
 (0) (Invariance under isomorphism.) If $f:X\to S$ has $\mathcal P$ and $\tilde f:\tilde X\to\tilde S$ is a morphism for which there are isomorphisms of schemes $a:X\to\tilde X$, $b:S\to\tilde S$ with $\tilde f\circ a=b\circ f$, then $\tilde f$ has $\mathcal P$.

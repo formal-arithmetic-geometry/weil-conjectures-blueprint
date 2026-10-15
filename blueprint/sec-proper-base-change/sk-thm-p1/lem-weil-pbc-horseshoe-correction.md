@@ -4,7 +4,6 @@ kind = "lemma"
 title = "The horseshoe defect correction preserves both row squares and the augmentation"
 uses = ["def-sp-abelian"]
 lean = ["CategoryTheory.InjectiveResolution.corrected_middle_map"]
-source = "literature/stacks-project/derived.tex, Tag 015I, final correction of the middle map"
 +++
 theorem corrected_middle_map
     {C : Type u} [Category.{v} C] [Abelian C]

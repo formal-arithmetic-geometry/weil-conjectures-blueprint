@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Extension by zero is left adjoint to restriction (étale site)"
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image"]
 lean = ["AlgebraicGeometry.Etale.openImmersionLowerShriekUpperStarAdjunction"]
-source = "literature/stacks-project/etale-cohomology.tex, Section 03S2 (etale-cohomology-section-extension-by-zero): Definition 03S3 (etale-cohomology-definition-extension-zero) (2),(3), the discussion after it (j^{-1}G(U')=G(U'), j_! = sheafification of j_{p!}) and Exercise 03S4 (etale-cohomology-exercise-jshriek-direct); proof in Modules on Sites, Lemma 03DI (literature/stacks-project/sites-modules.tex, sites-modules-lemma-extension-by-zero), and Remark 08P4 (sites-modules-remark-localize-shriek-equal) for Lambda-modules versus abelian sheaves"
 +++
 Let $\Lambda$ be a commutative ring ($\Lambda=\mathbf Z$ gives abelian sheaves), let $j:U\hookrightarrow X$ be an open immersion of schemes, and let $j_!:\Mod(U_{\Et},\Lambda)\to\Mod(X_{\Et},\Lambda)$ be extension by zero on sheaves of $\Lambda$-modules on the small etale sites [def-weil-pbc-extension-by-zero] and $j^{-1}:\Mod(X_{\Et},\Lambda)\to\Mod(U_{\Et},\Lambda)$ the inverse image [def-weil-pbc-inverse-image]. Then $j_!$ is left adjoint to $j^{-1}$: there are bijections
 $$

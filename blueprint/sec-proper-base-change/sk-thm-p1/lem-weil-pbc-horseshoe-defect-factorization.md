@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Factorization and cocycle identities of horseshoe defects"
 uses = ["def-sp-abelian", "def-sp-injective-resolutions"]
 lean = ["CategoryTheory.InjectiveResolution.horseshoe_defect_factorization"]
-source = "literature/stacks-project/derived.tex, Classical horseshoe naturality Step 2, as in Weibel Theorem 2.4.6; abelian kernel/cokernel factorizations used in Tag 013T"
 +++
 Let C be an abelian category [def-sp-abelian], S and T short exact sequences in C,
 and F a morphism from S to T. Let IA, IB, IC and JA, JB, JC be injective resolutions
