@@ -1,12 +1,19 @@
 +++
 id = "sk-cor-sf-direct-image-ctf"
-kind = "corollary"
-title = "The direct image cell on the pro-étale site"
-order = 2536
-uses = ["sk-prop-sf-comparison", "sk-thm-sf-direct-image-tor-amplitude"]
+kind = "proposition"
+title = "Open direct image preserves finite Tor amplitude"
+order = 2395
+uses = ["sk-prop-sf-comparison", "sk-thm-sf-direct-image-tor-amplitude", "sk-cor-geo-open-finiteness", "sk-cor-geo-open-finiteness-ii", "sk-def-cd"]
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerStar", "AlgebraicGeometry.ProEtale.torAmplitudeIn_rightDerivedLowerStar"]
 tags = ["sketch"]
 +++
-For $f$ separated of finite type with $\dim X\le d$, $Rf_*$ carries
-$\Dctf(X_{\Proet},A)$ into $\Dctf(Y_{\Proet},A)$, with finite Tor amplitude
-$[a,b]\mapsto[a,b+2d]$; no restriction to objects of étale origin is needed.
+Let $A$ be a finite commutative $\ell$-primary ring and let
+$j:U\hookrightarrow X$ be an open immersion. Then
+$Rj_*\colon D(U_{\mathrm{proét}},A)\to D(X_{\mathrm{proét}},A)$ restricts to
+
+$$
+Rj_*:\Dctf(U,A)\longrightarrow\Dctf(X,A).
+$$
+
+More precisely, if $K$ has Tor amplitude in $[a,b]$ and
+$d\ge\operatorname{cd}_\ell(j)$, then $Rj_*K$ has Tor amplitude in $[a,b+d]$.

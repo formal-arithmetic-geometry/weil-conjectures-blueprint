@@ -2,7 +2,7 @@
 id = "sk-the-final-theorem-the-abelian-variety-estimate--remark-1"
 kind = "remark"
 title = "Remark"
-order = 600
+order = 563
 tags = ["sketch"]
 +++
 *Where this feeds in.*

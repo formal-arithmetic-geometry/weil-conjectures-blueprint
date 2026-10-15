@@ -1,16 +1,43 @@
 +++
-kind  = "proof"
-of    = "sk-rem-sf-matrix"
-uses = ["sk-prop-sf-finiteness", "sk-thm-sf-ctf-stability", "sk-thm-sf-hom-ctf", "sk-prop-sf-rf-shriek-preservation", "sk-prop-sf-biduality-general"]
+kind = "proof"
+of = "sk-rem-sf-matrix"
+uses = ["sk-prop-sf-finiteness", "sk-thm-sf-ctf-stability", "sk-thm-sf-hom-ctf", "sk-prop-sf-rf-shriek-preservation", "sk-prop-sf-biduality-general", "sk-cor-sf-direct-image-ctf", "sk-prop-ctf-finite-proper"]
 +++
-Each cell is one of the results already proved, used on the domain stated
-there. The $\Dbc$ cells for $Lf^*$, $Rf_*$ and $Rf_!$ are
-[sk-prop-sf-finiteness]. The $\Dctf$ cells for $Lf^*$, $\otimes^L$, $Rf_*$
-and $Rf_!$ are clauses of [sk-thm-sf-ctf-stability]. The $\RHom$ cell is
-[sk-thm-sf-hom-ctf]: on the étale site for arbitrary objects, through the
-dimension-dependent bound, and on the pro-étale site for pulled-back pairs.
-The $Rf^!$ cell, for every separated finite-type $f$ with no admissibility
-hypothesis, is [sk-prop-sf-rf-shriek-preservation]. The $\mathbb D_X$ cell
-follows: $\omega_X=Ra_X^!\Lambda$ lies in $\Dctf$ by the $Rf^!$ cell, and
-$\mathbb D_X=\RHom(-,\omega_X)$ preserves $\Dctf$ by the $\RHom$ cell. The
-perfect case is the one used in [sk-prop-sf-biduality-general].
+Pullback, tensor product and extension by zero preserve bounded constructible
+flat models. If $p$ is proper, proper finiteness gives constructibility of
+$Rp_*K$, and the scalar projection formula together with the finite
+cohomological dimension of $p$ gives its finite Tor amplitude as in
+[sk-cor-sf-direct-image-ctf] (see [sk-prop-ctf-finite-proper]). For a
+compactification $f=pj$ this proves the assertion for $Rf_!=Rp_*j_!$, and
+$Rf_*=Rp_*Rj_*$ gives it for $Rf_*$, using [sk-cor-sf-direct-image-ctf] for
+$Rj_*$. The case of $f^!$ is [sk-prop-sf-rf-shriek-preservation].
+
+For internal Hom we argue by dévissage along the strata on which the first
+argument is perfect. Choose a finite stratification on which a bounded
+constructible flat model of the first argument is locally a finite complex of
+finite projective modules. On such a stratum a complex $P$ is dualizable, so
+
+$$
+R\mathcal Hom_A(P,L)=P^\vee\otimes_A^{\mathbf L}L
+$$
+
+lies in $\Dctf$ whenever $L$ does. To pass from the strata to $X$, use open and
+closed localization triangles in the first argument together with the
+identities
+
+$$
+\begin{aligned}
+R\mathcal Hom_A(j_!P,L)&\simeq Rj_*R\mathcal Hom_A(P,j^*L),\\
+R\mathcal Hom_A(i_*P,L)&\simeq i_*R\mathcal Hom_A(P,i^!L)
+\end{aligned}
+$$
+
+in $D(X_{\mathrm{proét}},A)$, for an open immersion $j$ and a closed immersion
+$i$. They follow from tensor-Hom adjunction and the adjunctions for $j_!$ and
+$i_*$, and the preceding results keep both right sides in $\Dctf$. Induction
+on the number of strata gives the result. (Compare [sk-thm-sf-hom-ctf] for the
+explicit internal-Hom bounds, [sk-thm-sf-ctf-stability] and
+[sk-prop-sf-finiteness] for the remaining cells, and
+[sk-prop-sf-biduality-general] for the dualizing functor
+$\mathbb D_X=R\mathcal Hom_A(-,\omega_X)$, which preserves $\Dctf$ by the
+$f^!$ and $R\mathcal Hom_A$ cases.)

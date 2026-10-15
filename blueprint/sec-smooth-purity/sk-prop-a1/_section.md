@@ -2,7 +2,7 @@
 id = "sk-prop-a1"
 kind = "proposition"
 title = "Rank-one orientation: the fundamental class of the zero section"
-order = 2294
+order = 1925
 uses = ["sk-def-purity-conv", "sk-prop-a1-kummer"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineLineZero"]
 tags = ["sketch"]

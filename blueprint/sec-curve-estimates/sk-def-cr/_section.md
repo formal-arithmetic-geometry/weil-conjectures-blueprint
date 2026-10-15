@@ -2,7 +2,7 @@
 id = "sk-def-cr"
 kind = "definition"
 title = "$C_r$ fields"
-order = 897
+order = 983
 lean = ["IsCField", "IsQuasiAlgClosed", "IsAlgClosed.isCField_zero", "IsCField.mono"]
 tags = ["sketch"]
 +++

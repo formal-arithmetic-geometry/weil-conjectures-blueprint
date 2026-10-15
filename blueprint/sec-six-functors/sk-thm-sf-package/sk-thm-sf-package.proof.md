@@ -6,7 +6,7 @@ uses = ["sk-def-sf-kv-maps", "sk-prop-sf-biduality-general", "sk-prop-sf-existen
 Every clause is one of the propositions of §§ *What the earlier chapters prove* or
 §§ *What this section proves*, with the following assembly.
 Clause (1) is fix-prop-adjunctions together with
-[sk-prop-sf-existence](a) and (c): the étale adjoint exists
+[def-weil-exceptional-inverse-image] and [thm-sf-ambient-adjoint-class]: the étale adjoint exists
 unconditionally on the ordinary étale derived categories and is transported
 to the small pro-étale categories along the comparison, the preservation
 being [sk-prop-sf-rf-shriek-preservation] — enough for every clause
@@ -41,7 +41,7 @@ coincidence. Clause (5) is
 $\mathcal O_E$, $E$ and $\Qlb$ stages; it is what makes the orientation of
 [sk-def-sf-orientation] a theorem. Its compatibility with composition and
 with $\operatorname{Ex}_!$ is the composition and base-change compatibility
-of [sk-thm-smooth-purity] and [sk-prop-cohsm] (c), read through
+of [sk-thm-smooth-purity] and [sk-prop-cohsm] (G12), read through
 [sk-lem-sf-mate]; its compatibility with $\alpha$ is the smooth step of the
 proof of [sk-thm-sf-kunneth-verdier]. Clause (6) is
 [sk-prop-sf-biduality-general] (Chapter 1), [sk-thm-sf-verdier-exchange]

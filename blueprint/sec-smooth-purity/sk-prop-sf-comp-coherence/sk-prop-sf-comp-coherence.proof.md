@@ -1,32 +1,56 @@
 +++
-kind  = "proof"
-of    = "sk-prop-sf-comp-coherence"
+kind = "proof"
+of = "sk-prop-sf-comp-coherence"
+uses = ["sk-prop-proper-image-localizing", "sk-prop-ctf-finite-proper", "sk-thm-sfb-proper-base-change", "sk-lem-nagata-density-normalization", "sk-prop-nagata-sketch-comp-category", "sk-def-nagata-sketch-data", "sk-lem-sf-determination", "sk-prop-proper-base-change-unbounded"]
 +++
-*The comparison.* Write $u:\overline X_1\to\overline X_2$, proper, with
-$u j_1=j_2$, and identify $X$ with the open $j_2(X)\subseteq\overline X_2$.
-Test $\alpha_u$ at geometric points of $\overline X_2$. Over that open: the
-restriction $u':u^{-1}(j_2(X))\to X$ is proper and admits $j_1$ as an open
-section, so $j_1(X)$ is open *and closed* in $u^{-1}(j_2(X))$ — an
-open section of a separated morphism is a clopen immersion — whence
-$u^{-1}(j_2(X))=j_1(X)\amalg W$ with $j_{1!}K$ vanishing on $W$. Hence
-$Ru'_*(j_{1!}K)=K$ and $\alpha_u$ is the identity of $K$ there. Outside
-$j_2(X)$: if
-$\bar y\notin j_2(X)$ then $u^{-1}(\bar y)$ misses $j_1(X)$, since
-$u j_1=j_2$; so $j_{1!}K$ restricts to zero on the fibre and proper base change
-([sk-thm-properbasechange]) makes $(Ru_*j_{1!}K)_{\bar y}=0$, as is
-$(j_{2!}K)_{\bar y}$. Geometric stalks are conservative, so $\alpha_u$ is an
-isomorphism. Identity and transitivity follow because both sides are computed
-from the same clopen decomposition, and the section identifications agree for a
-composite proper map.
+The properties of $Rp_*\circ j_!$ for a single compactification follow from
+[sk-prop-proper-image-localizing] and the preservation of
+$\Dctf(-,\Lambda)$ by proper direct image ([sk-prop-ctf-finite-proper] for
+finite rings and [sk-thm-sfb-proper-base-change] for $\mathcal O_E$, $E$ and
+$\Qlb$). For independence it suffices to compare a compactification with a
+refinement of it: after replacing compactifications by dense ones, which does
+not change the functor ([sk-lem-nagata-density-normalization]), any two have a
+common refinement ([sk-prop-nagata-sketch-comp-category]).
 
-*Coherence.* Composition of derived direct images gives
-$R\bar f_{1*}\cong R\bar f_{2*}Ru_*$; composing with
-$R\bar f_{2*}(\alpha_u^{-1})$ gives the comparison of candidates, and
-transports its identity and transitivity. For independence, let $d$ and $d'$
-be two common refinements of $c_1,c_2$, with comparisons
-$t_i:Rf_!^{d}\to Rf_!^{c_i}$ and $t_i'$ likewise. By
-[sk-prop-nagata-sketch-comp-category] (i) choose a refinement mapping to
-both $d$ and $d'$; by (iii) the two resulting maps to each $c_i$ agree after a
-further refinement. Transitivity then gives $t_2t_1^{-1}=t_2'{t_1'}^{-1}$.
-For three compactifications, one common refinement of all three gives
-$(t_3t_2^{-1})(t_2t_1^{-1})=t_3t_1^{-1}$, the cocycle condition.
+*Refinements.* Let $j:X\to Z$ and $j':X\to Z'$ be dense compactifications
+over $Y$, and let $h:Z'\to Z$ be a refinement ([sk-def-nagata-sketch-data]): a
+proper $Y$-morphism with $h\circ j'=j$ and $h^{-1}(X)=X$. Restriction to the
+open subscheme $X$ commutes with
+$Rh_*:D(Z'_{\mathrm{proét}},\Lambda)\to D(Z_{\mathrm{proét}},\Lambda)$ (restriction is
+exact and preserves K-injectives, its left adjoint $j_!$ being exact), so
+$j^*Rh_*j'_!K\simeq K$ in $D(X_{\mathrm{proét}},\Lambda)$. By adjunction this
+isomorphism corresponds to a map
+
+$$
+e_{h,K}:j_!K\longrightarrow Rh_*j'_!K\quad\text{in }D(Z_{\mathrm{proét}},\Lambda)
+$$
+
+whose restriction to $X$ is the identity. We claim it is an isomorphism for
+$K\in\Loc(\Dctf(X,\Lambda))$. By [sk-prop-proper-image-localizing] both sides
+are exact functors of $K$ preserving direct sums, so by
+[sk-lem-sf-determination] it suffices to take $K\in\Dctf(X,\Lambda)$. On $X$
+the map is the identity. On the closed complement $Z\setminus X$, proper base
+change on $\Dctf$ ([sk-prop-proper-base-change-unbounded], for the inclusion of
+$Z\setminus X$ into $Z$) identifies, in $D((Z\setminus X)_{\mathrm{proét}},\Lambda)$,
+the restriction of $Rh_*j'_!K$ with the direct image of the restriction of
+$j'_!K$ to $h^{-1}(Z\setminus X)=Z'\setminus X$, which is zero; the restriction
+of $j_!K$ is zero as well. By the open–closed exact sequence, applied in each
+degree (Stacks, Tag 09AH), a map of complexes that is an isomorphism on $X$
+and on $Z\setminus X$ is an isomorphism. Applying $Rp_*$ and using
+$R(p\circ h)_*=Rp_*Rh_*$ gives an isomorphism between the two candidate
+functors $Rf_!:\Loc(\Dctf(X,\Lambda))\to\Loc(\Dctf(Y,\Lambda))$.
+
+If $Z''\xrightarrow{k}Z'\xrightarrow{h}Z$ are two successive refinements, then
+$Rh_*(e_{k,K})\circ e_{h,K}$ and $e_{hk,K}$ are maps from $j_!K$ to
+$R(hk)_*j''_!K$ that both restrict to the identity on $X$, so they are equal:
+a map out of $j_!K$ is determined by its restriction to $X$, by the adjunction
+$j_!\dashv j^*$.
+
+*Common refinements.* Given dense compactifications $Z_1$ and $Z_2$,
+[sk-prop-nagata-sketch-comp-category] gives a dense compactification $Z$ with
+proper maps $h_i:Z\to Z_i$ satisfying $h_i^{-1}(X)=X$, and similarly for
+finitely many compactifications. The refinement isomorphisms for $h_1$ and
+$h_2$ compose to an isomorphism between the functors defined by $Z_1$ and
+$Z_2$. Transitivity of the refinement maps on a common refinement shows that
+this comparison does not depend on the chosen refinement and satisfies the
+cocycle condition.

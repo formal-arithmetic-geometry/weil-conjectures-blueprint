@@ -1,25 +1,27 @@
 +++
 id = "sk-thm-picard-hilb-curves"
 kind = "theorem"
-title = "Hilbert schemes of smooth projective curves"
-order = 789
-uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
+title = "Hilbert schemes of points on a smooth curve"
+order = 607
+uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-the-hilbert-functor--definition-1", "sk-thm-picard-hilb-general"]
 lean = ["AlgebraicGeometry.hilbertPresheaf_curve_representable", "AlgebraicGeometry.hilbertPresheaf_curve_points", "AlgebraicGeometry.hilbertPresheaf_curve_add"]
 tags = ["sketch"]
 +++
-Let $X$ be a geometrically integral smooth proper curve over $k$
-and $d\ge0$. Then:
+Let $C/k$ be a smooth projective geometrically connected curve. For
+$d\geq0$, let $H_d=\Hilb^d_{C/k}$ be the functor of closed subschemes
+$D\subset C_T$ which are finite locally free of rank $d$ over $T$.
 
-1. **(1)** $\Hilb^d_{X/k}$ is representable by a smooth proper
-geometrically integral *variety* of dimension $d$;
-1. **(2)** for $k'/k$, the $k'$-points of $\underline{\Hilb}^d_{X/k}$
-are naturally the effective Cartier divisors of degree $d$ on
-$X_{k'}$;
-1. **(3)** there is an addition morphism
-$\underline{\Hilb}^{d_1}_{X/k}\times_k\underline{\Hilb}^{d_2}_{X/k} \to\underline{\Hilb}^{d_1+d_2}_{X/k}$, given on points by
-$(D_1,D_2)\mapsto D_1+D_2$ (product of the ideal sheaves), finite locally free of degree
-$\binom{d_1+d_2}{d_1}$; and a universal effective Cartier divisor
-$D_{\mathrm{univ}}\subseteq\underline{\Hilb}^d_{X/k}\times_kX$ (the point of
-$\Hilb^d_{X/k}(T)$ classified by $h:T\to\underline{\Hilb}^d_{X/k}$ is the pullback of
-$D_{\mathrm{univ}}$ along $X_T\to\underline{\Hilb}^d_{X/k}\times_kX$), with
-$\cO(D_{\mathrm{univ}})|_{\{[D]\}\times X}\cong\cO_X(D)$.
+The functor $H_d$ is represented by a smooth projective geometrically
+integral $k$-scheme of dimension $d$, with $H_0=\Spec k$. Its objects are
+precisely the relative effective Cartier divisors which are finite
+locally free of degree $d$. It has a universal divisor
+$D_d\subset C\times_kH_d$ and an associated invertible sheaf
+$\cO(D_d)$.
+
+*Complements* (proved in this sketch). For a field extension $k'/k$ the
+$k'$-points of $H_d$ are the effective Cartier divisors of degree $d$ on
+$C_{k'}$, and $\cO(D_d)|_{C\times\{[D]\}}\cong\cO_C(D)$; there is an
+addition morphism $H_{d_1}\times_kH_{d_2}\to H_{d_1+d_2}$, given on
+points by $(D_1,D_2)\mapsto D_1+D_2$ (product of the ideal sheaves),
+finite locally free of degree $\binom{d_1+d_2}{d_1}$; in particular the
+iterated addition $C^d\to H_d$ is finite locally free and surjective.

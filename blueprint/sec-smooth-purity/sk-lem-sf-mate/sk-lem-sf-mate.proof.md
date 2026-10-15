@@ -1,25 +1,30 @@
 +++
-kind  = "proof"
-of    = "sk-lem-sf-mate"
+kind = "proof"
+of = "sk-lem-sf-mate"
+uses = ["sk-thm-sf-comp-composition", "sk-prop-sf-existence"]
 +++
-(a) The pasting is recorded in fix-prop-adjunctions; the functoriality of
-the mate construction gives an isomorphism of right adjoints from the
-isomorphism of left adjoints, and the triangle identities of the composite
-are the composites of the component ones. Nothing here uses constructibility
-or finite Tor amplitude: the statement is formal in the ambient adjunctions,
-which are exactly what clause (1) supplies. (b) On the étale sites, for
-$f$, $g$, $gf$ admitting compactifications, the right adjoints
-$f^{\times}$, $g^{\times}$, $(gf)^{\times}$ of the étale compact-support
-functors exist by [sk-prop-sf-existence] (a), and these are honest
-adjunctions on the whole of $D(-_{\Et},A)$. The composite
-$Rg^{\Et}_!Rf^{\Et}_!$ is left adjoint to $f^{\times}g^{\times}$, and the
-composition isomorphism $R(gf)^{\Et}_!\cong Rg^{\Et}_!Rf^{\Et}_!$ of
-[sk-thm-sf-comp-composition] is an isomorphism of left adjoints; since a
-right adjoint is unique up to unique isomorphism, its mate is an isomorphism
-$(gf)^{\times}\cong f^{\times}g^{\times}$, with pasted units and counits
-by the formal mate calculus of (a). This is the étale clause;
-$(gf)^!\cong f^!g^!$ is its transport along $\nu^*$, using
-$Rf_{!}\nu^*\cong\nu^*Rf^{\Et}_!$ ([sk-prop-sf-comparison]) and the full
-faithfulness of $\nu^*$ on $D^+$, which identifies the adjunction isomorphisms
-of [sk-prop-sf-existence] (c) with the étale ones. The restriction to
-$\Dctf$ is then immediate from the preservation.
+(1) For $A\in\Loc(\Dctf(X,\Lambda))$ and $B\in\Loc(\Dctf(Z,\Lambda))$,
+
+$$
+\Hom(A,f^!g^!B)\simeq\Hom(Rf_!A,g^!B)\simeq\Hom(Rg_!Rf_!A,B)\simeq\Hom(R(gf)_!A,B),
+$$
+
+the last step by [sk-thm-sf-comp-composition]. The Yoneda lemma gives
+$f^!g^!\simeq(gf)^!$. Passing to right adjoints transforms the associativity
+and identity constraints of [sk-thm-sf-comp-composition] (1) into those for
+$f^!$.
+
+(2) For an open immersion, $Rj_!=j_!$ (take the trivial compactification
+$p=\mathrm{id}$), and $j_!\dashv j^*$ on the localizing categories. By
+uniqueness of right adjoints, $j^!\simeq j^*$.
+
+(3) From $f\circ u=v\circ f_V$ and (1), (2) we get
+$u^*f^!\simeq(fu)^!=(vf_V)^!\simeq f_V^!v^*$. Together with
+$j^*f^!\simeq(fj)^!$ for an open $j:U\to X$, which is (1) and (2), this gives
+the locality statement.
+
+(4) On $\Loc(\Dctf(-,\Lambda))$, $j^*$ is right adjoint to $j_!$ and $p^!$ to
+$Rp_*=Rp_!$, so $j^*\circ p^!$ is right adjoint to $Rp_*\circ j_!=Rf_!$, and so
+is $f^!$. Uniqueness of right adjoints gives the isomorphism.
+
+The proof uses only adjunctions on $\Loc(\Dctf(-,\Lambda))$.

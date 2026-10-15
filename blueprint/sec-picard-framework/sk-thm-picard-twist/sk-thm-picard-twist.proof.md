@@ -1,32 +1,34 @@
 +++
 kind  = "proof"
 of    = "sk-thm-picard-twist"
+uses = ["sk-thm-picard-serre-b", "sk-thm-picard-rr", "sk-prop-picard-dense-points"]
 +++
-Choose an ample $\cM$ on $X$ (a proper curve over a field is
-projective, Tag [0B45](https://stacks.math.columbia.edu/tag/0B45)
-applied to the quasi-projective curve $X$). By [sk-thm-picard-serre-b], for $n\gg0$:
-$H^q(X_K,\cL\otimes\cM^{\otimes n}|_{X_K})=0$ for $q>0$, and by
-[sk-thm-picard-rr] (RR) — applicable, since the integral smooth $X$
-has $H^0(X,\cO_X)$ a finite separable extension of the separably
-closed $k$, i.e. $H^0(X,\cO_X)=k$, whence $H^0(X_K,\cO_{X_K})=K$ by
-flat base change:
+Choose an ample $\cM$ on $C$ ($C$ is projective). For $r\gg0$, Serre
+vanishing ([sk-thm-picard-serre-b]) and Riemann–Roch
+([sk-thm-picard-rr], valid on $C_K$ since $H^0(C_K,\cO_{C_K})=K$ by flat
+base change) make $\cF=\cL\otimes\cM_K^{\otimes r}$ have zero $H^1$ and a
+positive-dimensional space of sections:
+$h^0(\cF)=\chi(\cF)=\deg\cL+r\deg\cM+1-g\to\infty$.
+
+Whenever $h^0(\cF)$ is larger than $1$, choose a nonzero section $s$ and
+a point $x\in C(k)$ where $s$ is nonzero. Such a point exists: $s$ has a
+finite zero divisor on $C_K$, while $C(k)$ is infinite
+([sk-prop-picard-dense-points]) and its distinct points remain distinct
+on $C_K$. The sequence
 
 $$
-\chi\bigl(\cL\otimes\cM^{\otimes n}\bigr)
-=\deg_K(\cL)+n\deg_X(\cM)+1-g\ \xrightarrow{\ n\to\infty\ }\infty,
+0\longrightarrow\cF(-x_K)\longrightarrow\cF\longrightarrow\cF|_{x_K}\longrightarrow0
 $$
 
-hence $h^0\ge1$. Now use [sk-prop-picard-dense-points]: pick points
-$x\in X(k)$ one at a time, at which the chosen non-vanishing
-$s\in H^0(\cF)$ does not vanish, and tensor with the ideal sheaf
-$\cI_{x_K}=\cO_{X_K}(-x_K)$ (not its inverse, which would add a point
-and raise $h^0$); the exact sequence
-$0\to\cI_{x_K}\otimes\cF\to\cF\to i_*i^*\cF\to0$ with $s$ shows that
-each subtraction lowers $h^0$ by exactly $1$ and preserves $H^1=0$
-(the long exact sequence in which $H^1(\cF)$ is the final nonzero term
-and $h^0(i_*i^*\cF)=1$, and $H^0(\cF)\to H^0(i_*i^*\cF)$ is onto because
-$s(x_K)\ne0$). The induction ends at $h^0=1$; the product of the
-$\cI_{x_K}$'s descends to
-$\cL_0=\cM^{\otimes n}\otimes\cI_{x_1}\otimes\cdots\otimes\cI_{x_{t-1}}
-=\cM^{\otimes n}(-x_1-\cdots-x_{t-1})$ on $X$ (all $x_i\in X(k)$, where
-$t=h^0(\cL\otimes\cM^{\otimes n}|_{X_K})$).
+shows that subtraction of $x_K$ lowers $h^0$ by exactly $1$ and preserves
+$H^1=0$: in the long exact sequence, $h^0(\cF|_{x_K})=1$, the map
+$H^0(\cF)\to H^0(\cF|_{x_K})$ is onto because $s(x_K)\ne0$, and
+$H^1(\cF(-x_K))\to H^1(\cF)=0$ is injective, its kernel being the
+cokernel of that onto map. Continue until $h^0=1$. All subtracted points
+come from $k$, so the resulting twist has the form
+$\cM_0=\cM^{\otimes r}(-x_1-\cdots-x_s)$ on $C$, with
+$\cM_{0,K}=\cM_K^{\otimes r}(-x_{1,K}-\cdots-x_{s,K})$. Normalization
+along a rational point $P$ does not change the fibre cohomology
+dimensions (it tensors with the pullback of a line bundle on the
+base field, which is trivial). This is the twist argument of Stacks
+Project, Tag 0B9Y.

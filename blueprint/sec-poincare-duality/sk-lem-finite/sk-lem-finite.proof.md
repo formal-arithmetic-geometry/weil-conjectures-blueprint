@@ -35,7 +35,7 @@ i.e. $\RGamma(X,K)=\RGammac(\bar X,Rj_*K)$; and $Rj_*$ carries
 $\Dctf(X,\Lambda)$ to $\Dctf(\bar X,\Lambda)$, with Tor amplitude
 $[a,b]\mapsto[a,b+2\dim X]$, compatibly with the finite reductions
 ([sk-thm-sf-direct-image-tor-amplitude];
-[sk-thm-sf-ctf-stability](iii),(vii)). So $(Rj_*K_n)_n$ is again a
+[thm-sf-ctf-stability](iii),(vii)). So $(Rj_*K_n)_n$ is again a
 normalized system with common bounds on the proper $\bar X$, and the
 compact-support case just proved, applied to $\bar X$ and $Rj_*K$,
 places $\RGamma(X,K)$ in $D^b_{\mathrm{fg}}(\Oe)$ with perfect

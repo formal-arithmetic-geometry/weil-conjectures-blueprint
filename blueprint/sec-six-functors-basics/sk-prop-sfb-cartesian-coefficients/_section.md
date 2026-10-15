@@ -1,28 +1,27 @@
 +++
 id = "sk-prop-sfb-cartesian-coefficients"
-kind = "proposition"
-title = "Cartesian coefficient system"
-order = 1564
-uses = ["sk-def-sfb-coefficient-morphisms"]
+kind = "lemma"
+title = "Inverse image of the coefficient sheaves"
+order = 1555
+uses = ["sk-def-sfb-coefficient-morphisms", "sk-def-sfb-pullback-from-point-comp", "sk-prop-sfb-qlbar-colimit-x", "sk-def-sp-tate-twist"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom", "AlgebraicGeometry.ProEtale.condensedPushforwardHom_id", "AlgebraicGeometry.ProEtale.condensedPushforwardHom_comp"]
 tags = ["sketch"]
 +++
-Let $\Lambda$ be a condensed ring, and let $\alpha_f$ and $\eta_f$ be the
-coefficient morphisms of [sk-def-sfb-coefficient-morphisms].
+Because all coefficient sheaves are pulled back from the point, they are compatible with
+inverse image. The same holds for their Tate twists ([sk-def-sp-tate-twist]), and a finite
+extension of coefficient fields gives a finite free extension of coefficient sheaves.
 
-1. For every morphism of schemes $f\colon X\to Y$,
-   $\alpha_f\colon f^*\Lambda_Y\to\Lambda_X$ is an isomorphism.
-2. $\eta$ is compatible with identities. For every scheme $X$,
-   $\eta_{\mathrm{id}_X}\colon\Lambda_X\to(\mathrm{id}_X)_*\Lambda_X$ is the
-   inverse of the identity isomorphism
-   $(\mathrm{id}_X)_*\cong\mathrm{id}$ of
-   [sk-def-sfb-finite-pushforward-pullback] at $\Lambda_X$.
-3. $\eta$ is compatible with composition. For $f\colon X\to Y$ and
-   $g\colon Y\to Z$,
+Let $f\colon X\to Y$ be a morphism of schemes.
+
+1. For every admissible $\Lambda$, the canonical map
    $$
-   \eta_{g\circ f}=c_{f,g}\circ g_*(\eta_f)\circ\eta_g\colon
-   \Lambda_Z\to g_*\Lambda_Y\to g_*f_*\Lambda_X\to(g\circ f)_*\Lambda_X ,
+   f^{-1}\Lambda_Y\longrightarrow\Lambda_X
    $$
-   where $c_{f,g}\colon g_*f_*\cong(g\circ f)_*$ is the composition
-   isomorphism of [sk-def-sfb-finite-pushforward-pullback], taken at
-   $\Lambda_X$.
+   is an isomorphism of sheaves of rings on $X_{\mathrm{proét}}$ (this is the map $\alpha_f$
+   of [sk-def-sfb-coefficient-morphisms]). The same holds for its Tate twists, including the
+   twists of a finite ring $A$.
+2. If $E\subset F$ is a finite extension, then $\cO_{F,X}$ is a finite free
+   $\cO_{E,X}$-module and $F_X$ is a finite free $E_X$-module.
+
+By (1), the pullback $f^*\colon\Mod(Y_{\mathrm{proét}},\Lambda)\to\Mod(X_{\mathrm{proét}},\Lambda)$
+of modules over these sheaves is the exact functor $f^{-1}$.

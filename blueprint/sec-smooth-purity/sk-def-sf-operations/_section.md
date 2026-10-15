@@ -2,7 +2,7 @@
 id = "sk-def-sf-operations"
 kind = "definition"
 title = "The six operations: ambient typing"
-order = 1812
+order = 1910
 lean = ["AlgebraicGeometry.Etale.upperStar", "AlgebraicGeometry.Etale.rightDerivedLowerShriek", "AlgebraicGeometry.Etale.rightDerivedUpperShriek", "AlgebraicGeometry.Etale.derivedTensor", "AlgebraicGeometry.Etale.derivedHom", "AlgebraicGeometry.Etale.openImmersionLowerShriek"]
 tags = ["sketch"]
 +++
@@ -47,7 +47,7 @@ $f:X\to Y$ of finite-type $k$-schemes, as follows. At a finite stage
 $\Lambda=A=A_{E,n}$ let $f^{\times}:D(Y_{\Et},A)\to D(X_{\Et},A)$ be a chosen
 right adjoint of the étale compact-support functor
 $Rf^{\Et}_!:D(X_{\Et},A)\to D(Y_{\Et},A)$ on the unbounded derived categories
-of the small étale sites, which exists by [sk-prop-sf-existence] (a). Every
+of the small étale sites, which exists by Brown representability ([def-weil-exceptional-inverse-image]). Every
 object of $\Dctf(Y,A)$ is of étale origin,
 $L\cong\nu_Y^*G$ with $G\in\Dctf(Y_{\Et},A)$ unique up to unique isomorphism
 ([09AK](https://stacks.math.columbia.edu/tag/09AK), [sk-prop-sf-comparison]), and one *defines*
@@ -63,14 +63,14 @@ $\operatorname{Hom}_Y(Rf_!K,L)\cong\operatorname{Hom}_X(K,Rf^!L)$,
 natural in every bounded-below $K$ of étale origin — in particular every
 $K\in\Dctf(X,A)$ — and every bounded-below $L$, with units and counits
 compatible with refinements of the compactification
-([sk-prop-sf-existence] (c)); and the *preservation*
+([thm-sf-ambient-adjoint-class]); and the *preservation*
 $Rf^!\Dctf(Y,A)\subseteq\Dctf(X,A)$, with explicit bounds on the
 constructible interval and on the Tor amplitude
-([sk-prop-sf-rf-shriek-preservation], [sk-thm-sf-ctf-stability] (v)). At the
+([sk-prop-sf-rf-shriek-preservation], [thm-sf-ctf-stability] (v)). At the
 adic stages $\mathcal O_E$, $E$, $\Qlb$ the functor is defined levelwise on
 the normalized systems, $Rf^!(L_n)_n=(Rf^!_nL_n)_n$, the finite-reduction
 isomorphisms $Rf^!_n(L_n)\otimes^L_{A_{E,n}}A_{E,m}\cong Rf^!_m(L_m)$
-($m\le n$) of [sk-thm-sf-ctf-stability] (vii) making the result a normalized
+($m\le n$) of [thm-sf-ctf-stability] (vii) making the result a normalized
 system again, followed by rationalization and the common-stage construction.
 
 When the ambient functor $Rf^{\times}$ of (v) exists and satisfies the

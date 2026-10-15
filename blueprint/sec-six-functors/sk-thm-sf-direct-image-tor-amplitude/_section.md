@@ -2,7 +2,7 @@
 id = "sk-thm-sf-direct-image-tor-amplitude"
 kind = "theorem"
 title = "Direct image with finite Tor amplitude"
-order = 2534
+order = 2514
 uses = ["sk-lem-sf-flat-model", "sk-prop-sf-finiteness"]
 lean = ["AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar", "AlgebraicGeometry.Etale.torAmplitudeIn_rightDerivedLowerStar"]
 tags = ["sketch"]

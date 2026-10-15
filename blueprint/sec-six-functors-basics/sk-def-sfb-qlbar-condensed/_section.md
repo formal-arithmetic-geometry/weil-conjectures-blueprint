@@ -2,7 +2,7 @@
 id = "sk-def-sfb-qlbar-condensed"
 kind = "definition"
 title = "The condensed ring $\\underline{\\overline{\\mathbf Q}}_\\ell$"
-order = 1529
+order = 1609
 uses = ["sk-def-sfb-condensed-ring"]
 lean = ["Profinite.padicAlgClCondensedRing", "Profinite.padicAlgClRingObj"]
 tags = ["sketch"]

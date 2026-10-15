@@ -23,28 +23,28 @@ $W\subseteq\underline{\Hilb}^g_{C/k}$ ([sk-thm-picard-f-representable]),
 and its classes have degree $g$ ([sk-lem-picard-zero-dictionary]); so
 $W$ is an open subscheme $U\subseteq\underline{\Pic}^g_{C/k}$, smooth of
 dimension $g$ because $\underline{\Hilb}^g_{C/k}$ is
-([sk-thm-picard-hilb-curves] (1)). The translates of $U$ by $k$-points
+([sk-thm-picard-hilb-curves]). The translates of $U$ by $k$-points
 cover $\underline{\Pic}^g_{C/k}$: for a point $t$ with residue field $K$,
 [sk-thm-picard-twist] gives $\cL_0$ on $C$ with
 $\cL_0|_{C_K}\otimes\cL_t\in F(K)$, necessarily of degree $0$, so
 $t\in\cL_0^{-1}\cdot U$. Hence $\underline{\Pic}^g_{C/k}$ is smooth of
 pure dimension $g$; the tangent space is [sk-prop-picard-jacobian-tangent].
 
-*Proper.* The universal divisor of [sk-thm-picard-hilb-curves] (3),
+*Proper.* The universal divisor $D_g$ of [sk-thm-picard-hilb-curves],
 normalized along $P$, defines
 $\alpha:\underline{\Hilb}^g_{C/k}\to\underline{\Pic}^g_{C/k}$,
 $D\mapsto\cO_C(D)$. It is surjective: over an algebraically closed field
 $K$, a class $\cL$ of degree $g$ has $h^0(\cL)\ge\chi(\cL)=1$ by
-[sk-thm-picard-rr] (RR), so $\cL\cong\cO_{C_K}(D)$ for the zero divisor
+[sk-thm-picard-rr], so $\cL\cong\cO_{C_K}(D)$ for the zero divisor
 $D$ of a nonzero section, a $K$-point of $\underline{\Hilb}^g_{C/k}$
-([sk-thm-picard-hilb-curves] (2)). So $\underline{\Pic}^g_{C/k}$ is
+(complements of [sk-thm-picard-hilb-curves]). So $\underline{\Pic}^g_{C/k}$ is
 quasi-compact, hence of finite type; it is separated, being a group
 scheme over a field whose unit section is a closed immersion; and as the
 surjective image of the proper $\underline{\Hilb}^g_{C/k}$ it is proper
 (Stacks [`03GN`](https://stacks.math.columbia.edu/tag/03GN)).
 
 *Connected and commutative.* $\underline{\Hilb}^g_{C/k}$ is an
-irreducible variety ([sk-thm-picard-hilb-curves] (1)), so its image
+irreducible variety ([sk-thm-picard-hilb-curves]), so its image
 $\underline{\Pic}^g_{C/k}$ under $\alpha$ is irreducible. The group law
 is the tensor product of invertible modules (Yoneda), which is
 commutative.

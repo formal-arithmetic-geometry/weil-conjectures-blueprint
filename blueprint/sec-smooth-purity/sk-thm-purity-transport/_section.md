@@ -1,43 +1,28 @@
 +++
 id = "sk-thm-purity-transport"
 kind = "theorem"
-title = "Smooth purity over $\\mathcal O_E$, $E$ and $\\overline{\\mathbf Q}_\\ell$"
-order = 2364
-uses = ["sk-def-purity-conv", "sk-lem-sf-flat-model", "sk-prop-a1", "sk-prop-cohsm", "sk-thm-smooth-purity"]
+title = "Smooth purity for all admissible coefficients"
+order = 1819
+uses = ["sk-def-purity-conv", "sk-lem-sf-flat-model", "sk-prop-a1", "sk-prop-cohsm", "sk-thm-smooth-purity", "sk-prop-sf-existence"]
 lean = ["AlgebraicGeometry.Etale.derivedCompleteIntegral_rightDerivedUpperShriek"]
 tags = ["sketch"]
 +++
-Keep the geometric conventions of [sk-def-purity-conv], but let the
-coefficient ring range over the remaining three stages
+Let $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\Qlb\}$ be any admissible coefficient
+ring and let $f:X\to Y$ be smooth of pure relative dimension $d$. There is an
+isomorphism of functors $\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$, given at
+$K\in\Dctf(Y,\Lambda)$ by a canonical isomorphism in $\Dctf(X,\Lambda)$
 
 $$
-\Lambda\in\{\mathcal O_E,\ E,\ \overline{\mathbf Q}_\ell\},
+\gamma_{f,\Lambda}(K):\ f_\Lambda^*K(d)[2d]\xrightarrow{\ \sim\ }f_\Lambda^!K.
 $$
 
-where $D^b_{ctf}(-,\mathcal O_E)$ is the adic category of normalized
-systems $(K_n)_n$ with $K_n\in D^b_{ctf}(-,A_{E,n})$ and common bounds and
-stratifications, $D^b_{ctf}(-,E)$ its rationalization, and
-$D^b_{ctf}(-,\overline{\mathbf Q}_\ell)$ the colimit over finite
-$E/\mathbf Q_\ell$. Let $f:X\to Y$ be smooth separated
-of relative dimension $d$ and let $K\in D^b_{ctf}(Y,\Lambda)$. Then the
-purity map
+Here $f^!_\Lambda$ is the restriction of the right adjoint from
+[sk-prop-sf-existence]. The isomorphism is compatible with change of
+coefficients, base change and composition, with the normalization given by
+integration on the affine line.
 
-$$
-\gamma_{f,K}:Lf^{*}K(d)[2d]\ \xrightarrow{\ \sim\ }\ Rf^{!}K
-$$
-
-extends the finite-coefficient isomorphism of [sk-thm-smooth-purity]
-to these stages, naturally in $K$ and
-compatibly with composition, étale base change, the finite reductions
-$A_{E,n}\to A_{E,m}$ and scalar extension of coefficient fields. In
-particular, for the structure morphism $a_X$ of a smooth $X$ of pure
-dimension $d$,
-
-$$
-\omega_{X,\Lambda}=Ra_X^{!}\Lambda\ \cong\ \Lambda_X(d)[2d],
-$$
-
-and the counit of $Ra_{X!}\dashv Ra_X^{!}$ is the normalized integration
-map $R\Gamma_c(X,\Lambda_X(d)[2d])\to\Lambda$.
-The coefficient compatibilities and this counit normalization also hold
-for the finite-coefficient isomorphisms of [sk-thm-smooth-purity].
+For étale $f$ we have $d=0$, and the theorem says $f_\Lambda^!\simeq f_\Lambda^*$
+for every admissible $\Lambda$. For a smooth curve $C$ with structure map
+$a:C\to\operatorname{Spec}k$ it gives
+$a_{\Zl}^!\mathbf Z_{\ell,\operatorname{Spec}k}\simeq\mathbf Z_{\ell,C}(1)[2]$, a
+single sheaf in degree $-2$.

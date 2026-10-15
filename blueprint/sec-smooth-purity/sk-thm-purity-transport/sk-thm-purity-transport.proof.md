@@ -7,7 +7,7 @@ write $\mathrm{red}_{n,m}=(-)\otimes^{L}_{A_{E,n}}A_{E,m}$. By
 [sk-thm-smooth-purity] the map $\gamma_{f,K}$ is the composite of three
 constituents: the canonical twist reassociation, the inverse of the
 diagonal identification $\omega_f\cong\Lambda_X(d)[2d]$ of
-[sk-thm-smooth-purity], and the tensor formula [sk-prop-cohsm] (b). Each
+[sk-thm-smooth-purity], and the tensor formula (G11) of [sk-prop-cohsm]. Each
 is compatible with $\mathrm{red}_{n,m}$: the finite-level twist
 $A(1)=\mu_{\ell^N}\otimes_{\Z/\ell^N}A$ of [sk-def-purity-conv] and the
 Kummer boundary $\kappa(t)$ that orients it ([sk-prop-a1]) reduce to
@@ -15,7 +15,7 @@ their counterparts over $A_{E,m}$, and the exceptional adjunction
 $Rf_!\dashv Rf^{!}$ is compatible with reduction of the coefficient ring.
 Hence $\mathrm{red}_{n,m}(\gamma_{f,K})=\gamma_{f,\mathrm{red}_{n,m}K}$,
 and likewise for the orientations, the smooth traces and the composition
-and base-change squares of [sk-prop-cohsm] (a),(c).
+and base-change squares of [sk-prop-cohsm] (G12).
 
 *Step 2 (the adic stage).* Let
 $K\in D^b_{ctf}(Y,\mathcal O_E)$ be the normalized system $(K_n)_n$. By

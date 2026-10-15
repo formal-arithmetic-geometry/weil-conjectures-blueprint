@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-ambient-exceptional-adjoint-13"
 kind = "remark"
 title = "Pointer to the properties of [def-weil-ambient-exceptional-adjoint]"
-order = 2401
+order = 2496
 uses = ["def-weil-ambient-exceptional-adjoint"]
 +++
 In the notation of [def-weil-ambient-exceptional-adjoint]: in its unrestricted form the

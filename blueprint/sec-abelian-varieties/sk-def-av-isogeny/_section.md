@@ -3,7 +3,7 @@ id = "sk-def-av-isogeny"
 kind = "definition"
 title = "Isogenies and their degree"
 lean = ["AlgebraicGeometry.IsIsogeny", "AlgebraicGeometry.isogenyDegree"]
-order = 440
+order = 529
 tags = ["sketch"]
 +++
 Let $A,B$ be group schemes over $k$.

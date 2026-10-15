@@ -1,22 +1,16 @@
 +++
 id = "sk-thm-sf-pf-adic"
-kind = "theorem"
-title = "Projection formula: the derived-complete stage"
-order = 2439
-uses = ["sk-def-sf-operations", "sk-prop-sf-pf-reduction"]
+kind = "lemma"
+title = "Open direct image and projection formula"
+order = 2412
+uses = ["sk-def-sf-operations", "sk-prop-sf-pf-reduction", "sk-prop-open-coefficients", "sk-prop-proper-base-change-unbounded"]
 lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_of_derivedCompleteIntegral"]
 tags = ["sketch"]
 +++
-Let $E/\Ql$ be a finite extension inside $\Qlb$ with ring of integers
-$\mathcal O_E$, let $f:X\to Y$ be a morphism of schemes admitting a
-compactification, with $Rf_!$ formed from the chosen compactification, and
-let $K\in D(X_{\Et},\mathcal O_E)$, $L\in D(Y_{\Et},\mathcal O_E)$ be
-complexes of étale sheaves of $\mathcal O_E$-modules that are derived
-complete with respect to the maximal ideal of $\mathcal O_E$ and of finite
-Tor amplitude, with finite reductions $K_n,L_n$. Then the projection map
-
-$$
-\operatorname{PF}_{f,K,L}:Rf_!K\otimes^L L\longrightarrow Rf_!\bigl(K\otimes^L Lf^*L\bigr)
-$$
-
-is an isomorphism.
+For a quasi-compact open immersion $j:U\hookrightarrow X$,
+$Rj_*\colon D(U_{\mathrm{proét}},\mathcal O_E)\to D(X_{\mathrm{proét}},\mathcal O_E)$
+maps $\Dctf(U,\mathcal O_E)$ into $\Dctf(X,\mathcal O_E)$. Proper base change
+and the proper projection formula, with the tensor product
+$\otimes^{\mathbf L}_{\mathcal O_{E,X}}$, hold on $\Loc(\Dctf(-,\mathcal O_E))$:
+the base change and projection formula maps are isomorphisms in
+$\Loc(\Dctf(Y',\mathcal O_E))$, respectively $\Loc(\Dctf(Y,\mathcal O_E))$.

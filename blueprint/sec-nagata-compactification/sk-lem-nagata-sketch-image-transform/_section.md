@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-image-transform"
 kind = "lemma"
 title = "Images under admissible blow-up"
-order = 237
+order = 104
 uses = ["sk-lem-nagata-sketch-blowups", "sk-lem-nagata-sketch-closure"]
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_lift_admissibleBlowup"]
 tags = ["sketch"]

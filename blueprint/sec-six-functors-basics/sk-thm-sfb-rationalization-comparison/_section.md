@@ -1,41 +1,34 @@
 +++
 id = "sk-thm-sfb-rationalization-comparison"
-kind = "theorem"
-title = "$E$-coefficients as $\\mathcal O_E$-coefficients with $\\ell$ inverted"
-order = 1645
-uses = ["sk-def-sfb-derived-extension-of-scalars", "sk-def-sfb-rationalization", "sk-def-sfb-bounded-constructible"]
+kind = "proposition"
+title = "Rationalization"
+order = 1549
+uses = ["sk-def-sfb-derived-extension-of-scalars", "sk-def-sfb-rationalization", "sk-def-sfb-bounded-constructible", "sk-prop-sfb-qlbar-colimit-x", "sk-lem-integral-models"]
 lean = ["AlgebraicGeometry.ProEtale.padicIntegersRingObjToContinuousMapRingObj", "AlgebraicGeometry.ProEtale.padicIntegersToPadicSubfield", "AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalars_obj", "AlgebraicGeometry.ProEtale.boundedConstructibleExtendScalars", "AlgebraicGeometry.ProEtale.boundedConstructibleExtendScalarsCompatibility", "AlgebraicGeometry.ProEtale.isLocalization_boundedConstructibleExtendScalars", "AlgebraicGeometry.ProEtale.rationalizationEquivalence", "AlgebraicGeometry.ProEtale.rationalizationQCompEquivalenceIso"]
 tags = ["sketch"]
 +++
-Let $\ell$ be a prime, $E\subseteq\Qlb$ a finite extension of $\mathbf Q_\ell$ with ring of
-integers $\cO_E$, and $X$ a scheme. Let $\cO_{E,X}=p_X^*\underline{\cO}_E$ and
-$E_X=p_X^*\underline E$ be the pulled-back coefficient rings
-[sk-def-sfb-pulled-back-coefficients], where $E$ carries the norm restricted from $\Qlb$. Let
+Let $X$ be a scheme and $E/\mathbf Q_\ell$ finite, with coefficient rings $\cO_{E,X}$ and
+$E_X$ on $X_{\mathrm{proét}}$ ([sk-prop-sfb-qlbar-colimit-x]). Passing from $\cO_E$ to $E$
+means inverting $\ell$, and on derived categories this is a Verdier localization:
+extension of scalars
 $$
-\varphi=p_X^*(\underline{\cO}_E\hookrightarrow\underline E)\colon\cO_{E,X}\to E_X
+E_X\otimes_{\cO_{E,X}}-\colon D(X_{\mathrm{proét}},\cO_E)\to D(X_{\mathrm{proét}},E)
 $$
-be the pullback along $p_X$ [sk-def-sfb-pullback-from-point] of the inclusion of
-condensed rings [sk-def-sfb-condensed-ring].
+identifies $D(X_{\mathrm{proét}},E)$ with the Verdier quotient of
+$D(X_{\mathrm{proét}},\cO_E)$ by the complexes $K$ with $H^q(K)[1/\ell]=0$ for all $q$.
 
-1. The derived extension of scalars [sk-def-sfb-derived-extension-of-scalars]
-   $$
-   E\otimes^{\mathrm L}_{\cO_E}-:=L(\operatorname{Ext}_\varphi)\colon D(\Mod_{\cO_{E,X}})\to D(\Mod_{E_X})
-   $$
-   sends bounded constructible complexes to bounded constructible complexes
-   [sk-def-sfb-bounded-constructible]. It therefore restricts to a functor
-   $E\otimes^{\mathrm L}_{\cO_E}-\colon D_{\mathrm{cons}}(X_{\mathrm{proét}},\cO_E)\to D_{\mathrm{cons}}(X_{\mathrm{proét}},E)$.
-2. Let $X$ be topologically Noetherian. Then the restricted functor is a localization at
-   the morphisms of $D_{\mathrm{cons}}(X_{\mathrm{proét}},\cO_E)$ whose mapping cone is
-   killed by a power of $\ell$. Hence, with the rationalization of
-   [sk-def-sfb-rationalization] at the powers of $\ell$, there is an equivalence
-   $$
-   D_{\mathrm{cons}}(X_{\mathrm{proét}},\cO_E)[\ell^{-1}]\simeq D_{\mathrm{cons}}(X_{\mathrm{proét}},E),
-   $$
-   under which the localization functor corresponds to $E\otimes^{\mathrm L}_{\cO_E}-$.
-
-The statement concerns bounded constructible complexes only. On the full derived
-categories, $E\otimes^{\mathrm L}_{\cO_E}-$ is not a localization at the morphisms with
-$\ell$-power-torsion cone in general. Neither of $D_{\mathrm{cons}}(X_{\mathrm{proét}},E)$
-and $D_{\mathrm{cons}}(X_{\mathrm{proét}},\cO_E)[\ell^{-1}]$ is taken as the definition of
-the other. Finiteness of $E$ is what makes inverting $\ell$ the right statement: every
-nonzero element of the discrete valuation ring $\cO_E$ divides a power of $\ell$.
+**Bounded constructible complexes.** The kernel is larger than one might first guess:
+$\bigoplus_{n\ge1}\cO_{E,X}/\ell^n$ lies in it, although no single power of $\ell$ kills it.
+On bounded constructible complexes ([sk-def-sfb-bounded-constructible]) this cannot
+happen. There a complex killed by inverting $\ell$ is killed by a fixed power of $\ell$,
+and extension of scalars induces an equivalence
+$$
+\Dbc(X,\cO_E)[\ell^{-1}]\xrightarrow{\ \sim\ }\Dbc(X,E),
+$$
+where the left side has the objects of $\Dbc(X,\cO_E)$ and Hom groups tensored with $E$
+(Bhatt–Scholze, Proposition 6.8.14(2)); compare the rationalization of
+[sk-def-sfb-rationalization]. The Hom part of this statement is the localized Hom formula
+of the smooth-purity chapter. For essential surjectivity, the integral generators of
+[sk-lem-integral-models] (4) are used: by the Hom statement, a connecting morphism between
+them lifts to an integral one after multiplying by a power of $\ell$, so finite cones of
+the generators also have integral models.

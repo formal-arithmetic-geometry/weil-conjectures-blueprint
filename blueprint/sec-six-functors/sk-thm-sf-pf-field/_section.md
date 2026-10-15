@@ -1,22 +1,17 @@
 +++
 id = "sk-thm-sf-pf-field"
-kind = "theorem"
-title = "Projection formula: rational and algebraically closed stages"
-order = 2441
-uses = ["sk-thm-sf-pf-adic"]
+kind = "proposition"
+title = "Projection formula and proper base change with rational coefficients"
+order = 2400
+uses = ["sk-thm-sf-pf-adic", "sk-prop-proper-base-change-unbounded"]
 lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_field"]
 tags = ["sketch"]
 +++
-Let $f:X\to Y$ be a separated morphism of finite type, let $E/\Ql$ be a
-finite extension inside $\Qlb$, and let $F$ be $E$ or $\Qlb$. Let $K$ and
-$L$ be $\ell$-adic bounded constructible complexes of finite Tor amplitude
-on $X$ and $Y$ with coefficients in $F$: over $E$, rationalizations of
-derived-complete $\Dctf$-objects over $\mathcal O_E$; over $\Qlb$, objects
-represented at a finite stage $E'/\Ql$ in this way. Then the projection map
-
-$$
-\operatorname{PF}_{f,K,L}:Rf_!K\otimes^L L\longrightarrow Rf_!\bigl(K\otimes^L Lf^*L\bigr)
-$$
-
-is an isomorphism, compatibly with the extension functors and with finite
-reduction of the integral representatives.
+For $\Lambda=E$ or $\Qlb$, the category $\Loc(\Dctf(X,\Lambda))$ is closed
+under $\otimes^{\mathbf L}$. For a proper $p:X\to Y$, the projection formula
+map $(Rp_*A)\otimes^{\mathbf L}B\to Rp_*(A\otimes^{\mathbf L}p^*B)$ is an
+isomorphism in $\Loc(\Dctf(Y,\Lambda))$ for $A\in\Loc(\Dctf(X,\Lambda))$ and
+$B\in\Loc(\Dctf(Y,\Lambda))$, and for a cartesian square as in
+[sk-prop-proper-base-change-unbounded] the base change map
+$g^*Rp_*\to Rp'_*g'^*$ is an isomorphism of functors
+$\Loc(\Dctf(X,\Lambda))\to\Loc(\Dctf(Y',\Lambda))$.

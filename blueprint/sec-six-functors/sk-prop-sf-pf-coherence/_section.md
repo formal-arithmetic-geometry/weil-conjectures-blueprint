@@ -2,7 +2,7 @@
 id = "sk-prop-sf-pf-coherence"
 kind = "proposition"
 title = "Coherence of the projection formula"
-order = 2445
+order = 2499
 uses = ["sk-lem-sf-mate", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-reduction", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale"]
 lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_id", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp", "AlgebraicGeometry.Etale.hasProjectionFormula_comp", "AlgebraicGeometry.Etale.hasProjectionFormulaOfCompactification_iff"]
 tags = ["sketch"]

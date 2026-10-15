@@ -1,35 +1,36 @@
 +++
 id = "sk-def-picard-pic"
 kind = "definition"
-title = "Picard functor and its $\\sigma$-normalized version"
-order = 802
+title = "Relative Picard functor"
+order = 603
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.picardFunctor", "AlgebraicGeometry.picardFunctorNormalized"]
 tags = ["sketch"]
 +++
-For $f:X\to S$, the *Picard functor* $\Pic_{X/S}$ is the fppf
-sheafification of the presheaf $T\mapsto\Pic(X_T)$ on
-$(\Sch/S)_{fppf}$. For a section
-$\sigma$ of $f$ we also put
+For a morphism of schemes $f:C\to S$, let
 
 $$
-\Pic_{X/S,\sigma}(T)=\{\cL\in\Pic(X_T):\sigma_T^*\cL\cong\cO_T\}.
+\operatorname{Pic}_{C/S}
+=\bigl(T\longmapsto\operatorname{Pic}(C_T)/f_T^*\operatorname{Pic}(T)\bigr)^{\mathrm{fppf}}.
 $$
 
-The sections of $\Pic_{X/S}$ are *not* in general given by the
-unsheafified quotient: there is a natural map
-$\Pic(X_T)/f_T^*\Pic(T)\to\Pic_{X/S}(T)$, but it need not be bijective.
-(For an anisotropic smooth conic $X$ over $S=\Spec\mathbf R$ every line
-bundle on $X$ has even degree over $\C$, since $X$ has no real point,
-whereas the class of $\cO(1)$ on $X_\C$ is Galois-invariant and so is a
-section of $\Pic_{X/\mathbf R}(\Spec\mathbf R)$; the obstruction to
-descending it as a line bundle is the Brauer class of $X$.) The quotient
-formula
+Here $C_T=C\times_ST$ and the superscript denotes sheafification on the
+big fppf site of $S$. Equivalently one may sheafify
+$T\mapsto\operatorname{Pic}(C_T)$, since an invertible sheaf on $T$
+becomes trivial on a Zariski cover. When this functor is represented by
+a scheme, we call the representing scheme the *Picard scheme*.
 
-$$
-\Pic_{X/S}(T)=\Pic(X_T)/f_T^*\Pic(T)
-$$
+Sheafification is needed: invertible sheaves satisfy effective descent,
+but automorphisms can prevent their isomorphism classes from forming a
+sheaf, so neither the displayed quotient nor
+$T\mapsto\operatorname{Pic}(C_T)$ need be an fppf sheaf (Stacks Project,
+Tag 0B9L). (For instance, for an anisotropic smooth conic $C$ over
+$S=\Spec\mathbf R$, the class of $\cO(1)$ on $C_\C$ is Galois-invariant,
+hence a section of $\operatorname{Pic}_{C/\mathbf R}(\Spec\mathbf R)$,
+but it does not come from a line bundle on $C$.)
 
-holds for all $T$ when $f$ has a section $\sigma$ and
-$\cO_T\to f_{T,*}\cO_{X_T}$ is an isomorphism for every
-$T\in\Ob((\Sch/S)_{fppf})$.
+*Notation.* For a section $\sigma$ of $f$ we write
+$\operatorname{Pic}_{C/S,\sigma}(T)=\{\cL\in\operatorname{Pic}(C_T):\sigma_T^*\cL\cong\cO_T\}$
+for the subgroup of classes trivial along $\sigma$; in the presence of a
+section, the lemma *Rigidification along a section* describes
+the sheafification directly through it.

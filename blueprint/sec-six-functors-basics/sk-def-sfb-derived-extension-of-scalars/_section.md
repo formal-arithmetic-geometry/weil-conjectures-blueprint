@@ -2,7 +2,7 @@
 id = "sk-def-sfb-derived-extension-of-scalars"
 kind = "definition"
 title = "Derived extension of scalars"
-order = 1625
+order = 1622
 uses = ["sk-def-sfb-derived-categories", "sk-def-sfb-change-of-scalars"]
 lean = ["CategoryTheory.Mod.preservesKFlatQuasiIso", "CategoryTheory.Mod.derivedExtendRestrictAdjunction", "CategoryTheory.Mod.rightDerivedComapIsoMapDerivedCategory", "CategoryTheory.Mod.derivedExtendMapDerivedCategoryAdjunction"]
 tags = ["sketch"]

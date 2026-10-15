@@ -2,7 +2,7 @@
 id = "sk-prop-jacobian"
 kind = "proposition"
 title = "The Jacobian is an abelian variety"
-order = 854
+order = 728
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-picard-f", "sk-lem-picard-f-open", "sk-lem-picard-zero-dictionary", "sk-prop-picard-degree-decomposition", "sk-prop-picard-jacobian-tangent", "sk-prop-picard-pic-split", "sk-thm-picard-f-representable", "sk-thm-picard-hilb-curves", "sk-thm-picard-rr", "sk-thm-picard-twist"]
 lean = ["AlgebraicGeometry.exists_jacobian"]
 tags = ["sketch"]
@@ -20,6 +20,6 @@ $$
 $$
 
 where $\deg\cL=\chi(\cL)-\chi(\cO_C)$, equivalently (by
-[sk-thm-picard-rr](RR)) the divisor degree $\deg D$ of any $D$ with
+Riemann–Roch [sk-thm-picard-rr]) the divisor degree $\deg D$ of any $D$ with
 $\cL\cong\cO_C(D)$; and the formation of $J(C)$ commutes with algebraically closed base extension:
 $J(C_{k'})=J(C)\times_kk'$ for $k\subseteq k'$ algebraically closed.

@@ -2,7 +2,7 @@
 id = "sk-prop-nagata-sketch-envelope"
 kind = "proposition"
 title = "Separated finite-presentation envelope"
-order = 398
+order = 112
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_isSeparated_locallyOfFinitePresentation"]
 tags = ["sketch"]
 +++

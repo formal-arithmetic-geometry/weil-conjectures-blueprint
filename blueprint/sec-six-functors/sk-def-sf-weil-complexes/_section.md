@@ -1,20 +1,33 @@
 +++
 id = "sk-def-sf-weil-complexes"
 kind = "definition"
-title = "Strict Weil complexes"
-order = 2508
+title = "Weil structure"
+order = 2415
 lean = ["AlgebraicGeometry.Etale.WeilComplex"]
 tags = ["sketch"]
 +++
-A *strict Weil complex* at $\Lambda$ on $X=X_0\times_{k_0}k$ is a pair
-$(K,\varphi)$ with $K\in\Dctf(X,\Lambda)$ and an isomorphism
-$\varphi:Lg_\gamma^*K\xrightarrow{\sim}K$ for the geometric-Frobenius
-automorphism $g_\gamma$; with morphisms the maps of underlying complexes
-commuting with the $\varphi$'s, these form a category
-$D^b_{ctf,\mathrm W}(X,\Lambda)$ with a forgetful functor. This is a category
-of pairs over the underlying derived category, not a triangulated (derived)
-category of Weil sheaves.
+Fix $k_0=\mathbb F_q$ and its algebraic closure $k$, and let $f:X\to Y$ be
+obtained from a smooth morphism $f_0:X_0\to Y_0$ over $k_0$ by extension to
+$k$. For a scheme $T=T_0\times_{k_0}k$, let
+$\operatorname{Fr}_T:T\to T$ be the semilinear automorphism induced by the
+geometric Frobenius $\sigma=\sigma_{\mathrm{ar}}^{-1}\in\operatorname{Gal}(k/k_0)$,
+and for an admissible coefficient ring $\Lambda$ let
+$\operatorname{Fr}_T^*:\Dctf(T,\Lambda)\to\Dctf(T,\Lambda)$ be the induced
+pullback.
 
-Its Hom-groups are not Ext groups of Weil sheaves: a nonsplit Frobenius
-extension of $\Lambda$ by $\Lambda$ (a Jordan block) gives no nonzero map
-$\Lambda\to\Lambda[1]$ of pairs.
+For $K\in\Dctf(Y,\Lambda)$, a *Weil structure* is an isomorphism in
+$\Dctf(Y,\Lambda)$
+
+$$
+\phi_K:\operatorname{Fr}_Y^*K\xrightarrow{\sim}K.
+$$
+
+A *Weil complex* is a pair $(K,\phi_K)$ with this structure. A morphism
+$(K,\phi_K)\to(L,\phi_L)$ is a morphism $h:K\to L$ in $\Dctf(Y,\Lambda)$
+satisfying
+
+$$
+h\circ\phi_K=\phi_L\circ\operatorname{Fr}_Y^*(h).
+$$
+
+The same definition applies on $X$ or on any $T=T_0\times_{k_0}k$.

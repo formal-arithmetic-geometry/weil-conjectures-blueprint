@@ -3,7 +3,7 @@ id = "sk-def-av-jacobian"
 kind = "definition"
 title = "The Jacobian"
 lean = ["AlgebraicGeometry.IsJacobian"]
-order = 456
+order = 533
 uses = ["sec-nagata-compactification", "sk-def-av", "sk-def-av-pic", "sk-def-curve"]
 tags = ["sketch"]
 +++

@@ -3,7 +3,7 @@ id = "sk-prop-av-divisible-structure"
 kind = "proposition"
 title = "The torsion of a divisible group"
 lean = ["AddSubgroup.nonempty_addEquiv_torsionBy_of_natCard_eq"]
-order = 579
+order = 558
 uses = ["sk-def-av"]
 tags = ["sketch"]
 +++

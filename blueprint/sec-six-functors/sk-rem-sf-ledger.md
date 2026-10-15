@@ -2,7 +2,7 @@
 id = "sk-rem-sf-ledger"
 kind = "remark"
 title = "Ledger: what is unconditional, what is conditional, what is open"
-order = 2601
+order = 2522
 tags = ["sketch"]
 +++
 *Unconditional*: clauses (2), (3), (4), (7), (8) of
@@ -11,17 +11,17 @@ clause (5); the perfect case of clause (6); every statement of
 §§ *What the earlier chapters prove* except where a *Conditional on* line says otherwise.
 *Conditional*: (a) only the optional *ambient* half of clause (1)
 — the adjunction $Rf_!\dashv Rf^{\times}$ on all of $D(-_{\Proet},\Lambda)$,
-[sk-prop-sf-existence](b) — which rests on the ambient datum
+[def-weil-ambient-exceptional-adjoint] — which rests on the ambient datum
 $\operatorname{FullCD}$ for the compactification; that hypothesis is
 *false in general* ([sk-rem-sf-fullcd-scope]), so this half
 is not a theorem, and it is consumed by nothing: clauses (v) and (vi) of
-[sk-thm-sf-ctf-stability], the general biduality of
+[thm-sf-ctf-stability], the general biduality of
 [sk-prop-sf-biduality-general] and every other use of $Rf^!$ are formulated
 with the unconditional constructible adjoint of [sk-def-sf-operations](vi),
-[sk-prop-sf-existence](c), on the étale-origin class, where
+[thm-sf-ambient-adjoint-class], on the étale-origin class, where
 $\operatorname{FullCD}$ is the theorem [sk-prop-sf-fullcd-etale-origin]
 ([sk-rem-sf-fullcd-scope]).
-(b) Clause (vii) of [sk-thm-sf-ctf-stability] in the case of a reduction
+(b) Clause (vii) of [thm-sf-ctf-stability] in the case of a reduction
 tower with no uniform trivializing cover
 (no uniform trivializing cover). (c) [sk-prop-sf-comp-coherence],
 [sk-thm-sf-comp-composition] and [sk-prop-sf-comp-proper] are proved on the

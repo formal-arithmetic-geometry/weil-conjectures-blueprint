@@ -1,19 +1,15 @@
 +++
 id = "sk-rem-sf-matrix"
-kind = "proposition"
-title = "The preservation matrix"
-order = 2559
+kind = "corollary"
+title = "The six operations on $\\Dctf(-,A)$"
+order = 2397
+uses = ["sk-prop-sf-existence", "sk-prop-sf-rf-shriek-preservation"]
 tags = ["sketch"]
 +++
-Short of the residue above, the following cells are *proved*:
-$Lf^*:\Dbc(Y)\to\Dbc(X)$, $Rf_*:\Dbc(X)\to\Dbc(Y)$ and
-$Rf_!:\Dbc(X)\to\Dbc(Y)$ (unconditional, every finite-type $f$);
-$Lf^*:\Dctf(Y)\to\Dctf(X)$, $-\otimes^L-:\Dctf\times\Dctf\to\Dctf$,
-$Rf_*:\Dctf(X)\to\Dctf(Y)$, $Rf_!:\Dctf(X)\to\Dctf(Y)$;
-$\RHom(-,-):\Dctf\times\Dctf\to\Dctf$ for two arbitrary objects on the small
-étale site and, on the small pro-étale site, for pulled-back pairs;
-$Rf^!:\Dctf(Y)\to\Dctf(X)$ for open immersions, finite étale morphisms,
-closed immersions, smooth morphisms, and in fact every separated finite-type
-$f$, with no admissibility hypothesis;
-$\mathbb D_X:\Dctf(X)\to\Dctf(X)$ in the perfect case and in general, again
-unconditionally.
+Let $A$ be a finite commutative $\ell$-primary ring. For separated finite-type
+morphisms of the standing schemes, the operations $f^*$, $Rf_*$, $Rf_!$, and
+$f^!$, together with $\otimes_A^{\mathbf L}$ and $R\mathcal Hom_A$, preserve
+bounded constructible complexes of finite Tor amplitude. Here $f^*$, $Rf_*$,
+$\otimes_A^{\mathbf L}$ and $R\mathcal Hom_A$ are the functors on
+$D((-)_{\mathrm{proét}},A)$, and $Rf_!$, $f^!$ are the functors on
+$\Loc(\Dctf(-,A))$ of [sk-prop-sf-existence].

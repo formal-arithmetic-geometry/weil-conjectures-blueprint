@@ -2,7 +2,7 @@
 id = "sk-thm-picard-cech"
 kind = "theorem"
 title = "Čech-to-derived"
-order = 605
+order = 703
 uses = ["sk-def-groth-ss"]
 lean = ["CategoryTheory.Sheaf.exists_cechToDerivedSpectralSequence"]
 tags = ["sketch"]

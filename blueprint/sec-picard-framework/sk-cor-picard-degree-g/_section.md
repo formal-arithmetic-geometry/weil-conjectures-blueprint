@@ -2,7 +2,7 @@
 id = "sk-cor-picard-degree-g"
 kind = "corollary"
 title = "The degree of the dictionary"
-order = 751
+order = 713
 uses = ["sec-abelian-varieties", "sk-def-av-jacobian"]
 lean = ["AlgebraicGeometry.Scheme.degree_eq_genus"]
 tags = ["sketch"]

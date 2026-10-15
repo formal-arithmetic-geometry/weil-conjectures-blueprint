@@ -2,7 +2,7 @@
 id = "sk-thm-sf-kunneth-relative"
 kind = "theorem"
 title = "Relative product theorem"
-order = 2531
+order = 2513
 uses = ["sk-lem-sf-mate", "sk-prop-sf-cbc", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_externalProduct"]
 tags = ["sketch"]
@@ -36,7 +36,7 @@ transformation and $\operatorname{Ex}_!:Lg^*Rf_!\to Rq_!Lp^*$ the exchange
 transformation of [sk-def-sf-exchanges] for the Cartesian square
 $(p,q,f,g)$, and $\sigma$ the symmetry of $\otimes^L$; the second variable
 $Rf_!K$ of $\operatorname{PF}_{g,L,Rf_!K}$ lies in $\Dctf(B,\Lambda)$, as the
-typing of [sk-def-sf-exchanges] requires, by [sk-thm-sf-ctf-stability] (iv). Then every arrow is an isomorphism
+typing of [sk-def-sf-exchanges] requires, by [sk-thm-sf-ctf-stability]. Then every arrow is an isomorphism
 ([sk-thm-sf-comp-composition], [sk-rem-sf-pf-done],
 [sk-prop-sf-cbc]), so
 

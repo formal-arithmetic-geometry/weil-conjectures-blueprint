@@ -2,7 +2,7 @@
 id = "sk-prop-h2"
 kind = "proposition"
 title = "$H^2$ via Kummer"
-order = 936
+order = 988
 uses = ["sk-def-av-pic", "sk-def-br", "sk-def-kummer", "sk-def-pic", "sk-prop-kummer-exact", "sk-thm-br"]
 lean = ["AlgebraicGeometry.IsCurve.nonempty_addEquiv_sheafH_rootsOfUnitySheaf_two", "AlgebraicGeometry.Scheme.exists_exact_sheafH_rootsOfUnitySheaf_two"]
 tags = ["sketch"]

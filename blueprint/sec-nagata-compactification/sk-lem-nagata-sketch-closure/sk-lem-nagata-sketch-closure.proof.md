@@ -2,15 +2,14 @@
 kind  = "proof"
 of    = "sk-lem-nagata-sketch-closure"
 +++
-The ideal is the largest quasi-coherent ideal inside
-$\ker(\mathcal O_Y\to h_*\mathcal O_T)$, and minimality is immediate. For
-quasi-compact $h$ the ideal is this kernel itself, computed on affine opens
-from a finite affine cover of the source; flat base change, in particular
-restriction to an open, then commutes with it. An immersion is closed in
-some open of its target, so its image factor identifies $T$ with an open
-of $\SIm(h)$. This image is closed in the proper ambient scheme, hence
-proper over $S$. For a compactification of a quasi-compact morphism, the
-open immersion $X\to\overline X$ is quasi-compact because
-$\overline X\to S$ is separated. Apply this first to $X\to\overline X$, and then to
-$Z\hookrightarrow X\hookrightarrow\overline X$. Properness and
-quasi-compact open immersions are stable under base change.
+The ideal of the image is $\ker(\mathcal O_T\to i_*\mathcal O_U)$, which is
+quasi-coherent because $i$ is quasi-compact and quasi-separated. On an open
+of $T$ where the immersion is closed, the image restricts to $U$ itself.
+Hence $U$ is open in its image. By construction a section of
+$\mathcal O_{\overline U}$ vanishing on $U$ is zero; this is schematic
+density. These statements are the image and closure lemmas (Stacks 01R8 and
+01RG).
+
+For uniqueness, the equalizer of the two maps is a closed subscheme of $T$,
+since it is the inverse image of the diagonal of $Y/S$. Its ideal vanishes on
+$U$ and thus vanishes on $T$.

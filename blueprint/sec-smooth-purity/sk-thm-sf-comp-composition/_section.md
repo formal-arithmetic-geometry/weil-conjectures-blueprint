@@ -1,21 +1,20 @@
 +++
 id = "sk-thm-sf-comp-composition"
-kind = "theorem"
-title = "The composition law for $Rf_!$"
-order = 1874
-uses = ["sec-nagata-compactification", "sec-proper-base-change", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-comp-coherence", "sk-thm-properbasechange"]
+kind = "proposition"
+title = "Composition and base change for $Rf_!$"
+order = 1814
+uses = ["sec-nagata-compactification", "sec-proper-base-change", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-comp-coherence", "sk-thm-properbasechange", "sk-def-localizing-closure"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp"]
 tags = ["sketch"]
 +++
-Let $f:X\to Y$ and $g:Y\to S$ be separated of finite type between finite-type
-$k$-schemes. There is a canonical isomorphism
+For every admissible $\Lambda$ the following statements hold on
+$\Loc(\Dctf(-,\Lambda))$ and restrict to $\Dctf(-,\Lambda)$.
 
-$$
-\alpha_{g,f}:\ Rg_!Rf_!\ \xrightarrow{\ \sim\ }\ R(g\circ f)_!
-$$
-
-of functors $D^+(X,\Lambda)\to D^+(S,\Lambda)$ on étale-origin complexes,
-independent of all compactification choices by [sk-prop-sf-comp-coherence],
-equal to the identity when $f$ or $g$ is an identity, and associative:
-for a third $h:S\to T$ the two composites
-$Rh_!Rg_!Rf_!\to R(hgf)_!$ agree.
+1. For separated morphisms of finite type $X\xrightarrow{f}Y\xrightarrow{g}Z$
+there is a canonical isomorphism $Rg_!\circ Rf_!\simeq R(gf)_!$ of functors
+$\Loc(\Dctf(X,\Lambda))\to\Loc(\Dctf(Z,\Lambda))$. These isomorphisms are
+associative and compatible with the identity $R(\mathrm{id})_!=\mathrm{id}$.
+2. Let $v:Y'\to Y$ be a morphism, $f':X'\to Y'$ the base change of $f$ along
+$v$, and $u:X'\to X$ the projection. The base change map
+$v^*Rf_!\to Rf'_!u^*$, a natural transformation of functors
+$\Loc(\Dctf(X,\Lambda))\to\Loc(\Dctf(Y',\Lambda))$, is an isomorphism.

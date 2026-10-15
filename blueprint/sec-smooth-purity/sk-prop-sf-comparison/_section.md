@@ -1,24 +1,36 @@
 +++
 id = "sk-prop-sf-comparison"
-kind = "proposition"
-title = "The pro-étale comparison"
-order = 1996
+kind = "theorem"
+title = "Bounded-below cohomology comparison"
+order = 1810
 lean = ["AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar", "AlgebraicGeometry.ProEtale.nonempty_iso_comparisonUpperStar_comp_rightDerivedLowerStar"]
 tags = ["sketch"]
 +++
-For the comparison morphism $\nu_T:T_{\Proet}\to T_{\Et}$ and a finite
-coefficient ring, the functor
-$\nu_T^*:D^+(T_{\Et},\Lambda)\to D^+(T_{\Proet},\Lambda)$ is exact and fully
-faithful, with $\mathrm{id}\cong R\nu_{T,*}\nu_T^*$; it restricts to a functor
-$\Dbc(T_{\Et},\Lambda)\to\Dbc(T_{\Proet},\Lambda)$ which is an equivalence onto
-the constructible subcategory of the target; the comparison direct image
-$\nu_V^*Ru_{\Et,*}\cong Ru_{\Proet,*}\nu_U^*$ is an isomorphism of functors
-$D^+(U_{\Et},\Lambda)\to D^+(V_{\Proet},\Lambda)$ for $u$ quasi-compact and
-quasi-separated; and a morphism of pro-étale complexes is an isomorphism if
-and only if it is one on a pro-étale covering family and on the affine
-ind-étale basis. On sheaves, $\nu_T^*$ is full and faithful, and the
-isomorphism $\nu_V^*Ru_{\Et,*}\cong Ru_{\Proet,*}\nu_U^*$ of functors on
-$D^+$ for $u$ quasi-compact and quasi-separated, holds for an arbitrary
-Grothendieck abelian coefficient category in place of $\Lambda$-modules.
-Detection is by covering families, not by geometric points:
-geometric-point stalks are *not* conservative on all pro-étale sheaves.
+Let $X$ be a scheme, $\Lambda$ a ring, and $\nu_X:X_{\mathrm{proét}}\to X_{\mathrm{ét}}$
+the comparison morphism. For $K\in D^+(X_{\mathrm{ét}},\Lambda)$ the unit of the
+adjunction between
+$\nu_X^*:D^+(X_{\mathrm{ét}},\Lambda)\to D^+(X_{\mathrm{proét}},\Lambda)$ and
+$R\nu_{X,*}$ is an isomorphism
+
+$$
+K\xrightarrow{\ \sim\ }R\nu_{X,*}\nu_X^*K\quad\text{in }D^+(X_{\mathrm{ét}},\Lambda).
+$$
+
+Consequently $\nu_X^*:D^+(X_{\mathrm{ét}},\Lambda)\to D^+(X_{\mathrm{proét}},\Lambda)$ is
+fully faithful, and there is a canonical isomorphism in the derived category
+of $\Lambda$-modules
+
+$$
+R\Gamma(X_{\mathrm{proét}},\nu_X^*K)\simeq R\Gamma(X_{\mathrm{ét}},K).
+$$
+
+More generally, for a pro-étale affine $U=\varprojlim_iU_i$ with $U_i$
+affine and étale over $X$,
+
+$$
+R\Gamma(U_{\mathrm{proét}},(\nu_X^*K)|_U)\simeq
+\varinjlim_iR\Gamma((U_i)_{\mathrm{ét}},K|_{U_i}).
+$$
+
+The colimit here is a filtered derived colimit, so its cohomology is the
+filtered colimit of the cohomology groups.

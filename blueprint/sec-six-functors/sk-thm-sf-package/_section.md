@@ -2,7 +2,7 @@
 id = "sk-thm-sf-package"
 kind = "theorem"
 title = "The six-operations package"
-order = 2576
+order = 2521
 uses = ["sk-cor-sf-direct-image-ctf", "sk-def-sf-admissible", "sk-def-sf-operations", "sk-lem-sf-flat-model", "sk-lem-sf-mate", "sk-lem-sf-twist-interchange", "sk-prop-cohsm", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-comparison", "sk-prop-sf-dualizable-biduality", "sk-prop-sf-finiteness", "sk-prop-sf-kunneth-ordinary", "sk-prop-sf-pf-reduction", "sk-prop-sf-rf-shriek-preservation", "sk-rem-sf-matrix", "sk-thm-nagata-compactification", "sk-thm-properbasechange", "sk-thm-purity-transport", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-dual-perfect", "sk-thm-sf-global-duality", "sk-thm-sf-hom-ctf", "sk-thm-sf-identification", "sk-thm-sf-kunneth-relative", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale", "sk-thm-sf-tensor-hom", "sk-thm-smooth-base-change", "sk-thm-smooth-purity"]
 lean = ["AlgebraicGeometry.Etale.SixOperationsPackage", "AlgebraicGeometry.Etale.sixOperationsPackage"]
 tags = ["sketch"]
@@ -23,8 +23,8 @@ the same pair of categories); the constructible exceptional adjoint
 $Rf^!:\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$ of [sk-def-sf-operations] (vi) is
 right adjoint to $Rf_!:\Dctf(X,\Lambda)\to\Dctf(Y,\Lambda)$,
 unconditionally, with units and counits compatible with composition,
-refinements and exchanges ([sk-prop-sf-existence] (c),
-[sk-prop-sf-rf-shriek-preservation], [sk-lem-sf-mate] (b)); and, whenever $f$ carries the ambient datum of
+refinements and exchanges ([thm-sf-ambient-adjoint-class],
+[sk-prop-sf-rf-shriek-preservation], [sk-lem-sf-mate] (1)); and, whenever $f$ carries the ambient datum of
 [sk-def-sf-admissible] (1), the ambient functor
 $Rf_!:D(X,\Lambda)\to D(Y,\Lambda)$ is left adjoint to the ambient functor
 $Rf^{\times}:D(Y,\Lambda)\to D(X,\Lambda)$ of [sk-def-sf-operations] (v),
@@ -84,7 +84,7 @@ compatible with composition of smooth morphisms (twist additivity, through
 the mate isomorphism $R(gf)^!\cong Rf^!Rg^!$ of [sk-lem-sf-mate]) and with
 base change — along arbitrary $g$ at $\Lambda=A_{E,n}$, along étale $g$ at
 the other stages — where the base-change isomorphism
-$Lg'^*Rf^!\to Rf'^!Lg^*$ of [sk-prop-cohsm] (c) is the mate of
+$Lg'^*Rf^!\to Rf'^!Lg^*$ of [sk-prop-cohsm] (G12) is the mate of
 $\operatorname{Ex}_!$ under $Rf_!\dashv Rf^!$ and $Rf'_!\dashv Rf'^!$; under
 $\gamma_f,\gamma_{f'}$ it becomes the canonical isomorphism
 $Lg'^*Lf^*\cong Lf'^*Lg^*$, i.e. the trace (the exceptional counit read

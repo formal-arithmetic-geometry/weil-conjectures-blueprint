@@ -3,7 +3,7 @@ id = "sk-prop-av-image-open"
 kind = "proposition"
 title = "Finiteness of the image is open in the parameter"
 lean = ["AlgebraicGeometry.eventually_finite_image"]
-order = 493
+order = 544
 uses = ["sk-def-av"]
 tags = ["sketch"]
 +++

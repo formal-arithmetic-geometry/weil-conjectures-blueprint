@@ -2,7 +2,7 @@
 id = "sk-thm-groth-ss"
 kind = "theorem"
 title = "Grothendieck spectral sequence and its Leray specialization"
-order = 607
+order = 704
 uses = ["sk-def-groth-ss"]
 lean = ["CategoryTheory.Functor.exists_grothendieckSpectralSequence"]
 tags = ["sketch"]

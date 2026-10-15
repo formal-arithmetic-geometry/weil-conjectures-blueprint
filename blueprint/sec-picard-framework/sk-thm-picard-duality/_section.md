@@ -2,7 +2,7 @@
 id = "sk-thm-picard-duality"
 kind = "theorem"
 title = "Serre duality"
-order = 689
+order = 712
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve"]
 lean = ["AlgebraicGeometry.Scheme.serreDuality"]
 tags = ["sketch"]

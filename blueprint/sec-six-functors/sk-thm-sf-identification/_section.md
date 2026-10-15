@@ -2,7 +2,7 @@
 id = "sk-thm-sf-identification"
 kind = "theorem"
 title = "The derived Poincaré pairing is the duality isomorphism"
-order = 2526
+order = 2512
 uses = ["sk-lem-sf-twist-interchange", "sk-thm-sf-global-duality", "sk-thm-sf-tensor-hom"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerStar_coefficientDual_of_orientation"]
 tags = ["sketch"]

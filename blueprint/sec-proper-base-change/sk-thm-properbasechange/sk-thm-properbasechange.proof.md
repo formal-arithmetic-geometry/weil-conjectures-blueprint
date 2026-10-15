@@ -1,24 +1,42 @@
 +++
-kind  = "proof"
-of    = "sk-thm-properbasechange"
-uses = ["sk-def-pbc", "sk-thm-p1", "sk-thm-reduction"]
+kind = "proof"
+of = "sk-thm-properbasechange"
+uses = ["sk-def-pbc", "sk-thm-p1", "sk-thm-reduction", "sk-cor-pe-classical-derived", "sk-thm-pe-direct-image-comparison", "sk-def-pbc-conventions"]
 +++
-**Step 1 ($\Pone$).** By [sk-thm-p1], for every scheme $S$ the
-projection $\Pone_S\to S$ satisfies $\mathrm{PBC}_\Lambda$: the exchange
-morphism is an isomorphism, for every base change, on every object of
-$\Dplus(\Pone_{S,\Et},\Lambda)$ with torsion cohomology sheaves.
+By [sk-cor-pe-classical-derived], write $K=\nu_X^*K_{\mathrm{ét}}$ with
+$K_{\mathrm{ét}}\in D^+(X_{\Et},\Lambda)$. On the étale site,
+[sk-thm-reduction] proves proper base change for torsion abelian sheaves,
+with the projective-line case [sk-thm-p1] as its input. Three passages lead
+from there to the theorem: to bounded below complexes, to $\Lambda$-modules,
+and to the pro-étale site.
 
-**Step 2 (reduction).** [sk-thm-reduction], applied with the same ring
-$\Lambda$, turns this into $\mathrm{PBC}_\Lambda(f)$ for every proper
-morphism $f$. Its proof passes to the torsion rings $\Lambda/N\Lambda$ by
-restriction of scalars, reduces a bounded below complex with torsion
-cohomology to torsion sheaves (truncation triangles, the five lemma) and a
-torsion sheaf $F$ to the sheaves $F[N]$ killed by $N$ (filtered colimits,
-over which the proper $R^qf_*$ commutes), and then runs the
-Chow/composition/cancellation argument in the injective-acyclicity form.
+*Bounded below complexes.* Write $K$ for the étale complex
+$K_{\mathrm{ét}}$, and suppose first that it is a bounded below complex of
+abelian sheaves with torsion cohomology. Fix an integer $m$. Both functors
+$g^{-1}Rf_*,\ Rf'_*g'^{-1}:D^+(X_{\Et},\mathbf Z)\to D^+(Y'_{\Et},\mathbf Z)$
+send $D^{\geq m+1}$ to $D^{\geq m+1}$, so their $m$th cohomology on $K$ is
+unchanged upon replacing $K$ by the bounded truncation $\tau_{\leq m}K$. Using
+truncation triangles, its finite Postnikov filtration reduces the exchange
+isomorphism in degree $m$ to torsion sheaves and their shifts.
 
-**Step 3 (conclusion).** By [sk-def-pbc], $\mathrm{PBC}_\Lambda(f)$ says
-exactly that for every morphism $g:Y'\to Y$ and every
-$K\in\Dplus(X_{\Et},\Lambda)$ with torsion cohomology sheaves the exchange
-morphism $\Ex_{\square,K}$ is an isomorphism in $\Dplus(Y'_{\Et},\Lambda)$,
-which is the assertion.
+*$\Lambda$-modules.* Next forget the $\Lambda$-action. The forgetful functor
+to abelian sheaves is exact and conservative, and commutes with inverse image
+and direct image. It also commutes with bounded below derived direct image.
+Indeed, an injective sheaf of $\Lambda$-modules is acyclic, as an abelian
+sheaf, for sections over every object of the site (Stacks Project, Tag 03FD;
+see [sk-def-pbc-conventions]); the same assertion on the étale slices gives
+acyclicity for direct image, so a module-injective resolution computes the
+underlying abelian derived direct image. These identifications preserve the
+units and counits defining the exchange. The underlying abelian map is
+therefore the exchange in $D^+(Y'_{\Et},\mathbf Z)$ already shown to be an
+isomorphism, and hence so is the exchange in $D^+(Y'_{\Et},\Lambda)$.
+
+*Pro-étale site.* Finally apply $\nu_{Y'}^*$. Since $f$ and $f'$ are proper,
+hence qcqs, the direct-image comparison [sk-thm-pe-direct-image-comparison]
+applies. Together with the inverse-image comparison
+$g_{\mathrm{proét}}^*\nu_Y^*\simeq\nu_X^*g_{\mathrm{ét}}^*$ it identifies
+$\nu_{Y'}^*g^{-1}Rf_*K_{\mathrm{ét}}$ and
+$\nu_{Y'}^*Rf'_*g'^{-1}K_{\mathrm{ét}}$ with $g^*Rf_*K$ and $Rf'_*g'^*K$ in
+$D^+(Y'_{\mathrm{proét}},\Lambda)$. These comparisons respect the units and
+counits, so the resulting isomorphism is the canonical pro-étale exchange
+map.

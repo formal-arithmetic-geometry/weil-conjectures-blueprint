@@ -16,8 +16,8 @@ structure morphism. No admissibility hypothesis is imposed on $a_X$: its
 exceptional inverse image $Ra_X^!$ is the constructible exceptional adjoint
 of [sk-def-sf-operations](vi), which exists and preserves
 $\Dctf$ at every stage for every separated finite-type morphism
-([sk-prop-sf-existence](c), [sk-prop-sf-rf-shriek-preservation],
-[sk-thm-sf-ctf-stability](v)); the
+([thm-sf-ambient-adjoint-class], [sk-prop-sf-rf-shriek-preservation],
+[sk-thm-sf-ctf-stability]); the
 ambient datum of [sk-def-sf-admissible], which fails for smooth proper
 curves ([sk-rem-sf-fullcd-scope]), is not used. Properness of $X_0$ is *not* part of this setting: the
 duality results [sk-thm-sf-global-duality], [sk-thm-sf-identification]

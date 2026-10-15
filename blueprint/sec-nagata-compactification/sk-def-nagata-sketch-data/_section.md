@@ -1,26 +1,20 @@
 +++
 id = "sk-def-nagata-sketch-data"
 kind = "definition"
-title = "Compactification and admissible blow-up"
-order = 11
+title = "Compactification and refinement"
+order = 1
 lean = ["AlgebraicGeometry.Compactification", "AlgebraicGeometry.IsSchemeTheoreticallyDominant", "AlgebraicGeometry.IsAdmissible"]
 tags = ["sketch"]
 +++
-A *compactification* of $f:X\to S$ is a factorization
+Let $f:X\to S$ be a morphism. A *compactification* is a factorization
 
 $$
-X\xrightarrow{j}\overline X\xrightarrow{p}S,
-\qquad p\circ j=f,
+X\xrightarrow{j}\overline X\xrightarrow{p}S
 $$
 
-where $j$ is an open immersion and $p$ is proper.
-It is *scheme-theoretically dense* if $j$ is scheme-theoretically
-dominant: no nonzero quasi-coherent ideal of $\mathcal O_{\overline X}$ is
-contained in the kernel of $\mathcal O_{\overline X}\to j_*\mathcal O_X$.
-For an open $U\subseteq T$ of a scheme $T$, a
-*$U$-admissible blow-up* is
-$\Bl_{\mathcal I}(T)\to T$, with $\mathcal I$ a finite-type
-quasi-coherent ideal whose support $V(\mathcal I)$ is disjoint from $U$,
-i.e. $\mathcal I|_U=\mathcal O_U$.
-
-A $U$-admissible blow-up is an isomorphism over $U$.
+with $j$ a quasi-compact open immersion and $p$ proper. It is *dense* if
+$j$ is scheme-theoretically dense: the map
+$\mathcal O_{\overline X}\to j_*\mathcal O_X$ is injective.
+A *refinement* of compactifications is an $S$-morphism
+$h:\overline X'\to\overline X$ with $hj'=j$ and $h^{-1}(X)=X$, under the
+specified identifications with $X$.

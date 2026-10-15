@@ -2,7 +2,7 @@
 id = "sk-thm-picard-coherence"
 kind = "theorem"
 title = "Coherence of the higher direct images"
-order = 638
+order = 710
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.Scheme.Modules.isFinitePresentation_higherDirectImage"]
 tags = ["sketch"]

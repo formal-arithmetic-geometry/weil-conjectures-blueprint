@@ -3,7 +3,7 @@ id = "sk-prop-av-isogeny-degree"
 kind = "proposition"
 title = "The degree of an isogeny is the degree of the kernel"
 lean = ["AlgebraicGeometry.IsIsogeny.finrank_eq", "AlgebraicGeometry.IsIsogeny.isFinite", "AlgebraicGeometry.IsIsogeny.flat"]
-order = 562
+order = 552
 uses = ["sk-def-av", "sk-def-av-isogeny", "sk-def-av-pic", "sk-prop-av-mult-finite"]
 tags = ["sketch"]
 +++

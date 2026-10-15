@@ -2,7 +2,7 @@
 id = "sk-lem-geometry"
 kind = "lemma"
 title = "Geometry of the deformation of a section"
-order = 2341
+order = 1927
 uses = ["sk-def-purity-conv", "sk-prop-an"]
 lean = ["AlgebraicGeometry.Scheme.Hom.nonempty_deformationToNormalConeData"]
 tags = ["sketch"]
@@ -28,7 +28,7 @@ where $a:\Aaf^1_B\to B$.
 1. **(4)** *the standard pair.* For $(\Aaf^d_B\to B,0)$ the deformation
 space is $\Aaf^d_B\times_B\Aaf^1_B$ with $x_k=tu_k$, the family object is
 $a^{*}0^{*}\omega_{\Aaf^d_B/B}$, and $0^{*}\omega_{\Aaf^d_B/B}=\Lambda(d)[2d]$
-by the $R\pi^{!}$-form [sk-prop-an] (ii)
+by the purity isomorphism of [sk-prop-an]
 ($\omega_{\Aaf^d_B/B}\cong\Lambda(d)[2d]$, pulled back along the zero
 section).
 1. **(5)** *base change.* All of this commutes with base change in $B$

@@ -2,7 +2,7 @@
 id = "sk-prop-divisor-gen"
 kind = "proposition"
 title = "Divisor sequence"
-order = 903
+order = 985
 uses = ["sk-def-curve"]
 lean = ["AlgebraicGeometry.Scheme.exists_shortExact_divisorSequence"]
 tags = ["sketch"]

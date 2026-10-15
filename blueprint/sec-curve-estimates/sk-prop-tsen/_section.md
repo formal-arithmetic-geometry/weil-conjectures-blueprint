@@ -2,7 +2,7 @@
 id = "sk-prop-tsen"
 kind = "proposition"
 title = "Tsen's theorem"
-order = 899
+order = 984
 uses = ["sk-def-av-pic", "sk-def-br", "sk-def-cr", "sk-def-curve"]
 lean = ["AlgebraicGeometry.IsCurve.isQuasiAlgClosed_functionField", "AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup_functionField", "IsQuasiAlgClosed.of_trdeg_le_one"]
 tags = ["sketch"]

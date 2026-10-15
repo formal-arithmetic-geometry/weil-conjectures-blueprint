@@ -1,17 +1,22 @@
 +++
 id = "sk-thm-picard-twist"
-kind = "theorem"
-title = "The twist lemma"
-order = 761
-uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-picard-serre-a"]
+kind = "lemma"
+title = "Translating into the chart"
+order = 609
+uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-picard-serre-a", "sk-thm-picard-rr", "sk-prop-picard-dense-points"]
 lean = ["AlgebraicGeometry.Scheme.exists_isInvertible_twist"]
 tags = ["sketch"]
 +++
-Let $k$ be separably closed, $X$ a connected smooth proper curve over $k$,
-$K/k$ a field extension and $\cL$ a line bundle on $X_K$. Then
-there exists a line bundle $\cL_0$ on $X$ such that
+Let $C/k$ be a smooth projective geometrically connected curve, and
+suppose that $k$ is algebraically closed. For every field extension $K/k$
+and every invertible sheaf $\cL$ on $C_K$, there is an invertible sheaf
+$\cM_0$ on $C$ such that
 
 $$
-h^0\bigl(X_K,\cL\otimes\cL_0|_{X_K}\bigr)=1\qquad\text{and}\qquad
-h^1\bigl(X_K,\cL\otimes\cL_0|_{X_K}\bigr)=0 .
+h^0(C_K,\cL\otimes\cM_{0,K})=1,
+\qquad H^1(C_K,\cL\otimes\cM_{0,K})=0.
 $$
+
+(The same holds, with the same proof, for $k$ separably closed and $C$ a
+connected smooth proper curve over $k$: the only input about $k$ is that
+$C(k)$ is infinite, [sk-prop-picard-dense-points].)

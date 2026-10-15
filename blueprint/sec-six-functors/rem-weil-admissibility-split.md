@@ -2,7 +2,7 @@
 id = "rem-weil-admissibility-split"
 kind = "remark"
 title = "Existence, preservation and geometric duality are separate"
-order = 2603
+order = 2524
 uses = ["cor-pur-smooth-admissibility", "cor-sf-ambient-adjoint-discharge", "cor-weil-boundary-duality-discharge", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "lem-coef-rational-operations", "prop-coef-integral-exceptional-adjoint", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-fix-general-biduality", "thm-sf-ambient-adjoint-class", "thm-sf-preservation-class"]
 +++
 The three clauses of [def-weil-exceptional-adjoint-admissibility] separate

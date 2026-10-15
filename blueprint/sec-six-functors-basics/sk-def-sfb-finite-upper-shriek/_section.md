@@ -2,7 +2,7 @@
 id = "sk-def-sfb-finite-upper-shriek"
 kind = "definition"
 title = "Exceptional pullback $Rf^!$ (finite coefficients)"
-order = 1675
+order = 1629
 uses = ["sk-def-nagata-sketch-data", "sk-def-sfb-finite-derived-lower-shriek"]
 lean = ["AlgebraicGeometry.ProEtale.isLeftAdjoint_rightDerivedLowerStar_of_isProper", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekOfCompactification", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriek", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekOfCompactificationAdjunction", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekAdjunction", "AlgebraicGeometry.ProEtale.isLeftAdjoint_rightDerivedLowerShriek"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-prop-sf-biduality-general"
 kind = "proposition"
 title = "General Verdier biduality"
-order = 2457
+order = 2501
 uses = ["sk-def-sf-operations", "sk-prop-sf-rf-shriek-preservation"]
 lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_verdierDual", "AlgebraicGeometry.Etale.nonempty_iso_verdierDual_verdierDual"]
 tags = ["sketch"]

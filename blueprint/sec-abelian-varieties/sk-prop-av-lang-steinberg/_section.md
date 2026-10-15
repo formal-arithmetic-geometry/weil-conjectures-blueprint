@@ -3,7 +3,7 @@ id = "sk-prop-av-lang-steinberg"
 kind = "proposition"
 title = "Lang–Steinberg for $p$-linear maps"
 lean = ["LinearMap.Frobenius.surjective_sub_id"]
-order = 570
+order = 555
 uses = ["sk-def-av", "sk-prop-av-fixed-points"]
 tags = ["sketch"]
 +++

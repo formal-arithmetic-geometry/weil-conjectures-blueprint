@@ -3,7 +3,7 @@ id = "sk-prop-av-fixed-points"
 kind = "proposition"
 title = "Fixed points of $p$-linear maps are finite"
 lean = ["LinearMap.Frobenius.finite_fixedPoints", "LinearMap.Frobenius.natCard_fixedPoints_le"]
-order = 568
+order = 554
 uses = ["sk-def-av"]
 tags = ["sketch"]
 +++

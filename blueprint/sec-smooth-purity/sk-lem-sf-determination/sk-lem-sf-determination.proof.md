@@ -1,12 +1,10 @@
 +++
-kind  = "proof"
-of    = "sk-lem-sf-determination"
+kind = "proof"
+of = "sk-lem-sf-determination"
+uses = ["sk-def-localizing-closure"]
 +++
-Apply $H^q$ to the map of triangles: two columns of the ladder are
-isomorphisms, so the third is, by the five lemma; a morphism whose cone has
-vanishing cohomology is zero. Shifts: $\alpha_{X[1]}=\alpha_X[1]$ by
-exactness. Summands: $\alpha_{X\oplus Y}=\alpha_X\oplus\alpha_Y$ by
-additivity, and the inverse of an invertible diagonal map is diagonal, so each
-summand is invertible. The class of objects on which $\alpha$ is invertible
-is therefore closed under shifts, cones and direct summands, i.e. it is a
-thick subcategory.
+The objects $K$ for which $\eta_K$ is an isomorphism are closed under shifts
+and cones by the five lemma, and under direct sums because $F_1$ and $F_2$
+preserve them. They contain $\Dctf(X,\Lambda)$, so by the definition of the
+localizing closure [sk-def-localizing-closure] they contain all of
+$\Loc(\Dctf(X,\Lambda))$.

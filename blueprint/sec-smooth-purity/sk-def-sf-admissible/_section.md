@@ -2,7 +2,7 @@
 id = "sk-def-sf-admissible"
 kind = "definition"
 title = "Admissibility datum: an explicit hypothesis"
-order = 1862
+order = 1912
 lean = ["AlgebraicGeometry.ProEtale.HasAmbientExceptionalRightAdjoint", "AlgebraicGeometry.ProEtale.HasUniformCohomologicalDimensionLE"]
 tags = ["sketch"]
 +++
@@ -48,6 +48,6 @@ smooth proper variety. For the constructible exceptional adjoint $Rf^!$ of
 [sk-def-sf-operations] (vi), by contrast, the analogues of all three clauses
 are theorems for every separated finite-type morphism of finite-type
 $k$-schemes: the adjunction on $\Dctf$, with compatible units and counits
-([sk-prop-sf-existence] (c)), and the two preservation clauses with explicit
-constants ([sk-prop-sf-rf-shriek-preservation] (iv),
-[sk-thm-sf-ctf-stability] (v)).
+([thm-sf-ambient-adjoint-class]), and the two preservation clauses with explicit
+constants ([thm-sf-preservation-class],
+[thm-sf-ctf-stability] (v)).

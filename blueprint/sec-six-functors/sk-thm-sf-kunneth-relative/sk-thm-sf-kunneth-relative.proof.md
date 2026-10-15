@@ -12,10 +12,10 @@ $Rq_!(p^*K\otimes^Lq^*L)\cong Rq_!(p^*K)\otimes^L_\Lambda L$.
 *(3)* Base change for the Cartesian square ([sk-prop-sf-cbc]) gives
 $Rq_!(p^*K)\cong Lg^*Rf_!K$.
 *(4)* The projection formula for $g$, with $Rf_!K\in\Dctf(B,\Lambda)$ by
-[sk-thm-sf-ctf-stability] (iv), gives
+[sk-thm-sf-ctf-stability], gives
 $Rg_!\bigl(L\otimes^LLg^*Rf_!K\bigr)\cong Rg_!L\otimes^LRf_!K$. The
 reference to [sk-thm-sf-ctf-stability] is a forward one, but not circular:
-its clause (iv) is [sk-lem-sf-open-ctf] for $j_!$ and
+its $Rf_!$ clause is [sk-lem-sf-open-ctf] for $j_!$ and
 [sk-thm-sf-direct-image-tor-amplitude] ([sk-cor-sf-direct-image-ctf] on
 the pro-étale site) for the proper part, assembled along a compactification,
 and neither these nor anything they depend on uses the present theorem. The

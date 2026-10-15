@@ -2,7 +2,7 @@
 id = "sk-cor-nagata-sketch-fp"
 kind = "corollary"
 title = "Nagata for finite presentation"
-order = 377
+order = 110
 uses = ["sk-lem-nagata-sketch-closure"]
 lean = ["AlgebraicGeometry.nagataCompactification_of_locallyOfFinitePresentation"]
 tags = ["sketch"]

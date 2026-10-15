@@ -1,50 +1,38 @@
 +++
-kind  = "proof"
-of    = "sk-thm-sf-pf-adic"
+kind = "proof"
+of = "sk-thm-sf-pf-adic"
+uses = ["sk-prop-open-coefficients", "sk-cor-geo-open-finiteness", "sk-prop-proper-base-change-unbounded", "sk-prop-int-compactness", "sk-def-sfb-dc-restricted-functors", "sk-thm-sf-pf-field"]
 +++
-Write $\varpi$ for a uniformizer of $\mathcal O_E$ and
-$\rho_n=-\otimes^L_{\mathcal O_E}\mathcal O_E/\varpi^n$ for reduction, so that
-$K_n=\rho_nK$ and $L_n=\rho_nL$ are complexes of sheaves of
-$\mathcal O_E/\varpi^n$-modules, of finite Tor amplitude over
-$\mathcal O_E/\varpi^n$ because $K$ and $L$ have finite Tor amplitude over
-$\mathcal O_E$.
+The first assertion is the integral case of [sk-prop-open-coefficients]. In
+detail: $Rj_*K$ is derived complete by Stacks, Tag 099L, and
 
-*Step 1 (reduction of the projection map).* $\mathcal O_E/\varpi^n$ is the
-cone of $\varpi^n$ on $\mathcal O_E$, so $\rho_n$ is the cone of
-multiplication by $\varpi^n$; it therefore commutes with the triangulated
-functors $Rf_!$ and $Lf^*$, and with $\otimes^L$ through the monoidal
-structure of scalar extension. Under these identifications
-$\rho_n\operatorname{PF}_{f,K,L}=\operatorname{PF}_{f,K_n,L_n}$: this is the
-commutativity of the reduction square of [sk-prop-sf-pf-reduction], whose
-proof only uses the constructions of the projection map and of the
-reduction comparisons, not the boundedness or constructibility of $K$ and
-$L$.
+$$
+(Rj_*K)\otimes^{\mathbf L}_{\mathcal O_{E,X}}\mathbf F_{E,X}
+\simeq Rj_*(K\otimes^{\mathbf L}_{\mathcal O_{E,U}}\mathbf F_{E,U})
+$$
 
-*Step 2 (finite levels).* When $K_n$ and $L_n$ are bounded constructible,
-$\operatorname{PF}_{f,K_n,L_n}$ is an isomorphism for every $n$ by the
-finite-level projection formula [sk-thm-sf-pf-finite]; this is the case
-when $K$ and $L$ are derived-complete $\Dctf$-objects over $\mathcal O_E$.
+in $D(X_{\mathrm{proét}},\mathcal O_E)$, where $\mathbf F_E=\mathcal O_E/\pi_E$
+is the residue field, because reduction is a cone. The right side is bounded
+constructible by [sk-cor-geo-open-finiteness], which applies to $\mathbf F_E$
+since it is a finite free extension of $\mathbf F_\ell$, and the residue
+criterion (Stacks, Tag 09C1) gives $Rj_*K\in\Dbc(X,\mathcal O_E)$.
 
-*Step 3 (passage to the limit).* Let $C$ be the cone of
-$\operatorname{PF}_{f,K,L}$. By Steps 1 and 2,
-$\rho_nC=0$ for all $n$, i.e. multiplication by $\varpi$ is invertible on
-$C$. If both source and target of $\operatorname{PF}_{f,K,L}$ are derived
-complete, so is $C$, and a derived-complete object on which $\varpi$ is
-invertible is $0$ (its derived limit $\Rlim(\cdots\xrightarrow{\varpi}C
-\xrightarrow{\varpi}C)$ is both $C$ and $0$); hence
-$\operatorname{PF}_{f,K,L}$ is an isomorphism. For derived-complete
-$\Dctf$-objects the two sides are derived complete, being the derived limits
-of their finite reductions by the uniform-tower reconstruction
-(lem:weil-pbc-reconstruction-uniform-tower): finite Tor amplitude of a
-derived-complete object is uniform in $n$, so $Rf_!K\otimes^LL$ and
-$Rf_!(K\otimes^LLf^*L)$ have uniformly bounded constructible reductions.
+Proper base change on $\Loc(\Dctf(-,\mathcal O_E))$ is the integral case of
+[sk-prop-proper-base-change-unbounded], using the estimates of
+[sk-prop-int-compactness]. For the projection formula, let $p$ be proper,
+$K\in\Dbc(X,\mathcal O_E)$ and $L\in\Dbc(Y,\mathcal O_E)$. Both sides of
 
-*What remains for the statement as given.* The statement assumes only
-derived completeness and finite Tor amplitude, with no constructibility or
-boundedness. Then Step 2 needs the finite-level projection formula for
-unbounded, non-constructible complexes of finite Tor amplitude, and Step 3
-needs the derived completeness of $Rf_!K\otimes^LL$ and of
-$Rf_!(K\otimes^LLf^*L)$; the derived tensor product of two derived-complete
-objects need not be derived complete, and $j_!$ need not preserve derived
-completeness. Neither input is available in the blueprint, so in this
-generality the argument above is incomplete.
+$$
+Rp_*K\otimes^{\mathbf L}L\longrightarrow Rp_*(K\otimes^{\mathbf L}p^*L)
+\quad\text{in }D(Y_{\mathrm{proét}},\mathcal O_E)
+$$
+
+are derived complete, by [sk-def-sfb-dc-restricted-functors] and proper
+finiteness. Its reduction modulo $\pi_E$ is the torsion projection formula map
+in $D(Y_{\mathrm{proét}},\mathbf F_E)$, an isomorphism by Stacks, Tag 0F0G. The
+cone is derived complete with zero reduction modulo $\pi_E$, so it vanishes by
+derived Nakayama (Stacks, Tag 099I). The categories $\Loc(\Dbc(-,\mathcal O_E))$
+are closed under $\otimes^{\mathbf L}$ by [sk-def-sfb-dc-restricted-functors]
+and the two-variable localizing argument, and $Rp_*$ preserves direct sums
+there, so the localizing argument of [sk-thm-sf-pf-field] extends the
+projection formula to all of $\Loc(\Dbc(-,\mathcal O_E))$.

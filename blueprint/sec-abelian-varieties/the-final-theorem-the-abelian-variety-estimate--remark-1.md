@@ -1,7 +1,7 @@
 +++
 id = "the-final-theorem-the-abelian-variety-estimate--remark-1"
 kind = "remark"
-order = 601
+order = 564
 +++
 *Where this feeds in.*
 
