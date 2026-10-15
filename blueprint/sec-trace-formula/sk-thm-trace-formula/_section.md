@@ -11,11 +11,9 @@ Let $\Omega$ be an algebraically closed field, $s=\operatorname{Spec}\Omega$, an
 let $X_0$ be a separated scheme of finite type over a finite field $\mathbf F_q$
 with $X=X_0\times_{\mathbf F_q}\Omega$ compactifiable over $s$. For every Weil
 datum $(K,\varphi)$ on $X$ (model Frobenius, $K\in D^b_{ctf}(X,A)$, $\varphi$
-invertible) and every $m\ge1$, assume that $\Phi_m$ is proper, that
-$R\Gamma_c(X,K)$ and every geometric stalk $K_{\bar x}$ are perfect (dualizable),
-and that $\Phi_m$ has finitely many fixed points $\bar x:s\to X$ over $s$; these
-are the points of $X_0(\mathbf F_{q^m})$. Then, with
-compact cohomology and ordinary traces,
+invertible) and every $m\ge1$, the fixed points $\bar x:s\to X$ of $\Phi_m$
+over $s$ are the points of $X_0(\mathbf F_{q^m})$, and, with compact cohomology
+and ordinary traces,
 
 $$
 \boxed{\tr_A(F_{c,m}\mid R\Gamma_c(X,K))
