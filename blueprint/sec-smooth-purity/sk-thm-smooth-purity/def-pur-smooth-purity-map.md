@@ -1,27 +1,14 @@
 +++
 id = "def-pur-smooth-purity-map"
 kind = "definition"
-title = "Smooth purity map"
+title = "The smooth purity isomorphism for an arbitrary coefficient object"
 order = 2356
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-cohomological-smoothness"]
+uses = ["pur9-cs-def-phi", "sk-prop-cohsm"]
 +++
-Work in the purity conventions of [def-pur-conventions], let
-$A=A_{E,n}$, let $f:X\to Y$ be smooth,
-separated, of pure
-relative dimension $d$, and let $K\in D^b_{ctf}(Y,\Lambda)$. The
-*smooth purity map* is the composite
+Under the hypotheses of Theorem “Finite-coefficient smooth purity” (`pur9-thm-smooth-purity`) and Lemma “Tensor formula for smooth morphisms” (`pur9-cs-lem-tensor-formula`, in [sk-prop-cohsm]), for $K\in D^b_{ctf}(Y_{\Proet},\mathcal O_E/\varpi^n)$ let
 
 $$
-\gamma_{f,K}:\;
-Lf^*K(d)[2d]
-\xrightarrow{\ \sim\ }
-Lf^*K\otimes^L_{\Lambda_X}\Lambda_X(d)[2d]
-\xrightarrow{\ \sim\ }
-Lf^*K\otimes^L_{\Lambda_X}\omega_f
-\xrightarrow{\ \sim\ }
-Rf^!K,
+\gamma^{\mathrm{sm}}_{f,K}:Lf^*_{\mathcal O_E/\varpi^n}K\otimes^L_{\mathcal O_E/\varpi^n}(\mathcal O_E/\varpi^n)_X(d)[2d]\xrightarrow{1\otimes\Pi_f^{-1}}Lf^*_{\mathcal O_E/\varpi^n}K\otimes^L_{\mathcal O_E/\varpi^n}\omega_f\xrightarrow{\varphi_{f,K}}Rf^!_{\mathcal O_E/\varpi^n}K,
 $$
 
-the first isomorphism being the canonical twist reassociation of
-[def-coefficient-twists-detailed], and the
-third the tensor formula of [thm-pur-cohomological-smoothness].
+with $\Pi_f$ of Theorem “Finite-coefficient smooth purity” (`pur9-thm-smooth-purity`) and $\varphi$ of Definition [pur9-cs-def-phi].
