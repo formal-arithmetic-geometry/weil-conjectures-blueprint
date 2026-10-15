@@ -2,7 +2,7 @@
 id = "sk-def-conv"
 kind = "definition"
 title = "Scheme and morphism conventions"
-order = 100
+order = 119
 lean = ["AlgebraicGeometry.IsProper", "AlgebraicGeometry.IsFinite", "AlgebraicGeometry.IsImmersion", "AlgebraicGeometry.Etale"]
 tags = ["sketch"]
 +++

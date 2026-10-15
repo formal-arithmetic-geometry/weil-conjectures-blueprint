@@ -2,8 +2,8 @@
 id = "sk-def-sp-scalar-extension"
 kind = "definition"
 title = "Extension of coefficients"
-order = 1831
-uses = ["sk-lem-sf-flat-model", "sk-def-sfb-coefficient-comparisons"]
+order = 1822
+uses = ["sk-lem-sf-flat-model", "sk-prop-scalar-six"]
 tags = ["sketch"]
 +++
 Let $A\to B$ be a map of finite commutative rings, each killed by a power of

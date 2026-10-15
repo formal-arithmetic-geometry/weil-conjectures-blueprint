@@ -2,7 +2,7 @@
 id = "sk-lem-sp-tower-levels"
 kind = "lemma"
 title = "Levels of the tower direct image"
-order = 1836
+order = 1827
 uses = ["sk-def-sp-coefficient-towers"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-prop-sp-tensor"
 kind = "proposition"
 title = "The tensor formula"
-order = 1826
+order = 1817
 uses = ["sk-prop-cohsm", "sk-lem-sp-finite-existence", "sk-def-sp-dualizing"]
 tags = ["sketch"]
 +++

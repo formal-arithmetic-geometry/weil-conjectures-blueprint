@@ -2,7 +2,7 @@
 id = "sk-prop-pe-unbounded-classical"
 kind = "proposition"
 title = "Unbounded comparison for finite coefficients"
-order = 1541
+order = 1508
 uses = ["sk-def-cd", "sk-lem-base-field-cd", "sk-prop-sf-comparison", "sk-thm-pe-direct-image-comparison", "sk-prop-pe-left-complete", "sk-prop-pe-milnor"]
 tags = ["sketch"]
 +++

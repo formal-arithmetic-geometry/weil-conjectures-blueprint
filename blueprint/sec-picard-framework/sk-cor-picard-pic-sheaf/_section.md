@@ -2,7 +2,7 @@
 id = "sk-cor-picard-pic-sheaf"
 kind = "corollary"
 title = "Picard functor is an fppf sheaf"
-order = 720
+order = 732
 uses = ["sk-def-picard-pic", "sk-thm-picard-descent"]
 lean = ["AlgebraicGeometry.isSheaf_picardFunctorNormalized"]
 tags = ["sketch"]

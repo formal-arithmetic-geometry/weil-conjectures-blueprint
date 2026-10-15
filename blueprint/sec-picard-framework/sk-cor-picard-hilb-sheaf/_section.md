@@ -2,7 +2,7 @@
 id = "sk-cor-picard-hilb-sheaf"
 kind = "corollary"
 title = "Hilbert functor is the fppf sheaf"
-order = 717
+order = 729
 uses = ["sk-def-av-jacobian", "sk-thm-picard-descent"]
 lean = ["AlgebraicGeometry.isSheaf_hilbertPresheaf"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-the-hilbert-functor--definition-1"
 kind = "definition"
 title = "Hilbert functor"
-order = 716
+order = 728
 uses = ["sk-def-av-jacobian"]
 lean = ["AlgebraicGeometry.hilbertPresheaf"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-prop-sp-rational"
 kind = "proposition"
 title = "Smooth purity with coefficients $E$"
-order = 1841
+order = 1832
 uses = ["sk-prop-sp-integral-adjunction", "sk-lem-int-ext", "sk-lem-integral-models", "sk-lem-bounded-continuity", "sk-prop-sp-unique-adjoint"]
 tags = ["sketch"]
 +++

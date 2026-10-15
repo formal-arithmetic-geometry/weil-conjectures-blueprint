@@ -2,7 +2,7 @@
 id = "sk-lem-integral-models"
 kind = "lemma"
 title = "Integral models"
-order = 1564
+order = 1519
 uses = ["sk-prop-integral-criterion", "sk-prop-sfb-cartesian-coefficients", "sk-lem-coefficient-finite-descent", "sk-cor-coefficient-heart-ii", "sk-lem-stratified-lattice", "sk-def-sfb-dc-restricted-functors"]
 tags = ["sketch"]
 +++

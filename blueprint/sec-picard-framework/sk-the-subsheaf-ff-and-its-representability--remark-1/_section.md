@@ -2,7 +2,7 @@
 id = "sk-the-subsheaf-ff-and-its-representability--remark-1"
 kind = "proposition"
 title = "$F$ is a subfunctor of the Hilbert functor"
-order = 724
+order = 736
 uses = ["sk-def-picard-f", "sk-the-hilbert-functor--definition-1", "sk-lem-picard-zero-dictionary"]
 lean = ["AlgebraicGeometry.exists_injective_natTrans_hilbertPresheaf"]
 tags = ["sketch"]

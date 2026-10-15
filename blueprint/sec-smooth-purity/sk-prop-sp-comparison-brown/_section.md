@@ -2,8 +2,8 @@
 id = "sk-prop-sp-comparison-brown"
 kind = "proposition"
 title = "Smooth purity for $f^!$"
-order = 1849
-uses = ["sk-prop-sf-existence", "sk-def-sfb-dc-upper-shriek", "sk-thm-smooth-purity", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-prop-sp-unique-adjoint"]
+order = 1841
+uses = ["sk-prop-sf-existence", "sk-thm-existence", "sk-thm-smooth-purity", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-prop-sp-unique-adjoint"]
 tags = ["sketch"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$ and let $\Lambda$ be any

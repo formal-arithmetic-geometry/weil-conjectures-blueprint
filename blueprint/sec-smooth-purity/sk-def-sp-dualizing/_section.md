@@ -2,8 +2,8 @@
 id = "sk-def-sp-dualizing"
 kind = "definition"
 title = "Relative dualizing complex"
-order = 1820
-uses = ["sk-prop-sf-existence", "sk-def-sfb-dc-upper-shriek"]
+order = 1811
+uses = ["sk-prop-sf-existence", "sk-thm-existence"]
 tags = ["sketch"]
 +++
 For smooth $f:X\to Y$ and any admissible $\Lambda$, the *relative dualizing

@@ -2,7 +2,7 @@
 id = "sk-thm-constructible-compactness"
 kind = "theorem"
 title = "Compactness with rational coefficients"
-order = 1572
+order = 1527
 uses = ["sk-cor-ambient-ind-derived", "sk-def-localizing-closure"]
 tags = ["sketch"]
 +++

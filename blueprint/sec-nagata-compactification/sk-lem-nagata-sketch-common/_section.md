@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-common"
 kind = "lemma"
 title = "Separated common modification of two opens"
-order = 16
+order = 15
 uses = ["sk-def-nagata-admissible"]
 lean = ["AlgebraicGeometry.nonempty_commonModification"]
 tags = ["sketch"]

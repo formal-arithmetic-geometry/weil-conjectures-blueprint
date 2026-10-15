@@ -2,7 +2,7 @@
 id = "sk-lem-sp-p1"
 kind = "lemma"
 title = "The projective-line adjunction"
-order = 1821
+order = 1812
 uses = ["sk-prop-geo-p1-adjunction", "sk-lem-geo-p1-cohomology", "sk-lem-geo-cartier"]
 tags = ["sketch"]
 +++

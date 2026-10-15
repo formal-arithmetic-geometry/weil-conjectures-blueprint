@@ -9,7 +9,7 @@ is a compactification, with $j=\mathrm{id}$ and $j_!=\mathrm{id}$. Hence $Rp_!\c
 $\Loc(\Dctf(X,\Lambda))$; in particular $Rp_*$ maps $\Loc(\Dctf(X,\Lambda))$ into
 $\Loc(\Dctf(Y,\Lambda))$.
 
-(2) By [sk-def-sfb-dc-upper-shriek] (2), $Rp_!\cong Rp_*$ maps $\Dctf(X,\Lambda)$ into
+(2) By [sk-thm-existence] (2), $Rp_!\cong Rp_*$ maps $\Dctf(X,\Lambda)$ into
 $\Dctf(Y,\Lambda)$; by (4), $p^!$ maps $\Dctf(Y,\Lambda)$ into $\Dctf(X,\Lambda)$. Both
 $\Dctf$ categories are full subcategories of the localizing closures. So for
 $K\in\Dctf(X,\Lambda)$ and $L\in\Dctf(Y,\Lambda)$ the adjunction bijection

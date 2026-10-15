@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-chow-projective"
-uses = ["sk-thm-chow", "sk-prop-nagata-sketch-envelope", "sk-prop-nagata-sketch-approximation", "sk-prop-nagata-sketch-fp-models"]
+uses = ["thm-chow-lemma", "sk-prop-nagata-sketch-envelope", "sk-prop-nagata-sketch-approximation", "sk-prop-nagata-sketch-fp-models"]
 +++
 The version of Chow's lemma in Stacks 0202 gives a proper surjection
 $\pi:\widetilde X\to X$ and an immersion $i_S:\widetilde X\to\mathbf P^n_S$
@@ -22,7 +22,7 @@ The first arrow is closed because $X\to S$ is separated, and the second is
 closed because $i_S$ is. Their composite is $i_X$.
 
 The form of Chow's lemma used here follows from the Noetherian one
-([sk-thm-chow]), even when $X\to S$ is not of finite presentation. Embed $X$
+([thm-chow-lemma]), even when $X\to S$ is not of finite presentation. Embed $X$
 as a closed subscheme of a separated finitely presented $X_0$ by Stacks 01ZJ
 ([sk-prop-nagata-sketch-envelope]). Descend $X_0$ to a Noetherian stage
 ([sk-prop-nagata-sketch-approximation], [sk-prop-nagata-sketch-fp-models]),

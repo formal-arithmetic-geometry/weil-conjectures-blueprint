@@ -2,7 +2,7 @@
 id = "sk-prop-nagata-sketch-prepared"
 kind = "proposition"
 title = "Prepared sides"
-order = 105
+order = 124
 uses = ["sk-lem-nagata-sketch-closure"]
 lean = ["AlgebraicGeometry.exists_prepared_twoOpenSide"]
 tags = ["sketch"]

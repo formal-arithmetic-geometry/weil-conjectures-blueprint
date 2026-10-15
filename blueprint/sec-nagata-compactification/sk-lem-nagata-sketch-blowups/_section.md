@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-blowups"
 kind = "lemma"
 title = "Finite refinements of blow-ups"
-order = 10
+order = 9
 uses = ["sk-def-nagata-sketch-data", "sk-def-nagata-admissible"]
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isProper_blowupMap", "AlgebraicGeometry.strictTransform", "AlgebraicGeometry.IsAdmissible.exists_extend", "AlgebraicGeometry.IsAdmissible.isSchemeTheoreticallyDominant_preimage_ι"]
 tags = ["sketch"]

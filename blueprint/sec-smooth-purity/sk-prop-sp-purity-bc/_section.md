@@ -2,7 +2,7 @@
 id = "sk-prop-sp-purity-bc"
 kind = "proposition"
 title = "Base change of purity"
-order = 1844
+order = 1835
 uses = ["sk-prop-sp-exceptional-bc", "sk-thm-smooth-purity", "sk-prop-sp-tower-geometric", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-lem-sp-reduction"]
 tags = ["sketch"]
 +++

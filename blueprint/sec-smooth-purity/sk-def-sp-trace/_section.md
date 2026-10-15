@@ -2,7 +2,7 @@
 id = "sk-def-sp-trace"
 kind = "definition"
 title = "Smooth trace"
-order = 1846
+order = 1837
 uses = ["sk-thm-smooth-purity", "sk-thm-purity-transport"]
 tags = ["sketch"]
 +++

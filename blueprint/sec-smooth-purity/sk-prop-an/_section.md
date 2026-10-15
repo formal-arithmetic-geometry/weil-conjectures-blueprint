@@ -2,7 +2,7 @@
 id = "sk-prop-an"
 kind = "proposition"
 title = "Vector-bundle purity"
-order = 1825
+order = 1816
 uses = ["sk-def-purity-conv", "sk-lem-sf-mate", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-a1-kummer", "sk-prop-cd", "sk-prop-h2", "sk-prop-sf-cbc", "sk-prop-sf-open-closed-triangle", "sk-thm-properbasechange", "sk-lem-sp-p1", "sk-lem-sp-finite-existence"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpaceZero"]
 tags = ["sketch"]

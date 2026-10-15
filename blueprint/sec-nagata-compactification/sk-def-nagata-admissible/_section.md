@@ -2,7 +2,7 @@
 id = "sk-def-nagata-admissible"
 kind = "definition"
 title = "Admissible blow-up"
-order = 8
+order = 7
 tags = ["sketch"]
 +++
 Let $T$ be quasi-compact and quasi-separated and $U\subseteq T$ a

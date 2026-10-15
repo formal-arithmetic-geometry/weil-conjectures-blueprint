@@ -2,7 +2,7 @@
 id = "sk-rem-nagata-closure-scope"
 kind = "remark"
 title = "Scope of the normalization to the schematic closure"
-order = 5
+order = 4
 tags = ["sketch"]
 +++
 The same normalization proof as in [sk-lem-nagata-density-normalization]

@@ -3,7 +3,7 @@ id = "sk-def-av"
 kind = "definition"
 title = "Abelian varieties"
 lean = ["AlgebraicGeometry.IsAbelianVariety"]
-order = 528
+order = 530
 tags = ["sketch"]
 +++
 An *abelian variety* over $k$ is a group scheme $A$ over $k$

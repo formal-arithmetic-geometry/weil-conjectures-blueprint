@@ -2,7 +2,7 @@
 id = "sk-thm-picard-semicon"
 kind = "theorem"
 title = "Semicontinuity and base change"
-order = 711
+order = 723
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.Scheme.Modules.upperSemicontinuous_hFiber"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-prop-h1"
 kind = "proposition"
 title = "$H^1$ via Kummer"
-order = 987
+order = 1001
 uses = ["sk-def-kummer", "sk-def-pic", "sk-prop-kummer-exact"]
 lean = ["AlgebraicGeometry.Scheme.exists_exact_sheafH_rootsOfUnitySheaf_one"]
 tags = ["sketch"]

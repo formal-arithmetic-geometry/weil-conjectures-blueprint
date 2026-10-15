@@ -2,7 +2,7 @@
 id = "sk-prop-ctf-finite-comparison"
 kind = "proposition"
 title = "Comparison with the étale derived category"
-order = 1581
+order = 1540
 uses = ["sk-cor-pe-finite-tor-comparison", "sk-prop-pe-unbounded-classical", "sk-def-localizing-closure"]
 tags = ["sketch"]
 +++

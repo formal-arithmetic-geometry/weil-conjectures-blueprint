@@ -2,7 +2,7 @@
 id = "sk-prop-picard-schemes-criterion"
 kind = "proposition"
 title = "The general representability criterion"
-order = 718
+order = 730
 uses = ["sk-def-av-jacobian"]
 lean = ["AlgebraicGeometry.Scheme.LocalRepresentability.isRepresentable"]
 tags = ["sketch"]

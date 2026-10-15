@@ -3,7 +3,7 @@ id = "sk-def-av-pic"
 kind = "definition"
 title = "$\\Pic$, degree, $\\Pic^0$"
 lean = ["AlgebraicGeometry.Scheme.Pic", "AlgebraicGeometry.Scheme.Hom.picZero"]
-order = 532
+order = 534
 uses = ["sec-nagata-compactification", "sk-def-curve"]
 tags = ["sketch"]
 +++

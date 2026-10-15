@@ -2,7 +2,7 @@
 id = "sk-lem-proper-heart-continuity"
 kind = "lemma"
 title = "Cohomology commutes with filtered colimits"
-order = 1574
+order = 1529
 uses = ["sk-cor-pe-wc-sections", "sk-prop-pe-hypercover", "sk-cor-pe-sections"]
 tags = ["sketch"]
 +++

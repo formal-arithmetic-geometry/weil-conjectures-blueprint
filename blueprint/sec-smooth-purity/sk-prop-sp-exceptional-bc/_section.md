@@ -2,7 +2,7 @@
 id = "sk-prop-sp-exceptional-bc"
 kind = "proposition"
 title = "Exceptional base change for a smooth map"
-order = 1827
+order = 1818
 uses = ["sk-prop-cohsm", "sk-prop-sp-tensor"]
 tags = ["sketch"]
 +++

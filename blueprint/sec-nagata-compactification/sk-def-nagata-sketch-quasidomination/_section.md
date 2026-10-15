@@ -2,7 +2,7 @@
 id = "sk-def-nagata-sketch-quasidomination"
 kind = "definition"
 title = "Quasi-domination"
-order = 101
+order = 120
 lean = ["AlgebraicGeometry.QuasiDomination"]
 tags = ["sketch"]
 +++

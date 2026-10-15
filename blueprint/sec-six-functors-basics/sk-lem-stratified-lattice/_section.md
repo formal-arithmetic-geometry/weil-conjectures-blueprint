@@ -2,7 +2,7 @@
 id = "sk-lem-stratified-lattice"
 kind = "lemma"
 title = "Lattices after a finite stratification"
-order = 1563
+order = 1518
 uses = ["sk-lem-coefficient-heart", "sk-prop-sfb-qlbar-colimit-x"]
 tags = ["sketch"]
 +++

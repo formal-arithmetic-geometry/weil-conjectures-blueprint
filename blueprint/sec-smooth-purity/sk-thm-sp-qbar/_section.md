@@ -2,7 +2,7 @@
 id = "sk-thm-sp-qbar"
 kind = "theorem"
 title = "Smooth purity with algebraically closed coefficients"
-order = 1843
+order = 1834
 uses = ["sk-prop-sp-rational", "sk-lem-sp-field-extension", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-sf-comp-coherence", "sk-prop-sp-unique-adjoint"]
 tags = ["sketch"]
 +++

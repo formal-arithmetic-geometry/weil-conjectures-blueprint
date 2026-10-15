@@ -2,7 +2,7 @@
 id = "sk-lem-proper-unbounded-window-ii"
 kind = "lemma"
 title = "Proper direct image preserves direct sums"
-order = 1577
+order = 1532
 uses = ["sk-lem-proper-unbounded-window", "sk-lem-proper-heart-bound"]
 tags = ["sketch"]
 +++

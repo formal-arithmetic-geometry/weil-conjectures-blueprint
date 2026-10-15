@@ -3,7 +3,7 @@ id = "sk-prop-av-tate-rank"
 kind = "proposition"
 title = "The $\\ell$-adic Tate module is free of rank $2g$"
 lean = ["AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule"]
-order = 562
+order = 564
 uses = ["sk-def-av", "sk-def-av-tate", "sk-prop-av-ntorsion-etale"]
 tags = ["sketch"]
 +++

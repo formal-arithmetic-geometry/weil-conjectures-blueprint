@@ -2,7 +2,7 @@
 id = "sk-lem-picard-f-open"
 kind = "lemma"
 title = "$F$ is an open subfunctor"
-order = 722
+order = 734
 uses = ["sk-def-av-jacobian", "sk-def-av-pic"]
 lean = ["AlgebraicGeometry.isOpenImmersion_picardFunctorInvertibleDirectImage_ι"]
 tags = ["sketch"]

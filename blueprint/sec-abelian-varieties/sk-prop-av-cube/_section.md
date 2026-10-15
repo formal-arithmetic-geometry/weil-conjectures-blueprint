@@ -3,7 +3,7 @@ id = "sk-prop-av-cube"
 kind = "proposition"
 title = "The theorem of the cube"
 lean = ["AlgebraicGeometry.nonempty_iso_cube"]
-order = 540
+order = 542
 uses = ["sk-def-av", "sk-def-av-pic"]
 tags = ["sketch"]
 +++

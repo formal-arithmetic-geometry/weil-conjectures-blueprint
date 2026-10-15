@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-lem-curve-finite-support"
-uses = ["sk-lem-pbc-finite", "sk-prop-sf-comparison"]
+uses = ["sk-prop-sf-comparison"]
 +++
 Work first on the étale sites. Over a strict localization of $C$, a finite
 scheme is a finite disjoint union of strictly henselian local schemes. Every

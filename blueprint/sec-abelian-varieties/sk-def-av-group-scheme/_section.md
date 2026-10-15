@@ -3,7 +3,7 @@ id = "sk-def-av-group-scheme"
 kind = "definition"
 title = "Group schemes, order, and étaleness"
 lean = ["CategoryTheory.GrpObj.ker", "AlgebraicGeometry.Scheme.Hom.finrankΓ"]
-order = 527
+order = 529
 tags = ["sketch"]
 +++
 Let $k$ be a field. A *group scheme* over $k$ is a group object

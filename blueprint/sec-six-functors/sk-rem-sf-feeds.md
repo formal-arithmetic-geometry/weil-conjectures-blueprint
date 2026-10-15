@@ -2,7 +2,7 @@
 id = "sk-rem-sf-feeds"
 kind = "remark"
 title = "Where this feeds"
-order = 2528
+order = 2526
 tags = ["sketch"]
 +++
 The package [sk-thm-sf-package] is consumed as follows. The smooth-purity

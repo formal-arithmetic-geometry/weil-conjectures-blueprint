@@ -3,7 +3,7 @@ id = "sec-algebraic-groups-lie-algebras"
 kind = "section"
 title = "Algebraic Groups and Lie Algebras"
 order = 2801
-uses = ["sec-abelian-varieties", "sec-trace-formula"]
+uses = ["sec-abelian-varieties", "sec-proetale-coefficients", "sec-trace-formula"]
 +++
 **Content.** This section supplies the group theory and linear algebra behind
 the weight arguments of the purity and Deligne–Laumon sections. Over an

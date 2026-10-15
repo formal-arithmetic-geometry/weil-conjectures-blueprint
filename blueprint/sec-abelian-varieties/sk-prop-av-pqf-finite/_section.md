@@ -3,7 +3,7 @@ id = "sk-prop-av-pqf-finite"
 kind = "proposition"
 title = "Proper and quasi-finite implies finite"
 lean = ["AlgebraicGeometry.IsFinite.of_isProper_of_locallyQuasiFinite"]
-order = 548
+order = 550
 uses = ["sk-def-av"]
 tags = ["sketch"]
 +++

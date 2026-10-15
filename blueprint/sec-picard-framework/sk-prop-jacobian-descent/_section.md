@@ -2,7 +2,7 @@
 id = "sk-prop-jacobian-descent"
 kind = "proposition"
 title = "The Jacobian over a general base field, by Galois descent"
-order = 729
+order = 741
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-picard-pic", "sk-prop-av-projective", "sk-prop-picard-degree-decomposition", "sk-prop-picard-pic-split", "sk-thm-picard-main"]
 lean = ["AlgebraicGeometry.exists_jacobian_descent"]
 tags = ["sketch"]

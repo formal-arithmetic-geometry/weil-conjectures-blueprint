@@ -2,7 +2,7 @@
 id = "sk-thm-purity-transport"
 kind = "theorem"
 title = "Smooth purity for all admissible coefficients"
-order = 1819
+order = 1810
 uses = ["sk-def-purity-conv", "sk-lem-sf-flat-model", "sk-prop-a1", "sk-prop-cohsm", "sk-thm-smooth-purity", "sk-prop-sf-existence"]
 lean = ["AlgebraicGeometry.Etale.derivedCompleteIntegral_rightDerivedUpperShriek"]
 tags = ["sketch"]

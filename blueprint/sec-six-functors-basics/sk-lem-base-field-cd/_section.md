@@ -2,7 +2,7 @@
 id = "sk-lem-base-field-cd"
 kind = "lemma"
 title = "Cohomological dimension of the base field"
-order = 1540
+order = 1507
 uses = ["sk-def-cd"]
 tags = ["sketch"]
 +++

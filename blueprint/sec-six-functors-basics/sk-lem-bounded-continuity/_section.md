@@ -2,7 +2,7 @@
 id = "sk-lem-bounded-continuity"
 kind = "lemma"
 title = "Continuity of cohomology"
-order = 1559
+order = 1514
 uses = ["sk-prop-pe-hypercover", "sk-cor-pe-sections"]
 tags = ["sketch"]
 +++

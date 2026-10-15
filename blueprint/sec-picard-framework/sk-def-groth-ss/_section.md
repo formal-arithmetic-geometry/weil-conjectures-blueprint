@@ -2,7 +2,7 @@
 id = "sk-def-groth-ss"
 kind = "definition"
 title = "Composable pair with acyclicity; the couple of a double complex"
-order = 702
+order = 714
 lean = ["CategoryTheory.Functor.IsAcyclicComposablePair", "CategoryTheory.SpectralSequence.Abutment"]
 tags = ["sketch"]
 +++

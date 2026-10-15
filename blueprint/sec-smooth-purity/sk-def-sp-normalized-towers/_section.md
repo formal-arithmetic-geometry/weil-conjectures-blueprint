@@ -2,7 +2,7 @@
 id = "sk-def-sp-normalized-towers"
 kind = "definition"
 title = "Constructible and normalized towers"
-order = 1834
+order = 1825
 uses = ["sk-def-sp-coefficient-towers"]
 tags = ["sketch"]
 +++

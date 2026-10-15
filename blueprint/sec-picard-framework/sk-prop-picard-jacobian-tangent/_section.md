@@ -2,7 +2,7 @@
 id = "sk-prop-picard-jacobian-tangent"
 kind = "proposition"
 title = "The tangent space of the Jacobian"
-order = 727
+order = 739
 uses = ["sk-def-av-jacobian", "sk-def-picard-pic", "sk-lem-picard-cech-computes", "sk-prop-picard-degree-decomposition"]
 lean = ["AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one"]
 tags = ["sketch"]

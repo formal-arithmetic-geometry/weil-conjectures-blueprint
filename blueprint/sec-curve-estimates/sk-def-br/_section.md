@@ -2,7 +2,7 @@
 id = "sk-def-br"
 kind = "definition"
 title = "Brauer group"
-order = 982
+order = 996
 uses = ["sec-abelian-varieties", "sk-def-curve", "sk-prop-hilbert90"]
 lean = ["AlgebraicGeometry.Scheme.CohomologicalBrauerGroup"]
 tags = ["sketch"]

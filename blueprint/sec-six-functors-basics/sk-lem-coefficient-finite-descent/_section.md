@@ -2,8 +2,8 @@
 id = "sk-lem-coefficient-finite-descent"
 kind = "lemma"
 title = "Descent to a finite coefficient field"
-order = 1562
-uses = ["sk-prop-sfb-qlbar-colimit-x", "sk-lem-coefficient-heart", "sk-lem-constructible-ext-continuity", "sk-prop-sfb-finite-extension-compatibility", "sk-thm-sfb-qlbar-two-colimit"]
+order = 1517
+uses = ["sk-prop-sfb-qlbar-colimit-x", "sk-lem-coefficient-heart", "sk-lem-constructible-ext-continuity", "sk-prop-sfb-finite-extension-compatibility"]
 tags = ["sketch"]
 +++
 The coefficient ring $\Qlb$ is a filtered union of the fields $E$, but integral lattices exist

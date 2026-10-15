@@ -2,7 +2,7 @@
 id = "sk-thm-sf-kunneth-verdier"
 kind = "theorem"
 title = "Künneth–Verdier isomorphism"
-order = 2519
+order = 2517
 uses = ["sk-def-sf-kv-maps", "sk-def-sf-operations", "sk-lem-sf-ctf-generation", "sk-lem-sf-kunneth-star", "sk-lem-sf-mate", "sk-prop-sf-biduality-general", "sk-prop-sf-closed-unit", "sk-prop-sf-dualizable-biduality", "sk-prop-sf-localization", "sk-prop-sf-open-closed-triangle", "sk-thm-regular", "sk-thm-sf-ctf-stability", "sk-thm-sf-tensor-hom", "sk-thm-smooth-purity"]
 lean = ["AlgebraicGeometry.Etale.hasKunnethComparisons"]
 tags = ["sketch"]

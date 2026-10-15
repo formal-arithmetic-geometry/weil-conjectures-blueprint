@@ -3,7 +3,7 @@ id = "sec-deligne-laumon-general"
 kind = "section"
 title = "Deligne–Laumon: Reduction to the Affine Line"
 order = 3153
-uses = ["sec-algebraic-groups-lie-algebras", "sec-deligne-laumon-a1", "sec-purity-real-sheaves", "sec-six-functors", "sec-smooth-purity", "sec-trace-formula"]
+uses = ["sec-algebraic-groups-lie-algebras", "sec-deligne-laumon-a1", "sec-proetale-coefficients", "sec-purity-real-sheaves", "sec-six-functors", "sec-smooth-purity", "sec-trace-formula"]
 +++
 **Content.** This section proves Deligne's main theorem of Weil II in
 Laumon's form: for a separated finite-type morphism $f_0$ over

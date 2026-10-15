@@ -2,7 +2,7 @@
 id = "sk-prop-sf-closed-unit"
 kind = "proposition"
 title = "Closed-immersion unit"
-order = 1918
+order = 1944
 uses = ["sk-def-sf-operations", "sk-prop-sf-existence"]
 lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekAdjunction_unit_app"]
 tags = ["sketch"]

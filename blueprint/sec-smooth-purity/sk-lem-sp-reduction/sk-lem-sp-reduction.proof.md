@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-lem-sp-reduction"
-uses = ["sk-lem-sf-flat-model", "sk-def-sfb-coefficient-comparisons", "sk-lem-sp-finite-existence", "sk-prop-geo-p1-adjunction"]
+uses = ["sk-lem-sf-flat-model", "sk-prop-scalar-six", "sk-lem-sp-finite-existence", "sk-prop-geo-p1-adjunction"]
 +++
 For $b$, use one compactification $f=\bar f\circ j$ for both rings. Extension
 by zero commutes with $-\otimes^{\mathbf L}_AB$. For $R\bar f_*$, take a
@@ -10,7 +10,7 @@ may be infinite to the left. Represent $M$ by the bounded flat constructible
 model of [sk-lem-sf-flat-model]. The comparison is an isomorphism on each
 free term, and the cohomological bound $\operatorname{cd}_\ell(\bar f)$ gives a
 finite window in every total degree. As in the scalar projection argument of
-[sk-def-sfb-coefficient-comparisons], this applies to every $B$, whatever its
+[sk-prop-scalar-six], this applies to every $B$, whatever its
 projective dimension over $A$. Associativity gives compatibility with a second
 map $B\to C$.
 

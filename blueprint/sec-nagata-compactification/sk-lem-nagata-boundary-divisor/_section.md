@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-boundary-divisor"
 kind = "lemma"
 title = "Making an open schematically dense"
-order = 9
+order = 8
 uses = ["sk-def-nagata-admissible"]
 tags = ["sketch"]
 +++

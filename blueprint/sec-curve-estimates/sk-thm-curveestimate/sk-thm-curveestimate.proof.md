@@ -30,7 +30,7 @@ $$
 $$
 
 Multiplication by $n$ on $J(k)$ is surjective, with kernel $J[n](k)$, and
-$J[n]$ is finite étale of rank $n^{2g}$ ([sk-prop-av-ntorsion-etale]). The
+$J[n]$ is finite étale of rank $n^{2g}$ ([sk-cor-jacobian-torsion]). The
 snake lemma gives the two identifications asserted above, and $J[n](k)$ is
 noncanonically isomorphic to $(\Z/n)^{2g}$. This is the calculation of
 (Stacks, Tag 03RQ).

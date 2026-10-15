@@ -2,7 +2,7 @@
 id = "sk-def-sfb-module-derived-pushpull"
 kind = "definition"
 title = "Derived pushforward and pullback of module objects"
-order = 1633
+order = 1688
 uses = ["sk-def-sfb-derived-categories"]
 lean = ["CategoryTheory.Functor.rightDerivedFunctorPlus", "AlgebraicGeometry.ProEtale.CondensedRing.preservesKFlatQuasiIso_upperStar", "CategoryTheory.Adjunction.derivedAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarLowerStarAdjunction"]
 tags = ["sketch"]

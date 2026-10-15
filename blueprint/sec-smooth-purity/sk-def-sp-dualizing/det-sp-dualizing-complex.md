@@ -2,7 +2,7 @@
 id = "det-sp-dualizing-complex"
 kind = "definition"
 title = "The relative dualizing complex: data and well-definedness"
-uses = ["det-sf-existence-brown", "det-sf-mate-open-restriction", "sk-def-sfb-dc-upper-shriek", "sk-prop-sp-et-proet"]
+uses = ["det-sf-existence-brown", "det-sf-mate-open-restriction", "sk-thm-existence", "sk-prop-sp-et-proet"]
 +++
 Let $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\Qlb\}$ be admissible and let $f:X\to Y$
 be a smooth separated morphism of finite type between standing schemes, of
@@ -26,7 +26,7 @@ single stratum $Y$) and of Tor amplitude $[0,0]$ (for $\mathcal O_E$, $E$ and
 $\Qlb$, $\Dctf=\Dbc$ and only constructibility is required);
 - $\omega_{f,\Lambda}$ lies in $\Dctf(X,\Lambda)$ because $f^!_\Lambda$ carries
 $\Dctf(Y,\Lambda)$ into $\Dctf(X,\Lambda)$ (the restriction theorem recorded in
-[sk-def-sfb-dc-upper-shriek]);
+[sk-thm-existence]);
 - the pair $(\omega_{f,\Lambda},\varepsilon_{\Lambda_Y})$ is unique up to unique
 isomorphism: it represents the functor
 $M\mapsto\Hom(Rf_{!,\Lambda}M,\Lambda_Y)$ on $\Loc(\Dctf(X,\Lambda))$, so by the

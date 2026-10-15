@@ -2,8 +2,8 @@
 id = "sk-lem-sp-reduction"
 kind = "lemma"
 title = "Coefficient comparison"
-order = 1832
-uses = ["sk-def-sp-scalar-extension", "sk-lem-sp-finite-existence", "sk-lem-sf-flat-model", "sk-def-sfb-coefficient-comparisons", "sk-prop-geo-p1-adjunction"]
+order = 1823
+uses = ["sk-def-sp-scalar-extension", "sk-lem-sp-finite-existence", "sk-lem-sf-flat-model", "sk-prop-scalar-six", "sk-prop-geo-p1-adjunction"]
 tags = ["sketch"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$, and let $A\to B$ be a

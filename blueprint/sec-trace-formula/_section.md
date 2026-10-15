@@ -3,7 +3,7 @@ id = "sec-trace-formula"
 kind = "section"
 title = "Trace Formula"
 order = 2609
-uses = ["sec-curve-estimates", "sec-six-functors", "sec-smooth-purity"]
+uses = ["sec-curve-estimates", "sec-proetale-coefficients", "sec-six-functors", "sec-smooth-purity"]
 +++
 **Content.** For a Weil complex $(K,\varphi)$ on a separated finite-type
 $X_0/\mathbf F_q$ this section proves the Grothendieck–Lefschetz trace
