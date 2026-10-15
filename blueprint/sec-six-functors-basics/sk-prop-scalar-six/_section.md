@@ -2,8 +2,8 @@
 id = "sk-prop-scalar-six"
 kind = "proposition"
 title = "The six operations and coefficient comparison"
-order = 1578
-uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-lower-shriek", "sk-prop-ctf-finite-comparison", "sk-lem-bounded-continuity", "sk-thm-existence"]
+order = 1576
+uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-lower-shriek", "sk-prop-ctf-finite-comparison", "sk-cor-pe-bounded-continuity", "sk-thm-existence"]
 tags = ["sketch"]
 +++
 A change of coefficients is derived extension of scalars along a map of condensed rings, pulled back to

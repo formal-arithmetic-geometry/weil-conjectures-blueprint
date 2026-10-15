@@ -2,7 +2,7 @@
 id = "sk-lem-curve-dense-open"
 kind = "lemma"
 title = "Removing finitely many points"
-order = 889
+order = 890
 uses = ["sk-def-curve", "sk-def-pbc-curve-assertions", "sk-lem-curve-finite-support"]
 tags = ["sketch"]
 +++

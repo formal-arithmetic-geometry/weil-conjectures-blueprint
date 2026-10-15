@@ -16,7 +16,7 @@ $\mathcal O_E$-statements.
 $K\xrightarrow{\ell}K\xrightarrow{\ell}\cdots$, and extension to $\Qlb$ is the
 filtered colimit over finite extensions $E'/E$. Both are colimits of systems
 with a common lower bound, so the direct images $Rq_*$ and $Rp_{i*}$ commute
-with them ([sk-lem-bounded-continuity]). Applying them to the morphisms of (1)
+with them ([sk-cor-pe-bounded-continuity]). Applying them to the morphisms of (1)
 gives $\delta_E$, $\delta_{\Qlb}$ and the traces, and the identities, being
 equalities of morphisms, are preserved.
 

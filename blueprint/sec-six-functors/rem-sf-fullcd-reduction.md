@@ -2,10 +2,10 @@
 id = "rem-sf-fullcd-reduction"
 kind = "remark"
 title = "What $\\operatorname{FullCD}$ supplies, and what would discharge it"
-order = 2494
+order = 2491
 uses = ["cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-cbc-proetale-stalk-conservative", "lem-sf-etale-direct-image-vanishing", "lem-sf-fullcd-detection-equivalence", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-vanishing-detection", "prop-sf-comparison-bound-zero", "thm-sc-finite-type-torsion-cd", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
 +++
-The named interface [open-sf-ambient-adjoint-input] turns on the full
+The named interface [sk-rem-sf-fullcd-scope] turns on the full
 cohomological-dimension condition
 [def-weil-full-cohomological-dimension] for the compactification of a
 general separated finite-type morphism. Three things about that condition
@@ -107,7 +107,7 @@ datum [def-sf-fullcd-class], supplied with the bound $2\dim\bar X$ and
 uniformly over the base changes by [thm-sf-fullcd-class], and the
 existence half, with its unit, counit and compactification comparisons, is
 the theorem [thm-sf-ambient-adjoint-class]; the interface
-[open-sf-ambient-adjoint-input] therefore no longer names the existence
+[sk-rem-sf-fullcd-scope] therefore no longer names the existence
 half on that class, and what it still names – the adjunction for the
 complexes outside the class – is analysed in
 [rem-sf-class-adjoint-residue].

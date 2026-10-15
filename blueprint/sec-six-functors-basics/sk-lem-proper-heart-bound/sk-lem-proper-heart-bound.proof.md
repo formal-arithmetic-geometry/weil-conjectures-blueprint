@@ -1,13 +1,13 @@
 +++
 kind = "proof"
 of = "sk-lem-proper-heart-bound"
-uses = ["sk-lem-coefficient-heart", "sk-lem-coefficient-finite-descent", "sk-lem-stratified-lattice", "sk-prop-pe-milnor", "sk-lem-proper-heart-continuity", "sk-thm-sfb-proper-base-change", "sk-prop-ind-heart"]
+uses = ["sk-lem-coefficient-heart", "sk-thm-sfb-qlbar-two-colimit", "sk-lem-stratified-lattice", "sk-prop-pe-milnor", "sk-cor-pe-bounded-continuity", "sk-thm-sfb-proper-base-change", "sk-prop-ind-heart"]
 +++
 *Reduction to a lattice.* The vanishing of $R^qp_*$ for $q>2d+1$ is stable under extensions. By part (3)
 of [sk-lem-coefficient-heart], every $M\in\Cons(X,\Lambda)$ is a finite extension of sheaves $a_!L$, with
 $a\colon S\hookrightarrow X$ a locally closed immersion and $L$ lisse. For $\Lambda=\Qlb$, $L$ is the scalar
 extension $\overline{\mathbf Q}_{\ell,X}\otimes_{E}L_E$ of a lisse $E_S$-module $L_E$ for some finite $E/\mathbf Q_\ell$
-([sk-lem-coefficient-finite-descent]); for $\Lambda=E$ put $L_E=L$. By [sk-lem-stratified-lattice], after
+([sk-thm-sfb-qlbar-two-colimit]); for $\Lambda=E$ put $L_E=L$. By [sk-lem-stratified-lattice], after
 refining $S$ by a finite stratification (which replaces $a_!L$ by a finite extension of sheaves of the
 same form), $L_E$ contains a lisse finite free $\mathcal O_{E,S}$-lattice $L_0$ with $L_0[1/\ell]=L_E$. It is
 therefore enough to prove the bound for $a_!L_0$, and then to pass to $a_!L_E=(a_!L_0)[1/\ell]$ and, if
@@ -47,16 +47,16 @@ $$
 then gives $H^q(X_V,a_!L_0)=0$ for $q>2d+1$ ([det-proper-heart-bound-lattice]).
 
 *Back to $\Lambda$.* The sheaf $(a_!L_0)[1/\ell]$ is the filtered colimit of $a_!L_0$ along multiplication
-by $\ell$, so [sk-lem-proper-heart-continuity] gives the same vanishing for it. For $\Lambda=\Qlb$, scalar
+by $\ell$, so [sk-cor-pe-bounded-continuity] gives the same vanishing for it. For $\Lambda=\Qlb$, scalar
 extension from $E$ to $\Qlb$ is the filtered colimit of the extensions to finite $F\supset E$; as sheaves
 of abelian groups each of these is a finite direct sum of copies of the original sheaf, because $F$ is
 finite free over $E$. The continuity lemma again gives the bound. Since this holds for every affine weakly
 contractible $V$, the formula $(R^qp_*M)(V)=H^q(X_V,M|_{X_V})$ from the proof of
-[sk-lem-proper-heart-continuity] gives $R^qp_*(a_!L)=0$ for $q>2d+1$, and by the first step $R^qp_*M=0$
+[sk-cor-pe-bounded-continuity] gives $R^qp_*(a_!L)=0$ for $q>2d+1$, and by the first step $R^qp_*M=0$
 for $q>2d+1$ and every $M\in\Cons(X,\Lambda)$ ([det-proper-heart-bound-rational]).
 
 *Passage to $\IndCons(X,\Lambda)$.* By [sk-thm-sfb-proper-base-change], $Rp_*$ maps $\Dbc(X,\Lambda)$ into
 $\Dbc(Y,\Lambda)$, so $R^qp_*M\in\Cons(Y,\Lambda)$ for constructible $M$. Every object of
 $\IndCons(X,\Lambda)$ is a filtered colimit of constructible sheaves, and $R^qp_*$ commutes with filtered
-colimits and direct sums by [sk-lem-proper-heart-continuity]. This gives all three assertions
+colimits and direct sums by [sk-cor-pe-bounded-continuity]. This gives all three assertions
 ([det-proper-heart-bound-indcons]).

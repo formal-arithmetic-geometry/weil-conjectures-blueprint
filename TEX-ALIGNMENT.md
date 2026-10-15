@@ -11,9 +11,11 @@ blueprint.
   Constructions, Smooth Purity and Six Functors. A new block, *The Pro-étale Site and Coefficients*
   (`sec-proetale-coefficients`, order 700), sits between Picard Framework and Curve Estimates. Smooth Base Change has
   no counterpart in the tex file; its sketches are unchanged.
-- **One node per declaration.** Every `definition`, `lemma`, `proposition`, `theorem`, `corollary`, `convention`,
-  `remark` and `example` environment of the tex file (226 in total) has exactly one sketch node. No sketch node
-  stands for two declarations. The introduction (§1) has no declarations.
+- **Declarations and sketch nodes.** Every `definition`, `lemma`, `proposition`, `theorem`, `corollary`,
+  `convention`, `remark` and `example` environment of the tex file (226 in total) has a sketch node. 215 sketch
+  nodes cover them. Where the tex states one result twice, or a node in the blueprint duplicated another, the copies
+  were merged into one node (see "Merged duplicates"), and that node stands for each of the declarations involved.
+  The introduction (§1) has no declarations.
 - **Kinds.** The node kind follows the tex environment; a convention becomes a `definition` and an example a
   `remark`.
 - **Statements.** The sketch statement and its proof are the tex statement and proof converted to Markdown.
@@ -58,18 +60,18 @@ Six Functors now holds only blueprint-only sketches: duality, Künneth, the six-
 
 ## Summary
 
-| Block | Tex declarations | Existing sketch reused | New sketch node | Blueprint-only top-level nodes |
-|---|---:|---:|---:|---:|
-| Nagata Compactification | 18 | 13 | 5 | 13 |
-| The Pro-étale Site and Coefficients | 48 | 7 | 41 | 22 |
-| Abelian Varieties | 1 | 1 | 0 | 40 |
-| Picard Framework | 11 | 8 | 3 | 30 |
-| Curve Estimates | 13 | 2 | 11 | 19 |
-| Proper Base Change | 29 | 9 | 20 | 3 |
-| Six Functors: Basic Constructions | 74 | 15 | 59 | 37 |
-| Smooth Purity | 32 | 5 | 27 | 14 |
-| Six Functors | 0 | 0 | 0 | 44 |
-| **Total** | **226** | **60** | **166** | **222** |
+| Block | Tex-aligned sketch nodes | Tex declarations covered | Existing sketch reused | New sketch node | Blueprint-only top-level nodes |
+|---|---:|---:|---:|---:|---:|
+| Nagata Compactification | 18 | 19 | 13 | 5 | 13 |
+| The Pro-étale Site and Coefficients | 48 | 50 | 7 | 41 | 22 |
+| Abelian Varieties | 1 | 1 | 1 | 0 | 39 |
+| Picard Framework | 11 | 11 | 8 | 3 | 28 |
+| Curve Estimates | 13 | 16 | 2 | 11 | 17 |
+| Proper Base Change | 25 | 25 | 8 | 17 | 2 |
+| Six Functors: Basic Constructions | 71 | 75 | 14 | 57 | 37 |
+| Smooth Purity | 28 | 29 | 4 | 24 | 13 |
+| Six Functors | 0 | 0 | 0 | 0 | 38 |
+| **Total** | **215** | **226** | **57** | **158** | **209** |
 
 ## Dependency structure
 
@@ -119,14 +121,41 @@ where the alignment put them or where they were on `main`. Result:
   This includes blocks outside the alignment, such as Trace Formula and Zeta Functions, whose nodes use étale
   foundations that now live in the new block.
 
+## Merged duplicates
+
+Top-level nodes that stated the same result or definition were merged into one node, and the copies were deleted.
+The surviving node received each copy's detail nodes. It also received anything a copy stated beyond the survivor,
+added as a "Complement" or "Moreover" paragraph together with the corresponding proof. Every reference to a deleted
+id now points to the survivor.
+
+| Surviving node | Merged and deleted | Added to the survivor |
+|---|---|---|
+| `sk-thm-chow-projective` (#201) | `sk-thm-chow` (#72, the affine-base case) | its detail nodes and `lean` names |
+| `sk-cor-pe-bounded-continuity` (#22) | `sk-lem-bounded-continuity` (#85), `sk-lem-proper-heart-continuity` (#100) | continuity for any sheaf of rings, including $R^qp_*$, and its proof |
+| `sk-thm-curve-package` (#214) | `sk-thm-pbc-curve-input` (#62) | detail nodes |
+| `sk-cor-curve-invariance` (#226) | `sk-lem-pbc-curve-field-extension` (#63) | detail nodes |
+| `sk-rem-curve-wild-example` (#221) | `sk-rem-pbc-characteristic-torsion` (#64) | why the field-extension step needs properness |
+| `sk-thm-picard-main` (#209) | `sk-prop-jacobian` | the Jacobian complement over a separably closed field, and its proof |
+| `sk-thm-sfb-qlbar-two-colimit` (#150) | `sk-lem-coefficient-finite-descent` (#88) | the statement is now the full lemma #88, with the 2-colimit as part (4) |
+| `sk-prop-geo-p1-adjunction` (#119) | `sk-lem-sp-p1` (#153) | diagonal integrals, and the restriction to $\Dctf$ for $\mathbf Z/\ell^n$ |
+| `sk-prop-cohsm` (#121) | `sk-prop-sp-tensor` (#158), `sk-prop-sp-exceptional-bc` (#159) | descriptions of (G11) and (G12), and the chart form of $\omega_f$ |
+| `sk-lem-sf-flat-model` (#109) | `sk-lem-sf-ctf-generation` | generation over any Noetherian scheme, and its proof |
+| `sk-thm-purity-transport` (#151) | `sk-prop-sp-comparison-brown` (#182) | identification with the Brown $f^!$ and uniqueness (proof step 5) |
+| `sk-def-sf-weil-complexes` (#181) | `sk-def-weil` (Poincaré Duality block) | Tate data, the contragredient structure, and the warning on Hom groups |
+| `sk-thm-sf-kunneth-relative` | `sk-thm-product` (Poincaré Duality block) | the supported product over a general base |
+| `sk-rem-sf-fullcd-scope` | `open-sf-ambient-adjoint-input` | the pointers to where the class adjoint stops |
+| `sk-…--remark-…`, `sk-rem-…` remarks | `the-final-theorem--remark-1`, `the-final-theorem-the-abelian-variety-estimate--remark-1`, `the-final-theorem-the-curve-estimate--remark-1`/`-2`, `rem-picard-seams`, `rem-sf-comp-scope`, `rem-sf-feeds`, `rem-sf-typing-rule`, `rem-sf-typing`, `rem-pur-five-moves` | nothing (identical text) |
+
+Considered but not merged, because the statements genuinely differ:
+
+- `sk-prop-sp-et-proet` (#155) and `sk-prop-ctf-finite-comparison` (#111): #155 collects three results and adds
+  a compatibility with $Rf_!\dashv f^!$.
+- `sk-def-av-pic` and `sk-def-pic`: two definitions of $\Pic$ that agree only via Hilbert 90 and Riemann–Roch.
+- `sk-d-ab-tate` and `sk-def-av-tate`: a general definition and an instance of it.
+
 ## Points to review
 
-**Results the tex states twice.** Each copy has its own sketch node, as the one-to-one rule requires:
-
-- #62 `pbc:curve-input` (`sk-thm-pbc-curve-input`) and #214 `app:curve-package` (`sk-thm-curve-package`)
-- #63 `pbc:curve-field-extension` (`sk-lem-pbc-curve-field-extension`) and #226 `app:curve-invariance`
-  (`sk-cor-curve-invariance`)
-- #119 `b:prop:geo-p1-adjunction` (`sk-prop-geo-p1-adjunction`) and #153 `lem:sp-p1` (`sk-lem-sp-p1`)
+**Results the tex states twice.** These are now single merged nodes; see "Merged duplicates".
 
 **Reused sketches that were more general than the tex.** These sketches put the tex statement first and keep the
 older, more general content that other nodes cite in a "Complements" or "General form" paragraph:
@@ -202,7 +231,7 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 | 19 | 898 | Prop The Milnor sequence | `pe:milnor` | The Pro-étale Site and Coefficients | `sk-prop-pe-milnor` | new | 2 |
 | 20 | 936 | Prop Left completeness | `pe:left-complete` | The Pro-étale Site and Coefficients | `sk-prop-pe-left-complete` | new | 2 |
 | 21 | 970 | Prop Weakly contractible hypercovers | `pe:hypercover` | The Pro-étale Site and Coefficients | `sk-prop-pe-hypercover` | new | 2 |
-| 22 | 1016 | Cor Bounded-below continuity | `pe:bounded-continuity` | The Pro-étale Site and Coefficients | `sk-cor-pe-bounded-continuity` | new | 2 |
+| 22 | 1016 | Cor Bounded-below continuity | `pe:bounded-continuity` | The Pro-étale Site and Coefficients | `sk-cor-pe-bounded-continuity` | new | 7 |
 | 23 | 1058 | Def Classical pro-étale sheaves | `pe:classical-definition` | The Pro-étale Site and Coefficients | `sk-def-pe-classical-definition` | new | 1 |
 | 24 | 1071 | Prop The comparison morphism and its inverse image | `pe:comparison-morphism` | The Pro-étale Site and Coefficients | `sk-prop-pe-comparison-morphism` | new | 3 |
 | 25 | 1115 | Thm Recognizing the classical part | `pe:classical-sheaves` | The Pro-étale Site and Coefficients | `sk-thm-pe-classical-sheaves` | new | 3 |
@@ -252,19 +281,19 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 | 59 | 2581 | Lem Acyclic resolutions | `pbc:acyclicity` | Proper Base Change | `sk-thm-acyclicity` | reused | 1 |
 | 60 | 2644 | Thm PBC and injective acyclicity | `pbc:ia-equivalence` | Proper Base Change | `sk-thm-iff` | reused | 13 |
 | 61 | 2738 | Rem — | `pbc:proof-division` | Proper Base Change | `sk-rem-pbc-proof-division` | new | 0 |
-| 62 | 2802 | Thm Cohomology of curves | `pbc:curve-input` | Proper Base Change | `sk-thm-pbc-curve-input` | new | 3 |
-| 63 | 2841 | Lem Extension of a separably closed ground field | `pbc:curve-field-extension` | Proper Base Change | `sk-lem-pbc-curve-field-extension` | new | 2 |
-| 64 | 2863 | Rem — | `—` | Proper Base Change | `sk-rem-pbc-characteristic-torsion` | new | 0 |
+| 62 | 2802 | Thm Cohomology of curves | `pbc:curve-input` | Curve Estimates | `sk-thm-curve-package` | new | 6 |
+| 63 | 2841 | Lem Extension of a separably closed ground field | `pbc:curve-field-extension` | Curve Estimates | `sk-cor-curve-invariance` | new | 4 |
+| 64 | 2863 | Rem — | `—` | Curve Estimates | `sk-rem-curve-wild-example` | new | 0 |
 | 65 | 2917 | Lem Acyclicity on the closed projective line | `pbc:p1-injective-fibre` | Proper Base Change | `sk-lem-pbc-p1-injective-fibre` | new | 10 |
 | 66 | 2978 | Prop Henselian comparison for the projective line | `pbc:p1-henselian` | Proper Base Change | `sk-prop-pbc-p1-henselian` | new | 2 |
-| 67 | 3030 | Prop Proper base change for the projective line | `pbc:p1` | Proper Base Change | `sk-thm-p1` | reused | 388 |
+| 67 | 3030 | Prop Proper base change for the projective line | `pbc:p1` | Proper Base Change | `sk-thm-p1` | reused | 389 |
 | 68 | 3107 | Rem — | `—` | Proper Base Change | `sk-rem-pbc-p1-inputs` | new | 0 |
 | 69 | 3123 | Lem Finite morphisms | `pbc:finite` | Proper Base Change | `sk-lem-pbc-finite` | new | 3 |
 | 70 | 3161 | Lem Composition and cancellation | `pbc:composition-cancellation` | Proper Base Change | `sk-lem-pbc-composition-cancellation` | new | 8 |
 | 71 | 3234 | Lem A finite cover of projective space | `pbc:symmetric-product` | Proper Base Change | `sk-lem-pbc-symmetric-product` | new | 6 |
-| 72 | 3291 | Lem Chow's lemma | `pbc:chow` | Proper Base Change | `sk-thm-chow` | reused | 4 |
+| 72 | 3291 | Lem Chow's lemma | `pbc:chow` | Nagata Compactification | `sk-thm-chow-projective` | reused | 24 |
 | 73 | 3310 | Rem Chow's lemma over arbitrary bases | `pbc:chow-scope` | Proper Base Change | `sk-rem-pbc-chow-scope` | new | 0 |
-| 74 | 3318 | Prop Reduction to the projective line | `pbc:reduction` | Proper Base Change | `sk-thm-reduction` | reused | 8 |
+| 74 | 3318 | Prop Reduction to the projective line | `pbc:reduction` | Proper Base Change | `sk-thm-reduction` | reused | 9 |
 | 75 | 3344 | Thm Proper base change on classical pro-étale complexes | `pbc:torsion-theorem` | Proper Base Change | `sk-thm-properbasechange` | reused | 133 |
 | 76 | 3406 | Cor Geometric-fibre formula | `pbc:torsion-stalk` | Proper Base Change | `sk-cor-pbc-torsion-stalk` | new | 2 |
 | 77 | 3434 | Rem The role of properness | `pbc:reduction-inputs` | Proper Base Change | `sk-rem-pbc-reduction-inputs` | new | 0 |
@@ -280,10 +309,10 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 | 82 | 3699 | Lem Constructible sheaves | `b:lem:coefficient-heart` | Six Functors: Basic Constructions | `sk-lem-coefficient-heart` | new | 4 |
 | 83 | 3718 | Ex A running example | `b:ex:running` | Six Functors: Basic Constructions | `sk-rem-running` | new | 0 |
 | 84 | 3776 | Cor — | `b:lem:coefficient-heart-b` | Six Functors: Basic Constructions | `sk-cor-coefficient-heart-ii` | new | 2 |
-| 85 | 3818 | Lem Continuity of cohomology | `b:lem:bounded-continuity` | Six Functors: Basic Constructions | `sk-lem-bounded-continuity` | new | 2 |
+| 85 | 3818 | Lem Continuity of cohomology | `b:lem:bounded-continuity` | The Pro-étale Site and Coefficients | `sk-cor-pe-bounded-continuity` | new | 7 |
 | 86 | 3861 | Lem Sections with support in a closed subscheme | `b:lem:formal-closed-support` | Six Functors: Basic Constructions | `sk-lem-formal-closed-support` | new | 3 |
 | 87 | 3931 | Lem Continuity of Ext out of a constructible complex | `b:lem:constructible-ext-continuity` | Six Functors: Basic Constructions | `sk-lem-constructible-ext-continuity` | new | 1 |
-| 88 | 4004 | Lem Descent to a finite coefficient field | `b:lem:coefficient-finite-descent` | Six Functors: Basic Constructions | `sk-lem-coefficient-finite-descent` | new | 4 |
+| 88 | 4004 | Lem Descent to a finite coefficient field | `b:lem:coefficient-finite-descent` | Six Functors: Basic Constructions | `sk-thm-sfb-qlbar-two-colimit` | new | 20 |
 | 89 | 4109 | Lem Lattices after a finite stratification | `b:lem:stratified-lattice` | Six Functors: Basic Constructions | `sk-lem-stratified-lattice` | new | 3 |
 | 90 | 4200 | Lem Integral models | `b:lem:integral-models` | Six Functors: Basic Constructions | `sk-lem-integral-models` | new | 3 |
 | 91 | 4300 | Prop Proper direct image of constructible complexes | `b:prop:proper-coefficients` | Six Functors: Basic Constructions | `sk-thm-sfb-proper-base-change` | reused | 3 |
@@ -300,7 +329,7 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 | 97 | 4754 | Lem Reduction to finitely many degrees | `b:lem:finite-window` | Six Functors: Basic Constructions | `sk-lem-finite-window` | new | 3 |
 | 98 | 4818 | Thm Compactness with rational coefficients | `b:thm:constructible-compactness` | Six Functors: Basic Constructions | `sk-thm-constructible-compactness` | new | 3 |
 | 99 | 4862 | Cor — | `b:thm:constructible-compactness-b` | Six Functors: Basic Constructions | `sk-cor-constructible-compactness-ii` | new | 1 |
-| 100 | 4906 | Lem Cohomology commutes with filtered colimits | `b:lem:proper-heart-continuity` | Six Functors: Basic Constructions | `sk-lem-proper-heart-continuity` | new | 3 |
+| 100 | 4906 | Lem Cohomology commutes with filtered colimits | `b:lem:proper-heart-continuity` | The Pro-étale Site and Coefficients | `sk-cor-pe-bounded-continuity` | new | 7 |
 | 101 | 4942 | Lem A uniform bound for proper direct image | `b:lem:proper-heart-bound` | Six Functors: Basic Constructions | `sk-lem-proper-heart-bound` | new | 5 |
 | 102 | 5031 | Lem Proper direct image of unbounded complexes | `b:lem:proper-unbounded-window` | Six Functors: Basic Constructions | `sk-lem-proper-unbounded-window` | new | 3 |
 | 103 | 5101 | Lem Proper direct image preserves direct sums | `b:lem:proper-unbounded-window-b` | Six Functors: Basic Constructions | `sk-lem-proper-unbounded-window-ii` | new | 2 |
@@ -309,7 +338,7 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 | 106 | 5214 | Prop Proper base change on the localizing categories | `b:prop:proper-base-change-unbounded` | Six Functors: Basic Constructions | `sk-prop-proper-base-change-unbounded` | new | 2 |
 | 107 | 5265 | Prop Construction and independence of $Rf_!$ | `b:prop:lower-exceptional-image` | Six Functors: Basic Constructions | `sk-prop-sf-comp-coherence` | reused | 6 |
 | 108 | 5336 | Prop Composition and base change for $Rf_!$ | `b:prop:lower-composition` | Six Functors: Basic Constructions | `sk-thm-sf-comp-composition` | reused | 3 |
-| 109 | 5443 | Lem Flat models and generators | `ctf:finite-models` | Six Functors: Basic Constructions | `sk-lem-sf-flat-model` | reused | 2 |
+| 109 | 5443 | Lem Flat models and generators | `ctf:finite-models` | Six Functors: Basic Constructions | `sk-lem-sf-flat-model` | reused | 4 |
 | 110 | 5483 | Prop Compactness for finite coefficients | `ctf:finite-compact` | Six Functors: Basic Constructions | `sk-prop-ctf-finite-compact` | new | 3 |
 | 111 | 5534 | Prop Comparison with the étale derived category | `ctf:finite-comparison` | Six Functors: Basic Constructions | `sk-prop-ctf-finite-comparison` | new | 2 |
 | 112 | 5569 | Prop Proper direct image for finite coefficients | `ctf:finite-proper` | Six Functors: Basic Constructions | `sk-prop-ctf-finite-proper` | new | 5 |
@@ -324,9 +353,9 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 | 116 | 5952 | Lem The cycle class of a Cartier divisor | `b:lem:geo-cartier` | Six Functors: Basic Constructions | `sk-lem-geo-cartier` | new | 2 |
 | 117 | 6024 | Lem Cohomology of the projective line and the trace | `b:lem:geo-p1-cohomology` | Six Functors: Basic Constructions | `sk-lem-geo-p1-cohomology` | new | 2 |
 | 118 | 6089 | Ex Compact supports on the running example | `—` | Six Functors: Basic Constructions | `sk-rem-compact-supports-running-example` | new | 0 |
-| 119 | 6113 | Prop The projective-line adjunction | `b:prop:geo-p1-adjunction` | Six Functors: Basic Constructions | `sk-prop-geo-p1-adjunction` | new | 2 |
+| 119 | 6113 | Prop The projective-line adjunction | `b:prop:geo-p1-adjunction` | Six Functors: Basic Constructions | `sk-prop-geo-p1-adjunction` | new | 4 |
 | 120 | 6273 | Lem Affine space and étale localization | `b:lem:geo-affine-local` | Six Functors: Basic Constructions | `sk-lem-geo-affine-local` | new | 2 |
-| 121 | 6330 | Prop The exceptional inverse image of a smooth morphism | `b:prop:geo-smooth-tensor` | Six Functors: Basic Constructions | `sk-prop-cohsm` | reused | 4 |
+| 121 | 6330 | Prop The exceptional inverse image of a smooth morphism | `b:prop:geo-smooth-tensor` | Six Functors: Basic Constructions | `sk-prop-cohsm` | reused | 7 |
 | 122 | 6430 | Lem Smooth morphisms and locally constant sheaves | `b:lem:geo-smooth-generic` | Six Functors: Basic Constructions | `sk-lem-geo-smooth-generic` | new | 1 |
 | 123 | 6536 | Lem Detection by a proper direct image | `b:lem:geo-finite-boundary` | Six Functors: Basic Constructions | `sk-lem-geo-finite-boundary` | new | 2 |
 | 124 | 6602 | Lem Coordinate projections | `b:lem:geo-coordinates` | Six Functors: Basic Constructions | `sk-lem-geo-coordinates` | new | 2 |
@@ -365,21 +394,21 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 |---:|---:|---|---|---|---|---|---:|
 | 148 | 8147 | Prop The six functors on $\Dctf$ | `n:six-small` | Six Functors: Basic Constructions | `sk-thm-sf-ctf-stability` | reused | 5 |
 | 149 | 8224 | Prop The six operations and coefficient comparison | `n:scalar-six` | Six Functors: Basic Constructions | `sk-prop-scalar-six` | new | 6 |
-| 150 | 8373 | Prop $\Dctf(X,\Qbar)$ as a $2$-colimit | `n:two-colimit` | Six Functors: Basic Constructions | `sk-thm-sfb-qlbar-two-colimit` | reused | 16 |
+| 150 | 8373 | Prop $\Dctf(X,\Qbar)$ as a $2$-colimit | `n:two-colimit` | Six Functors: Basic Constructions | `sk-thm-sfb-qlbar-two-colimit` | reused | 20 |
 
 ### §10 Smooth purity
 
 | # | Tex line | Declaration | Label | Block | Sketch node | | Details |
 |---:|---:|---|---|---|---|---|---:|
-| 151 | 8476 | Thm Smooth purity for all admissible coefficients | `thm:sp-integral` | Smooth Purity | `sk-thm-purity-transport` | reused | 4 |
+| 151 | 8476 | Thm Smooth purity for all admissible coefficients | `thm:sp-integral` | Smooth Purity | `sk-thm-purity-transport` | reused | 6 |
 | 152 | 8499 | Def Relative dualizing complex | `def:sp-dualizing` | Smooth Purity | `sk-def-sp-dualizing` | new | 1 |
-| 153 | 8593 | Lem The projective-line adjunction | `lem:sp-p1` | Smooth Purity | `sk-lem-sp-p1` | new | 2 |
+| 153 | 8593 | Lem The projective-line adjunction | `lem:sp-p1` | Six Functors: Basic Constructions | `sk-prop-geo-p1-adjunction` | new | 4 |
 | 154 | 8664 | Def Representing objects | `def:sp-representing-pair` | Smooth Purity | `sk-def-sp-representing-pair` | new | 2 |
 | 155 | 8680 | Prop Étale and pro-étale finite coefficients | `prop:sp-et-proet` | Smooth Purity | `sk-prop-sp-et-proet` | new | 9 |
-| 156 | 8702 | Lem Local computation of the finite Brown adjoint | `lem:sp-finite-existence` | Smooth Purity | `sk-lem-sp-finite-existence` | new | 3 |
+| 156 | 8702 | Lem Local computation of the finite Brown adjoint | `lem:sp-finite-existence` | Smooth Purity | `sk-lem-sp-finite-existence` | new | 2 |
 | 157 | 8745 | Prop Vector-bundle purity | `prop:sp-vector` | Smooth Purity | `sk-prop-an` | reused | 36 |
-| 158 | 8848 | Prop The tensor formula | `prop:sp-tensor` | Smooth Purity | `sk-prop-sp-tensor` | new | 1 |
-| 159 | 8879 | Prop Exceptional base change for a smooth map | `prop:sp-exceptional-bc` | Smooth Purity | `sk-prop-sp-exceptional-bc` | new | 1 |
+| 158 | 8848 | Prop The tensor formula | `prop:sp-tensor` | Six Functors: Basic Constructions | `sk-prop-cohsm` | new | 7 |
+| 159 | 8879 | Prop Exceptional base change for a smooth map | `prop:sp-exceptional-bc` | Six Functors: Basic Constructions | `sk-prop-cohsm` | new | 7 |
 | 160 | 8926 | Lem A section and its normal bundle | `lem:sp-dnc` | Smooth Purity | `sk-thm-dnc` | reused | 3 |
 | 161 | 9015 | Prop The relative dualizing complex | `prop:sp-orientation` | Smooth Purity | `sk-prop-sp-orientation` | new | 4 |
 | 162 | 9093 | Prop Finite-coefficient smooth purity | `prop:sp-finite` | Smooth Purity | `sk-thm-smooth-purity` | reused | 7 |
@@ -401,8 +430,8 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 | 178 | 10078 | Def Smooth trace | `def:sp-trace` | Smooth Purity | `sk-def-sp-trace` | new | 2 |
 | 179 | 10095 | Prop Transitivity of the smooth trace | `prop:sp-trace-composition` | Smooth Purity | `sk-prop-sp-trace-composition` | new | 2 |
 | 180 | 10144 | Cor The dualizing complex of a smooth scheme | `cor:sp-all-coefficients` | Smooth Purity | `sk-cor-sp-all-coefficients` | new | 3 |
-| 181 | 10248 | Def Weil structure | `def:sp-Weil-structure` | Smooth Purity | `sk-def-sf-weil-complexes` | reused | 3 |
-| 182 | 10324 | Prop Smooth purity for $f^!$ | `prop:sp-comparison-brown` | Smooth Purity | `sk-prop-sp-comparison-brown` | new | 2 |
+| 181 | 10248 | Def Weil structure | `def:sp-Weil-structure` | Smooth Purity | `sk-def-sf-weil-complexes` | reused | 4 |
+| 182 | 10324 | Prop Smooth purity for $f^!$ | `prop:sp-comparison-brown` | Smooth Purity | `sk-thm-purity-transport` | new | 6 |
 
 ### §11 Compactification and projective domination
 
@@ -426,7 +455,7 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 | 198 | 10781 | Lem Separated common modification of two opens | `app:nagata-common-modification` | Nagata Compactification | `sk-lem-nagata-sketch-common` | reused | 7 |
 | 199 | 10813 | Prop The two-open compactification construction | `app:nagata-two-open` | Nagata Compactification | `sk-thm-nagata-sketch-two-open` | reused | 21 |
 | 200 | 10896 | Lem Enough compactifiable affine opens | `app:nagata-affine-opens` | Nagata Compactification | `sk-lem-nagata-sketch-affine-cover` | reused | 15 |
-| 201 | 10958 | Thm Projective domination of a proper morphism | `app:chow-projective` | Nagata Compactification | `sk-thm-chow-projective` | new | 21 |
+| 201 | 10958 | Thm Projective domination of a proper morphism | `app:chow-projective` | Nagata Compactification | `sk-thm-chow-projective` | new | 24 |
 
 ### §12 Picard schemes and Jacobians
 
@@ -439,7 +468,7 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 | 206 | 11162 | Thm Hilbert schemes of points on a smooth curve | `app:picard-hilbert-theorem` | Picard Framework | `sk-thm-picard-hilb-curves` | reused | 12 |
 | 207 | 11202 | Prop Divisors of degree $g$ as an open chart | `app:picard-abel-chart` | Picard Framework | `sk-thm-picard-f-representable` | reused | 4 |
 | 208 | 11238 | Lem Translating into the chart | `app:picard-twist` | Picard Framework | `sk-thm-picard-twist` | reused | 6 |
-| 209 | 11273 | Thm The Picard scheme and Jacobian of a geometric curve | `app:picard-curve` | Picard Framework | `sk-thm-picard-main` | reused | 6 |
+| 209 | 11273 | Thm The Picard scheme and Jacobian of a geometric curve | `app:picard-curve` | Picard Framework | `sk-thm-picard-main` | reused | 8 |
 | 210 | 11342 | Cor The degree sequence | `app:picard-degree` | Picard Framework | `sk-cor-picard-degree` | new | 1 |
 | 211 | 11361 | Rem Ground fields and relative representability | `app:picard-relative-scope` | Picard Framework | `sk-rem-picard-relative-scope` | new | 0 |
 | 212 | 11384 | Prop Multiplication on an abelian variety | `app:abelian-multiplication` | Abelian Varieties | `sk-thm-av-final` | reused | 2 |
@@ -449,7 +478,7 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 
 | # | Tex line | Declaration | Label | Block | Sketch node | | Details |
 |---:|---:|---|---|---|---|---|---:|
-| 214 | 11502 | Thm Cohomology of curves over an algebraically closed field | `app:curve-package` | Curve Estimates | `sk-thm-curve-package` | new | 4 |
+| 214 | 11502 | Thm Cohomology of curves over an algebraically closed field | `app:curve-package` | Curve Estimates | `sk-thm-curve-package` | new | 6 |
 | 215 | 11548 | Lem Cohomology of the multiplicative group | `app:curve-gm` | Curve Estimates | `sk-thm-br` | reused | 19 |
 | 216 | 11594 | Prop Smooth proper curves with invertible torsion | `app:curve-kummer` | Curve Estimates | `sk-thm-curveestimate` | reused | 3 |
 | 217 | 11650 | Rem Twists and the projective line | `app:curve-twists` | Curve Estimates | `sk-rem-curve-twists` | new | 0 |
@@ -461,7 +490,7 @@ The new `sk-thm-existence` (#50) has the tex's plan of proof and two detail node
 | 223 | 11875 | Lem Normalization of a constant sheaf | `app:curve-normalization` | Curve Estimates | `sk-lem-curve-normalization` | new | 23 |
 | 224 | 11921 | Lem Removing finitely many points | `app:curve-dense-open` | Curve Estimates | `sk-lem-curve-dense-open` | new | 21 |
 | 225 | 11965 | Lem Reduction to a unipotent local system | `app:curve-sylow-trace` | Curve Estimates | `sk-lem-curve-sylow-trace` | new | 4 |
-| 226 | 12071 | Cor Proper curves over separably closed fields | `app:curve-invariance` | Curve Estimates | `sk-cor-curve-invariance` | new | 2 |
+| 226 | 12071 | Cor Proper curves over separably closed fields | `app:curve-invariance` | Curve Estimates | `sk-cor-curve-invariance` | new | 4 |
 
 ## Top-level nodes that appear only in the blueprint
 
@@ -513,7 +542,7 @@ These top-level nodes of the aligned blocks correspond to no declaration of the 
 | `sk-def-sf-setting` | definition | Coefficients and sites | 1 | Smooth Purity | #45 |
 | `sk-def-sf-operations` | definition | The six operations: ambient typing | 33 | Smooth Purity | #42, #48, #107, #114 |
 
-### Abelian Varieties (40)
+### Abelian Varieties (39)
 
 | Node | Kind | Title | Details | Block on main | Related tex |
 |---|---|---|---:|---|---|
@@ -555,10 +584,9 @@ These top-level nodes of the aligned blocks correspond to no declaration of the 
 | `sk-prop-av-finite-etale-points` | proposition | Points of finite étale group schemes | 7 |  |  |
 | `sk-prop-av-tate-rank` | proposition | The $\ell$-adic Tate module is free of rank $2g$ | 1 |  |  |
 | `sk-the-final-theorem-the-abelian-variety-estimate--remark-1` | remark | Remark | 0 |  |  |
-| `the-final-theorem-the-abelian-variety-estimate--remark-1` | remark |  | 0 |  |  |
 | `sk-prop-av-ntorsion-etale` | proposition | The $n$-torsion of an abelian variety is étale | 2 |  | #212, #213 |
 
-### Picard Framework (30)
+### Picard Framework (28)
 
 | Node | Kind | Title | Details | Block on main | Related tex |
 |---|---|---|---:|---|---|
@@ -588,12 +616,10 @@ These top-level nodes of the aligned blocks correspond to no declaration of the 
 | `sk-thm-picard-criterion` | theorem | The criterion: a functor generated by a representable open subfunctor | 1 |  | #209 |
 | `sk-prop-picard-degree-decomposition` | proposition | Degree decomposition of the Picard scheme | 5 |  | #209, #210 |
 | `sk-prop-picard-jacobian-tangent` | proposition | The tangent space of the Jacobian | 1 |  | #209 |
-| `sk-prop-jacobian` | proposition | The Jacobian is an abelian variety | 2 |  | #209, #210, #211 |
 | `sk-prop-jacobian-descent` | proposition | The Jacobian over a general base field, by Galois descent | 18 |  | #211 |
 | `sk-rem-picard-seams` | remark | The dependencies are one-way: $\mathbf A\Rightarrow\mathbf B$ at four seams | 0 |  |  |
-| `rem-picard-seams` | remark | The dependencies are one-way: $\mathbf A\Rightarrow\mathbf B$ at four seams | 0 |  |  |
 
-### Curve Estimates (19)
+### Curve Estimates (17)
 
 | Node | Kind | Title | Details | Block on main | Related tex |
 |---|---|---|---:|---|---|
@@ -611,19 +637,16 @@ These top-level nodes of the aligned blocks correspond to no declaration of the 
 | `sk-prop-cd` | proposition | Vanishing in high degrees | 9 |  | #62, #214, #219, #222 |
 | `sk-prop-cd-affine` | proposition | Affine-curve cohomological dimension | 9 |  | #62, #214, #218, #220 |
 | `sk-the-final-theorem-the-curve-estimate--remark-1` | remark | Remark | 0 |  |  |
-| `the-final-theorem-the-curve-estimate--remark-1` | remark |  | 0 |  |  |
 | `sk-prop-ext-invariance` | proposition | Invariance under extension of algebraically closed fields | 3 |  | #62, #63, #216, #218 |
 | `sk-the-final-theorem-the-curve-estimate--remark-2` | remark | Remark | 0 |  |  |
-| `the-final-theorem-the-curve-estimate--remark-2` | remark |  | 0 |  |  |
 | `sk-def-pbc-curve-assertions` | definition | The eight curve-cohomology assertions | 12 | Proper Base Change | #62, #214 |
 
-### Proper Base Change (3)
+### Proper Base Change (2)
 
 | Node | Kind | Title | Details | Block on main | Related tex |
 |---|---|---|---:|---|---|
 | `sk-curve-calculations-pbc-for-the-projective-line--remark-1` | remark | Remark | 0 |  | #62, #214 |
 | `sk-the-final-theorem--remark-1` | remark | Remark | 0 |  | #61, #77 |
-| `the-final-theorem--remark-1` | remark |  | 0 |  | #61, #77 |
 
 ### Six Functors: Basic Constructions (37)
 
@@ -667,7 +690,7 @@ These top-level nodes of the aligned blocks correspond to no declaration of the 
 | `sk-thm-sf-direct-image-tor-amplitude` | theorem | Direct image with finite Tor amplitude | 1 | Six Functors | #112, #128 |
 | `sk-thm-sf-hom-ctf` | theorem | Internal Hom with finite Tor amplitude | 1 | Six Functors | #130 |
 
-### Smooth Purity (14)
+### Smooth Purity (13)
 
 | Node | Kind | Title | Details | Block on main | Related tex |
 |---|---|---|---:|---|---|
@@ -684,20 +707,16 @@ These top-level nodes of the aligned blocks correspond to no declaration of the 
 | `sk-thm-regular` | theorem | Purity for regular closed immersions | 2 |  |  |
 | `sk-rem-split` | remark | What sits where | 0 |  |  |
 | `rem-pur-status-after-completion` | remark | Dependency order of the smooth-purity proof | 0 |  |  |
-| `rem-pur-five-moves` | remark | The five moves of the purity proof | 0 |  |  |
 
-### Six Functors (44)
+### Six Functors (38)
 
 | Node | Kind | Title | Details | Block on main | Related tex |
 |---|---|---|---:|---|---|
 | `sk-def-sf-categories` | definition | Ambient categories and small subcategories | 1 |  | #47 |
 | `sk-rem-sf-typing-rule` | remark | The typing rule of this section | 0 |  |  |
-| `rem-sf-typing-rule` | remark | The typing rule of this section | 0 |  |  |
 | `sk-rem-sf-typing` | remark | Typing table: ambient definition, small-category theorem | 0 |  |  |
-| `rem-sf-typing` | remark | Typing table: ambient definition, small-category theorem | 0 |  |  |
 | `sk-def-sf-orientation` | definition | Orientation: an interface record | 3 |  | #161 |
 | `sk-rem-sf-fullcd-scope` | remark | What this does and does not discharge | 0 |  |  |
-| `open-sf-ambient-adjoint-input` | remark | Adjunction outside the bounded comparison class | 0 |  |  |
 | `rem-sf-fullcd-general-form` | remark | The general form of $\operatorname{FullCD}$, and the form the blueprint uses | 0 |  |  |
 | `rem-sf-fullcd-counterexample` | remark | The counterexample: a pro-étale base change whose comparison direct image has infinite cohomological dimension | 0 |  |  |
 | `rem-sf-fullcd-reduction` | remark | What $\operatorname{FullCD}$ supplies, and what would discharge it | 0 |  |  |
@@ -712,7 +731,6 @@ These top-level nodes of the aligned blocks correspond to no declaration of the 
 | `sk-thm-sf-internal-hom-pullback` | theorem | Internal Hom versus pullback for a site-perfect first variable | 1 |  |  |
 | `sk-thm-sf-tensor-hom` | theorem | Tensor–Hom form of the exchange | 1 |  |  |
 | `sk-rem-sf-comp-scope` | remark | Scope of the coherence | 0 |  |  |
-| `rem-sf-comp-scope` | remark | Scope of the coherence | 0 |  |  |
 | `sk-thm-sf-verdier-exchange` | theorem | Verdier-duality exchange | 1 |  |  |
 | `sk-prop-sf-dualizable-biduality` | proposition | Biduality of a perfect complex | 2 |  |  |
 | `sk-lem-sf-twist-interchange` | lemma | Internal Hom with an invertible twist | 1 |  |  |
@@ -721,7 +739,6 @@ These top-level nodes of the aligned blocks correspond to no declaration of the 
 | `sk-thm-sf-identification` | theorem | The derived Poincaré pairing is the duality isomorphism | 4 |  |  |
 | `sk-thm-sf-kunneth-relative` | theorem | Relative product theorem | 2 |  |  |
 | `sk-lem-sf-kunneth-star` | lemma | Ordinary Künneth with an identity factor | 1 |  |  |
-| `sk-lem-sf-ctf-generation` | lemma | Finite/open generation of $\Dctf$ | 2 |  | #82, #84, #109 |
 | `sk-def-sf-kv-maps` | definition | The product comparison maps | 1 |  |  |
 | `sk-thm-sf-kunneth-verdier` | theorem | Künneth–Verdier isomorphism | 5 |  |  |
 | `sk-rem-sf-kv-formal` | proposition | What is formal and what is not | 2 |  |  |
@@ -733,4 +750,3 @@ These top-level nodes of the aligned blocks correspond to no declaration of the 
 | `rem-sf-dualizing-ctf-hypotheses` | remark | Geometric duality and its coefficient comparisons | 0 |  |  |
 | `rem-sf-preservation-class-residue` | remark | Constructible completion and the ambient boundary | 0 |  |  |
 | `sk-rem-sf-feeds` | remark | Where this feeds | 0 |  |  |
-| `rem-sf-feeds` | remark | Where this feeds | 0 |  |  |

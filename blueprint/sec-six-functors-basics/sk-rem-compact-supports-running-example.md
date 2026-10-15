@@ -2,7 +2,7 @@
 id = "sk-rem-compact-supports-running-example"
 kind = "remark"
 title = "Compact supports on the running example"
-order = 1547
+order = 1545
 tags = ["sketch"]
 +++
 Let $j:\mathbf A^1_{\bar k}\hookrightarrow\mathbf P^1_{\bar k}$ with complement

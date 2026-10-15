@@ -2,8 +2,9 @@
 id = "sk-thm-chow-projective"
 kind = "theorem"
 title = "Projective domination of a proper morphism"
-order = 18
-uses = ["thm-chow-lemma"]
+order = 1
+lean = ["AlgebraicGeometry.ChowModification.nonempty_data", "AlgebraicGeometry.ChowModification.isClosedImmersion_toProjectiveSpace"]
+uses = ["thm-chow-lemma", "sk-def-conv"]
 tags = ["sketch"]
 +++
 Let $f:X\to S$ be proper with $S$ qcqs. There are a proper surjection

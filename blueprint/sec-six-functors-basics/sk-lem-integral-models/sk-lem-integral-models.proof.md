@@ -39,7 +39,7 @@ modulo $\pi_E$ and preserve constructibility of the reductions. Details:
 [det-lem-integral-models-operations]; compare the preservation statements of
 [sk-def-sfb-dc-restricted-functors].
 
-(4) For $\Qlb$, first descend to a finite $E$ by [sk-lem-coefficient-finite-descent]. By
+(4) For $\Qlb$, first descend to a finite $E$ by [sk-thm-sfb-qlbar-two-colimit]. By
 [sk-cor-coefficient-heart-ii], every object of $\Dbc(X,E)$ is obtained by finitely many cones
 and shifts from sheaves $a_!L$ with $L$ lisse. By [sk-lem-stratified-lattice], after refining
 the stratum $S$ by a finite stratification (which replaces $a_!L$ by finitely many extensions

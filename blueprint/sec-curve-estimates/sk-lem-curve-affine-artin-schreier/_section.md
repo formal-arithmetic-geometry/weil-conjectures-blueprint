@@ -2,7 +2,7 @@
 id = "sk-lem-curve-affine-artin-schreier"
 kind = "lemma"
 title = "Characteristic torsion on an affine curve"
-order = 885
+order = 887
 uses = ["sk-def-curve", "sk-prop-sf-comparison"]
 tags = ["sketch"]
 +++

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-thm-smooth-purity"
-uses = ["sk-prop-sp-orientation", "sk-prop-sp-tensor", "sk-lem-sp-finite-existence", "sk-lem-sp-reduction"]
+uses = ["sk-prop-sp-orientation", "sk-prop-cohsm", "sk-lem-sp-finite-existence", "sk-lem-sp-reduction"]
 +++
 Choose $n$ with $\ell^nA=0$. The calculation of [sk-lem-sp-finite-existence]
 and [sk-prop-sp-orientation] works with $A$ throughout: extend the Kummer and
@@ -18,7 +18,7 @@ f_A^{*}K\otimes^{\mathbf L}A_X(d)[2d]
 $$
 
 These are the orientation isomorphism of [sk-prop-sp-orientation] (over $A$)
-and the tensor-map isomorphism of [sk-prop-sp-tensor]. The construction is
+and the tensor-map isomorphism of [sk-prop-cohsm]. The construction is
 natural in $K$ and uses only free rank-one Tate sheaves, so it applies to every
 finite admissible $A$. [sk-lem-sp-reduction] verifies the compatibility of the
 normalization for different choices of $n$ and maps of finite rings.

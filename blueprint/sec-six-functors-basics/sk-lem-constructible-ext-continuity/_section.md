@@ -2,8 +2,8 @@
 id = "sk-lem-constructible-ext-continuity"
 kind = "lemma"
 title = "Continuity of Ext out of a constructible complex"
-order = 1516
-uses = ["sk-lem-bounded-continuity", "sk-lem-formal-closed-support", "sk-cor-coefficient-heart-ii"]
+order = 1515
+uses = ["sk-cor-pe-bounded-continuity", "sk-lem-formal-closed-support", "sk-cor-coefficient-heart-ii"]
 tags = ["sketch"]
 +++
 Let $\Lambda=E$, $\Qlb$ or $\cO_E$. Let $C\in D(X_{\mathrm{proét}},\Lambda)$ be obtained by finitely

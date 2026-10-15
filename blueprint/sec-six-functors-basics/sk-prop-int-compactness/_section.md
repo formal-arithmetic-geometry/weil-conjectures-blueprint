@@ -2,7 +2,7 @@
 id = "sk-prop-int-compactness"
 kind = "proposition"
 title = "Compactness and proper direct image"
-order = 1572
+order = 1570
 uses = ["sk-lem-int-integral-heart", "sk-lem-int-ext", "sk-thm-sfb-proper-base-change"]
 tags = ["sketch"]
 +++

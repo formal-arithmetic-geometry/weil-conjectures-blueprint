@@ -2,7 +2,7 @@
 id = "sk-rem-sf-matrix"
 kind = "corollary"
 title = "The six operations on $\\Dctf(-,A)$"
-order = 1559
+order = 1557
 uses = ["sk-prop-sf-existence", "sk-prop-sf-rf-shriek-preservation"]
 tags = ["sketch"]
 +++

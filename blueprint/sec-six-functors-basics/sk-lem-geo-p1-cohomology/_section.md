@@ -2,7 +2,7 @@
 id = "sk-lem-geo-p1-cohomology"
 kind = "lemma"
 title = "Cohomology of the projective line and the trace"
-order = 1546
+order = 1544
 uses = ["sk-lem-geo-cartier"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-thm-properbasechange"
 kind = "theorem"
 title = "Proper base change on classical pro-étale complexes"
-order = 1066
+order = 1062
 lean = ["AlgebraicGeometry.Etale.isIso_baseChange_of_isProper"]
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-pbc", "sk-def-pbc-conventions", "sk-thm-p1", "sk-thm-reduction", "sk-cor-pe-classical-derived", "sk-thm-pe-direct-image-comparison"]
 tags = ["sketch"]

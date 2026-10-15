@@ -2,7 +2,7 @@
 id = "sk-thm-sf-comp-composition"
 kind = "proposition"
 title = "Composition and base change for $Rf_!$"
-order = 1537
+order = 1535
 uses = ["sec-nagata-compactification", "sec-proper-base-change", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-comp-coherence", "sk-thm-properbasechange", "sk-def-localizing-closure"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp"]
 tags = ["sketch"]

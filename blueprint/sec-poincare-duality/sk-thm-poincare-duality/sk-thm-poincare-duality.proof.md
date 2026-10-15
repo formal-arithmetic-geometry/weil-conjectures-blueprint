@@ -21,7 +21,7 @@ conjugation of $F_{K^\vee}$ with $q^d(F_{c,K}^{-1})^{\mathsf t}$ together
 with the invariance of the characteristic polynomial under transposition.
 Item (6): if $k_0'/k_0$ has degree $r$, then the geometric Frobenius of
 $k_0'$ is the $r$-th iterate of $F$, by the Frobenius-operator
-convention of [sk-def-weil]; the pairings remain perfect because
+convention of [sk-def-sf-weil-complexes]; the pairings remain perfect because
 $\beta_K$ is built from base change along the structure morphism and the
 orientation, both stable under the finite extension $k_0'/k_0$; and the
 similitude clause of [sk-thm-frobenius] applied to $F^r$ in place of

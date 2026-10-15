@@ -1,10 +1,10 @@
 +++
 kind = "proof"
 of = "sk-prop-sp-orientation"
-uses = ["sk-prop-sp-exceptional-bc", "sk-thm-dnc", "sk-prop-an"]
+uses = ["sk-prop-cohsm", "sk-thm-dnc", "sk-prop-an"]
 +++
 The projection $p_1$ is the base change of $f$ along $f$, so
-[sk-prop-sp-exceptional-bc] gives $\omega_{p_1}\simeq p_2^{*}\omega_f$ in
+[sk-prop-cohsm] gives $\omega_{p_1}\simeq p_2^{*}\omega_f$ in
 $\Dctf((X\times_YX)_{\mathrm{proét}},\mathbf Z/\ell^n\mathbf Z)$. Since
 $p_2\circ\Delta$ is the identity of $X$, this gives the first isomorphism in
 

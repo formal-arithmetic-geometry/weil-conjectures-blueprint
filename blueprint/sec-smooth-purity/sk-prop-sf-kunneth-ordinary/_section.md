@@ -2,7 +2,7 @@
 id = "sk-prop-sf-kunneth-ordinary"
 kind = "proposition"
 title = "Künneth and the projection formula in ordinary étale cohomology"
-order = 1942
+order = 1938
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_kunneth"]
 tags = ["sketch"]
 +++

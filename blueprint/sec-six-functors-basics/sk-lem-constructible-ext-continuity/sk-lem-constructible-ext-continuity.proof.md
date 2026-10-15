@@ -19,14 +19,14 @@ R\Gamma\bigl(S,L^\vee\otimes u^*i^*K\bigr)\quad\text{and}\quad
 R\Gamma\bigl(S,L^\vee\otimes u^*i^*Rj_*j^*K\bigr).
 $$
 The functor $L^\vee\otimes u^*i^*(-)$ is exact, commutes with colimits and preserves the lower
-bound, so [sk-lem-bounded-continuity] on $S$ handles the first term. For the second, the
+bound, so [sk-cor-pe-bounded-continuity] on $S$ handles the first term. For the second, the
 hypercohomology spectral sequence
 $$
 E_2^{p,r}=H^p\bigl(S,L^\vee\otimes u^*i^*R^rj_*(j^*K)\bigr)\Longrightarrow
 H^{p+r}\bigl(S,L^\vee\otimes u^*i^*Rj_*j^*K\bigr)
 $$
 is functorial in $K$. The sheaves $R^rj_*(j^*K_i)$ commute with the colimit by the second
-part of [sk-lem-bounded-continuity], and then $H^p(S,-)$ does by its first part. So the map of
+part of [sk-cor-pe-bounded-continuity], and then $H^p(S,-)$ does by its first part. So the map of
 spectral sequences is an isomorphism on $E_2$, after passing to the colimit. Because of the
 common lower bound, only finitely many $E_2^{p,r}$ contribute to a given total degree, so the
 abutments agree as well. Details: [det-lem-constructible-ext-continuity-stratum].

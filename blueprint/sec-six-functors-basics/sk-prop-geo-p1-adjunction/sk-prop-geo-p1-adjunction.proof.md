@@ -133,3 +133,10 @@ change and change of coefficients, hence so are $\eta$ and $\epsilon$, as
 natural transformations of functors on $D((\mathbf P^1_S)_{\mathrm{ét}},\Lambda)$
 and $D(S_{\mathrm{ét}},\Lambda)$; the comparison transports this to the
 pro-étale categories of (G4).
+
+*The complement.* The diagonal integrals are the claim $s_1=s_2=1$ above.
+For the restriction to $\Dctf$: $Rp_*$ preserves constructible complexes of
+finite Tor amplitude because $p$ is proper, and $p^*(-)(1)[2]$ preserves them,
+being an inverse image followed by a twist by an invertible sheaf and a shift.
+Since $\Dctf$ is a full subcategory on both sides, the Hom groups computing the
+adjunction are unchanged, so (G4) restricts with the same unit and counit.

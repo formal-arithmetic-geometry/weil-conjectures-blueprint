@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-prop-sp-rational"
-uses = ["sk-prop-sp-integral-adjunction", "sk-lem-int-ext", "sk-lem-integral-models", "sk-lem-bounded-continuity"]
+uses = ["sk-prop-sp-integral-adjunction", "sk-lem-int-ext", "sk-lem-integral-models", "sk-cor-pe-bounded-continuity"]
 +++
 Every object of $\Dbc(T,E)$ is $K_0[1/\ell]$ for some $K_0\in\Dbc(T,\mathcal O_E)$
 ([sk-lem-integral-models]), and Hom groups are the integral ones with $\ell$
@@ -12,7 +12,7 @@ with this colimit ([sk-lem-int-ext]). On integral models $f^*$ and $Rf_!$ are
 the integral functors with $\ell$ inverted: $f^*(K_0[1/\ell])=(f^*K_0)[1/\ell]$, and
 $Rf_!(M_0[1/\ell])\simeq(Rf_{!,\mathcal O_E}M_0)[1/\ell]$ because
 $Rf_{!,\mathcal O_E}M_0=R\bar f_*j_!M_0$ and $R\bar f_*$ commutes with the colimit
-along $\ell$ ([sk-lem-bounded-continuity]).
+along $\ell$ ([sk-cor-pe-bounded-continuity]).
 
 Choose integral models $M_0,K_0$. By these comparisons and the integral purity
 isomorphism $\gamma_{f,\mathcal O_E}$, the two functors are the scalar extensions

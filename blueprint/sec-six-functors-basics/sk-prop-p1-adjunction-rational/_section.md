@@ -2,7 +2,7 @@
 id = "sk-prop-p1-adjunction-rational"
 kind = "proposition"
 title = "The projective line"
-order = 1563
+order = 1561
 uses = ["sk-prop-sf-existence", "sk-prop-diagonal-tower", "sk-thm-sf-pf-field"]
 tags = ["sketch"]
 +++

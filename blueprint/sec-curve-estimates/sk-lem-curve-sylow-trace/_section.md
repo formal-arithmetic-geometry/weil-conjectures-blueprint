@@ -2,7 +2,7 @@
 id = "sk-lem-curve-sylow-trace"
 kind = "lemma"
 title = "Reduction to a unipotent local system"
-order = 890
+order = 891
 uses = ["sk-def-curve", "sk-prop-pe-finite-local-systems"]
 tags = ["sketch"]
 +++

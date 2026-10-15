@@ -2,8 +2,8 @@
 id = "sk-prop-sp-rational"
 kind = "proposition"
 title = "Smooth purity with coefficients $E$"
-order = 1832
-uses = ["sk-prop-sp-integral-adjunction", "sk-lem-int-ext", "sk-lem-integral-models", "sk-lem-bounded-continuity", "sk-prop-sp-unique-adjoint"]
+order = 1829
+uses = ["sk-prop-sp-integral-adjunction", "sk-lem-int-ext", "sk-lem-integral-models", "sk-cor-pe-bounded-continuity", "sk-prop-sp-unique-adjoint"]
 tags = ["sketch"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$, and $E/\Ql$ finite.

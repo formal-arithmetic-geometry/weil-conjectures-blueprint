@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-prop-an"
-uses = ["sk-lem-sp-finite-existence", "sk-lem-sp-p1"]
+uses = ["sk-lem-sp-finite-existence", "sk-prop-geo-p1-adjunction"]
 +++
 *Local integration maps.* Over an open $U\subset S$ on which $V$ is trivial, a
 frame $\tau:V\times_SU\xrightarrow{\sim}\mathbf A^d_U$ transports the integration
@@ -14,7 +14,7 @@ $$
 $$
 
 These maps commute with base change in $U$: the construction uses only
-$c_1(\mathcal O_{\mathbf P^1_U}(1))$, the splitting of $Rq_*$ of [sk-lem-sp-p1] and
+$c_1(\mathcal O_{\mathbf P^1_U}(1))$, the splitting of $Rq_*$ of [sk-prop-geo-p1-adjunction] and
 localization at infinity, and pullback preserves the Kummer class while proper
 base change and localization identify the pulled-back constructions with those
 over the new base.

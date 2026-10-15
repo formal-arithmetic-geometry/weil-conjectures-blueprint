@@ -2,8 +2,8 @@
 id = "sk-prop-sp-tower-geometric"
 kind = "proposition"
 title = "The tower model of the smooth adjunction"
-order = 1829
-uses = ["sk-def-sp-normalized-towers", "sk-lem-sp-tower-levels", "sk-lem-sp-tower-bound", "sk-lem-sp-reduction", "sk-lem-sp-p1", "sk-lem-sp-finite-existence", "sk-prop-an", "sk-thm-dnc"]
+order = 1826
+uses = ["sk-def-sp-normalized-towers", "sk-lem-sp-tower-levels", "sk-lem-sp-tower-bound", "sk-lem-sp-reduction", "sk-prop-geo-p1-adjunction", "sk-lem-sp-finite-existence", "sk-prop-an", "sk-thm-dnc"]
 tags = ["sketch"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$. There is an

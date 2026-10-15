@@ -2,7 +2,7 @@
 id = "sk-rem-closed-support"
 kind = "remark"
 title = "Sections with support at the origin of the affine line"
-order = 1565
+order = 1563
 tags = ["sketch"]
 +++
 Let $X=\mathbf A^1_k$ with $k$ algebraically closed, let $Z$ be the origin and

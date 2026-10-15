@@ -2,7 +2,7 @@
 id = "sk-lem-geo-finite-boundary"
 kind = "lemma"
 title = "Detection by a proper direct image"
-order = 1552
+order = 1550
 tags = ["sketch"]
 +++
 Let $b:Y\to S$ be proper, let $u:G\hookrightarrow Y$ be an open immersion with

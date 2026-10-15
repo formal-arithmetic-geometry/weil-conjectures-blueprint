@@ -2,7 +2,7 @@
 id = "sk-cor-pbc-proet-finite"
 kind = "corollary"
 title = "Classical finite coefficients on the pro-étale site"
-order = 1069
+order = 1065
 uses = ["sk-thm-properbasechange", "sk-thm-pe-constructible-comparison"]
 tags = ["sketch"]
 +++

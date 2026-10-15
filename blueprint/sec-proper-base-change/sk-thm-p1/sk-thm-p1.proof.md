@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-thm-p1"
-uses = ["sk-def-conv", "sk-def-ia", "sk-prop-pbc-p1-henselian", "sk-lem-pbc-curve-field-extension"]
+uses = ["sk-def-conv", "sk-def-ia", "sk-prop-pbc-p1-henselian", "sk-cor-curve-invariance"]
 +++
 *Strict-local stalks.* For a quasi-compact quasi-separated $f:Z\to S$, a
 geometric point $\bar s$, and an abelian étale sheaf $G$,
@@ -44,7 +44,7 @@ $\mathbf P^1_{V\times_ST}$. Passing to the two strict localization limits
 gives exactly the middle arrow. The bottom square is naturality of
 restriction to the closed fibres.
 
-The bottom arrow is an isomorphism by [sk-lem-pbc-curve-field-extension].
+The bottom arrow is an isomorphism by [sk-cor-curve-invariance].
 Hence every geometric stalk of $g^{-1}R^qp_*F\to R^qp'_*g'^{-1}F$ is an
 isomorphism. Geometric stalks are conservative, so exchange for $F$ is an
 isomorphism in $D^+(T_{\Et},\mathbf Z)$. Cohomology and higher direct image of

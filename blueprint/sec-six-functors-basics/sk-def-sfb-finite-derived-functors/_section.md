@@ -2,7 +2,7 @@
 id = "sk-def-sfb-finite-derived-functors"
 kind = "definition"
 title = "Derived pushforward and pullback (finite coefficients)"
-order = 1684
+order = 1681
 uses = ["sk-def-sfb-derived-categories", "sk-def-sfb-finite-lower-shriek"]
 lean = ["AlgebraicGeometry.ProEtale.leftDerivedUpperStarIsoMapDerivedCategory", "AlgebraicGeometry.ProEtale.derivedUpperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.derivedUpperStarLowerStarAdjunctionPlus", "AlgebraicGeometry.ProEtale.derivedOpenImmersionLowerShriekUpperStarAdjunction", "AlgebraicGeometry.ProEtale.derivedOpenImmersionLowerShriekUpperStarAdjunctionPlus"]
 tags = ["sketch"]

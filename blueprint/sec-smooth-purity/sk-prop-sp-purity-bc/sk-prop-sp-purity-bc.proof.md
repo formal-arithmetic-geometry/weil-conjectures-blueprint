@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-prop-sp-purity-bc"
-uses = ["sk-prop-sp-exceptional-bc", "sk-prop-sp-tower-geometric"]
+uses = ["sk-prop-cohsm", "sk-prop-sp-tower-geometric"]
 +++
 For a finite ring $A$ the following orientation and counit calculation is made
 directly with $A$-coefficients. For $\mathcal O_E$ we make it for the tower
@@ -35,6 +35,6 @@ $e_{f,\bullet}$, the transpose of the pulled-back tensor map is the pulled-back
 counit for $f$, preceded by the projection-formula map in
 $\Dctf(Y'_{\mathrm{proét}},\mathcal O_E/\ell^\bullet)$; by naturality of the projection
 formula under pullback, the transpose of the tensor map for $f'$ is the same
-composite. This is the counit calculation of [sk-prop-sp-exceptional-bc],
+composite. This is the counit calculation of [sk-prop-cohsm],
 carried out with towers. So the transposes, and hence the tensor maps, are
 equal.

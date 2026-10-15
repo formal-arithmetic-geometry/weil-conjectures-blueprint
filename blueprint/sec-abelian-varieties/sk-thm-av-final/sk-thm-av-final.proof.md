@@ -85,7 +85,7 @@ $T_\ell A$ of [sk-def-av-tate] is $\Z_\ell^{2g}$; this is
 
 The Jacobian instance of these statements is not treated here: the
 representability of $\Pic^0_{C/k}$ by an abelian variety is
-[sk-prop-jacobian] and, over an arbitrary field,
+[sk-thm-picard-main] and, over an arbitrary field,
 [sk-prop-jacobian-descent] ([sec-picard-framework]); the Kummer
 identification of $H^1$ of a curve with the Tate module of its
 Jacobian is part of the real-purity section ([sk-d-real-jacobian]).

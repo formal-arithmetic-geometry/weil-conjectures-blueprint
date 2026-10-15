@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-lem-uniform-constructible-ext"
-uses = ["sk-lem-coefficient-heart", "sk-lem-formal-closed-support", "sk-lem-formal-closed-support-ii", "sk-lem-stratified-lattice", "sk-lem-constructible-ext-continuity", "sk-lem-coefficient-finite-descent", "sk-lem-base-field-cd", "sk-def-cd"]
+uses = ["sk-lem-coefficient-heart", "sk-lem-formal-closed-support", "sk-lem-formal-closed-support-ii", "sk-lem-stratified-lattice", "sk-lem-constructible-ext-continuity", "sk-thm-sfb-qlbar-two-colimit", "sk-lem-base-field-cd", "sk-def-cd"]
 +++
 By the long exact Ext sequences, a bound that holds for every subquotient of a finite filtration of
 the source holds for the source (take the maximum), and a bound that holds for every subquotient of a
@@ -91,7 +91,7 @@ and by part (2) of [sk-lem-constructible-ext-continuity] the cohomology of the r
 colimit of the groups $\Ext^q_{\mathcal O_E}(a_!L_0,b_!M_0)$. So the integral bound gives the bound for
 $E$.
 
-*The case $\Lambda=\Qlb$.* By [sk-lem-coefficient-finite-descent], $a_!L$ and $b_!M$ are extensions of
+*The case $\Lambda=\Qlb$.* By [sk-thm-sfb-qlbar-two-colimit], $a_!L$ and $b_!M$ are extensions of
 scalars of sheaves defined over a common finite $E$. Since $\overline{\mathbf Q}_{\ell,X}=\varinjlim_{E'}E'_X$
 is flat over $E_X$, extension and restriction of scalars and [sk-lem-constructible-ext-continuity]
 identify $\Ext^q_{\Qlb}(a_!L,b_!M)$ with the colimit of the corresponding groups over finite

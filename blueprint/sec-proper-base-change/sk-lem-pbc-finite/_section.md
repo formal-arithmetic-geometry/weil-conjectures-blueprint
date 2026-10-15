@@ -2,7 +2,7 @@
 id = "sk-lem-pbc-finite"
 kind = "lemma"
 title = "Finite morphisms"
-order = 1060
+order = 1057
 uses = ["sk-def-exchange", "sk-def-conv"]
 tags = ["sketch"]
 +++

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of    = "sk-prop-scalar-six"
-uses = ["sk-prop-sfb-module-derived-factorization", "sk-prop-ctf-finite-comparison", "sk-lem-bounded-continuity", "sk-thm-existence", "sk-prop-geo-p1-adjunction", "sk-prop-diagonal-tower"]
+uses = ["sk-prop-sfb-module-derived-factorization", "sk-prop-ctf-finite-comparison", "sk-cor-pe-bounded-continuity", "sk-thm-existence", "sk-prop-geo-p1-adjunction", "sk-prop-diagonal-tower"]
 +++
 It suffices to treat the listed elementary maps. A perfect local model on a stratum remains perfect after
 derived extension of scalars. Extension of scalars also commutes with extension by zero and with finite
@@ -41,7 +41,7 @@ computed by finite sums and a cone, which commute with the exact derived functor
 $\mathcal O_E\to\mathcal O_F$ and $E\to F$ the coefficient extension is finite free, so the assertion follows from finite
 sums. For $\mathcal O_E\to E$, use the system $K\xrightarrow{\ell}K\xrightarrow{\ell}\cdots$; for $E\to\Qlb$, use the
 filtered system of finite field extensions. Since $K$ is bounded and these systems have a common lower bound,
-[sk-lem-bounded-continuity] commutes their colimits with $Rf_*$. This proves the direct-image comparison in
+[sk-cor-pe-bounded-continuity] commutes their colimits with $Rf_*$. This proves the direct-image comparison in
 all cases ([det-sfb-coefficient-comparisons-direct-image]).
 
 *Compactly supported direct image.* For $f=pj$, combine the preceding comparison for $Rp_*$ with the one for

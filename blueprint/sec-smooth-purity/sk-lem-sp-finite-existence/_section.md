@@ -2,7 +2,7 @@
 id = "sk-lem-sp-finite-existence"
 kind = "lemma"
 title = "Local computation of the finite Brown adjoint"
-order = 1815
+order = 1814
 uses = ["sk-prop-sf-existence", "sk-lem-geo-affine-local", "sk-prop-sp-et-proet"]
 tags = ["sketch"]
 +++

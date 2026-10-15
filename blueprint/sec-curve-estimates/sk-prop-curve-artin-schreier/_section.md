@@ -2,7 +2,7 @@
 id = "sk-prop-curve-artin-schreier"
 kind = "proposition"
 title = "Characteristic torsion on a smooth proper curve"
-order = 884
+order = 886
 uses = ["sk-def-curve", "sk-prop-sf-comparison"]
 tags = ["sketch"]
 +++

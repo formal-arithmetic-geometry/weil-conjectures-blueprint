@@ -2,7 +2,7 @@
 id = "sk-lem-pbc-symmetric-product"
 kind = "lemma"
 title = "A finite cover of projective space"
-order = 1062
+order = 1059
 uses = ["sk-def-pbc", "sk-lem-pbc-finite", "sk-lem-pbc-composition-cancellation", "sk-prop-av-pqf-finite"]
 tags = ["sketch"]
 +++

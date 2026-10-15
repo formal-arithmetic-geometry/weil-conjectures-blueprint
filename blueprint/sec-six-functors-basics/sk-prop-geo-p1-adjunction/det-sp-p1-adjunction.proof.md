@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "det-sp-p1-adjunction"
-uses = ["det-sp-p1-trace", "thm-amb-p1-adjunction", "sk-prop-sp-et-proet"]
+uses = ["det-sp-p1-trace", "thm-amb-p1-adjunction", "sk-prop-pe-unbounded-classical"]
 +++
 *First identity.* Using composition of direct images, $qp_1=qp_2$, proper base
 change and the projection formula, the composite
@@ -39,5 +39,5 @@ change on $S$, hence so are $\eta$ and $\varepsilon$.
 
 *Restriction to $\Dctf$.* $Rq_*$ preserves $\Dctf$ (proper direct image), and
 $q^*(-)(1)[2]$ preserves $\Dctf$ (inverse image, twist by an invertible sheaf,
-shift). The comparison of [sk-prop-sp-et-proet] transports the étale adjunction
+shift). The comparison of [sk-prop-pe-unbounded-classical] transports the étale adjunction
 to the pro-étale categories, Hom groups agreeing by full faithfulness.

@@ -24,5 +24,5 @@ when its terms have the required uniform bounds. No common local
 model is needed for that lemma. Unverified towers and other coefficient
 systems retain the scope distinctions of [rem-sf-tower-shapes-occurring].
 1. An ambient adjunction outside the comparison class remains outside
-these claims, as in [open-sf-ambient-adjoint-input] and
+these claims, as in [sk-rem-sf-fullcd-scope] and
 [rem-sf-class-adjoint-residue].

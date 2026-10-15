@@ -2,7 +2,7 @@
 id = "sk-prop-pbc-complete"
 kind = "proposition"
 title = "Proper base change for complete integral complexes"
-order = 1070
+order = 1066
 uses = ["sk-cor-pbc-proet-finite", "sk-def-pe-derived-completion"]
 tags = ["sketch"]
 +++

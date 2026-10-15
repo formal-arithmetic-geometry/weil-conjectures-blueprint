@@ -2,7 +2,7 @@
 id = "sk-prop-curve-affine-kummer"
 kind = "proposition"
 title = "Cohomology of a smooth affine curve"
-order = 883
+order = 885
 uses = ["sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-thm-curveestimate"]
 tags = ["sketch"]
 +++

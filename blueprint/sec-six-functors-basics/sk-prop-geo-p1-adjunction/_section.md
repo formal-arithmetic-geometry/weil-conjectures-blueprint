@@ -2,7 +2,7 @@
 id = "sk-prop-geo-p1-adjunction"
 kind = "proposition"
 title = "The projective-line adjunction"
-order = 1548
+order = 1546
 uses = ["sk-lem-geo-p1-cohomology", "sk-lem-geo-cartier"]
 tags = ["sketch"]
 +++
@@ -40,3 +40,11 @@ the first arrow being the projection formula and $\operatorname{Tr}_p$ the
 trace (G3). Both are compatible with base change in the standing range (as
 natural transformations of functors between the categories over $S'$, for
 $g:S'\to S$) and with change of finite coefficients.
+
+*Complement.* The triangle identities rest on the diagonal integrals (G5):
+with $\operatorname{Tr}_{p_a}$ the base change of $\operatorname{Tr}_p$ along
+$p_a$, one has $\operatorname{Tr}_{p_a}\circ Rp_{a*}\delta=\mathrm{id}_{\Lambda_{\mathbf P^1_S}}$
+for $a=1,2$. Moreover both functors preserve the subcategories of constructible
+complexes of finite Tor amplitude, so for $\Lambda=\mathbf Z/\ell^n\mathbf Z$ the
+adjunction (G4), with the same unit and counit, restricts to
+$Rp_*:\Dctf(\mathbf P^1_{S,\mathrm{proét}},\mathbf Z/\ell^n\mathbf Z)\rightleftarrows\Dctf(S_{\mathrm{proét}},\mathbf Z/\ell^n\mathbf Z):p^*(-)(1)[2]$.

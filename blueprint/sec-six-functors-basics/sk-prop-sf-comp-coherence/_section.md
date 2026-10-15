@@ -2,7 +2,7 @@
 id = "sk-prop-sf-comp-coherence"
 kind = "proposition"
 title = "Construction and independence of $Rf_!$"
-order = 1536
+order = 1534
 uses = ["sk-def-sf-operations", "sk-prop-nagata-sketch-comp-category", "sk-thm-properbasechange", "sk-def-localizing-closure"]
 lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison", "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison_id", "AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusComparison_comp"]
 tags = ["sketch"]

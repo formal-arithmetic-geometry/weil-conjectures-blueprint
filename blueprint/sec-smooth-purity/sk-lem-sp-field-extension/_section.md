@@ -2,7 +2,7 @@
 id = "sk-lem-sp-field-extension"
 kind = "lemma"
 title = "Compatibility with finite extensions of $E$"
-order = 1833
+order = 1830
 uses = ["sk-prop-sp-rational", "sk-lem-sp-reduction", "sk-prop-sp-integral-adjunction"]
 tags = ["sketch"]
 +++

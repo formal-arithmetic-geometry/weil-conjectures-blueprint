@@ -2,7 +2,7 @@
 id = "sk-prop-sf-existence"
 kind = "theorem"
 title = "Existence of the exceptional inverse image"
-order = 1543
+order = 1541
 uses = ["sk-prop-sf-comparison", "sk-prop-sf-comp-coherence", "sk-def-localizing-closure"]
 lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekAdjunction", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekAdjunction"]
 tags = ["sketch"]

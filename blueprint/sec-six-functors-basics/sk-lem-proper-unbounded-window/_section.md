@@ -2,7 +2,7 @@
 id = "sk-lem-proper-unbounded-window"
 kind = "lemma"
 title = "Proper direct image of unbounded complexes"
-order = 1531
+order = 1529
 uses = ["sk-lem-proper-heart-bound", "sk-cor-ambient-ind-derived"]
 tags = ["sketch"]
 +++

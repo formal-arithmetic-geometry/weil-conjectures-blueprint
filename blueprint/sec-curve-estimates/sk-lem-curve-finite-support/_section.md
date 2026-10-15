@@ -2,7 +2,7 @@
 id = "sk-lem-curve-finite-support"
 kind = "lemma"
 title = "Finite-support sheaves and finite maps"
-order = 887
+order = 888
 uses = ["sk-def-curve", "sk-prop-sf-comparison"]
 tags = ["sketch"]
 +++

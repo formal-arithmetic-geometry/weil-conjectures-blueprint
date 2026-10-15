@@ -2,7 +2,7 @@
 id = "sk-rem-pbc-fibrewise-properness"
 kind = "remark"
 title = "Fibrewise computation and the need for properness"
-order = 1071
+order = 1067
 tags = ["sketch"]
 +++
 For a proper $p:X\to Y$ and a geometric point $\bar y\to Y$, the torsion

@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-near-closure"
 kind = "lemma"
 title = "An isomorphism near a boundary closure"
-order = 14
+order = 15
 uses = ["sk-def-nagata-admissible"]
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isIso_strictTransformMap_near_closure"]
 tags = ["sketch"]

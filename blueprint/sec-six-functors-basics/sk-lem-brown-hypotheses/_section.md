@@ -2,7 +2,7 @@
 id = "sk-lem-brown-hypotheses"
 kind = "lemma"
 title = "Hypotheses of Brown representability"
-order = 1542
+order = 1540
 uses = ["sk-def-localizing-closure", "sk-prop-ctf-finite-compact", "sk-thm-constructible-compactness", "sk-prop-int-compactness"]
 tags = ["sketch"]
 +++

@@ -3,13 +3,13 @@ kind  = "proof"
 of    = "det-thm-sfb-proper-base-change-rational"
 +++
 (1) $K[1/\ell]=\varinjlim(K\xrightarrow{\ell}K\to\cdots)$ termwise, a filtered system with a common
-lower bound; $R^qp_*$ commutes with it by [sk-lem-bounded-continuity] ($p$ is qcqs). So the
+lower bound; $R^qp_*$ commutes with it by [sk-cor-pe-bounded-continuity] ($p$ is qcqs). So the
 canonical map $(Rp_*K)[1/\ell]\to Rp_*(K[1/\ell])$ is an isomorphism on cohomology sheaves. For a
 finite $F/E$, $F_X\cong E_X^{[F:E]}$ as $E_X$-modules
 ([det-prop-sfb-cartesian-coefficients-finite-free]), compatibly with pullback, so $K_F$ is a
 finite direct sum of copies of $K$ and $Rp_*$ commutes with it. For $\Qlb$, write
 $K_{\Qlb}=\varinjlim_FK_F$, again a bounded below filtered colimit, and apply
-[sk-lem-bounded-continuity].
+[sk-cor-pe-bounded-continuity].
 
 (2) By [det-lem-integral-models-generators], $\Dbc(X,E)$ is generated under finitely many
 cones and shifts by $(a_!L_0)[1/\ell]$ with $a_!L_0\in\Dbc(X,\cO_E)$, and $\Dbc(X,\Qlb)$ by

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-lem-int-ext"
-uses = ["sk-lem-int-integral-heart", "sk-lem-formal-closed-support", "sk-lem-bounded-continuity", "sk-lem-constructible-ext-continuity", "sk-def-cd"]
+uses = ["sk-lem-int-integral-heart", "sk-lem-formal-closed-support", "sk-cor-pe-bounded-continuity", "sk-lem-constructible-ext-continuity", "sk-def-cd"]
 +++
 Both statements reduce, by the long exact Ext sequences of a finite
 filtration of $C$, to $C=a_!L$, where $a=i\circ u:S\hookrightarrow X$ is the
@@ -22,7 +22,7 @@ By [sk-lem-int-integral-heart](3), tensoring with the dual
 $\cHom_{\mathcal O_{E,S}}(L,\mathcal O_{E,S})$ has Tor amplitude $[0,1]$ and
 commutes with filtered colimits.
 
-(1) The proof of [sk-lem-bounded-continuity] works for any sheaf of rings.
+(1) The proof of [sk-cor-pe-bounded-continuity] works for any sheaf of rings.
 Apply it to the two terms of the fibre sequence defining
 $R\underline\Gamma_Z$ (as in the proof of
 [sk-lem-constructible-ext-continuity]) and use that tensoring with the dual

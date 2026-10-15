@@ -17,9 +17,9 @@ as $E$-modules, compatibly with $Rf_*$; restriction of scalars is conservative, 
 isomorphism.
 
 *$\mathcal O_E\to E$.* $K_E=K[1/\ell]=\varinjlim(K\xrightarrow{\ell}K\xrightarrow{\ell}\cdots)$, a filtered colimit of
-complexes with a common lower bound (as $K$ is bounded). By [sk-lem-bounded-continuity],
+complexes with a common lower bound (as $K$ is bounded). By [sk-cor-pe-bounded-continuity],
 $R^qf_*$ commutes with this colimit, so $\mathcal H^q(Rf_*(K_E))=\varinjlim\mathcal H^q(Rf_*K)=\mathcal H^q((Rf_*K)_E)$, via the
 comparison map.
 
 *$E\to\Qlb$.* $K_{\Qlb}=\varinjlim_{F}K_F$ over finite $F\supset E$, again a filtered system with a common lower
-bound; combine [sk-lem-bounded-continuity] with the finite case $E\to F$.
+bound; combine [sk-cor-pe-bounded-continuity] with the finite case $E\to F$.

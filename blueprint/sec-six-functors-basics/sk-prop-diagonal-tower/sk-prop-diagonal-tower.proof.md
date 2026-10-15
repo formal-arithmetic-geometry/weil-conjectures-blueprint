@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-prop-diagonal-tower"
-uses = ["sk-lem-geo-cartier", "sk-lem-geo-p1-cohomology", "sk-prop-geo-p1-adjunction", "sk-prop-pe-replete", "sk-prop-pe-products", "sk-lem-integral-models", "sk-lem-bounded-continuity", "sk-prop-sfb-cartesian-coefficients"]
+uses = ["sk-lem-geo-cartier", "sk-lem-geo-p1-cohomology", "sk-prop-geo-p1-adjunction", "sk-prop-pe-replete", "sk-prop-pe-products", "sk-lem-integral-models", "sk-cor-pe-bounded-continuity", "sk-prop-sfb-cartesian-coefficients"]
 +++
 All products are over $Y$. We build the torsion cycle classes for all $n$ at
 once as one morphism of inverse systems, apply $R\varprojlim$, and prove the
@@ -154,7 +154,7 @@ $\ell^n$ and modulo $\pi_E^n$ are cofinal. This gives $\delta_{\mathcal O_E}$,
 its trace and its identities. Inverting $\ell$ and the filtered colimit over
 finite extensions of $E$ give $\delta_E$, $\delta_{\Qlb}$ and their traces;
 direct image commutes with these colimits of bounded below objects
-([sk-lem-bounded-continuity]), so the identities are preserved.
+([sk-cor-pe-bounded-continuity]), so the identities are preserved.
 
 For a morphism $g:Y'\to Y$, the diagonal and the sections remain Cartier
 divisors after base change, and the Cartier extension and the Kummer maps are

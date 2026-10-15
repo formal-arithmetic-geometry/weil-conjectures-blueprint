@@ -22,7 +22,14 @@ and neither these nor anything they depend on uses the present theorem. The
 compact-support form on closed subschemes is the case of the morphisms
 $Z\to\mathrm{Spec}\,k$, $W\to\mathrm{Spec}\,k$ and the objects $i_Z^*K$,
 $i_W^*L$ (pullback preserves $\Dctf$), using
-$i_Z^*K\boxtimes i_W^*L=(i_Z\times i_W)^*(K\boxtimes L)$. Coherence:
+$i_Z^*K\boxtimes i_W^*L=(i_Z\times i_W)^*(K\boxtimes L)$. The supported product over a general base $B$ is
+$\kappa^{\mathrm{rel}}$ applied to $i_*i^*K$ and $j_*j^*L$ (which lie in
+$\Dctf$, since $i^*$ and the exact functor $i_*$ preserve constructibility and
+Tor amplitude), using that the exterior product of extensions by zero along
+closed immersions is the extension by zero of the exterior product:
+$(i_*i^*K)\boxtimes(j_*j^*L)\cong(i\times_Bj)_*(i\times_Bj)^*(K\boxtimes L)$.
+Since $i$ and $j$ are proper, $Rf_!i_*=R(fi)_!$ and $Rg_!j_*=R(gj)_!$, so for
+$B=\mathrm{Spec}\,k$ this recovers the compact-support form above. Coherence:
 (iv) holds by construction, since $\alpha_{\mathrm{id},f}$,
 $\operatorname{Ex}_!$ of an identity square and $\operatorname{PF}_{\mathrm{id}}$
 are identities ([sk-thm-sf-comp-composition], [sk-prop-sf-cbc],

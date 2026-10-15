@@ -2,8 +2,8 @@
 id = "sk-lem-proper-heart-bound"
 kind = "lemma"
 title = "A uniform bound for proper direct image"
-order = 1530
-uses = ["sk-prop-ind-heart", "sk-lem-proper-heart-continuity"]
+order = 1528
+uses = ["sk-prop-ind-heart", "sk-cor-pe-bounded-continuity"]
 tags = ["sketch"]
 +++
 Let $\Lambda=E$ or $\Qlb$. Let $p\colon X\to Y$ be proper, and let $d$ be an integer bounding the dimensions

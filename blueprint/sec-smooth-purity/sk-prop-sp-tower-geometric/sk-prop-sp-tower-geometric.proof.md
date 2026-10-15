@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-prop-sp-tower-geometric"
-uses = ["sk-lem-sp-tower-levels", "sk-lem-sp-p1", "sk-lem-sp-finite-existence", "sk-lem-sp-reduction"]
+uses = ["sk-lem-sp-tower-levels", "sk-prop-geo-p1-adjunction", "sk-lem-sp-finite-existence", "sk-lem-sp-reduction"]
 +++
 We repeat the finite construction in the ringed topos of towers on
 $T_{\mathrm{proét}}$, with coefficient ring $\mathcal O_{E,T}/\ell^\bullet$, and
@@ -41,7 +41,7 @@ Rq_{*,\bullet}\mathcal O_{E,\mathbf P^1_S}/\ell^\bullet.
 $$
 
 It is an isomorphism, since by [sk-lem-sp-tower-levels] it evaluates at each
-level to the projective-line splitting of [sk-lem-sp-p1], and evaluations
+level to the projective-line splitting of [sk-prop-geo-p1-adjunction], and evaluations
 jointly detect isomorphisms. Let $\operatorname{Tr}_{q,\bullet}$ be the projection
 onto the twisted second summand.
 
@@ -62,7 +62,7 @@ Rp_{2*,\bullet}p_1^*M_\bullet(1)[2]
 \end{aligned}
 $$
 
-As in [sk-lem-sp-p1], proper base change and the projection formulas in this
+As in [sk-prop-geo-p1-adjunction], proper base change and the projection formulas in this
 topos reduce the triangle identities to
 
 $$

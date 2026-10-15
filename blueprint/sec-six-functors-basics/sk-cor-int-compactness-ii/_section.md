@@ -2,7 +2,7 @@
 id = "sk-cor-int-compactness-ii"
 kind = "corollary"
 title = "Integral extension by zero on the localizing categories"
-order = 1573
+order = 1571
 uses = ["sk-lem-int-tensor", "sk-prop-int-compactness"]
 tags = ["sketch"]
 +++

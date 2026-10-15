@@ -2,7 +2,7 @@
 id = "sk-prop-closed-adjoint-constructible"
 kind = "proposition"
 title = "Exceptional inverse image along a closed immersion"
-order = 1566
+order = 1564
 uses = ["sk-lem-formal-closed-support", "sk-prop-open-coefficients", "sk-prop-sf-existence"]
 tags = ["sketch"]
 +++

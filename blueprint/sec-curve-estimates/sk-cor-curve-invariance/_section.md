@@ -2,7 +2,7 @@
 id = "sk-cor-curve-invariance"
 kind = "corollary"
 title = "Proper curves over separably closed fields"
-order = 891
+order = 880
 uses = ["sk-thm-curve-package", "sk-def-curve"]
 tags = ["sketch"]
 +++

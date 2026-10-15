@@ -2,8 +2,8 @@
 id = "sk-lem-int-ext"
 kind = "lemma"
 title = "Continuity and boundedness of Ext"
-order = 1571
-uses = ["sk-lem-int-integral-heart", "sk-lem-formal-closed-support", "sk-lem-bounded-continuity"]
+order = 1569
+uses = ["sk-lem-int-integral-heart", "sk-lem-formal-closed-support", "sk-cor-pe-bounded-continuity"]
 tags = ["sketch"]
 +++
 1. For $C\in\Dbc(X,\mathcal O_E)$, the functors

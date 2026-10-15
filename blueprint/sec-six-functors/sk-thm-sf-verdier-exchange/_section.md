@@ -2,7 +2,7 @@
 id = "sk-thm-sf-verdier-exchange"
 kind = "theorem"
 title = "Verdier-duality exchange"
-order = 2507
+order = 2503
 uses = ["sk-def-sf-operations", "sk-lem-sf-mate", "sk-thm-sf-comp-composition", "sk-thm-sf-tensor-hom"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_verdierDual_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_dualizingComplex"]
 tags = ["sketch"]

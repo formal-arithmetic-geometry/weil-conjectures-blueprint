@@ -2,7 +2,7 @@
 id = "sk-rem-sf-ledger"
 kind = "remark"
 title = "Ledger: what is unconditional, what is conditional, what is open"
-order = 2520
+order = 2515
 tags = ["sketch"]
 +++
 *Unconditional*: clauses (2), (3), (4), (7), (8) of

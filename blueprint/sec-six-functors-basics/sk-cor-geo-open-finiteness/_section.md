@@ -2,7 +2,7 @@
 id = "sk-cor-geo-open-finiteness"
 kind = "corollary"
 title = "Open direct image over a field"
-order = 1555
+order = 1553
 uses = ["sk-thm-geo-generic-open"]
 tags = ["sketch"]
 +++

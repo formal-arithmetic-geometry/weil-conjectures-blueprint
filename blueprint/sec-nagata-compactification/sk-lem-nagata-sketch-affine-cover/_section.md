@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-affine-cover"
 kind = "lemma"
 title = "Enough compactifiable affine opens"
-order = 17
+order = 18
 uses = ["sk-lem-nagata-sketch-closure"]
 lean = ["AlgebraicGeometry.Scheme.finiteAffineOpenCoverDenseIInter_spec", "AlgebraicGeometry.HasCompactification.of_isQuasiAffine"]
 tags = ["sketch"]

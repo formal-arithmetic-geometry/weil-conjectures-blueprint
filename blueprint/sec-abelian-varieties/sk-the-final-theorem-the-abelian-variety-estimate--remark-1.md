@@ -29,7 +29,7 @@ whole real-purity argument runs on are not part of this section; they
 belong to the real-purity section, built on [sk-d-real-jacobian], with the semilinear Galois
 action coming from the functoriality of the Jacobian.
 - **Jacobian**: the Jacobian itself is constructed later, in
-[sk-prop-jacobian] of [sec-picard-framework], resting on
+[sk-thm-picard-main] of [sec-picard-framework], resting on
 [sk-thm-picard-main], and over an arbitrary field in
 [sk-prop-jacobian-descent].
 

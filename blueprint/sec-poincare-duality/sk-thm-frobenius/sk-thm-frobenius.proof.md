@@ -5,7 +5,7 @@ of    = "sk-thm-frobenius"
 *Step 1 (each ingredient is equivariant).* The mixed-support cup
 product is induced by the tensor product of complexes and its
 $\Gamma_c$-realization, both of which are lifted to Weil complexes by the
-functoriality built into [sk-def-weil]; the evaluation is a morphism of
+functoriality built into [sk-def-sf-weil-complexes]; the evaluation is a morphism of
 Weil objects; and the orientation of [sk-def-sf-orientation] is
 Frobenius-equivariant, by the Weil equivariance of purity and trace
 (whose target datum on the coefficient ring is the canonical one).
@@ -16,7 +16,7 @@ data, and $\beta_K$ is a morphism of Weil objects from the tensor of the
 first two to the last. Evaluated on the tensor of two vectors this reads
 $\langle F_{c,K}x,F_{K^\vee(d)}y\rangle_i=F(\langle x,y\rangle_i)$; the
 target datum is the canonical one, so $F$ acts on $\Lambda$ as the
-identity by [sk-def-weil], which is the equivariance clause. Nothing
+identity by [sk-def-sf-weil-complexes], which is the equivariance clause. Nothing
 here depends on the coefficient stage: the identity holds for the
 $\Lambda$-bilinear map induced by $\beta_K$ on cohomology at every
 $\Lambda\in\{\AEn,\Oe,E,\Qlb\}$.
@@ -33,7 +33,7 @@ $$
 
 because the untwisted pairing is a morphism into the value line
 $\Lambda(-d)$ and $F$ acts on $\Lambda(-d)$ by $q^d$ by the
-normalization of [sk-def-weil].
+normalization of [sk-def-sf-weil-complexes].
 *Step 4 (reciprocity, field stages only).* This is the one step that
 needs a field stage. Over a field coefficient stage the degreewise pairing is
 perfect by [sk-thm-derived-duality], so the adjoint

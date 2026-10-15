@@ -7,7 +7,7 @@ of [det-lem-int-ext-formula](1), it suffices to treat $C=a_!L$. By
 [det-lem-int-ext-formula](2),
 $\Hom(a_!L,K[q])=H^q R\Gamma(S,L^\vee\otimes^{\mathbf L}u^*R\underline\Gamma_ZK)$.
 The functor $R\underline\Gamma_Z$ is the fibre of $K\to Rj_*j^*K$ (followed by
-$i^*$), and the proof of [sk-lem-bounded-continuity], which works for any
+$i^*$), and the proof of [sk-cor-pe-bounded-continuity], which works for any
 sheaf of rings, shows that $Rj_*$, $R\Gamma(S,-)$ and the exact functors $j^*$,
 $i^*$, $u^*$ commute with filtered colimits of complexes with a common lower
 bound; hence so does the fibre $R\underline\Gamma_Z$ (as in the proof of

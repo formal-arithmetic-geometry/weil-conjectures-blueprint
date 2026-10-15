@@ -2,10 +2,10 @@
 id = "det-sp-p1-adjunction"
 kind = "lemma"
 title = "Triangle identities for the projective-line adjunction"
-uses = ["det-sp-p1-trace", "thm-amb-p1-adjunction", "sk-prop-sp-et-proet"]
+uses = ["det-sp-p1-trace", "thm-amb-p1-adjunction", "sk-prop-pe-unbounded-classical"]
 +++
 With the notation of [det-sp-p1-trace], let $\varepsilon_K$ and $\eta_M$ be the
-counit and unit displayed in [sk-lem-sp-p1]. Then for all $M$ on $\mathbf P^1_S$
+counit and unit displayed in [sk-prop-geo-p1-adjunction]. Then for all $M$ on $\mathbf P^1_S$
 and $K$ on $S$ (in $D(-_{\mathrm{ét}},\Lambda_n)$, and hence on the classical
 pro-étale categories and on $\Dctf$):
 

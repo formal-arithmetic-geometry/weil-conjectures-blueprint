@@ -2,7 +2,7 @@
 id = "sk-thm-sf-pf-adic"
 kind = "lemma"
 title = "Open direct image and projection formula"
-order = 1575
+order = 1573
 uses = ["sk-def-sf-operations", "sk-prop-sf-pf-reduction", "sk-prop-open-coefficients", "sk-prop-proper-base-change-unbounded"]
 lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_of_derivedCompleteIntegral"]
 tags = ["sketch"]

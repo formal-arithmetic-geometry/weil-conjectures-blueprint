@@ -2,7 +2,7 @@
 id = "sk-prop-sf-fullcd-etale-origin"
 kind = "proposition"
 title = "$\\operatorname{FullCD}$ on the étale-origin class"
-order = 1708
+order = 1705
 uses = ["sk-def-sf-admissible", "sk-prop-sf-comparison", "sk-prop-sf-finiteness"]
 lean = ["AlgebraicGeometry.ProEtale.isZero_homology_rightDerivedLowerStar_comparisonUpperStar"]
 tags = ["sketch"]

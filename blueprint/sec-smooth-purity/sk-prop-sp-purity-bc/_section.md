@@ -2,8 +2,8 @@
 id = "sk-prop-sp-purity-bc"
 kind = "proposition"
 title = "Base change of purity"
-order = 1835
-uses = ["sk-prop-sp-exceptional-bc", "sk-thm-smooth-purity", "sk-prop-sp-tower-geometric", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-lem-sp-reduction"]
+order = 1832
+uses = ["sk-prop-cohsm", "sk-thm-smooth-purity", "sk-prop-sp-tower-geometric", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-lem-sp-reduction"]
 tags = ["sketch"]
 +++
 Fix a Cartesian square
@@ -21,7 +21,7 @@ coefficient ring and let $K\in\Dctf(Y,\Lambda)$. Identify the sources by
 $u_\Lambda^{*}f_\Lambda^{*}\simeq(f')_\Lambda^{*}v_\Lambda^{*}$, as functors
 $\Dctf(Y,\Lambda)\to\Dctf(X',\Lambda)$, and the targets by the exceptional base
 change isomorphism $u_\Lambda^*f_\Lambda^!K\simeq(f')^!_\Lambda v_\Lambda^*K$ of
-[sk-prop-sp-exceptional-bc] (defined by transposing the pulled-back counit
+[sk-prop-cohsm] (defined by transposing the pulled-back counit
 composed with the inverse of compact-support base change). Then
 
 $$

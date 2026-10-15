@@ -3,7 +3,7 @@ id = "sk-prop-av-ntorsion-etale"
 kind = "proposition"
 title = "The $n$-torsion of an abelian variety is étale"
 lean = ["AlgebraicGeometry.etale_torsionSubgroupScheme"]
-order = 567
+order = 566
 uses = ["sk-def-av", "sk-def-av-mult-n", "sk-prop-av-connected-order", "sk-prop-av-divisible", "sk-prop-av-divisible-structure", "sk-prop-av-finite-etale-points", "sk-prop-av-isogeny"]
 tags = ["sketch"]
 +++

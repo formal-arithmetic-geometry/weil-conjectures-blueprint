@@ -2,9 +2,9 @@
 id = "sk-thm-p1"
 kind = "proposition"
 title = "Proper base change for the projective line"
-order = 1058
+order = 1055
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine"]
-uses = ["sk-def-br", "sk-def-pbc", "sk-thm-curveestimate", "sk-thm-iff", "sk-def-exchange", "sk-def-ia", "sk-prop-pbc-p1-henselian", "sk-lem-pbc-curve-field-extension"]
+uses = ["sk-def-br", "sk-def-pbc", "sk-thm-curveestimate", "sk-thm-iff", "sk-def-exchange", "sk-def-ia", "sk-prop-pbc-p1-henselian", "sk-cor-curve-invariance"]
 tags = ["sketch"]
 +++
 Let $S$ be any scheme and $\Lambda$ any commutative ring. In the cartesian

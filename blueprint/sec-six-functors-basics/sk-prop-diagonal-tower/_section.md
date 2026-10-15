@@ -2,7 +2,7 @@
 id = "sk-prop-diagonal-tower"
 kind = "proposition"
 title = "The $\\ell$-adic cycle class of the diagonal"
-order = 1561
+order = 1559
 uses = ["sk-lem-geo-cartier", "sk-lem-geo-p1-cohomology", "sk-prop-geo-p1-adjunction"]
 tags = ["sketch"]
 +++

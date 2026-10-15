@@ -2,7 +2,7 @@
 id = "sk-thm-br"
 kind = "lemma"
 title = "Cohomology of the multiplicative group"
-order = 880
+order = 882
 uses = ["sk-def-av-pic", "sk-def-br", "sk-def-curve", "sk-prop-br-inj", "sk-prop-tsen", "sk-prop-hilbert90", "sk-prop-divisor-gen", "sk-def-cr", "sk-prop-sf-comparison"]
 lean = ["AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-lem-formal-closed-support-ii"
 kind = "lemma"
 title = "Closed support, truncation and derived limits"
-order = 1521
+order = 1520
 uses = ["sk-lem-formal-closed-support", "sk-prop-pe-products"]
 tags = ["sketch"]
 +++

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-prop-open-coefficients"
-uses = ["sk-thm-sfb-proper-base-change", "sk-cor-geo-open-finiteness", "sk-lem-integral-models", "sk-lem-bounded-continuity", "sk-cor-coefficient-heart-ii"]
+uses = ["sk-thm-sfb-proper-base-change", "sk-cor-geo-open-finiteness", "sk-lem-integral-models", "sk-cor-pe-bounded-continuity", "sk-cor-coefficient-heart-ii"]
 +++
 We follow [sk-thm-sfb-proper-base-change], with the open finiteness theorem
 [sk-cor-geo-open-finiteness] in place of proper finiteness.
@@ -23,7 +23,7 @@ and [sk-lem-integral-models](2) gives $Rj_*K\in\Dbc(X,\mathcal O_E)$.
 *Rational coefficients.* Inverting $\ell$ is the colimit of
 $K\xrightarrow{\ell}K\xrightarrow{\ell}\cdots$, and extension of scalars to
 $\Qlb$ is a filtered colimit over finite extensions of $E$. Both are colimits
-of systems with a common lower bound, so [sk-lem-bounded-continuity] shows
+of systems with a common lower bound, so [sk-cor-pe-bounded-continuity] shows
 that $Rj_*$ commutes with them. By the integral case, $Rj_*$ therefore maps
 the generators of [sk-lem-integral-models](4) into $\Dbc(X,E)$, respectively
 $\Dbc(X,\Qlb)$. Since these categories are triangulated

@@ -2,7 +2,7 @@
 id = "sk-prop-proper-base-change-unbounded"
 kind = "proposition"
 title = "Proper base change on the localizing categories"
-order = 1535
+order = 1533
 uses = ["sk-prop-proper-image-localizing", "sk-lem-sf-determination", "sk-prop-sfb-cartesian-coefficients"]
 tags = ["sketch"]
 +++

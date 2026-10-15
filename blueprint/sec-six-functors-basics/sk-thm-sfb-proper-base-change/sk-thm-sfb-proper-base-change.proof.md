@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sfb-proper-base-change"
-uses = ["sk-thm-properbasechange", "sk-cor-pbc-proet-finite", "sk-lem-bounded-continuity", "sk-cor-coefficient-heart-ii", "sk-prop-sfb-cartesian-coefficients"]
+uses = ["sk-thm-properbasechange", "sk-cor-pbc-proet-finite", "sk-cor-pe-bounded-continuity", "sk-cor-coefficient-heart-ii", "sk-prop-sfb-cartesian-coefficients"]
 +++
 *Finite coefficients.* For finite $A$, proper constructible finiteness and a uniform
 cohomological bound give bounded constructibility; the constant-module projection formula
@@ -47,13 +47,13 @@ already derived complete.) Details: [det-thm-sfb-proper-base-change-integral].
 
 *Rational coefficients.* For $K\in\Dbc(X,\cO_E)$, the complex $K[1/\ell]$ is the colimit of
 $K\xrightarrow{\ell}K\xrightarrow{\ell}\cdots$, a system with a common lower bound, so
-[sk-lem-bounded-continuity] gives
+[sk-cor-pe-bounded-continuity] gives
 $$
 Rp_*(K[1/\ell])\simeq(Rp_*K)[1/\ell]\quad\text{in }D(Y_{\mathrm{proét}},E).
 $$
 In the same way, $Rp_*$ commutes with extension of scalars to a finite $F/E$, as functors
 $D(X_{\mathrm{proét}},E)\to D(Y_{\mathrm{proét}},F)$ (which is a finite direct sum, by
-[sk-prop-sfb-cartesian-coefficients] (2)) and, by [sk-lem-bounded-continuity] again, with the
+[sk-prop-sfb-cartesian-coefficients] (2)) and, by [sk-cor-pe-bounded-continuity] again, with the
 filtered colimit $\QbarX\otimes_{E_X}-=\varinjlim_FF_X\otimes_{E_X}-$. Thus $Rp_*$ commutes with
 inverting $\ell$ and with extension of scalars to $\Qlb$. By the integral case, $Rp_*$
 therefore maps the generators of [sk-lem-integral-models] (4) into $\Dbc(Y,E)$ and

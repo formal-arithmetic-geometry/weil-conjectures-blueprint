@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-closure"
 kind = "lemma"
 title = "Schematic closure and uniqueness"
-order = 3
+order = 4
 uses = ["sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.Scheme.Hom.image", "AlgebraicGeometry.Compactification.ofIsImmersion", "AlgebraicGeometry.Compactification.denseRefinement", "AlgebraicGeometry.Compactification.baseChange"]
 tags = ["sketch"]

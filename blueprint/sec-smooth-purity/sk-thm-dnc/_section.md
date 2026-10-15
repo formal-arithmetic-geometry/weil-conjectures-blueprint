@@ -2,7 +2,7 @@
 id = "sk-thm-dnc"
 kind = "lemma"
 title = "A section and its normal bundle"
-order = 1819
+order = 1816
 uses = ["sk-def-purity-conv", "sk-lem-geometry", "sk-prop-a1-inv", "sk-prop-an", "sk-prop-cohsm"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_sectionInvariant_normalCone"]
 tags = ["sketch"]

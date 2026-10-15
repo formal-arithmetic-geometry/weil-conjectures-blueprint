@@ -71,3 +71,10 @@ isomorphism on a cover of $X'$.
 Applying the same calculation to (G13), base change respects its projection
 map and its counit, and the resulting commutative square is the compatibility
 of (G11) with (G12).
+
+*The complement.* The descriptions of (G11) and (G12) as adjoints are their
+definitions via (G13) and (G14), and the chart formula is (G15). For
+$N\in\Dctf(S_{\mathrm{proét}},\mathbf Z/\ell^n\mathbf Z)$, (G11) gives
+$f^!N\simeq f^*N\otimes^{\mathbf L}\omega_f$; $f^*N$ is constructible of finite Tor
+amplitude, and tensoring with the invertible object $\omega_f$ (locally
+$\Lambda_X(d)[2d]$) preserves this, so $f^!N\in\Dctf(X_{\mathrm{proét}},\mathbf Z/\ell^n\mathbf Z)$.

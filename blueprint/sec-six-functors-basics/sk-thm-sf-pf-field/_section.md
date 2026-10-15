@@ -2,7 +2,7 @@
 id = "sk-thm-sf-pf-field"
 kind = "proposition"
 title = "Projection formula and proper base change with rational coefficients"
-order = 1562
+order = 1560
 uses = ["sk-prop-proper-base-change-unbounded"]
 lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_field"]
 tags = ["sketch"]

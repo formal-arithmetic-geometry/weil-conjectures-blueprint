@@ -2,8 +2,8 @@
 id = "sk-rem-sf-fullcd-scope"
 kind = "remark"
 title = "What this does and does not discharge"
-order = 2490
-uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-prop-sf-existence"]
+order = 2488
+uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-prop-sf-existence", "thm-sf-ambient-adjoint-class"]
 tags = ["sketch"]
 +++
 [sk-prop-sf-fullcd-etale-origin] is the form of
@@ -76,3 +76,15 @@ the duality, trace and weight chapters use. Their terminal statements
 [sk-thm-tracetodeterminant], [sk-prop-rootpurity]) therefore hold for
 every smooth proper geometrically connected $X_0$ with no admissibility
 hypothesis.
+
+*Where the class adjoint stops.* The comparison construction of
+[thm-sf-ambient-adjoint-class] provides the exceptional right adjoint relative
+to bounded-below inputs of étale origin. It suffices for the bounded
+constructible class; its finite-coefficient preservation is
+[thm-sf-preservation-class]. An adjunction for arbitrary unbounded pro-étale
+complexes is not proved by that comparison and is not used as an automatic
+consequence (see [rem-sf-class-adjoint-residue]); by the counterexample above
+it is false in general. General finite-coefficient Verdier biduality is
+independently proved in [thm-fix-general-biduality], and its boundary exchange
+is [cor-weil-boundary-duality-discharge]; neither needs the unrestricted
+ambient adjunction.

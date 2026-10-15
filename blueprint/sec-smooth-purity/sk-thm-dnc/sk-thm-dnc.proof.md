@@ -1,11 +1,11 @@
 +++
 kind = "proof"
 of = "sk-thm-dnc"
-uses = ["sk-prop-sp-exceptional-bc", "sk-prop-sp-tensor"]
+uses = ["sk-prop-cohsm"]
 +++
-By [sk-prop-sp-exceptional-bc], applied to the inclusions of the fibres $t=1$
+By [sk-prop-cohsm], applied to the inclusions of the fibres $t=1$
 and $t=0$, the restrictions of $\widetilde s^*\omega_{\widetilde g}$ to $t=1$ and
-$t=0$ are $s^*\omega_g$ and $z^*\omega_\pi$. By [sk-prop-sp-tensor], both
+$t=0$ are $s^*\omega_g$ and $z^*\omega_\pi$. By [sk-prop-cohsm], both
 $\widetilde s^*\omega_{\widetilde g}[-2d]$ and $s^*\omega_g[-2d]$ are locally
 constant sheaves, free of rank one over $\mathbf Z/\ell^n\mathbf Z$. Morphisms between
 two such complexes are therefore morphisms of sheaves, and they glue.

@@ -2,9 +2,9 @@
 id = "sk-thm-sf-kunneth-relative"
 kind = "theorem"
 title = "Relative product theorem"
-order = 2513
+order = 2509
 uses = ["sk-lem-sf-mate", "sk-prop-sf-cbc", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_externalProduct"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_externalProduct", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_externalProduct_closedImmersion", "AlgebraicGeometry.Etale.nonempty_iso_compactlySupported_externalProduct_closedImmersion"]
 tags = ["sketch"]
 +++
 Let $B$ be a separated finite-type $k$-scheme, let $f:X\to B$ and $g:Y\to B$ be
@@ -64,6 +64,16 @@ $g=\mathrm{id}_B$ one has $\kappa^{\mathrm{rel}}_{K,L}=
 immersions $i_Z:Z\hookrightarrow X$, $i_W:W\hookrightarrow Y$ it gives the
 compact-support product on the closed subschemes
 $\RG_c(Z,i_Z^*K)\otimes^L_\Lambda\RG_c(W,i_W^*L)\cong
-\RG_c\bigl(Z\times_kW,(i_Z\times i_W)^*(K\boxtimes L)\bigr)$; cohomology with
+\RG_c\bigl(Z\times_kW,(i_Z\times i_W)^*(K\boxtimes L)\bigr)$; More generally, over
+any $B$ as above, for closed immersions $i:Z\hookrightarrow X$,
+$j:W\hookrightarrow Y$, with $i\times_Bj:Z\times_BW\hookrightarrow X\times_BY$
+and $h=f\times_Bg$, there is a supported product isomorphism
+
+$$
+Rf_!\bigl(i_*i^*K\bigr)\otimes^L_{\Lambda_B}Rg_!\bigl(j_*j^*L\bigr)\cong
+Rh_!\bigl((i\times_Bj)_*(i\times_Bj)^*(K\boxtimes L)\bigr).
+$$
+
+Cohomology with
 supports $\RG_Z(X,K)=\RG(Z,Ri_Z^!K)$ is a different object and is not
 asserted here.

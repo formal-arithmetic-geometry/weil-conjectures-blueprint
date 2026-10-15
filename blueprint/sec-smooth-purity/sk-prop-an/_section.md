@@ -2,14 +2,14 @@
 id = "sk-prop-an"
 kind = "proposition"
 title = "Vector-bundle purity"
-order = 1816
-uses = ["sk-def-purity-conv", "sk-lem-sf-mate", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-a1-kummer", "sk-prop-cd", "sk-prop-h2", "sk-prop-sf-cbc", "sk-prop-sf-open-closed-triangle", "sk-thm-properbasechange", "sk-lem-sp-p1", "sk-lem-sp-finite-existence"]
+order = 1815
+uses = ["sk-def-purity-conv", "sk-lem-sf-mate", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-a1-kummer", "sk-prop-cd", "sk-prop-h2", "sk-prop-sf-cbc", "sk-prop-sf-open-closed-triangle", "sk-thm-properbasechange", "sk-prop-geo-p1-adjunction", "sk-lem-sp-finite-existence"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpaceZero"]
 tags = ["sketch"]
 +++
 *Integration on affine space.* Let $j:\mathbf A^1_S\hookrightarrow\mathbf P^1_S$ be the
 complement of the section at infinity and $p=q\circ j$. Composing
-[sk-lem-sp-p1] with $j_!\dashv j^*$ gives $Rp_!\dashv p^*(-)(1)[2]$; at the
+[sk-prop-geo-p1-adjunction] with $j_!\dashv j^*$ gives $Rp_!\dashv p^*(-)(1)[2]$; at the
 constant sheaf its counit is the *trace map of the affine line*
 $\operatorname{Tr}_p:Rp_!(\mathbf Z/\ell^n\mathbf Z)_{\mathbf A^1_S}(1)[2]\to(\mathbf Z/\ell^n\mathbf Z)_S$,
 an isomorphism. For $p_j:\mathbf A^j_S\to S$ and $r_j:\mathbf A^j_S\to\mathbf A^{j-1}_S$

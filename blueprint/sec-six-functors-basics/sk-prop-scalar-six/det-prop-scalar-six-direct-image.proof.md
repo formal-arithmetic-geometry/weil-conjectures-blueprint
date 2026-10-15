@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "det-prop-scalar-six-direct-image"
-uses = ["det-prop-scalar-six-pullback", "det-prop-scalar-six-ctf", "sk-prop-ctf-finite-comparison", "sk-lem-bounded-continuity", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-sf-ctf-stability", "sk-prop-sfb-cartesian-coefficients"]
+uses = ["det-prop-scalar-six-pullback", "det-prop-scalar-six-ctf", "sk-prop-ctf-finite-comparison", "sk-cor-pe-bounded-continuity", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-sf-ctf-stability", "sk-prop-sfb-cartesian-coefficients"]
 +++
 *(2) Formal properties.* $\gamma_{f,K}$ is the mate of the pullback identification
 $f^*((-)_{\Lambda'})\simeq(f^*-)_{\Lambda'}$ under the adjunctions $f^*\dashv Rf_*$ over
@@ -58,7 +58,7 @@ isomorphism for every bounded complex of finite free modules.
 *$\mathcal O_E\to E$.* By [sk-prop-sfb-qlbar-colimit-x], $E_X=\varinjlim(\mathcal O_{E,X}\xrightarrow{\ell}\mathcal O_{E,X}\xrightarrow{\ell}\cdots)$,
 which is flat over $\mathcal O_{E,X}$. So $K_E$ is represented by the termwise colimit of
 $K\xrightarrow{\ell}K\xrightarrow{\ell}\cdots$ for a bounded representative $K$; these
-complexes vanish below a common degree. By [sk-lem-bounded-continuity], $R^qf_*$
+complexes vanish below a common degree. By [sk-cor-pe-bounded-continuity], $R^qf_*$
 commutes with this filtered colimit, so
 $\mathcal H^q(Rf_*(K_E))=\varinjlim(\mathcal H^qRf_*K\xrightarrow{\ell}\cdots)=\mathcal H^q((Rf_*K)_E)$, and
 the identification is induced by $\gamma$ (which is compatible with the transition
@@ -67,4 +67,4 @@ maps). Hence $\gamma$ is an isomorphism.
 *$E\to\Qlb$.* By [sk-prop-sfb-qlbar-colimit-x], $\QbarX=\varinjlim_FF_X$ over the finite
 extensions $F/E$ in $\Qlb$, a filtered colimit of finite free $E_X$-modules. So
 $K_{\Qlb}=\varinjlim_FK_F$ termwise, with a common lower bound. Combine
-[sk-lem-bounded-continuity] with the case $E\to F$ treated above.
+[sk-cor-pe-bounded-continuity] with the case $E\to F$ treated above.

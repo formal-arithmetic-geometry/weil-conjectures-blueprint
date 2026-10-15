@@ -2,7 +2,7 @@
 id = "sk-prop-proper-image-localizing"
 kind = "proposition"
 title = "Proper direct image and extension by zero"
-order = 1533
+order = 1531
 uses = ["sk-def-localizing-closure", "sk-lem-proper-unbounded-window-ii", "sk-thm-sfb-proper-base-change", "sk-prop-ctf-finite-proper", "sk-prop-int-compactness"]
 tags = ["sketch"]
 +++

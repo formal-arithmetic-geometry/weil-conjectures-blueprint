@@ -2,7 +2,7 @@
 id = "sk-def-nagata-sketch-data"
 kind = "definition"
 title = "Compactification and refinement"
-order = 1
+order = 2
 lean = ["AlgebraicGeometry.Compactification", "AlgebraicGeometry.IsSchemeTheoreticallyDominant", "AlgebraicGeometry.IsAdmissible"]
 tags = ["sketch"]
 +++

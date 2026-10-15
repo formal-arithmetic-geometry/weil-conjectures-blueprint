@@ -2,7 +2,7 @@
 id = "sk-prop-cohsm"
 kind = "proposition"
 title = "The exceptional inverse image of a smooth morphism"
-order = 1550
+order = 1548
 uses = ["sk-prop-a1", "sk-prop-sf-cbc"]
 lean = ["AlgebraicGeometry.Etale.isInvertible_dualizingComplex", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_obj_derivedTensor", "AlgebraicGeometry.Etale.nonempty_iso_leftDerivedUpperStar_comp_rightDerivedUpperShriek"]
 tags = ["sketch"]
@@ -30,3 +30,16 @@ $$
 
 is an isomorphism. It identifies $g'^*\omega_f$ with $\omega_{f'}$ and is
 compatible with (G11).
+
+*Complement.* The map (G11), the *tensor map*, is the adjoint under
+$Rf_!\dashv f^!$ of the projection formula followed by the counit,
+$Rf_!(f^*N\otimes^{\mathbf L}\omega_f)\simeq N\otimes^{\mathbf L}Rf_!\omega_f\to N$; the map
+(G12), the *exceptional base-change map*, is the adjoint under
+$Rf'_!\dashv f'^!$ of the pullback along $g$ of the counit
+$Rf_!f^!N\to N$, composed with compact-support base change. On a chart
+$f|_U=a\circ e$ with $e:U\to\mathbf A^d_V$ étale and $a$ the projection,
+$\omega_f|_U\simeq\Lambda_U(d)[2d]$, so $\omega_f[-2d]$ is a locally constant sheaf
+of free $\Lambda$-modules of rank one. In particular, for
+$\Lambda=\mathbf Z/\ell^n\mathbf Z$, $f^!$ carries $\Dctf(S_{\mathrm{proét}},\Lambda)$ into
+$\Dctf(X_{\mathrm{proét}},\Lambda)$, and (G11) and (G12) are isomorphisms of functors
+on these categories.

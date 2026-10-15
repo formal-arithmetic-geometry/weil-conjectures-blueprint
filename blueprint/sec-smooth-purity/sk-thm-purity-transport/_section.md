@@ -3,7 +3,7 @@ id = "sk-thm-purity-transport"
 kind = "theorem"
 title = "Smooth purity for all admissible coefficients"
 order = 1810
-uses = ["sk-def-purity-conv", "sk-lem-sf-flat-model", "sk-prop-a1", "sk-prop-cohsm", "sk-thm-smooth-purity", "sk-prop-sf-existence"]
+uses = ["sk-def-purity-conv", "sk-lem-sf-flat-model", "sk-prop-a1", "sk-prop-cohsm", "sk-thm-smooth-purity", "sk-prop-sf-existence", "sk-thm-existence", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-prop-sp-unique-adjoint"]
 lean = ["AlgebraicGeometry.Etale.derivedCompleteIntegral_rightDerivedUpperShriek"]
 tags = ["sketch"]
 +++
@@ -20,6 +20,12 @@ Here $f^!_\Lambda$ is the restriction of the right adjoint from
 [sk-prop-sf-existence]. The isomorphism is compatible with change of
 coefficients, base change and composition, with the normalization given by
 integration on the affine line.
+
+Moreover, $K\mapsto f_\Lambda^*K(d)[2d]$ is a right adjoint of
+$Rf_{!,\Lambda}:\Dctf(X,\Lambda)\to\Dctf(Y,\Lambda)$, with counit normalized by
+integration on the affine line, and $\gamma_{f,\Lambda}$ is the *unique*
+isomorphism of functors $f_\Lambda^*(-)(d)[2d]\xrightarrow{\sim}f_\Lambda^!$ on
+$\Dctf(Y,\Lambda)$ compatible with the counits of the two adjunctions.
 
 For étale $f$ we have $d=0$, and the theorem says $f_\Lambda^!\simeq f_\Lambda^*$
 for every admissible $\Lambda$. For a smooth curve $C$ with structure map

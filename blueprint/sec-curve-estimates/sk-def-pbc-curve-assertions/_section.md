@@ -2,7 +2,7 @@
 id = "sk-def-pbc-curve-assertions"
 kind = "definition"
 title = "The eight curve-cohomology assertions"
-order = 1010
+order = 1008
 lean = ["AlgebraicGeometry.IsCurve.Assertions"]
 tags = ["sketch"]
 +++

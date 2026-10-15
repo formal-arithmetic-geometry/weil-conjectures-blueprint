@@ -2,7 +2,7 @@
 id = "sk-def-sf-weil-complexes"
 kind = "definition"
 title = "Weil structure"
-order = 1840
+order = 1837
 lean = ["AlgebraicGeometry.Etale.WeilComplex"]
 tags = ["sketch"]
 +++
@@ -31,3 +31,27 @@ h\circ\phi_K=\phi_L\circ\operatorname{Fr}_Y^*(h).
 $$
 
 The same definition applies on $X$ or on any $T=T_0\times_{k_0}k$.
+
+*Complement (normalization, scope and duals).* Weil complexes in this sense
+are also called *strict* Weil complexes. The Tate twist $\Lambda_T(r)$ carries
+its canonical Weil structure $\tau_r:\operatorname{Fr}_T^*\Lambda_T(r)\xrightarrow{\sim}\Lambda_T(r)$,
+normalized so that geometric Frobenius acts on $\Lambda(r)$ by $q^{-r}$ (hence
+by $q^{r}$ on $\Lambda(-r)$); write $\varphi_\Lambda=\tau_0$ for the canonical
+structure on $\Lambda_T$. Weil complexes form a category of pairs over the
+underlying derived category, not a triangulated (derived) category of Weil
+sheaves: its Hom groups are not Ext groups of Weil sheaves (a nonsplit
+Frobenius extension of $\Lambda$ by $\Lambda$, a Jordan block, gives no nonzero
+map $\Lambda\to\Lambda[1]$ of pairs). Only traces, stalk Frobenius maps,
+weights of cohomology sheaves, equivariant maps and functorial triangles are
+used. For a Weil complex $(K,\phi_K)$ on $T$, the *contragredient datum* on
+$K^\vee=R\mathcal Hom_T(K,\Lambda_T)$ is the composite
+
+$$
+\phi_{K^\vee}:\operatorname{Fr}_T^*R\mathcal Hom_T(K,\Lambda_T)
+\xrightarrow{\sim}R\mathcal Hom_T(\operatorname{Fr}_T^*K,\operatorname{Fr}_T^*\Lambda_T)
+\xrightarrow{R\mathcal Hom(\mathrm{id},\varphi_\Lambda)}R\mathcal Hom_T(\operatorname{Fr}_T^*K,\Lambda_T)
+\xrightarrow{R\mathcal Hom(\phi_K^{-1},\mathrm{id})}R\mathcal Hom_T(K,\Lambda_T),
+$$
+
+the first arrow being the canonical pullback isomorphism, and the datum on the
+twisted dual is $\phi_{K^\vee(r)}=\phi_{K^\vee}\otimes\tau_r$.
