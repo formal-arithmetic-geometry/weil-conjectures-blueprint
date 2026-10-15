@@ -3,7 +3,7 @@ id = "sk-lem-as-properties"
 kind = "lemma"
 title = "The Artin–Schreier sheaf is a lisse character sheaf"
 order = 3023
-lean = ["AlgebraicGeometry.Etale.isLocallyConstantSheaf_artinSchreierSheaf", "AlgebraicGeometry.Etale.artinSchreierSheafAddIso", "AlgebraicGeometry.Etale.artinSchreierSheafZeroIso"]
+lean = ["AlgebraicGeometry.Etale.isLocallyConstantSheaf_artinSchreierSheaf", "AlgebraicGeometry.Etale.isLocallyConstantSheaf_artinSchreierSheafOf", "AlgebraicGeometry.Etale.nonempty_iso_artinSchreierSheafOf_add", "AlgebraicGeometry.Etale.nonempty_iso_artinSchreierSheafOf_neg", "AlgebraicGeometry.Etale.nonempty_iso_artinSchreierSheafOf_zero"]
 uses = ["sk-def-as", "sk-def-fourier-set"]
 tags = ["sketch"]
 +++

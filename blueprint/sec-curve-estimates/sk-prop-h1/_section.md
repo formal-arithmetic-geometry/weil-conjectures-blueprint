@@ -4,6 +4,7 @@ kind = "proposition"
 title = "$H^1$ via Kummer"
 order = 932
 uses = ["sk-def-kummer", "sk-def-pic", "sk-prop-kummer-exact"]
+lean = ["AlgebraicGeometry.Scheme.exists_exact_sheafH_rootsOfUnitySheaf_one"]
 tags = ["sketch"]
 +++
 For $C$ as in [sk-def-curve] and every $n\ge1$ prime to

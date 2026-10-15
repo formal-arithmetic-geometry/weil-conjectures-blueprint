@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Weil conjectures for a smooth proper variety"
 order = 3281
 uses = ["sk-thm-weil1", "sk-thm-weil2", "sk-thm-weil3", "sk-thm-weil4", "sk-thm-weil5"]
+lean = ["AlgebraicGeometry.Scheme.weil_conjectures"]
 tags = ["sketch"]
 +++
 Let $X_0$ be smooth, proper and geometrically integral of dimension $d$ over

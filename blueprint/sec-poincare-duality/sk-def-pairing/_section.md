@@ -4,6 +4,7 @@ kind = "definition"
 title = "The derived pairing, and perfectness of a pairing"
 order = 2762
 uses = ["sk-def-pairing-data", "sk-def-perfect"]
+lean = ["AlgebraicGeometry.Etale.poincarePairing", "AlgebraicGeometry.Etale.TateOrientation.poincarePairing", "AlgebraicGeometry.Etale.IsPerfectPairing"]
 tags = ["sketch"]
 +++
 In the setting of [sk-def-pairing-data], for $K$ perfect over

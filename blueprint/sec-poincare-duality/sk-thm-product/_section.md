@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Supported product over a relative base"
 order = 2780
 uses = ["sk-def-ops", "sk-thm-sf-kunneth-relative"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_externalProduct_closedImmersion", "AlgebraicGeometry.Etale.nonempty_iso_compactlySupported_externalProduct_closedImmersion"]
 tags = ["sketch"]
 +++
 In the setting of [sk-def-set], let $B$ be a finite-type $k$-scheme,

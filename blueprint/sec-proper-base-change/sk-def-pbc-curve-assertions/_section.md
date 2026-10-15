@@ -3,6 +3,7 @@ id = "sk-def-pbc-curve-assertions"
 kind = "definition"
 title = "The eight curve-cohomology assertions"
 order = 1127
+lean = ["AlgebraicGeometry.IsCurve.Assertions"]
 tags = ["sketch"]
 +++
 For a curve coefficient pair $(C,F)$ ($k$ algebraically closed, $C$ separated

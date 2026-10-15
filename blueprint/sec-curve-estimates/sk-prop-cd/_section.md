@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Vanishing in high degrees"
 order = 995
 uses = ["sk-def-av-pic", "sk-def-br", "sk-def-curve", "sk-prop-hilbert90", "sk-prop-kummer-exact", "sk-prop-tsen"]
+lean = ["AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le"]
 tags = ["sketch"]
 +++
 For $C$ as in [sk-def-curve], $n$ prime to $\operatorname{char}k$,

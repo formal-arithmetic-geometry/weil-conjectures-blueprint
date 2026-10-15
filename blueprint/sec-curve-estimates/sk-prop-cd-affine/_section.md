@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Affine-curve cohomological dimension"
 order = 1018
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-def-kummer", "sk-prop-br-inj", "sk-prop-cd", "sk-prop-h2", "sk-prop-kummer-exact", "sk-prop-tsen", "sk-thm-av-final"]
+lean = ["AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_two_le_of_isAffine"]
 tags = ["sketch"]
 +++
 Let $k$ be algebraically closed and let $C$ be an *affine* curve

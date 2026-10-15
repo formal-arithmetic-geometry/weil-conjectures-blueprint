@@ -3,6 +3,7 @@ id = "sk-def-cr"
 kind = "definition"
 title = "$C_r$ fields"
 order = 897
+lean = ["IsCField", "IsQuasiAlgClosed", "IsAlgClosed.isCField_zero", "IsCField.mono"]
 tags = ["sketch"]
 +++
 Let $r\ge0$. A field $K$ is *$C_r$* if every homogeneous

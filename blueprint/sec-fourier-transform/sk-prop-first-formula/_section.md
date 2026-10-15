@@ -3,7 +3,7 @@ id = "sk-prop-first-formula"
 kind = "proposition"
 title = "P4: the constant sheaf and the skyscraper are exchanged"
 order = 3044
-lean = ["AlgebraicGeometry.Etale.fourierTransformUnitIso", "AlgebraicGeometry.Etale.fourierTransformSkyscraperZeroIso"]
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_affineFourierTransform_unit", "AlgebraicGeometry.Etale.nonempty_iso_affineFourierTransform_skyscraperZero"]
 uses = ["sk-lem-as-properties", "sk-prop-stalk", "sk-thm-derived-duality", "sk-thm-frobenius"]
 tags = ["sketch"]
 +++

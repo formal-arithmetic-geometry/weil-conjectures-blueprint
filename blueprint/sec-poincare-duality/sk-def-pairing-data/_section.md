@@ -4,6 +4,7 @@ kind = "definition"
 title = "The pairing data"
 order = 2760
 uses = ["sk-def-ops", "sk-def-sf-orientation"]
+lean = ["AlgebraicGeometry.Etale.mixedSupportCupProduct", "AlgebraicGeometry.Etale.smoothTrace", "AlgebraicGeometry.Etale.TateOrientation.smoothTrace"]
 tags = ["sketch"]
 +++
 In the setting of [sk-def-ops], the *mixed-support cup product* is

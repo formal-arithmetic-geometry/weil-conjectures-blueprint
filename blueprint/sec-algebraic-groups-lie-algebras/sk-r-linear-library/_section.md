@@ -4,6 +4,7 @@ kind = "proposition"
 title = "The linear-algebra library"
 order = 2882
 uses = ["sk-d-linear"]
+lean = ["CompositionSeries.jordan_holder", "Representation.IsIrreducible.bijective_or_eq_zero", "Representation.IsIrreducible.algebraMap_intertwiningMap_bijective_of_isAlgClosed", "Subrepresentation.exists_subquotient_tprod_equiv"]
 tags = ["sketch"]
 +++
 Three standard facts about finite-dimensional representations over a field

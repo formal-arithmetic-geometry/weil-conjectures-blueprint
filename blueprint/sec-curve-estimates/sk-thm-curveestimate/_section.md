@@ -4,6 +4,7 @@ kind = "theorem"
 title = "Curve estimate"
 order = 1030
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-prop-cd", "sk-prop-h1", "sk-prop-h2", "sk-prop-jacobian", "sk-thm-av-final", "sk-thm-picard-duality", "sk-thm-picard-rr"]
+lean = ["AlgebraicGeometry.IsCurve.nonempty_addEquiv_sheafH_constantZMod_zero", "AlgebraicGeometry.IsCurve.nonempty_addEquiv_sheafH_constantZMod_one", "AlgebraicGeometry.IsCurve.nonempty_addEquiv_sheafH_constantZMod_two", "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le"]
 tags = ["sketch"]
 +++
 Let $C$ be smooth proper connected (hence of dimension $1$,

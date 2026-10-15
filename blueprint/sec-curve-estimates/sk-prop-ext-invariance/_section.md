@@ -4,6 +4,7 @@ kind = "proposition"
 title = "Invariance under extension of algebraically closed fields"
 order = 1035
 uses = ["sk-def-av-jacobian", "sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-prop-cd-affine", "sk-prop-jacobian", "sk-prop-kummer-exact", "sk-thm-av-final", "sk-thm-curveestimate"]
+lean = ["AlgebraicGeometry.bijective_cohomologyMap_constantZMod", "AlgebraicGeometry.bijective_cohomologyMap_constantZMod_of_smoothOfRelativeDimension"]
 tags = ["sketch"]
 +++
 Let $k\subseteq k'$ be an extension of algebraically closed fields,
