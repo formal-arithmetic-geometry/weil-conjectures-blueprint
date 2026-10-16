@@ -2,6 +2,7 @@
 id = "lem-sp-kinjective-computes"
 kind = "lemma"
 title = "K-injective resolutions compute derived functors"
+lean = ["CochainComplex.KInjectiveResolution.rightDerivedHomologyIsoRightDerived", "CochainComplex.KInjectiveResolution.homotopyEquiv", "CochainComplex.KInjectiveResolution.rightDerivedIso", "CochainComplex.KInjectiveResolution.rightDerivedMap", "CochainComplex.KInjectiveResolution.shift", "CochainComplex.KInjectiveResolution.rightDerivedShiftIso", "CochainComplex.KInjectiveResolution.rightDerivedShiftIso'", "CategoryTheory.InjectiveResolution.kInjectiveResolution"]
 order = 525
 uses = ["def-sp-grothendieck-abelian", "def-sp-injective-resolutions", "def-sp-kinjective-bridge", "def-sp-left-exact-additive"]
 +++

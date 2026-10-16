@@ -2,6 +2,7 @@
 id = "thm-trf-frobenius-fixed-points"
 kind = "theorem"
 title = "Scheme-theoretic Frobenius fixed points"
+lean = ["AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.finite_fixedPoints", "AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.mem_finitePoints_of_fixedPoint", "AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.sum_fixedPoints"]
 order = 2433
 uses = ["def-trf-fixed-scheme", "def-trf-graph-correspondence", "def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++

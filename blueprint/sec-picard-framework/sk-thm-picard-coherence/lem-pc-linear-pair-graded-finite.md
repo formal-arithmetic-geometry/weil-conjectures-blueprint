@@ -2,6 +2,7 @@
 id = "lem-pc-linear-pair-graded-finite"
 kind = "lemma"
 title = "A degree bound for a pair of linear forms"
+lean = ["GradedAlgebra.IsStandard.exists_grade_succ_eq_span_mul"]
 order = 658
 uses = ["def-pc-proj", "def-pc-standard-graded-algebra"]
 +++

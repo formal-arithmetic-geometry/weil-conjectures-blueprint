@@ -2,6 +2,7 @@
 id = "def-pd-degree-morphism"
 kind = "definition"
 title = "The constant integers sheaf and the degree morphism"
+lean = ["AlgebraicGeometry.locallyConstantIntPresheaf", "AlgebraicGeometry.locallyConstantIntSheaf", "AlgebraicGeometry.picardDegreeMorphism", "AlgebraicGeometry.picardDegreeSubfunctor", "AlgebraicGeometry.range_picardFunctorDegree\u03b9", "AlgebraicGeometry.picardFunctorDegreeIsoSubfunctor", "AlgebraicGeometry.picardDegree"]
 order = 849
 uses = ["def-pc-fppf-site", "def-pc-geometrically-irreducible", "def-pc-picard-functor", "def-pc-picard-presheaf", "def-pc-smooth-projective-curve", "def-pc-subfunctor", "def-pd-fibrewise-degree", "lem-pd-degree-locally-constant"]
 +++

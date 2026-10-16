@@ -2,6 +2,7 @@
 id = "def-wf-weil-group"
 kind = "definition"
 title = "Weil group and degree"
+lean = ["AlgebraicGeometry.WeilGroup.EtaleQuotientData", "AlgebraicGeometry.WeilGroup.IsEtaleQuotient", "AlgebraicGeometry.Scheme.FiniteEtale.constantCover", "AlgebraicGeometry.Scheme.FiniteEtale.arithmeticFrobenius", "AlgebraicGeometry.Scheme.FiniteEtale.constantCoverAction", "AlgebraicGeometry.Scheme.FiniteEtale.geometricFrobenius", "AlgebraicGeometry.Scheme.FiniteEtale.weilGroup", "AlgebraicGeometry.Scheme.FiniteEtale.weilGroupDeg"]
 order = 2821
 uses = ["def-tw-frobenius-action", "def-weil-pbc-scheme-conventions", "def-wf-fundamental-representation"]
 +++

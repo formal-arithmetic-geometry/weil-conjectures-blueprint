@@ -2,6 +2,7 @@
 id = "lem-fd-stalk-at-origin"
 kind = "lemma"
 title = "Stalk of the transform at the origin of the dual line"
+lean = ["AlgebraicGeometry.nonempty_equiv_stalk_homologySheaf_fourierTransform_origin", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_equiv_stalk_fourierTransform_middleExtension_origin"]
 order = 3090
 uses = ["def-fd-kernel", "def-fd-transform", "def-weil-ordinary-compact-cohomology", "lem-fd-stalk-formula"]
 +++

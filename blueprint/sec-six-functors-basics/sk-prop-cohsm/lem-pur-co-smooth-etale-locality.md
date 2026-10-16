@@ -2,6 +2,7 @@
 id = "lem-pur-co-smooth-etale-locality"
 kind = "lemma"
 title = "Source-etale locality, without derived descent"
+lean = ["AlgebraicGeometry.Etale.nonempty_dualizingComplex_iso_constantComplex_of_etale", "AlgebraicGeometry.Etale.isCohomologicallySmooth_of_etale", "AlgebraicGeometry.Etale.IsCohomologicallySmooth.of_comp_of_surjective", "AlgebraicGeometry.Etale.isIso_dualizingComplexTensorMap_of_comp", "AlgebraicGeometry.Etale.isInvertible_of_isInvertible_leftDerivedUpperStar_of_etale", "AlgebraicGeometry.Etale.isInvertible_dualizingComplex_of_comp"]
 order = 2338
 uses = ["def-pur-co-smoothness", "def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-scheme-morphism-properties", "lem-pur-etale-iso-descent"]
 +++

@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-curve-filtered-cohomology"
 kind = "lemma"
 title = "Filtered cohomology continuity on a curve"
+lean = ["AlgebraicGeometry.Scheme.H_map_isColimit_of_isFiltered"]
 order = 1206
 uses = ["def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-cohomology-filtered-colimit"]
 +++

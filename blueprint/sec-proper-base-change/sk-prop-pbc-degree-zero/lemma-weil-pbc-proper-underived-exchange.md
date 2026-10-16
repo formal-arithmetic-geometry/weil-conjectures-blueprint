@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-proper-underived-exchange"
 kind = "lemma"
 title = "Underived proper exchange is an isomorphism"
+lean = ["AlgebraicGeometry.Etale.bijective_stalkToFibreSections_of_isProper", "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isProper"]
 order = 1123
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange", "lemma-weil-pbc-geometric-stalk-conservative", "lemma-weil-pbc-proper-strict-henselian-h0", "lemma-weil-pbc-underived-exchange-naturality", "prop-weil-pbc-strict-henselization-stalk-formula"]
 +++

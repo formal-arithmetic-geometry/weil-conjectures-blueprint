@@ -2,6 +2,7 @@
 id = "thm-weil-six-operations"
 kind = "theorem"
 title = "The assembled operations on their proved domains"
+lean = ["AlgebraicGeometry.Etale.sixOperationsPackage_algebraicClosure"]
 order = 3276
 uses = ["prop-functor-package", "thm-sf-biduality-class"]
 +++

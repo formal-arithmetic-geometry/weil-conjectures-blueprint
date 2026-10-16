@@ -2,6 +2,7 @@
 id = "lem-sc-torsor-h1"
 kind = "lemma"
 title = "First cohomology classifies torsors"
+lean = ["CategoryTheory.Sheaf.subsingleton_H_one_of_surjective", "CategoryTheory.Sheaf.nonempty_equiv_H_one_torsor"]
 order = 886
 uses = ["def-sc-gm-torsor", "lem-sc-ext-torsor"]
 +++

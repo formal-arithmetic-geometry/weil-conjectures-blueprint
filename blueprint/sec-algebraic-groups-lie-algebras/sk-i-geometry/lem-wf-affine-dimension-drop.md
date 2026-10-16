@@ -2,6 +2,7 @@
 id = "lem-wf-affine-dimension-drop"
 kind = "lemma"
 title = "Proper closed subsets have strictly smaller dimension"
+lean = ["ringKrullDim_quotient_lt_of_irreducibleSpace", "PrimeSpectrum.isDomain_of_irreducibleSpace"]
 order = 2829
 +++
 Let $X$ be an irreducible affine variety over a field $k$, with

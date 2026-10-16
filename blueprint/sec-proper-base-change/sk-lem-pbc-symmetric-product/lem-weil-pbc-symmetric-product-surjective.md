@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-symmetric-product-surjective"
 kind = "lemma"
 title = "Surjectivity of the symmetric-product morphism"
+lean = ["AlgebraicGeometry.ProjectiveSpace.surjective_symmetricProduct"]
 order = 1269
 uses = ["def-weil-pbc-scheme-conventions", "def-weil-pbc-symmetric-product-morphism", "lem-weil-pbc-surjective-nonempty-fibres", "lem-weil-pbc-symmetric-product-finite"]
 +++

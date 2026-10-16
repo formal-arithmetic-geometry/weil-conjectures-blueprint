@@ -2,6 +2,7 @@
 id = "lem-sc-canonical-sheaf"
 kind = "lemma"
 title = "The canonical sheaf of a smooth curve"
+lean = ["AlgebraicGeometry.Scheme.Hom.isInvertible_relativeDifferentials"]
 order = 641
 uses = ["def-sc-curves", "def-sc-invertible-module", "def-sc-kahler-differentials"]
 +++

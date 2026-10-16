@@ -2,6 +2,7 @@
 id = "def-pur-affine-line-datum"
 kind = "definition"
 title = "The affine-line datum"
+lean = ["AlgebraicGeometry.Etale.kummerClassOf"]
 order = 2236
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-support-cohomology", "def-sbc-affine-space", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-finite-kummer-level"]
 +++

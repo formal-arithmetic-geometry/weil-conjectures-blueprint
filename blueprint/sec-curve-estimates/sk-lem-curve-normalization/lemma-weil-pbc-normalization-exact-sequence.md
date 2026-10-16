@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-normalization-exact-sequence"
 kind = "lemma"
 title = "Normalization comparison exact sequence"
+lean = ["AlgebraicGeometry.exists_mono_lowerShriek_constantModSheaf_lowerStar"]
 order = 1244
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-extension-by-zero", "def-weil-pbc-finite-open-comparison", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-eight-curve-devissage", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-pushforward-extension-zero", "thm-sc-main"]
 +++

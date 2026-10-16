@@ -2,6 +2,7 @@
 id = "sk-thm-frobenius"
 kind = "theorem"
 title = "Frobenius: equivariance, similitudine, reciprocity"
+lean = ["AlgebraicGeometry.Etale.TateOrientation.isWeilPairing_poincarePairing", "AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing_frobeniusOperator", "AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing_frobeniusOperator_eq", "AlgebraicGeometry.Etale.TateOrientation.isWeilPairing_untwistedPoincarePairing", "AlgebraicGeometry.Etale.isWeilPairing_poincarePairing"]
 order = 2789
 uses = ["sk-def-pairing", "sk-def-sf-orientation", "sk-def-sf-weil-complexes", "sk-thm-derived-duality"]
 tags = ["sketch"]

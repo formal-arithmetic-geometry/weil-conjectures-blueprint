@@ -2,6 +2,7 @@
 id = "lem-pc-tensor-dual-invertible"
 kind = "lemma"
 title = "Invertible modules: duals and tensor products"
+lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_iso_dual_dual"]
 order = 797
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "def-sc-invertible-module"]
 +++

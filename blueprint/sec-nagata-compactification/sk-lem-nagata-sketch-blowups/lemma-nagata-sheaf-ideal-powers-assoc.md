@@ -2,6 +2,7 @@
 id = "lemma-nagata-sheaf-ideal-powers-assoc"
 kind = "lemma"
 title = "Associativity of ideal-power multiplication"
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.powMulMap_assoc", "AlgebraicGeometry.Scheme.IdealSheafData.powMulMap_powZeroUnit_left", "AlgebraicGeometry.Scheme.IdealSheafData.powMulMap_powZeroUnit_right"]
 order = 112
 +++
 For a quasi-coherent ideal $\mathcal I\subseteq\mathcal O_X$, the canonical

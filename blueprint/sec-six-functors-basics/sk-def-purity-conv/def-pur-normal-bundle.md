@@ -2,6 +2,7 @@
 id = "def-pur-normal-bundle"
 kind = "definition"
 title = "Normal bundle and zero section"
+lean = ["AlgebraicGeometry.Scheme.Hom.normalConeData"]
 order = 2238
 uses = ["def-pur-conventions", "def-pur-regular-immersion", "def-weil-scheme-morphism-properties"]
 +++

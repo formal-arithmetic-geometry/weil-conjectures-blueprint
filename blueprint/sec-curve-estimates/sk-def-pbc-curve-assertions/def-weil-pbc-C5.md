@@ -2,6 +2,7 @@
 id = "def-weil-pbc-C5"
 kind = "definition"
 title = "Assertion (C5): finiteness for a proper curve"
+lean = ["AlgebraicGeometry.IsCurve.FiniteOfIsProper"]
 order = 1135
 uses = ["def-weil-pbc-constructible-torsion", "def-weil-pbc-curve-setting"]
 +++

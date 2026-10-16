@@ -2,6 +2,7 @@
 id = "lem-sc-finite-etale-algebra-criterion"
 kind = "lemma"
 title = "Finite étale group schemes and finite étale algebras"
+lean = ["Algebra.Etale.iff_subsingleton_kaehlerDifferential_of_field", "AlgebraicGeometry.etale_SpecMap_algebraMap_tfae", "AlgebraicGeometry.Scheme.Hom.etale_iff_etale_\u0393Algebra_of_isFinite"]
 order = 433
 uses = ["def-sc-group-scheme", "def-weil-pbc-scheme-conventions"]
 +++

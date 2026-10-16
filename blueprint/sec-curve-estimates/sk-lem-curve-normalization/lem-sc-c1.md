@@ -2,6 +2,7 @@
 id = "lem-sc-c1"
 kind = "lemma"
 title = "C1: vanishing above degree two"
+lean = ["AlgebraicGeometry.IsCurve.subsingleton_sheafH_constantModSheaf_of_two_lt"]
 order = 1165
 uses = ["def-sc-curves", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lem-sc-cohomological-dimension"]
 +++

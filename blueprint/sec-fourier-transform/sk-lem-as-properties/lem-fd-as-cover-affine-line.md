@@ -2,6 +2,7 @@
 id = "lem-fd-as-cover-affine-line"
 kind = "lemma"
 title = "The affine-line Artin–Schreier cover"
+lean = ["AlgebraicGeometry.Etale.artinSchreierSheafOfCoordIso"]
 order = 3025
 uses = ["def-fd-artin-schreier-sheaf", "lem-fd-as-cover"]
 +++

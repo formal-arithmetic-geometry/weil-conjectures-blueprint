@@ -2,6 +2,7 @@
 id = "def-exc-jacobian-presentation"
 kind = "definition"
 title = "A square Jacobian presentation"
+lean = ["Algebra.SquareJacobianPresentation"]
 order = 1141
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

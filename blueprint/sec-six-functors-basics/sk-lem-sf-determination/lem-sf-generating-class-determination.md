@@ -2,6 +2,7 @@
 id = "lem-sf-generating-class-determination"
 kind = "lemma"
 title = "Invertibility on a generating class"
+lean = ["CategoryTheory.NatTrans.isIso_app_of_triangEnvelope", "CategoryTheory.NatTrans.isIso_of_isClassicalTriangulatedGenerator"]
 order = 2208
 uses = ["def-sf-datum", "lem-sf-triangle-two-out-of-three"]
 +++

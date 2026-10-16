@@ -2,6 +2,7 @@
 id = "lem-sc-finite-duality"
 kind = "lemma"
 title = "Duality along a finite flat morphism of smooth curves"
+lean = ["AlgebraicGeometry.Scheme.exists_isIso_pushforwardHomObjComparison", "AlgebraicGeometry.Scheme.nonempty_homObj_pushforward_iso_pushforward_homObj", "AlgebraicGeometry.Scheme.nonempty_homObj_pushforward_iso", "AlgebraicGeometry.Scheme.exists_isIso_pushforwardHomObjComparison_unit"]
 order = 703
 uses = ["def-sc-curves", "def-sc-invertible-module", "def-sc-kahler-differentials", "lem-sc-invertible-dual", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++

@@ -2,6 +2,7 @@
 id = "def-weil-determinant-constants"
 kind = "definition"
 title = "Determinant constants and Euler characteristic"
+lean = ["AlgebraicGeometry.Scheme.map_weilDeterminantConstant_eq_det", "AlgebraicGeometry.weilDeterminantConstant", "AlgebraicGeometry.weilDeterminantScalar", "AlgebraicGeometry.weilDeterminantConstant_ne_zero", "AlgebraicGeometry.weilDeterminantScalar_ne_zero"]
 order = 3209
 uses = ["def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-smooth-proper-cohomological-family"]
 +++

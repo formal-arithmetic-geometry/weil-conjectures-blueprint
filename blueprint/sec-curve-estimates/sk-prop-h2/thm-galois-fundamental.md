@@ -2,6 +2,7 @@
 id = "thm-galois-fundamental"
 kind = "theorem"
 title = "The fibre functor is an equivalence"
+lean = ["AlgebraicGeometry.Scheme.FiniteEtale.equivalenceContAction", "AlgebraicGeometry.Scheme.FiniteEtale.equivalenceContAction_functor_obj_obj_V", "AlgebraicGeometry.Scheme.FiniteEtale.equivalenceContAction_functor_obj_obj_\u03c1_apply", "AlgebraicGeometry.Scheme.FiniteEtale.equivalenceContAction_functor_map_hom_hom"]
 order = 984
 uses = ["def-galois-fibre-functor", "lem-fet-galois-category", "lem-galois-aut-profinite", "lem-galois-transitive", "thm-galois-abstract-equivalence", "thm-galois-lc-etale"]
 +++

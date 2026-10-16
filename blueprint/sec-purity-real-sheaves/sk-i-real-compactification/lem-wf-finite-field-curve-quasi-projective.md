@@ -2,6 +2,7 @@
 id = "lem-wf-finite-field-curve-quasi-projective"
 kind = "lemma"
 title = "Finite-field curves admit a projective closure"
+lean = ["AlgebraicGeometry.IsCurve.exists_projectiveClosure"]
 order = 2956
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

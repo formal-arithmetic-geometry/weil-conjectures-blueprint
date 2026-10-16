@@ -2,6 +2,7 @@
 id = "lem-pc-rf-base-change-flat-module"
 kind = "lemma"
 title = "Derived base change for a relatively flat module"
+lean = ["AlgebraicGeometry.Scheme.Modules.isIso_cechModuleComplexBaseChangeComparison"]
 order = 677
 uses = ["def-pc-base-change", "def-pc-derived-direct-image", "def-pc-derived-pullback", "def-pc-morphism-conventions", "lem-pc-cech-resolution", "lem-pc-flat-complex-derived-pullback"]
 +++

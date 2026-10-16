@@ -2,6 +2,7 @@
 id = "thm-sf-pf-adic"
 kind = "theorem"
 title = "Derived-complete reconstruction over $\\mathcal O_E$"
+lean = ["AlgebraicGeometry.Etale.isIso_of_derivedComplete_of_isIso_reductionModIdeal"]
 order = 2440
 uses = ["def-sf-datum", "def-sf-pf", "def-weil-derived-complete-integral-detailed", "lem-weil-pbc-reconstruction-uniform-tower", "prop-sf-pf-reduction", "thm-sf-pf-finite"]
 +++

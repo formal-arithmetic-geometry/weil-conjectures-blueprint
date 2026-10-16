@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-cohomology-filtered-colimit"
 kind = "lemma"
 title = "Filtered colimits of etale cohomology"
+lean = ["AlgebraicGeometry.Etale.preservesColimitsOfShape_shiftedHomFunctor_freeSheaf_finalObject"]
 order = 961
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-finite-split-hypercover", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-hypercover-cohomology"]
 +++

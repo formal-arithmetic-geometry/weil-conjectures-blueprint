@@ -2,6 +2,7 @@
 id = "sbc-lem-affine-space-smooth"
 kind = "lemma"
 title = "Affine space is smooth"
+lean = ["AlgebraicGeometry.AffineSpace.smoothOfRelativeDimension_over"]
 order = 1436
 uses = ["def-sbc-affine-space", "def-sbc-smooth-morphisms"]
 +++

@@ -2,6 +2,7 @@
 id = "def-nagata-homogeneous-away-to-chart"
 kind = "definition"
 title = "Homogeneous-localization chart map"
+lean = ["AlgebraicGeometry.AffineBlowup.homogeneousAwayToChart", "AlgebraicGeometry.AffineBlowup.coe_homogeneousAwayToChart_mk"]
 order = 37
 uses = ["def-nagata-blowup-chart-ring", "def-nagata-rees-algebra"]
 +++

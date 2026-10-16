@@ -2,6 +2,7 @@
 id = "lem-weil-karoubi-envelope-triangulated"
 kind = "lemma"
 title = "Triangulated Karoubi envelope"
+lean = ["CategoryTheory.Idempotents.Karoubi.isTriangulated", "CategoryTheory.Idempotents.Karoubi.pretriangulated", "CategoryTheory.Idempotents.toKaroubi.isTriangulated"]
 order = 1479
 uses = ["def-weil-karoubi-envelope"]
 +++

@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-finite-cover-killing"
 kind = "lemma"
 title = "Finite-cover killing and finite pushforward monicity"
+lean = ["AlgebraicGeometry.Etale.exists_isFinite_cohomologyMap_eq_zero_of_henselianRing"]
 order = 1182
 uses = ["lemma-weil-pbc-finite-stage-killing", "lemma-weil-pbc-finite-stalk-formula"]
 +++

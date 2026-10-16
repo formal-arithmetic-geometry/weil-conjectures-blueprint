@@ -2,6 +2,7 @@
 id = "lem-wf-affine-nullstellensatz-vanishing"
 kind = "lemma"
 title = "Residue fields of closed points and the vanishing principle"
+lean = ["eq_zero_of_forall_algHom_apply_eq_zero", "existsUnique_comp_mk\u2090_eq_of_forall_algHom"]
 order = 2828
 +++
 Let $k$ be an algebraically closed field and $A$ a finitely generated

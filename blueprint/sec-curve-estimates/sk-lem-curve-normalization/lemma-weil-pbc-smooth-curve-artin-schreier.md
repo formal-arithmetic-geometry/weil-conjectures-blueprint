@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-smooth-curve-artin-schreier"
 kind = "lemma"
 title = "Smooth characteristic-$p$ Artin–Schreier calculation"
+lean = ["AlgebraicGeometry.IsCurve.assertions_constantModSheaf_of_charP"]
 order = 1203
 uses = ["def-weil-pbc-eight-curve-assertions"]
 +++

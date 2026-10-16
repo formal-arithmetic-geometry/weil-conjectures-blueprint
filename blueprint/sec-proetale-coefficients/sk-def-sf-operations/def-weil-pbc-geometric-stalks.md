@@ -2,6 +2,7 @@
 id = "def-weil-pbc-geometric-stalks"
 kind = "definition"
 title = "Geometric stalks"
+lean = ["AlgebraicGeometry.Scheme.geometricStalkFunctor"]
 order = 939
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++

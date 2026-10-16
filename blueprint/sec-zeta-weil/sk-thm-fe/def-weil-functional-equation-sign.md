@@ -2,6 +2,7 @@
 id = "def-weil-functional-equation-sign"
 kind = "definition"
 title = "Normalized functional-equation sign"
+lean = ["AlgebraicGeometry.weilSign"]
 order = 3263
 uses = ["def-weil-determinant-constants", "def-weil-finite-field-fiber"]
 +++

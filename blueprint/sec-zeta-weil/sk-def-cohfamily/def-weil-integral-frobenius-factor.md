@@ -2,6 +2,7 @@
 id = "def-weil-integral-frobenius-factor"
 kind = "definition"
 title = "Integral realization of a Frobenius factor"
+lean = ["AlgebraicGeometry.Scheme.IsIntegralFrobeniusFactor"]
 order = 3201
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-smooth-proper-cohomological-family"]
 +++

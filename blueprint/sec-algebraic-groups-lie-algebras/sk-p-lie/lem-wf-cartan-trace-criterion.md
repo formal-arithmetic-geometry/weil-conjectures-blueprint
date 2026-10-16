@@ -2,6 +2,7 @@
 id = "lem-wf-cartan-trace-criterion"
 kind = "lemma"
 title = "Cartan's trace criterion"
+lean = ["LieSubalgebra.isSolvable_of_trace_mul_eq_zero"]
 order = 2814
 uses = ["lem-wf-engel-matrix"]
 +++

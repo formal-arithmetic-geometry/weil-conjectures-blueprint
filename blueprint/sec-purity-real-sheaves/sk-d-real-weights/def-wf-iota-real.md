@@ -2,6 +2,7 @@
 id = "def-wf-iota-real"
 kind = "definition"
 title = "$\\iota$-real and $\\iota$-realizable Weil sheaves"
+lean = ["AlgebraicGeometry.WeilSheaf.IsRealizable"]
 order = 2933
 uses = ["def-weil-constructible-heart", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex"]
 +++

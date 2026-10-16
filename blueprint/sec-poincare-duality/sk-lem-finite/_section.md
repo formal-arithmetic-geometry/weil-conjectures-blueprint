@@ -2,6 +2,7 @@
 id = "sk-lem-finite"
 kind = "lemma"
 title = "Finiteness: the global sections are perfect at the point"
+lean = ["AlgebraicGeometry.WeilSheaf.subsingleton_cohomology_adicConstant", "DerivedCategory.IsPerfect.tensor_homology", "DerivedCategory.isPerfect_of_finiteTorAmplitude", "DerivedCategory.IsPerfect.ihom_unit", "AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_rightDerivedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_ihom_compactlySupportedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_ihom_rightDerivedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections_integral", "AlgebraicGeometry.Etale.isPerfect_rightDerivedGlobalSections_integral", "AlgebraicGeometry.Etale.isPerfect_ihom_compactlySupportedGlobalSections_integral", "AlgebraicGeometry.Etale.isPerfect_ihom_rightDerivedGlobalSections_integral", "AlgebraicGeometry.Etale.rationalHomology_globalSections", "AlgebraicGeometry.ProEtale.isPerfect_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_rightDerivedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_rightDerivedGlobalSections_adic"]
 order = 2770
 uses = ["sk-def-perfect", "sk-def-set", "sk-prop-sf-trace-perfectness", "sk-thm-sf-ctf-stability", "sk-thm-sf-direct-image-tor-amplitude"]
 tags = ["sketch"]

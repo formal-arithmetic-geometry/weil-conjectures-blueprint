@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-comparison-pullback"
 kind = "lemma"
 title = "Comparison inverse image commutes with scheme pullback"
+lean = ["AlgebraicGeometry.ProEtale.leftDerivedUpperStarComparisonIso"]
 order = 1358
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-sections"]
 +++

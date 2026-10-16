@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-proper-composition"
 kind = "lemma"
 title = "Properness is stable under composition"
+lean = ["AlgebraicGeometry.IsProper.comp"]
 order = 911
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

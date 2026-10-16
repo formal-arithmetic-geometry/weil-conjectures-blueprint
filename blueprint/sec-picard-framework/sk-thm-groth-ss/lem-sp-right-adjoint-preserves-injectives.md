@@ -2,6 +2,7 @@
 id = "lem-sp-right-adjoint-preserves-injectives"
 kind = "lemma"
 title = "Right adjoints of exact functors preserve injectives"
+lean = ["CategoryTheory.Adjunction.preservesInjectiveObjects_of_preservesFiniteLimits"]
 order = 608
 uses = ["def-sp-abelian", "def-sp-injective-resolutions"]
 +++

@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-finite-open-comparison-inverse"
 kind = "lemma"
 title = "Section and stalk inverse for the finite-open map"
+lean = ["AlgebraicGeometry.Etale.isIso_finiteOpenComparison_app"]
 order = 1242
 uses = ["def-weil-pbc-finite-open-comparison"]
 +++

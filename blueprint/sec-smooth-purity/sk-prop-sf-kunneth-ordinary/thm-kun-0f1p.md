@@ -2,6 +2,7 @@
 id = "thm-kun-0f1p"
 kind = "theorem"
 title = "Kunneth formula, etale cohomology"
+lean = ["AlgebraicGeometry.Etale.isIso_kunnethMap_of_isSepClosed", "AlgebraicGeometry.Etale.nonempty_iso_kunneth_of_isSepClosed"]
 order = 2127
 uses = ["def-kun-kunneth-map", "def-kun-separably-closed", "lem-kun-0f10", "lem-kun-0f12", "lem-kun-0f1n", "lem-kun-cd-sep-closed-point", "lem-kun-kunneth-via-0f1n", "lem-kun-leray-unbdd"]
 +++

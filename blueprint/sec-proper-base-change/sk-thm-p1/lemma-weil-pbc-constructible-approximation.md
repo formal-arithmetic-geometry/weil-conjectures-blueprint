@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-constructible-approximation"
 kind = "lemma"
 title = "Constructible approximation for effacement"
+lean = ["AlgebraicGeometry.Etale.exists_isConstructibleSheaf_hom_of_henselianRing"]
 order = 1181
 uses = ["def-weil-pbc-constructible-complexes", "lemma-weil-pbc-finite-stage-killing"]
 +++

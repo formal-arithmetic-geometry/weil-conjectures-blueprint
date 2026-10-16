@@ -2,6 +2,7 @@
 id = "def-weil-hankel-matrix"
 kind = "definition"
 title = "Hankel matrix of a power series"
+lean = ["PowerSeries.hankel"]
 order = 3206
 uses = ["def-weil-field", "def-weil-formal-power-series"]
 +++

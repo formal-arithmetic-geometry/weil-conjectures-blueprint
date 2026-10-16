@@ -2,6 +2,7 @@
 id = "lem-a1-extension-bounds"
 kind = "lemma"
 title = "Extension bounds for Frobenius modules"
+lean = ["FrobeniusModule.HasWeightsAtMost.of_functionExact"]
 order = 3134
 uses = ["def-weil-frobenius-module-weights"]
 +++

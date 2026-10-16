@@ -2,6 +2,7 @@
 id = "lem-galois-aut-profinite"
 kind = "lemma"
 title = "$\\operatorname{Aut}(F)$ is profinite"
+lean = ["AlgebraicGeometry.Scheme.FiniteEtale.exists_isFundamentalGroup"]
 order = 977
 uses = ["def-galois-category", "def-galois-fibre-functor"]
 +++

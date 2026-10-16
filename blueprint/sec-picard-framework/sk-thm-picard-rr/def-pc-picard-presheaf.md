@@ -2,6 +2,7 @@
 id = "def-pc-picard-presheaf"
 kind = "definition"
 title = "The Picard presheaf"
+lean = ["AlgebraicGeometry.picardPresheaf"]
 order = 729
 uses = ["def-pc-base-change", "def-sc-picard-group", "def-sc-invertible-module"]
 +++

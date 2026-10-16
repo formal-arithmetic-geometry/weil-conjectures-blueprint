@@ -2,6 +2,7 @@
 id = "def-weil-algebraic-closure-q"
 kind = "definition"
 title = "The algebraic closure of $\\mathbf Q$ inside $\\Qlb$"
+lean = ["AlgebraicRealization", "algebraicClosure_isAlgClosure_and_nonempty_realization"]
 order = 3246
 uses = ["def-weil-finite-field-fiber"]
 +++

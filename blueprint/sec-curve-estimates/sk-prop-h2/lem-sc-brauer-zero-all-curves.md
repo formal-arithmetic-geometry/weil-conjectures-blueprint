@@ -2,6 +2,7 @@
 id = "lem-sc-brauer-zero-all-curves"
 kind = "lemma"
 title = "The Brauer group of an arbitrary curve"
+lean = ["AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup"]
 order = 968
 uses = ["def-br", "def-sc-curves", "def-sc-etale-qcoherent-module", "def-sc-normalization", "def-weil-pbc-etale-cohomology", "lem-sc-brauer-zero", "lem-sc-cech-spectral", "lem-sc-etale-affine-qcoherent", "lem-sc-normalization-exists", "lem-sc-normalized-curve-smooth", "lem-sc-point-z-cohomology"]
 +++

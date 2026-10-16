@@ -2,6 +2,7 @@
 id = "lem-sf-proetale-vanishing-detection"
 kind = "lemma"
 title = "Detection of vanishing on affine weakly contractible objects"
+lean = ["AlgebraicGeometry.ProEtale.isZero_iff_forall_isWeaklyContractible", "AlgebraicGeometry.ProEtale.acyclic_iff_forall_isWeaklyContractible"]
 order = 2138
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "lem-cbc-proetale-stalk-conservative"]
 +++

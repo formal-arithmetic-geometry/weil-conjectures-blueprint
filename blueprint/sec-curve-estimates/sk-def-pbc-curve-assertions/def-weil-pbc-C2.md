@@ -2,6 +2,7 @@
 id = "def-weil-pbc-C2"
 kind = "definition"
 title = "Assertion (C2): vanishing on an affine curve"
+lean = ["AlgebraicGeometry.IsCurve.VanishingAboveOneOfIsAffine"]
 order = 1132
 uses = ["def-weil-pbc-curve-setting"]
 +++

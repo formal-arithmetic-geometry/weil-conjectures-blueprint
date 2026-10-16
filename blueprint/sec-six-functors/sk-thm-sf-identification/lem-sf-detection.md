@@ -2,6 +2,7 @@
 id = "lem-sf-detection"
 kind = "lemma"
 title = "Detection of isomorphisms at the point"
+lean = ["AlgebraicGeometry.Etale.isIso_iff_bijective_comp_of_isSepClosed"]
 order = 2527
 uses = ["lem-sf-point"]
 +++

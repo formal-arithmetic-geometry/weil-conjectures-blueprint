@@ -2,6 +2,7 @@
 id = "lem-fin-spread-finite-algebra"
 kind = "lemma"
 title = "Spreading a finite algebra from the generic fibre"
+lean = ["AlgebraicGeometry.ProjectiveSpace.exists_isFinite_spread"]
 order = 1959
 uses = ["def-weil-pbc-scheme-conventions", "lem-pc-section-clearing-denominators", "pqf-def-coherent"]
 +++

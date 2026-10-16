@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-constructible-finitely-presented"
 kind = "lemma"
 title = "Constructible sheaves are finitely presented in the category of sheaves"
+lean = ["AlgebraicGeometry.Etale.isFinitelyPresentable_of_isConstructibleSheaf"]
 order = 1183
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-sheaves"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-trf-adjoint-mate"
 kind = "lemma"
 title = "Mates along an isomorphism of left adjoints"
+lean = ["CategoryTheory.conjugateIsoEquiv_symm_spec"]
 order = 2643
 uses = ["rem-trf-classical-framework"]
 +++

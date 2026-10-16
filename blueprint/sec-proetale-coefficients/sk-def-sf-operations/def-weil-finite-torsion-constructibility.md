@@ -2,6 +2,7 @@
 id = "def-weil-finite-torsion-constructibility"
 kind = "definition"
 title = "Finite-torsion constructibility"
+lean = ["AlgebraicGeometry.ProEtale.IsFiniteLocallyConstant", "AlgebraicGeometry.ProEtale.IsConstructible"]
 order = 1813
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-irreducible-lisse-strata"
 kind = "lemma"
 title = "Irreducible lisse strata"
+lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.exists_stratification_isIrreducible"]
 order = 1157
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-noetherian-finite-components"]
 +++

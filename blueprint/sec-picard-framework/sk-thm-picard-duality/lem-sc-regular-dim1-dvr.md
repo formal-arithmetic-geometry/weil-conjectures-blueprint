@@ -2,6 +2,7 @@
 id = "lem-sc-regular-dim1-dvr"
 kind = "lemma"
 title = "One-dimensional regular local rings"
+lean = ["IsRegularLocalRing.isDiscreteValuationRing"]
 order = 699
 uses = ["lem-sc-principal-ideal-dvr", "lem-sc-regular-local-domain"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-kun-derived-tensor-direct-sums"
 kind = "lemma"
 title = "Derived tensor products preserve direct sums"
+lean = ["AlgebraicGeometry.Etale.preservesColimitsOfShape_derivedTensor_obj"]
 order = 2064
 uses = ["def-kun-derived-tensor", "def-weil-pbc-derived-categories"]
 +++

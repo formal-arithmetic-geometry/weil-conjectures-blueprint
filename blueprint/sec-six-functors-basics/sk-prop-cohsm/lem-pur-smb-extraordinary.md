@@ -2,6 +2,7 @@
 id = "lem-pur-smb-extraordinary"
 kind = "lemma"
 title = "Smooth base change for the exceptional inverse image"
+lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChangeMap_app", "AlgebraicGeometry.Etale.nonempty_iso_leftDerivedUpperStar_obj_rightDerivedUpperShriek_obj"]
 order = 2339
 uses = ["cor-sf-ambient-adjoint-discharge", "def-exchange-projection", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-asd-smooth-base-change", "thm-cbc-finite-level-proetale", "thm-sf-ambient-adjoint-class", "thm-weil-pbc-site-comparison"]
 +++

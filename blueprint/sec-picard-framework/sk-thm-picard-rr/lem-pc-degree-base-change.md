@@ -2,6 +2,7 @@
 id = "lem-pc-degree-base-change"
 kind = "lemma"
 title = "Degree: base change and tensor products"
+lean = ["AlgebraicGeometry.Scheme.Modules.degree_pullback", "AlgebraicGeometry.Scheme.Modules.degree_pullback_of_isPullback", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.eulerChar_cokernel_whiskerRight", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.eulerChar_tensorObj_dual_toModules", "AlgebraicGeometry.Scheme.degree_tensorObj_pullback_fst"]
 order = 747
 uses = ["def-pc-base-change", "def-pc-degree-line-bundle", "def-pc-dimension", "def-pc-divisor-line-bundle", "def-pc-euler-characteristic", "def-sc-divisor", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "lem-pc-affine-vanishing", "lem-pc-euler-additive", "lem-pc-euler-characteristic-well-defined", "lem-pc-finite-support-hi", "lem-pc-flat-base-change-cohom", "lem-pc-divisor-line-bundle-agrees-sc", "lem-pc-proper-base-change", "lem-sc-point-cartier", "lem-sc-smooth-regular", "lem-sc-regular-dim1-dvr"]
 +++

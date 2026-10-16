@@ -2,6 +2,7 @@
 id = "lem-wf-tensor-weil"
 kind = "lemma"
 title = "Tensor product of Weil complexes"
+lean = ["AlgebraicGeometry.Etale.WeilComplex.tensor"]
 order = 2913
 uses = ["def-wf-tensor-product", "def-wf-weil-category"]
 +++

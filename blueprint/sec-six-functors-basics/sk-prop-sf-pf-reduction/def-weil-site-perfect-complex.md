@@ -2,6 +2,7 @@
 id = "def-weil-site-perfect-complex"
 kind = "definition"
 title = "Perfect complexes on the coefficient site"
+lean = ["AlgebraicGeometry.Etale.DerivedCategory.IsSitePerfect"]
 order = 2225
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-completed-integral-coefficients", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi"]
 +++

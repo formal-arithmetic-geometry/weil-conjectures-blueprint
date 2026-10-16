@@ -2,6 +2,7 @@
 id = "lem-pc-euler-additive"
 kind = "lemma"
 title = "Additivity of the Euler characteristic"
+lean = ["AlgebraicGeometry.Scheme.Modules.eulerChar_eq_add_of_shortExact"]
 order = 746
 uses = ["def-pc-derived-direct-image", "def-pc-morphism-conventions", "lem-pc-coherent-hi"]
 +++

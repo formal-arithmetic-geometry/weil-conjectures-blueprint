@@ -2,6 +2,7 @@
 id = "thm-weil-grothendieck-lefschetz-trace"
 kind = "theorem"
 title = "Grothendieck–Lefschetz trace formula"
+lean = ["AlgebraicGeometry.WeilComplex.finsum_traceFunction_eq_and_pointCount_eq"]
 order = 3223
 uses = ["cor-trf-point-counting", "def-trf-frobenius-operators", "def-trf-karoubi-trace", "def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "prop-trf-karoubi-independence", "prop-weil-proper-compact-coincidence", "thm-trf-frobenius-fixed-points", "thm-trf-frobenius-local-term", "thm-trf-grothendieck-lefschetz-finite-ring", "thm-trf-grothendieck-lefschetz-qbar", "thm-trf-lefschetz-verdier", "thm-trf-trace-formula-e", "thm-zl-lefschetz-weil-identity"]
 +++

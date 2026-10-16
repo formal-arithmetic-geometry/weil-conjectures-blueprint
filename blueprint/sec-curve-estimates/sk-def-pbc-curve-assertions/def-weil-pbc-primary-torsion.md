@@ -2,6 +2,7 @@
 id = "def-weil-pbc-primary-torsion"
 kind = "definition"
 title = "$p$-primary and prime-to-$p$ torsion sheaves"
+lean = ["AlgebraicGeometry.Scheme.IsPrimaryTorsionSheaf"]
 order = 1129
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-geometric-stalks"]
 +++

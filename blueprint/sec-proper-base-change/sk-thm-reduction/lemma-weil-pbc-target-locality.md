@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-target-locality"
 kind = "lemma"
 title = "Target locality"
+lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_of_affineOpens"]
 order = 1257
 uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-qcqs-higher-direct-image", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++

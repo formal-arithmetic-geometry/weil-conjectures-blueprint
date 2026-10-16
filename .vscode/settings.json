@@ -13,6 +13,10 @@
         "**/weil_conjectures_detailed.aux": true,
         "**/weil_conjectures_detailed.log": true,
         "**/weil_conjectures_detailed.gz": true,
-        "**/weil_conjectures_detailed.out": true
+        "**/weil_conjectures_detailed.out": true,
+        "**/blueprint-layer-2.aux": true,
+        "**/blueprint-layer-2.log": true,
+        "**/blueprint-layer-2.gz": true,
+        "**/blueprint-layer-2.out": true
     }
 }

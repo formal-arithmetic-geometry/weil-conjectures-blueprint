@@ -2,6 +2,7 @@
 id = "def-trf-trace-class"
 kind = "definition"
 title = "Trace-class notation conditional on its construction"
+lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.verdierTraceClassOf", "AlgebraicGeometry.ProEtale.Correspondence.verdierTraceClass"]
 order = 2653
 uses = ["def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-trace-class-source", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-pc-divisor-line-bundle-properties"
 kind = "lemma"
 title = "Properties of $\\mathcal{O}_X(D)$"
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.nonempty_dual_toModules_comap_iso"]
 order = 798
 uses = ["def-pc-base-change", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "lem-pc-closed-imm-base-change", "lem-pc-tensor-dual-invertible"]
 +++

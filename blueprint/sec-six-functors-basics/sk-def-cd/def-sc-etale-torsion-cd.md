@@ -2,6 +2,7 @@
 id = "def-sc-etale-torsion-cd"
 kind = "definition"
 title = "Etale torsion cohomological dimension bound"
+lean = ["AlgebraicGeometry.Scheme.HasTorsionCohomologicalDimensionLE"]
 order = 1898
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves"]
 +++

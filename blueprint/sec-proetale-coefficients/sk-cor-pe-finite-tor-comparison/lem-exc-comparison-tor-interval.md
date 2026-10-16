@@ -2,6 +2,7 @@
 id = "lem-exc-comparison-tor-interval"
 kind = "lemma"
 title = "Site comparison preserves and detects Tor intervals"
+lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.torAmplitudeIn_mapDerivedCategory_iff"]
 order = 2537
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-pbc-derived-categories", "def-weil-pbc-site-comparison-morphism", "lem-exc-constant-inverse-image-flat", "prop-weil-pbc-site-comparison-finite-level", "thm-weil-pbc-site-comparison"]
 +++

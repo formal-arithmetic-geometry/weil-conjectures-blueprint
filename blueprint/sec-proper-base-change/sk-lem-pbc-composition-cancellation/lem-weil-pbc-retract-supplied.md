@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-retract-supplied"
 kind = "lemma"
 title = "Retract supplied by a proper surjection"
+lean = ["AlgebraicGeometry.Etale.mono_homEquiv_of_surjective"]
 order = 1254
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++

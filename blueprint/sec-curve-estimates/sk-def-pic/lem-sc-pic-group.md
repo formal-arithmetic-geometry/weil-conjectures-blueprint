@@ -2,6 +2,7 @@
 id = "lem-sc-pic-group"
 kind = "lemma"
 title = "$\\operatorname{Pic}(C)$ is a group"
+lean = ["AlgebraicGeometry.Scheme.Pic.instCommGroup"]
 order = 892
 uses = ["def-sc-curves", "def-sc-invertible-module", "lem-sc-invertible-dual"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-pc-projective-proper"
 kind = "lemma"
 title = "Projective morphisms are proper"
+lean = ["AlgebraicGeometry.ProjectiveSpace.instIsProper"]
 order = 764
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-projective-morphism", "def-pc-smooth-projective-curve", "lem-pc-proper-base-change"]
 +++

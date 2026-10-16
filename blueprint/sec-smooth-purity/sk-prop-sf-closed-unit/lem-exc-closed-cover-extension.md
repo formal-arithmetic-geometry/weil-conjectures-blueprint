@@ -2,6 +2,7 @@
 id = "lem-exc-closed-cover-extension"
 kind = "lemma"
 title = "Lifting a covering of a closed fibre"
+lean = ["AlgebraicGeometry.closedLiftCoverObj", "AlgebraicGeometry.exists_ofArrows_closedLiftCover_mem_proetalePrecoverage"]
 order = 2198
 uses = ["def-exc-closed-site-lift", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "lem-exc-closed-lift-reduction"]
 +++

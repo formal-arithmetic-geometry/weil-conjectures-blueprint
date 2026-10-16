@@ -2,6 +2,7 @@
 id = "def-wf-tensor-product"
 kind = "definition"
 title = "Derived tensor product"
+lean = ["AlgebraicGeometry.Etale.DerivedCategoryFiniteTor.derivedTensor", "AlgebraicGeometry.Etale.WeilComplex.tensorFrobenius"]
 order = 2451
 uses = ["def-wf-weil-category"]
 +++

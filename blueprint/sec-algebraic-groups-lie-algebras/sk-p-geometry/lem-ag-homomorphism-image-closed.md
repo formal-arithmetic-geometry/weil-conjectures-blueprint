@@ -2,6 +2,7 @@
 id = "lem-ag-homomorphism-image-closed"
 kind = "lemma"
 title = "The image of a regular homomorphism is closed"
+lean = ["AlgebraicGeometry.isClosed_range_of_isMonHom", "AlgebraicGeometry.GeneralLinearGroup.RationalHom.mem_range_points_iff", "AlgebraicGeometry.GeneralLinearGroup.mem_of_mem_closure_of_isConstructible"]
 order = 2839
 uses = ["def-wf-algebraic-components", "lem-wf-affine-constructible-open", "lem-wf-algebraic-component-cosets"]
 +++

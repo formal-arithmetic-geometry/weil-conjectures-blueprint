@@ -2,6 +2,7 @@
 id = "lem-fin-finite-boundary-reconstruction"
 kind = "lemma"
 title = "Recovering constructibility at a finite boundary"
+lean = ["AlgebraicGeometry.Etale.boundedConstructible_of_upperStar_of_rightDerivedLowerStar"]
 order = 1975
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-extension-by-zero", "lem-fin-finite-reflects-derived", "lem-fin-proper-bounded-constructible", "lemma-weil-pbc-geometric-stalk-conservative", "prop-constructible-derived-subcategory", "sbc-def-coefficient-conventions", "thm-constructible-serre"]
 +++

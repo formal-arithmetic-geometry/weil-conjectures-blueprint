@@ -2,6 +2,7 @@
 id = "def-wf-semisimple-module"
 kind = "definition"
 title = "Semisimple algebraic-group module"
+lean = ["Representation.isSemisimpleRepresentation_iff_exists_iSupIndep", "AlgebraicGeometry.GeneralLinearGroup.RationalHom.IsSemisimple", "AlgebraicGeometry.GeneralLinearGroup.RationalHom.isSemisimple_iff"]
 order = 2805
 uses = ["def-wf-simple-module"]
 +++

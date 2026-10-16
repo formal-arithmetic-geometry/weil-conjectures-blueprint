@@ -2,6 +2,7 @@
 id = "def-weil-pbc-extension-pullback"
 kind = "definition"
 title = "Base change of the coefficient and the pullback map"
+lean = ["AlgebraicGeometry.IsCurve.BaseChangeOfInvertibleOrder", "AlgebraicGeometry.IsCurve.BaseChangeOfIsProper"]
 order = 1130
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-etale-cohomology"]
 +++

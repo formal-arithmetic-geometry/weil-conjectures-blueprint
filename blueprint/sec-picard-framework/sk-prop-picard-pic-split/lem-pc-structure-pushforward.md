@@ -2,6 +2,7 @@
 id = "lem-pc-structure-pushforward"
 kind = "lemma"
 title = "The open locus of $H^0$ of the structure sheaf"
+lean = ["AlgebraicGeometry.isIso_pushforwardUnitMap_pullback_snd"]
 order = 819
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-picard-presheaf", "lem-pc-finite-support-hi", "lem-sc-flat-base-change-coherent"]
 +++

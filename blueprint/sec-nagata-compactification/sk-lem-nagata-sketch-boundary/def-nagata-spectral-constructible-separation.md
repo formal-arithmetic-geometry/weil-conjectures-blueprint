@@ -2,6 +2,7 @@
 id = "def-nagata-spectral-constructible-separation"
 kind = "definition"
 title = "Constructible separation data in a spectral space"
+lean = ["PrespectralSpace.constructibleSeparation", "AlgebraicGeometry.isoNearClosureSeparation"]
 order = 260
 uses = ["lemma-nagata-spectral-constructible-separation-exists"]
 +++

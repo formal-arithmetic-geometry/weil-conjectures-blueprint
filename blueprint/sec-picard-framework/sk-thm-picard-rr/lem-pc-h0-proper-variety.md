@@ -2,6 +2,7 @@
 id = "lem-pc-h0-proper-variety"
 kind = "lemma"
 title = "Global sections of a proper scheme"
+lean = ["AlgebraicGeometry.Scheme.isField_globalSections_of_universallyClosed"]
 order = 735
 uses = ["def-pc-geometrically-irreducible", "def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-coherent-hi", "lem-pc-finite-extension-alg-closed", "lem-sc-flat-base-change-coherent"]
 +++

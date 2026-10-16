@@ -2,6 +2,7 @@
 id = "lemma-nagata-final-noetherian-base-system"
 kind = "lemma"
 title = "Properties of the final Noetherian base system"
+lean = ["AlgebraicGeometry.Scheme.noetherianBaseSystem_spec"]
 order = 379
 uses = ["def-nagata-final-noetherian-base-system", "prop-nagata-noetherian-inverse-system"]
 +++

@@ -2,6 +2,7 @@
 id = "prop-compactification-refinement"
 kind = "theorem"
 title = "Existence and common refinement"
+lean = ["AlgebraicGeometry.Compactification.isCofiltered_of_field"]
 order = 425
 tags = ["latex:proposition"]
 uses = ["def-weil-compactifications-refinements", "def-weil-scheme-morphism-properties", "prop-nagata-compactification-category", "thm-nagata-compactification"]

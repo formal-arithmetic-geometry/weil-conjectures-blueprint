@@ -2,6 +2,7 @@
 id = "lem-fd-constituent-nonexceptional-concentration"
 kind = "lemma"
 title = "Concentration of the zero-extension transform for a constituent-nonexceptional input"
+lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isZero_higherLowerShriek_realifiedKernel", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.higherLowerShriekRealifiedKernelIso", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isNonexceptional_dual", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isIrreducibleLisse_twistedDual", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isNonexceptional_twistedDual"]
 order = 3119
 uses = ["def-a1-constituent-nonexceptional", "def-fd-kernel", "def-fd-transform", "def-wf-constant-weil-twist", "def-wf-fundamental-representation", "lem-a1-affine-hc0", "lem-a1-affine-hc2", "lem-fd-as-characters", "lem-fd-realified-kernel-real", "lem-fd-stalk-formula", "lem-zl-affine-curve-range", "prop-functor-package", "rem-dl-a1-conventions"]
 +++

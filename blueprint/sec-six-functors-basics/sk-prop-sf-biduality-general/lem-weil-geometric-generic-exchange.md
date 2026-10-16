@@ -2,6 +2,7 @@
 id = "lem-weil-geometric-generic-exchange"
 kind = "lemma"
 title = "Geometric generic restriction and the boundary operations"
+lean = ["AlgebraicGeometry.Etale.isIso_derivedBaseChangeMap_app_of_isOpenImmersion_of_generic", "AlgebraicGeometry.Etale.isIso_derivedHomUpperStarComparison_rightDerivedLowerStar_of_generic", "AlgebraicGeometry.Etale.isIso_derivedHomUpperStarComparison_rightDerivedLowerStar_of_isClosedImmersion", "AlgebraicGeometry.Etale.isIso_derivedHomUpperStarComparison_of_generic", "AlgebraicGeometry.Etale.derivedHomUpperStarComparison", "AlgebraicGeometry.Etale.derivedHomUpperStarComparison_ev", "AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChangeMap_app_of_isIso", "AlgebraicGeometry.Etale.isIso_rightDerivedUpperShriekBaseChangeMap_app_of_generic"]
 order = 2470
 uses = ["def-weil-open-closed-recollement", "def-weil-site-perfect-complex", "lem-exc-closed-amplitude", "lem-exc-closed-support-triangle", "lem-weil-bounded-finite-tor-perfect", "lem-weil-pbc-derived-cohomology-continuity", "lem-weil-stratum-ambient-hom", "sbc-thm-bounded-below-derived-smooth-base-change", "thm-dg-finite-type-constructibility", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++

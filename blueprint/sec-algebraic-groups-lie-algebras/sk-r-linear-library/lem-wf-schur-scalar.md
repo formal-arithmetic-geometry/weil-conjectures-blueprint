@@ -2,6 +2,7 @@
 id = "lem-wf-schur-scalar"
 kind = "lemma"
 title = "Schur's scalar lemma"
+lean = ["Representation.IsIrreducible.existsUnique_eq_smul_id"]
 order = 2883
 uses = ["def-wf-simple-module"]
 +++

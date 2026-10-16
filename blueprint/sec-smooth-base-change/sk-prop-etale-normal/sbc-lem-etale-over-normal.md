@@ -2,6 +2,7 @@
 id = "sbc-lem-etale-over-normal"
 kind = "lemma"
 title = "Etale covers of a normal scheme with algebraically closed function field"
+lean = ["AlgebraicGeometry.Etale.exists_opens_isOpenImmersion_and_henselianLocalRing_stalk"]
 order = 1458
 uses = ["def-sbc-normal-dominant-galois"]
 +++

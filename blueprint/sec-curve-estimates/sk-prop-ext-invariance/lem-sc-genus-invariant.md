@@ -2,6 +2,7 @@
 id = "lem-sc-genus-invariant"
 kind = "lemma"
 title = "The genus is invariant under extension"
+lean = ["AlgebraicGeometry.Scheme.Hom.genus_baseChangeField"]
 order = 1038
 uses = ["def-sc-curves", "def-sc-genus", "def-sc-jacobian", "lem-sc-flat-base-change-coherent", "thm-sc-jacobian-representability"]
 +++

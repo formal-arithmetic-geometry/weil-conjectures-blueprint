@@ -2,6 +2,7 @@
 id = "lem-sc-invertible-dual"
 kind = "lemma"
 title = "Duals of invertible modules"
+lean = ["AlgebraicGeometry.Scheme.Modules.isInvertible_dual_and_isIso_dualEvaluation_and_isIso_bidual", "AlgebraicGeometry.Scheme.Modules.isInvertible_dual_and_nonempty_iso"]
 order = 690
 uses = ["def-sc-curves", "def-sc-invertible-module"]
 +++

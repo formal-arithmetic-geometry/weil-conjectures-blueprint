@@ -2,6 +2,7 @@
 id = "lem-wf-determinantal-weight-exists"
 kind = "lemma"
 title = "Purity of the determinant line"
+lean = ["AlgebraicGeometry.WeilGroup.existsUnique_isPunctuallyPure_detLine"]
 order = 2976
 uses = ["cor-wf-rank-one-punctual-purity-curve", "def-mg-determinant-line", "def-weil-local-frobenius-trace", "def-weil-punctual-weights", "def-wf-fundamental-representation", "thm-wf-rank-one-finite-geometric-image-curve"]
 +++

@@ -2,6 +2,7 @@
 id = "def-weil-pbc-C1"
 kind = "definition"
 title = "Assertion (C1): vanishing above the dimension"
+lean = ["AlgebraicGeometry.IsCurve.VanishingAboveTwo"]
 order = 1131
 uses = ["def-weil-pbc-curve-setting"]
 +++

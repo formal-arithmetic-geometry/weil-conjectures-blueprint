@@ -2,6 +2,7 @@
 id = "def-pc-smooth-projective-curve"
 kind = "definition"
 title = "Smooth projective curves"
+lean = ["AlgebraicGeometry.IsSmoothProjectiveCurve"]
 order = 460
 uses = ["def-pc-curve", "def-pc-projective-morphism", "def-weil-scheme-morphism-properties"]
 +++

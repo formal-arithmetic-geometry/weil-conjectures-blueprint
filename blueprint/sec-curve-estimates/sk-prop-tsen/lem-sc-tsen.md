@@ -2,6 +2,7 @@
 id = "lem-sc-tsen"
 kind = "lemma"
 title = "Tsen's theorem"
+lean = ["RatFunc.isQuasiAlgClosed", "IsQuasiAlgClosed.of_trdeg_le_one"]
 order = 902
 uses = ["def-sc-cr-field", "def-sc-curves", "def-sc-function-field", "lem-sc-c1-brauer-trivial", "lem-sc-c1-finite-extension"]
 +++

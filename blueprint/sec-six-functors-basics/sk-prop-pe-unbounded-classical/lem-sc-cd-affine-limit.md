@@ -2,6 +2,7 @@
 id = "lem-sc-cd-affine-limit"
 kind = "lemma"
 title = "Passing a uniform torsion bound to an affine limit"
+lean = ["AlgebraicGeometry.Scheme.HasTorsionCohomologicalDimensionLE.of_isLimit"]
 order = 1900
 uses = ["def-sc-etale-torsion-cd", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-cohomology-filtered-colimit", "lemma-weil-pbc-etale-cohomology-continuity", "lemma-weil-pbc-torsion-filtered-union"]
 +++

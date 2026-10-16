@@ -2,6 +2,7 @@
 id = "lem-wf-sum-of-solvable-ideals"
 kind = "lemma"
 title = "Sum of two solvable ideals"
+lean = ["LieIdeal.isSolvable_sup"]
 order = 2810
 uses = ["def-wf-lie-algebra"]
 +++

@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-p1-exchange-geometric-stalk"
 kind = "lemma"
 title = "Exchange on a geometric stalk"
+lean = ["AlgebraicGeometry.Etale.exists_addEquiv_sheafFiber_baseChangeHomologyMap_projectiveLine"]
 order = 1205
 uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-etale-sheaves", "prop-weil-pbc-p1-strict-henselian-comparison", "prop-weil-pbc-strict-henselization-stalk-formula", "prop-weil-pbc-strict-local-exchange"]
 +++

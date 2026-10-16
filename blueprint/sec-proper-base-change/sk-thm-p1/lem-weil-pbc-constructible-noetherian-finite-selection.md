@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-constructible-noetherian-finite-selection"
 kind = "lemma"
 title = "Noetherian finite selection of stalk tests"
+lean = ["AlgebraicGeometry.Etale.exists_finset_mono_pi_lift"]
 order = 1185
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "lem-weil-pbc-irreducible-lisse-strata", "lem-weil-pbc-lisse-generic-kernel", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++

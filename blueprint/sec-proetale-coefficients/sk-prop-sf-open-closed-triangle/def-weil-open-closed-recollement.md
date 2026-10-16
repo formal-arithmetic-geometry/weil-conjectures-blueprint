@@ -2,6 +2,7 @@
 id = "def-weil-open-closed-recollement"
 kind = "definition"
 title = "Open--closed recollement"
+lean = ["AlgebraicGeometry.WeilComplex.exists_isIso_app_of_isZero_upperStar"]
 order = 2180
 uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++

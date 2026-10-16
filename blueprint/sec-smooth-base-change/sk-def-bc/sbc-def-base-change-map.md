@@ -2,6 +2,7 @@
 id = "sbc-def-base-change-map"
 kind = "definition"
 title = "Base-change map"
+lean = ["AlgebraicGeometry.Etale.baseChange_app_paste_horiz"]
 order = 1426
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "sbc-def-base-change-square"]
 +++

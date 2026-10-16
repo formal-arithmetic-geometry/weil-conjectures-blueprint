@@ -2,6 +2,7 @@
 id = "sbc-thm-algebraically-closed-invariance"
 kind = "theorem"
 title = "Invariance under extension of algebraically closed fields"
+lean = ["AlgebraicGeometry.bijective_cohomologyMap_constantZMod_of_smoothOfRelativeDimension"]
 order = 1467
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-scheme-conventions", "thm-sc-constant-invariance"]
 +++

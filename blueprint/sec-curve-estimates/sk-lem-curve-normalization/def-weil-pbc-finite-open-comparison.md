@@ -2,6 +2,7 @@
 id = "def-weil-pbc-finite-open-comparison"
 kind = "definition"
 title = "Finite-open comparison map"
+lean = ["AlgebraicGeometry.Etale.finiteOpenComparison"]
 order = 1241
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange"]
 +++

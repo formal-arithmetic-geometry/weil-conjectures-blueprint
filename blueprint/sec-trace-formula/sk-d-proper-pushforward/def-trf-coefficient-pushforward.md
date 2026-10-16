@@ -2,6 +2,7 @@
 id = "def-trf-coefficient-pushforward"
 kind = "definition"
 title = "Coefficient pushforward of a correspondence"
+lean = ["AlgebraicGeometry.ProEtale.ProperPushforwardDiagram.pushforwardCoeffUnit", "AlgebraicGeometry.ProEtale.ProperPushforwardDiagram.pushforwardCoeffCounit", "AlgebraicGeometry.ProEtale.ProperPushforwardDiagram.pushforwardCoeff"]
 order = 2670
 uses = ["def-exchange-projection", "def-trf-admissibility", "def-trf-correspondence", "def-trf-fixed-scheme", "fix-lem-exchanges", "fix-prop-adjunctions", "prop-functor-package", "thm-sf-comp-composition", "thm-sf-dual-base-change"]
 +++

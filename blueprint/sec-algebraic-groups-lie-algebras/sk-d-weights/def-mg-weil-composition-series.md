@@ -2,6 +2,7 @@
 id = "def-mg-weil-composition-series"
 kind = "definition"
 title = "Composition series of a Weil representation"
+lean = ["Representation.CompositionSeries", "Representation.CompositionSeries.factor"]
 order = 2880
 uses = ["def-wf-monodromy-data"]
 +++

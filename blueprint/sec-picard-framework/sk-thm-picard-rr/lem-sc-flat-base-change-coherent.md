@@ -2,6 +2,7 @@
 id = "lem-sc-flat-base-change-coherent"
 kind = "lemma"
 title = "Flat base change for coherent cohomology"
+lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_H_pullback_linearEquiv"]
 order = 721
 uses = ["lem-sc-cech-spectral"]
 +++

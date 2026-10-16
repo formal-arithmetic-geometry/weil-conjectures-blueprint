@@ -2,6 +2,7 @@
 id = "lemma-nagata-final-noetherian-compactification"
 kind = "lemma"
 title = "Property of the selected Noetherian compactification"
+lean = ["AlgebraicGeometry.descendedModelCompactification_spec"]
 order = 383
 uses = ["def-nagata-final-noetherian-compactification", "lemma-nagata-final-descended-model", "thm-nagata-noetherian"]
 +++

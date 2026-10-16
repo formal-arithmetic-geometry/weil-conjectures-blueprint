@@ -2,6 +2,7 @@
 id = "lem-mg-determinant-monodromy-morphism"
 kind = "lemma"
 title = "The determinant morphism of arithmetic monodromy"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detExtensionMap"]
 order = 2865
 uses = ["def-mg-determinant-line", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "lem-mg-degree-component-functoriality"]
 +++

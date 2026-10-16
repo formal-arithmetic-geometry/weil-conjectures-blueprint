@@ -2,6 +2,7 @@
 id = "def-nagata-affine-neighbourhood-generic-points"
 kind = "definition"
 title = "Affine neighbourhood containing selected generic points"
+lean = ["AlgebraicGeometry.Scheme.affineOpenGenericPoints"]
 order = 321
 uses = ["lemma-nagata-affine-neighbourhood-generic-points-exists"]
 +++

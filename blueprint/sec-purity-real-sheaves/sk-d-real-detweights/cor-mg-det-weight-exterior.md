@@ -2,6 +2,7 @@
 id = "cor-mg-det-weight-exterior"
 kind = "theorem"
 title = "Determinant weights of an exterior power"
+lean = ["AlgebraicGeometry.WeilGroup.detWeight_subquotient_exteriorPower"]
 order = 2983
 tags = ["latex:corollary"]
 uses = ["def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "def-wf-geometric-semisimplicity", "lem-rp-determinant-weights-agree", "prop-ag-det-weight-exterior"]

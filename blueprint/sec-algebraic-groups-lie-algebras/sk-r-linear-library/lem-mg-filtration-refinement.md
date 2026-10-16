@@ -2,6 +2,7 @@
 id = "lem-mg-filtration-refinement"
 kind = "lemma"
 title = "Refining a finite filtration"
+lean = ["Representation.HasGradedPieces.trans", "Representation.CompositionSeries.exists_equiv_sigma_of_monotone", "Representation.ConstituentsLE", "Representation.ConstituentsLE.of_chain"]
 order = 2888
 uses = ["def-mg-weil-composition-series", "lem-mg-composition-series-exists", "lem-mg-jordan-holder"]
 +++

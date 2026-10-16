@@ -2,6 +2,7 @@
 id = "rem-pc-group-structure"
 kind = "definition"
 title = "Group scheme structure"
+lean = ["AlgebraicGeometry.IsPicardMul", "AlgebraicGeometry.exists_commGrpObj_isPicardMul", "AlgebraicGeometry.picardFunctorNormalizedGrp", "AlgebraicGeometry.isRepresentable_picardFunctor"]
 order = 845
 +++
 The theorem produces a scheme $\underline{\operatorname{Pic}}_{X/k}$ representing

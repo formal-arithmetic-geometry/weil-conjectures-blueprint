@@ -2,6 +2,7 @@
 id = "lem-pod-coefficient-dual-perfect"
 kind = "lemma"
 title = "Perfectness is preserved by coefficient duality"
+lean = ["AlgebraicGeometry.ProEtale.isDualizable_derivedDual", "AlgebraicGeometry.ProEtale.constructibleFiniteTor_derivedDual"]
 order = 2754
 uses = ["def-pod-coefficient-dual-on-x", "def-pod-perfect-complex-on-x", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "lem-pod-finite-projective-tensor-hom", "prop-pod-perfect-local-model"]
 +++

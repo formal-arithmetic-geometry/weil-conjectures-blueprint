@@ -2,6 +2,7 @@
 id = "def-nagata-finite-type-closed-in-fp"
 kind = "definition"
 title = "Separated finite-presentation envelope"
+lean = ["AlgebraicGeometry.Scheme.Hom.separatedFPEnvelopeIndex", "AlgebraicGeometry.Scheme.Hom.separatedFPEnvelope", "AlgebraicGeometry.Scheme.Hom.toSeparatedFPEnvelope", "AlgebraicGeometry.Scheme.Hom.separatedFPEnvelopeHom"]
 order = 403
 uses = ["def-nagata-finite-type-fp-model-system", "def-nagata-fixed-base-separated-stage"]
 +++

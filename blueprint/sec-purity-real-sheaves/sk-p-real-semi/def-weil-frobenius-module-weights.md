@@ -2,6 +2,7 @@
 id = "def-weil-frobenius-module-weights"
 kind = "definition"
 title = "Weights of finite-dimensional Frobenius modules"
+lean = ["AlgebraicGeometry.WeilGroup.IsPureFrobeniusModule", "AlgebraicGeometry.WeilGroup.IsMixedFrobeniusModule"]
 order = 2995
 uses = ["def-weil-finite-field-fiber"]
 +++

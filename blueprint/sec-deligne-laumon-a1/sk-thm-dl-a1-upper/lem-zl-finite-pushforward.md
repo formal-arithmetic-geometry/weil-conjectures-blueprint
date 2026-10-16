@@ -2,6 +2,7 @@
 id = "lem-zl-finite-pushforward"
 kind = "lemma"
 title = "Finite pushforward preserves upper weights"
+lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerStar_of_isFinite", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerStar_of_isClosedImmersion"]
 order = 3133
 uses = ["def-weil-complex-weights", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-stalk-formula", "prop-functor-package"]
 +++

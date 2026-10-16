@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-proper-closed-image"
 kind = "lemma"
 title = "A proper morphism has closed image"
+lean = ["AlgebraicGeometry.IsProper.isClosed_range"]
 order = 913
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

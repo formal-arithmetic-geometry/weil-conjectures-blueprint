@@ -2,6 +2,7 @@
 id = "prop-weil-pbc-composition-stability"
 kind = "theorem"
 title = "Composition stability"
+lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange.comp", "AlgebraicGeometry.Etale.HasInjectiveAcyclicity.comp"]
 order = 1262
 uses = ["def-weil-pbc-injective-acyclicity-property", "def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-direct-image-preserves-injectives", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-proper-underived-exchange", "lemma-weil-pbc-property-iff-acyclicity"]
 tags = ["latex:proposition"]

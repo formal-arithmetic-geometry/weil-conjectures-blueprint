@@ -2,6 +2,7 @@
 id = "def-pc-relative-effective-cartier"
 kind = "definition"
 title = "Relative effective Cartier divisors"
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsRelativeEffectiveCartier"]
 order = 790
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "def-sc-effective-cartier-divisor"]
 +++

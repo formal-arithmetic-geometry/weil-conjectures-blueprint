@@ -2,6 +2,7 @@
 id = "def-weil-pbc-strict-henselization-limit"
 kind = "definition"
 title = "Strict henselization from pointed neighbourhoods"
+lean = ["AlgebraicGeometry.Scheme.strictHenselization", "AlgebraicGeometry.Scheme.strictLocalization", "AlgebraicGeometry.Scheme.isLimitStrictLocalizationCone", "AlgebraicGeometry.Scheme.isLimitStrictLocalizationConeOver"]
 order = 952
 uses = ["def-weil-pbc-pointed-etale-neighbourhoods"]
 +++

@@ -2,6 +2,7 @@
 id = "thm-sf-pf-field"
 kind = "theorem"
 title = "Rational and algebraically closed stages"
+lean = ["AlgebraicGeometry.Etale.isIso_fromIntegral_map_projectionMap", "AlgebraicGeometry.Etale.isIso_reductionModIdeal_pow_map_projectionMap"]
 order = 2442
 uses = ["def-sf-datum", "def-sf-pf", "def-weil-algebraically-closed-coefficients", "def-weil-rationalization-karoubi", "thm-sf-pf-adic"]
 +++

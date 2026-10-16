@@ -2,6 +2,7 @@
 id = "lem-amb-etale-adjoint-locality"
 kind = "lemma"
 title = "Etale localization of the ambient adjoint"
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_comp_leftDerivedUpperStar_of_etale"]
 order = 1919
 uses = ["def-amb-etale-compact-support", "def-asd-compactifiable", "def-weil-pbc-derived-categories", "def-weil-scheme-morphism-properties", "lem-amb-etale-compact-comparisons", "thm-amb-etale-exceptional-adjoint"]
 +++

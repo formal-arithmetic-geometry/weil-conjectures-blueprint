@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-property-iff-acyclicity"
 kind = "lemma"
 title = "Equivalence of PBC and IA"
+lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange.hasInjectiveAcyclicity", "AlgebraicGeometry.Etale.HasInjectiveAcyclicity.hasTorsionBaseChange_of_isIso_baseChangeMap", "AlgebraicGeometry.Etale.HasInjectiveAcyclicity.hasTorsionBaseChange", "AlgebraicGeometry.Etale.hasTorsionBaseChange_of_hasInjectiveAcyclicity"]
 order = 1124
 uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-injective-acyclicity-property", "def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-prime-factor-devissage", "lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-leray-acyclicity", "lemma-weil-pbc-prime-torsion-devissage", "lemma-weil-pbc-proper-underived-exchange", "lemma-weil-pbc-torsion-filtered-union"]
 +++

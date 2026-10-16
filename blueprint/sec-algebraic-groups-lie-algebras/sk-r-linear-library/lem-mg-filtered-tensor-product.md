@@ -2,6 +2,7 @@
 id = "lem-mg-filtered-tensor-product"
 kind = "lemma"
 title = "Tensor product of two filtered representations"
+lean = ["Subrepresentation.exists_subquotient_tprod_equiv_of_subrepresentation", "Subrepresentation.exists_subquotient_tprod_left_equiv", "Subrepresentation.exists_subquotient_tprod_equiv", "Representation.CompositionSeries.hasGradedPieces_tprod", "Representation.ConstituentsLE.tprod_left"]
 order = 2889
 uses = ["def-mg-weil-composition-series"]
 +++

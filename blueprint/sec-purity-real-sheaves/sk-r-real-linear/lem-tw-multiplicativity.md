@@ -2,6 +2,7 @@
 id = "lem-tw-multiplicativity"
 kind = "lemma"
 title = "Weights multiply under tensor product"
+lean = ["AlgebraicGeometry.WeilGroup.IsOfWeight.mul", "AlgebraicGeometry.WeilGroup.IsOfWeight.inv"]
 order = 2942
 uses = ["def-tw-eigenvalue"]
 +++

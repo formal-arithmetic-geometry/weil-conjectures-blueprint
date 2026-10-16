@@ -2,6 +2,7 @@
 id = "def-sf-fullcd-class"
 kind = "definition"
 title = "The class-restricted full cohomological-dimension datum"
+lean = ["AlgebraicGeometry.ProEtale.HasCohomologicalDimensionLEOnEtaleOrigin"]
 order = 2145
 uses = ["def-sf-fullcd-used-class", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-pbc-etale-sheaves", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-sf-fullcd-class-restriction", "lem-sf-proetale-constructible-origin"]
 +++

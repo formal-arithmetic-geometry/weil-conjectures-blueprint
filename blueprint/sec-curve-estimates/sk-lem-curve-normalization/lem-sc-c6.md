@@ -2,6 +2,7 @@
 id = "lem-sc-c6"
 kind = "lemma"
 title = "C6: invariance under algebraically closed extension"
+lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_constantModSheaf_of_ne_zero"]
 order = 1170
 uses = ["def-sc-curves", "def-sc-field-extension", "def-weil-pbc-eight-curve-assertions", "thm-sc-constant-invariance"]
 +++

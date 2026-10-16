@@ -2,6 +2,7 @@
 id = "lem-fin-coefficients-forgetful-direct-image"
 kind = "lemma"
 title = "Changing finite coefficient rings in a direct image"
+lean = ["AlgebraicGeometry.Etale.rightDerivedLowerStarCompDerivedRestrictScalarsIso"]
 order = 1986
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image"]
 +++

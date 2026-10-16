@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-curve-dense-open-localization"
 kind = "lemma"
 title = "Dense-open localization"
+lean = ["AlgebraicGeometry.IsCurve.exists_dense_assertions_iff_forall_lowerShriek"]
 order = 1236
 uses = ["def-constructible-constructible", "def-constructible-stratification", "def-weil-pbc-curve-setting", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-zero-dimensional-cohomology", "lem-weil-pbc-zero-dimensional-field-extension", "lemma-weil-pbc-eight-curve-devissage", "prop-constructible-generic-constancy", "prop-weil-pbc-geometric-stalks-exact"]
 +++

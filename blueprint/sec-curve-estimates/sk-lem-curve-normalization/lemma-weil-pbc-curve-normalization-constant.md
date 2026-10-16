@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-curve-normalization-constant"
 kind = "lemma"
 title = "Normalization and smooth constant case"
+lean = ["AlgebraicGeometry.IsCurve.Assertions.lowerShriek_constantModSheaf_of_finite"]
 order = 1248
 uses = ["lemma-weil-pbc-curve-dense-open-reduction", "lemma-weil-pbc-normalization-exact-sequence", "lemma-weil-pbc-smooth-curve-artin-schreier", "lemma-weil-pbc-smooth-curve-kummer-localization"]
 +++

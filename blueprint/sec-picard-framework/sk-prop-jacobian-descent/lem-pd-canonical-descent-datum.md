@@ -2,6 +2,7 @@
 id = "lem-pd-canonical-descent-datum"
 kind = "lemma"
 title = "The Picard functor produces a canonical descent datum"
+lean = ["CategoryTheory.Functor.RepresentableBy.overDescentDatum"]
 order = 866
 uses = ["cor-pd-pic0-base-change", "def-pc-base-change", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-pd-descent-datum", "def-pd-separable-closure", "def-sc-jacobian", "lem-sc-jacobian-unique", "thm-pd-geometric-pic0"]
 +++

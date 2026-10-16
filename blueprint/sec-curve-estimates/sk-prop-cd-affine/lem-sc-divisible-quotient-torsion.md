@@ -2,6 +2,7 @@
 id = "lem-sc-divisible-quotient-torsion"
 kind = "lemma"
 title = "Torsion in a quotient of a divisible group"
+lean = ["AddSubgroup.exists_exact_torsionBy_quotient"]
 order = 1019
 +++
 Let $G$ be an abelian group, $\Lambda\subseteq G$ a subgroup,

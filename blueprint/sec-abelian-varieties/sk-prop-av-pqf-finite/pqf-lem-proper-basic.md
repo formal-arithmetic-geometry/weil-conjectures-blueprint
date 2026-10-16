@@ -2,6 +2,7 @@
 id = "pqf-lem-proper-basic"
 kind = "lemma"
 title = "Basic consequences of properness"
+lean = ["AlgebraicGeometry.IsProper.isSeparated_and_universallyClosed"]
 order = 534
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

@@ -2,6 +2,7 @@
 id = "def-trf-iterated-weil-map"
 kind = "definition"
 title = "Iterated Weil isomorphism and scheme-Frobenius map"
+lean = ["AlgebraicGeometry.ProEtale.StrictWeilComplex.iteratedWeilMap", "AlgebraicGeometry.ProEtale.StrictWeilComplex.schemeFrobeniusMap"]
 order = 2639
 uses = ["def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "prop-trf-scheme-galois-comparison"]
 +++

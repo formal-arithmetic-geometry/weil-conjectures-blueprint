@@ -2,6 +2,7 @@
 id = "def-sc-general-curve"
 kind = "definition"
 title = "Curves over an arbitrary field"
+lean = ["AlgebraicGeometry.IsSmoothProjectiveCurve.finiteDimensional_H_one", "AlgebraicGeometry.IsSmoothProjectiveCurve.arithmeticGenus_baseChangeField", "AlgebraicGeometry.IsSmoothProjectiveCurve.isConnectedCurve_baseChangeField"]
 order = 469
 uses = ["def-pc-base-change", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-curves", "def-sc-genus", "def-sc-pic0"]
 +++

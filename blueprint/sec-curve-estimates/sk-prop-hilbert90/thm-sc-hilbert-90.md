@@ -2,6 +2,7 @@
 id = "thm-sc-hilbert-90"
 kind = "theorem"
 title = "Hilbert 90 for a scheme"
+lean = ["CategoryTheory.Sheaf.Torsor.classH1_eq_add_of_equivariant", "AlgebraicGeometry.Scheme.Pic.toH1Units", "AlgebraicGeometry.Scheme.Pic.toH1Units_mul", "AlgebraicGeometry.Scheme.Pic.toH1UnitsAddEquiv", "AlgebraicGeometry.Scheme.nonempty_equiv_H_one_unitsSheaf", "AlgebraicGeometry.Scheme.surjective_app_of_shortExact_gmSheaf"]
 order = 888
 uses = ["def-sc-gm-torsor", "def-sc-invertible-module", "lem-sc-line-bundle-torsor", "lem-sc-torsor-h1"]
 +++

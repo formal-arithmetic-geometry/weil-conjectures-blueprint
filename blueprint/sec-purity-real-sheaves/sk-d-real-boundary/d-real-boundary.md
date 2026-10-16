@@ -2,6 +2,7 @@
 id = "d-real-boundary"
 kind = "definition"
 title = "Boundary extension and inertia"
+lean = ["AlgebraicGeometry.BoundaryDatum.conj", "AlgebraicGeometry.BoundaryDatum.boundaryStalk_conj", "AlgebraicGeometry.BoundaryDatum.boundaryStalkConjEquiv"]
 order = 2985
 uses = ["d-real-setup", "def-real-weil-representation-operations", "def-wf-fundamental-representation", "def-wf-weil-group"]
 +++

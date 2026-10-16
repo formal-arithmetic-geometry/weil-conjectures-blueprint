@@ -2,6 +2,7 @@
 id = "lem-amb-affine-space-top-trace"
 kind = "lemma"
 title = "The affine-space trace is an isomorphism"
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_twistShift_affineSpace"]
 order = 2314
 uses = ["cor-amb-affine-space-adjunction", "def-amb-etale-compact-support", "def-amb-p1-trace", "def-coefficient-twists-detailed", "def-sbc-affine-space", "lem-amb-closed-support-hom", "lem-amb-proper-coproducts-projection", "prop-asd-smooth-base-change", "thm-amb-p1-decomposition"]
 +++

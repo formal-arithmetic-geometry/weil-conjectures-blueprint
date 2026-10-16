@@ -2,6 +2,7 @@
 id = "lem-pc-degree-agrees-sc"
 kind = "lemma"
 title = "Degree agrees with the degree of file 06"
+lean = ["AlgebraicGeometry.Scheme.Divisor.degree_dual_toModules_idealSheaf", "AlgebraicGeometry.Scheme.Divisor.degree_dual_toModules_idealSheaf_eq_degree"]
 order = 818
 uses = ["def-pc-curve", "def-pc-degree-line-bundle", "def-pc-divisor-line-bundle", "def-sc-divisor", "def-sc-pic0", "lem-pc-degree-base-change", "lem-pc-divisor-line-bundle-properties", "lem-pc-euler-additive"]
 +++

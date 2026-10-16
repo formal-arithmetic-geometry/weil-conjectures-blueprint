@@ -2,6 +2,7 @@
 id = "lem-sc-pic-proper-decomposition"
 kind = "lemma"
 title = "Structure of the Picard group of a proper curve"
+lean = ["AlgebraicGeometry.Scheme.exists_mulEquiv_prod_ker_picDegreeHom"]
 order = 894
 uses = ["def-sc-curves", "def-sc-pic0", "def-sc-picard-group"]
 +++

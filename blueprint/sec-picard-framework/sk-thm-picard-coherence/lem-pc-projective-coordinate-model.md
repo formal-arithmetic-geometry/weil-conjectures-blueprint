@@ -2,6 +2,7 @@
 id = "lem-pc-projective-coordinate-model"
 kind = "lemma"
 title = "A coordinate ring for an integral projective scheme"
+lean = ["AlgebraicGeometry.exists_isStandard_iso_proj"]
 order = 652
 uses = ["def-pc-morphism-conventions", "def-pc-proj", "def-pc-scheme", "def-pc-standard-graded-algebra"]
 +++

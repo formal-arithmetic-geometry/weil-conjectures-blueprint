@@ -2,6 +2,7 @@
 id = "def-pur-smooth-purity-map"
 kind = "definition"
 title = "The smooth purity isomorphism for an arbitrary coefficient object"
+lean = ["AlgebraicGeometry.Etale.smoothPurityIso"]
 order = 2356
 uses = ["pur9-cs-def-phi", "sk-prop-cohsm"]
 +++

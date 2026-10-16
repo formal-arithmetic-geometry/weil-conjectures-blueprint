@@ -2,6 +2,7 @@
 id = "lem-zl-complex-retract"
 kind = "lemma"
 title = "Retract stability of complex weights"
+lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.of_retract"]
 order = 3157
 uses = ["def-weil-complex-weights", "def-weil-derived-cohomology-sheaves", "def-weil-punctual-weights", "lem-a1-mixed-direct-summand"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-ag-killing-nondegenerate"
 kind = "lemma"
 title = "The Killing form of a semisimple Lie algebra is nondegenerate"
+lean = ["LieAlgebra.HasTrivialRadical.killingForm_nondegenerate"]
 order = 2815
 uses = ["def-wf-semisimple-lie-algebra", "lem-wf-cartan-trace-criterion"]
 +++

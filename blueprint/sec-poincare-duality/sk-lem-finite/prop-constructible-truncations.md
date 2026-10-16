@@ -2,6 +2,7 @@
 id = "prop-constructible-truncations"
 kind = "theorem"
 title = "Construction of constructible truncations"
+lean = ["AlgebraicGeometry.Etale.DerivedCategory.boundedConstructible_truncLE", "AlgebraicGeometry.Etale.DerivedCategory.boundedConstructible_truncGE", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_truncLE", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_truncGE", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_mapDerivedCategory_upperStar", "AlgebraicGeometry.ProEtale.nonempty_truncLE_comp_mapDerivedCategory_upperStar_iso", "AlgebraicGeometry.ProEtale.nonempty_truncGE_comp_mapDerivedCategory_upperStar_iso", "AlgebraicGeometry.ProEtale.nonempty_mapDerivedCategory_upperStar_comp_homologyFunctor_iso"]
 order = 2776
 tags = ["latex:proposition"]
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-t-structure", "prop-weil-pbc-integral-tstructure", "thm-weil-pbc-integral-truncations"]

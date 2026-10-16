@@ -2,6 +2,7 @@
 id = "def-weil-complex-weights"
 kind = "definition"
 title = "Weights of a Weil complex"
+lean = ["AlgebraicGeometry.WeilComplex.isMixedOfWeightsAtMost_iff", "AlgebraicGeometry.WeilComplex.isMixedOfWeightsAtMost_singleComplex_iff", "AlgebraicGeometry.WeilComplex.isMixedOfWeightsAtMost_toComplex_iff"]
 order = 3131
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-punctual-weights", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
 +++

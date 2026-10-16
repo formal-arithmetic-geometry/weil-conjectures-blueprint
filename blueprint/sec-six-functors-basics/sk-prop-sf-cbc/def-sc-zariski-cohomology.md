@@ -2,6 +2,7 @@
 id = "def-sc-zariski-cohomology"
 kind = "definition"
 title = "Zariski sheaf cohomology"
+lean = ["AlgebraicGeometry.Scheme.zariskiH"]
 order = 1906
 uses = ["def-sc-zariski-site", "def-weil-pbc-kinjective-resolutions"]
 +++

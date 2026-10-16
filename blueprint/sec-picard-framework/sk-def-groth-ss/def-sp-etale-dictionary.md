@@ -2,6 +2,7 @@
 id = "def-sp-etale-dictionary"
 kind = "definition"
 title = "The proper-base-change dictionary"
+lean = ["AlgebraicGeometry.Etale.isAcyclicComposablePair_lowerStar"]
 order = 604
 uses = ["def-sp-abelian", "def-sp-grothendieck-abelian", "def-sp-kinjective-bridge", "def-sp-left-exact-additive"]
 +++

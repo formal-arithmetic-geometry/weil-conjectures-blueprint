@@ -2,6 +2,7 @@
 id = "def-galois-fibre-functor"
 kind = "definition"
 title = "The fibre functor"
+lean = ["AlgebraicGeometry.Scheme.FiniteEtale.fiber"]
 order = 970
 uses = ["def-galois-categories"]
 +++

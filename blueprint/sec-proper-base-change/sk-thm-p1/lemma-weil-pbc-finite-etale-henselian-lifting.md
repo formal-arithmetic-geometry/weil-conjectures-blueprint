@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-finite-etale-henselian-lifting"
 kind = "lemma"
 title = "Finite-etale lifting over a henselian pair"
+lean = ["AlgebraicGeometry.Scheme.isEquivalence_pullback_finiteEtale_of_henselianLocalRing"]
 order = 1179
 uses = ["def-weil-pbc-strict-henselian-setup", "lemma-weil-pbc-finite-locally-constant-etale-equivalence"]
 +++

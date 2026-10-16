@@ -2,6 +2,7 @@
 id = "def-pc-separably-closed"
 kind = "definition"
 title = "Separably closed fields"
+lean = ["IsSepClosed.iff_exists_root"]
 order = 754
 +++
 A field $k$ is *separably closed* if every nonconstant separable

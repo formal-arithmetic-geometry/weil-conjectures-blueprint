@@ -2,6 +2,7 @@
 id = "lem-exc-constant-inverse-image-flat"
 kind = "lemma"
 title = "Constant-coefficient inverse image preserves flat sheaves"
+lean = ["CategoryTheory.flat_sheafPullback_obj", "AlgebraicGeometry.ProEtale.flat_comparisonUpperStar_obj"]
 order = 2176
 uses = ["def-weil-derived-tensor", "def-weil-pbc-proetale-operations", "def-weil-pbc-site-comparison-morphism", "prop-weil-pbc-site-comparison-finite-level"]
 +++

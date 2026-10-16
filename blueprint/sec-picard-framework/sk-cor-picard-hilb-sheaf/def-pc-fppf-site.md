@@ -2,6 +2,7 @@
 id = "def-pc-fppf-site"
 kind = "definition"
 title = "The big fppf site"
+lean = ["AlgebraicGeometry.isSheaf_hilbertPresheaf"]
 order = 778
 uses = ["def-pc-morphism-conventions", "def-pc-scheme"]
 +++

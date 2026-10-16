@@ -2,6 +2,7 @@
 id = "thm-fd-fourier-perverse"
 kind = "theorem"
 title = "Perverse amplitude of the Fourier transform"
+lean = ["AlgebraicGeometry.Etale.isPerverseLE_fourierTransform", "AlgebraicGeometry.Etale.isPerverseGE_fourierTransform"]
 order = 3089
 uses = ["def-fd-kernel", "def-fd-transform", "def-per-perverse-subcategories", "def-weil-pbc-scheme-conventions", "lem-fd-as-lisse", "lem-per-artin-gabber-affine-curve", "lem-per-lisse-tensor-permanence", "lem-per-smooth-pullback-t-exact", "prop-kernel-lisse"]
 +++

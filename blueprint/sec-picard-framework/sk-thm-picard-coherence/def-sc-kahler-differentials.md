@@ -2,6 +2,7 @@
 id = "def-sc-kahler-differentials"
 kind = "definition"
 title = "Kähler differentials and the canonical sheaf of a smooth curve"
+lean = ["AlgebraicGeometry.Scheme.Hom.relativeDifferentials", "AlgebraicGeometry.Scheme.Hom.relativeDifferentialsRestrictFromSpecIso"]
 order = 640
 uses = ["def-sc-curves"]
 +++

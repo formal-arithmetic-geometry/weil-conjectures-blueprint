@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-closed-immersion-proper"
 kind = "lemma"
 title = "Closed immersions are proper"
+lean = ["AlgebraicGeometry.IsProper.of_isClosedImmersion", "AlgebraicGeometry.IsProper.isClosedImmersion_comp"]
 order = 914
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-composition"]
 +++

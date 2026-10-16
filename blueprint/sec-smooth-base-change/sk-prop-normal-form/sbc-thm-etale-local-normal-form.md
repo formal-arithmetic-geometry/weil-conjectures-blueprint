@@ -2,6 +2,7 @@
 id = "sbc-thm-etale-local-normal-form"
 kind = "theorem"
 title = "Etale-local normal form of a smooth morphism"
+lean = ["AlgebraicGeometry.Scheme.Hom.exists_etale_to_affineSpace_of_mem_smoothLocus"]
 order = 1455
 uses = ["def-exc-jacobian-presentation", "def-sbc-affine-space", "def-sbc-smooth-morphisms", "lem-exc-etale-jacobian-presentation"]
 +++

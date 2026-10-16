@@ -2,6 +2,7 @@
 id = "def-weil-pbc-C4"
 kind = "definition"
 title = "Assertion (C4): finiteness for a coefficient prime to the characteristic"
+lean = ["AlgebraicGeometry.IsCurve.FiniteOfInvertibleOrder"]
 order = 1134
 uses = ["def-weil-pbc-constructible-torsion", "def-weil-pbc-curve-setting", "def-weil-pbc-primary-torsion"]
 +++

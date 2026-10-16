@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-zero-dimensional-cohomology"
 kind = "lemma"
 title = "Etale cohomology in dimension zero"
+lean = ["AlgebraicGeometry.zero_dimensional_etale_cohomology"]
 order = 1010
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++

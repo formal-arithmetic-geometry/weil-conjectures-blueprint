@@ -2,6 +2,7 @@
 id = "def-weil-pbc-symmetric-product-morphism"
 kind = "definition"
 title = "Symmetric-product coordinate morphism"
+lean = ["AlgebraicGeometry.ProjectiveSpace.symmetricProduct"]
 order = 1266
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

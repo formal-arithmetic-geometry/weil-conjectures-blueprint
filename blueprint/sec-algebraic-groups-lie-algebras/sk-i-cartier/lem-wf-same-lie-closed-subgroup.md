@@ -2,6 +2,7 @@
 id = "lem-wf-same-lie-closed-subgroup"
 kind = "lemma"
 title = "Smoothness, dimension and Lie algebras of matrix groups"
+lean = ["AlgebraicGeometry.GeneralLinearGroup.eq_of_le_of_lieSubalgebra_eq", "AlgebraicGeometry.GeneralLinearGroup.dualUnit_mem_zeroLocus_identityComponent", "AlgebraicGeometry.GeneralLinearGroup.eq_of_le_of_bijective_lieAlgebraMap", "HopfAlgebra.finrank_cotangent_eq_ringKrullDim", "Matrix.GeneralLinearGroup.IsConnected.isPrime"]
 order = 2835
 uses = ["def-wf-algebraic-components", "def-wf-lie-algebra-derivation", "lem-ag-equal-dimension-subgroup", "lem-sc-translation-automorphism", "lem-wf-smooth-components-disjoint"]
 +++

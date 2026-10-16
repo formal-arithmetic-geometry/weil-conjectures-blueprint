@@ -2,6 +2,7 @@
 id = "thm-pod-trace-isomorphism"
 kind = "theorem"
 title = "Trace isomorphism"
+lean = ["AlgebraicGeometry.WeilSheaf.traceIsomorphism_adicConstant"]
 order = 2788
 uses = ["cor-cbc-proper-coincidence", "cor-pod-constant-coefficients", "cor-pur-finite-stage-smooth-dualizing-complex", "def-pod-trace-cup-reading", "def-pur-smooth-trace", "def-weil-frobenius-coefficient-twists", "def-weil-poincare-trace-cup", "prop-cohomological-finiteness", "thm-pod-proper-poincare-duality"]
 +++

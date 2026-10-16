@@ -2,6 +2,7 @@
 id = "def-pur-section-invariant"
 kind = "definition"
 title = "Section invariant"
+lean = ["AlgebraicGeometry.Etale.sectionInvariant"]
 order = 2241
 uses = ["def-pur-co-smoothness", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties"]
 +++

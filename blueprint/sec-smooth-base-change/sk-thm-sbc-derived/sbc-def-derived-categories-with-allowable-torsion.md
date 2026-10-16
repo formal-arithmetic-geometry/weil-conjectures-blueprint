@@ -2,6 +2,7 @@
 id = "sbc-def-derived-categories-with-allowable-torsion"
 kind = "definition"
 title = "Derived categories with allowable torsion"
+lean = ["AlgebraicGeometry.Scheme.IsTorsionSheafOfPrimes", "AlgebraicGeometry.Etale.DerivedCategory.Plus.boundedTorsionHomologyOfPrimes"]
 order = 1490
 uses = ["def-weil-pbc-derived-categories"]
 +++

@@ -2,6 +2,7 @@
 id = "def-weil-abstract-derived-category"
 kind = "definition"
 title = "Derived category of an abelian category"
+lean = ["DerivedCategory.isLocalization_Q"]
 order = 639
 +++
 For an abelian category $\mathcal A$, a cochain complex consists of objects

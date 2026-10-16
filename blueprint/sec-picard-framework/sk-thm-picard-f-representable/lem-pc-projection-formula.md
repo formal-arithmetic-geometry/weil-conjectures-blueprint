@@ -2,6 +2,7 @@
 id = "lem-pc-projection-formula"
 kind = "lemma"
 title = "The projection formula"
+lean = ["AlgebraicGeometry.Scheme.Modules.higherDirectImageTensorObjPullbackIso", "AlgebraicGeometry.Scheme.Modules.nonempty_higherDirectImage_tensorObj_pullback_iso"]
 order = 835
 uses = ["def-pc-base-change", "def-pc-derived-category", "def-pc-derived-direct-image", "def-sc-invertible-module"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-pc-twist-cocycle"
 kind = "lemma"
 title = "The cocycle rule for the transition units of the twists"
+lean = ["AlgebraicGeometry.ProjectiveSpace.twist", "AlgebraicGeometry.ProjectiveSpace.transitionUnit_mul_transitionUnit"]
 order = 621
 uses = ["def-pc-proj", "def-pc-projective-space-twist"]
 +++

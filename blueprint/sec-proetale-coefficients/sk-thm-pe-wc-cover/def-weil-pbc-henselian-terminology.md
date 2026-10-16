@@ -2,6 +2,7 @@
 id = "def-weil-pbc-henselian-terminology"
 kind = "definition"
 title = "Henselian terminology"
+lean = ["AlgebraicGeometry.Etale.bijective_pullSection_of_henselianRing"]
 order = 1104
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

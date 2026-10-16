@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-eight-curve-devissage"
 kind = "lemma"
 title = "Short-exact devissage for the eight assertions"
+lean = ["AlgebraicGeometry.IsCurve.Assertions.of_shortExact"]
 order = 1207
 uses = ["def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves"]
 +++

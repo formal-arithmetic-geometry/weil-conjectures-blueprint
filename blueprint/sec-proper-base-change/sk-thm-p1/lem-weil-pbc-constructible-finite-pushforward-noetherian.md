@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-constructible-finite-pushforward-noetherian"
 kind = "lemma"
 title = "Noetherian finite-pushforward embedding"
+lean = ["AlgebraicGeometry.Etale.exists_mono_biproduct_lowerStar_of_isNoetherian"]
 order = 1186
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-constructible-finitely-presented", "lem-weil-pbc-normal-constant-generic"]
 +++

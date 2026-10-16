@@ -2,6 +2,7 @@
 id = "def-nagata-relative-stage-morphism-data"
 kind = "definition"
 title = "Finite-stage data for a morphism"
+lean = ["AlgebraicGeometry.Scheme.Hom.NoetherianStageData", "AlgebraicGeometry.Scheme.Hom.noetherianStageData"]
 order = 387
 uses = ["def-nagata-glued-limit-comparison", "def-nagata-noetherian-inverse-system"]
 +++

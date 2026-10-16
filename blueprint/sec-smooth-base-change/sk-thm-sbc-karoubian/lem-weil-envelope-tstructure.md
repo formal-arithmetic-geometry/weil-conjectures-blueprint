@@ -2,6 +2,7 @@
 id = "lem-weil-envelope-tstructure"
 kind = "lemma"
 title = "The envelope inherits the t-structure"
+lean = ["CategoryTheory.Triangulated.TStructure.karoubi", "CategoryTheory.Triangulated.TStructure.karoubiHeartEquivalence"]
 order = 1481
 uses = ["def-weil-karoubi-envelope", "def-weil-t-structure", "lem-weil-karoubi-envelope-triangulated"]
 +++

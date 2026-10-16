@@ -2,6 +2,7 @@
 id = "cor-fd-plancherel"
 kind = "theorem"
 title = "Plancherel identity"
+lean = ["AlgebraicGeometry.WeilComplex.traceEnergy_fourierTransform"]
 order = 3053
 tags = ["latex:corollary"]
 uses = ["def-fd-trace-function", "def-fd-transform", "lem-fd-additive-orthogonality", "thm-fd-fourier-trace"]

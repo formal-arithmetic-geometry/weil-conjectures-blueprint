@@ -2,6 +2,7 @@
 id = "cor-wf-rank-one-degree-factorization-curve"
 kind = "theorem"
 title = "Finite-order part times a degree character"
+lean = ["AlgebraicGeometry.Monodromy.DegreeDatum.finitePart_ofWeilGroup"]
 order = 2877
 tags = ["latex:corollary"]
 uses = ["d-ab-rankone", "d-monodromy", "def-weil-pbc-scheme-conventions", "def-wf-weil-group", "lem-wf-weil-group-exact-sequence"]

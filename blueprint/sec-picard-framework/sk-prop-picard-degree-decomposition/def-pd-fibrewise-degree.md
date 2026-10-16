@@ -2,6 +2,7 @@
 id = "def-pd-fibrewise-degree"
 kind = "definition"
 title = "Fibrewise degree of an invertible module on a curve"
+lean = ["AlgebraicGeometry.picardPresheafDegree"]
 order = 847
 uses = ["def-pc-base-change", "def-pc-degree-line-bundle", "def-pc-euler-characteristic", "def-pc-fppf-site", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-invertible-module"]
 +++

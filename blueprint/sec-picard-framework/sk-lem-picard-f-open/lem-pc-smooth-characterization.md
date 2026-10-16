@@ -2,6 +2,7 @@
 id = "lem-pc-smooth-characterization"
 kind = "lemma"
 title = "Smoothness versus flatness"
+lean = ["AlgebraicGeometry.smooth_iff_flat_and_smooth_fiber"]
 order = 828
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-weil-scheme-morphism-properties"]
 +++

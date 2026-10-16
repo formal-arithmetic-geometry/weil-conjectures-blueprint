@@ -2,6 +2,7 @@
 id = "thm-sc-main"
 kind = "theorem"
 title = "Smooth-curve calculations"
+lean = ["AlgebraicGeometry.IsCurve.constantModSheaf_curveCalculations"]
 order = 1173
 uses = ["def-sc-constant-sheaves", "def-sc-curves", "def-sc-field-extension", "def-weil-pbc-eight-curve-assertions", "lem-sc-c1", "lem-sc-c2", "lem-sc-c3", "lem-sc-c4", "lem-sc-c5", "lem-sc-c6", "lem-sc-c7", "lem-sc-c8", "thm-sc-affine-cohomology", "thm-sc-constant-invariance", "thm-sc-proper-cohomology"]
 +++

@@ -2,6 +2,7 @@
 id = "pqf-lem-leray-lowdegree"
 kind = "lemma"
 title = "Low degree terms of the Leray spectral sequence"
+lean = ["AlgebraicGeometry.Scheme.Modules.exists_leray_lowDegree_exact", "AlgebraicGeometry.Scheme.Modules.nonempty_rightDerived_one_iso_of_isZero"]
 order = 549
 uses = ["pqf-def-cohomology", "pqf-lem-leray"]
 +++

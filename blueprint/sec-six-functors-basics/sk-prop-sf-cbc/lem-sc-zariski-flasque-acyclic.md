@@ -2,6 +2,7 @@
 id = "lem-sc-zariski-flasque-acyclic"
 kind = "lemma"
 title = "Flasque sheaves are acyclic"
+lean = ["TopCat.Sheaf.IsFlasque.subsingleton_H"]
 order = 1909
 uses = ["def-sc-zariski-cohomology", "def-sc-zariski-flasque"]
 +++

@@ -2,6 +2,7 @@
 id = "pqf-lem-leray"
 kind = "lemma"
 title = "Leray spectral sequence"
+lean = ["AlgebraicGeometry.Scheme.Modules.exists_leraySpectralSequence"]
 order = 542
 uses = ["pqf-def-cohomology", "thm-sp-grothendieck"]
 +++

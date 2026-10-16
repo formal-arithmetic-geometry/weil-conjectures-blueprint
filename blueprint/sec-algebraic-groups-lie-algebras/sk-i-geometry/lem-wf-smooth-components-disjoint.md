@@ -2,6 +2,7 @@
 id = "lem-wf-smooth-components-disjoint"
 kind = "lemma"
 title = "Irreducible components of a smooth variety do not meet"
+lean = ["PrimeSpectrum.disjoint_of_mem_irreducibleComponents", "PrimeSpectrum.isClopen_of_mem_irreducibleComponents", "PrimeSpectrum.connectedComponent_eq_of_mem_irreducibleComponents"]
 order = 2831
 uses = ["lem-sc-regular-local-domain", "lem-wf-affine-noetherian-components"]
 +++

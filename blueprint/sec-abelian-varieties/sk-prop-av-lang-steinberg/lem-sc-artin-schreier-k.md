@@ -2,6 +2,7 @@
 id = "lem-sc-artin-schreier-k"
 kind = "lemma"
 title = "Artin–Schreier on algebraically closed fields"
+lean = ["IsAlgClosed.surjective_pow_sub_self"]
 order = 572
 +++
 Let $k$ be an algebraically closed field of characteristic

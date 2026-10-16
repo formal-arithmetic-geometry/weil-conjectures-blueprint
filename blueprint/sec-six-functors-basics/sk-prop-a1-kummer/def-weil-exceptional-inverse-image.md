@@ -2,6 +2,7 @@
 id = "def-weil-exceptional-inverse-image"
 kind = "definition"
 title = "Exceptional inverse image notation"
+lean = ["AlgebraicGeometry.Etale.boundedConstructibleIntegralRightDerivedLowerStarUpperShriekAdjunction"]
 order = 1848
 uses = ["def-compact-support-direct-image-detailed", "def-weil-algebraically-closed-coefficients", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties"]
 +++

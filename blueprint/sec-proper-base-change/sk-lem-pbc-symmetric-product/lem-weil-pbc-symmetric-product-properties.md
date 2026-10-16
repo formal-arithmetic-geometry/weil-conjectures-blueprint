@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-symmetric-product-properties"
 kind = "lemma"
 title = "No common zero and permutation invariance"
+lean = ["AlgebraicGeometry.ProjectiveSpace.span_range_bilinearChartSection_mulForm"]
 order = 1267
 uses = ["def-weil-pbc-symmetric-product-morphism"]
 +++

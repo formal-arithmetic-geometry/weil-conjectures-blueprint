@@ -2,6 +2,7 @@
 id = "sbc-lem-smooth-relative-dimension-locally-constant"
 kind = "lemma"
 title = "Local constancy of the relative dimension"
+lean = ["AlgebraicGeometry.Smooth.isLocallyConstant_topologicalKrullDimAt_asFiber"]
 order = 1434
 uses = ["def-sbc-smooth-morphisms"]
 +++

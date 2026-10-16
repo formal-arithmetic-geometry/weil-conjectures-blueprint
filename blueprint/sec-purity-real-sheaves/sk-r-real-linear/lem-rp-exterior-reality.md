@@ -2,6 +2,7 @@
 id = "lem-rp-exterior-reality"
 kind = "lemma"
 title = "Reality of exterior powers"
+lean = ["AlgebraicGeometry.WeilGroup.IsReal.exteriorPower"]
 order = 2944
 uses = ["def-real-weil-representation-operations", "def-wf-iota-real", "def-wf-weil-category", "p-linear-spectra", "p-linear-triangular"]
 +++

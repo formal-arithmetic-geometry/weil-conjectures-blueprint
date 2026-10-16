@@ -2,6 +2,7 @@
 id = "lem-sc-dim0-finite"
 kind = "lemma"
 title = "Zero-dimensional closed subsets are finite"
+lean = ["IsClosed.finite_and_isClosed_singleton_of_topologicalKrullDim_le_zero"]
 order = 691
 +++
 Let $X$ be a scheme of finite type over a field $k$. A closed

@@ -2,6 +2,7 @@
 id = "prop-trf-trace-formal-laws"
 kind = "theorem"
 title = "Formal laws for the categorical trace"
+lean = ["CategoryTheory.MonoidalCategory.trace_eq_of_iso", "DerivedCategory.exists_trace_eq_algebraMap_and_trace_extendScalars_eq_algebraMap", "DerivedCategory.trace_eq_trace_add_trace_of_shortExact", "DerivedCategory.trace_eq_algebraMap_sum_negOnePow_trace_homologyMap", "CochainComplex.sum_negOnePow_smul_trace_f_eq_sum_negOnePow_smul_trace_homologyMap"]
 order = 2651
 tags = ["latex:proposition"]
 uses = ["def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-weil-algebraically-closed-coefficients", "def-weil-derived-tensor", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-rationalization-karoubi", "lem-trf-chain-supertrace"]

@@ -2,6 +2,7 @@
 id = "lem-coef-integral-hom-reduction"
 kind = "lemma"
 title = "Integral internal Hom and reduction"
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_derivedHom", "AlgebraicGeometry.Etale.derivedComplete_derivedHom"]
 order = 2478
 uses = ["def-weil-completed-integral-coefficients", "def-weil-derived-complete", "def-weil-derived-pullback-tensor-hom"]
 +++

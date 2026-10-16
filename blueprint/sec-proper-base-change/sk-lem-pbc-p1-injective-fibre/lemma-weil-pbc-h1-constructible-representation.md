@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-h1-constructible-representation"
 kind = "lemma"
 title = "Constructible representation of an $H^1$ class"
+lean = ["AlgebraicGeometry.Etale.exists_sum_eq_of_injective_projectiveLine"]
 order = 1192
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-constructible-approximation", "lemma-weil-pbc-constructible-finite-pushforward"]
 +++

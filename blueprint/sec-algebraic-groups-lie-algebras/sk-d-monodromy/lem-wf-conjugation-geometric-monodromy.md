@@ -2,6 +2,7 @@
 id = "lem-wf-conjugation-geometric-monodromy"
 kind = "lemma"
 title = "Conjugation preserves the geometric monodromy group"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobeniusConjIso", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.zeroLocusMulEquiv_comp_frobeniusConjIso_hom"]
 order = 2846
 uses = ["def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-weil-fundamental-representation", "lem-wf-zariski-closure-subgroup"]
 +++

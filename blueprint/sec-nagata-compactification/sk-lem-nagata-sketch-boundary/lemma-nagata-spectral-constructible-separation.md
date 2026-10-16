@@ -2,6 +2,7 @@
 id = "lemma-nagata-spectral-constructible-separation"
 kind = "lemma"
 title = "Properties of the constructible separation data"
+lean = ["PrespectralSpace.constructibleSeparation_spec"]
 order = 261
 uses = ["def-nagata-spectral-constructible-separation", "lemma-nagata-spectral-constructible-separation-exists"]
 +++

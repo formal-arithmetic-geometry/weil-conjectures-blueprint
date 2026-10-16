@@ -2,6 +2,7 @@
 id = "lem-sp-page-induction"
 kind = "lemma"
 title = "Page induction"
+lean = ["CategoryTheory.SpectralSequence.Hom.isIso_hom", "CategoryTheory.SpectralSequence.Hom.isIso_pageInfinity"]
 order = 518
 uses = ["def-sp-convergence", "def-sp-spectral-sequence"]
 +++

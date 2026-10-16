@@ -2,6 +2,7 @@
 id = "def-weil-pbc-constructible-torsion"
 kind = "definition"
 title = "Constructible torsion sheaves on a curve"
+lean = ["AlgebraicGeometry.CurveCoefficientPair.IsConstructible"]
 order = 1128
 uses = ["def-weil-pbc-curve-setting"]
 +++

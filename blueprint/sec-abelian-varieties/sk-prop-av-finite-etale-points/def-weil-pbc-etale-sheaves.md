@@ -2,6 +2,7 @@
 id = "def-weil-pbc-etale-sheaves"
 kind = "definition"
 title = "Sheaves of abelian groups and of modules"
+lean = ["AlgebraicGeometry.Scheme.IsLocallyConstantEtaleSheafOfSets", "AlgebraicGeometry.Scheme.IsLisseEtaleSheafOfSets", "AlgebraicGeometry.Scheme.etaleSetPullback", "AlgebraicGeometry.Scheme.IsConstructibleEtaleSheafOfSets", "AlgebraicGeometry.Scheme.HasTorsionEtaleCohomology", "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf"]
 order = 587
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++

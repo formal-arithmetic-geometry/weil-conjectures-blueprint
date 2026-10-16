@@ -2,6 +2,7 @@
 id = "def-wf-determinantal-weight"
 kind = "definition"
 title = "Determinantal weight"
+lean = ["AlgebraicGeometry.WeilGroup.detWeight"]
 order = 2978
 uses = ["def-mg-determinant-line", "def-weil-punctual-weights", "lem-wf-determinantal-weight-coefficient-field", "lem-wf-determinantal-weight-exists"]
 +++

@@ -2,6 +2,7 @@
 id = "def-wf-semisimple-lie-algebra"
 kind = "definition"
 title = "Semisimple Lie algebra"
+lean = ["LieAlgebra.hasTrivialRadical_iff_forall_isSolvable_eq_bot"]
 order = 2808
 uses = ["def-wf-lie-algebra"]
 +++

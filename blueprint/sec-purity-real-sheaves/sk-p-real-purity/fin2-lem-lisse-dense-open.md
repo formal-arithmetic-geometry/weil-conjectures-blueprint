@@ -2,6 +2,7 @@
 id = "fin2-lem-lisse-dense-open"
 kind = "lemma"
 title = "A lisse locus for a constructible sheaf"
+lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.exists_open_topologicalKrullDim_compl_lt"]
 order = 3010
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-noetherian-finite-components"]
 +++

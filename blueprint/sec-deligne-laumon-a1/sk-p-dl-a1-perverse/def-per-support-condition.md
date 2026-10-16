@@ -2,6 +2,7 @@
 id = "def-per-support-condition"
 kind = "definition"
 title = "Support and cosupport conditions"
+lean = ["AlgebraicGeometry.Etale.DerivedCategory.SupportCondition", "AlgebraicGeometry.Etale.DerivedCategory.CosupportCondition"]
 order = 3082
 uses = ["def-trf-dualizing-complex", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++

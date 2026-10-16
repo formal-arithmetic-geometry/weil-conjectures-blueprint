@@ -2,6 +2,7 @@
 id = "def-weil-pbc-finite-stage-pair-category"
 kind = "definition"
 title = "Finite-stage pair category"
+lean = ["CategoryTheory.StageSystem.tr", "CategoryTheory.StageSystem.PairCategory", "CategoryTheory.StageSystem.transIso"]
 order = 1368
 uses = ["def-weil-pbc-bounded-constructible-complete", "def-weil-pbc-rational-category", "prop-weil-pbc-scalar-extension"]
 +++

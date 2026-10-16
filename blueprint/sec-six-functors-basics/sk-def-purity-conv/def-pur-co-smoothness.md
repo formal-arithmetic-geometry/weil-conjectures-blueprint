@@ -2,6 +2,7 @@
 id = "def-pur-co-smoothness"
 kind = "definition"
 title = "Cohomological smoothness"
+lean = ["AlgebraicGeometry.Etale.IsCohomologicallySmooth", "AlgebraicGeometry.Etale.dualizingComplexTensorMap", "AlgebraicGeometry.Etale.dualizingComplexBaseChangeMap"]
 order = 2240
 uses = ["def-exchange-projection", "def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++

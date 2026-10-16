@@ -2,6 +2,7 @@
 id = "lem-sc-pullback-degree"
 kind = "lemma"
 title = "Degree of pullbacks of divisors"
+lean = ["AlgebraicGeometry.Scheme.finsum_ord_eq_finrank", "AlgebraicGeometry.Scheme.Hom.finrank_genericPoint_eq_finrank_functionField", "AlgebraicGeometry.Scheme.Divisor.pullback", "AlgebraicGeometry.Scheme.Divisor.degree_pullback_single", "AlgebraicGeometry.Scheme.Divisor.degree_pullback", "AlgebraicGeometry.Scheme.Divisor.degree_pullback_eq_finrank_functionField_mul"]
 order = 706
 uses = ["def-sc-curves", "def-sc-divisor", "lem-sc-point-cartier"]
 +++

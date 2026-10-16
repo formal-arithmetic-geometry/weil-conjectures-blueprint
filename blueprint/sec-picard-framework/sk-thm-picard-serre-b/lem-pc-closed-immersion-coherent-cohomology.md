@@ -2,6 +2,7 @@
 id = "lem-pc-closed-immersion-coherent-cohomology"
 kind = "lemma"
 title = "Coherent modules under a closed immersion"
+lean = ["AlgebraicGeometry.Scheme.Modules.exists_H_addEquiv_pushforward_of_isAffineHom", "AlgebraicGeometry.Scheme.Modules.nonempty_cohomologyFunctor_iso_pushforward_of_isAffineHom", "AlgebraicGeometry.Scheme.Modules.isIso_projectionHom", "AlgebraicGeometry.Scheme.Modules.nonempty_pushforward_tensorObj_pullback_iso", "AlgebraicGeometry.Scheme.Modules.isQuasicoherent_pushforward_of_isClosedImmersion", "AlgebraicGeometry.Scheme.Modules.isFinitePresentation_pushforward_of_isClosedImmersion"]
 order = 634
 uses = ["def-pc-morphism-conventions", "def-sc-invertible-module", "lem-pc-affine-morphism-hi", "pqf-def-coherent", "pqf-def-cohomology", "pqf-lem-coherent-ft-locnoeth", "pqf-lem-leray"]
 +++

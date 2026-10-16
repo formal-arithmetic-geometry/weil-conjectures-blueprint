@@ -2,6 +2,7 @@
 id = "lem-pc-very-ample-ample"
 kind = "lemma"
 title = "Ample line bundles from projective embeddings"
+lean = ["AlgebraicGeometry.IsVeryAmple.pullback_of_field", "AlgebraicGeometry.IsAmple.pullback_of_field"]
 order = 738
 uses = ["def-pc-morphism-conventions", "def-sc-ample", "def-sc-invertible-module", "lem-pc-closed-imm-base-change"]
 +++

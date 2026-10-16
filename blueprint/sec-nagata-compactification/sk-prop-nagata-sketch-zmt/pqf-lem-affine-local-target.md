@@ -2,6 +2,7 @@
 id = "pqf-lem-affine-local-target"
 kind = "lemma"
 title = "Affineness is local on the target"
+lean = ["AlgebraicGeometry.isAffineHom_tfae"]
 order = 200
 uses = ["pqf-def-affine-morphism"]
 +++

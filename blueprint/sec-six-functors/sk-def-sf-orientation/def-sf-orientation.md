@@ -2,6 +2,7 @@
 id = "def-sf-orientation"
 kind = "definition"
 title = "Orientation datum"
+lean = ["AlgebraicGeometry.Etale.OrientationComparisonData", "AlgebraicGeometry.Etale.OrientationComparisonData.compIso", "AlgebraicGeometry.Etale.OrientationComparisonData.baseChangeIso", "AlgebraicGeometry.Etale.OrientationDatum", "AlgebraicGeometry.Etale.OrientationDatum.nonempty_iso_dualizingComplex", "AlgebraicGeometry.Etale.CoefficientChange", "AlgebraicGeometry.Etale.OrientationDatum.IsCompatibleCoefficientChange", "AlgebraicGeometry.Etale.ProEtaleRealization", "AlgebraicGeometry.Etale.OrientationDatum.IsCompatibleProEtaleRealization"]
 order = 2391
 uses = ["def-sf-datum"]
 +++

@@ -18,7 +18,7 @@ rev = "main"
 [[require]]
 name = "weil-conjectures"
 git = "https://github.com/formal-arithmetic-geometry/weil-conjectures"
-# The branch the blueprint was written against: it names declarations (the Nagata
+# The branch the blueprint is extracted against: it names declarations (the Nagata
 # compactification, the Chow lemma, the Segre embedding) that master does not
 # carry yet. Move this to "master" once that work has landed there.
-rev = "slopmaster"
+rev = "slopmaster2"

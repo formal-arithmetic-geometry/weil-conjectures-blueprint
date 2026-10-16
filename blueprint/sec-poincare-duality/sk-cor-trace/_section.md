@@ -2,6 +2,7 @@
 id = "sk-cor-trace"
 kind = "corollary"
 title = "The trace isomorphism"
+lean = ["AlgebraicGeometry.WeilSheaf.exists_traceCup_isPerfect", "AlgebraicGeometry.Etale.TateOrientation.traceDualityEquiv", "AlgebraicGeometry.Etale.TateOrientation.traceMap_eq_unitClassCompactSupport_comp", "AlgebraicGeometry.Etale.TateOrientation.bijective_untwistedTraceMap", "AlgebraicGeometry.Etale.exists_tateOrientation_traceMap_pointClass", "AlgebraicGeometry.Etale.traceIsomorphism"]
 order = 2786
 uses = ["sk-def-trace-cup", "sk-lem-finite", "sk-prop-an", "sk-thm-purity-transport", "sk-thm-regular", "sk-thm-sf-identification", "sk-thm-smooth-purity"]
 tags = ["sketch"]

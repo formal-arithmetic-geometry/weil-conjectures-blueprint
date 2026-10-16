@@ -2,6 +2,7 @@
 id = "def-sc-p1-standard"
 kind = "definition"
 title = "The standard affine cover and the twists on $\\mathbf P^1_k$"
+lean = ["AlgebraicGeometry.ProjectiveLine.twistData", "AlgebraicGeometry.ProjectiveLine.TwistData"]
 order = 618
 +++
 Let $k$ be a field and

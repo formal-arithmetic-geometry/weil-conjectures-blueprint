@@ -2,6 +2,7 @@
 id = "lem-wf-constant-twist-cohomology"
 kind = "lemma"
 title = "Projection formula for a constant twist"
+lean = ["AlgebraicGeometry.WeilSheaf.nonempty_higherLowerShriek_constantTwist_iso"]
 order = 3116
 uses = ["def-weil-pbc-scheme-conventions", "def-wf-constant-weil-twist", "fix-prop-projection-formula"]
 +++

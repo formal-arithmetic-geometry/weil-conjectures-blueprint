@@ -2,6 +2,7 @@
 id = "lem-exc-proetale-closed-fully-faithful"
 kind = "lemma"
 title = "Full faithfulness of closed direct image"
+lean = ["AlgebraicGeometry.ProEtale.isIso_upperStarLowerStarAdjunction_counit"]
 order = 2191
 uses = ["def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "lem-exc-closed-inverse-image-formula", "lem-exc-closed-lift-reduction", "lem-exc-closed-localization"]
 +++

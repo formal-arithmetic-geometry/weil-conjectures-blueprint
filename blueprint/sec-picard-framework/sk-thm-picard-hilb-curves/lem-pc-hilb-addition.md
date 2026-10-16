@@ -2,6 +2,7 @@
 id = "lem-pc-hilb-addition"
 kind = "lemma"
 title = "The addition morphism on Hilbert schemes"
+lean = ["AlgebraicGeometry.IsHilbertSubscheme.exists_eq_mul", "AlgebraicGeometry.exists_addition_hilbertPresheaf"]
 order = 793
 uses = ["def-pc-finite-locally-free", "def-pc-hilb-functor", "lem-pc-cartier-criterion"]
 +++

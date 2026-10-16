@@ -2,6 +2,7 @@
 id = "lem-zl-log-det-identity"
 kind = "lemma"
 title = "Logarithm of the Frobenius determinant"
+lean = ["LinearMap.logOf_charpolyRev"]
 order = 2736
 uses = ["def-zl-frobenius-trace-series", "p-linear-triangular"]
 +++

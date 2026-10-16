@@ -2,6 +2,7 @@
 id = "lem-sc-normalization-properties"
 kind = "lemma"
 title = "Properties of the normalization"
+lean = ["AlgebraicGeometry.Scheme.normalization_properties"]
 order = 925
 uses = ["def-sc-normalization", "lem-sc-normalization-exists", "lem-sc-normalization-over-normal-locus", "lem-sc-normalized-curve-smooth"]
 +++

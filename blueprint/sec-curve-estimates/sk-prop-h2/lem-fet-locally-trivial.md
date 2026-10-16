@@ -2,6 +2,7 @@
 id = "lem-fet-locally-trivial"
 kind = "theorem"
 title = "Finite etale covers are trivial after an etale base change"
+lean = ["AlgebraicGeometry.Scheme.FiniteEtale.exists_etale_isPullback_sigma"]
 order = 973
 uses = ["def-galois-categories", "def-weil-pbc-scheme-conventions"]
 +++

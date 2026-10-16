@@ -2,6 +2,7 @@
 id = "def-mg-weil-semisimplification"
 kind = "definition"
 title = "Semisimplification of a Weil representation"
+lean = ["Representation.CompositionSeries.semisimplification"]
 order = 2884
 uses = ["def-mg-weil-composition-series"]
 +++

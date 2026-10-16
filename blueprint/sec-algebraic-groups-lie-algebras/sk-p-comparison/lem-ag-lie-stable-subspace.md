@@ -2,6 +2,7 @@
 id = "lem-ag-lie-stable-subspace"
 kind = "lemma"
 title = "Group-invariant and Lie-invariant subspaces agree"
+lean = ["AlgebraicGeometry.GeneralLinearGroup.forall_zeroLocus_iff_forall_lieSubalgebra", "AlgebraicGeometry.GeneralLinearGroup.forall_mem_zeroLocus_iff_forall_mem_lieSubalgebra", "AlgebraicGeometry.GeneralLinearGroup.forall_mulVec_mem_iff_forall_lieSubalgebra"]
 order = 2841
 uses = ["def-wf-algebraic-components", "def-wf-algebraic-representations", "def-wf-lie-algebra-derivation", "lem-ag-cartier-reduced", "lem-wf-same-lie-closed-subgroup"]
 +++

@@ -2,6 +2,7 @@
 id = "prop-wf-weil-sheaf-representation-equivalence"
 kind = "theorem"
 title = "The lisse sheaf–representation equivalence"
+lean = ["AlgebraicGeometry.WeilGroup.exists_equivalence_isLisse", "AlgebraicGeometry.WeilGroup.exists_equivalence_fundamentalRep"]
 order = 2928
 uses = ["cor-galois-lisse-representations", "d-real-setup", "def-wf-fundamental-representation", "def-wf-weil-group", "lem-wf-weil-fundamental-representation"]
 tags = ["latex:proposition"]

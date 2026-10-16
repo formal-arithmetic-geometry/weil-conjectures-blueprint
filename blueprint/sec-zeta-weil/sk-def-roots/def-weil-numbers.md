@@ -2,6 +2,7 @@
 id = "def-weil-numbers"
 kind = "definition"
 title = "Weil numbers"
+lean = ["IsWeilNumber", "isWeilNumber_iff", "isWeilNumber_algHom_apply_iff", "isUniversallyPureOfWeight_iff_isWeilNumber_inv"]
 order = 3207
 uses = ["def-weil-finite-field-fiber"]
 +++

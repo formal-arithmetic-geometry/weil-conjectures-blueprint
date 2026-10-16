@@ -2,6 +2,7 @@
 id = "def-weil-pbc-pointed-etale-neighbourhoods"
 kind = "definition"
 title = "Pointed etale neighbourhood category"
+lean = ["AlgebraicGeometry.Scheme.PointedEtaleNeighborhood"]
 order = 950
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++

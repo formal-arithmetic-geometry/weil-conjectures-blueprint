@@ -2,6 +2,7 @@
 id = "lem-exc-etale-jacobian-presentation"
 kind = "lemma"
 title = "Jacobian presentations for etale algebras"
+lean = ["Algebra.Etale.iff_exists_squareJacobianPresentation"]
 order = 1147
 uses = ["def-exc-jacobian-presentation", "def-weil-pbc-scheme-conventions"]
 +++

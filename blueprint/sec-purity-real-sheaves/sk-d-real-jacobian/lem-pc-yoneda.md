@@ -2,6 +2,7 @@
 id = "lem-pc-yoneda"
 kind = "lemma"
 title = "Yoneda"
+lean = ["CategoryTheory.bijective_yoneda_app_id"]
 order = 2951
 +++
 Let $S$ be a scheme. For any functor

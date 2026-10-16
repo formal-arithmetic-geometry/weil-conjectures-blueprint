@@ -2,6 +2,7 @@
 id = "lem-pc-sigma-subfunctor"
 kind = "lemma"
 title = "$\\operatorname{Pic}_{X/k,\\sigma}$ is a subfunctor of the Picard presheaf"
+lean = ["AlgebraicGeometry.picardPresheaf_map_mem_picardFunctorNormalized"]
 order = 806
 uses = ["def-pc-base-change", "def-pc-pic-sigma-functor", "def-pc-picard-presheaf", "def-pc-rational-point", "def-pc-subfunctor", "def-sc-picard-group"]
 +++

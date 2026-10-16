@@ -2,6 +2,7 @@
 id = "def-weil-pbc-proetale-site"
 kind = "definition"
 title = "Small pro-etale site"
+lean = ["AlgebraicGeometry.ProEtale.ModuleDerivedCategory"]
 order = 668
 uses = ["def-weil-abstract-derived-category", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties", "def-weil-size-convention"]
 +++

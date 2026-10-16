@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-finite-pushforward-extension-zero"
 kind = "lemma"
 title = "Finite pushforward and extension by zero"
+lean = ["AlgebraicGeometry.Etale.isIso_finiteOpenComparison"]
 order = 1243
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-finite-open-comparison", "lemma-weil-pbc-curve-locally-constant-reduction", "lemma-weil-pbc-finite-open-comparison-inverse", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++

@@ -2,6 +2,7 @@
 id = "sk-rem-sf-matrix"
 kind = "corollary"
 title = "The six operations on $\\Dctf(-,A)$"
+lean = ["AlgebraicGeometry.Etale.boundedConstructible_preservation", "AlgebraicGeometry.Etale.constructibleFiniteTor_preservation", "AlgebraicGeometry.ProEtale.DerivedCategory.constructibleFiniteTor_derivedHom_mapDerivedCategory"]
 order = 1557
 uses = ["sk-prop-sf-existence", "sk-prop-sf-rf-shriek-preservation"]
 tags = ["sketch"]

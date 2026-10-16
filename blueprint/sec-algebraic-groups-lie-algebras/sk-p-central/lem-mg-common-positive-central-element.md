@@ -2,6 +2,7 @@
 id = "lem-mg-common-positive-central-element"
 kind = "lemma"
 title = "A common positive-degree central element"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_pos_mem_center_mem_degreeComponent"]
 order = 2872
 uses = ["d-central", "d-monodromy", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-semisimple-module", "lem-mg-degree-component-functoriality", "lem-mg-normal-restriction-semisimple", "lem-wf-degree-component-image", "p-central"]
 +++

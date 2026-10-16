@@ -2,6 +2,7 @@
 id = "lem-sc-h1-gm-pic"
 kind = "lemma"
 title = "The Picard group as first cohomology of units"
+lean = ["AlgebraicGeometry.Scheme.CohomologicalPicardGroup", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroup", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroup_mul", "AlgebraicGeometry.Scheme.nonempty_equiv_cohomologicalPicardGroup", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroupAddEquiv", "AlgebraicGeometry.Scheme.nonempty_addEquiv_cohomologicalPicardGroup"]
 order = 890
 uses = ["def-sc-curves", "def-sc-gm-torsor", "def-sc-invertible-module", "def-sc-picard-group", "thm-sc-hilbert-90"]
 +++

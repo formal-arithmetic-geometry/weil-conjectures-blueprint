@@ -2,6 +2,7 @@
 id = "def-rp-weight-blocks"
 kind = "definition"
 title = "Rank-counted determinant weights and weight blocks"
+lean = ["AlgebraicGeometry.WeilGroup.rankDetWeightMultiset", "AlgebraicGeometry.WeilGroup.rankAbove", "AlgebraicGeometry.WeilGroup.weightSumAbove", "AlgebraicGeometry.WeilGroup.weightBlock"]
 order = 2981
 uses = ["def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "lem-mg-jordan-holder"]
 +++

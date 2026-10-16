@@ -2,6 +2,7 @@
 id = "def-sc-group-scheme-subgroup"
 kind = "definition"
 title = "Subgroup schemes"
+lean = ["AlgebraicGeometry.IsSubgroupScheme", "AlgebraicGeometry.IsNormalSubgroupScheme", "AlgebraicGeometry.IsClosedSubgroupScheme"]
 order = 434
 uses = ["def-sc-group-scheme"]
 +++
