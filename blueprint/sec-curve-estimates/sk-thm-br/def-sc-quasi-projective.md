@@ -2,6 +2,7 @@
 id = "def-sc-quasi-projective"
 kind = "definition"
 title = "Quasi-projective curves"
+lean = ["AlgebraicGeometry.IsQuasiProjective"]
 order = 919
 uses = ["def-sc-curves"]
 +++

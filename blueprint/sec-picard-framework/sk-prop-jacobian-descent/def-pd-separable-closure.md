@@ -2,6 +2,7 @@
 id = "def-pd-separable-closure"
 kind = "definition"
 title = "Separable closure"
+lean = ["IsSepClosure.exists_intermediateField_mem"]
 order = 862
 uses = ["def-pc-base-change", "def-pc-separably-closed"]
 +++

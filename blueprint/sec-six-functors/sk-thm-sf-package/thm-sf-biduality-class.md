@@ -2,6 +2,7 @@
 id = "thm-sf-biduality-class"
 kind = "theorem"
 title = "Verdier biduality on the coefficient class"
+lean = ["AlgebraicGeometry.Etale.verdierDual_finiteStage"]
 order = 2500
 uses = ["lem-coef-integral-residue-tor", "lem-weil-verdier-preservation-strata", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality"]
 +++

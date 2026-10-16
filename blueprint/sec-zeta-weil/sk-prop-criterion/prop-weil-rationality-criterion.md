@@ -2,6 +2,7 @@
 id = "prop-weil-rationality-criterion"
 kind = "theorem"
 title = "Rationality criterion"
+lean = ["Matrix.bddAbove_range_rank_submatrix_iff"]
 order = 3231
 tags = ["latex:proposition"]
 uses = ["def-weil-field", "def-weil-formal-power-series", "def-weil-hankel-matrix", "lem-weil-finite-coordinate-detection"]

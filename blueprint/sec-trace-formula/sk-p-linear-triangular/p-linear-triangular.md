@@ -2,6 +2,7 @@
 id = "p-linear-triangular"
 kind = "theorem"
 title = "Triangularization"
+lean = ["Module.End.exists_le_map_le_finrank_eq_succ"]
 order = 2734
 tags = ["latex:proposition"]
 +++

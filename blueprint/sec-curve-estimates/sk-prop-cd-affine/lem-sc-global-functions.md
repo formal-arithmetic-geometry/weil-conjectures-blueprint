@@ -2,6 +2,7 @@
 id = "lem-sc-global-functions"
 kind = "lemma"
 title = "Global functions on a proper curve"
+lean = ["AlgebraicGeometry.Scheme.GlobalSectionsBijective.of_isAlgClosed"]
 order = 1027
 uses = ["def-sc-curves", "lem-sc-morphism-from-function", "lem-sc-proper-affine-finite"]
 +++

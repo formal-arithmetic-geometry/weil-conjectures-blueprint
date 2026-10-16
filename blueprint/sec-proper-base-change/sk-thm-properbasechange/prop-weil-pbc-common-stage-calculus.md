@@ -2,6 +2,7 @@
 id = "prop-weil-pbc-common-stage-calculus"
 kind = "theorem"
 title = "Common-stage additive and shift calculus"
+lean = ["CategoryTheory.StageSystem.tr_tr", "CategoryTheory.StageSystem.PairCategory.mkHom_eq_mkHom_iff"]
 order = 1369
 uses = ["def-weil-pbc-finite-stage-pair-category", "prop-weil-pbc-scalar-extension"]
 tags = ["latex:proposition"]

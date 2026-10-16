@@ -2,6 +2,7 @@
 id = "lem-finrepair-modification-extension-zero"
 kind = "lemma"
 title = "Extension by zero under a proper modification"
+lean = ["AlgebraicGeometry.Etale.nonempty_rightDerivedLowerStar_openImmersionLowerShriek_iso"]
 order = 1944
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++

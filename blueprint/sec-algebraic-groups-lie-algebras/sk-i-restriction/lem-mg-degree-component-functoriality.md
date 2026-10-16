@@ -2,6 +2,7 @@
 id = "lem-mg-degree-component-functoriality"
 kind = "lemma"
 title = "Degree components under subquotients and tensor constructions"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.mapOn", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.extensionMap", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.rightHom_extensionMap", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromyExtensionHom_extensionMap", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.vanishingIdeal_image_degreeComponent", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.extensionMap_mem_center", "Matrix.GeneralLinearGroup.IsRegularOn"]
 order = 2864
 uses = ["def-wf-degree-components", "def-wf-monodromy-data", "lem-wf-arith-extension-group", "lem-wf-stabilizer-density"]
 +++

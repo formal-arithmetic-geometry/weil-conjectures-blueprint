@@ -2,6 +2,7 @@
 id = "def-wf-lie-algebra"
 kind = "definition"
 title = "Lie algebras, ideals, solvability and Lie representations"
+lean = ["LieAlgebra.isSolvable_iff_exists_derivedSeries_eq_bot"]
 order = 2807
 +++
 Let $k$ be a field. A *Lie algebra* over $k$ is a $k$-vector space $L$

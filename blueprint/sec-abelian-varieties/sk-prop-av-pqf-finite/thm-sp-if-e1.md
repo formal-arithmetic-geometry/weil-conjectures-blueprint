@@ -2,6 +2,7 @@
 id = "thm-sp-if-e1"
 kind = "theorem"
 title = "Hypercohomology spectral sequence via a Cartan--Eilenberg resolution"
+lean = ["CategoryTheory.Functor.stupidFiltrationExactCouple", "CategoryTheory.Functor.stupidFiltrationSpectralSequence", "CategoryTheory.Functor.stupidFiltrationE\u2081Iso", "CategoryTheory.Functor.isZero_stupidFiltrationExactCouple_E", "CategoryTheory.Functor.stupidFiltrationE\u2081Iso_inv_comp_d_comp_hom", "CategoryTheory.Functor.stupidFiltrationExactCouple_convergesTo"]
 order = 528
 uses = ["def-sp-convergence", "def-sp-double-complex-total", "def-sp-injective-resolutions", "def-sp-kinjective-bridge", "def-sp-left-exact-additive", "def-sp-truncation-couple", "lem-sp-kinjective-computes", "thm-sp-double-complex-spectral-sequences", "thm-sp-spectral-object-yields"]
 +++

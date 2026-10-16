@@ -2,6 +2,7 @@
 id = "thm-zl-relative-line-stratification"
 kind = "theorem"
 title = "Stratification of a sheaf on a relative line"
+lean = ["AlgebraicGeometry.WeilSheaf.exists_dense_isLisse_upperStar", "AlgebraicGeometry.WeilSheaf.HasRelativeLineStratification", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.hasRelativeLineStratification"]
 order = 3191
 uses = ["def-sbc-affine-space", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "i-topology", "lem-zl-affine-partition", "pqf-def-quasifinite"]
 +++

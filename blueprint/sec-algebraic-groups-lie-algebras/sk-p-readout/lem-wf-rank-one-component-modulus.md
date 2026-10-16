@@ -2,6 +2,7 @@
 id = "lem-wf-rank-one-component-modulus"
 kind = "lemma"
 title = "A rank-one character has constant modulus on a degree component"
+lean = ["AlgebraicGeometry.Monodromy.DegreeDatum.norm_apply_eq_zpow"]
 order = 2899
 uses = ["def-wf-degree-components", "lem-wf-rank-one-algebraic-extension"]
 +++

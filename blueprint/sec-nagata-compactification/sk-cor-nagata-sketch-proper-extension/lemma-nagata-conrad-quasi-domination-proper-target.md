@@ -2,6 +2,7 @@
 id = "lemma-nagata-conrad-quasi-domination-proper-target"
 kind = "lemma"
 title = "A quasi-domination over a proper target is everywhere defined (Conrad)"
+lean = ["AlgebraicGeometry.QuasiDomination.U_eq_top"]
 order = 230
 uses = ["def-nagata-conrad-quasi-domination"]
 +++

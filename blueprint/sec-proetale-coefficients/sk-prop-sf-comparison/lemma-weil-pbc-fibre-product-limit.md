@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-fibre-product-limit"
 kind = "lemma"
 title = "Base change commutes with the neighbourhood limit"
+lean = ["AlgebraicGeometry.Scheme.isLimitStrictLocalizationConePullback"]
 order = 953
 uses = ["def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit"]
 +++

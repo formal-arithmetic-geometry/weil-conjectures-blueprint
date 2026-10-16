@@ -2,6 +2,7 @@
 id = "lem-weil-derived-tensor-resolution-independent"
 kind = "lemma"
 title = "Resolution independence of the derived tensor product"
+lean = ["AlgebraicGeometry.ProEtale.quasiIso_whiskerRight_of_kFlat", "AlgebraicGeometry.ProEtale.isIso_\u03bc_Qh_of_kFlat"]
 order = 2214
 uses = ["def-weil-derived-tensor", "def-weil-pbc-proetale-site"]
 +++

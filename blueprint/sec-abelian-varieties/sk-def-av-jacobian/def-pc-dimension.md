@@ -2,6 +2,7 @@
 id = "def-pc-dimension"
 kind = "definition"
 title = "Dimension"
+lean = ["AlgebraicGeometry.Scheme.Hom.relativeDimension", "AlgebraicGeometry.Scheme.Hom.IsOfRelativeDimension"]
 order = 458
 uses = ["def-pc-base-change", "def-pc-scheme"]
 +++

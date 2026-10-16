@@ -2,6 +2,7 @@
 id = "lem-mg-jordan-holder"
 kind = "lemma"
 title = "Elementary Jordan–Holder lemma"
+lean = ["Representation.CompositionSeries.jordanHolder"]
 order = 2886
 uses = ["def-mg-weil-composition-series", "lem-mg-composition-series-exists"]
 +++

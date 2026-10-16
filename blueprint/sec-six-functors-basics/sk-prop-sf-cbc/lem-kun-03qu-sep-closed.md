@@ -2,6 +2,7 @@
 id = "lem-kun-03qu-sep-closed"
 kind = "lemma"
 title = "Vanishing on a separably closed point"
+lean = ["AlgebraicGeometry.Scheme.subsingleton_H_of_pos_of_isSepClosed"]
 order = 1890
 uses = ["def-kun-separably-closed", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++

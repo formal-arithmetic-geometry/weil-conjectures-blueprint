@@ -2,6 +2,7 @@
 id = "lem-pc-finite-extension-alg-closed"
 kind = "lemma"
 title = "Finite extensions of algebraically closed fields"
+lean = ["IsAlgClosed.algebraMap_bijective_of_finite"]
 order = 734
 uses = ["def-pc-field-tower"]
 +++

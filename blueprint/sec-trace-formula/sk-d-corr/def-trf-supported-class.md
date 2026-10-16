@@ -2,6 +2,7 @@
 id = "def-trf-supported-class"
 kind = "definition"
 title = "Classes supported on a map"
+lean = ["AlgebraicGeometry.ProEtale.SupportedClass"]
 order = 2621
 uses = ["def-trf-coefficient-conventions", "def-trf-correspondence-between-pairs", "def-weil-scheme-morphism-properties"]
 +++

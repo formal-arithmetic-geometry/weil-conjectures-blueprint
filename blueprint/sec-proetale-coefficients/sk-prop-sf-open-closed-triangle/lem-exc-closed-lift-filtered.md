@@ -2,6 +2,7 @@
 id = "lem-exc-closed-lift-filtered"
 kind = "lemma"
 title = "The closed-lift indexing category is filtered"
+lean = ["Algebra.ClosedLift.isFiltered_index"]
 order = 2183
 uses = ["def-exc-ind-etale-closed-lift", "lem-weil-pbc-ind-etale-stability"]
 +++

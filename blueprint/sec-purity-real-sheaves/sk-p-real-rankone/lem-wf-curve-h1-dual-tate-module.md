@@ -2,6 +2,7 @@
 id = "lem-wf-curve-h1-dual-tate-module"
 kind = "lemma"
 title = "Untwisted integral classes form the dual Tate module"
+lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_picTorsionPairing"]
 order = 2965
 uses = ["def-sc-jacobian", "def-weil-pbc-etale-cohomology", "def-wf-abelian-tate-module", "lem-wf-curve-finite-level-pd", "lem-wf-curve-kummer-jacobian-tate-module", "lem-wf-geometric-jacobian-galois-action", "thm-av-final", "thm-pod-equivariance-of-the-twisted-pairing"]
 +++

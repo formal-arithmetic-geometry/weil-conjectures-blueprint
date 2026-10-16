@@ -2,6 +2,7 @@
 id = "lem-sc-p1-twist-sections"
 kind = "lemma"
 title = "Sections of the twists"
+lean = ["AlgebraicGeometry.ProjectiveLine.nonempty_H_zero_twist_equiv_twistSectionPairs"]
 order = 643
 uses = ["def-sc-p1-standard"]
 +++

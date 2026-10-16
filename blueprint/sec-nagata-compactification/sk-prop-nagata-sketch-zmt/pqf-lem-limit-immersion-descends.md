@@ -2,6 +2,7 @@
 id = "pqf-lem-limit-immersion-descends"
 kind = "lemma"
 title = "Closed immersions spread out from a filtered limit"
+lean = ["AlgebraicGeometry.Scheme.exists_isClosedImmersion_comp_\u03c0"]
 order = 203
 uses = ["def-weil-pbc-scheme-conventions", "pqf-lem-affine-local-target"]
 +++

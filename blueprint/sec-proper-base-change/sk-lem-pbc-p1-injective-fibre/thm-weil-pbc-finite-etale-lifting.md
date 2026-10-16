@@ -2,6 +2,7 @@
 id = "thm-weil-pbc-finite-etale-lifting"
 kind = "theorem"
 title = "Finite-etale lifting over a proper henselian pair"
+lean = ["AlgebraicGeometry.Scheme.isEquivalence_pullback_finiteEtale_of_henselianRing"]
 order = 1194
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-henselian-idempotent-lifting"]
 +++

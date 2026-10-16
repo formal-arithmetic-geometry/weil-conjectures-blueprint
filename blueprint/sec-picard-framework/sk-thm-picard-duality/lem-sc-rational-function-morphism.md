@@ -2,6 +2,7 @@
 id = "lem-sc-rational-function-morphism"
 kind = "lemma"
 title = "Rational functions define morphisms to $\\mathbf P^1$"
+lean = ["AlgebraicGeometry.Scheme.exists_hom_projectiveLine_of_functionField"]
 order = 704
 uses = ["def-sc-curves", "def-sc-function-field", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-cbc-proetale-extension-zero-base-change"
 kind = "lemma"
 title = "Pro-etale extension-by-zero base change"
+lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerShriekOfCompactificationBaseChangeIso", "AlgebraicGeometry.ProEtale.isIso_openImmersionLowerShriekBaseChangeMap", "AlgebraicGeometry.ProEtale.derivedOpenImmersionLowerShriekBaseChangeIso"]
 order = 1934
 uses = ["def-cbc-open-immersion-square", "def-weil-pbc-inverse-image", "lem-cbc-proetale-extension-zero"]
 +++

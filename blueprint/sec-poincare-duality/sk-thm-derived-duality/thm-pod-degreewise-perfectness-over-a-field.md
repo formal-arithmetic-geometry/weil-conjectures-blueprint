@@ -2,6 +2,7 @@
 id = "thm-pod-degreewise-perfectness-over-a-field"
 kind = "theorem"
 title = "Degreewise perfectness over a field"
+lean = ["AlgebraicGeometry.WeilSheaf.exists_isPerfPair_compactlySupportedCohomology_adicConstant"]
 order = 2784
 uses = ["def-pod-derived-poincare-pairing", "def-pod-perfect-complex-on-x", "def-pod-perfect-point-complex", "def-weil-finite-coefficient-point", "lem-pod-cohomology-of-dual-over-field", "lem-pod-perfect-point-complex-field", "prop-pod-degree-of-the-pairing", "thm-pod-derived-poincare-duality", "thm-pod-point-perfectness"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-pc-proper-base-change"
 kind = "lemma"
 title = "Proper and smooth morphisms are stable under base change"
+lean = ["AlgebraicGeometry.isProper_and_smooth_of_isPullback"]
 order = 739
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-scheme", "def-weil-scheme-morphism-properties"]
 +++

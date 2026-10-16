@@ -2,6 +2,7 @@
 id = "def-sc-mu-trivialization"
 kind = "definition"
 title = "The canonical trivialization of the constant sheaf"
+lean = ["IsPrimitiveRoot.zmodAddEquivRootsOfUnity", "AlgebraicGeometry.Scheme.constantZModToRootsOfUnitySheaf", "AlgebraicGeometry.Scheme.isIso_constantZModToRootsOfUnitySheaf", "AlgebraicGeometry.Scheme.constantZModIsoRootsOfUnitySheaf"]
 order = 933
 uses = ["def-sc-curves", "def-weil-pbc-etale-sheaves"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-weil-scalar-extension-exact-triangulated"
 kind = "lemma"
 title = "Scalar extension is an exact triangulated functor"
+lean = ["AlgebraicGeometry.Etale.isTriangulated_derivedCompleteRationalScalarExtension"]
 order = 2227
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-rationalization-karoubi", "lem-weil-scalar-extension-well-defined", "prop-weil-pbc-scalar-extension"]
 +++

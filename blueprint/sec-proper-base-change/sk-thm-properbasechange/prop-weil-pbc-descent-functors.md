@@ -2,6 +2,7 @@
 id = "prop-weil-pbc-descent-functors"
 kind = "theorem"
 title = "Descent of coefficient-compatible functors"
+lean = ["CategoryTheory.StageSystem.Morphism", "CategoryTheory.StageSystem.Morphism.functor", "CategoryTheory.StageSystem.Morphism.Hom"]
 order = 1372
 uses = ["def-weil-pbc-finite-stage-pair-category", "def-weil-pbc-qbar-category", "prop-weil-pbc-scalar-extension"]
 tags = ["latex:proposition"]

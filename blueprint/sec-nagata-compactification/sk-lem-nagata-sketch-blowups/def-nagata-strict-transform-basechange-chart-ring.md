@@ -2,6 +2,7 @@
 id = "def-nagata-strict-transform-basechange-chart-ring"
 kind = "definition"
 title = "Affine base-change chart ring"
+lean = ["AlgebraicGeometry.AffineBlowup.BaseChangeChart"]
 order = 151
 uses = ["def-nagata-blowup-chart-ring"]
 +++

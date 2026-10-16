@@ -2,6 +2,7 @@
 id = "def-sbc-normal-dominant-galois"
 kind = "definition"
 title = "Integral, normal, dominant, Galois covers, and geometrical connectedness"
+lean = ["AlgebraicGeometry.Scheme.GaloisCover"]
 order = 1143
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

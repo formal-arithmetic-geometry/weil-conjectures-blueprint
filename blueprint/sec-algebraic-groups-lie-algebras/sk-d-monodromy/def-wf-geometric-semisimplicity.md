@@ -2,6 +2,7 @@
 id = "def-wf-geometric-semisimplicity"
 kind = "definition"
 title = "Geometric semisimplicity"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsGeometricallySemisimple"]
 order = 2856
 uses = ["def-wf-fundamental-representation", "def-wf-weil-group"]
 +++

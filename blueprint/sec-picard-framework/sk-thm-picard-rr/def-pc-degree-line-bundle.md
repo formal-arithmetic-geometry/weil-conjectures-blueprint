@@ -2,6 +2,7 @@
 id = "def-pc-degree-line-bundle"
 kind = "definition"
 title = "The degree of an invertible module"
+lean = ["AlgebraicGeometry.Scheme.Modules.degree", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.degree_dual_toModules_eq_one"]
 order = 731
 uses = ["def-sc-divisor", "def-sc-pic0"]
 +++

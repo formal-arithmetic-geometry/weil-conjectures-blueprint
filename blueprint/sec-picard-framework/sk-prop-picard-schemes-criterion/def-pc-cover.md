@@ -2,6 +2,7 @@
 id = "def-pc-cover"
 kind = "definition"
 title = "Covers of a functor"
+lean = ["AlgebraicGeometry.ZariskiCovers"]
 order = 786
 uses = ["def-pc-scheme", "def-pc-subfunctor"]
 +++

@@ -2,6 +2,7 @@
 id = "pqf-lem-limit-qc-open-descends"
 kind = "lemma"
 title = "Quasi-compact opens of a filtered limit descend"
+lean = ["AlgebraicGeometry.Scheme.exists_preimage_eq_and_isLimit_opensCone", "AlgebraicGeometry.Scheme.exists_map_preimage_eq_map_preimage_of_isLimit"]
 order = 202
 uses = ["def-weil-pbc-scheme-conventions", "pqf-lem-qs-intersection-qc"]
 +++

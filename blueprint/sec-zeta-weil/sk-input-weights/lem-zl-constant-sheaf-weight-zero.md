@@ -2,6 +2,7 @@
 id = "lem-zl-constant-sheaf-weight-zero"
 kind = "lemma"
 title = "Weight zero of the constant sheaf"
+lean = ["AlgebraicGeometry.WeilSheaf.isPunctuallyPureOfWeight_adicConstant"]
 order = 3215
 uses = ["def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex"]
 +++

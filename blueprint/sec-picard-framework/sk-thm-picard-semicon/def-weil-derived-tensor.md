@@ -2,6 +2,7 @@
 id = "def-weil-derived-tensor"
 kind = "definition"
 title = "Derived tensor notation"
+lean = ["AlgebraicGeometry.ProEtale.derivedTensor"]
 order = 669
 uses = ["def-weil-pbc-proetale-site"]
 +++

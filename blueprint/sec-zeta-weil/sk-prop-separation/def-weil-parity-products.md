@@ -2,6 +2,7 @@
 id = "def-weil-parity-products"
 kind = "definition"
 title = "Odd and even parity products"
+lean = ["AlgebraicGeometry.Scheme.oddFrobeniusProduct", "AlgebraicGeometry.Scheme.evenFrobeniusProduct"]
 order = 3241
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-smooth-proper-cohomological-family"]
 +++

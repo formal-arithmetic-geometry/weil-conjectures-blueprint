@@ -2,6 +2,7 @@
 id = "lem-sp-edge-collapse"
 kind = "lemma"
 title = "Edge collapse and edge maps"
+lean = ["CategoryTheory.ExactCouple.ConvergenceData.edge", "CategoryTheory.ExactCouple.edge_collapse", "CategoryTheory.ExactCouple.isIso_edge"]
 order = 520
 uses = ["def-sp-convergence", "def-sp-exact-couple"]
 +++

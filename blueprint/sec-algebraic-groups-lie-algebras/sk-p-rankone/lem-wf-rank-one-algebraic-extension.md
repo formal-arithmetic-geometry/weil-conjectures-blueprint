@@ -2,6 +2,7 @@
 id = "lem-wf-rank-one-algebraic-extension"
 kind = "lemma"
 title = "Arithmetic monodromy after finite geometric image"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromyExtensionEquivProd", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromyExtensionHom_arithmeticMonodromyExtensionEquivProd_symm", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromyExtensionHom_arithmeticMonodromyExtensionEquivProd_symm_rep"]
 order = 2878
 uses = ["def-wf-arithmetic-monodromy-extension", "def-wf-geometric-monodromy-group"]
 +++

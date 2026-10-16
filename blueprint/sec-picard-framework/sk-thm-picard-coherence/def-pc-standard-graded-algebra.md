@@ -2,6 +2,7 @@
 id = "def-pc-standard-graded-algebra"
 kind = "definition"
 title = "Standard graded algebras"
+lean = ["GradedAlgebra.IsStandard", "GradedAlgebra.IsStandard.grade_eq_pow", "GradedAlgebra.IsStandard.grade_zero_eq_one", "GradedAlgebra.IsStandard.finite_grade"]
 order = 651
 +++
 Let $k$ be a field. A standard graded $k$-algebra is a commutative

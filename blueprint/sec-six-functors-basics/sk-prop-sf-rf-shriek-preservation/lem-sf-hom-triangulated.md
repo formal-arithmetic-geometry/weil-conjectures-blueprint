@@ -2,6 +2,7 @@
 id = "lem-sf-hom-triangulated"
 kind = "lemma"
 title = "Exactness of the internal Hom in each variable"
+lean = ["DerivedCategory.exists_distinguished_ihom_pre", "AlgebraicGeometry.Etale.exists_distTriang_derivedHom_left", "AlgebraicGeometry.Etale.exists_distTriang_derivedHom_right", "AlgebraicGeometry.Etale.derivedHom_mem_of_distTriang_left", "AlgebraicGeometry.Etale.derivedHom_mem_of_distTriang_right"]
 order = 2425
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-pbc-etale-site", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++

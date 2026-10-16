@@ -2,6 +2,7 @@
 id = "cor-sf-direct-image-ctf-etale-origin"
 kind = "theorem"
 title = "The pro-étale direct image for objects of étale origin"
+lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_and_torAmplitudeIn_rightDerivedLowerStar_mapDerivedCategory"]
 order = 2538
 tags = ["latex:corollary"]
 uses = ["cor-sf-direct-image-ctf-nonproper", "def-weil-finite-tor-amplitude", "def-weil-pbc-proetale-modules", "def-weil-pbc-site-comparison-morphism", "lem-cbc-proetale-stalk-conservative", "lem-exc-comparison-tor-interval", "lem-weil-pbc-pullback-preserves-bounded-constructible", "prop-weil-pbc-comparison-direct-image"]

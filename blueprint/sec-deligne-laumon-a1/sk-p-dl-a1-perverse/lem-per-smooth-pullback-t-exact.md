@@ -2,6 +2,7 @@
 id = "lem-per-smooth-pullback-t-exact"
 kind = "lemma"
 title = "Smooth pullback is perverse up to the shift"
+lean = ["AlgebraicGeometry.Etale.DerivedCategory.isPerverseLE_upperStar", "AlgebraicGeometry.Etale.DerivedCategory.isPerverseGE_upperStar"]
 order = 3086
 uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "cor-sf-duality-pullback", "def-per-perverse-subcategories", "def-per-support-condition", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "fix-cor-verdier-exchange", "lem-per-lisse-tensor-permanence", "prop-functor-package"]
 +++

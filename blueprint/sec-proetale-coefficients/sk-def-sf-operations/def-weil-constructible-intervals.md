@@ -2,6 +2,7 @@
 id = "def-weil-constructible-intervals"
 kind = "definition"
 title = "Constructible cohomological intervals"
+lean = ["AlgebraicGeometry.Etale.DerivedCategory.constructibleIn", "AlgebraicGeometry.ProEtale.DerivedCategory.constructibleIn"]
 order = 1825
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-finite-torsion-constructibility"]
 +++

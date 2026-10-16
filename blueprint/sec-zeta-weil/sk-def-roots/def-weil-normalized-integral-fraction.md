@@ -2,6 +2,7 @@
 id = "def-weil-normalized-integral-fraction"
 kind = "definition"
 title = "Normalized reduced integral fraction"
+lean = ["PowerSeries.IsNormalizedIntegralFraction"]
 order = 3205
 uses = ["def-weil-formal-power-series"]
 +++

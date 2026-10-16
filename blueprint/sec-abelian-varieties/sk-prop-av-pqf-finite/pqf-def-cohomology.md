@@ -2,6 +2,7 @@
 id = "pqf-def-cohomology"
 kind = "definition"
 title = "Sheaf cohomology and higher direct images"
+lean = ["AlgebraicGeometry.Scheme.Modules.globalSectionsFunctor"]
 order = 533
 +++
 Let $X$ be a scheme. The cohomology functors $\mathrm H^p(X,-)$ are

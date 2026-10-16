@@ -2,6 +2,7 @@
 id = "thm-weil-pbc-henselian-idempotent-lifting"
 kind = "theorem"
 title = "Idempotent lifting for the structure sheaf over a henselian pair"
+lean = ["AlgebraicGeometry.Scheme.Hom.isConnected_inter_preimage_zeroLocus", "AlgebraicGeometry.Scheme.bijective_appTop_idempotent_of_henselianRing"]
 order = 1193
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "thm-weil-pbc-stein-inputs"]
 tags = ["latex:openproblem"]

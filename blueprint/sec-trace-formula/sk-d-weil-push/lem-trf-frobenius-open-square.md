@@ -2,6 +2,7 @@
 id = "lem-trf-frobenius-open-square"
 kind = "lemma"
 title = "Frobenius preserves an open subscheme defined over the finite field"
+lean = ["AlgebraicGeometry.ProEtale.isPullback_frobenius_pow_of_isOpenImmersion"]
 order = 2712
 uses = ["def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++

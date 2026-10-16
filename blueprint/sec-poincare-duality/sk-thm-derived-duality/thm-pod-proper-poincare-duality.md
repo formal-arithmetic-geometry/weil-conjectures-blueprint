@@ -2,6 +2,7 @@
 id = "thm-pod-proper-poincare-duality"
 kind = "theorem"
 title = "Proper Poincare duality"
+lean = ["AlgebraicGeometry.Etale.TateOrientation.isPerfectPairing_properPoincarePairing", "AlgebraicGeometry.Etale.TateOrientation.degreewise_duality_of_isProper", "AlgebraicGeometry.Etale.isPerfectPairing_properPoincarePairing"]
 order = 2785
 uses = ["cor-cbc-proper-coincidence", "def-pod-derived-poincare-pairing", "prop-pod-degree-of-the-pairing", "thm-pod-degreewise-perfectness-over-a-field", "thm-pod-derived-poincare-duality"]
 +++

@@ -2,6 +2,7 @@
 id = "sbc-lem-higher-direct-image-presheaf"
 kind = "lemma"
 title = "Higher direct image as a sheafified cohomology presheaf"
+lean = ["AlgebraicGeometry.Etale.isZero_higherDirectImage_constantModSheaf_of_forall_exists"]
 order = 1445
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-cohomology"]
 +++

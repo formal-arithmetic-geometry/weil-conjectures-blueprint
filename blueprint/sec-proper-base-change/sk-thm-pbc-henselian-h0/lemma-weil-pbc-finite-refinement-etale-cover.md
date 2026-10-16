@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-finite-refinement-etale-cover"
 kind = "lemma"
 title = "Finite refinement of a surjective etale morphism"
+lean = ["AlgebraicGeometry.Scheme.exists_finite_surjective_refinement_of_etale"]
 order = 1106
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++

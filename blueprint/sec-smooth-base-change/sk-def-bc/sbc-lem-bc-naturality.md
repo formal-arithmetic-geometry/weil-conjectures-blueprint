@@ -2,6 +2,7 @@
 id = "sbc-lem-bc-naturality"
 kind = "lemma"
 title = "Naturality of the base-change map"
+lean = ["AlgebraicGeometry.Etale.baseChange_naturality"]
 order = 1428
 uses = ["sbc-def-base-change-map", "sbc-def-base-change-square"]
 +++

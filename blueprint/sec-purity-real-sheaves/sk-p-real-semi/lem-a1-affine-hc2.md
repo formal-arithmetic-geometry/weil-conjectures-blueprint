@@ -2,6 +2,7 @@
 id = "lem-a1-affine-hc2"
 kind = "lemma"
 title = "Description of $H_c^2$ on an affine curve"
+lean = ["AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_two", "AlgebraicGeometry.WeilGroup.compactTopFrobenius"]
 order = 2997
 uses = ["def-compact-support-direct-image-detailed", "def-pod-conventions", "def-weil-extension-by-zero", "def-weil-ordinary-compact-cohomology", "def-wf-fundamental-representation", "def-wf-monodromy-data", "def-wf-tate-twist", "fix-cor-verdier-exchange", "fix-lem-exchanges", "lem-weil-derived-direct-image-composition", "lem-wf-curve-normal-smooth-compactification", "p-real-sections", "prop-exc-open-adjoint", "thm-pod-global-verdier-duality"]
 +++

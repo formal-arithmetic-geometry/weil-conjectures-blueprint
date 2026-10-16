@@ -2,6 +2,7 @@
 id = "thm-pur-trace-normalization-transitivity"
 kind = "theorem"
 title = "Trace normalization and transitivity"
+lean = ["AlgebraicGeometry.Etale.smoothPurityTrace_comp", "AlgebraicGeometry.Etale.smoothPurityTrace_baseChange", "AlgebraicGeometry.Etale.isIso_affineLineFundamentalClass_comp_smoothPurityTrace", "AlgebraicGeometry.Etale.exists_affineLineFundamentalClass_comp_smoothPurityTrace"]
 order = 2372
 uses = ["cor-pur-affine-space-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-projection-purity-agreement", "thm-pur-adic-reconstruction", "thm-pur-affine-line-orientation", "thm-pur-affine-line-purity", "thm-pur-composition-coherence", "thm-pur-finite-reduction-of-purity", "thm-pur-rational-and-qbar-purity", "thm-pur-smooth-base-change-coherence", "thm-sf-comp-composition"]
 +++

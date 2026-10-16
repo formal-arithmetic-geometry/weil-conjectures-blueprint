@@ -2,6 +2,7 @@
 id = "def-pc-euler-characteristic"
 kind = "definition"
 title = "The Euler characteristic"
+lean = ["AlgebraicGeometry.Scheme.Modules.eulerChar"]
 order = 730
 uses = ["def-pc-derived-direct-image", "def-pc-morphism-conventions", "def-pc-scheme"]
 +++

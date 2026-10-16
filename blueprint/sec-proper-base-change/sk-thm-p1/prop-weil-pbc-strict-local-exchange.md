@@ -2,6 +2,7 @@
 id = "prop-weil-pbc-strict-local-exchange"
 kind = "theorem"
 title = "Strict-local projective-line exchange"
+lean = ["AlgebraicGeometry.Etale.exists_addEquiv_sheafFiber_baseChangeHomologyMap_strictLocal", "AlgebraicGeometry.Etale.isIso_sheafFiber_baseChangeHomologyMap_strictLocal"]
 order = 1199
 uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-henselian-terminology", "prop-weil-pbc-p1-strict-henselian-comparison"]
 tags = ["latex:proposition"]

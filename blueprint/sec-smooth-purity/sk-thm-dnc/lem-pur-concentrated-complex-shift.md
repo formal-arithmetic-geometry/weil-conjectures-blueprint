@@ -2,6 +2,7 @@
 id = "lem-pur-concentrated-complex-shift"
 kind = "lemma"
 title = "Complexes with cohomology in a single degree"
+lean = ["DerivedCategory.nonempty_iso_singleFunctor_obj_homologyFunctor_obj", "AlgebraicGeometry.Etale.exists_nonempty_iso_twistShift_of_leftDerivedUpperStar_iso", "AlgebraicGeometry.Etale.isZero_homology_of_leftDerivedUpperStar_iso", "AlgebraicGeometry.Etale.isFiniteLocallyConstantSheaf_homology_of_leftDerivedUpperStar_iso"]
 order = 2344
 uses = ["def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative"]
 +++

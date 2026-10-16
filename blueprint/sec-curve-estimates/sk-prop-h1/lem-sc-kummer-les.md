@@ -2,6 +2,7 @@
 id = "lem-sc-kummer-les"
 kind = "lemma"
 title = "Consequences of the Kummer sequence"
+lean = ["AlgebraicGeometry.Scheme.kummer\u03b4\u2080", "AlgebraicGeometry.Scheme.kummer\u03b4\u2081", "AlgebraicGeometry.IsCurve.sheafH_rootsOfUnitySheaf_of_subsingleton"]
 order = 935
 uses = ["def-sc-curves", "def-sc-kummer-sequence", "lem-sc-brauer-zero", "lem-sc-h1-gm-pic", "lem-sc-kummer-exact", "lem-sc-primitive-root"]
 +++

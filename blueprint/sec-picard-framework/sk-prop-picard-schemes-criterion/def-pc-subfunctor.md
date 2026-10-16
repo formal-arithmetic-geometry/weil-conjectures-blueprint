@@ -2,6 +2,7 @@
 id = "def-pc-subfunctor"
 kind = "definition"
 title = "Subfunctors"
+lean = ["AlgebraicGeometry.isRepresentable_of_isSheaf_of_zariskiCovers"]
 order = 782
 uses = ["def-pc-scheme"]
 +++

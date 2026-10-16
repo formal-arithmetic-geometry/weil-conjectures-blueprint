@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-vanishing-descends-retract"
 kind = "lemma"
 title = "Vanishing descends to a retract"
+lean = ["AlgebraicGeometry.Etale.isZero_homology_rightDerivedFunctorPlus_of_retract"]
 order = 1255
 uses = ["def-weil-pbc-direct-image"]
 +++

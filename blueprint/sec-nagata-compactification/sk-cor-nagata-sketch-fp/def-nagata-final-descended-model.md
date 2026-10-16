@@ -2,6 +2,7 @@
 id = "def-nagata-final-descended-model"
 kind = "definition"
 title = "Separated descended model used in the final assembly"
+lean = ["AlgebraicGeometry.descendedModelStage", "AlgebraicGeometry.descendedModel", "AlgebraicGeometry.descendedModelHom", "AlgebraicGeometry.toDescendedModel", "AlgebraicGeometry.descendedModelIso"]
 order = 380
 uses = ["def-nagata-final-noetherian-base-system", "def-nagata-separated-descent-stage", "lemma-nagata-final-noetherian-base-system"]
 +++

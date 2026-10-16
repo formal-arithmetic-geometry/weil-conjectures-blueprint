@@ -2,6 +2,7 @@
 id = "lem-wf-determinantal-weight-coefficient-field"
 kind = "lemma"
 title = "The determinant weight does not depend on the coefficient field"
+lean = ["AlgebraicGeometry.WeilGroup.isPunctuallyPure_det_baseChange_iff"]
 order = 2977
 uses = ["def-mg-determinant-line", "def-weil-punctual-weights"]
 +++

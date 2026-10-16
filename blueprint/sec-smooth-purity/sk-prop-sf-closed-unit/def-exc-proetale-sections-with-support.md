@@ -2,6 +2,7 @@
 id = "def-exc-proetale-sections-with-support"
 kind = "definition"
 title = "The pro-etale sheaf exceptional-image construction"
+lean = ["AlgebraicGeometry.ProEtale.closedUpperShriek"]
 order = 2202
 uses = ["def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions"]
 +++

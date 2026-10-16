@@ -2,6 +2,7 @@
 id = "pqf-lem-serre-criterion"
 kind = "lemma"
 title = "Serre's criterion for affineness"
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.surjective_subscheme\u03b9_appTop_of_subsingleton_H_one", "AlgebraicGeometry.Scheme.IdealSheafData.surjective_subscheme\u03b9_appTop_of_ofFiniteType", "AlgebraicGeometry.Scheme.span_eq_top_of_forall_mem_basicOpen", "AlgebraicGeometry.Scheme.exists_basicOpen_le_of_isClosed", "AlgebraicGeometry.isAffine_of_subsingleton_H_one"]
 order = 546
 uses = ["pqf-def-coherent", "pqf-def-cohomology"]
 +++

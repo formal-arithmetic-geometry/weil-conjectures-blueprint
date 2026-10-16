@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-spectral-restriction"
 kind = "lemma"
 title = "Zariski restriction on a spectral space"
+lean = ["TopCat.Sheaf.bijective_unit_app_top"]
 order = 1107
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++

@@ -2,6 +2,7 @@
 id = "lemma-nagata-final-fp-envelope"
 kind = "lemma"
 title = "Properties of the final finite-presentation envelope"
+lean = ["AlgebraicGeometry.Scheme.Hom.fpEnvelope_spec"]
 order = 407
 uses = ["def-nagata-final-fp-envelope", "prop-nagata-finite-type-closed-in-fp"]
 +++

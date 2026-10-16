@@ -2,6 +2,7 @@
 id = "lem-wf-algebraic-component-cosets"
 kind = "lemma"
 title = "Identity component, cosets, and the finite component group"
+lean = ["Matrix.GeneralLinearGroup.isClopen_connectedComponent_zeroLocus"]
 order = 2838
 uses = ["def-wf-algebraic-components", "lem-wf-affine-noetherian-components"]
 +++

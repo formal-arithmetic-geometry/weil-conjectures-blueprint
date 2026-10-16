@@ -2,6 +2,7 @@
 id = "def-wf-arithmetic-monodromy-extension"
 kind = "definition"
 title = "Arithmetic monodromy extension"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobeniusConj", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobeniusAction", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.ArithmeticMonodromyExtension", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromyExtensionHom"]
 order = 2847
 uses = ["def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-conjugation-geometric-monodromy"]
 +++

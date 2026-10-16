@@ -2,6 +2,7 @@
 id = "lem-sc-pic-proper-ntorsion"
 kind = "lemma"
 title = "Pic of a proper curve: divisibility, n-torsion, cokernel"
+lean = ["AlgebraicGeometry.Scheme.nonempty_addEquiv_torsionBy_pic_and_quotient"]
 order = 1031
 uses = ["def-sc-curves", "def-sc-jacobian", "def-sc-mult-n", "def-sc-pic0", "lem-pc-genus-agrees-sc", "lem-sc-pic-proper-decomposition", "thm-av-final", "thm-sc-jacobian-representability"]
 +++

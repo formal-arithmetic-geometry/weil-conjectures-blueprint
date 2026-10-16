@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-finite-pushforward-constructible-noetherian"
 kind = "lemma"
 title = "Finite pushforward preserves constructibility on Noetherian schemes"
+lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.lowerStar_of_isFinite"]
 order = 1176
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-pushforward-generic-constructible", "lem-weil-pbc-noetherian-finite-components", "lemma-weil-pbc-finite-exchange"]
 +++

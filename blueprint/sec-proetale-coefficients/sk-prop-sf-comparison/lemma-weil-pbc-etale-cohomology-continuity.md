@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-etale-cohomology-continuity"
 kind = "lemma"
 title = "Etale cohomology continuity"
+lean = ["AlgebraicGeometry.Etale.isZero_rightDerived_sectionsFunctor_upperStar_of_isLimit", "AlgebraicGeometry.Etale.cohomologyMap_isColimit_of_isLimit"]
 order = 963
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-etale-section-continuity", "lem-weil-pbc-hypercover-refinement", "lemma-weil-pbc-fibre-product-limit", "lemma-weil-pbc-finite-hypercover-descent", "thm-weil-pbc-hypercover-cohomology"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-sc-normalized-curve-smooth"
 kind = "lemma"
 title = "The normalized curve over a perfect field is smooth"
+lean = ["AlgebraicGeometry.smooth_of_isRegular", "AlgebraicGeometry.Scheme.smooth_fromNormalization_comp"]
 order = 924
 uses = ["def-sc-normalization", "lem-sc-normal-dim1-dvr", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++

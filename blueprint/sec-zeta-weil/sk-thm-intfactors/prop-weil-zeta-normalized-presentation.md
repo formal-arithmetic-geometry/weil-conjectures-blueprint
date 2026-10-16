@@ -2,6 +2,7 @@
 id = "prop-weil-zeta-normalized-presentation"
 kind = "theorem"
 title = "The normalized reduced integral presentation exists and is unique"
+lean = ["AlgebraicGeometry.Scheme.Hom.existsUnique_isNormalizedIntegralFraction_zetaSeries"]
 order = 3245
 tags = ["latex:proposition"]
 uses = ["def-weil-normalized-integral-fraction", "prop-rational-descent", "prop-weil-integral-rational-series", "prop-weil-zeta-integral-rational"]

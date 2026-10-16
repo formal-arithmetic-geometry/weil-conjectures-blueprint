@@ -2,6 +2,7 @@
 id = "lem-sc-line-bundle-torsor"
 kind = "lemma"
 title = "Line bundles and $\\mathbf G_m$-torsors"
+lean = ["AlgebraicGeometry.Scheme.Pic.surjective_etaleTorsorClass", "AlgebraicGeometry.Scheme.picEquivQuotientTorsorGmSheaf", "AlgebraicGeometry.Scheme.nonempty_pic_equiv_quotient_torsor_gmSheaf", "AlgebraicGeometry.Scheme.nonempty_equiv_quotient_torsor", "AlgebraicGeometry.Scheme.Pic.bijective_torsorClass", "AlgebraicGeometry.Scheme.nonempty_pic_equiv_quotient_torsor_unitsSheaf", "AlgebraicGeometry.Scheme.exists_app_eq_of_app_etaleSpec_eq", "Algebra.TensorProduct.exists_eq_of_cocycle"]
 order = 887
 uses = ["def-sc-gm-torsor", "def-sc-invertible-module", "def-sc-picard-group", "lem-pc-fpqc-descent"]
 +++

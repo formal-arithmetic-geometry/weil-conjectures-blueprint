@@ -2,6 +2,7 @@
 id = "def-weil-ordinary-reciprocal-roots"
 kind = "definition"
 title = "Ordinary roots and reciprocal roots"
+lean = ["Polynomial.ordinary_reciprocal_roots"]
 order = 3203
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-ordinary-compact-cohomology", "def-weil-smooth-proper-cohomological-family"]
 +++

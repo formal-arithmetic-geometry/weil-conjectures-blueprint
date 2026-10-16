@@ -2,6 +2,7 @@
 id = "lem-pod-perfect-point-complex-field"
 kind = "lemma"
 title = "Perfect point complexes over a field"
+lean = ["DerivedCategory.isPerfect_iff"]
 order = 2757
 uses = ["def-pod-conventions", "def-pod-perfect-point-complex", "def-weil-finite-coefficient-point"]
 +++

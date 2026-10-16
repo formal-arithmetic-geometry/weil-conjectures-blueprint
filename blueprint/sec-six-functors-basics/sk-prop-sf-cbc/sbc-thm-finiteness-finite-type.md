@@ -2,6 +2,7 @@
 id = "sbc-thm-finiteness-finite-type"
 kind = "theorem"
 title = "Finiteness of higher direct images of finite-type morphisms"
+lean = ["AlgebraicGeometry.Etale.isZero_homology_rightDerivedLowerShriek_singleFunctor"]
 order = 1989
 uses = ["def-amb-etale-compact-support", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-dg-compact-support-amplitude", "lem-fin-extension-by-zero", "lem-fin-proper-bounded-constructible", "sbc-def-coefficient-conventions", "thm-dg-finite-type-constructibility", "thm-nagata-compactification"]
 +++

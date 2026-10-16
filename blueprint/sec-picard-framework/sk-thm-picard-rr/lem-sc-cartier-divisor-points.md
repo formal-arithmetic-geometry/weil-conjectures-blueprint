@@ -2,6 +2,7 @@
 id = "lem-sc-cartier-divisor-points"
 kind = "lemma"
 title = "Effective Cartier divisors on a smooth curve"
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.exists_eq_idealSheaf"]
 order = 714
 uses = ["def-sc-curves", "def-sc-effective-cartier-divisor", "lem-sc-dim0-finite", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++

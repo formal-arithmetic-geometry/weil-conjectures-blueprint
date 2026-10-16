@@ -2,6 +2,7 @@
 id = "def-weil-algebraically-closed-coefficients"
 kind = "definition"
 title = "Algebraically closed coefficient category"
+lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructibleAdic"]
 order = 1821
 uses = ["def-weil-finite-field-fiber", "def-weil-rationalization-karoubi"]
 +++

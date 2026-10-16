@@ -2,6 +2,7 @@
 id = "lemma-nagata-strict-transform-chart-cocycle"
 kind = "lemma"
 title = "Cocycle for strict-transform charts"
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.StrictTransformChart.comap_ker_strict\u03b9_fst_eq"]
 order = 163
 uses = ["def-nagata-strict-transform-chart-comparison-localized", "lemma-nagata-affine-blowup-restrict-cocycle", "lemma-nagata-strict-transform-chart-localization", "lemma-nagata-strict-transform-chart-localization-data"]
 +++

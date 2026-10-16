@@ -2,6 +2,7 @@
 id = "lem-trf-simple-constructible"
 kind = "lemma"
 title = "Simple constructible sheaves"
+lean = ["AlgebraicGeometry.Etale.exists_iso_openImmersionLowerShriek_lowerStar_of_simple", "AlgebraicGeometry.Etale.simple_openImmersionLowerShriek_lowerStar", "AlgebraicGeometry.Etale.exists_iso_lowerStar_fromSpecResidueField_of_simple", "AlgebraicGeometry.Etale.not_forall_prop_of_isLocallyConstantSheaf"]
 order = 2564
 +++
 Let $X$ be a Noetherian scheme and $\Lambda$ a finite ring. Every

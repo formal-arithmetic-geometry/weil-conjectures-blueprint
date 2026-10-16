@@ -2,6 +2,7 @@
 id = "lem-fin-noetherian-chow-modification"
 kind = "lemma"
 title = "A projective modification of a reduced proper scheme"
+lean = ["AlgebraicGeometry.exists_projective_modification"]
 order = 1967
 uses = ["cor-chow-lemma-proper", "def-pc-projective-morphism", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-chow-closed-model", "lem-chow-glue", "lem-chow-graph", "lem-chow-preimage", "lemma-nagata-dense-affine-cover-exists", "thm-chow-lemma"]
 +++

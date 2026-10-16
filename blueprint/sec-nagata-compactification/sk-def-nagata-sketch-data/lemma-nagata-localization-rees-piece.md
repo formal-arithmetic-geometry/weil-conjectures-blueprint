@@ -2,6 +2,7 @@
 id = "lemma-nagata-localization-rees-piece"
 kind = "lemma"
 title = "Localization of each Rees piece"
+lean = ["AlgebraicGeometry.reesGradingLocalizationEquiv"]
 order = 46
 uses = ["lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-piece-membership"]
 +++

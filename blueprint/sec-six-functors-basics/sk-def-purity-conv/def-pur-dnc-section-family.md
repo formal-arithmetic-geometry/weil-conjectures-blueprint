@@ -2,6 +2,7 @@
 id = "def-pur-dnc-section-family"
 kind = "definition"
 title = "Deformation space of a closed section"
+lean = ["AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData.familyObject"]
 order = 2242
 uses = ["def-pur-conventions", "def-pur-section-invariant", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties"]
 +++

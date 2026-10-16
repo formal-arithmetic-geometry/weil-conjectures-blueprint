@@ -2,6 +2,7 @@
 id = "lem-sc-base-change-curve"
 kind = "lemma"
 title = "Base change of a curve"
+lean = ["AlgebraicGeometry.IsConnectedCurve.baseChangeField_of_compactification", "AlgebraicGeometry.Scheme.Hom.baseChangeField_isCurve", "AlgebraicGeometry.IsConnectedCurve.baseChangeField"]
 order = 1037
 uses = ["def-sc-curves", "def-weil-pbc-scheme-conventions"]
 +++

@@ -2,6 +2,7 @@
 id = "thm-a1-curve-upper"
 kind = "theorem"
 title = "Compact-support upper bound on a curve"
+lean = ["AlgebraicGeometry.hasWeightsAtMostOver_compactlySupportedCohomology_of_isCurve"]
 order = 3172
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "prop-a1-middle-extension-curve-upper"]
 +++

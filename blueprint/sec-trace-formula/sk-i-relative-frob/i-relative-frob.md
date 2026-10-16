@@ -2,6 +2,7 @@
 id = "i-relative-frob"
 kind = "theorem"
 title = "Relative Frobenius"
+lean = ["AlgebraicGeometry.Scheme.Hom.IsFrobenius.isUniversalHomeomorphism", "AlgebraicGeometry.Scheme.Hom.IsFrobenius.isFinite", "AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.isUniversalHomeomorphism_frobeniusIterate", "AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.isFinite_frobeniusIterate"]
 order = 2706
 uses = ["d-relative-frob", "def-weil-scheme-morphism-properties"]
 tags = ["latex:proposition"]

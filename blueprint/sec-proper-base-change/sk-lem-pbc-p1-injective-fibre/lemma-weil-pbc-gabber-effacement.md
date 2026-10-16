@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-gabber-effacement"
 kind = "lemma"
 title = "Affine Gabber effacement"
+lean = ["AlgebraicGeometry.Etale.exists_mono_map_eq_zero_of_henselianRing"]
 order = 1189
 uses = ["lemma-weil-pbc-constructible-approximation", "lemma-weil-pbc-constructible-finite-pushforward", "lemma-weil-pbc-finite-cover-killing", "lemma-weil-pbc-pushout-monicity"]
 +++

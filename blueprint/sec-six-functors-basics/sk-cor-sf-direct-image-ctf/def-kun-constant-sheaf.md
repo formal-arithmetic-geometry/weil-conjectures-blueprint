@@ -2,6 +2,7 @@
 id = "def-kun-constant-sheaf"
 kind = "definition"
 title = "Constant sheaves and constant complexes"
+lean = ["AlgebraicGeometry.Etale.constantFunctor"]
 order = 2026
 uses = ["def-weil-pbc-etale-site"]
 +++

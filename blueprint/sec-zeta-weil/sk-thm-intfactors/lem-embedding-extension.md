@@ -2,6 +2,7 @@
 id = "lem-embedding-extension"
 kind = "lemma"
 title = "Extension of embeddings and intrinsic weights"
+lean = ["PadicAlgCl.exists_ringEquiv_complex_extend", "PadicAlgCl.exists_ringEquiv_complex_apply_eq", "PadicAlgCl.exists_ringHom_complex_apply_eq", "isWeilNumber_algEquiv_apply_iff", "PadicAlgCl.isWeilNumber_of_forall_ringEquiv"]
 order = 3247
 uses = ["def-weil-algebraic-closure-q", "def-weil-finite-field-fiber", "def-weil-numbers"]
 +++

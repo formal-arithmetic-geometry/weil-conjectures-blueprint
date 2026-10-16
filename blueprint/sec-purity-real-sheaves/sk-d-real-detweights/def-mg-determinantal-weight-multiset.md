@@ -2,6 +2,7 @@
 id = "def-mg-determinantal-weight-multiset"
 kind = "definition"
 title = "Determinantal-weight multiset"
+lean = ["AlgebraicGeometry.WeilGroup.detWeightMultiset"]
 order = 2980
 uses = ["def-mg-weil-semisimplification", "def-wf-determinantal-weight"]
 +++

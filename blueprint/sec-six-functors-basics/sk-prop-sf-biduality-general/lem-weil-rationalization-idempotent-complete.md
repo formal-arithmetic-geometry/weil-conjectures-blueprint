@@ -2,6 +2,7 @@
 id = "lem-weil-rationalization-idempotent-complete"
 kind = "lemma"
 title = "Idempotent completeness of the rationalized category"
+lean = ["AlgebraicGeometry.Etale.DerivedCategory.isIdempotentComplete_boundedConstructibleRational"]
 order = 2458
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-karoubi-envelope", "def-weil-rationalization-karoubi", "thm-weil-karoubian-bounded-t", "thm-weil-pbc-finite-stage-karoubian"]
 +++

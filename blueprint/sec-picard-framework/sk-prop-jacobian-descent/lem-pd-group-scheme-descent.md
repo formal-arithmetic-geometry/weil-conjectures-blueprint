@@ -2,6 +2,7 @@
 id = "lem-pd-group-scheme-descent"
 kind = "lemma"
 title = "The descended scheme is a group scheme"
+lean = ["CategoryTheory.Over.DescentDatum.existsUnique_grpObj_of_isPullback", "CategoryTheory.Over.DescentDatum.exists_commGrpObj_of_isPullback"]
 order = 872
 uses = ["def-pc-base-change", "def-pd-descent-datum", "def-sc-group-scheme", "lem-pd-morphisms-descend"]
 +++

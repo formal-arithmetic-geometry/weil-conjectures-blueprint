@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-finite-stage-killing"
 kind = "lemma"
 title = "Finite-stage killing of a class"
+lean = ["AlgebraicGeometry.Etale.exists_cohomologyMap_eq_zero_of_isLimit"]
 order = 1180
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-etale-cohomology-continuity"]
 +++

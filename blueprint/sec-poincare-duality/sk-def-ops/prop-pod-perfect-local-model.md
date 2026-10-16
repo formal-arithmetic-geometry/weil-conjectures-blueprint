@@ -2,6 +2,7 @@
 id = "prop-pod-perfect-local-model"
 kind = "theorem"
 title = "The local finite projective model"
+lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.constructibleTorAmplitudeIn_single_of_retract", "AlgebraicGeometry.ProEtale.DerivedCategory.constructibleFiniteTor_Q_obj_of_retract", "AlgebraicGeometry.ProEtale.DerivedCategory.constructibleFiniteTor_of_isDualizable"]
 order = 2753
 tags = ["latex:proposition"]
 uses = ["def-pod-conventions", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "thm-constructible-serre"]

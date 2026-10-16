@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-injective-restriction-acyclicity"
 kind = "lemma"
 title = "Injective restriction acyclicity bound"
+lean = ["AlgebraicGeometry.Etale.subsingleton_H_upperStar_of_injective_of_iSup_eq_top"]
 order = 1191
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-gabber-affine-comparison"]
 +++

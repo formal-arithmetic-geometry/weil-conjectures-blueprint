@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-smooth-curve-kummer-localization"
 kind = "lemma"
 title = "Smooth prime-to-characteristic curve calculation"
+lean = ["AlgebraicGeometry.IsCurve.assertions_constantModSheaf_of_ne_zero"]
 order = 1202
 uses = ["def-br", "def-weil-pbc-eight-curve-assertions"]
 +++

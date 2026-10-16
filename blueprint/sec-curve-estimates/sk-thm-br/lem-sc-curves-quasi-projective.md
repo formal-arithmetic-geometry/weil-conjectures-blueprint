@@ -2,6 +2,7 @@
 id = "lem-sc-curves-quasi-projective"
 kind = "lemma"
 title = "Curves are quasi-projective"
+lean = ["AlgebraicGeometry.IsCurve.isQuasiProjective"]
 order = 928
 uses = ["def-sc-curves", "def-sc-quasi-projective", "lem-chow-segre", "lem-sc-dim0-finite", "lem-sc-positive-degree-ample"]
 +++

@@ -2,6 +2,7 @@
 id = "def-wf-l2-norm"
 kind = "definition"
 title = "The $L^2$-weight parameter"
+lean = ["AlgebraicGeometry.WeilComplex.traceEnergy", "AlgebraicGeometry.WeilSheaf.l2Weight", "AlgebraicGeometry.WeilComplex.l2Weight"]
 order = 3101
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++

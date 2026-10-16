@@ -2,6 +2,7 @@
 id = "thm-weil-pbc-finite-level-proetale"
 kind = "theorem"
 title = "Finite-level pro-etale proper base change"
+lean = ["AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isProper"]
 order = 1385
 uses = ["def-weil-pbc-ambient-ringed-exchange", "def-weil-pbc-etale-origin-witness", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-transport-identifies-exchange", "thm-weil-pbc-bounded-below", "thm-weil-pbc-site-comparison"]
 +++

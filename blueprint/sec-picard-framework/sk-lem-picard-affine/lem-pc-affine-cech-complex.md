@@ -2,6 +2,7 @@
 id = "lem-pc-affine-cech-complex"
 kind = "lemma"
 title = "The Cech complex of a standard affine covering"
+lean = ["AlgebraicGeometry.Scheme.Modules.exactAt_cechComplex_basicOpen"]
 order = 613
 uses = ["def-pc-scheme", "lem-pc-cech-exact"]
 +++

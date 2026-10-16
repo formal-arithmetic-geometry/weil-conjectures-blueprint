@@ -2,6 +2,7 @@
 id = "lem-fin-generic-radicial-smoothing"
 kind = "lemma"
 title = "A smooth dense open after a finite radicial base change"
+lean = ["AlgebraicGeometry.exists_isFinite_universallyInjective_smooth_dense"]
 order = 1982
 uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions"]
 +++

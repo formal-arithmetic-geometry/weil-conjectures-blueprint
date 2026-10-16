@@ -2,6 +2,7 @@
 id = "def-pc-curve"
 kind = "definition"
 title = "Curves"
+lean = ["AlgebraicGeometry.IsVariety", "AlgebraicGeometry.IsIntegralCurve"]
 order = 459
 uses = ["def-pc-dimension", "def-pc-morphism-conventions", "def-pc-scheme", "def-sc-curves", "def-weil-pbc-scheme-conventions"]
 +++

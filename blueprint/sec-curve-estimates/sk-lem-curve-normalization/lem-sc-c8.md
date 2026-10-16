@@ -2,6 +2,7 @@
 id = "lem-sc-c8"
 kind = "lemma"
 title = "C8: surjectivity of the restriction map in degree two"
+lean = ["AlgebraicGeometry.IsCurve.surjective_cohomologyMap_constantModSheaf_two"]
 order = 1172
 uses = ["def-sc-curves", "def-weil-pbc-eight-curve-assertions", "def-weil-pbc-scheme-conventions", "lem-sc-affine-cohomological-dimension", "lem-sc-affine-open-proper", "lem-sc-compactification", "thm-sc-affine-cohomology"]
 +++

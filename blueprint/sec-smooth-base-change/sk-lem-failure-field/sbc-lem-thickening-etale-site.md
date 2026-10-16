@@ -2,6 +2,7 @@
 id = "sbc-lem-thickening-etale-site"
 kind = "lemma"
 title = "The etale site of a thickening"
+lean = ["AlgebraicGeometry.Etale.isEquivalence_upperStar_of_thickening"]
 order = 1447
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++

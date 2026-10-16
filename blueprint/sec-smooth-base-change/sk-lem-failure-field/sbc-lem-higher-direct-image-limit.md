@@ -2,6 +2,7 @@
 id = "sbc-lem-higher-direct-image-limit"
 kind = "lemma"
 title = "Higher direct images and limits of schemes"
+lean = ["AlgebraicGeometry.Etale.higherDirectImage_limit"]
 order = 1446
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-cohomology", "def-weil-pbc-scheme-conventions", "sbc-lem-higher-direct-image-presheaf"]
 +++

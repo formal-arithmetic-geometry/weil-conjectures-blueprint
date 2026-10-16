@@ -2,6 +2,7 @@
 id = "lem-wf-degree-component-image"
 kind = "lemma"
 title = "Matrix image of a degree component"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.image_degreeComponent_eq_closure"]
 order = 2849
 uses = ["def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-fundamental-representation", "def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-weil-fundamental-representation"]
 +++

@@ -2,6 +2,7 @@
 id = "prop-trf-compact-support-perfectness"
 kind = "theorem"
 title = "Compact-support perfectness"
+lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.nonempty_hasRightDual_rightDerivedLowerShriek"]
 order = 2174
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-scheme-morphism-properties", "lem-exc-residue-tor-test", "lem-fix-compact-support-coefficient-change", "lem-trf-finite-tor-amplitude-perfect", "prop-finite-compact-support-constructibility", "prop-weil-pbc-inverse-image-exact"]

@@ -2,6 +2,7 @@
 id = "lem-a1-finite-length"
 kind = "lemma"
 title = "Finite length of a lisse Weil sheaf on a curve"
+lean = ["AlgebraicGeometry.WeilSheaf.IsLisse.induction_on_shortExact"]
 order = 3136
 uses = ["def-weil-pbc-constructible-complexes", "def-wf-weil-category"]
 +++

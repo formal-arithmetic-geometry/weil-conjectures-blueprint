@@ -2,6 +2,7 @@
 id = "lem-kun-0f11"
 kind = "lemma"
 title = "Direct sums and finite cohomological dimension"
+lean = ["AlgebraicGeometry.Etale.preservesCoproducts_rightDerivedLowerStar", "AlgebraicGeometry.Etale.preservesCoproducts_rightDerivedGlobalSections"]
 order = 2078
 uses = ["def-kun-cd", "def-weil-pbc-derived-categories", "def-weil-pbc-hypercohomology-filtrations", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-hypercohomology-convergence"]
 +++

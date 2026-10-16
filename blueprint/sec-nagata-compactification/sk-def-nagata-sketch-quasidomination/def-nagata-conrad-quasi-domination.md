@@ -2,6 +2,7 @@
 id = "def-nagata-conrad-quasi-domination"
 kind = "definition"
 title = "Quasi-domination (Conrad)"
+lean = ["AlgebraicGeometry.QuasiDomination.Extends"]
 order = 186
 +++
 Let $X$ and $Y$ be $S$-schemes with $Y\to S$ separated. A

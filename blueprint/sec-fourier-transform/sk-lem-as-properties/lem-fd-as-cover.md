@@ -2,6 +2,7 @@
 id = "lem-fd-as-cover"
 kind = "lemma"
 title = "The Artin–Schreier covering"
+lean = ["AlgebraicGeometry.Etale.exists_eq_artinSchreierTranslation_of_comp_artinSchreierMap"]
 order = 3024
 uses = ["def-fd-artin-schreier-sheaf", "def-weil-pbc-etale-site"]
 +++

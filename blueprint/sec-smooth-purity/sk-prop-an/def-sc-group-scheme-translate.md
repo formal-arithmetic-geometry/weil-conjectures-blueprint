@@ -2,6 +2,7 @@
 id = "def-sc-group-scheme-translate"
 kind = "definition"
 title = "Translations and conjugation"
+lean = ["AlgebraicGeometry.GrpObj.mulRight", "AlgebraicGeometry.GrpObj.conjBy", "AlgebraicGeometry.GrpObj.translate"]
 order = 2308
 uses = ["def-sc-group-scheme", "def-sc-group-scheme-subgroup"]
 +++

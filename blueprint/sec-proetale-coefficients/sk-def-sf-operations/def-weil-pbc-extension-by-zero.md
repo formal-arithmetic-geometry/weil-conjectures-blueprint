@@ -2,6 +2,7 @@
 id = "def-weil-pbc-extension-by-zero"
 kind = "definition"
 title = "Extension by zero for open immersions"
+lean = ["AlgebraicGeometry.Etale.openImmersionLowerShriekCompUliftSheafFiberIso", "AlgebraicGeometry.Etale.isZero_uliftSheafFiber_openImmersionLowerShriek_obj"]
 order = 1238
 uses = ["def-cbc-open-immersion-square", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions"]
 +++

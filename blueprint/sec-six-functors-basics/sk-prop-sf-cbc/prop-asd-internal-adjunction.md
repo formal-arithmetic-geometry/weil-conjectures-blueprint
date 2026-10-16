@@ -2,6 +2,7 @@
 id = "prop-asd-internal-adjunction"
 kind = "theorem"
 title = "Internal ambient adjunction"
+lean = ["AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIsoOfFinite"]
 order = 1929
 tags = ["latex:proposition"]
 uses = ["def-amb-etale-compact-support", "def-asd-compactifiable", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-derived-categories", "lem-amb-proper-coproducts-projection", "thm-amb-etale-exceptional-adjoint"]

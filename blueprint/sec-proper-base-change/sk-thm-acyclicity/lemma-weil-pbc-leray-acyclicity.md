@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-leray-acyclicity"
 kind = "lemma"
 title = "Leray acyclicity criterion"
+lean = ["CategoryTheory.ShortComplex.ShortExact.exists_rightDerived_\u03b4_exact", "CategoryTheory.Functor.rightAcyclic_of_injective", "CategoryTheory.Functor.rightDerivedObjIsoOfResolution", "CategoryTheory.Functor.nonempty_homology_rightDerivedFunctorPlus_obj_Q_iso_of_quasiIso"]
 order = 1098
 uses = ["def-sp-acyclic", "def-sp-injective-resolutions", "def-sp-kinjective-bridge", "def-sp-left-exact-additive", "def-weil-pbc-direct-image", "def-weil-pbc-injective-acyclicity-property", "def-weil-pbc-kinjective-resolutions", "lem-sp-derived-well-defined", "lem-sp-kinjective-computes", "thm-sp-if-e1"]
 +++

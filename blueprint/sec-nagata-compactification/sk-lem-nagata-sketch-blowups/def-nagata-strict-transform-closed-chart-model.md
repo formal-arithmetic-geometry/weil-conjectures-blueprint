@@ -2,6 +2,7 @@
 id = "def-nagata-strict-transform-closed-chart-model"
 kind = "definition"
 title = "Closed chart model of the global strict transform"
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.StrictTransformChart", "AlgebraicGeometry.Scheme.IdealSheafData.StrictTransformChart.\u03b9", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransformChartModel", "AlgebraicGeometry.Scheme.IdealSheafData.comap_strictTransformChartModel"]
 order = 164
 uses = ["def-nagata-global-blowup", "def-nagata-strict-transform-chart-ring", "lemma-nagata-strict-transform-chart-localization-data"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-wf-additive-characters-h1"
 kind = "lemma"
 title = "Continuous $\\mathbf Z_\\ell$-characters are compatible finite-level classes"
+lean = ["PadicInt.continuousMonoidHomEquiv", "PadicInt.continuousMonoidHomEquiv_comp", "AlgebraicGeometry.Scheme.EtaleTorsor.continuousMonoidHomPadicEquiv", "AlgebraicGeometry.Scheme.EtaleTorsor.continuousMonoidHomPadicEquiv_comp"]
 order = 2963
 uses = ["def-weil-pbc-etale-cohomology", "def-wf-weil-group", "lem-wf-finite-constant-h1-pi1"]
 +++

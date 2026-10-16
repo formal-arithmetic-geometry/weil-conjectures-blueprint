@@ -2,6 +2,7 @@
 id = "pqf-lem-qf-finitefibres"
 kind = "lemma"
 title = "Quasi-finite = finite type + quasi-compact + finite fibres"
+lean = ["AlgebraicGeometry.locallyQuasiFinite_and_quasiCompact_iff_finite_preimage_singleton"]
 order = 535
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-quasifinite"]
 +++

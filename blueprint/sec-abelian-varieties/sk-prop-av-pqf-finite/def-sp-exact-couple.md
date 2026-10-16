@@ -2,6 +2,7 @@
 id = "def-sp-exact-couple"
 kind = "definition"
 title = "Bigraded exact couples"
+lean = ["CategoryTheory.ExactCouple", "CategoryTheory.ExactCouple.derived", "CategoryTheory.ExactCouple.spectralSequence"]
 order = 515
 uses = ["def-sp-abelian"]
 +++

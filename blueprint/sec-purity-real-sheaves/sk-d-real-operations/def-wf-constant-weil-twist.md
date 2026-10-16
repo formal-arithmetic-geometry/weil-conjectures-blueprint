@@ -2,6 +2,7 @@
 id = "def-wf-constant-weil-twist"
 kind = "definition"
 title = "Constant Weil twist"
+lean = ["AlgebraicGeometry.WeilSheaf.constantTwist", "AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalk_constantTwist"]
 order = 2931
 uses = ["def-wf-weil-category", "def-wf-weil-group"]
 +++

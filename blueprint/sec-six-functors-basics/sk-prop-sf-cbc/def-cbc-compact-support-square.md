@@ -2,6 +2,7 @@
 id = "def-cbc-compact-support-square"
 kind = "definition"
 title = "Compact-support base-change square"
+lean = ["AlgebraicGeometry.CompactSupportFormalism.shriekBaseChangeOfIsPullback"]
 order = 1886
 uses = ["def-weil-compactifications-refinements", "def-weil-pbc-cartesian-square", "def-weil-pbc-scheme-conventions", "thm-nagata-compactification"]
 +++

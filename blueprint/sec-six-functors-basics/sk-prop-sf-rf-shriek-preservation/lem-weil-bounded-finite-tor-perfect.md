@@ -2,6 +2,7 @@
 id = "lem-weil-bounded-finite-tor-perfect"
 kind = "lemma"
 title = "Bounded complexes of finite Tor amplitude are perfect"
+lean = ["AlgebraicGeometry.Etale.exists_dense_open_exactPairing"]
 order = 2412
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-site-perfect-complex"]
 +++

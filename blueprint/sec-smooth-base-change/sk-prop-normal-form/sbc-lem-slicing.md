@@ -2,6 +2,7 @@
 id = "sbc-lem-slicing"
 kind = "lemma"
 title = "Slicing a smooth morphism"
+lean = ["AlgebraicGeometry.Smooth.exists_etaleCover_factorization"]
 order = 1456
 uses = ["def-sbc-normal-dominant-galois", "def-sbc-smooth-morphisms"]
 +++

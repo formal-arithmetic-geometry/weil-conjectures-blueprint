@@ -2,6 +2,7 @@
 id = "thm-sf-identification"
 kind = "theorem"
 title = "The pairing is the duality isomorphism"
+lean = ["AlgebraicGeometry.Etale.isPerfectPairing_poincarePairing_of_isDetecting", "AlgebraicGeometry.Etale.isPerfectPairing_poincarePairing_of_hasProjectionFormula"]
 order = 2530
 uses = ["def-sf-cup", "def-sf-orientation", "def-sf-pairing", "def-sf-pf", "lem-sf-detection", "lem-sf-mate", "lem-sf-tensor-hom", "lem-sf-twist-interchange", "thm-sf-global-duality"]
 +++

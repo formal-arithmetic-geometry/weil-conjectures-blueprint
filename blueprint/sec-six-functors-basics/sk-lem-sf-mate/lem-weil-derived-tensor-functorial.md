@@ -2,6 +2,7 @@
 id = "lem-weil-derived-tensor-functorial"
 kind = "lemma"
 title = "Functoriality of the derived tensor product"
+lean = ["AlgebraicGeometry.ProEtale.derivedTensor_map_app_comp_map"]
 order = 2215
 uses = ["def-weil-derived-tensor", "def-weil-pbc-proetale-site", "lem-weil-derived-tensor-resolution-independent"]
 +++

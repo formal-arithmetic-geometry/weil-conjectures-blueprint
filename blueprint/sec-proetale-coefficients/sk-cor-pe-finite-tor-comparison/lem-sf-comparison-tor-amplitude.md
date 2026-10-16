@@ -2,6 +2,7 @@
 id = "lem-sf-comparison-tor-amplitude"
 kind = "lemma"
 title = "Finite Tor amplitude under the site comparison"
+lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.torAmplitudeIn_mapDerivedCategory", "AlgebraicGeometry.ProEtale.DerivedCategory.constructibleFiniteTor_mapDerivedCategory", "AlgebraicGeometry.ProEtale.DerivedCategory.torAmplitudeIn_of_mapDerivedCategory"]
 order = 2411
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-complexes", "def-weil-pbc-site-comparison-morphism", "lem-exc-constant-inverse-image-flat", "lem-sf-flat-model", "lem-sf-proetale-constructible-origin", "lem-sf-pullback-tor-amplitude", "prop-weil-pbc-proetale-constant-ring-map", "thm-weil-pbc-site-comparison"]
 +++

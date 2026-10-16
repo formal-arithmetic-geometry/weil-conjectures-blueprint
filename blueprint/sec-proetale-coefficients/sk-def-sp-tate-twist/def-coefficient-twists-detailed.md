@@ -2,6 +2,7 @@
 id = "def-coefficient-twists-detailed"
 kind = "definition"
 title = "Coefficient Tate twists"
+lean = ["AlgebraicGeometry.Etale.twistShiftObjIso", "AlgebraicGeometry.Etale.tateTwistObject", "AlgebraicGeometry.Etale.hasTateTwist", "AlgebraicGeometry.Etale.tateSheaf"]
 order = 1864
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-pc-flat-field"
 kind = "lemma"
 title = "Every morphism to a field is flat"
+lean = ["AlgebraicGeometry.Flat.of_field"]
 order = 732
 uses = ["def-pc-morphism-conventions"]
 +++

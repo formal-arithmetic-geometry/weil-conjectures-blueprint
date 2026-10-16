@@ -2,6 +2,7 @@
 id = "lem-finrepair-modification-c"
 kind = "lemma"
 title = "Proper modification transfer without an amplitude claim"
+lean = ["AlgebraicGeometry.Etale.HasConstructibleDirectImages.of_modification"]
 order = 1945
 uses = ["def-finrepair-property-c", "def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-extension-by-zero", "lem-finrepair-modification-extension-zero", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-geometric-stalk-conservative", "thm-constructible-serre"]
 +++

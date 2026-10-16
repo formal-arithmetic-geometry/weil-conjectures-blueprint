@@ -2,6 +2,7 @@
 id = "lem-wf-weil-group-exact-sequence"
 kind = "lemma"
 title = "Exactness of the Weil-group sequence"
+lean = ["MonoidHom.exact_weilGroupDeg"]
 order = 2876
 uses = ["def-tw-frobenius-action", "def-wf-fundamental-representation", "def-wf-weil-group"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-pc-finite-support-hi"
 kind = "lemma"
 title = "Finite support of higher direct images"
+lean = ["AlgebraicGeometry.Scheme.Modules.exists_isZero_higherDirectImage_of_isPullback"]
 order = 648
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-vanishing", "lem-pc-cech-computes"]
 +++

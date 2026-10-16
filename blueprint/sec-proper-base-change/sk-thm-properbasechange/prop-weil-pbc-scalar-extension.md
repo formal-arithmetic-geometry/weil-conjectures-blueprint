@@ -2,6 +2,7 @@
 id = "prop-weil-pbc-scalar-extension"
 kind = "theorem"
 title = "Compatibility with finite scalar extension"
+lean = ["CategoryTheory.StageSystem"]
 order = 1367
 uses = ["def-weil-pbc-rational-category"]
 tags = ["latex:proposition"]

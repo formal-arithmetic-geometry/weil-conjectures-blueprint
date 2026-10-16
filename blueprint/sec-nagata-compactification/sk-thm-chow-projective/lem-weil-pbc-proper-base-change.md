@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-proper-base-change"
 kind = "lemma"
 title = "Properness is stable under base change"
+lean = ["AlgebraicGeometry.IsProper.pullback_snd"]
 order = 912
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-sc-as-sequence"
 kind = "lemma"
 title = "The Artin–Schreier sequence"
+lean = ["AlgebraicGeometry.Scheme.subsingleton_sheafH_constantZMod_of_isAffine"]
 order = 988
 uses = ["def-sc-curves"]
 +++

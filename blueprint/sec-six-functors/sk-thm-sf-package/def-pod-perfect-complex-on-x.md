@@ -2,6 +2,7 @@
 id = "def-pod-perfect-complex-on-x"
 kind = "definition"
 title = "Perfect complex over the coefficient ring on $X$"
+lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.IsLocallyPerfect"]
 order = 2590
 uses = ["def-pod-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-geometric-hypotheses", "def-weil-pbc-proetale-site"]
 +++

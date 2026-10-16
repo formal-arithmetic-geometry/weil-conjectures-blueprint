@@ -2,6 +2,7 @@
 id = "def-sp-convergence"
 kind = "definition"
 title = "Convergence of a couple"
+lean = ["CategoryTheory.ExactCouple.IsRegular", "CategoryTheory.ExactCouple.IsComplete", "CategoryTheory.ExactCouple.ConvergenceData", "CategoryTheory.ExactCouple.ConvergesTo", "CategoryTheory.ExactCouple.abutmentConvergenceData", "CategoryTheory.ExactCouple.convergesTo_abutmentFiltration"]
 order = 516
 uses = ["def-sp-exact-couple", "def-sp-filtration"]
 +++

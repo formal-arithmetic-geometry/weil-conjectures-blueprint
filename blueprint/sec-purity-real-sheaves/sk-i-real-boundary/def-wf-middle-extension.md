@@ -2,6 +2,7 @@
 id = "def-wf-middle-extension"
 kind = "definition"
 title = "Middle extension on a curve"
+lean = ["AlgebraicGeometry.Etale.middleExtension"]
 order = 2987
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
 +++

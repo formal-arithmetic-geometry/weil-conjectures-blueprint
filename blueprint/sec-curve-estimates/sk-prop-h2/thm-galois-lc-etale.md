@@ -2,6 +2,7 @@
 id = "thm-galois-lc-etale"
 kind = "theorem"
 title = "Finite locally constant sheaves and finite etale schemes"
+lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_toSheafTorsor_equiv_of_iso"]
 order = 974
 uses = ["def-galois-categories", "def-weil-pbc-finite-torsors", "lem-fet-locally-trivial", "lem-galois-descent"]
 +++

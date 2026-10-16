@@ -2,6 +2,7 @@
 id = "def-tw-eigenvalue"
 kind = "definition"
 title = "Eigenvalues and q-adic absolute values"
+lean = ["AlgebraicGeometry.WeilGroup.IsOfWeight"]
 order = 2935
 uses = ["def-tw-conventions", "def-tw-frobenius-action"]
 +++

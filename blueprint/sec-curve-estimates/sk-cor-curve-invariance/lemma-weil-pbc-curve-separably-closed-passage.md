@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-curve-separably-closed-passage"
 kind = "lemma"
 title = "Passage between separably closed fields"
+lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isSepClosed_of_isAlgClosed"]
 order = 1204
 uses = ["lem-pc-homeo-pure-insep", "lem-pc-kbar-pure-insep", "lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence"]
 +++

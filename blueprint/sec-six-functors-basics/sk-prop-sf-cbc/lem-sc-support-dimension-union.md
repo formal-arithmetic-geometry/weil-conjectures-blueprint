@@ -2,6 +2,7 @@
 id = "lem-sc-support-dimension-union"
 kind = "lemma"
 title = "A sheaf supported in low dimension is a filtered union"
+lean = ["AlgebraicGeometry.Etale.exists_covering_supportedIn"]
 order = 1903
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-geometric-stalks-exact"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-sp-couple-morphism"
 kind = "lemma"
 title = "Morphisms of couples give morphisms of spectral sequences"
+lean = ["CategoryTheory.ExactCouple.Hom", "CategoryTheory.ExactCouple.Hom.spectralSequenceMap"]
 order = 519
 uses = ["def-sp-convergence", "def-sp-exact-couple", "def-sp-filtration", "thm-sp-half-plane-convergence"]
 +++

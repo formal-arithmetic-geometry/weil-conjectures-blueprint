@@ -2,6 +2,7 @@
 id = "def-sp-image-filtration"
 kind = "definition"
 title = "Image filtrations"
+lean = ["CategoryTheory.DecreasingFiltration.image"]
 order = 514
 uses = ["def-sp-abelian", "def-sp-filtration"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-pc-universal-adjoint-section"
 kind = "lemma"
 title = "The adjoint section of the normalized universal module"
+lean = ["AlgebraicGeometry.zeroLocus_directImageCounit_eq_of_iso", "AlgebraicGeometry.Scheme.Modules.nonempty_tensorObj_dual_pullback_pushforward_iso", "AlgebraicGeometry.isQuasicoherent_pushforward_dual_toModules", "AlgebraicGeometry.zeroLocus_adjointSection_eq_of_iso"]
 order = 836
 uses = ["def-pc-genus", "def-pc-hilb-functor", "def-pc-rational-point", "def-pc-separably-closed", "def-pc-zero-scheme", "def-sc-effective-cartier-divisor", "lem-pc-universal-divisor", "lem-pc-zero-scheme-recd"]
 +++

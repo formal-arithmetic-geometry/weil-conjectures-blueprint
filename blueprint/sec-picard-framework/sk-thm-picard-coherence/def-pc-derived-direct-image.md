@@ -2,6 +2,7 @@
 id = "def-pc-derived-direct-image"
 kind = "definition"
 title = "Derived direct image"
+lean = ["AlgebraicGeometry.Scheme.Modules.derivedPushforward"]
 order = 650
 uses = ["def-pc-derived-category", "def-pc-scheme"]
 +++

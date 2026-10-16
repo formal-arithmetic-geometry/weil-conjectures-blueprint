@@ -2,6 +2,7 @@
 id = "def-nagata-sheaf-rees-algebra"
 kind = "definition"
 title = "Sheaf Rees algebra"
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.reesData", "AlgebraicGeometry.Scheme.IdealSheafData.powMulMap", "AlgebraicGeometry.Scheme.IdealSheafData.reesMonomial_mul_reesMonomial"]
 order = 113
 uses = ["lemma-nagata-sheaf-ideal-powers-assoc"]
 +++

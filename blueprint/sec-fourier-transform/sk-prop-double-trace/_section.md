@@ -2,6 +2,7 @@
 id = "sk-prop-double-trace"
 kind = "corollary"
 title = "P10: trace-level Fourier inversion"
+lean = ["AlgebraicGeometry.WeilComplex.traceFunction_fourierTransform_inv_fourierTransform", "FiniteField.fourierTransform_inv_fourierTransform"]
 order = 3054
 uses = ["sk-lem-orthogonality", "sk-thm-fourier-trace-formula"]
 tags = ["sketch"]

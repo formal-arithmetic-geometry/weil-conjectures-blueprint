@@ -2,6 +2,7 @@
 id = "lem-weil-alternating-form-dimension"
 kind = "lemma"
 title = "Alternating-form dimension"
+lean = ["LinearMap.BilinForm.even_finrank_of_isAlt"]
 order = 3260
 +++
 Let $K$ be a field with $\operatorname{char}(K)\neq2$, $V$ a

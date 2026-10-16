@@ -2,6 +2,7 @@
 id = "lem-wf-finite-field-tate-no-fixed"
 kind = "lemma"
 title = "Arithmetic Frobenius has no fixed vector on the Jacobian Tate module"
+lean = ["AlgebraicGeometry.JacobianTorsionDatum.eq_zero_of_map_frobenius_eq_self", "AlgebraicGeometry.Scheme.Hom.eq_zero_of_mem_tateModule_pic_of_forall_frobenius"]
 order = 2966
 uses = ["d-ab-field", "def-sc-jacobian", "def-tate-module-abelian-group", "def-wf-abelian-tate-module", "lem-wf-geometric-jacobian-galois-action", "prop-av-tate-no-frobenius-fixed", "thm-av-final", "thm-pd-jacobian-general-field"]
 +++

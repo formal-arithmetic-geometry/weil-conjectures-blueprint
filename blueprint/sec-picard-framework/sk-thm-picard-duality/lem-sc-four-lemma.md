@@ -2,6 +2,7 @@
 id = "lem-sc-four-lemma"
 kind = "lemma"
 title = "The four lemma for exact hexagons"
+lean = ["AddMonoidHom.bijective_of_exact_hexagon"]
 order = 701
 +++
 Let

@@ -2,6 +2,7 @@
 id = "lem-fd-cohomology-affine-line-character"
 kind = "lemma"
 title = "Cohomology of an affine line with an exponential sheaf"
+lean = ["AlgebraicGeometry.WeilComplex.isZero_derivedLowerShriek_tensorLisse_artinSchreierOf_upperStar", "AlgebraicGeometry.Etale.cohomology_affineLine_artinSchreierSheafOf"]
 order = 3030
 uses = ["lem-fd-affine-line-constant-cohomology", "lem-fd-as-characters", "lem-fd-as-cover-affine-line", "lem-fd-as-lisse", "lem-fd-finite-pushforward-cohomology"]
 +++

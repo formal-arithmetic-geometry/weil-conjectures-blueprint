@@ -2,6 +2,7 @@
 id = "lem-pc-very-ample-descends"
 kind = "lemma"
 title = "Very ampleness descends along field extensions"
+lean = ["AlgebraicGeometry.IsVeryAmple.of_pullback"]
 order = 749
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-picard-presheaf", "def-sc-ample", "def-sc-invertible-module", "lem-pc-very-ample-ample", "lem-sc-flat-base-change-coherent"]
 +++

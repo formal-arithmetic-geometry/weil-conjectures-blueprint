@@ -2,6 +2,7 @@
 id = "lem-wf-tate-twist-compatibility"
 kind = "lemma"
 title = "Compatibility of the Tate twists"
+lean = ["AlgebraicGeometry.WeilSheaf.tateTwistSheafIso"]
 order = 2916
 uses = ["def-weil-pbc-proetale-site", "def-wf-tate-twist", "lem-wf-internal-hom-weil", "lem-wf-tensor-weil"]
 +++

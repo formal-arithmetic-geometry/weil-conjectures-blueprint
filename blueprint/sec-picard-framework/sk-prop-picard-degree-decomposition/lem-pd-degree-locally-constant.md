@@ -2,6 +2,7 @@
 id = "lem-pd-degree-locally-constant"
 kind = "lemma"
 title = "The fibrewise degree is a locally constant function, and is a base-change invariant"
+lean = ["AlgebraicGeometry.picardFibreDegree_eq_picardPresheafDegree", "AlgebraicGeometry.picardPresheafDegree_map", "AlgebraicGeometry.isLocallyConstant_picardPresheafDegree", "AlgebraicGeometry.picardPresheafDegree_mul_map_snd"]
 order = 848
 uses = ["def-pc-base-change", "def-pc-degree-line-bundle", "def-pc-euler-characteristic", "def-pd-fibrewise-degree", "def-sc-invertible-module", "def-pc-perfect-complex", "lem-pc-degree-base-change", "lem-pc-euler-additive", "lem-pc-flat-complex-derived-pullback", "lem-pc-rf-perfect-base-change", "thm-pc-semicontinuity-base-change"]
 +++

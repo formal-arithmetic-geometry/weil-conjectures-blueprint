@@ -2,6 +2,7 @@
 id = "lem-cbc-proetale-extension-zero"
 kind = "lemma"
 title = "Extension by zero on the pro-etale site"
+lean = ["AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalk_extensionByZero", "AlgebraicGeometry.ProEtale.nonempty_iso_mapDerivedCategory_upperStar_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.isZero_mapDerivedCategory_upperStar_openImmersionLowerShriek"]
 order = 1933
 uses = ["def-weil-extension-by-zero", "def-weil-pbc-derived-categories", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions"]
 +++

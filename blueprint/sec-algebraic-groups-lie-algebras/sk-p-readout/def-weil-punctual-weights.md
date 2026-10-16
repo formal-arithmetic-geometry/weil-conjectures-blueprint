@@ -2,6 +2,7 @@
 id = "def-weil-punctual-weights"
 kind = "definition"
 title = "Punctual weights"
+lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight"]
 order = 2898
 uses = ["def-weil-constructible-heart", "def-weil-finite-field-fiber", "def-weil-local-frobenius-trace", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "lem-weil-local-frobenius-conjugacy-class"]
 +++

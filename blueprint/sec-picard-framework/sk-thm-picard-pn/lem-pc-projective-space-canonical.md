@@ -2,6 +2,7 @@
 id = "lem-pc-projective-space-canonical"
 kind = "lemma"
 title = "The canonical sheaf of projective space"
+lean = ["AlgebraicGeometry.ProjectiveSpace.nonempty_H_canonicalModule_top_linearEquiv", "AlgebraicGeometry.ProjectiveSpace.isFiniteLocallyFreeOfRank_relativeDifferentials", "AlgebraicGeometry.ProjectiveSpace.canonicalModule", "AlgebraicGeometry.ProjectiveSpace.canonicalGenerator", "AlgebraicGeometry.ProjectiveSpace.isFreeGenerator_canonicalGenerator", "AlgebraicGeometry.ProjectiveSpace.map_canonicalGenerator_eq_transitionUnit_smul", "AlgebraicGeometry.ProjectiveSpace.canonicalModuleIsoTwist", "AlgebraicGeometry.ProjectiveSpace.canonicalModuleIsoTwist_hom_app", "AlgebraicGeometry.ProjectiveSpace.canonicalModuleIsoTwist_hom_app_smul"]
 order = 626
 uses = ["def-pc-proj", "def-pc-projective-space-twist", "def-sc-invertible-module", "lem-pc-projective-space-twist-cohomology"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-wf-point-count-linear-growth"
 kind = "lemma"
 title = "Linear growth of the point count on an affine curve"
+lean = ["AlgebraicGeometry.Scheme.Hom.exists_pointCount_le_mul_pow"]
 order = 2996
 uses = ["def-weil-pbc-scheme-conventions", "lem-zl-noether-normalization-dimension"]
 +++

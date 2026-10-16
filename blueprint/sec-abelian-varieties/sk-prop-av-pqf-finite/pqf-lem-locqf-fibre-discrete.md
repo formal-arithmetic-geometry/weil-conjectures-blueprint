@@ -2,6 +2,7 @@
 id = "pqf-lem-locqf-fibre-discrete"
 kind = "lemma"
 title = "Finite fibre over a point"
+lean = ["AlgebraicGeometry.Scheme.Hom.discreteTopology_fiber_and_quasiFiniteAt"]
 order = 554
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-quasifinite", "pqf-lem-qf-finitefibres"]
 +++

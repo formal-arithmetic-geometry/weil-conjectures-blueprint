@@ -2,6 +2,7 @@
 id = "lem-fd-realness-pushforward"
 kind = "lemma"
 title = "Reality survives the Fourier projection"
+lean = ["AlgebraicGeometry.WeilSheaf.isReal_higherLowerShriek_one", "AlgebraicGeometry.WeilSheaf.isReal_higherLowerShriek_snd_one"]
 order = 3117
 uses = ["cor-trf-point-counting", "def-fd-transform", "def-weil-constructible-heart", "def-wf-iota-real", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-trf-grothendieck-lefschetz-qbar"]
 +++

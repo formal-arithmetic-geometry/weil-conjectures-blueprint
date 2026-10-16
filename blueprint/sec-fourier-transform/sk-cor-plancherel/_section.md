@@ -2,6 +2,7 @@
 id = "sk-cor-plancherel"
 kind = "corollary"
 title = "P9: Plancherel"
+lean = ["FiniteField.sum_norm_sq_fourierTransform"]
 order = 3052
 uses = ["sk-lem-orthogonality", "sk-thm-fourier-trace-formula"]
 tags = ["sketch"]

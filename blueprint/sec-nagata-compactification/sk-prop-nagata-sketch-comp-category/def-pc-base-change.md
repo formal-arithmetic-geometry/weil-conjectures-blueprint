@@ -2,6 +2,7 @@
 id = "def-pc-base-change"
 kind = "definition"
 title = "Base change along $T$, geometric fibres"
+lean = ["AlgebraicGeometry.Scheme.baseChangeField"]
 order = 420
 uses = ["def-pc-morphism-conventions", "def-pc-scheme"]
 +++

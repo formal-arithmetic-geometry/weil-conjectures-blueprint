@@ -2,6 +2,7 @@
 id = "def-weil-rationalization-karoubi"
 kind = "definition"
 title = "Rationalization (scalar localization)"
+lean = ["AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructibleRational", "AlgebraicGeometry.Etale.derivedCompleteRationalScalarExtension"]
 order = 1819
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility"]
 +++

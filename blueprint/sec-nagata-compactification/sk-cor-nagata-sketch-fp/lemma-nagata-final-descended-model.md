@@ -2,6 +2,7 @@
 id = "lemma-nagata-final-descended-model"
 kind = "lemma"
 title = "Properties of the final descended model"
+lean = ["AlgebraicGeometry.descendedModel_spec"]
 order = 381
 uses = ["def-nagata-final-descended-model", "lemma-nagata-final-noetherian-base-system", "lemma-nagata-separated-eventually"]
 +++

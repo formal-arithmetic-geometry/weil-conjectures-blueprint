@@ -2,6 +2,7 @@
 id = "lem-fin-normalization-extension-finite"
 kind = "lemma"
 title = "Finiteness of normalization in a finite extension"
+lean = ["AlgebraicGeometry.Scheme.isFinite_fromNormalizationIn"]
 order = 1023
 uses = ["def-fin-normalization-extension", "def-weil-pbc-scheme-conventions"]
 +++

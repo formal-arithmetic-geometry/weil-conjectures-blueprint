@@ -2,6 +2,7 @@
 id = "def-kun-global-generated"
 kind = "definition"
 title = "Globally generated sheaves"
+lean = ["AlgebraicGeometry.Etale.IsGloballyGenerated"]
 order = 2037
 uses = ["def-kun-constant-sheaf", "def-weil-pbc-etale-sheaves"]
 +++

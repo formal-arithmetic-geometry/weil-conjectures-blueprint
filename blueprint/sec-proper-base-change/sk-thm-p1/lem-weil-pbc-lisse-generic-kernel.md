@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-lisse-generic-kernel"
 kind = "lemma"
 title = "A generic stalk detects kernels in a locally constant sheaf"
+lean = ["AlgebraicGeometry.Etale.mono_of_mono_sheafFiber_of_isLocallyConstantSheaf"]
 order = 1154
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-flat-lfp-open", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++

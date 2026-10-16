@@ -2,6 +2,7 @@
 id = "lem-kun-pullback-constant"
 kind = "lemma"
 title = "Inverse image of a constant sheaf"
+lean = ["AlgebraicGeometry.Etale.constantFunctorCompLeftDerivedUpperStarIso"]
 order = 2058
 uses = ["def-kun-constant-sheaf", "def-weil-pbc-geometric-stalks", "def-weil-pbc-inverse-image", "lem-kun-stalk-as-pullback", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++

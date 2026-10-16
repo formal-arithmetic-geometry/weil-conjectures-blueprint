@@ -2,6 +2,7 @@
 id = "lemma-nagata-strict-transform-chart-localization-data"
 kind = "lemma"
 title = "Localization data for strict-transform chart quotients"
+lean = ["AlgebraicGeometry.AffineBlowup.StrictChart.map_comp", "AlgebraicGeometry.AffineBlowup.StrictChart.isLocalization_away", "AlgebraicGeometry.AffineBlowup.strictChartLocalizationEquiv"]
 order = 162
 uses = ["def-nagata-strict-transform-chart-ring", "lemma-nagata-power-torsion-localization"]
 +++

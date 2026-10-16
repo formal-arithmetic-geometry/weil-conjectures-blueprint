@@ -2,6 +2,7 @@
 id = "lem-pur-etale-iso-descent"
 kind = "lemma"
 title = "Isomorphisms descend along etale surjections"
+lean = ["AlgebraicGeometry.Etale.isIso_of_isIso_leftDerivedUpperStar_map_of_surjective"]
 order = 2336
 uses = ["def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++

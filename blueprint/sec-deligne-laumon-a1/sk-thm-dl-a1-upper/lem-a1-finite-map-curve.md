@@ -2,6 +2,7 @@
 id = "lem-a1-finite-map-curve"
 kind = "lemma"
 title = "Finite map to the affine line"
+lean = ["Algebra.exists_finite_formallyUnramified_away", "AlgebraicGeometry.AffineSpace.exists_isFinite_etale_morphismRestrict", "AlgebraicGeometry.AffineSpace.exists_isFinite_etale_morphismRestrict_of_finite", "AlgebraicGeometry.AffineSpace.exists_isOpenImmersion_isFinite_etale_morphismRestrict"]
 order = 3139
 uses = ["def-sc-curves", "def-sc-genus", "def-weil-pbc-scheme-conventions", "lem-sc-compactification", "lem-sc-point-cartier", "lem-sc-riemann-roch", "lem-weil-pbc-finite-pullback-identities", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++

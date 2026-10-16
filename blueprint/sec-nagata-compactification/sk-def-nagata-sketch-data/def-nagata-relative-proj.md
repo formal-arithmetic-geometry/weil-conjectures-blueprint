@@ -2,6 +2,7 @@
 id = "def-nagata-relative-proj"
 kind = "definition"
 title = "Relative Proj"
+lean = ["AlgebraicGeometry.Scheme.GradedAlgebraData.relProj", "AlgebraicGeometry.Scheme.GradedAlgebraData.relProjHom", "AlgebraicGeometry.Scheme.GradedAlgebraData.relProj\u03b9"]
 order = 20
 uses = ["def-nagata-affine-proj"]
 +++

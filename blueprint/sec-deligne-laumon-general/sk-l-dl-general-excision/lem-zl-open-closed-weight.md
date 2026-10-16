@@ -2,6 +2,7 @@
 id = "lem-zl-open-closed-weight"
 kind = "lemma"
 title = "Open–closed weight devissage"
+lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.of_openClosed"]
 order = 3159
 uses = ["def-weil-complex-weights", "def-weil-open-closed-recollement", "lem-zl-complex-extension", "lem-zl-finite-pushforward", "prop-sf-open-closed-triangle-all-stages"]
 +++

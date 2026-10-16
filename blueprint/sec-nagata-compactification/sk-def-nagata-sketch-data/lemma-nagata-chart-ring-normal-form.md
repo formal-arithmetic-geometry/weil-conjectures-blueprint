@@ -2,6 +2,7 @@
 id = "lemma-nagata-chart-ring-normal-form"
 kind = "lemma"
 title = "Normal form in a chart algebra"
+lean = ["AlgebraicGeometry.AffineBlowup.mem_chartRing_iff"]
 order = 35
 uses = ["def-nagata-blowup-chart-ring"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-sf-fullcd-class-restriction"
 kind = "lemma"
 title = "The coefficient class is stable under restriction to a pro-étale base change"
+lean = ["AlgebraicGeometry.ProEtale.etaleOrigin_upperStar_obj"]
 order = 2144
 uses = ["def-sf-fullcd-used-class", "def-weil-pbc-etale-sheaves", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-pullback"]
 +++

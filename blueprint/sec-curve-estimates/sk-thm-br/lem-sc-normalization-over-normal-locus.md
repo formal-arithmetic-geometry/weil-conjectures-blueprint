@@ -2,6 +2,7 @@
 id = "lem-sc-normalization-over-normal-locus"
 kind = "lemma"
 title = "The normalization over the normal locus"
+lean = ["AlgebraicGeometry.Scheme.isIso_fromNormalization_restrict"]
 order = 922
 uses = ["def-sc-normalization"]
 +++

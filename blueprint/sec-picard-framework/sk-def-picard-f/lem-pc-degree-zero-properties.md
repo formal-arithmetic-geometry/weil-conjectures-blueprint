@@ -2,6 +2,7 @@
 id = "lem-pc-degree-zero-properties"
 kind = "lemma"
 title = "Cohomology of a module in degree zero"
+lean = ["DerivedCategory.isZero_homologyFunctor_obj_of_iso_singleFunctor", "DerivedCategory.homologyFunctorObjIsoOfIsoSingleFunctor"]
 order = 826
 uses = ["def-pc-derived-category", "def-pc-finite-locally-free", "def-sc-invertible-module"]
 +++

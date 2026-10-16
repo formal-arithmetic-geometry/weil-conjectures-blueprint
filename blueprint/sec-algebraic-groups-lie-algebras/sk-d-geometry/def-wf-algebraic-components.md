@@ -2,6 +2,7 @@
 id = "def-wf-algebraic-components"
 kind = "definition"
 title = "Identity component and component group"
+lean = ["Matrix.GeneralLinearGroup.identityComponentSubgroup"]
 order = 2823
 uses = ["def-wf-geometric-monodromy-group"]
 +++

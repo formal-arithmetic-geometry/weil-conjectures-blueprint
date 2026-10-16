@@ -2,6 +2,7 @@
 id = "def-weil-finite-coefficient-point"
 kind = "definition"
 title = "Finite coefficient categories over a point"
+lean = ["AlgebraicGeometry.ProEtale.geometricStalk"]
 order = 1868
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility"]
 +++

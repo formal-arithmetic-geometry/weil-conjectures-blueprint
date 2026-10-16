@@ -2,6 +2,7 @@
 id = "lem-mg-exterior-direct-sum"
 kind = "lemma"
 title = "Exterior power of a direct sum"
+lean = ["Representation.exteriorPowerProdEquiv", "Representation.exteriorPowerDirectSumEquiv"]
 order = 2891
 uses = ["def-wf-weil-category"]
 +++

@@ -2,6 +2,7 @@
 id = "def-sp-double-complex-total"
 kind = "definition"
 title = "First-quadrant double complexes, total complex and the two filtrations"
+lean = ["HomologicalComplex\u2082.columnFiltration"]
 order = 522
 uses = ["def-sp-abelian", "def-sp-filtration"]
 +++

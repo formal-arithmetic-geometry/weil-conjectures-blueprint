@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-curve-locally-constant-reduction"
 kind = "lemma"
 title = "Locally constant sheaf reduction"
+lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.exists_finite_etale_reduction"]
 order = 1201
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-exchange", "lemma-weil-pbc-finite-l-group-filtration", "lemma-weil-pbc-finite-stalk-formula", "thm-galois-lc-etale"]
 +++

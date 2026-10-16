@@ -2,6 +2,7 @@
 id = "lem-pc-genus-base-change"
 kind = "lemma"
 title = "The genus is invariant under base change"
+lean = ["AlgebraicGeometry.Scheme.arithmeticGenus_pullback"]
 order = 744
 uses = ["def-pc-base-change", "def-pc-smooth-projective-curve", "def-sc-curves", "lem-pc-proper-base-change", "lem-sc-flat-base-change-coherent"]
 +++

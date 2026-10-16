@@ -2,6 +2,7 @@
 id = "def-sc-divisor"
 kind = "definition"
 title = "Divisors, principal divisors, class group"
+lean = ["AlgebraicGeometry.Scheme.Divisor.toPic", "AlgebraicGeometry.Scheme.Divisor", "AlgebraicGeometry.Scheme.Divisor.degree", "AlgebraicGeometry.Scheme.div", "AlgebraicGeometry.Scheme.principalDivisors", "AlgebraicGeometry.Scheme.DivisorClassGroup"]
 order = 454
 uses = ["def-sc-curves", "def-sc-function-field"]
 +++

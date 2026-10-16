@@ -2,6 +2,7 @@
 id = "lem-sc-finite-extension-affine-model"
 kind = "lemma"
 title = "An affine curve model for a finite extension"
+lean = ["AlgebraicGeometry.IsConnectedCurve.normalizationIn"]
 order = 1024
 uses = ["def-fin-normalization-extension", "def-sc-curves", "def-sc-function-field", "def-weil-pbc-scheme-conventions", "lem-fin-normalization-extension-finite", "lem-sc-normal-dim1-dvr"]
 +++

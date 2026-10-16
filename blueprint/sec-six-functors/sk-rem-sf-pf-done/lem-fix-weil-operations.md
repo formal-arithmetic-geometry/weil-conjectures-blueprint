@@ -2,6 +2,7 @@
 id = "lem-fix-weil-operations"
 kind = "lemma"
 title = "Weil structures on operations and their basic maps"
+lean = ["AlgebraicGeometry.Etale.isWeilPairing_mixedSupportCupProduct"]
 order = 2452
 uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-frobenius-detailed", "def-weil-weil-sheaf-complex", "fix-lem-exchanges", "fix-prop-adjunctions"]
 +++

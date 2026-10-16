@@ -2,6 +2,7 @@
 id = "prop-cohomological-finiteness"
 kind = "theorem"
 title = "Compact-support finiteness and Frobenius"
+lean = ["AlgebraicGeometry.WeilComplex.exists_subsingleton_compactlySupportedCohomology", "AlgebraicGeometry.WeilComplex.exists_subsingleton_cohomology", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_adicConstant", "AlgebraicGeometry.WeilSheaf.finrank_cohomology_zero_adicConstant", "AlgebraicGeometry.WeilSheaf.frobenius_cohomology_zero_adicConstant", "AlgebraicGeometry.WeilComplex.nonempty_equiv_compactlySupportedCohomology_cohomology", "AlgebraicGeometry.WeilSheaf.subsingleton_cohomology_adicConstant_of_isProper", "AlgebraicGeometry.WeilSheaf.exists_linearEquiv_cohomology_zero_adicConstant", "AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_cohomology"]
 order = 2775
 tags = ["latex:proposition"]
 uses = ["cor-galois-lisse-representations", "cor-weil-pbc-geometric-fiber-finite", "def-weil-derived-complete-integral-detailed", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "fin4-lem-fibrewise-cohomological-dimension", "prop-finite-compact-support-constructibility", "sbc-thm-finiteness-finite-type", "thm-galois-fundamental"]

@@ -2,6 +2,7 @@
 id = "sbc-lem-identity-and-base-change-composition"
 kind = "lemma"
 title = "Identity and base-change composition"
+lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_id"]
 order = 1431
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "lem-weil-pbc-exchange-identity-pasting"]
 +++

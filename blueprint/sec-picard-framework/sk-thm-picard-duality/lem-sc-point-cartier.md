@@ -2,6 +2,7 @@
 id = "lem-sc-point-cartier"
 kind = "lemma"
 title = "Closed points are Cartier divisors on smooth curves"
+lean = ["AlgebraicGeometry.Scheme.Hom.isInvertible_ker_fieldPoints", "AlgebraicGeometry.Scheme.isInvertible_vanishingIdeal_of_isClosed", "AlgebraicGeometry.Scheme.Divisor.isInvertible_idealSheaf", "AlgebraicGeometry.Scheme.Divisor.isInvertible_prod_vanishingIdeal_pow", "AlgebraicGeometry.Scheme.Hom.isInvertible_ker_of_smoothOfRelativeDimension_one"]
 order = 700
 uses = ["def-sc-curves", "def-sc-divisor", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++

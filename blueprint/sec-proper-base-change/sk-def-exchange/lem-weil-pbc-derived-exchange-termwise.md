@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-derived-exchange-termwise"
 kind = "lemma"
 title = "The termwise construction of the derived exchange morphism"
+lean = ["AlgebraicGeometry.Etale.existsUnique_derivedBaseChangeMapPlus_comparison", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_eq_termwise"]
 order = 1069
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-kinjective-resolutions", "def-weil-pbc-underived-exchange", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++

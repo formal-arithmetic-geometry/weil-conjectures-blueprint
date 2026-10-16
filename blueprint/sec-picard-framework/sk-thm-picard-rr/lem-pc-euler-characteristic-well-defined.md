@@ -2,6 +2,7 @@
 id = "lem-pc-euler-characteristic-well-defined"
 kind = "lemma"
 title = "Well-definedness of the Euler characteristic"
+lean = ["AlgebraicGeometry.Scheme.Modules.finite_setOf_nontrivial_H_of_isProper", "AlgebraicGeometry.Scheme.Modules.finite_support_finrankH_of_isProper"]
 order = 741
 uses = ["def-pc-morphism-conventions", "lem-pc-coherent-hi", "lem-pc-curve-coherent-finiteness"]
 +++

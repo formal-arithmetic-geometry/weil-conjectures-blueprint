@@ -2,6 +2,7 @@
 id = "def-exc-ind-etale-closed-lift"
 kind = "definition"
 title = "The ind-etale lift along a closed subscheme"
+lean = ["Algebra.ClosedLift.Index", "Algebra.ClosedLift", "Algebra.ClosedLift.toAlgHom", "Algebra.ClosedLift.reduction"]
 order = 2182
 uses = ["def-weil-pbc-ind-etale-algebra"]
 +++

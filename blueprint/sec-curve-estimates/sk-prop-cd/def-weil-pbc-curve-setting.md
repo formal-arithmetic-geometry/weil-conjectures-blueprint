@@ -2,6 +2,7 @@
 id = "def-weil-pbc-curve-setting"
 kind = "definition"
 title = "The curve setting of the eight assertions"
+lean = ["AlgebraicGeometry.CurveCoefficientPair"]
 order = 1009
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++

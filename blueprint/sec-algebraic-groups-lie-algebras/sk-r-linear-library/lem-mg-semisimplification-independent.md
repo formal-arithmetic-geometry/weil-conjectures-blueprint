@@ -2,6 +2,7 @@
 id = "lem-mg-semisimplification-independent"
 kind = "lemma"
 title = "Semisimplification is independent of the composition series"
+lean = ["Representation.CompositionSeries.nonempty_semisimplification_equiv"]
 order = 2887
 uses = ["def-mg-weil-composition-series", "def-mg-weil-semisimplification", "lem-mg-jordan-holder"]
 +++

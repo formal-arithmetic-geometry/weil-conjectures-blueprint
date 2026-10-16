@@ -2,6 +2,7 @@
 id = "prop-nagata-compactification-category"
 kind = "theorem"
 title = "The compactification category is nonempty, cofiltered, and base-changes"
+lean = ["AlgebraicGeometry.Compactification.infBaseChange", "AlgebraicGeometry.Compactification.isIso_infBaseChange_hom"]
 order = 424
 tags = ["latex:proposition"]
 uses = ["def-nagata-compactification", "def-nagata-compactification-base-change", "def-nagata-dense-compactification", "def-nagata-immersion-compactification", "def-nagata-scheme-theoretic-image", "lemma-nagata-compactification-base-change", "lemma-nagata-dense-flat-pullback", "lemma-nagata-immersion-into-proper", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-proper-to-separated-target", "lemma-nagata-scheme-image-universal", "thm-nagata-compactification"]

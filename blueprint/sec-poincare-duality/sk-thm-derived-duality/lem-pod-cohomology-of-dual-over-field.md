@@ -2,6 +2,7 @@
 id = "lem-pod-cohomology-of-dual-over-field"
 kind = "lemma"
 title = "Cohomology of the dual of a finite complex over a field"
+lean = ["DerivedCategory.nonempty_iso_homology_ihom"]
 order = 2783
 uses = ["def-pod-perfect-point-complex", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "prop-pod-biduality-at-the-point"]
 +++

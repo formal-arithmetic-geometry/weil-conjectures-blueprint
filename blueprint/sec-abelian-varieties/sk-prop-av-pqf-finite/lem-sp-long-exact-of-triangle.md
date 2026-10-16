@@ -2,6 +2,7 @@
 id = "lem-sp-long-exact-of-triangle"
 kind = "lemma"
 title = "Long exact sequences of distinguished triangles"
+lean = ["AlgebraicGeometry.WeilComplex.homologySheaf_exact\u2082"]
 order = 511
 uses = ["def-sp-abelian", "def-sp-homological-functor"]
 +++

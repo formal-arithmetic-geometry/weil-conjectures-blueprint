@@ -2,6 +2,7 @@
 id = "lem-pc-smooth-flat"
 kind = "lemma"
 title = "Smooth morphisms are flat"
+lean = ["AlgebraicGeometry.Smooth.flat_and_locallyOfFinitePresentation"]
 order = 829
 uses = ["def-pc-morphism-conventions", "def-weil-scheme-morphism-properties", "lem-pc-smooth-characterization"]
 +++

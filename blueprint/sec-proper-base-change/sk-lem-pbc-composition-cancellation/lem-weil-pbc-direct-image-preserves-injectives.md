@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-direct-image-preserves-injectives"
 kind = "lemma"
 title = "Direct image preserves injectives"
+lean = ["AlgebraicGeometry.Etale.preservesInjectiveObjects_lowerStar"]
 order = 1252
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "lem-sp-right-adjoint-preserves-injectives"]
 +++

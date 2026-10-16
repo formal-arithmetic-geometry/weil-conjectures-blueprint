@@ -2,6 +2,7 @@
 id = "def-nagata-strict-transform-chart-comparison-localized"
 kind = "definition"
 title = "Localized strict-transform chart comparison"
+lean = ["AlgebraicGeometry.AffineBlowup.strictChartComparisonAway"]
 order = 160
 uses = ["def-nagata-strict-transform-chart-comparison"]
 +++

@@ -2,6 +2,7 @@
 id = "lem-fin-symmetric-product-finite"
 kind = "lemma"
 title = "A finite symmetric-product cover over a Noetherian base"
+lean = ["AlgebraicGeometry.ProjectiveSpace.isFinite_and_surjective_symmetricProduct"]
 order = 1947
 uses = ["def-pc-projective-morphism", "def-weil-pbc-scheme-conventions", "def-weil-pbc-symmetric-product-morphism", "lem-chow-segre", "lem-fin-projective-finite-fibres", "lem-weil-pbc-symmetric-product-properties"]
 +++

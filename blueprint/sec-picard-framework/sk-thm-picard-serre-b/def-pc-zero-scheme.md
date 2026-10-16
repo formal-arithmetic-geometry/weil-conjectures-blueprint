@@ -2,6 +2,7 @@
 id = "def-pc-zero-scheme"
 kind = "definition"
 title = "The zero scheme of a section"
+lean = ["AlgebraicGeometry.Scheme.Modules.Hom.imageSubobject_dualMap_comp_dualUnitIso", "AlgebraicGeometry.Scheme.Modules.Hom.zeroLocus"]
 order = 630
 uses = ["def-pc-scheme", "def-sc-invertible-module"]
 +++

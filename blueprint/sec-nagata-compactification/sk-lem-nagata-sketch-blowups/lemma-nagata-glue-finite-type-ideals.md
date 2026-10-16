@@ -2,6 +2,7 @@
 id = "lemma-nagata-glue-finite-type-ideals"
 kind = "lemma"
 title = "Gluing compatible finite-type ideals on two qc opens"
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_ofFiniteTypeOn_sup_comap_eq"]
 order = 173
 +++
 Let $U,W\subseteq X$ be quasi-compact opens of a qcqs scheme. If

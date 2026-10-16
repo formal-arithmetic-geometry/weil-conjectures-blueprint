@@ -2,6 +2,7 @@
 id = "lem-pc-sigma-k-points"
 kind = "lemma"
 title = "$\\operatorname{Pic}_{X/k,\\sigma}$ at $T=\\operatorname{Spec}(k)$"
+lean = ["AlgebraicGeometry.nonempty_picardFunctorNormalized_obj_equiv_pic", "AlgebraicGeometry.picardFunctorNormalizedObjEquivPic"]
 order = 813
 uses = ["def-pc-base-change", "def-sc-picard-group", "lem-pc-pic-of-field"]
 +++

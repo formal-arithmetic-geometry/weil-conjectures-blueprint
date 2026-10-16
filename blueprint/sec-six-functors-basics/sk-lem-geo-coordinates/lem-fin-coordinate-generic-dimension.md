@@ -2,6 +2,7 @@
 id = "lem-fin-coordinate-generic-dimension"
 kind = "lemma"
 title = "Coordinate projections lower generic dimension"
+lean = ["AlgebraicGeometry.topologicalKrullDim_fiber_genericPoint_add_one_le"]
 order = 1980
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

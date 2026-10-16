@@ -2,6 +2,7 @@
 id = "prop-weil-pbc-p1-acyclicity"
 kind = "theorem"
 title = "Acyclicity on the closed projective line"
+lean = ["AlgebraicGeometry.Etale.subsingleton_H_projectiveLine_closedFibre_of_injective_of_one_lt", "AlgebraicGeometry.Etale.subsingleton_H_projectiveLine_closedFibre_of_injective"]
 order = 1196
 uses = ["def-weil-pbc-strict-henselian-setup", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-exchange", "lemma-weil-pbc-h1-constructible-representation", "lemma-weil-pbc-h1-torsor-comparison", "lemma-weil-pbc-injective-restriction-acyclicity"]
 tags = ["latex:proposition"]

@@ -2,6 +2,7 @@
 id = "def-pd-descent-datum"
 kind = "definition"
 title = "Descent datum for a scheme along a morphism"
+lean = ["CategoryTheory.Over.DescentDatum", "CategoryTheory.Over.DescentDatum.IsEffective"]
 order = 865
 uses = ["def-pc-base-change", "def-pc-morphism-conventions"]
 +++

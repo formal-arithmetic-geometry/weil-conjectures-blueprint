@@ -2,6 +2,7 @@
 id = "def-wf-l2-series"
 kind = "definition"
 title = "The $L^2$-series"
+lean = ["AlgebraicGeometry.WeilSheaf.l2Series"]
 order = 3102
 uses = ["def-wf-l2-norm"]
 +++

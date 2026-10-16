@@ -2,6 +2,7 @@
 id = "thm-sc-proper-cohomology"
 kind = "theorem"
 title = "Kummer computation on a proper curve"
+lean = ["AlgebraicGeometry.IsConnectedCurve.sheafH_constantZMod_of_isProper"]
 order = 1032
 uses = ["def-sc-curves", "def-sc-kummer-sequence", "def-sc-mu-trivialization", "lem-sc-cohomological-dimension", "lem-sc-kummer-les", "lem-sc-pic-proper-ntorsion", "lem-sc-primitive-root"]
 +++

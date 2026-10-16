@@ -2,6 +2,7 @@
 id = "def-nagata-blowup-chart-ring"
 kind = "definition"
 title = "Affine blow-up chart algebra"
+lean = ["AlgebraicGeometry.AffineBlowup.chartRing"]
 order = 34
 +++
 Let $a\in I$. Define $A[I/a]$ to be the $A$-subalgebra of $A_a$

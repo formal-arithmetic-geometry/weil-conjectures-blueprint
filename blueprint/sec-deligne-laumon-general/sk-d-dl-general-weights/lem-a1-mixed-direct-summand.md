@@ -2,6 +2,7 @@
 id = "lem-a1-mixed-direct-summand"
 kind = "lemma"
 title = "Mixedness passes to subobjects, quotients, extensions and direct summands"
+lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_shortExact", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_retract", "FrobeniusModule.HasWeightsAtMost.of_injective", "FrobeniusModule.HasWeightsAtMost.of_surjective", "FrobeniusModule.HasWeightsAtMost.of_exact"]
 order = 3155
 uses = ["def-weil-constructible-heart", "def-weil-frobenius-module-weights", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-a1-extension-bounds", "lem-a1-subquotient-extension-bounds"]
 +++

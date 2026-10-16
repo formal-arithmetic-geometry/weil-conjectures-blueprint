@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-constructible-subobjects-noetherian"
 kind = "lemma"
 title = "Subsheaves of a constructible sheaf on a Noetherian scheme"
+lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.of_mono"]
 order = 1161
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-etale-site", "lem-weil-pbc-flat-lfp-open", "lem-weil-pbc-noetherian-finite-components", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++

@@ -2,6 +2,7 @@
 id = "def-coef-normalized-dvr-tower"
 kind = "definition"
 title = "A normalized DVR tower"
+lean = ["AlgebraicGeometry.Etale.NormalizedTower"]
 order = 2475
 uses = ["def-weil-completed-integral-coefficients", "def-weil-pbc-derived-inverse-limit"]
 +++

@@ -2,6 +2,7 @@
 id = "thm-pd-fpqc-local-properties"
 kind = "theorem"
 title = "Properties of morphisms are local in the fpqc topology on the target"
+lean = ["AlgebraicGeometry.of_isPullback_Spec_map_algebraMap", "AlgebraicGeometry.connectedSpace_of_isPullback_Spec_map_algebraMap", "AlgebraicGeometry.isProper_smoothOfRelativeDimension_geometricallyIntegral_of_isPullback_aux", "AlgebraicGeometry.isProper_smoothOfRelativeDimension_geometricallyIntegral_of_isPullback", "AlgebraicGeometry.locallyOfFiniteType_quasiCompact_smooth_isProper_connectedSpace_of_isPullback"]
 order = 873
 uses = ["def-pc-base-change", "def-pc-finite-locally-free", "def-pc-morphism-conventions"]
 +++

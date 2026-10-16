@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-symmetric-product-finite"
 kind = "lemma"
 title = "Finiteness of the symmetric-product morphism"
+lean = ["AlgebraicGeometry.ProjectiveSpace.isFinite_symmetricProduct"]
 order = 1268
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-symmetric-product-properties"]
 +++

@@ -2,6 +2,7 @@
 id = "def-pc-projective-space-twist"
 kind = "definition"
 title = "Twists on projective space over a ring"
+lean = ["AlgebraicGeometry.ProjectiveSpace.map_twistGenerator_eq_transitionUnit_smul", "AlgebraicGeometry.ProjectiveSpace.twistGenerator", "AlgebraicGeometry.ProjectiveSpace.transitionUnit", "AlgebraicGeometry.ProjectiveSpace.coordinateSection"]
 order = 620
 uses = ["def-pc-proj", "def-sc-invertible-module", "def-sc-p1-standard", "pqf-def-coherent"]
 +++

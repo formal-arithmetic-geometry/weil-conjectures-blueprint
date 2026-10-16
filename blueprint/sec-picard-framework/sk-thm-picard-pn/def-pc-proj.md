@@ -2,6 +2,7 @@
 id = "def-pc-proj"
 kind = "definition"
 title = "Projective spectrum and its standard opens"
+lean = ["AlgebraicGeometry.Proj.isAffineOpen_basicOpen_and_nonempty_iso"]
 order = 619
 +++
 For a nonnegatively graded commutative ring $S$, the scheme

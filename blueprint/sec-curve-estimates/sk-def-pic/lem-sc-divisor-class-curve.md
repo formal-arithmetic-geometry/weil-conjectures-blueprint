@@ -2,6 +2,7 @@
 id = "lem-sc-divisor-class-curve"
 kind = "lemma"
 title = "$\\operatorname{Pic}$ is the divisor class group for smooth curves"
+lean = ["AlgebraicGeometry.Scheme.exists_divisorClassGroup_addEquiv_pic"]
 order = 893
 uses = ["def-sc-curves", "def-sc-function-field", "def-sc-picard-group", "lem-sc-line-bundle-rational-section", "lem-sc-pic-group"]
 +++

@@ -2,6 +2,7 @@
 id = "def-sc-zariski-site"
 kind = "definition"
 title = "The small Zariski site"
+lean = ["AlgebraicGeometry.Scheme.smallZariskiTopology"]
 order = 1905
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

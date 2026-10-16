@@ -2,6 +2,7 @@
 id = "def-pc-perfect-complex"
 kind = "definition"
 title = "Perfect complexes"
+lean = ["AlgebraicGeometry.Scheme.Modules.IsPerfectComplex"]
 order = 670
 uses = ["def-pc-derived-category", "def-sc-invertible-module"]
 +++

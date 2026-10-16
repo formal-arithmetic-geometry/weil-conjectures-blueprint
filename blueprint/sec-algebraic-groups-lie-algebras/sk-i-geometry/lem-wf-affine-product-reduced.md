@@ -2,6 +2,7 @@
 id = "lem-wf-affine-product-reduced"
 kind = "lemma"
 title = "Products of reduced affine varieties are reduced"
+lean = ["Algebra.TensorProduct.eq_zero_of_forall_lift_algHom_eq_zero"]
 order = 2832
 uses = ["lem-wf-affine-nullstellensatz-vanishing"]
 +++

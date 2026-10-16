@@ -2,6 +2,7 @@
 id = "def-wf-tate-twist"
 kind = "definition"
 title = "Tate twists"
+lean = ["AlgebraicGeometry.WeilSheaf.cyclotomicUnit", "AlgebraicGeometry.WeilSheaf.tateTwistSheafNat", "AlgebraicGeometry.WeilSheaf.tateTwistSheaf", "AlgebraicGeometry.WeilComplex.tateTwist"]
 order = 2910
 uses = ["def-weil-pbc-proetale-site", "def-wf-weil-category"]
 +++

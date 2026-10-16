@@ -2,6 +2,7 @@
 id = "lem-weil-scalar-extension-well-defined"
 kind = "lemma"
 title = "Well-definedness of scalar extension"
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_fromIntegral_of_isDerivedBaseChange"]
 order = 2226
 uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-rationalization-karoubi", "prop-weil-pbc-rational-transport"]
 +++

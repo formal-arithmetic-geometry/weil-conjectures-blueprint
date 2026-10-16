@@ -2,6 +2,7 @@
 id = "def-pc-projective-morphism"
 kind = "definition"
 title = "Projective morphisms"
+lean = ["AlgebraicGeometry.IsHProjective", "AlgebraicGeometry.IsProjective"]
 order = 416
 uses = ["def-pc-scheme"]
 +++

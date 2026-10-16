@@ -2,6 +2,7 @@
 id = "lem-rp-positive-product-radius"
 kind = "lemma"
 title = "Positive products and radii of convergence"
+lean = ["PowerSeries.radius_tprod_le_radius"]
 order = 3006
 uses = ["d-real-series"]
 +++

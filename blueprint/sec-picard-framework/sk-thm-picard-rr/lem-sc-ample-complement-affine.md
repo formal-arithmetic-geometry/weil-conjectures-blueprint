@@ -2,6 +2,7 @@
 id = "lem-sc-ample-complement-affine"
 kind = "lemma"
 title = "Complements of ample divisors are affine"
+lean = ["AlgebraicGeometry.isAffine_compl_of_isAmple_dual_toModules"]
 order = 720
 uses = ["def-sc-ample", "def-sc-divisor", "def-sc-effective-cartier-divisor"]
 +++

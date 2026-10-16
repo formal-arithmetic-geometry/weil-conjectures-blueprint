@@ -2,6 +2,7 @@
 id = "def-pc-rational-point"
 kind = "definition"
 title = "Rational points"
+lean = ["AlgebraicGeometry.Scheme.Hom.baseChangeFieldPoint", "AlgebraicGeometry.Scheme.Hom.fieldPointBaseChange", "AlgebraicGeometry.Scheme.Hom.fieldPointBaseChange_snd"]
 order = 762
 uses = ["def-pc-base-change", "def-pc-scheme"]
 +++

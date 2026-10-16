@@ -2,6 +2,7 @@
 id = "thm-sp-grothendieck-base-change"
 kind = "theorem"
 title = "Base-change naturality of the Grothendieck spectral sequence"
+lean = ["CategoryTheory.Functor.exists_grothendieckSpectralObject_baseChange"]
 order = 610
 uses = ["def-sp-composite-acyclicity", "def-sp-injective-resolutions", "lem-sp-couple-morphism", "thm-sp-grothendieck", "thm-sp-spectral-object-yields"]
 +++

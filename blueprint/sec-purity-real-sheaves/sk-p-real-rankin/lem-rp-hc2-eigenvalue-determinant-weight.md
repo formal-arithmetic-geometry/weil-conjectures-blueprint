@@ -2,6 +2,7 @@
 id = "lem-rp-hc2-eigenvalue-determinant-weight"
 kind = "lemma"
 title = "Eigenvalues of $H_c^2$ are determinant weights"
+lean = ["AlgebraicGeometry.WeilGroup.exists_isConstituent_hasDetWeight_of_hasEigenvalue"]
 order = 3004
 uses = ["cor-mg-rankone-weight-from-element", "def-real-weil-representation-operations", "def-weil-punctual-weights", "def-wf-determinantal-weight", "def-wf-tate-twist", "def-wf-weil-category", "def-wf-weil-group", "lem-a1-affine-hc2", "lem-tw-tate-twist-weight-shift", "lem-wf-determinantal-weight-exists", "p-real-operations"]
 +++

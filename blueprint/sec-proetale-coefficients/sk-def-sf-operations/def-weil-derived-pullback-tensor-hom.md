@@ -2,6 +2,7 @@
 id = "def-weil-derived-pullback-tensor-hom"
 kind = "definition"
 title = "Derived pullback, tensor product, and internal Hom"
+lean = ["AlgebraicGeometry.Etale.isIso_ihomComparison_leftDerivedUpperStar_of_etale", "AlgebraicGeometry.Etale.nonempty_monoidal_leftDerivedUpperStar"]
 order = 1826
 uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties"]
 +++

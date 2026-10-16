@@ -2,6 +2,7 @@
 id = "lemma-nagata-relative-stage-morphism-data-exists"
 kind = "lemma"
 title = "Existence of finite-stage data for a finite-type morphism"
+lean = ["AlgebraicGeometry.Scheme.Hom.nonempty_noetherianStageData"]
 order = 388
 uses = ["def-nagata-relative-stage-morphism-data", "lemma-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++

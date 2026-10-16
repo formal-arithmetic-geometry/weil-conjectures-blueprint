@@ -2,6 +2,7 @@
 id = "lem-trf-chain-supertrace"
 kind = "lemma"
 title = "Chain-level supertrace computation, with explicit conventions"
+lean = ["CategoryTheory.MonoidalCategory.trace_add", "CategoryTheory.MonoidalCategory.traceAddMonoidHom", "CategoryTheory.MonoidalCategory.traceAddMonoidHom_apply", "CategoryTheory.MonoidalCategory.trace_eq_of_iso_rightDual", "Homotopy.sum_negOnePow_smul_eq", "Homotopy.sum_negOnePow_smul_trace_eq", "Homotopy.sum_negOnePow_smul_linearMapTrace_eq", "CochainComplex.rightDual.coevPQ_comp_evalPQ", "CochainComplex.hasRightDual", "CochainComplex.trace_eq", "CochainComplex.trace_f_zero", "CochainComplex.trace_f_zero_eq", "Homotopy.trace_eq"]
 order = 2647
 uses = ["def-trf-categorical-trace", "def-trf-coefficient-conventions"]
 +++

@@ -2,6 +2,7 @@
 id = "thm-pqf-immersion-descent"
 kind = "theorem"
 title = "Descent of the immersion to a finite stage"
+lean = ["AlgebraicGeometry.Scheme.exists_isClosedImmersion_of_isOpenImmersion_of_isLimit", "AlgebraicGeometry.Scheme.Hom.FiniteApproximation.exists_isOpenImmersion_isClosedImmersion", "AlgebraicGeometry.Scheme.Hom.exists_isOpenImmersion_isFinite_locallyOfFinitePresentation"]
 order = 206
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-locnoeth", "pqf-def-quasifinite", "pqf-lem-finite-fp-locnoeth", "pqf-lem-limit-immersion-descends", "pqf-lem-limit-qc-open-descends", "pqf-lem-qs-intersection-qc"]
 +++

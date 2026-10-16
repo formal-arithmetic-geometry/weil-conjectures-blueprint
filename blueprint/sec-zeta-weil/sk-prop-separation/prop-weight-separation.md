@@ -2,6 +2,7 @@
 id = "prop-weight-separation"
 kind = "theorem"
 title = "Weight separation"
+lean = ["AlgebraicGeometry.Scheme.isCoprime_frobeniusCharpolyRev", "AlgebraicGeometry.Scheme.isCoprime_oddFrobeniusProduct_evenFrobeniusProduct", "AlgebraicGeometry.Scheme.coeff_zero_oddFrobeniusProduct", "AlgebraicGeometry.Scheme.coeff_zero_evenFrobeniusProduct", "AlgebraicGeometry.Scheme.roots_map_frobeniusCharpolyRev_eq_filter"]
 order = 3242
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-ordinary-reciprocal-roots", "def-weil-parity-products", "def-weil-point-counts-zeta", "def-weil-punctual-weights", "def-weil-smooth-proper-cohomological-family"]

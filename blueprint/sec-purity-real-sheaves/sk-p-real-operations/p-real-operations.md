@@ -2,6 +2,7 @@
 id = "p-real-operations"
 kind = "theorem"
 title = "Local Frobenius polynomials"
+lean = ["AlgebraicGeometry.WeilGroup.localPolynomial_eq_charpolyRev", "AlgebraicGeometry.WeilGroup.exists_equivalence_localPolynomial_stalk"]
 order = 2936
 uses = ["def-real-weil-representation-operations", "def-weil-local-frobenius-trace", "def-wf-fundamental-representation", "def-wf-iota-real", "def-wf-weil-group", "lem-wf-weil-group-constant-extension", "prop-wf-weil-sheaf-representation-equivalence"]
 tags = ["latex:proposition"]

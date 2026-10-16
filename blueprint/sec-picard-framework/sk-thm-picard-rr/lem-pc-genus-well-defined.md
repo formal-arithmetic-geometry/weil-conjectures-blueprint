@@ -2,6 +2,7 @@
 id = "lem-pc-genus-well-defined"
 kind = "lemma"
 title = "Well-definedness of the genus"
+lean = ["AlgebraicGeometry.Scheme.Modules.finiteDimensional_H"]
 order = 743
 uses = ["def-pc-morphism-conventions", "lem-pc-curve-coherent-finiteness", "lem-sc-flat-base-change-coherent"]
 +++

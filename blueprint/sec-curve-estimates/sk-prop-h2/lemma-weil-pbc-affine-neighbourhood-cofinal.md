@@ -2,6 +2,7 @@
 id = "lemma-weil-pbc-affine-neighbourhood-cofinal"
 kind = "lemma"
 title = "Affine pointed neighbourhoods are cofinal"
+lean = ["AlgebraicGeometry.Scheme.AffinePointedEtaleNeighborhood.initial_\u03b9"]
 order = 951
 uses = ["def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-scheme-conventions"]
 +++

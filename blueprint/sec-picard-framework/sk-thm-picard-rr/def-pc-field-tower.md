@@ -2,6 +2,7 @@
 id = "def-pc-field-tower"
 kind = "definition"
 title = "Field extensions"
+lean = ["isPurelyInseparable_iff_exists_algebraMap_eq_pow"]
 order = 726
 uses = ["def-pc-scheme"]
 +++

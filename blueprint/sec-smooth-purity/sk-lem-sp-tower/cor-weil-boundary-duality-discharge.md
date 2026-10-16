@@ -2,6 +2,7 @@
 id = "cor-weil-boundary-duality-discharge"
 kind = "theorem"
 title = "The finite-stage boundary input is a consequence"
+lean = ["AlgebraicGeometry.Etale.nonempty_iso_leftDerivedUpperStar_verdierDual", "AlgebraicGeometry.Etale.hasBoundaryDuality"]
 order = 2481
 tags = ["latex:corollary"]
 uses = ["def-weil-boundary-duality-input", "lem-weil-closed-costalk-duality", "lem-weil-duality-pairing", "thm-fix-general-biduality"]

@@ -2,6 +2,7 @@
 id = "lem-pc-hilb-functorial"
 kind = "lemma"
 title = "The Hilbert functor is a functor"
+lean = ["AlgebraicGeometry.IsHilbertSubscheme.comap"]
 order = 775
 uses = ["def-pc-base-change", "def-pc-finite-locally-free", "def-pc-hilb-functor", "lem-pc-closed-imm-base-change", "lem-pc-flat-base-change-cohom", "lem-pc-flf-properties"]
 +++

@@ -2,6 +2,7 @@
 id = "thm-cbc-qbar"
 kind = "theorem"
 title = "$\\Qlb$ compact-support base change"
+lean = ["CategoryTheory.StageSystem.Morphism.isIso_descNatTrans", "AlgebraicGeometry.WeilSheaf.exists_fiber_expand_charpolyRev_stalk_higherLowerShriek"]
 order = 1992
 uses = ["def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "lem-cbc-extension-zero-projection-formula", "lem-weil-compact-support-finite-field-independence", "prop-weil-pbc-descent-functors", "prop-weil-pbc-scalar-extension", "thm-cbc-finite-extension", "thm-weil-pbc-idempotent-complete-triangulation"]
 +++

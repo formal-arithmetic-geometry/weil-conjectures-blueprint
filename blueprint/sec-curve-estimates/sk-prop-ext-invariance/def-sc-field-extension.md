@@ -2,6 +2,7 @@
 id = "def-sc-field-extension"
 kind = "definition"
 title = "Field extensions, base change, pullback maps"
+lean = ["AlgebraicGeometry.Scheme.Hom.baseChangeField", "AlgebraicGeometry.Scheme.Hom.fieldExtensionCohomologyMap"]
 order = 1036
 uses = ["def-sc-curves"]
 +++

@@ -2,6 +2,7 @@
 id = "def-sc-ext-sheaf"
 kind = "definition"
 title = "Ext groups of $\\mathcal O_X$-modules"
+lean = ["AlgebraicGeometry.Scheme.Modules.Ext"]
 order = 694
 +++
 Let $X$ be a scheme and $\mathcal F,\mathcal G$ be

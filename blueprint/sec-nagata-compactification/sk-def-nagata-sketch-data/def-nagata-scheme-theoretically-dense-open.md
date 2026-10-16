@@ -2,6 +2,7 @@
 id = "def-nagata-scheme-theoretically-dense-open"
 kind = "definition"
 title = "Scheme-theoretically dense open immersion"
+lean = ["AlgebraicGeometry.isSchemeTheoreticallyDominant_iff_app_injective"]
 order = 14
 +++
 For a quasi-compact open immersion $j\colon U\hookrightarrow X$, say that

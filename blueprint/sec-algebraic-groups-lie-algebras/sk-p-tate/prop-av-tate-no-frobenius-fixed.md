@@ -2,6 +2,7 @@
 id = "prop-av-tate-no-frobenius-fixed"
 kind = "theorem"
 title = "No Frobenius-fixed vectors on the Tate module of an abelian variety"
+lean = ["AlgebraicGeometry.finite_setOf_spec_map_comp_eq_self_of_isOpenImmersion", "AlgebraicGeometry.Scheme.finite_setOf_specAlgebraicClosureMap_frobenius_comp_eq_self", "AlgebraicGeometry.IsAbelianVariety.finite_setOf_frobenius_fixed", "AlgebraicGeometry.IsAbelianVariety.eq_zero_of_mem_tateModule_of_forall_geometricFrobenius_fixed", "AlgebraicGeometry.IsAbelianVariety.eq_zero_of_map_geometricFrobenius_eq_self"]
 order = 2908
 uses = ["d-ab-field", "def-sc-abelian-variety", "def-tate-module-abelian-group", "lem-tate-module-no-fixed"]
 tags = ["latex:proposition"]

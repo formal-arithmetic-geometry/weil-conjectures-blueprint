@@ -2,6 +2,7 @@
 id = "def-sc-effective-cartier-divisor"
 kind = "definition"
 title = "Effective Cartier divisors"
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.isInvertible_toModules", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.isFinite_subscheme\u03b9_comp"]
 order = 713
 uses = ["def-sc-curves"]
 +++

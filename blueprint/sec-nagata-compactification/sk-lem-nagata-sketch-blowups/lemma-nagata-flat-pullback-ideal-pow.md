@@ -2,6 +2,7 @@
 id = "lemma-nagata-flat-pullback-ideal-pow"
 kind = "lemma"
 title = "Flat pullback commutes with ideal powers"
+lean = ["Ideal.range_powLiftBaseChange", "Ideal.injective_powLiftBaseChange_of_flat"]
 order = 121
 uses = ["def-nagata-extended-ideal"]
 +++

@@ -2,6 +2,7 @@
 id = "cor-pod-untwisted-similitude"
 kind = "theorem"
 title = "Untwisted similitude"
+lean = ["AlgebraicGeometry.Etale.TateOrientation.untwistedDegreewisePoincarePairing_frobeniusOperator", "AlgebraicGeometry.Etale.TateOrientation.untwistedDegreewisePoincarePairing_unit_frobeniusOperator"]
 order = 2790
 tags = ["latex:corollary"]
 uses = ["def-coefficient-twists-detailed", "def-pod-dual-tate-datum", "def-pur-tate-datum", "def-weil-frobenius-coefficient-twists", "def-weil-global-geometric-frobenius", "prop-pod-degree-of-the-pairing", "thm-pod-equivariance-of-the-twisted-pairing"]
