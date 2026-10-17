@@ -2,7 +2,7 @@
 id = "sk-d-lines"
 kind = "definition"
 title = "The affine and projective lines"
-order = 2718
+order = 2673
 uses = ["sk-d-setup"]
 lean = ["AlgebraicGeometry.ProjectiveSpace"]
 tags = ["sketch"]

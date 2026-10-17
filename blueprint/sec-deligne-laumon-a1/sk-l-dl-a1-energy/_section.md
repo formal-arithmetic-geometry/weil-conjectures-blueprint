@@ -3,7 +3,7 @@ id = "sk-l-dl-a1-energy"
 kind = "lemma"
 title = "Weight detection by trace energy"
 order = 3100
-uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-linear-spectra", "sk-prop-logdet", "sk-thm-trace-transport"]
+uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-linear-spectra", "sk-prop-logdet", "sk-thm-trace-transport", "sk-thm-tf-uniform-formula"]
 lean = ["AlgebraicGeometry.LAdicWeilSheaf.traceEnergy", "AlgebraicGeometry.LAdicWeilSheaf.le_sub_one_of_traceEnergy_le"]
 tags = ["sketch"]
 +++

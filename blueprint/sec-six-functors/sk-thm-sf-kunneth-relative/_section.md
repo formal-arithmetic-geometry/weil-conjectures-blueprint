@@ -2,7 +2,7 @@
 id = "sk-thm-sf-kunneth-relative"
 kind = "theorem"
 title = "Relative product theorem"
-order = 2509
+order = 2418
 uses = ["sk-lem-sf-mate", "sk-prop-sf-cbc", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_externalProduct", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_externalProduct_closedImmersion", "AlgebraicGeometry.Etale.nonempty_iso_compactlySupported_externalProduct_closedImmersion"]
 tags = ["sketch"]

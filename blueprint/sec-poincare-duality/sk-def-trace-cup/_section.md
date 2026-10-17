@@ -3,7 +3,7 @@ id = "sk-def-trace-cup"
 kind = "definition"
 title = "Trace and trace–cup pairing"
 lean = ["AlgebraicGeometry.Etale.TateOrientation.traceCupPairing"]
-order = 2764
+order = 2756
 uses = ["sk-def-ops", "sk-def-sf-orientation"]
 tags = ["sketch"]
 +++

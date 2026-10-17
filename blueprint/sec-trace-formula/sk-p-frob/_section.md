@@ -1,13 +1,25 @@
 +++
 id = "sk-p-frob"
 kind = "proposition"
-title = "Frobenius local terms on smooth curves"
-order = 2699
-uses = ["sk-d-curve-pieces", "sk-d-integral", "sk-d-local-term", "sk-d-proper-pushforward", "sk-d-trace", "sk-d-weil", "sk-i-additivity", "sk-i-curve-zero", "sk-p-local", "sk-p-proper", "sk-thm-sf-package"]
+title = "The Frobenius local term on a curve"
+order = 2629
+uses = ["sk-d-curve-pieces", "sk-d-integral", "sk-d-local-term", "sk-d-proper-pushforward", "sk-d-trace", "sk-d-weil", "sk-i-additivity", "sk-i-curve-zero", "sk-p-local", "sk-p-proper", "sk-thm-sf-package", "sk-d-trace-class", "sk-p-pairing", "sk-lem-tf-fixed-points"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.localTerm_traceClass_eq_trace"]
 tags = ["sketch"]
 +++
-Let $s$ be the spectrum of a field and let $X$ be quasi-compact, compactifiable
+Recall the $k$-linear Frobenius $\Phi_X$ of [sk-d-weil], the local terms
+$\operatorname{LT}_y$ of [sk-d-trace-class] and the trace $\operatorname{tr}_A$ of [sk-d-trace].
+Let $X_0$ be a smooth curve over $k_0$, let
+$X=X_0\times_{k_0}k$, let $K\in\Dctf(X,A)$ and let
+$v:(\Phi_X^m)^*K\to K$ be any morphism in $\Dctf(X,A)$. For
+$y\in X_0(\mathbf F_{q^m})$ one has
+
+$$
+ \operatorname{LT}_y(v)
+   =\operatorname{tr}_A(v_{\bar y}\mid K_{\bar y}).
+$$
+
+*Complement.* Let $s$ be the spectrum of a field and let $X$ be quasi-compact, compactifiable
 and smooth of relative dimension one over $s$. Let $(K,\varphi)$ be a Weil
 complex on $X$ with the model Frobenius of a scheme $X_0$ over a finite field
 $\mathbf F_q$, with $K\in D^b_{ctf}(X,A)$ and $\varphi:\Phi_1^*K\to K$ an

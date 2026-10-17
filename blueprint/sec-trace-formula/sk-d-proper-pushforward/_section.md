@@ -1,43 +1,32 @@
 +++
 id = "sk-d-proper-pushforward"
 kind = "definition"
-title = "Proper pushforward of a correspondence and its trace"
-order = 2669
+title = "Pushforward of a correspondence"
+order = 2616
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-d-trace-class"]
 lean = ["AlgebraicGeometry.ProEtale.ProperPushforwardDiagram"]
 tags = ["sketch"]
 +++
-Let $(C,c,u)$ be an endocorrespondence on $(X,K)$. A proper pushforward
-diagram consists of a scheme $Y$ over $s$, a proper $s$-morphism $f:X\to Y$,
-a scheme $D$ over $s$ with $s$-morphisms $b=(b_1,b_2):D\to Y\times Y$, where
-$b_1$ is compactifiable and $Rb_{1!}$ has a right adjoint $b_1^!$, and a proper
-morphism $g:C\to D$ with $b_i g=fc_i$ for $i=1,2$ (and $b_1g$ compactifiable).
-Put $K'=Rf_*K$. Using the adjunctions and composition maps, set
+Let $c=(c_1,c_2):C\to X\times X$ be a correspondence on $X$, with fixed locus
+$F_c$, and let $K\in\Dctf(X,A)$.
+Let $f:X\to Y$ and $g:C\to D$ be proper morphisms, and let
+$b=(b_1,b_2):D\to Y\times Y$ be a correspondence with $b_ig=fc_i$ for
+$i=1,2$. Put $K'=Rf_*K\in\Dctf(Y,A)$. For a cohomological correspondence $u$
+on $(X,K)$, the *pushed correspondence* $u'=[f,g]_!u:b_2^*K'\to b_1^!K'$ is
+$u'=\delta\,Rg_*u\,\gamma$, built from an ordinary half
 
 $$
-\begin{aligned}
-\gamma:b_2^*K'&\xrightarrow{\eta_g^*}Rg_*g^*b_2^*Rf_*K
-\simeq Rg_*c_2^*f^*Rf_*K\\
-&\xrightarrow{Rg_*c_2^*\varepsilon_f^*}Rg_*c_2^*K.
-\end{aligned}
+\gamma:b_2^*Rf_*K\xrightarrow{\eta_g}
+Rg_*c_2^*f^*Rf_*K\xrightarrow{\varepsilon_f}Rg_*c_2^*K
 $$
 
-Let $\delta:Rg_*c_1^!K\to b_1^!K'$ be the exceptional adjoint of
+and an exceptional half $\delta:Rg_*c_1^!K\to b_1^!Rf_*K$, adjoint to
 
 $$
-Rb_{1!}Rg_*c_1^!K\simeq Rf_!Rc_{1!}c_1^!K
-\xrightarrow{Rf_!\varepsilon_{c_1}^!}Rf_!K\simeq K',
+Rb_{1!}Rg_*c_1^!K\simeq Rf_*Rc_{1!}c_1^!K
+\xrightarrow{Rf_*\varepsilon_{c_1}}Rf_*K.
 $$
 
-where properness identifies $Rg_*=Rg_!$ and $Rf_*=Rf_!$. Define
-
-$$
-[f,g]_!u:=\delta\circ Rg_*u\circ\gamma:
-b_2^*K'\longrightarrow b_1^!K'.
-$$
-
-The relations induce $h:\Fix(c)\to\Fix(b)$, the restriction of $g$. For proper $h$, the
-proper pushforward of the trace class is
-$h_*\Tr_c(u):A_{\Fix(b)}\to\omega_{\Fix(b)}$, using the
-Borel–Moore pushforward.
-No Cartesian condition on either leg square enters these constructions.
+The map $g$ induces a proper morphism $h:F_c\to F_b$ of fixed loci, and
+$h_*:H^0(F_c,\omega_{F_c})\to H^0(F_b,\omega_{F_b})$ denotes the map given by
+the ordinary unit, proper pushforward and the exceptional counit.

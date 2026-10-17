@@ -2,24 +2,39 @@
 id = "sk-thm-sf-global-duality"
 kind = "theorem"
 title = "Global Verdier duality"
-order = 2507
-uses = ["sk-def-sf-operations", "sk-thm-sf-verdier-exchange"]
+order = 2391
+uses = ["sk-def-sf-operations", "sk-thm-sf-verdier-exchange", "sk-def-ops"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_coefficientDual_rightDerivedLowerShriek"]
 tags = ["sketch"]
 +++
-Let $X$ be smooth, separated of finite type and geometrically connected of
-pure dimension $d$ over $k$ (no admissibility hypothesis on $a_X$: its
-exceptional adjoint is the unconditional one of [sk-def-sf-operations](vi)).
-Assume either that $X$ is proper, or that
-$X=X_0\times_{k_0}k$ for a smooth, separated finite-type, geometrically
-connected $k_0$-scheme $X_0$; in the latter case no properness is required.
-For $K\in\Dctf(X,\Lambda)$ there is a canonical isomorphism
+Here $\mathbb D_X$ and $\omega_X=a_X^!\Lambda_s$ are the Verdier dual and the dualizing
+complex of [sk-def-ops], and $s=\operatorname{Spec}k$.
+
+Over algebraically closed $k$, every
+$K\in\Dctf(X,\Lambda)$ has natural isomorphisms in
+$\Perf(\Lambda)$
 
 $$
-\RG_c(X,K)^\vee\xrightarrow{\ \sim\ }\RG\bigl(X,\mathbb D_XK\bigr),
+ R\Gamma(X,\mathbb D_XK)\simeq
+ R\operatorname{Hom}_\Lambda(R\Gamma_c(X,K),\Lambda),
+ \tag{1}
 $$
 
-in the point category $\Dbc(s,\Lambda)$ of def:weil-finite-coefficient-point,
-natural in $K\in\Dctf(X,\Lambda)$ and compatible with finite reduction, scalar
-extension and shifts; for $K=\Lambda_X$ it reads
-$\RG_c(X,\Lambda)^\vee\cong\RG(X,\omega_X)$.
+$$
+ R\Gamma_c(X,\mathbb D_XK)\simeq
+ R\operatorname{Hom}_\Lambda(R\Gamma(X,K),\Lambda).
+ \tag{2}
+$$
+
+The first is the adjoint of the pairing formed by mixed-support cup
+product, evaluation, and the counit $\epsilon_{a_X}$ of
+$Ra_{X!}\dashv a_X^!$:
+
+$$
+ R\Gamma_c(X,K)\otimes^{\mathbf L}R\Gamma(X,\mathbb D_XK)
+ \longrightarrow R\Gamma_c(X,\omega_X)
+ \xrightarrow{\epsilon_{a_X}}\Lambda.
+$$
+
+For a finite base field the same isomorphisms hold in
+$D(s_{\mathrm{pro\acute et}},\Lambda)$, before passage to the geometric fibre.

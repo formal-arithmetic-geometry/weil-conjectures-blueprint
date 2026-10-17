@@ -4,7 +4,7 @@ kind = "corollary"
 title = "Hasse–Weil bound"
 order = 3255
 lean = ["AlgebraicGeometry.Scheme.Hom.abs_pointCount_one_sub_le"]
-uses = ["sk-thm-rh", "sk-thm-trace-transport"]
+uses = ["sk-thm-rh", "sk-thm-trace-transport", "sk-cor-tf-point-counting"]
 tags = ["sketch"]
 +++
 Let $k_0$ be a finite field with $q$ elements, let $X_0$ be a scheme over

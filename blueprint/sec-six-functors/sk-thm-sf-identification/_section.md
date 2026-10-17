@@ -1,32 +1,55 @@
 +++
 id = "sk-thm-sf-identification"
 kind = "theorem"
-title = "The derived Poincaré pairing is the duality isomorphism"
-order = 2508
-uses = ["sk-lem-sf-twist-interchange", "sk-thm-sf-global-duality", "sk-thm-sf-tensor-hom"]
+title = "Derived Poincaré duality"
+order = 2393
+uses = ["sk-def-sp-trace", "sk-def-pairing", "sk-cor-sp-all-coefficients", "sk-thm-sf-global-duality", "sk-lem-finite", "sk-lem-sf-twist-interchange", "sk-thm-sf-tensor-hom"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerStar_coefficientDual_of_orientation"]
 tags = ["sketch"]
 +++
-Let $X$ satisfy the hypotheses of [sk-thm-sf-global-duality],
-with the orientation of [sk-def-sf-orientation] fixed, and let
-$K\in\Dctf(X,\Lambda)$ be perfect over $\Lambda_X$. Then the tensor–internal-Hom
-adjoint of the derived pairing
+Let $X/k$ be smooth, separated of pure dimension $d$, with $k$ algebraically
+closed. For every admissible $\Lambda$ and $K\in\Dctf(X,\Lambda)$, purity gives
+isomorphisms in $\Dctf(X,\Lambda)$
 
 $$
-\beta_K:\RG_c(X,K)\otimes^L_\Lambda\RG\bigl(X,K^\vee(d)\bigr)[2d]\to\Lambda
+\omega_X\simeq\Lambda_X(d)[2d],\qquad
+\mathbb D_XK\simeq\cHom_X(K,\Lambda_X)(d)[2d].
 $$
 
-is the canonical isomorphism
-$\RG(X,K^\vee(d))[2d]\xrightarrow{\sim} R\mathrm{Hom}_\Lambda(\RG_c(X,K),\Lambda)$ *in the point category*
-$\Dbc(s,\Lambda)$, and its inverse is the global
-duality isomorphism of [sk-thm-sf-global-duality] followed by
-$\mathbb D_XK\cong K^\vee(d)[2d]$. In particular $\beta_K$ is perfect.
-If $X$ is proper and $\Lambda\in\{A_{E,n},E,\Qlb\}$, its degreewise form
-gives perfect pairings
-$\langle-,-\rangle_i:H^i_c(X,K)\times H^{2d-i}(X,K^\vee(d))\to\Lambda$
-(over $A_{E,n}$ because this ring is self-injective, so
-$\operatorname{Hom}(-,\Lambda)$ is exact). At the integral stage
-$\Lambda=\mathcal O_E$ the degreewise form fails in general: a torsion
-class in $H^i_c$ pairs to zero with everything, and
-$H^{-i}(\RG_c^\vee)$ picks up an $\operatorname{Ext}^1$ term from the
-torsion of $H^{i+1}_c$; only the derived statement holds there.
+Put $K^\vee=\cHom_X(K,\Lambda_X)$; when $K$ is locally perfect over $\Lambda_X$, so
+is $K^\vee$, and it is the ordinary dual. Let $\operatorname{Tr}_X$ be the map
+induced on $R\Gamma_c$ by the smooth trace of $a_X$ [sk-def-sp-trace]. The pairing
+in $D(\Lambda)$
+
+$$
+\begin{aligned}
+\beta_K:\quad
+R\Gamma_c(X,K)\otimes^{\mathbf L}R\Gamma\bigl(X,K^\vee(d)\bigr)[2d]
+&\longrightarrow R\Gamma_c\bigl(X,\Lambda_X(d)\bigr)[2d]\\
+&\xrightarrow{\operatorname{Tr}_X}\Lambda
+\end{aligned}
+$$
+
+is perfect in the sense of [sk-def-pairing], and its adjoint is the canonical
+isomorphism
+
+$$
+R\Gamma\bigl(X,K^\vee(d)\bigr)[2d]
+\xrightarrow{\sim}
+R\operatorname{Hom}_\Lambda\bigl(R\Gamma_c(X,K),\Lambda\bigr).
+\tag{1}
+$$
+
+If $X$ is proper, $R\Gamma_c$ may be replaced by $R\Gamma$.
+
+*Complement.* If $X$ is proper, $K$ is locally perfect over $\Lambda_X$ and
+$\Lambda=A_{E,n}=\mathcal O_E/\pi_E^n$, the degreewise form of (1) gives perfect
+pairings
+
+$$
+\langle-,-\rangle_i:H_c^i(X,K)\times H^{2d-i}\bigl(X,K^\vee(d)\bigr)
+\longrightarrow\Lambda\qquad(i\in\mathbf Z),
+$$
+
+because this ring is self-injective, so that $\operatorname{Hom}_\Lambda(-,\Lambda)$
+is exact.

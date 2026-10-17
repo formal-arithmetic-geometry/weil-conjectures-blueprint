@@ -2,7 +2,7 @@
 id = "sk-rem-sf-fullcd-scope"
 kind = "remark"
 title = "What this does and does not discharge"
-order = 2488
+order = 2401
 uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-prop-sf-existence", "thm-sf-ambient-adjoint-class"]
 tags = ["sketch"]
 +++

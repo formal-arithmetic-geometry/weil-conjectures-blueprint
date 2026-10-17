@@ -3,7 +3,7 @@ id = "sk-thm-sf-pf-proetale"
 kind = "theorem"
 title = "Projection formula: the pro-étale realization"
 lean = ["AlgebraicGeometry.ProEtale.hasProjectionFormula_extendScalars_of_derivedCompleteIntegral", "AlgebraicGeometry.ProEtale.isIso_rationalization_map_projectionMap_extendScalars", "AlgebraicGeometry.ProEtale.hasProjectionFormula_of_constructibleFiniteTor", "AlgebraicGeometry.ProEtale.hasProjectionFormula_of_derivedCompleteIntegral", "AlgebraicGeometry.ProEtale.isIso_rationalization_map_projectionMap"]
-order = 2496
+order = 2409
 uses = ["sk-thm-sf-pf-field"]
 tags = ["sketch"]
 +++

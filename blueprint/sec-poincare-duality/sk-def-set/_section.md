@@ -2,7 +2,7 @@
 id = "sk-def-set"
 kind = "definition"
 title = "The fixed setting"
-order = 2748
+order = 2753
 uses = ["sk-def-sf-operations", "sk-def-sf-setting", "sk-prop-sf-existence", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-ctf-stability"]
 lean = ["AlgebraicGeometry.PoincareDualitySetting"]
 tags = ["sketch"]

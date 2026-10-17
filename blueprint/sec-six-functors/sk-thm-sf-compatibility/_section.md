@@ -2,7 +2,7 @@
 id = "sk-thm-sf-compatibility"
 kind = "theorem"
 title = "Compatibility of the six operations"
-order = 2515
+order = 2423
 uses = ["sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sk-def-sf-exchanges", "sk-def-sf-operations", "sk-def-sf-orientation", "sk-lem-sf-mate", "sk-prop-cohsm", "sk-prop-sf-biduality-general", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-prop-sfb-module-derived-factorization", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange"]
 tags = ["sketch"]
 +++

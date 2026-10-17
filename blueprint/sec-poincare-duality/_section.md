@@ -3,7 +3,7 @@ id = "sec-poincare-duality"
 kind = "section"
 title = "Poincaré Duality"
 order = 2747
-uses = ["sec-proetale-coefficients", "sec-six-functors", "sec-smooth-purity"]
+uses = ["sec-proetale-coefficients", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-purity"]
 +++
 **Content.** For $X_0/\mathbf F_q$ smooth, separated and geometrically
 connected of pure dimension $d$, with $X$ its base change to $k=\overline{\mathbf F}_q$,

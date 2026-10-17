@@ -750,3 +750,122 @@ These top-level nodes of the aligned blocks correspond to no declaration of the 
 | `rem-sf-dualizing-ctf-hypotheses` | remark | Geometric duality and its coefficient comparisons | 0 |  |  |
 | `rem-sf-preservation-class-residue` | remark | Constructible completion and the ambient boundary | 0 |  |  |
 | `sk-rem-sf-feeds` | remark | Where this feeds | 0 |  |  |
+
+
+## Second round: Verdier and Poincaré duality, the trace formula, and specialization
+
+The tex file was replaced by a version with three more parts: §12 "Verdier and Poincaré duality",
+§13 "The Grothendieck–Lefschetz trace formula", and the appendix "Specialization and contracting
+correspondences". (It also adds a chapter on smooth base change and a few declarations in §3 and
+§11; these were not aligned in this round.) The conventions above apply. Line numbers below refer to the new tex file.
+
+- **Blocks.** The trace formula cites Lemma `pd:point-perfect`, Definition `pd:definition`, Lemma
+  `pd:generic-restriction` and Theorem `pd:verdier-duality`, and Trace Formula precedes Poincaré
+  Duality. So §12 up to `pd:smooth-duality` sits in Six Functors, where the tensor–Hom, Verdier
+  exchange, global duality and pairing identification sketches already were. The rest of §12 is
+  in Poincaré Duality. §13 and the appendix are in Trace Formula. The appendix comes last there.
+  The three lemmas `tf:independent-base-change`, `tf:ordinary-external-kunneth` and
+  `tf:external-duality` sit in Six Functors, because their existing counterparts there are used
+  by the six-operations package.
+- **Moved sketches.** `sk-lem-finite`, `sk-def-ops` and `sk-def-pairing` moved from Poincaré
+  Duality to Six Functors. Detail nodes of `sk-lem-finite` that belong to the Frobenius and
+  pairing statements went to `sk-thm-frobenius` and `sk-thm-derived-duality`.
+- **Near-duplicates kept.** `sk-prop-sf-biduality-general` (Six Functors: Basic Constructions)
+  states `pd:verdier-duality`, and `sk-prop-sf-trace-perfectness` (Smooth Purity) states
+  `tf:compact-trace` for $A_{E,n}$. Earlier blocks use both, and the tex proofs use later results, so the tex
+  declarations got new sketches (`sk-thm-pd-verdier-duality`, `sk-lem-tf-compact-trace`).
+- **Split sketch.** The old `sk-thm-trace-transport` stated both the trace formula at
+  $\mathcal O_E$, $E$, $\overline{\mathbf Q}_\ell$ and its Euler-product form. It now holds
+  `tf:euler-product`, which matches its lean name. `tf:uniform-formula` and
+  `tf:point-counting` are new sketches with the corresponding detail nodes moved in. Citations
+  in later blocks were repointed.
+- **Old content kept.** Where a reused sketch said more than the tex, or a different thing that its lean
+  names state, the extra content is a `*Complement.*` or `*General form.*` paragraph after the tex
+  statement. This applies to `sk-lem-finite`, `sk-def-ops`, `sk-def-pairing`, `sk-thm-sf-tensor-hom`,
+  `sk-thm-sf-verdier-exchange`, `sk-thm-sf-identification`, `sk-thm-sf-kunneth-verdier`,
+  `sk-cor-trace`, `sk-d-trace`, `sk-d-trace-class`, `sk-p-pairing`, `sk-i-additivity`, `sk-d-weil`,
+  `sk-i-curve-zero`, `sk-p-frob`, `sk-thm-trace-formula`, `sk-prop-logdet` and `sk-thm-trace-transport`.
+
+| Tex line | Declaration | Label | Block | Sketch node | |
+|---:|---|---|---|---|---|
+| 12108 | Lem Perfect complexes at the geometric point | `pd:point-perfect` | Six Functors | `sk-lem-finite` | reused, moved |
+| 12142 | Def Verdier dual and evaluation | `pd:definition` | Six Functors | `sk-def-ops` | reused, moved |
+| 12169 | Lem Internal adjunction and the formal exchanges | `pd:formal-exchange` | Six Functors | `sk-thm-sf-tensor-hom` | reused |
+| 12219 | Lem Verdier duality preserves constructibility | `pd:preservation` | Six Functors | `sk-lem-pd-preservation` | new |
+| 12253 | Lem Restriction to a geometric generic fibre | `pd:generic-restriction` | Six Functors | `sk-lem-pd-generic-restriction` | new |
+| 12340 | Thm Verdier biduality | `pd:verdier-duality` | Six Functors | `sk-thm-pd-verdier-duality` | new |
+| 12428 | Cor Verdier exchange formulas | `pd:verdier-exchanges` | Six Functors | `sk-thm-sf-verdier-exchange` | reused |
+| 12460 | Thm Global Verdier duality | `pd:global-duality` | Six Functors | `sk-thm-sf-global-duality` | reused |
+| 12497 | Def Perfect pairing | `pd:perfect-pairing` | Six Functors | `sk-def-pairing` | reused, moved |
+| 12509 | Thm Derived Poincaré duality | `pd:smooth-duality` | Six Functors | `sk-thm-sf-identification` | reused |
+| 12558 | Cor Degreewise duality over fields | `pd:degreewise` | Poincaré Duality | `sk-thm-derived-duality` | reused |
+| 12579 | Rem Integral corrections and finite rings | `pd:integral-corrections` | Poincaré Duality | `sk-rem-pd-integral-corrections` | new |
+| 12615 | Thm Top-degree trace | `pd:top-trace` | Poincaré Duality | `sk-cor-trace` | reused |
+| 12703 | Thm Equivariance and reciprocal eigenvalues | `pd:frobenius` | Poincaré Duality | `sk-thm-frobenius` | reused |
+| 12758 | Prop Duality and change of coefficients | `pd:coefficient-transport` | Poincaré Duality | `sk-thm-transport` | reused |
+| 12879 | Def Categorical trace | `tf:categorical-trace` | Trace Formula | `sk-d-trace` | reused |
+| 12894 | Prop Trace laws | `tf:trace-laws` | Trace Formula | `sk-p-trace` | reused |
+| 12933 | Rem — | `tf:coherent-additivity` | Trace Formula | `sk-rem-tf-coherent-additivity` | new |
+| 12944 | Lem The complexes whose traces occur | `tf:compact-trace` | Trace Formula | `sk-lem-tf-compact-trace` | new |
+| 12985 | Lem Base change along a product projection | `tf:independent-base-change` | Six Functors | `sk-lem-tf-independent-base-change` | new |
+| 13014 | Prop Ordinary external Künneth | `tf:ordinary-external-kunneth` | Six Functors | `sk-lem-sf-kunneth-star` | reused |
+| 13174 | Lem External duality and the trace morphism | `tf:external-duality` | Six Functors | `sk-thm-sf-kunneth-verdier` | reused |
+| 13307 | Def Trace class and local terms | `tf:local-term` | Trace Formula | `sk-d-trace-class` | reused |
+| 13332 | Lem Local terms on the point | `tf:point-normalization` | Trace Formula | `sk-p-pairing` | reused |
+| 13367 | Def Pushforward of a correspondence | `tf:pushforward-def` | Trace Formula | `sk-d-proper-pushforward` | reused |
+| 13390 | Thm Proper pushforward and Lefschetz–Verdier | `tf:proper-localization` | Trace Formula | `sk-p-proper` | reused |
+| 13491 | Prop Filtered trace-class additivity | `tf:trace-class-additivity` | Trace Formula | `sk-i-additivity` | reused |
+| 13676 | Def Frobenius correspondences and their operators | `tf:weildatum` | Trace Formula | `sk-d-weil` | reused |
+| 13710 | Lem Agreement with geometric Weil Frobenius | `tf:frobenius-convention` | Trace Formula | `sk-lem-tf-frobenius-convention` | new |
+| 13768 | Lem The Frobenius fixed scheme | `tf:fixed-points` | Trace Formula | `sk-lem-tf-fixed-points` | new |
+| 13788 | Rem Route of the local calculation | `tf:curve-local-proof` | Trace Formula | `sk-rem-tf-curve-local-proof` | new |
+| 13835 | Lem The supported restriction giving the Frobenius local term | `tf:curve-supported-pairing` | Trace Formula | `sk-lem-tf-curve-supported-pairing` | new |
+| 13899 | Lem The supported restriction is zero for Frobenius | `tf:curve-restriction-zero` | Trace Formula | `sk-lem-tf-curve-restriction-zero` | new |
+| 14038 | Lem Transverse boundary calculation | `tf:transverse-boundary` | Trace Formula | `sk-lem-tf-transverse-boundary` | new |
+| 14139 | Lem Restriction to a transverse punctured curve | `tf:punctured-restriction` | Trace Formula | `sk-lem-tf-punctured-restriction` | new |
+| 14160 | Lem Blowup restriction vanishing | `tf:blowup-restriction` | Trace Formula | `sk-lem-tf-blowup-restriction` | new |
+| 14203 | Cor Frobenius local vanishing | `tf:frobenius-local-vanishing` | Trace Formula | `sk-i-curve-zero` | reused |
+| 14219 | Prop The Frobenius local term on a curve | `tf:frobenius-local-term` | Trace Formula | `sk-p-frob` | reused |
+| 14268 | Rem — | `tf:locality-warning` | Trace Formula | `sk-rem-tf-locality-warning` | new |
+| 14287 | Lem Relative Frobenius comparison | `tf:relative-frobenius` | Trace Formula | `sk-i-relative-frob` | reused |
+| 14382 | Lem Open–closed trace additivity | `tf:localization-additivity` | Trace Formula | `sk-i-global-additivity` | reused |
+| 14422 | Thm Trace formula for a Frobenius correspondence | `tf:coefficient-morphism-formula` | Trace Formula | `sk-thm-tf-coefficient-morphism-formula` | new |
+| 14526 | Rem Non-lisse coefficients in the local calculation | `tf:main-dependencies` | Trace Formula | `sk-rem-tf-main-dependencies` | new |
+| 14540 | Cor Finite-ring Grothendieck–Lefschetz formula | `tf:finite-formula` | Trace Formula | `sk-thm-trace-formula` | reused |
+| 14592 | Prop Integral trace formula | `tf:transport-integral` | Trace Formula | `sk-prop-tf-transport-integral` | new |
+| 14650 | Lem Integral models for rational Frobenius correspondences | `tf:rational-model` | Trace Formula | `sk-lem-tf-rational-model` | new |
+| 14696 | Rem Weil maps without invariant lattices | `—` | Trace Formula | `sk-rem-tf-weil-lattices` | new |
+| 14708 | Thm Grothendieck–Lefschetz trace formula | `tf:uniform-formula` | Trace Formula | `sk-thm-tf-uniform-formula` | new |
+| 14797 | Lem Logarithm of a determinant | `tf:determinant-formula` | Trace Formula | `sk-prop-logdet` | reused |
+| 14839 | Thm Euler-product form of the trace formula | `tf:euler-product` | Trace Formula | `sk-thm-trace-transport` | reused |
+| 14914 | Cor Point counting and the zeta function | `tf:point-counting` | Trace Formula | `sk-cor-tf-point-counting` | new |
+| 14971 | Rem Rationality and the Weil conjectures | `—` | Trace Formula | `sk-rem-tf-rationality` | new |
+| 17023 | Lem Nearby cycles of a constant family | `tf:sp-constant-family` | Trace Formula | `sk-lem-tf-sp-constant-family` | new |
+| 17134 | Lem Functoriality of the deformation | `tf:sp-dnc-functorial` | Trace Formula | `sk-lem-tf-sp-dnc-functorial` | new |
+| 17176 | Lem Exchanges for the defect | `tf:sp-defect-exchanges` | Trace Formula | `sk-lem-tf-sp-defect-exchanges` | new |
+| 17210 | Lem A thickened origin | `tf:sp-thick-origin` | Trace Formula | `sk-lem-tf-sp-thick-origin` | new |
+| 17261 | Lem Generic vanishing along a principal divisor | `tf:sp-generic-divisor` | Trace Formula | `sk-lem-tf-sp-generic-divisor` | new |
+| 17325 | Thm Verdier's zero-section specialization theorem | `tf:sp-zero-section` | Trace Formula | `sk-thm-tf-sp-zero-section` | new |
+| 17494 | Prop Nearby-cycle external Künneth | `tf:nearby-external-kunneth` | Trace Formula | `sk-prop-tf-nearby-external-kunneth` | new |
+| 17705 | Lem Coherences of the exchange maps | `tf:nearby-mate-coherences` | Trace Formula | `sk-lem-tf-nearby-mate-coherences` | new |
+| 17852 | Prop Nearby cycles commute with Verdier duality | `tf:nearby-duality-foundation` | Trace Formula | `sk-prop-tf-nearby-duality-foundation` | new |
+| 18043 | Prop Specialization of the trace class | `tf:trace-specialization` | Trace Formula | `sk-prop-tf-trace-specialization` | new |
+| 18190 | Cor Specialization for a constant fixed scheme | `tf:sp-fixed-constant` | Trace Formula | `sk-cor-tf-sp-fixed-constant` | new |
+| 18246 | Lem Normal cones and contracting ideals | `tf:contracting-cone-geometry` | Trace Formula | `sk-lem-tf-contracting-cone-geometry` | new |
+| 18308 | Lem The fixed component and its deformation | `tf:contracting-fixed-geometry` | Trace Formula | `sk-lem-tf-contracting-fixed-geometry` | new |
+| 18365 | Rem Reduction to a single fixed component | `tf:contracting-neighbourhood` | Trace Formula | `sk-rem-tf-contracting-neighbourhood` | new |
+| 18389 | Thm Contracting correspondences and local terms | `tf:contracting-local-term` | Trace Formula | `sk-thm-tf-contracting-local-term` | new |
+| 18500 | Cor Contracting local terms at a point | `tf:contracting-input` | Trace Formula | `sk-cor-tf-contracting-input` | new |
+
+**Sketches of these blocks with lean names and no tex declaration.** They are unchanged.
+
+- Six Functors: `sk-def-sf-categories`, `sk-def-sf-kv-maps`, `sk-def-sf-orientation`,
+  `sk-lem-sf-open-ctf`, `sk-lem-sf-twist-interchange`, `sk-prop-sf-dualizable-biduality`,
+  `sk-prop-sf-pf-coherence`, `sk-thm-sf-dual-perfect`, `sk-thm-sf-internal-hom-pullback`,
+  `sk-thm-sf-kunneth-relative`, `sk-thm-sf-package`, `sk-thm-sf-pf-proetale`.
+- Trace Formula: `sk-d-setup`, `sk-d-six`, `sk-d-corr`, `sk-d-integral`, `sk-d-local-term`,
+  `sk-d-operator`, `sk-d-pairing`, `sk-d-curve-pieces`, `sk-d-lines`, `sk-d-relative-frob`,
+  `sk-d-weil-push`, `sk-i-topology`, `sk-c-proper-global`, `sk-p-local`, `sk-p-linear-triangular`,
+  `sk-def-frobmod`, `sk-p-trace-coeff`, `sk-prop-trace-adic`.
+- Poincaré Duality: `sk-def-set`, `sk-def-perfect`, `sk-def-pairing-data`, `sk-def-trace-cup`,
+  `sk-thm-poincare-duality`.

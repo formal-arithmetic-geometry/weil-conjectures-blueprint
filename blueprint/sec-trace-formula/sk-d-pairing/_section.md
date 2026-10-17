@@ -2,7 +2,7 @@
 id = "sk-d-pairing"
 kind = "definition"
 title = "The supported pairing recipe"
-order = 2652
+order = 2665
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-thm-sf-kunneth-verdier"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.supportedPairing"]
 tags = ["sketch"]

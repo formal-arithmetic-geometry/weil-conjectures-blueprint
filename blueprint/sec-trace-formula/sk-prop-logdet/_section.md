@@ -1,24 +1,42 @@
 +++
 id = "sk-prop-logdet"
-kind = "proposition"
-title = "Logarithm of the Frobenius determinant"
-order = 2735
-uses = ["sk-def-frobmod", "sk-p-linear-triangular"]
+kind = "lemma"
+title = "Logarithm of a determinant"
+order = 2640
+uses = ["sk-def-frobmod", "sk-p-linear-triangular", "sk-p-trace"]
 lean = ["LinearMap.inv_charpolyRev_eq_exp"]
 tags = ["sketch"]
 +++
-Let $K$ be a field of characteristic zero, $V$ a finite-dimensional
-$K$-vector space and $F$ a $K$-linear endomorphism of $V$ (not necessarily
-invertible). Regard the polynomial $\det(1-TF\mid V)$, whose constant term
-is $1$, as a formal power series. Then in $K[[T]]$
+Let $L$ be a field of characteristic zero. For an endomorphism $v$ of
+a finite-dimensional $L$-vector space $V$,
 
 $$
-\det(1-TF\mid V)^{-1}
-=\exp\Bigl(\sum_{n\ge1}\Tr(F^{n}\mid V)\frac{T^{n}}{n}\Bigr),
-\qquad\text{equivalently}\qquad
-\log\det(1-TF\mid V)=-\sum_{n\ge1}\Tr(F^{n}\mid V)\frac{T^{n}}{n}.
+ \det(1-Tv\mid V)^{-1}
+  =\exp\left(\sum_{m\geq1}
+       \operatorname{Tr}(v^m\mid V)\frac{T^m}{m}\right)
+ \quad\text{in }1+TL[[T]].
+ \tag{1}
 $$
 
-In particular, for a Frobenius module $(V,F)$ (the case $K=\Qlb$),
+For an endomorphism $v$ of a perfect complex $P$ in $D(L)$, put
+
+$$
+ \det(1-Tv\mid P)
+  :=\prod_i\det(1-Tv\mid H^i(P))^{(-1)^i}.
+$$
+
+Then (1) holds for $P$, with
+$\operatorname{Tr}(v^m\mid V)$ replaced by the categorical trace
+$\operatorname{tr}_L(v^m\mid P)$.
+
+*Complement.* Equivalently, for $v$ on $V$ as above,
+
+$$
+\log\det(1-Tv\mid V)=-\sum_{m\ge1}\operatorname{Tr}(v^{m}\mid V)\frac{T^{m}}{m}
+\quad\text{in }L[[T]].
+$$
+
+In particular, for a Frobenius module $(V,F)$ of [sk-def-frobmod] (the case
+$L=\overline{\mathbf Q}_\ell$),
 $\exp\bigl(\operatorname{tr}_F(T)\bigr)=\det(1-TF\mid V)^{-1}$ and
-$\log\det(1-TF\mid V)=-\operatorname{tr}_F(T)$ in $\Qlb[[T]]$.
+$\log\det(1-TF\mid V)=-\operatorname{tr}_F(T)$ in $\overline{\mathbf Q}_\ell[[T]]$.

@@ -1,10 +1,15 @@
 +++
-kind  = "proof"
-of    = "sk-thm-sf-global-duality"
+kind = "proof"
+of = "sk-thm-sf-global-duality"
+uses = ["sk-thm-sf-verdier-exchange", "sk-lem-finite"]
 +++
-Apply [sk-thm-sf-verdier-exchange] with $Y=\mathrm{Spec}\,k$ and
-$f=a_X$: $\mathbb D_s(Ra_{X!}K)\cong Ra_{X*}\mathbb D_XK$. Evaluating at the
-geometric point and using $\omega_s\cong\Lambda$ and
-$\mathrm{Fib}_s(Ra_{X!}K)=\RG_c(X,K)$,
-$\mathrm{Fib}_s(Ra_{X*}K)=\RG(X,K)$ turns the left-hand side into
-$\RG_c(X,K)^\vee$ and the right-hand side into $\RG(X,\mathbb D_XK)$.
+Take $f=a_X$ in the two Verdier exchanges ([sk-thm-sf-verdier-exchange]). On a geometric
+point the dualizing object is $\Lambda$, and
+[sk-lem-finite] identifies $\Dctf(s,\Lambda)$ with
+$\Perf(\Lambda)$. The first exchange
+was constructed from exactly the indicated evaluation and counit,
+so it identifies the adjoint of that pairing, including its signs.
+The second exchange gives the second formula. Equivalently, it
+follows by applying the first formula to $\mathbb D_XK$ and
+dualizing perfect complexes. A detailed account of this theorem is in
+the blueprint chapters on six functors and Poincaré duality (PDBP).

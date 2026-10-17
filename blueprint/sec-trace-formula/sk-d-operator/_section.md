@@ -2,7 +2,7 @@
 id = "sk-d-operator"
 kind = "definition"
 title = "Global operators"
-order = 2631
+order = 2664
 uses = ["sk-d-corr", "sk-d-six"]
 lean = ["AlgebraicGeometry.ProEtale.Correspondence.globalOperator"]
 tags = ["sketch"]

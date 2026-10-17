@@ -1,8 +1,9 @@
 +++
 kind  = "proof"
 of    = "sk-thm-tracetodeterminant"
+uses = ["sk-cor-tf-point-counting", "sk-def-zeta", "sk-prop-logdet"]
 +++
-By [sk-thm-trace-transport] (a) the point counts are alternating traces,
+By [sk-cor-tf-point-counting] the point counts are alternating traces,
 $N_n=\sum_i(-1)^{i}\Tr(F_{i,\ell}^{n}\mid V_{i,\ell})$. Substituting into the
 exponential definition of [sk-def-zeta] and exchanging the finite $i$-sum
 with the power series,
