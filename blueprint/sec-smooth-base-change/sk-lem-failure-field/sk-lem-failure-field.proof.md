@@ -1,7 +1,40 @@
 +++
-kind  = "proof"
-of    = "sk-lem-failure-field"
+kind = "proof"
+of = "sk-lem-failure-field"
+uses = ["sk-prop-injectivity", "sk-lem-minimal"]
 +++
+Choose a failing square and a nonzero element of the cokernel of the
+exchange map at a geometric point. For a qcqs scheme $Z'$ over the
+source $Z$ of the direct-image morphism, let $P(Z')$ mean that this
+fixed element stays outside the image after pullback to $Z'$. The
+verification in [Stacks, Tag 0F07](https://stacks.math.columbia.edu/tag/0F07) gives three
+properties:
+
+1. **1.** thickenings preserve $P$, by topological invariance;
+2. **2.** limits with affine transition maps preserve $P$, by continuity;
+3. **3.** if $P(Z')$ holds and $V\subset Z'$ is a quasi-compact open with
+   closed complement $W$, then $P(V)$ or $P(W)$ holds.
+
+For the third property let $j\colon V\to Z'$ and $i\colon W\to Z'$ be
+the inclusions, embed the coefficient sheaf $M$ into
+$j_*J\oplus i_*i^{-1}M$, with $J$ injective on $V_{\mathrm{\acute et}}$, and apply
+[sk-prop-injectivity]. Closed pushforward is exact. For the
+open summand, with $j'$ and $g_V$ the base changes of $j$ and $g$,
+$\mathrm{BC}(g,n,q-1)$ gives $R^aj'_*g_V^{-1}J=0$ for
+$1\leq a<q$, so the Leray spectral sequence gives the required injection
+into the degree-$q$ direct image from $V$.
+
+By the second property and Zorn's lemma there is a minimal closed
+subscheme with $P$; by the first it is reduced, and it is nonempty. Let
+$\xi$ be the generic point of an irreducible component. Every affine
+open neighbourhood of $\xi$ has $P$, since otherwise its closed
+complement, a smaller closed subscheme, would have $P$. The limit of
+these neighbourhoods is $\operatorname{Spec}\kappa(\xi)$, which has $P$
+by the second property. This is the argument of
+[Stacks, Tag 0F06](https://stacks.math.columbia.edu/tag/0F06).
+
+*Complement.* In the notation of [sk-def-bc]:
+
 Let $g:T\to S$, $\mathcal F$ be a failing datum: $g$ is a
 quasi-compact quasi-separated *morphism* ([sk-def-bc]) but $T$
 need not be a qcqs scheme, as [sk-lem-minimal] requires. Being an

@@ -1,7 +1,27 @@
 +++
-kind  = "proof"
-of    = "sk-prop-injectivity"
+kind = "proof"
+of = "sk-prop-injectivity"
 +++
+Choose $0\to M\to I\to Q\to0$ with $I$ as in the statement. The long
+exact sequences give exact rows in
+
+$$
+\begin{array}{ccccccc}
+g^{-1}R^{q-1}f_*I&\to&g^{-1}R^{q-1}f_*Q&\to&g^{-1}R^qf_*M&\to&0\\
+\downarrow{\scriptstyle\sim}&&\downarrow{\scriptstyle\sim}&&\downarrow&&\downarrow\\
+R^{q-1}f'_*u^{-1}I&\to&R^{q-1}f'_*u^{-1}Q&\to&R^qf'_*u^{-1}M&\to&R^qf'_*u^{-1}I.
+\end{array}
+$$
+
+The first two vertical arrows are isomorphisms by
+$\mathrm{BC}(g,n,q-1)$, so a diagram chase proves injectivity and the
+last assertion. Choosing an injective containing $N$ and comparing the
+two diagrams gives the inclusion of cokernels. This is
+[Stacks, Tag 0F03](https://stacks.math.columbia.edu/tag/0F03).
+
+*Complement.* The same argument, written for sheaves of $\Lambda$-modules in the notation
+of [sk-def-bc], runs as follows.
+
 *Step 1 (embed in an injective).* Choose a short exact sequence
 $0\to\mathcal F\to\mathcal I\to\mathcal Q\to0$ with $\mathcal I$ an
 injective sheaf of $\Lambda$-modules on $T_{\Et}$. An injective object

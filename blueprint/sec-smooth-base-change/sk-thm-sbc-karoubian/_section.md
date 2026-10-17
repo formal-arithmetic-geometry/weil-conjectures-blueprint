@@ -2,7 +2,7 @@
 id = "sk-thm-sbc-karoubian"
 kind = "theorem"
 title = "Bounded t-structures on the integral and rational categories"
-order = 1474
+order = 1444
 tags = ["sketch"]
 +++
 For a scheme $T$ and a finite extension $E/\Ql$, the bounded constructible

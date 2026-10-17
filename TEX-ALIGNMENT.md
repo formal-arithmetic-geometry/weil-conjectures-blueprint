@@ -869,3 +869,40 @@ correspondences". (It also adds a chapter on smooth base change and a few declar
   `sk-def-frobmod`, `sk-p-trace-coeff`, `sk-prop-trace-adic`.
 - Poincaré Duality: `sk-def-set`, `sk-def-perfect`, `sk-def-pairing-data`, `sk-def-trace-cup`,
   `sk-thm-poincare-duality`.
+
+
+## Third round: smooth base change
+
+The chapter "Smooth base change" (tex lines 8952–9656) and the appendix "Extension of generic
+Galois covers" (16842–16903) are aligned with the Smooth Base Change block.
+
+- **Placement.** Theorem `sbc:uniform` uses Proposition `n:scalar-six`, `n:six-small`, the integral
+  constructibility criterion and the $\overline{\mathbf Q}_\ell$ 2-colimit, and all of these live in Six Functors: Basic
+  Constructions. Six Functors: Basic Constructions uses many Smooth Base Change nodes, so it cannot move before it.
+  `sk-thm-sbc-coefficients` (the counterpart of `sbc:uniform`) therefore moved into Six Functors:
+  Basic Constructions, together with the new `sk-cor-sbc-applications`. The coefficient clause of
+  Lemma `sbc:exchange-compatibility` also uses `n:scalar-six`. That edge is left out of `uses`; the text link stays.
+- **Old statements.** The reused sketches keep their old étale, $\Lambda$-module statements (which
+  their lean names state) as a `*Complement.*`. They are written in the blueprint's letters (smooth $f$, qcqs
+  $g$); the tex uses the opposite letters.
+- **Not matched.** `sk-def-bc`, `sk-def-smooth`, `sk-lem-minimal`, `sk-lem-induction`,
+  `sk-prop-etale-normal`, `sk-prop-input-torsors`, `sk-prop-normal-form` (with lean names),
+  `sk-thm-sbc-karoubian` and the remarks `sk-rem-rest`, `sk-rem-seams`,
+  `rem-seams` have no tex declaration and are unchanged.
+
+| Tex line | Declaration | Label | Block | Sketch node | |
+|---:|---|---|---|---|---|
+| 9036 | Lem Naturality, pasting and comparison | `sbc:exchange-compatibility` | Smooth Base Change | `sk-lem-sbc-exchange-compatibility` | new |
+| 9074 | Thm Smooth base change for classical torsion sheaves | `app:sbc-geometric-theorem` | Smooth Base Change | `sk-thm-smooth-base-change` | reused |
+| 9101 | Lem The degree-zero calculation | `app:sbc-degree-zero` | Smooth Base Change | `sk-prop-deg0` | reused |
+| 9169 | Lem Injectivity in the lowest unknown degree | `app:sbc-injectivity` | Smooth Base Change | `sk-prop-injectivity` | reused |
+| 9203 | Lem Reduction to a field | `app:sbc-minimal-failure` | Smooth Base Change | `sk-lem-failure-field` | reused |
+| 9240 | Lem Integral changes of source and base | `app:sbc-integral-tests` | Smooth Base Change | `sk-lem-sbc-integral-tests` | new |
+| 9268 | Lem Reduction to a curve over a normal base | `app:sbc-universal-datum` | Smooth Base Change | `sk-lem-universal-datum` | reused |
+| 9320 | Prop Base change to a larger algebraically closed field | `app:sbc-curve-test` | Smooth Base Change | `sk-thm-vanishing` | reused |
+| 9423 | Thm Smooth base change for classical torsion complexes | `sbc:torsion` | Smooth Base Change | `sk-thm-sbc-derived` | reused |
+| 9464 | Rem The invertibility and boundedness hypotheses | `—` | Smooth Base Change | `sk-rem-sbc-hypotheses` | new remark |
+| 9485 | Thm Smooth base change for all admissible coefficients | `sbc:uniform` | Six Functors: Basic Constructions | `sk-thm-sbc-coefficients` | reused, moved |
+| 9608 | Cor Open direct images and smooth product families | `sbc:applications` | Six Functors: Basic Constructions | `sk-cor-sbc-applications` | new |
+| 9639 | Rem Smooth base change, proper base change and purity | `sbc:scope` | Smooth Base Change | `sk-rem-sbc-scope` | new remark |
+| 16853 | Thm Extension from a split generic Galois cover | `app:sbc-spreading` | Smooth Base Change | `sk-prop-input-spreading` | reused |
