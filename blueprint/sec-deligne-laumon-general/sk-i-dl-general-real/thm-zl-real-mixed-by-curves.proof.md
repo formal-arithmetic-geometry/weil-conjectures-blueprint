@@ -3,8 +3,8 @@ kind  = "proof"
 of    = "thm-zl-real-mixed-by-curves"
 +++
 First suppose $X_0$ is smooth geometrically connected affine of
-positive dimension and $\mathcal G$ is lisse in
-[def-weil-pbc-constructible-complexes] and real in
+positive dimension and $\mathcal G$ is lisse, i.e. a locally free $\QbarX$-module of finite
+rank on $X_{\mathrm{proét}}$ ([sk-lem-coefficient-heart]), and real in
 [def-wf-iota-real]. We construct the finite Weil filtration
 required by [def-weil-punctual-weights]. By
 [lem-zl-geometric-constituents-any-base], after one finite
@@ -64,7 +64,8 @@ X=Z_0\supset Z_1\supset\cdots\supset Z_t=\varnothing
 $$
 
 such that $U_a=Z_a\setminus Z_{a+1}$ is a disjoint union of smooth
-connected affine pieces on which the sheaf is lisse. To construct a
+connected affine pieces on which the sheaf is lisse; the lisse loci
+exist by the stratification of [sk-lem-coefficient-heart] (3). To construct a
 step, take in each irreducible component of $Z_a$ a dense smooth
 affine open inside the lisse locus, avoiding all the other components.
 Their disjoint union is open in $Z_a$; its closed complement has

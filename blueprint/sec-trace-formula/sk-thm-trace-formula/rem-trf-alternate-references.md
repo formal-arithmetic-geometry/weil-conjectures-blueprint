@@ -17,7 +17,7 @@ and its proof in Section 64.16
 ([Tag 03UF](https://stacks.math.columbia.edu/tag/03UF)).
 These give a second independent reference for the ingredients of
 [thm-trf-lefschetz-verdier], [thm-trf-frobenius-fixed-points]
-and [thm-trf-grothendieck-lefschetz-qbar]. The pro-etale (rather
+and [sk-thm-tf-uniform-formula]. The pro-etale (rather
 than etale) and the correspondence form used here is the project's
 convention; the trace-class formalism is that of Milne, Lectures on
 Etale Cohomology, Sections 24–29, and $SGA5$, Expose III.

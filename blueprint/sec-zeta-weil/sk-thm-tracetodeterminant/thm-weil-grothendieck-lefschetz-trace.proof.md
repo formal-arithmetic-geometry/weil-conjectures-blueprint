@@ -1,48 +1,40 @@
 +++
 kind  = "proof"
 of    = "thm-weil-grothendieck-lefschetz-trace"
+uses = ["det-thm-tf-uniform-formula-weil", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-scalar-six", "def-weil-local-frobenius-trace", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-cohomology-sheaves", "def-weil-ordinary-compact-cohomology", "def-weil-global-geometric-frobenius", "def-trf-frobenius-operators", "cor-trf-point-counting", "prop-weil-proper-compact-coincidence", "def-weil-point-counts-zeta", "thm-zl-lefschetz-weil-identity"]
 +++
 *Step 1: the identity.* The local data of the interface are the
 local Frobenius operators $F_x^{(n)}$ and the stalk complexes
-$K_{\bar x}=L\bar x^*\operatorname{For}(K_E)$ of
+$K_{\bar x}=L\bar x^*K$ of
 [def-weil-local-frobenius-trace], computed with the derived
 pullback of [def-weil-derived-pullback-tensor-hom] and traced
 alternately over the cohomology sheaves of
 [def-weil-derived-cohomology-sheaves]; the
 global side is the compact-support cohomology of
 [def-weil-ordinary-compact-cohomology] with the geometric-Frobenius
-operator of [def-weil-global-geometric-frobenius]. The identity
-is the trace formula of the trace-formula chapter: at the finite coefficient stage
-it is [thm-trf-grothendieck-lefschetz-finite-ring] (whose finite
-ring, finite field, and trace-class hypotheses are the ones recorded in
-the interface), the $E$-valued form is [thm-trf-trace-formula-e],
-and the $\Qlb$-form over the common-stage coefficients of
-[def-weil-algebraically-closed-coefficients] is
-[thm-trf-grothendieck-lefschetz-qbar]; the local terms are the
-fixed-point and local-term computations of
-[thm-trf-frobenius-fixed-points] and
-[thm-trf-frobenius-local-term] through the
-[thm-trf-lefschetz-verdier] comparison on the projective line, in the
-trace-formula chapter's reduction to curves (affine line, Weil
-$!$-pushforward along the relative Frobenius, localization),
-with the trace classes of
-[def-trf-karoubi-trace] and the independence of
-[prop-trf-karoubi-independence]. This step inherits the inputs of
-the finite-ring trace formula, the construction of the Verdier local trace
-and its compatibility with extension by zero to the projective line, both
-of which are proved in the trace-formula chapter.
-The properness hypothesis in the Lefschetz–Verdier comparison cannot be
-dropped for an arbitrary correspondence on a non-proper scheme.
-The displayed identity,
-understood after the mapping of the $E$-valued traces along
-$E\hookrightarrow\Qlb$, is exactly the one of
-[thm-trf-grothendieck-lefschetz-qbar] transcribed to the
-interface's notation, and the induced Frobenius operators on the
-geometric stalks are those of the local Frobenius construction
-[def-trf-frobenius-operators].
+operator of [def-weil-global-geometric-frobenius]. With these
+identifications, and the induced Frobenius operators on the geometric
+stalks of [def-trf-frobenius-operators], the displayed identity is the
+Grothendieck–Lefschetz trace formula [det-thm-tf-uniform-formula-weil] in its
+form (2) for $\Lambda=\Qlb$ and $m=n$: the complexes are perfect, so the
+alternating sums of traces over cohomology are the traces of
+[det-thm-tf-uniform-formula-weil] (1), and all sums over degrees are finite.
+That theorem is proved in the trace-formula chapter from the finite-ring
+trace formula, the Lefschetz–Verdier comparison on the projective line and
+the local-term computations. The properness hypothesis in the
+Lefschetz–Verdier comparison cannot be dropped for an arbitrary
+correspondence on a non-proper scheme.
+
+For the $E$-model clause: if $K\cong(K_E)_{\Qlb}$ compatibly with the Weil
+structures, the stalks and the compactly supported cohomology of $K$ are
+obtained from those of $K_E$ by the flat extension of scalars, compatibly
+with the Frobenius operators ([sk-prop-scalar-six]), and traces commute
+with extension of scalars; such a model exists by
+[sk-thm-sfb-qlbar-two-colimit] (3), and the Weil structure descends to
+some finite $E$ by (2) applied with $r=0$, after enlarging $E$.
 
 *Step 2: the point-count specialization.* For
-$K_E=E_Y$, $K=(\Qlb)_Y$, and proper $Y_0$, the
+$K=(\Qlb)_Y$ and proper $Y_0$, the
 interface's constant-sheaf clause is [cor-trf-point-counting],
 whose second form replaces compact-support by ordinary cohomology via
 the proper coincidence of [prop-weil-proper-compact-coincidence];

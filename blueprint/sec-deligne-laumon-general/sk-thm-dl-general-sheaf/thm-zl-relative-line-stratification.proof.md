@@ -3,11 +3,12 @@ kind  = "proof"
 of    = "thm-zl-relative-line-stratification"
 +++
 We work with reduced strata; by [i-topology], nilpotent thickenings do not change the
-etale coefficient categories. We induct on closed subsets of the
+coefficient categories. We induct on closed subsets of the
 Noetherian target, and first explain the step on an integral affine
 target $Y=\operatorname{Spec}B$. The scheme
-$\mathbf A^1_Y$ is integral. Constructibility in
-[def-weil-pbc-constructible-complexes] gives a nonempty open
+$\mathbf A^1_Y$ is integral. Constructibility ([sk-def-sfb-constructible]; by
+[sk-lem-coefficient-heart] the strata carry lisse $\Qlb$-modules, i.e.
+locally free of finite rank) gives a nonempty open
 $U\subset\mathbf A^1_Y$ on which $\mathcal F$ is lisse.
 Let $Z=\mathbf A^1_Y\setminus U$, with its reduced closed structure.
 If $Z$ is empty there is nothing to remove. Otherwise its ideal

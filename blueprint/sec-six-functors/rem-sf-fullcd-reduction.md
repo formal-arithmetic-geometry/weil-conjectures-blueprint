@@ -12,7 +12,7 @@ general separated finite-type morphism. Three things about that condition
 can now be said exactly.
 
 1. *Its torsion half is a theorem, on the étale site and
-independently of the coefficient stage.* For the étale site the
+independently of the admissible coefficient ring.* For the étale site the
 vanishing required by $\operatorname{FullCD}$ holds for every sheaf of
 $A$-modules, with the bound $2d$ for a source of dimension at most
 $d$, by [lem-sf-etale-direct-image-vanishing]; that lemma quantifies

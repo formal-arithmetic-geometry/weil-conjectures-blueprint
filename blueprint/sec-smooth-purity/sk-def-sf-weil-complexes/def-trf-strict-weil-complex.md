@@ -4,7 +4,7 @@ kind = "definition"
 title = "Strict Weil complex at finite coefficients"
 lean = ["AlgebraicGeometry.ProEtale.StrictWeilComplex", "AlgebraicGeometry.ProEtale.StrictWeilComplex.Hom", "AlgebraicGeometry.ProEtale.StrictWeilComplex.hom_ext", "AlgebraicGeometry.ProEtale.StrictWeilComplex.forget", "AlgebraicGeometry.ProEtale.GeometricFiberStrictWeilComplex", "AlgebraicGeometry.ProEtale.StrictWeilComplex.map_hom_eq_zero_of_iso_unit", "AlgebraicGeometry.ProEtale.GeometricFiberStrictWeilComplex.map_hom_eq_zero_of_iso_unit"]
 order = 2509
-uses = ["def-trf-coefficient-conventions", "def-trf-scheme-frobenius", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
+uses = ["def-trf-coefficient-conventions", "def-trf-scheme-frobenius", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "sk-def-sf-weil-complexes"]
 +++
 Fix the global finite-field datum
 and the coefficient
@@ -24,12 +24,12 @@ geometric-Frobenius
 automorphism of [def-trf-scheme-frobenius]; morphisms are morphisms
 of $K$ commuting with $\varphi$. Write
 $D^b_{ctf,\mathrm W}(X,A)$ for the resulting category, the finite
-coefficient stage of the
+admissible coefficient ring of the
 Weil-complex category of
 the trace-formula chapter, with its forgetful functor $\operatorname{For}$.
-This is a category of pairs over $D^b_{ctf}(X,A)$, not a triangulated
-(derived) category of Weil sheaves such as $D^b_{c,\mathrm W}$ of
-[def-weil-weil-sheaf-complex].
+This is the case $\Lambda=A$ of the Weil complexes of
+[sk-def-sf-weil-complexes]: a category of pairs over $D^b_{ctf}(X,A)$, not a
+triangulated (derived) category of Weil sheaves.
 
 Its Hom-groups are not Ext groups of Weil sheaves: a nonsplit Frobenius
 extension of $A$ by $A$ (a Jordan block) gives no nonzero map $A\to A[1]$ of

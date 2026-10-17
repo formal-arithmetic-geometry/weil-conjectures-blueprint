@@ -5,22 +5,23 @@ title = "Compact-support finiteness and Frobenius"
 lean = ["AlgebraicGeometry.WeilComplex.exists_subsingleton_compactlySupportedCohomology", "AlgebraicGeometry.WeilComplex.exists_subsingleton_cohomology", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_adicConstant", "AlgebraicGeometry.WeilSheaf.finrank_cohomology_zero_adicConstant", "AlgebraicGeometry.WeilSheaf.frobenius_cohomology_zero_adicConstant", "AlgebraicGeometry.WeilComplex.nonempty_equiv_compactlySupportedCohomology_cohomology", "AlgebraicGeometry.WeilSheaf.subsingleton_cohomology_adicConstant_of_isProper", "AlgebraicGeometry.WeilSheaf.exists_linearEquiv_cohomology_zero_adicConstant", "AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_cohomology"]
 order = 2775
 tags = ["latex:proposition"]
-uses = ["cor-galois-lisse-representations", "cor-weil-pbc-geometric-fiber-finite", "def-weil-derived-complete-integral-detailed", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "fin4-lem-fibrewise-cohomological-dimension", "prop-finite-compact-support-constructibility", "sbc-thm-finiteness-finite-type", "thm-galois-fundamental"]
+uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "sk-lem-finite", "sk-prop-sfb-qlbar-colimit-x", "det-lem-coefficient-finite-descent-sections"]
 +++
 Fix the finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, choose a prime $\ell\neq p$, write
 $\Ql=\mathbf Q_\ell$, choose an algebraic closure $\Qlb$ of $\Ql$, and
-choose a finite extension $E/\Ql$ contained in $\Qlb$. Let $Y_0$ be a
+choose a finite extension $E/\Ql$ contained in $\Qlb$, regarded as a condensed
+ring. Let $Y_0$ be a
 separated finite-type
-$k_0$-scheme, put $Y=Y_0\times_{k_0}k$, and choose
-$K\in D^b_{c,\mathrm W}(Y,E)$, a
-Weil complex. Write $E_Y$ for the constant
+$k_0$-scheme, put $Y=Y_0\times_{k_0}k$, and let $(K,\theta)$ be a Weil
+complex in the sense of [def-weil-weil-sheaf-complex]: $K\in\Dbc(Y,E)$ and
+$\theta:Lg_Y^*K\xrightarrow{\sim}K$ (for an object of $D^b_{c,\mathrm W}(Y,E)$
+take $(\operatorname{For}(K),\theta_K)$). Write $E_Y=p_Y^*E$ for the constant
 Weil sheaf. Then the
 $E$-coefficient abbreviations mean
 $H^i(Y,E)=H^i(Y,E_Y)$ and $H_c^i(Y,E)=H_c^i(Y,E_Y)$. The
 ordinary and compact-support
-cohomology groups, in particular $H_c^i(Y,K)$ meaning
-$H_c^i(Y,\operatorname{For}K)$, are finite-dimensional, vanish outside a
+cohomology groups $H^i(Y,K)$ and $H_c^i(Y,K)$ are finite-dimensional, vanish outside a
 finite interval, and carry the
 geometric Frobenius
 automorphism. If $Y_0$ is

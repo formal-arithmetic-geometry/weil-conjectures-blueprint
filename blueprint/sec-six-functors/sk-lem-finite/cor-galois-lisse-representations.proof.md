@@ -10,9 +10,6 @@ with the module structure, a finite etale cover with a $\Lambda$-linear
 action of its automorphism group; by [thm-galois-fundamental] such
 objects correspond to finite continuous $\pi_1$-sets with $\Lambda$-linear
 action, i.e. to continuous representations on finite $\Lambda$-modules.
-The $\overline{\mathbf Q}_\ell$-statement follows by writing a lisse sheaf
-with finite stalks as a filtered colimit of finite-level ones over the
-coefficient stages of [def-weil-pbc-constructible-complexes].
 
 *Exactness.* Let $u:\mathcal F\to\mathcal G$ be a map of locally
 constant sheaves of finite $\Lambda$-modules. Choose an etale covering

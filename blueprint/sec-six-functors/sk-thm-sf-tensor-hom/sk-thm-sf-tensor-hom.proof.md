@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sf-tensor-hom"
-uses = ["sk-prop-sf-comparison", "sk-rem-sf-pf-done", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale"]
+uses = ["sk-rem-sf-pf-done", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale"]
 +++
 The first formula is checked by the Yoneda lemma, localizing the
 exceptional adjunction. For $N\in D(Y_{\mathrm{pro\acute et}},\Lambda)$,
@@ -33,31 +33,9 @@ Transposing evaluation twice in this pairing identifies
 $Rf_*\delta_K$ with $\delta_{Rf_*K}$. This
 proves the last assertion.
 
-*Complement.* For every $N$ the adjunctions and the tensor–internal-Hom
-adjunction give a chain
-
-$$
-\begin{aligned}
-\operatorname{Hom}_Y\bigl(N,\cHom_Y(Rf_!K,L)\bigr)
-&\cong\operatorname{Hom}_Y(Rf_!K\otimes^LN,L)\\
-&\cong\operatorname{Hom}_Y\bigl(Rf_!(K\otimes^LLf^*N),L\bigr)\\
-&\cong\operatorname{Hom}_X\bigl(K\otimes^LLf^*N,f^!L\bigr)\\
-&\cong\operatorname{Hom}_X\bigl(Lf^*N,\cHom_X(K,f^!L)\bigr)\\
-&\cong\operatorname{Hom}_Y\bigl(N,Rf_*\cHom_X(K,f^!L)\bigr),
-\end{aligned}
-$$
-
-in which the second isomorphism is the *inverse* of the projection
-formula at the coefficient stage of $\Lambda$ — [sk-thm-sf-pf-finite] at
-$\Lambda=A_{E,n}$, and [sk-thm-sf-pf-adic], [sk-thm-sf-pf-field],
-[sk-thm-sf-pf-proetale] at the remaining stages, all stated in the ambient
-$D^+$ and collected in [sk-rem-sf-pf-done] — and the third is the adjunction
-$Rf_!\dashv Rf^!$ of [thm-sf-ambient-adjoint-class], valid because
-$K\otimes^LLf^*N$ is bounded below of étale origin when $N$ is. The chain
-is natural in $N$ ranging over the bounded-below complexes of étale origin,
-a full subcategory containing both sides (each is the comparison image of the
-corresponding complex on the étale site, [sk-prop-sf-comparison]), so
-the two objects represent the same functor there and Yoneda gives the
-isomorphism (1), in the ambient category $D^+(Y,\Lambda)$. Its naturality in
-$K$ and $L$ and its compatibilities with finite reduction, scalar extension
-and shifts are those of the ingredients.
+The projection formula used here holds for every admissible $\Lambda$ on
+$D(Y_{\mathrm{pro\acute et}},\Lambda)$: [sk-thm-sf-pf-finite] and
+[sk-thm-sf-pf-proetale] for finite $\Lambda$, [sk-thm-sf-pf-adic] and
+[sk-thm-sf-pf-field] for $\mathcal O_E$, $E$ and $\Qlb$ ([sk-rem-sf-pf-done]).
+The Yoneda argument therefore applies to every admissible condensed
+$\Lambda$ directly, with no transport between coefficient rings.

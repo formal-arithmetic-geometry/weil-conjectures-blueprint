@@ -2,7 +2,7 @@
 id = "det-sp-coefficient-towers-abelian"
 kind = "lemma"
 title = "The abelian category of coefficient towers"
-uses = ["def-weil-pbc-adic-coefficient-datum"]
+uses = ["sk-def-sp-coefficient-towers", "sk-prop-sfb-qlbar-colimit-x"]
 +++
 Let $E/\Ql$ be finite and $T$ a scheme.
 

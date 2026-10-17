@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Weight shift under a Tate twist"
 lean = ["AlgebraicGeometry.WeilGroup.IsPunctuallyPure.tprod_tateLine", "AlgebraicGeometry.WeilGroup.HasWeightsAtMost.tprod_tateLine"]
 order = 3002
-uses = ["def-coefficient-twists-detailed", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-module-weights", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-tw-multiplicativity"]
+uses = ["def-coefficient-twists-detailed", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-module-weights", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-tw-multiplicativity", "sk-def-sf-weil-complexes"]
 +++
 Fix the finite-field datum
 $(p,a,q,k_0,k)$ and an isomorphism

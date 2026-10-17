@@ -2,7 +2,8 @@
 kind  = "proof"
 of    = "prop-weil-operations"
 +++
-The equivariant lifts of the operations, evaluations, adjunction maps,
+The operations preserve $\Dbc(-,\Lambda)$ by [sk-thm-sf-ctf-stability].
+The induced Weil structures on the operations, evaluations, adjunction maps,
 exchanges and projection maps are [lem-fix-weil-operations].
 Pullback by the Frobenius automorphism is exact, so it commutes with
 the truncations of [prop-constructible-truncations].

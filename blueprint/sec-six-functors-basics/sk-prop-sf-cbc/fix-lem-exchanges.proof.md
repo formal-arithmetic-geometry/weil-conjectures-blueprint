@@ -19,9 +19,11 @@ in the square and the coefficient ring
 ([def-weil-pbc-cartesian-square]), the counit is natural by
 [def-weil-derived-pullback-tensor-hom] and
 [def-weil-derived-direct-image], and the extension-by-zero
-identification is natural by [def-cbc-exchange-map]; the
-transports of [thm-cbc-finite-extension] and
-[thm-cbc-qbar] are the coefficient extensions of the same maps.
+identification is natural by [def-cbc-exchange-map] at finite
+levels and by [sk-def-sfb-open-base-change] on the condensed categories at
+$\mathcal O_E,E,\Qlb$, where $\operatorname{Ex}_!$ is the morphism of
+[sk-def-sfb-shriek-base-change-morphism], an isomorphism by
+[thm-cbc-complete-proetale] and [sk-thm-sfb-shriek-base-change].
 Step 3: identity and pasting. The identity and pasting equations
 for $\operatorname{Ex}_*$ are the mate versions of the identity
 and pasting laws of the identification of the cartesian square,
@@ -37,10 +39,9 @@ Step 4: smooth base
 change. For smooth $g$, $\operatorname{Ex}_*$ is the derived
 exchange morphism of [sbc-def-base-change-map] read on the same
 square, and it is an isomorphism by
-[sbc-thm-overline-mathbf-q-ell-coefficient-smooth-base-ch] at
-the algebraically closed rational level and by the corresponding
-finite-level statement of [sbc-thm-bounded-below-derived-smooth-base-change]
-at the other levels. Step 5: independence. The comparison
+[sbc-thm-bounded-below-derived-smooth-base-change] at finite levels and by
+[sk-thm-sbc-coefficients] at $\mathcal O_E$, $E$ and $\Qlb$ (condensed
+$\Dbc$). Step 5: independence. The comparison
 isomorphisms of [prop-compactification-coherence-detailed] identify the
 two compactification candidates of $\operatorname{Ex}_!$ and are
 compatible with the composition law of

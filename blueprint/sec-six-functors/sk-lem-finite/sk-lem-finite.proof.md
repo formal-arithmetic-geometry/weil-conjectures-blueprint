@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-lem-finite"
-uses = ["sk-thm-sf-ctf-stability", "sk-thm-sf-direct-image-tor-amplitude"]
+uses = ["sk-thm-sf-ctf-stability", "sk-thm-sf-direct-image-tor-amplitude", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 At a geometric point a constructible finite-coefficient complex has
 bounded finite cohomology; its finite Tor amplitude makes it perfect.
@@ -33,22 +33,33 @@ fibrewise cohomological-dimension bound, each applied to the
 cohomology sheaves of $K$ through the spectral sequence of the truncations
 (for $K=\Lambda[-1]$ on a point the bound is $1$, not $2\dim X=0$).
 
-The uniform-tower reconstruction
-places $\RGammac(X,K)$ in $D^b_{\mathrm{fg}}(\Oe)$ with perfect
-reductions of one common amplitude. The same holds for
-$\RGamma(X,K)$: choose a compactification $j:X\hookrightarrow\bar X$
-of the separated finite-type $k$-scheme $X$, as in the definition of
-$Rf_!$. Then
-$Ra_{X*}=Ra_{\bar X*}Rj_*=Ra_{\bar X!}Rj_*$, $\bar X$ being proper,
-i.e. $\RGamma(X,K)=\RGammac(\bar X,Rj_*K)$; and $Rj_*$ carries
-$\Dctf(X,\Lambda)$ to $\Dctf(\bar X,\Lambda)$, with Tor amplitude
-$[a,b]\mapsto[a,b+2\dim X]$, compatibly with the finite reductions
-([sk-thm-sf-direct-image-tor-amplitude];
-[thm-sf-ctf-stability](iii),(vii)). So $(Rj_*K_n)_n$ is again a
-normalized system with common bounds on the proper $\bar X$, and the
-compact-support case just proved, applied to $\bar X$ and $Rj_*K$,
-places $\RGamma(X,K)$ in $D^b_{\mathrm{fg}}(\Oe)$ with perfect
-reductions of one common amplitude. The rational and algebraically closed
-stages of $\RGammac$ and $\RGamma$ follow by flat extension of scalars;
-the dual of a bounded complex of finite projective modules
+Now let $\Lambda=\Oe$ and $K\in\Dbc(X,\Oe)$ with cohomology sheaves in
+$[a,b]$, and put $K_n=K\otimes^{\mathbf L}_{\mathcal O_{E,X}}\AEn$. Reduction
+modulo $\pi_E^n$ commutes with $Ra_{X*}$ and $Ra_{X!}$ ([sk-prop-scalar-six]),
+so $\RGammac(X,K)\otimes^{\mathbf L}_{\Oe}\AEn\simeq\RGammac(X,K_n)$, and
+likewise for $\RGamma$. By the main part both are perfect over $\Oe$, hence
+lie in $D^b_{\mathrm{fg}}(\Oe)$. Their lower bound is $a$, because $Ra_{X*}$
+and $Ra_{X!}=R\bar a_*j_!$ are left t-exact. For the upper bound, $K_1$ has
+cohomology sheaves in $[a-1,b]$ (the sequence
+$0\to\mathcal H^q(K)/\pi_E\to\mathcal H^q(K_1)\to\mathcal H^{q+1}(K)[\pi_E]\to0$),
+so by the torsion case $\RGammac(X,K_1)$ has cohomology in degrees
+$\le b+2\dim X$. If $C$ is a perfect $\Oe$-complex and $i$ is the largest
+degree with $H^i(C)\neq0$, then $H^i(C\otimes^{\mathbf L}_{\Oe}A_{E,1})=
+H^i(C)/\pi_E\neq0$ by Nakayama, so $i\le b+2\dim X$. Thus both complexes have
+cohomology in $[a,b+2\dim X]$. A perfect complex over $\Oe$ is represented by
+a bounded complex of finite free modules, and its reductions are perfect of
+one Tor amplitude independent of $n$.
+
+For $\Lambda=E$, $K$ is obtained by finitely many cones and shifts from objects
+$(a_!L_0)[1/\ell]$ with $L_0$ lisse over $\mathcal O_{E,S}$ and placed in the
+degrees of the cohomology sheaves of $K$, by dévissage along the truncation
+triangles, [sk-lem-coefficient-heart] and [sk-lem-integral-models]. Since
+$\RGammac$ and $\RGamma$ commute with $-\otimes_{\Oe}E$
+([sk-prop-scalar-six]), which is exact, the integral case gives the degree
+bound and finite-dimensionality. For $\Lambda=\Qlb$, $K$ descends to some
+$K'\in\Dbc(X,E')$ with the same cohomological range
+([sk-thm-sfb-qlbar-two-colimit]; extension of scalars along $E'_X\to\Qlb_X$
+is exact and faithful, $\Qlb_X$ being a filtered colimit of the finite free
+$E'_X$-modules $F_X$ in which $E'_X$ is a direct summand), and flat extension of scalars gives the claim.
+The dual of a bounded complex of finite projective modules
 is again one, termwise.

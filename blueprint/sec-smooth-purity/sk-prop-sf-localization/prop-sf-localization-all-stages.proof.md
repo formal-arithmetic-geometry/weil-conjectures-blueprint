@@ -2,79 +2,51 @@
 kind  = "proof"
 of    = "prop-sf-localization-all-stages"
 +++
-*Vanishing.* At every stage $\operatorname{Hom}(i_*P[m],Rj_*N)=0$ for
-$P\in D^b_c(Z,\Lambda)$ and $N\in D^b_c(U,\Lambda)$. At a finite stage this
-is $\operatorname{Hom}(j^*i_*P[m],N)$ by $j^*\dashv Rj_*$
-([def-weil-pbc-proetale-operations]), and $j^*i_*=0$ by
-[lem-exc-proetale-closed-essential-image] and the exactness of $i_*$
-([lem-exc-proetale-closed-exact]). At $\mathcal O_E$ it follows from the
-finite case by the Roos triangle of [prop-weil-pbc-roos-triangle] (as in
-[prop-sf-open-closed-triangle-all-stages]), since
-$Rj_*N=R\varprojlim_n\operatorname{Res}_nRj_*N_n$ by
-[def-weil-derived-direct-image], [prop-weil-pbc-direct-image-limits]. At $E$
-and $\Qlb$ the groups are $\otimes E$, resp. filtered colimits, of these.
+*Vanishing.* For every $\Lambda$, $\operatorname{Hom}(i_*P[m],Rj_*N)=0$ for
+$P\in D(Z_{\mathrm{proét}},\Lambda)$ and $N\in D(U_{\mathrm{proét}},\Lambda)$. Indeed
+it is $\operatorname{Hom}(j^*i_*P[m],N)$ by $j^*\dashv Rj_*$
+([def-weil-pbc-proetale-operations], [sk-def-sf-operations]), and
+$j^*i_*=0$: $j^*$ is restriction to $U_{\mathrm{proét}}$, and
+$(i_*M)(V)=M(V\times_XZ)=0$ for $V$ over $U$ (compare
+[lem-exc-proetale-closed-essential-image]). Moreover $j^*Rj_*\cong\operatorname{id}$,
+since restriction to the open $U$ is exact and preserves K-injective
+complexes.
 
-*Finite stage.* Let $A=A_{E,n}$. For (1), write $G=\nu_U^*G'$ with $G'$
-étale bounded constructible ([lem-sf-proetale-constructible-origin]); then
-$Rj_*G\cong\nu_X^*Rj_*G'$ by [prop-weil-pbc-comparison-direct-image], and
-$Rj_*G'$ is bounded constructible by [thm-fin-open-immersion] and dévissage
-over the finitely many cohomology sheaves ([thm-constructible-serre]). The
-right adjoint $Ri^!$ of $i_*$ on the ambient categories is
-[lem-exc-proetale-closed-support], and the triangle of (3) is
-[lem-exc-proetale-support-triangle]. Its outer vertices $K$ and
-$Rj_*j^*K$ are in $D^b_c$, hence so is $i_*Ri^!K$, and
-$Ri^!K\cong i^*i_*Ri^!K$ lies in $D^b_c(Z,A)$. So $Ri^!$ restricts to
-$D^b_c$, and by uniqueness of right adjoints it is the finite exceptional
-inverse image of [def-weil-exceptional-inverse-image], as in
-[prop-sf-closed-immersion-unit].
+*(1).* For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$ one has $D^b_c=D^b_{ctf}$, and $Rj_*$
+preserves it ([sk-thm-sf-ctf-stability]). For $\Lambda=A=A_{E,n}$, write
+$G=\nu_U^*G'$ with $G'$ étale bounded constructible
+([lem-sf-proetale-constructible-origin]); then $Rj_*G\cong\nu_X^*Rj_*G'$ by
+[prop-weil-pbc-comparison-direct-image], and $Rj_*G'$ is bounded constructible
+by [thm-fin-open-immersion] and dévissage over the finitely many cohomology
+sheaves ([thm-constructible-serre]).
 
-*Integral stage.* Put $R=\mathcal O_E$, $A_n=R/\varpi_E^n$ and
-$K_n=K\otimes^L_RA_n$. For (1): $M=Rj_*G$ is derived complete with
-$M_n\cong Rj_*G_n$ ([prop-weil-pbc-direct-image-limits]), and these are
-bounded constructible by the finite stage. The triangles
-$M_1\to M_n\to M_{n-1}\to$ induced by
-$0\to A_1\xrightarrow{\varpi_E^{n-1}}A_n\to A_{n-1}\to0$ show inductively
-that all $M_n$ lie in the cohomological interval of $M_1$ and are
-constructible ([thm-constructible-serre]), so $M\in D^b_c(X,R)$.
-
-For (2) and (3), let $K\in D^b_c(X,R)$, let $K\to Rj_*j^*K$ be the derived
-limit of the finite units (its reductions are the finite units, by
-[lemma-weil-pbc-completed-pullback-reduction] and
-[prop-weil-pbc-direct-image-limits]), and let $F$ be its fibre, an object of
-$D^b_c(X,R)$ by (1). By TR3 and the finite triangles, the induced map of
-triangles is an isomorphism on two terms, hence on the third
-([lem-sf-triangle-two-out-of-three]):
-$F_n\cong i_*Ri_n^!K_n$. Put $Q=i^*F\in D^b_c(Z,R)$. The unit
-$F\to i_*i^*F$, taken as the derived limit of the finite units, reduces to
-the finite units, which are isomorphisms because $F_n$ lies in the image of
-$i_*$ ([lem-exc-proetale-closed-essential-image]). Its cone is derived
-complete with zero reductions, hence zero by [def-weil-derived-complete]; so
-$F\cong i_*Q$ and $Q_n\cong Ri_n^!K_n$. For $P\in D^b_c(Z,R)$ the vanishing
-above and the full faithfulness of [prop-sf-closed-unit-all-stages] give,
-naturally in $P$,
+*(2) and (3).* The argument is the same for every $\Lambda$. Let
+$K\in D^b_c(X,\Lambda)$ and let $F\to K\to Rj_*j^*K\to F[1]$ be a fibre
+sequence of the open unit. By (1), $F\in D^b_c(X,\Lambda)$
+([sk-def-sfb-bounded-constructible]). Since $j^*K\to j^*Rj_*j^*K$ is an
+isomorphism, $j^*F=0$. The open–closed triangle
+[prop-sf-open-closed-triangle-all-stages] for $F$ then shows that the unit
+$F\to i_*i^*F$ is an isomorphism. Put $Q=i^*F\in D^b_c(Z,\Lambda)$. For
+$P\in D^b_c(Z,\Lambda)$ the vanishing and the full faithfulness of
+[prop-sf-closed-unit-all-stages] give, naturally in $P$,
 $$
 \operatorname{Hom}(P,Q)\cong\operatorname{Hom}(i_*P,i_*Q)
 =\operatorname{Hom}(i_*P,F)\xrightarrow{\sim}\operatorname{Hom}(i_*P,K).
 $$
-Thus $Ri^!K:=Q$ is right adjoint to $i_*$, with counit $F\to K$; since $Q$
-is derived complete with reductions $Ri_n^!K_n$, it is the derived limit of
-[def-weil-exceptional-inverse-image]. The triangle of (3) is
-$F\to K\to Rj_*j^*K\to$.
-
-*Rational stage.* The exact $R$-linear functor $Ri^!$, the adjunction data
-and the maps of the triangle rationalize by
-[prop-weil-pbc-rational-transport]; Hom groups become
-$\operatorname{Hom}\otimes_RE$, so the adjunction persists, and triangles
-remain distinguished.
-
-*Algebraically closed stage.* Since $Ri^!K\cong i^*\operatorname{fib}(K\to
-Rj_*j^*K)$ with a fibre unique up to unique isomorphism (by the vanishing),
-the scalar-extension compatibilities of $i^*,j^*,Rj_*$
-([prop-weil-pbc-scalar-extension]) induce coherent ones for $Ri^!$. So
-$Ri^!$, its adjunction and the triangle descend by
-[prop-weil-pbc-descent-functors], triangles remain distinguished by
-[thm-weil-pbc-verdier-axioms], and the Hom bijections pass to the filtered
-colimits.
+Thus $Ri^!K:=Q$ is right adjoint to $i_*$ on $D^b_c$, with counit $F\to K$,
+and the triangle of (3) is $F\to K\to Rj_*j^*K\to$. The vanishing makes
+its third arrow unique and the triangle functorial. By uniqueness of right
+adjoints $Ri^!$ is the restriction of the exceptional inverse image of
+[sk-thm-existence] ($i_*=Ri_!$, $i$ being proper). At $\Lambda=A$ it is
+also the restriction of the ambient right adjoint of
+[lem-exc-proetale-closed-support], with the triangle of
+[lem-exc-proetale-support-triangle], and hence the finite exceptional inverse
+image of [def-weil-exceptional-inverse-image], as in
+[prop-sf-closed-immersion-unit]. At $\mathcal O_E$ the coefficient
+comparisons along $\mathcal O_E\to A_{E,m}$ for $Rj_*$ and for the exceptional
+inverse image are isomorphisms ([sk-prop-scalar-six]). This gives
+$(Rj_*G)_m\cong Rj_*G_m$ and $(Ri^!K)_m\cong Ri_m^!K_m$; integral models and
+reductions enter only here, as consequences.
 
 *Consequences.* For (4): $\operatorname{Hom}(N[m],Ri^!Rj_*G)
 =\operatorname{Hom}(i_*N[m],Rj_*G)=0$ for all $N$ and $m$, so
@@ -149,16 +121,15 @@ with $-\otimes^L_A\kappa$ and the residue criterion give amplitude
 $[a,b+2d+c+1]$ for $Ri^!K$.
 
 *Other stages.* At $\mathcal O_E$, the reductions are
-$(Rj_*G)_m\cong Rj_*G_m$ ([prop-weil-pbc-direct-image-limits]) and
-$(Ri^!K)_m\cong Ri_m^!K_m$ (integral stage above), and similarly for
-$i^*,j^*,i_*$; the finite-stage bounds hold with intervals depending only on
-the uniform interval of the reductions of $G$, resp. $K$. At $E$ and $\Qlb$,
-$D^b_{ctf}=D^b_c$ by [def-weil-finite-tor-amplitude]. Clauses (3') and (4')
-are then (3) and (4) read inside the full subcategories $D^b_{ctf}$.
+$(Rj_*G)_m\cong Rj_*G_m$ and $(Ri^!K)_m\cong Ri_m^!K_m$ (shown above), and
+similarly for $i^*,j^*,i_*$; the finite-stage bounds hold with intervals
+depending only on the uniform interval of the reductions of $G$, resp. $K$.
+At $E$ and $\Qlb$, $D^b_{ctf}=D^b_c$ ([sk-def-sf-setting]). Clauses (3') and
+(4') are then (3) and (4) read inside the full subcategories $D^b_{ctf}$.
 
-*Weil structures.* The Weil structures of $i^*,j^*,Rj_*$ and the
-equivariance of the open unit are those of
-[prop-sf-open-closed-triangle-all-stages]. For a Weil complex $K$, the
+*Weil structures.* The Weil structures of $i^*,j^*,Rj_*$ come from the
+exchange isomorphisms for the Frobenius automorphism squares, and the open
+unit is equivariant, as in [prop-sf-open-closed-triangle-all-stages]. For a Weil complex $K$, the
 fibre $F$ therefore carries a unique Weil structure making $F\to K$
 equivariant (uniqueness from the vanishing), and $Ri^!K=i^*F$ inherits it;
 under the adjunction bijection above this is the mate of the Weil structure

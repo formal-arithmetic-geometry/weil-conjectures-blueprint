@@ -4,7 +4,7 @@ kind = "definition"
 title = "Determinant line"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.det", "Matrix.GeneralLinearGroup.detGL", "Matrix.GeneralLinearGroup.exists_algHom_comp_eq_evalAlgHom_detGL"]
 order = 2863
-uses = ["def-wf-fundamental-representation", "def-wf-weil-category"]
+uses = ["def-weil-weil-sheaf-complex", "def-wf-fundamental-representation", "sk-lem-coefficient-heart"]
 +++
 If $\mathcal V$ is a rank-$r$ lisse
 Weil sheaf with

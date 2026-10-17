@@ -26,4 +26,4 @@ pro-étale objects are the pullbacks of the bounded constructible étale
 objects, a reading recorded in clause (3) of
 [lem-cbc-proetale-stalk-conservative]; for those objects the
 corollary is exactly clause (iii) of the finite-Tor preservation summary at the
-finite coefficient stage $A$.
+finite coefficient ring $A$.

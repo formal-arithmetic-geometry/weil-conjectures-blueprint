@@ -3,13 +3,14 @@ id = "thm-zl-wme-deligne-estimate"
 kind = "theorem"
 title = "General $Rf_!$ weight theorem"
 order = 3195
-lean = ["AlgebraicGeometry.LAdicWeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
-uses = ["def-weil-complex-weights", "def-weil-pbc-qbar-category", "lem-zl-sheaves-to-complexes"]
+lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
+uses = ["def-weil-complex-weights", "def-weil-weil-sheaf-complex", "lem-zl-sheaves-to-complexes", "sk-def-sf-weil-complexes", "sk-def-sfb-bounded-constructible"]
 +++
 For every separated finite-type morphism $f:X_0\to Y_0$ of separated
 finite-type $k_0$-schemes and every constructible $\Qlb$-Weil complex
-$K$ (in the coefficient categories of
-[def-weil-pbc-qbar-category]),
+$K$, that is, $K\in\Dbc(X,\Qlb)$ ([sk-def-sfb-bounded-constructible])
+with a Weil structure ([sk-def-sf-weil-complexes],
+[def-weil-weil-sheaf-complex]),
 
 $$
 K\in D_{\le w}(X_0)\quad\Longrightarrow\quad Rf_!K\in D_{\le w}(Y_0),

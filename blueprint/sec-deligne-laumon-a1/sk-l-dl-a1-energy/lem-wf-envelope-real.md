@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The envelope is real"
 order = 3109
 uses = ["def-weil-punctual-weights", "def-wf-iota-real", "def-wf-normalized-real-envelope"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.isReal_realEnvelope", "AlgebraicGeometry.LAdicWeilSheaf.IsLisse.realEnvelope"]
+lean = ["AlgebraicGeometry.WeilSheaf.isReal_realEnvelope", "AlgebraicGeometry.WeilSheaf.IsLisse.realEnvelope"]
 +++
 Let $\mathcal F$ be a Weil sheaf, punctually $\iota$-pure of weight $w$,
 and let $b\in\Qlb^\times$ with $|\iota(b)|=q^{-w/2}$ (for instance

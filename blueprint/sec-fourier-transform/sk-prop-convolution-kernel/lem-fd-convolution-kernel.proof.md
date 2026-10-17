@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-fd-convolution-kernel"
+uses = ["lem-fd-stalk-formula", "prop-kernel-lisse", "lem-fd-as-lisse", "thm-pur-vector-bundle-thom", "sk-def-sf-setting", "fix-prop-projection-formula", "thm-pod-degreewise-perfectness-over-a-field", "def-pod-perfect-complex-on-x", "lem-fd-cohomology-affine-line-character"]
 +++
 Let $(\bar x,\bar y)$ be a geometric point of $V\times_SV$. By the same
 stalk computation as in [lem-fd-stalk-formula] – the fibre of $r_{13}$
@@ -24,8 +25,9 @@ $\mathbf A^r_{\bar k}$ whose first coordinate is $t=\langle\xi,c\rangle$
 with $c=x-y$, so that $\mathbf A^r_{\bar k}=\mathbf A^1_t\times\mathbf A^{r-1}$
 and the sheaf is $\mathrm{pr}^*\mathcal L_{\psi(t)}$ for the projection
 $\mathrm{pr}:\mathbf A^r\to\mathbf A^1_t$, a trivial vector bundle of rank
-$r-1$. The vector-bundle Thom isomorphism [thm-pur-vector-bundle-thom] (in
-the $\overline{\mathbf Q}_\ell$ transport of [def-pur-conventions]) gives
+$r-1$. The vector-bundle Thom isomorphism [thm-pur-vector-bundle-thom], applied with
+the admissible coefficient ring $\Lambda=\overline{\mathbf Q}_\ell$
+([sk-def-sf-setting]), gives
 $R\mathrm{pr}_!\overline{\mathbf Q}_\ell\cong
 \overline{\mathbf Q}_\ell(-(r-1))[-2(r-1)]$, so the projection formula
 [fix-prop-projection-formula] gives
@@ -40,7 +42,7 @@ $$
 
 The last complex vanishes by the degreewise Poincare duality of
 [thm-pod-degreewise-perfectness-over-a-field] for the smooth, separated (not
-proper) curve $\mathbf A^1$ at the field stage $\overline{\mathbf Q}_\ell$,
+proper) curve $\mathbf A^1$ with coefficients $\overline{\mathbf Q}_\ell$,
 applied to the lisse rank-one, hence perfect
 ([def-pod-perfect-complex-on-x]), sheaf $\mathcal L_{\psi(t)}$: it gives
 $H^i_c(\mathbf A^1,\mathcal L_{\psi(t)})^\vee\cong

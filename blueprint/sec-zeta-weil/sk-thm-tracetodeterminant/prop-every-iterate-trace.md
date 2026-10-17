@@ -5,7 +5,7 @@ title = "Every-iterate Grothendieck–Lefschetz identity"
 lean = ["AlgebraicGeometry.WeilSheaf.pointCount_eq_sum_trace_cohomology"]
 order = 3224
 tags = ["latex:proposition"]
-uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "prop-cohomological-finiteness", "thm-weil-grothendieck-lefschetz-trace"]
+uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "prop-cohomological-finiteness", "sk-def-sf-weil-complexes", "sk-def-sfb-bounded-constructible", "sk-def-sfb-pulled-back-coefficients", "thm-weil-grothendieck-lefschetz-trace"]
 +++
 Fix the finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$. Choose a prime $\ell\neq p$, write
@@ -13,9 +13,9 @@ $\Ql=\mathbf Q_\ell$, choose an algebraic closure $\Qlb$ of $\Ql$, and
 choose a finite extension $E/\Ql$ contained in $\Qlb$, and a
 separated finite-type
 $k_0$-scheme $Y_0$, and
-$Y=Y_0\times_{k_0}k$. Let
-$K\in D^b_{c,\mathrm W}(Y,E)$ be a
-Weil complex, let
+$Y=Y_0\times_{k_0}k$. Let $(K,\phi_K)$ be a
+Weil complex with $K\in D^b_c(Y,E)\subset D(Y_{\mathrm{proét}},E)$
+([sk-def-sfb-bounded-constructible], [sk-def-sf-weil-complexes]), let
 $F$ be its global
 geometric-Frobenius action on
 compactly supported
@@ -24,7 +24,7 @@ integer $n\geq1$ and each point $x\in Y_0(\mathbf F_{q^n})$, choose a
 geometric point
 $\bar x\to Y$ over $x$. Let
 $F_x^{(n)}$ be the local Frobenius operators and
-$K_{\bar x}=L\bar x^*\operatorname{For}(K)$ the stalk complexes, formed with
+$K_{\bar x}=L\bar x^*K$ the stalk complexes, formed with
 the derived pullback; their alternating traces are independent of the
 choices.
 The sets $Y_0(\mathbf F_{q^n})$ and their cardinalities $N_n(Y_0)$ use the
@@ -34,13 +34,14 @@ For every such $n$, one has
 $$
 \sum_{x\in Y_0(\mathbf F_{q^n})}\sum_{j\in\mathbf Z}(-1)^j
 \Tr\bigl(F_x^{(n)}\mid
-\mathcal H^j(\operatorname{For}K)_{\bar x}\bigr)
+\mathcal H^j(K)_{\bar x}\bigr)
 =\sum_{i\in\mathbf Z}(-1)^i
 \Tr\bigl(F^n\mid H_c^i(Y,K)\bigr).
 $$
 
 Both sums are finite. For the constant
-Weil sheaf $E_Y$, each local
+Weil sheaf $E_Y=p_Y^*E$ ([sk-def-sfb-pulled-back-coefficients]) with its
+canonical Weil structure, each local
 alternating trace is $1$, so
 
 $$
@@ -55,8 +56,8 @@ ordinary cohomology. In
 particular, let $X_0/\Fq$ be
 smooth, proper, geometrically
 connected of pure dimension $d\in\mathbf Z_{\geq0}$, put
-$X=X_0\times_{\Fq}k$, let $(\Ql)_X$ be its constant
-Weil sheaf, and let $F_X$ be the
+$X=X_0\times_{\Fq}k$, let $\mathbf Q_{\ell,X}=p_X^*\Ql$ be its constant
+Weil sheaf on $X_{\mathrm{proét}}$, with its canonical Weil structure, and let $F_X$ be the
 global geometric Frobenius
 on $H^i(X,\Ql)$ for every $i\in\mathbf Z$. Put
 $V_{i,\ell}=H^i(X,\Ql)$, $F_{i,\ell}=F_X|_{V_{i,\ell}}$, using the

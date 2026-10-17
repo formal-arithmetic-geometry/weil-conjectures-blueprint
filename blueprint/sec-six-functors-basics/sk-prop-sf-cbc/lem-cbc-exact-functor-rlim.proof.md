@@ -2,24 +2,20 @@
 kind  = "proof"
 of    = "lem-cbc-exact-functor-rlim"
 +++
-By [prop-weil-pbc-roos-triangle], $M_\bullet$ sits in the
-distinguished triangle
+By [def-weil-derived-limit], $R\varprojlim_nM_n$ is the first term of the Roos
+triangle
 
 $$
-\Rlim M_\bullet\to R\!\prod_nM_n\xrightarrow{1-s}R\!\prod_nM_n
-\to(\Rlim M_\bullet)[1].
+R\varprojlim_nM_n\to\prod_nM_n\xrightarrow{1-s}\prod_nM_n
+\to\bigl(R\varprojlim_nM_n\bigr)[1].
 $$
 
-The functor $F$ is exact, so applying $F$ produces a
-distinguished triangle with third vertex $F(\Rlim M_\bullet)$;
-on the two derived products $F$ is computed levelwise, because
-$F$ commutes with the evaluations of
-[def-weil-pbc-derived-inverse-limit] and with the countable
-products of the Roos triangle representation, so the image of
-$1-s$ is $1-F(s)$. Hence $F(\Rlim M_\bullet)$ is a cone of
-$1-F(s)$ over the tower $F(M_\bullet)$; and
-[prop-weil-pbc-roos-triangle] applied to $F(M_\bullet)$
-exhibits $\Rlim F(M_\bullet)$ as a cone of $1-F(s)$ as well.
-Cones of a fixed morphism in a triangulated category are
-canonically isomorphic, and the canonical map of the statement is
-that comparison, so it is an isomorphism.
+The functor $F$ is triangulated, so applying $F$ produces a distinguished
+triangle with first term $F(R\varprojlim_nM_n)$. Under the isomorphisms
+$F(\prod_nM_n)\cong\prod_nF(M_n)$ the image of $1-s$ is the transition
+endomorphism $1-F(s)$ of the system $(F(M_n),F(f_n))_n$, since both are
+determined by their components $M_m\to M_n$. Hence $F(R\varprojlim_nM_n)$ is
+the first term of a Roos triangle for $(F(M_n))_n$, that is, a derived limit
+of this system in the sense of [def-weil-derived-limit]. Any two such objects
+are isomorphic, by an isomorphism compatible with the maps to
+$\prod_nF(M_n)$ (non-uniquely in general, as for cones).

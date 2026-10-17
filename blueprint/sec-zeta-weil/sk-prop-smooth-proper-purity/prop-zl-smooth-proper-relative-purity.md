@@ -5,17 +5,20 @@ title = "Relative smooth-proper purity"
 lean = ["AlgebraicGeometry.WeilComplex.derivedLowerShriekObjIsoDerivedLowerStarOfIsProper", "AlgebraicGeometry.WeilSheaf.smooth_proper_relative_purity"]
 order = 3211
 tags = ["latex:proposition"]
-uses = ["cor-cbc-proper-coincidence", "cor-weil-pbc-geometric-fiber-finite", "cor-weil-pbc-geometric-fiber-qbar", "cor-zl-rfshriek-sheaf", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-sf-tensor-hom", "lem-sf-twist-interchange", "lem-wf-tate-twist-frobenius", "prop-weil-operations", "prop-weil-proet-finite-proper-base-change", "sbc-thm-smooth-base-change", "thm-fin-proper-constructibility-complete", "thm-pur-rational-and-qbar-purity"]
+uses = ["cor-cbc-proper-coincidence", "cor-weil-pbc-geometric-fiber-finite", "cor-weil-pbc-geometric-fiber-qbar", "cor-zl-rfshriek-sheaf", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-sf-tensor-hom", "lem-sf-twist-interchange", "lem-wf-tate-twist-frobenius", "prop-weil-operations", "prop-weil-proet-finite-proper-base-change", "sbc-thm-smooth-base-change", "thm-fin-proper-constructibility-complete", "sk-thm-purity-transport", "sk-lem-coefficient-heart", "sk-def-sf-weil-complexes"]
 +++
 Fix the finite-field datum $(p,a,q,k_0,k)$, where $q=p^a$, a prime
 $\ell\neq p$, an algebraic closure $\Qlb$ of $\Ql=\mathbf Q_\ell$ and an
 isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$. Let
 $f_0:X_0\to Y_0$ be a smooth proper morphism of separated finite-type
-$k_0$-schemes of pure relative dimension $d\in\mathbf Z_{\geq0}$ (no
+$k_0$-schemes of pure relative dimension $d\in\mathbf Z_{\geq0}$, with $Y_0$
+normal (for instance $Y_0=\Spec k_0$) (no
 admissibility hypothesis on $f_0$ or the structure morphisms: the exceptional
 inverse images are the constructible ones, defined for every separated
 finite-type morphism, so the operations of [prop-weil-operations] apply), and let
-$\mathcal F_0$ be a lisse $\Qlb$-Weil sheaf on $X_0$ which is punctually
+$\mathcal F_0$ be a lisse $\Qlb$-Weil sheaf on $X_0$, that is a lisse
+$\QbarX$-module on $X_{\mathrm{proét}}$ ([sk-lem-coefficient-heart]) with a
+Weil structure ([sk-def-sf-weil-complexes]), which is punctually
 $\iota$-pure of weight $w\in\mathbf R$ in the sense of
 [def-weil-punctual-weights]. Then for every $i\in\mathbf Z$:
 

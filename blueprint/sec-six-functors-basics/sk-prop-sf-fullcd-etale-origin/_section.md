@@ -10,7 +10,7 @@ tags = ["sketch"]
 Let $k$ be separably closed, let $p:\overline X\to Y$ be a proper morphism of
 finite-type $k$-schemes with $\dim\overline X\le d$, and let $A$ be a finite
 commutative ring whose exponent is invertible on $\overline X$ (for instance a
-finite coefficient stage $A=A_{E,n}$). Let $p':X''\to Y''$ be the base change
+finite coefficient ring $A=A_{E,n}$). Let $p':X''\to Y''$ be the base change
 of $p$ along an arbitrary morphism $Y''\to Y$ (including $p'=p$). Then for
 every étale $A$-module sheaf $\mathcal F$ on $X''_{\Et}$,
 

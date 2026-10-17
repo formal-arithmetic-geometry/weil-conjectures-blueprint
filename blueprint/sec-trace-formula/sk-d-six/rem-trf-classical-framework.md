@@ -3,7 +3,7 @@ id = "rem-trf-classical-framework"
 kind = "definition"
 title = "Classical framework convention: no $\\infty$-categories"
 order = 2616
-uses = ["def-exchange-projection", "def-trf-categorical-trace", "def-weil-algebraically-closed-coefficients", "def-weil-finite-coefficient-point", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "lem-weil-pbc-reconstruction-uniform-tower", "prop-functor-package"]
+uses = ["def-exchange-projection", "def-trf-categorical-trace", "def-weil-finite-coefficient-point", "def-weil-pbc-proetale-site", "prop-functor-package", "sk-def-sf-setting", "sk-def-sfb-bounded-constructible", "sk-prop-scalar-six", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Throughout this chapter, and in every statement below, the framework is
 the *classical* one of the framework chapter: ordinary categories, ordinary
@@ -18,8 +18,10 @@ read either way.
 $D^b_{\mathrm{fin}}(A)$, and their integral, rational, and
 algebraically closed analogues are the classical Verdier derived
 categories of the small
-pro-etale site (or of the point), localized at quasi-isomorphisms, with
-the coefficient constructions of the framework chapter. In particular
+pro-etale site (or of the point), localized at quasi-isomorphisms: for a
+coefficient ring $\Lambda$ of [sk-def-sf-setting], regarded as a condensed
+ring, they are the full subcategories of $D(X_{\mathrm{pro\acute et}},\Lambda)$
+of [sk-def-sfb-bounded-constructible]. In particular
 $D^b_c(X,A)$ is a triangulated category in the strict sense of
 Verdier: the distinguished triangles, the shift functor, and the
 octahedral axiom are given data, and there is *no* functorial choice
@@ -85,25 +87,17 @@ identities at the level of the model), and the trace is then the
 composite of four *morphisms in the model category*, followed by
 the identification $\operatorname{End}_{D(A)}(A)\cong A$. No
 synthetic or higher-categorical trace is used.
-1. *Classical bookkeeping of limits and idempotents.*
-The adic passages of [def-trf-adic-system] and below use
-*literal* compatible systems of bounded perfect complexes and
-*literal* derived inverse limits in the classical sense (the
-construction of the proper-base-change chapter,
-[lem-weil-pbc-reconstruction-uniform-tower]), and the
-$\Qlb$-coefficient category is the *classical*
-filtered-colimit/common-stage category of the framework chapter with its
-classical idempotent completion (the framework chapter,
-[def-weil-algebraically-closed-coefficients]; note that in the
-classical triangulated setting the idempotent completion is taken in
-the ordinary 1-categorical sense: an object together with
-$e\in\operatorname{End}(P)$, $e^2=e$, and the resulting
-Karoubian category, as in
-[def-weil-rationalization-karoubi] of the framework chapter). The
-compatibility of the trace with these operations is proved step by step
-(in [prop-trf-adic-coefficient-morphism-systems] and
-[thm-trf-integral-adic-coefficient-morphism-trace-formula]) from the explicit
-levelwise formulas, never from a general "limits commute with
+1. *Classical bookkeeping of coefficients.*
+The integral, rational and $\Qlb$-coefficient categories are the condensed
+categories $\Dbc(X,\Lambda)$ of [sk-def-sf-setting], not categories
+constructed from finite stages. Reductions modulo $\pi_E^n$, integral
+models (lattices) and descent to a finite coefficient field are used only
+as theorems about these categories: [sk-prop-scalar-six],
+[sk-lem-integral-models] and [sk-thm-sfb-qlbar-two-colimit]. The
+compatibility of the trace with these passages is proved step by step from
+explicit formulas on perfect complexes over the point (the scalar-extension
+law of [prop-trf-trace-formal-laws] and the chain-level computation of
+[lem-trf-chain-supertrace]), never from a general "limits commute with
 functors" statement in a higher category.
 1. *Koszul sign convention.* In every explicit computation
 with complexes, the conventions of

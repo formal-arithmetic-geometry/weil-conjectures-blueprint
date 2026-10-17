@@ -42,7 +42,3 @@ injective. A comparison of scalars suffices here, because all
 operators come from the single integral morphism $\theta$, whose
 reductions form a morphism of normalized towers realizing the
 integral operator.
-
-The same argument for a compatible system of Frobenius coefficient
-morphisms on a normalized tower is
-[thm-trf-integral-adic-coefficient-morphism-trace-formula].

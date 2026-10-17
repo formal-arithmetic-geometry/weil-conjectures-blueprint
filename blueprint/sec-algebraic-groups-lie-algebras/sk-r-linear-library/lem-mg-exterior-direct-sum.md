@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Exterior power of a direct sum"
 lean = ["Representation.exteriorPowerProdEquiv", "Representation.exteriorPowerDirectSumEquiv"]
 order = 2891
-uses = ["def-wf-weil-category"]
+uses = ["def-wf-weil-group"]
 +++
 Let $V_1,\ldots,V_s$ be finite-dimensional Weil
 representations. For every $N$, there is a canonical Weil-equivariant

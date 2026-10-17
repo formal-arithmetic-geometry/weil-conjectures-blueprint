@@ -3,7 +3,7 @@ id = "rem-weil-admissibility-split"
 kind = "remark"
 title = "Existence, preservation and geometric duality are separate"
 order = 2425
-uses = ["cor-pur-smooth-admissibility", "cor-sf-ambient-adjoint-discharge", "cor-weil-boundary-duality-discharge", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "lem-coef-rational-operations", "prop-coef-integral-exceptional-adjoint", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-fix-general-biduality", "thm-sf-ambient-adjoint-class", "thm-sf-preservation-class"]
+uses = ["cor-pur-smooth-admissibility", "cor-sf-ambient-adjoint-discharge", "cor-weil-boundary-duality-discharge", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "thm-coef-integral-verdier", "sk-thm-existence", "sk-thm-pd-verdier-duality", "sk-prop-scalar-six", "thm-fix-general-biduality", "thm-sf-ambient-adjoint-class", "thm-sf-preservation-class"]
 +++
 The three clauses of [def-weil-exceptional-adjoint-admissibility] separate
 existence of an adjoint from constructible and finite-Tor preservation. The
@@ -14,9 +14,10 @@ admissibility corollary; the finite-stage geometric assembly and its scope
 are the preservation-class theorem. General Verdier biduality at finite
 coefficients is a separate geometric theorem, proved by constructible
 preservation, geometric generic restriction, and dimension induction. The
-finite-stage boundary comparison is then a consequence. Integral duality and
-the constructible exceptional adjunction, and their field transports, are
-stated in the coefficient chapter. These results concern the specified
+finite-stage boundary comparison is then a consequence. For the other
+admissible condensed coefficients the constructible exceptional adjoint is
+[sk-thm-existence], duality is [sk-thm-pd-verdier-duality], and their
+comparisons with the finite statements are [sk-prop-scalar-six]. These results concern the specified
 constructible categories; the unrestricted unbounded ambient adjoint remains
 a separate assertion.
 

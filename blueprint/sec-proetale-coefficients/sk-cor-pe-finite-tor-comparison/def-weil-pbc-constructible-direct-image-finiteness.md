@@ -3,11 +3,11 @@ id = "def-weil-pbc-constructible-direct-image-finiteness"
 kind = "definition"
 title = "Constructible direct-image finiteness condition"
 order = 1361
-uses = ["def-weil-pbc-adic-coefficient-datum", "def-weil-pbc-constructible-complexes", "def-weil-pbc-proetale-modules", "def-weil-pbc-site-comparison-morphism"]
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-proetale-modules", "def-weil-pbc-site-comparison-morphism"]
 +++
-For the adic coefficient datum, write $\Lambda=P_n=A/I^n$, and assume $T$
-noetherian of finite dimension with the orders of the torsion ring $P_n$
-invertible on $T$. A sheaf $F$ of $\Lambda_{T,\Proet}$-modules on
+Let $\Lambda$ be a finite torsion ring, for example
+$A_{E,n}=\mathcal O_E/\pi_E^n$ or $\mathbf Z/\ell^n\mathbf Z$, and assume $T$
+noetherian of finite dimension with the order of $\Lambda$ invertible on $T$. A sheaf $F$ of $\Lambda_{T,\Proet}$-modules on
 $T_{\Proet}$ is *constructible* if $F\cong\nu_T^*F_{\Et}$ for the comparison
 morphism of sites [def-weil-pbc-site-comparison-morphism]
 $\nu_T:T_{\Proet}\to T_{\Et}$ and a constructible $\Lambda$-module sheaf

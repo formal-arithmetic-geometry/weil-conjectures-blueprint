@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Weight detection by trace energy"
 order = 3100
 uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-linear-spectra", "sk-prop-logdet", "sk-thm-trace-transport", "sk-thm-tf-uniform-formula"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.traceEnergy", "AlgebraicGeometry.LAdicWeilSheaf.le_sub_one_of_traceEnergy_le"]
+lean = ["AlgebraicGeometry.WeilSheaf.traceEnergy", "AlgebraicGeometry.WeilSheaf.le_sub_one_of_traceEnergy_le"]
 tags = ["sketch"]
 +++
 Let $N\ne0$ be pure of weight $v$ and lisse on a smooth geometrically

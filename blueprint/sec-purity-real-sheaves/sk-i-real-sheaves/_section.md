@@ -3,7 +3,7 @@ id = "sk-i-real-sheaves"
 kind = "proposition"
 title = "The lisse sheaf–representation equivalence"
 order = 2927
-uses = ["sk-d-real-setup", "sk-d-real-weil", "sk-i-real-galois"]
+uses = ["sk-d-real-setup", "sk-d-real-weil", "sk-i-real-galois", "sk-lem-coefficient-heart", "thm-lisse-qlbar-representations"]
 lean = ["AlgebraicGeometry.WeilGroup.isLisseRep_shortExact_iff", "AlgebraicGeometry.WeilGroup.isLisseRep"]
 tags = ["sketch"]
 +++
@@ -12,7 +12,8 @@ change to $k$; $P=\pi_1(C)$ is the geometric fundamental group, $W(C_0)$ the
 Weil group with degree map and chosen degree-one lift $\gamma$, and
 $E\subset\Qlb$ a finite coefficient field with valuation ring
 $\mathcal O_E$ and maximal ideal $\mathfrak m_E$, all as in
-[sk-d-real-weil]. A lisse Weil sheaf $\mathcal F$ on $C_0$ has geometric
+[sk-d-real-weil]. A lisse Weil sheaf $\mathcal F$ on $C_0$, a lisse $\overline{\mathbf Q}_{\ell,C}$-module on
+$C_{\mathrm{proét}}$ with a Weil structure, has geometric
 generic stalk $\mathcal F_{\bar\eta}$.
 
 The functor $\mathcal F\mapsto(V,\rho)=(\mathcal F_{\bar\eta}, \rho_{\mathcal F})$ is an exact tensor equivalence between lisse Weil sheaves

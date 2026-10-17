@@ -7,9 +7,9 @@ $p_2:V\times_kV^\vee\to V^\vee$; its base change
 $p_2':V_{\bar\xi}\to\Spec\Omega$ is the structure morphism of
 $V_{\bar\xi}\cong\mathbf A^{r}_\Omega$, and $g':V_{\bar\xi}\to V\times_kV^\vee$
 is $(\mathrm{pr}_V,\bar\xi)$. The stalk at $\bar\xi$ of a complex on
-$V^\vee$ is its inverse image along $g$, so compact-support base change
-([sk-prop-sf-cbc], at the $E$-stage on $\Dbc$, where $p_1^*K$ and the
-kernel live) gives
+$V^\vee$ is its inverse image along $g$, so compact-support base change on bounded constructible complexes
+([sk-thm-sfb-shriek-base-change], [sk-prop-sf-cbc], with coefficients
+$\Lambda=E$ or $\Qlb$ on $\Dbc$, where $p_1^*K$ and the kernel live) gives
 
 $$
 \bigl(Rp_{2!}(p_1^*K\otimes^L\mathcal K_\psi)\bigr)_{\bar\xi}

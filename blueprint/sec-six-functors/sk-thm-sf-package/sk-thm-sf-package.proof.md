@@ -1,15 +1,17 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sf-package"
-uses = ["sk-def-sf-kv-maps", "sk-prop-sf-biduality-general", "sk-prop-sf-existence", "sk-prop-sf-pf-coherence", "sk-thm-sf-comp-composition", "sk-thm-sf-ctf-stability", "sk-thm-sf-kunneth-verdier", "sk-thm-sf-verdier-exchange"]
+uses = ["sk-thm-existence", "sk-thm-sfb-proper-base-change", "sk-thm-sbc-coefficients", "sk-prop-scalar-six", "sk-def-sf-kv-maps", "sk-prop-sf-biduality-general", "sk-prop-sf-existence", "sk-prop-sf-pf-coherence", "sk-thm-sf-comp-composition", "sk-thm-sf-ctf-stability", "sk-thm-sf-kunneth-verdier", "sk-thm-sf-verdier-exchange"]
 +++
 Every clause is one of the propositions of §§ *What the earlier chapters prove* or
 §§ *What this section proves*, with the following assembly.
 Clause (1) is fix-prop-adjunctions together with
-[def-weil-exceptional-inverse-image] and [thm-sf-ambient-adjoint-class]: the étale adjoint exists
-unconditionally on the ordinary étale derived categories and is transported
-to the small pro-étale categories along the comparison, the preservation
-being [sk-prop-sf-rf-shriek-preservation] — enough for every clause
+[sk-thm-existence], [def-weil-exceptional-inverse-image] and
+[thm-sf-ambient-adjoint-class]: for every admissible $\Lambda$ the right
+adjoint of $Rf_!$ on $\Dctf$ exists by Brown representability on
+$\operatorname{Loc}(\Dctf)$ ([sk-thm-existence]); for finite $\Lambda$ it
+agrees with the étale adjoint transported along the comparison, the
+preservation being [sk-prop-sf-rf-shriek-preservation] — enough for every clause
 below, all of which are typed on the small categories
 ([sk-rem-sf-fullcd-scope]); the ambient half of (1) is conditional on the
 ambient datum and is consumed by nothing. Clause (2) is [sk-prop-sf-cbc], [sk-thm-properbasechange] and
@@ -20,16 +22,19 @@ in this section except the definitions. The latter two are statements about
 torsion sheaves; their bounded-below forms at $A_{E,n}$ are the truncation
 dévissage thm:weil-pbc-bounded-below and
 sbc-thm-bounded-below-derived-smooth-base-change, transported to the
-pro-étale site along the comparison of [sk-prop-sf-comparison], and the
-$\mathcal O_E$, $E$, $\Qlb$ forms on $\Dbc$ of the adic categories are the
-derived-limit, rationalization and scalar-extension transports cited in the
-clause — the same three steps as [sk-thm-sf-pf-adic] and
-[sk-thm-sf-pf-field]. The coherence of $\operatorname{Ex}_!$ is
+pro-étale site along the comparison of [sk-prop-sf-comparison]. The forms
+for every admissible $\Lambda$ on the condensed $\Dctf$ are
+[sk-thm-sfb-proper-base-change] and [sk-thm-sbc-coefficients]: the integral
+case by reduction modulo $\pi_E$ ([sk-prop-scalar-six]) and derived
+Nakayama, the rational case by integral models, and $\Qlb$ by descent to a
+finite $E$. The coherence of $\operatorname{Ex}_!$ is
 fix-lem-exchanges. Clause (3) is the projection-formula
 chain of §§ *What this section proves*: the finite case [sk-thm-sf-pf-finite] reduces to
-the compact-support projection formula of the framework chapter, and
-[sk-prop-sf-pf-reduction], [sk-thm-sf-pf-adic], [sk-thm-sf-pf-field] and
-[sk-thm-sf-pf-proetale] transport it to the remaining stages, with
+the compact-support projection formula of the framework chapter,
+[sk-thm-sf-pf-proetale] carries it from the étale to the pro-étale site for
+finite $\Lambda$, and [sk-prop-sf-pf-reduction], [sk-thm-sf-pf-adic] and
+[sk-thm-sf-pf-field] give it on $X_{\mathrm{pro\acute et}}$ for
+$\mathcal O_E$, $E$ and $\Qlb$, with
 [sk-prop-sf-pf-coherence] for the coherence. Clause (4) is
 [sk-thm-nagata-compactification] and [sk-prop-nagata-sketch-comp-category]
 for the compactifications themselves, and [sk-prop-sf-comp-coherence],

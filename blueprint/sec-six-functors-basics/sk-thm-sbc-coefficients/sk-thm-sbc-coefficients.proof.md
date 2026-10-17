@@ -102,8 +102,6 @@ Finally, pasting and coefficient compatibility hold for the exchange
 transformation itself by [sk-lem-sbc-exchange-compatibility], so
 the isomorphisms inherit them.
 
-*Complement.* The four items are the detail statements listed there: the finite pro-étale
-case conjugates the étale isomorphism of the complement of [sk-thm-sbc-derived] by the site
-comparison; the adic case passes to derived-complete complexes of étale origin; the
-$E$-case uses an admissible lattice and is independent of it; and the
-$\overline{\mathbf Q}_\ell$-case is the colimit over finite subextensions.
+*Complement.* The finite pro-étale case conjugates the étale isomorphism of the
+complement of [sk-thm-sbc-derived] by the site comparison
+([sbc-thm-finite-proetale-smooth-base-change]).

@@ -3,8 +3,9 @@ kind = "proof"
 of = "det-sp-rational-localized-hom"
 +++
 *Essential surjectivity* is the existence of integral models for rational
-constructible complexes (Lemma on integral models, item (4), in the
-construction of the rational categories).
+constructible complexes ([sk-lem-integral-models], (4), with
+[sk-thm-sfb-rationalization-comparison]), a consequence of the condensed
+definition of $\Dbc(T,E)$.
 
 *Hom groups.* $L_0[1/\ell]$ is the colimit of
 $L_0\xrightarrow{\ell}L_0\xrightarrow{\ell}\cdots$, and $\Hom(K_0,-[q])$ commutes

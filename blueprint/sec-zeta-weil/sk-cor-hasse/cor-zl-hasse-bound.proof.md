@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "cor-zl-hasse-bound"
+uses = ["cor-trf-point-counting", "prop-cohomological-finiteness", "prop-endpoints", "def-weil-frobenius-coefficient-twists", "thm-sc-proper-cohomology", "sk-def-sfb-pulled-back-coefficients", "sk-thm-sfb-proper-base-change", "sk-prop-scalar-six", "prop-weight-purity-roots"]
 +++
 Step 1: the point-count identity. The scheme $C_0$ is proper, so by
 [cor-trf-point-counting] applied to the constant Weil sheaf,
@@ -33,13 +34,29 @@ $$
 H^1(C,\mathbf F_{n'})\cong(\mathbf Z/n'\mathbf Z)^{2g},
 $$
 
-and $H^q(C,\mathbf F_{n'})=0$ for $q>2$. The coefficient
-construction of the framework chapter is levelwise: the derived-complete
-integral coefficients of [def-weil-derived-complete-integral-detailed], the
-rationalization of [def-weil-rationalization-karoubi], and the
-common-stage extension of
-[def-weil-algebraically-closed-coefficients] assemble these finite
-levels, so
+and $H^q(C,\mathbf F_{n'})=0$ for $q>2$; these étale cohomology groups of
+torsion sheaves are the pro-étale ones. The $\ell$-adic groups are obtained
+from them as consequences of the condensed theory. Let
+$a:C\to\operatorname{Spec}k$ be the structure morphism and
+$M^q=H^q(C,\mathbf Z_\ell)=H^q(Ra_*\mathbf Z_{\ell,C})$, with
+$\mathbf Z_{\ell,C}=p_C^*\mathbf Z_\ell$ ([sk-def-sfb-pulled-back-coefficients]).
+Since $a$ is proper, $Ra_*\mathbf Z_{\ell,C}\in\Dbc(\operatorname{Spec}k,\mathbf Z_\ell)$
+([sk-thm-sfb-proper-base-change]), so the $M^q$ are finitely generated
+$\mathbf Z_\ell$-modules, almost all zero. The coefficient comparison for $Ra_*$
+along $\mathbf Z_\ell\to\mathbf Z/\ell^r$ ([sk-prop-scalar-six]) gives
+$Ra_*\mathbf Z_{\ell,C}\otimes^{\mathbf L}_{\mathbf Z_\ell}\mathbf Z/\ell^r\simeq R\Gamma(C,\mathbf Z/\ell^r)$,
+hence short exact sequences
+
+$$
+0\to M^1/\ell^r\to H^1(C,\mathbf Z/\ell^r)\to M^2[\ell^r]\to0 .
+$$
+
+Writing $M^q\cong\mathbf Z_\ell^{\,b_q}\oplus T^q$ with $T^q$ finite, the
+middle group has order $\ell^{2gr}$, while for $r$ large the outer groups
+have orders $\ell^{rb_1}\,|T^1|$ and $|T^2|$. Comparing growth in $r$ gives
+$b_1=2g$. Finally, the coefficient comparison along the flat map
+$\mathbf Z_\ell\to\Qlb$ ([sk-prop-scalar-six]) gives
+$H^1(C,\Qlb)\cong M^1\otimes_{\mathbf Z_\ell}\Qlb$, so
 
 $$
 \dim_{\Qlb}H^1(C,\Qlb)=2g.

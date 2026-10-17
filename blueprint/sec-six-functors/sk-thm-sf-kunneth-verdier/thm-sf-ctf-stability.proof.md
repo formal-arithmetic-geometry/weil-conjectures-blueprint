@@ -75,17 +75,14 @@ comparisons are [thm-coef-finite-hom], [cor-coef-finite-verdier];
 the exceptional comparison is [lem-coef-finite-exceptional].
 Their proofs compare the specified evaluations and adjunction maps.
 
-At integral coefficients, [lem-coef-integral-residue-tor]
-identifies the two constructible categories. General internal Hom
-and its finite reductions are
-[cor-coef-integral-internal-hom], [lem-coef-integral-hom-reduction].
-The anti-equivalence and exceptional adjunction are
-[thm-coef-integral-verdier], [prop-coef-integral-exceptional-adjoint].
-These proofs establish normalized-tower effectivity and the finite
-reductions with uniform bounds; they do not infer a common integral
-local model merely from levelwise constructibility.
-Finally [thm-coef-rational-verdier], [lem-coef-rational-operations]
-identify the operations after rationalization, and
-[thm-coef-qbar-verdier] transports them to the common-stage
-category, including its retracts. Their adjunctions have precisely
-the bounded constructible domains stated in those results.
+For $\Lambda=\mathcal O_E,E,\Qlb$, the equality $D^b_c=D^b_{ctf}$ is
+[sk-def-sf-setting] (for $\mathcal O_E$ also [lem-coef-integral-residue-tor]).
+Preservation of $D^b_c$ by the operations, including general internal Hom
+and the exceptional adjoint, is [sk-thm-sf-ctf-stability], with the
+exceptional adjoint from [sk-thm-existence]; for integral internal
+Hom see also [cor-coef-integral-internal-hom], [lem-coef-integral-hom-reduction].
+Verdier biduality is [sk-thm-pd-verdier-duality]: integrally by reduction
+modulo $\pi_E$ and derived Nakayama ([thm-coef-integral-verdier]), for $E$
+by integral models, for $\Qlb$ by descent to a finite $E$. The comparisons
+with reduction and extension of scalars are [sk-prop-scalar-six]; they are
+built from the same evaluation and adjunction maps.

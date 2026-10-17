@@ -32,14 +32,7 @@ For integral and rational coefficients $\Dctf=\Dbc$, so in those cases
 the theorem concerns all bounded constructible complexes.
 
 *Complement.* In the setting of the complement of [sk-thm-sbc-derived], with all schemes
-Noetherian and $\ell$ invertible, the exchange isomorphism holds for the coefficient stages
-of the six-functor formalism:
-
-1. at a finite stage on the pro-étale site, by conjugating the étale statement
-by the site comparison ([sbc-thm-finite-proetale-smooth-base-change]);
-1. at $\mathcal O_E$, for derived-complete complexes of étale origin
-([sbc-thm-adic-smooth-base-change]);
-1. at $E$, for complexes with an admissible lattice, independently of the
-lattice ([sbc-thm-e-coefficient-smooth-base-change]);
-1. at $\Qlb$, as the colimit over finite subextensions
-([sbc-thm-overline-mathbf-q-ell-coefficient-smooth-base-ch]).
+Noetherian and $\ell$ invertible, the exchange isomorphism also holds at a finite stage on
+the pro-étale site, by conjugating the étale statement by the site comparison
+([sbc-thm-finite-proetale-smooth-base-change]). At $\mathcal O_E$, $E$ and $\Qlb$ the main
+statement already covers all of the condensed $\Dbc$.

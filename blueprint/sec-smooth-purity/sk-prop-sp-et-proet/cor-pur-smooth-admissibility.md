@@ -36,5 +36,6 @@ the two clauses quantify over it is the theorem
 false in general and is not asserted. Admissibility at
 $\Lambda\in\{\mathcal O_E,E,\Qlb\}$ demands in addition the uniformity of the
 two clauses over the finite stages and the finite-reduction and
-scalar-extension compatibilities of the right adjoints; those are the
-coefficient transport of the purity chapter and are not asserted here.
+scalar-extension compatibilities of the right adjoints. For smooth morphisms
+these are [sk-thm-purity-transport] and [det-sp-purity-coefficient-change];
+they are not asserted here.

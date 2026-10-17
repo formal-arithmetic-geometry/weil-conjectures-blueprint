@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Lisse sheaves and continuous representations"
 lean = ["AlgebraicGeometry.ProEtale.exists_lisseMonodromy"]
 order = 2771
-uses = ["def-galois-fibre-functor", "def-weil-pbc-constructible-complexes", "thm-galois-fundamental", "thm-galois-lc-etale"]
+uses = ["def-galois-fibre-functor", "thm-galois-fundamental", "thm-galois-lc-etale"]
 tags = ["latex:corollary"]
 +++
 Let $Y$ be connected with geometric point $\bar y$, and let $\Lambda$ be
@@ -18,7 +18,6 @@ action and the constant sheaf $\Lambda$ to the trivial representation
 $\Lambda$. It is compatible with base change along a map
 $\Lambda\to\Lambda'$ of finite rings: it carries
 $\Lambda'\otimes_\Lambda\mathcal F$ to
-$\Lambda'\otimes_\Lambda\mathcal F_{\bar y}$ with the induced action. For $\Lambda=\overline{\mathbf Q}_\ell$ the
-same holds for lisse $\overline{\mathbf Q}_\ell$-sheaves with finite
-stalks, by the coefficient conventions of
-[def-weil-pbc-constructible-complexes].
+$\Lambda'\otimes_\Lambda\mathcal F_{\bar y}$ with the induced action. This statement is for finite rings $\Lambda$ only;
+lisse sheaves with coefficients $\mathcal O_E$, $E$ and $\overline{\mathbf Q}_\ell$
+on the pro-étale site are treated in [thm-lisse-qlbar-representations].

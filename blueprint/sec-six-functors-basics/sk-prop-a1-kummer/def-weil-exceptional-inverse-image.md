@@ -4,7 +4,7 @@ kind = "definition"
 title = "Exceptional inverse image notation"
 lean = ["AlgebraicGeometry.Etale.boundedConstructibleIntegralRightDerivedLowerStarUpperShriekAdjunction"]
 order = 1848
-uses = ["def-compact-support-direct-image-detailed", "def-weil-algebraically-closed-coefficients", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties"]
+uses = ["def-compact-support-direct-image-detailed", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "sk-thm-existence", "sk-def-sfb-dc-upper-shriek", "sk-prop-scalar-six"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$ with valuation ring $\mathcal
 O_E$ and uniformizer $\varpi_E$, and an integer $n\in\mathbf Z_{\geq1}$, with
@@ -36,23 +36,34 @@ $$
  Rf_n^!:D^b_c(Y,A_{E,n})\longrightarrow D^b_c(X,A_{E,n}).
 $$
 
-For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$, use respectively derived inverse
-limits, rationalization, and the common-stage construction
-[def-weil-algebraically-closed-coefficients] of the compatible finite-level
-functors, and define
+For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$, regarded as condensed rings, $Rf^!$ is
+not built from the finite levels. By [sk-thm-existence] (3), a single
+application of Brown representability gives an exact right adjoint $f^!$ of
+$Rf_!$ on $\Loc(\Dctf(-,\Lambda))$, and by [sk-thm-existence] (4) it carries
+$\Dctf(Y,\Lambda)$ into $\Dctf(X,\Lambda)$. Since $\Dctf=\Dbc$ for these
+coefficients, this restriction is a functor
 
 $$
- Rf^!:D^b_c(Y,\Lambda)\longrightarrow D^b_c(X,\Lambda).
+ Rf^!:D^b_c(Y,\Lambda)\longrightarrow D^b_c(X,\Lambda)
 $$
+
+on the condensed bounded constructible categories; by uniqueness of adjoints
+it agrees with $i^*\circ Rp^!$ of [sk-def-sfb-dc-upper-shriek] for a
+compactification $f=p\circ i$. Its compatibility with reduction
+$\mathcal O_E\to A_{E,n}$, localization $\mathcal O_E\to E$ and extension of
+scalars $E\to F\to\Qlb$ is a consequence ([sk-prop-scalar-six]), not part of
+the definition.
 
 For $K\in D^b_c(X,\Lambda)$ and $L\in D^b_c(Y,\Lambda)$, characterize the
-resulting functor by the natural adjunction isomorphisms
+resulting functors, at every $\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, by the
+natural adjunction isomorphisms
 
 $$
  \Hom_Y(Rf_!K,L)\cong\Hom_X(K,Rf^!L).
 $$
 
-The two defining properties of this functor are theorems, not hypotheses.
+The two defining properties of the finite-level functor $Rf_n^!$ are theorems,
+not hypotheses.
 The adjunction isomorphism holds for every bounded-below $K$ of etale origin
 (in particular every $K\in D^b_c(X,A_{E,n})$) and every bounded-below $L$,
 with units and counits compatible with refinements of the compactification
@@ -64,9 +75,7 @@ $[a,b]\mapsto[a-2D,b+2\dim Y+1]$ independent of $n$, where $D$ is the maximal
 embedding dimension of the affine charts $U\hookrightarrow\mathbf A^{d_U}_V$ of $f$ — is proved by localizing
 on affine charts and composing the closed-immersion and smooth cases. These
 are the analogues, for the constructible functor, of clauses (2) and (3) of
-[def-weil-exceptional-adjoint-admissibility], and the stage-independence of
-the constants is what makes the normalized systems of the integral stage well
-defined.
+[def-weil-exceptional-adjoint-admissibility].
 
 The ambient exceptional right adjoint datum
 [def-weil-ambient-exceptional-adjoint] is *not* assumed in this definition,

@@ -22,5 +22,5 @@ $$
 and [lem-sf-comparison-tor-amplitude](i) gives finite Tor amplitude in
 $[a,b+2d]$ and bounded constructibility for the right-hand side. As in
 [cor-sf-direct-image-ctf-etale-origin] this is clause (iii) of
-the finite-Tor preservation summary at the finite coefficient stage $A$ for the
+the finite-Tor preservation summary for the finite coefficient ring $A$ for the
 object $K$.

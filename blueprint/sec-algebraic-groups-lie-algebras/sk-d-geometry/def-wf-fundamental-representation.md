@@ -4,16 +4,18 @@ kind = "definition"
 title = "Geometric and Weil fundamental representations"
 lean = ["AlgebraicGeometry.WeilGroup.fundamentalRep"]
 order = 2820
-uses = ["cor-galois-lisse-representations", "def-galois-fibre-functor", "def-tw-frobenius-action", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "def-weil-weil-sheaf-complex"]
+uses = ["def-galois-fibre-functor", "def-tw-frobenius-action", "def-weil-pbc-scheme-conventions", "def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes", "sk-lem-coefficient-heart", "thm-lisse-qlbar-representations"]
 +++
 Let $X_0$ be a
 separated finite-type
 $k_0$-scheme, let $X=X_0\times_{k_0}k$, assume that $X$ is
 connected, and choose a geometric point $\bar x\to X$. Let
 $\mathcal F_0$ be a lisse
-Weil sheaf, with underlying lisse
-$\Qlb$-sheaf $\mathcal F$ on $X$ in the convention of
-[def-weil-pbc-constructible-complexes]. Put
+Weil sheaf: a lisse $\overline{\mathbf Q}_{\ell,X}$-module $\mathcal F$ on
+$X_{\mathrm{proét}}$, i.e. locally free of finite rank for the pro-étale topology
+([sk-lem-coefficient-heart]), with a Weil structure
+$\varphi:\Phi_X^*\mathcal F\xrightarrow{\sim}\mathcal F$
+([sk-def-sf-weil-complexes], [def-weil-weil-sheaf-complex]). Put
 $V=\mathcal F_{\bar x}$. The underlying lisse sheaf first gives the
 *geometric fundamental representation*
 
@@ -22,13 +24,11 @@ $$
 $$
 
 by the equivalence of
-*lisse $\Qlb$-sheaves on a connected scheme with continuous
-$\Qlb$-representations of its etale fundamental group* of
-[cor-galois-lisse-representations], the fundamental group being the
-automorphism group of the fibre functor as in
-[def-galois-fibre-functor]
-($k$-torsion and adic levels are as in the coefficient conventions of
-[def-weil-pbc-constructible-complexes]).
+[thm-lisse-qlbar-representations] between lisse $\overline{\mathbf Q}_{\ell,X}$-modules on
+the connected scheme $X$ and continuous finite-dimensional $\Qlb$-representations of
+$\pi_1(X,\bar x)$ defined over a finite extension of $\Ql$, the fundamental group being
+the automorphism group of the fibre functor as in
+[def-galois-fibre-functor].
 
 The Weil descent datum
 $\varphi:\Phi_X^*\mathcal F\xrightarrow{\sim}\mathcal F$, with

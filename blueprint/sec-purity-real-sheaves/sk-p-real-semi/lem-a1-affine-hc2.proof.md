@@ -9,10 +9,13 @@ there are a smooth projective geometrically connected curve $\bar C_0$
 over $k_0$ and a dense open immersion $j_0:U_0\hookrightarrow\bar C_0$
 with finite boundary; put $\bar C=\bar C_0\times_{k_0}k$, let
 $j:U\hookrightarrow\bar C$ be the base change of $j_0$, and let
-$a_U=a_{\bar C}\circ j$ be the structure morphisms. Then $\bar C_0$
-satisfies the hypotheses of the Poincare duality conventions of
-[def-pod-conventions] with $d=1$, and we use its canonical orientation
-$\eta_{\bar C}:\omega_{\bar C}\xrightarrow{\sim}E_{\bar C}(1)[2]$.
+$a_U=a_{\bar C}\circ j$ be the structure morphisms. Work with
+$\Lambda=E$ or $\Qlb$, the lisse Weil sheaf $\mathcal F$ being a lisse
+$\Lambda_U$-module on $U_{\mathrm{proét}}$ ([sk-lem-coefficient-heart]). Since $\bar C$ is
+smooth of pure dimension $1$, smooth purity ([sk-thm-purity-transport]) gives the
+canonical orientation
+$\eta_{\bar C}:\omega_{\bar C}=Ra_{\bar C}^!\Lambda\xrightarrow{\sim}\Lambda_{\bar C}(1)[2]$,
+normalized by integration on the affine line and base changed from $k_0$.
 
 *Step 1 (compact support through $\bar C$).* For the open immersion
 $j$ the identity of $\bar C$ is a compactification, so the compact-support
@@ -44,8 +47,8 @@ with $\mathbb D_U=R\mathcal Hom(-,\omega_U)$ and
 $\omega_U\simeq Rj^!\omega_{\bar C}$ (step 1 of its proof). For an open
 immersion the right adjoint of $j_!$ is $j^*$
 ([prop-exc-open-adjoint]), so $\omega_U\simeq j^*\omega_{\bar C}$, and
-$j^*\eta_{\bar C}$ gives $\omega_U\simeq E_U(1)[2]$. As $\mathcal F$ is
-lisse, $R\mathcal Hom(\mathcal F,E_U)=\mathcal F^\vee$, so
+$j^*\eta_{\bar C}$ gives $\omega_U\simeq \Lambda_U(1)[2]$. As $\mathcal F$ is
+lisse, $R\mathcal Hom(\mathcal F,\Lambda_U)=\mathcal F^\vee$, so
 $\mathbb D_U\mathcal F\simeq\mathcal F^\vee(1)[2]$. Finally
 $Ra_{\bar C*}Rj_*\simeq Ra_{U*}$ by the composition isomorphism
 [lem-weil-derived-direct-image-composition] for $a_U=a_{\bar C}\circ j$,

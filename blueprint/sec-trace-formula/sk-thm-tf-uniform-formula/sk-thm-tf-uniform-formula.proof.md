@@ -58,8 +58,6 @@ comparisons of [sk-prop-scalar-six]. Finally, over a field
 the categorical trace is the alternating trace on cohomology, by
 [sk-p-trace], which proves (2).
 
-The field cases in the language of lattices are
-[thm-trf-trace-formula-e] and [thm-trf-grothendieck-lefschetz-qbar]; the
-independence of the representative over $\overline{\mathbf Q}_\ell$ is
-[prop-trf-karoubi-independence], with the summand trace of
-[def-trf-karoubi-trace].
+The form of (2) for Weil complexes over $E$ and $\overline{\mathbf Q}_\ell$ in the
+notation of the Weil-complex chapter, with the descent of the traces to a
+finite coefficient field, is [det-thm-tf-uniform-formula-weil].

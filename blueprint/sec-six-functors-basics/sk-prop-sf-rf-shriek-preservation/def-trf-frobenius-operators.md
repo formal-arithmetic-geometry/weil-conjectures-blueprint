@@ -23,7 +23,7 @@ Frobenius action constructed in the trace-formula chapter applied to
 $\varphi^{[m]}$. It is the
 endomorphism of the
 compact-support
-cohomology $H_c^i(X,K)$ in the finite coefficient stage.
+cohomology $H_c^i(X,K)$ for the finite coefficient ring.
 1. For a point $x\in X_0(\mathbf F_{q^m})$ with geometric point
 $\bar x:\Spec k\to X$ lying over $x$, define the *local
 geometric Frobenius*

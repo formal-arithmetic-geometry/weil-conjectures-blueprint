@@ -4,13 +4,15 @@ kind = "definition"
 title = "$\\iota$-real and $\\iota$-realizable Weil sheaves"
 lean = ["AlgebraicGeometry.WeilSheaf.IsRealizable"]
 order = 2933
-uses = ["def-weil-constructible-heart", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex"]
+uses = ["def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes", "sk-lem-coefficient-heart"]
 +++
 Let $X_0$ be a separated finite-type $k_0$-scheme, fix
 $\iota:\Qlb\xrightarrow{\sim}\mathbf C$ as in
 [def-weil-punctual-weights], and let $\mathcal F$ be a
 constructible
-Weil sheaf on $X_0$, with the
+Weil sheaf on $X_0$, that is, $\mathcal F\in\Cons(X,\Qlb)$
+([sk-lem-coefficient-heart]) with a Weil structure ([sk-def-sf-weil-complexes],
+[def-weil-weil-sheaf-complex]), with the
 stalk Frobenius modules $(V_x,F_x)$ of
 [def-weil-punctual-weights]. The *local characteristic
 factor* of $\mathcal F$ at a closed point $x$ is

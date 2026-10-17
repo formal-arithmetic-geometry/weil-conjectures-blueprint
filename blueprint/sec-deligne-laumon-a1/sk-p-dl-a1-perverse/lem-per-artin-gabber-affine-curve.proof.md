@@ -27,13 +27,28 @@ Step 1 (the fibre range). The fibers of $f$ have dimension at most
 $d$, and over the base of the finite-type morphism the relative
 cohomological range is that of a scheme of dimension $\le d$: for a
 constructible sheaf $G$ on $X$ the higher direct images satisfy
-$R^af_!G=0$ for $a>2d$ (the cohomological dimension estimates
-$\operatorname{cd}_\ell\le2\dim$ of
-[lem-sc-cohomological-dimension] of the Jacobian chapter at the
-finite-torsion levels, with the adic passage of the etale-cohomology
-continuity [lemma-weil-pbc-etale-cohomology-continuity] of
-the ambient-foundations chapter; for $d=0$ this is the concentration of a finite
-scheme, for $d=1$ the range of a curve $a\le2$ – for the affine
+$R^af_!G=0$ for $a>2d$. For torsion coefficients this is the
+cohomological dimension estimate $\operatorname{cd}_\ell\le2\dim$ of
+[lem-sc-cohomological-dimension] of the Jacobian chapter, applied to the
+fibres. For $G\in\Cons(X,\Qlb)$ it is deduced from the torsion case as
+follows. The sheaf $R^af_!G$ is constructible ([sk-thm-sf-ctf-stability]),
+so it vanishes once its geometric stalks do ([sk-lem-coefficient-heart](3));
+by compact-support base change ([sk-thm-sfb-shriek-base-change]) the stalk at
+$\bar y$ is $H^a_c(X_{\bar y},G|_{X_{\bar y}})$. As in
+[lem-zl-affine-curve-range], $G$ is the extension of scalars of a
+constructible $E$-sheaf for a finite $E/\Ql$
+([sk-thm-sfb-qlbar-two-colimit]), which has a finite filtration with
+subquotients $a_!L$, $L$ lisse with a lisse $\mathcal O_E$-lattice $L_0$
+([sk-lem-coefficient-heart](3), [sk-lem-stratified-lattice]). The complex
+$M=R\Gamma_c(X_{\bar y},a_!L_0)$ is derived $\pi_E$-complete
+([sk-prop-integral-criterion], [sk-def-pe-derived-completion]) with
+$M\otimes^{\mathbf L}\mathcal O_E/\pi_E^n\simeq R\Gamma_c(X_{\bar y},a_!L_0/\pi_E^n)$
+([sk-prop-scalar-six]); these torsion complexes have finite cohomology
+([sbc-thm-finiteness-finite-type]) vanishing above degree $2d$, so
+$H^a(M)=\varprojlim_nH^a_c(X_{\bar y},a_!L_0/\pi_E^n)=0$ for $a>2d$ by
+[lem-weil-pbc-mittag-leffler]. Inverting $\ell$, extending scalars to
+$\Qlb$ and using the filtration gives the bound for $G$. For $d=0$ this is the concentration of a finite
+scheme, for $d=1$ the range of a curve $a\le2$ (for the affine
 fibers of the affine morphism $f$ the sharper affine-Lefschetz
 range $a\le1$ applies as well, but the $2d$-bound is the one that
 is needed below, since the relative degree contribution of the blocks

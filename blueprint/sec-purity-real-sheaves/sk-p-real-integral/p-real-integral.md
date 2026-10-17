@@ -3,7 +3,7 @@ id = "p-real-integral"
 kind = "theorem"
 title = "Integral models"
 order = 2940
-uses = ["def-wf-fundamental-representation", "lem-wf-weil-fundamental-representation", "lem-wf-weil-group-exact-sequence", "prop-wf-weil-sheaf-representation-equivalence"]
+uses = ["cor-galois-lisse-representations", "def-wf-fundamental-representation", "lem-wf-weil-fundamental-representation", "lem-wf-weil-group-exact-sequence", "prop-wf-weil-sheaf-representation-equivalence", "sk-prop-sfb-qlbar-colimit-x", "thm-lisse-qlbar-representations"]
 tags = ["latex:proposition"]
 +++
 Keep the notation of [prop-wf-weil-sheaf-representation-equivalence], and let $U_0\subseteq C_0$ be a
@@ -22,4 +22,8 @@ $$
 
 and the image of $\pi_1(U)$ in $\operatorname{Aut}(L/\mathfrak m_E^nL)$ is
 finite for every $n$. Such an $L$ is the geometric stalk of a lisse
-$\mathcal O_E$-sheaf on $U$.
+$\cO_{E,U}$-module $\mathcal L$ on $U_{\mathrm{proét}}$, locally isomorphic to
+$\cO_{E,U}^{\oplus\operatorname{rk}L}$, whose reductions $\mathcal L/\mathfrak m_E^n\mathcal L$
+are the finite locally constant sheaves with stalk $L/\mathfrak m_E^nL$, and with
+$\mathcal L\otimes_{\cO_{E,U}}\overline{\mathbf Q}_{\ell,U}$ the lisse
+$\overline{\mathbf Q}_{\ell,U}$-module underlying $V|_{U}$.

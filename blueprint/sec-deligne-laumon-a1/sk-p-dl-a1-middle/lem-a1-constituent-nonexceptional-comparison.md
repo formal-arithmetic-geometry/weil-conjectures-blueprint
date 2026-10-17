@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Constituent-nonexceptional versus Fourier-nonexceptional"
 order = 3097
 uses = ["def-a1-constituent-nonexceptional", "def-fd-nonexceptional", "def-wf-constant-weil-twist", "def-wf-middle-extension"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.isFourierNonexceptional_of_isNonexceptional", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.isNonexceptional_iff_isFourierNonexceptional"]
+lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isFourierNonexceptional_of_isNonexceptional", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isNonexceptional_iff_isFourierNonexceptional"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion
 and let $\mathcal M$ be a nonzero irreducible lisse Weil sheaf on

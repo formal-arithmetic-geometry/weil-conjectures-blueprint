@@ -16,7 +16,7 @@ $Rf^!:D^b_{ctf}(Y,A)\to D^b_{ctf}(X,A)$, with unit
 $\operatorname{id}\to Rf^!Rf_!$ and counit
 $Rf_!Rf^!\to\operatorname{id}$ (i.e. the adjunction $Rf_!\dashv Rf^!$),
 and the composition and base-change exchange isomorphisms used below; and
-*exceptionally admissible* when this holds at every finite coefficient stage
+*exceptionally admissible* when this holds for every finite coefficient ring
 $A=A_{E,n}$ with constants independent of $n$. The functor in question is
 the constructible exceptional inverse image of
 [def-weil-exceptional-inverse-image].

@@ -12,7 +12,12 @@ E_2^{a,b}=R^af_!\bigl(\mathcal H^b(K)\bigr)
 $$
 
 with the finite image filtration of
-[lemma-weil-pbc-hypercohomology-convergence]. By
+[lemma-weil-pbc-hypercohomology-convergence]. Its terms are
+constructible $\Qlb$-sheaves ([sk-lem-coefficient-heart]); the Weil
+structure of $K$ induces Weil structures on them, and the differentials
+and filtration are Frobenius-compatible, because the truncation
+triangles are functorial and $Rf_!$ commutes with the Frobenius base
+change isomorphisms ([sk-def-sf-weil-complexes]). By
 [def-weil-complex-weights], each $\mathcal H^b(K)$ is
 $\iota$-mixed of weights at most $w+b$; by the hypothesis of the
 lemma every $E_2^{a,b}$ is mixed of weights at most $w+a+b$. Every

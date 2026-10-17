@@ -67,10 +67,11 @@ $\mathcal H^a(D_ZM)\cong(\mathcal H^{-a}M)^\vee$.
 *Step 3: the cosupport condition.* Let $K\in D^b_c(C,\overline{\mathbf Q}_\ell)$,
 and choose $U$ and $Z$ as in Step 1 for $K$. By Step 2 this choice also
 serves for $N:=D_CK$ on $U$. By [lem-weil-closed-costalk-duality] applied
-to $D_CK$, and by the biduality of [thm-coef-qbar-verdier] on $C$ and on
+to $D_CK$, and by the Verdier biduality of [sk-thm-pd-verdier-duality] on $C$ and on
 $Z$, we get $Ri^!K\cong Ri^!D_CD_CK\cong D_Zi^*D_CK$, hence
-$i^*D_CK\cong D_ZRi^!K$. The object $Ri^!=D_Zi^*D_C$ is constructible by
-[thm-coef-qbar-verdier]. By $(*)$ and Step 2,
+$i^*D_CK\cong D_ZRi^!K$. The object $Ri^!K=D_Zi^*D_CK$ is constructible, since $i^*$ and the
+Verdier duals preserve $\Dbc(-,\Qlb)$ ([sk-thm-sf-ctf-stability],
+[sk-thm-pd-verdier-duality]). By $(*)$ and Step 2,
 $$
 \operatorname{CosuppCon}(K)\iff
 \text{(a) }\mathcal H^b(j^*K)=0\ (b\le-2)\ \text{and (b) }

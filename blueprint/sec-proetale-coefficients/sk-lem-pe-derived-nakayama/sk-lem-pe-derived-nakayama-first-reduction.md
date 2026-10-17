@@ -2,7 +2,7 @@
 id = "det-pe-derived-nakayama-first-reduction"
 kind = "lemma"
 title = "Derived Nakayama from the first reduction"
-uses = ["det-pe-derived-nakayama-resolution", "def-weil-derived-complete", "sk-def-pe-derived-completion", "sk-prop-pe-products"]
+uses = ["det-pe-derived-nakayama-resolution", "sk-def-pe-derived-completion", "sk-prop-pe-products"]
 +++
 Let $K\in D(X_{\Proet},\mathcal O_E)$ be derived complete in the sense of
 [sk-def-pe-derived-completion]. If $K_1=0$, then $K_n=0$ for all $n\geq1$ and

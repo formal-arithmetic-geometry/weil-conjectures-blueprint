@@ -1,30 +1,21 @@
 +++
 kind  = "proof"
 of    = "prop-constructible-truncations"
+uses = ["sk-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "sk-prop-sfb-finite-extension-compatibility", "def-weil-derived-pullback-tensor-hom"]
 +++
-At a finite coefficient stage the truncation functors of the
-t-structure of [def-weil-derived-cohomology-sheaves] are the
-canonical truncations of complexes, computed levelwise; they are exact
-triangulated on the bounded constructible derived category, because the
-truncation of a bounded constructible complex has the cohomology sheaves
-of the original complex in the surviving degrees, hence satisfies the
-finite-torsion constructibility condition in the same finite partition.
-At the derived-complete integral level, the truncations are the
-levelwise ones on the reduction tower of
-[thm-weil-pbc-integral-truncations] of the proper-base-change chapter, and the
-standard t-structure restricts to the integral category by
-[prop-weil-pbc-integral-tstructure] of the proper-base-change chapter.
-The canonical truncation triangles give the axioms of a bounded
-t-structure in the sense of [def-weil-t-structure]. Being
-characterized by the vanishing of cohomology sheaves,
-the truncations commute with finite scalar extension and with the
-transitions of the coefficient tower, so they descend to the rationalized
-category of
-[def-weil-rationalization-karoubi] and to the common-stage
-category of [def-weil-algebraically-closed-coefficients], where
-the truncation triangles give the same bounded t-structure axioms; the
-displayed definition of $\mathcal H^i$ is then the canonical
-identification. For a scheme automorphism $h$, the derived pullback
-$Lh^*$ of [def-weil-derived-pullback-tensor-hom] is exact
-triangulated, so it commutes with the canonical truncations and hence
-with $\mathcal H^i$.
+The canonical truncations of complexes of $\Lambda_Y$-modules define the
+standard t-structure on $D(Y_{\mathrm{pro\acute et}},\Lambda)$. For
+$K\in\Dbc(Y,\Lambda)$ the truncations $\tau^{\leq m}K$ and $\tau^{\geq m}K$ are
+bounded, and their cohomology sheaves are those of $K$ in the surviving degrees
+and zero otherwise. These are constructible, so both truncations lie in
+$\Dbc(Y,\Lambda)$ ([sk-def-sfb-bounded-constructible]). Hence the standard
+t-structure restricts to $\Dbc(Y,\Lambda)$, with the truncation triangles of
+$D(Y_{\mathrm{pro\acute et}},\Lambda)$, and its heart is the category of
+constructible sheaves, which is abelian by [sk-lem-coefficient-heart]. The
+formula for $\mathcal H^i$ is the canonical identification for the standard
+t-structure. Extension of scalars along $E_Y\to E'_Y$ or $E_Y\to\Qlb_Y$ is
+exact, these rings being flat over $E_Y$ ([sk-prop-sfb-finite-extension-compatibility]), so it
+commutes with cohomology sheaves and hence with the truncations. For a scheme
+automorphism $h$, the pullback $h^*$ of
+[def-weil-derived-pullback-tensor-hom] is exact on sheaves, so $Lh^*=h^*$
+commutes with the canonical truncations and hence with $\mathcal H^i$.

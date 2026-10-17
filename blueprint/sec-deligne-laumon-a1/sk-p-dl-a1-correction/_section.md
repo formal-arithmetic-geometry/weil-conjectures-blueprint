@@ -4,7 +4,7 @@ kind = "proposition"
 title = "The zero-extension comparison"
 order = 3111
 uses = ["sk-p-dl-a1-middle", "sk-p-dl-a1-perverse", "sk-p-real-semi"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.nonempty_fourierCorrection", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection.isLisse", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.FourierCorrection.hasWeightsAtMost"]
+lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_fourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.isLisse", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.hasWeightsAtMost"]
 tags = ["sketch"]
 +++
 Let $\psi$ be nontrivial. For an irreducible lisse $M$ (nonzero, with no

@@ -14,13 +14,13 @@ biduality, and global duality with compact supports — comes from
 of the derived pairing $\beta_K$ (cup product, evaluation, normalized smooth
 trace; [sk-def-pairing]) with the global-duality isomorphism. The finiteness
 lemma [sk-lem-finite] makes $R\Gamma_c(X,K)$ and $R\Gamma(X,K)$ perfect point
-complexes at every coefficient stage. Over a field this yields perfect
+complexes for every admissible coefficient ring. Over a field this yields perfect
 degreewise pairings $H^i_c(X,K)\times H^{2d-i}(X,K^\vee(d))\to\Lambda$
 ([sk-thm-derived-duality]); for proper $X$ the trace
 $H^{2d}(X,\Lambda)\to\Lambda(-d)$ is an isomorphism ([sk-cor-trace]), and
 for Weil complexes the pairing is Frobenius-equivariant, giving similitude
 with factor $q^d$ and reciprocal eigenvalues $q^d/\alpha$
-([sk-thm-frobenius]). After transport through all coefficient stages
+([sk-thm-frobenius]). After transport through all admissible coefficient rings
 ([sk-thm-transport]) these assemble into the final statement
 [sk-thm-poincare-duality].
 
@@ -44,7 +44,7 @@ with factor $q^d$ and reciprocal eigenvalues $q^d/\alpha$
   $H^i_c(X,K)$. Used in §[sec-purity-real-sheaves], §[sec-fourier-transform],
   §[sec-deligne-laumon-a1].
 - Lemma [sk-lem-finite] (finiteness): $R\Gamma_c(X,K)$, $R\Gamma(X,K)$ and
-  their duals are perfect point complexes at every coefficient stage. Used in
+  their duals are perfect point complexes for every admissible coefficient ring. Used in
   §[sec-algebraic-groups-lie-algebras], §[sec-purity-real-sheaves],
   §[sec-fourier-transform], §[sec-deligne-laumon-a1], §[sec-zeta-weil].
 

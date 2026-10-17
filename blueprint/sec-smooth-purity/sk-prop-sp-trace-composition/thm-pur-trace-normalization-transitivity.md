@@ -4,10 +4,10 @@ kind = "theorem"
 title = "Trace normalization and transitivity"
 lean = ["AlgebraicGeometry.Etale.smoothPurityTrace_comp", "AlgebraicGeometry.Etale.smoothPurityTrace_baseChange", "AlgebraicGeometry.Etale.isIso_affineLineFundamentalClass_comp_smoothPurityTrace", "AlgebraicGeometry.Etale.exists_affineLineFundamentalClass_comp_smoothPurityTrace"]
 order = 2372
-uses = ["cor-pur-affine-space-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-projection-purity-agreement", "thm-pur-adic-reconstruction", "thm-pur-affine-line-orientation", "thm-pur-affine-line-purity", "thm-pur-composition-coherence", "thm-pur-finite-reduction-of-purity", "thm-pur-rational-and-qbar-purity", "thm-pur-smooth-base-change-coherence", "thm-sf-comp-composition"]
+uses = ["cor-pur-affine-space-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-projection-purity-agreement", "thm-pur-affine-line-orientation", "thm-pur-affine-line-purity", "thm-pur-composition-coherence", "thm-pur-finite-reduction-of-purity", "thm-pur-smooth-base-change-coherence", "thm-sf-comp-composition"]
 +++
 Work in the purity conventions of [def-pur-conventions], let
-$A=A_{E,n}$, let $f:X\to Y$ and $g:Y\to Z$ be smooth separated
+$\Lambda=A=A_{E,n}$, let $f:X\to Y$ and $g:Y\to Z$ be smooth separated
 morphisms of relative dimensions $d$ and $e$, and let
 $K\in D^b_{ctf}(Z,\Lambda)$. The typed composite
 
@@ -40,7 +40,12 @@ is the product of the normalized affine-line traces of
 [thm-pur-affine-line-purity]: it sends the ordered fundamental class
 of $\mathbf A^d$, the $d$-fold tensor of the affine-line classes, to
 $1\in\Lambda$. The smooth traces are compatible with arbitrary base
-change of $Z$ and with the coefficient transports of
-[thm-pur-finite-reduction-of-purity],
-[thm-pur-adic-reconstruction], and
-[thm-pur-rational-and-qbar-purity].
+change of $Z$ and with the finite reductions
+$A_{E,n}\to A_{E,m}$ of [thm-pur-finite-reduction-of-purity].
+
+For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$ the transitivity is
+[sk-prop-sp-trace-composition] and the base-change compatibility is
+[sk-prop-sp-purity-bc]. By [det-sp-purity-coefficient-change] the smooth
+traces with these coefficients are obtained from the finite ones by reduction
+(for $\mathcal O_E$), inversion of $\ell$ and extension of scalars, so the
+normalization on $\mathbf A^d$ holds for them as well.

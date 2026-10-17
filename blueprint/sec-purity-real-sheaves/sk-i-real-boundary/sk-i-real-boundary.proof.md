@@ -53,32 +53,41 @@ for geometric points $\bar\eta_i$ over $\kappa(\mathfrak p_i)$, and each
 $\mathcal F_{\bar\eta_i}$ is finite. Hence $(j_*\mathcal F)_{\bar s}$ is finite
 and $j_*\mathcal F$ is constructible.
 
-For the lisse Weil sheaf $\mathcal F$ of the statement, apply this to the
-finite levels $\mathcal F_n$ of an $\mathcal O_E$-model, which are
-locally constant sheaves of finite $\mathcal O_E/\mathfrak m_E^n$-modules;
-so $j_*\mathcal F_n$ is constructible for every $n$. (A lisse
-$\Qlb$-sheaf need not be trivialized by any finite etale cover: on
-$\mathbf G_m$ the unipotent Kummer extension, on which $\mathbf Z_\ell(1)$
-acts by $\left(\begin{smallmatrix}1&t\\0&1\end{smallmatrix}\right)$, has
-infinite geometric monodromy; this is why one works at finite levels.) For
-$J$ itself: $J|_{U_0}=\mathcal F$ is lisse, and at each of the finitely many
-boundary points $s$ the stalk $J_{\bar s}=V_s^{I_s}$ of Step 2 is a
-finite-dimensional representation of the residue Weil group, so $J$ is
-lisse on each stratum of $U_0\sqcup(C_0\setminus U_0)$, i.e. constructible
-in the sense of [sk-d-real-weil].
+For the lisse Weil sheaf $\mathcal F$ of the statement, a lisse
+$\overline{\mathbf Q}_{\ell,U}$-module with Weil structure, the sheaf
+$J=j_*\mathcal F=\mathcal H^0(Rj_*\mathcal F)$ is constructible because $Rj_*$ preserves
+$\Dbc(-,\Qlb)$ ([sk-thm-sf-ctf-stability]). More precisely, $J|_{U_0}=\mathcal F$ is
+lisse, and at each of the finitely many boundary points $s$ the stalk
+$J_{\bar s}=V_s^{I_s}$ of Step 2 is a finite-dimensional representation of the residue
+Weil group, so $J$ is lisse on each stratum of $U_0\sqcup(C_0\setminus U_0)$, i.e.
+constructible in the sense of [sk-d-real-weil]. (A lisse $\Qlb$-sheaf need not be
+trivialized by any finite etale cover: on $\mathbf G_m$ the unipotent Kummer extension,
+on which $\mathbf Z_\ell(1)$ acts by
+$\left(\begin{smallmatrix}1&t\\0&1\end{smallmatrix}\right)$, has infinite geometric
+monodromy; this is why the stalk computation of Step 2 passes through an integral
+model and its finite levels.)
 
 *Step 2 (the boundary stalk).* The stalk of $J$ at a geometric
-boundary point $\bar s$ is computed on the punctured strict henselian
-trait at $s$. The strict-henselization stalk formula is a statement
+boundary point $\bar s$ is computed through an integral model, as a consequence of
+the condensed comparison theorems. By
+[sk-p-real-integral], after enlarging $E$, $\mathcal F\simeq\mathcal F_0\otimes\Qlb$ for a
+lisse $\cO_{E,U}$-module $\mathcal F_0$ with a stable lattice $M$ of $V_s$ as stalk and
+reductions $\mathcal F_n$ with stalks $M_n$. The coefficient comparisons for $Rj_*$
+([sk-prop-scalar-six]) give $Rj_*\mathcal F\simeq Rj_*\mathcal F_0\otimes\Qlb$ and
+$Rj_*\mathcal F_0\otimes^{\mathbf L}\cO_E/\mathfrak m_E^n\simeq Rj_*\mathcal F_n$. The
+strict-henselization stalk formula is a statement
 about torsion sheaves, so it is applied at each finite level: it
 identifies $(j_*\mathcal F_n)_{\bar s}$ with the invariants $M_n^{I_s}$ of
 the finite-level geometric generic stalk under the inertia group
-$I_s=\Gal(\overline{K_s}/K_s^{\mathrm{sh}})$. The geometric stalk of the
-adic sheaf $J$ is formed from these levels,
-$J_{\bar s}=(\varprojlim_nM_n^{I_s})\otimes_{\mathcal O_E}E$; invariants
-commute with inverse limits, so $\varprojlim_nM_n^{I_s}=M^{I_s}$ for the
-lattice $M=\varprojlim_nM_n$ of $V_s$, and $M^{I_s}=M\cap V_s^{I_s}$ is
-saturated in $M$, so $M^{I_s}\otimes_{\mathcal O_E}E=V_s^{I_s}$. (The
+$I_s=\Gal(\overline{K_s}/K_s^{\mathrm{sh}})$. The stalk of $Rj_*\mathcal F_0$ at
+$\bar s$ is a derived complete object of $\Dbc(\bar s,\cO_E)$
+([sk-lem-integral-models], [sk-prop-integral-criterion]), hence the derived limit of its
+reductions, and the Milnor sequence ([sk-prop-pe-milnor]) gives
+$\mathcal H^0(Rj_*\mathcal F_0)_{\bar s}=\varprojlim_nM_n^{I_s}$; invariants
+commute with inverse limits, so $\varprojlim_nM_n^{I_s}=M^{I_s}$, and after extending
+scalars along the flat map $\cO_{E,C}\to\overline{\mathbf Q}_{\ell,C}$ one gets
+$M^{I_s}\otimes_{\cO_E}\Qlb=V_s^{I_s}$, since invariants commute with inverting $\ell$
+and with the free base change $E\to\Qlb$. (The
 tower $(M_n^{I_s})_n$ need not be adic; only its limit enters.) Hence
 $J_{\bar s}=V_s^{I_s}$,
 where $K_s$ is the fraction field of the henselization as in
@@ -108,14 +117,18 @@ $\mathcal G\to j_*j^*\mathcal G$ is compatible with pullback along the etale
 map $P\to C_0$ (direct image along an open immersion commutes with etale
 base change), and its pullback to each $P_a$ is the isomorphism just proved
 for the constant sheaf; since $P\to C_0$ is surjective, the unit is an
-isomorphism. For $\mathcal G$ lisse on $C_0$, apply this to each finite
-level $\mathcal G_n$ to get
-$\mathcal G_n\simeq j_*(\mathcal G_n|_{U_0})$ for every $n$; these
-isomorphisms are compatible in $n$ and $j_*$ of an adic sheaf is formed
-levelwise, so $\mathcal G\simeq j_*(\mathcal G|_{U_0})$. (Equivalently,
-Step 2 at $s\in C_0\setminus U_0$ gives
-$J_{\bar s}=\mathcal G_{\bar s}^{I_s}=\mathcal G_{\bar s}$, inertia acting
-trivially on the stalk of a sheaf lisse at $s$.)
+isomorphism. For $\mathcal G$ lisse on $C_0$, a lisse $\overline{\mathbf Q}_{\ell,C}$-module, the
+unit $\mathcal G\to j_*(\mathcal G|_{U_0})$ is a map of constructible sheaves
+([sk-thm-sf-ctf-stability]) and an isomorphism over $U_0$. At
+$s\in C_0\setminus U_0$, Step 2 identifies $(j_*j^*\mathcal G)_{\bar s}$ with
+$\mathcal G_{\bar\eta}^{I_s}=\mathcal G_{\bar\eta}$, inertia acting trivially because
+the geometric representation of $\mathcal G$ factors through $\pi_1(C)$, and the unit
+becomes the specialization isomorphism $\mathcal G_{\bar s}\to\mathcal G_{\bar\eta}$ of the
+locally free module $\mathcal G$. Geometric stalks are jointly conservative on
+$\Cons(C,\Qlb)$: kernels and cokernels are constructible ([sk-lem-coefficient-heart]
+(1)), and a constructible sheaf with zero stalks has zero stalks on every graded piece
+$a_!L$ of [sk-lem-coefficient-heart] (3), so each lisse $L$ is zero. Hence
+$\mathcal G\simeq j_*(\mathcal G|_{U_0})$.
 
 *Step 4 (surjectivity on fundamental groups).* Let $W\to C$ be
 connected finite etale. By Step 0 it is normal integral, hence its

@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-purity-transport"
-uses = ["sk-thm-smooth-purity", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-prop-sf-existence", "sk-thm-existence", "sk-prop-sp-unique-adjoint"]
+uses = ["sk-thm-smooth-purity", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-prop-sf-existence", "sk-thm-existence", "sk-prop-sp-unique-adjoint", "det-sp-purity-coefficient-change"]
 +++
 *Step 1 (compatibility with the finite reductions).* For $m\le n$
 write $\mathrm{red}_{n,m}=(-)\otimes^{L}_{A_{E,n}}A_{E,m}$. By
@@ -18,38 +18,21 @@ Hence $\mathrm{red}_{n,m}(\gamma_{f,K})=\gamma_{f,\mathrm{red}_{n,m}K}$,
 and likewise for the orientations, the smooth traces and the composition
 and base-change squares of [sk-prop-cohsm] (G12).
 
-*Step 2 (the adic stage).* Let
-$K\in D^b_{ctf}(Y,\mathcal O_E)$ be the normalized system $(K_n)_n$. By
-Step 1 the isomorphisms $\gamma_{f,K_n}$ commute with the transition maps
-of the system, so they form a morphism of normalized systems, the common
-bounds and stratifications being those of $K$ with the same $d$-shift.
-The uniform-tower reconstruction realizes that morphism as a single map
-$Lf^{*}K(d)[2d]\to Rf^{!}K$ over $\mathcal O_E$ whose reduction at every
-level $n$ is $\gamma_{f,K_n}$; a map of towers that is an isomorphism at
-every level is an isomorphism, so $\gamma_{f,K}$ is one.
+*Step 2 (the coefficients $\mathcal O_E$, $E$ and $\Qlb$).* These are the
+condensed coefficient rings of [sk-def-sf-setting], and no stage is built from
+another. For $\Lambda=\mathcal O_E$, [sk-prop-sp-integral-adjunction] shows that
+$K\mapsto f^*_{\mathcal O_E}K(d)[2d]$ is right adjoint to $Rf_{!,\mathcal O_E}$ on
+$\Dbc(-,\mathcal O_E)$. Its proof passes through the tower model of
+[sk-prop-sp-tower-geometric] and uses the equivalence of $\Dbc(-,\mathcal O_E)$ with
+normalized towers ([sk-lem-sp-tower]), a consequence of the integral criterion
+[sk-prop-integral-criterion]. For $\Lambda=E$ the same holds by
+[sk-prop-sp-rational], where integral models and Hom groups tensored with $E$
+enter only as consequences of [sk-lem-integral-models] and
+[sk-thm-sfb-rationalization-comparison]. For $\Lambda=\Qlb$ it holds by
+[sk-thm-sp-qbar], where descent to a finite $E$ is
+[sk-thm-sfb-qlbar-two-colimit].
 
-*Step 3 (the $E$- and $\overline{\mathbf Q}_\ell$-stages).* An
-$E$-object is presented by a lattice $K_{\mathcal O_E}$ with
-$K_E=K_{\mathcal O_E}\otimes^{L}_{\mathcal O_E}E$. Since
-$\mathcal O_E\to E$ is flat, $(-)\otimes^{L}_{\mathcal O_E}E$ is exact and
-carries the isomorphism of Step 2 for the lattice to an isomorphism
-$\gamma_{f,K_E}$, independently of the chosen lattice because two lattices
-agree after inverting $\varpi$. A $\overline{\mathbf Q}_\ell$-object is
-represented by an $E$-object for some finite $E/\mathbf Q_\ell$, the
-finite-stage categories being idempotent complete, and $\gamma$ transports
-along $E\hookrightarrow\overline{\mathbf Q}_\ell$; the transport is well
-defined because the purity isomorphisms are transitive in coefficient
-extensions and preserve idempotent summands.
-
-*Step 4 (the dualizing complex).* Apply Steps 1–3 to $f=a_X$ and
-$K=\Lambda_{\Spec k}$: the purity isomorphism reads
-$\omega_{X,\Lambda}\cong\Lambda_X(d)[2d]$, and the counit of
-$Ra_{X!}\dashv Ra_X^{!}$ becomes the transported normalized integration
-map. Only the finite stage is proved in this document; Steps 2–4 are
-sketches of Blueprint 14, where the reconstruction and transport lemmas
-are carried out in full.
-
-*Step 5 (identification with $f^!$ and uniqueness).* Both adjunctions live on
+*Step 3 (identification with $f^!$ and uniqueness).* Both adjunctions live on
 $\Dctf(X,\Lambda)$ and $\Dctf(Y,\Lambda)$, and in both $Rf_!$ is the composite
 $R\bar f_*\circ j_!$ of ordinary derived functors on module sheaves for a
 compactification $f=\bar f\circ j$, independent of the compactification. Finite
@@ -62,8 +45,18 @@ restriction of $f^!$ is also right adjoint to $Rf_{!,\Lambda}$ on $\Dctf$.
 [sk-prop-sp-unique-adjoint] gives the unique counit-preserving isomorphism from
 the explicit adjoint $K\mapsto f_\Lambda^*K(d)[2d]$ to $f_\Lambda^!$.
 
+*Step 4 (compatibility with change of coefficients).* By Step 1 and
+[det-sp-purity-coefficient-change], the purity maps and smooth traces with
+coefficients $\mathcal O_E$ reduce modulo $\ell^n$ (and modulo $\pi_E^n$) to
+the finite ones, those with coefficients $E$ are obtained from integral models
+by inverting $\ell$, and those with coefficients $\Qlb$ by extension of scalars
+from a finite $E$. Applied to $f=a_X$ and $K=\Lambda_{\Spec k}$ this gives
+$\omega_{X,\Lambda}\simeq\Lambda_X(d)[2d]$, with the counit normalized by
+finite-level integration ([sk-cor-sp-all-coefficients]).
+
 For every admissible $\Lambda$ the exceptional inverse image of a smooth
 morphism is therefore the twisted and shifted inverse image, normalized by
 integration on the affine line, and the smooth trace is the counit of
-$Rf_!\dashv f^!$ in this form, compatible with base change, composition, change
-of coefficients and Frobenius.
+$Rf_!\dashv f^!$ in this form. It is compatible with change of coefficients
+(Step 4), base change ([sk-prop-sp-purity-bc]) and composition
+([sk-prop-sp-composition], [sk-prop-sp-trace-composition]).

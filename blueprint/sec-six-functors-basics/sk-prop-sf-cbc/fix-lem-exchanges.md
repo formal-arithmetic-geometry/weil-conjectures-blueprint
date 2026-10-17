@@ -3,7 +3,7 @@ id = "fix-lem-exchanges"
 kind = "lemma"
 title = "Exchange functoriality: naturality, identities, and pasting"
 order = 1994
-uses = ["def-cbc-exchange-map", "def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-cartesian-square", "def-weil-scheme-morphism-properties", "lem-weil-pbc-exchange-identity-pasting", "prop-compactification-coherence-detailed", "sbc-def-base-change-map", "sbc-lem-identity-and-base-change-composition", "sbc-thm-bounded-below-derived-smooth-base-change", "sbc-thm-overline-mathbf-q-ell-coefficient-smooth-base-ch", "thm-cbc-finite-extension", "thm-cbc-finite-torsion", "thm-cbc-qbar", "thm-sf-comp-composition"]
+uses = ["def-cbc-exchange-map", "def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-cartesian-square", "def-weil-scheme-morphism-properties", "lem-weil-pbc-exchange-identity-pasting", "prop-compactification-coherence-detailed", "sbc-def-base-change-map", "sbc-lem-identity-and-base-change-composition", "sbc-thm-bounded-below-derived-smooth-base-change", "sk-thm-sbc-coefficients", "thm-cbc-finite-torsion", "sk-def-sfb-shriek-base-change-morphism", "sk-thm-sfb-shriek-base-change", "thm-cbc-complete-proetale", "thm-sf-comp-composition"]
 +++
 In the six-functor datum of
 [def-fix-six-functor-datum], let
@@ -34,9 +34,10 @@ of [def-exchange-projection] satisfy:
 1. both are natural in $K$, in the morphisms of the square, and
 in the coefficient ring; $\operatorname{Ex}_!$ agrees with the
 compact-support exchange map of [def-cbc-exchange-map] at every
-finite level and with its transports of
-[thm-cbc-finite-extension] and [thm-cbc-qbar] at the
-rational and algebraically closed levels;
+finite level and with the compact-support base change morphism of
+[sk-def-sfb-shriek-base-change-morphism] on the condensed categories
+$\Dbc(-,\Lambda)$ for $\Lambda=\mathcal O_E,E,\Qlb$, where it is an
+isomorphism ([thm-cbc-complete-proetale], [sk-thm-sfb-shriek-base-change]);
 1. both are the identity for an identity square, and for
 vertically or horizontally pasted cartesian squares the exchange
 transformation of the outer rectangle is the composite of the
@@ -49,7 +50,7 @@ $\operatorname{Ex}_!$ those of [thm-cbc-finite-torsion];
 1. for smooth $g$,
 $\operatorname{Ex}_*$ is the smooth-base-change exchange morphism of
 [sbc-thm-bounded-below-derived-smooth-base-change], and it is an
-isomorphism;
+isomorphism at every coefficient ring ([sk-thm-sbc-coefficients]);
 1. $\operatorname{Ex}_!$ is independent of the chosen
 compactification and compatible with the refinement comparison
 isomorphisms of [prop-compactification-coherence-detailed] and with the

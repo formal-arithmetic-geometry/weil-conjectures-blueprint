@@ -13,9 +13,13 @@ Let $Y_0$ be a separated finite-type
 $Y=Y_0\times_{k_0}k$, set $\gamma=\operatorname{Frob}_q$, the geometric
 Frobenius [def-weil-frobenius-detailed], and
 $g_Y=\operatorname{id}_{Y_0}\times\operatorname{Spec}(\gamma):Y\to Y$, and
-choose $(K,\theta_K)\in D^b_{c,\mathrm W}(Y,E)$. The Weil structure
-[def-weil-weil-sheaf-complex] is the isomorphism formed with the derived
-pullback [def-weil-derived-pullback-tensor-hom]
+let $\Lambda\in\{E,\Qlb\}$, regarded as a condensed ring, and choose a Weil
+complex $K\in D^b_{c,\mathrm W}(Y,\Lambda)$ of [def-weil-weil-sheaf-complex],
+with underlying object $\operatorname{For}(K)$ in the condensed category
+$\Dbc(Y,\Lambda)$; for a pair $(K,\theta)$ with $K\in\Dbc(Y,\Lambda)$, read
+$\operatorname{For}(K)=K$ and $\theta_K=\theta$ below. The Weil structure
+$\theta_K$ of [def-weil-weil-sheaf-complex] is the isomorphism formed with the
+derived pullback [def-weil-derived-pullback-tensor-hom]
 $Lg_Y^*\operatorname{For}(K)\xrightarrow{\sim}\operatorname{For}(K)$, and the
 ordinary cohomology [def-weil-ordinary-compact-cohomology] endomorphism is
 induced by

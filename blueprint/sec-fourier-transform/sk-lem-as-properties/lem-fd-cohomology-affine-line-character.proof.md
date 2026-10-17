@@ -2,7 +2,7 @@
 kind  = "proof"
 of    = "lem-fd-cohomology-affine-line-character"
 +++
-The covering $\pi:\mathbf A^1_y\to\mathbf A^1_x$, $x=y^p-y$, of [lem-fd-as-cover-affine-line] is finite, so by [lem-fd-finite-pushforward-cohomology] and the isotypic decomposition of [lem-fd-as-characters],
+The covering $\pi:\mathbf A^1_y\to\mathbf A^1_x$, $x=y^p-y$, of [lem-fd-as-cover-affine-line] is finite étale, so by [lem-fd-finite-pushforward-cohomology] (2), applied on the pro-étale site with coefficients $\overline{\mathbf Q}_\ell$, and the isotypic decomposition of [lem-fd-as-characters],
 
 $$
 \bigoplus_{\chi\in\widehat{\mathbf F}_p}H^q(\mathbf A^1_x,\mathcal L_\chi)\cong H^q(\mathbf A^1_x,\pi_*\overline{\mathbf Q}_\ell)\cong H^q(\mathbf A^1_y,\overline{\mathbf Q}_\ell),

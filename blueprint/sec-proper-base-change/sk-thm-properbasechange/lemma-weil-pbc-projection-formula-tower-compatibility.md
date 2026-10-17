@@ -3,9 +3,12 @@ id = "lemma-weil-pbc-projection-formula-tower-compatibility"
 kind = "lemma"
 title = "Projection formulas form a coefficient tower"
 order = 1341
-uses = ["def-weil-pbc-complete-coefficient-datum", "def-weil-pbc-projection-formula-arrows"]
+uses = ["det-pe-derived-nakayama-resolution", "def-weil-pbc-projection-formula-arrows"]
 +++
-For every $n$, let $q_n:P_{n+1}\to P_n$ be the quotient. The square
+Let $f:X\to Y$ be a morphism and $K\in D(X_{\Proet},\mathcal O_E)$. For every
+$n$, let $P_n=(\mathcal O_E/\pi_E^n)_Y$, with its two-term resolution
+([det-pe-derived-nakayama-resolution]), and let $q_n:P_{n+1}\to P_n$ be the
+quotient. The square
 
 $$
 \begin{CD}

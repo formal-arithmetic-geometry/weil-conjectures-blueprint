@@ -4,7 +4,6 @@ kind = "theorem"
 title = "Smooth purity for all admissible coefficients"
 order = 1810
 uses = ["sk-def-purity-conv", "sk-lem-sf-flat-model", "sk-prop-a1", "sk-prop-cohsm", "sk-thm-smooth-purity", "sk-prop-sf-existence", "sk-thm-existence", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-prop-sp-unique-adjoint"]
-lean = ["AlgebraicGeometry.Etale.derivedCompleteIntegral_rightDerivedUpperShriek"]
 tags = ["sketch"]
 +++
 Let $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\Qlb\}$ be any admissible coefficient

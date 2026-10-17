@@ -1,8 +1,9 @@
 +++
 kind  = "proof"
 of    = "lem-fd-stalk-formula"
+uses = ["sk-thm-sfb-shriek-base-change", "sk-prop-sf-cbc", "thm-fd-transform-well-defined", "def-fd-kernel", "def-fd-transform"]
 +++
-Form the cartesian square with $g=\bar\xi:\operatorname{Spec}\Omega\to V^\vee$ and $p_2:V\times_kV^\vee\to V^\vee$. Its base change $p_2':V_{\bar\xi}\to\operatorname{Spec}\Omega$ is the structure morphism of $V_{\bar\xi}\cong\mathbf A^r_\Omega$, and $g':V_{\bar\xi}\to V\times_kV^\vee$ is $(\mathrm{pr}_V,\bar\xi)$. The stalk at $\bar\xi$ of a complex on $V^\vee$ is its inverse image along $g$, so the compact-support base change of [thm-cbc-finite-extension] at the $E$-stage (or of [thm-cbc-qbar] in the $\overline{\mathbf Q}_\ell$-form of the coefficient category of [def-weil-pbc-qbar-category]), applied to this square and to $p_1^*K\otimes^L\mathcal K_\psi\in D^b_c(V\times_kV^\vee,E)$, gives
+Form the cartesian square with $g=\bar\xi:\operatorname{Spec}\Omega\to V^\vee$ and $p_2:V\times_kV^\vee\to V^\vee$. Its base change $p_2':V_{\bar\xi}\to\operatorname{Spec}\Omega$ is the structure morphism of $V_{\bar\xi}\cong\mathbf A^r_\Omega$, and $g':V_{\bar\xi}\to V\times_kV^\vee$ is $(\mathrm{pr}_V,\bar\xi)$. The stalk at $\bar\xi$ of a complex on $V^\vee$ is its inverse image along $g$, so the compact-support base change on bounded constructible complexes ([sk-thm-sfb-shriek-base-change] for $\Lambda=E,\overline{\mathbf Q}_\ell$; see also [sk-prop-sf-cbc]), applied to this square and to $p_1^*K\otimes^L\mathcal K_\psi\in D^b_c(V\times_kV^\vee,\Lambda)$ ([thm-fd-transform-well-defined]), gives
 
 $$
 \bigl(Rp_{2!}(p_1^*K\otimes^L\mathcal K_\psi)\bigr)_{\bar\xi}

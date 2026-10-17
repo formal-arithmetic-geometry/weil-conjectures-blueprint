@@ -2,10 +2,10 @@
 kind  = "proof"
 of    = "thm-pod-identification-of-the-comparison"
 +++
-Work at the chosen coefficient stage. The adjunctions, tensor–Hom
+Work for the chosen coefficient ring. The adjunctions, tensor–Hom
 operations and projection transformation below are those at that stage
 in [fix-prop-projection-formula] and the adjunction definitions cited below.
-They are taken at the chosen coefficient stage.
+They are taken for the chosen coefficient ring.
 Put $C=Ra_{X!}K$, $\omega=Ra_X^!\Lambda$, and
 $D=Ra_{X*}R\mathcal Hom_X(K,\omega)$. The identification
 [thm-sf-dual-perfect] identifies $D$ with the first
@@ -48,7 +48,7 @@ $C\otimes T\xrightarrow{1\otimes t}C\otimes D\to\Lambda$
 obtained from the specified pairing. Its tensor–Hom transpose is
 $b_K^\sharp\circ t$. Thus $b_K^\sharp$ induces an isomorphism on
 every $H^r=\operatorname{Hom}_s(\Lambda[-r],-)$, under the point-category
-equivalences at all four coefficient stages in
+equivalences for all four kinds of admissible coefficients in
 [def-weil-finite-coefficient-point]; its cone has zero
 cohomology and is zero by [def-weil-derived-cohomology-sheaves].
 This proves that the actual adjoint is an isomorphism. The same

@@ -17,7 +17,7 @@ using the canonical coefficient comparison on ordinary global sections;
 no isomorphism assertion for that map is needed at this step.
 By [thm-pod-point-perfectness] the compact-support complex is
 perfect, so its coefficient dual commutes with reduction and the left
-vertical map is an isomorphism. At each coefficient stage,
+vertical map is an isomorphism. For each admissible coefficient ring,
 [thm-pod-identification-of-the-comparison] identifies the adjoint
 of the pairing with the duality isomorphism. Taking adjoints in the
 commuting pairing square therefore proves that the ordinary-global-section

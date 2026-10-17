@@ -1,13 +1,18 @@
 +++
 id = "thm-sf-pf-field"
 kind = "theorem"
-title = "Rational and algebraically closed stages"
+title = "Projection formula over $E$ and $\\Qlb$"
 lean = ["AlgebraicGeometry.Etale.isIso_fromIntegral_map_projectionMap", "AlgebraicGeometry.Etale.isIso_reductionModIdeal_pow_map_projectionMap"]
 order = 2442
-uses = ["def-sf-datum", "def-sf-pf", "def-weil-algebraically-closed-coefficients", "def-weil-rationalization-karoubi", "thm-sf-pf-adic"]
+uses = ["def-sf-datum", "def-sf-pf", "sk-def-sfb-bounded-constructible", "sk-lem-integral-models", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-scalar-six", "sk-prop-sfb-finite-extension-compatibility", "thm-sf-pf-adic"]
 +++
-In the setting of [def-sf-datum], let $K,L$ be obtained by
-rationalization from $\mathcal O_E$-objects, or represented at a finite
-stage $E'/\mathbf Q_\ell$. Then $\operatorname{PF}_{f,K,L}$ is an
-isomorphism over $E$ and over $\overline{\mathbf Q}_\ell$, compatible with
-the extension functors and with finite reduction.
+In the setting of [def-sf-datum], let $\Lambda\in\{E,\Qlb\}$, regarded as a
+condensed ring, and let $K\in\Dbc(X,\Lambda)$ and $L\in\Dbc(Y,\Lambda)$ be
+objects of the condensed bounded constructible categories
+([sk-def-sfb-bounded-constructible]). Then $\operatorname{PF}_{f,K,L}$ is an
+isomorphism in $\Dbc(Y,\Lambda)$. It is compatible with localization
+$\mathcal O_E\to E$ and with extension of scalars $E\to F\to\Qlb$: for
+integral $K_0,L_0$ the map $\operatorname{PF}_{f,K_0[1/\ell],L_0[1/\ell]}$ is
+the localization of $\operatorname{PF}_{f,K_0,L_0}$, and for $K_E,L_E$ over a
+finite $E$ the map $\operatorname{PF}_{f,(K_E)_\Lambda,(L_E)_\Lambda}$ is the
+extension of scalars of $\operatorname{PF}_{f,K_E,L_E}$.

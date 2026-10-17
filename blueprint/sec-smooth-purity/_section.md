@@ -10,7 +10,7 @@ uses = ["sec-abelian-varieties", "sec-curve-estimates", "sec-nagata-compactifica
 **Key theorem.**
 
 - Thm [sk-thm-smooth-purity] (finite-coefficient smooth purity): for $f$ smooth separated of pure relative dimension $d$, $\omega_f=Rf^{!}\Lambda_Y\cong\Lambda_X(d)[2d]$ canonically, so $Rf^{!}K\cong Lf^{*}K(d)[2d]$ for $K\in D^b_{ctf}(Y,\Lambda)$, compatibly with base change and composition. Used in §[sec-six-functors], §[sec-poincare-duality], §[sec-zeta-weil].
-- Thm [sk-thm-purity-transport] (purity over $\mathcal O_E$, $E$, $\overline{\mathbf Q}_\ell$): the purity map $\gamma_{f,K}\colon Lf^{*}K(d)[2d]\xrightarrow{\sim}Rf^{!}K$ extends to the adic, rational and $\overline{\mathbf Q}_\ell$ coefficient stages. Used in §[sec-six-functors], §[sec-poincare-duality], §[sec-deligne-laumon-a1], §[sec-zeta-weil].
+- Thm [sk-thm-purity-transport] (purity over $\mathcal O_E$, $E$, $\overline{\mathbf Q}_\ell$): the purity map $\gamma_{f,K}\colon Lf^{*}K(d)[2d]\xrightarrow{\sim}Rf^{!}K$ extends to the adic, rational and $\overline{\mathbf Q}_\ell$ admissible coefficient rings. Used in §[sec-six-functors], §[sec-poincare-duality], §[sec-deligne-laumon-a1], §[sec-zeta-weil].
 - Thm [sk-thm-regular] (purity for regular closed immersions): for $i\colon Z\hookrightarrow X$ regular of pure codimension $c$, with $X$ smooth over $k$ and $Z$ regular, $Ri^{!}\Lambda_X(c)[2c]$ is a rank-one sheaf in degree $0$, trivialized by a canonical fundamental class $\operatorname{cl}_i\in H^{2c}_Z(X,\Lambda(c))$ built from Kummer boundaries of local equations. Used in §[sec-six-functors], §[sec-poincare-duality], §[sec-purity-real-sheaves].
 
 **References.**

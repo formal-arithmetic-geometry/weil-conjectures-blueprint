@@ -2,7 +2,7 @@
 id = "sk-lem-finite"
 kind = "lemma"
 title = "Perfect complexes at the geometric point"
-lean = ["AlgebraicGeometry.WeilSheaf.subsingleton_cohomology_adicConstant", "DerivedCategory.IsPerfect.tensor_homology", "DerivedCategory.isPerfect_of_finiteTorAmplitude", "DerivedCategory.IsPerfect.ihom_unit", "AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_rightDerivedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_ihom_compactlySupportedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_ihom_rightDerivedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections_integral", "AlgebraicGeometry.Etale.isPerfect_rightDerivedGlobalSections_integral", "AlgebraicGeometry.Etale.isPerfect_ihom_compactlySupportedGlobalSections_integral", "AlgebraicGeometry.Etale.isPerfect_ihom_rightDerivedGlobalSections_integral", "AlgebraicGeometry.Etale.rationalHomology_globalSections", "AlgebraicGeometry.ProEtale.isPerfect_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_rightDerivedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_rightDerivedGlobalSections_adic"]
+lean = ["AlgebraicGeometry.WeilSheaf.subsingleton_cohomology_adicConstant", "DerivedCategory.IsPerfect.tensor_homology", "DerivedCategory.isPerfect_of_finiteTorAmplitude", "DerivedCategory.IsPerfect.ihom_unit", "AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_rightDerivedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_ihom_compactlySupportedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_ihom_rightDerivedGlobalSections", "AlgebraicGeometry.ProEtale.isPerfect_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_rightDerivedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_rightDerivedGlobalSections_adic"]
 order = 2384
 uses = ["sk-prop-sf-trace-perfectness", "sk-thm-sf-ctf-stability", "sk-thm-sf-direct-image-tor-amplitude"]
 tags = ["sketch"]
@@ -27,6 +27,6 @@ the evaluation map $P\to R\operatorname{Hom}_\Lambda(R\operatorname{Hom}_\Lambda
 *Complement.* If the cohomology sheaves of $K$ lie in degrees $[a,b]$, then
 $\RGammac(X,K)$ and $\RGamma(X,K)$ have cohomology only in degrees
 $[a,b+2\dim X]$. For $\Lambda=\Oe$ both lie in $D^b_{\mathrm{fg}}(\Oe)$, and
-their reductions modulo $\varpi_E^n$ are perfect of one common Tor amplitude,
-independent of $n$. At the field stages $E$ and $\Qlb$ they are bounded with
+their reductions modulo $\pi_E^n$ are perfect of one common Tor amplitude,
+independent of $n$. For $\Lambda=E,\Qlb$ they are bounded with
 finite-dimensional cohomology.

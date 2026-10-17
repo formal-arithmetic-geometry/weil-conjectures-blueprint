@@ -2,7 +2,9 @@
 kind  = "proof"
 of    = "lem-zl-relative-envelope-factor-reality"
 +++
-Fix a closed point $y$ of the base. By [thm-cbc-qbar], the
+Fix a closed point $y$ of the base. By compact-support base change on
+$\Dbc(-,\Qlb)$ [sk-thm-sfb-shriek-base-change], compatible with the
+Weil structures ([sk-def-sf-weil-complexes]), the
 local polynomials of $R^ih_!\mathcal E$ at $y$ are the polynomials
 $P_i$ of the compactly supported cohomology of the fiber
 $U_{\bar y}$ (the local Frobenius eigenvalues of the stalk). The

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Top compact-support bound on a curve"
 order = 3078
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "lem-a1-affine-hc2", "lem-a1-subquotient-extension-bounds", "lem-tw-tate-twist-weight-shift"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.hasWeightsAtMostOver_compactlySupportedCohomology_two"]
+lean = ["AlgebraicGeometry.WeilSheaf.hasWeightsAtMostOver_compactlySupportedCohomology_two"]
 +++
 If $C_0$ is a smooth affine curve over $k_0$ (affine and smooth of
 relative dimension one, not necessarily connected) and $\mathcal F$ is a

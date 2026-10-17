@@ -38,10 +38,18 @@ finite-torsion constructibility
     Rf_n^{\times}L\in D^b_{ctf}(X,A).
    $$
 
-For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$, call $f$ admissible at $\Lambda$
-when the three displayed conditions hold at every finite coefficient stage
-with uniform bounds and when the finite-reduction and scalar-extension maps
-for the corresponding right adjoints are isomorphisms.
+For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$, regarded as a condensed ring, call
+$f$ admissible at $\Lambda$ when the following analogues of (1)–(3) hold for
+$\Lambda$ itself:
+$Rf_!:D(X_{\mathrm{proét}},\Lambda)\to D(Y_{\mathrm{proét}},\Lambda)$ has a right
+adjoint $Rf^{\times}$ with units, counits and comparison maps compatible with
+refinements; $Rf^{\times}$ carries $D_c^{[a,b]}(Y,\Lambda)$, the objects of
+$D^b_c(Y,\Lambda)$ with cohomology in $[a,b]$, into
+$D_c^{[a+c_f^-,b+c_f^+]}(X,\Lambda)$; and it carries $D^b_{ctf}(Y,\Lambda)$ into
+$D^b_{ctf}(X,\Lambda)$ [def-weil-finite-tor-amplitude]. No condition is imposed
+levelwise. The constructible exceptional inverse image at these $\Lambda$ needs
+no such hypothesis: it is the Brown-representability right adjoint of
+[sk-def-sf-operations] (vi).
 
 *Warning.* Clause (1) is not satisfied in general: its
 $\operatorname{FullCD}$ condition fails for the structure morphism of an
@@ -50,6 +58,7 @@ and for that morphism $Rf_!=Rf_*$ has no right adjoint on the ambient derived
 category, nor on $D^+$. Hence the structure morphism of a smooth proper
 variety may *not* be presupposed exceptional-adjoint admissible in this
 sense. For the constructible exceptional adjoint, defined without clause (1)
-from the etale adjoint, the analogues of (1)–(3) on $D^b_c$ and $D^b_{ctf}$
+(from the étale adjoint at finite level, and by Brown representability on
+$\Loc(D^b_{ctf})$ in general), the analogues of (1)–(3) on $D^b_c$ and $D^b_{ctf}$
 are theorems for every separated finite-type morphism of finite-type
-$k$-schemes, with explicit constants independent of the coefficient stage.
+$k$-schemes, with explicit constants independent of the coefficient ring.

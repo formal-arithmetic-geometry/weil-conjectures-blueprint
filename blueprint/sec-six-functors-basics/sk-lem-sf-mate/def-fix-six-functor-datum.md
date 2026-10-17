@@ -3,19 +3,17 @@ id = "def-fix-six-functor-datum"
 kind = "definition"
 title = "Six-functor datum"
 order = 1850
-uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-integral-rational-qbar-compact-support", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "prop-compactification-coherence-detailed"]
+uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-compactification-coherence-detailed", "sk-def-sfb-bounded-constructible", "sk-def-sfb-dc-lower-shriek", "sk-def-sfb-dc-upper-shriek", "sk-thm-existence", "sk-thm-sf-comp-composition"]
 +++
 Fix the global finite-field datum
 $(p,a,q,k_0,k)$, a prime $\ell\neq p$, a finite extension
 $E/\Ql$ with valuation ring $\mathcal O_E$ and uniformizer
 $\varpi_E$, and $n\in\mathbf Z_{\geq1}$; put
-$A=A_{E,n}$ and $\Lambda\in\{A,\mathcal O_E,E,\Qlb\}$, with the
-finite-torsion
-constructibility, derived
-completion, rationalization,
-and
-common-stage scalar
-extension conventions of the preceding sections. Let $X,Y$ be
+$A=A_{E,n}$ and $\Lambda\in\{A,\mathcal O_E,E,\Qlb\}$. The rings
+$\mathcal O_E,E,\Qlb$ are regarded as condensed rings, and
+$D^b_c(-,\Lambda)$ is the condensed bounded constructible category
+([sk-def-sfb-bounded-constructible]); at the finite ring $A$ the
+finite-torsion constructibility convention applies. Let $X,Y$ be
 finite-type $k$-schemes,
 let $f:X\to Y$ be a
 separated morphism of
@@ -33,12 +31,12 @@ $R\mathcal Hom_{\Lambda}(-, -)$, and the derived direct image
 $Rf_*$;
 1. the extension-by-zero functor $j_!$, and the
 compact-support direct image $Rf_!$: the compactification
-independent compact-support direct image at the finite level and
-the integral,
-rational, and algebraically closed compact-support functors at the
-higher levels, with the compactification-comparison isomorphisms and
+independent compact-support direct image at the finite level and,
+at $\mathcal O_E,E,\Qlb$, the condensed functor $Rf_!=Rp_*\circ i_!$ of
+[sk-def-sfb-dc-lower-shriek], with the compactification-comparison
+isomorphisms and
 the composition law
-$R(g\circ f)_!\xrightarrow{\sim}Rg_!Rf_!$; when $f$ is
+$R(g\circ f)_!\xrightarrow{\sim}Rg_!Rf_!$ ([sk-thm-sf-comp-composition] (1)); when $f$ is
 proper, the
 identification $Rf_!\xrightarrow{\sim}Rf_*$ is the one of
 [def-compact-support-direct-image-detailed] for the compactification
@@ -52,8 +50,10 @@ Rf^!:D^b_c(Y,\Lambda)\longrightarrow D^b_c(X,\Lambda),
 $$
 the right adjoint of $Rf_!$ on the bounded constructible categories, as in
 the exceptional inverse
-image notation [def-weil-exceptional-inverse-image]: the constructible
-exceptional adjoint, transported from the etale one;
+image notation [def-weil-exceptional-inverse-image]: at the finite level the
+constructible exceptional adjoint, transported from the etale one, and at
+$\mathcal O_E,E,\Qlb$ the condensed right adjoint of [sk-thm-existence]
+(3)–(4), equivalently $i^*\circ Rp^!$ of [sk-def-sfb-dc-upper-shriek];
 1. the dualizing objects $\omega_{X,\Lambda}=Ra_X^!\Lambda$ and
 the Verdier dual $D_X(-)=R\mathcal Hom_{\Lambda}(-,\omega_{X,\Lambda})$,
 formed from the exceptional adjoint and the derived internal Hom already

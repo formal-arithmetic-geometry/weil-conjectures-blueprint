@@ -3,7 +3,7 @@ id = "def-exchange-projection"
 kind = "definition"
 title = "Exchange and projection transformations"
 order = 1846
-uses = ["def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "prop-compactification-coherence-detailed"]
+uses = ["def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "prop-compactification-coherence-detailed", "sk-def-sfb-bounded-constructible", "sk-def-sfb-dc-lower-shriek"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf
 Z_{\geq1}$, and put $A=A_{E,n}$. Let $S$ be a scheme on which $\ell$ is
@@ -11,12 +11,16 @@ invertible, let $X,Y$ be finite-type
 [def-weil-scheme-morphism-properties] $S$-schemes, and let every morphism
 below be an $S$-morphism. Let $\Lambda\in\{A,\mathcal O_E,E,\Qlb\}$, where
 the finite-level coefficient category is the finite-torsion constructible
-category [def-weil-finite-torsion-constructibility]; the latter coefficient
-categories are obtained by derived completion, rationalization, and the
-common-stage construction. Use the derived pullback, tensor, and
-internal-Hom operations [def-weil-derived-pullback-tensor-hom], the derived
-direct image [def-weil-derived-direct-image], and the compact-support direct
-image [def-compact-support-direct-image-detailed]. The finite-Tor and
+category [def-weil-finite-torsion-constructibility]; for
+$\Lambda=\mathcal O_E,E,\Qlb$, regarded as condensed rings, the coefficient
+categories are the condensed bounded constructible categories
+$\Dbc(-,\Lambda)$ of [sk-def-sfb-bounded-constructible]. Use the derived
+pullback, tensor, and internal-Hom operations
+[def-weil-derived-pullback-tensor-hom], the derived direct image
+[def-weil-derived-direct-image], and the compact-support direct image
+[def-compact-support-direct-image-detailed], which at
+$\Lambda=\mathcal O_E,E,\Qlb$ is the condensed $Rf_!=Rp_*\circ i_!$ of
+[sk-def-sfb-dc-lower-shriek]. The finite-Tor and
 interval conditions are the finite-Tor
 [def-weil-finite-tor-amplitude] and constructible-interval
 [def-weil-constructible-intervals] conditions. Let $f:X\to Y$ be separated

@@ -3,45 +3,42 @@ id = "def-weil-finite-tor-amplitude"
 kind = "definition"
 title = "Finite Tor amplitude"
 order = 1823
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-cohomology-sheaves", "def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-rationalization-karoubi"]
+uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "sk-def-sfb-bounded-constructible", "sk-def-sfb-derived-tensor-hom"]
 +++
-Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf
-Z_{\geq1}$, and a scheme $Y$ on which $\ell$ is invertible. Put $A=A_{E,n}$
-and use the derived cohomology sheaves
-[def-weil-derived-cohomology-sheaves] and the derived tensor product
-[def-weil-derived-tensor]. For an object $K\in D^b_c(Y,A)$ satisfying the
-finite-torsion constructibility condition
-[def-weil-finite-torsion-constructibility], say that $K$ has *finite Tor
+Fix a prime $\ell$, a finite extension $E/\Ql$ with uniformizer $\pi_E$, an
+integer $n\in\mathbf Z_{\geq1}$, and a scheme $Y$ on which $\ell$ is
+invertible. Put $A_{E,n}=\mathcal O_E/\pi_E^n$, let
+$\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, regarded as a condensed ring with
+coefficient sheaf $\Lambda_Y=p_Y^*\Lambda$, and use the derived cohomology
+sheaves [def-weil-derived-cohomology-sheaves] and the derived tensor product
+over $\Lambda_Y$ ([sk-def-sfb-derived-tensor-hom]; [def-weil-derived-tensor]
+for finite $\Lambda$). For an object $K\in D^b_c(Y,\Lambda)$ of the bounded
+constructible category [sk-def-sfb-bounded-constructible] (for
+$\Lambda=A_{E,n}$, with the finite-torsion constructibility condition
+[def-weil-finite-torsion-constructibility]), say that $K$ has *finite Tor
 amplitude* if there are integers $a\leq b$ such that, for every sheaf $M$ of
-$A$-modules placed in degree zero,
+$\Lambda_Y$-modules placed in degree zero,
 
 $$
- \mathcal H^r(K\otimes^L_A M)=0
+ \mathcal H^r(K\otimes^L_{\Lambda_Y} M)=0
  \qquad\text{for every }r\in\mathbf Z\setminus[a,b].
 $$
 
-Define $D^b_{ctf}(Y,A)$ as the full triangulated subcategory of such objects.
-For $K\in D^b_c(Y,\mathcal O_E)$, a derived-complete bounded constructible
-complex [def-weil-derived-complete-integral-detailed], say that $K$ has
-finite Tor amplitude if every reduction $K\otimes^L_{\mathcal O_E}A_{E,j}$,
-$j\in\mathbf Z_{\geq1}$, has finite Tor amplitude with one interval
-independent of $j$, and define $D^b_{ctf}(Y,\mathcal O_E)$ accordingly. At
-field coefficients the finite-Tor subcategories are, by definition, the
-bounded constructible rationalized category
-[def-weil-rationalization-karoubi] and its common-stage algebraically closed
-coefficient category [def-weil-algebraically-closed-coefficients]:
-
-$$
- D^b_{ctf}(Y,E):=D^b_c(Y,E),
- \qquad
- D^b_{ctf}(Y,\Qlb):=D^b_c(Y,\Qlb).
-$$
-
-The second equality is interpreted in the finite-stage triangulated
-2-colimit.
+Define $D^b_{ctf}(Y,\Lambda)$ as the full triangulated subcategory of such
+objects. The definition is the same for every $\Lambda$.
 
 For $A_{E,n}$, finite Tor amplitude is an additional condition and does not
-follow from bounded constructibility. At the integral stage it is imposed by
-the displayed definition; a separate residue-field argument, using the
-compatibility of all reductions of one integral object, shows that every
-object of the derived-complete constructible category in fact satisfies it.
+follow from bounded constructibility. For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$
+it is automatic: every $K\in D^b_c(Y,\Lambda)$ with cohomology in $[a,b]$ has
+Tor amplitude in $[a-1,b]$, so
+
+$$
+ D^b_{ctf}(Y,\Lambda)=D^b_c(Y,\Lambda)
+ \qquad(\Lambda=\mathcal O_E,E,\Qlb),
+$$
+
+a theorem, [det-def-localizing-closure-ctf-equals-bc]. For
+$\Lambda=\mathcal O_E$ it follows that all reductions
+$K\otimes^L_{\mathcal O_{E,Y}}(A_{E,j})_Y$ of $K\in D^b_c(Y,\mathcal O_E)$
+lie in $D^b_{ctf}(Y,A_{E,j})$ with Tor amplitude in one interval independent
+of $j$.

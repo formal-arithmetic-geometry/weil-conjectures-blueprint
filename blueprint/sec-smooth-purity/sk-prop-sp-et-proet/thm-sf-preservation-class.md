@@ -19,7 +19,7 @@ affine opens $U\subseteq f^{-1}(V)$; each $U\to V$ is affine of finite
 type, hence exhibits $U$ as a closed subscheme of the affine space
 $\mathbf A^{d_U}_V$ of [def-sbc-affine-space] for some integer
 $d_U\in\mathbf Z_{\geq0}$. Put $D=\max_U d_U$. Let $A=A_{E,n}$ be a
-finite coefficient stage, let $Rf_{!,n}$ be the pro-étale
+finite coefficient ring, let $Rf_{!,n}$ be the pro-étale
 compact-support direct image
 attached to a
 compactification of
@@ -49,8 +49,8 @@ $$
 $Rf^!K$ has finite Tor amplitude in $[a-2D,b+2\dim Y+1]$; in particular
 $Rf^!$ carries $D^b_{ctf}(Y,A)$ into $D^b_{ctf}(X,A)$;
 1. the two constants $2D$ and $2\dim Y+1$ depend on $f$ and $Y$
-alone and not on the coefficient stage $n$, so that the two clauses hold at
-every finite coefficient stage $A_{E,n}$, $n\geq1$, with the same
+alone and not on the level $n$, so that the two clauses hold at
+every finite coefficient ring $A_{E,n}$, $n\geq1$, with the same
 constants;
 1. consequently $f$ satisfies clauses (2) and (3) of
 [def-weil-exceptional-adjoint-admissibility] at every finite coefficient

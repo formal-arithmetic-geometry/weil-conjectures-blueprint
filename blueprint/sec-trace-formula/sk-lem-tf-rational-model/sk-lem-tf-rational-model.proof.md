@@ -37,6 +37,3 @@ the $m$-th iterate is $(\psi_E)_m=\pi_E^{-Nm}(\theta_m\dt E)$.
 Coefficient comparison for compact cohomology and for stalks
 identifies the compact-support pullbacks as well, and gives
 (1).
-
-In the language of lattices and reduction towers this is
-[prop-trf-rational-frobenius-integral-model].

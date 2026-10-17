@@ -5,7 +5,7 @@ title = "The origin fiber is the stationary-phase contribution"
 order = 3125
 tags = ["latex:corollary"]
 uses = ["def-fd-nonexceptional", "def-fd-transform", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-a1-unramified-nonexceptional", "lem-fd-stalk-at-origin", "lem-wf-boundary-stalk-invariants", "prop-a1-fourier-middle-extension"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.nonempty_equiv_stalk_origin_of_isFourierPartner"]
+lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_equiv_stalk_origin_of_isFourierPartner"]
 +++
 Let $\psi$ be an additive character of $k_0$, let
 $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ and

@@ -1,11 +1,42 @@
 +++
 kind  = "proof"
 of    = "prop-pod-integral-degreewise-form"
+uses = ["sk-lem-finite", "sk-prop-scalar-six", "thm-pod-derived-poincare-duality", "sk-rem-pd-integral-corrections"]
 +++
-By [thm-pod-derived-poincare-duality] at the $\mathcal O_E$-stage, the inverse adjoint $R\Gamma _c(X,K)^\vee \to R\Gamma (X,K^\vee (d))[2d]$ is an isomorphism of derived-complete perfect $\mathcal O_E$-complexes; finite reduction is the derived tensor product $-\otimes ^L_{\mathcal O_E}A_{E,n}$, which is computed levelwise by [def-weil-derived-complete-integral-detailed], so the derived-complete perfectness of the two complexes (the definition of the category at the point of [def-weil-finite-coefficient-point] at the $\mathcal O_E$-stage) gives the levelwise Tor-exact sequences of the statement: for a derived-complete complex $C$ of $\mathcal O_E$-modules of finite Tor-amplitude, the triangle
+By [sk-lem-finite], $P=R\Gamma_c(X,K)$ is a perfect complex over
+$\mathcal O_E$, and so is $Q=R\Gamma(X,K^\vee(d))$. By [sk-prop-scalar-six],
+reduction modulo $\pi_E^n$ commutes with $R\Gamma_c$, with $R\Gamma$ and with
+internal Hom, so
 
 $$
-C\otimes ^L_{\mathcal O_E}K_1 \longrightarrow C\otimes ^L_{\mathcal O_E}K_{n+1} \longrightarrow C\otimes ^L_{\mathcal O_E}K_n \xrightarrow {+1}
+P\otimes^L_{\mathcal O_E}A_{E,n}\simeq R\Gamma_c(X,K_n),\qquad
+Q\otimes^L_{\mathcal O_E}A_{E,n}\simeq R\Gamma(X,K_n^\vee(d)),
 $$
 
-of the exact coefficient sequence $0\to A_{E,1}\to A_{E,n+1}\to A_{E,n}\to 0$ yields the Tor-sequence, with the Tor term the $\varpi$-torsion of the $\mathcal O_E$-module and the reduction term the tensor product; the identification of the two terms with $H^i_c(X,K)\otimes _{\mathcal O_E}A_{E,n}$ and $\operatorname {Tor}_1^{\mathcal O_E}(H^{i+1}_c(X,K),A_{E,n})$ is the derived-tensor computation over a principal ideal ring, in which a bounded complex of finite projective $\mathcal O_E$-modules, the perfect representative of the input (the finite-Tor condition of [def-weil-finite-tor-amplitude] and the derived completion of [def-weil-derived-complete-integral-detailed]), replaces the coefficients levelwise. The same argument applied to the second variable $K^\vee (d)$ and to the adjoint map gives the other two sequences. When the cohomology modules are finite projective over $\mathcal O_E$, the Tor terms vanish, so the sequences show that the cohomology of $K_n$ is the reduction of the cohomology of $K$; transporting the perfect derived pairing along these identifications gives $\mathcal O_E$-module perfect pairings levelwise, defining the degreewise maps of the statement.
+naturally in $K$. Represent $P$ by a bounded complex $P^\bullet$ of finite
+free $\mathcal O_E$-modules. Its terms are torsion-free, so
+$P\otimes^L_{\mathcal O_E}A_{E,n}$ is represented by $P^\bullet/\pi_E^n$, and
+the short exact sequence of complexes
+$0\to P^\bullet\xrightarrow{\pi_E^n}P^\bullet\to P^\bullet/\pi_E^n\to0$ gives
+the long exact sequence
+
+$$
+\cdots\to H^i(P)\xrightarrow{\pi_E^n}H^i(P)\to H^i(P\otimes^L A_{E,n})
+\to H^{i+1}(P)\xrightarrow{\pi_E^n}H^{i+1}(P)\to\cdots.
+$$
+
+Its cokernel and kernel terms are $H^i(P)\otimes_{\mathcal O_E}A_{E,n}$ and
+the $\pi_E^n$-torsion of $H^{i+1}(P)$, which is
+$\operatorname{Tor}_1^{\mathcal O_E}(H^{i+1}(P),A_{E,n})$. This is the
+displayed sequence. The same argument for $Q$, and naturality of the long
+exact sequence for the adjoint map $P^\vee\to Q[2d]$ of
+[thm-pod-derived-poincare-duality], give the other sequences.
+
+If the cohomology modules of $P$ are finite projective, the Tor terms vanish,
+so the cohomology of $K_n$ is the reduction of the cohomology of $K$. Moreover
+the $\operatorname{Ext}^1$ terms of the universal-coefficient sequence of
+[sk-rem-pd-integral-corrections] vanish, so
+$H^{-i}(P^\vee)=\operatorname{Hom}_{\mathcal O_E}(H^i(P),\mathcal O_E)$. The
+derived pairing is perfect by [thm-pod-derived-poincare-duality], hence the
+degreewise pairings are perfect $\mathcal O_E$-module pairings, and their
+reductions are the corresponding pairings for $K_n$.

@@ -3,7 +3,7 @@ id = "sk-cor-dl-general-complex"
 kind = "corollary"
 title = "The derived direct-image bound"
 order = 3194
-lean = ["AlgebraicGeometry.LAdicWeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
+lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
 uses = ["sk-d-dl-general-weights"]
 tags = ["sketch"]
 +++

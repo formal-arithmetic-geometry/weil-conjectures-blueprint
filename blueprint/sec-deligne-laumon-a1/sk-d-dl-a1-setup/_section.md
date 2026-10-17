@@ -3,12 +3,15 @@ id = "sk-d-dl-a1-setup"
 kind = "definition"
 title = "Affine-line and weight conventions"
 order = 3066
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsGeometricallyConstant", "AlgebraicGeometry.LAdicWeilSheaf.IsUnramifiedAtInfinity"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsGeometricallyConstant", "AlgebraicGeometry.WeilSheaf.IsUnramifiedAtInfinity"]
+uses = ["sk-lem-coefficient-heart", "sk-def-sf-weil-complexes"]
 tags = ["sketch"]
 +++
 Fix $k_0=\mathbf F_q$, its algebraic closure $k$, a prime $\ell\ne \operatorname{char}(k_0)$, and $\iota:\DLAQ\simeq\mathbf C$. Write
 $A_0=\mathbf A^1_{k_0}$, $A=A_0\otimes k$, and use a prime to denote the
 dual affine line. All cohomology is geometric, with geometric Frobenius.
+A *Weil sheaf* on a $k_0$-scheme $U_0$, with $U=U_0\otimes k$, is a constructible
+$\overline{\mathbf Q}_{\ell,U}$-module $F$ on $U_{\mathrm{proét}}$ with a Weil structure $\operatorname{Fr}_U^*F\xrightarrow{\sim}F$ ([sk-lem-coefficient-heart], [sk-def-sf-weil-complexes]); it is *lisse* if $F$ is locally free of finite rank for the pro-étale topology.
 A lisse Weil sheaf is *pure of weight $w$* if every eigenvalue
 $\alpha$ at a closed point $x$ satisfies
 $|\iota\alpha|=q_x^{w/2}$; replace equality by $\leq$ for an upper bound.
@@ -22,7 +25,9 @@ extends to a lisse Weil sheaf on the open $U_0\cup\{\infty\}$ of
 $\mathbf P^1_{k_0}$ (with $A_0\subset\mathbf P^1_{k_0}$ the standard chart);
 equivalently, inertia
 at $\infty\in\mathbf P^1_k$ acts trivially on the geometric generic fiber.
-A Weil sheaf on $U_0$ is *geometrically constant* if its underlying étale
-sheaf is constant on every connected open of $U=U_0\otimes k$; for $U$
-connected this means that the geometric fundamental group acts
-trivially, while its Frobenius module may be nontrivial.
+A Weil sheaf on $U_0$ is *geometrically constant* if its underlying
+$\overline{\mathbf Q}_{\ell,U}$-module on $U_{\mathrm{proét}}$ ([sk-lem-coefficient-heart]) is
+constant on every connected open $V$ of $U=U_0\otimes k$, that is, isomorphic there to
+$\overline{\mathbf Q}_{\ell,V}\otimes_{\Qlb}W=p_V^*\underline W$ for a finite-dimensional
+$\Qlb$-vector space $W$; for $U$ connected this means that the geometric fundamental group
+acts trivially, while its Frobenius module may be nontrivial.

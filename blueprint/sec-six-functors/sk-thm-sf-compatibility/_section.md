@@ -3,10 +3,13 @@ id = "sk-thm-sf-compatibility"
 kind = "theorem"
 title = "Compatibility of the six operations"
 order = 2423
-uses = ["sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sk-def-sf-exchanges", "sk-def-sf-operations", "sk-def-sf-orientation", "sk-lem-sf-mate", "sk-prop-cohsm", "sk-prop-sf-biduality-general", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-prop-sfb-module-derived-factorization", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange"]
+uses = ["sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sk-def-sf-exchanges", "sk-def-sf-operations", "sk-def-sf-setting", "sk-def-sf-categories", "sk-prop-scalar-six", "sk-def-sf-orientation", "sk-lem-sf-mate", "sk-prop-cohsm", "sk-prop-sf-biduality-general", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-prop-sfb-module-derived-factorization", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange"]
 tags = ["sketch"]
 +++
-Fix the coefficient stages of [sk-def-sf-setting] and the six operations
+Fix an admissible coefficient ring $\Lambda$ of [sk-def-sf-setting],
+regarded as a condensed ring, so that the categories are the full
+subcategories $\Dctf(X,\Lambda)\subseteq D(X_{\mathrm{pro\acute et}},\Lambda)$ of
+[sk-def-sf-categories], and the six operations
 $Lf^*,Rf_*,Rf_!,Rf^!,\otimes^L,\RHom$ of [sk-thm-sf-package], each typed
 as there ([sk-rem-sf-typing]). The structure isomorphisms that relate them
 — the composition isomorphisms, the units and counits of the two
@@ -63,9 +66,10 @@ along étale $g$ at the other stages ([sk-thm-sf-package] (5)).
 1. **(6)** *Products.* The relative Künneth isomorphism of
 [sk-thm-sf-kunneth-relative] is compatible with symmetry, triple products,
 base change and the projection formula.
-1. **(7)** *Coefficients.* All of the maps above commute with finite
-reduction and scalar extension, and at field coefficients they are
-Weil-equivariant ([fix-prop-coherence]).
+1. **(7)** *Coefficients.* All of the maps above commute with the
+coefficient comparisons of [sk-prop-scalar-six] (reduction modulo
+$\pi_E^n$ and extension of scalars along maps of condensed rings), and at
+field coefficients they are Weil-equivariant ([fix-prop-coherence]).
 
 No compatibility of the Verdier exchange with base change along an arbitrary
 $g$ is asserted, since $\mathbb D$ does not commute with $Lg^*$ in general.
