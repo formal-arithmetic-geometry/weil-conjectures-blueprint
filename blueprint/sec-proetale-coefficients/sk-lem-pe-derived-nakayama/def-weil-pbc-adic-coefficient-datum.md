@@ -3,7 +3,7 @@ id = "def-weil-pbc-adic-coefficient-datum"
 kind = "definition"
 title = "Tower category and adic coefficient datum"
 order = 1307
-uses = ["def-weil-pbc-kinjective-resolutions", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-proetale-site"]
+uses = ["def-weil-pbc-kinjective-resolutions", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-proetale-site", "sk-def-sfb-condensed-ring", "sk-def-sfb-pulled-back-coefficients", "det-prop-sfb-qlbar-colimit-x-integral-limit"]
 +++
 For a sheaf of rings $B_T$ on $T_{\Proet}$, define the Grothendieck abelian
 category
@@ -57,3 +57,19 @@ $$
 $$
 
 satisfying the quotient cocycle.
+
+*The coefficient data of these notes.* The datum is used with $A=\mathcal O_E$ for a finite
+extension $E/\Ql$ (including $\mathcal O_E=\Zl$), with $I=(\varpi_E)$ and
+$P_n=A_{E,n}=\mathcal O_E/\varpi_E^n$. Each $P_n$ is then finite and perfect over $A$, and
+$(P_n)_T$ is the constant sheaf $(A_{E,n})_T$. In this case $A_T$ is not a new coefficient
+ring: by [det-prop-sfb-qlbar-colimit-x-integral-limit] it is canonically isomorphic, as a
+sheaf of rings, to the condensed coefficient ring
+
+$$
+ \mathcal O_{E,T}=p_T^*\underline{\mathcal O}_E\cong\varprojlim_n(A_{E,n})_T
+$$
+
+of [sk-def-sfb-condensed-ring] and [sk-def-sfb-pulled-back-coefficients]. Accordingly
+$D(T_{\Proet},\mathcal O_E)$ is the derived category of $\mathcal O_{E,T}$-modules of the
+condensed setting. The general definition above is the limit description of that ring,
+which the tower arguments need.

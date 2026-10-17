@@ -3,7 +3,7 @@ id = "def-weil-derived-complete-integral-detailed"
 kind = "definition"
 title = "Bounded constructible derived-complete integral coefficients"
 order = 1818
-uses = ["def-weil-cohomological-support", "def-weil-completed-integral-coefficients", "def-weil-derived-complete", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility"]
+uses = ["def-weil-cohomological-support", "def-weil-completed-integral-coefficients", "def-weil-derived-complete", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "sk-def-sfb-bounded-constructible", "sk-prop-integral-criterion"]
 +++
 Let $D^b_c(Y,\mathcal O_E)$ be the full triangulated subcategory of
 $D(Y_{\mathrm{proet}},\mathcal O_E)$, the derived category of the completed
@@ -32,3 +32,15 @@ independent of $n$.
 This uniform amplitude of the reductions is part of the definition of
 $D^b_c(Y,\mathcal O_E)$, and it is the only boundedness condition imposed on
 them.
+
+*Comparison with the condensed definition.* Since
+$\widehat{\mathcal O}_{E,Y}=\mathcal O_{E,Y}$ is the pulled-back condensed coefficient ring
+([def-weil-completed-integral-coefficients]), the ambient category is
+$D(Y_{\mathrm{proét}},\mathcal O_E)$ of the condensed setting. For Noetherian $Y$, in
+particular for $Y$ of finite type over $k$, this category is the bounded constructible
+category $\Dbc(Y,\mathcal O_E)$ of [sk-def-sfb-bounded-constructible]: the bounded complexes
+of $\mathcal O_{E,Y}$-modules with constructible cohomology sheaves. Indeed, by the integral
+criterion [sk-prop-integral-criterion] those are exactly the derived $\varpi_E$-complete $K$
+with $K\otimes^L_{\mathcal O_E}A_{E,1}$ bounded constructible, and by
+[det-prop-integral-criterion-reductions] this is equivalent to the conditions displayed
+above, uniform amplitude included.

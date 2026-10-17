@@ -4,7 +4,7 @@ kind = "definition"
 title = "Algebraically closed coefficient category"
 lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructibleAdic"]
 order = 1821
-uses = ["def-weil-finite-field-fiber", "def-weil-rationalization-karoubi"]
+uses = ["def-weil-finite-field-fiber", "def-weil-rationalization-karoubi", "sk-def-sfb-qlbar-condensed", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-bounded-constructible", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Fix the global finite-field datum [def-weil-finite-field-fiber]
 $(p,a,q,k_0,k)$, a prime $\ell\neq p$, and a scheme $Y$. Set
@@ -24,7 +24,21 @@ $$
 $$
 
 Composition and distinguished triangles are represented over one common
-finite extension. Define
+finite extension.
+
+The algebraically closed coefficient category is the condensed one:
+$D^b_c(Y,\Qlb)\subseteq D(Y_{\mathrm{proét}},\Qlb)$ is the category of bounded complexes of
+modules over $\overline{\mathbf Q}_{\ell,Y}=p_Y^*\underline{\Qlb}$ ([sk-def-sfb-qlbar-condensed],
+[sk-def-sfb-pulled-back-coefficients]) with constructible cohomology sheaves
+([sk-def-sfb-bounded-constructible]). For $Y$ of finite type over $k$, extension of scalars
+$(E,K)\mapsto\overline{\mathbf Q}_{\ell,Y}\otimes_{E_Y}K$ is an equivalence
+
+$$
+ \mathcal C_Y\xrightarrow{\ \sim\ }D^b_c(Y,\Qlb),
+$$
+
+and it carries the triangles of $\mathcal C_Y$ to distinguished triangles
+([sk-thm-sfb-qlbar-two-colimit] (4)). We identify the two categories along it and write
 
 $$
  D^b_c(Y,\Qlb)=\mathcal C_Y.
