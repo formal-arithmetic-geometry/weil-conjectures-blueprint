@@ -4,7 +4,6 @@ kind = "definition"
 title = "Coefficients and sites"
 order = 869
 uses = ["sk-def-sfb-condensed-ring", "sk-def-sfb-qlbar-condensed", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-derived-categories", "sk-def-sfb-constructible", "sk-def-sfb-bounded-constructible", "sk-def-sp-tate-twist", "sk-prop-sf-comparison", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-sfb-rationalization-comparison"]
-lean = ["AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructible", "AlgebraicGeometry.Etale.DerivedCategory.boundedConstructibleFiniteTor", "AlgebraicGeometry.Etale.constantComplex"]
 tags = ["sketch"]
 +++
 Fix the global finite-field datum $(p,a,q,k_0,k)$ with $k=\overline{\mathbf F}_q$, a prime $\ell\neq p$, a finite extension $E/\Ql$ inside $\Qlb$ with valuation ring

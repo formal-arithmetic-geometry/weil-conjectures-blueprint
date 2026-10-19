@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-one-valuation-avoids-boundary"
-uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-comparison-space", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-valuation-factor-closed"]
+uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image", "def-nagata-two-open-boundary-loci", "def-nagata-two-open-comparison-space", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-valuation-factor-closed"]
 +++
 Otherwise the closed point would map into $\overline Z_{1,2}$ under $g_1$
 and into $\overline Z_{2,1}$ under $g_2$. By

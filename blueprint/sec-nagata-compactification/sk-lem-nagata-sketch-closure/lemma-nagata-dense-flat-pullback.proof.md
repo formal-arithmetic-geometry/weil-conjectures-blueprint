@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-dense-flat-pullback"
-uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
+uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++
 We first prove the general statement and then deduce the first one. This is
 Stacks Project, Tag 081I; the argument below uses only that $g$ is

@@ -7,8 +7,8 @@ uses = ["def-pod-coefficient-dual-on-x", "def-pod-conventions", "def-pod-derived
 +++
 Use the smooth Poincare setting, with
 the admissible structure morphism and normalized smooth orientation.
-Let $n\geq m\geq1$, put $A_n=\mathcal O_E/\varpi_E^n$ and
-$A_m=\mathcal O_E/\varpi_E^m$, and let $K_n$ be a
+Let $n\geq m\geq1$, put $A_n=\mathcal O_E/\pi_E^n$ and
+$A_m=\mathcal O_E/\pi_E^m$, and let $K_n$ be a
 site-perfect constructible
 $A_n$-complex. Put $K_m=K_n\otimes^L_{A_n}A_m$.
 The coefficient comparisons identify the reduction of the

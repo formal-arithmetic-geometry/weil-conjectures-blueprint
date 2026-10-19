@@ -10,5 +10,5 @@ finite-coefficient
 categories over a point of the trace-formula chapter are the bounded
 complexes with finite cohomology modules; that the two descriptions
 agree on the objects of finite Tor amplitude for the finite ring
-$A=A_{E,n}=\mathcal O_E/\varpi_E^n$ is
+$A=A_{E,n}=\mathcal O_E/\pi_E^n$ is
 [lem-trf-finite-tor-amplitude-perfect].

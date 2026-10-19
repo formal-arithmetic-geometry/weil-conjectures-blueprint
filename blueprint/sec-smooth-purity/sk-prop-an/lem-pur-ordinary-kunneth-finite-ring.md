@@ -8,7 +8,7 @@ uses = ["def-kun-derived-tensor", "def-kun-kunneth-map", "def-weil-finite-field-
 Let $k$ be the algebraically closed field of
 [def-weil-finite-field-fiber], and let $X,Y$ be
 separated finite-type
-$k$-schemes. Put $A=\mathcal O_E/\varpi_E^n$, for $E/\mathbf Q_\ell$ finite, $n\geq1$, and $\ell\neq\operatorname{char}(k)$.
+$k$-schemes. Put $A=\mathcal O_E/\pi_E^n$, for $E/\mathbf Q_\ell$ finite, $n\geq1$, and $\ell\neq\operatorname{char}(k)$.
 For $K\in D(X_{\mathrm{et}},A)$ and
 $L\in D(Y_{\mathrm{et}},A)$ in the
 derived categories,

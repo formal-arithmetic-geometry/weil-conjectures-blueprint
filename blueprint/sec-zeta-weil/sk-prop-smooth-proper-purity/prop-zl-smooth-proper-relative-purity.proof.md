@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-zl-smooth-proper-relative-purity"
-uses = ["cor-zl-rfshriek-sheaf", "cor-cbc-proper-coincidence", "prop-weil-operations", "sk-thm-sfb-qlbar-two-colimit", "thm-lisse-qlbar-representations", "sk-lem-stratified-lattice", "thm-fin-proper-constructibility-complete", "prop-weil-proet-finite-proper-base-change", "cor-weil-pbc-geometric-fiber-finite", "sbc-thm-smooth-base-change", "sk-thm-sfb-proper-base-change", "sk-prop-scalar-six", "sk-prop-pe-milnor", "sk-prop-sfb-finite-extension-compatibility", "cor-weil-pbc-geometric-fiber-qbar", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-wf-tate-twist-frobenius", "lem-sf-tensor-hom", "sk-thm-purity-transport", "lem-sf-twist-interchange"]
+uses = ["cor-zl-rfshriek-sheaf", "cor-cbc-proper-coincidence", "prop-weil-operations", "sk-thm-sfb-qlbar-two-colimit", "thm-lisse-qlbar-representations", "sk-lem-stratified-lattice", "det-lem-stratified-lattice-scheme", "sk-prop-pbc-degree-zero", "cor-galois-lisse-representations", "thm-galois-fundamental", "sk-prop-pe-condensed-point", "sk-prop-sfb-qlbar-colimit-x", "sk-def-sfb-constructible", "thm-fin-proper-constructibility-complete", "prop-weil-proet-finite-proper-base-change", "cor-weil-pbc-geometric-fiber-finite", "sbc-thm-smooth-base-change", "sk-thm-sfb-proper-base-change", "sk-prop-scalar-six", "sk-prop-pe-milnor", "sk-prop-sfb-finite-extension-compatibility", "cor-weil-pbc-geometric-fiber-qbar", "thm-weil-pbc-qbar", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-wf-tate-twist-frobenius", "lem-sf-tensor-hom", "sk-thm-purity-transport", "lem-sf-twist-interchange"]
 +++
 Write $f:X\to Y$ for the geometric fiber of $f_0$ and $\mathcal F$ for the
 underlying sheaf of $\mathcal F_0$. The upper bound on weights is the
@@ -19,20 +19,45 @@ Weil isomorphisms in [prop-weil-operations]). Hence
 $R^{i}f_{0!}\mathcal F_0\to R^{i}f_{0*}\mathcal F_0$ is an isomorphism of
 Weil sheaves for every $i$; this is the first half of (a).
 
-For local constancy we may treat each connected component of $X$ separately.
-By [sk-thm-sfb-qlbar-two-colimit] (1),
+*Lattices étale-locally on $Y$.* Local constancy is local on $Y$. For an
+étale $V\to Y$ the base change $f_V:X_V=X\times_YV\to V$ is again smooth and
+proper, and proper base change ([sk-thm-sfb-proper-base-change]) identifies
+$(R^{i}f_*\mathcal F)|_V$ with $R^{i}f_{V*}(\mathcal F|_{X_V})$, restriction
+along $V\to Y$ being exact. By [sk-thm-sfb-qlbar-two-colimit] (1),
 $\mathcal F\cong\QbarX\otimes_{E_X}\mathcal F_E$ for a lisse $E_X$-module
-$\mathcal F_E$ and a finite extension $E/\Ql$. Since $Y_0$ is normal and $f$
-is smooth, $X$ is normal; by [thm-lisse-qlbar-representations],
-$\mathcal F_E$ corresponds to a continuous representation of the profinite
-group $\pi_1(X,\bar x)$ on a finite-dimensional $E$-vector space, which
-stabilizes an $\mathcal O_E$-lattice by compactness, and the lattice gives a
-lisse $\mathcal O_{E,X}$-submodule $L_0\subset\mathcal F_E$ with
-$L_0[1/\ell]=\mathcal F_E$ (compare [sk-lem-stratified-lattice], where the
-normality hypothesis is shown to be needed). Put
-$\mathcal F_n=L_0\otimes_{\mathcal O_E}\mathcal O_E/\lambda^{n}$; each
+$\mathcal F_E$ and a finite extension $E/\Ql$. Treating the finitely many
+connected components of $X$ separately, we may assume that $\mathcal F_E$ has
+constant rank $r$. A *lattice* in $\mathcal F_E$ is a lisse
+$\mathcal O_{E,X}$-submodule $L_0\subset\mathcal F_E$ with
+$L_0[1/\ell]=\mathcal F_E$; it need not exist on all of $X$ when $X$ is not
+normal ([sk-lem-stratified-lattice]). We show that every geometric point
+$\bar y$ of $Y$ has an étale neighbourhood $V$ such that
+$\mathcal F_E|_{X_V}$ has one. Let $q:\mathrm{Lat}\to X$ be the separated
+étale $X$-scheme of lattices of $\mathcal F_E$
+([det-lem-stratified-lattice-scheme]), and let $S$ be the étale sheaf of
+sets on $X$ that it represents; for an étale $X$-scheme $T$, $S(T)$ is the
+set of lattices in $\mathcal F_E|_T$. The geometric fibre $X_{\bar y}$ is
+smooth over a separably closed field, hence a finite disjoint union of
+connected normal Noetherian schemes, so $\mathcal F_E|_{X_{\bar y}}$ has a
+lattice $M$ ([thm-lisse-qlbar-representations] (4)). On a pro-étale cover of
+$X$ trivializing $\mathcal F_E$, both $\mathrm{Lat}$ and the sheaf of
+lattices are constant with value the discrete set of $\mathcal O_E$-lattices
+in $E^r$ ([det-lem-stratified-lattice-scheme] (1)), and the same holds after
+base change of this cover to $X_{\bar y}$. So $M$ is, locally on
+$X_{\bar y}$, a locally constant function to that set, and these local
+sections glue to a section of $\mathrm{Lat}\times_XX_{\bar y}\to X_{\bar y}$,
+that is, an element of $\Gamma(X_{\bar y},S|_{X_{\bar y}})$. Proper base
+change in degree zero ([sk-prop-pbc-degree-zero]) gives
+$(f_*S)_{\bar y}\cong\Gamma(X_{\bar y},S|_{X_{\bar y}})\neq\emptyset$, so
+there is an étale neighbourhood $V$ of $\bar y$ with
+$S(X_V)=(f_*S)(V)\neq\emptyset$: the sheaf $\mathcal F_E|_{X_V}$ has a
+lattice. Replacing $f$ by $f_V$, we may therefore assume that $\mathcal F_E$
+has a lattice $L_0$.
+
+*Local constancy at finite level.* Put
+$\mathcal F_n=L_0\otimes_{\mathcal O_E}\mathcal O_E/\pi_E^{n}$; each
 $\mathcal F_n$ is a finite locally constant sheaf of
-$\mathcal O_E/\lambda^{n}$-modules, of $\ell$-power torsion with $\ell$
+$\mathcal O_E/\pi_E^{n}$-modules, of $\ell$-power torsion with $\ell$
 invertible on $Y$, and may be treated on the étale site.
 By [thm-fin-proper-constructibility-complete] the sheaves
 $R^{q}f_*\mathcal F_n$ are constructible, and a constructible sheaf all of
@@ -64,7 +89,7 @@ $M$ for $q=0$ and $0$ for $q>0$ since $\Omega$ is separably closed. Thus
 $(Rh_*h^{-1}\mathcal F_n)|_{X'_{\bar s}}\cong\mathcal F_n|_{X'_{\bar s}}$.
 Applying [cor-weil-pbc-geometric-fiber-finite] at the closed point
 $\bar s$ of the strictly local $Y'$ twice, to
-$K=Rh_*h^{-1}\mathcal F_n\in D^+(X',\mathcal O_E/\lambda^{n})$ and to
+$K=Rh_*h^{-1}\mathcal F_n\in D^+(X',\mathcal O_E/\pi_E^{n})$ and to
 $\mathcal F_n$, we get
 
 $$
@@ -77,25 +102,65 @@ compatibly with restriction along $h$. So every specialization map is an
 isomorphism, and every $R^{q}f_*\mathcal F_n$ is finite locally constant.
 No separate local-acyclicity theorem is needed: the vanishing of
 $R^{q}h_*$ along the closed fibre is exactly what smooth base change
-supplies. The $\ell$-adic statement is a consequence of the condensed comparison
-theorems. By [sk-thm-sfb-proper-base-change],
+supplies.
+
+*Passage to the limit.* The $\ell$-adic statement is a consequence of the
+condensed comparison theorems. By [sk-thm-sfb-proper-base-change],
 $Rf_*L_0\in\Dbc(Y,\mathcal O_E)$, and the coefficient comparison for $Rf_*$
-along $\mathcal O_E\to\mathcal O_E/\lambda^n$ ([sk-prop-scalar-six]) gives
-$Rf_*L_0\otimes^{\mathbf L}_{\mathcal O_E}\mathcal O_E/\lambda^n\simeq Rf_*\mathcal F_n$.
-As $Rf_*L_0$ is derived $\lambda$-complete, it is the derived limit of these
+along $\mathcal O_E\to\mathcal O_E/\pi_E^n$ ([sk-prop-scalar-six]) gives
+$Rf_*L_0\otimes^{\mathbf L}_{\mathcal O_E}\mathcal O_E/\pi_E^n\simeq Rf_*\mathcal F_n$.
+As $Rf_*L_0$ is derived $\pi_E$-complete, it is the derived limit of these
 reductions, and the Milnor sequence ([sk-prop-pe-milnor]), whose
 $\varprojlim^1$-terms vanish because the transition maps between the finite
 locally constant sheaves $R^{i-1}f_*\mathcal F_n$ satisfy the Mittag-Leffler
 condition locally, gives
-$R^{i}f_*L_0\cong\varprojlim_nR^{i}f_*\mathcal F_n$. On each connected
-component of $Y$ this is the limit of a compatible system of finite
-continuous $\pi_1(Y,\bar y)$-modules, i.e. a lisse
-$\mathcal O_{E,Y}$-module, possibly with torsion. Extension of scalars along
+$R^{i}f_*L_0\cong\varprojlim_nR^{i}f_*\mathcal F_n$.
+
+Fix a connected component of $Y$ and a geometric point $\bar y$ on it. By
+[cor-galois-lisse-representations] the finite locally constant sheaves
+$R^{i}f_*\mathcal F_n$ correspond to finite continuous
+$\pi_1(Y,\bar y)$-modules $N_n=(R^{i}f_*\mathcal F_n)_{\bar y}$, compatibly
+in $n$. As in the proof of essential surjectivity in
+[thm-lisse-qlbar-representations] (1), let $Y_n\to Y$ be the connected finite
+étale Galois cover belonging to the kernel of the action on
+$N_1\oplus\dots\oplus N_n$ ([thm-galois-fundamental]) and
+$\widetilde Y=\varprojlim_nY_n$; then $\widetilde Y\to Y$ is a pro-étale
+cover on which every $R^{i}f_*\mathcal F_n$ is the constant sheaf
+$(N_n)_{\widetilde Y}$, compatibly in $n$, so
+$R^{i}f_*L_0|_{\widetilde Y}\cong\varprojlim_n(N_n)_{\widetilde Y}$. By
+[cor-weil-pbc-geometric-fiber-finite], $N_n=H^{i}(X_{\bar y},\mathcal F_n)$,
+so the Milnor sequence on $X_{\bar y}$, whose $\varprojlim^1$-term vanishes
+because the groups $H^{i-1}(X_{\bar y},\mathcal F_n)$ are finite, gives
+$N:=\varprojlim_nN_n\cong H^{i}(X_{\bar y},L_0)$. This is a finitely generated
+$\mathcal O_E$-module: by [sk-thm-sfb-proper-base-change] for
+$X_{\bar y}\to\Spec\kappa(\bar y)$, $R\Gamma(X_{\bar y},L_0)$ is bounded with
+constructible cohomology on a point, where every pro-étale cover has a
+section ([sk-prop-pe-condensed-point]), so its cohomology groups are finitely
+presented. The system $(N_n)$ of finite modules is Mittag-Leffler, hence
+pro-isomorphic to the system of its stable images, which are the images
+$N/U_n$ of $N$; the $U_n$ are open submodules of the compact module $N$ with
+$\bigcap_nU_n=0$, hence cofinal with the $\pi_E^nN$. Pro-isomorphic systems
+have isomorphic limits, so, writing $N$ as a finite sum of copies of
+$\mathcal O_E$ and of $\mathcal O_E/\pi_E^a$ and using
+$\mathcal O_{E,\widetilde Y}\cong\varprojlim_n(\mathcal O_E/\pi_E^n)_{\widetilde Y}$
+([sk-prop-sfb-qlbar-colimit-x]),
+
+$$
+R^{i}f_*L_0|_{\widetilde Y}\cong\varprojlim_n(N/\pi_E^nN)_{\widetilde Y}
+\cong\mathcal O_{E,\widetilde Y}\otimes_{\mathcal O_E}N .
+$$
+
+So $R^{i}f_*L_0$ has a finite constant local model
+([sk-def-sfb-constructible] (1)): it is a lisse $\mathcal O_{E,Y}$-module,
+possibly with torsion. Extension of scalars along
 the flat maps $\mathcal O_E\to E\to\Qlb$ is exact and commutes with $Rf_*$
 ([sk-prop-scalar-six], [sk-prop-sfb-finite-extension-compatibility]), so
 $R^{i}f_*\mathcal F\cong\Qlb\otimes_{\mathcal O_E}R^{i}f_*L_0$ is a lisse
-$\QbarY$-module; its stalks are computed by
-[cor-weil-pbc-geometric-fiber-qbar]. This completes (a).
+$\overline{\mathbf Q}_{\ell,Y}$-module. Its stalks at geometric points over
+closed points are computed by [cor-weil-pbc-geometric-fiber-qbar], and
+compatibly with the Weil structures, after pulling back along
+$\operatorname{Spec}\kappa(y)\to Y_0$, by [thm-weil-pbc-qbar] (2). This
+completes (a).
 
 *Step 2 (upper bound).* A punctually $\iota$-pure sheaf of weight $w$ is
 $\iota$-mixed of weights at most $w$ in the sense of

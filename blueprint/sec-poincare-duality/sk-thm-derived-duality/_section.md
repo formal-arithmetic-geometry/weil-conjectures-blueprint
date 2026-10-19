@@ -2,7 +2,6 @@
 id = "sk-thm-derived-duality"
 kind = "corollary"
 title = "Degreewise duality over fields"
-lean = ["AlgebraicGeometry.Etale.TateOrientation.isPerfectPairing_poincarePairing", "AlgebraicGeometry.Etale.TateOrientation.degreewise_duality", "AlgebraicGeometry.Etale.isPerfectPairing_poincarePairing"]
 order = 2748
 uses = ["sk-def-pairing", "sk-lem-finite", "sk-thm-sf-identification"]
 tags = ["sketch"]

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-wf-boundary-stalk-invariants"
+uses = ["d-real-boundary", "def-weil-derived-pullback-tensor-hom", "def-wf-fundamental-representation", "p-real-integral", "prop-weil-pbc-strict-henselization-stalk-formula", "sk-lem-integral-models", "sk-prop-integral-criterion", "sk-prop-pe-milnor", "sk-prop-scalar-six", "sk-prop-sfb-finite-extension-compatibility", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-pe-direct-image-comparison", "sk-thm-sf-ctf-stability"]
 +++
 Write $\mathcal F$ also for the underlying lisse $\overline{\mathbf Q}_{\ell,U}$-module
 and $V=\mathcal F_{\bar\eta}$. The strict-henselization stalk formula of
@@ -31,10 +32,14 @@ sections of the locally constant sheaf $\mathcal F_n$ over it are the
 invariants $M_n^{I_x}$, and $(Rj_*\mathcal F_n)_{\bar x}$ has no cohomology in negative
 degrees.
 
-*Limit.* The stalk $\bar x^*Rj_*\mathcal F_0$ lies in $\Dbc(\bar x,\cO_E)$
-([sk-lem-integral-models] (3)), hence is derived complete
-([sk-prop-integral-criterion]), so
-$\bar x^*Rj_*\mathcal F_0\simeq R\varprojlim_n(Rj_*\mathcal F_n)_{\bar x}$. The Milnor
+*Limit.* The stalk $\bar x^*Rj_*\mathcal F_0$ lies in $\Dbc(\bar x,\cO_E)$, since pullback
+preserves $\Dbc(-,\cO_E)$ ([sk-lem-integral-models] (3)), hence is derived complete
+([sk-prop-integral-criterion]). Its reductions modulo $\pi_E^n$ are the stalks
+$(Rj_*\mathcal F_n)_{\bar x}$, because $\bar x^*$ commutes with
+$-\otimes^{\mathbf L}_{\cO_E}\cO_E/\pi_E^n$ ([def-weil-derived-pullback-tensor-hom]) and by
+the comparison of the finite levels. So
+$\bar x^*Rj_*\mathcal F_0\simeq R\varprojlim_n(Rj_*\mathcal F_n)_{\bar x}$, and the global
+sections over $\bar x$, a right adjoint, commute with this derived limit. The Milnor
 sequence ([sk-prop-pe-milnor]) in degree $0$, whose $\varprojlim^1$-term involves only
 degree $-1$ and vanishes, gives
 $(j_*\mathcal F_0)_{\bar x}=\varprojlim_nM_n^{I_x}=M^{I_x}$, since invariants commute

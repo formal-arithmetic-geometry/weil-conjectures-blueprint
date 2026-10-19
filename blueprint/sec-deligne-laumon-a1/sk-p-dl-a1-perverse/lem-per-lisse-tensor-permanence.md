@@ -2,7 +2,6 @@
 id = "lem-per-lisse-tensor-permanence"
 kind = "lemma"
 title = "Permanence under a lisse tensor"
-lean = ["AlgebraicGeometry.Etale.DerivedCategory.SupportCondition.tensor", "AlgebraicGeometry.Etale.DerivedCategory.isPerverseLE_tensor", "AlgebraicGeometry.Etale.DerivedCategory.isPerverseGE_tensor"]
 order = 3085
 uses = ["def-per-perverse-subcategories", "def-per-support-condition", "sk-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "def-weil-pbc-scheme-conventions", "lem-per-dual-lisse-tensor"]
 +++

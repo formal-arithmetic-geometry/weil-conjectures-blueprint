@@ -7,13 +7,13 @@ order = 1813
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 For the global finite-field datum [def-weil-finite-field-fiber], fix a prime
-$\ell\neq p$, a finite extension $E/\Ql$, a uniformizer $\varpi_E$ of its
+$\ell\neq p$, a finite extension $E/\Ql$, a uniformizer $\pi_E$ of its
 valuation ring $\mathcal O_E$, an integer $n\in\mathbf Z_{\geq1}$, and a
 scheme $Y$. On the small pro-etale site
 [def-weil-pbc-proetale-site] $Y_{\mathrm{proet}}$, put
 
 $$
-  A_{E,n}=\mathcal O_E/\varpi_E^n.
+  A_{E,n}=\mathcal O_E/\pi_E^n.
 $$
 
 A sheaf of $A_{E,n}$-modules on $Y_{\mathrm{proet}}$ is *constructible* if

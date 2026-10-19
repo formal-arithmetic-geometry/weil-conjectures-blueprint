@@ -15,8 +15,8 @@ Over $X\times_S\overline X_2$ the schematic closure is exactly the graph of
 $X\to\overline X_2$: that graph is closed and already contains the entire
 restriction of the original immersion. Thus the first projection has
 inverse image of $X$ equal to $X$ and is the identity there. The second
-projection has the same property. Induction gives the finite-family
-assertion.
+projection has the same property, so both projections are strict
+refinements. Induction gives the finite-family assertion.
 
 For a map $h:\overline X'\to\overline X$, properness follows by factoring
 through its closed graph in $\overline X'\times_S\overline X$. Put

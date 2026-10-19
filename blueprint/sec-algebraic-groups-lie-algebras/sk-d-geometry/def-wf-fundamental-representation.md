@@ -9,7 +9,9 @@ uses = ["def-galois-fibre-functor", "def-tw-frobenius-action", "def-weil-pbc-sch
 Let $X_0$ be a
 separated finite-type
 $k_0$-scheme, let $X=X_0\times_{k_0}k$, assume that $X$ is
-connected, and choose a geometric point $\bar x\to X$. Let
+connected, and choose a geometric point $\bar x\to X$. For the
+representations assume moreover that $X$ is regular (for instance
+$X_0$ smooth over $k_0$). Let
 $\mathcal F_0$ be a lisse
 Weil sheaf: a lisse $\overline{\mathbf Q}_{\ell,X}$-module $\mathcal F$ on
 $X_{\mathrm{proét}}$, i.e. locally free of finite rank for the pro-étale topology
@@ -25,8 +27,8 @@ $$
 
 by the equivalence of
 [thm-lisse-qlbar-representations] between lisse $\overline{\mathbf Q}_{\ell,X}$-modules on
-the connected scheme $X$ and continuous finite-dimensional $\Qlb$-representations of
-$\pi_1(X,\bar x)$ defined over a finite extension of $\Ql$, the fundamental group being
+the connected regular scheme $X$ and continuous finite-dimensional $\Qlb$-representations of
+$\pi_1(X,\bar x)$, the fundamental group being
 the automorphism group of the fibre functor as in
 [def-galois-fibre-functor].
 

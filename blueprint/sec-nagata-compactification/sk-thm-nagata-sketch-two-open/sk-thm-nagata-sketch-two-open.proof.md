@@ -1,9 +1,9 @@
 +++
 kind  = "proof"
 of    = "sk-thm-nagata-sketch-two-open"
-uses = ["sk-lem-nagata-sketch-graph", "sk-lem-nagata-sketch-boundary", "sk-lem-nagata-sketch-near-closure", "sk-lem-nagata-sketch-common", "sk-lem-nagata-sketch-dense-valuative", "sk-prop-nagata-sketch-prepared", "sk-prop-nagata-sketch-key-disjointness", "sk-lem-nagata-sketch-closure"]
+uses = ["sk-lem-nagata-sketch-graph", "sk-lem-nagata-sketch-boundary", "sk-lem-nagata-sketch-near-closure", "sk-lem-nagata-sketch-common", "lemma-nagata-dense-source-valuative", "lemma-nagata-key-boundary-disjointness", "sk-lem-nagata-sketch-closure"]
 +++
-*Preparing the two sides* ([sk-prop-nagata-sketch-prepared]). Choose dense
+*Preparing the two sides* ([lemma-nagata-key-boundary-disjointness]). Choose dense
 compactifications $M_i\subseteq X_i$. By [sk-lem-nagata-sketch-graph], after
 admissible blow-ups there are opens $M_i\subseteq V_i\subseteq X_i$ and
 proper maps $\psi_i:V_i\to M$ which are isomorphisms above $M_i$. Put, for
@@ -20,7 +20,7 @@ The subsets $Z_{i,1},Z_{i,2}$ are disjoint and closed in $V_i$.
 $B_{i,1}\cap B_{i,2}=\varnothing$. Subsequent $V_i$-admissible blow-ups
 preserve this disjointness.
 
-*Key disjointness* ([sk-prop-nagata-sketch-key-disjointness]). Let $X_{12}$
+*Key disjointness* ([lemma-nagata-key-boundary-disjointness]). Let $X_{12}$
 be the schematic closure of $V_1\times_MV_2$ in $X_1\times_SX_2$, with proper
 projections $p_i$. Above $V_1$ the first projection is the base change of
 $\psi_2$, and is an isomorphism near $Z_{1,2}$.
@@ -68,7 +68,7 @@ admissible modifications $W_i'$. The valuation lift into $W_i$ lifts into
 $W_i'$ by properness of the modification, hence into $W$. The open $D$ is
 dense in $W$, and separatedness supplies uniqueness of valuation lifts. The
 dense-source valuative criterion (Stacks 0894;
-[sk-lem-nagata-sketch-dense-valuative]) now says $W\to S$ is universally
+[lemma-nagata-dense-source-valuative]) now says $W\to S$ is universally
 closed. Together with finite type and separatedness, this makes $W$ proper.
 Its open $M$ yields the desired compactification; taking the schematic
 closure of $M$ makes it dense ([sk-lem-nagata-sketch-closure]). The

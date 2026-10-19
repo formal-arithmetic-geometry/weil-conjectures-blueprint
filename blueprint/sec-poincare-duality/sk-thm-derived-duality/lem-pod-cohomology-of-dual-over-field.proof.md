@@ -1,8 +1,9 @@
 +++
 kind  = "proof"
 of    = "lem-pod-cohomology-of-dual-over-field"
+uses = ["def-pod-perfect-point-complex", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "prop-pod-biduality-at-the-point"]
 +++
-Step 1: split the complex. Since $E$ is a field, every finite-dimensional $E$-vector space is projective and injective. Let $C=(C^\bullet ,d^\bullet )$ be a bounded complex of finite-dimensional $E$-vector spaces and write $Z^j=\ker d^j$, $B^{j+1}=\operatorname {im}d^j$. Choose splittings $C^j=B^{j+1}\oplus Z^j$ of the short exact sequence $0\to Z^j\to C^j\xrightarrow {d^j}B^{j+1}\to 0$ and $Z^j=B^j\oplus H^j(C)$ of $0\to B^j\to Z^j\to H^j(C)\to 0$ (all of them split because the quotients are vector spaces). In the resulting decomposition $C^j=B^{j+1}\oplus B^j\oplus H^j(C)$, the differential sends $B^{j+1}$ onto $B^{j+1}$ (the coordinate $B^{j+1}\subset C^{j+1}$ via the chosen splitting) and kills $B^j\oplus H^j(C)$, so $C$ is the direct sum of the complexes $B^j\oplus B^j$ with the identity differential (contractible, hence zero in the derived category) and $H^j(C)$ with zero differential. Therefore
+Step 1: split the complex. Since $\Lambda\in\{E,\Qlb\}$ is a field, every finite-dimensional $\Lambda$-vector space is projective and injective. Let $C=(C^\bullet ,d^\bullet )$ be a bounded complex of finite-dimensional $\Lambda$-vector spaces and write $Z^j=\ker d^j$, $B^{j+1}=\operatorname {im}d^j$. Choose splittings $C^j=B^{j+1}\oplus Z^j$ of the short exact sequence $0\to Z^j\to C^j\xrightarrow {d^j}B^{j+1}\to 0$ and $Z^j=B^j\oplus H^j(C)$ of $0\to B^j\to Z^j\to H^j(C)\to 0$ (all of them split because the quotients are vector spaces). In the resulting decomposition $C^j=B^{j+1}\oplus B^j\oplus H^j(C)$, the differential sends $B^{j+1}$ onto $B^{j+1}$ (the coordinate $B^{j+1}\subset C^{j+1}$ via the chosen splitting) and kills $B^j\oplus H^j(C)$, so $C$ is the direct sum of the complexes $B^j\oplus B^j$ with the identity differential (contractible, hence zero in the derived category) and $H^j(C)$ with zero differential. Therefore
 
 $$
 C\cong \bigoplus _jH^j(C)[-j]
@@ -11,7 +12,7 @@ $$
 in the derived category. Step 2: the dual. By [def-pod-perfect-point-complex] (the field stage of [def-weil-finite-coefficient-point]) $C$ is a perfect point complex, so by [def-weil-derived-pullback-tensor-hom]
 
 $$
-C^\vee =R\operatorname {Hom}_E(C,E)\cong \bigoplus _jH^j(C)^\vee [j],
+C^\vee =R\operatorname {Hom}_\Lambda(C,\Lambda)\cong \bigoplus _jH^j(C)^\vee [j],
 $$
 
 the direct sum of the finite-dimensional duals in the shifted degrees. Step 3: the pairings and the double dual. From Step 2,
@@ -20,4 +21,4 @@ $$
 H^{-i}(C^\vee )=H^i(C)^\vee ,
 $$
 
-and the evaluation is the sum of the canonical evaluations $H^j(C)\otimes H^j(C)^\vee \to E$, which are perfect pairings of finite-dimensional vector spaces; the canonical comparison $C\to C^{\vee \vee }$ is an isomorphism by the biduality of [prop-pod-biduality-at-the-point], $C$ being a perfect point complex (Step 2), and under the decomposition of Step 1 it is the sum of the canonical isomorphisms $H^j(C)\to H^j(C)^{\vee \vee }$, each an isomorphism because a finite-dimensional vector space is reflexive. This proves all the claims, [def-weil-finite-coefficient-point] providing the identification of the derived dual over the field with the termwise dual complex.
+and the evaluation is the sum of the canonical evaluations $H^j(C)\otimes H^j(C)^\vee \to \Lambda$, which are perfect pairings of finite-dimensional vector spaces; the canonical comparison $C\to C^{\vee \vee }$ is an isomorphism by the biduality of [prop-pod-biduality-at-the-point], $C$ being a perfect point complex (Step 2), and under the decomposition of Step 1 it is the sum of the canonical isomorphisms $H^j(C)\to H^j(C)^{\vee \vee }$, each an isomorphism because a finite-dimensional vector space is reflexive. This proves all the claims, [def-weil-finite-coefficient-point] providing the identification of the derived dual over the field with the termwise dual complex.

@@ -53,11 +53,11 @@ the statement is thus a consequence of (a)–(c), not an input to their proof.
 *Coefficients.* With $N$ as in [sk-def-purity-conv], $\ell^NA=0$ and
 $\Lambda(1)=\mu_{\ell^N}\otimes_{\Z/\ell^N\Z}A$. We reduce to
 $\mu_{\ell^N}$-coefficients by dévissage on $n$. For $n=1$,
-$A=F=\mathcal O_E/\varpi$ is a finite-dimensional $\mathbf F_\ell$-vector
+$A=F=\mathcal O_E/\pi_E$ is a finite-dimensional $\mathbf F_\ell$-vector
 space, so $F(1)=\mu_\ell\otimes_{\mathbf F_\ell}F$ is a finite direct sum of
 copies of $\mu_\ell$ and (a)–(c) for $F$ follow from the computation below
 (with $\ell^N=\ell$). For $n>1$ the exact sequence
-$0\to A_{E,n-1}\xrightarrow{\varpi}A_{E,n}\to F\to0$ of coefficient modules
+$0\to A_{E,n-1}\xrightarrow{\pi_E}A_{E,n}\to F\to0$ of coefficient modules
 gives an exact sequence of twisted sheaves; the vanishings in (a) and (c)
 pass through the long exact sequence, and for (b), on $C=\mathbf G_{m,k}$,
 the connecting map $H^0(C,F(1))\to H^1(C,A_{E,n-1}(1))$ vanishes because

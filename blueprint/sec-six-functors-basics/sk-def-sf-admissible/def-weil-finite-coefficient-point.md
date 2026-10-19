@@ -25,10 +25,12 @@ bounded complexes with finite-dimensional cohomology. These are ordinary
 derived categories of modules over the rings $\Lambda(*)$; no colimit over
 finite extensions enters the definition of $D^b_{\mathrm{fd}}(\Qlb)$.
 
-Let $s=\operatorname{Spec}k$. Since $k$ is algebraically closed, the objects
+Let $s=\operatorname{Spec}k$. Since $k$ is algebraically closed, the qcqs objects
 of $s_{\mathrm{proét}}$ are the spectra of the algebras of locally constant
-functions on profinite sets, every cover of the final object $s$ has a section,
-and $\Lambda_s=p_s^*\Lambda$ ([sk-def-sfb-pulled-back-coefficients]) is free
+functions on profinite sets, and a family of maps to such an object is a cover
+exactly when finitely many of its members are jointly surjective (Bhatt–Scholze,
+*The pro-étale topology for schemes*, Example 4.1.10). So every cover of the
+final object $s$ has a section, and $\Lambda_s=p_s^*\Lambda$ ([sk-def-sfb-pulled-back-coefficients]) is free
 on the final object. Hence evaluation at the geometric point $s$, that is
 $\Gamma(s,-)$, is exact on $\Lambda_s$-modules, and a constructible
 $\Lambda_s$-module ([sk-def-sfb-constructible]) is globally of the form

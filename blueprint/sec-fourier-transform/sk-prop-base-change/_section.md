@@ -3,7 +3,6 @@ id = "sk-prop-base-change"
 kind = "proposition"
 title = "P5: base change"
 order = 3046
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_fourierTransform_baseChange"]
 uses = ["sk-def-ft"]
 tags = ["sketch"]
 +++

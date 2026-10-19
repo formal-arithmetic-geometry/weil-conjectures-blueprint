@@ -3,6 +3,7 @@ id = "def-sp-composite-acyclicity"
 kind = "definition"
 title = "Composable pairs with an acyclicity condition"
 order = 529
+lean = ["CategoryTheory.GrothendieckComposablePair", "CategoryTheory.GrothendieckComposablePair.SendsInjectivesToAcyclics", "CategoryTheory.Functor.IsAcyclicComposablePair"]
 uses = ["def-sp-acyclic", "def-sp-grothendieck-abelian", "def-sp-injective-resolutions", "def-sp-left-exact-additive"]
 +++
 A *composable pair* $(F,G)$ consists of left exact additive

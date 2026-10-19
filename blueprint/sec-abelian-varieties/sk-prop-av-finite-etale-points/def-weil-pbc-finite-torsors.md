@@ -3,6 +3,7 @@ id = "def-weil-pbc-finite-torsors"
 kind = "definition"
 title = "Finite torsors"
 order = 588
+lean = ["CategoryTheory.Sheaf.Torsor", "CategoryTheory.Sheaf.Torsor.Iso", "CategoryTheory.Sheaf.Torsor.setoid", "CategoryTheory.Sheaf.Torsor.trivial", "AlgebraicGeometry.Scheme.EtaleTorsor.isFiniteLocallyConstantSheafOfTypes_sheaf"]
 uses = ["def-weil-pbc-etale-sheaves"]
 +++
 Let $M$ be a finite abelian group and let $\underline M$ be the constant

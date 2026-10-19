@@ -3,7 +3,6 @@ id = "sk-def-ft"
 kind = "definition"
 title = "The Fourier–Deligne transform"
 order = 3036
-lean = ["AlgebraicGeometry.Etale.fourierTransform"]
 uses = ["sk-def-kernel", "sk-lem-as-properties", "sk-def-sf-setting", "sk-def-sfb-module-derived-lower-shriek", "sk-prop-sf-comp-coherence", "sk-prop-ctf-finite-comparison"]
 tags = ["sketch"]
 +++

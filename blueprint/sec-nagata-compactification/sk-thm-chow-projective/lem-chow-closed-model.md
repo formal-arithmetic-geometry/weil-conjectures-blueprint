@@ -3,7 +3,7 @@ id = "lem-chow-closed-model"
 kind = "lemma"
 title = "Closed model of a quasi-compact immersion"
 order = 1086
-lean = ["AlgebraicGeometry.ProperClosedModel", "AlgebraicGeometry.nonempty_properClosedModel"]
+lean = ["AlgebraicGeometry.ProperClosedModel", "AlgebraicGeometry.nonempty_properClosedModel", "AlgebraicGeometry.ProperClosedModel.isProper_emb_comp_over"]
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-closed-immersion-proper", "lem-weil-pbc-proper-composition"]
 +++
 Let $S$ be a noetherian scheme, let $V$ be an affine scheme and let

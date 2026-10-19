@@ -10,7 +10,7 @@ biduality at a geometric point, which holds stage by stage for different
 reasons: at the finite stages $A_{E,n}$ (Artinian and self-injective, hence
 quasi-Frobenius) finite modules are reflexive; at the integral stage
 $\mathcal O_E$ is *not* quasi-Frobenius — for
-$M=\mathcal O_E/(\varpi_E)$ one has $\operatorname{Hom}(M,\mathcal O_E)=0$,
+$M=\mathcal O_E/(\pi_E)$ one has $\operatorname{Hom}(M,\mathcal O_E)=0$,
 so $M^{**}=0\neq M$ although $M$ is perfect — and one uses instead derived
 duality of perfect complexes, $\RHom_{\mathcal O_E}(M,\mathcal O_E)\simeq M[-1]$ and $\RHom(\RHom(M,\mathcal O_E),\mathcal O_E)\simeq M$, the
 $\operatorname{Ext}^1$ term being essential

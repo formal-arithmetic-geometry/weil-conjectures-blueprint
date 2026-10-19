@@ -5,9 +5,9 @@ title = "Ordinary, derived, and geometric biduality"
 order = 2465
 uses = ["def-weil-finite-torsion-constructibility", "lem-weil-coefficient-frobenius"]
 +++
-For $R=\mathcal O_E$ and $T=R/\varpi_E R$, ordinary duality gives
+For $R=\mathcal O_E$ and $T=R/\pi_E R$, ordinary duality gives
 $T^*=0$, whereas the resolution
-$0\to R\xrightarrow{\varpi_E}R\to T\to0$ gives
+$0\to R\xrightarrow{\pi_E}R\to T\to0$ gives
 
 $$
 R\operatorname{Hom}_R(T,R)\cong T[-1],\qquad

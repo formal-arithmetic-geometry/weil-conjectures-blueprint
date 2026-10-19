@@ -19,17 +19,5 @@ s\colon\mathbf P^{n}_S\times_S\mathbf P^{m}_S
 \bigl[x_k\,y_l\bigr]_{(k,l)\in n\times m} .
 $$
 
-Iterating it, for finitely many index sets $n_1,\dots,n_m$ one obtains the
-morphism of $S$-schemes
-
-$$
- s:\prod_{i=1}^m\mathbf P^{n_i}_S\longrightarrow
- \mathbf P^{n_1\times\dots\times n_m}_S,
- \qquad
- x\longmapsto\bigl[\prod_{i=1}^m x_{i,e_i}\bigr]_{e},
-$$
-
-where $x=\bigl((x_{i,k})_{k\in n_i}\bigr)_{i=1}^m$ and the target coordinates
-$X_e$ are indexed by the tuples $e=(e_1,\dots,e_m)\in n_1\times\dots\times
-n_m$. In the classical indexing $n_i=\{0,\dots,n_i\}$ the target is
-$\mathbf P^{N}_S$ with $N=\prod_{i=1}^m(n_i+1)-1$.
+The morphism $s$ is defined over $\operatorname{Spec}\mathbf Z$ by these
+formulas and over a general $S$ by base change along $S\to\operatorname{Spec}\mathbf Z$.

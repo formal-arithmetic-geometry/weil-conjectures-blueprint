@@ -3,8 +3,7 @@ id = "sk-thm-properbasechange"
 kind = "theorem"
 title = "Proper base change on classical pro-étale complexes"
 order = 1062
-lean = ["AlgebraicGeometry.Etale.isIso_baseChange_of_isProper"]
-uses = ["sk-def-conv", "sk-def-exchange", "sk-def-pbc", "sk-def-pbc-conventions", "sk-thm-p1", "sk-thm-reduction", "sk-cor-pe-classical-derived", "sk-thm-pe-direct-image-comparison"]
+uses = ["sk-def-conv", "sk-def-exchange", "sk-def-pbc", "sk-def-pbc-conventions", "sk-thm-p1", "sk-thm-reduction", "sk-thm-chow", "sk-cor-pe-classical-derived", "sk-thm-pe-direct-image-comparison"]
 tags = ["sketch"]
 +++
 Let $\Lambda$ be a commutative ring, let $f:X\to Y$ be a proper morphism of

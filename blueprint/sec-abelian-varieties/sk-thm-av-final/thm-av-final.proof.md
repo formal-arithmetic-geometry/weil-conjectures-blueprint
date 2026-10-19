@@ -1,9 +1,9 @@
 +++
 kind  = "proof"
 of    = "thm-av-final"
-uses = ["lem-sc-isogeny-facts", "lem-sc-isogeny-surjective", "lem-sc-mult-n-finite-flat", "lem-sc-ntorsion-etale", "prop-av-tate-rank"]
+uses = ["lem-sc-isogeny-facts", "lem-sc-isogeny-surjective", "lem-sc-ntorsion-etale", "prop-av-tate-rank"]
 +++
-*(a)* This is exactly [lem-sc-isogeny-facts], [lem-sc-mult-n-finite-flat]: $[n]$ is a
+*(a)* This is exactly [lem-sc-isogeny-facts]: $[n]$ is a
 homomorphism ([lem-sc-mult-n-homomorphism] with [lem-sc-av-commutative]), has
 finite fibres ([lem-sc-mult-n-finite-kernel]) and is surjective
 ([lem-sc-mult-n-isogeny]), is flat with locally free pushforward of

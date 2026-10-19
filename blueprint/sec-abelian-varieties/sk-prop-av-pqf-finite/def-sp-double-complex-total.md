@@ -2,7 +2,7 @@
 id = "def-sp-double-complex-total"
 kind = "definition"
 title = "First-quadrant double complexes, total complex and the two filtrations"
-lean = ["HomologicalComplex\u2082.columnFiltration"]
+lean = ["HomologicalComplex₂.columnFiltration", "HomologicalComplex₂.total", "HomologicalComplex₂.firstFiltration", "HomologicalComplex₂.secondFiltration", "HomologicalComplex₂.hasTotal_of_firstQuadrant", "HomologicalComplex₂.total_isZero_of_neg", "HomologicalComplex₂.firstFiltration_subcomplex", "HomologicalComplex₂.firstFiltration_zero", "HomologicalComplex₂.firstFiltration_finite", "HomologicalComplex₂.firstFiltration_graded", "HomologicalComplex₂.secondFiltration_subcomplex", "HomologicalComplex₂.secondFiltration_zero", "HomologicalComplex₂.secondFiltration_finite", "HomologicalComplex₂.secondFiltration_graded"]
 order = 522
 uses = ["def-sp-abelian", "def-sp-filtration"]
 +++

@@ -5,10 +5,10 @@ title = "Finite Tor amplitude and perfectness over the finite coefficient ring"
 order = 2173
 uses = ["def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-weil-finite-coefficient-point", "def-weil-finite-tor-amplitude"]
 +++
-Let $A=A_{E,n}=\mathcal O_E/\varpi_E^n$ be the
+Let $A=A_{E,n}=\mathcal O_E/\pi_E^n$ be the
 finite coefficient ring,
 so that $A$ is a local Artinian ring with maximal ideal
-$(\varpi_E)$, and let $C$ be a bounded complex of $A$-modules
+$(\pi_E)$, and let $C$ be a bounded complex of $A$-modules
 whose cohomology modules are finite, i.e. an object of the
 finite-coefficient
 category over a point. Then $C$ has

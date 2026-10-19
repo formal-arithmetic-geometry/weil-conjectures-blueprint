@@ -2,8 +2,8 @@
 id = "sk-thm-chow-projective"
 kind = "theorem"
 title = "Projective domination of a proper morphism"
-order = 1
-lean = ["AlgebraicGeometry.ChowModification.nonempty_data", "AlgebraicGeometry.ChowModification.isClosedImmersion_toProjectiveSpace"]
+order = 38
+lean = ["AlgebraicGeometry.exists_chow_finite_type", "AlgebraicGeometry.IsClosedImmersion.of_universallyClosed", "AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_liftBaseChange"]
 uses = ["thm-chow-lemma", "sk-def-conv"]
 tags = ["sketch"]
 +++
@@ -17,6 +17,3 @@ i_X=(\pi,i_S):\widetilde X\hookrightarrow X\times_S\mathbf P^n_S=\mathbf P^n_X
 $$
 
 is a closed immersion. Both $\pi$ and $f\pi$ are projective.
-
-The theorem holds over every qcqs base, in particular over every affine one,
-with no Noetherian or finite-presentation assumption on $f$.

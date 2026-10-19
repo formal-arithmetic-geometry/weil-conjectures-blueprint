@@ -2,7 +2,7 @@
 id = "sk-def-av-pic"
 kind = "definition"
 title = "$\\Pic$, degree, $\\Pic^0$"
-lean = ["AlgebraicGeometry.Scheme.Pic", "AlgebraicGeometry.Scheme.Hom.picZero"]
+lean = ["AlgebraicGeometry.Scheme.Pic", "AlgebraicGeometry.Scheme.Hom.picZero", "AlgebraicGeometry.Scheme.Hom.picDegree", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroupAddEquiv"]
 order = 534
 uses = ["sec-nagata-compactification", "sk-def-curve"]
 tags = ["sketch"]

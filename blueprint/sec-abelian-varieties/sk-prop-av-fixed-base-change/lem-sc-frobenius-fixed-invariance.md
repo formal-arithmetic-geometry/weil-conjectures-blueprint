@@ -2,7 +2,7 @@
 id = "lem-sc-frobenius-fixed-invariance"
 kind = "lemma"
 title = "Fixed points under algebraically closed base change"
-lean = ["LinearMap.Frobenius.bijective_tmul_fixedPoints"]
+lean = ["LinearMap.Frobenius.bijective_tmul_fixedPoints", "LinearMap.Frobenius.existsUnique_baseChange"]
 order = 574
 uses = ["lem-sc-lang-steinberg"]
 +++

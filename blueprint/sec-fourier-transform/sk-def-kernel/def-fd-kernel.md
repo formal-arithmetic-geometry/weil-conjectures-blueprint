@@ -3,7 +3,6 @@ id = "def-fd-kernel"
 kind = "definition"
 title = "The Fourier kernel and integrand"
 order = 3035
-lean = ["AlgebraicGeometry.Etale.fourierKernel"]
 uses = ["def-fd-artin-schreier-sheaf", "def-weil-pbc-scheme-conventions", "sk-def-sf-setting", "sk-def-sfb-module-pushforward-pullback"]
 +++
 Let $\Lambda$ be a coefficient ring in which the prime $p$ is invertible:

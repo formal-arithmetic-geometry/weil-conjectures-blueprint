@@ -3,40 +3,58 @@ kind  = "proof"
 of    = "thm-sp-grothendieck"
 +++
 Choose an injective resolution $X\to I^\bullet$
-([def-sp-injective-resolutions]) and put $C^\bullet=F(I^\bullet)$ in
-$\mathcal B$, so that $R^qF(X)=\mathcal H^q(C^\bullet)$. Let
-$C^{\bullet,\bullet}$ be a Cartan--Eilenberg resolution of $C^\bullet$
-([thm-sp-if-e1]) and put $D^{p,q}=G(C^{p,q})$; since $G$ is left exact,
-$R^qG(C^p)=\mathcal H^q(G(C^{p,\bullet}))$. Filtering the total complex of
-$D$ ([def-sp-double-complex-total]) by the second degree, the $E_1$-page is
+([def-sp-injective-resolutions]) and put $K^\bullet=F(I^\bullet)$, a
+complex in $\mathcal B$ concentrated in degrees $\geq0$ with
+$\mathcal H^q(K^\bullet)=R^qF(X)$ ([def-sp-left-exact-additive]).
+
+*The $E_2$-page.* Apply the truncation couple [def-sp-truncation-couple] to
+$v=G$ and $K^\bullet$ (only the source $\mathcal B$ of $G$ needs injective
+resolutions). By the shift and agreement parts (3) and (2) of
+[lem-sp-kinjective-computes],
 
 $$
- E_1^{p,q}=R^qG\bigl(F(I^p)\bigr),
+ E_2^{p,q}=\mathcal H^{p+q}\bigl(RG(\mathcal H^q(K^\bullet)[-q])\bigr)
+ \cong\mathcal H^p\bigl(RG(R^qF(X)[0])\bigr)\cong R^pG\bigl(R^qF(X)\bigr).
 $$
 
-which vanishes for $q>0$ precisely because every $F(I^p)$ is $G$-acyclic
-([def-sp-composite-acyclicity]). By the bottom-edge collapse, i.e.
-[lem-sp-edge-collapse] applied to the bidegree transposition
-$(p,q)\mapsto(q,p)$ (which preserves the [def-sp-exact-couple]-structure and
-the first-quadrant convergence of [def-sp-convergence]), this sequence
-degenerates at $E_2$: $E_2^{p,q}=0$ for $q>0$, no differential begins at
-$E_2$, and
+These vanish unless $p\geq0$ and $q\geq0$, and $D^{p,q}=0$ for $q<0$, so
+[thm-sp-half-plane-convergence] (with $a=0$) shows that the spectral
+sequence of the couple is first-quadrant and converges
+([def-sp-convergence]) to $A^n=D^{0,n}=\mathcal H^n(RG(\tau_{\leq n}
+K^\bullet))$, with the image filtration
+$F^pA^n=\operatorname{im}(D^{p,n-p}\to A^n)$ ([def-sp-image-filtration]).
+Since $RG(\tau_{>n}K^\bullet)$ has no cohomology in degrees $\leq n$, the map
+$A^n\to\mathcal H^n(RGK^\bullet)$ is an isomorphism.
+
+*The abutment.* Each $K^s=F(I^s)$ is $G$-acyclic, by the hypothesis on $F$
+([def-sp-composite-acyclicity]). In the spectral sequence of [thm-sp-if-e1]
+for $v=G$ and $K^\bullet$, $E_1^{r,s}=R^rG(K^s)$ therefore vanishes for
+$r\neq0$, so it is concentrated in a single row. The differentials $d_k$,
+$k\geq2$, join different rows, so they vanish, $E_2=E_\infty$, and in each
+total degree $n$ the abutment filtration has a single nonzero graded piece;
+this is the edge collapse of [lem-sp-edge-collapse], with the two indices
+exchanged, and the edge map is an isomorphism
 
 $$
- E_2^{n,0}\cong R^n(G\circ F)(X),
+ \mathcal H^n(RGK^\bullet)\cong E_2^{0,n}=\mathcal H^n\bigl(G(K^\bullet)\bigr)
+ =\mathcal H^n\bigl(GF(I^\bullet)\bigr)=R^n(G\circ F)(X),
 $$
 
-via the edge isomorphisms and $E_2^{n,0}=H^n\bigl(GF(I^\bullet)\bigr)$
-([def-sp-left-exact-additive]); this is the convergence computation. The
-stated $E_2$-page $R^pG(R^qF(X))$ is the page of the first-degree filtration
-of the same double complex, whose identification with the horizontal
-cohomology of the $C^{\bullet,q}$-columns is the Cartan--Eilenberg
-computation of [thm-sp-if-e1]; the two spectral sequences of the double
-complex ([thm-sp-double-complex-spectral-sequences]) converge to the same abutment, so the stated sequence converges to
-$R^{p+q}(G\circ F)(X)$ as claimed. The induced filtration on the abutment is
-the image filtration of [def-sp-image-filtration], convergence is the
-half-plane case of [def-sp-convergence], and everything is functorial in
-$X$.
+the last equality by [def-sp-left-exact-additive], $G\circ F$ being left
+exact. Hence the spectral sequence converges to $R^{p+q}(G\circ F)(X)$.
+
+*Edge maps.* In degree $n$ the entry $E_2^{n,0}=R^nG(F(X))$ receives no
+differentials, so it surjects onto $E_\infty^{n,0}=F^nA^n\subseteq A^n$, and
+$A^n\to A^n/F^1A^n=E_\infty^{0,n}$ lands in $E_2^{0,n}=G(R^nF(X))$, since no
+differentials leave $(0,n)$; these are the edge maps
+$R^nG(F(X))\to R^n(G\circ F)(X)\to G(R^nF(X))$.
+
+*Functoriality.* A morphism $X\to X'$ extends to a morphism of injective
+resolutions, unique up to homotopy, hence to a morphism $K^\bullet\to
+K'^\bullet$; since $RG$ is functorial (part (1) of
+[lem-sp-kinjective-computes]) and truncations are functorial, it induces a
+morphism of truncation couples, hence of spectral sequences
+([lem-sp-couple-morphism]), compatible with the abutment filtrations.
 
 (*References: Weibel, An Introduction to Homological Algebra, Theorem 5.8.3;
 Stacks Project, Lemma 13.22.1 (Tag

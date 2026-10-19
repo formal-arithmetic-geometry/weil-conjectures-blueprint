@@ -8,7 +8,7 @@ uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smoot
 Fix the finite-field datum of [def-pur-conventions], let $k$ be
 algebraically closed, let $N\geq1$, and let $A$ be a finite
 $\mathbf Z/\ell^N\mathbf Z$-module which is free of finite rank (for
-instance $A=A_{E,n}$ with $N=n\cdot v_\ell(\varpi_E)$ under the
+instance $A=A_{E,n}$ with $N=n\cdot v_\ell(\pi_E)$ under the
 hypothesis $e(E/\Ql)\mid n$ of [lem-pur-finite-kummer-level]). For every
 smooth separated curve $C$ over $k$ and every
 integer $q\geq0$, the natural map

@@ -2,7 +2,6 @@
 id = "thm-sf-pf-field"
 kind = "theorem"
 title = "Projection formula over $E$ and $\\Qlb$"
-lean = ["AlgebraicGeometry.Etale.isIso_fromIntegral_map_projectionMap", "AlgebraicGeometry.Etale.isIso_reductionModIdeal_pow_map_projectionMap"]
 order = 2442
 uses = ["def-sf-datum", "def-sf-pf", "sk-def-sfb-bounded-constructible", "sk-lem-integral-models", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-scalar-six", "sk-prop-sfb-finite-extension-compatibility", "thm-sf-pf-adic"]
 +++

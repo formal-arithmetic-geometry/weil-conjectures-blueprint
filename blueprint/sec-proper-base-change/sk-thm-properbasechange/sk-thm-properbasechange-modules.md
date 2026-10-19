@@ -2,6 +2,7 @@
 id = "det-properbasechange-modules"
 kind = "lemma"
 title = "Étale proper base change for module coefficients"
+lean = ["AlgebraicGeometry.Etale.isIso_baseChange_of_isProper_of_torsionHomology"]
 uses = ["thm-weil-pbc-bounded-below", "det-pbc-conventions-module-cohomology", "def-weil-pbc-derived-exchange", "lemma-weil-pbc-derived-exchange-replacement", "lemma-weil-pbc-leray-acyclicity"]
 +++
 Let $\Lambda$ be a commutative ring, let $f:X\to Y$ be proper, let

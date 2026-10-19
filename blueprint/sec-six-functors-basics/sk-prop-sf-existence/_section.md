@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Existence of the exceptional inverse image"
 order = 1541
 uses = ["sk-prop-sf-comparison", "sk-prop-sf-comp-coherence", "sk-def-localizing-closure"]
-lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekAdjunction", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekAdjunction"]
+lean = ["AlgebraicGeometry.ProEtale.rightDerivedUpperShriekAdjunction"]
 tags = ["sketch"]
 +++
 Let $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\Qlb\}$ be any admissible coefficient

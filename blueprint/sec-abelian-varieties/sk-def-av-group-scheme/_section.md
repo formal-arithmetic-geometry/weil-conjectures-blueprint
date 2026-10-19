@@ -2,7 +2,7 @@
 id = "sk-def-av-group-scheme"
 kind = "definition"
 title = "Group schemes, order, and étaleness"
-lean = ["CategoryTheory.GrpObj.ker", "AlgebraicGeometry.Scheme.Hom.finrankΓ"]
+lean = ["CategoryTheory.GrpObj", "CategoryTheory.GrpObj.ker", "AlgebraicGeometry.isClosedSubgroupScheme_kerι", "AlgebraicGeometry.Scheme.Hom.finrankΓ", "AlgebraicGeometry.Scheme.Hom.etale_iff_etale_ΓAlgebra_of_isFinite"]
 order = 529
 tags = ["sketch"]
 +++

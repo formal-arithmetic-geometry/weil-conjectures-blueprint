@@ -124,10 +124,13 @@ $s\in C_0\setminus U_0$, Step 2 identifies $(j_*j^*\mathcal G)_{\bar s}$ with
 $\mathcal G_{\bar\eta}^{I_s}=\mathcal G_{\bar\eta}$, inertia acting trivially because
 the geometric representation of $\mathcal G$ factors through $\pi_1(C)$, and the unit
 becomes the specialization isomorphism $\mathcal G_{\bar s}\to\mathcal G_{\bar\eta}$ of the
-locally free module $\mathcal G$. Geometric stalks are jointly conservative on
-$\Cons(C,\Qlb)$: kernels and cokernels are constructible ([sk-lem-coefficient-heart]
-(1)), and a constructible sheaf with zero stalks has zero stalks on every graded piece
-$a_!L$ of [sk-lem-coefficient-heart] (3), so each lisse $L$ is zero. Hence
+locally free module $\mathcal G$. Geometric stalks are exact
+([sk-prop-sfb-module-pullback-exact], [sk-prop-pe-condensed-point]) and jointly conservative
+on $\Cons(C,\Qlb)$: kernels and cokernels are constructible ([sk-lem-coefficient-heart]
+(1)), and if all stalks of a constructible $M$ vanish, then for each stratum
+$a:S\hookrightarrow C$ of the filtration of [sk-lem-coefficient-heart] (3) the lisse
+restriction $a^*M$ vanishes by [lem-wf-lisse-stalk-vanishing] (2), so every subquotient
+$a_!(a^*M)$ is zero and $M=0$. Hence
 $\mathcal G\simeq j_*(\mathcal G|_{U_0})$.
 
 *Step 4 (surjectivity on fundamental groups).* Let $W\to C$ be

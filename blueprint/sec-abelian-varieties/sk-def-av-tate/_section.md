@@ -2,7 +2,7 @@
 id = "sk-def-av-tate"
 kind = "definition"
 title = "$\\ell$-adic Tate module"
-lean = ["AlgebraicGeometry.IsAbelianVariety.tateModule"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.tateModule", "AlgebraicGeometry.IsAbelianVariety.rationalTateModule", "AlgebraicGeometry.IsAbelianVariety.tateModuleEquivTorsionPoints", "AlgebraicGeometry.IsAbelianVariety.tateModuleMap", "AlgebraicGeometry.IsAbelianVariety.tateModuleSemilinearMap", "AlgebraicGeometry.IsAbelianVariety.galoisRepresentation"]
 order = 538
 tags = ["sketch"]
 +++

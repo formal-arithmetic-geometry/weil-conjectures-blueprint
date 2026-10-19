@@ -5,4 +5,4 @@ title = "Passing a twist through a linear functor"
 order = 1847
 uses = ["sk-def-purity-conv"]
 +++
-Let $\Phi:D(X_{\Proet},\mathcal O_E/\varpi^n)\to D(Y_{\Proet},\mathcal O_E/\varpi^n)$ be $\mathcal O_E/\varpi^n$-linear and $m\in\mathbf Z$. For a basis $e$ of $P(m)$ (Lemma “The twist modules are free of rank one” (`pur9-lem-twist-free`, in [sk-def-purity-conv])) let $b^X_e:K\to K(m)$ be the isomorphism induced by $(\mathcal O_E/\varpi^n)_X\to(\mathcal O_E/\varpi^n)_X(m)$, $1\mapsto e$, and the unit isomorphism of the tensor product. Define $\tau_{\Phi,K}:=b^Y_e\circ\Phi(b^X_e)^{-1}:\Phi(K(m))\to\Phi(K)(m)$.
+Let $\Phi:D(X_{\Proet},\mathcal O_E/\pi_E^n)\to D(Y_{\Proet},\mathcal O_E/\pi_E^n)$ be $\mathcal O_E/\pi_E^n$-linear and $m\in\mathbf Z$. For a basis $e$ of $P(m)$ (Lemma “The twist modules are free of rank one” (`pur9-lem-twist-free`, in [sk-def-purity-conv])) let $b^X_e:K\to K(m)$ be the isomorphism induced by $(\mathcal O_E/\pi_E^n)_X\to(\mathcal O_E/\pi_E^n)_X(m)$, $1\mapsto e$, and the unit isomorphism of the tensor product. Define $\tau_{\Phi,K}:=b^Y_e\circ\Phi(b^X_e)^{-1}:\Phi(K(m))\to\Phi(K)(m)$.

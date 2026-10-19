@@ -25,7 +25,7 @@ $$
 
 Let $t$ denote the global coordinate function on $\mathbf A^1_Y$, viewed
 as a global unit on $\mathbf G_{m,Y}$. With
-$N=n\cdot v_\ell(\varpi_E)$ as in [lem-pur-finite-kummer-level]
+$N=n\cdot v_\ell(\pi_E)$ as in [lem-pur-finite-kummer-level]
 (whose hypothesis $e(E/\Ql)\mid n$ is assumed from now on), the
 finite-level twist is
 

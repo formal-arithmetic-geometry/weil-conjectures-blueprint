@@ -3,7 +3,7 @@ id = "def-nagata-separate-closed-subschemes"
 kind = "definition"
 title = "Closed-boundary separation blow-up"
 order = 254
-lean = ["AlgebraicGeometry.separationBlowup"]
+lean = ["AlgebraicGeometry.separationBlowup", "AlgebraicGeometry.separationPreparationBlowup"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "def-nagata-strict-transform", "lemma-nagata-separate-closed-data-exists"]
 +++
 Let $X$ be a scheme, let $U\subseteq X$ be an open subscheme, and let

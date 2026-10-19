@@ -5,7 +5,7 @@ title = "Internal ambient adjunction"
 lean = ["AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIsoOfFinite"]
 order = 1929
 tags = ["latex:proposition"]
-uses = ["def-amb-etale-compact-support", "def-asd-compactifiable", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-derived-categories", "lem-amb-proper-coproducts-projection", "thm-amb-etale-exceptional-adjoint"]
+uses = ["def-amb-etale-compact-support", "def-nagata-compactifiable", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-derived-categories", "lem-amb-proper-coproducts-projection", "thm-amb-etale-exceptional-adjoint"]
 +++
 For a compactifiable morphism $f:X\to S$ between
 Noetherian schemes, and arbitrary complexes $M$ on

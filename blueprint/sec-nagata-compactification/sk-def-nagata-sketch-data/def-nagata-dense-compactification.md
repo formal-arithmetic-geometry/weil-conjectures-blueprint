@@ -3,7 +3,7 @@ id = "def-nagata-dense-compactification"
 kind = "definition"
 title = "Scheme-theoretically dense compactification"
 order = 15
-lean = ["AlgebraicGeometry.IsSchemeTheoreticallyDominant"]
+lean = ["AlgebraicGeometry.Compactification.IsDense", "AlgebraicGeometry.IsSchemeTheoreticallyDominant"]
 uses = ["def-nagata-compactification", "def-nagata-scheme-theoretically-dense-open"]
 +++
 A compactification $X\xrightarrow{j}\overline X\to S$ is

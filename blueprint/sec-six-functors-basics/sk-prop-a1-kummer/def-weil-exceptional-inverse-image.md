@@ -2,13 +2,12 @@
 id = "def-weil-exceptional-inverse-image"
 kind = "definition"
 title = "Exceptional inverse image notation"
-lean = ["AlgebraicGeometry.Etale.boundedConstructibleIntegralRightDerivedLowerStarUpperShriekAdjunction"]
 order = 1848
 uses = ["def-compact-support-direct-image-detailed", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "sk-thm-existence", "sk-def-sfb-dc-upper-shriek", "sk-prop-scalar-six"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$ with valuation ring $\mathcal
-O_E$ and uniformizer $\varpi_E$, and an integer $n\in\mathbf Z_{\geq1}$, with
-$A=A_{E,n}=\mathcal O_E/\varpi_E^n$. Let $S$ be a scheme on which $\ell$ is
+O_E$ and uniformizer $\pi_E$, and an integer $n\in\mathbf Z_{\geq1}$, with
+$A=A_{E,n}=\mathcal O_E/\pi_E^n$. Let $S$ be a scheme on which $\ell$ is
 invertible, let $X,Y$ be finite-type
 [def-weil-scheme-morphism-properties] $S$-schemes, and let $f:X\to Y$ be a
 separated finite-type $S$-morphism; in every use $S=\Spec k$

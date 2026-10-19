@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-sf-cbc"
+uses = ["thm-cbc-finite-torsion", "thm-cbc-finite-level-proetale", "sk-def-sfb-shriek-base-change-morphism", "sk-thm-sfb-shriek-base-change"]
 +++
 The stages are proved separately. For finite coefficients on the étale site,
 choose a compactification $f=rj$ with $j$ an open immersion and $r$ proper,
@@ -11,6 +12,12 @@ functor $Rr'_*j'_!$ with $Rf'_!$. The exchange for $j_!$ is an isomorphism
 because extension by zero commutes with every base change, so the computed
 exchange reduces to the base-change map $Lg^*Rr_*\to Rr'_*Lg''^*$ for the
 proper morphism $r:Z\to Y$, where $g'':Z'=Z\times_YY'\to Z$ is the projection, which is an isomorphism on $D^+$ by proper base
-change with torsion coefficients. The remaining stages are: the pro-étale site, for objects with an étale-origin witness;
-derived-complete coefficients, with the completed exchange; $\Dbc(X,E)$; and
-$\Dbc(X,\Qlb)$.
+change with torsion coefficients ([thm-cbc-finite-torsion]). The remaining
+stages are: the pro-étale site at finite $\Lambda$, for objects with an
+étale-origin witness, transported from the étale case
+([thm-cbc-finite-level-proetale]); and the condensed categories
+$\Dbc(X,\Lambda)$ for $\Lambda=\mathcal O_E,E,\Qlb$, where
+$\operatorname{Ex}_!$ is the morphism of
+[sk-def-sfb-shriek-base-change-morphism] and is an isomorphism by
+[sk-thm-sfb-shriek-base-change] at $E,\Qlb$ and by
+[thm-cbc-complete-proetale] at $\mathcal O_E$.

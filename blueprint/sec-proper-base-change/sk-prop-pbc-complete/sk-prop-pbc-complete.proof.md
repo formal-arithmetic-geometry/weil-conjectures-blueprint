@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-prop-pbc-complete"
-uses = ["sk-cor-pbc-proet-finite", "sk-def-pe-derived-completion", "det-pbc-complete-towers", "det-pbc-complete-tower-calculus", "lemma-weil-pbc-completed-pullback-reduction", "prop-weil-pbc-direct-image-limits", "det-pbc-complete-exchange-map", "det-pbc-complete-exchange-iso", "det-pbc-complete-frobenius", "det-pbc-complete-constructible"]
+uses = ["sk-cor-pbc-proet-finite", "sk-def-pe-derived-completion", "det-pbc-complete-towers", "det-pbc-complete-tower-calculus", "lemma-weil-pbc-completed-pullback-reduction", "prop-weil-pbc-direct-image-limits", "det-pbc-complete-exchange-map", "det-pbc-complete-exchange-iso"]
 +++
 Derived completeness identifies $K$ with $R\varprojlim_nK_n$. The quotient
 $\mathcal O_E/\pi_E^n$ has the two-term finite free resolution
@@ -43,15 +43,10 @@ equivalent derived-complete categories by Stacks Project, Tag 099I, so this
 yields the same statement for the pulled-back condensed ring
 $\mathcal O_{E,X}$.
 
-The construction is natural in $K$ and compatible with automorphisms of the
-square, so for a square defined over $k_0$ the completed exchange map is
-Frobenius-equivariant ([det-pbc-complete-frobenius]).
-
 *After the proposition.* For a constructible $K$, proper finiteness will show
 that $Rp_*K$ is again constructible. All inverse images in the proposition
 are then already complete, and it becomes the ordinary exchange isomorphism
 $g^*Rp_*K\xrightarrow{\sim}Rp'_*g'^*K$ between objects of
-$\Dbc(Y',\mathcal O_E)$, for $K\in\Dbc(X,\mathcal O_E)$
-([det-pbc-complete-constructible]);
-[sk-thm-sfb-proper-base-change] proves this finiteness and treats $E$ and
-$\Qlb$.
+$\Dbc(Y',\mathcal O_E)$, for $K\in\Dbc(X,\mathcal O_E)$.
+[sk-thm-sfb-proper-base-change] proves this finiteness, carries out this
+comparison ([det-pbc-complete-constructible]) and treats $E$ and $\Qlb$.

@@ -32,10 +32,10 @@ because $\operatorname{Hom}_\Lambda(-,\Lambda)$ is exact on
 $\Lambda$-modules, so that $R\operatorname{Hom}_\Lambda(C,\Lambda)$ is
 computed termwise and commutes with taking cohomology: for
 $\Lambda=E,\overline{\mathbf Q}_\ell$ this is clear, and
-$\Lambda=A_{E,n}=\mathcal O_E/\varpi_E^n$ is self-injective by Baer's
-criterion — its ideals are the $\varpi_E^jA_{E,n}$, a homomorphism
-$\varphi:\varpi_E^jA_{E,n}\to A_{E,n}$ sends $\varpi_E^j$ to an element
-killed by $\varpi_E^{n-j}$, hence to some $\varpi_E^ja$, and
+$\Lambda=A_{E,n}=\mathcal O_E/\pi_E^n$ is self-injective by Baer's
+criterion — its ideals are the $\pi_E^jA_{E,n}$, a homomorphism
+$\varphi:\pi_E^jA_{E,n}\to A_{E,n}$ sends $\pi_E^j$ to an element
+killed by $\pi_E^{n-j}$, hence to some $\pi_E^ja$, and
 $\varphi$ extends to multiplication by $a$. The adjoint
 $H^{2d-i}(X,K^\vee(d))\to\operatorname{Hom}_\Lambda(H^i_c(X,K),\Lambda)$ of
 $\langle-,-\rangle_i$ is then $H^{-i}(b_K^\sharp)$, an isomorphism. (For

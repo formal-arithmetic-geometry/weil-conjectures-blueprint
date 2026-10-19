@@ -36,7 +36,7 @@ space $\mathbf A^{d_U}_V$ of [def-sbc-affine-space]; and
 [lem-exc-open-complement-known]. Indeed $\mathbf A^{d_U}_V$ is of
 finite type over $k$ of dimension $d_U+\dim V\leq d_U+\dim Y$, the
 complement $W_U$ is a quasi-compact open subscheme of it, and $A=A_{E,n}$
-is a finite ring annihilated by the power $\varpi_E^n$ of the prime
+is a finite ring annihilated by the power $\pi_E^n$ of the prime
 $\ell\neq\operatorname{char}(k)$, so the pair satisfies the
 open-complement condition with $c_U=2(d_U+\dim Y)$. The conclusion of
 [cor-pur-general-admissibility-datum] is, in the notation of
@@ -69,7 +69,7 @@ $\mathcal O(U)$ over $\mathcal O(V)$, an operation on the schemes alone,
 and do not depend on the coefficient ring; and the hypotheses under which
 [lem-exc-open-complement-known] was applied in Step 2 are the same at
 every finite stage, $A_{E,n}$ being a finite ring annihilated by the power
-$\varpi_E^n$ of $\ell$. Hence both the open-complement condition with
+$\pi_E^n$ of $\ell$. Hence both the open-complement condition with
 the constants $c_U$ and the constants $D$, $c$ of
 [thm-pur-general-admissibility] and
 [cor-pur-general-admissibility-datum] are the same integers at every

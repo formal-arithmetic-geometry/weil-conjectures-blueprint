@@ -6,5 +6,6 @@ lean = ["AlgebraicGeometry.QuasiDomination.U_eq_top"]
 order = 230
 uses = ["def-nagata-conrad-quasi-domination"]
 +++
-Let $Y\to S$ be proper and let $(U,f)$ be a quasi-domination of $X$ over
+Let $Y\to S$ be separated and universally closed (for instance proper),
+and let $(U,f)$ be a quasi-domination of $X$ over
 $Y$. Then $U=X$; that is, $f$ extends to an $S$-morphism $X\to Y$.

@@ -2,7 +2,7 @@
 id = "sk-cor-trace"
 kind = "theorem"
 title = "Top-degree trace"
-lean = ["AlgebraicGeometry.WeilSheaf.exists_traceCup_isPerfect", "AlgebraicGeometry.Etale.TateOrientation.traceDualityEquiv", "AlgebraicGeometry.Etale.TateOrientation.traceMap_eq_unitClassCompactSupport_comp", "AlgebraicGeometry.Etale.TateOrientation.bijective_untwistedTraceMap", "AlgebraicGeometry.Etale.exists_tateOrientation_traceMap_pointClass", "AlgebraicGeometry.Etale.traceIsomorphism"]
+lean = ["AlgebraicGeometry.WeilSheaf.exists_traceCup_isPerfect"]
 order = 2750
 uses = ["sk-def-trace-cup", "sk-lem-finite", "sk-prop-an", "sk-thm-purity-transport", "sk-thm-regular", "sk-thm-sf-identification", "sk-thm-smooth-purity", "sk-def-sp-trace", "sk-prop-scalar-six", "sk-def-ops", "sk-thm-derived-duality"]
 tags = ["sketch"]

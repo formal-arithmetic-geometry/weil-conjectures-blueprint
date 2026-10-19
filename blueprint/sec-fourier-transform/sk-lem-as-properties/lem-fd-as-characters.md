@@ -2,7 +2,7 @@
 id = "lem-fd-as-characters"
 kind = "lemma"
 title = "Isotypic decomposition of the Artin–Schreier pushforward"
-lean = ["AlgebraicGeometry.nonempty_iso_dual_artinSchreier", "AlgebraicGeometry.nonempty_iso_artinSchreierOf_zero", "AlgebraicGeometry.Etale.artinSchreierSheafUpperStarIso", "AlgebraicGeometry.Etale.nonempty_iso_artinSchreierSheafOf_neg_inv", "AlgebraicGeometry.Etale.image_\u03b9_artinSchreierIdempotent_mulShift_comp", "AlgebraicGeometry.Etale.sum_artinSchreierIdempotent_mulShift", "AlgebraicGeometry.Etale.artinSchreierPushforwardIsoBiproduct"]
+lean = ["AlgebraicGeometry.nonempty_iso_dual_artinSchreier", "AlgebraicGeometry.nonempty_iso_artinSchreierOf_zero"]
 order = 3026
 uses = ["def-fd-artin-schreier-sheaf", "def-weil-pbc-etale-sheaves", "def-weil-pbc-finite-torsors", "sk-def-sfb-constructible", "lem-fd-as-cover", "lem-fd-character-orthogonality"]
 +++

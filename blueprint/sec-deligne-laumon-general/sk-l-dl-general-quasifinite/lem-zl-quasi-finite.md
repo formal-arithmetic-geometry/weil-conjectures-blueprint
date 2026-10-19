@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Quasi-finite morphisms: exactness and upper-weight bound"
 order = 3162
 lean = ["AlgebraicGeometry.isZero_higherLowerShriek_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.HasWeightsAtMost.higherLowerShriek_zero_of_quasiFinite"]
-uses = ["def-weil-complex-weights", "def-weil-weil-sheaf-complex", "lem-zl-finite-pushforward", "prop-functor-package", "sk-cor-pe-wc-sections", "sk-def-sfb-module-lower-shriek", "sk-lem-coefficient-heart", "sk-prop-pe-condensed-point", "sk-thm-sf-ctf-stability", "sk-thm-sfb-proper-base-change", "thm-pqf-zmt-factorization"]
+uses = ["def-weil-complex-weights", "def-weil-weil-sheaf-complex", "prop-functor-package", "sk-def-sfb-module-lower-shriek", "sk-lem-coefficient-heart"]
 +++
 Let $g:Z_0\to Y_0$ be a separated, quasi-finite morphism of finite type
 of $k_0$-schemes, with $Y_0$ quasi-separated of finite type over $k_0$.

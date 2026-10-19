@@ -4,7 +4,6 @@ kind = "proposition"
 title = "Projection formula and proper base change with rational coefficients"
 order = 1560
 uses = ["sk-prop-proper-base-change-unbounded"]
-lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_field"]
 tags = ["sketch"]
 +++
 For $\Lambda=E$ or $\Qlb$, the category $\Loc(\Dctf(X,\Lambda))$ is closed

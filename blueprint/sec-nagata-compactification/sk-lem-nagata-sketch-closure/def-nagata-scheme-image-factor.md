@@ -4,7 +4,7 @@ kind = "definition"
 title = "Canonical factor through a scheme-theoretic image"
 order = 76
 lean = ["AlgebraicGeometry.Scheme.Hom.toImage"]
-uses = ["def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
+uses = ["def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++
 Define
 

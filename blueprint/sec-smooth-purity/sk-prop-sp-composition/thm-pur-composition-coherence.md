@@ -9,8 +9,8 @@ Work in the purity conventions of [def-pur-conventions], with the
 global finite-field datum $(p,a,q,k_0,k)$
 with $q=p^a$, the prime $\ell\neq p$, the finite extension
 $E/\Ql$ with valuation ring $\mathcal O_E$ and uniformizer
-$\varpi_E$, the level $n\geq1$, and the finite coefficient ring
-$A=A_{E,n}=\mathcal O_E/\varpi_E^n$; let
+$\pi_E$, the level $n\geq1$, and the finite coefficient ring
+$A=A_{E,n}=\mathcal O_E/\pi_E^n$; let
 $f:X\to Y$ and $g:Y\to Z$ be smooth separated
 morphisms of relative dimensions $d$ and $e$. Under the canonical
 identification

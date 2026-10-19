@@ -50,10 +50,14 @@ $W(C_0)$-equivariance; hence full faithfulness.
 *Exactness.* Kernels and cokernels of maps of lisse Weil sheaves are formed in
 $\Mod(C_{\mathrm{proét}},\Qlb)$, where they are constructible
 ([sk-lem-coefficient-heart] (1)), and the Weil structures pass to them. Geometric stalks
-are exact, monoidal, and jointly conservative on $\Cons(C,\Qlb)$: if all stalks of a
-constructible $M$ vanish, so do those of every graded piece $a_!L$ of the filtration
-of [sk-lem-coefficient-heart] (3), stalks being exact, hence each lisse $L$, being
-locally free of rank equal to its stalk dimension, is zero, and so $M=0$. For lisse
+are exact (for a geometric point $s:\Spec K\to C$ the pullback $s^*$ is exact by
+[sk-prop-sfb-module-pullback-exact], and
+$\Gamma(\Spec K,-)$ is exact because every pro-étale cover of $\Spec K$ has a section,
+[sk-prop-pe-condensed-point]), monoidal, and jointly conservative on $\Cons(C,\Qlb)$: if all
+stalks of a constructible $M$ vanish, then for each stratum $a:S\hookrightarrow C$ of the
+filtration of [sk-lem-coefficient-heart] (3) the restriction $a^*M$ is lisse with vanishing
+stalks, hence zero by [lem-wf-lisse-stalk-vanishing] (2); so every subquotient $a_!(a^*M)$
+of the filtration vanishes, and $M=0$. For lisse
 sheaves on the connected $C$ the stalk at any geometric point is identified with the
 stalk at $\bar\eta$, naturally in the sheaf, by an isomorphism of fibre functors.
 Hence a sequence of lisse Weil sheaves is short exact if and only if the sequence of

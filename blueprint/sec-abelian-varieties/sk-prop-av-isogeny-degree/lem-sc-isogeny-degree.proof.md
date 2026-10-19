@@ -23,6 +23,8 @@ $\dim_{\kappa(y)}\Gamma(f^{-1}(y),\mathcal O)
 =\dim_\Omega\bigl(\mathcal O(K)\otimes_k\Omega\bigr)=d$,
 the length of a finite scheme over a field being unchanged by
 extension of the field.
-By [lem-sc-finite-constant-length-flat], the finite
-surjective morphism $f$ is flat and $f_*\mathcal O_A$ is
-locally free of rank $d$.
+The scheme $B$ is reduced (it is smooth over $k$) and of finite type
+over $k$, hence Jacobson, and the finite morphism $f$ between schemes
+of finite type over $k$ is of finite presentation. By
+[lem-sc-finite-constant-length-flat], $f$ is flat and
+$f_*\mathcal O_A$ is locally free of rank $d$.

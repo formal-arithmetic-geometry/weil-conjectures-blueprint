@@ -3,7 +3,6 @@ id = "lem-fd-kernel-composition"
 kind = "lemma"
 title = "Composition of kernel transforms"
 order = 3056
-lean = ["AlgebraicGeometry.Etale.kernelTransformCompIso"]
 uses = ["def-fd-kernel", "def-fd-transform", "prop-functor-package"]
 +++
 Let $V\to S$, $V^\vee\to S$, $V''\to S$ be separated finite-type

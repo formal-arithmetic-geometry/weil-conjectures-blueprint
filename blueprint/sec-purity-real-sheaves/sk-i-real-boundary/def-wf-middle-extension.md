@@ -2,7 +2,6 @@
 id = "def-wf-middle-extension"
 kind = "definition"
 title = "Middle extension on a curve"
-lean = ["AlgebraicGeometry.Etale.middleExtension"]
 order = 2987
 uses = ["def-weil-pbc-scheme-conventions", "sk-def-sfb-bounded-constructible", "sk-def-sfb-dc-restricted-functors", "sk-lem-coefficient-heart"]
 +++

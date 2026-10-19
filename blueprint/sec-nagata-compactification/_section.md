@@ -9,17 +9,19 @@ qcqs scheme factors as a quasi-compact open immersion followed by a proper
 morphism. The proof starts from a toolkit of admissible blow-ups, strict
 transforms and scheme-theoretic closures [sk-lem-nagata-sketch-blowups],
 [sk-lem-nagata-sketch-closure]. Deligne–Conrad elimination of indeterminacy
-[sk-thm-nagata-sketch-conrad], [sk-lem-nagata-sketch-elimination] extends
+[sk-lem-nagata-sketch-elimination], resting on Zariski's Main Theorem, extends
 partial maps after a blow-up. This yields common modifications and proper
 graph extensions, and it lets one separate boundary closures. With these, two
 compactifiable opens $U_1,U_2$ with dense overlap are prepared so that the
-closure of $V_1\times_U V_2$ meets no bad boundary product
-[sk-prop-nagata-sketch-key-disjointness]. A dense-source valuative criterion
-then makes the glued scheme proper [sk-thm-nagata-sketch-two-open]. Induction
-over a finite affine cover, with ZMT giving compactifiable affine pieces, gives
-the Noetherian case [sk-thm-nagata-sketch-noetherian]. Absolute approximation
-and a separated finite-presentation envelope remove the Noetherian
-hypothesis. Finally the compactifications of $f$ form a cofiltered category,
+closure of $V_1\times_U V_2$ meets no bad boundary product, and a
+dense-source valuative criterion then makes the glued scheme proper
+[sk-thm-nagata-sketch-two-open]. Induction over a finite affine cover, with
+ZMT giving compactifiable affine pieces [sk-lem-nagata-sketch-affine-cover],
+gives the Noetherian case of [sk-thm-nagata-compactification]; absolute
+approximation and a separated finite-presentation envelope remove the
+Noetherian hypothesis. Chow's lemma over a qcqs base
+[sk-thm-chow-projective] follows from the Noetherian one by the same
+approximation. Finally the compactifications of $f$ form a cofiltered category,
 compatible with base change [sk-prop-nagata-sketch-comp-category].
 
 **Key theorem.**
@@ -41,10 +43,11 @@ compatible with base change [sk-prop-nagata-sketch-comp-category].
   an $S$-map $U\to Y$ from a dense quasi-compact open $U\subseteq X$ to a
   proper $Y$ extends to $X'\to Y$ after a $U$-admissible blow-up. Used in
   §[sec-proper-base-change], §[sec-smooth-purity].
-- Prop [sk-prop-nagata-sketch-zmt] (Zariski's Main Theorem): a separated,
-  finite-type, quasi-finite morphism factors as a quasi-compact open immersion
-  followed by a finite morphism, and a quasi-affine scheme over $S$ immerses
-  into some $\mathbb A^n_S$. Used in §[sec-abelian-varieties],
+- Thm [sk-lem-nagata-sketch-elimination] (elimination of indeterminacy), with
+  Zariski's Main Theorem among its ingredients: a separated, finite-type,
+  quasi-finite morphism factors as a quasi-compact open immersion followed by
+  a finite morphism, and a quasi-affine scheme over $S$ immerses into some
+  $\mathbb A^n_S$. Used in §[sec-abelian-varieties],
   §[sec-proper-base-change], §[sec-deligne-laumon-general], §[sec-zeta-weil].
 
 **References.**

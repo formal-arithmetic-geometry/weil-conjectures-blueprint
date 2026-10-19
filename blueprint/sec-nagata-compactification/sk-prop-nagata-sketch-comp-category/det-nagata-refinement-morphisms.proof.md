@@ -18,8 +18,10 @@ restriction of $p'$ to the open $V$, which is separated; hence $g$ is
 separated (if a composite $V\to X\to S$ is separated, so is $V\to X$). A
 section of a separated morphism is a closed immersion, so $j'(X)$ is closed in
 $V$; it is also open. Write $V=j'(X)\sqcup V''$ with $V''$ open and closed in
-$V$. Restricting the injective map $\mathcal O_{\overline X'}\to
-j'_*\mathcal O_X$ (density of $c'$) to the open $V''$ gives an injective map
+$V$. Since $p'\circ j'=f$ is quasi-compact and $p'$ is separated, $j'$ is
+quasi-compact, so density of $c'$ means that $\mathcal O_{\overline X'}\to
+j'_*\mathcal O_X$ is injective. Restricting this injective map to the open
+$V''$ gives an injective map
 $\mathcal O_{V''}\to 0$, because $j'(X)\cap V''=\varnothing$. Hence
 $\mathcal O_{V''}=0$, i.e. $V''=\varnothing$, and $V=j'(X)$.
 

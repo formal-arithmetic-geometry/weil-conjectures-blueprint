@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Integral degreewise form"
 order = 2793
 tags = ["latex:proposition"]
-uses = ["def-weil-finite-coefficient-point", "sk-lem-finite", "sk-prop-scalar-six", "sk-rem-pd-integral-corrections", "thm-pod-derived-poincare-duality"]
+uses = ["def-weil-finite-coefficient-point", "sk-lem-finite", "sk-prop-scalar-six", "thm-pod-derived-poincare-duality"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), let $K\in D^b_{ctf}(X,\mathcal O_E)=\Dbc(X,\mathcal O_E)$, a full subcategory of $D(X_{\mathrm{pro\acute et}},\mathcal O_E)$, be perfect over $\mathcal O_{E,X}$ (the hypothesis of [thm-pod-derived-poincare-duality] at $\Lambda=\mathcal O_E$) and put $K_n=K\otimes ^L_{\mathcal O_{E,X}}A_{E,n}$. Derived perfectness at the $\mathcal O_E$-stage yields the universal-coefficient exact sequences for the cohomology modules
 

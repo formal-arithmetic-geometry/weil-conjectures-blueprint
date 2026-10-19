@@ -4,7 +4,7 @@ of    = "lem-coef-finite-free-extension"
 +++
 The module $\mathcal O_L$ is finite and torsion free over the
 DVR $\mathcal O_E$, hence finite free; reducing a free basis
-modulo $\varpi_E^n$ proves the assertion about $B/A$.
+modulo $\pi_E^n$ proves the assertion about $B/A$.
 The ordinary direct-image projection comparison is an isomorphism
 for a finite free coefficient module by additivity; this is the
 finite-free starting case of [lem-coef-finite-direct-image].
@@ -40,7 +40,7 @@ only pullback, tensor, evaluation, and natural adjunction maps,
 so they are unchanged by transporting along a scheme
 isomorphism. Finally the positive multiples $en$ are cofinal
 among the positive integers, and
-$(\varpi_E^n)\mathcal O_L=(\varpi_L^{en})$. These are exactly
+$(\pi_E^n)\mathcal O_L=(\pi_L^{en})$. These are exactly
 the finite levels needed when reconstructing after scalar extension;
 one does not identify equal numerical indices for the two different
 uniformizers.

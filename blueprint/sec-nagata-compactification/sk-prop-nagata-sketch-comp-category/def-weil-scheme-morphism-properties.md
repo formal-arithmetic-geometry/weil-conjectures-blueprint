@@ -3,6 +3,7 @@ id = "def-weil-scheme-morphism-properties"
 kind = "definition"
 title = "Scheme and morphism properties"
 order = 418
+lean = ["closedPoints", "AlgebraicGeometry.LocallyOfFinitePresentation", "IsRegularRing", "AlgebraicGeometry.IsRegular", "AlgebraicGeometry.Flat", "AlgebraicGeometry.Smooth", "AlgebraicGeometry.IsClosedImmersion", "AlgebraicGeometry.IsSeparated", "AlgebraicGeometry.UniversallyClosed", "AlgebraicGeometry.IsProper", "AlgebraicGeometry.IsOpenImmersion", "AlgebraicGeometry.Scheme.Hom.geometricFiberAt", "AlgebraicGeometry.Scheme.SpecToEquivOfField", "AlgebraicGeometry.WeaklyEtale", "IsLocallyClosed", "Topology.IsConstructible"]
 uses = ["def-weil-finite-type-morphism"]
 +++
 Let $f:X\to Y$ be a morphism. Write $|Y|$ for the set of closed points of
@@ -10,7 +11,7 @@ $Y$, and, for $y\in|Y|$, write $\kappa(y)$ for its residue field. The phrase
 of finite type [def-weil-finite-type-morphism] has the preceding meaning. It
 is *of finite presentation* if every affine open $V\subseteq Y$ has a finite
 affine cover of $f^{-1}(V)$ by $\operatorname{Spec}B$ with $B$ a finitely
-presented algebra over the coordinate ring of $V$. A ring is *regular* if
+presented algebra over the coordinate ring of $V$. A Noetherian ring is *regular* if
 each localization at a prime has Krull dimension equal to the minimal number
 of generators of its maximal ideal; a scheme is regular if all its local
 rings are regular. The morphism $f$ is *flat* if every induced local-ring map
@@ -32,9 +33,12 @@ where $\overline{\kappa(y)}$ is a chosen algebraic closure of $\kappa(y)$. A
 Y$ whose field $\Omega$ is algebraically closed and contains the residue
 field of the image point. A scheme of finite type over a field is one whose
 structure morphism is of finite type. A morphism is *weakly etale* if it is
-flat and its diagonal is flat. A subset of a scheme is *locally closed* if it
+flat and its diagonal is flat. A subset of a scheme $Z$ is *locally closed* if it
 is the intersection of an open and a closed subset, and it is *constructible*
-if it is a finite union of locally closed subsets. A locally closed
+if it is a finite union of subsets $U\cap(Z\setminus V)$ with $U,V\subseteq Z$ open and
+retrocompact (an open $U$ is retrocompact if $U\cap W$ is quasi-compact for every
+quasi-compact open $W$); every constructible subset is a finite union of
+locally closed subsets, and on a Noetherian scheme the converse holds. A locally closed
 constructible subscheme means a subscheme whose underlying subset is locally
 closed and constructible. A sheaf on a locally closed subscheme is locally
 constant if it becomes a constant sheaf after pulling back along a covering

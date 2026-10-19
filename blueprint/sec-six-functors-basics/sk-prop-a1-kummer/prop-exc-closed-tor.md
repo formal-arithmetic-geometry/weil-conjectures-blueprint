@@ -6,7 +6,7 @@ order = 2257
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "lem-exc-closed-support-triangle", "lem-exc-constant-tensor", "lem-exc-direct-image-coproducts", "lem-exc-residue-tor-test"]
 +++
-Let $A=\mathcal O_E/\varpi_E^n$. Let $i:Z\hookrightarrow T$
+Let $A=\mathcal O_E/\pi_E^n$. Let $i:Z\hookrightarrow T$
 be a closed immersion with
 quasi-compact open complement $j$. Suppose $R^qj_*$ vanishes on all module
 sheaves for $q>c$, takes

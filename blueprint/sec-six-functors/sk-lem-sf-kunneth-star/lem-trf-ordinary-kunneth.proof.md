@@ -56,13 +56,13 @@ product.
 
 *Step 2: coefficient transport to $A$.* Let $P$ be the bounded flat
 $A$-model of $L$ given by [lem-sf-flat-model]. Both sides of the
-comparison are exact in $Q$, so the finite $\varpi_E$-adic filtration
-$Q\supseteq\varpi_EQ\supseteq\dots$ of a bounded complex (equivalently, the
-triangles $\varpi_E^{i+1}\mathcal H^q\to\varpi_E^{i}\mathcal H^q\to
-\varpi_E^{i}\mathcal H^q/\varpi_E^{i+1}\mathcal H^q$ on the cohomology
+comparison are exact in $Q$, so the finite $\pi_E$-adic filtration
+$Q\supseteq\pi_EQ\supseteq\dots$ of a bounded complex (equivalently, the
+triangles $\pi_E^{i+1}\mathcal H^q\to\pi_E^{i}\mathcal H^q\to
+\pi_E^{i}\mathcal H^q/\pi_E^{i+1}\mathcal H^q$ on the cohomology
 sheaves, together with the truncation triangles) reduces the assertion to
 the case where $Q$ is a single sheaf of $\kappa$-modules,
-$\kappa=A/(\varpi_E)$. For such $Q$,
+$\kappa=A/(\pi_E)$. For such $Q$,
 $P\otimes_A Q=(P\otimes_A\kappa)\otimes_\kappa Q$ with $P\otimes_A\kappa$ a
 complex of flat $\kappa$-module sheaves, and the comparison for
 $(L,Q)$ over $A$ is the comparison for $(P\otimes_A\kappa,Q)$ over the

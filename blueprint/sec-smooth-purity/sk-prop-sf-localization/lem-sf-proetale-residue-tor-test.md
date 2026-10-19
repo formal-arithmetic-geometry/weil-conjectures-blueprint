@@ -7,7 +7,7 @@ order = 2211
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, an integer
-$n\geq1$ and $A=A_{E,n}$, put $\kappa=A/(\varpi_E)$, let $T$ be a
+$n\geq1$ and $A=A_{E,n}$, put $\kappa=A/(\pi_E)$, let $T$ be a
 scheme on which $\ell$ is invertible, and let
 $K\in D^b_c(T_{\Proet},A)$ be a bounded constructible complex of
 $A$-modules on the small pro-étale site in the intrinsic sense of

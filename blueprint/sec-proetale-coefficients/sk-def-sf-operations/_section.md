@@ -3,7 +3,6 @@ id = "sk-def-sf-operations"
 kind = "definition"
 title = "The six operations: ambient typing"
 order = 870
-lean = ["AlgebraicGeometry.Etale.upperStar", "AlgebraicGeometry.Etale.rightDerivedLowerShriek", "AlgebraicGeometry.Etale.rightDerivedUpperShriek", "AlgebraicGeometry.Etale.derivedTensor", "AlgebraicGeometry.Etale.derivedHom", "AlgebraicGeometry.Etale.openImmersionLowerShriek"]
 tags = ["sketch"]
 +++
 For a separated finite-type $f:X\to Y$ the six operations are the following

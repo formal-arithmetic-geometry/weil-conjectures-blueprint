@@ -1,11 +1,11 @@
 +++
 kind = "proof"
 of = "det-sp-zero-section-cartier"
-uses = ["thm-nagata-blowup-principalizes-center", "lemma-nagata-blowup-proper", "thm-nagata-global-blowup-complement", "thm-weil-pbc-bounded-below", "det-sp-defect-proper-smooth"]
+uses = ["thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-proper", "thm-nagata-global-blowup-complement", "thm-weil-pbc-bounded-below", "det-sp-defect-proper-smooth"]
 +++
 The pullback ideal $I\mathcal O_{X'}$ is invertible on the blow-up
 [thm-nagata-blowup-principalizes-center], so $Z'$ is an effective Cartier divisor (empty components
-cause no problem), and $b$ is proper [lemma-nagata-blowup-proper].
+cause no problem), and $b$ is proper [thm-nagata-global-blowup-proper].
 
 The unit $L\to Rb_*b^*L$ is an isomorphism. Away from $Z$ this holds because $b$ is an isomorphism
 there [thm-nagata-global-blowup-complement]. On $Z$, proper base change

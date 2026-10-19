@@ -13,7 +13,7 @@ actual evaluation maps, since evaluation of a finite-projective
 module is compatible with tensoring the coefficients.
 
 The two-term free resolution
-$[\mathcal O_E\xrightarrow{\varpi_E^n}\mathcal O_E]$
+$[\mathcal O_E\xrightarrow{\pi_E^n}\mathcal O_E]$
 shows that $A_{E,n}$ is perfect over $\mathcal O_E$ ([lem-weil-pbc-standard-quotients-perfect]).
 For internal Hom this gives, without a perfectness assumption on $K$,
 

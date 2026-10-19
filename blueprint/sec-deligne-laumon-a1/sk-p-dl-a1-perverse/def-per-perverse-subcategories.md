@@ -2,7 +2,6 @@
 id = "def-per-perverse-subcategories"
 kind = "definition"
 title = "Perverse subcategories of the first kind"
-lean = ["AlgebraicGeometry.Etale.DerivedCategory.IsPerverseLE", "AlgebraicGeometry.Etale.DerivedCategory.IsPerverseGE", "AlgebraicGeometry.Etale.DerivedCategory.IsPerverseHeartCandidate"]
 order = 3083
 uses = ["def-per-support-condition", "sk-def-sfb-bounded-constructible"]
 +++

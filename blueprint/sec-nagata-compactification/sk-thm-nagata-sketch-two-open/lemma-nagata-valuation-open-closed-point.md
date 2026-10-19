@@ -1,11 +1,10 @@
 +++
 id = "lemma-nagata-valuation-open-closed-point"
 kind = "lemma"
-title = "An open containing the closed point of a valuation spectrum is total"
+title = "An open containing the closed point of a local spectrum is total"
 order = 300
-lean = ["AlgebraicGeometry.TwoOpenSide.KeyDisjoint.avoids"]
-uses = ["def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-key-boundary-disjointness"]
+lean = ["IsLocalRing.closedPoint_mem_iff"]
 +++
-Let $A$ be a valuation ring and let $O\subseteq\operatorname{Spec}(A)$ be
-open. If the closed point $\mathfrak m_A$ belongs to $O$, then
-$O=\operatorname{Spec}(A)$.
+Let $A$ be a local ring with maximal ideal $\mathfrak m_A$ and let
+$O\subseteq\operatorname{Spec}(A)$ be open. Then the closed point
+$\mathfrak m_A$ belongs to $O$ if and only if $O=\operatorname{Spec}(A)$.

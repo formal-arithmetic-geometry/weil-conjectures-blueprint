@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-nagata-blowup-product-ideal"
-uses = ["def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal", "lemma-nagata-cartier-total-transform-blowup", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-invertible-ideal-mul", "lemma-nagata-invertible-product-factor", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
+uses = ["def-nagata-invertible-ideal", "lemma-nagata-cartier-total-transform-blowup", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-invertible-ideal-mul", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
 +++
 Write $p\colon X_{\mathcal I,\mathcal J}\to X$ for the composite and
 $q\colon\operatorname{Bl}_{\mathcal I\mathcal J}(X)\to X$ for the

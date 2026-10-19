@@ -7,7 +7,7 @@ uses = ["def-kun-derived-tensor", "def-kun-tor-amplitude", "def-pur-support-coho
 +++
 Let $k$ be the algebraically closed field of
 [def-weil-finite-field-fiber], put
-$A=\mathcal O_E/\varpi_E^n$, and let $Z\subset X,W\subset Y$
+$A=\mathcal O_E/\pi_E^n$, and let $Z\subset X,W\subset Y$
 be closed subschemes of
 separated finite-type
 $k$-schemes.

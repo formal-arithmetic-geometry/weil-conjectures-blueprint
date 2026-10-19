@@ -2,7 +2,7 @@
 id = "def-sc-jacobian"
 kind = "definition"
 title = "The Jacobian"
-lean = ["AlgebraicGeometry.IsJacobian"]
+lean = ["AlgebraicGeometry.IsJacobian", "AlgebraicGeometry.Scheme.genus_eq_arithmeticGenus"]
 order = 470
 uses = ["def-sc-abelian-variety", "def-sc-general-curve", "def-sc-pic0", "def-sc-picard-functor"]
 +++

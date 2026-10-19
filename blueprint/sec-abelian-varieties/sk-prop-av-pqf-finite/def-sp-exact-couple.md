@@ -62,3 +62,16 @@ The bidegrees are those of the truncation couple of a t-structure
 filtration, with the abutment in total degree $p+q$; they are the convention
 in which the hypercohomology spectral sequence has
 $E_2^{p,q}\Rightarrow\mathcal H^{p+q}$.
+
+More generally, for an abelian group $\kappa$ of indices and degrees
+$a,b,c\in\kappa$, an *exact couple of degrees $(a,b,c)$* consists of
+$\kappa$-graded objects $D=(D^i)$, $E=(E^i)$ and maps
+$\alpha:D^i\to D^{i+a}$, $f:E^i\to D^{i+b}$, $g:D^i\to E^{i+c}$ such that
+the composite of two consecutive structure maps is zero and the three
+sequences above are exact at every index. The same formulas define its
+derived couple, an exact couple of degrees $(a,b,c-a)$, and the spectral
+sequence of the couple starting at a page $r_0$ has as $r$-th page
+($r\geq r_0$) the complex $(E,g\circ f)$ of the $(r-r_0)$-th derived couple.
+The bigraded couples above are the case $\kappa=\mathbb Z^2$,
+$a=(-1,1)$, $b=(2,-1)$, $c=(0,0)$, $r_0=2$; the couple of a filtered complex
+is the case $b=(1,0)$, $r_0=1$.

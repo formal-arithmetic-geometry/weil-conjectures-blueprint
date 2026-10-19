@@ -3,7 +3,6 @@ id = "lem-fd-as-lisse"
 kind = "lemma"
 title = "Multiplicativity of the Artin–Schreier sheaves"
 order = 3029
-lean = ["AlgebraicGeometry.Etale.isLocallyConstantSheaf_artinSchreierSheaf", "AlgebraicGeometry.Etale.artinSchreierSheafAddIso", "AlgebraicGeometry.Etale.artinSchreierSheafZeroIso"]
 uses = ["lem-fd-as-characters"]
 +++
 The sheaf $\mathcal L_{\psi,f}$ is lisse of rank one on $X_0$, and

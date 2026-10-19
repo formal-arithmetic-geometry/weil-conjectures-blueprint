@@ -2,11 +2,13 @@
 id = "def-nagata-spectral-constructible-separation"
 kind = "definition"
 title = "Constructible separation data in a spectral space"
-lean = ["PrespectralSpace.constructibleSeparation", "AlgebraicGeometry.isoNearClosureSeparation"]
+lean = ["PrespectralSpace.constructibleSeparation"]
 order = 260
 uses = ["lemma-nagata-spectral-constructible-separation-exists"]
 +++
-Let $T,T'\subseteq V$ be disjoint closed subsets of a spectral space.
+Let $V$ be a quasi-compact topological space whose quasi-compact open
+subsets form a basis of the topology (for instance a spectral space), and let
+$T,T'\subseteq V$ be disjoint closed subsets.
 Select quasi-compact opens $(W,W')$ from
 [lemma-nagata-spectral-constructible-separation-exists] and define
 

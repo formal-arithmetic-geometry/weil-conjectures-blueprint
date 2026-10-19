@@ -4,7 +4,6 @@ kind = "definition"
 title = "Perfect pairing"
 order = 2392
 uses = ["sk-def-sp-trace"]
-lean = ["AlgebraicGeometry.Etale.poincarePairing", "AlgebraicGeometry.Etale.TateOrientation.poincarePairing", "AlgebraicGeometry.Etale.IsPerfectPairing"]
 tags = ["sketch"]
 +++
 A pairing $P\otimes^{\mathbf L}Q\to\Lambda$ of perfect complexes, a morphism in

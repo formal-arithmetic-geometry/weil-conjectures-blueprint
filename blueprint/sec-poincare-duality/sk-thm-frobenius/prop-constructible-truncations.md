@@ -2,7 +2,7 @@
 id = "prop-constructible-truncations"
 kind = "theorem"
 title = "Construction of constructible truncations"
-lean = ["AlgebraicGeometry.Etale.DerivedCategory.boundedConstructible_truncLE", "AlgebraicGeometry.Etale.DerivedCategory.boundedConstructible_truncGE", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_truncLE", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_truncGE", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_mapDerivedCategory_upperStar", "AlgebraicGeometry.ProEtale.nonempty_truncLE_comp_mapDerivedCategory_upperStar_iso", "AlgebraicGeometry.ProEtale.nonempty_truncGE_comp_mapDerivedCategory_upperStar_iso", "AlgebraicGeometry.ProEtale.nonempty_mapDerivedCategory_upperStar_comp_homologyFunctor_iso"]
+lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_truncLE", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_truncGE", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_mapDerivedCategory_upperStar", "AlgebraicGeometry.ProEtale.nonempty_truncLE_comp_mapDerivedCategory_upperStar_iso", "AlgebraicGeometry.ProEtale.nonempty_truncGE_comp_mapDerivedCategory_upperStar_iso", "AlgebraicGeometry.ProEtale.nonempty_mapDerivedCategory_upperStar_comp_homologyFunctor_iso"]
 order = 2776
 tags = ["latex:proposition"]
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "def-weil-t-structure", "sk-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "sk-prop-sfb-finite-extension-compatibility"]

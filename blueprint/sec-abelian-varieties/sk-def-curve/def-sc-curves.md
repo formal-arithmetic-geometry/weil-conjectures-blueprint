@@ -2,7 +2,7 @@
 id = "def-sc-curves"
 kind = "definition"
 title = "Curves over algebraically closed fields"
-lean = ["AlgebraicGeometry.IsCurve"]
+lean = ["AlgebraicGeometry.IsCurve", "AlgebraicGeometry.IsConnectedCurve", "AlgebraicGeometry.SmoothConnectedCurve"]
 order = 428
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

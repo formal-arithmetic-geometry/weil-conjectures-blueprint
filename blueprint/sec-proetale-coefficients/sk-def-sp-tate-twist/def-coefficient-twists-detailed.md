@@ -2,7 +2,6 @@
 id = "def-coefficient-twists-detailed"
 kind = "definition"
 title = "Coefficient Tate twists"
-lean = ["AlgebraicGeometry.Etale.twistShiftObjIso", "AlgebraicGeometry.Etale.tateTwistObject", "AlgebraicGeometry.Etale.hasTateTwist", "AlgebraicGeometry.Etale.tateSheaf"]
 order = 1864
 uses = ["sk-def-sp-tate-twist", "sk-def-sfb-pulled-back-coefficients", "sk-prop-sfb-qlbar-colimit-x", "def-weil-derived-tensor", "def-weil-pbc-proetale-site"]
 +++

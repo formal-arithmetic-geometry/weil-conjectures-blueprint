@@ -55,7 +55,7 @@ alone. Hence both clauses hold with the constant $2d$ for every finite ring
 $A$ of the stated shape, which is the uniformity assertion. In the global
 finite-field datum one has $k=\Fbar$, separably closed with
 $\operatorname{char}(k)=p$, and $A_{E,n}$ is annihilated by the power
-$\varpi_E^n$ of the prime $\ell\neq p$, so the condition holds at every
+$\pi_E^n$ of the prime $\ell\neq p$, so the condition holds at every
 stage $n\geq1$ with the constant $2d$; for the chart complement
 $W_U$ of the closed subscheme $U\subseteq\mathbf A^{d_U}_V$ of
 [def-sbc-affine-space] the ambient scheme is of dimension

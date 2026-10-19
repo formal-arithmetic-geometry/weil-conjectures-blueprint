@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lem-a1-local-boundary-duality"
-uses = ["def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-wf-tate-twist", "fix-cor-verdier-exchange", "lem-cbc-open-closed-recollement", "lem-fix-weil-operations", "lem-pod-cohomology-of-dual-over-field", "prop-sf-closed-immersion-unit", "prop-sf-closed-unit-all-stages", "prop-sf-localization-all-stages", "prop-sf-open-closed-triangle-all-stages", "prop-weil-open-closed-recollement-adjunctions", "sk-thm-pd-verdier-duality", "sk-thm-purity-transport", "sk-prop-sp-purity-bc"]
+uses = ["def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-wf-tate-twist", "fix-cor-verdier-exchange", "lem-cbc-open-closed-recollement", "lem-fix-weil-operations", "lem-pod-cohomology-of-dual-over-field", "prop-sf-closed-immersion-unit", "prop-sf-closed-unit-all-stages", "prop-sf-localization-all-stages", "prop-sf-open-closed-triangle-all-stages", "prop-weil-open-closed-recollement-adjunctions", "sk-thm-pd-verdier-duality", "sk-thm-purity-transport", "thm-pur-weil-equivariance-of-purity-and-trace"]
 +++
 Work on the geometric curves in $\Dbc(-,\Qlb)$ with the Weil
 structures of [lem-fix-weil-operations]. The Verdier duals are
@@ -87,8 +87,7 @@ purity [sk-thm-purity-transport] in dimension zero gives
 $\omega_Z=\Qlb$, so on the component $\bar s$ the functor
 $\mathbb D_Z$ is $R\operatorname{Hom}_{\Qlb}(-,\Qlb)$ on bounded
 complexes of finite-dimensional spaces. By
-[lem-pod-cohomology-of-dual-over-field] (linear algebra over a field,
-applied to the field $\Qlb$),
+[lem-pod-cohomology-of-dual-over-field] at $\Lambda=\Qlb$,
 
 $$
 H^{-1}\bigl(\mathbb D_ZA(F)\bigr)_{\bar s}
@@ -107,10 +106,14 @@ $(-1)$ in the target.
 direct images, internal Hom, evaluation, adjunction units and counits,
 and exchange maps, all Weil-equivariant by
 [lem-fix-weil-operations], together with the smooth-purity
-orientations. These are Frobenius-equivariant because the purity
-isomorphism is compatible with base change ([sk-prop-sp-purity-bc],
-[sk-thm-purity-transport]), and the geometric Frobenius is induced by
-base change along the Frobenius of $k$. Hence the isomorphism of
+orientations $\omega_U\simeq\Qlb(1)[2]$ and $\omega_Z\simeq\Qlb$. These are
+Frobenius-equivariant by [thm-pur-weil-equivariance-of-purity-and-trace] at
+$\Lambda=\Qlb$, applied to the structure morphisms $U_0\to\Spec k_0$ (smooth of
+relative dimension $1$) and $Z_0\to\Spec k_0$ (smooth of relative dimension $0$, $Z_0$
+being reduced and finite over the perfect field $k_0$), with $K=\Qlb$ and its canonical
+Weil datum: its purity square identifies the Weil structure $\varphi^!$ of
+$\omega=Ra^!\Qlb$ with the twist datum $\tau_1$ on $\Qlb(1)[2]$, resp. with the
+canonical datum on $\Qlb$. Hence the isomorphism of
 Step 4 is one of Weil complexes on $Z_0$, and its stalk at $\bar s$
 commutes with $F_s$; the twists carry their prescribed Frobenius
 actions.

@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-nagata-strict-transform-is-blowup"
-uses = ["def-nagata-dense-compactification", "def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal", "def-nagata-scheme-image-comparison", "def-nagata-strict-transform-blowup-comparison", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "lemma-nagata-strict-transform-over-complement", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-dense-compactification", "def-nagata-invertible-ideal", "def-nagata-scheme-image-comparison", "def-nagata-strict-transform-blowup-comparison", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "lemma-nagata-strict-transform-over-complement", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property", "thm-nagata-global-blowup-complement"]
 +++
 Write $U=X\setminus V(\mathcal I)$ and let
 $\Omega\subseteq Y\times_XX'$ be the open locus over $U$, whose

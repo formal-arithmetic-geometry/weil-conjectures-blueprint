@@ -3,7 +3,7 @@ id = "lemma-nagata-scheme-image-universal"
 kind = "lemma"
 title = "Universal property of the scheme-theoretic image"
 order = 79
-lean = ["AlgebraicGeometry.IsClosedImmersion.lift"]
+lean = ["AlgebraicGeometry.Scheme.Hom.toImage_imageι", "AlgebraicGeometry.IsClosedImmersion.lift_fac", "AlgebraicGeometry.isClosedImmersion_lift", "AlgebraicGeometry.IsClosedImmersion.eq_lift"]
 uses = ["def-nagata-scheme-image-comparison"]
 +++
 The composite of $g^{\mathrm{im}}$ with

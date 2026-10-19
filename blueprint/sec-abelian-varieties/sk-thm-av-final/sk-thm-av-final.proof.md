@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-av-final"
-uses = ["sk-prop-av-isogeny", "sk-prop-av-cube", "sk-prop-av-symmetric-ample", "sk-prop-av-mult-n-pullback", "sk-prop-av-projective", "sk-prop-av-mult-finite", "sk-prop-av-mult-surjective", "sk-prop-av-deg-pullback", "sk-prop-av-finite-etale-points"]
+uses = ["sk-prop-av-isogeny", "sk-prop-av-cube", "sk-prop-av-symmetric-ample", "sk-prop-av-mult-n-pullback", "sk-prop-av-projective", "sk-prop-av-mult-finite", "sk-prop-av-mult-surjective", "sk-prop-av-deg-pullback", "sk-prop-av-finite-etale-points", "sk-prop-av-ntorsion-etale"]
 +++
 *The proposition.* The coherent theorem of the cube
 ([sk-prop-av-cube]) implies, for a symmetric ample invertible sheaf
@@ -22,7 +22,7 @@ the kernel. Properness therefore makes $[n]$ finite
 is all of $B$ ([sk-prop-av-mult-surjective]). Its tangent map at the
 identity is $n\cdot\mathrm{id}$, an isomorphism since $n$ is invertible in
 $k$; translations give the same at every point, so the morphism is étale
-(detailed node `det-av-final-etale`). Finally the intersection formula
+([lem-sc-mult-n-etale-kernel]). Finally the intersection formula
 for a finite map ([sk-prop-av-deg-pullback]) gives
 
 $$

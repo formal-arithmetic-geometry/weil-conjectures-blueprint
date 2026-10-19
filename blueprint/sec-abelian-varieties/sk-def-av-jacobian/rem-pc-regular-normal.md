@@ -2,7 +2,7 @@
 id = "rem-pc-regular-normal"
 kind = "lemma"
 title = "Regular schemes are normal; the normal decomposition"
-lean = ["AlgebraicGeometry.IsRegular.irreducibleSpace", "AlgebraicGeometry.IsRegular.exists_isClopen_isIntegral"]
+lean = ["AlgebraicGeometry.IsRegular.irreducibleSpace", "AlgebraicGeometry.IsRegular.exists_isClopen_isIntegral", "AlgebraicGeometry.IsRegular.isIntegrallyClosed_stalk", "AlgebraicGeometry.Scheme.exists_isClopen_isIntegral_of_isIntegrallyClosed_stalk"]
 order = 465
 uses = ["def-pc-scheme"]
 +++

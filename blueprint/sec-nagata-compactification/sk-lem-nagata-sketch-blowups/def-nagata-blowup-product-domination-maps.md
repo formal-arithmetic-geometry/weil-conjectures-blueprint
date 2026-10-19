@@ -4,7 +4,7 @@ kind = "definition"
 title = "Domination maps from the product blow-up"
 order = 132
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_iso"]
-uses = ["def-nagata-blowup-product-comparison", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "lemma-nagata-cartier-total-transform-blowup", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-invertible-ideal-mul", "lemma-nagata-invertible-product-factor", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
+uses = ["def-nagata-blowup-product-comparison", "def-nagata-invertible-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "lemma-nagata-cartier-total-transform-blowup", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-invertible-ideal-mul", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
 +++
 Define
 

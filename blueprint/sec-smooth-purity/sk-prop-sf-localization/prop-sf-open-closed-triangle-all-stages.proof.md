@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-sf-open-closed-triangle-all-stages"
+uses = ["lem-fin-extension-by-zero"]
 +++
 *The triangle.* The argument is the same for every $\Lambda$. Apply
 [sk-prop-sf-open-closed-triangle] with $B=\Lambda_X=p_X^*\Lambda$. Its inverse
@@ -39,8 +40,11 @@ $\Lambda=E,\Qlb$ one has $D^b_c=D^b_{ctf}$, and $j_!=Rj_!$ preserves
 $D^b_{ctf}$ ([sk-thm-existence], (2)). For $\Lambda=A=A_{E,n}$ use the
 étale comparison of [sk-def-sf-setting]. Write $K\cong\nu_X^*G$ with $G$ a
 bounded constructible complex on the étale site
-([lem-sf-proetale-constructible-origin]); the étale extension by zero of a
-constructible complex is constructible. The comparisons of
+([lem-sf-proetale-constructible-origin]); then $j_!j^{-1}G$ is bounded
+constructible, since $j_!$ is exact and carries the constructible
+cohomology sheaves of $j^{-1}G$ to constructible sheaves
+([lem-fin-extension-by-zero];
+[Tag 095X](https://stacks.math.columbia.edu/tag/095X)). The comparisons of
 [lem-cbc-proetale-extension-zero-comparison] (for $j_!$),
 [lem-weil-pbc-comparison-pullback] (for $j^*,i^*$) and
 [prop-weil-pbc-comparison-direct-image] (for the finite, hence

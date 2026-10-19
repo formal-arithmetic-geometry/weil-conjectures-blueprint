@@ -3,11 +3,11 @@ id = "thm-pod-point-perfectness"
 kind = "theorem"
 title = "Point perfectness of global sections"
 order = 2593
-uses = ["cor-sf-direct-image-ctf-proetale", "def-compact-support-direct-image-detailed", "def-pod-perfect-point-complex", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-ordinary-compact-cohomology", "lem-coef-integral-residue-tor", "lem-trf-finite-tor-amplitude-perfect", "prop-trf-compact-support-perfectness", "sk-def-set", "sk-lem-finite", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
+uses = ["cor-sf-direct-image-ctf-proetale", "def-compact-support-direct-image-detailed", "def-pod-perfect-point-complex", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-ordinary-compact-cohomology", "lem-coef-integral-residue-tor", "lem-trf-finite-tor-amplitude-perfect", "prop-trf-compact-support-perfectness", "sk-def-sf-setting", "sk-lem-finite", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Fix the finite-field datum and the admissible coefficient rings
-$\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$ of the fixed setting
-[sk-def-set], regarded as condensed rings, but let $X_0$ be an arbitrary
+$\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$ of
+[sk-def-sf-setting], regarded as condensed rings, and let $X_0$ be an arbitrary
 separated finite-type $k_0$-scheme: neither properness nor smoothness
 of $X_0$ is assumed. Put $X=X_0\times_{k_0}k$, let
 $a_X:X\to s=\Spec k$ be the structure morphism, and let
@@ -29,7 +29,7 @@ $[a,b]$, then $R\Gamma(X,K)$ and $R\Gamma_c(X,K)$ have Tor amplitude
 in $[a,b+2d]$ and their duals in $[-b-2d,-a]$.
 1. For $\Lambda=\mathcal O_E$ they lie in
 $D^b_{\mathrm{fg}}(\mathcal O_E)$ and are perfect; their reductions
-modulo $\varpi_E^n$ are the corresponding finite-level complexes of the
+modulo $\pi_E^n$ are the corresponding finite-level complexes of the
 reductions $K_n=K\otimes^L_{\mathcal O_{E,X}}A_{E,n}$, and these are
 perfect with one common amplitude independent of $n$.
 1. For $\Lambda=E,\Qlb$ they are bounded with
@@ -37,6 +37,4 @@ finite-dimensional cohomology.
 
 If $X_0$ is proper, the canonical comparison
 $R\Gamma_c(X,K)\xrightarrow{\sim}R\Gamma(X,K)$ of
-[def-weil-ordinary-compact-cohomology] identifies the two cases; in
-particular this applies in the fixed setting of
-[sk-def-set] when $X_0$ is proper.
+[def-weil-ordinary-compact-cohomology] identifies the two cases.

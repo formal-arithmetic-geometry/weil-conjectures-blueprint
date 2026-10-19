@@ -3,6 +3,7 @@ id = "def-sp-spectral-sequence"
 kind = "definition"
 title = "Spectral sequences"
 order = 512
+lean = ["CategoryTheory.SpectralSequence", "CategoryTheory.SpectralSequence.Hom"]
 uses = ["def-sp-abelian"]
 +++
 Let $\mathcal C$ be an abelian category [def-sp-abelian], let $\kappa$ be a

@@ -3,7 +3,7 @@ id = "det-pbc-complete-exchange-map"
 kind = "definition"
 title = "The completed exchange map"
 order = 1401
-uses = ["det-pbc-complete-towers", "det-pbc-complete-tower-calculus", "lemma-weil-pbc-completed-pullback-reduction", "prop-weil-pbc-direct-image-limits", "sk-def-sfb-base-change-morphism", "sk-prop-sfb-module-pullback-exact"]
+uses = ["det-pbc-complete-towers", "det-pbc-complete-tower-calculus", "lemma-weil-pbc-completed-pullback-reduction", "prop-weil-pbc-direct-image-limits", "sk-def-exchange", "sk-prop-sfb-module-pullback-exact"]
 +++
 Consider a cartesian square of schemes
 
@@ -21,9 +21,11 @@ and fix $E/\Ql$ finite.
    $M\in D(X_{\mathrm{proét}},\mathcal O_E)$, the base change morphism
    $\operatorname{Ex}_M\colon g^*Rp_*M\to Rp'_*g'^*M$ is the composite of the unit
    of $p'^*\dashv Rp'_*$, the pullback comparison $p'^*g^*\simeq g'^*p^*$ of the
-   square and the counit of $p^*\dashv Rp_*$, exactly as in
-   [sk-def-sfb-base-change-morphism] but on the full derived categories of
-   $\mathcal O_E$-modules (the module pullbacks are exact,
+   square and the counit of $p^*\dashv Rp_*$; equivalently, the adjoint under
+   $p'^*\dashv Rp'_*$ of the pullback comparison followed by $g'^*$ of the
+   counit. This is the formula of the étale exchange of [sk-def-exchange], here
+   on the full derived categories of $\mathcal O_E$-modules on the pro-étale
+   sites (the module pullbacks are exact,
    [sk-prop-sfb-module-pullback-exact]). The same formula with the levelwise
    functors of [det-pbc-complete-towers] (2) defines
    $\operatorname{Ex}^{\operatorname{Tow}}\colon g^*_{\operatorname{Tow}}Rp^{\operatorname{Tow}}_*

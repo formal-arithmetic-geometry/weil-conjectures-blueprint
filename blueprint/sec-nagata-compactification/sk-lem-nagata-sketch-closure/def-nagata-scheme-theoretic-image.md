@@ -3,7 +3,7 @@ id = "def-nagata-scheme-theoretic-image"
 kind = "definition"
 title = "Scheme-theoretic image"
 order = 73
-lean = ["AlgebraicGeometry.Scheme.Hom.image"]
+lean = ["AlgebraicGeometry.Scheme.Hom.image", "AlgebraicGeometry.IsSchemeTheoreticallyDominant"]
 uses = ["def-weil-pbc-scheme-conventions", "lemma-nagata-scheme-image-ideal-qc"]
 +++
 Let $g\colon T\to Y$ be a morphism of schemes. Its *kernel ideal*

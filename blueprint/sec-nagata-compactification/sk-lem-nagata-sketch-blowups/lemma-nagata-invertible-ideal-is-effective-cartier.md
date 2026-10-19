@@ -4,7 +4,7 @@ kind = "lemma"
 title = "An invertible ideal is effective Cartier"
 order = 107
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.isEffectiveCartierCenter"]
-uses = ["def-nagata-effective-cartier-ideal", "def-nagata-invertible-ideal"]
+uses = ["def-nagata-invertible-ideal"]
 +++
 Let $\mathcal J$ be an invertible ideal on $X$. Then the closed immersion
 $V(\mathcal J)\hookrightarrow X$ is an effective Cartier centre, i.e. it is

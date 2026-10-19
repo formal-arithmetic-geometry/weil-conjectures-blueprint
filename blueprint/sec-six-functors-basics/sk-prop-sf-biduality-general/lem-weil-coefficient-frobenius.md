@@ -2,7 +2,7 @@
 id = "lem-weil-coefficient-frobenius"
 kind = "lemma"
 title = "Coefficient biduality at finite and integral stages"
-lean = ["AlgebraicGeometry.Etale.isDualizable_of_constructibleFiniteTor_of_subsingleton", "AlgebraicGeometry.Etale.isIso_verdierDualDoubleDual_app_id_of_isDualizable", "AlgebraicGeometry.Etale.isIso_verdierDualDoubleDual_app_id_of_subsingleton", "IsDiscreteValuationRing.injective_quotient_pow", "IsDiscreteValuationRing.isReflexive_quotient_pow", "IsDiscreteValuationRing.dual_quotient_eq_zero", "IsDiscreteValuationRing.not_isReflexive_quotient"]
+lean = ["IsDiscreteValuationRing.injective_quotient_pow", "IsDiscreteValuationRing.isReflexive_quotient_pow", "IsDiscreteValuationRing.dual_quotient_eq_zero", "IsDiscreteValuationRing.not_isReflexive_quotient"]
 order = 2464
 uses = ["sk-def-sfb-condensed-ring"]
 +++

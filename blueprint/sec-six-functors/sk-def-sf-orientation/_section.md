@@ -3,7 +3,6 @@ id = "sk-def-sf-orientation"
 kind = "definition"
 title = "Orientation: an interface record"
 order = 2400
-lean = ["AlgebraicGeometry.Etale.Orientation", "AlgebraicGeometry.Etale.Orientation.nonempty_iso_dualizingComplex"]
 tags = ["sketch"]
 +++
 An *orientation* for a smooth separated finite-type $f:X\to Y$ of pure

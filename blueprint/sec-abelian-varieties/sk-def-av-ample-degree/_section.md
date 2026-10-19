@@ -2,14 +2,14 @@
 id = "sk-def-av-ample-degree"
 kind = "definition"
 title = "Ample modules and the Hilbert degree"
-lean = ["AlgebraicGeometry.IsAmple", "AlgebraicGeometry.Scheme.Hom.degree"]
+lean = ["AlgebraicGeometry.IsVeryAmple", "AlgebraicGeometry.IsAmple", "AlgebraicGeometry.Scheme.Hom.degree", "AlgebraicGeometry.Scheme.Hom.exists_polynomial_degree_eq_factorial_mul_coeff"]
 order = 533
 tags = ["sketch"]
 +++
 Let $X$ be a scheme over a field $k$. An $\cO_X$-module $\cM$ is
 *very ample* if it is the pullback of $\cO(1)$ along a closed immersion
-$X\hookrightarrow\mathbf P^N_k$ over $k$, and *ample* if
-$\cM^{\otimes m}$ is very ample for some $m\ge1$. Let $g$ be the Krull
+$X\hookrightarrow\mathbf P^N_k$ over $k$, and *ample* if it is invertible
+and $\cM^{\otimes m}$ is very ample for some $m\ge1$. Let $g$ be the Krull
 dimension of $X$ ($g=0$ if $X$ is empty or infinite-dimensional). The
 *degree of $X$ with respect to $\cM$* is the $g$-th forward difference
 at $0$ of the Hilbert function $m\mapsto \chi(X,\cM^{\otimes m})$:

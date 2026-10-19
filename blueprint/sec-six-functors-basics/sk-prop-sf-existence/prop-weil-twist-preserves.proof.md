@@ -18,5 +18,5 @@ preserves the vanishing interval of the finite Tor amplitude condition of
 [def-weil-finite-tor-amplitude], because $L$ is flat and the
 tensor products with $L$ and with the dual line are mutually inverse.
 The integral and $\Qlb$-twists are obtained from the same statement
-levelwise modulo $\varpi_E^n$ and at the common finite stages,
+levelwise modulo $\pi_E^n$ and at the common finite stages,
 for every coefficient ring.

@@ -6,7 +6,7 @@ Let $P$ be the bounded flat model of $K$ given by the étale clause of
 [lem-sf-flat-model]: $P\cong K$ is a bounded complex of flat
 $A_X$-module sheaves with $P^q=0$ for $q\notin[a,b]$. Its terms
 vanish outside $[a,b]$, so $\mathcal H^q(K)=0$ for $q\notin[a,b]$.
-Put $\kappa=A/(\varpi_E)$, the residue field of the local ring $A$. The
+Put $\kappa=A/(\pi_E)$, the residue field of the local ring $A$. The
 constant sheaf $\kappa_X$ is a sheaf of $A$-modules placed in degree
 zero, so the definition of finite Tor amplitude gives
 
@@ -45,6 +45,6 @@ $$
 and by the spectral-sequence computation this complex has cohomology only
 in $[a,b+N]$. The residue test [lem-exc-residue-tor-test] applies to
 the bounded complex $Rf_*K$, whose cohomology sheaves are constructible,
-and to the residue field $\kappa=A/(\varpi_E)$; it converts the
+and to the residue field $\kappa=A/(\pi_E)$; it converts the
 concentration just proved into finite Tor amplitude of $Rf_*K$ in
 $[a,b+N]$, which is the assertion.
