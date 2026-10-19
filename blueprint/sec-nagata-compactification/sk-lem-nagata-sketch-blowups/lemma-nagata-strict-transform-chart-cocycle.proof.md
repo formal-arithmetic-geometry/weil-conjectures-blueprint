@@ -1,19 +1,18 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-strict-transform-chart-cocycle"
+uses = ["lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-power-torsion-kernel-localization"]
 +++
-On an intersection of the $a$- and $a'$-charts, choose a basic affine
-refinement on which both chart restrictions are defined. The ordinary
-blow-up transition is the specified localization isomorphism; by
-[lemma-nagata-affine-blowup-restrict-cocycle] its two composites on a
-triple refinement agree. Localizing the quotient map
-$C_a\twoheadrightarrow C_a^{\mathrm{st}}$ gives the quotient by the
-localized power-torsion ideal, by
-[lemma-nagata-strict-transform-chart-localization-data]. Thus the
-ordinary transition descends uniquely to a transition of strict-transform
-chart rings. The descended maps agree with the comparisons constructed
-after localization by
-[lemma-nagata-strict-transform-chart-localization]. On a triple
-refinement their two composites become the same ordinary transition before
-quotienting, hence are equal after quotienting. This proves both the
-double-overlap compatibility and the cocycle.
+Let $\Omega\subseteq Y\times_XX'$ be the open part lying over
+$X\setminus V(\mathcal I)$ and put $C=C_a(A,B,I)$. On the chart
+$\operatorname{Spec}(C)$ the preimage of $V(\mathcal I)$ is cut out by
+$IC=aC$ ([lemma-nagata-chart-extended-ideal-principal]), so
+$\Omega\cap\operatorname{Spec}(C)=D(a)$. By
+[lemma-nagata-power-torsion-kernel-localization],
+$\Gamma_{(a)}(C)$ is the kernel of $C\to C_a$, i.e. the ideal of the
+scheme-theoretic closure of the quasi-compact open $D(a)$ in
+$\operatorname{Spec}(C)$. Scheme-theoretic closures of quasi-compact
+opens commute with restriction to opens, so the restriction of
+$\Gamma_{(a)}(C)$ to $W$ is the ideal of the scheme-theoretic closure of
+$\Omega\cap W$ in $W$. The same holds for the chart $c'$, and the two
+restricted ideals coincide.

@@ -2,7 +2,7 @@
 id = "sk-d-ab-tate"
 kind = "definition"
 title = "Integral and rational Tate modules"
-lean = ["AddCommGroup.tateModule", "AddCommGroup.rationalTateModule"]
+lean = ["AddCommGroup.tateModule", "AddCommGroup.rationalTateModule", "AddCommGroup.tateModule.instModule", "AddCommGroup.rationalTateModule.exists_eq_inv_pow_tmul", "AddCommGroup.rationalTateModule.inv_pow_tmul_eq_inv_pow_tmul_iff", "AddCommGroup.tateModule.map", "AddCommGroup.rationalTateModule.map", "AddCommGroup.rationalTateModule.fixedSubmodule", "AlgebraicGeometry.IsAbelianVariety.tateModule", "AlgebraicGeometry.IsAbelianVariety.rationalTateModule"]
 order = 537
 uses = ["sk-d-ab-field"]
 tags = ["sketch"]

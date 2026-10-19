@@ -3,7 +3,6 @@ id = "def-fd-transform"
 kind = "definition"
 title = "The Fourier–Deligne transform"
 order = 3037
-lean = ["AlgebraicGeometry.Etale.fourierTransform"]
 uses = ["def-fd-kernel", "def-weil-pbc-scheme-conventions", "sk-def-sf-setting", "sk-def-sfb-derived-categories", "sk-def-sfb-module-derived-pushpull", "sk-def-sfb-derived-tensor-hom", "sk-def-sfb-module-derived-lower-shriek", "sk-def-sfb-bounded-constructible", "sk-prop-sf-comp-coherence", "sk-prop-ctf-finite-comparison"]
 +++
 Let $\Lambda$, $p$, $\pi:V\to S$, $\pi':V'\to S$, the pairing $b$, the

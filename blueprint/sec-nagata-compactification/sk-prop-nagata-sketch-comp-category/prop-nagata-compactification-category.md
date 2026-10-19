@@ -2,7 +2,7 @@
 id = "prop-nagata-compactification-category"
 kind = "theorem"
 title = "The compactification category is nonempty, cofiltered, and base-changes"
-lean = ["AlgebraicGeometry.Compactification.infBaseChange", "AlgebraicGeometry.Compactification.isIso_infBaseChange_hom"]
+lean = ["AlgebraicGeometry.Compactification.category", "AlgebraicGeometry.Compactification.isCofiltered", "AlgebraicGeometry.Compactification.inf", "AlgebraicGeometry.Compactification.exists_common_refinement_isSchemeTheoreticallyDominant", "AlgebraicGeometry.Compactification.baseChangeFunctor", "AlgebraicGeometry.Compactification.infBaseChange", "AlgebraicGeometry.Compactification.isClosedImmersion_infBaseChange_hom", "AlgebraicGeometry.Compactification.isIso_infBaseChange_hom", "AlgebraicGeometry.Compactification.isSchemeTheoreticallyDominant_i_baseChange"]
 order = 424
 tags = ["latex:proposition"]
 uses = ["def-nagata-compactification", "def-nagata-compactification-base-change", "def-nagata-dense-compactification", "def-nagata-immersion-compactification", "def-nagata-scheme-theoretic-image", "lemma-nagata-compactification-base-change", "lemma-nagata-dense-flat-pullback", "lemma-nagata-immersion-into-proper", "lemma-nagata-immersion-open-in-scheme-image", "lemma-nagata-proper-to-separated-target", "lemma-nagata-scheme-image-universal", "thm-nagata-compactification"]
@@ -11,9 +11,9 @@ Let $S$ be a quasi-compact, quasi-separated scheme and let $f\colon X\to S$
 be separated and of finite type. Let $\operatorname{Comp}(f)$ be the
 category whose objects are the compactifications
 $c=(X\xrightarrow{j}\overline X\xrightarrow{\bar f}S)$ of $f$ in the sense of
-[def-nagata-compactification] ($j$ a quasi-compact open immersion, $\bar f$
-proper, $\bar f\circ j=f$; scheme-theoretic density of $j$ is *not*
-required), and whose morphisms $u\colon c_1\to c_2$, the *refinements*, are
+[def-nagata-compactification] ($j$ an open immersion, automatically
+quasi-compact because $f$ is, $\bar f$ proper, $\bar f\circ j=f$;
+scheme-theoretic density of $j$ is *not* required), and whose morphisms $u\colon c_1\to c_2$, the *refinements*, are
 the proper $S$-morphisms $u\colon\overline X_1\to\overline X_2$ with
 $u\circ j_1=j_2$. Then:
 

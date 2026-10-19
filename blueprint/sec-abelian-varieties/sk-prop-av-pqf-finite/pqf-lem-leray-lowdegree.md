@@ -6,8 +6,8 @@ lean = ["AlgebraicGeometry.Scheme.Modules.exists_leray_lowDegree_exact", "Algebr
 order = 549
 uses = ["pqf-def-cohomology", "pqf-lem-leray"]
 +++
-Let $f:X\to Y$ be a morphism of schemes and $\mathcal F$ a
-quasi-coherent $\mathcal O_X$-module. The low degree terms of the
+Let $f:X\to Y$ be a morphism of schemes and $\mathcal F$ an
+$\mathcal O_X$-module. The low degree terms of the
 spectral sequence of [pqf-lem-leray] give an exact sequence
 
 $$

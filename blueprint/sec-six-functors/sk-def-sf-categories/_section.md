@@ -4,7 +4,6 @@ kind = "definition"
 title = "Ambient categories and small subcategories"
 order = 2397
 uses = ["sk-def-sf-setting", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-derived-categories", "sk-def-sfb-constructible", "sk-def-sfb-bounded-constructible"]
-lean = ["AlgebraicGeometry.Etale.DerivedCategoryFiniteTor"]
 tags = ["sketch"]
 +++
 Fix a scheme $T$ and an admissible coefficient ring

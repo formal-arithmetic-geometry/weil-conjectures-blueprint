@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Etale localization of the ambient adjoint"
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_comp_leftDerivedUpperStar_of_etale"]
 order = 1919
-uses = ["def-amb-etale-compact-support", "def-asd-compactifiable", "def-weil-pbc-derived-categories", "def-weil-scheme-morphism-properties", "lem-amb-etale-compact-comparisons", "thm-amb-etale-exceptional-adjoint"]
+uses = ["def-amb-etale-compact-support", "def-nagata-compactifiable", "def-weil-pbc-derived-categories", "def-weil-scheme-morphism-properties", "lem-amb-etale-compact-comparisons", "thm-amb-etale-exceptional-adjoint"]
 +++
 For a separated etale morphism $u:U\to X$ of finite type,
 $u_!$ is exact and is left adjoint to $u^*$ on the whole

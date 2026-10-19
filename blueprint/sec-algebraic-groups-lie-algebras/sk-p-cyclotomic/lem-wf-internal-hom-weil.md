@@ -2,7 +2,6 @@
 id = "lem-wf-internal-hom-weil"
 kind = "lemma"
 title = "Internal Hom of Weil complexes"
-lean = ["AlgebraicGeometry.Etale.WeilComplex.internalHom"]
 order = 2915
 uses = ["def-wf-internal-hom", "def-weil-weil-sheaf-complex", "lem-wf-tensor-weil"]
 +++

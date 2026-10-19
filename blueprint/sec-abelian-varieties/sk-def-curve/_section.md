@@ -2,7 +2,7 @@
 id = "sk-def-curve"
 kind = "definition"
 title = "Curves and genus"
-lean = ["AlgebraicGeometry.IsCurve", "AlgebraicGeometry.Scheme.Hom.genus"]
+lean = ["AlgebraicGeometry.IsCurve", "AlgebraicGeometry.IsConnectedCurve", "AlgebraicGeometry.Scheme.Hom.genus"]
 order = 528
 tags = ["sketch"]
 +++

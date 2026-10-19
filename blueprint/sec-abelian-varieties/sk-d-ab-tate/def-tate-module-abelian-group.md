@@ -2,7 +2,7 @@
 id = "def-tate-module-abelian-group"
 kind = "definition"
 title = "Tate module of an abelian group"
-lean = ["AddCommGroup.tateModule", "AddCommGroup.rationalTateModule"]
+lean = ["AddCommGroup.tateModule", "AddCommGroup.rationalTateModule", "AddCommGroup.tateModule.instModule", "AddCommGroup.rationalTateModule.exists_eq_inv_pow_tmul", "AddCommGroup.rationalTateModule.inv_pow_tmul_eq_inv_pow_tmul_iff", "AddCommGroup.tateModule.map", "AddCommGroup.rationalTateModule.map", "AddCommGroup.rationalTateModule.fixedSubmodule"]
 order = 474
 +++
 For the prime $\ell$ and an abelian group $M$, put

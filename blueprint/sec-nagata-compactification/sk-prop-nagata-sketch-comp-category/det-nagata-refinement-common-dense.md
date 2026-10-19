@@ -2,9 +2,10 @@
 id = "det-nagata-refinement-common-dense"
 kind = "lemma"
 title = "The closure of the diagonal is a common dense refinement"
+lean = ["AlgebraicGeometry.Compactification.inf", "AlgebraicGeometry.Compactification.refinement_common_dense", "AlgebraicGeometry.Compactification.exists_isDense_isStrict_refinement"]
 uses = ["det-nagata-definition-refinement", "def-nagata-dense-compactification"]
 +++
-Let $S$ be qcqs, let $f:X\to S$ be separated of finite type, and let
+Let $f:X\to S$ be a quasi-compact morphism, and let
 $c_k=(X\xrightarrow{j_k}\overline X_k\xrightarrow{p_k}S)$, $k=1,2$, be
 compactifications of $f$. Let $Z$ be the scheme-theoretic image of
 

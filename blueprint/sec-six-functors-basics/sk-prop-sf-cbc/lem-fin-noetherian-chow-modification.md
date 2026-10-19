@@ -1,13 +1,14 @@
 +++
 id = "lem-fin-noetherian-chow-modification"
 kind = "lemma"
-title = "A projective modification of a reduced proper scheme"
+title = "A projective modification of a proper scheme"
 lean = ["AlgebraicGeometry.exists_projective_modification"]
 order = 1967
-uses = ["cor-chow-lemma-proper", "def-pc-projective-morphism", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-chow-closed-model", "lem-chow-glue", "lem-chow-graph", "lem-chow-preimage", "lemma-nagata-dense-affine-cover-exists", "thm-chow-lemma"]
+uses = ["cor-chow-lemma-proper", "def-pc-projective-morphism", "def-weil-pbc-scheme-conventions", "thm-chow-lemma"]
 +++
-Let $S$ be affine Noetherian and $X\to S$
-proper, with $X$ reduced.
-There are a proper map $\pi:Y\to X$ and a dense open $U\subset X$
-such that $\pi^{-1}(U)\to U$ is an isomorphism and $Y\to S$ is
-projective.
+Let $S$ be a Noetherian scheme and $f:X\to S$ a proper morphism.
+There are a scheme $Y$, a proper surjective morphism $\pi:Y\to X$, a
+dense open $U\subset X$ such that $\pi^{-1}(U)\to U$ is an isomorphism, a
+finite set $N$ and a closed immersion $e:Y\to\mathbf P^N_S$ with $e$
+followed by $\mathbf P^N_S\to S$ equal to $f\circ\pi$. In particular
+$Y\to S$ is projective ([def-pc-projective-morphism]).

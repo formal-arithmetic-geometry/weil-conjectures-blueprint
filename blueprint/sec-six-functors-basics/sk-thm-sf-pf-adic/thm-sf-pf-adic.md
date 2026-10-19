@@ -2,7 +2,6 @@
 id = "thm-sf-pf-adic"
 kind = "theorem"
 title = "Projection formula over $\\mathcal O_E$"
-lean = ["AlgebraicGeometry.Etale.isIso_of_derivedComplete_of_isIso_reductionModIdeal"]
 order = 2440
 uses = ["def-sf-datum", "def-sf-pf", "sk-def-pe-derived-completion", "sk-prop-integral-criterion", "sk-lem-pe-derived-nakayama", "sk-lem-int-tensor", "sk-prop-scalar-six", "thm-sf-pf-finite"]
 +++

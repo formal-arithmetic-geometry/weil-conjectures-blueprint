@@ -2,7 +2,7 @@
 id = "sk-def-av-mult-n"
 kind = "definition"
 title = "Multiplication by $n$ and $n$-torsion"
-lean = ["AlgebraicGeometry.torsionSubgroupScheme"]
+lean = ["AlgebraicGeometry.torsionSubgroupScheme", "AlgebraicGeometry.isClosedSubgroupScheme_torsionSubgroupScheme_ι", "AlgebraicGeometry.torsionByEquiv"]
 order = 532
 tags = ["sketch"]
 +++

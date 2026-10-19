@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Elimination of indeterminacy, [stacks-project]"
 order = 236
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap"]
-uses = ["cor-nagata-blowup-product-common-refinement", "cor-nagata-conrad-proper-target-extension", "def-nagata-admissible-blowup", "def-nagata-elimination-indeterminacy", "def-nagata-global-blowup", "def-nagata-strict-transform", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent"]
+uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-admissible-blowup", "def-nagata-elimination-indeterminacy", "def-nagata-global-blowup", "def-nagata-strict-transform", "lemma-nagata-admissible-blowup-comp", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be qcqs, let $U\subseteq X$ be a quasi-compact open, and let
 $q\colon Z\to X$ be separated and of finite type such that

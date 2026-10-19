@@ -1,9 +1,10 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-scheme-image-universal"
-uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
+uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++
-The factorization equality is `Scheme.Hom.toImage_imageι`.
+The equality $g_{\mathrm{im}}\circ g^{\mathrm{im}}=g$ holds by construction of
+the factor map.
 Let $\mathcal I_Z$ be the ideal of $Z$. From
 $z\circ h=g$ every local section of $\mathcal I_Z$ maps to zero under $g$,
 so $\mathcal I_Z\subseteq\operatorname{ker}(g)$. The induced quotient map

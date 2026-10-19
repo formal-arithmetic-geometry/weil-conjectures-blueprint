@@ -2,7 +2,6 @@
 id = "lem-fix-operation-reduction"
 kind = "lemma"
 title = "Basic operations and coefficient reduction"
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_rightDerivedLowerStar", "AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_derivedHom_of_isSitePerfect", "AlgebraicGeometry.Etale.leftDerivedUpperStarReductionModIdealIso", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerStarReductionModIdealMap_span_pow", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekReductionModIdealMap", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekReductionModIdealMap_span_pow"]
 order = 2228
 uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-site-perfect-complex", "lem-fix-compact-support-coefficient-change", "lem-weil-pbc-standard-quotients-perfect", "lemma-weil-pbc-perfect-projection-formula", "sk-def-pe-derived-completion", "sk-prop-integral-criterion", "sk-def-sfb-coefficient-comparisons", "sk-prop-scalar-six", "det-prop-scalar-six-compact-support"]
 +++

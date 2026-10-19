@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-graph-extension"
-uses = ["def-nagata-admissible-blowup", "def-nagata-compactifiable", "def-nagata-global-blowup", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-closure", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "lem-weil-pbc-closed-immersion-from-composite", "lemma-nagata-admissible-blowup-over-open", "lemma-nagata-blowup-proper", "lemma-nagata-elimination-indeterminacy", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-partial-section", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-compactifiable", "def-nagata-global-blowup", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "lem-weil-pbc-closed-immersion-from-composite", "lemma-nagata-admissible-blowup-over-open", "thm-nagata-global-blowup-proper", "lemma-nagata-elimination-indeterminacy", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-partial-section", "prop-nagata-global-blowup-cover-independent"]
 +++
 **Construction.** Write $u\colon U\to S$ and
 $C=(V\xrightarrow{j}Y\xrightarrow{p}S)$ for the given compactification.

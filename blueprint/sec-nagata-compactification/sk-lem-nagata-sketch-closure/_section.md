@@ -4,10 +4,10 @@ kind = "lemma"
 title = "Schematic closure and uniqueness"
 order = 4
 uses = ["sk-def-nagata-sketch-data"]
-lean = ["AlgebraicGeometry.Scheme.Hom.image", "AlgebraicGeometry.Compactification.ofIsImmersion", "AlgebraicGeometry.Compactification.denseRefinement", "AlgebraicGeometry.Compactification.baseChange"]
+lean = ["AlgebraicGeometry.Scheme.Hom.image", "AlgebraicGeometry.IsImmersion.instIsOpenImmersionToImageOfQuasiCompact", "AlgebraicGeometry.Scheme.Hom.ker_toImage", "AlgebraicGeometry.ext_of_isSchemeTheoreticallyDominant_of_isSeparated'"]
 tags = ["sketch"]
 +++
-Let $i:U\to T$ be a quasi-compact immersion, with $T$ quasi-separated. Its
+Let $i:U\to T$ be a quasi-compact immersion. Its
 scheme-theoretic image $\overline U\subseteq T$ is a closed subscheme,
 $U\to\overline U$ is an open immersion, and $U$ is scheme-theoretically
 dense in $\overline U$.

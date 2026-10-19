@@ -3,6 +3,7 @@ id = "def-pc-geometrically-irreducible"
 kind = "definition"
 title = "Geometric properties"
 order = 462
+lean = ["AlgebraicGeometry.GeometricallyIrreducible", "AlgebraicGeometry.GeometricallyReduced", "AlgebraicGeometry.GeometricallyConnected", "AlgebraicGeometry.GeometricallyIntegral"]
 uses = ["def-pc-base-change", "def-pc-scheme"]
 +++
 Let $k$ be a field and $X$ a scheme over $k$. $X$ is

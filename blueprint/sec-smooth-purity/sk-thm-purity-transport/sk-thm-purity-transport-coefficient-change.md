@@ -2,7 +2,6 @@
 id = "det-sp-purity-coefficient-change"
 kind = "proposition"
 title = "Purity and the smooth trace under change of coefficients"
-lean = ["AlgebraicGeometry.Etale.smoothPurityTrace_comp_eq_of_transition"]
 uses = ["det-sp-integral-adjunction-bijection", "det-sp-integral-direct-image-tower", "det-sp-normalized-equivalence", "det-sp-tower-gamma", "det-sp-tower-gluing", "det-sp-reduction-compatibilities", "det-sp-rational-localized-hom", "det-sp-rational-adjunction", "det-sp-field-extension-towers", "det-sp-qbar-adjunction"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$ and $E/\Ql$ finite.

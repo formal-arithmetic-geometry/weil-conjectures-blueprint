@@ -8,9 +8,9 @@ uses = ["cor-sf-ambient-adjoint-discharge", "def-coefficient-twists-detailed", "
 Fix the purity conventions with its
 explicit ingredients: the global finite-field datum $(p,a,q,k_0,k)$,
 the prime $\ell\neq p$, the finite extension $E/\Ql$ with valuation
-ring $\mathcal O_E$ and uniformizer $\varpi_E$, the integer
+ring $\mathcal O_E$ and uniformizer $\pi_E$, the integer
 $n\geq1$, and the finite coefficient ring
-$A=A_{E,n}=\mathcal O_E/\varpi_E^n$; on the
+$A=A_{E,n}=\mathcal O_E/\pi_E^n$; on the
 small pro-etale site of a
 $k$-scheme $T$, let $D^b_{ctf}(T,\Lambda)$ be the bounded
 [def-weil-finite-torsion-constructibility] constructible

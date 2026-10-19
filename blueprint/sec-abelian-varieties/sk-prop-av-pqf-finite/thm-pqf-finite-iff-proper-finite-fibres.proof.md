@@ -8,7 +8,30 @@ quasi-finite by [pqf-lem-finite-qf]. A quasi-finite morphism has
 finite fibres by [pqf-lem-qf-finitefibres]. Hence $f$ is proper
 with finite fibres.
 
-*(2) $\Rightarrow$ (1).* Assume $f$ is proper with finite fibres.
+*(2) $\Rightarrow$ (1).* Assume $f$ is proper with finite fibres. By
+[pqf-lem-proper-basic], $f$ is separated, universally closed, of finite
+type and quasi-compact, so it is quasi-finite by
+[pqf-lem-qf-finitefibres], hence quasi-finite at every point of $X$ by
+[pqf-lem-qf-locqf-qc]. Finiteness is local on $S$
+([def-weil-pbc-scheme-conventions], [pqf-lem-affine-local-target]), and
+the restriction of $f$ over an open of $S$ is again proper with finite
+fibres, so we may assume $S=\operatorname{Spec}R$ affine; we must show that
+$X$ is affine with $\Gamma(X,\mathcal O_X)$ a finite $R$-module. Since $S$
+is quasi-compact and quasi-separated, Zariski's main theorem
+[thm-pqf-zmt-factorization] factors $f=p\circ j$ with
+$j:X\hookrightarrow T$ an open immersion and $p:T\to S$ finite; then
+$T=\operatorname{Spec}B$ for a finite $R$-algebra $B$, and $p$ is
+separated. The graph $(\mathrm{id}_X,j):X\to X\times_ST$ is a closed
+immersion (a base change of the diagonal of $p$), and the projection
+$X\times_ST\to T$ is closed (a base change of the universally closed $f$),
+so $j(X)$ is open and closed in $\operatorname{Spec}B$. Hence
+$j(X)=D(e)$ for an idempotent $e\in B$, and
+$X\cong\operatorname{Spec}(B/(1-e)B)$ is affine with
+$\Gamma(X,\mathcal O_X)$ a quotient of the finite $R$-module $B$. So $f$ is
+finite.
+
+*The locally Noetherian case without Zariski's main theorem.* If $S$ is
+locally Noetherian, (2) $\Rightarrow$ (1) can also be seen as follows.
 It suffices to prove that $f$ is affine: if $f$ is affine, then $f$ is
 universally closed by [pqf-lem-proper-basic] (it is proper), so
 $f$ is integral by [pqf-lem-integral-univclosed]; since $f$ is
@@ -49,4 +72,4 @@ $\mathrm H^1(S,f_*\mathcal I)=0$. Hence
 $\mathrm H^1(X,\mathcal I)=0$ for every quasi-coherent ideal of finite
 type, and [pqf-lem-serre-criterion] shows that $X$ is affine.
 Since $S$ is affine as well, $f$ is affine by
-[pqf-def-affine-morphism], which finishes the proof.
+[pqf-def-affine-morphism], which finishes this second argument.

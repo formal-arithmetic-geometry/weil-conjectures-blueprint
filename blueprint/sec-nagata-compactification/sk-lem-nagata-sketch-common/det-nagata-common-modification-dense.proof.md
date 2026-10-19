@@ -3,10 +3,11 @@ kind  = "proof"
 of    = "det-nagata-common-modification-dense"
 uses = ["lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-admissible-blowup-preserves-density"]
 +++
-*Step 1: the open is preserved by the modifications.* Each $T_i$ is of
-finite type over the qcqs $S$ and separated, hence qcqs. The blow-up
+*Step 1: the open is preserved by the modifications.* The blow-up
 $\pi_i$ is $j_i(U)$-admissible, so it is an isomorphism over $j_i(U)$ and
-$\pi_i^{-1}(j_i(U))=u_i(U)$, a quasi-compact open of $T_i'$.
+$\pi_i^{-1}(j_i(U))=u_i(U)$. In the situation of the second assertion
+$u_i$ is moreover quasi-compact: $\pi_i\circ u_i=j_i$ is quasi-compact and
+$\pi_i$ is separated, being proper.
 
 *Step 2: density on each chart.* If $j_i(U)$ is dense in $T_i$, the first
 assertion of [lemma-nagata-conrad-dense-in-admissible-blowup] shows that

@@ -1,12 +1,12 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-separate-closed-subschemes"
-uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-extended-ideal", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-blowup-proper", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-extended-ideal-affine-chart", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-affine-blowup-chart", "prop-nagata-rees-graded", "thm-nagata-global-blowup-proper"]
+uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-extended-ideal", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "thm-nagata-global-blowup-proper", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-extended-ideal-affine-chart", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-affine-blowup-chart", "prop-nagata-rees-graded"]
 +++
 Put $\mathcal I=\mathcal I_1+\mathcal I_2$, a finite type quasi-coherent
 ideal, $b\colon X'=\operatorname{Bl}_{\mathcal I}(X)\to X$, and
 $\Omega=X\setminus V(\mathcal I)$. By [def-nagata-strict-transform] and
-[lemma-nagata-strict-transform-closure-characterization], the strict
+[def-nagata-strict-transform], the strict
 transform $\widetilde Z_i$ of $Z_i$ is the scheme-theoretic closure in
 $Z_i\times_XX'$ of the open part $Z_i\times_X\Omega$. Since $X$ is
 quasi-compact and $\mathcal I$ is of finite type, $\Omega$ is quasi-compact;

@@ -2,21 +2,32 @@
 id = "def-nagata-strict-transform-closed-chart-model"
 kind = "definition"
 title = "Closed chart model of the global strict transform"
-lean = ["AlgebraicGeometry.Scheme.IdealSheafData.StrictTransformChart", "AlgebraicGeometry.Scheme.IdealSheafData.StrictTransformChart.\u03b9", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransformChartModel", "AlgebraicGeometry.Scheme.IdealSheafData.comap_strictTransformChartModel"]
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.StrictTransformChart", "AlgebraicGeometry.Scheme.IdealSheafData.StrictTransformChart.ι", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransformChartModel"]
 order = 164
-uses = ["def-nagata-global-blowup", "def-nagata-strict-transform-chart-ring", "lemma-nagata-strict-transform-chart-localization-data"]
+uses = ["def-nagata-global-blowup", "def-nagata-strict-transform-chart-ring"]
 +++
-Let $f\colon Y\to X$, let $\mathcal I$ be a finite-type quasi-coherent
-ideal, and put $X'=\operatorname{Bl}_{\mathcal I}(X)$. Choose an affine
-cover $V_i=\operatorname{Spec}(A_i)$ of $X$, finite generating sets for
-$\mathcal I|_{V_i}$, and affine covers
-$W_{ij}=\operatorname{Spec}(B_{ij})$ of $f^{-1}(V_i)$. Define
-$Y^{\mathrm{st}}_{\mathrm{chart}}$ by gluing the affine schemes
-$\operatorname{Spec}(C_{i,j,a}^{\mathrm{st}})$ and their quotient closed
-immersions into the corresponding affine pieces of $Y\times_XX'$.
-On an overlap, refine to basic opens in the chosen $W_{ij}$ and in the
-blow-up chart. The transition maps are the localizations of
-[lemma-nagata-strict-transform-chart-localization-data]; they preserve
-the quotient ideals and satisfy the double- and triple-overlap identities.
-These maps, together with the affine closed immersions, are the specified
-scheme-glue datum.
+Let $f\colon Y\to X$ be a morphism, let $\mathcal I$ be a quasi-coherent
+ideal on $X$, and put $X'=\operatorname{Bl}_{\mathcal I}(X)$. A *chart
+datum* is a triple $c=(U,V,a)$ consisting of an affine open
+$U=\operatorname{Spec}(A)$ of $X$, an affine open
+$V=\operatorname{Spec}(B)\subseteq f^{-1}(U)$ of $Y$, and an element
+$a\in\mathcal I(U)$; put $I=\mathcal I(U)$. Such a datum gives the open
+immersion
+
+$$
+\iota_c\colon\operatorname{Spec}(C_a(A,B,I))
+=V\times_U\operatorname{Spec}(A[I/a])
+\longrightarrow Y\times_XX'
+$$
+
+of the base change of the $a$-chart of the blow-up, and the closed
+subscheme $\operatorname{Spec}(C_a^{\mathrm{st}}(A,B,I))$ of
+$\operatorname{Spec}(C_a(A,B,I))$, cut out by the ideal
+$\Gamma_{(a)}(C_a(A,B,I))$.
+
+The *chart model* of the strict transform is the quasi-coherent ideal
+$\mathcal J^{\mathrm{st}}_{\mathrm{chart}}\subseteq\mathcal O_{Y\times_XX'}$
+defined as the largest quasi-coherent ideal whose restriction along every
+chart $\iota_c$ is contained in $\Gamma_{(a)}(C_a(A,B,I))$, and
+$Y^{\mathrm{st}}_{\mathrm{chart}}\subseteq Y\times_XX'$ is the closed
+subscheme it defines.

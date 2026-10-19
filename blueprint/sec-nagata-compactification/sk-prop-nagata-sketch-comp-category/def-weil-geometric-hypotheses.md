@@ -3,6 +3,7 @@ id = "def-weil-geometric-hypotheses"
 kind = "definition"
 title = "Geometric hypotheses"
 order = 422
+lean = ["AlgebraicGeometry.SmoothOfRelativeDimension", "AlgebraicGeometry.IsProper", "AlgebraicGeometry.GeometricallyConnected"]
 uses = ["def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 For the global finite-field datum [def-weil-finite-field-fiber]

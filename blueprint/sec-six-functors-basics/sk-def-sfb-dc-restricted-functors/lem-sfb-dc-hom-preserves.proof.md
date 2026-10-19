@@ -5,11 +5,11 @@ uses = ["lem-sfb-dc-lower-star-preserves", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Let first $\Lambda=\underline{\cO}_E$, and use the characterisation of bounded constructible
 complexes recalled in the proof of [lem-sfb-dc-lower-star-preserves]. The complex
-$\RHom(K,L)$ is derived $\varpi$-complete, since $L$ is. Since $K$ is bounded constructible,
-reduction modulo $\varpi$ gives
+$\RHom(K,L)$ is derived $\pi_E$-complete, since $L$ is. Since $K$ is bounded constructible,
+reduction modulo $\pi_E$ gives
 
 $$
-\RHom(K,L)/\varpi\cong\RHom_{\cO_E/\varpi}(K/\varpi,L/\varpi).
+\RHom(K,L)/\pi_E\cong\RHom_{\cO_E/\pi_E}(K/\pi_E,L/\pi_E).
 $$
 
 By Deligne's finiteness theorem for the internal $\RHom$ (SGA 4½, *Th. finitude*, 1.6) on the

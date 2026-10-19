@@ -3,7 +3,6 @@ id = "sk-thm-inversion"
 kind = "theorem"
 title = "P13: invertibility of the transform"
 order = 3059
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_affineFourierTransform_comp_inv", "AlgebraicGeometry.Etale.nonempty_iso_affineFourierTransform_comp_self"]
 uses = ["sk-lem-kernel-composition", "sk-prop-convolution-kernel"]
 tags = ["sketch"]
 +++

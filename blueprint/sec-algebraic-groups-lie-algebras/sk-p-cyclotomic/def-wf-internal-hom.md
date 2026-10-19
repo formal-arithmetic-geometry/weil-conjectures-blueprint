@@ -2,7 +2,6 @@
 id = "def-wf-internal-hom"
 kind = "definition"
 title = "Internal Hom"
-lean = ["AlgebraicGeometry.Etale.WeilComplex.internalHomFrobenius", "AlgebraicGeometry.Etale.DerivedCategoryFiniteTor.derivedHom"]
 order = 2914
 uses = ["def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes", "sk-def-sfb-bounded-constructible", "sk-thm-sf-ctf-stability"]
 +++

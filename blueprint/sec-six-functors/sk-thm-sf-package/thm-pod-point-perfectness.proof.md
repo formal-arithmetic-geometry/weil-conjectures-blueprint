@@ -100,5 +100,4 @@ finite-dimensional total cohomology. This proves the field assertions.
 *Step 4: the proper case.* If $X_0$ is proper, then $a_X$ is proper
 and the comparison $R\Gamma_c(X,K)\to R\Gamma(X,K)$ of
 [def-weil-ordinary-compact-cohomology] is an isomorphism at each
-coefficient ring, compatible with the constructions above; in the setting of
-[sk-def-set] this applies when $X_0$ is in addition proper.
+coefficient ring, compatible with the constructions above.

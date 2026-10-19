@@ -4,7 +4,7 @@ of    = "lem-trf-finite-tor-amplitude-perfect"
 +++
 Write $A=A_{E,n}$ for the finite coefficient ring of
 [def-trf-coefficient-conventions]: it is a local ring with
-maximal ideal $(\varpi_E)$.
+maximal ideal $(\pi_E)$.
 
 *(If.)* Suppose that $C$ is quasi-isomorphic to a bounded
 complex $P^\bullet$ of finite free $A$-modules with $P^i=0$ for
@@ -42,17 +42,17 @@ $C$: $C$ lies in the category $D^b_{\mathrm{fin}}(A)$ of
 [def-trf-categorical-trace].
 
 The finite-Tor-amplitude hypothesis cannot be dropped in the second
-direction: the module $A/(\varpi_E)$, viewed as a complex
+direction: the module $A/(\pi_E)$, viewed as a complex
 concentrated in degree $0$, has finite cohomology modules, while its
 minimal free resolution
 
 $$
-\cdots\to A\xrightarrow{\varpi_E}A\xrightarrow{\varpi_E}A\to
-A/(\varpi_E)\to0
+\cdots\to A\xrightarrow{\pi_E}A\xrightarrow{\pi_E}A\to
+A/(\pi_E)\to0
 $$
 
-is infinite, so that $\operatorname{Tor}_i^A(A/(\varpi_E), A/(\varpi_E))\cong A/(\varpi_E)\neq0$ for all $i\geq0$ and
-$A/(\varpi_E)$ is not quasi-isomorphic to a bounded complex of
+is infinite, so that $\operatorname{Tor}_i^A(A/(\pi_E), A/(\pi_E))\cong A/(\pi_E)\neq0$ for all $i\geq0$ and
+$A/(\pi_E)$ is not quasi-isomorphic to a bounded complex of
 finite free $A$-modules.
 
 *Recorded in advance* from chapter *The trace formula* of the source.

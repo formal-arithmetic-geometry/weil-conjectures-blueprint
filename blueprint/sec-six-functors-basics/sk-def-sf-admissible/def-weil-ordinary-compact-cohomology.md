@@ -9,7 +9,7 @@ Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, where
 $q=p^a$, and a prime $\ell\neq p$. Write $\Ql=\mathbf Q_\ell$, choose an
 algebraic closure $\Qlb$ of $\Ql$, and choose a finite extension $E/\Ql$
 contained in $\Qlb$, with valuation ring $\mathcal O_E$, uniformizer
-$\varpi_E$, and $n\geq1$. Put $A_{E,n}=\mathcal O_E/\varpi_E^n$ and
+$\pi_E$, and $n\geq1$. Put $A_{E,n}=\mathcal O_E/\pi_E^n$ and
 $\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, each regarded as a condensed
 ring, and let $D^b_c(-,\Lambda)$ be the condensed bounded constructible
 category ([sk-def-sfb-bounded-constructible]). Let $Y$ be a separated

@@ -2,6 +2,7 @@
 id = "thm-lisse-qlbar-representations"
 kind = "theorem"
 title = "Lisse $\\overline{\\mathbf Q}_\\ell$-sheaves and continuous representations"
+lean = ["AlgebraicGeometry.ProEtale.exists_lisseMonodromy"]
 order = 2772
 uses = ["cor-galois-lisse-representations", "def-galois-fibre-functor", "thm-galois-fundamental", "sk-def-sfb-constructible", "sk-def-sfb-module-pushforward-pullback", "sk-prop-pe-condensed-point", "sk-prop-pe-finite-local-systems", "sk-prop-sfb-qlbar-colimit-x", "sk-lem-stratified-lattice", "det-lem-stratified-lattice-rank", "det-lem-stratified-lattice-scheme", "sk-thm-sfb-qlbar-two-colimit", "det-lem-coefficient-finite-descent-lisse", "det-lem-coefficient-finite-descent-sections"]
 +++
@@ -26,12 +27,12 @@ finite-dimensional $\Qlb$-vector space $V$ is *defined over* $E$ if there is
 a $\pi_1$-stable $E$-subspace $V_E$ with $\Qlb\otimes_EV_E=V$ on which
 $\pi_1$ acts continuously for the $\ell$-adic topology.
 
-**Theorem.** Let $X$ be connected and normal. Then every lisse
+**Theorem.** Let $X$ be connected and regular. Then every lisse
 $\QbarX$-module is integral, and $L\mapsto L_{\bar x}$, with the action of
 $\pi_1$ of (1)–(3) below, is an equivalence between lisse $\QbarX$-modules
-and continuous finite-dimensional $\Qlb$-representations of $\pi_1$ that are
-defined over some finite $E$. It is compatible with tensor products and with
-extension of scalars along $E\subset F\subset\Qlb$.
+and continuous finite-dimensional $\Qlb$-representations of $\pi_1$; each of
+these representations is defined over some finite $E$. It is compatible with
+tensor products and with extension of scalars along $E\subset F\subset\Qlb$.
 
 More precisely, for every connected Noetherian $X$:
 
@@ -58,7 +59,13 @@ More precisely, for every connected Noetherian $X$:
    $\Qlb$-representations of $\pi_1$ defined over some finite $E$.
 4. *Normality.* If $X$ is normal, every lisse $E_X$-module has a lattice, so
    every lisse $E_X$-module and every lisse $\QbarX$-module is integral, and
-   (2), (3) apply to all of them. This gives the theorem.
+   (2), (3) apply to all of them. A regular $X$ is normal.
+5. *Fields of definition.* Every continuous finite-dimensional
+   $\Qlb$-representation of the profinite group $\pi_1$ is defined over some
+   finite $E$.
+
+By (3), (4) and (5) the conclusion of the theorem holds more generally for
+every connected normal $X$.
 
 Without normality (4) fails: the rank-one lisse module on the nodal curve
 of [sk-lem-stratified-lattice] has no lattice, so it lies outside (2) and

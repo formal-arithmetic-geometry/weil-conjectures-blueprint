@@ -3,6 +3,7 @@ id = "pqf-lem-going-up"
 kind = "lemma"
 title = "Going up for an integral extension"
 order = 539
+lean = ["Ideal.exists_ideal_over_prime_of_isIntegral_of_isPrime"]
 uses = ["pqf-lem-lying-over"]
 +++
 Let $A\to B$ be integral, let

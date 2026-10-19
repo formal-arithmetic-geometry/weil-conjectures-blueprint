@@ -3,10 +3,13 @@ id = "thm-sp-grothendieck"
 kind = "theorem"
 title = "Grothendieck spectral sequence"
 order = 530
-uses = ["def-sp-composite-acyclicity", "def-sp-convergence", "def-sp-double-complex-total", "def-sp-exact-couple", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "lem-sp-edge-collapse", "thm-sp-double-complex-spectral-sequences", "thm-sp-if-e1"]
+lean = ["CategoryTheory.Functor.exists_grothendieckSpectralSequence", "CategoryTheory.Functor.grothendieckSpectralSequence", "CategoryTheory.Functor.nonempty_grothendieckSpectralSequence_page_two_iso", "CategoryTheory.Functor.grothendieckSpectralSequence_abutsTo", "CategoryTheory.Functor.grothendieckSpectralObjectFunctor", "CategoryTheory.Functor.grothendieckBottomEdgeMap", "CategoryTheory.Functor.grothendieckLeftEdgeMap"]
+uses = ["def-sp-composite-acyclicity", "def-sp-convergence", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "def-sp-truncation-couple", "lem-sp-couple-morphism", "lem-sp-edge-collapse", "lem-sp-kinjective-computes", "thm-sp-half-plane-convergence", "thm-sp-if-e1"]
 +++
-Let $(F,G)$ be a composable pair [def-sp-composite-acyclicity] with $F$
-sending injectives to $G$-acyclics. For every $X\in\mathcal A$ there is a
+Let $\mathcal A\xrightarrow{F}\mathcal B\xrightarrow{G}\mathcal C$ be left
+exact additive functors with $\mathcal A$, $\mathcal B$ Grothendieck abelian
+and $\mathcal C$ abelian, such that $F$ sends injectives to $G$-acyclics (as
+for a composable pair [def-sp-composite-acyclicity]). For every $X\in\mathcal A$ there is a
 functorial first-quadrant spectral sequence whose $E_2$-page is
 
 $$

@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Nagata compactification"
 order = 3
 uses = ["sk-lem-nagata-sketch-closure", "sk-def-nagata-sketch-data"]
-lean = ["AlgebraicGeometry.NagataCompactification"]
+lean = ["AlgebraicGeometry.exists_isDense_compactification", "AlgebraicGeometry.denseCompactification"]
 tags = ["sketch"]
 +++
 Let $S$ be quasi-compact and quasi-separated. Every separated morphism

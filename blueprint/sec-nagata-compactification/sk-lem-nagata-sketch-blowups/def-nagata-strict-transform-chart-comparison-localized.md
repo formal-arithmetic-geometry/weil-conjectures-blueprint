@@ -6,7 +6,19 @@ lean = ["AlgebraicGeometry.AffineBlowup.strictChartComparisonAway"]
 order = 160
 uses = ["def-nagata-strict-transform-chart-comparison"]
 +++
-After localizing the base ring or a chart ring, define
-$(\overline\sigma_a)_s$ by localizing the source and target of
-$\overline\sigma_a$ and transporting along the canonical tensor-product
-and iterated-localization associativity maps.
+Let $s\in B$ and let $b'$ be the image of $a$ in $B_s$. The composite
+
+$$
+C_a^{\mathrm{st}}(A,B,I)\xrightarrow{\ \overline\sigma_a\ }B[IB/b]
+\subseteq B_b\longrightarrow(B_s)_{b'}
+$$
+
+sends $s$ to a unit. Define
+
+$$
+(\overline\sigma_a)_s\colon
+C_a^{\mathrm{st}}(A,B,I)_s\longrightarrow(B_s)_{b'}
+$$
+
+to be the ring map induced from it by the universal property of the
+localization at $s$.

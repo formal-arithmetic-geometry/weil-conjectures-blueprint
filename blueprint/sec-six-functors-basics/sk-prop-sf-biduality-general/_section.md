@@ -4,7 +4,6 @@ kind = "proposition"
 title = "General Verdier biduality"
 order = 1711
 uses = ["sk-def-sf-operations", "sk-prop-sf-rf-shriek-preservation"]
-lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_verdierDual", "AlgebraicGeometry.Etale.nonempty_iso_verdierDual_verdierDual"]
 tags = ["sketch"]
 +++
 Let $Y$ be a separated finite-type $k$-scheme and let $\Lambda$ be a

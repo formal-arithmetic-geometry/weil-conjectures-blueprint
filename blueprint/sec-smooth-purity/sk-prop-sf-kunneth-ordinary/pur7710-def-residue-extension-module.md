@@ -5,4 +5,4 @@ title = "Residue scalar extension of module complexes"
 order = 1997
 uses = ["pur7710-def-residue-extension"]
 +++
-With $\rho$ as in Definition [pur7710-def-residue-extension], the functor $-\otimes^L_{\mathcal O_E/\varpi^n}\mathcal O_E/\varpi:D(\mathsf{Mod}_{\mathcal O_E/\varpi^n})\to D(\mathsf{Mod}_{\mathcal O_E/\varpi})$ is the total left derived functor, computed on K-flat resolutions of complexes of $\mathcal O_E/\varpi^n$-modules, of $M\mapsto\mathcal O_E/\varpi\otimes_{\mathcal O_E/\varpi^n}M$.
+With $\rho$ as in Definition [pur7710-def-residue-extension], the functor $-\otimes^L_{\mathcal O_E/\pi_E^n}\mathcal O_E/\pi_E:D(\mathsf{Mod}_{\mathcal O_E/\pi_E^n})\to D(\mathsf{Mod}_{\mathcal O_E/\pi_E})$ is the total left derived functor, computed on K-flat resolutions of complexes of $\mathcal O_E/\pi_E^n$-modules, of $M\mapsto\mathcal O_E/\pi_E\otimes_{\mathcal O_E/\pi_E^n}M$.

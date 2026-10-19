@@ -10,7 +10,7 @@ Schemes, Section 39.9, [Tag 0BF9](https://stacks.math.columbia.edu/tag/0BF9) –
 [Tag 0BFE](https://stacks.math.columbia.edu/tag/0BFE) and [Tag 0BFF](https://stacks.math.columbia.edu/tag/0BFF) (the theorem of the cube for abelian varieties,
 recorded as [thm-sc-theorem-of-cube]; see also More on Morphisms, Theorem 37.33.8, [Tag 0BF4](https://stacks.math.columbia.edu/tag/0BF4)), Lemma
 39.9.8, [Tag 0BFG](https://stacks.math.columbia.edu/tag/0BFG) ($[d]$ is finite locally free of degree
-$d^{2\dim A}$, recorded as [lem-sc-mult-n-finite-flat]), and Proposition 39.9.11, [Tag 03RP](https://stacks.math.columbia.edu/tag/03RP); cf. the
+$d^{2\dim A}$), and Proposition 39.9.11, [Tag 03RP](https://stacks.math.columbia.edu/tag/03RP); cf. the
 classical treatments of Mumford and Milne*.
 
 **Reduction to $k$ algebraically closed.** Let $\bar k$ be an algebraic
@@ -38,7 +38,7 @@ finite scheme $A[n]$, hence all have the same length, so
 $[n]_*\mathcal O_A$ is locally free of rank $\deg([n])$. Thus
 $[n]$ is finite flat and surjective.
 
-It remains to compute the degree. We follow the classical argument of [lem-sc-mult-n-finite-flat]. By
+It remains to compute the degree. We follow the classical argument of Stacks Project, Lemma 39.9.8. By
 [lem-sc-abelian-variety-projective] $A$ is projective, so
 it carries an ample line bundle, and for any ample $\mathcal L$
 the module $\mathcal N:=\mathcal L\otimes[-1]^*\mathcal L$ is
@@ -74,6 +74,7 @@ $\deg([n])=n^{2g}$ (using
 $\deg_{\mathcal N}(A)\neq0$: for an ample $\mathcal M$ on a
 proper $g$-dimensional variety over $k$, $\deg_{\mathcal M}(X)>0$, *reference: Stacks Project, Varieties, Lemma
 33.45.9, [Tag 0BEV](https://stacks.math.columbia.edu/tag/0BEV)*). This
-gives (a), and (b) is immediate from
+gives (a) (with $[n]_*\mathcal O_A$ locally free of rank
+$\deg([n])=n^{2g}$), and (b) is immediate from
 the definition of the kernel ([def-sc-mult-n]) and the
 finiteness statement.

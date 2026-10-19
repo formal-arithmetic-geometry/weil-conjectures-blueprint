@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Finite pushforward preserves upper weights"
 lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerStar_of_isFinite", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerStar_of_isClosedImmersion"]
 order = 3133
-uses = ["def-weil-complex-weights", "sk-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes", "sk-lem-coefficient-heart", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "sk-thm-sfb-proper-base-change", "sk-thm-sf-ctf-stability", "sk-prop-pe-condensed-point", "sk-cor-pe-wc-sections", "prop-functor-package"]
+uses = ["def-weil-complex-weights", "sk-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes", "def-weil-pbc-scheme-conventions", "prop-functor-package"]
 +++
 If $g:Z_0\to Y_0$ is finite and
 $K\in D_{\le w}(Z_0)$ is a Weil complex with underlying object in

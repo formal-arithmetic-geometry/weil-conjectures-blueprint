@@ -3,6 +3,7 @@ id = "def-sp-left-exact-additive"
 kind = "definition"
 title = "Additive left exact functors and right derived functors"
 order = 507
+lean = ["CategoryTheory.Functor.Additive", "CategoryTheory.Functor.rightDerived", "CategoryTheory.InjectiveResolution.isoRightDerivedObj", "CategoryTheory.Functor.rightDerivedZeroIsoSelf"]
 uses = ["def-sp-abelian", "def-sp-injective-resolutions"]
 +++
 Let $\mathcal A,\mathcal B$ be abelian categories [def-sp-abelian]. A functor

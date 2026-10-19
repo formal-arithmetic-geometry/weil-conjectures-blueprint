@@ -11,7 +11,7 @@ using the point identification of
 [def-weil-finite-coefficient-point]. This assertion alone does
 not give perfectness over the finite local ring $A$.
 
-Put $\kappa=A/(\varpi_E)$. The narrow coefficient-change result
+Put $\kappa=A/(\pi_E)$. The narrow coefficient-change result
 [lem-fix-compact-support-coefficient-change], applied to
 $A_{E,n}\to A_{E,1}=\kappa$, identifies
 

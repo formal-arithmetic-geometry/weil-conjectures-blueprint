@@ -2,7 +2,7 @@
 id = "def-pc-base-change"
 kind = "definition"
 title = "Base change along $T$, geometric fibres"
-lean = ["AlgebraicGeometry.Scheme.baseChangeField"]
+lean = ["CategoryTheory.Over.pullback", "AlgebraicGeometry.Scheme.Modules.moduleBaseChange", "AlgebraicGeometry.Scheme.Hom.fiber", "AlgebraicGeometry.Scheme.Hom.geometricFiberAt", "AlgebraicGeometry.sectionBaseChange", "AlgebraicGeometry.Scheme.baseChangeField"]
 order = 420
 uses = ["def-pc-morphism-conventions", "def-pc-scheme"]
 +++

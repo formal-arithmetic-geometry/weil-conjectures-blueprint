@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-cor-nagata-sketch-proper-extension"
-uses = ["sk-thm-nagata-sketch-conrad", "sk-lem-nagata-boundary-divisor", "sk-lem-nagata-sketch-elimination", "sk-lem-nagata-sketch-blowups", "sk-lem-nagata-sketch-closure"]
+uses = ["sk-lem-nagata-sketch-elimination", "sk-lem-nagata-boundary-divisor", "sk-lem-nagata-sketch-blowups", "sk-lem-nagata-sketch-closure"]
 +++
 Take the schematic closure $G$ of the graph of $a$ in $T\times_SY$
 ([sk-lem-nagata-sketch-closure]). The projection $G\to T$ is proper, since
@@ -17,4 +17,4 @@ $T'$, and its map to $Y$ is the desired extension.
 single admissible blow-up.
 
 (Equivalently, one may apply the partial-section extension
-[sk-thm-nagata-sketch-conrad] to the section of $Y\times_ST\to T$ over $U$.)
+[thm-nagata-conrad-elimination] to the section of $Y\times_ST\to T$ over $U$.)

@@ -2,14 +2,14 @@
 id = "def-sc-general-curve"
 kind = "definition"
 title = "Curves over an arbitrary field"
-lean = ["AlgebraicGeometry.IsSmoothProjectiveCurve.finiteDimensional_H_one", "AlgebraicGeometry.IsSmoothProjectiveCurve.arithmeticGenus_baseChangeField", "AlgebraicGeometry.IsSmoothProjectiveCurve.isConnectedCurve_baseChangeField"]
+lean = ["AlgebraicGeometry.IsSmoothProjectiveCurve.finiteDimensional_H_one", "AlgebraicGeometry.IsSmoothProjectiveCurve.arithmeticGenus_baseChangeField", "AlgebraicGeometry.IsSmoothProjectiveCurve.isConnectedCurve_baseChangeField", "AlgebraicGeometry.IsSmoothProjectiveCurve.genus_baseChangeField", "AlgebraicGeometry.Scheme.arithmeticGenus"]
 order = 469
 uses = ["def-pc-base-change", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-curves", "def-sc-genus", "def-sc-pic0"]
 +++
 Let $k$ be a field. A *geometrically integral smooth projective curve
-over $k$* is a scheme $C$ over $k$ which is
-smooth and projective over $k$
-and geometrically integral over
+over $k$* is a smooth projective curve $C$ over $k$
+([def-pc-smooth-projective-curve]), in particular integral of
+dimension one, which is geometrically integral over
 $k$. Its *genus* is
 
 $$

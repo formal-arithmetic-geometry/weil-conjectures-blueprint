@@ -6,6 +6,12 @@ lean = ["Ideal.range_powLiftBaseChange", "Ideal.injective_powLiftBaseChange_of_f
 order = 121
 uses = ["def-nagata-extended-ideal"]
 +++
-Let $\mathcal I\subseteq\mathcal O_X$ be a quasi-coherent ideal. If
-$g\colon Y\to X$ is flat, then the image of $g^*(\mathcal I^n)$ in
-$\mathcal O_Y$ is $(\mathcal I\mathcal O_Y)^n$ for every $n$.
+Let $A\to B$ be a ring map, let $I\subseteq A$ be an ideal and let
+$n\geq0$. The image of the $B$-linear map
+
+$$
+B\otimes_A I^n\longrightarrow B,\qquad b\otimes x\longmapsto bx,
+$$
+
+is $(IB)^n$. If $B$ is flat over $A$, this map is injective, so
+$B\otimes_A I^n\cong(IB)^n$.

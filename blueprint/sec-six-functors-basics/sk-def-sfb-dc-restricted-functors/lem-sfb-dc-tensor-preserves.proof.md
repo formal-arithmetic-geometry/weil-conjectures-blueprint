@@ -7,14 +7,14 @@ Let first $\Lambda=\underline{\cO}_E$, and use the characterisation of bounded c
 complexes recalled in the proof of [lem-sfb-dc-lower-star-preserves]. Since $\cO_E$ is a
 discrete valuation ring, bounded complexes of $\cO_E$-modules have finite Tor-amplitude, so
 $K\otimes^{\mathrm L}L$ is bounded. For $K$ and $L$ bounded constructible it is derived
-$\varpi$-complete (Bhatt–Scholze, §6.8), and its reduction is
+$\pi_E$-complete (Bhatt–Scholze, §6.8), and its reduction is
 
 $$
-(K\otimes^{\mathrm L}L)/\varpi\cong(K/\varpi)\otimes^{\mathrm L}_{\cO_E/\varpi}(L/\varpi).
+(K\otimes^{\mathrm L}L)/\pi_E\cong(K/\pi_E)\otimes^{\mathrm L}_{\cO_E/\pi_E}(L/\pi_E).
 $$
 
 This is a derived tensor product of bounded constructible étale complexes over the field
-$\cO_E/\varpi$, hence bounded with constructible cohomology. The cases $\underline E$ and
+$\cO_E/\pi_E$, hence bounded with constructible cohomology. The cases $\underline E$ and
 $\underline{\Qlb}$ follow by inverting $\ell$ and by descending to a finite extension $E$
 ([sk-thm-sfb-qlbar-two-colimit]), as in
 [lem-sfb-dc-lower-star-preserves].

@@ -4,7 +4,6 @@ kind = "proposition"
 title = "The six functors on $\\Dctf$"
 order = 1575
 uses = ["sk-cor-sf-direct-image-ctf", "sk-def-sf-operations", "sk-def-sf-setting", "sk-prop-sf-comparison", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-hom-ctf", "sk-prop-sf-existence", "sk-thm-existence"]
-lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_leftDerivedUpperStar", "AlgebraicGeometry.Etale.constructibleFiniteTor_tensor", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerStar", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.constructibleFiniteTor_rightDerivedUpperShriek"]
 tags = ["sketch"]
 +++
 For every admissible $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\Qlb\}$, the

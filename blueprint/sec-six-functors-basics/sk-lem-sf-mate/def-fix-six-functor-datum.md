@@ -8,7 +8,7 @@ uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", 
 Fix the global finite-field datum
 $(p,a,q,k_0,k)$, a prime $\ell\neq p$, a finite extension
 $E/\Ql$ with valuation ring $\mathcal O_E$ and uniformizer
-$\varpi_E$, and $n\in\mathbf Z_{\geq1}$; put
+$\pi_E$, and $n\in\mathbf Z_{\geq1}$; put
 $A=A_{E,n}$ and $\Lambda\in\{A,\mathcal O_E,E,\Qlb\}$. The rings
 $\mathcal O_E,E,\Qlb$ are regarded as condensed rings, and
 $D^b_c(-,\Lambda)$ is the condensed bounded constructible category

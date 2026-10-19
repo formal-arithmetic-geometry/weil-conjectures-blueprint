@@ -19,7 +19,7 @@ $$
 
 Taking $N=\Lambda$ also gives $H^r(C)=0$ outside $[a,b]$.
 
-The ring $\Lambda=\mathcal O_E/\varpi_E^n$ is Noetherian and local.
+The ring $\Lambda=\mathcal O_E/\pi_E^n$ is Noetherian and local.
 Construct a bounded-above finite-free resolution $P^\bullet\to C$
 with $P^r=0$ for $r>b$. The construction proceeds downwards:
 choose finitely many generators of the highest cohomology, lift

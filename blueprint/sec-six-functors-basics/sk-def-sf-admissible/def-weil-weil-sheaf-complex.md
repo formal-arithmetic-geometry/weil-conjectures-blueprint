@@ -4,7 +4,7 @@ kind = "definition"
 title = "Weil sheaf and Weil complex"
 lean = ["AlgebraicGeometry.WeilSheaf", "AlgebraicGeometry.WeilComplex"]
 order = 1866
-uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-pbc-proetale-site", "sk-def-sfb-condensed-ring", "sk-def-sfb-qlbar-condensed", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-derived-categories", "sk-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "sk-cor-coefficient-heart-ii", "sk-thm-sfb-qlbar-two-colimit"]
+uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-pbc-proetale-site", "sk-def-sfb-condensed-ring", "sk-def-sfb-qlbar-condensed", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-derived-categories", "sk-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "sk-cor-coefficient-heart-ii"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, where
 $q=p^a$, and a prime $\ell\neq p$. Choose an algebraic closure $\Qlb$ of
@@ -76,24 +76,44 @@ $$
 natural in $K$ and compatible with shifts and distinguished triangles. Thus
 every Weil complex gives a pair $(\operatorname{For}(K),\theta_K)$ consisting
 of an object of the condensed category $\Dbc(Y,\Lambda)$ and an isomorphism
-$Lg_Y^*\operatorname{For}(K)\cong\operatorname{For}(K)$. Where only such a pair
-is used (traces of Frobenius on stalks and on cohomology, weights, equivariant
-maps), a pair $(K,\theta)$ with $K\in\Dbc(Y,\Lambda)$ and
-$\theta:Lg_Y^*K\xrightarrow{\sim}K$ is also called a Weil complex. For $K$ in
-the heart the two notions agree: a pair $(\mathcal F,\theta)$ with
-$\mathcal F\in\Sh_c(Y,\Lambda)$ is exactly a Weil sheaf, since morphisms in
-the heart are morphisms of sheaves.
+$Lg_Y^*\operatorname{For}(K)\cong\operatorname{For}(K)$.
+
+**Strict Weil complexes.** A pair $(K,\theta)$ with $K\in\Dbc(Y,\Lambda)$ and
+$\theta:Lg_Y^*K\xrightarrow{\sim}K$ is a *strict Weil complex*; a morphism
+$(K,\theta)\to(L,\theta')$ is a morphism $h:K\to L$ of $\Dbc(Y,\Lambda)$ with
+$h\circ\theta=\theta'\circ Lg_Y^*(h)$. Where only such a pair is used (traces of
+Frobenius on stalks and on cohomology, weights, equivariant maps), a strict
+Weil complex is also called a Weil complex. Strict Weil complexes form a
+category of pairs over $\Dbc(Y,\Lambda)$, which is not triangulated, and
+$K\mapsto(\operatorname{For}(K),\theta_K)$ is a functor from
+$D^b_{c,\mathrm W}(Y,\Lambda)$ to it. On the hearts it is an equivalence: a pair
+$(\mathcal F,\theta)$ with $\mathcal F\in\Sh_c(Y,\Lambda)$ is exactly a Weil
+sheaf, since morphisms in the heart are morphisms of sheaves. It is not
+faithful: on $Y=\operatorname{Spec}k$ a nonsplit Frobenius extension of
+$\Lambda$ by $\Lambda$ (a Jordan block) is a nonzero morphism
+$\Lambda\to\Lambda[1]$ of $D^b_{c,\mathrm W}(Y,\Lambda)$, while
+$\Hom_{\Dbc(Y,\Lambda)}(\Lambda_Y,\Lambda_Y[1])=0$.
 
 **Descent to a finite field of coefficients** (a consequence, not part of the
-definition). Let $\Lambda=\Qlb$ and let $(K,\theta)$ be a pair as above. By
-[sk-thm-sfb-qlbar-two-colimit] (3) there are a finite $E\subset\Qlb$ and
-$K_E\in\Dbc(Y,E)$ with $K\cong(K_E)_{\Qlb}$. The pullback $g_Y^*$ is monoidal
-and fixes the coefficients, so it commutes with extension of scalars, and
-$\theta$ and $\theta^{-1}$ are morphisms between objects defined over $E$. By
-[sk-thm-sfb-qlbar-two-colimit] (2) with $r=0$ they come from morphisms
-$\theta_F,\theta'_F$ over some finite $F\supset E$, and after enlarging $F$ the
-identities $\theta_F\theta'_F=\mathrm{id}$ and $\theta'_F\theta_F=\mathrm{id}$
-hold over $F$. Hence every pair $(K,\theta)$ over $\Qlb$, for instance a Weil
-sheaf or the pair $(\operatorname{For}(K),\theta_K)$ of a Weil complex, is the
-extension of scalars of a pair $(K_F,\theta_F)$ defined over some finite $F$,
-and morphisms of pairs descend in the same way.
+definition). For finite extensions $E\subset F$ inside $\Qlb$, extension of
+scalars $M\mapsto M_F=F_Y\otimes_{E_Y}M$, and likewise $M\mapsto M_{\Qlb}$, is
+exact and commutes with $g_Y^*$, so it carries Weil modules to Weil modules and
+induces triangulated functors
+$D^b_{c,\mathrm W}(Y,E)\to D^b_{c,\mathrm W}(Y,F)\to D^b_{c,\mathrm W}(Y,\Qlb)$
+compatible with $\operatorname{For}$. Then:
+
+1. every strict Weil complex $(K,\theta)$ over $\Qlb$, for instance a Weil
+   sheaf or the pair $(\operatorname{For}(K),\theta_K)$ of a Weil complex, is
+   isomorphic to the extension of scalars of a strict Weil complex
+   $(K_F,\theta_F)$ over some finite $F$, with $K_F$ a sheaf when $K$ is one,
+   and morphisms of strict Weil complexes descend in the same way;
+2. for $K,L\in D^b_{c,\mathrm W}(Y,E)$ and every integer $r$, extension of
+   scalars induces an isomorphism
+   $$
+   \varinjlim_{F\supset E}\Hom_{D^b_{c,\mathrm W}(Y,F)}(K_F,L_F[r])
+   \xrightarrow{\ \sim\ }
+   \Hom_{D^b_{c,\mathrm W}(Y,\Qlb)}(K_{\Qlb},L_{\Qlb}[r]),
+   $$
+   the colimit running over finite extensions $F$ of $E$ in $\Qlb$;
+3. every Weil complex over $\Qlb$ is isomorphic to $K_{\Qlb}$ for some finite
+   $E\subset\Qlb$ and some $K\in D^b_{c,\mathrm W}(Y,E)$.

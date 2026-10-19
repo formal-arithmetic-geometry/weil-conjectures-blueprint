@@ -2,7 +2,6 @@
 id = "def-weil-site-perfect-complex"
 kind = "definition"
 title = "Perfect complexes on the coefficient site"
-lean = ["AlgebraicGeometry.Etale.DerivedCategory.IsSitePerfect"]
 order = 2225
 uses = ["def-weil-pbc-proetale-site", "sk-def-sfb-condensed-ring", "sk-def-sfb-qlbar-condensed", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-derived-categories"]
 +++

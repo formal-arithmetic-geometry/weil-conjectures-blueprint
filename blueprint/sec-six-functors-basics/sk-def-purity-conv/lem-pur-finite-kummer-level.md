@@ -8,16 +8,16 @@ uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smoot
 Fix the finite-field datum and $A=A_{E,n}$ of
 [def-pur-conventions]; write $e=e(E/\Ql)$ for the ramification
 index of $E/\Ql$ and assume that $e\mid n$. With $v_\ell$ normalized
-by $v_\ell(\ell)=1$ (so that $v_\ell(\varpi_E)=1/e$), put
+by $v_\ell(\ell)=1$ (so that $v_\ell(\pi_E)=1/e$), put
 
 $$
-N=n\cdot v_\ell(\varpi_E)\in\mathbf Z_{\geq1},
+N=n\cdot v_\ell(\pi_E)\in\mathbf Z_{\geq1},
 $$
 
 the smallest exponent with $\ell^N\cdot A=0$; here $N=n/e$, and
-$\varpi_E^n\mathcal O_E=\ell^N\mathcal O_E$, so that
-$A=\mathcal O_E/\varpi_E^n\cong\mathcal O_E/\ell^N\mathcal O_E\cong (\mathbf Z/\ell^N\mathbf Z)^{ef}$
-with $e=e(E/\Ql)$ the ramification index and $f=[\mathcal O_E/\varpi_E:\mathbf F_\ell]$ the residue degree,
+$\pi_E^n\mathcal O_E=\ell^N\mathcal O_E$, so that
+$A=\mathcal O_E/\pi_E^n\cong\mathcal O_E/\ell^N\mathcal O_E\cong (\mathbf Z/\ell^N\mathbf Z)^{ef}$
+with $e=e(E/\Ql)$ the ramification index and $f=[\mathcal O_E/\pi_E:\mathbf F_\ell]$ the residue degree,
 is free of finite rank as a $\mathbf Z/\ell^N\mathbf Z$-module. Then there is a canonical isomorphism
 of finite-torsion module sheaves on the small pro-etale site of any scheme
 $T$ on which $\ell$ is invertible,

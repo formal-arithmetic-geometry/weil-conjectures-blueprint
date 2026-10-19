@@ -7,8 +7,8 @@ lean = ["AlgebraicGeometry.ProEtale.GeometricCoefficients"]
 tags = ["sketch"]
 +++
 Fix $q=p^r$, $k=\overline{\mathbf F}_q$, $s=\operatorname{Spec}k$, a prime
-$\ell\ne p$, a finite extension $E/\mathbf Q_\ell$ with uniformizer $\varpi$,
-and $A=\mathcal O_E/\varpi^n$, $n\ge1$.
+$\ell\ne p$, a finite extension $E/\mathbf Q_\ell$ with uniformizer $\pi_E$,
+and $A=\mathcal O_E/\pi_E^n$, $n\ge1$.
 A geometric scheme is separated and of finite type over $k$; its structure
 map is $a_X:X\to s$. Maps between geometric schemes are $k$-maps, and
 unsubscripted products are over $s$.

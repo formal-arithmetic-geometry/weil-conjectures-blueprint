@@ -2,6 +2,7 @@
 id = "def-sc-group-scheme"
 kind = "definition"
 title = "Group schemes over a field"
+lean = ["CategoryTheory.GrpObj", "CategoryTheory.IsCommMonObj", "CategoryTheory.IsMonHom", "CategoryTheory.GrpObj.ker", "AlgebraicGeometry.Scheme.Hom.finrankΓ"]
 order = 432
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

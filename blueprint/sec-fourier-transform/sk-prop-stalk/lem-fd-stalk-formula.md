@@ -3,7 +3,6 @@ id = "lem-fd-stalk-formula"
 kind = "lemma"
 title = "Stalks of the transform are fibre integrals"
 order = 3043
-lean = ["AlgebraicGeometry.Etale.fourierTransformStalkIso"]
 uses = ["def-fd-kernel", "def-fd-transform", "sk-def-sfb-bounded-constructible", "sk-thm-sfb-shriek-base-change", "sk-prop-sf-cbc"]
 +++
 Let $S=\operatorname{Spec}k$, $V\cong\mathbf A^r_k$, let $\bar\xi:\operatorname{Spec}\Omega\to V^\vee$ be a geometric point of $V^\vee$ with $\Omega$ algebraically closed, and let $K\in D^b_c(V,\Lambda)$ for $\Lambda=E$ or $\Lambda=\overline{\mathbf Q}_\ell$, the bounded constructible subcategory of $D(V_{\mathrm{proét}},\Lambda)$ ([sk-def-sfb-bounded-constructible]). Write $V_{\bar\xi}=(V\times_kV^\vee)\times_{p_2,V^\vee}\bar\xi=V\times_k\Omega$ for the fibre of $p_2$ over $\bar\xi$ (it is $V_{\bar k}$ when $\bar\xi$ is a $\bar k$-point of $V^\vee$; for $\bar\xi$ over a non-closed point it is the affine $r$-space over $\Omega\supset\kappa(\bar\xi)$). Then

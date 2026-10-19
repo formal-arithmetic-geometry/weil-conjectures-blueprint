@@ -28,7 +28,7 @@ The same direct-summand operation commutes with derived sections.
 Applying $e$ to the $\mathbf F_\ell$-isomorphism proves the
 $\kappa$-coefficient assertion, for arbitrary complexes.
 
-Now let $\kappa=A/(\varpi_E)$.
+Now let $\kappa=A/(\pi_E)$.
 All three schemes have finite cohomological dimension by
 [lem-kun-0f10]. The constant-tensor comparison
 [lem-kun-0f12], applied with the $A$-module $\kappa$,
@@ -51,7 +51,7 @@ the preceding field-coefficient result permits arbitrary complexes.
 Let $D$ be the cone of the $A$-Kunneth map.
 We have proved $D\otimes_A^L\kappa=0$.
 The finite filtration
-$A\supset\varpi_EA\supset\cdots\supset\varpi_E^nA=0$
+$A\supset\pi_EA\supset\cdots\supset\pi_E^nA=0$
 has quotients finite-dimensional over $\kappa$.
 By derived tensor associativity,
 $D\otimes_A^L Q=0$ for every such quotient $Q$.

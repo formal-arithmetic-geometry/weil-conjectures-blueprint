@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sfb-proper-base-change"
-uses = ["sk-thm-properbasechange", "sk-cor-pbc-proet-finite", "sk-cor-pe-bounded-continuity", "sk-cor-coefficient-heart-ii", "sk-prop-sfb-cartesian-coefficients"]
+uses = ["sk-thm-properbasechange", "sk-cor-pbc-proet-finite", "det-pbc-complete-constructible", "sk-cor-pe-bounded-continuity", "sk-cor-coefficient-heart-ii", "sk-prop-sfb-cartesian-coefficients"]
 +++
 *Finite coefficients.* For finite $A$, proper constructible finiteness and a uniform
 cohomological bound give bounded constructibility; the constant-module projection formula
@@ -37,7 +37,8 @@ maps. The first is an isomorphism by the projection formula for torsion coeffici
 [sk-cor-pbc-proet-finite]: the finite reductions are bounded below classical complexes, so
 their canonical exchange maps are isomorphisms in $D(Y'_{\mathrm{proét}},\cO_E/\pi_E)$.
 ([sk-prop-pbc-complete] gives a completed integral version; here the inverse images of
-constructible complexes are already complete.) Hence the cone of each integral map is derived
+constructible complexes are already complete, and it becomes this base change isomorphism,
+[det-pbc-complete-constructible].) Hence the cone of each integral map is derived
 complete and has zero reduction modulo $\pi_E$. Such a complex is zero (derived Nakayama):
 using the filtration of $\cO_E/\pi_E^n$ with subquotients $\cO_E/\pi_E$, its reductions modulo
 every $\pi_E^n$ vanish, and a derived complete complex is the derived inverse limit of these

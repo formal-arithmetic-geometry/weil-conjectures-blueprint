@@ -3,7 +3,7 @@ kind  = "proof"
 of    = "sk-thm-sf-direct-image-tor-amplitude"
 +++
 Take the bounded flat model $P$ of [sk-lem-sf-flat-model], so
-$\mathcal H^q(K)=0$ outside $[a,b]$. Let $\kappa=A/(\varpi_E)$; the
+$\mathcal H^q(K)=0$ outside $[a,b]$. Let $\kappa=A/(\pi_E)$; the
 truncation spectral sequence for the left exact direct image applied to
 $K\otimes^L_A\kappa_X$ has
 $E_2^{p,q}=R^pf_*\bigl(\mathcal H^q(K\otimes^L_A\kappa_X)\bigr)$ with

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Power torsion as a localization kernel"
 order = 148
 lean = ["Submodule.powTorsion_eq_ker_localization"]
-uses = ["def-nagata-power-torsion", "lemma-nagata-power-torsion-submodule"]
+uses = ["def-nagata-power-torsion"]
 +++
 The power-torsion submodule is the kernel of the localization map
 

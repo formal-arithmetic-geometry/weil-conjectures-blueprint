@@ -1,12 +1,12 @@
 +++
 kind  = "proof"
 of    = "lem-fd-finite-pushforward-cohomology"
-uses = ["lemma-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-grothendieck-spectral-sequence", "sk-def-sfb-module-derived-pushpull"]
+uses = ["lemma-weil-pbc-finite-direct-image-exact", "lem-weil-pbc-grothendieck-spectral-sequence", "lem-fd-proetale-finite-pushforward-exact", "sk-prop-sfb-module-pullback-exact", "sk-def-sfb-module-derived-pushpull"]
 +++
 *(1).* By [lemma-weil-pbc-finite-direct-image-exact] the functor $\pi_*$ is exact and $R^q\pi_*=0$ for $q>0$, so the Grothendieck spectral sequence of [lem-weil-pbc-grothendieck-spectral-sequence] for the composite $\Gamma\circ\pi_*$ degenerates and computes the cohomology of $\pi_*\mathcal F$ as the cohomology of $\mathcal F$; explicitly $H^q(X_0,\pi_*\mathcal F)=H^q(\Gamma\circ\pi_*\mathcal F)=H^q(\Gamma_Y\mathcal F)=H^q(Y,\mathcal F)$.
 
-*(2).* Since $\pi$ is finite étale, there is an étale cover $u:U\to X_0$ such that $Y_U=Y\times_{X_0}U$ is a finite disjoint union $\coprod_{i=1}^dU$ of copies of $U$. An étale cover is a pro-étale cover, and $u^*$ is the restriction of sheaves to the slice over $U$; restriction to a slice commutes with derived pushforward of module objects ([sk-def-sfb-module-derived-pushpull]), so
+*(2).* A finite étale morphism is finite and of finite presentation, so $\pi_*$ is exact on $\Lambda_Y$-modules and $R\pi_*\mathcal F\simeq\pi_*\mathcal F$ by [lem-fd-proetale-finite-pushforward-exact] (2). Its left adjoint $\pi^*$ is exact ([sk-prop-sfb-module-pullback-exact]), so $\pi_*$ carries K-injective complexes to K-injective complexes: $\operatorname{Hom}_{K}(C,\pi_*I)=\operatorname{Hom}_K(\pi^*C,I)=0$ for acyclic $C$, as $\pi^*C$ is acyclic. Let $\mathcal F\to I$ be a K-injective resolution in $\Mod_{\Lambda_Y}$ ([sk-def-sfb-module-derived-pushpull]). By exactness, $\pi_*\mathcal F\to\pi_*I$ is a K-injective resolution, and $\Gamma(X_0,\pi_*-)=\Gamma(Y,-)$ since $(\pi_*G)(X_0)=G(Y)$. Hence
 $$
-u^*R\pi_*\mathcal F\simeq R\pi_{U,*}(\mathcal F|_{Y_U})\simeq\textstyle\prod_{i=1}^d\mathcal F|_{U_i},
+R\Gamma(X_{0,\mathrm{proét}},\pi_*\mathcal F)\simeq\Gamma(X_0,\pi_*I)=\Gamma(Y,I)\simeq R\Gamma(Y_{\mathrm{proét}},\mathcal F),
 $$
-the pushforward along the identity of each copy $U_i\cong U$. This is concentrated in degree $0$, and $u^*$ is exact and conservative because $u$ is a cover; hence $R^q\pi_*\mathcal F=0$ for $q>0$ and $R\pi_*\mathcal F\simeq\pi_*\mathcal F$. Composing derived functors, $R\Gamma(X_{0,\mathrm{proét}},\pi_*\mathcal F)\simeq R\Gamma(X_{0,\mathrm{proét}},R\pi_*\mathcal F)\simeq R\Gamma(Y_{\mathrm{proét}},\mathcal F)$, and taking $H^q$ gives the isomorphism.
+and taking $H^q$ gives the isomorphism.

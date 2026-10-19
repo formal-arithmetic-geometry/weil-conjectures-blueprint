@@ -5,7 +5,7 @@ title = "Testing finite Tor amplitude at the residue field"
 order = 2169
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
-Let $A=\mathcal O_E/\varpi_E^n$, let $\kappa=A/(\varpi_E)$,
+Let $A=\mathcal O_E/\pi_E^n$, let $\kappa=A/(\pi_E)$,
 and let $K$ be a bounded complex with
 constructible cohomology
 on a small etale site. Then $K$ has

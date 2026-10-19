@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Open direct image and projection formula"
 order = 1573
 uses = ["sk-def-sf-operations", "sk-prop-sf-pf-reduction", "sk-prop-open-coefficients", "sk-prop-proper-base-change-unbounded"]
-lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_of_derivedCompleteIntegral"]
 tags = ["sketch"]
 +++
 For a quasi-compact open immersion $j:U\hookrightarrow X$,

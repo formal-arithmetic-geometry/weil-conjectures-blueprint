@@ -3,6 +3,7 @@ id = "def-nagata-two-open-final-modification"
 kind = "definition"
 title = "Final common modification for the two-open construction"
 order = 305
+lean = ["AlgebraicGeometry.TwoOpenPreparation.FinalModification", "AlgebraicGeometry.TwoOpenPreparation.finalModification"]
 uses = ["def-nagata-common-modification", "def-nagata-two-open-intermediate-schemes"]
 +++
 Apply the common-modification construction to the two open immersions

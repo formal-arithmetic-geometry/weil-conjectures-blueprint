@@ -15,7 +15,7 @@ $$
 $$
 
 which vanishes outside $[a,b]$. A sheaf $M$ of $A$-modules has the finite
-filtration $\varpi_E^sM$, $0\le s\le n$, whose graded pieces are sheaves
+filtration $\pi_E^sM$, $0\le s\le n$, whose graded pieces are sheaves
 of $\kappa$-modules; the long exact cohomology sequences of
 $K\otimes^L_A-$ applied to the short exact sequences of this filtration
 give $\mathcal H^r(K\otimes^L_AM)=0$ for $r\notin[a,b]$, which is finite

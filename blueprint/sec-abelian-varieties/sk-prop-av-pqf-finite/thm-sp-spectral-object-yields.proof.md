@@ -14,47 +14,61 @@ $$
  H^{p+q+1}(F^{p+1}K^\bullet)\to\cdots .
 $$
 
-They assemble into a bigraded exact couple [def-sp-exact-couple] with
-$D_1^{p,q}=H^{p+q}(F^pK^\bullet)$ and
-$E_1^{p,q}=H^{p+q}(\operatorname{gr}^pK^\bullet)$, the maps $\alpha,g,f$
+They assemble into an exact couple [def-sp-exact-couple] with
+$D^{p,q}=H^{p+q}(F^pK^\bullet)$ and
+$E^{p,q}=H^{p+q}(\operatorname{gr}^pK^\bullet)$, the maps $\alpha,g,f$
 having bidegrees $(-1,+1)$, $(0,0)$, $(+1,0)$; the exactness required of a
 couple is exactly the exactness of these sequences.
 
-Step 2: the pages. The derived couples of [def-sp-exact-couple] produce a
-spectral sequence [def-sp-spectral-sequence] whose differentials $d_r=g_r\circ
-f_r$ have bidegree $(+r,1-r)$, that is $d_r:E_r^{p,q}\to E_r^{p+r,q-r+1}$,
-and whose page identification $\mathcal H(E_r)\cong E_{r+1}$ is the one
-recorded in [lem-sp-page-induction]. The identification
-$E_1^{p,q}=H^{p+q}(\operatorname{gr}^pK^\bullet)$ is the definition of the
-first derived couple, and the differential $d_1$ is by the same definition
-the composite $g_1f_1$, i.e. the boundary homomorphism of the long exact
-sequence displayed in Step 1 with $(p,q,r)$ replaced by $(p,p+1,p+2)$.
+Step 2: the pages. The spectral sequence of the couple, started at the page
+$r_0=1$ ([def-sp-exact-couple]), is a spectral sequence
+[def-sp-spectral-sequence] whose differentials $d_r=g_r\circ f_r$ have
+bidegree $(+r,1-r)$. Its first page is $E_1=E$, and $d_1=g\circ f$ is the
+connecting homomorphism followed by the projection, as stated in (a).
 
-Step 3: the $Z/B$ description. Induction on $r$ shows that $D_r^{p,q}$ is the
-image of $H^{p+q}(F^{p+r-1}K^\bullet)$ in $H^{p+q}(X^{[p,p+N]})$ and that
-$E_r^{p,q}=g_r(D_r^{p,q})$; unwinding the two maps of the couple gives the
-displayed descriptions of $Z_r^{p,q}$ and $B_r^{p,q}$. Here $N\geq r$ may be
-taken arbitrarily large: the filtration is bounded, so on the finitely many
-degrees that contribute to a fixed total degree $p+q$ one has $F^{p+N}K^n=0$
-for $N$ large, and there $F^pK^\bullet=X^{[p,p+N]}$.
+Step 3: convergence. Assume the filtration bounded and fix $n=p+q$. Then
+$H^n(F^pK^\bullet)\to H^n(K^\bullet)$ is an isomorphism for $p\ll0$ (the
+complexes agree in degrees $n-1,n,n+1$), and $H^n(F^pK^\bullet)=0$ for
+$p\gg0$ (it is a subquotient of $F^pK^n=0$); hence $F^pH^n=H^n$ for $p\ll0$
+and $F^pH^n=0$ for $p\gg0$, so the induced filtration is finite and
+separated. In the couple, $E_r^{p,q}=Z_r/B_r$ with
+$Z_r=f^{-1}(\operatorname{im}\alpha^{r-1})$ and
+$B_r=g(\ker\alpha^{r-1})$ ([def-sp-convergence]). For $r$ large the source
+$H^{n+1}(F^{p+r}K^\bullet)$ of $\alpha^{r-1}$ into $H^{n+1}(F^{p+1}K^\bullet)$
+vanishes, so $Z_r=\ker f=\operatorname{im}g$, and
+$\ker\bigl(\alpha^{r-1}:H^n(F^pK^\bullet)\to H^n(F^{p-r+1}K^\bullet)\bigr)$
+is the kernel $\ker\iota$ of $\iota:H^n(F^pK^\bullet)\to H^n(K^\bullet)$; so
+the differentials at $(p,q)$ vanish from then on, and
 
-Step 4: convergence. Boundedness gives
-$F^pH^n(K^\bullet)=H^n(K^\bullet)$ for $p\ll0$ and $F^pH^n(K^\bullet)=0$ for
-$p\gg0$, so the induced filtration is finite and separated; for $r>2N$ the
-pages $E_r^{p,q}$ stabilize, and the description of Step 3 identifies the
-stable value with
-$F^pH^{p+q}(K^\bullet)/F^{p+1}H^{p+q}(K^\bullet)$. This is the convergence
-statement of [def-sp-convergence], and it is (b).
+$$
+ E_\infty^{p,q}=\frac{g\bigl(H^n(F^pK^\bullet)\bigr)}
+ {g(\ker\iota)}\cong
+ \frac{H^n(F^pK^\bullet)}{\ker\iota+\operatorname{im}\alpha}
+ \cong\frac{\operatorname{im}\iota}{\iota(\operatorname{im}\alpha)}
+ =\frac{F^pH^n(K^\bullet)}{F^{p+1}H^n(K^\bullet)},
+$$
 
-Step 5: functoriality and the first-quadrant variant. A morphism of filtered
-complexes induces a morphism of the exact couples of Step 1, hence a morphism
-of spectral sequences by [lem-sp-couple-morphism]; the construction is
-natural in the pair $(K^\bullet,F^\bullet K^\bullet)$, which is (c). If
-$F^pK^\bullet=K^\bullet$ for $p\leq0$ and $\operatorname{gr}^pK^\bullet$ has
-cohomology concentrated in degrees $[p,p+1]$, then
-$E_1^{p,q}=H^{p+q}(\operatorname{gr}^pK^\bullet)=0$ unless $p\geq0$ and
-$0\leq q\leq1$; the differentials have bidegree $(+r,1-r)$, so the entries
-outside the first quadrant stay zero on every page, the page identification
-being a passage to subquotients, and no differential enters or leaves a fixed
-entry once $r>\max(p,q)+1$, since $p+r>p$ or $q-r+1<q$ forces the target out
-of the quadrant. This is (d).
+using $\ker g=\operatorname{im}\alpha$. The isomorphism is induced by
+$\iota$, compatibly with $g$, which is the convergence of
+[def-sp-convergence] to the image filtration
+[def-sp-image-filtration]. This is (b).
+
+Step 4: functoriality. A morphism of filtered complexes maps the short exact
+sequences of Step 1 to each other, so it induces maps on
+$H(F^pK^\bullet)$ and $H(\operatorname{gr}^pK^\bullet)$ which commute with
+the maps induced by inclusions and projections and, by naturality of the
+connecting homomorphism, with $f$; that is a morphism of exact couples, and
+[lem-sp-couple-morphism] turns it into a morphism of spectral sequences. If it
+is an isomorphism on $E_1$, it is an isomorphism on every page by
+[lem-sp-page-induction]. This is (c).
+
+Step 5: the first-quadrant variant. If $E_1^{p,q}=0$ outside the first
+quadrant, so are all later pages, which are subquotients of $E_1$. On page
+$r$ the differential leaving $(p,q)$ lands in $(p+r,q-r+1)$, outside the
+quadrant once $r>q+1$, and the one arriving comes from $(p-r,q+r-1)$,
+outside once $r>p$; so for $r>\max(p,q+1)$ the entry $(p,q)$ is stable, and
+the pages $r\geq2$ form a first-quadrant cohomological spectral sequence. If
+moreover $F^0H^n=H^n$ and $F^{n+1}H^n=0$, the isomorphisms
+$E_\infty^{p,q}\cong\operatorname{gr}^pH^{p+q}(K^\bullet)$ of (b) for
+$0\leq p\leq n$ exhibit $\bigl(H^n(K^\bullet)\bigr)_{n\geq0}$, with the
+induced filtrations, as the abutment. This is (d).

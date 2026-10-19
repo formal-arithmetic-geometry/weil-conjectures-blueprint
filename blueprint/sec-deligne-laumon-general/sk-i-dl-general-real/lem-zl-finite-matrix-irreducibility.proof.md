@@ -23,19 +23,19 @@ $E$ to $\Qlb$. The $E$-span already has dimension $n^2$,
 so choose $g_1,\ldots,g_{n^2}\in\Pi$ whose matrices form an
 $E$-basis of $\operatorname{End}_E(V)$.
 Compactness of $\rho(\Pi)$ supplies a stable lattice (as in [p-real-integral]): for an initial
-lattice $L_0$, all its translates lie in $\varpi_E^{-a}L_0$
+lattice $L_0$, all its translates lie in $\pi_E^{-a}L_0$
 for some $a$; their $\mathcal O_E$-span is a finitely generated
 torsion-free module containing $L_0$, and hence is a lattice $L$.
 It is stable under the whole group.
 
 Write the matrices in a basis of $L$. The determinant $\Delta$
 of their $n^2$ vectorized columns is a nonzero element of
-$\mathcal O_E$. Choose $N>v_{\varpi_E}(\Delta)$.
+$\mathcal O_E$. Choose $N>v_{\pi_E}(\Delta)$.
 If $\Pi'$ has the same finite reduction image, choose
 $h_j\in\Pi'$ with
-$\rho(h_j)\equiv\rho(g_j)\pmod{\varpi_E^N}$.
+$\rho(h_j)\equiv\rho(g_j)\pmod{\pi_E^N}$.
 Their column determinant is congruent to $\Delta$ modulo
-$\varpi_E^N$, so is nonzero. Thus the $E$-span of
+$\pi_E^N$, so is nonzero. Thus the $E$-span of
 $\rho(\Pi')$ is again the whole matrix algebra. The same is true
 after extending scalars to $\Qlb$, which excludes any nonzero
 proper invariant subspace. Continuity ensures that the reduction

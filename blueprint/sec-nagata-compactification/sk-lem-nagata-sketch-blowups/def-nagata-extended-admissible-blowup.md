@@ -3,8 +3,8 @@ id = "def-nagata-extended-admissible-blowup"
 kind = "definition"
 title = "Extension construction for an admissible blow-up"
 order = 181
-lean = ["AlgebraicGeometry.IsAdmissible.exists_extend"]
-uses = ["def-nagata-admissible-blowup", "def-nagata-constructible-closed-support", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "def-nagata-qc-open-complement-ideal", "lemma-nagata-constructible-closed-support", "lemma-nagata-extend-finite-type-ideal", "lemma-nagata-glue-finite-type-ideals", "lemma-nagata-qc-open-complement-ideal", "lemma-nagata-qc-open-complement-ideal-exists", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
+lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_comap_eq_of_disjoint", "AlgebraicGeometry.IsAdmissible.exists_extend_of_disjoint"]
+uses = ["def-nagata-admissible-blowup", "def-nagata-qc-open-complement-ideal", "def-nagata-invertible-ideal", "def-nagata-extended-ideal", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-finite-type-ideal-extension-exists", "lemma-nagata-glue-finite-type-ideals", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
 +++
 Let $X$ be quasi-compact and quasi-separated and let $U,W\subseteq X$ be
 quasi-compact opens. Write a given $(U\cap W)$-admissible blow-up of $W$

@@ -2,7 +2,7 @@
 id = "sk-def-av"
 kind = "definition"
 title = "Abelian varieties"
-lean = ["AlgebraicGeometry.IsAbelianVariety"]
+lean = ["AlgebraicGeometry.IsAbelianVariety", "AlgebraicGeometry.IsAbelianVariety.dim"]
 order = 530
 tags = ["sketch"]
 +++

@@ -2,11 +2,11 @@
 id = "def-sc-picard-group"
 kind = "definition"
 title = "The Picard group"
-lean = ["AlgebraicGeometry.Scheme.Pic"]
+lean = ["AlgebraicGeometry.Scheme.Pic", "AlgebraicGeometry.Scheme.Pic.instCommGroup", "AlgebraicGeometry.Scheme.Pic.ofIsInvertible_tensorObj", "AlgebraicGeometry.Scheme.Pic.ofIsInvertible_dual"]
 order = 453
 uses = ["def-sc-curves", "def-sc-invertible-module"]
 +++
-Let $C$ be a curve. The
+Let $C$ be a scheme, for instance a curve. The
 *Picard group* $\operatorname{Pic}(C)$ is the set of
 isomorphism classes of
 invertible $\mathcal O_C$-modules, with the group law induced by tensor product: the

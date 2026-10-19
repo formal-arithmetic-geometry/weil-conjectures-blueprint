@@ -2,7 +2,7 @@
 id = "lemma-nagata-separate-closed-data-exists"
 kind = "lemma"
 title = "Preparation data for separating two closed boundaries, [stacks-project]"
-lean = ["AlgebraicGeometry.disjoint_range_inclusion_inter_preimage_and_subset", "AlgebraicGeometry.exists_separationPreparation", "AlgebraicGeometry.Scheme.IdealSheafData.separationPreparationCenter", "AlgebraicGeometry.Scheme.IdealSheafData.separationPreparationBlowupSubscheme"]
+lean = ["AlgebraicGeometry.disjoint_range_inclusion_inter_preimage_and_subset", "AlgebraicGeometry.exists_separationPreparation", "AlgebraicGeometry.Scheme.IdealSheafData.separationPreparationCenter", "AlgebraicGeometry.Scheme.IdealSheafData.separationPreparationCenter_spec", "AlgebraicGeometry.Scheme.IdealSheafData.separationPreparationBlowupSubscheme"]
 order = 253
 uses = ["def-nagata-admissible-blowup", "def-nagata-qc-open-complement-ideal", "def-nagata-strict-transform", "lemma-nagata-chart-generator-regular", "lemma-nagata-finite-type-nil-ideal-nilpotent"]
 +++

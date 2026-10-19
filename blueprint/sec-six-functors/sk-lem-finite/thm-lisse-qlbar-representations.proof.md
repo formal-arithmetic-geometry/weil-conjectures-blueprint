@@ -112,9 +112,10 @@ $(W\otimes_E\Qlb)^{\pi_1}=\Hom_{\pi_1}(V'_{\Qlb},V''_{\Qlb})$. Essential
 surjectivity. A representation defined over $E$ is $\Qlb\otimes_EV_E$ with
 $V_E$ continuous, and (2) gives an integral $L'$ with fibre $V_E$.
 
-*(4) Normality.* Let $X$ be normal, and let $L$ be a lisse $E_X$-module of
-rank $r$. Since $X$ is Noetherian, normal and connected, it is integral; let
-$\eta$ be its generic point. By [sk-lem-stratified-lattice] there is a finite
+*(4) Normality.* A regular $X$ is normal, since its local rings are regular
+and a regular ring is normal (\stacks{0567}). Let $X$ be normal, and let $L$
+be a lisse $E_X$-module of rank $r$. Since $X$ is Noetherian, normal and
+connected, it is integral (\stacks{033M}); let $\eta$ be its generic point. By [sk-lem-stratified-lattice] there is a finite
 stratification of $X$ with a lattice on each stratum. The stratum containing
 $\eta$ is locally closed and contains the generic point, so it contains a
 dense open $U$, and $L|_U$ has a lattice. Let $q:T=\mathrm{Lat}(L)\to X$ be the
@@ -122,21 +123,28 @@ separated étale scheme of lattices of [det-lem-stratified-lattice-scheme];
 the lattice on $U$ is a section $s:U\to T_U=T\times_XU$.
 
 The scheme $T$ is étale over the Noetherian normal $X$, so it is locally
-Noetherian and normal, and its connected components are open, closed and
-irreducible. A section of a separated étale morphism is an open and closed
-immersion, so $s(U)$ is open and closed in $T_U$. Let $T'$ be the connected
+Noetherian and normal, an étale ring map being smooth (\stacks{033C}). Hence
+$T$ is a disjoint union of normal integral schemes (\stacks{033N}), and its
+connected components are open, closed and irreducible. A section of a
+separated étale morphism is an open and closed immersion (\stacks{024T}), so
+$s(U)$ is open and closed in $T_U$. Let $T'$ be the connected
 component of $T$ containing the connected set $s(U)$. The open subset
 $T'_U$ of the irreducible $T'$ is irreducible, hence connected, and contains
 $s(U)$ as an open and closed subset, so $T'_U=s(U)$ and $q$ restricts to an
 isomorphism $T'_U\cong U$.
 
 Let $\bar y$ be a geometric point of $X$ and $X^{\mathrm{sh}}$ the spectrum
-of the strict henselization at $\bar y$. Since $X$ is normal,
-$X^{\mathrm{sh}}$ is the spectrum of a normal local domain, hence irreducible,
-and its generic point lies over $\eta\in U$. The étale separated surjective
-$T\times_XX^{\mathrm{sh}}\to X^{\mathrm{sh}}$ has a point over the closed point,
-with the same separably closed residue field, so it has a section
-(\stacks{04GG}); that is, $L|_{X^{\mathrm{sh}}}$ has a lattice $N$. Since
+of the strict henselization at $\bar y$. Since $X$ is normal, its local
+ring at the image of $\bar y$ is a normal domain, so the strict henselization
+is a normal domain (\stacks{06DI}): $X^{\mathrm{sh}}=\Spec R$ is irreducible,
+and its generic point lies over $\eta\in U$. The étale surjective
+$T\times_XX^{\mathrm{sh}}\to X^{\mathrm{sh}}$ has a point $t$ over the closed
+point, and its residue field is a finite separable extension of the separably
+closed residue field $\kappa$ of $R$, hence equal to $\kappa$. An affine open
+neighbourhood $\Spec S$ of $t$ is étale over the henselian $R$, so there is a
+retraction $S\to R$ of $R\to S$ (\stacks{04GG}, condition (8)), that is, a
+section of $T\times_XX^{\mathrm{sh}}\to X^{\mathrm{sh}}$. Hence
+$L|_{X^{\mathrm{sh}}}$ has a lattice $N$. Since
 $X^{\mathrm{sh}}$ is strictly henselian, every finite étale cover of it splits,
 so its fundamental group is trivial and by (1) $N\cong\mathcal
 O_{E,X^{\mathrm{sh}}}^{\oplus r}$; hence $L|_{X^{\mathrm{sh}}}\cong
@@ -159,5 +167,22 @@ irreducible, so that $T'\times_XX^{\mathrm{sh}}$ is a single copy.
 
 Finally, a lisse $\QbarX$-module is $\QbarX\otimes_{E_X}L$ for a lisse
 $E_X$-module $L$ and a finite $E$ ([det-lem-coefficient-finite-descent-lisse]
-(1)), and $L$ has a lattice by the above, so it is integral. The theorem follows
-from (3) and (4).
+(1)), and $L$ has a lattice by the above, so it is integral.
+
+*(5) Fields of definition.* Let $\sigma:\pi_1\to\GL_n(\Qlb)$ be continuous.
+For each $d$, $\Ql$ has only finitely many extensions of degree $d$ inside
+$\Qlb$ (a consequence of Krasner's lemma), so $\Qlb$ is the union of an
+increasing sequence $E_1\subseteq E_2\subseteq\cdots$ of finite extensions
+of $\Ql$. Each $E_m$ is complete, hence closed in $\Qlb$, so the subgroups
+$\sigma^{-1}(\GL_n(E_m))$ are closed and cover the compact Hausdorff group
+$\pi_1$. By the Baire category theorem one of them has nonempty interior;
+being a subgroup, it is open, hence of finite index. Adjoining to $E_m$ the
+matrix entries of $\sigma$ at finitely many coset representatives gives a
+finite $E$ with $\sigma(\pi_1)\subseteq\GL_n(E)$. Then $V_E=E^n$ is
+$\pi_1$-stable with $\Qlb\otimes_EV_E=\Qlb^n$, and $\pi_1$ acts on it
+continuously, the topology of $E$ being the subspace topology from $\Qlb$.
+
+The theorem follows from (3), (4) and (5): for regular, or more generally
+normal, $X$ every lisse $\QbarX$-module is integral by (4), and every
+continuous representation is defined over a finite $E$ by (5), so (3) is the
+asserted equivalence.

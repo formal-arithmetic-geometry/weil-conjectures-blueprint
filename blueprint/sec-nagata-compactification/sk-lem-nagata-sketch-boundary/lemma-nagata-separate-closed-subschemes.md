@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Properties of the closed-boundary separation blow-up, [stacks-project]"
 order = 255
 lean = ["AlgebraicGeometry.disjoint_range_strictTransformMap_sup"]
-uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-separate-closed-subschemes", "def-nagata-strict-transform", "lemma-nagata-separate-closed-data-exists", "lemma-nagata-strict-transform-ambient-closed", "lemma-nagata-strict-transform-closure-characterization", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open"]
+uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-separate-closed-subschemes", "def-nagata-strict-transform", "lemma-nagata-separate-closed-data-exists", "lemma-nagata-strict-transform-ambient-closed", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open"]
 +++
 Let $X$ be a qcqs scheme and let $\mathcal I_1,\mathcal I_2$ be finite type
 quasi-coherent ideals of $\mathcal O_X$, with $Z_i=V(\mathcal I_i)$. Then

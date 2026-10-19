@@ -8,9 +8,14 @@ it is $\operatorname{Hom}(j^*i_*P[m],N)$ by $j^*\dashv Rj_*$
 ([def-weil-pbc-proetale-operations], [sk-def-sf-operations]), and
 $j^*i_*=0$: $j^*$ is restriction to $U_{\mathrm{proét}}$, and
 $(i_*M)(V)=M(V\times_XZ)=0$ for $V$ over $U$ (compare
-[lem-exc-proetale-closed-essential-image]). Moreover $j^*Rj_*\cong\operatorname{id}$,
-since restriction to the open $U$ is exact and preserves K-injective
-complexes.
+[lem-exc-proetale-closed-essential-image]). Moreover $j^*Rj_*\cong\operatorname{id}$.
+Indeed $j^*$ is restriction to the localization of $X_{\mathrm{proét}}$ at
+the object $U$, which preserves K-injective complexes
+([Tag 08FI](https://stacks.math.columbia.edu/tag/08FI)). Since
+$U\times_XU=U$, the square with two sides $j$ and two sides
+$\operatorname{id}_U$ is cartesian, and base change for localizations
+([Tag 0FN5](https://stacks.math.columbia.edu/tag/0FN5)) gives
+$j^*Rj_*\cong R(\operatorname{id}_U)_*\operatorname{id}_U^*=\operatorname{id}$.
 
 *(1).* For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$ one has $D^b_c=D^b_{ctf}$, and $Rj_*$
 preserves it ([sk-thm-sf-ctf-stability]). For $\Lambda=A=A_{E,n}$, write
@@ -53,7 +58,7 @@ reductions enter only here, as consequences.
 $Ri^!Rj_*G=0$; the unit is an isomorphism by
 [prop-sf-closed-unit-all-stages].
 
-*Finite Tor amplitude.* Let $A=A_{E,n}$ and $\kappa=A/(\varpi_E)$, the
+*Finite Tor amplitude.* Let $A=A_{E,n}$ and $\kappa=A/(\pi_E)$, the
 constant sheaf on each site.
 
 *Residue criterion.* On any of the pro-étale sites, a bounded constructible

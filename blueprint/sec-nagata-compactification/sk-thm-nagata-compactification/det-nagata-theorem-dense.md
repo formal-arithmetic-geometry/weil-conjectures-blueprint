@@ -2,6 +2,7 @@
 id = "det-nagata-theorem-dense"
 kind = "theorem"
 title = "Nagata compactification with a dense open immersion"
+lean = ["AlgebraicGeometry.exists_isDense_compactification"]
 uses = ["thm-nagata-compactification", "def-nagata-dense-compactification"]
 +++
 Let $S$ be quasi-compact and quasi-separated and let $f:X\to S$ be separated

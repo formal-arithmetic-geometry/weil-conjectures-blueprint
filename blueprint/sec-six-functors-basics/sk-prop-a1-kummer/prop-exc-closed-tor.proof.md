@@ -6,7 +6,7 @@ Constructibility is [lem-exc-closed-amplitude].
 The quasi-compact open immersion is quasi-separated, so
 [lem-exc-direct-image-coproducts] proves coproduct compatibility
 from the stated cohomological-dimension bound. Put
-$\kappa=A/(\varpi_E)$. Tensor the triangle of
+$\kappa=A/(\pi_E)$. Tensor the triangle of
 [lem-exc-closed-support-triangle], for the right adjoint $Ri^!$
 of [lem-exc-closed-ambient], with $\kappa$ and apply
 [lem-exc-constant-tensor] to its third term. Exact closed

@@ -3,6 +3,7 @@ id = "def-sp-grothendieck-abelian"
 kind = "definition"
 title = "Grothendieck abelian categories"
 order = 504
+lean = ["CategoryTheory.IsGrothendieckAbelian"]
 uses = ["def-sp-abelian"]
 +++
 A Grothendieck abelian category is an *abelian category* [def-sp-abelian]

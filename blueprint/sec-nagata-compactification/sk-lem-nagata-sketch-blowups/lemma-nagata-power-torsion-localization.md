@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Localization of power torsion"
 order = 149
 lean = ["Submodule.localized'_powTorsion"]
-uses = ["def-nagata-power-torsion", "lemma-nagata-power-torsion-kernel-localization", "lemma-nagata-power-torsion-submodule"]
+uses = ["def-nagata-power-torsion", "lemma-nagata-power-torsion-kernel-localization"]
 +++
 Let $R$ be a ring, $M$ an $R$-module, $a\in R$, and let $S\subseteq R$ be a
 multiplicative subset. Under the localization map $M\to S^{-1}M$, the

@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-chow-segre"
-uses = ["def-nagata-homogeneous-localization-degree-zero", "lemma-nagata-projective-space-base-change-proper", "prop-nagata-proj-standard-open"]
+uses = ["def-nagata-homogeneous-localization-degree-zero", "lem-weil-pbc-closed-immersion-from-composite", "lem-weil-pbc-closed-immersion-products", "lemma-nagata-projective-space-base-change-proper", "prop-nagata-proj-standard-open"]
 +++
 *Reference: Stacks Project, Constructions of Schemes, Lemma 27.13.6,
 [Tag 01WD](https://stacks.math.columbia.edu/tag/01WD).*
@@ -56,8 +56,30 @@ of proper $S$-schemes is proper over $S$, because properness is stable under
 base change and under composition, and $\mathbf P^{n_i}_S\to S$ is proper for
 finite $n_i$ by 01WC.
 
-**The consequences.** A composite of closed immersions is a closed
-immersion. On $\mathbf P^{n}_S\times_S\mathbf P^{m}_S$ one has
-$s^*\mathcal O(1)=\mathcal O(1)\boxtimes\mathcal O(1)$, since
-$s^*X_{(k,l)}=x_ky_l$ is a section of bidegree $(1,1)$; as $s$ is a closed
-immersion, $\mathcal O(1)\boxtimes\mathcal O(1)$ is very ample.
+**The pullback of $\mathcal O(1)$.** The opens
+$s^{-1}\bigl(D_+(X_{(k,l)})\bigr)=D_+(x_k)\times_SD_+(y_l)$, $(k,l)\in n\times m$,
+cover $\mathbf P^{n}_S\times_S\mathbf P^{m}_S$, and on each of them both
+$s^*\mathcal O(1)$ and $p_1^*\mathcal O(1)\otimes p_2^*\mathcal O(1)$ are free
+of rank one, with generators $s^*X_{(k,l)}$ and $p_1^*x_k\otimes p_2^*y_l$
+respectively. On the overlap of the charts for $(k,l)$ and $(k',l')$ the
+transition functions agree, because $s$ pulls
+$X_{(k,l)}/X_{(k',l')}$ back to $(x_k/x_{k'})\cdot(y_l/y_{l'})$. Hence the
+local isomorphisms sending one generator to the other glue to an isomorphism
+$s^*\mathcal O(1)\cong p_1^*\mathcal O(1)\otimes p_2^*\mathcal O(1)$.
+
+**Tensor products.** Let $f,\mathcal M,\mathcal N,i,j$ be as in the statement
+and let $(i,j)\colon X\to\mathbf P^{n}_S\times_S\mathbf P^{m}_S$ be the induced
+morphism over $S$. The projection $p_1$ is a base change of
+$\mathbf P^{m}_S\to S$, which is proper, hence separated, for finite $m$
+[lemma-nagata-projective-space-base-change-proper]; so $p_1$ is separated, and
+since $p_1\circ(i,j)=i$ is a closed immersion, so is $(i,j)$
+[lem-weil-pbc-closed-immersion-from-composite]. By the binary case and
+[lem-weil-pbc-closed-immersion-products], $s\circ(i,j)$ is a closed immersion,
+and it lies over $S$ because $i$ does. Since pullback commutes with tensor
+products and $p_1\circ(i,j)=i$, $p_2\circ(i,j)=j$,
+
+$$
+(s\circ(i,j))^*\mathcal O(1)\cong(i,j)^*\bigl(p_1^*\mathcal O(1)\otimes
+p_2^*\mathcal O(1)\bigr)\cong i^*\mathcal O(1)\otimes j^*\mathcal O(1)
+\cong\mathcal M\otimes\mathcal N .
+$$

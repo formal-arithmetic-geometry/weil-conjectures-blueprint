@@ -2,7 +2,6 @@
 id = "lem-per-artin-gabber-affine-curve"
 kind = "lemma"
 title = "Affine pushforward is perverse up to the relative dimension"
-lean = ["AlgebraicGeometry.Etale.DerivedCategory.isPerverseLE_lowerShriek", "AlgebraicGeometry.Etale.DerivedCategory.isPerverseGE_lowerShriek"]
 order = 3087
 uses = ["def-per-perverse-subcategories", "def-weil-derived-cohomology-sheaves", "def-weil-open-closed-recollement", "sk-def-sfb-bounded-constructible", "def-weil-pbc-scheme-conventions", "fix-cor-verdier-exchange", "lem-sc-cohomological-dimension", "sk-thm-sf-ctf-stability", "sk-thm-sfb-shriek-base-change", "sk-lem-coefficient-heart", "sk-thm-sfb-qlbar-two-colimit", "sk-lem-stratified-lattice", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-def-pe-derived-completion", "lem-weil-pbc-mittag-leffler", "sbc-thm-finiteness-finite-type", "prop-sf-open-closed-triangle-all-stages"]
 +++

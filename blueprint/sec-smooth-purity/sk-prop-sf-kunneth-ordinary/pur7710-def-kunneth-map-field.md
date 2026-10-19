@@ -13,4 +13,4 @@ R\Gamma_{X,\Et,\mathbf F_{\ell^r}}K\otimes^L_{\mathbf F_{\ell^r}}R\Gamma_{Y,\Et,
 \longrightarrow R\Gamma_{Z,\Et,\mathbf F_{\ell^r}}(K\boxtimes^L_{\mathbf F_{\ell^r}}L)
 $$
 
-in $D(\mathsf{Mod}_{\mathbf F_{\ell^r}})$ is defined by the construction of Definition [pur7710-def-kunneth-map], with $\mathbf F_{\ell^r}$ in place of $\mathcal O_E/\varpi^n$ throughout and the functors of Definitions [pur7710-def-finite-field-functors], [pur7710-def-derived-sections-field] and [pur7710-def-constant-complex-field].
+in $D(\mathsf{Mod}_{\mathbf F_{\ell^r}})$ is defined by the construction of Definition [pur7710-def-kunneth-map], with $\mathbf F_{\ell^r}$ in place of $\mathcal O_E/\pi_E^n$ throughout and the functors of Definitions [pur7710-def-finite-field-functors], [pur7710-def-derived-sections-field] and [pur7710-def-constant-complex-field].

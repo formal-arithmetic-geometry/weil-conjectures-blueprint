@@ -8,13 +8,13 @@ is a finite free $\mathcal O_{E,X}$-module
 exact and commutes with derived inverse limits. In particular
 $T_{S/R}$ preserves derived completeness, and no completion is needed. If $e$
 is the ramification index, the ideals
-$\varpi_E^nS=\varpi_L^{en}S$ are a cofinal system of powers of
+$\pi_E^nS=\pi_L^{en}S$ are a cofinal system of powers of
 the maximal ideal of $S$. The reductions of $T_{S/R}K$ along
 this system are
 
 $$
-(S/\varpi_E^nS)\otimes_{R/\varpi_E^n}^LK_n,
-\qquad K_n=K\otimes_R^L R/\varpi_E^n.
+(S/\pi_E^nS)\otimes_{R/\pi_E^n}^LK_n,
+\qquad K_n=K\otimes_R^L R/\pi_E^n.
 $$
 
 They are constructible and have a uniform Tor interval, since
@@ -22,7 +22,7 @@ They are constructible and have a uniform Tor interval, since
 $K_n$ and finite free extension preserves it. The normalized
 tower reconstruction of [lem-coef-normalized-dvr-effectivity]
 therefore gives an object of $D^b_c(X,S)$. The intervening
-$\varpi_L$-reductions are recovered by derived tensor from
+$\pi_L$-reductions are recovered by derived tensor from
 any larger cofinal level, so they have the same Tor bound.
 
 By [prop-coef-integral-dualizing], the reductions of the
@@ -31,8 +31,8 @@ At the cofinal levels [lem-coef-finite-free-extension] gives
 the specified maps
 
 $$
-(S/\varpi_E^nS)\otimes_{R/\varpi_E^n}^L\omega_{X,R/\varpi_E^n}
-\xrightarrow{\sim}\omega_{X,S/\varpi_E^nS}.
+(S/\pi_E^nS)\otimes_{R/\pi_E^n}^L\omega_{X,R/\pi_E^n}
+\xrightarrow{\sim}\omega_{X,S/\pi_E^nS}.
 $$
 
 Their quotient compatibility makes them a map of normalized

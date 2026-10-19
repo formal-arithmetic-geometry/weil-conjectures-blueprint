@@ -7,8 +7,8 @@ order = 1857
 Fix the global finite-field datum
 $(p,a,q,k_0,k)$ with $k=\overline{\mathbf F}_q$, a prime $\ell\ne p$, a
 finite extension $E/\mathbf Q_\ell$ with valuation ring $\mathcal O_E$ and
-uniformizer $\varpi_E$, an integer $n\ge1$, and put
-$A_{E,n}=\mathcal O_E/\varpi_E^n$ and
+uniformizer $\pi_E$, an integer $n\ge1$, and put
+$A_{E,n}=\mathcal O_E/\pi_E^n$ and
 $\Lambda\in\{A_{E,n},\mathcal O_E,E,\overline{\mathbf Q}_\ell\}$. A *six-functor
 datum* is the datum of the
 six-functor datum of [thm-weil-six-operations] —

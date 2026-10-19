@@ -2,12 +2,14 @@
 kind  = "proof"
 of    = "lem-sc-image-subgroup"
 +++
-Being a closed subscheme of the finite type $k$-scheme $H$, $Z$ is
-of finite type over $k$. The morphism $f':G\to Z$ is dominant by
-construction of the scheme-theoretic image, and it is proper because
-$G$ is proper over $k$ and $Z$, a closed subscheme of the
-separated $k$-scheme $H$, is separated; a proper dominant morphism
-is surjective. Write $j:Z\hookrightarrow H$ for the closed immersion
+Being a closed subscheme of the $k$-scheme $H$, which is locally of
+finite type, $Z$ is locally of finite type over $k$. The morphism
+$f':G\to Z$ is dominant by construction of the scheme-theoretic image,
+and it is proper because $G$ is proper over $k$ and $Z$, a closed
+subscheme of the separated $k$-scheme $H$, is separated; a proper
+dominant morphism is surjective. Hence $Z$ is the continuous image of
+the quasi-compact space $G$, so $Z$ is quasi-compact and therefore of
+finite type over $k$. Write $j:Z\hookrightarrow H$ for the closed immersion
 and $\mathcal I\subseteq\mathcal O_H$ for the ideal of $Z$, so that
 $f^*\mathcal I=0$ because $f=j\circ f'$.
 

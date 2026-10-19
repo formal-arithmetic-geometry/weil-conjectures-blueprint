@@ -2,7 +2,7 @@
 id = "lem-galois-geometric-fibre"
 kind = "lemma"
 title = "The geometric fibre of a finite etale cover"
-lean = ["AlgebraicGeometry.Scheme.Hom.exists_overIso_sigma_of_isSepClosed"]
+lean = ["AlgebraicGeometry.Scheme.Hom.exists_overIso_sigma_of_isSepClosed", "AlgebraicGeometry.Scheme.FiniteEtale.finite_fiber"]
 order = 590
 uses = ["def-galois-categories"]
 +++

@@ -3,7 +3,7 @@ id = "sk-thm-sbc-karoubian"
 kind = "theorem"
 title = "Bounded t-structures on the condensed constructible categories"
 order = 1444
-uses = ["sk-def-sfb-bounded-constructible", "sk-lem-int-integral-heart", "sk-lem-coefficient-heart", "sk-cor-coefficient-heart-ii", "sk-prop-sfb-finite-extension-compatibility", "sk-prop-sfb-qlbar-colimit-x", "prop-weil-heart-abelian", "lem-weil-heart-short-exact-triangles"]
+uses = ["sk-def-sfb-bounded-constructible", "sk-def-sfb-pulled-back-coefficients", "sk-prop-sfb-qlbar-colimit-x", "prop-weil-heart-abelian", "lem-weil-heart-short-exact-triangles"]
 tags = ["sketch"]
 +++
 Let $T$ be a standing scheme, $E/\Ql$ a finite extension inside $\Qlb$, and
@@ -13,23 +13,31 @@ condensed category $\Dbc(T,\Lambda)\subset D(T_{\Proet},\Lambda)$
 restriction of the standard one, with heart $\Cons(T,\Lambda)$, and it is
 idempotent complete.
 
-1. *The t-structure restricts.* $\Dbc(T,\Lambda)$ is a triangulated
-subcategory of $D(T_{\Proet},\Lambda)$ ([sk-lem-int-integral-heart] (1) for
-$\mathcal O_E$, [sk-cor-coefficient-heart-ii] for $E$ and $\Qlb$). For
+1. *The t-structure restricts.* $T$ is of finite type over $k$, hence
+topologically Noetherian, so $\Dbc(T,\Lambda)$ is a triangulated
+subcategory of $D(T_{\Proet},\Lambda)$ ([sk-def-sfb-bounded-constructible]). For
 $K\in\Dbc(T,\Lambda)$ the standard truncations $\tau^{\le m}K$ and
 $\tau^{\ge m}K$, computed in $D(T_{\Proet},\Lambda)$, have as cohomology sheaves
 either $H^i(K)$ or $0$; they are therefore bounded with constructible
 cohomology and lie in $\Dbc(T,\Lambda)$. So the standard t-structure restricts
 to $\Dbc(T,\Lambda)$, and it is bounded because every object is bounded. Its
 heart consists of the complexes concentrated in degree $0$, that is of the
-constructible $\Lambda_T$-modules $\Cons(T,\Lambda)$, an abelian subcategory of
-$\Mod(T_{\Proet},\Lambda)$ with exact inclusion ([sk-lem-int-integral-heart]
-(1), [sk-lem-coefficient-heart] (1)). Extension of scalars along
-$\mathcal O_E\to E\to F\to\Qlb$ is flat ($E_T=\mathcal O_{E,T}[1/\ell]$ by
-[sk-prop-sfb-qlbar-colimit-x], and [sk-prop-sfb-finite-extension-compatibility]),
-hence t-exact for these t-structures.
+constructible $\Lambda_T$-modules $\Cons(T,\Lambda)$. Kernels and cokernels in
+the heart are computed in $\Mod(T_{\Proet},\Lambda)$: for $f\colon A\to B$ in
+$\Cons(T,\Lambda)$ with cone $S\in\Dbc(T,\Lambda)$, they are $H^{-1}(S)=\ker f$
+and $H^0(S)=\operatorname{coker}f$ ([lem-weil-heart-short-exact-triangles] (3)),
+the kernel and cokernel of $f$ as sheaves, and these are constructible because
+$S\in\Dbc(T,\Lambda)$. Hence $\Cons(T,\Lambda)$ is closed under kernels and
+cokernels in $\Mod(T_{\Proet},\Lambda)$, an abelian subcategory with exact
+inclusion. Extension of scalars along $\mathcal O_E\to E\to F\to\Qlb$ is
+flat: $E_T=\mathcal O_{E,T}[1/\ell]$ and $\overline{\mathbf Q}_{\ell,T}\cong\varinjlim_F F_T$ are
+filtered colimits ([sk-prop-sfb-qlbar-colimit-x]), and $F\cong E^{[F:E]}$ as
+condensed $E$-modules, so $F_T\cong E_T^{[F:E]}$ is free, $p_T^*$ preserving
+finite direct sums ([sk-def-sfb-pulled-back-coefficients]). Hence extension of
+scalars is t-exact for these t-structures.
 1. *Idempotent completeness is automatic.* The ambient category
-$D(T_{\Proet},\Lambda)$ has countable coproducts, so it is idempotent complete.
+$D(T_{\Proet},\Lambda)$ has countable coproducts, so it is idempotent complete
+([Stacks, Tag 05QW](https://stacks.math.columbia.edu/tag/05QW)).
 A full triangulated subcategory closed under direct summands is then
 idempotent complete as well. $\Dbc(T,\Lambda)$ is closed under direct
 summands: if $K\cong K'\oplus K''$, each $H^i(K')$ is the image of an

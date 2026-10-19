@@ -5,7 +5,7 @@ title = "Gluing compatible finite-type ideals on two qc opens"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_ofFiniteTypeOn_sup_comap_eq"]
 order = 173
 +++
-Let $U,W\subseteq X$ be quasi-compact opens of a qcqs scheme. If
+Let $U,W\subseteq X$ be quasi-compact opens of a quasi-separated scheme. If
 $\mathcal I_U\subseteq\mathcal O_U$ and
 $\mathcal I_W\subseteq\mathcal O_W$ are finite type quasi-coherent ideals
 equipped with an equality of their restrictions to $U\cap W$, then there is

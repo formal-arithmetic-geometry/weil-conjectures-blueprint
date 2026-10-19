@@ -2,7 +2,6 @@
 id = "lem-per-dual-lisse-tensor"
 kind = "lemma"
 title = "Dual of a lisse tensor"
-lean = ["AlgebraicGeometry.Etale.DerivedCategory.nonempty_iso_verdierDual_tensor"]
 order = 3084
 uses = ["def-trf-dualizing-complex", "sk-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "def-weil-pbc-scheme-conventions", "def-wf-tate-twist", "fix-lem-tensor-adjunction"]
 +++

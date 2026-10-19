@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-nagata-admissible-blowup-preserves-density"
-uses = ["def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-invertible-ideal", "lemma-nagata-dense-flat-pullback", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement"]
+uses = ["def-nagata-invertible-ideal", "def-nagata-extended-ideal", "lemma-nagata-dense-flat-pullback", "thm-nagata-blowup-principalizes-center", "thm-nagata-global-blowup-complement"]
 +++
 First, the complement of the support of an invertible ideal is
 scheme-theoretically dense: on an affine open where the ideal is generated

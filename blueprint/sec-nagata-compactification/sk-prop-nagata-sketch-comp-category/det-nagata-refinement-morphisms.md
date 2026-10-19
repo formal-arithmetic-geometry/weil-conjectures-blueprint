@@ -2,9 +2,10 @@
 id = "det-nagata-refinement-morphisms"
 kind = "lemma"
 title = "Morphisms out of a dense compactification"
+lean = ["AlgebraicGeometry.Compactification.refinement_morphisms"]
 uses = ["det-nagata-definition-refinement", "def-nagata-dense-compactification"]
 +++
-Let $f:X\to S$ be a morphism, let
+Let $f:X\to S$ be a quasi-compact morphism, let
 $c'=(X\xrightarrow{j'}\overline X'\xrightarrow{p'}S)$ be a dense
 compactification and $c=(X\xrightarrow{j}\overline X\xrightarrow{p}S)$ a
 compactification of $f$. Let $h:\overline X'\to\overline X$ be an

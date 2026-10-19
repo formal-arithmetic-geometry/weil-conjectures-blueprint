@@ -3,7 +3,7 @@ id = "the-general-case-via-zariski-s-main-theorem--remark-2"
 kind = "remark"
 title = "Formalization route: Tag 081S from Theorem 2.4 and Zariski's Main Theorem"
 order = 234
-uses = ["cor-nagata-blowup-product-common-refinement", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-strict-transform-closure-characterization", "thm-nagata-conrad-elimination"]
+uses = ["cor-nagata-blowup-product-common-refinement", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-schematically-dense-blowup", "def-nagata-strict-transform", "thm-nagata-conrad-elimination"]
 +++
 [lemma-nagata-elimination-indeterminacy] (Stacks Tag 081S) can be
 proved along this section, without a module-flattening argument. The bridge
@@ -37,7 +37,7 @@ $f'\colon W'\to Z$ with $\Gamma_{f'}$ closed in $X'\times_XZ$. Now
 $X'\setminus V(\mathcal I\mathcal I_0)=U$, so $U$ is
 scheme-theoretically dense in $X'$ and hence in $W'$.
 1. The strict transform $Z'$ of $Z$ in $X'$ is, by
-[lemma-nagata-strict-transform-closure-characterization], the
+[def-nagata-strict-transform], the
 scheme-theoretic closure of the part of $X'\times_XZ$ lying over
 $X'\setminus V(\mathcal I\mathcal I_0)=U$, that is, the
 scheme-theoretic closure of $\Gamma_f$. It is therefore contained in

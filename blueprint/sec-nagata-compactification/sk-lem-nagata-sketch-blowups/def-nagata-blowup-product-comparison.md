@@ -4,7 +4,7 @@ kind = "definition"
 title = "Comparison maps for the product-ideal blow-up"
 order = 130
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_iso"]
-uses = ["def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-invertible-ideal", "lemma-nagata-cartier-total-transform-blowup", "lemma-nagata-effective-cartier-is-invertible", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-invertible-ideal-mul", "lemma-nagata-invertible-product-factor", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
+uses = ["def-nagata-invertible-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "lemma-nagata-cartier-total-transform-blowup", "lemma-nagata-effective-cartier-is-invertible", "lemma-nagata-ideal-invertible-product-factor", "lemma-nagata-invertible-ideal-mul", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
 +++
 Let $X$ be a scheme and let $\mathcal I,\mathcal J$ be quasi-coherent
 ideals on $X$. Let $X_{\mathcal I,\mathcal J}$ be the
@@ -27,7 +27,7 @@ $$
 to be the universal lift ([thm-nagata-blowup-universal-property]) for
 this product. On $\operatorname{Bl}_{\mathcal I\mathcal J}(X)$ the
 extension of $\mathcal I\mathcal J$ is invertible, so the extensions of both
-factors are invertible ([lemma-nagata-invertible-product-factor]).
+factors are invertible ([lemma-nagata-ideal-invertible-product-factor]).
 Define
 
 $$

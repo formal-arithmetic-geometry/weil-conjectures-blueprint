@@ -2,6 +2,7 @@
 id = "det-nagata-refinement-cofiltered"
 kind = "corollary"
 title = "The category of dense compactifications is cofiltered"
+lean = ["AlgebraicGeometry.Compactification.DenseCategory.isCofiltered_and_isThin"]
 uses = ["det-nagata-refinement-common-dense", "det-nagata-refinement-morphisms"]
 +++
 Let $S$ be qcqs and $f:X\to S$ separated of finite type. The category whose

@@ -9,9 +9,9 @@ Let $E\subset L$ be a finite extension of coefficient fields,
 with ramification index $e$. For every $n\geq1$, put
 
 $$
-A=\mathcal O_E/\varpi_E^n,\qquad
-B=\mathcal O_L/\varpi_E^n\mathcal O_L
-=\mathcal O_L/\varpi_L^{en}=A_{L,en}.
+A=\mathcal O_E/\pi_E^n,\qquad
+B=\mathcal O_L/\pi_E^n\mathcal O_L
+=\mathcal O_L/\pi_L^{en}=A_{L,en}.
 $$
 
 Equality here is equality of ideals; a unit relating the chosen

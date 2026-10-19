@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Total transform of a Cartier ideal under a blow-up"
 order = 129
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.comap_blowupMap"]
-uses = ["def-nagata-blowup-chart-ring", "def-nagata-effective-cartier-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-invertible-ideal", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open"]
+uses = ["def-nagata-blowup-chart-ring", "def-nagata-invertible-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open"]
 +++
 Let $\mathcal L\subseteq\mathcal O_T$ be an invertible ideal and let
 $T'=\operatorname{Bl}_{\mathcal K}(T)\to T$ be the blow-up of $T$ along an
