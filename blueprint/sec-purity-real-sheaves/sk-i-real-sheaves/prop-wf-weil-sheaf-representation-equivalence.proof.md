@@ -2,34 +2,20 @@
 kind  = "proof"
 of    = "prop-wf-weil-sheaf-representation-equivalence"
 +++
-*Finite level.* Each $\mathcal O_E/\mathfrak m_E^n$ is a finite ring, so
-[cor-galois-lisse-representations] identifies locally constant sheaves of finite free
-$\mathcal O_E/\mathfrak m_E^n$-modules on $C$ with finite free modules over
-that ring carrying a continuous $P$-action. Rank is a property of the stalk
-and is constant because $C$ is connected.
-
-*Integral and rational levels.* A lisse adic model has surjective
-transition maps, so the stalks $M_n$ form a surjective system whose limit is
-finite free over $\mathcal O_E$, with continuous action because the
-$\mathfrak m_E$-adic topology is the limit of the discrete quotient
-topologies; levelwise reduction inverts the construction. Morphism groups
-are the limits of their finite-level counterparts,
-$\Hom_{\mathcal O_E[P]}(M,N)=\varprojlim_n\Hom_P(M_n,N_n)$: a map of adic
-systems is by definition a compatible family of finite-level maps, while
-$\Hom_{\mathcal O_E}(M,N)$ is finite free with reductions $\Hom(M_n,N_n)$
-and $P$-invariants commute with inverse limits. The transition maps of
-this tower need not be surjective (for $E=\mathbf Q_3(\zeta_3)$,
-$\pi=\zeta_3-1$, a trivial lattice and the lattice of a cubic Kummer
-character agree modulo $\pi$, but every equivariant map between them modulo
-$\pi^2$ satisfies $\pi a=0$ and reduces to zero), but each
-$\Hom_P(M_n,N_n)$ is a finite group, so the tower is Mittag–Leffler and
-$\varprojlim^1$ vanishes; this is all the inverse-limit argument needs: a
-compatible family of finite-level maps has a unique lift, and two maps
-agreeing at every level are equal. Hence the functor is fully faithful.
-Inverting the uniformizer on morphisms and passing to the filtered colimit
-over the finite $E\subset\Qlb$ are each given by a universal property and are
-performed the same way on both sides, so the equivalence descends to the
-coefficients of [d-real-setup].
+*Geometric level.* By [thm-lisse-qlbar-representations], the functor
+$\mathcal F\mapsto(\mathcal F_{\bar\eta},\rho_{\mathrm{geom}})$ is an equivalence
+between lisse $\overline{\mathbf Q}_{\ell,C}$-modules on $C_{\mathrm{proét}}$ (locally
+free of finite rank, [sk-lem-coefficient-heart]) and continuous finite-dimensional
+$\Qlb$-representations of $P$ defined over some finite $E/\Ql$; rank is the
+dimension of the stalk and is constant because $C$ is connected. The condition
+"defined over a finite $E$" is automatic for a continuous representation
+$\sigma:P\to\GL_n(\Qlb)$: $\Qlb$ is the union of an increasing sequence
+$E_1\subseteq E_2\subseteq\cdots$ of finite extensions of $\Ql$, each closed in
+$\Qlb$, so the closed subgroups $\sigma^{-1}(\GL_n(E_m))$ cover the compact group $P$
+and by the Baire category theorem one of them is open, hence of finite index; adjoining
+the coefficients of $\sigma$ at finitely many coset representatives gives a finite $E$
+with $\sigma(P)\subseteq\GL_n(E)$. Lattices, reductions modulo $\mathfrak m_E^n$ and
+limits enter only inside the proof of [thm-lisse-qlbar-representations].
 
 *Frobenius descent.* Geometric Frobenius is an automorphism of the
 scheme $C$, so $\Frob^*$ is an autoequivalence of lisse sheaves on $C$;
@@ -52,7 +38,7 @@ the geometric Frobenius normalization of [def-wf-weil-group]: at a closed
 point $x$ with $k(x)=\Fq$ the operator induced by $\varphi$ on
 $\mathcal F_{\bar x}$ is the geometric Frobenius $F_x$, because $\Frob$
 composed with the arithmetic Frobenius of $k$ is the absolute Frobenius of
-$C$, which acts trivially on etale sheaves, and $F_x$ has degree $+1$; so
+$C$, which acts trivially on étale and pro-étale sheaves, and $F_x$ has degree $+1$; so
 the degree-one elements $g\gamma$ of $W(C_0)$ act through $\Phi$, not
 $\Phi^{-1}$, in agreement with $F=\rho(\gamma)$ and with the Tate line
 $\Qlb(1)=\mathcal B_{q^{-1}}$ (geometric Frobenius acts on $\Qlb(1)$ by
@@ -63,7 +49,15 @@ morphism condition $u\varphi=\psi\,\Frob^{*}u$ says on stalks that $u$
 intertwines the two operators $\Phi$, which with $P$-equivariance is exactly
 $W(C_0)$-equivariance; hence full faithfulness.
 
-*Exactness.* Exactness and tensor products are levelwise for adic
-systems and survive the localization and the filtered colimit, and Weil
-kernels and cokernels are computed on the underlying sheaves. The matching
-of subobjects, quotients and subquotients follows.
+*Exactness.* Kernels and cokernels of maps of lisse Weil sheaves are formed in
+$\Mod(C_{\mathrm{proét}},\Qlb)$, where they are constructible
+([sk-lem-coefficient-heart] (1)), and the Weil structures pass to them. Geometric stalks
+are exact, monoidal, and jointly conservative on $\Cons(C,\Qlb)$: if all stalks of a
+constructible $M$ vanish, so do those of every graded piece $a_!L$ of the filtration
+of [sk-lem-coefficient-heart] (3), stalks being exact, hence each lisse $L$, being
+locally free of rank equal to its stalk dimension, is zero, and so $M=0$. For lisse
+sheaves on the connected $C$ the stalk at any geometric point is identified with the
+stalk at $\bar\eta$, naturally in the sheaf, by an isomorphism of fibre functors.
+Hence a sequence of lisse Weil sheaves is short exact if and only if the sequence of
+geometric generic stalks is, and tensor products correspond. The matching of
+subobjects, quotients and subquotients follows.

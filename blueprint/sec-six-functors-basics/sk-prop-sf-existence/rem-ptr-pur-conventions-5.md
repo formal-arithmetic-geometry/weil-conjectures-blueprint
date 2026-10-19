@@ -12,7 +12,7 @@ separated finite-type
 morphism; the
 ambient exceptional right
 adjoint datum of [def-weil-ambient-exceptional-adjoint] at every
-finite coefficient stage, i.e. clause (1) of
+finite coefficient ring, i.e. clause (1) of
 [def-weil-exceptional-adjoint-admissibility] — the full
 cohomological-dimension condition together with the existence of the right
 adjoint $Rf_n^{\times}$ of the compact-support direct image $Rf_{!,n}$

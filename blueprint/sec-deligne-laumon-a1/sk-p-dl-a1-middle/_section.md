@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Irreducible middle extensions under Fourier"
 order = 3094
 uses = ["sk-d-dl-a1-setup", "sk-i-dl-a1-local", "sk-thm-inversion"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsNonexceptional", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.IsFourierPartner", "AlgebraicGeometry.exists_middleExtension_fourierTransform", "AlgebraicGeometry.isNonexceptional_of_isUnramifiedAtInfinity"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsNonexceptional", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.IsFourierPartner", "AlgebraicGeometry.exists_middleExtension_fourierTransform", "AlgebraicGeometry.isNonexceptional_of_isUnramifiedAtInfinity"]
 tags = ["sketch"]
 +++
 Let $\psi$ be nontrivial. Call a nonzero irreducible lisse Weil sheaf $M$ on $U_0$

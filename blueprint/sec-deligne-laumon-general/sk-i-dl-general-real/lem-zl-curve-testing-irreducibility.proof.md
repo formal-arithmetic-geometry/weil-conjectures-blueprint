@@ -1,12 +1,17 @@
 +++
 kind  = "proof"
 of    = "lem-zl-curve-testing-irreducibility"
-uses = ["lem-zl-bertini-finite-cover-curve"]
+uses = ["lem-zl-bertini-finite-cover-curve", "thm-lisse-qlbar-representations", "p-real-integral"]
 +++
 Use the geometric representations of
-[def-wf-fundamental-representation], and choose finite coefficient
-fields for them as allowed in [def-weil-pbc-qbar-category].
-By [lem-zl-finite-matrix-irreducibility], each has a finite
+[def-wf-fundamental-representation]. By
+[thm-lisse-qlbar-representations], each is a continuous representation
+of $\pi_1(X)$ defined over some finite extension $E/\mathbf Q_\ell$
+inside $\Qlb$; enlarging $E$, one $E$ serves for all of them. As in
+[p-real-integral], compactness of $\pi_1(X)$ gives a stable
+$\mathcal O_E$-lattice in each, i.e. a basis in which all matrices have
+entries in $\mathcal O_E$. By [lem-zl-finite-matrix-irreducibility],
+applied with $\mathcal O=\mathcal O_E$, each has a finite
 reduction quotient detecting absolute irreducibility. Intersect
 their open normal kernels in $\pi_1(X)$, where
 $X=X_0\times\overline{\mathbf F}_q$. The resulting finite quotient

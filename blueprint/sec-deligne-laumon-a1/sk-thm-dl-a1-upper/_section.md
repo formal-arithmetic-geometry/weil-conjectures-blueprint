@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Deligne–Laumon affine-line estimate"
 order = 3129
 uses = ["sk-c-dl-a1-hc1", "sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-p-dl-a1-exact", "sk-p-linear-filtration"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.hasWeightsAtMost_compactlySupportedCohomology_directImage", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.subsingleton_compactlySupportedCohomology_directImage_zero", "AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.isPureOfWeightOver_compactlySupportedCohomology_directImage_two"]
+lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.hasWeightsAtMost_compactlySupportedCohomology_directImage", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.subsingleton_compactlySupportedCohomology_directImage_zero", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isPureOfWeightOver_compactlySupportedCohomology_directImage_two"]
 tags = ["sketch"]
 +++
 Let $j:U_0\hookrightarrow A_0$ be a dense open immersion and let $F$

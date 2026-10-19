@@ -2,7 +2,7 @@
 kind  = "proof"
 of    = "thm-pur-cohomological-smoothness"
 +++
-Work at a finite coefficient stage. The earlier orientation-free
+Work for a finite coefficient ring. The earlier orientation-free
 theorem [thm-asd-smooth-tensor] proves the canonical tensor
 formula on the ordinary etale site and shows that
 $\omega_f[-2d]$ is a locally constant free rank-one sheaf.

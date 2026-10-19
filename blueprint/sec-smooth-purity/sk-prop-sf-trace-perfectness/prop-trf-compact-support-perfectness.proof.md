@@ -27,7 +27,7 @@ tensor of the finite coefficient modules, as in
 [def-weil-finite-tor-amplitude], [def-weil-finite-torsion-constructibility].
 Hence the right side is bounded by
 [prop-finite-compact-support-constructibility] at the residue
-coefficient stage. The residue-field criterion of
+admissible coefficient ring. The residue-field criterion of
 [lem-exc-residue-tor-test], applied on the point, now proves
 that $C$ has finite Tor amplitude. Together with its finite
 cohomology, [lem-trf-finite-tor-amplitude-perfect] shows that

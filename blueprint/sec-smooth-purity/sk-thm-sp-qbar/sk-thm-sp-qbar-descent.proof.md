@@ -17,7 +17,6 @@ $F''$.
 (3) Extension of scalars from $F$ to $\Qlb$ commutes with pullback (pullback
 of module sheaves commutes with tensor products with the constant coefficient
 sheaf) and with $j_!$ (exact), and with $R\bar f_*$ for proper $\bar f$ on bounded
-constructible objects (the coefficient comparisons of the six operations,
-proved on integral models by the finite-level projection formula and passage to
-the limit, then inverting $\ell$ and passing to the colimit). Hence $Rf_{!,\Qlb}$
+constructible objects (the coefficient comparison for $E\to\Qlb$ of
+[sk-prop-scalar-six]). Hence $Rf_{!,\Qlb}$
 and $f^*_{\Qlb}$ commute with extension of scalars.

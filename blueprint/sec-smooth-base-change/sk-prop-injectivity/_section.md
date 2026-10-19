@@ -1,12 +1,36 @@
 +++
 id = "sk-prop-injectivity"
-kind = "proposition"
-title = "Injectivity of the critical map"
-order = 1440
-uses = ["sk-def-bc"]
+kind = "lemma"
+title = "Injectivity in the lowest unknown degree"
+order = 1427
+uses = ["sk-def-bc", "sk-def-exchange"]
 lean = ["AlgebraicGeometry.Etale.mono_baseChangeHomologyMap", "AlgebraicGeometry.Etale.mono_cokernelMap", "AlgebraicGeometry.Etale.mono_cokernelDesc"]
 tags = ["sketch"]
 +++
+Let $g:Y'\to Y$ be a morphism and $n$ an integer invertible on $Y$. Recall that
+$\mathrm{BC}(g,n,r)$ means: for every scheme $T$ over $Y$, every qcqs morphism $Z\to T$,
+every sheaf of $\mathbf Z/n$-modules $M$ on $Z_{\mathrm{\acute et}}$ and every
+$0\leq i\leq r$, the degree-$i$ exchange map ([sk-def-exchange]) for the square with base
+change $Y'\times_YT\to T$ and direct image along $Z\to T$ is an isomorphism.
+
+Suppose $q\geq1$ and $\mathrm{BC}(g,n,q-1)$ holds. For every square
+obtained by base change as in the definition of $\mathrm{BC}$ and every
+sheaf of $\mathbf Z/n$-modules $M$ on $Z_{\mathrm{\acute et}}$, the degree-$q$ exchange map
+$b_M^q\colon g^{-1}R^qf_*M\to R^qf'_*u^{-1}M$ is injective. An inclusion
+$M\hookrightarrow N$ induces
+
+$$
+ \operatorname{coker}(b_M^q)
+   \hookrightarrow\operatorname{coker}(b_N^q).
+$$
+
+For an embedding $M\hookrightarrow I$ with $I$ injective in the
+category of étale sheaves of $\mathbf Z/n$-modules, this cokernel
+embeds into $R^qf'_*u^{-1}I$.
+
+*Complement.* In the notation of [sk-def-bc] (smooth side $f$, qcqs side $g$), the same holds
+for an arbitrary commutative ring $\Lambda$ in place of $\mathbf Z/n$:
+
 Let $\Lambda$ be a commutative ring, let $q\ge1$ and assume
 $\mathrm{BC}(f,\Lambda,q-1)$ of [sk-def-bc] holds. Then for every square
 as there (with $g$ quasi-compact and quasi-separated) and every sheaf

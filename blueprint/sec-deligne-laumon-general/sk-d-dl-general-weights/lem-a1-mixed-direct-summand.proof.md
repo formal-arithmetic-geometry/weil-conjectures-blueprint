@@ -2,15 +2,18 @@
 kind  = "proof"
 of    = "lem-a1-mixed-direct-summand"
 +++
-Since $g_Y$ is an automorphism, $Lg_Y^*=g_Y^*$ is exact on the
-constructible heart, so kernels, images and cokernels of morphisms of
+The category $\Cons(Y,\Qlb)$ is abelian, with exact inclusion into
+$\Mod(Y_{\mathrm{proét}},\Qlb)$ ([sk-lem-coefficient-heart] (1)). Since
+$g_Y$ is an automorphism, $Lg_Y^*=g_Y^*$ is exact and preserves
+$\Cons(Y,\Qlb)$, so kernels, images and cokernels of morphisms of
 Weil sheaves (morphisms commuting with the structure isomorphisms
-$\theta$ of [def-weil-weil-sheaf-complex]) inherit Weil structures; thus
+$\theta$ of [def-weil-weil-sheaf-complex], [sk-def-sf-weil-complexes])
+inherit Weil structures; thus
 constructible Weil sheaves form an abelian category, and a Weil subsheaf
 is a subobject $\mathcal H\subset\mathcal G$ with
 $\theta(g_Y^*\mathcal H)=\mathcal H$. For every closed point $y$ with
 geometric point $\bar y$ above it, the stalk functor
-$\mathcal G\mapsto\mathcal G_{\bar y}$ is exact and carries the local
+$\mathcal G\mapsto\mathcal G_{\bar y}=\bar y^*\mathcal G$ is exact and carries the local
 geometric Frobenius $F_y$; hence it sends exact sequences of Weil sheaves
 to exact sequences of $F_y$-modules. We use repeatedly: if $V$ is a
 finite-dimensional $F_y$-module all of whose eigenvalues have

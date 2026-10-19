@@ -20,7 +20,7 @@ constructibility of
 $R^qj_*F$ in every degree for every constructible $A$-sheaf $F$ — and
 the constant $2d$ depends on $T$ alone, not on $A$. In particular, in
 the setting of the global finite-field datum with $k=\Fbar$ and at the
-finite coefficient stages $A=A_{E,n}$ of [def-pur-conventions], the
+finite coefficient rings $A=A_{E,n}$ of [def-pur-conventions], the
 condition holds for every $n\geq1$ with the same constant $2d$; for the
 chart complements $W_U\subseteq\mathbf A^{d_U}_V$ of the assembly
 [thm-pur-general-admissibility], where

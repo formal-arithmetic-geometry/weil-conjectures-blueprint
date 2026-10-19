@@ -4,13 +4,14 @@ kind = "definition"
 title = "The $L^2$-weight parameter"
 lean = ["AlgebraicGeometry.WeilComplex.traceEnergy", "AlgebraicGeometry.WeilSheaf.l2Weight", "AlgebraicGeometry.WeilComplex.l2Weight"]
 order = 3101
-uses = ["def-weil-ordinary-compact-cohomology", "def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
+uses = ["def-weil-ordinary-compact-cohomology", "sk-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve over
 $k_0=\mathbf F_q$ (the separated finite-type conventions of
 [def-weil-pbc-scheme-conventions]), let $\mathcal F$ be a
-constructible Weil complex
-in the coefficient category of [def-weil-pbc-qbar-category],
+constructible $\Qlb$-Weil complex, that is, an object of
+$\Dbc(X,\Qlb)$, $X=X_0\otimes_{k_0}k$ ([sk-def-sfb-bounded-constructible]), with a Weil structure
+([sk-def-sf-weil-complexes]),
 and for $m\ge1$ let
 
 $$

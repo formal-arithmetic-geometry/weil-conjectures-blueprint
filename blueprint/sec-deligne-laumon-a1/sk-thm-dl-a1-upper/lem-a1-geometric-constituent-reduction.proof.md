@@ -21,7 +21,7 @@ acting trivially on the multiplicity space $E$.
 Choose an intertwiner $T$ on $S$ for the Frobenius conjugation.
 Schur's lemma makes the Frobenius operator on $S\otimes E$ equal
 to $T\otimes B$ for an invertible operator $B$ on $E$.
-Over the algebraically closed coefficient field $B$ has an
+Since $\Qlb$ is algebraically closed, $B$ has an
 eigenline. Its tensor with $S$ is a nonzero Weil-stable subspace;
 irreducibility forces $\dim E=1$.
 Thus each summand is geometrically irreducible.

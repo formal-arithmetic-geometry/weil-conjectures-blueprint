@@ -3,7 +3,7 @@ id = "sk-prop-sf-cbc"
 kind = "proposition"
 title = "Compact-support base change"
 order = 1703
-uses = ["sk-def-av-jacobian"]
+uses = ["sk-def-av-jacobian", "sk-def-sfb-shriek-base-change-morphism", "sk-thm-sfb-shriek-base-change"]
 lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekBaseChangeMap"]
 tags = ["sketch"]
 +++
@@ -19,18 +19,17 @@ $D^+(X_{\Et},\Lambda)\to D^+(Y'_{\Et},\Lambda)$ on the small étale site,
 and on the étale-origin complexes
 $\nu_X^*D^+(X_{\Et},\Lambda)$ of the small pro-étale site
 — hence in $\Dbc(Y',\Lambda)$ whenever
-the two sides are bounded constructible; (b) at the stages $\mathcal O_E$,
-$E$, $\Qlb$, only on $\Dbc$ of the pro-étale (adic) categories —
-derived-complete $\mathcal O_E$-complexes whose reductions are of étale
-origin, their rationalizations and the $\Qlb$-colimit, with
-$\operatorname{Ex}_!$ the completed exchange
-$\operatorname{Ex}^{\mathrm{comp}}_!$
-— where it is an isomorphism in $\Dbc(Y',\Lambda)$, deduced from (a) by
-derived limits over the finite reductions and then transported by
-rationalization and scalar extension. No assertion is made for
+the two sides are bounded constructible; (b) at the coefficient rings $\mathcal O_E$, $E$, $\Qlb$, regarded as
+condensed rings, on the condensed categories $\Dbc(X,\Lambda)$, where
+$\operatorname{Ex}_!$ is the compact-support base change morphism of
+[sk-def-sfb-shriek-base-change-morphism] and an isomorphism in
+$\Dbc(Y',\Lambda)$: for $\Lambda=E,\Qlb$ by [sk-thm-sfb-shriek-base-change],
+and for $\Lambda=\mathcal O_E$ by [thm-cbc-complete-proetale], which combines
+integral proper base change ([sk-thm-sfb-proper-base-change]) with
+extension-by-zero base change ([sk-def-sfb-open-base-change]). No assertion is made for
 the discrete non-torsion coefficients $\mathcal O_E,E,\Qlb$ on the small
 étale site, where $\operatorname{Ex}_!$ is not an isomorphism in general
 (for proper $f$ it is the exchange $\operatorname{Ex}_*$ of
 [sk-prop-sf-comp-proper], for which [sk-thm-sf-package] (2) records the
 same restriction). Whenever $\operatorname{Ex}_!$ is said to be an
-isomorphism "at every coefficient stage", this typing is meant.
+isomorphism "for every admissible coefficient ring", this typing is meant.

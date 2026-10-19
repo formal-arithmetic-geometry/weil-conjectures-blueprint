@@ -2,8 +2,8 @@
 id = "sk-rem-sf-fullcd-scope"
 kind = "remark"
 title = "What this does and does not discharge"
-order = 2488
-uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-prop-sf-existence", "thm-sf-ambient-adjoint-class"]
+order = 2401
+uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-thm-existence", "sk-prop-sf-existence", "thm-sf-ambient-adjoint-class"]
 tags = ["sketch"]
 +++
 [sk-prop-sf-fullcd-etale-origin] is the form of
@@ -68,8 +68,10 @@ rationalization restore the ambient adjoint. *Repair boundary.* The
 sheaf $\mathcal F$ is not of étale origin, and no statement of this
 blueprint applies an adjunction $Rf_!\dashv Rf^!$ outside the étale-origin
 class: the constructible exceptional adjoint $Rf^!$ of
-[sk-def-sf-operations] (vi), transported from the étale adjoint $f^{\times}$ of
-[def-weil-exceptional-inverse-image], is unconditional, preserves $\Dctf$
+[sk-def-sf-operations] (vi) — for finite coefficients the étale adjoint
+$f^{\times}$ of [def-weil-exceptional-inverse-image] transported to the
+pro-étale site, and for every admissible condensed $\Lambda$ the right
+adjoint of $Rf_!$ on $\Dctf$ of [sk-thm-existence] — is unconditional, preserves $\Dctf$
 ([sk-prop-sf-rf-shriek-preservation]), and is the only exceptional functor
 the duality, trace and weight chapters use. Their terminal statements
 ([sk-thm-poincare-duality], [sk-input-weights],

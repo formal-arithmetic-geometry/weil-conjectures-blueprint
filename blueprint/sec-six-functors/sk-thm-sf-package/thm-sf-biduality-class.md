@@ -4,11 +4,13 @@ kind = "theorem"
 title = "Verdier biduality on the coefficient class"
 lean = ["AlgebraicGeometry.Etale.verdierDual_finiteStage"]
 order = 2500
-uses = ["lem-coef-integral-residue-tor", "lem-weil-verdier-preservation-strata", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality"]
+uses = ["lem-coef-integral-residue-tor", "lem-weil-verdier-preservation-strata", "thm-coef-integral-verdier", "thm-fix-general-biduality", "sk-def-sf-setting", "sk-thm-pd-verdier-duality", "det-pd-biduality-coefficients", "sk-prop-scalar-six", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Let $X$ be separated of finite type over $\Fbar$, and let
 $\Lambda=A_{E,n},\mathcal O_E,E$, or $\Qlb$.
-Use the constructible coefficient categories of the blueprint and put
+regarded as a condensed ring, and use the categories
+$\Dctf(X,\Lambda)\subseteq D(X_{\mathrm{pro\acute et}},\Lambda)$ of
+[sk-def-sf-setting]. Put
 $\omega_{X,\Lambda}=Ra_X^!\Lambda$,
 $D_{X,\Lambda}=R\mathcal Hom_\Lambda(-,\omega_{X,\Lambda})$.
 Then $D_{X,\Lambda}$ is an exact contravariant anti-equivalence
@@ -18,12 +20,14 @@ $$
 K\longrightarrow D_{X,\Lambda}D_{X,\Lambda}K
 $$
 
-is a natural isomorphism. At the integral and field stages this is
-the whole specified category $D^b_c(X,\Lambda)$.
+is a natural isomorphism ([sk-thm-pd-verdier-duality]). For
+$\Lambda=\mathcal O_E,E,\Qlb$ this is the whole category
+$\Dbc(X,\Lambda)$.
 
 At finite coefficients, an input Tor interval $[a,b]$ gives
-$[-b-2\dim X,-a]$ for its dual. At integral coefficients the
-same assertion holds for the uniform Tor intervals of the finite
-reductions. In particular the finite or integral dualizing object
-has interval $[-2\dim X,0]$. Field objects may be computed from
-any integral representative and then localized.
+$[-b-2\dim X,-a]$ for its dual. For $K\in\Dbc(X,\mathcal O_E)$ the
+reductions $K_n$ have Tor amplitude in one interval $[a,b]$, and the
+reductions of $D_{X,\mathcal O_E}K$, which are the duals $D_{X,A_{E,n}}K_n$
+([sk-prop-scalar-six]), have Tor amplitude in $[-b-2\dim X,-a]$. In
+particular the finite or integral dualizing object has interval
+$[-2\dim X,0]$.

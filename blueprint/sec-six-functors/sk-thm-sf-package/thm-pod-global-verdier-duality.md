@@ -18,7 +18,7 @@ R\Gamma_c(X,K)^\vee\xrightarrow{\sim}R\Gamma(X,\mathbb D_XK),
 $$
 
 with the cohomology functors
-of the fixed coefficient stage. It is natural in $K$ and compatible
+of the fixed coefficient ring. It is natural in $K$ and compatible
 with shifts. For a site-perfect
 $K$, it is also compatible with finite coefficient reduction and
 scalar extension under the smooth orientation and its coefficient

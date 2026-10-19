@@ -5,12 +5,13 @@ title = "Graded Euler-product identity for a middle extension"
 lean = ["AlgebraicGeometry.WeilSheaf.coeff_prod_inv_localPolynomial_stalk_directImage"]
 order = 2998
 tags = ["latex:corollary"]
-uses = ["d-real-cohom", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-qbar-category", "def-wf-middle-extension", "thm-trf-grothendieck-lefschetz-qbar", "thm-trf-l-function-euler-product"]
+uses = ["d-real-cohom", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-wf-boundary-stalk-invariants", "prop-wf-weil-sheaf-representation-equivalence", "sk-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "det-thm-tf-uniform-formula-weil", "thm-trf-l-function-euler-product"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve, let
 $j:U_0\hookrightarrow X_0$ be a dense open immersion, and let
-$\mathcal F$ be lisse on $U_0$ in the coefficient conventions of
-[def-weil-pbc-qbar-category], with the middle extension
+$\mathcal F$ be a lisse Weil sheaf on $U_0$, i.e. a lisse
+$\overline{\mathbf Q}_{\ell,U}$-module ([sk-lem-coefficient-heart]) with a Weil structure,
+with the middle extension
 $j_*\mathcal F$ of
 [def-wf-middle-extension]. As power series in $t$,
 

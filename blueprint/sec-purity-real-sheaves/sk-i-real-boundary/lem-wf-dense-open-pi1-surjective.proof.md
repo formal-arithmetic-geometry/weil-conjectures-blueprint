@@ -58,10 +58,8 @@ there is $w'\in W(V'_0)$ of degree $n$; its image $\bar w'$ has degree
 $n$, so $w\bar w'^{-1}$ lies in $\pi_1(V)$ and, by (1), is the image of
 some $g\in\pi_1(V')$. Then $gw'\mapsto w$.
 
-*(3).* It suffices to work at a finite coefficient level, the
-$\Qlb$-statement being assembled from these levels by the conventions of
-[def-weil-pbc-constructible-complexes], and to evaluate on affine etale
-$T\to V$. Such $T$ is Noetherian, so by
+*(3).* For a finite locally constant sheaf over a finite ring it suffices to
+evaluate on affine etale $T\to V$. Such $T$ is Noetherian, so by
 [lem-fin-etale-normal-components] it is a finite disjoint union of
 normal integral $T_i$, and it suffices to treat each $T_i$. The open
 $T'_i:=T_i\times_VV'$ is nonempty (the image of $T_i$ is a nonempty open
@@ -74,8 +72,10 @@ $(k_*k^*\mathcal N)(T_i)=\mathcal N(T'_i)
 =\mathcal N_{\bar t}^{\pi_1(T'_i,\bar t)}$, and restriction is the
 inclusion of invariants. By (1) applied to $T'_i\subseteq T_i$ the two
 groups have the same image in $\operatorname{Aut}(\mathcal N_{\bar t})$,
-so the invariants agree. For curves this recovers
-[lem-a1-lisse-middle-extension].
+so the invariants agree. For a lisse $\Qlb$-sheaf on a smooth curve the
+statement is [lem-a1-lisse-middle-extension], whose proof computes the boundary
+stalks of $k_*k^*\mathcal N$ through an integral model as a consequence of the
+condensed comparison theorems.
 
 *(4).* The open $U'_0$ is again a curve in the sense of [d-real-setup]
 (a nonempty open of the irreducible smooth $U$ is connected), and $U$,
@@ -93,9 +93,11 @@ $W(U'_0)$-stable subspaces of a stalk coincide. Since subobjects match
 under the equivalence, lisse subsheaves of $\mathcal N$ and of
 $k^*\mathcal N$ correspond, which gives the statement on irreducibility.
 The geometric version is the same argument with
-[cor-galois-lisse-representations] and (1).
+[thm-lisse-qlbar-representations] and (1).
 
 *(5).* The curve $C_0$ is smooth with connected base change, hence
 integral of finite type over $k_0$ by Step 0, and its open $U_0$ is
-normal. At each finite coefficient level $\mathcal F$ is finite locally
-constant, so [lem-fin-normal-open-lisse-image] applies.
+normal. For $\mathcal F$ finite locally constant over a finite ring,
+[lem-fin-normal-open-lisse-image] applies. For a lisse $\Qlb$-sheaf,
+$j_*\mathcal F=\mathcal H^0(Rj_*\mathcal F)$ is constructible because $Rj_*$
+preserves $\Dbc(-,\Qlb)$ ([sk-thm-sf-ctf-stability]).

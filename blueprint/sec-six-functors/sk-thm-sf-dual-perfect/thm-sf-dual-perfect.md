@@ -10,7 +10,7 @@ In the Poincare duality conventions of [def-pod-conventions] (an
 instance of the setting of [def-sf-datum], with $X$ smooth,
 separated of finite type and of pure dimension $d$), let
 $K\in D^b_{ctf}(X,\Lambda)$ be perfect over $\Lambda_X$, at any
-coefficient stage $\Lambda\in\{A_{E,n},\mathcal O_E,E,\overline{\mathbf Q}_\ell\}$.
+admissible coefficient ring $\Lambda\in\{A_{E,n},\mathcal O_E,E,\overline{\mathbf Q}_\ell\}$.
 The smooth dualizing-complex identification
 $\eta_X:\omega_{X,\Lambda}\xrightarrow{\ \sim\ }\Lambda_X(d)[2d]$ of the
 purity chapter (the orientation of [def-sf-orientation] for $f=a_X$)

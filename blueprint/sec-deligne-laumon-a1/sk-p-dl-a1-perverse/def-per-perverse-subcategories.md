@@ -4,9 +4,10 @@ kind = "definition"
 title = "Perverse subcategories of the first kind"
 lean = ["AlgebraicGeometry.Etale.DerivedCategory.IsPerverseLE", "AlgebraicGeometry.Etale.DerivedCategory.IsPerverseGE", "AlgebraicGeometry.Etale.DerivedCategory.IsPerverseHeartCandidate"]
 order = 3083
-uses = ["def-per-support-condition", "def-weil-pbc-qbar-category"]
+uses = ["def-per-support-condition", "sk-def-sfb-bounded-constructible"]
 +++
-In the setting of [def-per-support-condition], put
+In the setting of [def-per-support-condition], inside $\Dbc(X,\Qlb)$
+([sk-def-sfb-bounded-constructible]), put
 
 $$
 \begin{aligned}

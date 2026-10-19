@@ -32,9 +32,11 @@ transitive, and it has sections locally since $\pi$ is an etale covering.
 étale cover $\pi$ and using Step 1 identifies
 $\pi^*\pi_*\overline{\mathbf Q}_\ell$ with the constant sheaf
 $\overline{\mathbf Q}_\ell[\mathbf F_p]$ carrying the regular representation;
-by [def-weil-pbc-etale-sheaves] a sheaf which becomes constant after an
-étale base change is locally constant, so $\pi_*\overline{\mathbf Q}_\ell$
-is lisse of rank $p$, its stalk at every geometric point being the regular
+a $\overline{\mathbf Q}_{\ell}$-module which becomes constant after
+pullback along the étale cover $\pi$ has a finite constant local model
+([sk-def-sfb-constructible]), so $\pi_*\overline{\mathbf Q}_\ell$, the
+pushforward of the coefficient sheaf $\overline{\mathbf Q}_{\ell,Y}$ on the
+pro-étale site ([def-fd-artin-schreier-sheaf]), is lisse of rank $p$, its stalk at every geometric point being the regular
 representation.
 *Step 3 (the idempotents split it).* Since $p\neq\ell$, the elements
 $e_\chi=\frac1p\sum_{a\in\mathbf F_p}\chi(-a)\sigma_a$ of the group algebra are
@@ -57,7 +59,8 @@ representation; the rank of an idempotent equals its trace, and
 $\operatorname{tr}\sigma_a=p\delta_{a,0}$, so
 $\operatorname{tr}e_\chi=\chi(0)=1$. Hence $\pi^*\mathcal L_\chi$ is constant
 of rank one, and $\mathcal L_\chi$ is lisse of rank one by
-[def-weil-pbc-etale-sheaves]. The summand $\chi=0$ is the invariant part
+[sk-def-sfb-constructible]. (For a finite coefficient ring the same steps
+may be read on the étale site, using [def-weil-pbc-etale-sheaves].) The summand $\chi=0$ is the invariant part
 $(\pi_*\overline{\mathbf Q}_\ell)^{\mathbf F_p}$, i.e. the invariants of the
 pushforward along a torsor, which is the constant sheaf
 $\overline{\mathbf Q}_\ell$; so $\mathcal L_0=1$.

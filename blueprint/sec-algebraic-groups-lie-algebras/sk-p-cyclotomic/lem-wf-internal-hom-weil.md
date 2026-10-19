@@ -4,15 +4,16 @@ kind = "lemma"
 title = "Internal Hom of Weil complexes"
 lean = ["AlgebraicGeometry.Etale.WeilComplex.internalHom"]
 order = 2915
-uses = ["def-wf-internal-hom", "def-wf-weil-category", "lem-wf-tensor-weil"]
+uses = ["def-wf-internal-hom", "def-weil-weil-sheaf-complex", "lem-wf-tensor-weil"]
 +++
-The construction of [def-wf-internal-hom] restricts to an exact
-bifunctor
+Let $\Lambda\in\{E,\Qlb\}$. The construction of [def-wf-internal-hom] defines a
+bifunctor on Weil complexes with underlying complexes in $\Dbc(X,\Lambda)$,
 
 $$
-R\operatorname{Hom}_E(-,-):\mathrm{WeilD}(X_0,E)^{\mathrm{op}}\times
-\mathrm{WeilD}(X_0,E)\to\mathrm{WeilD}(X_0,E),
+R\mathcal Hom_{\Lambda_X}(-,-):\ (K,\varphi_K),(L,\varphi_L)\longmapsto
+\bigl(R\mathcal Hom_{\Lambda_X}(K,L),\varphi_{\mathcal Hom}\bigr),
 $$
 
-the displayed conjugation being an isomorphism for every pair of Weil
-complexes.
+contravariant in the first and covariant in the second variable, lying over the exact
+bifunctor $R\mathcal Hom$ on $\Dbc(X,\Lambda)$; the displayed composite
+$\varphi_{\mathcal Hom}$ is an isomorphism for every pair of Weil complexes.

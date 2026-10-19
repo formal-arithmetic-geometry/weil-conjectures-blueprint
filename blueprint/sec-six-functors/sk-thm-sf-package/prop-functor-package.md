@@ -5,46 +5,49 @@ title = "Coefficient and functor package on the proved domains"
 lean = ["AlgebraicGeometry.WeilComplex.derivedLowerShriekObjIsoDerivedLowerStar", "AlgebraicGeometry.WeilComplex.nonempty_derivedLowerShriek_toComplex_iso_of_isOpenImmersion", "AlgebraicGeometry.WeilComplex.nonempty_derivedLowerShriek_comp_iso", "AlgebraicGeometry.WeilComplex.exists_distTriang_derivedLowerShriek_openClosed", "AlgebraicGeometry.WeilComplex.nonempty_upperStar_derivedLowerShriek_iso", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.upperStar_derivedLowerShriek_of_isPullback", "AlgebraicGeometry.WeilSheaf.higherLowerShriekZeroObjIsoLowerStar"]
 order = 2600
 tags = ["latex:proposition"]
-uses = ["cor-cbc-proper-coincidence", "cor-coef-integral-internal-hom", "cor-weil-boundary-duality-discharge", "cor-weil-finite-constructible-hom", "def-fix-six-functor-datum", "fix-cor-verdier-exchange", "fix-lem-exchanges", "fix-prop-coherence", "fix-prop-projection-formula", "lem-cbc-open-closed-recollement", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-coef-normalized-dvr-effectivity", "lem-coef-rational-operations", "lem-compact-support-direct-image-triangulated", "lem-fix-compact-support-coefficient-change", "lem-fix-operation-reduction", "lem-weil-coefficient-frobenius", "lem-weil-scalar-extension-exact-triangulated", "prop-coef-integral-exceptional-adjoint", "prop-compactification-coherence-detailed", "prop-weil-pbc-descent-functors", "sbc-thm-bounded-below-derived-smooth-base-change", "thm-cbc-finite-torsion", "thm-cbc-qbar", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-pur-adic-reconstruction", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-rational-and-qbar-purity", "thm-sf-comp-composition", "thm-sf-dual-perfect", "thm-weil-pbc-bounded-below", "thm-weil-pbc-idempotent-complete-triangulation", "thm-weil-pbc-qbar"]
+uses = ["cor-cbc-proper-coincidence", "cor-weil-boundary-duality-discharge", "cor-weil-finite-constructible-hom", "def-fix-six-functor-datum", "fix-cor-verdier-exchange", "fix-lem-exchanges", "fix-prop-coherence", "fix-prop-projection-formula", "lem-cbc-open-closed-recollement", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-compact-support-direct-image-triangulated", "lem-fix-compact-support-coefficient-change", "lem-fix-operation-reduction", "lem-weil-coefficient-frobenius", "prop-compactification-coherence-detailed", "sbc-thm-bounded-below-derived-smooth-base-change", "sk-def-sf-setting", "sk-def-sf-categories", "sk-def-sfb-coefficient-change", "sk-prop-sfb-finite-extension-compatibility", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-scalar-six", "sk-thm-existence", "sk-thm-sf-ctf-stability", "sk-thm-pd-verdier-duality", "sk-thm-sfb-proper-base-change", "sk-thm-sbc-coefficients", "sk-prop-sf-cbc", "sk-thm-purity-transport", "thm-cbc-finite-torsion", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-fix-general-biduality", "thm-pur-finite-coefficient-smooth-purity", "thm-sf-comp-composition", "thm-sf-dual-perfect", "thm-weil-pbc-bounded-below"]
 +++
-Use the coefficient stages $A_{E,n},\mathcal O_E,E,\Qlb$, finite-type
+Use the admissible coefficient rings $A_{E,n},\mathcal O_E,E,\Qlb$ of
+[sk-def-sf-setting], regarded as condensed rings, finite-type
 separated schemes over the fixed algebraic closure of a finite field, and separated
-finite-type morphisms of [def-fix-six-functor-datum].
+finite-type morphisms of [def-fix-six-functor-datum]. For each $\Lambda$ the
+categories are the full subcategories
+$\Dctf(X,\Lambda)\subseteq D(X_{\mathrm{pro\acute et}},\Lambda)$ of
+[sk-def-sf-categories]; for $\Lambda=\mathcal O_E,E,\Qlb$ they equal
+$\Dbc(X,\Lambda)$.
 Pullback, tensor and the two direct images have their proved constructible
 domains. At finite stages, internal Hom preserves bounded constructible
 finite-Tor complexes in both variables by
 [cor-weil-finite-constructible-hom].
 General internal-Hom coefficient change is [thm-coef-finite-hom].
-Integral internal Hom and exceptional inverse image preserve the
-specified bounded constructible category by
-[cor-coef-integral-internal-hom], [prop-coef-integral-exceptional-adjoint];
-their field versions are [lem-coef-rational-operations], [thm-coef-qbar-verdier].
-At finite coefficients the domain remains $D^b_{ctf}$; at integral
-and field coefficients it is the specified $D^b_c$.
+For every admissible $\Lambda$, the six operations preserve $\Dctf$
+([sk-thm-sf-ctf-stability]), and the
+exceptional inverse image is the right adjoint of $Rf_!$ on $\Dctf$ given by
+[sk-thm-existence]; their comparisons under reduction and extension of
+scalars are [sk-prop-scalar-six].
 The sharper dimension-free Hom bound and tensor-dual formulas still
 require a site-perfect first
 argument. Exceptional adjunction here is on these constructible
 categories, without asserting an unrestricted unbounded ambient adjoint.
 The following seven clauses collect the preceding results.
 
-1. Finite coefficient-field extension is exact. Compatible finite-stage
-functors and transformations descend to the idempotent-complete common-stage
-$\Qlb$-category.
+1. Extension of scalars along $E_X\to F_X\to\Qlb_X$, for finite extensions
+$F/E$, is exact, because these rings are flat over $E_X$, and commutes with
+the operations ([sk-prop-sfb-finite-extension-compatibility]). Every object
+and morphism of $\Dbc(X,\Qlb)$ descends to some finite $E$
+([sk-thm-sfb-qlbar-two-colimit]); this is a consequence about the condensed
+category, not its definition.
 1. Compactification comparisons for $Rf_!=R\bar f_*j_!$ are independent
-of refinement and satisfy the cocycle condition. For a derived-complete
-$\mathcal O_E$-object $K$, put
-$K_n=K\otimes^L_{\mathcal O_E}A_{E,n}$. Then
+of refinement and satisfy the cocycle condition. For
+$K\in\Dbc(X,\mathcal O_E)$, put
+$K_n=K\otimes^L_{\mathcal O_{E,X}}A_{E,n}$. Then
 $$
 (Rf_*K)\otimes^L_{\mathcal O_E}A_{E,n}\simeq Rf_*K_n,
 \qquad
-(Rf_!K)\otimes^L_{\mathcal O_E}A_{E,n}\simeq Rf_!K_n.
+(Rf_!K)\otimes^L_{\mathcal O_E}A_{E,n}\simeq Rf_!K_n
 $$
-Between finite quotient rings, both direct-image coefficient comparisons
-hold on the bounded finite-Tor domains. For a coherent normalized DVR
-tower, the canonical reduction of its derived limit recovers its terms
-by [lem-coef-normalized-dvr-effectivity]; uniform finite-level
-bounds supply constructibility of the integral output. No such claim
-is made for a tower whose normalization has not been proved.
+([sk-prop-scalar-six]). Between finite quotient rings, both direct-image
+coefficient comparisons hold on the bounded finite-Tor domains.
 1. Compact-support composition satisfies
 $R(gf)_!\simeq Rg_!Rf_!$, with the identity and associativity equations.
 For proper $f$, $Rf_!\simeq Rf_*$. For a closed immersion $i$
@@ -55,19 +58,19 @@ $$
 1. In a Cartesian square, $g^*Rf_*\to Rf'_*g'^*$ is an isomorphism
 if $f$ is proper or $g$ is smooth, and
 $g^*Rf_!\simeq Rf'_!g'^*$ for arbitrary base change, on the stated
-bounded coefficient domains: for $g^*Rf_*$ this means bounded-below
-complexes with torsion cohomology at the finite stages, and
-$D^b_c$ of the adic (pro-étale) categories at $\mathcal O_E$, $E$, $\Qlb$,
-obtained from the finite stages by derived limits and transport; no claim is
-made for discrete non-torsion coefficients on the small étale site.
+bounded coefficient domains: at the finite stages for $g^*Rf_*$ on
+bounded-below complexes with torsion cohomology, and for every admissible
+$\Lambda$ on $\Dctf(X,\Lambda)$ ([sk-thm-sfb-proper-base-change],
+[sk-thm-sbc-coefficients], [sk-prop-sf-cbc]); no claim is made for discrete
+non-torsion coefficients on the small étale site.
 1. For $K\in D^b_c(X,\Lambda)$ and $L\in D^b_{ctf}(Y,\Lambda)$,
 the compact-support projection map is an isomorphism:
 $$
 Rf_!K\otimes^L L\simeq Rf_!(K\otimes^L f^*L).
 $$
 1. Smooth purity for relative dimension $r$ identifies
-$Rf^!L\simeq f^*L(r)[2r]$, with its normalized trace, on the
-admissible domains and coefficient stages proved in the purity chapter.
+$Rf^!L\simeq f^*L(r)[2r]$, with its normalized trace, for every admissible
+$\Lambda$ ([sk-thm-purity-transport]).
 1. For separated finite-type $f:X\to Y$ and structure morphisms set
 $\omega_X=Ra_X^!\Lambda$ and
 $D_X=R\mathcal Hom(-,\omega_X)$. For
@@ -83,12 +86,12 @@ $D_Y^2\simeq\operatorname{id}$, is
 [thm-fix-general-biduality]. Its geometric proof also supplies the
 finite-stage boundary comparison in
 [cor-weil-boundary-duality-discharge].
-The coefficient comparisons and uniform bounds are proved separately
-in [thm-coef-integral-verdier], [thm-coef-rational-verdier], [thm-coef-qbar-verdier].
-They give the same anti-equivalence and evaluation-defined biduality
-on $D^b_c(Y,\mathcal O_E)$, $D^b_c(Y,E)$, and $D^b_c(Y,\Qlb)$.
-On these domains $Rf^!=D_Xf^*D_Y$, with its exceptional adjunction,
-by [lem-coef-finite-exceptional], [prop-coef-integral-exceptional-adjoint], [lem-coef-rational-operations].
+For every admissible $\Lambda$ the same anti-equivalence and
+evaluation-defined biduality hold on $\Dctf(Y,\Lambda)$
+([sk-thm-pd-verdier-duality]; integrally [thm-coef-integral-verdier]).
+On these domains $Rf^!=D_Xf^*D_Y$, with its exceptional adjunction
+([sk-thm-existence], [lem-coef-finite-exceptional] at finite levels), and the
+coefficient comparisons are [sk-prop-scalar-six].
 
 All comparisons have the coherence and equivariance proved for their
 individual clauses. No clause enlarges the domain of another clause.

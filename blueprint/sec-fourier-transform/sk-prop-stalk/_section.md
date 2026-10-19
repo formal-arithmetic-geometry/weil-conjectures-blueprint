@@ -4,12 +4,12 @@ kind = "proposition"
 title = "P3: the stalks are fibre integrals"
 order = 3042
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_fourierTransform_geometricStalk"]
-uses = ["sk-def-as", "sk-def-ft", "sk-def-kernel", "sk-prop-sf-cbc"]
+uses = ["sk-def-as", "sk-def-ft", "sk-def-kernel", "sk-prop-sf-cbc", "sk-thm-sfb-shriek-base-change"]
 tags = ["sketch"]
 +++
 Let $S=\Spec k$, $V\cong\mathbf A^r_k$, let $\bar\xi:\Spec\Omega\to V^\vee$
 be a geometric point of $V^\vee$, $\Omega$ algebraically closed, and
-$K\in\Dbc(V,E)$. Write
+$K\in\Dbc(V,\Lambda)$ for $\Lambda=E$ or $\Qlb$. Write
 $V_{\bar\xi}=(V\times_kV^\vee)\times_{p_2,V^\vee}\bar\xi=V\times_k\Omega$ for
 the fibre of $p_2$ over $\bar\xi$: it is $V_{\bar k}$ when $\bar\xi$ is a
 $\bar k$-point of $V^\vee$, and for $\bar\xi$ lying over a non-closed point

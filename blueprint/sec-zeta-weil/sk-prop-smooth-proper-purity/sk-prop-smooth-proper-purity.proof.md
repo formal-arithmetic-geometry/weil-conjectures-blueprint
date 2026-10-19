@@ -34,7 +34,7 @@ $$
 $$
 
 The smooth orientation $\Lambda_X(d)[2d]\cong Rf^!\Lambda_Y$ of
-[sk-thm-smooth-purity], at the $\Qlb$-stage by
+[sk-thm-smooth-purity], with coefficients $\Qlb$ by
 [sk-thm-purity-transport], and the relative perfect form
 $\theta_{f,\mathcal F}$ of [sk-thm-sf-dual-perfect] (the lisse
 $\mathcal F$ is perfect) identify the inner term:

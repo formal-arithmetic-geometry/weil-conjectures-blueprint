@@ -15,4 +15,4 @@ $X_{\Et}$ of finite Tor amplitude
 in $[a,b]$. Then the pro-étale direct image $Rf_*K$ is bounded
 constructible on $Y_{\mathrm{proet}}$ and has finite Tor amplitude in
 $[a,b+2d]$; that is, clause (iii) of the finite-Tor preservation summary holds at
-the finite coefficient stage $A$ for such $K$.
+the finite coefficient ring $A$ for such $K$.

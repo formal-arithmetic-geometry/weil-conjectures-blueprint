@@ -1,15 +1,14 @@
 +++
 kind = "proof"
 of = "lem-a1-local-boundary-duality"
-uses = ["def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-wf-tate-twist", "fix-cor-verdier-exchange", "lem-cbc-open-closed-recollement", "lem-fix-weil-operations", "lem-pod-cohomology-of-dual-over-field", "prop-pur-rational-purity-trace-coherence", "prop-sf-closed-immersion-unit", "prop-sf-closed-unit-all-stages", "prop-sf-localization-all-stages", "prop-sf-open-closed-triangle-all-stages", "prop-weil-open-closed-recollement-adjunctions", "thm-coef-qbar-verdier", "thm-pur-rational-and-qbar-purity"]
+uses = ["def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-wf-tate-twist", "fix-cor-verdier-exchange", "lem-cbc-open-closed-recollement", "lem-fix-weil-operations", "lem-pod-cohomology-of-dual-over-field", "prop-sf-closed-immersion-unit", "prop-sf-closed-unit-all-stages", "prop-sf-localization-all-stages", "prop-sf-open-closed-triangle-all-stages", "prop-weil-open-closed-recollement-adjunctions", "sk-thm-pd-verdier-duality", "sk-thm-purity-transport", "sk-prop-sp-purity-bc"]
 +++
-Work on the geometric curves with $\Qlb$-coefficients and the Weil
-structures of [lem-fix-weil-operations]. The Verdier duals, their
-biduality, the exceptional functors $Ri^!$ of
-[def-weil-exceptional-inverse-image] with $Ri_!=Ri_*\dashv Ri^!$,
-and the identity $Rf^!=\mathbb D_Xf^*\mathbb D_Y$ are those of
-[thm-coef-qbar-verdier]. Smooth purity
-[thm-pur-rational-and-qbar-purity] for the structure map of $U$
+Work on the geometric curves in $\Dbc(-,\Qlb)$ with the Weil
+structures of [lem-fix-weil-operations]. The Verdier duals are
+anti-equivalences by the biduality of [sk-thm-pd-verdier-duality], and
+the exceptional functors $Ri^!$ are those of
+[def-weil-exceptional-inverse-image], with $Ri_!=Ri_*\dashv Ri^!$. Smooth purity
+[sk-thm-purity-transport] at $\Lambda=\Qlb$ for the structure map of $U$
 gives $\omega_U\simeq\Qlb(1)[2]$, hence, $F$ being lisse,
 $\mathbb D_UF\simeq F^\vee(1)[2]$ (the dual of a lisse sheaf is the
 finite-rank coefficient dual; see [def-wf-tate-twist] for the twist).
@@ -22,10 +21,25 @@ gives $Rj_*G\simeq\mathbb D_Cj_!\mathbb D_UG$. In particular
 $Rj_*G$ is bounded constructible, and applying $\mathbb D_C$ and
 biduality on $C$ gives $\mathbb D_CRj_*G\simeq j_!\mathbb D_UG$.
 
-*Step 2: $\mathbb D_Zi^*\simeq Ri^!\mathbb D_C$.* By
-[thm-coef-qbar-verdier], $Ri^!=\mathbb D_Zi^*\mathbb D_C$, so
-biduality on $C$ gives
-$Ri^!\mathbb D_CK\simeq\mathbb D_Zi^*K$ for constructible $K$.
+*Step 2: $\mathbb D_Zi^*\simeq Ri^!\mathbb D_C$.* For constructible $K$ on
+$C$ and $N$ on $Z$, using that $\mathbb D_C$ is an anti-equivalence
+([sk-thm-pd-verdier-duality]) and the exchange
+$\mathbb D_C(i_*N)\simeq i_*\mathbb D_ZN$ of [fix-cor-verdier-exchange] for
+the proper map $i$,
+
+$$
+\begin{aligned}
+\operatorname{Hom}(N,Ri^!\mathbb D_CK)
+&\cong\operatorname{Hom}(i_*N,\mathbb D_CK)
+\cong\operatorname{Hom}(K,\mathbb D_Ci_*N)\\
+&\cong\operatorname{Hom}(K,i_*\mathbb D_ZN)
+\cong\operatorname{Hom}(i^*K,\mathbb D_ZN)
+\cong\operatorname{Hom}(N,\mathbb D_Zi^*K),
+\end{aligned}
+$$
+
+naturally in $N$, the last step by biduality on $Z$. By Yoneda,
+$Ri^!\mathbb D_CK\simeq\mathbb D_Zi^*K$.
 
 *Step 3: $Ri^!j_!G\simeq i^*Rj_*G[-1]$.* First
 $Ri^!Rj_*G=0$: for every $N$ on $Z$,
@@ -69,13 +83,12 @@ $$
 *Step 5: the stalks.* The reduced scheme $Z$ is finite over the
 algebraically closed field $k$, hence a finite disjoint union of
 copies of $\operatorname{Spec}k$, smooth of dimension zero. Smooth
-purity [thm-pur-rational-and-qbar-purity] in dimension zero gives
+purity [sk-thm-purity-transport] in dimension zero gives
 $\omega_Z=\Qlb$, so on the component $\bar s$ the functor
 $\mathbb D_Z$ is $R\operatorname{Hom}_{\Qlb}(-,\Qlb)$ on bounded
 complexes of finite-dimensional spaces. By
-[lem-pod-cohomology-of-dual-over-field] (at a finite coefficient
-field over which the stalk complex is defined, then extended to
-$\Qlb$),
+[lem-pod-cohomology-of-dual-over-field] (linear algebra over a field,
+applied to the field $\Qlb$),
 
 $$
 H^{-1}\bigl(\mathbb D_ZA(F)\bigr)_{\bar s}
@@ -94,8 +107,10 @@ $(-1)$ in the target.
 direct images, internal Hom, evaluation, adjunction units and counits,
 and exchange maps, all Weil-equivariant by
 [lem-fix-weil-operations], together with the smooth-purity
-orientations, whose equivariance and trace compatibility are
-[prop-pur-rational-purity-trace-coherence]. Hence the isomorphism of
+orientations. These are Frobenius-equivariant because the purity
+isomorphism is compatible with base change ([sk-prop-sp-purity-bc],
+[sk-thm-purity-transport]), and the geometric Frobenius is induced by
+base change along the Frobenius of $k$. Hence the isomorphism of
 Step 4 is one of Weil complexes on $Z_0$, and its stalk at $\bar s$
 commutes with $F_s$; the twists carry their prescribed Frobenius
 actions.

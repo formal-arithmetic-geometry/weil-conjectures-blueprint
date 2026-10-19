@@ -3,14 +3,14 @@ id = "lem-wf-conjugate-tensor-traces"
 kind = "lemma"
 title = "The conjugate-tensor trace identity"
 order = 3105
-uses = ["cor-rp-euler-product", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "lem-zl-log-det-identity"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.traceFunction_tensorObj_and_l2Series_mul_lSeries"]
+uses = ["cor-rp-euler-product", "sk-lem-coefficient-heart", "sk-def-sf-weil-complexes", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "lem-zl-log-det-identity"]
+lean = ["AlgebraicGeometry.WeilSheaf.traceFunction_tensorObj_and_l2Series_mul_lSeries"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve over
 $k_0=\mathbf F_q$ (the separated finite-type conventions of
 [def-weil-pbc-scheme-conventions]), let $\mathcal F$ be a lisse
-Weil sheaf in the coefficient category of
-[def-weil-pbc-qbar-category], and let
+$\Qlb$-Weil sheaf (a lisse object of $\Cons(X,\Qlb)$, $X=X_0\otimes_{k_0}k$, [sk-lem-coefficient-heart],
+with a Weil structure, [sk-def-sf-weil-complexes]), and let
 $\bar{\mathcal F}$ be a Weil sheaf on $X_0$ whose local Frobenius
 eigenvalues are the complex-conjugate ($\iota$-conjugate) ones: at every
 closed point $x$, the image under $\iota$ of the local polynomial

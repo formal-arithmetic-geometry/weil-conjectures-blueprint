@@ -7,7 +7,7 @@ uses = ["cor-coef-integral-internal-hom", "lem-coef-finite-free-extension", "lem
 +++
 Let $E\subset L$ be finite extensions of $\Ql$, put
 $R=\mathcal O_E$, $S=\mathcal O_L$, and write
-$T_{S/R}K=S\widehat\otimes_R^LK$. This exact functor preserves
+$T_{S/R}K=\mathcal O_{L,X}\otimes^L_{\mathcal O_{E,X}}K$. This exact functor preserves
 the integral bounded constructible categories. There are canonical
 isomorphisms
 

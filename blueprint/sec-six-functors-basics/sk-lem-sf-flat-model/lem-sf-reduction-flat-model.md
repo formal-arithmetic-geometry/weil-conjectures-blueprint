@@ -6,7 +6,7 @@ lean = ["AlgebraicGeometry.Etale.reductionModIdeal_flatModel", "AlgebraicGeometr
 order = 2178
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-site", "def-weil-pbc-proetale-site", "lem-exc-constant-inverse-image-flat", "lem-sf-flat-model"]
 +++
-Let $A_{E,m}$ and $A_{E,n}$ be two finite coefficient stages with
+Let $A_{E,m}$ and $A_{E,n}$ be two finite coefficient rings with
 $m\leq n$, let $T$ be a scheme on which $\ell$ is invertible, let
 $K\in D^b_c(T,A_{E,n})$ be a bounded constructible complex of
 $A_{E,n}$-modules on the small pro-étale site or on the small étale

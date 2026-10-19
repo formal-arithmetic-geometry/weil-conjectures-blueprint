@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Purity of the geometric coinvariants"
 order = 3074
 uses = ["def-weil-frobenius-module-weights", "def-weil-punctual-weights", "def-wf-fundamental-representation", "p-linear-filtration"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.isPureOfWeightOver_geometricCoinvariants"]
+lean = ["AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_geometricCoinvariants"]
 +++
 Let $X_0$ be a scheme locally of finite type over $k_0=\mathbf F_q$,
 $X=X_0\otimes k$, and let $\mathcal F$ be a lisse Weil sheaf on $X_0$

@@ -1,40 +1,53 @@
 +++
-kind  = "proof"
-of    = "sk-i-relative-frob"
+kind = "proof"
+of = "sk-i-relative-frob"
 +++
-Put $Q=q^m$. By [sk-d-relative-frob], $r_m=(f,\Phi_{X,m})$ is the base
-change along $\mathbf F_q\to k$ of the relative $Q$-power Frobenius
-$F_{X_0/Y_0}:X_0\to X_0^{(Q)}=Y_0\times_{F_{Y_0},Y_0,f_0}X_0$, and
-$\pi\circ F_{X_0/Y_0}=F_{X_0}$ for the projection $\pi:X_0^{(Q)}\to X_0$,
-the base change of the absolute $Q$-power Frobenius $F_{Y_0}$ along $f_0$.
-Finite morphisms and universal homeomorphisms are stable under base change,
-so it suffices to treat $F_{X_0/Y_0}$.
+*Item (1).* The map $r_m$ is the geometric base change of the
+relative $q^m$-power Frobenius of $X_0/Y_0$. It is integral, radicial
+and surjective
+([Stacks, Tag 0CCB](https://stacks.math.columbia.edu/tag/0CCB)), and finite because it is integral and of
+finite type. For affine $Y_0=\operatorname{Spec}R$ and
+$X_0=\operatorname{Spec}S$, with $F$ the $q$-power Frobenius of $R$,
+it is given on coordinate rings by
 
-*Finiteness.* Affine-locally $F_{X_0/Y_0}$ is
-$R\otimes_{F,R}S\to S$, $r\otimes s\mapsto f_0^\#(r)s^{Q}$. Its image
-contains $f_0^\#(R)$ and all $Q$-th powers, so if $s_1,\dots,s_n$ generate
-$S$ over $R$, the $Q^n$ monomials $\prod_is_i^{b_i}$ with $0\le b_i<Q$
-generate $S$ as a module over the image. Hence $F_{X_0/Y_0}$ is finite, in
-particular integral.
+$$
+ R\otimes_{F^m,R}S\longrightarrow S,
+ \qquad b\otimes a\longmapsto f^\#(b)a^{q^m}.
+$$
 
-*Universal homeomorphism.* This is *not* tested on $T$-valued points for
-arbitrary test rings $T$: a universal homeomorphism need not induce
-bijections on $T$-points, and $p$-th roots need neither exist ($t$ in
-$\mathbf F_q[t]$) nor be unique ($0$ and $\epsilon$ in
-$\mathbf F_q[\epsilon]/(\epsilon^p)$). Use instead the characterization
-[Stacks, Tag 04DF](https://stacks.math.columbia.edu/tag/04DF): a morphism
-is a universal homeomorphism if and only if it is integral, universally
-injective and surjective, and universal injectivity is tested on points
-with values in fields. The absolute Frobenius $F_T$ of any
-$\mathbf F_p$-scheme is the identity on the underlying space and induces
-the purely inseparable maps $a\mapsto a^{Q}$ on residue fields, so it is
-integral, surjective and universally injective, hence a universal
-homeomorphism; so are $F_{X_0}$, $F_{Y_0}$ and the base change $\pi$. Then
-$F_{X_0/Y_0}$ is surjective because $\pi\circ F_{X_0/Y_0}=F_{X_0}$ is
-surjective and $\pi$ is injective, and it is injective on $L$-valued points
-for every field $L$ because $F_{X_0}$ is. Being integral, universally
-injective and surjective, $F_{X_0/Y_0}$ is a universal homeomorphism
-([Stacks, Tag 04DF](https://stacks.math.columbia.edu/tag/04DF); for $m=1$
-this is the relative-Frobenius statement
-[Stacks, Tag 0CCB](https://stacks.math.columbia.edu/tag/0CCB)). Base
-changing to $k$ gives the claim for $r_m$.
+By topological invariance on classical finite-Tor objects, $r_m^*$
+is an equivalence, so the unit $\eta_{r_m}$ in the construction is
+an isomorphism. The first arrow is compact-support base change, and
+the last is composition of $!$-pushforward, using that $r_m$ is
+proper.
+Pasting the Cartesian squares defining $X'_m$ and $X'_n$ gives the
+comparison for $m+n$: the relative Frobenii compose, and the unit of
+their composite is the composite of the units. Thus
+
+$$
+ \theta_{f,m+n,K}=
+ \theta_{f,m,(\Phi_X^n)^*K}\circ
+ (\Phi_Y^m)^*\theta_{f,n,K},
+$$
+
+which is the compatibility with iteration.
+
+*Item (2).* The displayed iteration identity and the naturality
+of $\theta$ give the formula for $\psi'_m$ by induction on $m$.
+
+*Item (3).* Write $h^\sharp$ for compact pullback along
+a finite map $h$, defined by its ordinary unit. Compatibility of base
+change with these units identifies compact pullback along
+$\Phi_Y^m$, followed by the base-change isomorphism
+$\operatorname{Ex}_!$, with compact pullback along $p_m$, and the
+next arrow in $\theta_{f,m}$ becomes $r_m^\sharp$. Their composite is
+$r_m^\sharp p_m^\sharp=(p_mr_m)^\sharp=(\Phi_X^m)^\sharp$, and
+postcomposing with $R\Gamma_c(\psi_m)$ gives the intertwining of the
+operators.
+
+*Item (4).* Pull the construction back to the fixed point $y$. The base
+change of $r_m$ to this fibre is its $q^m$-power scheme Frobenius,
+and proper base change carries its unit to the fibre unit. The same
+calculation therefore identifies $\psi'_{m,\bar y}$ with the compact
+Frobenius operator of the fibre. Its stalk map at a rational point
+$x$ of the fibre is $\psi_{m,\bar x}$, by composition of pullbacks.

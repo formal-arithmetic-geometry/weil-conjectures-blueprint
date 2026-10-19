@@ -43,59 +43,38 @@ in degrees $[-b-2d,-a]$. Thus all four complexes are perfect point
 complexes in the sense of [def-pod-perfect-point-complex], with the
 stated amplitudes.
 
-*Step 2: the stage $\mathcal O_E$.* Put $R=\mathcal O_E$,
-$A_n=A_{E,n}$, $\kappa=A_1$, and let $K\in D^b_c(X,R)$ be a
-derived-complete integral object
-([def-weil-derived-complete-integral-detailed]) with reductions
-$K_n=K\otimes^L_RA_n$. By [lem-coef-integral-residue-tor] all the
-$K_n$ have Tor amplitude in one interval $[a,b]$, namely the
-cohomological range of $K_1$. By Step 1 every
-$R\Gamma(X,K_n)$ and $R\Gamma_c(X,K_n)$ is a bounded complex of finite
-free $A_n$-modules in the common interval $[a',b']=[a,b+2d]$.
+*Step 2: integral coefficients.* Put $R=\mathcal O_E$, $A_n=A_{E,n}$, and
+let $K\in\Dctf(X,R)=\Dbc(X,R)$, a full subcategory of
+$D(X_{\mathrm{pro\acute et}},R)$, with reductions
+$K_n=K\otimes^L_{\mathcal O_{E,X}}A_n$. By [sk-prop-integral-criterion] each
+$K_n$ lies in $\Dbc(X,A_n)$, and by [lem-coef-integral-residue-tor] all the
+$K_n$ have Tor amplitude in one interval $[a,b]$, namely the cohomological
+range of $K_1$. By Step 1 every $R\Gamma(X,K_n)$ and $R\Gamma_c(X,K_n)$ is a
+bounded complex of finite free $A_n$-modules in the common interval
+$[a',b']=[a,b+2d]$.
 
-For compact support, [lem-coef-integral-compact-support] applied to
-$a_X$ gives $R\Gamma_c(X,K)\in D^b_c(s,R)$ with
-$R\Gamma_c(X,K)\otimes^L_RA_n\cong R\Gamma_c(X,K_n)$, these
-reductions having the uniform Tor interval $[a,b+2d]$; the integral
-compact support is the one of
-[def-weil-integral-rational-qbar-compact-support].
-
-For ordinary cohomology, by [def-weil-derived-direct-image]
-$R\Gamma(X,K)=R\varprojlim_nR\Gamma(X,K_n)$. The coefficient
-comparisons of [lem-coef-finite-direct-image], applied to the
-quotients $A_m\to A_n$ ($m\geq n$), are isomorphisms
-$R\Gamma(X,K_m)\otimes^L_{A_m}A_n\xrightarrow{\sim}R\Gamma(X,K_n)$
-compatible with successive quotients, so
-$(R\Gamma(X,K_n))_n$ is a normalized DVR tower on the point
-([def-coef-normalized-dvr-tower]).
-[lem-coef-normalized-dvr-effectivity] then gives
-$R\Gamma(X,K)\otimes^L_RA_n\cong R\Gamma(X,K_n)$ for all $n$, and
-$R\Gamma(X,K)$ is derived complete.
-
-It remains to see that a derived-complete $R$-complex $C$ whose
-reductions $C_n=C\otimes^L_RA_n$ are perfect with amplitude in
-$[a',b']$ is perfect. The triangle
-$C\xrightarrow{\varpi_E}C\to C_1\to$ gives exact sequences
+By [sk-lem-finite], $R\Gamma(X,K)=Ra_{X*}K$ and $R\Gamma_c(X,K)=Ra_{X!}K$ are
+perfect complexes over $R$: they lie in $\Dctf(s,R)$, whose objects have
+bounded finitely generated cohomology, and $R$ is a discrete valuation ring,
+of global dimension one. In particular they lie in
+$D^b_{\mathrm{fg}}(R)$. By [sk-prop-scalar-six], reduction modulo $\pi_E^n$
+commutes with $Ra_{X*}$ and $Ra_{X!}$:
 
 $$
-0\to H^i(C)/\varpi_EH^i(C)\to H^i(C_1)\to H^{i+1}(C)[\varpi_E]\to0 .
+R\Gamma(X,K)\otimes^L_RA_n\simeq R\Gamma(X,K_n),\qquad
+R\Gamma_c(X,K)\otimes^L_RA_n\simeq R\Gamma_c(X,K_n).
 $$
 
-Each $H^i(C)$ is a derived-complete $R$-module, the cohomology modules
-of a derived-complete complex being derived complete. By the derived
-Nakayama lemma for the ideal $(\varpi_E)$ of the Noetherian ring $R$,
-a derived-complete module $M$ with $M/\varpi_EM=0$ vanishes, and one
-with $M/\varpi_EM$ finitely generated is finitely generated. Hence
-$H^i(C)=0$ for $i\notin[a',b']$ and every $H^i(C)$ is a finitely
-generated $R$-module, i.e. $C\in D^b_{\mathrm{fg}}(R)$. Since $R$ is
-a discrete valuation ring, every finitely generated $R$-module has a
-two-term resolution by finite free modules and every complex over $R$
-is quasi-isomorphic to the sum of its shifted cohomology modules;
-therefore $C$ is quasi-isomorphic to a bounded complex of finite free
-$R$-modules, i.e. it is perfect ([def-pod-perfect-point-complex]),
-and its reductions are the perfect complexes $C_n$ of common
-amplitude $[a',b']$. Applied to $C=R\Gamma(X,K)$ and
-$C=R\Gamma_c(X,K)$ this proves the assertion for these two complexes.
+The common amplitude follows. Let $C$ be one of these two complexes; then
+$C\otimes^L_RA_1$ has cohomology in $[a',b']$. Over the discrete valuation
+ring $R$, $C\simeq\bigoplus_iH^i(C)[-i]$, and $C\otimes^L_RA_1$ has
+$H^i(C)/\pi_EH^i(C)$ in degree $i$ and the $\pi_E$-torsion $H^i(C)[\pi_E]$ in
+degree $i-1$. The $H^i(C)$ are finitely generated, so by Nakayama
+$H^i(C)=0$ for $i\notin[a',b']$, and $H^{a'}(C)$ is torsion-free, hence
+free. Each $H^i(C)$ with $i>a'$ has a two-term free resolution in degrees
+$[i-1,i]$. Hence $C$ is represented by a bounded complex of finite free
+$R$-modules in degrees $[a',b']$, and its reductions are perfect with
+amplitude in $[a',b']$, independent of $n$.
 
 For the duals, if $P^\bullet$ is a bounded complex of finite free
 $R$-modules representing $C$, then $C^\vee$ is the termwise dual
@@ -104,28 +83,22 @@ $C^\vee\otimes^L_RA_n\cong\operatorname{Hom}_{A_n}(P^\bullet\otimes_RA_n,A_n)=C_
 by Step 1 these reductions are perfect in the common interval
 $[-b',-a']$.
 
-*Step 3: the field stages.* For $\Lambda=E$, the object is the
-rationalization of an integral object $K_R$
-([def-weil-rationalization-karoubi]), possibly up to a direct
-summand, and the operations $R\Gamma$ and $R\Gamma_c$ at the stage $E$
-are the rationalizations of the integral ones
-([def-weil-derived-direct-image],
-[def-weil-integral-rational-qbar-compact-support]). By Step 2 they
-are $C\otimes_RE$ with $C$ a perfect $R$-complex; since
-$R\to E$ is flat, $H^i(C\otimes_RE)=H^i(C)\otimes_RE$ is
-finite-dimensional and vanishes outside the bounded interval of $C$,
-and $(C\otimes_RE)^\vee=C^\vee\otimes_RE$ has the same property. A
-direct summand of a bounded complex with finite-dimensional cohomology
-is again one. For $\Lambda=\Qlb$, the object is represented at a
-finite stage $E'/\Ql$ ([def-weil-algebraically-closed-coefficients]),
-and all four complexes are obtained from the $E'$-stage complexes by
-the exact extension of scalars $-\otimes_{E'}\Qlb$, which preserves
-boundedness, finite-dimensionality and commutes with the dual of a
-complex with finite-dimensional total cohomology. This proves the
-field-stage assertions.
+*Step 3: the field coefficients.* For $\Lambda=E$, [sk-lem-finite] shows
+directly that the four complexes are perfect over the field $E$, that is,
+bounded with finite-dimensional cohomology. The same follows from Step 2 by
+integral models: $K$ is obtained by finitely many cones and shifts from
+objects $(a_!L_0)[1/\ell]$ with integral $L_0$ ([sk-lem-integral-models]),
+and by [sk-prop-scalar-six] $R\Gamma$ and $R\Gamma_c$ commute with
+$-\otimes_RE$, which is exact. For $\Lambda=\Qlb$, $K$ is the extension of
+scalars of some $K'\in\Dbc(X,E')$ with $E'/\Ql$ finite
+([sk-thm-sfb-qlbar-two-colimit]); the four complexes are obtained from the
+$E'$-complexes by the exact extension of scalars $-\otimes_{E'}\Qlb$
+([sk-prop-scalar-six]), which preserves boundedness and
+finite-dimensionality and commutes with the dual of a complex with
+finite-dimensional total cohomology. This proves the field assertions.
 
 *Step 4: the proper case.* If $X_0$ is proper, then $a_X$ is proper
 and the comparison $R\Gamma_c(X,K)\to R\Gamma(X,K)$ of
 [def-weil-ordinary-compact-cohomology] is an isomorphism at each
-stage, compatible with the constructions above; in the setting of
-[def-pod-conventions] this applies when $X_0$ is in addition proper.
+coefficient ring, compatible with the constructions above; in the setting of
+[sk-def-set] this applies when $X_0$ is in addition proper.

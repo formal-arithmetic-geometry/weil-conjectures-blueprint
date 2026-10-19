@@ -3,7 +3,7 @@ id = "sec-trace-formula"
 kind = "section"
 title = "Trace Formula"
 order = 2609
-uses = ["sec-curve-estimates", "sec-proetale-coefficients", "sec-six-functors", "sec-smooth-purity"]
+uses = ["sec-curve-estimates", "sec-nagata-compactification", "sec-proetale-coefficients", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity"]
 +++
 **Content.** For a Weil complex $(K,\varphi)$ on a separated finite-type
 $X_0/\mathbf F_q$ this section proves the Grothendieck–Lefschetz trace
@@ -19,9 +19,11 @@ curve the Frobenius graph is contracting, so each local term is the naive
 stalk trace [sk-p-frob]. The formula on $\mathbf P^1$ gives it for closed
 subschemes of $\mathbf A^1$. Induction on the number of coordinates via
 $!$-pushforward and compact trace additivity extends it to all schemes
-[sk-thm-trace-formula]. Compatibility with coefficient reduction and adic
-realization [sk-prop-trace-adic] carry it to $\mathcal O_E$, $E$ and
-$\overline{\mathbf Q}_\ell$, and the logarithm of the Frobenius determinant
+[sk-thm-trace-formula]. The integral trace formula
+[sk-prop-tf-transport-integral], integral models of rational Frobenius
+correspondences [sk-lem-tf-rational-model] and descent to a finite
+coefficient field carry it to $\mathcal O_E$, $E$ and
+$\overline{\mathbf Q}_\ell$ [sk-thm-tf-uniform-formula], and the logarithm of the Frobenius determinant
 [sk-prop-logdet] turns it into the Euler-product identity for $L$-functions
 [sk-thm-trace-transport].
 

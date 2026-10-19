@@ -6,7 +6,7 @@ This is the curve case of the Euler-product form of the trace formula
 [thm-trf-l-function-euler-product], applied with $\Lambda=\Qlb$,
 $X_0=U_0$ (separated of finite type, of dimension one) and
 $K=\mathcal G_0$, a sheaf placed in degree zero, under the hypotheses
-of [thm-trf-grothendieck-lefschetz-qbar] with which the trace formula
+of [det-thm-tf-uniform-formula-weil] with which the trace formula
 is applied to $\mathcal G_0$. The local factor of that theorem at a
 closed point $x$ is $\det(1-F_xt^{e_x}\mid\mathcal G_{0,\bar x})$,
 with $e_x=d(x)$ and $F_x$ the local geometric Frobenius at $x$ of

@@ -4,22 +4,18 @@ kind = "theorem"
 title = "Euler-product form of the trace formula"
 lean = ["AlgebraicGeometry.WeilComplex.coeff_prod_inv_alternatingCharpolyRevProd_stalk"]
 order = 2744
-uses = ["def-trf-frobenius-operators", "def-weil-finite-field-fiber", "def-weil-pbc-rational-category", "def-weil-scheme-morphism-properties", "lem-sf-separably-closed-torsion-cd", "lem-trf-compactification-cohomology", "lem-trf-frobenius-degree-formula", "lem-trf-iterated-weil-cocycle", "lem-trf-local-frobenius-conjugacy", "lem-zl-euler-product-identity", "prop-trf-adic-coefficient-morphism-systems", "prop-trf-rational-frobenius-integral-model", "prop-trf-trace-formal-laws", "prop-weil-pbc-rational-transport", "thm-nagata-compactification", "thm-sc-finite-type-torsion-cd", "thm-trf-grothendieck-lefschetz-qbar", "thm-trf-trace-formula-e"]
+uses = ["def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "det-thm-tf-uniform-formula-weil", "sk-thm-tf-uniform-formula", "sk-prop-logdet", "sk-lem-finite", "lem-trf-frobenius-degree-formula", "lem-trf-iterated-weil-cocycle", "lem-trf-local-frobenius-conjugacy", "lem-zl-euler-product-identity", "prop-trf-trace-formal-laws", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, let $X_0$ be a separated finite-type
 $k_0$-scheme, and put $X=X_0\times_{k_0}k$. Let
-$\Lambda\in\{E,\Qlb\}$ and let $K$ be a Weil complex with
-coefficients in $\Lambda$ satisfying the hypotheses of
-[thm-trf-trace-formula-e] (if $\Lambda=E$) or of
-[thm-trf-grothendieck-lefschetz-qbar] (if $\Lambda=\Qlb$). These are
-only the finite-level hypotheses (explicit etale-origin witnesses and
-compactification admissibility for the reductions of a lattice of an
-$E$-representative $K_E$). The Weil map $\varphi_E$ of $K_E$ is an
-isomorphism of $D^b_c(X,E)$, but it need not be integral, or invertible
-on any lattice after any rescaling. Write
-$F=F^{\,1}_{c,K}$ for the global geometric Frobenius on
-$H_c^i(X,K)$, and for a closed point $x\in|X_0|$ of degree
+$\Lambda\in\{E,\Qlb\}$, with $E/\Ql$ finite (so $\Lambda=\Ql$ is
+included), and let $(K,\theta)$ be a Weil complex with coefficients in
+$\Lambda$ in the sense of [def-weil-weil-sheaf-complex]: $K\in\Dbc(X,\Lambda)$
+and $\theta:g_X^*K\xrightarrow{\sim}K$. No lattice, integrality or
+finite-level hypothesis is imposed. Write
+$F$ for the global geometric Frobenius on
+$H_c^i(X,K)$ of [det-thm-tf-uniform-formula-weil], and for a closed point $x\in|X_0|$ of degree
 $e_x=[\kappa(x):\Fq]$ write $F_x$ for the one-circuit local Frobenius
 on the stalk $K_{\bar x}$ (well defined up to conjugation). Put
 

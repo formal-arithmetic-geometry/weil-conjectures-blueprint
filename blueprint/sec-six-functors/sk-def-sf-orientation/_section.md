@@ -2,7 +2,7 @@
 id = "sk-def-sf-orientation"
 kind = "definition"
 title = "Orientation: an interface record"
-order = 2487
+order = 2400
 lean = ["AlgebraicGeometry.Etale.Orientation", "AlgebraicGeometry.Etale.Orientation.nonempty_iso_dualizingComplex"]
 tags = ["sketch"]
 +++
@@ -15,5 +15,5 @@ reads $\omega_{X,\Lambda}\cong\Lambda_X(d)[2d]$.
 
 In this blueprint the orientation is not an assumption: it is constructed as
 [sk-thm-smooth-purity] (§[sec-smooth-purity]), with the tensor form and the
-base change for $R^!$ in [sk-prop-cohsm] and the remaining coefficient stages
+base change for $R^!$ in [sk-prop-cohsm] and the remaining admissible coefficient rings
 in [sk-thm-purity-transport].

@@ -1,41 +1,42 @@
 +++
 id = "sk-thm-frobenius"
 kind = "theorem"
-title = "Frobenius: equivariance, similitudine, reciprocity"
+title = "Equivariance and reciprocal eigenvalues"
 lean = ["AlgebraicGeometry.Etale.TateOrientation.isWeilPairing_poincarePairing", "AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing_frobeniusOperator", "AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing_frobeniusOperator_eq", "AlgebraicGeometry.Etale.TateOrientation.isWeilPairing_untwistedPoincarePairing", "AlgebraicGeometry.Etale.isWeilPairing_poincarePairing"]
-order = 2789
-uses = ["sk-def-pairing", "sk-def-sf-orientation", "sk-def-sf-weil-complexes", "sk-thm-derived-duality"]
+order = 2751
+uses = ["sk-def-pairing", "sk-def-sf-orientation", "sk-def-sf-weil-complexes", "sk-thm-derived-duality", "sk-thm-sf-identification"]
 tags = ["sketch"]
 +++
-In the setting of [sk-def-sf-weil-complexes] ($X_0$ need not be proper),
-for a strict Weil complex $K$ perfect over $\Lambda_X$:
-
-**(a)** *Equivariance and similitude, at every coefficient stage.* At every
-stage $\Lambda\in\{\AEn,\Oe,E,\Qlb\}$ the derived pairing $\beta_K$ of
-[sk-def-pairing] is a morphism of Weil objects, so the induced degreewise
-pairing satisfies
-$\langle F_{c,K}x,F_{K^\vee(d)}y\rangle_i=\langle x,y\rangle_i$, and the
-untwisted line-valued pairing satisfies
+Let $X_0/\mathbf F_q$ be smooth and separated of pure dimension $d$, let
+$X=X_0\times\overline{\mathbf F}_q$, and let $(K,\phi_K)$ be a Weil complex on
+$X$ with $K$ locally perfect, in the sense of Definition
+[sk-def-sf-weil-complexes] (geometric Frobenius). Write
+$K^\vee=\cHom_X(K,\Lambda_X)$, and let $\beta_K$ be the derived Poincaré pairing
+of [sk-thm-sf-identification]. Equip the dual with the contragredient Weil
+structure
 
 $$
-\langle F_{c,K}x,F_{K^\vee}y\rangle_i^{\mathrm{untw}}
-=q^d\langle x,y\rangle_i^{\mathrm{untw}}.
+\operatorname{Fr}_X^*K^\vee
+\simeq(\operatorname{Fr}_X^*K)^\vee
+\xrightarrow{\ (\phi_K^{-1})^\vee\ }K^\vee.
 $$
 
-These are identities between bilinear maps and use no nondegeneracy.
+The derived Poincaré pairing is a morphism of Weil complexes for every
+admissible $\Lambda$. Write $F$ for the endomorphisms of cohomology induced by
+the Weil structures. The induced pairings on cohomology obey
 
-**(b)** *Reciprocity, at the field stages.* If moreover $\Lambda$ is a field
-coefficient stage in the sense of [sk-thm-derived-duality] (in practice
-$\Lambda\in\{E,\Qlb\}$), so that the degreewise pairings are perfect, then
-$F_{K^\vee}$ is conjugate to $q^d(F_{c,K}^{-1})^{\mathsf t}$ on the
-finite-dimensional space $H^{2d-i}(X,K^\vee)$, so the eigenvalues of $F$ on
-$H^{2d-i}(X,K^\vee)$ are the $q^d/\alpha$ with the multiplicities of the
-eigenvalues $\alpha$ on $H^i_c(X,K)$ (for proper $X$, $H^i_c=H^i$).
+$$
+\langle Fx,Fy\rangle=\langle x,y\rangle
+\quad\text{with the second factor twisted by }(d),
+$$
 
-Clause (b) is false at the integral stage $\Lambda=\Oe$: for
-$X_0=\Spec\Fq$, $d=0$, and the perfect complex
-$K=[\Oe\xrightarrow{\varpi_E}\Oe]$ in degrees $-1,0$ with the identity
-Weil datum, $H^0(K)=\Oe/\varpi_E$ while $H^0(K^\vee)=0$ and
-$H^1(K^\vee)=\Oe/\varpi_E$; the degreewise form of the duality is not
-perfect there ([sk-thm-sf-identification]), the missing information being
-carried by an $\operatorname{Ext}^1$ term.
+or, in the untwisted form with values in $\Lambda(-d)$,
+
+$$
+\langle Fx,Fy\rangle^{\mathrm{untw}}
+=q^d\langle x,y\rangle^{\mathrm{untw}}.
+$$
+
+For field coefficients the eigenvalues on $H^{2d-i}(X,K^\vee)$ are $q^d/\alpha$,
+with multiplicities, where $\alpha$ ranges over the eigenvalues on
+$H_c^i(X,K)$.

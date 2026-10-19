@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lem-zl-geometric-constituents-any-base"
-uses = ["def-weil-pbc-qbar-category", "def-wf-weil-group", "lem-mg-normal-restriction-semisimple", "lem-wf-finite-index-restriction-semisimple", "lem-wf-schur-scalar", "lem-wf-weil-group-constant-extension"]
+uses = ["thm-lisse-qlbar-representations", "sk-thm-sfb-qlbar-two-colimit", "def-wf-weil-group", "lem-mg-normal-restriction-semisimple", "lem-wf-finite-index-restriction-semisimple", "lem-wf-schur-scalar", "lem-wf-weil-group-constant-extension"]
 +++
 The rank gives finite length for representations of the Weil group
 of [def-wf-weil-group]. Treat an irreducible factor $V$ and
@@ -25,19 +25,20 @@ its tensor product with $S$ is Weil-stable. Irreducibility forces
 $\dim M=1$. Thus every such summand is geometrically irreducible.
 Taking a common multiple of the extension degrees for the finitely
 many original factors and refining their filtration proves the claim.
-These subrepresentations are objects of the finite-stage coefficient
-category.
-Indeed, start with a finite coefficient field defining the original
-representation and its Frobenius map, as in
-[def-weil-pbc-qbar-category]. Choose bases for the finitely many
-subspaces in the resulting filtration. Their finitely many coordinates
-belong to one finite extension $E'$ of that field. The subspaces
+In the application $V$ is the geometric representation of a lisse
+$\Qlb$-Weil sheaf, and the subrepresentations are again defined over a
+finite coefficient field. Indeed, by [thm-lisse-qlbar-representations]
+(a consequence of [sk-thm-sfb-qlbar-two-colimit] (1)) the original
+representation and its Frobenius map are defined over some finite
+extension $E/\mathbf Q_\ell$ inside $\Qlb$. Choose bases for the finitely
+many subspaces in the resulting filtration. Their finitely many
+coordinates belong to one finite extension $E'$ of $E$. The subspaces
 they span over $E'$ are stable: this can be checked after the faithful
 scalar extension $E'\subset\Qlb$, where stability has already been
 proved. Their subspace and quotient representations are continuous
 for the geometric fundamental group and inherit the $F^m$-action.
-Thus they give lisse Weil subsheaves and quotients at the finite stage
-$E'$, which also justifies applying the finite matrix witnesses to
-these constituents.
+By [thm-lisse-qlbar-representations] they correspond to lisse Weil
+subsheaves and quotients, defined over $E'$, which also justifies
+applying the finite matrix witnesses to these constituents.
 This argument concerns the extension $\Pi\rtimes\mathbf Z$ only
 and does not use a rank-one weight theorem on $X_0$.

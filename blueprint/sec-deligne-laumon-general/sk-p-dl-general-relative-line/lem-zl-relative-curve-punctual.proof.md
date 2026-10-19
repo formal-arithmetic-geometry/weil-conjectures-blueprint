@@ -2,7 +2,8 @@
 kind  = "proof"
 of    = "lem-zl-relative-curve-punctual"
 +++
-Compact-support base change [thm-cbc-qbar], applied to the
+Compact-support base change on $\Dbc(-,\Qlb)$
+[sk-thm-sfb-shriek-base-change], applied to the
 cartesian square formed by the fiber $U_y\to U_0$ and the point
 $y\to Y_0$, identifies the stalk of $R^ih_!\mathcal F$ at a
 geometric point over $y$ with

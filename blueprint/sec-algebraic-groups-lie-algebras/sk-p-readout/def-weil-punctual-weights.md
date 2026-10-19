@@ -4,15 +4,18 @@ kind = "definition"
 title = "Punctual weights"
 lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight"]
 order = 2898
-uses = ["def-weil-constructible-heart", "def-weil-finite-field-fiber", "def-weil-local-frobenius-trace", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "lem-weil-local-frobenius-conjugacy-class"]
+uses = ["def-weil-finite-field-fiber", "def-weil-local-frobenius-trace", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "lem-weil-local-frobenius-conjugacy-class", "sk-def-sf-weil-complexes", "sk-lem-coefficient-heart"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$, $k_0=\Fq$,
 and let $k=\Fbar$ be the fixed algebraic closure of $k_0$. Fix a prime
 $\ell\neq p$, write $\Ql=\mathbf Q_\ell$, choose an algebraic closure $\Qlb$
 of $\Ql$, and fix an isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$. Let
 $Y_0$ be a finite-type $k_0$-scheme, put $Y=Y_0\times_{k_0}k$, and let
-$\mathcal F$ be a constructible $\Qlb$-sheaf in the constructible heart,
-carrying the Weil-sheaf structure. For each closed point $y\in|Y_0|$, use the
+$\mathcal F\in\Cons(Y,\Qlb)$ be a constructible $\overline{\mathbf Q}_{\ell,Y}$-module on
+$Y_{\mathrm{proét}}$ ([sk-lem-coefficient-heart]) together with a Weil structure
+$\varphi:\operatorname{Fr}_Y^*\mathcal F\xrightarrow{\sim}\mathcal F$
+([sk-def-sf-weil-complexes]), i.e. a constructible $\Qlb$-Weil sheaf as in
+[def-weil-weil-sheaf-complex]. For each closed point $y\in|Y_0|$, use the
 closed-point notation [def-weil-point-counts-zeta], set $q_y=\#\kappa(y)$,
 choose an embedding $\kappa(y)\hookrightarrow k$, and choose a geometric
 point $\bar y\to Y$ above $y$. Let $F_y$ be the local geometric-Frobenius

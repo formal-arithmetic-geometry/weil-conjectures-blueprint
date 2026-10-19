@@ -69,5 +69,5 @@ $u$'s as for the $\varphi$'s. Step 5: the transports. The
 compatibility with finite reduction, scalar extension, composition,
 and base change is the corresponding compatibility of the data and of
 the coherence statements of [thm-pur-smooth-base-change-coherence]
-and [thm-pur-adic-reconstruction] (the data are constructed from
+and [det-sp-purity-coefficient-change] (the data are constructed from
 the operations and coherences, all of which transport).

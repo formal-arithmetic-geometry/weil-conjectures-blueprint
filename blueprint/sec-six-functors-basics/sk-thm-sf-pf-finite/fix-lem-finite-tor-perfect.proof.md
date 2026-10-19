@@ -62,12 +62,13 @@ $$
 with $Q$ in degree $a$ is a quasi-isomorphism.
 This proves the finite-coefficient assertion on either site.
 
-At a field coefficient $F$, the constructible stalk is instead a
-bounded complex with finite-dimensional cohomology over $F$.
-Splitting cycles and boundaries as vector subspaces gives
-$\bigoplus_r H^r(C)[-r]\xrightarrow{\sim}C$, with a finite direct
-sum, and proves perfectness directly at the rational stage of
-[def-weil-rationalization-karoubi].
-For $\Qlb$, choose a finite field of definition from
-[def-weil-algebraically-closed-coefficients] and extend this
-finite-dimensional complex to $\Qlb$.
+At a field coefficient $\Lambda\in\{E,\Qlb\}$, the pullback $\bar y^*K$ lies
+in $\Dbc(\bar y,\Lambda)$, and its cohomology sheaves are the constructible
+sheaves $\bar y^*H^r(K)$, locally free of finite rank
+([sk-lem-coefficient-heart]). Hence
+$C=\operatorname{Fib}(\bar y^*K)$ is a bounded complex of $\Lambda$-vector
+spaces with finite-dimensional cohomology
+([def-weil-finite-coefficient-point]). Splitting cycles and boundaries as
+vector subspaces gives $\bigoplus_r H^r(C)[-r]\xrightarrow{\sim}C$, a finite
+direct sum, which proves perfectness. No descent to a finite coefficient
+field is needed for $\Lambda=\Qlb$.

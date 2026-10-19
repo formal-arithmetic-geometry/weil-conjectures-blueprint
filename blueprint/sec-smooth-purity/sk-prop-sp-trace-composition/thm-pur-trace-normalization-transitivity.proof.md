@@ -72,10 +72,12 @@ base change of the adjunctions (the trace is the counit, the counit of
 the pulled-back adjunction is the pullback of the counit under the
 base-change maps: the base-change compatibility of the adjunction
 $Rf_!\dashv Rf^!$). Step 4: the coefficient
-transport. The compatibility with finite reduction is the transport
-of [thm-pur-finite-reduction-of-purity] (the trace is built from
-the purity isomorphism and the counit, both reducing compatibly),
-and the adic and rational transports are the corresponding
-statements of [thm-pur-adic-reconstruction] and
-[thm-pur-rational-and-qbar-purity], which transport the smooth
-trace together with the purity isomorphism.
+compatibilities. The compatibility with finite reduction is
+[thm-pur-finite-reduction-of-purity]: the trace is built from
+the purity isomorphism and the counit, and both reduce compatibly.
+For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$ the transitivity and base change
+are [sk-prop-sp-trace-composition] and [sk-prop-sp-purity-bc]. The
+normalization on $\mathbf A^d$ holds because these traces are, by
+[det-sp-purity-coefficient-change], the derived limit, the
+rationalization and the scalar extension of the finite traces, and these
+operations send $1$ to $1$.

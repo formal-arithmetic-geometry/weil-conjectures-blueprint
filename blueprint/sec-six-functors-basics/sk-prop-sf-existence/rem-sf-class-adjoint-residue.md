@@ -12,13 +12,14 @@ on every unbounded pro-etale object.
 
 Within the constructible coefficient categories, finite exceptional
 preservation is [thm-sf-preservation-class]; its coefficient
-comparison is [lem-coef-finite-exceptional]. Integral
-exceptional inverse image and its adjunction are
-[prop-coef-integral-exceptional-adjoint], and the rational and
-common-stage identifications are
-[lem-coef-rational-operations], [thm-coef-qbar-verdier].
-General Verdier biduality is proved at the finite, integral, rational,
-and algebraically closed coefficient stages in
-[thm-fix-general-biduality], [thm-coef-integral-verdier], [thm-coef-rational-verdier], [thm-coef-qbar-verdier].
+comparison is [lem-coef-finite-exceptional]. At the
+coefficient rings $\mathcal O_E,E,\Qlb$, regarded as condensed rings, the
+exceptional inverse image and its adjunction on the condensed categories
+$\Dbc(-,\Lambda)$ are [sk-thm-existence] (3)–(4), equivalently
+[sk-def-sfb-dc-upper-shriek]; their compatibility with reduction,
+localization and extension of scalars is [sk-prop-scalar-six].
+General Verdier biduality is proved for the finite coefficient rings in
+[thm-fix-general-biduality] and for all admissible coefficients in
+[sk-prop-sf-biduality-general].
 These later constructible results preserve the distinction between
 the bounded comparison adjunction and an unrestricted ambient one.

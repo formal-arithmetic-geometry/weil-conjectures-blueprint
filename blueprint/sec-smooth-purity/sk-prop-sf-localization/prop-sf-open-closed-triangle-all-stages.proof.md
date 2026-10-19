@@ -2,75 +2,52 @@
 kind  = "proof"
 of    = "prop-sf-open-closed-triangle-all-stages"
 +++
-*Finite stage.* Let $A=A_{E,n}$. By [lem-sf-proetale-constructible-origin]
-write $K\cong\nu_X^*G$ with $G$ a bounded constructible complex on the étale
-site. The étale triangle $j_!j^{-1}G\to G\to i_*i^{-1}G\to$ is
-[lem-cbc-open-closed-recollement]. Apply the exact functor $\nu_X^*$
-([prop-weil-pbc-site-comparison-finite-level]). The comparisons of
-[lem-cbc-proetale-extension-zero-comparison] (for $j_!$),
-[lem-weil-pbc-comparison-pullback] (for $j^*,i^*$) and
-[prop-weil-pbc-comparison-direct-image] (for the finite, hence
-quasi-compact, $i$) identify its vertices with $j_!j^*K$, $K$, $i_*i^*K$.
-These comparisons are those of the adjunctions of
-[prop-weil-open-closed-recollement-adjunctions], so the first two arrows
-become the pro-étale open counit and closed unit. Hom vanishing: by
-[prop-weil-open-closed-recollement-adjunctions] $j_!\dashv j^*$, and
-$j^*i_*=0$ (the closed fibre of an object over $U$ is empty), so
+*The triangle.* The argument is the same for every $\Lambda$. Apply
+[sk-prop-sf-open-closed-triangle] with $B=\Lambda_X=p_X^*\Lambda$. Its inverse
+images are $i^*\Lambda_X=\Lambda_Z$ and $j^*\Lambda_X=\Lambda_U$, since
+pullback of the condensed ring commutes with inverse image along $i$ and $j$
+([sk-def-sfb-pulled-back-coefficients]). The functors $i^*$, $i_*$, $j^*$,
+$j_!$ on $\Lambda$-module sheaves are exact, so they act on complexes and pass
+to derived categories without deriving. For a complex $M$ of
+$\Lambda_X$-modules representing $K$, the termwise exact sequence
+
+$$
+0\longrightarrow j_!j^*M\longrightarrow M\longrightarrow i_*i^*M\longrightarrow0
+$$
+
+of [sk-prop-sf-open-closed-triangle] is a short exact sequence of complexes,
+natural in $M$. It gives a distinguished triangle in
+$D(X_{\mathrm{proét}},\Lambda)$, whose first two arrows are the counit of
+$j_!\dashv j^*$ and the unit of $i^*\dashv i_*$
+([prop-weil-open-closed-recollement-adjunctions]).
+
+*Hom vanishing.* Since $j_!\dashv j^*$ is an adjunction of exact functors, it
+persists on derived categories. Moreover $j^*i_*=0$: for $V\to U$ weakly étale,
+$(i_*N)(V)=N(V\times_XZ)=N(\varnothing)=0$. Hence
 $\operatorname{Hom}(j_!N[m],i_*M)=\operatorname{Hom}(N[m],j^*i_*M)=0$. Two
 completions of the first two arrows differ by an automorphism $h$ of the third
 vertex with $h-\operatorname{id}$ factoring through $i_*i^*K\to
-j_!j^*K[1]$, hence through a zero map; so $h=\operatorname{id}$.
+j_!j^*K[1]$, hence through a zero map; so $h=\operatorname{id}$. The same
+vanishing gives functoriality.
 
-*Integral stage.* Put $R=\mathcal O_E$, $A_n=R/\varpi_E^n$,
-$K_n=K\otimes^L_RA_n$. The operations have the finite reductions:
-$(j^*K)_n\cong j^*K_n$ and $(i^*K)_n\cong i^*K_n$ by
-[lemma-weil-pbc-completed-pullback-reduction];
-$(i_*M)_n\cong i_*M_n$, with $i_*M$ derived complete, by
-[prop-weil-pbc-direct-image-limits]; and for the extension by zero,
-[lem-cbc-completed-extension-zero-comparison] applied to the identity square
-shows that $j_!N$ is derived complete with $(j_!N)_n\cong j_!N_n$, so it is
-the derived limit $R\varprojlim_n\operatorname{Res}_nj_!N_n$ of
-[def-weil-integral-rational-qbar-compact-support]. Define the counit
-$j_!j^*K\to K$ and the unit $K\to i_*i^*K$ as the derived limits of the
-finite counits and units, using $K\cong R\varprojlim_n\operatorname{Res}_nK_n$;
-their reductions are the finite maps.
-
-Hom vanishing. If $P$ is integral and
-$M=R\varprojlim_n\operatorname{Res}_nM_n$, then
-$\operatorname{Hom}(P[m],\operatorname{Res}_nM_n)=
-\operatorname{Hom}_{A_n}(P_n[m],M_n)$ by extension and restriction of
-scalars; if these vanish for all $m,n$, the Roos triangle of
-[prop-weil-pbc-roos-triangle] gives $\operatorname{Hom}(P[m],M)=0$. With
-$P=j_!j^*K$, $M=i_*i^*K$ the finite vanishing gives the integral one.
-
-Completion criterion. Let $u:A\to B$, $v:B\to C$ be maps of derived complete
-objects with $A,B\in D^b_c(X,R)$, $\operatorname{Hom}(A[m],C)=0$ for all
-$m$, and reductions $A_n\to B_n\to C_n$ extending to distinguished
-triangles. Then $vu=0$, because $\operatorname{Hom}(A,C)=0$. Choose a
-cone $B\xrightarrow{w}C'\to A[1]$ of $u$; then $v=\varphi w$ for a unique
-$\varphi:C'\to C$. Modulo $\varpi_E^n$, TR3 and the finite uniqueness make
-$\varphi_n$ an isomorphism, so the cone of $\varphi$ is derived complete with
-zero reductions, hence zero by [def-weil-derived-complete]. Thus
-$A\to B\to C\to A[1]$ is distinguished. Applied to the counit and unit this
-gives the integral triangle, and $i_*i^*K\in D^b_c(X,R)$.
-
-*Rational stage.* By [def-weil-rationalization-karoubi] the objects of
-$D^b_c(-,E)$ are the integral ones, and by
-[prop-weil-pbc-rational-transport] the exact $R$-linear functors
-$i^*,j^*,i_*,j_!$ and the two maps are the rationalized integral ones. The
-image of a distinguished integral triangle is distinguished, and Hom groups
-become $\operatorname{Hom}\otimes_RE=0$.
-
-*Algebraically closed stage.* An object of $D^b_c(-,\Qlb)$ is a pair
-$(E,K)$ ([def-weil-algebraically-closed-coefficients]). The operations are
-the descended functors of [prop-weil-pbc-descent-functors], built from the
-scalar-extension compatibilities of [prop-weil-pbc-scalar-extension] (for
-$j_!$, the finite-stage compact-support functor of
-[def-weil-integral-rational-qbar-compact-support]); the two maps descend as
-compatible transformations. The finite-stage inclusions are exact by
-[thm-weil-pbc-verdier-axioms], so the $E$-stage triangle gives the
-$\Qlb$-triangle, and Hom groups are filtered colimits of vanishing
-$E$-stage groups.
+*Constructibility.* The pullback $j^*$ is exact and preserves constructible
+sheaves, so $j^*K\in D^b_c(U,\Lambda)$. Since $D^b_c(X,\Lambda)$ is a
+triangulated subcategory ([sk-def-sfb-bounded-constructible]), containing $K$,
+it suffices to show $j_!j^*K\in D^b_c(X,\Lambda)$; then $i_*i^*K$ is in it
+as well. For $\Lambda=\mathcal O_E$ this is [sk-lem-integral-models], (3). For
+$\Lambda=E,\Qlb$ one has $D^b_c=D^b_{ctf}$, and $j_!=Rj_!$ preserves
+$D^b_{ctf}$ ([sk-thm-existence], (2)). For $\Lambda=A=A_{E,n}$ use the
+étale comparison of [sk-def-sf-setting]. Write $K\cong\nu_X^*G$ with $G$ a
+bounded constructible complex on the étale site
+([lem-sf-proetale-constructible-origin]); the étale extension by zero of a
+constructible complex is constructible. The comparisons of
+[lem-cbc-proetale-extension-zero-comparison] (for $j_!$),
+[lem-weil-pbc-comparison-pullback] (for $j^*,i^*$) and
+[prop-weil-pbc-comparison-direct-image] (for the finite, hence
+quasi-compact, $i$), together with the exactness of $\nu_X^*$
+([prop-weil-pbc-site-comparison-finite-level]), identify the triangle with
+$\nu_X^*$ of the étale triangle $j_!j^{-1}G\to G\to i_*i^{-1}G\to$ of
+[lem-cbc-open-closed-recollement].
 
 *Weil structures.* The geometric Frobenius $g_X$ of
 [def-weil-frobenius-detailed] restricts to $g_U$ and $g_Z$, and the squares

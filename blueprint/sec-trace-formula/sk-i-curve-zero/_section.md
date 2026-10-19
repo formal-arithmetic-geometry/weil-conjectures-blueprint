@@ -1,13 +1,21 @@
 +++
 id = "sk-i-curve-zero"
-kind = "proposition"
-title = "Zero-stalk vanishing on a smooth curve"
-order = 2685
-uses = ["sk-d-corr", "sk-d-curve-pieces", "sk-d-local-term", "sk-d-trace-class", "sk-p-pairing", "sk-thm-sf-package"]
+kind = "corollary"
+title = "Frobenius local vanishing"
+order = 2628
+uses = ["sk-d-corr", "sk-d-curve-pieces", "sk-d-local-term", "sk-d-trace-class", "sk-p-pairing", "sk-thm-sf-package", "sk-lem-tf-curve-supported-pairing", "sk-lem-tf-curve-restriction-zero", "sk-lem-tf-fixed-points"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.localTerm_traceClass_eq_zero_of_isZero"]
 tags = ["sketch"]
 +++
-Let $s$ be the spectrum of a field and let $X$ be quasi-compact, compactifiable
+In the situation of [sk-lem-tf-curve-supported-pairing], for any finite commutative
+$\ell$-primary ring $A$, $K\in\Dctf(X,A)$ and $v:(\Phi_X^m)^*K\to K$, one has
+
+$$
+ K_{\bar y}=0\quad\Longrightarrow\quad
+ \operatorname{LT}_y(v)=0.
+$$
+
+*Complement.* Let $s$ be the spectrum of a field and let $X$ be quasi-compact, compactifiable
 and smooth of relative dimension one over $s$. Let $(K,\varphi)$ be a Weil
 complex on $X$ with the model Frobenius of a scheme $X_0$ over a finite field
 $\mathbf F_q$, with $K\in D^b_{ctf}(X,A)$ and $\varphi:\Phi_1^*K\to K$ an

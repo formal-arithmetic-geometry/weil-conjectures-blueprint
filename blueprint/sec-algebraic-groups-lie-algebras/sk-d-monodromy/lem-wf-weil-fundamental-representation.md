@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The Weil fundamental representation is a continuous representation"
 lean = ["AlgebraicGeometry.Monodromy.DegreeDatum.lift", "AlgebraicGeometry.Monodromy.DegreeDatum.lift_apply_of_mem_ker", "AlgebraicGeometry.Monodromy.DegreeDatum.lift_degreeOneElement", "AlgebraicGeometry.Monodromy.DegreeDatum.continuous_lift"]
 order = 2845
-uses = ["cor-galois-lisse-representations", "def-tw-frobenius-action", "def-wf-fundamental-representation"]
+uses = ["def-tw-frobenius-action", "def-wf-fundamental-representation", "thm-lisse-qlbar-representations"]
 +++
 In the situation of [def-wf-fundamental-representation], the formula
 

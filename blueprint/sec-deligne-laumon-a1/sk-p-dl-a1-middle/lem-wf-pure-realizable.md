@@ -4,7 +4,7 @@ kind = "lemma"
 title = "A pure sheaf is realizable"
 order = 3095
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist", "def-wf-iota-real"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsPunctuallyPureOfWeight.isReal_biprod_constantTwist_dual", "AlgebraicGeometry.LAdicWeilSheaf.IsPunctuallyPureOfWeight.isRealizable"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.isReal_biprod_constantTwist_dual", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.isRealizable"]
 +++
 Let $\mathcal F$ be a lisse Weil sheaf which is punctually
 $\iota$-pure of weight $w$. Relative to the fixed isomorphism

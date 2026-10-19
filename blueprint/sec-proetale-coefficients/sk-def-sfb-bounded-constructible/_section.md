@@ -4,7 +4,7 @@ kind = "definition"
 title = "Bounded constructible derived category"
 order = 866
 uses = ["sk-def-sfb-derived-categories", "sk-def-sfb-constructible", "def-weil-abstract-derived-category"]
-lean = ["AlgebraicGeometry.ProEtale.boundedConstructible", "AlgebraicGeometry.ProEtale.BoundedConstructible", "AlgebraicGeometry.ProEtale.mem_boundedConstructible_iff", "AlgebraicGeometry.ProEtale.isTriangulated_boundedConstructible"]
+lean = ["AlgebraicGeometry.ProEtale.boundedConstructible", "AlgebraicGeometry.ProEtale.BoundedConstructible", "AlgebraicGeometry.ProEtale.mem_boundedConstructible_iff", "AlgebraicGeometry.ProEtale.isTriangulated_boundedConstructible", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructibleAdic"]
 tags = ["sketch"]
 +++
 Let $\mathcal A$ be a closed symmetric monoidal Grothendieck abelian category whose tensor

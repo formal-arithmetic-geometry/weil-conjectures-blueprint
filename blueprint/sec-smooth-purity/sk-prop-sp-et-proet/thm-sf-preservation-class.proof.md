@@ -62,7 +62,7 @@ class-restricted datum [def-sf-fullcd-class] supplied by
 [thm-sf-fullcd-class] with the sharp comparison bound $M=0$ of
 [prop-sf-comparison-bound-zero].
 
-*Step 3: independence of the coefficient stage.* The charts
+*Step 3: independence of the admissible coefficient ring.* The charts
 $U\subseteq f^{-1}(V)$, the integers $d_U$ and the number
 $\dim V\leq\dim Y$ come from the presentation of the coordinate rings
 $\mathcal O(U)$ over $\mathcal O(V)$, an operation on the schemes alone,
@@ -98,6 +98,6 @@ ambient exceptional right adjoint datum as its displayed hypothesis; by
 Step 1 that hypothesis is, on that category and at that stage, the theorem
 [cor-sf-ambient-adjoint-discharge], so the clause holds for every
 separated finite-type morphism $f$ without it. The assertions of the
-statement for the remaining coefficient stages are exactly the assertions
+statement for the remaining admissible coefficient rings are exactly the assertions
 that this proof does not make, as the last paragraph of the statement
 records.

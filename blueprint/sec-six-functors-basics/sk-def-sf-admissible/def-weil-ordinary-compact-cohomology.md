@@ -3,14 +3,16 @@ id = "def-weil-ordinary-compact-cohomology"
 kind = "definition"
 title = "Ordinary and compactly supported cohomology"
 order = 1869
-uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
+uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-bounded-constructible"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, where
 $q=p^a$, and a prime $\ell\neq p$. Write $\Ql=\mathbf Q_\ell$, choose an
 algebraic closure $\Qlb$ of $\Ql$, and choose a finite extension $E/\Ql$
 contained in $\Qlb$, with valuation ring $\mathcal O_E$, uniformizer
 $\varpi_E$, and $n\geq1$. Put $A_{E,n}=\mathcal O_E/\varpi_E^n$ and
-$\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$. Let $Y$ be a separated
+$\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, each regarded as a condensed
+ring, and let $D^b_c(-,\Lambda)$ be the condensed bounded constructible
+category ([sk-def-sfb-bounded-constructible]). Let $Y$ be a separated
 finite-type [def-weil-scheme-morphism-properties] $k$-scheme and $a_Y:Y\to
 s=\Spec k$ its structure morphism. Use the finite coefficient categories
 [def-weil-finite-coefficient-point], Weil complexes
@@ -26,13 +28,12 @@ $$
  D^b_{\mathrm{fin}}(A_{E,n}),\\
  \operatorname{Fib}_s:D^b_c(s,\mathcal O_E)&\xrightarrow{\sim}
  D^b_{\mathrm{fg}}(\mathcal O_E),\\
- \operatorname{Fib}_s:D^b_c(s,E)&\xrightarrow{\sim}D^b_{\mathrm{fd}}(E).
+ \operatorname{Fib}_s:D^b_c(s,E)&\xrightarrow{\sim}D^b_{\mathrm{fd}}(E),\\
+ \operatorname{Fib}_s:D^b_c(s,\Qlb)&\xrightarrow{\sim}D^b_{\mathrm{fd}}(\Qlb)
 \end{aligned}
 $$
 
-For $\Qlb$, the target is the stagewise $D^b_{\mathrm{fd}}(\Qlb)$ defined in
-the finite-coefficient construction
-[def-weil-finite-coefficient-point]. For $K\in D^b_c(Y,\Lambda)$, define the
+of [def-weil-finite-coefficient-point]. For $K\in D^b_c(Y,\Lambda)$, define the
 coefficient complexes
 
 $$
@@ -49,18 +50,12 @@ H^i(Y,K)=\mathrm H^i\bigl(\RGamma(Y,K)\bigr),
 H_c^i(Y,K)=\mathrm H^i\bigl(\RGammac(Y,K)\bigr).
 $$
 
-For a coefficient ring $\Lambda$ in the displayed list, let $\Lambda_Y$
-denote its coefficient object on the small pro-etale site
-[def-weil-pbc-proetale-site]: it is the finite-level constant
-sheaf $(A_{E,n})_Y$ for $\Lambda=A_{E,n}$, the completed coefficient sheaf
-$\widehat{\mathcal O}_{E,Y}$ from the derived-complete integral construction
-[def-weil-derived-complete-integral-detailed] for $\Lambda=\mathcal O_E$, and
-the scalar extensions supplied by the rationalized coefficient construction
-[def-weil-rationalization-karoubi] and the algebraically closed coefficient
-construction [def-weil-algebraically-closed-coefficients] for
-$\Lambda=E,\Qlb$. When $\Lambda\in\{E,\Qlb\}$, equip it with the canonical
-Weil structure from the Weil-sheaf structure
-[def-weil-weil-sheaf-complex]. Abbreviate
+For a coefficient ring $\Lambda$ in the displayed list, let
+$\Lambda_Y=p_Y^*\Lambda$ be its coefficient sheaf on the small pro-étale site
+[def-weil-pbc-proetale-site] ([sk-def-sfb-pulled-back-coefficients]); for
+$\Lambda=A_{E,n}$ this is the constant sheaf $(A_{E,n})_Y$. When
+$\Lambda\in\{E,\Qlb\}$ and $Y=Y_0\times_{k_0}k$, $\Lambda_Y$ is a Weil sheaf with the canonical Weil
+structure $g_Y^*\Lambda_Y\cong\Lambda_Y$ of [def-weil-weil-sheaf-complex]. Abbreviate
 
 $$
  H^i(Y,\Lambda)=H^i(Y,\Lambda_Y),\qquad

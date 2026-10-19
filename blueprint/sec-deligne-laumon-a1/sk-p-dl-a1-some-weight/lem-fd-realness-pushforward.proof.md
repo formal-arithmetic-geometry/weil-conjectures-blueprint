@@ -5,13 +5,11 @@ of    = "lem-fd-realness-pushforward"
 Step 1 (the traces on a fibre). Let $\xi\in|\mathbf A^1_{k_0}|$ be a
 closed point with residue field $\kappa(\xi)=\mathbf F_{q^d}$, and let
 $m\geq1$. The stalk of the higher direct image at $\bar\xi$ is the
-compact-support cohomology of the fibre, by the strict-henselization
-stalk formula for the compact-support direct image
-[prop-weil-pbc-strict-henselization-stalk-formula]; by the
+compact-support cohomology of the fibre, by compact-support base change
+along $\bar\xi\to\mathbf A^1$ ([sk-thm-sfb-shriek-base-change]); by the
 hypothesis, only degree one of $R\Gamma_c(X_{\bar\xi},\mathcal K)$ is
 nonzero. The Grothendieck–Lefschetz trace formula
-[thm-trf-grothendieck-lefschetz-qbar] in its point-counting form
-[cor-trf-point-counting], applied over the residue field
+[det-thm-tf-uniform-formula-weil](2) with $\Lambda=\Qlb$, applied over the residue field
 $\kappa(\xi)$ to the fibre, therefore gives
 
 $$

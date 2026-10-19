@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Central element determines the determinant weight"
 order = 2901
 tags = ["latex:corollary"]
-uses = ["d-weights", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-monodromy-data", "def-wf-weil-category", "lem-mg-degree-component-functoriality", "lem-mg-determinant-monodromy-morphism", "lem-wf-rank-one-algebraic-extension", "lem-wf-schur-scalar"]
+uses = ["d-weights", "def-weil-weil-sheaf-complex", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-monodromy-data", "lem-mg-degree-component-functoriality", "lem-mg-determinant-monodromy-morphism", "lem-wf-rank-one-algebraic-extension", "lem-wf-schur-scalar", "sk-lem-coefficient-heart"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, put
 $|k_0|=q$, and fix a real weight character $\lambda$ ([d-weights]). Let

@@ -71,7 +71,7 @@ thm:weil-pbc-bounded-below) and the smooth-base-change chapter the classical
 smooth base change ([sbc-thm-smooth-base-change],
 [sbc-thm-bounded-below-derived-smooth-base-change]), which are the
 instances quoted in the proofs above; the projection formula at all
-coefficient stages is the interface
+admissible coefficient rings is the interface
 fix-prop-projection-formula of the framework chapter, proved in the
 six-functor chapter of this manuscript, which is placed *after*
 the present chapter and can therefore not be quoted here.

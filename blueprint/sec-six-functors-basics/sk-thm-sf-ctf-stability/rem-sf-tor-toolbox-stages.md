@@ -1,26 +1,30 @@
 +++
 id = "rem-sf-tor-toolbox-stages"
 kind = "remark"
-title = "The four coefficient stages"
+title = "The four kinds of admissible coefficients"
 order = 2547
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-rationalization-karoubi", "lem-sf-flat-model", "lem-sf-pullback-tor-amplitude", "lem-sf-tensor-ctf", "lem-sf-tor-sheaf-constructible", "lem-weil-pbc-pullback-preserves-bounded-constructible", "thm-dg-finite-type-constructibility"]
+uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "lem-sf-flat-model", "lem-sf-pullback-tor-amplitude", "lem-sf-tensor-ctf", "lem-sf-tor-sheaf-constructible", "lem-weil-pbc-pullback-preserves-bounded-constructible", "thm-dg-finite-type-constructibility", "sk-thm-existence", "sk-def-pe-derived-completion", "sk-prop-integral-criterion", "det-prop-integral-criterion-reductions", "sk-lem-integral-models", "sk-prop-scalar-six", "lem-weil-field-tor-amplitude"]
 +++
 The statements [lem-sf-flat-model], [lem-sf-tor-sheaf-constructible], [lem-sf-tensor-ctf], [lem-sf-pullback-tor-amplitude]
-are formulated at the finite stages $A=A_{E,n}$. At the other three
-stages of [def-weil-finite-tor-amplitude] they read as follows.
-*Field stages:* $D^b_{ctf}(-,\Lambda)=D^b_c(-,\Lambda)$ for
-$\Lambda\in\{E,\Qlb\}$ *by definition*, so the finite-Tor cells
-there are the bounded-constructible cells of
-[lem-sf-tensor-ctf], [thm-dg-finite-type-constructibility] and
+are formulated at the finite stages $A=A_{E,n}$. At the coefficient rings
+$\mathcal O_E$, $E$, $\Qlb$, regarded as condensed rings, with the condensed
+categories $D^b_c(-,\Lambda)$, they read as follows.
+*Field coefficients:* $D^b_{ctf}(-,\Lambda)=D^b_c(-,\Lambda)$ for
+$\Lambda\in\{E,\Qlb\}$, a theorem ([sk-thm-existence],
+[lem-weil-field-tor-amplitude]), so the finite-Tor cells there are the
+bounded-constructible cells of [lem-sf-tensor-ctf],
+[thm-dg-finite-type-constructibility] and
 [lem-weil-pbc-pullback-preserves-bounded-constructible].
-*Integral stage:* for $K\in D^b_c(Y,\mathcal O_E)$ the definition
-asks that every reduction $K\otimes_{\mathcal O_E}^LA_{E,j}$ have finite
-Tor amplitude with one interval independent of $j$; pullback commutes with
-these reductions, $(Lf^*K)\otimes_{\mathcal O_E}^LA_{E,j}\cong Lf^*(K\otimes_{\mathcal O_E}^LA_{E,j})$, because $Lf^*$ is monoidal and
-carries the constant coefficient sheaf to the constant coefficient sheaf
-([def-weil-derived-pullback-tensor-hom]), so
-[lem-sf-pullback-tor-amplitude] gives the integral form of clause (i),
-with the same interval, as soon as the reduction isomorphism
-$Lf^*K\otimes_{\mathcal O_E}^LA_{E,j}\cong Lf^*(K\otimes_{\mathcal O_E}^LA_{E,j})$ and the derived completeness of
-$Lf^*K$ are available; both are instances of the finite-reduction clause
-proved for pullback in [lem-fix-operation-reduction].
+*Integral coefficients:* also $D^b_{ctf}(-,\mathcal O_E)=D^b_c(-,\mathcal O_E)$
+([sk-thm-existence]). An object $K\in D^b_c(Y,\mathcal O_E)$ is derived
+$\pi_E$-complete ([sk-def-pe-derived-completion], [sk-prop-integral-criterion]),
+and all its reductions $K\otimes^L_{\mathcal O_{E,Y}}(A_{E,j})_Y$ are bounded
+constructible with cohomology in one interval independent of $j$
+([det-prop-integral-criterion-reductions]). Pullback preserves
+$D^b_c(-,\mathcal O_E)$ ([sk-lem-integral-models] (3)) and commutes with these
+reductions, $(Lf^*K)\otimes^L_{\mathcal O_{E,X}}(A_{E,j})_X\cong
+Lf^*(K\otimes^L_{\mathcal O_{E,Y}}(A_{E,j})_Y)$, because $Lf^*$ is monoidal and
+$f^*\mathcal O_{E,Y}\cong\mathcal O_{E,X}$ ([def-weil-derived-pullback-tensor-hom],
+[sk-prop-scalar-six]). Hence [lem-sf-pullback-tor-amplitude], applied to the
+reductions, gives the integral form of clause (i), with an interval
+independent of $j$.

@@ -1,7 +1,31 @@
 +++
-kind  = "proof"
-of    = "sk-lem-universal-datum"
+kind = "proof"
+of = "sk-lem-universal-datum"
+uses = ["sk-lem-failure-field", "sk-lem-sbc-integral-tests", "sk-prop-injectivity"]
 +++
+[sk-lem-failure-field] gives a failure with direct image
+from the spectrum of a field $K$, and [sk-lem-sbc-integral-tests]
+lets us replace $K$ by an algebraic closure. On this geometric point a
+sheaf of $\mathbf Z/n$-modules is a $\mathbf Z/n$-module, hence a direct
+sum of cyclic groups $\mathbf Z/d$ with $d\mid n$. The exchange map
+commutes with this direct sum by continuity of qcqs direct images, so
+some summand $\mathbf Z/d$ still fails. Its positive-degree direct image
+from the geometric point vanishes, because every étale scheme over
+the point is a disjoint union of copies of it. The source of the
+exchange map is therefore zero, and the failure means that the target
+$R^qh_*\underline{\mathbf Z/d}$ is nonzero.
+
+If the base is $\operatorname{Spec}B$, replace it by
+$\operatorname{Spec}A$, where $A$ is the integral closure in $K$ of the
+image of $B$. The morphism $\operatorname{Spec}A\to\operatorname{Spec}B$
+is integral, so [sk-lem-sbc-integral-tests] keeps the failure.
+The fraction field $L$ of $A$ is the algebraic closure of
+$\operatorname{Frac}(\operatorname{im}(B\to K))$ in $K$, hence
+algebraically closed. In general $K/L$ is transcendental. This is the
+situation of [Stacks, Tag 0F08](https://stacks.math.columbia.edu/tag/0F08).
+
+*Complement.* In the notation of [sk-def-bc]:
+
 *Step 1 (a failure over a field).* By [sk-lem-failure-field] there are
 an affine $S_1$ with a morphism $S_1\to S$, the base change
 $f_1:X_1\to S_1$ of $f$, a field $K_0$ with $g_0:\Spec K_0\to S_1$, and a

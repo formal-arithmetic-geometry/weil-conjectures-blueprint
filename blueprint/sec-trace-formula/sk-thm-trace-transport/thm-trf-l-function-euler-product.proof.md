@@ -25,63 +25,41 @@ $$
 \tag{$*$}
 $$
 
-*Step 1: powers and finiteness.* We argue at the stage $E$, for the
-$E$-representative $(K_E,\varphi_E)$ and its operators of
-[prop-trf-rational-frobenius-integral-model]. The $\Qlb$-operators are
-their scalar extensions ([thm-trf-grothendieck-lefschetz-qbar]), and scalar
-extension preserves composition and conjugacy. No integrality of
-$\varphi_E$ is used in this step.
+*Step 1: powers and finiteness.* We argue directly over $\Lambda$, in
+$\Dbc(X,\Lambda)\subset D(X_{\mathrm{pro\acute et}},\Lambda)$.
 
-*Global powers.* By definition
-$\varphi_E^{[m]}=\varphi_E\circ Lg_\gamma^*\varphi_E^{[m-1]}$ after the
-composition isomorphisms of the rationalized pullbacks. This is the
-cocycle identity of [lem-trf-iterated-weil-cocycle], whose proof uses only
-associativity of composition and naturality of the pullback
-identifications, so it holds in $D^b_c(X,E)$. The base-change
-isomorphisms at the stage $E$ are rationalizations of the integral ones
-([prop-weil-pbc-rational-transport]). They are therefore natural,
-$g^{*}_{\gamma,c}\circ R\Gamma_c(X,f)=R\Gamma_c(X,Lg_\gamma^*f)\circ g^{*}_{\gamma,c}$,
-and compatible with composition,
-$g^{*}_{\gamma,c}\circ g^{m-1,*}_{\gamma,c}=g^{m,*}_{\gamma,c}$. Hence
-
-$$
-F^1_{c,K_E}\circ F^{\,m-1}_{c,K_E}
-=R\Gamma_c(X,\varphi_E)\circ R\Gamma_c(X,Lg_\gamma^*\varphi_E^{[m-1]})\circ
-g^{*}_{\gamma,c}\circ g^{m-1,*}_{\gamma,c}
-=R\Gamma_c(X,\varphi_E^{[m]})\circ g^{m,*}_{\gamma,c}=F^{\,m}_{c,K_E},
-$$
-
-and by induction $F^m_{c,K}=(F^1_{c,K})^m$.
+*Global powers.* By (2) of [det-thm-tf-uniform-formula-weil], the operator
+of the $m$-th iterate $\theta^{[m]}$ on $H_c^i(X,K)$ is $F^m$.
 
 *Local powers.* Consider the proofs of the conjugacy lemma
 [lem-trf-local-frobenius-conjugacy] and the degree formula
 [lem-trf-frobenius-degree-formula]. They use only four inputs:
-(a) the cocycle identity;
+(a) the cocycle identity of [lem-trf-iterated-weil-cocycle];
 (b) the canonical stalk identifications
-$(Lf^*M)_{\bar z}\cong M_{f\bar z}$ and the fixed-point identifications
+$(f^*M)_{\bar z}\cong M_{f\bar z}$ and the fixed-point identifications
 entering $\tau$, natural in $M$ and compatible with composition;
 (c) invertibility of the Weil map, for the inverse transports $T_i^{-1}$;
 (d) conjugacy invariance of traces.
 
-All four hold at the stage $E$:
-(a) as just shown;
-(b) the $E$-stage identifications are rationalizations of the integral
-ones ([prop-weil-pbc-rational-transport]), hence natural and compatible;
-(c) $\varphi_E$ is an isomorphism of $D^b_c(X,E)$ because $K$ is a Weil
-complex;
-(d) is [prop-trf-trace-formal-laws], item (1), over $E$.
+All four hold over $\Lambda$:
+(a) the proof of the cocycle identity uses only associativity of
+composition and naturality of the pullback identifications, which hold for
+the exact pullback functors on $D(X_{\mathrm{pro\acute et}},\Lambda)$;
+(b) these identifications are the composition isomorphisms of inverse
+images of $\Lambda_X$-modules, natural in $M$;
+(c) $\theta$ is an isomorphism because $(K,\theta)$ is a Weil complex;
+(d) is [prop-trf-trace-formal-laws], item (1), over $\Lambda$.
 
-So those proofs apply verbatim to $(K_E,\varphi_E)$. The one-circuit local
+So those proofs apply verbatim to $(K,\theta)$. The one-circuit local
 Frobenius $F_x=F_{x_{e_x},e_x}$ is well defined up to conjugation by
-$E$-linear isomorphisms of stalk complexes. Moreover, for every
+$\Lambda$-linear isomorphisms of stalk complexes. Moreover, for every
 $y\in X_0(\mathbf F_{q^m})$ above $x$ ($e_x\mid m$), the operator $F_{y,m}$
 on $K_{\bar y}$ is conjugate to $F_x^{\,m/e_x}$ on $K_{\bar x}$ by such an
 isomorphism.
 
-*Finiteness.* By the finiteness clause of [thm-trf-trace-formula-e] (and,
-for $\Lambda=\Qlb$, scalar extension), the spaces $H_c^i(X,K)$ and
-$H^j(K_{\bar x})$ are finite-dimensional over $\Lambda$ and nonzero for only
-finitely many $i$, $j$. Hence each local factor lies in
+*Finiteness.* By (1) of [det-thm-tf-uniform-formula-weil], the spaces
+$H_c^i(X,K)$ and $H^j(K_{\bar x})$ are finite-dimensional over $\Lambda$ and
+nonzero for only finitely many $i$, $j$. Hence each local factor lies in
 $1+T^{e_x}\Lambda[[T]]$, its determinant being invariant under
 conjugation of $F_x$, and the product in (2) is finite.
 
@@ -102,9 +80,7 @@ $F_{y,m}$ on $K_{\bar y}$ is conjugate to $F_x^{\,m/e_x}$ on $K_{\bar x}$
 by an isomorphism of complexes of $\Lambda$-vector spaces, for every $y$
 above $x$. The induced maps on each $H^j$ are therefore conjugate, and
 their ordinary traces agree. Hence the right-hand side of the trace
-formula of
-[thm-trf-trace-formula-e] (for $\Lambda=E$) or
-[thm-trf-grothendieck-lefschetz-qbar] (for $\Lambda=\Qlb$) is
+formula (2) of [det-thm-tf-uniform-formula-weil] is
 
 $$
 \sum_{y\in X_0(\mathbf F_{q^m})}\sum_j(-1)^j
@@ -132,42 +108,10 @@ place of $T$, the inner sum is
 $\log\det(1-T^{e_x}F_x\mid K_{\bar x})^{-1}$, so the total is
 $\log L(X_0,K,T)$ (Step 2). Applying $\exp$ gives (2).
 
-*Step 5: curves.* Let $\dim X_0\leq1$ and $K$ a sheaf in degree zero;
-the groups $H_c^i(X,K)$ depend only on $K$, so for $\Lambda=\Qlb$ we
-may compute them from the $E$-representative, and we may take
-$\Lambda=E$. Let $K_{\mathcal O_E}$ be a lattice of $K$ (one exists by
-[thm-trf-trace-formula-e]). In
-the rational category [def-weil-pbc-rational-category] a morphism
-whose cone has cohomology sheaves killed by a power of $\varpi$ is an
-isomorphism (on a bounded cone with cohomology killed by $\varpi^N$ in
-$b-a+1$ degrees, $\varpi^{N(b-a+1)}$ kills the identity, by the
-truncation triangles). The cohomology sheaves $\mathcal H^j$ of
-$K_{\mathcal O_E}$ for $j\neq0$ and the $\varpi$-power torsion of
-$\mathcal H^0$ vanish after inverting $\varpi$ and, being
-constructible, are killed by a power of $\varpi$; so
-$K\cong M[1/\varpi]$ for the $\varpi$-torsion-free constructible
-$\mathcal O_E$-sheaf $M=\mathcal H^0(K_{\mathcal O_E})/(\text{torsion})$,
-and $H_c^i(X,K)=H^i(R\Gamma_c(X,M))\otimes_{\mathcal O_E}E$. The
-levels $M\otimes^L_{\mathcal O_E}A_n=M/\varpi^nM$ of the reduction tower of
-$M$ are constructible sheaves in degree zero, since $M$ is torsion-free. By
-the argument of Step 0 of [thm-trf-trace-formula-e] they lie in
-$D^b_{ctf}(X,A_n)$ and form a normalized $A_\bullet$-system. Items (1) and
-(2) of [prop-trf-adic-coefficient-morphism-systems] need no Weil
-structure, and they give that $P=R\Gamma_c(X,M)$ is represented by a
-bounded complex of finite free $\mathcal O_E$-modules with
-$P\otimes^L_{\mathcal O_E}A_1\cong R\Gamma_c(X,M/\varpi M)$. For a perfect
-complex over the discrete valuation ring $\mathcal O_E$, the universal
-coefficient sequence gives
-$\dim_E H^i(P)\otimes E=\operatorname{rank}H^i(P)
-\leq\dim_{A_1}H^i(P\otimes^LA_1)$. Finally choose a compactification
-$j:X\hookrightarrow\bar X$ over $k_0$ by [thm-nagata-compactification];
-then $\dim\bar X\leq1$ after replacing $\bar X$ by the closure of $X$,
-and $R\Gamma_c(X,M/\varpi M)\cong R\Gamma(\bar X,j_!(M/\varpi M))$ by
-[lem-trf-compactification-cohomology]. The cohomology of the sheaf
-$j_!(M/\varpi M)$ vanishes in negative degrees, and in degrees $>2$ by
-[thm-sc-finite-type-torsion-cd] applied over the algebraically closed
-field $k$, whose torsion cohomological dimension is $0$ by
-[lem-sf-separably-closed-torsion-cd]. Hence $H_c^i(X,K)=0$ for
+*Step 5: curves.* Let $\dim X_0\leq1$ and let $K$ be a sheaf placed in
+degree zero, so its cohomology sheaves lie in degrees $[0,0]$. By the
+complement of [sk-lem-finite], $\RGammac(X,K)$ has cohomology only in
+degrees $[0,0+2\dim X]\subseteq[0,2]$. Hence $H_c^i(X,K)=0$ for
 $i\notin\{0,1,2\}$, which is (3).
 
 *Step 6: the embedding.* A field embedding $\iota$ is a ring

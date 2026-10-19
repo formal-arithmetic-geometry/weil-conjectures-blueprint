@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The $L^2$-weight of a punctually pure lisse sheaf equals its weight"
 order = 3110
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist", "def-wf-iota-real", "def-wf-l2-norm", "lem-tw-dual-negation"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.l2Weight_eq_of_isPunctuallyPureOfWeight"]
+lean = ["AlgebraicGeometry.WeilSheaf.l2Weight_eq_of_isPunctuallyPureOfWeight"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve over
 $k_0=\mathbf F_q$, and let $\mathcal G$ be a nonzero lisse Weil sheaf

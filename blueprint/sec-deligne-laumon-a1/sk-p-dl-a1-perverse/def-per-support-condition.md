@@ -4,16 +4,18 @@ kind = "definition"
 title = "Support and cosupport conditions"
 lean = ["AlgebraicGeometry.Etale.DerivedCategory.SupportCondition", "AlgebraicGeometry.Etale.DerivedCategory.CosupportCondition"]
 order = 3082
-uses = ["def-trf-dualizing-complex", "def-weil-derived-cohomology-sheaves", "def-weil-pbc-constructible-complexes", "def-weil-pbc-qbar-category", "def-weil-pbc-scheme-conventions"]
+uses = ["def-trf-dualizing-complex", "def-weil-derived-cohomology-sheaves", "sk-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be a
 separated scheme of finite
-type over a field $k$, and work in the bounded constructible
-$\overline{\mathbf Q}_\ell$-coefficient categories of
-[def-weil-pbc-qbar-category] on the etale site of $X$, with the
-constructible conventions of
-[def-weil-pbc-constructible-complexes] and the cohomology sheaves
-$\mathcal H^i$ of [def-weil-derived-cohomology-sheaves]. For
+type over a field $k$, and work in
+$D^b_c(X,\overline{\mathbf Q}_\ell)\subset D(X_{\mathrm{proét}},\overline{\mathbf Q}_\ell)$,
+the bounded complexes of $\overline{\mathbf Q}_{\ell,X}$-modules with constructible
+cohomology sheaves ([sk-def-sfb-bounded-constructible]), with the cohomology sheaves
+$\mathcal H^i$ of [def-weil-derived-cohomology-sheaves]. Each $\mathcal H^i(K)$ lies in
+$\Cons(X,\Qlb)$, so it is lisse on the strata of a finite stratification
+([sk-lem-coefficient-heart]) and its support (the closure of the set of points with nonzero
+geometric stalk) is a closed subset of $X$. For
 $K\in D^b_c(X,\overline{\mathbf Q}_\ell)$ write
 
 $$

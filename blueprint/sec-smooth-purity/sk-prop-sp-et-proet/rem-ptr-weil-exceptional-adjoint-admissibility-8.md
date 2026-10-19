@@ -10,7 +10,7 @@ the setting of the global finite-field datum, that is for $S=\Spec k$ with
 $k=\Fbar$ and for finite-type $S$-schemes, all three
 clauses are nevertheless theorems on
 the blueprint's coefficient class [def-sf-fullcd-used-class], at every
-finite coefficient stage and with
+finite coefficient ring and with
 constants independent of the stage: clause (1) by
 [cor-sf-ambient-adjoint-discharge], clauses (2) and (3) by
 [thm-sf-preservation-class] and [lem-weil-verdier-preservation-strata] of the

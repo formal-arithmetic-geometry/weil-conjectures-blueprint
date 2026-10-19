@@ -3,7 +3,7 @@ id = "rem-sf-preservation-matrix"
 kind = "remark"
 title = "Preservation results and their actual hypotheses"
 order = 2560
-uses = ["cor-coef-integral-internal-hom", "cor-sf-direct-image-ctf-proetale", "cor-sf-hom-ctf-proetale-unconditional", "cor-weil-boundary-duality-discharge", "lem-coef-integral-hom-reduction", "lem-coef-normalized-dvr-effectivity", "lem-sf-pullback-tor-amplitude", "lem-sf-tensor-ctf", "prop-coef-integral-exceptional-adjoint", "thm-sf-biduality-class", "thm-sf-hom-ctf", "thm-sf-preservation-class"]
+uses = ["cor-coef-integral-internal-hom", "cor-sf-direct-image-ctf-proetale", "cor-sf-hom-ctf-proetale-unconditional", "cor-weil-boundary-duality-discharge", "lem-coef-integral-hom-reduction", "lem-sf-pullback-tor-amplitude", "lem-sf-tensor-ctf", "thm-sf-biduality-class", "thm-sf-hom-ctf", "thm-sf-preservation-class", "sk-thm-existence", "sk-prop-scalar-six"]
 +++
 The finite-coefficient results used in the assembly have these scopes:
 
@@ -24,7 +24,8 @@ are [lem-weil-verdier-preservation-strata]. General finite-stage biduality is
 [thm-sf-biduality-class]; closed-boundary exchange follows in
 [cor-weil-boundary-duality-discharge].
 1. Integral Hom reduction and preservation are
-[lem-coef-integral-hom-reduction], [cor-coef-integral-internal-hom];
-the exceptional adjunction is [prop-coef-integral-exceptional-adjoint].
-Normalized DVR towers reconstruct by [lem-coef-normalized-dvr-effectivity].
-The scope for other towers is [rem-sf-tower-shapes-occurring].
+[lem-coef-integral-hom-reduction], [cor-coef-integral-internal-hom].
+For every admissible condensed $\Lambda$, the exceptional adjunction and the
+preservation of $\Dctf$ by $Rf^!$ are [sk-thm-existence], and the
+comparisons of $\RHom$ and $Rf^!$ under reduction modulo $\pi_E^n$ are
+[sk-prop-scalar-six].

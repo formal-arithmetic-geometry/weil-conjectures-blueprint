@@ -9,7 +9,7 @@ for their weights. Remove zero quotients.
 
 A nonzero $\mathcal Q_r$ has a nonzero stalk on some lisse stratum
 of a constructible stratification
-([def-weil-pbc-constructible-complexes]). The locus where the
+([sk-lem-coefficient-heart] (3)). The locus where the
 lisse rank is nonzero contains a nonempty locally closed piece.
 It contains a closed geometric point of $Y=Y_0\times_{k_0}k$:
 on a nonempty affine open of that piece, take a maximal ideal;

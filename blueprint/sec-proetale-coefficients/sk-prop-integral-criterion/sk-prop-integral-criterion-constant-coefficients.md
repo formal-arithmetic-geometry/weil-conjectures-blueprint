@@ -2,12 +2,13 @@
 id = "det-prop-integral-criterion-constant-coefficients"
 kind = "lemma"
 title = "Constant versus completed integral coefficients"
-uses = ["def-weil-completed-integral-coefficients", "det-prop-sfb-qlbar-colimit-x-integral-limit", "sk-def-pe-derived-completion"]
+uses = ["sk-def-sfb-pulled-back-coefficients", "det-prop-sfb-qlbar-colimit-x-integral-limit", "sk-def-pe-derived-completion"]
 +++
 Let $X$ be a scheme, $E/\mathbf Q_\ell$ finite, and let
 $c\colon(\cO_E)_X\to\cO_{E,X}=\varprojlim_n(\cO_E/\pi_E^n)_X$ be the map from the constant
-sheaf of rings ([det-prop-sfb-qlbar-colimit-x-integral-limit],
-[def-weil-completed-integral-coefficients]).
+sheaf of rings to the pulled-back condensed ring $\cO_{E,X}=p_X^*\underline{\cO_E}$
+([sk-def-sfb-pulled-back-coefficients]), identified with the limit of its finite levels by
+[det-prop-sfb-qlbar-colimit-x-integral-limit].
 
 1. $c$ is flat, and for every $n$ it induces an isomorphism
    $(\cO_E/\pi_E^n)_X=(\cO_E)_X/\pi_E^n\xrightarrow{\sim}\cO_{E,X}/\pi_E^n$.

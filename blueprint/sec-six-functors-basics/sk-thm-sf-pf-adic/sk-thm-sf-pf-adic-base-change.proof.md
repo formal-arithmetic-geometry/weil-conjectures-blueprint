@@ -3,9 +3,9 @@ kind = "proof"
 of = "det-thm-sf-pf-adic-base-change"
 +++
 On $\Dbc(X,\mathcal O_E)$ the base change map is an isomorphism: this is the
-completed proper base change (the case $f=p$ proper of
-[thm-cbc-complete-proetale]), where completed and uncompleted pullback agree
-on integral constructible complexes. Both $g^*Rp_*$ and $Rp'_*g'^*$ are exact
+integral proper base change on the condensed categories (the case $f=p$
+proper of [thm-cbc-complete-proetale]; no completion of the pullback is
+needed on integral constructible complexes). Both $g^*Rp_*$ and $Rp'_*g'^*$ are exact
 and preserve direct sums on the localizing categories: $g^*$, $g'^*$ always
 do, and $Rp_*$, $Rp'_*$ do by [sk-prop-int-compactness]. The objects on which
 the natural transformation is an isomorphism thus form a localizing

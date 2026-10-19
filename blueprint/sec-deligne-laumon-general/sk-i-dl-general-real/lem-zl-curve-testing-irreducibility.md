@@ -3,13 +3,15 @@ id = "lem-zl-curve-testing-irreducibility"
 kind = "lemma"
 title = "Curve testing for geometric irreducibility"
 order = 3176
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.exists_isClosedImmersion_isIrreducibleLocalSystem_upperStar"]
-uses = ["def-weil-pbc-qbar-category", "def-wf-fundamental-representation", "lem-zl-finite-matrix-irreducibility"]
+lean = ["AlgebraicGeometry.WeilSheaf.exists_isClosedImmersion_isIrreducibleLocalSystem_upperStar"]
+uses = ["def-weil-weil-sheaf-complex", "def-wf-fundamental-representation", "lem-zl-finite-matrix-irreducibility", "sk-lem-coefficient-heart"]
 +++
 Let $X_0$ be a smooth, geometrically connected, affine scheme of
 relative dimension $d\geq1$ over a finite field $k_0=\mathbf F_q$, with
 $X=X_0\times_{k_0}\overline{\mathbf F}_q$, and let
-$\mathcal S_1,\ldots,\mathcal S_r$ be $\Qlb$-Weil sheaves on $X_0$ whose
+$\mathcal S_1,\ldots,\mathcal S_r$ be lisse $\Qlb$-Weil sheaves on $X_0$
+(lisse $\QbarX$-modules on $X_{\mathrm{proét}}$ [sk-lem-coefficient-heart]
+with a Weil structure [def-weil-weil-sheaf-complex]) whose
 geometric restrictions to $X$ are irreducible local systems. Let $S$ be
 a nonempty finite set of $\overline{\mathbf F}_q$-points of $X$. There
 are a smooth connected affine curve $C$ over $\overline{\mathbf F}_q$

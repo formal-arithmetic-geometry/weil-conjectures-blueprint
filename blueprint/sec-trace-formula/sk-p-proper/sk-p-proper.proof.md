@@ -1,96 +1,80 @@
 +++
 kind  = "proof"
 of    = "sk-p-proper"
+uses  = ["sk-d-proper-pushforward", "sk-p-pairing", "sk-thm-sf-kunneth-verdier"]
 +++
-For the diagram of [sk-d-proper-pushforward], factor
+The squares $b_ig=fc_i$ are only required to commute, so in general
+$F_c\ne C\times_DF_b$; this is why the proof compares the fixed loci through an
+intermediate scheme.
+
+The proof identifies the kernel class of $u'$ with the pushforward of the
+kernel class of $u$, checks that evaluation is compatible with pushforward, and
+finally compares the fixed loci; together these identify the two trace
+classes.
+
+Trace compatibility is a calculation on the diagonal. Let $P_X=K\boxtimes\mathbb D_XK$
+and $e_K:P_X\to R\Delta_{X*}\omega_X$ be as in [sk-thm-sf-kunneth-verdier]. Put $q=f\times f$,
+$P_Y=K'\boxtimes \mathbb D_YK'$ and let $\tau_f:Rf_*\omega_X\to\omega_Y$ be the
+counit. Proper Verdier duality and proper Künneth identify
 
 $$
-h:F_c\xrightarrow{\kappa}C\times_D F_b\xrightarrow{\pi}F_b.
+\rho_f:Rq_*P_X\xrightarrow{\sim}P_Y.
 $$
 
-The map $\pi$ is the base change of the proper map $g$.
-The middle scheme maps to $X\times_YX$ by $(c_1,c_2)$, and $\kappa$ is
-the base change of the diagonal $\Delta_f:X\to X\times_YX$:
-the fiber product imposes exactly the equality of the two legs defining
-$F_c$ in [sk-d-corr]. Since $f$ is proper, its diagonal is a closed
-immersion. Thus $\kappa$ and $h$ are proper, so the pushforward of
-[sk-d-integral] is defined.
-
-Put $q=f\times f$, $K'=Rf_*K$, $P_X=K\boxt D_XK$ and
-$P_Y=K'\boxt D_YK'$. In the package of [sk-thm-sf-package], let
-$\tau_f:Rf_*\omega_X\to\omega_Y$ be the exceptional counit and
-$\mu_f:Rf_*M\otimes Rf_*N\to Rf_*(M\otimes N)$ the ordinary
-adjoint of $\varepsilon_f^*\otimes\varepsilon_f^*$.
-Define $\chi_f:Rf_*D_XK\to D_YK'$ by taking the tensor–Hom
-adjoint of $\tau_f\,Rf_*\overline{\mathrm{ev}}_K\,\mu_f$.
-With the comparison of [sk-def-sf-kv-maps], set
+A cohomological correspondence $u$ has a kernel class $[u]_P:Rc_!A_C\to P_X$,
+obtained by exceptional adjunction from the section $A_C\to c^!P_X$. Under
+$Rb_!Rg_*\simeq Rq_*Rc_!$, the class of the pushforward is
 
 $$
-\Pi_f=\mathrm{Ku}_!(f,f;K,D_XK)^{-1},\qquad
-\rho_f=(1\boxt\chi_f)\Pi_f^{-1}:Rq_*P_X\to P_Y.
+[u']_P=
+\rho_f\,Rq_*[u]_P\,
+(Rb_!Rg_*\simeq Rq_*Rc_!)\,Rb_!\eta_g.
 $$
 
-Let $\delta_K:P_X\to R\Delta_{X*}\omega_X$ be adjoint to
-$\overline{\mathrm{ev}}_K$, and define $\delta_{K'}$ similarly.
-Here evaluation is preceded by tensor symmetry.
-
-The proof has two kernel calculations. Writing
-$\widetilde u=\kappa_X^{-1}[u]$ using [sk-d-corr], [sk-thm-sf-kunneth-verdier], they give
+To verify this identity, apply tensor–Hom adjunction and then the exceptional
+adjunction for $b_1$. Both sides become $Rb_{1!}\gamma$, followed by
+$Rf_*Rc_{1!}u$ and $Rf_*\varepsilon_{c_1}$; the projection formulas combine by
+their composition compatibility. Evaluation is compatible with $\rho_f$:
 
 $$
-\begin{aligned}
-\widetilde{[f,g]_!u}
-&=\rho_f\,Rq_*\widetilde u\,Rb_!\eta_g^*,\\
-\delta_{K'}\rho_f
-&=R\Delta_{Y*}\tau_f\,Rq_*\delta_K.
-\end{aligned}
+e_{K'}\rho_f=
+R\Delta_{Y*}\tau_f\,Rq_*e_K,
+\qquad q\Delta_X=\Delta_Yf.
 $$
 
-For the first, tensor–Hom and exceptional adjunctions turn kernel
-transport into the coefficient composite defining $[f,g]_!u$ in
-[sk-d-proper-pushforward]. Compatibility with the specified
-Künneth–Verdier maps is checked after the same two adjunctions:
-both paths evaluate $f^*K'\to K$ against $D_XK$, then apply the
-structural counit. For the second, take the ordinary diagonal adjoint.
-The diagonal pullback of $\Pi_f$, followed by ordinary exchange,
-is $\mu_f$, so both paths are the defining evaluation of $\chi_f$.
-These are the two evaluation calculations of SGA 5, III,
-(4.4.3)–(4.4.5), using only the data of [sk-thm-sf-package].
+After restricting to the diagonal and taking tensor–Hom adjoints, this asserts
+that proper Verdier duality identifies evaluation against $Rf_*K$ with
+pushforward of evaluation against $K$, followed by $\tau_f$; this is the
+defining counit normalization of that duality.
 
-For the support calculation write $j:F_c\to C$, $a:F_c\to X$,
-$i:F_b\to D$, $a_b:F_b\to Y$. Right-adjoint $!$-base change gives
-$\zeta_c:Rj_*\omega_{F_c}\simeq Rc^!R\Delta_{X*}\omega_X$
-and $\zeta_b$ similarly. Define
-$\mathsf E:Rg_*Rc^!\to Rb^!Rq_*$ to be adjoint to
-$Rb_!Rg_*Rc^!\simeq Rq_*Rc_!Rc^!\to Rq_*$.
-Then
+The fixed loci are the separate Cartesian diagonal pullbacks
+$F_c=C\times_{X\times X}X$ and $F_b=D\times_{Y\times Y}Y$. For their comparison
+put $E=C\times_DF_b$. The map $h$ factors as
 
 $$
-Rb^!(R\Delta_{Y*}\tau_f)\,\mathsf E\,Rg_*\zeta_c
-=\zeta_b\,Ri_*\tau_h.
+F_c\xrightarrow{a}E\xrightarrow{\pi}F_b,
 $$
 
-Indeed, after $Rb_!\dashv Rb^!$ both sides are exceptional
-counits for the same composite $fa=a_bh$, pushed along $\Delta_Y$.
-This verifies the support comparison of SGA 5, III, (4.4.6)–(4.4.7).
-Only the two defining fixed squares are used as Cartesian squares.
-
-Finally insert the diagonal dictionary of [sk-p-pairing] into
-these three identities. The remaining ordinary units satisfy
-
-$$
-Rg_*\eta_j^*\,\eta_g^*=\eta_{gj}^*
-=\eta_{ih}^*=Ri_*\eta_h^*\,\eta_i^*.
-$$
-
-Cancel $\zeta_b$ and take $i^*\dashv Ri_*$ adjoints. The result is
+where $a$ is the closed pullback of $X\to X\times_YX$ and $\pi$ is the proper
+base change of $g$. Use proper base change for the square defining $E$, and the
+exceptional counit for $a$. Composition of counits identifies the resulting
+integration with $\tau_h=\tau_\pi R\pi_*\tau_a$. Applying the two kernel
+identities with these specified exchanges identifies the map
+$A_D\to Ri_{b*}\omega_{F_b}$ defining the left-hand trace with
 
 $$
-\Tr_b([f,g]_!u)=\tau_h\,Rh_*\Tr_c(u)\,\eta_h^*,
+A_D\xrightarrow{\eta_g}Rg_*A_C
+\longrightarrow Rg_*Ri_{c*}\omega_{F_c}
+=Ri_{b*}Rh_*\omega_{F_c}
+\xrightarrow{Ri_{b*}\tau_h}Ri_{b*}\omega_{F_b}.
 $$
 
-which is precisely [sk-d-integral]. Throughout, $Rc_!$ and $Rb_!$
-are retained: the additional proper-support hypothesis in the statement
-of SGA 5, III, Theorem 4.4 is not imposed. The full blueprint proves
-the three comparisons separately; general trace compatibility is no
-longer an external input.
+In taking the $i_b^*$-adjoint, use the composite-unit identity
+$Rg_*\eta_{i_c}\,\eta_g=Ri_{b*}\eta_h\,\eta_{i_b}$. This proves the first
+formula; compare (SGA 5, III, Theorem 4.4 and Corollary 4.7).
+
+For proper $X,C$ push to the point correspondence on $s$, using $f=a_X$ and
+$g=a_C$. The pushed cohomological correspondence is $T_c(u)$.
+Lemma [sk-p-pairing] identifies its local term with its categorical trace, and
+$h_*$ is integration over $F_c$. Integration over a disjoint union is the sum
+of integrations, proving the second assertion.

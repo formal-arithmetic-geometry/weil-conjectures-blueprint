@@ -15,8 +15,12 @@ E_2^{a,b}=R^ag_!\bigl(R^bh_!\mathcal F\bigr)
 \ \Longrightarrow\ R^{a+b}(gh)_!\mathcal F,
 $$
 
-a spectral sequence of Weil sheaves (all maps are Frobenius-compatible,
-[def-weil-pbc-qbar-category]), with only finitely many nonzero terms
+a spectral sequence in $\Cons(Y,\Qlb)$ ([sk-lem-coefficient-heart]) whose
+terms carry Weil structures and whose differentials are Frobenius-compatible:
+the Weil structure of $\mathcal F$ induces Weil structures on
+$Rh_!\mathcal F$ and $Rg_!Rh_!\mathcal F$ through the base change
+isomorphisms for the Frobenius ([sk-def-sf-weil-complexes]), and the
+truncation triangles of $K$ are functorial, hence Frobenius-compatible. It has only finitely many nonzero terms
 and a finite abutment filtration
 ([lemma-weil-pbc-hypercohomology-convergence]).
 

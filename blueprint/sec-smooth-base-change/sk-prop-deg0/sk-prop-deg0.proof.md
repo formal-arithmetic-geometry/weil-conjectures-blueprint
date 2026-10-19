@@ -1,7 +1,30 @@
 +++
-kind  = "proof"
-of    = "sk-prop-deg0"
+kind = "proof"
+of = "sk-prop-deg0"
 +++
+By [Stacks, Tag 0EY5](https://stacks.math.columbia.edu/tag/0EY5), locally on an étale object
+$U\to Y'$ there is a
+factorization $U\to V\to Y$ in which $V\to Y$ is étale and $U\to V$
+is flat and qcqs with geometrically connected fibres. Pullback along
+such a map does not change the sections of a pulled-back étale sheaf
+([Stacks, Tag 0A3H](https://stacks.math.columbia.edu/tag/0A3H), as used in
+[Stacks, Tag 0EZX](https://stacks.math.columbia.edu/tag/0EZX)), and the connected-fibre
+property survives base change to $X$. Hence on these objects
+
+$$
+ (g^{-1}f_*F_{\mathrm{\acute et}})(U)
+   =F_{\mathrm{\acute et}}(V\times_Y X)
+   =(f'_*u^{-1}F_{\mathrm{\acute et}})(U).
+$$
+
+These equalities are given by the exchange map, so descent proves the
+lemma. This is the degree-zero argument of
+[Stacks, Tag 0EYS](https://stacks.math.columbia.edu/tag/0EYS).
+
+*Complement.* In the notation of [sk-def-bc] the smooth (or flat) morphism is $f$ and the
+qcqs one is $g$. A sheaf of $\Lambda$-modules is in particular a sheaf of sets, and the
+base-change map is the exchange map of underlying sheaves; the argument in detail is as follows.
+
 *Step 1 (an étale-local normal form with connected fibres).*
 Because $f$ is flat, locally of finite presentation and has
 geometrically reduced fibres, there is an étale covering

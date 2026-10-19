@@ -1,20 +1,22 @@
 +++
 id = "sk-thm-derived-duality"
 kind = "corollary"
-title = "Degreewise duality over a field"
+title = "Degreewise duality over fields"
 lean = ["AlgebraicGeometry.Etale.TateOrientation.isPerfectPairing_poincarePairing", "AlgebraicGeometry.Etale.TateOrientation.degreewise_duality", "AlgebraicGeometry.Etale.isPerfectPairing_poincarePairing"]
-order = 2781
+order = 2748
 uses = ["sk-def-pairing", "sk-lem-finite", "sk-thm-sf-identification"]
 tags = ["sketch"]
 +++
-In the setting of [sk-def-set] and [sk-def-pairing], let $K$ be perfect over
-$\Lambda_X$ and let $\Lambda$ be a field coefficient stage.
-The derived pairing of [sk-thm-sf-identification] gives perfect pairings
+Let $X$, $K\in\Dctf(X,\Lambda)$ and $K^\vee=\cHom_X(K,\Lambda_X)$ be as in
+Theorem [sk-thm-sf-identification]: $X$ is smooth and separated of pure
+dimension $d$ over an algebraically closed field $k$, and $\Lambda$ is an
+admissible coefficient ring. If $\Lambda$ is a field (a finite coefficient
+field, $\Ql$, $E$, or $\overline{\mathbf Q}_\ell$), there are perfect pairings
+of finite-dimensional vector spaces
 
 $$
-\langle-,-\rangle_i:H^i_c(X,K)\times H^{2d-i}\bigl(X,K^\vee(d)\bigr)
-\longrightarrow\Lambda.
+H_c^i(X,K)\times H^{2d-i}(X,K^\vee(d))\longrightarrow\Lambda.
 $$
 
-The line-valued form takes values in $\Lambda(-d)$; for proper $X$
-the same holds with $H_c$ replaced by $H$.
+Equivalently, without twisting the second factor, the value line is
+$\Lambda(-d)$. For proper $X$, replace $H_c^i$ by $H^i$.

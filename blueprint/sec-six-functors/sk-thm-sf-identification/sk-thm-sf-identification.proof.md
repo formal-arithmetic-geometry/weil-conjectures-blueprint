@@ -1,14 +1,30 @@
 +++
-kind  = "proof"
-of    = "sk-thm-sf-identification"
+kind = "proof"
+of = "sk-thm-sf-identification"
+uses = ["sk-cor-sp-all-coefficients", "sk-thm-sf-global-duality", "sk-lem-finite"]
 +++
-The pairing $\beta_K$ is the composite of the mixed-support cup product, the
-evaluation $K\otimes^LK^\vee\to\Lambda_X$ (twisted), and the normalized trace,
-i.e. the counit of $Ra_{X!}\dashv Ra_X^!$ read through the orientation. The
-chain of [sk-thm-sf-tensor-hom] with $M=K$, $N=\Lambda$ and $f=a_X$ is, by
-[sk-lem-sf-mate], the transpose of exactly that composite; hence the adjoint
-of $\beta_K$ is the composite of the duality isomorphism with the orientation
-identification, which is an isomorphism. Degreewise this is the shift
-convention together with $H^{-i}(C^\vee)\cong H^i(C)^\vee$ for a perfect point
-complex, which holds when $\operatorname{Hom}(-,\Lambda)$ is exact, i.e. for
-$\Lambda\in\{A_{E,n},E,\Qlb\}$.
+Corollary [sk-cor-sp-all-coefficients] identifies $\omega_X$. Tensoring the
+second variable of internal Hom by an invertible Tate line and a shift commutes
+with internal Hom. This gives the displayed description of $\mathbb D_XK$. In the
+locally perfect case the dual is computed by a finite-projective local model and
+evaluation is the familiar evaluation of that model. Under these identifications
+the evaluation and exceptional counit of Theorem [sk-thm-sf-global-duality] are
+precisely cup product, coefficient evaluation and the normalized smooth trace. Its
+adjoint is consequently (1). The complexes on the point are perfect by
+Lemma [sk-lem-finite]. Properness identifies the two direct images, proving the
+last statement.
+
+*Complement.* For a perfect point complex $C$, the shift convention
+$H^r(C[m])=H^{r+m}(C)$ and the identification
+$H^{-i}(C^\vee)\cong\operatorname{Hom}_\Lambda(H^i(C),\Lambda)$, applied to
+$C=R\Gamma_c(X,K)=R\Gamma(X,K)$, turn $H^{-i}$ of (1) into the adjoint
+$H^{2d-i}(X,K^\vee(d))\to\operatorname{Hom}_\Lambda(H^i_c(X,K),\Lambda)$ of
+$\langle-,-\rangle_i$. The identification holds because
+$\operatorname{Hom}_\Lambda(-,\Lambda)$ is exact on $\Lambda$-modules, so that
+$R\operatorname{Hom}_\Lambda(C,\Lambda)$ is computed termwise and commutes with
+taking cohomology. The ring $\Lambda=A_{E,n}=\mathcal O_E/\pi_E^n$ is
+self-injective by Baer's criterion: its ideals are the $\pi_E^jA_{E,n}$, a
+homomorphism $\varphi:\pi_E^jA_{E,n}\to A_{E,n}$ sends $\pi_E^j$ to an element
+killed by $\pi_E^{n-j}$, hence to some $\pi_E^ja$, and $\varphi$ extends to
+multiplication by $a$. Hence $H^{-i}$ of (1) is an isomorphism, and the pairings
+$\langle-,-\rangle_i$ are perfect.

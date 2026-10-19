@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Reality of exterior powers"
 lean = ["AlgebraicGeometry.WeilGroup.IsReal.exteriorPower"]
 order = 2944
-uses = ["def-real-weil-representation-operations", "def-wf-iota-real", "def-wf-weil-category", "p-linear-spectra", "p-linear-triangular"]
+uses = ["def-real-weil-representation-operations", "def-weil-weil-sheaf-complex", "def-wf-iota-real", "p-linear-spectra", "p-linear-triangular", "sk-lem-coefficient-heart"]
 +++
 If $\mathcal G_0$ is an $\iota$-real lisse Weil sheaf, then
 $\bigwedge^r\mathcal G_0$ (the exterior power of

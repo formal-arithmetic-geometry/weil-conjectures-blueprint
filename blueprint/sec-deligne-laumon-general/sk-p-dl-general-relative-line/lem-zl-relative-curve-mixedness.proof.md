@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-zl-relative-curve-mixedness"
-uses = ["def-wf-normalized-real-envelope", "lem-wf-envelope-real", "lem-zl-relative-envelope-factor-reality", "thm-zl-real-mixed-by-curves"]
+uses = ["sk-thm-sf-ctf-stability", "def-wf-normalized-real-envelope", "lem-wf-envelope-real", "lem-zl-relative-envelope-factor-reality", "thm-zl-real-mixed-by-curves"]
 +++
 Normalize $\mathcal F$ as in
 [def-wf-normalized-real-envelope]: put
@@ -12,10 +12,10 @@ It is lisse, pure of weight zero and real by
 [lem-wf-envelope-real]. The relative factor calculation
 [lem-zl-relative-envelope-factor-reality], which uses only the
 proved curve estimate, shows that $R^ih_!\mathcal E$ is real for
-every $i$. These are constructible sheaves: the finite-level
-finiteness theorem [sbc-thm-finiteness-finite-type] supplies the
-constructible landing hypotheses in the coefficient passage of
-[thm-cbc-qbar].
+every $i$. These are constructible sheaves: $Rh_!$ preserves
+$\Dbc(-,\Qlb)$ by [sk-thm-sf-ctf-stability], so each
+$R^ih_!\mathcal E$ lies in $\Cons(Y,\Qlb)$, and it inherits a Weil
+structure from that of $\mathcal E$.
 
 Apply [thm-zl-real-mixed-by-curves] on $Y_0$, obtaining a
 finite mixed filtration of $R^ih_!\mathcal E$.

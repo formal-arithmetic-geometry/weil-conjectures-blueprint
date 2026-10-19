@@ -8,7 +8,7 @@ lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_verdierDual", "Algebraic
 tags = ["sketch"]
 +++
 Let $Y$ be a separated finite-type $k$-scheme and let $\Lambda$ be a
-coefficient stage; let $Ra_Y^!$ be the constructible exceptional adjoint of
+admissible coefficient ring; let $Ra_Y^!$ be the constructible exceptional adjoint of
 the structure morphism ([sk-def-sf-operations](vi); no admissibility datum
 is assumed, cf.\ [sk-def-sf-admissible]). Then
 $\mathbb D_Y=\RHom_\Lambda(-,\omega_{Y,\Lambda})$

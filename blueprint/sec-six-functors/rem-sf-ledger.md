@@ -2,7 +2,7 @@
 id = "rem-sf-ledger"
 kind = "remark"
 title = "What this chapter settles, and what remains"
-order = 2516
+order = 2424
 +++
 The dependency structure of the duality material after this chapter is as
 follows. *Proved here*: the formal core (mate calculus, tensor–Hom
@@ -12,7 +12,7 @@ their coherence, and the yoga of the dual added after them (dual base change,
 duality against pullback, the dualizing complex of a product, the
 multiplicativity of the orientation, and the relative trace with its
 transitivity); the
-projection formula at every coefficient stage together with its coherence,
+projection formula for every admissible coefficient ring together with its coherence,
 so that axiom (A3) of [def-sf-datum] is discharged; and the duality,
 trace, similitude and reciprocity corollaries [thm-sf-dual-perfect] (with the orientation of the smooth dualizing complex taken from the purity chapter), *Perfectness of the trace–cup pairing* and *The trace isomorphism* (stated conditionally on the orientation datum of
 [def-sf-orientation]). *Not here*: the orientation itself, which is

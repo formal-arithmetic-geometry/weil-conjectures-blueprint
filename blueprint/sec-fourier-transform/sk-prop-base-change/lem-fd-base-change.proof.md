@@ -1,8 +1,9 @@
 +++
 kind  = "proof"
 of    = "lem-fd-base-change"
+uses = ["sk-def-sfb-open-base-change", "sk-thm-sfb-proper-base-change", "sk-thm-sfb-shriek-base-change", "lem-fd-as-lisse", "def-fd-kernel", "def-fd-transform"]
 +++
-The compactly supported pushforward $p_{2,!}$ of [def-fd-transform] is the composite of extension by zero along a chosen compactification $\bar p_2$ of $p_2$ with the direct image along the proper morphism $\bar p_2$; extension by zero commutes with arbitrary base change by [sbc-prop-extension-by-zero-and-arbitrary-base-change], and the direct image of a proper morphism satisfies the $\overline{\mathbf Q}_\ell$ proper base change of [thm-weil-pbc-qbar], so for the cartesian square of the base change the identification
+The compactly supported pushforward $p_{2,!}$ of [def-fd-transform] is the composite of extension by zero along a chosen compactification $\bar p_2$ of $p_2$ with the direct image along the proper morphism $\bar p_2$; on bounded constructible $\Lambda$-complexes extension by zero commutes with arbitrary base change ([sk-def-sfb-open-base-change]) and the direct image of a proper morphism satisfies proper base change ([sk-thm-sfb-proper-base-change]); together these give the compact-support base change of [sk-thm-sfb-shriek-base-change], so for the cartesian square of the base change the identification
 
 $$
 g^*p_{2,!}\cong p'_{2,!}\,g_V^*,\qquad g_V:V'\times_{S'}V'^\vee\to V\times_SV^\vee,

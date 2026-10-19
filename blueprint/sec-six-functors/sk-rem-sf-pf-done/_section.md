@@ -2,7 +2,7 @@
 id = "sk-rem-sf-pf-done"
 kind = "theorem"
 title = "The interface is discharged"
-order = 2498
+order = 2411
 tags = ["sketch"]
 +++
 By [sk-thm-sf-pf-finite], [sk-prop-sf-pf-reduction],
@@ -10,7 +10,7 @@ By [sk-thm-sf-pf-finite], [sk-prop-sf-pf-reduction],
 [sk-prop-sf-pf-coherence] every obligation listed in the interface
 fix-prop-projection-formula of the framework chapter is discharged, so
 that interface is an unconditional statement of this manuscript and the
-projection formula is a *theorem* at every coefficient stage. No duality
+projection formula is a *theorem* for every admissible coefficient ring. No duality
 statement is used anywhere in this subsection: the projection formula concerns the
 compatibility of $Rf_!$ with the tensor product and is logically prior to
 Verdier duality.

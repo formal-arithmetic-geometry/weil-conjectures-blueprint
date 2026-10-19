@@ -3,7 +3,7 @@ id = "rem-sf-ctf-descent"
 kind = "remark"
 title = "How the verified domains enter the formal framework"
 order = 2558
-uses = ["cor-coef-integral-internal-hom", "def-sf-datum", "lem-coef-finite-exceptional", "lem-coef-rational-operations", "prop-coef-integral-exceptional-adjoint", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-sf-ctf-stability"]
+uses = ["cor-coef-integral-internal-hom", "def-sf-datum", "lem-coef-finite-exceptional", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-fix-general-biduality", "thm-sf-ctf-stability", "sk-thm-existence", "sk-thm-pd-verdier-duality", "sk-prop-scalar-six"]
 +++
 The clauses of [thm-sf-ctf-stability] may be substituted into
 the formal axioms of [def-sf-datum] only on their displayed
@@ -14,10 +14,11 @@ proved finite geometric duality [thm-fix-general-biduality].
 The elementary coefficient-dual formula for a site-perfect complex
 remains distinct from those general geometric results.
 
-Integral duality, internal Hom and the exceptional adjunction are
-[thm-coef-integral-verdier], [cor-coef-integral-internal-hom], [prop-coef-integral-exceptional-adjoint].
-The rational and common-stage conclusions are
-[thm-coef-rational-verdier], [lem-coef-rational-operations], [thm-coef-qbar-verdier].
+For every admissible condensed $\Lambda$, the exceptional adjunction on
+$\Dctf$ is [sk-thm-existence] and biduality is [sk-thm-pd-verdier-duality];
+for integral coefficients see also [thm-coef-integral-verdier] and
+[cor-coef-integral-internal-hom]. Their comparisons under reduction and
+extension of scalars are [sk-prop-scalar-six].
 These results supply the coefficient comparisons on the stated
 constructible categories. They do not supply an exceptional
 adjunction for arbitrary unbounded pro-etale complexes; that

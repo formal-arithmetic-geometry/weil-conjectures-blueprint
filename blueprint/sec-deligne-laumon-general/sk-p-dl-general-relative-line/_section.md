@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Direct images from a relative open affine line"
 order = 3179
 lean = ["AlgebraicGeometry.isMixedOfWeightsAtMost_higherLowerShriek_of_affineLine"]
-uses = ["sk-d-dl-general-weights", "sk-i-dl-general-real", "sk-l-dl-a1-endpoints", "sk-l-dl-general-open-line", "sk-p-linear-filtration", "sk-prop-logdet", "sk-prop-sf-cbc", "sk-thm-sf-ctf-stability", "sk-thm-trace-transport"]
+uses = ["sk-d-dl-general-weights", "sk-i-dl-general-real", "sk-l-dl-a1-endpoints", "sk-l-dl-general-open-line", "sk-p-linear-filtration", "sk-prop-logdet", "sk-prop-sf-cbc", "sk-thm-sf-ctf-stability", "sk-thm-trace-transport", "sk-cor-tf-point-counting", "sk-thm-tf-uniform-formula"]
 tags = ["sketch"]
 +++
 Let $Y_0$ be a separated $k_0$-scheme of finite type, let

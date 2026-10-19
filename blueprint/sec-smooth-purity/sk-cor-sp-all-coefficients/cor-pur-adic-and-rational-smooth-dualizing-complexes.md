@@ -4,10 +4,11 @@ kind = "theorem"
 title = "Adic and rational smooth dualizing complexes"
 order = 2374
 tags = ["latex:corollary"]
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-rational-and-qbar-purity", "thm-pur-trace-normalization-transitivity"]
+uses = ["def-pur-conventions", "sk-def-sf-setting", "sk-def-sp-tate-twist", "sk-def-sp-trace", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "sk-thm-purity-transport", "det-sp-purity-coefficient-change", "cor-pur-finite-stage-smooth-dualizing-complex"]
 +++
 Work in the purity conventions of [def-pur-conventions], let
-$\Lambda\in\{\mathcal O_E,E,\Qlb\}$, and let $a_X:X\to\Spec k$ be a
+$\Lambda\in\{\mathcal O_E,E,\Qlb\}$ with the condensed categories
+$\Dbc(-,\Lambda)$ of [sk-def-sf-setting], and let $a_X:X\to\Spec k$ be a
 separated finite-type smooth morphism of pure dimension $d$. The
 dualizing complex
 
@@ -21,9 +22,15 @@ $$
 \omega_{X,\Lambda}\xrightarrow{\ \sim\ }\Lambda_X(d)[2d]
 $$
 
-obtained from [thm-pur-rational-and-qbar-purity], and the counit
-identifies with the transported normalized integration map
+obtained from [sk-thm-purity-transport]. Through it, the counit becomes the
+smooth trace
 
 $$
-R\Gamma_c(X,\Lambda_X(d)[2d])\longrightarrow\Lambda.
+R\Gamma_c(X,\Lambda_X(d)[2d])\longrightarrow\Lambda
 $$
+
+of [sk-def-sp-trace]. Its reductions modulo $\pi_E^n$ (for
+$\Lambda=\mathcal O_E$) are the finite normalized integration maps of
+[cor-pur-finite-stage-smooth-dualizing-complex]. For $\Lambda=E$ it is the
+integral one with $\ell$ inverted, and for $\Lambda=\Qlb$ the extension of
+scalars of the one over a finite $E$.

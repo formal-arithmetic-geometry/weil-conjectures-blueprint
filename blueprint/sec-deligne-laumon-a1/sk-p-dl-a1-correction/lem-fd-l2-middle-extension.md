@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The middle extension does not change the $L^2$-weight"
 order = 3113
 uses = ["def-weil-punctual-weights", "def-wf-l2-norm", "def-wf-middle-extension", "lem-wf-boundary-semicontinuity"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.LisseOnDenseOpen.l2Weight_directImage"]
+lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.l2Weight_directImage"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion
 with finite complement $S_0$, and let $\mathcal M$ be a nonzero lisse

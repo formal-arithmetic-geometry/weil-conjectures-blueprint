@@ -11,9 +11,10 @@ Let $j:U_0\hookrightarrow C_0$ be a nonempty open in a
 curve, with finite complement $S_0$, and let
 $\mathcal F$ be lisse Weil on $U_0$, with representation $\rho$ of
 $W(U_0)$ on $V$.
-Write $J=j_*\mathcal F$ for ordinary sheaf direct image, defined by
-sections over the inverse image of an etale neighborhood; use this
-construction at finite coefficient levels for adic coefficients.
+Write $J=j_*\mathcal F$ for the ordinary sheaf direct image of the underlying
+lisse $\overline{\mathbf Q}_{\ell,U}$-module on the pro-étale sites, defined by
+sections over the inverse image of a neighborhood (for finite coefficients, an
+étale neighborhood); it is $\mathcal H^0(Rj_*\mathcal F)$.
 For $s\in S_0$, let $K_s$ be the fraction field of the henselization of
 $\mathcal O_{C_0,s}$, and put
 

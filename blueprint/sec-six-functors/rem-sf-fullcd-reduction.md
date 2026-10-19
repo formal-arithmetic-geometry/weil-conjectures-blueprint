@@ -2,7 +2,7 @@
 id = "rem-sf-fullcd-reduction"
 kind = "remark"
 title = "What $\\operatorname{FullCD}$ supplies, and what would discharge it"
-order = 2491
+order = 2404
 uses = ["cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-cbc-proetale-stalk-conservative", "lem-sf-etale-direct-image-vanishing", "lem-sf-fullcd-detection-equivalence", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-vanishing-detection", "prop-sf-comparison-bound-zero", "thm-sc-finite-type-torsion-cd", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
 +++
 The named interface [sk-rem-sf-fullcd-scope] turns on the full
@@ -12,7 +12,7 @@ general separated finite-type morphism. Three things about that condition
 can now be said exactly.
 
 1. *Its torsion half is a theorem, on the étale site and
-independently of the coefficient stage.* For the étale site the
+independently of the admissible coefficient ring.* For the étale site the
 vanishing required by $\operatorname{FullCD}$ holds for every sheaf of
 $A$-modules, with the bound $2d$ for a source of dimension at most
 $d$, by [lem-sf-etale-direct-image-vanishing]; that lemma quantifies

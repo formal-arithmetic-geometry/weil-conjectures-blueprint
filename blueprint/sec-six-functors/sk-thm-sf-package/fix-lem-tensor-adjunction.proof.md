@@ -25,22 +25,28 @@ fourth are the tensor–internal-Hom adjunction of
 [def-weil-derived-pullback-tensor-hom] with the adjunction
 $Rf_!\dashv Rf^!$ of [fix-prop-adjunctions], the last being
 the adjunction $Lf^*\dashv Rf_*$ of
-[fix-prop-adjunctions]. Step 2: detection. The adjunction chain
-defines a canonical map of the two ambient derived objects.
-At a finite etale coefficient stage, take
-$L=e_!A[r]$, where $e:V\to Y$ is a quasi-compact etale object
-of the site and $r\in\mathbf Z$. Such an extension by zero is
-constructible and flat, so it is in the finite-Tor domain used in
-step 1. The resulting Hom groups are the cohomology of the two
-objects on $V$. The cone therefore has zero cohomology on every
-such $V$, and hence has zero geometric stalks. Conservativity in
-[lemma-weil-pbc-geometric-stalk-conservative] proves the map is
-an isomorphism without first assuming that either output belongs to
-the finite-Tor subcategory. The site equivalence on the stipulated
-coefficient categories in [thm-weil-pbc-site-comparison] and
-the coefficient comparisons of the four ingredients give the stated
-realizations and field stages. Naturality and the comparison squares
-under reduction follow by transposing them to the same tensor and
-counit composites. This asserts compatibility of the specified maps;
-it does not supply a separate internal-Hom reduction isomorphism
-outside the domains where that comparison has been proved.
+[fix-prop-adjunctions]. Step 2: detection. The adjunction chain is natural in
+$L\in D^b_{ctf}(Y,\Lambda)$, so it defines a canonical map of the two
+objects of $D(Y_{\mathrm{pro\acute et}},\Lambda)$, for every admissible
+condensed $\Lambda$. To see that it is an isomorphism, take
+$L=e_!\Lambda_V[r]$, where $e:V\to Y$ is a quasi-compact étale map and
+$r\in\mathbf Z$. Such an extension by zero lies in $D^b_{ctf}(Y,\Lambda)$,
+so it is in the domain used in step 1, and the resulting Hom groups are the
+cohomology groups of the two objects on $V$. Hence the cone $C$ satisfies
+$H^r(V,C)=0$ for every quasi-compact étale $V\to Y$ and every $r$. For finite
+$\Lambda$ the objects are classical, and conservativity of geometric stalks
+([lemma-weil-pbc-geometric-stalk-conservative]) shows $C=0$, without first
+assuming that either output belongs to the finite-Tor subcategory. For
+$\Lambda=\mathcal O_E,E,\Qlb$ the two objects are, by construction, values of
+the exact functors $Rf_*R\mathcal Hom_X(M,Rf^!(-))$ and
+$R\mathcal Hom_Y(Rf_!M,-)$ on $N$, both of which commute with reduction
+modulo $\pi_E$ and with extension of scalars ([sk-prop-scalar-six]); for
+$\mathcal O_E$ both objects are derived complete, and the reduction of the map
+modulo $\pi_E$ is the map for the finite ring $A_{E,1}$, so derived Nakayama
+gives $C=0$; for $E$ one reduces to integral generators, and for $\Qlb$ to a
+finite $E$. The same Yoneda argument directly in
+$D(Y_{\mathrm{pro\acute et}},\Lambda)$ is the one of [sk-thm-sf-tensor-hom].
+Naturality and the comparison squares under reduction follow by transposing
+them to the same tensor and counit composites. This asserts compatibility of
+the specified maps; it does not supply a separate internal-Hom reduction
+isomorphism outside the domains where that comparison has been proved.

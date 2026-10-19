@@ -8,6 +8,4 @@ sheaves ([det-pe-milnor-sequence]). For epimorphic transitions, $1-T$ is surject
 every weakly contractible $W$: given $(a_n)$, choose $m_0$ arbitrarily and then,
 recursively, $m_{n+1}$ with $t_n(m_{n+1})=m_n-a_n$. By the conservative criterion
 [sk-cor-pe-sections] $1-T$ is an epimorphism of sheaves, so its cokernel vanishes
-([det-pe-milnor-epimorphic]). See Stacks, Tag 0947. The same triangle, with the
-resulting exact sequence on sections over a weakly contractible quasi-compact object, is
-[prop-weil-pbc-roos-triangle].
+([det-pe-milnor-epimorphic]). See Stacks, Tag 0947.

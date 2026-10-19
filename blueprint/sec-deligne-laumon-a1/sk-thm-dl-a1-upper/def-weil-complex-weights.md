@@ -4,7 +4,7 @@ kind = "definition"
 title = "Weights of a Weil complex"
 lean = ["AlgebraicGeometry.WeilComplex.isMixedOfWeightsAtMost_iff", "AlgebraicGeometry.WeilComplex.isMixedOfWeightsAtMost_singleComplex_iff", "AlgebraicGeometry.WeilComplex.isMixedOfWeightsAtMost_toComplex_iff"]
 order = 3131
-uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-punctual-weights", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
+uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-punctual-weights", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "sk-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$, $k_0=\Fq$,
 and let $k=\Fbar$ be the fixed algebraic closure of $k_0$. Fix a prime
@@ -18,8 +18,11 @@ $$
 $$
 
 for the geometric-Frobenius automorphism [def-weil-frobenius-detailed]. Fix
-$\iota:\Qlb\xrightarrow{\sim}\mathbf C$, $w\in\mathbf R$, and let $K\in
-D^b_{c,\mathrm W}(Y,\Qlb)$ be a Weil complex. Let $a_Y:Y\to\Spec k$ be the structure morphism, with $Ra_Y^!$ its
+$\iota:\Qlb\xrightarrow{\sim}\mathbf C$, $w\in\mathbf R$, and let $K$ be a Weil
+complex on $Y$ ([def-weil-weil-sheaf-complex], [sk-def-sf-weil-complexes]): an object
+$\operatorname{For}(K)\in\Dbc(Y,\Qlb)\subset D(Y_{\mathrm{proét}},\Qlb)$
+([sk-def-sfb-bounded-constructible]) together with a Weil structure
+$\theta_K:Lg_Y^*\operatorname{For}(K)\xrightarrow{\sim}\operatorname{For}(K)$. Let $a_Y:Y\to\Spec k$ be the structure morphism, with $Ra_Y^!$ its
 constructible exceptional inverse image [def-weil-exceptional-inverse-image]
 at $\Qlb$ (defined for every separated finite-type morphism; no admissibility
 hypothesis in the ambient sense of
@@ -44,7 +47,9 @@ $$
  R\mathcal Hom_{\Qlb}\bigl(\operatorname{For}(K),\operatorname{For}(\omega_Y)\bigr),
 $$
 
-with the Weil structure induced by $\theta_K$ and $\theta_{\omega_Y}$. For
+with the Weil structure induced by $\theta_K$ and $\theta_{\omega_Y}$ (the
+contragredient datum of [sk-def-sf-weil-complexes], with $\omega_Y$ in place of
+$\Lambda_Y$). For
 every $j\in\mathbf Z$, the cohomology sheaf $\mathcal
 H^j(\operatorname{For}K)$ is assigned the punctual-weight notion
 [def-weil-punctual-weights]. Define

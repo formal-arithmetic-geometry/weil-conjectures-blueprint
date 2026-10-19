@@ -31,11 +31,13 @@ two-term cone. The second is extension–restriction of scalars
 adjunction. Both are the maps adjoint to tensoring evaluation, so this
 is the specified coefficient comparison, compatible with evaluation.
 Consequently [lemma-weil-pbc-perfect-projection-formula] gives
-$(Rf_*K)_n\simeq Rf_*K_n$; the compatibility with completed
-realization is [prop-weil-pbc-direct-image-limits] and
-[def-weil-derived-complete-integral-detailed]. Applying this to the
+$(Rf_*K)_n\simeq Rf_*K_n$; no completion intervenes, since the objects of
+$\Dbc(-,\mathcal O_E)$ are already derived complete
+([sk-prop-integral-criterion]), and this is the reduction comparison of
+[sk-prop-scalar-six]. Applying this to the
 proper factor and using extension by zero gives the compact-support
-comparison of [def-weil-integral-rational-qbar-compact-support].
+comparison, which is [det-prop-scalar-six-compact-support] for the map
+$\mathcal O_E\to A_{E,n}$.
 Between finite levels use
 [lem-fix-compact-support-coefficient-change]. The corresponding
 comparison for an exceptional right adjoint is precisely the
@@ -43,12 +45,12 @@ coefficient compatibility in
 [def-weil-exceptional-adjoint-admissibility]; it is invoked only
 under that explicit hypothesis.
 
-The constructions in [def-weil-rationalization-karoubi] and
-[def-weil-algebraically-closed-coefficients], together with
-[lem-weil-scalar-extension-exact-triangulated], transport these
-maps to the field stages. Units and counits there are the transported
-adjunction maps. Each asserted identity is an identity between
-composites of the tensor associativity map, the evaluation or the
-adjunction maps already described, so transporting those maps
-transports the identity itself. This proves compatibility of the
-specified maps, beyond the existence of comparison isomorphisms.
+At the field coefficients, the comparisons along $\mathcal O_E\to E$ and
+$E\to F\to\Qlb$ are the coefficient comparisons of
+[sk-def-sfb-coefficient-comparisons]; by [sk-prop-scalar-six] they are
+isomorphisms on the condensed categories $\Dctf=\Dbc$ and respect
+composition, units, counits and evaluation maps. Each asserted identity is
+an identity between composites of the tensor associativity map, the
+evaluation or the adjunction maps already described, so it holds at the
+field coefficients as well. This proves compatibility of the specified maps,
+beyond the existence of comparison isomorphisms.

@@ -5,23 +5,25 @@ title = "Purity of smooth proper cohomology"
 lean = ["AlgebraicGeometry.WeilSheaf.purity_smoothProper"]
 order = 3212
 tags = ["latex:corollary"]
-uses = ["def-weil-algebraically-closed-coefficients", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-punctual-weights", "prop-weil-operations", "prop-zl-smooth-proper-relative-purity"]
+uses = ["sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-bounded-constructible", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-punctual-weights", "prop-weil-operations", "prop-zl-smooth-proper-relative-purity"]
 +++
 Fix the finite-field datum
 $(p,a,q,k_0,k)$, where $q=p^a$, and a prime $\ell\neq p$; write
 $\Ql=\mathbf Q_\ell$, choose an algebraic closure $\Qlb$ of $\Ql$,
-fix an isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and interpret
-the $\Qlb$-objects in the
-algebraically closed
-coefficient category. Let $X_0/k_0$ be
+fix an isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and use the
+coefficient sheaves $\Lambda_X=p_X^*\Lambda$ of the condensed rings
+$\Lambda=\Ql,\Qlb$ on the pro-étale site
+([sk-def-sfb-pulled-back-coefficients]), with complexes in
+$D^b_c(X,\Lambda)\subset D(X_{\mathrm{proét}},\Lambda)$
+([sk-def-sfb-bounded-constructible]). Let $X_0/k_0$ be
 smooth, proper, geometrically
 connected of pure dimension $d\in\mathbf Z_{\geq0}$, put
 $X=X_0\times_{k_0}k$, let $F$ be the
 global geometric Frobenius
 in the geometric-Frobenius convention, and
-let $(\Qlb)_X$ be the constant
+let $(\Qlb)_X=p_X^*\Qlb$ be the constant
 $\Qlb$-sheaf on
-$X$; no admissibility hypothesis is imposed on the structure morphism
+$X_{\mathrm{proét}}$; no admissibility hypothesis is imposed on the structure morphism
 $a_X:X_0\to\Spec k_0$ (its exceptional inverse image is the constructible
 one, defined for every separated finite-type morphism; the ambient notion of
 [def-weil-exceptional-adjoint-admissibility] is not used). Then, for every $i\in\mathbf Z$, the Frobenius module

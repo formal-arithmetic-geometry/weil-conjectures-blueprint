@@ -4,13 +4,13 @@ kind = "definition"
 title = "Coefficient Tate twists"
 lean = ["AlgebraicGeometry.Etale.twistShiftObjIso", "AlgebraicGeometry.Etale.tateTwistObject", "AlgebraicGeometry.Etale.hasTateTwist", "AlgebraicGeometry.Etale.tateSheaf"]
 order = 1864
-uses = ["def-weil-derived-complete-integral-detailed", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site"]
+uses = ["sk-def-sp-tate-twist", "sk-def-sfb-pulled-back-coefficients", "sk-prop-sfb-qlbar-colimit-x", "def-weil-derived-tensor", "def-weil-pbc-proetale-site"]
 +++
-Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf
-Z_{\geq1}$, and a scheme $S$ on which $\ell$ is invertible. Use the small
-pro-etale site [def-weil-pbc-proetale-site] of $S$ and the derived
-tensor product [def-weil-derived-tensor]. For every integer $r\geq1$, define
-the pro-etale sheaf $\mu_{\ell^r,S}$ by
+Fix a prime $\ell$, a finite extension $E/\Ql$ with uniformizer $\pi_E$, an
+integer $n\in\mathbf Z_{\geq1}$, and a scheme $S$ on which $\ell$ is
+invertible. Use the small pro-étale site [def-weil-pbc-proetale-site] of $S$
+and the derived tensor product [def-weil-derived-tensor]. For every integer
+$r\geq1$, define the pro-étale sheaf $\mu_{\ell^r,S}$ by
 
 $$
  \mu_{\ell^r,S}(U)=
@@ -18,35 +18,32 @@ $$
  \qquad(U\to S).
 $$
 
-With transition maps $u\mapsto u^\ell$, use the finite-torsion coefficient
-[def-weil-finite-torsion-constructibility] $A_{E,n}$ from the global
-coefficient notation, and define
+For every coefficient ring
+$\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, with $A_{E,n}=\mathcal O_E/\pi_E^n$,
+the coefficient sheaf is the pulled-back condensed ring
+$\Lambda_S=p_S^*\Lambda$ of [sk-def-sfb-pulled-back-coefficients]. The twists
+$\Lambda(1)_S$ are those of [sk-def-sp-tate-twist]:
 
 $$
-  \Zl(1)_S=\varprojlim_{r\geq1}\mu_{\ell^r,S},\qquad
-  \mathcal O_E(1)_S=\Zl(1)_S\otimes_{\Zl}\mathcal O_E,
+ A_{E,n}(1)_S=\mu_{\ell^r,S}\otimes_{\mathbf Z/\ell^r\mathbf Z}(A_{E,n})_S
+ \quad(\ell^rA_{E,n}=0),
+ \qquad
+ \mathcal O_E(1)_S=\varprojlim_n A_{E,n}(1)_S,
 $$
 
-and
+the first independent of $r$ by the Kummer maps $u\mapsto u^\ell$, and
 
 $$
-  A_{E,n}(1)_S=
-  \mathcal O_E(1)_S\otimes_{\mathcal O_E}A_{E,n},
- \qquad E(1)_S=\mathcal O_E(1)_S\otimes_{\mathcal O_E}E.
+ E(1)_S=\mathcal O_E(1)_S\otimes_{\mathcal O_{E,S}}E_S,
+ \qquad
+ \Qlb(1)_S=\operatorname*{colim}_{E}E(1)_S,
 $$
 
-The $\Qlb$-twist is represented by $E(1)_S$ at every finite stage and is
-compatible with scalar extension. For each displayed coefficient ring
-$\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, let $\Lambda_S$ denote its
-coefficient object on $S$: it is the finite-level constant sheaf
-$(A_{E,n})_S$ for $\Lambda=A_{E,n}$, the completed coefficient sheaf
-$\widehat{\mathcal O}_{E,S}$ from the derived-complete integral construction
-[def-weil-derived-complete-integral-detailed] for $\Lambda=\mathcal O_E$, and
-the scalar extensions of these objects for $\Lambda=E,\Qlb$, with $\Qlb$
-interpreted at a common finite stage. Thus, for each coefficient ring,
-$\Lambda(1)_S$ is respectively the finite-level object $A_{E,n}(1)_S$, the
-integral object $\mathcal O_E(1)_S$, the rational object $E(1)_S$, or its
-common-stage $\Qlb$-extension. Define the twist for every $m\in\mathbf Z$ by
+using $E_S=\mathcal O_{E,S}[1/\ell]$ and
+$\overline{\mathbf Q}_{\ell,S}=\operatorname{colim}_EE_S$ from
+[sk-prop-sfb-qlbar-colimit-x]. Each $\Lambda(1)_S$ is an invertible
+$\Lambda_S$-module, locally isomorphic to $\Lambda_S$. Define the twist for
+every $m\in\mathbf Z$ by
 
 $$
  \Lambda(m):=
@@ -57,7 +54,7 @@ $$
  \end{cases}
 $$
 
-For every $m\in\mathbf Z$ and every $K\in D(S_{\mathrm{proet}},\Lambda)$, set
+For every $m\in\mathbf Z$ and every $K\in D(S_{\mathrm{proét}},\Lambda)$, set
 
 $$
  K(m)=K\otimes^L_{\Lambda_S}\Lambda(m).

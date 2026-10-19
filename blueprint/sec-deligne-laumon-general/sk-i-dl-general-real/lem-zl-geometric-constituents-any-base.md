@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Geometric constituents after a constant extension on any base"
 order = 3177
 lean = ["Representation.exists_filtration_isIrreducible_restrict"]
-uses = ["def-weil-pbc-qbar-category", "def-wf-fundamental-representation", "def-wf-weil-group", "lem-mg-normal-restriction-semisimple", "lem-wf-finite-index-restriction-semisimple", "lem-wf-schur-scalar", "lem-wf-weil-group-constant-extension"]
+uses = ["def-wf-fundamental-representation", "def-wf-weil-group", "lem-mg-normal-restriction-semisimple", "lem-wf-finite-index-restriction-semisimple", "lem-wf-schur-scalar", "lem-wf-weil-group-constant-extension"]
 +++
 Let $k$ be an algebraically closed field, let $\rho:W\to\operatorname{GL}_k(V)$
 be a finite-dimensional representation of a group $W$, let

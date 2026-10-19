@@ -3,16 +3,33 @@ kind  = "proof"
 of    = "lem-zl-finite-pushforward"
 +++
 A finite morphism is proper, so $Rg_!=Rg_*$ by the properness law of
-[prop-functor-package], and $g_*$ is exact by
-[lemma-weil-pbc-finite-direct-image-exact]; hence
-$\mathcal H^j(Rg_*K)=g_*\mathcal H^j(K)$. Fix $j$ and choose a
+[prop-functor-package].
+
+*Exactness and stalks.* Let $\mathcal F\in\Cons(Z,\Qlb)$ and let $\bar y$ be a
+geometric point of $Y$. By proper base change ([sk-thm-sfb-proper-base-change])
+$(Rg_*\mathcal F)_{\bar y}\simeq R\Gamma(Z_{\bar y},\mathcal F|_{Z_{\bar y}})$. The
+fibre $Z_{\bar y}$ is finite over the separably closed field $\kappa(\bar y)$, so
+its reduction is a finite disjoint union of geometric points $\bar x$ over
+$\bar y$; on each of them sections are exact ([sk-prop-pe-condensed-point],
+[sk-cor-pe-wc-sections]). Hence
+
+$$
+(Rg_*\mathcal F)_{\bar y}\simeq\bigoplus_{\bar x\mapsto\bar y}\mathcal F_{\bar x}
+$$
+
+in degree $0$. The sheaves $R^ig_*\mathcal F$ are constructible
+([sk-thm-sf-ctf-stability]), and a constructible $\Qlb$-sheaf with vanishing
+geometric stalks is zero, since on each stratum of [sk-lem-coefficient-heart](3)
+it is locally free of rank equal to its stalk dimension. So $R^ig_*\mathcal F=0$
+for $i>0$, $g_*$ is exact on $\Cons(Z,\Qlb)$, and
+$\mathcal H^j(Rg_*K)=g_*\mathcal H^j(K)$. The stalk isomorphism is natural, so it
+intertwines the Weil structures. Fix $j$ and choose a
 finite Weil filtration of $\mathcal H^j(K)$ whose nonzero quotients
 $\mathcal Q_i$ are punctually pure in the sense of
 [def-weil-punctual-weights], of weights $u_i\le w+j$, as
 provided by [def-weil-complex-weights]. Exactness pushes this
 filtration forward. It remains to check that $g_*\mathcal Q_i$ is
-punctually pure of weight $u_i$. Let $y$ be closed and use the finite
-stalk formula of [lemma-weil-pbc-finite-stalk-formula]. The geometric
+punctually pure of weight $u_i$. Let $y$ be closed and use the stalk formula above. The geometric
 Frobenius permutes the finitely many points $x$ over $y$; on an orbit
 of length $f$, its $f$-th power on the corresponding summand is the
 local Frobenius $F_x$. If $\mu$ is an eigenvalue on that orbit, then

@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-zl-smooth-proper-relative-purity"
+uses = ["cor-zl-rfshriek-sheaf", "cor-cbc-proper-coincidence", "prop-weil-operations", "sk-thm-sfb-qlbar-two-colimit", "thm-lisse-qlbar-representations", "sk-lem-stratified-lattice", "thm-fin-proper-constructibility-complete", "prop-weil-proet-finite-proper-base-change", "cor-weil-pbc-geometric-fiber-finite", "sbc-thm-smooth-base-change", "sk-thm-sfb-proper-base-change", "sk-prop-scalar-six", "sk-prop-pe-milnor", "sk-prop-sfb-finite-extension-compatibility", "cor-weil-pbc-geometric-fiber-qbar", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-wf-tate-twist-frobenius", "lem-sf-tensor-hom", "sk-thm-purity-transport", "lem-sf-twist-interchange"]
 +++
 Write $f:X\to Y$ for the geometric fiber of $f_0$ and $\mathcal F$ for the
 underlying sheaf of $\mathcal F_0$. The upper bound on weights is the
@@ -18,12 +19,22 @@ Weil isomorphisms in [prop-weil-operations]). Hence
 $R^{i}f_{0!}\mathcal F_0\to R^{i}f_{0*}\mathcal F_0$ is an isomorphism of
 Weil sheaves for every $i$; this is the first half of (a).
 
-For local constancy, choose a lattice for $\mathcal F$ over the ring of
-integers $\mathcal O_E$ of a finite extension $E/\Ql$, with reductions
-$\mathcal F_n$ modulo $\lambda^{n}$; since $\mathcal F$ is lisse, each
+For local constancy we may treat each connected component of $X$ separately.
+By [sk-thm-sfb-qlbar-two-colimit] (1),
+$\mathcal F\cong\QbarX\otimes_{E_X}\mathcal F_E$ for a lisse $E_X$-module
+$\mathcal F_E$ and a finite extension $E/\Ql$. Since $Y_0$ is normal and $f$
+is smooth, $X$ is normal; by [thm-lisse-qlbar-representations],
+$\mathcal F_E$ corresponds to a continuous representation of the profinite
+group $\pi_1(X,\bar x)$ on a finite-dimensional $E$-vector space, which
+stabilizes an $\mathcal O_E$-lattice by compactness, and the lattice gives a
+lisse $\mathcal O_{E,X}$-submodule $L_0\subset\mathcal F_E$ with
+$L_0[1/\ell]=\mathcal F_E$ (compare [sk-lem-stratified-lattice], where the
+normality hypothesis is shown to be needed). Put
+$\mathcal F_n=L_0\otimes_{\mathcal O_E}\mathcal O_E/\lambda^{n}$; each
 $\mathcal F_n$ is a finite locally constant sheaf of
 $\mathcal O_E/\lambda^{n}$-modules, of $\ell$-power torsion with $\ell$
-invertible on $Y$. By [thm-fin-proper-constructibility-complete] the sheaves
+invertible on $Y$, and may be treated on the étale site.
+By [thm-fin-proper-constructibility-complete] the sheaves
 $R^{q}f_*\mathcal F_n$ are constructible, and a constructible sheaf all of
 whose specialization maps are isomorphisms is locally constant; so it
 suffices to show that for a geometric point $\bar s$ of $Y$ and a geometric
@@ -66,12 +77,25 @@ compatibly with restriction along $h$. So every specialization map is an
 isomorphism, and every $R^{q}f_*\mathcal F_n$ is finite locally constant.
 No separate local-acyclicity theorem is needed: the vanishing of
 $R^{q}h_*$ along the closed fibre is exactly what smooth base change
-supplies. The complexes $Rf_*\mathcal F_n$ form the reduction tower of
-$Rf_*$ of the lattice; passing to the limit and inverting $\lambda$, with
-the stalks computed by [cor-weil-pbc-geometric-fiber-qbar], the
-specialization maps of $R^{i}f_*\mathcal F$ are isomorphisms of
-finite-dimensional $\Qlb$-vector spaces and $R^{i}f_*\mathcal F$ is lisse.
-This completes (a).
+supplies. The $\ell$-adic statement is a consequence of the condensed comparison
+theorems. By [sk-thm-sfb-proper-base-change],
+$Rf_*L_0\in\Dbc(Y,\mathcal O_E)$, and the coefficient comparison for $Rf_*$
+along $\mathcal O_E\to\mathcal O_E/\lambda^n$ ([sk-prop-scalar-six]) gives
+$Rf_*L_0\otimes^{\mathbf L}_{\mathcal O_E}\mathcal O_E/\lambda^n\simeq Rf_*\mathcal F_n$.
+As $Rf_*L_0$ is derived $\lambda$-complete, it is the derived limit of these
+reductions, and the Milnor sequence ([sk-prop-pe-milnor]), whose
+$\varprojlim^1$-terms vanish because the transition maps between the finite
+locally constant sheaves $R^{i-1}f_*\mathcal F_n$ satisfy the Mittag-Leffler
+condition locally, gives
+$R^{i}f_*L_0\cong\varprojlim_nR^{i}f_*\mathcal F_n$. On each connected
+component of $Y$ this is the limit of a compatible system of finite
+continuous $\pi_1(Y,\bar y)$-modules, i.e. a lisse
+$\mathcal O_{E,Y}$-module, possibly with torsion. Extension of scalars along
+the flat maps $\mathcal O_E\to E\to\Qlb$ is exact and commutes with $Rf_*$
+([sk-prop-scalar-six], [sk-prop-sfb-finite-extension-compatibility]), so
+$R^{i}f_*\mathcal F\cong\Qlb\otimes_{\mathcal O_E}R^{i}f_*L_0$ is a lisse
+$\QbarY$-module; its stalks are computed by
+[cor-weil-pbc-geometric-fiber-qbar]. This completes (a).
 
 *Step 2 (upper bound).* A punctually $\iota$-pure sheaf of weight $w$ is
 $\iota$-mixed of weights at most $w$ in the sense of
@@ -110,9 +134,9 @@ Rf_*R\mathcal H om_X\bigl(\mathcal F,Rf^!\Qlb_Y\bigr)\xrightarrow{\ \sim\ }
 R\mathcal H om_Y\bigl(Rf_*\mathcal F,\Qlb_Y\bigr).
 $$
 
-Second, the smooth orientation: [thm-pur-rational-and-qbar-purity], for the
-smooth separated $f$ of relative dimension $d$ and $K=\Qlb_Y$ at the
-$\Qlb$-stage, gives $\Qlb_X(d)[2d]=Lf^*\Qlb_Y(d)[2d]\xrightarrow{\sim}Rf^!\Qlb_Y$.
+Second, the smooth orientation: [sk-thm-purity-transport], for the
+smooth separated $f$ of relative dimension $d$, $\Lambda=\Qlb$ and
+$K=\Qlb_Y$, gives $\Qlb_X(d)[2d]=Lf^*\Qlb_Y(d)[2d]\xrightarrow{\sim}Rf^!\Qlb_Y$.
 Third, the perfect form of duality: $\mathcal F$ is perfect over
 $\Qlb_X$, so [lem-sf-twist-interchange] with $m=d$, $n=2d$ gives
 $R\mathcal H om_X(\mathcal F,\Qlb_X(d)[2d])\cong\mathcal F^\vee(d)[2d]$.

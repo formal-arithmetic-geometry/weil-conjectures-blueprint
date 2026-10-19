@@ -3,8 +3,8 @@ kind  = "proof"
 of    = "lem-wf-conjugate-tensor-traces"
 +++
 At a closed point $x$ the eigenvalue multiset of
-$\mathcal F\otimes\bar{\mathcal F}$ in the coefficient category of
-[def-weil-pbc-qbar-category] at $\bar x$ is the set of
+$\mathcal F\otimes\bar{\mathcal F}$ on the finite-dimensional
+$\Qlb$-vector space $(\mathcal F\otimes\bar{\mathcal F})_{\bar x}=\mathcal F_{\bar x}\otimes\bar{\mathcal F}_{\bar x}$ is the set of
 products $\alpha_i\bar\alpha_j$ of the $\iota$-images of the
 eigenvalues of $F_x$ on $\mathcal F_{\bar x}$, hence at a point
 $y\in X_0(k_m)$ the trace of the tensor is

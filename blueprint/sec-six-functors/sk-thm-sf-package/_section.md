@@ -2,13 +2,19 @@
 id = "sk-thm-sf-package"
 kind = "theorem"
 title = "The six-operations package"
-order = 2514
-uses = ["sk-cor-sf-direct-image-ctf", "sk-def-sf-admissible", "sk-def-sf-operations", "sk-lem-sf-flat-model", "sk-lem-sf-mate", "sk-lem-sf-twist-interchange", "sk-prop-cohsm", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-comparison", "sk-prop-sf-dualizable-biduality", "sk-prop-sf-finiteness", "sk-prop-sf-kunneth-ordinary", "sk-prop-sf-pf-reduction", "sk-prop-sf-rf-shriek-preservation", "sk-rem-sf-matrix", "sk-thm-nagata-compactification", "sk-thm-properbasechange", "sk-thm-purity-transport", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-dual-perfect", "sk-thm-sf-global-duality", "sk-thm-sf-hom-ctf", "sk-thm-sf-identification", "sk-thm-sf-kunneth-relative", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale", "sk-thm-sf-tensor-hom", "sk-thm-smooth-base-change", "sk-thm-smooth-purity"]
+order = 2421
+uses = ["sk-cor-sf-direct-image-ctf", "sk-def-sf-admissible", "sk-def-sf-operations", "sk-def-sf-setting", "sk-def-sf-categories", "sk-thm-existence", "sk-thm-sfb-proper-base-change", "sk-thm-sbc-coefficients", "sk-prop-scalar-six", "sk-lem-sf-flat-model", "sk-lem-sf-mate", "sk-lem-sf-twist-interchange", "sk-prop-cohsm", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-comparison", "sk-prop-sf-dualizable-biduality", "sk-prop-sf-finiteness", "sk-prop-sf-kunneth-ordinary", "sk-prop-sf-pf-reduction", "sk-prop-sf-rf-shriek-preservation", "sk-rem-sf-matrix", "sk-thm-nagata-compactification", "sk-thm-properbasechange", "sk-thm-purity-transport", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-dual-perfect", "sk-thm-sf-global-duality", "sk-thm-sf-hom-ctf", "sk-thm-sf-identification", "sk-thm-sf-kunneth-relative", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale", "sk-thm-sf-tensor-hom", "sk-thm-smooth-base-change", "sk-thm-smooth-purity"]
 lean = ["AlgebraicGeometry.Etale.SixOperationsPackage", "AlgebraicGeometry.Etale.sixOperationsPackage"]
 tags = ["sketch"]
 +++
-Fix the coefficient stages of [sk-def-sf-setting] and let $f:X\to Y$ be a
-separated finite-type morphism of finite-type $k$-schemes. Then the six
+Fix an admissible coefficient ring $\Lambda$ of [sk-def-sf-setting], regarded
+as a condensed ring, and let $f:X\to Y$ be a
+separated finite-type morphism of finite-type $k$-schemes. The ambient
+categories are $D(X_{\mathrm{pro\acute et}},\Lambda)$, the derived categories of
+$\Lambda_X=p_X^*\Lambda$-modules, and the small categories are their full
+subcategories $\Dctf(X,\Lambda)\subseteq\Dbc(X,\Lambda)$ of
+[sk-def-sf-categories]; for finite $\Lambda$ they may equivalently be read on
+the small étale site. Then the six
 operations of [sk-def-sf-operations] exist as functors of the ambient
 categories, they descend to the small categories as in [sk-rem-sf-typing],
 and they satisfy:
@@ -22,7 +28,7 @@ $K\in D^+(Y,\Lambda)$ and $L\in D^+(X,\Lambda)$ (both functors typed between
 the same pair of categories); the constructible exceptional adjoint
 $Rf^!:\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$ of [sk-def-sf-operations] (vi) is
 right adjoint to $Rf_!:\Dctf(X,\Lambda)\to\Dctf(Y,\Lambda)$,
-unconditionally, with units and counits compatible with composition,
+unconditionally and for every admissible $\Lambda$ ([sk-thm-existence]), with units and counits compatible with composition,
 refinements and exchanges ([thm-sf-ambient-adjoint-class],
 [sk-prop-sf-rf-shriek-preservation], [sk-lem-sf-mate] (1)); and, whenever $f$ carries the ambient datum of
 [sk-def-sf-admissible] (1), the ambient functor
@@ -35,8 +41,9 @@ transformation $\operatorname{Ex}_!:Lg^*Rf_!\to Rf'_!Lg'^*$ of
 [sk-def-sf-exchanges] is a natural isomorphism with exactly the typing of
 [sk-prop-sf-cbc] — at $\Lambda=A_{E,n}$ on $D^+$ of the small étale site
 and on the étale-origin complexes of the pro-étale site; at
-$\mathcal O_E,E,\Qlb$ only on $\Dbc$ of the adic pro-étale categories, as
-the completed exchange, and never on the discrete non-torsion coefficients of
+$\mathcal O_E,E,\Qlb$ on the condensed categories
+$\Dbc(X,\Lambda)\subseteq D(X_{\mathrm{pro\acute et}},\Lambda)$, and never on the
+discrete non-torsion coefficients of
 the small étale site, exactly as for $\operatorname{Ex}_*$ below; it is the
 identity for the identity square,
 compatible with pasting of squares, independent of the compactification
@@ -50,19 +57,18 @@ smooth $g$ ([sk-thm-smooth-base-change]), *with the following typing
 only*: (a) at a finite stage $\Lambda=A_{E,n}$, as functors
 $D^+(X,\Lambda)\to D^+(Y',\Lambda)$ on the small étale site and on the
 étale-origin complexes of the pro-étale site (for smooth $g$ on the bounded
-constructible ones); (b) at the stages
-$\mathcal O_E$, $E$, $\Qlb$, only on $\Dbc$ of the pro-étale (adic)
-categories — derived-complete $\mathcal O_E$-complexes whose reductions are
-of étale origin, their rationalizations and the $\Qlb$-colimit, with
-$\operatorname{Ex}_*$ the completed exchange — where it is deduced from (a)
-by derived limits over the finite reductions and then transported by
-rationalization and scalar extension, exactly as the projection formula is in
-[sk-thm-sf-pf-adic] and [sk-thm-sf-pf-field]. No
+constructible ones); (b) for every admissible $\Lambda$, in particular
+$\mathcal O_E$, $E$, $\Qlb$, on the condensed categories
+$\Dctf(X,\Lambda)$, for proper $f$ by [sk-thm-sfb-proper-base-change] and for
+smooth $g$ by [sk-thm-sbc-coefficients]. There the integral case reduces to
+(a) modulo $\pi_E$ by derived Nakayama, the case $E$ to integral models,
+and $\Qlb$ to a finite $E$ by descent of the complex, and the isomorphisms
+respect the coefficient comparisons of [sk-prop-scalar-six]. No
 assertion is made for the discrete non-torsion coefficients $\mathcal O_E,E,\Qlb$
 on the small étale site, where $\operatorname{Ex}_*$ is not an isomorphism in
 general.
 1. **(3)** *Projection formula.* $\operatorname{PF}_{f,K,L}$ is an
-isomorphism in $D^+(Y,\Lambda)$ at every coefficient stage, natural and
+isomorphism in $D^+(Y,\Lambda)$ for every admissible coefficient ring, natural and
 coherent, including compatible with base change through the
 $\operatorname{Ex}_!$ of clause (2) (the base-change clause of
 [sk-prop-sf-pf-coherence])
@@ -79,7 +85,7 @@ the purity map $\gamma_{f,K}:Lf^*K(d)[2d]\to Rf^!K$ (the orientation of
 [sk-def-sf-orientation]) is a natural isomorphism of functors
 $\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$; in particular
 $\omega_f\cong\Lambda_X(d)[2d]$ ([sk-thm-smooth-purity], with
-[sk-thm-purity-transport] for the remaining coefficient stages). It is
+[sk-thm-purity-transport] for the remaining admissible coefficient rings). It is
 compatible with composition of smooth morphisms (twist additivity, through
 the mate isomorphism $R(gf)^!\cong Rf^!Rg^!$ of [sk-lem-sf-mate]) and with
 base change — along arbitrary $g$ at $\Lambda=A_{E,n}$, along étale $g$ at

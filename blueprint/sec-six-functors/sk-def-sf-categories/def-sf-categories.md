@@ -3,15 +3,18 @@ id = "def-sf-categories"
 kind = "definition"
 title = "Ambient categories and small subcategories"
 order = 2385
+uses = ["sk-def-sf-setting", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-derived-categories", "sk-def-sfb-constructible", "sk-def-sfb-bounded-constructible"]
 +++
-Fix a scheme $T$ carrying a coefficient stage $\Lambda$ and a site — the
-*small étale* or the *small pro-étale* site of
-def:weil-pbc-etale-site and def:weil-pbc-proetale-site. The
-*ambient* categories are the ordinary derived categories of
-$\Lambda_T$-modules
+Fix a scheme $T$ and an admissible coefficient ring
+$\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$ of [sk-def-sf-setting],
+regarded as a condensed ring, with coefficient sheaf
+$\Lambda_T=p_T^*\Lambda$ on the small pro-étale site
+([sk-def-sfb-pulled-back-coefficients]). The *ambient* categories are the
+ordinary derived categories of $\Lambda_T$-modules on $T_{\mathrm{pro\acute et}}$
+([sk-def-sfb-derived-categories])
 
 $$
-D(T,\Lambda),\quad D^+(T,\Lambda),\quad D^-(T,\Lambda),\quad D^b(T,\Lambda),
+D(T,\Lambda)=D(T_{\mathrm{pro\acute et}},\Lambda),\quad D^+(T,\Lambda),\quad D^-(T,\Lambda),\quad D^b(T,\Lambda),
 $$
 
 together with, for a set of primes $P$ invertible on $T$, the full
@@ -26,10 +29,16 @@ $$
 D_c^{[a,b]}(T,\Lambda)\subseteq\Dbc(T,\Lambda)
 $$
 
-of bounded constructible complexes, of bounded constructible complexes of
-finite Tor amplitude, and of bounded constructible complexes with cohomology
-concentrated in $[a,b]$
-(def:weil-finite-torsion-constructibility,
-def:weil-finite-tor-amplitude,
-def:weil-constructible-intervals); at the field stages
-$\Dctf=\Dbc$ by definition.
+of bounded complexes with constructible cohomology sheaves, of those of
+finite Tor amplitude over $\Lambda_T$, and of those with cohomology
+concentrated in $[a,b]$ ([sk-def-sfb-constructible],
+[sk-def-sfb-bounded-constructible]). For $\Lambda=\mathcal O_E,E,\Qlb$ one has
+$\Dctf=\Dbc$ ([sk-def-sf-setting]).
+
+For finite $\Lambda=A_{E,n}$, and only there, the same definitions may be read
+on the small étale site of def:weil-pbc-etale-site, with
+$\Dbc(T_{\mathrm{\acute et}},A)$, $\Dctf(T_{\mathrm{\acute et}},A)$ and
+$D_c^{[a,b]}(T_{\mathrm{\acute et}},A)$ as in
+def:weil-finite-torsion-constructibility, def:weil-finite-tor-amplitude and
+def:weil-constructible-intervals; the comparison $\nu_T^*$ identifies them
+with the pro-étale categories above ([sk-def-sf-setting]).

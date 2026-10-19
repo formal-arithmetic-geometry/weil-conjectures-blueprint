@@ -5,7 +5,7 @@ title = "Rank-one weight from a positive-degree element"
 lean = ["AlgebraicGeometry.Monodromy.DegreeDatum.norm_apply_eq_rpow_iff", "AlgebraicGeometry.Monodromy.DegreeDatum.forall_norm_eq_rpow_iff_exists", "AlgebraicGeometry.Monodromy.DegreeDatum.forall_norm_eq_rpow_iff_forall"]
 order = 2900
 tags = ["latex:corollary"]
-uses = ["def-weil-punctual-weights", "def-wf-weil-category", "def-wf-weil-group", "lem-wf-rank-one-component-modulus"]
+uses = ["def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "def-wf-weil-group", "lem-wf-rank-one-component-modulus", "sk-lem-coefficient-heart"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, put
 $|k_0|=q$, and let

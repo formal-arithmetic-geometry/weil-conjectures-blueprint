@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Even tensor powers of a real sheaf are positive"
 lean = ["AlgebraicGeometry.WeilGroup.IsReal.tensorPower", "AlgebraicGeometry.WeilGroup.IsReal.hasNonnegCoeffs_eulerFactor_tensorPower", "AlgebraicGeometry.WeilGroup.IsReal.hasNonnegCoeffs_eulerFactor_tprod_self"]
 order = 3005
-uses = ["def-real-weil-representation-operations", "def-weil-pbc-scheme-conventions", "def-wf-iota-real", "def-wf-weil-category", "p-linear-spectra"]
+uses = ["def-real-weil-representation-operations", "def-weil-pbc-scheme-conventions", "def-weil-weil-sheaf-complex", "def-wf-iota-real", "p-linear-spectra", "sk-lem-coefficient-heart"]
 +++
 Let $\mathcal G_0$ be a lisse
 $\iota$-real

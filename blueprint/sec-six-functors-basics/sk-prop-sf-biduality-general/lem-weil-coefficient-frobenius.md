@@ -4,11 +4,12 @@ kind = "lemma"
 title = "Coefficient biduality at finite and integral stages"
 lean = ["AlgebraicGeometry.Etale.isDualizable_of_constructibleFiniteTor_of_subsingleton", "AlgebraicGeometry.Etale.isIso_verdierDualDoubleDual_app_id_of_isDualizable", "AlgebraicGeometry.Etale.isIso_verdierDualDoubleDual_app_id_of_subsingleton", "IsDiscreteValuationRing.injective_quotient_pow", "IsDiscreteValuationRing.isReflexive_quotient_pow", "IsDiscreteValuationRing.dual_quotient_eq_zero", "IsDiscreteValuationRing.not_isReflexive_quotient"]
 order = 2464
-uses = ["def-weil-derived-complete-integral-detailed", "def-weil-finite-torsion-constructibility"]
+uses = ["sk-def-sfb-condensed-ring"]
 +++
-For the coefficient stages of
-[def-weil-finite-torsion-constructibility] and
-[def-weil-derived-complete-integral-detailed], the following distinctions hold.
+Consider the coefficient rings $A_{E,n}=\mathcal O_E/\pi_E^n$, $\mathcal O_E$,
+$E$ and $\Qlb$ as ordinary rings; they are the rings of sections over the
+point of the corresponding condensed coefficient rings
+([sk-def-sfb-condensed-ring]). The following distinctions hold.
 
 1. If $\Lambda=A_{E,n},E$, or
 $\overline{\mathbf Q}_\ell$, then $\Lambda$ is self-injective and

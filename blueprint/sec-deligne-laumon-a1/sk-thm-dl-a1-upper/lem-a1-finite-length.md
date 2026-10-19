@@ -4,12 +4,13 @@ kind = "lemma"
 title = "Finite length of a lisse Weil sheaf on a curve"
 lean = ["AlgebraicGeometry.WeilSheaf.IsLisse.induction_on_shortExact"]
 order = 3136
-uses = ["def-weil-pbc-constructible-complexes", "def-wf-weil-category"]
+uses = ["sk-lem-coefficient-heart", "def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes"]
 +++
 Let $C_0$ be a smooth geometrically connected curve and let
-$\mathcal F$ be a lisse Weil sheaf
-on $C_0$ (lisse in the sense of
-[def-weil-pbc-constructible-complexes]). Then
+$\mathcal F$ be a lisse $\Qlb$-Weil sheaf
+on $C_0$: a lisse $\overline{\mathbf Q}_{\ell,C}$-module on $C_{\mathrm{proét}}$
+([sk-lem-coefficient-heart]) with a Weil structure ([sk-def-sf-weil-complexes],
+[def-weil-weil-sheaf-complex]). Then
 $\mathcal F$ has finite length in the category of lisse Weil sheaves:
 there is a finite Frobenius-stable filtration
 

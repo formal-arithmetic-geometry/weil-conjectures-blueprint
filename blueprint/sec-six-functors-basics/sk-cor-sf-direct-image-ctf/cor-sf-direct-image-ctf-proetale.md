@@ -19,6 +19,6 @@ finite Tor amplitude in $[a,b]$, both notions being the intrinsic ones of
 [def-weil-finite-tor-amplitude]. Then $Rf_*K$ is bounded
 constructible on $Y_{\Proet}$ and has finite Tor amplitude in
 $[a,b+2d]$. That is, clause (iii) of the finite-Tor preservation summary holds at
-the finite coefficient stage $A$ for *every* object of
+the finite coefficient ring $A$ for *every* object of
 $D^b_{ctf}(X_{\Proet},A)$, with no restriction to the objects of étale
 origin.

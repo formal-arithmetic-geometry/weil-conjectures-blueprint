@@ -3,7 +3,7 @@ id = "rem-weil-biduality-boundary-status"
 kind = "remark"
 title = "Finite-stage completion and coefficient scope"
 order = 2499
-uses = ["cor-coef-finite-verdier", "cor-weil-boundary-duality-discharge", "cor-weil-finite-constructible-hom", "lem-weil-coefficient-frobenius", "lem-weil-finite-duality-site-comparison", "lem-weil-geometric-generic-exchange", "lem-weil-verdier-preservation-strata", "thm-coef-integral-verdier", "thm-coef-qbar-verdier", "thm-coef-rational-verdier", "thm-fix-general-biduality", "thm-weil-etale-geometric-biduality"]
+uses = ["cor-coef-finite-verdier", "cor-weil-boundary-duality-discharge", "cor-weil-finite-constructible-hom", "lem-weil-coefficient-frobenius", "lem-weil-finite-duality-site-comparison", "lem-weil-geometric-generic-exchange", "lem-weil-verdier-preservation-strata", "thm-coef-integral-verdier", "thm-fix-general-biduality", "thm-weil-etale-geometric-biduality", "sk-thm-pd-verdier-duality"]
 +++
 Constructible preservation
 is proved independently in [lem-weil-verdier-preservation-strata];
@@ -17,10 +17,9 @@ subsequent consequence [cor-weil-boundary-duality-discharge],
 and general finite-stage internal-Hom preservation is
 [cor-weil-finite-constructible-hom].
 
-These geometric statements concern $A_{E,n}$. The following sections
-prove the required coefficient comparisons: [cor-coef-finite-verdier]
-normalizes the finite duals; [thm-coef-integral-verdier] reconstructs
-integral duality; [thm-coef-rational-verdier], [thm-coef-qbar-verdier]
-give the field stages. The point calculation
-[lem-weil-coefficient-frobenius] remains an algebraic ingredient,
-while those sections supply the geometric coefficient passage.
+These geometric statements concern $A_{E,n}$. [cor-coef-finite-verdier]
+normalizes the finite duals. The other admissible coefficient rings follow by
+the reductions of [sk-thm-pd-verdier-duality]: derived Nakayama for
+$\mathcal O_E$ ([thm-coef-integral-verdier]), integral models for $E$, and
+descent to a finite $E$ for $\Qlb$. The point calculation
+[lem-weil-coefficient-frobenius] remains an algebraic ingredient.

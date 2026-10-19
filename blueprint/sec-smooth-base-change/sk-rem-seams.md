@@ -2,7 +2,7 @@
 id = "sk-rem-seams"
 kind = "remark"
 title = "The seams"
-order = 1503
+order = 1445
 tags = ["sketch"]
 +++
 *(i) The two lanes contradict (this is the whole proof):* a

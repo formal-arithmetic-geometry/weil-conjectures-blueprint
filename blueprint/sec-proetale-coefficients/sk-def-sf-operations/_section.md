@@ -66,12 +66,25 @@ compatible with refinements of the compactification
 ([thm-sf-ambient-adjoint-class]); and the *preservation*
 $Rf^!\Dctf(Y,A)\subseteq\Dctf(X,A)$, with explicit bounds on the
 constructible interval and on the Tor amplitude
-([sk-prop-sf-rf-shriek-preservation], [thm-sf-ctf-stability] (v)). At the
-adic stages $\mathcal O_E$, $E$, $\Qlb$ the functor is defined levelwise on
-the normalized systems, $Rf^!(L_n)_n=(Rf^!_nL_n)_n$, the finite-reduction
-isomorphisms $Rf^!_n(L_n)\otimes^L_{A_{E,n}}A_{E,m}\cong Rf^!_m(L_m)$
-($m\le n$) of [thm-sf-ctf-stability] (vii) making the result a normalized
-system again, followed by rationalization and the common-stage construction.
+([sk-prop-sf-rf-shriek-preservation], [thm-sf-ctf-stability] (v)). For
+$\Lambda\in\{\mathcal O_E,E,\Qlb\}$, regarded as condensed rings, the functor
+is defined directly on $\Lambda$-modules. The compact-support
+direct image
+$Rf_!:\Loc(\Dctf(X,\Lambda))\to\Loc(\Dctf(Y,\Lambda))$ on the localizing
+closures ([sk-def-localizing-closure]) is exact and preserves direct sums, and
+the objects of $\Dctf$ are compact generators, so Brown representability gives
+an exact right adjoint
+$f^!:\Loc(\Dctf(Y,\Lambda))\to\Loc(\Dctf(X,\Lambda))$
+([sk-thm-existence] (3)). It sends $\Dctf(Y,\Lambda)$ into $\Dctf(X,\Lambda)$
+([sk-thm-existence] (4)), and one *defines*
+$$
+Rf^!:=f^!|_{\Dctf(Y,\Lambda)}:\Dctf(Y,\Lambda)\longrightarrow\Dctf(X,\Lambda).
+$$
+Since $\Dctf=\Dbc$ for these $\Lambda$, it is right adjoint to $Rf_!$ on
+$\Dbc$, and by uniqueness of adjoints it agrees with the functor
+$Rf^!=i^*\circ Rp^!$ on $D_{\mathrm{cons}}$ of [sk-def-sfb-dc-upper-shriek]. The
+same construction applies to finite $A$, and there it agrees on $\Dctf(Y,A)$
+with the étale definition above, again by uniqueness of adjoints.
 
 When the ambient functor $Rf^{\times}$ of (v) exists and satisfies the
 preservation clauses of [sk-def-sf-admissible], its restriction to $\Dctf$

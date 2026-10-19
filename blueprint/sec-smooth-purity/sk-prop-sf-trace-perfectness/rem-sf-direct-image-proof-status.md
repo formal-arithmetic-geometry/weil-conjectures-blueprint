@@ -34,7 +34,7 @@ $D^b_{ctf}(X_{\Proet},A)$ is of étale origin, and
 [lem-sf-comparison-tor-amplitude] transfers the finite-Tor condition
 across the comparison in both directions, so
 [cor-sf-direct-image-ctf-proetale] proves clause (iii) at the finite
-coefficient stages for *every* object of
+admissible coefficient rings for *every* object of
 $D^b_{ctf}(X_{\Proet},A)$, with the amplitude $[a,b+2d]$, through
 [cor-sf-direct-image-ctf-nonproper] and the comparison direct image.
 The earlier corollary [cor-sf-direct-image-ctf-etale-origin] remains

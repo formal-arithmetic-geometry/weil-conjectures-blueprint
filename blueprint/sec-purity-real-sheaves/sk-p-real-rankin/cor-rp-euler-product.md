@@ -5,7 +5,7 @@ title = "Euler product of the $L$-function of a lisse sheaf"
 lean = ["AlgebraicGeometry.WeilSheaf.coeff_prod_inv_localPolynomial_stalk_eq", "AlgebraicGeometry.WeilGroup.map_eq_one_of_map_frobenius_eq_one", "AlgebraicGeometry.WeilGroup.exists_eulerSeries_mul_eq_coe"]
 order = 3007
 tags = ["latex:corollary"]
-uses = ["d-real-cohom", "def-weil-punctual-weights", "def-wf-weil-category", "lem-a1-affine-hc0", "thm-trf-grothendieck-lefschetz-qbar", "thm-trf-l-function-euler-product"]
+uses = ["d-real-cohom", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-a1-affine-hc0", "sk-lem-coefficient-heart", "det-thm-tf-uniform-formula-weil", "thm-trf-l-function-euler-product"]
 +++
 Let $U_0$ be a smooth geometrically connected affine curve, let
 $U=U_0\times_{k_0}k$, and let $\mathcal G_0$ be a lisse
@@ -22,5 +22,5 @@ $$
 where $|U_0|$ is the set of closed points, $d(x)$ the degree of
 $x$, and the right-hand side is the graded form of the
 Grothendieck–Lefschetz trace formula
-[thm-trf-grothendieck-lefschetz-qbar] (summed
+[det-thm-tf-uniform-formula-weil] (summed
 with the signs $(-1)^{i+1}$).

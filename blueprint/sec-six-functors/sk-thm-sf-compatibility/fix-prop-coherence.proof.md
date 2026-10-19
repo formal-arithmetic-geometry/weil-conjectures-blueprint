@@ -11,7 +11,8 @@ units and counits, whose coefficient comparisons are proved in
 [lem-fix-operation-reduction]. The general Hom comparisons
 [thm-coef-finite-hom], [lem-coef-integral-hom-reduction], [lem-coef-integral-finite-extension]
 are defined by the same evaluation maps. The exceptional comparisons
-[lem-coef-finite-exceptional], [prop-coef-integral-exceptional-adjoint], [lem-coef-rational-operations]
+[lem-coef-finite-exceptional] and those of [sk-prop-scalar-six] for the
+adjoint of [sk-thm-existence]
 preserve units and counits, so their mates satisfy the same equations.
 Their Weil structures are [lem-fix-weil-operations], with
 general duality equivariance given by [cor-coef-verdier-weil-equivariance]. The geometric orientation is supplied

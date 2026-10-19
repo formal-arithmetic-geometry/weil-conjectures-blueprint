@@ -3,10 +3,10 @@ id = "sec-six-functors"
 kind = "section"
 title = "Six Functors"
 order = 2383
-uses = ["sec-nagata-compactification", "sec-proetale-coefficients", "sec-proper-base-change", "sec-smooth-base-change", "sec-smooth-purity"]
+uses = ["sec-curve-estimates", "sec-nagata-compactification", "sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity"]
 +++
 **Content.** For separated finite-type morphisms of finite-type schemes over
-$k=\overline{\mathbf F}_q$ and every coefficient stage ($A_{E,n}$,
+$k=\overline{\mathbf F}_q$ and every admissible coefficient ring ($A_{E,n}$,
 $\mathcal O_E$, $E$, $\Qlb$), this section assembles the six operations
 $Lf^*,Rf_*,Rf_!,Rf^!,\otimes^L,\RHom$ into one package. The operations are
 defined only on ambient derived categories, and their descent to $\Dctf$ is

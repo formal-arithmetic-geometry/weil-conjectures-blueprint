@@ -3,14 +3,14 @@ id = "lem-zl-mixed-punctual-cutoff"
 kind = "lemma"
 title = "Punctual cutoff for an already mixed sheaf"
 order = 3186
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.IsMixedOfWeightsAtMost.of_hasWeightsAtMost"]
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "p-linear-filtration"]
+lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_hasWeightsAtMost"]
+uses = ["def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "p-linear-filtration", "sk-lem-coefficient-heart"]
 +++
 Fix the finite field, coefficient field and embedding $\iota$ of
 [def-weil-punctual-weights].
 Let $\mathcal G$ be a
 constructible
-$\Qlb$-Weil sheaf on a
+$\Qlb$-Weil sheaf ([sk-lem-coefficient-heart], [def-weil-punctual-weights]) on a
 separated finite-type
 $k_0$-scheme $Y_0$. Assume that for some $u\in\mathbf R$
 it is $\iota$-mixed of weights

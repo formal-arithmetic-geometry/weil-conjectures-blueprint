@@ -3,7 +3,7 @@ id = "rem-trf-decomposition-summary"
 kind = "remark"
 title = "Decomposition summary"
 order = 2746
-uses = ["cor-trf-point-counting", "def-trf-categorical-trace", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-frobenius-operators", "def-trf-global-operator", "def-trf-graph-correspondence", "def-trf-integration", "def-trf-local-term", "def-trf-strict-weil-complex", "def-trf-trace-class", "lem-trf-adjoint-mate", "lem-trf-chain-supertrace", "prop-trf-adic-coefficient-morphism-systems", "prop-trf-fixed-square-cartesian", "prop-trf-graph-frobenius-operator", "prop-trf-graph-operator", "prop-trf-rational-frobenius-integral-model", "prop-trf-trace-class-additivity", "prop-trf-trace-formal-laws", "rem-trf-classical-framework", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change", "thm-trf-fixed-point-localization", "thm-trf-frobenius-fixed-points", "thm-trf-frobenius-local-term", "thm-trf-grothendieck-lefschetz-finite-ring", "thm-trf-grothendieck-lefschetz-qbar", "thm-trf-integral-adic-coefficient-morphism-trace-formula", "thm-trf-internal-hom-pullback", "thm-trf-lefschetz-verdier", "thm-trf-trace-formula-e", "thm-trf-verdier-biduality", "thm-trf-verdier-duality"]
+uses = ["cor-trf-point-counting", "det-thm-tf-uniform-formula-weil", "sk-prop-tf-transport-integral", "sk-lem-tf-rational-model", "sk-thm-tf-uniform-formula", "def-trf-categorical-trace", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-frobenius-operators", "def-trf-global-operator", "def-trf-graph-correspondence", "def-trf-integration", "def-trf-local-term", "def-trf-strict-weil-complex", "def-trf-trace-class", "lem-trf-adjoint-mate", "lem-trf-chain-supertrace", "prop-trf-fixed-square-cartesian", "prop-trf-graph-frobenius-operator", "prop-trf-graph-operator", "prop-trf-trace-class-additivity", "prop-trf-trace-formal-laws", "rem-trf-classical-framework", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change", "thm-trf-fixed-point-localization", "thm-trf-frobenius-fixed-points", "thm-trf-frobenius-local-term", "thm-trf-grothendieck-lefschetz-finite-ring", "thm-trf-internal-hom-pullback", "thm-trf-lefschetz-verdier", "thm-trf-verdier-biduality", "thm-trf-verdier-duality"]
 +++
 The chapter extracts the two trace-formula inputs of the Weil-conjecture
 proof, the fixed-point evaluation and the Lefschetz–Verdier trace
@@ -54,15 +54,13 @@ base-changed correspondence is [lem-trf-fixed-map-proper];
 [thm-trf-frobenius-fixed-points] (with the complete affine
 computation and the transversality check) and the local-term formula
 [thm-trf-frobenius-local-term];
-1. the coefficient descent to the finite-ring, integral, rational and
-algebraically closed statements
-([thm-trf-grothendieck-lefschetz-finite-ring],
-[thm-trf-integral-adic-coefficient-morphism-trace-formula], [thm-trf-trace-formula-e],
-[thm-trf-grothendieck-lefschetz-qbar]) and the point-counting
-corollary [cor-trf-point-counting]; for an arbitrary, possibly
-non-invertible, Weil map at the stage $E$ the descent passes through an
-integral model with non-invertible Frobenius coefficient morphisms
-([prop-trf-rational-frobenius-integral-model]), their adic assembly
-([prop-trf-adic-coefficient-morphism-systems]) and the integral
-coefficient-morphism trace formula
-[thm-trf-integral-adic-coefficient-morphism-trace-formula].
+1. the coefficient passage from the finite-ring statement
+[thm-trf-grothendieck-lefschetz-finite-ring] to the other admissible
+coefficient rings: the integral trace formula
+[sk-prop-tf-transport-integral] for an arbitrary integral Frobenius
+correspondence on $\Dbc(X,\mathcal O_E)$, the integral models
+[sk-lem-tf-rational-model] of possibly non-invertible rational Frobenius
+correspondences, and the uniform formula [sk-thm-tf-uniform-formula] for
+$\Lambda\in\{\mathcal O_E,E,\Qlb\}$, stated for Weil complexes over $E$
+and $\Qlb$ in [det-thm-tf-uniform-formula-weil]; then the point-counting
+corollary [cor-trf-point-counting].

@@ -18,9 +18,9 @@ compatibility identifies the reduction of $\delta_K$, defined by
 the tensor–Hom evaluation as in [lem-weil-duality-pairing],
 with the canonical finite double-dual map. Those maps are
 isomorphisms by [thm-fix-general-biduality].
-The cone of $\delta_K$ is derived complete and all its
-reductions are zero. Its reconstruction in
-[def-weil-derived-complete] is therefore zero.
+The cone of $\delta_K$ is derived complete
+([sk-def-pe-derived-completion]) and all its reductions are zero, so it is zero
+by derived Nakayama ([sk-lem-pe-derived-nakayama]).
 Thus $\delta_K$ is an isomorphism. The evaluation identity
 $D_{X,R}(\delta_K)\circ\delta_{D_{X,R}K}=\operatorname{id}$
 shows that these natural isomorphisms exhibit the stated

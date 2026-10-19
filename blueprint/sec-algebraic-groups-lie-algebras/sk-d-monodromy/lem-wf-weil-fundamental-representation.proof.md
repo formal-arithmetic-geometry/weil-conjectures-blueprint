@@ -17,7 +17,7 @@ $T_s$ (case $\gamma=1$, $n=1$).
 
 It is a homomorphism: $\rho_{\mathrm{geom}}$ is a homomorphism by the
 lisse sheaf–representation equivalence of
-[cor-galois-lisse-representations]; the commutation relation
+[thm-lisse-qlbar-representations]; the commutation relation
 displayed in [def-wf-fundamental-representation] rewrites
 $\rho_{\mathrm{geom}}(s^n\gamma s^{-n})$ as
 $T_s^n\rho_{\mathrm{geom}}(\gamma)T_s^{-n}$; and
@@ -30,7 +30,7 @@ the fibre-product projection to $\langle\Phi_X\rangle\cong\mathbf Z$ is
 open in $W(X_0,\bar x)$, and on it the formula
 reads $\gamma s^n\mapsto\rho(g)\rho_{\mathrm{geom}}(\gamma_0^{-1}\gamma)$.
 By the continuity of $\rho_{\mathrm{geom}}$ of
-[cor-galois-lisse-representations] there is an open subgroup
+[thm-lisse-qlbar-representations] there is an open subgroup
 $N\subseteq\pi_1(X,\bar x)$ with
 $\rho_{\mathrm{geom}}(N)\subseteq\rho(g)^{-1}U$, and then
 $\rho(Ns^n)\subseteq U$.

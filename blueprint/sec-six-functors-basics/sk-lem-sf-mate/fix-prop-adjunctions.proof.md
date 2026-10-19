@@ -21,11 +21,18 @@ the exceptional adjunction $(Rf_!,Rf^!)$. The natural adjunction
 isomorphisms $\Hom_Y(Rf_!K,L)\cong\Hom_X(K,Rf^!L)$ characterize
 $Rf^!$ by [def-weil-exceptional-inverse-image], so the
 adjunction $Rf_!\dashv Rf^!$, its unit and counit, and the
-triangle identities are the datum of
+triangle identities are, at the finite level, the datum of
 [def-weil-exceptional-adjoint-admissibility]; the agreement of
 the units and the counits with the refinement comparisons is
 condition (1) of that definition, and the restriction to the
-finite-Tor subcategories is condition (3) of the same definition.
+finite-Tor subcategories is condition (3) of the same definition. At
+$\Lambda=\mathcal O_E,E,\Qlb$ the adjunction $Rf_!\dashv Rf^!$ on the
+condensed categories is that of [sk-thm-existence] (3), it restricts to
+$\Dctf=\Dbc$ by [sk-thm-existence] (4), and it agrees with the composite
+adjunction $Rp_*i_!\dashv i^*Rp^!$ of [sk-def-sfb-dc-upper-shriek]; the
+agreement with the refinement comparisons follows from the uniqueness of
+adjoints, the right adjoint $Rp^!$ being determined up to unique
+isomorphism.
 Step 3: composition. The composite adjunction of step 1 is the
 paste of the component adjunctions (the unit of the composite is the
 composite of the units, the counit the composite of the counits, and
@@ -35,8 +42,9 @@ isomorphisms $R(gf)_*\cong Rg_*Rf_*$ of
 [lem-weil-derived-direct-image-composition], which are natural, unital
 and associative); for the
 exceptional pair, the mate of the composition isomorphism of
-[thm-sf-comp-composition] (with its transports of
-[def-weil-integral-rational-qbar-compact-support]) gives an
+[thm-sf-comp-composition] (at $\mathcal O_E,E,\Qlb$ the composition
+isomorphism of [sk-thm-sf-comp-composition] (1) on the condensed categories)
+gives an
 isomorphism $(g\circ f)^!\cong f^!g^!$, the pasted units and
 counits are the mates of this isomorphism through the two component
 adjunctions, and the triangle identities are the composite versions

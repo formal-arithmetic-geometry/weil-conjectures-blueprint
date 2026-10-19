@@ -2,11 +2,11 @@
 kind  = "proof"
 of    = "lem-coef-integral-finite-extension"
 +++
-The $R$-module $S$ is finite free. On completed coefficient
-sheaves it is therefore still finite free; its tensor functor is
-exact and commutes with derived inverse limits. In particular the
-completed tensor of a derived-complete complex is the ordinary
-derived tensor with this finite free coefficient sheaf. If $e$
+The $R$-module $S$ is finite free, so $\mathcal O_{L,X}=S\otimes_R\mathcal O_{E,X}$
+is a finite free $\mathcal O_{E,X}$-module
+([sk-prop-sfb-finite-extension-compatibility]); its tensor functor is
+exact and commutes with derived inverse limits. In particular
+$T_{S/R}$ preserves derived completeness, and no completion is needed. If $e$
 is the ramification index, the ideals
 $\varpi_E^nS=\varpi_L^{en}S$ are a cofinal system of powers of
 the maximal ideal of $S$. The reductions of $T_{S/R}K$ along

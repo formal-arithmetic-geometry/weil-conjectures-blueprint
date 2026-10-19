@@ -4,7 +4,7 @@ kind = "definition"
 title = "Normalized real envelope"
 order = 3108
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist"]
-lean = ["AlgebraicGeometry.LAdicWeilSheaf.realEnvelope"]
+lean = ["AlgebraicGeometry.WeilSheaf.realEnvelope"]
 +++
 Let $\mathcal F$ be a Weil sheaf on a $k_0$-scheme and let
 $b\in\Qlb^\times$. Put

@@ -3,35 +3,29 @@ id = "def-pur-tate-datum"
 kind = "definition"
 title = "Strict Weil data and the Tate datum"
 order = 2580
-uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-scheme-geometric-frobenius", "def-pur-smooth-pullback-exchange", "def-sbc-smooth-morphisms", "def-weil-algebraically-closed-coefficients", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-rationalization-karoubi", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
+uses = ["sk-def-sf-weil-complexes", "sk-def-sf-setting", "sk-def-sp-tate-twist", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-scheme-geometric-frobenius", "def-pur-smooth-pullback-exchange", "def-sbc-smooth-morphisms", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions]), fix the
 geometric-Frobenius datum of [def-pur-scheme-geometric-frobenius]
 and a coefficient ring $\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$. A
 *strict geometric-Weil datum* on $K\in D^b_{ctf}(Y,\Lambda)$ is a
-specified isomorphism in the ordinary triangulated category
+specified isomorphism in $D^b_{ctf}(Y,\Lambda)$
 
 $$
-\varphi_K:Lg_{Y,\gamma}^*K\xrightarrow{\ \sim\ }K;
+\varphi_K:Lg_{Y,\gamma}^*K\xrightarrow{\ \sim\ }K,
 $$
 
-for $\Lambda=\mathcal O_E$ such a datum is a normalized system of
-finite-stage data compatible with the reductions, for $\Lambda=E$ an
-object obtained from an $\mathcal O_E$-datum by inverting $\varpi$,
-and for
-$\Lambda=\Qlb$ a datum over some finite $E/\Ql$,
-modulo further finite coefficient extension (as in
-[def-weil-weil-sheaf-complex], with the
-rationalized common-stage
-conventions). In every case the forgetful object lies in
-$D^b_{ctf}(Y,\Lambda)$ and $\varphi_K$ denotes the resulting typed
-isomorphism; its scheme-Frobenius form is
+that is, a Weil structure in the sense of [sk-def-sf-weil-complexes], with
+$\operatorname{Fr}_Y=g_{Y,\gamma}$. The
+definition is the same for every $\Lambda$: $D^b_{ctf}(Y,\Lambda)$ is the
+condensed category of [sk-def-sf-setting], and no coefficient case is reduced
+to another. Its scheme-Frobenius form is
 
 $$
 u_K=\varphi_K\circ\kappa_{Y,K}:L\Phi_Y^*K\longrightarrow K.
 $$
 
-The Tate line carries its canonical
+The Tate line $\Lambda_Y(1)$ of [sk-def-sp-tate-twist] carries its canonical
 datum, the twist normalization of
 [def-weil-frobenius-coefficient-twists],
 

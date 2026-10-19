@@ -5,7 +5,7 @@ title = "Hasse–Weil bound"
 lean = ["AlgebraicGeometry.Scheme.Hom.abs_pointCount_sub_le_two_mul_genus"]
 order = 3257
 tags = ["latex:corollary"]
-uses = ["cor-trf-point-counting", "def-sc-curves", "def-sc-genus", "def-weil-algebraically-closed-coefficients", "def-weil-derived-complete-integral-detailed", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-geometric-hypotheses", "def-weil-rationalization-karoubi", "prop-cohomological-finiteness", "prop-endpoints", "prop-weight-purity-roots", "thm-sc-proper-cohomology"]
+uses = ["cor-trf-point-counting", "def-sc-curves", "def-sc-genus", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-geometric-hypotheses", "sk-def-sfb-pulled-back-coefficients", "sk-thm-sfb-proper-base-change", "sk-prop-scalar-six", "prop-cohomological-finiteness", "prop-endpoints", "prop-weight-purity-roots", "thm-sc-proper-cohomology"]
 +++
 Fix the finite-field datum
 $(p,a,q,k_0,k)$, where $q=p^a$, choose a prime $\ell\neq p$, fix an
