@@ -1,7 +1,7 @@
 +++
 id = "rem-ptr-kun-separably-closed-1"
 kind = "remark"
-title = "Pointer to the properties of [def-kun-separably-closed]"
+title = "Pointer to the properties of [def-pc-separably-closed]"
 order = 2019
 uses = ["def-pc-separably-closed", "lem-kun-sep-closed-finite-extension-purely-inseparable", "lem-kun-sep-closed-finite-extension-sep-closed"]
 +++

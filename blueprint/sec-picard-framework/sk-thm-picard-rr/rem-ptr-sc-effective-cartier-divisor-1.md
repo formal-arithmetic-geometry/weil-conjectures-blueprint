@@ -1,7 +1,7 @@
 +++
 id = "rem-ptr-sc-effective-cartier-divisor-1"
 kind = "remark"
-title = "Pointer to the properties of [def-sc-effective-cartier-divisor]"
+title = "Pointer to the properties of [def-nagata-invertible-ideal]"
 order = 715
 uses = ["def-nagata-invertible-ideal", "lem-sc-cartier-divisor-points", "lem-sc-point-cartier"]
 +++
