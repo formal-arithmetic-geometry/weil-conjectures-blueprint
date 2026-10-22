@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-picard-pic-split"
-uses = ["sk-cor-picard-pic-sheaf", "sk-thm-picard-descent"]
+uses = ["sk-def-picard-pic"]
 +++
 An automorphism of an invertible sheaf $\cL$ on $C_T$ is multiplication
 by a global unit of $C_T$. Condition $(\ast)$ identifies that unit with a
@@ -12,8 +12,8 @@ Given matching rigidified classes on an fppf cover $\{T_i\to T\}$, choose
 local isomorphisms on the overlaps and rescale them (by units of the base,
 using $(\ast)$) to preserve the rigidifications. Uniqueness of
 rigidified isomorphisms forces the cocycle condition, so effective descent
-for invertible sheaves ([sk-thm-picard-descent]) glues the pairs. The
-rigidified functor is therefore an fppf sheaf ([sk-cor-picard-pic-sheaf]).
+for invertible sheaves ([det-thm-picard-descent]) glues the pairs. The
+rigidified functor is therefore an fppf sheaf ([det-cor-picard-pic-sheaf]).
 
 Forgetting $\alpha$ identifies isomorphism classes of rigidified pairs
 with $\operatorname{Pic}_{C/S,\sigma}(T)=\ker\sigma_T^*$: every $\cL$ with

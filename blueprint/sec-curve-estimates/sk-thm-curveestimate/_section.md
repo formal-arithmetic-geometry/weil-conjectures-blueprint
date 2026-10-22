@@ -3,7 +3,7 @@ id = "sk-thm-curveestimate"
 kind = "proposition"
 title = "Smooth proper curves with invertible torsion"
 order = 883
-uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-prop-cd", "sk-prop-h1", "sk-prop-h2", "sk-thm-picard-main", "sk-thm-av-final", "sk-thm-picard-duality", "sk-thm-picard-rr", "sk-thm-br", "sk-prop-kummer-exact", "sk-cor-picard-degree", "sk-cor-jacobian-torsion", "sk-prop-sf-comparison"]
+uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-prop-cd", "sk-prop-h1", "sk-prop-h2", "sk-thm-picard-main", "sk-thm-av-final", "sk-thm-picard-rr", "sk-thm-br", "sk-prop-kummer-exact", "sk-cor-picard-degree", "sk-cor-jacobian-torsion", "sk-prop-sf-comparison"]
 lean = ["AlgebraicGeometry.IsCurve.nonempty_addEquiv_sheafH_constantZMod_zero", "AlgebraicGeometry.IsCurve.nonempty_addEquiv_sheafH_constantZMod_one", "AlgebraicGeometry.IsCurve.nonempty_addEquiv_sheafH_constantZMod_two", "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le"]
 tags = ["sketch"]
 +++

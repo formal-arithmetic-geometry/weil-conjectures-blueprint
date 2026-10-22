@@ -7,7 +7,9 @@ order = 823
 tags = ["latex:corollary"]
 uses = ["def-pc-pic-sigma-functor", "def-pc-picard-functor", "lem-pc-k-sheaf", "lem-pc-rational-hyp", "thm-pc-pic-split"]
 +++
-Let $k$ be a field and let $X$ be a smooth projective curve over $k$ with
+Let $k$ be a field and let $X$ be a smooth projective curve over $k$ (more
+generally, an integral proper scheme over $k$, or a scheme smooth of
+relative dimension $1$, proper and geometrically integral over $k$) with
 a $k$-rational point $\sigma$. Then the functors
 $\operatorname{Pic}_{X/k,\sigma}$ and
 $\operatorname{Pic}_{X/k}$ on

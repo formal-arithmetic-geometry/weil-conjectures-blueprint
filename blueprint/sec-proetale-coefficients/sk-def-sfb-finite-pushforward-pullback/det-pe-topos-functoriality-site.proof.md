@@ -22,7 +22,7 @@ $X$-morphism, since its composite with $T\to X$ and the structure map $U\to X$ a
 composition with each $U_i\to U$, and uniqueness of descent applies to $h_X$.
 
 *3.* The objects are weakly étale morphisms from $\mathcal U$-small schemes, as in the size
-convention of [def-weil-pbc-small-proetale-site], so the isomorphism classes form a set.
+convention of [def-weil-pbc-proetale-site], so the isomorphism classes form a set.
 Sheaves of sets on an essentially small site form a Grothendieck topos (Giraud's theorem,
 or directly: $\Sh$ is a left exact reflective subcategory of a presheaf topos, with the
 sheafification as reflector).

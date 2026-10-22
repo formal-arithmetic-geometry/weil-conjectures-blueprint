@@ -2,7 +2,7 @@
 id = "pqf-lem-affine-vanishing"
 kind = "lemma"
 title = "Vanishing of higher cohomology on affines"
-lean = ["AlgebraicGeometry.Scheme.Modules.subsingleton_H_restrict_of_isAffineOpen"]
+lean = ["AlgebraicGeometry.Scheme.Modules.subsingleton_H_restrict_of_isAffineOpen", "AlgebraicGeometry.Scheme.Modules.subsingleton_H_succ_of_isAffine"]
 order = 550
 uses = ["pqf-def-coherent", "pqf-def-cohomology"]
 +++

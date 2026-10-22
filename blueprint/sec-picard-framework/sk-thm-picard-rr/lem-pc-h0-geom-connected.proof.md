@@ -3,7 +3,7 @@ kind  = "proof"
 of    = "lem-pc-h0-geom-connected"
 +++
 ($\Rightarrow$) Let $k'/k$ be a field extension and set
-$A_{k'}:=H^0(X_{k'},\mathcal{O}_{X_{k'}})$; by [lem-sc-flat-base-change-coherent]
+$A_{k'}:=H^0(X_{k'},\mathcal{O}_{X_{k'}})$; by [lem-pc-flat-base-change-cohom]
 $A_{k'}=H^0(X,\mathcal{O}_X)\otimes_kk'=k'$. A scheme $Y$ is connected if and
 only if every idempotent of $H^0(Y,\mathcal{O}_Y)$ equals $0$ or $1$
 (the standard: an idempotent $e$ decomposes $Y=V(e)\sqcup V(1-e)$,
@@ -15,7 +15,7 @@ geometrically connected.
 
 ($\Leftarrow$) Assume $X$ is geometrically connected. Put
 $\Omega=\bar k$; $X_\Omega$ is connected and (geometrically reduced,
-hence) reduced. By [lem-sc-flat-base-change-coherent],
+hence) reduced. By [lem-pc-flat-base-change-cohom],
 $H^0(X_\Omega,\mathcal{O}_{X_\Omega})=H^0(X,\mathcal{O}_X)\otimes_k\Omega$, so by
 [lem-pc-coherent-hi] (proper $X_\Omega$ over the field $\Omega$)
 it is a finite $\Omega$-algebra; it is reduced (a submodule-statement:

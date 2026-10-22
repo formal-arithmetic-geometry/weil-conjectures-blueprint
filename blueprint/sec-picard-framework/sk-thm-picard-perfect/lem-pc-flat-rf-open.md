@@ -3,7 +3,7 @@ id = "lem-pc-flat-rf-open"
 kind = "lemma"
 title = "The open locus of invertible $Rf_*$"
 order = 688
-uses = ["def-pc-derived-category", "def-pc-derived-pullback", "def-pc-perfect-complex", "lem-pc-flat-complex-derived-pullback", "lem-pc-perfect-locus", "lem-pc-rf-perfect-base-change", "thm-pc-semicontinuity-base-change"]
+uses = ["def-pc-base-change", "def-pc-derived-category", "def-pc-derived-direct-image", "lem-pc-perfect-locus", "lem-pc-rf-perfect-base-change"]
 lean = ["AlgebraicGeometry.Scheme.Modules.exists_opens_range_subset_iff_isFiniteLocallyFreeInDegree"]
 +++
 Let

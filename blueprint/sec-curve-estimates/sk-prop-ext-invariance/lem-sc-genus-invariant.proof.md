@@ -4,7 +4,7 @@ of    = "lem-sc-genus-invariant"
 +++
 By definition ([def-sc-genus]),
 $g(C)=\dim_kH^1(C,\mathcal O_C)$, and by
-[lem-sc-flat-base-change-coherent] applied to
+[lem-pc-flat-base-change-cohom] applied to
 $\mathcal F=\mathcal O_C$ and the flat extension $k\to k'$,
 
 $$

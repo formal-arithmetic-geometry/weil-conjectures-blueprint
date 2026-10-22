@@ -3,13 +3,13 @@ id = "lem-sc-riemann-roch"
 kind = "lemma"
 title = "Riemann–Roch on a proper smooth curve"
 order = 712
-uses = ["def-sc-curves", "def-sc-function-field", "def-sc-genus", "def-sc-invertible-module", "def-sc-pic0"]
-lean = ["AlgebraicGeometry.Scheme.eulerChar_free_eq", "AlgebraicGeometry.Scheme.eulerChar_unit_eq"]
+lean = ["AlgebraicGeometry.Scheme.eulerChar_unit_eq", "AlgebraicGeometry.Scheme.Modules.eulerChar_eq_degree_add", "AlgebraicGeometry.Scheme.Modules.coherentDegree", "AlgebraicGeometry.Scheme.Modules.eulerChar_eq_degree_exteriorPower_add", "AlgebraicGeometry.Scheme.Modules.eulerChar_eq_coherentDegree_add", "AlgebraicGeometry.Scheme.Modules.coherentDegree_eq_degree"]
+uses = ["def-sc-function-field", "def-sc-invertible-module", "def-sc-pic0", "lem-pc-degree-base-change", "lem-sc-smooth-regular"]
 +++
-Let $k$ be algebraically closed and $C$ a
-proper smooth connected curve of genus $g$ ([def-sc-genus]) over
-$k$, with generic point $\eta$ and function field $k(C)$
-([def-sc-function-field]). For a coherent $\mathcal O_C$-module
+Let $k$ be a field and $C$ a scheme which is smooth of relative dimension
+$1$ and proper over $k$ with $H^0(C,\mathcal O_C)=k$, of genus
+$g=\dim_kH^1(C,\mathcal O_C)$. Then $C$ is integral; let $\eta$ be its
+generic point and $k(C)$ its function field ([def-sc-function-field]). For a coherent $\mathcal O_C$-module
 $\mathcal F$ put
 $\chi(C,\mathcal F):=\sum_q(-1)^q\dim_kH^q(C,\mathcal F)$, let
 $\mathcal T\subseteq\mathcal F$ be its torsion subsheaf (the kernel of

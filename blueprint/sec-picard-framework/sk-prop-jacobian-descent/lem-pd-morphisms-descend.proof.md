@@ -2,8 +2,9 @@
 kind  = "proof"
 of    = "lem-pd-morphisms-descend"
 +++
-The functor from schemes over $Y$ to schemes over $X$ equipped with a
-[def-pd-descent-datum] is fully faithful, by Stacks Project, Descent,
+Since $X\to Y$ is flat, surjective and quasi-compact, it is an fpqc
+covering, and the functor from schemes over $Y$ to schemes over $X$ equipped
+with a [def-pd-descent-datum] is fully faithful, by Stacks Project, Descent,
 Lemma 35.35.11, Tag
 [02W0](https://stacks.math.columbia.edu/tag/02W0); the essential image of
 that functor consists of the effective data, the passage from a scheme over

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Compatibility of the Kunneth map with the projection-formula variant"
 lean = ["AlgebraicGeometry.Etale.kunnethMap_eq"]
 order = 2126
-uses = ["def-kun-kunneth-map", "def-kun-separably-closed", "def-kun-unbounded-exchange", "lem-kun-03qu-sep-closed", "lem-kun-0f12", "lem-kun-0f1n", "lem-kun-inverse-image-monoidal", "lem-kun-leray-unbdd"]
+uses = ["def-kun-kunneth-map", "def-pc-separably-closed", "def-kun-unbounded-exchange", "lem-kun-03qu-sep-closed", "lem-kun-0f12", "lem-kun-0f1n", "lem-kun-inverse-image-monoidal", "lem-kun-leray-unbdd"]
 +++
 Let $k$ be a separably closed
 field, $n\ge1$ invertible in $k$, and let $X$

@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Raising a point a universe"
 order = 998
 lean = ["AlgebraicGeometry.Scheme.isConservativeFamilyOfPoints_ulift_pointSmallEtale", "CategoryTheory.GrothendieckTopology.Point.ulift"]
-uses = ["def-kun-separably-closed"]
+uses = ["def-pc-separably-closed"]
 +++
 Let $(\mathcal C,J)$ be a site and let $p$ be a point of it, given by a fibre
 functor $\mathcal C\to\mathrm{Type}\,w$ (with cofiltered and initially small

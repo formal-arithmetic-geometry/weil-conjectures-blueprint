@@ -3,7 +3,7 @@ id = "sk-prop-jacobian-descent"
 kind = "proposition"
 title = "The Jacobian over a general base field, by Galois descent"
 order = 740
-uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-picard-pic", "sk-prop-av-projective", "sk-prop-picard-degree-decomposition", "sk-prop-picard-pic-split", "sk-thm-picard-main"]
+uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-picard-pic", "sk-prop-av-projective", "sk-thm-picard-main", "sk-prop-picard-pic-split", "sec-abelian-varieties", "sec-nagata-compactification", "sk-thm-picard-rr", "sk-thm-picard-twist", "sk-thm-picard-f-representable"]
 lean = ["AlgebraicGeometry.exists_jacobian_descent"]
 tags = ["sketch"]
 +++

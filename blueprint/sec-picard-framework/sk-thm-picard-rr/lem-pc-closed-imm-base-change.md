@@ -3,6 +3,7 @@ id = "lem-pc-closed-imm-base-change"
 kind = "lemma"
 title = "The ideal sheaf of a base-changed closed immersion"
 order = 733
+lean = ["AlgebraicGeometry.closedSubscheme_baseChange_ideal_image", "AlgebraicGeometry.flat_module_pullback_exact_pushforward_injective", "AlgebraicGeometry.Flat.of_field"]
 uses = ["def-pc-scheme", "lem-pc-flat-field"]
 +++
 Closed immersions are stable under arbitrary base change: if $i:Z\to X$ is a

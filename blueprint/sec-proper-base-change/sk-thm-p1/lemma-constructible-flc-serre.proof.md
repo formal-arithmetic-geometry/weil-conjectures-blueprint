@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-constructible-flc-serre"
-uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-locally-constant", "def-kun-separably-closed", "lemma-constructible-hom-constant-locally", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-constant", "lemma-constructible-pullback-finite", "lemma-constructible-pullback-locally-constant"]
+uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-locally-constant", "def-pc-separably-closed", "lemma-constructible-hom-constant-locally", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-constant", "lemma-constructible-pullback-finite", "lemma-constructible-pullback-locally-constant"]
 +++
 Restricting to an étale cover trivialising both sheaves
 ([lemma-constructible-flc-biproduct]), we may assume the morphism is

@@ -17,11 +17,11 @@ $J(C)(\bar k_0)=\Pic^0(C)$: this is [sk-thm-picard-main]. The
 construction is available already over $k_s$: [sk-thm-picard-main]
 is stated for a separably closed field, so $\Pic_{C_s/k_s}$ is
 represented by a group scheme $P_s$ over $k_s$. The
-degree-decomposition argument of [sk-prop-picard-degree-decomposition]
-applies over $k_s$ (its inputs are the perfect complex of
-[sk-thm-picard-semicon], Riemann–Roch with $H^0(C_s,\cO)=k_s$, which
+degree-decomposition argument of [det-prop-picard-degree-decomposition]
+applies over $k_s$ (its inputs are the derived coherent base change of
+[det-thm-picard-coherence], Riemann–Roch with $H^0(C_s,\cO)=k_s$, which
 holds because $C_s$ is smooth and geometrically connected, and a
-$k_s$-point of $C_s$ from [sk-prop-picard-dense-points]), so the
+$k_s$-point of $C_s$ from [det-prop-picard-dense-points]), so the
 degree-zero locus $J_s:=P_s^0$ is an open and closed subgroup scheme of
 $P_s$ representing $\Pic^0_{C_s/k_s}$, and
 $J_s\times_{k_s}\bar k_0\cong J(C)$ since both represent
@@ -33,7 +33,7 @@ $J_s$ is an abelian variety of dimension $g$ over $k_s$.
 cannot instead pass to a finite Galois extension $k_1/k_0$ over which
 $C_0$ acquires a rational point and run the rigidified construction of
 [sk-thm-picard-main] over $k_1$: that construction verifies the
-criterion of [sk-thm-picard-criterion] with the twist lemma
+criterion of [det-thm-picard-criterion] with the twist lemma
 [sk-thm-picard-twist], which needs the dense set of rational points of
 a separably closed field. Over $\mathbf F_2$ the genus-$2$ curve
 $y^2+y=x^5+x^3+1$ has a rational point $P$, but every degree-zero line
@@ -116,12 +116,12 @@ transformation of functors on $(\Sch/k_0)$, so it commutes with both:
 $J_0(\bar k_0)=\Pic^0(C)$ is $\operatorname{Gal}$-equivariant, and so is
 its restriction to $\ell^n$-torsion.
 
-The detailed form, stated over an arbitrary base field, is Blueprint 06b,
-`thm-pd-jacobian-general-field` (Steps 1–4 are
-`thm-pd-geometric-pic0`, `lem-pd-canonical-descent-datum`,
-`cor-pd-finite-level` and `thm-pd-effective-descent`);
-the rigidified construction over separably closed fields is Blueprint
-50, `thm-pc-picard-representable` (Stacks
+The detailed form, stated over an arbitrary base field, is
+[thm-pd-jacobian-general-field] (Steps 1–4 are
+[thm-pd-geometric-pic0], [lem-pd-canonical-descent-datum],
+[cor-pd-finite-level] and [thm-pd-effective-descent]);
+the rigidified construction over separably closed fields is
+[thm-pc-picard-representable] (Stacks
 [0B9Z](https://stacks.math.columbia.edu/tag/0B9Z), which
 keeps the separably closed hypothesis), and the passage from $k_s$ to a
 general base is exactly Steps 2–4.

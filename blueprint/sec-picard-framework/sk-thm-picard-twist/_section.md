@@ -3,7 +3,7 @@ id = "sk-thm-picard-twist"
 kind = "lemma"
 title = "Translating into the chart"
 order = 609
-uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-picard-serre-a", "sk-thm-picard-rr", "sk-prop-picard-dense-points"]
+uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-picard-perfect", "sk-thm-picard-rr", "sec-abelian-varieties", "sec-nagata-compactification", "sk-def-picard-pic", "sk-prop-picard-pic-split", "sk-thm-picard-f-representable"]
 lean = ["AlgebraicGeometry.Scheme.exists_isInvertible_twist"]
 tags = ["sketch"]
 +++
@@ -19,4 +19,4 @@ $$
 
 (The same holds, with the same proof, for $k$ separably closed and $C$ a
 connected smooth proper curve over $k$: the only input about $k$ is that
-$C(k)$ is infinite, [sk-prop-picard-dense-points].)
+$C(k)$ is infinite, [det-prop-picard-dense-points].)

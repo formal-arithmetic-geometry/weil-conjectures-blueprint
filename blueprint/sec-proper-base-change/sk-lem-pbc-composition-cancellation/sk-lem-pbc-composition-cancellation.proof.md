@@ -1,14 +1,14 @@
 +++
 kind = "proof"
 of = "sk-lem-pbc-composition-cancellation"
-uses = ["sk-thm-iff", "sk-prop-pbc-degree-zero", "sk-thm-groth-ss"]
+uses = ["sk-thm-iff", "sk-prop-pbc-degree-zero", "sk-thm-picard-perfect"]
 +++
 We use [sk-thm-iff]. Fix a prime $r$ and an arbitrary base change
 $c:Z'\to Z$. Write $a:X'\to X$ and $b:Y'\to Y$ for the projections, and
 $u':X'\to Y'$, $v':Y'\to Z'$ for the induced maps. Since inverse image of
 constant-coefficient module sheaves is exact, its right adjoint $u_*$
 preserves injectives. Thus the Grothendieck spectral sequence for direct
-images ([sk-thm-groth-ss]; Stacks Project, Tag 0734) is available:
+images ([det-thm-groth-ss]; Stacks Project, Tag 0734) is available:
 
 $$
 R^pv'_*R^qu'_*a^{-1}J\ \Longrightarrow\ R^{p+q}(v'u')_*a^{-1}J.

@@ -2,31 +2,38 @@
 kind  = "proof"
 of    = "lem-pc-universal-adjoint-section"
 +++
-$\mathcal{O}(D_{\mathrm{univ}})$ is invertible on $H\times X$, and its canonical
-global section $1\in H^0(H\times X,\mathcal{O}(D_{\mathrm{univ}}))$ is defined as
-the generator $1$ of the ideal sheaf $\mathcal{I}_{D_{\mathrm{univ}}}$ viewed as a
-section of $\mathcal{O}(D_{\mathrm{univ}})=\mathcal{I}_{D_{\mathrm{univ}}}^\vee$; by
-definition of the zero scheme
-([def-pc-zero-scheme]), $Z(1)=D_{\mathrm{univ}}$. The canonical
-isomorphism
+(1) $\mathcal{O}_{X_T}(D)$ is invertible, hence quasi-coherent, and $f_T$ is
+proper (a base change of the proper $X\to\operatorname{Spec}k$), hence
+quasi-compact and quasi-separated; the direct image of a quasi-coherent module
+along a quasi-compact quasi-separated morphism is quasi-coherent.
+
+(2) By the projection formula ([lem-pc-projection-formula], $q=0$),
+$f_{T,*}\mathcal{L}\cong f_{T,*}\bigl(\mathcal{O}_{X_T}(D)\otimes f_T^*\mathcal{M}\bigr)\cong
+f_{T,*}\mathcal{O}_{X_T}(D)\otimes\mathcal{M}$, which is invertible. Hence
 
 $$
-\begin{gathered}
-\mathcal{L}_H\otimes f_H^*\mathcal{N}_H^{-1}\\
-=\mathcal{O}(D_{\mathrm{univ}})\otimes f_H^*\sigma_H^*\mathcal{O}(D_{\mathrm{univ}})^{-1}\\
-\otimes f_H^*\bigl(f_{H,*}\mathcal{O}(D_{\mathrm{univ}})\otimes
-\sigma_H^*\mathcal{O}(D_{\mathrm{univ}})^{-1}\bigr)^{-1}\\
-\cong\mathcal{O}(D_{\mathrm{univ}})\otimes f_H^*\bigl(f_{H,*}\mathcal{O}(D_{\mathrm{univ}})\bigr)^{-1}
-\end{gathered}
+\mathcal{L}\otimes f_T^*(f_{T,*}\mathcal{L})^{-1}
+\cong\mathcal{O}_{X_T}(D)\otimes f_T^*\mathcal{M}\otimes
+f_T^*\bigl(f_{T,*}\mathcal{O}_{X_T}(D)\bigr)^{-1}\otimes f_T^*\mathcal{M}^{-1}
+\cong\mathcal{O}_{X_T}(D)\otimes f_T^*\bigl(f_{T,*}\mathcal{O}_{X_T}(D)\bigr)^{-1}.
 $$
 
-shows that the section $1\otimes 1$ of the right-hand side corresponds to
-the canonical section with zero scheme $D_{\mathrm{univ}}$ (tensoring by
-the unit section $1$ of the extra factor does not change the zero
-scheme), and the adjunction of [lem-pc-zero-scheme-recd] identifies
-$H^0(H\times X,\;\mathcal{L}_H\otimes f_H^*\mathcal{N}_H^{-1})$ with
-$\Hom_{\mathcal{O}_H}(\mathcal{N}_H,f_{H,*}\mathcal{L}_H)$; the section $1\otimes 1$ is the image
-of the canonical map, which is exactly the identification induced by the
-universal property. Hence it is the adjoint section; its restriction to
-any open $W\subseteq H$ over which $\mathcal{N}_H$ is invertible is the adjoint
-section of $\mathcal{L}_H|_W$ in the sense of [lem-pc-zero-scheme-recd].
+(3) Let $\varphi:f_T^*f_{T,*}\mathcal{L}\to\mathcal{L}$ be the adjunction map. The
+adjunction map $f_T^*\mathcal{N}\to\mathcal{L}$ is $\varphi$ precomposed with the
+isomorphism $f_T^*\mathcal{N}\cong f_T^*f_{T,*}\mathcal{L}$, so it has the same zero
+scheme as $\varphi$, and by [lem-pc-zero-scheme-recd] this is also $Z(s)$; it is a
+relative effective Cartier divisor, finite locally free of degree $g$ over $T$.
+On the other hand, the canonical section $1$ of $\mathcal{O}_{X_T}(D)$ (the
+inclusion $\mathcal{I}_D\subseteq\mathcal{O}_{X_T}$, dualized), twisted by
+$f_T^*\mathcal{N}'$, is a morphism $s':f_T^*\mathcal{N}'\to\mathcal{L}$ with zero scheme
+$D$ ([def-pc-zero-scheme]). By adjunction $s'$ factors as $f_T^*t$ followed by
+$\varphi$, where $t:\mathcal{N}'\to f_{T,*}\mathcal{L}$ is its adjoint; hence
+$Z(\varphi)\subseteq Z(s')=D$. Both $Z(\varphi)$ and $D$ are closed subschemes of
+$X_T$ finite locally free of degree $g$ over $T$, and a closed immersion between
+finite locally free $T$-schemes of the same degree is an isomorphism (on
+each fibre it is a surjection of $\kappa(t)$-algebras of the same dimension,
+so its ideal vanishes by Nakayama). Hence $Z(s)=Z(\varphi)=D$.
+
+The final assertion is (3) for $T=W$, $D=D_{\mathrm{univ}}\cap(W\times X)$ (a point
+of $\operatorname{Hilb}^g_{X/k}(W)$, being the restriction of the universal one) and
+$\mathcal{N}'=\sigma_W^*\mathcal{O}(D_{\mathrm{univ}})^{-1}$.

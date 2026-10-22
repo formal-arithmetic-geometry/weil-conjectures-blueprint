@@ -6,10 +6,12 @@ lean = ["CategoryTheory.Over.DescentDatum.existsUnique_grpObj_of_isPullback", "C
 order = 872
 uses = ["def-pc-base-change", "def-pd-descent-datum", "def-sc-group-scheme", "lem-pd-morphisms-descend"]
 +++
-Let $k\subseteq K$ be a finite separable field extension, let $J_K$ be a scheme
-over $K$ with a descent datum over
-$\Spec(K)/\Spec(k)$ which is effective with descended scheme $J$, and suppose
-that $J_K$ carries a $K$-group scheme structure
-whose multiplication, unit and inverse are compatible with the descent datum.
-Then $J$ carries a unique $k$-group scheme structure whose
-base change to $K$ is the given one.
+Let $p:X\to Y$ be a faithfully flat (flat and surjective) and quasi-compact
+morphism of schemes, and let $V$ be a group scheme over $X$ (defined as in
+[def-sc-group-scheme], with the base field replaced by the base scheme $X$).
+Let $V$ carry a descent datum over
+$X/Y$ which is effective with descended scheme $V_0$ over $Y$, so that
+$V\cong V_0\times_YX$, and suppose that the multiplication and the unit of $V$
+are compatible with the descent datum. Then $V_0$ carries a unique group
+scheme structure over $Y$ whose base change to $X$ is the given one. If
+moreover $V$ is commutative, so is $V_0$.

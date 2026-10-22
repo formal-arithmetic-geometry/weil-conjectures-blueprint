@@ -1,11 +1,11 @@
 +++
 kind  = "proof"
 of    = "sk-thm-picard-hilb-curves"
-uses = ["sk-thm-picard-hilb-general", "sk-thm-picard-rr"]
+uses = ["sk-thm-picard-rr"]
 +++
 *Representability.* This is Grothendieck's theorem that the Hilbert
 functor of a projective scheme with fixed Hilbert polynomial is
-represented by a projective scheme ([sk-thm-picard-hilb-general]),
+represented by a projective scheme ([det-thm-picard-hilb-general]),
 applied with constant polynomial $d$; Stacks Project, Tags 0B9A and 0B9I
 give the construction for curves. (Its hypothesis that finitely many
 points of $C$ lie in an affine open follows from [sk-thm-picard-rr]
@@ -47,4 +47,4 @@ effective Cartier divisors of degree $d$ on $C_{k'}$, and the fibre of
 $\cO(D_d)$ over $[D]$ is $\cO_C(D)$ by pullback of the universal
 divisor. The addition morphism multiplies ideal sheaves of relative
 effective Cartier divisors; its finiteness and local freeness of degree
-$\binom{d_1+d_2}{d_1}$ are the detailed node `lem-pc-hilb-addition`.
+$\binom{d_1+d_2}{d_1}$ are the detailed node [lem-pc-hilb-addition].

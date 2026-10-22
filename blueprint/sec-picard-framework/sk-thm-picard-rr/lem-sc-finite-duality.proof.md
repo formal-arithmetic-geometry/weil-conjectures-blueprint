@@ -1,0 +1,95 @@
++++
+kind  = "proof"
+of    = "lem-sc-finite-duality"
++++
+For a finite morphism of schemes and quasi-coherent
+$\mathcal F$ on $C$, $\mathcal G$ on $\mathbf P^1_k$, there is
+the adjunction
+
+$$
+\operatorname{Hom}_{\mathcal O_{\mathbf P^1}}(f_*\mathcal F,\mathcal G)
+\;\cong\;
+\operatorname{Hom}_{\mathcal O_C}\bigl(\mathcal F,\;
+\mathcal H om_{\mathcal O_{\mathbf P^1}}(f_*\mathcal O_C,\mathcal G)\bigr),
+$$
+
+the standard adjunction of restriction of scalars: over an affine
+$U=\operatorname{Spec}R\subset\mathbf P^1_k$ with
+$f^{-1}(U)=\operatorname{Spec}B$ ($B$ a finite $R$-algebra, by
+finiteness of $f$), both sides become
+$\operatorname{Hom}_R(M,N)$ and
+$\operatorname{Hom}_B(M,\operatorname{Hom}_R(B,N))$ for the
+$B$-module $M$ and the $R$-module $N$, which agree by
+$\phi\mapsto(m\mapsto(b\mapsto\phi(bm)))$ – commutative algebra.
+Next, the trace identification: there is a canonical isomorphism
+
+$$
+\mathcal H om_{\mathcal O_{\mathbf P^1}}(f_*\mathcal O_C,
+\omega_{\mathbf P^1})\;\cong\;f_*\omega_C.
+$$
+
+Both sides are Zariski-local on $\mathbf P^1_k$, so fix
+$y\in\mathbf P^1_k$ and put $R:=\mathcal O_{\mathbf P^1,y}$,
+$B:=(f_*\mathcal O_C)_y$: the ring $R$ and the factors of $B$
+are discrete valuation rings (for a closed point: regular local of
+dimension one, [lem-sc-smooth-regular],
+[lem-sc-regular-dim1-dvr], applied to the smooth curves
+$\mathbf P^1_k$ and $C$; for the generic point: the field $k(t)$
+and the function fields $\kappa(\xi)$ of the generic points $\xi$ of
+$C$), and $R\to B$ is finite flat. For such
+$R\to B$ the local theorem of the codifferent (commutative
+algebra, classical) gives the canonical isomorphism
+
+$$
+\operatorname{Hom}_R\bigl(B,\Omega^1_{R/k}\bigr)\;\cong\;\Omega^1_{B/k}.
+$$
+
+The identification is canonical and local: at the generic point it
+is the perfect trace pairing of the finite extensions
+$\kappa(\xi)\supset k(t)$, separable by the generic separability
+hypothesis,
+$\operatorname{Hom}_{k(t)}(\kappa(\xi),k(t))=\kappa(\xi)$, together with the
+base change of the Kähler differentials
+$\Omega^1_{\kappa(\xi)/k}=\kappa(\xi)\otimes_{k(t)}\Omega^1_{k(t)/k}$ (the
+Kähler sequence, exact on the left since $\kappa(\xi)/k(t)$ is
+separable); at a closed point, with uniformizers $u$ of $R$ and
+$x$ of the relevant factor of $B$, and ramification $u=x^{e}$,
+the $R$-dual of $B$ has the
+dual-basis generator $x^{-(e-1)}/e$, and the two sides of the
+isomorphism become $B\,du\cdot x^{-(e-1)}/e$ and $B\,dx$, which
+agree since $du=ex^{e-1}dx$. Since the resulting isomorphisms are
+canonical, they glue to the displayed trace identification; it is
+induced by the trace $\tau:f_*\omega_C\to\omega_{\mathbf P^1}$, glued
+from the traces of differentials. (Without separability $\tau$ vanishes
+at the generic point and the identification fails.) Applying the same
+argument to $\mathcal M$ in place of $\mathcal O_C$, locally a direct
+summand of a free module of finite rank, gives the sheaf-level
+isomorphism $\varphi\mapsto\tau\circ f_*\varphi$ of the statement.
+Combining the adjunction with $\mathcal F=\mathcal M$,
+$\mathcal G=\omega_{\mathbf P^1}$, and the trace identification:
+
+$$
+\begin{gathered}
+\operatorname{Hom}_{\mathcal O_{\mathbf P^1}}(f_*\mathcal M,\omega_{\mathbf P^1})\\
+\cong
+\operatorname{Hom}_{\mathcal O_C}\bigl(\mathcal M,\;
+\mathcal H om_{\mathcal O_{\mathbf P^1}}(f_*\mathcal O_C,\omega_{\mathbf P^1})\bigr)\\
+\cong
+\operatorname{Hom}_{\mathcal O_C}(\mathcal M,f_*\omega_C)\\
+=H^0\bigl(C,\mathcal H om_{\mathcal O_C}(\mathcal M,\omega_C)\bigr).
+\end{gathered}
+$$
+
+As $\mathcal M$ is finite locally free, the natural map
+$\omega_C\otimes\mathcal M^{\vee}\to\mathcal H om_{\mathcal O_C}(\mathcal M,\omega_C)$,
+$w\otimes\phi\mapsto(m\mapsto\phi(m)w)$, is an isomorphism
+(it is compatible with restriction to opens, and on an open where
+$\mathcal M\cong\mathcal O_C^{\oplus r}$ both sides are
+$\omega_C^{\oplus r}$ and the map is the identity), and
+$H^0(C,\ldots)$ is the right hand side of the claim. For invertible
+$\mathcal M$ one has moreover $\mathcal M^{\vee}\cong\mathcal M^{-1}$
+by [lem-pc-tensor-dual-invertible] (the evaluation
+$\mathcal M\otimes\mathcal M^{\vee}\to\mathcal O_C$ is an
+isomorphism), which gives the particular case. The composite isomorphism is
+canonical (it does not depend on the choices made in the local
+computations).

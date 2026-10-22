@@ -3,7 +3,7 @@ id = "lem-kun-0f1f-vanish"
 kind = "lemma"
 title = "Vanishing for sheaves supported on closed points"
 order = 2112
-uses = ["def-kun-separably-closed", "def-kun-support", "lem-kun-03qu-sep-closed", "lem-kun-04ca", "lem-kun-closed-point-field", "lem-kun-cp-approximation", "lem-kun-leray-bdd", "lem-kun-leray-finite", "lemma-weil-pbc-finite-direct-image-exact", "sbc-lem-higher-direct-image-limit"]
+uses = ["def-pc-separably-closed", "def-kun-support", "lem-kun-03qu-sep-closed", "lem-kun-04ca", "lem-kun-closed-point-field", "lem-kun-cp-approximation", "lem-kun-leray-bdd", "lem-kun-leray-finite", "lemma-weil-pbc-finite-direct-image-exact", "sbc-lem-higher-direct-image-limit"]
 +++
 Let $K$ be a separably closed
 field and $X$ a scheme of finite type over $K$. Let $F$ be an

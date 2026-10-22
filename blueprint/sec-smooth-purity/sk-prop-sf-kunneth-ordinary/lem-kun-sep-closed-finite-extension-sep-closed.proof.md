@@ -11,4 +11,4 @@ subextension of a purely inseparable extension is purely inseparable,
 so $M/L$ is both purely inseparable and separable, hence trivial:
 $M=L$. Therefore $L$ has no nontrivial finite separable
 extension, that is, $L$ is separably closed by
-[def-kun-separably-closed].
+[def-pc-separably-closed].

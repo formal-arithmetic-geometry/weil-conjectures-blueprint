@@ -2,18 +2,18 @@
 kind  = "proof"
 of    = "lem-pc-rational-hyp"
 +++
-The section $\sigma$ verifies the first condition. By
-[lem-pc-h0-proper-variety] (1) (or the first part of Varieties,
-Lemma 33.26.2), $k':=H^0(X,\mathcal{O}_X)$ is a finite field extension of $k$;
-the $k$-rational point induces a $k$-algebra homomorphism $k'\to k$, and
-a field homomorphism over $k$ is injective, so $k'=k$. Hence
-$f_*\mathcal{O}_X=\mathcal{O}_k$, and for $T\in(\mathit{Sch}/k)_{fppf}$: the structure morphism
-$T\to\operatorname{Spec}(k)$ is flat ([lem-pc-flat-field]), so by
-[lem-pc-flat-base-change-cohom] applied to $f:X\to\operatorname{Spec} k$ and
-Flat $\mathcal{F}=\mathcal{O}_X$,
+The section $\sigma$ verifies the first condition. Since $X$ is an
+integral proper scheme over $k$, by [lem-pc-h0-proper-variety] (1)
+$k':=H^0(X,\mathcal{O}_X)$ is a finite field extension of $k$; the
+$k$-rational point induces a $k$-algebra homomorphism $k'\to k$, and a
+field homomorphism over $k$ is injective, so $k'=k$. Hence $X$ is a
+proper $k$-scheme with $H^0(X,\mathcal{O}_X)=k$, and
+[lem-pc-structure-pushforward] shows that
+$\mathcal{O}_T\to f_{T,*}\mathcal{O}_{X_T}$ is an isomorphism for every
+scheme $T$ over $k$, in particular for every
+$T\in\operatorname{Ob}((\mathit{Sch}/k)_{fppf})$. This proves the claim.
 
-$$
-f_{T,*}\mathcal{O}_{X_T}=g^*f_*\mathcal{O}_X=g^*\mathcal{O}_k=\mathcal{O}_T
-$$
-
-where $g:T\to\operatorname{Spec}(k)$; this is [lem-pc-structure-pushforward], as $H^0(X,\mathcal{O}_X)=k$. This proves the claim.
+If instead $X$ is smooth of relative dimension $1$, proper and
+geometrically integral over $k$, then $H^0(X,\mathcal{O}_X)=k$ by
+[lem-pc-h0-proper-variety] (2), and [lem-pc-structure-pushforward] gives
+the second condition in the same way, without using $\sigma$.

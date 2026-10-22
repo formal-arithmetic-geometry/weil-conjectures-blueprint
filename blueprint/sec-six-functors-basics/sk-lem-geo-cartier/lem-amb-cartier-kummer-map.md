@@ -3,7 +3,7 @@ id = "lem-amb-cartier-kummer-map"
 kind = "lemma"
 title = "A Cartier divisor gives a supported Kummer map"
 order = 1922
-uses = ["def-coefficient-twists-detailed", "def-sc-effective-cartier-divisor", "def-sc-kummer-sequence", "def-weil-pbc-derived-categories", "lem-amb-closed-support-hom", "lem-amb-kummer-any-base"]
+uses = ["def-coefficient-twists-detailed", "def-nagata-invertible-ideal", "def-sc-kummer-sequence", "def-weil-pbc-derived-categories", "lem-amb-closed-support-hom", "lem-amb-kummer-any-base"]
 +++
 Let $i:D\hookrightarrow T$ be an effective Cartier divisor.
 There is a natural morphism in the ordinary derived category

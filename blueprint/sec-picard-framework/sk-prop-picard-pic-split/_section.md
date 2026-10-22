@@ -3,8 +3,8 @@ id = "sk-prop-picard-pic-split"
 kind = "lemma"
 title = "Rigidification along a section"
 order = 604
-uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-picard-pic", "sk-cor-picard-pic-sheaf"]
-lean = ["AlgebraicGeometry.injective_pic_map_snd", "AlgebraicGeometry.pic_map_sectionBaseChange_snd", "AlgebraicGeometry.bijective_toPicardFunctor_picardFunctorNormalized", "AlgebraicGeometry.bijective_pic_split"]
+uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-picard-pic", "sec-abelian-varieties", "sec-nagata-compactification"]
+lean = ["AlgebraicGeometry.injective_pic_map_snd", "AlgebraicGeometry.pic_map_sectionBaseChange_snd", "AlgebraicGeometry.bijective_toPicardFunctor_picardFunctorNormalized", "AlgebraicGeometry.bijective_pic_split", "AlgebraicGeometry.range_pic_mapHom_snd_eq_ker_toPicardFunctorHom", "AlgebraicGeometry.picMulEquivProdPicardFunctorNormalized", "AlgebraicGeometry.isIso_picardFunctorNormalized_ι_comp_toPicardFunctor", "AlgebraicGeometry.Scheme.Modules.eq_of_pullback_map_eq", "AlgebraicGeometry.isIso_pushforwardUnitMap_pullback_snd_of_geometricallyIntegral"]
 tags = ["sketch"]
 +++
 Let $f:C\to S$ be a morphism of schemes. Suppose that $f$ has a section

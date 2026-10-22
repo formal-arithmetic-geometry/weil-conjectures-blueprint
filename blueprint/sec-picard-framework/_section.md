@@ -3,23 +3,23 @@ id = "sec-picard-framework"
 kind = "section"
 title = "Picard Framework"
 order = 602
-uses = ["sec-abelian-varieties", "sk-def-av-jacobian", "sk-def-av-pic"]
+uses = ["sec-nagata-compactification", "sec-abelian-varieties", "sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 **Content.** This section constructs the Jacobian of a smooth projective
 curve as the identity component of its Picard scheme, along two strands.
 Strand A is the cohomological machinery: the Čech-to-derived and
-Grothendieck/Leray spectral sequences ([sk-thm-picard-cech],
-[sk-thm-groth-ss]), affine vanishing, the cohomology of $\mathbf P^n$,
+Grothendieck/Leray spectral sequences ([det-thm-picard-cech],
+[det-thm-groth-ss]), affine vanishing, the cohomology of $\mathbf P^n$,
 Serre's theorems A and B, coherence of higher direct images
-([sk-thm-picard-coherence]), semicontinuity and base change
-([sk-thm-picard-semicon]), Serre duality and Riemann–Roch for curves, and
+([det-thm-picard-coherence]), semicontinuity and base change
+([det-thm-picard-semicon]), Serre duality and Riemann–Roch for curves, and
 the twist lemma [sk-thm-picard-twist]. Strand B is descent and
 representability: the Hilbert functor of points on a curve is representable
 ([sk-thm-picard-hilb-curves]), the Picard functor is an fppf sheaf split by
 a rational point ([sk-prop-picard-pic-split]), and the open subfunctor $F$
-of line bundles with $Rf_*\cong\mathcal O[0]$ is representable
+of line bundles $\mathcal L$ with $Rf_*\mathcal L$ an invertible module in degree $0$ is representable over any field, given a rational point
 ([sk-thm-picard-f-representable]). Translates of $F$ cover the normalized
-Picard functor by the twist lemma, so the criterion [sk-thm-picard-criterion]
+Picard functor by the twist lemma, which needs $k$ separably closed, so the criterion [det-thm-picard-criterion]
 gives representability over a separably closed field ([sk-thm-picard-main]).
 The degree decomposition and the tangent space $H^1(C,\mathcal O_C)$ then
 show that $\underline{\mathrm{Pic}}^0_{C/k}$ is an abelian variety of
@@ -37,15 +37,17 @@ dimension $g$, which descends to any base field.
   proper smooth geometrically connected curve $C_0/k_0$ the Jacobian descends
   to $J_0/k_0$ with $J_0[\ell^n](\bar k_0)\cong\mathrm{Pic}^0(C)[\ell^n]$
   Galois-equivariantly. Used in §[sec-purity-real-sheaves].
-- Thm [sk-thm-picard-semicon] (semicontinuity and base change): for $f$
+- Thm [det-thm-picard-semicon] (semicontinuity and base change): for $f$
   proper and $\mathcal F$ flat of finite presentation,
   $t\mapsto\dim H^q(X_t,\mathcal F_t)$ is upper semicontinuous, and over a
-  reduced base local constancy makes $R^qf_*\mathcal F$ finite locally free
-  with base change. Used in §[sec-proper-base-change],
+  reduced base local constancy makes $R^qf_*\mathcal F$ finite locally free;
+  over a reduced locally Noetherian base the base-change maps
+  $R^qf_*\mathcal F\otimes\kappa(t)\to H^q(X_t,\mathcal F_t)$ are then
+  isomorphisms. Used in §[sec-proper-base-change],
   §[sec-smooth-base-change], §[sec-smooth-purity], §[sec-six-functors],
   §[sec-trace-formula], §[sec-poincare-duality],
   §[sec-algebraic-groups-lie-algebras], §[sec-zeta-weil].
-- Thm [sk-thm-picard-duality] (Serre duality): for a smooth proper curve
+- Thm [det-thm-picard-duality] (Serre duality): for a smooth proper curve
   and $\mathcal F$ locally free, the trace pairing
   $H^q(X,\mathcal F)\otimes H^{1-q}(X,\mathcal F^\vee\otimes\omega_X)\to k$
   is perfect; with Riemann–Roch [sk-thm-picard-rr]. Used in

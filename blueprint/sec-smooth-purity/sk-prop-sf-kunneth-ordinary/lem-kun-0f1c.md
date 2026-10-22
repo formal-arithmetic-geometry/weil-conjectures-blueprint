@@ -3,7 +3,7 @@ id = "lem-kun-0f1c"
 kind = "lemma"
 title = "Direct image commutes with base change along field extensions"
 order = 2104
-uses = ["def-kun-separably-closed", "def-weil-pbc-scheme-conventions", "lem-kun-0f09", "lem-kun-separable-smooth-colimit", "thm-weil-pbc-universal-homeomorphism-invariance"]
+uses = ["def-pc-separably-closed", "def-weil-pbc-scheme-conventions", "lem-kun-0f09", "lem-kun-separable-smooth-colimit", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $L/K$ be an extension of fields and $g:T\to S$ a
 quasi-compact and

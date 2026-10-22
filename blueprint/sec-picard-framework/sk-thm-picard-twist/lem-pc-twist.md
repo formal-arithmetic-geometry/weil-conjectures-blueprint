@@ -3,7 +3,7 @@ id = "lem-pc-twist"
 kind = "lemma"
 title = "The twist lemma"
 order = 767
-uses = ["def-pc-curve", "def-pc-degree-line-bundle", "def-pc-derived-category", "def-pc-genus", "def-pc-rational-point", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-zero-scheme", "def-sc-ample", "def-sc-effective-cartier-divisor", "lem-pc-ample-positive-degree", "lem-pc-closed-imm-base-change", "lem-pc-degree-base-change", "lem-pc-dim-base-change", "lem-pc-euler-additive", "lem-pc-flat-base-change-cohom", "lem-pc-serre-vanishing", "lem-pc-vanishing-above-dim", "lem-pc-very-ample-ample", "lem-sc-point-cartier", "prop-pc-xk-integral", "thm-picard-serre-a"]
+uses = ["def-pc-curve", "def-pc-degree-line-bundle", "def-pc-derived-category", "def-pc-genus", "def-pc-rational-point", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-zero-scheme", "def-sc-ample", "def-nagata-invertible-ideal", "lem-pc-ample-positive-degree", "lem-pc-closed-imm-base-change", "lem-pc-degree-base-change", "lem-pc-dim-base-change", "lem-pc-euler-additive", "lem-pc-flat-base-change-cohom", "lem-pc-serre-vanishing", "lem-pc-vanishing-above-dim", "lem-pc-very-ample-ample", "lem-sc-point-cartier", "prop-pc-xk-integral", "thm-picard-serre-a"]
 lean = ["AlgebraicGeometry.Scheme.exists_isInvertible_twist"]
 +++
 Let $k$ be a separably closed field,

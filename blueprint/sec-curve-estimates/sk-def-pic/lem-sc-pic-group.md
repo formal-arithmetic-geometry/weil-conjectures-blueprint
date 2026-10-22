@@ -4,7 +4,7 @@ kind = "lemma"
 title = "$\\operatorname{Pic}(C)$ is a group"
 lean = ["AlgebraicGeometry.Scheme.Pic.instCommGroup"]
 order = 892
-uses = ["def-sc-curves", "def-sc-invertible-module", "lem-sc-invertible-dual"]
+uses = ["def-sc-curves", "def-sc-invertible-module", "lem-pc-tensor-dual-invertible"]
 +++
 Let $C$ be a curve. Tensor product makes
 the set of isomorphism classes of

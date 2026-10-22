@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-constructible-universal-homeomorphism-invariance"
-uses = ["def-kun-separably-closed", "lem-weil-pbc-closed-immersion-from-composite", "lemma-constructible-pullback-constant", "lemma-constructible-pullback-locally-constant", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-openclosed-stalk-upperstar", "prop-constructible-pullback", "prop-weil-pbc-universal-homeomorphism-topos"]
+uses = ["def-pc-separably-closed", "lem-weil-pbc-closed-immersion-from-composite", "lemma-constructible-pullback-constant", "lemma-constructible-pullback-locally-constant", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-openclosed-stalk-upperstar", "prop-constructible-pullback", "prop-weil-pbc-universal-homeomorphism-topos"]
 +++
 The direction ``only if'' is [lemma-constructible-pullback-constant],
 [lemma-constructible-pullback-locally-constant], [lemma-constructible-pullback-finite].

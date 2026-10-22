@@ -9,8 +9,8 @@ is a variety (integral, separated, finite type, dimension $1$) which is
 smooth and projective over $k$
 ([def-pc-smooth-projective-curve]); the proof of Proposition
 44.6.6 only uses this in combination with the fact that, for $k$
-separably closed, all base changes $X_K$ are again smooth projective
-curves ([prop-pc-xk-integral]), which is what the geometric
+separably closed, all base changes $X_K$ are again integral curves which
+are smooth and proper over $K$ ([prop-pc-xk-integral]), which is what the geometric
 arguments (the Cartier criterion, the density of rational points, the
 DVR computations) need. This is the reason why the individual lemmas
 of the chain are stated for separably closed $k$ —Stacks states

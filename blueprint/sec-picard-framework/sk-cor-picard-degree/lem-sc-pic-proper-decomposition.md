@@ -2,12 +2,13 @@
 id = "lem-sc-pic-proper-decomposition"
 kind = "lemma"
 title = "Structure of the Picard group of a proper curve"
-lean = ["AlgebraicGeometry.Scheme.exists_mulEquiv_prod_ker_picDegreeHom"]
+lean = ["AlgebraicGeometry.Scheme.picDegreeHom", "AlgebraicGeometry.Scheme.coe_ker_picDegreeHom", "AlgebraicGeometry.Scheme.surjective_picDegreeHom", "AlgebraicGeometry.Scheme.exists_mulEquiv_prod_ker_picDegreeHom"]
 order = 894
 uses = ["def-sc-curves", "def-sc-pic0", "def-sc-picard-group"]
 +++
 Let $C$ be a proper smooth connected curve over
-algebraically closed $k$. The degree sequence
+algebraically closed $k$ (more generally, any nonempty $k$-scheme which is
+smooth of relative dimension $1$ and proper over $k$). The degree sequence
 
 $$
 0\longrightarrow\operatorname{Pic}^0(C)\longrightarrow

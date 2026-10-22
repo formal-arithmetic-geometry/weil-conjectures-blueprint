@@ -6,7 +6,7 @@ For $T\in\mathit{Ob}((\mathit{Sch}/S')_{fppf})$ the base changes agree:
 $X_T=(X_{S'})_T$ as schemes over $T$, by the transitivity of the fibre product
 in [def-pc-base-change]. Hence the Picard *presheaves*
 $T\mapsto\operatorname{Pic}(X_T)$ and $T\mapsto\operatorname{Pic}((X_{S'})_T)$
-of [def-pc-picard-presheaf] (functors by [lem-pc-pic-presheaf-functorial]) are literally the same functor on the slice.
+of [def-pc-picard-presheaf] (functors by [def-pc-picard-presheaf]) are literally the same functor on the slice.
 Sheafification of a presheaf on a site is computed by applying the plus
 construction to the restriction of the presheaf to the slice categories of the
 coverings, and the coverings of $(\mathit{Sch}/S')_{fppf}$ are exactly the

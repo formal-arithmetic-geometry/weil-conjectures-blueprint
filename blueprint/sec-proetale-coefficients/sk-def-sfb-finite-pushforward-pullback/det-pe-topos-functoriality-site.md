@@ -2,10 +2,10 @@
 id = "det-pe-topos-functoriality-site"
 kind = "lemma"
 title = "The pro-étale site is subcanonical and its sheaves form a topos"
-uses = ["def-weil-pbc-small-proetale-site", "def-weil-pbc-proetale-covering", "lem-trf-weakly-etale-between-objects", "lem-weil-pbc-ind-etale-stability"]
+uses = ["def-weil-pbc-proetale-site", "def-weil-pbc-proetale-covering", "lem-trf-weakly-etale-between-objects", "lem-weil-pbc-ind-etale-stability"]
 +++
 Let $X$ be a scheme and $X_{\mathrm{proét}}$ its small pro-étale site
-[def-weil-pbc-small-proetale-site].
+[def-weil-pbc-proetale-site].
 
 1. The pro-étale coverings [def-weil-pbc-proetale-covering] of objects of
    $X_{\mathrm{proét}}$ satisfy the axioms of a site: isomorphisms are coverings; if

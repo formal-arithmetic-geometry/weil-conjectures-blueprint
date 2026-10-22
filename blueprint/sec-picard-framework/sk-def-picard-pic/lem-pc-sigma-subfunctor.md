@@ -6,8 +6,9 @@ lean = ["AlgebraicGeometry.picardPresheaf_map_mem_picardFunctorNormalized"]
 order = 806
 uses = ["def-pc-base-change", "def-pc-pic-sigma-functor", "def-pc-picard-presheaf", "def-pc-rational-point", "def-pc-subfunctor", "def-sc-picard-group"]
 +++
-Let $k$ be a field, $X$ a scheme over $k$ and $\sigma\in X(k)$ a
-$k$-rational point. Then the
+Let $f:X\to S$ be a morphism of schemes and $\sigma:S\to X$ a section
+of $f$ (for instance $S=\operatorname{Spec}(k)$ for a field $k$ and
+$\sigma\in X(k)$ a $k$-rational point, [def-pc-rational-point]). Then the
 assignment
 
 $$
@@ -18,4 +19,4 @@ $$
 of [def-pc-pic-sigma-functor] is a
 subfunctor of the
 Picard presheaf on the category of
-schemes over $k$.
+schemes over $S$.

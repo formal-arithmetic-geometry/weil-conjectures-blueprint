@@ -2,7 +2,7 @@
 id = "def-pd-separable-closure"
 kind = "definition"
 title = "Separable closure"
-lean = ["IsSepClosure.exists_intermediateField_mem"]
+lean = ["IsSepClosure", "IsSepClosure.exists_intermediateField_mem", "AlgebraicGeometry.surjective_inf_flat_inf_quasiCompact_Spec_map_algebraMap"]
 order = 862
 uses = ["def-pc-base-change", "def-pc-separably-closed"]
 +++

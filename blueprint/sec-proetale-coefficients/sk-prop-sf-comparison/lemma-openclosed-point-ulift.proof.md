@@ -21,7 +21,7 @@ criterion mentions no fibre universe, so it holds for the raised family as
 soon as it holds for the original one. For $\et X$ the original family
 consists, for each $s\in X$, of the geometric point
 $\operatorname{Spec}\overline{\kappa(s)}\to X$ at an algebraic closure of
-$\kappa(s)$, which is separably closed [def-kun-separably-closed]. These
+$\kappa(s)$, which is separably closed [def-pc-separably-closed]. These
 geometric points are jointly surjective onto $X$, since the one indexed by $s$
 has image $s$. A jointly surjective family of geometric points with separably
 closed fields is conservative on the small étale site: for $V$ étale over $X$
