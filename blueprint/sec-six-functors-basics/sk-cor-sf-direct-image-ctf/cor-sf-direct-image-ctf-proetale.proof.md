@@ -5,7 +5,7 @@ of    = "cor-sf-direct-image-ctf-proetale"
 By [lem-sf-proetale-constructible-origin] the object $K$ is of
 étale origin: there are a bounded complex $K'$ with constructible
 cohomology on $X_{\Et}$ and an isomorphism $K\cong\nu_X^*K'$, and by
-[lem-sf-comparison-tor-amplitude](ii) the complex $K'$ has finite Tor
+part (2) of [lem-exc-comparison-tor-interval] the complex $K'$ has finite Tor
 amplitude in $[a,b]$ on the étale site.
 [cor-sf-direct-image-ctf-nonproper], whose two inputs are
 [thm-sf-direct-image-tor-amplitude] and
@@ -19,7 +19,7 @@ $$
 Rf_{\Proet,*}\nu_X^*K'\cong\nu_Y^*Rf_{\Et,*}K',
 $$
 
-and [lem-sf-comparison-tor-amplitude](i) gives finite Tor amplitude in
+and part (1) of [lem-exc-comparison-tor-interval] gives finite Tor amplitude in
 $[a,b+2d]$ and bounded constructibility for the right-hand side. As in
 [cor-sf-direct-image-ctf-etale-origin] this is clause (iii) of
 the finite-Tor preservation summary for the finite coefficient ring $A$ for the

@@ -2,7 +2,7 @@
 id = "pur713-def-tor-amplitude"
 kind = "definition"
 title = "Finite Tor amplitude at finite coefficients"
-order = 2473
+order = 2982
 +++
 An object $K\in D(X_{\Proet},\mathcal O_E/\pi_E^n)$ has Tor amplitude in $[u,v]$, with integers $u\leq v$, if
 

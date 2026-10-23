@@ -2,7 +2,7 @@
 id = "lemma-nagata-two-open-final-modification"
 kind = "lemma"
 title = "Structural properties of the final common modification"
-order = 306
+order = 397
 lean = ["AlgebraicGeometry.TwoOpenPreparation.FinalModification.spec"]
 uses = ["def-nagata-two-open-final-modification", "lemma-nagata-common-modification", "lemma-nagata-intermediate-separated"]
 +++

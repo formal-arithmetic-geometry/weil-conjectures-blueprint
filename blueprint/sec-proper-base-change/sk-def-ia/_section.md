@@ -2,8 +2,8 @@
 id = "sk-def-ia"
 kind = "definition"
 title = "Injective acyclicity"
-order = 1049
-lean = ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity"]
+order = 1556
+lean = ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity", "AlgebraicGeometry.Etale.HasPrimeInjectiveAcyclicity", "AlgebraicGeometry.Etale.HasAllPrimeInjectiveAcyclicity"]
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-pbc"]
 tags = ["sketch"]
 +++

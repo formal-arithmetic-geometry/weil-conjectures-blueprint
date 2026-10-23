@@ -3,7 +3,7 @@ id = "sbc-prop-torsors-h1"
 kind = "theorem"
 title = "Torsors and etale $H^1$"
 lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_sheafTorsor", "AlgebraicGeometry.Scheme.EtaleTorsor.toSheafTorsor"]
-order = 1464
+order = 2109
 tags = ["latex:proposition"]
 uses = ["def-galois-fibre-functor", "def-weil-pbc-finite-torsors", "lem-fet-galois-category", "lem-galois-axioms", "thm-galois-fundamental", "thm-galois-lc-etale", "thm-galois-torsor-h1"]
 +++

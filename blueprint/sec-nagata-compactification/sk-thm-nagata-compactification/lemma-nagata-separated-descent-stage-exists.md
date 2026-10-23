@@ -2,7 +2,7 @@
 id = "lemma-nagata-separated-descent-stage-exists"
 kind = "lemma"
 title = "Existence of a separated descent stage"
-order = 374
+order = 66
 lean = ["AlgebraicGeometry.Scheme.exists_isSeparated_pullback_snd"]
 uses = ["def-nagata-finite-presentation-descent", "lemma-nagata-diagonal-finite-presentation", "lemma-nagata-finite-presentation-descends"]
 +++

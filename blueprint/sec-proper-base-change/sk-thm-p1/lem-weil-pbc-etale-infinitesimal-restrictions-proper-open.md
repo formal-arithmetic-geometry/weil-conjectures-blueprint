@@ -4,5 +4,6 @@ kind = "lemma"
 title = "An open containing the closed fiber of a proper scheme over a complete base is everything"
 uses = ["def-pc-base-change"]
 lean = ["AlgebraicGeometry.proper_closed_fiber_open_eq_top"]
+order = 1727
 +++
-Let A be a commutative ring complete for an ideal I `IsAdicComplete` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/AdicCompletion/Basic.lean)). Let f : Y → Spec A `AlgebraicGeometry.Spec` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Scheme.lean)) and g : X → Y be scheme morphisms with g followed by f proper `AlgebraicGeometry.IsProper` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Morphisms/Proper.lean)). Let W be an open subset of X containing g⁻¹(image(Y ×_A Spec(A/I) → Y)) [def-pc-base-change], `CategoryTheory.Limits.pullback` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/Shapes/Pullback/HasPullback.lean)). Then W = X.
+Let $A$ be a commutative ring which is $I$-adically complete for an ideal $I\subseteq A$. Let $f:Y\to\operatorname{Spec}A$ and $g:X\to Y$ be morphisms of schemes with $f\circ g$ proper. Let $W\subseteq X$ be an open subset containing $g^{-1}$ of the image of the projection $Y\times_{\operatorname{Spec}A}\operatorname{Spec}(A/I)\to Y$ [def-pc-base-change]. Then $W=X$.

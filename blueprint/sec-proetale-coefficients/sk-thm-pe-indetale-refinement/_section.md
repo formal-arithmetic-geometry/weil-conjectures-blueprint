@@ -1,8 +1,9 @@
 +++
 id = "sk-thm-pe-indetale-refinement"
 kind = "theorem"
-title = "Weakly étale maps admit pro-étale refinements"
-order = 709
+title = "Pro-étale refinements of weakly étale maps"
+order = 947
+lean = ["Algebra.WeaklyEtale.exists_indEtale", "RingHom.WeaklyEtale.exists_indEtale_comp"]
 uses = ["sk-def-pe-morphisms", "sk-lem-pe-weakly-etale-stability", "sk-thm-pe-wc-cover"]
 tags = ["sketch"]
 +++

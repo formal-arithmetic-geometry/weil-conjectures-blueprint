@@ -2,9 +2,9 @@
 id = "sk-thm-curveestimate"
 kind = "proposition"
 title = "Smooth proper curves with invertible torsion"
-order = 883
-uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-prop-cd", "sk-prop-h1", "sk-prop-h2", "sk-thm-picard-main", "sk-thm-av-final", "sk-thm-picard-duality", "sk-thm-picard-rr", "sk-thm-br", "sk-prop-kummer-exact", "sk-cor-picard-degree", "sk-cor-jacobian-torsion", "sk-prop-sf-comparison"]
-lean = ["AlgebraicGeometry.IsCurve.nonempty_addEquiv_sheafH_constantZMod_zero", "AlgebraicGeometry.IsCurve.nonempty_addEquiv_sheafH_constantZMod_one", "AlgebraicGeometry.IsCurve.nonempty_addEquiv_sheafH_constantZMod_two", "AlgebraicGeometry.IsCurve.subsingleton_sheafH_of_three_le"]
+order = 1415
+uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-thm-picard-main", "sk-thm-av-final", "sk-thm-picard-rr", "sk-thm-br", "sk-cor-picard-degree", "sk-cor-jacobian-torsion", "sk-prop-sf-comparison"]
+lean = ["AlgebraicGeometry.IsConnectedCurve.sheafH_rootsOfUnitySheaf_canonical_of_isProper"]
 tags = ["sketch"]
 +++
 Let $C$ be smooth, proper and connected over an algebraically closed field

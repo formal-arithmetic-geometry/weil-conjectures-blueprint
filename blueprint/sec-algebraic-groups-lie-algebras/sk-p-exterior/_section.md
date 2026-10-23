@@ -1,25 +1,34 @@
 +++
 id = "sk-p-exterior"
 kind = "proposition"
-title = "Exterior-power weights"
-order = 2904
-uses = ["sk-d-linear", "sk-d-weights", "sk-i-restriction", "sk-p-linear-spectra"]
+title = "Exterior determinant weights"
 lean = ["Representation.exists_multiset_le_and_detWeight_eq_sum_of_exteriorPower"]
+order = 3780
+uses = ["sk-d-weights", "sk-i-restriction", "sk-p-central", "sk-p-readout", "sk-r-linear-library"]
 tags = ["sketch"]
 +++
-Let $k$ be algebraically closed of characteristic zero. Fix a real
-weight character $\lambda$, a group $W$ with a homomorphism
-$\deg:W\to\mathbf Z$, and an element $\gamma\in W$ (the degree map need
-not be surjective, nor $\gamma$ of degree one); determinant weights are
-taken at $\gamma$, and finite geometric determinant refers to
-$\ker(\deg)$. Let $V\ne0$ be a finite-dimensional representation of $W$,
-of rank $r$, written as a direct sum $V=\bigoplus_jV_j$ of simple
-subrepresentations each having finite geometric determinant, and let
-$s\ge0$. If $a_1,\ldots,a_r$ is the rank-counted weight list of this
-decomposition, every simple constituent $Q$ of $\bigwedge^s V$ with finite
-geometric determinant satisfies
+Let $A_1,\ldots,A_t$ be the composition factors of a nonzero Weil
+representation $V$. Write $d_a=\dim A_a$ and $\gamma_a=\dw_\iota(A_a)$. Fix
+$0\le r\le\dim V$, and assume that every $A_a$ and every simple factor of
+$\bigwedge^rV$ has finite geometric determinant. The determinant weights of
+its simple factors are exactly the possible values
 
 $$
-\dw_\lambda(Q)=a_{i_1}+\cdots+a_{i_s}
-\quad\text{for some }1\le i_1<\cdots<i_s\le r.
+\sum_an_a\gamma_a,
+\qquad 0\le n_a\le d_a,\qquad \sum_an_a=r.
 $$
+
+Equivalently, if $m(\gamma)=\sum_{\gamma_a=\gamma}d_a$, they are the sums
+$\sum_\gamma n_\gamma\gamma$ with $0\le n_\gamma\le m(\gamma)$ and
+$\sum_\gamma n_\gamma=r$. These are equalities of sets of weights; the
+multiplicities of the simple factors may differ.
+
+*Complement.* The inclusion "every weight is such a sum" holds for every
+real weight character $\lambda$ in place of $\lambda_\iota$, over any
+algebraically closed field of characteristic zero, and for an arbitrary
+group $W$ with a homomorphism $\deg\colon W\to\mathbf Z$ and an element
+$\gamma\in W$ as in the complement of [sk-p-tensor]: if
+$a_1,\ldots,a_{\dim V}$ is the rank-counted weight list of the factors,
+every simple subquotient $Q$ of $\bigwedge^rV$ with finite geometric
+determinant has $\dw_\lambda(Q)=a_{i_1}+\cdots+a_{i_r}$ for some
+$i_1<\cdots<i_r$.

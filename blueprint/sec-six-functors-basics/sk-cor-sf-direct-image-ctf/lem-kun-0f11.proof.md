@@ -17,7 +17,7 @@ with $f$ the structure morphism gives the statement for
 $\RGamma(X_{\Et},-)$).
 *Step 2 (complexes).* For $K_i\in D(X_{\Et},\kunZn)$ ([def-weil-pbc-derived-categories]) the
 hypercohomology spectral sequences of
-[def-weil-pbc-hypercohomology-filtrations] for the $K_i$ and for
+[thm-sp-truncation-e2] for the $K_i$ and for
 $\bigoplus_iK_i$ have $E_2$-pages $R^pf_*\mathcal H^q(K_i)$
 respectively $R^pf_*\mathcal H^q(\bigoplus_iK_i)$, and
 $\mathcal H^q(\bigoplus_iK_i)=\bigoplus_i\mathcal H^q(K_i)$, so Step 1

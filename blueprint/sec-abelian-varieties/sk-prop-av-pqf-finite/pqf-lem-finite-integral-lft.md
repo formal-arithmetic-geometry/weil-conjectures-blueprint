@@ -2,7 +2,7 @@
 id = "pqf-lem-finite-integral-lft"
 kind = "lemma"
 title = "Finite morphisms are integral"
-order = 502
+order = 518
 lean = ["AlgebraicGeometry.IsFinite.iff_isIntegralHom_and_locallyOfFiniteType"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

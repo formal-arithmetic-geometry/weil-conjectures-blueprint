@@ -4,5 +4,6 @@ kind = "lemma"
 title = "Prime coefficient constant sheaf identification"
 uses = ["def-sc-constant-sheaves"]
 lean = ["AlgebraicGeometry.IsCurve.constantModSheaf_iso_constantSheaf"]
+order = 1665
 +++
-Let U be a scheme and r a prime. Put R=ULift(Z/rZ). The constant R-module sheaf with value R/(r), denoted Etale.constantModSheaf R U r, is isomorphic to the constant R-module sheaf with value R `CategoryTheory.constantSheaf` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/ConstantSheaf.lean)), [def-sc-constant-sheaves]. This asserts existence of a sheaf isomorphism, not literal equality of the two sheaf objects.
+Let $U$ be a scheme and $r$ a prime, and put $\Lambda=\mathbf Z/r\mathbf Z$. The constant sheaf of $\Lambda$-modules on $U_{\Et}$ with value $\Lambda/r\Lambda$ is isomorphic to the constant sheaf of $\Lambda$-modules with value $\Lambda$ [def-sc-constant-sheaves]. This asserts the existence of a sheaf isomorphism, not literal equality of the two sheaf objects.

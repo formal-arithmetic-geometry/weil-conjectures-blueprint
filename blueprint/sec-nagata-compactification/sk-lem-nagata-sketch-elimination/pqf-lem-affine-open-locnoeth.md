@@ -2,7 +2,7 @@
 id = "pqf-lem-affine-open-locnoeth"
 kind = "lemma"
 title = "Local Noetherianity can be checked on an affine covering"
-order = 204
+order = 306
 lean = ["AlgebraicGeometry.isLocallyNoetherian_of_affine_cover", "AlgebraicGeometry.isLocallyNoetherian_iff_of_iSup_eq_top"]
 uses = ["pqf-def-locnoeth"]
 +++

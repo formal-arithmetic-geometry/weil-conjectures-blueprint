@@ -3,7 +3,7 @@ id = "prop-galois-weight-strata"
 kind = "theorem"
 title = "Galois stability of the weight strata"
 lean = ["Polynomial.weilStratum", "Polynomial.parityWeilStratum", "Polynomial.map_weilStratum_algEquiv"]
-order = 3248
+order = 4136
 tags = ["latex:proposition"]
 uses = ["def-weil-algebraic-closure-q", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-normalized-integral-fraction", "def-weil-numbers", "def-weil-ordinary-reciprocal-roots", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "lem-embedding-extension"]
 +++

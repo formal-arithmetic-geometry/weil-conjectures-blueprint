@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-fp-descends"
 kind = "lemma"
 title = "Property of affine finite-presentation descent"
-order = 359
+order = 51
 lean = ["CommRingCat.finitePresentation_fpDescent", "CommRingCat.fpDescentEquiv"]
 uses = ["def-nagata-affine-fp-descent"]
 +++

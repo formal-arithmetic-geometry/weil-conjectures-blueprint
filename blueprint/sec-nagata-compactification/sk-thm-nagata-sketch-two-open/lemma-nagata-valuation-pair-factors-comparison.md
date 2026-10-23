@@ -2,7 +2,7 @@
 id = "lemma-nagata-valuation-pair-factors-comparison"
 kind = "lemma"
 title = "A pair of generic extensions factors through $X_{12}$"
-order = 299
+order = 390
 lean = ["AlgebraicGeometry.TwoOpenSide.exists_comparisonFst_comparisonSnd"]
 uses = ["def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "def-nagata-two-open-comparison-space"]
 +++

@@ -3,7 +3,7 @@ id = "lem-pur-diagonal-base-change"
 kind = "lemma"
 title = "Base change for the dualizing object of a projection"
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_pullbackFst", "AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_pullbackSnd", "AlgebraicGeometry.Etale.nonempty_iso_sectionInvariant_diagonal"]
-order = 2353
+order = 2955
 uses = ["def-pur-co-smoothness", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "sbc-thm-etale-local-normal-form"]
 +++
 In the purity conventions of [def-pur-conventions],

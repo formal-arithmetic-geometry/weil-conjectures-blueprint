@@ -2,6 +2,7 @@
 id = "det-def-sfb-dc-lower-shriek-compatibility"
 kind = "lemma"
 title = "The lower shriek on $D_{\\mathrm{cons}}$ agrees with the ambient one"
+order = 2585
 uses = ["det-def-sfb-dc-lower-shriek-definition", "def-sfb-module-derived-lower-shriek-compactification", "def-sfb-dc-open-lower-shriek", "def-sfb-dc-lower-star"]
 +++
 In the situation of [det-def-sfb-dc-lower-shriek-definition], write

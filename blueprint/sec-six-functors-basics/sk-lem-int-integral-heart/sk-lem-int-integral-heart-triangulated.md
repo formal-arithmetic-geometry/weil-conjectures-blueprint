@@ -2,6 +2,7 @@
 id = "det-lem-int-integral-heart-triangulated"
 kind = "lemma"
 title = "The integral constructible category and its heart"
+order = 2456
 uses = ["det-lem-int-integral-heart-local-model", "sk-def-sfb-constructible"]
 +++
 1. $\Dbc(X,\mathcal O_E)$ is a triangulated subcategory of

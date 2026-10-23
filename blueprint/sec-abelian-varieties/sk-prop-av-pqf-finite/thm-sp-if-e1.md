@@ -3,7 +3,7 @@ id = "thm-sp-if-e1"
 kind = "theorem"
 title = "Hypercohomology spectral sequence of the stupid filtration"
 lean = ["CategoryTheory.Functor.stupidFiltrationExactCouple", "CategoryTheory.Functor.stupidFiltrationSpectralSequence", "CategoryTheory.Functor.stupidFiltrationE\u2081Iso", "CategoryTheory.Functor.isZero_stupidFiltrationExactCouple_E", "CategoryTheory.Functor.stupidFiltrationE\u2081Iso_inv_comp_d_comp_hom", "CategoryTheory.Functor.stupidFiltrationExactCouple_convergesTo", "CochainComplex.stupidTower", "CategoryTheory.Functor.stupidFiltrationTower", "CategoryTheory.Functor.stupidFiltrationAbutmentFiltration"]
-order = 528
+order = 544
 uses = ["def-sp-convergence", "def-sp-exact-couple", "def-sp-kinjective-bridge", "def-sp-left-exact-additive", "def-sp-truncation-couple", "lem-sp-kinjective-computes", "lem-sp-long-exact-of-triangle"]
 +++
 Let $v:\mathcal A\to\mathcal B$ be as in [def-sp-truncation-couple] and let

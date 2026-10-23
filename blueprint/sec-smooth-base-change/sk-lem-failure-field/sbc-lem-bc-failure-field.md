@@ -3,7 +3,7 @@ id = "sbc-lem-bc-failure-field"
 kind = "lemma"
 title = "A failure is detected on the generic fibre"
 lean = ["AlgebraicGeometry.Etale.FieldFailure.isAffineHom_a", "AlgebraicGeometry.Etale.nonempty_fieldFailure_of_not_universalBaseChangeProperty", "AlgebraicGeometry.Etale.survivesBaseChange_comp_iff_of_surjective", "AlgebraicGeometry.Etale.survivesBaseChange_of_isLimit", "AlgebraicGeometry.Etale.survivesBaseChange_or_of_isClosedImmersion", "AlgebraicGeometry.Etale.not_survivesBaseChange_of_isEmpty"]
-order = 1448
+order = 2062
 uses = ["sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-injectivity", "sbc-lem-bc-minimal-counterexample", "sbc-lem-higher-direct-image-limit", "sbc-lem-thickening-etale-site"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] assume for

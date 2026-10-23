@@ -2,7 +2,7 @@
 id = "d-curve-pieces"
 kind = "definition"
 title = "Curve coefficient pieces"
-order = 2684
+order = 3657
 uses = ["def-trf-coefficient-conventions", "def-trf-coefficient-pushforward", "def-trf-frobenius-coefficient-morphism", "def-trf-frobenius-operators", "def-trf-graph-correspondence", "def-trf-iterated-weil-map", "def-trf-scheme-frobenius", "prop-functor-package", "prop-sf-open-closed-triangle-all-stages"]
 +++
 Fix the coefficient conventions of [def-trf-coefficient-conventions] and a

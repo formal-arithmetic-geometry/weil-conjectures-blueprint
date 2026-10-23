@@ -2,6 +2,7 @@
 id = "det-tf-contracting-restricted-morphism"
 kind = "lemma"
 title = "The restricted coefficient morphism"
+order = 3616
 uses = ["def-trf-correspondence"]
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be a correspondence of separated finite-type schemes over an

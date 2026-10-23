@@ -15,7 +15,9 @@ at most $q_y^{1/2}$ by [lem-zl-relative-curve-punctual] (weight
 zero, $i=1$), while every nonzero root of $P_2$ has modulus $q_y$
 by the top-factor purity [lem-zl-affine-curve-hc2-purity].
 
-The trace formula [cor-trf-point-counting] identifies the fiber
+The Euler-product form of the trace formula
+[thm-trf-l-function-euler-product], with coefficients in $\mathcal E$
+over the finite field $\kappa(y)$, identifies the fiber
 $L$-function, i.e. the exponential of the point-count series of the
 fiber with coefficients $\mathcal E$, with
 $P_1(T)/P_2(T)$ (the cohomological factorization over the finite

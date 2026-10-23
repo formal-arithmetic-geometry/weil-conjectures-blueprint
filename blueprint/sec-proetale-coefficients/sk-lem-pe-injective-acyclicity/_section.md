@@ -2,7 +2,8 @@
 id = "sk-lem-pe-injective-acyclicity"
 kind = "lemma"
 title = "Acyclicity of pulled-back injectives"
-order = 727
+order = 998
+lean = ["AlgebraicGeometry.ProEtale.rightAcyclic_comparisonUpperStar_obj_of_injective"]
 uses = ["sk-prop-pe-comparison-morphism", "sk-thm-pe-indetale-refinement"]
 tags = ["sketch"]
 +++

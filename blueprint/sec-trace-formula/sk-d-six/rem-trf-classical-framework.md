@@ -2,8 +2,8 @@
 id = "rem-trf-classical-framework"
 kind = "definition"
 title = "Classical framework convention: no $\\infty$-categories"
-order = 2616
-uses = ["def-exchange-projection", "def-trf-categorical-trace", "def-weil-finite-coefficient-point", "def-weil-pbc-proetale-site", "prop-functor-package", "sk-def-sf-setting", "sk-def-sfb-bounded-constructible", "sk-prop-scalar-six", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
+order = 3627
+uses = ["def-exchange-projection", "def-trf-categorical-trace", "def-weil-finite-coefficient-point", "def-weil-pbc-proetale-site", "prop-functor-package", "def-sf-setting", "det-def-sfb-bounded-constructible", "sk-prop-scalar-six", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Throughout this chapter, and in every statement below, the framework is
 the *classical* one of the framework chapter: ordinary categories, ordinary
@@ -19,9 +19,9 @@ $D^b_{\mathrm{fin}}(A)$, and their integral, rational, and
 algebraically closed analogues are the classical Verdier derived
 categories of the small
 pro-etale site (or of the point), localized at quasi-isomorphisms: for a
-coefficient ring $\Lambda$ of [sk-def-sf-setting], regarded as a condensed
+coefficient ring $\Lambda$ of [def-sf-setting], regarded as a condensed
 ring, they are the full subcategories of $D(X_{\mathrm{pro\acute et}},\Lambda)$
-of [sk-def-sfb-bounded-constructible]. In particular
+of [det-def-sfb-bounded-constructible]. In particular
 $D^b_c(X,A)$ is a triangulated category in the strict sense of
 Verdier: the distinguished triangles, the shift functor, and the
 octahedral axiom are given data, and there is *no* functorial choice
@@ -89,7 +89,7 @@ the identification $\operatorname{End}_{D(A)}(A)\cong A$. No
 synthetic or higher-categorical trace is used.
 1. *Classical bookkeeping of coefficients.*
 The integral, rational and $\Qlb$-coefficient categories are the condensed
-categories $\Dbc(X,\Lambda)$ of [sk-def-sf-setting], not categories
+categories $\Dbc(X,\Lambda)$ of [def-sf-setting], not categories
 constructed from finite stages. Reductions modulo $\pi_E^n$, integral
 models (lattices) and descent to a finite coefficient field are used only
 as theorems about these categories: [sk-prop-scalar-six],

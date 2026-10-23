@@ -3,7 +3,7 @@ id = "lem-dg-compact-support-amplitude"
 kind = "lemma"
 title = "The compact-support bound uses the original fibres"
 lean = ["AlgebraicGeometry.Etale.isZero_homology_rightDerivedLowerShriek_singleFunctor_of_two_mul_lt"]
-order = 1972
+order = 2733
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-amb-etale-compact-support", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions", "lem-kun-cd-sep-closed-point", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-geometric-stalk-conservative", "thm-nagata-compactification", "thm-sc-finite-type-torsion-cd"]
 +++
 Let $f:X\to Y$ be a separated finite-type morphism of finite-type

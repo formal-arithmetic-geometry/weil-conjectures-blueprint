@@ -2,7 +2,7 @@
 id = "def-nagata-quasi-affine-morphism"
 kind = "definition"
 title = "Quasi-affine morphism"
-order = 190
+order = 292
 lean = ["AlgebraicGeometry.IsQuasiAffineHom"]
 +++
 A morphism of schemes $p\colon Y\to X$ is *quasi-affine* if for every

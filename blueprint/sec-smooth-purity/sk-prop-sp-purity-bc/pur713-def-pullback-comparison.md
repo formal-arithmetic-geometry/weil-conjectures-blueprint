@@ -2,7 +2,7 @@
 id = "pur713-def-pullback-comparison"
 kind = "definition"
 title = "Comparison of the two pullbacks, finite coefficients"
-order = 2353
+order = 3038
 +++
 For the Cartesian square $\square$, define
 

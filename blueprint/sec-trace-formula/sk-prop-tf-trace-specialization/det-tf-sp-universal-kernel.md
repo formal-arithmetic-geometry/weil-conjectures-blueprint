@@ -2,6 +2,7 @@
 id = "det-tf-sp-universal-kernel"
 kind = "lemma"
 title = "Nearby cycles of the universal kernel"
+order = 3601
 uses = ["thm-trf-verdier-duality"]
 +++
 Let $S$ be a strictly henselian trait with special point $s$ and generic point $\eta$,

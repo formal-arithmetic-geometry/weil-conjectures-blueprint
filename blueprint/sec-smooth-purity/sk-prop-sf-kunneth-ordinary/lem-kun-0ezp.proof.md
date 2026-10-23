@@ -8,7 +8,7 @@ which are etale and of finite presentation over $L$, hence etale and of
 finite type. An etale finite type scheme over a field is finite over that
 field, and a finite etale algebra over a field is a product of finite
 separable field extensions; since $L$ is separably closed
-([def-kun-separably-closed]) each of those extensions is $L$ itself.
+([def-pc-separably-closed]) each of those extensions is $L$ itself.
 Hence every object of the small etale site of $X$,
 [def-weil-pbc-etale-site], is a disjoint
 union of copies of $X$.

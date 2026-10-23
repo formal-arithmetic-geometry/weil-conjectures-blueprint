@@ -2,7 +2,7 @@
 id = "rem-pc-sc-ample"
 kind = "remark"
 title = "Ample and very ample: existing in file 06"
-order = 449
+order = 466
 uses = ["def-sc-ample"]
 +++
 The notions of *ample* and *very ample* invertible module are

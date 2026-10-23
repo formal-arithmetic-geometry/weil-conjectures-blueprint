@@ -2,6 +2,7 @@
 id = "det-lem-int-integral-heart-dualizable"
 kind = "lemma"
 title = "Local duals of integral constructible sheaves"
+order = 2455
 uses = ["det-lem-int-integral-heart-local-model"]
 +++
 Let $C\in\Cons(X,\mathcal O_E)$ and let $S$ be a stratum on which $C$ is

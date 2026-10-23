@@ -2,9 +2,9 @@
 id = "cor-pur-smooth-admissibility"
 kind = "theorem"
 title = "Smooth morphisms satisfy the preservation clauses"
-order = 2421
+order = 2885
 tags = ["latex:corollary"]
-uses = ["cor-pur-dualizing-object-purity", "cor-sf-ambient-adjoint-discharge", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "lem-exc-residue-tor-test", "lem-weil-field-tor-amplitude", "prop-weil-pbc-inverse-image-exact", "prop-weil-twist-preserves", "thm-asd-smooth-tensor", "thm-cbc-finite-level-proetale", "thm-pur-diagonal-dualizing-object", "thm-sf-ambient-adjoint-class"]
+uses = ["cor-pur-dualizing-object-purity", "cor-sf-ambient-adjoint-discharge", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "lem-exc-residue-tor-test", "lem-integral-ctf-equals-bc", "prop-weil-pbc-inverse-image-exact", "prop-weil-twist-preserves", "thm-asd-smooth-tensor", "thm-cbc-finite-level-proetale", "thm-pur-diagonal-dualizing-object", "thm-sf-ambient-adjoint-class"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
 let $f:X\to Y$ be smooth separated of pure relative dimension $d$.

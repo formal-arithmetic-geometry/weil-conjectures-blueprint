@@ -2,7 +2,7 @@
 id = "sk-cor-affine-space-rational"
 kind = "corollary"
 title = "Exceptional inverse image along affine space, rational coefficients"
-order = 1562
+order = 2442
 uses = ["sk-prop-p1-adjunction-rational", "sk-lem-sf-mate"]
 tags = ["sketch"]
 +++

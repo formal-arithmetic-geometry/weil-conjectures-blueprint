@@ -1,13 +1,13 @@
 +++
 kind  = "proof"
 of    = "sk-thm-picard-main"
-uses = ["sk-thm-picard-criterion", "sk-prop-picard-pic-split", "sk-thm-picard-f-representable", "sk-lem-picard-f-open", "sk-thm-picard-twist", "sk-thm-picard-rr", "sk-thm-picard-hilb-curves", "sk-thm-picard-coherence", "sk-def-av-jacobian", "sk-def-picard-f", "sk-lem-picard-zero-dictionary", "det-picard-main-degree", "det-picard-main-jacobian"]
+uses = ["sk-prop-picard-pic-split", "sk-thm-picard-f-representable", "sk-thm-picard-twist", "sk-thm-picard-rr", "sk-thm-picard-hilb-curves", "sk-thm-picard-perfect", "sk-def-av-jacobian", "det-picard-main-degree", "det-picard-main-jacobian"]
 +++
 *Representability.* Choose $P\in C(k)$, so that
 $\operatorname{Pic}_{C/k}$ is the functor of rigidified invertible
 sheaves ([sk-prop-picard-pic-split]). The preceding construction gives a
 representable open subfunctor $F\subset\operatorname{Pic}_{C/k}$
-([sk-thm-picard-f-representable], [sk-lem-picard-f-open]). For a fixed
+([sk-thm-picard-f-representable], [det-lem-picard-f-open]). For a fixed
 class $M\in\operatorname{Pic}_{C/k}(k)$, $M^{-1}F$ is another
 representable open subfunctor. Given a class on a test scheme $T$, apply
 [sk-thm-picard-twist] to its fibre over each residue field. The open loci
@@ -16,13 +16,13 @@ charts therefore cover $\operatorname{Pic}_{C/k}$. Their intersections
 are open in either chart, and their transition isomorphisms satisfy the
 cocycle condition by functoriality. Gluing constructs a scheme
 representing $\operatorname{Pic}_{C/k}$. This is the representability
-criterion [sk-thm-picard-criterion] (Stacks Project, Tag 0B9Q); the
+criterion [det-thm-picard-criterion] (Stacks Project, Tag 0B9Q); the
 resulting curve theorem is Stacks Project, Tag 0B9Z. The group structure
 is the tensor product of rigidified sheaves.
 
 *Degree decomposition, smoothness, separatedness.* Fibrewise Euler
 characteristic is locally constant for a proper flat family of line
-bundles ([sk-thm-picard-coherence]). Riemann–Roch ([sk-thm-picard-rr]) thus makes degree locally
+bundles ([det-thm-picard-coherence]). Riemann–Roch ([sk-thm-picard-rr]) thus makes degree locally
 constant and defines the displayed open-and-closed decomposition. The charts in $H_g$ and their
 translates show smoothness and dimension $g$. The unit is a closed
 immersion for this locally finite type group scheme over a field;
@@ -75,10 +75,10 @@ $\underline{\Pic}^0_{C/k}$ is isomorphic to $\underline{\Pic}^g_{C/k}$
 (translation by $\cO_C(gP)$), so it suffices to prove the geometric
 properties for $\underline{\Pic}^g_{C/k}$.
 
-*Smooth of dimension $g$.* The subfunctor $F$ of [sk-def-picard-f] is open
-([sk-lem-picard-f-open]), represented by an open
+*Smooth of dimension $g$.* The subfunctor $F$ of [det-def-picard-f] is open
+([det-lem-picard-f-open]), represented by an open
 $W\subseteq\underline{\Hilb}^g_{C/k}$ ([sk-thm-picard-f-representable]), and
-its classes have degree $g$ ([sk-lem-picard-zero-dictionary]); so $W$ is an
+its classes have degree $g$ ([det-lem-picard-zero-dictionary]); so $W$ is an
 open subscheme $U\subseteq\underline{\Pic}^g_{C/k}$, smooth of dimension $g$
 because $\underline{\Hilb}^g_{C/k}$ is ([sk-thm-picard-hilb-curves]). The
 translates of $U$ by $k$-points cover $\underline{\Pic}^g_{C/k}$: for a point
@@ -113,4 +113,4 @@ along $P$ and the degree commute with base change along $k\to k'$, so
 $\underline{\Pic}_{C/k}\times_kk'$ represents $\Pic_{C_{k'}/k'}$ and its
 degree-zero part is $J(C_{k'})$. (Classical: Mumford and Milne, *Abelian
 Varieties*; Stacks, Tag 0BA0; the detailed blueprint node is
-`thm-sc-jacobian-representability`.)
+[thm-sc-jacobian-representability].)

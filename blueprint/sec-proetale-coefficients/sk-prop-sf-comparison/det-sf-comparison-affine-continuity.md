@@ -2,12 +2,15 @@
 id = "det-sf-comparison-affine-continuity"
 kind = "lemma"
 title = "Pro-étale cohomology of a pro-étale affine"
+lean = ["AlgebraicGeometry.ProEtale.comparisonUpperStarCompUpperStarIso", "AlgebraicGeometry.ProEtale.comparisonLowerStarCompRightDerivedGlobalSectionsIso", "AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app", "AlgebraicGeometry.derivedEtaleCohomology_limit"]
+order = 1036
 uses = ["thm-weil-pbc-site-comparison", "lem-weil-pbc-comparison-global-cohomology", "lem-weil-pbc-derived-cohomology-continuity"]
 +++
-Let $X$ be a scheme, $\Lambda$ a ring, $K\in D^+(X_{\mathrm{ét}},\Lambda)$, and let
+Let $X$ be a scheme, $K\in D^+(X_{\mathrm{ét}})$ a bounded-below complex of
+abelian sheaves, and let
 $U=\varprojlim_{i\in I}U_i$ be a pro-étale affine over $X$, the limit being
 cofiltered with affine transition maps and each $U_i$ affine and étale over
-$X$. Write $K_i=K|_{U_i}\in D^+((U_i)_{\mathrm{ét}},\Lambda)$ and $K_U$ for the
+$X$. Write $K_i=K|_{U_i}\in D^+((U_i)_{\mathrm{ét}})$ and $K_U$ for the
 inverse image of $K$ on $U_{\mathrm{ét}}$. Then for every $n\in\mathbf Z$ the
 canonical maps
 

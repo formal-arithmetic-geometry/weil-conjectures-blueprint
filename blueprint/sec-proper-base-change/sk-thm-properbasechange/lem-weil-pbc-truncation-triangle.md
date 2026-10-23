@@ -2,6 +2,8 @@
 id = "lem-weil-pbc-truncation-triangle"
 kind = "lemma"
 title = "The truncation triangle tau_{<=q-1}K -> tau_{<=q}K -> H^q(K)[-q] is distinguished"
+lean = ["DerivedCategory.truncation_triangle"]
+order = 2030
 uses = ["def-weil-abstract-derived-category", "def-weil-triangulated-category", "def-sbc-standard-tstructure-derived-category", "lem-weil-pbc-truncation-descends", "def-weil-pbc-derived-categories"]
 tags = ["stacks-08J5"]
 +++

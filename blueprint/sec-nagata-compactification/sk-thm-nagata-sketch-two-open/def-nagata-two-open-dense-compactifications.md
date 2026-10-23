@@ -2,7 +2,7 @@
 id = "def-nagata-two-open-dense-compactifications"
 kind = "definition"
 title = "Chosen dense compactifications of the two opens"
-order = 270
+order = 364
 lean = ["AlgebraicGeometry.HasCompactification.compactification", "AlgebraicGeometry.Compactification.denseRefinement"]
 uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-dense-compactification", "def-nagata-dense-refinement", "prop-nagata-dense-refinement"]
 +++

@@ -2,11 +2,12 @@
 id = "det-prop-sfb-qlbar-colimit-x-pullback"
 kind = "lemma"
 title = "The coefficient comparisons commute with inverse image"
-uses = ["det-prop-sfb-qlbar-colimit-x-integral-limit", "det-prop-sfb-qlbar-colimit-x-invert-ell", "sk-def-sfb-pullback-from-point-comp", "sk-prop-sfb-cartesian-coefficients"]
+order = 1235
+uses = ["det-prop-sfb-qlbar-colimit-x-integral-limit", "det-prop-sfb-qlbar-colimit-x-invert-ell", "det-def-sfb-pullback-from-point-comp"]
 +++
 Let $f\colon X\to Y$ be a morphism of schemes and let
 $\alpha_f\colon f^{-1}\Lambda_Y\xrightarrow{\sim}\Lambda_X$ be the canonical isomorphism
-induced by $p_Y\circ f=p_X$ ([sk-def-sfb-pullback-from-point-comp]), for
+induced by $p_Y\circ f=p_X$ ([det-def-sfb-pullback-from-point-comp]), for
 $\Lambda=\underline{\cO_E},\underline E,\underline{\Qlb}$. Then, under $\alpha_f$ and the
 canonical isomorphisms $f^{-1}(T_Y)\cong T_X$ for constant sheaves:
 

@@ -2,6 +2,8 @@
 id = "det-pe-wcb-cover"
 kind = "lemma"
 title = "Coverings by w-contractible affines"
+lean = ["AlgebraicGeometry.Scheme.ProEt.exists_isWContractibleRing_cover", "exists_isWContractibleRing"]
+order = 959
 uses = ["det-pe-wc-cover-second-stage", "lem-weil-pbc-strict-w-cover", "def-weil-pbc-proetale-covering", "lem-weil-pbc-ind-etale-stability", "lem-trf-weakly-etale-between-objects"]
 +++
 Every object $U$ of $X_{\mathrm{proét}}$ has a covering $\{\operatorname{Spec}D_i\to U\}$ in

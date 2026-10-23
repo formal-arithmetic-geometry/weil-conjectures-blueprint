@@ -2,7 +2,7 @@
 id = "pqf-lem-integral-univclosed"
 kind = "lemma"
 title = "Integral = affine + universally closed"
-order = 540
+order = 556
 lean = ["AlgebraicGeometry.IsIntegralHom.iff_universallyClosed_and_isAffineHom"]
 uses = ["def-weil-pbc-scheme-conventions", "pqf-lem-lying-over"]
 +++

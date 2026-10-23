@@ -2,7 +2,7 @@
 id = "sk-lem-tf-sp-defect-exchanges"
 kind = "lemma"
 title = "Exchanges for the defect"
-order = 2646
+order = 3574
 uses = ["sk-lem-tf-sp-constant-family", "sk-lem-tf-sp-dnc-functorial"]
 tags = ["sketch"]
 +++

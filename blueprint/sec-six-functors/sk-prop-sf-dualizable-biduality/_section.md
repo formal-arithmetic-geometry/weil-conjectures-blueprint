@@ -2,8 +2,8 @@
 id = "sk-prop-sf-dualizable-biduality"
 kind = "proposition"
 title = "Biduality of a perfect complex"
-order = 2415
-uses = ["sk-def-sf-operations"]
+order = 3361
+uses = ["sk-prop-sf-open-closed-triangle"]
 lean = ["AlgebraicGeometry.Etale.DerivedCategory.isDualizable_coefficientDual", "AlgebraicGeometry.Etale.DerivedCategory.nonempty_iso_coefficientDual_coefficientDual", "AlgebraicGeometry.Etale.DerivedCategory.nonempty_iso_coefficientDual_tensor"]
 tags = ["sketch"]
 +++

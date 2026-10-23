@@ -2,7 +2,7 @@
 id = "prop-nagata-closed-subscheme-compactifiable"
 kind = "theorem"
 title = "The closed-subscheme construction is a compactification"
-order = 94
+order = 126
 lean = ["AlgebraicGeometry.HasCompactification.of_isClosedImmersion"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-compactifiable", "lemma-nagata-scheme-image-of-closed-immersion", "lemma-nagata-scheme-image-restrict-open"]

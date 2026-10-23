@@ -2,6 +2,7 @@
 id = "det-prop-diagonal-tower-coefficients"
 kind = "lemma"
 title = "Change of coefficients and base change for the diagonal class"
+order = 2434
 uses = ["det-prop-diagonal-tower-limit", "det-prop-diagonal-tower-trace", "sk-cor-pe-bounded-continuity", "sk-prop-sfb-cartesian-coefficients"]
 +++
 1. Extension of scalars along $\Zl\to\mathcal O_E$ carries $\delta_{\Zl}$,

@@ -1,49 +1,31 @@
 +++
 kind  = "proof"
 of    = "lemma-weil-pbc-constructible-finite-pushforward"
+uses = ["lem-weil-pbc-constructible-finite-pushforward-approximation", "lem-weil-pbc-finite-pushforward-embedding-pullback"]
 +++
-Write $U=\varprojlim U_\lambda$ with affine transition maps and noetherian,
-quasi-compact, quasi-separated $U_\lambda$. The finite stratification of
-$C$, its finite stalk groups, all restriction maps, and their equalizer
-relations descend to one stage $U_\lambda$. We prove the assertion there by
-noetherian induction on a closed complement of a dense stratum. Choose a
-dense open $j:V\hookrightarrow U_\lambda$ where $C_\lambda$ is finite
-locally constant and a finite etale cover $e:W\to V$ trivializing it. Take
-the integral closure of $U_\lambda$ in $e_*\mathcal O_W$ and discard
-components disjoint from $V$; this gives a finite map $h:W'\to U_\lambda$
-extending $e$. The adjunction unit is a monomorphism on $V$,
+By Noetherian approximation [lem-weil-pbc-constructible-finite-pushforward-approximation]
+there are a morphism $\nu:U\to U'$ to a Noetherian scheme $U'$, a constructible
+sheaf of $\Lambda$-modules $C'$ on $U'_{\Et}$ with an isomorphism
+$\nu^{-1}C'\cong C$, and a monomorphism
 
 $$
-C_\lambda|_V\hookrightarrow e_*\underline M
-=(h_*\underline M)|_V,
+ C'\hookrightarrow\bigoplus_{i=1}^m(h'_i)_*\underline{M_i}
 $$
 
-for a finite group $M$.
+with $h'_i:V'_i\to U'$ finite and locally of finite presentation and $M_i$
+finitely generated $\Lambda$-modules. On the Noetherian scheme $U'$ this is
+proved by Noetherian induction: on a dense open $V\subseteq U'$ where $C'$ is
+finite locally constant, a finite étale cover trivializing $C'|_V$ extends to a
+finite morphism $W'\to U'$ (integral closure), whose unit gives a monomorphism
+on $V$; on the reduced closed complement one uses the induction hypothesis, and
+the two maps together are monic on all geometric stalks.
 
-Let $Z=U_\lambda\setminus V$ with its reduced closed structure. By
-induction, $C_\lambda|_Z$ embeds into a finite sum
-$\bigoplus_b(h_b)_*\underline{M_b}$ with $h_b$ finite over $Z$; composing
-with $Z\hookrightarrow U_\lambda$ keeps the maps finite. Map
-$C_\lambda$ to
-
-$$
-h_*\underline M\oplus\bigoplus_b(h_b)_*\underline{M_b}
-$$
-
-by the dense-open unit in the first component and restriction to $Z$ in the
-remaining components. At a geometric point of $V$ the first component is
-injective, and at a geometric point of $Z$ the second block is injective, so
-the combined map is monic. Pull the finite diagram and monomorphism
-back to $U$. Etale inverse image is exact, and finite direct image commutes
-with this pullback by the finite geometric-stalk product formula. This gives
-the displayed monomorphism.
-
-Apply [lem-weil-pbc-constructible-finite-pushforward-approximation] to $U$ and
-$C$. The finite maps obtained there are finite over the Noetherian
-approximation and therefore of finite presentation; their pullbacks remain
-finite and finitely presented. Exactness of inverse image and
-finite-base-change compatibility of direct image preserve the monomorphism,
-giving the displayed map on $U$. This is precisely the descent argument in
-Stacks Project, Lemma 59.74.4 (Tag
-[09Z7](https://stacks.math.columbia.edu/tag/09Z7)); no composition with a
-locally closed stratum is used.
+By [lem-weil-pbc-finite-pushforward-embedding-pullback] the inverse image along
+$\nu$ of this monomorphism is again a monomorphism
+$\nu^{-1}C'\hookrightarrow\bigoplus_i(h_i)_*\underline{M_i}$ into finite direct
+images of the same constant sheaves along finite morphisms $h_i:V_i\to U$
+locally of finite presentation (the base changes of the $h'_i$): inverse image
+is exact, commutes with finite direct sums and with direct image along finite
+morphisms, and preserves constant sheaves. Composing with $C\cong\nu^{-1}C'$
+gives the displayed monomorphism. This is the descent argument of Stacks
+Project, Lemma 59.74.4 (Tag [09Z7](https://stacks.math.columbia.edu/tag/09Z7)).

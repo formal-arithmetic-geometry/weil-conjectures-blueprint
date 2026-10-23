@@ -2,7 +2,7 @@
 id = "sk-cor-existence-ii"
 kind = "corollary"
 title = "Proper direct image has a right adjoint on $D^b_{ctf}$"
-order = 1510
+order = 2139
 uses = ["sk-thm-existence", "sk-def-localizing-closure"]
 tags = ["sketch"]
 +++

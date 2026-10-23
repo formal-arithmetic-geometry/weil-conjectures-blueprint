@@ -2,7 +2,7 @@
 id = "sk-rem-sf-ledger"
 kind = "remark"
 title = "Ledger: what is unconditional, what is conditional, what is open"
-order = 2422
+order = 3409
 tags = ["sketch"]
 +++
 *Unconditional*: clauses (2), (3), (4), (7), (8) of
@@ -17,7 +17,7 @@ $\operatorname{FullCD}$ for the compactification; that hypothesis is
 is not a theorem, and it is consumed by nothing: clauses (v) and (vi) of
 [thm-sf-ctf-stability], the general biduality of
 [sk-prop-sf-biduality-general] and every other use of $Rf^!$ are formulated
-with the unconditional constructible adjoint of [sk-def-sf-operations](vi),
+with the unconditional constructible adjoint of [det-def-sf-operations](vi),
 [thm-sf-ambient-adjoint-class], on the étale-origin class, where
 $\operatorname{FullCD}$ is the theorem [sk-prop-sf-fullcd-etale-origin]
 ([sk-rem-sf-fullcd-scope]).

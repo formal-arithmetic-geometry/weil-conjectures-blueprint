@@ -2,11 +2,11 @@
 id = "sk-thm-sf-package"
 kind = "theorem"
 title = "The six-operations package"
-order = 2421
-uses = ["sk-cor-sf-direct-image-ctf", "sk-def-sf-admissible", "sk-def-sf-operations", "sk-def-sf-setting", "sk-def-sf-categories", "sk-thm-existence", "sk-thm-sfb-proper-base-change", "sk-thm-sbc-coefficients", "sk-prop-scalar-six", "sk-lem-sf-flat-model", "sk-lem-sf-mate", "sk-lem-sf-twist-interchange", "sk-prop-cohsm", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-comparison", "sk-prop-sf-dualizable-biduality", "sk-prop-sf-finiteness", "sk-prop-sf-kunneth-ordinary", "sk-prop-sf-pf-reduction", "sk-prop-sf-rf-shriek-preservation", "sk-rem-sf-matrix", "sk-thm-nagata-compactification", "sk-thm-properbasechange", "sk-thm-purity-transport", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-dual-perfect", "sk-thm-sf-global-duality", "sk-thm-sf-hom-ctf", "sk-thm-sf-identification", "sk-thm-sf-kunneth-relative", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale", "sk-thm-sf-tensor-hom", "sk-thm-smooth-base-change", "sk-thm-smooth-purity"]
+order = 3376
+uses = ["sk-cor-sf-direct-image-ctf", "sk-def-sf-admissible", "sk-prop-sf-open-closed-triangle", "sk-def-purity-conv", "sk-def-sf-categories", "sk-thm-existence", "sk-thm-sfb-proper-base-change", "sk-thm-sbc-coefficients", "sk-prop-scalar-six", "sk-lem-sf-flat-model", "sk-lem-sf-mate", "sk-lem-sf-twist-interchange", "sk-prop-cohsm", "sk-prop-nagata-sketch-comp-category", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-comparison", "sk-prop-sf-dualizable-biduality", "sk-prop-sf-finiteness", "sk-prop-sf-kunneth-ordinary", "sk-prop-sf-pf-reduction", "sk-prop-sf-rf-shriek-preservation", "sk-rem-sf-matrix", "sk-thm-nagata-compactification", "sk-thm-properbasechange", "sk-thm-purity-transport", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-dual-perfect", "sk-thm-sf-global-duality", "sk-thm-sf-hom-ctf", "sk-thm-sf-identification", "sk-thm-sf-kunneth-relative", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale", "sk-thm-sf-tensor-hom", "sk-thm-smooth-base-change", "sk-thm-smooth-purity"]
 tags = ["sketch"]
 +++
-Fix an admissible coefficient ring $\Lambda$ of [sk-def-sf-setting], regarded
+Fix an admissible coefficient ring $\Lambda$ of [def-sf-setting], regarded
 as a condensed ring, and let $f:X\to Y$ be a
 separated finite-type morphism of finite-type $k$-schemes. The ambient
 categories are $D(X_{\mathrm{pro\acute et}},\Lambda)$, the derived categories of
@@ -14,7 +14,7 @@ $\Lambda_X=p_X^*\Lambda$-modules, and the small categories are their full
 subcategories $\Dctf(X,\Lambda)\subseteq\Dbc(X,\Lambda)$ of
 [sk-def-sf-categories]; for finite $\Lambda$ they may equivalently be read on
 the small étale site. Then the six
-operations of [sk-def-sf-operations] exist as functors of the ambient
+operations of [det-def-sf-operations] exist as functors of the ambient
 categories, they descend to the small categories as in [sk-rem-sf-typing],
 and they satisfy:
 
@@ -25,14 +25,14 @@ $Rf_*:D^+(X,\Lambda)\to D^+(Y,\Lambda)$:
 $\operatorname{Hom}_{D^+(X,\Lambda)}(Lf^*K,L)\cong \operatorname{Hom}_{D^+(Y,\Lambda)}(K,Rf_*L)$, naturally in
 $K\in D^+(Y,\Lambda)$ and $L\in D^+(X,\Lambda)$ (both functors typed between
 the same pair of categories); the constructible exceptional adjoint
-$Rf^!:\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$ of [sk-def-sf-operations] (vi) is
+$Rf^!:\Dctf(Y,\Lambda)\to\Dctf(X,\Lambda)$ of [det-def-sf-operations] (vi) is
 right adjoint to $Rf_!:\Dctf(X,\Lambda)\to\Dctf(Y,\Lambda)$,
 unconditionally and for every admissible $\Lambda$ ([sk-thm-existence]), with units and counits compatible with composition,
 refinements and exchanges ([thm-sf-ambient-adjoint-class],
 [sk-prop-sf-rf-shriek-preservation], [sk-lem-sf-mate] (1)); and, whenever $f$ carries the ambient datum of
 [sk-def-sf-admissible] (1), the ambient functor
 $Rf_!:D(X,\Lambda)\to D(Y,\Lambda)$ is left adjoint to the ambient functor
-$Rf^{\times}:D(Y,\Lambda)\to D(X,\Lambda)$ of [sk-def-sf-operations] (v),
+$Rf^{\times}:D(Y,\Lambda)\to D(X,\Lambda)$ of [det-def-sf-operations] (v),
 whose restriction to $\Dctf$ then agrees with $Rf^!$ (that datum fails in
 general, [sk-rem-sf-fullcd-scope]).
 1. **(2)** *Base change.* For every Cartesian square the exchange
@@ -48,7 +48,7 @@ identity for the identity square,
 compatible with pasting of squares, independent of the compactification
 (compatible with the refinement comparisons of [sk-prop-sf-comp-coherence])
 and compatible with the composition law of [sk-thm-sf-comp-composition],
-the last two on the étale-origin complexes of [sk-def-sf-operations] (iv)
+the last two on the étale-origin complexes of [det-def-sf-operations] (iv)
 ([sk-prop-sf-cbc]).
 The exchange transformation $\operatorname{Ex}_*:Lg^*Rf_*\to Rf'_*Lg'^*$ is a
 natural isomorphism for proper $f$ ([sk-thm-properbasechange]) and for
@@ -104,7 +104,7 @@ L(f_1\times f_2)^*(L_1\boxtimes L_2)(d_1+d_2)[2d_1+2d_2]$ (the smooth step of
 the proof of [sk-thm-sf-kunneth-verdier]; the Künneth–Verdier
 isomorphism itself stays outside the package).
 1. **(6)** *Duality.* With $\omega_X=Ra_X^!\Lambda$ formed from the
-constructible exceptional adjoint of [sk-def-sf-operations](vi) (no
+constructible exceptional adjoint of [det-def-sf-operations](vi) (no
 admissibility datum is assumed; [sk-prop-sf-biduality-general] is
 unconditional),
 $\mathbb D_X:\Dctf(X,\Lambda)\to\Dctf(X,\Lambda)$,

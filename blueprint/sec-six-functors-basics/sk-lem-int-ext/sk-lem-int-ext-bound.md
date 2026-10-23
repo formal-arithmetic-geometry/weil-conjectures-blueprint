@@ -2,6 +2,7 @@
 id = "det-lem-int-ext-bound"
 kind = "lemma"
 title = "Uniform vanishing of Ext between integral constructible sheaves"
+order = 2464
 uses = ["det-lem-int-ext-formula", "sk-def-cd", "sk-lem-int-integral-heart"]
 +++
 Let $a=i\circ u:S\hookrightarrow X$ and $L$ be as in

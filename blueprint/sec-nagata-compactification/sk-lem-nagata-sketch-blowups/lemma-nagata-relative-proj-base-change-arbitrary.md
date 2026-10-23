@@ -3,7 +3,7 @@ id = "lemma-nagata-relative-proj-base-change-arbitrary"
 kind = "lemma"
 title = "Relative Proj base change for an arbitrary morphism"
 lean = ["AlgebraicGeometry.Scheme.GradedAlgebraData.PullbackData.isPullback", "AlgebraicGeometry.Scheme.GradedAlgebraData.PullbackData.relProjIsoPullback"]
-order = 115
+order = 230
 uses = ["lemma-nagata-proj-chart-ring-cocycle", "prop-nagata-relative-proj-functoriality"]
 +++
 For any morphism $g\colon Y\to X$ and graded quasi-coherent algebra

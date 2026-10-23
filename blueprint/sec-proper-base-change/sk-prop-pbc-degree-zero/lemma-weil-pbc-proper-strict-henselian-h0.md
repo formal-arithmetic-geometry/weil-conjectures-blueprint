@@ -2,27 +2,25 @@
 id = "lemma-weil-pbc-proper-strict-henselian-h0"
 kind = "lemma"
 title = "Degree-zero comparison over a strictly henselian base"
-lean = ["AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_geometricFibre"]
-order = 1117
-uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-pullback-identities", "lem-weil-pbc-universal-homeomorphism-base-change", "lemma-weil-pbc-etale-degree-zero", "lemma-weil-pbc-finite-refinement-etale-cover", "lemma-weil-pbc-spectral-restriction", "lemma-weil-pbc-stein-connectedness", "thm-weil-pbc-universal-homeomorphism-invariance"]
+lean = ["AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_geometricFibre", "AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_geometricFibre"]
+order = 1554
+uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-finite-section-pullback", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-universal-homeomorphism-base-change", "lemma-weil-pbc-etale-degree-zero", "lemma-weil-pbc-finite-pullback-composition", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $A$ be strictly henselian local
-[def-weil-pbc-henselian-terminology], let $S=\operatorname{Spec}A$, and write
-$k=A/\mathfrak m$. Let $s$ be the *canonical closed geometric point*
-$s:\Spec k^{\mathrm{alg}}\to S$ with $k^{\mathrm{alg}}$ an algebraic closure
-of $k$ (the convention of this statement: only in this normalization is the
-comparison below canonical; a geometric point with transcendental field of
-constants gives genuinely larger sections for general etale sheaves, e.g. for
-$F=\mathbf G_m$, so it is not used), and let $p:Z\to S$ be proper
-[def-weil-pbc-scheme-conventions]. For every etale sheaf $F$ on the small
-etale site [def-weil-pbc-etale-site] of $Z$, restriction gives
+[def-weil-pbc-henselian-terminology], let $S=\operatorname{Spec}A$, write
+$k=A/\mathfrak m$, and let $s:\Spec k^{\mathrm{alg}}\to S$ be the closed
+geometric point given by an algebraic closure $k^{\mathrm{alg}}$ of $k$. Let
+$p:Z\to S$ be proper [def-weil-pbc-scheme-conventions], with closed geometric
+fibre $Z_s=Z\times_S\Spec k^{\mathrm{alg}}$ and projection $a:Z_s\to Z$. Let
+$\Lambda$ be a commutative ring. For every etale sheaf $F$ of $\Lambda$-modules
+on the small etale site [def-weil-pbc-etale-site] of $Z$, in particular for every
+etale abelian sheaf [def-weil-pbc-etale-sheaves], the pullback of global
+sections [def-weil-pbc-finite-section-pullback] along $a$
 
 $$
- \Gamma(Z,F)\xrightarrow{\sim}\Gamma(Z_s,F|_{Z_s}),
- \qquad\text{equivalently}\quad
- \Gamma(Z,F)\xrightarrow{\sim}\Gamma(Z_0,F|_{Z_0})
+ a^\sharp:\Gamma(Z,F)\xrightarrow{\sim}\Gamma(Z_s,a^{-1}F)
 $$
 
-with $Z_0=Z\times_S\Spec k$ (the identification of $Z_s$ with $Z_0$ being the
-universal homeomorphism of the proof). This isomorphism is natural in $F$ and
-in finite pullback over $S$.
+is an isomorphism. (The choice of the algebraic closure matters: a geometric
+point whose field has transcendental elements over $k$ gives larger sections
+in general, for instance for $F=\mathbf G_m$ on a point.)

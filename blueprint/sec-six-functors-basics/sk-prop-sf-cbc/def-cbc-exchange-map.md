@@ -3,7 +3,7 @@ id = "def-cbc-exchange-map"
 kind = "definition"
 title = "Compact-support exchange map"
 lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactificationPlusBaseChangeMap", "AlgebraicGeometry.Etale.rightDerivedLowerShriekPlusBaseChangeMap", "AlgebraicGeometry.ProEtale.rightDerivedLowerShriekOfCompactificationBaseChangeMap", "AlgebraicGeometry.CompactSupportFormalism.shriekBaseChange", "AlgebraicGeometry.CompactSupportFormalism.lowerShriekBaseChange"]
-order = 1887
+order = 2677
 uses = ["cor-cbc-derived-extension-zero-base-change", "def-cbc-compact-support-square", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange"]
 +++
 Let $\square$ be a

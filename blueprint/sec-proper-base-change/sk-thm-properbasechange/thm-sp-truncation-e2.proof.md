@@ -17,3 +17,10 @@ shows $D^{0,n}=H^n(Rv\tau_{\leq n}K)=H^n(RvK)$. The hypotheses and the
 abutment identification of [thm-sp-half-plane-convergence] therefore hold. In
 particular the entries stabilize for $r>\max(q-a+1,p)$, and the stated finite
 filtration is the one constructed there.
+
+For the étale special case, the first sequence is the theorem for $v=f_*$
+on $\operatorname{Ab}(X_{\Et})$ ([def-sp-etale-dictionary]). The second is the
+theorem for $v=f'_*$ applied to $g'^{-1}K$: the inverse image $g'^{-1}$ is
+exact, so $\mathcal H^q(g'^{-1}K)=g'^{-1}\mathcal H^q(K)$, which vanishes for
+$q<a$, and $g'^{-1}\tau_{\leq q}K=\tau_{\leq q}g'^{-1}K$. This gives the
+displayed ${E'}_2$-page and filtration.

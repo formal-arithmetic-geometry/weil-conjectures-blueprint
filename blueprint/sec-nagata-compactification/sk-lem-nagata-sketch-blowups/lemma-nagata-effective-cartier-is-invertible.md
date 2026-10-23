@@ -2,7 +2,7 @@
 id = "lemma-nagata-effective-cartier-is-invertible"
 kind = "lemma"
 title = "An effective Cartier ideal is invertible"
-order = 106
+order = 224
 lean = ["AlgebraicGeometry.isEffectiveCartierCenter_iff_isInvertible_ker"]
 uses = ["def-nagata-invertible-ideal"]
 +++

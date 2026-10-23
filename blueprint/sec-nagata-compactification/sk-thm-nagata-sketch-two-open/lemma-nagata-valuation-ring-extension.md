@@ -2,7 +2,7 @@
 id = "lemma-nagata-valuation-ring-extension"
 kind = "lemma"
 title = "Extension of a valuation ring to a field extension, [stacks-project]"
-order = 288
+order = 380
 lean = ["ValuationSubring.exists_comap_eq"]
 +++
 Let $A$ be a valuation ring with fraction field $K$, and let

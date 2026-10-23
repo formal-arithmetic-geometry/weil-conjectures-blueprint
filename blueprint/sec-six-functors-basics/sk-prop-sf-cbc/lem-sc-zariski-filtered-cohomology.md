@@ -3,7 +3,7 @@ id = "lem-sc-zariski-filtered-cohomology"
 kind = "lemma"
 title = "Filtered colimits on a Noetherian Zariski site"
 lean = ["TopCat.Sheaf.preservesColimitsOfShape_functorH"]
-order = 1908
+order = 2690
 uses = ["def-sc-zariski-cohomology", "def-sc-zariski-site", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-cohomology-filtered-colimit", "thm-weil-pbc-hypercover-cohomology"]
 +++
 Let $X$ be a Noetherian

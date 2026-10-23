@@ -2,7 +2,7 @@
 id = "p-dl-a1-exact"
 kind = "theorem"
 title = "Exactness at a fixed pure weight"
-order = 3128
+order = 4016
 uses = ["d-real-setup", "def-weil-derived-direct-image", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-a1-local-boundary-duality", "lem-a1-spectrum-exact-sequence", "lem-fix-weil-operations", "lem-tw-dual-negation", "lem-wf-boundary-semicontinuity", "lem-wf-tate-twist-frobenius", "p-linear-spectra", "prop-weil-open-closed-recollement-adjunctions", "rem-dl-a1-conventions"]
 tags = ["latex:proposition"]
 lean = ["AlgebraicGeometry.shortExact_map_directImage"]

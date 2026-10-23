@@ -2,8 +2,9 @@
 id = "def-coefficient-twists-detailed"
 kind = "definition"
 title = "Coefficient Tate twists"
-order = 1864
-uses = ["sk-def-sp-tate-twist", "sk-def-sfb-pulled-back-coefficients", "sk-prop-sfb-qlbar-colimit-x", "def-weil-derived-tensor", "def-weil-pbc-proetale-site"]
+order = 1237
+uses = ["det-def-sfb-pulled-back-coefficients", "det-prop-sfb-qlbar-colimit-x-invert-ell", "def-weil-derived-tensor", "def-weil-pbc-proetale-site"]
+lean = ["AlgebraicGeometry.ProEtale.rootsOfUnitySheaf", "AlgebraicGeometry.ProEtale.tateModule", "AlgebraicGeometry.ProEtale.tateTwistOne", "AlgebraicGeometry.ProEtale.tateTwist", "AlgebraicGeometry.ProEtale.tateTwistDerived", "AlgebraicGeometry.ProEtale.tateTwistFunctor"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$ with uniformizer $\pi_E$, an
 integer $n\in\mathbf Z_{\geq1}$, and a scheme $S$ on which $\ell$ is
@@ -20,8 +21,8 @@ $$
 For every coefficient ring
 $\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, with $A_{E,n}=\mathcal O_E/\pi_E^n$,
 the coefficient sheaf is the pulled-back condensed ring
-$\Lambda_S=p_S^*\Lambda$ of [sk-def-sfb-pulled-back-coefficients]. The twists
-$\Lambda(1)_S$ are those of [sk-def-sp-tate-twist]:
+$\Lambda_S=p_S^*\Lambda$ of [det-def-sfb-pulled-back-coefficients]. The twists
+$\Lambda(1)_S$ are
 
 $$
  A_{E,n}(1)_S=\mu_{\ell^r,S}\otimes_{\mathbf Z/\ell^r\mathbf Z}(A_{E,n})_S
@@ -35,12 +36,14 @@ the first independent of $r$ by the Kummer maps $u\mapsto u^\ell$, and
 $$
  E(1)_S=\mathcal O_E(1)_S\otimes_{\mathcal O_{E,S}}E_S,
  \qquad
- \Qlb(1)_S=\operatorname*{colim}_{E}E(1)_S,
+ \Qlb(1)_S=\overline{\mathbf Q}_{\ell,S}\otimes_{\mathbf Z_{\ell,S}}\mathbf Z_\ell(1)_S,
 $$
 
-using $E_S=\mathcal O_{E,S}[1/\ell]$ and
-$\overline{\mathbf Q}_{\ell,S}=\operatorname{colim}_EE_S$ from
-[sk-prop-sfb-qlbar-colimit-x]. Each $\Lambda(1)_S$ is an invertible
+using $E_S=\mathcal O_{E,S}[1/\ell]$ from [det-prop-sfb-qlbar-colimit-x-invert-ell]. Here
+$\mathbf Z_\ell(1)_S=\varprojlim_r\mu_{\ell^r,S}$ is the limit, in the category of
+$\mathbf Z_{\ell,S}$-modules, of the free $\mathbf Z_{\ell,S}$-modules
+$\mathbf Z_{\ell,S}\otimes\mu_{\ell^r,S}$ along the maps induced by $u\mapsto u^\ell$, and
+$\Qlb(1)_S$ is its extension of scalars along $\mathbf Z_{\ell,S}\to\overline{\mathbf Q}_{\ell,S}$. Each $\Lambda(1)_S$ is an invertible
 $\Lambda_S$-module, locally isomorphic to $\Lambda_S$. Define the twist for
 every $m\in\mathbf Z$ by
 

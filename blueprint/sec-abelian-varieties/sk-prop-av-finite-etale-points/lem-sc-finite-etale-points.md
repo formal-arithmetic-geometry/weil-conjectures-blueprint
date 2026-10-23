@@ -3,7 +3,7 @@ id = "lem-sc-finite-etale-points"
 kind = "lemma"
 title = "Points of finite etale group schemes"
 lean = ["AlgebraicGeometry.card_points_eq_finrankΓ", "AlgebraicGeometry.bijective_toUnit_comp"]
-order = 592
+order = 607
 uses = ["def-sc-group-scheme", "lem-sc-finite-etale-algebra-criterion"]
 +++
 Let $G$ be a finite etale group

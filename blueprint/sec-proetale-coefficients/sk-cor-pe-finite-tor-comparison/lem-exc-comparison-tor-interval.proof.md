@@ -1,8 +1,9 @@
 +++
 kind  = "proof"
 of    = "lem-exc-comparison-tor-interval"
+uses  = ["lem-sf-proetale-constructible-origin"]
 +++
-We record the bounded-flat-model argument. If $K$ has
+*(1).* We record the bounded-flat-model argument. If $K$ has
 Tor amplitude $[a,b]$, take a bounded-above flat
 resolution $P$ with $P^q=0$ for $q>b$.
 Such a resolution is constructed by free module sheaves
@@ -25,9 +26,11 @@ pullback is still flat. Exactness in
 [prop-weil-pbc-site-comparison-finite-level] makes it
 a representative of $\nu_T^*K$. Tensoring this bounded
 flat complex with any pro-etale module sheaf gives no
-cohomology outside $[a,b]$, proving one implication.
+cohomology outside $[a,b]$, proving the first assertion.
+If $K$ is moreover bounded constructible, then $\nu_T^*K$ is bounded
+constructible on $T_{\Proet}$ by [lem-sf-proetale-constructible-origin].
 
-For the converse, testing $\nu_T^*K$ with the coefficient
+*(2).* For the converse, testing $\nu_T^*K$ with the coefficient
 ring first gives its cohomological bound $[a,b]$.
 Exactness of $\nu_T^*$ and the sheaf unit isomorphism
 in [prop-weil-pbc-site-comparison-finite-level] make

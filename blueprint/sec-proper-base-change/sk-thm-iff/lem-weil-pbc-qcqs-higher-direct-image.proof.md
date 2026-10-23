@@ -29,5 +29,5 @@ $q$-th cohomology sheaf of $u_*I^\bullet$, because sheafification is exact
 formation of cohomology of a complex of presheaves; this is the first
 assertion. Applying the same computation in every degree to a K-injective
 resolution of a bounded-below complex $K\in\Dplus(U_{\Et})$ in place of $F$,
-which is legitimate by [def-weil-pbc-kinjective-resolutions], gives the
+which is legitimate by [def-sp-kinjective-bridge], gives the
 second assertion.

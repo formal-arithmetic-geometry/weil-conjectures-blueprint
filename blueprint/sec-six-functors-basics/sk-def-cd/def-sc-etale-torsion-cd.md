@@ -3,7 +3,7 @@ id = "def-sc-etale-torsion-cd"
 kind = "definition"
 title = "Etale torsion cohomological dimension bound"
 lean = ["AlgebraicGeometry.Scheme.HasTorsionCohomologicalDimensionLE"]
-order = 1898
+order = 2120
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves"]
 +++
 For a scheme $X$ and an integer $c\geq0$, write

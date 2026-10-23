@@ -1,24 +1,30 @@
 +++
 kind  = "proof"
 of    = "sk-thm-dl-general-sheaf"
-uses = ["sk-l-dl-general-composition", "sk-l-dl-general-excision", "sk-l-dl-general-quasifinite", "sk-p-dl-general-relative-line"]
 +++
-First prove the assertion for every affine-line projection
-$\pi_0:\mathbf A^1_{Y_0}\to Y_0$, by Noetherian induction on the base.
-On a dense open of each integral component, stratify the source and
-use a mixed filtration to reduce to pure sheaves lisse on their strata.
-A stratum dominating $Y_0$ is either an open in the relative line or
-has generic relative dimension zero. After shrinking $Y_0$, the first
-case is [sk-p-dl-general-relative-line] and the second is
-[sk-l-dl-general-quasifinite]. Nondominating strata disappear on this
-open; the discarded part of the base is covered by induction.
-Open–closed reduction restores the strata and filtrations.
+We first show that the asserted property is stable under composition.
+For $X_0\xrightarrow{h}Z_0\xrightarrow{g}Y_0$, consider the Leray
+spectral sequence for compact supports,
 
-For general $f_0$, use Noetherian induction and finite affine
-stratifications of source and target. Reduce to a dominant affine map
-of integral schemes, replacing the target by the closure of the image
-when necessary. By [sk-l-dl-general-normalization], its restriction
-over a dense open factors through a finite map and successive
-affine-line projections. The quasi-finite and composition lemmas apply
-to this factorization. The complements have smaller support and are
-restored by [sk-l-dl-general-excision]. This proves the sheaf assertion.
+$$
+ E_2^{a,b}=R^ag_!(R^bh_!F)\ \Longrightarrow\ R^{a+b}(gh)_!F.
+$$
+
+It is Frobenius-equivariant by the naturality of the truncation tower
+and of the composition isomorphism for direct image with proper
+support ([sk-thm-sf-comp-composition]). If both maps have the asserted
+property, then $E_2^{a,b}$ has weights at most $w+a+b$. Each later
+page is a subquotient, and the abutment filtration, which is finite
+because the operations preserve bounded constructible complexes
+([sk-thm-sf-ctf-stability]), has the same bound in each total degree.
+
+Now apply [sk-l-dl-general-normalization], refining the
+partitions to filtrations by open and closed pieces. On every refined
+source piece, the first map is separated and quasi-finite, and so it
+has the property by [sk-l-dl-general-quasifinite]; each projection of
+a relative affine line has it by [sk-prop-wgen-relative-line].
+By the composition argument, the map from the piece to $V$ has the
+property. Gluing on the source and on the target, with the exact
+sequence in each degree (the localization observation in the proof of
+[sk-prop-wgen-relative-line]), we reassemble the finite partitions. Since restrictions of $F$ keep
+its bound, this proves the assertion on $Y_0$.

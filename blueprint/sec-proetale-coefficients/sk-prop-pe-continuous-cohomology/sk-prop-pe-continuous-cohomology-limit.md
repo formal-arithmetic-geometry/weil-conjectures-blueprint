@@ -2,7 +2,9 @@
 id = "det-pe-continuous-cohomology-limit"
 kind = "lemma"
 title = "Sections of a limit with epimorphic transitions"
-uses = ["sk-prop-pe-replete", "sk-prop-pe-milnor"]
+lean = ["AlgebraicGeometry.ProEtale.isHomotopyLimit_mapCone_Q_of_epi", "CategoryTheory.Pretriangulated.IsHomotopyLimit.map", "AlgebraicGeometry.Scheme.ProEt.shortExact_telescope"]
+order = 1087
+uses = ["det-pe-replete-epimorphism", "det-pe-milnor-epimorphic"]
 +++
 Let $X$ be a scheme and $(F_n)_{n\geq1}$ an inverse system of abelian sheaves on
 $X_{\Proet}$ with epimorphic transition maps, and $F=\varprojlim_nF_n$. Then the

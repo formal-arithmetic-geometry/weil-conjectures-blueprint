@@ -2,6 +2,7 @@
 id = "det-sp-qbar-adjunction"
 kind = "proposition"
 title = "The $\\overline{\\mathbf Q}_\\ell$ purity adjunction and purity map"
+order = 3036
 uses = ["det-sp-qbar-finite-descent", "det-sp-rational-adjunction", "det-sp-field-extension-towers", "det-sp-unique-right-adjoint"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$. For

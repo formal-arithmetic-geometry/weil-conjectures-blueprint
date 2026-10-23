@@ -2,6 +2,7 @@
 id = "det-def-sfb-base-change-morphism-adjunct"
 kind = "lemma"
 title = "Adjoint description of $\\mathrm{BC}_{sq}$"
+order = 2589
 uses = ["det-def-sfb-base-change-morphism-bc"]
 +++
 In the situation of [det-def-sfb-base-change-morphism-bc], write $\varepsilon'$ for the counit of

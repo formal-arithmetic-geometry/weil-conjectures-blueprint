@@ -2,7 +2,7 @@
 id = "sk-def-sf-exchanges"
 kind = "definition"
 title = "Exchange and projection transformations, typed"
-order = 1701
+order = 2645
 lean = ["AlgebraicGeometry.Etale.baseChange", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus", "AlgebraicGeometry.Etale.derivedBaseChangeMap", "AlgebraicGeometry.Etale.rightDerivedLowerShriekBaseChangeMap", "AlgebraicGeometry.Etale.projectionMap"]
 tags = ["sketch"]
 +++
@@ -29,7 +29,7 @@ the first between functors $D^+(X,\Lambda)\to D^+(Y',\Lambda)$, defined as the
 composite of the unit of $Lf'^*\dashv Rf'_*$, the pullback comparison
 $Lf'^*Lg^*\simeq Lg'^*Lf^*$ and the counit of $Lf^*\dashv Rf_*$, and the second
 between functors on the ambient categories on which $Rf_!,Rf'_!$ are defined
-([sk-def-sf-operations] (iv); at the adic stages, on the derived-complete
+([det-def-sf-operations] (iv); at the adic stages, on the derived-complete
 pro-étale complexes, it is the completed exchange
 $\operatorname{Ex}^{\mathrm{comp}}_!$ through the completed pullbacks
 $Lg^*_{\mathrm{comp}}$). For $K\in\Dbc(X,\Lambda)$ and

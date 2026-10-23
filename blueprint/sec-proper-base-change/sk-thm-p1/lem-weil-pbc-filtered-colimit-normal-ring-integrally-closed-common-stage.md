@@ -1,7 +1,8 @@
 +++
 id = "lem-weil-pbc-filtered-colimit-normal-ring-integrally-closed-common-stage"
 kind = "lemma"
-title = "Integrally closedness from a localization cocone."
+title = "A filtered colimit of integrally closed domains is integrally closed"
 lean = ["CommRingCat.integrallyClosed_of_localization_cocone"]
+order = 1765
 +++
-Given a filtered cocone whose objects are the localizations at contracted primes and whose cocone point is a specified ring, if every object localization is integrally closed then the cocone point ring is integrally closed.
+Let $I$ be a small filtered category, $i\mapsto D_i$ a functor from $I$ to commutative rings such that every $D_i$ is an integrally closed domain, and let $R$ be a commutative ring which is the vertex of a colimit cocone over this diagram. Then $R$ is integrally closed.

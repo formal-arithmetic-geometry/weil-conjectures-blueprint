@@ -2,8 +2,8 @@
 id = "lem-coef-normalized-dvr-effectivity"
 kind = "lemma"
 title = "Effectivity of a normalized tower"
-order = 2476
-uses = ["sk-def-sp-normalized-towers", "det-sp-coefficient-towers-abelian", "sk-def-pe-derived-completion", "sk-prop-pe-milnor", "sk-prop-sfb-qlbar-colimit-x"]
+order = 2988
+uses = ["sk-def-sp-normalized-towers", "det-sp-coefficient-towers-abelian", "def-pe-derived-complete", "sk-prop-pe-milnor", "sk-prop-sfb-qlbar-colimit-x"]
 +++
 Let $E/\Ql$ be finite, $T$ a scheme, and $\pi_E\in\{\pi_E,\ell\}$; put
 $A_n=\mathcal O_E/\pi_E^n$, so that $(A_n)_T=\mathcal O_{E,T}/\pi_E^n$. Let
@@ -27,6 +27,6 @@ M\otimes^{\mathbf L}_{\mathcal O_{E,T}}A_n\xrightarrow{\ \sim\ }M_n
 $$
 
 are isomorphisms, compatible with the reduction maps. In particular $M$ is
-derived $\pi_E$-complete in the sense of [sk-def-pe-derived-completion], and
+derived $\pi_E$-complete in the sense of [def-pe-derived-complete], and
 $(M_n)_n$ is isomorphic to the tower of reductions of $M$. No
 constructibility or boundedness is required for this effectivity assertion.

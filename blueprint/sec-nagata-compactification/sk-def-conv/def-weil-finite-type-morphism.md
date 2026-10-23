@@ -2,7 +2,7 @@
 id = "def-weil-finite-type-morphism"
 kind = "definition"
 title = "Morphisms of finite type"
-order = 6
+order = 7
 lean = ["AlgebraicGeometry.LocallyOfFiniteType", "AlgebraicGeometry.QuasiCompact"]
 +++
 A morphism of schemes $f:X\to Y$ is *locally of finite type* if, for every

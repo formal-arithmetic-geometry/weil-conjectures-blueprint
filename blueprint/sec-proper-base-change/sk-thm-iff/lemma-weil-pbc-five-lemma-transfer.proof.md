@@ -15,8 +15,4 @@ $g^{-1}R^qf_*F$ are
 $g^{-1}R^{q-1}f_*F_2\to g^{-1}R^qf_*F_1\to g^{-1}R^qf_*F\to g^{-1}R^qf_*F_2\to
 g^{-1}R^{q+1}f_*F_1$, and similarly for the target; if the exchange maps at
 $F_1$ and $F_2$ are isomorphisms in all degrees, the five lemma shows that
-$\Ex^q_{\square,F}$ is an isomorphism. The other two cases are the same
-argument with the five consecutive terms centred at $g^{-1}R^qf_*F_1$
-(neighbours $R^{q-1}f_*F$, $R^{q-1}f_*F_2$, $R^qf_*F$, $R^qf_*F_2$) or at
-$g^{-1}R^qf_*F_2$ (neighbours $R^qf_*F_1$, $R^qf_*F$, $R^{q+1}f_*F_1$,
-$R^{q+1}f_*F$).
+$\Ex^q_{\square,F}$ is an isomorphism.

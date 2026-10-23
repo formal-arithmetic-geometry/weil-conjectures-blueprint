@@ -2,10 +2,11 @@
 id = "def-sf-pairing"
 kind = "definition"
 title = "Derived Poincare pairing"
-order = 2529
+order = 3312
 uses = ["def-sf-cup", "def-sf-datum", "def-sf-orientation", "def-sf-pf", "def-weil-exceptional-inverse-image"]
 +++
-In the setting of [def-sf-datum] and [def-sf-orientation], let
+In the setting of [def-sf-datum] and [def-sf-orientation], assume that $k$
+is separably closed, let
 $X$ be smooth, separated of finite type and geometrically connected of pure
 dimension $d$ over $k$, with structure morphism
 $a_X:X\to s=\operatorname{Spec}k$ (whose exceptional inverse image is the

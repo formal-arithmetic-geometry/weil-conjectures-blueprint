@@ -2,7 +2,7 @@
 id = "lemma-nagata-compactification-base-change"
 kind = "lemma"
 title = "Base change of a compactification"
-order = 84
+order = 116
 lean = ["AlgebraicGeometry.HasCompactification.of_isPullback"]
 uses = ["def-nagata-compactifiable"]
 +++

@@ -2,8 +2,8 @@
 id = "def-pur-tate-datum"
 kind = "definition"
 title = "Strict Weil data and the Tate datum"
-order = 2580
-uses = ["sk-def-sf-weil-complexes", "sk-def-sf-setting", "sk-def-sp-tate-twist", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-scheme-geometric-frobenius", "def-pur-smooth-pullback-exchange", "def-sbc-smooth-morphisms", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
+order = 3070
+uses = ["sk-def-sf-weil-complexes", "def-sf-setting", "sk-def-sp-tate-twist", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-scheme-geometric-frobenius", "def-pur-smooth-pullback-exchange", "def-sbc-smooth-morphisms", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions]), fix the
 geometric-Frobenius datum of [def-pur-scheme-geometric-frobenius]
@@ -18,7 +18,7 @@ $$
 that is, a Weil structure in the sense of [sk-def-sf-weil-complexes], with
 $\operatorname{Fr}_Y=g_{Y,\gamma}$. The
 definition is the same for every $\Lambda$: $D^b_{ctf}(Y,\Lambda)$ is the
-condensed category of [sk-def-sf-setting], and no coefficient case is reduced
+condensed category of [def-sf-setting], and no coefficient case is reduced
 to another. Its scheme-Frobenius form is
 
 $$

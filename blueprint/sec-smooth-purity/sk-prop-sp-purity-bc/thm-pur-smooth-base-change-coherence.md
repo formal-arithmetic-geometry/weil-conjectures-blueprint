@@ -3,7 +3,7 @@ id = "thm-pur-smooth-base-change-coherence"
 kind = "theorem"
 title = "Smooth base-change coherence"
 lean = ["AlgebraicGeometry.Etale.leftDerivedUpperStar_map_comp_smoothPullbackExchange_hom"]
-order = 2362
+order = 3047
 uses = ["cor-pur-vector-bundle-purity", "def-coefficient-twists-detailed", "def-exchange-projection", "def-pur-conventions", "def-pur-smooth-purity-map", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-coprojection", "lem-pur-diagonal-base-change", "lem-pur-smb-extraordinary", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance"]
 +++
 Work in the purity conventions of [def-pur-conventions], let

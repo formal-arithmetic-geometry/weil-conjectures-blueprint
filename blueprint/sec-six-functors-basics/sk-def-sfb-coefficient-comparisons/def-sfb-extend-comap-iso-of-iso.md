@@ -2,8 +2,8 @@
 id = "def-sfb-extend-comap-iso-of-iso"
 kind = "definition"
 title = "Restriction of scalars and extension of scalars along isomorphisms"
-order = 1731
-uses = ["sk-def-sfb-change-of-scalars"]
+order = 2605
+uses = ["det-def-sfb-change-of-scalars"]
 lean = ["CategoryTheory.Mod.extendScalarsComapIsoOfIsIso"]
 +++
 Let $\mathcal C$ be a braided monoidal closed category with equalizers and coequalizers in which
@@ -19,7 +19,7 @@ $$
 
 be a commutative square ($\psi\circ a=b\circ\varphi$) of morphisms of monoid objects, with $R$,
 $S$ commutative and $a$, $b$ isomorphisms. With $\operatorname{Res}$, $\operatorname{Ext}$ as in
-[sk-def-sfb-change-of-scalars], there is a natural isomorphism
+[det-def-sfb-change-of-scalars], there is a natural isomorphism
 
 $$
 \operatorname{Res}_\psi\circ\operatorname{Ext}_b\;\cong\;\operatorname{Ext}_a\circ

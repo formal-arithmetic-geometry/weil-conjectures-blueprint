@@ -2,8 +2,8 @@
 id = "sk-prop-sp-et-proet"
 kind = "proposition"
 title = "Étale and pro-étale finite coefficients"
-order = 1813
-uses = ["sk-prop-sf-existence", "sk-prop-sf-comparison"]
+order = 2872
+uses = ["sk-prop-sf-existence", "sk-prop-sf-comparison", "sk-prop-integral-criterion"]
 tags = ["sketch"]
 +++
 For finite admissible $A$, the category $\Dctf(T,A)\subset D(T_{\mathrm{proét}},A)$ is

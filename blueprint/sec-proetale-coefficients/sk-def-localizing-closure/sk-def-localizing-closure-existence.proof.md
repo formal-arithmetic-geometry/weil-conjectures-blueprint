@@ -3,14 +3,14 @@ kind  = "proof"
 of    = "det-def-localizing-closure-existence"
 +++
 (1) The category of $\Lambda_X$-modules is Grothendieck abelian
-([sk-prop-sfb-module-category]), so direct sums exist and are exact. In the homotopy
+([det-prop-sfb-module-category]), so direct sums exist and are exact. In the homotopy
 category $K(\Lambda_X)$ the termwise direct sum of complexes is the coproduct, and the
 termwise direct sum of mapping-cone triangles is the mapping-cone triangle of the direct
 sum. By exactness of direct sums, the acyclic complexes form a localizing subcategory of
 $K(\Lambda_X)$; for a Verdier quotient by a subcategory closed under coproducts, the quotient
 functor preserves coproducts (Neeman, *Triangulated categories*, Lemma 3.2.10). So
-$D(X_{\mathrm{proét}},\Lambda)$ has direct sums, computed termwise, and direct sums of
-distinguished triangles are distinguished.
+$D(X_{\mathrm{proét}},\Lambda)$ has direct sums, computed termwise; in particular direct sums of
+distinguished triangles are distinguished, which is used in (2).
 
 (2) Each condition (containing $0$ and $\mathcal S$, closure under isomorphisms, under shifts
 in both directions, under cones of morphisms between members, and under direct sums of

@@ -3,7 +3,7 @@ id = "lem-trf-correspondence-class"
 kind = "lemma"
 title = "The class of a correspondence"
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.correspondenceClassEquiv_curry_exceptionalMate", "AlgebraicGeometry.ProEtale.GeometricOperations.correspondenceClass_eq_curry_exceptionalMate", "AlgebraicGeometry.ProEtale.GeometricOperations.supportedClass_eq_rhomClass_comp", "AlgebraicGeometry.ProEtale.GeometricOperations.supportedClassHomEquiv", "AlgebraicGeometry.ProEtale.GeometricOperations.correspondenceClassEquiv", "AlgebraicGeometry.ProEtale.GeometricOperations.correspondenceClassEquiv_naturality_right", "AlgebraicGeometry.ProEtale.GeometricOperations.correspondenceClassEquiv_naturality_left", "AlgebraicGeometry.ProEtale.GeometricOperations.correspondenceClass", "AlgebraicGeometry.ProEtale.Correspondence.classEquiv", "AlgebraicGeometry.ProEtale.Correspondence.rhomClass", "AlgebraicGeometry.ProEtale.Correspondence.classEquiv_rhomClass"]
-order = 2622
+order = 3631
 uses = ["def-trf-admissibility", "def-trf-correspondence-between-pairs", "def-trf-supported-class", "def-weil-derived-pullback-tensor-hom", "prop-functor-package"]
 +++
 In the setting of [def-trf-correspondence-between-pairs], let

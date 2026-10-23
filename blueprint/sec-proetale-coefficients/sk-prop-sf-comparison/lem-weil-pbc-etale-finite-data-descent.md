@@ -2,7 +2,8 @@
 id = "lem-weil-pbc-etale-finite-data-descent"
 kind = "lemma"
 title = "Finite-presentation data at an inverse limit"
-order = 958
+order = 1021
+lean = ["AlgebraicGeometry.etale_finite_data_descent"]
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X=\varprojlim_iX_i$, where the $X_i$ are quasi-compact and

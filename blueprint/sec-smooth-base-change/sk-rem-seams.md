@@ -2,7 +2,7 @@
 id = "sk-rem-seams"
 kind = "remark"
 title = "The seams"
-order = 1445
+order = 2116
 tags = ["sketch"]
 +++
 *(i) The two lanes contradict (this is the whole proof):* a
@@ -11,7 +11,7 @@ with $R^qh_*(\Z/d\Z)\neq0$ ([sk-lem-universal-datum], from the
 counterexample chain anchored at the minimal-counterexample lemma
 `0F06`), while the curve-test lane ([sk-thm-vanishing])
 makes it zero. *(ii) The curve-estimate seam:*
-[sk-prop-ext-invariance] (the algebraically closed
+[sbc-thm-algebraically-closed-invariance] (the algebraically closed
 field-extension invariance) is the same input that computes the
 closed fibre of $\mathbb P^1$ in proper base change; it is used in
 [sk-thm-vanishing] at $q=1$ only, together with the torsor

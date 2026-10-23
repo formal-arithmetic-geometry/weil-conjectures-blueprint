@@ -2,6 +2,7 @@
 id = "det-lem-int-integral-heart-local-model"
 kind = "lemma"
 title = "Local models of integral constructible complexes and their cohomology"
+order = 2454
 uses = ["sk-lem-integral-models", "sk-def-sfb-constructible"]
 +++
 Let $K\in\Dbc(X,\mathcal O_E)$.

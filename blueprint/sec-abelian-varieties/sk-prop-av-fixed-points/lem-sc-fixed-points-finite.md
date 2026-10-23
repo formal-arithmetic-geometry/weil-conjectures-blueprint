@@ -3,7 +3,7 @@ id = "lem-sc-fixed-points-finite"
 kind = "lemma"
 title = "Fixed points of $p$-linear maps"
 lean = ["LinearMap.Frobenius.finite_fixedPoints", "LinearMap.Frobenius.natCard_fixedPoints_le"]
-order = 569
+order = 584
 +++
 Let $k$ be a field of characteristic $p>0$, $V$ a
 finite-dimensional $k$-vector space and $F:V\to V$ a

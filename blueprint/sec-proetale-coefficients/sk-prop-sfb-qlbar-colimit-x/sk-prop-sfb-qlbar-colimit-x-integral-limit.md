@@ -2,7 +2,8 @@
 id = "det-prop-sfb-qlbar-colimit-x-integral-limit"
 kind = "lemma"
 title = "$\\mathcal O_{E,X}$ is the limit of its finite levels"
-uses = ["sk-def-sfb-pullback-from-point", "sk-def-sfb-condensed-ring", "sk-def-sfb-pulled-back-coefficients"]
+order = 1233
+uses = ["det-def-sfb-pullback-from-point", "det-def-sfb-condensed-ring", "det-def-sfb-pulled-back-coefficients"]
 +++
 Let $E/\mathbf Q_\ell$ be finite with ring of integers $\cO_E$ and uniformizer $\pi_E$, and
 let $X$ be a scheme. For $n\ge1$ let $(\cO_E/\pi_E^n)_X$ be the constant sheaf of rings on
@@ -15,7 +16,7 @@ $(\cO_E/\pi_E^{n+1})_X\to(\cO_E/\pi_E^n)_X$ be the reduction maps.
    $$
    X[\cO_E]=\varprojlim_n\coprod_{\cO_E/\pi_E^n}X
    $$
-   of [sk-def-sfb-pullback-from-point] represents $\varprojlim_n(\cO_E/\pi_E^n)_X$ (limit
+   of [det-def-sfb-pullback-from-point] represents $\varprojlim_n(\cO_E/\pi_E^n)_X$ (limit
    of sheaves of sets).
 2. The underlying sheaf of sets of $\cO_{E,X}=p_X^*\underline{\cO_E}$ is represented by
    $X[\cO_E]$.

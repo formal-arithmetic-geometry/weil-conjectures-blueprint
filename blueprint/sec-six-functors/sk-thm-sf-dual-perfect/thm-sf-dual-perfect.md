@@ -3,8 +3,8 @@ id = "thm-sf-dual-perfect"
 kind = "theorem"
 title = "The dual of a perfect complex"
 lean = ["CategoryTheory.MonoidalClosed.ihomCurry_comp_map_ihomIsoIhomUnitTensor_hom", "CategoryTheory.MonoidalClosed.map_ihomIsoIhomUnitTensor_hom", "AlgebraicGeometry.ProEtale.verdierDualIsoDerivedDualTensor", "AlgebraicGeometry.ProEtale.whiskerLeft_verdierDualIsoDerivedDualTensor_hom_app_comp", "AlgebraicGeometry.ProEtale.isDualizable_verdierDual", "AlgebraicGeometry.ProEtale.isIso_toIhomIhomUnit", "AlgebraicGeometry.ProEtale.toIhomIhom_comp_verdierDualVerdierDualIso_hom", "AlgebraicGeometry.ProEtale.isIso_toIhomIhom_dualizingComplex", "AlgebraicGeometry.ProEtale.verdierDualEquivalenceOfIso"]
-order = 2522
-uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "cor-pur-finite-stage-smooth-dualizing-complex", "def-pod-conventions", "def-sf-datum", "def-sf-orientation", "def-weil-derived-pullback-tensor-hom", "lem-sf-hom-finite-projective", "lem-sf-twist-interchange", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
+order = 3367
+uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "cor-pur-finite-stage-smooth-dualizing-complex", "thm-pur-finite-reduction-of-purity", "def-pod-conventions", "def-sf-datum", "def-sf-orientation", "def-weil-derived-pullback-tensor-hom", "lem-sf-hom-finite-projective", "lem-sf-twist-interchange", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
 +++
 In the Poincare duality conventions of [def-pod-conventions] (an
 instance of the setting of [def-sf-datum], with $X$ smooth,
@@ -13,8 +13,8 @@ $K\in D^b_{ctf}(X,\Lambda)$ be perfect over $\Lambda_X$, at any
 admissible coefficient ring $\Lambda\in\{A_{E,n},\mathcal O_E,E,\overline{\mathbf Q}_\ell\}$.
 The smooth dualizing-complex identification
 $\eta_X:\omega_{X,\Lambda}\xrightarrow{\ \sim\ }\Lambda_X(d)[2d]$ of the
-purity chapter (the orientation of [def-sf-orientation] for $f=a_X$)
-and the twist interchange give a canonical isomorphism
+purity chapter (at the finite stage, the case $f=a_X$ of an orientation
+datum in the sense of [def-sf-orientation]) and the twist interchange give a canonical isomorphism
 
 $$
 \mathbb D_XK\xrightarrow{\ \sim\ }K^\vee(d)[2d],

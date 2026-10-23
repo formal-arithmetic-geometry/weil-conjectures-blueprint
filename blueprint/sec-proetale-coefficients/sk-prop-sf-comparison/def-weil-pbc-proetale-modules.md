@@ -2,7 +2,8 @@
 id = "def-weil-pbc-proetale-modules"
 kind = "definition"
 title = "Finite coefficients on the pro-etale site"
-order = 1301
+order = 1029
+lean = ["AlgebraicGeometry.Scheme.ProEt.topology", "DerivedCategory", "DerivedCategory.Plus", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructible"]
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-proetale-site"]
 +++
 For a finite discrete ring $\Lambda$, let $\Lambda_{T,\Proet}$ be the
@@ -13,7 +14,8 @@ $$
 $$
 
 on the small pro-etale site [def-weil-pbc-proetale-site]. Let
-$\Mod(T_{\Proet},\Lambda)$ be its abelian category of module sheaves and
+$\Mod(T_{\Proet},\Lambda)$ be its abelian category of module sheaves,
+equivalently the category of sheaves of $\Lambda$-modules on $T_{\Proet}$, and
 define
 
 $$

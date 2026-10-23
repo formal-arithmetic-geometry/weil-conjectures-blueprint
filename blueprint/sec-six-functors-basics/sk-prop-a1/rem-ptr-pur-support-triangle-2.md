@@ -2,7 +2,7 @@
 id = "rem-ptr-pur-support-triangle-2"
 kind = "remark"
 title = "Pointer to the properties of [def-pur-support-triangle]"
-order = 2295
+order = 2836
 uses = ["def-pur-support-triangle", "lem-pur-support-exact"]
 +++
 In the notation of [def-pur-support-triangle], the following holds. The map

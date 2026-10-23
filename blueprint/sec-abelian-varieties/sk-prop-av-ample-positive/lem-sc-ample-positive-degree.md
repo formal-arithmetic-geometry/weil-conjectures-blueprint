@@ -3,7 +3,7 @@ id = "lem-sc-ample-positive-degree"
 kind = "lemma"
 title = "Ample modules on proper curves have positive degree"
 lean = ["AlgebraicGeometry.Scheme.Hom.degree_pos_of_isAmple"]
-order = 556
+order = 572
 uses = ["def-sc-ample", "def-sc-curves", "def-sc-hilbert-degree", "lem-sc-hilbert-polynomial"]
 +++
 Let $k$ be algebraically closed, $C$ a proper curve over $k$ of

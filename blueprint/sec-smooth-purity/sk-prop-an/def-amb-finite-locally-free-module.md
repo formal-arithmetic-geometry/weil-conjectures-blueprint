@@ -2,7 +2,7 @@
 id = "def-amb-finite-locally-free-module"
 kind = "definition"
 title = "Locally free modules of constant finite rank"
-order = 2311
+order = 2923
 uses = ["pqf-def-coherent"]
 +++
 An $\mathcal O_S$-module $\mathcal E$ on a scheme $S$ is

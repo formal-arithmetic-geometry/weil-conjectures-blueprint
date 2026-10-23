@@ -3,7 +3,7 @@ id = "sk-def-curve"
 kind = "definition"
 title = "Curves and genus"
 lean = ["AlgebraicGeometry.IsCurve", "AlgebraicGeometry.IsConnectedCurve", "AlgebraicGeometry.Scheme.Hom.genus"]
-order = 528
+order = 444
 tags = ["sketch"]
 +++
 Let $k$ be a field (in this chapter algebraically closed). A *curve*

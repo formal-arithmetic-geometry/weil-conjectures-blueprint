@@ -2,7 +2,7 @@
 id = "sk-prop-sf-pf-coherence"
 kind = "proposition"
 title = "Coherence of the projection formula"
-order = 2410
+order = 3343
 uses = ["sk-lem-sf-mate", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-reduction", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale"]
 lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_id", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp", "AlgebraicGeometry.Etale.hasProjectionFormula_comp", "AlgebraicGeometry.Etale.hasProjectionFormulaOfCompactification_iff"]
 tags = ["sketch"]
@@ -33,5 +33,5 @@ $Lg'^*Lf^*\cong Lf'^*Lg^*$ (the projection formula commutes with base
 change; SGA 4, XVII, §5.2);
 and it is compatible with finite reduction, scalar extension and the
 pro-étale realization. Every one of these assertions is an identity between
-natural transformations of the functors typed in [sk-def-sf-operations] and
+natural transformations of the functors typed in [det-def-sf-operations] and
 [sk-def-sf-exchanges], at the categories written there.

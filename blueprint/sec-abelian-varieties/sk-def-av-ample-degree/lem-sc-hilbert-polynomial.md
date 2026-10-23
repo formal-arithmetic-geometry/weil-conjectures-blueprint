@@ -3,7 +3,7 @@ id = "lem-sc-hilbert-polynomial"
 kind = "lemma"
 title = "The Hilbert polynomial"
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_polynomial_hilbertFunction"]
-order = 447
+order = 464
 +++
 Let $X$ be a proper scheme of dimension $g$ over a field $k$
 and $\mathcal M$ an ample invertible

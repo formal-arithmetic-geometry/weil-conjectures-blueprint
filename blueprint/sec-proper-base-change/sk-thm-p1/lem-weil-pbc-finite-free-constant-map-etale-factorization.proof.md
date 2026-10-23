@@ -3,17 +3,4 @@ kind = "proof"
 of = "lem-weil-pbc-finite-free-constant-map-etale-factorization"
 uses = ["def-constructible-constant", "def-weil-pbc-geometric-stalks"]
 +++
-If n = 0, take the identity etale neighbourhood and the unique zero map.
-For n > 0, write the standard basis of Λ^(Fin n).  The definition of the geometric
-stalk is a filtered colimit over pointed etale neighbourhoods, so each image under l
-is represented by a section of F on one such neighbourhood.  Cofilteredness of pointed
-etale neighbourhoods gives one common refinement for the finitely many representatives.
-The equality hl says that the two resulting germs in G agree.  Equality in the same
-filtered colimit therefore gives a further common refinement on which the equalities
-hold as sections.  The finite free universal property assembles these sections into a
-Λ-linear map from Λ^(Fin n) to sections of F on that neighbourhood.  The
-constant-sheaf/global-sections adjunction, together with the pullback comparison for
-the constant sheaf, turns this linear map into β.  Checking on the standard basis gives
-β ≫ upperStar(V.hom).map φ = upperStar(V.hom).map α.  The chosen pointed neighbourhood
-contains x, so x lies in the range of V.hom.  This argument uses no monicity of φ and
-works for the zero ring as well. ([def-weil-pbc-geometric-stalks], `AlgebraicGeometry.Scheme.instIsCofilteredElementsEtaleCompOverForgetObjOppositeFunctorTypeCoyonedaOpMk` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Sites/EtalePoint.lean)), `CategoryTheory.constantSheafAdj` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/ConstantSheaf.lean)), [def-constructible-constant]).
+If $n=0$, take $V=X$ and the zero map. For $n>0$, let $e_1,\dots,e_n$ be the standard basis of $\Lambda^n$. By the definition of geometric stalks [def-weil-pbc-geometric-stalks] as a filtered colimit over pointed etale neighbourhoods of $\bar x$, each $l(e_m)\in F_{\bar x}$ is represented by a section of $F$ on some pointed etale neighbourhood; since pointed etale neighbourhoods form a cofiltered category, one common neighbourhood carries representatives $f_1,\dots,f_n$. The equality $\varphi_{\bar x}\circ l=\alpha_{\bar x}$ says that the germs of $\varphi(f_m)$ and of $\alpha(e_m)$ in $G_{\bar x}$ agree, so on a further common refinement $v:V\to X$ these sections agree. The universal property of the free module $\Lambda^n$ gives a $\Lambda$-linear map $\Lambda^n\to F(V)$, $e_m\mapsto f_m|_V$, and the adjunction between constant sheaves [def-constructible-constant] and global sections, together with the identification of the pullback of a constant sheaf, turns it into $\beta:v^{-1}Q\to v^{-1}F$. Checking on the basis gives $v^{-1}\varphi\circ\beta=v^{-1}\alpha$. The neighbourhood is pointed over $\bar x$, so $x$ lies in the image of $v$. No monicity of $\varphi$ is used, and the zero ring is allowed.

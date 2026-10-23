@@ -1,9 +1,9 @@
 +++
 kind  = "proof"
 of    = "prop-sfb-module-left-derived-upper-star-comp"
-uses = ["prop-sfb-module-left-derived-upper-star-levelwise", "sk-prop-sfb-module-pullback-exact"]
+uses = ["prop-sfb-module-left-derived-upper-star-levelwise", "det-prop-sfb-module-pullback-exact-main"]
 +++
-All pullbacks of module objects are exact ([sk-prop-sfb-module-pullback-exact]), so
+All pullbacks of module objects are exact ([det-prop-sfb-module-pullback-exact-main]), so
 each total left derived functor involved is the levelwise functor
 ([prop-sfb-module-left-derived-upper-star-levelwise]). An isomorphism of exact
 functors $(g\circ f)^*\cong f^*\circ g^*$ ([def-sfb-module-upper-star-comp]) induces

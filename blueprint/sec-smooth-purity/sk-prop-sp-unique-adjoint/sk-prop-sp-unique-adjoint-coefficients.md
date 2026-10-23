@@ -2,6 +2,7 @@
 id = "det-sp-unique-adjoint-coefficients"
 kind = "lemma"
 title = "Right adjoints inherit the coefficient comparisons"
+order = 3028
 uses = ["det-sp-unique-right-adjoint"]
 +++
 Let $\Lambda\to\Lambda'$ be a coefficient extension (subscripts denoting

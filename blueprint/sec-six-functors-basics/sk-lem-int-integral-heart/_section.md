@@ -2,7 +2,7 @@
 id = "sk-lem-int-integral-heart"
 kind = "lemma"
 title = "Structure of integral constructible complexes"
-order = 1567
+order = 2453
 uses = ["sk-def-sfb-constructible", "sk-lem-integral-models"]
 tags = ["sketch"]
 +++

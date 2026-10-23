@@ -2,7 +2,7 @@
 id = "def-nagata-affine-gluing-coefficient-stage"
 kind = "definition"
 title = "Coefficient stage of an affine gluing presentation"
-order = 341
+order = 33
 lean = ["AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.coeffSubring", "AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.witnesses"]
 uses = ["def-nagata-finite-affine-gluing-presentation"]
 +++

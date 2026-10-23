@@ -2,7 +2,7 @@
 id = "lem-fin-lisse-field-dual"
 kind = "lemma"
 title = "Duals of complexes with finite locally constant cohomology"
-order = 1977
+order = 2736
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "lemma-weil-pbc-geometric-stalk-conservative", "thm-sp-truncation-e2"]
 +++
 Let $\lambda=\mathbf F_\ell$, let $T$ be a scheme on which

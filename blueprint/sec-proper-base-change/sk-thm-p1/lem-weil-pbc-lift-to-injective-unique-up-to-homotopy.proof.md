@@ -3,8 +3,8 @@ kind = "proof"
 of = "lem-weil-pbc-lift-to-injective-unique-up-to-homotopy"
 uses = ["def-sp-abelian", "def-sp-injective-resolutions", "def-weil-abstract-derived-category"]
 +++
-Use the bounded-below hypothesis to instantiate `IsStrictlyGE`, then Mathlib proves a complex with injective terms is K-injective via `isKInjective_of_injective`. ([def-sp-injective-resolutions], `CochainComplex.isKInjective_of_injective` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Algebra/Homology/HomotopyCategory/KInjective.lean))).
+Since $I^\bullet$ is bounded below with injective terms, it is K-injective: every morphism from an acyclic complex to $I^\bullet$ is null-homotopic. ([def-sp-injective-resolutions]).
 
-Pass the given homotopy through the derived localization using `DerivedCategory.Q_map_eq_of_homotopy`. Since α is a quasi-isomorphism, its localized map is an isomorphism; cancel it to show the localized maps of β₁ and β₂ agree. ([def-sp-abelian], [def-weil-abstract-derived-category]).
+Chain-homotopic maps become equal in the derived category, so $\beta_1\circ\alpha$ and $\beta_2\circ\alpha$ have the same image there. Since $\alpha$ is a quasi-isomorphism, its image in the derived category is an isomorphism; cancelling it shows that the images of $\beta_1$ and $\beta_2$ in the derived category agree. ([def-sp-abelian], [def-weil-abstract-derived-category]).
 
-The bijectivity theorem `CochainComplex.IsKInjective.Qh_map_bijective` reflects equality of localized maps into the K-injective target back to equality in the homotopy category. `HomotopyCategory.homotopyOfEq` then supplies the required homotopy. ([def-weil-abstract-derived-category]).
+For a K-injective target $I^\bullet$, the localization map from morphisms $L^\bullet\to I^\bullet$ in the homotopy category to morphisms in the derived category is bijective. Hence $\beta_1$ and $\beta_2$ are already equal in the homotopy category, i.e. they are chain-homotopic, which gives the required maps $k^n$. ([def-weil-abstract-derived-category]).

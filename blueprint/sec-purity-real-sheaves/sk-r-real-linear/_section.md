@@ -1,20 +1,35 @@
 +++
 id = "sk-r-real-linear"
 kind = "proposition"
-title = "Weights, reality and semisimplification"
-order = 2941
-uses = ["sk-d-real-operations", "sk-d-real-weights", "sk-p-linear-filtration", "sk-p-linear-spectra", "sk-p-linear-triangular", "sk-p-real-operations", "sk-r-linear-library"]
+title = "Elementary weight operations"
+order = 3799
+uses = ["sk-d-ab-field", "sk-d-real-weights", "sk-d-real-weil", "sk-def-sp-tate-twist", "sk-p-linear-filtration", "sk-r-linear-library"]
 lean = ["AlgebraicGeometry.WeilGroup.frobeniusWeight_inv", "AlgebraicGeometry.WeilGroup.IsPunctuallyPure.dual", "AlgebraicGeometry.WeilGroup.IsReal.exteriorPower_of_charpoly_eq"]
 tags = ["sketch"]
 +++
-The finite-dimensional linear algebra used in this section is
-that of [sk-p-linear-filtration],
-[sk-p-linear-triangular] and [sk-p-linear-spectra], taken over
-$k=\Qlb$. Three consequences are used as such below, all immediate from
-Jordan–Hölder together with
-[sk-p-linear-filtration] and [sk-p-linear-spectra]:
-a semisimplification has the same local
-polynomials $P_x$, hence the same $\iota$-weights and the same
-$\iota$-reality of [sk-d-real-weights];
-$\wt_{\iota,q_x}(\alpha^{-1})=-\wt_{\iota,q_x}(\alpha)$, so duality
-negates weights; and $\bigwedge^s$ preserves $\iota$-reality.
+Subobjects and quotients of a pure Weil sheaf of weight $w$ are pure of
+weight $w$. Subquotients and extensions of mixed sheaves are mixed;
+extensions preserve a common upper bound. Tensor products of pure
+sheaves of weights $a,b$ are pure of weight $a+b$, and the dual of a pure
+lisse sheaf of weight $a$ is pure of weight $-a$. The corresponding
+mixed statements follow by finite filtrations. Inverse image preserves
+purity, mixedness and their upper bounds. Shifting a complex by $[r]$
+adds $r$ to its weight convention.
+
+For $b\in\overline{\mathbf Q}_\ell^\times$, let $\mathcal B_b$ be the
+geometrically constant rank-one Weil sheaf on which a degree-one Frobenius
+acts by $b$. Tensoring by $\mathcal B_b$ adds
+$\lambda_\iota(b)=2\log_q|\iota(b)|$ to every weight. The Tate sheaf
+$\overline{\mathbf Q}_\ell(1)$ has geometric Frobenius $q^{-1}$, so twisting
+by $(r)$ subtracts $2r$ from every weight.
+
+*Complement.* The operations on Weil representations (direct sum, tensor
+product, exterior powers, dual, determinant, constituents, invariants
+$V^I$ and coinvariants $V_I$) are those of
+[def-real-weil-representation-operations], transported to lisse Weil sheaves
+by [sk-d-real-weil]; the local polynomial of [sk-d-real-weights] is computed
+by any element of the local Frobenius class ([p-real-operations]). The
+constant line $\mathcal B_b$ is [def-wf-constant-weil-twist], and
+$\overline{\mathbf Q}_\ell(n)=\mathcal B_{q^{-n}}$. A semisimplification has the
+same local polynomials $P_x$ as the sheaf, hence the same weights, and
+$\wt_{\iota,q_x}(\alpha^{-1})=-\wt_{\iota,q_x}(\alpha)$.

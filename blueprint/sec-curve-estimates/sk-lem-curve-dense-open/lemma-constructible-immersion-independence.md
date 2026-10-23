@@ -2,7 +2,7 @@
 id = "lemma-constructible-immersion-independence"
 kind = "lemma"
 title = "Independence of the scheme structure"
-order = 1232
+order = 1518
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.upperStar_of_range_subset", "AlgebraicGeometry.Scheme.isFiniteLocallyConstantSheaf_upperStar_iff_of_range_eq"]
 uses = ["def-constructible-finite-locally-constant", "lemma-constructible-pullback-stratification"]
 +++

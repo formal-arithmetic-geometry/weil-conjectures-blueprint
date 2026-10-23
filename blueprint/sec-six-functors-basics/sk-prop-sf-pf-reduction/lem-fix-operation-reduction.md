@@ -2,12 +2,12 @@
 id = "lem-fix-operation-reduction"
 kind = "lemma"
 title = "Basic operations and coefficient reduction"
-order = 2228
-uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-site-perfect-complex", "lem-fix-compact-support-coefficient-change", "lem-weil-pbc-standard-quotients-perfect", "lemma-weil-pbc-perfect-projection-formula", "sk-def-pe-derived-completion", "sk-prop-integral-criterion", "sk-def-sfb-coefficient-comparisons", "sk-prop-scalar-six", "det-prop-scalar-six-compact-support"]
+order = 2772
+uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-site-perfect-complex", "lem-fix-compact-support-coefficient-change", "lem-weil-pbc-standard-quotients-perfect", "lemma-weil-pbc-perfect-projection-formula", "def-pe-derived-complete", "sk-prop-integral-criterion", "sk-def-sfb-coefficient-comparisons", "sk-prop-scalar-six", "det-prop-scalar-six-compact-support"]
 +++
 For the condensed integral categories $\Dbc(-,\mathcal O_E)$, whose objects
 are derived $\pi_E$-complete $\mathcal O_{E,X}$-complexes
-([sk-def-pe-derived-completion], [sk-prop-integral-criterion]), reduction
+([def-pe-derived-complete], [sk-prop-integral-criterion]), reduction
 $\mathcal O_E\to A_{E,n}$, $K\mapsto K_n=K\otimes^{\mathbf L}_{\mathcal O_{E,X}}(A_{E,n})_X$,
 commutes with derived pullback, tensor, ordinary direct image and
 compact-support direct image on their stated bounded domains. Finite

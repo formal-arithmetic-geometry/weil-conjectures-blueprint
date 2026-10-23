@@ -2,7 +2,7 @@
 id = "sk-prop-input-spreading"
 kind = "theorem"
 title = "Extension from a split generic Galois cover"
-order = 1435
+order = 2083
 uses = ["sk-def-smooth"]
 lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_isPullback_of_genericFibre"]
 tags = ["sketch"]

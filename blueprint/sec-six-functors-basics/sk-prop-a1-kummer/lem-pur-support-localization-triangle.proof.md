@@ -20,7 +20,7 @@ $j_!$ is exact by [def-weil-open-closed-recollement].
 Thus $j_*j^*I(K)$ computes $Rj_*j^*K$.
 
 The comparison theorem for the resolutions of
-[def-weil-pbc-kinjective-resolutions] and the natural kernel and
+[def-sp-kinjective-bridge] and the natural kernel and
 quotient maps give canonicality and functoriality in the sense of
 [def-pur-triangle-meaning]. Finally, along an etale map the site
 is localized: the support kernel and the open direct image are

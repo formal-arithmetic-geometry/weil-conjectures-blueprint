@@ -2,6 +2,7 @@
 id = "det-sbc-exchange-site-comparison"
 kind = "lemma"
 title = "Exchange maps and the étale–pro-étale comparison"
+order = 2051
 uses = ["det-sbc-exchange-formal", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-comparison-direct-image"]
 +++
 In a cartesian square $X'\xrightarrow{u}X$, $f':X'\to Y'$, $f:X\to Y$, $g:Y'\to Y$ with $f$

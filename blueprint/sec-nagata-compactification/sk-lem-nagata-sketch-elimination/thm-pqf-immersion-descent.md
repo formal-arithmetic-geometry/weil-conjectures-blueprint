@@ -3,7 +3,7 @@ id = "thm-pqf-immersion-descent"
 kind = "theorem"
 title = "Descent of the immersion to a finite stage"
 lean = ["AlgebraicGeometry.Scheme.Hom.FiniteApproximation.exists_isOpenImmersion_isClosedImmersion", "AlgebraicGeometry.Scheme.exists_isClosedImmersion_of_isOpenImmersion_of_isLimit"]
-order = 206
+order = 308
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-locnoeth", "pqf-lem-finite-fp-locnoeth", "pqf-lem-limit-immersion-descends", "pqf-lem-limit-qc-open-descends", "pqf-lem-qs-intersection-qc"]
 +++
 Let $S$ be a quasi-compact and quasi-separated scheme and let

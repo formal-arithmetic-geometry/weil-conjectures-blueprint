@@ -2,8 +2,8 @@
 kind = "proof"
 of = "lem-weil-pbc-finite-idempotent-factor-transfer"
 +++
-Choose a unit v with value α. The relation bd = αd gives d = b(α⁻¹d), hence b divides d. Apply Localization.awayMap_bijective_of_dvd to obtain the isomorphism D[1/d] → B[1/e]. The map D → D[1/d] is surjective by Away.algebraMap_surjective_of_isIdempotentElem. Therefore F:D → B[1/e] is surjective, and Algebra.IsIntegral.of_surjective transfers integrality of the finite A-algebra D.
+Since $\alpha$ is a unit, $bd=\alpha d$ gives $d=b(\alpha^{-1}d)$, so $b$ divides $d$ in $D$; hence the bijection $D[1/b]\to B[1/b]$ induces a bijection $D[1/d]\to B[1/e]$. As $d$ is idempotent, $D\to D[1/d]$ is surjective (it is the projection onto the factor $dD$). Therefore $F:D\to B[1/e]$ is surjective, and integrality of the finite $A$-algebra $D$ passes to its quotient $B[1/e]$.
 
-Define s:D → A/I as the first projection of Φ after quotient. It is an A-algebra map and s(d)=1. Extend s over D[1/d], then transport along the isomorphism to a map ρ:B[1/e] → A/I. The ideal IB[1/e] is in its kernel, since ρ fixes A-scalars. Hence ρ induces a left inverse of the quotient structure map, proving injectivity.
+Let $\sigma:D\to A/I$ be the first coordinate of $\Phi$ composed with $D\to D/ID$. It is an $A$-algebra map with $\sigma(d)=1$, so it extends over $D[1/d]$ and, through the bijection above, gives an $A$-algebra map $\rho:B[1/e]\to A/I$. It kills $IB[1/e]$, so it induces a left inverse of $A/I\to B[1/e]/IB[1/e]$, proving injectivity.
 
-For surjectivity, represent an element of B[1/e]/IB[1/e] by F(x), using the surjectivity of F. Lift the first coordinate of Φ(x mod ID) to a∈A. Then Φ(d(x-a) mod ID)=(1,0)(Φ(x)-(a,scalar(a)))=0. Thus d(x-a)∈ID; mapping by F, for which F(d)=1, gives F(x)-a∈IB[1/e]. The quotient element is therefore the image of a mod I.
+For surjectivity, write an element of $B[1/e]/IB[1/e]$ as the class of $F(x)$ with $x\in D$. Lift the first coordinate of $\Phi(x\bmod ID)$ to $a\in A$. Then $\Phi(d(x-a)\bmod ID)=(1,0)\cdot(\Phi(x\bmod ID)-\Phi(a\bmod ID))=0$, so $d(x-a)\in ID$. Applying $F$, with $F(d)=1$, gives $F(x)-a\in IB[1/e]$, so the class of $F(x)$ is the image of $a\bmod I$.

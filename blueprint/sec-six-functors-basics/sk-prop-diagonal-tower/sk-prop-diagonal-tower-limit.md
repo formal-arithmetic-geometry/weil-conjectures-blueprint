@@ -2,6 +2,7 @@
 id = "det-prop-diagonal-tower-limit"
 kind = "lemma"
 title = "The $\\ell$-adic diagonal class over the completed coefficient sheaf"
+order = 2432
 uses = ["det-prop-diagonal-tower-system", "sk-prop-pe-replete", "sk-prop-pe-products", "sk-lem-integral-models"]
 +++
 With the notation of [det-prop-diagonal-tower-system]:

@@ -2,8 +2,8 @@
 kind = "proof"
 of = "lem-weil-pbc-etale-near-prime-naive-cotangent-vanishing"
 +++
-Apply `Algebra.etaleLocus_eq_compl_support` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Etale/Locus.lean)) at q: the hypotheses give q in Algebra.etaleLocus A C. In Lean rewrite Algebra.etaleLocus_eq_compl_support and use Module.notMem_support_iff on each of the two localized modules. Thus Algebra.IsEtaleAt A q holds.
+For a finitely presented $A$-algebra $C$, the etale locus (the set of primes at which $C$ is etale over $A$) is the complement of the union of the supports of the $C$-modules $H_1(\mathrm{NL}_{C/A})$ and $\Omega_{C/A}$. By hypothesis $\mathfrak q$ lies in the support of neither, so $C$ is etale over $A$ at $\mathfrak q$.
 
-Apply Mathlib Algebra.exists_etale_of_isEtaleAt (Mathlib/RingTheory/Etale/Locus.lean:103) to the finitely presented algebra C and the preceding IsEtaleAt instance. It gives h not in q and Algebra.Etale A (Localization.Away h). This is a single application of the existing theorem, whose proof uses openness of the etale locus and the basic-open basis; no new intermediate theory is needed.
+The etale locus is open, and the principal opens $D(h)$ form a basis of $\operatorname{Spec}C$. Hence there is $h\in C\setminus\mathfrak q$ such that $D(h)$ lies in the etale locus, i.e. $C_h$ is an etale $A$-algebra.
 
-By `AlgebraicGeometry.HasRingHomProperty.Spec_iff` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Morphisms/RingHomProperties.lean)), the corresponding spectrum morphism is etale. In Lean apply HasRingHomProperty.Spec_iff with P := @AlgebraicGeometry.Etale, then RingHom.etale_algebraMap to the ring-theoretic conclusion. Pair this with h not in q.
+A morphism of affine schemes $\operatorname{Spec}C_h\to\operatorname{Spec}A$ is etale exactly when the ring map $A\to C_h$ is etale. Hence $\operatorname{Spec}C_h\to\operatorname{Spec}A$ is etale, with $h\notin\mathfrak q$.

@@ -2,7 +2,7 @@
 id = "sk-def-nagata-admissible"
 kind = "definition"
 title = "Admissible blow-up"
-order = 8
+order = 150
 lean = ["AlgebraicGeometry.IsAdmissible", "AlgebraicGeometry.Scheme.IdealSheafData.blowup", "AlgebraicGeometry.Scheme.IdealSheafData.blowupMap"]
 tags = ["sketch"]
 +++

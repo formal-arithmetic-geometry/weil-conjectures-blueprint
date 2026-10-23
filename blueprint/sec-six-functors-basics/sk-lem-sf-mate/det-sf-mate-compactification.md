@@ -2,6 +2,7 @@
 id = "det-sf-mate-compactification"
 kind = "lemma"
 title = "The exceptional inverse image through a compactification"
+order = 2349
 uses = ["det-sf-mate-open-restriction", "det-sf-existence-brown", "det-sf-comp-coherence-single"]
 +++
 Let $\Lambda$ be admissible, $f:X\to Y$ separated of finite type, and

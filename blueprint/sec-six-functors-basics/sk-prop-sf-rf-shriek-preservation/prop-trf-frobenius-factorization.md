@@ -2,7 +2,7 @@
 id = "prop-trf-frobenius-factorization"
 kind = "theorem"
 title = "Factorization of the absolute Frobenius"
-order = 2416
+order = 2414
 tags = ["latex:proposition"]
 uses = ["def-trf-scheme-frobenius"]
 +++

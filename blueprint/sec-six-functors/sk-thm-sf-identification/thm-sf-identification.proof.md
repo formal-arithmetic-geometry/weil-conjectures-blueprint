@@ -8,7 +8,8 @@ the projection transformation is [def-sf-pf], and the interchange
 law is [lem-sf-twist-interchange].
 Steps 1–3 use properness of $X$ nowhere: they use only the global duality
 isomorphism of [thm-sf-global-duality], which holds under either of its two
-hypotheses, the orientation of [def-sf-orientation] for the smooth
+hypotheses ($k$ being separably closed), the detection of
+[lem-sf-detection] on the point category, the orientation of [def-sf-orientation] for the smooth
 morphism $a_X$, and the formal adjunction calculus of the six-functor
 datum; so they prove the derived assertion for proper $X$ and for
 $X=X_0\times_{k_0}k$ alike.

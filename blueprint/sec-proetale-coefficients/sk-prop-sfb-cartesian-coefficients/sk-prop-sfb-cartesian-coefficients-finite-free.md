@@ -2,7 +2,8 @@
 id = "det-prop-sfb-cartesian-coefficients-finite-free"
 kind = "lemma"
 title = "$\\mathcal O_{F,X}$ is finite free over $\\mathcal O_{E,X}$"
-uses = ["sk-def-sfb-condensed-ring", "sk-def-sfb-pullback-from-point", "det-prop-sfb-qlbar-colimit-x-invert-ell", "lem-sfb-subfield-flat"]
+order = 1263
+uses = ["det-def-sfb-condensed-ring", "det-def-sfb-pullback-from-point", "det-prop-sfb-qlbar-colimit-x-invert-ell", "lem-sfb-subfield-flat"]
 +++
 Let $E\subset F$ be finite extensions of $\mathbf Q_\ell$ inside $\Qlb$, of degree $d=[F:E]$, and
 let $X$ be a scheme. Then a choice of $\cO_E$-basis $b_1,\dots,b_d$ of $\cO_F$ induces

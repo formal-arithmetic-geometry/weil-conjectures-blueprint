@@ -2,12 +2,13 @@
 id = "lem-weil-pbc-transport-identifies-exchange"
 kind = "lemma"
 title = "Transport identifies the exchange map"
-lean = ["AlgebraicGeometry.ProEtale.comparison_derivedBaseChangeMap"]
-order = 1384
+lean = ["AlgebraicGeometry.ProEtale.comparison_derivedBaseChangeMap", "AlgebraicGeometry.ProEtale.baseChangeSourceComparisonIso", "AlgebraicGeometry.ProEtale.baseChangeTargetComparisonIso"]
+order = 1985
 uses = ["def-weil-pbc-ambient-ringed-exchange", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-comparison-direct-image"]
 +++
-For a cartesian square [def-weil-pbc-cartesian-square] and
-$L\in\Dplus(X_{\Et},\Lambda)$, use the natural comparison isomorphisms
+Let $\Lambda$ be a commutative ring. For a cartesian square
+[def-weil-pbc-cartesian-square] in which $f$ and $f'$ are quasi-compact and
+quasi-separated, and $L\in\Dplus(X_{\Et},\Lambda)$, use the natural comparison isomorphisms
 
 $$
  \nu_{X'}^*g'_{\Et}{}^{-1}\simeq

@@ -2,6 +2,8 @@
 id = "det-cor-jacobian-torsion-kernel"
 kind = "lemma"
 title = "The $n$-torsion of an abelian variety over an algebraically closed field"
+lean = ["AlgebraicGeometry.etale_torsionSubgroupScheme", "AlgebraicGeometry.finrankΓ_torsionSubgroupScheme", "AlgebraicGeometry.IsAbelianVariety.exists_overIso_sigma_torsionSubgroupScheme", "AlgebraicGeometry.torsionByEquiv", "AlgebraicGeometry.nonempty_addEquiv_torsionBy", "AlgebraicGeometry.bijective_toUnit_comp_torsionSubgroupScheme", "AlgebraicGeometry.jacobian_compatibility"]
+order = 876
 uses = ["sk-thm-av-final", "sk-prop-av-isogeny", "sk-prop-av-prime-p-etale", "sk-prop-av-finite-etale-points", "sk-thm-picard-main"]
 +++
 Let $k$ be algebraically closed, let $A/k$ be an abelian variety of

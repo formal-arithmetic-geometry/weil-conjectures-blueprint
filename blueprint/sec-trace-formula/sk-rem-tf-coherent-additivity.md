@@ -2,7 +2,7 @@
 id = "sk-rem-tf-coherent-additivity"
 kind = "remark"
 title = "Coherence in trace additivity"
-order = 2612
+order = 3469
 tags = ["sketch"]
 +++
 The coherence condition is essential over a general ring: three endomorphisms

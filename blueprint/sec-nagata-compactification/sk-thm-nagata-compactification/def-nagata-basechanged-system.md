@@ -2,7 +2,7 @@
 id = "def-nagata-basechanged-system"
 kind = "definition"
 title = "Base-changed system over a chosen stage"
-order = 353
+order = 45
 lean = ["AlgebraicGeometry.baseChangeDiagram", "AlgebraicGeometry.baseChangeCone"]
 +++
 Fix $\lambda_0\in I$ and a scheme $Y_{\lambda_0}$ equipped with a morphism

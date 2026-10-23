@@ -2,6 +2,7 @@
 id = "det-sf-mate-open-restriction"
 kind = "lemma"
 title = "Open immersions and open restriction for $f^!$"
+order = 2348
 uses = ["lem-sf-mate", "det-sf-existence-brown", "sk-prop-proper-image-localizing"]
 +++
 Let $\Lambda$ be admissible.

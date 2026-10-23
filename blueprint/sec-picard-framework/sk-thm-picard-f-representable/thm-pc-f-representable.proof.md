@@ -9,8 +9,8 @@ proper quasi-projective scheme over a field is projective
 ([Tag 0B45](https://stacks.math.columbia.edu/tag/0B45)). Being
 geometrically integral, it is integral; so $X$ is a smooth projective
 curve in the sense of [def-pc-smooth-projective-curve], to which the
-lemmas on smooth projective curves used below apply, and
-[prop-pc-xk-integral] applies to it.
+lemmas on smooth projective curves used below apply; all of them hold
+over an arbitrary field.
 
 Let $H$ be the given $k$-scheme representing $\operatorname{Hilb}^g_{X/k}$
 (such an $H$ exists by [thm-pc-hilb-curves], and any two are canonically
@@ -36,19 +36,12 @@ Yoneda lemma ([def-pc-representable-functor]) the element
 $\mathcal{L}_H$ defines a natural transformation $h_H\to\operatorname{Pic}_{X/k,\sigma}$.
 
 Since $F\subseteq\operatorname{Pic}_{X/k,\sigma}$ is an open subfunctor
-([lem-pc-f-open-subfunctor]), there is a maximal open $W\subseteq H$
-such that $\mathcal{L}_H|_{W\times X}\in F(W)$; by
-[def-pc-subfunctor] it is the open subscheme produced by
-[lem-pc-flat-rf-open] (with $i=0$, $r=1$) applied to the proper
-morphism of finite presentation
-$p:H\times X\to H$ and the flat
-invertible module
-$\mathcal{O}(D_{\mathrm{univ}})$ (the twist by $\mathrm{pr}_H^*\sigma_H^*\mathcal{O}(D_{\mathrm{univ}})^{-1}$
-does not affect the perfect-locus condition: by
-[lem-pc-projection-formula] and [lem-pc-rf-base-change-flat-module],
-$Rp_*$ commutes with tensoring by the pullback of an invertible module
-from the base). Applying the Yoneda lemma again we obtain the commutative
-diagram
+([lem-pc-f-open-subfunctor]), applied to the element
+$\mathcal{L}_H\in\operatorname{Pic}_{X/k,\sigma}(H)$ there is an open
+$W\subseteq H$ such that, by [def-pc-subfunctor], a morphism $a:T\to H$ of
+$k$-schemes factors through $W$ if and only if
+$(a\times\mathrm{id}_X)^*\mathcal{L}_H\in F(T)$. Applying the Yoneda lemma again
+we obtain the commutative diagram
 
 $$
 \begin{array}{ccc}
@@ -105,32 +98,30 @@ $$
 \cong\mathcal{L}\otimes f_T^*\mathcal{N}^{-1}\otimes f_T^*\mathcal{N}\cong\mathcal{L}.
 $$
 
-Thus $(m\times\mathrm{id})^*\mathcal{L}_H\in F(T)$ (as $\mathcal{L}\in F(T)$ and $F$ is a
-subfunctor, the restriction of $\mathcal{L}_H$ along the morphism $(m\times\mathrm{id})$
-of schemes over $H$ is in $F(T)$ if and only if $m$ factors through the
-open $W$ of [lem-pc-flat-rf-open], by the characterization in
-[def-pc-subfunctor] for the pair $(H,\mathcal{L}_H)$ and the explicit
-description of $W$ given above), so $m$ factors through $W$; we still
-write $m:T\to W$.
+Thus $(m\times\mathrm{id})^*\mathcal{L}_H\cong\mathcal{L}$ lies in $F(T)$, so
+by the defining property of $W$ the morphism $m$ factors through $W$; we
+still write $m:T\to W$.
 
 *$\psi$ is bijective on points, with inverse
-$\theta:\mathcal{L}\mapsto m$.* The two maps are natural in $T$ (all constructions
-commute with base change: pullback of divisors and their modules along
-$T'\to T$ by [lem-pc-recd-pullback] and [lem-pc-rf-base-change-flat-module];
-the universal object property of [def-pc-hilb-functor] and the
-uniqueness of the classifying morphism of [lem-pc-cartier-criterion]
-give functoriality of $m$). The composite
-$h_W(T)\to F(T)\to h_W(T)$, $m\mapsto(m\times\mathrm{id})^*\mathcal{L}_H\mapsto m'$: the
-adjoint section of $(m\times\mathrm{id})^*\mathcal{L}_H$ is the pullback of the adjoint
-section of $\mathcal{L}_H$ ([lem-pc-universal-adjoint-section], whose zero
-scheme is $D_{\mathrm{univ}}$, and [lem-pc-zero-scheme-recd]), so the
-zero scheme of the adjoint section of
-$(m\times\mathrm{id})^*\mathcal{L}_H$ is $D=(m\times\mathrm{id})^{-1}(D_{\mathrm{univ}})$, and
-$m'$ is exactly the morphism classifying $D$, i.e. $m'=m$ by the
-uniqueness in the universal property. The other composite
-$\theta\circ\psi=\mathrm{id}$ on $F(T)$ was computed above
-($(m\times\mathrm{id})^*\mathcal{L}_H\cong\mathcal{L}$). Hence $\psi$ is an isomorphism of
-functors $h_W\cong F$, i.e. $F$ is representable (by the open subscheme
-$W$ of $H$, which is a scheme: open subschemes of schemes are schemes).
+$\theta:\mathcal{L}\mapsto m$.* The transformation
+$\psi:a\mapsto(a\times\mathrm{id})^*\mathcal{L}_H$ is natural in $T$, since
+pullbacks compose. The composite $\psi\circ\theta=\mathrm{id}$ on $F(T)$ was
+computed above ($(m\times\mathrm{id})^*\mathcal{L}_H\cong\mathcal{L}$). For the
+other composite $h_W(T)\to F(T)\to h_W(T)$, $a\mapsto\mathcal{L}':=(a\times\mathrm{id})^*\mathcal{L}_H\mapsto a'$,
+let $D_a:=(a\times\mathrm{id})^{-1}(D_{\mathrm{univ}})$, the point of
+$\operatorname{Hilb}^g_{X/k}(T)$ classified by $a$; it is a relative
+effective Cartier divisor with
+$\mathcal{O}_{X_T}(D_a)\cong(a\times\mathrm{id})^*\mathcal{O}(D_{\mathrm{univ}})$
+([lem-pc-recd-pullback]). As computed above,
+$\mathcal{L}'\cong\mathcal{O}_{X_T}(D_a)\otimes f_T^*\mathcal{N}'$ with
+$\mathcal{N}'=a^*\sigma_H^*\mathcal{O}(D_{\mathrm{univ}})^{-1}$ invertible, and
+$\mathcal{L}'\in F(T)$ since $a$ factors through $W$. By
+[lem-pc-universal-adjoint-section](3) the adjoint section of $\mathcal{L}'$
+([lem-pc-zero-scheme-recd]) has zero scheme $D_a$, so $a'$ is the morphism
+classifying $D_a$, i.e. $a'=a$ by the uniqueness in the universal property.
+Hence $\psi_T$ is bijective for every $T$, and the natural transformation
+$\psi$ is an isomorphism of functors $h_W\cong F$, i.e. $F$ is
+representable (by the open subscheme $W$ of $H$, which is a scheme: open
+subschemes of schemes are schemes).
 Taking for $j:W\to H$ the inclusion of this open subscheme gives the
 statement.

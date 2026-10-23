@@ -1,11 +1,15 @@
 +++
 kind  = "proof"
 of    = "lem-zl-relative-curve-mixedness"
-uses = ["sk-thm-sf-ctf-stability", "def-wf-normalized-real-envelope", "lem-wf-envelope-real", "lem-zl-relative-envelope-factor-reality", "thm-zl-real-mixed-by-curves"]
+uses = ["sk-thm-sf-ctf-stability", "sk-prop-wrp-real-envelope", "def-wf-normalized-real-envelope", "lem-wf-envelope-real", "lem-zl-relative-envelope-factor-reality", "thm-zl-real-mixed-by-curves"]
 +++
-Normalize $\mathcal F$ as in
-[def-wf-normalized-real-envelope]: put
-$b=\iota^{-1}(q^{-w/2})$,
+If $\mathcal F=0$ there is nothing to prove; otherwise choose a closed
+point $x$, of degree $d$, at which the stalk is nonzero, and a Frobenius
+eigenvalue $\alpha$ there. As in [sk-prop-wrp-real-envelope], let
+$b\in\Qlb^\times$ be a $d$th root of $\alpha^{-1}$; by purity
+$|\iota(b)|=|\iota(\alpha)|^{-1/d}=q^{-w/2}$. This uses only that
+$\iota$ is a field embedding, not that it is surjective. Normalize
+$\mathcal F$ as in [def-wf-normalized-real-envelope]: put
 $\mathcal F^0=\mathcal F\otimes\mathcal B_b$, and
 $\mathcal E=\mathcal F^0\oplus(\mathcal F^0)^\vee$.
 It is lisse, pure of weight zero and real by

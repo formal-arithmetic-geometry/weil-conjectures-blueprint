@@ -3,12 +3,11 @@ id = "lem-weil-pbc-reduction-projective-space"
 kind = "lemma"
 title = "Reduction of projective space to products of lines"
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveSpace"]
-order = 1270
-uses = ["def-weil-pbc-property", "def-weil-pbc-symmetric-product-morphism", "lem-weil-pbc-symmetric-product-finite", "lem-weil-pbc-symmetric-product-surjective", "lemma-weil-pbc-cancellation", "prop-weil-pbc-composition-stability", "prop-weil-pbc-finite-morphism"]
+order = 1957
+uses = ["def-weil-pbc-symmetric-product-morphism", "lem-weil-pbc-symmetric-product-finite", "lem-weil-pbc-symmetric-product-surjective", "lemma-weil-pbc-cancellation", "prop-weil-pbc-composition-stability", "prop-weil-pbc-finite-morphism"]
 +++
-Assume that for every scheme $S$ the projection $\mathbf P^1_S\to S$ satisfies
-$\mathrm{PBC}$ in the sense of [def-weil-pbc-property]. Then, for every scheme
-$T$ and every $n\geq0$, the product projection $(\mathbf P^1_T)^n\to T$
-satisfies $\mathrm{PBC}$ by repeated base change and composition (over the
-successive bases $T,\mathbf P^1_T,\dots$), and $\mathbf P^n_T\to T$ satisfies
-$\mathrm{PBC}$ by cancellation along $\sigma_n$.
+Let $\Lambda$ be a commutative ring which is torsion as an abelian group, and use
+torsion base change over $\Lambda$ as in [lemma-weil-pbc-cancellation]. Assume that
+for every scheme $S$ the projection $\mathbf P^1_S\to S$ has torsion base change
+over $\Lambda$. Then for every scheme $T$ and every $n\geq0$ the projection
+$\mathbf P^n_T\to T$ has torsion base change over $\Lambda$.

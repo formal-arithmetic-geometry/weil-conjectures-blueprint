@@ -2,6 +2,7 @@
 id = "det-sp-scalar-extension-functor"
 kind = "definition"
 title = "The derived extension-of-coefficients functor and its associativity"
+order = 2969
 uses = ["lem-sf-flat-model"]
 +++
 Let $A\to B\to C$ be maps of finite commutative rings killed by a power of

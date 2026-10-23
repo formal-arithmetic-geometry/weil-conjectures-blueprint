@@ -5,7 +5,7 @@ of    = "def-sfb-module-derived-pushpull-adjunction"
 This is the general derivation of adjunctions: let $F\dashv G$ be additive functors
 between abelian categories, $F\colon\mathcal C\to\mathcal D$, where $F$ is left
 derivable via K-flat resolutions and $G$ right derivable via K-injective resolutions
-([sk-def-sfb-derived-categories]). The adjunction $F\dashv G$ induces an adjunction
+([det-def-sfb-derived-categories]). The adjunction $F\dashv G$ induces an adjunction
 $K(F)\dashv K(G)$ on homotopy categories of complexes. Composing the counit of $LF$,
 $LF\circ Q\to Q\circ K(F)$, with the unit of $RG$, $Q\circ K(G)\to RG\circ Q$, and with
 the unit and counit of $K(F)\dashv K(G)$ gives natural maps

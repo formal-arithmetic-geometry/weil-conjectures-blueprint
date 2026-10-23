@@ -3,7 +3,7 @@ id = "thm-amb-etale-exceptional-adjoint"
 kind = "theorem"
 title = "The ordinary ambient exceptional adjoint"
 lean = ["CategoryTheory.Functor.isLeftAdjoint_of_compactGenerators", "CategoryTheory.Functor.isLeftAdjoint_of_isLeftAdjoint_comp", "DerivedCategory.isLeftAdjoint_of_preservesCoproducts", "AlgebraicGeometry.Etale.isLeftAdjoint_rightDerivedLowerShriekOfCompactification", "AlgebraicGeometry.Etale.isLeftAdjoint_rightDerivedLowerShriek"]
-order = 1918
+order = 2696
 uses = ["def-amb-etale-compact-support", "def-weil-compactifications-refinements", "def-weil-pbc-derived-categories", "lem-amb-etale-compact-comparisons", "lem-amb-proper-coproducts"]
 +++
 Let $f:X\to S$ admit a compactification

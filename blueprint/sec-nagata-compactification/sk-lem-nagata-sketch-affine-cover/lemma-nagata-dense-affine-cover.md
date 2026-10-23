@@ -2,7 +2,7 @@
 id = "lemma-nagata-dense-affine-cover"
 kind = "lemma"
 title = "Properties of the selected dense affine cover"
-order = 327
+order = 417
 lean = ["AlgebraicGeometry.Scheme.finiteAffineOpenCoverDenseIInter_spec"]
 uses = ["def-nagata-dense-affine-cover"]
 +++

@@ -3,7 +3,7 @@ id = "lem-pd-geometric-curve"
 kind = "lemma"
 title = "The geometric curve is a smooth projective geometrically integral curve"
 lean = ["AlgebraicGeometry.isSepClosed_and_pullback_sepClosure"]
-order = 863
+order = 885
 uses = ["def-pc-base-change", "def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-pd-separable-closure", "lem-pc-dim-base-change"]
 +++
 Let $k$ be a field and let $C$ be a

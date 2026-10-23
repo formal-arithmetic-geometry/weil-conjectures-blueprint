@@ -2,16 +2,13 @@
 kind  = "proof"
 of    = "lem-sc-cartier-divisor-points"
 +++
-Being an effective Cartier divisor on the curve $C$
-([def-sc-effective-cartier-divisor],
-[def-sc-curves]), the closed subscheme $D$ is locally of the
-form $V(f)$ for a non-zero-divisor $f$. Since $C$ is
+Being an effective Cartier divisor on $C$
+([def-nagata-invertible-ideal]), the closed subscheme $D$ is
+locally of the form $V(f)$ for a non-zero-divisor $f$. Since $C$ is
 quasi-compact, finitely many affine open subsets
 $U=\Spec A\subseteq C$ with $D\cap U=V(f)$, $f\in A$ a
-non-zero-divisor, cover $C$. The curve $C$ is smooth and
-connected over the algebraically closed field $k$
-([def-sc-curves]), hence integral, so $A$ is a domain and
-$f\neq0$; every minimal prime of $A$ containing $f$ has
+non-zero-divisor, cover $C$. As $C$ is integral, $A$ is a
+domain and $f\neq0$; every minimal prime of $A$ containing $f$ has
 height one (*Krull's principal ideal theorem: Stacks Project,
 Commutative Algebra,
 [Tag 00KV](https://stacks.math.columbia.edu/tag/00KV)*) and
@@ -26,5 +23,7 @@ discrete valuation ring with uniformizer $t_P$
 ([lem-sc-regular-dim1-dvr]), so $g=u\,t_P^{n_P}$ for a unit
 $u$ and an integer $n_P\geq1$, and
 $\mathcal I_{D,P}=(t_P^{n_P})$. Away from the support,
-$\mathcal I_{D,P}=\mathcal O_{C,P}$, and the ideal sheaf is
-determined by its stalks.
+$\mathcal I_{D,P}=\mathcal O_{C,P}$. The ideal sheaf
+$\prod_i\mathcal I_{P_i}^{n_i}$ has the same stalks
+($\mathcal I_{P_i,P_i}=(t_{P_i})$), and an ideal sheaf is determined by
+its stalks, so $\mathcal I_D=\prod_i\mathcal I_{P_i}^{n_i}$.

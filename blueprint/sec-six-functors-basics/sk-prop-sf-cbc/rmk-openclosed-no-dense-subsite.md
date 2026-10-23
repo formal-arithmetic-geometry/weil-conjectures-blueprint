@@ -2,7 +2,7 @@
 id = "rmk-openclosed-no-dense-subsite"
 kind = "remark"
 title = "Why the dense-subsite route fails"
-order = 1877
+order = 2667
 +++
 It is tempting to prove [prop-openclosed-lowerstar-fully-faithful] by
 showing that the base-change functor $\et X\to\et Z$ exhibits $\et Z$ as a

@@ -2,7 +2,7 @@
 id = "sk-lem-diag-reg"
 kind = "lemma"
 title = "The diagonal is a regular immersion"
-order = 1945
+order = 3260
 uses = ["sk-def-purity-conv"]
 lean = ["AlgebraicGeometry.isRegularImmersion_diagonal"]
 tags = ["sketch"]

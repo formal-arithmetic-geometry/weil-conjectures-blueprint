@@ -2,7 +2,8 @@
 id = "sk-def-pe-morphisms"
 kind = "definition"
 title = "Ind-étale, pro-étale and weakly étale morphisms"
-order = 701
+order = 900
+lean = ["Algebra.IndEtale", "AlgebraicGeometry.proAffineEtale", "AlgebraicGeometry.proAffineEtale_Spec_iff", "AlgebraicGeometry.WeaklyEtale", "AlgebraicGeometry.WeaklyEtale.hasRingHomProperty", "AlgebraicGeometry.etale_le_weaklyEtale", "AlgebraicGeometry.proAffineEtale_le_weaklyEtale", "AlgebraicGeometry.WeaklyEtale.etale"]
 tags = ["sketch"]
 +++
 A ring map $R\to B$ is *ind-étale* if $B=\varinjlim_\alpha B_\alpha$ for a filtered

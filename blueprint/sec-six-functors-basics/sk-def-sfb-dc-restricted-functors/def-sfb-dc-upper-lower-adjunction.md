@@ -2,7 +2,7 @@
 id = "def-sfb-dc-upper-lower-adjunction"
 kind = "definition"
 title = "The adjunction $Lf^*\\dashv Rf_*$ on $D_{\\mathrm{cons}}$"
-order = 1783
+order = 2629
 uses = ["def-sfb-dc-lower-star", "def-sfb-dc-upper-star"]
 +++
 For $f\colon X\to Y$ and $\Lambda$ as in [def-sfb-dc-lower-star], the adjunction

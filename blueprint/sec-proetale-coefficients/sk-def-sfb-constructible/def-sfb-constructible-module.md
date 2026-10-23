@@ -2,9 +2,9 @@
 id = "def-sfb-constructible-module"
 kind = "definition"
 title = "Constructible modules on the pro-étale site"
-order = 1640
+order = 1242
 uses = ["def-sfb-locally-finitely-presented", "def-constructible-stratification"]
-lean = ["AlgebraicGeometry.ProEtale.IsConstructible"]
+lean = ["AlgebraicGeometry.ProEtale.IsConstructibleModuleObject"]
 +++
 In the situation of [def-sfb-locally-finitely-presented], an $\mathcal R$-module $M$ is
 *constructible* if there is a stratification of $X$ [def-constructible-stratification],

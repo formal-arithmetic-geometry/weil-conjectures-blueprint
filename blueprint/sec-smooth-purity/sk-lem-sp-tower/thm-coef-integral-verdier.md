@@ -2,8 +2,8 @@
 id = "thm-coef-integral-verdier"
 kind = "theorem"
 title = "Integral Verdier biduality"
-order = 2490
-uses = ["sk-def-pe-derived-completion", "sk-lem-pe-derived-nakayama", "lem-coef-integral-hom-reduction", "lem-coef-integral-residue-tor", "lem-weil-duality-pairing", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata", "prop-coef-integral-dualizing", "thm-fix-general-biduality"]
+order = 2999
+uses = ["def-pe-derived-complete", "det-pe-derived-nakayama-first-reduction", "lem-coef-integral-hom-reduction", "lem-coef-integral-residue-tor", "lem-weil-duality-pairing", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata", "prop-coef-integral-dualizing", "thm-fix-general-biduality"]
 +++
 Set
 

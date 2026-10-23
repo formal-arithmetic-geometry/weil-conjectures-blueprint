@@ -28,11 +28,13 @@ The morphism $\Delta_{\rho_Q}$ of
 [lem-mg-determinant-monodromy-morphism] sends $\Phi_Q(z)$ to
 $(\det h_Q,m)$ in the arithmetic monodromy group of the rank-one
 determinant line. The group $A=\chi_{\det}(\pi_1(X))$ is finite by
-hypothesis, so [lem-wf-rank-one-algebraic-extension] applies: in the
-notation of [def-wf-degree-components],
-$H_{\mathrm{geom}}(\chi_{\det})=A$ and
-$G_{\mathrm{arith}}(\chi_{\det})=A\times\mathbf Z$, so
-$a:=\det h_Q\in A$. The element $a$ has finite order, and a real weight
+hypothesis, hence Zariski closed in $\mathbf G_m$. The determinant is a
+regular function on $\operatorname{GL}(Q)$, so the inverse image of $A$
+under it is a closed subset of $\operatorname{GL}(Q)$; it contains
+$\rho_Q(\pi_1(X))$, hence its Zariski closure
+$H_{\mathrm{geom}}(\rho_Q)$. Therefore $a:=\det h_Q\in A$; in the
+notation of [def-wf-degree-components], $(a,m)$ is the degree-$m$
+element $\Delta_{\rho_Q}(\Phi_Q(z))$. The element $a$ has finite order, and a real weight
 character kills finite-order elements: if $a^e=1$ with $e>0$, then
 $e\lambda(a)=\lambda(a^e)=0$. Applying $\lambda$ therefore gives
 $r\lambda(c_Q)=m\lambda(c)$, that is,

@@ -1,5 +1,6 @@
 +++
 kind = "proof"
 of = "lem-weil-pbc-henselian-of-nil-maximal-ideal"
+uses = ["def-weil-pbc-henselian-terminology", "lem-weil-pbc-henselian-local-root-lifting"]
 +++
-For a polynomial f and x with f(x) in the maximal ideal and f'(x) a unit, f(x) is nilpotent. Mathlib's Polynomial.existsUnique_nilpotent_sub_and_aeval_eq_zero supplies a with f(a)=0 and x-a nilpotent. Its finite Newton-iteration proof squares the error at each step; nilpotent corrections preserve invertibility of the derivative. If f(x)^N=0, an iteration with 2^n >= N has zero error. The negative a-x of the nilpotent difference lies in every prime ideal (nilradical_le_prime), hence in the maximal ideal. This is precisely HenselianLocalRing.is_henselian.
+Let $f\in R[T]$ and $x\in R$ with $f(x)\in\mathfrak m$ and $f'(x)$ a unit. Then $f(x)$ is nilpotent, and Newton iteration $x_{k+1}=x_k-f(x_k)/f'(x_k)$ terminates: the error is squared at each step, and nilpotent corrections keep $f'(x_k)$ a unit, so if $f(x)^N=0$ then after $k$ steps with $2^k\ge N$ the error vanishes. This gives $a\in R$ with $f(a)=0$ and $a-x$ nilpotent, hence $a-x\in\mathfrak m$. Thus simple roots of monic polynomials modulo $\mathfrak m$ lift, which is equivalent to henselianity in the sense of [def-weil-pbc-henselian-terminology] by [lem-weil-pbc-henselian-local-root-lifting]. If $R$ has Krull dimension $0$, then $\mathfrak m$ is the only prime ideal, so it equals the nilradical, and the first part applies.

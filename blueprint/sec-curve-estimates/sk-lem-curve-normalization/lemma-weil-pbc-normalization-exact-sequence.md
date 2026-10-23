@@ -3,27 +3,29 @@ id = "lemma-weil-pbc-normalization-exact-sequence"
 kind = "lemma"
 title = "Normalization comparison exact sequence"
 lean = ["AlgebraicGeometry.exists_mono_lowerShriek_constantModSheaf_lowerStar"]
-order = 1244
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-extension-by-zero", "def-weil-pbc-finite-open-comparison", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-eight-curve-devissage", "lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-finite-pushforward-extension-zero", "thm-sc-main"]
+order = 1509
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
 +++
-Let $X$ be a reduced curve over an algebraically closed field,
-$\nu:X^\nu\to X$ its finite normalization, $j:U\hookrightarrow X$ open,
-and $j^\nu:U^\nu\hookrightarrow X^\nu$ its pullback. For every prime
-$\ell$, the unit and the finite-open comparison define a monomorphism
+Let $k$ be an algebraically closed field, $X$ a reduced curve over $k$, and
+$\nu:X^\nu\to X$ a finite surjective morphism which is an isomorphism over a
+dense open $V\subseteq X$ (for instance the normalization of $X$). Let
+$j:U\hookrightarrow X$ be an open immersion and $j^\nu:U^\nu\hookrightarrow
+X^\nu$ its pullback along $\nu$. Let $\Lambda$ be a commutative ring and
+$\ell$ a prime with $\Lambda/\ell\Lambda$ finite, and write
+$\underline{\Lambda/\ell}$ for the constant sheaf of $\Lambda$-modules. Then
+there is a monomorphism
 
 $$
-\alpha:j_!\underline{\mathbf F_\ell}\longrightarrow
-\nu_*j^\nu_!\underline{\mathbf F_\ell}
+\alpha:j_!\underline{\Lambda/\ell}\longrightarrow
+\nu_*j^\nu_!\underline{\Lambda/\ell}
 $$
 
-whose cokernel $Q$ is constructible and supported on the finite nonnormal
-locus. The sequence
+whose cokernel $Q$ is constructible and restricts to zero on $V$. Thus
 
 $$
-0\longrightarrow j_!\underline{\mathbf F_\ell}
-\xrightarrow{\alpha}\nu_*j^\nu_!\underline{\mathbf F_\ell}
+0\longrightarrow j_!\underline{\Lambda/\ell}
+\xrightarrow{\alpha}\nu_*j^\nu_!\underline{\Lambda/\ell}
 \longrightarrow Q\longrightarrow0
 $$
 
-and all its cohomology boundary maps commute with algebraically closed field
-extension and restriction to opens.
+is exact, with $Q$ supported on the finite set $X\setminus V$.

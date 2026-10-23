@@ -2,8 +2,8 @@
 id = "def-sfb-finite-derived-adjunction-plus"
 kind = "definition"
 title = "The derived adjunction on $D^+$"
-order = 1665
-uses = ["def-sfb-finite-derived-pullback-iso", "def-sfb-finite-upper-lower-star-adjunction", "lem-sfb-finite-upper-star-exact", "sk-def-sfb-derived-categories"]
+order = 2515
+uses = ["def-sfb-finite-derived-pullback-iso", "def-sfb-finite-upper-lower-star-adjunction", "lem-sfb-finite-upper-star-exact", "det-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.derivedUpperStarLowerStarAdjunctionPlus"]
 +++
 Let $\mathcal A$ be as in [def-sfb-finite-derived-pullback-iso] and $g\colon Z\to Y$ a

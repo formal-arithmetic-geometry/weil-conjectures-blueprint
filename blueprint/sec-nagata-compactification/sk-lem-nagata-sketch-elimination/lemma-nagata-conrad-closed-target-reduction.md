@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-closed-target-reduction"
 kind = "lemma"
 title = "Reduction to a closed subscheme of the target"
-order = 226
+order = 323
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_partialSection_of_isClosedImmersion"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent"]
 +++

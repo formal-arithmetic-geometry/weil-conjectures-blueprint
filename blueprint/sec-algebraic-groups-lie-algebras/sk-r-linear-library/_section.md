@@ -1,24 +1,32 @@
 +++
 id = "sk-r-linear-library"
-kind = "proposition"
-title = "The linear-algebra library"
-order = 2882
-uses = ["sk-d-linear"]
+kind = "lemma"
+title = "Tensor and exterior powers of filtered representations"
 lean = ["CompositionSeries.jordan_holder", "Representation.IsIrreducible.bijective_or_eq_zero", "Representation.IsIrreducible.algebraMap_intertwiningMap_bijective_of_isAlgClosed", "Subrepresentation.exists_subquotient_tprod_equiv"]
+order = 3755
+uses = ["sk-i-restriction"]
 tags = ["sketch"]
 +++
-Three standard facts about finite-dimensional representations over a field
-$k$; they are quoted, not proved here.
+Suppose $V$ and $V'$ have composition factors $A_1,\ldots,A_t$ and
+$B_1,\ldots,B_u$. There is a $W$-stable filtration of $V\otimes V'$ with
+graded pieces $A_a\otimes B_b$, one for each pair $(a,b)$. There is a
+$W$-stable filtration of $\bigwedge^rV$ with graded pieces
 
-1. **(L1)** *Jordan–Hölder.* A finite-dimensional
-$k$-representation has a composition series, and the
-multiset of its simple subquotients is independent of the series.
-1. **(L2)** *Schur's lemma.* An endomorphism of a simple module
-commuting with the action is zero or invertible; over an algebraically
-closed $k$ it is a scalar. In particular a central element acts on a simple
-module by a scalar, nonzero when the element is invertible.
-1. **(L3)** *Tensor filtration.* A tensor product, exterior power or
-dual of representations carrying filtrations carries the induced filtration,
-whose graded pieces are the corresponding constructions on the graded
-pieces; consequently the constituents of such a construction are determined
-by the constituents of its arguments.
+$$
+\bigotimes_{a=1}^t\bigwedge\nolimits^{n_a}A_a,
+\qquad 0\le n_a\le\dim A_a,\qquad\sum_an_a=r.
+$$
+
+The simple factors of $V\otimes V'$ and $\bigwedge^rV$, counted with
+multiplicity, are those of the respective graded pieces. Every displayed
+exterior-power piece is nonzero.
+
+*Complement.* Composition series exist, and the multiset of their simple
+factors does not depend on the series (Jordan–Hölder); in particular these
+multisets do not change when $V$ and $V'$ are replaced by their
+semisimplifications. The dual of a filtered representation carries the
+dual filtration, with the duals of the graded pieces. Schur's lemma: an
+endomorphism of a simple representation commuting with the action is zero
+or invertible, and over $\overline{\mathbf Q}_\ell$ it is a scalar; in
+particular an invertible central element acts on a simple representation
+by a nonzero scalar.

@@ -3,8 +3,8 @@ id = "thm-weil-deligne-purity"
 kind = "theorem"
 title = "Deligne smooth-proper purity"
 lean = ["AlgebraicGeometry.WeilSheaf.deligne_purity"]
-order = 3216
-uses = ["cor-zl-purity-smooth-proper", "def-trf-frobenius-operators", "def-weil-complex-weights", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "sk-def-sfb-pulled-back-coefficients", "sk-def-sf-weil-complexes", "lem-zl-constant-sheaf-weight-zero", "prop-weil-proper-compact-coincidence", "thm-sf-dual-perfect", "thm-zl-wme-deligne-estimate"]
+order = 4095
+uses = ["cor-zl-purity-smooth-proper", "def-trf-frobenius-operators", "def-weil-complex-weights", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "det-def-sfb-pulled-back-coefficients", "sk-def-sf-weil-complexes", "lem-zl-constant-sheaf-weight-zero", "prop-weil-proper-compact-coincidence", "thm-sf-dual-perfect", "thm-zl-wme-deligne-estimate"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$,
 $k_0=\Fq$, and let $k=\Fbar$ be the
@@ -22,7 +22,7 @@ geometric Frobenius; let $F$ be the induced
 global geometric-Frobenius
 operator. Let
 $(\Qlb)_X=p_X^*\Qlb$ be the coefficient sheaf on the
-small pro-etale site ([sk-def-sfb-pulled-back-coefficients]), with its
+small pro-etale site ([det-def-sfb-pulled-back-coefficients]), with its
 canonical Weil structure ([sk-def-sf-weil-complexes]). For each $0\leq i\leq2d$, let
 
 $$

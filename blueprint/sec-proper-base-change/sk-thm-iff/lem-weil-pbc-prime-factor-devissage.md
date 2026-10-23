@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-prime-factor-devissage"
 kind = "lemma"
 title = "Prime-factor devissage"
-order = 1118
+order = 1565
 lean = ["CategoryTheory.Abelian.nsmulShortComplex", "CategoryTheory.Abelian.shortExact_nsmulShortComplex", "CategoryTheory.Abelian.nsmul_id_kernel_eq_zero", "CategoryTheory.Abelian.nsmul_id_image_eq_zero", "CategoryTheory.ObjectProperty.prop_of_nsmul_id_eq_zero"]
 uses = ["def-weil-pbc-etale-sheaves"]
 +++

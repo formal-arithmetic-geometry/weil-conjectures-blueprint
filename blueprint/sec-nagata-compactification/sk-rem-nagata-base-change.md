@@ -2,7 +2,7 @@
 id = "sk-rem-nagata-base-change"
 kind = "remark"
 title = "Base change of a compactification"
-order = 7
+order = 149
 tags = ["sketch"]
 +++
 For every $S'\to S$, the base change of a compactification is an open

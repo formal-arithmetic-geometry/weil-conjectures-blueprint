@@ -1,0 +1,16 @@
++++
+id = "lem-weil-pbc-sheaf-tensor-closed"
+kind = "lemma"
+title = "A-valued sheaves on an essentially small site: Grothendieck abelian, symmetric monoidal closed under the sheafified tensor product"
+lean = ["CategoryTheory.GrothendieckTopology.isGrothendieckAbelian_sheaf_of_essentiallySmall", "CategoryTheory.HasSheafify", "CategoryTheory.sheafificationAdjunction", "CategoryTheory.GrothendieckTopology.W.monoidal", "CategoryTheory.Sheaf.monoidalCategory", "CategoryTheory.GrothendieckTopology.monoidalCategory_sheaf_of_essentiallySmall", "CategoryTheory.GrothendieckTopology.symmetricCategory_sheaf_of_essentiallySmall", "CategoryTheory.Sheaf.monoidalPreadditive", "CategoryTheory.Sheaf.presheafToSheafCompTensorLeftIso", "CategoryTheory.GrothendieckTopology.monoidalClosed_sheaf_of_essentiallySmall", "CategoryTheory.GrothendieckTopology.preservesColimitsOfSize_tensorLeft_sheaf_of_essentiallySmall", "CategoryTheory.GrothendieckTopology.preservesColimitsOfSize_tensorRight_sheaf_of_essentiallySmall", "CategoryTheory.Sheaf.symmetricCategory", "AlgebraicGeometry.ProEtale.sheafMonoidalCategory", "AlgebraicGeometry.ProEtale.sheafSymmetricCategory", "AlgebraicGeometry.ProEtale.sheafMonoidalClosed", "AlgebraicGeometry.ProEtale.preservesColimitsOfSize_tensorLeft_sheaf", "AddCommGrpCat.monoidalCategory", "AddCommGrpCat.monoidalClosed"]
+order = 917
+tags = ["stacks-0GMW"]
+uses = ["def-weil-pbc-proetale-site"]
++++
+Let $\mathcal C$ be an essentially small category with a Grothendieck topology $J$, and let $\mathcal A$ be a Grothendieck abelian category with a symmetric monoidal closed structure $(\otimes,\mathbf 1)$ whose tensor product is additive in each variable. Examples are $\mathcal A=\Mod_R$ for a commutative ring $R$, and $\mathcal A=\Ab$ with the tensor product $M\otimes N=M\otimes_{\mathbf Z}N$, unit $\mathbf Z$ and internal hom the group $\Hom(M,N)$; for $\Ab$ this is the monoidal structure used throughout, *not* the cartesian one. Examples of sites are the small pro-étale site $X_{\mathrm{proét}}$ of a scheme $X$ ([def-weil-pbc-proetale-site]) and the category of profinite sets with the coherent topology. Let $a:\mathrm{PSh}(\mathcal C;\mathcal A)\to\mathrm{Sh}(\mathcal C,J;\mathcal A)$ be sheafification, left adjoint to the inclusion $\iota$, and equip presheaves with the objectwise tensor product $(F\otimes_pG)(V)=F(V)\otimes G(V)$. Then:
+
+1. $\mathrm{Sh}(\mathcal C,J;\mathcal A)$ is a Grothendieck abelian category, and $a$ is exact;
+2. the morphisms inverted by $a$ are stable under $\otimes_p$ with any presheaf, so the *tensor product* $F\otimes G:=a(\iota F\otimes_p\iota G)$ with unit $a(\underline{\mathbf 1})$ is a symmetric monoidal structure on $\mathrm{Sh}(\mathcal C,J;\mathcal A)$, additive in each variable, for which $a$ is strong symmetric monoidal: $a(P\otimes_pQ)\cong aP\otimes aQ$ naturally in presheaves $P,Q$;
+3. this monoidal structure is closed, so for every sheaf $Q$ the functors $Q\otimes-$ and $-\otimes Q$ are left adjoints and preserve all colimits; in particular they are right exact.
+
+For $\mathcal A=\Ab$, the tensor product of abelian sheaves is the sheafified objectwise $\otimes_{\mathbf Z}$, with unit the constant sheaf $\underline{\mathbf Z}$.

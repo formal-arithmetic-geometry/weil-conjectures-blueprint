@@ -2,7 +2,7 @@
 id = "sk-lem-sp-tower"
 kind = "lemma"
 title = "Reconstruction of a normalized tower"
-order = 1823
+order = 2985
 uses = ["sk-def-sp-normalized-towers", "sk-prop-pe-replete"]
 tags = ["sketch"]
 +++

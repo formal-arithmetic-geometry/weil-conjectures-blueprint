@@ -41,7 +41,7 @@ constructible $E$-sheaf for a finite $E/\Ql$
 subquotients $a_!L$, $L$ lisse with a lisse $\mathcal O_E$-lattice $L_0$
 ([sk-lem-coefficient-heart](3), [sk-lem-stratified-lattice]). The complex
 $M=R\Gamma_c(X_{\bar y},a_!L_0)$ is derived $\pi_E$-complete
-([sk-prop-integral-criterion], [sk-def-pe-derived-completion]) with
+([sk-prop-integral-criterion], [def-pe-derived-complete]) with
 $M\otimes^{\mathbf L}\mathcal O_E/\pi_E^n\simeq R\Gamma_c(X_{\bar y},a_!L_0/\pi_E^n)$
 ([sk-prop-scalar-six]); these torsion complexes have finite cohomology
 ([sbc-thm-finiteness-finite-type]) vanishing above degree $2d$, so

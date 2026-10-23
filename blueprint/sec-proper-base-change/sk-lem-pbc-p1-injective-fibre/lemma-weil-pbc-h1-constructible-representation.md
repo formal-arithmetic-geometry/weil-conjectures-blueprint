@@ -3,12 +3,21 @@ id = "lemma-weil-pbc-h1-constructible-representation"
 kind = "lemma"
 title = "Constructible representation of an $H^1$ class"
 lean = ["AlgebraicGeometry.Etale.exists_sum_eq_of_injective_projectiveLine"]
-order = 1192
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-constructible-approximation", "lemma-weil-pbc-constructible-finite-pushforward"]
+order = 1583
+uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-constructible-approximation", "lemma-weil-pbc-constructible-finite-pushforward", "def-weil-pbc-strict-henselian-setup"]
 +++
-Let $I$ be an injective sheaf of $\mathbf F_\ell$-modules on $X=\mathbf P^1_A$.
-Every class $c\in H^1(X_0,I_0)$ admits finite $\mathbf F_\ell$-modules $M_i$,
-finite finitely presented morphisms $h_i:V_i\to X$, and a map
-$\bigoplus_i(h_i)_*\underline{M_i}\to I$ such that $c$ is the image of a
-tuple of classes in
-$\bigoplus_iH^1(X_0,(h_i)_*\underline{M_i}|_{X_0})$.
+Let $A$ be a strictly henselian local ring with residue field $\kappa$, and in the
+setup of [def-weil-pbc-strict-henselian-setup] let $X=\mathbf P^1_A$ with closed
+fibre $X_0=\mathbf P^1_\kappa$. Let $r$ be a prime and $I$ an injective sheaf of
+$\mathbf F_r$-modules on $X_{\Et}$. Every class $c\in H^1(X_0,I_0)$ is a finite
+sum
+
+$$
+ c=\sum_{j=1}^m\psi_{j,0}(x_j),
+$$
+
+where $h_j:V_j\to X$ are finite morphisms of finite presentation, $M_j$ are
+finite $\mathbf F_r$-modules, $\psi_j:(h_j)_*\underline{M_j}\to I$ are morphisms
+of sheaves, and $x_j\in H^1(X_0,((h_j)_*\underline{M_j})_0)$. Equivalently, $c$ is
+the image of a class of $H^1\bigl(X_0,(\bigoplus_j(h_j)_*\underline{M_j})_0\bigr)$
+under a map $\bigoplus_j(h_j)_*\underline{M_j}\to I$.

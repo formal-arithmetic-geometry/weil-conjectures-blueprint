@@ -2,7 +2,7 @@
 id = "sec-nagata-compactification"
 kind = "section"
 title = "Nagata Compactification"
-order = 0
+order = 1
 +++
 **Content.** Every separated finite-type morphism $f\colon X\to S$ to a
 qcqs scheme factors as a quasi-compact open immersion followed by a proper

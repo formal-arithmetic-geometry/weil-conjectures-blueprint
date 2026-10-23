@@ -3,7 +3,8 @@ kind  = "proof"
 of    = "lem-pc-picard-functor-agrees-sc"
 +++
 Both sides are the fppf sheafification of the same presheaf on the
-category of affine $k$-schemes: the left is the restriction of the fppf
+category of affine $k$-schemes (equivalently, of $k$-algebras), and the
+argument uses nothing about $X$ (the same reasoning works over any base $S$): the left is the restriction of the fppf
 sheafification on $(\mathit{Sch}/k)_{fppf}$, and fppf sheafification
 commutes with restricting to the essentially full subcategory of affine
 schemes, because the $(\mathit{Sch}/k)_{fppf}$-coverings of an affine

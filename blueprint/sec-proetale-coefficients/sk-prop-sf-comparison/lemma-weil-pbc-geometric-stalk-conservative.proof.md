@@ -17,7 +17,7 @@ larger universe of sets does not change these stalks
 Let $u:U\to S$ be etale and $x\in U$ with $s=u(x)$. Since $\kappa(x)$ is a
 finite separable extension of $\kappa(s)$, it embeds over $\kappa(s)$ into the
 algebraic closure $\overline{\kappa(s)}$ (which is in particular separably
-closed, [def-kun-separably-closed]); this gives a geometric point $\bar x$ of
+closed, [def-pc-separably-closed]); this gives a geometric point $\bar x$ of
 $U$ at $x$ lying over $\bar s$, so $(U,\bar x)$ is a pointed etale
 neighbourhood of $\bar s$.
 

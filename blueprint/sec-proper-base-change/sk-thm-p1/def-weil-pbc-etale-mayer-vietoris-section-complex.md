@@ -3,6 +3,11 @@ id = "def-weil-pbc-etale-mayer-vietoris-section-complex"
 kind = "definition"
 title = "The explicit two-open section short complex"
 uses = ["def-pc-scheme"]
-lean = ["AlgebraicGeometry.Etale.etaleSectionShortComplex"]
+lean = ["AlgebraicGeometry.Etale.etaleSectionShortComplex", "AlgebraicGeometry.Etale.etaleSectionFunctor", "AlgebraicGeometry.Etale.etaleSectionMap"]
+order = 1641
 +++
-For a scheme X [def-pc-scheme], opens U,V of X, and a nonnegative cochain complex I of abelian etale sheaves `CategoryTheory.Sheaf` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Sites/Sheaf.lean)), define Sec(I,W) by applying evaluation at the etale object W degreewise. Define etaleSectionShortComplex(U,V,I) `CategoryTheory.ShortComplex.Exact` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Algebra/Homology/ShortComplex/Exact.lean)) to have objects Sec(I,X), Sec(I,U) direct-sum Sec(I,V), Sec(I,U intersection V), first arrow the restriction pair and second arrow the difference of restrictions. Restriction maps commute with differentials by naturality. The composite is zero because both composites are restriction from X to the intersection. The auxiliary etaleSectionFunctor and etaleSectionMap are the evaluation functor and its induced map on complexes.
+Let $X$ be a scheme [def-pc-scheme], $U,V\subseteq X$ opens, and $I$ a cochain complex of abelian etale sheaves on $X$ concentrated in degrees $\ge0$. For an etale object $W$ of $X$ let $\mathrm{Sec}(I,W)$ be the complex of abelian groups obtained by evaluating $I$ at $W$ degreewise; a morphism $W'\to W$ of etale objects induces the restriction map $\mathrm{Sec}(I,W)\to\mathrm{Sec}(I,W')$, a map of complexes since restriction commutes with the differentials. The *two-open section short complex* is
+$$
+\mathrm{Sec}(I,X)\xrightarrow{\ (\mathrm{res}^X_U,\ \mathrm{res}^X_V)\ }\mathrm{Sec}(I,U)\oplus\mathrm{Sec}(I,V)\xrightarrow{\ (a,b)\mapsto\mathrm{res}^U_{U\cap V}a-\mathrm{res}^V_{U\cap V}b\ }\mathrm{Sec}(I,U\cap V),
+$$
+a short complex of complexes of abelian groups: the composite is zero because both $\mathrm{res}^U_{U\cap V}\circ\mathrm{res}^X_U$ and $\mathrm{res}^V_{U\cap V}\circ\mathrm{res}^X_V$ are the restriction from $X$ to $U\cap V$.

@@ -2,6 +2,7 @@
 id = "det-uniform-constructible-ext-integral"
 kind = "lemma"
 title = "The integral stratum bound"
+order = 2223
 uses = ["det-uniform-constructible-ext-torsion", "sk-lem-formal-closed-support", "sk-lem-formal-closed-support-ii", "sk-prop-pe-milnor"]
 +++
 In the situation of [det-uniform-constructible-ext-torsion],

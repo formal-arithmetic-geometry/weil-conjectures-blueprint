@@ -2,7 +2,7 @@
 id = "sk-lem-tf-fixed-points"
 kind = "lemma"
 title = "The Frobenius fixed scheme"
-order = 2621
+order = 3507
 uses = ["sk-d-weil"]
 tags = ["sketch"]
 +++

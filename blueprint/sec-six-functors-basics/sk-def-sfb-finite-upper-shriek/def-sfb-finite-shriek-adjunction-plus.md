@@ -2,7 +2,7 @@
 id = "def-sfb-finite-shriek-adjunction-plus"
 kind = "definition"
 title = "The adjunction $Rf_!\\dashv Rf^!$ on $D^+$"
-order = 1684
+order = 2534
 uses = ["def-sfb-finite-derived-lower-shriek-plus", "def-sfb-finite-derived-lower-shriek-plus-compat", "def-sfb-finite-shriek-adjunction", "def-sfb-finite-upper-shriek-plus"]
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedUpperShriekPlusAdjunction"]
 +++

@@ -60,5 +60,5 @@ $G_{\bar u}$ gives a filtration of $v^{-1}G$ with constant
 $\mathbf F_\ell$-quotients. At a geometric point, the unit
 $G\to v_*v^{-1}G$ is the diagonal and the trace is the sum over the finite
 fibre, by [lemma-weil-pbc-finite-stalk-formula], so their composite is
-$\deg(v)\operatorname{id}_G$ with $\deg(v)\not\equiv0\pmod\ell$, and $G$ is a
-direct summand of $v_*v^{-1}G$.
+$d\operatorname{id}_G$ with $d\not\equiv0\pmod\ell$, and
+$r=d^{-1}\operatorname{tr}$ is the required retraction.

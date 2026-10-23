@@ -2,7 +2,7 @@
 id = "thm-sf-verdier-exchange"
 kind = "theorem"
 title = "Verdier-duality exchange"
-order = 2515
+order = 3303
 uses = ["def-sf-datum", "def-sf-pf", "def-trf-admissibility", "def-weil-exceptional-inverse-image", "fix-cor-verdier-exchange", "lem-sf-mate", "lem-sf-tensor-hom", "thm-sf-comp-composition"]
 +++
 In the setting of [def-sf-datum], let $f:X\to Y$ be a separated
@@ -17,5 +17,4 @@ $$
 D_Y(Rf_!M)\xrightarrow{\ \sim\ }Rf_*D_X(M),
 $$
 
-natural in $M$, compatible with finite reduction, scalar extension, and
-shifts.
+natural in $M$ and compatible with shifts.

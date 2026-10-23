@@ -2,7 +2,7 @@
 id = "pur9-def-reduction-push"
 kind = "definition"
 title = "Reduction comparison for direct image"
-order = 2365
+order = 2972
 uses = ["sk-prop-sf-pf-reduction"]
 +++
 Under Input “Reduction commutes with inverse image and tensor product” (`pur9-input-reduction-monoidal`, in [sk-prop-sf-pf-reduction]), for $p:\overline X\to Y$ and $M\in D(\overline X_{\Proet},\mathcal O_E/\pi_E^n)$, let

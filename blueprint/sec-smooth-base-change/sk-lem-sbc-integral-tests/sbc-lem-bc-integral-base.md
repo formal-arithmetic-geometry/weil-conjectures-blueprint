@@ -3,7 +3,7 @@ id = "sbc-lem-bc-integral-base"
 kind = "lemma"
 title = "Integral base change on the source"
 lean = ["AlgebraicGeometry.Etale.nonempty_arrowIso_baseChangeHomologyMap_comp", "AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_iff_of_isIntegralHom", "AlgebraicGeometry.Etale.isZero_of_isZero_lowerStar_obj"]
-order = 1452
+order = 2066
 uses = ["lemma-weil-pbc-finite-direct-image-exact", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-integral-etale-direct-image-exact"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] and some

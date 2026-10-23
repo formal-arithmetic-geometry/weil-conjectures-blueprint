@@ -3,7 +3,7 @@ id = "lemma-nagata-localization-rees-piece"
 kind = "lemma"
 title = "Localization of each Rees piece"
 lean = ["AlgebraicGeometry.reesGradingLocalizationEquiv"]
-order = 46
+order = 180
 uses = ["lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-piece-membership"]
 +++
 Flatness of $A\to A_s$ gives an $A_s$-linear equivalence

@@ -7,7 +7,7 @@ Its intersections are affine. The Cech spectral sequence of
 [lem-sc-cech-spectral] on the etale site has only row zero,
 by [lem-sc-etale-affine-qcoherent]. The corresponding Zariski
 spectral sequence also has only row zero, by
-[lem-pc-affine-vanishing]. Both row-zero complexes have terms
+[pqf-lem-affine-vanishing]. Both row-zero complexes have terms
 $\Gamma(U_J,\mathcal F)$ and the same differentials, so their
 cohomology groups agree naturally.
 

@@ -2,18 +2,27 @@
 kind  = "proof"
 of    = "sk-cor-plancherel"
 +++
-Apply $\iota$ to the finite Fourier sum of P8, multiply by its complex
-conjugate and sum over $y$; since $\iota\psi_n(z)$ is a complex root of
-unity, $\overline{\iota\psi_n(x'y)}=\iota\psi_n(-x'y)$, so
+*The formula (17.3).* By the stalk formula of [sk-thm-inversion] and the
+Grothendieck–Lefschetz formula ([sk-thm-tf-uniform-formula], in the
+point-counting form of [sk-cor-tf-point-counting]) on the fibre of $p_2$ over
+$y$, the trace of Frobenius at $y$ is the sum over the fibre of the traces of
+$K\otimes\mathcal L_{\psi\langle x,y\rangle}$, times $(-1)^r$ for the shift
+$[r]$; the trace of the character sheaf at $x$ is
+$\psi(\operatorname{Tr}\langle x,y\rangle)$ by [sk-lem-as-properties], and
+traces are multiplicative for tensor products.
+
+*Plancherel.* We expand the square of the sum in (17.3),
+using that the complex conjugate of a character value is its inverse.
+For $x,z\in\mathbf F_{q^n}^r$, the orthogonality of characters gives
 
 $$
-\sum_y\Bigl|\sum_x\iota t_K(x)\,\iota\psi_n(xy)\Bigr|^2
-=\sum_y\sum_{x,x'}\iota t_K(x)\,\overline{\iota t_K(x')}\,
-\iota\psi_n\bigl((x-x')y\bigr);
+ \sum_y\iota\psi\bigl(\operatorname{Tr}\langle x-z,y\rangle\bigr)
+  =\begin{cases}q^{nr},&x=z,\\0,&x\ne z.\end{cases}
 $$
 
-the orthogonality of [sk-lem-orthogonality] (an identity in $\Qlb$,
-transported by $\iota$) makes the inner $y$-sum $q^n$
-on the diagonal and $0$ off it, which is the identity. This is the classical
-Plancherel theorem for the finite group $(\mathbf F_{q^n},+)$, transported to
-trace functions; no weight enters.
+Indeed, for $x\ne z$ the nondegeneracy of the trace pairing provides a
+translation in $y$ that multiplies the sum by a scalar different from
+one, so the sum is zero. Hence only the diagonal terms remain, and they
+give the asserted identity. On a line, the factor $q^n$ raises the
+growth parameter by one ([sk-def-wrp-l2-definition]: $\nu$ is defined by
+$\limsup_n n^{-1}\log_qS_n-1$, and $S_n(\operatorname{FT}_\psi K)=q^nS_n(K)$).

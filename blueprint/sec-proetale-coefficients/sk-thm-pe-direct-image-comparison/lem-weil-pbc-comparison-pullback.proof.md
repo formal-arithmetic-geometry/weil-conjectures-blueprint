@@ -2,25 +2,22 @@
 kind  = "proof"
 of    = "lem-weil-pbc-comparison-pullback"
 +++
-On a representable etale sheaf $h_W$, both inverse-image composites give the
-pro-etale sheaf represented by $W\times_VU$. To check the comparison inverse
-image in this assertion, work on affine charts and write a basis object as a
-limit of affine etale schemes. Maps from this limit into an affine etale
-scheme of finite presentation descend to a stage, so the formula of
-[lem-weil-pbc-comparison-sections] is exactly the representable sheaf of the
-base change. General etale $W$ follows by its affine covering and sheaf
-gluing. Scheme inverse image on a representable is its base change by the
-defining base-change functor on sites.
+Pass to right adjoints. By [def-weil-pbc-site-comparison-morphism] the functor
+$\nu_{T,*}$ is restriction of a pro-etale sheaf to etale $T$-schemes, and by
+[def-weil-pbc-direct-image] the direct image $u_*$ on either site is
+$(u_*G)(E)=G(E\times_VU)$. For an etale $V$-scheme $E$ the base change
+$E\times_VU$ is etale over $U$, so both composites $\nu_{V,*}u_{\Proet,*}$ and
+$u_{\Et,*}\nu_{U,*}$ send a pro-etale sheaf $G$ on $U$ to
+$E\mapsto G(E\times_VU)$. This gives a natural isomorphism
+$\nu_{V,*}u_{\Proet,*}\simeq u_{\Et,*}\nu_{U,*}$. The composites
+$u_{\Proet}^{-1}\nu_V^*$ and $\nu_U^*u_{\Et}^{-1}$ are left adjoint to these two
+functors ([def-weil-pbc-inverse-image]), so the conjugate of this isomorphism is
+the asserted isomorphism of left adjoints.
 
-Every sheaf is a colimit of representable sheaves over its sections.
-Explicitly, the coproduct of these representables maps epimorphically to the
-sheaf, and the two projections from its relation sheaf give a coequalizer
-presentation. In module sheaves use free modules on those representables and
-a cokernel presentation instead. Inverse images preserve these colimits. Thus
-the just specified identifications extend uniquely to an isomorphism on every
-sheaf for the morphism of [def-weil-pbc-site-comparison-morphism]. On
-representables the identity and composition equations are the identity and
-associativity of scheme base change, including the chosen cartesian
-identification in [def-weil-pbc-cartesian-square]. The colimit presentations
-extend these equations to all sheaves. Exactness gives the same coherent
-isomorphisms on complexes.
+The functors $u_{\Et}^{-1}$ and $u_{\Proet}^{-1}$ are exact
+([prop-weil-pbc-inverse-image-exact], [lem-sfb-finite-upper-star-exact]),
+and so are $\nu_U^*$ and $\nu_V^*$. Applied termwise to complexes, the
+isomorphism therefore descends to the derived categories
+[def-weil-pbc-derived-categories]. Finally the left derived functor of the exact
+functor $u_{\Proet}^*$ is computed termwise, $Lu_{\Proet}^*\simeq u_{\Proet}^{-1}$
+on complexes, which gives the last isomorphism on bounded-below objects.

@@ -2,7 +2,7 @@
 id = "sk-d-proper-pushforward"
 kind = "definition"
 title = "Pushforward of a correspondence"
-order = 2616
+order = 3485
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-d-trace-class"]
 lean = ["AlgebraicGeometry.ProEtale.ProperPushforwardDiagram"]
 tags = ["sketch"]

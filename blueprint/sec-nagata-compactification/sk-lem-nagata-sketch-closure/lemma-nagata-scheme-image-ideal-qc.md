@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-image-ideal-qc"
 kind = "lemma"
 title = "The kernel ideal of a scheme-theoretic image"
-order = 72
+order = 105
 lean = ["AlgebraicGeometry.Scheme.Hom.image", "AlgebraicGeometry.Scheme.Hom.toImage_imageι", "AlgebraicGeometry.Scheme.Hom.toImage_app_injective", "AlgebraicGeometry.Scheme.Hom.stalkFunctor_toImage_injective", "AlgebraicGeometry.Scheme.Hom.support_ker"]
 +++
 For a morphism $g\colon T\to Y$, the scheme-theoretic image is the closed

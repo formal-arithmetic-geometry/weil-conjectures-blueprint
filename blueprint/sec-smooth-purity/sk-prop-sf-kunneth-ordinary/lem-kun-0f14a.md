@@ -2,8 +2,8 @@
 id = "lem-kun-0f14a"
 kind = "lemma"
 title = "Kunneth formula, one proper factor, integer coefficients"
-order = 2109
-uses = ["def-kun-kunneth-map", "def-kun-rgamma-unbounded", "def-kun-separably-closed", "def-kun-torsion-invertible", "def-weil-pbc-scheme-conventions", "lem-kun-0f0e", "lem-kun-0f0f", "lem-kun-kunneth-map-agrees", "lem-kun-leray-bdd", "lem-kun-proper-stability", "lem-kun-pullback-constant", "lem-kun-tensor-sym", "thm-weil-pbc-bounded-below"]
+order = 3188
+uses = ["def-kun-kunneth-map", "def-kun-rgamma-unbounded", "def-pc-separably-closed", "def-kun-torsion-invertible", "def-weil-pbc-scheme-conventions", "lem-kun-0f0e", "lem-kun-0f0f", "lem-kun-kunneth-map-agrees", "lem-kun-leray-bdd", "lem-kun-proper-stability", "lem-kun-pullback-constant", "lem-kun-tensor-sym", "thm-weil-pbc-bounded-below"]
 +++
 Let $k$ be a separably closed
 field. Let $X$ be a

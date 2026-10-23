@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lemma-constructible-universal-homeomorphism-invariance"
-uses = ["def-kun-separably-closed", "lem-weil-pbc-closed-immersion-from-composite", "lemma-constructible-pullback-constant", "lemma-constructible-pullback-locally-constant", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-openclosed-stalk-upperstar", "prop-constructible-pullback", "prop-weil-pbc-universal-homeomorphism-topos"]
+uses = ["def-pc-separably-closed", "lem-weil-pbc-closed-immersion-from-composite", "lemma-constructible-pullback-constant", "lemma-constructible-pullback-locally-constant", "lemma-nagata-affine-finite-type-is-quasi-affine", "lemma-openclosed-stalk-upperstar", "prop-constructible-pullback", "prop-weil-pbc-universal-homeomorphism-topos"]
 +++
 The direction ``only if'' is [lemma-constructible-pullback-constant],
 [lemma-constructible-pullback-locally-constant], [lemma-constructible-pullback-finite].
@@ -34,7 +34,7 @@ Finiteness, for $u$ a surjective closed immersion: by the lifting just
 proved, every geometric point $\bar z$ of $Z$ lifts to a geometric point
 $\bar z'$ of $Z'$ with $u\circ\bar z'=\bar z$, and the stalk of
 $\mathcal G$ at $\bar z$ is the stalk of $u^*\mathcal G$ at $\bar z'$
-([lemma-openclosed-stalk-upperstar]). Hence $\mathcal G$ has finite stalks
-if $u^*\mathcal G$ does; the converse is [lemma-constructible-pullback-finite].
+([lemma-openclosed-stalk-upperstar]). Hence $\mathcal G$ has finitely generated
+stalks if $u^*\mathcal G$ does; the converse is [lemma-constructible-pullback-finite].
 Combining with local constancy gives the statement for finite locally
 constant sheaves.

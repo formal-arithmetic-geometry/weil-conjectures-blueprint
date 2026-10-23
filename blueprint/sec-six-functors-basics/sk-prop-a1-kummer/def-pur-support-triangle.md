@@ -3,8 +3,8 @@ id = "def-pur-support-triangle"
 kind = "definition"
 title = "The support-localization triangle of a complex: the construction"
 lean = ["AlgebraicGeometry.Etale.supportsUnit", "AlgebraicGeometry.Etale.supportsShortComplex"]
-order = 2275
-uses = ["def-pur-flasque-support", "def-weil-pbc-kinjective-resolutions"]
+order = 2821
+uses = ["def-pur-flasque-support", "def-sp-kinjective-bridge"]
 +++
 Fix the closed–open pair of
 supported sections. For a bounded

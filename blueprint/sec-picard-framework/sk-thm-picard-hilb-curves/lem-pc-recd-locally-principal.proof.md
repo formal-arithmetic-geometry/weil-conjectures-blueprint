@@ -3,7 +3,7 @@ kind  = "proof"
 of    = "lem-pc-recd-locally-principal"
 +++
 The statement is local on $X$ (the conclusion asserts: $Z$ is an
-effective Cartier divisor on $X$ – a local property, cf. [def-sc-effective-cartier-divisor] – and $Z\to S$ is flat – a
+effective Cartier divisor on $X$ – a local property, cf. [def-nagata-invertible-ideal] – and $Z\to S$ is flat – a
 property local on $Z$); so fix $x\in Z$, let $s:=\phi(x)$, and choose
 affine open neighbourhoods $\operatorname{Spec}(A)$ of $s$ and $\operatorname{Spec}(B)$ of $x$
 with $\phi(\operatorname{Spec}(B))\subseteq\operatorname{Spec}(A)$; let $\mathfrak p\subset A$, $\mathfrak q\subset B$ be the corresponding prime

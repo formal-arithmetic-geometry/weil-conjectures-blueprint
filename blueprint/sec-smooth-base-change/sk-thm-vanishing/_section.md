@@ -2,8 +2,8 @@
 id = "sk-thm-vanishing"
 kind = "proposition"
 title = "Base change to a larger algebraically closed field"
-order = 1431
-uses = ["sk-def-smooth", "sk-prop-cd-affine", "sk-prop-etale-normal", "sk-prop-ext-invariance", "sk-thm-curve-package", "sk-lem-pe-torsor-comparison", "sk-prop-input-spreading", "sk-prop-input-torsors", "sk-prop-normal-form"]
+order = 2069
+uses = ["sk-def-smooth", "sk-prop-etale-normal", "sk-thm-curve-package", "sk-lem-pe-torsor-comparison", "sk-prop-input-spreading", "sk-prop-input-torsors", "sk-prop-normal-form"]
 lean = ["AlgebraicGeometry.Etale.CurveTestDatum.isZero_higherDirectImage_constantSheaf"]
 tags = ["sketch"]
 +++

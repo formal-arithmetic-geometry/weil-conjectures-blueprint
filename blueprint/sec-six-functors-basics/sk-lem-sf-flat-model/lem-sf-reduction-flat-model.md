@@ -3,7 +3,7 @@ id = "lem-sf-reduction-flat-model"
 kind = "lemma"
 title = "Reduction of the flat model"
 lean = ["AlgebraicGeometry.Etale.reductionModIdeal_flatModel", "AlgebraicGeometry.ProEtale.flatModel_reduction"]
-order = 2178
+order = 2292
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-site", "def-weil-pbc-proetale-site", "lem-exc-constant-inverse-image-flat", "lem-sf-flat-model"]
 +++
 Let $A_{E,m}$ and $A_{E,n}$ be two finite coefficient rings with

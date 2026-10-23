@@ -2,8 +2,8 @@
 id = "def-sfb-finite-lower-shriek-compactification"
 kind = "definition"
 title = "Lower shriek along a compactification"
-order = 1658
-uses = ["def-sfb-finite-extension-by-zero", "def-sfb-finite-lower-star", "sk-def-nagata-sketch-data"]
+order = 2508
+uses = ["def-weil-extension-by-zero", "def-sfb-finite-lower-star", "sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.ProEtale.Compactification.lowerShriek"]
 +++
 Let $\mathcal A$ be a Grothendieck abelian category and let
@@ -15,5 +15,5 @@ $$
 f_!^c:=g_*\circ i_!\colon\Sh(X_{\mathrm{proét}},\mathcal A)\to\Sh(Y_{\mathrm{proét}},\mathcal A),
 $$
 
-with $i_!$ the extension by zero of [def-sfb-finite-extension-by-zero] and $g_*$ the
+with $i_!$ the extension by zero of [def-weil-extension-by-zero] and $g_*$ the
 pushforward of [def-sfb-finite-lower-star].

@@ -2,24 +2,24 @@
 id = "sec-curve-estimates"
 kind = "section"
 title = "Curve Estimates"
-order = 878
-uses = ["sec-abelian-varieties", "sec-picard-framework", "sec-proetale-coefficients", "sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-av-final"]
+order = 1274
+uses = ["sec-abelian-varieties", "sec-nagata-compactification", "sec-picard-framework", "sec-proetale-coefficients", "sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-av-final"]
 +++
 **Content.** For a smooth proper connected curve $C$ of genus $g$ over an
 algebraically closed field $k$ and $n$ prime to $\operatorname{char}k$, this
 section computes $H^*(C,\Z/n)$: it is $\Z/n$, $(\Z/n)^{2g}$, $\Z/n$ in degrees
 $0,1,2$ and vanishes above. This is the curve input to proper base change. The
-route: Tsen's theorem [sk-prop-tsen] makes $k(C)$ a $C_1$ field, so
-$\Br(k(C))=0$; the divisor sequence [sk-prop-divisor-gen] gives an injection
-$\Br(C)\hookrightarrow\Br(k(C))$ [sk-prop-br-inj], hence $\Br(C)=0$
+route: Tsen's theorem [lem-sc-tsen] makes $k(C)$ a $C_1$ field, so
+$\Br(k(C))=0$; the divisor sequence [lem-sc-divisor-sequence-general] gives an injection
+$\Br(C)\hookrightarrow\Br(k(C))$ [lem-sc-brauer-injectivity], hence $\Br(C)=0$
 [sk-thm-br]. The Kummer sequence $0\to\mu_n\to\mathbb G_m\to\mathbb G_m\to0$
-(exact by [sk-prop-kummer-exact]), with Hilbert 90 ($H^1(C,\mathbb G_m)=\Pic(C)$),
-then gives $H^1(C,\mu_n)=\Pic(C)[n]$ [sk-prop-h1] and
-$H^2(C,\mu_n)=\Pic(C)/n$ [sk-prop-h2]. The Jacobian and the structure of
+(exact by [lem-sc-kummer-exact]), with Hilbert 90 ($H^1(C,\mathbb G_m)=\Pic(C)$),
+then gives $H^1(C,\mu_n)=\Pic(C)[n]$ [det-prop-h1] and
+$H^2(C,\mu_n)=\Pic(C)/n$ [lem-sc-second-kummer-divisors]. The Jacobian and the structure of
 torsion in abelian varieties turn these into $(\Z/n)^{2g}$ and $\Z/n$. A
 generic-point argument based on Tsen bounds the cohomological dimension by $2$
-[sk-prop-cd], and by $1$ for affine curves [sk-prop-cd-affine]. Finally,
-[sk-prop-ext-invariance] shows these groups do not change under extension of
+[lem-sc-arbitrary-curve-cd], and by $1$ for affine curves [lem-sc-arbitrary-curve-cd]. Finally,
+[sbc-thm-algebraically-closed-invariance] shows these groups do not change under extension of
 the algebraically closed base field.
 
 **Key theorem.**
@@ -33,13 +33,13 @@ the algebraically closed base field.
   closed field has trivial Brauer group $H^2(C_{\Et},\mathbb G_m)$. Used in
   §[sec-proper-base-change], §[sec-smooth-purity], §[sec-trace-formula],
   §[sec-purity-real-sheaves], §[sec-deligne-laumon-a1].
-- Prop [sk-prop-cd] (vanishing in high degrees): for any curve $C$ over
+- Prop [lem-sc-arbitrary-curve-cd] (vanishing in high degrees): for any curve $C$ over
   $k=\bar k$ and any torsion sheaf with torsion prime to $\operatorname{char}k$,
   $H^q(C,F)=0$ for $q\ge3$. Used in §[sec-proper-base-change],
   §[sec-smooth-base-change], §[sec-smooth-purity], §[sec-six-functors],
   §[sec-trace-formula], §[sec-purity-real-sheaves], §[sec-fourier-transform],
   §[sec-deligne-laumon-a1], §[sec-deligne-laumon-general].
-- Prop [sk-prop-cd-affine] (affine-curve cohomological dimension): for an
+- Prop [lem-sc-arbitrary-curve-cd] (affine-curve cohomological dimension): for an
   affine curve $C$ over $k=\bar k$ and every torsion sheaf $F$,
   $H^q(C_{\Et},F)=0$ for $q>1$. Used in §[sec-proper-base-change],
   §[sec-smooth-base-change], §[sec-smooth-purity], §[sec-purity-real-sheaves],

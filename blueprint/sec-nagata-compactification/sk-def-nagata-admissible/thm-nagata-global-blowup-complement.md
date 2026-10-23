@@ -2,7 +2,7 @@
 id = "thm-nagata-global-blowup-complement"
 kind = "theorem"
 title = "Complement of the center"
-order = 67
+order = 201
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isIso_blowupMap_restrict_support_compl"]
 uses = ["def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent"]
 +++

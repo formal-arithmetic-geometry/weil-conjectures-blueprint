@@ -2,18 +2,19 @@
 id = "def-weil-pbc-etale-origin-witness"
 kind = "definition"
 title = "Explicit etale-origin witness"
-order = 1357
+order = 1982
+lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.plusEtaleOrigin"]
 uses = ["def-weil-pbc-site-comparison-morphism"]
 +++
-An object $K\in\Dplus(T_{\Proet},\Lambda)$ *comes from the etale site* if it
-is equipped with a pair
+An object $K\in D(T_{\Proet},\Lambda)$ is *bounded below of étale origin*
+(it *comes from the etale site*) if there exist
 
 $$
- (L,\alpha),\qquad
- L\in\Dplus(T_{\Et},\Lambda),\quad
+ L\in\Dplus(T_{\Et},\Lambda)\quad\text{and an isomorphism}\quad
  \alpha:\nu_T^*L\xrightarrow{\sim}K,
 $$
 
 where $\nu_T^*$ is the inverse image of the comparison morphism of sites
-[def-weil-pbc-site-comparison-morphism]. The pair $(L,\alpha)$, rather than
-only its existence, is retained when maps are transported.
+[def-weil-pbc-site-comparison-morphism]. Such a pair $(L,\alpha)$ is called an
+*etale-origin witness* for $K$. The objects of étale origin form a full
+subcategory of $D(T_{\Proet},\Lambda)$ closed under isomorphisms.

@@ -2,8 +2,8 @@
 id = "sk-prop-a1-kummer"
 kind = "proposition"
 title = "The affine line and $\\mathbf G_m$ with $\\Lambda(1)$-coefficients"
-order = 1709
-uses = ["sk-def-av-pic", "sk-def-curve", "sk-def-purity-conv", "sk-prop-cd", "sk-prop-cd-affine", "sk-prop-kummer-exact", "sk-thm-smooth-base-change"]
+order = 2788
+uses = ["sk-def-av-pic", "sk-def-curve", "sk-def-purity-conv", "sk-thm-curveestimate", "sk-thm-vanishing", "sk-thm-smooth-base-change"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerStar_affineLine", "AlgebraicGeometry.Etale.nonempty_iso_homology_zero_multiplicativeGroup", "AlgebraicGeometry.Etale.nonempty_iso_homology_one_multiplicativeGroup", "AlgebraicGeometry.Etale.isZero_homology_multiplicativeGroup"]
 tags = ["sketch"]
 +++

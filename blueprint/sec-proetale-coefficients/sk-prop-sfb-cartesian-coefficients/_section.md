@@ -2,8 +2,8 @@
 id = "sk-prop-sfb-cartesian-coefficients"
 kind = "lemma"
 title = "Inverse image of the coefficient sheaves"
-order = 747
-uses = ["sk-def-sfb-coefficient-morphisms", "sk-def-sfb-pullback-from-point-comp", "sk-prop-sfb-qlbar-colimit-x", "sk-def-sp-tate-twist"]
+order = 1248
+uses = ["sk-prop-sfb-qlbar-colimit-x", "sk-def-sp-tate-twist"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom", "AlgebraicGeometry.ProEtale.condensedPushforwardHom_id", "AlgebraicGeometry.ProEtale.condensedPushforwardHom_comp"]
 tags = ["sketch"]
 +++
@@ -18,7 +18,7 @@ Let $f\colon X\to Y$ be a morphism of schemes.
    f^{-1}\Lambda_Y\longrightarrow\Lambda_X
    $$
    is an isomorphism of sheaves of rings on $X_{\mathrm{proét}}$ (this is the map $\alpha_f$
-   of [sk-def-sfb-coefficient-morphisms]). The same holds for its Tate twists, including the
+   of [det-def-sfb-coefficient-morphisms]). The same holds for its Tate twists, including the
    twists of a finite ring $A$.
 2. If $E\subset F$ is a finite extension, then $\cO_{F,X}$ is a finite free
    $\cO_{E,X}$-module and $F_X$ is a finite free $E_X$-module.

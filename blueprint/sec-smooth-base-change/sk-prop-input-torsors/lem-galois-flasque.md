@@ -3,7 +3,7 @@ id = "lem-galois-flasque"
 kind = "lemma"
 title = "Flasque resolutions and the connecting map"
 lean = ["CategoryTheory.Sheaf.exists_shortExact_injective_addEquiv_H_one"]
-order = 1462
+order = 2107
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves"]
 +++
 Let $\mathcal F$ be a sheaf of abelian groups on $Y_{\Et}$. Then there

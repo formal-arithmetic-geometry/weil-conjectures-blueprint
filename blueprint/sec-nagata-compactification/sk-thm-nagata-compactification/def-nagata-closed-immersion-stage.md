@@ -2,7 +2,7 @@
 id = "def-nagata-closed-immersion-stage"
 kind = "definition"
 title = "Stage at which a finite-presentation map is closed"
-order = 372
+order = 64
 lean = ["AlgebraicGeometry.closedImmersionStage"]
 uses = ["lemma-nagata-closed-immersion-stage-exists"]
 +++

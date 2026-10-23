@@ -2,6 +2,8 @@
 id = "det-pe-weak-contractible-equivalences"
 kind = "lemma"
 title = "Equivalent forms of weak contractibility"
+lean = ["CategoryTheory.GrothendieckTopology.IsWeaklyContractible", "CategoryTheory.Sheaf.isLocallySurjective_iff_epi"]
+order = 967
 uses = ["det-pe-topos-functoriality-site", "det-pe-wcb-projective"]
 +++
 Let $W$ be an object of $X_{\mathrm{proét}}$ with representable sheaf

@@ -44,5 +44,5 @@ argument with the composite pullback counit proves compatibility
 with composition of $f$'s. These identities hold before a
 free resolution is chosen, hence also after the truncation proof.
 Finally [prop-weil-pbc-comparison-direct-image] and
-[lem-sf-comparison-tor-amplitude] transport the objects and
+[lem-exc-comparison-tor-interval] transport the objects and
 these specified maps to the finite pro-etale categories.

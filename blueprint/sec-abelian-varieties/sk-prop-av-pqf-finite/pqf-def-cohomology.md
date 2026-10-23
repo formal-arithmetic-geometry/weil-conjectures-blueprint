@@ -3,7 +3,7 @@ id = "pqf-def-cohomology"
 kind = "definition"
 title = "Sheaf cohomology and higher direct images"
 lean = ["AlgebraicGeometry.Scheme.Modules.globalSectionsFunctor", "AlgebraicGeometry.Scheme.Modules.higherDirectImage", "CategoryTheory.ShortComplex.ShortExact.exists_rightDerived_δ_exact"]
-order = 533
+order = 549
 +++
 Let $X$ be a scheme. The cohomology functors $\mathrm H^p(X,-)$ are
 the right derived functors of the global sections functor $\Gamma(X,-)$

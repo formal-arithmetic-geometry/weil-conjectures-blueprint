@@ -3,8 +3,8 @@ id = "thm-sc-constant-invariance"
 kind = "theorem"
 title = "Base-change invariance for constant sheaves"
 lean = ["AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap_of_isAffine", "AlgebraicGeometry.IsConnectedCurve.natCard_sheafH_one_constantZMod_mul", "AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap", "AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap_of_isProper"]
-order = 1039
-uses = ["def-sc-curves", "def-sc-field-extension", "def-sc-genus", "lem-sc-base-change-curve", "lem-sc-brauer-zero", "lem-sc-cohomological-dimension", "lem-sc-compactification", "lem-sc-genus-invariant", "lem-sc-kummer-les", "lem-sc-pic-affine", "lem-sc-pic-proper-ntorsion", "lem-sc-primitive-root", "thm-av-final", "thm-sc-jacobian-representability", "thm-sc-proper-cohomology"]
+order = 1454
+uses = ["def-sc-curves", "def-sc-field-extension", "def-sc-genus", "lem-sc-compactification"]
 +++
 Let $k\subseteq k'$ be algebraically closed, let $C$ be a
 smooth separated connected curve over $k$, let
@@ -21,7 +21,6 @@ $$
 \longrightarrow H^q((C_{k'})_{\Et},\mathbf F_n)
 $$
 
-is an isomorphism; if $C$ is proper it is compatible with the
-identifications of [lem-sc-pic-proper-ntorsion] and
-[lem-sc-genus-invariant], and if $C$ is affine with the
-identifications of [lem-sc-pic-affine].
+is an isomorphism. If moreover $C$ is affine and
+$r:=\#(\overline C\setminus C)$ is the number of points at infinity,
+then $H^1(C_{\Et},\mathbf F_n)$ is finite of order $n^{2g+r-1}$.

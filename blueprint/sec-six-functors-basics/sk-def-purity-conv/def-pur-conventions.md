@@ -2,8 +2,8 @@
 id = "def-pur-conventions"
 kind = "definition"
 title = "Purity coefficient conventions"
-order = 2233
-uses = ["sk-def-sf-setting", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-bounded-constructible", "sk-def-sp-tate-twist", "sk-def-sf-operations", "sk-thm-existence", "def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
+order = 2778
+uses = ["def-sf-setting", "lem-integral-ctf-equals-bc", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible", "sk-def-sp-tate-twist", "det-def-sf-operations", "sk-thm-existence", "def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, a prime $\ell\neq p$, a finite
@@ -13,23 +13,23 @@ integer $n\in\mathbf Z_{\geq1}$. Put $A=A_{E,n}=\mathcal O_E/\pi_E^n$.
 
 *Coefficients.* The coefficient rings are
 $\Lambda\in\{A,\mathcal O_E,E,\Qlb\}$, regarded as condensed rings as in
-[sk-def-sf-setting]. On the small pro-étale site of a scheme $Y$ the
+[def-sf-setting]. On the small pro-étale site of a scheme $Y$ the
 coefficient sheaf is $\Lambda_Y=p_Y^*\Lambda$
-([sk-def-sfb-pulled-back-coefficients]), and $D^b_c(Y,\Lambda)$ is the full
+([det-def-sfb-pulled-back-coefficients]), and $D^b_c(Y,\Lambda)$ is the full
 subcategory of the derived category $D(Y_{\mathrm{proét}},\Lambda)$ of
 $\Lambda_Y$-modules consisting of the bounded complexes with constructible
-cohomology sheaves ([sk-def-sfb-bounded-constructible]);
+cohomology sheaves ([det-def-sfb-bounded-constructible]);
 $D^b_{ctf}(Y,\Lambda)\subseteq D^b_c(Y,\Lambda)$ is the subcategory of
 complexes of finite Tor amplitude, and $D^b_{ctf}=D^b_c$ for
-$\Lambda\neq A$. For $\Lambda=A$ the sheaf $A_Y$ is the constant sheaf, these
+$\Lambda\neq A$ ([lem-integral-ctf-equals-bc]). For $\Lambda=A$ the sheaf $A_Y$ is the constant sheaf, these
 are the bounded constructible finite-torsion categories, and they may be
-computed on the small étale site ([sk-def-sf-setting]).
+computed on the small étale site ([def-sf-setting]).
 
 *Operations.* Use the derived pullback, tensor, and internal Hom, the
 [def-weil-derived-cohomology-sheaves] cohomology sheaves
 $\mathcal H^r$, the compact-support direct image $Rf_!$, the exceptional
 inverse image $Rf^!$ with $Rf_!\dashv Rf^!$, and the exchange and projection
-maps, all on $\Lambda_Y$-modules ([sk-def-sf-operations]). For $\Lambda=A$,
+maps, all on $\Lambda_Y$-modules ([det-def-sf-operations]). For $\Lambda=A$,
 $Rf^!$ is the finite-stage exceptional inverse image of
 [def-weil-exceptional-inverse-image]. For every $\Lambda$ it is the right
 adjoint of $Rf_!$ given by Brown representability and restricted to

@@ -1,17 +1,12 @@
 +++
 id = "sk-p-real-rankone"
-kind = "proposition"
-title = "Purity of rank-one Weil sheaves"
-order = 2961
-uses = ["sk-d-real-jacobian", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil", "sk-def-av-jacobian", "sk-def-av-pic", "sk-i-real-compactification", "sk-i-real-sheaves", "sk-lem-finite", "sk-p-rankone", "sk-p-real-integral", "sk-p-real-operations", "sk-prop-hilbert90", "sk-prop-jacobian-descent", "sk-prop-sf-open-closed-triangle", "sk-thm-av-final", "sk-thm-derived-duality", "sk-thm-frobenius"]
+kind = "theorem"
+title = "Finite geometric image in rank one"
+order = 3844
+uses = ["sk-d-real-weil", "sk-lem-wrp-additive"]
 lean = ["AlgebraicGeometry.WeilGroup.IsLisse.finite_geometric_image", "AlgebraicGeometry.WeilGroup.IsLisse.isPunctuallyPure_of_finrank_eq_one"]
 tags = ["sketch"]
 +++
-Let $L$ be a rank-one lisse Weil sheaf on a
-smooth geometrically connected curve $U_0/\Fq$,
-with character $\chi:W(U_0)\to E^\times$ under [sk-i-real-sheaves].
-Its geometric image $\chi(\pi_1(U))$ is finite, so the rank-one
-factorization of [sk-p-rankone] applies. Consequently $L$ is
-punctually $\iota$-pure of weight
-$w=2\log|\iota(c)|/\log q$, where $c=\chi(\gamma)$ for any degree-one
-lift $\gamma$.
+Let $U_0/k_0$ be a smooth geometrically connected curve, and let
+$\chi:W(U_0)\to E^\times$ be the character of a rank-one lisse Weil
+sheaf ([sk-d-real-weil]). Then $\chi(P)$ is finite.

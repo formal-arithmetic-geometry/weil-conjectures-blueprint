@@ -14,5 +14,5 @@ For (b), $\kappa(x)$ is finite over $K$ by (a), hence purely
 inseparable by
 [lem-kun-sep-closed-finite-extension-purely-inseparable]; thus
 $\kappa(x)$ is a finite extension of the separably closed field
-$K$ ([def-kun-separably-closed]) and is therefore separably
+$K$ ([def-pc-separably-closed]) and is therefore separably
 closed by [lem-kun-sep-closed-finite-extension-sep-closed].

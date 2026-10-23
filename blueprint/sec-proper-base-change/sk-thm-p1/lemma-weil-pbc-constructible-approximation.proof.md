@@ -2,13 +2,14 @@
 kind  = "proof"
 of    = "lemma-weil-pbc-constructible-approximation"
 +++
-On the quasi-compact quasi-separated scheme $T$ the torsion sheaf $F$ is a
+Since $\Lambda$ is finite, $F$ is a torsion sheaf. On the affine, hence
+quasi-compact quasi-separated, scheme $T$ it is a
 filtered colimit $F=\operatorname{colim}_\lambda C_\lambda$ of constructible
-torsion sheaves (Étale Cohomology, Lemma 59.73.2, Tag
+sheaves of $\Lambda$-modules (Étale Cohomology, Lemma 59.73.2, Tag
 [03SA](https://stacks.math.columbia.edu/tag/03SA)): each $C_\lambda$ is a
 cokernel of a map between finite direct sums of extensions by zero
-$j_!\mathbf Z/n$ along quasi-compact etale $U\to T$, built from finitely
-many local sections of $F$ of finite order, and the structure maps
+$j_!\underline\Lambda$ along quasi-compact etale $U\to T$, built from finitely
+many local sections of $F$ (constructible because $\Lambda$ is finite), and the structure maps
 $\iota_\lambda:C_\lambda\to F$ need not be injective. The closed fibre $T_0$
 is quasi-compact and quasi-separated and restriction to $T_0$ commutes with
 colimits, so
@@ -26,9 +27,3 @@ is locally constant on the locally closed equalizer loci of pairs of
 generators, but these loci need not be constructible, as the example in the
 statement shows. This is why the lemma is stated with a morphism.
 
-If moreover $c$ vanishes after pullback to an integral strictly local cover
-as in [lemma-weil-pbc-finite-stage-killing], then it already vanishes on one
-finite, finitely presented cover $T_{\lambda_0}\to T$; the null-homotopy on
-$T_{\lambda_0}$ consists of finitely many sections of $F$, which come from
-some stage $C_{\lambda'}$ with $\lambda'\ge\lambda$, so $C$ may be taken so
-that this null-homotopy lives in $C$ as well.

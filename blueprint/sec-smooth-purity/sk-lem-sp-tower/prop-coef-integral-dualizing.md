@@ -2,7 +2,7 @@
 id = "prop-coef-integral-dualizing"
 kind = "theorem"
 title = "The integral dualizing object and its adjunction"
-order = 2489
+order = 2998
 tags = ["latex:proposition"]
 uses = ["sk-thm-existence", "sk-prop-sf-existence", "sk-prop-scalar-six", "sk-prop-integral-criterion", "lem-coef-finite-dualizing", "lem-coef-integral-compact-support", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata", "prop-asd-internal-adjunction", "thm-sf-ambient-adjoint-class"]
 +++

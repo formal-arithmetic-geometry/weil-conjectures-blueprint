@@ -2,7 +2,7 @@
 id = "def-weil-finite-field-fiber"
 kind = "definition"
 title = "Finite field and geometric fiber"
-order = 421
+order = 136
 lean = ["GaloisField", "AlgebraicClosure", "FiniteField.galoisExtension", "closedPoints", "AlgebraicGeometry.Scheme.Hom.geometricFiber", "AlgebraicGeometry.Scheme.Hom.fieldPoints", "AlgebraicGeometry.Scheme.Hom.pointCount", "Padic", "PadicInt"]
 uses = ["def-weil-finite-type-morphism"]
 +++

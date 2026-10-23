@@ -3,10 +3,11 @@ id = "lem-sf-point"
 kind = "lemma"
 title = "The point, evaluated"
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedGlobalSections_of_isPerfectPairing", "AlgebraicGeometry.Etale.homSingleShiftEquivOfIsSepClosed", "AlgebraicGeometry.Etale.isEquivalence_rightDerivedGlobalSections_of_isSepClosed", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedGlobalSections_coefficientDual", "AlgebraicGeometry.Etale.rightDerivedLowerShriekIdIso", "AlgebraicGeometry.Etale.rightDerivedUpperShriekIdIso", "AlgebraicGeometry.Etale.dualizingComplexIdIso"]
-order = 2524
+order = 3305
 uses = ["def-sf-datum", "def-weil-finite-coefficient-point", "def-weil-ordinary-compact-cohomology"]
 +++
-In the setting of [def-sf-datum], let $s=\operatorname{Spec}k$ with
+In the setting of [def-sf-datum], assume that $k$ is separably closed,
+and let $s=\operatorname{Spec}k$ with
 structure morphism $a_s=\operatorname{id}_s$. Then
 $\omega_s=Ra_s^!\Lambda\cong\Lambda_s$; for every object $C$ of the
 point category one has

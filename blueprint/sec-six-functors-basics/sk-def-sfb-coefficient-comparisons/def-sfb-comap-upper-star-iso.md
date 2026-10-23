@@ -2,8 +2,8 @@
 id = "def-sfb-comap-upper-star-iso"
 kind = "definition"
 title = "Restriction of scalars commutes with $f^*$"
-order = 1736
-uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-pushforward-pullback", "sk-def-sfb-change-of-scalars"]
+order = 2610
+uses = ["sk-def-sfb-coefficient-change", "det-def-sfb-module-pushforward-pullback", "det-def-sfb-change-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.comapUpperStarIso"]
 +++
 Let $a\colon\Lambda\to\Lambda'$ be a morphism of commutative condensed rings
@@ -15,4 +15,4 @@ $$
 \Mod_{\Lambda'_Y}\longrightarrow\Mod_{\Lambda_X},
 $$
 
-with $f^*$ the pullback of module objects ([sk-def-sfb-module-pushforward-pullback]).
+with $f^*$ the pullback of module objects ([det-def-sfb-module-pushforward-pullback]).

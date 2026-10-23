@@ -3,6 +3,7 @@ id = "det-nagata-common-modification-dense"
 kind = "lemma"
 title = "Density of the common open in a common modification"
 lean = ["AlgebraicGeometry.CommonModification.dense_range_j_of_qcqs", "AlgebraicGeometry.CommonModification.isSchemeTheoreticallyDominant_j"]
+order = 361
 uses = ["def-nagata-common-modification"]
 +++
 Let $s_i\colon T_i\to S$ ($i=1,2$) be morphisms of schemes, let

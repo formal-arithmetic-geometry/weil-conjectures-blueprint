@@ -2,7 +2,8 @@
 id = "sk-thm-properbasechange"
 kind = "theorem"
 title = "Proper base change on classical pro-étale complexes"
-order = 1062
+order = 1970
+lean = ["AlgebraicGeometry.Etale.isIso_baseChange_of_isProper_of_torsionHomology", "AlgebraicGeometry.ProEtale.comparison_derivedBaseChangeMap", "AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isProper"]
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-pbc", "sk-def-pbc-conventions", "sk-thm-p1", "sk-thm-reduction", "sk-thm-chow", "sk-cor-pe-classical-derived", "sk-thm-pe-direct-image-comparison"]
 tags = ["sketch"]
 +++
@@ -20,6 +21,4 @@ $$
 
 is an isomorphism in $D^+_{\mathrm{class}}(Y'_{\mathrm{proét}},\Lambda)$.
 
-The complex $K$ need not be constructible, and the torsion orders need not be
-invertible on $Y$. Classicality of $K$ is required: it is what brings the
-statement back to the étale site.
+Since $K$ is classical, the statement reduces to the étale site.

@@ -3,7 +3,7 @@ id = "sbc-lem-bc-integral-surjective"
 kind = "lemma"
 title = "Integral surjective base change on the target"
 lean = ["AlgebraicGeometry.Etale.nonempty_arrowIso_baseChangeHomologyMap_lowerStar", "AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isIntegralHom_of_surjective", "AlgebraicGeometry.Etale.mono_unit_app_of_surjective"]
-order = 1451
+order = 2065
 uses = ["lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-five-lemma-transfer", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-injectivity", "sbc-lem-integral-etale-direct-image-exact"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property] assume for

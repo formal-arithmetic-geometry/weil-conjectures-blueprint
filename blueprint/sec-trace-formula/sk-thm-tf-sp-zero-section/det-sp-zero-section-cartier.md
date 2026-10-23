@@ -2,6 +2,7 @@
 id = "det-sp-zero-section-cartier"
 kind = "lemma"
 title = "Reduction of the defect to a Cartier divisor"
+order = 3586
 uses = ["det-sp-defect-definition"]
 +++
 Let $X$ be a separated finite-type $k$-scheme, $i\colon Z\hookrightarrow X$ a closed subscheme,

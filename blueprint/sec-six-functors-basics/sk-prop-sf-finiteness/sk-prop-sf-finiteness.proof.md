@@ -72,7 +72,7 @@ Separatedness is never used.
 *Compact supports* (sbc-thm-finiteness-finite-type). Choose a
 compactification $f=rj$, with $j$ an open immersion and $r$ proper, so
 $Rf_!=Rr_*j_!$ by
-[sk-def-sf-operations] (iv). Extension by zero preserves constructibility,
+[det-def-sf-operations] (iv). Extension by zero preserves constructibility,
 and $Rr_*$ is bounded constructible by the proper case; the vanishing
 $R^qf_!\mathcal F=0$ for $q>2e$ is read off the *original* fibres of $f$,
 no fibre-dimension bound for the compactification being needed.

@@ -2,8 +2,8 @@
 id = "sk-prop-sfb-qlbar-colimit-x"
 kind = "lemma"
 title = "Comparison with completed coefficients"
-order = 741
-uses = ["sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-condensed-ring", "sk-def-sfb-qlbar-condensed", "sk-def-sfb-pullback-from-point"]
+order = 1216
+uses = ["sk-prop-sf-open-closed-triangle", "sk-prop-pe-condensed-point"]
 lean = ["AlgebraicGeometry.ProEtale.padicSubfieldRingObj", "AlgebraicGeometry.ProEtale.padicAlgClRingObj", "AlgebraicGeometry.ProEtale.padicAlgClRingObjCocone", "AlgebraicGeometry.ProEtale.isColimitPadicAlgClRingObjCocone"]
 tags = ["sketch"]
 +++
@@ -11,10 +11,10 @@ Let $\ell$ be a prime, let $X$ be a scheme, and let $E\subseteq\Qlb$ be a finite
 of $\mathbf Q_\ell$ with ring of integers $\cO_E$ and uniformizer $\pi_E$. For a condensed
 ring $\Lambda$ write $\Lambda_X=p_X^*\Lambda$ for its pullback to $X_{\mathrm{proét}}$
 along $p_X\colon\Sh(X_{\mathrm{proét}})\to\Sh(*_{\mathrm{proét}})$
-([sk-def-sfb-pullback-from-point], [sk-def-sfb-pulled-back-coefficients]). Write
+([det-def-sfb-pullback-from-point], [det-def-sfb-pulled-back-coefficients]). Write
 $\cO_{E,X}$, $E_X$ and $\QbarX$ for the pullbacks to $X_{\mathrm{proét}}$ of the condensed
-rings $\underline{\cO_E}$, $\underline E$ ([sk-def-sfb-condensed-ring]) and
-$\underline{\Qlb}$ ([sk-def-sfb-qlbar-condensed]). There are canonical isomorphisms of
+rings $\underline{\cO_E}$, $\underline E$ ([det-def-sfb-condensed-ring]) and
+$\underline{\Qlb}$ ([det-def-sfb-qlbar-condensed]). There are canonical isomorphisms of
 sheaves of rings
 
 $$

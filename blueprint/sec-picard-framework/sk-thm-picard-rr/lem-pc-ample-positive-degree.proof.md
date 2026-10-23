@@ -2,6 +2,12 @@
 kind  = "proof"
 of    = "lem-pc-ample-positive-degree"
 +++
+*Preliminaries.* $X$ is nonempty and connected, since
+$H^0(X,\mathcal{O}_X)=k$ is a field and so has no nontrivial idempotents;
+its local rings are regular ([lem-sc-smooth-regular]), hence domains, so
+$X$ is integral, and it is one-dimensional. In particular $X$ is a curve
+in the sense of [def-pc-dimension].
+
 *($\Rightarrow$).* By [def-sc-ample], $\mathcal{L}$ ample implies
 $\mathcal{L}^{\otimes m}$ very ample for some $m\ge1$; fix such an $m$ and an
 immersion $i:X\to\mathbf P^N_k$ with
@@ -46,17 +52,14 @@ and $\deg\mathcal{L}>0$.
 
 *($\Leftarrow$).* Assume $\deg\mathcal{L}>0$. By
 [lem-pc-degree-base-change](1), $\deg(\mathcal{L}_{\bar k})=\deg\mathcal{L}>0$,
-and $X_{\bar k}$ is a smooth projective curve over the algebraically
-closed field $\bar k$ (smooth: [lem-pc-proper-base-change];
-proper: [lem-pc-proper-base-change]; curve: [lem-pc-dim-base-change];
-integral by [lem-pc-h0-geom-connected] and the regularity
-(reducedness) argument of [prop-pc-xk-integral], which applies
-verbatim: $H^0(X_{\bar k},\mathcal{O})=H^0(X,\mathcal{O})\otimes_k\bar k$ is a field
-[lem-pc-h0-proper-variety](1), so $X_{\bar k}$ is connected,
-normal and reduced and hence integral). By [lem-sc-positive-degree-ample], applied to the smooth
-projective curve $X_{\bar k}$ of genus $g$ (the genus is finite
-[lem-pc-genus-well-defined] and its base change invariance
-[lem-pc-genus-base-change]), the module $\mathcal{L}_{\bar k}$ is ample.
+and $X_{\bar k}$ is smooth of relative dimension $1$ and proper over
+$\bar k$ ([lem-pc-proper-base-change], [lem-pc-dim-base-change]), with
+$H^0(X_{\bar k},\mathcal{O})=H^0(X,\mathcal{O})\otimes_k\bar k=\bar k$
+([lem-pc-flat-base-change-cohom]); by the preliminaries it is a
+connected, hence integral, smooth proper curve over the algebraically
+closed field $\bar k$, of genus $g=\dim_kH^1(X,\mathcal{O}_X)$
+([lem-pc-genus-base-change]). By [lem-sc-positive-degree-ample] the module
+$\mathcal{L}_{\bar k}$ is ample.
 Then $\mathcal{L}$ is ample: by [def-sc-ample] some power
 $\mathcal{L}_{\bar k}^{\otimes m}$ is very ample, i.e. the base change of
 $\mathcal{L}^{\otimes m}$ to $\bar k$ is very ample; by

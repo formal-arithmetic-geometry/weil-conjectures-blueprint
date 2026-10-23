@@ -2,7 +2,7 @@
 id = "thm-trf-trace-proper-compatibility"
 kind = "theorem"
 title = "Proper global trace comparison; Varshavsky 1.2.5"
-order = 2676
+order = 3492
 uses = ["def-trf-borel-moore-pushforward", "def-trf-coefficient-pushforward", "def-trf-kernel-pushforward-maps", "def-trf-trace-class", "fix-prop-adjunctions", "lem-trf-fixed-map-proper", "lem-trf-trace-map-exchange", "lem-trf-trace-map-from-external-duality", "lem-trf-trace-source-exchange", "prop-trf-pairing-point-normalization", "thm-sf-comp-composition"]
 +++
 Let $(C,c,u)$ be an admissible correspondence on $(X,K)$, with

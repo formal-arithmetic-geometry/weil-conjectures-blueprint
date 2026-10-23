@@ -2,6 +2,7 @@
 id = "det-sp-tower-p1-adjunction"
 kind = "lemma"
 title = "The projective-line adjunction for towers"
+order = 3020
 uses = ["det-sp-tower-classes", "det-sp-tower-shriek-levels"]
 +++
 Let $q:\mathbf P^1_S\to S$, and let $p_1,p_2:\mathbf P^1_S\times_S\mathbf P^1_S\to\mathbf P^1_S$

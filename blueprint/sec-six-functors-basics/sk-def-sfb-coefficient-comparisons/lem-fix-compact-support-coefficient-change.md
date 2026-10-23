@@ -3,7 +3,7 @@ id = "lem-fix-compact-support-coefficient-change"
 kind = "lemma"
 title = "Change of finite coefficients for compact support"
 lean = ["AlgebraicGeometry.ProEtale.IsProperPullbackCompatible"]
-order = 2170
+order = 2622
 uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "lemma-weil-pbc-geometric-stalk-conservative", "thm-cbc-finite-level-proetale", "thm-cbc-finite-torsion", "thm-sc-finite-type-torsion-cd"]
 +++
 Let $f:X\to Y$ be a

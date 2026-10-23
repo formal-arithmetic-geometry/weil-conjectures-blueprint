@@ -3,6 +3,7 @@ id = "det-nagata-definition-refinement"
 kind = "definition"
 title = "Refinement of compactifications"
 lean = ["AlgebraicGeometry.Compactification.Refinement", "AlgebraicGeometry.Compactification.Refinement.IsStrict", "AlgebraicGeometry.Compactification.StrictCategory", "AlgebraicGeometry.Compactification.DenseCategory"]
+order = 20
 uses = ["def-nagata-compactification", "def-nagata-dense-compactification"]
 +++
 Let $f:X\to S$ be a morphism and let

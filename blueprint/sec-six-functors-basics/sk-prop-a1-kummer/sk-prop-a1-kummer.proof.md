@@ -9,7 +9,7 @@ be smooth, and the formation of a direct image does not in general commute
 with an arbitrary base change of $Y$ (for $j:\mathbf G_{m,k}\hookrightarrow \Aaf^1_k$ one has $(j_*\Lambda)_{\bar 0}=\Lambda$, while the source
 base-changed to $\bar 0$ is empty). The reduction is the following, with
 $k=\overline{\mathbf F}_q$ the algebraically closed field of
-[sk-def-sf-setting] over which $Y$ lives. Let $\bar y$ be a geometric
+[def-sf-setting] over which $Y$ lives. Let $\bar y$ be a geometric
 point of $Y$ and $S'=\Spec\mathcal O^{\mathrm{sh}}_{Y,\bar y}$ its strict
 henselization, a $k$-scheme. As $p$ and $\pi$ are quasi-compact and
 quasi-separated, the stalk formula gives
@@ -73,10 +73,10 @@ over $\Z/\ell^N\Z$, and one may instead tensor the $\mu_{\ell^N}$-computation
 with $A$ directly.)
 
 *Clause (c).* $\ell$ is prime to $\operatorname{char}k$ and both curves
-are affine, so [sk-prop-cd-affine] gives $H^q(-,\mu_{\ell^N})=0$ for $q\ge2$.
+are affine, so [lem-sc-arbitrary-curve-cd] gives $H^q(-,\mu_{\ell^N})=0$ for $q\ge2$.
 This is (c), and it reduces (a) and (b) to degrees $0$ and $1$.
 
-*Degrees $0$ and $1$.* By [sk-prop-kummer-exact] with $n=\ell^N$
+*Degrees $0$ and $1$.* By [lem-sc-kummer-exact] with $n=\ell^N$
 invertible, the Kummer sequence gives
 
 $$

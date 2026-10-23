@@ -3,26 +3,26 @@ id = "def-weil-weil-sheaf-complex"
 kind = "definition"
 title = "Weil sheaf and Weil complex"
 lean = ["AlgebraicGeometry.WeilSheaf", "AlgebraicGeometry.WeilComplex"]
-order = 1866
-uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-pbc-proetale-site", "sk-def-sfb-condensed-ring", "sk-def-sfb-qlbar-condensed", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-derived-categories", "sk-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "sk-cor-coefficient-heart-ii"]
+order = 2652
+uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-pbc-proetale-site", "det-def-sfb-condensed-ring", "det-def-sfb-qlbar-condensed", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-derived-categories", "det-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "sk-cor-coefficient-heart-ii"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, where
 $q=p^a$, and a prime $\ell\neq p$. Choose an algebraic closure $\Qlb$ of
 $\Ql$ and a finite extension $E/\Ql$ contained in $\Qlb$, and let
 $\Lambda\in\{\underline E,\underline{\Qlb}\}$ be the corresponding condensed
-ring ([sk-def-sfb-condensed-ring], [sk-def-sfb-qlbar-condensed]); we write
+ring ([det-def-sfb-condensed-ring], [det-def-sfb-qlbar-condensed]); we write
 $\Lambda\in\{E,\Qlb\}$. Let $Y_0$ be a finite-type
 [def-weil-scheme-morphism-properties] $k_0$-scheme, put $Y=Y_0\times_{k_0}k$,
 and let $g_Y:Y\to Y$ be the geometric-Frobenius automorphism of
 [def-weil-frobenius-detailed]. On the small pro-étale site
 [def-weil-pbc-proetale-site] put $\Lambda_Y=p_Y^*\Lambda$
-([sk-def-sfb-pulled-back-coefficients]). Since $g_Y$ is an automorphism of
+([det-def-sfb-pulled-back-coefficients]). Since $g_Y$ is an automorphism of
 schemes and $p_Y\circ g_Y=p_Y$, the inverse image $g_Y^*$ is an exact
 autoequivalence of $\Mod(Y_{\mathrm{proét}},\Lambda)$, with a canonical
 isomorphism $g_Y^*\Lambda_Y\cong\Lambda_Y$; being exact it needs no deriving
-([sk-def-sfb-derived-categories]), and we also write $Lg_Y^*=g_Y^*$ on
+([det-def-sfb-derived-categories]), and we also write $Lg_Y^*=g_Y^*$ on
 $D(Y_{\mathrm{proét}},\Lambda)$. It preserves constructible sheaves and hence the
-triangulated subcategory $\Dbc(Y,\Lambda)$ ([sk-def-sfb-bounded-constructible],
+triangulated subcategory $\Dbc(Y,\Lambda)$ ([det-def-sfb-bounded-constructible],
 [sk-cor-coefficient-heart-ii]).
 
 **Weil sheaves.** Write
@@ -45,7 +45,7 @@ $\Mod_{\mathrm W}(Y,\Lambda)$, closed under kernels, cokernels and extensions.
 
 **Weil complexes.** Let $D^b_{c,\mathrm W}(Y,\Lambda)$ be the full subcategory
 of the derived category $D(\Mod_{\mathrm W}(Y,\Lambda))$
-([sk-def-sfb-derived-categories]) of bounded complexes all of whose
+([det-def-sfb-derived-categories]) of bounded complexes all of whose
 cohomology objects are Weil sheaves. It is a triangulated subcategory: in a
 triangle $K\to L\to C\to K[1]$ the object $H^i(C)$ is an extension of
 $\ker(H^{i+1}K\to H^{i+1}L)$ by $\operatorname{coker}(H^iK\to H^iL)$, and both

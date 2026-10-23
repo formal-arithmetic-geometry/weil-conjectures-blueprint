@@ -4,7 +4,7 @@ of    = "prop-sf-closed-unit-all-stages"
 +++
 *Full faithfulness.* The argument is the same for every $\Lambda$. Apply
 [sk-prop-sf-open-closed-triangle] with $B=\Lambda_X$, whose inverse image on
-$Z$ is $\Lambda_Z$ ([sk-def-sfb-pulled-back-coefficients]). The functors
+$Z$ is $\Lambda_Z$ ([det-def-sfb-pulled-back-coefficients]). The functors
 $i^*$ and $i_*$ on $\Lambda$-module sheaves are exact, so they pass to the
 derived categories without deriving, and $i^*\dashv i_*$ persists there
 ([prop-weil-open-closed-recollement-adjunctions]). The counit

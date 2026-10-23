@@ -2,6 +2,4 @@
 kind = "proof"
 of = "lem-weil-pbc-limit-affine-transition-affine-comparison"
 +++
-Install affineness of every stage. Mathlib Scheme.isAffine_of_isLimit gives affineness of c.pt. Applying isColimitOfPreserves Scheme.Γ to hc.op gives a colimit cocone of global sections, using Mathlib preservesColimit_Γ for affine stages.
-
-Let eΓ be the unique isomorphism from Γ(c.pt) to the chosen ring colimit. Compose c.pt.isoSpec with Scheme.Spec.mapIso eΓ.symm.op. The coprojection equation comp_coconePointUniqueUpToIso_inv and Spec.map_comp reduce projection compatibility to Scheme.isoSpec_hom_naturality.
+The vertex $D$ of a limit of affine schemes along affine transition maps is affine. The global-sections functor sends the limit cone to a colimit cocone of rings $\Gamma(D_i)\to\Gamma(D)$, so there is a unique ring isomorphism $\Gamma(D)\cong\varinjlim_i\Gamma(D_i)$ compatible with the coprojections. Compose the canonical isomorphism $D\cong\operatorname{Spec}\Gamma(D)$ (as $D$ is affine) with $\operatorname{Spec}$ of this ring isomorphism. The compatibility with the projections follows from the compatibility of the ring isomorphism with the coprojections and the naturality of $X\mapsto(X\to\operatorname{Spec}\Gamma(X))$.

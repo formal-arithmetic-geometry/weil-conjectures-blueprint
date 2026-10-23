@@ -2,7 +2,7 @@
 id = "sk-thm-tf-coefficient-morphism-formula"
 kind = "theorem"
 title = "Trace formula for a Frobenius correspondence"
-order = 2633
+order = 3536
 uses = ["sk-d-weil", "sk-lem-tf-compact-trace", "sk-i-relative-frob", "sk-p-proper", "sk-p-frob", "sk-thm-sf-ctf-stability", "sk-i-global-additivity"]
 tags = ["sketch"]
 +++

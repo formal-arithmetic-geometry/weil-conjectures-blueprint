@@ -2,7 +2,7 @@
 id = "sk-prop-geo-p1-adjunction"
 kind = "proposition"
 title = "The projective-line adjunction"
-order = 1546
+order = 2357
 uses = ["sk-lem-geo-p1-cohomology", "sk-lem-geo-cartier"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "separating-boundary-pieces--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 256
+order = 344
 +++
 One can instead blow up the sum $\mathcal I_1+\mathcal I_2$ directly on
 $X$ and prove disjointness of the strict transforms chart-locally, using

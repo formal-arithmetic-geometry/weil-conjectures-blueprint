@@ -1,22 +1,38 @@
 +++
 id = "sk-i-real-boundary"
-kind = "proposition"
-title = "Boundary stalks and restriction to an open"
-order = 2986
-uses = ["sk-d-real-boundary", "sk-d-real-setup", "sk-d-real-weil"]
+kind = "lemma"
+title = "The boundary stalk"
+order = 3890
+uses = ["sk-d-real-weil", "sk-lem-finite", "sk-p-real-integral", "sk-thm-sf-ctf-stability"]
 lean = ["AlgebraicGeometry.Scheme.isConstructibleSheaf_lowerStar", "AlgebraicGeometry.Scheme.isIso_unit_upperStarLowerStarAdjunction"]
 tags = ["sketch"]
 +++
-In the situation of [sk-d-real-boundary]: for a finite ring $\Lambda$
-and a finite locally constant sheaf $\mathcal F$ of $\Lambda$-modules on
-$U_0$, the direct image $j_*\mathcal F$ is constructible (for this it
-suffices that $C_0$ is a curve and $C_0\setminus U_0$ is finite); likewise,
-for $\mathcal F$ lisse Weil, the sheaf $J=j_*\mathcal F$ is constructible,
-and $J_{\bar s}=V_s^{I_s}$ equivariantly for Frobenius.
-If $C_0$ is smooth, $U_0$ is dense, and $\mathcal G$ is a finite locally
-constant sheaf of $\Lambda$-modules on $C_0$, then the adjunction unit
-$\mathcal G\to j_*j^*\mathcal G$ is an isomorphism; likewise, if
-$\mathcal G$ is lisse on all of $C_0$, then
-$\mathcal G\simeq j_*(\mathcal G|_{U_0})$. The map
-$\pi_1(U)\to\pi_1(C)$ is surjective, and hence so is the Weil-group map
-of [sk-d-real-weil].
+Let $j:U_0\hookrightarrow X_0$ be a dense open in a smooth curve and
+let $\mathcal F$ be a lisse Weil sheaf on $U_0$. At a missing geometric point
+$\bar s$, with local inertia $I_s$ acting on the local generic fibre
+$V$, there is a canonical Frobenius-equivariant identification
+
+$$
+ (j_*\mathcal F)_{\bar s}=V^{I_s}.
+$$
+
+Here $j_*$ is the ordinary direct image of sheaves. If $\mathcal F$
+extends lisse to $X_0$, the adjunction from that extension to
+$j_*\mathcal F$ is an isomorphism.
+
+*Complement.* For a missing point $s$, let $K_s$ be the fraction field of the
+henselization of $\mathcal O_{X_0,s}$ and
+$I_s=\ker(\Gal(\overline K_s/K_s)\to\Gal(\overline{\kappa(s)}/\kappa(s)))$; a
+path from a geometric point over $\operatorname{Spec}K_s$ to the base point
+gives a decomposition-group map into $\pi_1(U_0)$ carrying $I_s$ into
+$\pi_1(U)$, residue Frobenius lifts act unambiguously on $V^{I_s}$, and the
+result is independent of the path up to Frobenius-equivariant isomorphism
+([d-real-boundary]). The sheaf $j_*\mathcal F=\mathcal H^0(Rj_*\mathcal F)$ is
+constructible, for $\mathcal F$ finite locally constant over a finite ring
+and for $\mathcal F$ a lisse $\overline{\mathbf Q}_\ell$-sheaf
+([lem-wf-boundary-stalk-invariants], [sk-thm-sf-ctf-stability]). For a
+finite locally constant $\mathcal G$ on $X_0$ the unit
+$\mathcal G\to j_*j^*\mathcal G$ is an isomorphism
+([lem-wf-dense-open-pi1-surjective] (3)), and for a lisse
+$\overline{\mathbf Q}_\ell$-sheaf this is the last assertion
+([lem-a1-lisse-middle-extension]).

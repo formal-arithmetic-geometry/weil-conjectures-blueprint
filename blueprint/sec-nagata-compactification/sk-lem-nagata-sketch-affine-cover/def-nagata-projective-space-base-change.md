@@ -2,7 +2,7 @@
 id = "def-nagata-projective-space-base-change"
 kind = "definition"
 title = "Projective space over a base scheme, by base change"
-order = 314
+order = 406
 lean = ["AlgebraicGeometry.ProjectiveSpace"]
 uses = ["def-nagata-affine-proj"]
 +++

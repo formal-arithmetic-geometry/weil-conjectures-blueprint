@@ -2,4 +2,12 @@
 kind = "proof"
 of = "lem-weil-pbc-linear-equation-localization-polynomial-formula"
 +++
-The generator of I belongs to I, so its quotient class is zero. Map this identity into Bf, rewrite coefficients using IsLocalization.map_eq, and separate the i term with Fintype.sum_eq_add_sum_subtype_ne. Apply e.symm, using coefficient commutation and the assumed inverse values on the other variables. Solve the resulting linear equation by multiplying by C(invSelf(f(i))), using IsLocalization.Away.mul_invSelf. (`MvPolynomial, MvPolynomial.aeval, MvPolynomial.algHom_ext` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Algebra/MvPolynomial/Basic.lean)), `Localization.Away` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/GroupTheory/MonoidLocalization/Away.lean)), `IsLocalization.Away.lift, IsLocalization.Away.lift_eq, IsLocalization.ringHom_ext` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Localization/Away/Basic.lean))).
+The class of $\sum_jf_jX_j-1$ in $B$ is zero, so $\sum_{j=1}^rf_jx_j=1$ in $B_{f_i}$, with the
+coefficients $f_j$ read in $A_{f_i}$. Separating the $i$-th term gives
+$f_ix_i+\sum_{j\ne i}f_jx_j=1$. Apply $\varphi^{-1}$, which is $A_{f_i}$-linear and sends
+$x_j$ to $Y_j$ for $j\ne i$:
+$$
+f_i\,\varphi^{-1}(x_i)+\sum_{j\ne i}f_jY_j=1.
+$$
+Since $f_i$ is a unit of $A_{f_i}$, multiplying by $f_i^{-1}$ gives
+$\varphi^{-1}(x_i)=f_i^{-1}\bigl(1-\sum_{j\ne i}f_jY_j\bigr)$.

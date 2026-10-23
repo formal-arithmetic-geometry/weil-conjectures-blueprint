@@ -3,7 +3,7 @@ id = "def-nagata-strict-transform-chart-comparison"
 kind = "definition"
 title = "Strict-transform chart comparison"
 lean = ["AlgebraicGeometry.AffineBlowup.strictChartComparison"]
-order = 158
+order = 269
 uses = ["def-nagata-strict-chart-to-extended-blowup-chart", "def-nagata-strict-transform-chart-ring"]
 +++
 Define

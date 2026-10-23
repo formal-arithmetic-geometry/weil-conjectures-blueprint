@@ -54,3 +54,16 @@ Also $G[n]=J_{\overline C}[n](k)$ by [def-sc-mult-n], and
 this is finite by [thm-av-final](c). The exact sequence
 therefore expresses $\operatorname{Pic}(C)[n]$ as an extension of
 two finite groups, proving finiteness.
+
+For the units: a unit $u\in\mathcal O_C(C)^\times$ is a rational function
+on $\overline C$ without zeros or poles on $C$, so $\operatorname{div}(u)$
+is supported on $S$ and $D$ is defined. Since $\operatorname{div}(u)$ is
+principal, $a(D(u))=0$. Conversely, if $\sum_Pm_PP=\operatorname{div}(f)$
+is principal, then $f$ has no zeros or poles on $C$, so
+$f\in\mathcal O_C(C)^\times$ and $D(f)=(m_P)$; thus
+$\operatorname{im}D=\ker a$. A unit with $D(u)=0$ has trivial divisor on
+$\overline C$, hence is a global function on $\overline C$, i.e. a constant
+in $k^\times$ ([lem-sc-global-functions]); as $k$ is algebraically closed,
+it is an $n$-th power for every $n\geq1$. The isomorphism
+$\operatorname{Pic}(C)\cong\operatorname{Pic}(\overline C)/\operatorname{im}a$
+is the exact sequence displayed above.

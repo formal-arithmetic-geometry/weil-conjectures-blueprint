@@ -2,6 +2,7 @@
 id = "det-nearby-kunneth-invariants"
 kind = "lemma"
 title = "Invariants under a pro-p group commute with tensor products"
+order = 3590
 +++
 Let $P$ be a pro-$p$ group, where $p$ is a prime or $p=1$, and let $A$ be a finite commutative ring
 in which $p$ is invertible. For a bounded complex $E$ of discrete torsion $A$-modules with

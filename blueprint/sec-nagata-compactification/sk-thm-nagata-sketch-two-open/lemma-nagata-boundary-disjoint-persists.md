@@ -2,7 +2,7 @@
 id = "lemma-nagata-boundary-disjoint-persists"
 kind = "lemma"
 title = "Disjoint boundary closures persist"
-order = 276
+order = 370
 lean = ["AlgebraicGeometry.TwoOpenSide.Prepared.admissibleBlowup", "AlgebraicGeometry.disjoint_range_strictTransformMap_of_disjoint"]
 uses = ["def-nagata-strict-transform", "lemma-nagata-strict-transform-restrict"]
 +++

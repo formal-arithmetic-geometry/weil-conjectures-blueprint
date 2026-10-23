@@ -2,4 +2,7 @@
 kind = "proof"
 of = "aux-directed-colimit-map"
 +++
-For each open U, evaluate the sheaf colimit cocone at U. Its point is (colimit D)(U), and its legs are the component maps of colimit.ι D i. Apply colimit.desc to this cocone of sets. The coprojection equation colimit.ι_desc gives the required formula for every section. No sheafification or directedness argument is needed. (`CategoryTheory.Limits.colimit` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/CategoryTheory/Limits/HasLimits.lean))).
+Apply $G$ to the colimit cocone of $D$. This is a cocone over $G\circ D$ with point $G(\operatorname{colim}_jD_j)$ and
+legs $G$ of the coprojections. The universal property of $\operatorname{colim}_jG(D_j)$ gives the unique morphism out of
+it compatible with these legs, which is the required formula. For sheaves, $G$ is evaluation at $U$. No
+sheafification or directedness argument is needed.

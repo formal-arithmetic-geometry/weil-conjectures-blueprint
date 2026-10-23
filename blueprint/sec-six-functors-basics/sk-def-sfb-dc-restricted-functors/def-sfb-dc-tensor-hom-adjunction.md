@@ -2,7 +2,7 @@
 id = "def-sfb-dc-tensor-hom-adjunction"
 kind = "definition"
 title = "The adjunction $K\\otimes^{\\mathrm L}-\\dashv\\RHom(K,-)$ on $D_{\\mathrm{cons}}$"
-order = 1791
+order = 2637
 uses = ["def-sfb-dc-hom", "def-sfb-dc-tensor"]
 +++
 Let $X$ and $\Lambda$ be as in [def-sfb-dc-tensor] and [def-sfb-dc-hom]. For

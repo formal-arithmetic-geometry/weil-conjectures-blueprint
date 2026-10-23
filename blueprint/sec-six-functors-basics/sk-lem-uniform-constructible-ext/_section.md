@@ -2,7 +2,7 @@
 id = "sk-lem-uniform-constructible-ext"
 kind = "lemma"
 title = "Uniform Ext bound"
-order = 1521
+order = 2220
 uses = ["sk-lem-coefficient-heart", "sk-def-cd", "sk-lem-formal-closed-support"]
 tags = ["sketch"]
 +++

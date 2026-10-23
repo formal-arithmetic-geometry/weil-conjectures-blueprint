@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-a1-lisse-middle-extension"
-uses = ["lem-wf-boundary-stalk-invariants", "lem-wf-lisse-stalk-vanishing", "sk-lem-coefficient-heart", "sk-prop-pe-condensed-point", "sk-prop-sfb-module-pullback-exact", "sk-thm-sf-ctf-stability"]
+uses = ["lem-wf-boundary-stalk-invariants", "lem-wf-lisse-stalk-vanishing", "sk-lem-coefficient-heart", "sk-prop-pe-condensed-point", "det-prop-sfb-module-pullback-exact-main", "sk-thm-sf-ctf-stability"]
 +++
 The assertion is clear on $U_0$. At a removed point, lissity on
 $C_0$ makes the local inertia action trivial, so the invariant-stalk
@@ -11,7 +11,7 @@ on the stalk of a lisse sheaf. The map is the naturality of the
 adjunction at every geometric point. Both sides are constructible
 ($Rj_*$ preserves $\Dbc(-,\Qlb)$, [sk-thm-sf-ctf-stability]), so the kernel and the
 cokernel of the map are constructible ([sk-lem-coefficient-heart] (1)). Geometric stalks are
-exact (the pullback to a geometric point is exact, [sk-prop-sfb-module-pullback-exact], and
+exact (the pullback to a geometric point is exact, [det-prop-sfb-module-pullback-exact-main], and
 its global sections are exact because every pro-étale cover of the spectrum of an
 algebraically closed field has a section, [sk-prop-pe-condensed-point]), so the kernel and the
 cokernel have zero stalks. A constructible $M$ with zero stalks vanishes: for each stratum

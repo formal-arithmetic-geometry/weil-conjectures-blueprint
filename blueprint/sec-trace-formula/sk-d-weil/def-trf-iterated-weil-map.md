@@ -3,7 +3,7 @@ id = "def-trf-iterated-weil-map"
 kind = "definition"
 title = "Iterated Weil isomorphism and scheme-Frobenius map"
 lean = ["AlgebraicGeometry.ProEtale.StrictWeilComplex.iteratedWeilMap", "AlgebraicGeometry.ProEtale.StrictWeilComplex.schemeFrobeniusMap"]
-order = 2639
+order = 3500
 uses = ["def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "prop-trf-scheme-galois-comparison"]
 +++
 Let $(K,\varphi)\in D^b_{ctf,\mathrm W}(X,A)$ under the conventions of

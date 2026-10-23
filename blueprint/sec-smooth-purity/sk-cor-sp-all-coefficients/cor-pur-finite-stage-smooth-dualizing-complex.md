@@ -3,7 +3,7 @@ id = "cor-pur-finite-stage-smooth-dualizing-complex"
 kind = "theorem"
 title = "Finite-stage smooth dualizing complex"
 lean = ["AlgebraicGeometry.Etale.exists_counit_eq_smoothPurityTrace"]
-order = 2373
+order = 3064
 tags = ["latex:corollary"]
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-smooth-trace", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-trace-normalization-transitivity"]
 +++

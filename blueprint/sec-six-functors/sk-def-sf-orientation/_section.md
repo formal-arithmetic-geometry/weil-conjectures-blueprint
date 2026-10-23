@@ -2,7 +2,7 @@
 id = "sk-def-sf-orientation"
 kind = "definition"
 title = "Orientation: an interface record"
-order = 2400
+order = 3329
 tags = ["sketch"]
 +++
 An *orientation* for a smooth separated finite-type $f:X\to Y$ of pure

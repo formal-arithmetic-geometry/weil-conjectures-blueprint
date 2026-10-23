@@ -2,6 +2,7 @@
 id = "det-sp-tower-gamma"
 kind = "proposition"
 title = "Tower orientation and tower purity isomorphism"
+order = 3022
 uses = ["det-sp-tower-gluing", "det-sp-reduction-compatibilities", "det-sp-reduction-direct-image", "thm-pur-diagonal-dualizing-object"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$ and put

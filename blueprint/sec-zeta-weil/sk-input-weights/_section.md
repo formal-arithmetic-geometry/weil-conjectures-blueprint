@@ -1,33 +1,27 @@
 +++
 id = "sk-input-weights"
-kind = "proposition"
-title = "The weight estimate: Deligne purity"
-order = 3213
+kind = "corollary"
+title = "Purity of smooth proper cohomology"
+order = 4091
 lean = ["Polynomial.IsMixedOfWeightLE", "TraceDatum.norm_eq_of_mem_roots_charpoly_map_of_pairing"]
-uses = ["sk-cor-dl-general-complex", "sk-d-dl-general-weights", "sk-d-real-weights", "sk-def-cohfamily", "sk-def-sf-operations", "sk-p-real-purity", "sk-prop-sf-comp-proper", "sk-thm-dl-a1-upper", "sk-thm-dl-general-sheaf", "sk-thm-poincare-duality"]
+uses = ["sk-d-real-weights", "sk-prop-smooth-proper-purity", "sk-cor-dl-general-complex", "sk-prop-sf-comp-proper"]
 tags = ["sketch"]
 +++
-Let $X_0/k_0$ be smooth, proper and geometrically connected of pure dimension
-$d$ (no admissibility hypothesis on the structure morphism; its exceptional
-adjoint is the unconditional one of [sk-def-sf-operations](vi), so the
-statement applies to every $X_0$ of [sk-def-cohfamily]).
-Then for every $0\le i\le2d$:
+Let $X_0/\mathbf F_q$ be smooth proper of pure dimension $d$ and
+$X=X_0\times_{\mathbf F_q}\overline{\mathbf F}_q$. Every geometric
+Frobenius eigenvalue on $H^i(X_{\mathrm{pro\acute et}},\overline{\mathbf Q}_\ell)$
+satisfies
 
-1. the constant Weil sheaf is $\iota$-pure of weight $0$;
-1. $H_c^{i}(X,\Qlb)$ is $\iota$-mixed of weights $\le i$;
-1. the comparison $H_c^{i}(X,\Qlb)\to H^{i}(X,\Qlb)$ is
-Frobenius-equivariant;
-1. $V_{i,\ell}=H^{i}(X,\Ql)$ is $\iota$-pure of weight $i$;
-1. every eigenvalue $\alpha$ of geometric Frobenius on $V_{i,\ell}$
-satisfies $|\iota(\alpha)|=q^{i/2}$.
+$$
+ |\iota(\alpha)|=q^{i/2}.
+$$
 
-The relative form is the estimate for $Rf_{!}$: for a separated finite-type
-morphism $f_0:X_0\to Y_0$ and a constructible Weil sheaf $\mathcal F_0$
-mixed of weights $\le w$, each sheaf $R^{r}f_{0!}\mathcal F_0$ is mixed of
-weights $\le w+r$ ([sk-thm-dl-general-sheaf]); equivalently, in the
-complex convention of [sk-d-dl-general-weights], $Rf_{0!}$ carries bounded
-constructible Weil complexes of weights $\le w$ to complexes of weights
-$\le w$ ([sk-cor-dl-general-complex]). The bound is degree by degree,
-not a uniform $w+\dim(X_0/Y_0)$ on all of $Rf_{0!}$: for
-$\mathbf A^{1}\to\Spec k_0$ the group $H^{2}_c(\mathbf A^{1},\Qlb)$ has weight
-$2$.
+This holds for every prime $\ell\nmid q$ and every field embedding
+$\iota:\overline{\mathbf Q}_\ell\hookrightarrow\mathbf C$.
+
+*Complement.* For every $i$: the constant Weil sheaf is $\iota$-pure of
+weight $0$; $H_c^{i}(X,\Qlb)$ is $\iota$-mixed of weights $\le i$; the
+comparison $H_c^{i}(X,\Qlb)\to H^{i}(X,\Qlb)$ is a Frobenius-equivariant
+isomorphism; and the reciprocal roots of
+$\det(1-TF\mid H^i(X,\Ql))$, which are the eigenvalues of $F$ on
+$H^i(X,\Ql)\otimes\Qlb=H^i(X,\Qlb)$, satisfy $|\iota(\alpha)|=q^{i/2}$.

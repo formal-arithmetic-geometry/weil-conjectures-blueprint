@@ -2,6 +2,8 @@
 id = "def-weil-pbc-torsion-etale-sheaf"
 kind = "definition"
 title = "Torsion abelian sheaf on the small etale site"
+lean = ["AlgebraicGeometry.Scheme.IsTorsionAbelianSheaf"]
+order = 1538
 uses = ["def-weil-pbc-abelian-etale-sheaves", "def-pur-abelian-sheaf-kernel", "def-weil-pbc-category-colimit"]
 tags = ["stacks-0DDB"]
 +++
@@ -11,4 +13,4 @@ $$
  c_F:\varinjlim_{n}F[n ]\longrightarrow F
 $$
 
-from its colimit [def-weil-pbc-category-colimit] in $\Ab(T_{\Et})$. The sheaf $F$ is *torsion* (a *torsion abelian sheaf*) if $c_F$ is an isomorphism. Equivalent forms of this condition (every local section is locally killed by a positive integer; every stalk at a geometric point is a torsion abelian group), and the fact that it does not make every group $F(U)$ torsion, are stated in [lem-weil-pbc-torsion-sheaf-characterizations]; that lemma is about this definition and is a pointer, not a dependency.
+from its colimit [def-weil-pbc-category-colimit] in $\Ab(T_{\Et})$. The sheaf $F$ is *torsion* (a *torsion abelian sheaf*) if $c_F$ is an isomorphism.

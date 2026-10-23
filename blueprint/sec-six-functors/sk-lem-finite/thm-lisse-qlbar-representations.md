@@ -3,8 +3,8 @@ id = "thm-lisse-qlbar-representations"
 kind = "theorem"
 title = "Lisse $\\overline{\\mathbf Q}_\\ell$-sheaves and continuous representations"
 lean = ["AlgebraicGeometry.ProEtale.exists_lisseMonodromy"]
-order = 2772
-uses = ["cor-galois-lisse-representations", "def-galois-fibre-functor", "thm-galois-fundamental", "sk-def-sfb-constructible", "sk-def-sfb-module-pushforward-pullback", "sk-prop-pe-condensed-point", "sk-prop-pe-finite-local-systems", "sk-prop-sfb-qlbar-colimit-x", "sk-lem-stratified-lattice", "det-lem-stratified-lattice-rank", "det-lem-stratified-lattice-scheme", "sk-thm-sfb-qlbar-two-colimit", "det-lem-coefficient-finite-descent-lisse", "det-lem-coefficient-finite-descent-sections"]
+order = 3282
+uses = ["cor-galois-lisse-representations", "def-galois-fibre-functor", "thm-galois-fundamental", "sk-def-sfb-constructible", "det-def-sfb-module-pushforward-pullback", "sk-prop-pe-condensed-point", "sk-prop-pe-finite-local-systems", "sk-prop-sfb-qlbar-colimit-x", "sk-lem-stratified-lattice", "det-lem-stratified-lattice-rank", "det-lem-stratified-lattice-scheme", "sk-thm-sfb-qlbar-two-colimit", "det-lem-coefficient-finite-descent-lisse", "det-lem-coefficient-finite-descent-sections"]
 +++
 Let $X$ be a connected Noetherian scheme with a geometric point
 $\bar x:\Spec\kappa\to X$, and let $\pi_1=\pi_1(X,\bar x)$ be the profinite

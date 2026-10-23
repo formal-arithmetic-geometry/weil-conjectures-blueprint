@@ -2,7 +2,7 @@
 id = "lemma-nagata-composite-valuation-ring"
 kind = "lemma"
 title = "Composite of two valuation rings"
-order = 281
+order = 373
 lean = ["ValuationSubring.comapResidue", "ValuationSubring.mem_comapResidue_of_not_isUnit", "ValuationSubring.residueRestrictEquiv"]
 +++
 Let $A'$ be a valuation ring with maximal ideal $\mathfrak m'$, and let

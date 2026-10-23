@@ -2,6 +2,7 @@
 id = "det-geo-open-finiteness-base-change"
 kind = "lemma"
 title = "Base change for open direct images over a field"
+order = 2386
 uses = ["thm-fin-deligne-generic-open", "cor-fin-deligne-open-finite-coefficients", "lem-fin-coefficients-forgetful-direct-image", "sbc-def-base-change-map", "thm-constructible-serre"]
 +++
 Let $k$ be a field, let $\ell\ne\operatorname{char}(k)$, let $\Lambda$ be a

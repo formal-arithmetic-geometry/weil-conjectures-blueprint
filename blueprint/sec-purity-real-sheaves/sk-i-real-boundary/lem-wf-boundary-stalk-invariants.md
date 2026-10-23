@@ -3,7 +3,7 @@ id = "lem-wf-boundary-stalk-invariants"
 kind = "lemma"
 title = "Boundary stalk as inertia invariants"
 lean = ["AlgebraicGeometry.Scheme.isFiniteLocallyConstantSheaf_upperStar_middleExtension", "AlgebraicGeometry.Scheme.isFiniteLocallyConstantSheaf_upperStar_middleExtension_of_smooth", "AlgebraicGeometry.Etale.boundarySpecialization", "AlgebraicGeometry.Etale.injective_boundarySpecialization", "AlgebraicGeometry.Etale.boundaryStalkMap_comp_boundarySpecialization", "AlgebraicGeometry.Etale.galoisStalkMap_boundarySpecialization", "AlgebraicGeometry.Etale.exists_boundarySpecialization_eq", "AlgebraicGeometry.Etale.range_boundarySpecialization", "AlgebraicGeometry.Etale.boundaryStalkLinearEquiv", "AlgebraicGeometry.WeilGroup.BoundaryChart.boundaryStalkEquiv", "AlgebraicGeometry.WeilGroup.BoundaryChart.boundaryStalkEquiv_boundaryStalkMap", "AlgebraicGeometry.WeilGroup.BoundaryChart.boundaryStalkEquivInvariants", "AlgebraicGeometry.WeilGroup.BoundaryChart.boundaryStalkEquivInvariants_boundaryStalkMap"]
-order = 2988
+order = 3893
 uses = ["d-real-boundary", "def-wf-fundamental-representation", "def-wf-middle-extension", "p-real-integral", "prop-weil-pbc-strict-henselization-stalk-formula", "sk-lem-coefficient-heart", "sk-lem-integral-models", "sk-prop-integral-criterion", "sk-prop-pe-milnor", "sk-prop-scalar-six", "sk-prop-sfb-finite-extension-compatibility", "sk-thm-pe-direct-image-comparison", "sk-thm-sf-ctf-stability"]
 +++
 Let $j:U_0\hookrightarrow C_0$ be a dense open immersion of smooth

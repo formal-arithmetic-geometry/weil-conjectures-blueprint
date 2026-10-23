@@ -2,7 +2,7 @@
 id = "pur7710-def-etale-shriek-exchange"
 kind = "definition"
 title = "Étale compact-support exchange"
-order = 2359
+order = 3044
 uses = ["pur713-def-base-changed-compactification", "sk-thm-sf-comp-composition"]
 +++
 Let $f:X\to Y$ be a separated morphism of finite type between $k$-schemes of finite type, $g:Y'\to Y$ a morphism of $k$-schemes of finite type, and write $f':X'=X\times_YY'\to Y'$ and $g':X'\to X$ for the projections. Let $c_f=(j:X\hookrightarrow\overline X,\ p:\overline X\to Y)$ be the chosen compactification of $f$, let $\overline X'=\overline X\times_YY'$ with projections $\overline g:\overline X'\to\overline X$ and $p':\overline X'\to Y'$, and let $c'=(j',p')$ be the base-changed compactification of $f'$ (Definition [pur713-def-base-changed-compactification]). Define the natural transformation

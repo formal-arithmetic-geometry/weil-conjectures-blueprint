@@ -2,7 +2,7 @@
 id = "rem-ptr-exchange-projection-17"
 kind = "remark"
 title = "Pointer to the properties of [def-exchange-projection]"
-order = 1860
+order = 2647
 uses = ["def-exchange-projection", "prop-compactification-coherence-detailed"]
 +++
 In the notation of [def-exchange-projection], the following holds. For any factorization

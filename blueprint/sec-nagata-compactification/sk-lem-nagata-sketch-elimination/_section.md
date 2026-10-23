@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-elimination"
 kind = "theorem"
 title = "Elimination of indeterminacy"
-order = 11
+order = 288
 uses = ["sk-lem-nagata-sketch-blowups", "sk-def-nagata-admissible", "sk-lem-nagata-boundary-divisor", "thm-nagata-conrad-elimination"]
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap"]
 tags = ["sketch"]

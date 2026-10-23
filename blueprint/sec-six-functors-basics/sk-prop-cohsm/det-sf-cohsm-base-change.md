@@ -2,6 +2,7 @@
 id = "det-sf-cohsm-base-change"
 kind = "lemma"
 title = "Base change for the exceptional inverse image of a smooth morphism"
+order = 2372
 uses = ["thm-asd-smooth-tensor", "lem-pur-co-smooth-composition", "sk-prop-geo-p1-adjunction"]
 +++
 Let $\Lambda$ be a finite $\ell$-primary ring and $f:X\to S$ separated, smooth

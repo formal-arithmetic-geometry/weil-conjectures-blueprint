@@ -2,35 +2,46 @@
 kind  = "proof"
 of    = "lemma-weil-pbc-spectral-restriction"
 +++
-*Step 1: the zero locus of a section is clopen.* Let $s\in\Gamma(T,F)$ and
-let $Z(s)\subseteq T$ be the set of points at which the germ of $s$ vanishes.
-On an open $V$ on which $F$ is isomorphic to a constant sheaf the section
-$s|_V$ corresponds to a locally constant function $V\to A$, whose zero locus
-is therefore open and closed in $V$; since $T$ is covered by such $V$, the
-set $Z(s)$ is open and closed in $T$.
+*Step 1: specialization to $T_0$.* For $y\in T$ the closure
+$\overline{\{y\}}$ is irreducible and closed, so it meets $T_0$: every point of
+$T$ specializes to a point of $T_0$. If $y\rightsquigarrow z$, every open
+containing $z$ contains $y$.
 
-*Step 2: injectivity.* If $s|_{T_0}=0$, then $T_0\subseteq Z(s)$. Let
-$C\subseteq T$ be an irreducible closed subset. Then $C\cap Z(s)$ and
-$C\setminus Z(s)$ are open in $C$ and disjoint, and $C\cap T_0\neq\emptyset$
-with $C\cap T_0\subseteq C\cap Z(s)$ shows that $C\cap Z(s)\neq\emptyset$; by
-irreducibility of $C$ one of the two open subsets is empty, so $C\subseteq
-Z(s)$. Every point of $T$ lies in the irreducible closed set
-$\overline{\{x\}}$, so $Z(s)=T$ and $s=0$.
+*Step 2: injectivity.* The stalk of $F|_{T_0}$ at $z\in T_0$ is $F_z$. If
+$s\in\Gamma(T,F)$ restricts to $0$ on $T_0$, its germ at every $z\in T_0$ vanishes,
+so $s$ vanishes on an open neighbourhood of each such $z$; by Step 1 that
+neighbourhood contains every generization of $z$, and every point of $T$ is such a
+generization. Hence all germs of $s$ vanish and $s=0$.
 
-*Step 3: surjectivity.* Let $t\in\Gamma(T_0,F|_{T_0})$. By Step 1 applied to
-the locally constant sheaf $F$, each point of $T_0$ has an open neighbourhood
-$V$ with $F|_V\cong\underline A$ and, after shrinking, with $t|_{V\cap T_0}$
-the restriction of the constant section of $\underline A$ determined by the
-germ of $t$ at a point of $V\cap T_0$; such a point exists because
-$\overline{\{y\}}$ meets $T_0$ for every $y\in V$, by the hypothesis applied
-to the irreducible closed set $\overline{\{y\}}$. The neighbourhoods $V$ so
-obtained and the open set $T\setminus T_0$ cover $T$; on an intersection of
-two of them the two extending sections agree on the part lying over $T_0$,
-and by Step 1 applied to the difference of the two extensions they agree
-everywhere on the intersection, because the difference vanishes on a closed
-set meeting every irreducible closed subset of the intersection. The
-extensions therefore glue to a section $s\in\Gamma(T,F)$ with $s|_{T_0}=t$.
+*Step 3: shrinking.* Let $U_j$, $A_{jk}$ be as in the statement, and put
+$K_j=U_j\cap T_0$, a quasi-compact set. First, if $y\in T$ specializes to points
+$w_k\in K_k$ and $w_l\in K_l$, then $y\in A_{kl}$. Otherwise the connected set
+$\overline{\{y\}}\cap T_0$ would be covered by the two opens
+$\bigcup_{m:\,y\in A_{km}}U_m$ and $\bigcup_{m:\,y\notin A_{km}}U_m$, both meeting
+it (at $w_k$ and at $w_l$), so they would meet in a point $w$ of
+$\overline{\{y\}}\cap T_0$ lying in some $U_{m_1}$ with $y\in A_{km_1}$ and some
+$U_{m_2}$ with $y\notin A_{km_2}$; but $w\in U_{m_1}\cap U_{m_2}\cap T_0\subseteq
+A_{m_1m_2}$, an open set, contains its generization $y$, and transitivity gives
+$y\in A_{km_2}$, a contradiction.
 
-*Step 4: constants.* For a constant sheaf $\underline A$ the statement is
-immediate, since a nonempty spectral space has global sections $A$ and $T_0$
-is nonempty by the hypothesis applied to $T$ itself.
+Now let $B_j$ be the set of points of $U_j$ which are generizations of a point of
+some $K_k$ but do not lie in $A_{jk}$, and put
+$W_j=U_j\setminus\overline{B_j}$. The set $B_j$ is closed in the constructible
+topology, and in a spectral space every point of the closure of such a set is a
+specialization of one of its points. Hence, if $y$ specializes to a point of $K_j$,
+then $y\notin\overline{B_j}$: otherwise some $y'\in B_j$ with $y'\rightsquigarrow y$
+would specialize both into $K_j$ and into some $K_k$ with $y'\notin A_{jk}$,
+contradicting the first observation. In particular $K_j\subseteq W_j$, and the
+$W_j$ cover $T$, since by Step 1 every $y$ specializes to a point of some $K_j$
+and then lies in $U_j$. Finally, if $y\in W_j\cap W_k$, choose $l$ with $y$
+specializing into $K_l$; then $y\notin B_j\cup B_k$ gives $y\in A_{jl}\cap A_{kl}$,
+and symmetry and transitivity give $y\in A_{jk}$.
+
+*Step 4: surjectivity.* Let $t\in\Gamma(T_0,F|_{T_0})$. Since $T_0$ is closed in
+the spectral space $T$, it is quasi-compact, so by the definition of the inverse
+image there are finitely many quasi-compact opens $U_j$ of $T$ covering $T_0$
+and sections $s_j\in F(U_j)$ whose germs at the points of $U_j\cap T_0$ are those
+of $t$. Let $A_{jk}\subseteq U_j\cap U_k$ be the open set of points where $s_j$
+and $s_k$ have the same germ. These sets satisfy the hypotheses of Step 3, which
+gives opens $W_j$. The sections $s_j|_{W_j}$ agree on overlaps and glue to
+$s\in\Gamma(T,F)$, whose germs along $T_0$ are those of $t$; so $s|_{T_0}=t$.

@@ -4,5 +4,6 @@ kind = "lemma"
 title = "Dense disjoint irreducible opens inside a prescribed dense open"
 uses = ["def-weil-pbc-curve-setting"]
 lean = ["AlgebraicGeometry.IsCurve.exists_dense_irreducible_opens"]
+order = 1673
 +++
-Let k be a field, f:X → Spec k a separated finite-type curve of dimension at most one [def-weil-pbc-curve-setting], and V a dense open. There are n and pairwise disjoint nonempty irreducible opens U_a inside V, indexed by Fin n, with dense union W, topological Krull dimension of X minus W at most zero `topologicalKrullDim` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Topology/KrullDimension.lean)), and every connected component in W of a point of W is irreducible. This includes X empty and n = 0.
+Let $k$ be a field, $f:X\to\operatorname{Spec}k$ a curve [def-weil-pbc-curve-setting], and $V\subseteq X$ a dense open. There are $n\ge0$ and pairwise disjoint irreducible (in particular nonempty) opens $U_1,\dots,U_n\subseteq V$ whose union $W$ is dense in $X$, such that the complement $X\setminus W$ has topological Krull dimension at most zero, and the connected component in $W$ of every point of $W$ is irreducible. This includes $X$ empty and $n=0$.

@@ -2,8 +2,8 @@
 id = "def-sfb-derived-pull-iso"
 kind = "definition"
 title = "(Pull)"
-order = 1741
-uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-pushpull", "sk-def-sfb-derived-extension-of-scalars", "def-sfb-conjugate-pull-iso", "def-sfb-derived-comap-lower-star-iso"]
+order = 2615
+uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-pushpull", "det-def-sfb-derived-extension-of-scalars", "def-sfb-conjugate-pull-iso", "def-sfb-derived-comap-lower-star-iso"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso"]
 +++
 Let $a\colon\Lambda\to\Lambda'$ be a morphism of commutative condensed rings such that for every
@@ -20,4 +20,4 @@ on the unbounded derived categories, with $Lf^*$ the derived pullback of module 
 ([sk-def-sfb-module-derived-pushpull]): the conjugate ([def-sfb-conjugate-pull-iso]) of the
 isomorphism of [def-sfb-derived-comap-lower-star-iso] along the derived adjunctions
 $Lf^*\dashv Rf_*$ (over $\Lambda$ and over $\Lambda'$) and $T\dashv D(\operatorname{Res})$
-([sk-def-sfb-derived-extension-of-scalars]).
+([det-def-sfb-derived-extension-of-scalars]).

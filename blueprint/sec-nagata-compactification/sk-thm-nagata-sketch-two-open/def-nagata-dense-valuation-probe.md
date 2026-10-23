@@ -2,7 +2,7 @@
 id = "def-nagata-dense-valuation-probe"
 kind = "definition"
 title = "Valuation probe through a schematically dense source"
-order = 286
+order = 378
 lean = ["AlgebraicGeometry.ValuativeCommSqWithPt", "AlgebraicGeometry.ValuativeCommSqWithPt.ofIsDominant"]
 uses = ["def-nagata-scheme-theoretic-image"]
 +++

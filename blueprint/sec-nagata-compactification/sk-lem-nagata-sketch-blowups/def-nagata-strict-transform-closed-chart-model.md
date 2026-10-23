@@ -3,7 +3,7 @@ id = "def-nagata-strict-transform-closed-chart-model"
 kind = "definition"
 title = "Closed chart model of the global strict transform"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.StrictTransformChart", "AlgebraicGeometry.Scheme.IdealSheafData.StrictTransformChart.ι", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransformChartModel"]
-order = 164
+order = 275
 uses = ["def-nagata-global-blowup", "def-nagata-strict-transform-chart-ring"]
 +++
 Let $f\colon Y\to X$ be a morphism, let $\mathcal I$ be a quasi-coherent

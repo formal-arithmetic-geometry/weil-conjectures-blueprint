@@ -2,24 +2,18 @@
 kind = "proof"
 of = "det-pe-wc-rings-w-local-refinement"
 +++
-Let $B^w$ be the w-localization of $B$ ([def-weil-pbc-w-localization]). By
-[lem-weil-pbc-w-localization-points] its points are pairs $(x,y)$ of primes of $B$ with
-$y\subset x$, with local ring $B_y$ and with contraction $y$ to $B$; its closed points are
-the pairs $(x,x)$, and they form a closed subset.
-
-Since $R$ is w-local, its set of maximal ideals is closed, say $V(I)$ with $I$ radical. Let
-$T\subset\operatorname{Spec}B^w$ be the set of closed points $(x,x)$ lying in
-$V(IB^w)$. A closed point $(x,x)$ contracts to $x$ in $B$, so it lies in $V(IB^w)$ iff
-$I\subset x\cap R$, i.e. iff $x\cap R$ is maximal. Thus $T$ is closed (an intersection of
-two closed sets), consists of closed points, and corresponds to the primes of $B$ lying
-over maximal ideals of $R$.
-
-Put $B'=(B^w)_{[T]}$ ([def-weil-pbc-retained-localization]). By
-[lem-weil-pbc-retained-localization], $B^w\to B'$ is ind-Zariski, its points are the points
-of $\operatorname{Spec}B^w$ generalizing a point of $T$, with unchanged local rings, and,
-since all points of $T$ are closed, $\operatorname{Spec}B'$ is w-local with closed point set
-$T$. This gives 2 and 4, and the first half of 3. The map $B\to B^w$ is ind-Zariski, so
-$B\to B'$ is ind-Zariski and $R\to B'$ is ind-étale by
-[lem-weil-pbc-ind-etale-stability]; this is 1. For surjectivity in 3: a maximal ideal
-$\mathfrak m$ of $R$ is the image of some prime $x$ of $B$ because $R\to B$ is faithfully
-flat, and then $(x,x)\in T$ maps to $\mathfrak m$.
+For a prime $\mathfrak q$ of $B$ over a maximal ideal $\mathfrak m$ of $R$, the residue field
+$\kappa(\mathfrak q)$ is a residue field of the fibre $B\otimes_R\kappa(\mathfrak m)$, which is
+ind-étale, hence weakly étale, over $\kappa(\mathfrak m)$
+([lem-weil-pbc-ind-etale-stability]); so $\kappa(\mathfrak q)/\kappa(\mathfrak m)$ is
+separable algebraic by [lem-weil-pbc-weak-etale-field]. Hence part 3 of
+[lem-weil-pbc-retained-localization] applies to $R\to B$: the closed points of
+$\operatorname{Spec}B'$ are the points of $V(IB')$, and $R\to B'$ is faithfully flat. By part
+1 of [lem-weil-pbc-retained-localization], $B\to B'$ is ind-Zariski and $\operatorname{Spec}B'$
+is w-local; ind-Zariski maps identify local rings, which is 4, and $R\to B\to B'$ is
+ind-étale by [lem-weil-pbc-ind-etale-stability]. This gives 1, 2 and the first half of 3. A
+point of $V(IB')$ lies over a prime containing $I$, i.e. over a closed point of
+$\operatorname{Spec}R$. For surjectivity, let $\mathfrak m$ be a maximal ideal of $R$; by
+faithful flatness some prime $\mathfrak q$ of $B'$ lies over $\mathfrak m$, and a closed
+specialization of $\mathfrak q$ lies over a closed point containing $\mathfrak m$, i.e. over
+$\mathfrak m$.

@@ -2,6 +2,7 @@
 id = "det-sp-rational-adjunction"
 kind = "proposition"
 title = "The rational purity adjunction and the purity map over $E$"
+order = 3031
 uses = ["det-sp-rational-localized-hom", "det-sp-integral-adjunction-bijection", "det-sp-unique-right-adjoint"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$ and $E/\Ql$ finite.

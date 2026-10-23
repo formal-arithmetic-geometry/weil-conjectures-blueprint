@@ -3,7 +3,7 @@ id = "def-pur-smooth-trace"
 kind = "definition"
 title = "Smooth trace"
 lean = ["AlgebraicGeometry.Etale.smoothPurityTrace", "AlgebraicGeometry.Etale.homEquiv_smoothPurityTrace", "AlgebraicGeometry.Etale.smoothPurityTrace_naturality"]
-order = 2365
+order = 3058
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-exceptional-adjoint-admissibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Work in the purity conventions of [def-pur-conventions], let

@@ -50,7 +50,7 @@ g^{-1}R^pf_*F\xrightarrow{\ \sim\ }R^pf'_*(g')^{-1}F .
 $$
 
 *Step 2 (the complex case).* Let $E\in\Dplus(X_{\Et})$ be as in the
-statement. By [def-weil-pbc-hypercohomology-filtrations] the two
+statement. By [thm-sp-truncation-e2] the two
 hypercohomology spectral sequences
 
 $$

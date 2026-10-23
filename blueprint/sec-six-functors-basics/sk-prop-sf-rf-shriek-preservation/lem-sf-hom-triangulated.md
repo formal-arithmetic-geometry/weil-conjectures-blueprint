@@ -3,8 +3,8 @@ id = "lem-sf-hom-triangulated"
 kind = "lemma"
 title = "Exactness of the internal Hom in each variable"
 lean = ["DerivedCategory.exists_distinguished_ihom_pre", "AlgebraicGeometry.Etale.exists_distTriang_derivedHom_left", "AlgebraicGeometry.Etale.exists_distTriang_derivedHom_right", "AlgebraicGeometry.Etale.derivedHom_mem_of_distTriang_left", "AlgebraicGeometry.Etale.derivedHom_mem_of_distTriang_right"]
-order = 2425
-uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-pbc-etale-site", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-kinjective-resolutions-exist"]
+order = 2418
+uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-pbc-etale-site", "def-sp-kinjective-bridge", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $A$ be a commutative ring, let $X$ be a scheme and let
 $K',K,K'',M,M',M''$ be complexes of $A$-modules on $X_{\Et}$. If

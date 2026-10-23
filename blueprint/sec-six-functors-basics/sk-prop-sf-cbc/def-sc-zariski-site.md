@@ -3,7 +3,7 @@ id = "def-sc-zariski-site"
 kind = "definition"
 title = "The small Zariski site"
 lean = ["AlgebraicGeometry.Scheme.smallZariskiTopology"]
-order = 1905
+order = 2687
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 For a scheme $X$,

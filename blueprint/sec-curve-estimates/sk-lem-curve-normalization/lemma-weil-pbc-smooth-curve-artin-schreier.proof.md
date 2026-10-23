@@ -24,8 +24,11 @@ H^1(C,\mathbf F_p)=
 H^q(C,\mathbf F_p)=0\quad(q>1).
 $$
 
-This proves assertions (1)–(3) and (8) in the affine case; no
-field-extension assertion for affine $p$-torsion is claimed.
+This proves assertions (1)–(3) and (8) in the affine case; assertions (5)
+and (7) concern proper curves, and (4) and (6) are vacuous for the
+$p$-torsion sheaf $\underline{\mathbf F_p}$ unless $C$ is empty. Points
+have no higher cohomology, and finite disjoint unions commute with all maps
+considered, so we may assume $C$ connected.
 
 Suppose $C$ is proper and connected. Then
 $H^0(C,\mathcal O_C)=k$, $H^q(C,\mathcal O_C)=0$ for $q>1$, and
@@ -52,5 +55,4 @@ of copies of $\operatorname{Spec}k$; after an algebraically closed extension
 it has the same geometric points. Hence
 $H^1(C,\mathbf F_p)\to H^1(C_{k'},\mathbf F_p)$ is an isomorphism, while
 degree zero is $\mathbf F_p$ and all degrees above one vanish. This proves
-(1), (3), (5), (7), and (8) in the proper case, with the exact comparison
-map specified by the Artin–Schreier sequence.
+(1), (3), (5), (7), and (8) in the proper case.

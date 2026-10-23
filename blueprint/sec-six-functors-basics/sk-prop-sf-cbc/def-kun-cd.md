@@ -3,7 +3,7 @@ id = "def-kun-cd"
 kind = "definition"
 title = "Cohomological dimension"
 lean = ["AlgebraicGeometry.Scheme.torsionCohomologicalDimension", "AlgebraicGeometry.Scheme.Hom.HasTorsionCohomologicalDimensionLE", "AlgebraicGeometry.Scheme.Hom.torsionCohomologicalDimension", "AlgebraicGeometry.Scheme.torsionCohomologicalDimension_spec_of_isSepClosed", "AlgebraicGeometry.Etale.HasFiniteCohomologicalDimension", "AlgebraicGeometry.Etale.HasFiniteCohomologicalDimensionMorphism"]
-order = 1889
+order = 2679
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++
 For a

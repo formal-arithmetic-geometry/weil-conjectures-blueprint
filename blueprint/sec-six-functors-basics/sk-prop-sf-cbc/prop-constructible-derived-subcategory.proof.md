@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-constructible-derived-subcategory"
-uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "def-kun-separably-closed", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant"]
+uses = ["def-constructible-constant", "def-constructible-finite", "def-constructible-finite-locally-constant", "def-constructible-locally-constant", "def-constructible-stratification", "def-pc-separably-closed", "lemma-constructible-iso-invariance", "lemma-constructible-pullback-locally-constant"]
 +++
 For a weak Serre subcategory $\mathcal C$ of an abelian category, the
 complexes with cohomology in $\mathcal C$ form a triangulated subcategory

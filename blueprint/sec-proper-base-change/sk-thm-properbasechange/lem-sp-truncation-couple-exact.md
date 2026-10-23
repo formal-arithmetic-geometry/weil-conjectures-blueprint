@@ -2,7 +2,8 @@
 id = "lem-sp-truncation-couple-exact"
 kind = "lemma"
 title = "The truncation couple is an exact couple"
-order = 1279
+order = 1974
+lean = ["CategoryTheory.truncation_raw_exact"]
 uses = ["def-sp-exact-couple", "def-sp-grothendieck-abelian", "def-sp-left-exact-additive", "def-sp-truncation-couple", "lem-sp-long-exact-of-triangle"]
 +++
 Let $v:\mathcal A\to\mathcal B$ be left exact and additive

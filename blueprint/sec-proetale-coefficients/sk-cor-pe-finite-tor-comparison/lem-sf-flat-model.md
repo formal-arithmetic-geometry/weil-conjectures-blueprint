@@ -2,16 +2,14 @@
 id = "lem-sf-flat-model"
 kind = "lemma"
 title = "Bounded flat model of finite Tor amplitude"
-order = 2177
-uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "lem-exc-constant-inverse-image-flat"]
+order = 1056
+lean = ["DerivedCategory.torAmplitudeIn_iff_exists_iso_Q_obj_flat", "AlgebraicGeometry.ProEtale.DerivedCategory.torAmplitudeIn_iff_exists_flatModel", "AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatModel", "AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatConstructibleModel"]
+uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-proetale-site", "lem-exc-constant-inverse-image-flat"]
 +++
-Fix the global finite-field datum, a prime $\ell\ne p$, an integer
-$n\in\mathbf Z_{\geq1}$, and put $A=A_{E,n}$. Let $T$ be a scheme on
-which $\ell$ is invertible, and let $K\in D^b_c(T,A)$ be a
-bounded constructible
-complex of $A_T$-modules on the
-small pro-étale site. For
-integers $a\leq b$ the following two conditions are equivalent.
+Let $A$ be a finite commutative ring, let $T$ be a scheme, and let
+$K\in D(T_{\mathrm{proet}},A)$ be a complex of $A_T$-modules on the small
+pro-étale site, for instance a bounded constructible one. For integers
+$a\leq b$ the following two conditions are equivalent.
 
 1. **(i)** $K$ has finite Tor
 amplitude in $[a,b]$: for every sheaf $M$ of $A_T$-modules placed in
@@ -23,8 +21,8 @@ $q\notin[a,b]$, flatness meaning, as in
 [lem-exc-constant-inverse-image-flat], that $P^q\otimes_A-$
 preserves injections of $A_T$-module sheaves.
 
-The same equivalence holds with the corresponding constructibility,
-derived-tensor and Tor-amplitude conditions on a small étale site.
+The same equivalence holds with the corresponding derived-tensor and
+Tor-amplitude conditions on a small étale site.
 
 *Constructible variant.* If $T$ is Noetherian (for instance of finite type
 over $k$) and $K\in D^b_c(T_{\Et},A)$ on the small étale site has finite Tor

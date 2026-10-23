@@ -3,11 +3,11 @@ id = "lem-sc-cartier-divisor-points"
 kind = "lemma"
 title = "Effective Cartier divisors on a smooth curve"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.exists_eq_idealSheaf"]
-order = 714
-uses = ["def-sc-curves", "def-sc-effective-cartier-divisor", "lem-sc-dim0-finite", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
+order = 715
+uses = ["def-nagata-invertible-ideal", "lem-sc-dim0-finite", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
-Let $C$ be a smooth connected curve over $k$
-and $D\subseteq C$ an effective
+Let $k$ be a field, $C$ a Noetherian integral scheme which is smooth of
+relative dimension $1$ over $k$, and $D\subseteq C$ an effective
 Cartier divisor, with
 ideal sheaf $\mathcal I_D\subseteq\mathcal O_C$. Then there are
 closed points $P_1,\dots,P_r$ of $C$ and integers
@@ -20,6 +20,8 @@ $$
 $$
 
 where $t_P$ denotes a uniformizer of the discrete valuation ring
-$\mathcal O_{C,P}$: every effective Cartier divisor on a smooth
-connected curve is a finite sum $\sum_Pn_P[P]$ of closed points with
-positive integer multiplicities.
+$\mathcal O_{C,P}$; equivalently
+$\mathcal I_D=\prod_i\mathcal I_{P_i}^{n_i}$ with $\mathcal I_P$ the ideal
+sheaf of the closed point $P$. Thus every effective Cartier divisor on $C$
+is a finite sum $\sum_Pn_P[P]$ of closed points with positive integer
+multiplicities.

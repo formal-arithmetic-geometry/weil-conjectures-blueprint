@@ -2,8 +2,8 @@
 id = "sk-rem-sf-fullcd-scope"
 kind = "remark"
 title = "What this does and does not discharge"
-order = 2401
-uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-thm-existence", "sk-prop-sf-existence", "thm-sf-ambient-adjoint-class"]
+order = 3333
+uses = ["sk-def-sf-admissible", "det-def-sf-operations", "sk-thm-existence", "sk-prop-sf-existence", "thm-sf-ambient-adjoint-class"]
 tags = ["sketch"]
 +++
 [sk-prop-sf-fullcd-etale-origin] is the form of
@@ -12,7 +12,7 @@ $\operatorname{FullCD}$ that every consumer downstream actually uses: all of
 [sk-thm-sf-tensor-hom], [sk-def-sf-kv-maps] and the duality and trace
 chapters work inside $\Dctf$, where [09AK](https://stacks.math.columbia.edu/tag/09AK) puts every object in the
 étale-origin class, and there the exceptional adjoint is the unconditional
-$Rf^!$ of [sk-def-sf-operations] (vi), [thm-sf-ambient-adjoint-class]. It
+$Rf^!$ of [det-def-sf-operations] (vi), [thm-sf-ambient-adjoint-class]. It
 does *not* discharge the ambient datum [def-weil-ambient-exceptional-adjoint], and nothing can:
 Brown representability needs $Rf_!$ to preserve arbitrary coproducts on the
 whole of $D(\overline X_{\Proet},A)$, which requires the vanishing on
@@ -68,14 +68,14 @@ rationalization restore the ambient adjoint. *Repair boundary.* The
 sheaf $\mathcal F$ is not of étale origin, and no statement of this
 blueprint applies an adjunction $Rf_!\dashv Rf^!$ outside the étale-origin
 class: the constructible exceptional adjoint $Rf^!$ of
-[sk-def-sf-operations] (vi) — for finite coefficients the étale adjoint
+[det-def-sf-operations] (vi) — for finite coefficients the étale adjoint
 $f^{\times}$ of [def-weil-exceptional-inverse-image] transported to the
 pro-étale site, and for every admissible condensed $\Lambda$ the right
 adjoint of $Rf_!$ on $\Dctf$ of [sk-thm-existence] — is unconditional, preserves $\Dctf$
 ([sk-prop-sf-rf-shriek-preservation]), and is the only exceptional functor
 the duality, trace and weight chapters use. Their terminal statements
 ([sk-thm-poincare-duality], [sk-input-weights],
-[sk-thm-tracetodeterminant], [sk-prop-rootpurity]) therefore hold for
+[sk-cor-tf-point-counting], [sk-input-weights]) therefore hold for
 every smooth proper geometrically connected $X_0$ with no admissibility
 hypothesis.
 

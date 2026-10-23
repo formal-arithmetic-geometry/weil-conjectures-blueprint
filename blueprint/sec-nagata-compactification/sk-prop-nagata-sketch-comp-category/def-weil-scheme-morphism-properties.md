@@ -2,7 +2,7 @@
 id = "def-weil-scheme-morphism-properties"
 kind = "definition"
 title = "Scheme and morphism properties"
-order = 418
+order = 133
 lean = ["closedPoints", "AlgebraicGeometry.LocallyOfFinitePresentation", "IsRegularRing", "AlgebraicGeometry.IsRegular", "AlgebraicGeometry.Flat", "AlgebraicGeometry.Smooth", "AlgebraicGeometry.IsClosedImmersion", "AlgebraicGeometry.IsSeparated", "AlgebraicGeometry.UniversallyClosed", "AlgebraicGeometry.IsProper", "AlgebraicGeometry.IsOpenImmersion", "AlgebraicGeometry.Scheme.Hom.geometricFiberAt", "AlgebraicGeometry.Scheme.SpecToEquivOfField", "AlgebraicGeometry.WeaklyEtale", "IsLocallyClosed", "Topology.IsConstructible"]
 uses = ["def-weil-finite-type-morphism"]
 +++

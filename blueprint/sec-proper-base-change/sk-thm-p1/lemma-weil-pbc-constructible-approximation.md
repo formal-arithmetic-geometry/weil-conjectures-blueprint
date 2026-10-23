@@ -3,13 +3,15 @@ id = "lemma-weil-pbc-constructible-approximation"
 kind = "lemma"
 title = "Constructible approximation for effacement"
 lean = ["AlgebraicGeometry.Etale.exists_isConstructibleSheaf_hom_of_henselianRing"]
-order = 1181
-uses = ["def-weil-pbc-constructible-complexes", "lemma-weil-pbc-finite-stage-killing"]
+order = 1605
+uses = ["def-weil-pbc-constructible-complexes"]
 +++
-Let $(T,T_0)$ be an affine henselian pair, let $F$ be a torsion sheaf on
-$T_{\Et}$ with restriction $F_0$ to $T_0$, and let $c\in H^q(T_0,F_0)$ with
-$q>0$. Then there are a constructible torsion sheaf $C$ on $T$ and a
-morphism $\iota:C\to F$ such that $c$ lies in the image of
+Let $\Lambda$ be a finite ring, let $(A,I)$ be a henselian pair with
+$T=\operatorname{Spec}A$ and closed fibre $T_0=\operatorname{Spec}A/I$, let
+$F$ be a sheaf of $\Lambda$-modules on $T_{\Et}$ with restriction $F_0$ to
+$T_0$, and let $c\in H^q(T_0,F_0)$ for some $q\ge0$. Then there are a
+constructible sheaf of $\Lambda$-modules $C$ on $T$ and a morphism
+$\iota:C\to F$ such that $c$ lies in the image of
 $H^q(T_0,C_0)\to H^q(T_0,F_0)$.
 
 The morphism $\iota$ cannot in general be chosen to be a monomorphism: for

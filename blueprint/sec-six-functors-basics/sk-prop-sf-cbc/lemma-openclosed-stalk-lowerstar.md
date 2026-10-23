@@ -2,9 +2,9 @@
 id = "lemma-openclosed-stalk-lowerstar"
 kind = "lemma"
 title = "Stalks of $i_*$ on $Z$"
-order = 1880
+order = 2670
 lean = ["AlgebraicGeometry.Etale.lowerStarCompSheafFiberIso", "AlgebraicGeometry.Scheme.initial_pointSmallEtaleElementsBaseChange"]
-uses = ["def-kun-separably-closed"]
+uses = ["def-pc-separably-closed"]
 +++
 Let $i\colon Z\to X$ be a closed immersion, let $\bar z$ be a geometric point
 of $Z$ and write $\bar x:=i\circ\bar z$ for the corresponding geometric point

@@ -1,14 +1,12 @@
 +++
 id = "sk-p-dl-a1-fourier-weight"
-kind = "proposition"
-title = "The Fourier upper weight"
-order = 3121
-uses = ["sk-cor-plancherel", "sk-l-dl-a1-energy", "sk-p-dl-a1-correction", "sk-p-dl-a1-some-weight"]
+kind = "theorem"
+title = "The Fourier weight shift"
+order = 4007
+uses = ["sk-cor-plancherel", "sk-def-wrp-l2-definition", "sk-lem-wft-l2-middle", "sk-p-dl-a1-middle", "sk-p-dl-a1-some-weight", "sk-thm-wrp-l2-dictionary"]
 lean = ["AlgebraicGeometry.le_add_one_of_isFourierPartner"]
 tags = ["sketch"]
 +++
-Let $\psi$ be nontrivial and let $M$ be an irreducible lisse sheaf
-(nonzero, with no lisse subsheaves other than $0$ and $M$), nonexceptional
-and punctually $\iota$-pure of weight $w$. If the sheaf $M'$ of a
-Fourier partner $\DLAFT_\psi((j_*M)[1])\simeq(j'_*M')[1]$ is punctually
-$\iota$-pure of weight $v$, then $v\le w+1$.
+Let $M$ be nonzero, irreducible, Fourier-generic and pure
+of weight $w$. Then its Fourier partner $M'$ ([sk-p-dl-a1-middle]) is
+pure of weight exactly $w+1$.

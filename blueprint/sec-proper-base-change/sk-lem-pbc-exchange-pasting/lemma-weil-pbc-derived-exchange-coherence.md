@@ -2,9 +2,9 @@
 id = "lemma-weil-pbc-derived-exchange-coherence"
 kind = "lemma"
 title = "Resolution independence, identities, and pasting"
-order = 1074
+order = 1532
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_ext", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
-uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-underived-exchange"]
+uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-underived-exchange", "lemma-weil-pbc-derived-exchange-replacement"]
 +++
 Let $\mathcal A$ be a coefficient category as in
 [def-weil-pbc-derived-exchange], and consider derived exchange morphisms

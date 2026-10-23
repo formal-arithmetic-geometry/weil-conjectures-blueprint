@@ -2,10 +2,11 @@
 kind = "proof"
 of = "det-pe-continuous-cohomology-limit"
 +++
-The topos $X_{\Proet}$ is replete ([sk-prop-pe-replete]). In a replete topos, for
-an inverse system of abelian sheaves with surjective transition maps,
+The topos $X_{\Proet}$ is replete ([det-pe-replete-epimorphism]). In a replete
+topos, for an inverse system of abelian sheaves with surjective transition maps,
 $R^1\varprojlim F_n=0$ and the higher derived limits vanish, i.e.
-$R\varprojlim_nF_n\simeq\varprojlim_nF_n$ (Bhatt–Scholze, Proposition 3.1.10);
+$R\varprojlim_nF_n\simeq\varprojlim_nF_n$ ([det-pe-milnor-epimorphic];
+Bhatt–Scholze, Proposition 3.1.10);
 equivalently the map $1-\text{shift}\colon\prod_nF_n\to\prod_nF_n$ is an
 epimorphism with kernel $F$, and countable products of sheaves are exact on a
 replete topos so that $\prod_nF_n$ computes the derived product.

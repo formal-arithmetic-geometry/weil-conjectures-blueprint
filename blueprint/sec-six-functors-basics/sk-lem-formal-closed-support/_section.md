@@ -2,7 +2,7 @@
 id = "sk-lem-formal-closed-support"
 kind = "lemma"
 title = "Sections with support in a closed subscheme"
-order = 1514
+order = 2153
 uses = ["sk-lem-coefficient-heart", "sk-prop-sf-open-closed-triangle"]
 tags = ["sketch"]
 +++

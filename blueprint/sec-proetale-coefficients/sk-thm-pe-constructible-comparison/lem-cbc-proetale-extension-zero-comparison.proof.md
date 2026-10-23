@@ -34,8 +34,7 @@ at $W$ to $M(W)$, the identification being the restriction of
 sections along the open immersion $U\hookrightarrow X$. The two
 Hom-functors in $F$ are therefore isomorphic, and by Yoneda the two
 left adjoints are canonically isomorphic: this is the displayed
-comparison. Naturality in $F$ and compatibility with a composite of
-open immersions follow from the same identification of right
-adjoints, which is the restriction of sections along an open
-immersion and is natural and transitive, as in
-[lem-cbc-extension-zero-composition].
+comparison, natural in $F$. Applying it termwise to a bounded-below
+complex $L$, and using that $j^{\mathrm{et}}_!$, $j^{\mathrm{proet}}_!$,
+$\nu_X^*$ and $\nu_U^*$ are exact
+([lem-cbc-proetale-extension-zero]), gives the statement on complexes.

@@ -2,7 +2,8 @@
 id = "det-cor-coefficient-heart-ii-triangulated"
 kind = "lemma"
 title = "Bounded constructible complexes with field coefficients form a triangulated subcategory"
-uses = ["det-lem-coefficient-heart-closure", "det-def-sfb-constructible-tor-amplitude"]
+order = 2151
+uses = ["det-lem-coefficient-heart-closure", "def-sfb-bounded-constructible-complexes"]
 +++
 Let $X$ be a Noetherian scheme and $\Lambda=E$ or $\Qlb$. The full subcategory
 $\Dbc(X,\Lambda)\subseteq D(X_{\mathrm{proét}},\Lambda)$ contains $0$, is closed under

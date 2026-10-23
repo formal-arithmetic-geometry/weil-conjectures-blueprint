@@ -2,7 +2,8 @@
 id = "lem-sc-artin-schreier-dimension"
 kind = "lemma"
 title = "Artin–Schreier vanishing on a smooth curve"
-order = 1016
+lean = ["AlgebraicGeometry.isZero_etaleCohomology_constantZMod_of_one_lt_of_charP"]
+order = 1458
 uses = ["def-sc-constant-sheaves", "def-sc-curves", "def-weil-pbc-etale-cohomology", "lem-sc-affine-open-proper", "lem-sc-as-sequence", "lem-sc-compactification", "lem-sc-etale-affine-qcoherent", "lem-sc-ga-cohomology", "lem-sc-lang-steinberg"]
 +++
 Let $C$ be a smooth separated connected curve

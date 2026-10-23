@@ -2,7 +2,7 @@
 id = "lem-kun-proper-stability"
 kind = "lemma"
 title = "Properness survives base change and composition"
-order = 2055
+order = 3141
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-base-change", "lem-weil-pbc-proper-composition"]
 +++
 The class of proper

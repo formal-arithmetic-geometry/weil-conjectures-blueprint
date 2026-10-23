@@ -2,7 +2,7 @@
 id = "lem-trf-ordinary-kunneth"
 kind = "lemma"
 title = "Ordinary Kunneth for a general morphism"
-order = 2562
+order = 3318
 uses = ["def-trf-coefficient-conventions", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "lem-kun-0f1j", "lem-kun-0f1n", "lem-sf-flat-model"]
 +++
 Use the finite coefficient ring $A=A_{E,n}$ of

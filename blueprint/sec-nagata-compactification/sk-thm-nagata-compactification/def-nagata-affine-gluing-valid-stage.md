@@ -2,7 +2,7 @@
 id = "def-nagata-affine-gluing-valid-stage"
 kind = "definition"
 title = "Cocycle-valid stage of an affine gluing presentation"
-order = 347
+order = 39
 lean = ["AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.Stage", "AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.glueStage", "AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.exists_stage_superset"]
 uses = ["def-nagata-affine-gluing-coefficient-stage"]
 +++

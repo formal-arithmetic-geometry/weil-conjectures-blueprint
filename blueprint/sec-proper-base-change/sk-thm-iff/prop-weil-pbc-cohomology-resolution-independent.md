@@ -2,15 +2,15 @@
 id = "prop-weil-pbc-cohomology-resolution-independent"
 kind = "theorem"
 title = "Resolution independence of etale cohomology"
-order = 1100
+order = 1559
 lean = ["CochainComplex.IsKInjective.nonempty_homology_iso"]
-uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-site", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-kinjective-resolutions-exist"]
+uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-site", "def-sp-kinjective-bridge", "prop-weil-pbc-kinjective-resolutions-exist"]
 tags = ["latex:proposition"]
 +++
 Let $\mathcal C$ and $\mathcal D$ be abelian categories, $G:\mathcal C\to\mathcal D$
 an additive functor, and $K$ a complex in $\mathcal C$. If $K\to I^\bullet$ and
 $K\to J^\bullet$ are two K-injective resolutions
-[def-weil-pbc-kinjective-resolutions] of $K$, then for every $q$ the objects
+[def-sp-kinjective-bridge] of $K$, then for every $q$ the objects
 $\mathcal H^q(G(I^\bullet))$ and $\mathcal H^q(G(J^\bullet))$ are isomorphic.
 
 In particular, let $T$ be a scheme and $F$ an etale abelian sheaf on the small

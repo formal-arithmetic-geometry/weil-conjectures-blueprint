@@ -2,7 +2,7 @@
 id = "def-nagata-proj-closed-center-finite-degree"
 kind = "definition"
 title = "Finite-degree data attached to a closed center in Proj"
-order = 138
+order = 250
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteDegree_center", "AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteDegree_center_le_blowup"]
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "def-nagata-relative-proj", "lemma-nagata-affine-blowup-complement", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-dense-flat-pullback", "lemma-nagata-extended-ideal-affine-chart", "lemma-nagata-finite-type-ideal-extension-exists", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-ideal-unit-off-support", "lemma-nagata-localization-ideal-pow", "lemma-nagata-proj-closed-center-finite-degree-exists", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-affine-blowup-chart", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded"]
 +++

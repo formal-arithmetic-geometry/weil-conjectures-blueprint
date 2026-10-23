@@ -3,7 +3,7 @@ id = "lem-weil-pbc-zero-dimensional-field-extension"
 kind = "lemma"
 title = "Field extension in dimension zero"
 lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_topologicalKrullDim_le_zero"]
-order = 1208
+order = 1514
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-eight-curve-assertions", "lem-weil-pbc-zero-dimensional-cohomology", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $k\subset k'$ be algebraically closed fields, let $C$ be a separated

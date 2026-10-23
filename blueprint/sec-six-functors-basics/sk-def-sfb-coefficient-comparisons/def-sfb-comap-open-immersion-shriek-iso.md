@@ -2,8 +2,8 @@
 id = "def-sfb-comap-open-immersion-shriek-iso"
 kind = "definition"
 title = "Restriction of scalars commutes with $j_!$"
-order = 1743
-uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-lower-shriek", "sk-def-sfb-change-of-scalars"]
+order = 2617
+uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-lower-shriek", "det-def-sfb-change-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.comapOpenImmersionLowerShriekIso"]
 +++
 Let $a\colon\Lambda\to\Lambda'$ be a morphism of commutative condensed rings

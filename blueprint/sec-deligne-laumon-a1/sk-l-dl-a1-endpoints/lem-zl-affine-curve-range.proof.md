@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-zl-affine-curve-range"
-uses = ["def-compact-support-direct-image-detailed", "sk-lem-coefficient-heart", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-sfb-finite-extension-compatibility", "sk-lem-stratified-lattice", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-thm-sf-ctf-stability", "sk-def-pe-derived-completion", "lem-sc-cohomological-dimension", "lem-sc-compactification", "lem-weil-pbc-mittag-leffler", "sbc-thm-finiteness-finite-type"]
+uses = ["def-compact-support-direct-image-detailed", "sk-lem-coefficient-heart", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-sfb-finite-extension-compatibility", "sk-lem-stratified-lattice", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-thm-sf-ctf-stability", "def-pe-derived-complete", "lem-sc-cohomological-dimension", "lem-sc-compactification", "lem-weil-pbc-mittag-leffler", "sbc-thm-finiteness-finite-type"]
 +++
 The Weil structure plays no role; we bound the cohomology of the underlying
 $\Qlb$-sheaf. Choose a smooth proper completion $j:C\hookrightarrow\overline C$
@@ -47,7 +47,7 @@ Put $M=R\Gamma_c(U,L_0)\in\Dbc(\operatorname{Spec}k,\mathcal O_E)$
 ([sk-thm-sf-ctf-stability]). It is derived $\pi_E$-complete
 ([sk-prop-integral-criterion]), so
 $M\simeq R\varprojlim_nM\otimes^{\mathbf L}\mathcal O_E/\pi_E^n$
-([sk-def-pe-derived-completion]); and since $L_0$ is flat and reduction modulo
+([def-pe-derived-complete]); and since $L_0$ is flat and reduction modulo
 $\pi_E^n$ commutes with $R\Gamma_c$ ([sk-prop-scalar-six]),
 $M\otimes^{\mathbf L}\mathcal O_E/\pi_E^n\simeq R\Gamma_c(U,L_0/\pi_E^n)$. These
 are torsion complexes with finite cohomology concentrated in degrees $0,1,2$, by

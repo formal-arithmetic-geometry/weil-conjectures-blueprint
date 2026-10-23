@@ -2,7 +2,7 @@
 id = "divisors-the-picard-functor-and-the-kummer-sequence--remark-1"
 kind = "remark"
 title = "Higher multiplicities"
-order = 717
+order = 718
 uses = ["lem-sc-cartier-divisor-points"]
 +++
 Effective Cartier divisors on a smooth curve need not be reduced:

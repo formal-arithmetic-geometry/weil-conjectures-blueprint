@@ -2,7 +2,7 @@
 id = "pqf-def-locnoeth"
 kind = "definition"
 title = "Locally Noetherian schemes"
-order = 199
+order = 301
 lean = ["AlgebraicGeometry.IsLocallyNoetherian"]
 +++
 A scheme $X$ is *locally Noetherian* if the ring $\mathcal O_X(U)$ is

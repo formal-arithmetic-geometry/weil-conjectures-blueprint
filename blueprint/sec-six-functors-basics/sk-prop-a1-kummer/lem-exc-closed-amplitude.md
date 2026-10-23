@@ -2,7 +2,7 @@
 id = "lem-exc-closed-amplitude"
 kind = "lemma"
 title = "Closed-support amplitude"
-order = 2255
+order = 2801
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-exc-closed-ambient", "lem-exc-closed-support-triangle", "thm-constructible-serre"]
 +++
 Let $i:Z\hookrightarrow T$ be a

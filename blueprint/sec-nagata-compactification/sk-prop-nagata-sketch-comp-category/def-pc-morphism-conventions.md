@@ -2,7 +2,7 @@
 id = "def-pc-morphism-conventions"
 kind = "definition"
 title = "Morphism-theoretic conventions from file 02"
-order = 419
+order = 134
 lean = ["AlgebraicGeometry.QuasiCompact", "AlgebraicGeometry.QuasiSeparated", "AlgebraicGeometry.IsSeparated", "AlgebraicGeometry.LocallyOfFiniteType", "AlgebraicGeometry.LocallyOfFinitePresentation", "AlgebraicGeometry.Surjective", "AlgebraicGeometry.IsOpenImmersion", "AlgebraicGeometry.IsClosedImmersion", "AlgebraicGeometry.IsImmersion", "AlgebraicGeometry.UniversallyClosed", "AlgebraicGeometry.IsProper", "AlgebraicGeometry.IsFinite", "AlgebraicGeometry.IsIntegralHom", "AlgebraicGeometry.Flat", "AlgebraicGeometry.FormallyUnramified", "AlgebraicGeometry.Etale", "AlgebraicGeometry.Scheme.Hom.geometricFiberAt", "AlgebraicGeometry.Scheme.SpecToEquivOfField", "AlgebraicGeometry.IsProjective"]
 uses = ["def-pc-projective-morphism", "def-pc-scheme", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties"]
 +++

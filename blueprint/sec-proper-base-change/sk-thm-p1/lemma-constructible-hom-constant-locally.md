@@ -2,8 +2,8 @@
 id = "lemma-constructible-hom-constant-locally"
 kind = "lemma"
 title = "Morphisms between constant sheaves"
-order = 1211
-lean = ["CategoryTheory.Sheaf.isConstant_cokernel_over", "CategoryTheory.Sheaf.isConstant_kernel_over", "CategoryTheory.exists_mem_forall_exists_constantSheafOverHom_comp_map_eq", "CategoryTheory.exists_mem_forall_exists_linearMap"]
+order = 1611
+lean = ["CategoryTheory.exists_mem_forall_exists_constantSheafOverHom_comp_map_eq", "CategoryTheory.exists_mem_forall_exists_linearMap", "CategoryTheory.kernelOverIso", "CategoryTheory.cokernelOverIso", "CategoryTheory.Sheaf.isConstant_kernel_over", "CategoryTheory.Sheaf.isConstant_cokernel_over"]
 uses = ["def-constructible-constant"]
 +++
 Let $\mathcal A=\mathrm{Mod}_\Lambda$ with $\Lambda$ a ring, let $M$ be a finite

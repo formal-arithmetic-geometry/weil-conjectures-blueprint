@@ -2,9 +2,9 @@
 id = "def-sfb-finite-lower-star"
 kind = "definition"
 title = "Pushforward $g_*$ along base change"
-order = 1509
+order = 910
 uses = ["def-weil-pbc-proetale-site"]
-lean = ["AlgebraicGeometry.ProEtale.lowerStar"]
+lean = ["AlgebraicGeometry.ProEtale.lowerStar", "AlgebraicGeometry.Scheme.ProEt.isContinuous_overPullback"]
 +++
 Let $\mathcal A$ be a Grothendieck abelian category and $g\colon Z\to Y$ an arbitrary
 morphism of schemes. Base change $V\mapsto V\times_YZ$ is a functor

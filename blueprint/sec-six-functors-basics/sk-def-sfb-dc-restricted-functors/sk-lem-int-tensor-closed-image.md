@@ -2,6 +2,7 @@
 id = "det-sfb-dc-restricted-functors-closed-image"
 kind = "lemma"
 title = "Extension by zero and closed direct image preserve integral constructible complexes"
+order = 2638
 uses = ["sk-lem-int-integral-heart"]
 +++
 Let $j\colon U\to X$ be a quasi-compact open immersion and $i\colon Z\to X$ a closed immersion (of Noetherian

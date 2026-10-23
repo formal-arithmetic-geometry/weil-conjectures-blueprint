@@ -2,15 +2,15 @@
 id = "sk-def-sfb-constructible"
 kind = "definition"
 title = "Local models and constructible sheaves"
-order = 744
-uses = ["def-weil-pbc-proetale-site", "def-constructible-stratification", "sk-def-sfb-transport", "sk-def-sfb-pulled-back-coefficients"]
-lean = ["CategoryTheory.Mod.IsFinitelyPresented", "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented", "AlgebraicGeometry.ProEtale.IsConstructible"]
+order = 1238
+uses = ["def-weil-pbc-proetale-site", "def-constructible-stratification", "sk-prop-sf-open-closed-triangle"]
+lean = ["CategoryTheory.Mod.IsFinitelyPresented", "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented", "AlgebraicGeometry.ProEtale.IsConstructibleModuleObject"]
 tags = ["sketch"]
 +++
 The definition of a constructible sheaf makes sense for any condensed ring. Recall that for
 $g\colon Z\to X$ the restriction $M|_Z=g^*M$ of a $\Lambda_X$-module is a
 $\Lambda_Z$-module, since $g^{-1}\Lambda_X\simeq\Lambda_Z$
-([sk-def-sfb-pulled-back-coefficients], [sk-def-sfb-transport]); thus
+([det-def-sfb-pulled-back-coefficients], [det-def-sfb-transport]); thus
 $g^*\colon\Mod(X_{\mathrm{proét}},\Lambda)\to\Mod(Z_{\mathrm{proét}},\Lambda)$.
 
 Let $\Lambda$ be a commutative condensed ring.
@@ -34,7 +34,7 @@ Let $\Lambda$ be a commutative condensed ring.
 We write $\Cons(X,\Lambda)\subset\Mod(X_{\mathrm{proét}},\Lambda)$ for the full subcategory
 of constructible sheaves, and $\Dbc(X,\Lambda)\subset D(X_{\mathrm{proét}},\Lambda)$ for the
 full subcategory of bounded complexes with constructible cohomology sheaves (compare
-[sk-def-sfb-bounded-constructible]). A complex $K$ has *Tor amplitude in $[a,b]$* if
+[det-def-sfb-bounded-constructible]). A complex $K$ has *Tor amplitude in $[a,b]$* if
 $K\otimes^{\mathbf L}_{\Lambda_X}N$ has cohomology only in $[a,b]$ for every sheaf $N$ of
 $\Lambda_X$-modules. We write $\Dctf(X,\Lambda)$ for the full subcategory of
 $\Dbc(X,\Lambda)$ of complexes of finite Tor amplitude (compare [sk-def-sf-categories]).

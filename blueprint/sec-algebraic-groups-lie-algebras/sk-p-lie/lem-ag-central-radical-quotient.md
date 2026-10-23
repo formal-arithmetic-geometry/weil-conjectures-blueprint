@@ -2,7 +2,7 @@
 id = "lem-ag-central-radical-quotient"
 kind = "lemma"
 title = "Central radical gives centre plus derived algebra"
-order = 2816
+order = 3725
 uses = ["def-wf-lie-radical-centre", "def-wf-semisimple-lie-algebra", "lem-ag-killing-nondegenerate"]
 +++
 Let $L$ be a finite-dimensional Lie algebra over

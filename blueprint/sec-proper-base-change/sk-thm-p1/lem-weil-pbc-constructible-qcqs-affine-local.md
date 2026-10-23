@@ -1,7 +1,0 @@
-+++
-id = "lem-weil-pbc-constructible-qcqs-affine-local"
-kind = "lemma"
-title = "Constructible sheaves of modules on a qcqs scheme: global partition iff affine-local (Stacks 095E)"
-uses = ["def-weil-pbc-etale-constructible-sheaf", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image"]
-+++
-Let $T$ be a quasi-compact and quasi-separated scheme, $\Lambda$ a finite commutative ring and $\mathcal F$ a sheaf of $\Lambda_T$-modules on $T_{\Et}$ [def-weil-pbc-etale-site], [def-weil-pbc-etale-sheaves]. The following are equivalent: (1) (Stacks 03RW(3)) for every affine open $U\subseteq T$ there is a finite partition $U=\coprod_iU_i$ of $U$ into pairwise disjoint locally closed subsets $U_i$ which are constructible subsets of $U$ `Topology.IsConstructible` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Topology/Constructible.lean)), such that, giving $U_i$ its reduced induced subscheme structure with immersion $u_i:U_i\to T$, the inverse image $u_i^{-1}\mathcal F$ [def-weil-pbc-inverse-image] is finite locally constant as a sheaf of $\Lambda$-modules in the sense of [def-weil-pbc-etale-constructible-sheaf]; (2) there is an open covering $T=\bigcup_jV_j$ such that each restriction $\mathcal F|_{V_j}$ satisfies (1) on the scheme $V_j$; (3) $\mathcal F$ is constructible in the sense of [def-weil-pbc-etale-constructible-sheaf] (a finite partition of $T$ by constructible locally closed subsets with immersed schemes on whose inverse images $\mathcal F$ is finite locally constant).

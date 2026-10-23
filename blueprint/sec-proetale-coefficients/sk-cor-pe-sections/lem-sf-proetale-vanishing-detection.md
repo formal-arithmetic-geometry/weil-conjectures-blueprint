@@ -3,10 +3,10 @@ id = "lem-sf-proetale-vanishing-detection"
 kind = "lemma"
 title = "Detection of vanishing on affine weakly contractible objects"
 lean = ["AlgebraicGeometry.ProEtale.isZero_iff_forall_isWeaklyContractible", "AlgebraicGeometry.ProEtale.acyclic_iff_forall_isWeaklyContractible"]
-order = 2138
+order = 969
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "lem-cbc-proetale-stalk-conservative"]
 +++
-Let $\Lambda$ be a finite discrete ring, let $T$ be a scheme and let
+Let $\Lambda$ be a commutative ring, let $T$ be a scheme and let
 $F$ be a sheaf of $\Lambda$-modules on the
 small pro-étale site
 $T_{\Proet}$.

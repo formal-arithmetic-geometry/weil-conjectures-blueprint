@@ -3,7 +3,7 @@ id = "sk-thm-sf-pf-proetale"
 kind = "theorem"
 title = "Projection formula: the pro-étale realization"
 lean = ["AlgebraicGeometry.ProEtale.hasProjectionFormula_of_constructibleFiniteTor"]
-order = 2409
+order = 3341
 uses = ["sk-thm-sf-pf-finite", "sk-prop-sf-comparison", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field"]
 tags = ["sketch"]
 +++

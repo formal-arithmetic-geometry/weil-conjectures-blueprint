@@ -2,7 +2,7 @@
 id = "def-nagata-affine-blowup"
 kind = "definition"
 title = "Affine blow-up"
-order = 33
+order = 168
 lean = ["AlgebraicGeometry.AffineBlowup", "AlgebraicGeometry.AffineBlowup.toSpec"]
 uses = ["def-nagata-affine-proj", "def-nagata-rees-algebra", "def-nagata-rees-piece", "prop-nagata-rees-graded"]
 +++

@@ -2,8 +2,8 @@
 id = "sk-def-ops"
 kind = "definition"
 title = "Verdier dual and evaluation"
-order = 2385
-uses = ["sk-def-sf-operations", "sk-lem-finite"]
+order = 3284
+uses = ["sk-prop-sf-open-closed-triangle", "sk-lem-finite"]
 lean = ["AlgebraicGeometry.ProEtale.dualizingComplex", "AlgebraicGeometry.ProEtale.verdierDual", "AlgebraicGeometry.ProEtale.derivedDual", "AlgebraicGeometry.ProEtale.cohomology"]
 tags = ["sketch"]
 +++
@@ -39,7 +39,7 @@ category on the small pro-étale site, one has the operations
 $Lf^*,Rf_*,Rf_!,Rf^!,\otimes^L_\Lambda,R\mathcal H om_\Lambda$, where
 $Rf_!$ is defined by a compactification and $Rf^!$ is its right
 adjoint on $\Dctf$ (the constructible exceptional adjoint of
-[sk-def-sf-operations](vi), which exists for every separated finite-type morphism;
+[det-def-sf-operations](vi), which exists for every separated finite-type morphism;
 no ambient adjoint on the full derived category is required). Put
 
 $$

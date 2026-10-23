@@ -2,7 +2,7 @@
 id = "lemma-nagata-morphism-eq-eventually"
 kind = "lemma"
 title = "Eventual equality of morphisms, [stacks-project]"
-order = 363
+order = 55
 lean = ["AlgebraicGeometry.pullback_map_eq_of_morphismEqStage"]
 uses = ["def-nagata-morphism-equality-stage", "lemma-nagata-directed-finite-upper-bound", "lemma-nagata-qc-open-eq-eventually"]
 +++

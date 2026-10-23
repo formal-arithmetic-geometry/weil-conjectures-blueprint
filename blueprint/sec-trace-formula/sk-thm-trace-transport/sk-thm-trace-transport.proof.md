@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-thm-trace-transport"
-uses = ["sk-thm-tf-uniform-formula", "sk-prop-logdet", "sk-thm-sf-ctf-stability", "sk-thm-nagata-compactification", "sk-prop-cd"]
+uses = ["sk-thm-tf-uniform-formula", "sk-prop-logdet", "sk-thm-sf-ctf-stability", "sk-thm-nagata-compactification", "sk-thm-curveestimate"]
 +++
 Since $X_0$ is of finite type over a finite field, it has only finitely
 many closed points of degree at most any given bound. The factor at
@@ -56,7 +56,7 @@ ordinary cohomology agree.
 *Complement.* (i) The groups $H_c^i(X,K)$ are finite dimensional and vanish
 outside a bounded range by [sk-thm-sf-ctf-stability]. For a curve and a
 coefficient sheaf in degree zero, compactification by
-[sk-thm-nagata-compactification], extension by zero and [sk-prop-cd] give the
+[sk-thm-nagata-compactification], extension by zero and [lem-sc-arbitrary-curve-cd] give the
 range $0\le i\le2$. (ii) A field embedding $\iota$ is a ring homomorphism, so
 it carries the identity in $\overline{\mathbf Q}_\ell[[T]]$ coefficientwise to
 one in $\mathbf C[[T]]$.

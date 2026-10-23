@@ -4,6 +4,7 @@ kind = "lemma"
 title = "Exact functors preserve kernels, cokernels, images, inverse images and homology"
 uses = ["def-sp-abelian"]
 lean = ["CategoryTheory.Functor.preservesHomologyOfExact"]
+order = 1997
 tags = ["mathlib", "stacks-010N"]
 +++
 Let $\mathcal A,\mathcal B$ be abelian categories [def-sp-abelian] and $\Phi:\mathcal A\to\mathcal B$ an exact functor, i.e. an additive functor carrying short exact sequences to short exact sequences, equivalently one commuting with finite limits and finite colimits (Stacks Project, Lemma 12.7.2, Tag 010N). Then:

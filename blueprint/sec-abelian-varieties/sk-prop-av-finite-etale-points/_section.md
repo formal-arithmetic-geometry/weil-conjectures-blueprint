@@ -3,7 +3,7 @@ id = "sk-prop-av-finite-etale-points"
 kind = "proposition"
 title = "Points of finite étale group schemes"
 lean = ["AlgebraicGeometry.card_points_eq_finrankΓ", "AlgebraicGeometry.bijective_toUnit_comp"]
-order = 563
+order = 600
 uses = ["sk-def-av-group-scheme"]
 tags = ["sketch"]
 +++

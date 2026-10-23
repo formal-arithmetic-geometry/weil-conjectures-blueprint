@@ -2,14 +2,14 @@
 id = "thm-cbc-complete-proetale"
 kind = "theorem"
 title = "Integral compact-support base change"
-order = 1940
-uses = ["sk-def-sfb-dc-setting", "sk-def-sfb-condensed-ring", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-dc-lower-shriek", "sk-def-sfb-shriek-base-change-morphism", "sk-def-pe-derived-completion", "sk-prop-integral-criterion"]
+order = 2475
+uses = ["sk-def-sfb-dc-setting", "det-def-sfb-condensed-ring", "det-def-sfb-pulled-back-coefficients", "sk-def-sfb-dc-lower-shriek", "sk-def-sfb-shriek-base-change-morphism", "def-pe-derived-complete", "sk-prop-integral-criterion"]
 +++
 Work in the setting of [sk-def-sfb-dc-setting]. Let $E/\Ql$ be a finite
 extension with ring of integers $\mathcal O_E$ and uniformizer $\pi_E$, regard
 $\mathcal O_E$ as the condensed ring $\underline{\mathcal O}_E$
-([sk-def-sfb-condensed-ring]), and put $\mathcal O_{E,X}=p_X^*\mathcal O_E$
-([sk-def-sfb-pulled-back-coefficients]). Let
+([det-def-sfb-condensed-ring]), and put $\mathcal O_{E,X}=p_X^*\mathcal O_E$
+([det-def-sfb-pulled-back-coefficients]). Let
 
 $$
 \begin{array}{ccc}
@@ -35,6 +35,6 @@ $Lg^*Rf_*K\cong Rf'_*Lg'^*K$.
 
 No completed pullback enters: $Lg^*$ and $Lg'^*$ preserve
 $\Dbc(-,\mathcal O_E)$, whose objects are derived $\pi_E$-complete
-$\mathcal O_{E,X}$-complexes ([sk-def-pe-derived-completion],
+$\mathcal O_{E,X}$-complexes ([def-pe-derived-complete],
 [sk-prop-integral-criterion]), so the ordinary pullback of a constructible
 integral complex is already complete.

@@ -2,20 +2,23 @@
 kind = "proof"
 of = "det-pe-condensed-point-coefficients"
 +++
-By [sk-def-sfb-pullback-from-point], $p_X^*$ is left adjoint to the functor
-$G\mapsto(S\mapsto G(X[S]))$, which is restriction along $S\mapsto X[S]$. By
-[det-pe-condensed-point-basis] this functor is $S\mapsto\Omega[S]$, and by
-[det-pe-condensed-point-topology] restriction along it is an equivalence of
-topoi. The left adjoint of an equivalence is its quasi-inverse, so
-$(p_X^*F)(\Omega[S])\cong F(S)$, naturally in $S$; for rings the ring structures
-agree because the identification is natural and compatible with finite
-products.
+*Sheaf property.* A pro-étale covering ([def-weil-pbc-proetale-site]) is in
+particular an fpqc covering, and for an fpqc covering $\{U_a\to U\}$ the map
+$\coprod_a|U_a|\to|U|$ is a quotient map on underlying spaces (after refining to a
+quasi-compact covering of each affine open). Hence a family of continuous functions
+on the $U_a$ which agree on the overlaps descends uniquely to a continuous function
+on $U$, which is the sheaf condition for $\underline M_X$.
 
-(1) is the definition $\underline T(S)=C(S,T)$ of [sk-def-sfb-condensed-ring].
-(2) For discrete $A$, a continuous map from the compact space $S$ to $A$ is
-locally constant, so $C(S,A)=LC(S,A)=\varinjlim_iA^{S_i}$. On the other hand,
-$\Omega[S]=\varprojlim_i\Spec\Omega^{S_i}$ is a pro-étale affine presentation with
-$A_{X,\Et}(\Spec\Omega^{S_i})=A^{S_i}$, so the affine evaluation formula of
-[sk-prop-pe-comparison-morphism] gives
-$(\nu_X^*A_{X,\Et})(\Omega[S])=\varinjlim_iA^{S_i}$, compatibly with restriction.
-Both sheaves agree on the basis, hence agree.
+*Discrete coefficients.* The canonical map from the constant sheaf sends $m$ to the
+constant function with value $m$. If $M$ is discrete, a continuous function
+$f\colon|U|\to M$ is locally constant: its fibres form a covering of $U$ by
+disjoint open and closed subschemes, which is a pro-étale covering, and on each
+member $f$ is constant. So the map is locally surjective. It is locally injective,
+since a section of the constant sheaf vanishing as a function vanishes on a
+covering. Hence it is an isomorphism of sheaves.
+
+*Étale origin.* The constant pro-étale sheaf is the sheafified constant presheaf,
+and $\nu_X^*$ ([def-weil-pbc-site-comparison-morphism]) sends the sheafified constant
+étale presheaf to the sheafified constant pro-étale presheaf, both being left
+adjoint to global sections on the terminal object. Combining,
+$\nu_X^*M_{X,\Et}\cong\underline M_X$ for discrete $M$.

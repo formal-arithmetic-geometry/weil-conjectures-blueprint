@@ -2,30 +2,26 @@
 id = "def-sbc-normal-dominant-galois"
 kind = "definition"
 title = "Integral, normal, dominant, Galois covers, and geometrical connectedness"
-lean = ["AlgebraicGeometry.Scheme.GaloisCover"]
-order = 1143
+lean = ["AlgebraicGeometry.IsIntegral", "AlgebraicGeometry.IsNormalScheme", "AlgebraicGeometry.IsDominant", "AlgebraicGeometry.Scheme.GaloisCoverAction", "AlgebraicGeometry.Scheme.GaloisCover", "AlgebraicGeometry.Scheme.Hom.deckGroup", "AlgebraicGeometry.GeometricallyConnected", "AlgebraicGeometry.GeometricallyReduced"]
+order = 1589
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
-A scheme $S$ is *integral* if it is nonempty, reduced, and
-irreducible; it is *normal* if it is integral and the local ring at
-every point is a normal domain (a domain integrally closed in its
-fraction field). A morphism $f:X\to Y$ is *dominant* if $f(X)$
-is dense in $Y$. A finite etale morphism $\pi:Z\to C$ is a
-*Galois cover with group $G$* if $G$ acts on $Z$ over $C$
-by finite etale
-automorphisms, the quotient is $Z/G\cong C$, and $Z\to C$ is a
-$G$-torsor (the action is simply transitive on every geometric fibre);
-the *deck group* of a Galois cover is the group of its
-automorphisms over $C$. A morphism $f:X\to S$ has
-*geometrically connected fibres* if for every point $s\in S$ the
-fibre $X_s$ is geometrically connected over $\kappa(s)$ (its base
-change to every separably closed extension of $\kappa(s)$ is connected).
-A morphism $f:X\to S$ has *geometrically reduced fibres* if for
-every point $s\in S$ the fibre $X_s$ is reduced after every field
-extension of $\kappa(s)$ (equivalently, after base change to an algebraic
-closure of $\kappa(s)$); it has *geometrically connected,
-resp. reduced, fibres* if the corresponding property holds for every
-geometric point.
+A scheme $S$ is *integral* if it is nonempty and $\mathcal O_S(U)$ is an integral domain for every nonempty open
+$U\subseteq S$; it is *normal* if it is integral and the local ring at every point is a normal domain (a domain
+integrally closed in its fraction field). A morphism $f:X\to Y$ is *dominant* if $f(X)$ is dense in $Y$.
 
-For a Galois cover with group $G$ and connected total space, the deck
-group is $G$.
+Let $G$ be a group. A *Galois cover with group $G$* of a scheme $C$ is a finite étale surjective morphism
+$\pi:Z\to C$ together with a left action of $G$ on $Z$ by morphisms over $C$ such that
+- **(a)** the action is simply transitive on every geometric fibre: for every algebraically closed field $\Omega$ and
+  all $x,y:\operatorname{Spec}\Omega\to Z$ with $\pi x=\pi y$ there is a unique $g\in G$ with $g\circ x=y$;
+- **(b)** $\pi$ is the quotient of $Z$ by $G$: every morphism $Z\to W$ invariant under $G$ factors uniquely through
+  $\pi$.
+
+For a finite group $G$ one also uses the variant in which (a) and (b) are replaced by the condition that $Z$ is a
+$G$-torsor over $C$: the morphism $\coprod_{g\in G}Z\to Z\times_CZ$ with $g$-th component $(g,\mathrm{id})$ is an isomorphism.
+The total space is not required to be connected. The *deck group* of a morphism $\pi:Z\to C$ is the group of its
+automorphisms over $C$.
+
+A morphism $f:X\to S$ is *geometrically connected* (resp. *geometrically reduced*) if for every field $K$ and every
+morphism $\operatorname{Spec}K\to S$ the scheme $X\times_S\operatorname{Spec}K$ is connected (resp. reduced).
+Equivalently, every fibre $X_s$ is geometrically connected (resp. geometrically reduced) over $\kappa(s)$.

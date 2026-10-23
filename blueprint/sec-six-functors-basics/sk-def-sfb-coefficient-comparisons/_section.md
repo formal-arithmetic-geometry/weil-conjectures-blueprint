@@ -2,7 +2,7 @@
 id = "sk-def-sfb-coefficient-comparisons"
 kind = "definition"
 title = "Comparison maps for a change of coefficients"
-order = 1698
+order = 2600
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-lower-shriek"]
 lean = ["CategoryTheory.Mod.comapMapModComapIso", "CategoryTheory.Mod.comapMapModComapIso_hom_app_hom", "CategoryTheory.Adjunction.pullIsoOfComapIso", "CategoryTheory.Adjunction.pushHomOfComapIso", "CategoryTheory.Mod.extendScalarsComapIsoOfIsIso", "CategoryTheory.Functor.ProjectionFormula.mapModLeftComapIso", "AlgebraicGeometry.ProEtale.CondensedRing.comapLowerStarIso", "AlgebraicGeometry.ProEtale.CondensedRing.pullIso", "AlgebraicGeometry.ProEtale.CondensedRing.pushHom", "AlgebraicGeometry.ProEtale.CondensedRing.comapUpperStarIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedComapUpperStarIso", "AlgebraicGeometry.ProEtale.CondensedRing.preservesHomology_extendScalars_coefficientMap", "AlgebraicGeometry.ProEtale.CondensedRing.preservesKInjectiveComplexes_comap_coefficientMap", "AlgebraicGeometry.ProEtale.CondensedRing.derivedComapLowerStarIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom", "AlgebraicGeometry.ProEtale.CondensedRing.comapOpenImmersionLowerShriekIso", "AlgebraicGeometry.ProEtale.CondensedRing.openImmersionShriekIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedLowerShriekHom", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedLowerShriekHom"]
 tags = ["sketch"]
@@ -11,13 +11,13 @@ Let $a\colon\Lambda\to\Lambda'$ be a morphism of commutative condensed rings, wi
 changes $a_X\colon\Lambda_X\to\Lambda'_X$ and derived extensions of scalars
 $T^X=L(\operatorname{Ext}_{a_X})$ ([sk-def-sfb-coefficient-change]). For a morphism of schemes
 $f\colon X\to Y$ write $f^*$, $f_*$ for the pullback and pushforward of module objects over
-$\Lambda$ resp. $\Lambda'$ ([sk-def-sfb-module-pushforward-pullback]), $Lf^*$, $Rf_*$ for their
+$\Lambda$ resp. $\Lambda'$ ([det-def-sfb-module-pushforward-pullback]), $Lf^*$, $Rf_*$ for their
 derived functors ([sk-def-sfb-module-derived-pushpull]), $j_!$ for the extension by zero along
 an open immersion $j\colon U\to X$ ([sk-def-sfb-module-lower-shriek]), and, when $f$ admits a
 compactification, $Rf_!=R(g_*)\circ D(i_!)$ for the chosen compactification $f=g\circ i$
 ($i$ an open immersion, $g$ proper; [sk-def-sfb-module-derived-lower-shriek]). Restriction and
 extension of scalars $\operatorname{Res}$, $\operatorname{Ext}$ are those of
-[sk-def-sfb-change-of-scalars].
+[det-def-sfb-change-of-scalars].
 
 The *comparison maps* between the change of coefficients and the six functors are the following
 natural transformations; all of them are produced formally, as conjugates and mates, from the

@@ -2,7 +2,7 @@
 id = "sk-def-sfb-dc-upper-shriek"
 kind = "definition"
 title = "$Rf^!$ on $D_{\\mathrm{cons}}$"
-order = 1700
+order = 2640
 uses = ["sk-def-sfb-dc-lower-shriek"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isLeftAdjoint_boundedConstructibleLowerStar_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isLeftAdjoint_boundedConstructibleLowerStar_padicIntegersRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isLeftAdjoint_boundedConstructibleLowerStar_padicAlgClRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekOfCompactification", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekOfCompactificationAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriek", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekAdjunction"]
 tags = ["sketch"]
@@ -13,8 +13,8 @@ of $f$. Assume that the restricted pushforward
 $Rp_*\colon D_{\mathrm{cons}}(Z,\Lambda)\to D_{\mathrm{cons}}(Y,\Lambda)$
 ([sk-def-sfb-dc-restricted-functors]) along the proper morphism $p$ has a right adjoint. For
 every proper $p$ this holds when $\Lambda$ is $\underline E$ ($E/\mathbf Q_\ell$ finite),
-$\underline{\cO}_E$ ($E\subseteq\Qlb$ finite over $\mathbf Q_\ell$; [sk-def-sfb-condensed-ring])
-or $\underline{\Qlb}$ ([sk-def-sfb-qlbar-condensed]). Let $Rp^!$ be a chosen right adjoint of
+$\underline{\cO}_E$ ($E\subseteq\Qlb$ finite over $\mathbf Q_\ell$; [det-def-sfb-condensed-ring])
+or $\underline{\Qlb}$ ([det-def-sfb-qlbar-condensed]). Let $Rp^!$ be a chosen right adjoint of
 $Rp_*$, and let $i^*=Li^*$ be the restricted pullback, which is right adjoint to $i_!$. Define
 
 $$

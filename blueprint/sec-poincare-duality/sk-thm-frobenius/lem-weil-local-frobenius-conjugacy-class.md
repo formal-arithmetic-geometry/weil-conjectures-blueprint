@@ -3,7 +3,7 @@ id = "lem-weil-local-frobenius-conjugacy-class"
 kind = "lemma"
 title = "Independence of the local Frobenius operator from the embedding"
 lean = ["AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalkAtGeometricFiberPoint", "AlgebraicGeometry.WeilComplex.nonempty_equiv_stalkAtGeometricFiberPoint"]
-order = 2773
+order = 3433
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-frobenius-detailed", "def-weil-local-frobenius-trace", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex"]
 +++
 Fix the finite-field datum $p,a,q,k_0,k$, a prime $\ell\neq p$, a finite

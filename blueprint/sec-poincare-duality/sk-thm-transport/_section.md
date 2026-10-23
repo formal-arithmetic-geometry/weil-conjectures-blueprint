@@ -3,7 +3,7 @@ id = "sk-thm-transport"
 kind = "proposition"
 title = "Duality and change of coefficients"
 lean = ["AlgebraicGeometry.Etale.isPerfectPairing_poincarePairing_reductionModIdeal", "AlgebraicGeometry.Etale.derivedCompleteIntegral_rightDerivedLowerStar", "AlgebraicGeometry.Etale.derivedCompleteIntegral_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.derivedCompleteIntegral_coefficientDual"]
-order = 2752
+order = 3440
 uses = ["sk-cor-trace", "sk-def-ops", "sk-def-set", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-sf-identification", "sk-thm-sf-package", "sk-prop-scalar-six"]
 tags = ["sketch"]
 +++

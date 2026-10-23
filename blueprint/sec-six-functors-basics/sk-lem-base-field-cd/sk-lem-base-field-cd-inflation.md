@@ -2,6 +2,7 @@
 id = "det-base-field-cd-inflation"
 kind = "lemma"
 title = "Inflation between finite cyclic groups"
+order = 2126
 +++
 For $m\geq1$ let $C_m=\langle\sigma\rangle$ be cyclic of order $m$ and
 $N_m=1+\sigma+\dots+\sigma^{m-1}\in\mathbf Z[C_m]$. Let $r\geq1$, let

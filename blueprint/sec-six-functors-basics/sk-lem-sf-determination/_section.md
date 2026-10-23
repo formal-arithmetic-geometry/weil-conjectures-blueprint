@@ -2,8 +2,8 @@
 id = "sk-lem-sf-determination"
 kind = "lemma"
 title = "Checking isomorphisms on constructible complexes"
-order = 1532
-uses = ["sk-def-sf-operations", "sk-def-localizing-closure"]
+order = 2264
+uses = ["sk-prop-sf-open-closed-triangle", "sk-def-localizing-closure"]
 lean = ["CategoryTheory.Pretriangulated.isIso₃_of_isIso₁₂"]
 tags = ["sketch"]
 +++

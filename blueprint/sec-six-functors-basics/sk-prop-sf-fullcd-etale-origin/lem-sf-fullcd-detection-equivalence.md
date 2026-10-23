@@ -3,7 +3,7 @@ id = "lem-sf-fullcd-detection-equivalence"
 kind = "lemma"
 title = "The full cohomological-dimension condition is a bound on the pro-étale cohomology of the source base-changed to weakly contractible objects"
 lean = ["AlgebraicGeometry.ProEtale.hasUniformCohomologicalDimensionLE_iff_forall_ext"]
-order = 2140
+order = 2757
 uses = ["cor-sf-fullcd-weakly-contractible-test", "def-weil-derived-cohomology-sheaves", "def-weil-full-cohomological-dimension", "def-weil-pbc-direct-image", "def-weil-pbc-proetale-site", "lem-sf-proetale-vanishing-detection", "thm-sp-grothendieck"]
 +++
 In the setting of [def-weil-full-cohomological-dimension] the condition

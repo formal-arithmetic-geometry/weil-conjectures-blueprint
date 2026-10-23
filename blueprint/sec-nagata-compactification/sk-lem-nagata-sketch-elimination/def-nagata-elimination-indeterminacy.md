@@ -3,7 +3,7 @@ id = "def-nagata-elimination-indeterminacy"
 kind = "definition"
 title = "Elimination-of-indeterminacy construction"
 lean = ["AlgebraicGeometry.eliminationBoundaryIdeal", "AlgebraicGeometry.eliminationGraphSection", "AlgebraicGeometry.eliminationExtensionCentre", "AlgebraicGeometry.eliminationCentre", "AlgebraicGeometry.eliminationBlowup"]
-order = 235
+order = 327
 uses = ["def-nagata-admissible-blowup", "def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-composition-of-blowups-comparison", "def-nagata-conrad-quasi-domination", "def-nagata-qc-open-complement-ideal", "def-nagata-dense-compactification", "def-nagata-global-blowup", "def-nagata-scheme-image-comparison", "def-nagata-strict-transform", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-admissible-blowup-over-open", "lemma-nagata-admissible-blowup-preserves-density", "thm-nagata-global-blowup-proper", "lemma-nagata-composition-center-ideal", "lemma-nagata-composition-extended-ideal-equality", "lemma-nagata-conrad-schematically-dense-blowup", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-dense-flat-pullback", "lemma-nagata-scheme-image-universal", "lemma-nagata-scheme-theoretic-closure-minimal", "lemma-nagata-strict-transform-over-complement", "prop-nagata-global-blowup-cover-independent", "thm-nagata-composition-of-blowups", "thm-nagata-conrad-elimination"]
 +++
 Let $X$ be qcqs, let $U\subseteq X$ be a quasi-compact open, and let

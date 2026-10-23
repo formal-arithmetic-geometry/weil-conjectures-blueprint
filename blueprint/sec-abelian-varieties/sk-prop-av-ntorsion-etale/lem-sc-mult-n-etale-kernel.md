@@ -3,7 +3,7 @@ id = "lem-sc-mult-n-etale-kernel"
 kind = "lemma"
 title = "Multiplication by $d$ prime to the characteristic is etale"
 lean = ["AlgebraicGeometry.etale_npow_id", "AlgebraicGeometry.etale_torsionSubgroupScheme", "AlgebraicGeometry.isFinite_torsionSubgroupScheme", "AlgebraicGeometry.finrankΓ_torsionSubgroupScheme", "AlgebraicGeometry.IsAbelianVariety.exists_overIso_sigma_torsionSubgroupScheme", "AlgebraicGeometry.IsAbelianVariety.nonempty_addEquiv_torsionBy_points"]
-order = 594
+order = 612
 uses = ["def-sc-abelian-variety", "def-sc-mult-n"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over a field $k$

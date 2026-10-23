@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-lem-pe-injective-acyclicity"
-uses = ["det-pe-injective-acyclicity-reduction", "lem-weil-pbc-comparison-injective-acyclicity", "lem-weil-pbc-cech-criterion", "lem-weil-pbc-proetale-restriction-injectives"]
+uses = ["det-pe-injective-acyclicity-reduction", "lem-weil-pbc-comparison-injective-acyclicity", "lem-weil-pbc-cech-criterion", "lem-weil-pbc-proetale-restriction-injectives", "sk-thm-pe-indetale-refinement", "sk-prop-pe-comparison-morphism"]
 +++
 It suffices to show that positive cohomology vanishes on affine étale objects
 ([det-pe-injective-acyclicity-reduction]). The restriction of $I$ to such an

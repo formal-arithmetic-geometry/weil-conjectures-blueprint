@@ -2,7 +2,7 @@
 id = "sk-prop-ctf-finite-compact"
 kind = "proposition"
 title = "Compactness for finite coefficients"
-order = 1537
+order = 2296
 uses = ["sk-lem-sf-flat-model", "sk-def-localizing-closure"]
 tags = ["sketch"]
 +++

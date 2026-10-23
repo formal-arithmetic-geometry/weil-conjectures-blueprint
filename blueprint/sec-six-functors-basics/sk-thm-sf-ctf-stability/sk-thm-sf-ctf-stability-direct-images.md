@@ -2,6 +2,7 @@
 id = "det-thm-sf-ctf-stability-direct-images"
 kind = "lemma"
 title = "Pullback, tensor product and direct images on $\\Dctf$ for all admissible coefficient rings"
+order = 2486
 uses = ["sk-lem-sf-flat-model", "sk-lem-int-tensor", "sk-thm-sfb-proper-base-change", "sk-cor-sf-direct-image-ctf", "sk-prop-open-coefficients", "sk-thm-existence", "sk-prop-sf-rf-shriek-preservation", "sk-thm-restriction", "sk-thm-int-restriction"]
 +++
 Let $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\Qlb\}$ be admissible and let

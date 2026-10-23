@@ -2,7 +2,8 @@
 id = "lem-cbc-extension-zero-composition"
 kind = "lemma"
 title = "Composition of open immersions"
-order = 1932
+order = 1049
+lean = ["AlgebraicGeometry.Etale.openImmersionLowerShriekComp", "AlgebraicGeometry.Etale.openImmersionLowerShriekId"]
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
 +++
 For composable
@@ -13,5 +14,5 @@ $$
 (j_2)_!(j_1)_!F\xrightarrow{\ \sim\ }(j_2j_1)_!F
 $$
 
-is an isomorphism, natural in $F$ and compatible with the identity
-open immersion and the two ways of composing three open immersions.
+is an isomorphism, natural in $F$. For the identity open immersion,
+$(\mathrm{id}_X)_!F\cong F$ naturally in $F$.

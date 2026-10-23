@@ -4,13 +4,14 @@ of    = "thm-sf-global-duality"
 +++
 Apply [thm-sf-verdier-exchange] with $Y=s$, $f=a_X$ and $M=K$:
 $D_s(Ra_{X!}K)\cong Ra_{X*}D_XK$. Apply $\Fib_s$ and the point
-identifications of [lem-sf-point]: the left-hand side becomes
+identifications of [lem-sf-point], which apply since $k$ is separably
+closed: the left-hand side becomes
 $R\operatorname{Hom}_\Lambda(R\Gamma_c(X,K),\Lambda)=R\Gamma_c(X,K)^\vee$
 and the right-hand side becomes
 $\Fib_s(Ra_{X*}D_XK)=R\Gamma(X,\mathbb D_XK)$. Since $\Fib_s$ is an
 equivalence onto the point category by [lem-sf-point], the resulting
 composite is an isomorphism in $D^b_c(s,\Lambda)$, and it is the displayed
-isomorphism; naturality and the compatibilities are those of
+isomorphism; naturality and the compatibility with shifts are those of
 the two ingredients. The argument uses only the exceptional adjunction for $a_X$ (so that
 [thm-sf-verdier-exchange] applies to $f=a_X$, $Y=s$), which is available
 for every separated finite-type morphism, never that $a_X$ is proper: the compact-support image

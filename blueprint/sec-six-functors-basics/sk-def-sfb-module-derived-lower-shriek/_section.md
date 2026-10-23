@@ -2,7 +2,7 @@
 id = "sk-def-sfb-module-derived-lower-shriek"
 kind = "definition"
 title = "Derived lower shriek of module objects"
-order = 1687
+order = 2560
 uses = ["sk-def-sfb-module-lower-shriek", "sk-def-sfb-module-derived-pushpull", "sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekOfCompactification", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekOfCompactificationPlus", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekOfCompactificationPlusCompatibility", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekPlus", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekPlusCompatibility"]
 tags = ["sketch"]
@@ -19,7 +19,7 @@ R^+f^c_!:=R^+g_*\circ D^+(i_!)\colon D^+(\Mod_{\Lambda_X})\to D^+(\Mod_{\Lambda_
 $$
 
 where $D(i_!)$, $D^+(i_!)$ apply the exact extension by zero of module objects
-([sk-def-sfb-module-lower-shriek]) levelwise ([sk-def-sfb-derived-categories]) and $Rg_*$, $R^+g_*$ are the derived
+([sk-def-sfb-module-lower-shriek]) levelwise ([det-def-sfb-derived-categories]) and $Rg_*$, $R^+g_*$ are the derived
 pushforwards of [sk-def-sfb-module-derived-pushpull]. For $f$ admitting a
 compactification, $Rf_!:=Rf^c_!$ and $R^+f_!:=R^+f^c_!$ for the chosen
 compactification $c$ of $f$. The bounded below functors are the restrictions of the

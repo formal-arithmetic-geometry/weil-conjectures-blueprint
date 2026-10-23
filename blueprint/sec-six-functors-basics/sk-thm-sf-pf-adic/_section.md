@@ -2,8 +2,8 @@
 id = "sk-thm-sf-pf-adic"
 kind = "lemma"
 title = "Open direct image and projection formula"
-order = 1573
-uses = ["sk-def-sf-operations", "sk-prop-sf-pf-reduction", "sk-prop-open-coefficients", "sk-prop-proper-base-change-unbounded"]
+order = 2474
+uses = ["sk-prop-sf-open-closed-triangle", "sk-prop-sf-pf-reduction", "sk-prop-open-coefficients", "sk-prop-proper-base-change-unbounded"]
 tags = ["sketch"]
 +++
 For a quasi-compact open immersion $j:U\hookrightarrow X$,

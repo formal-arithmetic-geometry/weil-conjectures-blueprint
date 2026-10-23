@@ -3,7 +3,7 @@ kind  = "proof"
 of    = "lem-sfb-finite-extension-by-zero-exact"
 uses = ["def-sfb-finite-extension-by-zero-adjunction"]
 +++
-By the computation in the proof of [def-sfb-finite-extension-by-zero], the presheaf
+By the computation in the proof of [def-weil-extension-by-zero], the presheaf
 $\operatorname{Lan}_{\ell^{\mathrm{op}}}F$ takes at $W$ either the value $F(W\to U)$ or
 $0$, depending only on $W$. So $\operatorname{Lan}_{\ell^{\mathrm{op}}}$ preserves finite
 limits. The inclusion of sheaves into presheaves preserves limits, and sheafification is

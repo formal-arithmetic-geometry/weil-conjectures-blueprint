@@ -2,7 +2,8 @@
 id = "sk-cor-pbc-proet-finite"
 kind = "corollary"
 title = "Classical finite coefficients on the pro-étale site"
-order = 1065
+order = 2037
+lean = ["AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isProper"]
 uses = ["sk-thm-properbasechange", "sk-thm-pe-constructible-comparison"]
 tags = ["sketch"]
 +++

@@ -2,30 +2,31 @@
 kind  = "proof"
 of    = "lem-pc-divisor-line-bundle-agrees-sc"
 +++
-Every local ring $\mathcal{O}_{C,P}$ at a closed point is regular of
-dimension one ([lem-sc-smooth-regular]), hence a discrete valuation
-ring ([lem-sc-regular-dim1-dvr]); in particular $C$ is normal, and being
-connected it is integral. For $n_i\ge0$ the divisor $D$ is the
-effective Cartier divisor ([def-sc-effective-cartier-divisor]) whose
-ideal $\mathcal{I}_D$ is generated near $P_i$ by $t_i^{n_i}$, with $t_i$ a
-uniformizer at $P_i$, and is trivial away from the $P_i$
-([lem-sc-point-cartier]).
+*(1).* Every local ring $\mathcal{O}_{C,P}$ at a closed point is regular of
+dimension one ([lem-sc-smooth-regular]), hence a discrete valuation ring
+([lem-sc-regular-dim1-dvr]), and the ideal sheaf $\mathcal{I}_P$ of a
+closed point is invertible ([lem-sc-point-cartier]). A product of
+invertible ideal sheaves is invertible, and for invertible ideals
+$\mathcal{I},\mathcal{J}$ multiplication
+$\mathcal{I}\otimes\mathcal{J}\to\mathcal{I}\mathcal{J}$ is an isomorphism
+(locally it sends $f\otimes g$ to $fg$ for local generators $f,g$, and $fg$
+is again a non-zero-divisor). Hence
+$[\mathcal{I}_E]=\prod_i[\mathcal{I}_{P_i}]^{n_i}$ in
+$\operatorname{Pic}(C)$. Since the dual of an invertible module represents
+the inverse class,
 
-Cover $C$ by opens $U$ on which $\mathcal{I}_D=f\mathcal{O}_U$ for some
-$f\in k(C)^*$ (take $f=t_i^{n_i}$ near $P_i$, with $U$ containing no
-other $P_j$, and $f=1$ on $C\setminus\{P_1,\ldots,P_m\}$); then
-$\operatorname{div}(f)|_U=D|_U$. Since $f$ is a non-zero-divisor, a
-homomorphism $\mathcal{I}_D|_U\to\mathcal{O}_U$ is determined by the image $a$ of
-$f$, and $a\mapsto a/f$ identifies
-$\mathcal{H}om(\mathcal{I}_D,\mathcal{O}_C)|_U=\mathcal{I}_D^\vee|_U$ with the submodule
-$f^{-1}\mathcal{O}_U$ of $k(C)$; these identifications glue to an embedding
-$\mathcal{I}_D^\vee\hookrightarrow k(C)$ with image
-$\{g:g\,\mathcal{I}_D\subseteq\mathcal{O}_C\}$. On the other hand, for $V\subseteq U$
-open, $g\in k(C)$ satisfies
-$\operatorname{div}(g)|_V+D|_V\ge0$ iff $v_P(gf)\ge0$ for all closed
-$P\in V$, iff $gf\in\bigcap_{P\in V}\mathcal{O}_{C,P}=\mathcal{O}_C(V)$ (the integral
-scheme $V$ has the intersection of its local rings as ring of
-functions, and its non-closed point is the generic point). So the module
-of [def-sc-divisor] is also $f^{-1}\mathcal{O}_U$ on $U$. The two
-subsheaves of $k(C)$ agree on a cover, hence coincide, which gives the
-canonical isomorphism.
+$$
+[\mathcal{I}_E^\vee]=[\mathcal{I}_E]^{-1}=\prod_i[\mathcal{I}_{P_i}]^{-n_i}
+=\prod_i[\mathcal{I}_{P_i}^\vee]^{n_i}=\prod_i[\mathcal{O}_C(P_i)]^{n_i},
+$$
+
+which is the class $[\mathcal{O}_C(E)]$ of [def-sc-divisor].
+
+*(2).* By [lem-sc-cartier-divisor-points] the support of $D$ is a finite
+set of closed points $P$, at which $\mathcal{I}_{D,P}=(t_P^{n_P})$ for a
+uniformizer $t_P$ of the discrete valuation ring $\mathcal{O}_{C,P}$, with
+$n_P=\operatorname{ord}_P(\mathcal{I}_D)\ge1$, and
+$\mathcal{I}_{D,x}=\mathcal{O}_{C,x}$ at all other points. The ideal
+$\mathcal{I}_E=\prod_P\mathcal{I}_P^{n_P}$ of $E=\sum_Pn_P[P]$ has the same
+stalks, so $\mathcal{I}_D=\mathcal{I}_E$ (an ideal sheaf is determined by
+its stalks), and (1) applies.

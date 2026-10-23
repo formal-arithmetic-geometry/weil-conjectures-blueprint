@@ -3,7 +3,7 @@ id = "def-nagata-conrad-quasi-domination"
 kind = "definition"
 title = "Quasi-domination (Conrad)"
 lean = ["AlgebraicGeometry.QuasiDomination", "AlgebraicGeometry.QuasiDomination.Extends"]
-order = 186
+order = 289
 +++
 Let $X$ and $Y$ be $S$-schemes with $Y\to S$ separated. A
 *quasi-domination of $X$ over $Y$* is a pair $(U,f)$ consisting of a

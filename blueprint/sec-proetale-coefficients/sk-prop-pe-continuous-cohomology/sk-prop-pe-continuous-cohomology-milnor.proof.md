@@ -15,7 +15,7 @@ $$
 The kernel of $1-\text{shift}$ on $\prod_nH^q(K_n)$ is $\varprojlim_nH^q(K_n)$ and
 its cokernel on $\prod_nH^{q-1}(K_n)$ is $\varprojlim^1_nH^{q-1}(K_n)$, by the
 standard description of $\varprojlim$ and $\varprojlim^1$ of a sequence; this is
-the displayed sequence (compare [sk-prop-pe-milnor]).
+the displayed sequence (compare [det-pe-milnor-sequence]).
 
 If a sequence $(A_n)$ satisfies Mittag-Leffler, $\varprojlim^1A_n=0$. Finite
 groups satisfy Mittag-Leffler: for fixed $n$ the images of $A_m\to A_n$, $m\geq n$,

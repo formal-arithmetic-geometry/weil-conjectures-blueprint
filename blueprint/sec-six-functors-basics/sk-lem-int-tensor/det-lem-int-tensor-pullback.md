@@ -2,7 +2,8 @@
 id = "det-lem-int-tensor-pullback"
 kind = "lemma"
 title = "Integral inverse image preserves $\\Dbc$ and agrees with the completed inverse image"
-uses = ["det-lem-int-tensor-shriek", "sk-prop-sfb-cartesian-coefficients", "sk-lem-integral-models", "sk-def-pe-derived-completion"]
+order = 2460
+uses = ["det-lem-int-tensor-shriek", "sk-prop-sfb-cartesian-coefficients", "sk-lem-integral-models", "def-pe-derived-complete"]
 +++
 Let $g\colon X\to Y$ be a morphism of standing schemes and
 $g^*\colon\D(Y_{\mathrm{proét}},\mathcal O_E)\to\D(X_{\mathrm{proét}},\mathcal O_E)$ the inverse image.

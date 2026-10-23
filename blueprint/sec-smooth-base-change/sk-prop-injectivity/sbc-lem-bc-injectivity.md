@@ -3,7 +3,7 @@ id = "sbc-lem-bc-injectivity"
 kind = "lemma"
 title = "Injectivity of the critical map and its cokernel"
 lean = ["AlgebraicGeometry.Etale.isZero_baseChangeSourceFunctor_obj_of_injective", "AlgebraicGeometry.Etale.exists_connecting_baseChangeHomologyMap", "AlgebraicGeometry.Etale.UniversalBaseChangeProperty.mono_baseChangeHomologyMap_and_cokernel"]
-order = 1441
+order = 2057
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-leray-acyclicity", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-lem-bc-naturality"]
 +++
 With $f:X\to S$ and $n$ as in [sbc-def-base-change-property], assume for

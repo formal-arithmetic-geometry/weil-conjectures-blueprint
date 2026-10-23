@@ -2,7 +2,7 @@
 id = "def-nagata-separated-descent-stage"
 kind = "definition"
 title = "Separated stage of a descended finite-presentation model"
-order = 375
+order = 67
 lean = ["AlgebraicGeometry.separatedDescentStage", "AlgebraicGeometry.separatedDescentModel"]
 uses = ["def-nagata-finite-presentation-descent", "lemma-nagata-separated-descent-stage-exists"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-nagata-spectral-constructible-separation-exists"
 kind = "lemma"
 title = "Existence of constructible closed separators in a spectral space"
-order = 259
+order = 347
 lean = ["PrespectralSpace.exists_isCompact_isOpen_disjoint_union_eq_univ"]
 +++
 Let $V$ be a quasi-compact topological space whose quasi-compact open

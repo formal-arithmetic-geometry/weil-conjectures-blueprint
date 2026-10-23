@@ -2,8 +2,8 @@
 id = "lem-kun-0f1i-normal"
 kind = "lemma"
 title = "The normal integral case"
-order = 2122
-uses = ["def-kun-constant-sheaf", "def-kun-separably-closed", "def-kun-torsion-invertible", "def-kun-unbounded-exchange", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-kun-0ezp", "lem-kun-0ezt", "lem-kun-0f1h", "lem-kun-algebra-union", "lem-kun-colim-of-localizations", "lem-kun-fibre-product-limits", "lem-kun-zn-sheaf-invertible-orders"]
+order = 3201
+uses = ["def-kun-constant-sheaf", "def-pc-separably-closed", "def-kun-torsion-invertible", "def-kun-unbounded-exchange", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-kun-0ezp", "lem-kun-0ezt", "lem-kun-0f1h", "lem-kun-algebra-union", "lem-kun-colim-of-localizations", "lem-kun-fibre-product-limits", "lem-kun-zn-sheaf-invertible-orders"]
 +++
 Let $K$ be a field and let $n\ge1$ be an integer invertible in
 $K$. Let $X$ be a scheme of finite type over $K$, let $S'$

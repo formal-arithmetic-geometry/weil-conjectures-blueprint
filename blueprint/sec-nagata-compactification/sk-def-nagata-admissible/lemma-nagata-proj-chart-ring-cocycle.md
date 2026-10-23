@@ -3,7 +3,7 @@ id = "lemma-nagata-proj-chart-ring-cocycle"
 kind = "lemma"
 title = "Coherence of the standard Proj chart rings"
 lean = ["HomogeneousLocalization.Away.overlapEquiv", "HomogeneousLocalization.Away.overlapEquiv_awayMap_left", "HomogeneousLocalization.Away.overlapEquiv_awayMap_right", "HomogeneousLocalization.Away.overlapEquiv_self", "HomogeneousLocalization.Away.overlapEquiv_symm", "HomogeneousLocalization.Away.overlapEquiv_cocycle"]
-order = 17
+order = 152
 uses = ["def-nagata-homogeneous-localization-degree-zero"]
 +++
 Let $f,g,h\in R$ be homogeneous. Localization induces a canonical ring

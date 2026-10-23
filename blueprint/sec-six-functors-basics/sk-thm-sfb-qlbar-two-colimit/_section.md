@@ -2,9 +2,9 @@
 id = "sk-thm-sfb-qlbar-two-colimit"
 kind = "lemma"
 title = "Descent to a finite coefficient field; $\\Dctf(X,\\Qlb)$ as a $2$-colimit"
-order = 1516
-lean = ["AlgebraicGeometry.ProEtale.derivedExtendScalarsSubfield", "AlgebraicGeometry.ProEtale.derivedExtendScalarsToPadicAlgCl", "CategoryTheory.Mod.extendScalarsIsoOfEq", "AlgebraicGeometry.ProEtale.derivedExtendScalarsCompIso", "AlgebraicGeometry.ProEtale.PadicSubfieldConstructible", "AlgebraicGeometry.ProEtale.PadicAlgClConstructible", "AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalarsSubfield_obj", "AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalarsToPadicAlgCl_obj", "AlgebraicGeometry.ProEtale.constructibleExtendScalars", "AlgebraicGeometry.ProEtale.constructibleToPadicAlgCl", "AlgebraicGeometry.ProEtale.constructibleToPadicAlgClCompIso", "AlgebraicGeometry.ProEtale.constructibleCocone", "AlgebraicGeometry.ProEtale.constructibleCocone_homSurj", "AlgebraicGeometry.ProEtale.constructibleCocone_homInj", "AlgebraicGeometry.ProEtale.constructibleCocone_essSurjObj", "AlgebraicGeometry.ProEtale.constructibleCocone_isFilteredTwoColimit"]
-uses = ["sk-def-sfb-bounded-constructible", "sk-def-sfb-filtered-two-colimit", "sk-prop-sfb-finite-extension-compatibility", "sk-lem-constructible-ext-continuity", "sk-prop-sfb-qlbar-colimit-x", "sk-lem-coefficient-heart"]
+order = 2159
+lean = ["AlgebraicGeometry.ProEtale.coefficientMap_comp", "AlgebraicGeometry.ProEtale.padicSubfieldRingObjToPadicAlgCl", "AlgebraicGeometry.ProEtale.padicSubfieldRingObjMap_comp_toPadicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_extendScalars_padicSubfieldRingObjToPadicAlgCl", "AlgebraicGeometry.ProEtale.derivedExtendScalarsSubfield", "AlgebraicGeometry.ProEtale.derivedExtendScalarsToPadicAlgCl", "CategoryTheory.Mod.extendScalarsIsoOfEq", "AlgebraicGeometry.ProEtale.derivedExtendScalarsCompIso", "AlgebraicGeometry.ProEtale.PadicSubfieldConstructible", "AlgebraicGeometry.ProEtale.PadicAlgClConstructible", "AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalarsSubfield_obj", "AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalarsToPadicAlgCl_obj", "AlgebraicGeometry.ProEtale.constructibleExtendScalars", "AlgebraicGeometry.ProEtale.constructibleToPadicAlgCl", "AlgebraicGeometry.ProEtale.constructibleToPadicAlgClCompIso", "AlgebraicGeometry.ProEtale.constructibleCocone", "AlgebraicGeometry.ProEtale.constructibleCocone_homSurj", "AlgebraicGeometry.ProEtale.constructibleCocone_homInj", "AlgebraicGeometry.ProEtale.constructibleCocone_essSurjObj", "AlgebraicGeometry.ProEtale.constructibleCocone_isFilteredTwoColimit"]
+uses = ["sk-prop-sf-open-closed-triangle", "sk-def-sfb-filtered-two-colimit", "sk-prop-sfb-cartesian-coefficients", "sk-lem-constructible-ext-continuity", "sk-prop-sfb-qlbar-colimit-x", "sk-lem-coefficient-heart"]
 tags = ["sketch"]
 +++
 The coefficient ring $\Qlb$ is a filtered union of the fields $E$, but integral lattices exist
@@ -13,7 +13,7 @@ $\Dbc(X,\Qlb)$ is defined over some finite $E$. For $C\in D(X_{\mathrm{proét}},
 extension $F/E$ we write $C_F=F_X\otimes_{E_X}C$ and $C_{\Qlb}=\QbarX\otimes_{E_X}C$ for the
 extensions of scalars, given by functors $D(X_{\mathrm{proét}},E)\to D(X_{\mathrm{proét}},F)$ and
 $D(X_{\mathrm{proét}},E)\to D(X_{\mathrm{proét}},\Qlb)$; since $F_X$ and $\QbarX$ are flat over
-$E_X$ ([sk-prop-sfb-finite-extension-compatibility]), these need no deriving.
+$E_X$ ([lem-sfb-subfield-flat], [lem-sfb-qlbar-flat]), these need no deriving.
 
 Let $X$ be a standing scheme.
 
@@ -29,7 +29,7 @@ Let $X$ be a standing scheme.
    some finite $E/\mathbf Q_\ell$.
 
 4. For rational coefficients $\Dctf=\Dbc$; these are the bounded constructible categories
-   $D_{\mathrm{cons}}$ of [sk-def-sfb-bounded-constructible]. By (2) with $r=0$ and (3), extension
+   $D_{\mathrm{cons}}$ of [det-def-sfb-bounded-constructible]. By (2) with $r=0$ and (3), extension
    of scalars identifies
    $$
    \Dctf(X,\Qlb)\simeq\mathop{\text{2-colim}}_{E\subset\Qlb}\Dctf(X,E)

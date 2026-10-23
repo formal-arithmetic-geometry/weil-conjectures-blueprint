@@ -2,6 +2,7 @@
 id = "det-nearby-exchange-maps"
 kind = "definition"
 title = "Exchange maps between nearby cycles and the operations"
+order = 3593
 uses = ["det-sp-nearby-cycles-exchanges", "thm-nagata-compactification"]
 +++
 Let $S$ be a strictly henselian trait with separably closed residue field, generic point $\eta$ and

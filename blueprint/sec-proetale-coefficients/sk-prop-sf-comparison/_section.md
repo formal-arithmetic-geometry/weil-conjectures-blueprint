@@ -2,8 +2,8 @@
 id = "sk-prop-sf-comparison"
 kind = "theorem"
 title = "Bounded-below cohomology comparison"
-order = 728
-lean = ["AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar", "AlgebraicGeometry.ProEtale.nonempty_iso_comparisonUpperStar_comp_rightDerivedLowerStar"]
+order = 1007
+lean = ["AlgebraicGeometry.ProEtale.derivedComparisonAdjunction", "AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map", "AlgebraicGeometry.ProEtale.comparisonLowerStarCompRightDerivedGlobalSectionsIso", "AlgebraicGeometry.ProEtale.comparisonUpperStarCompUpperStarIso", "AlgebraicGeometry.derivedEtaleCohomology_limit"]
 tags = ["sketch"]
 +++
 Let $X$ be a scheme, $\Lambda$ a ring, and $\nu_X:X_{\mathrm{proét}}\to X_{\mathrm{ét}}$
@@ -24,8 +24,8 @@ $$
 R\Gamma(X_{\mathrm{proét}},\nu_X^*K)\simeq R\Gamma(X_{\mathrm{ét}},K).
 $$
 
-More generally, for a pro-étale affine $U=\varprojlim_iU_i$ with $U_i$
-affine and étale over $X$,
+More generally, for abelian sheaves ($\Lambda=\mathbf Z$) and a pro-étale affine
+$U=\varprojlim_iU_i$ with $U_i$ affine and étale over $X$,
 
 $$
 R\Gamma(U_{\mathrm{proét}},(\nu_X^*K)|_U)\simeq

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lem-fd-proetale-finite-pushforward-exact"
-uses = ["sk-def-sfb-finite-pushforward-pullback", "sk-thm-pe-weakly-contractible-basis", "sk-def-pe-weak-contractible", "sk-lem-pe-weakly-etale-stability", "sk-prop-sfb-module-category", "def-sfb-module-lower-star", "sk-def-sfb-module-derived-pushpull"]
+uses = ["sk-def-sfb-finite-pushforward-pullback", "sk-thm-pe-weakly-contractible-basis", "sk-def-pe-weak-contractible", "sk-lem-pe-weakly-etale-stability", "det-prop-sfb-module-category", "def-sfb-module-lower-star", "sk-def-sfb-module-derived-pushpull"]
 +++
 This is Bhatt–Scholze, *The pro-étale topology for schemes*, Lemma 6.1.17; we
 recall the argument.
@@ -25,7 +25,7 @@ is an epimorphism.
 *(2).* The underlying abelian sheaf of $f_*M$ is $f^{\Ab}_*M$
 ([def-sfb-module-lower-star]), and the forgetful functor
 $\Mod_{\Lambda_X}\to\Sh(X_{\mathrm{proét}},\Ab)$ is exact and faithful, with kernels
-and cokernels computed on underlying sheaves ([sk-prop-sfb-module-category], (1)
+and cokernels computed on underlying sheaves ([det-prop-sfb-module-category], (1)
 and (4)). A sequence of module objects is therefore exact if and only if its
 underlying sequence of abelian sheaves is, and exactness of $f_*$ on
 $\Mod_{\Lambda_X}$ follows from (1) with $R=\mathbf Z$. An exact functor preserves

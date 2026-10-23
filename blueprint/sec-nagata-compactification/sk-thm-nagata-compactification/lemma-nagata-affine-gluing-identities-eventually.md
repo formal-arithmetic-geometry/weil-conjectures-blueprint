@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-gluing-identities-eventually"
 kind = "lemma"
 title = "The selected finite-stage datum satisfies the gluing axioms"
-order = 348
+order = 40
 lean = ["AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.gluing_identities_of_glueStage_le"]
 uses = ["def-nagata-affine-gluing-valid-stage", "lemma-nagata-affine-gluing-coefficients-descend"]
 +++

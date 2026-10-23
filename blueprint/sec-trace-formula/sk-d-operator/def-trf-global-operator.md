@@ -3,7 +3,7 @@ id = "def-trf-global-operator"
 kind = "definition"
 title = "Global operator of a correspondence"
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.properPullback", "AlgebraicGeometry.ProEtale.GeometricOperations.exceptionalPushforward"]
-order = 2632
+order = 3641
 uses = ["def-compact-support-direct-image-detailed", "def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-weil-derived-direct-image", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "prop-functor-package"]
 +++
 In the setting of [def-trf-correspondence], assume that the

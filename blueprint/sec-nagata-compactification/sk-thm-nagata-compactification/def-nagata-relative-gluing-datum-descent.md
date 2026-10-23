@@ -2,7 +2,7 @@
 id = "def-nagata-relative-gluing-datum-descent"
 kind = "definition"
 title = "Finite-stage raw relative gluing datum"
-order = 365
+order = 57
 lean = ["AlgebraicGeometry.RelativeGluingDatum", "AlgebraicGeometry.RelativeAffinePresentation.ChartModels", "AlgebraicGeometry.RelativeAffinePresentation.chartModels", "AlgebraicGeometry.RelativeAffinePresentation.ChartModels.rawStage", "AlgebraicGeometry.RelativeAffinePresentation.ChartModels.rawDatum"]
 uses = ["def-nagata-affine-fp-descent", "def-nagata-morphism-descent", "def-nagata-qc-open-descent", "def-nagata-relative-finite-affine-presentation", "lemma-nagata-affine-fp-descends", "lemma-nagata-morphism-descends", "lemma-nagata-qc-open-descends"]
 +++

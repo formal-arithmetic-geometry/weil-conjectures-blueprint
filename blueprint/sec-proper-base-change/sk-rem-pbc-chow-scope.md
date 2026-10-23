@@ -2,7 +2,7 @@
 id = "sk-rem-pbc-chow-scope"
 kind = "remark"
 title = "Chow's lemma over arbitrary bases"
-order = 1061
+order = 1960
 tags = ["sketch"]
 +++
 For schemes of finite type over $k$, the Noetherian case of the appendix on

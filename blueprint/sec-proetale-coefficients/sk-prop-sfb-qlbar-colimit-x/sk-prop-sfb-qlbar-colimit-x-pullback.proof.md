@@ -6,7 +6,7 @@ of    = "det-prop-sfb-qlbar-colimit-x-pullback"
 presentations $\underline E=\varinjlim(\underline{\cO_E}\xrightarrow{\ell}\cdots)$ and
 $\underline{\Qlb}=\varinjlim_E\underline E$ on the point. Since
 $f^{-1}\circ p_Y^*\cong p_X^*$ by the natural isomorphism $\alpha$ of
-[sk-def-sfb-pullback-from-point-comp], and $f^{-1}$ preserves colimits (it is a left
+[det-def-sfb-pullback-from-point-comp], and $f^{-1}$ preserves colimits (it is a left
 adjoint), $f^{-1}$ of the colimit presentation over $Y$ is identified, via the components
 of $\alpha$, with the colimit presentation over $X$. Naturality of $\alpha$ in the
 condensed ring gives the compatibility of all structure maps.

@@ -2,6 +2,7 @@
 id = "det-sp-composition-comparisons"
 kind = "lemma"
 title = "Composition of adjunctions and of coefficient comparisons"
+order = 3055
 uses = ["det-sp-reduction-direct-image", "det-sp-reduction-exceptional", "det-sp-tower-gluing", "det-sp-integral-adjunction-bijection"]
 +++
 Let $X\xrightarrow{f}Y\xrightarrow{g}Z$ be smooth of pure relative dimensions $d$

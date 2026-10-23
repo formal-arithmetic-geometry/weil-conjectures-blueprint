@@ -2,7 +2,9 @@
 id = "det-pe-continuous-cohomology-milnor"
 kind = "corollary"
 title = "The Milnor sequence for continuous cohomology"
-uses = ["det-pe-continuous-cohomology-limit", "sk-prop-pe-milnor"]
+lean = ["DerivedCategory.shortExact_milnor_of_isHomotopyLimit", "CategoryTheory.Pretriangulated.IsHomotopyLimit.bijective_milnorMap", "AlgebraicGeometry.Scheme.ProEt.bijective_extLimitToLimit_of_isMittagLeffler"]
+order = 1089
+uses = ["det-pe-continuous-cohomology-limit", "det-pe-milnor-sequence"]
 +++
 In the situation of [det-pe-continuous-cohomology-limit], for every $q$ there is
 a natural exact sequence

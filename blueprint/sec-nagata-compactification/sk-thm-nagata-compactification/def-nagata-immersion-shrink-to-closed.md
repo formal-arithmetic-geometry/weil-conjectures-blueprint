@@ -3,7 +3,7 @@ id = "def-nagata-immersion-shrink-to-closed"
 kind = "definition"
 title = "Quasi-compact open on which an immersion is closed"
 lean = ["AlgebraicGeometry.Scheme.Hom.closedShrink", "AlgebraicGeometry.Scheme.Hom.toClosedShrink"]
-order = 392
+order = 82
 uses = ["lemma-nagata-immersion-shrink-to-closed-exists"]
 +++
 Under the hypotheses of

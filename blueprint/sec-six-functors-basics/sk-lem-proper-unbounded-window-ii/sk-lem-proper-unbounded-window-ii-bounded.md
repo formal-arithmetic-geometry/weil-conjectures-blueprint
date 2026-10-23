@@ -2,6 +2,7 @@
 id = "det-proper-unbounded-window-ii-bounded"
 kind = "lemma"
 title = "Direct sums of uniformly bounded families"
+order = 2259
 uses = ["sk-lem-proper-heart-bound", "sk-cor-ambient-ind-derived"]
 +++
 Let $\Lambda=E$ or $\Qlb$, $p\colon X\to Y$ proper, and $(M_\alpha)$ a family in $\Dic(X,\Lambda)$ with

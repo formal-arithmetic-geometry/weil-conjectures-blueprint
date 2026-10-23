@@ -2,7 +2,7 @@
 id = "def-trf-fixed-scheme"
 kind = "definition"
 title = "Fixed scheme of a correspondence"
-order = 2431
+order = 2422
 uses = ["def-trf-coefficient-conventions", "def-trf-correspondence", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum

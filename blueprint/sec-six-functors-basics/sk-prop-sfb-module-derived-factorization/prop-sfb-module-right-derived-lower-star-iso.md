@@ -2,8 +2,8 @@
 id = "prop-sfb-module-right-derived-lower-star-iso"
 kind = "proposition"
 title = "$Rf_*$ is $D(\\operatorname{Res}_{\\eta_f})\\circ R\\operatorname{mapMod}(f_*)$"
-order = 1705
-uses = ["sk-def-sfb-module-derived-pushpull", "def-sfb-module-lower-star", "sk-def-sfb-change-of-scalars", "sk-def-sfb-derived-categories"]
+order = 2553
+uses = ["sk-def-sfb-module-derived-pushpull", "def-sfb-module-lower-star", "det-def-sfb-change-of-scalars", "det-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerStarIso"]
 +++
 Let $\Lambda$ be a commutative condensed ring and $f\colon X\to Y$ a morphism of

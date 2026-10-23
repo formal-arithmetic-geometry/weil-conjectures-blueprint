@@ -10,5 +10,10 @@ $R\mathcal H om_s$ with $R\operatorname{Hom}_\Lambda$ is
 [def-weil-finite-coefficient-point]. The two identifications of the
 global-section complexes are the definitions of
 [def-weil-ordinary-compact-cohomology], and the last display is the
-shift convention together with $\operatorname{Hom}_s(\Lambda,-)=\Fib_s$.
-Conservativity and exactness hold because $\Fib_s$ is an equivalence.
+shift convention together with $\operatorname{Hom}_s(\Lambda,-)=\Fib_s$:
+since $k$ is separably closed, every étale $s$-scheme is a finite disjoint
+union of copies of $s$, so taking sections at the geometric point is an exact
+equivalence from étale sheaves of $\Lambda$-modules on $s$ to $\Lambda$-modules,
+the constant sheaf $\Lambda_s$ is projective, and global sections compute
+$\Fib_s$ on the derived categories. Conservativity and exactness hold because
+$\Fib_s$ is an equivalence.

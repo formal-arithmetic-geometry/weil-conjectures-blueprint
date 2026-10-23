@@ -3,7 +3,7 @@ id = "def-nagata-sheaf-rees-algebra"
 kind = "definition"
 title = "Sheaf Rees algebra"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.reesData", "AlgebraicGeometry.Scheme.IdealSheafData.powMulMap", "AlgebraicGeometry.Scheme.IdealSheafData.reesMonomial_mul_reesMonomial"]
-order = 113
+order = 228
 uses = ["lemma-nagata-sheaf-ideal-powers-assoc"]
 +++
 Let $\mathcal I\subseteq\mathcal O_X$ be a quasi-coherent ideal sheaf. Define

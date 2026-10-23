@@ -2,7 +2,7 @@
 id = "pur9-def-orientation"
 kind = "definition"
 title = "Orientation of the zero section"
-order = 1844
+order = 2903
 uses = ["pur9-def-orientation-sheaf-map", "sk-prop-a1"]
 +++
 By Lemma “Concentration of the zero-section exceptional image” (`pur9-lem-orientation-concentration`, in [sk-prop-a1]), $M:=Rs^!_{\mathcal O_E/\pi_E^n}L_1[2]$ has cohomology only in degree zero, so the truncation maps $\mathcal H^0(M)[0]\leftarrow\tau_{\leq0}M\to M$ are isomorphisms. The orientation

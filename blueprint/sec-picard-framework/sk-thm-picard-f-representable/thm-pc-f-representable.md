@@ -3,10 +3,10 @@ id = "thm-pc-f-representable"
 kind = "theorem"
 title = "$F$ is representable by an open subscheme of $\\underline{\\operatorname{Hilb}}^g_{X/k}$"
 order = 837
-uses = ["def-pc-derived-category", "def-pc-f-subfunctor", "def-pc-finite-locally-free", "def-pc-genus", "def-pc-hilb-functor", "def-pc-pic-sigma-functor", "def-pc-rational-point", "def-pc-relative-effective-cartier", "def-pc-representable-functor", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-pc-subfunctor", "def-sc-effective-cartier-divisor", "def-sc-invertible-module", "lem-pc-cartier-criterion", "lem-pc-flat-rf-open", "lem-pc-hilb-representable", "lem-pc-projection-formula", "lem-pc-recd-pullback", "lem-pc-rf-base-change-flat-module", "lem-pc-universal-adjoint-section", "lem-pc-universal-divisor", "prop-pc-xk-integral", "thm-pc-hilb-curves"]
+uses = ["def-pc-derived-category", "def-pc-f-subfunctor", "def-pc-finite-locally-free", "def-pc-genus", "def-pc-hilb-functor", "def-pc-pic-sigma-functor", "def-pc-rational-point", "def-pc-relative-effective-cartier", "def-pc-representable-functor", "def-pc-smooth-projective-curve", "def-pc-subfunctor", "def-nagata-invertible-ideal", "def-sc-invertible-module", "lem-pc-cartier-criterion", "lem-pc-hilb-representable", "lem-pc-recd-pullback", "lem-pc-universal-adjoint-section", "lem-pc-universal-divisor", "thm-pc-hilb-curves"]
 lean = ["AlgebraicGeometry.isRepresentable_picardFunctorInvertibleDirectImage"]
 +++
-Let $k$ be a separably closed field,
+Let $k$ be a field,
 let $X$ be a scheme over $k$ which is smooth of relative dimension $1$,
 proper and geometrically integral over $k$ (for instance a smooth
 projective curve over $k$), of genus $g=\dim_kH^1(X,\mathcal{O}_X)$, with a

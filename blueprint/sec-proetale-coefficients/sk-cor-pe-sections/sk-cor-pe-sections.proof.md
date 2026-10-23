@@ -18,5 +18,5 @@ finite covering on which this description holds, so one finite set of summand in
 suffices on all covering members. The sheaf condition then identifies the section with a
 section of that finite subsum. Evaluation therefore preserves arbitrary direct sums
 (Stacks, Tag 0935). An arbitrary colimit of modules is a cokernel of a map between direct
-sums, and exactness of evaluation gives the assertion ([det-pe-sections-limits-colimits]).
+sums, and exactness of evaluation gives the assertion.
 See Stacks, Tag 0945 for the conservative criterion.

@@ -2,8 +2,8 @@
 id = "rem-sf-direct-image-proof-status"
 kind = "remark"
 title = "Status of the recorded argument for clause (iii)"
-order = 2556
-uses = ["cor-sf-direct-image-ctf-etale-origin", "cor-sf-direct-image-ctf-nonproper", "cor-sf-direct-image-ctf-proetale", "def-exchange-projection", "def-sf-pf", "def-sf-uniform-direct-image-vanishing", "def-weil-finite-tor-amplitude", "lem-exc-residue-tor-test", "lem-sf-comparison-tor-amplitude", "lem-sf-etale-direct-image-vanishing", "lem-sf-flat-model", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-residue-tor-test", "lem-sf-projection-finite-constant"]
+order = 3219
+uses = ["cor-sf-direct-image-ctf-etale-origin", "cor-sf-direct-image-ctf-nonproper", "cor-sf-direct-image-ctf-proetale", "def-exchange-projection", "def-sf-pf", "def-sf-uniform-direct-image-vanishing", "def-weil-finite-tor-amplitude", "lem-exc-residue-tor-test", "lem-exc-comparison-tor-interval", "lem-sf-etale-direct-image-vanishing", "lem-sf-flat-model", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-residue-tor-test", "lem-sf-projection-finite-constant"]
 +++
 The proof of clause (iii) of the finite-Tor preservation summary bounds
 $\mathcal H^r(Rf_*K\otimes^L_AM)$ for an arbitrary module sheaf $M$ by
@@ -31,7 +31,7 @@ the bound is *not* used at all in the route taken here: the cell is
 reduced to the étale one. By
 [lem-sf-proetale-constructible-origin] every object of
 $D^b_{ctf}(X_{\Proet},A)$ is of étale origin, and
-[lem-sf-comparison-tor-amplitude] transfers the finite-Tor condition
+[lem-exc-comparison-tor-interval] transfers the finite-Tor condition
 across the comparison in both directions, so
 [cor-sf-direct-image-ctf-proetale] proves clause (iii) at the finite
 admissible coefficient rings for *every* object of

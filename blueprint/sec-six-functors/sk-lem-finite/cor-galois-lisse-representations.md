@@ -2,7 +2,8 @@
 id = "cor-galois-lisse-representations"
 kind = "theorem"
 title = "Lisse sheaves and continuous representations"
-order = 2771
+lean = ["AlgebraicGeometry.Scheme.exists_equivalence_isFiniteLocallyConstantSheaf", "Rep.IsFiniteContinuous"]
+order = 3281
 uses = ["def-galois-fibre-functor", "thm-galois-fundamental", "thm-galois-lc-etale"]
 tags = ["latex:corollary"]
 +++

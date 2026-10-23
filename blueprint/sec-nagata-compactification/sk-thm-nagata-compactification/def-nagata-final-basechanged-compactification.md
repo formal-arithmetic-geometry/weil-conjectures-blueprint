@@ -3,7 +3,7 @@ id = "def-nagata-final-basechanged-compactification"
 kind = "definition"
 title = "Base-changed compactification of a separated finitely presented morphism"
 lean = ["AlgebraicGeometry.finitePresentationCompactification"]
-order = 384
+order = 75
 uses = ["def-nagata-compactification-base-change", "def-nagata-final-descended-model", "def-nagata-final-noetherian-compactification", "lemma-nagata-final-descended-model", "lemma-nagata-final-noetherian-compactification"]
 +++
 For $Y\to S$ as in [def-nagata-final-descended-model],

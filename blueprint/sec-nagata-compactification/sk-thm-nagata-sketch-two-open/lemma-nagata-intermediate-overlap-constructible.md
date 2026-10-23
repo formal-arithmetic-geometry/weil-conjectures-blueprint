@@ -2,7 +2,7 @@
 id = "lemma-nagata-intermediate-overlap-constructible"
 kind = "lemma"
 title = "Constructibility of the overlap image"
-order = 294
+order = 385
 lean = ["AlgebraicGeometry.TwoOpenSide.isConstructible_range_intermediateGraph"]
 uses = ["def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-boundary-loci"]
 +++

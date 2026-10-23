@@ -2,6 +2,7 @@
 id = "det-pe-unbounded-classical-unit"
 kind = "proposition"
 title = "The unbounded unit for finite coefficients"
+order = 2135
 uses = ["det-pe-unbounded-classical-bounds", "det-pe-unbounded-classical-truncation", "det-pe-injective-acyclicity-reduction", "lem-weil-pbc-comparison-global-cohomology", "sk-prop-sf-comparison"]
 +++
 Let $X$ be of finite type over a finite or algebraically closed field $k$ and $A$

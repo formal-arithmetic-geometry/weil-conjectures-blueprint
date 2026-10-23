@@ -2,7 +2,7 @@
 id = "lem-pc-perfect-locus"
 kind = "lemma"
 title = "The perfect locus with fixed degree"
-order = 687
+order = 779
 uses = ["def-pc-base-change", "def-pc-derived-category", "def-pc-derived-pullback", "def-pc-invertible-in-degree-zero", "def-pc-morphism-conventions", "def-pc-perfect-complex"]
 lean = ["AlgebraicGeometry.Scheme.Modules.IsFiniteFreeComplex.exists_opens_range_subset_iff"]
 +++

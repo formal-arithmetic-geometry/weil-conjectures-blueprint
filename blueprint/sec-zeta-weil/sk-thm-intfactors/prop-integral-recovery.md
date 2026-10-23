@@ -3,7 +3,7 @@ id = "prop-integral-recovery"
 kind = "theorem"
 title = "Integral factor recovery"
 lean = ["AlgebraicGeometry.Scheme.integral_recovery"]
-order = 3252
+order = 4140
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-normalized-integral-fraction", "def-weil-ordinary-compact-cohomology", "def-weil-parity-products", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "thm-weil-realization-independence"]
 +++

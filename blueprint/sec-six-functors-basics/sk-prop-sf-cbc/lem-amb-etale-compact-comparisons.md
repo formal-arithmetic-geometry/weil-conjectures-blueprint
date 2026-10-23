@@ -2,7 +2,7 @@
 id = "lem-amb-etale-compact-comparisons"
 kind = "lemma"
 title = "The etale compact-support comparisons"
-order = 1917
+order = 2695
 uses = ["def-amb-etale-compact-support", "def-nagata-compactifiable", "def-weil-compactifications-refinements", "lem-weil-derived-direct-image-composition", "lem-weil-pbc-proper-open-comparison-composition", "lem-weil-pbc-proper-open-comparison-iso", "prop-weil-proet-finite-proper-base-change", "thm-nagata-compactification"]
 +++
 The proper-refinement comparisons for

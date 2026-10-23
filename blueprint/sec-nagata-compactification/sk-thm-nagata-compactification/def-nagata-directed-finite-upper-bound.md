@@ -2,7 +2,7 @@
 id = "def-nagata-directed-finite-upper-bound"
 kind = "definition"
 title = "Selected upper bound of a finite set"
-order = 335
+order = 27
 lean = ["Finset.directedBound"]
 +++
 Let $I$ be a preorder. Fix a base point $i_\varnothing$

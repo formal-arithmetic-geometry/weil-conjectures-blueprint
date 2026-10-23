@@ -2,6 +2,7 @@
 id = "det-prop-scalar-six-exceptional"
 kind = "lemma"
 title = "Coefficient comparison for exceptional inverse image"
+order = 2494
 uses = ["det-prop-scalar-six-compact-support", "det-prop-scalar-six-direct-image", "sk-thm-existence", "sk-lem-formal-closed-support", "sk-prop-geo-p1-adjunction", "sk-prop-diagonal-tower"]
 +++
 Let $f\colon X\to Y$ be a morphism of standing schemes, $\Lambda\to\Lambda'$ a listed

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-lem-curve-dense-open"
-uses = ["sk-lem-curve-finite-support", "sk-lem-curve-normalization", "sk-prop-sf-comparison"]
+uses = ["sk-lem-curve-finite-support", "sk-lem-curve-normalization", "sk-prop-sf-comparison", "sk-lem-pbc-finite", "sk-thm-br"]
 +++
 The exact sequence is the open–closed sequence of classical sheaves; it can be
 checked on geometric stalks on $C_{\mathrm{ét}}$ and then pulled back. The
@@ -21,10 +21,11 @@ equivalence of the invariance assertions. For $(C_8)$ apply the same
 identifications in degree two to each open subset of $C$. See also (Stacks,
 Tag 0GJA).
 
-*Consequence.* In particular $j_!\underline{\mathbf F_r}$ satisfies the
-assertions $(C_1)$–$(C_8)$ when $j$ is dense, by [sk-lem-curve-normalization]
-and the constant calculation. For an arbitrary open, apply this on the
-reduced union of the components it meets, which is a closed subscheme, and
-use exactness of finite direct image. Alternatively, shrink to the dense
-regular open of the normalization and use [sk-lem-curve-finite-support];
-this is the route of (Stacks, Tag 0A3Q).
+*Consequence.* If $j$ is dense, this lemma and the calculation for constant
+$\mathbf F_r$ on $C$ via [sk-lem-curve-normalization] show that
+$j_!\underline{\mathbf F_r}$ satisfies the assertions $(C_1)$–$(C_8)$ of
+[def-weil-pbc-eight-curve-assertions]. An
+arbitrary open is dense in the reduced union of the components it meets,
+which is a closed subscheme of $C$. Apply the dense case there and pass back
+to $C$, using that direct image along a finite morphism is exact (Stacks,
+Tag 0A3Q).

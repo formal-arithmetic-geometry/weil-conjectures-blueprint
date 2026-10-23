@@ -2,7 +2,7 @@
 id = "sk-def-pe-classical-definition"
 kind = "definition"
 title = "Classical pro-étale sheaves"
-order = 723
+order = 989
 uses = ["sk-def-pe-site", "sk-prop-pe-affine-basis"]
 tags = ["sketch"]
 +++

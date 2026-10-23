@@ -3,9 +3,9 @@ id = "prop-weil-operations"
 kind = "theorem"
 title = "Six operations on Weil complexes"
 lean = ["AlgebraicGeometry.WeilComplex.upperStarCompForgetIso", "AlgebraicGeometry.WeilComplex.nonempty_derivedLowerStar_comp_forget_iso", "AlgebraicGeometry.WeilComplex.nonempty_iso_derivedLowerShriek_comp", "AlgebraicGeometry.WeilComplex.nonempty_iso_derivedLowerShriek_upperStar", "AlgebraicGeometry.WeilComplex.nonempty_iso_derivedLowerShriek_tensorLisse"]
-order = 2779
+order = 3437
 tags = ["latex:proposition"]
-uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes", "sk-def-sfb-bounded-constructible", "sk-thm-sf-ctf-stability", "fix-cor-verdier-exchange", "lem-fix-weil-operations", "prop-constructible-truncations", "prop-pur-weil-equivariance-compatibilities", "thm-pod-equivariance-of-the-twisted-pairing", "thm-pur-weil-equivariance-of-purity-and-trace"]
+uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes", "det-def-sfb-bounded-constructible", "sk-thm-sf-ctf-stability", "fix-cor-verdier-exchange", "lem-fix-weil-operations", "prop-constructible-truncations", "prop-pur-weil-equivariance-compatibilities", "thm-pod-equivariance-of-the-twisted-pairing", "thm-pur-weil-equivariance-of-purity-and-trace"]
 +++
 Fix the finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, and fix a prime $\ell\neq p$; write
@@ -14,7 +14,7 @@ let $E/\Ql$ be finite and contained in $\Qlb$, and let
 $\Lambda\in\{E,\Qlb\}$, regarded as a condensed ring. On a scheme $W$ use
 the condensed categories
 $\Dctf(W,\Lambda)=\Dbc(W,\Lambda)\subseteq D(W_{\mathrm{pro\acute et}},\Lambda)$ of
-[sk-def-sfb-bounded-constructible], the
+[det-def-sfb-bounded-constructible], the
 separated finite-type
 morphism conditions, and the
 exceptional inverse image in its constructible form (the exceptional inverse

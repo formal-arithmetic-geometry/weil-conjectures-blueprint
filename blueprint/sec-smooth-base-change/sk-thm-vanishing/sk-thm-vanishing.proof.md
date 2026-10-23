@@ -94,7 +94,7 @@ $U\mapsto H^q(U\times_S\Spec K,\Z/d\Z)$ on $X_{\Et}$; we must kill
 each $\xi$ in one of these groups on an étale cover of $U$.
 
 - $q>1$: $U\times_S\Spec K$ is an affine smooth curve over
-$K$, and [sk-prop-cd-affine] gives the vanishing.
+$K$, and [lem-sc-arbitrary-curve-cd] gives the vanishing.
 - $q=1$: by [sk-prop-normal-form] replace $U$ by an étale
 cover with $U\to V\to S$, $U\to V$ affine with geometrically connected fibres
 and a section $\sigma$, $V\to S$ étale ($f$ is smooth, so it has
@@ -103,7 +103,7 @@ smooth and $V\to S$ is étale); by
 [sk-prop-etale-normal], $V$ is an open
 of the normal $S$, so we may assume $X\to S$ affine smooth, with
 geometrically connected fibres and a section $\sigma$, and
-$\xi\in H^1(Y,\Z/d\Z)$. By [sk-prop-ext-invariance] the pullback
+$\xi\in H^1(Y,\Z/d\Z)$. By [sbc-thm-algebraically-closed-invariance] the pullback
 map $H^1(X_L,\Z/d\Z)\to H^1(Y,\Z/d\Z)$ is an isomorphism, so $\xi$ comes from a class on
 $X_L$; by [sk-prop-input-torsors] this
 class is a $\Z/d\Z$-torsor $P\to X_L$, a finite étale cover with a

@@ -3,7 +3,7 @@ id = "def-sc-divisor"
 kind = "definition"
 title = "Divisors, principal divisors, class group"
 lean = ["AlgebraicGeometry.Scheme.Divisor.toPic", "AlgebraicGeometry.Scheme.Divisor", "AlgebraicGeometry.Scheme.Divisor.degree", "AlgebraicGeometry.Scheme.div", "AlgebraicGeometry.Scheme.principalDivisors", "AlgebraicGeometry.Scheme.DivisorClassGroup", "AlgebraicGeometry.Scheme.ord", "AlgebraicGeometry.Scheme.finite_setOf_ord_ne_zero", "AlgebraicGeometry.Scheme.Divisor.associatedModule", "AlgebraicGeometry.Scheme.Pic.ofClosedPoint", "AlgebraicGeometry.Scheme.exists_divisorClassGroup_addEquiv_pic"]
-order = 454
+order = 472
 uses = ["def-sc-curves", "def-sc-function-field", "def-sc-invertible-module", "def-sc-picard-group"]
 +++
 Let $C$ be a scheme, for instance a curve over $k$. A

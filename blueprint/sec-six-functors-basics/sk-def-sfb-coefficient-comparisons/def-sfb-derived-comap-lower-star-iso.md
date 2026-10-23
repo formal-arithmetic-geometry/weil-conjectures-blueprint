@@ -2,8 +2,8 @@
 id = "def-sfb-derived-comap-lower-star-iso"
 kind = "definition"
 title = "Derived restriction of scalars commutes with $Rf_*$"
-order = 1740
-uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-pushpull", "sk-def-sfb-derived-categories"]
+order = 2614
+uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-pushpull", "det-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedComapLowerStarIso"]
 +++
 Let $a\colon\Lambda\to\Lambda'$ be a morphism of commutative condensed rings such that for every

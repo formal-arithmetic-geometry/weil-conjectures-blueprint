@@ -2,7 +2,7 @@
 id = "lemma-nagata-intermediate-specialization-boundary"
 kind = "lemma"
 title = "A specialization leaving $U_i$ meets the forbidden boundary"
-order = 295
+order = 386
 lean = ["AlgebraicGeometry.TwoOpenSide.exists_graph_eq_of_specializes"]
 uses = ["def-nagata-two-open-boundary-loci", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-boundary-loci"]
 +++

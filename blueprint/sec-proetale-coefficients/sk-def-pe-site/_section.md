@@ -2,7 +2,8 @@
 id = "sk-def-pe-site"
 kind = "definition"
 title = "The small pro-étale site"
-order = 703
+order = 907
+lean = ["AlgebraicGeometry.Scheme.ProEt", "AlgebraicGeometry.Scheme.ProEt.topology", "AlgebraicGeometry.Scheme.proetalePrecoverage", "AlgebraicGeometry.Scheme.etalePrecoverage_le_proetalePrecoverage"]
 uses = ["sk-def-pe-morphisms", "sk-lem-pe-weakly-etale-stability"]
 tags = ["sketch"]
 +++
@@ -23,4 +24,6 @@ The finite refinement condition is part of the topology; a jointly surjective fa
 without it is not a covering. For an affine target every cover refines to a finite affine
 cover, whose disjoint union is affine and faithfully flat over the target. Ordinary étale
 and Zariski covers are pro-étale covers: flat maps locally of finite presentation are open,
-so quasi-compactness gives the required finite refinements (Stacks, Tag 098B).
+so quasi-compactness gives the required finite refinements (Stacks, Tag 098B). The
+universe fixed in the conventions is chosen large enough to contain the covers constructed
+below, and $X_{\mathrm{proét}}$ refers to that choice.

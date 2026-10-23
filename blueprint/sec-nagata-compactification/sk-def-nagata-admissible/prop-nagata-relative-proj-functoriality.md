@@ -3,7 +3,7 @@ id = "prop-nagata-relative-proj-functoriality"
 kind = "theorem"
 title = "Restriction, base change, and functoriality of Proj"
 lean = ["AlgebraicGeometry.Scheme.GradedAlgebraData.pullbackDataOfIsAffine", "AlgebraicGeometry.Scheme.GradedAlgebraData.isPullback_pullbackOfIsAffine", "AlgebraicGeometry.Scheme.GradedAlgebraData.relProjMap", "AlgebraicGeometry.Scheme.GradedAlgebraData.relProjIsoOfIso", "AlgebraicGeometry.Scheme.GradedAlgebraData.isClosedImmersion_relProjMap", "AlgebraicGeometry.Scheme.GradedAlgebraData.isPullback_relProjFunctor_map", "GradedRingHom.IsGradedBaseChange.isPushout_away", "AlgebraicGeometry.Proj.isPullback_map_of_isGradedBaseChange", "AlgebraicGeometry.Proj.isPullback_map_of_isGradedBaseChangeAlong"]
-order = 52
+order = 186
 tags = ["latex:proposition"]
 uses = ["def-nagata-relative-proj", "lemma-nagata-proj-chart-ring-cocycle", "lemma-nagata-relative-proj-exists"]
 +++

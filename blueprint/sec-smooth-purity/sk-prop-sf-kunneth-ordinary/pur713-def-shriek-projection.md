@@ -2,10 +2,10 @@
 id = "pur713-def-shriek-projection"
 kind = "definition"
 title = "Compact-support projection transformation, finite coefficients"
-order = 1982
-uses = ["pur713-def-star-projection", "sk-def-sf-exchanges", "sk-def-sf-operations"]
+order = 3075
+uses = ["pur713-def-star-projection", "sk-def-sf-exchanges", "det-def-sf-operations"]
 +++
-Assume Inputs “Fixed-coefficient inverse image preserves K-flat complexes” (`pur713-input-kflat-fixed`) and “Open-extension projection formula for sheaves of $\mathcal O_E/\pi_E^n$-modules” (`pur713-input-open-projection-finite`, in [sk-def-sf-operations]). For $f$ with chosen compactification $c_f=(j,p)$, $K\in D(X_{\Proet},\mathcal O_E/\pi_E^n)$ and $L\in D(Y_{\Proet},\mathcal O_E/\pi_E^n)$, define
+Assume Inputs “Fixed-coefficient inverse image preserves K-flat complexes” (`pur713-input-kflat-fixed`) and “Open-extension projection formula for sheaves of $\mathcal O_E/\pi_E^n$-modules” (`pur713-input-open-projection-finite`, in [det-def-sf-operations]). For $f$ with chosen compactification $c_f=(j,p)$, $K\in D(X_{\Proet},\mathcal O_E/\pi_E^n)$ and $L\in D(Y_{\Proet},\mathcal O_E/\pi_E^n)$, define
 
 $$
 \operatorname{PF}_{f,K,L,\mathcal O_E/\pi_E^n}:

@@ -2,7 +2,8 @@
 id = "lem-weil-derived-limit-existence"
 kind = "lemma"
 title = "Existence and computation of derived limits"
-order = 1277
+lean = ["CategoryTheory.exists_isDerivedLimit_and_iso", "CategoryTheory.derivedCategory_countableProducts_and_towerLimit"]
+order = 1212
 uses = ["def-weil-derived-limit"]
 +++
 Let $\mathcal D$ be a triangulated category and let $(K_n,f_n)$ be an inverse

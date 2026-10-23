@@ -3,7 +3,7 @@ id = "cor-sf-fullcd-weakly-contractible-test"
 kind = "theorem"
 title = "FullCD tested on affine weakly contractible objects"
 lean = ["AlgebraicGeometry.ProEtale.hasUniformCohomologicalDimensionLE_iff_forall_isWeaklyContractible"]
-order = 2139
+order = 2756
 tags = ["latex:corollary"]
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-full-cohomological-dimension", "def-weil-pbc-direct-image", "def-weil-pbc-proetale-site", "lem-cbc-proetale-stalk-conservative", "lem-sf-proetale-vanishing-detection"]
 +++

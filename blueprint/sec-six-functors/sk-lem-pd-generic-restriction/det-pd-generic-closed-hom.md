@@ -2,6 +2,7 @@
 id = "det-pd-generic-closed-hom"
 kind = "lemma"
 title = "Geometric generic restriction commutes with closed exceptional restriction and internal Hom"
+order = 3296
 uses = ["det-pd-generic-direct-image"]
 +++
 In the setting of [det-pd-generic-direct-image], let $i\colon Z\hookrightarrow X$

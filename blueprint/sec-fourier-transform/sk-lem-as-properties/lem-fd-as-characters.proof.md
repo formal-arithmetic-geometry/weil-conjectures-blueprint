@@ -64,8 +64,9 @@ may be read on the étale site, using [def-weil-pbc-etale-sheaves].) The summand
 $(\pi_*\overline{\mathbf Q}_\ell)^{\mathbf F_p}$, i.e. the invariants of the
 pushforward along a torsor, which is the constant sheaf
 $\overline{\mathbf Q}_\ell$; so $\mathcal L_0=1$.
-*Step 5 (multiplicativity).* By [def-fd-artin-schreier-sheaf],
-$\mathcal L_{\psi,f}=e_\Psi\pi_*\overline{\mathbf Q}_\ell$ is the summand
+*Step 5 (multiplicativity).* By [lem-wft-as-comparison] (with $a=1$), the
+sheaf $\mathcal L_{\psi,f}$ of [def-fd-artin-schreier-sheaf] is identified with
+$e_\Psi\pi_*\overline{\mathbf Q}_\ell$, the summand
 $\mathcal L_\chi$ for $\chi=\Psi$, so it is lisse of rank one by Step 4. Let
 $f,g\in\Gamma(X_0,\mathcal O_{X_0})$ with covers $\pi_f:Y_f\to X_0$,
 $\pi_g:Y_g\to X_0$, and put $W=Y_f\times_{X_0}Y_g$, $\pi_W:W\to X_0$. At a

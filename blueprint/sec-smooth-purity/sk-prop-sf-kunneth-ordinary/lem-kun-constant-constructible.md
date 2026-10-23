@@ -2,7 +2,7 @@
 id = "lem-kun-constant-constructible"
 kind = "lemma"
 title = "Constant sheaves are constructible"
-order = 2121
+order = 3200
 uses = ["def-kun-constant-sheaf", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be a

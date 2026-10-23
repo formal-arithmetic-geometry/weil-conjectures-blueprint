@@ -2,7 +2,7 @@
 id = "thm-sf-kunneth-relative"
 kind = "theorem"
 title = "Relative product theorem"
-order = 2532
+order = 3369
 uses = ["def-pur-support-cohomology", "def-sf-datum", "def-sf-pf"]
 +++
 In the setting of [def-sf-datum], let $B$ be a separated finite-type
@@ -24,8 +24,7 @@ Rf_!K\otimes^L_\Lambda Rg_!L
 $$
 
 is an isomorphism, natural in $K$ and $L$, compatible with base change
-$B'\to B$, finite reduction, scalar extension, and with the
-identifications $Rf_!\cong Rf_*$ for proper $f$. For $B=\operatorname{Spec}k$
+$B'\to B$ and with the identifications $Rf_!\cong Rf_*$ for proper $f$. For $B=\operatorname{Spec}k$
 and closed immersions $i_Z:Z\hookrightarrow X$, $i_W:W\hookrightarrow Y$,
 it gives the compact-support product on the closed subschemes:
 

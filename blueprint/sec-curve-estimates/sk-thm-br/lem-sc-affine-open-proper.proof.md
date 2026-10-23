@@ -8,7 +8,7 @@ closed points ([lem-sc-dim0-finite]), and
 $U=\overline C\setminus S$. By [lem-sc-point-cartier] each
 $P\in S$ is an effective Cartier divisor, so
 $D:=\sum_{P\in S}[P]$ is an effective Cartier divisor with support
-$S$ ([def-sc-effective-cartier-divisor]); its degree is
+$S$ ([def-nagata-invertible-ideal]); its degree is
 $\deg D=|S|\geq1$ ([def-sc-divisor]), and
 $\deg\mathcal O(D)=\deg D>0$ by the well-definedness of the degree
 on $\operatorname{Pic}$ ([lem-sc-deg-principal-zero]), so

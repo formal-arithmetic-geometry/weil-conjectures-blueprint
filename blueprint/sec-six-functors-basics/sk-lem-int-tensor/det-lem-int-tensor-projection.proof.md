@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "det-lem-int-tensor-projection"
-uses = ["sk-prop-sf-open-closed-triangle", "sk-def-sfb-derived-tensor-hom", "sk-prop-sfb-cartesian-coefficients"]
+uses = ["sk-prop-sf-open-closed-triangle", "det-def-sfb-derived-tensor-hom", "sk-prop-sfb-cartesian-coefficients"]
 +++
 Throughout we use [sk-prop-sf-open-closed-triangle]: for an open immersion $j$
 with closed complement $i$, the functors $j^*$, $j_!$, $i^*$, $i_*$ are exact,
@@ -27,7 +27,7 @@ identity of $M\otimes i^*N$, and after $j^*$ both sides vanish. So it is an
 isomorphism.
 
 *Derived version.* Represent $L$ by a K-flat complex $Q$ of $\Lambda_X$-modules
-([sk-def-sfb-derived-tensor-hom]). Inverse image along an open or closed
+([det-def-sfb-derived-tensor-hom]). Inverse image along an open or closed
 immersion preserves K-flatness: if $C$ is acyclic on the subscheme, then
 $C\otimes j^*Q=j^*(j_!C\otimes Q)$, respectively $C\otimes i^*Q=i^*(i_*C\otimes Q)$ by the
 sheaf formulas, and $j_!C$, $i_*C$ are acyclic. Applying the sheaf formulas

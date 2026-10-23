@@ -2,11 +2,13 @@
 kind  = "proof"
 of    = "lemma-weil-pbc-pushout-monicity"
 +++
-Let $P=B\amalg_A C$ be the pushout in sheaves. It is the cokernel sheaf of
-$A\to B\oplus C$, $a\mapsto(i_Ba,-i_Ca)$. If $c\in C(V)$ maps to zero in
-$P(V)$, then by the definition of a sheaf cokernel there is an etale cover
-$\{V_\alpha\to V\}$ and $a_\alpha\in A(V_\alpha)$ with
-$i_C(a_\alpha)=c|_{V_\alpha}$ and $i_B(a_\alpha)=0$. Since $i_B$ is monic,
-$a_\alpha=0$, hence $c|_{V_\alpha}=0$. The sheaf axiom gives $c=0$.
-This proves monicity on arbitrary etale objects, and the same local
-equalizer calculation proves naturality of the pushout map.
+The pushout $P=B\amalg_AC$ is the cokernel of
+$(i_B,-i_C):A\to B\oplus C$, and the map $C\to P$ is the composite of the
+inclusion $C\to B\oplus C$ with the cokernel map. Its kernel is therefore the
+pullback of the image of $(i_B,-i_C)$ along $C\to B\oplus C$. If
+$x:K\to C$ factors through this pullback, then, after replacing $K$ by an
+epimorphic cover, $(0,x)=(i_B,-i_C)\circ a$ for some $a:K\to A$; so
+$i_B\circ a=0$, hence $a=0$ since $i_B$ is monic, and $x=-i_C\circ a=0$.
+Thus the kernel is zero and $C\to P$ is a monomorphism. (For sheaves this is
+the familiar local computation: a section of $C$ dying in $P$ is locally the
+image of a section of $A$ killed by $i_B$, hence locally zero, hence zero.)

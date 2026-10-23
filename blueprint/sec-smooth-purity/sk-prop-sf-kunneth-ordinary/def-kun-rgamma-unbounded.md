@@ -2,12 +2,12 @@
 id = "def-kun-rgamma-unbounded"
 kind = "definition"
 title = "Unbounded derived global sections"
-order = 2008
-uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-kinjective-resolutions-exist"]
+order = 3101
+uses = ["def-weil-pbc-etale-cohomology", "def-sp-kinjective-bridge", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 For a scheme $T$, a commutative ring $\Lambda$ and
 $K\in D(T_{\Et},\Lambda)$, choose a K-injective resolution in the
-sense of [def-weil-pbc-kinjective-resolutions],
+sense of [def-sp-kinjective-bridge],
 $K\to I$ (which exists by
 [prop-weil-pbc-kinjective-resolutions-exist]) and put
 

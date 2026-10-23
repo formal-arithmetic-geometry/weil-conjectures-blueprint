@@ -2,8 +2,8 @@
 id = "sk-thm-sf-ctf-stability"
 kind = "proposition"
 title = "The six functors on $\\Dctf$"
-order = 1575
-uses = ["sk-cor-sf-direct-image-ctf", "sk-def-sf-operations", "sk-def-sf-setting", "sk-prop-sf-comparison", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-hom-ctf", "sk-prop-sf-existence", "sk-thm-existence"]
+order = 2484
+uses = ["sk-cor-sf-direct-image-ctf", "sk-prop-sf-open-closed-triangle", "sk-def-purity-conv", "sk-prop-sf-comparison", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-hom-ctf", "sk-prop-sf-existence", "sk-thm-existence"]
 tags = ["sketch"]
 +++
 For every admissible $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\Qlb\}$, the

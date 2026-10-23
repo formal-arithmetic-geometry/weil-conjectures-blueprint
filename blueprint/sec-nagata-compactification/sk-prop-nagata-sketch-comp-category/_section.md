@@ -2,7 +2,7 @@
 id = "sk-prop-nagata-sketch-comp-category"
 kind = "proposition"
 title = "Common dense refinements"
-order = 6
+order = 130
 uses = ["sk-def-nagata-sketch-data", "sk-thm-nagata-compactification"]
 lean = ["AlgebraicGeometry.Compactification.exists_isDense_isStrict_refinement", "AlgebraicGeometry.Compactification.refinement_morphisms", "AlgebraicGeometry.Compactification.DenseCategory.isCofiltered_and_isThin"]
 tags = ["sketch"]

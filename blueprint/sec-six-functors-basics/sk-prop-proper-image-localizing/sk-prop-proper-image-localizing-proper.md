@@ -2,6 +2,7 @@
 id = "det-proper-image-localizing-proper"
 kind = "lemma"
 title = "Proper direct image on the localizing categories"
+order = 2263
 uses = ["det-proper-image-localizing-principle", "sk-thm-sfb-proper-base-change", "sk-lem-proper-unbounded-window-ii", "sk-prop-ctf-finite-proper", "sk-prop-int-compactness", "sk-cor-ambient-ind-derived"]
 +++
 Let $\Lambda$ be admissible and $p\colon X\to Y$ proper. Suppose that $Rp_*$ maps $\Dctf(X,\Lambda)$ into

@@ -1,16 +1,30 @@
 +++
 id = "sk-thm-weil-final"
 kind = "theorem"
-title = "Weil conjectures for a smooth proper variety"
-order = 3281
-uses = ["sk-thm-weil1", "sk-thm-weil2", "sk-thm-weil3", "sk-thm-weil4", "sk-thm-weil5"]
+title = "The Weil conjectures for smooth proper schemes"
+order = 4144
+uses = ["sk-cor-tf-point-counting", "sk-thm-intfactors", "sk-cor-tf-functional-equation", "sk-cor-trace"]
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures"]
 tags = ["sketch"]
 +++
-Let $X_0$ be smooth, proper and geometrically integral of dimension $d$ over
-$\Fq$. Then $Z(X_0,T)$ factors as an alternating product of polynomials
-$P_0,\dots,P_{2d}\in\Z[T]$ with $P_0=1-T$ and $P_{2d}=1-q^dT$; the reciprocal
-roots of $P_{2d-i}$ are those of $P_i$ under $\alpha\mapsto q^d/\alpha$; and
-every reciprocal root of $P_i$ has absolute value $q^{i/2}$
-([thm-weil-final]). This assembles [sk-thm-weil1]–[sk-thm-weil5] into one
-statement.
+Let $X_0/\mathbf F_q$ be smooth proper of pure dimension $d$.
+With $P_i$ and $b_i$ as in [sk-thm-intfactors]:
+
+1. $Z(X_0,T)=\prod_{i=0}^{2d}P_i(T)^{(-1)^{i+1}}$ is rational;
+   each $P_i$ has integer coefficients and constant coefficient one.
+1. Each reciprocal root $\alpha$ of $P_i$ satisfies
+   $|\tau(\alpha)|=q^{i/2}$ for every complex embedding $\tau$.
+1. $b_i=b_{2d-i}$, and these numbers are independent of $\ell$.
+   If $X_0$ is geometrically connected, then
+   $P_0=1-T$, $P_{2d}=1-q^dT$, and $b_0=b_{2d}=1$.
+1. Put $\chi=\sum_i(-1)^ib_i$. Then $d\chi$ is even and there
+   is $\varepsilon\in\{1,-1\}$ such that
+
+$$
+Z\!\left(X_0,\frac1{q^dT}\right)
+ =\varepsilon q^{d\chi/2}T^\chi Z(X_0,T)
+ \quad\hbox{in }\mathbf Q(T).
+$$
+
+*Complement.* The map $\alpha\mapsto q^d/\alpha$ carries the reciprocal roots
+of $P_i$ bijectively, with multiplicities, onto those of $P_{2d-i}$.

@@ -2,7 +2,7 @@
 id = "def-trf-correspondence"
 kind = "definition"
 title = "Cohomological correspondence"
-order = 2430
+order = 2421
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum

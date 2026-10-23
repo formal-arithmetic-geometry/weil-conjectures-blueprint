@@ -9,8 +9,10 @@ pullbacks, so $F$ is constructible in the sense of
 gives a dense open $U'\subseteq X$ with $F|_{U'}$ finite locally constant.
 Remove from $U'$ all intersections of distinct irreducible components (a
 finite set of closed points). The resulting dense open $U=\coprod_aU_a$ meets
-every component, each $U_a$ is irreducible, and $G=j^{-1}F$ is finite locally
-constant.
+every component, its connected components $U_a$ are irreducible, and
+$G=j^{-1}F$ is finite locally constant. Let $i:Z=X\setminus U\hookrightarrow X$
+be the complement, with its reduced structure; it is a finite set of closed points,
+since $U$ contains every generic point of $X$.
 
 Let $\epsilon:j_!G\to F$ be extension by zero of the identity of $G$, and
 let $\rho:F\to i_*i^{-1}F$ be restriction to $Z$. At a geometric point of
@@ -55,8 +57,3 @@ $\rho$, and the boundary map; the two five-term sequences form a commuting
 diagram, and the five lemma handles degrees $0,1$, while the higher-degree
 maps are already identified. Thus the eight assertions hold for $F$ if
 and only if they hold for $j_!G$.
-
-Finally $j_!G=\bigoplus_a j_{a,!}(G|_{U_a})$. The inclusions and projections
-split this finite sum, and repeated split exact sequences
-$0\to E_1\to E_1\oplus E_2\to E_2\to0$ together with short-exact devissage
-reduce to the individual irreducible components.

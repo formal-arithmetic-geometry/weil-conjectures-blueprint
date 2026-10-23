@@ -2,7 +2,7 @@
 id = "pur9-def-etale-open-projection"
 kind = "definition"
 title = "Étale open-extension projection map"
-order = 2001
+order = 3094
 uses = ["sk-thm-sf-comp-composition"]
 +++
 For an open immersion $j:U\hookrightarrow X$, $K\in D(U_{\Et},\mathcal O_E/\pi_E^n)$ and $N\in D(X_{\Et},\mathcal O_E/\pi_E^n)$, let

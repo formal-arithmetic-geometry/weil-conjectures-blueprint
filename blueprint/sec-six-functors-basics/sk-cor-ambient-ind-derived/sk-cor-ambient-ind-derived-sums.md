@@ -2,6 +2,7 @@
 id = "det-ambient-ind-derived-sums"
 kind = "lemma"
 title = "Sums and truncations in $\\Dic(X,\\Lambda)$; the localizing closure"
+order = 2237
 uses = ["det-ambient-ind-derived-triangulated", "sk-def-localizing-closure", "sk-prop-ind-heart"]
 +++
 Let $\Lambda=E$ or $\Qlb$.

@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-zl-smooth-proper-relative-purity"
-uses = ["cor-zl-rfshriek-sheaf", "cor-cbc-proper-coincidence", "prop-weil-operations", "sk-thm-sfb-qlbar-two-colimit", "thm-lisse-qlbar-representations", "sk-lem-stratified-lattice", "det-lem-stratified-lattice-scheme", "sk-prop-pbc-degree-zero", "cor-galois-lisse-representations", "thm-galois-fundamental", "sk-prop-pe-condensed-point", "sk-prop-sfb-qlbar-colimit-x", "sk-def-sfb-constructible", "thm-fin-proper-constructibility-complete", "prop-weil-proet-finite-proper-base-change", "cor-weil-pbc-geometric-fiber-finite", "sbc-thm-smooth-base-change", "sk-thm-sfb-proper-base-change", "sk-prop-scalar-six", "sk-prop-pe-milnor", "sk-prop-sfb-finite-extension-compatibility", "cor-weil-pbc-geometric-fiber-qbar", "thm-weil-pbc-qbar", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-wf-tate-twist-frobenius", "lem-sf-tensor-hom", "sk-thm-purity-transport", "lem-sf-twist-interchange"]
+uses = ["cor-zl-rfshriek-sheaf", "cor-cbc-proper-coincidence", "prop-weil-operations", "sk-thm-sfb-qlbar-two-colimit", "thm-lisse-qlbar-representations", "sk-lem-stratified-lattice", "det-lem-stratified-lattice-scheme", "sk-prop-pbc-degree-zero", "cor-galois-lisse-representations", "thm-galois-fundamental", "sk-prop-pe-condensed-point", "sk-prop-sfb-qlbar-colimit-x", "sk-def-sfb-constructible", "thm-fin-proper-constructibility-complete", "prop-weil-proet-finite-proper-base-change", "cor-weil-pbc-geometric-fiber-finite", "sbc-thm-smooth-base-change", "sk-thm-sfb-proper-base-change", "sk-prop-scalar-six", "sk-prop-pe-milnor", "sk-prop-sfb-finite-extension-compatibility", "cor-weil-pbc-geometric-fiber-qbar", "thm-weil-pbc-qbar", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-wf-tate-twist-frobenius", "thm-pod-degreewise-perfectness-over-a-field", "thm-pod-equivariance-of-the-twisted-pairing"]
 +++
 Write $f:X\to Y$ for the geometric fiber of $f_0$ and $\mathcal F$ for the
 underlying sheaf of $\mathcal F_0$. The upper bound on weights is the
@@ -173,7 +173,7 @@ so every eigenvalue $\alpha$ of $F_y$ on $(R^{i}f_{0*}\mathcal F_0)_{\bar y}$
 is an eigenvalue on a graded piece of some weight $w_r\leq w+i$, whence
 $|\iota(\alpha)|\leq q_y^{(w+i)/2}$.
 
-*Step 3 (lower bound by relative Verdier duality).* Let
+*Step 3 (lower bound by fibrewise Poincaré duality).* Let
 $\mathcal F_0^\vee=R\mathcal H om(\mathcal F_0,\Qlb)$ be the coefficient dual
 of $\mathcal F_0$: since $\mathcal F$ is lisse, it is locally on the site a
 finite free $\Qlb$-module, so by [lem-sf-hom-finite-projective]
@@ -187,58 +187,30 @@ punctually $\iota$-pure of weight $-w$. By
 is $q_x^{-d}$, so $\mathcal F_0^\vee(d)$ is lisse and punctually
 $\iota$-pure of weight $-w-2d$.
 
-The relative duality isomorphism is assembled from three canonical
-isomorphisms, each a morphism of Weil complexes by [prop-weil-operations]
-(composition, purity and duality isomorphisms are Weil). First, the
-tensor–Hom form of the Verdier exchange [lem-sf-tensor-hom], applied to
-$f$ with $M=\mathcal F$ and $N=\Qlb_Y$, together with $Rf_!=Rf_*$
-from Step 1:
+Now fix a closed point $y\in|Y_0|$ and $\bar y$ over it, and let
+$X_{0,y}=X_0\times_{Y_0}\Spec\kappa(y)$ be the fibre, a smooth proper
+$\kappa(y)$-scheme of pure dimension $d$ with geometric fibre $X_{\bar y}$;
+here $\kappa(y)$ is a finite field with $q_y$ elements. The restriction of
+$\mathcal F_0$ to $X_{0,y}$ is a lisse, hence perfect, Weil sheaf. The
+degreewise duality over a field [thm-pod-degreewise-perfectness-over-a-field]
+(with $H_c=H$, the fibre being proper) gives a perfect pairing
 
 $$
-Rf_*R\mathcal H om_X\bigl(\mathcal F,Rf^!\Qlb_Y\bigr)\xrightarrow{\ \sim\ }
-R\mathcal H om_Y\bigl(Rf_*\mathcal F,\Qlb_Y\bigr).
+H^{i}(X_{\bar y},\mathcal F)\times H^{2d-i}\bigl(X_{\bar y},\mathcal F^\vee(d)\bigr)
+\longrightarrow\Qlb,
 $$
 
-Second, the smooth orientation: [sk-thm-purity-transport], for the
-smooth separated $f$ of relative dimension $d$, $\Lambda=\Qlb$ and
-$K=\Qlb_Y$, gives $\Qlb_X(d)[2d]=Lf^*\Qlb_Y(d)[2d]\xrightarrow{\sim}Rf^!\Qlb_Y$.
-Third, the perfect form of duality: $\mathcal F$ is perfect over
-$\Qlb_X$, so [lem-sf-twist-interchange] with $m=d$, $n=2d$ gives
-$R\mathcal H om_X(\mathcal F,\Qlb_X(d)[2d])\cong\mathcal F^\vee(d)[2d]$.
-Composing,
-
-$$
-R\mathcal H om_Y\bigl(Rf_*\mathcal F,\Qlb_Y\bigr)\;\cong\;
-Rf_*\bigl(\mathcal F^\vee(d)\bigr)[2d]
-$$
-
-as Weil complexes on $Y$. By Step 1 the cohomology sheaves
-$R^{j}f_*\mathcal F$ of $Rf_*\mathcal F$ are lisse; for a lisse sheaf
-$\mathcal L$ on $Y$, [lem-sf-hom-finite-projective] (locally on the site
-$\mathcal L$ is finite free) gives
-$\mathcal E xt^{r}(\mathcal L,\Qlb_Y)=0$ for $r>0$ and
-$\mathcal H om(\mathcal L,\Qlb_Y)=\mathcal L^\vee$ lisse, with stalks the
-linear duals of those of $\mathcal L$. Induction on the truncation
-triangles of the bounded complex $Rf_*\mathcal F$ therefore identifies the
-cohomology sheaf in degree $-i$ of the left side with
-$(R^{i}f_*\mathcal F)^\vee$. Taking $\mathcal H^{-i}$ of both sides gives the
-Frobenius-equivariant isomorphism of lisse sheaves
-
-$$
-\bigl(R^{i}f_{0*}\mathcal F_0\bigr)^{\vee}
-\;\cong\;
-R^{2d-i}f_{0*}\bigl(\mathcal F_0^{\vee}(d)\bigr).
-$$
-
-Now fix a closed point $y\in|Y_0|$ and $\bar y$ over it. Step 2 applied to
-the lisse, punctually pure $\mathcal F_0^\vee(d)$ of weight $-w-2d$ in degree
-$2d-i$ bounds every eigenvalue $\gamma$ of $F_y$ on the right-hand stalk by
-$|\iota(\gamma)|\leq q_y^{(-w-2d+2d-i)/2}=q_y^{(-w-i)/2}$. The left-hand
-sheaf being the dual of a lisse sheaf, its stalk at $\bar y$ is the
-linear dual of $(R^{i}f_{0*}\mathcal F_0)_{\bar y}$ with the contragredient
-action of $F_y$, whose eigenvalues are the $\alpha^{-1}$ with $\alpha$ an
-eigenvalue of $F_y$ on $(R^{i}f_{0*}\mathcal F_0)_{\bar y}$. Hence
-$|\iota(\alpha)|^{-1}\leq q_y^{(-w-i)/2}$, i.e.
+and by [thm-pod-equivariance-of-the-twisted-pairing] it is invariant under
+the geometric Frobenius of $\kappa(y)$ acting on both factors. By Step 1 and
+[thm-weil-pbc-qbar] (2), these Frobenius operators are the local operators
+$F_y$ on the stalks of $R^{i}f_{0*}\mathcal F_0$ and of
+$R^{2d-i}f_{0*}(\mathcal F_0^\vee(d))$ at $\bar y$. An invariant perfect
+pairing identifies the second factor with the contragredient of the first,
+so the eigenvalues of $F_y$ on the second factor are the $\alpha^{-1}$, with
+multiplicities, $\alpha$ running over the eigenvalues of $F_y$ on
+$H^{i}(X_{\bar y},\mathcal F)$. Step 2 applied to the lisse, punctually pure
+$\mathcal F_0^\vee(d)$ of weight $-w-2d$ in degree $2d-i$ bounds these by
+$|\iota(\alpha^{-1})|\leq q_y^{(-w-2d+2d-i)/2}=q_y^{(-w-i)/2}$, i.e.
 
 $$
 |\iota(\alpha)|\geq q_y^{(w+i)/2}.

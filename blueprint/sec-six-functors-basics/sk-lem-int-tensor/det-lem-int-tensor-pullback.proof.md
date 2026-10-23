@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "det-lem-int-tensor-pullback"
-uses = ["det-lem-int-tensor-shriek", "sk-prop-sfb-cartesian-coefficients", "sk-prop-sf-open-closed-triangle", "sk-prop-integral-criterion", "sk-lem-integral-models", "sk-def-pe-derived-completion"]
+uses = ["det-lem-int-tensor-shriek", "sk-prop-sfb-cartesian-coefficients", "sk-prop-sf-open-closed-triangle", "sk-prop-integral-criterion", "sk-lem-integral-models", "def-pe-derived-complete"]
 +++
 By [sk-prop-sfb-cartesian-coefficients], $g^{-1}\mathcal O_{E,Y}=\mathcal O_{E,X}$ and
 $g^{-1}(\mathcal O_E/\pi_E^n)_Y=(\mathcal O_E/\pi_E^n)_X$, so $g^*=g^{-1}$ is exact on
@@ -11,7 +11,7 @@ cone of $\pi_E^n$ on $g^*K$). The maps $g^*K\to g^*(K\otimes^{\mathbf L}\mathcal
 compatible in $n$ and define $c_K$; its target is
 $R\varprojlim_n(g^*K\otimes^{\mathbf L}\mathcal O_E/\pi_E^n)$, so $c_K$ is the completion map
 of $g^*K$, and **$c_K$ is an isomorphism if and only if $g^*K$ is derived
-complete** ([sk-def-pe-derived-completion]). Both $g^*$ and
+complete** ([def-pe-derived-complete]). Both $g^*$ and
 $K\mapsto R\varprojlim_ng^*(K\otimes^{\mathbf L}\mathcal O_E/\pi_E^n)$ are exact functors and
 $c$ is a natural transformation between them.
 

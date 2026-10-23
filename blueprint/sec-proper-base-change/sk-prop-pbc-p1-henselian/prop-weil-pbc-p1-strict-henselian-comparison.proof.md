@@ -2,18 +2,25 @@
 kind  = "proof"
 of    = "prop-weil-pbc-p1-strict-henselian-comparison"
 +++
-Choose an injective resolution $F\to I^\bullet$. Exactness of inverse
-image along the closed immersion gives an exact complex $F_0\to I_0^\bullet$.
-The preceding lemma makes each $I_0^r$ acyclic, so Leray's acyclicity lemma
-identifies $R\Gamma(X_0,F_0)$ with $\Gamma(X_0,I_0^\bullet)$. Degree-zero
-restriction identifies this complex with $\Gamma(X,I^\bullet)$ term by term.
-Taking cohomology gives the displayed isomorphisms, and naturality follows
-from the naturality of the restriction map and of injective resolutions.
+Only the underlying abelian sheaf of $F$ matters. *Reduction to a prime.* The
+class of abelian sheaves for which the comparison holds in all degrees is closed
+under extensions (five lemma in the long exact cohomology sequences on $X$ and
+$X_0$) and under filtered colimits (cohomology of the quasi-compact
+quasi-separated schemes $X$ and $X_0$ commutes with filtered colimits, as does
+inverse image). A torsion sheaf is the filtered union of its subsheaves $F[n]$
+[def-weil-pbc-torsion-etale-sheaf], a sheaf killed by $n$ is a finite extension of
+sheaves killed by primes, so it suffices to treat an abelian sheaf $G$ with
+$rG=0$ for a prime $r$, i.e. a sheaf of $\mathbf F_r$-modules.
 
-Choose a K-injective resolution $F\to I^\bullet$. By the acyclicity statement
-of [prop-weil-pbc-p1-acyclicity] each $I^m|_{X_0}$ is acyclic on $X_0$, so
-$H^q(X_0,F_0)$ is computed by $\Gamma(X_0,I^\bullet|_{X_0})$; the degree-zero
-comparison, applied termwise to the abelian sheaves $I^m$, identifies this
-with $\Gamma(X,I^\bullet)$, whose cohomology is $H^q(X,F)$. Naturality in $F$
-is the naturality of the two comparisons in the setup of
-[def-weil-pbc-strict-henselian-setup].
+*Sheaves of $\mathbf F_r$-modules.* Induction on $q$. Degree zero is
+[lemma-weil-pbc-etale-degree-zero], $X$ being proper over the henselian local
+ring $A$. For $q\geq1$ embed $G$ into an injective sheaf $I$ of
+$\mathbf F_r$-modules and put $Q=I/G$. The underlying abelian sheaf of $I$ has no
+higher cohomology on $X$, and $H^q(X_0,I_0)=0$ for $q>0$ by
+[prop-weil-pbc-p1-acyclicity]. Inverse image is exact, so $0\to G_0\to I_0\to
+Q_0\to0$ is exact, and the long exact sequences of $0\to G\to I\to Q\to0$ on $X$
+and on $X_0$, connected by restriction, identify $H^q(X,G)$ and $H^q(X_0,G_0)$
+with the cokernels of $H^{q-1}(X,I)\to H^{q-1}(X,Q)$ and
+$H^{q-1}(X_0,I_0)\to H^{q-1}(X_0,Q_0)$; by the induction hypothesis for $I$ and
+$Q$ in degree $q-1$, restriction is bijective on these cokernels. All maps are
+restriction maps, so the isomorphisms are natural in $F$.

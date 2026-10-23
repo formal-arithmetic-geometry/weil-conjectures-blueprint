@@ -2,6 +2,7 @@
 id = "det-cor-sf-direct-image-ctf-open-tor"
 kind = "lemma"
 title = "Scalar projection formula and the Tor bound for an open immersion"
+order = 2404
 uses = ["def-kun-cd", "lem-kun-0f10", "lem-kun-0f12", "def-weil-finite-tor-amplitude", "lem-exc-comparison-tor-interval", "prop-weil-pbc-comparison-direct-image"]
 +++
 Let $k$ be a separably closed field, $\ell\ne\operatorname{char}(k)$, $A$ a

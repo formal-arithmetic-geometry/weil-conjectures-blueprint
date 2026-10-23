@@ -2,8 +2,8 @@
 id = "sk-thm-acyclicity"
 kind = "lemma"
 title = "Acyclic resolutions"
-order = 1050
-lean = ["CategoryTheory.Functor.nonempty_rightDerivedObjIso_homology_of_acyclic"]
+order = 1557
+lean = ["CategoryTheory.Functor.nonempty_rightDerivedObjIso_homology_of_acyclic", "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic"]
 tags = ["sketch"]
 +++
 Let $v:\mathcal A\to\mathcal B$ be a left exact additive functor between

@@ -4,5 +4,6 @@ kind = "lemma"
 title = "Underlying sheaf forgetful functor preserves module-sheaf colimits"
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 lean = ["AlgebraicGeometry.Scheme.moduleSheaf_underlying_preserves_colimit"]
+order = 1674
 +++
-For a scheme X, a commutative ring Λ, and a small diagram D of Λ-module sheaves on the small etale site of X, the sheafCompose functor induced by ModuleCat Λ → AddCommGrpCat preserves colimits of D.
+Let $X$ be a scheme and $\Lambda$ a commutative ring. The functor from sheaves of $\Lambda$-modules on the small etale site of $X$ to abelian sheaves, which forgets the $\Lambda$-module structure sectionwise, preserves colimits of every small diagram.

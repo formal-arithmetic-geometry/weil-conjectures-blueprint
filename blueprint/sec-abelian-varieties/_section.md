@@ -2,7 +2,7 @@
 id = "sec-abelian-varieties"
 kind = "section"
 title = "Abelian Varieties"
-order = 426
+order = 441
 uses = ["sec-nagata-compactification"]
 +++
 **Content.** For an abelian variety $A$ of dimension $g$ over a field $k$

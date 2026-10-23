@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "det-lem-int-tensor-product"
-uses = ["det-lem-int-tensor-shriek", "det-lem-int-tensor-pullback", "det-lem-int-tensor-projection", "sk-prop-integral-criterion", "sk-def-pe-derived-completion", "sk-def-sfb-constructible", "sk-lem-int-integral-heart"]
+uses = ["det-lem-int-tensor-shriek", "det-lem-int-tensor-pullback", "det-lem-int-tensor-projection", "sk-prop-integral-criterion", "def-pe-derived-complete", "sk-def-sfb-constructible", "sk-lem-int-integral-heart"]
 +++
 *Dualizability of a local model.* Let $M$ be as in the second paragraph, with a
 pro-étale cover $\{W_k\to S\}$ and $M|_{W_k}\simeq P_k\otimes_{\mathcal O_E}\mathcal O_{E,W_k}$. Put
@@ -22,7 +22,7 @@ $R\varprojlim$ of sequences, which is the fibre of a map between products. It
 also commutes with reduction modulo $\pi_E^n$ by associativity of the derived
 tensor product. Hence, if $N$ is derived complete, applying $M\otimes^{\mathbf L}-$ to
 the isomorphism $N\simeq R\varprojlim_nN\otimes^{\mathbf L}\mathcal O_E/\pi_E^n$ shows that
-$M\otimes^{\mathbf L}N$ is derived complete ([sk-def-pe-derived-completion]).
+$M\otimes^{\mathbf L}N$ is derived complete ([def-pe-derived-complete]).
 
 *Reduction to a stratum.* Fix $L\in\Dbc(X,\mathcal O_E)$. The functor
 $K\mapsto K\otimes^{\mathbf L}L$ is exact and $\Dbc(X,\mathcal O_E)$ is triangulated

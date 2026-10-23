@@ -2,7 +2,7 @@
 id = "lem-pur-gysin-structure"
 kind = "lemma"
 title = "Structure of the exceptional inverse image of the zero section"
-order = 2290
+order = 2831
 uses = ["def-pur-affine-line-datum", "def-pur-conventions", "def-weil-derived-direct-image", "def-weil-exceptional-inverse-image", "fix-prop-adjunctions", "lem-amb-cartier-kummer-map", "lem-amb-closed-support-hom", "lem-pur-support-localization-triangle", "lem-weil-derived-direct-image-composition", "prop-pur-gm-relative-kummer", "thm-pur-with-support-exactness"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

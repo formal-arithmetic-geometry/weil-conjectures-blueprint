@@ -2,8 +2,8 @@
 id = "rem-sf-axiom-verification"
 kind = "remark"
 title = "What verifies each axiom"
-order = 2586
-uses = ["cor-cbc-proper-coincidence", "def-compact-support-direct-image-detailed", "def-sf-datum", "def-weil-exceptional-adjoint-admissibility", "fix-lem-exchanges", "fix-prop-adjunctions", "fix-prop-projection-formula", "lem-fix-operation-reduction", "prop-compactification-coherence-detailed", "thm-fix-general-biduality", "sk-prop-scalar-six"]
+order = 3395
+uses = ["cor-cbc-proper-coincidence", "def-compact-support-direct-image-detailed", "def-sf-datum", "def-weil-exceptional-adjoint-admissibility", "fix-lem-exchanges", "fix-prop-adjunctions", "fix-prop-projection-formula", "lem-sf-reduction-compatibility", "prop-compactification-coherence-detailed", "lem-sf-verdier-biduality-equivalence"]
 +++
 The formal axioms of [def-sf-datum] are supplied operation by
 operation. Adjunction (A1) is [fix-prop-adjunctions], with the
@@ -16,11 +16,10 @@ is the independent base-change theorems collected in
 [prop-compactification-coherence-detailed] and
 [cor-cbc-proper-coincidence].
 
-For (A5), [lem-fix-operation-reduction] supplies the elementary
-coefficient comparisons on its stated domains, and the comparisons for
-every admissible condensed coefficient ring, under reduction modulo
-$\pi_E^n$ and extension of scalars, are [sk-prop-scalar-six]. The exceptional comparisons remain subject to the
-coefficient compatibility in admissibility. Biduality (A6) is the
-separate geometric theorem [thm-fix-general-biduality], on its
-actual hypotheses and coefficient domains. The aggregate package
+Compatibility with change of coefficients is not a clause of the
+datum. The finite-reduction compatibilities of derived pullback and of
+compact-support direct image are [lem-sf-reduction-compatibility].
+Biduality (A6) is the separate geometric theorem
+[lem-sf-verdier-biduality-equivalence], for $k$ algebraically closed and
+the exponent of $\Lambda$ invertible in $k$. The aggregate package
 collects these results only after their individual proofs.

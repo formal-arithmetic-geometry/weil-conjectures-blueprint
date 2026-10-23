@@ -2,7 +2,7 @@
 id = "sk-prop-pe-hypercover"
 kind = "proposition"
 title = "Weakly contractible hypercovers"
-order = 721
+order = 986
 uses = ["sk-thm-pe-weakly-contractible-basis", "sk-cor-pe-wc-sections", "sk-prop-pe-left-complete"]
 tags = ["sketch"]
 +++
@@ -22,9 +22,8 @@ The cosimplicial differential is the alternating sum of pullbacks along face map
 with $(-1)^r$ times the differential of $K^\bullet$. In total degree $q$ this complex has the
 finite sum $\bigoplus_{0\leq r\leq q-a}K^{q-r}(W_r)$.
 
-For a single sheaf this is the cochain complex $M(W_0)\to M(W_1)\to M(W_2)\to\cdots$; it
-gives no bound on the cohomological dimension of arbitrary pro-étale sheaves. The finiteness
-of the sum in each total degree uses the lower bound on $K^\bullet$. For unbounded $K$ one
-uses instead $R\Gamma(U,K)\simeq R\varprojlim_nR\Gamma(U,\tau_{\geq-n}K)$, by
-[sk-prop-pe-left-complete]; the sum totalization of an unbounded double complex does not
-compute this.
+For a single sheaf this is the cochain complex $M(W_0)\to M(W_1)\to M(W_2)\to\cdots$, which
+may be nonzero in every degree, so the hypercover gives no bound on cohomological dimension.
+The sum in each total degree is finite because $K^\bullet$ is bounded below. For unbounded
+$K$ the correct formula is $R\Gamma(U,K)\simeq R\varprojlim_nR\Gamma(U,\tau_{\geq-n}K)$, by
+[sk-prop-pe-left-complete], and the hypercover complex is applied to each truncation.

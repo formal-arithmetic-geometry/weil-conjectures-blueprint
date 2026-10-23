@@ -2,7 +2,7 @@
 id = "def-nagata-morphism-descent"
 kind = "definition"
 title = "Finite-stage model of a morphism"
-order = 360
+order = 52
 lean = ["AlgebraicGeometry.morphismDescentStage", "AlgebraicGeometry.morphismDescent"]
 uses = ["def-nagata-affine-fp-descent", "def-nagata-directed-finite-upper-bound", "def-nagata-qc-open-descent", "lemma-nagata-filtered-colimit-finite-data"]
 +++

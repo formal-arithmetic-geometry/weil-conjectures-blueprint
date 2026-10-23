@@ -3,10 +3,14 @@ id = "lem-weil-pbc-constructible-finite-pushforward-noetherian"
 kind = "lemma"
 title = "Noetherian finite-pushforward embedding"
 lean = ["AlgebraicGeometry.Etale.exists_mono_biproduct_lowerStar_of_isNoetherian"]
-order = 1186
-uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-constructible-finitely-presented", "lem-weil-pbc-normal-constant-generic"]
+order = 1639
+uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-constructible-sheaf", "def-weil-pbc-etale-sheaves"]
 +++
-Let $U$ be Noetherian and let $C$ be a constructible torsion abelian sheaf on
-$U_{\Et}$. There are finite morphisms $h_i:V_i\to U$ and finite abelian groups
-$M_i$ with a monomorphism
-$C\hookrightarrow\bigoplus_i(h_i)_*\underline{M_i}$.
+Let $\Lambda$ be a Noetherian commutative ring, let $U$ be a Noetherian scheme
+and let $C$ be a constructible sheaf of $\Lambda$-modules on $U_{\Et}$
+[def-weil-pbc-etale-constructible-sheaf], [def-weil-pbc-etale-sheaves]. There
+are finitely many finite morphisms $h_i:V_i\to U$ and finitely generated
+$\Lambda$-modules $M_i$ with a monomorphism of sheaves of $\Lambda$-modules
+$C\hookrightarrow\bigoplus_i(h_i)_*\underline{M_i}$ [def-weil-pbc-direct-image],
+where $\underline{M_i}$ is the constant sheaf of $\Lambda$-modules with value
+$M_i$ on $(V_i)_{\Et}$.

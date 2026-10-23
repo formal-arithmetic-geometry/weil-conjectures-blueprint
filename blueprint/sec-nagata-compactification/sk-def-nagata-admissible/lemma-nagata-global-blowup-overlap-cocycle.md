@@ -3,7 +3,7 @@ id = "lemma-nagata-global-blowup-overlap-cocycle"
 kind = "lemma"
 title = "Triple-overlap cocycle"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowupOverlapIso_trans"]
-order = 61
+order = 195
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-global-blowup-local-model", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-affine-blowup-restrict-cocycle", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-global-blowup-overlap-independent", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-rees-graded"]
 +++
 Let $U$ be an affine open contained in the affine opens $V_i$, $V_j$ and

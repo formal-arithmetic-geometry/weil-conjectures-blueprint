@@ -2,7 +2,8 @@
 id = "sk-prop-pe-comparison-morphism"
 kind = "proposition"
 title = "The comparison morphism and its inverse image"
-order = 724
+order = 990
+lean = ["AlgebraicGeometry.Scheme.toProEt", "AlgebraicGeometry.ProEtale.comparisonLowerStar", "AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.comparisonAdjunction", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar", "AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar", "AlgebraicGeometry.ProEtale.isColimit_comparisonUpperStar_mapCocone"]
 uses = ["sk-def-pe-site", "sk-prop-pe-affine-basis", "sk-def-pe-classical-definition"]
 tags = ["sketch"]
 +++
@@ -23,7 +24,7 @@ $$
 where $h_{\Et}^*\colon\Sh(X_{\Et})\to\Sh(V_{\Et})$ is the étale inverse image
 along the weakly étale map $h$. Both functors carry $\Lambda$-module sheaves to
 $\Lambda$-module sheaves, so they restrict to functors between
-$\Mod(X_{\Et},\Lambda)$ and $\Mod(X_{\Proet},\Lambda_X)$. For a pro-étale affine
+$\Mod(X_{\Et},\Lambda)$ and $\Mod(X_{\Proet},\Lambda)$. For a pro-étale affine
 presentation $U=\varprojlim_iU_i$ with $U_i$ affine and étale over $X$, this
 gives
 

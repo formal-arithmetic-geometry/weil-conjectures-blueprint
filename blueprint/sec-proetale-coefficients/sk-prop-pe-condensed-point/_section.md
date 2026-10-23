@@ -2,8 +2,8 @@
 id = "sk-prop-pe-condensed-point"
 kind = "proposition"
 title = "The pro-étale geometric point"
-order = 735
-uses = ["sk-prop-pe-affine-basis", "sk-def-sfb-condensed-ring", "sk-def-sfb-pullback-from-point", "sk-prop-pe-comparison-morphism"]
+order = 1060
+uses = ["sk-prop-pe-affine-basis", "sk-prop-pe-comparison-morphism"]
 tags = ["sketch"]
 +++
 Let $\Omega$ be a separably closed field. The affine pro-étale basis of

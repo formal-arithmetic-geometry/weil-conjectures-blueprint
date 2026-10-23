@@ -2,7 +2,7 @@
 id = "lemma-nagata-reduced-dense-image-schematic"
 kind = "lemma"
 title = "Dense image into a reduced scheme is schematically dense"
-order = 283
+order = 375
 lean = ["AlgebraicGeometry.IsSchemeTheoreticallyDominant.of_isDominant"]
 uses = ["def-nagata-dense-compactification", "def-nagata-scheme-theoretic-image"]
 +++

@@ -7,6 +7,7 @@ The coefficient sequence is exact on the profinite point, hence after pullback,
 and it supplies the two-term resolution ([lem-weil-pbc-standard-quotients-perfect],
 [det-pe-derived-nakayama-resolution]). The short exact sequences between
 successive powers of $\pi_E$ show inductively that $K_1=0$ implies $K_n=0$ for
-all $n$, and completeness then gives $K=0$. Derived completeness is closed under
-cones, so applying this to the cone proves the last assertion
+all $n$, and completeness then gives $K=0$. Derived completeness is preserved by
+cones, since both sides of the completion map are exact functors of $K$, so
+applying this to the cone proves the last assertion
 ([det-pe-derived-nakayama-first-reduction]).

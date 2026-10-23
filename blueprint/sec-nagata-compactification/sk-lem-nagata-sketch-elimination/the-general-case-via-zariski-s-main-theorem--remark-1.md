@@ -2,7 +2,7 @@
 id = "the-general-case-via-zariski-s-main-theorem--remark-1"
 kind = "remark"
 title = "Why the theorem must allow $U\\neq V$"
-order = 228
+order = 325
 +++
 The case $U=V$ is the only one used in the applications, but the proof does
 not go through if $U=V$ is imposed throughout. The extra flexibility is

@@ -2,7 +2,7 @@
 id = "lem-kun-0f0f"
 kind = "lemma"
 title = "Projection formula, integer coefficients"
-order = 2084
+order = 3163
 uses = ["def-kun-derived-tensor", "def-kun-projection-formula-map", "def-kun-torsion-invertible", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-kun-derived-tensor-triangulated"]
 +++
 Let $f:X\to Y$ be a

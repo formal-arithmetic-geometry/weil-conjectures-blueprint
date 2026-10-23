@@ -2,11 +2,12 @@
 id = "def-pur-proetale-structure-sheaf"
 kind = "definition"
 title = "The structure sheaf of rings on the small pro-etale site"
-uses = ["def-weil-pbc-small-proetale-site"]
+order = 2656
+uses = ["def-weil-pbc-proetale-site"]
 tags = ["stacks-03P4"]
 +++
 Let $S$ be a scheme and $S_{\mathrm{proet}}$ its small pro-etale site
-[def-weil-pbc-small-proetale-site]. The *structure sheaf* $\mathcal O_S$ on
+[def-weil-pbc-proetale-site]. The *structure sheaf* $\mathcal O_S$ on
 $S_{\mathrm{proet}}$ is the presheaf of commutative rings
 
 $$

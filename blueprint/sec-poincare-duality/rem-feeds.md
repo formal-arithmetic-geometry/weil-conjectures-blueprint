@@ -2,7 +2,7 @@
 id = "rem-feeds"
 kind = "remark"
 title = "Where this feeds, and what remains"
-order = 2759
+order = 3459
 +++
 Global duality and the pairing
 identification are cited directly as [thm-sf-global-duality] and

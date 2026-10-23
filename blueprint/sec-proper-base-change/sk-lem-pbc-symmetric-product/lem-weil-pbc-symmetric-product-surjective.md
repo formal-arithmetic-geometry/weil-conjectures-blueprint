@@ -3,11 +3,11 @@ id = "lem-weil-pbc-symmetric-product-surjective"
 kind = "lemma"
 title = "Surjectivity of the symmetric-product morphism"
 lean = ["AlgebraicGeometry.ProjectiveSpace.surjective_symmetricProduct"]
-order = 1269
-uses = ["def-weil-pbc-scheme-conventions", "def-weil-pbc-symmetric-product-morphism", "lem-weil-pbc-surjective-nonempty-fibres", "lem-weil-pbc-symmetric-product-finite"]
+order = 1955
+uses = ["def-weil-pbc-scheme-conventions", "def-weil-pbc-symmetric-product-morphism", "lem-weil-pbc-surjective-nonempty-fibres"]
 +++
-Let $\sigma_n:(\mathbf P^1_S)^n\to\mathbf P^n_S$ be the symmetric-product
-morphism [def-weil-pbc-symmetric-product-morphism]. It is finite and
-surjective. Equivalently, over every algebraically closed geometric point of
-$S$, every binary form of degree $n$ factors as a product of $n$ linear forms,
-including factors at infinity.
+For every scheme $S$ and every $n\geq0$, the symmetric-product morphism
+$\sigma_n:(\mathbf P^1_S)^n\to\mathbf P^n_S$ of
+[def-weil-pbc-symmetric-product-morphism] is surjective. Equivalently, over every
+algebraically closed field every binary form of degree $n$ factors as a product
+of $n$ linear forms, including factors at infinity.

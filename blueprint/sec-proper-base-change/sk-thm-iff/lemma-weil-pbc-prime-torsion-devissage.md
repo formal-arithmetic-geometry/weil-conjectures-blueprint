@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-prime-torsion-devissage"
 kind = "lemma"
 title = "Prime-torsion devissage"
-order = 1122
+order = 1569
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isTorsionSheaf"]
 uses = ["lemma-weil-pbc-five-lemma-transfer", "lemma-weil-pbc-torsion-filtered-union"]
 +++

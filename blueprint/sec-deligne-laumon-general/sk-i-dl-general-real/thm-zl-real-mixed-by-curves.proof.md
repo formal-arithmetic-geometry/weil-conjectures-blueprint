@@ -44,7 +44,8 @@ filtrations, now proves that $\mathcal G$ is mixed.
 
 To descend the initial constant extension $g:X'_0\to X_0$, push
 this filtration forward. Finite pushforward is exact and preserves
-pure weights by [lem-zl-finite-pushforward]. The diagonal unit
+pure weights by [lem-zl-finite-pushforward] (the finite case of
+[lem-zl-quasi-finite]). The diagonal unit
 $\eta:\mathcal G\to g_*g^*\mathcal G$ is split as follows.
 Write $d=\deg(g)$. Etale-locally the finite etale map $g$ is a
 disjoint union of $d$ copies of the base, so summation on the copies
@@ -54,7 +55,8 @@ glue and commute with Frobenius. They satisfy
 $\operatorname{Tr}\circ\eta=d\operatorname{id}$.
 Since $d$ is invertible in $\Qlb$,
 $d^{-1}\operatorname{Tr}$ is a Weil-equivariant retraction. Thus
-[lem-a1-mixed-direct-summand] descends mixedness.
+[lem-a1-mixed-direct-summand] (a Weil subobject of a mixed sheaf is
+mixed, as in [sk-r-real-linear]) descends mixedness.
 
 For a general constructible sheaf, pass by [i-topology] to the reduction of the
 geometric scheme and form a finite chain of reduced closed subschemes
@@ -89,6 +91,7 @@ them; this gives a mixed filtration even if their weights differ.
 
 Mixed filtrations glue across a closed complement: for an open
 $j:U_0\hookrightarrow X_0$ and closed complement $i:Z_0\hookrightarrow X_0$, use the exact sequence
+of [sk-prop-sf-open-closed-triangle]
 
 $$
 0\longrightarrow j_!j^*\mathcal G\longrightarrow\mathcal G

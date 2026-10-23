@@ -2,21 +2,21 @@
 kind  = "proof"
 of    = "lem-pd-canonical-descent-datum"
 +++
-Write $Y=\Spec(k)$, $X=\Spec(k_s)$ as in [def-pd-separable-closure] and
-let $p_0,p_1:X_2=X\times_YX\to X$ be the two projections, so that
-$X_2=\Spec(k_s\otimes_kk_s)$ is the fibre product of
-[def-pc-base-change]. By [cor-pd-pic0-base-change] applied to
-the composite $X_2\to X\to Y$ the functor
-$\operatorname{Pic}^0_{C_s/k_s}$ pulls back to
-$\operatorname{Pic}^0_{C_{X_2}/X_2}$ along either projection: the two pullbacks
-are the same functor $F_2$, because both are the restriction of the single
-functor $\operatorname{Pic}^0_{C/k}$ on the slice over $X_2$ by
-[cor-pd-pic0-base-change]. By [thm-pd-geometric-pic0] and
-[def-sc-jacobian] the scheme $p_0^*J_s$ represents $F_2$, and so does
-$p_1^*J_s$. Two representing objects of one functor are canonically
-isomorphic, with a unique isomorphism respecting the representing
-identifications: this is the uniqueness argument of
-[lem-sc-jacobian-unique], applied over the base $X_2$. Let
-$\varphi:p_0^*J_s\to p_1^*J_s$ be that unique isomorphism; it is an
-isomorphism of schemes over $X_2$, as required in
-[def-pd-descent-datum].
+Write $\theta_f$ for the bijection between the $T$-points of $V$ over
+$f:T\to X$ and $F(T\xrightarrow{p\circ f}Y)$ given by the representation.
+The transport is $\theta_{f_2}^{-1}\circ\theta_{f_1}$, which makes sense
+because $f_1$ and $f_2$ define the same scheme $T$ over $Y$. Naturality in
+$T$ holds because the $\theta_f$ are natural in $(T,f)$ and $F$ is a
+functor. For $f_1=f_2$ the transport is the identity, and the cocycle
+condition is [lem-pd-descent-cocycle]. So the transports form a descent
+datum in transport form. By the Yoneda lemma this is the same as an
+isomorphism $\varphi:\mathrm{pr}_0^*V\to\mathrm{pr}_1^*V$ over
+$X\times_YX$ satisfying the cocycle condition of [def-pd-descent-datum]
+(Stacks, Tag 023V): $\varphi$ is the transport for the universal pair
+$\mathrm{pr}_0,\mathrm{pr}_1$.
+
+For the special case, take $X=\Spec(k_s)$, $Y=\Spec(k)$ and
+$F=\operatorname{Pic}^0_{C/k}$. By [cor-pd-pic0-base-change] the
+restriction of $F$ to schemes over $\Spec(k_s)$ is
+$\operatorname{Pic}^0_{C_s/k_s}$, which $J_s$ represents by
+[thm-pd-geometric-pic0] and [def-sc-jacobian].

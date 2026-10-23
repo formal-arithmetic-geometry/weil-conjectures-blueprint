@@ -2,7 +2,7 @@
 id = "thm-nagata-two-open"
 kind = "theorem"
 title = "[stacks-project]"
-order = 312
+order = 403
 lean = ["AlgebraicGeometry.HasCompactification.of_two_open_cover"]
 uses = ["def-nagata-compactifiable", "def-nagata-two-open-compactification-candidate", "def-nagata-two-open-final-modification", "lemma-nagata-open-immersion-qc-over-separated-target", "lemma-nagata-two-open-candidate-proper", "lemma-nagata-two-open-final-modification"]
 +++

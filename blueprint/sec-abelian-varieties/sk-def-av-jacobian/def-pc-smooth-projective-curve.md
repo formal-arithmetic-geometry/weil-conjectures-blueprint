@@ -3,7 +3,7 @@ id = "def-pc-smooth-projective-curve"
 kind = "definition"
 title = "Smooth projective curves"
 lean = ["AlgebraicGeometry.IsSmoothProjectiveCurve"]
-order = 460
+order = 478
 uses = ["def-pc-curve", "def-pc-projective-morphism", "def-weil-scheme-morphism-properties"]
 +++
 Let $k$ be a field. A *smooth projective curve over $k$* is a

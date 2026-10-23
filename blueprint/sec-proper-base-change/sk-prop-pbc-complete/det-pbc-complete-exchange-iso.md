@@ -2,8 +2,8 @@
 id = "det-pbc-complete-exchange-iso"
 kind = "lemma"
 title = "The completed exchange map is an isomorphism"
-order = 1402
-uses = ["det-pbc-complete-exchange-map", "det-pbc-complete-tower-calculus", "sk-cor-pbc-proet-finite"]
+order = 2044
+uses = ["det-pbc-complete-exchange-map", "thm-weil-pbc-finite-level-proetale"]
 +++
 In the cartesian square of [det-pbc-complete-exchange-map], assume $p$ proper,
 and let $K\in D(X_{\mathrm{proét}},\mathcal O_E)$ be such that each reduction

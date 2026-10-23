@@ -2,6 +2,7 @@
 id = "det-sf-comp-composition-base-change"
 kind = "lemma"
 title = "Base change for $Rf_!$ on the localizing category"
+order = 2289
 uses = ["det-sf-comp-coherence-single", "det-sf-comp-coherence-cocycle", "sk-prop-proper-base-change-unbounded"]
 +++
 Let $\Lambda$ be admissible, let $f:X\to Y$ be separated of finite type, let

@@ -2,11 +2,11 @@
 id = "rem-sfb-what-lambda-x"
 kind = "remark"
 title = "What $\\Lambda_X$ is"
-order = 1678
+order = 2502
 +++
 Let $T\in\{\mathbb Z_\ell,\mathbb Q_\ell,\cO_E,E\}$, and let $\underline T_X$
 be the pullback of $\underline T$ from the point
-([sk-def-sfb-pulled-back-coefficients]). One expects that
+([det-def-sfb-pulled-back-coefficients]). One expects that
 $$
 \underline T_X(U)=C(|U|,T)\qquad\text{for all }U\in X_{\mathrm{proét}} .
 $$

@@ -3,7 +3,7 @@ id = "sk-prop-av-isogeny"
 kind = "proposition"
 title = "The multiplication-by-$n$ isogeny"
 lean = ["AlgebraicGeometry.isIsogeny_npow_id", "AlgebraicGeometry.isogenyDegree_npow_id", "AlgebraicGeometry.isFiniteLocallyFreeOfDegree_npow_id", "AlgebraicGeometry.flat_torsionSubgroupScheme", "AlgebraicGeometry.finrankΓ_torsionSubgroupScheme"]
-order = 555
+order = 581
 uses = ["sk-def-av", "sk-def-av-ample-degree", "sk-def-av-isogeny", "sk-def-av-mult-n", "sk-prop-av-deg-pullback", "sk-prop-av-isogeny-degree", "sk-prop-av-mult-finite", "sk-prop-av-mult-n-pullback", "sk-prop-av-projective", "sk-prop-av-symmetric-ample"]
 tags = ["sketch"]
 +++

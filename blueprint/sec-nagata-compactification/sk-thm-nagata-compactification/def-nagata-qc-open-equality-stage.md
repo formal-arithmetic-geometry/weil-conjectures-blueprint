@@ -2,7 +2,7 @@
 id = "def-nagata-qc-open-equality-stage"
 kind = "definition"
 title = "Stage of equality for descended quasi-compact opens"
-order = 356
+order = 48
 lean = ["AlgebraicGeometry.baseChangeQcOpenEqStage"]
 uses = ["def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++

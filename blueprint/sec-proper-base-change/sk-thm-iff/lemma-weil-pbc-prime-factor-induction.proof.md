@@ -1,27 +1,17 @@
 +++
 kind  = "proof"
 of    = "lemma-weil-pbc-prime-factor-induction"
+uses = ["lem-weil-pbc-prime-factor-devissage", "lemma-weil-pbc-five-lemma-transfer"]
 +++
-Induct on $\nu(n)=\sum_\ell v_\ell(n)$, the number of prime factors of $n$. If
-$n=1$ then $F=0$ is killed by any prime. Otherwise choose a prime $\ell\mid n$
-and use the short exact sequence
-$0\to F[\ell]\to F\xrightarrow{\ell}\ell F\to0$.
-The kernel is killed by $\ell$, while $\ell F$ is killed by $n/\ell$ and
-therefore has fewer prime factors in its exponent. Let
-$C(E)=\operatorname{Cone}(\operatorname{Ex}_{\square,E})$, so that
-$\Ex^q_{\square,E}$ is an isomorphism for every $q$ exactly when $C(E)$ is
-acyclic, and use the cohomological cone convention
-$d_{C}(y,x)=(d_Yy+u(x),-d_Xx)$. Applying the two derived functors to the
-short exact sequence gives a morphism of distinguished triangles given by the
-exchange maps and, by the octahedral axiom, a triangle
-
-$$
-C(F[\ell])\longrightarrow C(F)\longrightarrow
-C(\ell F)\xrightarrow{+1}C(F[\ell])[1].
-$$
-
-The connecting map is the class of $(y,x)\mapsto y$ in the above cone
-convention; the sign in the last arrow is forced by $d_C^2=0$. The cone
-$C(F[\ell])$ is acyclic by hypothesis and $C(\ell F)$ by induction, so the long
-exact cohomology sequence of this triangle makes $C(F)$ acyclic. The base
-$\nu(n)=1$ is the prime-torsion hypothesis.
+Let $P(E)$ be the property that $\Ex^q_{\square,E}$ is an isomorphism for every
+$q$. By the five-lemma transfer [lemma-weil-pbc-five-lemma-transfer], $P$ is
+stable under extensions: if $0\to F_1\to F\to F_2\to0$ is exact and $P$ holds
+for $F_1$ and $F_2$, it holds for $F$. By hypothesis $P$ holds for every sheaf
+killed by a prime. The prime-factor devissage
+[lem-weil-pbc-prime-factor-devissage] in the abelian category of sheaves of
+$\Lambda$-modules on $X_{\Et}$ then gives $P(F)$ for every $F$ killed by a
+positive integer $n$. Explicitly, one inducts on the number of prime factors of
+$n$: for $n=1$ the sheaf $F=0$ is killed by any prime, and otherwise, for a
+prime $\ell\mid n$, the sequence $0\to F[\ell]\to F\xrightarrow{\ell}\ell F\to0$
+has kernel killed by $\ell$ and image killed by $n/\ell$, so $P$ holds for both
+ends and hence for $F$.

@@ -2,13 +2,14 @@
 id = "thm-sf-identification"
 kind = "theorem"
 title = "The pairing is the duality isomorphism"
-order = 2530
+order = 3313
 uses = ["def-sf-cup", "def-sf-orientation", "def-sf-pairing", "def-sf-pf", "lem-sf-detection", "lem-sf-mate", "lem-sf-tensor-hom", "lem-sf-twist-interchange", "thm-sf-global-duality"]
 +++
-In the setting of [def-sf-pairing] — so $X$ satisfies the hypotheses of
-[thm-sf-global-duality]: $X$ is proper, or $X=X_0\times_{k_0}k$ with $X_0$
-smooth, separated of finite type and geometrically connected, and no
-properness is required in the latter case — suppose in addition that $K$ is
+In the setting of [def-sf-pairing] — so $k$ is separably closed and $X$
+satisfies the hypotheses of [thm-sf-global-duality]: $X$ is proper, or
+$X=X_0\times_{k_0}k$ with $X_0$ smooth, separated of finite type and
+geometrically connected, and no properness is required in the latter case —
+suppose in addition that $K$ is
 perfect over $\Lambda_X$ and that the orientation of
 [def-sf-orientation] is fixed. Then the tensor–internal-Hom adjoint of
 $\beta_K$ is the canonical isomorphism

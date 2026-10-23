@@ -2,13 +2,14 @@
 id = "lem-weil-pbc-derived-cohomology-continuity"
 kind = "lemma"
 title = "Continuity for bounded-below etale complexes"
-order = 1306
-uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-etale-cohomology-continuity", "prop-weil-pbc-inverse-image-exact", "thm-weil-pbc-hypercover-cohomology"]
+order = 1030
+lean = ["AlgebraicGeometry.derivedEtaleCohomology_limit"]
+uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-etale-cohomology-continuity", "prop-weil-pbc-inverse-image-exact"]
 +++
 Let $X=\varprojlim_jX_j$ be a cofiltered system of quasi-compact
 quasi-separated schemes [def-weil-pbc-scheme-conventions] with affine
-transition maps. For a finite ring $\Lambda$, let $K_i\in\Dplus(X_{i,\Et},
-\Lambda)$ and let $K_j,K$ be its inverse images
+transition maps. Let $K_i\in\Dplus(X_{i,\Et})$ be a bounded-below complex of
+abelian sheaves and let $K_j,K$ be its inverse images
 [def-weil-pbc-inverse-image]. Then the canonical restriction map is an
 isomorphism
 

@@ -2,6 +2,7 @@
 id = "det-tf-transverse-corner-constant"
 kind = "lemma"
 title = "Constant coefficients near a transverse corner"
+order = 3519
 uses = ["thm-pur-finite-coefficient-smooth-purity", "lem-sc-affine-cohomological-dimension", "def-sc-kummer-sequence"]
 +++
 Let $S$ be the strict localization at a closed point $z$ of a smooth

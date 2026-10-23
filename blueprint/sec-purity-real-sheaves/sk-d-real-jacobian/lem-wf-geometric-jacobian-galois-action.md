@@ -3,7 +3,7 @@ id = "lem-wf-geometric-jacobian-galois-action"
 kind = "lemma"
 title = "Canonical semilinear Galois action on the geometric Jacobian"
 lean = ["AlgebraicGeometry.exists_jacobian_galoisAction"]
-order = 2953
+order = 3829
 uses = ["def-sc-jacobian", "def-sc-picard-functor", "def-wf-abelian-tate-module", "lem-pc-representable-unique", "lem-sc-jacobian-unique", "thm-pd-jacobian-general-field", "thm-sc-jacobian-representability"]
 +++
 Let $C_0/k_0$ be a smooth projective geometrically connected curve, put

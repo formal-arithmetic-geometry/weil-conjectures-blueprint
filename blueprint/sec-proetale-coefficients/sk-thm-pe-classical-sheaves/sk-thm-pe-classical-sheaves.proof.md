@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-thm-pe-classical-sheaves"
-uses = ["det-pe-classical-sheaves-unit", "det-pe-classical-sheaves-image", "det-pe-classical-sheaves-modules"]
+uses = ["det-pe-classical-sheaves-unit", "det-pe-classical-sheaves-modules", "sk-prop-pe-comparison-morphism", "sk-prop-pe-affine-basis"]
 +++
 Evaluation on étale objects gives $F\xrightarrow{\sim}\nu_{X,*}\nu_X^*F$ in
 $\Sh(X_{\Et})$, hence full faithfulness ([det-pe-classical-sheaves-unit]), and
@@ -15,7 +15,6 @@ $$
 $$
 
 which is an isomorphism because $G$ is classical. Since pro-étale affines form a
-covering basis, the counit is an isomorphism of sheaves
-([det-pe-classical-sheaves-image]). The module statement follows because
+covering basis ([sk-prop-pe-affine-basis]), the counit is an isomorphism of sheaves. The module statement follows because
 $\nu_X^*$ is exact and both adjoint functors preserve module structures
 ([det-pe-classical-sheaves-modules]).

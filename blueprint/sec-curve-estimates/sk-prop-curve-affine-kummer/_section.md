@@ -2,13 +2,14 @@
 id = "sk-prop-curve-affine-kummer"
 kind = "proposition"
 title = "Cohomology of a smooth affine curve"
-order = 885
-uses = ["sk-def-curve", "sk-def-kummer", "sk-def-pic", "sk-thm-curveestimate"]
+order = 1439
+lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.injective_restrictH1", "AlgebraicGeometry.Scheme.EtaleTorsor.range_restrictH1_eq_ker_residueH1", "AlgebraicGeometry.IsConnectedCurve.sheafH_constantZMod_of_isAffine", "AlgebraicGeometry.IsConnectedCurve.natCard_sheafH_one_constantZMod_mul", "AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap_of_isAffine"]
+uses = ["sk-def-curve", "sk-thm-curveestimate"]
 tags = ["sketch"]
 +++
 Let $\overline C$ be a smooth proper connected curve of genus $g$ over an
-algebraically closed field. Let $U=\overline C\setminus D$, where $D$
-consists of $r\geq1$ closed points, and let $n$ be invertible. There is a
+algebraically closed field $k$. Let $U=\overline C\setminus D$, where $D$
+consists of $r\geq1$ closed points, and let $n$ be invertible in $k$. There is a
 natural exact sequence (the *residue sequence*)
 
 $$

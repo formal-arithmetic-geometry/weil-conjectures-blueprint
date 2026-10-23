@@ -2,6 +2,7 @@
 id = "det-geo-open-finiteness-ii-amplitude"
 kind = "lemma"
 title = "Bounded amplitude of open direct image on classical torsion sheaves"
+order = 2388
 uses = ["def-kun-cd", "lem-kun-0f10", "def-weil-pbc-site-comparison-morphism", "prop-weil-pbc-site-comparison-finite-level", "prop-weil-pbc-comparison-direct-image"]
 +++
 Let $k$ be a field, let $\Lambda$ be a finite ring with $\ell^r\Lambda=0$ for

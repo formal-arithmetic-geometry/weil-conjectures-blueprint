@@ -2,7 +2,7 @@
 id = "sk-lem-sbc-exchange-compatibility"
 kind = "lemma"
 title = "Naturality, pasting and comparison"
-order = 1424
+order = 2049
 uses = ["sk-def-exchange", "sk-thm-pe-direct-image-comparison"]
 tags = ["sketch"]
 +++

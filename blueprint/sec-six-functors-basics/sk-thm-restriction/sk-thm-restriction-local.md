@@ -2,6 +2,7 @@
 id = "det-thm-restriction-local"
 kind = "lemma"
 title = "Local factorization of $f^!$ on an affine chart"
+order = 2450
 uses = ["sk-lem-sf-mate", "sk-cor-affine-space-rational", "sk-prop-closed-adjoint-constructible"]
 +++
 Let $\Lambda=E$ or $\Qlb$ and let $f:X\to Y$ be separated of finite type. Let

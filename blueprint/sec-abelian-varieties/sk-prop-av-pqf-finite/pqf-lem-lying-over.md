@@ -2,7 +2,7 @@
 id = "pqf-lem-lying-over"
 kind = "lemma"
 title = "Lying over for an injective integral extension"
-order = 537
+order = 553
 lean = ["Ideal.nonempty_primesOver", "Ideal.exists_ideal_over_prime_of_isIntegral"]
 +++
 Let $A\hookrightarrow B$ be an injective integral map of rings. Then

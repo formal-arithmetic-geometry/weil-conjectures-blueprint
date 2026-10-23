@@ -2,7 +2,8 @@
 id = "det-def-sfb-constructible-local-model"
 kind = "definition"
 title = "Finite constant local models"
-uses = ["def-sfb-locally-finitely-presented", "def-sfb-finitely-presented-module", "sk-def-sfb-pulled-back-coefficients", "def-weil-pbc-proetale-site"]
+order = 1243
+uses = ["def-sfb-locally-finitely-presented", "def-sfb-finitely-presented-module", "det-def-sfb-pulled-back-coefficients", "def-weil-pbc-proetale-site"]
 +++
 Let $\Lambda$ be a commutative condensed ring with scalar ring $\Lambda(*)$, the ring of
 sections over the one-point profinite set, and let $X$ be a scheme. For $U\in X_{\mathrm{proét}}$

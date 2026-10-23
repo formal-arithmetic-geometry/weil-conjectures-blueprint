@@ -2,6 +2,7 @@
 id = "det-ind-heart-ii-vanishing"
 kind = "lemma"
 title = "Uniform vanishing on ind-constructible targets"
+order = 2234
 uses = ["sk-lem-constructible-ext-continuity", "sk-lem-uniform-constructible-ext", "sk-prop-ind-heart"]
 +++
 Let $\Lambda=E$ or $\Qlb$, $C\in\Cons(X,\Lambda)$ and $B\in\IndCons(X,\Lambda)$. For every $q$,
