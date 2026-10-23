@@ -2,7 +2,12 @@
 kind  = "proof"
 of    = "lem-kun-0f09"
 +++
-*Step 1 (the sheaf case).* Let $F$ be an abelian sheaf on
+*Step 1 (the sheaf case).* The assertion is local on $S$: for an open
+$V\subseteq S$ the restriction of the square over $V$ is the square of the
+same form for $S_i\times_SV$ and $f^{-1}(V)\to V$, and the formation of
+$Rf_*$ and of the inverse images commutes with restriction to opens. So we
+may assume $S$ affine; then $S$, every $S_i$ and every $X\times_SS_i$ are
+quasi-compact and quasi-separated ($f$ being so), as [lem-kun-0ezt] requires. Let $F$ be an abelian sheaf on
 $X_{\Et}$ with torsion stalks of orders invertible on $S$, and fix
 $p\ge0$. For every $i$ form the cartesian square
 

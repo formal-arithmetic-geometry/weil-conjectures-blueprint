@@ -8,8 +8,9 @@ uses = ["cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-used-class", "d
 The condition [def-weil-full-cohomological-dimension] quantifies over
 *all* sheaves of $A$-modules on $\overline X_{\Proet}$, and it is by
 [lem-sf-fullcd-detection-equivalence] equivalent to a uniform bound on
-the cohomological dimension of the pro-étale sites of the base-changed
-sources. Two forms of that condition must be distinguished.
+the cohomological dimension of the pro-étale sites of the sources
+$\overline X\times_YW$ base-changed to the affine weakly contractible
+objects $W$ over the base changes $V\to Y$. Two forms of that condition must be distinguished.
 
 1. *On the blueprint's coefficient class it is a theorem*, with the
 bound $2\dim\overline X$ and uniformly over the base changes: this is
@@ -38,10 +39,9 @@ origin – with $R^q\nu_{U,*}F_G\neq0$ for some $q>M$. What the recorded
 tools do and do not bound is the following. The
 recorded tools do not bound it: by
 [lem-sf-fullcd-detection-equivalence] the condition is the vanishing of
-the pro-étale cohomology of the base-changed source
-$\overline X\times_YV$, tested by
-[lem-sf-proetale-vanishing-detection] at the affine weakly contractible
-objects $W\to V$ — the form of the test recorded in
+the pro-étale cohomology of the base-changed sources
+$\overline X\times_YW$ for the affine weakly contractible objects
+$W\to V$ of the test of [lem-sf-proetale-vanishing-detection] — the form of the test recorded in
 [cor-sf-fullcd-weakly-contractible-test] — and the object
 $\overline X\times_YW$ that appears is
 the base change of $W$ along the proper morphism $p$, which is *not*
@@ -240,7 +240,8 @@ for *every* sheaf $\mathcal F$ of $A$-modules on
 $\overline X_{\Proet}$, uniformly over the base changes $V\to Y$ of
 $Y_{\Proet}$; equivalently, by
 [lem-sf-fullcd-detection-equivalence], the uniform bound on the
-pro-étale cohomology of the base-changed sources. That assertion is
+pro-étale cohomology of the sources $\overline X\times_YW$ base-changed to
+the affine weakly contractible objects $W$. That assertion is
 *false*: *The all-sheaves, uniform-in-the-base-change form of the comparison bound is false* exhibits an object
 $U\to X_0$ of $X_{0,\Proet}$ and a sheaf $F_G$ of $A$-modules on
 $U_{\Proet}$ with $R^q\nu_{U,*}F_G\neq0$ for arbitrarily large $q$, the

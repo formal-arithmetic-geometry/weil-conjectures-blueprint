@@ -35,7 +35,8 @@ are discrete valuation rings (for a closed point: regular local of
 dimension one, [lem-sc-smooth-regular],
 [lem-sc-regular-dim1-dvr], applied to the smooth curves
 $\mathbf P^1_k$ and $C$; for the generic point: the fields
-$k(t)\subseteq k(C)$), and $R\to B$ is finite flat. For such
+$k(t)\subseteq k(C)$), and $R\to B$ is finite flat, generically separable by the separability
+hypothesis on $f$. For such
 $R\to B$ the local theorem of the codifferent (commutative
 algebra, classical) gives the canonical isomorphism
 
