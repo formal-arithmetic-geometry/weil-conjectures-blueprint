@@ -2,11 +2,11 @@
 id = "lem-weil-derived-direct-image-composition"
 kind = "lemma"
 title = "Composition of derived direct images"
-order = 1829
-uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-kinjective-resolutions", "lem-sp-kinjective-computes", "lem-weil-pbc-direct-image-preserves-injectives", "sk-def-sfb-module-pushforward-pullback", "sk-prop-sfb-module-pullback-exact", "def-sfb-module-lower-star-comp"]
+order = 1950
+lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerStarComp", "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComp_id_left", "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComp_id_right", "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComp_assoc", "AlgebraicGeometry.Etale.rightDerivedLowerStarComp", "AlgebraicGeometry.ProEtale.CondensedRing.leftDerivedUpperStarComp", "AlgebraicGeometry.ProEtale.CondensedRing.leftDerivedUpperStarComp_assoc_app", "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerStarComp"]
+uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-sp-kinjective-bridge", "lem-sp-kinjective-computes", "lem-weil-pbc-direct-image-preserves-injectives", "def-sfb-module-upper-lower-adjunction", "det-prop-sfb-module-pullback-exact-main", "def-sfb-module-lower-star-comp"]
 +++
-Let $X\xrightarrow{f}Y\xrightarrow{g}Z$ be morphisms of schemes on which
-$\ell$ is invertible, and use the derived direct images of
+Let $X\xrightarrow{f}Y\xrightarrow{g}Z$ be morphisms of schemes, and use the derived direct images of
 [def-weil-derived-direct-image]. There is a canonical isomorphism
 
 $$
@@ -21,7 +21,8 @@ ring $\Lambda$, and on the étale site. The cases used later are:
 1. for $\Lambda=\mathcal O_E$;
 1. for $\Lambda=E$;
 1. for $\Lambda=\Qlb$;
-1. on the small étale site, for any ring $A$, as functors
+1. on the small étale site, for any ring $A$ (more generally for sheaves with
+values in a Grothendieck abelian category), as functors
 $D(X_{\mathrm{et}},A)\to D(Z_{\mathrm{et}},A)$ between the ordinary
 derived categories of étale sheaves of $A$-modules.
 

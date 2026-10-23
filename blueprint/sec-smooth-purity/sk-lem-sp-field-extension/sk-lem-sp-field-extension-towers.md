@@ -2,6 +2,7 @@
 id = "det-sp-field-extension-towers"
 kind = "lemma"
 title = "Integral comparisons for a finite extension of coefficient fields"
+order = 3033
 uses = ["det-sp-reduction-direct-image", "det-sp-reduction-exceptional", "det-sp-reduction-compatibilities", "det-sp-integral-adjunction-bijection", "det-sp-rational-localized-hom"]
 +++
 Let $E\subset F$ be finite extensions of $\Ql$, $f:X\to Y$ smooth of pure

@@ -2,7 +2,7 @@
 id = "sk-thm-int-restriction"
 kind = "theorem"
 title = "$f^!$ preserves integral constructible complexes"
-order = 1574
+order = 2480
 uses = ["sk-prop-int-brown", "sk-prop-diagonal-tower", "sk-thm-sf-pf-adic", "sk-prop-p1-adjunction-rational", "sk-cor-affine-space-rational", "sk-prop-closed-adjoint-constructible", "sk-thm-restriction"]
 tags = ["sketch"]
 +++

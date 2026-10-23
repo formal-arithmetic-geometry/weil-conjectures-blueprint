@@ -2,6 +2,7 @@
 id = "det-pd-biduality-finite-support"
 kind = "lemma"
 title = "The cone of the double-dual morphism has finite support"
+order = 3299
 uses = ["lem-weil-duality-pairing"]
 +++
 Let $A$ be a finite coefficient ring and $d\geq1$. Assume that for every

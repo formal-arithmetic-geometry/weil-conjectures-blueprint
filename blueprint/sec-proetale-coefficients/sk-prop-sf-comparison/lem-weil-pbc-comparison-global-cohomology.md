@@ -2,10 +2,11 @@
 id = "lem-weil-pbc-comparison-global-cohomology"
 kind = "lemma"
 title = "Comparison of global cohomology"
-order = 1355
+order = 1032
+lean = ["AlgebraicGeometry.ProEtale.comparisonLowerStarCompRightDerivedGlobalSectionsIso", "AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app", "AlgebraicGeometry.ProEtale.rightDerivedGlobalSectionsFunctorComparisonUpperStarObjIso"]
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-cohomology", "def-weil-pbc-site-comparison-morphism", "prop-weil-pbc-site-comparison-finite-level", "thm-weil-pbc-site-comparison"]
 +++
-For finite $\Lambda$ and $K\in\Dplus(T_{\Et},\Lambda)$, the derived unit
+For a ring $\Lambda$ and $K\in\Dplus(T_{\Et},\Lambda)$, the derived unit
 induces a natural isomorphism
 
 $$

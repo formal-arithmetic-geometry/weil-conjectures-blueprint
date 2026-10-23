@@ -2,11 +2,11 @@
 id = "def-sfb-dc-hom"
 kind = "definition"
 title = "$\\RHom$ on $D_{\\mathrm{cons}}$"
-order = 1790
-uses = ["lem-sfb-dc-hom-preserves", "sk-def-sfb-derived-tensor-hom"]
+order = 2636
+uses = ["lem-sfb-dc-hom-preserves", "det-def-sfb-derived-tensor-hom"]
 +++
 Let $X$ be a scheme of the setting, and let $\Lambda$ be a commutative condensed ring such that
-the derived internal hom $\RHom_{\Lambda_X}(-,-)$ of [sk-def-sfb-derived-tensor-hom] carries pairs
+the derived internal hom $\RHom_{\Lambda_X}(-,-)$ of [det-def-sfb-derived-tensor-hom] carries pairs
 of bounded constructible complexes to bounded constructible complexes. By
 [lem-sfb-dc-hom-preserves] this holds for $\Lambda=\underline{\cO}_E,\underline E,\underline{\Qlb}$.
 The derived internal hom

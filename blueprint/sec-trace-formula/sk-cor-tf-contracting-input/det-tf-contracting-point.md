@@ -2,6 +2,7 @@
 id = "det-tf-contracting-point"
 kind = "lemma"
 title = "The restricted correspondence at a point"
+order = 3620
 uses = ["det-tf-contracting-restricted-morphism", "lem-trf-local-term-point", "def-trf-graph-correspondence"]
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be a correspondence of separated finite-type schemes over an

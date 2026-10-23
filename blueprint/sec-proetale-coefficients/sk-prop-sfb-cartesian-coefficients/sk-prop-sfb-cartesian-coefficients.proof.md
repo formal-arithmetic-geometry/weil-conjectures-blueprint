@@ -1,14 +1,14 @@
 +++
 kind  = "proof"
 of    = "sk-prop-sfb-cartesian-coefficients"
-uses = ["sk-def-sfb-pullback-from-point-comp"]
+uses = ["sk-prop-sfb-qlbar-colimit-x"]
 +++
 (1) For every condensed ring $\Lambda$, the identity $p_Y\circ f=p_X$ gives
 $$
 f^{-1}\Lambda_Y=f^{-1}p_Y^*\Lambda\simeq p_X^*\Lambda=\Lambda_X,
 $$
 which gives the assertion uniformly, including finite $A$. This is [lem-sfb-alpha-iso]:
-$\alpha_f$ is a component of the natural isomorphism of [sk-def-sfb-pullback-from-point-comp].
+$\alpha_f$ is a component of the natural isomorphism of [det-def-sfb-pullback-from-point-comp].
 Its compatibility with identities and composition, in the adjoint form $\eta_f$, is
 [lem-sfb-eta-id] and [lem-sfb-eta-comp].
 

@@ -2,25 +2,26 @@
 kind = "proof"
 of = "det-pe-milnor-sequence"
 +++
-For a map of complexes $\varphi\colon A\to B$, the triangle
-$\operatorname{Cone}(\varphi)[-1]\to A\xrightarrow{\varphi}B\to\operatorname{Cone}(\varphi)$
+The distinguished triangle
+$R\varprojlim_nF_n\xrightarrow{p}\prod_nF_n\xrightarrow{1-T}\prod_nF_n\to R\varprojlim_nF_n[1]$
 gives the long exact sequence
 
 $$
-\cdots\to H^{q-1}(A)\xrightarrow{H^{q-1}\varphi}H^{q-1}(B)\to
-H^q(\operatorname{Cone}(\varphi)[-1])\to H^q(A)\xrightarrow{H^q\varphi}H^q(B)\to\cdots,
+\cdots\to H^{q-1}\bigl(\textstyle\prod_nF_n\bigr)\xrightarrow{H^{q-1}(1-T)}
+H^{q-1}\bigl(\textstyle\prod_nF_n\bigr)\to H^q\bigl(R\varprojlim_nF_n\bigr)\xrightarrow{H^qp}
+H^q\bigl(\textstyle\prod_nF_n\bigr)\xrightarrow{H^q(1-T)}H^q\bigl(\textstyle\prod_nF_n\bigr)\to\cdots,
 $$
 
 hence the short exact sequence
-$0\to\coker H^{q-1}\varphi\to H^q(\operatorname{Cone}(\varphi)[-1])\to\ker H^q\varphi\to0$.
-Apply this with $A=B=\prod_nK_n$ and $\varphi=1-T$. By [det-pe-products-derived],
-$H^q(\prod_nK_n)=\prod_nH^q(K_n)$, and under this identification $H^q(1-T)$ is $1-T$ for
-the tower $(H^q(K_n))_n$. Its kernel consists of the families $(h_n)$ with
-$h_n=t_n(h_{n+1})$, i.e. it is $\varprojlim_nH^q(K_n)$ (limits of sheaves being computed
-sectionwise). This proves 1.
+$0\to\coker H^{q-1}(1-T)\to H^q(R\varprojlim_nF_n)\to\ker H^q(1-T)\to0$. Countable products
+in $\mathcal C$ are exact, so by [det-pe-products-derived] products in $D(\mathcal C)$ are
+termwise and $H^q(\prod_nF_n)=\prod_nH^q(F_n)$; under this identification $H^q(1-T)$ is $1-T$
+for the tower $(H^q(F_n))_n$. Its kernel consists of the families $(h_n)$ with
+$h_n=t_n(h_{n+1})$, i.e. it is $\varprojlim_nH^q(F_n)$, and the map to it is induced by the
+legs of the cone. This proves 1.
 
-For 2, $\prod_nM_n$ is concentrated in degree $0$, so $\operatorname{Cone}(1-T)[-1]$ is the
-two-term complex $\prod_nM_n\xrightarrow{1-T}\prod_nM_n$ in degrees $0$ and $1$. Its
-$H^0$ is $\ker(1-T)=\varprojlim_nM_n$, its $H^1$ is $\coker(1-T)$, and all other
-cohomology vanishes. Statement 3 is 1 combined with 2 applied to the tower
-$(H^{q-1}(K_n))_n$.
+For 2, the terms $M_n$ lie in degree $0$, so the product $\prod_nM_n$ lies in degree $0$ and,
+by the long exact sequence, $R\varprojlim_nM_n$ lies in degrees $[0,1]$. In the sequence of 1,
+for $q=0$ the cokernel term is $0$ and the limit term is $\varprojlim_nM_n$; for $q=1$ the
+cokernel term is $R^1\varprojlim_nM_n$ and the limit term is $0$. Statement 3 is 1 combined
+with the definition of $R^1\varprojlim$ applied to the tower $(H^{q-1}(F_n))_n$.

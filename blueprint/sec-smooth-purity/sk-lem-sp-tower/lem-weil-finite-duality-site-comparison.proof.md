@@ -51,4 +51,4 @@ The Hom comparisons are defined by evaluation, so they identify its
 transpose, the double-dual map, as well. Finally the equivalence of
 bounded constructible categories is
 [lem-sf-proetale-constructible-origin], and finite Tor intervals
-are preserved and detected by [lem-sf-comparison-tor-amplitude].
+are preserved and detected by [lem-exc-comparison-tor-interval].

@@ -2,8 +2,4 @@
 kind = "proof"
 of = "def-weil-pbc-arrows-functor"
 +++
-For arrows_map_id, apply function extensionality to an arrow a and simplify the identity functor map and Arrow.mk.
-
-For arrows_map_comp, apply function extensionality to an arrow a; both sides reduce definitionally to Arrow.mk of the composite functor map.
-
-Define arrows with Arrow as the object assignment and the image-arrow function as the map; the functor laws follow by congrArg from the two preceding equalities.
+The map on objects is $C\mapsto\mathrm{Arrows}(C)$ and on morphisms $v\mapsto\mathrm{Arrows}(v)$. For the identity functor, $\mathrm{Arrows}(\mathrm{id}_C)(X,Y,f)=(X,Y,f)$, so $\mathrm{Arrows}(\mathrm{id}_C)=\mathrm{id}$. For functors $v:C\to D$ and $w:D\to E$, both $\mathrm{Arrows}(w\circ v)$ and $\mathrm{Arrows}(w)\circ\mathrm{Arrows}(v)$ send $(X,Y,f)$ to $(wvX,wvY,wvf)$, so they agree. Hence $\mathrm{Arrows}$ is a functor.

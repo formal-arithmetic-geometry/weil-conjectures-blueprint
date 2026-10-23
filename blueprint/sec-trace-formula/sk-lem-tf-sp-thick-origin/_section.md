@@ -2,7 +2,7 @@
 id = "sk-lem-tf-sp-thick-origin"
 kind = "lemma"
 title = "A thickened origin"
-order = 2647
+order = 3578
 uses = ["sk-lem-tf-sp-defect-exchanges", "sk-lem-tf-sp-dnc-functorial", "sk-lem-tf-sp-constant-family"]
 tags = ["sketch"]
 +++

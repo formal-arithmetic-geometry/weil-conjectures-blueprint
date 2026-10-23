@@ -2,7 +2,7 @@
 id = "sk-def-pairing-data"
 kind = "definition"
 title = "The pairing data"
-order = 2755
+order = 3450
 uses = ["sk-def-ops", "sk-def-sf-orientation"]
 lean = ["AlgebraicGeometry.Etale.mixedSupportCupProduct", "AlgebraicGeometry.Etale.smoothTrace", "AlgebraicGeometry.Etale.TateOrientation.smoothTrace"]
 tags = ["sketch"]

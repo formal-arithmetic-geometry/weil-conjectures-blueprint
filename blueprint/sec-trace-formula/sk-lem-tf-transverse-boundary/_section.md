@@ -2,7 +2,7 @@
 id = "sk-lem-tf-transverse-boundary"
 kind = "lemma"
 title = "Transverse boundary calculation"
-order = 2625
+order = 3518
 uses = ["sk-prop-curve-affine-kummer"]
 tags = ["sketch"]
 +++

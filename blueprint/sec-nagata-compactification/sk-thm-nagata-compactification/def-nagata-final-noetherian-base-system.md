@@ -3,7 +3,7 @@ id = "def-nagata-final-noetherian-base-system"
 kind = "definition"
 title = "Noetherian base system used in the final assembly"
 lean = ["AlgebraicGeometry.Scheme.noetherianBaseSystem"]
-order = 378
+order = 69
 uses = ["def-nagata-noetherian-inverse-system", "prop-nagata-noetherian-inverse-system"]
 +++
 Let $S$ be quasi-compact and quasi-separated. Choose a Noetherian

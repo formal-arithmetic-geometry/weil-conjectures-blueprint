@@ -2,7 +2,7 @@
 id = "def-nagata-glued-limit-comparison"
 kind = "definition"
 title = "Comparison from the original scheme to the inverse limit"
-order = 344
+order = 36
 lean = ["AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.stageCone"]
 uses = ["def-nagata-noetherian-inverse-system"]
 +++

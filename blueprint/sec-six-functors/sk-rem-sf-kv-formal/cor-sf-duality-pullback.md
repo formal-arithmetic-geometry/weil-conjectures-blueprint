@@ -2,12 +2,13 @@
 id = "cor-sf-duality-pullback"
 kind = "theorem"
 title = "Duality against pullback"
-order = 2574
+order = 3374
 tags = ["latex:corollary"]
-uses = ["def-sf-datum", "def-sf-orientation", "fix-prop-adjunctions", "lem-sf-mate", "thm-fix-general-biduality", "thm-sf-verdier-exchange"]
+uses = ["def-sf-datum", "def-sf-orientation", "fix-prop-adjunctions", "lem-sf-mate", "lem-sf-verdier-biduality-equivalence", "thm-sf-verdier-exchange"]
 +++
-In the setting of [def-sf-datum], let $f:X\to Y$ be separated of finite
-type. Then
+In the setting of [def-sf-datum], assume moreover that $k$ is algebraically
+closed and that the exponent of $\Lambda$ is invertible in $k$, and let
+$f:X\to Y$ be separated of finite type. Then
 
 $$
 D_XLf^*\xrightarrow{\ \sim\ }Rf^!D_Y

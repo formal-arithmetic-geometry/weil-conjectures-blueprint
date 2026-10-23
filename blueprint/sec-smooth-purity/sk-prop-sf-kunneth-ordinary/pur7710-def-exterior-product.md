@@ -2,7 +2,7 @@
 id = "pur7710-def-exterior-product"
 kind = "definition"
 title = "The derived exterior product at finite level"
-order = 1992
+order = 3085
 uses = ["sk-thm-sf-comp-composition"]
 +++
 Let $X,Y$ be $k$-schemes, $Z=X\times_kY$, with projections $p_X:Z\to X$, $p_Y:Z\to Y$. For $K\in D(X_{\Et},\mathcal O_E/\pi_E^n)$ and $L\in D(Y_{\Et},\mathcal O_E/\pi_E^n)$, define

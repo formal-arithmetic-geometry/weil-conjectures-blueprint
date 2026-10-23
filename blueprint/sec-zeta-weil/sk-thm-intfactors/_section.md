@@ -1,23 +1,41 @@
 +++
 id = "sk-thm-intfactors"
 kind = "theorem"
-title = "Integral Frobenius factors"
-order = 3243
+title = "Integral factors and independence of the prime"
+order = 4122
 lean = ["AlgebraicGeometry.IsWeilFactorization.unique", "TraceDatum.exists_isWeilFactorization"]
-uses = ["sk-def-cohfamily", "sk-def-roots", "sk-prop-rootpurity", "sk-thm-rationality"]
+uses = ["sk-cor-tf-point-counting", "sk-input-weights", "sk-lem-wweil-integer-rationality"]
 tags = ["sketch"]
 +++
-For every $0\le i\le2d$ there is a unique polynomial $P_i(T)\in\Z[T]$ with
-$P_i(0)=1$ such that for *every* prime $\ell\ne p$
+For smooth proper $X_0$ of pure dimension $d$, put
 
 $$
-P_i^{(\ell)}(T)=\det\bigl(1-TF_{i,\ell}\mid H^{i}(X,\Ql)\bigr),
+ H^i_\ell=H^i(X_{\mathrm{pro\acute et}},\Ql),\qquad
+ P_{i,\ell}(T)=\det(1-TF_i\mid H^i_\ell),\qquad
+ b_{i,\ell}=\dim_{\Ql}H^i_\ell.
 $$
 
-and then
+These are the operators and factors of [sk-cor-tf-point-counting], whose
+determinant identity reads
 
 $$
-Z(X_0,T)=\prod_{i=0}^{2d}P_i(T)^{(-1)^{i+1}},
+ Z(X_0,T)=\prod_{i=0}^{2d}P_{i,\ell}(T)^{(-1)^{i+1}}.
 $$
 
-a factorization that is independent of $\ell$.
+Since Frobenius is invertible, $\deg P_{i,\ell}=b_{i,\ell}$.
+A *reciprocal root* of a polynomial $P$ is a scalar $\alpha$ such
+that $1-\alpha T$ divides $P$; thus the reciprocal roots of
+$P_{i,\ell}$ are the Frobenius eigenvalues on $H^i_\ell$.
+
+There are unique polynomials $P_i(T)\in\mathbf Z[T]$, $P_i(0)=1$,
+whose images in $\mathbf Q_\ell[T]$ are $P_{i,\ell}(T)$ for every
+$\ell\nmid q$. Their reciprocal roots are algebraic integers, and
+every complex embedding of each reciprocal root has absolute value
+$q^{i/2}$. In particular the degrees $b_i=\deg P_i$ are independent
+of $\ell$.
+
+*Complement.* Consequently
+$Z(X_0,T)=\prod_{i=0}^{2d}P_i(T)^{(-1)^{i+1}}$ in $\mathbf Q(T)$, a
+factorization that does not depend on $\ell$; and, with $A/B$ the
+normalized integral reduced fraction of the zeta function,
+$A=\prod_{i\ \mathrm{odd}}P_i$ and $B=\prod_{i\ \mathrm{even}}P_i$.

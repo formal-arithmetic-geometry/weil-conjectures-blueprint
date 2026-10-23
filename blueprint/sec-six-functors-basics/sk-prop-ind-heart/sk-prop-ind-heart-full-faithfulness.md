@@ -2,6 +2,7 @@
 id = "det-ind-heart-full-faithfulness"
 kind = "lemma"
 title = "Constructible sheaves are finitely presented; full faithfulness"
+order = 2226
 uses = ["sk-lem-constructible-ext-continuity"]
 +++
 Let $\Lambda=E$ or $\Qlb$.

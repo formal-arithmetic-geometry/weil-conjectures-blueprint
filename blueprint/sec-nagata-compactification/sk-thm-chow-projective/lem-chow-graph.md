@@ -2,7 +2,7 @@
 id = "lem-chow-graph"
 kind = "lemma"
 title = "The graph of the cover"
-order = 1089
+order = 432
 lean = ["AlgebraicGeometry.ChowGraph", "AlgebraicGeometry.ChowGraph.emb", "AlgebraicGeometry.ChowGraph.exists_isClosedImmersion_over", "AlgebraicGeometry.ChowGraph.proj", "AlgebraicGeometry.ChowGraph.toGraph"]
 uses = ["def-chow-segre", "def-nagata-affine-proj", "def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions", "lem-chow-affine-immersion", "lem-chow-closed-model", "lem-chow-scheme-theoretic-closure", "lem-chow-tuple-immersion", "lem-weil-pbc-closed-immersion-products", "lemma-nagata-dense-affine-cover-exists"]
 +++

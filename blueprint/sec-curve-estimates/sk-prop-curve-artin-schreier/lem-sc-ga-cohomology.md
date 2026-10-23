@@ -2,8 +2,9 @@
 id = "lem-sc-ga-cohomology"
 kind = "lemma"
 title = "Etale and Zariski cohomology agree for quasi-coherent sheaves"
-order = 1011
-uses = ["def-sc-curves", "def-sc-etale-qcoherent-module", "lem-pc-affine-vanishing", "lem-sc-affine-open-proper", "lem-sc-cech-spectral", "lem-sc-compactification", "lem-sc-etale-affine-qcoherent"]
+lean = ["AlgebraicGeometry.etale_zariski_cohomology_agree", "AlgebraicGeometry.etale_ga_cohomology_agree", "AlgebraicGeometry.subsingleton_etale_ga_and_structure_cohomology"]
+order = 1456
+uses = ["def-sc-curves", "def-sc-etale-qcoherent-module", "pqf-lem-affine-vanishing", "lem-sc-affine-open-proper", "lem-sc-cech-spectral", "lem-sc-compactification", "lem-sc-etale-affine-qcoherent"]
 +++
 Let $C$ be a curve and $\mathcal F$ a
 quasi-coherent module. For the

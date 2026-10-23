@@ -2,13 +2,16 @@
 id = "def-sp-kinjective-bridge"
 kind = "definition"
 title = "The K-injective bridge"
-lean = ["CochainComplex.KInjectiveResolution.homologyRightDerivedFunctorPlusObjIso", "CochainComplex.KInjectiveResolution.rightDerivedFunctorObjIso", "CochainComplex.KInjectiveResolution.homologyRightDerivedFunctorObjIso", "CochainComplex.KInjectiveResolution", "CochainComplex.KInjectiveResolution.rightDerived", "CochainComplex.KInjectiveResolution.rightDerivedHomology", "CochainComplex.KInjectiveResolution.exists_of_isStrictlyGE", "CochainComplex.KInjectiveResolution.nonempty_of_isGE"]
-order = 523
+lean = ["CochainComplex.IsKInjective", "CochainComplex.KInjectiveResolution.homologyRightDerivedFunctorPlusObjIso", "CochainComplex.KInjectiveResolution.rightDerivedFunctorObjIso", "CochainComplex.KInjectiveResolution.homologyRightDerivedFunctorObjIso", "CochainComplex.KInjectiveResolution", "CochainComplex.KInjectiveResolution.rightDerived", "CochainComplex.KInjectiveResolution.rightDerivedHomology", "CochainComplex.KInjectiveResolution.exists_of_isStrictlyGE", "CochainComplex.KInjectiveResolution.nonempty_of_isGE"]
+order = 539
 uses = ["def-sp-grothendieck-abelian", "def-sp-left-exact-additive"]
 +++
-A *K-injective resolution* of a complex $K$ is a quasi-isomorphism $K\to I$
-with $I$ K-injective: for every acyclic complex $A$ the complex
-$\operatorname{Hom}(A,I)$ is acyclic. In a Grothendieck abelian category
+A cochain complex $I$ in an abelian category (for instance of sheaves on an
+étale or pro-étale site) is *K-injective* if every morphism $A\to I$ from an
+acyclic complex $A$ is homotopic to zero; equivalently, applying this to all
+shifts of $A$, for every acyclic complex $A$ the complex
+$\operatorname{Hom}(A,I)$ is acyclic. A *K-injective resolution* of a complex
+$K$ is a quasi-isomorphism $K\to I$ with $I$ K-injective. In a Grothendieck abelian category
 [def-sp-grothendieck-abelian] every bounded-below complex admits a
 K-injective resolution.
 

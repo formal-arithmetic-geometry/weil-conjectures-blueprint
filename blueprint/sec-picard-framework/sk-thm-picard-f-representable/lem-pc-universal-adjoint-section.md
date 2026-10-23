@@ -4,21 +4,34 @@ kind = "lemma"
 title = "The adjoint section of the normalized universal module"
 lean = ["AlgebraicGeometry.zeroLocus_directImageCounit_eq_of_iso", "AlgebraicGeometry.Scheme.Modules.nonempty_tensorObj_dual_pullback_pushforward_iso", "AlgebraicGeometry.isQuasicoherent_pushforward_dual_toModules", "AlgebraicGeometry.zeroLocus_adjointSection_eq_of_iso"]
 order = 836
-uses = ["def-pc-genus", "def-pc-hilb-functor", "def-pc-rational-point", "def-pc-separably-closed", "def-pc-zero-scheme", "def-sc-effective-cartier-divisor", "lem-pc-universal-divisor", "lem-pc-zero-scheme-recd"]
+uses = ["def-pc-f-subfunctor", "def-pc-finite-locally-free", "def-pc-genus", "def-pc-hilb-functor", "def-pc-rational-point", "def-pc-zero-scheme", "def-nagata-invertible-ideal", "lem-pc-projection-formula", "lem-pc-universal-divisor", "lem-pc-zero-scheme-recd"]
 +++
-Let $k$ be a separably closed field,
-let $X$ be a smooth projective curve of genus $g$ over $k$ with a
-$k$-rational point $\sigma$, let $H=\underline{\operatorname{Hilb}}^g_{X/k}$ and let
-$D_{\mathrm{univ}}\subset H\times X$ be the universal divisor of
-[lem-pc-universal-divisor]. On $W_0:=H$ the sheaf
-$\mathcal{N}_H:=f_{H,*}\mathcal{O}(D_{\mathrm{univ}})$ is a quasi-coherent
-$\mathcal{O}_H$-module, and the canonical section $1$ of
-$\mathcal{O}(D_{\mathrm{univ}})\otimes f_H^*\mathcal{N}_H^{-1}$ (which is canonically
-isomorphic to
-$\mathcal{L}_H\otimes f_H^*\mathcal{N}_H^{-1}$, where
-$\mathcal{L}_H=\mathcal{O}(D_{\mathrm{univ}})\otimes\mathrm{pr}_H^*\sigma_H^*\mathcal{O}(D_{\mathrm{univ}})^{-1}$,
-because the $\sigma$-terms cancel) has zero scheme
-$Z(1)=D_{\mathrm{univ}}\subset H\times X$; moreover this section is the
-adjoint section of $\mathcal{L}_H$ for the module $\mathcal{N}_H$, i.e. it corresponds
-under the adjunction of [lem-pc-zero-scheme-recd] on the open
-$W\subseteq H$ where $\mathcal{N}_H$ is invertible.
+Let $k$ be a field and let $X$ be a $k$-scheme which is proper, smooth of
+relative dimension $1$ and geometrically integral over $k$, of genus $g$, with
+a $k$-rational point $\sigma$. Let $T$ be a scheme over $k$, write
+$f_T:X_T\to T$, and let $D\subset X_T$ be an effective Cartier divisor.
+
+1. $f_{T,*}\mathcal{O}_{X_T}(D)$ is a quasi-coherent $\mathcal{O}_T$-module.
+1. (*The $\sigma$-terms cancel.*) If $\mathcal{L}\cong\mathcal{O}_{X_T}(D)\otimes f_T^*\mathcal{M}$
+for an invertible $\mathcal{O}_T$-module $\mathcal{M}$ and $f_{T,*}\mathcal{O}_{X_T}(D)$ is
+invertible, then $f_{T,*}\mathcal{L}$ is invertible and
+$$
+\mathcal{L}\otimes f_T^*(f_{T,*}\mathcal{L})^{-1}\;\cong\;
+\mathcal{O}_{X_T}(D)\otimes f_T^*\bigl(f_{T,*}\mathcal{O}_{X_T}(D)\bigr)^{-1}.
+$$
+1. (*The adjoint section has zero scheme $D$.*) Let
+$\mathcal{L}\in F(T)\subseteq\operatorname{Pic}_{X/k,\sigma}(T)$ ([def-pc-f-subfunctor]),
+assume $D\in\operatorname{Hilb}^g_{X/k}(T)$ ([def-pc-hilb-functor]) and
+$\mathcal{L}\cong\mathcal{O}_{X_T}(D)\otimes f_T^*\mathcal{N}'$ for some invertible
+$\mathcal{O}_T$-module $\mathcal{N}'$, and let $\mathcal{N}$ be an invertible
+$\mathcal{O}_T$-module with $\mathcal{N}\cong f_{T,*}\mathcal{L}$. Then the section $s$ of
+$\mathcal{L}\otimes f_T^*\mathcal{N}^{-1}$ adjoint to the adjunction map
+$f_T^*\mathcal{N}\to\mathcal{L}$ ([lem-pc-zero-scheme-recd]) has zero scheme
+$Z(s)=D$.
+
+In particular, for $H=\underline{\operatorname{Hilb}}^g_{X/k}$ with universal divisor
+$D_{\mathrm{univ}}\subset H\times X$ ([lem-pc-universal-divisor]), the normalized
+universal module
+$\mathcal{L}_H=\mathcal{O}(D_{\mathrm{univ}})\otimes\mathrm{pr}_H^*\sigma_H^*\mathcal{O}(D_{\mathrm{univ}})^{-1}$
+and the open $W\subseteq H$ over which $\mathcal{L}_H$ lies in $F$, the adjoint
+section of $\mathcal{L}_H|_{W\times X}$ has zero scheme $D_{\mathrm{univ}}\cap(W\times X)$.

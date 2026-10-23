@@ -2,7 +2,7 @@
 id = "sk-rem-feeds"
 kind = "remark"
 title = "Where this feeds, and what remains"
-order = 2758
+order = 3458
 tags = ["sketch"]
 +++
 Global duality and the pairing

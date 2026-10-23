@@ -2,7 +2,7 @@
 id = "lemma-nagata-closed-immersion-descends"
 kind = "lemma"
 title = "A finite-presentation closed immersion descends at the selected stage"
-order = 373
+order = 65
 lean = ["AlgebraicGeometry.isClosedImmersion_of_closedImmersionStage"]
 uses = ["def-nagata-closed-immersion-stage", "lemma-nagata-closed-immersion-stage-exists"]
 +++

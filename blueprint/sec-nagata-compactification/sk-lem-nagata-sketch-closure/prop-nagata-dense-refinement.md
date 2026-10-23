@@ -2,7 +2,7 @@
 id = "prop-nagata-dense-refinement"
 kind = "theorem"
 title = "Properties of the dense-refinement construction"
-order = 90
+order = 122
 lean = ["AlgebraicGeometry.Compactification.isSchemeTheoreticallyDominant_denseRefinement_i"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-compactification", "def-nagata-dense-compactification", "def-nagata-dense-refinement", "lemma-nagata-immersion-open-in-scheme-image"]

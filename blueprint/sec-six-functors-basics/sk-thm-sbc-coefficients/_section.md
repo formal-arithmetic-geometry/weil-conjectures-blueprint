@@ -2,7 +2,7 @@
 id = "sk-thm-sbc-coefficients"
 kind = "theorem"
 title = "Smooth base change for all admissible coefficients"
-order = 1577
+order = 2496
 uses = ["sk-def-bc", "sk-thm-sbc-derived", "sk-prop-scalar-six", "sk-thm-sf-ctf-stability", "sk-thm-pe-constructible-comparison", "sk-def-pe-derived-completion", "sk-prop-integral-criterion", "sk-lem-sbc-exchange-compatibility", "sk-lem-pe-derived-nakayama", "sk-lem-integral-models", "sk-cor-pe-bounded-continuity", "sk-thm-sfb-qlbar-two-colimit"]
 tags = ["sketch"]
 +++

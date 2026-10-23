@@ -3,9 +3,9 @@ id = "prop-weight-purity"
 kind = "theorem"
 title = "Smooth-proper purity of the constant Weil sheaf"
 lean = ["AlgebraicGeometry.WeilSheaf.isMixedOfWeightsAtMost_toComplex_adicConstant", "AlgebraicGeometry.WeilSheaf.weightPurity_adicConstant"]
-order = 3217
+order = 4097
 tags = ["latex:proposition"]
-uses = ["sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes", "sk-prop-sfb-finite-extension-compatibility", "def-weil-complex-weights", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-ordinary-reciprocal-roots", "def-weil-pbc-proetale-site", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "thm-weil-deligne-purity"]
+uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes", "sk-prop-sfb-finite-extension-compatibility", "def-weil-complex-weights", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-ordinary-reciprocal-roots", "def-weil-pbc-proetale-site", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "thm-weil-deligne-purity"]
 +++
 Fix the global finite-field datum
 $(p,a,q,k_0,k)$, where $p$ is prime and $a\in\mathbf Z_{\geq1}$ with
@@ -13,9 +13,9 @@ $q=p^a$. Choose a prime $\ell\neq p$, an algebraic closure
 $\Qlb$ of $\Ql=\mathbf Q_\ell$, and an isomorphism
 $\iota:\Qlb\xrightarrow{\sim}\mathbf C$. All coefficient sheaves are the pulled-back condensed rings
 $\Lambda_X=p_X^*\Lambda$ on the pro-étale site ($\Lambda=\Ql,\Qlb$;
-[sk-def-sfb-pulled-back-coefficients]), and complexes lie in
+[det-def-sfb-pulled-back-coefficients]), and complexes lie in
 $D^b_c(X,\Lambda)\subset D(X_{\mathrm{proét}},\Lambda)$
-([sk-def-sfb-bounded-constructible]), with Weil structures as in
+([det-def-sfb-bounded-constructible]), with Weil structures as in
 [sk-def-sf-weil-complexes]. Let
 $X_0/k_0$ be smooth, proper,
 geometrically connected of pure dimension

@@ -2,8 +2,8 @@
 id = "sk-thm-sf-verdier-exchange"
 kind = "corollary"
 title = "Verdier exchange formulas"
-order = 2390
-uses = ["sk-def-sf-operations", "sk-lem-sf-mate", "sk-thm-sf-comp-composition", "sk-thm-sf-tensor-hom", "sk-def-ops", "sk-thm-pd-verdier-duality"]
+order = 3302
+uses = ["sk-prop-sf-open-closed-triangle", "sk-lem-sf-mate", "sk-thm-sf-comp-composition", "sk-thm-sf-tensor-hom", "sk-def-ops", "sk-thm-pd-verdier-duality"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_verdierDual_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_dualizingComplex"]
 tags = ["sketch"]
 +++
@@ -34,7 +34,7 @@ They respect evaluation, composition and coefficient comparison.
 
 *Complement.* For $f$ separated of finite type between finite-type $k$-schemes, with $Rf^!$
 and $\omega_X=Ra_X^!\Lambda$, $\omega_Y=Ra_Y^!\Lambda$ formed with the constructible
-exceptional adjoint of [sk-def-sf-operations](vi), one has $Rf^!\omega_Y\cong\omega_X$. The
+exceptional adjoint of [det-def-sf-operations](vi), one has $Rf^!\omega_Y\cong\omega_X$. The
 first isomorphism $\mathbb D_Y(Rf_!M)\xrightarrow{\sim}Rf_*\mathbb D_X(M)$,
 $M\in\Dctf(X,\Lambda)$, is the tensor–Hom isomorphism of [sk-thm-sf-tensor-hom] at
 $N=\omega_Y$ followed by $Rf_*\cHom_X(M,-)$ of this isomorphism. It is an isomorphism in the

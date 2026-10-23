@@ -2,13 +2,13 @@
 id = "cor-pur-adic-and-rational-smooth-dualizing-complexes"
 kind = "theorem"
 title = "Adic and rational smooth dualizing complexes"
-order = 2374
+order = 3065
 tags = ["latex:corollary"]
-uses = ["def-pur-conventions", "sk-def-sf-setting", "sk-def-sp-tate-twist", "sk-def-sp-trace", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "sk-thm-purity-transport", "det-sp-purity-coefficient-change", "cor-pur-finite-stage-smooth-dualizing-complex"]
+uses = ["def-pur-conventions", "def-sf-setting", "sk-def-sp-tate-twist", "sk-def-sp-trace", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "sk-thm-purity-transport", "det-sp-purity-coefficient-change", "cor-pur-finite-stage-smooth-dualizing-complex"]
 +++
 Work in the purity conventions of [def-pur-conventions], let
 $\Lambda\in\{\mathcal O_E,E,\Qlb\}$ with the condensed categories
-$\Dbc(-,\Lambda)$ of [sk-def-sf-setting], and let $a_X:X\to\Spec k$ be a
+$\Dbc(-,\Lambda)$ of [def-sf-setting], and let $a_X:X\to\Spec k$ be a
 separated finite-type smooth morphism of pure dimension $d$. The
 dualizing complex
 

@@ -2,7 +2,7 @@
 id = "sk-p-trace"
 kind = "proposition"
 title = "Trace laws"
-order = 2611
+order = 3463
 uses = ["sk-d-trace"]
 lean = ["DerivedCategory.trace_eq_algebraMap_sum_negOnePow_linearMapTrace"]
 tags = ["sketch"]

@@ -3,7 +3,7 @@ id = "lem-sf-triangle-two-out-of-three"
 kind = "lemma"
 title = "Isomorphism on two terms of a distinguished triangle"
 lean = ["CategoryTheory.NatTrans.isIso_app_obj\u2083_of_isIso_app_obj\u2081\u2082", "CategoryTheory.NatTrans.isIso_app_obj\u2082_of_isIso_app_obj\u2081\u2083", "CategoryTheory.NatTrans.isIso_app_obj\u2081_of_isIso_app_obj\u2082\u2083"]
-order = 2207
+order = 2266
 uses = ["def-sf-datum", "def-weil-derived-cohomology-sheaves"]
 +++
 In the setting of [def-sf-datum], let $\Phi,\Psi$ be exact functors

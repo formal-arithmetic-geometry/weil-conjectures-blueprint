@@ -14,7 +14,7 @@ $$
 
 The tensor product of sheaves is the sheafification of the objectwise tensor product,
 and sheafification is monoidal, $a(P\otimes Q)\cong a(aP\otimes aQ)$
-([sk-def-sfb-sheaf-tensor]); for $V\to X$ factoring through $U$ one has
+([lem-weil-pbc-sheaf-tensor-closed]); for $V\to X$ factoring through $U$ one has
 $(j^*_{\Ab}L)(V)=L(V)$. Therefore both
 $j^{\Ab}_!(j^*_{\Ab}L\otimes M)$ and $L\otimes j^{\Ab}_!M$ are the sheafification of
 the same presheaf

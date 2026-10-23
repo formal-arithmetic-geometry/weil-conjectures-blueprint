@@ -10,10 +10,10 @@ and triangle identities. The unit is an isomorphism term by term by
 For the closed adjunction, choose a K-injective resolution $M\to J$ on $Z$.
 Since $i^*$ is exact, $i_*J$ is K-injective: its Hom complex from an acyclic
 complex $N$ is the Hom complex from the acyclic $i^*N$ to $J$, hence
-acyclic. Thus $i_*J$ represents $Ri_*M$, and complex-level adjunction gives
-$i^*\dashv Ri_*$. Exactness of $i^*$ lets us compute the derived counit by
-$i^*i_*J\to J$. This is an isomorphism in every degree by
-[lem-exc-proetale-closed-fully-faithful]. Hence the derived counit is an
-isomorphism. This calculation does not assume exactness of $i_*$ for an
+acyclic. Thus $i_*$ preserves K-injective complexes, $i_*J$ represents
+$Ri_*M$, and complex-level adjunction gives $i^*\dashv Ri_*$. Exactness of
+$i^*$ lets us compute the derived counit by $i^*i_*J\to J$. This is an
+isomorphism in every degree by [lem-exc-proetale-closed-fully-faithful].
+Hence the derived counit is an isomorphism, i.e. $Ri_*$ is fully faithful. This calculation does not assume exactness of $i_*$ for an
 arbitrary closed immersion; the complement's quasi-compactness is needed for
 the separate sheaf-exactness and recollement theorems above.

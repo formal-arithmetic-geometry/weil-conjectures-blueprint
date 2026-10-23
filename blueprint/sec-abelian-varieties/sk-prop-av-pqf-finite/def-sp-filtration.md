@@ -3,7 +3,7 @@ id = "def-sp-filtration"
 kind = "definition"
 title = "Filtrations and graded pieces"
 lean = ["CategoryTheory.DecreasingFiltration", "CategoryTheory.DecreasingFiltration.gr", "CategoryTheory.DecreasingFiltration.IsFiniteSeparated"]
-order = 513
+order = 529
 uses = ["def-sp-abelian"]
 +++
 Let $\mathcal A$ be an abelian category [def-sp-abelian]. A *decreasing

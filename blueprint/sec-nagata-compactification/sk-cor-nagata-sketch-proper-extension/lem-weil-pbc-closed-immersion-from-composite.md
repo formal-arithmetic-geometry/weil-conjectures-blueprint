@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-closed-immersion-from-composite"
 kind = "lemma"
 title = "Closed immersion detected after separated composition"
-order = 231
+order = 331
 lean = ["AlgebraicGeometry.IsClosedImmersion.of_comp"]
 +++
 Let $r:T\to V$ and $p:V\to S$ be scheme morphisms. If $p$ is

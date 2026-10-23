@@ -2,7 +2,7 @@
 id = "sk-def-sf-admissible"
 kind = "definition"
 title = "Admissibility datum: an explicit hypothesis"
-order = 1702
+order = 2649
 lean = ["AlgebraicGeometry.ProEtale.HasAmbientExceptionalRightAdjoint", "AlgebraicGeometry.ProEtale.HasUniformCohomologicalDimensionLE"]
 tags = ["sketch"]
 +++
@@ -32,7 +32,7 @@ The admissibility datum is strictly stronger than the ambient datum (1): it is
 (3) that makes the restriction $Rf^{\times}|_{\Dctf}$ of the ambient functor a
 functor of the small categories, and when (1)–(3) hold that restriction
 coincides, by uniqueness of adjoints, with the constructible exceptional
-adjoint $Rf^!$ of [sk-def-sf-operations] (vi). Both data are *assumptions*,
+adjoint $Rf^!$ of [det-def-sf-operations] (vi). Both data are *assumptions*,
 not properties that hold in general.
 
 *Warning: the ambient datum is not satisfied in general.* Its
@@ -45,7 +45,7 @@ no right adjoint of $Rp_!=Rp_*$ exists on $D(E_{\Proet},A)$ or on
 $D^+(E_{\Proet},A)$ ([sk-rem-sf-fullcd-scope]). Hence neither (1) nor the
 admissibility datum may be presupposed for the structure morphism of a
 smooth proper variety. For the constructible exceptional adjoint $Rf^!$ of
-[sk-def-sf-operations] (vi), by contrast, the analogues of all three clauses
+[det-def-sf-operations] (vi), by contrast, the analogues of all three clauses
 are theorems for every separated finite-type morphism of finite-type
 $k$-schemes: the adjunction on $\Dctf$, with compatible units and counits
 ([thm-sf-ambient-adjoint-class]), and the two preservation clauses with explicit

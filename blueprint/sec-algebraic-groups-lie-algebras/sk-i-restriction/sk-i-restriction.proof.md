@@ -2,19 +2,16 @@
 kind  = "proof"
 of    = "sk-i-restriction"
 +++
-*Normal restriction.* It is enough to treat a simple representation
-$V$ of a group $\Gamma$ and a normal subgroup $N$. Choose an
-$N$-invariant $U\ne0$ of least positive dimension; minimality makes $U$
-simple for $N$. For $g\in\Gamma$, $n\in N$ and $u\in U$, normality gives
-$n(gu)=g(g^{-1}ng)u\in gU$, and an $N$-invariant $S\subseteq gU$ has
-$g^{-1}S\subseteq U$ invariant, so $S=0$ or $S=gU$; every translate $gU$
-is therefore simple for $N$. The sum of the translates is nonzero and
-$\Gamma$-invariant, hence all of $V$. Starting from $U$, a proper direct
-sum $D$ of translates misses some $gU$, and $gU\cap D$ is a proper
-$N$-subspace of a simple module, hence zero, so $gU$ may be adjoined.
-The dimension strictly increases, so after at most $\dim V$ steps $V$ is a
-direct sum of simple $N$-modules. Neither finiteness of $\Gamma$ nor
-finite index of $N$ is used.
+It suffices to consider a simple $\Gamma$-module $V$. A nonzero
+$N$-submodule $A$ of least dimension is simple, and since $N$ is normal,
+each translate $gA$ is again a simple $N$-submodule. The sum of all these
+translates is a nonzero $\Gamma$-submodule, hence equals $V$. It remains to
+see that a finite sum of simple submodules is semisimple. The intersection
+of a simple submodule with the sum of those already chosen is either zero
+or the whole submodule; adding it in the first case and omitting it in the
+second, we obtain a direct-sum decomposition after finitely many steps.
+
+For the complement:
 
 *Density and stabilizers.* In a basis adapted to a subspace, the
 stabilizer is cut out by the vanishing of one matrix block, so it is
@@ -24,7 +21,7 @@ implication is restriction. The closures are algebraic groups: for
 $a\in\Gamma$ left translation preserves $\Gamma$, so $aK=K$; for fixed
 $y\in K$ the condition $xy\in K$ is closed and contains $\Gamma$, hence
 $K$, giving $KK\subseteq K$; inversion is the same argument. Since
-$K\times K$ is reduced by [sk-i-geometry], the vanishing principle there
+$K\times K$ is reduced by [lem-wf-affine-product-reduced], the vanishing principle there
 turns these pointwise inclusions into regular group operations, and the
 group identities are inherited from matrices.
 
@@ -43,7 +40,7 @@ one-dimensional space, hence a rational character.
 
 *Normality and commutators on $R$-points.* Write $A=k[x_{ij},\det^{-1}]$
 and, for a subgroup $\Gamma\subseteq\GL_n(k)$, $I_\Gamma\subseteq A$ for the
-ideal of functions vanishing on $\Gamma$; by [sk-d-monodromy],
+ideal of functions vanishing on $\Gamma$; by [d-monodromy],
 $G=V(I_{\rho(W)})$ and $H=V(I_{\rho(P)})$, and $\rho(P)\subseteq\rho(W)$
 gives $I_{\rho(W)}\subseteq I_{\rho(P)}$, i.e. $H(R)\subseteq G(R)$ for every
 $k$-algebra $R$. The kernel $P$ of the degree map is normal, and since
@@ -85,7 +82,7 @@ the hypothesis.
 *The Lie inclusion.* Let $H\subseteq G$ be as in the previous paragraph,
 over any field $k$, and $X,Y\in\Lie(G)$. Take
 $R=k[\varepsilon,\delta]/(\varepsilon^2,\delta^2)$; then $1+\varepsilon X$
-and $1+\delta Y$ lie in $G(R)$ by [sk-d-tangent], and direct matrix
+and $1+\delta Y$ lie in $G(R)$ by [def-wf-lie-algebra-derivation], and direct matrix
 multiplication gives
 
 $$
@@ -98,16 +95,16 @@ $k[\eta]/\eta^2\to R$, $\eta\mapsto\varepsilon\delta$, is injective and
 carries $1+\eta[X,Y]$ to this point; so for each defining equation $f$ of
 $H$, $f(1+\eta[X,Y])$ maps to $0$ and hence vanishes, i.e.
 $1+\eta[X,Y]\in H(k[\eta]/\eta^2)$ and $[X,Y]\in\Lie(H)$ by
-[sk-d-tangent]. No reducedness is used. If $k$ is algebraically closed of
+[def-wf-lie-algebra-derivation]. No reducedness is used. If $k$ is algebraically closed of
 characteristic zero, [sk-i-cartier] gives $\Lie(G^\circ)=\Lie(G)$ and
 $\Lie(H^\circ)=\Lie(H)$ through the inclusions, so
 $[\Lie(G^\circ),\Lie(G^\circ)]\subseteq\Lie(H^\circ)$.
 
-*Semisimplicity for $G^\circ(k)$.* Let the datum be semisimple and $k$
+*Semisimplicity for $G^\circ(k)$.* Let $\rho$ be semisimple and $k$
 algebraically closed. By the density paragraph, the $W$-stable subspaces
 of $k^n$ are exactly the $G(k)$-stable ones, so a decomposition of $k^n$
 into simple $W$-modules is a decomposition into simple $G(k)$-modules.
 Conjugation by $g\in G(k)$ is an automorphism of $G$ fixing $1$, so it
 preserves the connected component of $1$; thus $G^\circ(k)$ is normal in
-$G(k)$, and the normal-restriction paragraph shows that $k^n$ is a
+$G(k)$, and the first paragraph shows that $k^n$ is a
 semisimple $G^\circ(k)$-module.

@@ -2,6 +2,8 @@
 id = "lem-weil-pbc-inverse-image-stalk-germ"
 kind = "lemma"
 title = "Stalk of an inverse image, compatible with germs of pulled-back sections"
+lean = ["AlgebraicGeometry.inverseImage_stalk_germ"]
+order = 1861
 uses = ["def-pc-scheme", "def-weil-geometric-point", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-inverse-image", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks"]
 tags = ["stacks-03Q1"]
 +++
@@ -9,4 +11,4 @@ Let $f:Y\to X$ be a morphism of schemes [def-pc-scheme], $\bar y:\operatorname{S
 $$c_{f,\bar y,G}:(f^{-1}G)_{\bar y}\xrightarrow{\ \sim\ }G_{\bar x},$$
 natural in $G$, such that for every pointed etale neighbourhood $(U,\bar u)$ of $\bar x$ and every $a\in G(U)$, with $(U\times_XY,(\bar u,\bar y))$ the induced pointed etale neighbourhood of $\bar y$,
 $$c_{f,\bar y,G}\bigl(\text{germ of }\eta_{f,G}(U)(a)\text{ at }(U\times_XY,(\bar u,\bar y))\bigr)=\text{germ of }a\text{ at }(U,\bar u).$$
-In particular, for $U=X$ and $a\in G(X)$: $c_{f,\bar y,G}\bigl((\eta_{f,G}(X)(a))_{\bar y}\bigr)=a_{\bar x}$. (The isomorphism of lemma-openclosed-stalk-upperstar is an isomorphism of the same groups; this statement adds the compatibility with germs, which is what identifies maps built from the unit.)
+In particular, for $U=X$ and $a\in G(X)$: $c_{f,\bar y,G}\bigl((\eta_{f,G}(X)(a))_{\bar y}\bigr)=a_{\bar x}$.

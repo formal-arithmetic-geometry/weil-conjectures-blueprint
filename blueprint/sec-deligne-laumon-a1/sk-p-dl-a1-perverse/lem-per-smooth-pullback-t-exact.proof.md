@@ -23,11 +23,25 @@ right-hand side is $\le i$, which is the support inequality
 for $Lf^*K[d]$: $\operatorname{SuppCon}(Lf^*K[d])$.
 For the $\ge$-direction: the cosupport condition of $K$, namely
 $\operatorname{SuppCon}(D_YK)$, is transported along the smooth
-morphism as follows. By the Verdier exchange of
-[fix-cor-verdier-exchange] applied to the smooth morphism $f$
-(the identity $D_XLf^*M\cong Rf^!D_YM$ obtained from the exchange
-for $f$ and biduality, which is the duality against pullback of
-[cor-sf-duality-pullback]) and by the smooth
+morphism as follows. First, $D_XLf^*M\cong Rf^!D_YM$ for every $M$,
+without any biduality: for a test complex $N$ on $X$, the adjunction
+$Rf_!\dashv Rf^!$ of [fix-prop-adjunctions], the tensor–internal-Hom
+adjunction of [def-weil-derived-pullback-tensor-hom] and the projection
+formula of [fix-prop-projection-formula] give
+
+$$
+\begin{aligned}
+\operatorname{Hom}_X(N,Rf^!D_YM)
+&\cong\operatorname{Hom}_Y(Rf_!N\otimes^LM,\omega_Y)
+\cong\operatorname{Hom}_Y\bigl(Rf_!(N\otimes^LLf^*M),\omega_Y\bigr)\\
+&\cong\operatorname{Hom}_X(N\otimes^LLf^*M,Rf^!\omega_Y),
+\end{aligned}
+$$
+
+naturally in $N$, so $Rf^!R\mathcal Hom_Y(M,\omega_Y)\cong
+R\mathcal Hom_X(Lf^*M,Rf^!\omega_Y)$, and $Rf^!\omega_Y\cong\omega_X$ is the
+mate of the composition isomorphism $R(a_Y f)_!\cong Ra_{Y!}Rf_!$ of
+[thm-sf-comp-composition]. Combining this with the smooth
 identity $Rf^!M\cong Lf^*M(d)[2d]$ (the smooth-purity form of the
 dualizing complexes of the smooth morphism,
 [cor-pur-adic-and-rational-smooth-dualizing-complexes] and [prop-functor-package]),

@@ -2,6 +2,8 @@
 id = "det-pe-replete-definition"
 kind = "definition"
 title = "Replete topos of sheaves on a site"
+lean = ["CategoryTheory.GrothendieckTopology.IsReplete"]
+order = 973
 +++
 Let $\mathcal C$ be a site and $\mathcal T=\Sh(\mathcal C)$. An *inverse sequence* in
 $\mathcal T$ is a functor $\mathbf N^{\mathrm{op}}\to\mathcal T$, i.e. sheaves $F_n$

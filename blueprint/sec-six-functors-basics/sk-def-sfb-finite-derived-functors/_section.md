@@ -2,15 +2,15 @@
 id = "sk-def-sfb-finite-derived-functors"
 kind = "definition"
 title = "Derived pushforward and pullback (finite coefficients)"
-order = 1681
-uses = ["sk-def-sfb-derived-categories", "sk-def-sfb-finite-lower-shriek"]
+order = 2512
+uses = ["sk-prop-sf-open-closed-triangle", "sk-def-sfb-finite-lower-shriek"]
 lean = ["AlgebraicGeometry.ProEtale.leftDerivedUpperStarIsoMapDerivedCategory", "AlgebraicGeometry.ProEtale.derivedUpperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.derivedUpperStarLowerStarAdjunctionPlus", "AlgebraicGeometry.ProEtale.derivedOpenImmersionLowerShriekUpperStarAdjunction", "AlgebraicGeometry.ProEtale.derivedOpenImmersionLowerShriekUpperStarAdjunctionPlus"]
 tags = ["sketch"]
 +++
 Let $\mathcal A$ be a Grothendieck abelian category and $g\colon Z\to Y$ a morphism of
 schemes. Write $D(X_{\mathrm{proét}},\mathcal A)=D(\Sh(X_{\mathrm{proét}},\mathcal A))$ and
 $D^+(X_{\mathrm{proét}},\mathcal A)$ for its bounded below part, and use the derived functors
-of [sk-def-sfb-derived-categories]. With $g_*$, $g^*$ as in
+of [det-def-sfb-derived-categories]. With $g_*$, $g^*$ as in
 [sk-def-sfb-finite-pushforward-pullback], define
 
 $$

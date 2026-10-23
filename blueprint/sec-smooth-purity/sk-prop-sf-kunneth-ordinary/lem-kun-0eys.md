@@ -2,7 +2,7 @@
 id = "lem-kun-0eys"
 kind = "lemma"
 title = "Base change under flat finitely presented morphisms with geometrically reduced fibres"
-order = 2106
+order = 3185
 uses = ["def-weil-pbc-cartesian-square"]
 +++
 Consider a

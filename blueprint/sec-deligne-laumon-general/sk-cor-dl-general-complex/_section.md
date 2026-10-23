@@ -1,14 +1,17 @@
 +++
 id = "sk-cor-dl-general-complex"
-kind = "corollary"
-title = "The derived direct-image bound"
-order = 3194
+kind = "theorem"
+title = "Weights of $Rf_!$"
+order = 4086
 lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
-uses = ["sk-d-dl-general-weights"]
+uses = ["sk-d-real-weights", "sk-thm-dl-general-sheaf", "sk-prop-sf-cbc"]
 tags = ["sketch"]
 +++
-Let $f_0:X_0\to Y_0$ be a separated finite-type morphism of
-$k_0$-schemes, with $Y_0$ separated of finite type over $k_0$.
-If $K_0$ is a bounded constructible Weil complex on $X_0$ that is
-$\iota$-mixed of weights at most $w$, then $Rf_{0!}K_0$ is $\iota$-mixed
-of weights at most $w$.
+For every separated morphism of finite type $f:X_0\to Y_0$,
+
+$$
+ Rf_!D_{\leq w}(X_0)\subset D_{\leq w}(Y_0).
+$$
+
+In particular, if $K\in D_{\leq w}(X_0)$, then
+$H_c^n(X,K)$ has weights at most $w+n$.

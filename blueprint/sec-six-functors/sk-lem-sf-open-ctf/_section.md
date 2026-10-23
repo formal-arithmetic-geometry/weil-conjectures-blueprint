@@ -2,8 +2,8 @@
 id = "sk-lem-sf-open-ctf"
 kind = "lemma"
 title = "Extension by zero preserves the finite-Tor constructible category"
-order = 2412
-uses = ["sk-def-sf-operations"]
+order = 3354
+uses = ["sk-prop-sf-open-closed-triangle"]
 lean = ["AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_rightDerivedLowerShriek"]
 tags = ["sketch"]
 +++

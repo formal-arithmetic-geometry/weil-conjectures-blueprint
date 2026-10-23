@@ -9,9 +9,11 @@ isomorphism in $\Dplus(Y'_{\Et})$; by [def-weil-pbc-derived-exchange] that
 morphism for a complex concentrated in degree zero is the exchange morphism
 $\Ex_{\square,F}$ of the sheaf $F$, giving the assertion.
 
-The torsion assembly proves the isomorphism in every cohomological degree for
-the map constructed in S0. A morphism in $D^+$ is an isomorphism exactly when
-all its cohomology sheaf maps are isomorphisms. Naturality, identity, and
-pasting are the corresponding S0 coherence equations and survive each
-devissage step. This is the expanded endpoint whose source locator is Tag
-`095T`; that tag is not used as a proof leaf.
+The exchange morphisms $\Ex_{\square,F}$ are the components at $F[0]$ of the
+natural transformation $\Ex_\square$, hence natural in $F$. For an identity
+square the derived exchange morphism is the identity, since the units and
+counits of the identity adjunctions are identities, and the derived
+exchange morphism of a horizontally or vertically pasted square is the
+composite of those of the two squares
+[lemma-weil-pbc-derived-exchange-coherence]; evaluating at $F[0]$ gives the
+remaining assertions.

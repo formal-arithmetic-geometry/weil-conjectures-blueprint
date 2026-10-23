@@ -1,21 +1,16 @@
 +++
 id = "lemma-weil-pbc-stein-connectedness"
 kind = "lemma"
-title = "Stein connectedness for $\\mathbf P^1_A$"
+title = "Stein connectedness"
 lean = ["AlgebraicGeometry.Scheme.Hom.spectralSpace_and_isClosed_and_isConnected_inter"]
-order = 1109
-uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "def-weil-pbc-stein-factorization", "def-weil-pbc-strict-henselian-setup", "lem-weil-pbc-closed-immersion-products", "lemma-weil-pbc-spectral-restriction"]
+order = 1551
+uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-spectral-restriction"]
 +++
 Let $(A,I)$ be henselian [def-weil-pbc-henselian-terminology] and let
 $p:Y\to\operatorname{Spec}A$ be proper
-[def-weil-pbc-scheme-conventions]. In the Stein factorization
-[def-weil-pbc-stein-factorization]
-
-$$
-  Y\longrightarrow\operatorname{Spec}B\longrightarrow\operatorname{Spec}A,
-$$
-
-$A\to B$ is finite and $(B,IB)$ is henselian. Every irreducible closed subset
-of $Y$ meets $Y_0$ in a nonempty connected subset. Therefore the Zariski
-restriction criterion of [lemma-weil-pbc-spectral-restriction] applies to
+[def-weil-pbc-scheme-conventions], with closed fibre
+$Y_0=p^{-1}(V(I))$. Then the underlying space of $Y$ is spectral, $Y_0$ is
+closed in $Y$, and every irreducible closed subset of $Y$ meets $Y_0$ in a
+nonempty connected subset. These are the hypotheses of the Zariski
+restriction criterion [lemma-weil-pbc-spectral-restriction] for the pair
 $(Y,Y_0)$.

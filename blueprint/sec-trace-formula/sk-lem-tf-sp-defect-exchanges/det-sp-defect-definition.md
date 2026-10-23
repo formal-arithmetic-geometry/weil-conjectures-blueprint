@@ -2,6 +2,7 @@
 id = "det-sp-defect-definition"
 kind = "definition"
 title = "Specialization to the normal cone and its defect"
+order = 3575
 uses = ["det-sp-dnc-definition", "det-sp-nearby-cycles-exchanges", "det-sp-constant-family-vanishing"]
 +++
 Let $X$ be a separated finite-type $k$-scheme, $i\colon Z\hookrightarrow X$ a closed subscheme,

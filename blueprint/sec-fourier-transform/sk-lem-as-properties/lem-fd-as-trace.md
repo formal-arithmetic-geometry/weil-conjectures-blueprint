@@ -3,8 +3,8 @@ id = "lem-fd-as-trace"
 kind = "lemma"
 title = "Trace function of the Artin–Schreier sheaf"
 lean = ["AlgebraicGeometry.WeilSheaf.traceFunction_artinSchreier"]
-order = 3031
-uses = ["def-fd-additive-character", "def-fd-artin-schreier-sheaf", "def-weil-local-frobenius-trace", "lem-fd-as-cover-affine-line"]
+order = 3935
+uses = ["def-fd-additive-character", "def-fd-artin-schreier-sheaf", "def-weil-local-frobenius-trace", "lem-fd-as-cover-affine-line", "lem-wft-as-comparison"]
 +++
 Let $k_0=\mathbf F_q$, fix the nondegenerate additive character
 $\psi=\Psi\circ\operatorname{Tr}_{k_0/\mathbf F_p}$ of [def-fd-additive-character],

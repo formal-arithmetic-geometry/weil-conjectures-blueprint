@@ -3,7 +3,7 @@ id = "lem-sp-page-induction"
 kind = "lemma"
 title = "Page induction"
 lean = ["CategoryTheory.SpectralSequence.Hom.isIso_hom", "CategoryTheory.SpectralSequence.Hom.isIso_pageInfinity"]
-order = 518
+order = 534
 uses = ["def-sp-spectral-sequence"]
 +++
 Let $\varphi:E\to E'$ be a morphism of spectral sequences

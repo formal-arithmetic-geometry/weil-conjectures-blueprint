@@ -2,7 +2,7 @@
 id = "pur9-def-purity-comparison"
 kind = "definition"
 title = "Purity comparison for a vector bundle"
-order = 1854
+order = 2913
 uses = ["pur713-def-shriek-projection", "sk-thm-sf-pf-finite"]
 +++
 Let $\pi:V\to Z$ be a vector bundle of rank $c$ as in Lemma “Gluing the trace of a vector bundle” (`pur9-lem-bundle-trace-gluing`), and $K\in D^b_{ctf}(Z_{\Proet},\mathcal O_E/\pi_E^n)$. The purity comparison

@@ -3,7 +3,7 @@ id = "sk-def-av-mult-n"
 kind = "definition"
 title = "Multiplication by $n$ and $n$-torsion"
 lean = ["AlgebraicGeometry.torsionSubgroupScheme", "AlgebraicGeometry.isClosedSubgroupScheme_torsionSubgroupScheme_ι", "AlgebraicGeometry.torsionByEquiv"]
-order = 532
+order = 460
 tags = ["sketch"]
 +++
 Let $A$ be a group scheme over $k$ and $n\ge0$. The $n$-th

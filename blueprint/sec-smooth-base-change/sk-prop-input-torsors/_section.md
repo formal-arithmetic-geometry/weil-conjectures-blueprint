@@ -2,7 +2,7 @@
 id = "sk-prop-input-torsors"
 kind = "proposition"
 title = "Torsors and étale $H^1$"
-order = 1441
+order = 2106
 uses = ["sk-def-smooth"]
 lean = ["AlgebraicGeometry.Scheme.EtaleTorsor", "AlgebraicGeometry.Scheme.EtaleTorsor.exists_quotientEquivSheafH"]
 tags = ["sketch"]

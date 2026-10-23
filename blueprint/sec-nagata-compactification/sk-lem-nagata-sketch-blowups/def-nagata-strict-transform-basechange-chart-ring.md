@@ -3,7 +3,7 @@ id = "def-nagata-strict-transform-basechange-chart-ring"
 kind = "definition"
 title = "Affine base-change chart ring"
 lean = ["AlgebraicGeometry.AffineBlowup.BaseChangeChart"]
-order = 151
+order = 262
 uses = ["def-nagata-blowup-chart-ring"]
 +++
 Let $A\to B$ be a ring map, let $I\subseteq A$, and let $a\in I$.

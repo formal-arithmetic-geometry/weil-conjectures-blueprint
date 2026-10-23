@@ -3,5 +3,6 @@ id = "lem-weil-pbc-etale-section-idempotent-splitting-core"
 kind = "lemma"
 title = "Core idempotent decomposition"
 lean = ["Algebra.Etale.exists_idempotent_core"]
+order = 1745
 +++
-Let R and S be commutative rings, with S an étale R-algebra `AlgebraicGeometry.Etale` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/AlgebraicGeometry/Morphisms/Etale.lean)), and let s:S→R be an R-algebra homomorphism. There is an idempotent e in S such that s(e)=1 and ker(s)=(1-e)S. The corner C=(1-e)S, with identity 1-e and R-algebra map r↦(1-e)algebraMap(r), admits an R-algebra equivalence S≅R×C whose first projection is s.
+Let $R$ be a commutative ring, $S$ an étale $R$-algebra, and $s:S\to R$ an $R$-algebra homomorphism. Then there is an idempotent $e\in S$ with $s(e)=1$ and $\ker(s)=(1-e)S$. Moreover the ring $C=(1-e)S$ (with identity $1-e$), made an $R$-algebra by $r\mapsto(1-e)\,r\cdot1_S$, admits an $R$-algebra isomorphism $S\cong R\times C$ whose first component is $s$.

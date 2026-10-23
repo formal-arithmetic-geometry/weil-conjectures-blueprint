@@ -2,7 +2,7 @@
 id = "def-sc-function-field"
 kind = "definition"
 title = "The function field of a curve"
-order = 451
+order = 468
 lean = ["AlgebraicGeometry.Scheme.functionFieldOfComponents", "AlgebraicGeometry.Scheme.functionField", "AlgebraicGeometry.functionField_isFractionRing_of_isAffineOpen", "AlgebraicGeometry.Scheme.rationalFunctionRing"]
 uses = ["def-sc-curves"]
 +++

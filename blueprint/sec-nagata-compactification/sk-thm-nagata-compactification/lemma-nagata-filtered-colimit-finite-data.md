@@ -2,7 +2,7 @@
 id = "lemma-nagata-filtered-colimit-finite-data"
 kind = "lemma"
 title = "Finite data and finite relations descend in a filtered colimit"
-order = 338
+order = 30
 lean = ["CommRingCat.exists_lift_forall_aeval_eq"]
 uses = ["lemma-nagata-directed-finite-upper-bound"]
 +++

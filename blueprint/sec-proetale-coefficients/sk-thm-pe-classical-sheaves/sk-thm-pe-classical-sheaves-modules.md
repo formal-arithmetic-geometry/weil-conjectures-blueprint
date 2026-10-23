@@ -2,7 +2,8 @@
 id = "det-pe-classical-sheaves-modules"
 kind = "lemma"
 title = "The module form of the classical equivalence"
-uses = ["det-pe-classical-sheaves-unit", "det-pe-classical-sheaves-image", "prop-weil-pbc-site-comparison-finite-level"]
+order = 996
+uses = ["det-pe-classical-sheaves-unit", "prop-weil-pbc-site-comparison-finite-level"]
 +++
 Let $\Lambda$ be a discrete commutative ring, $\Lambda_{X,\Et}$ its constant
 sheaf on $X_{\Et}$, and identify $\Lambda_X=\nu_X^*\Lambda_{X,\Et}$. Then

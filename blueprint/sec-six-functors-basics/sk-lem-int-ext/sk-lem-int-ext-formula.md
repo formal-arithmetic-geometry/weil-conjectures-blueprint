@@ -2,6 +2,7 @@
 id = "det-lem-int-ext-formula"
 kind = "lemma"
 title = "Reduction to extensions by zero and the Hom formula"
+order = 2463
 uses = ["sk-lem-int-integral-heart", "sk-lem-formal-closed-support"]
 +++
 1. Every $C\in\Dbc(X,\mathcal O_E)$ admits a finite filtration by

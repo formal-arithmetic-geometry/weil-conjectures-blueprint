@@ -2,7 +2,7 @@
 id = "sk-d-local-term"
 kind = "definition"
 title = "Local terms"
-order = 2666
+order = 3652
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-pairing", "sk-d-six", "sk-d-trace-class"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.localTerm"]
 tags = ["sketch"]

@@ -3,9 +3,9 @@ id = "lem-wf-euler-product-middle-extension"
 kind = "theorem"
 title = "Graded Euler-product identity for a middle extension"
 lean = ["AlgebraicGeometry.WeilSheaf.coeff_prod_inv_localPolynomial_stalk_directImage"]
-order = 2998
+order = 3901
 tags = ["latex:corollary"]
-uses = ["d-real-cohom", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-wf-boundary-stalk-invariants", "prop-wf-weil-sheaf-representation-equivalence", "sk-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "det-thm-tf-uniform-formula-weil", "thm-trf-l-function-euler-product"]
+uses = ["d-real-cohom", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-wf-boundary-stalk-invariants", "prop-wf-weil-sheaf-representation-equivalence", "det-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "det-thm-tf-uniform-formula-weil", "thm-trf-l-function-euler-product"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve, let
 $j:U_0\hookrightarrow X_0$ be a dense open immersion, and let

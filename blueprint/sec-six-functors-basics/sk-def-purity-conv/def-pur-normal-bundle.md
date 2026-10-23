@@ -3,7 +3,7 @@ id = "def-pur-normal-bundle"
 kind = "definition"
 title = "Normal bundle and zero section"
 lean = ["AlgebraicGeometry.Scheme.Hom.normalConeData"]
-order = 2238
+order = 2783
 uses = ["def-pur-conventions", "def-pur-regular-immersion", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

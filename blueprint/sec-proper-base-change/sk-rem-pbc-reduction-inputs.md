@@ -2,7 +2,7 @@
 id = "sk-rem-pbc-reduction-inputs"
 kind = "remark"
 title = "The role of properness"
-order = 1064
+order = 2036
 tags = ["sketch"]
 +++
 The reduction in [sk-thm-reduction] uses Chow's lemma [sk-thm-chow], the

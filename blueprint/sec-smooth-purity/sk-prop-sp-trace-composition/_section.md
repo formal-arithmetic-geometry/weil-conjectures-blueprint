@@ -2,7 +2,7 @@
 id = "sk-prop-sp-trace-composition"
 kind = "proposition"
 title = "Transitivity of the smooth trace"
-order = 1835
+order = 3060
 uses = ["sk-def-sp-trace", "sk-prop-sp-composition"]
 tags = ["sketch"]
 +++

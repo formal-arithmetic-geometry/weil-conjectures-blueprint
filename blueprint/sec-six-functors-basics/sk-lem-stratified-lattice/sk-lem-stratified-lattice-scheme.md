@@ -2,6 +2,7 @@
 id = "det-lem-stratified-lattice-scheme"
 kind = "lemma"
 title = "The sheaf of lattices is a separated étale scheme"
+order = 2186
 uses = ["det-lem-stratified-lattice-rank", "det-prop-sfb-qlbar-colimit-x-invert-ell"]
 +++
 Let $X$ be a qcqs scheme and $L$ a lisse $E_X$-module of constant rank $r$. Let $\mathcal{L}\mathit{at}$

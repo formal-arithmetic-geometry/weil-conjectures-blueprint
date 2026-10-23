@@ -2,21 +2,26 @@
 id = "det-nagata-density-normalization-sheaves"
 kind = "lemma"
 title = "Extension by zero through the schematic closure"
-uses = ["det-nagata-density-normalization-setup", "sk-prop-sf-open-closed-triangle"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekRefinement", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinement", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekRefinementPushforward", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward_padicAlgCl"]
+order = 1272
+uses = ["det-nagata-density-normalization-setup", "lem-cbc-proetale-extension-zero", "lem-cbc-proetale-extension-zero-base-change", "lem-exc-proetale-closed-essential-image", "lem-exc-proetale-closed-exact", "lem-weil-extension-by-zero-exact"]
 +++
-In the situation of [det-nagata-density-normalization-setup], let
-$\Lambda$ be a condensed coefficient ring with pulled-back coefficient
-sheaves $\Lambda_X,\Lambda_Z,\Lambda_{\overline X}$. For every sheaf $M$ of
-$\Lambda_X$-modules on $X_{\mathrm{pro\acute{e}t}}$ the unit
-$\eta:j_!M\to i_*i^*j_!M$ of $i^*\dashv i_*$ is an isomorphism, and the
-base-change isomorphism $i^*j_!M\simeq j_{Z,!}M$ identifies it with a natural
-isomorphism
+In the situation of [det-nagata-density-normalization-setup], assume that
+$X$ and $\overline X$ are separated schemes of finite type over a field $k$
+of positive characteristic different from $\ell$, and let $\Lambda$ be the condensed
+coefficient ring of a finite extension $E/\Ql$ or of $\Qlb$, with pulled-back
+coefficient sheaves $\Lambda_X,\Lambda_Z,\Lambda_{\overline X}$. For every
+bounded constructible complex $K\in D^b_c(X,\Lambda)$:
 
-$$
-j_!M\xrightarrow{\ \sim\ }i_*j_{Z,!}M .
-$$
+1. the *restriction comparison* $j_{Z,!}K\to i^*j_!K$, the map adjoint under
+   $j_{Z,!}\dashv j_Z^*$ to the identification
+   $K\cong j^*j_!K\cong j_Z^*i^*j_!K$, is an isomorphism;
+1. the *pushforward comparison*
+   $$
+   j_!K\longrightarrow Ri_*i^*j_!K\cong Ri_*j_{Z,!}K,
+   $$
+   the unit of $i^*\dashv Ri_*$ followed by the inverse of the restriction
+   comparison, is an isomorphism.
 
-Consequently, for every complex $K$ of $\Lambda_X$-modules (unbounded), the
-same map, applied degreewise, is an isomorphism of complexes
-$j_!K\simeq i_*j_{Z,!}K$, and it induces the identification
-$j_!K\simeq i_*j_{Z,!}K$ in $D(\overline X_{\mathrm{pro\acute{e}t}},\Lambda_{\overline X})$.
+Since $i_*$ is exact, $Ri_*j_{Z,!}K=i_*j_{Z,!}K$, so $j_!K\simeq i_*j_{Z,!}K$
+in $D^b_c(\overline X,\Lambda)$.

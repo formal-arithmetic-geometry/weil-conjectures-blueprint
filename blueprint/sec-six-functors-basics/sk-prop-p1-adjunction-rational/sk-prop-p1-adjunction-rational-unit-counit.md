@@ -2,6 +2,7 @@
 id = "det-prop-p1-adjunction-rational-unit-counit"
 kind = "definition"
 title = "Unit and counit for the rational projective line"
+order = 2440
 uses = ["sk-prop-diagonal-tower", "sk-thm-sf-pf-field", "def-amb-p1-trace"]
 +++
 Let $\Lambda=E$ or $\Qlb$, $q:P=\mathbf P^1_Y\to Y$, $W=P\times_YP$ with

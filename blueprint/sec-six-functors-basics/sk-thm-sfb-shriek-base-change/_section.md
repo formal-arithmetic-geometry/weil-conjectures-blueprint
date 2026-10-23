@@ -2,13 +2,13 @@
 id = "sk-thm-sfb-shriek-base-change"
 kind = "theorem"
 title = "Base change for the lower shriek on $D_{\\mathrm{cons}}$"
-order = 1697
+order = 2597
 uses = ["sk-def-sfb-shriek-base-change-morphism"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerShriekBaseChange", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerShriekBaseChange_padicAlgCl"]
 tags = ["sketch"]
 +++
 Let $\Lambda$ be $\underline E$ for a finite extension $E$ of $\mathbf Q_\ell$
-([sk-def-sfb-condensed-ring]) or $\Lambda=\underline{\Qlb}$ ([sk-def-sfb-qlbar-condensed]). For
+([det-def-sfb-condensed-ring]) or $\Lambda=\underline{\Qlb}$ ([det-def-sfb-qlbar-condensed]). For
 every cartesian square
 
 $$

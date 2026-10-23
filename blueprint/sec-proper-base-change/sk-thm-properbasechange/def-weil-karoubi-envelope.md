@@ -2,9 +2,10 @@
 id = "def-weil-karoubi-envelope"
 kind = "definition"
 title = "Karoubi envelope"
-order = 1275
+order = 1972
+lean = ["CategoryTheory.Idempotents.Karoubi", "CategoryTheory.Idempotents.Karoubi.Hom", "CategoryTheory.Idempotents.toKaroubi"]
 +++
-For an additive category $\mathcal T$, the *Karoubi envelope*
+For a category $\mathcal T$ (in the applications an additive category), the *Karoubi envelope*
 $\Kar(\mathcal T)$ has objects $(K,e)$, where $K\in\mathcal T$ and
 $e\in\operatorname{End}_{\mathcal T}(K)$ satisfies $e^2=e$, and morphisms
 $u:(K,e)\to(L,d)$ the morphisms $u\in\Hom_{\mathcal T}(K,L)$ satisfying

@@ -2,6 +2,8 @@
 id = "lem-weil-pbc-inverse-image-preserves-colimits"
 kind = "lemma"
 title = "Inverse image of etale abelian sheaves commutes with colimits"
+lean = ["AlgebraicGeometry.Etale.inverseImage_preservesColimits"]
+order = 2017
 uses = ["def-weil-pbc-inverse-image", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-category-colimit"]
 tags = ["stacks-0038"]
 +++

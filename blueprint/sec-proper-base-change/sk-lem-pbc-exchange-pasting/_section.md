@@ -2,13 +2,14 @@
 id = "sk-lem-pbc-exchange-pasting"
 kind = "lemma"
 title = "Identity and pasting"
-order = 1045
+order = 1530
+lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_id", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
 uses = ["sk-def-exchange"]
 tags = ["sketch"]
 +++
 Let $K\in D^+(X_{\Et},\Lambda)$. Exchange [sk-def-exchange] is the identity
 for an identity square, and is compatible with horizontal and vertical pasting
-of cartesian squares. More explicitly, if $h:Y''\to Y'$ is a second base
+of commutative squares, in particular of cartesian squares. More explicitly, if $h:Y''\to Y'$ is a second base
 change, with induced maps $h':X''\to X'$ and $f'':X''\to Y''$, the exchange
 map for $gh$ is the composite in $D^+(Y''_{\Et},\Lambda)$
 

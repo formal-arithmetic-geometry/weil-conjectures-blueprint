@@ -2,8 +2,8 @@
 id = "sec-six-functors-basics"
 kind = "section"
 title = "Six Functors: Basic Constructions"
-order = 1505
-uses = ["sec-nagata-compactification", "sec-picard-framework", "sec-proetale-coefficients", "sec-proper-base-change", "sec-smooth-base-change"]
+order = 2118
+uses = ["sec-abelian-varieties", "sec-curve-estimates", "sec-nagata-compactification", "sec-picard-framework", "sec-proetale-coefficients", "sec-proper-base-change", "sec-smooth-base-change", "sk-def-exchange", "sk-def-pbc-conventions", "sk-lem-curve-normalization", "sk-lem-pbc-finite", "sk-prop-curve-affine-kummer", "sk-thm-br", "sk-thm-curveestimate"]
 +++
 **Content.** This section sets up the pro-étale derived categories and the six
 functors on which the later six-functor sections rest, following
@@ -13,14 +13,14 @@ $X_{\mathrm{proét}}$ take values in a fixed closed symmetric monoidal
 Grothendieck abelian category $\mathcal A$, for instance $\mathcal A=\Mod_R$ for a
 finite ring $R$. Layer (B) handles the non-finite coefficients
 $\mathbb Z_\ell,\mathbb Q_\ell,\cO_E,E,\Qlb$. A commutative condensed ring
-$\Lambda$ ([sk-def-sfb-condensed-ring], [sk-def-sfb-qlbar-condensed]) is pulled back from the point to a
+$\Lambda$ ([det-def-sfb-condensed-ring], [det-def-sfb-qlbar-condensed]) is pulled back from the point to a
 ring object $\Lambda_X=p_X^*\Lambda$ of $\Sh(X_{\mathrm{proét}},\Ab)$
-([sk-def-sfb-pulled-back-coefficients]). Sheaves are module objects over
-$\Lambda_X$ ([sk-def-sfb-module-objects]). Since $f^*\Lambda_Y\cong\Lambda_X$
+([det-def-sfb-pulled-back-coefficients]). Sheaves are module objects over
+$\Lambda_X$ ([det-def-sfb-module-objects]). Since $f^*\Lambda_Y\cong\Lambda_X$
 for every $f$ ([sk-prop-sfb-cartesian-coefficients]), the functors of layer (B)
 come from those of layer (A) with $\mathcal A=\Ab$, by transporting module
-structures and changing scalars ([sk-def-sfb-transport],
-[sk-def-sfb-change-of-scalars]).
+structures and changing scalars ([det-def-sfb-transport],
+[det-def-sfb-change-of-scalars]).
 
 The route is as follows:
 - sheaf tensor product and ring objects;
@@ -28,7 +28,7 @@ The route is as follows:
 - module objects and change of scalars;
 - derived categories, the comparison of $E$- with $\cO_E$-coefficients
   ([sk-thm-sfb-rationalization-comparison]), and constructibility
-  ([sk-def-sfb-bounded-constructible]);
+  ([det-def-sfb-bounded-constructible]);
 - the six functors of layer (A), then of layer (B);
 - change of coefficients, ending with
   $D_{\mathrm{cons}}(X,\Qlb)=2\text{-}\colim_E D_{\mathrm{cons}}(X,E)$

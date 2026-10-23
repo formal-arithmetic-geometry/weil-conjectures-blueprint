@@ -2,7 +2,7 @@
 id = "sk-prop-pe-finite-local-systems"
 kind = "proposition"
 title = "Locally constant sheaves of finite presentation"
-order = 732
+order = 1047
 uses = ["sk-lem-pe-torsor-comparison", "sk-thm-pe-classical-sheaves", "sk-def-sfb-constructible"]
 tags = ["sketch"]
 +++

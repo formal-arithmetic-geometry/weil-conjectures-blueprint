@@ -2,6 +2,7 @@
 id = "det-ctf-finite-compact-etale"
 kind = "lemma"
 title = "Finite-Tor constructible complexes are compact in the étale derived category"
+order = 2297
 uses = ["sk-lem-sf-flat-model", "sk-lem-formal-closed-support"]
 +++
 Let $A$ be a finite $\ell$-primary ring and $X$ a scheme of the standing setting (finite type over the base

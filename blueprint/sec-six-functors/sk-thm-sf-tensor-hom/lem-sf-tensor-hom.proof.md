@@ -27,4 +27,4 @@ adjunction together with $Lf^*\dashv Rf_*$. Step 2: the chain is natural
 in $L$, so the two objects represent the same functor on
 $D^b_{ctf}(Y,\Lambda)$; the Yoneda lemma applied to degree-zero morphisms
 of that triangulated category gives the canonical isomorphism, whose
-naturality and compatibilities are those of the ingredients.
+naturality and compatibility with shifts are those of the ingredients.

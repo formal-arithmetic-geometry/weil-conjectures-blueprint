@@ -44,8 +44,7 @@ $K$. Its smooth locus is open and dense
 ([Stacks 056V](https://stacks.math.columbia.edu/tag/056V)), hence contains
 a $K$-point $a$, and translation by $ga^{-1}$ carries $a$ to any
 $g\in G(K)$. So $G_{\mathrm{red}}$ is smooth at every closed point, hence
-smooth by Step 2 (for a matrix group this is (2) of
-[lem-wf-same-lie-closed-subgroup]).
+smooth by Step 2.
 
 **Step 4: Cartier's step.** Let $\mathcal O=\mathcal O_{G,1}$ with maximal
 ideal $\mathfrak m$ and nilradical $N$, and let $\hat{\mathcal O}$ be its

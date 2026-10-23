@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-coefficient-conventions-1"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-coefficient-conventions]"
-order = 2611
+order = 3622
 uses = ["def-trf-coefficient-conventions", "prop-trf-compact-support-perfectness"]
 +++
 In the notation of [def-trf-coefficient-conventions], the perfectness assertion for this

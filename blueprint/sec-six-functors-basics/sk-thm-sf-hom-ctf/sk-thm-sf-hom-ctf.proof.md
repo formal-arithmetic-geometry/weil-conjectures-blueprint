@@ -20,7 +20,7 @@ $\RHom$ of the stalks (the example above), and one argues geometrically. No
 admissibility datum on the structure morphism $a_X$ is assumed: the general
 interval rests on [sk-prop-sf-biduality-general], whose dualizing complex is
 formed with the unconditional constructible adjoint $Ra_X^!$ of
-[sk-def-sf-operations] (vi) — Brown representability gives the étale
+[det-def-sf-operations] (vi) — Brown representability gives the étale
 adjoint of $Ra_{X!}$ for the compactifiable $a_X$ between Noetherian schemes
 ([def-weil-exceptional-inverse-image]), [thm-sf-ambient-adjoint-class] transports it to $\Dctf$, and the preservation clauses are
 [sk-prop-sf-rf-shriek-preservation]. By

@@ -3,7 +3,7 @@ id = "def-zl-frobenius-trace-series"
 kind = "definition"
 title = "Frobenius trace series"
 lean = ["AlgebraicGeometry.WeilSheaf.adicConstantAlternatingTraceSeries", "AlgebraicGeometry.WeilSheaf.coeff_adicConstantAlternatingTraceSeries", "AlgebraicGeometry.WeilSheaf.adicConstantAlternatingTraceSeries_eq_sum", "LinearMap.constantCoeff_traceSeries", "LinearMap.coeff_alternatingTraceSeries", "LinearMap.constantCoeff_alternatingTraceSeries", "FrobeniusModule.traceSeries", "FrobeniusModule.coeff_zero_localPolynomial", "FrobeniusModule.natDegree_localPolynomial", "FrobeniusModule.leadingCoeff_localPolynomial", "FrobeniusModule.alternatingTraceSeries", "FrobeniusModule.coeff_alternatingTraceSeries"]
-order = 2732
+order = 3684
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-weil-sheaf-complex"]
 +++
 Fix the finite-field datum

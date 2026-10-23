@@ -1,24 +1,27 @@
 +++
 id = "sk-p-readout"
-kind = "proposition"
-title = "Central scalars and weight readout"
-order = 2896
-uses = ["sk-d-central", "sk-d-linear", "sk-d-monodromy", "sk-d-tangent", "sk-d-weights", "sk-r-linear-library"]
+kind = "lemma"
+title = "Determinant weight from a central scalar"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair"]
+order = 3776
+uses = ["sk-d-weights", "sk-i-restriction", "sk-p-central", "sk-r-linear-library"]
 tags = ["sketch"]
 +++
-Fix a real weight character $\lambda$,
-monodromy data and a
-positive central pair $(N,z)$.
-Let $Q=S/U\ne0$ be a $W$-subquotient of the
-defining representation $V=k^n$ of the datum, with
-finite geometric determinant. If $z$ acts on
-$Q$ as a scalar $c_Q\in k^\times$, then
+Suppose $Q$ is a nonzero subquotient of a tensor construction on the
+semisimple representation used in [sk-p-central]. Suppose that $Q$ has
+finite geometric determinant and that $z=hF^N$ acts on $Q$ by a scalar
+$c_Q$. Then
 
 $$
-\dw_\lambda(Q)=\frac{\lambda(c_Q)}{N}.
+\dw_\iota(Q)=\frac{\lambda_\iota(c_Q)}{N}.
 $$
 
-The scalar-action hypothesis holds whenever $Q$ is simple and $k$ is
-algebraically closed.
-The determinant weight is independent of the chosen degree-one lift.
+In particular the formula applies to every simple such subquotient with
+finite geometric determinant.
+
+*Complement.* The same holds for any real weight character $\lambda$ of
+[sk-d-weights] in place of $\lambda_\iota$, and for any positive central
+pair $(N,z)$ of a represented datum over an algebraically closed field $k$
+and any nonzero $W$-subquotient $Q$ of its defining representation $k^n$
+with finite geometric determinant on which $z$ acts by a scalar; this does
+not use the existence statement of [sk-p-central].

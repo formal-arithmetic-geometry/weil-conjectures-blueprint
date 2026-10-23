@@ -2,7 +2,7 @@
 kind = "proof"
 of = "sk-thm-curveestimate"
 +++
-Pull back the Kummer sequence of $C_{\mathrm{ét}}$ ([sk-def-kummer]) by
+Pull back the Kummer sequence of $C_{\mathrm{ét}}$ ([def-sc-kummer-sequence]) by
 $\nu_C^*$; it is the exact sequence of sheaves on $C_{\mathrm{proét}}$
 
 $$
@@ -10,7 +10,7 @@ $$
 \xrightarrow{(\cdot)^n}\mathcal G_m^{\mathrm{cl}}\longrightarrow0.
 $$
 
-Exactness is local ([sk-prop-kummer-exact]): for a unit $a$, the equation
+Exactness is local ([lem-sc-kummer-exact]): for a unit $a$, the equation
 $T^n=a$ defines an étale cover, since $n$ and $T$ are invertible. Global
 units on the proper connected curve are $k^\times$, an $n$-divisible group.
 [sk-thm-br] therefore turns the long exact sequence into
@@ -20,7 +20,7 @@ H^1(C,\mu_n)=\operatorname{Pic}(C)[n],\qquad
 H^2(C,\mu_n)=\operatorname{Pic}(C)/n,
 $$
 
-with all higher groups zero ([sk-prop-h1], [sk-prop-h2]).
+with all higher groups zero ([det-prop-h1], [lem-sc-kummer-les]).
 
 The degree sequence of [sk-cor-picard-degree] is
 
@@ -35,10 +35,10 @@ snake lemma gives the two identifications asserted above, and $J[n](k)$ is
 noncanonically isomorphic to $(\Z/n)^{2g}$. This is the calculation of
 (Stacks, Tag 03RQ).
 
-Under an algebraically closed extension $k'/k$, $J$ and $J[n]$ base change to
-the corresponding objects for $C_{k'}$. The map $J[n](k)\to J[n](k')$ is
-bijective because a finite étale scheme over an algebraically closed field is
-a finite disjoint union of copies of its spectrum; the same holds for roots
-of unity. Pullback of a line bundle preserves degree. Hence the pullback maps
-on cohomology themselves are isomorphisms. Finally [sk-prop-sf-comparison]
+Under an algebraically closed extension $k'/k$, the schemes $J$ and $J[n]$
+base change to the corresponding objects for $C_{k'}$, and the map
+$J[n](k)\to J[n](k')$ is bijective by [sk-cor-jacobian-torsion]. The same
+argument applies to the finite étale scheme $\mu_n$, and pullback of line
+bundles preserves the degree. Hence the pullback maps on cohomology are
+isomorphisms. Finally [sk-prop-sf-comparison]
 identifies these étale groups and maps with the pro-étale ones.

@@ -2,8 +2,9 @@
 id = "sk-cor-picard-degree"
 kind = "corollary"
 title = "The degree sequence"
-order = 611
-uses = ["sk-thm-picard-main"]
+order = 872
+lean = ["AlgebraicGeometry.Scheme.picDegreeHom", "AlgebraicGeometry.Scheme.surjective_picDegreeHom", "AlgebraicGeometry.Scheme.coe_ker_picDegreeHom", "AlgebraicGeometry.Scheme.exists_mulEquiv_prod_ker_picDegreeHom", "AlgebraicGeometry.exists_jacobian"]
+uses = ["sk-thm-picard-main", "sec-abelian-varieties"]
 tags = ["sketch"]
 +++
 For $C/k$ as in [sk-thm-picard-main] ($k$ algebraically closed, $C$ a

@@ -2,15 +2,15 @@
 id = "det-pe-wlocal-strict-contractible"
 kind = "definition"
 title = "w-strictly local and w-contractible rings"
+lean = ["IsWLocalRing", "IsWStrictlyLocalRing", "IsWContractibleRing", "IsStrictlyHenselianLocalRing", "ExtremallyDisconnected"]
+order = 927
 uses = ["def-weil-pbc-w-local", "def-weil-pbc-henselian-terminology", "det-pe-wlocal-components"]
 +++
 Let $R$ be a ring and $T=\operatorname{Spec}R$, a spectral space with set $T^c$ of closed
 points (the maximal ideals of $R$).
 
-1. $R$ is *w-local* if $T^c$ is closed in $T$ and every prime of $R$ is contained in exactly
-   one maximal ideal. By [det-pe-wlocal-components] this agrees with
-   [def-weil-pbc-w-local]: $T^c$ closed and every connected component of $T$ has exactly
-   one closed point.
+1. $R$ is *w-local* if $T$ is w-local [def-weil-pbc-w-local]: $T^c$ is closed in $T$ and
+   every prime of $R$ is contained in exactly one maximal ideal.
 2. $R$ is *w-strictly local* if it is w-local and, for every maximal ideal $\mathfrak m$,
    the local ring $R_{\mathfrak m}$ is strictly henselian
    [def-weil-pbc-henselian-terminology].

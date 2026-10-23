@@ -3,7 +3,7 @@ id = "def-weil-pbc-constructible-complexes"
 kind = "definition"
 title = "Constructible finite-coefficient complexes"
 lean = ["AlgebraicGeometry.Etale.DerivedCategoryBoundedConstructible"]
-order = 1159
+order = 1053
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++
 Let $\Lambda$ be a finite commutative ring. A sheaf of $\Lambda_T$-modules on

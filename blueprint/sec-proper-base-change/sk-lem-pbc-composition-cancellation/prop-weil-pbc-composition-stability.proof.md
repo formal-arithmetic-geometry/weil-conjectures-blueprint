@@ -1,16 +1,22 @@
 +++
 kind  = "proof"
 of    = "prop-weil-pbc-composition-stability"
+uses = ["def-weil-pbc-derived-exchange", "lem-weil-pbc-direct-image-preserves-injectives", "lemma-weil-pbc-property-iff-acyclicity"]
 +++
-After an arbitrary base change $c:Z'\to Z$, write $Y'=Y\times_ZZ'$,
-$X'=X\times_ZZ'$, with projections $b:Y'\to Y$ and $a:X'\to X$, and
-base-changed maps $f'$, $h'$. Let $I$ be injective in $\mathbf F_r$-module
-sheaves on $X$. By [lem-weil-pbc-direct-image-preserves-injectives] the sheaf
-$f_*I$ is injective on $Y$. $\mathrm{IA}_r(f)$ gives $R^qf'_*a^{-1}I=0$ for
-$q>0$, and the underived proper exchange identifies $f'_*a^{-1}I\cong
-b^{-1}f_*I$; $\mathrm{IA}_r(h)$ applied to the injective $f_*I$ makes this
-sheaf $h'_*$-acyclic. The Grothendieck spectral sequence of
-[lem-weil-pbc-grothendieck-spectral-sequence] therefore vanishes in every
-positive total degree, giving $\mathrm{IA}_r(hf)$, and $\mathrm{PBC}(hf)$ by
-the equivalence between $\mathrm{PBC}$ and $\mathrm{IA}$ recorded with
-[def-weil-pbc-property].
+(1) Since $\Lambda$ is torsion, every complex of sheaves of $\Lambda$-modules has
+torsion cohomology sheaves, so torsion base change over $\Lambda$ says that the
+derived exchange morphism [def-weil-pbc-derived-exchange] is an isomorphism on
+all of $\Dplus$. Given a cartesian square for $hf$ along $c:Z'\to Z$, form the
+base changes $Y'=Y\times_ZZ'$ and $X'=X\times_YY'$; the square for $hf$ is the
+vertical pasting of the square for $f$ along $b:Y'\to Y$ and the square for $h$
+along $c$. The exchange morphism of the pasted square is the composite of
+$c^{-1}$-whiskered and $Rh'_*$-whiskered exchange morphisms of the two squares,
+up to the composition isomorphisms of inverse images and of derived direct
+images (the latter exist because direct images preserve injectives,
+[lem-weil-pbc-direct-image-preserves-injectives]); both are isomorphisms, hence
+so is their composite.
+
+(2) For proper morphisms, injective acyclicity over $\Lambda$ is equivalent to
+torsion base change over $\Lambda$
+([lemma-weil-pbc-property-iff-acyclicity]); $hf$ is proper, so (2) follows from
+(1). This is Stacks Project, Tag 0A4D.

@@ -1,15 +1,16 @@
 +++
 id = "sk-p-dl-a1-perverse"
 kind = "proposition"
-title = "Fourier exactness on a curve"
-order = 3081
-uses = ["sk-d-dl-a1-setup", "sk-l-dl-a1-endpoints", "sk-prop-kernel-lisse", "sk-prop-stalk", "sk-thm-inversion"]
+title = "Fourier transform and the perverse heart"
+order = 3984
+uses = ["sk-l-dl-a1-endpoints", "sk-lem-wft-character-integral", "sk-lem-wft-curve-heart", "sk-thm-inversion"]
 lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseUpper", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.WeilComplex.IsCurvePerverse", "AlgebraicGeometry.isCurvePerverse_fourierTransform_obj_iff"]
 tags = ["sketch"]
 +++
-For nontrivial $\psi$, the transform $\DLAFT_\psi$ is an exact equivalence of the perverse
-categories of the two affine lines. On a smooth curve these categories
-are constructed from ordinary cohomology: the upper class has
-$\mathcal H^aK=0$ for $a>0$ and $\mathcal H^0K$ of finite support;
-the lower class has $\mathcal H^aK=0$ for $a<-1$ and
-$\mathcal H^{-1}K$ with no nonzero finite-support subsheaf.
+On the geometric affine line, $\operatorname{FT}_\psi$ is a t-exact
+equivalence of bounded constructible derived categories, for the
+t-structure of [sk-lem-wft-curve-heart], hence an exact equivalence of
+their perverse hearts, with inverse
+$\operatorname{FT}_{\psi^{-1}}(-)(1)$. Its canonical Frobenius
+compatibilities induce the same exact equivalence on the perverse Weil
+hearts.

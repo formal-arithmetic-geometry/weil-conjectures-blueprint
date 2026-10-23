@@ -1,52 +1,57 @@
 +++
 kind  = "proof"
 of    = "sk-p-real-rankin"
-uses = ["sk-d-real-cohom", "sk-d-real-series", "sk-p-linear-spectra", "sk-p-real-rankone", "sk-p-tensor"]
 +++
-For $m\ge1$, put $\mathcal H_m=\mathcal F^{\otimes2m}$.
-The tensor rule in [sk-p-tensor] bounds its constituent determinant
-weights by $2md$. By [sk-thm-derived-duality], [sk-d-real-operations],
-$H_c^2(U,\mathcal H_m)= (\mathcal H_{m,\bar\eta})_{\pi_1(U)}(-1)$.
-On the untwisted quotient only one Frobenius operator remains.
-Triangularize it by [sk-p-linear-triangular]. Its one-dimensional successive
-quotients $B_b$ are also constituents of $\mathcal H_m$, so
-[sk-d-real-detweights] gives $|\iota b|\le q^{md}$.
-Thus top-cohomology eigenvalues have modulus at most $q^{md+1}$.
-Using $H_c^0=0$, [sk-thm-trace-transport] and [sk-d-real-cohom],
-together with the elementary fact that a Cauchy product preserves a common
-lower bound on radii, yields
+We first bound the top cohomology of the even tensor powers.
+Replacing $\mathcal G$ by its Weil semisimplification does not change
+its local characteristic polynomials or the determinant weights of its
+constituents ([sk-p-linear-filtration]). We may therefore
+assume that $\mathcal G$ is semisimple; then its restriction to the
+geometric fundamental group is semisimple by [sk-i-restriction].
+
+Fix $k\ge1$ and put $\mathcal T=\mathcal G^{\otimes2k}$. Iterating the
+tensor formula of [sk-p-tensor] $2k$ times, we see that every constituent of
+$\mathcal T$ has determinant weight at most $2k\beta$; the hypotheses on
+finite geometric determinants hold for all constituents involved by
+[sk-d-real-detweights] (this is [sk-cor-walg-curve-calculus]).
+
+By [sk-lem-wrp-hc2], $H_c^2(U,\mathcal T)=T_P(-1)$, where $T$ is
+the generic fibre of $\mathcal T$. The geometric group acts trivially
+on $T_P$, so its simple Weil factors are one-dimensional, as one sees
+by triangularizing the operator induced by a degree-one lift. If
+$b$ is the eigenvalue on such a factor, the factor is a constituent of
+$\mathcal T$ with determinant weight $\lambda_\iota(b)$, and hence
+$|\iota(b)|\le q^{k\beta}$ ([lem-rp-hc2-eigenvalue-determinant-weight]).
+Therefore every eigenvalue $\lambda$ on $H_c^2$ satisfies
+$|\iota(\lambda)|\le q^{k\beta+1}$.
+
+Next we compare the global Euler product with its local factors.
+By [sk-thm-trace-transport] and since $H_c^0=0$, we have
 
 $$
-R\bigl(L_\iota(U_0,\mathcal H_m,T)\bigr)
-\ge R_m=q^{-md-1}.
+ L(U_0,\mathcal T,t)
+ =\prod_{x\in|U_0|}\det(1-F_xt^{d(x)}\mid\mathcal T_{\bar x})^{-1}
+ =\frac{\det(1-Ft\mid H_c^1(U,\mathcal T))}
+        {\det(1-Ft\mid H_c^2(U,\mathcal T))}
 $$
 
-For any matrix $A$, triangularization and the formal geometric series give
+([cor-rp-euler-product]). This is an identity of formal power series, and
+the product is coefficientwise locally finite because there are only finitely
+many closed points of bounded degree. After applying $\iota$, the bound on
+$H_c^2$ shows that the denominator has no zero on the disc $|t|<R_k$,
+where $R_k=q^{-k\beta-1}$. Hence the rational function, and with it
+its Taylor series, is holomorphic on this disc.
+
+By [sk-lem-wrp-positive-euler], each local factor
+$\det(1-F_xt^{d(x)}\mid\mathcal T_{\bar x})$ has no zero on the same
+disc. If $\alpha$ is a local eigenvalue of $\mathcal G$, then
+$\alpha^{2k}$ is an eigenvalue on $\mathcal T$ by [sk-p-linear-filtration].
+The roots of $1-\iota(\alpha)^{2k}t^{d(x)}$ have absolute value
+$|\iota(\alpha)|^{-2k/d(x)}$, which must therefore be at least $R_k$.
+Consequently
 
 $$
-\det(1-TA)^{-1}
-=\exp\left(\sum_{n\ge1}\Tr(A^n)\frac{T^n}{n}\right).
+ |\iota(\alpha)|^2\le q_x^{\beta+1/k}.
 $$
 
-In the local factor for $\mathcal H_m$, the trace inside the exponential
-is $(\iota\Tr(F_x^n\mid\mathcal F_{\bar x}))^{2m}\ge0$, since
-$\mathcal F$ is real in [sk-d-real-weights].
-Consequently all inverse local factors have nonnegative coefficients.
-For a locally finite product of such series with constant terms $1$,
-each coefficient of an individual factor is bounded by the corresponding
-coefficient of the product. By the radius definition in [sk-d-real-series],
-each factor therefore has radius at least $R_m$.
-
-If $\alpha$ is a local eigenvalue and $e=e_x$, then
-$\alpha^{2m}$ occurs on $\mathcal H_m$ by [sk-p-linear-spectra].
-Its local denominator has a root of modulus
-$|\iota\alpha|^{-2m/e}$; since $B(0)=1$ and $R(B^{-1})\ge R_m$ force every
-zero of $B$ to have modulus at least $R_m$ (a zero cannot cancel the
-numerator $1$), this gives
-
-$$
-|\iota\alpha|^{-2m/e}\ge q^{-md-1},\qquad
-\wt_{\iota,q_x}(\alpha)\le d+\frac1m .
-$$
-
-Letting $m\to\infty$ proves the desired bound.
+Letting $k$ tend to infinity proves the bound ([lem-rp-upper-bound]).

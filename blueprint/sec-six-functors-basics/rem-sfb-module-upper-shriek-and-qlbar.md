@@ -2,7 +2,7 @@
 id = "rem-sfb-module-upper-shriek-and-qlbar"
 kind = "remark"
 title = "No ambient exceptional pullback; $\\Qlb$-coefficients"
-order = 1688
+order = 2567
 +++
 **No exceptional pullback on the ambient category.** On module objects, $Rf^!$ is not
 defined on the unbounded $D(\Mod_{\Lambda_X})$. It is constructed directly on the
@@ -19,7 +19,7 @@ input. Layer (A) keeps its unbounded $Rf^!$ ([sk-def-sfb-finite-upper-shriek]).
 
 **$\Qlb$-coefficients.** There is no separate construction of the six functors with
 $\Qlb$-coefficients: they are the instance $\Lambda=\underline{\Qlb}$
-([sk-def-sfb-qlbar-condensed]) of the constructions for a general commutative
+([det-def-sfb-qlbar-condensed]) of the constructions for a general commutative
 condensed ring, and nothing in those constructions depends on the form of the
 coefficient ring. So $\Qlb$-sheaves are modules over the ring object
 $\underline{\Qlb}_X=p_X^*\underline{\Qlb}$ itself, not objects of a 2-colimit of the

@@ -2,8 +2,8 @@
 id = "sec-proetale-coefficients"
 kind = "section"
 title = "The Pro-étale Site and Coefficients"
-order = 700
-uses = ["sec-abelian-varieties", "sec-nagata-compactification", "sec-picard-framework"]
+order = 899
+uses = ["sec-nagata-compactification", "sec-picard-framework"]
 +++
 **Content.** The pro-étale site of a scheme and the coefficient categories built on it, as in
 §2–§3 of the notes on condensed coefficients and six functors. Weakly étale, ind-étale and

@@ -3,7 +3,7 @@ id = "def-weil-pbc-etale-sheaves"
 kind = "definition"
 title = "Sheaves of abelian groups and of modules"
 lean = ["AlgebraicGeometry.Scheme.IsLocallyConstantEtaleSheafOfSets", "AlgebraicGeometry.Scheme.IsLisseEtaleSheafOfSets", "AlgebraicGeometry.Scheme.etaleSetPullback", "AlgebraicGeometry.Scheme.IsConstructibleEtaleSheafOfSets", "AlgebraicGeometry.Scheme.HasTorsionEtaleCohomology", "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf", "CategoryTheory.Sheaf.IsTorsion", "AlgebraicGeometry.Scheme.isTorsionAbelianSheaf_characterizations", "AlgebraicGeometry.Scheme.constant_ratModIntSheaf_sections_not_torsion"]
-order = 587
+order = 602
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 For a scheme $T$, let $\Ab(T_{\Et})$ be the abelian category of sheaves of

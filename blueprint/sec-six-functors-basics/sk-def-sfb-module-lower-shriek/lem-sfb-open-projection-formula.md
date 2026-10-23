@@ -2,8 +2,8 @@
 id = "lem-sfb-open-projection-formula"
 kind = "lemma"
 title = "Projection formula for extension by zero"
-order = 1694
-uses = ["sk-def-sfb-sheaf-tensor", "sk-def-sfb-finite-pushforward-pullback", "sk-def-sfb-finite-lower-shriek"]
+order = 2536
+uses = ["lem-weil-pbc-sheaf-tensor-closed", "sk-def-sfb-finite-pushforward-pullback", "sk-def-sfb-finite-lower-shriek"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.hasProjectionFormula_openImmersion"]
 +++
 Let $j\colon U\to X$ be an open immersion, and $j^{\Ab}_!\dashv j^*_{\Ab}$ the
@@ -19,4 +19,4 @@ $$
 adjoint to $j^*_{\Ab}L\otimes M\to j^*_{\Ab}L\otimes j^*_{\Ab}j^{\Ab}_!M\cong
 j^*_{\Ab}(L\otimes j^{\Ab}_!M)$ (unit of $j^{\Ab}_!\dashv j^*_{\Ab}$ and strong
 monoidality of $j^*_{\Ab}$), is an isomorphism; here $\otimes$ is the tensor product
-of [sk-def-sfb-sheaf-tensor].
+of [lem-weil-pbc-sheaf-tensor-closed].

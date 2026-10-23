@@ -2,8 +2,8 @@
 id = "lem-kun-0bkz"
 kind = "lemma"
 title = "Cohomology of unbounded complexes"
-order = 2063
-uses = ["def-kun-rgamma-unbounded", "def-weil-pbc-etale-cohomology", "def-weil-pbc-hypercohomology-filtrations"]
+order = 3149
+uses = ["def-kun-rgamma-unbounded", "def-weil-pbc-etale-cohomology", "thm-sp-truncation-e2"]
 +++
 Let $X$ be a scheme, $K\in D(X_{\Et})$, and $\mathcal B$ a class
 of objects of $X_{\Et}$ such that (1) every object of $X_{\Et}$

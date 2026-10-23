@@ -3,7 +3,7 @@ id = "def-trf-integration"
 kind = "definition"
 title = "Integration along the structure morphism"
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.integration"]
-order = 2627
+order = 3636
 uses = ["def-compact-support-direct-image-detailed", "def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-dualizing-complex", "def-weil-derived-direct-image", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum

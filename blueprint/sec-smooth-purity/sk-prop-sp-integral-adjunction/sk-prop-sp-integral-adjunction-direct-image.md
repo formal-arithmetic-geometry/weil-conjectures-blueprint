@@ -2,6 +2,7 @@
 id = "det-sp-integral-direct-image-tower"
 kind = "lemma"
 title = "Tower description of the integral compactly supported direct image"
+order = 3024
 uses = ["det-sp-normalized-equivalence", "det-sp-tower-shriek-levels", "det-sp-tower-bound-uniform", "det-sp-reduction-direct-image"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$, with a

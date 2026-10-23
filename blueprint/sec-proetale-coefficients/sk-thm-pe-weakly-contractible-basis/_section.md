@@ -2,7 +2,8 @@
 id = "sk-thm-pe-weakly-contractible-basis"
 kind = "theorem"
 title = "Enough affine weakly contractible objects"
-order = 711
+order = 958
+lean = ["AlgebraicGeometry.Scheme.ProEt.exists_isWContractibleRing_cover", "AlgebraicGeometry.Scheme.ProEt.isWeaklyContractible_of_iso"]
 uses = ["sk-thm-pe-wc-cover", "sk-thm-pe-indetale-refinement", "sk-prop-pe-wc-rings", "sk-def-pe-site"]
 tags = ["sketch"]
 +++

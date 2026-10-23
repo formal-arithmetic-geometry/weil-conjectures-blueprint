@@ -2,6 +2,7 @@
 id = "det-tf-nearby-duality-proper"
 kind = "lemma"
 title = "Nearby duality and proper direct image"
+order = 3598
 +++
 Let $S$ be an excellent strictly henselian trait with special point $s$, generic point
 $\eta$ and geometric generic point $\bar\eta$, let $A$ be a finite commutative

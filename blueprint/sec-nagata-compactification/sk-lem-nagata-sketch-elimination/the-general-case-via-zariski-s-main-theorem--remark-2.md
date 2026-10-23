@@ -2,7 +2,7 @@
 id = "the-general-case-via-zariski-s-main-theorem--remark-2"
 kind = "remark"
 title = "Formalization route: Tag 081S from Theorem 2.4 and Zariski's Main Theorem"
-order = 234
+order = 326
 uses = ["cor-nagata-blowup-product-common-refinement", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-schematically-dense-blowup", "def-nagata-strict-transform", "thm-nagata-conrad-elimination"]
 +++
 [lemma-nagata-elimination-indeterminacy] (Stacks Tag 081S) can be

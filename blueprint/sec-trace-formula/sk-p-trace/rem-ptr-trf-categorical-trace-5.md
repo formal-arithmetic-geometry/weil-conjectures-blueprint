@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-categorical-trace-5"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-categorical-trace]"
-order = 2650
+order = 3467
 uses = ["def-trf-categorical-trace", "lem-trf-chain-supertrace"]
 +++
 In the notation of [def-trf-categorical-trace], the $A$-linearity of the trace, naturality, and

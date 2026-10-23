@@ -2,6 +2,7 @@
 id = "det-thm-sfb-shriek-base-change-proper-step"
 kind = "lemma"
 title = "The proper step of $\\mathrm{Ex}_!^c$ is invertible"
+order = 2598
 uses = ["det-def-sfb-shriek-base-change-morphism-definition", "det-thm-sfb-proper-base-change-rational", "sk-thm-sfb-proper-base-change"]
 +++
 Let $\Lambda=\underline E$ for a finite extension $E$ of $\mathbf Q_\ell$, or $\Lambda=\underline{\Qlb}$.

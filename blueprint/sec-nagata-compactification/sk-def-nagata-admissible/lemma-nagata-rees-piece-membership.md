@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-piece-membership"
 kind = "lemma"
 title = "Membership in one Rees piece"
-order = 24
+order = 159
 lean = ["AlgebraicGeometry.mem_reesGrading_iff_exists"]
 uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece"]
 +++

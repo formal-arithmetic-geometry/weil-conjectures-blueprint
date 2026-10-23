@@ -2,7 +2,7 @@
 id = "lemma-nagata-finite-type-ideal-power-in-ideal"
 kind = "lemma"
 title = "A power of a finite type ideal inside an ideal with larger zero set"
-order = 220
+order = 317
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_pow_le"]
 +++
 Let $X$ be quasi-compact and let $\mathcal A,\mathcal B\subseteq\mathcal O_X$ be

@@ -2,7 +2,7 @@
 id = "thm-nagata-blowup-universal-property"
 kind = "theorem"
 title = "[stacks-project]"
-order = 118
+order = 233
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_lift_blowup", "AlgebraicGeometry.Scheme.IdealSheafData.hom_ext_of_isInvertible_comap"]
 uses = ["def-nagata-invertible-ideal", "def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "def-nagata-relative-proj", "def-nagata-sheaf-rees-algebra", "lemma-nagata-invertible-ideal-tensor-power", "lemma-nagata-proj-chart-ring-cocycle", "lemma-nagata-relative-proj-base-change-arbitrary", "lemma-nagata-relative-proj-invertible-tensor-powers", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open"]
 +++

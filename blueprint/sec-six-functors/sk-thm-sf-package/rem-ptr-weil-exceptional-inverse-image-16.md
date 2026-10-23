@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-exceptional-inverse-image-16"
 kind = "remark"
 title = "Constructible exceptional inverse images for all admissible coefficient rings"
-order = 2550
+order = 3383
 uses = ["def-weil-exceptional-inverse-image", "lem-coef-finite-exceptional", "sk-thm-existence", "sk-def-sfb-dc-upper-shriek", "sk-prop-scalar-six"]
 +++
 The exceptional inverse image of

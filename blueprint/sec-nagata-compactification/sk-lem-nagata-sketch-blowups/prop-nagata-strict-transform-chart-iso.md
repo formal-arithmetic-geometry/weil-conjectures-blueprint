@@ -3,7 +3,7 @@ id = "prop-nagata-strict-transform-chart-iso"
 kind = "theorem"
 title = "Affine strict-transform chart formula"
 lean = ["AlgebraicGeometry.AffineBlowup.strictChartComparison_bijective", "AlgebraicGeometry.AffineBlowup.strictChartEquiv"]
-order = 159
+order = 270
 tags = ["latex:proposition"]
 uses = ["def-nagata-strict-transform-chart-comparison", "lemma-nagata-strict-chart-map-kernel", "lemma-nagata-strict-chart-map-surjective"]
 +++

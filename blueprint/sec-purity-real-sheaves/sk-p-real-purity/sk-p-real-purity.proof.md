@@ -2,44 +2,72 @@
 kind  = "proof"
 of    = "sk-p-real-purity"
 +++
-There is nothing to show for $\mathcal F=0$.
-By [sk-r-real-linear], its semisimplification $\mathcal S$ has the same local
-polynomials and is real. Choose a nonempty affine open $U_0\subset C_0$.
-By [sk-i-real-boundary], restriction preserves irreducibility. It preserves
-determinants and their weights by [sk-p-real-rankone], [sk-d-real-detweights].
-
-Work first on $U_0$, and fix a nonzero weight block $\mathcal S(\gamma)$.
-Use $N=N_\gamma$ and $B=B_\gamma$ from [sk-d-real-detweights].
-The sheaf $\mathcal E=\bigwedge^{N+1}\mathcal S$ is nonzero and real
-by [sk-r-real-linear]. The exterior rule of [sk-p-exterior] bounds its
-constituent determinant weights by $B+\gamma$: the largest sum of
-$N+1$ rank-counted entries takes every entry above $\gamma$ and one
-entry equal to $\gamma$.
-
-At a point of degree $e$, multiply a chosen eigenvalue $\alpha$ in
-the $\gamma$-block by all eigenvalues of all higher blocks, with
-multiplicity. The resulting $\delta$ occurs on $\mathcal E$ by
-[sk-p-linear-spectra]. The determinants of the higher blocks have modulus
-$q^{eB/2}$ by [sk-p-real-rankone], [sk-d-real-detweights]. Therefore [sk-p-real-rankin]
-gives
+We first prove the assertion on an affine curve. Replacing the sheaf
+by its semisimplification does not change its local characteristic
+polynomials ([sk-r-real-linear], [lem-wf-real-semisimplification]), so we may
+write
 
 $$
-|\iota\alpha|q^{eB/2}=|\iota\delta|
-\le q^{e(B+\gamma)/2},\qquad
-|\iota\alpha|\le q^{e\gamma/2}.
+ \mathcal G=\bigoplus_{i=1}^t\mathcal G_i,
+ \qquad \gamma_1>\cdots>\gamma_t,
+ \qquad r_i=\operatorname{rank}\mathcal G_i,
 $$
 
-The individual block need not be real: the real object used here is
-the exterior power of the whole $\mathcal S$.
+where $\mathcal G_i$ is the sum of the irreducible constituents with
+determinant weight $\gamma_i$ ([def-rp-weight-blocks]).
 
-If $\alpha_1,\ldots,\alpha_r$ are the eigenvalues of that block, then
+Fix $i$, set $N=\sum_{j<i}r_j$, and put
+$B=\sum_{j<i}r_j\gamma_j$. By [sk-p-exterior] and [sk-d-real-detweights]
+(that is, by [sk-cor-walg-curve-calculus]), the largest determinant weight of a
+constituent of $\bigwedge^{N+1}\mathcal G$ is $B+\gamma_i$. Indeed,
+it is obtained by taking $n_j=r_j$ for every $j<i$ and $n_i=1$, and
+every other choice gives a smaller sum, because the $\gamma_j$ are
+strictly decreasing. Exterior powers of a real sheaf are real, since
+their eigenvalues are the products of eigenvalues with distinct
+indices and complex conjugation permutes this multiset
+([lem-rp-exterior-reality]). Hence [sk-p-real-rankin] applies to
+$\bigwedge^{N+1}\mathcal G$.
+
+Let $\alpha$ be an eigenvalue on the stalk of $\mathcal G_i$ at $x$.
+The decomposition of the exterior power of a direct sum shows that
+$\bigwedge^{N+1}\mathcal G$ contains the summand
 
 $$
-0<\frac{|\iota\alpha_i|}{q^{e\gamma/2}}\le1,\qquad
-\prod_{i=1}^r\frac{|\iota\alpha_i|}{q^{e\gamma/2}}=1
+ (\det\mathcal G_1\otimes\cdots\otimes\det\mathcal G_{i-1})
+        \otimes\mathcal G_i.
 $$
 
-by its pure determinant, again using [sk-p-real-rankone].
-Every factor must be $1$. This is purity on $U_0$ in [sk-d-real-weights],
-for each constituent separately. Each constituent is lisse on $C_0$,
-so [sk-p-real-semi] extends that purity over the missing points.
+On it, $\alpha$ contributes the eigenvalue $\alpha$ times the
+eigenvalues of $\det\mathcal G_j$ for $j<i$. These determinants are
+pure of weights $r_j\gamma_j$ ([sk-cor-wrp-rankone-pure]), so the product of
+the squares of their absolute values at $x$ is $q_x^B$. Consequently
+[sk-p-real-rankin] gives
+
+$$
+ |\iota(\alpha)|^2q_x^B\le q_x^{B+\gamma_i},
+ \qquad |\iota(\alpha)|^2\le q_x^{\gamma_i}.
+$$
+
+The dual $\mathcal G^\vee$ is real as well, with determinant weights
+$-\gamma_t>\cdots>-\gamma_1$ ([sk-cor-walg-curve-calculus]). Applying the
+same argument to the summand $\mathcal G_i^\vee$, we get
+$|\iota(\alpha^{-1})|^2\le q_x^{-\gamma_i}$. Hence
+$|\iota(\alpha)|^2=q_x^{\gamma_i}$, as required.
+
+Now let the curve be arbitrary, and choose a closed point $x$ and an
+affine open neighbourhood of $x$. This neighbourhood is geometrically
+connected, being a nonempty open subscheme of a smooth geometrically
+integral curve. Restriction to it preserves irreducibility. Indeed, a
+connected finite étale cover of a normal connected curve is integral,
+and hence remains connected after restriction to a dense open; thus the
+maps of geometric and of arithmetic fundamental groups are surjective.
+Since restriction preserves the degree map, the map of Weil groups is
+surjective too, and so the invariant subspaces on the open are exactly
+those on the curve ([lem-wf-dense-open-pi1-surjective], [sk-d-real-weil]).
+
+The restriction of a real sheaf is real, and the determinant keeps its
+weight by [sk-cor-wrp-rankone-pure]. Hence the affine case
+applies at $x$, and since $x$ was arbitrary, we obtain purity on the
+whole curve ([thm-rp-real-lisse-purity-affine]). Finally, a composition series
+is a finite filtration with pure quotients, which proves that the sheaf is
+mixed.

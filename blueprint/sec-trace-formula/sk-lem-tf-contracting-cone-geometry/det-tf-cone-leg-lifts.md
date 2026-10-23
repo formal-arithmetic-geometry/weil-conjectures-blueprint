@@ -2,6 +2,7 @@
 id = "det-tf-cone-leg-lifts"
 kind = "lemma"
 title = "Lifting the legs to the deformations"
+order = 3608
 uses = ["pur9-def-normal-cone"]
 +++
 Let $T=\operatorname{Spec}k[t]_{(t)}$, let $f:C\to X$ be a morphism of schemes, let $I$ be a

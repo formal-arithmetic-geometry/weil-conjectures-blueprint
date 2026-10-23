@@ -2,6 +2,7 @@
 id = "det-thm-int-restriction-closed"
 kind = "lemma"
 title = "Integral exceptional inverse image along a closed immersion"
+order = 2481
 uses = ["det-thm-sf-pf-adic-open", "det-prop-closed-adjoint-constructible-support", "det-prop-closed-adjoint-constructible-yoneda", "sk-lem-formal-closed-support", "sk-prop-int-brown"]
 +++
 Let $i:Z\hookrightarrow X$ be a closed immersion. For

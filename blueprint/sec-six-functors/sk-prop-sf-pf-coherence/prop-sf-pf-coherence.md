@@ -2,12 +2,12 @@
 id = "prop-sf-pf-coherence"
 kind = "theorem"
 title = "Coherence of the projection formula"
-order = 2446
+order = 3344
 tags = ["latex:proposition"]
-uses = ["def-sf-datum", "def-sf-pf", "fix-prop-adjunctions", "prop-sf-pf-reduction", "thm-sf-pf-field", "thm-sf-pf-proetale", "thm-sf-comp-composition"]
+uses = ["def-sf-datum", "def-sf-pf", "fix-prop-adjunctions", "prop-sf-pf-reduction", "thm-sf-comp-composition"]
 +++
 In the setting of [def-sf-datum], the projection transformations
-satisfy: naturality in $K$, $L$, $f$ and the coefficient ring; the identity
+satisfy: naturality in $K$, $L$ and $f$; the identity
 for $f=\operatorname{id}$; the associativity pentagon for composable
 $f,g$, compatible with the composition law (A4), i.e. the isomorphism
 $\alpha_{g,f}:Rg_!Rf_!\cong R(gf)_!$ of [thm-sf-comp-composition]; independence of the chosen
@@ -29,5 +29,6 @@ commutes, with $\operatorname{Ex}_!$ the exchange of axiom (A2) and the
 vertical arrows read through the monoidality isomorphisms
 $Lg^*(M\otimes^LN)\cong Lg^*M\otimes^LLg^*N$ and $Lg'^*Lf^*\cong Lf'^*Lg^*$
 (the projection formula commutes with base change; SGA 4, XVII, §5.2); and
-compatibility with finite reduction, scalar extension and the pro-étale
-realization.
+compatibility with finite reduction: for every ideal $J\subseteq\Lambda$ the
+square of [prop-sf-pf-reduction] comparing the reduction modulo $J$ of
+$\operatorname{PF}_{f,K,L}$ with $\operatorname{PF}_{f,K,\rho_YL}$ commutes.

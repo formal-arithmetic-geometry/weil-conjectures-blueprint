@@ -3,7 +3,7 @@ id = "lem-trf-iterated-weil-cocycle"
 kind = "lemma"
 title = "Cocycle identity for the iterated Weil isomorphism"
 lean = ["AlgebraicGeometry.ProEtale.WeilComplex.coeffIterate_add", "AlgebraicGeometry.ProEtale.StrictWeilComplex.iteratedWeilMap_add"]
-order = 2641
+order = 3502
 uses = ["def-trf-iterated-weil-map", "def-trf-scheme-frobenius", "def-trf-strict-weil-complex"]
 +++
 Let $(K,\varphi)\in D^b_{ctf,\mathrm W}(X,A)$ be a

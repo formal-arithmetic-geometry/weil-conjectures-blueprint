@@ -2,7 +2,7 @@
 id = "prop-pur-weil-equivariance-compatibilities"
 kind = "theorem"
 title = "Compatibilities of Weil equivariance"
-order = 2584
+order = 3393
 tags = ["latex:proposition"]
 uses = ["prop-pur-weil-equivariance-scheme-frobenius", "det-sp-purity-coefficient-change", "thm-pur-weil-equivariance-of-purity-and-trace"]
 +++

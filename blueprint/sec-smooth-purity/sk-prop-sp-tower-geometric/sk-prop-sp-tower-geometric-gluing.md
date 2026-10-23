@@ -2,6 +2,7 @@
 id = "det-sp-tower-gluing"
 kind = "lemma"
 title = "Gluing the local tower adjunctions"
+order = 3021
 uses = ["det-sp-tower-p1-adjunction", "det-sp-tower-shriek-levels", "det-sp-tower-bound-uniform", "det-sp-reduction-exceptional"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$. For each

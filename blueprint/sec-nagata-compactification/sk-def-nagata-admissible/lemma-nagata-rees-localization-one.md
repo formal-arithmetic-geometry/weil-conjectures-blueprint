@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-localization-one"
 kind = "lemma"
 title = "Localization at one"
-order = 50
+order = 184
 lean = ["AlgebraicGeometry.reesGrading.hom_localization_one", "AlgebraicGeometry.AffineBlowup.hom_localization_one"]
 uses = ["lemma-nagata-rees-sum-components", "prop-nagata-rees-localization"]
 +++

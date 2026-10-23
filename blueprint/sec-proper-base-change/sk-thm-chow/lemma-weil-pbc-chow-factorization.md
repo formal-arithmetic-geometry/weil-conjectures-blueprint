@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-chow-factorization"
 kind = "lemma"
 title = "Chow and projective factorization"
 lean = ["AlgebraicGeometry.ProjectiveDomination", "AlgebraicGeometry.ProjectiveDomination.pullback", "AlgebraicGeometry.ProjectiveDomination.nonempty_of_isAffine"]
-order = 1096
+order = 1959
 uses = ["def-nagata-final-descended-model", "def-nagata-finite-type-closed-in-fp", "def-nagata-projective-space-base-change", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-base-change", "lem-weil-pbc-proper-composition", "lem-weil-pbc-proper-immersion-closed", "lem-weil-pbc-proper-to-separated", "lemma-nagata-final-descended-model", "lemma-nagata-projective-space-base-change-proper", "prop-nagata-finite-type-closed-in-fp", "thm-chow-lemma"]
 +++
 Let $f:X\to Y$ be a proper [def-weil-pbc-scheme-conventions] morphism with

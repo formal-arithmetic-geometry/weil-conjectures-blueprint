@@ -9,17 +9,23 @@ sequence and the Jacobian for primes invertible in $k$
 ([sk-thm-br], [sk-thm-curveestimate], [sk-prop-curve-affine-kummer]), and by
 the Artin–Schreier sequence and coherent cohomology for the characteristic
 prime ([sk-prop-curve-artin-schreier], [sk-lem-curve-affine-artin-schreier]).
-These calculations carry the content of the theorem. Second, normalization
-and removal of finitely many points change cohomology only by sheaves
-supported on finitely many points, which affect degrees zero and one in a
-controlled way ([sk-lem-curve-finite-support], [sk-lem-curve-normalization],
-[sk-lem-curve-dense-open]). Third, a local system with finite monodromy
-becomes a successive extension of constant sheaves on a finite étale cover of
-degree prime to the torsion order, and the trace splits off the original
-sheaf ([sk-lem-curve-sylow-trace]). A dévissage and a passage to filtered
-colimits then give arbitrary torsion sheaves.
+The rest of the proof reduces to these calculations. Second, normalization
+and removal of finitely many points change the sheaf only by sheaves
+supported on finitely many points. Since these have no higher cohomology,
+they change $H^0$ and $H^1$ by finite groups and leave the higher degrees
+unchanged ([sk-lem-curve-finite-support], [sk-lem-curve-normalization],
+[sk-lem-curve-dense-open]). Third, a constructible torsion sheaf is the sum of
+its primary parts, and each $r$-primary part has a filtration by
+constructible $\mathbf F_r$-sheaves. On a dense smooth open, a finite
+$\mathbf F_r$-local system $L$ becomes a successive extension of constant
+sheaves after pullback along a finite étale cover $\pi$ of degree prime to
+$r$, and the trace of $\pi$, divided by the degree, exhibits $L$ as a direct
+summand of $\pi_*\pi^*L$ ([sk-lem-curve-sylow-trace]). Extensions and
+filtered colimits then give the result for all torsion sheaves.
 
-*The assertions pass along short exact sequences.* Let $0\to F_1\to F\to F_2\to0$ be
+*Stability under extensions.* The assertions $(C_1)$–$(C_8)$
+([def-weil-pbc-eight-curve-assertions]) pass along short exact sequences. To see
+this, let $0\to F_1\to F\to F_2\to0$ be
 exact, with the assertions known for $F_1$ and $F_2$. Vanishing and
 finiteness follow from the long exact sequence, and invariance under field
 extension from the map between the two long exact sequences and the five
@@ -36,7 +42,7 @@ Tag 03SI), so we may replace $C$ by
 $C_{\mathrm{red}}$. A constructible torsion sheaf has a finite exponent,
 because it has finitely many isomorphism types of finite stalks. It is the
 direct sum of its finitely many primary parts, and a finite filtration of an
-$r$-primary part reduces to constructible $\mathbf F_r$-sheaves. By the stability
+$r$-primary part has constructible $\mathbf F_r$-sheaves as graded pieces. By the stability
 under extensions just proved, it suffices to treat such sheaves.
 
 Choose a dense smooth open $j:U\hookrightarrow C$ on which the sheaf is

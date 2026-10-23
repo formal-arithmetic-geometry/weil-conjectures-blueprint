@@ -2,7 +2,7 @@
 id = "sk-i-relative-frob"
 kind = "lemma"
 title = "Relative Frobenius comparison"
-order = 2631
+order = 3532
 uses = ["sk-d-relative-frob", "sk-d-setup", "sk-d-weil"]
 lean = ["AlgebraicGeometry.ProEtale.isFinite_relativeFrobenius", "AlgebraicGeometry.ProEtale.isUniversalHomeomorphism_relativeFrobenius"]
 tags = ["sketch"]

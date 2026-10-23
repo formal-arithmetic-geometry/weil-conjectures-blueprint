@@ -2,6 +2,7 @@
 id = "det-tf-blowup-configuration"
 kind = "lemma"
 title = "The blown-up configuration is a transverse boundary"
+order = 3525
 +++
 Let $k$ be an algebraically closed field, let $T$ be the strict
 localization of a smooth $k$-surface at a closed point $t$, let $H$ be a

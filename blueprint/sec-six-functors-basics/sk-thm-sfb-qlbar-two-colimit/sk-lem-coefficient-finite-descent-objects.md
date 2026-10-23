@@ -2,6 +2,7 @@
 id = "det-lem-coefficient-finite-descent-objects"
 kind = "lemma"
 title = "Objects of $D^b_c(X,\\overline{\\mathbf Q}_\\ell)$ descend to a finite extension"
+order = 2183
 uses = ["det-lem-coefficient-finite-descent-lisse", "det-lem-coefficient-finite-descent-hom", "det-lem-coefficient-heart-filtration", "det-cor-coefficient-heart-ii-generation", "det-cor-coefficient-heart-ii-triangulated"]
 +++
 Let $X$ be a standing scheme. For every $K\in\Dbc(X,\Qlb)$ there are a finite $E/\mathbf Q_\ell$ and

@@ -3,6 +3,7 @@ id = "det-nagata-boundary-divisor-cartier"
 kind = "lemma"
 title = "The blow-up of the boundary has Cartier boundary and dense interior"
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_cartierBoundary_of_coe_support_eq_compl", "AlgebraicGeometry.Scheme.IdealSheafData.isInvertible_comap_blowupMap", "AlgebraicGeometry.Scheme.IdealSheafData.isSchemeTheoreticallyDominant_blowupMap_preimage_compl_support", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.comap_blowupMap", "AlgebraicGeometry.IsAdmissible.isSchemeTheoreticallyDominant_preimage_ι"]
+order = 222
 uses = ["def-nagata-admissible-blowup", "lemma-nagata-qc-open-complement-ideal-exists"]
 +++
 Let $T$ be qcqs, $U\subseteq T$ a quasi-compact open, and

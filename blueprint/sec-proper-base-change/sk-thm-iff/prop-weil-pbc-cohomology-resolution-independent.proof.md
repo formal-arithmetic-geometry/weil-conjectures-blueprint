@@ -15,4 +15,4 @@ H^q(G(I^\bullet))\cong\mathcal H^q(G(J^\bullet))$ for all $q$.
 For $G=\Gamma(T,-)$ and $K=F$ these cohomology groups are the groups $H^q(T_{\Et},F)$ of
 [def-weil-pbc-etale-cohomology], which is therefore independent of the
 resolution, the resolutions being those of
-[def-weil-pbc-kinjective-resolutions].
+[def-sp-kinjective-bridge].

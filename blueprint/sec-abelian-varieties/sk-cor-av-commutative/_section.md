@@ -3,7 +3,7 @@ id = "sk-cor-av-commutative"
 kind = "corollary"
 title = "Abelian varieties are commutative"
 lean = ["AlgebraicGeometry.IsAbelianVariety.isCommMonObj"]
-order = 548
+order = 513
 uses = ["sk-def-av", "sk-prop-av-rigidity"]
 tags = ["sketch"]
 +++

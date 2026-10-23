@@ -2,8 +2,8 @@
 id = "lem-sfb-finite-upper-star-tensor"
 kind = "lemma"
 title = "$g^*$ commutes with the tensor product"
-order = 1517
-uses = ["def-sfb-finite-lower-star-lax-monoidal", "def-sfb-finite-upper-lower-star-adjunction", "sk-def-sfb-sheaf-tensor"]
+order = 920
+uses = ["def-sfb-finite-lower-star-lax-monoidal", "def-sfb-finite-upper-lower-star-adjunction", "lem-sfb-finite-upper-star-unit", "lem-weil-pbc-sheaf-tensor-closed"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_δ_upperStar"]
 +++
 Let $\mathcal A$ and $g\colon Z\to Y$ be as in [lem-sfb-finite-upper-star-unit]. For

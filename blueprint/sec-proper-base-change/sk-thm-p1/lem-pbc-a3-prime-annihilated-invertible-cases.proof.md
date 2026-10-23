@@ -3,8 +3,6 @@ kind = "proof"
 of = "lem-pbc-a3-prime-annihilated-invertible-cases"
 uses = ["lemma-weil-pbc-geometric-stalk-conservative"]
 +++
-Apply the additive stalk functors to the annihilation equality. If r is a unit, it is a common positive invertible annihilator, as required by the coefficient condition.
+Every geometric stalk functor is additive, so applying it to $r\cdot\mathrm{id}_F=0$ shows that every element of every geometric stalk is killed by $r$. If $r$ is a unit in $k$, then $r$ is a common positive annihilator invertible in $k$, as the coefficient condition requires.
 
-Use ΓSpecIso to pass to k. If r is not a unit, r is zero in k. An integer n invertible in k is not divisible by r. The stalk is killed by both r and n, and nsmul_eq_zero_iff_of_coprime makes it zero.
-
-Use sheafHom_ext_of_sheafFiber_map_algClosurePoint and IsZero.iff_id_eq_zero to conclude that F is zero. ([lemma-weil-pbc-geometric-stalk-conservative]).
+If $r$ is not a unit in $k$, then $r=0$ in $k$, so an integer $n$ invertible in $k$ is not divisible by $r$ and is coprime to $r$. By the coefficient condition each stalk element is killed by such an $n$ and also by $r$, hence it is zero. All geometric stalks of $F$ vanish, so the identity of $F$ is zero by conservativity of geometric stalks [lemma-weil-pbc-geometric-stalk-conservative], and $F=0$.

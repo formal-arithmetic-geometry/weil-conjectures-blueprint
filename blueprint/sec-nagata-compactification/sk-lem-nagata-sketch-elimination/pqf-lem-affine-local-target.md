@@ -3,7 +3,7 @@ id = "pqf-lem-affine-local-target"
 kind = "lemma"
 title = "Affineness is local on the target"
 lean = ["AlgebraicGeometry.isAffineHom_tfae"]
-order = 200
+order = 302
 uses = ["pqf-def-affine-morphism"]
 +++
 A morphism of schemes $f:X\to S$ is

@@ -2,6 +2,8 @@
 id = "det-pe-replete-on-contractible"
 kind = "lemma"
 title = "Sequential limits along epimorphisms on a weakly contractible object"
+lean = ["AlgebraicGeometry.Scheme.proetale_surjective_sections_of_epi_tower"]
+order = 975
 uses = ["det-pe-replete-definition", "det-pe-weak-contractible-equivalences"]
 +++
 Let $(F_n,t_n)$ be an inverse sequence of sheaves of sets on $X_{\mathrm{proét}}$ with

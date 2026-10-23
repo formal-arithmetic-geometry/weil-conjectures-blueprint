@@ -13,7 +13,7 @@ transport of the same datum, the operations being those of
 [def-weil-derived-direct-image]); the triangle identities hold
 for the derived adjunction because the derived unit and counit are
 the images of the sheaf-level ones under K-injective and K-flat
-replacement of [def-weil-pbc-kinjective-resolutions], the
+replacement of [def-sp-kinjective-bridge], the
 resolution-independence of
 [lem-weil-derived-tensor-resolution-independent], and the sheaf-level
 triangle identities are preserved by the derived functors. Step 2:

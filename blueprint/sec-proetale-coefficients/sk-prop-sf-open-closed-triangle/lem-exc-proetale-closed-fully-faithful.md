@@ -2,11 +2,11 @@
 id = "lem-exc-proetale-closed-fully-faithful"
 kind = "lemma"
 title = "Full faithfulness of closed direct image"
-lean = ["AlgebraicGeometry.ProEtale.isIso_upperStarLowerStarAdjunction_counit"]
-order = 2191
-uses = ["def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "lem-exc-closed-inverse-image-formula", "lem-exc-closed-lift-reduction", "lem-exc-closed-localization"]
+lean = ["AlgebraicGeometry.ProEtale.isIso_upperStarLowerStarAdjunction_counit", "AlgebraicGeometry.ProEtale.fullyFaithfulLowerStar"]
+order = 1126
+uses = ["def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "lem-exc-closed-localization", "lem-exc-closed-site-adjunction"]
 +++
-For any closed immersion $i:Z\hookrightarrow X$, the adjunction counit
-$i^*i_*G\to G$ is an isomorphism on all pro-etale module sheaves over a
-finite constant ring. Thus $i_*$ is fully faithful, without a
+Let $R$ be a ring and $i:Z\hookrightarrow X$ any closed immersion. On
+pro-etale sheaves of $R$-modules the adjunction counit $i^*i_*G\to G$ is an
+isomorphism for every $G$. Thus $i_*$ is fully faithful, without a
 constructibility hypothesis.

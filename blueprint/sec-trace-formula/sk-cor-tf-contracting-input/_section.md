@@ -2,7 +2,7 @@
 id = "sk-cor-tf-contracting-input"
 kind = "corollary"
 title = "Contracting local terms at a point"
-order = 2659
+order = 3619
 uses = ["sk-thm-tf-contracting-local-term", "sk-d-trace-class"]
 tags = ["sketch"]
 +++

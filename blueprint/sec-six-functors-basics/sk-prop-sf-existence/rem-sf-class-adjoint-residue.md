@@ -2,7 +2,7 @@
 id = "rem-sf-class-adjoint-residue"
 kind = "remark"
 title = "Ambient and constructible adjunction domains"
-order = 2164
+order = 2335
 uses = ["thm-sf-ambient-adjoint-class"]
 +++
 The theorem [thm-sf-ambient-adjoint-class] constructs the finite

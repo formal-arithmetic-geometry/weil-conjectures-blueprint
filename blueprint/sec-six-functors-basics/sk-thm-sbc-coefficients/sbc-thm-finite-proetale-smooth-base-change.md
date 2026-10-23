@@ -3,7 +3,7 @@ id = "sbc-thm-finite-proetale-smooth-base-change"
 kind = "theorem"
 title = "Finite pro-etale smooth base change"
 lean = ["AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_smooth"]
-order = 1498
+order = 2497
 uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-comparison-direct-image", "sbc-def-base-change-square", "sbc-thm-bounded-derived-smooth-base-change", "sbc-thm-smooth-base-change", "thm-weil-pbc-site-comparison"]
 +++
 In the square of

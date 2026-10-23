@@ -2,7 +2,7 @@
 id = "thm-pur-weil-equivariance-of-purity-and-trace"
 kind = "theorem"
 title = "Weil equivariance of purity and trace"
-order = 2582
+order = 3391
 uses = ["def-coefficient-twists-detailed", "def-pur-compact-support-transport", "def-pur-conventions", "def-pur-scheme-geometric-frobenius", "def-pur-smooth-pullback-exchange", "def-pur-smooth-trace", "def-pur-tate-datum", "def-sbc-smooth-morphisms", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "det-sp-purity-coefficient-change", "thm-pur-smooth-base-change-coherence"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions]), fix the

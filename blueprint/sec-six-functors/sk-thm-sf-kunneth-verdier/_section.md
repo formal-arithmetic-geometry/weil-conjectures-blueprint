@@ -2,8 +2,8 @@
 id = "sk-thm-sf-kunneth-verdier"
 kind = "lemma"
 title = "External duality and the trace morphism"
-order = 2396
-uses = ["sk-def-ops", "sk-lem-sf-kunneth-star", "sk-thm-pd-verdier-duality", "sk-thm-sf-ctf-stability", "sk-def-sf-kv-maps", "sk-def-sf-operations", "sk-lem-sf-flat-model", "sk-lem-sf-mate", "sk-prop-sf-biduality-general", "sk-prop-sf-closed-unit", "sk-prop-sf-dualizable-biduality", "sk-prop-sf-localization", "sk-prop-sf-open-closed-triangle", "sk-thm-regular", "sk-thm-sf-tensor-hom", "sk-thm-smooth-purity"]
+order = 3319
+uses = ["sk-def-ops", "sk-lem-sf-kunneth-star", "sk-thm-pd-verdier-duality", "sk-thm-sf-ctf-stability", "sk-def-sf-kv-maps", "sk-prop-sf-open-closed-triangle", "sk-lem-sf-flat-model", "sk-lem-sf-mate", "sk-prop-sf-biduality-general", "sk-prop-sf-closed-unit", "sk-prop-sf-dualizable-biduality", "sk-prop-sf-localization", "sk-thm-regular", "sk-thm-sf-tensor-hom", "sk-thm-smooth-purity", "sk-prop-integral-criterion"]
 lean = ["AlgebraicGeometry.Etale.hasKunnethComparisons"]
 tags = ["sketch"]
 +++
@@ -36,7 +36,7 @@ $$
 
 *General form.* The three maps of [sk-def-sf-kv-maps] are isomorphisms, natural in their
 variables, under the hypotheses of that definition (the $Rf_i^!$ are the
-constructible exceptional adjoints of [sk-def-sf-operations] (vi); no
+constructible exceptional adjoints of [det-def-sf-operations] (vi); no
 admissibility datum of [sk-def-sf-admissible] is assumed): the
 exceptional Künneth map $\alpha$, the external Hom map $\beta$, and the
 Künneth–Verdier map $\kappa$. In particular, for $X,Y$ separated of finite

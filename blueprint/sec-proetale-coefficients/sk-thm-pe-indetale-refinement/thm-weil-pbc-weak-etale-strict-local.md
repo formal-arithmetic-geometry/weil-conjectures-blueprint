@@ -2,7 +2,8 @@
 id = "thm-weil-pbc-weak-etale-strict-local"
 kind = "theorem"
 title = "A weakly etale local map over a strict henselian ring"
-order = 1287
+order = 951
+lean = ["Algebra.WeaklyEtale.bijective_of_isStrictlyHenselianLocalRing"]
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-ind-etale-algebra", "lem-weil-pbc-ind-etale-stability", "lem-weil-pbc-weak-etale-field", "lem-weil-pbc-weak-etale-integral-closure"]
 +++
 Let $A\to B$ be a local map of local rings. If $A$ is strictly henselian

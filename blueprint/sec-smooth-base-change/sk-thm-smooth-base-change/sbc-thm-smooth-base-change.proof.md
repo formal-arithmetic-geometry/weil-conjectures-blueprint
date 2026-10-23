@@ -3,7 +3,7 @@ kind  = "proof"
 of    = "sbc-thm-smooth-base-change"
 +++
 The case $q=0$ is [sbc-lem-degree-zero-flat-base-change], since by
-[sbc-lem-smooth-criterion] a
+[lem-pc-smooth-characterization] a
 smooth morphism is flat of finite presentation and by
 [sbc-lem-smooth-geometrically-reduced] it has geometrically
 reduced fibres. We now assume $q>0$ and the theorem in all degrees

@@ -21,7 +21,8 @@ root of $X^p-X$, hence lies in $\mathbf F_p$; the polynomial
 $T^p-T-au$ is separable). The stalk
 $(\pi_*\overline{\mathbf Q}_\ell)_{\bar u}$ is the space of functions on
 $Y_{\bar u}$, with $\sigma_c$ ($c\in\mathbf F_p$) acting by pullback along
-$y\mapsto y+c$, and $(\mathcal L_{\psi,ax})_{\bar u}$ is the image of the
+$y\mapsto y+c$, and $(\mathcal L_{\psi,ax})_{\bar u}$ is identified by [lem-wft-as-comparison]
+(with $a=1$ and the function $ax$) with the image of the
 idempotent $e_\Psi$ of [def-fd-artin-schreier-sheaf], on which $\sigma_c$
 acts by $\Psi(c)$. For $y\in Y_{\bar u}$, induction on $j$ gives
 

@@ -18,9 +18,13 @@ $$
 \eta_X:\omega_{X,\Lambda}\xrightarrow{\ \sim\ }\Lambda_X(d)[2d],
 $$
 
-which is the case $f=a_X$ of an orientation datum as in
-[def-sf-orientation], compatible with finite reduction, scalar
-extension, and shifts.
+which at the finite stage is the case $f=a_X$ of an orientation datum in
+the sense of [def-sf-orientation]. Its compatibility with finite reduction
+$A_{E,n}\to A_{E,m}$ is [thm-pur-finite-reduction-of-purity]; at the
+$\mathcal O_E$-, $E$- and $\overline{\mathbf Q}_\ell$-stages it is obtained by
+transport from the finite stages, by inverting $\ell$ and by extension of
+scalars from a finite $E$ ([cor-pur-adic-and-rational-smooth-dualizing-complexes]);
+and it is compatible with shifts.
 
 Step 3: substitution and interchange. Substituting $\eta_X$ into the
 internal Hom and using the shift of the second variable,
@@ -44,7 +48,8 @@ $K$; on the generators $K=\Lambda_X^r$ they are the coordinate
 isomorphisms; the shift index is the constant $2d$). Naturality in $K$
 and compatibility with finite reduction, scalar extension and shifts
 follow from the corresponding properties of $\eta_X$ recorded in
-[cor-pur-finite-stage-smooth-dualizing-complex] and
+[cor-pur-finite-stage-smooth-dualizing-complex],
+[thm-pur-finite-reduction-of-purity] and
 [cor-pur-adic-and-rational-smooth-dualizing-complexes], and of the
 derived tensor and internal Hom recorded in
 [def-weil-derived-pullback-tensor-hom]. The compatibility with the

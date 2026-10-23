@@ -2,7 +2,7 @@
 id = "lem-sfb-subfield-push-iso"
 kind = "lemma"
 title = "(Push) is an isomorphism for $F/E$ finite"
-order = 1754
+order = 2573
 uses = ["def-sfb-subfield-coefficient-map", "lem-sfb-subfield-flat", "def-sfb-derived-push-hom"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_padicSubfieldRingObjMap"]
 +++

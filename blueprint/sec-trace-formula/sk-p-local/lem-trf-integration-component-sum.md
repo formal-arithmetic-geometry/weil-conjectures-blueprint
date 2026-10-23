@@ -3,7 +3,7 @@ id = "lem-trf-integration-component-sum"
 kind = "lemma"
 title = "Integration splits over the open–closed components"
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.integral_eq_sum_localTerm"]
-order = 2692
+order = 3663
 uses = ["def-trf-coefficient-conventions", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-integration", "def-trf-local-term", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-functor-package", "thm-trf-dualizing-complex-composition"]
 +++
 Fix the coefficient

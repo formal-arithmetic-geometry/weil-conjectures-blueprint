@@ -2,7 +2,7 @@
 id = "sk-prop-open-coefficients"
 kind = "proposition"
 title = "Direct image along an open immersion"
-order = 1558
+order = 2428
 uses = ["sk-thm-sfb-proper-base-change", "sk-cor-geo-open-finiteness", "sk-lem-integral-models", "sk-cor-pe-bounded-continuity", "sk-cor-coefficient-heart-ii"]
 tags = ["sketch"]
 +++

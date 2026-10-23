@@ -2,7 +2,7 @@
 id = "the-dense-source-valuative-criterion--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 290
+order = 382
 uses = ["lemma-nagata-composite-valuation-ring", "lemma-nagata-dense-flat-pullback", "lemma-nagata-dense-valuation-probe", "lemma-nagata-reduced-dense-image-schematic", "lemma-nagata-valuation-intersection", "lemma-nagata-valuation-ring-extension"]
 +++
 The formal proof splits the two conclusions into a universal-closedness

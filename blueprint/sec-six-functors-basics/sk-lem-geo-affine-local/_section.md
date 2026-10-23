@@ -2,7 +2,7 @@
 id = "sk-lem-geo-affine-local"
 kind = "lemma"
 title = "Affine space and étale localization"
-order = 1547
+order = 2362
 uses = ["sk-prop-geo-p1-adjunction"]
 tags = ["sketch"]
 +++

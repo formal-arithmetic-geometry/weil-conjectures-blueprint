@@ -3,7 +3,7 @@ id = "prop-pur-affine-line-orientation-uniqueness"
 kind = "theorem"
 title = "Uniqueness of the global orientation"
 lean = ["AlgebraicGeometry.Etale.eq_zero_of_leftDerivedUpperStar_map_eq_zero_affineLineZeroLocus", "AlgebraicGeometry.Etale.affineLineOrientation_hom_ext", "AlgebraicGeometry.Etale.affineLineOrientation_hom_ext_of_restrictAffineLineZeroLocusHom", "AlgebraicGeometry.Etale.eq_affineLineOrientation_iff"]
-order = 2296
+order = 2837
 tags = ["latex:proposition"]
 uses = ["def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-scheme-morphism-properties", "lem-pur-gysin-structure", "thm-pur-affine-line-orientation", "thm-pur-rank-one-local-calculation"]
 +++

@@ -3,7 +3,7 @@ id = "lem-sc-mult-n-homomorphism"
 kind = "lemma"
 title = "Multiplication by $n$ is a homomorphism"
 lean = ["AlgebraicGeometry.isMonHom_npow_id", "CategoryTheory.MonObj.comp_pow", "CategoryTheory.MonObj.pow_comp"]
-order = 500
+order = 516
 uses = ["def-sc-group-scheme"]
 +++
 Let $G$ be a commutative group scheme

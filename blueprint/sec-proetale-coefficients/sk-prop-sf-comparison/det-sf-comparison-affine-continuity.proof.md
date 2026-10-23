@@ -18,9 +18,7 @@ applying $R\Gamma(U_{\mathrm{ét}},-)$ gives
 $R\Gamma(U_{\mathrm{ét}},K_U)\simeq R\Gamma(U_{\mathrm{proét}},\nu_U^*K_U)$, because
 $R\Gamma(U_{\mathrm{ét}},-)\circ R\nu_{U,*}=R\Gamma(U_{\mathrm{proét}},-)$ (composition
 of derived right adjoints; $\nu_{U,*}$ preserves injectives since its left
-adjoint $\nu_U^*$ is exact). The argument of
-[thm-weil-pbc-site-comparison] uses only the acyclicity of pulled-back
-injectives, which holds for every coefficient ring.
+adjoint $\nu_U^*$ is exact).
 
 *Step 3: continuity.* $U$ is the limit of the qcqs schemes $U_i$ along
 affine transition maps, and $K_U$ is the inverse image of $K_{i_0}$ for any
@@ -36,6 +34,6 @@ $\tau^{\le m}K\to K\to\tau^{>m}K$.
 
 *Step 4: conclusion.* Composing Steps 1–3 gives the two displayed
 isomorphisms, natural in $K$. Since filtered colimits of complexes of
-$\Lambda$-modules are exact, the filtered colimit of the complexes
+abelian groups are exact, the filtered colimit of the complexes
 $R\Gamma((U_i)_{\mathrm{ét}},K_i)$ represents the derived colimit and has the
 colimit of the cohomology groups as its cohomology, which is the derived form.

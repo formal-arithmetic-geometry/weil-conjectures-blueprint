@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-cor-curve-invariance"
-uses = ["sk-thm-curve-package", "sk-prop-sf-comparison"]
+uses = ["sk-thm-curve-package", "sk-prop-sf-comparison", "sk-lem-curve-dense-open"]
 +++
 Choose compatible algebraic closures $\bar k\subseteq\bar k'$. The extensions
 $\bar k/k$ and $\bar k'/k'$ are purely inseparable, so the base-change

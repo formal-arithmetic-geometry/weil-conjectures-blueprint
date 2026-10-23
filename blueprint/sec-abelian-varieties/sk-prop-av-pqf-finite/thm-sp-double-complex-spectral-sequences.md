@@ -3,7 +3,7 @@ id = "thm-sp-double-complex-spectral-sequences"
 kind = "theorem"
 title = "The two spectral sequences of a first-quadrant double complex"
 lean = ["HomologicalComplex\u2082.columnFiltrationE\u2081Iso_d", "HomologicalComplex\u2082.columnFiltration_convergesTo", "HomologicalComplex\u2082.firstSpectralSequence", "HomologicalComplex\u2082.firstSpectralSequencePageTwoIso", "HomologicalComplex\u2082.firstSpectralSequence_abutsTo", "HomologicalComplex\u2082.exists_spectralSequence", "HomologicalComplex\u2082.exists_spectralSequence_flip"]
-order = 524
+order = 540
 uses = ["def-sp-convergence", "def-sp-double-complex-total", "def-sp-image-filtration", "thm-sp-spectral-object-yields"]
 +++
 Let $D^{\bullet,\bullet}$ be a first-quadrant double complex in an abelian

@@ -2,16 +2,12 @@
 id = "lem-weil-pbc-weak-etale-tor"
 kind = "lemma"
 title = "Flat diagonal and Tor groups"
-order = 1284
+order = 948
+lean = ["Ring.AbsolutelyFlat", "Ring.AbsolutelyFlat.of_flat_lmul'", "Ring.WeakDimensionLEOne", "Ring.WeakDimensionLEOne.of_weaklyEtale"]
 uses = ["def-weil-pbc-ind-etale-algebra"]
 +++
-If $A\to B$ is weakly etale [def-weil-pbc-ind-etale-algebra], then for
-$B$-modules $M,N$ there are natural identifications
+Let $A\to B$ be weakly etale [def-weil-pbc-ind-etale-algebra].
 
-$$
- \operatorname{Tor}^B_i(M,N)=
- B\otimes_{B\otimes_AB}\operatorname{Tor}^A_i(M,N).
-$$
-
-In particular, a common bound on the flat resolution lengths of all
-$A$-modules is also such a bound for $B$-modules.
+1. If $A$ is absolutely flat, i.e. every $A$-module is flat, then so is $B$.
+2. If every finitely generated ideal of $A$ is flat (weak dimension at most
+   one), then every finitely generated ideal of $B$ is flat.

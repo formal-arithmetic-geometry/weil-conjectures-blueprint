@@ -2,20 +2,23 @@
 id = "lemma-weil-pbc-spectral-restriction"
 kind = "lemma"
 title = "Zariski restriction on a spectral space"
-lean = ["TopCat.Sheaf.bijective_unit_app_top"]
-order = 1107
-uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
+lean = ["TopCat.Sheaf.bijective_unit_app_top", "SpectralSpace.exists_shrink_of_isConnected_inter"]
+order = 1547
+uses = ["def-weil-pbc-scheme-conventions"]
 +++
-Let $T$ be spectral [def-weil-pbc-scheme-conventions] and $T_0\subset T$
-closed. Suppose every irreducible closed subset $C\subset T$ meets $T_0$ in a
-nonempty connected subset. Then restriction is a bijection
+Let $T$ be spectral [def-weil-pbc-scheme-conventions], let $T_0\subset T$ be
+closed with inclusion $i:T_0\to T$, and suppose every irreducible closed subset
+$C\subset T$ meets $T_0$ in a nonempty connected subset. Then for every sheaf of
+abelian groups $F$ on the topological space $T$, restriction (the unit
+$F\to i_*i^{-1}F$ on global sections) is a bijection
 
 $$
-  \Gamma(T,F)\xrightarrow{\sim}\Gamma(T_0,F|_{T_0})
+  \Gamma(T,F)\xrightarrow{\sim}\Gamma(T_0,F|_{T_0}).
 $$
 
-for every sheaf of abelian groups $F$ on the Zariski space $T$ which is
-locally constant [def-weil-pbc-etale-sheaves], i.e. locally isomorphic to a
-constant sheaf. The hypothesis on $F$ cannot be dropped: for $T=\mathbf
-A^1_k$, $T_0=\{0\}$ and $F$ the skyscraper sheaf at a closed point $y\neq0$
-one has $\Gamma(T,F)\neq0$ and $\Gamma(T_0,F|_{T_0})=0$.
+The key step is the following shrinking property. Let $U_1,\dots,U_m$ be
+quasi-compact opens of $T$ covering $T_0$, and let $A_{jk}\subseteq T$ be opens,
+reflexive ($U_j\subseteq A_{jj}$), symmetric and transitive
+($A_{jk}\cap A_{kl}\subseteq A_{jl}$), with $U_j\cap U_k\cap T_0\subseteq A_{jk}$.
+Then there are opens $W_j\subseteq U_j$ covering $T$ with
+$U_j\cap T_0\subseteq W_j$ and $W_j\cap W_k\subseteq A_{jk}$.

@@ -3,7 +3,7 @@ id = "lem-trf-frobenius-degree-formula"
 kind = "lemma"
 title = "Degree formula for the local Frobenius"
 lean = ["AlgebraicGeometry.ProEtale.WeilComplex.stalkFrobenius_mul_eq_pow", "AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.trace_stalkFrobenius_eq_trace_pow"]
-order = 2689
+order = 3660
 uses = ["def-trf-frobenius-operators", "def-trf-iterated-weil-map", "lem-trf-iterated-weil-cocycle", "lem-trf-local-frobenius-conjugacy", "prop-trf-scheme-galois-comparison", "prop-trf-trace-formal-laws"]
 +++
 Let $x\in|X_0|$ be a closed point with degree

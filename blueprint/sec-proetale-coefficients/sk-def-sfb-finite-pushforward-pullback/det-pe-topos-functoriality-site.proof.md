@@ -22,7 +22,10 @@ $X$-morphism, since its composite with $T\to X$ and the structure map $U\to X$ a
 composition with each $U_i\to U$, and uniqueness of descent applies to $h_X$.
 
 *3.* The objects are weakly étale morphisms from $\mathcal U$-small schemes, as in the size
-convention of [def-weil-pbc-small-proetale-site], so the isomorphism classes form a set.
-Sheaves of sets on an essentially small site form a Grothendieck topos (Giraud's theorem,
-or directly: $\Sh$ is a left exact reflective subcategory of a presheaf topos, with the
-sheafification as reflector).
+convention of [def-weil-pbc-proetale-site], so the isomorphism classes form a set of the
+next universe, and the morphism sets are small. Hence $X_{\mathrm{proét}}$ is equivalent to a
+small category, and so is every slice of it. On a small site, sheafification exists for a
+Grothendieck abelian $\mathcal A$ with morphism groups of the size of the site: it is the
+transfinite iteration of the plus construction, which converges because $\mathcal A$ is
+locally presentable and filtered colimits in $\mathcal A$ are exact. Transport along the
+equivalence gives sheafification on $X_{\mathrm{proét}}$.

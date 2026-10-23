@@ -1,11 +1,11 @@
 +++
 kind  = "proof"
 of    = "det-lem-int-tensor-shriek"
-uses = ["sk-prop-integral-criterion", "sk-def-pe-derived-completion", "sk-prop-sf-open-closed-triangle", "sk-def-sfb-constructible", "sk-lem-int-integral-heart"]
+uses = ["sk-prop-integral-criterion", "def-pe-derived-complete", "sk-prop-sf-open-closed-triangle", "sk-def-sfb-constructible", "sk-lem-int-integral-heart"]
 +++
 By [sk-prop-integral-criterion], $K\in\D(X_{\mathrm{proét}},\mathcal O_E)$ lies in
 $\Dbc(X,\mathcal O_E)$ if and only if $K$ is derived complete
-([sk-def-pe-derived-completion]) and
+([def-pe-derived-complete]) and
 $K/\pi_E:=K\otimes^{\mathbf L}_{\mathcal O_{E,X}}(\mathcal O_E/\pi_E)_X$ lies in
 $\Dbc(X,\mathcal O_E/\pi_E)$. We verify both conditions.
 

@@ -3,7 +3,7 @@ id = "lem-pc-pic-exact"
 kind = "lemma"
 title = "Exactness of the Picard sequence"
 lean = ["AlgebraicGeometry.range_pic_mapHom_snd_eq_ker_toPicardFunctorHom", "AlgebraicGeometry.toPicardFunctor_app_eq_of_iso", "AlgebraicGeometry.exists_iso_tensorObj_of_toPicardFunctor_app_eq", "AlgebraicGeometry.toPicardFunctor_app_eq_iff"]
-order = 820
+order = 670
 uses = ["def-pc-fppf-site", "def-pc-picard-functor", "def-sc-invertible-module", "def-sc-picard-group", "lem-pc-fpqc-descent"]
 +++
 Let $f:X\to S$ be a morphism of schemes as in

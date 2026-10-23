@@ -2,13 +2,13 @@
 id = "rem-pc-sc-modules"
 kind = "remark"
 title = "Invertible modules and Picard groups: existing in file 06"
-order = 463
+order = 481
 uses = ["def-pc-scheme", "def-sc-invertible-module", "def-sc-picard-group"]
 +++
 The notions of *invertible module* (and its dual),
 *tensor product of modules* and *Picard group* used below are
-those of [def-sc-invertible-module] (with [lem-sc-invertible-dual])
-and [def-sc-picard-group] (with the group law of [lem-sc-pic-group]). The basic properties that we will use are
+those of [def-sc-invertible-module] (with [lem-pc-tensor-dual-invertible])
+and [def-sc-picard-group] (with the group law of [def-sc-picard-group]). The basic properties that we will use are
 
 - an
 invertible module is closed under

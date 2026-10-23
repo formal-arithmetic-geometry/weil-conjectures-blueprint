@@ -3,7 +3,7 @@ id = "prop-galois-weight-strata-identification"
 kind = "theorem"
 title = "Identification of the stratum root multisets"
 lean = ["Polynomial.roots_reverse_weilStratumPoly"]
-order = 3250
+order = 4138
 tags = ["latex:proposition"]
 uses = ["def-weil-normalized-integral-fraction", "def-weil-numbers", "def-weil-ordinary-reciprocal-roots", "prop-galois-weight-strata"]
 +++

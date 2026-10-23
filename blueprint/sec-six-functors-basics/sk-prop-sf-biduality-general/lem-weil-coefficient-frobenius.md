@@ -3,13 +3,13 @@ id = "lem-weil-coefficient-frobenius"
 kind = "lemma"
 title = "Coefficient biduality at finite and integral stages"
 lean = ["IsDiscreteValuationRing.injective_quotient_pow", "IsDiscreteValuationRing.isReflexive_quotient_pow", "IsDiscreteValuationRing.dual_quotient_eq_zero", "IsDiscreteValuationRing.not_isReflexive_quotient"]
-order = 2464
-uses = ["sk-def-sfb-condensed-ring"]
+order = 2842
+uses = ["det-def-sfb-condensed-ring"]
 +++
 Consider the coefficient rings $A_{E,n}=\mathcal O_E/\pi_E^n$, $\mathcal O_E$,
 $E$ and $\Qlb$ as ordinary rings; they are the rings of sections over the
 point of the corresponding condensed coefficient rings
-([sk-def-sfb-condensed-ring]). The following distinctions hold.
+([det-def-sfb-condensed-ring]). The following distinctions hold.
 
 1. If $\Lambda=A_{E,n},E$, or
 $\overline{\mathbf Q}_\ell$, then $\Lambda$ is self-injective and

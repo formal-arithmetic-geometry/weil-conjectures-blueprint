@@ -44,7 +44,7 @@ exchange morphism being [lem-kun-unbounded-exchange-agrees].
 *Conclusion by contraposition.* Suppose for contradiction
 that the derived exchange morphism is not an isomorphism for some
 $F$ as above. By the spectral sequences of
-[def-weil-pbc-hypercohomology-filtrations] (and
+[thm-sp-truncation-e2] (and
 [lem-kun-bc-base-change] together with
 [lem-kun-bc-map-on-cohomology], which identify the induced maps on
 $\mathcal H^q$ with the maps of

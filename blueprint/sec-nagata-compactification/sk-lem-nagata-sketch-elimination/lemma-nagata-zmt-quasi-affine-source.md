@@ -2,7 +2,7 @@
 id = "lemma-nagata-zmt-quasi-affine-source"
 kind = "lemma"
 title = "A quasi-finite scheme over a quasi-affine base is quasi-affine"
-order = 192
+order = 294
 lean = ["AlgebraicGeometry.Scheme.IsQuasiAffine.of_locallyQuasiFinite"]
 uses = ["lemma-nagata-zmt-open-immersion-affine-factorization"]
 +++

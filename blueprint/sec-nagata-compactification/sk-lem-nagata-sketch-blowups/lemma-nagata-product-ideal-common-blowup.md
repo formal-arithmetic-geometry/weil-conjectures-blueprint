@@ -2,7 +2,7 @@
 id = "lemma-nagata-product-ideal-common-blowup"
 kind = "lemma"
 title = "[stacks-project]"
-order = 135
+order = 247
 lean = ["AlgebraicGeometry.IsAdmissible.mul", "AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_mul_iso"]
 uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-admissible-blowup", "def-nagata-extended-ideal", "def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
 +++

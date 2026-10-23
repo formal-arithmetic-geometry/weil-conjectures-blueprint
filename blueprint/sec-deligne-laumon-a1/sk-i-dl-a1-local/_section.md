@@ -1,21 +1,19 @@
 +++
 id = "sk-i-dl-a1-local"
-kind = "proposition"
-title = "Local boundary duality and ramification at infinity"
-order = 3068
-uses = ["sk-d-dl-a1-setup", "sk-d-real-boundary", "sk-prop-sf-biduality-general", "sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle", "sk-rem-sf-kv-formal", "sk-thm-sf-ctf-stability", "sk-thm-sf-dual-perfect", "sk-thm-sf-verdier-exchange"]
+kind = "lemma"
+title = "Local boundary duality"
+order = 4013
+uses = ["sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle", "sk-thm-pd-verdier-duality", "sk-thm-purity-transport", "sk-thm-sf-verdier-exchange"]
 lean = ["AlgebraicGeometry.exists_linearEquiv_dual_stalk_higherDirectImage"]
 tags = ["sketch"]
 +++
-For a dense open immersion $j:U_0\hookrightarrow C_0$ of smooth curves,
-a lisse Weil sheaf $F$, and a missing closed point $s$, there is a
-Frobenius-equivariant perfect pairing
+Let $j_0:U_0\hookrightarrow C_0$ be a dense open in a smooth curve
+over $k_0$, and let $F$ be a lisse Weil $\Qlb$-sheaf on $U_0$.
+For a geometric point $\bar s$ over a closed point
+$s\in C_0\setminus U_0$, there is a canonical perfect pairing,
+equivariant for the local geometric Frobenius at $s$,
 
 $$
-(j_*F^\vee)_{\bar s}\otimes (R^1j_*F)_{\bar s}
-\longrightarrow\DLAQ(-1).
+ (j_*F^\vee)_{\bar s}\otimes(R^1j_*F)_{\bar s}
+                       \longrightarrow\Qlb(-1).
 $$
-
-Also, for a nontrivial character $\psi:\mathbf F_p\to\DLAQ^\times$
-and $a\in k^\times$, the geometric linear Artin–Schreier sheaf
-$\mathcal L_{\psi(ax)}$ is ramified at infinity.

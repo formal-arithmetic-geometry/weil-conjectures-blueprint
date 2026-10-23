@@ -2,7 +2,7 @@
 id = "prop-nagata-affine-blowup-restrict"
 kind = "theorem"
 title = "Restriction of an affine blow-up"
-order = 54
+order = 188
 lean = ["AlgebraicGeometry.AffineBlowup.isPullback_hom_of_isLocalization"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-localization-degree-zero", "lemma-nagata-rees-piece-mul", "prop-nagata-proj-standard-open", "prop-nagata-rees-graded", "prop-nagata-relative-proj-functoriality"]

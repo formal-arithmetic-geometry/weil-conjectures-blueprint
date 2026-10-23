@@ -2,7 +2,7 @@
 id = "pur713-def-star-projection"
 kind = "definition"
 title = "Direct-image projection transformation, finite coefficients"
-order = 1980
+order = 3073
 uses = ["sk-def-sf-exchanges"]
 +++
 Assume Input “Fixed-coefficient inverse image preserves K-flat complexes” (`pur713-input-kflat-fixed`). For $f:X\to Y$, $K\in D(X_{\Proet},\mathcal O_E/\pi_E^n)$ and $L\in D(Y_{\Proet},\mathcal O_E/\pi_E^n)$, define

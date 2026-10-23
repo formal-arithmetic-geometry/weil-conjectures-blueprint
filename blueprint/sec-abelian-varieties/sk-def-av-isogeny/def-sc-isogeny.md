@@ -3,7 +3,7 @@ id = "def-sc-isogeny"
 kind = "definition"
 title = "Isogenies"
 lean = ["AlgebraicGeometry.IsIsogeny", "AlgebraicGeometry.isogenyDegree"]
-order = 441
+order = 458
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme"]
 +++
 Let $A,B$ be group schemes

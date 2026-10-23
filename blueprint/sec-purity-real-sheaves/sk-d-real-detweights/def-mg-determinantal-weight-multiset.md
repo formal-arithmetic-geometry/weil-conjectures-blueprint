@@ -3,7 +3,7 @@ id = "def-mg-determinantal-weight-multiset"
 kind = "definition"
 title = "Determinantal-weight multiset"
 lean = ["AlgebraicGeometry.WeilGroup.detWeightMultiset"]
-order = 2980
+order = 3863
 uses = ["def-mg-weil-semisimplification", "def-wf-determinantal-weight"]
 +++
 Let $V$ be a finite-dimensional Weil representation on the preceding

@@ -19,7 +19,7 @@ paragraph shows that $\underline E=\varinjlim(\underline{\cO_E}\xrightarrow{\ell
 in $\Sh(*_{\mathrm{proét}},\Ab)$, the structure maps being $\ell^{-m}$ times the inclusion
 [def-sfb-integers-to-subfield-point].
 
-*Pullback.* The functor $p_X^*$ is a left adjoint ([sk-def-sfb-pullback-from-point]),
+*Pullback.* The functor $p_X^*$ is a left adjoint ([det-def-sfb-pullback-from-point]),
 so it preserves colimits, and it is additive, so it sends multiplication by $\ell$ to
 multiplication by $\ell$. Applying it gives
 $E_X=\varinjlim(\cO_{E,X}\xrightarrow{\ell}\cO_{E,X}\to\cdots)=\cO_{E,X}[1/\ell]$, the

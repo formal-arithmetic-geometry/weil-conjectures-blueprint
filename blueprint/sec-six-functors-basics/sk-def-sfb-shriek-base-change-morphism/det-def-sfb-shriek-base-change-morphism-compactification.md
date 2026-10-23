@@ -2,6 +2,7 @@
 id = "det-def-sfb-shriek-base-change-morphism-compactification"
 kind = "lemma"
 title = "Base change of a compactification"
+order = 2595
 uses = ["sk-def-nagata-sketch-data", "sk-def-sfb-dc-setting", "sk-prop-nagata-sketch-comp-category"]
 +++
 Work in the setting of [sk-def-sfb-dc-setting]. Let

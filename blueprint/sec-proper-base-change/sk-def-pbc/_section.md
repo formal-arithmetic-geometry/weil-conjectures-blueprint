@@ -2,8 +2,8 @@
 id = "sk-def-pbc"
 kind = "definition"
 title = "Torsion and the PBC property"
-order = 1046
-lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange"]
+order = 1533
+lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange", "AlgebraicGeometry.Scheme.IsTorsionSheaf", "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf", "AlgebraicGeometry.Scheme.isTorsionAbelianSheaf_characterizations", "AlgebraicGeometry.Scheme.constant_ratModIntSheaf_sections_not_torsion"]
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-pbc-conventions"]
 tags = ["sketch"]
 +++

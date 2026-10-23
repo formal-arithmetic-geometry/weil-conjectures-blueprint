@@ -2,6 +2,7 @@
 id = "det-sf-comp-composition-interchange"
 kind = "lemma"
 title = "Interchanging proper direct image and extension by zero"
+order = 2290
 uses = ["det-sf-comp-coherence-single", "det-sf-determination-localizing", "sk-prop-proper-base-change-unbounded"]
 +++
 Let $\Lambda$ be admissible. Let $p:\overline X\to Y$ be proper, let

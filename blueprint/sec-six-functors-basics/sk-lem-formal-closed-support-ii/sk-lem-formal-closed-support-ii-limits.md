@@ -2,6 +2,7 @@
 id = "det-formal-closed-support-ii-limits"
 kind = "lemma"
 title = "Closed support commutes with derived limits of sequences"
+order = 2219
 uses = ["sk-lem-formal-closed-support", "sk-prop-pe-products"]
 +++
 In the situation of [sk-lem-formal-closed-support], let $F$ be one of the functors

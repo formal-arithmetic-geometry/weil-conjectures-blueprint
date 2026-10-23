@@ -2,38 +2,26 @@
 kind  = "proof"
 of    = "lem-pc-universal-divisor"
 +++
-By [thm-pc-hilb-curves](1) the functor $\operatorname{Hilb}^{d+1}_{X/k}$ is
-representable by
-$H:=\underline{\operatorname{Hilb}}^{d+1}_{X/k}$; by the definition of
-representability ([def-pc-hilb-functor]) there is a universal
-element
+By the definition of representability ([def-pc-hilb-functor]) the
+universal element is a closed subscheme
+$D_{\mathrm{univ}}\subset X_H=H\times_SX$ which is finite locally free of
+degree $d$ over $H$. The projection $H\times_SX\to H$ is the base change of
+$X\to S$, hence smooth of relative dimension $1$. Applying
+[lem-pc-cartier-criterion] ((1)$\Rightarrow$(2)) to it and to
+$D_{\mathrm{univ}}$ shows that $D_{\mathrm{univ}}$ is a relative effective
+Cartier divisor on $H\times_SX$ over $H$
+([def-pc-relative-effective-cartier]). Its associated invertible module is
+$\mathcal{O}(D_{\mathrm{univ}})$ ([def-pc-divisor-line-bundle]).
 
-$$
-Z_{\mathrm{univ}}\in\operatorname{Hilb}^{d+1}_{X/k}(H),
-$$
+Let $h:T\to H$ be a morphism of $S$-schemes. By universality, the closed
+subscheme $D_h\subset X_T$ classified by $h$ is the pullback of
+$D_{\mathrm{univ}}$ along $h\times\mathrm{id}_X:X_T\to H\times_SX$, i.e. its base
+change along $h$. Since $H\times_SX\to H$ is flat and locally of finite
+presentation (being smooth), [lem-pc-recd-pullback] gives
+$\mathcal{O}_{X_T}(D_h)\cong(h\times\mathrm{id}_X)^*\mathcal{O}(D_{\mathrm{univ}})$.
 
-i.e. a closed subscheme $Z_{\mathrm{univ}}\subset X_H=H\times_kX$
-finite locally free of degree $d+1$ over $H$. Apply
-[lem-pc-cartier-criterion] ((1)$\Rightarrow$(2)) to the smooth
-morphism of relative dimension $1$
-$H\times_kX\to H$ (the base change of $X\to k$ along $H\to k$: base
-changes of smooth morphisms are smooth, the standard statement) and
-the closed subscheme $Z_{\mathrm{univ}}$: it is a relative effective
-Cartier divisor $D_{\mathrm{univ}}$ on $H\times_kX/H$
-([def-pc-relative-effective-cartier]). Its associated invertible
-module is $\mathcal{O}(D_{\mathrm{univ}})$
-([def-pc-divisor-line-bundle]). For a $k$-rational point
-$[D]\in H$ corresponding to an effective Cartier divisor $D\subset X$
-of degree $d+1$: the fibre of the universal element over $[D]$ is, by
-the universality of $Z_{\mathrm{univ}}$, exactly the closed subscheme
-$D$ of the fibre
-$X_{[D]}=X$ (the point $[D]$ of $H$ corresponds, via the
-identification of [thm-pc-hilb-curves](2), to the element $D$ of
-$\operatorname{Hilb}^{d+1}_{X/k}(k)$: the fibre of the universal object over $[D]$
-is that element, by the very definition of universality); hence the
-restriction of $D_{\mathrm{univ}}$ to the fibre
-$\{[D]\}\times X\cong X$ is the effective Cartier divisor $D$ and, by
-the base change property of the divisor module
-([lem-pc-recd-pullback], or directly:
-$\mathcal{O}(D_{\mathrm{univ}})|_{\{[D]\}\times X} =\mathcal{O}_X(D)$), the restriction of
-$\mathcal{O}(D_{\mathrm{univ}})$ is $\mathcal{O}_X(D)$.
+For the last assertion take $S=\operatorname{Spec}(k)$, $X$ as in
+[thm-pc-hilb-curves] and $h=[D]:\operatorname{Spec}(k)\to H$ a $k$-rational
+point. By [thm-pc-hilb-curves](2) it corresponds to the element $D$ of
+$\operatorname{Hilb}^{d}_{X/k}(k)$, so $D_h=D\subset X$, and the restriction of
+$\mathcal{O}(D_{\mathrm{univ}})$ to $[D]\times X\cong X$ is $\mathcal{O}_X(D)$.

@@ -15,13 +15,6 @@ $\lambda$. This proves surjectivity. If the class from $F_\lambda$ dies in
 the colimit, choose a finite refinement and a degree-$(q-1)$ cochain whose
 coboundary is the cocycle. The refinement maps, cochain sections, and
 coboundary equations occur at one $\mu\geq\lambda$, so the class already
-dies in $H^q(X,F_\mu)$. Pullback of the finite hypercover and all its face
-maps gives the same construction over an extension field, which proves the
-stated naturality.
-
-Apply the filtered-colimit theorem for etale cohomology to the given
-quasi-compact quasi-separated scheme $C$. For a ground-field extension,
-pullback of the hypercovers, sections and cocycles in that proof gives the
-maps $\rho^q_{k'/k}$ of [def-weil-pbc-eight-curve-assertions].
-Pullback commutes with the sheaf colimit, and hence with the canonical
-comparison maps. This proves the stated compatibility.
+dies in $H^q(X,F_\mu)$. This is the filtered-colimit theorem for etale
+cohomology of quasi-compact quasi-separated schemes,
+[lem-weil-pbc-cohomology-filtered-colimit].

@@ -1,6 +1,7 @@
 +++
 kind = "proof"
 of = "det-sp-integral-adjunction-bijection"
+uses = ["def-pe-derived-complete"]
 +++
 *Normalization.* $\operatorname{red}_YK$ is normalized constructible, and $f^!_\bullet$
 preserves normalized constructible towers ([det-sp-tower-gamma], (3)). By the
@@ -23,5 +24,5 @@ $R\varprojlim$ of the tower counit; similarly for the unit. By
 *Purity.* $\gamma_{f,\bullet}(\operatorname{red}_YK)$ is an isomorphism of towers
 ([det-sp-tower-gamma]); its source is $\operatorname{red}_X(f^*K(d)[2d])$ because
 pullback, twist and shift commute with reduction. Applying $R\varprojlim$ and
-the unit isomorphism for derived complete objects gives the isomorphism
+the unit isomorphism for derived complete objects [def-pe-derived-complete] gives the isomorphism
 $f^*_{\mathcal O_E}K(d)[2d]\simeq H_{f,\mathcal O_E}(K)$.

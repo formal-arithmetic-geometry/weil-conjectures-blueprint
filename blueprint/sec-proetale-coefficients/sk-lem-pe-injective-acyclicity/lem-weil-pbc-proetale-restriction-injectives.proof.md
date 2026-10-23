@@ -30,7 +30,8 @@ epimorphism. This proves exactness without a claim about ordinary geometric
 stalks on the pro-etale site.
 
 The adjunction now makes restriction preserve injectives. Restriction itself
-is exact by the exactness of the pro-etale inverse image for constant
-coefficients; it is the inverse image of the pro-etale operations for this
+is exact, since the pro-etale inverse image is exact on sheaves with values in
+$\mathcal A=\Mod_\Lambda$, i.e. on sheaves of $\Lambda$-modules
+([lem-sfb-finite-upper-star-exact]); it is the inverse image of the pro-etale operations for this
 localization. Restricting an injective resolution therefore computes both
 versions of derived sections in the statement.

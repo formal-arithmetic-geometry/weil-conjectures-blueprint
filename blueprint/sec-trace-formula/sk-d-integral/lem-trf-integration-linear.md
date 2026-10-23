@@ -3,7 +3,7 @@ id = "lem-trf-integration-linear"
 kind = "lemma"
 title = "Linearity of the integration"
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.integration_add_smul"]
-order = 2629
+order = 3638
 uses = ["def-compact-support-direct-image-detailed", "def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-dualizing-complex", "def-trf-integration", "def-weil-derived-direct-image", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum

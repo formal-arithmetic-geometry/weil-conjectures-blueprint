@@ -2,8 +2,9 @@
 id = "sk-cor-jacobian-torsion"
 kind = "corollary"
 title = "Jacobian torsion and geometric extension"
-order = 613
-uses = ["sk-def-av", "sk-def-av-mult-n", "sk-prop-av-connected-order", "sk-prop-av-divisible", "sk-prop-av-divisible-structure", "sk-prop-av-finite-etale-points", "sk-prop-av-isogeny", "sk-thm-picard-main", "sk-cor-picard-degree"]
+order = 875
+lean = ["AlgebraicGeometry.Scheme.Hom.pic_proper_ntorsion", "AlgebraicGeometry.nonempty_addEquiv_torsionBy", "AlgebraicGeometry.bijective_toUnit_comp_torsionSubgroupScheme", "AlgebraicGeometry.jacobian_compatibility", "AlgebraicGeometry.Scheme.surjective_pow_picardZero", "AlgebraicGeometry.Scheme.ker_picDegreeMod"]
+uses = ["sk-def-av", "sk-def-av-mult-n", "sk-prop-av-connected-order", "sk-prop-av-divisible", "sk-prop-av-divisible-structure", "sk-prop-av-finite-etale-points", "sk-prop-av-isogeny", "sk-thm-picard-main", "sk-cor-picard-degree", "sec-abelian-varieties"]
 tags = ["sketch"]
 +++
 Let $k$ be algebraically closed, let $C/k$ be a smooth proper connected

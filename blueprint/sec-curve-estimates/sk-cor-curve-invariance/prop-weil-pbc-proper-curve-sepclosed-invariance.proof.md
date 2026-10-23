@@ -2,20 +2,12 @@
 kind  = "proof"
 of    = "prop-weil-pbc-proper-curve-sepclosed-invariance"
 +++
-First assume both fields algebraically closed. Apply constructible/primary
-reduction. The closed immersion $C_{\mathrm{red}}\to C$ is a universal
-homeomorphism, so the explicit site equivalence first replaces $C$ by its
-reduction. Then apply dense-open localization, the prime-to-$\ell$ trace
-splitting, the
-finite-pushforward comparison, and the normalized smooth constant calculation
-in that order. Every step commutes with field extension, giving the result.
-For separably closed $k\subseteq k'$, apply Lemma
-[lemma-weil-pbc-curve-separably-closed-passage] to the algebraically
-closed result just proved. Its commutative rectangle identifies the
-resulting isomorphism with the specified restriction map.
-
-Pass to compatible algebraic closures: the isomorphism of
-[prop-weil-pbc-algebraically-closed-extension] holds for the two algebraically
-closed extensions, and the two purely inseparable extensions identify the
-sites by invariance under universal homeomorphisms, so the separably closed
-case is obtained by composing the isomorphisms.
+By [prop-weil-pbc-algebraically-closed-extension], the cohomology of proper
+curves of dimension at most one is invariant under every extension of
+algebraically closed fields, for every torsion etale sheaf. This is exactly
+the hypothesis of [lemma-weil-pbc-curve-separably-closed-passage], which
+therefore gives the isomorphism $H^q(C,F)\xrightarrow{\sim}H^q(C_{k'},F|)$ for
+the separably closed fields $k\subseteq k'$: passing to compatible algebraic
+closures $\bar k\subseteq\bar k'$, the two purely inseparable extensions
+identify the cohomology by invariance under universal homeomorphisms, and the
+remaining map is the algebraically closed case.

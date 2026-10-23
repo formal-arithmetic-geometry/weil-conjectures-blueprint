@@ -1,33 +1,31 @@
 +++
 id = "sk-d-real-detweights"
-kind = "definition"
-title = "Determinant weights and weight blocks"
-order = 2975
-uses = ["sk-d-real-operations", "sk-d-real-weights", "sk-p-real-rankone"]
+kind = "corollary"
+title = "Determinant weights"
+order = 3858
+uses = ["sk-cor-wrp-rankone-pure", "sk-d-weights", "sk-p-real-rankone"]
 lean = ["AlgebraicGeometry.WeilGroup.HasDetWeight"]
 tags = ["sketch"]
 +++
-A Weil sheaf $V$ given by a representation of $W(C_0)$ on a
-$\Qlb$-vector space of finite dimension $r$ has determinant weight $\gamma\in\mathbf R$
-if $\det V$ is punctually $\iota$-pure of weight $r\gamma$, i.e.
-$\wt_{\iota,q_x}(\det F_x\mid V)=r\gamma$ for every closed point $x$.
-For a nonzero irreducible Weil sheaf $V$,
-rank-one purity assigns a unique
-pure weight to $\det V$, so $V$ has exactly one determinant weight
+Let $\mathcal V$ be a nonzero lisse Weil sheaf of rank $r$ on a smooth
+geometrically connected curve. Its determinant has finite geometric
+image and is punctually pure. Define
 
 $$
-\dw_\iota(V)=\frac{\wt_\iota(\det V)}{\operatorname{rank}V}.
+ \operatorname{dw}_\iota(\mathcal V)
+   =\frac{\lambda_\iota(\det\rho(s))}{r}.
 $$
 
-For a general sheaf, its constituent determinant weights are the numbers
-$\dw_\iota(V_a)$ for its irreducible constituents.
-The rank-counted list repeats $\dw_\iota(V_a)$ exactly
-$r_a=\operatorname{rank}V_a$ times.
-For a semisimple sheaf $\mathcal S=\bigoplus_aV_a$, its block of weight
-$\gamma$ and the ranks and weight sum above that block are
+This number is independent of $s$ and of a finite coefficient model, and
+$\det\mathcal V$ is pure of weight $r\operatorname{dw}_\iota(\mathcal V)$.
+In particular every irreducible constituent, including every constituent
+of a tensor or exterior construction, satisfies the finite geometric
+determinant condition used in [sec-algebraic-groups-lie-algebras].
 
-$$
-\mathcal S(\gamma)=\bigoplus_{\dw_\iota(V_a)=\gamma}V_a,\qquad
-N_\gamma=\sum_{\dw_\iota(V_a)>\gamma}r_a,\qquad
-B_\gamma=\sum_{\dw_\iota(V_a)>\gamma}r_a\dw_\iota(V_a).
-$$
+*Complement.* For a lisse Weil sheaf, its constituent determinant weights are
+the numbers $\operatorname{dw}_\iota(V_a)$ of its irreducible constituents
+$V_a$; the rank-counted list repeats $\operatorname{dw}_\iota(V_a)$ exactly
+$\operatorname{rank}V_a$ times ([def-mg-determinantal-weight-multiset]). For
+these constituents $\operatorname{dw}_\iota$ agrees with the determinant
+weight $\operatorname{dw}_{\lambda_\iota}$ of [sk-d-weights]
+([lem-rp-determinant-weights-agree]).

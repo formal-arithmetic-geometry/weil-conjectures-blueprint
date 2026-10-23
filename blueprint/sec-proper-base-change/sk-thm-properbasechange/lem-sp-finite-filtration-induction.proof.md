@@ -15,4 +15,5 @@ $$
 in which the third vertical arrow is an isomorphism by hypothesis: descending
 induction on $p$, starting where both filtrations vanish (using the *graded
 pieces* of [def-sp-filtration]) shows $F^{p}A\to F^{p}A'$ is an isomorphism
-for all $p$, and $p=0$ gives the claim.
+for all $p$; for $p$ small enough both steps are the whole objects, which gives
+that $\varphi$ is an isomorphism.

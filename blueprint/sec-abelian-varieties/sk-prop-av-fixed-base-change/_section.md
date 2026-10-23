@@ -3,7 +3,7 @@ id = "sk-prop-av-fixed-base-change"
 kind = "proposition"
 title = "Fixed points are unchanged by algebraically closed base change"
 lean = ["LinearMap.Frobenius.bijective_tmul_fixedPoints", "LinearMap.Frobenius.existsUnique_baseChange"]
-order = 558
+order = 588
 uses = ["sk-def-av", "sk-prop-av-lang-steinberg"]
 tags = ["sketch"]
 +++

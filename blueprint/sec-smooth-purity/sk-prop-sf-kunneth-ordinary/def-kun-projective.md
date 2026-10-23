@@ -2,7 +2,7 @@
 id = "def-kun-projective"
 kind = "definition"
 title = "Projective morphisms and projective schemes"
-order = 2053
+order = 3139
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A morphism of schemes $f:X\to Y$ is *projective* if there are

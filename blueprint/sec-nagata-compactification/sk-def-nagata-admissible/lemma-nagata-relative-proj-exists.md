@@ -3,7 +3,7 @@ id = "lemma-nagata-relative-proj-exists"
 kind = "lemma"
 title = "Existence and affine compatibility of relative Proj"
 lean = ["AlgebraicGeometry.Scheme.GradedAlgebraData.existsUnique_relProjIso", "AlgebraicGeometry.Scheme.GradedAlgebraData.isColimitRestrict", "AlgebraicGeometry.Scheme.GradedAlgebraData.relProj\u03b9_relProjHom", "AlgebraicGeometry.Scheme.GradedAlgebraData.relProjHom_preimage", "AlgebraicGeometry.Scheme.GradedAlgebraData.isPullback_relProj\u03b9", "AlgebraicGeometry.Scheme.GradedAlgebraData.relProjFunctor_map_relProj\u03b9", "AlgebraicGeometry.Scheme.GradedAlgebraData.relProjRestrictIso", "AlgebraicGeometry.Scheme.GradedAlgebraData.relProjRestrictIso_hom_naturality"]
-order = 21
+order = 156
 uses = ["def-nagata-affine-proj", "def-nagata-relative-proj", "lemma-nagata-proj-chart-ring-cocycle"]
 +++
 Let $\mathcal A$ be a quasi-coherent graded $\mathcal O_X$-algebra. The

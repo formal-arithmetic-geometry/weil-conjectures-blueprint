@@ -3,7 +3,7 @@ id = "lem-weil-pbc-etale-section-continuity"
 kind = "lemma"
 title = "Continuity of sections at an inverse limit"
 lean = ["AlgebraicGeometry.Etale.unitComparison_app_surjective_of_isLimit", "AlgebraicGeometry.Etale.exists_unitComparison_app_eq_zero_of_isLimit", "AlgebraicGeometry.Etale.unitComparison_app_isColimit_of_isLimit"]
-order = 959
+order = 1022
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-etale-finite-data-descent"]
 +++
 Let $X=\varprojlim_jX_j$ be as in the quasi-compact quasi-separated

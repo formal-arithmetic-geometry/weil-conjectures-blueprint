@@ -2,7 +2,7 @@
 id = "rem-ptr-sc-abelian-variety-1"
 kind = "remark"
 title = "Pointer to the properties of [def-sc-abelian-variety]"
-order = 439
+order = 456
 uses = ["def-sc-abelian-variety"]
 +++
 In the notation of [def-sc-abelian-variety]: that the present class of group schemes is exactly the

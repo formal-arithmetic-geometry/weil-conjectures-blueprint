@@ -2,7 +2,7 @@
 id = "sk-lem-constructible-ext-continuity"
 kind = "lemma"
 title = "Continuity of Ext out of a constructible complex"
-order = 1515
+order = 2157
 uses = ["sk-cor-pe-bounded-continuity", "sk-lem-formal-closed-support", "sk-cor-coefficient-heart-ii"]
 tags = ["sketch"]
 +++

@@ -2,6 +2,7 @@
 id = "det-sp-p1-trace"
 kind = "lemma"
 title = "The projective-line trace and the diagonal integrals"
+order = 2360
 uses = ["thm-amb-p1-decomposition", "def-amb-p1-trace", "lem-amb-p1-diagonal-integrals"]
 +++
 Let $\Lambda_n=\mathbf Z/\ell^n\mathbf Z$, $q:\mathbf P^1_S\to S$, and let

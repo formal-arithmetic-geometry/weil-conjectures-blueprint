@@ -19,6 +19,6 @@ D_Y(Rf_!M)=R\mathcal H om_Y(Rf_!M,\omega_Y)
 \cong Rf_*R\mathcal H om_X(M,\omega_X)=Rf_*D_X(M).
 $$
 
-Step 3: naturality and the compatibilities are those of
+Step 3: naturality and the compatibility with shifts are those of
 [lem-sf-tensor-hom] and of the mate construction of
 [lem-sf-mate].

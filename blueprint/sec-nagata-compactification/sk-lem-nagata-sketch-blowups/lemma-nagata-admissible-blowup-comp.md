@@ -2,7 +2,7 @@
 id = "lemma-nagata-admissible-blowup-comp"
 kind = "lemma"
 title = "Composition of admissible blow-ups, [stacks-project]"
-order = 170
+order = 280
 lean = ["AlgebraicGeometry.IsAdmissible.exists_comp"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "lemma-nagata-admissible-blowup-over-open", "prop-nagata-global-blowup-cover-independent"]
 +++

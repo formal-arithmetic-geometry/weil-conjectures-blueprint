@@ -2,11 +2,18 @@
 kind = "proof"
 of = "det-pe-wc-sections-derived"
 +++
-The category of $\mathcal R$-modules is a Grothendieck abelian category, so $K$ has a
-K-injective resolution $K\to I$ (Stacks, Tag 079P), and $R\Gamma(U,K)=\Gamma(U,I)$ by
-definition. The map $K(U)\to I(U)$ is a quasi-isomorphism: its cone is $\Gamma(U,-)$ of the
-cone of $K\to I$, which is acyclic; and an exact functor
-([det-pe-wc-sections-exact]) carries acyclic complexes to acyclic complexes, since
-acyclicity means exactness of $C^{n-1}\to C^n\to C^{n+1}$ for all $n$ and exact functors
-preserve images and kernels. This proves the first assertion. Taking $K=F$ in degree $0$
-gives $H^q(U,F)=H^q(F(U)[0])=0$ for $q>0$.
+The natural bijection $\Hom(\Lambda[U],G)\cong G(U)$ is the composite of the sheafification
+adjunction, the free–forgetful adjunction between sets and $\Lambda$-modules (applied
+objectwise), and the Yoneda lemma.
+
+Let $W$ be weakly contractible, let $e\colon E\to G$ be an epimorphism of sheaves of
+$\Lambda$-modules and $f\colon\Lambda[W]\to G$. The epimorphism $e$ is locally surjective, so
+its underlying map of sheaves of sets is an epimorphism, and by condition 3 of
+[det-pe-weak-contractible-equivalences] the map $E(W)\to G(W)$ is surjective. Under the
+bijection above, $f$ corresponds to an element of $G(W)$; a preimage in $E(W)$ corresponds to
+a map $g\colon\Lambda[W]\to E$, and $e\circ g=f$ by naturality of the bijection. Hence
+$\Lambda[W]$ is projective.
+
+The cohomology $H^q(W,F)$ is $\operatorname{Ext}^q(\Lambda[W],F)$, the derived functors of
+$\Hom(\Lambda[W],-)=\Gamma(W,-)$. Since $\Lambda[W]$ is projective, it has projective dimension
+$0$, so $\operatorname{Ext}^q(\Lambda[W],F)=0$ for $q>0$.

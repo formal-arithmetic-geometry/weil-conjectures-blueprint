@@ -2,6 +2,7 @@
 id = "det-tf-invariants-duality"
 kind = "lemma"
 title = "Verdier duality commutes with invariants under a pro-p group"
+order = 3597
 +++
 Let $P$ be a pro-$p$ group, where $p$ is invertible in the finite commutative
 $\ell$-primary ring $A$, and let $Y$ be a separated finite-type scheme over a

@@ -12,7 +12,7 @@ topos under universal homeomorphisms
 direct images of the two squares are identified under these base changes, so
 the assertion for $L/K$ is equivalent to the assertion for $L'/K'$. As
 $K'$ is perfect, the extension $L'/K'$ is separable
-([def-kun-separably-closed]).
+([def-pc-separably-closed]).
 
 *Step 2 (separable extensions).* By
 [lem-kun-separable-smooth-colimit] the field $L'$ is a filtered

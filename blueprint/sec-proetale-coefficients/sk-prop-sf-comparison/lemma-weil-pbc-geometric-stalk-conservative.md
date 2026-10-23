@@ -2,9 +2,9 @@
 id = "lemma-weil-pbc-geometric-stalk-conservative"
 kind = "lemma"
 title = "Conservativity of geometric stalks"
-order = 999
+order = 1027
 lean = ["AlgebraicGeometry.Scheme.isIso_of_isIso_sheafFiber_map"]
-uses = ["def-kun-separably-closed", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "lemma-openclosed-point-ulift", "prop-weil-pbc-geometric-stalks-exact"]
+uses = ["def-pc-separably-closed", "def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "lemma-openclosed-point-ulift", "prop-weil-pbc-geometric-stalks-exact"]
 +++
 Let $S$ be a scheme and let $\mathcal A$ be a category with all (small)
 colimits which is concrete over sets, with a forgetful functor that reflects

@@ -2,10 +2,12 @@
 kind  = "proof"
 of    = "lem-sc-riemann-roch"
 +++
-*Preliminaries.* $C$ is integral (its local rings are regular, hence
-domains, so its irreducible components are disjoint and connectedness
-leaves one), of dimension one, and its local rings at closed points are
-discrete valuation rings with residue field $k$. For a coherent
+*Preliminaries.* $C$ is connected, since the field
+$H^0(C,\mathcal O_C)=k$ has no nontrivial idempotents; it is integral (its
+local rings are regular ([lem-sc-smooth-regular]), hence domains, so its
+irreducible components are disjoint and connectedness leaves one), of
+dimension one, and its local rings at closed points are discrete
+valuation rings with residue fields finite over $k$. For a coherent
 $\mathcal F$ the spaces $H^q(C,\mathcal F)$ are finite-dimensional
 (coherent cohomology of a proper scheme over a field, Stacks Project,
 Cohomology of Schemes, Proposition 30.19.1,
@@ -20,15 +22,11 @@ exact cohomology sequence is a finite exact sequence of
 finite-dimensional $k$-vector spaces, whose alternating sum of
 dimensions vanishes.
 
-*Part (1).* This is the recorded classical input of the statement, Stacks Project,
-Algebraic Curves, Lemma 53.5.2
-([Tag 0BS6](https://stacks.math.columbia.edu/tag/0BS6)), used in the
-displayed form $\chi(C,\mathcal L)=\deg\mathcal L+1-g$, where
-$\chi(C,\mathcal L)=\dim H^0(C,\mathcal L)-\dim H^1(C,\mathcal L)$ and
-$g=\dim H^1(C,\mathcal O_C)$ ([def-sc-genus]); no separate proof
-is given. Applied to $\mathcal L=\mathcal O_C$, whose degree is $0$
-($\deg$ is a homomorphism, [def-sc-pic0]), it gives
-$\chi(C,\mathcal O_C)=1-g$.
+*Part (1).* By [def-sc-pic0],
+$\deg\mathcal L=\chi(C,\mathcal L)-\chi(C,\mathcal O_C)$, and
+$\chi(C,\mathcal O_C)=\dim_kH^0(C,\mathcal O_C)-\dim_kH^1(C,\mathcal O_C)=1-g$
+because $H^0(C,\mathcal O_C)=k$. Hence
+$\chi(C,\mathcal L)=\deg\mathcal L+1-g$.
 
 *The torsion part.* The torsion subsheaf $\mathcal T$ is the kernel of
 $\mathcal F\to j_*\mathcal F_\eta$ ($j:\operatorname{Spec}k(C)\to C$
@@ -51,8 +49,8 @@ $$
 $$
 
 (finite, each $\mathcal T_x$ being a finitely generated torsion module
-over the discrete valuation ring $\mathcal O_{C,x}$ with residue field
-$k$). Moreover $\operatorname{rk}\mathcal T=0$ and
+over the discrete valuation ring $\mathcal O_{C,x}$, whose residue field
+is finite over $k$). Moreover $\operatorname{rk}\mathcal T=0$ and
 $\deg\mathcal T=\dim_kH^0(C,\mathcal T)$, so (2) holds for $\mathcal T$.
 
 *The torsion-free quotient.* $\mathcal E:=\mathcal F/\mathcal T$ is
@@ -100,8 +98,9 @@ locally free modules: locally the sequence splits and
 $\wedge^r(\mathcal L\oplus\mathcal E')=\mathcal L\otimes\wedge^{r-1}\mathcal E'$,
 the isomorphism $l\wedge\tilde e_1\wedge\dots\wedge\tilde e_{r-1}\mapsto l\otimes e_1\wedge\dots\wedge e_{r-1}$
 being independent of the lifts $\tilde e_i$ and so gluing). Since
-$\deg$ is a homomorphism on $\operatorname{Pic}(C)$
-([def-sc-pic0]), $\deg\det\mathcal E=\deg\mathcal L+\deg\det\mathcal E'$.
+$\deg$ is additive under tensor products of invertible modules on the
+smooth proper curve $C$ ([lem-pc-degree-base-change](2)),
+$\deg\det\mathcal E=\deg\mathcal L+\deg\det\mathcal E'$.
 Additivity of $\chi$, part (1) for $\mathcal L$ and the induction
 hypothesis for $\mathcal E'$ give
 

@@ -38,4 +38,4 @@ with an arbitrary $L'$ on $Y'$ in place of $Lg^*L$ identifies
 $\operatorname{PF}_{p'}\circ(\operatorname{Ex}_*\otimes1)$ with the
 transpose of $L\bar g'^*\varepsilon_p\otimes1$, which is the form used for
 the symmetry of the relative product. The last clause is
-[prop-sf-pf-reduction], [thm-sf-pf-field] and [thm-sf-pf-proetale].
+[prop-sf-pf-reduction] (1).

@@ -2,6 +2,7 @@
 id = "det-sfb-coefficient-comparisons-direct-image"
 kind = "lemma"
 title = "Coefficient comparison for $Rf_*$ with $\\ell$-adic coefficients"
+order = 3007
 uses = ["sk-cor-pe-bounded-continuity", "lem-coef-finite-direct-image"]
 +++
 Let $f\colon X\to Y$ be a morphism of the standing range and $\Lambda\to\Lambda'$ one of

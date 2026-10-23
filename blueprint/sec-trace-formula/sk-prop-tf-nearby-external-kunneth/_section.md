@@ -2,7 +2,7 @@
 id = "sk-prop-tf-nearby-external-kunneth"
 kind = "proposition"
 title = "Nearby-cycle external Künneth"
-order = 2650
+order = 3588
 uses = ["sk-lem-sf-kunneth-star"]
 tags = ["sketch"]
 +++

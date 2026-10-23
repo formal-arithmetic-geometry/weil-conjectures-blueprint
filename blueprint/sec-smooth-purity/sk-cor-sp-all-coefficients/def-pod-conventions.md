@@ -2,8 +2,8 @@
 id = "def-pod-conventions"
 kind = "definition"
 title = "Poincare duality conventions"
-order = 2435
-uses = ["sk-def-sf-setting", "sk-def-sfb-bounded-constructible", "sk-def-sp-tate-twist", "sk-thm-existence", "sk-def-sf-weil-complexes", "cor-pur-finite-stage-smooth-dualizing-complex", "def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-trf-frobenius-operators", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-coefficient-twists", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-weil-sheaf-complex"]
+order = 3066
+uses = ["def-sf-setting", "lem-integral-ctf-equals-bc", "det-def-sfb-bounded-constructible", "sk-def-sp-tate-twist", "sk-thm-existence", "sk-def-sf-weil-complexes", "cor-pur-finite-stage-smooth-dualizing-complex", "def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-trf-frobenius-operators", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-coefficient-twists", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-weil-sheaf-complex"]
 +++
 Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, a prime $\ell\neq p$, a finite
@@ -19,7 +19,7 @@ exceptional-adjoint
 admissible for every finite coefficient ring. The coefficient rings are
 $\Lambda\in\{A,\mathcal O_E,E,\Qlb\}$, regarded as condensed rings, with
 coefficient sheaves $\Lambda_X=p_X^*\Lambda$ on the small pro-étale site of
-$X$ ([sk-def-sf-setting]). Use
+$X$ ([def-sf-setting]). Use
 
 $$
 D^b_{ctf}(X,\Lambda)\subseteq D^b_c(X,\Lambda)\subseteq D(X_{\mathrm{proét}},\Lambda)
@@ -27,8 +27,8 @@ D^b_{ctf}(X,\Lambda)\subseteq D^b_c(X,\Lambda)\subseteq D(X_{\mathrm{proét}},\L
 $$
 
 the bounded constructible complexes of $\Lambda_X$-modules
-([sk-def-sfb-bounded-constructible]) and those of finite Tor amplitude
-($D^b_{ctf}=D^b_c$ for $\Lambda\neq A$), the derived pullback, tensor, and
+([det-def-sfb-bounded-constructible]) and those of finite Tor amplitude
+($D^b_{ctf}=D^b_c$ for $\Lambda\neq A$, [lem-integral-ctf-equals-bc]), the derived pullback, tensor, and
 internal Hom, the derived direct image, the compact-support direct image,
 and the exceptional inverse image, with the constructions and adjunctions of
 those definitions. For $\Lambda=A$ the exceptional inverse image is that of

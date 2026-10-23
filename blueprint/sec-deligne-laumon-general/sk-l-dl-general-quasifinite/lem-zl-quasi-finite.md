@@ -2,9 +2,9 @@
 id = "lem-zl-quasi-finite"
 kind = "lemma"
 title = "Quasi-finite morphisms: exactness and upper-weight bound"
-order = 3162
+order = 4047
 lean = ["AlgebraicGeometry.isZero_higherLowerShriek_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.HasWeightsAtMost.higherLowerShriek_zero_of_quasiFinite"]
-uses = ["def-weil-complex-weights", "def-weil-weil-sheaf-complex", "prop-functor-package", "sk-def-sfb-module-lower-shriek", "sk-lem-coefficient-heart"]
+uses = ["def-weil-complex-weights", "def-weil-weil-sheaf-complex", "prop-functor-package", "sk-def-sfb-module-lower-shriek", "sk-lem-coefficient-heart", "sk-d-real-weights"]
 +++
 Let $g:Z_0\to Y_0$ be a separated, quasi-finite morphism of finite type
 of $k_0$-schemes, with $Y_0$ quasi-separated of finite type over $k_0$.

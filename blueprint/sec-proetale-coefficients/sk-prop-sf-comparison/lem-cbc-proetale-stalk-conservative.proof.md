@@ -2,63 +2,40 @@
 kind  = "proof"
 of    = "lem-cbc-proetale-stalk-conservative"
 +++
-*Step 1 (clause (1)).* A morphism of complexes is an
-isomorphism if and only if its cone is acyclic, and a complex is
-acyclic if and only if all its cohomology sheaves vanish: this is the
-definition of the derived category of
-[def-weil-pbc-proetale-modules] as the localization at the
-quasi-isomorphisms. Vanishing of a sheaf is a local condition for the
-topology. Indeed, if $\mathcal H$ is a sheaf on $T_{\Proet}$ whose
-inverse images along the members of a covering family vanish, then for
-every object $V$ the sheaf axiom presents $\mathcal H(V)$ as the
-equalizer of two maps between products of groups
-$\mathcal H(V\times_TU_i)$ that are zero, the family being a
-covering; hence $\mathcal H(V)=0$, and the converse is functoriality
-of inverse image. Applying this to the cohomology sheaves of the cone
-gives the equivalence of the first sentence.
+*Step 1 (clause (1)).* For a weakly etale $g_i$, the inverse image $g_i^*$ is
+restriction to the slice of $T_{\Proet}$ over $W_i$
+([lem-weil-pbc-proetale-restriction-injectives]). A morphism of sheaves is an
+isomorphism as soon as its restrictions to the slices over the members of a
+family covering the final object are isomorphisms: bijectivity on sections
+over an object $V$ follows from the sheaf condition for the covering
+$\{V\times_TW_i\to V\}$, on whose members the morphism is bijective. The
+converse is functoriality. A sheaf vanishes if and only if its map to $0$ is
+an isomorphism. Inverse image along $g_i$ is exact, so it commutes with
+cohomology sheaves of complexes, and a morphism of complexes is a
+quasi-isomorphism if and only if it induces isomorphisms on all cohomology
+sheaves; apply the sheaf statement to these.
 
-*Step 2 (clause (2)).* This is
-[lem-weil-pbc-ind-etale-basis]: restriction to the affine
-ind-etale basis of [def-weil-pbc-ind-etale-basis] determines a
-sheaf and its morphisms uniquely and detects isomorphisms of sheaves.
-Restriction of a complex is exact and degreewise, so a morphism of
-complexes is a quasi-isomorphism if and only if its restriction is
-one. A general $T$ is covered by its affine opens, and clause (1)
-reduces the statement to the affine case.
+*Step 2 (clause (2)).* The affine pro-etale objects form a dense subsite of
+$T_{\Proet}$: every object is covered by them ([lem-weil-pbc-ind-etale-basis],
+applied over the affine opens of $T$).
+Restriction to this subsite is therefore faithful and reflects isomorphisms of
+sheaves, and a morphism of sheaves which is bijective on sections over all
+affine pro-etale objects is an isomorphism. For a short complex, the
+restriction to the subsite is the sheafification of the presheaf complex of
+sections, which is exact by hypothesis; sheafification is exact, and
+restriction to the dense subsite reflects exactness. Applying this to the
+short complexes computing the cohomology sheaves of the cone gives the
+assertion on quasi-isomorphisms.
 
-*Step 3 (clause (3)).* Let $\mathcal G'$ be a bounded-below
-complex of etale $\Lambda$-sheaves. The etale neighbourhoods of a
-geometric point $\bar t$ of $T$ are cofinal among its weakly etale
-neighbourhoods, by [def-weil-pbc-proetale-site] and
-[def-weil-pbc-site-comparison-morphism], the inverse image of the
-comparison morphism being computed on the common objects; hence
-$(\nu_T^*\mathcal G')_{\bar t}=\mathcal G'_{\bar t}$, naturally in
-$\mathcal G'$. If $\nu_T^*F'\to\nu_T^*G'$ is an isomorphism at
-every geometric point, then $F'\to G'$ is an isomorphism at every
-geometric point, hence an isomorphism by
-[lemma-weil-pbc-geometric-stalk-conservative]; applying the functor
-$\nu_T^*$ exhibits $\nu_T^*F'\to\nu_T^*G'$ as an isomorphism. The
-converse follows from functoriality. For bounded-below complexes one
-applies this degreewise to the cohomology sheaves, inverse image being
-exact and the identification of stalks being natural. The final
-assertion of the clause is the definition: the bounded constructible
-objects of [def-weil-pbc-proetale-modules] are by definition the
-pullbacks of the bounded constructible etale objects. Full
-faithfulness of $\nu_T^*$ on bounded-below complexes,
-[thm-weil-pbc-site-comparison], is not needed for this argument,
-but it shows that the etale model of a morphism of etale origin is
-unique.
-
-*Step 4 (clause (4)).* The replacement for the false general
-statement is the displayed reference. Concretely, on
-$T=\operatorname{Spec}k$ the single geometric point of $T$ is the
-only point of the small pro-etale site that comes from a strictly
-henselian local ring, while the site contains the affine objects
-$U=\operatorname{Spec}(\operatorname{colim}\operatorname{Map}(E_n,k))$
-for $E=\varprojlim E_n$ an inverse limit of finite sets with
-surjective transition maps; such a $U$ is ind-Zariski, hence weakly
-etale, over $k$ and has infinitely many points, so the sheaf
-$\mathcal F$ of the statement has a nonzero value there while
-$\mathcal F(T)=0$. No clause of this lemma asserts conservativity
-of geometric-point stalks beyond clause (3), and clause (3) confines
-the failure to complexes that are not of etale origin.
+*Step 3 (clause (3)).* The functor $\nu_T^*$ is fully faithful on module
+sheaves (the unit $F'\to\nu_{T,*}\nu_T^*F'$ is an isomorphism), so it reflects
+isomorphisms: if $\nu_T^*\varphi$ is invertible with inverse $\psi$, then
+$\psi=\nu_T^*\chi$ for a unique $\chi$, and $\chi$ is inverse to $\varphi$ by
+faithfulness. The converse is functoriality. Isomorphisms of etale sheaves are
+detected on the geometric stalks at the points $\bar s$ by
+[lemma-weil-pbc-geometric-stalk-conservative]. For bounded-below complexes,
+$\nu_T^*$ is fully faithful on $\Dplus$ by [thm-weil-pbc-site-comparison], and
+the same argument shows that it reflects isomorphisms. The last assertion is
+the definition of $\Dbc(T_{\Proet},\Lambda)$ in
+[def-weil-pbc-proetale-modules] as the pullbacks of the bounded constructible
+etale objects.

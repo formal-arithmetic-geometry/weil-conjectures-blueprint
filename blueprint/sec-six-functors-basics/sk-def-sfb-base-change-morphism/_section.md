@@ -2,7 +2,7 @@
 id = "sk-def-sfb-base-change-morphism"
 kind = "definition"
 title = "The base change morphism on $D_{\\mathrm{cons}}$"
-order = 1694
+order = 2586
 uses = ["sk-def-sfb-dc-restricted-functors"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructiblePullbackSquareComparison", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleBaseChangeUnitStep", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleBaseChangeSquareStep", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleBaseChangeCounitStep", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleBaseChange"]
 tags = ["sketch"]

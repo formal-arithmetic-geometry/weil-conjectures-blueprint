@@ -2,7 +2,7 @@
 id = "sk-d-six"
 kind = "definition"
 title = "The geometric operation package"
-order = 2661
+order = 3623
 uses = ["sk-d-setup"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations"]
 tags = ["sketch"]

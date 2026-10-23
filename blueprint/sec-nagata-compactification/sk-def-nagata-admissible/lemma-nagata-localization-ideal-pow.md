@@ -2,7 +2,7 @@
 id = "lemma-nagata-localization-ideal-pow"
 kind = "lemma"
 title = "Localization commutes with powers of an ideal"
-order = 45
+order = 179
 lean = ["Ideal.map_pow"]
 +++
 Let $\varphi\colon A\to B$ be a ring homomorphism and $I\subseteq A$ an

@@ -1,98 +1,28 @@
 +++
 kind  = "proof"
 of    = "lemma-weil-pbc-finite-pushforward-extension-zero"
+uses = ["def-weil-pbc-extension-by-zero", "lemma-weil-pbc-finite-exchange", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
-The preceding lemma proves that the specified map is an isomorphism and
-gives both inverse equations.
+A natural transformation is an isomorphism as soon as all its components
+are, so it suffices to show that $\beta_G=\beta_{\bar v,j_Y,G}$ is an
+isomorphism for a fixed $G$. By conservativity of geometric stalks
+([lemma-weil-pbc-geometric-stalk-conservative]) it suffices to check this on
+the stalk at every geometric point $\bar y\to Y$ with algebraically closed
+residue field.
 
-For a morphism $\phi:G\to H$, naturality is the commutative square
+*Points of $V$.* The restriction $j_Y^{-1}\beta_G$ is an isomorphism: by the
+triangle identity for $(j_Y)_!\dashv j_Y^{-1}$, it is identified, via the
+unit isomorphism $v_*G\cong j_Y^{-1}(j_Y)_!v_*G$, with the isomorphism
+$v_*G\xrightarrow{\sim}j_Y^{-1}\bar v_*(j_X)_!G$ to which $\beta_G$ is
+adjoint; the latter is built from the unit isomorphism of $(j_X)_!\dashv
+j_X^{-1}$ and the finite base change isomorphism
+([lemma-weil-pbc-finite-exchange]). If $\bar y$ factors through $V$, the
+stalk of $\beta_G$ at $\bar y$ is the stalk of $j_Y^{-1}\beta_G$ at the lifted
+point, hence an isomorphism.
 
-$$
-\begin{CD}
-j_!v_*G @>{\beta_G}>> \bar v_*j'_!G\\
-@V{j_!v_*\phi}VV @VV{\bar v_*j'_!\phi}V\\
-j_!v_*H @>{\beta_H}>> \bar v_*j'_!H.
-\end{CD}
-$$
-
-At $\bar y\in V$, both routes send
-$(s_{\bar x})_{\bar x\mapsto\bar y}$ to
-$(\phi_{\bar x}(s_{\bar x}))_{\bar x\mapsto\bar y}$; outside $V$ all four
-stalks vanish. Thus the square commutes. The same calculation with the
-inverse maps $\gamma_G,\gamma_H$ proves naturality of the inverse.
-
-If $\bar v=\operatorname{id}_Y$ and $v=\operatorname{id}_V$, every fibre sum
-has one summand. Both the unit–base-change construction of $\beta$ and the
-section formula are the identity of $j_!G$. This proves identity
-compatibility.
-
-For composition, let $f_1:X_1\to Y$ and $f_2:X_2\to X_1$ be finite. Put
-$U_i=X_i\times_YV$, let $g_1:U_1\to V$, $g_2:U_2\to U_1$, and denote the
-open immersions by $j_0:V\to Y$, $j_i:U_i\to X_i$. The compatibility to
-prove is the outer equality in
-
-$$
-\begin{CD}
-(j_0)_!(g_1g_2)_*G
-@>{\beta_{f_1,g_{2,*}G}}>>
-f_{1,*}(j_1)_!g_{2,*}G
-@>{f_{1,*}\beta_{f_2,G}}>>
-f_{1,*}f_{2,*}(j_2)_!G\\
-@V{\beta_{f_1f_2,G}}V{\sim}V
-@. @VV{=}V\\
-(f_1f_2)_*(j_2)_!G @= (f_1f_2)_*(j_2)_!G
-@= (f_1f_2)_*(j_2)_!G .
-\end{CD}
-$$
-
-At $\bar y\in V$, the upper route first groups a tuple by
-$\bar x_1\mapsto\bar y$ and then by
-$\bar x_2\mapsto\bar x_1$:
-
-$$
-\bigoplus_{\bar x_1\mapsto\bar y}
-\left(\bigoplus_{\bar x_2\mapsto\bar x_1}G_{\bar x_2}\right)
-\longrightarrow
-\bigoplus_{\bar x_2\mapsto\bar y}G_{\bar x_2}.
-$$
-
-It is the canonical flattening of the doubly indexed finite sum. The lower
-route is the same flattening for the composite fibre. Outside $V$ every
-term is zero. This proves composition compatibility; applying the reverse
-grouping proves the corresponding equation for $\gamma$.
-
-Finally let $h:\widetilde Y\to Y$ be arbitrary and put tildes on all four
-schemes and maps after base change. If $h_X,h_V,h_U$ are the projections,
-open and finite base change give the vertical isomorphisms in
-
-$$
-\begin{CD}
-h^{-1}(j_Y)_!v_*G
-@>{h^{-1}\beta_{\bar v,j_Y,G}}>>
-h^{-1}\bar v_*(j_X)_!G\\
-@V{\sim}VV @VV{\sim}V\\
-(\widetilde j_Y)_!\widetilde v_*h_U^{-1}G
-@>{\beta_{\widetilde{\bar v},\widetilde j_Y,h_U^{-1}G}}>>
-\widetilde{\bar v}_*(\widetilde j_X)_!h_U^{-1}G .
-\end{CD}
-$$
-
-The left vertical map is
-$h^{-1}(j_Y)_!\cong(\widetilde j_Y)_!h_V^{-1}$ followed by
-$h_V^{-1}v_*\cong\widetilde v_*h_U^{-1}$; the right vertical map uses the
-same two comparisons in the other order. At a geometric point of
-$\widetilde V$, both routes pull each component $s_{\bar x}$ to the
-corresponding component over the pulled-back geometric fibre. Off
-$\widetilde V$, both routes are zero. The rectangle therefore commutes,
-and the inverse rectangle follows from the two inverse equations.
-
-At a geometric point $\bar y\to Y$, the stalk of the left side is
-$(v_*G)_{\bar y}$ if $\bar y\in V$ and $0$ otherwise; the stalk of the right
-side is the sum over the geometric points of the finite fibre $X_{\bar y}$ of
-the stalks of the extension by zero [def-weil-pbc-extension-by-zero], namely
-$G_{\bar x}$ for $\bar x\in U_{\bar y}$ and $0$ otherwise, and $U_{\bar
-y}=X_{\bar y}$ precisely when $\bar y\in V$. By
-[lemma-weil-pbc-finite-stalk-formula] both sides are the same finite direct sum,
-and the map of [def-weil-pbc-finite-open-comparison] is the
-identity on each summand; conservativity of geometric stalks gives the
-isomorphism. The remaining compatibilities are built into the construction.
+*Points outside $V$.* If $\bar y$ does not lie in $V$, the stalk of
+$(j_Y)_!v_*G$ at $\bar y$ is zero ([def-weil-pbc-extension-by-zero]). Since
+the square is Cartesian, no geometric point of the finite fibre
+$X\times_Y\bar y$ lies in $U$, so the pullback of $(j_X)_!G$ to this fibre
+vanishes, and by finite base change the stalk of $\bar v_*(j_X)_!G$ at
+$\bar y$ is zero as well. A map between zero objects is an isomorphism.

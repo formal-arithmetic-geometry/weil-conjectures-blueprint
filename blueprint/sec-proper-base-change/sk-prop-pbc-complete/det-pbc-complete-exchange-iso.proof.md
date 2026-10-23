@@ -23,11 +23,9 @@ $D(Y_{\mathrm{proét}},\mathbf Z)$, and it is an isomorphism because the forgetf
 functor to abelian sheaves is exact and conservative. The same holds on $X'$
 and $Y'$, and these identifications respect the units and counits defining
 the exchange maps. The latter exchange map is an isomorphism by
-[sk-cor-pbc-proet-finite] with $A=\mathcal O_E/\pi_E^n$, since $p$ is proper and
-$K_n\in D^+_{\mathrm{class}}$. So every level of
+[thm-weil-pbc-finite-level-proetale] with $\Lambda=\mathcal O_E/\pi_E^n$, since $p$ is
+proper and $K_n\in D^+_{\mathrm{class}}$, i.e. $K_n$ is bounded below of étale origin. So every level of
 $\operatorname{Ex}^{\operatorname{Tow}}_{\operatorname{red}(K)}$ is an isomorphism, and
-$\operatorname{Ex}^{\operatorname{Tow}}_{\operatorname{red}(K)}$ is an isomorphism by
-[det-pbc-complete-tower-calculus] (2): its cone has zero cohomology at every
-level. Applying $R\varprojlim$, and composing with the two isomorphisms of
+$\operatorname{Ex}^{\operatorname{Tow}}_{\operatorname{red}(K)}$ is an isomorphism: its cone has zero cohomology at every level, and a complex of towers with zero cohomology at every level is zero. Applying $R\varprojlim$, and composing with the two isomorphisms of
 [det-pbc-complete-exchange-map] (2), shows that $\operatorname{Ex}^{\mathrm{comp}}_K$
 is an isomorphism.

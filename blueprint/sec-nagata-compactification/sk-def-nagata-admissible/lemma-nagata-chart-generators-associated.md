@@ -2,7 +2,7 @@
 id = "lemma-nagata-chart-generators-associated"
 kind = "lemma"
 title = "Transition between local exceptional generators"
-order = 103
+order = 212
 lean = ["AlgebraicGeometry.AffineBlowup.exists_units_awayAlgebraMap_eq_mul"]
 uses = ["def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-piece-mul", "prop-nagata-rees-graded"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-prop-sp-composition"
 kind = "proposition"
 title = "Composition of purity"
-order = 1833
+order = 3051
 uses = ["sk-thm-smooth-purity", "sk-prop-sp-orientation", "sk-prop-an", "sk-prop-sp-tower-geometric", "sk-lem-sp-reduction", "sk-thm-sf-comp-composition"]
 tags = ["sketch"]
 +++

@@ -3,7 +3,7 @@ id = "lem-sc-kernel-subgroup"
 kind = "lemma"
 title = "Kernels are closed subgroup schemes"
 lean = ["CategoryTheory.GrpObj.ker", "CategoryTheory.GrpObj.kerRepresentableBy", "AlgebraicGeometry.isClosedSubgroupScheme_kerι"]
-order = 435
+order = 452
 uses = ["def-sc-group-scheme", "def-sc-group-scheme-subgroup", "def-weil-pbc-scheme-conventions"]
 +++
 Let $f:G\to H$ be a homomorphism of

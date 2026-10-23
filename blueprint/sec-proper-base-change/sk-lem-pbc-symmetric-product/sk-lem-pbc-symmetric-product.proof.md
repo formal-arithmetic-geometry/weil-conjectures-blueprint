@@ -47,8 +47,9 @@ forms also shows that every geometric fibre is nonempty, so $\sigma_n$ is
 surjective. This argument includes forms with a root at infinity.
 
 The projection $(\mathbf P^1_S)^n\to S$ is a composite of $n$
-projective-line projections over successive bases. It satisfies PBC by the
-hypothesis and part (1) of [sk-lem-pbc-composition-cancellation].
-[sk-lem-pbc-finite] gives PBC for $\sigma_n$. Part (2) of
-[sk-lem-pbc-composition-cancellation] cancels $\sigma_n$ and gives PBC for
-$\mathbf P^n_S\to S$. The case $n=0$ is the identity.
+projective-line projections over successive bases. It satisfies
+$\mathrm{PBC}_\Lambda$ by the hypothesis and part (1) of
+[sk-lem-pbc-composition-cancellation]. [sk-lem-pbc-finite] gives
+$\mathrm{PBC}_\Lambda$ for $\sigma_n$. Part (2) of
+[sk-lem-pbc-composition-cancellation] cancels $\sigma_n$ and gives
+$\mathrm{PBC}_\Lambda$ for $\mathbf P^n_S\to S$. The case $n=0$ is the identity.

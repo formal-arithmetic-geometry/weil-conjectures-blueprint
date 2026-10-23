@@ -3,7 +3,7 @@ id = "def-mg-determinant-line"
 kind = "definition"
 title = "Determinant line"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.det", "Matrix.GeneralLinearGroup.detGL", "Matrix.GeneralLinearGroup.exists_algHom_comp_eq_evalAlgHom_detGL"]
-order = 2863
+order = 3751
 uses = ["def-weil-weil-sheaf-complex", "def-wf-fundamental-representation", "sk-lem-coefficient-heart"]
 +++
 If $\mathcal V$ is a rank-$r$ lisse

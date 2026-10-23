@@ -2,8 +2,8 @@
 kind = "proof"
 of = "lem-weil-pbc-finite-product-integral-closure"
 +++
-For an integral tuple, apply IsIntegral.map_of_comp_eq to each pair of evaluation ring homomorphisms to obtain coordinatewise integrality. (`integralClosure, IsIntegral, IsIntegrallyClosedIn` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/IntegralClosure/Algebra/Basic.lean))).
+If a tuple $(s_i)\in S$ is integral over $R$, applying the coordinate projections $R\to R_i$, $S\to S_i$ to a monic equation shows that each $s_i$ is integral over $R_i$.
 
-Conversely choose component monic annihilating polynomials, take the finite supremum of their natural degrees, multiply each by the required power of X, and assemble the coefficients with Polynomial.piEquiv. The resulting polynomial is monic and annihilates the tuple coordinatewise; the construction also handles the empty product. (`integralClosure, IsIntegral, IsIntegrallyClosedIn` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/IntegralClosure/Algebra/Basic.lean))).
+Conversely, suppose each $s_i$ is a root of a monic polynomial $P_i\in R_i[X]$. Let $N$ be the maximum of the degrees and replace $P_i$ by $X^{N-\deg P_i}P_i$, which is monic of degree $N$ and still annihilates $s_i$. Assembling the coefficients coordinatewise gives a monic polynomial of degree $N$ over $R=\prod_iR_i$ which annihilates $(s_i)$. (For the empty product everything is zero.) This proves that the integral closure of $R$ in $S$ is $\prod_iS_i'$.
 
-Use the coordinatewise criterion to prove the integral-closure subring equality by extensionality. Under injectivity, use isIntegrallyClosedIn_iff, single-coordinate tuples, and coordinatewise preimages to prove the equivalence of integral closedness. (`integralClosure, IsIntegral, IsIntegrallyClosedIn` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/IntegralClosure/Algebra/Basic.lean))).
+If every $R_i\to S_i$ is injective, then $R$ is integrally closed in $S$ iff $\prod_iS_i'=\prod_iR_i$, iff $S_i'=R_i$ for every $i$ (test with tuples supported in a single coordinate), i.e. iff each $R_i$ is integrally closed in $S_i$.

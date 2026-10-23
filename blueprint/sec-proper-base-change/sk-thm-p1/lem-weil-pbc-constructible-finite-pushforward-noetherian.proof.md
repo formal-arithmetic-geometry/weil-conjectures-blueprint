@@ -4,9 +4,9 @@ of = "lem-weil-pbc-constructible-finite-pushforward-noetherian"
 uses = ["lem-weil-pbc-constructible-finitely-presented", "lem-weil-pbc-constructible-noetherian-finite-selection", "lem-weil-pbc-normal-constant-generic"]
 +++
 *Step 1: the local model at a point.* For every geometric point $\bar x\to U$,
-constructibility gives a finite separable extension $K/\kappa(x)$ and a finite
-abelian group $M$ for which $C$ is constant with value $M$ over
-$\operatorname{Spec}K$. Let $Z\subset U$ be the reduced closure of $x$, let
+constructibility gives a finite separable extension $K/\kappa(x)$ and a
+finitely generated $\Lambda$-module $M$ for which $C$ is constant with value $M$
+over $\operatorname{Spec}K$. Let $Z\subset U$ be the reduced closure of $x$, let
 $V\to Z$ be the normalization of $Z$ in $K$, and let
 $\operatorname{Spec}K\to V$ be the generic inclusion. The scheme $V$ is
 integral and normal with function field $K$; this is the classical
@@ -66,13 +66,20 @@ whose composite with the transition map is the given map. Hence $\bar x$
 admits a finite pushforward $h_i:V_i\to U$, the morphism $V_i\to Z$ being
 finite by construction, detecting its stalk.
 
-*Step 6: finite selection.* The finite-selection statement
-[lem-weil-pbc-constructible-noetherian-finite-selection] now produces a finite
-set of indices for which the direct sum of the maps of Step 5 is injective on
-every geometric stalk; a map of sheaves injective on every geometric stalk is
-a monomorphism by conservativity of geometric stalks. This is the Noetherian
-construction of Stacks Project, Lemma 59.74.3 (Tag
-[09Z6](https://stacks.math.columbia.edu/tag/09Z6)).
+*Step 6: finite selection.* For a finite ring $\Lambda$ the finite-selection
+statement [lem-weil-pbc-constructible-noetherian-finite-selection] produces a
+finite set of the maps of Step 5 whose joint map
+$C\to\bigoplus_i(h_i)_*\underline{M_i}$ is a monomorphism. For a general
+Noetherian ring $\Lambda$ the same argument applies: for every finite subfamily
+the kernel of the joint map is a subsheaf of the constructible sheaf $C$, hence
+constructible, so the locus of points where the joint map fails to be injective
+on the geometric stalk is constructible; these loci have empty intersection
+(each point is detected by the map of Step 5 built at that point), so by
+compactness of the constructible topology finitely many subfamilies already have
+empty intersection of failure loci, and their union gives a joint map injective
+on every geometric stalk, hence a monomorphism by conservativity of geometric
+stalks. This is the Noetherian construction of Stacks Project, Lemma 59.74.3
+(Tag [09Z6](https://stacks.math.columbia.edu/tag/09Z6)).
 
 *Remark (the Nagata case).* If $U$ is Nagata, for instance of finite type over
 a field, the normalization $V\to Z$ is finite already, so Step 4 is

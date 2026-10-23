@@ -3,7 +3,7 @@ id = "lem-sc-ample-tensor"
 kind = "lemma"
 title = "Tensor products of ample modules"
 lean = ["AlgebraicGeometry.IsAmple.tensorObj", "AlgebraicGeometry.IsAbelianVariety.isAmple_symmetrisation", "AlgebraicGeometry.IsAbelianVariety.nonempty_iso_overPullback_inv_symmetrisation"]
-order = 484
+order = 500
 uses = ["def-sc-abelian-variety", "def-sc-ample"]
 +++
 Let $X$ be a scheme over a field $k$ and let $\mathcal L$ and

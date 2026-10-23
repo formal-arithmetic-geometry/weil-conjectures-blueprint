@@ -3,7 +3,7 @@ id = "d-relative-frob"
 kind = "definition"
 title = "The relative Frobenius factorization"
 lean = ["AlgebraicGeometry.Scheme.Hom.IsFrobenius.comp_eq_comp", "AlgebraicGeometry.Scheme.Hom.IsFrobenius.pow", "AlgebraicGeometry.ProEtale.comp_eq_comp_of_isPullback", "AlgebraicGeometry.ProEtale.isPullback_pullbackMap", "AlgebraicGeometry.ProEtale.isPullback_relativeFrobenius", "AlgebraicGeometry.ProEtale.relativeFrobenius_specMap"]
-order = 2704
+order = 3669
 uses = ["def-trf-coefficient-conventions", "def-trf-scheme-frobenius"]
 +++
 Fix the global finite-field datum $p,a,q,k_0,k$ and the coefficient

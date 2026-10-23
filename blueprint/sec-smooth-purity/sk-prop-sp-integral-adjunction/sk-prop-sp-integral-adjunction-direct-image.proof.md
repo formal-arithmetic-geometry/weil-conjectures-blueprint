@@ -1,6 +1,7 @@
 +++
 kind = "proof"
 of = "det-sp-integral-direct-image-tower"
+uses = ["def-pe-derived-complete"]
 +++
 (1) $\operatorname{red}_XM$ is normalized constructible with the Tor bounds of $M$
 ([det-sp-normalized-equivalence]). By [det-sp-tower-shriek-levels] and
@@ -12,7 +13,7 @@ isomorphisms $b$ of [det-sp-reduction-direct-image] with $Rf_!$ of the
 (2) $R\bar f_*$ and $j_!$ commute with reduction modulo $\ell^n$ (reduction is
 the cone of $\ell^n$) and with $R\varprojlim$ ($R\bar f_*$ is a right adjoint;
 $j_!$ is exact and commutes with products on the replete site, Stacks, Tag
-09BP), and $M\simeq R\varprojlim_nM/\ell^n$ since $M$ is derived complete. Hence
+09BP), and $M\simeq R\varprojlim_nM/\ell^n$ since $M$ is derived complete [def-pe-derived-complete]. Hence
 $R\bar f_*j_!M\simeq R\varprojlim_nR\bar f_*j_!(M/\ell^n)=R\varprojlim_nRf_{!,\mathcal O_E/\ell^n}(M/\ell^n)$.
 By (1) and the reconstruction lemma, this limit lies in $\Dbc(Y,\mathcal O_E)$ and
 reduces to $Rf_{!,\mathcal O_E/\ell^n}(M/\ell^n)$; equivalently

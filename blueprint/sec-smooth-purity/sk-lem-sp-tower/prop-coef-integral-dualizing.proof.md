@@ -1,6 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-coef-integral-dualizing"
+uses = ["def-pe-derived-complete"]
 +++
 By [sk-thm-existence], (3) and (4), $Ra^!_R$ exists and sends
 $D^b_c(\operatorname{Spec}k,R)$ into $D^b_c(X,R)$, so $\omega_{X,R}\in D^b_c(X,R)$.
@@ -8,7 +9,7 @@ The coefficient comparison for the exceptional inverse image along
 $R\to A_n$ is an isomorphism $\omega_{X,R}\otimes^{\mathbf L}_RA_n\cong\omega_{X,n}$
 ([sk-prop-scalar-six]), compatible with the reductions $A_n\to A_m$ and with the
 comparisons of [lem-coef-finite-dualizing]. Objects of $D^b_c(X,R)$ are
-derived complete ([sk-prop-integral-criterion]), so
+derived complete ([def-pe-derived-complete], [sk-prop-integral-criterion]), so
 $\omega_{X,R}\cong R\varprojlim_n\omega_{X,R}\otimes^{\mathbf L}_RA_n
 \cong R\varprojlim_n\omega_{X,n}$. The Tor interval is read off on the
 reductions. The finite preservation bound of

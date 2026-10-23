@@ -2,12 +2,12 @@
 id = "sk-rem-sf-comp-scope"
 kind = "remark"
 title = "Scope of the coherence"
-order = 2414
+order = 3360
 tags = ["sketch"]
 +++
 The argument tests geometric stalks and therefore proves the coherence on the
 étale-origin complexes $\nu_X^*D^+(X_{\Et},\Lambda)$ — the range in which
-[sk-def-sf-operations] (iv) asserts compactification-independence.
+[det-def-sf-operations] (iv) asserts compactification-independence.
 Extending it to arbitrary objects of $D(X_{\Proet},\Lambda)$ is not proved
 here; ordinary geometric stalks are
 not conservative on all pro-étale sheaves. What the stalk computation

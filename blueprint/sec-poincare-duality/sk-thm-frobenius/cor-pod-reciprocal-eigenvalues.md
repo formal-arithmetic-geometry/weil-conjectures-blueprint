@@ -3,7 +3,7 @@ id = "cor-pod-reciprocal-eigenvalues"
 kind = "theorem"
 title = "Reciprocal eigenvalues"
 lean = ["AlgebraicGeometry.Etale.TateOrientation.conj_frobeniusOperator_eq_smul_inverse_dualMap", "AlgebraicGeometry.Etale.TateOrientation.roots_map_charpoly_frobeniusOperator"]
-order = 2791
+order = 3439
 tags = ["latex:corollary"]
 uses = ["cor-pod-untwisted-similitude", "def-weil-finite-coefficient-point", "thm-pod-degreewise-perfectness-over-a-field", "thm-pod-proper-poincare-duality"]
 +++

@@ -2,21 +2,14 @@
 kind  = "proof"
 of    = "lem-weil-pbc-w-local-partition"
 +++
-Embed $\operatorname{Spec}A$ in $\{0,1\}^A$ by recording membership in a
-prime ideal. The conditions for a subset to be a proper prime ideal are
-closed conditions, each involving finitely many coordinates. Its image is
-therefore closed in this compact Hausdorff product. The induced topology is
-exactly the patch topology of [def-weil-pbc-w-local].
-
 We recall explicitly the affine component fact being used. The intersection
 of all clopen neighbourhoods of a point is its connected component. Indeed
 this intersection is the spectrum of the localization obtained by inverting
 all idempotents equal to one at the point. A nontrivial idempotent in that
 localization would descend, together with its idempotent equation, to a
 finite stage, and then give a smaller clopen neighbourhood. Thus its spectrum
-is connected. Every point of an affine scheme specializes to a maximal ideal.
-In the w-local case that maximal ideal is consequently the unique closed
-point in its component.
+is connected. In the w-local case each component contains exactly one closed
+point [det-pe-wlocal-components].
 
 Write $X^c=V(J)$. The ring $A/J$ has all primes maximal. Its spectrum is
 compact Hausdorff with a basis of clopen sets: after quotienting by its

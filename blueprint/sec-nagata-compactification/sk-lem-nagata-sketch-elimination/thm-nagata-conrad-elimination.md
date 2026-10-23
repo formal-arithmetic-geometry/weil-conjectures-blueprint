@@ -2,7 +2,7 @@
 id = "thm-nagata-conrad-elimination"
 kind = "theorem"
 title = "Elimination of indeterminacy for quasi-dominations (Conrad)"
-order = 227
+order = 324
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_extend_partialSection"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "lemma-nagata-admissible-blowup-comp", "lemma-nagata-conrad-dense-in-admissible-blowup", "lemma-nagata-rees-generators-cover-proj", "prop-nagata-global-blowup-cover-independent", "prop-nagata-proj-standard-open"]
 +++

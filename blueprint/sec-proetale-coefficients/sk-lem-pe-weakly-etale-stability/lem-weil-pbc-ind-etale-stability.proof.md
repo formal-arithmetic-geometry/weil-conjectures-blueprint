@@ -2,15 +2,16 @@
 kind  = "proof"
 of    = "lem-weil-pbc-ind-etale-stability"
 +++
-Base change preserves finite products of localizations and etale
-finite-presentation algebras. A finite presentation and its relations descend
+Base change preserves etale finite-presentation algebras. A finite presentation and its relations descend
 through a filtered colimit. In a composite of ind-etale maps, descend each
 finite-presentation algebra at the second step to a sufficiently late stage
 at the first step, using [lem-weil-pbc-etale-finite-data-descent] on affines.
 Taking all such stages gives the presentation required by
 [def-weil-pbc-ind-etale-algebra]. For ind-Zariski maps the same calculation
-just descends the finitely many elements being inverted and the finitely many
-product idempotents. It also proves the filtered-colimit assertion.
+for composites just descends the finitely many data of a local isomorphism. It
+also proves the filtered-colimit assertions. A local isomorphism is etale of
+finite presentation, being locally a standard open immersion, so ind-Zariski
+maps are ind-etale.
 
 For a finite-presentation etale algebra $E/A$, its diagonal is both open and
 closed in $\operatorname{Spec}(E\otimes_AE)$: it is open by the etale
@@ -25,8 +26,9 @@ proves weak etaleness.
 
 Given $B\to C$ as in the statement, factor it as $B\to B\otimes_AC\to C$. The
 first map is ind-etale by base change. The second is the base change of the
-just computed diagonal of $B/A$, hence ind-Zariski. This proves the relative
-assertion. Finally, for a composite of weakly etale maps $A\to B\to C$, the
+just computed diagonal of $B/A$, which is a localization; so it is again a
+localization, hence ind-Zariski and ind-etale. Composition proves the
+relative assertion. Finally, for a composite of weakly etale maps $A\to B\to C$, the
 factorization
 
 $$

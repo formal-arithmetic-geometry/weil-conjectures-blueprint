@@ -2,7 +2,7 @@
 id = "sk-d-trace-class"
 kind = "definition"
 title = "Trace class and local terms"
-order = 2614
+order = 3473
 uses = ["sk-d-corr", "sk-d-pairing", "sk-thm-sf-kunneth-verdier"]
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.traceClass"]
 tags = ["sketch"]

@@ -2,8 +2,8 @@
 id = "def-fix-six-functor-datum"
 kind = "definition"
 title = "Six-functor datum"
-order = 1850
-uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-compactification-coherence-detailed", "sk-def-sfb-bounded-constructible", "sk-def-sfb-dc-lower-shriek", "sk-def-sfb-dc-upper-shriek", "sk-thm-existence", "sk-thm-sf-comp-composition"]
+order = 2342
+uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-compactification-coherence-detailed", "det-def-sfb-bounded-constructible", "sk-def-sfb-dc-lower-shriek", "sk-def-sfb-dc-upper-shriek", "sk-thm-existence", "sk-thm-sf-comp-composition"]
 +++
 Fix the global finite-field datum
 $(p,a,q,k_0,k)$, a prime $\ell\neq p$, a finite extension
@@ -12,7 +12,7 @@ $\pi_E$, and $n\in\mathbf Z_{\geq1}$; put
 $A=A_{E,n}$ and $\Lambda\in\{A,\mathcal O_E,E,\Qlb\}$. The rings
 $\mathcal O_E,E,\Qlb$ are regarded as condensed rings, and
 $D^b_c(-,\Lambda)$ is the condensed bounded constructible category
-([sk-def-sfb-bounded-constructible]); at the finite ring $A$ the
+([det-def-sfb-bounded-constructible]); at the finite ring $A$ the
 finite-torsion constructibility convention applies. Let $X,Y$ be
 finite-type $k$-schemes,
 let $f:X\to Y$ be a

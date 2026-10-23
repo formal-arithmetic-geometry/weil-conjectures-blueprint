@@ -2,7 +2,7 @@
 id = "def-nagata-compactification-base-change"
 kind = "definition"
 title = "Base-change construction for a compactification"
-order = 83
+order = 115
 lean = ["AlgebraicGeometry.Compactification.baseChange", "AlgebraicGeometry.Compactification.ofIsPullback"]
 uses = ["def-nagata-compactification"]
 +++

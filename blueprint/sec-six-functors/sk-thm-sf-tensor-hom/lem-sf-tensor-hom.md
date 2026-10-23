@@ -3,7 +3,7 @@ id = "lem-sf-tensor-hom"
 kind = "lemma"
 title = "Tensor–Hom form of the exchange"
 lean = ["AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIso", "AlgebraicGeometry.Etale.commShift_derivedHomRightDerivedLowerShriekIso_app_hom", "AlgebraicGeometry.Etale.whiskerTop_derivedHomRightDerivedLowerShriekIso_hom", "AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIso_hom_app_comp_mateEquiv"]
-order = 2511
+order = 3289
 uses = ["def-sf-datum", "def-sf-pf", "def-trf-admissibility", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "fix-lem-tensor-adjunction", "fix-prop-adjunctions"]
 +++
 In the setting of [def-sf-datum], let $f:X\to Y$ be a separated
@@ -18,5 +18,4 @@ Rf_*R\mathcal H om_X(M,f^!N)\xrightarrow{\ \sim\ }
 R\mathcal H om_Y(Rf_!M,N),
 $$
 
-natural in $M$ and $N$ and compatible with finite reduction, scalar
-extension, and shifts.
+natural in $M$ and $N$ and compatible with shifts.

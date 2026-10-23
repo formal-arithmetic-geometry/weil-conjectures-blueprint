@@ -43,4 +43,4 @@ $[a,b]$, and the twist by the locally constant free rank-one sheaf
 $\Lambda(d)$ preserves the vanishing degrees. The shift therefore puts
 the cohomology in $[a-2d,b-2d]$, which is the assertion. At field
 coefficients the assertion is the case already recorded in
-[lem-weil-field-tor-amplitude].
+[lem-integral-ctf-equals-bc].

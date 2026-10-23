@@ -5,7 +5,7 @@ of    = "prop-sf-localization-all-stages"
 *Vanishing.* For every $\Lambda$, $\operatorname{Hom}(i_*P[m],Rj_*N)=0$ for
 $P\in D(Z_{\mathrm{proét}},\Lambda)$ and $N\in D(U_{\mathrm{proét}},\Lambda)$. Indeed
 it is $\operatorname{Hom}(j^*i_*P[m],N)$ by $j^*\dashv Rj_*$
-([def-weil-pbc-proetale-operations], [sk-def-sf-operations]), and
+([def-weil-pbc-proetale-operations], [det-def-sf-operations]), and
 $j^*i_*=0$: $j^*$ is restriction to $U_{\mathrm{proét}}$, and
 $(i_*M)(V)=M(V\times_XZ)=0$ for $V$ over $U$ (compare
 [lem-exc-proetale-closed-essential-image]). Moreover $j^*Rj_*\cong\operatorname{id}$.
@@ -28,7 +28,7 @@ sheaves ([thm-constructible-serre]).
 *(2) and (3).* The argument is the same for every $\Lambda$. Let
 $K\in D^b_c(X,\Lambda)$ and let $F\to K\to Rj_*j^*K\to F[1]$ be a fibre
 sequence of the open unit. By (1), $F\in D^b_c(X,\Lambda)$
-([sk-def-sfb-bounded-constructible]). Since $j^*K\to j^*Rj_*j^*K$ is an
+([det-def-sfb-bounded-constructible]). Since $j^*K\to j^*Rj_*j^*K$ is an
 isomorphism, $j^*F=0$. The open–closed triangle
 [prop-sf-open-closed-triangle-all-stages] for $F$ then shows that the unit
 $F\to i_*i^*F$ is an isomorphism. Put $Q=i^*F\in D^b_c(Z,\Lambda)$. For
@@ -68,7 +68,7 @@ pro-étale form of the étale criterion [lem-exc-residue-tor-test]; it is
 applied below only to bounded constructible complexes, by (1) and (2). The pullbacks
 $i^*,j^*,\nu^*$ commute with $-\otimes^L_A\kappa$, being monoidal with
 $\kappa$ pulling back to $\kappa$ ([def-weil-derived-pullback-tensor-hom],
-[prop-weil-pbc-proetale-constant-ring-map]); being exact they preserve
+[lem-sfb-finite-upper-star-unit]); being exact they preserve
 cohomological intervals. Conversely $\nu^*$ reflects them: if
 $\nu^*C$ has cohomology in $[a,b]$ for $C\in\Dplus$, then
 $\nu^*\tau_{>b}C=\tau_{>b}\nu^*C=0$, hence $\tau_{>b}C=0$ by
@@ -129,7 +129,7 @@ $[a,b+2d+c+1]$ for $Ri^!K$.
 $(Rj_*G)_m\cong Rj_*G_m$ and $(Ri^!K)_m\cong Ri_m^!K_m$ (shown above), and
 similarly for $i^*,j^*,i_*$; the finite-stage bounds hold with intervals
 depending only on the uniform interval of the reductions of $G$, resp. $K$.
-At $E$ and $\Qlb$, $D^b_{ctf}=D^b_c$ ([sk-def-sf-setting]). Clauses (3') and
+At $E$ and $\Qlb$, $D^b_{ctf}=D^b_c$ ([lem-integral-ctf-equals-bc]). Clauses (3') and
 (4') are then (3) and (4) read inside the full subcategories $D^b_{ctf}$.
 
 *Weil structures.* The Weil structures of $i^*,j^*,Rj_*$ come from the

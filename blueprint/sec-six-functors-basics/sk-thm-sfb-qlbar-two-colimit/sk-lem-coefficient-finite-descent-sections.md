@@ -2,6 +2,7 @@
 id = "det-lem-coefficient-finite-descent-sections"
 kind = "lemma"
 title = "Finitely many sections of $\\overline{\\mathbf Q}_{\\ell,X}$ lie in one $E_X$"
+order = 2181
 uses = ["sk-prop-sfb-qlbar-colimit-x", "det-prop-sfb-qlbar-colimit-x-invert-ell"]
 +++
 Let $X$ be a scheme and $V\in X_{\mathrm{proét}}$ quasi-compact.

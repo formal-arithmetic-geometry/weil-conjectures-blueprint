@@ -2,7 +2,7 @@
 id = "def-sbc-locally-finite-presentation"
 kind = "definition"
 title = "Morphisms locally of finite presentation"
-order = 4
+order = 5
 uses = ["def-pc-scheme"]
 lean = ["AlgebraicGeometry.LocallyOfFinitePresentation"]
 tags = ["mathlib", "stacks-01TP"]

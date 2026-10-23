@@ -2,7 +2,7 @@
 id = "lemma-nagata-immersion-shrink-to-closed-exists"
 kind = "lemma"
 title = "Existence of a quasi-compact closed-immersion neighbourhood"
-order = 391
+order = 81
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isCompact_isClosedImmersion"]
 +++
 Let $i\colon X\to Y$ be an immersion with $X$ quasi-compact. There is a

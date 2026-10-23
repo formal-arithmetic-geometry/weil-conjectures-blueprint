@@ -2,8 +2,8 @@
 id = "sk-thm-sf-hom-ctf"
 kind = "theorem"
 title = "Internal Hom with finite Tor amplitude"
-order = 1713
-uses = ["sk-def-sf-admissible", "sk-def-sf-operations", "sk-prop-sf-biduality-general", "sk-prop-sf-existence", "sk-prop-sf-finiteness", "sk-prop-sf-fullcd-etale-origin", "sk-prop-sf-rf-shriek-preservation"]
+order = 2859
+uses = ["sk-def-sf-admissible", "sk-prop-sf-open-closed-triangle", "sk-prop-sf-biduality-general", "sk-prop-sf-existence", "sk-prop-sf-finiteness", "sk-prop-sf-fullcd-etale-origin", "sk-prop-sf-rf-shriek-preservation"]
 lean = ["AlgebraicGeometry.Etale.boundedConstructible_derivedHom", "AlgebraicGeometry.Etale.torAmplitudeIn_derivedHom", "AlgebraicGeometry.Etale.torAmplitudeIn_derivedHom_of_isDualizable"]
 tags = ["sketch"]
 +++

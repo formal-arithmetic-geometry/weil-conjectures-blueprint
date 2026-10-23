@@ -2,7 +2,7 @@
 id = "sk-lem-int-ext"
 kind = "lemma"
 title = "Continuity and boundedness of Ext"
-order = 1569
+order = 2462
 uses = ["sk-lem-int-integral-heart", "sk-lem-formal-closed-support", "sk-cor-pe-bounded-continuity"]
 tags = ["sketch"]
 +++

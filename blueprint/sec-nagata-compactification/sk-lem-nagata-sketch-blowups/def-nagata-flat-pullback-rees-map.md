@@ -3,7 +3,7 @@ id = "def-nagata-flat-pullback-rees-map"
 kind = "definition"
 title = "Flat pullback map for Rees algebras"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.reesPullbackData"]
-order = 122
+order = 237
 uses = ["def-nagata-extended-ideal", "def-nagata-sheaf-rees-algebra"]
 +++
 For a quasi-coherent ideal $\mathcal I\subseteq\mathcal O_X$ and flat

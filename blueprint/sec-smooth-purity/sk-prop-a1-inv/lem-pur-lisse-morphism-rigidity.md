@@ -2,7 +2,7 @@
 id = "lem-pur-lisse-morphism-rigidity"
 kind = "lemma"
 title = "Rigidity of morphisms of finite locally constant sheaves"
-order = 2301
+order = 3249
 uses = ["def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

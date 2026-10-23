@@ -2,7 +2,7 @@
 id = "sk-prop-injectivity"
 kind = "lemma"
 title = "Injectivity in the lowest unknown degree"
-order = 1427
+order = 2056
 uses = ["sk-def-bc", "sk-def-exchange"]
 lean = ["AlgebraicGeometry.Etale.mono_baseChangeHomologyMap", "AlgebraicGeometry.Etale.mono_cokernelMap", "AlgebraicGeometry.Etale.mono_cokernelDesc"]
 tags = ["sketch"]

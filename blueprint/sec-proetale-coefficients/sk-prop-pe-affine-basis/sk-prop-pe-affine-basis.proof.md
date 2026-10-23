@@ -2,7 +2,7 @@
 kind = "proof"
 of = "sk-prop-pe-affine-basis"
 +++
-Cover $X$ by affine opens and cover their inverse images in $U$ by affine opens. On such a
+Let $U$ be an object of $X_{\mathrm{proét}}$. Cover $X$ by affine opens and cover their inverse images in $U$ by affine opens. On such a
 chart the map is $R\to B$ weakly étale. [sk-thm-pe-indetale-refinement] supplies
 $\operatorname{Spec}(B')\to\operatorname{Spec}(B)$ as a single faithfully flat cover, with
 $\operatorname{Spec}(B')$ a limit of affine schemes étale over $\operatorname{Spec}(R)$,

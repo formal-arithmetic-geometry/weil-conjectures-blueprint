@@ -3,7 +3,7 @@ id = "def-trf-trace-class-source"
 kind = "definition"
 title = "Trace-class source"
 lean = ["AlgebraicGeometry.ProEtale.Correspondence.traceClassSource", "AlgebraicGeometry.ProEtale.Correspondence.mate", "AlgebraicGeometry.ProEtale.Correspondence.uncurry'_mate"]
-order = 2624
+order = 3633
 uses = ["def-trf-correspondence", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility"]
 +++
 In the setting of [def-trf-correspondence], for an admissible

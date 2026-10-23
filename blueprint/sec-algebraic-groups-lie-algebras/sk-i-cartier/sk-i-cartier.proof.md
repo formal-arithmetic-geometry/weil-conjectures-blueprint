@@ -2,82 +2,88 @@
 kind  = "proof"
 of    = "sk-i-cartier"
 +++
-*Reduction to an algebraically closed field.* For a field $K$ of
-characteristic zero with algebraic closure $\bar K$, the projection
-$G_{\bar K}\to G$ is faithfully flat, so $G$ is reduced if $G_{\bar K}$ is,
-and smoothness descends along $\operatorname{Spec}\bar K\to
-\operatorname{Spec}K$ (Stacks 02VL). Dimensions of $G$ and of $\Lie(G)$ are
-unchanged by this base change. So let $K$ be algebraically closed. Its
-closed points are then $K$-points, every nonempty closed subset contains
-one, and translations are automorphisms permuting them transitively; a
-nonzero nilpotent and the (closed, Stacks 01V5) non-smooth locus would both
-be seen at a closed point. Hence it suffices that the local ring
-$\mathcal O_{G,1}$ is regular (a regular local ring is a domain, by the
-clause quoted in [sk-i-geometry]).
+We first show that the reduced subscheme $G_{\mathrm{red}}$ is a smooth
+group scheme. Since $L$ is perfect, products of reduced schemes of finite
+type over $L$ are reduced
+([Stacks 035Z](https://stacks.math.columbia.edu/tag/035Z)). A morphism
+from a reduced scheme to $G$ factors through $G_{\mathrm{red}}$, and hence
+multiplication and inversion restrict to $G_{\mathrm{red}}$. By
+[Stacks 056V](https://stacks.math.columbia.edu/tag/056V), the reduced
+scheme $G_{\mathrm{red}}$ contains a dense smooth open subscheme. Choose a
+closed point in it. Since translations carry this point to any other
+closed point of $G_{\mathrm{red}}$, we see that $G_{\mathrm{red}}$ is
+smooth everywhere.
 
-*Smoothness of the reduction.* The reduction $G_{\mathrm{red}}$ has the
-same $K$-points as $G$. Its multiplication is defined on a product of
-reduced schemes, reduced over the perfect field $K$ by [sk-i-geometry], so
-multiplication and inversion factor through the reduction by the
-vanishing principle there; thus $G_{\mathrm{red}}$ is a reduced group
-scheme. Such a group is smooth: it has a dense smooth open locus, which
-contains a $K$-point $a$, and translation by $ga^{-1}$ carries $a$ to any
-$g\in G(K)$, preserving regularity of the local ring.
+It remains to show that $G$ is not a nontrivial thickening of
+$G_{\mathrm{red}}$. Let $A=\mathcal O_{G,1}$, with maximal ideal
+$\mathfrak m$ and nilradical $I$, and let $\widehat A$ be its completion.
+Multiplication at $(1,1)$ gives a continuous comultiplication
 
-*Cartier's step.* Write $\mathcal O=\mathcal O_{G,1}$, $N=\sqrt0$ and
-$\mathfrak m$ its maximal ideal, and work in the completion
-$\hat{\mathcal O}$, which carries the comultiplication
-$\Delta:\hat{\mathcal O}\to\hat{\mathcal O}\hat\otimes\hat{\mathcal O}$ with the
-counit identities (for affine $G$ one may use $A=k[G]$ and $\Delta$
-directly). Then $N\subseteq\mathfrak m^2$. Indeed, let $b$ be nilpotent
-with $b\notin\mathfrak m^2$ and least nilpotence exponent $n\ge2$. The
-counit identities give $\Delta(b)=b\otimes1+1\otimes b+w$ with $w$ in
-(the closure of) $\mathfrak m\otimes\mathfrak m$. Expanding
-$0=\Delta(b)^n$ modulo $\hat{\mathcal O}\hat\otimes\mathfrak m^2$ kills every
-term with two factors from $1\otimes b+w$ and leaves
-$nb^{n-1}\otimes b+n(b^{n-1}\otimes1)w=0$; passing further to
-$\hat{\mathcal O}/(b^{n-1}\mathfrak m)$ in the first coordinate leaves
-$n\,\overline{b^{n-1}}\otimes\overline b=0$ with both factors nonzero
-(the first by Nakayama). Since $n\ne0$ in characteristic zero, this is a
-contradiction. Hence
-$\mathfrak m/\mathfrak m^2\simeq(\mathfrak m/N)/(\mathfrak m/N)^2$, so
-$G$ and its reduction have the same cotangent space at $1$;
-primes contain nilpotents, so they also have the same local dimension.
-Smoothness of the reduction therefore makes $\mathcal O_{G,1}$ regular,
-and $G$ is reduced and smooth.
+$$
+\Delta:\widehat A\longrightarrow
+\widehat A\,\widehat\otimes_L\widehat A.
+$$
 
-*The dimension formula.* Smoothness gives $\dim_kT_1G=\dim\mathcal O_{G,1}$,
-translations make all local dimensions at $k$-points equal, and the
-global dimension is their maximum; since $T_1G=\Lie(G)$ by
-[sk-d-tangent], this is $\dim\Lie(G)=\dim G$. For $G=V(I)$ affine,
-$\dim G$ is the Krull dimension of its coordinate ring.
+The counit is evaluation at $1$. We claim that $I\subseteq\mathfrak m^2$.
+Since completion is faithfully flat, it suffices to prove that every
+nilpotent $b\in\widehat A$ lies in $\widehat{\mathfrak m}^{\,2}$. Suppose
+that $b\notin\widehat{\mathfrak m}^{\,2}$, and let $n\ge2$ be the least
+integer with $b^n=0$. By the counit identities,
 
-*Identity component and subgroup schemes.* The identity component of a
-group scheme of finite type over a field is open (there are finitely
-many components by [sk-i-geometry], each closed), and restricting to an
-open neighborhood of $1$ changes neither the local ring nor its cotangent
-space, whence $\Lie(G^\circ)=\Lie(G)$. For a matrix group scheme over $k$
-algebraically closed of characteristic zero, $G$ is reduced, so the open
-subscheme $G^\circ$ is the reduced closed subscheme on the connected
-component of $1$. Stabilizer and centralizer loci are closed subgroup
-schemes, so the reducedness just proved applies to them verbatim: their
-defining equations already compute the tangent space, and no passage to
-the reduced structure is involved.
+$$
+\Delta(b)=b\otimes1+1\otimes b+w,
+\qquad
+w\in\widehat{\mathfrak m}\,\widehat\otimes_L\widehat{\mathfrak m}.
+$$
 
-*Multiplication.* Algebra-valued points of a product are pairs, and
-$(1+\varepsilon X)(1+\varepsilon Y)=1+\varepsilon(X+Y)$ in the dual
-numbers of [sk-d-tangent], which is the asserted differential; for a
-general group scheme the counit identities
-$\Delta(f)\in f\otimes1+1\otimes f-f(1)+\mathfrak m\otimes\mathfrak m$ give
-the same computation, as $\varepsilon^2=0$.
+We reduce the second factor modulo $\widehat{\mathfrak m}^{\,2}$. Then
+every term in the binomial expansion of $\Delta(b)^n$ with two factors from
+$1\otimes b+w$ vanishes. Since $b^n=0$, we are left with
 
-Compare Milne, [Algebraic
-Groups](https://www.jmilne.org/math/Books/iAG2017.pdf) (2017), Cartier's Theorem 3.23 and Proposition 1.37; the
-subgroup-scheme clause is what lets the tangent spaces of stabilizers and
-centers be read off from their equations. The clauses quoted rather
-than proved are all general geometry rather than group theory: density
-(0B8X, 056V) and openness (01V5) of the smooth locus over a
-perfect field, with the regularity criterion (00TV), faithfully flat
-descent of smoothness (02VL), and
-the regular-local-domain theorem of [sk-i-geometry]. Cartier's theorem
-itself is proved.
+$$
+n b^{n-1}\otimes b+n(b^{n-1}\otimes1)w=0.
+$$
+
+If we now also reduce the first factor modulo
+$b^{n-1}\widehat{\mathfrak m}$, the second term vanishes, and we get
+
+$$
+n\,\overline{b^{n-1}}\otimes\overline b=0
+\quad\text{in}\quad
+(\widehat A/b^{n-1}\widehat{\mathfrak m})
+\otimes_L(\widehat A/\widehat{\mathfrak m}^{\,2}).
+$$
+
+Here $\overline{b^{n-1}}\ne0$ by Nakayama's lemma applied to the cyclic
+module $(b^{n-1})$, which is nonzero by the choice of $n$, and
+$\overline b\ne0$ by assumption. Since a tensor product of nonzero vectors
+over a field is nonzero and $n\ne0$ in characteristic zero, this is a
+contradiction.
+
+It follows that $G$ and $G_{\mathrm{red}}$ have the same cotangent space
+at $1$. They also have the same local dimension at $1$, and the local ring
+of $G_{\mathrm{red}}$ at $1$ is regular. Hence
+
+$$
+\dim_L\mathfrak m/\mathfrak m^2=\dim A,
+$$
+
+so that $A$ is regular, and in particular a domain
+([Stacks 00NP](https://stacks.math.columbia.edu/tag/00NP)). By
+translation, the local rings of $G$ at all closed points are regular.
+Since the nonsmooth locus is closed and contains no closed point, it is
+empty. Thus $G$ is smooth, hence reduced, and its tangent space at $1$ has
+dimension $\dim G$. Since $G^\circ$ is open in $G$, it has the same tangent
+space at $1$.
+
+For the complement: over an arbitrary field of characteristic zero,
+reducedness and smoothness descend from the algebraic closure along the
+faithfully flat base change
+([Stacks 02VL](https://stacks.math.columbia.edu/tag/02VL)), and
+$\dim\Lie(G)$ and $\dim G$ do not change; the local-finite-type case is the
+same argument on affine opens. Restricting to the open neighbourhood
+$G^\circ$ of $1$ changes neither the local ring nor its cotangent space.
+Finally, dual-number points of $G\times G$ are pairs, and
+$(1+\varepsilon X)(1+\varepsilon Y)=1+\varepsilon(X+Y)$ since
+$\varepsilon^2=0$; for a general group scheme the counit identities give
+the same computation.

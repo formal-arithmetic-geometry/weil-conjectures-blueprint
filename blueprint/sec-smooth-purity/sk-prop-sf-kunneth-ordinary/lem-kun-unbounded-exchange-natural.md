@@ -2,8 +2,8 @@
 id = "lem-kun-unbounded-exchange-natural"
 kind = "lemma"
 title = "Naturality of the unbounded exchange morphism"
-order = 2012
-uses = ["def-kun-unbounded-exchange", "def-weil-pbc-kinjective-resolutions", "prop-weil-pbc-kinjective-resolutions-exist"]
+order = 3105
+uses = ["def-kun-unbounded-exchange", "def-sp-kinjective-bridge", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $\square=(f,f',g,g',\alpha)$ be a cartesian square and $\Lambda$
 a commutative ring. For every morphism $\varphi:K\to K'$ in

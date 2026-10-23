@@ -37,4 +37,4 @@ its terms are finite direct sums of terms of $A^\bullet$ and of $J^\bullet$.
 Applying $v$ to the cone shows that $vA^\bullet\to vJ^\bullet$ is a
 quasi-isomorphism. The target computes $Rv(A^\bullet)$, proving the
 assertion. No spectral sequence is needed; this is why the lemma is separated
-from [sk-thm-groth-ss].
+from [det-thm-groth-ss].

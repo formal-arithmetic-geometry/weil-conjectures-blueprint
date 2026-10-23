@@ -2,7 +2,7 @@
 id = "sk-lem-geo-coordinates"
 kind = "lemma"
 title = "Coordinate projections"
-order = 1551
+order = 2378
 tags = ["sketch"]
 +++
 Let $S$ be an integral Noetherian affine scheme with function field $k(S)$,

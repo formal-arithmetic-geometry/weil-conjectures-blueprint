@@ -2,7 +2,7 @@
 id = "lemma-nagata-closed-subscheme-fp-system"
 kind = "lemma"
 title = "Properties of the closed-subscheme system, [stacks-project]"
-order = 395
+order = 85
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_le_of_mem", "AlgebraicGeometry.Scheme.IdealSheafData.isClosedImmersion_fgSubDiagram_map", "AlgebraicGeometry.Scheme.IdealSheafData.isLimitFgSubCone", "AlgebraicGeometry.Scheme.IdealSheafData.locallyOfFinitePresentation_fgSub_subschemeι"]
 uses = ["def-nagata-closed-subscheme-fp-system"]
 +++

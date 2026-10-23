@@ -3,7 +3,7 @@ id = "lem-wf-boundary-semicontinuity"
 kind = "lemma"
 title = "Boundary semicontinuity of weights on a curve"
 lean = ["AlgebraicGeometry.WeilSheaf.IsLisse.hasWeightsAtMost_directImage", "AlgebraicGeometry.WeilSheaf.hasEigenvalue_stalk_directImage_tensorPow", "AlgebraicGeometry.WeilSheaf.hasWeightsAtMost_directImage", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.hasWeightsAtMost_directImage"]
-order = 2999
+order = 3902
 uses = ["d-real-cohom", "d-real-setup", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-a1-affine-hc2", "lem-wf-boundary-stalk-invariants", "lem-wf-euler-product-middle-extension", "lem-wf-point-count-linear-growth", "p-linear-spectra", "prop-sf-open-closed-triangle-all-stages"]
 +++
 Let $X_0$ be a curve over $k_0=\mathbf F_q$ in the sense of

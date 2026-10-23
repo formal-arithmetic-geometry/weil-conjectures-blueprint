@@ -2,6 +2,7 @@
 id = "det-tf-restriction-zero-trace-descent"
 kind = "lemma"
 title = "Descent of the vanishing along the finite étale trace"
+order = 3517
 uses = ["det-tf-restriction-zero-localization", "det-tf-restriction-zero-covers"]
 +++
 In the situation of [det-tf-restriction-zero-covers], suppose that the upstairs punctured

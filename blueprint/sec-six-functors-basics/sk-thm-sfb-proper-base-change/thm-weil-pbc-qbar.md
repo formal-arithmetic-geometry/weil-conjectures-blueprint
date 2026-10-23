@@ -2,9 +2,9 @@
 id = "thm-weil-pbc-qbar"
 kind = "theorem"
 title = "Proper base change for Weil complexes"
-order = 1519
+order = 2216
 lean = ["AlgebraicGeometry.WeilComplex.nonempty_upperStar_derivedLowerStar_iso_of_isProper", "AlgebraicGeometry.WeilSheaf.nonempty_upperStar_higherLowerStar_iso_of_isProper"]
-uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "sk-def-sfb-module-pushforward-pullback", "sk-def-sfb-base-change-morphism"]
+uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "det-def-sfb-module-pushforward-pullback", "sk-def-sfb-base-change-morphism"]
 +++
 Fix the finite-field datum $(p,a,q,k_0,k)$ of [def-weil-finite-field-fiber]
 and a prime $\ell\neq p$, and use Weil sheaves and Weil complexes with
@@ -27,7 +27,7 @@ $g_X,g_{X'},g_Y,g_{Y'}$ for the geometric Frobenius automorphisms of
 [def-weil-frobenius-detailed], which commute with $f,f',h,h'$.
 
 On Weil modules, the pullback $h^*(M,\theta)$ is the module pullback $h^*M$
-([sk-def-sfb-module-pushforward-pullback]) with the Weil structure
+([det-def-sfb-module-pushforward-pullback]) with the Weil structure
 $g_{Y'}^*h^*M\cong h^*g_Y^*M\xrightarrow{h^*\theta}h^*M$, and the pushforward
 $f_*(M,\theta)$ is $f_*M$ with the Weil structure
 $g_Y^*f_*M\cong f_*g_X^*M\xrightarrow{f_*\theta}f_*M$ (the first isomorphism

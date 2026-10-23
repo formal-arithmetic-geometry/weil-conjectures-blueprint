@@ -2,7 +2,7 @@
 id = "def-nagata-compactification"
 kind = "definition"
 title = "Compactification"
-order = 12
+order = 16
 lean = ["AlgebraicGeometry.Compactification"]
 +++
 Let $f\colon X\to S$ be a morphism of schemes. A *compactification*

@@ -2,6 +2,7 @@
 id = "det-proper-heart-bound-indcons"
 kind = "lemma"
 title = "Proper direct image on ind-constructible sheaves"
+order = 2253
 uses = ["det-proper-heart-bound-rational", "sk-cor-pe-bounded-continuity", "sk-thm-sfb-proper-base-change", "sk-prop-ind-heart"]
 +++
 Let $\Lambda=E$ or $\Qlb$ and $p\colon X\to Y$ proper with geometric fibres of dimension $\leq d$. For

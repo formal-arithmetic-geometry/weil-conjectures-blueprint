@@ -2,27 +2,23 @@
 id = "lem-sc-h1-gm-pic"
 kind = "lemma"
 title = "The Picard group as first cohomology of units"
-lean = ["AlgebraicGeometry.Scheme.CohomologicalPicardGroup", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroup", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroup_mul", "AlgebraicGeometry.Scheme.nonempty_equiv_cohomologicalPicardGroup", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroupAddEquiv", "AlgebraicGeometry.Scheme.nonempty_addEquiv_cohomologicalPicardGroup"]
-order = 890
+lean = ["AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroup", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroup_mul", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroupAddEquiv", "AlgebraicGeometry.Scheme.nonempty_equiv_cohomologicalPicardGroup", "AlgebraicGeometry.Scheme.nonempty_addEquiv_cohomologicalPicardGroup", "AlgebraicGeometry.Scheme.CohomologicalPicardGroup"]
+order = 1353
 uses = ["def-sc-curves", "def-sc-gm-torsor", "def-sc-invertible-module", "def-sc-picard-group", "thm-sc-hilbert-90"]
 +++
-Let $C$ be a curve. There are
-canonical isomorphisms of abelian groups
+Let $X$ be a scheme (for instance a curve $C$ as in [def-sc-curves]).
+The map
 
 $$
-\operatorname{Pic}(C)\xrightarrow{\ \sim\ }
-H^1(C_{\mathrm{Zar}},\mathcal O_C^{\times})\xrightarrow{\ \sim\ }
-H^1(C_{\Et},\mathbf G_m),
+\operatorname{Pic}(X)\xrightarrow{\ \sim\ }H^1(X_{\Et},\mathbf G_m),
+\qquad
+[\mathcal L]\longmapsto\big[\underline{\operatorname{Isom}}(\mathcal O_{X_{\Et}},\mathcal L_{\Et})\big],
 $$
 
-the first sending the class of an
-invertible module $\mathcal L$
-to the Zariski $\mathcal O_C^{\times}$-torsor
-$\underline{\operatorname{Isom}}(\mathcal O_C,\mathcal L)$, the second
-being the natural comparison map (pull-back along the morphism of
-sites $\varepsilon:C_{\Et}\to C_{\mathrm{Zar}}$, using
-$\varepsilon^{-1}\mathcal O_C^{\times}\to\mathbf G_m$), and the
-composite sending $\mathcal L$ to the etale torsor
-$\underline{\operatorname{Isom}}(\mathcal O_C,\mathcal L)$. In particular
-$H^1(C_{\Et},\mathbf G_m)\cong\operatorname{Pic}(C)\cong
-H^1(C_{\mathrm{Zar}},\mathcal O_C^{\times})$.
+from the Picard group of [def-sc-picard-group] (isomorphism classes of
+invertible modules, [def-sc-invertible-module]) to the first etale
+cohomology of $\mathbf G_m$, sending $\mathcal L$ to the class of the
+$\mathbf G_m$-torsor of its local trivializations
+([def-sc-gm-torsor]), is an isomorphism of abelian groups. In
+particular $H^1(C_{\Et},\mathbf G_m)\cong\operatorname{Pic}(C)$ for a
+curve $C$.

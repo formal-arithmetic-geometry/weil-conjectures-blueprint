@@ -2,6 +2,7 @@
 id = "det-sp-reduction-tower-normalized"
 kind = "lemma"
 title = "The reduction tower of a complex is normalized"
+order = 2984
 uses = ["det-sp-coefficient-towers-abelian", "det-sp-scalar-extension-functor"]
 +++
 For $M\in D(T_{\mathrm{proét}},\mathcal O_E)$ the reductions

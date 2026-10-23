@@ -3,7 +3,7 @@ id = "def-trf-local-term-pair"
 kind = "definition"
 title = "Local terms of an opposite pair"
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.localTermPair"]
-order = 2680
+order = 3653
 uses = ["def-trf-correspondence", "def-trf-correspondence-between-pairs", "def-trf-integration", "def-trf-local-term", "def-trf-supported-pairing", "lem-trf-trace-class-diagonal-pairing"]
 +++
 Fix the coefficient conventions, put $s=\Spec k$, and let

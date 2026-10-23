@@ -2,7 +2,7 @@
 id = "sbc-def-base-change-property"
 kind = "definition"
 title = "The recorded base-change property $BC(f,n,q)$"
-order = 1427
+order = 2089
 uses = ["def-weil-pbc-scheme-conventions", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-def-coefficient-conventions"]
 +++
 Let $f:X\to S$ be a

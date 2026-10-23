@@ -2,14 +2,14 @@
 id = "sk-def-sf-kv-maps"
 kind = "definition"
 title = "The product comparison maps"
-order = 2419
-uses = ["sec-smooth-purity", "sk-def-sf-admissible", "sk-def-sf-exchanges", "sk-def-sf-operations", "sk-thm-sf-kunneth-relative"]
+order = 3371
+uses = ["sec-smooth-purity", "sk-def-sf-admissible", "sk-def-sf-exchanges", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-kunneth-relative"]
 lean = ["AlgebraicGeometry.Etale.HasKunnethComparisons"]
 tags = ["sketch"]
 +++
 For $i=1,2$ let $f_i:X_i\to Y_i$ be separated of finite type between
 finite-type $k$-schemes, with $Rf_i^!$ the constructible exceptional adjoints
-of [sk-def-sf-operations](vi) (no admissibility datum of
+of [det-def-sf-operations](vi) (no admissibility datum of
 [sk-def-sf-admissible] is assumed), put $f=f_1\times f_2$, and let
 $L_i\in\Dctf(Y_i,\Lambda)$, $B_i\in\Dctf(X_i,\Lambda)$.
 

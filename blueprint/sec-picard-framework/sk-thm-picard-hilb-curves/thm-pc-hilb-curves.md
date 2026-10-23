@@ -2,8 +2,8 @@
 id = "thm-pc-hilb-curves"
 kind = "theorem"
 title = "Hilbert schemes of smooth projective curves"
-order = 796
-uses = ["def-pc-base-change", "def-pc-curve", "def-pc-degree-line-bundle", "def-pc-hilb-functor", "def-pc-morphism-conventions", "def-sc-effective-cartier-divisor", "lem-pc-ample-positive-degree", "lem-pc-cartier-criterion", "lem-pc-degree-base-change", "lem-pc-flat-source-descent", "lem-pc-hilb-addition", "lem-pc-hilb-smooth", "lem-sc-ample-complement-affine", "thm-pqf-finite-iff-proper-finite-fibres"]
+order = 814
+uses = ["def-pc-base-change", "def-pc-curve", "def-pc-degree-line-bundle", "def-pc-hilb-functor", "def-pc-morphism-conventions", "def-nagata-invertible-ideal", "lem-pc-ample-positive-degree", "lem-pc-cartier-criterion", "lem-pc-degree-base-change", "lem-pc-flat-source-descent", "lem-pc-hilb-addition", "lem-pc-hilb-smooth", "lem-sc-ample-complement-affine", "thm-pqf-finite-iff-proper-finite-fibres"]
 lean = ["AlgebraicGeometry.hilbertPresheaf_curve_representable", "AlgebraicGeometry.hilbertPresheaf_curve_points", "AlgebraicGeometry.hilbertPresheaf_curve_add"]
 +++
 Let $X$ be a

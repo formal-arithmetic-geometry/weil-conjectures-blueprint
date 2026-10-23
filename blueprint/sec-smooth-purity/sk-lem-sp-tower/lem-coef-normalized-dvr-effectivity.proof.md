@@ -61,7 +61,7 @@ Every map is induced by the tower projections and coefficient
 augmentations, so these isomorphisms have the stated cocycle.
 They identify the original tower with the quotient tower of
 $M$; its limit is $M$, so $M$ is derived $\pi_E$-complete
-([sk-def-pe-derived-completion]).
+([def-pe-derived-complete]).
 For the coefficient tower itself, $(A_n)_T$ with the quotient maps, the
 derived limit is $\mathcal O_{E,T}$ in degree zero: the ordinary limit is
 $\mathcal O_{E,T}$ by [sk-prop-sfb-qlbar-colimit-x], and

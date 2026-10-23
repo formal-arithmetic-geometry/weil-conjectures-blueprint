@@ -3,7 +3,7 @@ id = "lem-sf-tor-sheaf-constructible"
 kind = "lemma"
 title = "Tor sheaves of constructible sheaves"
 lean = ["AlgebraicGeometry.Etale.homologyDerivedTensorConstantSheafIso", "AlgebraicGeometry.Etale.isFiniteLocallyConstantSheaf_torSheaf_constantSheaf", "AlgebraicGeometry.Etale.isFiniteLocallyConstantSheaf_torSheaf", "AlgebraicGeometry.Etale.isConstructibleSheaf_torSheaf", "AlgebraicGeometry.Etale.isConstructibleSheaf_homology_tensor_singleFunctor"]
-order = 2462
+order = 2840
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, $n\geq1$, and

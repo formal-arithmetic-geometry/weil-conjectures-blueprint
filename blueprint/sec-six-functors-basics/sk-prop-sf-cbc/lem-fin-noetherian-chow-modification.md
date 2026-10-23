@@ -3,7 +3,7 @@ id = "lem-fin-noetherian-chow-modification"
 kind = "lemma"
 title = "A projective modification of a proper scheme"
 lean = ["AlgebraicGeometry.exists_projective_modification"]
-order = 1967
+order = 2729
 uses = ["cor-chow-lemma-proper", "def-pc-projective-morphism", "def-weil-pbc-scheme-conventions", "thm-chow-lemma"]
 +++
 Let $S$ be a Noetherian scheme and $f:X\to S$ a proper morphism.

@@ -2,26 +2,37 @@
 kind  = "proof"
 of    = "sk-p-lie"
 +++
-Decompose the representation as in [sk-d-lie], and let $L_i$ be the
-image on a simple summand. The image of $\rad L$ lies in $\rad L_i$,
-which is central by the irreducible characteristic-zero Lie theorem,
-available in Mathlib as
-`LieAlgebra.hasCentralRadical_and_of_isIrreducible_of_isFaithful`
-(its triangularizability hypothesis being supplied over the algebraically
-closed $k$ by `LieModule.instIsTriangularizableOfIsAlgClosed`);
-the auxiliary facts that surjective Lie maps carry solvable ideals to
-solvable ideals and that the radical is solvable and contains every
-solvable ideal are `LieHom.isSolvable_range`,
-`LieAlgebra.radicalIsSolvable` and
-`LieIdeal.solvable_iff_le_radical`. Thus $[L,\rad L]$ acts as zero
-on every summand; faithfulness makes it zero in $L$. The center is an
-abelian ideal, so it lies in the radical, giving equality.
-The quotient $L/Z(L)$ has zero radical: the inverse image of a solvable
-ideal is solvable, since its kernel is central. Cartan's criterion,
-available in Mathlib as
-`LieAlgebra.HasTrivialRadical.instIsKilling`, makes its Killing
-form nondegenerate; invariance of that form puts the orthogonal complement
-of the derived algebra inside the center, which is zero, so the quotient is
-perfect. Lift an expression of each quotient class as a
-sum of brackets; the difference from these lifted brackets lies in
-$Z(L)$. This proves the sum formula, including the zero-dimensional case.
+Put $\mathfrak r=\rad\mathfrak l$, and write the faithful module as a
+direct sum of simple modules. Let $M$ be one of them. By
+[sk-lem-walg-lie-eigenvector], there is a nonzero simultaneous
+$\lambda$-eigenspace $M_\lambda$ for $\mathfrak r$. We claim that
+$M_\lambda$ is $\mathfrak l$-stable. Fix $x\in\mathfrak l$ and
+$0\ne v\in M_\lambda$, and consider
+$U=\operatorname{span}\{v,xv,x^2v,\ldots\}$. Since
+$[\mathfrak r,x]\subseteq\mathfrak r$, the calculation in the cyclic basis
+from the proof of [sk-lem-walg-lie-eigenvector] applies: each
+$a\in\mathfrak r$ preserves $U$ and acts on it by a triangular matrix with
+constant diagonal $\lambda(a)$. Therefore
+
+$$
+0=\operatorname{tr}_U[x,a]=\dim(U)\lambda([x,a]),
+\qquad \lambda([x,a])=0.
+$$
+
+It follows that $a(xv)=\lambda(a)xv+\lambda([a,x])v=\lambda(a)xv$, which
+proves the claim. Since $M$ is simple, we get $M_\lambda=M$, and in
+particular $[\mathfrak l,\mathfrak r]$ acts as zero on $M$. As this holds
+for every simple summand and the module is faithful, we conclude that
+$[\mathfrak l,\mathfrak r]=0$, that is, $\mathfrak r\subseteq
+Z(\mathfrak l)$. The reverse inclusion holds because the center is an
+abelian ideal.
+
+Next, the quotient $\overline{\mathfrak l}=\mathfrak l/Z(\mathfrak l)$ has
+zero radical. Indeed, the inverse image of a solvable ideal of the quotient
+is a central extension of a solvable Lie algebra, hence solvable, and
+therefore contained in $\mathfrak r=Z(\mathfrak l)$. By
+[sk-lem-walg-killing], we have
+$[\overline{\mathfrak l},\overline{\mathfrak l}]=\overline{\mathfrak l}$.
+Thus every element of $\mathfrak l$ is congruent modulo $Z(\mathfrak l)$
+to a sum of brackets, which proves that
+$\mathfrak l=Z(\mathfrak l)+[\mathfrak l,\mathfrak l]$.

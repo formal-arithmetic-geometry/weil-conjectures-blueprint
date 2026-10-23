@@ -2,7 +2,7 @@
 id = "def-weil-pbc-etale-sum-extension"
 kind = "definition"
 title = "Extension by zero along an etale map"
-order = 1101
+order = 1000
 lean = ["AlgebraicGeometry.Etale.etaleLowerShriek"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++

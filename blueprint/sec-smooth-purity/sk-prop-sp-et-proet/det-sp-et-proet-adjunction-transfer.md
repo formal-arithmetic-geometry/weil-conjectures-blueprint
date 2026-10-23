@@ -2,6 +2,7 @@
 id = "det-sp-et-proet-adjunction-transfer"
 kind = "lemma"
 title = "Transfer of adjunctions from étale to pro-étale finite coefficients"
+order = 2892
 uses = ["thm-weil-pbc-site-comparison", "thm-sf-ambient-adjoint-class"]
 +++
 Let $A$ be a finite admissible ring and $f:X\to Y$ separated of finite type.

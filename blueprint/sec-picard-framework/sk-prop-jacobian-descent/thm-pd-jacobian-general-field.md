@@ -2,9 +2,9 @@
 id = "thm-pd-jacobian-general-field"
 kind = "theorem"
 title = "The Jacobian over an arbitrary ground field"
-order = 874
+order = 896
 uses = ["cor-pd-finite-level", "cor-pd-pic0-base-change", "def-pc-base-change", "def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-picard-functor", "def-pc-smooth-projective-curve", "def-pd-degree-morphism", "def-pd-descent-datum", "def-pd-fibrewise-degree", "def-pd-separable-closure", "def-sc-abelian-variety", "def-sc-group-scheme", "def-sc-jacobian", "def-sc-pic0", "lem-pc-dim-base-change", "lem-pc-pic-of-field", "lem-pc-rational-hyp", "lem-pd-canonical-descent-datum", "lem-pd-descent-cocycle", "lem-pd-group-scheme-descent", "lem-pd-picard-base-change", "thm-pc-pic-split", "thm-pd-effective-descent", "thm-pd-fpqc-local-properties", "thm-pd-geometric-pic0"]
-lean = ["AlgebraicGeometry.exists_jacobian_descent"]
+lean = ["AlgebraicGeometry.exists_jacobian_descent", "AlgebraicGeometry.nonempty_representableBy_picardFunctorDegree_baseChange"]
 +++
 Let $k$ be any field and let $C$ be a
 $k$-scheme which is proper and smooth of relative dimension $1$ over $k$

@@ -2,6 +2,7 @@
 id = "det-sp-defect-closed-vanishing"
 kind = "lemma"
 title = "The defect kills complexes supported on the centre"
+order = 3577
 uses = ["det-sp-defect-definition"]
 +++
 Let $X$ be a separated finite-type $k$-scheme, $i\colon Z\hookrightarrow X$ a closed subscheme

@@ -2,7 +2,7 @@
 id = "sk-rem-curve-wild-example"
 kind = "remark"
 title = "The affine line in characteristic $p$"
-order = 881
+order = 1346
 tags = ["sketch"]
 +++
 For $U=\A^1_k$ in characteristic $p$ one obtains

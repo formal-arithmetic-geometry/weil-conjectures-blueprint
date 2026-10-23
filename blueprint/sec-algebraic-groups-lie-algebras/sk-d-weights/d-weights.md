@@ -2,7 +2,7 @@
 id = "d-weights"
 kind = "definition"
 title = "Operations and weight characters"
-order = 2881
+order = 3775
 uses = ["d-monodromy", "def-mg-determinant-line", "def-mg-weil-composition-series"]
 lean = ["Representation.RealCharacter", "Representation.detCharacter", "Representation.HasFiniteGeometricDet", "Representation.detWeight"]
 +++

@@ -2,18 +2,18 @@
 id = "sk-rem-absent"
 kind = "remark"
 title = "What is deliberately absent, and why"
-order = 3063
+order = 3965
 tags = ["sketch"]
 +++
-Three things that a reader of the compiled Fourier–Deligne chapter might expect are
-*not* in this file, on purpose. (i) The purity of the kernel
-($\mathcal K_\psi$ punctually $\iota$-pure of weight $0$) is a weight-theoretic
-statement about the same sheaf, and it is used in layer 2, not in the yoga of
-layer 1. (ii) The perverse amplitude of the transform is a statement about
-the perverse $t$-structure, not a consequence of the six operations; it is
-layer 3. (iii) The concentration of $\FT_\psi(j_!\mathcal M)$ for a
+Two things that a reader might expect in this section are *not* here, on
+purpose. (i) The perverse amplitude of the transform is a statement about
+the perverse $t$-structure on a curve, not a consequence of the six
+operations; it comes with the perverse t-structure in the next section.
+(ii) The concentration of $\operatorname{FT}_\psi(j_!\mathcal M)$ for a
 nonexceptional $\mathcal M$, and the identification of the origin fibre with
-$H^1_c$, use the geometry of affine curves (via the two affine computations of
-the weight-estimate chapter) and weight theory respectively; they are layer 2
-and layer 3. What remains in layer 1 is exactly what can be said about
-$\FT_\psi$ before any weight is mentioned.
+$H^1_c$, use the geometry of affine curves and weight theory respectively.
+What remains here is what can be said about $\operatorname{FT}_\psi$ from
+the six operations and trace functions alone; the purity of weight zero of
+the character sheaf ([sk-lem-as-properties]) and the shift of the $L^2$
+growth parameter ([sk-cor-plancherel]) are included because they are read
+off directly from trace functions.

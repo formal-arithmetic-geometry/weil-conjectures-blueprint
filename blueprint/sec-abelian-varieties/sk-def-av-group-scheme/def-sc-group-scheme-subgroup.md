@@ -3,7 +3,7 @@ id = "def-sc-group-scheme-subgroup"
 kind = "definition"
 title = "Subgroup schemes"
 lean = ["AlgebraicGeometry.IsSubgroupScheme", "AlgebraicGeometry.IsNormalSubgroupScheme", "AlgebraicGeometry.IsClosedSubgroupScheme"]
-order = 434
+order = 451
 uses = ["def-sc-group-scheme"]
 +++
 Let $G$ be a group scheme over a

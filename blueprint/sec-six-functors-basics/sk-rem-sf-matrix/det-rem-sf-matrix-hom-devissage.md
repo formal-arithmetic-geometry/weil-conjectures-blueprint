@@ -2,6 +2,7 @@
 id = "det-rem-sf-matrix-hom-devissage"
 kind = "lemma"
 title = "Internal Hom preserves finite Tor amplitude by dévissage"
+order = 2427
 uses = ["def-weil-finite-tor-amplitude", "lem-weil-stratum-ambient-hom", "lem-sf-hom-finite-projective", "det-cor-sf-direct-image-ctf-open-tor", "cor-fin-deligne-open-finite-coefficients"]
 +++
 Let $k$ be a separably closed field, $\ell\ne\operatorname{char}(k)$, $A$ a

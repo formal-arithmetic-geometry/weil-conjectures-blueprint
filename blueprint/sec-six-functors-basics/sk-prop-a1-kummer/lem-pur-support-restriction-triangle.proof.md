@@ -3,7 +3,7 @@ kind  = "proof"
 of    = "lem-pur-support-restriction-triangle"
 +++
 Choose a bounded-below injective resolution $F\to I^\bullet$
-as in [def-weil-pbc-kinjective-resolutions].
+as in [def-sp-kinjective-bridge].
 For the closed immersion $i:B\hookrightarrow T$, the
 [def-pur-flasque-support] functor $i^!$ is right adjoint to
 the exact functor $i_*$; hence $i^!$ preserves injectives.

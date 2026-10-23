@@ -2,6 +2,7 @@
 id = "det-sp-tower-classes"
 kind = "definition"
 title = "Kummer and diagonal classes of towers"
+order = 3019
 uses = ["det-sp-coefficient-towers-abelian", "det-sp-tower-shriek-levels"]
 +++
 Let $S$ be a scheme.

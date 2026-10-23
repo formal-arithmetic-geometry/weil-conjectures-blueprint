@@ -2,13 +2,13 @@
 id = "def-sfb-comap-lower-star-iso"
 kind = "definition"
 title = "Restriction of scalars commutes with $f_*$"
-order = 1733
-uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-pushforward-pullback", "sk-def-sfb-change-of-scalars"]
+order = 2607
+uses = ["sk-def-sfb-coefficient-change", "det-def-sfb-module-pushforward-pullback", "det-def-sfb-change-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.comapLowerStarIso"]
 +++
 Let $a\colon\Lambda\to\Lambda'$ be a morphism of commutative condensed rings with coefficient
 changes $a_X$ ([sk-def-sfb-coefficient-change]), and $f\colon X\to Y$ a morphism of schemes.
-With $f_*$ the pushforward of module objects ([sk-def-sfb-module-pushforward-pullback]), there
+With $f_*$ the pushforward of module objects ([det-def-sfb-module-pushforward-pullback]), there
 is a natural isomorphism
 
 $$

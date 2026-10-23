@@ -2,8 +2,8 @@
 id = "sec-six-functors"
 kind = "section"
 title = "Six Functors"
-order = 2383
-uses = ["sec-curve-estimates", "sec-nagata-compactification", "sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity"]
+order = 3279
+uses = ["sec-curve-estimates", "sec-nagata-compactification", "sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sk-thm-br"]
 +++
 **Content.** For separated finite-type morphisms of finite-type schemes over
 $k=\overline{\mathbf F}_q$ and every admissible coefficient ring ($A_{E,n}$,

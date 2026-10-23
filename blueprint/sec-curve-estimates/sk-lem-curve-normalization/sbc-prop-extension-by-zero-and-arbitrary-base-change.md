@@ -2,7 +2,8 @@
 id = "sbc-prop-extension-by-zero-and-arbitrary-base-change"
 kind = "theorem"
 title = "Extension by zero base change"
-order = 1240
+order = 1504
+lean = ["AlgebraicGeometry.Etale.preservesFiniteLimits_openImmersionLowerShriek", "AlgebraicGeometry.Etale.openImmersionLowerShriekBaseChangeMap", "AlgebraicGeometry.Etale.isIso_openImmersionLowerShriekBaseChangeMap", "AlgebraicGeometry.Etale.mapDerivedCategoryOpenImmersionLowerShriekBaseChangeIso"]
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
 +++

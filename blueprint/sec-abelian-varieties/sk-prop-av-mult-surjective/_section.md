@@ -3,7 +3,7 @@ id = "sk-prop-av-mult-surjective"
 kind = "proposition"
 title = "Surjectivity of the multiplication map"
 lean = ["AlgebraicGeometry.surjective_npow_id", "AlgebraicGeometry.topologicalKrullDim_torsionSubgroupScheme"]
-order = 553
+order = 575
 uses = ["sk-def-av", "sk-def-av-mult-n", "sk-prop-av-char"]
 tags = ["sketch"]
 +++

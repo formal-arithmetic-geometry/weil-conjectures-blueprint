@@ -2,8 +2,8 @@
 id = "sk-def-sfb-dc-restricted-functors"
 kind = "definition"
 title = "$Lf^*$, $Rf_*$, $j_!$, $\\otimes^{\\mathrm L}$, $\\RHom$ on $D_{\\mathrm{cons}}$: restrictions"
-order = 1699
-uses = ["sk-def-sfb-dc-setting", "sk-def-sfb-derived-tensor-hom", "sk-thm-sfb-rationalization-comparison", "sk-thm-sfb-qlbar-two-colimit"]
+order = 2624
+uses = ["sk-def-sfb-dc-setting", "sk-prop-sf-open-closed-triangle", "sk-thm-sfb-rationalization-comparison", "sk-thm-sfb-qlbar-two-colimit"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStar", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStarComp", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_obj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerStar", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_openImmersionLowerShriek_obj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekUpperStarAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_derivedTensor_obj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_derivedHom_obj", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleTensor", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleHom", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleTensorHomAdjunction"]
 tags = ["sketch"]
 +++
@@ -17,13 +17,13 @@ ring. Consider the following functors on the ambient derived categories of modul
   open immersion $j\colon U\to X$, applied levelwise to complexes
   ([sk-def-sfb-module-lower-shriek], [sk-prop-sfb-module-derived-factorization]);
 - the derived tensor product $-\otimes^{\mathrm L}_{\Lambda_X}-$ and the derived internal hom
-  $\RHom_{\Lambda_X}(-,-)$ on $D(\Mod_{\Lambda_X})$ ([sk-def-sfb-derived-tensor-hom]).
+  $\RHom_{\Lambda_X}(-,-)$ on $D(\Mod_{\Lambda_X})$ ([det-def-sfb-derived-tensor-hom]).
 
-Each of them carries bounded constructible complexes ([sk-def-sfb-bounded-constructible]) to
+Each of them carries bounded constructible complexes ([det-def-sfb-bounded-constructible]) to
 bounded constructible complexes in the following cases. For $Lf^*$ and $j_!$ this holds for every
 $\Lambda$. For $Rf_*$, $\otimes^{\mathrm L}$ and $\RHom$ it holds for the $\ell$-adic rings
 $\Lambda=\underline{\cO}_E$, $\underline E$ ($E/\mathbf Q_\ell$ finite;
-[sk-def-sfb-condensed-ring]) and $\Lambda=\underline{\Qlb}$ ([sk-def-sfb-qlbar-condensed]); these
+[det-def-sfb-condensed-ring]) and $\Lambda=\underline{\Qlb}$ ([det-def-sfb-qlbar-condensed]); these
 are Deligne's finiteness theorems. It fails for a general $\Lambda$.
 
 When the preservation property holds, the functor on $D_{\mathrm{cons}}$ is defined as the

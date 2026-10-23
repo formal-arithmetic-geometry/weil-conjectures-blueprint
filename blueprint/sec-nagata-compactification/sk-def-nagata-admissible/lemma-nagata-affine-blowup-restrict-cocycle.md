@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-blowup-restrict-cocycle"
 kind = "lemma"
 title = "Identity and cocycle laws for affine restriction"
-order = 55
+order = 189
 lean = ["AlgebraicGeometry.AffineBlowup.hom_id", "AlgebraicGeometry.AffineBlowup.hom_comp"]
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-restriction-map", "lemma-nagata-rees-localization-mul", "lemma-nagata-rees-localization-one", "prop-nagata-affine-blowup-restrict"]
 +++

@@ -2,14 +2,14 @@
 id = "thm-sf-biduality-class"
 kind = "theorem"
 title = "Verdier biduality on the coefficient class"
-order = 2500
-uses = ["lem-coef-integral-residue-tor", "lem-weil-verdier-preservation-strata", "thm-coef-integral-verdier", "thm-fix-general-biduality", "sk-def-sf-setting", "sk-thm-pd-verdier-duality", "det-pd-biduality-coefficients", "sk-prop-scalar-six", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
+order = 3381
+uses = ["lem-coef-integral-residue-tor", "lem-weil-verdier-preservation-strata", "thm-coef-integral-verdier", "thm-fix-general-biduality", "def-sf-setting", "sk-thm-pd-verdier-duality", "det-pd-biduality-coefficients", "sk-prop-scalar-six", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Let $X$ be separated of finite type over $\Fbar$, and let
 $\Lambda=A_{E,n},\mathcal O_E,E$, or $\Qlb$.
 regarded as a condensed ring, and use the categories
 $\Dctf(X,\Lambda)\subseteq D(X_{\mathrm{pro\acute et}},\Lambda)$ of
-[sk-def-sf-setting]. Put
+[def-sf-setting]. Put
 $\omega_{X,\Lambda}=Ra_X^!\Lambda$,
 $D_{X,\Lambda}=R\mathcal Hom_\Lambda(-,\omega_{X,\Lambda})$.
 Then $D_{X,\Lambda}$ is an exact contravariant anti-equivalence

@@ -2,6 +2,7 @@
 id = "det-sf-comp-coherence-cocycle"
 kind = "lemma"
 title = "Independence of the compactification and the cocycle condition"
+order = 2286
 uses = ["det-sf-comp-coherence-refinement", "sk-lem-nagata-density-normalization", "sk-prop-nagata-sketch-comp-category"]
 +++
 Let $\Lambda$ be admissible and $f:X\to Y$ separated of finite type with $Y$

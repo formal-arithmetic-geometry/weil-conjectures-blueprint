@@ -2,7 +2,7 @@
 id = "def-pc-geometrically-irreducible"
 kind = "definition"
 title = "Geometric properties"
-order = 462
+order = 480
 lean = ["AlgebraicGeometry.GeometricallyIrreducible", "AlgebraicGeometry.GeometricallyReduced", "AlgebraicGeometry.GeometricallyConnected", "AlgebraicGeometry.GeometricallyIntegral"]
 uses = ["def-pc-base-change", "def-pc-scheme"]
 +++

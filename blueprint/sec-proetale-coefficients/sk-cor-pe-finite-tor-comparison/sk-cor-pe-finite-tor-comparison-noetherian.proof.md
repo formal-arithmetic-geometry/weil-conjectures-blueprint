@@ -2,11 +2,8 @@
 kind = "proof"
 of = "det-pe-finite-tor-comparison-noetherian"
 +++
-*Flatness is preserved.* The proof of [lem-exc-constant-inverse-image-flat]
-uses of the coefficient ring only that it is Noetherian (to choose a finite
-generating set of the kernel of a row matrix) and that $\nu_X^*$ is exact and
-preserves constant matrices. Hence for Noetherian $\Lambda$ the inverse image of a
-flat étale $\Lambda$-module sheaf is flat.
+*Flatness is preserved.* For Noetherian $\Lambda$ the inverse image of a flat
+étale $\Lambda$-module sheaf is flat, by [lem-exc-constant-inverse-image-flat].
 
 *Tor amplitude is preserved.* Suppose $K$ has Tor amplitude in $[a,b]$. As in
 [lem-exc-comparison-tor-interval], choose a bounded-above flat resolution $P$ of
@@ -27,8 +24,8 @@ $[a,b]$. Since $\nu_X^*$ is exact and faithful on module sheaves,
 $H^q(K\otimes^{\mathrm L}N)=0$ whenever $\nu_X^*H^q(K\otimes^{\mathrm L}N)=0$.
 So $K$ has Tor amplitude in $[a,b]$.
 
-*The equivalence.* By [det-pe-constructible-comparison-equivalence], $\nu_X^*$ is
-an equivalence $D^b_c(X_{\Et},\Lambda)\to\Dbc(X,\Lambda)$; by the two previous
-paragraphs an object has finite Tor amplitude if and only if its image does, so
+*The equivalence.* If $\nu_X^*$ is an equivalence
+$D^b_c(X_{\Et},\Lambda)\to\Dbc(X,\Lambda)$, as it is for finite $\Lambda$ by
+[lem-sf-proetale-constructible-origin], then by the two previous paragraphs an object has finite Tor amplitude if and only if its image does, so
 the equivalence restricts to the full subcategories of objects of finite Tor
 amplitude.

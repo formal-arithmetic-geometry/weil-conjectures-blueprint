@@ -2,7 +2,8 @@
 id = "sk-prop-pe-milnor"
 kind = "proposition"
 title = "The Milnor sequence"
-order = 719
+order = 980
+lean = ["DerivedCategory.shortExact_milnor_of_isHomotopyLimit", "DerivedCategory.isLE_of_isHomotopyLimit", "AlgebraicGeometry.ProEtale.isHomotopyLimit_mapCone_Q_of_epi", "CategoryTheory.GrothendieckTopology.epi_one_sub_of_forall_mittagLeffler"]
 uses = ["sk-prop-pe-products", "sk-cor-pe-sections"]
 tags = ["sketch"]
 +++
@@ -35,6 +36,6 @@ ordinary limit in degree zero.
 
 More generally, the $R^1\varprojlim$ term vanishes if, on every affine weakly contractible
 $W$, the tower of section modules satisfies the Mittag–Leffler condition: evaluate the
-cokernel formula and apply the Mittag–Leffler lemma for modules (Stacks, Tag 07KV). The
-condition is to be checked on this basis; over a general object, sections of an
-epimorphism of sheaves need not be surjective.
+cokernel formula and apply the Mittag–Leffler lemma for modules (Stacks, Tag 07KV). It
+suffices to check the condition on this basis, because epimorphisms of sheaves induce
+surjections on sections over weakly contractible objects.

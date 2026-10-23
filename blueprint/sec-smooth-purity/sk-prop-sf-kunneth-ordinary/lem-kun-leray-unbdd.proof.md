@@ -4,7 +4,7 @@ of    = "lem-kun-leray-unbdd"
 +++
 For $E\in D(X_{\Et},\kunZn)$ the Grothendieck spectral sequence of
 the composite $\Gamma(Y_{\Et},-)\circ Rf_*$
-([def-weil-pbc-hypercohomology-filtrations] in the
+([thm-sp-truncation-e2] in the
 global-section form) has
 
 $$

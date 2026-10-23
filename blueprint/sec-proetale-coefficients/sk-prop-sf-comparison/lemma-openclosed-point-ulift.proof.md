@@ -9,9 +9,9 @@ elements of the composite fibre functor is isomorphic to that of $p$, so it is
 again cofiltered and initially small, and the joint surjectivity of $p$ on a
 covering sieve transfers verbatim. So the composite is a point. A stalk is a
 colimit over the opposite of the category of elements, which has not changed,
-and the raising functor preserves these $w$-small colimits; so the stalks of
-the raised point are the old ones followed by the raising functor, and they
-detect exactly the same isomorphisms.
+so the stalk of a sheaf at the raised point is computed by a colimit over an
+isomorphic index category and is canonically isomorphic to its stalk at $p$;
+in particular the two points detect exactly the same isomorphisms.
 
 For the second statement, conservativity of a family of points is checked
 against a covering-sieve criterion: a family is conservative as soon as every
@@ -21,7 +21,7 @@ criterion mentions no fibre universe, so it holds for the raised family as
 soon as it holds for the original one. For $\et X$ the original family
 consists, for each $s\in X$, of the geometric point
 $\operatorname{Spec}\overline{\kappa(s)}\to X$ at an algebraic closure of
-$\kappa(s)$, which is separably closed [def-kun-separably-closed]. These
+$\kappa(s)$, which is separably closed [def-pc-separably-closed]. These
 geometric points are jointly surjective onto $X$, since the one indexed by $s$
 has image $s$. A jointly surjective family of geometric points with separably
 closed fields is conservative on the small étale site: for $V$ étale over $X$

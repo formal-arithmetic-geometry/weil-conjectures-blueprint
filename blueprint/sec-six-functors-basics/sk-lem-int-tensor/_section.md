@@ -2,8 +2,8 @@
 id = "sk-lem-int-tensor"
 kind = "lemma"
 title = "Inverse image and tensor product"
-order = 1568
-uses = ["sk-def-sfb-dc-setting", "sk-def-sfb-derived-tensor-hom", "sk-thm-sfb-rationalization-comparison", "sk-thm-sfb-qlbar-two-colimit", "sk-lem-int-integral-heart"]
+order = 2457
+uses = ["sk-def-sfb-dc-setting", "sk-prop-sf-open-closed-triangle", "sk-thm-sfb-rationalization-comparison", "sk-thm-sfb-qlbar-two-colimit", "sk-lem-int-integral-heart"]
 tags = ["sketch"]
 +++
 Inverse image $g^*\colon\D(Y_{\mathrm{proét}},\mathcal O_E)\to\D(X_{\mathrm{proét}},\mathcal O_E)$ along a morphism $g\colon X\to Y$

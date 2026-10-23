@@ -2,7 +2,7 @@
 id = "sk-lem-tf-compact-trace"
 kind = "lemma"
 title = "The complexes whose traces occur"
-order = 2613
+order = 3470
 uses = ["sk-lem-finite", "sk-thm-sf-ctf-stability"]
 tags = ["sketch"]
 +++

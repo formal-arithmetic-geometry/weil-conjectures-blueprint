@@ -3,7 +3,7 @@ id = "lem-pur-coprojection"
 kind = "lemma"
 title = "Co-projection for a closed immersion"
 lean = ["AlgebraicGeometry.Etale.derivedTensorRightCompRightDerivedUpperShriekIso"]
-order = 2350
+order = 3266
 uses = ["def-exchange-projection", "def-pur-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

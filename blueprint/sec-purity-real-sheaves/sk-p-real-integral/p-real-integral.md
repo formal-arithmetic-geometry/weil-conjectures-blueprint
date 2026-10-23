@@ -2,14 +2,14 @@
 id = "p-real-integral"
 kind = "theorem"
 title = "Integral models"
-order = 2940
-uses = ["cor-galois-lisse-representations", "def-wf-fundamental-representation", "lem-wf-weil-fundamental-representation", "lem-wf-weil-group-exact-sequence", "prop-wf-weil-sheaf-representation-equivalence", "sk-prop-sfb-qlbar-colimit-x", "thm-lisse-qlbar-representations"]
+order = 3787
+uses = ["cor-galois-lisse-representations", "def-wf-fundamental-representation", "def-wf-weil-group", "lem-wf-weil-fundamental-representation", "sk-prop-sfb-qlbar-colimit-x", "thm-lisse-qlbar-representations"]
 tags = ["latex:proposition"]
 +++
-Keep the notation of [prop-wf-weil-sheaf-representation-equivalence], and let $U_0\subseteq C_0$ be a
-nonempty open subscheme with base change $U$ and geometric fundamental group
-$\pi_1(U)$, the kernel of the degree map of $W(U_0)$ by
-[lem-wf-weil-group-exact-sequence]. An $\mathcal O_E$-lattice in $V$ means a free
+Let $C_0$ be a smooth geometrically connected curve over $\Fq$, and let
+$U_0\subseteq C_0$ be a nonempty open subscheme with base change $U$ and
+geometric fundamental group $\pi_1(U)\subseteq W(U_0)$, the geometric
+subgroup of the Weil group of [def-wf-weil-group]. An $\mathcal O_E$-lattice in $V$ means a free
 $\mathcal O_E$-submodule of rank $\dim_{E}V$ that spans $V$ over $E$.
 
 Let $(V,\rho)$ be a lisse Weil sheaf on $U_0$, with $\rho$ its Weil

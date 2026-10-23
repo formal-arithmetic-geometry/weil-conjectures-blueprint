@@ -2,7 +2,7 @@
 id = "sk-def-cd"
 kind = "definition"
 title = "Cohomological dimension"
-order = 1506
+order = 2119
 uses = ["sk-def-pe-classical-definition", "sk-prop-sf-comparison", "sk-thm-pe-direct-image-comparison"]
 tags = ["sketch"]
 +++

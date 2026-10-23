@@ -2,16 +2,13 @@
 id = "def-weil-pbc-retained-localization"
 kind = "definition"
 title = "Retaining a closed subset"
-order = 1292
-uses = ["def-weil-pbc-w-local", "def-weil-pbc-w-localization"]
+order = 940
+lean = ["Ideal.WLocalization", "WLocalization.Generalization"]
+uses = ["def-weil-pbc-w-localization"]
 +++
-Let $T$ be a closed subset of $\operatorname{Spec}R$. For a constructible
-neighbourhood $E\supset T$, let $e_E$ be the idempotent of $R^w$ selecting
-the parts in $E$ in [def-weil-pbc-w-localization]. Define
-
-$$
- R_{[T]}=\varinjlim_{E\supset T}(R^w)_{e_E},
-$$
-
-where neighbourhoods are ordered by reverse inclusion. Their finite
-intersections are again such neighbourhoods.
+Let $R$ be a ring, $J\subset R$ an ideal, and $R^w$ the w-localization of
+[def-weil-pbc-w-localization]. Define $R_{[J]}$ to be the localization of
+$R^w$ at the multiplicative set of elements whose image in $R^w/JR^w$ is a
+unit, i.e. of the elements lying in no prime of $R^w$ that contains $JR^w$.
+It retains the points of $\operatorname{Spec}R^w$ that generalize a point of
+$V(JR^w)$.

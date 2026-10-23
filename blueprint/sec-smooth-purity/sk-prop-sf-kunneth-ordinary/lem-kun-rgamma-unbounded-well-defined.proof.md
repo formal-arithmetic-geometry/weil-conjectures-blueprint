@@ -6,7 +6,7 @@ Two K-injective resolutions of $K$ are chain-homotopy equivalent, and
 a bounded-below complex of injective objects is K-injective, by
 [prop-weil-pbc-kinjective-resolutions-exist]; a comparison
 $I\to J$ over $K$ between K-injective resolutions in the sense of
-[def-weil-pbc-kinjective-resolutions] is therefore a homotopy
+[def-sp-kinjective-bridge] is therefore a homotopy
 equivalence. The functor $\Gamma(T_{\Et},-)$
 carries chain-homotopy equivalences to homotopy equivalences of
 complexes of $\Lambda$-modules, hence to isomorphisms in the derived

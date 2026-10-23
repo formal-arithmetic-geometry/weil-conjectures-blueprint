@@ -1,35 +1,49 @@
 +++
 id = "sk-lem-as-properties"
 kind = "lemma"
-title = "The Artin–Schreier sheaf is a lisse character sheaf"
-order = 3023
-uses = ["sk-def-as", "sk-def-fourier-set"]
+title = "The Artin–Schreier character sheaf"
+order = 3923
+uses = ["sk-def-purity-conv", "sk-prop-sfb-finite-extension-compatibility", "sk-prop-ctf-finite-comparison", "sk-def-sfb-constructible", "sk-thm-frobenius"]
 tags = ["sketch"]
 +++
-$\pi$ is finite étale of degree $p$, and the translations $\sigma_a$
-($a\in\Fp$) act simply transitively on its geometric fibres: they make $Y$
-an $\Fp$-torsor over $X_0$. The automorphisms of $Y$ *as an
-$\Fp$-torsor* (those commuting with the $\sigma_a$) form $\Gamma(X_0,\Fp)$,
-which is $\Fp$ when $X_0$ is connected; and $\Fp\to\operatorname{Aut}(Y/X_0)$
-is an isomorphism when $Y$ is connected, but not in general (for $f=0$ the
-cover $Y=\coprod_{a\in\Fp}X_0$ is split, and e.g. for $p=3$,
-$X_0=\Spec\mathbf F_3$ its full automorphism group over $X_0$ is $S_3$).
-Over $\Aone_{k_0}$ the covering is $y\mapsto x=y^p-y$. Its pushforward
-decomposes as
-$\pi_*\Qlb\cong\bigoplus_{\chi\in\widehat{\Fp}}\mathcal L_\chi$ with each
-$\mathcal L_\chi$ lisse of rank one and $\mathcal L_0=1$ (for $\chi\ne0$,
-$\mathcal L_\chi$ may or may not be constant, e.g. all are constant when $f=0$);
-consequently $\mathcal L_{\psi,f}$ is lisse of rank one,
+Let $\psi:k_0\to E^\times$ be a nontrivial additive character.
+There is a lisse rank-one $E$-sheaf $\mathcal L_\psi$ on
+$\mathbf A^1_{k_0}$, with a specified trivialization at zero, such that
 
 $$
-\mathcal L_{\psi,f}\otimes\mathcal L_{\psi,g}\cong\mathcal L_{\psi,f+g},
-\qquad
-(\mathcal L_{\psi,f})^{-1}\cong\mathcal L_{\psi,-f}.
+ m^*\mathcal L_\psi\simeq
+ \operatorname{pr}_1^*\mathcal L_\psi\otimes
+ \operatorname{pr}_2^*\mathcal L_\psi,
+ \qquad
+ \mathcal L_\psi^\vee\simeq\mathcal L_{\psi^{-1}}.
 $$
 
-At a closed point $u$ the geometric Frobenius acts on $\mathcal L_{\psi,f}$ by
-$\Psi(\Tr_{\kappa(u)/\Fp}f(u))=\psi(\Tr_{\kappa(u)/k_0}f(u))$; so its trace
-function on $\Aone_{k_0}$ is
-$t_{\mathcal L_{\psi,ax}}(u)=\psi(\Tr_{\kappa(u)/k_0}(au))$; and
-$H^q(\Aone_{\bar k},\mathcal L_{\psi_a})=0$ for $(q,a)\neq(0,0)$, while
-$H^0(\Aone_{\bar k},\Qlb)=\Qlb$ and $H^q(\Aone_{\bar k},\Qlb)=0$ for $q>0$.
+Here $m$ is the addition map, and the isomorphisms respect the
+trivializations at zero. For $x\in\mathbf F_{q^n}$, the Frobenius
+trace is
+
+$$
+ t_{\mathcal L_\psi,n}(x)
+   =\psi\bigl(\operatorname{Tr}_{\mathbf F_{q^n}/k_0}(x)\bigr).
+$$
+
+In particular $\mathcal L_\psi$ is pure of weight zero.
+
+*Complement* (notation and the two models used later). For a $k_0$-scheme
+$X_0$ and $f\in\Gamma(X_0,\mathcal O_{X_0})$, viewed as $f:X_0\to\mathbf A^1_{k_0}$,
+put $\mathcal L_{\psi,f}=\mathcal L_{\psi(f)}:=f^*\mathcal L_\psi$. Then
+$\mathcal L_{\psi,f}\otimes\mathcal L_{\psi,g}\cong\mathcal L_{\psi,f+g}$ and
+$\mathcal L_{\psi,f}^\vee\cong\mathcal L_{\psi,-f}\cong\mathcal L_{\psi^{-1},f}$,
+and the geometric Frobenius at a closed point $u$ acts on
+$\mathcal L_{\psi,f}$ by $\psi(\operatorname{Tr}_{\kappa(u)/k_0}f(u))$. The
+sheaf has two models, which agree together with their trivializations at
+zero: the $\psi$-isotypic part of the direct image along the
+$k_0$-Artin–Schreier map $y\mapsto y^q-y$, and, writing
+$\psi(z)=\Psi(\operatorname{Tr}_{k_0/\mathbf F_p}(az))$ with $\Psi$ a
+nontrivial character of $\mathbf F_p$ and $a\in k_0^\times$, the
+$\Psi$-isotypic part of the direct image along the cover $u^p-u=ax$ (the
+construction of the proof, also used for the Fourier kernel); the map
+$y\mapsto u=\operatorname{Tr}_{k_0/\mathbf F_p}(ay)$ identifies them. The
+same construction works for every admissible condensed coefficient ring
+containing the values of $\psi$ (on the pro-étale site, and on the étale site
+for finite coefficients), compatibly with extension of scalars.

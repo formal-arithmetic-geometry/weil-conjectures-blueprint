@@ -1,15 +1,15 @@
 +++
 id = "det-pe-condensed-point-coefficients"
 kind = "lemma"
-title = "Coefficient sheaves on the geometric point"
-uses = ["det-pe-condensed-point-topology", "sk-def-sfb-pullback-from-point", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-condensed-ring", "sk-prop-pe-comparison-morphism"]
+title = "Coefficient sheaves of continuous functions"
+lean = ["AlgebraicGeometry.Scheme.ProEt.topologicalSheaf", "AlgebraicGeometry.Scheme.ProEt.isIso_constantToTopologicalSheafLifted", "AlgebraicGeometry.Scheme.ProEt.sheafPullbackConstantTopologicalIso"]
+order = 1085
+uses = ["def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism"]
 +++
-Let $\Omega$ be separably closed and $X=\Spec\Omega$. For a condensed set or
-condensed ring $F$, $(p_X^*F)(\Omega[S])\cong F(S)$ naturally in the profinite set
-$S$. In particular:
-
-1. for a topological ring $T$ (for instance profinite or locally profinite),
-   $\underline T_X(\Omega[S])=C(S,T)$, the continuous functions;
-2. for a discrete ring $A$, $\underline A_X(\Omega[S])=LC(S,A)=\varinjlim_iA^{S_i}$,
-   which is $(\nu_X^*A_{X,\Et})(\Omega[S])$; so $\underline A_X$ is the classical
-   constant sheaf.
+Let $X$ be a scheme and $M$ a topological abelian group. The presheaf
+$\underline M_X\colon U\mapsto C(|U|,M)$ of continuous functions on the underlying
+spaces is a sheaf on $X_{\Proet}$. If $M$ is discrete, the canonical map from the
+constant sheaf with value $M$ to $\underline M_X$ is an isomorphism, and
+$\underline M_X\cong\nu_X^*M_{X,\Et}$ is the pullback of the constant étale sheaf.
+In particular, for a discrete ring $A$ the sheaf $U\mapsto C(|U|,A)=LC(|U|,A)$ is
+the classical constant sheaf $\nu_X^*A_{X,\Et}$.

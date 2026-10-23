@@ -3,7 +3,7 @@ id = "lem-trf-exceptional-internal-hom-exchange"
 kind = "lemma"
 title = "Exceptional internal Hom versus exceptional pullback"
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.isIso_exceptionalIhomMap", "AlgebraicGeometry.ProEtale.GeometricOperations.exceptionalIhomIso"]
-order = 2659
+order = 3475
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "prop-functor-package"]
 +++
 Fix the coefficient

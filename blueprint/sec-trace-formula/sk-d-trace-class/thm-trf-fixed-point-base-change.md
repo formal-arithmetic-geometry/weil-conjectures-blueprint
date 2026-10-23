@@ -3,7 +3,7 @@ id = "thm-trf-fixed-point-base-change"
 kind = "theorem"
 title = "Base change in the fixed-point square"
 lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.baseChangeRightAdjoint", "AlgebraicGeometry.ProEtale.Correspondence.fixUpperStarIso", "AlgebraicGeometry.ProEtale.Correspondence.fixLowerShriekBaseChange"]
-order = 2658
+order = 3474
 uses = ["def-exchange-projection", "def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-fixed-scheme", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "prop-functor-package", "prop-trf-fixed-square-cartesian"]
 +++
 Fix the global finite-field datum

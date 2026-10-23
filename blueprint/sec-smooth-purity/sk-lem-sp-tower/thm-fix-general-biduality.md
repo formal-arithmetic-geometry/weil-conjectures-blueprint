@@ -2,8 +2,8 @@
 id = "thm-fix-general-biduality"
 kind = "theorem"
 title = "Finite-stage Verdier biduality"
-order = 2480
-uses = ["lem-sf-comparison-tor-amplitude", "lem-sf-proetale-constructible-origin", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata", "thm-weil-etale-geometric-biduality"]
+order = 2990
+uses = ["lem-exc-comparison-tor-interval", "lem-sf-proetale-constructible-origin", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata", "thm-weil-etale-geometric-biduality"]
 +++
 Let $Y$ be a separated finite-type scheme over
 $k=\overline{\mathbf F}_q$, and let $A=A_{E,n}$.

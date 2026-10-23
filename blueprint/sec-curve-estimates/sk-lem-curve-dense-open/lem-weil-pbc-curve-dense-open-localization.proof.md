@@ -3,7 +3,7 @@ kind  = "proof"
 of    = "lem-weil-pbc-curve-dense-open-localization"
 +++
 The finite partition of $C$ into locally closed constructible subschemes on
-which the constructible $\mathbf F_r$-sheaf $F$ is lisse (locally constant with
+which the constructible sheaf $F$ is lisse (locally constant with
 finite stalks) is a stratification in the sense of
 [def-constructible-stratification] whose pullbacks of $F$ are finite locally
 constant, so $F$ is constructible in the sense of
@@ -14,8 +14,8 @@ irreducible components of $C$ meet; the result is a dense open
 $j:U\hookrightarrow C$ on which $F$ is still finite locally constant, a reduced
 curve whose irreducible components are disjoint, hence a finite disjoint union
 $U=\coprod_aU_a$ of irreducible curves. Its complement $i:Z\hookrightarrow C$
-contains no generic point of $C$, so it is zero-dimensional. The sequence
-$0\to j_!j^{-1}F\to F\to i_*i^{-1}F\to0$ is exact, since at geometric points
+contains no generic point of $C$, so it is zero-dimensional. The natural
+sequence $0\to j_!j^{-1}F\to F\to i_*i^{-1}F\to0$ is exact, since at geometric points
 of $U$ the middle and left terms agree and the right term vanishes, and at
 geometric points of $Z$ the left term vanishes and the sequence is the
 identity of the right term. For the equivalence: $j_!j^{-1}F$ decomposes as
@@ -28,5 +28,12 @@ finite-stalk finiteness statements follow from
 from [lem-weil-pbc-zero-dimensional-field-extension], and (C8) is a map
 between zero groups. Moreover, $\mathcal C(-,G_1\oplus G_2)$ is equivalent to
 $\mathcal C(-,G_1)\wedge\mathcal C(-,G_2)$ for the finite direct sums;
-together with [lemma-weil-pbc-eight-curve-devissage] this gives the displayed
-equivalence.
+together with [lemma-weil-pbc-eight-curve-devissage] this gives the
+implication from right to left. For the converse, $H^q(C,i_*i^{-1}F)=0$ for
+$q>0$ and $H^0(C,i_*i^{-1}F)$ is the finite product of the stalks of $F$ at
+the points of $Z$, unchanged under algebraically closed extension; so the long
+exact sequence gives $H^q(C,j_!j^{-1}F)\cong H^q(C,F)$ for $q\geq2$ and a
+five-term exact sequence in degrees $0,1$, compatible with restriction to
+opens and with field extension, and each assertion for $j_!j^{-1}F$ follows
+from the one for $F$ by the five lemma, as in the proof of
+[lemma-weil-pbc-curve-dense-open-reduction].

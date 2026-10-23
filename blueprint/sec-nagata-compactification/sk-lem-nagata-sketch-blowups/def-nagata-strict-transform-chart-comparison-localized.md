@@ -3,7 +3,7 @@ id = "def-nagata-strict-transform-chart-comparison-localized"
 kind = "definition"
 title = "Localized strict-transform chart comparison"
 lean = ["AlgebraicGeometry.AffineBlowup.strictChartComparisonAway"]
-order = 160
+order = 271
 uses = ["def-nagata-strict-transform-chart-comparison"]
 +++
 Let $s\in B$ and let $b'$ be the image of $a$ in $B_s$. The composite

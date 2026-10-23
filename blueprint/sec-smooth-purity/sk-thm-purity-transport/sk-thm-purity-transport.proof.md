@@ -19,7 +19,7 @@ and likewise for the orientations, the smooth traces and the composition
 and base-change squares of [sk-prop-cohsm] (G12).
 
 *Step 2 (the coefficients $\mathcal O_E$, $E$ and $\Qlb$).* These are the
-condensed coefficient rings of [sk-def-sf-setting], and no stage is built from
+condensed coefficient rings of [def-sf-setting], and no stage is built from
 another. For $\Lambda=\mathcal O_E$, [sk-prop-sp-integral-adjunction] shows that
 $K\mapsto f^*_{\mathcal O_E}K(d)[2d]$ is right adjoint to $Rf_{!,\mathcal O_E}$ on
 $\Dbc(-,\mathcal O_E)$. Its proof passes through the tower model of

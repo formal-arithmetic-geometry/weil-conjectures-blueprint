@@ -3,7 +3,7 @@ id = "def-nagata-spectral-constructible-separation"
 kind = "definition"
 title = "Constructible separation data in a spectral space"
 lean = ["PrespectralSpace.constructibleSeparation"]
-order = 260
+order = 348
 uses = ["lemma-nagata-spectral-constructible-separation-exists"]
 +++
 Let $V$ be a quasi-compact topological space whose quasi-compact open

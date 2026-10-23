@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-gluing-coefficients-descend"
 kind = "lemma"
 title = "All gluing coefficients occur at the selected stage"
-order = 342
+order = 34
 lean = ["AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.resLE_mem_localizationSubring_coeffSubring", "AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.exists_finset_closure_eq_coeffSubring", "AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.f_mem_coeffSubring", "AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.g_mem_coeffSubring"]
 uses = ["def-nagata-affine-gluing-coefficient-stage", "lemma-nagata-finite-affine-gluing-presentation"]
 +++

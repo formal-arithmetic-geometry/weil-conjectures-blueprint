@@ -3,7 +3,7 @@ id = "pqf-lem-associated-sections-localize"
 kind = "lemma"
 title = "Principal localization of an associated module sheaf"
 lean = ["AlgebraicGeometry.tildeSectionsBasicOpenTensorEquiv"]
-order = 547
+order = 563
 uses = ["pqf-def-coherent"]
 +++
 Let $A\to B$ be a ring homomorphism, let $M$ be a $B$-module,

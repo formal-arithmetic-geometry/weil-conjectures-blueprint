@@ -2,7 +2,7 @@
 id = "lem-sfb-derived-lower-shriek-hom-iso"
 kind = "lemma"
 title = "(Shriek) is an isomorphism when (Push) is one"
-order = 1747
+order = 2621
 uses = ["def-sfb-derived-lower-shriek-hom", "def-sfb-derived-push-hom"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedLowerShriekHom"]
 +++

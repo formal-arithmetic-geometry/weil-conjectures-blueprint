@@ -36,5 +36,4 @@ $$
 $$
 
 with the second identification induced by that unit. This proves full
-faithfulness. The finite-level proposition used here has already established
-its geometric acyclicity input by the two finite-cover limits above.
+faithfulness.

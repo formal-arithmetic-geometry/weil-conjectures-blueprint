@@ -2,8 +2,8 @@
 id = "lem-sfb-finite-upper-shriek-bounded-below"
 kind = "lemma"
 title = "$Rf^!$ preserves bounded below objects"
-order = 1682
-uses = ["def-sfb-finite-upper-shriek", "sk-def-sfb-derived-categories"]
+order = 2532
+uses = ["def-sfb-finite-upper-shriek", "det-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.plus_rightDerivedUpperShriek_obj"]
 +++
 Let $f\colon X\to Y$ admit a compactification, with chosen compactification

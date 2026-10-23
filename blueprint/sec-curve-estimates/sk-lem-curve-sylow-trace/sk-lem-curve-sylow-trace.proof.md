@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-lem-curve-sylow-trace"
-uses = ["sk-prop-pe-finite-local-systems", "sk-lem-curve-finite-support", "sk-lem-curve-dense-open", "sk-lem-curve-normalization"]
+uses = ["sk-prop-pe-finite-local-systems", "sk-lem-curve-finite-support", "sk-lem-curve-dense-open", "sk-lem-curve-normalization", "sk-lem-pbc-finite", "sk-thm-br"]
 +++
 By [sk-prop-pe-finite-local-systems], $G$ is the pullback of a finite étale
 local system, which corresponds to a finite continuous representation of the
@@ -36,7 +36,7 @@ proper, $Y$ is proper; if $C$ is affine, $Y$ is affine.
 The filtration of $v^*G$, exactness of $j'_!$, and the calculation for
 constant sheaves extended by zero ([sk-lem-curve-dense-open],
 [sk-lem-curve-normalization]) therefore give the assertions $(C_1)$–$(C_8)$
-for $j'_!v^*G$. Exactness of $\bar v_*$ passes them to $j_!v_*v^*G$, and the
+of [def-weil-pbc-eight-curve-assertions] for $j'_!v^*G$. Exactness of $\bar v_*$ passes them to $j_!v_*v^*G$, and the
 trace splitting passes them to its direct summand $j_!G$. For invariance
 under field extension, the splitting maps commute with ground-field
 extension, so the isomorphism for the larger sheaf is block diagonal for the

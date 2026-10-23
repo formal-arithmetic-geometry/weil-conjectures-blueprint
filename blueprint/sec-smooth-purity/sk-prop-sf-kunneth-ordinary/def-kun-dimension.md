@@ -2,7 +2,7 @@
 id = "def-kun-dimension"
 kind = "definition"
 title = "Dimension"
-order = 2021
+order = 3113
 uses = ["def-kun-support", "def-weil-pbc-scheme-conventions"]
 +++
 The *Krull dimension* $\kundim X$ of a scheme is the supremum

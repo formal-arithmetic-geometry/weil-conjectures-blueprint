@@ -2,7 +2,7 @@
 id = "sk-cor-sbc-applications"
 kind = "corollary"
 title = "Open direct images and smooth product families"
-order = 1578
+order = 2498
 uses = ["sk-thm-sbc-coefficients"]
 tags = ["sketch"]
 +++

@@ -3,7 +3,7 @@ id = "sk-thm-av-final"
 kind = "proposition"
 title = "Multiplication on an abelian variety"
 lean = ["AlgebraicGeometry.abelianVariety_estimate", "AlgebraicGeometry.abelianVariety_estimate_of_isAlgClosed", "AlgebraicGeometry.etale_npow_id", "AlgebraicGeometry.IsIsogeny.isFinite", "AlgebraicGeometry.IsIsogeny.finrank_eq"]
-order = 427
+order = 442
 uses = ["sk-def-av", "sk-def-av-isogeny", "sk-def-av-mult-n", "sk-def-av-tate", "sk-prop-av-connected-order", "sk-prop-av-divisible", "sk-prop-av-divisible-structure", "sk-prop-av-prime-p-etale", "sk-prop-av-tate-rank", "sk-prop-av-isogeny"]
 tags = ["sketch"]
 +++

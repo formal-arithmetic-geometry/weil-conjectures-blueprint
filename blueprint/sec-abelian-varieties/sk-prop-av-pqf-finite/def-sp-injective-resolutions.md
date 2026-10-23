@@ -2,7 +2,7 @@
 id = "def-sp-injective-resolutions"
 kind = "definition"
 title = "Injective objects and injective resolutions"
-order = 506
+order = 522
 lean = ["CategoryTheory.Injective", "CategoryTheory.InjectiveResolution"]
 uses = ["def-sp-grothendieck-abelian"]
 +++

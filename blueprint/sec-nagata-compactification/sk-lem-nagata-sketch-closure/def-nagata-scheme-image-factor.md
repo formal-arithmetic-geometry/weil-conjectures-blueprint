@@ -2,7 +2,7 @@
 id = "def-nagata-scheme-image-factor"
 kind = "definition"
 title = "Canonical factor through a scheme-theoretic image"
-order = 76
+order = 108
 lean = ["AlgebraicGeometry.Scheme.Hom.toImage"]
 uses = ["def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc"]
 +++

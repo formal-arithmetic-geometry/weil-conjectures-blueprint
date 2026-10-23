@@ -2,6 +2,7 @@
 id = "det-nearby-exceptional-tensor"
 kind = "lemma"
 title = "The exceptional exchange and the projection formula"
+order = 3594
 uses = ["det-nearby-exchange-maps"]
 +++
 In the notation of [det-nearby-exchange-maps], let $f\colon V\to W$ be a morphism of separated

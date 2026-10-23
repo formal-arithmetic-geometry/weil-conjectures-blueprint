@@ -2,8 +2,8 @@
 id = "sk-def-sfb-module-derived-pushpull"
 kind = "definition"
 title = "Derived pushforward and pullback of module objects"
-order = 1685
-uses = ["sk-def-sfb-derived-categories"]
+order = 2542
+uses = ["sk-prop-sf-open-closed-triangle"]
 lean = ["CategoryTheory.Functor.rightDerivedFunctorPlus", "AlgebraicGeometry.ProEtale.CondensedRing.preservesKFlatQuasiIso_upperStar", "CategoryTheory.Adjunction.derivedAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarLowerStarAdjunction"]
 tags = ["sketch"]
 +++
@@ -11,8 +11,8 @@ Let $\Lambda$ be a commutative condensed ring and $f\colon X\to Y$ a morphism of
 schemes, with the functors $f_*=\operatorname{Res}_{\eta_f}\circ
 \operatorname{mapMod}(f^{\Ab}_*)$ and $f^*=\operatorname{Ext}_{\alpha_f}\circ
 \operatorname{mapMod}(f^*_{\Ab})$ on module objects
-([sk-def-sfb-module-pushforward-pullback]). The derived pushforward and pullback are
-the *total derived functors of these composites* ([sk-def-sfb-derived-categories]):
+([det-def-sfb-module-pushforward-pullback]). The derived pushforward and pullback are
+the *total derived functors of these composites* ([det-def-sfb-derived-categories]):
 
 $$
 Rf_*:=R\bigl(\operatorname{Res}_{\eta_f}\circ\operatorname{mapMod}(f^{\Ab}_*)\bigr)

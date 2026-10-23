@@ -2,6 +2,7 @@
 id = "det-def-sfb-filtered-two-colimit-model"
 kind = "definition"
 title = "The category $\\mathcal C_\\infty$ of a directed pseudofunctor and its comparison functor"
+order = 2578
 uses = ["det-def-sfb-filtered-two-colimit-cocone"]
 +++
 Let $I$ be a directed preordered set and $(T_{ij},\Phi_i,\theta_{ij})$ a cocone of categories with

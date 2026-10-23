@@ -11,7 +11,8 @@ with membership in $D_{\le w}$. Noetherian induction and the localization rule
 and coefficient filtrations), reduce to the source and target strata
 of [thm-zl-relative-noether]. The finite first arrow
 $\nu$ preserves the upper weight bound by
-[lem-zl-finite-pushforward]; every subsequent affine-line
+[lem-zl-finite-pushforward] (on every refined quasi-finite piece, by
+[lem-zl-quasi-finite]); every subsequent affine-line
 projection preserves it by [thm-zl-relative-line-step]. Repeated
 use of the composition isomorphism [lem-zl-shriek-composition],
 in the form of the inheritance of the weight bound under composition

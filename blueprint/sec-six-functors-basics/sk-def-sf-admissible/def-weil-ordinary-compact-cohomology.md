@@ -2,8 +2,8 @@
 id = "def-weil-ordinary-compact-cohomology"
 kind = "definition"
 title = "Ordinary and compactly supported cohomology"
-order = 1869
-uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-bounded-constructible"]
+order = 2653
+uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, where
 $q=p^a$, and a prime $\ell\neq p$. Write $\Ql=\mathbf Q_\ell$, choose an
@@ -12,7 +12,7 @@ contained in $\Qlb$, with valuation ring $\mathcal O_E$, uniformizer
 $\pi_E$, and $n\geq1$. Put $A_{E,n}=\mathcal O_E/\pi_E^n$ and
 $\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, each regarded as a condensed
 ring, and let $D^b_c(-,\Lambda)$ be the condensed bounded constructible
-category ([sk-def-sfb-bounded-constructible]). Let $Y$ be a separated
+category ([det-def-sfb-bounded-constructible]). Let $Y$ be a separated
 finite-type [def-weil-scheme-morphism-properties] $k$-scheme and $a_Y:Y\to
 s=\Spec k$ its structure morphism. Use the finite coefficient categories
 [def-weil-finite-coefficient-point], Weil complexes
@@ -52,7 +52,7 @@ $$
 
 For a coefficient ring $\Lambda$ in the displayed list, let
 $\Lambda_Y=p_Y^*\Lambda$ be its coefficient sheaf on the small pro-étale site
-[def-weil-pbc-proetale-site] ([sk-def-sfb-pulled-back-coefficients]); for
+[def-weil-pbc-proetale-site] ([det-def-sfb-pulled-back-coefficients]); for
 $\Lambda=A_{E,n}$ this is the constant sheaf $(A_{E,n})_Y$. When
 $\Lambda\in\{E,\Qlb\}$ and $Y=Y_0\times_{k_0}k$, $\Lambda_Y$ is a Weil sheaf with the canonical Weil
 structure $g_Y^*\Lambda_Y\cong\Lambda_Y$ of [def-weil-weil-sheaf-complex]. Abbreviate

@@ -2,7 +2,7 @@
 id = "def-nagata-scheme-image-comparison"
 kind = "definition"
 title = "Comparison map for a closed factorization"
-order = 78
+order = 110
 lean = ["AlgebraicGeometry.IsClosedImmersion.lift", "AlgebraicGeometry.Scheme.Hom.ker_le_ker_imageι_comp"]
 uses = ["def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-ideal-qc", "lemma-nagata-scheme-image-of-closed-immersion"]
 +++

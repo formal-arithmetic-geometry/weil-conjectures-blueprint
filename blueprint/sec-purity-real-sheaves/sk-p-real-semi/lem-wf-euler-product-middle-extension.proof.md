@@ -1,11 +1,11 @@
 +++
 kind  = "proof"
 of    = "lem-wf-euler-product-middle-extension"
-uses = ["det-thm-tf-uniform-formula-weil", "lem-wf-boundary-stalk-invariants", "lem-wf-lisse-stalk-vanishing", "prop-wf-weil-sheaf-representation-equivalence", "sk-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "sk-prop-pe-condensed-point", "sk-prop-sfb-module-pullback-exact", "sk-thm-sf-ctf-stability", "thm-trf-l-function-euler-product"]
+uses = ["det-thm-tf-uniform-formula-weil", "lem-wf-boundary-stalk-invariants", "lem-wf-lisse-stalk-vanishing", "prop-wf-weil-sheaf-representation-equivalence", "det-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "sk-prop-pe-condensed-point", "det-prop-sfb-module-pullback-exact-main", "sk-thm-sf-ctf-stability", "thm-trf-l-function-euler-product"]
 +++
 This is the curve case of the Euler-product form of the trace formula
 [thm-trf-l-function-euler-product], applied with $\Lambda=\Qlb$, i.e. to
-$\Dbc(X,\Qlb)$ ([sk-def-sfb-bounded-constructible]), to the curve
+$\Dbc(X,\Qlb)$ ([det-def-sfb-bounded-constructible]), to the curve
 $X_0$ (separated of finite type, of dimension one) and the
 constructible sheaf $K=j_*\mathcal F$ placed in degree zero, under the
 hypotheses of [det-thm-tf-uniform-formula-weil] with which the
@@ -28,7 +28,7 @@ constructible: $k_!G$ is $G$ on $X$ and $0$ on the finite complement, and
 $k_*G=\mathcal H^0(R(kj)_*\mathcal F)$ with $R(kj)_*$ preserving $\Dbc(-,\Qlb)$
 ([sk-thm-sf-ctf-stability]); so $\ker\alpha$ is constructible
 ([sk-lem-coefficient-heart] (1)). Its stalks vanish. Indeed, geometric stalks are exact
-(the pullback to a geometric point is exact, [sk-prop-sfb-module-pullback-exact], and its
+(the pullback to a geometric point is exact, [det-prop-sfb-module-pullback-exact-main], and its
 global sections are exact because every pro-étale cover of the spectrum of an algebraically
 closed field has a section, [sk-prop-pe-condensed-point]), so
 $(\ker\alpha)_{\bar x}=\ker(\alpha_{\bar x})$, and $\alpha_{\bar x}$ is injective at every

@@ -2,7 +2,8 @@
 id = "sk-prop-pe-left-complete"
 kind = "proposition"
 title = "Left completeness"
-order = 720
+order = 983
+lean = ["DerivedCategory.isHomotopyLimit_truncGECone"]
 uses = ["sk-prop-pe-milnor"]
 tags = ["sketch"]
 +++

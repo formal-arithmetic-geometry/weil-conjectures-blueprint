@@ -2,6 +2,7 @@
 id = "det-sp-dnc-base-change"
 kind = "lemma"
 title = "Functoriality and base change of the deformation"
+order = 3573
 uses = ["det-sp-dnc-definition"]
 +++
 Let $f\colon X'\to X$ be a morphism of separated finite-type $k$-schemes, let $Z\subset X$ and

@@ -2,21 +2,18 @@
 kind  = "proof"
 of    = "sk-p-linear-filtration"
 +++
-Let $R$ be the base ring ($R=k$ for the first assertion) and $T$ an
-indeterminate. Since $V/S$ is free, a basis of $S$ together with lifts of a
-basis of $V/S$ is a basis of $V$. In it the matrix of $f$ is block upper
-triangular, with diagonal blocks the matrices of $f$ on $S$ and on $V/S$;
-so the matrix of $T-f$ over $R[T]$ is block upper triangular with
-diagonal blocks those of $T-f$ on $S$ and on $V/S$, and its determinant is
-the product of the two block determinants. This is the displayed formula.
+In a basis adapted to the filtration, the matrix of $u$ is block upper
+triangular, so its characteristic polynomial is the product of those of
+the diagonal blocks. Over $\overline{\mathbf Q}_\ell$ we may also choose
+bases in which $u$ and $v$ are upper triangular ([sk-p-linear-triangular]).
+In the induced tensor basis and in the ordered wedge basis, the resulting
+matrices are upper triangular with the stated diagonal entries. The matrix
+on the dual is the inverse transpose.
 
-For the second assertion (over the field $k$, where all subspaces and
-quotients are free), let $f$ act on $S/U\ne0$ by the scalar $c$ and put
-$B=f-c$, which preserves $U$ and $S$. Applying the factorization to $B$
-along $S\subseteq V$, and then to $B|_S$ along $U\subseteq S$, gives
-$$
-\det(B\mid V)=\det(B\mid U)\,\det(B\mid S/U)\,\det(B\mid V/S).
-$$
-The middle factor is the determinant of the zero map on a space of
-positive dimension, hence zero, so $\det(f-c\operatorname{id}_V)=0$ and $c$
-is an eigenvalue of $f$ on $V$.
+For the complement, the same block-triangular computation works over a
+commutative ring once $S$ and $V/S$ are free. If $f$ acts on $S/U\ne0$ by
+the scalar $c$, apply the factorization to $f-c$ along
+$U\subseteq S\subseteq V$: the factor on $S/U$ is the determinant of the
+zero map on a nonzero space, so $\det(f-c\mid V)=0$. Taking $v=u$
+repeatedly gives $\alpha^n$ among the eigenvalues of $u^{\otimes n}$, and a
+diagonal $u$ is diagonal in the wedge basis with the stated entries.

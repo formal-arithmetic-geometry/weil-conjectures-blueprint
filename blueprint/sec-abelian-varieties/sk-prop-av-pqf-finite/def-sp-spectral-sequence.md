@@ -2,7 +2,7 @@
 id = "def-sp-spectral-sequence"
 kind = "definition"
 title = "Spectral sequences"
-order = 512
+order = 528
 lean = ["CategoryTheory.SpectralSequence", "CategoryTheory.SpectralSequence.Hom"]
 uses = ["def-sp-abelian"]
 +++

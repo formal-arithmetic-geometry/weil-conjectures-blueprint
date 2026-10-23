@@ -2,7 +2,7 @@
 id = "def-weil-pbc-strict-henselian-setup"
 kind = "definition"
 title = "Strictly henselian setup"
-order = 1108
+order = 1586
 lean = ["AlgebraicGeometry.Etale.projectiveLineClosedFibreRestriction"]
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-henselian-terminology", "def-weil-pbc-inverse-image"]
 +++

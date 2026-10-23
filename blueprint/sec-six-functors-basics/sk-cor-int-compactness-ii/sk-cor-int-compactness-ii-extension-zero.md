@@ -2,6 +2,7 @@
 id = "det-cor-int-compactness-ii-extension-zero"
 kind = "lemma"
 title = "Extension by zero preserves integral constructibility and localizing categories"
+order = 2470
 uses = ["sk-lem-int-tensor", "lem-sfb-dc-open-lower-shriek-preserves"]
 +++
 Let $j:U\hookrightarrow X$ be a quasi-compact open immersion.

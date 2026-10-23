@@ -2,7 +2,8 @@
 id = "det-lem-int-tensor-projection"
 kind = "lemma"
 title = "Projection formula for extension by zero along a locally closed immersion"
-uses = ["sk-prop-sf-open-closed-triangle", "sk-def-sfb-derived-tensor-hom"]
+order = 2458
+uses = ["sk-prop-sf-open-closed-triangle", "det-def-sfb-derived-tensor-hom"]
 +++
 Let $\Lambda$ be a condensed ring, $X$ a standing scheme, and
 $a=i\circ u\colon S\hookrightarrow X$ a locally closed immersion, with

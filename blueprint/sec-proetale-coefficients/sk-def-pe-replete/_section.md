@@ -2,7 +2,8 @@
 id = "sk-def-pe-replete"
 kind = "definition"
 title = "Repleteness"
-order = 716
+order = 972
+lean = ["CategoryTheory.GrothendieckTopology.IsReplete"]
 tags = ["sketch"]
 +++
 A topos $\mathcal T$ is *replete* if, for every inverse sequence

@@ -2,75 +2,48 @@
 kind  = "proof"
 of    = "lem-pc-flat-rf-open"
 +++
-Put $E=Rf_*\mathcal{F}\in D(\mathcal{O}_S)$ (see [def-pc-derived-category]).
-By [lem-pc-rf-perfect-base-change], $E$ is perfect and for every
-$g:T\to S$ the canonical map $Lg^*E\to Rf_{T,*}\mathcal{F}_T$ is an
-isomorphism, with $Lg^*$ the [def-pc-derived-pullback]. For $s\in S$
-write $\beta^q(s)=\dim_{\kappa(s)}H^q(X_s,\mathcal{F}_s)$.
+For $s\in S$ write $\beta^q(s)=\dim_{\kappa(s)}H^q(X_s,\mathcal{F}_s)$, and let
+$U\subseteq S$ be the set of points $s$ with $\beta^q(s)=0$ for all $q\neq i$
+and $\beta^i(s)=r$. Base changes are as in [def-pc-base-change].
 
-*The locus.* Let $U\subseteq S$ be the set of points $s$ with
-$\beta^q(s)=0$ for all $q\neq i$ and $\beta^i(s)=r$. We show $U$ is
-open. Fix $t\in S$. As in the proof of
-[thm-pc-semicontinuity-base-change], by [def-pc-perfect-complex] there is
-an affine open $V=\operatorname{Spec}(A)\ni t$ on which $E|_V$ is
-represented by a bounded complex
-$K:\;0\to K^a\to\cdots\to K^b\to0$ with $K^q\cong A^{n_q}$, and for
-$s\in V$, since the terms of $K$ are flat,
-[lem-pc-flat-complex-derived-pullback] and the base-change isomorphism
-give
+*The local model.* Fix $t\in S$ and an affine open $S_0\ni t$. Applying
+[lem-pc-rf-perfect-base-change](1) to the restriction
+$f^{-1}(S_0)\to S_0$ of $f$, which is again proper of finite presentation
+with $\mathcal F|_{f^{-1}(S_0)}$ of finite presentation and flat over $S_0$,
+gives an open $V\ni t$ contained in $S_0$ and a bounded complex $P$ of finite
+free $\mathcal{O}_V$-modules, concentrated in degrees $[0,d]$, such that for
+every morphism $g:T\to V$, with $f_T:X_T\to T$ and $\mathcal F_T$ the base
+changes of $f$ and $\mathcal F$ along $T\to V\subseteq S$,
 
 $$
-H^q(X_s,\mathcal{F}_s)\cong H^q(K\otimes_A\kappa(s)).
+\mathcal H^q(g^*P)\cong R^qf_{T,*}\mathcal F_T\qquad(q\ge0).
 $$
 
-In particular $\beta^q\equiv0$ on $V$ for $q\notin[a,b]$, so on $V$ only
-the finitely many conditions with $q\in[a,b]$ matter. By
-[thm-pc-semicontinuity-base-change](2) each $\beta^q$ is upper
-semicontinuous, so
+For $s\in V$ and $g=g_s:\operatorname{Spec}\kappa(s)\to V$ the target is a
+point, on which the higher direct images are the cohomology groups of the
+fibre; hence $H^q(X_s,\mathcal F_s)\cong H^q(P\otimes\kappa(s))$ for all $q$
+(both sides vanish for $q<0$ and $q>d$).
 
-$$
-W=\{s\in V:\ \beta^q(s)\le0\ (q\neq i,\ a\le q\le b),\ \beta^i(s)\le r\}
-$$
+*The criterion over $V$.* Let $U_P\subseteq V$ be the open subscheme attached
+to $P$ and to $i,r$ by [lem-pc-perfect-locus]: a morphism $g:T\to V$ factors
+through $U_P$ if and only if $\mathcal H^q(g^*P)=0$ for $q\neq i$ and
+$\mathcal H^i(g^*P)$ is finite locally free of rank $r$. Since $P$ lives in
+degrees $\ge0$, the local model turns this into: $R^qf_{T,*}\mathcal F_T=0$ for
+$q\neq i$ and $R^if_{T,*}\mathcal F_T$ is finite locally free of rank $r$. For
+$g=g_s$ ($s\in V$) a finite locally free module of rank $r$ over the point
+$\operatorname{Spec}\kappa(s)$ is an $r$-dimensional vector space, so
+$s\in U_P$ if and only if $\beta^q(s)=0$ for $q\neq i$ and $\beta^i(s)=r$,
+i.e. $s\in U$. Thus $U\cap V=U_P$, an open subset of $V$.
 
-is a finite intersection of open subsets of $V$, hence open. For $s\in W$
-the complex $K\otimes_A\kappa(s)$ of finite dimensional vector spaces has
-cohomology only in degree $i$, so
-
-$$
-(-1)^i\beta^i(s)=\sum_q(-1)^q\dim_{\kappa(s)}H^q(K\otimes_A\kappa(s))
-=\sum_q(-1)^qn_q ,
-$$
-
-which does not depend on $s\in V$. Hence $\beta^i$ is constant on $W$,
-and $U\cap V$ is either $W$ or empty. In either case it is open, and
-since such $V$ cover $S$, $U$ is open.
-
-*The functorial characterization.* Let $g:T\to S$. Both sides of the
-claimed equivalence are local on $T$: $g$ factors through the open $U$ iff
-it does so over each member of an open cover of $T$, and the vanishing and
-local freeness of the $R^qf_{T,*}\mathcal F_T$ are local on $T$, while
-higher direct images are compatible with restriction to opens of $T$. So
-we may assume that $g$ maps $T$ into one of the affine opens
-$V=\operatorname{Spec}(A)$ above, on which $E|_V$ is represented by the
-bounded complex $K$ of finite free modules; padding $K$ with zero terms we
-may assume $a\le i$, so that after shifting by $-a$ it is concentrated in
-degrees $[0,b-a]$ and $i$ becomes $i-a\ge0$. Let $U_K\subseteq V$ be the
-open subscheme attached to this complex and to $i-a,r$ by
-[lem-pc-perfect-locus]; undoing the shift, a morphism into $V$ factors
-through $U_K$ iff the pullback of $K$ is a finite locally free module of
-rank $r$ placed in degree $i$. A point $s\in V$ lies in $U_K$ iff
-$g_s:\operatorname{Spec}\kappa(s)\to V$ factors through $U_K$, i.e. iff
-$K\otimes_A\kappa(s)$, which computes $Lg_s^*E\cong Rf_{s,*}\mathcal{F}_s$,
-is isomorphic to $\kappa(s)^{r}$ placed in degree $i$. As
-$\operatorname{Spec}\kappa(s)$ is a point, the cohomology of
-$Rf_{s,*}\mathcal{F}_s$ is $H^*(X_s,\mathcal{F}_s)$, and a complex over a
-field is quasi-isomorphic to the sum of its shifted cohomology groups; so
-this holds iff $s\in U$. Thus $U\cap V=U_K$. By [lem-pc-perfect-locus],
-$g:T\to V$ factors through $U_K=U\cap V$ iff $Lg^*E$ is isomorphic to a
-finite locally free $\mathcal{O}_T$-module of rank $r$ placed in degree
-$i$, i.e. by the base-change isomorphism iff $Rf_{T,*}\mathcal{F}_T$ is;
-since $Rf_{T,*}\mathcal F_T$ has cohomology sheaves
-$R^qf_{T,*}\mathcal F_T$, this is the condition of the statement.
-On $U$ itself this gives (Nakayama, as in [lem-pc-perfect-locus]) that
-$Rf_*\mathcal{F}|_U$ is locally a free module of rank $r$ in degree $i$;
-no reducedness of $S$ is needed.
+*Globalisation.* Such opens $V$ cover $S$, so $U$ is open. Let $g:T\to S$ be a
+morphism. Whether $g$ factors through $U$ is local on $T$, and so is the
+condition on the $R^qf_{T,*}\mathcal F_T$, since higher direct images are
+compatible with restriction to opens of $T$. Cover $T$ by the opens
+$g^{-1}(V)$ for the $V$ above. Over $g^{-1}(V)$ the restriction of $f_T$ is
+the base change of $f$ along $g^{-1}(V)\to V\subseteq S$, and by the
+criterion over $V$, $g|_{g^{-1}(V)}$ factors through $U\cap V=U_P$ if and only
+if the higher direct images of $\mathcal F_T$ restricted over $g^{-1}(V)$
+vanish outside degree $i$ and are finite locally free of rank $r$ in degree
+$i$. Hence $g$ factors through $U$ if and only if $R^qf_{T,*}\mathcal F_T=0$
+for $q\neq i$ and $R^if_{T,*}\mathcal F_T$ is finite locally free of rank $r$,
+which is the claim. No reducedness of $S$ is needed.

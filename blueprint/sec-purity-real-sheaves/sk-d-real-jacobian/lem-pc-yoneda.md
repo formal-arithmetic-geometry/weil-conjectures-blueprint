@@ -3,7 +3,7 @@ id = "lem-pc-yoneda"
 kind = "lemma"
 title = "Yoneda"
 lean = ["CategoryTheory.bijective_yoneda_app_id"]
-order = 2951
+order = 3827
 +++
 Let $S$ be a scheme. For any functor
 $F:(\mathit{Sch}/S)^{\mathrm{op}}\to\textit{Sets}$ and any scheme $X/S$,

@@ -1,24 +1,20 @@
 +++
 kind = "proof"
 of = "sk-prop-curve-affine-kummer"
-uses = ["sk-thm-br", "sk-prop-kummer-exact", "sk-cor-picard-degree"]
+uses = ["sk-thm-br", "sk-thm-curveestimate", "sk-cor-jacobian-torsion"]
 +++
-Every smooth connected nonproper curve is affine and arises in this way: take
-a projective model of its function field and normalize it. Over a perfect
-field regular curves are smooth, and the complement is a finite nonempty set
-of points.
-
-Divisors on the regular curve give
+Since $\overline C$ is regular, divisors give
 
 $$
 \operatorname{Pic}(U)=\operatorname{Pic}(\overline C)/
 \langle\cO_{\overline C}(x):x\in D\rangle.
 $$
 
-Since one of these line bundles has degree one, $J(k)$ surjects onto
-$\operatorname{Pic}(U)$, so $\operatorname{Pic}(U)$ is $n$-divisible. The
-Kummer sequence ([sk-prop-kummer-exact]) and [sk-thm-br] now give the
-vanishing above degree one.
+One of these line bundles has degree one, so $J(\overline C)(k)$ surjects
+onto $\operatorname{Pic}(U)$. As $J(\overline C)(k)$ is $n$-divisible
+([sk-cor-jacobian-torsion]), so is $\operatorname{Pic}(U)$. The vanishing
+above degree one now follows from the Kummer sequence
+([lem-sc-kummer-exact]) and [sk-thm-br].
 
 The residue sequence comes from line bundles. A $\mu_n$-torsor on $U$ is a
 pair $(L,\alpha\colon L^{\otimes n}\simeq\cO_U)$. Extend $L$ to a line bundle
@@ -38,8 +34,8 @@ For surjectivity of $\partial$ onto the kernel of $\sum$, lift a residue
 vector with sum zero modulo $n$ to an integral divisor $B$ supported on $D$
 whose degree is divisible by $n$. There is a line bundle $\overline L$ with
 $\overline L^{\otimes n}\simeq\cO_{\overline C}(B)$: choose the degree first
-and then use divisibility of $J(k)$ to correct the degree-zero difference
-([sk-cor-picard-degree]). On $U$ this is a Kummer torsor with the prescribed
+and then use divisibility of $J(\overline C)(k)$ to correct the degree-zero
+difference. On $U$ this is a Kummer torsor with the prescribed
 residues. The summation map is surjective since $D$ is nonempty. This proves
 the sequence; see also (Stacks, Tag 03RR).
 
@@ -51,11 +47,3 @@ isomorphism by [sk-thm-curveestimate], and the residue groups and their
 summation maps are unchanged. The five lemma applied to the two exact
 sequences shows that the middle pullback map is an isomorphism. In
 particular no descent of line bundles from $U_{k'}$ to $U$ is needed.
-
-For the constant sheaf $\mathbf F_r$ with $r\neq\operatorname{char}k$, this
-proposition and [sk-thm-curveestimate] give $(C_1)$–$(C_8)$ of the theorem on cohomology
-of curves on smooth curves. A primitive $r$th root of unity identifies $\mathbf F_r$ with
-$\mu_r$; keeping the twist makes the pullback maps independent of that
-choice. For $(C_8)$, an open in a smooth connected proper curve is either the
-whole curve or an affine curve, with $H^2=0$; an open in a smooth affine
-curve is affine.

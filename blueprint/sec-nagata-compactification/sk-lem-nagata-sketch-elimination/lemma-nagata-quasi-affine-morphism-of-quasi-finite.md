@@ -2,7 +2,7 @@
 id = "lemma-nagata-quasi-affine-morphism-of-quasi-finite"
 kind = "lemma"
 title = "A quasi-finite morphism is quasi-affine"
-order = 195
+order = 297
 lean = ["AlgebraicGeometry.IsQuasiAffineHom.of_locallyQuasiFinite"]
 uses = ["def-nagata-quasi-affine-morphism"]
 +++

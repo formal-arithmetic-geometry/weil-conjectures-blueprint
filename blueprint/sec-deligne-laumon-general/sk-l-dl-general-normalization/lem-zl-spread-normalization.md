@@ -2,7 +2,7 @@
 id = "lem-zl-spread-normalization"
 kind = "lemma"
 title = "Spreading affine normalization to a principal open"
-order = 3168
+order = 4080
 lean = ["Algebra.FiniteType.exists_finite_aeval_away"]
 uses = ["def-weil-pbc-scheme-conventions", "def-zl-localized-coordinates"]
 +++

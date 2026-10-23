@@ -2,7 +2,7 @@
 id = "rem-ptr-sp-truncation-couple-1"
 kind = "remark"
 title = "Pointer to the properties of the truncation couple"
-order = 527
+order = 543
 uses = ["def-sp-truncation-couple"]
 +++
 In the notation of [def-sp-truncation-couple], the following holds. The

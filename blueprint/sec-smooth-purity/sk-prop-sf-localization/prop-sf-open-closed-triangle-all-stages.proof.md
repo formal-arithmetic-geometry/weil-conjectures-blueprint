@@ -7,7 +7,7 @@ uses = ["lem-fin-extension-by-zero"]
 [sk-prop-sf-open-closed-triangle] with $B=\Lambda_X=p_X^*\Lambda$. Its inverse
 images are $i^*\Lambda_X=\Lambda_Z$ and $j^*\Lambda_X=\Lambda_U$, since
 pullback of the condensed ring commutes with inverse image along $i$ and $j$
-([sk-def-sfb-pulled-back-coefficients]). The functors $i^*$, $i_*$, $j^*$,
+([det-def-sfb-pulled-back-coefficients]). The functors $i^*$, $i_*$, $j^*$,
 $j_!$ on $\Lambda$-module sheaves are exact, so they act on complexes and pass
 to derived categories without deriving. For a complex $M$ of
 $\Lambda_X$-modules representing $K$, the termwise exact sequence
@@ -33,12 +33,12 @@ vanishing gives functoriality.
 
 *Constructibility.* The pullback $j^*$ is exact and preserves constructible
 sheaves, so $j^*K\in D^b_c(U,\Lambda)$. Since $D^b_c(X,\Lambda)$ is a
-triangulated subcategory ([sk-def-sfb-bounded-constructible]), containing $K$,
+triangulated subcategory ([det-def-sfb-bounded-constructible]), containing $K$,
 it suffices to show $j_!j^*K\in D^b_c(X,\Lambda)$; then $i_*i^*K$ is in it
 as well. For $\Lambda=\mathcal O_E$ this is [sk-lem-integral-models], (3). For
 $\Lambda=E,\Qlb$ one has $D^b_c=D^b_{ctf}$, and $j_!=Rj_!$ preserves
 $D^b_{ctf}$ ([sk-thm-existence], (2)). For $\Lambda=A=A_{E,n}$ use the
-étale comparison of [sk-def-sf-setting]. Write $K\cong\nu_X^*G$ with $G$ a
+étale comparison of [def-sf-setting]. Write $K\cong\nu_X^*G$ with $G$ a
 bounded constructible complex on the étale site
 ([lem-sf-proetale-constructible-origin]); then $j_!j^{-1}G$ is bounded
 constructible, since $j_!$ is exact and carries the constructible

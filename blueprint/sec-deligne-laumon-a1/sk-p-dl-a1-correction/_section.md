@@ -1,25 +1,23 @@
 +++
 id = "sk-p-dl-a1-correction"
-kind = "proposition"
-title = "The zero-extension comparison"
-order = 3111
-uses = ["sk-p-dl-a1-middle", "sk-p-dl-a1-perverse", "sk-p-real-semi"]
+kind = "lemma"
+title = "Fourier transform of the boundary sequence"
+order = 3997
+uses = ["sk-l-dl-a1-endpoints", "sk-lem-as-properties", "sk-p-dl-a1-middle", "sk-p-real-semi", "sk-thm-inversion"]
 lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_fourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.isLisse", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.hasWeightsAtMost"]
 tags = ["sketch"]
 +++
-Let $\psi$ be nontrivial. For an irreducible lisse $M$ (nonzero, with no
-lisse subsheaves other than $0$ and $M$) which is
-nonexceptional and punctually $\iota$-pure of weight $w$, put
-$B=j_*M/j_!M$. There are ordinary sheaves $G$ and $B'$ such that
+Let $M$ be as in [sk-p-dl-a1-middle], pure of weight $w$, and let $M'$
+be its Fourier partner. Put $B=j_*M/j_!M$. Then there are sheaves
+$G,B'$ on the dual line such that
 
 $$
-\begin{gathered}
-\DLAFT_\psi(j_!M[1])\simeq G[1],\qquad
-\DLAFT_\psi(B)\simeq B'[1],\\
-0\longrightarrow B'\longrightarrow G\longrightarrow j'_*M'
-\longrightarrow0.
-\end{gathered}
+ \operatorname{FT}_\psi(j_!M)=G,
+ \qquad \operatorname{FT}_\psi(B)=B'[1],
+ \qquad
+ 0\longrightarrow B'\longrightarrow G
+        \longrightarrow j'_*M'\longrightarrow0.
 $$
 
-The correction $B'$ is lisse on the entire dual line, with weights at
+The sheaf $B'$ is lisse on the entire dual line and has weights at
 most $w$.

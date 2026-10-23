@@ -2,6 +2,7 @@
 id = "det-prop-diagonal-tower-system"
 kind = "lemma"
 title = "The torsion diagonal classes as one morphism of inverse systems"
+order = 2431
 uses = ["lem-amb-cartier-kummer-map", "sk-lem-geo-cartier"]
 +++
 Put $W=\mathbf P^1_Y\times_Y\mathbf P^1_Y$ and let

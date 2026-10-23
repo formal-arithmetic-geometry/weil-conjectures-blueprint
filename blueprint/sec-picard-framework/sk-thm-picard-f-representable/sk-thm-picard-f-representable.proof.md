@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-picard-f-representable"
-uses = ["sk-lem-picard-zero-dictionary", "sk-cor-picard-degree-g", "sk-thm-picard-rr"]
+uses = ["sk-thm-picard-rr"]
 +++
 On $C\times H_g$, normalize the universal invertible sheaf as
 
@@ -18,8 +18,8 @@ $\cN=f_{T,*}\cL$. The evaluation map $f_T^*\cN\to\cL$ is a section $s$ of
 $\cL\otimes f_T^*\cN^{-1}$. On each geometric fibre it is a nonzero
 section of the unique one-dimensional space of sections. Its zero scheme
 $D$ is thus a relative effective Cartier divisor
-([sk-lem-picard-zero-dictionary]). Riemann–Roch ([sk-thm-picard-rr],
-[sk-cor-picard-degree-g]) gives
+([det-lem-picard-zero-dictionary]). Riemann–Roch ([sk-thm-picard-rr],
+[det-cor-picard-degree-g]) gives
 
 $$
 \deg\cL_t=\chi(\cL_t)-(1-g)=1-(1-g)=g.

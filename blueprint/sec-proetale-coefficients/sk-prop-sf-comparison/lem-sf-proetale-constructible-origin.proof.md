@@ -10,8 +10,7 @@ $\epsilon^{-1}$ defines an equivalence of categories between the
 constructible sheaves of $\Lambda$-modules on $X_{\Et}$ and the
 constructible sheaves of $\Lambda$-modules on
 $X_{\mathrm{proet}}$, constructibility being the finite-partition notion
-on both sides. The coefficient ring $A=A_{E,n}$ is Noetherian, being a
-quotient of the discrete valuation ring $\mathcal O_E$, so the quoted
+on both sides. The finite coefficient ring $A$ is Noetherian, so the quoted
 statement applies with $\Lambda=A$ and
 $\epsilon^{-1}=\nu_T^*$, the comparison pullback of
 [def-weil-pbc-site-comparison-morphism]; on the étale side the

@@ -2,8 +2,8 @@
 id = "def-sfb-derived-push-hom"
 kind = "definition"
 title = "(Push)"
-order = 1742
-uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-pushpull", "sk-def-sfb-derived-extension-of-scalars", "def-sfb-mate-push-hom", "def-sfb-derived-comap-lower-star-iso"]
+order = 2616
+uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-pushpull", "det-def-sfb-derived-extension-of-scalars", "def-sfb-mate-push-hom", "def-sfb-derived-comap-lower-star-iso"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom"]
 +++
 Let $a\colon\Lambda\to\Lambda'$ be a morphism of commutative condensed rings such that for every
@@ -19,5 +19,5 @@ $$
 with $Rf_*$ the derived pushforward of module objects ([sk-def-sfb-module-derived-pushpull]):
 the mate ([def-sfb-mate-push-hom]) of the isomorphism of [def-sfb-derived-comap-lower-star-iso]
 along the adjunctions $T^X\dashv D(\operatorname{Res}_{a_X})$ and
-$T^Y\dashv D(\operatorname{Res}_{a_Y})$ ([sk-def-sfb-derived-extension-of-scalars]). It is not
+$T^Y\dashv D(\operatorname{Res}_{a_Y})$ ([det-def-sfb-derived-extension-of-scalars]). It is not
 an isomorphism in general.

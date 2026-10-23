@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-wf-boundary-stalk-invariants"
-uses = ["d-real-boundary", "def-weil-derived-pullback-tensor-hom", "def-wf-fundamental-representation", "p-real-integral", "prop-weil-pbc-strict-henselization-stalk-formula", "sk-lem-integral-models", "sk-prop-integral-criterion", "sk-prop-pe-milnor", "sk-prop-scalar-six", "sk-prop-sfb-finite-extension-compatibility", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-pe-direct-image-comparison", "sk-thm-sf-ctf-stability"]
+uses = ["d-real-boundary", "def-pe-derived-complete", "def-weil-derived-pullback-tensor-hom", "def-wf-fundamental-representation", "p-real-integral", "prop-weil-pbc-strict-henselization-stalk-formula", "sk-lem-integral-models", "sk-prop-integral-criterion", "sk-prop-pe-milnor", "sk-prop-scalar-six", "sk-prop-sfb-finite-extension-compatibility", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-pe-direct-image-comparison", "sk-thm-sf-ctf-stability"]
 +++
 Write $\mathcal F$ also for the underlying lisse $\overline{\mathbf Q}_{\ell,U}$-module
 and $V=\mathcal F_{\bar\eta}$. The strict-henselization stalk formula of
@@ -34,7 +34,7 @@ degrees.
 
 *Limit.* The stalk $\bar x^*Rj_*\mathcal F_0$ lies in $\Dbc(\bar x,\cO_E)$, since pullback
 preserves $\Dbc(-,\cO_E)$ ([sk-lem-integral-models] (3)), hence is derived complete
-([sk-prop-integral-criterion]). Its reductions modulo $\pi_E^n$ are the stalks
+([def-pe-derived-complete], [sk-prop-integral-criterion]). Its reductions modulo $\pi_E^n$ are the stalks
 $(Rj_*\mathcal F_n)_{\bar x}$, because $\bar x^*$ commutes with
 $-\otimes^{\mathbf L}_{\cO_E}\cO_E/\pi_E^n$ ([def-weil-derived-pullback-tensor-hom]) and by
 the comparison of the finite levels. So

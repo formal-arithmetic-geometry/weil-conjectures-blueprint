@@ -5,9 +5,9 @@ of    = "lem-weil-derived-direct-image-composition"
 *Condensed coefficients.* Let $\Lambda$ be a commutative condensed ring. The
 pushforward of module objects $f_*:\Mod_{\Lambda_X}\to\Mod_{\Lambda_Y}$ has
 the module pullback $f^*$ as left adjoint
-([sk-def-sfb-module-pushforward-pullback]), and $f^*$ is exact
-([sk-prop-sfb-module-pullback-exact]). Hence $f_*$ carries K-injective
-complexes [def-weil-pbc-kinjective-resolutions] to K-injective complexes: for
+([def-sfb-module-upper-lower-adjunction]), and $f^*$ is exact
+([det-prop-sfb-module-pullback-exact-main]). Hence $f_*$ carries K-injective
+complexes [def-sp-kinjective-bridge] to K-injective complexes: for
 an acyclic $B$ one has $\operatorname{Hom}(B,f_*I)=\operatorname{Hom}(f^*B,I)$,
 and $f^*B$ is acyclic. This is the argument of
 [lem-weil-pbc-direct-image-preserves-injectives], applied to complexes of
@@ -33,6 +33,16 @@ directly over the condensed ring.
 
 *Étale site.* The same argument applies verbatim on the small étale site with
 any coefficient ring (item (5)) and to sheaves of abelian groups.
+
+*Description by adjunction.* Equivalently, $c_{g,f}$ is the conjugate, under the
+adjunctions $Lf^*\dashv Rf_*$, $Lg^*\dashv Rg_*$ and $L(gf)^*\dashv R(gf)_*$, of
+the composition isomorphism $L(gf)^*\cong Lf^*\circ Lg^*$ of the derived inverse
+images: both are characterised by their compatibility with the units. In this
+form unitality and associativity of $c$ follow from those of the composition
+isomorphisms of the derived inverse images, by uniqueness of conjugates. For
+the bounded constructible categories the same conjugation, applied to the
+adjunctions between the derived inverse and direct images on bounded
+constructible complexes, gives the restricted isomorphism.
 
 Finally, for an automorphism $\sigma$ the direct image $R\sigma_*$ is
 inverse to $R(\sigma^{-1})_*$ by the identity and associativity properties.

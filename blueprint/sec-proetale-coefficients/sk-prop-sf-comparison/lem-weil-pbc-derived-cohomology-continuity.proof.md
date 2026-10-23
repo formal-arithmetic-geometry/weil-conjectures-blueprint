@@ -11,10 +11,7 @@ complementary truncation starts in degree $n+1$, and its injective resolution
 and derived sections have no cohomology in degrees at most $n$.
 
 For a single sheaf in one degree, the assertion is
-[lemma-weil-pbc-etale-cohomology-continuity]. Its proof works in
-$\Lambda$-module sheaves by the module version of
-[thm-weil-pbc-hypercover-cohomology]; its cochains and refinements are
-unchanged. Build a bounded truncation by its finite sequence of triangles
+[lemma-weil-pbc-etale-cohomology-continuity]. Build a bounded truncation by its finite sequence of triangles
 
 $$
  \tau_{\leq b-1}K_i\longrightarrow\tau_{\leq b}K_i
@@ -22,7 +19,7 @@ $$
 $$
 
 Apply derived sections at all stages and at the limit. Filtered colimits of
-modules are exact, so their long exact cohomology sequences remain exact
+abelian groups are exact, so their long exact cohomology sequences remain exact
 after taking the colimit. The five lemma, inductively in $b-a$, proves the
 comparison in all degrees for every finite truncation. The preceding
 truncation argument then gives the assertion for $K_i$. All arrows used are

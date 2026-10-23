@@ -2,7 +2,7 @@
 id = "def-nagata-rees-algebra"
 kind = "definition"
 title = "Rees algebra"
-order = 22
+order = 157
 lean = ["reesAlgebra"]
 +++
 Let $A$ be a ring and $I\subseteq A$ an ideal. The Rees algebra is

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-prop-curve-artin-schreier"
-uses = ["sk-prop-av-fixed-points", "sk-prop-av-lang-steinberg", "sk-prop-av-fixed-base-change", "sk-prop-sf-comparison"]
+uses = ["sk-prop-av-fixed-points", "sk-prop-av-lang-steinberg", "sk-prop-av-fixed-base-change", "sk-prop-sf-comparison", "sk-thm-br", "sk-thm-curveestimate", "sk-prop-curve-affine-kummer"]
 +++
 On $C_{\mathrm{ét}}$ the Artin–Schreier sequence
 
@@ -43,9 +43,3 @@ finite étale scheme, whose $k$-points and $k'$-points agree, so the pullback
 map itself is an isomorphism ([sk-prop-av-fixed-base-change]; Stacks, Tags
 0HAN, 0A3P). [sk-prop-sf-comparison] returns the statement to
 $C_{\mathrm{proét}}$.
-
-For constant $\mathbf F_p$ on smooth curves, this proposition and
-[sk-lem-curve-affine-artin-schreier] prove $(C_1)$, $(C_2)$, $(C_3)$,
-$(C_5)$ and $(C_7)$ in their respective scopes, and $(C_8)$ follows from
-$H^2=0$. The statements $(C_4)$ and $(C_6)$ concern torsion prime to the
-characteristic and say nothing in this case.

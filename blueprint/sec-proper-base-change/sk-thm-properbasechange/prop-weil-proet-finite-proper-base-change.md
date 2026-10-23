@@ -2,9 +2,10 @@
 id = "prop-weil-proet-finite-proper-base-change"
 kind = "theorem"
 title = "Finite-torsion proper base change"
-order = 1381
+order = 2032
+lean = ["AlgebraicGeometry.Etale.isIso_baseChange_of_isProper", "AlgebraicGeometry.Etale.baseChange_eq_derivedBaseChangeMapPlus", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_id", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
 tags = ["latex:proposition"]
-uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-derived-exchange-coherence", "lemma-weil-pbc-torsion-assembly", "thm-weil-pbc-bounded-below"]
+uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-derived-exchange-coherence", "thm-weil-pbc-bounded-below"]
 +++
 Let
 

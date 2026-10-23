@@ -2,12 +2,13 @@
 id = "thm-weil-pbc-site-comparison"
 kind = "theorem"
 title = "Bounded-below site comparison"
-order = 1354
+order = 1031
+lean = ["AlgebraicGeometry.ProEtale.derivedComparisonAdjunction", "AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map"]
 uses = ["def-weil-pbc-proetale-modules", "def-weil-pbc-site-comparison-morphism", "prop-weil-pbc-kinjective-resolutions-exist", "prop-weil-pbc-site-comparison-finite-level"]
 +++
-For finite $\Lambda$, the inverse image of the comparison morphism of
+For a ring $\Lambda$, the inverse image of the comparison morphism of
 [def-weil-pbc-site-comparison-morphism] is fully faithful on bounded-below
-complexes of finite-coefficient module sheaves:
+complexes of $\Lambda$-module sheaves:
 
 $$
  \nu_T^*:\Dplus(T_{\Et},\Lambda)

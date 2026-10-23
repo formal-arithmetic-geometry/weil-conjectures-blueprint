@@ -2,7 +2,7 @@
 id = "lem-coef-finite-free-extension"
 kind = "lemma"
 title = "Finite free coefficient extensions and cofinal levels"
-order = 2487
+order = 2997
 uses = ["cor-coef-finite-verdier", "def-coefficient-twists-detailed", "def-weil-derived-pullback-tensor-hom", "lem-coef-finite-closed-shriek", "lem-coef-finite-direct-image", "lem-coef-finite-dualizing", "thm-coef-finite-hom"]
 +++
 Let $E\subset L$ be a finite extension of coefficient fields,

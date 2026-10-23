@@ -3,7 +3,7 @@ id = "prop-weight-purity-ordinary"
 kind = "theorem"
 title = "Purity of ordinary cohomology"
 lean = ["AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_cohomology_adicConstant"]
-order = 3218
+order = 4098
 tags = ["latex:proposition"]
 uses = ["def-weil-frobenius-module-weights", "prop-weight-purity", "thm-weil-deligne-purity"]
 +++

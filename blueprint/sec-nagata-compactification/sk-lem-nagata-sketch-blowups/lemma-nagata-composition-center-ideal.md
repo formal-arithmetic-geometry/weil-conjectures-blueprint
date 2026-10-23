@@ -2,7 +2,7 @@
 id = "lemma-nagata-composition-center-ideal"
 kind = "lemma"
 title = "Support of the constructed composition center"
-order = 140
+order = 252
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_comp", "AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteDegree_center"]
 uses = ["def-nagata-extended-ideal", "def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement", "thm-nagata-global-blowup-proper"]
 +++

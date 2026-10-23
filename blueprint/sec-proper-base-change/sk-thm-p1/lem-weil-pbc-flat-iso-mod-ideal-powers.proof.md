@@ -2,10 +2,12 @@
 kind = "proof"
 of = "lem-weil-pbc-flat-iso-mod-ideal-powers"
 +++
-Equip B with the A-algebra structure induced by φ. Surjectivity of β₁ gives surjectivity of A → B/IB. Induct on n, starting with the zero quotient for n=0. Given a lift modulo I^n, Mathlib AdicCompletion.exists_smodEq_pow_smul_top_and_mkQ_eq corrects it modulo I^(n+1). Ideal.smul_top_eq_map identifies module quotients with the ring quotients, proving surjectivity of every βₙ. This is the coefficient-lifting argument of Algebra 051H, implemented in the private helper surjective_mkQ_pow.
+Write $\beta_n:A/I^n\to B/I^nB$ for the induced map.
 
-For J = I^n, the quotient tensor equivalence `Algebra.TensorProduct.quotIdealMapEquivTensorQuot` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/TensorProduct/Quotient.lean)), in its swapped form Algebra.TensorProduct.quotIdealMapEquivQuotTensor, identifies B/JB with (A/J) tensor_A B as an A/J-algebra. Module.Flat.baseChange and Module.Flat.of_linearEquiv give flatness of βₙ `Module.Flat, RingHom.Flat` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Flat/Basic.lean)). The private helper flat_quotientMap implements this argument.
+*Surjectivity.* Since $\beta_1$ is surjective, $B=\varphi(A)+IB$. By induction on $n$, $B=\varphi(A)+I^nB$: given $b=\varphi(a)+\sum_kx_kb_k$ with $x_k\in I^{n}$, write each $b_k=\varphi(a_k)+y_k$ with $y_k\in IB$, so that $b\in\varphi(A)+I^{n+1}B$. Hence every $\beta_n$ is surjective.
 
-For n ≥ 1, I^n ≤ I. If βₙ(a mod I^n)=0, then φ(a) belongs to IB; injectivity of β₁ implies a belongs to I. Thus ker βₙ is contained in the image of I in A/I^n. Its nth power is zero, since Ideal.map_pow identifies that power with the image of I^n. Hence ker βₙ is nilpotent.
+*Flatness.* $B/I^nB\cong(A/I^n)\otimes_AB$ as $A/I^n$-algebras, so $\beta_n$ is flat by base change.
 
-For a surjective flat ring map f, the first isomorphism theorem identifies R/ker(f) with its flat target. Thus ker(f) is pure. Mathlib Ideal.isIdempotentElem_of_pure makes it idempotent; IsIdempotentElem.pow_succ_eq shows every positive power equals it. Nilpotence forces it to be zero (the exponent-zero case forces the entire ring to be zero). RingHom.injective_iff_ker_eq_bot gives injectivity. Apply this proved private helper injective_of_flat_surjective_nilpotent_ker to βₙ and combine with its surjectivity. No short five lemma or graded-piece maps are needed. (`Module.Flat, RingHom.Flat` ([Mathlib source](https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/RingTheory/Flat/Basic.lean))).
+*Nilpotent kernel.* Let $n\ge1$. If $\beta_n(a\bmod I^n)=0$ then $\varphi(a)\in I^nB\subseteq IB$, so $a\in I$ by injectivity of $\beta_1$. Thus $\ker\beta_n$ is contained in the image of $I$ in $A/I^n$, whose $n$-th power is zero.
+
+*Injectivity.* For a surjective flat ring map $f:R\to R'$, $R/\ker f\cong R'$ is flat over $R$, so $\ker f$ is a pure ideal, hence idempotent; all its positive powers equal it. If moreover $\ker f$ is nilpotent, it is zero. Applied to $\beta_n$, this shows $\beta_n$ is injective, hence an isomorphism.

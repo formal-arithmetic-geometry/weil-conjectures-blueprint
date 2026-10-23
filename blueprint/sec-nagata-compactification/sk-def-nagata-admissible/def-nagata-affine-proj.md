@@ -2,7 +2,7 @@
 id = "def-nagata-affine-proj"
 kind = "definition"
 title = "Affine Proj"
-order = 18
+order = 153
 lean = ["AlgebraicGeometry.Proj", "AlgebraicGeometry.Proj.toSpecZero"]
 uses = ["def-nagata-homogeneous-localization-degree-zero"]
 +++

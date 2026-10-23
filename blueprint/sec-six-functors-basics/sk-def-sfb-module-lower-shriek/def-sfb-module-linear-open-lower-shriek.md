@@ -2,19 +2,19 @@
 id = "def-sfb-module-linear-open-lower-shriek"
 kind = "definition"
 title = "Linear extension by zero"
-order = 1695
-uses = ["lem-sfb-open-projection-formula", "sk-def-sfb-transport", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-module-objects"]
+order = 2537
+uses = ["lem-sfb-open-projection-formula", "det-def-sfb-transport", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-module-objects"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.linearOpenImmersionLowerShriek"]
 +++
 Let $\Lambda$ be a commutative condensed ring and $j\colon U\to X$ an open immersion.
-With $\Lambda_X=p_X^*\Lambda$ ([sk-def-sfb-pulled-back-coefficients]) and module
-objects as in [sk-def-sfb-module-objects], the *linear extension by zero*
+With $\Lambda_X=p_X^*\Lambda$ ([det-def-sfb-pulled-back-coefficients]) and module
+objects as in [det-def-sfb-module-objects], the *linear extension by zero*
 
 $$
 j^{\mathrm{lin}}_!\colon\Mod_{j^*\Lambda_X}\to\Mod_{\Lambda_X}
 $$
 
-is the linearization ([sk-def-sfb-transport]) of the extension by zero $j^{\Ab}_!$ of
+is the linearization ([det-def-sfb-transport]) of the extension by zero $j^{\Ab}_!$ of
 abelian sheaves through the projection formula of [lem-sfb-open-projection-formula]:
 it sends a $j^*\Lambda_X$-module $M$ to $j^{\Ab}_!M$ with the $\Lambda_X$-action
 

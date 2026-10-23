@@ -3,7 +3,7 @@ id = "prop-nagata-strict-transform-closed-fiber-product"
 kind = "theorem"
 title = "Global strict transform is a closed subscheme"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.StrictTransformChart.comap_ker_strictTransformι", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransformChartModel_eq", "AlgebraicGeometry.Scheme.IdealSheafData.comap_strictTransformChartModel"]
-order = 165
+order = 276
 tags = ["latex:proposition"]
 uses = ["def-nagata-strict-transform", "def-nagata-strict-transform-closed-chart-model"]
 +++

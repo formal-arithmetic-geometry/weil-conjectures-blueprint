@@ -3,7 +3,7 @@ id = "lem-sf-twist-interchange"
 kind = "lemma"
 title = "Internal Hom with an invertible twist"
 lean = ["AlgebraicGeometry.Etale.exists_isLocallyConstantSheaf_tateObject", "AlgebraicGeometry.Etale.isIso_derivedHomTensorMap_tateObject", "AlgebraicGeometry.Etale.nonempty_iso_derivedHom_tateObject_shift"]
-order = 2520
+order = 3365
 uses = ["def-coefficient-twists-detailed", "def-sf-datum", "def-weil-derived-pullback-tensor-hom", "lem-sf-hom-finite-projective", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
 +++
 In the setting of [def-sf-datum], let $K$ be perfect over

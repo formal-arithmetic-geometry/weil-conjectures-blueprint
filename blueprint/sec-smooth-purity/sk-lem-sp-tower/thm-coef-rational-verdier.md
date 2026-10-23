@@ -2,12 +2,12 @@
 id = "thm-coef-rational-verdier"
 kind = "theorem"
 title = "Verdier biduality over a finite coefficient field"
-order = 2495
-uses = ["sk-def-sf-setting", "sk-thm-existence", "sk-lem-integral-models", "sk-thm-sfb-rationalization-comparison", "sk-prop-scalar-six", "sk-prop-sfb-finite-extension-compatibility", "lem-coef-integral-finite-extension", "lem-coef-integral-residue-tor", "thm-coef-integral-verdier"]
+order = 3002
+uses = ["def-sf-setting", "sk-thm-existence", "sk-lem-integral-models", "sk-thm-sfb-rationalization-comparison", "sk-prop-scalar-six", "sk-prop-sfb-finite-extension-compatibility", "lem-coef-integral-finite-extension", "lem-coef-integral-residue-tor", "thm-coef-integral-verdier"]
 +++
 Let $E/\Ql$ be finite, $a:X\to\operatorname{Spec}k$ the structure map, and
 $\omega_{X,E}=Ra^!_EE\in D^b_c(X,E)$ the dualizing object of the condensed
-category $D^b_c(X,E)$ ([sk-def-sf-setting], [sk-thm-existence]). Put
+category $D^b_c(X,E)$ ([def-sf-setting], [sk-thm-existence]). Put
 
 $$
 D_{X,E}K=R\mathcal Hom_{E_X}(K,\omega_{X,E}).

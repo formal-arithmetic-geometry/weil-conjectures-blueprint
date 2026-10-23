@@ -2,6 +2,7 @@
 id = "det-cor-affine-space-rational-induction"
 kind = "lemma"
 title = "Affine space of any dimension and preservation of $D^b_c$"
+order = 2444
 uses = ["det-cor-affine-space-rational-line", "sk-lem-sf-mate"]
 +++
 Let $\Lambda=E$ or $\Qlb$ and $p:\mathbf A^d_V\to V$ the projection. Then

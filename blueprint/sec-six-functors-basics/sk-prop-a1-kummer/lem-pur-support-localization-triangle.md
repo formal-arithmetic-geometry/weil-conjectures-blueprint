@@ -2,8 +2,8 @@
 id = "lem-pur-support-localization-triangle"
 kind = "theorem"
 title = "Localization triangle for the exceptional inverse image"
-order = 2277
-uses = ["def-pur-flasque-support", "def-pur-support-triangle", "def-pur-triangle-meaning", "def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-weil-pbc-kinjective-resolutions", "lem-pur-support-exact"]
+order = 2823
+uses = ["def-pur-flasque-support", "def-pur-support-triangle", "def-pur-triangle-meaning", "def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-sp-kinjective-bridge", "lem-pur-support-exact"]
 +++
 Let $s:Z\hookrightarrow X$, $j:U\hookrightarrow X$ be the
 closed–open pair, and let $K$ be

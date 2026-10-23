@@ -7,7 +7,7 @@ $i:X_K\to\mathbf P^N_K$ with $i^*\mathcal{O}_{\mathbf P^N}(1)=\mathcal{L}_K$. Th
 sections $x_1,\dots,x_N$ of $\mathcal{O}_{\mathbf P^N}(1)$ pull back to
 sections $s_j$ of $\mathcal{L}_K$ which $K$-linearly generate
 $H^0(X_K,\mathcal{L}_K)=H^0(X,\mathcal{L})\otimes_kK$
-([lem-sc-flat-base-change-coherent]; the finite generation of the
+([lem-pc-flat-base-change-cohom]; the finite generation of the
 sections of $i^*\mathcal{O}(1)$: the morphism $i$ is the morphism of the
 sections; more precisely the immersion $i$ is given by base point free
 sections $t_0,\dots,t_N\in H^0(X_K,\mathcal{L}_K)$ separating points and

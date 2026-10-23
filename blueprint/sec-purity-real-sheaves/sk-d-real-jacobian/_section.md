@@ -1,29 +1,33 @@
 +++
 id = "sk-d-real-jacobian"
-kind = "definition"
-title = "Jacobian torsion data and Kummer coefficients"
-order = 2950
-uses = ["sk-d-real-cohom", "sk-d-real-setup", "sk-def-av-jacobian", "sk-def-av-pic"]
+kind = "proposition"
+title = "Kummer, duality and the integral Tate module"
+order = 3826
+uses = ["sk-cor-jacobian-torsion", "sk-def-av-jacobian", "sk-prop-av-tate-rank", "sk-prop-jacobian-descent", "sk-thm-curveestimate", "sk-thm-sf-identification"]
 lean = ["AlgebraicGeometry.JacobianTorsionDatum", "AlgebraicGeometry.JacobianTorsionDatum.tateModule"]
 tags = ["sketch"]
 +++
-For a proper smooth geometrically integral curve $C_0/\Fq$, write
-$C=C_0\times_{\Fq}k$ using geometric base change.
-The group $\operatorname{Pic}(C)$ consists of line bundles up to
-isomorphism, with tensor product as addition. A Jacobian torsion datum
-is an abelian variety $J_0/\Fq$ (a smooth proper geometrically connected
-commutative group scheme) with Galois-equivariant isomorphisms
+Let $C_0/k_0$ be a smooth proper geometrically connected curve with
+Jacobian $J_0$, and put $C=C_0\times_{k_0}k$, $J=J_0\times_{k_0}k$ and
+$A_n=\mathbf Z/\ell^n$. There are canonical compatible Galois-equivariant
+identifications
 
 $$
-J[\ell^n]\simeq\operatorname{Pic}(C)[\ell^n],\qquad
-J[\ell^n]=\ker(\ell^n:J_0(k)\to J_0(k)),
+ H^1(C,A_n(1))\simeq J[\ell^n](k),\qquad
+ \varprojlim_n H^1(C,A_n)
+  \simeq\Hom_{\Zl}(T_\ell J,\Zl).
 $$
 
-compatible with multiplication by $\ell$ and tensor power by $\ell$.
-Put $T_\ell J=\varprojlim_nJ[\ell^n]$ and $V_\ell J=T_\ell J\otimes\Ql$.
-The etale sheaf $\mathbf G_m$ is the sheaf of units, and
-$\mu_m=\ker(u\mapsto u^m)$.
-The roots-of-unity system $(\mu_{\ell^n},z\mapsto z^\ell)$ defines
-$\mathbf Z_\ell(1)$; invert $\ell$ and extend coefficients to obtain
-$E(1)$. Geometric Frobenius acts on this line by $q^{-1}$, agreeing
-with the cohomological Tate convention.
+The transition on the first right-hand side is multiplication by $\ell$;
+the transition on $H^1(C,A_n)$ is coefficient reduction. If arithmetic
+Frobenius on $T_\ell J$ has matrix $B$, geometric Frobenius on the last
+displayed dual has matrix $B^t$ in the dual basis.
+
+*Complement.* The data used are a *Jacobian torsion datum*: an abelian
+variety $J_0/\Fq$ with Galois-equivariant isomorphisms
+$J[\ell^n]\simeq\operatorname{Pic}(C)[\ell^n]$, compatible with
+multiplication by $\ell$ and the $\ell$-th tensor power, and its Tate modules
+$T_\ell J=\varprojlim_nJ[\ell^n]$, $V_\ell J=T_\ell J\otimes\Ql$; the roots of
+unity $(\mu_{\ell^n},z\mapsto z^\ell)$ define $\Zl(1)$, on which geometric
+Frobenius acts by $q^{-1}$ ([lem-wf-curve-kummer-jacobian-tate-module],
+[lem-wf-geometric-jacobian-galois-action]).

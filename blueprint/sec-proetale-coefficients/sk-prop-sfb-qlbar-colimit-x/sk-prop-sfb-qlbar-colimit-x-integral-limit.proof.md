@@ -20,7 +20,7 @@ $\varprojlim_n(\cO_E/\pi_E^n)_X$ by Step 1. This proves (1).
 *Step 3: the pullback of a representable condensed set.* The condensed set underlying
 $\underline{\cO_E}$ is $S\mapsto C(S,\cO_E)=\Hom_{\mathrm{cont}}(S,\cO_E)$, i.e. it is
 represented by the profinite set $\cO_E$ in $*_{\mathrm{proét}}$. By
-[sk-def-sfb-pullback-from-point], $p_X^*$ is the inverse image along the continuous,
+[det-def-sfb-pullback-from-point], $p_X^*$ is the inverse image along the continuous,
 finite-limit preserving functor $u_X\colon S\mapsto X[S]$. Such an inverse image sends the
 sheaf represented by $S$ to the sheafification of the presheaf represented by $u_X(S)$,
 and since $X_{\mathrm{proét}}$ is subcanonical this is the sheaf represented by

@@ -4,7 +4,7 @@ of    = "lem-sf-hom-triangulated"
 +++
 Choose a K-injective resolution $I\to M$, which exists by
 [prop-weil-pbc-kinjective-resolutions-exist] and
-[def-weil-pbc-kinjective-resolutions]. By
+[def-sp-kinjective-bridge]. By
 [def-weil-derived-pullback-tensor-hom] the object
 $R\mathcal Hom_A(K,M)$ is represented by the Hom-complex
 $\mathcal Hom^\bullet_A(K,I)$, and represent the first variable by a

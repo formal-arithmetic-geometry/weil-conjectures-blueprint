@@ -2,17 +2,17 @@
 id = "sk-prop-sfb-finite-extension-compatibility"
 kind = "proposition"
 title = "Compatibility for $E\\subseteq F$ and $E\\subseteq\\Qlb$"
-order = 1690
+order = 2572
 uses = ["sk-def-sfb-coefficient-comparisons"]
-lean = ["AlgebraicGeometry.ProEtale.padicSubfieldRingObjMap", "AlgebraicGeometry.ProEtale.padicSubfieldRingObjToPadicAlgCl", "AlgebraicGeometry.ProEtale.padicSubfieldRingObjMap_comp_toPadicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_extendScalars_padicSubfieldRingObjMap", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_extendScalars_padicSubfieldRingObjToPadicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_padicSubfieldRingObjMap", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_padicSubfieldRingObjToPadicAlgCl_of_isProper"]
+lean = ["AlgebraicGeometry.ProEtale.padicSubfieldRingObjMap", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_extendScalars_padicSubfieldRingObjMap", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_padicSubfieldRingObjMap", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_padicSubfieldRingObjToPadicAlgCl_of_isProper"]
 tags = ["sketch"]
 +++
 Let $\ell$ be a prime and $E\le F$ finite extensions of $\mathbf Q_\ell$ inside $\Qlb$. Apply
 [sk-def-sfb-coefficient-change] to the inclusions of condensed rings
 $\underline E\to\underline F$ and $\underline E\to\underline{\Qlb}$
-([sk-def-sfb-condensed-ring], [sk-def-sfb-qlbar-condensed], [sk-prop-sfb-qlbar-colimit-point]):
+([det-def-sfb-condensed-ring], [det-def-sfb-qlbar-condensed], [det-prop-sfb-qlbar-colimit-point]):
 on a scheme $X$ they give coefficient changes $E_X\to F_X$ and $E_X\to\overline{\mathbf Q}_{\ell,X}$ between the
-pulled-back coefficient rings ([sk-def-sfb-pulled-back-coefficients]), with
+pulled-back coefficient rings ([det-def-sfb-pulled-back-coefficients]), with
 $E_X\to F_X\to\overline{\mathbf Q}_{\ell,X}$ equal to $E_X\to\overline{\mathbf Q}_{\ell,X}$, and derived extensions of scalars
 
 $$

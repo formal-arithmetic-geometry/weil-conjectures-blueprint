@@ -3,7 +3,7 @@ id = "pqf-lem-coherent-ft-locnoeth"
 kind = "lemma"
 title = "Coherence on locally Noetherian schemes"
 lean = ["AlgebraicGeometry.Scheme.Modules.isFiniteTypeWithFiniteTypeKernels_iff"]
-order = 544
+order = 560
 uses = ["pqf-def-coherent", "pqf-def-locnoeth"]
 +++
 Let $X$ be a

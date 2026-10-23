@@ -2,7 +2,7 @@
 id = "lem-a1-geometric-coinvariants-pure"
 kind = "lemma"
 title = "Purity of the geometric coinvariants"
-order = 3074
+order = 3978
 uses = ["def-weil-frobenius-module-weights", "def-weil-punctual-weights", "def-wf-fundamental-representation", "p-linear-filtration"]
 lean = ["AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_geometricCoinvariants"]
 +++

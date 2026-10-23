@@ -2,6 +2,7 @@
 id = "det-sp-purity-coefficient-change"
 kind = "proposition"
 title = "Purity and the smooth trace under change of coefficients"
+order = 2865
 uses = ["det-sp-integral-adjunction-bijection", "det-sp-integral-direct-image-tower", "det-sp-normalized-equivalence", "det-sp-tower-gamma", "det-sp-tower-gluing", "det-sp-reduction-compatibilities", "det-sp-rational-localized-hom", "det-sp-rational-adjunction", "det-sp-field-extension-towers", "det-sp-qbar-adjunction"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$ and $E/\Ql$ finite.
@@ -10,7 +11,7 @@ isomorphism of [sk-thm-purity-transport], $\varepsilon_{f,\Lambda}$ for the coun
 of $Rf_{!,\Lambda}\dashv f^!_\Lambda$, and
 $\operatorname{Tr}_{f,\Lambda}=\varepsilon_{f,\Lambda}\circ Rf_{!,\Lambda}(\gamma_{f,\Lambda})$
 for the smooth trace of [sk-def-sp-trace]. All categories are the condensed
-categories $\Dbc(-,\Lambda)$ of [sk-def-sf-setting].
+categories $\Dbc(-,\Lambda)$ of [def-sf-setting].
 
 1. *Reduction to finite coefficients.* Let $K\in\Dbc(Y,\mathcal O_E)$ and
    $n\ge1$, and write $(-)_n=-\otimes^{\mathbf L}_{\mathcal O_E}\mathcal O_E/\ell^n$.

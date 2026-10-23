@@ -2,7 +2,7 @@
 id = "rem-trf-decomposition-summary"
 kind = "remark"
 title = "Decomposition summary"
-order = 2746
+order = 3554
 uses = ["cor-trf-point-counting", "det-thm-tf-uniform-formula-weil", "sk-prop-tf-transport-integral", "sk-lem-tf-rational-model", "sk-thm-tf-uniform-formula", "def-trf-categorical-trace", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-frobenius-operators", "def-trf-global-operator", "def-trf-graph-correspondence", "def-trf-integration", "def-trf-local-term", "def-trf-strict-weil-complex", "def-trf-trace-class", "lem-trf-adjoint-mate", "lem-trf-chain-supertrace", "prop-trf-fixed-square-cartesian", "prop-trf-graph-frobenius-operator", "prop-trf-graph-operator", "prop-trf-trace-class-additivity", "prop-trf-trace-formal-laws", "rem-trf-classical-framework", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change", "thm-trf-fixed-point-localization", "thm-trf-frobenius-fixed-points", "thm-trf-frobenius-local-term", "thm-trf-grothendieck-lefschetz-finite-ring", "thm-trf-internal-hom-pullback", "thm-trf-lefschetz-verdier", "thm-trf-verdier-biduality", "thm-trf-verdier-duality"]
 +++
 The chapter extracts the two trace-formula inputs of the Weil-conjecture

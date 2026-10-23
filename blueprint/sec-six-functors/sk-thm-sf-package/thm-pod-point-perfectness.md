@@ -2,12 +2,12 @@
 id = "thm-pod-point-perfectness"
 kind = "theorem"
 title = "Point perfectness of global sections"
-order = 2593
-uses = ["cor-sf-direct-image-ctf-proetale", "def-compact-support-direct-image-detailed", "def-pod-perfect-point-complex", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-ordinary-compact-cohomology", "lem-coef-integral-residue-tor", "lem-trf-finite-tor-amplitude-perfect", "prop-trf-compact-support-perfectness", "sk-def-sf-setting", "sk-lem-finite", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
+order = 3402
+uses = ["cor-sf-direct-image-ctf-proetale", "def-compact-support-direct-image-detailed", "def-pod-perfect-point-complex", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-ordinary-compact-cohomology", "lem-coef-integral-residue-tor", "lem-trf-finite-tor-amplitude-perfect", "prop-trf-compact-support-perfectness", "def-sf-setting", "sk-lem-finite", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Fix the finite-field datum and the admissible coefficient rings
 $\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$ of
-[sk-def-sf-setting], regarded as condensed rings, and let $X_0$ be an arbitrary
+[def-sf-setting], regarded as condensed rings, and let $X_0$ be an arbitrary
 separated finite-type $k_0$-scheme: neither properness nor smoothness
 of $X_0$ is assumed. Put $X=X_0\times_{k_0}k$, let
 $a_X:X\to s=\Spec k$ be the structure morphism, and let

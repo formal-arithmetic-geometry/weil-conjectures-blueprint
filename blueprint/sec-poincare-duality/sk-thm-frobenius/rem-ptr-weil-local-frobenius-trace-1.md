@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-local-frobenius-trace-1"
 kind = "remark"
 title = "Pointer to the properties of the local Frobenius"
-order = 2774
+order = 3434
 uses = ["def-weil-local-frobenius-trace", "lem-weil-local-frobenius-conjugacy-class"]
 +++
 In the notation of [def-weil-local-frobenius-trace], the following holds. The

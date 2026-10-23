@@ -2,14 +2,13 @@
 kind  = "proof"
 of    = "lem-weil-extension-by-zero-exact"
 +++
-In the presheaf construction of [def-weil-extension-by-zero], kernels are
-computed objectwise: on an object over $U$ this is the kernel of the
-corresponding section map, and on other objects it is zero. Sheafification of
-module presheaves is exact, so $j_!$ preserves kernels on the module sheaves
-of [def-weil-finite-torsion-constructibility]. For an epimorphism $M\to N$, a
-section of $P_N(V)$ is either zero or a section of $N(V)$ with $V$ over $U$.
-In the latter case it lifts on a covering of $V$ in $U_{\mathrm{proet}}$.
-This is also a covering in the ambient site of
-[def-weil-pbc-proetale-site]. Thus $P_M\to P_N$ is locally
-surjective; after sheafification it is an epimorphism. Preservation of
-kernels and epimorphisms proves exactness.
+By [lem-weil-extension-by-zero-adjunction], $j_!$ is a left adjoint, so it
+preserves all colimits, in particular finite ones. For finite limits use the
+presheaf construction of [def-weil-extension-by-zero]: finite limits of
+presheaves are computed objectwise, and on an object over $U$ the presheaf
+is the corresponding value of the given sheaf, while on other objects it is
+zero. Hence the presheaf construction preserves finite limits. Sheafification
+of $\mathcal A$-valued presheaves preserves finite limits, since filtered
+colimits are exact in the Grothendieck abelian category $\mathcal A$. So
+$j_!$ preserves finite limits, and an additive functor between abelian
+categories preserving finite limits and finite colimits is exact.

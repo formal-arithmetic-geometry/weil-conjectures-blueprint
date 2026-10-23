@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-prop-pbc-complete"
-uses = ["sk-cor-pbc-proet-finite", "sk-def-pe-derived-completion", "det-pbc-complete-towers", "det-pbc-complete-tower-calculus", "lemma-weil-pbc-completed-pullback-reduction", "prop-weil-pbc-direct-image-limits", "det-pbc-complete-exchange-map", "det-pbc-complete-exchange-iso"]
+uses = ["sk-cor-pbc-proet-finite", "sk-def-pe-derived-completion", "det-pbc-complete-derived-completion", "lemma-weil-pbc-completed-pullback-reduction", "prop-weil-pbc-direct-image-limits", "det-pbc-complete-exchange-map", "det-pbc-complete-exchange-iso"]
 +++
 Derived completeness identifies $K$ with $R\varprojlim_nK_n$. The quotient
 $\mathcal O_E/\pi_E^n$ has the two-term finite free resolution
@@ -17,7 +17,7 @@ $$
 ([prop-weil-pbc-direct-image-limits] (2)). These maps are compatible along the
 coefficient tower; more precisely they form an isomorphism of towers in the
 derived category of towers of $\mathcal O_E$-module sheaves
-([det-pbc-complete-towers]). Taking derived limits gives
+([det-pbc-complete-derived-completion]). Taking derived limits gives
 
 $$
 g^*_{\mathrm{comp}}Rp_*K\simeq R\varprojlim_ng^*Rp_*K_n,\qquad
@@ -32,8 +32,7 @@ $g^*Rp_*K_n\to Rp'_*g'^*K_n$ ([det-pbc-complete-exchange-map]), which are
 isomorphisms in $D^+(Y'_{\mathrm{proét}},\mathcal O_E/\pi_E^n)$ by
 [sk-cor-pbc-proet-finite]. The comparison of towers is therefore an
 isomorphism in the derived category of towers of $\mathcal O_E$-module sheaves
-on $Y'_{\mathrm{proét}}$, since its cone has zero cohomology at every level
-([det-pbc-complete-tower-calculus] (2)), and applying $R\varprojlim$ proves the
+on $Y'_{\mathrm{proét}}$, since its cone has zero cohomology at every level, and a complex of towers with zero cohomology at every level is zero, and applying $R\varprojlim$ proves the
 claim ([det-pbc-complete-exchange-iso]).
 
 Equivalently, one may work over the constant sheaf $\mathcal O_E$ and apply
@@ -48,5 +47,5 @@ that $Rp_*K$ is again constructible. All inverse images in the proposition
 are then already complete, and it becomes the ordinary exchange isomorphism
 $g^*Rp_*K\xrightarrow{\sim}Rp'_*g'^*K$ between objects of
 $\Dbc(Y',\mathcal O_E)$, for $K\in\Dbc(X,\mathcal O_E)$.
-[sk-thm-sfb-proper-base-change] proves this finiteness, carries out this
-comparison ([det-pbc-complete-constructible]) and treats $E$ and $\Qlb$.
+This finiteness, this comparison and the cases of $E$ and $\Qlb$ are proved
+later, in [sk-thm-sfb-proper-base-change] (see [det-pbc-complete-constructible]).

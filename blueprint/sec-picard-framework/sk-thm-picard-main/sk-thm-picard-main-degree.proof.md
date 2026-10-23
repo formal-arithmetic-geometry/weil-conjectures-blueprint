@@ -4,7 +4,7 @@ of    = "det-picard-main-degree"
 +++
 (1) The projection $\pi:C\times\underline{\operatorname{Pic}}_{C/k}\to\underline{\operatorname{Pic}}_{C/k}$
 is proper, flat and of finite presentation, and $\cL$ is invertible,
-hence flat over the base. By [sk-thm-picard-coherence] (a), every point
+hence flat over the base. By [det-thm-picard-coherence] (a), every point
 has an affine neighbourhood $U$ on which $R\pi_*\cL$ is represented by a
 bounded complex $K^\bullet$ of finite free modules whose formation
 commutes with base change; so for $t\in U$,

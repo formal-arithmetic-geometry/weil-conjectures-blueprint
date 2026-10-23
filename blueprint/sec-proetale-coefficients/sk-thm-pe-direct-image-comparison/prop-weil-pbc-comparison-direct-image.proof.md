@@ -2,91 +2,54 @@
 kind  = "proof"
 of    = "prop-weil-pbc-comparison-direct-image"
 +++
-Specify the map before proving it invertible. By the pullback identification
-of [lem-weil-pbc-comparison-pullback], the counit for the etale adjunction
-gives
+*The underived map.* For etale $E\to V$ both $\nu_{V,*}u_{\Proet,*}G$ and
+$u_{\Et,*}\nu_{U,*}G$ are $E\mapsto G(E\times_VU)$, as in the proof of
+[lem-weil-pbc-comparison-pullback]. Let
+$\beta_F:\nu_V^*u_{\Et,*}F\to u_{\Proet,*}\nu_U^*F$ be the mate of this
+identification under the adjunctions $\nu^*\dashv\nu_*$ of
+[def-weil-pbc-site-comparison-morphism]; it is natural in the etale sheaf $F$
+on $U$. We show that $\beta_F$ is an isomorphism. This is local on $V$, so take
+$V$ affine. By [lem-weil-pbc-ind-etale-basis] it suffices to evaluate on the
+basis objects [def-weil-pbc-ind-etale-basis]. Let $W=\varprojlim_iW_i$ be one,
+with $W_i\to V$ affine etale of finite presentation, and put
+$U_i=U\times_VW_i$ and $U_W=U\times_VW=\varprojlim_iU_i$. The $U_i$ are
+quasi-compact, quasi-separated and etale over $U$, because $u$ is
+quasi-compact and quasi-separated, and the transition maps are affine. By
+[lem-weil-pbc-comparison-sections],
 
 $$
- u_{\Proet}^*\nu_V^*Ru_{\Et,*}L
- \simeq\nu_U^*u_{\Et}^*Ru_{\Et,*}L
- \longrightarrow\nu_U^*L.
+ (\nu_V^*u_{\Et,*}F)(W)=\varinjlim_i(u_{\Et,*}F)(W_i)=\varinjlim_iF(U_i).
 $$
 
-Its mate under the adjunction of the pro-etale operations is the map
-$\alpha_L$ in the statement. Both sides are bounded below; inverse images are
-exact and right derived direct images preserve lower bounds.
+On the other side $(u_{\Proet,*}\nu_U^*F)(W)=(\nu_U^*F)(U_W)$. Restricted to
+$U_W$, the sheaf $\nu_U^*F$ is computed by the same section formula on the
+cofiltered system $(U_i)$, and continuity of sections
+[lem-weil-pbc-etale-section-continuity] gives
+$(\nu_U^*F)(U_W)=\varinjlim_iF(U_i)$. These identifications are compatible with
+$\beta_F(W)$, which is therefore bijective. Hence $\beta$ is an isomorphism.
 
-The assertion is local on $V$, so take $V$ affine. Let $W=\varprojlim_i W_i$
-be an arbitrary affine ind-etale basis object, with $W_i\to V$ affine etale
-of finite presentation, and put $U_i=U\times_VW_i$, $U_W=U\times_VW$. The
-schemes $U_i$ are quasi-compact and quasi-separated because $u$ is, and their
-transition maps are affine. Pullback compatibility and
-[lem-weil-pbc-comparison-global-cohomology] identify the degree-$n$ derived
-sections of the source with
+*Acyclicity of pulled-back injectives.* Let $I$ be an injective etale module
+sheaf on $U$. The higher direct images $R^qu_{\Proet,*}\nu_U^*I$ are the
+sheafifications of $W\mapsto H^q(U_{W,\Proet},(\nu_U^*I)|_{U_W})$ on the basis
+objects $W$, by [lem-weil-pbc-proetale-restriction-injectives]. For $q>0$ these
+groups vanish: by [lem-weil-pbc-comparison-global-cohomology] they are the etale
+cohomology groups $H^q(U_{W,\Et},I|_{U_W})$, by
+[lem-weil-pbc-derived-cohomology-continuity] these are
+$\varinjlim_iH^q(U_{i,\Et},I|_{U_i})$, and each $I|_{U_i}$ is injective by
+[lem-weil-pbc-etale-restriction-injectives]. So $\nu_U^*I$ is acyclic for
+$u_{\Proet,*}$.
 
-$$
- H^nR\Gamma\bigl(W_{\Et},(Ru_{\Et,*}L)|_W\bigr).
-$$
-
-Apply the continuity of derived cohomology first on $W=\varprojlim_iW_i$ and
-then on $U_W=\varprojlim_iU_i$. They give the two outer identifications in
-
-$$
- \begin{split}
- H^nR\Gamma\bigl(W_{\Et},(Ru_{\Et,*}L)|_W\bigr)
- &\simeq\varinjlim_i
-       H^nR\Gamma\bigl(W_{i,\Et},(Ru_{\Et,*}L)|_{W_i}\bigr)\\
- &\simeq\varinjlim_i H^nR\Gamma(U_{i,\Et},L|_{U_i})\\
- &\simeq H^nR\Gamma(U_{W,\Et},L|_{U_W}).
- \end{split}
-$$
-
-The middle identification is derived evaluation of the direct image. Indeed
-an injective resolution on $U_{\Et}$ restricts to an injective resolution on
-$U_i$ by the etale-restriction lemma; direct image preserves injectives since
-its inverse image is exact. Evaluation of that resolution gives precisely the
-same section complex on the two sides.
-
-By [lem-weil-pbc-comparison-global-cohomology], the last group is
-$H^nR\Gamma(U_{W,\Proet},(\nu_U^*L)|_{U_W})$. By
-[lem-weil-pbc-proetale-restriction-injectives], this in turn is
-
-$$
- H^nR\Gamma(W_{\Proet},Ru_{\Proet,*}\nu_U^*L),
-$$
-
-the derived sections of the target. For this last equality use a pro-etale
-injective resolution on $U$; its restriction to $U_W$ is injective, and its
-direct image is injective because $u_{\Proet}^*$ is exact.
-
-We check that the isomorphism just calculated is induced by $\alpha_L$.
-Represent $L$ by an etale injective complex $I^\bullet$, and resolve
-$\nu_U^*I^\bullet$ by a pro-etale injective complex $J^\bullet$. The mate is
-represented by the map $\nu_V^*u_{\Et,*}I^\bullet\to u_{\Proet,*}J^\bullet$
-adjoint to the pulled-back counit followed by $\nu_U^*I^\bullet\to
-J^\bullet$. Each $u_{\Et,*}I^r$ is injective on $V_{\Et}$. Hence
-[lem-weil-pbc-comparison-injective-acyclicity] makes $\nu_V^*u_{\Et,*}I^r$
-acyclic for sections on every basis object $W$. Bounded-below acyclic
-resolutions thus allow derived sections of the source to be computed by
-evaluating this very complex; the target complex is already injective.
-Moreover [lem-weil-pbc-comparison-sections] identifies its source section
-complex with $\varinjlim_i\Gamma(U_i,I^\bullet)$. This justifies checking the
-named map on these models. At a finite stage $W_i$, evaluation of that counit
-is the identity on sections of $I^\bullet$ on $U_i$. Restricting to $W$ gives
-exactly the canonical restriction from $U_i$ to $U_W$ followed by the global
-cohomology comparison. The identifications above are natural in these
-restriction maps. On taking the filtered colimit they therefore compute
-$H^nR\Gamma(W,\alpha_L)$, not an unspecified isomorphism between the same
-groups.
-
-Thus $\alpha_L$ is an isomorphism on derived sections of every basis object,
-in every degree. [lem-weil-pbc-basis-derived-detection] proves it is an
-isomorphism of complexes. For identity morphisms its defining mate is the
-identity. For a composite, the counit is the composite of the two counits
-after the usual associativity identifications; applying the displayed mate
-formula gives the composite of the two comparison maps. The triangle
-identities remove the inserted unit--counit pairs. This proves the
-composition law, while naturality in $L$ follows from naturality of the
-counit and the coherent pullback identification. See
+*The derived map.* Represent $L$ by a bounded-below complex $I^\bullet$ of
+injective etale module sheaves. Then $Ru_{\Et,*}L=u_{\Et,*}I^\bullet$, and
+$\nu_V^*$ is exact, so $\nu_V^*Ru_{\Et,*}L=\nu_V^*u_{\Et,*}I^\bullet$. The
+complex $\nu_U^*I^\bullet$ represents $\nu_U^*L$ and is a bounded-below
+complex of $u_{\Proet,*}$-acyclic sheaves, so
+$Ru_{\Proet,*}\nu_U^*L=u_{\Proet,*}\nu_U^*I^\bullet$ (the derived functors are
+those of [def-weil-pbc-proetale-operations]; the inverse images are exact by
+[prop-weil-pbc-inverse-image-exact] and, applied with $\mathcal A=\Mod_\Lambda$
+on sheaves of $\Lambda$-modules, [lem-sfb-finite-upper-star-exact]).
+Applied termwise, the isomorphism $\beta$ gives the asserted isomorphism. By
+construction it is the base-change morphism of right derived functors induced
+by $\beta$, hence natural in $L$. See
 [Stacks Project, Section 61.19](https://stacks.math.columbia.edu/tag/099R)
 for the comparison's standard setting.

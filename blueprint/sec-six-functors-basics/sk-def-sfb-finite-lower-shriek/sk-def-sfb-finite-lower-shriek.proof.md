@@ -2,7 +2,7 @@
 kind  = "proof"
 of    = "sk-def-sfb-finite-lower-shriek"
 +++
-The extension by zero is [def-sfb-finite-extension-by-zero]. It is left adjoint to $j^*$
+The extension by zero is [def-weil-extension-by-zero]. It is left adjoint to $j^*$
 by [def-sfb-finite-extension-by-zero-adjunction], exact by
 [lem-sfb-finite-extension-by-zero-exact] and fully faithful by
 [lem-sfb-finite-extension-by-zero-fully-faithful]. The functors $f_!^c$ and $f_!$ are

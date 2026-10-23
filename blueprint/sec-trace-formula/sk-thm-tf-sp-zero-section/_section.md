@@ -2,7 +2,7 @@
 id = "sk-thm-tf-sp-zero-section"
 kind = "theorem"
 title = "Verdier's zero-section specialization theorem"
-order = 2649
+order = 3584
 uses = ["sk-lem-tf-sp-dnc-functorial", "sk-lem-tf-sp-constant-family", "sk-thm-pe-constructible-comparison", "sk-cor-pe-finite-tor-comparison", "sk-lem-tf-sp-defect-exchanges", "sk-lem-tf-sp-generic-divisor"]
 tags = ["sketch"]
 +++

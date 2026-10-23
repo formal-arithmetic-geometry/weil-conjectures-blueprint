@@ -2,6 +2,7 @@
 id = "det-sbc-product-square"
 kind = "lemma"
 title = "The constant family as a smooth base change"
+order = 2500
 +++
 Let $X$ be of finite type over $k$ with structure morphism $a:X\to\operatorname{Spec}k$, let
 $S$ be smooth of finite type over $k$ with structure morphism $b:S\to\operatorname{Spec}k$, and

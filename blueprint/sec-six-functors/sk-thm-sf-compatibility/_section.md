@@ -2,11 +2,11 @@
 id = "sk-thm-sf-compatibility"
 kind = "theorem"
 title = "Compatibility of the six operations"
-order = 2423
-uses = ["sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sk-def-sf-exchanges", "sk-def-sf-operations", "sk-def-sf-setting", "sk-def-sf-categories", "sk-prop-scalar-six", "sk-def-sf-orientation", "sk-lem-sf-mate", "sk-prop-cohsm", "sk-prop-sf-biduality-general", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-prop-sfb-module-derived-factorization", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange"]
+order = 3410
+uses = ["sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sk-def-sf-exchanges", "sk-prop-sf-open-closed-triangle", "sk-def-purity-conv", "sk-def-sf-categories", "sk-prop-scalar-six", "sk-def-sf-orientation", "sk-lem-sf-mate", "sk-prop-cohsm", "sk-prop-sf-biduality-general", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-prop-sfb-module-derived-factorization", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange"]
 tags = ["sketch"]
 +++
-Fix an admissible coefficient ring $\Lambda$ of [sk-def-sf-setting],
+Fix an admissible coefficient ring $\Lambda$ of [def-sf-setting],
 regarded as a condensed ring, so that the categories are the full
 subcategories $\Dctf(X,\Lambda)\subseteq D(X_{\mathrm{pro\acute et}},\Lambda)$ of
 [sk-def-sf-categories], and the six operations

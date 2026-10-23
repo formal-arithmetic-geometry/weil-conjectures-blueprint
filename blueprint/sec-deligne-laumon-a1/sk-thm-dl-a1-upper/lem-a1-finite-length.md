@@ -3,7 +3,7 @@ id = "lem-a1-finite-length"
 kind = "lemma"
 title = "Finite length of a lisse Weil sheaf on a curve"
 lean = ["AlgebraicGeometry.WeilSheaf.IsLisse.induction_on_shortExact"]
-order = 3136
+order = 4021
 uses = ["sk-lem-coefficient-heart", "def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes"]
 +++
 Let $C_0$ be a smooth geometrically connected curve and let

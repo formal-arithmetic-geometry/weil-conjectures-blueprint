@@ -2,7 +2,7 @@
 id = "sk-prop-int-brown"
 kind = "proposition"
 title = "Compactly supported direct image and its adjoint"
-order = 1572
+order = 2471
 uses = ["sk-prop-sf-existence", "sk-thm-sfb-proper-base-change", "sk-prop-int-compactness", "sk-cor-int-compactness-ii"]
 tags = ["sketch"]
 +++

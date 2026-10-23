@@ -23,7 +23,7 @@ effective Cartier divisor: locally $D=\operatorname{Spec}(B/(f))$ with $B$ finit
 presented over $A$). The fibres $D_s$ are effective Cartier divisors
 on the smooth one-dimensional $X_s$, hence finite unions of closed
 points with their Artinian structures
-([def-sc-effective-cartier-divisor] and the local theory of
+([def-nagata-invertible-ideal] and the local theory of
 [rem-pc-regularity-sc]: the fibre of a relative effective Cartier
 divisor is an effective Cartier divisor, and on a smooth curve those
 are the finite unions of closed points, [lem-sc-cartier-divisor-points]); hence $D_s$ is finite, so

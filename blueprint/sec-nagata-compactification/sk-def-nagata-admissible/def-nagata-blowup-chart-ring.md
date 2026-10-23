@@ -3,7 +3,7 @@ id = "def-nagata-blowup-chart-ring"
 kind = "definition"
 title = "Affine blow-up chart algebra"
 lean = ["AlgebraicGeometry.AffineBlowup.chartRing"]
-order = 34
+order = 169
 +++
 Let $A$ be a ring, $I\subseteq A$ an ideal and $a\in A$ (in the blow-up
 charts, $a\in I$). Define $A[I/a]$ to be the $A$-subalgebra of $A_a$

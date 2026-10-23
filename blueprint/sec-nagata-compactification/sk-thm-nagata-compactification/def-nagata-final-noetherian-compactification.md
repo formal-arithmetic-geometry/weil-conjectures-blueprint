@@ -3,7 +3,7 @@ id = "def-nagata-final-noetherian-compactification"
 kind = "definition"
 title = "Noetherian compactification used in the final assembly"
 lean = ["AlgebraicGeometry.descendedModelCompactification"]
-order = 382
+order = 73
 uses = ["def-nagata-final-descended-model", "def-nagata-noetherian-compactification", "lemma-nagata-final-descended-model"]
 +++
 For $Y\to S$ as in [def-nagata-final-descended-model], define

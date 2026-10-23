@@ -1,14 +1,12 @@
 +++
 id = "sk-thm-dl-general-sheaf"
 kind = "theorem"
-title = "Deligne–Laumon direct-image bound"
-order = 3189
+title = "Direct image of a mixed sheaf"
+order = 4082
 lean = ["AlgebraicGeometry.hasDirectImageWeightBound_over_finiteField"]
-uses = ["sk-d-dl-general-weights", "sk-i-topology", "sk-l-dl-general-normalization"]
+uses = ["sk-d-real-weights", "sk-thm-sf-comp-composition", "sk-thm-sf-ctf-stability", "sk-l-dl-general-normalization", "sk-l-dl-general-quasifinite", "sk-prop-wgen-relative-line"]
 tags = ["sketch"]
 +++
-Let $f_0:X_0\to Y_0$ be a separated finite-type morphism of
-$k_0$-schemes, with $Y_0$ separated of finite type over $k_0$. For every
-constructible Weil sheaf $F_0$ on $X_0$ that is $\iota$-mixed of weights
-at most $w$, $R^rf_{0!}F_0$ is $\iota$-mixed of weights at most $w+r$
-for every $r\ge0$.
+Let $f:X_0\to Y_0$ be separated of finite type and let $F$ be mixed
+of weights at most $w$. Then $R^if_!F$ is mixed of weights at most
+$w+i$ for every $i$.

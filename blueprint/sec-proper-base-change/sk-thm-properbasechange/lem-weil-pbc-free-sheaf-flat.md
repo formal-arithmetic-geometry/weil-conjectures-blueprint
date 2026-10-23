@@ -2,6 +2,8 @@
 id = "lem-weil-pbc-free-sheaf-flat"
 kind = "lemma"
 title = "The sheafified free presheaf on a representable with flat coefficients is flat (j_{X!} of a constant flat sheaf is flat)"
+lean = ["CategoryTheory.GrothendieckTopology.free_sheaf_flat", "CategoryTheory.Sheaf.freeYoneda"]
+order = 2014
 uses = ["lem-weil-pbc-sheaf-tensor-closed"]
 tags = ["stacks-03EV"]
 +++

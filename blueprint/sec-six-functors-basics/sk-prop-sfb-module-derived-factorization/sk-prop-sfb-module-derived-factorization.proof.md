@@ -7,7 +7,7 @@ uses = []
 [lem-sfb-module-mapmod-pullback-kflat] together with
 [prop-sfb-module-left-derived-upper-star-iso]. (3) is
 [prop-sfb-module-left-derived-upper-star-levelwise], which uses the exactness of
-$f^*$ ([sk-prop-sfb-module-pullback-exact]). (4) is
+$f^*$ ([det-prop-sfb-module-pullback-exact-main]). (4) is
 [prop-sfb-module-left-derived-upper-star-comp]. (5) is
 [prop-sfb-module-derived-pushpull-adjunction-plus]. (6) is
 [prop-sfb-module-derived-open-adjunction] and

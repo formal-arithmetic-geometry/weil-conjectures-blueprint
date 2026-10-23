@@ -2,7 +2,7 @@
 id = "lemma-nagata-two-open-valuative-lifting"
 kind = "lemma"
 title = "Valuative lifting for the two-open candidate"
-order = 310
+order = 401
 lean = ["AlgebraicGeometry.TwoOpenPreparation.FinalModification.valuativeCriterion_relativeTo"]
 uses = ["def-nagata-compactifiable", "def-nagata-two-open-compactification-candidate", "def-nagata-two-open-final-modification", "lemma-nagata-proper-separated-valuation-extension", "lemma-nagata-two-open-final-modification"]
 +++

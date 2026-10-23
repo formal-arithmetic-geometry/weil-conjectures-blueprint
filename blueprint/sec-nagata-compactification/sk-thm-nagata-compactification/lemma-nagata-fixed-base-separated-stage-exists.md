@@ -2,7 +2,7 @@
 id = "lemma-nagata-fixed-base-separated-stage-exists"
 kind = "lemma"
 title = "Existence of a separated stage over a fixed base"
-order = 400
+order = 89
 lean = ["AlgebraicGeometry.Scheme.exists_isSeparated_app_of_isLimit"]
 +++
 Let $X=\varprojlim_\alpha X_\alpha$ over a base $S$, where the terms are

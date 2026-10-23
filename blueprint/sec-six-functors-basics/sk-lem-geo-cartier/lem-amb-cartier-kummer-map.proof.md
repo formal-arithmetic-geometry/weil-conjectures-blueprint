@@ -46,7 +46,7 @@ All the cone maps and Kummer boundaries commute with pullback
 of the pair and its trivialized line bundle. This proves the
 asserted base-change compatibility whenever the pulled-back
 pair is again the Cartier pair of
-[def-sc-effective-cartier-divisor].
+[def-nagata-invertible-ideal].
 Finally apply derived scalar extension from $\mathbf Z/n$
 to $A$. Its source is $i_*A_D$, as seen on stalks,
 and its target is $A_T(1)[2]$ by

@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "cor-zl-hasse-bound"
-uses = ["cor-trf-point-counting", "prop-cohomological-finiteness", "prop-endpoints", "def-weil-frobenius-coefficient-twists", "lem-sc-primitive-root", "def-sc-mu-trivialization", "def-sc-kummer-sequence", "lem-sc-kummer-les", "def-sc-pic0", "thm-sc-jacobian-representability", "def-wf-abelian-tate-module", "prop-av-tate-rank", "sk-def-sfb-pulled-back-coefficients", "sk-prop-sfb-qlbar-colimit-x", "det-pe-continuous-cohomology-milnor", "sk-prop-scalar-six", "prop-weight-purity-roots"]
+uses = ["cor-trf-point-counting", "prop-cohomological-finiteness", "prop-endpoints", "def-weil-frobenius-coefficient-twists", "lem-sc-primitive-root", "def-sc-mu-trivialization", "def-sc-kummer-sequence", "lem-sc-kummer-les", "def-sc-pic0", "thm-sc-jacobian-representability", "def-wf-abelian-tate-module", "prop-av-tate-rank", "det-def-sfb-pulled-back-coefficients", "sk-prop-sfb-qlbar-colimit-x", "det-pe-continuous-cohomology-milnor", "sk-prop-scalar-six", "prop-weight-purity-roots"]
 +++
 Step 1: the point-count identity. The scheme $C_0$ is proper, so by
 [cor-trf-point-counting] applied to the constant Weil sheaf,
@@ -54,7 +54,7 @@ obtained from them as consequences of the condensed theory. Let
 $a:C\to\operatorname{Spec}k$ be the structure morphism and
 $M^q=H^q(C,\mathbf Z_\ell)=H^q(Ra_*\mathbf Z_{\ell,C})$, with
 $\mathbf Z_{\ell,C}=p_C^*\mathbf Z_\ell\cong\varprojlim_r(\mathbf Z/\ell^r)_C$
-([sk-def-sfb-pulled-back-coefficients], [sk-prop-sfb-qlbar-colimit-x]), a
+([det-def-sfb-pulled-back-coefficients], [sk-prop-sfb-qlbar-colimit-x]), a
 limit of classical sheaves with epimorphic transition maps. The groups
 $H^0(C,\mathbf Z/\ell^r)$ are finite, so the Milnor sequence of
 [det-pe-continuous-cohomology-milnor] gives

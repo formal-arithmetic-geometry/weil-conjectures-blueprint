@@ -2,4 +2,4 @@
 kind = "proof"
 of = "k1-constant-mod-sheaf-prime-coefficient-identification"
 +++
-The characteristic-r simplification shows Ideal.span {(r : ULift (ZMod r))} = bottom. Apply Submodule.quotEquivOfEqBot, convert the linear equivalence with LinearEquiv.toModuleIso, and map this isomorphism through constantSheaf. The result has the required source by unfolding Etale.constantModSheaf.
+Since $r=0$ in $\Lambda$, the ideal $r\Lambda$ is zero, so the quotient map $\Lambda\to\Lambda/r\Lambda$ is an isomorphism of $\Lambda$-modules. Applying the constant-sheaf functor to this isomorphism gives the required isomorphism of sheaves.

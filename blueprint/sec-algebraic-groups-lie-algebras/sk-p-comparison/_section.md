@@ -1,21 +1,42 @@
 +++
 id = "sk-p-comparison"
-kind = "proposition"
-title = "Group–Lie comparison"
-order = 2840
-uses = ["sk-d-geometry", "sk-d-lie", "sk-d-tangent", "sk-i-cartier", "sk-p-geometry"]
+kind = "lemma"
+title = "Stable subspaces and the center"
 lean = ["AlgebraicGeometry.GeneralLinearGroup.invariant_iff_differential_invariant", "AlgebraicGeometry.GeneralLinearGroup.range_lieAlgebraMap_identityComponent_center"]
+order = 3708
+uses = ["sk-i-cartier", "sk-p-geometry"]
 tags = ["sketch"]
 +++
-Let $k$ be algebraically closed of characteristic zero and let $G$ be a
-connected matrix algebraic group over $k$.
-For a rational representation $r:G\to\GL(M)$, $M=k^m$,
-a subspace $U\subseteq M$ is invariant under $G(k)$ if and only if it is
-invariant under $dr(\Lie(G))$. Moreover,
+For a matrix group $G\subseteq\GL(V)$, define $\Lie(G)$ by its
+dual-number points at $1$:
 
 $$
-\Lie\bigl(Z(G)^\circ\bigr)=Z\bigl(\Lie(G)\bigr),
+X\in\Lie(G)
+\quad\Longleftrightarrow\quad
+1+\epsilon X\in G(L[\epsilon]/\epsilon^2).
 $$
 
-as subspaces of $\Lie(G)$ via the differential of the inclusion
-$Z(G)^\circ\subseteq G$.
+The bracket is $[X,Y]=XY-YX$. To see that $\Lie(G)$ is closed under the
+bracket, note that over $L[\epsilon,\eta]/(\epsilon^2,\eta^2)$ the
+commutator of $1+\epsilon X$ and $1+\eta Y$ is $1+\epsilon\eta[X,Y]$. The
+differential of a representation $r\colon G\to\GL(M)$ is characterized by
+
+$$
+r(1+\epsilon X)=1+\epsilon\,dr(X).
+$$
+
+These formulas show that $dr$ is a Lie algebra homomorphism.
+
+Let $G$ be a connected algebraic group and $r\colon G\to\GL(M)$ an
+algebraic representation. A subspace of $M$ is $G$-stable if and only if
+it is $\Lie(G)$-stable. Moreover
+
+$$
+\Lie\bigl(Z(G)^\circ\bigr)=Z\bigl(\Lie(G)\bigr).
+$$
+
+*Complement.* For a connected closed subgroup $G\subseteq\GL_n$ over $L$
+and a rational representation $r\colon G\to\GL_m$, both statements hold
+with the Lie algebras computed by dual numbers as above, $\Lie(Z(G)^\circ)$
+being regarded as a subspace of $\Lie(G)$ via the differential of the
+inclusion $Z(G)^\circ\subseteq G$.

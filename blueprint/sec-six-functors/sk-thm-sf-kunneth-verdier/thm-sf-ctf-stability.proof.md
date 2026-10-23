@@ -76,7 +76,7 @@ the exceptional comparison is [lem-coef-finite-exceptional].
 Their proofs compare the specified evaluations and adjunction maps.
 
 For $\Lambda=\mathcal O_E,E,\Qlb$, the equality $D^b_c=D^b_{ctf}$ is
-[sk-def-sf-setting] (for $\mathcal O_E$ also [lem-coef-integral-residue-tor]).
+[lem-integral-ctf-equals-bc] (for $\mathcal O_E$ also [lem-coef-integral-residue-tor]).
 Preservation of $D^b_c$ by the operations, including general internal Hom
 and the exceptional adjoint, is [sk-thm-sf-ctf-stability], with the
 exceptional adjoint from [sk-thm-existence]; for integral internal

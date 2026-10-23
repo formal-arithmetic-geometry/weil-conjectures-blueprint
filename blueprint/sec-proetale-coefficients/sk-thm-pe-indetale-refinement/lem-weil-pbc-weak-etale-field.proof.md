@@ -8,8 +8,8 @@ $c\in(b)$. If $b$ is a nonunit, $1-c$ is a unit, so $b=0$. All local rings of
 $B$ are therefore fields; in particular $B$ is reduced.
 
 We first treat a weakly etale field extension $k\subset L$. By
-[lem-weil-pbc-ind-etale-stability] and the Tor formula, $L\otimes_kL$ also
-has every module flat. For any subfield $E\subset L$ containing $k$, the map
+[lem-weil-pbc-ind-etale-stability], $L\to L\otimes_kL$ is weakly etale, so by
+[lem-weil-pbc-weak-etale-tor] $L\otimes_kL$ also has every module flat. For any subfield $E\subset L$ containing $k$, the map
 $E\otimes_kE\to L\otimes_kL$ is faithfully flat. Flatness of every module
 descends along a faithfully flat ring map, by the tensor criterion for
 injectivity. Thus $E\otimes_kE$ has every module flat. If $t\in L$ were

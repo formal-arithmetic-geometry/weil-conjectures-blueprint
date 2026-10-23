@@ -2,6 +2,7 @@
 id = "det-thm-sf-pf-adic-projection"
 kind = "lemma"
 title = "The integral proper projection formula"
+order = 2479
 uses = ["sk-lem-int-tensor", "sk-prop-int-compactness", "sk-lem-sf-determination"]
 +++
 Let $p:X\to Y$ be proper.

@@ -2,7 +2,7 @@
 id = "pqf-lem-locnoeth-lft"
 kind = "lemma"
 title = "Finite type over a locally Noetherian base"
-order = 543
+order = 559
 lean = ["AlgebraicGeometry.LocallyOfFiniteType.isLocallyNoetherian"]
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-locnoeth"]
 +++

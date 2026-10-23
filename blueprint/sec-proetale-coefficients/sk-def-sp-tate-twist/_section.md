@@ -2,8 +2,9 @@
 id = "sk-def-sp-tate-twist"
 kind = "definition"
 title = "Tate twists"
-order = 742
-uses = ["sk-prop-sfb-qlbar-colimit-x", "sk-def-sfb-pulled-back-coefficients"]
+order = 1236
+uses = ["sk-prop-sfb-qlbar-colimit-x", "sk-prop-sf-open-closed-triangle"]
+lean = ["AlgebraicGeometry.ProEtale.rootsOfUnitySheaf", "AlgebraicGeometry.ProEtale.tateModule", "AlgebraicGeometry.ProEtale.tateTwistOne", "AlgebraicGeometry.ProEtale.tateTwist", "AlgebraicGeometry.ProEtale.tateTwistFunctor"]
 tags = ["sketch"]
 +++
 Let $X$ be a scheme on which $\ell$ is invertible. Let $\mu_{\ell^n,X}$ be the sheaf of
@@ -18,7 +19,9 @@ $$
 \cO_{E,X}(1)=\varprojlim_n(\cO_E/\ell^n)_X(1),
 $$
 and obtain $E_X(1)$ and $\QbarX(1)$ by inverting $\ell$ and passing to the colimit over $E$
-(compare [sk-prop-sfb-qlbar-colimit-x]). Each $\Lambda_X(1)$ is locally free of rank one.
+(compare [sk-prop-sfb-qlbar-colimit-x]); equivalently,
+$\QbarX(1)=\QbarX\otimes_{\mathbf Z_{\ell,X}}\mathbf Z_{\ell,X}(1)$ with
+$\mathbf Z_{\ell,X}(1)=\varprojlim_n\mu_{\ell^n,X}$. Each $\Lambda_X(1)$ is locally free of rank one.
 For $d\ge0$, $\Lambda_X(d)$ is the $d$-fold tensor power, $\Lambda_X(-d)$ its dual, and
 $$
 K(d)=K\otimes^{\mathbf L}_{\Lambda_X}\Lambda_X(d)

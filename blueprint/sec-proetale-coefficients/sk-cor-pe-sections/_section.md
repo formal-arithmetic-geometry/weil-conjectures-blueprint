@@ -2,7 +2,8 @@
 id = "sk-cor-pe-sections"
 kind = "corollary"
 title = "A conservative family preserving all module colimits"
-order = 714
+order = 968
+lean = ["CategoryTheory.GrothendieckTopology.exact_iff_of_forall_exists", "CategoryTheory.GrothendieckTopology.epi_iff_of_forall_exists", "AlgebraicGeometry.ProEtale.isZero_iff_forall_isWeaklyContractible", "AlgebraicGeometry.ProEtale.acyclic_iff_forall_isWeaklyContractible"]
 uses = ["sk-thm-pe-weakly-contractible-basis", "sk-cor-pe-wc-sections", "sk-def-pe-weak-contractible"]
 tags = ["sketch"]
 +++
@@ -14,9 +15,9 @@ all limits and all colimits of $\mathcal R$-modules.
 
 The quasi-compactness used here is quasi-compactness as an object of the site: coverings
 admit finite refinements. Affine objects of $X_{\mathrm{proét}}$ have this property. Over a
-quasi-compact, quasi-separated object, the quasi-compact, quasi-separated subsite with
-finite covers is a coherent site. In topos terminology an object $P$ is coherent if it is
-quasi-compact and $V\times_PV$ is quasi-compact for every quasi-compact object $V$ mapping
-to $P$. Together with the affine refinements, this provides the local coherent projective
-objects required for $\Sh(X_{\mathrm{proét}})$ to be a *locally weakly contractible* topos
-in the sense of the companion pro-étale blueprint.
+quasi-compact, quasi-separated object, the quasi-compact, quasi-separated objects with
+finite covers form a coherent site. In the terminology of topoi, an object $P$ is coherent
+if it is quasi-compact and $V\times_PV$ is quasi-compact for every quasi-compact object $V$
+mapping to $P$. The affine weakly contractible objects are coherent and projective, and they
+cover every object. In the terminology of the companion pro-étale blueprint this says that
+$\Sh(X_{\mathrm{proét}})$ is a *locally weakly contractible* topos.

@@ -39,7 +39,7 @@ Cech cocycles, $(g_{ij})\mapsto(g_{ij}^p)$ is $p$-linear).
 Likewise, over $k'$, $H^1(C_{k'},\mathbf F_p)\cong\ker(F'-1)$
 for the base-changed map $F'$ on
 $H^1(C_{k'},\mathcal O_{C_{k'}})$. By
-[lem-sc-flat-base-change-coherent],
+[lem-pc-flat-base-change-cohom],
 $H^1(C_{k'},\mathcal O_{C_{k'}})\cong H^1(C,\mathcal O_C)\otimes_kk'$, compatibly with Frobenius (the
 Cech computation is functorial in the base field), so
 $F'=F\otimes\sigma_{k'}$, and the pullback map

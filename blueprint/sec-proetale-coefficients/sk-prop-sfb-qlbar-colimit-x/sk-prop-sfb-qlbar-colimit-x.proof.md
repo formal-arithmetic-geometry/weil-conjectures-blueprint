@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-prop-sfb-qlbar-colimit-x"
-uses = ["sk-prop-sfb-qlbar-colimit-point", "sk-def-sfb-pullback-from-point", "def-sfb-integers-to-subfield"]
+uses = ["sk-prop-pe-condensed-point", "def-sfb-integers-to-subfield"]
 +++
 *First isomorphism.* On the point, $\underline{\cO_E}$ is represented by the profinite set
 $\cO_E=\varprojlim_n\cO_E/\pi_E^n$, so its pullback to $X$ is represented by the
@@ -17,7 +17,7 @@ get the second isomorphism, along the map $\cO_{E,X}\to E_X$ of
 [def-sfb-integers-to-subfield]. Details: [det-prop-sfb-qlbar-colimit-x-invert-ell].
 
 *Third isomorphism.* In the same way, $\underline{\Qlb}=\varinjlim_E\underline E$ on the
-point ([sk-prop-sfb-qlbar-colimit-point]), and $p_X^*$ preserves this colimit. The ring
+point ([det-prop-sfb-qlbar-colimit-point]), and $p_X^*$ preserves this colimit. The ring
 objects $E_X$ and $\QbarX$ are [def-sfb-subfield-coefficient-ring] and
 [def-sfb-qlbar-coefficient-ring], and the colimit cocone is [def-sfb-qlbar-x-cocone]; it is
 the image under the left adjoint $p_X^*$ of a colimit cocone, hence a colimit cocone.

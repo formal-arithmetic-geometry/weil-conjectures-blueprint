@@ -2,7 +2,7 @@
 id = "lem-sp-derived-well-defined"
 kind = "lemma"
 title = "Well-definedness of right derived functors"
-order = 508
+order = 524
 lean = ["CategoryTheory.InjectiveResolution.isoRightDerivedObj", "CategoryTheory.Functor.rightDerivedZeroIsoSelf", "CategoryTheory.IsGrothendieckAbelian.enoughInjectives"]
 uses = ["def-sp-grothendieck-abelian", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "lem-sp-grothendieck-enough-injectives"]
 +++

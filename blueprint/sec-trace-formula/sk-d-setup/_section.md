@@ -2,7 +2,7 @@
 id = "sk-d-setup"
 kind = "definition"
 title = "Coefficients and geometric categories"
-order = 2660
+order = 3621
 lean = ["AlgebraicGeometry.ProEtale.GeometricCoefficients"]
 tags = ["sketch"]
 +++

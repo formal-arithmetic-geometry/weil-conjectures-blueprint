@@ -2,8 +2,8 @@
 id = "sk-thm-curve-package"
 kind = "theorem"
 title = "Cohomology of curves over an algebraically closed field"
-order = 879
-uses = ["sk-def-pbc-curve-assertions", "sk-prop-sf-comparison", "sk-thm-pe-classical-sheaves"]
+order = 1338
+uses = ["sk-lem-curve-dense-open", "sk-prop-sf-comparison", "sk-thm-pe-classical-sheaves"]
 tags = ["sketch"]
 +++
 *Conventions.* Cohomology means cohomology on $C_{\mathrm{proét}}$, and the
@@ -16,7 +16,7 @@ cohomology.
 Let $k$ be algebraically closed, $C$ a separated scheme of finite type over
 $k$ of dimension at most one, and $F$ a classical torsion abelian sheaf on
 $C_{\mathrm{proét}}$. The following statements hold (compare
-[sk-def-pbc-curve-assertions]).
+[def-weil-pbc-eight-curve-assertions]).
 
 - $(C_1)$ $H^q(C,F)=0$ for $q>2$.
 - $(C_2)$ If $C$ is affine, $H^q(C,F)=0$ for $q>1$.

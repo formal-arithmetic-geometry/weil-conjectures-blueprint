@@ -2,10 +2,10 @@
 id = "pur713-def-upper-shriek"
 kind = "definition"
 title = "Finite-coefficient exceptional inverse image"
-order = 1811
-uses = ["sk-def-sf-operations"]
+order = 2867
+uses = ["det-def-sf-operations"]
 +++
-For $f:X\to Y$ with chosen compactification $c_f=(j_f,p_f)$ and the adjoint of Input “Finite-coefficient proper-adjoint input” (`pur713-input-proper-adjoint`, in [sk-def-sf-operations]) for $p_f$, define
+For $f:X\to Y$ with chosen compactification $c_f=(j_f,p_f)$ and the adjoint of Input “Finite-coefficient proper-adjoint input” (`pur713-input-proper-adjoint`, in [det-def-sf-operations]) for $p_f$, define
 
 $$
 Rf^!_{\mathcal O_E/\pi_E^n}:=\mathrm D(j^*_{f,\mathcal O_E/\pi_E^n})\circ Rp^!_{f,\mathcal O_E/\pi_E^n}:

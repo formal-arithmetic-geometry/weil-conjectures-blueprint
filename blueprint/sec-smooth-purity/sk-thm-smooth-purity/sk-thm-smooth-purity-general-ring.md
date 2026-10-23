@@ -2,6 +2,7 @@
 id = "det-sp-finite-general-ring"
 kind = "lemma"
 title = "Smooth purity over an arbitrary finite coefficient ring"
+order = 2967
 uses = ["thm-pur-diagonal-dualizing-object", "thm-pur-cohomological-smoothness", "det-sp-reduction-exceptional", "det-sp-scalar-extension-functor"]
 +++
 Let $A$ be a finite commutative ring with $\ell^nA=0$, and let $f:X\to Y$ be

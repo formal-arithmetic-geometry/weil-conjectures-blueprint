@@ -2,27 +2,27 @@
 id = "sk-def-set"
 kind = "definition"
 title = "The fixed setting"
-order = 2753
-uses = ["sk-def-sf-operations", "sk-def-sf-setting", "sk-def-sfb-pulled-back-coefficients", "sk-def-sfb-bounded-constructible", "sk-thm-existence", "sk-prop-sf-existence", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-ctf-stability"]
+order = 3442
+uses = ["sk-prop-sf-open-closed-triangle", "sk-def-purity-conv", "sk-thm-existence", "sk-prop-sf-existence", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-ctf-stability"]
 lean = ["AlgebraicGeometry.PoincareDualitySetting"]
 tags = ["sketch"]
 +++
 Work with the finite-field datum $(p,a,q,k_0,k)$, $\ell$, $E$, $\Oe$,
 $\pi_E$, $\AEn=\Oe/\pi_E^n$ and the admissible coefficient rings
-$\Lambda\in\{\AEn,\Oe,E,\Qlb\}$ fixed in [sk-def-sf-setting], each
+$\Lambda\in\{\AEn,\Oe,E,\Qlb\}$ fixed in [def-sf-setting], each
 regarded as a condensed ring. For a scheme $T$ in this setting the ambient
 category is $D(T_{\mathrm{pro\acute et}},\Lambda)$, the derived category of
-$\Lambda_T=p_T^*\Lambda$-modules ([sk-def-sfb-pulled-back-coefficients]),
+$\Lambda_T=p_T^*\Lambda$-modules ([det-def-sfb-pulled-back-coefficients]),
 and the coefficients are its full subcategories
 $\Dctf(T,\Lambda)\subseteq\Dbc(T,\Lambda)$ of
-[sk-def-sfb-bounded-constructible]; for $\Lambda=\Oe,E,\Qlb$ the two agree.
+[det-def-sfb-bounded-constructible]; for $\Lambda=\Oe,E,\Qlb$ the two agree.
 For finite $\Lambda=\AEn$ these are equivalently the étale categories, by the
-comparison of [sk-def-sf-setting]. Let $X_0/k_0$ be smooth of relative
+comparison of [def-sf-setting]. Let $X_0/k_0$ be smooth of relative
 dimension $d$, separated of finite type and geometrically connected, put
 $X=X_0\times_{k_0}k$ and $s=\Spec k$, and let $a_X:X\to s$ be the
 structure morphism. No admissibility hypothesis is imposed on $a_X$: its
 exceptional inverse image $Ra_X^!$ is the constructible exceptional adjoint
-of [sk-def-sf-operations](vi), the right adjoint of $Ra_{X!}$ on
+of [det-def-sf-operations](vi), the right adjoint of $Ra_{X!}$ on
 $\Dctf$ given by [sk-thm-existence], which exists and preserves
 $\Dctf$ for every admissible $\Lambda$ and every separated finite-type morphism
 ([thm-sf-ambient-adjoint-class], [sk-prop-sf-rf-shriek-preservation],

@@ -2,7 +2,7 @@
 id = "sk-thm-geo-generic-open"
 kind = "theorem"
 title = "Generic constructibility and base change for $Rj_*$"
-order = 1552
+order = 2381
 tags = ["sketch"]
 +++
 Let $S$ be integral of finite type over the standing field $k$, let

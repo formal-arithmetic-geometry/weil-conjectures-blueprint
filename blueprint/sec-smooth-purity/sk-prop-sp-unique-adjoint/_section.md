@@ -2,7 +2,7 @@
 id = "sk-prop-sp-unique-adjoint"
 kind = "proposition"
 title = "Comparison with any other right adjoint"
-order = 1828
+order = 3026
 uses = ["sk-prop-sf-existence"]
 tags = ["sketch"]
 +++

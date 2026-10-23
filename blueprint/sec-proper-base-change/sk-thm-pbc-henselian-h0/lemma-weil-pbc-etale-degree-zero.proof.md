@@ -2,107 +2,55 @@
 kind  = "proof"
 of    = "lemma-weil-pbc-etale-degree-zero"
 +++
-Put $S=\operatorname{Spec}A$, $S_0=\operatorname{Spec}(A/I)$, and
-$Y_0=Y\times_SS_0$. Two preliminary remarks. *(i)* The underlying space of
-$Y$ is spectral [def-weil-pbc-scheme-conventions]: $Y\to S$ is proper, hence
-separated and of finite type, hence quasi-compact and quasi-separated, and
-the underlying space of any scheme is sober with a basis of quasi-compact
-(affine) opens. *(ii)* $Y_0\subseteq Y$ is closed: $S_0\hookrightarrow S$ is
-a closed immersion, and closed immersions are stable under base change
-([lem-weil-pbc-closed-immersion-products]). The proof has two stages.
+Naturality in $F$ holds because $i^\sharp$ is the unit $F\to i_*i^{-1}F$
+evaluated on $Y$ [def-weil-pbc-finite-section-pullback]. Whether $i^\sharp$ is
+bijective only depends on the underlying abelian sheaves, so we may assume that
+$F$ is an abelian sheaf. Put $S=\operatorname{Spec}A$. Two facts are used
+throughout. *(a)* For every finite $h:Y'\to Y$ the composite $Y'\to S$ is proper
+(finite morphisms are proper, [lem-weil-pbc-finite-proper]), so by
+[lemma-weil-pbc-stein-connectedness] the space $Y'$ is spectral, its closed fibre
+$Y'_0=Y'\times_SS_0$ is closed, and every irreducible closed subset of $Y'$ meets
+$Y'_0$ in a nonempty connected subset. *(b)* In particular every nonempty closed
+subset of $Y'$ meets $Y'_0$, since the image in $S$ of a nonempty closed subset
+is closed, hence contains a maximal ideal, which contains $I$ because $I$ lies in
+the Jacobson radical.
 
-*Stage 1: the Zariski comparison, on $Y$ and on all its finite covers* (this
-is Stacks Project, Tag [0A0B](https://stacks.math.columbia.edu/tag/0A0B),
-Lemma 59.91.1). First apply [lemma-weil-pbc-stein-connectedness] to the
-henselian pair [def-weil-pbc-henselian-terminology] and the proper morphism
-$Y\to S$; both hypotheses are exactly the hypotheses of that theorem. Its
-conclusion gives: every irreducible closed subset $C\subseteq Y$ meets $Y_0$
-in a nonempty connected subset. Together with (i) and (ii) this is precisely
-the hypothesis of [lemma-weil-pbc-spectral-restriction] for the pair
-$(Y,Y_0)$, so that lemma applies and yields, for every locally constant
-[def-weil-pbc-etale-sheaves] sheaf $G$ on the Zariski space $Y$,
+*Injectivity.* Let $s\in\Gamma(Y',F')$, for $Y'$ finite over $Y$ and $F'$ an
+abelian sheaf on $Y'$, with $i'^\sharp s=0$ on $Y'_0$. By the definition of
+inverse image and sheafification, every point of $Y'_0$ has an etale
+neighbourhood in $Y'$ on which $s$ restricts to zero; the images of these etale
+neighbourhoods form an open subset $V\supseteq Y'_0$ of $Y'$ on which the germs
+of $s$ vanish. The complement of $V$ is closed and does not meet $Y'_0$, hence is
+empty by (b). So $s=0$ by the sheaf property. This applies in particular to $Y$
+itself and to the finite $Y$-schemes used below.
 
-$$
- \Gamma(Y,G)\xrightarrow{\sim}\Gamma(Y_0,G|_{Y_0}).
-$$
-
-For a general abelian sheaf $G$ this identification is *not* available: the
-statement of that lemma is false without local constancy, as its own
-statement records, and the sheaf to which Stage 1 is applied below is a
-constructible sheaf of etale cohomology, for which local constancy is not
-known. The passage from the locally constant case to the general case is
-exactly what the status note to [lemma-weil-pbc-stein-connectedness] records as
-open. The same argument applies verbatim to every finite morphism $h:Y'\to
-Y$: the composite $Y'\to S$ is proper as the composite of the proper morphism
-$h$ (finite morphisms are proper, [lem-weil-pbc-finite-proper]) and the
-proper morphism $Y\to S$, so $Y'$ is spectral, its closed member
-$Y'_0=Y'\times_ST_0\subset Y'$ is closed, and the connectedness conclusion
-for $Y'$ follows from the same application of
-[lemma-weil-pbc-stein-connectedness]. Hence for every $h:Y'\to Y$ finite and
-every abelian sheaf $G'$ on the Zariski space $Y'$,
-
-$$
- \Gamma(Y',G')\xrightarrow{\sim}\Gamma(Y'_0,G'|_{Y'_0}).
-$$
-
-These comparisons are compatible with $h$. For $a\in\Gamma(Y,G)$, its finite
-pullback $h^\sharp a$ of [def-weil-pbc-finite-section-pullback]
-restricts over $Y'_0$ to the finite pullback of $a|_{Y_0}$ by the
-closed-fibre equation of [lem-weil-pbc-finite-pullback-identities];
-consequently the comparison isomorphisms for $Y$ and for $Y'$ form a
-commutative square with the two restriction maps. This is the compatibility
-with finite pullback recorded in the statement.
-
-*Stage 2: from Zariski sheaves to etale sheaves* (this is the upgrade of
-Stacks Project, Tag [09ZF](https://stacks.math.columbia.edu/tag/09ZF), Lemma
-59.82.2, whose finite-refinement input is Lemma 37.45.7, Tag
-[09Z0](https://stacks.math.columbia.edu/tag/09Z0) (Section 37.45,
-Applications of Zariski's Main Theorem, II), and whose final descent step is
-Remark 59.55.6, Tag [09Z3](https://stacks.math.columbia.edu/tag/09Z3)
-(Section 59.55, Vanishing of finite higher direct images, stated there for
-sheaves of sets, the abelian form being Lemma 59.55.5, Tag
-[09Z2](https://stacks.math.columbia.edu/tag/09Z2))). Let $F$ be an etale
-abelian sheaf on $Y$. Every open immersion is etale, so the etale sheaf $F$
-restricts to a Zariski sheaf on $Y$ with the same global sections, and
-likewise its inverse image to $Y_0$. The etale comparison is obtained from
-the Zariski comparison by finite-refinement descent, in which the finite
-refinement of [lemma-weil-pbc-finite-refinement-etale-cover] is the only
-additional input. Concretely: a section of $F|_{Y_0}$ is represented by an
-etale neighbourhood $U\to Y$ of $Y_0$; gluing $U$ with the open complement
-$Y\setminus Y_0$ turns it into a surjective etale morphism $U_1\to Y$, to
-which [lemma-weil-pbc-finite-refinement-etale-cover] applies, giving a finite
-surjective [def-weil-pbc-scheme-conventions] $r:Y'\to Y$ and a finite Zariski
-open covering $Y'=\bigcup_aW_a$ with $Y$-maps $\phi_a:W_a\to U_1$. The
-section pulls back along the $\phi_a$ to sections of $r^{-1}F$ over the open
-subschemes $W_a$, and each of these lies on the proper $Y$-scheme
-$\overline{W_a}$, the closure of $W_a$ in $Y'$, where the Zariski comparison
-of Stage 1 (applied with the direct image of the restriction of $r^{-1}F$ to
-$W_a$) transports it to the closed fibre of $\overline{W_a}$; these pieces
-restrict to a Zariski open cover of $Y'_0$ and glue, because they all come
-from one section of $F|_{Y_0}$ and $r_0:Y'_0\to Y_0$ is surjective. The
-resulting section over $Y'_0$ is then matched back, along the finite
-pullbacks of [lem-weil-pbc-finite-pullback-identities], with a section of $F$
-over $Y$, and the uniqueness of the matchings gives injectivity of the same
-comparison. Naturality in $F$ is clear from the construction (each step is
-functorial in $F$), compatibility with finite pullback follows from the
-square of Stage 1 and the functoriality of the refinements, and compatibility
-with morphisms of henselian pairs results from transporting the whole
-situation along such a morphism.
-
-The canonical map from the etale to Zariski restriction is injective on
-stalks because a geometric point has a strictly local etale neighbourhood.
-For surjectivity, lift a fibre section etale-locally; quasi-compactness of
-$X_0$ gives finitely many local lifts, and Lemma
+*Surjectivity.* Let $t\in\Gamma(Y_0,i^{-1}F)$. Every point of $Y_0$ has an etale
+$U_k\to Y$ whose image contains it, with a section $g_k\in F(U_k)$ whose
+restriction to $U_k\times_YY_0$ is the restriction of $t$; as $Y_0$ is
+quasi-compact, finitely many $U_k$ suffice. The morphism
+$\coprod_kU_k\amalg(Y\setminus Y_0)\to Y$ is etale and surjective, and $Y$ is
+quasi-compact and quasi-separated, so
 [lemma-weil-pbc-finite-refinement-etale-cover] gives a finite surjective
-refinement on which all lifts exist.
-The two lifts agree on the finite overlap after restriction to $X_0$ by the
-Zariski result, and the equalizer sheaf descends the lift to $X$. Uniqueness
-is stalkwise injectivity. The finite-pullback compatibility required in
-Stacks Tag `09ZF` is recorded as four explicit equalities:
-identity pullback preserves the lift, composition of finite pullbacks preserves
-the lift, restriction to $X_0$ recovers the given section, and the descended
-section pulls back to each local lift; these are the four preceding lemmas.
-The finite refinement lemma proves existence and finite-presentation stage,
-and its stalkwise equalizer argument proves equality of the local lifts on
-the self-intersection. Thus the four finite-pullback compatibilities
-complete the descent.
+$r:Y'\to Y$ and a finite open covering $Y'=\bigcup_aW_a$ with $Y$-maps from
+$W_a$ to the members of this cover. The opens $W_a$ mapping to some $U_k$ carry
+the pulled-back sections $r^{-1}g_k$, and their restrictions to $W_a\cap Y'_0$
+are the pullback $r_0^\sharp t$ of $t$ along $r_0:Y'_0\to Y_0$, by the
+composition law of pullbacks [lemma-weil-pbc-finite-pullback-composition]; the
+opens mapping to $Y\setminus Y_0$ do not meet $Y'_0$. Two of these local sections
+therefore agree on an open subset of the overlap containing its trace on
+$Y'_0$. By (a), the shrinking argument of the proof of
+[lemma-weil-pbc-spectral-restriction] applies to the spectral space $Y'$ and the
+closed subset $Y'_0$: the opens $W_a$ can be shrunk to opens which still cover
+$Y'$, still contain $W_a\cap Y'_0$, and on whose overlaps the local sections
+agree. The shrunk sections glue to $\sigma'\in\Gamma(Y',r^{-1}F)$ with
+$\sigma'|_{Y'_0}=r_0^\sharp t$.
+
+The two pullbacks of $\sigma'$ to $Y''=Y'\times_YY'$ have the same restriction
+to the closed fibre $Y''_0$, namely the pullback of $t$; as $Y''\to Y$ is finite,
+injectivity shows that they are equal. Since $r$ is finite and surjective,
+$\sigma'$ descends: there is $s\in\Gamma(Y,F)$ with $r^\sharp s=\sigma'$ (descent
+of sections along a finite surjective morphism, Stacks Project, Tag 09Z3).
+Finally the pullback of $i^\sharp s-t$ along $r_0$ vanishes. Since $r_0$ is
+surjective and the stalk of $r_0^{-1}G$ at a geometric point of $Y'_0$ is the
+stalk of $G$ at its image in $Y_0$, every geometric stalk of $i^\sharp s-t$
+vanishes, so $i^\sharp s=t$.

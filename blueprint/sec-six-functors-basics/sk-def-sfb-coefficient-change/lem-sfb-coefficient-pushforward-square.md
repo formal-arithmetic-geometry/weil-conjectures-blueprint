@@ -2,14 +2,14 @@
 id = "lem-sfb-coefficient-pushforward-square"
 kind = "lemma"
 title = "Coefficient changes commute with $\\eta_f$"
-order = 1725
-uses = ["def-sfb-coefficient-map", "sk-def-sfb-coefficient-morphisms", "sk-def-sfb-finite-pushforward-pullback"]
+order = 2571
+uses = ["def-sfb-coefficient-map", "det-def-sfb-coefficient-morphisms", "sk-def-sfb-finite-pushforward-pullback"]
 lean = ["AlgebraicGeometry.ProEtale.condensedPushforwardHom_comp_map_coefficientMap"]
 +++
 Let $a\colon\Lambda\to\Lambda'$ be a morphism of condensed abelian groups (in particular of
 condensed rings), $f\colon X\to Y$ a morphism of schemes, and
 $\eta_f\colon\Lambda_Y\to f_*\Lambda_X$, $\eta'_f\colon\Lambda'_Y\to f_*\Lambda'_X$ the
-coefficient morphisms of [sk-def-sfb-coefficient-morphisms], with $f_*$ the pushforward of
+coefficient morphisms of [det-def-sfb-coefficient-morphisms], with $f_*$ the pushforward of
 abelian sheaves ([sk-def-sfb-finite-pushforward-pullback]). Then
 
 $$

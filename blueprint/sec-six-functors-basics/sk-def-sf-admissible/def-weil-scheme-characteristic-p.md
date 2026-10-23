@@ -2,6 +2,7 @@
 id = "def-weil-scheme-characteristic-p"
 kind = "definition"
 title = "Scheme of characteristic p"
+order = 2659
 uses = ["def-pc-scheme"]
 tags = ["stacks-0CC6"]
 +++

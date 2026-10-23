@@ -2,7 +2,7 @@
 id = "sk-the-final-theorem-the-curve-estimate--remark-2"
 kind = "remark"
 title = "Remark"
-order = 1007
+order = 1528
 tags = ["sketch"]
 +++
 In the split chapter of the sketch blueprint, [sk-thm-curveestimate]

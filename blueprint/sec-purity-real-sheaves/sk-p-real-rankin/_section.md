@@ -1,15 +1,18 @@
 +++
 id = "sk-p-real-rankin"
 kind = "proposition"
-title = "Rankin–Selberg upper bound"
-order = 3001
-uses = ["sk-d-real-detweights", "sk-d-real-operations", "sk-d-real-setup", "sk-d-real-weights", "sk-d-real-weil", "sk-p-linear-filtration", "sk-p-linear-triangular", "sk-p-real-operations", "sk-thm-derived-duality", "sk-thm-trace-transport"]
+title = "The determinant upper bound"
+order = 3877
+uses = ["sk-cor-walg-curve-calculus", "sk-d-real-detweights", "sk-def-wrp-real-definition", "sk-i-restriction", "sk-lem-wrp-hc2", "sk-lem-wrp-positive-euler", "sk-p-linear-filtration", "sk-p-tensor", "sk-thm-trace-transport"]
 lean = ["AlgebraicGeometry.WeilGroup.hasWeightsAtMost_of_isReal"]
 tags = ["sketch"]
 +++
-Let $U_0$ be an affine smooth geometrically connected
-curve over $\Fq$, and let $\mathcal F\ne0$ be a
-$\iota$-real lisse Weil sheaf.
-If $d\in\mathbf R$ bounds from above the determinant weights of
-its irreducible constituents, all its local Frobenius eigenvalues
-have $\iota$-weight at most $d$.
+Let $U_0/\mathbf F_q$ be a smooth geometrically connected affine curve
+and let $\mathcal G\ne0$ be a lisse $\iota$-real Weil sheaf
+([sk-def-wrp-real-definition]). If $\beta$ is the largest determinant weight
+([sk-d-real-detweights]) of its irreducible Weil constituents, then
+
+$$
+ |\iota(\alpha)|^2\le q_x^\beta
+ \quad(x\in|U_0|,\ \alpha\text{ an eigenvalue on }\mathcal G_{\bar x}).
+$$

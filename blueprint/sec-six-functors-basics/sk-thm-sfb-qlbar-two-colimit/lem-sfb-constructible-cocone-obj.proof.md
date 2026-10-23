@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-sfb-constructible-cocone-obj"
-uses = ["sk-prop-sfb-qlbar-colimit-x", "sk-def-sfb-constructible", "sk-def-sfb-bounded-constructible", "lem-sfb-qlbar-flat", "lem-sfb-constructible-cocone-hom-surj"]
+uses = ["sk-prop-sfb-qlbar-colimit-x", "sk-def-sfb-constructible", "det-def-sfb-bounded-constructible", "lem-sfb-qlbar-flat", "lem-sfb-constructible-cocone-hom-surj"]
 +++
 Constructible descent, by induction on the number of nonzero cohomology sheaves of $K$.
 
@@ -21,4 +21,4 @@ extension of scalars is exact ([lem-sfb-qlbar-flat]) and so commutes with trunca
 connecting morphism $\delta$ descends to some finite $E'\supseteq E$ by
 [lem-sfb-constructible-cocone-hom-surj]; its cone over $E'$ is bounded constructible (the
 bounded constructible complexes form a triangulated subcategory on Noetherian $X$,
-[sk-def-sfb-bounded-constructible]), and its extension of scalars is isomorphic to $K$.
+[det-def-sfb-bounded-constructible]), and its extension of scalars is isomorphic to $K$.

@@ -2,7 +2,7 @@
 id = "lemma-openclosed-etale-lifts-locally"
 kind = "lemma"
 title = "Étale morphisms lift locally along a closed immersion"
-order = 1879
+order = 2669
 lean = ["AlgebraicGeometry.Etale.exists_isPullback_of_isClosedImmersion", "AlgebraicGeometry.Etale.exists_pullback_hom_of_isClosedImmersion"]
 +++
 Let $i\colon Z\to X$ be a closed immersion, let $q\colon W\to Z$ be étale

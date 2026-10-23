@@ -26,10 +26,8 @@ $\varphi\colon M\to M'$. If $\nu_X^*\varphi$ is linear, then so is $\varphi$:
 the two maps $\Lambda_{X,\Et}\times M\to M'$ expressing linearity agree after
 $\nu_X^*$, hence agree by faithfulness.
 
-Essential image: a module sheaf is classical if and only if its underlying
-sheaf of sets is ([det-pe-classical-definition-continuity-map]). If $G$ is a
-classical $\Lambda_X$-module sheaf, then by [det-pe-classical-sheaves-image]
-the linear counit $\nu_X^*\nu_{X,*}G\to G$ is an isomorphism of sheaves, hence
+Essential image: a module sheaf is classical if and only if its underlying sheaf of sets is. If $G$ is a
+classical $\Lambda_X$-module sheaf, then the linear counit $\nu_X^*\nu_{X,*}G\to G$ is an isomorphism of sheaves, hence
 of module sheaves. Conversely every $\nu_X^*M$ is classical. Together with the
 unit isomorphism this shows that $\nu_X^*$ and $\nu_{X,*}$ are inverse
 equivalences between $\Mod(X_{\Et},\Lambda)$ and classical

@@ -2,7 +2,7 @@
 id = "sk-thm-sf-identification"
 kind = "theorem"
 title = "Derived Poincaré duality"
-order = 2393
+order = 3309
 uses = ["sk-def-sp-trace", "sk-def-pairing", "sk-cor-sp-all-coefficients", "sk-thm-sf-global-duality", "sk-lem-finite", "sk-lem-sf-twist-interchange", "sk-thm-sf-tensor-hom"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerStar_coefficientDual_of_orientation"]
 tags = ["sketch"]
