@@ -15,15 +15,12 @@ polynomials, hence $\iota$-reality in
 determinant-weight multiset unchanged, by its definition in
 [def-mg-determinantal-weight-multiset] together with
 [lem-mg-semisimplification-independent].
-We make this replacement and keep the same notation. The resulting
-representation is geometrically semisimple by
-[lem-mg-normal-restriction-semisimple].
+We make this replacement and keep the same notation.
 
 Fix $k\ge1$ and put
 $\mathcal G^{(2k)}_0:=\mathcal G_0^{\otimes 2k}$, the tensor power of
 [def-real-weil-representation-operations]. By
-[cor-mg-det-weight-finite-tensor], whose geometric-semisimplicity
-hypothesis has just been verified, the largest determinant weight of
+[cor-mg-det-weight-finite-tensor], the largest determinant weight of
 $\mathcal G^{(2k)}_0$ is $2k\beta$.
 Step 1 (the $H_c^2$-factor). If $\lambda$ is an eigenvalue of the
 global Frobenius $F$ on $H_c^2(U,\mathcal G^{(2k)})$, then

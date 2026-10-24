@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-strict-w-cover"
 kind = "lemma"
 title = "Properties of the strict w-local cover"
-order = 945
+order = 946
 lean = ["WStrictLocalization.indEtale", "WStrictLocalization.faithfullyFlat", "WStrictLocalization.isWLocalRing", "WStrictLocalization.isWStrictlyLocalRing", "WStrictLocalization.zeroLocus_map_eq_closedPoints", "WStrictLocalization.exists_mem_zeroLocus_comap_eq", "exists_isWStrictlyLocalRing"]
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-ind-etale-algebra", "def-weil-pbc-strict-w-cover", "def-weil-pbc-w-local", "lem-weil-pbc-etale-contraction", "lem-weil-pbc-ind-etale-stability", "lem-weil-pbc-retained-localization", "lem-weil-pbc-w-localization-points", "lem-weil-pbc-weak-etale-field"]
 +++

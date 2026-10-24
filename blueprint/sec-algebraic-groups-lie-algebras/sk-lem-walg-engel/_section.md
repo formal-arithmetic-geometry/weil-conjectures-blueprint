@@ -2,6 +2,7 @@
 id = "sk-lem-walg-engel"
 kind = "lemma"
 title = "Engel's matrix theorem"
+lean = ["LieSubalgebra.exists_forall_apply_eq_zero_and_isNilpotent"]
 order = 3716
 tags = ["sketch"]
 +++

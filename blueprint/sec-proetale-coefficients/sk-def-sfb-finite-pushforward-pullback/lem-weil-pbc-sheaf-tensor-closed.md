@@ -3,7 +3,7 @@ id = "lem-weil-pbc-sheaf-tensor-closed"
 kind = "lemma"
 title = "A-valued sheaves on an essentially small site: Grothendieck abelian, symmetric monoidal closed under the sheafified tensor product"
 lean = ["CategoryTheory.GrothendieckTopology.isGrothendieckAbelian_sheaf_of_essentiallySmall", "CategoryTheory.HasSheafify", "CategoryTheory.sheafificationAdjunction", "CategoryTheory.GrothendieckTopology.W.monoidal", "CategoryTheory.Sheaf.monoidalCategory", "CategoryTheory.GrothendieckTopology.monoidalCategory_sheaf_of_essentiallySmall", "CategoryTheory.GrothendieckTopology.symmetricCategory_sheaf_of_essentiallySmall", "CategoryTheory.Sheaf.monoidalPreadditive", "CategoryTheory.Sheaf.presheafToSheafCompTensorLeftIso", "CategoryTheory.GrothendieckTopology.monoidalClosed_sheaf_of_essentiallySmall", "CategoryTheory.GrothendieckTopology.preservesColimitsOfSize_tensorLeft_sheaf_of_essentiallySmall", "CategoryTheory.GrothendieckTopology.preservesColimitsOfSize_tensorRight_sheaf_of_essentiallySmall", "CategoryTheory.Sheaf.symmetricCategory", "AlgebraicGeometry.ProEtale.sheafMonoidalCategory", "AlgebraicGeometry.ProEtale.sheafSymmetricCategory", "AlgebraicGeometry.ProEtale.sheafMonoidalClosed", "AlgebraicGeometry.ProEtale.preservesColimitsOfSize_tensorLeft_sheaf", "AddCommGrpCat.monoidalCategory", "AddCommGrpCat.monoidalClosed"]
-order = 917
+order = 918
 tags = ["stacks-0GMW"]
 uses = ["def-weil-pbc-proetale-site"]
 +++

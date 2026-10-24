@@ -2,7 +2,7 @@
 id = "lemma-openclosed-point-ulift"
 kind = "lemma"
 title = "Raising a point a universe"
-order = 1026
+order = 1027
 lean = ["CategoryTheory.GrothendieckTopology.Point.ulift", "CategoryTheory.GrothendieckTopology.Point.uliftSheafFiberIso", "AlgebraicGeometry.Scheme.uliftPointSmallEtale", "AlgebraicGeometry.Scheme.isConservativeFamilyOfPoints_ulift_pointSmallEtale"]
 uses = ["def-pc-separably-closed"]
 +++

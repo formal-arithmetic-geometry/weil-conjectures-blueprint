@@ -3,7 +3,7 @@ id = "prop-weil-proper-compact-coincidence"
 kind = "theorem"
 title = "Proper coincidence of compact-support and ordinary cohomology"
 lean = ["AlgebraicGeometry.WeilComplex.proper_compact_coincidence"]
-order = 4093
+order = 4092
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-weil-derived-direct-image", "def-weil-ordinary-compact-cohomology", "def-weil-scheme-morphism-properties"]
 +++

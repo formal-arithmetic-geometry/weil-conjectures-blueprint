@@ -11,6 +11,6 @@ In the square of
 and quasi-separated, and $\mathcal P$ the set of primes invertible on
 $S$: for every $K\in D^b_{\mathcal P\text{-tor}}(T_{\Et})$, the
 exchange map ${\operatorname{BC}}_{f,g}(K)$ of [sbc-def-base-change-map] is an
-isomorphism in $D^b_{\mathcal P\text{-tor}}(S_{\Et})$ whenever both
+isomorphism in $D^b_{\mathcal P\text{-tor}}(X_{\Et})$ whenever both
 sides are bounded, and is always an isomorphism in the ambient derived
 category of abelian sheaves.

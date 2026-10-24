@@ -2,7 +2,7 @@
 id = "def-weil-pbc-site-comparison-morphism"
 kind = "definition"
 title = "The comparison morphism of sites"
-order = 991
+order = 992
 lean = ["AlgebraicGeometry.Scheme.toProEt", "AlgebraicGeometry.ProEtale.comparisonLowerStar", "AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.comparisonAdjunction"]
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-proetale-site"]
 +++

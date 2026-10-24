@@ -2,8 +2,8 @@
 id = "sk-p-exterior"
 kind = "proposition"
 title = "Exterior determinant weights"
-lean = ["Representation.exists_multiset_le_and_detWeight_eq_sum_of_exteriorPower"]
-order = 3780
+lean = ["Representation.CompositionSeries.exteriorPower_detWeight"]
+order = 3776
 uses = ["sk-d-weights", "sk-i-restriction", "sk-p-central", "sk-p-readout", "sk-r-linear-library"]
 tags = ["sketch"]
 +++

@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Base change for a proper morphism, against an open immersion"
 order = 2331
 tags = ["latex:proposition"]
-uses = ["cor-sf-ambient-adjoint-discharge", "def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-pbc-derived-categories", "lem-compact-support-direct-image-triangulated", "lem-exc-closed-support-triangle", "lem-exc-open-fully-faithful", "prop-exc-ambient-dual-base-change"]
+uses = ["def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-pbc-derived-categories", "lem-compact-support-direct-image-triangulated", "lem-exc-closed-support-triangle", "lem-exc-open-fully-faithful", "prop-exc-ambient-dual-base-change", "thm-sf-ambient-adjoint-class"]
 +++
 Let $f:X\to Y$ be proper, carrying the ambient exceptional right adjoint
 datum of [def-weil-ambient-exceptional-adjoint], let
@@ -19,8 +19,12 @@ $$
 $$
 
 is an isomorphism. On the blueprint's coefficient class
-[def-sf-fullcd-used-class] the ambient datum displayed as the hypothesis
-is the theorem [cor-sf-ambient-adjoint-discharge], and the argument below
-is object-wise, so on that class the comparison is an isomorphism for every
-$K$ of the class without hypothesis; the datum is retained for the complexes
-outside it, [rem-sf-class-adjoint-residue].
+[def-sf-fullcd-used-class], for finite-type schemes over
+$k=\overline{\mathbf F}_q$ and $A=A_{E,n}$, the ambient datum is not
+needed: there $Rf^{\times}$, $Rf'^{\times}$ and $Rf_Z^{\times}$ are the
+right adjoints relative to the bounded-below objects of étale origin of
+[thm-sf-ambient-adjoint-class], and the argument below is object-wise, so
+the comparison is an isomorphism for every bounded-below $K$ of étale
+origin without hypothesis. The unrestricted ambient datum is false in
+general and is retained only for the complexes outside that class,
+[rem-sf-class-adjoint-residue].

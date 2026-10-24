@@ -5,7 +5,7 @@ title = "The closed-immersion exceptional unit"
 lean = ["AlgebraicGeometry.ProEtale.isIso_rightDerivedUpperShriekHomEquiv_id_of_isClosedImmersion", "AlgebraicGeometry.ProEtale.isIso_derivedLowerStarClosedUpperShriekAdjunction_unit_app"]
 order = 3224
 tags = ["latex:proposition"]
-uses = ["def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-weil-scheme-morphism-properties", "lem-exc-proetale-closed-exact", "lem-exc-proetale-closed-support", "prop-weil-open-closed-recollement-adjunctions"]
+uses = ["def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-weil-scheme-morphism-properties", "lem-exc-proetale-closed-exact", "lem-exc-proetale-closed-support", "prop-weil-open-closed-recollement-adjunctions", "thm-sf-ambient-adjoint-class"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$, an integer $n\in\mathbf
 Z_{\geq1}$, and put $A=A_{E,n}$. Let $T$ be a Noetherian scheme on which

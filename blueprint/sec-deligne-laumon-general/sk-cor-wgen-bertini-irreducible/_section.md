@@ -2,7 +2,8 @@
 id = "sk-cor-wgen-bertini-irreducible"
 kind = "corollary"
 title = "A curve preserving geometric irreducibility"
-order = 4052
+lean = ["AlgebraicGeometry.WeilSheaf.exists_isClosedImmersion_isIrreducibleLocalSystem_upperStar"]
+order = 4051
 uses = ["sk-lem-wgen-finite-witness", "sk-lem-wgen-bertini-cover"]
 tags = ["sketch"]
 +++

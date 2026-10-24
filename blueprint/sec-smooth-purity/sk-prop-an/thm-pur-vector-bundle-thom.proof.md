@@ -30,3 +30,15 @@ Base change and direct sums: by (L2) and (L3) of
 [thm-pur-localized-top-chern] and the base-change compatibility
 of [def-pur-vector-bundle-thom-class]. No local morphism is
 glued here.
+
+Step 3: the sign against the integration. The composite
+$t_\pi\circ\tau_E$ is an endomorphism of the constant sheaf $\Lambda_B$,
+so it is determined by its geometric stalks. At $\bar b$, by Step 1,
+$\tau_E$ sends $1$ to the class
+$\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_r)$ of the origin in
+linear coordinates, and $t_\pi$ restricts to the affine-space integration
+of [def-amb-vector-integration], which sends this class to $(-1)^r$ by
+[cor-pur-affine-space-zero-section-purity]. Hence
+$t_\pi\circ\tau_E=(-1)^r$ and $\operatorname{tr}_\pi=\tau_E^{-1}=(-1)^rt_\pi$.
+For $r=1$ the class of [def-pur-vector-bundle-thom-class] is that of
+[thm-pur-rank-one-thom] by (L1) of [thm-pur-localized-top-chern].

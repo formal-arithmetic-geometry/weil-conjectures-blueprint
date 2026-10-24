@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-cech-criterion"
 kind = "lemma"
 title = "Injectives and the Cech acyclicity criterion"
-order = 1004
+order = 1005
 lean = ["CategoryTheory.Sheaf.ext_free_eq_zero_of_cech", "CategoryTheory.cechFree_exact_zero", "CategoryTheory.cechFree_exact_succ", "CategoryTheory.epi_cechFreeAug"]
 uses = ["def-weil-pbc-cover-cech", "def-weil-pbc-etale-cohomology"]
 +++

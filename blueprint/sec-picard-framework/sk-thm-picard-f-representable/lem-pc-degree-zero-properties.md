@@ -3,7 +3,7 @@ id = "lem-pc-degree-zero-properties"
 kind = "lemma"
 title = "Cohomology of an object concentrated in one degree"
 lean = ["DerivedCategory.isZero_homologyFunctor_obj_of_iso_singleFunctor", "DerivedCategory.homologyFunctorObjIsoOfIsoSingleFunctor"]
-order = 829
+order = 830
 uses = ["def-pc-derived-category", "def-sc-invertible-module", "def-weil-abstract-derived-category"]
 +++
 Let $\mathcal{A}$ be an abelian category with derived category

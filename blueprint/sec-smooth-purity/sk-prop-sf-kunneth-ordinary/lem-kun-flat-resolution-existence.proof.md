@@ -22,7 +22,7 @@ homotopy colimit
 $\mathcal K^\bullet=\operatorname{hocolim}_N\mathcal E_N^\bullet$,
 which is the cone of a map between countable direct sums of the
 $\mathcal E_N^\bullet$, is K-flat and has flat terms by
-[lem-kun-kflat-criteria](2) (direct sums and cones of K-flat
+[lem-kun-kflat-criteria](2) and (3) (direct sums and cones of K-flat
 complexes are K-flat, and direct sums of flat sheaves are flat).
 The homotopy colimit of the compatible quasi-isomorphisms
 $\mathcal E_N^\bullet\to\mathcal F_N^\bullet$ is the termwise colimit

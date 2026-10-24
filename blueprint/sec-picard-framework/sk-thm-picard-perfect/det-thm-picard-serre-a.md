@@ -2,7 +2,7 @@
 id = "det-thm-picard-serre-a"
 kind = "theorem"
 title = "Serre's theorem A: global generation after a twist"
-order = 790
+order = 791
 uses = ["det-thm-picard-pn", "det-thm-picard-serre-b"]
 lean = ["AlgebraicGeometry.Scheme.Modules.exists_generatingSections_tensor_twist"]
 +++

@@ -3,7 +3,7 @@ id = "lem-a1-reduction-lisse-pure"
 kind = "lemma"
 title = "Lisse purity of the transported complex"
 lean = ["AlgebraicGeometry.WeilSheaf.isLisse_upperStar_higherLowerShriek_zero_of_isFinite_of_etale", "AlgebraicGeometry.WeilSheaf.isLisse_and_isPunctuallyPureOfWeight_upperStar_lowerStar_extensionByZero"]
-order = 4034
+order = 4033
 uses = ["def-weil-punctual-weights", "lem-a1-finite-map-purity"]
 +++
 Let $C_0$ be a smooth geometrically connected affine curve, let

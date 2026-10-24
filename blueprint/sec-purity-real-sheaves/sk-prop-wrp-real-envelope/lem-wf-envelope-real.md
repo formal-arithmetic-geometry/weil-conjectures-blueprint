@@ -2,7 +2,7 @@
 id = "lem-wf-envelope-real"
 kind = "lemma"
 title = "The envelope is real"
-order = 3908
+order = 3907
 uses = ["def-weil-punctual-weights", "def-wf-iota-real", "def-wf-normalized-real-envelope"]
 lean = ["AlgebraicGeometry.WeilSheaf.isReal_realEnvelope", "AlgebraicGeometry.WeilSheaf.IsLisse.realEnvelope"]
 +++

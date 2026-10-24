@@ -3,7 +3,7 @@ id = "det-prop-separation"
 kind = "proposition"
 title = "Weight separation and the parity factorization"
 lean = ["Polynomial.isCoprime_prod_odd_prod_even", "Polynomial.prod_odd_eq_map_and_prod_even_eq_map"]
-order = 4132
+order = 4131
 uses = ["det-def-cohfamily", "det-def-roots", "sk-input-weights", "det-thm-tracetodeterminant"]
 +++
 Assume [sk-input-weights]. Then for $i\ne j$ the polynomials

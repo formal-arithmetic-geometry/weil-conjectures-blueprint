@@ -2,7 +2,7 @@
 id = "thm-fd-transform-well-defined"
 kind = "theorem"
 title = "Well-definedness of the Fourier–Deligne transform"
-order = 3948
+order = 3947
 uses = ["def-fd-kernel", "def-fd-transform", "def-weil-pbc-scheme-conventions", "prop-functor-package", "prop-kernel-lisse", "det-def-sfb-bounded-constructible", "sk-thm-sf-ctf-stability", "sk-prop-ctf-finite-comparison"]
 +++
 Let $\pi:V\to S$, $\pi':V'\to S$, $b$, $\Psi$, $r\in\mathbf Z$ and the
@@ -11,7 +11,8 @@ $p_2:V\times_SV'\to V'$ of finite type and admitting a compactification.
 
 1. *Finite coefficients.* Let $\Lambda$ be a finite commutative ring in
    which $p$ is invertible and whose exponent is invertible on $S$, and
-   assume that $V'$ is locally of finite type over some field $k$. Let
+   assume that $V'$ is of finite type (locally of finite type and
+   quasi-compact) over some field $k$. Let
    $D^b_c(-,\Lambda)$ denote the full subcategory of the derived category of
    étale sheaves of $\Lambda$-modules consisting of the bounded complexes
    with constructible cohomology sheaves. Then for every

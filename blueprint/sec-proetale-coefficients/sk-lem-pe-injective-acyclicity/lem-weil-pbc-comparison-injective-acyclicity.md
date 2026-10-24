@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-comparison-injective-acyclicity"
 kind = "lemma"
 title = "Acyclicity of the pulled-back etale injectives"
-order = 1005
+order = 1006
 lean = ["AlgebraicGeometry.ProEtale.isZero_rightDerived_sectionsFunctor_comparisonUpperStar_obj", "AlgebraicGeometry.Scheme.ProEt.subsingleton_ext_sheafPullback_injective"]
 uses = ["def-weil-pbc-cover-cech", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-cech-criterion", "lem-weil-pbc-comparison-sections", "lem-weil-pbc-etale-finite-data-descent", "lem-weil-pbc-ind-etale-basis", "lem-weil-pbc-ind-etale-stability", "lem-weil-pbc-proetale-restriction-injectives"]
 +++

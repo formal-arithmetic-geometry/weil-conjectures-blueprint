@@ -15,5 +15,4 @@ $\Lambda_T$-module sheaves, if two of the three terms are K-flat then
 so is the third; in particular cones of maps between K-flat complexes
 are K-flat.
 1. **(3)** Filtered colimits of K-flat complexes are K-flat; in
-particular every bounded-below complex of flat $\Lambda_T$-module
-sheaves is K-flat.
+particular direct sums of K-flat complexes are K-flat.

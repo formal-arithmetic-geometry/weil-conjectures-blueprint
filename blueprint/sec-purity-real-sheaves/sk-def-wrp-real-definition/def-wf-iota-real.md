@@ -7,7 +7,7 @@ order = 3872
 uses = ["def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes", "sk-lem-coefficient-heart"]
 +++
 Let $X_0$ be a separated finite-type $k_0$-scheme, fix
-$\iota:\Qlb\xrightarrow{\sim}\mathbf C$ as in
+a field embedding $\iota:\Qlb\hookrightarrow\mathbf C$ as in
 [def-weil-punctual-weights], and let $\mathcal F$ be a
 constructible
 Weil sheaf on $X_0$, that is, $\mathcal F\in\Cons(X,\Qlb)$

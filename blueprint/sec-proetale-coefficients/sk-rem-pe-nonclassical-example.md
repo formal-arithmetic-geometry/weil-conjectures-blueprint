@@ -2,7 +2,7 @@
 id = "sk-rem-pe-nonclassical-example"
 kind = "remark"
 title = "A coefficient sheaf outside the classical part"
-order = 997
+order = 998
 tags = ["sketch"]
 +++
 Let $X$ be a geometric point and let $S=\mathbf Z_\ell$ be regarded as a

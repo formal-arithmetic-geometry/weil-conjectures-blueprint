@@ -2,7 +2,7 @@
 id = "sk-rem-picard-relative-scope"
 kind = "remark"
 title = "Ground fields and relative representability"
-order = 874
+order = 875
 tags = ["sketch"]
 +++
 For a smooth proper geometrically connected curve $C/k$ over an

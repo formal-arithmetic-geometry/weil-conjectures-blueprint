@@ -3,7 +3,7 @@ id = "def-weil-numbers"
 kind = "definition"
 title = "Weil numbers"
 lean = ["IsWeilNumber", "isWeilNumber_iff", "isWeilNumber_algHom_apply_iff", "isUniversallyPureOfWeight_iff_isWeilNumber_inv"]
-order = 4133
+order = 4132
 uses = ["def-weil-finite-field-fiber"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, and let

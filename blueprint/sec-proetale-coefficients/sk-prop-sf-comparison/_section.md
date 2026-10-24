@@ -2,8 +2,8 @@
 id = "sk-prop-sf-comparison"
 kind = "theorem"
 title = "Bounded-below cohomology comparison"
-order = 1007
-lean = ["AlgebraicGeometry.ProEtale.derivedComparisonAdjunction", "AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map", "AlgebraicGeometry.ProEtale.comparisonLowerStarCompRightDerivedGlobalSectionsIso", "AlgebraicGeometry.ProEtale.comparisonUpperStarCompUpperStarIso", "AlgebraicGeometry.derivedEtaleCohomology_limit"]
+order = 1008
+lean = ["AlgebraicGeometry.ProEtale.derivedComparisonAdjunction", "AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map", "AlgebraicGeometry.ProEtale.comparisonLowerStarCompRightDerivedGlobalSectionsIso"]
 tags = ["sketch"]
 +++
 Let $X$ be a scheme, $\Lambda$ a ring, and $\nu_X:X_{\mathrm{proét}}\to X_{\mathrm{ét}}$
@@ -23,14 +23,3 @@ of $\Lambda$-modules
 $$
 R\Gamma(X_{\mathrm{proét}},\nu_X^*K)\simeq R\Gamma(X_{\mathrm{ét}},K).
 $$
-
-More generally, for abelian sheaves ($\Lambda=\mathbf Z$) and a pro-étale affine
-$U=\varprojlim_iU_i$ with $U_i$ affine and étale over $X$,
-
-$$
-R\Gamma(U_{\mathrm{proét}},(\nu_X^*K)|_U)\simeq
-\varinjlim_iR\Gamma((U_i)_{\mathrm{ét}},K|_{U_i}).
-$$
-
-The colimit here is a filtered derived colimit, so its cohomology is the
-filtered colimit of the cohomology groups.

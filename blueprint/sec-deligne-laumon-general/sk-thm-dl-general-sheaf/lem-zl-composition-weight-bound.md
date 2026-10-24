@@ -2,7 +2,7 @@
 id = "lem-zl-composition-weight-bound"
 kind = "lemma"
 title = "Composition preserves the direct-image weight bound"
-order = 4083
+order = 4082
 lean = ["AlgebraicGeometry.HasDirectImageWeightBound.comp"]
 uses = ["thm-sp-truncation-e2", "def-weil-weil-sheaf-complex", "def-weil-punctual-weights", "lem-a1-mixed-direct-summand", "lem-zl-shriek-composition", "lemma-weil-pbc-hypercohomology-convergence", "sk-def-sf-weil-complexes", "sk-lem-coefficient-heart", "sk-thm-sf-ctf-stability"]
 +++

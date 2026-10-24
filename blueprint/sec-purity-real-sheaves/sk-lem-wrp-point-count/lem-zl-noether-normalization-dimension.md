@@ -3,7 +3,7 @@ id = "lem-zl-noether-normalization-dimension"
 kind = "lemma"
 title = "The number of Noether coordinates is the Krull dimension"
 lean = ["ringKrullDim_eq_of_finite_inj_algHom_mvPolynomial"]
-order = 3897
+order = 3896
 uses = ["lem-zl-noether-normalization-field", "pqf-lem-going-up", "pqf-lem-incomparability", "pqf-lem-lying-over"]
 +++
 Let $K$ be a field, $B\neq0$ a finitely generated commutative

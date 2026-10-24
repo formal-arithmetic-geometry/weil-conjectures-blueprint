@@ -2,7 +2,7 @@
 id = "sk-def-pe-replete"
 kind = "definition"
 title = "Repleteness"
-order = 972
+order = 973
 lean = ["CategoryTheory.GrothendieckTopology.IsReplete"]
 tags = ["sketch"]
 +++

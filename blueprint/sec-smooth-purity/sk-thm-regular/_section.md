@@ -52,8 +52,11 @@ $$
 \qquad 1\longmapsto[Z\subset X],
 $$
 
-is an isomorphism, and it equals the isomorphism assembled from smooth
-purity of $a_X$ and $a_Z$ in Steps 1–2 below. Since twists pass through
+is an isomorphism, and it equals $(-1)^c$ times the isomorphism $\Phi_i$
+assembled from smooth purity of $a_X$ and $a_Z$ in Steps 1–2 below (the
+sign comes from the normalization of smooth purity by the projective-line
+trace, against which each Kummer boundary $\partial\kappa(f_j)$ counts
+$-1$). Since twists pass through
 $Ri^{!}$ ([sk-lem-coprojection]), equivalently the inverse of
 $\operatorname{cl}_i(-c)[-2c]$ is a canonical isomorphism
 

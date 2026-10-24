@@ -1,15 +1,8 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sfb-rationalization-comparison"
-uses = ["det-prop-sfb-qlbar-colimit-x-invert-ell"]
 +++
-*The full derived categories.* Inverting $\ell$ is exact, so $E_X$ is flat over
-$\cO_{E,X}$ ([det-prop-sfb-qlbar-colimit-x-invert-ell]), extension of scalars needs no
-deriving, and $H^q(E_X\otimes K)=H^q(K)[1/\ell]$. Hence $E_X\otimes K=0$ when
-$H^q(K)[1/\ell]=0$ for all $q$. Each summand $\cO_{E,X}/\ell^n$ is killed by $\ell^n$, so
-the sum lies in the kernel, but $\ell^m$ does not kill the summand $\cO_{E,X}/\ell^{m+1}$.
-
-*Bounded constructible complexes.* The map $\varphi\colon\cO_{E,X}\to E_X$ is
+The map $\varphi\colon\cO_{E,X}\to E_X$ is
 [def-sfb-integers-to-subfield], built from the inclusion on the point
 [def-sfb-integers-to-subfield-point]. Extension of scalars preserves bounded constructible
 complexes [lem-sfb-extend-scalars-bounded-constructible], and the restricted functor is

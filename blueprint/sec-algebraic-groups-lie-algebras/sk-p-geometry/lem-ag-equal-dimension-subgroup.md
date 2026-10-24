@@ -2,10 +2,14 @@
 id = "lem-ag-equal-dimension-subgroup"
 kind = "lemma"
 title = "A closed subgroup of full dimension is everything"
-lean = ["Matrix.GeneralLinearGroup.eq_of_le_of_ringKrullDim_eq"]
+lean = ["AlgebraicGeometry.isIso_left_of_topologicalKrullDim_eq", "Matrix.GeneralLinearGroup.eq_of_le_of_ringKrullDim_eq"]
 order = 3706
-uses = ["lem-wf-affine-dimension-drop"]
+uses = ["lem-ag-cartier-reduced", "lem-wf-affine-dimension-drop", "lem-wf-algebraic-component-cosets"]
 +++
-Let $G\subseteq\operatorname{GL}(V)$ be an irreducible closed matrix
-group over $\overline{\mathbf Q}_\ell$, and let $J\subseteq G$ be a
-closed subgroup with $\dim J=\dim G$. Then $J=G$.
+Let $G$ be a connected group scheme of finite type over an algebraically
+closed field $L$ of characteristic zero, and let $J\subseteq G$ be a
+closed subgroup scheme with $\dim J=\dim G$. Then $J=G$.
+
+*Complement.* If $G\subseteq\operatorname{GL}(V)$ is an irreducible
+closed matrix group over $L$ and $J\subseteq G$ is a closed subgroup with
+$\dim J=\dim G$, then $J=G$.

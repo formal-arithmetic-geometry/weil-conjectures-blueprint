@@ -2,7 +2,7 @@
 id = "lem-rp-exterior-reality"
 kind = "lemma"
 title = "Reality of exterior powers"
-lean = ["AlgebraicGeometry.WeilGroup.IsReal.exteriorPower"]
+lean = ["AlgebraicGeometry.WeilGroup.IsReal.exteriorPower", "AlgebraicGeometry.WeilGroup.IsReal.exteriorPower_of_charpoly_eq"]
 order = 3882
 uses = ["def-real-weil-representation-operations", "def-weil-weil-sheaf-complex", "def-wf-iota-real", "p-linear-spectra", "p-linear-triangular", "sk-lem-coefficient-heart"]
 +++

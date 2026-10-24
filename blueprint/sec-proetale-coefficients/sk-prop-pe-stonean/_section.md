@@ -2,7 +2,7 @@
 id = "sk-prop-pe-stonean"
 kind = "proposition"
 title = "Stonean projectivity"
-order = 928
+order = 929
 lean = ["CompactT2.projective_iff_extremallyDisconnected", "CompHaus.Gleason", "CompHaus.projectivePresentation"]
 tags = ["sketch"]
 +++

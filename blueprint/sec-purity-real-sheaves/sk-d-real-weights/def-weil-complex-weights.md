@@ -18,7 +18,7 @@ $$
 $$
 
 for the geometric-Frobenius automorphism [def-weil-frobenius-detailed]. Fix
-$\iota:\Qlb\xrightarrow{\sim}\mathbf C$, $w\in\mathbf R$, and let $K$ be a Weil
+a field embedding $\iota:\Qlb\hookrightarrow\mathbf C$, $w\in\mathbf R$, and let $K$ be a Weil
 complex on $Y$ ([def-weil-weil-sheaf-complex], [sk-def-sf-weil-complexes]): an object
 $\operatorname{For}(K)\in\Dbc(Y,\Qlb)\subset D(Y_{\mathrm{proét}},\Qlb)$
 ([det-def-sfb-bounded-constructible]) together with a Weil structure

@@ -3,7 +3,7 @@ id = "lem-wf-schur-scalar"
 kind = "lemma"
 title = "Schur's scalar lemma"
 lean = ["Representation.IsIrreducible.existsUnique_eq_smul_id"]
-order = 3757
+order = 3753
 uses = ["def-wf-simple-module"]
 +++
 Let a group $A$ act irreducibly on a finite-dimensional vector space

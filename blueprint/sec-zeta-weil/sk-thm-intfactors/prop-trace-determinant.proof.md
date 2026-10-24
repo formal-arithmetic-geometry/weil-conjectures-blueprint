@@ -28,7 +28,7 @@ which proves the linear-algebra part of the statement.
 For the geometric application, $Z(X_0,T)$ is the point-count zeta
 series of [def-weil-point-counts-zeta], and by
 [prop-every-iterate-trace] applied to the constant Weil sheaf on
-the smooth proper geometrically connected $X_0$,
+the smooth proper $X_0$,
 
 $$
 N_n(X_0)=\sum_{i=0}^{2d}(-1)^i

@@ -3,7 +3,7 @@ id = "def-pc-genus"
 kind = "definition"
 title = "The genus of a curve"
 lean = ["AlgebraicGeometry.Scheme.arithmeticGenus", "AlgebraicGeometry.Scheme.genus_eq_arithmeticGenus"]
-order = 668
+order = 669
 uses = ["def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-genus"]
 +++
 Let $k$ be a field and let $X$ be a proper scheme over $k$, typically a

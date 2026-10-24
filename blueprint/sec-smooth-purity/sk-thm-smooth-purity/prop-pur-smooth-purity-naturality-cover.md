@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Naturality and independence of the smooth purity map"
 order = 2965
 tags = ["latex:proposition"]
-uses = ["def-coefficient-twists-detailed", "def-pur-smooth-purity-map", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-affine-line-orientation", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-rank-one-local-calculation"]
+uses = ["cor-pur-affine-space-zero-section-purity", "cor-pur-vector-bundle-purity", "def-coefficient-twists-detailed", "def-pur-smooth-purity-map", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-affine-line-orientation", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-rank-one-local-calculation"]
 +++
 In the situation of [thm-pur-finite-coefficient-smooth-purity],
 the smooth purity map $\gamma_{f,K}$ of

@@ -3,7 +3,7 @@ id = "det-pe-wc-sections-exact"
 kind = "lemma"
 title = "Sections over a w-contractible affine are exact"
 lean = ["AlgebraicGeometry.Scheme.ProEt.isWeaklyContractible_of_iso", "CategoryTheory.GrothendieckTopology.epi_iff_of_forall_exists", "AlgebraicGeometry.Scheme.ProEt.exists_isWeaklyContractible_cover"]
-order = 965
+order = 966
 uses = ["det-pe-wcb-projective"]
 +++
 Let $U=\operatorname{Spec}D$ with $D$ w-contractible be an object of $X_{\mathrm{proét}}$,

@@ -3,7 +3,7 @@ id = "prop-weil-realization-independent-degrees"
 kind = "theorem"
 title = "Realization-independent degrees of the integral factors"
 lean = ["AlgebraicGeometry.Scheme.natDegree_eq_finrank_of_isIntegralFrobeniusFactor"]
-order = 4142
+order = 4141
 tags = ["latex:proposition"]
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-smooth-proper-cohomological-family", "prop-arithmetic-roots", "prop-integral-recovery"]
 +++

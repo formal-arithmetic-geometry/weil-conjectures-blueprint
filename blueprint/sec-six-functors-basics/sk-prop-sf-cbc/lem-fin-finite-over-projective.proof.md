@@ -2,7 +2,7 @@
 kind  = "proof"
 of    = "lem-fin-finite-over-projective"
 +++
-Work over an affine open of $S$, and fix $T\hookrightarrow\mathbf P^n_S$.
+Fix a closed immersion $T\hookrightarrow\mathbf P^n_S$ over $S$.
 Let $x_i$ be the coordinate sections, $T_i=T\cap D_+(x_i)$, and
 $\mathcal B=h_*\mathcal O_Y$. On each $T_i$, choose finitely many
 algebra generators $b_{ij}$ of the finite algebra $\mathcal B(T_i)$.
@@ -28,4 +28,5 @@ The source is proper over $S$ by
 Thus $v$ is proper by [lem-weil-pbc-proper-to-separated],
 and the immersion is closed by
 [lem-weil-pbc-proper-immersion-closed].
-This gives the required projective embedding locally on $S$.
+This gives the required closed immersion $Y\hookrightarrow\mathbf P^N_S$
+over $S$.

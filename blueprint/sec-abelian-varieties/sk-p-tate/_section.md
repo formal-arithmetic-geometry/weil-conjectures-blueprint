@@ -2,9 +2,9 @@
 id = "sk-p-tate"
 kind = "proposition"
 title = "No Frobenius-fixed vector"
+lean = ["AlgebraicGeometry.IsAbelianVariety.eq_zero_of_mem_tateModule_of_forall_geometricFrobenius_fixed", "AlgebraicGeometry.IsAbelianVariety.eq_zero_of_map_geometricFrobenius_eq_self"]
 order = 614
 uses = ["sk-d-ab-field", "sk-d-ab-tate", "sk-prop-av-tate-rank"]
-lean = ["AddCommGroup.eq_zero_of_mem_tateModule_of_forall_fixed"]
 tags = ["sketch"]
 +++
 Let $A_0/\mathbf F_q$ be an abelian variety, let

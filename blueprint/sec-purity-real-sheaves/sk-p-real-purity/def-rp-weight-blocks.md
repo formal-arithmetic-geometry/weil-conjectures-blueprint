@@ -7,7 +7,7 @@ order = 3884
 uses = ["def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "lem-mg-jordan-holder"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, fix
-$\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and let $\mathcal F_0$ be a
+a field embedding $\iota:\Qlb\hookrightarrow\mathbf C$, and let $\mathcal F_0$ be a
 nonzero lisse Weil sheaf on $X_0$. Choose a composition series of
 $\mathcal F_0$ in the sense of [def-mg-weil-composition-series], with
 irreducible factors $V_1,\ldots,V_t$, and put

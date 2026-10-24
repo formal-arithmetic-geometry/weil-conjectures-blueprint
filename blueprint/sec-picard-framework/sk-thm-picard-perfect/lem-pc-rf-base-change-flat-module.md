@@ -3,7 +3,7 @@ id = "lem-pc-rf-base-change-flat-module"
 kind = "lemma"
 title = "Derived base change for a relatively flat module: the affine Čech form"
 lean = ["AlgebraicGeometry.canonicalModuleBaseChange_isIso_affine_of_isFlatOver", "AlgebraicGeometry.Scheme.Modules.isIso_cechModuleComplexBaseChangeComparison"]
-order = 770
+order = 771
 uses = ["def-pc-base-change", "def-pc-derived-direct-image", "def-pc-derived-pullback", "def-pc-morphism-conventions", "lem-pc-cech-resolution", "lem-pc-flat-complex-derived-pullback"]
 +++
 Let $S=\operatorname{Spec}(A)$ be affine, let $f:X\to S$ be a separated

@@ -7,7 +7,9 @@ $y\in X_0(\mathbf F_{q^m})$, put $x=y$, $\Phi=\Phi^m$, and let $v$ be
 $u_m$ or an arbitrary morphism $L\Phi^*K\to K$ as in the statement. All
 morphisms below are separated and of finite type between separated
 finite-type $k$-schemes, hence exceptionally admissible at the finite
-stage ([rem-ptr-trf-admissibility-12], [thm-sf-preservation-class]).
+stage in the sense of [def-trf-admissibility]: the adjunction on
+$D^b_{ctf}$ is [thm-sf-ambient-adjoint-class] and the preservation is
+[thm-sf-preservation-class].
 
 *Step 0: the fixed point.* By [thm-trf-frobenius-fixed-points] the
 fixed scheme $\operatorname{Fix}(\Phi)$ is a finite disjoint union of

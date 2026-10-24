@@ -3,7 +3,7 @@ id = "lem-zl-constant-sheaf-weight-zero"
 kind = "lemma"
 title = "Weight zero of the constant sheaf"
 lean = ["AlgebraicGeometry.WeilSheaf.isPunctuallyPureOfWeight_adicConstant"]
-order = 4092
+order = 4091
 uses = ["def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "det-def-sfb-pulled-back-coefficients", "sk-def-sf-weil-complexes"]
 +++
 On every separated finite-type $k_0$-scheme $X_0$, with $X=X_0\times_{k_0}k$,

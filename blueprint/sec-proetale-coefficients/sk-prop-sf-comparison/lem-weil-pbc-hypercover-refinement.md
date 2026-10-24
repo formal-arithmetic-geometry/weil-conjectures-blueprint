@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-hypercover-refinement"
 kind = "lemma"
 title = "Finite refinements and local lifting"
-order = 1018
+order = 1019
 lean = ["AlgebraicGeometry.FiniteSplitEtaleHypercover.exists_and_cofiltered", "AlgebraicGeometry.FiniteSplitEtaleHypercover.exists_refinement_solving_local_requirements", "AlgebraicGeometry.FiniteSplitEtaleHypercover.exists_truncated_refinement"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-finite-split-hypercover"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sc-line-bundle-rational-section"
 kind = "lemma"
 title = "Rational sections of line bundles"
-order = 719
+order = 720
 lean = ["AlgebraicGeometry.Scheme.Modules.exists_nonempty_iso_dual_toModules_idealSheaf_tensorObj"]
 uses = ["def-pc-divisor-line-bundle", "def-sc-divisor", "def-sc-function-field", "lem-sc-point-cartier", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++

@@ -6,6 +6,7 @@ order = 2336
 uses = ["def-weil-ambient-exceptional-adjoint"]
 +++
 In the notation of [def-weil-ambient-exceptional-adjoint], the following holds. The datum is
-*not* a theorem for the complexes outside that class, and the
-statements that quantify over them retain it; the residue is
-[rem-sf-class-adjoint-residue].
+*not* a theorem: it is false in general, and only its restriction to the
+bounded-below objects of étale origin holds. The statements that
+quantify over complexes outside that class retain it as a hypothesis; the
+residue is [rem-sf-class-adjoint-residue].

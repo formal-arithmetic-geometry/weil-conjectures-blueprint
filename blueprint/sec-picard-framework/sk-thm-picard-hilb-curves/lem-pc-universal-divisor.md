@@ -3,7 +3,7 @@ id = "lem-pc-universal-divisor"
 kind = "lemma"
 title = "The universal divisor"
 lean = ["AlgebraicGeometry.isRelativeEffectiveCartier_universal_hilbertPresheaf"]
-order = 817
+order = 818
 uses = ["def-pc-divisor-line-bundle", "def-pc-hilb-functor", "def-pc-relative-effective-cartier", "def-nagata-invertible-ideal", "lem-pc-cartier-criterion", "lem-pc-recd-pullback", "thm-pc-hilb-curves"]
 +++
 Let $X\to S$ be a smooth morphism of relative dimension $1$, let

@@ -2,7 +2,7 @@
 id = "sk-lem-wrp-l2-growth"
 kind = "lemma"
 title = "Growth and finite corrections"
-order = 3912
+order = 3911
 uses = ["sk-d-real-weights", "sk-def-wrp-l2-definition", "sk-lem-wrp-point-count", "sk-r-real-linear"]
 tags = ["sketch"]
 +++

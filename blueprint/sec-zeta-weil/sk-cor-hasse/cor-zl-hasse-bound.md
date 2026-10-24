@@ -3,13 +3,13 @@ id = "cor-zl-hasse-bound"
 kind = "theorem"
 title = "Hasse–Weil bound"
 lean = ["AlgebraicGeometry.Scheme.Hom.abs_pointCount_sub_le_two_mul_genus"]
-order = 4158
+order = 4157
 tags = ["latex:corollary"]
 uses = ["cor-trf-point-counting", "def-sc-curves", "def-sc-genus", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-geometric-hypotheses", "det-def-sfb-pulled-back-coefficients", "sk-prop-scalar-six", "prop-cohomological-finiteness", "prop-endpoints", "prop-weight-purity-roots"]
 +++
 Fix the finite-field datum
-$(p,a,q,k_0,k)$, where $q=p^a$, choose a prime $\ell\neq p$, fix an
-isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and let
+$(p,a,q,k_0,k)$, where $q=p^a$, choose a prime $\ell\neq p$, fix a
+field embedding $\iota:\Qlb\hookrightarrow\mathbf C$, and let
 $C_0/k_0$ be a smooth, proper,
 geometrically connected scheme of pure dimension $1$. Put
 $C=C_0\times_{k_0}k$, and let

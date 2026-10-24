@@ -2,7 +2,7 @@
 id = "prop-base-linear"
 kind = "theorem"
 title = "The transform is linear over the base"
-order = 3951
+order = 3950
 uses = ["def-fd-kernel", "def-fd-transform", "def-wf-tate-twist", "prop-functor-package"]
 tags = ["latex:proposition"]
 +++

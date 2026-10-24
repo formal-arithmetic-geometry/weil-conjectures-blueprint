@@ -3,7 +3,7 @@ id = "lem-pc-linear-pair-morphism-gluing"
 kind = "lemma"
 title = "Gluing of the morphism determined by two linear forms"
 lean = ["AlgebraicGeometry.Proj.linearChartHom_compatible"]
-order = 690
+order = 691
 uses = ["def-pc-linear-pair-morphism", "def-pc-proj", "def-pc-scheme", "def-pc-standard-graded-algebra", "def-sc-p1-standard"]
 +++
 Let $S$ be a standard graded

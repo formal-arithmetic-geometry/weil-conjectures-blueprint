@@ -2,7 +2,7 @@
 id = "det-pe-continuous-cohomology-limit"
 kind = "lemma"
 title = "Sections of a limit with epimorphic transitions"
-lean = ["AlgebraicGeometry.ProEtale.isHomotopyLimit_mapCone_Q_of_epi", "CategoryTheory.Pretriangulated.IsHomotopyLimit.map", "AlgebraicGeometry.Scheme.ProEt.shortExact_telescope"]
+lean = ["AlgebraicGeometry.ProEtale.isHomotopyLimit_mapCone_Q_of_epi", "CategoryTheory.Pretriangulated.IsHomotopyLimit.map"]
 order = 1087
 uses = ["det-pe-replete-epimorphism", "det-pe-milnor-epimorphic"]
 +++

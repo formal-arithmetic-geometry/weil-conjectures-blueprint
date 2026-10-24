@@ -2,7 +2,7 @@
 id = "def-weil-formal-power-series"
 kind = "definition"
 title = "Formal power series"
-order = 4103
+order = 4102
 +++
 For a commutative ring $R$, an element of $R[[T]]$ is a sequence
 $(c_n)_{n\geq0}$ in $R$, written $\sum_{n\geq0}c_nT^n$.

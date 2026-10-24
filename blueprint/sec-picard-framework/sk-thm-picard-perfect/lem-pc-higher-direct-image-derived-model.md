@@ -2,7 +2,7 @@
 id = "lem-pc-higher-direct-image-derived-model"
 kind = "lemma"
 title = "A global derived model for higher direct images"
-order = 781
+order = 782
 lean = ["AlgebraicGeometry.Scheme.Modules.exists_derived_model_higherDirectImage", "AlgebraicGeometry.exists_isIso_canonicalModuleBaseChange_of_isFlatOver"]
 uses = ["def-pc-base-change", "def-pc-derived-category", "def-pc-derived-direct-image", "def-pc-derived-pullback", "lem-pc-relatively-flat-canonical-module-base-change"]
 +++

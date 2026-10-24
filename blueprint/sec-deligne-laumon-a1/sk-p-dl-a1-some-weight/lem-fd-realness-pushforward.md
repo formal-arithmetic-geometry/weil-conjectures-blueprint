@@ -3,7 +3,7 @@ id = "lem-fd-realness-pushforward"
 kind = "lemma"
 title = "Reality survives the Fourier projection"
 lean = ["AlgebraicGeometry.WeilSheaf.isReal_higherLowerShriek_one", "AlgebraicGeometry.WeilSheaf.isReal_higherLowerShriek_snd_one"]
-order = 4001
+order = 4000
 uses = ["def-fd-transform", "sk-lem-coefficient-heart", "sk-def-sf-weil-complexes", "def-wf-iota-real", "sk-thm-sfb-shriek-base-change", "det-thm-tf-uniform-formula-weil"]
 +++
 Let $k_0=\mathbf F_q$, let

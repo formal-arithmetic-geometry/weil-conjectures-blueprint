@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Elementary weight operations"
 order = 3799
 uses = ["sk-d-ab-field", "sk-d-real-weights", "sk-d-real-weil", "sk-def-sp-tate-twist", "sk-p-linear-filtration", "sk-r-linear-library"]
-lean = ["AlgebraicGeometry.WeilGroup.frobeniusWeight_inv", "AlgebraicGeometry.WeilGroup.IsPunctuallyPure.dual", "AlgebraicGeometry.WeilGroup.IsReal.exteriorPower_of_charpoly_eq"]
+lean = ["AlgebraicGeometry.WeilGroup.frobeniusWeight_inv", "AlgebraicGeometry.WeilGroup.IsPunctuallyPure.dual"]
 tags = ["sketch"]
 +++
 Subobjects and quotients of a pure Weil sheaf of weight $w$ are pure of

@@ -2,7 +2,7 @@
 id = "lem-zl-relative-curve-punctual"
 kind = "lemma"
 title = "Punctual upper bound in a relative affine curve"
-order = 4064
+order = 4063
 lean = ["AlgebraicGeometry.hasWeightsAtMost_higherLowerShriek_of_isAffine_fiber"]
 uses = ["def-weil-punctual-weights", "lem-a1-weight-bound-constant-extension", "lem-tw-punctual-rescaling", "sk-def-sf-weil-complexes", "sk-lem-coefficient-heart", "sk-thm-sfb-shriek-base-change", "thm-a1-curve-upper", "sk-cor-wft-curve-upper", "sk-prop-sf-cbc", "sk-thm-sf-comp-composition"]
 +++

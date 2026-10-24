@@ -2,7 +2,7 @@
 id = "sk-prop-pe-products"
 kind = "proposition"
 title = "Exact products"
-order = 977
+order = 978
 lean = ["AlgebraicGeometry.Scheme.ProEt.epi_piMap", "AlgebraicGeometry.Scheme.ProEt.countableAB4Star", "DerivedCategory.isLimitFanQ", "HomologicalComplex.quasiIso_limMap"]
 uses = ["sk-cor-pe-sections", "sk-prop-pe-replete", "lem-weil-derived-limit-existence"]
 tags = ["sketch"]

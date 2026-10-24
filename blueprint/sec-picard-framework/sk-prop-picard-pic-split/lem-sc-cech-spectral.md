@@ -2,7 +2,7 @@
 id = "lem-sc-cech-spectral"
 kind = "lemma"
 title = "The Cech-to-cohomology spectral sequence"
-order = 641
+order = 642
 uses = ["thm-sp-double-complex-spectral-sequences"]
 lean = ["CategoryTheory.Sheaf.exists_cechToDerivedSpectralSequence"]
 +++

@@ -29,14 +29,13 @@ These formulas show that $dr$ is a Lie algebra homomorphism.
 
 Let $G$ be a connected algebraic group and $r\colon G\to\GL(M)$ an
 algebraic representation. A subspace of $M$ is $G$-stable if and only if
-it is $\Lie(G)$-stable. Moreover
+it is $\Lie(G)$-stable. Moreover, if $G$ is a closed subgroup of
+$\GL(V)$, then
 
 $$
-\Lie\bigl(Z(G)^\circ\bigr)=Z\bigl(\Lie(G)\bigr).
+\Lie\bigl(Z(G)^\circ\bigr)=Z\bigl(\Lie(G)\bigr),
 $$
 
-*Complement.* For a connected closed subgroup $G\subseteq\GL_n$ over $L$
-and a rational representation $r\colon G\to\GL_m$, both statements hold
-with the Lie algebras computed by dual numbers as above, $\Lie(Z(G)^\circ)$
-being regarded as a subspace of $\Lie(G)$ via the differential of the
-inclusion $Z(G)^\circ\subseteq G$.
+with the Lie algebras computed by dual numbers as above and
+$\Lie(Z(G)^\circ)$ regarded as a subspace of $\Lie(G)$ via the
+differential of the inclusion $Z(G)^\circ\subseteq G$.

@@ -29,8 +29,9 @@ $$
    $T^Y_{E,F}\circ Rf_!\to Rf_!\circ T^X_{E,F}$ is an isomorphism for every $f$ admitting a
    compactification.
 3. **$E\subseteq\Qlb$.** For every *proper* morphism $f\colon X\to Y$, (Push)
-   $T^Y_{E,\Qlb}\circ Rf_*\to Rf_*\circ T^X_{E,\Qlb}$ is an isomorphism; consequently (Shriek)
-   $T^Y_{E,\Qlb}\circ Rf_!\to Rf_!\circ T^X_{E,\Qlb}$ is an isomorphism for every $f$ admitting a
-   compactification.
+   $T^Y_{E,\Qlb}\circ Rf_*\to Rf_*\circ T^X_{E,\Qlb}$ is an isomorphism at every bounded-below
+   object of $D(\Mod_{E_X})$; consequently (Shriek)
+   $T^Y_{E,\Qlb}\circ Rf_!\to Rf_!\circ T^X_{E,\Qlb}$ is an isomorphism at every bounded-below
+   object for every $f$ admitting a compactification.
 
-All isomorphisms are on the unbounded derived categories.
+The isomorphisms in 1 and 2 are on the unbounded derived categories.

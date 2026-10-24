@@ -2,7 +2,7 @@
 id = "lem-per-lisse-tensor-permanence"
 kind = "lemma"
 title = "Permanence under a lisse tensor"
-order = 3985
+order = 3984
 uses = ["def-per-perverse-subcategories", "def-per-support-condition", "det-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "def-weil-pbc-scheme-conventions", "lem-per-dual-lisse-tensor"]
 +++
 Let $X$ be smooth of pure

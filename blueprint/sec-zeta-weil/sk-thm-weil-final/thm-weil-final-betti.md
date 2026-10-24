@@ -2,8 +2,8 @@
 id = "thm-weil-final-betti"
 kind = "theorem"
 title = "Weil conjectures IV: Betti symmetry"
-lean = ["AlgebraicGeometry.WeilFunctionalEquation.natDegree_rev"]
-order = 4150
+lean = ["AlgebraicGeometry.WeilFunctionalEquation.natDegree_rev", "AlgebraicGeometry.Scheme.weil_betti"]
+order = 4149
 uses = ["def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "prop-endpoints", "prop-integral-recovery", "prop-poincare-pairing", "prop-weil-betti-comparison", "thm-weil-final-integrality", "thm-weil-final-rh", "thm-weil-poincare-duality", "thm-weil-six-operations"]
 +++
 Fix a finite field
@@ -34,20 +34,19 @@ $$
 b_i=\dim_{\Ql}H^i(X,\Ql)
 \quad\text{for every prime }\ell\neq p,
 \qquad b_i=b_{2d-i},
-\qquad b_0=b_{2d}=1,
 $$
 
 where $H^i(X,\Ql)$ is the
 ordinary cohomology group;
-so the first dimension is independent of $\ell$. Moreover
+so the first dimension is independent of $\ell$. Moreover $b_0=b_{2d}=1$,
 
 $$
 P_0(T)=1-T,
 \qquad
-P_{2d}(T)=1-q^dT.
+P_{2d}(T)=1-q^dT,
 $$
 
-In particular, the rational function
+and the rational function
 $Z(X_0,T)=\prod_{i=0}^{2d}P_i(T)^{(-1)^{i+1}}\in\mathbf Q(T)$ of
 [thm-weil-final-integrality] has a pole of order exactly $1$ at $T=1$
 and, if $d\geq1$, a pole of order exactly $1$ at $T=q^{-d}$.

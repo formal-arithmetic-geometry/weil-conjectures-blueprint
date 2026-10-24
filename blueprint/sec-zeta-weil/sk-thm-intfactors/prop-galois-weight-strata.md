@@ -3,7 +3,7 @@ id = "prop-galois-weight-strata"
 kind = "theorem"
 title = "Galois stability of the weight strata"
 lean = ["Polynomial.weilStratum", "Polynomial.parityWeilStratum", "Polynomial.map_weilStratum_algEquiv"]
-order = 4136
+order = 4135
 tags = ["latex:proposition"]
 uses = ["def-weil-algebraic-closure-q", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-normalized-integral-fraction", "def-weil-numbers", "def-weil-ordinary-reciprocal-roots", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "lem-embedding-extension"]
 +++
@@ -30,7 +30,7 @@ $$
 this is the Weil-number condition, and the
 algebraic-closure convention fixes
 the ell-adic comparison field. Let $X_0/k_0$ be
-smooth, proper, geometrically connected
+smooth and proper
 of pure dimension
 $d\in\mathbf Z_{\geq0}$, put $X=X_0\times_{k_0}k$, and let
 $(V_{i,\ell},F_{i,\ell},P_{i,\ell})_{0\leq i\leq2d}$ be the

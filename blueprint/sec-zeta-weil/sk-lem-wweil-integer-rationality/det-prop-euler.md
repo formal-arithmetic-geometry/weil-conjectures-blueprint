@@ -3,7 +3,7 @@ id = "det-prop-euler"
 kind = "proposition"
 title = "Closed-point Euler product and integrality"
 lean = ["AlgebraicGeometry.Scheme.Hom.pointCount_eq_sum", "AlgebraicGeometry.Scheme.Hom.zetaSeries_eq_tprod", "AlgebraicGeometry.Scheme.Hom.exists_int_zetaSeries"]
-order = 4114
+order = 4113
 uses = ["det-def-zeta"]
 +++
 Let $Y_0$ be a finite-type $\Fq$-scheme, $|Y_0|$ its closed points and

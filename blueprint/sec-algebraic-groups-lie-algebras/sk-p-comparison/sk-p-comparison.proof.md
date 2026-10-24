@@ -11,15 +11,18 @@ $$
 \Lie(S)=\{X\in\Lie(G):dr(X)U\subseteq U\}.
 $$
 
-If $U$ is $\Lie(G)$-stable, then $\Lie(S)=\Lie(G)$, and [sk-p-geometry]
-shows that $S=G$. Conversely, if $U$ is $G$-stable, then $S=G$, and the
-displayed formula shows that $U$ is $\Lie(G)$-stable.
+If $U$ is $\Lie(G)$-stable, then $\Lie(S)=\Lie(G)$, so Cartier's theorem
+[sk-i-cartier] gives $\dim S=\dim\Lie(S)=\dim\Lie(G)=\dim G$, and the
+dimension criterion of [sk-p-geometry] shows that $S=G$. Conversely, if
+$U$ is $G$-stable, then $S=G$, and the displayed formula shows that $U$
+is $\Lie(G)$-stable.
 
-Put $\mathfrak g=\Lie(G)$. We claim that the kernel of the adjoint
+Now let $G\subseteq\GL(V)$ be a closed subgroup and put
+$\mathfrak g=\Lie(G)$. We claim that the kernel of the adjoint
 representation $G\to\GL(\mathfrak g)$ is the center. Indeed, if $g$ acts
 trivially on $\mathfrak g$, then the centralizer $C_G(g)$ is a closed
-subgroup scheme with Lie algebra $\mathfrak g$, so it equals $G$ by
-[sk-p-geometry]. Conversely, a central element acts trivially. Since the
+subgroup of $G$ with Lie algebra $\mathfrak g$, so it equals $G$ by the
+Lie criterion of [sk-p-geometry]. Conversely, a central element acts trivially. Since the
 kernel and the center are reduced by Cartier's theorem [sk-i-cartier],
 their equality on $L$-points is an equality of schemes. Finally, the
 formula

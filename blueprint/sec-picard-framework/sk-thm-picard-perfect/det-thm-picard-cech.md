@@ -2,7 +2,7 @@
 id = "det-thm-picard-cech"
 kind = "theorem"
 title = "Čech-to-derived"
-order = 784
+order = 785
 uses = ["det-def-groth-ss"]
 lean = ["CategoryTheory.Sheaf.exists_cechToDerivedSpectralSequence"]
 +++

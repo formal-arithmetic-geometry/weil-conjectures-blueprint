@@ -9,9 +9,9 @@ $b_i=\dim_{\Ql}H^i(X,\Ql)$, independently of $\ell$. The perfect pairing
 has its canonical exceptional-inverse-image orientation supplied by
 [thm-weil-six-operations] for the smooth proper structure morphism;
 the duality interface [thm-weil-poincare-duality] and the pairing assembled in
-[prop-poincare-pairing] together give $b_i=b_{2d-i}$; the endpoint calculation
-[prop-endpoints] gives $b_0=b_{2d}=1$ and the two endpoint factors,
-identified with $P_0,P_{2d}$ by [prop-integral-recovery].
+[prop-poincare-pairing] together give $b_i=b_{2d-i}$. The endpoint
+calculation [prop-endpoints] gives $b_0=b_{2d}=1$ and the two endpoint
+factors, identified with $P_0,P_{2d}$ by [prop-integral-recovery].
 
 For the poles, use the factorization
 $Z(X_0,T)=\prod_{i=0}^{2d}P_i(T)^{(-1)^{i+1}}$ of

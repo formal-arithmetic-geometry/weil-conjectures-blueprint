@@ -3,7 +3,7 @@ id = "prop-rational-descent"
 kind = "theorem"
 title = "Rational descent of the zeta series"
 lean = ["AlgebraicGeometry.Scheme.Hom.finiteDimensional_shiftSpan_zetaSeries_and_exists_rat"]
-order = 4115
+order = 4114
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-hankel-matrix", "def-weil-normalized-integral-fraction", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-weil-rationality-criterion"]
 +++
@@ -12,7 +12,7 @@ $k_0=\Fq$, and let $k=\Fbar$ be the
 fixed algebraic closure of $k_0$.
 Choose a prime $\ell\neq p$, write $\Ql=\mathbf Q_\ell$, and let
 $d\in\mathbf Z_{\geq0}$. Let $X_0/k_0$ be
-smooth, proper, geometrically connected
+smooth and proper
 of pure dimension $d$, with $X=X_0\times_{k_0}k$ and
 $(V_{i,\ell},F_{i,\ell},P_{i,\ell})_{0\leq i\leq2d}$ the
 smooth-proper

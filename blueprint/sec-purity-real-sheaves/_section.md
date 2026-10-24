@@ -2,7 +2,7 @@
 id = "sec-purity-real-sheaves"
 kind = "section"
 title = "Purity of Real Sheaves on Curves"
-order = 3783
+order = 3779
 uses = ["sec-abelian-varieties", "sec-algebraic-groups-lie-algebras", "sec-curve-estimates", "sec-nagata-compactification", "sec-picard-framework", "sec-poincare-duality", "sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula", "sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-av-final", "sk-lem-curve-normalization", "sk-prop-curve-affine-kummer", "sk-thm-br", "sk-thm-curveestimate"]
 +++
 **Content.** For a smooth geometrically connected curve $C_0/\mathbf F_q$ and
@@ -12,7 +12,7 @@ constituent is punctually $\iota$-pure, of weight its determinant weight
 $\operatorname{wt}_\iota(\det V)/\operatorname{rank}V$. This is Deligne's key
 estimate from Weil II, here following Kiehl–Weissauer and the tex chapters
 "Weil sheaves, weights and rank-one characters" and "Real sheaves and the first
-weight estimate". After lattices and representations on a normal scheme
+weight estimate". After lattices and representations on a regular scheme
 [sk-p-real-integral], the Weil-sheaf convention [sk-d-real-weil], weights
 [sk-d-real-weights] and their elementary operations [sk-r-real-linear], the
 route is: (1) the Jacobian shows that Frobenius has no fixed class in $H^1$

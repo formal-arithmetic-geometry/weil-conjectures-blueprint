@@ -3,7 +3,7 @@ id = "lem-wf-degree-components-grading"
 kind = "lemma"
 title = "The degree components multiply by degree"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.degreeComponent_mul_degreeComponent", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.inv_degreeComponent"]
-order = 3745
+order = 3741
 uses = ["def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "lem-wf-arith-extension-group"]
 +++
 In the situation of [def-wf-degree-components], for all

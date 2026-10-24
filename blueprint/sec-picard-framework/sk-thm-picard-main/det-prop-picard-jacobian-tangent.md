@@ -2,7 +2,7 @@
 id = "det-prop-picard-jacobian-tangent"
 kind = "proposition"
 title = "The tangent space of the Jacobian"
-order = 858
+order = 859
 uses = ["def-pc-picard-functor", "det-lem-picard-cech-computes", "det-prop-picard-degree-decomposition"]
 lean = ["AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one"]
 +++

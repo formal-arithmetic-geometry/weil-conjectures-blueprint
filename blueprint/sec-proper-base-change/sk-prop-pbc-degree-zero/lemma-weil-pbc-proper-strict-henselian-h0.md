@@ -21,6 +21,4 @@ $$
  a^\sharp:\Gamma(Z,F)\xrightarrow{\sim}\Gamma(Z_s,a^{-1}F)
 $$
 
-is an isomorphism. (The choice of the algebraic closure matters: a geometric
-point whose field has transcendental elements over $k$ gives larger sections
-in general, for instance for $F=\mathbf G_m$ on a point.)
+is an isomorphism.

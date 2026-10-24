@@ -47,7 +47,7 @@ $$
 By Newton's identities the elementary symmetric functions $e_r$ are
 polynomials with rational coefficients in the power sums
 $\operatorname{Tr}(F_\xi^m\mid(R^{1}p_{2,!}\mathcal K)_{\bar\xi})$,
-$1\leq m\leq r$; since $\iota$ is a field isomorphism which is the
+$1\leq m\leq r$; since $\iota$ is a field embedding, hence the
 identity on $\mathbf Q$, the $\iota$-image of each $e_r(\xi)$ is the same
 polynomial evaluated at the $\iota$-images of those power sums, which are
 real by Step 2. Hence $\iota(P_\xi)\in\mathbf R[T]$ for every closed

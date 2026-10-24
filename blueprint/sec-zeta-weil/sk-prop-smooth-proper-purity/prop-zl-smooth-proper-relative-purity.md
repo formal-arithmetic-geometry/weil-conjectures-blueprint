@@ -3,13 +3,13 @@ id = "prop-zl-smooth-proper-relative-purity"
 kind = "theorem"
 title = "Relative smooth-proper purity"
 lean = ["AlgebraicGeometry.WeilComplex.derivedLowerShriekObjIsoDerivedLowerStarOfIsProper", "AlgebraicGeometry.WeilSheaf.smooth_proper_relative_purity"]
-order = 4090
+order = 4089
 tags = ["latex:proposition"]
 uses = ["cor-cbc-proper-coincidence", "cor-weil-pbc-geometric-fiber-finite", "cor-weil-pbc-geometric-fiber-qbar", "thm-weil-pbc-qbar", "cor-zl-rfshriek-sheaf", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-wf-tate-twist-frobenius", "prop-weil-operations", "prop-weil-proet-finite-proper-base-change", "sbc-thm-smooth-base-change", "thm-fin-proper-constructibility-complete", "sk-lem-coefficient-heart", "sk-def-sf-weil-complexes"]
 +++
 Fix the finite-field datum $(p,a,q,k_0,k)$, where $q=p^a$, a prime
-$\ell\neq p$, an algebraic closure $\Qlb$ of $\Ql=\mathbf Q_\ell$ and an
-isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$. Let
+$\ell\neq p$, an algebraic closure $\Qlb$ of $\Ql=\mathbf Q_\ell$ and a
+field embedding $\iota:\Qlb\hookrightarrow\mathbf C$. Let
 $f_0:X_0\to Y_0$ be a smooth proper morphism of separated finite-type
 $k_0$-schemes of pure relative dimension $d\in\mathbf Z_{\geq0}$ (no
 admissibility hypothesis on $f_0$ or the structure morphisms: the exceptional

@@ -2,7 +2,7 @@
 id = "def-wf-normalized-real-envelope"
 kind = "definition"
 title = "Normalized real envelope"
-order = 3907
+order = 3906
 uses = ["def-weil-punctual-weights", "def-wf-constant-weil-twist"]
 lean = ["AlgebraicGeometry.WeilSheaf.realEnvelope"]
 +++

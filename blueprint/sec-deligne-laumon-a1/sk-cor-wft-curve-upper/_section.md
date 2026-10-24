@@ -2,7 +2,8 @@
 id = "sk-cor-wft-curve-upper"
 kind = "corollary"
 title = "The weight bound on a curve"
-order = 4042
+lean = ["AlgebraicGeometry.hasWeightsAtMostOver_compactlySupportedCohomology_of_isCurve"]
+order = 4041
 uses = ["sk-lem-wft-infinity-reduction", "sk-thm-wft-curve-middle-upper"]
 tags = ["sketch"]
 +++

@@ -14,7 +14,10 @@ adjunction, whose counit is iterated affine-line integration. Hence
 $\operatorname{Tr}_{p_d}(\Lambda_Y)=\varepsilon_{p_d}\circ Rp_{d!}\gamma_{p_d}$ is the
 counit of the coordinate adjunction at $\Lambda_Y$, i.e. affine-space
 integration, normalized on geometric fibres by sending the class of the
-origin (the $d$-fold product of the affine-line classes) to $1$. For finite
+origin (the $d$-fold product of the Cartier classes of the coordinate
+hyperplanes) to $1$. Since each Kummer boundary $\partial\kappa(t_j)$ is minus
+the Cartier class of $V(t_j)$ ([lem-pur-divisor-class]), the product of the
+Kummer boundaries goes to $(-1)^d$. For finite
 coefficients this is the finite trace of [def-pur-smooth-trace]; for the other
 coefficients it is its transport.
 

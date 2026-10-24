@@ -3,7 +3,7 @@ id = "def-pc-projective-space-twist"
 kind = "definition"
 title = "Twists on projective space over a ring"
 lean = ["AlgebraicGeometry.ProjectiveSpace.twist", "AlgebraicGeometry.ProjectiveSpace.isFreeGenerator_twistGenerator", "AlgebraicGeometry.ProjectiveSpace.map_twistGenerator_eq_transitionUnit_smul", "AlgebraicGeometry.ProjectiveSpace.twistGenerator", "AlgebraicGeometry.ProjectiveSpace.transitionUnit", "AlgebraicGeometry.ProjectiveSpace.coordinateSection"]
-order = 645
+order = 646
 uses = ["def-pc-proj", "def-sc-invertible-module", "def-sc-p1-standard", "pqf-def-coherent"]
 +++
 For a commutative ring $A$ and $n\ge0$, put

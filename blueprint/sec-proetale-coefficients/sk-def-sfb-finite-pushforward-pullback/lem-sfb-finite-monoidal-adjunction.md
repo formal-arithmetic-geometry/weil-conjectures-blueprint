@@ -2,7 +2,7 @@
 id = "lem-sfb-finite-monoidal-adjunction"
 kind = "lemma"
 title = "$g^*\\dashv g_*$ is a monoidal adjunction"
-order = 923
+order = 924
 uses = ["def-sfb-finite-lower-star-lax-monoidal", "def-sfb-finite-upper-lower-star-adjunction", "def-sfb-finite-upper-star-monoidal"]
 lean = ["AlgebraicGeometry.ProEtale.oplaxMonoidal_upperStar", "AlgebraicGeometry.ProEtale.isMonoidal_upperStarLowerStarAdjunction"]
 +++

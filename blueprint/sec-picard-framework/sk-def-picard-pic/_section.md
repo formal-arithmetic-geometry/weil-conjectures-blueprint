@@ -2,7 +2,7 @@
 id = "sk-def-picard-pic"
 kind = "definition"
 title = "Relative Picard functor"
-order = 618
+order = 619
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sec-nagata-compactification"]
 lean = ["AlgebraicGeometry.picardFunctor", "AlgebraicGeometry.picardFunctorNormalized"]
 tags = ["sketch"]

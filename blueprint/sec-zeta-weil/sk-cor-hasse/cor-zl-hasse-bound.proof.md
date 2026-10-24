@@ -76,7 +76,7 @@ $i=1$ and $d=1$, every eigenvalue $\alpha$ of $F$ on
 $H^1(C,\Qlb)$ satisfies $|\iota(\alpha)|=q^{1/2}$. Let
 $\alpha_1,\ldots,\alpha_{2g}$ be the eigenvalues with algebraic
 multiplicity (Step 4). The trace equals the sum of the eigenvalues,
-so, applying the field isomorphism $\iota$ and the triangle inequality
+so, applying the field embedding $\iota$ and the triangle inequality
 in $\mathbf C$,
 
 $$

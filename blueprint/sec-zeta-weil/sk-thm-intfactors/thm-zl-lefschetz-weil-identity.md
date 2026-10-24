@@ -2,7 +2,8 @@
 id = "thm-zl-lefschetz-weil-identity"
 kind = "theorem"
 title = "Trace-to-determinant identity"
-order = 4123
+lean = ["AlgebraicGeometry.Scheme.map_zetaSeries_mul_evenFrobeniusProduct"]
+order = 4122
 uses = ["cor-trf-point-counting", "det-def-sfb-pulled-back-coefficients", "sk-def-sf-weil-complexes", "sk-prop-sfb-finite-extension-compatibility", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "lem-zl-log-det-identity"]
 +++
 Fix the finite-field datum
@@ -11,8 +12,7 @@ $\Ql=\mathbf Q_\ell$, choose an algebraic closure $\Qlb$ of $\Ql$,
 and use the coefficient sheaves $\Lambda_X=p_X^*\Lambda$ of the condensed
 rings $\Lambda=\Ql,\Qlb$ on the pro-étale site
 ([det-def-sfb-pulled-back-coefficients]). Let $X_0/k_0$ be
-smooth, proper, geometrically
-connected of pure dimension $d\in\mathbf Z_{\geq0}$, put
+smooth and proper of pure dimension $d\in\mathbf Z_{\geq0}$, put
 $X=X_0\times_{k_0}k$, and let $(\Qlb)_X=p_X^*\Qlb$ be the constant
 Weil sheaf with its canonical Weil
 structure ([sk-def-sf-weil-complexes]). Let $F$ be the

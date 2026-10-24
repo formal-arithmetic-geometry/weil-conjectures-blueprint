@@ -3,7 +3,7 @@ id = "thm-zl-relative-line-stratification"
 kind = "theorem"
 title = "Stratification of a sheaf on a relative line"
 lean = ["AlgebraicGeometry.WeilSheaf.exists_dense_isLisse_upperStar", "AlgebraicGeometry.WeilSheaf.HasRelativeLineStratification", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.hasRelativeLineStratification"]
-order = 4076
+order = 4075
 uses = ["def-sbc-affine-space", "def-weil-pbc-scheme-conventions", "i-topology", "lem-zl-affine-partition", "pqf-def-quasifinite", "sk-def-sfb-constructible", "sk-lem-coefficient-heart"]
 +++
 Let $Y_0$ be a separated finite-type $k_0$-scheme and let $\mathcal F$

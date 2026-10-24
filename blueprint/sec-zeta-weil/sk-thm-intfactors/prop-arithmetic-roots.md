@@ -2,7 +2,7 @@
 id = "prop-arithmetic-roots"
 kind = "theorem"
 title = "Arithmetic roots of the integral factors"
-order = 4141
+order = 4140
 tags = ["latex:proposition"]
 uses = ["def-weil-algebraic-closure-q", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-numbers", "def-weil-ordinary-compact-cohomology", "def-weil-ordinary-reciprocal-roots", "def-weil-smooth-proper-cohomological-family", "lem-embedding-extension", "prop-integral-recovery", "prop-weight-purity-roots"]
 +++

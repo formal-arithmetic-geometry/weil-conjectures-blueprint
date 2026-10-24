@@ -2,6 +2,7 @@
 id = "sk-lem-walg-lie-eigenvector"
 kind = "lemma"
 title = "Lie's eigenvector theorem"
+lean = ["LieModule.exists_ne_zero_forall_lie_eq_smul_of_isSolvable"]
 order = 3714
 tags = ["sketch"]
 +++

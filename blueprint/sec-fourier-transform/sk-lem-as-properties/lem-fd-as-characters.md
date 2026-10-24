@@ -3,7 +3,7 @@ id = "lem-fd-as-characters"
 kind = "lemma"
 title = "Isotypic decomposition of the Artin–Schreier pushforward"
 lean = ["AlgebraicGeometry.nonempty_iso_dual_artinSchreier", "AlgebraicGeometry.nonempty_iso_artinSchreierOf_zero"]
-order = 3932
+order = 3931
 uses = ["def-fd-artin-schreier-sheaf", "def-weil-pbc-etale-sheaves", "def-weil-pbc-finite-torsors", "sk-def-sfb-constructible", "lem-fd-as-cover", "lem-fd-character-orthogonality", "lem-wft-as-comparison"]
 +++
 With the $\mathbf F_p$-action of [lem-fd-as-cover], there is a canonical decomposition

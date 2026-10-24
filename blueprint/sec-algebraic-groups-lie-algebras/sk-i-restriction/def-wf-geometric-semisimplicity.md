@@ -4,10 +4,9 @@ kind = "definition"
 title = "Geometric semisimplicity"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsGeometricallySemisimple"]
 order = 3733
-uses = ["def-wf-fundamental-representation", "def-wf-weil-group"]
+uses = ["d-monodromy"]
 +++
-The representation $\rho$ is *geometrically semisimple* if the
-finite-dimensional $\overline{\mathbf Q}_\ell$-representation
-$V|_{\Pi}$ is a direct sum of irreducible $\Pi$-subrepresentations.
-A lisse Weil sheaf is geometrically semisimple when its fundamental
-representation has this property.
+A represented degree datum $\rho:W\to\operatorname{GL}(V)$ ([d-monodromy])
+is *geometrically semisimple* if the finite-dimensional representation
+$V|_{P}$ of the subgroup $P=\ker(\deg)$ is a direct sum of irreducible
+$P$-subrepresentations.

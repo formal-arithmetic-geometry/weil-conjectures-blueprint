@@ -2,7 +2,7 @@
 id = "rem-ptr-pc-finite-locally-free-11"
 kind = "remark"
 title = "Pointer to the properties of [def-pc-finite-locally-free]"
-order = 778
+order = 779
 uses = ["def-pc-finite-locally-free"]
 +++
 In the notation of [def-pc-finite-locally-free], if

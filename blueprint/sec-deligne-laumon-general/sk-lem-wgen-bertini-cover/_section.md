@@ -2,7 +2,8 @@
 id = "sk-lem-wgen-bertini-cover"
 kind = "lemma"
 title = "A curve preserving a finite cover"
-order = 4050
+lean = ["AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_connectedSpace_pullback"]
+order = 4049
 tags = ["sketch"]
 +++
 Let $X$ be a smooth connected affine scheme over

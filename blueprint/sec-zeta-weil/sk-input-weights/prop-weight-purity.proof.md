@@ -9,7 +9,7 @@ its lower-weight predicate is obtained by applying the duality operation
 and the same filtration criterion. With these conventions the constant
 Weil sheaf $(\Qlb)_X$ of the statement is the constant Weil complex of
 the smooth-proper purity interface, whose hypotheses are exactly the
-smoothness, properness, geometric connectedness, coefficient, and
+smoothness, properness, coefficient, embedding $\iota$, and
 Frobenius data fixed above; clause (1) of
 [thm-weil-deligne-purity] is therefore precisely the assertion that
 $(\Qlb)_X$ is $\iota$-pure of weight $0$.

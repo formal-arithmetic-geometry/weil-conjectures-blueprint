@@ -92,9 +92,11 @@ blueprint therefore restricts to the class it uses: the interface
 [sk-rem-sf-fullcd-scope] is read on
 [def-sf-fullcd-used-class], where the vanishing half is the
 class-restricted datum [def-sf-fullcd-class] supplied by
-[thm-sf-fullcd-class] and the existence half of the ambient datum is now
-the theorem [thm-sf-ambient-adjoint-class], and what it still asks
-for is the adjunction for the complexes outside that class, as
+[thm-sf-fullcd-class] and the existence half of the ambient datum is
+replaced by the right adjoint relative to the bounded-below objects of
+étale origin of the theorem [thm-sf-ambient-adjoint-class], and what it
+still asks for is the adjunction for the complexes outside that class,
+which is false in general, as
 [rem-sf-fullcd-reduction] and [rem-sf-class-adjoint-residue] record.
 One further variant must be separated from these three, and it is *not*
 addressed by any statement of this manuscript: keeping the coefficients

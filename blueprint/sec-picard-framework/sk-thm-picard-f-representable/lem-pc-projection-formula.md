@@ -3,7 +3,7 @@ id = "lem-pc-projection-formula"
 kind = "lemma"
 title = "The projection formula"
 lean = ["AlgebraicGeometry.Scheme.Modules.higherDirectImageTensorObjPullbackIso", "AlgebraicGeometry.Scheme.Modules.nonempty_higherDirectImage_tensorObj_pullback_iso"]
-order = 835
+order = 836
 uses = ["def-pc-base-change", "def-pc-derived-direct-image", "def-sc-invertible-module"]
 +++
 Let $f:X\to Y$ be a morphism of schemes, let $\mathcal{F}$ be an

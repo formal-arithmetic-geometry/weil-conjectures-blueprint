@@ -10,11 +10,8 @@ Let $p$ be prime, let $a\in\mathbf Z_{\geq1}$, put $q=p^a$, and set
 $k_0=\Fq$; let $k=\Fbar$ be the
 fixed algebraic closure of $k_0$.
 Fix a prime $\ell\neq p$, write $\Ql=\mathbf Q_\ell$, and fix an
-indeterminate $T$. For $P(T)=\sum_r c_rT^r\in\mathbf Z[T]$, write
-$P^{(\ell)}(T)=\sum_r(c_r\cdot1_{\Ql})T^r$ for coefficientwise extension.
-Let
-$X_0/k_0$ be smooth,
-proper, and geometrically connected of pure dimension
+indeterminate $T$. Let
+$X_0/k_0$ be smooth and proper of pure dimension
 $d\in\mathbf Z_{\geq0}$, and put $X=X_0\times_{k_0}k$. Let $F$ be
 geometric Frobenius. For each integer $i$
 with $0\leq i\leq2d$, let
@@ -28,30 +25,30 @@ $$
 These data form the
 smooth-proper
 cohomological family, where $H^i(X,\Ql)$ is
-ordinary cohomology. Let
-$P_i(T)\in\mathbf Z[T]$ be an
+ordinary cohomology. Define the Betti numbers, the Euler characteristic and
+the determinant constant
+
+$$
+b_i=\dim_{\Ql}V_{i,\ell},\qquad
+\chi=\sum_{i=0}^{2d}(-1)^ib_i,\qquad
+D=\prod_{i=0}^{2d}\det(F_{i,\ell})^{(-1)^i}\in\Ql^\times,
+$$
+
+the operators $F_{i,\ell}$ being invertible.
+
+In terms of integral factors (the form used in the zeta chapter): if
+$P_i(T)\in\mathbf Z[T]$ is an
 integral Frobenius factor
-with $P_i(0)=1$ and $P_i^{(\ell)}(T)=P_{i,\ell}(T)$, and define the
-Betti number
-$b_i=\deg P_i=\dim_{\Ql}V_{i,\ell}$.
-For a polynomial $P(T)=\sum_{r\geq0}c_rT^r$, with coefficients
-$c_r$ indexed by integers $r\geq0$, and an integer $m\geq0$, write
-$[T^m]P(T)=c_m$ for its coefficient of $T^m$.
-For $0\leq i\leq2d$, set
+with $P_i(0)=1$ and $P_i^{(\ell)}(T)=P_{i,\ell}(T)$, where
+$P^{(\ell)}(T)=\sum_r(c_r\cdot1_{\Ql})T^r$ for $P(T)=\sum_rc_rT^r\in\mathbf Z[T]$,
+then $b_i=\deg P_i$ is the
+Betti number of the integral factors, and with
+$[T^m]P(T)=c_m$ for the coefficient of $T^m$ one puts
 
 $$
-D_i=(-1)^{b_i}[T^{b_i}]P_i(T)\in\mathbf Z\setminus\{0\}.
+D_i=(-1)^{b_i}[T^{b_i}]P_i(T)\in\mathbf Z\setminus\{0\},\qquad
+\Delta=\prod_{i=0}^{2d}D_i^{(-1)^i}\in\mathbf Q^\times;
 $$
 
-The image of $D_i$ in $\Ql$ is
-$\det(F_{i,\ell}\mid H^i(X,\Ql))$. Define
-
-$$
-\chi=\sum_{i=0}^{2d}(-1)^ib_i.
-$$
-
-Define also the alternating determinant scalar
-
-$$
-\Delta=\prod_{i=0}^{2d}D_i^{(-1)^i}\in\mathbf Q^\times.
-$$
+the image of $D_i$ in $\Ql$ is
+$\det(F_{i,\ell}\mid H^i(X,\Ql))$, so the image of $\Delta$ in $\Ql$ is $D$.

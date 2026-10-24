@@ -16,12 +16,14 @@ $$
 =\|j_*\mathcal M\|+1 .
 $$
 
-By the middle-extension comparison [lem-fd-l2-middle-extension],
-$\|j_*\mathcal M\|=\|\mathcal M\|=w$ and
-$\|j'_*\mathcal M'\|=\|\mathcal M'\|=v$, the second equality in each
-case being the rigidity [lem-wf-l2-purity-rigidity] applied to the
-punctually pure lisse sheaf $\mathcal M$ respectively $\mathcal M'$.
-Substituting, $v=w+1$.
+Since $\mathcal M$ is nonzero, the middle-extension comparison
+[lem-fd-l2-middle-extension] gives $\|j_*\mathcal M\|=\|\mathcal M\|=w$,
+the second equality being the rigidity [lem-wf-l2-purity-rigidity];
+hence $\|j'_*\mathcal M'\|=w+1$. In particular $\mathcal M'$ is
+nonzero, because the zero sheaf has $L^2$-weight parameter $-\infty$ in
+[def-wf-l2-norm]. The same two lemmas, applied to the nonzero
+punctually pure lisse sheaf $\mathcal M'$, give
+$\|j'_*\mathcal M'\|=\|\mathcal M'\|=v$. Substituting, $v=w+1$.
 
 For the last assertion, [prop-a1-fourier-middle-extension] supplies the
 middle-extension shape with $\mathcal M'$ lisse on the dense open

@@ -2,7 +2,7 @@
 id = "sk-lem-wft-finite-map"
 kind = "lemma"
 title = "A finite generically étale map to the line"
-order = 4029
+order = 4028
 uses = ["sk-prop-av-pqf-finite", "sk-thm-picard-rr", "sk-thm-sf-package"]
 tags = ["sketch"]
 +++

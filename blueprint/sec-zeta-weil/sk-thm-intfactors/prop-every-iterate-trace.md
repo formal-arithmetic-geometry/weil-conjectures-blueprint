@@ -2,8 +2,8 @@
 id = "prop-every-iterate-trace"
 kind = "theorem"
 title = "Every-iterate Grothendieck–Lefschetz identity"
-lean = ["AlgebraicGeometry.WeilSheaf.pointCount_eq_sum_trace_cohomology"]
-order = 4125
+lean = ["AlgebraicGeometry.WeilSheaf.pointCount_eq_sum_trace_cohomology", "AlgebraicGeometry.WeilComplex.finsum_traceFunction_eq_and_pointCount_eq"]
+order = 4124
 tags = ["latex:proposition"]
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "prop-cohomological-finiteness", "sk-def-sf-weil-complexes", "det-def-sfb-bounded-constructible", "det-def-sfb-pulled-back-coefficients", "thm-weil-grothendieck-lefschetz-trace"]
 +++
@@ -54,8 +54,7 @@ compactly supported
 cohomology may be replaced by
 ordinary cohomology. In
 particular, let $X_0/\Fq$ be
-smooth, proper, geometrically
-connected of pure dimension $d\in\mathbf Z_{\geq0}$, put
+smooth and proper of pure dimension $d\in\mathbf Z_{\geq0}$, put
 $X=X_0\times_{\Fq}k$, let $\mathbf Q_{\ell,X}=p_X^*\Ql$ be its constant
 Weil sheaf on $X_{\mathrm{proét}}$, with its canonical Weil structure, and let $F_X$ be the
 global geometric Frobenius

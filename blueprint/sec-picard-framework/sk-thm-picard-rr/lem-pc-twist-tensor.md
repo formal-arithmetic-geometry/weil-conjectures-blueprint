@@ -3,7 +3,7 @@ id = "lem-pc-twist-tensor"
 kind = "lemma"
 title = "Twists and tensor products"
 lean = ["AlgebraicGeometry.ProjectiveSpace.twistTensorIso_hom_app_twistLaurentSection", "AlgebraicGeometry.Proj.twistTensorIso", "AlgebraicGeometry.Proj.twistTensorIso_hom_app_tmulSection", "AlgebraicGeometry.Proj.twistTensorIso_hom_app_smul", "AlgebraicGeometry.Proj.nonempty_tensorObj_twist_iso", "AlgebraicGeometry.ProjectiveSpace.nonempty_tensorObj_twist_iso", "AlgebraicGeometry.ProjectiveSpace.twistTensorIso", "AlgebraicGeometry.ProjectiveSpace.twistTensorIso_hom_app_tmulSection", "AlgebraicGeometry.ProjectiveSpace.twistTensorIso_hom_app_smul", "AlgebraicGeometry.ProjectiveSpace.twistTensorIso_hom_app_twistMonomialSection"]
-order = 675
+order = 676
 uses = ["def-pc-proj", "def-pc-projective-space-twist", "def-sc-invertible-module"]
 +++
 Let $A$ be a commutative ring, $n\ge0$,

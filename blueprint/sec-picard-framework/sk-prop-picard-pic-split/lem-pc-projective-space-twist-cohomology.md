@@ -2,7 +2,7 @@
 id = "lem-pc-projective-space-twist-cohomology"
 kind = "lemma"
 title = "Monomial cohomology of twists on projective space"
-order = 647
+order = 648
 uses = ["def-pc-projective-space-twist", "pqf-lem-affine-vanishing", "lem-pc-cech-computes", "lem-pc-twist-cocycle", "pqf-def-cohomology"]
 lean = ["AlgebraicGeometry.ProjectiveSpace.nonempty_H_twist_linearEquiv_monomialCechComplex_homology", "AlgebraicGeometry.ProjectiveSpace.nonempty_H_zero_twist_linearEquiv", "AlgebraicGeometry.ProjectiveSpace.subsingleton_H_zero_twist_of_neg", "AlgebraicGeometry.ProjectiveSpace.subsingleton_H_twist_of_ne_of_commRing", "AlgebraicGeometry.ProjectiveSpace.nonempty_H_twist_top_linearEquiv_finsupp", "AlgebraicGeometry.ProjectiveSpace.twistHTopBasis", "AlgebraicGeometry.ProjectiveSpace.subsingleton_H_twist_top_of_commRing", "AlgebraicGeometry.ProjectiveSpace.nonempty_H_twist_top_linearEquiv_self", "AlgebraicGeometry.ProjectiveSpace.subsingleton_H_twist_of_pos_of_commRing", "AlgebraicGeometry.ProjectiveSpace.finite_H_twist", "AlgebraicGeometry.ProjectiveSpace.nonempty_H_zero_twist_linearEquiv_of_card_eq_one"]
 +++

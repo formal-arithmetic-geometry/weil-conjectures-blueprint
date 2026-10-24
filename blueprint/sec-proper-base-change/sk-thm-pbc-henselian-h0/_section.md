@@ -17,5 +17,3 @@ $$
 $$
 
 The comparison is natural in $F$.
-
-The same holds for sheaves of sets (Stacks Project, Tag 0A0C).

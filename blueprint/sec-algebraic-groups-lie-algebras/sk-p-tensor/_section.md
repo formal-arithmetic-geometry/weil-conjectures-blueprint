@@ -3,7 +3,7 @@ id = "sk-p-tensor"
 kind = "proposition"
 title = "Tensor determinant weights"
 lean = ["Representation.exists_detWeight_eq_add_of_subquotient_tprod"]
-order = 3778
+order = 3774
 uses = ["sk-d-weights", "sk-p-central", "sk-p-readout", "sk-r-linear-library"]
 tags = ["sketch"]
 +++

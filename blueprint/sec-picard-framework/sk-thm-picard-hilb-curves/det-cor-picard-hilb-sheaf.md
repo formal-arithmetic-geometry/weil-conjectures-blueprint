@@ -2,7 +2,7 @@
 id = "det-cor-picard-hilb-sheaf"
 kind = "corollary"
 title = "Hilbert functor is the fppf sheaf"
-order = 798
+order = 799
 uses = ["det-thm-picard-descent"]
 lean = ["AlgebraicGeometry.isSheaf_hilbertPresheaf", "AlgebraicGeometry.isSheaf_zariskiTopology_hilbertPresheaf"]
 +++

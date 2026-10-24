@@ -2,7 +2,7 @@
 id = "lem-pc-schemes-criterion"
 kind = "lemma"
 title = "A representability criterion via covers"
-order = 806
+order = 807
 uses = ["def-pc-representable-functor", "def-pc-subfunctor"]
 lean = ["AlgebraicGeometry.isRepresentable_of_isSheaf_of_zariskiCovers"]
 +++

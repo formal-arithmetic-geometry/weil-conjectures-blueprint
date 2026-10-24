@@ -2,7 +2,8 @@
 id = "sk-lem-wweil-integer-rationality"
 kind = "lemma"
 title = "The integral reduced fraction"
-order = 4108
+lean = ["PowerSeries.existsUnique_isNormalizedIntegralFraction"]
+order = 4107
 uses = ["sk-prop-criterion", "sk-cor-tf-point-counting"]
 tags = ["sketch"]
 +++

@@ -4,10 +4,10 @@ kind = "definition"
 title = "Determinantal weight"
 lean = ["AlgebraicGeometry.WeilGroup.detWeight"]
 order = 3861
-uses = ["def-mg-determinant-line", "def-weil-punctual-weights", "lem-wf-determinantal-weight-coefficient-field", "lem-wf-determinantal-weight-exists"]
+uses = ["def-mg-determinant-line", "def-real-weil-representation-operations", "def-weil-punctual-weights", "lem-wf-determinantal-weight-coefficient-field", "lem-wf-determinantal-weight-exists"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, fix
-$\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and let $\mathcal V$ be an
+a field embedding $\iota:\Qlb\hookrightarrow\mathbf C$, and let $\mathcal V$ be an
 irreducible lisse Weil sheaf of rank $r$. Choose a finite coefficient
 field over which its representation is defined, and let $a$ be the
 weight of [lem-wf-determinantal-weight-exists], so that the

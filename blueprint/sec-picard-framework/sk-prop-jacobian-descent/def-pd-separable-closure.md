@@ -3,7 +3,7 @@ id = "def-pd-separable-closure"
 kind = "definition"
 title = "Separable closure"
 lean = ["IsSepClosure", "IsSepClosure.exists_intermediateField_mem", "AlgebraicGeometry.surjective_inf_flat_inf_quasiCompact_Spec_map_algebraMap"]
-order = 884
+order = 885
 uses = ["def-pc-base-change", "def-pc-separably-closed"]
 +++
 Let $k$ be a field. A *separable closure* of $k$ is a field $k_s$

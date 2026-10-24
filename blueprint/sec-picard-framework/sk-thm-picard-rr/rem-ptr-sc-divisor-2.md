@@ -2,7 +2,7 @@
 id = "rem-ptr-sc-divisor-2"
 kind = "remark"
 title = "Pointer to the properties of [def-sc-divisor]"
-order = 717
+order = 718
 uses = ["def-sc-divisor", "def-nagata-invertible-ideal", "lem-sc-cartier-divisor-points", "lem-sc-point-cartier"]
 +++
 In the notation of [def-sc-divisor], the following holds. When all

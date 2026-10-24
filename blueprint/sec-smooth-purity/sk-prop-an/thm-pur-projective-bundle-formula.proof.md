@@ -27,10 +27,13 @@ $h^n$ restricts to zero on $H$. Choose $n$ hyperplanes whose
 intersection is the origin of the affine chart; the product of their
 localized Kummer classes is supported at the origin, and after
 forgetting support and extending to $\mathbf P^n$ it is
-$h^n$; under the Künneth isomorphism this supported product is the
+$(-1)^nh^n$, since each factor forgets support to
+$c_1(\mathcal O(-1))=-h$ by [lem-pur-divisor-class]; under the Künneth
+isomorphism this supported product is the
 generator of
 $R\Gamma_c(\mathbf A^n,\Lambda)=\Lambda(-n)[-2n]$ fixed by the
-rank-one normalization ([thm-pur-rank-one-local-calculation]).
+rank-one normalization ([thm-pur-rank-one-local-calculation]), so $h^n$ is
+$(-1)^n$ times that generator.
 Therefore
 
 $$

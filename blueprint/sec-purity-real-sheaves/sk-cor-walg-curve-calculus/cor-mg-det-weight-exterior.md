@@ -5,14 +5,12 @@ title = "Determinant weights of an exterior power"
 lean = ["AlgebraicGeometry.WeilGroup.detWeight_subquotient_exteriorPower"]
 order = 3866
 tags = ["latex:corollary"]
-uses = ["def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "def-wf-geometric-semisimplicity", "lem-rp-determinant-weights-agree", "prop-ag-det-weight-exterior"]
+uses = ["def-mg-determinantal-weight-multiset", "def-mg-weil-composition-series", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "def-wf-geometric-monodromy-group", "lem-rp-determinant-weights-agree", "prop-ag-det-weight-exterior"]
 +++
-Let $X_0$ be a normal geometrically connected curve over $k_0$, put
-$|k_0|=q$, fix $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and let
+Let $X_0$ be a smooth geometrically connected curve over $k_0$, put
+$|k_0|=q$, fix a field embedding $\iota:\Qlb\hookrightarrow\mathbf C$, and let
 $\mathcal F_0$ be a nonzero lisse
-Weil sheaf on $X_0$ with
-semisimple geometric
-representation. Choose a
+Weil sheaf on $X_0$. Choose a
 composition series in the sense of
 [def-mg-weil-composition-series], with simple factors
 $A_1,\ldots,A_t$. Write $d_a=\dim A_a$ and let $\gamma_a$ be the

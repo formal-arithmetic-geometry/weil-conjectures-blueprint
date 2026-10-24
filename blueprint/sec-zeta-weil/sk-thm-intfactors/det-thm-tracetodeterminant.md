@@ -3,10 +3,10 @@ id = "det-thm-tracetodeterminant"
 kind = "theorem"
 title = "Trace-to-determinant identity"
 lean = ["TraceDatum.zeta_mul_prod_even_eq_prod_odd"]
-order = 4129
+order = 4128
 uses = ["det-def-cohfamily", "det-def-zeta", "sk-prop-logdet", "sk-cor-tf-point-counting"]
 +++
-Let $X_0/\Fq$ be smooth, proper and geometrically connected of pure dimension
+Let $X_0/\Fq$ be smooth and proper of pure dimension
 $d$, and let $(V_{i,\ell},F_{i,\ell},P_{i,\ell})$ be the family of
 [det-def-cohfamily]. Then
 

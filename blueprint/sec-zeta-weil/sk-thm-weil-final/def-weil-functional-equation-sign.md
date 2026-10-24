@@ -3,7 +3,7 @@ id = "def-weil-functional-equation-sign"
 kind = "definition"
 title = "Normalized functional-equation sign"
 lean = ["AlgebraicGeometry.weilSign"]
-order = 4151
+order = 4150
 uses = ["def-weil-determinant-constants", "def-weil-finite-field-fiber"]
 +++
 Let $p$ be prime, let $a\in\mathbf Z_{\geq1}$, and let

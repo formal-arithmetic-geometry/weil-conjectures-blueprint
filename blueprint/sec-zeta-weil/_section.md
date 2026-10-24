@@ -2,7 +2,7 @@
 id = "sec-zeta-weil"
 kind = "section"
 title = "Zeta Functions and the Weil Conjectures"
-order = 4088
+order = 4087
 uses = ["sec-abelian-varieties", "sec-curve-estimates", "sec-deligne-laumon-general", "sec-nagata-compactification", "sec-picard-framework", "sec-poincare-duality", "sec-proetale-coefficients", "sec-proper-base-change", "sec-purity-real-sheaves", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula", "sk-thm-br", "sk-thm-curveestimate"]
 +++
 **Content.** For a smooth proper $X_0/\Fq$ of pure dimension $d$, this
@@ -23,11 +23,12 @@ $q$-Weil numbers ([sk-thm-intfactors]).
 
 **Key theorem.**
 
-- Thm [sk-thm-weil-final] (the Weil conjectures): $Z(X_0,T)=\prod_{i=0}^{2d}P_i^{(-1)^{i+1}}$
+- Thm [sk-thm-weil-final] (the Weil conjectures): for geometrically connected
+  $X_0$, $Z(X_0,T)=\prod_{i=0}^{2d}P_i^{(-1)^{i+1}}$
   with $P_i\in\Z[T]$, $P_i(0)=1$; every reciprocal root $\alpha$ of $P_i$ has
   $|\tau(\alpha)|=q^{i/2}$ for all complex embeddings; $b_i=\deg P_i$
-  satisfies $b_i=b_{2d-i}$ and is independent of $\ell$ (and $P_0=1-T$,
-  $P_{2d}=1-q^dT$ if $X_0$ is geometrically connected); and
+  satisfies $b_i=b_{2d-i}$ and is independent of $\ell$, $P_0=1-T$ and
+  $P_{2d}=1-q^dT$; and
   $Z(X_0,q^{-d}T^{-1})=\pm\,q^{d\chi/2}T^{\chi}Z(X_0,T)$ with
   $\chi=\sum_i(-1)^ib_i$. Final result.
 - Cor [sk-cor-hasse] (point-count estimates): for geometrically connected

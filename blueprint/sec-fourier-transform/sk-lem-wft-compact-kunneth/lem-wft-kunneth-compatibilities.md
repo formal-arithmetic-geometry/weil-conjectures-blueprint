@@ -2,7 +2,7 @@
 id = "lem-wft-kunneth-compatibilities"
 kind = "lemma"
 title = "Compact-support Künneth: Weil structures and traces"
-order = 3938
+order = 3937
 uses = ["thm-sf-kunneth-relative", "fix-prop-projection-formula", "sk-prop-sf-cbc", "sk-def-sf-weil-complexes", "prop-pur-weil-equivariance-compatibilities", "sk-def-sp-trace", "sk-prop-sp-trace-composition", "sk-prop-sp-purity-bc"]
 +++
 Let $S$ be a separated finite-type $k$-scheme, $a:X\to S$ and $b:Y\to S$

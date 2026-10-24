@@ -10,8 +10,7 @@ Fix a prime $p$, $a\in\mathbf Z_{\geq1}$, put $q=p^a$,
 $k_0=\Fq$, and let $k=\Fbar$ be the
 fixed algebraic closure of $k_0$.
 Let $X_0/k_0$ be
-smooth, proper, geometrically
-connected of pure dimension $d\in\mathbf Z_{\geq0}$, with
+smooth and proper of pure dimension $d\in\mathbf Z_{\geq0}$, with
 $X=X_0\times_{k_0}k$. Fix an indeterminate $T$. For every prime
 $\ell\neq p$, write
 $\Ql=\mathbf Q_\ell$, and let

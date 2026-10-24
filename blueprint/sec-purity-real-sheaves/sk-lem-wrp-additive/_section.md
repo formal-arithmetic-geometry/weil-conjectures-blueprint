@@ -2,6 +2,7 @@
 id = "sk-lem-wrp-additive"
 kind = "lemma"
 title = "Invariant additive characters"
+lean = ["AlgebraicGeometry.WeilGroup.eq_one_of_conj_invariant"]
 order = 3839
 uses = ["sk-d-real-weil", "sk-prop-wrp-h1-no-fixed"]
 tags = ["sketch"]

@@ -3,7 +3,7 @@ id = "prop-pc-xk-integral"
 kind = "theorem"
 title = "Base changes of $X$ are integral smooth proper curves"
 lean = ["AlgebraicGeometry.Scheme.GlobalSectionsBijective.of_isSepClosed", "AlgebraicGeometry.isIso_pushforwardUnitMap_of_globalSectionsBijective", "AlgebraicGeometry.Scheme.smoothOfRelativeDimension_baseChange", "AlgebraicGeometry.Scheme.isProper_baseChange", "AlgebraicGeometry.Scheme.isReduced_baseChange", "AlgebraicGeometry.GeometricallyIntegral.of_smooth_of_geometricallyConnected", "AlgebraicGeometry.GeometricallyIntegral.of_isSepClosed", "AlgebraicGeometry.Scheme.isIntegral_baseChange", "AlgebraicGeometry.Scheme.GlobalSectionsBijective.pullback", "AlgebraicGeometry.Scheme.arithmeticGenus_pullback"]
-order = 827
+order = 828
 tags = ["latex:proposition"]
 uses = ["def-pc-curve", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "lem-pc-closed-imm-base-change", "lem-pc-dim-base-change", "lem-pc-flat-base-change-cohom", "lem-pc-flat-field", "lem-pc-h0-geom-connected", "lem-pc-proper-base-change", "lem-sc-smooth-regular", "rem-pc-regular-normal"]
 +++

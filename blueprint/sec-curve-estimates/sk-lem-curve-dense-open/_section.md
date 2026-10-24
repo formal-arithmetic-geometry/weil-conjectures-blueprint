@@ -17,4 +17,4 @@ $$
 $$
 
 Consequently the assertions $(C_1)$–$(C_8)$ of [def-weil-pbc-eight-curve-assertions]
-for $F$ and for $j_!j^*F$ are equivalent, each within its stated scope.
+for $F$ and for $j_!j^*F$ are equivalent.

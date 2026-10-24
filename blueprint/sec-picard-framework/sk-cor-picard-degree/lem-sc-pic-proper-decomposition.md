@@ -3,7 +3,7 @@ id = "lem-sc-pic-proper-decomposition"
 kind = "lemma"
 title = "Structure of the Picard group of a proper curve"
 lean = ["AlgebraicGeometry.Scheme.picDegreeHom", "AlgebraicGeometry.Scheme.coe_ker_picDegreeHom", "AlgebraicGeometry.Scheme.surjective_picDegreeHom", "AlgebraicGeometry.Scheme.exists_mulEquiv_prod_ker_picDegreeHom"]
-order = 873
+order = 874
 uses = ["def-sc-curves", "def-sc-pic0", "def-sc-picard-group"]
 +++
 Let $C$ be a proper smooth connected curve over

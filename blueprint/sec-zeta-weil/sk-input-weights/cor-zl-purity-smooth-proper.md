@@ -2,22 +2,21 @@
 id = "cor-zl-purity-smooth-proper"
 kind = "theorem"
 title = "Purity of smooth proper cohomology"
-lean = ["AlgebraicGeometry.WeilSheaf.purity_smoothProper"]
-order = 4094
+lean = ["AlgebraicGeometry.WeilSheaf.purity_smoothProper", "AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_cohomology_of_isLisse", "AlgebraicGeometry.WeilSheaf.isLisse_adicConstant", "AlgebraicGeometry.WeilSheaf.isPunctuallyPureOfWeight_adicConstant", "AlgebraicGeometry.WeilSheaf.hasWeightsAtMostOver_compactlySupportedCohomology_adicConstant"]
+order = 4093
 tags = ["latex:corollary"]
 uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-punctual-weights", "prop-weil-operations", "prop-zl-smooth-proper-relative-purity"]
 +++
 Fix the finite-field datum
 $(p,a,q,k_0,k)$, where $q=p^a$, and a prime $\ell\neq p$; write
 $\Ql=\mathbf Q_\ell$, choose an algebraic closure $\Qlb$ of $\Ql$,
-fix an isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and use the
+let $\iota:\Qlb\hookrightarrow\mathbf C$ be any field embedding, and use the
 coefficient sheaves $\Lambda_X=p_X^*\Lambda$ of the condensed rings
 $\Lambda=\Ql,\Qlb$ on the pro-étale site
 ([det-def-sfb-pulled-back-coefficients]), with complexes in
 $D^b_c(X,\Lambda)\subset D(X_{\mathrm{proét}},\Lambda)$
 ([det-def-sfb-bounded-constructible]). Let $X_0/k_0$ be
-smooth, proper, geometrically
-connected of pure dimension $d\in\mathbf Z_{\geq0}$, put
+smooth and proper of pure dimension $d\in\mathbf Z_{\geq0}$, put
 $X=X_0\times_{k_0}k$, let $F$ be the
 global geometric Frobenius
 in the geometric-Frobenius convention, and

@@ -9,10 +9,12 @@ In the notation of [def-weil-ambient-exceptional-adjoint], the following holds. 
 coefficient class [def-sf-fullcd-used-class] — the coefficient
 sheaves of étale origin, equivalently the constructible ones, and the
 complexes of the bounded constructible and finite-Tor categories —
-*both halves of this datum are theorems*: the vanishing half is the
-class-restricted datum [def-sf-fullcd-class] supplied by
-[thm-sf-fullcd-class] with the sharp comparison bound $M=0$ of
-[prop-sf-comparison-bound-zero], and the existence half, with its
-unit, counit and compactification comparisons, is
-[thm-sf-ambient-adjoint-class], both packaged as
-[cor-sf-ambient-adjoint-discharge] of the six-functor chapter.
+*the class forms of both halves of this datum are theorems*: the
+vanishing half is replaced by the class-restricted datum
+[def-sf-fullcd-class] supplied by [thm-sf-fullcd-class] with the sharp
+comparison bound $M=0$ of [prop-sf-comparison-bound-zero], and the
+existence half by the right adjoint relative to the bounded-below objects
+of étale origin, with its unit, counit and compactification comparisons,
+of [thm-sf-ambient-adjoint-class], both packaged as
+[cor-sf-ambient-adjoint-discharge] of the six-functor chapter. The datum
+itself, which quantifies over all objects, is false in general.

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-etale-finite-data-descent"
 kind = "lemma"
 title = "Finite-presentation data at an inverse limit"
-order = 1021
+order = 1022
 lean = ["AlgebraicGeometry.etale_finite_data_descent"]
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++

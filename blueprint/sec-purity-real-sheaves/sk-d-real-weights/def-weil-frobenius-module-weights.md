@@ -8,8 +8,8 @@ uses = ["def-weil-finite-field-fiber"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, and let $q=p^a$ be the
 fixed prime power. Fix a prime $\ell\neq p$, write $\Ql=\mathbf Q_\ell$,
-choose an algebraic closure $\Qlb$ of $\Ql$, and fix an isomorphism
-$\iota:\Qlb\xrightarrow{\sim}\mathbf C$. For a finite-dimensional
+choose an algebraic closure $\Qlb$ of $\Ql$, and fix a field embedding
+$\iota:\Qlb\hookrightarrow\mathbf C$. For a finite-dimensional
 $\Qlb$-vector space $V$, an automorphism $F$, and $w\in\mathbf R$, call
 $(V,F)$ $\iota$-pure of weight $w$ if every eigenvalue $\alpha$ of $F$
 satisfies $|\iota(\alpha)|=q^{w/2}$. Call $(V,F)$ $\iota$-mixed of weights at

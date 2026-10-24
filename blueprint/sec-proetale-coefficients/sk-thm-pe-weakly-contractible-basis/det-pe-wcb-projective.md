@@ -3,7 +3,7 @@ id = "det-pe-wcb-projective"
 kind = "lemma"
 title = "Representables of w-contractible affines are projective"
 lean = ["AlgebraicGeometry.Scheme.ProEt.isWeaklyContractible_of_iso"]
-order = 962
+order = 963
 uses = ["det-pe-wcb-clopen-partition", "det-pe-topos-functoriality-site"]
 +++
 Let $U=\operatorname{Spec}D$ with $D$ w-contractible be an object of $X_{\mathrm{proét}}$.

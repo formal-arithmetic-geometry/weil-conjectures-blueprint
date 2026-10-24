@@ -3,7 +3,7 @@ id = "sk-r-linear-library"
 kind = "lemma"
 title = "Tensor and exterior powers of filtered representations"
 lean = ["CompositionSeries.jordan_holder", "Representation.IsIrreducible.bijective_or_eq_zero", "Representation.IsIrreducible.algebraMap_intertwiningMap_bijective_of_isAlgClosed", "Subrepresentation.exists_subquotient_tprod_equiv"]
-order = 3755
+order = 3751
 uses = ["sk-i-restriction"]
 tags = ["sketch"]
 +++

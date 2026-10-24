@@ -3,17 +3,17 @@ kind  = "proof"
 of    = "lem-mg-degree-component-functoriality"
 +++
 Use the monodromy data of [def-wf-monodromy-data]. Every $U_i$
-and $U'_i$ is stable under $\rho(\Pi)$. Its stabilizer
+and $U'_i$ is stable under $\rho(P)$. Its stabilizer
 is closed by [lem-wf-stabilizer-density], so it is stable under
-$H_{\mathrm{geom}}=\overline{\rho(\Pi)}$ as well. Thus an element
-$h\in H_{\mathrm{geom}}$ induces an operator on every $Q_i$, hence on
+$H=\overline{\rho(P)}$ as well. Thus an element
+$h\in H$ induces an operator on every $Q_i$, hence on
 the displayed tensor product or exterior power. Denote that operator by
 $R(h)$. In bases adapted to $U'_i\subseteq U_i\subseteq V$, its
 matrix entries are polynomial expressions in the entries of $h$ and
 $\det(h)^{-1}$; hence $R$ is a regular homomorphism.
 
 Choose the same degree-one element $s$ for $\rho$ and $\rho_Q$.
-Because all subspaces are Weil-stable, $\rho(s)$ preserves them, and
+Because all subspaces are $W$-stable, $\rho(s)$ preserves them, and
 
 $$
 R\bigl(\rho(s)h\rho(s)^{-1}\bigr)
@@ -30,13 +30,13 @@ respects the semidirect-product multiplication of
 [lem-wf-arith-extension-group] and the degree components
 of [def-wf-degree-components]. To see that it lands in the target
 geometric group, take any closed subset of $\operatorname{GL}(Q)$
-containing $R(\rho(\Pi))=\rho_Q(\Pi)$. Its inverse image under $R$
-is closed and contains $\rho(\Pi)$, hence contains
-$H_{\mathrm{geom}}$; therefore it contains $R(H_{\mathrm{geom}})$.
+containing $R(\rho(P))=\rho_Q(P)$. Its inverse image under $R$
+is closed and contains $\rho(P)$, hence contains
+$H$; therefore it contains $R(H)$.
 This proves
-$R(H_{\mathrm{geom}})\subseteq H_{\mathrm{geom}}(\rho_Q)$, and the
+$R(H)\subseteq H(\rho_Q)$, and the
 reverse inclusion after taking Zariski closures follows from
-$R(\rho(\Pi))=\rho_Q(\Pi)$. Thus the image is dense in degree zero,
+$R(\rho(P))=\rho_Q(P)$. Thus the image is dense in degree zero,
 and translation by the degree-$m$ element gives density in every degree.
 
 If $z$ is central in the source, $\Phi_Q(z)$ commutes with the image

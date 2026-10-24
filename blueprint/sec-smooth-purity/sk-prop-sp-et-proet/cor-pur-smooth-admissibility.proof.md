@@ -2,9 +2,9 @@
 kind  = "proof"
 of    = "cor-pur-smooth-admissibility"
 +++
-By [cor-pur-dualizing-object-purity] the right adjoint $Rf^!$, whose
-existence on the coefficients used here is the theorem
-[cor-sf-ambient-adjoint-discharge], is
+By [cor-pur-dualizing-object-purity] the right adjoint $Rf^!$, which on
+the coefficients used here is the adjoint relative to the bounded-below
+objects of étale origin of [thm-sf-ambient-adjoint-class], is
 identified with $Lf^*(-)(d)[2d]$ on finite-Tor objects. For a
 bounded constructible complex $L$ without finite Tor amplitude, use
 the tensor formula on all ordinary etale complexes of

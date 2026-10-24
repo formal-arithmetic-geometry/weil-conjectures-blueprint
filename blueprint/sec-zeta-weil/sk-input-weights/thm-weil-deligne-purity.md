@@ -2,18 +2,17 @@
 id = "thm-weil-deligne-purity"
 kind = "theorem"
 title = "Deligne smooth-proper purity"
-lean = ["AlgebraicGeometry.WeilSheaf.deligne_purity"]
-order = 4095
-uses = ["cor-zl-purity-smooth-proper", "def-trf-frobenius-operators", "def-weil-complex-weights", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "det-def-sfb-pulled-back-coefficients", "sk-def-sf-weil-complexes", "lem-zl-constant-sheaf-weight-zero", "prop-weil-proper-compact-coincidence", "thm-sf-dual-perfect", "thm-zl-wme-deligne-estimate"]
+lean = ["AlgebraicGeometry.WeilSheaf.deligne_purity", "AlgebraicGeometry.WeilSheaf.isPunctuallyPureOfWeight_adicConstant", "AlgebraicGeometry.WeilSheaf.hasWeightsAtMostOver_compactlySupportedCohomology_adicConstant", "AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_cohomology_of_isLisse", "AlgebraicGeometry.WeilSheaf.isLisse_adicConstant"]
+order = 4094
+uses = ["cor-zl-purity-smooth-proper", "def-trf-frobenius-operators", "def-weil-complex-weights", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "det-def-sfb-pulled-back-coefficients", "sk-def-sf-weil-complexes", "lem-zl-constant-sheaf-weight-zero", "prop-weil-proper-compact-coincidence", "thm-sf-dual-perfect", "thm-zl-wme-deligne-estimate"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$,
 $k_0=\Fq$, and let $k=\Fbar$ be the
 fixed algebraic closure of $k_0$.
 Choose a prime $\ell\neq p$, write $\Ql=\mathbf Q_\ell$, choose an
 algebraic closure $\Qlb$ of $\Ql$, and
-an isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$. Let
-$X_0/k_0$ be smooth, proper,
-geometrically connected of pure dimension
+let $\iota:\Qlb\hookrightarrow\mathbf C$ be any field embedding. Let
+$X_0/k_0$ be smooth and proper of pure dimension
 $d\in\mathbf Z_{\geq0}$, and put
 $X=X_0\times_{k_0}k$. Let
 $a_X:X\to\operatorname{Spec}k$ be the structure morphism, and let
@@ -31,27 +30,11 @@ H^i(X,\Qlb)=H^i\!\left(Ra_{X*}(\Qlb)_X\right),
 $$
 
 using the ordinary and
-compactly supported cohomology functors. Assume
-$a_X:X\to\Spec k$ is exceptional-adjoint
-admissible at $\Qlb$, and choose a dualizing
-Weil complex
-$(\omega_X,\theta_{\omega_X})$ with
-
-$$
-\operatorname{For}(\omega_X)=Ra_X^!\Qlb,
-$$
-
-where $Ra_X^!$ is the
-exceptional inverse image
-for this admissible structure morphism, and require
-$\theta_{\omega_X}$ to be the canonical functorial Weil lift induced by
-geometric-Frobenius base change and the adjunction units and counits, rather
-than an arbitrary lift. Assume directly that all displayed
-cohomology groups are finite-dimensional $\Qlb$-vector spaces equipped with the
+compactly supported cohomology functors, with the
 induced $F$-actions. Weight predicates for
-$(\Qlb)_X$ and for these complexes use the
-Weil-complex weight definition; weights for the resulting vector spaces use
-finite-dimensional
+$(\Qlb)_X$ use the
+Weil-complex weight definition (with the dualizing Weil complex
+$Ra_X^!\Qlb$ fixed there); weights for the cohomology groups use
 Frobenius-module weights. Then,
 for every $0\leq i\leq2d$, the following five assertions hold:
 

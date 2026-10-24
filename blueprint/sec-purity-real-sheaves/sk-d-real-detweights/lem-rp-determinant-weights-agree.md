@@ -4,10 +4,10 @@ kind = "lemma"
 title = "Rank-one purity discharges the finite-determinant hypotheses"
 lean = ["AlgebraicGeometry.WeilGroup.hasFiniteGeometricDet_and_detWeight_eq"]
 order = 3862
-uses = ["cor-wf-rank-one-punctual-purity-curve", "d-weights", "def-mg-determinant-line", "def-wf-determinantal-weight", "lem-wf-determinantal-weight-exists", "thm-wf-rank-one-finite-geometric-image-curve"]
+uses = ["cor-wf-rank-one-punctual-purity-curve", "d-weights", "def-mg-determinant-line", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "lem-wf-determinantal-weight-exists", "thm-wf-rank-one-finite-geometric-image-curve"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, put
-$|k_0|=q$, fix $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and let
+$|k_0|=q$, fix a field embedding $\iota:\Qlb\hookrightarrow\mathbf C$, and let
 $\lambda_\iota(a)=2\log|\iota(a)|/\log q$ be the real weight character
 of [d-weights]. Every nonzero lisse Weil sheaf $\mathcal Q$ on $X_0$
 has finite geometric determinant in the sense of [d-weights]. If
