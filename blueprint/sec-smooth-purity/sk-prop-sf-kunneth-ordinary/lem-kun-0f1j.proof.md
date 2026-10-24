@@ -178,7 +178,8 @@ $$
 Since
 $R^qh_{i,*}\rho_i^{-1}e^{-1}\mathcal F=(\pi'_i)^{-1}(f')^{-1}R^qg_*\mathcal F$
 by [lem-kun-0f1i] (applied to the upper square, with base
-scheme $X_i$ of finite type over $K$ and the sheaf
+scheme $X_i$ of finite type over $K$, being finite over $X$, which is of
+finite type over $K$ by hypothesis, and the sheaf
 $\mathcal F$, a sheaf of $\kunFl$-vector spaces whose stalks are
 $\ell$-torsion with $\ell\mid n$
 invertible in $K$, hence of orders invertible in $K$ by

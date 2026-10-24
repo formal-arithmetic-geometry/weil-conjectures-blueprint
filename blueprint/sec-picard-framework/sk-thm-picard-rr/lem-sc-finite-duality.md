@@ -35,5 +35,15 @@ in particular, for an invertible $\mathcal M$
 ([def-sc-invertible-module]) the right hand side is
 $H^0(C,\omega_C\otimes\mathcal M^{-1})$. Here $\omega_{\mathbf P^1}:=\Omega^1_{\mathbf P^1_k/k}$ and
 $\omega_C:=\Omega^1_{C/k}$
-([def-sc-kahler-differentials]). The separability hypothesis cannot be
-dropped: for an inseparable $f$ the trace of differentials vanishes.
+([def-sc-kahler-differentials]).
+
+*Why separability is assumed.* The trace $\tau$ is the trace of
+differentials; at a generic point $\xi$ of $C$ it is
+$\operatorname{Tr}_{\kappa(\xi)/k(t)}\otimes\mathrm{id}$ on
+$\Omega^1_{\kappa(\xi)/k}=\kappa(\xi)\otimes_{k(t)}\Omega^1_{k(t)/k}$, an
+identification that needs $\kappa(\xi)/k(t)$ separable. If
+$\kappa(\xi)/k(t)$ is inseparable the trace of differentials vanishes (as
+does $\operatorname{Tr}_{\kappa(\xi)/k(t)}$), and $\varphi\mapsto\tau\circ f_*\varphi$
+is not an isomorphism; for example the Frobenius
+$F:\mathbf P^1_k\to\mathbf P^1_k$, $t\mapsto t^p$, is finite flat but not
+generically separable. Downstream uses choose a generically separable $f$.

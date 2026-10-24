@@ -6,7 +6,8 @@ The vanishing is [thm-sf-fullcd-etale-origin], whose two clauses are
 the absolute one and the relative one over every base change and whose bound
 is $2\dim\overline X\leq2d$; equivalently, by
 [lem-sf-fullcd-detection-equivalence], it is the vanishing of the
-pro-étale cohomology of the base-changed source for those coefficients.
+pro-étale cohomology of the sources $\overline X\times_YW$ base-changed to
+the affine weakly contractible objects $W$, for those coefficients.
 The class is stable under inverse image because the comparison pullback
 $\nu^*$ of [def-weil-pbc-site-comparison-morphism] is exact and
 commutes with the scheme pullbacks of the comparison sites, so the inverse

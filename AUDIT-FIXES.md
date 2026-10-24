@@ -269,3 +269,33 @@ Repair made (tex and `blueprint/` in sync):
 5. R10: `lem-weil-pbc-reconstruction-uniform-tower` (sec-proper-base-change) is correct under its own local-finite-free hypothesis, but anything citing it for a bare ctf tower inherits the gap; only the sketch text was adjusted.
 6. Q3: the detailed `thm-pd-jacobian-general-field` Step 7 still justifies the descent of the representing isomorphism with "an fppf sheaf is determined by its base change along a faithfully flat cover" (`Spec k_s → Spec k_0` is fpqc); it may deserve the limit-preserving argument now given in the sketch.
 7. Lean names flagged for re-checking against the changed statements: `localTerm_traceClass_eq_zero_of_isZero` (R8, no contracting hypothesis), `BaseChangeProperty.of_sub_one` and `CurveTestDatum` (R36/R7), `fourierKernel` (R13), `zetaSeries` (Q12), `AmbientExceptionalAdjointData` (R12), `PoincareDualitySetting` and the pro-étale `rightDerivedUpperShriekAdjunction` (R3-D), and the `SixOperationsPackage` fields touched by R19/R20/R35.
+
+---
+
+# Round 4: fixes from the Lean formalisation (2026-10-23)
+
+Blueprint nodes that the Lean formalisation (`formal-arithmetic-geometry/weil-conjectures`)
+found to be false or under-hypothesised, as recorded in the docstrings and review threads of
+the Lean pull requests cited. Only the `blueprint/` Markdown nodes change; the tex is not
+touched. Categories as in Round 3.
+
+## R4-A. Statements that were false
+
+| ID | md node | Lean names | Cat. | What changed |
+|---|---|---|---|---|
+| L2 | `lem-sf-fullcd-detection-equivalence` (sec-six-functors-basics/sk-prop-sf-fullcd-etale-origin) | `AlgebraicGeometry.ProEtale.hasUniformCohomologicalDimensionLE_iff_forall_ext` (Lean PR #1376) | statement | Was: `FullCD(p,A;c)` ⇔ `H^r((X̄×_Y V)_proét, F) = 0` for `r > c` and every `V` in `Y_proét`. **False**: for `p = id_Y`, `FullCD(id;0)` holds but `H^2(Y_proét, A) ≅ A(−1) ≠ 0` for a smooth projective curve `Y` over `F̄_q`. The Leray collapse only works over weakly contractible bases. Now the test objects are the affine weakly contractible `W → V` of `V_proét` (for every `V` in `Y_proét`), and the cohomology is that of `X̄×_Y W`. The proof was rewritten around the identification `H^r(X̄×_Y W, F) ≅ H^r(R(p_V)_*F)(W)`. Wording in the citers `thm-sf-fullcd-used-class` (proof), `rem-sf-fullcd-general-form`, `rem-sf-fullcd-reduction` now says "base-changed to the affine weakly contractible objects". |
+
+## R4-B. Hypotheses added
+
+| ID | md node | Lean names | What changed |
+|---|---|---|---|
+| L1 | `sk-prop-sf-finiteness` (sec-six-functors-basics) | `AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar_of_hasInvertibleExponent`, `…boundedConstructible_rightDerivedLowerShriek` (Lean PR #1356) | **New hypothesis: `Y` quasi-compact** (so of finite type over `k`). Counterexample recorded in the node: `f : ⊔ₙ ℙⁿ_k → ⊔ₙ Spec k` is proper, but `R^{2n}f_*Λ` is nonzero at the `n`-th point, so `Rf_*Λ` is not bounded. The proof now says where quasi-compactness is used (reduction to a finite affine cover of `Y`). The fibre-dimension vanishing `R^qf_!F = 0` (`q > 2e`) is local on `Y` and does not need the hypothesis. Citers work with finite-type `k`-schemes and are unaffected. |
+| L3 | `lem-sc-finite-duality` (sec-picard-framework/sk-thm-picard-duality) | `AlgebraicGeometry.Scheme.nonempty_homObj_pushforward_iso` (hypothesis `hf`), `…nonempty_homObj_pushforward_iso_pushforward_homObj` (Lean PR #1415) | **New hypothesis: `f` separable** (`k(C)/k(t)` separable, i.e. `f` generically étale). The isomorphism is induced by the trace of differentials, which vanishes for inseparable `f` (e.g. Frobenius `t ↦ t^p` on `ℙ¹`). The proof already used separability; it now cites the hypothesis. The only citer (`thm-sc-serre-duality-curve`) already chooses a separable `f`. |
+| L4 | `lem-kun-0f1j` (sec-smooth-purity/sk-prop-sf-kunneth-ordinary) | `AlgebraicGeometry.Etale.isIso_tensorBaseChangeMap_of_isGE` (`[LocallyOfFiniteType a] [QuasiCompact a]`, Lean PR #1552) | **New hypothesis: `X` of finite type over `K`.** The proof applies `lem-kun-0f1i` (stated for finite-type schemes) to the finite `X`-schemes `X_i`; the proof now says why they are of finite type. The unbounded form `lem-kun-0f1n` already assumed finite type. |
+| L5 | `lem-kun-0ezt` (same folder) | `AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isLimit` (Lean PR #1552) | **New hypothesis: every `S_i` and `X_i` quasi-compact and quasi-separated** (not in Stacks 0EZT; the reviewer expects it can be removed by localising on `S_{i₀}`, `X_{i₀}`). Recorded in the node. Citers: `lem-kun-0f1i-normal`, `lem-kun-0f1h` apply it to affine / finite-type systems; `lem-kun-0f09` (proof) now first localises on its base `S` to make `S`, `S_i`, `X ×_S S_i` qcqs, as the Lean proof does. |
+
+## R4-C. Wording (statement unchanged)
+
+| ID | md node | Lean names | Change |
+|---|---|---|---|
+| L6 | `lem-fix-operation-reduction` (sec-six-functors-basics/sk-prop-sf-pf-reduction) | `AlgebraicGeometry.ProEtale.ReductionCompatibility`, `AlgebraicGeometry.coefficientChangeCompatibility` (Lean PR #1531) | Added a formalisation-status remark: the pro-étale clause "reduction mod `𝔪_E` commutes with the projection map" is not yet formalised (`ProEtale.ReductionCompatibility` omits it for lack of an `UpperStarPreservesFlat` instance for general `Λ`), and the completed pro-étale projection formula for scalar extensions depends on it. |
