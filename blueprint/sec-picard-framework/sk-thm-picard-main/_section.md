@@ -2,7 +2,7 @@
 id = "sk-thm-picard-main"
 kind = "theorem"
 title = "The Picard scheme and Jacobian of a geometric curve"
-order = 849
+order = 850
 uses = ["sk-def-av-jacobian", "sk-def-picard-pic", "sk-prop-picard-pic-split", "sk-thm-picard-f-representable", "sk-thm-picard-twist", "sk-def-av-pic", "sk-thm-picard-hilb-curves", "sk-thm-picard-rr", "sec-abelian-varieties", "sec-nagata-compactification"]
 lean = ["AlgebraicGeometry.isRepresentable_picardFunctor", "AlgebraicGeometry.exists_jacobian", "AlgebraicGeometry.theorem_of_the_base", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctor", "AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one", "AlgebraicGeometry.exists_jacobian_baseChange"]
 tags = ["sketch"]

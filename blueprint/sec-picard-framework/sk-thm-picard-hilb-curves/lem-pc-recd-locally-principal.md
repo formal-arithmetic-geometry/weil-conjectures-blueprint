@@ -3,7 +3,7 @@ id = "lem-pc-recd-locally-principal"
 kind = "lemma"
 title = "Effective Cartier divisors from local equations"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsLocallyPrincipal.isInvertible_and_flat"]
-order = 809
+order = 810
 uses = ["def-pc-morphism-conventions", "def-pc-relative-effective-cartier", "def-nagata-invertible-ideal"]
 +++
 Let

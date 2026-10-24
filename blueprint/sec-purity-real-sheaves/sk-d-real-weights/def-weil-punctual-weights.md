@@ -9,7 +9,7 @@ uses = ["def-weil-finite-field-fiber", "def-weil-local-frobenius-trace", "def-we
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$, $k_0=\Fq$,
 and let $k=\Fbar$ be the fixed algebraic closure of $k_0$. Fix a prime
 $\ell\neq p$, write $\Ql=\mathbf Q_\ell$, choose an algebraic closure $\Qlb$
-of $\Ql$, and fix an isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$. Let
+of $\Ql$, and fix a field embedding $\iota:\Qlb\hookrightarrow\mathbf C$. Let
 $Y_0$ be a finite-type $k_0$-scheme, put $Y=Y_0\times_{k_0}k$, and let
 $\mathcal F\in\Cons(Y,\Qlb)$ be a constructible $\overline{\mathbf Q}_{\ell,Y}$-module on
 $Y_{\mathrm{proét}}$ ([sk-lem-coefficient-heart]) together with a Weil structure

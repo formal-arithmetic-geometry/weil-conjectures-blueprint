@@ -3,7 +3,7 @@ id = "prop-weil-integral-rational-series"
 kind = "theorem"
 title = "Normalized integral fraction for an integral rational series"
 lean = ["PowerSeries.existsUnique_isNormalizedIntegralFraction"]
-order = 4110
+order = 4109
 tags = ["latex:proposition"]
 uses = ["def-weil-normalized-integral-fraction", "lem-weil-finite-coordinate-detection", "prop-weil-rationality-criterion"]
 +++

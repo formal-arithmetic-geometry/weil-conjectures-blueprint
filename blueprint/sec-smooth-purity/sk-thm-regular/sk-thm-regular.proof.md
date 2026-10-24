@@ -52,7 +52,7 @@ for $\mathcal H^0$ glues the local frame classes (frames exist locally, $i$
 being regular) to a unique global $[Z\subset X]$.
 
 *Step 4: comparison with the smooth-purity isomorphism.* We show
-$\Phi_i(1)=[Z\subset X]$; both are sections of $\mathcal H^0$, so this is
+$\Phi_i(1)=(-1)^c[Z\subset X]$; both are sections of $\mathcal H^0$, so this is
 étale-local on $X$. Let $z\in Z$, choose a frame $f_1,\dots,f_c$ near $z$
 and functions $g_1,\dots,g_m$ near $z$ whose restrictions to $Z$ (smooth by
 [sk-lem-regular-smooth]) have differentials forming a basis of
@@ -76,17 +76,21 @@ $Ri_0^{!}Rp^{!}=\mathrm{id}$ (twists passing through $Ri_0^{!}$ by
 the clause rests on the normalization of [sk-thm-dnc] in standard
 coordinates), that isomorphism is the affine-space purity comparison $\gamma_{p,\Lambda}$
 of [sk-prop-an] ([def-pur-affine-space-comparison]), and by the normalization in [cor-pur-affine-space-zero-section-purity],
-$Ri_0^{!}\gamma_{p,\Lambda}$ composed with $Ri_0^{!}Rp^{!}=\mathrm{id}$ is the
-inverse of the Thom class. Hence $\Phi_{i_0}(1)$ is the generator of
-[cor-pur-affine-space-zero-section-purity],
-$\mathrm{pur}_s\boxtimes\cdots\boxtimes\mathrm{pur}_s
-=\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$ ([cor-pur-affine-space-zero-section-purity],
-with [sk-prop-a1]): the class of the coordinate frame.
+$Ri_0^{!}\gamma_{p,\Lambda}$ composed with $Ri_0^{!}Rp^{!}=\mathrm{id}$ is
+$(-1)^c$ times the inverse of the Thom class
+$\mathrm{pur}_s\boxtimes\cdots\boxtimes\mathrm{pur}_s$: it carries
+$\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$ to $(-1)^c$, each
+$\partial\kappa(t_j)$ being minus the Cartier class of $V(t_j)$, which the
+projective-line trace normalizes to $1$. Hence
+$\Phi_{i_0}(1)=(-1)^c\,\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$
+([cor-pur-affine-space-zero-section-purity], with [sk-prop-a1]): $(-1)^c$
+times the class of the coordinate frame.
 (iv) Kummer classes, boundaries and cup products with supports commute with
 pullback and $u^{*}t_j=f_j$, so $\Phi_i(1)|_{Z_U}=u'^{*}\Phi_{i_0}(1)
-=\operatorname{cl}(f)=[Z\subset X]|_{Z_U}$. Such $U$ cover $Z$, hence
-$\Phi_i(1)=[Z\subset X]$. As $\Phi_i$ is an isomorphism, $[Z\subset X]$
-generates every stalk and $\operatorname{cl}_i=\Phi_i$; this is (b) and (c).
+=(-1)^c\operatorname{cl}(f)=(-1)^c[Z\subset X]|_{Z_U}$. Such $U$ cover $Z$, hence
+$\Phi_i(1)=(-1)^c[Z\subset X]$. As $\Phi_i$ is an isomorphism and $(-1)^c$ is
+a unit, $[Z\subset X]$ generates every stalk and
+$\operatorname{cl}_i=(-1)^c\Phi_i$; this is (b) and (c).
 
 *Step 5: compatibilities.* An étale $X'\to X$ pulls frames back to
 frames and frame classes to frame classes, so

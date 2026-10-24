@@ -3,13 +3,12 @@ id = "def-mg-determinant-line"
 kind = "definition"
 title = "Determinant line"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.det", "Matrix.GeneralLinearGroup.detGL", "Matrix.GeneralLinearGroup.exists_algHom_comp_eq_evalAlgHom_detGL"]
-order = 3751
-uses = ["def-weil-weil-sheaf-complex", "def-wf-fundamental-representation", "sk-lem-coefficient-heart"]
+order = 3747
+uses = ["d-monodromy"]
 +++
-If $\mathcal V$ is a rank-$r$ lisse
-Weil sheaf with
-fundamental representation
-$V$, its *determinant line* is the rank-one Weil representation
+Let $\rho:W\to\operatorname{GL}(V)$ be a Weil representation of rank $r$
+of a degree datum ([d-monodromy]). Its *determinant line* is the
+rank-one Weil representation
 
 $$
 \det(V):=\bigwedge\nolimits^r V,
@@ -17,4 +16,7 @@ $$
 \det(\rho)(g)=\det(\rho(g)).
 $$
 
-The corresponding rank-one Weil sheaf is denoted $\det(\mathcal V)$.
+With the same degree datum it is again a represented degree datum. The
+determinant $\det:\operatorname{GL}_r\to\operatorname{GL}_1$ is a
+homomorphism of algebraic groups, given by a polynomial in the matrix
+entries, and $\det(\rho)$ is the composite of $\rho$ with it.

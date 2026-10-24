@@ -2,6 +2,7 @@
 id = "sk-prop-wrp-h1-no-fixed"
 kind = "proposition"
 title = "No fixed class in degree one"
+lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_section_of_isIsomorphic_mapIso"]
 order = 3833
 uses = ["sk-cor-pe-bounded-continuity", "sk-d-real-jacobian", "sk-i-real-compactification", "sk-p-tate", "sk-prop-pe-continuous-cohomology", "sk-prop-sf-open-closed-triangle", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-sf-identification"]
 tags = ["sketch"]

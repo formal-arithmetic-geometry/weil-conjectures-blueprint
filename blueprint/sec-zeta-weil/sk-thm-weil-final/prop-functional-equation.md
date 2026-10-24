@@ -3,7 +3,7 @@ id = "prop-functional-equation"
 kind = "theorem"
 title = "Functional equation"
 lean = ["AlgebraicGeometry.WeilFunctionalEquation.prod_determinant_sq", "AlgebraicGeometry.weilSign_eq_one_or_eq_neg_one", "AlgebraicGeometry.WeilFunctionalEquation.alternatingProdEval_eq_prod_determinant", "AlgebraicGeometry.WeilFunctionalEquation.alternatingProdEval_eq"]
-order = 4153
+order = 4152
 tags = ["latex:proposition"]
 uses = ["def-weil-determinant-constants", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-functional-equation-sign", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-duality-reciprocity", "prop-trace-determinant"]
 +++
@@ -14,8 +14,7 @@ Fix a prime $\ell\neq p$, write $\Ql=\mathbf Q_\ell$, and fix an
 indeterminate $T$. For $P(T)=\sum_r c_rT^r\in\mathbf Z[T]$, write
 $P^{(\ell)}(T)=\sum_r(c_r\cdot1_{\Ql})T^r$ for coefficientwise extension.
 Let $X_0/k_0$ be a
-smooth, proper, geometrically
-connected scheme of pure dimension
+smooth, proper and geometrically connected scheme of pure dimension
 $d\in\mathbf Z_{\geq0}$; put $X=X_0\times_{k_0}k$. Let $F$ be
 geometric Frobenius. For every integer $i$
 with $0\leq i\leq2d$, put

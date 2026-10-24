@@ -16,5 +16,9 @@ $$
 of pullbacks of module objects ([def-sfb-module-upper-star]) is the isomorphism of
 left adjoints conjugate, under the adjunctions $(g\circ f)^*\dashv(g\circ f)_*$ and
 $f^*\circ g^*\dashv g_*\circ f_*$ of [def-sfb-module-upper-lower-adjunction], to the
-inverse of the composition isomorphism $g_*\circ f_*\cong(g\circ f)_*$ of
-[def-sfb-module-lower-star-comp].
+composition isomorphism $g_*\circ f_*\cong(g\circ f)_*$ of
+[def-sfb-module-lower-star-comp]. Since conjugation reverses the direction of
+transformations, its forward map $(g\circ f)^*\to f^*\circ g^*$ is the conjugate of
+the forward map $g_*\circ f_*\to(g\circ f)_*$, and its inverse
+$f^*\circ g^*\to(g\circ f)^*$ is the conjugate of the inverse
+$(g\circ f)_*\to g_*\circ f_*$.

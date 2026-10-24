@@ -2,7 +2,7 @@
 id = "lem-pc-dense-separable-points"
 kind = "lemma"
 title = "Density of rationally defined closed points"
-order = 845
+order = 846
 uses = ["def-pc-field-tower", "def-pc-morphism-conventions", "def-pc-scheme", "def-weil-scheme-morphism-properties"]
 lean = ["AlgebraicGeometry.Scheme.Hom.dense_setOf_isClosed_finite_isSeparable"]
 +++

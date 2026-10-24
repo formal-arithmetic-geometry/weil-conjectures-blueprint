@@ -2,7 +2,7 @@
 id = "rem-ptr-wf-arithmetic-monodromy-extension-1"
 kind = "remark"
 title = "Pointer to the properties of [def-wf-arithmetic-monodromy-extension]"
-order = 3744
+order = 3740
 uses = ["def-wf-arithmetic-monodromy-extension", "lem-wf-arith-extension-group"]
 +++
 In the notation of [def-wf-arithmetic-monodromy-extension]: that the

@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-etale-cohomology-1"
 kind = "remark"
 title = "Pointer to the properties of etale cohomology"
-order = 1011
+order = 1012
 uses = ["def-weil-pbc-etale-cohomology"]
 +++
 In the notation of [def-weil-pbc-etale-cohomology], the following holds. The

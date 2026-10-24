@@ -3,7 +3,7 @@ id = "det-pe-topos-functoriality-site"
 kind = "lemma"
 title = "The pro-étale site is subcanonical and essentially small"
 lean = ["AlgebraicGeometry.Scheme.ProEt.topology", "CategoryTheory.GrothendieckTopology.subcanonical_of_full_of_faithful", "CategoryTheory.GrothendieckTopology.hasSheafify_proEtTopology"]
-order = 916
+order = 917
 uses = ["def-weil-pbc-proetale-site", "def-weil-pbc-proetale-covering", "lem-trf-weakly-etale-between-objects", "lem-weil-pbc-ind-etale-stability"]
 +++
 Let $X$ be a scheme and $X_{\mathrm{proét}}$ its small pro-étale site

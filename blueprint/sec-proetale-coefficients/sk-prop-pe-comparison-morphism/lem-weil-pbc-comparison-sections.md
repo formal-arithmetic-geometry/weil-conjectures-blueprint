@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-comparison-sections"
 kind = "lemma"
 title = "Sections of the comparison inverse image"
-order = 992
+order = 993
 lean = ["AlgebraicGeometry.ProEtale.isColimit_comparisonUpperStar_mapCocone"]
 uses = ["def-weil-pbc-ind-etale-basis", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-etale-finite-data-descent", "lem-weil-pbc-ind-etale-basis", "lem-weil-pbc-ind-etale-stability"]
 +++

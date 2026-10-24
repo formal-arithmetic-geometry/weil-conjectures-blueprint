@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-split-hypercover"
 kind = "definition"
 title = "Finite split etale hypercovers"
-order = 1017
+order = 1018
 lean = ["AlgebraicGeometry.SplitEtaleHypercover", "AlgebraicGeometry.FiniteSplitEtaleHypercover", "AlgebraicGeometry.TruncatedFiniteSplitEtaleHypercover", "AlgebraicGeometry.FiniteSplitEtaleHypercover.isRefinementHomotopic", "AlgebraicGeometry.FiniteSplitEtaleHypercover.complex"]
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++

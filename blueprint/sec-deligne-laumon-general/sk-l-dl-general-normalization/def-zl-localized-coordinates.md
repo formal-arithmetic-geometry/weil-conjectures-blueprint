@@ -2,7 +2,7 @@
 id = "def-zl-localized-coordinates"
 kind = "definition"
 title = "Coordinates on a principal open of an affine base"
-order = 4079
+order = 4078
 lean = ["AlgebraicGeometry.Scheme.Hom.toIteratedAffineLine"]
 uses = ["def-sbc-affine-space", "def-weil-pbc-scheme-conventions"]
 +++

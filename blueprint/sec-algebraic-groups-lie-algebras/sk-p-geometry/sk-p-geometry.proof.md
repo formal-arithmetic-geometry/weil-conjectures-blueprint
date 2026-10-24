@@ -20,11 +20,19 @@ inverse of one of its points in the image, we obtain an open neighbourhood
 of $1$ contained in the image, and translating further by points of the
 image, we see that the image is open in $J$. Its complement is a union of
 cosets of this open subgroup, hence open as well. Therefore the image is
-closed, and since it is dense in $J$, it is equal to $J$.
+closed, and since it is dense in $J$, it is equal to $J$. For closed
+subgroups $G\subseteq\GL(V)$ and $G'\subseteq\GL(W)$, take $J$ with its
+reduced structure: since $J\times J$ is reduced and multiplication and
+inversion preserve $J(L)$, they restrict to $J$, so $J$ is a closed
+subgroup of $G'$, and $f(G(L))=J(L)$.
 
-Finally, let $K$ be as in the last assertion. By Cartier's theorem
-[sk-i-cartier], $\dim K=\dim\Lie(K)=\dim G$. Since a proper closed subset
-of the irreducible variety $G$ has smaller dimension, $K$ and $G$ have the
-same underlying closed subset. Both are reduced by [sk-i-cartier], and
-hence they are equal as schemes. The dimension version in the complement
-is the same argument.
+Next, let $J\subseteq G$ be as in the dimension criterion, with $G$
+connected. By the first part, $G$ is irreducible. Since a proper closed
+subset of the irreducible variety $G$ has smaller dimension, $J$ and $G$
+have the same underlying closed subset. Both are reduced by
+[sk-i-cartier], and hence they are equal as schemes.
+
+Finally, let $K\subseteq G\subseteq\GL(V)$ be as in the last assertion.
+By Cartier's theorem [sk-i-cartier],
+$\dim K=\dim\Lie(K)=\dim\Lie(G)=\dim G$, so $K=G$ by the dimension
+criterion.

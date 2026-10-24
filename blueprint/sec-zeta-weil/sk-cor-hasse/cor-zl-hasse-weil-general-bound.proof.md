@@ -39,7 +39,7 @@ roots of $P_{i,\ell}$, and there are $b_i=\deg P_{i,\ell}$ of them
 ([def-weil-smooth-proper-cohomological-family]). By
 [prop-weight-purity-roots], $|\iota(\alpha_{i,j})|=q^{i/2}$ for every
 $j$. The trace of $F_{i,\ell}^n$ is $\sum_j\alpha_{i,j}^n$ and $\iota$
-is a field isomorphism, so the triangle inequality in $\mathbf C$ gives
+is a field embedding, so the triangle inequality in $\mathbf C$ gives
 
 $$
 \Bigl|\iota\Tr\bigl(F_{i,\ell}^n\mid V_{i,\ell}\bigr)\Bigr|

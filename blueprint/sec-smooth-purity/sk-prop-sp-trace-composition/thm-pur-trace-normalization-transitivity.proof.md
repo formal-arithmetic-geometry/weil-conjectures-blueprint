@@ -53,19 +53,24 @@ $\gamma_{p_d,\Lambda}$ is the affinity-space purity comparison, i.e. the affinit
 (the case $d+e$ with $e=1$: the $d$-fold trace is the iterate of
 the one-fold trace), and with the case $d=1$ being
 [thm-pur-affine-line-purity] in adjoint form (the
-affine-line integration $\int_p$ of the orientation sends the
-fundamental class of $\mathbf A^1$ to $1$, by the normalization of
-the orientation in [thm-pur-affine-line-orientation]), the trace
-of the ordered fundamental class, the $d$-fold tensor of the
+affine-line integration $\int_p$, the adjoint of the projective-line
+trace normalized by $t_q(c_1(\mathcal O(1)))=1$, sends the Cartier class
+of the zero section to $1$ and the class of the orientation
+$\operatorname{pur}_s=\partial\kappa(t)$ of
+[thm-pur-affine-line-orientation], which is minus the Cartier class, to
+$-1$, by [cor-pur-affine-space-zero-section-purity] with $c=1$), the
+trace of the ordered fundamental class, the $d$-fold tensor of the
 affine-line classes, is the product of the images, i.e.
 
 $$
-\operatorname{Tr}^{\mathrm{sm}}_{p_d,\Lambda}\bigl(\underbrace{1\otimes\cdots\otimes1}\bigr)=1\in\Lambda;
+\operatorname{Tr}^{\mathrm{sm}}_{p_d,\Lambda}\bigl(\underbrace{\partial\kappa(t_1)\otimes\cdots\otimes\partial\kappa(t_d)}\bigr)=(-1)^d\in\Lambda,
 $$
 
-the intermediate Koszul signs in the reassociations are $+1$ by
-[cor-pur-affine-space-purity] (the shift factors are of even
-degree). Step 3: the base-change compatibility. The smooth trace is
+and likewise the $d$-fold tensor of the Cartier classes goes to $1$;
+this agrees with [cor-pur-affine-space-zero-section-purity] for
+$B=\Spec k$, $c=d$. The intermediate Koszul signs in the
+reassociations are $+1$ by [cor-pur-affine-space-purity] (the shift
+factors are of even degree). Step 3: the base-change compatibility. The smooth trace is
 compatible with the base change of $Z$ by the conjugation of
 [thm-pur-smooth-base-change-coherence] with the compact-support
 base change of the adjunctions (the trace is the counit, the counit of
@@ -80,4 +85,4 @@ are [sk-prop-sp-trace-composition] and [sk-prop-sp-purity-bc]. The
 normalization on $\mathbf A^d$ holds because these traces are, by
 [det-sp-purity-coefficient-change], the derived limit, the
 rationalization and the scalar extension of the finite traces, and these
-operations send $1$ to $1$.
+operations send $\pm1$ to $\pm1$.

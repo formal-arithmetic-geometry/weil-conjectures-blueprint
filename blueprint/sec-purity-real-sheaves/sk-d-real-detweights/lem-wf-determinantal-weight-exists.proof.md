@@ -2,11 +2,12 @@
 kind  = "proof"
 of    = "lem-wf-determinantal-weight-exists"
 +++
-The determinant line $\det(\mathcal V)=\bigwedge^r\mathcal V$ of
-[def-mg-determinant-line] is a lisse Weil sheaf of rank one on
-$X_0$. With respect to the fundamental representation of
+The determinant $\det(\mathcal V)$ of
+[def-real-weil-representation-operations] is a lisse Weil sheaf of rank
+one on $X_0$. With respect to the fundamental representation of
 [def-wf-fundamental-representation] it is given by the continuous
-character $\chi_{\det}=\det\circ\rho_{\mathcal V}$ of $W(X_0,\bar x)$
+character $\chi_{\det}=\det\circ\rho_{\mathcal V}$ of $W(X_0,\bar x)$,
+the determinant line of [def-mg-determinant-line],
 with values in the finite coefficient field $E$ over which
 $\mathcal V$ is defined. The finite geometric image theorem
 [thm-wf-rank-one-finite-geometric-image-curve], applied to the normal

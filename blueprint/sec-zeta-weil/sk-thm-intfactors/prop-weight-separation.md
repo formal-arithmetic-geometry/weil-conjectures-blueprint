@@ -3,7 +3,7 @@ id = "prop-weight-separation"
 kind = "theorem"
 title = "Weight separation"
 lean = ["AlgebraicGeometry.Scheme.isCoprime_frobeniusCharpolyRev", "AlgebraicGeometry.Scheme.isCoprime_oddFrobeniusProduct_evenFrobeniusProduct", "AlgebraicGeometry.Scheme.coeff_zero_oddFrobeniusProduct", "AlgebraicGeometry.Scheme.coeff_zero_evenFrobeniusProduct", "AlgebraicGeometry.Scheme.roots_map_frobeniusCharpolyRev_eq_filter"]
-order = 4131
+order = 4130
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-ordinary-reciprocal-roots", "def-weil-parity-products", "def-weil-point-counts-zeta", "def-weil-punctual-weights", "def-weil-smooth-proper-cohomological-family"]
 +++
@@ -11,8 +11,8 @@ Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$,
 $k_0=\Fq$, and let $k=\Fbar$ be the
 fixed algebraic closure of $k_0$.
 Fix a prime $\ell\neq p$, write $\Ql=\mathbf Q_\ell$, choose an algebraic
-closure $\Qlb$ of $\Ql$, and fix an isomorphism
-$\iota:\Qlb\xrightarrow{\sim}\mathbf C$ and an indeterminate $T$. Let
+closure $\Qlb$ of $\Ql$, and fix a field embedding
+$\iota:\Qlb\hookrightarrow\mathbf C$ and an indeterminate $T$. Let
 $X_0/k_0$ be
 smooth, proper, geometrically
 connected of pure dimension
@@ -67,5 +67,5 @@ $$
 |\iota(\alpha)|=q^{i/2}
 $$
 
-for the fixed isomorphism
-$\iota:\Qlb\xrightarrow{\sim}\mathbf C$.
+for the fixed field embedding
+$\iota:\Qlb\hookrightarrow\mathbf C$.

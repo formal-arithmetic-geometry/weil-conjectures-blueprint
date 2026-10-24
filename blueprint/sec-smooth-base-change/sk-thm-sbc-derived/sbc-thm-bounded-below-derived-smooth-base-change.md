@@ -15,4 +15,4 @@ $$
 {\operatorname{BC}}_{f,g}(K):Lf^*Rg_*K\xrightarrow{\ \sim\ }Rh_*Le^*K
 $$
 
-in $D^+_{\mathcal P\text{-tor}}(S_{\Et})$.
+in $D^+_{\mathcal P\text{-tor}}(X_{\Et})$.

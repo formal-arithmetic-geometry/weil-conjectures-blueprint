@@ -2,7 +2,7 @@
 id = "sec-fourier-transform"
 kind = "section"
 title = "Fourier Transform"
-order = 3922
+order = 3921
 uses = ["sec-abelian-varieties", "sec-curve-estimates", "sec-nagata-compactification", "sec-poincare-duality", "sec-proetale-coefficients", "sec-proper-base-change", "sec-purity-real-sheaves", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula", "sk-prop-curve-affine-kummer"]
 +++
 The Fourier transform expresses the compactly supported cohomology of

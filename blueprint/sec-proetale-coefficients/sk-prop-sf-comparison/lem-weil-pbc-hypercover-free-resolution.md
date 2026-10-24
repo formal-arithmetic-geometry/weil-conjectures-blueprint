@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-hypercover-free-resolution"
 kind = "lemma"
 title = "The augmented free complex of a hypercover"
-order = 1019
+order = 1020
 lean = ["AlgebraicGeometry.SplitEtaleHypercover.freeAbelian_augmentation_quasiIso", "AlgebraicGeometry.SplitEtaleHypercover.injective_abelian_section_cohomology", "AlgebraicGeometry.SplitEtaleHypercover.freeModule_augmentation_quasiIso", "AlgebraicGeometry.SplitEtaleHypercover.injective_module_section_cohomology"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-finite-split-hypercover"]
 +++

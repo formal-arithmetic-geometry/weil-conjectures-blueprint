@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Top-degree trace"
 lean = ["AlgebraicGeometry.WeilSheaf.exists_traceCup_isPerfect"]
 order = 3427
-uses = ["sk-def-trace-cup", "sk-lem-finite", "sk-prop-an", "sk-thm-purity-transport", "sk-thm-regular", "sk-thm-sf-identification", "sk-thm-smooth-purity", "sk-def-sp-trace", "sk-prop-scalar-six", "sk-def-ops", "sk-thm-derived-duality"]
+uses = ["sk-def-trace-cup", "sk-lem-finite", "sk-lem-geo-cartier", "sk-prop-an", "sk-thm-purity-transport", "sk-thm-regular", "sk-thm-sf-identification", "sk-thm-smooth-purity", "sk-def-sp-trace", "sk-prop-scalar-six", "sk-def-ops", "sk-thm-derived-duality"]
 tags = ["sketch"]
 +++
 Let $X/k$ be smooth, proper and connected of pure dimension $d$, with $k$
@@ -48,9 +48,14 @@ $\operatorname{tr}_X(d)([x])=1$.
    $Ra_{X!}\simeq Ra_{X*}$, the adjunction $a_X^*\dashv Ra_{X*}$, the isomorphism
    $\Lambda_X(d)[2d]\simeq\omega_X$ and the adjunction $Ra_{X!}\dashv a_X^!$,
    followed by evaluation at $1\in H^0(X,\Lambda_X)$.
-2. **(ii)** The class $[x]$ is the image in $H^{2d}(X,\Lambda_X(d))$, by forgetting
-   supports, of the fundamental class $[x\subset X]$ of the regular closed immersion
-   $x$ of codimension $d$ ([sk-thm-regular], $c=d$). Here $[x\subset X]$ is defined at
+2. **(ii)** The class $[x]$ is $(-1)^d$ times the image in $H^{2d}(X,\Lambda_X(d))$,
+   by forgetting supports, of the fundamental class $[x\subset X]$ of the regular
+   closed immersion $x$ of codimension $d$ ([sk-thm-regular], $c=d$); equivalently,
+   the class in $H^{2d}_x(X,\Lambda_X(d))$ given by the image of $1$ in $x^!\omega_X$,
+   of which $[x]$ is the image, is étale-locally at $x$, in coordinates
+   $t_1,\dots,t_d$, the product $c_{V(t_1)}\cup\cdots\cup c_{V(t_d)}$ of the Cartier classes of the
+   coordinate hyperplanes ([sk-lem-geo-cartier]), each $\partial\kappa(t_j)$ being
+   $-c_{V(t_j)}$. Here $[x\subset X]$ is defined at
    $\Lambda=A_{E,n}$; at $\Oe$ it means the compatible system of the finite-level
    classes, and at $E$, $\Qlb$ its image under scalar extension.
 3. **(iii)** For field coefficients the constant-coefficient pairings

@@ -4,10 +4,10 @@ of    = "thm-weil-deligne-purity"
 +++
 *Step 1: the main-route purity input.* The constant
 $\Qlb$-Weil sheaf $(\Qlb)_X$ is the constant $\Qlb$-sheaf of
-[cor-zl-purity-smooth-proper] of the zeta chapter on the smooth,
-proper, geometrically connected $X_0$ of pure dimension $d$: the
-smoothness, properness, geometric connectedness, coefficient, and
-Frobenius data of that corollary are among those fixed in the
+[cor-zl-purity-smooth-proper] of the zeta chapter on the smooth and
+proper $X_0$ of pure dimension $d$: the
+smoothness, properness, coefficient, embedding $\iota$, and
+Frobenius data of that corollary are exactly those fixed in the
 statement, and the cohomological family is extended to $\Qlb$ with
 the Frobenius operator $F_{\Qlb}$ as in the constant-sheaf setting
 there. Hence, for every $0\leq i\leq2d$,
@@ -60,7 +60,9 @@ D_XK=R\mathcal Hom_{\Qlb}\bigl(K,\omega_X\bigr),
 \qquad \operatorname{For}(\omega_X)=Ra_X^!\Qlb,
 $$
 
-by the choice made in the statement and
+by the dualizing Weil complex fixed in [def-weil-complex-weights]
+(the constructible exceptional inverse image of the structure morphism,
+with its canonical Weil lift) and
 [def-weil-derived-pullback-tensor-hom]; the smooth-dualizing
 identification [thm-sf-dual-perfect] gives
 

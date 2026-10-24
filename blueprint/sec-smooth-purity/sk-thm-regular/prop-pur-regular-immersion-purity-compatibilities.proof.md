@@ -5,12 +5,16 @@ of    = "prop-pur-regular-immersion-purity-compatibilities"
 All four assertions reduce to the corresponding assertions about the
 canonical classes of [def-pur-frame-class] together with the
 canonical structure of the identification of
-[thm-pur-regular-immersion-purity]: the purity isomorphism is the
-composite of the smooth purity identifications of the structure
-morphisms, the composition law for $(-)^!$ and the co-projection
-(Steps 1–2 of [thm-pur-regular-immersion-purity]), and only the
-classes carry the content (everything else is the canonical
-six-functor structure).
+[thm-pur-regular-immersion-purity]: the purity isomorphism is
+$(-1)^c$ times the composite of the smooth purity identifications of
+the structure morphisms, the composition law for $(-)^!$ and the
+co-projection (Steps 1–2 of [thm-pur-regular-immersion-purity]), and
+only the classes carry the content (everything else is the canonical
+six-functor structure). The sign $(-1)^c$ is preserved by base change
+of the same codimension, multiplicative under transverse composition
+and exterior products (the codimensions add) and unchanged by
+reduction of the coefficients, so it is compatible with all four
+assertions.
 
 *(a) Base change.* For $X'\to X$ smooth (in particular étale) the structure morphisms and the whole
 composite identification of Steps 1–2 are stable under base change

@@ -3,7 +3,7 @@ id = "cor-fd-plancherel"
 kind = "theorem"
 title = "Plancherel identity on the line"
 lean = ["AlgebraicGeometry.WeilComplex.traceEnergy_fourierTransform"]
-order = 3961
+order = 3960
 tags = ["latex:corollary"]
 uses = ["def-fd-trace-function", "def-fd-transform", "lem-fd-additive-orthogonality", "thm-fd-fourier-trace"]
 +++

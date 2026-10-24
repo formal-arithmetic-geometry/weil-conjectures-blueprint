@@ -3,7 +3,7 @@ id = "lem-pc-projective-coordinate-model"
 kind = "lemma"
 title = "A coordinate ring for an integral projective scheme"
 lean = ["AlgebraicGeometry.exists_isStandard_iso_proj"]
-order = 686
+order = 687
 uses = ["def-pc-morphism-conventions", "def-pc-proj", "def-pc-scheme", "def-pc-standard-graded-algebra"]
 +++
 Let $X$ be an integral scheme over a field $k$, equipped with a

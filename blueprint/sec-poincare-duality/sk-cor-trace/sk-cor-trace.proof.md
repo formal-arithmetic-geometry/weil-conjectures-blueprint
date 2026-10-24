@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-cor-trace"
-uses = ["sk-thm-sf-identification", "sk-prop-scalar-six", "sk-def-ops", "sk-thm-regular", "sk-thm-smooth-purity", "sk-thm-purity-transport", "sk-thm-derived-duality", "sk-def-trace-cup"]
+uses = ["sk-thm-sf-identification", "sk-prop-scalar-six", "sk-def-ops", "sk-lem-geo-cartier", "sk-thm-regular", "sk-thm-smooth-purity", "sk-thm-purity-transport", "sk-thm-derived-duality", "sk-def-trace-cup"]
 +++
 With finite coefficients, étale cohomology of a $d$-dimensional scheme over an
 algebraically closed field vanishes above degree $2d$; this bound was used for
@@ -35,8 +35,9 @@ For the point class, the composite of the closed-support counit with the smooth
 trace is, by composition of exceptional adjunctions, the counit of
 $a_Xx=\mathrm{id}$. It takes $1$ to $1$. This proves normalization for the class
 defined in the statement directly from the counits. In smooth local coordinates
-it agrees with the successive Kummer parameter class, by the normalization of
-the smooth orientation.
+it agrees with the product of the Cartier classes of the coordinate hyperplanes,
+which is $(-1)^d$ times the successive Kummer parameter class, by the
+normalization of the smooth orientation by the projective-line trace (see (ii)).
 
 *Complement.*
 
@@ -64,19 +65,23 @@ counit.
 field $k$, the point $x:\operatorname{Spec}k\hookrightarrow X$ is a regular closed
 immersion of codimension $d$ with $a_X\circ x=\mathrm{id}_{\operatorname{Spec}k}$,
 and $\operatorname{Spec}k$ is regular, so [sk-thm-regular] applies with $c=d$. By
-[sk-thm-regular](c), $[x\subset X]=\operatorname{cl}_x(1)$ is the image of $1$
-under the isomorphism $\Lambda\simeq x^!\Lambda_X(d)[2d]$ assembled from the
+[sk-thm-regular](c), $[x\subset X]=\operatorname{cl}_x(1)=(-1)^d\Phi_x(1)$, where
+$\Phi_x$ is the isomorphism $\Lambda\simeq x^!\Lambda_X(d)[2d]$ assembled from the
 orientations of $a_X$ and of $a_{\operatorname{Spec}k}=\mathrm{id}$ through the
 composition law $x^!a_X^!\Lambda\simeq(a_Xx)^!\Lambda=\Lambda$; the orientation of
 the identity is the identity of $\Lambda$, by the compatibility with composition
 in [sk-thm-smooth-purity] applied to $\mathrm{id}=\mathrm{id}\circ\mathrm{id}$.
-Read through $\omega_X\simeq\Lambda_X(d)[2d]$, this is the isomorphism
-$x^!\omega_X\simeq\Lambda$ of the statement. Forgetting supports is
-$R\Gamma(X,-)$ applied to the counit $x_*x^!\to\mathrm{id}$, so $[x]$ is the image
-of $[x\subset X]$. Étale locally at $x$, $[x\subset X]$ is the frame class
-$\partial\kappa(t_1)\cup\dots\cup\partial\kappa(t_d)$ of [sk-thm-regular](b);
-this is the sense in which the trace is normalized by the fundamental class of
-[sk-prop-an].
+Read through $\omega_X\simeq\Lambda_X(d)[2d]$, $\Phi_x$ is the isomorphism
+$x^!\omega_X\simeq\Lambda$ of the statement, so $\Phi_x(1)$ is the supported class
+of which $[x]$ is the image. Forgetting supports is $R\Gamma(X,-)$ applied to the
+counit $x_*x^!\to\mathrm{id}$, so $[x]$ is the image of
+$\Phi_x(1)=(-1)^d[x\subset X]$. Étale locally at $x$, $[x\subset X]$ is the frame
+class $\partial\kappa(t_1)\cup\dots\cup\partial\kappa(t_d)$ of [sk-thm-regular](b),
+and $\partial\kappa(t_j)=-c_{V(t_j)}$ for the Cartier class of [sk-lem-geo-cartier]
+(the Kummer boundary and the support boundary anticommute), so $\Phi_x(1)$ is
+étale-locally $c_{V(t_1)}\cup\dots\cup c_{V(t_d)}$. This is the sense in which the
+trace is normalized by the fundamental class of [sk-prop-an]: it sends
+$[x\subset X]$ to $(-1)^d$ and the product of the Cartier classes to $1$.
 
 The frame classes of [sk-thm-regular] are built from Kummer classes, boundaries
 and cup products, which reduce to their counterparts under
@@ -84,8 +89,8 @@ $A_{E,n}\to A_{E,m}$; so $([x\subset X]_n)_n$ is a compatible system, which
 defines $[x\subset X]$ over $\Oe$, and its images define it over $E$ and $\Qlb$.
 At these stages $\operatorname{tr}_X$ is the transported counit read through the
 transported orientation, compatibly with the finite reductions and with scalar
-extension ([sk-thm-purity-transport]). Hence the identification of $[x]$ with the
-image of $[x\subset X]$ holds at every stage.
+extension ([sk-thm-purity-transport]). Hence the identification of $[x]$ with $(-1)^d$
+times the image of $[x\subset X]$ holds at every stage.
 
 *(iii)* Take $K=\Lambda_X$, so $K^\vee=\Lambda_X$, in Corollary
 [sk-thm-derived-duality] for proper $X$: the pairings

@@ -3,7 +3,7 @@ id = "cor-pd-pic0-base-change"
 kind = "theorem"
 title = "The degree-zero part is compatible with base change"
 lean = ["AlgebraicGeometry.picardFunctorDegreeIsoOfIsPullback", "AlgebraicGeometry.picardFunctorDegreeIsoOfIsPullback_hom_app_toSheafify", "AlgebraicGeometry.nonempty_picardFunctorDegree_iso_of_isPullback"]
-order = 883
+order = 884
 tags = ["latex:corollary"]
 uses = ["def-pc-base-change", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-pd-degree-morphism", "lem-pd-degree-locally-constant", "lem-pd-picard-base-change"]
 +++

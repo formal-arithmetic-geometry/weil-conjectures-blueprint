@@ -3,7 +3,7 @@ id = "thm-pur-affine-line-orientation"
 kind = "theorem"
 title = "Global orientation and its normalization"
 order = 2832
-uses = ["def-pur-affine-line-datum", "def-pur-conventions", "def-weil-exceptional-inverse-image", "lem-amb-cartier-kummer-map", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "lem-exc-open-complement-known", "lem-pur-gysin-structure", "lem-pur-support-localization-triangle", "prop-exc-closed-tor", "prop-pur-gm-relative-kummer", "thm-pur-rank-one-local-calculation", "thm-weil-pbc-site-comparison"]
+uses = ["def-pur-affine-line-datum", "def-pur-conventions", "def-weil-exceptional-inverse-image", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "lem-exc-open-complement-known", "lem-pur-gysin-structure", "lem-pur-support-localization-triangle", "prop-exc-closed-tor", "prop-pur-gm-relative-kummer", "thm-pur-rank-one-local-calculation", "thm-weil-pbc-site-comparison"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting), let $Y$ be the separated finite-type $k$-scheme of the
 affine-line datum, and let

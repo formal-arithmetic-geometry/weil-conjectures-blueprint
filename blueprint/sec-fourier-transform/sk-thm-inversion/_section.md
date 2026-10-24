@@ -2,7 +2,7 @@
 id = "sk-thm-inversion"
 kind = "proposition"
 title = "Base change and Fourier inversion"
-order = 3944
+order = 3943
 uses = ["sk-lem-as-properties", "sk-lem-wft-character-integral", "sk-thm-sf-ctf-stability", "sk-prop-sf-cbc", "sk-thm-sfb-shriek-base-change", "sk-thm-sfb-proper-base-change", "sk-thm-sf-package", "sk-prop-sf-open-closed-triangle", "sk-prop-an", "sk-def-sf-weil-complexes"]
 tags = ["sketch"]
 +++

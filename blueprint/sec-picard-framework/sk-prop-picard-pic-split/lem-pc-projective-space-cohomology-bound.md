@@ -2,7 +2,7 @@
 id = "lem-pc-projective-space-cohomology-bound"
 kind = "lemma"
 title = "Cohomology above the number of projective coordinates"
-order = 648
+order = 649
 uses = ["def-pc-projective-space-twist", "lem-pc-cech-computes", "pqf-def-coherent", "pqf-def-cohomology"]
 lean = ["AlgebraicGeometry.ProjectiveSpace.subsingleton_H_of_lt"]
 +++

@@ -29,5 +29,7 @@ $$
 R\Gamma_c(X,A_X(d)[2d])\longrightarrow A
 $$
 
-of [thm-pur-trace-normalization-transitivity], sending the
-fundamental class of the $d$-dimensional oriented fiber to $1$.
+of [thm-pur-trace-normalization-transitivity], sending the product of
+the Cartier classes of the coordinate hyperplanes of a $d$-dimensional
+affine fiber to $1$ (and the ordered Kummer-boundary fundamental class
+to $(-1)^d$).

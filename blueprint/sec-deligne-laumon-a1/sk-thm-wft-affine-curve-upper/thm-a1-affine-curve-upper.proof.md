@@ -64,7 +64,7 @@ $w+1$.
 
 The successive surjections preserve this bound by
 [lem-a1-subquotient-extension-bounds].
-Finally finite constant extensions preserve and reflect weight
-bounds, as verified in [lem-a1-weight-bound-constant-extension].
+Finally finite constant extensions reflect weight bounds, as verified
+in [lem-a1-weight-bound-constant-extension].
 This proves the degree-one assertion over the original field and
 completes the proof.

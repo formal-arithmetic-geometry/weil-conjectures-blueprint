@@ -6,7 +6,8 @@ order = 3558
 uses = ["sk-cor-tf-point-counting", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-poincare-duality"]
 tags = ["sketch"]
 +++
-Let $X_0/\mathbf F_q$ be smooth and proper of pure dimension $d$, and let
+Let $X_0/\mathbf F_q$ be smooth, proper and geometrically connected of pure
+dimension $d$, and let
 $\ell\nmid q$. Put $H^i=H^i(X_{\mathrm{pro\acute et}},\Ql)$, let $F_i$ be the
 endomorphism of $H^i$ induced by the geometric Frobenius
 $\operatorname{Frob}_{X,\Lambda_X}$ of [sk-cor-tf-point-counting] for

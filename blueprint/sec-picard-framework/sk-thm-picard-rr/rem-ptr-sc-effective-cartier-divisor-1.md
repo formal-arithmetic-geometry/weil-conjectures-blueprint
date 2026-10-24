@@ -2,7 +2,7 @@
 id = "rem-ptr-sc-effective-cartier-divisor-1"
 kind = "remark"
 title = "Pointer to the properties of [def-nagata-invertible-ideal]"
-order = 716
+order = 717
 uses = ["def-nagata-invertible-ideal", "lem-sc-cartier-divisor-points", "lem-sc-point-cartier"]
 +++
 In the notation of [def-nagata-invertible-ideal], the following holds.

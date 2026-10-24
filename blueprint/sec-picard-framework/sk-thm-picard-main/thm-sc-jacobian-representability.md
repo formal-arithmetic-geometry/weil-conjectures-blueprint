@@ -2,7 +2,7 @@
 id = "thm-sc-jacobian-representability"
 kind = "theorem"
 title = "The Jacobian over a separably closed field"
-order = 868
+order = 869
 uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-abelian-variety", "def-sc-jacobian", "def-sc-pic0", "def-sc-picard-functor", "lem-pc-curves-are-sc", "lem-pc-picard-functor-agrees-sc", "lem-sc-abelian-variety-projective", "lem-sc-pic-tangent-space", "thm-sc-theorem-of-the-base"]
 lean = ["AlgebraicGeometry.exists_jacobian", "AlgebraicGeometry.exists_jacobian_baseChange"]
 +++

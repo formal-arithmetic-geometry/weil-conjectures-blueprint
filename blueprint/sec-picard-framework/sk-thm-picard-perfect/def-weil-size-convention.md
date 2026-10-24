@@ -2,7 +2,7 @@
 id = "def-weil-size-convention"
 kind = "definition"
 title = "Size convention"
-order = 762
+order = 763
 lean = ["AlgebraicGeometry.ProEtale.ModuleDerivedCategory"]
 +++
 Fix Grothendieck universes $\mathcal U\in\mathcal V$. Schemes are

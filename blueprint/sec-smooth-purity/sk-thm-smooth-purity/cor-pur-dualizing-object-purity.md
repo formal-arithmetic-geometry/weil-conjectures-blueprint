@@ -17,7 +17,8 @@ $$
 Lf^*K(d)[2d]\;\xrightarrow{\ \sim\ }\;Rf^!K.
 $$
 
-Every map involved was normalized by the Kummer generator, so the Tate
+Every map involved was normalized by the projective-line trace (the
+Kummer generator up to the sign $(-1)^d$), so the Tate
 twist, shift, and trace normalization are fixed canonically; the
 identification is compatible with arbitrary base change and
 composition.

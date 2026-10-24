@@ -2,14 +2,14 @@
 id = "cor-fd-l2-plancherel-middle-extension"
 kind = "theorem"
 title = "Plancherel for a middle extension: the transform shifts the weight of a pure lisse sheaf by exactly one"
-lean = ["AlgebraicGeometry.eq_add_one_of_isFourierPartner", "AlgebraicGeometry.isPunctuallyPureOfWeight_add_one_of_isFourierPartner", "AlgebraicGeometry.exists_isFourierPartner_isPunctuallyPureOfWeight_add_one"]
-order = 4008
+lean = ["AlgebraicGeometry.eq_add_one_of_isFourierPartner", "AlgebraicGeometry.isPunctuallyPureOfWeight_add_one_of_isFourierPartner", "AlgebraicGeometry.exists_isFourierPartner_isPunctuallyPureOfWeight_add_one", "AlgebraicGeometry.le_add_one_of_isFourierPartner"]
+order = 4007
 tags = ["latex:corollary"]
 uses = ["def-fd-trace-function", "def-fd-transform", "def-weil-punctual-weights", "def-wf-l2-norm", "def-wf-middle-extension", "lem-fd-l2-middle-extension", "lem-fd-l2-plancherel-shift", "lem-wf-l2-purity-rigidity", "prop-a1-fourier-middle-extension", "thm-fd-generic-fourier-sheaf-pure"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion
-with finite complement, and let $\mathcal M$ be a lisse Weil sheaf on
-$U_0$, punctually $\iota$-pure
+with finite complement, and let $\mathcal M$ be a nonzero lisse Weil
+sheaf on $U_0$, punctually $\iota$-pure
 of weight $w$. Suppose that the Fourier–Deligne transform of its
 middle extension has the
 middle-extension shape

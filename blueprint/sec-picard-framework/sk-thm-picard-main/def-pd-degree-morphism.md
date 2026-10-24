@@ -3,7 +3,7 @@ id = "def-pd-degree-morphism"
 kind = "definition"
 title = "The constant integers sheaf and the degree morphism"
 lean = ["AlgebraicGeometry.locallyConstantIntPresheaf", "AlgebraicGeometry.locallyConstantIntSheaf", "AlgebraicGeometry.picardDegreeMorphism", "AlgebraicGeometry.picardDegreeSubfunctor", "AlgebraicGeometry.range_picardFunctorDegree\u03b9", "AlgebraicGeometry.picardFunctorDegreeIsoSubfunctor", "AlgebraicGeometry.picardDegree"]
-order = 863
+order = 864
 uses = ["def-pc-fppf-site", "def-pc-picard-functor", "def-pc-picard-presheaf", "def-pc-subfunctor", "def-pd-fibrewise-degree", "def-sc-picard-functor", "lem-pd-degree-locally-constant"]
 +++
 Let $S$ be a scheme. The *constant sheaf* $\underline{\Z}$ on the fppf

@@ -3,7 +3,7 @@ id = "lem-pc-picard-functor-agrees-sc"
 kind = "lemma"
 title = "Agreement with the affine Picard functor of file 06"
 lean = ["AlgebraicGeometry.algPicardFunctorIso", "AlgebraicGeometry.algPicardFunctorObjIso", "AlgebraicGeometry.picardFunctorAffineRestrictionIso"]
-order = 636
+order = 637
 uses = ["def-pc-fppf-site", "def-pc-picard-functor", "def-pc-picard-presheaf", "def-pc-scheme", "def-sc-picard-functor"]
 +++
 Let $k$ be a commutative ring and $X$ a scheme over $k$ (for instance a smooth

@@ -17,6 +17,7 @@ its cokernel on $\prod_nH^{q-1}(K_n)$ is $\varprojlim^1_nH^{q-1}(K_n)$, by the
 standard description of $\varprojlim$ and $\varprojlim^1$ of a sequence; this is
 the displayed sequence (compare [det-pe-milnor-sequence]).
 
-If a sequence $(A_n)$ satisfies Mittag-Leffler, $\varprojlim^1A_n=0$. Finite
-groups satisfy Mittag-Leffler: for fixed $n$ the images of $A_m\to A_n$, $m\geq n$,
-form a descending chain of subgroups of a finite group, which stabilizes.
+If the groups $A_n$ of a sequence are finite, then $\varprojlim^1A_n=0$: for fixed $n$
+the images of $A_m\to A_n$, $m\geq n$, form a descending chain of subgroups of a
+finite group, which stabilizes, so the sequence satisfies Mittag-Leffler, and
+$\varprojlim^1$ of a Mittag-Leffler sequence vanishes.

@@ -3,7 +3,7 @@ id = "prop-trace-determinant"
 kind = "theorem"
 title = "Trace-to-determinant factorization"
 lean = ["LinearMap.inv_alternatingCharpolyRevProd_eq_exp", "AlgebraicGeometry.Scheme.trace_determinant"]
-order = 4126
+order = 4125
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-every-iterate-trace"]
 +++
@@ -40,8 +40,7 @@ $p$, an integer $a\geq1$, put $q=p^a$, and set
 $k_0=\Fq$, and let $k=\Fbar$ be the fixed algebraic closure of $k_0$.
 Choose a prime $\ell\neq p$, write
 $\Ql=\mathbf Q_\ell$, and let
-$X_0/k_0$ be smooth, proper,
-geometrically connected of pure dimension $d\in\mathbf Z_{\geq0}$. Put
+$X_0/k_0$ be smooth and proper of pure dimension $d\in\mathbf Z_{\geq0}$. Put
 $X=X_0\times_{k_0}k$, $V_i=H^i(X,\Ql)$, and $u_i=F_{i,\ell}$, where
 $(V_{i,\ell},F_{i,\ell})$ is the
 smooth-proper

@@ -3,11 +3,11 @@ id = "def-mg-weil-composition-series"
 kind = "definition"
 title = "Composition series of a Weil representation"
 lean = ["Representation.CompositionSeries", "Representation.CompositionSeries.factor"]
-order = 3756
-uses = ["def-wf-monodromy-data"]
+order = 3752
+uses = ["d-monodromy"]
 +++
-Let $V$ be the finite-dimensional Weil representation in the
-monodromy data of a lisse Weil sheaf.
+Let $V$ be a Weil representation of a degree datum ([d-monodromy]),
+that is, a finite-dimensional representation of $W$.
 A *composition series* is a finite filtration by Weil-stable
 subspaces
 

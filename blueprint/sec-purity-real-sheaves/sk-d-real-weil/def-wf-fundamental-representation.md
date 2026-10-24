@@ -3,7 +3,7 @@ id = "def-wf-fundamental-representation"
 kind = "definition"
 title = "Geometric and Weil fundamental representations"
 lean = ["AlgebraicGeometry.WeilGroup.fundamentalRep"]
-order = 3731
+order = 3785
 uses = ["def-galois-fibre-functor", "def-tw-frobenius-action", "def-weil-pbc-scheme-conventions", "def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes", "sk-lem-coefficient-heart", "thm-lisse-qlbar-representations"]
 +++
 Let $X_0$ be a

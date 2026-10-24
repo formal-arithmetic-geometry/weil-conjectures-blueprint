@@ -10,7 +10,7 @@ Frobenius-equivariant Poincaré duality, already used in
 degrees $i$ and $2d-i$ as $\alpha$ and $q^d/\alpha$, and hence
 $b_i=b_{2d-i}$. Independence of $\ell$ follows from $b_i=\deg P_i$.
 
-If $X$ is connected, a global section of its constant sheaf is
+Since $X$ is connected, a global section of its constant sheaf is
 constant, so $H^0(X,\Ql)=\Ql$ with Frobenius acting as the identity.
 The trace map and duality identify $H^{2d}(X,\Ql)$ with $\Ql(-d)$
 ([sk-cor-trace]), on which Frobenius acts by $q^d$. This proves the

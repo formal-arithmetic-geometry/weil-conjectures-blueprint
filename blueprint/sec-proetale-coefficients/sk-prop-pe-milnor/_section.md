@@ -2,7 +2,7 @@
 id = "sk-prop-pe-milnor"
 kind = "proposition"
 title = "The Milnor sequence"
-order = 980
+order = 981
 lean = ["DerivedCategory.shortExact_milnor_of_isHomotopyLimit", "DerivedCategory.isLE_of_isHomotopyLimit", "AlgebraicGeometry.ProEtale.isHomotopyLimit_mapCone_Q_of_epi", "CategoryTheory.GrothendieckTopology.epi_one_sub_of_forall_mittagLeffler"]
 uses = ["sk-prop-pe-products", "sk-cor-pe-sections"]
 tags = ["sketch"]

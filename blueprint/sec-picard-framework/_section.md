@@ -2,7 +2,7 @@
 id = "sec-picard-framework"
 kind = "section"
 title = "Picard Framework"
-order = 617
+order = 618
 uses = ["sec-nagata-compactification", "sec-abelian-varieties", "sk-def-av-jacobian", "sk-def-av-pic"]
 +++
 **Content.** This section constructs the Jacobian of a smooth projective

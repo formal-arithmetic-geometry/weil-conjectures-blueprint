@@ -4,6 +4,7 @@ kind = "corollary"
 title = "Rank-one weights"
 order = 3849
 uses = ["sk-d-real-weights", "sk-p-real-rankone"]
+lean = ["AlgebraicGeometry.WeilGroup.IsLisse.isPunctuallyPure_of_finrank_eq_one"]
 tags = ["sketch"]
 +++
 Every rank-one lisse Weil sheaf on a smooth geometrically connected

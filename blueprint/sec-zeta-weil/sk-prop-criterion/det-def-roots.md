@@ -3,7 +3,7 @@ id = "det-def-roots"
 kind = "definition"
 title = "Reciprocal roots, weights and integrality"
 lean = ["Polynomial.IsPureOfWeight", "Polynomial.IsUniversallyPureOfWeight", "Polynomial.alternatingNatDegreeSum", "shiftSpan"]
-order = 4102
+order = 4101
 +++
 With $P_i\in\Z[T]$ the integral factor that [sk-thm-intfactors] produces
 later put $b_i=\deg P_i$ and $P_i^{\#}(U)=U^{b_i}P_i(U^{-1})$. (Nothing here

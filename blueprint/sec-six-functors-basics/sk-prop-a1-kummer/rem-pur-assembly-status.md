@@ -9,9 +9,10 @@ The only hypothesis of [thm-pur-general-admissibility] is the
 open-complement condition
 ([def-exc-open-complement-bound]) for the finitely many complements of
 the affine charts inside affine space; the ambient exceptional right adjoint
-datum is not one, being the theorem
-[cor-sf-ambient-adjoint-discharge] on the coefficients it quantifies
-over. That condition is a theorem of this
+datum, which is false in general, is not one, the right adjoints the
+assembly forms on the coefficients it quantifies over being those relative
+to the bounded-below objects of étale origin of
+[thm-sf-ambient-adjoint-class]. The open-complement condition is a theorem of this
 blueprint, not an assumption: [lem-exc-open-complement-known] derives
 it with $c=2d$ from the two clauses of the direct-image finiteness input
 [def-exc-direct-image-input], which are
@@ -26,9 +27,9 @@ stage. Consequently
 clauses for an arbitrary separated finite-type morphism without further
 hypotheses, on the coefficients of the blueprint's class. No
 affineness of the base is needed: the passage from the affine opens of
-$Y$ to $Y$ itself uses the base-change compatibility of the ambient
-right adjoint along an open immersion, which is proved in the chapter on
+$Y$ to $Y$ itself uses the base-change compatibility of the right
+adjoint along an open immersion, which is proved in the chapter on
 exceptional right adjoints
-([cor-exc-base-change-open-immersion-general]) and is read here on the
-same coefficients, where its ambient-datum hypothesis is again the theorem
-[cor-sf-ambient-adjoint-discharge].
+([cor-exc-base-change-open-immersion-general]) and is read here in its
+class form, for the right adjoints relative to the bounded-below objects
+of étale origin, where it holds without the ambient datum.

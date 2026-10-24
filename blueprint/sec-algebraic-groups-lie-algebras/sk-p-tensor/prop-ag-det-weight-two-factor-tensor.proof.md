@@ -6,7 +6,7 @@ The multisets $\{V_i\}$ and $\{E_j\}$ do not depend on the chosen
 series by [lem-mg-jordan-holder]. Form the Weil semisimplifications
 $V^{\mathrm{ss}}=\bigoplus_iV_i$ and $E^{\mathrm{ss}}=\bigoplus_jE_j$
 of [def-mg-weil-semisimplification]; both are semisimple Weil
-representations on the same curve. Apply
+representations of the same degree datum. Apply
 [lem-mg-common-positive-central-element] to the pair
 $V^{\mathrm{ss}},E^{\mathrm{ss}}$, i.e. to
 $\rho=V^{\mathrm{ss}}\oplus E^{\mathrm{ss}}$, and let $z$ be the

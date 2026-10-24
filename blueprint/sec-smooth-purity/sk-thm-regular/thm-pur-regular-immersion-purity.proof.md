@@ -52,9 +52,9 @@ $Ri^!\Lambda_X(c)[2c]$ is concentrated in degree $0$ with $\mathcal H^0$
 free of rank one, and $H^0(Z,Ri^!\Lambda_X(c)[2c])=H^{2c}_Z(X,\Lambda(c))$
 since $Ri_*Ri^!$ is the derived functor of sections with support in $Z$.
 It carries the canonical generator of $\Lambda_Z$ to a class
-$\Phi(1)\in H^{2c}_Z(X,\Lambda(c))$; we show that $\Phi(1)$ is the
-fundamental class $[Z\subset X]$ glued from the frame classes of
-[def-pur-frame-class]. By
+$\Phi(1)\in H^{2c}_Z(X,\Lambda(c))$; we show that $\Phi(1)$ is
+$(-1)^c$ times the fundamental class $[Z\subset X]$ glued from the frame
+classes of [def-pur-frame-class]. By
 [lem-pur-regular-immersion-linearization], etale-locally the pair
 $(X,Z)$ is the linear pair $(\mathbf A^{c+m}_k,\mathbf A^m_k)$; on
 the model, the structure-morphism identifications of Step 1 are the
@@ -65,11 +65,13 @@ so $\Phi$ for the linear immersion $i_0$ is the inverse of $Ri_0^!$ of
 the affine-space comparison $\gamma_{p,\Lambda}$ for the projection
 $p$ with $p\,i_0=\operatorname{id}$, composed with
 $Ri_0^!Rp^!\cong\operatorname{id}$; by
-[cor-pur-affine-space-zero-section-purity] this is the zero-section
-isomorphism normalized by the product of the Kummer boundaries of the
-coordinates, hence the composite identification carries $1$
-to the $c$-fold exterior product of the rank-one Kummer boundaries of
-the coordinates, i.e. to the class
+[cor-pur-affine-space-zero-section-purity] this is $(-1)^c$ times the
+zero-section isomorphism normalized by the product of the Kummer
+boundaries of the coordinates (the affine-space comparison is
+normalized by the projective-line trace, which sends that product to
+$(-1)^c$), hence the composite identification carries $1$
+to $(-1)^c$ times the $c$-fold exterior product of the rank-one Kummer
+boundaries of the coordinates, i.e. to $(-1)^c$ times the class
 $\operatorname{cl}(f)=\partial_1\kappa(f_1)\cup\cdots\cup\partial_c\kappa(f_c)$
 of the standard frame, by [lem-pur-kunneth-supported] and
 [lem-pur-frame-independence] (the frame class depends only on the
@@ -81,13 +83,14 @@ compatibility [thm-pur-composition-coherence], while
 $Ri_V^!u^*=u'^*Ri_0^!$ for the linear immersion $i_0$; and
 Kummer classes, boundaries and supported cup products commute with
 $u^*$, which carries the coordinates $x_j$ to the frame $f_j$). Hence
-the two global classes agree: by Steps 1–2,
-$Ri^!\Lambda_X(c)[2c]$ is concentrated in degree $0$, so both are
+$\Phi(1)=(-1)^c[Z\subset X]$: by Steps 1–2,
+$Ri^!\Lambda_X(c)[2c]$ is concentrated in degree $0$, so both sides are
 global sections of the single sheaf $\mathcal H^0$, they agree on
 the linear neighbourhoods, which cover $Z$, and sections of a sheaf
 agreeing on a cover agree. Since the identification of Steps 1–2 is
-an isomorphism, its value $\Phi(1)=[Z\subset X]$ at $1$ generates every
-stalk, and the identification is $\operatorname{cl}_i$.
+an isomorphism and $(-1)^c$ is a unit, $[Z\subset X]=(-1)^c\Phi(1)$
+generates every stalk, and $\operatorname{cl}_i=(-1)^c\Phi$ is an
+isomorphism.
 
 Step 4: the compatibilities. The canonical identification is the
 composite of the smooth-purity identifications of the two structure
@@ -96,4 +99,7 @@ each of these is compatible with etale base change and with the
 exterior-product (Künneth) structure by the corresponding
 compatibilities of [thm-pur-diagonal-dualizing-object] and
 [lem-pur-kunneth-supported], and the class of Step 3 is
-compatible with them by [lem-pur-frame-independence].
+compatible with them by [lem-pur-frame-independence]. The sign
+$(-1)^c$ relating $\operatorname{cl}_i$ to this identification is
+unchanged by etale base change and multiplicative for exterior
+products, the codimensions adding.

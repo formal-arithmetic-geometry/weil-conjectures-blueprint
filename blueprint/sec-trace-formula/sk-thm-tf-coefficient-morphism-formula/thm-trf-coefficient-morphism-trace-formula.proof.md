@@ -29,8 +29,10 @@ where $F_m\subseteq k$ is the extension of degree $m$ of $F$. Every
 complex in $D^b_{ctf}$ has an explicit étale-origin witness
 ([lem-sf-proetale-constructible-origin]), and every separated
 finite-type morphism between separated finite-type $k$-schemes is
-exceptionally admissible at the finite stage
-([rem-ptr-trf-admissibility-12], [thm-sf-preservation-class]). We prove
+exceptionally admissible at the finite stage in the sense of
+[def-trf-admissibility] (the adjunction on $D^b_{ctf}$ is
+[thm-sf-ambient-adjoint-class], the preservation
+[thm-sf-preservation-class]). We prove
 $\mathrm{TF}$ for all such data; the theorem is the case
 $(F,S_0)=(k_0,X_0)$.
 

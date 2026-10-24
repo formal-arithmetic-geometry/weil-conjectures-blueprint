@@ -3,7 +3,7 @@ id = "det-pe-left-complete-truncation-tower"
 kind = "lemma"
 title = "Cohomology of the truncation tower"
 lean = ["DerivedCategory.isZero_of_isGE", "DerivedCategory.isIso_homologyFunctor_map_truncGEπ_app", "CategoryTheory.Limits.epi_one_sub_of_isZero_of_isIso", "CategoryTheory.Limits.isLimitOfIsZeroOfIsIso"]
-order = 984
+order = 985
 +++
 Let $\mathcal C$ be an abelian category, $K$ an object of $D(\mathcal C)$, and
 $\tau_{\geq-n}K$ ($n\geq0$) its truncations for the standard $t$-structure, with the

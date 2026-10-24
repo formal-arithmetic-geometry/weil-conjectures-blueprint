@@ -3,7 +3,7 @@ id = "def-pc-zero-scheme"
 kind = "definition"
 title = "The zero scheme of a section"
 lean = ["AlgebraicGeometry.Scheme.Modules.Hom.imageSubobject_dualMap_comp_dualUnitIso", "AlgebraicGeometry.Scheme.Modules.Hom.zeroLocus"]
-order = 650
+order = 651
 uses = ["def-pc-scheme", "def-sc-invertible-module"]
 +++
 Let $X$ be a scheme, $\mathcal{M}$ an

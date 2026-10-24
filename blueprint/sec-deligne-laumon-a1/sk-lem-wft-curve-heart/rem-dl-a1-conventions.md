@@ -2,11 +2,11 @@
 id = "rem-dl-a1-conventions"
 kind = "definition"
 title = "Affine-line and weight conventions"
-order = 3968
+order = 3967
 uses = ["def-weil-frobenius-detailed", "def-weil-punctual-weights", "def-wf-middle-extension", "def-wf-tate-twist", "sk-lem-coefficient-heart", "sk-def-sf-weil-complexes"]
 lean = ["AlgebraicGeometry.WeilSheaf.IsGeometricallyConstant", "AlgebraicGeometry.WeilSheaf.IsUnramifiedAtInfinity", "AlgebraicGeometry.WeilSheaf.IsIrreducibleLisse"]
 +++
-Fix $k_0=\mathbf F_q$, its algebraic closure $k$, a prime $\ell\ne \operatorname{char}(k_0)$, and $\iota:\DLAQ\simeq\mathbf C$. Write
+Fix $k_0=\mathbf F_q$, its algebraic closure $k$, a prime $\ell\ne \operatorname{char}(k_0)$, and a field embedding $\iota:\DLAQ\hookrightarrow\mathbf C$. Write
 $A_0=\mathbf A^1_{k_0}$, $A=A_0\otimes k$, and use a prime to denote the
 dual affine line. All cohomology is geometric, with geometric Frobenius
 ([def-weil-frobenius-detailed]).

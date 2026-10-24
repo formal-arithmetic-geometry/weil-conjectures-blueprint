@@ -11,7 +11,7 @@ diagonal identification $\omega_f\cong\Lambda_X(d)[2d]$ of
 [sk-thm-smooth-purity], and the tensor formula (G11) of [sk-prop-cohsm]. Each
 is compatible with $\mathrm{red}_{n,m}$: the finite-level twist
 $A(1)=\mu_{\ell^N}\otimes_{\Z/\ell^N}A$ of [sk-def-purity-conv] and the
-Kummer boundary $\kappa(t)$ that orients it ([sk-prop-a1]) reduce to
+Kummer boundary $\partial\kappa(t)$ that orients it ([sk-prop-a1]) reduce to
 their counterparts over $A_{E,m}$, and the exceptional adjunction
 $Rf_!\dashv Rf^{!}$ is compatible with reduction of the coefficient ring.
 Hence $\mathrm{red}_{n,m}(\gamma_{f,K})=\gamma_{f,\mathrm{red}_{n,m}K}$,

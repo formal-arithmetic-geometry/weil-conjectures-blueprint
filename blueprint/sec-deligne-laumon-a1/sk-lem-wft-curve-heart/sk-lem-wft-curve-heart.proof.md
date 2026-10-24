@@ -17,7 +17,12 @@ $$
 
 is its largest punctual subsheaf, and the quotient $F/F_{\rm p}$ has
 no punctual subsheaf, since it embeds in $j_*j^*F$. This description
-does not depend on $U$, and it commutes with Weil transport.
+does not depend on $U$, and it commutes with Weil transport. Hence for
+a Weil sheaf $F$ on $C_0$, $F_{\rm p}$ is a Weil subsheaf, and it is
+also the largest punctual Weil subsheaf; in particular $F$ has no
+nonzero punctual Weil subsheaf exactly when its underlying sheaf has
+no nonzero punctual subsheaf. We give the argument for Weil complexes;
+the geometric case is the same without the Weil structures.
 
 The shift axioms follow immediately from the definitions. If
 $A\in{}^pD^{\le0}$ and $B\in{}^pD^{\ge1}$, then ordinary truncation
@@ -31,7 +36,13 @@ and $\mathcal H^0A=F_{\rm p}$, so that $A\in{}^pD^{\le0}$.
 By the octahedral axiom we obtain a triangle $A\to K\to B\to$ in which
 $B$ has no negative ordinary cohomology and
 $\mathcal H^0B=F/F_{\rm p}$. Thus $B\in{}^pD^{\ge1}$.
-The t-structure is bounded because the ordinary one is.
+The t-structure is bounded because the ordinary one is. As for any
+t-structure, ${}^pD^{\ge0}$ is then the right orthogonal of
+${}^pD^{\le-1}$: if $K$ receives no nonzero map from ${}^pD^{\le-1}$,
+the first map of a triangle $A\to K\to B\to$ with
+$A\in{}^pD^{\le-1}$ and $B\in{}^pD^{\ge0}$ (the shifted truncation
+triangle) vanishes, so $K$ is a direct summand of $B$, and the
+conditions defining ${}^pD^{\ge0}$ pass to direct summands.
 
 To see that the heart is abelian, let $h:A\to B$ be a morphism in the
 heart and choose a triangle $A\xrightarrow{h}B\to C_h\to A[1]$.
@@ -56,14 +67,7 @@ Thus coimage equals image, and the heart is abelian. Its objects have
 the stated form by definition. Punctual sheaves belong to the heart,
 and so does $(j_*M)[1]$, since $j_*M$ has no punctual subsheaf.
 
-It remains to treat Weil structures. Frobenius pullback is an exact
-equivalence for the ordinary t-structure, and it preserves punctual
-support and the absence of punctual subsheaves. It is therefore
-t-exact for the geometric t-structure defined above.
-For a compatible morphism in the heart, exactness identifies the
-pullbacks of its kernel and cokernel with those of the pulled-back
-morphism. Hence the Weil isomorphisms and their inverses induce
-inverse isomorphisms on the kernel and cokernel, and by naturality the
-coimage–image map is compatible with them. We conclude that the
-equivariant heart is abelian and that its forgetful functor is exact
-and reflects exactness.
+All steps use only the cohomology Weil sheaves, their supports, the
+punctual Weil subsheaf $F_{\rm p}$ of the first paragraph, the
+ordinary truncations and the octahedral axiom in the triangulated
+category of Weil complexes, so they hold verbatim there.

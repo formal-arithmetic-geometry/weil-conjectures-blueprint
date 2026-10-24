@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-weak-etale-tor"
 kind = "lemma"
 title = "Flat diagonal and Tor groups"
-order = 948
+order = 949
 lean = ["Ring.AbsolutelyFlat", "Ring.AbsolutelyFlat.of_flat_lmul'", "Ring.WeakDimensionLEOne", "Ring.WeakDimensionLEOne.of_weaklyEtale"]
 uses = ["def-weil-pbc-ind-etale-algebra"]
 +++

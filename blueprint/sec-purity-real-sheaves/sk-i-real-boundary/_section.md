@@ -2,7 +2,7 @@
 id = "sk-i-real-boundary"
 kind = "lemma"
 title = "The boundary stalk"
-order = 3890
+order = 3889
 uses = ["sk-d-real-weil", "sk-lem-finite", "sk-p-real-integral", "sk-thm-sf-ctf-stability"]
 lean = ["AlgebraicGeometry.Scheme.isConstructibleSheaf_lowerStar", "AlgebraicGeometry.Scheme.isIso_unit_upperStarLowerStarAdjunction"]
 tags = ["sketch"]

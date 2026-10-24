@@ -2,7 +2,7 @@
 id = "sk-cor-pe-wc-sections"
 kind = "corollary"
 title = "Exact sections on contractible affines"
-order = 963
+order = 964
 lean = ["AlgebraicGeometry.Scheme.ProEt.isWeaklyContractible_of_iso", "CategoryTheory.GrothendieckTopology.epi_iff_of_forall_exists", "AlgebraicGeometry.ProEtale.projective_freeSheaf"]
 uses = ["sk-thm-pe-weakly-contractible-basis"]
 tags = ["sketch"]

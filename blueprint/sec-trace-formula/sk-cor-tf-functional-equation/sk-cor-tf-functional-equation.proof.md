@@ -39,10 +39,8 @@ by $D^2=q^{d\chi}$.
 
 For the complement, the first three assertions were shown above. For odd
 $d$, graded commutativity of the cup product makes the perfect pairing on
-$H^d$ alternating ([sk-thm-poincare-duality] (3), applied on each connected
-component of $X$, which is defined over a finite extension of
-$\mathbf F_q$). A nondegenerate alternating form over a field of
-characteristic $\neq2$ lives on a space of even dimension, so $b_d$ is even.
+$H^d$ alternating ([sk-thm-poincare-duality] (3)). A nondegenerate
+alternating form over a field of characteristic $\neq2$ lives on a space of even dimension, so $b_d$ is even.
 Pairing $i$ with $2d-i$ gives $\chi=2\sum_{i<d}(-1)^ib_i+(-1)^db_d$, hence
 $\chi\equiv b_d\pmod2$ and $d\chi$ is even in both cases. Then
 $\varepsilon=Dq^{-d\chi/2}$ satisfies $\varepsilon^2=1$.

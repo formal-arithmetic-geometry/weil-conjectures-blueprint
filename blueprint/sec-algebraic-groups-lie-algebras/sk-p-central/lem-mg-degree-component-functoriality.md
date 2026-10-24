@@ -3,21 +3,22 @@ id = "lem-mg-degree-component-functoriality"
 kind = "lemma"
 title = "Degree components under subquotients and tensor constructions"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.mapOn", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.extensionMap", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.rightHom_extensionMap", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromyExtensionHom_extensionMap", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.vanishingIdeal_image_degreeComponent", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.extensionMap_mem_center", "Matrix.GeneralLinearGroup.IsRegularOn"]
-order = 3771
-uses = ["def-wf-degree-components", "def-wf-monodromy-data", "lem-wf-arith-extension-group", "lem-wf-stabilizer-density"]
+order = 3767
+uses = ["d-monodromy", "def-wf-degree-components", "def-wf-monodromy-data", "lem-wf-arith-extension-group", "lem-wf-stabilizer-density"]
 +++
-Let $\rho:W(X_0)\to\operatorname{GL}(V)$ have the monodromy data of
-[def-wf-monodromy-data]. Let each $Q_i$ be a Weil-stable
-subquotient $U_i/U'_i$ of $V$, or an iterated subquotient of one of
+Let $\rho:W\to\operatorname{GL}(V)$ be a represented degree datum
+([d-monodromy]) with the monodromy data of [def-wf-monodromy-data]. Let
+each $Q_i$ be a $W$-stable subquotient $U_i/U'_i$ of $V$, or an iterated subquotient of one of
 the constructions below, and let $Q$ be one of
 
 $$
 Q_i,\qquad Q_1\otimes\cdots\otimes Q_a,
-\qquad \bigwedge\nolimits^b Q_i.
+\qquad \bigwedge\nolimits^b Q_i,
 $$
 
-The closed-stabilizer fact of [lem-wf-stabilizer-density] makes the
-induced action algebraic. The action on $Q$ induces a homomorphism
+with the induced Weil representation $\rho_Q$ of the same degree
+datum. The closed-stabilizer fact of [lem-wf-stabilizer-density] makes
+the induced action algebraic. The action on $Q$ induces a homomorphism
 
 $$
 \Phi_Q:G_{\mathrm{arith}}(\rho)\longrightarrow

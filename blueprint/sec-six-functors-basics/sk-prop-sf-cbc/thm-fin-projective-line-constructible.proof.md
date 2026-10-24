@@ -2,6 +2,12 @@
 kind  = "proof"
 of    = "thm-fin-projective-line-constructible"
 +++
+The formation of $R^q\pi_*F$ commutes with restriction to opens of
+$S$, and constructibility on the quasi-compact $S$ may be checked on
+the members $U_1,\dots,U_r$ of a finite affine open cover: the strata
+of $U_\alpha$ intersected with $U_\alpha\setminus\bigcup_{\beta<\alpha}U_\beta$
+form a finite stratification of $S$. Hence we may assume that $S$ is affine.
+
 First regard $F$ as a sheaf of $\mathbf Z/N$-modules.
 Apply [lem-fin-finite-type-pushforward-embedding] to embed it
 into a finite sum $G^0$ of finite pushforwards of constant finite

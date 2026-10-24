@@ -12,7 +12,7 @@ H^{n-1}(M)\xrightarrow{\delta}H^n(K)\to H^n(L)\to H^n(M)\xrightarrow{\delta}H^{n
 $$
 shows that $L$ is bounded and that $H^n(L)$ is an extension of
 $\ker(H^n(M)\to H^{n+1}(K))$ by $\operatorname{coker}(H^{n-1}(M)\to H^n(K))$. So it
-suffices that constructible $\mathcal R$-modules [def-sfb-constructible-module] on $X$
+suffices that constructible $\Lambda_X$-modules [def-sfb-constructible-module] on $X$
 are closed under cokernels, kernels and extensions.
 
 *Common stratification.* Given finitely many constructible modules and morphisms between
@@ -36,9 +36,34 @@ the generators of $N'$ they give an epimorphism from a free module of finite ran
 $N$. Its kernel is an extension of the relation modules of $N'$ and $N''$, which are
 locally finitely generated. So $N$ is locally finitely presented.
 
-*Kernels.* For kernels one needs that the kernel of a morphism of locally finitely
-presented $\mathcal R$-modules over a stratum is again locally finitely presented, after
-refining the stratification. This is a coherence property of $\mathcal R$ on the strata.
-For the $\ell$-adic coefficient rings it is where the Noetherianity of $\cO_E$ enters, as
-for the constructible $\ell$-adic sheaves of Bhatt–Scholze, §6.8, which are locally
-constant with finitely generated values on the strata.
+*Kernels.* Let $f\colon N'\to N$ be a morphism of locally finitely presented
+$\Lambda_Z$-modules on a stratum $Z$; the restriction of $\Lambda_X$ to $Z$ is $\Lambda_Z$,
+since inverse images compose. It suffices that $\ker f$ is locally finitely presented on
+the strata of some stratification of $Z$: as $X$ is topologically Noetherian, these strata
+are locally closed and constructible in $X$, and together with the other strata of $X$
+they refine the given stratification. This is the step that uses the hypothesis on
+$\Lambda$; for a general ring object it fails, since kernels of maps of finitely presented
+modules over a non-coherent ring need not be finitely generated. For instance, on
+$X=\operatorname{Spec}\bar k$ with $\mathcal R$ the constant sheaf of
+$B=k[x,y_1,y_2,\dots]/(xy_1,xy_2,\dots)$, the cone of $x\colon\mathcal R\to\mathcal R$ has
+$H^{-1}$ the constant sheaf of the ideal $(y_1,y_2,\dots)$, which is not locally finitely
+generated, because this ideal is not a finitely generated $B$-module.
+
+If $\Lambda=\underline T$ with $T$ finite and discrete, $\Lambda_Z$ is the constant sheaf
+$T$, whose sections are locally constant. After refining the cover, the finitely many
+entries of presentation matrices of $N'$ and $N$, and of a lift of $f$ to the free
+modules presenting them (which exists after refining, as in the previous step), are
+constant. Then $N'$, $N$ and $f$ are the constant sheaves of finite $T$-modules $P'$, $P$
+and of a $T$-linear map $\varphi\colon P'\to P$. The constant sheaf functor is exact, so
+$\ker f$ is the constant sheaf of $\ker\varphi$, which is finitely presented over the
+Noetherian ring $T$; hence $\ker f$ is locally finitely presented, already on $Z$.
+
+If $\Lambda$ is $\underline E$, $\underline{\cO}_E$ or $\underline{\Qlb}$, the scalar ring
+$\Lambda(*)$ is a field or a discrete valuation ring, in particular Noetherian. By the
+structure theory of constructible $\ell$-adic sheaves (Bhatt–Scholze, §6.8), the locally
+finitely presented $\Lambda_Z$-modules are, on the strata of a stratification of $Z$, the
+lisse sheaves, pro-étale locally of the form $\Lambda_U\otimes_{\Lambda(*)}P$ with $P$ a
+finitely generated $\Lambda(*)$-module, and they form an abelian subcategory of the
+$\Lambda$-modules on each stratum, closed under kernels; this rests on the Noetherianity
+of $\Lambda(*)$ and on $\Lambda_U$ being flat over $\Lambda(*)$. Hence $\ker f$ is locally
+finitely presented on the strata of a stratification of $Z$, as required.

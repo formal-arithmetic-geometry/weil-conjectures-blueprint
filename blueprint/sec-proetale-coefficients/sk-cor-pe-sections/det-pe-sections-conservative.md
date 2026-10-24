@@ -3,7 +3,7 @@ id = "det-pe-sections-conservative"
 kind = "lemma"
 title = "Evaluation on weakly contractible affines is conservative"
 lean = ["CategoryTheory.GrothendieckTopology.exact_iff_of_forall_exists", "CategoryTheory.GrothendieckTopology.epi_iff_of_forall_exists", "AlgebraicGeometry.ProEtale.acyclic_iff_forall_isWeaklyContractible", "AlgebraicGeometry.Scheme.ProEt.exists_isWeaklyContractible_cover"]
-order = 970
+order = 971
 uses = ["det-pe-wcb-cover", "det-pe-weak-contractible-equivalences", "det-pe-wc-sections-exact"]
 +++
 Let $\Lambda$ be a ring and let $\mathcal W$ be the

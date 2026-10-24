@@ -2,7 +2,7 @@
 id = "sk-thm-pe-classical-sheaves"
 kind = "theorem"
 title = "Recognizing the classical part"
-order = 994
+order = 995
 lean = ["AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar", "AlgebraicGeometry.ProEtale.isIso_comparisonAdjunction_unit", "AlgebraicGeometry.ProEtale.etaleOrigin", "AlgebraicGeometry.ProEtale.linear_comparisonUpperStar"]
 uses = ["sk-prop-pe-comparison-morphism", "sk-def-pe-classical-definition"]
 tags = ["sketch"]

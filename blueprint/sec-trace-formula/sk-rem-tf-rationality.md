@@ -5,6 +5,7 @@ title = "Rationality, the functional equation and weights"
 order = 3566
 tags = ["sketch"]
 +++
+For smooth, proper and geometrically connected $X_0$,
 [sk-cor-tf-point-counting] and [sk-cor-tf-functional-equation] prove
 rationality and the functional equation. The latter is an identity of
 rational functions, not of power series at $T=0$, and its sign is determined

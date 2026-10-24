@@ -2,7 +2,8 @@
 id = "sk-prop-wgen-relative-line"
 kind = "proposition"
 title = "A relative affine line"
-order = 4069
+lean = ["AlgebraicGeometry.hasDirectImageWeightBound_affineLine"]
+order = 4068
 uses = ["sk-d-real-weights", "sk-r-real-linear", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-comp-composition", "sk-prop-sf-cbc", "sk-p-dl-general-relative-line", "sk-l-dl-general-quasifinite", "sk-i-topology"]
 tags = ["sketch"]
 +++

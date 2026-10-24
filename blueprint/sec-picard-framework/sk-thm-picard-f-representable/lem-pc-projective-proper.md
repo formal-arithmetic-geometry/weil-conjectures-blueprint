@@ -3,7 +3,7 @@ id = "lem-pc-projective-proper"
 kind = "lemma"
 title = "Projective morphisms are proper"
 lean = ["AlgebraicGeometry.IsHProjective.isProper", "AlgebraicGeometry.IsSmoothProjectiveCurve.isProper_baseChangeField"]
-order = 825
+order = 826
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-projective-morphism", "def-pc-smooth-projective-curve", "lem-pc-proper-base-change"]
 +++
 Every H-projective morphism of schemes ([def-pc-projective-morphism]), in

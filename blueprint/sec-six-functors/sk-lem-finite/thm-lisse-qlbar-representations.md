@@ -6,7 +6,8 @@ lean = ["AlgebraicGeometry.ProEtale.exists_lisseMonodromy"]
 order = 3282
 uses = ["cor-galois-lisse-representations", "def-galois-fibre-functor", "thm-galois-fundamental", "sk-def-sfb-constructible", "det-def-sfb-module-pushforward-pullback", "sk-prop-pe-condensed-point", "sk-prop-pe-finite-local-systems", "sk-prop-sfb-qlbar-colimit-x", "sk-lem-stratified-lattice", "det-lem-stratified-lattice-rank", "det-lem-stratified-lattice-scheme", "sk-thm-sfb-qlbar-two-colimit", "det-lem-coefficient-finite-descent-lisse", "det-lem-coefficient-finite-descent-sections"]
 +++
-Let $X$ be a connected Noetherian scheme with a geometric point
+Let $X$ be a connected Noetherian (locally Noetherian and quasi-compact)
+scheme with a geometric point
 $\bar x:\Spec\kappa\to X$, and let $\pi_1=\pi_1(X,\bar x)$ be the profinite
 fundamental group of [def-galois-fibre-functor]. Let $E\subset\Qlb$ be a
 finite extension of $\Ql$ with uniformizer $\pi_E$, and regard
@@ -27,7 +28,8 @@ finite-dimensional $\Qlb$-vector space $V$ is *defined over* $E$ if there is
 a $\pi_1$-stable $E$-subspace $V_E$ with $\Qlb\otimes_EV_E=V$ on which
 $\pi_1$ acts continuously for the $\ell$-adic topology.
 
-**Theorem.** Let $X$ be connected and regular. Then every lisse
+**Theorem.** Let $X$ be connected, regular and Noetherian, that is, locally
+Noetherian, regular and quasi-compact. Then every lisse
 $\QbarX$-module is integral, and $L\mapsto L_{\bar x}$, with the action of
 $\pi_1$ of (1)–(3) below, is an equivalence between lisse $\QbarX$-modules
 and continuous finite-dimensional $\Qlb$-representations of $\pi_1$; each of

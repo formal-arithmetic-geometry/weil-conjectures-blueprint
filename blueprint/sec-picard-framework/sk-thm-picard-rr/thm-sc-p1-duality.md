@@ -3,7 +3,7 @@ id = "thm-sc-p1-duality"
 kind = "theorem"
 title = "Duality on the projective line"
 lean = ["AlgebraicGeometry.Scheme.Modules.yonedaDualMap", "AlgebraicGeometry.ProjectiveLine.nonempty_dual_H_one_iso", "AlgebraicGeometry.ProjectiveLine.bijective_yonedaDualMap", "AlgebraicGeometry.ProjectiveLine.dualHZeroLinearEquivExt", "AlgebraicGeometry.ProjectiveLine.extIsoDualHZero", "AlgebraicGeometry.ProjectiveLine.nonempty_dual_H_zero_iso_ext", "AlgebraicGeometry.ProjectiveLine.nonempty_dual_H_zero_addEquiv_ext", "AlgebraicGeometry.ProjectiveLine.nonempty_dual_H_zero_linearEquiv_ext"]
-order = 706
+order = 707
 uses = ["def-sc-ext-sheaf", "def-sc-kahler-differentials", "def-sc-p1-standard", "lem-pc-projective-space-serre-pairing", "lem-sc-ext-locally-free", "lem-sc-four-lemma", "lem-sc-p1-graded-resolution", "lem-sc-p1-hi-vanishing", "lem-sc-p1-monomial", "lem-sc-p1-twist-exists"]
 +++
 Let $k$ be a field. For every coherent

@@ -2,7 +2,7 @@
 id = "det-lem-picard-f-open"
 kind = "lemma"
 title = "$F$ is an open subfunctor"
-order = 821
+order = 822
 lean = ["AlgebraicGeometry.isOpenImmersion_picardFunctorInvertibleDirectImage_ι"]
 +++
 Let $k$ be a field and $X$ a $k$-scheme which is proper, smooth

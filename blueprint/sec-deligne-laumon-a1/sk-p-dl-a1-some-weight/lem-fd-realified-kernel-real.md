@@ -3,7 +3,7 @@ id = "lem-fd-realified-kernel-real"
 kind = "lemma"
 title = "The realified kernel is $\\iota$-real"
 lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.realifiedKernel", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.map_trace_frobeniusEnd_pow_stalk_extensionByZero_twistedDual", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isReal_realifiedKernel"]
-order = 4002
+order = 4001
 uses = ["def-fd-kernel", "def-fd-nonexceptional", "def-fd-transform", "sk-lem-coefficient-heart", "def-weil-punctual-weights", "def-wf-constant-weil-twist", "def-wf-fundamental-representation", "def-wf-iota-real", "def-wf-middle-extension", "lem-fd-as-characters", "lem-fd-as-lisse", "lem-fd-as-purity", "lem-trf-frobenius-degree-formula", "lem-wf-pure-realizable", "prop-kernel-lisse"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion with
@@ -14,11 +14,12 @@ punctually $\iota$-pure of weight
 $w$, with irreducible geometric fundamental representation of
 [def-wf-fundamental-representation] and
 middle extension that is
-Fourier-nonexceptional. Put
+Fourier-nonexceptional. Let $b\in\Qlb^\times$ satisfy
+$\iota(b)=q^w$ (for instance $b=1$ when $w=0$; since $\iota$ is only a
+field embedding, such a $b$ exists exactly when $q^w\in\iota(\Qlb)$),
+and put
 
 $$
-b:=\iota^{-1}(q^w),\qquad\text{so that}\qquad \iota(b)=q^w ,
-\qquad
 \mathcal M^\dagger:=\mathcal M^\vee\otimes\mathcal B_b ,
 $$
 

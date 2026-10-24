@@ -3,7 +3,7 @@ id = "sk-p-linear-filtration"
 kind = "lemma"
 title = "Filtrations and spectra"
 lean = ["LinearMap.charpoly_eq_charpoly_restrict_mul_charpoly_mapQ", "Module.End.hasEigenvalue_of_subquotient"]
-order = 3752
+order = 3748
 uses = ["sk-p-linear-triangular"]
 tags = ["sketch"]
 +++

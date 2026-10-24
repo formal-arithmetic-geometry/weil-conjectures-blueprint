@@ -3,7 +3,7 @@ id = "prop-weil-betti-comparison"
 kind = "theorem"
 title = "Betti-number comparison"
 lean = ["AlgebraicGeometry.Scheme.weilBettiNumber_eq_finrank"]
-order = 4148
+order = 4147
 tags = ["latex:proposition"]
 uses = ["def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-smooth-proper-cohomological-family", "prop-cohomological-finiteness", "prop-integral-recovery"]
 +++
@@ -11,8 +11,8 @@ Let $p$ be prime, let $a\in\mathbf Z_{\geq1}$, put $q=p^a$ and
 $k_0=\Fq$, and let $k=\Fbar$ be the
 fixed algebraic closure of $k_0$.
 Let $X_0/k_0$ be
-smooth, proper, and geometrically
-connected of pure dimension $d\in\mathbf Z_{\geq0}$, and put
+smooth, proper and geometrically connected of pure dimension
+$d\in\mathbf Z_{\geq0}$, and put
 $X=X_0\times_{k_0}k$. Fix an indeterminate $T$. For every prime
 $\ell\neq p$, write $\Ql=\mathbf Q_\ell$, and for
 $P(T)=\sum_r c_rT^r\in\mathbf Z[T]$ write

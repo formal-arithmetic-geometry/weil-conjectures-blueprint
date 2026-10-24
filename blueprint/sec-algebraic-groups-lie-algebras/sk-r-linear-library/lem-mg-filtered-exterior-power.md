@@ -3,7 +3,7 @@ id = "lem-mg-filtered-exterior-power"
 kind = "lemma"
 title = "Exterior power of a filtered representation"
 lean = ["Subrepresentation.exteriorPowerGradedEquiv", "Representation.ConstituentsLE.exteriorPower_of_tprod", "Representation.ConstituentsLE.exteriorPower_of_chain", "Representation.CompositionSeries.constituentsLE_exteriorPower_semisimplification", "Representation.CompositionSeries.constituentsLE_exteriorPower_semisimplification'", "Representation.hasGradedPieces_exteriorPower_of_monotone", "Representation.CompositionSeries.hasGradedPieces_exteriorPower"]
-order = 3764
+order = 3760
 uses = ["def-mg-weil-composition-series"]
 +++
 Let $0=V_0\subsetneq\cdots\subsetneq V_t=V$ be a

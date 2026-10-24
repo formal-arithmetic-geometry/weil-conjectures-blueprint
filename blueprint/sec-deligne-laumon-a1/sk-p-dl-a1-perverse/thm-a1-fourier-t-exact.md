@@ -3,7 +3,7 @@ id = "thm-a1-fourier-t-exact"
 kind = "theorem"
 title = "The Fourier transform is perverse t-exact on the line"
 lean = ["AlgebraicGeometry.isCurvePerverseLE_fourierTransform_obj", "AlgebraicGeometry.isCurvePerverseLE_fourierTransform_inv_obj"]
-order = 3989
+order = 3988
 uses = ["def-per-perverse-subcategories", "def-per-support-condition", "def-fd-transform", "def-wf-tate-twist", "rem-dl-a1-conventions", "thm-a1-curve-perverse-heart", "thm-fd-fourier-perverse", "thm-fd-transform-well-defined", "lem-fd-base-change", "lem-fd-stalk-formula", "lem-zl-affine-curve-range", "lem-a1-affine-hc2", "lem-fd-as-characters", "lem-fd-cohomology-affine-line-character", "lem-fd-inversion", "prop-base-linear"]
 +++
 In the conventions of [rem-dl-a1-conventions], let

@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-weak-etale-strict-local"
 kind = "theorem"
 title = "A weakly etale local map over a strict henselian ring"
-order = 951
+order = 952
 lean = ["Algebra.WeaklyEtale.bijective_of_isStrictlyHenselianLocalRing"]
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-ind-etale-algebra", "lem-weil-pbc-ind-etale-stability", "lem-weil-pbc-weak-etale-field", "lem-weil-pbc-weak-etale-integral-closure"]
 +++

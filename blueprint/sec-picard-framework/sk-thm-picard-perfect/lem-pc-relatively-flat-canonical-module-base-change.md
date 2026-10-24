@@ -2,7 +2,7 @@
 id = "lem-pc-relatively-flat-canonical-module-base-change"
 kind = "lemma"
 title = "Derived base change for a relatively flat module"
-order = 776
+order = 777
 lean = ["AlgebraicGeometry.exists_isIso_canonicalModuleBaseChange_of_isFlatOver"]
 uses = ["def-pc-base-change", "def-pc-derived-direct-image", "def-pc-derived-pullback", "lem-pc-rf-base-change-flat-module"]
 +++

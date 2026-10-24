@@ -2,7 +2,7 @@
 id = "sk-cor-hasse"
 kind = "corollary"
 title = "Point-count estimates"
-order = 4157
+order = 4156
 lean = ["AlgebraicGeometry.Scheme.Hom.abs_pointCount_one_sub_le"]
 uses = ["sk-cor-tf-point-counting", "sk-input-weights", "sk-thm-weil-final", "sk-thm-curveestimate", "sk-prop-av-tate-rank"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-thm-picard-twist"
 kind = "lemma"
 title = "Translating into the chart"
-order = 840
+order = 841
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-picard-perfect", "sk-thm-picard-rr", "sec-abelian-varieties", "sec-nagata-compactification", "sk-def-picard-pic", "sk-prop-picard-pic-split", "sk-thm-picard-f-representable"]
 lean = ["AlgebraicGeometry.Scheme.exists_isInvertible_twist"]
 tags = ["sketch"]

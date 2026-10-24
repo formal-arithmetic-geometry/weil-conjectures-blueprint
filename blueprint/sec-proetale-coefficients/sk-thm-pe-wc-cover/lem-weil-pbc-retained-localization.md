@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-retained-localization"
 kind = "lemma"
 title = "Properties of the retained localization"
-order = 941
+order = 942
 lean = ["Ideal.WLocalization.indZariski", "Ideal.WLocalization.isWLocalRing", "Ideal.WLocalization.zeroLocus_map_algebraMap_eq_closedPoints", "Ideal.WLocalization.bijOn_zeroLocus_map", "Ideal.WLocalization.quotientMap_algebraMap_bijective", "Ideal.WLocalization.algebraMap_specComap_preimage_closedPoints_eq", "Ideal.WLocalization.faithfullyFlat_map_algebraMap"]
 uses = ["def-weil-pbc-ind-etale-algebra", "def-weil-pbc-retained-localization", "def-weil-pbc-w-local", "lem-weil-pbc-ind-etale-stability", "lem-weil-pbc-w-localization-points"]
 +++

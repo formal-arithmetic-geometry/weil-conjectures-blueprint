@@ -3,14 +3,14 @@ id = "cor-zl-hasse-weil-general-bound"
 kind = "theorem"
 title = "Hasse–Weil bound in every dimension"
 lean = ["AlgebraicGeometry.Scheme.abs_pointCount_sub_le_sum_finrank"]
-order = 4159
+order = 4158
 tags = ["latex:corollary"]
 uses = ["cor-trf-point-counting", "cor-zl-hasse-bound", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible", "def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-reciprocal-roots", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-endpoints", "prop-weight-purity-roots"]
 +++
 Fix the finite-field datum
 $(p,a,q,k_0,k)$, where $q=p^a$, and a prime $\ell\neq p$; write
 $\Ql=\mathbf Q_\ell$, choose an algebraic closure $\Qlb$ of $\Ql$,
-fix an isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$, and use the
+fix a field embedding $\iota:\Qlb\hookrightarrow\mathbf C$, and use the
 coefficient sheaves $\Lambda_X=p_X^*\Lambda$ of the condensed rings
 $\Lambda=\Ql,\Qlb$ on the pro-étale site
 ([det-def-sfb-pulled-back-coefficients]), with complexes in

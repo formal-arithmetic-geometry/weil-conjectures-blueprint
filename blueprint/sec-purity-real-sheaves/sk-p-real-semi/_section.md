@@ -2,9 +2,9 @@
 id = "sk-p-real-semi"
 kind = "proposition"
 title = "Boundary semicontinuity"
-order = 3900
+order = 3899
 uses = ["sk-d-real-weights", "sk-i-real-boundary", "sk-lem-wrp-hc2", "sk-lem-wrp-point-count", "sk-thm-trace-transport"]
-lean = ["AlgebraicGeometry.BoundaryDatum.frobeniusWeight_le_of_hasWeightsAtMost", "AlgebraicGeometry.BoundaryDatum.isPunctuallyPure_of_isPunctuallyPure_restrict"]
+lean = ["AlgebraicGeometry.BoundaryDatum.frobeniusWeight_le_of_hasWeightsAtMost"]
 tags = ["sketch"]
 +++
 Let $j:U_0\hookrightarrow X_0$ be a dense open of a smooth

@@ -3,7 +3,7 @@ id = "sk-p-readout"
 kind = "lemma"
 title = "Determinant weight from a central scalar"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.detWeight_eq_of_isPositiveCentralPair"]
-order = 3776
+order = 3772
 uses = ["sk-d-weights", "sk-i-restriction", "sk-p-central", "sk-r-linear-library"]
 tags = ["sketch"]
 +++

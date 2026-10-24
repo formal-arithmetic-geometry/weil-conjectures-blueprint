@@ -3,7 +3,7 @@ id = "def-pc-rational-point"
 kind = "definition"
 title = "Rational points"
 lean = ["AlgebraicGeometry.Scheme.Hom.baseChangeFieldPoint", "AlgebraicGeometry.Scheme.Hom.fieldPointBaseChange", "AlgebraicGeometry.Scheme.Hom.fieldPointBaseChange_snd"]
-order = 622
+order = 623
 uses = ["def-pc-base-change", "def-pc-scheme"]
 +++
 Let $k$ be a field and $X$ a scheme over $k$. A *$k$-rational

@@ -3,7 +3,7 @@ id = "det-pe-wc-rings-w-local-refinement"
 kind = "lemma"
 title = "A w-local refinement over the closed points"
 lean = ["Ideal.WLocalization", "Ideal.WLocalization.indZariski", "Ideal.WLocalization.isWLocalRing", "Ideal.WLocalization.faithfullyFlat_map_algebraMap", "Ideal.WLocalization.algebraMap_specComap_preimage_closedPoints_eq", "Algebra.IndEtale.trans", "Algebra.IndEtale.isSeparable_residueField", "RingHom.IndZariski.bijectiveOnStalks"]
-order = 933
+order = 934
 uses = ["def-weil-pbc-retained-localization", "lem-weil-pbc-retained-localization", "lem-weil-pbc-ind-etale-stability", "lem-weil-pbc-weak-etale-field", "det-pe-wlocal-strict-contractible"]
 +++
 Let $R$ be w-local [det-pe-wlocal-strict-contractible], let $I\subset R$ be an ideal with

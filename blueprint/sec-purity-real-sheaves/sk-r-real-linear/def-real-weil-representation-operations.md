@@ -4,7 +4,7 @@ kind = "definition"
 title = "Operations on Weil representations"
 lean = ["AlgebraicGeometry.WeilGroup.detLine", "AlgebraicGeometry.WeilGroup.semisimplification", "Representation.IsIrreducible", "Representation.IsConstituent"]
 order = 3803
-uses = ["def-mg-determinant-line", "def-mg-weil-composition-series", "def-mg-weil-semisimplification", "def-wf-fundamental-representation", "def-wf-weil-group"]
+uses = ["def-mg-determinant-line", "def-mg-weil-composition-series", "def-mg-weil-semisimplification", "def-wf-fundamental-representation", "def-wf-weil-group", "prop-wf-weil-sheaf-representation-equivalence"]
 +++
 Let $X_0$ be as in [def-wf-fundamental-representation], with Weil group
 $W=W(X_0)$ and degree map $\deg:W\to\mathbf Z$ of [def-wf-weil-group]. A
@@ -19,6 +19,10 @@ representations $V,V'$:
 - the *exterior power* $\bigwedge^rV$ carries
   $g(v_1\wedge\cdots\wedge v_r)=gv_1\wedge\cdots\wedge gv_r$; the top
   exterior power is the determinant line $\det V$ of [def-mg-determinant-line];
+  for a lisse Weil sheaf $\mathcal V$ of rank $r$ on a curve, with Weil
+  fundamental representation $V$, its *determinant* $\det(\mathcal V)$ is
+  the rank-one lisse Weil sheaf corresponding to $\det V$ under
+  [prop-wf-weil-sheaf-representation-equivalence];
 - the *dual* $V^\vee=\operatorname{Hom}(V,\Qlb)$ carries
   $(g\lambda)(v)=\lambda(g^{-1}v)$.
 

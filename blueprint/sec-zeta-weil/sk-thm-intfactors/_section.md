@@ -2,12 +2,12 @@
 id = "sk-thm-intfactors"
 kind = "theorem"
 title = "Integral factors and independence of the prime"
-order = 4122
-lean = ["AlgebraicGeometry.IsWeilFactorization.unique", "TraceDatum.exists_isWeilFactorization"]
+order = 4121
+lean = ["AlgebraicGeometry.Scheme.integral_recovery", "AlgebraicGeometry.Scheme.realization_independence", "AlgebraicGeometry.Scheme.weil_integral_factors"]
 uses = ["sk-cor-tf-point-counting", "sk-input-weights", "sk-lem-wweil-integer-rationality"]
 tags = ["sketch"]
 +++
-For smooth proper $X_0$ of pure dimension $d$, put
+For smooth, proper and geometrically connected $X_0$ of pure dimension $d$, put
 
 $$
  H^i_\ell=H^i(X_{\mathrm{pro\acute et}},\Ql),\qquad

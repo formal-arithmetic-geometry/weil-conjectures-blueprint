@@ -2,7 +2,7 @@
 id = "def-weil-pbc-etale-contraction"
 kind = "definition"
 title = "Successive adjoining of etale sections"
-order = 942
+order = 943
 lean = ["IndEtaleContraction"]
 uses = ["def-weil-pbc-ind-etale-algebra"]
 +++

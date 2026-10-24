@@ -2,8 +2,9 @@
 id = "sk-cor-wrp-unramified-purity"
 kind = "corollary"
 title = "An unramified boundary point"
-order = 3903
+order = 3902
 uses = ["sk-i-real-boundary", "sk-p-real-semi", "sk-r-real-linear"]
+lean = ["AlgebraicGeometry.BoundaryDatum.isPunctuallyPure_of_isPunctuallyPure_restrict"]
 tags = ["sketch"]
 +++
 Let $\mathcal F$ be a lisse sheaf, pure of weight $a$, on a smooth

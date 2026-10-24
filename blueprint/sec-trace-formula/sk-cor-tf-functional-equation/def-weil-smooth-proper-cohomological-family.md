@@ -7,7 +7,7 @@ order = 3559
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-weil-sheaf-complex", "prop-cohomological-finiteness", "det-def-sfb-pulled-back-coefficients", "sk-def-sf-weil-complexes"]
 +++
 Fix the finite-field datum $p,a,q,k_0,k$, where $q=p^a$. Let $X_0/k_0$ be
-smooth, proper, geometrically connected of pure dimension $d\in\mathbf
+smooth and proper of pure dimension $d\in\mathbf
 Z_{\geq0}$, and put $X=X_0\times_{k_0}k$. For every prime $\ell\neq p$, write
 $\Ql=\mathbf Q_\ell$, and let
 $K_{X,\ell}=\mathbf Q_{\ell,X}=p_X^*\Ql$ be the coefficient sheaf of the

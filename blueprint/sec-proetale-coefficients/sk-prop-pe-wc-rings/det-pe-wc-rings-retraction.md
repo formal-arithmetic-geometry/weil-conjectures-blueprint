@@ -3,7 +3,7 @@ id = "det-pe-wc-rings-retraction"
 kind = "lemma"
 title = "Retraction of a faithfully flat ind-étale algebra over a w-contractible ring"
 lean = ["IsWContractibleRing.exists_retraction_of_zeroLocus_map_eq_closedPoints", "IsWContractibleRing.exists_retraction", "exists_retraction_of_bijectiveOnStalks", "exists_retraction_of_isClosed_of_bijOn", "Algebra.WeaklyEtale.bijectiveOnStalks", "RingHom.IsWLocal.bijective_of_bijective", "WContractification.Restriction"]
-order = 934
+order = 935
 uses = ["det-pe-wc-rings-w-local-refinement", "det-pe-wc-rings-local-iso", "det-pe-stonean-projective", "det-pe-wlocal-components", "det-pe-wlocal-strict-contractible", "lem-weil-pbc-ind-etale-stability"]
 +++
 Let $R$ be w-contractible [det-pe-wlocal-strict-contractible] and let $I\subset R$ be an

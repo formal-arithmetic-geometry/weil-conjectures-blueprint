@@ -2,7 +2,7 @@
 id = "sk-the-five-assembled-theorems--remark-1"
 kind = "remark"
 title = "Where the final layer feeds"
-order = 4156
+order = 4155
 tags = ["sketch"]
 +++
 *Where this feeds.* This layer is the last one of the blueprint: its

@@ -3,7 +3,7 @@ id = "def-pc-linear-pair-morphism"
 kind = "definition"
 title = "The morphism determined by two linear forms"
 lean = ["AlgebraicGeometry.Proj.linearChartHom", "AlgebraicGeometry.Proj.linearProjection", "AlgebraicGeometry.Proj.linearPairProjection"]
-order = 689
+order = 690
 uses = ["def-pc-proj", "def-pc-standard-graded-algebra", "def-sc-p1-standard"]
 +++
 Let $S$ be a standard graded

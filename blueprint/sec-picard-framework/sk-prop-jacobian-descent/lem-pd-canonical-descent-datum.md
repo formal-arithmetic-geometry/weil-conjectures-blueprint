@@ -3,7 +3,7 @@ id = "lem-pd-canonical-descent-datum"
 kind = "lemma"
 title = "A representing object carries a canonical descent datum"
 lean = ["CategoryTheory.Functor.RepresentableBy.overDescentDatum", "CategoryTheory.Functor.RepresentableBy.overTransport"]
-order = 889
+order = 890
 uses = ["cor-pd-pic0-base-change", "def-pc-base-change", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-pd-descent-datum", "def-pd-separable-closure", "def-sc-jacobian", "lem-pd-descent-cocycle", "thm-pd-geometric-pic0"]
 +++
 Let $p:X\to Y$ be a morphism of schemes, let $F$ be a presheaf of sets on

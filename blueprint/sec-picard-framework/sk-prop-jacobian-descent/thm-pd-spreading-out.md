@@ -3,7 +3,7 @@ id = "thm-pd-spreading-out"
 kind = "theorem"
 title = "Descent of finitely presented data at a filtered limit"
 lean = ["AlgebraicGeometry.Scheme.exists_isPullback_of_finitePresentation", "AlgebraicGeometry.Scheme.exists_pullback_hom_of_isLimit", "AlgebraicGeometry.Scheme.exists_pullback_fst_comp_eq_of_isLimit"]
-order = 890
+order = 891
 uses = ["def-pc-base-change", "def-pc-morphism-conventions"]
 +++
 Let $(S_i)_{i\in I}$ be a cofiltered inverse system of schemes (for instance

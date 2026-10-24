@@ -2,7 +2,7 @@
 id = "sk-cor-pe-bounded-continuity"
 kind = "corollary"
 title = "Continuity of cohomology"
-order = 987
+order = 988
 lean = ["AlgebraicGeometry.ProEtale.preservesColimitsOfShape_rightDerived_lowerStar", "AlgebraicGeometry.ProEtale.preservesColimitsOfShape_discrete_rightDerived_lowerStar"]
 uses = ["sk-prop-pe-hypercover", "sk-cor-pe-sections", "sk-cor-pe-wc-sections"]
 tags = ["sketch"]

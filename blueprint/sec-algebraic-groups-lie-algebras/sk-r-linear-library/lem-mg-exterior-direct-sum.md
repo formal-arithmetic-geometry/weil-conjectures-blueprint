@@ -3,11 +3,12 @@ id = "lem-mg-exterior-direct-sum"
 kind = "lemma"
 title = "Exterior power of a direct sum"
 lean = ["Representation.exteriorPowerProdEquiv", "Representation.exteriorPowerDirectSumEquiv"]
-order = 3765
-uses = ["def-wf-weil-group"]
+order = 3761
+uses = ["d-monodromy"]
 +++
-Let $V_1,\ldots,V_s$ be finite-dimensional Weil
-representations. For every $N$, there is a canonical Weil-equivariant
+Let $V_1,\ldots,V_s$ be Weil representations of a degree datum
+([d-monodromy]), or more generally finite-dimensional representations of
+any group $W$. For every $N$, there is a canonical $W$-equivariant
 decomposition
 
 $$

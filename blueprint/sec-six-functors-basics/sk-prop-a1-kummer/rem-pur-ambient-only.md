@@ -1,29 +1,31 @@
 +++
 id = "rem-pur-ambient-only"
 kind = "remark"
-title = "The ambient datum of this chapter is a theorem on its coefficients"
+title = "This chapter uses only the class form of the ambient datum"
 order = 2833
 uses = ["def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "lem-exc-closed-ambient", "lem-exc-closed-amplitude", "lem-exc-open-complement-known", "lem-exc-residue-tor-test", "lem-sf-proetale-constructible-origin", "prop-exc-closed-tor", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class"]
 +++
 Of the three clauses of
-[def-weil-exceptional-adjoint-admissibility] this chapter uses only
-clause (1), the ambient exceptional right adjoint datum of
+[def-weil-exceptional-adjoint-admissibility], clause (1) is the ambient
+exceptional right adjoint datum of
 [def-weil-ambient-exceptional-adjoint]: the existence of
 $Rf_n^{\times}$ on the ordinary derived categories, together with the
-full cohomological-dimension condition. That clause is *not a
-hypothesis* of this chapter: on the bounded constructible and finite-Tor
-coefficients that every statement below quantifies over — the coefficients
-of the blueprint's class [def-sf-fullcd-used-class], which by
+full cohomological-dimension condition. That datum is false in general
+(for the structure morphism of an elliptic curve over
+$\overline{\mathbf F}_p$ with $A=\mathbf F_r$), and it is *neither a
+hypothesis nor an input* of this chapter. What the chapter uses is its
+class form, on the bounded constructible and finite-Tor coefficients
+that every statement below quantifies over — the coefficients of the
+blueprint's class [def-sf-fullcd-used-class], which by
 [lem-sf-proetale-constructible-origin] are exactly the sheaves of
-étale origin — both of its halves are theorems, the vanishing half
-[thm-sf-fullcd-class] with the bound $2\dim\overline X$ and the
-existence half [thm-sf-ambient-adjoint-class] with its unit, counit and
-compactification comparisons, together
-[cor-sf-ambient-adjoint-discharge]. The datum remains an assumption
-only for the complexes outside that class, and no statement of this chapter
-applies the adjunction $Rf_!\dashv Rf^!$ to such a complex
-([rem-sf-class-adjoint-residue]). The two preservation clauses are
-likewise not hypotheses:
+étale origin: the class-restricted vanishing [thm-sf-fullcd-class] with
+the bound $2\dim\overline X$, and the right adjoint of $Rf_!$ relative to
+the bounded-below objects of étale origin [thm-sf-ambient-adjoint-class],
+with its unit, counit and compactification comparisons; both are
+theorems, recorded together in [cor-sf-ambient-adjoint-discharge]. No
+statement of this chapter applies an adjunction $Rf_!\dashv Rf^!$ to a
+complex outside that class ([rem-sf-class-adjoint-residue]). The two
+preservation clauses are likewise not hypotheses:
 
 1. clause (2), the constructibility clause, is *derived* in this
 chapter for the morphisms for which purity is proved:
@@ -41,9 +43,9 @@ the criterion applied to $K$ controls. For a closed immersion it
 is proved without purity in [prop-exc-closed-tor]. For a
 general separated finite-type morphism it is derived in the assembly
 of [thm-pur-general-admissibility] and
-[cor-pur-general-admissibility-datum] from the ambient datum,
-which on the coefficients of those two statements is the theorem
-[cor-sf-ambient-adjoint-discharge], together with the
+[cor-pur-general-admissibility-datum] from the right adjoint relative
+to the bounded-below objects of étale origin of
+[thm-sf-ambient-adjoint-class], together with the
 open-complement condition supplied by
 [lem-exc-open-complement-known]; no clause of
 [def-weil-exceptional-adjoint-admissibility] is assumed where
@@ -71,7 +73,7 @@ The two closed-immersion statements
 the open-complement condition of the pair they treat, which is a statement
 about the ordinary direct image and is proved in the chapter on exceptional
 right adjoints from the direct-image finiteness theorems
-([thm-sf-preservation-class]). Apart from the ambient
-exceptional right adjoint datum — a theorem on the coefficients used
-here, as just recorded — this chapter therefore assumes no geometric
-hypothesis at all.
+([thm-sf-preservation-class]). This chapter therefore assumes no
+geometric hypothesis at all; in particular it does not assume the ambient
+exceptional right adjoint datum, of which it uses only the class form
+recorded above.

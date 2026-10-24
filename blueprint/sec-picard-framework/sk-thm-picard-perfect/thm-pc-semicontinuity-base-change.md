@@ -2,7 +2,7 @@
 id = "thm-pc-semicontinuity-base-change"
 kind = "theorem"
 title = "Semicontinuity and base change"
-order = 775
+order = 776
 uses = ["def-pc-base-change", "def-pc-derived-direct-image", "def-pc-derived-pullback", "def-pc-morphism-conventions", "def-pc-perfect-complex", "lem-pc-cech-resolution", "lem-pc-flat-complex-derived-pullback", "lem-pc-rf-base-change-flat-module", "lem-pc-rf-perfect-base-change"]
 lean = ["AlgebraicGeometry.Scheme.Modules.finiteDimensional_H_fiber", "AlgebraicGeometry.Scheme.Modules.cechBaseChangeMap", "AlgebraicGeometry.Scheme.Modules.upperSemicontinuous_hFiber", "AlgebraicGeometry.Scheme.Modules.exists_isFiniteLocallyFreeOfRank_higherDirectImage_of_isLocallyConstant", "AlgebraicGeometry.Scheme.Modules.bijective_cechBaseChangeMap_of_forall_specializes"]
 +++

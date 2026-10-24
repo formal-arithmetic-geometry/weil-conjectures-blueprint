@@ -3,7 +3,7 @@ id = "def-weil-pbc-henselian-terminology"
 kind = "definition"
 title = "Henselian terminology"
 lean = ["HenselianRing", "HenselianLocalRing", "IsStrictlyHenselianLocalRing"]
-order = 936
+order = 937
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A pair $(A,I)$ consisting of a commutative ring and an ideal is *henselian*

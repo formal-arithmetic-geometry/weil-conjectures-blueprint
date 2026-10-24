@@ -2,7 +2,7 @@
 id = "sk-d-real-weil"
 kind = "definition"
 title = "Weil structures and the weight convention"
-order = 3788
+order = 3784
 uses = ["sk-d-weil", "sk-def-sf-weil-complexes", "sk-lem-tf-frobenius-convention", "sk-p-real-integral"]
 lean = ["AlgebraicGeometry.WeilGroup", "AlgebraicGeometry.WeilGroup.IsLisse"]
 tags = ["sketch"]
@@ -17,8 +17,8 @@ in degree zero. Derived constructions take place in the geometric pro-étale
 category and carry the induced Weil isomorphisms of
 [sk-def-sf-weil-complexes].
 
-On a connected normal scheme of finite type over a field, we identify a
-lisse $E$-sheaf with the corresponding continuous representation of the
+On a connected smooth scheme of finite type over a field, we identify a
+lisse $\overline{\mathbf Q}_\ell$-sheaf with the corresponding continuous representation of the
 profinite fundamental group, by [sk-p-real-integral]. All arguments with
 representations below take place on smooth schemes. A lisse Weil
 $\overline{\mathbf Q}_\ell$-sheaf has a lisse Weil model over some finite

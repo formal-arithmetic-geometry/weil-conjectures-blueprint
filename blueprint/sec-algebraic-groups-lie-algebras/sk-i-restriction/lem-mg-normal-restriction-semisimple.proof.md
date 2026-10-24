@@ -15,7 +15,7 @@ Add those translates one at a time. If $D$ is the direct sum already
 obtained and $S'$ is the next translate, then $S'\cap D$ is an
 $N$-submodule of the simple module $S'$; it is either zero, in which
 case $D+S'=D\oplus S'$, or all of $S'$, in which case nothing is
-added. Thus $V|_N$ is a direct sum of simple $N$-modules. For a Weil
-representation take $N=\pi_1(X)$, which is normal in the Weil group;
-the final assertion is precisely geometric semisimplicity in
+added. Thus $V|_N$ is a direct sum of simple $N$-modules. For a
+represented degree datum take $N=P=\ker(\deg)$, which is normal in $W$
+([d-monodromy]); the final assertion is precisely geometric semisimplicity in
 [def-wf-geometric-semisimplicity].

@@ -3,13 +3,14 @@ id = "def-wf-degree-components"
 kind = "definition"
 title = "Degree components and algebraic-monodromy elements"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.degreeComponent", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.degreeComponent_eq_range"]
-order = 3740
-uses = ["def-wf-arithmetic-monodromy-extension", "def-wf-geometric-monodromy-group", "def-wf-weil-group"]
+order = 3737
+uses = ["d-monodromy", "def-wf-arithmetic-monodromy-extension"]
 +++
-For $m\in\mathbf Z$, put
+For a represented degree datum ([d-monodromy]) with geometric monodromy
+group $H$ and $m\in\mathbf Z$, put
 
 $$
-G^{[m]}=H_{\mathrm{geom}}\times\{m\}.
+G^{[m]}=H\times\{m\}\subseteq G_{\mathrm{arith}}(\rho).
 $$
 
 An element of $G^{[m]}$ is called an

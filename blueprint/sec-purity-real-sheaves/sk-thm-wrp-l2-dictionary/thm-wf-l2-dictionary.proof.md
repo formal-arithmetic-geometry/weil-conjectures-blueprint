@@ -9,7 +9,7 @@ is its square, equal to the squared absolute value of that trace.
 The logarithm of the Frobenius determinant
 [lem-zl-log-det-identity] (applied to each local factor, with
 $T\mapsto t^{d(x)}$, and transported to $\mathbf C[[t]]$ by the field
-isomorphism $\iota$, exactly as in the proof of
+embedding $\iota$, exactly as in the proof of
 [lem-wf-conjugate-tensor-traces]) and the Euler product
 [cor-rp-euler-product] therefore give
 

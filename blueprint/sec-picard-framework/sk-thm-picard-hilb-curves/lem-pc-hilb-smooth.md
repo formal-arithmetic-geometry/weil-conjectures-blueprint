@@ -3,7 +3,7 @@ id = "lem-pc-hilb-smooth"
 kind = "lemma"
 title = "Hilbert schemes of curves are smooth"
 lean = ["AlgebraicGeometry.isIso_of_representableBy_hilbertPresheaf_zero", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_hilbertPresheaf"]
-order = 812
+order = 813
 uses = ["def-pc-morphism-conventions", "lem-pc-hilb-addition"]
 +++
 Let $X\to S$ be

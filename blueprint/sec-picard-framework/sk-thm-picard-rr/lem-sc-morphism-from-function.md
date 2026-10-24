@@ -3,7 +3,7 @@ id = "lem-sc-morphism-from-function"
 kind = "lemma"
 title = "Rational functions define finite morphisms to $\\mathbf P^1$"
 lean = ["AlgebraicGeometry.Scheme.isFinite_flat_of_hom_projectiveLine_of_functionField"]
-order = 709
+order = 710
 uses = ["def-sc-curves", "def-sc-function-field", "lem-sc-dim0-finite", "lem-sc-rational-function-morphism", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++
 Let $k$ be a field, $C$ an integral scheme, smooth of relative

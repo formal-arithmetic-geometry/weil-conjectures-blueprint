@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-local-rings-ind-zariski"
 kind = "lemma"
 title = "Local-ring identifications with w-local target"
-order = 952
+order = 953
 lean = ["Algebra.BijectiveOnStalks.indZariski_of_isWLocal", "RingHom.BijectiveOnStalks.indZariski_of_isWLocal"]
 uses = ["def-weil-pbc-ind-etale-algebra", "def-weil-pbc-w-local", "lem-weil-pbc-w-local-partition"]
 +++

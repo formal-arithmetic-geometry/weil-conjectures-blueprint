@@ -31,9 +31,15 @@ composite is the bijection displayed above. Hence composition with
 $\eta^!_{i,Q}$ is a bijection $\Hom(P,Q)\to\Hom(P,Ri^!Ri_*Q)$, naturally in
 $P$, and the Yoneda lemma shows that $\eta^!_{i,Q}$ is an isomorphism.
 
-For the last assertion, the right adjoint $Ri_n^{\times}$ of
-$Ri_{!,n}=Ri_*$ given by the datum of [def-weil-ambient-exceptional-adjoint]
-is, by uniqueness of right adjoints, identified with $Ri^!$ together with its
-unit. The functor $Ri^!$ of [def-weil-exceptional-inverse-image] is its
-restriction to $D^b_c$, with the same unit, so its unit at $Q\in D^b_c(Z,A)$
-is the isomorphism just proved.
+For the last assertion no ambient datum is used. Write $Ri^!_c$ for the
+functor of [def-weil-exceptional-inverse-image]; its adjunction
+$\Hom_T(Ri_*P,M)\cong\Hom_Z(P,Ri^!_cM)$ holds for every bounded-below $P$ of
+etale origin and every bounded-below $M$ ([thm-sf-ambient-adjoint-class]),
+and $Ri^!_cM=\nu_Z^*i^{\times}R\nu_{T,*}M$ is then again bounded below of
+etale origin. Let $Q\in D^b_c(Z,A)$, so that $Q$ and $Ri^!_cRi_*Q$ both
+lie in the full subcategory of bounded-below objects of etale origin. For
+$P$ in that subcategory the composite of composition with the unit
+$Q\to Ri^!_cRi_*Q$ and the adjunction bijection is, by the triangle
+identity as above, the map $g\mapsto Ri_*g$, which is bijective by the full
+faithfulness just shown. The Yoneda lemma in that full subcategory shows that
+the unit $Q\to Ri^!_cRi_*Q$ is an isomorphism.

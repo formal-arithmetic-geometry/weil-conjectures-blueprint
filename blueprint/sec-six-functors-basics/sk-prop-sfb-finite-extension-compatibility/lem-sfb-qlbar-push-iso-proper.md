@@ -14,4 +14,4 @@ $$
 T^Y_{E,\Qlb}\circ Rf_*\longrightarrow Rf_*\circ T^X_{E,\Qlb},
 $$
 
-is an isomorphism of functors on the unbounded derived category $D(\Mod_{E_X})$.
+is an isomorphism at every bounded-below object $K\in D^+(\Mod_{E_X})$.

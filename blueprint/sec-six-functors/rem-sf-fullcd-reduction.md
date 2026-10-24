@@ -98,14 +98,16 @@ models.
 
 Accordingly the general form, on all sheaves, is not merely unproved: it is
 *false*, by *The all-sheaves, uniform-in-the-base-change form of the comparison bound is false* and
-[rem-sf-fullcd-counterexample], so the ambient datum
-[def-weil-ambient-exceptional-adjoint] is read *on the
-blueprint's coefficient class* [def-sf-fullcd-used-class], where
-clause (1) of [def-weil-exceptional-adjoint-admissibility] is a theorem
-in *both* of its halves: the vanishing half is the class-restricted
+[rem-sf-fullcd-counterexample], and with it the ambient datum
+[def-weil-ambient-exceptional-adjoint]; the blueprint uses only its class
+form *on the blueprint's coefficient class* [def-sf-fullcd-used-class],
+where both halves of clause (1) of
+[def-weil-exceptional-adjoint-admissibility] have theorems as
+class-restricted replacements: for the vanishing half the class-restricted
 datum [def-sf-fullcd-class], supplied with the bound $2\dim\bar X$ and
-uniformly over the base changes by [thm-sf-fullcd-class], and the
-existence half, with its unit, counit and compactification comparisons, is
+uniformly over the base changes by [thm-sf-fullcd-class], and for the
+existence half the right adjoint relative to the bounded-below objects of
+étale origin, with its unit, counit and compactification comparisons, of
 the theorem [thm-sf-ambient-adjoint-class]; the interface
 [sk-rem-sf-fullcd-scope] therefore no longer names the existence
 half on that class, and what it still names – the adjunction for the
@@ -122,10 +124,11 @@ actually uses – the bounded constructible and finite-Tor categories of
 [def-weil-finite-tor-amplitude], whose coefficient sheaves are
 constructible by construction – the full-cohomological-dimension input of
 the ambient datum is a theorem on the restricted input and not a hypothesis;
-what the ambient datum still assumes on those categories is nothing beyond
-that theorem and [thm-sf-ambient-adjoint-class]: the existence half, which
+on those categories nothing beyond that theorem and
+[thm-sf-ambient-adjoint-class] is used: the existence half, which
 *Ambient exceptional right adjoint* derives from clause (1) for the
-unrestricted input, is on the class the cited theorem. Second, the general form of the condition,
+unrestricted input, is replaced on the class by the relative adjoint of
+the cited theorem, while the unrestricted datum itself is false. Second, the general form of the condition,
 quantified over arbitrary pro-étale module sheaves and uniformly over the
 base changes, is by
 [lem-sf-fullcd-detection-equivalence] the uniform bound on the

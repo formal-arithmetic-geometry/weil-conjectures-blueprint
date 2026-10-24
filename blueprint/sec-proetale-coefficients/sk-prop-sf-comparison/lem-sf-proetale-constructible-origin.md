@@ -3,7 +3,7 @@ id = "lem-sf-proetale-constructible-origin"
 kind = "lemma"
 title = "Constructible pro-étale coefficients are of étale origin"
 lean = ["AlgebraicGeometry.ProEtale.isConstructible_iff_exists_isConstructibleSheaf_iso_comparisonUpperStar_obj", "AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructible_iff", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructibleIntrinsic", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructible_le_boundedConstructibleIntrinsic"]
-order = 1035
+order = 1036
 uses = ["def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-complexes", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-cbc-proetale-stalk-conservative", "thm-weil-pbc-site-comparison"]
 +++
 Let $A$ be a finite commutative ring (for instance $A=A_{E,n}$ for the global

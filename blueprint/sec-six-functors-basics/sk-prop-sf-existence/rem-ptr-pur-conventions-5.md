@@ -16,11 +16,12 @@ finite coefficient ring, i.e. clause (1) of
 [def-weil-exceptional-adjoint-admissibility] — the full
 cohomological-dimension condition together with the existence of the right
 adjoint $Rf_n^{\times}$ of the compact-support direct image $Rf_{!,n}$
-on the *ordinary* derived categories — is *not* assumed here: on
-the bounded constructible and finite-Tor coefficients used below it is the
-theorem [cor-sf-ambient-adjoint-discharge] of the six-functor chapter,
-both halves, the vanishing one being the class-restricted datum
-[thm-sf-fullcd-class] with the bound $2\dim\overline X$ and the
-existence one [thm-sf-ambient-adjoint-class]; the datum stays an
-assumption only for the complexes that are not of étale origin, as
-[rem-sf-class-adjoint-residue] records.
+on the *ordinary* derived categories — is *not* assumed here, and it is
+false in general. On the bounded constructible and finite-Tor
+coefficients used below only its class form is used, and that is a
+theorem of the six-functor chapter, [cor-sf-ambient-adjoint-discharge]:
+the class-restricted vanishing [thm-sf-fullcd-class] with the bound
+$2\dim\overline X$, and the right adjoint of $Rf_{!,n}$ relative to the
+bounded-below objects of étale origin [thm-sf-ambient-adjoint-class]; no
+statement below applies an adjunction to complexes that are not of étale
+origin, as [rem-sf-class-adjoint-residue] records.

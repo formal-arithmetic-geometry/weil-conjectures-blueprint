@@ -3,7 +3,7 @@ id = "lem-pc-divisor-line-bundle-agrees-sc"
 kind = "lemma"
 title = "$\\mathcal{O}_X(D)$ agrees with the divisor module of file 06"
 lean = ["AlgebraicGeometry.Scheme.Divisor.toMul_toPic_mapRange_eq_dual", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.toMul_toPic_eq"]
-order = 723
+order = 724
 uses = ["def-pc-divisor-line-bundle", "def-sc-divisor", "def-nagata-invertible-ideal", "lem-sc-cartier-divisor-points", "lem-sc-point-cartier", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
 Let $k$ be a field and $C$ a scheme smooth of relative dimension $1$ over

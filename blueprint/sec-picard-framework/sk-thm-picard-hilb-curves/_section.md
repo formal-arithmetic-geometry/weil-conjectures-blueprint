@@ -2,7 +2,7 @@
 id = "sk-thm-picard-hilb-curves"
 kind = "theorem"
 title = "Hilbert schemes of points on a smooth curve"
-order = 796
+order = 797
 uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sec-abelian-varieties", "sec-nagata-compactification", "sk-def-picard-pic", "sk-prop-picard-pic-split"]
 lean = ["AlgebraicGeometry.hilbertPresheaf_curve_representable", "AlgebraicGeometry.hilbertPresheaf_curve_points", "AlgebraicGeometry.hilbertPresheaf_curve_add", "AlgebraicGeometry.isIso_of_representableBy_hilbertPresheaf_zero"]
 tags = ["sketch"]

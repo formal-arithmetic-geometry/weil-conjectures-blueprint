@@ -9,21 +9,12 @@ tags = ["sketch"]
 +++
 Let $X$ be a scheme and $E/\mathbf Q_\ell$ finite, with coefficient rings $\cO_{E,X}$ and
 $E_X$ on $X_{\mathrm{proét}}$ ([sk-prop-sfb-qlbar-colimit-x]) and the inclusion
-$\varphi\colon\cO_{E,X}\to E_X$. Passing from $\cO_E$ to $E$ means inverting $\ell$. On the
-full derived categories, extension of scalars
-$$
-E_X\otimes_{\cO_{E,X}}-\colon D(X_{\mathrm{proét}},\cO_E)\to D(X_{\mathrm{proét}},E)
-$$
-kills the complexes $K$ with $H^q(K)[1/\ell]=0$ for all $q$. This kernel is larger than one
-might first guess: $\bigoplus_{n\ge1}\cO_{E,X}/\ell^n$ lies in it, although no single power
-of $\ell$ kills it.
-
-**Bounded constructible complexes.** On bounded constructible complexes
-([det-def-sfb-bounded-constructible]) this cannot happen. The derived extension of scalars
+$\varphi\colon\cO_{E,X}\to E_X$. Passing from $\cO_E$ to $E$ means inverting $\ell$.
+The derived extension of scalars
 $E\otimes^{\mathrm L}_{\cO_E}-=L(\operatorname{Ext}_\varphi)$
-([det-def-sfb-derived-extension-of-scalars]) sends bounded constructible complexes to bounded
-constructible complexes. Let the underlying topological space of $X$ be Noetherian. Then the
-restricted functor
+([det-def-sfb-derived-extension-of-scalars]) sends bounded constructible complexes
+([det-def-sfb-bounded-constructible]) to bounded constructible complexes. Let the
+underlying topological space of $X$ be Noetherian. Then the restricted functor
 $E\otimes^{\mathrm L}_{\cO_E}-\colon\Dbc(X,\cO_E)\to\Dbc(X,E)$ is a localization at the
 morphisms whose mapping cone is killed by some power of $\ell$, and it induces an
 equivalence

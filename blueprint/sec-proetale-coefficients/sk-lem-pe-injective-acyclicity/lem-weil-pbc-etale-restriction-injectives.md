@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-etale-restriction-injectives"
 kind = "lemma"
 title = "Etale restriction preserves injectives"
-order = 1001
+order = 1002
 lean = ["AlgebraicGeometry.Etale.etaleLowerShriekUpperStarAdjunction", "AlgebraicGeometry.Etale.preservesFiniteLimits_etaleLowerShriek", "AlgebraicGeometry.Etale.injective_upperStar_obj_of_etale"]
 uses = ["def-weil-pbc-etale-sum-extension", "def-weil-pbc-inverse-image", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-geometric-stalks-exact"]
 +++

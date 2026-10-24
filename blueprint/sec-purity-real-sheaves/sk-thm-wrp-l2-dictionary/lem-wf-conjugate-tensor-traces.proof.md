@@ -22,6 +22,6 @@ $\log\det(1-TF)^{-1}=\sum_{n\ge1}\Tr(F^n)T^n/n$ in $\Qlb[[T]]$;
 substituting $T\mapsto t^{d(x)}$ and applying $t\,\frac{d}{dt}$ gives
 $t\,\frac{d}{dt}\log\det(1-F t^{d(x)})^{-1}
 =\sum_{n\ge1}d(x)\Tr(F^n)t^{d(x)n}$, and applying the field
-isomorphism $\iota$ coefficientwise transports this identity of formal
+embedding $\iota$ coefficientwise transports this identity of formal
 power series from $\Qlb[[t]]$ to $\mathbf C[[t]]$. The displayed identity follows, and the coefficients of
 $\varphi_{\mathcal F}$ are nonnegative reals.

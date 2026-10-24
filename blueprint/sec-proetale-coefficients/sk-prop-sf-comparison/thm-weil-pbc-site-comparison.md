@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-site-comparison"
 kind = "theorem"
 title = "Bounded-below site comparison"
-order = 1031
+order = 1032
 lean = ["AlgebraicGeometry.ProEtale.derivedComparisonAdjunction", "AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map"]
 uses = ["def-weil-pbc-proetale-modules", "def-weil-pbc-site-comparison-morphism", "prop-weil-pbc-kinjective-resolutions-exist", "prop-weil-pbc-site-comparison-finite-level"]
 +++

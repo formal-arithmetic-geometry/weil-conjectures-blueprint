@@ -2,7 +2,8 @@
 kind  = "proof"
 of    = "lem-ag-lie-centre"
 +++
-For completeness, the adjoint kernel is the group centre. If
+We first show that the kernel of the adjoint representation is the
+group centre. If
 $g\in H$ acts trivially on $\mathfrak h$, the closed centralizer
 $C_H(g)$ has Lie algebra $\mathfrak h$, so
 [lem-wf-same-lie-closed-subgroup] gives $C_H(g)=H$ and

@@ -21,9 +21,20 @@ $D(X_{\Et},\kunZn)$. For fixed $F$, both sides of the arrow in
 the statement of the lemma are triangulated functors in $E$
 ([lem-kun-derived-tensor-triangulated],
 [def-kun-derived-tensor],
-[def-weil-pbc-direct-image]). By
+[def-weil-pbc-direct-image]). The complex
+$\sigma_{\le N}\mathcal E^\bullet$ is a bounded complex of flat
+sheaves, hence K-flat ([lem-kun-kflat-criteria](1)), and the
+termwise split sequence above exhibits
+$\sigma_{\ge N+1}\mathcal E^\bullet$ as a shifted cone of a map of
+K-flat complexes, so it is K-flat ([lem-kun-kflat-criteria](2)) with
+flat terms vanishing in degrees $<N+1$. Choosing $\mathcal E^\bullet$
+as in [lem-kun-0f1m] so that its pullbacks are again K-flat with flat
+terms, the same argument applies to $p^{-1}\mathcal E^\bullet$ and
+$h^{-1}p^{-1}\mathcal E^\bullet$ (pullback is exact and commutes with
+stupid truncations), so $p^{-1}E''$ and $h^{-1}p^{-1}E''$ have tor
+amplitude in $[N+1,\infty)$ by [lem-kun-0f1m]. By
 [lem-kun-derived-tensor-t-est] (and
-[lem-kun-tensor-t-est] for the right hand side), the objects
+[lem-kun-tensor-t-est] for $Rg_*$ and $Rh_*$), the objects
 
 $$
 p^{-1}E''\kunotimes{\kunZn}(f')^{-1}Rg_*F

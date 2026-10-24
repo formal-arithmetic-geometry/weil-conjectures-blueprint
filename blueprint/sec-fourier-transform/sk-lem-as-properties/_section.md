@@ -2,7 +2,7 @@
 id = "sk-lem-as-properties"
 kind = "lemma"
 title = "The Artin–Schreier character sheaf"
-order = 3923
+order = 3922
 uses = ["sk-def-purity-conv", "sk-prop-sfb-finite-extension-compatibility", "sk-prop-ctf-finite-comparison", "sk-def-sfb-constructible", "sk-thm-frobenius"]
 tags = ["sketch"]
 +++

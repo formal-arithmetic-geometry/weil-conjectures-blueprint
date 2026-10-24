@@ -4,8 +4,9 @@ of    = "lem-rp-determinant-weights-agree"
 +++
 A continuous $\Qlb$-representation of $W(X_0)$ is defined over a finite
 extension $E$ of $\mathbf Q_\ell$, and so are its irreducible
-subquotients after enlarging $E$. Hence the determinant line
-$\det\mathcal Q$ of [def-mg-determinant-line] is given by a continuous
+subquotients after enlarging $E$. Hence the determinant
+$\det\mathcal Q$ of [def-real-weil-representation-operations] is given,
+through the determinant line of [def-mg-determinant-line], by a continuous
 character $\chi_{\det}=\det\circ\rho_{\mathcal Q}:W(X_0)\to E^\times$
 with $E/\mathbf Q_\ell$ finite. The finite geometric image theorem
 [thm-wf-rank-one-finite-geometric-image-curve], applied to the normal

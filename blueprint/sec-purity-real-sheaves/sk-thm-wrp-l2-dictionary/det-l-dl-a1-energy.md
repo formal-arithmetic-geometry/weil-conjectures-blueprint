@@ -3,7 +3,7 @@ id = "det-l-dl-a1-energy"
 kind = "lemma"
 title = "Weight detection by trace energy"
 lean = ["AlgebraicGeometry.WeilSheaf.traceEnergy", "AlgebraicGeometry.WeilSheaf.le_sub_one_of_traceEnergy_le"]
-order = 3919
+order = 3918
 uses = ["sk-lem-wrp-hc2", "lem-a1-affine-hc2", "lem-wf-conjugate-tensor-traces", "cor-rp-euler-product", "lem-zl-log-det-identity", "p-linear-spectra"]
 +++
 Let $N\ne0$ be pure of weight $v$ and lisse on a smooth geometrically

@@ -3,29 +3,30 @@ id = "def-wf-arithmetic-monodromy-extension"
 kind = "definition"
 title = "Arithmetic monodromy extension"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobeniusConj", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobeniusAction", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.ArithmeticMonodromyExtension", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromyExtensionHom"]
-order = 3739
-uses = ["def-wf-geometric-monodromy-group", "def-wf-weil-group", "lem-wf-conjugation-geometric-monodromy"]
+order = 3736
+uses = ["d-monodromy", "lem-wf-conjugation-geometric-monodromy"]
 +++
-Choose $s\in W(X_0)$ with $\deg(s)=1$, and let
-$\alpha(h)=\rho(s)h\rho(s)^{-1}$ be the automorphism of
-$H_{\mathrm{geom}}$ furnished by
+Let $\rho$ be a represented degree datum ([d-monodromy]) with geometric
+monodromy group $H$ and $F=\rho(s)$, and let $\alpha(h)=FhF^{-1}$ be
+the automorphism of $H$ furnished by
 [lem-wf-conjugation-geometric-monodromy]. Define the locally
 finite-type group scheme
 
 $$
 G_{\mathrm{arith}}(\rho)=
-\bigsqcup_{m\in\mathbf Z}H_{\mathrm{geom}}\times\{m\},
+\bigsqcup_{m\in\mathbf Z}H\times\{m\},
 \qquad (h,m)(h',n)=(h\alpha^m(h'),m+n),
 $$
 
 a disjoint union of finite-type pieces, with *degree map*
 
 $$
-\deg_G:G_{\mathrm{arith}}(\rho)(\overline{\mathbf Q}_\ell)
+\deg_G:G_{\mathrm{arith}}(\rho)(k)
 \longrightarrow\mathbf Z,\qquad (h,m)\longmapsto m.
 $$
 
-The map to matrices is $(h,m)\mapsto h\rho(s)^m$. This map need not be
+On $k$-points, $G_{\mathrm{arith}}(\rho)(k)=H(k)\rtimes_\alpha\mathbf Z$.
+The map to matrices is $(h,m)\mapsto hF^m$. This map need not be
 injective: the integer in the second coordinate is retained because it
-records the Weil degree even when two degree components have the same
-matrix image.
+records the degree even when two degree components have the same
+matrix image, for instance when $F$ has finite order.

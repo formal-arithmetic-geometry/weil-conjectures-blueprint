@@ -13,7 +13,8 @@ compact-support direct image $Rp_{2,!}$ along the separated finite-type
 morphism $p_2$ are exact triangulated functors on the étale categories with
 finite coefficients that preserve bounded constructible objects; hence
 $Lp_1^*K\otimes^L_\Lambda\mathcal K_\psi\in D^b_c(V\times_SV',\Lambda)$ and
-its image under $Rp_{2,!}$ lies in $D^b_c(V',\Lambda)$; the shift $[r]$ of
+its image under $Rp_{2,!}$ lies in $D^b_c(V',\Lambda)$, by finiteness of
+$Rp_{2,!}$ over the finite-type $k$-scheme $V'$; the shift $[r]$ of
 [def-fd-transform] preserves boundedness and constructibility. For finite
 admissible $\Lambda$ the pro-étale statement follows, because $\nu^*$
 identifies the bounded constructible categories and commutes with the three

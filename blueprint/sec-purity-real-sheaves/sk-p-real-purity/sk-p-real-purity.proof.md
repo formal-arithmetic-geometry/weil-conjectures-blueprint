@@ -48,11 +48,17 @@ $$
  \qquad |\iota(\alpha)|^2\le q_x^{\gamma_i}.
 $$
 
-The dual $\mathcal G^\vee$ is real as well, with determinant weights
-$-\gamma_t>\cdots>-\gamma_1$ ([sk-cor-walg-curve-calculus]). Applying the
-same argument to the summand $\mathcal G_i^\vee$, we get
-$|\iota(\alpha^{-1})|^2\le q_x^{-\gamma_i}$. Hence
-$|\iota(\alpha)|^2=q_x^{\gamma_i}$, as required.
+For the reverse inequality, write
+$w(\beta)=\log|\iota(\beta)|^2/\log q_x$ for a nonzero $\beta$, and let
+$\mathcal W$ be an irreducible constituent of $\mathcal G_i$, of rank
+$s$, whose stalk at $x$ has $\alpha$ as an eigenvalue. Its eigenvalues
+$\beta_1,\ldots,\beta_s$ at $x$ are eigenvalues on $\mathcal G_i$, so
+$w(\beta_k)\le\gamma_i$ for every $k$. Their product is the eigenvalue
+on $\det\mathcal W$, which is pure of weight $s\gamma_i$
+([sk-d-real-detweights]), so $\sum_kw(\beta_k)=s\gamma_i$. A sum of $s$
+numbers that are each at most $\gamma_i$ equals $s\gamma_i$ only if all
+of them equal $\gamma_i$. Hence $|\iota(\alpha)|^2=q_x^{\gamma_i}$, as
+required.
 
 Now let the curve be arbitrary, and choose a closed point $x$ and an
 affine open neighbourhood of $x$. This neighbourhood is geometrically

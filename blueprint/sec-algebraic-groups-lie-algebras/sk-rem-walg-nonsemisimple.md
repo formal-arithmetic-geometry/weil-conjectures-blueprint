@@ -2,7 +2,7 @@
 id = "sk-rem-walg-nonsemisimple"
 kind = "remark"
 title = "Representations that are not semisimple"
-order = 3782
+order = 3778
 tags = ["sketch"]
 +++
 For a representation that is not semisimple, the central element in these

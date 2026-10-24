@@ -172,9 +172,10 @@ here weakens the unconditional results: on the blueprint's coefficient class
 [def-sf-fullcd-used-class] the vanishing is the theorem
 [thm-sf-fullcd-etale-origin], with the comparison bound $0$ and
 uniformly over the base changes, by
-[prop-sf-comparison-bound-zero], and every conditional entry of the
-matrix is conditional, on that class, on the ambient datum's assertion for the
-complexes outside it, whose vanishing half there is the theorem
-[thm-sf-fullcd-class] and whose existence half there is the theorem
-[thm-sf-ambient-adjoint-class], as
-[rem-sf-class-adjoint-residue] records.
+[prop-sf-comparison-bound-zero]. On that class the class forms of both
+halves of the ambient datum are theorems, the vanishing half
+[thm-sf-fullcd-class] and the right adjoint relative to the bounded-below
+objects of étale origin [thm-sf-ambient-adjoint-class]; every
+conditional entry of the matrix is conditional only on the ambient
+datum's assertion for the complexes outside the class, which is false in
+general, as [rem-sf-class-adjoint-residue] records.

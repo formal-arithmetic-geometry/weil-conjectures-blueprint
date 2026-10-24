@@ -2,7 +2,7 @@
 id = "det-prop-picard-degree-decomposition"
 kind = "proposition"
 title = "Degree decomposition of the Picard scheme"
-order = 857
+order = 858
 uses = ["thm-pc-pic-split", "thm-pc-picard-representable", "lem-sc-riemann-roch", "det-thm-picard-semicon"]
 lean = ["AlgebraicGeometry.picardFunctorDegree", "AlgebraicGeometry.exists_decomposition_picardFunctor", "AlgebraicGeometry.exists_decomposition_picardFunctor_representableBy", "AlgebraicGeometry.exists_decomposition_picardFunctor_isMonHom", "AlgebraicGeometry.exists_decomposition_picardTranslation"]
 +++

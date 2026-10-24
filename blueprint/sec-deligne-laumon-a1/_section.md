@@ -2,7 +2,7 @@
 id = "sec-deligne-laumon-a1"
 kind = "section"
 title = "Deligne–Laumon on the Affine Line: Proof Sketch"
-order = 3966
+order = 3965
 uses = ["sec-abelian-varieties", "sec-algebraic-groups-lie-algebras", "sec-curve-estimates", "sec-fourier-transform", "sec-nagata-compactification", "sec-picard-framework", "sec-poincare-duality", "sec-proetale-coefficients", "sec-proper-base-change", "sec-purity-real-sheaves", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula", "sk-def-pbc-conventions", "sk-thm-br", "sk-thm-curveestimate"]
 +++
 **Content.** This section proves the bound

@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-fibre-product-limit"
 kind = "lemma"
 title = "Base change commutes with the neighbourhood limit"
 lean = ["AlgebraicGeometry.Scheme.isLimitStrictLocalizationConePullback"]
-order = 1016
+order = 1017
 uses = ["def-weil-pbc-strict-henselization-limit"]
 +++
 Let $\bar s$ be a geometric point of a scheme $S$. For every morphism

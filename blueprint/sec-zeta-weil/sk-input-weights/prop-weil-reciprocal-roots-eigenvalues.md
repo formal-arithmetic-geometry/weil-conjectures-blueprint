@@ -3,7 +3,7 @@ id = "prop-weil-reciprocal-roots-eigenvalues"
 kind = "theorem"
 title = "Reciprocal roots as eigenvalues"
 lean = ["LinearMap.reciprocal_roots_eigenvalues"]
-order = 4099
+order = 4098
 tags = ["latex:proposition"]
 uses = ["def-weil-frobenius-detailed", "def-weil-ordinary-reciprocal-roots", "def-weil-smooth-proper-cohomological-family"]
 +++

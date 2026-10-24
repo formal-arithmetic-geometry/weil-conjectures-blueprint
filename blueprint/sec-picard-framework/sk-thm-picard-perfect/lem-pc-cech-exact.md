@@ -2,7 +2,7 @@
 id = "lem-pc-cech-exact"
 kind = "lemma"
 title = "The Amitsur complex of a faithfully flat ring map"
-order = 754
+order = 755
 lean = ["Module.FaithfullyFlat.exact_amitsurComplex", "Algebra.TensorProduct.amitsurComplex", "Algebra.TensorProduct.amitsurAugmentation"]
 uses = ["def-pc-scheme"]
 +++

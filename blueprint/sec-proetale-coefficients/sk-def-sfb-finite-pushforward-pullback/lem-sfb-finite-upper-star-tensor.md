@@ -2,7 +2,7 @@
 id = "lem-sfb-finite-upper-star-tensor"
 kind = "lemma"
 title = "$g^*$ commutes with the tensor product"
-order = 920
+order = 921
 uses = ["def-sfb-finite-lower-star-lax-monoidal", "def-sfb-finite-upper-lower-star-adjunction", "lem-sfb-finite-upper-star-unit", "lem-weil-pbc-sheaf-tensor-closed"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_δ_upperStar"]
 +++

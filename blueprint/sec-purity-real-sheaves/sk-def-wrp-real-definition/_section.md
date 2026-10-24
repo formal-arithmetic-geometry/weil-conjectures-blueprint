@@ -4,6 +4,7 @@ kind = "definition"
 title = "Real and realizable sheaves"
 order = 3871
 uses = ["sk-d-real-weights"]
+lean = ["AlgebraicGeometry.WeilGroup.IsReal"]
 tags = ["sketch"]
 +++
 A Weil sheaf $\mathcal G$ is $\iota$-real if

@@ -3,7 +3,7 @@ id = "def-weil-hankel-matrix"
 kind = "definition"
 title = "Hankel matrix of a power series"
 lean = ["PowerSeries.hankel"]
-order = 4105
+order = 4104
 uses = ["def-weil-field", "def-weil-formal-power-series"]
 +++
 Let $K$ be a field, let

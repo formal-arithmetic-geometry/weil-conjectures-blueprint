@@ -2,7 +2,8 @@
 id = "sk-thm-wrp-l2-dictionary"
 kind = "theorem"
 title = "$L^2$ growth and pure weights"
-order = 3915
+lean = ["AlgebraicGeometry.WeilSheaf.l2Weight_eq_of_isPunctuallyPureOfWeight"]
+order = 3914
 uses = ["sk-def-wrp-l2-definition", "sk-def-wrp-real-definition", "sk-lem-wrp-hc2", "sk-lem-wrp-l2-growth", "sk-lem-wrp-positive-euler", "sk-prop-wrp-real-envelope", "sk-thm-trace-transport"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-pc-zero-scheme-properties"
 kind = "lemma"
 title = "Properties of the zero scheme"
-order = 833
+order = 834
 uses = ["def-pc-base-change", "def-pc-scheme", "def-sc-invertible-module", "lem-pc-divisor-line-bundle-properties", "lem-pc-tensor-dual-invertible"]
 lean = ["AlgebraicGeometry.Scheme.Modules.Hom.ideal_zeroLocus", "AlgebraicGeometry.Scheme.Modules.Hom.isLocallyPrincipal_zeroLocus", "AlgebraicGeometry.Scheme.Modules.Hom.comap_zeroLocus", "AlgebraicGeometry.Scheme.Modules.Hom.zeroLocus_eq_bot_iff", "AlgebraicGeometry.Scheme.Modules.Hom.zeroLocus", "AlgebraicGeometry.Scheme.Modules.Hom.imageSubobject_dualMap_comp_dualUnitIso"]
 +++

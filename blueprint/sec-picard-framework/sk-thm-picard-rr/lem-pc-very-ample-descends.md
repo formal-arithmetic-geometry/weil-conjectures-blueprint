@@ -3,7 +3,7 @@ id = "lem-pc-very-ample-descends"
 kind = "lemma"
 title = "Very ampleness descends along field extensions"
 lean = ["AlgebraicGeometry.IsVeryAmple.of_pullback"]
-order = 744
+order = 745
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-pc-picard-presheaf", "def-sc-ample", "def-sc-invertible-module", "lem-pc-very-ample-ample", "lem-pc-flat-base-change-cohom"]
 +++
 Let $k$ be a field, $X$ a proper scheme over $k$ and $\mathcal{L}$ an

@@ -39,8 +39,9 @@ supplied by [prop-weil-zeta-normalized-presentation].
 *Step 2: weight separation.* By [prop-weil-reciprocal-roots-eigenvalues]
 the reciprocal roots of $P_{i,\ell}$ are the eigenvalues of
 $F_{i,\ell}$, and [thm-weil-deligne-purity] gives
-$|\iota(\alpha)|=q^{i/2}$ for every such eigenvalue, for the fixed
-isomorphism $\iota:\Qlb\xrightarrow{\sim}\mathbf C$ used there.
+$|\iota(\alpha)|=q^{i/2}$ for every such eigenvalue, for any fixed
+field embedding $\iota:\Qlb\hookrightarrow\mathbf C$ (that theorem
+allows an arbitrary one).
 The hypotheses of [prop-weight-separation] therefore hold:
 every reciprocal root of $P_{i,\ell}$ satisfies
 $|\iota(\alpha)|=q^{i/2}$, and the trace-to-determinant identity of

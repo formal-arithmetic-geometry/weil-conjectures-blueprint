@@ -4,11 +4,15 @@ kind = "theorem"
 title = "Smooth morphisms satisfy the preservation clauses"
 order = 2885
 tags = ["latex:corollary"]
-uses = ["cor-pur-dualizing-object-purity", "cor-sf-ambient-adjoint-discharge", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "lem-exc-residue-tor-test", "lem-integral-ctf-equals-bc", "prop-weil-pbc-inverse-image-exact", "prop-weil-twist-preserves", "thm-asd-smooth-tensor", "thm-cbc-finite-level-proetale", "thm-pur-diagonal-dualizing-object", "thm-sf-ambient-adjoint-class"]
+uses = ["cor-pur-dualizing-object-purity", "def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-ambient-exceptional-adjoint", "def-weil-constructible-intervals", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "lem-exc-residue-tor-test", "lem-integral-ctf-equals-bc", "prop-weil-pbc-inverse-image-exact", "prop-weil-twist-preserves", "thm-asd-smooth-tensor", "thm-cbc-finite-level-proetale", "thm-pur-diagonal-dualizing-object", "thm-sf-ambient-adjoint-class"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),
-let $f:X\to Y$ be smooth separated of pure relative dimension $d$.
-Then $f$ satisfies the
+let $f:X\to Y$ be smooth separated of pure relative dimension $d$, and let
+$Rf^!$ be the finite-stage exceptional inverse image of
+[def-weil-exceptional-inverse-image], the right adjoint of $Rf_!$ relative
+to the bounded-below objects of étale origin of
+[thm-sf-ambient-adjoint-class].
+Then $Rf^!$ satisfies the analogues of the
 two preservation clauses of
 [def-weil-exceptional-adjoint-admissibility], with
 $c_f^-=c_f^+=-2d$ in the signed convention of that definition:
@@ -27,11 +31,11 @@ into $D^b_{ctf}(X,A)$.
 Thus every smooth morphism is
 exceptional-adjoint admissible at $A=A_{E,n}$ in the constructible sense:
 the preservation clauses of [def-weil-exceptional-adjoint-admissibility]
-hold on the complexes of the blueprint's coefficient class. The ambient
-exceptional right adjoint datum of [def-weil-ambient-exceptional-adjoint] is
-not assumed: on the bounded constructible and finite-Tor coefficients that
-the two clauses quantify over it is the theorem
-[cor-sf-ambient-adjoint-discharge]. The unrestricted clause (1) of
+hold for $Rf^!$ on the complexes of the blueprint's coefficient class. The
+ambient exceptional right adjoint datum of
+[def-weil-ambient-exceptional-adjoint] is not assumed: on the bounded
+constructible and finite-Tor coefficients that the two clauses quantify over,
+the right adjoint used is $Rf^!$. The unrestricted clause (1) of
 [def-weil-exceptional-adjoint-admissibility], on all pro-étale sheaves, is
 false in general and is not asserted. Admissibility at
 $\Lambda\in\{\mathcal O_E,E,\Qlb\}$ demands in addition the uniformity of the
