@@ -26,8 +26,9 @@ integration on the affine line, and $\gamma_{f,\Lambda}$ is the *unique*
 isomorphism of functors $f_\Lambda^*(-)(d)[2d]\xrightarrow{\sim}f_\Lambda^!$ on
 $\Dctf(Y,\Lambda)$ compatible with the counits of the two adjunctions.
 
-For étale $f$ we have $d=0$, and the theorem says $f_\Lambda^!\simeq f_\Lambda^*$
-for every admissible $\Lambda$. For a smooth curve $C$ with structure map
+An étale $f$ is smooth of pure relative dimension $0$, and the theorem with $d=0$
+says $f_\Lambda^!\simeq f_\Lambda^*$ for every admissible $\Lambda$. For a smooth
+curve $C$ with structure map
 $a:C\to\operatorname{Spec}k$ it gives
 $a_{\Zl}^!\mathbf Z_{\ell,\operatorname{Spec}k}\simeq\mathbf Z_{\ell,C}(1)[2]$, a
 single sheaf in degree $-2$.
