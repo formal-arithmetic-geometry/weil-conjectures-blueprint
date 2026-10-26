@@ -2,7 +2,7 @@
 id = "pur713-def-shriek-exchange"
 kind = "definition"
 title = "Compact-support exchange, finite coefficients"
-order = 3042
+order = 3024
 uses = ["pur713-def-base-changed-compactification", "pur713-def-star-exchange", "sk-def-sf-exchanges"]
 +++
 For the chosen compactification $c_f=(j,p)$ of $f$ and its base change $c'=(j',p')$ of Definition [pur713-def-base-changed-compactification], the finite-coefficient compact-support exchange

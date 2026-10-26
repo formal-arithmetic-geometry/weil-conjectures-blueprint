@@ -3,7 +3,7 @@ id = "lem-sp-grothendieck-edge-maps"
 kind = "lemma"
 title = "Edge maps of the Grothendieck spectral sequence"
 lean = ["CategoryTheory.Functor.grothendieckBottomEdge", "CategoryTheory.Functor.grothendieckLeftEdge", "CategoryTheory.Functor.grothendieckBottomEdgeMap", "CategoryTheory.Functor.grothendieckLeftEdgeMap"]
-order = 753
+order = 712
 uses = ["def-sp-composite-acyclicity", "def-sp-convergence", "thm-sp-grothendieck"]
 +++
 Let $(F,G)$ be a composable pair [def-sp-composite-acyclicity] with $F$

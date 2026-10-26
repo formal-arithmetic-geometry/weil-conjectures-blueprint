@@ -3,7 +3,7 @@ id = "prop-weight-purity"
 kind = "theorem"
 title = "Smooth-proper purity of the constant Weil sheaf"
 lean = ["AlgebraicGeometry.WeilSheaf.isMixedOfWeightsAtMost_toComplex_adicConstant", "AlgebraicGeometry.WeilSheaf.weightPurity_adicConstant"]
-order = 4096
+order = 4104
 tags = ["latex:proposition"]
 uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes", "sk-prop-sfb-finite-extension-compatibility", "def-weil-complex-weights", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-ordinary-reciprocal-roots", "def-weil-pbc-proetale-site", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "thm-weil-deligne-purity"]
 +++

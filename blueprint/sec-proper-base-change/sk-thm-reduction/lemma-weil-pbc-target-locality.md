@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-target-locality"
 kind = "lemma"
 title = "Target locality"
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_of_affineOpens"]
-order = 1965
+order = 1944
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-scheme-conventions", "def-weil-pbc-torsion-etale-sheaf"]
 +++
 Let $\Lambda$ be a commutative ring and $f:X\to Y$ a morphism of schemes. Say

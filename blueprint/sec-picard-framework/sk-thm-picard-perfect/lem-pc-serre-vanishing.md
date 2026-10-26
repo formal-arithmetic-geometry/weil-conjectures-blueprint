@@ -2,7 +2,7 @@
 id = "lem-pc-serre-vanishing"
 kind = "lemma"
 title = "Serre vanishing"
-order = 759
+order = 718
 uses = ["def-pc-projective-space-twist", "def-sc-ample", "def-sc-invertible-module", "lem-pc-closed-immersion-coherent-cohomology", "lem-pc-projective-space-serre-vanishing", "pqf-def-coherent"]
 lean = ["AlgebraicGeometry.Scheme.Modules.exists_subsingleton_H_tensorObj_tensorPow"]
 +++

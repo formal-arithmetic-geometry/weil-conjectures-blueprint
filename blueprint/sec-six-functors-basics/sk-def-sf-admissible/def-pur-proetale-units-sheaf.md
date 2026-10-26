@@ -2,7 +2,7 @@
 id = "def-pur-proetale-units-sheaf"
 kind = "definition"
 title = "The multiplicative group sheaf G_m on the small pro-etale site"
-order = 2657
+order = 2638
 uses = ["def-weil-pbc-proetale-site", "def-pur-proetale-structure-sheaf"]
 tags = ["stacks-03P4"]
 +++

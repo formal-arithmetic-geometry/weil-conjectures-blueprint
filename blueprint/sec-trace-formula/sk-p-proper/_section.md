@@ -2,9 +2,8 @@
 id = "sk-p-proper"
 kind = "theorem"
 title = "Proper pushforward and Lefschetz–Verdier"
-order = 3489
+order = 3471
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-proper-pushforward", "sk-d-trace-class", "sk-def-sf-kv-maps", "sk-p-pairing", "sk-thm-sf-comp-composition", "sk-thm-sf-kunneth-verdier", "sk-thm-sf-package"]
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.borelMoorePushforward_traceClass"]
 tags = ["sketch"]
 +++
 Let $u:c_2^*K\to c_1^!K$ be a cohomological correspondence on $(X,K)$ for a

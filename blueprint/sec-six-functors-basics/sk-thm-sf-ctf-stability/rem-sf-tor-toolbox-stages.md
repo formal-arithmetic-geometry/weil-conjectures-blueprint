@@ -2,7 +2,7 @@
 id = "rem-sf-tor-toolbox-stages"
 kind = "remark"
 title = "The four kinds of admissible coefficients"
-order = 2485
+order = 2465
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "lem-sf-flat-model", "lem-sf-pullback-tor-amplitude", "lem-sf-tensor-ctf", "lem-sf-tor-sheaf-constructible", "lem-weil-pbc-pullback-preserves-bounded-constructible", "thm-dg-finite-type-constructibility", "sk-thm-existence", "sk-def-pe-derived-completion", "sk-prop-integral-criterion", "det-prop-integral-criterion-reductions", "sk-lem-integral-models", "sk-prop-scalar-six", "lem-integral-ctf-equals-bc"]
 +++
 The statements [lem-sf-flat-model], [lem-sf-tor-sheaf-constructible], [lem-sf-tensor-ctf], [lem-sf-pullback-tor-amplitude]

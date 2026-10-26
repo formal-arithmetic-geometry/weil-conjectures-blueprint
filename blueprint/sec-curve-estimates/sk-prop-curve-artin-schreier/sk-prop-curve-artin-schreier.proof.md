@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-prop-curve-artin-schreier"
-uses = ["sk-prop-av-fixed-points", "sk-prop-av-lang-steinberg", "sk-prop-av-fixed-base-change", "sk-prop-sf-comparison", "sk-thm-br", "sk-thm-curveestimate", "sk-prop-curve-affine-kummer"]
+uses = ["sk-prop-sf-comparison", "sk-thm-br", "sk-thm-curveestimate", "sk-prop-curve-affine-kummer"]
 +++
 On $C_{\mathrm{ét}}$ the Artin–Schreier sequence
 
@@ -18,9 +18,9 @@ $H^1(C,\cO_C)$ a finite-dimensional $k$-vector space.
 
 The cohomology sequence is then controlled by a fact of linear algebra: if
 $F$ is a Frobenius-linear endomorphism of a finite-dimensional $k$-vector
-space $V$, then $F-1$ is surjective ([sk-prop-av-lang-steinberg]) and its
+space $V$, then $F-1$ is surjective ([lem-sc-lang-steinberg]) and its
 kernel is the set of $k$-points of a finite étale scheme of order $p^f$ with
-$f\leq\dim_kV$ ([sk-prop-av-fixed-points]). To see this, reduce along a
+$f\leq\dim_kV$ ([lem-sc-fixed-points-finite]). To see this, reduce along a
 finite filtration to the part where $F$ is nilpotent and the part where $F$
 is bijective. On the nilpotent part $F-1$ is an additive polynomial
 automorphism. On a bijective part of dimension $f$, choose a basis, invert
@@ -40,6 +40,6 @@ Artin–Schreier sequence gives the asserted formulas and vanishing. Under
 $k'/k$, flat base change for coherent cohomology identifies the vector space
 and its Frobenius-linear map with their scalar extensions. The kernel is a
 finite étale scheme, whose $k$-points and $k'$-points agree, so the pullback
-map itself is an isomorphism ([sk-prop-av-fixed-base-change]; Stacks, Tags
+map itself is an isomorphism ([lem-sc-frobenius-fixed-invariance]; Stacks, Tags
 0HAN, 0A3P). [sk-prop-sf-comparison] returns the statement to
 $C_{\mathrm{proét}}$.

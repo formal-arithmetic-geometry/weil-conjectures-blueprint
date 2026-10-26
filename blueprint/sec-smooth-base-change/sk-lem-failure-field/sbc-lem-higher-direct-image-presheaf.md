@@ -3,7 +3,7 @@ id = "sbc-lem-higher-direct-image-presheaf"
 kind = "lemma"
 title = "Higher direct image as a sheafified cohomology presheaf"
 lean = ["AlgebraicGeometry.Etale.isZero_higherDirectImage_constantModSheaf_of_forall_exists"]
-order = 2059
+order = 2038
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-cohomology"]
 +++
 Let $h:Y\to X$ be a morphism of schemes and $F\in\Ab(Y_{\Et})$. Then

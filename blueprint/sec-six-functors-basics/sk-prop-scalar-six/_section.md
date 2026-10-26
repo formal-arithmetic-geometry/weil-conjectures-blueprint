@@ -2,7 +2,7 @@
 id = "sk-prop-scalar-six"
 kind = "proposition"
 title = "The six operations and coefficient comparison"
-order = 2489
+order = 2469
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-lower-shriek", "sk-prop-ctf-finite-comparison", "sk-cor-pe-bounded-continuity", "sk-thm-existence"]
 tags = ["sketch"]
 +++

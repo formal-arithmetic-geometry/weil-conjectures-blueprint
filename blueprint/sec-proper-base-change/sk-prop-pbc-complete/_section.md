@@ -2,25 +2,27 @@
 id = "sk-prop-pbc-complete"
 kind = "proposition"
 title = "Proper base change for complete integral complexes"
-order = 2039
-uses = ["sk-cor-pbc-proet-finite", "sk-def-pe-derived-completion"]
+order = 2018
+uses = ["sk-cor-pbc-proet-finite", "sk-thm-properbasechange", "sk-def-pe-derived-completion"]
 tags = ["sketch"]
 +++
-To pass from finite coefficients to $\mathcal O_E$ one has to deal with
-completeness: the inverse image
+The passage from finite coefficients to $\mathcal O_E$ is a question of
+completeness. The inverse image
 $g^*:D(Y_{\mathrm{proét}},\mathcal O_E)\to D(Y'_{\mathrm{proét}},\mathcal O_E)$,
-exact on module sheaves, need not preserve derived completeness. For
-$M\in D(Y_{\mathrm{proét}},\mathcal O_E)$ define its *completed inverse image*
+which is exact on sheaves of modules, need not preserve derived completeness. For
+$M\in D(Y_{\mathrm{proét}},\mathcal O_E)$, we define its *completed inverse image*
 $g^*_{\mathrm{comp}}M\in D(Y'_{\mathrm{proét}},\mathcal O_E)$ by
 
 $$
 g^*_{\mathrm{comp}}M=R\varprojlim_ng^*\bigl(M\otimes^{\mathbf L}_{\mathcal O_{E,Y}}(\mathcal O_E/\pi_E^n)_Y\bigr).
 $$
 
-This statement holds for arbitrary schemes. (Under the finite-type
-$k$-scheme assumptions, the completed inverse image of a constructible
-integral complex agrees with $g^*$, by the integral constructibility
-criterion and the finite constant local models.)
+For $Y$ and $Y'$ of finite type over $k$ and $M\in\Dctf(Y,\mathcal O_E)$, the
+criterion for integral constructibility and the finite constant local models
+([sk-prop-integral-criterion], [sk-def-sfb-constructible]) show that
+$g^*_{\mathrm{comp}}M=g^*M$. Until we know that proper direct image preserves
+constructibility, we can only state base change with the completed inverse
+image.
 
 In the cartesian square of [sk-cor-pbc-proet-finite] (with $p$ proper), fix
 $E/\Ql$ finite. Suppose that $K\in D(X_{\mathrm{proét}},\mathcal O_E)$ is

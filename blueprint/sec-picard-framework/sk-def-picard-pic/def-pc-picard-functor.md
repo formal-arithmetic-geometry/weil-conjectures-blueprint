@@ -2,7 +2,7 @@
 id = "def-pc-picard-functor"
 kind = "definition"
 title = "The Picard functor $\\operatorname{Pic}_{X/S}$"
-order = 630
+order = 576
 uses = ["def-pc-fppf-site", "def-pc-picard-presheaf", "def-pc-representable-functor", "def-sc-pic0"]
 lean = ["AlgebraicGeometry.picardFunctor"]
 +++

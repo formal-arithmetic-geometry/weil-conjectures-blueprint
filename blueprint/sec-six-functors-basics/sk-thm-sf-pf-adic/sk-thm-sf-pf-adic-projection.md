@@ -2,8 +2,8 @@
 id = "det-thm-sf-pf-adic-projection"
 kind = "lemma"
 title = "The integral proper projection formula"
-order = 2479
-uses = ["sk-lem-int-tensor", "sk-prop-int-compactness", "sk-lem-sf-determination"]
+order = 2459
+uses = ["sk-lem-int-tensor", "sk-prop-int-compactness", "sk-lem-sf-determination", "sk-lem-pe-derived-nakayama", "sk-thm-sfb-proper-base-change"]
 +++
 Let $p:X\to Y$ be proper.
 

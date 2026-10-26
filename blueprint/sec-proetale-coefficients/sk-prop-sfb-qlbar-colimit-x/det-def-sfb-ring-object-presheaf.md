@@ -3,7 +3,7 @@ id = "det-def-sfb-ring-object-presheaf"
 kind = "lemma"
 title = "Presheaves of rings and their sheafifications are ring objects"
 lean = ["CategoryTheory.Functor.monObjCompForget₂", "CategoryTheory.Functor.isMonHom_whiskerRight_forget₂", "CategoryTheory.Functor.isCommMonObj_compForget₂", "CategoryTheory.Sheaf.monObj_presheafToSheaf_obj", "CategoryTheory.Sheaf.isCommMonObj_presheafToSheaf_obj", "CategoryTheory.Sheaf.sheafifyRingPresheaf", "CategoryTheory.Functor.map.instIsMonHom"]
-order = 1224
+order = 1190
 uses = ["det-def-sfb-ring-object-rings", "det-def-sfb-ring-object-transport", "det-def-sfb-sheaf-tensor-structure"]
 +++
 Let $C$ be a site as in [det-def-sfb-sheaf-tensor-structure] (for instance $X_{\mathrm{proét}}$

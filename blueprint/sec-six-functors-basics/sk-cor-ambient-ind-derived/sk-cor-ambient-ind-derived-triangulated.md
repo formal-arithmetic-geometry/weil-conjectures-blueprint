@@ -2,7 +2,7 @@
 id = "det-ambient-ind-derived-triangulated"
 kind = "lemma"
 title = "$\\Dic(X,\\Lambda)$ is a triangulated subcategory"
-order = 2236
+order = 2216
 uses = ["sk-prop-ind-heart"]
 +++
 Let $\Lambda=E$ or $\Qlb$. $\Dic(X,\Lambda)$ contains $0$, is closed under shifts in both directions and

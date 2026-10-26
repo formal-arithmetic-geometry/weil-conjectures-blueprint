@@ -3,7 +3,7 @@ id = "sk-p-geometry"
 kind = "lemma"
 title = "Components, images, and equal Lie algebras"
 lean = ["AlgebraicGeometry.finite_connectedComponents", "AlgebraicGeometry.GrpObj.isClopen_connectedComponent_onePoint", "AlgebraicGeometry.GrpObj.irreducibleSpace_identityComponent", "AlgebraicGeometry.GrpObj.finiteIndex_range_identityComponentι", "AlgebraicGeometry.GrpObj.image_mulLeft_connectedComponent_onePoint", "AlgebraicGeometry.isClosed_range_of_isMonHom", "AlgebraicGeometry.isIso_left_of_topologicalKrullDim_eq", "AlgebraicGeometry.GeneralLinearGroup.RationalHom.mem_range_points_iff", "AlgebraicGeometry.GeneralLinearGroup.eq_of_le_of_lieSubalgebra_eq"]
-order = 3699
+order = 3681
 uses = ["sk-i-cartier"]
 tags = ["sketch"]
 +++

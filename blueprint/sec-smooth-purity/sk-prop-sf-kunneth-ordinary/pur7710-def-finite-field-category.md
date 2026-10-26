@@ -2,7 +2,7 @@
 id = "pur7710-def-finite-field-category"
 kind = "definition"
 title = "Auxiliary finite-field categories"
-order = 3079
+order = 3061
 uses = ["sk-thm-sf-comp-composition"]
 +++
 For a finite field $\mathbf F_{\ell^r}$, with $r\geq1$, and a scheme $W$, define

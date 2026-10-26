@@ -2,7 +2,7 @@
 id = "det-sp-orientation-vector-bundle"
 kind = "lemma"
 title = "Diagonal orientation of a vector bundle"
-order = 2957
+order = 2938
 uses = ["thm-pur-diagonal-dualizing-object"]
 +++
 Let $\pi:V\to S$ be a vector bundle of rank $d$, with coefficients

@@ -2,7 +2,7 @@
 id = "pur713-def-shriek-exchange-chosen"
 kind = "definition"
 title = "Compact-support exchange into the chosen compactification"
-order = 3043
+order = 3025
 uses = ["pur713-def-base-changed-compactification", "pur713-def-shriek-exchange", "sk-def-sf-exchanges"]
 +++
 Under Input “Comparison of compactifications, finite coefficients” (`pur713-input-comparison`, in [sk-def-sf-exchanges]), for the Cartesian square $\square$ define

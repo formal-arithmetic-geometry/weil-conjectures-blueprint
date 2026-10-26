@@ -3,7 +3,7 @@ id = "prop-weil-pbc-gabber-affine-comparison"
 kind = "theorem"
 title = "Gabber affine comparison"
 lean = ["AlgebraicGeometry.Etale.bijective_cohomologyMap_of_henselianRing", "AlgebraicGeometry.Etale.affine_closed_etale_neighborhood_comparison"]
-order = 1581
+order = 1560
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-etale-degree-zero", "lemma-weil-pbc-gabber-effacement", "def-weil-pbc-torsion-etale-sheaf"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sfb-derived-extend-levelwise-adjunction"
 kind = "definition"
 title = "Derived extension of scalars is left adjoint to termwise restriction"
-order = 2550
+order = 2531
 uses = ["lem-sfb-extend-scalars-kflat", "def-sfb-derived-extend-restrict-adjunction", "def-sfb-derived-restrict-levelwise"]
 lean = ["CategoryTheory.Mod.derivedExtendMapDerivedCategoryAdjunction"]
 +++

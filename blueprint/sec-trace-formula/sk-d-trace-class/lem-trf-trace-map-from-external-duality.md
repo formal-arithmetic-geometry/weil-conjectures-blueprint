@@ -2,8 +2,7 @@
 id = "lem-trf-trace-map-from-external-duality"
 kind = "theorem"
 title = "Trace morphism from external duality"
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.traceMap"]
-order = 3477
+order = 3459
 uses = ["def-trf-admissibility", "def-trf-dualizing-complex", "def-trf-external-product", "def-trf-fixed-scheme", "def-trf-trace-class-source", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change", "thm-trf-verdier-duality"]
 +++
 Let

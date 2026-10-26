@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sfb-proper-base-change"
-uses = ["sk-thm-properbasechange", "sk-cor-pbc-proet-finite", "det-pbc-complete-constructible", "sk-cor-pe-bounded-continuity", "sk-cor-coefficient-heart-ii", "sk-prop-sfb-cartesian-coefficients"]
+uses = ["sk-thm-properbasechange", "sk-cor-pbc-proet-finite", "det-pbc-complete-constructible", "sk-cor-pe-bounded-continuity", "sk-cor-coefficient-heart-ii", "sk-prop-sfb-cartesian-coefficients", "sk-prop-integral-criterion", "sk-lem-pe-derived-nakayama"]
 +++
 *Finite coefficients.* For finite $A$, proper constructible finiteness and a uniform
 cohomological bound give bounded constructibility; the constant-module projection formula
@@ -12,8 +12,11 @@ formula is the classical torsion formula (\stacks{0F0G}) in $D(Y_{\mathrm{ét}},
 to $D(Y_{\mathrm{proét}},A)$ under the same comparison. Details:
 [det-thm-sfb-proper-base-change-finite].
 
-*Integral coefficients.* Let $K\in\Dbc(X,\cO_E)$. The complex $Rp_*K$ is derived complete by
-\stacks{099L}. Reduction modulo $\pi_E$ commutes with $Rp_*$:
+*Integral coefficients.* Let $K\in\Dbc(X,\cO_E)$. The complex $Rp_*K$ is derived complete.
+Indeed, $K$ is derived complete if and only if
+$\operatorname{R\lim}(\cdots\xrightarrow{\pi_E}K\xrightarrow{\pi_E}K)=0$, and $Rp_*$ commutes
+with $\operatorname{R\lim}$ because it is a right adjoint. Moreover, reduction modulo $\pi_E$
+commutes with $Rp_*$:
 $$
 (Rp_*K)\otimes^{\mathbf L}\cO_{E,Y}/\pi_E\simeq Rp_*(K\otimes^{\mathbf L}\cO_{E,X}/\pi_E)
 \quad\text{in }D(Y_{\mathrm{proét}},\cO_E).
@@ -25,26 +28,20 @@ its direct image in $D(Y_{\mathrm{proét}},\cO_E/\pi_E)$ is the pullback to $Y_{
 its direct image in $D(Y_{\mathrm{ét}},\cO_E/\pi_E)$ (\stacks{09A6}). The étale direct image is
 constructible by the finiteness theorem for proper direct image with torsion coefficients
 (\stacks{0GL0}), and bounded because $p$ has finite cohomological dimension (\stacks{0F10}). By
-[sk-lem-integral-models] (2), $Rp_*K\in\Dbc(Y,\cO_E)$.
+[sk-prop-integral-criterion], $Rp_*K\in\Dbc(Y,\cO_E)$.
 
-For constructible integral inputs, the canonical projection formula map in
-$D(Y_{\mathrm{proét}},\cO_E)$ and the base change map in $D(Y'_{\mathrm{proét}},\cO_E)$, built from
-the adjunctions and the usual maps between tensor products and inverse images, have derived
-complete source and target, by the preceding paragraph and [sk-lem-integral-models] (3).
-Their reductions modulo $\pi_E$ are the torsion projection formula and proper base change
-maps. The first is an isomorphism by the projection formula for torsion coefficients
-(\stacks{0F0G}). The second is an isomorphism by [sk-thm-properbasechange] and
-[sk-cor-pbc-proet-finite]: the finite reductions are bounded below classical complexes, so
-their canonical exchange maps are isomorphisms in $D(Y'_{\mathrm{proét}},\cO_E/\pi_E)$.
-([sk-prop-pbc-complete] gives a completed integral version; here the inverse images of
-constructible complexes are already complete, and it becomes this base change isomorphism,
-[det-pbc-complete-constructible].) Hence the cone of each integral map is derived
-complete and has zero reduction modulo $\pi_E$. Such a complex is zero (derived Nakayama):
-using the filtration of $\cO_E/\pi_E^n$ with subquotients $\cO_E/\pi_E$, its reductions modulo
-every $\pi_E^n$ vanish, and a derived complete complex is the derived inverse limit of these
-reductions. Hence the integral maps are isomorphisms. (Proper base change also follows
-directly from \stacks{09C9}, since the inverse image of a constructible integral complex is
-already derived complete.) Details: [det-thm-sfb-proper-base-change-integral].
+Consider the projection formula map in $D(Y_{\mathrm{proét}},\cO_E)$ and the base change map in
+$D(Y'_{\mathrm{proét}},\cO_E)$ for constructible integral complexes. By the preceding paragraph
+and [sk-lem-integral-models] (3), the sources and targets of these maps are derived complete,
+and their reductions modulo $\pi_E$ are the projection formula map and the proper base change
+map with torsion coefficients. The first is an isomorphism by the projection formula for
+torsion coefficients (\stacks{0F0G}). The second is an isomorphism by [sk-thm-properbasechange]
+and [sk-cor-pbc-proet-finite], which apply because the finite reductions are bounded below
+complexes pulled back from the étale site (see also [sk-prop-pbc-complete],
+[det-pbc-complete-constructible] and \stacks{09C9}). Thus each integral map is a morphism
+between derived complete complexes whose reduction modulo $\pi_E$ is an isomorphism, and by
+derived Nakayama ([sk-lem-pe-derived-nakayama]) it is an isomorphism. Details:
+[det-thm-sfb-proper-base-change-integral].
 
 *Rational coefficients.* For $K\in\Dbc(X,\cO_E)$, the complex $K[1/\ell]$ is the colimit of
 $K\xrightarrow{\ell}K\xrightarrow{\ell}\cdots$, a system with a common lower bound, so
@@ -64,9 +61,3 @@ projection formula and proper base change, rationalize the integral isomorphisms
 to all inputs by dévissage in each variable along the same generators. The maps involved are
 the canonical ones, so the resulting isomorphisms satisfy the usual compatibilities with
 composition. Details: [det-thm-sfb-proper-base-change-rational].
-
-For the $\ell$-adic fields, an earlier version of this argument reduces proper base change on
-$\Dbc(-,E)$ to bounded constructible integral complexes $K_0$ with $K=E\otimes K_0$
-([sk-thm-sfb-rationalization-comparison]), writes $K_0=\operatorname{R\lim}_nK_0/\pi_E^n$ and
-checks the exchange map on each torsion reduction, where it is the étale exchange morphism;
-for $\Qlb$ one descends to a finite $E$ ([sk-thm-sfb-qlbar-two-colimit]).

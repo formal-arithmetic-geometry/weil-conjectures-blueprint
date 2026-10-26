@@ -3,7 +3,7 @@ id = "lem-pur-support-exact"
 kind = "lemma"
 title = "The exact sequence of supported sections for injective objects"
 lean = ["AlgebraicGeometry.Etale.isSplitEpi_upperStarLowerStarAdjunction_unit_app_of_injective", "AlgebraicGeometry.Etale.shortExact_supportsShortComplex"]
-order = 2820
+order = 2801
 uses = ["def-pur-flasque-support", "def-weil-open-closed-recollement", "def-sp-kinjective-bridge"]
 +++
 For the closed–open pair of

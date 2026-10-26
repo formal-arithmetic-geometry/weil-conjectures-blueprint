@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-curve-constructible-primary-reduction"
 kind = "lemma"
 title = "Constructible and primary reduction on curves"
 lean = ["AlgebraicGeometry.IsCurve.Assertions.of_forall_isReduced"]
-order = 1342
+order = 1313
 uses = ["def-weil-pbc-eight-curve-assertions", "lemma-weil-pbc-curve-filtered-cohomology", "lemma-weil-pbc-eight-curve-devissage", "lemma-weil-pbc-universal-homeomorphism-coverings", "lemma-weil-pbc-universal-homeomorphism-site-equivalence"]
 +++
 Let $k$ be an algebraically closed field and let $\Lambda$ be a finite

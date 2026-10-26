@@ -2,7 +2,7 @@
 id = "sk-lem-tf-curve-restriction-zero"
 kind = "lemma"
 title = "The supported restriction is zero for Frobenius"
-order = 3514
+order = 3496
 uses = ["sk-lem-curve-sylow-trace", "sk-lem-sf-flat-model", "sk-lem-tf-blowup-restriction", "sk-lem-tf-curve-supported-pairing"]
 tags = ["sketch"]
 +++

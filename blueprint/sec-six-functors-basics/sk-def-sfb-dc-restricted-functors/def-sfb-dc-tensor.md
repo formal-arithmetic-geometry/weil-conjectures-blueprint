@@ -2,7 +2,7 @@
 id = "def-sfb-dc-tensor"
 kind = "definition"
 title = "$\\otimes^{\\mathrm L}$ on $D_{\\mathrm{cons}}$"
-order = 2635
+order = 2616
 uses = ["lem-sfb-dc-tensor-preserves", "det-def-sfb-derived-tensor-hom"]
 +++
 Let $X$ be a scheme of the setting, and let $\Lambda$ be a commutative condensed ring such that

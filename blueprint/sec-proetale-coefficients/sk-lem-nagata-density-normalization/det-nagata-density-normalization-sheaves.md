@@ -3,7 +3,7 @@ id = "det-nagata-density-normalization-sheaves"
 kind = "lemma"
 title = "Extension by zero through the schematic closure"
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekRefinement", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinement", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekRefinementPushforward", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward_padicAlgCl"]
-order = 1272
+order = 1241
 uses = ["det-nagata-density-normalization-setup", "lem-cbc-proetale-extension-zero", "lem-cbc-proetale-extension-zero-base-change", "lem-exc-proetale-closed-essential-image", "lem-exc-proetale-closed-exact", "lem-weil-extension-by-zero-exact"]
 +++
 In the situation of [det-nagata-density-normalization-setup], assume that

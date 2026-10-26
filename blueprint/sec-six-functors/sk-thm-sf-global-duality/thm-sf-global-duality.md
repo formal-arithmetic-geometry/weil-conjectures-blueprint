@@ -2,7 +2,7 @@
 id = "thm-sf-global-duality"
 kind = "theorem"
 title = "Global Verdier duality"
-order = 3306
+order = 3288
 uses = ["def-sf-datum", "def-sf-pf", "def-trf-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-coefficient-point", "lem-sf-point", "thm-sf-verdier-exchange"]
 +++
 In the setting of [def-sf-datum], assume that $k$ is separably closed, and

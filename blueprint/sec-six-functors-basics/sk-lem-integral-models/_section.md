@@ -2,8 +2,8 @@
 id = "sk-lem-integral-models"
 kind = "lemma"
 title = "Integral models"
-order = 2188
-uses = ["sk-prop-integral-criterion", "sk-prop-sfb-cartesian-coefficients", "sk-thm-sfb-qlbar-two-colimit", "sk-cor-coefficient-heart-ii", "sk-lem-stratified-lattice"]
+order = 2167
+uses = ["sk-prop-integral-criterion", "sk-prop-integral-local-structure", "sk-prop-sfb-cartesian-coefficients", "sk-thm-sfb-qlbar-two-colimit", "sk-cor-coefficient-heart-ii", "sk-lem-stratified-lattice"]
 tags = ["sketch"]
 +++
 For integral coefficients $\Dctf(X,\cO_E)=\Dbc(X,\cO_E)$: the finite constant local models have

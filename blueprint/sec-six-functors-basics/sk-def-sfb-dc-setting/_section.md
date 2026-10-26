@@ -2,7 +2,7 @@
 id = "sk-def-sfb-dc-setting"
 kind = "definition"
 title = "Setting for $D_{\\mathrm{cons}}$: schemes of finite type over a field"
-order = 2580
+order = 2561
 uses = ["sk-def-nagata-sketch-data", "sk-prop-sf-open-closed-triangle"]
 lean = ["AlgebraicGeometry.HasCompactification.of_isOver", "AlgebraicGeometry.ProEtale.CondensedRing.compactificationOverField"]
 tags = ["sketch"]

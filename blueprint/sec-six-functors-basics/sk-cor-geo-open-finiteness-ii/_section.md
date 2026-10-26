@@ -2,7 +2,7 @@
 id = "sk-cor-geo-open-finiteness-ii"
 kind = "corollary"
 title = "Finite cohomological dimension of open direct image"
-order = 2387
+order = 2367
 uses = ["sk-cor-geo-open-finiteness", "sk-def-cd"]
 tags = ["sketch"]
 +++

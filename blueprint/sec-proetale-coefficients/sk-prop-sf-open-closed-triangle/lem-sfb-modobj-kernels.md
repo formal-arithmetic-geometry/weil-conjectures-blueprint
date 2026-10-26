@@ -2,7 +2,7 @@
 id = "lem-sfb-modobj-kernels"
 kind = "lemma"
 title = "Kernels of module objects are computed in $\\mathcal C$"
-order = 1131
+order = 1097
 uses = ["det-def-sfb-module-objects-definition"]
 lean = ["CategoryTheory.Mod.isLimitKernelFork"]
 +++

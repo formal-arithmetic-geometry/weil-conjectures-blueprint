@@ -2,19 +2,14 @@
 kind  = "proof"
 of    = "sk-prop-av-cube"
 +++
-Apply the general cube theorem (`0BF4`) with $X=Y=Z=A$ over
-$S=\Spec k$ and the unit sections $x=y=e$ to
-
-$$
-\cM=m_{123}^*\cL\otimes m_1^*\cL\otimes m_2^*\cL\otimes m_3^*\cL
-\otimes m_{12}^*\cL^{-1}\otimes m_{13}^*\cL^{-1}\otimes m_{23}^*\cL^{-1}.
-$$
-
-Its hypotheses hold: $A\to\Spec k$ is flat, proper, of finite
-presentation with geometrically integral fibres (smooth, proper and
-connected over $k$, hence geometrically integral since $k$ is a field),
-and $A$ is connected, so it has the $k$-point $e$. On the three faces
-$A\times A\times e$, $A\times e\times A$, $e\times A\times A$ the
-restriction of $\cM$ is $\cO$: all seven factors cancel there, since
-the partial sums collapse to $n_{12},n_1,n_2$ and $e^*\cL\cong\cO$.
-Hence $\cM\cong\cO$, which is the displayed relation.
+Let $Z_0\subset Z$ be the set of points over which $\mathcal L$ is
+trivial on the fibre of $p:X\times Y\times Z\to Z$. It contains $z$, it
+is closed by [sk-lem-abelian-seesaw] (2) applied to $X\times Y$,
+which is proper and geometrically integral (Stacks [05P3](https://stacks.math.columbia.edu/tag/05P3)), and it is open by
+[sk-lem-abelian-cube-open]. Since $Z$ is connected, $Z_0=Z$, and
+[sk-lem-abelian-cube-open] gives an open cover of $Z$ over whose
+members $\mathcal L$ is trivial. By [sk-lem-abelian-seesaw] (3),
+$\mathcal L\simeq p^*\mathcal M$ for an invertible sheaf $\mathcal M$ on
+$Z$. Pulling back along $(x,y,\operatorname{id}):Z\to X\times Y\times Z$,
+which factors through $x\times Y\times Z$, we find that $\mathcal M$ is
+trivial, and hence so is $\mathcal L$.

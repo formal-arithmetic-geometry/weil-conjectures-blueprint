@@ -3,7 +3,7 @@ id = "thm-weil-deligne-purity"
 kind = "theorem"
 title = "Deligne smooth-proper purity"
 lean = ["AlgebraicGeometry.WeilSheaf.deligne_purity", "AlgebraicGeometry.WeilSheaf.isPunctuallyPureOfWeight_adicConstant", "AlgebraicGeometry.WeilSheaf.hasWeightsAtMostOver_compactlySupportedCohomology_adicConstant", "AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_cohomology_of_isLisse", "AlgebraicGeometry.WeilSheaf.isLisse_adicConstant"]
-order = 4094
+order = 4102
 uses = ["cor-zl-purity-smooth-proper", "def-trf-frobenius-operators", "def-weil-complex-weights", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "det-def-sfb-pulled-back-coefficients", "sk-def-sf-weil-complexes", "lem-zl-constant-sheaf-weight-zero", "prop-weil-proper-compact-coincidence", "thm-sf-dual-perfect", "thm-zl-wme-deligne-estimate"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$,

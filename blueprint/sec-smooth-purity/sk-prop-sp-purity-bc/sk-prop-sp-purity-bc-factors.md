@@ -2,7 +2,7 @@
 id = "det-sp-purity-bc-factors"
 kind = "lemma"
 title = "Base change of the orientation and of the tensor map"
-order = 3050
+order = 3032
 uses = ["det-sp-tower-exceptional-bc", "det-sp-tower-gamma", "det-sp-orientation-charts", "thm-pur-diagonal-dualizing-object"]
 +++
 In a Cartesian square as in the sketch, with coefficients a finite ring $A$ or

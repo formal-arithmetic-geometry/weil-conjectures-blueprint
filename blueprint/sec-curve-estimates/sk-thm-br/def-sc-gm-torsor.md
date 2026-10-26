@@ -2,7 +2,7 @@
 id = "def-sc-gm-torsor"
 kind = "definition"
 title = "$\\mathbf G_m$-torsors"
-order = 1348
+order = 1323
 uses = ["def-sc-curves"]
 lean = ["CategoryTheory.Sheaf.Torsor", "AlgebraicGeometry.Scheme.gmSheaf"]
 +++

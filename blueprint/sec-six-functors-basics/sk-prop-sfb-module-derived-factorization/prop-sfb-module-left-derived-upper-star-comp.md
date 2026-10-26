@@ -2,7 +2,7 @@
 id = "prop-sfb-module-left-derived-upper-star-comp"
 kind = "proposition"
 title = "Composition isomorphism of derived pullbacks of module objects"
-order = 2556
+order = 2537
 uses = ["sk-def-sfb-module-derived-pushpull", "def-sfb-module-upper-star-comp"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.leftDerivedUpperStarComp"]
 +++

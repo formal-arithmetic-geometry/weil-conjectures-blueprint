@@ -2,7 +2,7 @@
 id = "def-sfb-profinite-test-objects"
 kind = "definition"
 title = "The test objects $X[S]$"
-order = 1074
+order = 1040
 uses = ["def-sfb-profinite-to-proetale", "def-weil-pbc-proetale-site"]
 lean = ["AlgebraicGeometry.ProEtale.profiniteToProEtOf"]
 +++

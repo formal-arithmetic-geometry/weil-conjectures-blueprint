@@ -3,7 +3,7 @@ id = "def-finrepair-property-c"
 kind = "definition"
 title = "Constructibility under direct image"
 lean = ["AlgebraicGeometry.Etale.HasConstructibleDirectImages"]
-order = 2704
+order = 2685
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "sbc-def-coefficient-conventions"]
 +++
 Fix the finite coefficient ring $\Lambda$ of

@@ -2,7 +2,7 @@
 id = "lem-fd-convolution-kernel"
 kind = "lemma"
 title = "The convolution of the Fourier kernels is the delta kernel"
-order = 3952
+order = 3960
 uses = ["def-wf-tate-twist", "def-fd-kernel", "lem-fd-kernel-composition", "prop-kernel-lisse", "lem-fd-as-lisse", "lem-wft-as-unit-trivialization", "lem-fd-character-integral", "lem-fd-stalk-formula", "sk-prop-sf-open-closed-triangle", "thm-pur-vector-bundle-thom", "def-sf-setting"]
 +++
 Let $S$ be a separated finite-type $k_0$-scheme and $V\to S$ a vector bundle

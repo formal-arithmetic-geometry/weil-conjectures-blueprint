@@ -2,7 +2,7 @@
 id = "thm-zl-real-mixed-by-curves"
 kind = "theorem"
 title = "Mixedness of real sheaves by reduction to the proved curve case"
-order = 4056
+order = 4064
 lean = ["AlgebraicGeometry.WeilSheaf.IsReal.isMixed"]
 uses = ["def-weil-punctual-weights", "def-wf-iota-real", "i-topology", "lem-a1-mixed-direct-summand", "lem-zl-curve-testing-irreducibility", "lem-zl-finite-pushforward", "lem-zl-geometric-constituents-any-base", "sk-lem-coefficient-heart", "thm-rp-real-lisse-purity-affine", "lem-zl-quasi-finite", "sk-r-real-linear", "sk-prop-sf-open-closed-triangle"]
 +++

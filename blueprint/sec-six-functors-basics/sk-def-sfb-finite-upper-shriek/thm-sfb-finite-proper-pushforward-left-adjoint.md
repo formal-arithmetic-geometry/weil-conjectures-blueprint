@@ -1,17 +1,22 @@
 +++
 id = "thm-sfb-finite-proper-pushforward-left-adjoint"
 kind = "theorem"
-title = "$Rg_*$ has a right adjoint for proper $g$"
-order = 2526
-uses = ["def-sfb-finite-lower-star", "det-def-sfb-derived-categories"]
-lean = ["AlgebraicGeometry.ProEtale.isLeftAdjoint_rightDerivedLowerStar_of_isProper"]
+title = "$Rg_*$ has a right adjoint for proper $g$ (étale site)"
+lean = ["AlgebraicGeometry.Etale.isLeftAdjoint_rightDerivedLowerStar_of_isProper"]
+order = 2507
+uses = ["def-weil-pbc-direct-image", "det-def-sfb-derived-categories", "lem-amb-proper-coproducts"]
 +++
-Let $\mathcal A$ be a Grothendieck abelian category and $g\colon Z\to Y$ a proper morphism.
-Then the derived pushforward
+Let $\Lambda$ be a finite ring and $g\colon Z\to Y$ a proper morphism of schemes. Then the
+derived pushforward
 
 $$
-Rg_*=R(g_*)\colon D(Z_{\mathrm{proét}},\mathcal A)\to D(Y_{\mathrm{proét}},\mathcal A)
+Rg_*\colon D(Z_{\et},\Lambda)\to D(Y_{\et},\Lambda)
 $$
 
-(the right derived functor [det-def-sfb-derived-categories] of the pushforward of
-[def-sfb-finite-lower-star]) has a right adjoint, denoted $Rg^!$.
+on the unbounded derived categories of étale sheaves of $\Lambda$-modules (the right derived
+functor [det-def-sfb-derived-categories] of the pushforward of [def-weil-pbc-direct-image]) has
+a right adjoint, denoted $Rg^!$.
+
+On the pro-étale site the corresponding statement is false: for the structure morphism of an
+elliptic curve over $\overline{\mathbf F}_p$ and $\mathbf F_r$-coefficients, $r\ne p$, the
+pro-étale $Rg_*$ does not preserve countable coproducts, even on $D^+$.

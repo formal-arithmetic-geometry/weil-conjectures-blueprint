@@ -3,7 +3,7 @@ id = "def-pc-fppf-site"
 kind = "definition"
 title = "The big fppf site"
 lean = ["AlgebraicGeometry.Scheme.fppfPrecoverage", "AlgebraicGeometry.Scheme.fppfTopology", "CategoryTheory.GrothendieckTopology.over"]
-order = 627
+order = 573
 uses = ["def-pc-morphism-conventions", "def-pc-scheme"]
 +++
 Let $S$ be a scheme and $\mathit{Sch}_{fppf}$ a big fppf site containing

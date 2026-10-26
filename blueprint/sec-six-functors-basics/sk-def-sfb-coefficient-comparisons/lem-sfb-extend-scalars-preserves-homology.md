@@ -2,7 +2,7 @@
 id = "lem-sfb-extend-scalars-preserves-homology"
 kind = "lemma"
 title = "A flat change of coefficients is exact"
-order = 2612
+order = 2593
 uses = ["sk-def-sfb-coefficient-change", "det-def-sfb-change-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.preservesHomology_extendScalars_coefficientMap"]
 +++

@@ -3,7 +3,7 @@ id = "def-weil-parity-products"
 kind = "definition"
 title = "Odd and even parity products"
 lean = ["AlgebraicGeometry.Scheme.oddFrobeniusProduct", "AlgebraicGeometry.Scheme.evenFrobeniusProduct"]
-order = 4129
+order = 4137
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-smooth-proper-cohomological-family"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$,

@@ -2,7 +2,7 @@
 id = "thm-weil-final-integrality"
 kind = "theorem"
 title = "Weil conjectures II: integral Frobenius factors"
-order = 4142
+order = 4150
 lean = ["AlgebraicGeometry.IsWeilFactorization", "AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.Scheme.weil_integral_factors"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "prop-galois-weight-strata-identification", "prop-galois-weight-strata-integrality", "prop-integral-recovery", "prop-weight-purity-roots", "prop-weight-separation", "prop-weil-zeta-normalized-presentation", "thm-weil-realization-independence"]
 +++

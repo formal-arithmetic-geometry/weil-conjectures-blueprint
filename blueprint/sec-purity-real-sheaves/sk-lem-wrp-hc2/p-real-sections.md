@@ -3,7 +3,7 @@ id = "p-real-sections"
 kind = "theorem"
 title = "Global sections as invariants"
 lean = ["AlgebraicGeometry.WeilGroup.globalSections_eq_invariants", "AlgebraicGeometry.WeilGroup.globalSections"]
-order = 3868
+order = 3850
 uses = ["def-real-weil-representation-operations", "def-wf-fundamental-representation", "def-wf-weil-group", "lem-wf-weil-group-exact-sequence", "prop-wf-weil-sheaf-representation-equivalence"]
 tags = ["latex:proposition"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-perfect-projection-formula"
 kind = "lemma"
 title = "Perfect projection formula for reductions"
-order = 2769
+order = 2750
 uses = ["det-pe-derived-nakayama-resolution", "det-def-sfb-pulled-back-coefficients", "def-weil-pbc-proetale-operations", "def-weil-pbc-projection-formula-map", "lemma-weil-pbc-projection-formula-compactified", "lemma-weil-pbc-projection-formula-proper-piece", "lemma-weil-pbc-projection-formula-tower-compatibility"]
 +++
 Let $\Lambda$ be a commutative condensed ring and $f:X\to Y$ a morphism. For

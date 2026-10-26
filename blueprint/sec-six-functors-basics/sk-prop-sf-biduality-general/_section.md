@@ -2,7 +2,7 @@
 id = "sk-prop-sf-biduality-general"
 kind = "proposition"
 title = "General Verdier biduality"
-order = 2839
+order = 2820
 uses = ["sk-prop-sf-open-closed-triangle", "sk-prop-sf-rf-shriek-preservation"]
 tags = ["sketch"]
 +++

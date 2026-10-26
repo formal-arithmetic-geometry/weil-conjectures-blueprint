@@ -2,7 +2,7 @@
 id = "sk-lem-tf-punctured-restriction"
 kind = "lemma"
 title = "Restriction to a transverse punctured curve"
-order = 3522
+order = 3504
 uses = ["sk-lem-tf-transverse-boundary"]
 tags = ["sketch"]
 +++

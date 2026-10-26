@@ -2,7 +2,7 @@
 id = "def-pur-flasque-support"
 kind = "definition"
 title = "Supported sections and flasque objects"
-order = 2819
+order = 2800
 uses = ["def-pur-conventions", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Let $s:Z\hookrightarrow X$ be a

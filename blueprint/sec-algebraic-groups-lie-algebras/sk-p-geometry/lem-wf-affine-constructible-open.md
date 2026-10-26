@@ -3,7 +3,7 @@ id = "lem-wf-affine-constructible-open"
 kind = "lemma"
 title = "Chevalley constructibility and open pieces of constructible sets"
 lean = ["exists_isOpen_inter_closure_subset_of_isConstructible", "PrimeSpectrum.isConstructible_comap_image_of_finiteType"]
-order = 3702
+order = 3684
 uses = ["lem-wf-affine-noetherian-components"]
 +++
 Let $k$ be a field.

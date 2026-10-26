@@ -2,7 +2,7 @@
 id = "det-uniform-constructible-ext-rational"
 kind = "lemma"
 title = "The stratum bound with rational coefficients"
-order = 2224
+order = 2204
 uses = ["det-uniform-constructible-ext-integral", "sk-lem-stratified-lattice", "sk-lem-constructible-ext-continuity", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Let $a\colon S\hookrightarrow X$, $j$ be as in [det-uniform-constructible-ext-torsion] and put

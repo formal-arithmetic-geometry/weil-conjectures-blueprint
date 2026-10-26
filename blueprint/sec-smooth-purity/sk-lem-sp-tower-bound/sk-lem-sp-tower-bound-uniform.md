@@ -2,7 +2,7 @@
 id = "det-sp-tower-bound-uniform"
 kind = "lemma"
 title = "Uniform Tor bound for compactly supported direct images"
-order = 3017
+order = 2999
 uses = ["det-sp-tower-shriek-levels"]
 +++
 Let $f:X\to Y$ be separated of finite type with all fibres of dimension

@@ -2,7 +2,7 @@
 id = "det-lem-int-tensor-shriek"
 kind = "lemma"
 title = "Extension by zero and closed direct image preserve $\\Dbc(-,\\mathcal O_E)$"
-order = 2459
+order = 2439
 uses = ["sk-prop-integral-criterion", "def-pe-derived-complete", "sk-prop-sf-open-closed-triangle", "sk-def-sfb-constructible", "sk-lem-int-integral-heart"]
 +++
 Let $X$ be a standing (Noetherian) scheme, $j\colon U\hookrightarrow X$ an open

@@ -2,7 +2,7 @@
 id = "def-sbc-standard-tstructure-derived-category"
 kind = "definition"
 title = "The standard t-structure on the derived category of an abelian category"
-order = 1277
+order = 1248
 uses = ["def-weil-abstract-derived-category", "def-weil-t-structure"]
 lean = ["DerivedCategory.TStructure.t"]
 tags = ["mathlib", "stacks-08J5"]

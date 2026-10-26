@@ -3,7 +3,7 @@ id = "prop-weil-open-closed-recollement-adjunctions"
 kind = "theorem"
 title = "Adjunctions of the open-closed recollement"
 lean = ["AlgebraicGeometry.ProEtale.derivedOpenImmersionLowerShriekUpperStarAdjunction", "AlgebraicGeometry.ProEtale.isIso_openImmersionLowerShriekAdjunction_unit", "CategoryTheory.Adjunction.isIso_mapDerivedCategoryAdjunction_unit", "AlgebraicGeometry.ProEtale.mapDerivedUpperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.full_rightDerivedFunctor_lowerStar", "AlgebraicGeometry.ProEtale.faithful_rightDerivedFunctor_lowerStar"]
-order = 1206
+order = 1172
 uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-open-closed-recollement", "def-weil-pbc-proetale-operations", "def-weil-scheme-morphism-properties", "lem-exc-proetale-closed-fully-faithful", "lem-exc-proetale-open-unit", "lem-weil-extension-by-zero-adjunction", "lem-weil-extension-by-zero-exact", "prop-weil-pbc-kinjective-resolutions-exist", "lem-sfb-finite-upper-star-exact"]
 tags = ["latex:proposition"]
 +++

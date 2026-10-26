@@ -3,7 +3,7 @@ id = "sk-p-central"
 kind = "proposition"
 title = "A common positive-degree central element"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair"]
-order = 3764
+order = 3746
 uses = ["sk-i-restriction", "sk-p-geometry", "sk-p-product"]
 tags = ["sketch"]
 +++

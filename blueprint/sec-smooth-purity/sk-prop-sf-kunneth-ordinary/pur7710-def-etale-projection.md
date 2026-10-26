@@ -2,7 +2,7 @@
 id = "pur7710-def-etale-projection"
 kind = "definition"
 title = "The étale direct-image projection morphism"
-order = 3092
+order = 3074
 uses = ["pur713-def-star-projection", "pur7710-def-unbounded-etale-push"]
 +++
 Under Input “Structure of inverse image on the small étale sites” (`pur713-input-etale-structure`), for a morphism $f:X\to Y$, $K\in D(X_{\Et},\mathcal O_E/\pi_E^n)$ and $M\in D(Y_{\Et},\mathcal O_E/\pi_E^n)$, the morphism

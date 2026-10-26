@@ -2,7 +2,7 @@
 id = "def-sfb-derived-tensor-hom-adjunction-modules"
 kind = "definition"
 title = "Tensor-hom adjunction for module objects"
-order = 1182
+order = 1148
 uses = ["def-sfb-derived-hom-modules"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedTensorHomAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensorHomAdjunction₂", "AlgebraicGeometry.ProEtale.CondensedRing.isRightAdjoint_derivedHom_obj"]
 +++

@@ -3,7 +3,7 @@ id = "lem-ag-lie-stable-subspace"
 kind = "lemma"
 title = "Group-invariant and Lie-invariant subspaces agree"
 lean = ["AlgebraicGeometry.GeneralLinearGroup.invariant_iff_differential_invariant", "AlgebraicGeometry.GeneralLinearGroup.forall_zeroLocus_iff_forall_lieSubalgebra", "AlgebraicGeometry.GeneralLinearGroup.forall_mem_zeroLocus_iff_forall_mem_lieSubalgebra", "AlgebraicGeometry.GeneralLinearGroup.forall_mulVec_mem_iff_forall_lieSubalgebra"]
-order = 3712
+order = 3694
 uses = ["def-wf-algebraic-components", "def-wf-algebraic-representations", "def-wf-lie-algebra-derivation", "lem-ag-cartier-reduced", "lem-ag-equal-dimension-subgroup", "lem-sc-translation-automorphism", "lem-wf-affine-nullstellensatz-vanishing", "lem-wf-same-lie-closed-subgroup", "lem-wf-smooth-components-disjoint"]
 +++
 Let $G$ be a connected group scheme locally of finite type over an

@@ -2,7 +2,7 @@
 id = "lem-sfb-extend-to-qlbar-constructible"
 kind = "lemma"
 title = "$T_{E,\\Qlb}$ preserves bounded constructible complexes"
-order = 2171
+order = 2150
 uses = ["def-sfb-derived-extend-to-qlbar", "det-def-sfb-bounded-constructible"]
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalarsToPadicAlgCl_obj"]
 +++

@@ -3,7 +3,7 @@ id = "sk-i-restriction"
 kind = "lemma"
 title = "Restriction to a normal subgroup"
 lean = ["Representation.isSemisimpleRepresentation_comp_subtype", "AlgebraicGeometry.IsMonHom.ContainsCommutators", "AlgebraicGeometry.IsMonHom.Normal.of_containsCommutators", "AlgebraicGeometry.GeneralLinearGroup.containsCommutators_subgroupSchemeHom", "AlgebraicGeometry.GeneralLinearGroup.lie_mem_range_lieAlgebraMap", "AlgebraicGeometry.GeneralLinearGroup.lie_mem_range_lieAlgebraMap_identityComponent", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromy_le_geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.normal_zeroLocus_geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.commutator_zeroLocus_le_zeroLocus_geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.containsCommutators_subgroupSchemeHom_arithmeticMonodromy_le_geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.lie_mem_lieAlgebra_geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.lie_mem_lieAlgebra_identityComponent_geometricMonodromy", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.isSemisimpleRepresentation_standardRepresentation_identityComponent", "AlgebraicGeometry.GeneralLinearGroup.derivedIdeal", "AlgebraicGeometry.GeneralLinearGroup.containsCommutators_iff_le_derivedIdeal", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.geometricMonodromy_le_derivedIdeal_arithmeticMonodromy"]
-order = 3727
+order = 3709
 uses = ["sk-i-cartier", "sk-p-geometry"]
 tags = ["sketch"]
 +++

@@ -2,9 +2,9 @@
 id = "sk-lem-curve-affine-artin-schreier"
 kind = "lemma"
 title = "Characteristic torsion on an affine curve"
-order = 1460
+order = 1439
 lean = ["AlgebraicGeometry.Scheme.artinSchreierSequence_shortExact", "AlgebraicGeometry.Scheme.constantZModIsoKernelGaArtinSchreier", "AlgebraicGeometry.Scheme.subsingleton_sheafH_gaSheaf_of_isAffine", "AlgebraicGeometry.Scheme.subsingleton_sheafH_constantZMod_of_isAffine"]
-uses = ["sk-def-curve", "sk-prop-sf-comparison"]
+uses = ["sk-prop-sf-comparison"]
 tags = ["sketch"]
 +++
 If $U$ is affine over an algebraically closed field $k$ of characteristic

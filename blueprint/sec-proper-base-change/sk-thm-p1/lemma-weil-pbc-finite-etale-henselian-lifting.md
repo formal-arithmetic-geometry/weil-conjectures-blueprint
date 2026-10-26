@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-finite-etale-henselian-lifting"
 kind = "lemma"
 title = "Finite-etale lifting over a henselian pair"
 lean = ["AlgebraicGeometry.Scheme.isEquivalence_pullback_finiteEtale_of_henselianLocalRing"]
-order = 1603
+order = 1582
 uses = ["def-weil-pbc-strict-henselian-setup", "lemma-weil-pbc-finite-locally-constant-etale-equivalence"]
 +++
 If $(A,\mathfrak m)$ is henselian and $Y\to\operatorname{Spec}A$ is proper,

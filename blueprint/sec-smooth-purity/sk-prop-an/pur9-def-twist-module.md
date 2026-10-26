@@ -2,7 +2,7 @@
 id = "pur9-def-twist-module"
 kind = "definition"
 title = "Admissible exponents and the twist modules"
-order = 2897
+order = 2878
 +++
 An integer $N\geq1$ is *admissible* if $\ell^N\cdot(\mathcal O_E/\pi_E^n)=0$; $N=n$ is admissible, because $\ell\in\pi_E\mathcal O_E$. Let $\mu_{\ell^N}(k)\subseteq k^\times$ be the group of $\ell^N$-th roots of unity, a $\mathbf Z/\ell^N$-module. For admissible $N$ put
 

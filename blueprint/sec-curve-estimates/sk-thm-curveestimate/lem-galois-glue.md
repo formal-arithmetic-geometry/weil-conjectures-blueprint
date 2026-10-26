@@ -2,7 +2,7 @@
 id = "lem-galois-glue"
 kind = "lemma"
 title = "Glueing of schemes along open immersions"
-order = 1424
+order = 1399
 lean = ["AlgebraicGeometry.Scheme.GlueData", "AlgebraicGeometry.Scheme.GlueData.glued", "AlgebraicGeometry.Scheme.GlueData.vPullbackConeIsLimit", "AlgebraicGeometry.Scheme.Cover.glueMorphisms"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

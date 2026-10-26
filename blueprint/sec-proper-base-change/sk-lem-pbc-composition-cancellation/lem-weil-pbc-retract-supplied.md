@@ -3,7 +3,7 @@ id = "lem-weil-pbc-retract-supplied"
 kind = "lemma"
 title = "Retract supplied by a proper surjection"
 lean = ["AlgebraicGeometry.Etale.mono_homEquiv_of_surjective"]
-order = 1946
+order = 1925
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $f:X\to Y$ be surjective, let $\Lambda$ be a commutative ring, let $I$ be a

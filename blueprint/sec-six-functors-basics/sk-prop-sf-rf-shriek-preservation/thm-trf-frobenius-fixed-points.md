@@ -2,8 +2,8 @@
 id = "thm-trf-frobenius-fixed-points"
 kind = "theorem"
 title = "Scheme-theoretic Frobenius fixed points"
-lean = ["AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.finite_fixedPoints", "AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.mem_finitePoints_of_fixedPoint", "AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.sum_fixedPoints"]
-order = 2424
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.nonempty_isLimit_fixedPointsFork", "AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.fixedPointEquiv", "AlgebraicGeometry.ProEtale.CondensedRing.IsModelFrobenius.finite_fixedPoint"]
+order = 2404
 uses = ["def-trf-fixed-scheme", "def-trf-graph-correspondence", "def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum

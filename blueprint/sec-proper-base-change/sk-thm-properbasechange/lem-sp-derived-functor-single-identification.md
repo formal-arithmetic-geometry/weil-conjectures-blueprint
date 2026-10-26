@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The derived functor on an object placed in degree 0 computes the classical right derived functors"
 uses = ["def-sp-left-exact-additive", "def-sp-grothendieck-abelian", "def-sp-kinjective-bridge", "def-sp-injective-resolutions", "def-weil-pbc-bounded-derived-subcategories"]
 lean = ["CategoryTheory.Functor.homologyRightDerivedFunctorPlusObjSingleFunctorIso", "CategoryTheory.Functor.singleFunctorCompRightDerivedFunctorPlusCompHomologyFunctorIso"]
-order = 1996
+order = 1975
 tags = ["stacks-015A"]
 +++
 Let $\mathcal A,\mathcal B$ be abelian categories, $\mathcal A$ with enough injectives (for example $\mathcal A$ Grothendieck abelian [def-sp-grothendieck-abelian]), let $v:\mathcal A\to\mathcal B$ be an additive functor (in the application left exact additive [def-sp-left-exact-additive]), and let $Rv:D^+(\mathcal A)\to D^+(\mathcal B)$ [def-weil-pbc-bounded-derived-subcategories] be its right derived functor, computed on a bounded below complex $L$ by a K-injective resolution $L\to I(L)$, for instance a bounded below complex of injective objects, as $RvL=v(I(L))$ [def-sp-kinjective-bridge]. For an object $X$ of $\mathcal A$ let $X[0 ]$ be the complex with $X$ in degree $0$, and let $R^pv(X)=\mathcal H^p(v(I^\bullet))$, $p\ge0$, be the right derived functors defined by an injective resolution $X\to I^\bullet$ [def-sp-left-exact-additive], [def-sp-injective-resolutions]. Then for every $p\geq0$ there is an isomorphism

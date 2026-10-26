@@ -2,7 +2,7 @@
 id = "def-fd-nonexceptional"
 kind = "definition"
 title = "Fourier-nonexceptional middle extension"
-order = 3991
+order = 3999
 uses = ["def-fd-artin-schreier-sheaf", "sk-lem-coefficient-heart", "sk-def-sf-weil-complexes", "def-wf-constant-weil-twist", "def-wf-middle-extension"]
 lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.IsFourierNonexceptional"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sfb-modobj-forget-faithful"
 kind = "lemma"
 title = "The forgetful functor on module objects is faithful"
-order = 1130
+order = 1096
 uses = ["det-def-sfb-module-objects-definition"]
 lean = ["CategoryTheory.Mod.forget", "CategoryTheory.Mod.hom_ext"]
 +++

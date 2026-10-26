@@ -2,7 +2,7 @@
 id = "lem-sf-pullback-tor-amplitude"
 kind = "lemma"
 title = "Pullback preserves finite Tor amplitude"
-order = 1057
+order = 1023
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_and_torAmplitudeIn_leftDerivedFunctor_upperStar_obj", "AlgebraicGeometry.ProEtale.constructibleFiniteTor_leftDerivedFunctor_upperStar_obj", "AlgebraicGeometry.ProEtale.torAmplitudeIn_leftDerivedUpperStar", "AlgebraicGeometry.ProEtale.upperStarPreservesFlat_moduleCat"]
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "lem-exc-constant-inverse-image-flat", "lem-sf-flat-model", "lem-weil-pbc-pullback-preserves-bounded-constructible"]
 +++

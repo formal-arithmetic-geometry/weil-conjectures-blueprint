@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-curve-dense-open-reduction"
 kind = "lemma"
 title = "Dense-open localization reduction"
 lean = ["AlgebraicGeometry.IsCurve.exists_dense_assertions_iff_lowerShriek"]
-order = 1520
+order = 1499
 uses = ["def-constructible-constructible", "def-constructible-stratification", "def-weil-pbc-eight-curve-assertions", "prop-constructible-generic-constancy"]
 +++
 Let $X$ be a reduced separated curve of finite type over an algebraically

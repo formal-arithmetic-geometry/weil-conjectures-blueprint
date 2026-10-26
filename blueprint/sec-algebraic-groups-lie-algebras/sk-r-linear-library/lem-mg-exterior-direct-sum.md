@@ -3,7 +3,7 @@ id = "lem-mg-exterior-direct-sum"
 kind = "lemma"
 title = "Exterior power of a direct sum"
 lean = ["Representation.exteriorPowerProdEquiv", "Representation.exteriorPowerDirectSumEquiv"]
-order = 3761
+order = 3743
 uses = ["d-monodromy"]
 +++
 Let $V_1,\ldots,V_s$ be Weil representations of a degree datum

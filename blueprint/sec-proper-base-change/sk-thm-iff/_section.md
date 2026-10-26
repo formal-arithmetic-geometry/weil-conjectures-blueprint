@@ -2,7 +2,7 @@
 id = "sk-thm-iff"
 kind = "theorem"
 title = "PBC and injective acyclicity"
-order = 1558
+order = 1537
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_iff_hasInjectiveAcyclicity", "AlgebraicGeometry.Etale.HasTorsionBaseChange.hasInjectiveAcyclicity", "AlgebraicGeometry.Etale.HasTorsionBaseChange.quotient", "AlgebraicGeometry.Etale.hasTorsionBaseChange_of_hasInjectiveAcyclicity", "AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_isTorsionSheaf"]
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-ia", "sk-def-pbc", "sk-thm-acyclicity", "sk-def-pbc-conventions", "sk-prop-pbc-degree-zero"]
 tags = ["sketch"]

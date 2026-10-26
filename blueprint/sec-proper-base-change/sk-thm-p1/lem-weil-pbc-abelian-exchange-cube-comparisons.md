@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Homology stalk compatibility of exchange in a commuting cube"
 uses = ["def-pc-scheme", "def-weil-pbc-derived-exchange", "def-weil-pbc-derived-inverse-image", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks"]
 lean = ["AlgebraicGeometry.Etale.exchangeCube_stalk_square"]
-order = 1862
+order = 1841
 +++
 Let $S,T,X,X',S_0,T_0,X_0,X_1$ be schemes [def-pc-scheme], and let
 $g\colon T\to S$, $f\colon X\to S$, $g'\colon X'\to X$, $f'\colon X'\to T$,

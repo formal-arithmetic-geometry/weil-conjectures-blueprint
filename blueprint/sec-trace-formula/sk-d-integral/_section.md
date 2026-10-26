@@ -2,9 +2,8 @@
 id = "sk-d-integral"
 kind = "definition"
 title = "Borel–Moore sections and integration"
-order = 3634
+order = 3616
 uses = ["sk-d-setup", "sk-d-six"]
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.borelMoorePushforward"]
 tags = ["sketch"]
 +++
 A Borel–Moore section on a geometric scheme $T$ is

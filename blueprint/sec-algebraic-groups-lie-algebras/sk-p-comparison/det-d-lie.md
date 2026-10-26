@@ -2,7 +2,7 @@
 id = "det-d-lie"
 kind = "definition"
 title = "Lie algebras, radicals and centers"
-order = 3709
+order = 3691
 uses = ["det-d-linear"]
 lean = ["LieAlgebra.radical", "LieAlgebra.center", "LieAlgebra.HasCentralRadical", "killingForm"]
 +++

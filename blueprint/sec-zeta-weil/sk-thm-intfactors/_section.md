@@ -2,7 +2,7 @@
 id = "sk-thm-intfactors"
 kind = "theorem"
 title = "Integral factors and independence of the prime"
-order = 4121
+order = 4129
 lean = ["AlgebraicGeometry.Scheme.integral_recovery", "AlgebraicGeometry.Scheme.realization_independence", "AlgebraicGeometry.Scheme.weil_integral_factors"]
 uses = ["sk-cor-tf-point-counting", "sk-input-weights", "sk-lem-wweil-integer-rationality"]
 tags = ["sketch"]

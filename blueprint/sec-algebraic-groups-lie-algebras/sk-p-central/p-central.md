@@ -2,7 +2,7 @@
 id = "p-central"
 kind = "theorem"
 title = "A positive central representative"
-order = 3766
+order = 3748
 tags = ["latex:proposition"]
 uses = ["d-central", "d-monodromy", "lem-ag-closure-commutators", "lem-wf-algebraic-component-cosets", "p-product"]
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair"]

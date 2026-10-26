@@ -2,15 +2,14 @@
 id = "def-sfb-finite-upper-shriek-plus"
 kind = "definition"
 title = "Exceptional pullback on $D^+$"
-order = 2533
-uses = ["def-sfb-finite-upper-shriek", "lem-sfb-finite-upper-shriek-bounded-below"]
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedUpperShriekPlus"]
+order = 2513
+uses = ["def-sfb-finite-upper-shriek", "lem-sfb-finite-upper-shriek-bounded-below"]
 +++
-Under the hypothesis of [lem-sfb-finite-upper-shriek-bounded-below], the *exceptional
-pullback on bounded below categories*
+For $Y$ quasi-compact, the *exceptional pullback on bounded below categories*
 
 $$
-Rf^{!,+}\colon D^+(Y_{\mathrm{proét}},\mathcal A)\to D^+(X_{\mathrm{proét}},\mathcal A)
+Rf^{!,+}\colon D^+(Y_{\mathrm{proét}},\Lambda)\to D^+(X_{\mathrm{proét}},\Lambda)
 $$
 
 is the restriction of $Rf^!$ ([def-sfb-finite-upper-shriek]), which preserves bounded below

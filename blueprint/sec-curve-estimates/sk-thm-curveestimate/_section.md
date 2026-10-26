@@ -2,8 +2,8 @@
 id = "sk-thm-curveestimate"
 kind = "proposition"
 title = "Smooth proper curves with invertible torsion"
-order = 1415
-uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sk-def-curve", "sk-thm-picard-main", "sk-thm-av-final", "sk-thm-picard-rr", "sk-thm-br", "sk-cor-picard-degree", "sk-cor-jacobian-torsion", "sk-prop-sf-comparison"]
+order = 1390
+uses = ["sk-thm-picard-main", "sk-prop-av-isogeny", "sk-def-picard-pic", "sk-prop-picard-pic-split", "sk-prop-av-tate-rank", "sk-thm-picard-rr", "sk-thm-br", "sk-cor-picard-degree", "sk-cor-jacobian-torsion", "sk-prop-sf-comparison"]
 lean = ["AlgebraicGeometry.IsConnectedCurve.sheafH_rootsOfUnitySheaf_canonical_of_isProper"]
 tags = ["sketch"]
 +++

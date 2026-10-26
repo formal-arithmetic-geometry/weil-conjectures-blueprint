@@ -2,7 +2,7 @@
 id = "sk-rem-restriction-inputs"
 kind = "remark"
 title = "The inputs of the rational $f^!$ theorem are not circular"
-order = 2452
+order = 2432
 tags = ["sketch"]
 +++
 The results used in the proof of [sk-thm-restriction] are proved before

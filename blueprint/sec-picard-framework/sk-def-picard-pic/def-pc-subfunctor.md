@@ -3,7 +3,7 @@ id = "def-pc-subfunctor"
 kind = "definition"
 title = "Subfunctors"
 lean = ["CategoryTheory.Subfunctor"]
-order = 628
+order = 574
 uses = ["def-pc-scheme"]
 +++
 Let $S$ be a scheme and let

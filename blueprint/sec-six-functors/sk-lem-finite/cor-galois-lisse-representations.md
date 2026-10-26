@@ -3,7 +3,7 @@ id = "cor-galois-lisse-representations"
 kind = "theorem"
 title = "Lisse sheaves and continuous representations"
 lean = ["AlgebraicGeometry.Scheme.exists_equivalence_isFiniteLocallyConstantSheaf", "Rep.IsFiniteContinuous"]
-order = 3281
+order = 3263
 uses = ["def-galois-fibre-functor", "thm-galois-fundamental", "thm-galois-lc-etale"]
 tags = ["latex:corollary"]
 +++

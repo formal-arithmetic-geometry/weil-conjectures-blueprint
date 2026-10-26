@@ -2,7 +2,7 @@
 id = "def-sfb-finite-derived-lower-shriek-plus"
 kind = "definition"
 title = "Derived lower shriek on $D^+$"
-order = 2521
+order = 2502
 uses = ["def-weil-extension-by-zero", "def-sfb-finite-lower-star", "lem-sfb-finite-extension-by-zero-exact", "sk-def-nagata-sketch-data", "det-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerShriekPlus"]
 +++

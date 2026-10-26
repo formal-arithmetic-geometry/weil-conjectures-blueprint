@@ -3,7 +3,7 @@ id = "def-weil-pbc-constructible-torsion"
 kind = "definition"
 title = "Constructible torsion sheaves on a curve"
 lean = ["AlgebraicGeometry.CurveCoefficientPair.IsConstructible", "AlgebraicGeometry.Scheme.IsConstructibleSheaf"]
-order = 1464
+order = 1443
 uses = ["def-weil-pbc-curve-setting"]
 +++
 Let $(C,F)$ be a curve coefficient pair [def-weil-pbc-curve-setting]. The

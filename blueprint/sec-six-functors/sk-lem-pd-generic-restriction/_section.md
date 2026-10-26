@@ -2,7 +2,7 @@
 id = "sk-lem-pd-generic-restriction"
 kind = "lemma"
 title = "Restriction to a geometric generic fibre"
-order = 3294
+order = 3276
 uses = ["sk-def-ops", "sk-prop-ctf-finite-comparison", "sk-lem-pd-preservation"]
 tags = ["sketch"]
 +++

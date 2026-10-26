@@ -2,7 +2,7 @@
 id = "det-lem-stratified-lattice-rank"
 kind = "lemma"
 title = "The rank of a lisse sheaf is locally constant"
-order = 2185
+order = 2164
 uses = ["det-lem-coefficient-heart-closure"]
 +++
 Let $X$ be a scheme and $L$ a lisse $E_X$-module. For $r\ge0$ let $X_r\subseteq|X|$ be the set of

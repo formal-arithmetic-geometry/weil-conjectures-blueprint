@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-stein-connectedness"
 kind = "lemma"
 title = "Stein connectedness"
 lean = ["AlgebraicGeometry.Scheme.Hom.spectralSpace_and_isClosed_and_isConnected_inter"]
-order = 1551
+order = 1530
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-spectral-restriction"]
 +++
 Let $(A,I)$ be henselian [def-weil-pbc-henselian-terminology] and let

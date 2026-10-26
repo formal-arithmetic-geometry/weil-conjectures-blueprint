@@ -2,7 +2,7 @@
 id = "lem-pc-k-sheaf"
 kind = "lemma"
 title = "The sheaf condition for $\\operatorname{Ker}\\sigma_T^*$"
-order = 640
+order = 586
 uses = ["def-pc-fppf-site", "def-pc-pic-sigma-functor", "def-pc-picard-functor", "def-pc-subfunctor", "lem-pc-fpqc-descent", "lem-pc-sigma-subfunctor"]
 lean = ["AlgebraicGeometry.isSheaf_picardFunctorNormalized"]
 +++

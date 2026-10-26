@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-compactified"
 kind = "lemma"
 title = "Compactified finite-level projection formula"
-order = 1980
+order = 1959
 lean = ["AlgebraicGeometry.Etale.hasProjectionFormulaOfCompactification_of_isDualizable", "AlgebraicGeometry.Etale.projectionMapOfCompactification", "AlgebraicGeometry.Etale.projectionMapOfCompactification_app_app"]
 uses = ["def-weil-pbc-projection-compactification", "lemma-weil-pbc-projection-formula-open-piece", "lemma-weil-pbc-projection-formula-proper-piece"]
 +++

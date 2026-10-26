@@ -3,7 +3,7 @@ id = "det-thm-tf-uniform-formula-weil"
 kind = "theorem"
 title = "Grothendieck–Lefschetz formula for Weil complexes over $E$ and $\\Qlb$"
 lean = ["AlgebraicGeometry.WeilSheaf.sum_trace_compactlySupportedCohomology", "AlgebraicGeometry.WeilComplex.sum_trace_compactlySupportedCohomology_eq_sum_traceFunction", "AlgebraicGeometry.WeilComplex.finsum_trace_compactlySupportedCohomology_eq"]
-order = 3548
+order = 3530
 uses = ["sk-thm-tf-uniform-formula", "def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes", "def-weil-global-geometric-frobenius", "sk-lem-tf-frobenius-convention", "sk-lem-finite", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-sfb-finite-extension-compatibility", "sk-p-trace"]
 +++
 Fix the finite-field datum $p,a,q,k_0,k$, where $q=p^a$, and a prime

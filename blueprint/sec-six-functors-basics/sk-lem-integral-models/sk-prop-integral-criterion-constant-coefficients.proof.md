@@ -25,8 +25,8 @@ induces, by \stacks{099I}, an equivalence between derived complete objects as st
 reason: for $K$ over $\cO_{E,X}$, flatness gives
 $K\otimes^{\mathbf L}_{(\cO_E)_X}(\cO_E)_X/\pi_E^n=K\otimes^{\mathbf L}_{\cO_{E,X}}\cO_{E,X}/\pi_E^n$
 by (1), which is (3); derived completeness is the condition
-$K\cong\operatorname{R\lim}_nK\otimes^{\mathbf L}\cO/\pi_E^n$ (derived Nakayama and the
-limit description of [def-pe-derived-complete]), and both the condition and the
+$K\cong\operatorname{R\lim}_nK\otimes^{\mathbf L}\cO/\pi_E^n$ (the definition
+[def-pe-derived-complete]), and both the condition and the
 reductions agree on the two sides. Hence restriction of scalars is fully faithful on
 complete objects (Hom between complete objects is the $\operatorname{R\lim}$ of Hom between
 reductions, which agree) and essentially surjective (the inverse functor displayed is

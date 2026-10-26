@@ -2,7 +2,7 @@
 id = "prop-openclosed-lowerstar-fully-faithful"
 kind = "theorem"
 title = "$i_*$ is fully faithful"
-order = 2671
+order = 2652
 lean = ["AlgebraicGeometry.Etale.fullyFaithfulLowerStar", "AlgebraicGeometry.Etale.isIso_upperStarLowerStarAdjunction_counit"]
 tags = ["latex:proposition"]
 +++

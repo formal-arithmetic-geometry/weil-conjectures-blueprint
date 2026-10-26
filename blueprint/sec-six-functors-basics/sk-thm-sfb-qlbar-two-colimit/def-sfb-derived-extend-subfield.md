@@ -2,7 +2,7 @@
 id = "def-sfb-derived-extend-subfield"
 kind = "definition"
 title = "The derived extension of scalars $T_{E,F}$"
-order = 2164
+order = 2143
 uses = ["def-sfb-subfield-coefficient-map", "det-def-sfb-derived-extension-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.derivedExtendScalarsSubfield"]
 +++

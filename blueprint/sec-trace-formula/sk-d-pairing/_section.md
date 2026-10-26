@@ -2,9 +2,8 @@
 id = "sk-d-pairing"
 kind = "definition"
 title = "The supported pairing recipe"
-order = 3647
+order = 3629
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-thm-sf-kunneth-verdier"]
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.supportedPairing"]
 tags = ["sketch"]
 +++
 Let $s$ be the spectrum of a field, $X,Y$ quasi-compact and compactifiable over

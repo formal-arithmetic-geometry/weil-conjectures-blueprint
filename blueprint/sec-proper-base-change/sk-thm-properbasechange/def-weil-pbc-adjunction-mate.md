@@ -3,7 +3,7 @@ id = "def-weil-pbc-adjunction-mate"
 kind = "definition"
 title = "Mate of a transformation under two adjunctions"
 lean = ["CategoryTheory.mateEquiv"]
-order = 1989
+order = 1968
 tags = ["mathlib", "stacks-07A7"]
 +++
 Let $\mathcal C,\mathcal D,\mathcal E,\mathcal F$ be categories, let $L_1:\mathcal C\to\mathcal D$ be left adjoint to $R_1:\mathcal D\to\mathcal C$ (unit $\eta_1:\mathrm{id}\to R_1L_1$, counit $\varepsilon_1:L_1R_1\to\mathrm{id}$), let $L_2:\mathcal E\to\mathcal F$ be left adjoint to $R_2:\mathcal F\to\mathcal E$ (unit $\eta_2$, counit $\varepsilon_2$), and let $G:\mathcal C\to\mathcal E$ and $H:\mathcal D\to\mathcal F$ be functors. For a natural transformation $\alpha:L_2G\to HL_1$ its *mate* is the natural transformation $\alpha^\flat:GR_1\to R_2H$ with components

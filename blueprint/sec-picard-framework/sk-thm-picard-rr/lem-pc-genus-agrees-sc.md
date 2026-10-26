@@ -2,7 +2,7 @@
 id = "lem-pc-genus-agrees-sc"
 kind = "lemma"
 title = "Agreement with the genus of file 06"
-order = 748
+order = 706
 lean = ["AlgebraicGeometry.Scheme.genus_eq_arithmeticGenus", "AlgebraicGeometry.Scheme.arithmeticGenus", "AlgebraicGeometry.Scheme.Hom.genus"]
 uses = ["def-pc-genus", "def-pc-smooth-projective-curve", "def-sc-curves", "def-sc-genus", "thm-sc-serre-duality-curve"]
 +++

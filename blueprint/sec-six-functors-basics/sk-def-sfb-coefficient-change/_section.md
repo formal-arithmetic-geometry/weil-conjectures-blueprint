@@ -2,7 +2,7 @@
 id = "sk-def-sfb-coefficient-change"
 kind = "definition"
 title = "Change of condensed coefficients"
-order = 2568
+order = 2549
 uses = ["sk-prop-sfb-cartesian-coefficients", "sk-prop-sfb-module-derived-factorization"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientMap", "AlgebraicGeometry.ProEtale.coefficientMap_id", "AlgebraicGeometry.ProEtale.map_coefficientMap_comp_condensedPullbackHom", "AlgebraicGeometry.ProEtale.condensedPushforwardHom_comp_map_coefficientMap"]
 tags = ["sketch"]

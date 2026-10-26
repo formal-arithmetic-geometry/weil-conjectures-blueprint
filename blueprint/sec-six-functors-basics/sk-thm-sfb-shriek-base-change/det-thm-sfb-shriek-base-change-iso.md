@@ -2,7 +2,7 @@
 id = "det-thm-sfb-shriek-base-change-iso"
 kind = "theorem"
 title = "$\\mathrm{Ex}_!^c$ is an isomorphism"
-order = 2599
+order = 2580
 uses = ["det-thm-sfb-shriek-base-change-proper-step", "det-def-sfb-shriek-base-change-morphism-definition"]
 +++
 Let $\Lambda=\underline E$ for a finite extension $E$ of $\mathbf Q_\ell$ ([det-def-sfb-condensed-ring]),

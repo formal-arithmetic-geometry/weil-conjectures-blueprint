@@ -2,7 +2,7 @@
 id = "def-weil-field"
 kind = "definition"
 title = "Fields"
-order = 1591
+order = 1570
 lean = ["Field"]
 +++
 A field is a commutative ring $K$ with $0\neq1$ in which

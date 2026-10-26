@@ -2,7 +2,7 @@
 id = "det-def-sf-operations"
 kind = "definition"
 title = "The six operations: ambient typing"
-order = 2775
+order = 2756
 uses = ["lem-sf-proetale-constructible-origin", "det-def-localizing-closure-existence", "def-weil-exceptional-adjoint-admissibility", "det-existence-localizing", "det-existence-restriction", "def-sfb-dc-upper-shriek-functor"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensor", "AlgebraicGeometry.ProEtale.CondensedRing.derivedHom", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensorHomAdjunction₂", "AlgebraicGeometry.ProEtale.CondensedRing.openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriek", "AlgebraicGeometry.ProEtale.HasAmbientExceptionalRightAdjoint", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriek", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekHomEquiv", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriek", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperShriekAdjunction"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-adjunct-counit-identity"
 kind = "lemma"
 title = "The adjunct of a morphism, composed with the counit, gives back the morphism"
-order = 1287
+order = 1258
 lean = ["CategoryTheory.Adjunction.eq_unit_comp_map_iff"]
 tags = ["mathlib", "stacks-0037"]
 +++

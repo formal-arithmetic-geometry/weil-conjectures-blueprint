@@ -2,7 +2,7 @@
 id = "sk-prop-ctf-finite-proper"
 kind = "proposition"
 title = "Proper direct image for finite coefficients"
-order = 2303
+order = 2283
 uses = ["sk-prop-ctf-finite-comparison", "sk-def-localizing-closure"]
 tags = ["sketch"]
 +++

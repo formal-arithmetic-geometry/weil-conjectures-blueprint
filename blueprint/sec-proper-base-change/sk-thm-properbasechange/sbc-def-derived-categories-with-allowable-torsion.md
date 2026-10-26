@@ -3,7 +3,7 @@ id = "sbc-def-derived-categories-with-allowable-torsion"
 kind = "definition"
 title = "Derived categories with allowable torsion"
 lean = ["AlgebraicGeometry.Scheme.IsTorsionSheafOfPrimes", "AlgebraicGeometry.Etale.DerivedCategory.Plus.boundedTorsionHomologyOfPrimes"]
-order = 1986
+order = 1965
 uses = ["def-weil-pbc-derived-categories"]
 +++
 Let $\mathcal P$ be a set of primes. Write

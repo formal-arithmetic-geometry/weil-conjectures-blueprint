@@ -3,7 +3,7 @@ id = "lem-exc-etale-algebra-lift"
 kind = "lemma"
 title = "Etale algebras lift across an arbitrary quotient"
 lean = ["Algebra.SquareJacobianPresentation.CoefficientLift.etale_and_reduction_equiv", "Algebra.exists_etale_coefficientLift"]
-order = 1100
+order = 1066
 uses = ["def-exc-etale-algebra-lift", "def-weil-pbc-scheme-conventions", "lem-exc-etale-jacobian-presentation"]
 +++
 The algebra of [def-exc-etale-algebra-lift] is etale of finite presentation

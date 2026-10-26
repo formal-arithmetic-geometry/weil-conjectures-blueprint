@@ -2,9 +2,8 @@
 id = "sk-c-proper-global"
 kind = "corollary"
 title = "Proper global trace comparison"
-order = 3658
+order = 3640
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-operator", "sk-d-proper-pushforward", "sk-d-six", "sk-d-trace", "sk-d-trace-class", "sk-p-pairing", "sk-p-proper", "sk-thm-sf-package"]
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.trace_globalOperator_eq_integral_traceClass"]
 tags = ["sketch"]
 +++
 Let $s$ be the spectrum of a field, $X$ proper over $s$, $K\in D^b_{ctf}(X,A)$,

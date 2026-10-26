@@ -2,7 +2,7 @@
 id = "lem-sfb-qlbar-flat"
 kind = "lemma"
 title = "$\\overline{\\mathbf Q}_{\\ell,X}$ is flat over $E_X$"
-order = 2163
+order = 2142
 uses = ["def-sfb-subfield-to-qlbar-coefficient-map", "det-def-sfb-change-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_extendScalars_padicSubfieldRingObjToPadicAlgCl"]
 +++

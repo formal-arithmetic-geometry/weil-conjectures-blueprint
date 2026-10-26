@@ -3,7 +3,7 @@ id = "det-picard-f-representable-chart"
 kind = "lemma"
 title = "The chart $W$: its map to the Picard functor and its smoothness"
 lean = ["AlgebraicGeometry.exists_representableBy_invertibleDirectImageToHilbert", "AlgebraicGeometry.zeroLocus_adjointSection_eq_of_iso", "AlgebraicGeometry.hilbertToPicardNormalized_invertibleDirectImageToHilbert", "AlgebraicGeometry.hilbertPresheaf_curve_representable"]
-order = 840
+order = 803
 uses = ["thm-pc-f-representable", "thm-pc-hilb-curves", "lem-pc-universal-adjoint-section", "cor-pc-sigma-pic-iso"]
 +++
 Let $k$ be a field and $C$ a $k$-scheme which is proper, smooth of

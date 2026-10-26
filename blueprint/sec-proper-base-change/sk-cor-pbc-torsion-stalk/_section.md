@@ -2,7 +2,7 @@
 id = "sk-cor-pbc-torsion-stalk"
 kind = "corollary"
 title = "Geometric-fibre formula"
-order = 2034
+order = 2013
 uses = ["sk-thm-properbasechange", "sk-prop-pe-condensed-point"]
 tags = ["sketch"]
 +++

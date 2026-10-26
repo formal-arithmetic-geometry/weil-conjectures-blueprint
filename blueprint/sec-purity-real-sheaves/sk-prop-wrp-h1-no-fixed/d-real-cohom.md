@@ -3,7 +3,7 @@ id = "d-real-cohom"
 kind = "definition"
 title = "Cohomology and the Euler series"
 lean = ["AlgebraicGeometry.WeilGroup.eulerSeries"]
-order = 3838
+order = 3820
 uses = ["d-real-setup", "def-weil-weil-sheaf-complex", "def-wf-constant-weil-twist", "sk-d-real-weights", "det-def-sfb-bounded-constructible", "det-def-sfb-derived-categories", "def-pe-derived-complete", "sk-lem-coefficient-heart", "sk-lem-integral-models", "sk-prop-integral-criterion", "sk-prop-pe-continuous-cohomology", "sk-prop-scalar-six", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-sf-ctf-stability", "sk-thm-sfb-qlbar-two-colimit", "sk-thm-sfb-rationalization-comparison"]
 +++
 For an abelian sheaf $A$ on the étale site (for instance a torsion sheaf),

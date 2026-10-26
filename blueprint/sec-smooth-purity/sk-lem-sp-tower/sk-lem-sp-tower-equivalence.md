@@ -2,7 +2,7 @@
 id = "det-sp-normalized-equivalence"
 kind = "proposition"
 title = "Integral constructible complexes are normalized constructible towers"
-order = 3011
+order = 2993
 uses = ["det-sp-reduction-tower-normalized", "lem-coef-normalized-dvr-effectivity", "def-pe-derived-complete"]
 +++
 The reduction functor

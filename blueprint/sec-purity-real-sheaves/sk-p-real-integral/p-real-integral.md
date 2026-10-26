@@ -2,7 +2,7 @@
 id = "p-real-integral"
 kind = "theorem"
 title = "Integral models"
-order = 3783
+order = 3765
 uses = ["cor-galois-lisse-representations", "sk-prop-sfb-qlbar-colimit-x", "thm-lisse-qlbar-representations"]
 lean = ["AlgebraicGeometry.WeilGroup.IsLisse.exists_lattice"]
 tags = ["latex:proposition"]

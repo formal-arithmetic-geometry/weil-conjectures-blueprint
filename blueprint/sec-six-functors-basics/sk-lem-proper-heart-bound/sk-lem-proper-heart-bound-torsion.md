@@ -2,7 +2,7 @@
 id = "det-proper-heart-bound-torsion"
 kind = "lemma"
 title = "The torsion bound over a weakly contractible base"
-order = 2250
+order = 2230
 uses = ["sk-cor-pe-wc-sections"]
 +++
 Let $p\colon X\to Y$ be proper with geometric fibres of dimension $\leq d$, let $V\to Y$ be affine weakly

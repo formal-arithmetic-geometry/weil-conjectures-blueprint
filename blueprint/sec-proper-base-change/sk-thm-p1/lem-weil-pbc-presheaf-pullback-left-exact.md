@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-presheaf-pullback-left-exact"
 kind = "lemma"
 title = "The presheaf pullback along a left exact functor is left exact"
-order = 1599
+order = 1578
 lean = ["CategoryTheory.Functor.lanAdjunction", "CategoryTheory.flat_of_preservesFiniteLimits", "CategoryTheory.lan_preservesFiniteLimits_of_preservesFiniteLimits"]
 tags = ["mathlib", "stacks-00VC"]
 +++

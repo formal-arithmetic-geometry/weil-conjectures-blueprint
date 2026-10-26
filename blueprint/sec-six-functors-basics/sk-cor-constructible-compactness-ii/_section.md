@@ -2,7 +2,7 @@
 id = "sk-cor-constructible-compactness-ii"
 kind = "corollary"
 title = "Compact generation with rational coefficients"
-order = 2246
+order = 2226
 uses = ["sk-thm-constructible-compactness", "sk-def-localizing-closure"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-lem-wft-curve-heart"
 kind = "lemma"
 title = "Perverse sheaves on a curve"
-order = 3966
+order = 3974
 uses = ["sk-def-sf-weil-complexes", "sk-lem-coefficient-heart", "sk-p-real-integral"]
 lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseUpper", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.WeilComplex.IsCurvePerverse"]
 tags = ["sketch"]

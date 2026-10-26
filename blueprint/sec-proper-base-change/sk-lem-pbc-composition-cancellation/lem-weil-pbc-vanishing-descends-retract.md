@@ -3,7 +3,7 @@ id = "lem-weil-pbc-vanishing-descends-retract"
 kind = "lemma"
 title = "Vanishing descends to a retract"
 lean = ["AlgebraicGeometry.Etale.isZero_homology_rightDerivedFunctorPlus_of_retract"]
-order = 1947
+order = 1926
 uses = ["def-weil-pbc-direct-image"]
 +++
 Let $h:X\to Y$ be a morphism of schemes and $\Lambda$ a commutative ring, and let

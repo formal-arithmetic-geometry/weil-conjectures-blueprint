@@ -4,6 +4,6 @@ kind = "definition"
 title = "Local sum characterization on every split site object"
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-etale-inverse-image-restriction"]
 lean = ["AlgebraicGeometry.Etale.FiniteEtaleTraceLocalSums"]
-order = 1729
+order = 1708
 +++
 Let $f:Y\to X$ be an etale morphism of schemes [def-weil-pbc-scheme-conventions], $F$ an abelian sheaf on $X_{\mathrm{Et}}$ [def-weil-pbc-etale-site], and $\tau:f_*f^{-1}F\to F$ a sheaf morphism [def-weil-pbc-direct-image], [def-weil-pbc-inverse-image]. For each object $W\to X$ put $B_fW=W\times_XY$ with its composite map to $X$, and let $c_{F,W}:(f_*f^{-1}F)(W)\simeq F(B_fW)$ be the restriction isomorphism [lem-weil-pbc-etale-inverse-image-restriction]. The predicate $\operatorname{LocalSums}(f,F,\tau)$ means that for every $W$ and every finite coproduct cofan $(V_j\xrightarrow{i_j}B_fW)_{j\in J}$ of open and closed immersions for which $i_j$ followed by $B_fW\to W$ has inverse $t_j:W\to V_j$, $\tau_Wc_{F,W}^{-1}=\sum_{j\in J}F(i_j\circ t_j):F(B_fW)\to F(W)$. The finite index set may be empty. This is only a predicate; it chooses no trace.

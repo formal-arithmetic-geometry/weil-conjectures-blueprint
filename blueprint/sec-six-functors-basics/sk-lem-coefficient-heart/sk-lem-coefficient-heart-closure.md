@@ -2,7 +2,7 @@
 id = "det-lem-coefficient-heart-closure"
 kind = "lemma"
 title = "Lisse sheaves on a stratum are closed under kernels, cokernels, extensions"
-order = 2146
+order = 2125
 uses = ["det-lem-coefficient-heart-common-stratification", "sk-prop-sfb-qlbar-colimit-x", "det-def-sfb-constructible-local-model"]
 +++
 Let $S$ be a topologically Noetherian scheme and $\Lambda=E$ or $\Qlb$.

@@ -2,8 +2,8 @@
 id = "sk-lem-uniform-constructible-ext"
 kind = "lemma"
 title = "Uniform Ext bound"
-order = 2220
-uses = ["sk-lem-coefficient-heart", "sk-def-cd", "sk-lem-formal-closed-support"]
+order = 2200
+uses = ["sk-lem-coefficient-heart", "sk-def-cd", "sk-lem-formal-closed-support", "sk-lem-integral-models"]
 tags = ["sketch"]
 +++
 Let $\Lambda=E$ or $\Qlb$. For every $C\in\Cons(X,\Lambda)$ there is an integer $d_C\geq0$ such that

@@ -2,7 +2,7 @@
 id = "def-sfb-module-open-lower-shriek"
 kind = "definition"
 title = "Extension by zero of module objects"
-order = 2538
+order = 2519
 uses = ["def-sfb-module-linear-open-lower-shriek", "det-def-sfb-coefficient-morphisms", "det-def-sfb-change-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.openImmersionLowerShriek"]
 +++

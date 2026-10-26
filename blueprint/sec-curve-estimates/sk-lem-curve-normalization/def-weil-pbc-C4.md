@@ -3,7 +3,7 @@ id = "def-weil-pbc-C4"
 kind = "definition"
 title = "Assertion (C4): finiteness for a coefficient prime to the characteristic"
 lean = ["AlgebraicGeometry.IsCurve.FiniteOfInvertibleOrder"]
-order = 1469
+order = 1448
 uses = ["def-weil-pbc-constructible-torsion", "def-weil-pbc-curve-setting", "def-weil-pbc-primary-torsion"]
 +++
 For every curve coefficient pair [def-weil-pbc-curve-setting] $(C,F)$ with $F$

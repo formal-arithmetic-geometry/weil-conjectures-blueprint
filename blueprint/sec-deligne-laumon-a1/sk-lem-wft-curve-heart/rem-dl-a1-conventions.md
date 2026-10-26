@@ -2,7 +2,7 @@
 id = "rem-dl-a1-conventions"
 kind = "definition"
 title = "Affine-line and weight conventions"
-order = 3967
+order = 3975
 uses = ["def-weil-frobenius-detailed", "def-weil-punctual-weights", "def-wf-middle-extension", "def-wf-tate-twist", "sk-lem-coefficient-heart", "sk-def-sf-weil-complexes"]
 lean = ["AlgebraicGeometry.WeilSheaf.IsGeometricallyConstant", "AlgebraicGeometry.WeilSheaf.IsUnramifiedAtInfinity", "AlgebraicGeometry.WeilSheaf.IsIrreducibleLisse"]
 +++

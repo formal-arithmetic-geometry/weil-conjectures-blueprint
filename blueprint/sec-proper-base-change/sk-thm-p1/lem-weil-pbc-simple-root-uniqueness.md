@@ -3,7 +3,7 @@ id = "lem-weil-pbc-simple-root-uniqueness"
 kind = "lemma"
 title = "A simple root in a local ring is unique in its residue class (Stacks 06RR)"
 lean = ["IsLocalRing.eq_of_eval_eq_zero_of_not_isUnit_sub"]
-order = 1923
+order = 1902
 tags = ["mathlib", "stacks-06RR"]
 +++
 Let $(R,\mathfrak m)$ be a local ring, $f\in R[T ]$ with derivative $f'$, and $a,b\in R$ with $f(a)=f(b)=0$, $a-b\in\mathfrak m$ and $f'(a)\notin\mathfrak m$. Then $a=b$.

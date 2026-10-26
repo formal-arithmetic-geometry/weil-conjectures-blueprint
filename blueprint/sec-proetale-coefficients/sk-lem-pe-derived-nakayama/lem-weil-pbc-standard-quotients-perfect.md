@@ -3,7 +3,7 @@ id = "lem-weil-pbc-standard-quotients-perfect"
 kind = "lemma"
 title = "Perfectness of the standard quotients"
 lean = ["DerivedCategory.quotPowShortComplex_shortExact"]
-order = 1213
+order = 1179
 +++
 Let $R$ be a commutative ring, $\varpi\in R$ a nonzerodivisor and $n\geq1$.
 The sequence of $R$-modules

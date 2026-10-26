@@ -3,7 +3,7 @@ id = "def-sbc-normal-dominant-galois"
 kind = "definition"
 title = "Integral, normal, dominant, Galois covers, and geometrical connectedness"
 lean = ["AlgebraicGeometry.IsIntegral", "AlgebraicGeometry.IsNormalScheme", "AlgebraicGeometry.IsDominant", "AlgebraicGeometry.Scheme.GaloisCoverAction", "AlgebraicGeometry.Scheme.GaloisCover", "AlgebraicGeometry.Scheme.Hom.deckGroup", "AlgebraicGeometry.GeometricallyConnected", "AlgebraicGeometry.GeometricallyReduced"]
-order = 1589
+order = 1568
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A scheme $S$ is *integral* if it is nonempty and $\mathcal O_S(U)$ is an integral domain for every nonempty open

@@ -2,7 +2,7 @@
 id = "det-cor-coefficient-heart-ii-triangulated"
 kind = "lemma"
 title = "Bounded constructible complexes with field coefficients form a triangulated subcategory"
-order = 2151
+order = 2130
 uses = ["det-lem-coefficient-heart-closure", "def-sfb-bounded-constructible-complexes"]
 +++
 Let $X$ be a Noetherian scheme and $\Lambda=E$ or $\Qlb$. The full subcategory

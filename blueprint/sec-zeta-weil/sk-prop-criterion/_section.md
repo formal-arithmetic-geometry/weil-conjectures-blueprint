@@ -2,7 +2,7 @@
 id = "sk-prop-criterion"
 kind = "lemma"
 title = "Hankel rank and rationality"
-order = 4100
+order = 4108
 lean = ["PowerSeries.exists_normalized_fraction_iff_finiteDimensional_shiftSpan"]
 tags = ["sketch"]
 +++

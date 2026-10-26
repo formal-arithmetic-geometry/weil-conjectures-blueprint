@@ -2,7 +2,7 @@
 id = "thm-coef-rational-verdier"
 kind = "theorem"
 title = "Verdier biduality over a finite coefficient field"
-order = 3002
+order = 2984
 uses = ["def-sf-setting", "sk-thm-existence", "sk-lem-integral-models", "sk-thm-sfb-rationalization-comparison", "sk-prop-scalar-six", "sk-prop-sfb-finite-extension-compatibility", "lem-coef-integral-finite-extension", "lem-coef-integral-residue-tor", "thm-coef-integral-verdier"]
 +++
 Let $E/\Ql$ be finite, $a:X\to\operatorname{Spec}k$ the structure map, and

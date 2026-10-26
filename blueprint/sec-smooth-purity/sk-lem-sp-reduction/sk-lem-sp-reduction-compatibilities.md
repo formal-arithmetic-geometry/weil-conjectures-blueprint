@@ -2,7 +2,7 @@
 id = "det-sp-reduction-compatibilities"
 kind = "lemma"
 title = "Coefficient comparisons: units, composition and purity"
-order = 2976
+order = 2957
 uses = ["det-sp-reduction-direct-image", "det-sp-reduction-exceptional", "thm-pur-diagonal-dualizing-object"]
 +++
 In the situation of [det-sp-reduction-exceptional]:

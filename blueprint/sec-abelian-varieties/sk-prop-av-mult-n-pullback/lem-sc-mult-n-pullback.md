@@ -3,7 +3,7 @@ id = "lem-sc-mult-n-pullback"
 kind = "lemma"
 title = "Pullback of symmetric modules under multiplication by $n$"
 lean = ["AlgebraicGeometry.nonempty_iso_overPullback_npow_id"]
-order = 504
+order = 474
 uses = ["def-sc-abelian-variety", "def-sc-mult-n"]
 +++
 Let $A$ be an abelian variety

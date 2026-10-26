@@ -2,7 +2,7 @@
 id = "pur9-def-finite-reduction"
 kind = "definition"
 title = "Finite reduction"
-order = 2971
+order = 2952
 +++
 For a scheme $W$, the finite reduction
 

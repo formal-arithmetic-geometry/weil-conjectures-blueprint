@@ -3,7 +3,7 @@ id = "det-pe-classical-sheaves-unit"
 kind = "lemma"
 title = "The comparison unit is an isomorphism"
 lean = ["AlgebraicGeometry.ProEtale.isIso_comparisonAdjunction_unit", "AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar"]
-order = 996
+order = 961
 uses = ["def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-sections"]
 +++
 Let $X$ be a scheme and $\Lambda$ a ring. For every sheaf of $\Lambda$-modules

@@ -2,7 +2,7 @@
 id = "sk-def-wrp-real-definition"
 kind = "definition"
 title = "Real and realizable sheaves"
-order = 3871
+order = 3853
 uses = ["sk-d-real-weights"]
 lean = ["AlgebraicGeometry.WeilGroup.IsReal"]
 tags = ["sketch"]

@@ -3,7 +3,7 @@ id = "prop-pod-degree-of-the-pairing"
 kind = "theorem"
 title = "Degree of the pairing"
 lean = ["AlgebraicGeometry.Etale.TateOrientation.degreeZeroPairing", "AlgebraicGeometry.Etale.TateOrientation.degreewisePairing", "AlgebraicGeometry.Etale.TateOrientation.degreewisePairing_apply", "AlgebraicGeometry.Etale.TateOrientation.untwistedDegreewisePairing", "AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing", "AlgebraicGeometry.Etale.TateOrientation.untwistedPoincarePairing", "AlgebraicGeometry.Etale.TateOrientation.untwistedDegreewisePoincarePairing"]
-order = 3421
+order = 3403
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-pod-derived-poincare-pairing"]
 +++

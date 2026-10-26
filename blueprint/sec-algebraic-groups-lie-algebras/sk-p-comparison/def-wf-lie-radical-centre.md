@@ -3,7 +3,7 @@ id = "def-wf-lie-radical-centre"
 kind = "definition"
 title = "Solvable radical and centre of a Lie algebra"
 lean = ["LieAlgebra.isGreatest_radical", "LieAlgebra.mem_center_iff_forall_lie_eq_zero"]
-order = 3710
+order = 3692
 uses = ["def-wf-lie-algebra"]
 +++
 For a finite-dimensional Lie algebra $\mathfrak g$, its solvable

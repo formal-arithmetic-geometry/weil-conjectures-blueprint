@@ -2,7 +2,7 @@
 id = "lem-coef-finite-closed-shriek"
 kind = "lemma"
 title = "Finite coefficient change for closed support"
-order = 2993
+order = 2975
 uses = ["cor-weil-boundary-duality-discharge", "def-weil-open-closed-recollement", "lem-coef-finite-direct-image", "lem-exc-closed-support-triangle", "thm-fix-general-biduality"]
 +++
 For a closed immersion $i:Z\hookrightarrow X$ and

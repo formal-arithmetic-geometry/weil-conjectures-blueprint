@@ -3,7 +3,7 @@ id = "lem-wf-weil-group-exact-sequence"
 kind = "lemma"
 title = "Exactness of the Weil-group sequence"
 lean = ["MonoidHom.exact_weilGroupDeg"]
-order = 3788
+order = 3770
 uses = ["def-tw-frobenius-action", "def-wf-fundamental-representation", "def-wf-weil-group"]
 +++
 Let $X_0$ be a geometrically connected separated finite-type

@@ -3,7 +3,7 @@ id = "thm-fin-open-immersion"
 kind = "theorem"
 title = "Open-immersion direct images"
 lean = ["AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar_singleFunctor_of_isOpenImmersion", "AlgebraicGeometry.Etale.isZero_upperStar_homology_rightDerivedLowerStar_singleFunctor"]
-order = 2748
+order = 2729
 uses = ["cor-fin-deligne-open-finite-coefficients", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "sbc-def-coefficient-conventions"]
 +++
 Let $j:U\hookrightarrow X$ be an

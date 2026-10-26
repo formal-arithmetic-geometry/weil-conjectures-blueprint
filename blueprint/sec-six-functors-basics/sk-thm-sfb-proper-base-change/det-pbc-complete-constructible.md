@@ -2,7 +2,7 @@
 id = "det-pbc-complete-constructible"
 kind = "lemma"
 title = "Completed and ordinary exchange agree on constructible complexes"
-order = 2212
+order = 2192
 uses = ["det-pbc-complete-exchange-map", "det-pbc-complete-exchange-iso", "lemma-weil-pbc-completed-pullback-reduction", "prop-weil-pbc-direct-image-limits", "sk-prop-integral-criterion", "det-prop-integral-criterion-reductions", "sk-thm-pe-constructible-comparison", "sk-lem-integral-models", "det-thm-sfb-proper-base-change-integral", "sk-def-sfb-base-change-morphism"]
 +++
 In the cartesian square of [det-pbc-complete-exchange-map], let $p\colon X\to Y$

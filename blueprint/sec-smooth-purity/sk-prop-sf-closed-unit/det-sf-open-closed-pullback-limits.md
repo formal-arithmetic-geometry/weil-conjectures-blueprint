@@ -2,7 +2,7 @@
 id = "det-sf-open-closed-pullback-limits"
 kind = "lemma"
 title = "Closed inverse image preserves limits"
-order = 3226
+order = 3208
 uses = ["def-exc-closed-site-lift", "lem-exc-closed-site-adjunction", "lem-exc-closed-inverse-image-formula", "lem-exc-closed-localization"]
 +++
 Let $X$ be quasi-compact and quasi-separated, $i:Z\hookrightarrow X$ a

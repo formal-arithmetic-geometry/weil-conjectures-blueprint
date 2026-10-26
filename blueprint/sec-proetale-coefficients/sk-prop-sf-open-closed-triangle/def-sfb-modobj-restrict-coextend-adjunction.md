@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-restrict-coextend-adjunction"
 kind = "definition"
 title = "Restriction of scalars is left adjoint to coextension"
-order = 1150
+order = 1116
 uses = ["def-sfb-modobj-coextension", "def-sfb-modobj-restriction"]
 lean = ["CategoryTheory.Mod.restrictCoextendAdjunction"]
 +++

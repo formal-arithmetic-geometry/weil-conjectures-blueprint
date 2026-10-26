@@ -2,7 +2,7 @@
 id = "det-sp-constant-family-conservative"
 kind = "lemma"
 title = "Direct image is conservative on finite support"
-order = 3568
+order = 3550
 +++
 Let $q\colon\bar Y\to B$ be a morphism of separated finite-type $k$-schemes, let $T\subset\bar Y$
 be a closed subset finite over $B$, and let $A$ be a finite commutative ring annihilated by a power

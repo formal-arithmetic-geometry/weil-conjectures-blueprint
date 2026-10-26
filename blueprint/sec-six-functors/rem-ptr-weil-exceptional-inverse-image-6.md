@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-exceptional-inverse-image-6"
 kind = "remark"
 title = "Pointer to the properties of the exceptional inverse image"
-order = 3415
+order = 3397
 uses = ["def-weil-exceptional-inverse-image"]
 +++
 In the notation of [def-weil-exceptional-inverse-image], the preservation

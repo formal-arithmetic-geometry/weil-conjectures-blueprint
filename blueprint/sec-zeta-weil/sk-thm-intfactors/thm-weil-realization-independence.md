@@ -3,7 +3,7 @@ id = "thm-weil-realization-independence"
 kind = "theorem"
 title = "Realization-independent integral factors"
 lean = ["AlgebraicGeometry.Scheme.realization_independence"]
-order = 4138
+order = 4146
 uses = ["cor-trf-point-counting", "def-weil-algebraic-closure-q", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-hankel-matrix", "def-weil-integral-frobenius-factor", "def-weil-normalized-integral-fraction", "def-weil-numbers", "def-weil-ordinary-reciprocal-roots", "def-weil-parity-products", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "lem-embedding-extension", "lem-zl-log-det-identity", "prop-euler-product", "prop-galois-weight-strata-identification", "prop-galois-weight-strata-integrality", "prop-weight-purity-roots", "prop-weight-separation", "prop-weil-rationality-criterion", "prop-weil-reciprocal-roots-eigenvalues", "prop-weil-zeta-normalized-presentation", "thm-weil-deligne-purity", "thm-zl-lefschetz-weil-identity"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put

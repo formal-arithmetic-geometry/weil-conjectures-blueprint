@@ -2,7 +2,7 @@
 id = "sk-prop-pe-condensed-point"
 kind = "proposition"
 title = "The pro-étale geometric point"
-order = 1060
+order = 1026
 uses = ["sk-prop-pe-affine-basis", "sk-prop-pe-comparison-morphism"]
 tags = ["sketch"]
 +++

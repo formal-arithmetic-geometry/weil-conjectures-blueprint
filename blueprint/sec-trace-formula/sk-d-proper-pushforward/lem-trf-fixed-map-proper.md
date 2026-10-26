@@ -2,8 +2,8 @@
 id = "lem-trf-fixed-map-proper"
 kind = "lemma"
 title = "The induced map of fixed schemes is proper"
-lean = ["AlgebraicGeometry.ProEtale.ProperPushforwardDiagram.fixMapFactor", "AlgebraicGeometry.ProEtale.ProperPushforwardDiagram.fixMap_factorization_and_isProper"]
-order = 3487
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.fixMapFactor", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.fixMapFactor_snd", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.isPullback_fixMapFactor", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.isClosedImmersion_fixMapFactor", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.isProper_fixMap", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.ProperPushforwardDiagram.isProper_prodMap"]
+order = 3469
 uses = ["def-trf-borel-moore-pushforward", "def-trf-coefficient-pushforward", "def-trf-fixed-scheme", "def-trf-trace-class", "def-weil-scheme-morphism-properties", "lem-kun-proper-stability", "lem-weil-pbc-closed-immersion-proper"]
 +++
 Let $(f,g):(C,c)\to(D,b)$ be a proper pushforward diagram of

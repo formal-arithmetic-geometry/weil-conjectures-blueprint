@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The fibre degree of a finite locally free morphism is locally constant"
 uses = ["def-pc-finite-locally-free"]
 lean = ["AlgebraicGeometry.finiteLocallyFree_fiberDimension_isLocallyConstant"]
-order = 1783
+order = 1762
 +++
 Let $f:Y\to X$ be a finite locally free morphism of schemes [def-pc-finite-locally-free], i.e. finite, flat and locally of finite presentation. For $x\in X$ with residue field $\kappa(x)$ let $Y_x=Y\times_X\operatorname{Spec}\kappa(x)$ be the fibre and
 $$\delta_f(x)=\dim_{\kappa(x)}\Gamma(Y_x,\mathcal O_{Y_x}).$$

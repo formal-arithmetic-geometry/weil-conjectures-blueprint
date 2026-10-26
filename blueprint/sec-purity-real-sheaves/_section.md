@@ -2,8 +2,8 @@
 id = "sec-purity-real-sheaves"
 kind = "section"
 title = "Purity of Real Sheaves on Curves"
-order = 3779
-uses = ["sec-abelian-varieties", "sec-algebraic-groups-lie-algebras", "sec-curve-estimates", "sec-nagata-compactification", "sec-picard-framework", "sec-poincare-duality", "sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula", "sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-av-final", "sk-lem-curve-normalization", "sk-prop-curve-affine-kummer", "sk-thm-br", "sk-thm-curveestimate"]
+order = 3761
+uses = ["sec-abelian-varieties", "sec-algebraic-groups-lie-algebras", "sec-curve-estimates", "sec-nagata-compactification", "sec-picard-framework", "sec-poincare-duality", "sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula", "sk-def-picard-pic", "sk-thm-picard-main", "sk-prop-av-tate-rank", "sk-lem-curve-normalization", "sk-prop-curve-affine-kummer", "sk-thm-br", "sk-thm-curveestimate"]
 +++
 **Content.** For a smooth geometrically connected curve $C_0/\mathbf F_q$ and
 an $\iota$-real lisse Weil $\overline{\mathbf Q}_\ell$-sheaf $\mathcal F$

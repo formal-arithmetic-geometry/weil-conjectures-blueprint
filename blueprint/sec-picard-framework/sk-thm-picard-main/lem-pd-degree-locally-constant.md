@@ -3,7 +3,7 @@ id = "lem-pd-degree-locally-constant"
 kind = "lemma"
 title = "The fibrewise degree is locally constant for flat families, and is a base-change invariant"
 lean = ["AlgebraicGeometry.picardFibreDegree_eq_picardPresheafDegree", "AlgebraicGeometry.picardPresheafDegree_map", "AlgebraicGeometry.isLocallyConstant_picardPresheafDegree", "AlgebraicGeometry.picardPresheafDegree_mul_map_snd"]
-order = 863
+order = 828
 uses = ["def-pc-base-change", "def-pc-degree-line-bundle", "def-pc-euler-characteristic", "def-pd-fibrewise-degree", "def-sc-invertible-module", "lem-pc-degree-base-change", "lem-pc-rf-perfect-base-change"]
 +++
 Let $f:X\to S$ be a proper morphism of schemes which is locally of finite

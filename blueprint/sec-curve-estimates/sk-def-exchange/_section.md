@@ -2,7 +2,7 @@
 id = "sk-def-exchange"
 kind = "definition"
 title = "Derived exchange"
-order = 1316
+order = 1287
 lean = ["AlgebraicGeometry.Etale.baseChange", "AlgebraicGeometry.Etale.squareUpperStarIso", "AlgebraicGeometry.Etale.pullbackSquareComparison", "AlgebraicGeometry.Etale.baseChangeMap", "AlgebraicGeometry.Etale.baseChangeMap_naturality", "AlgebraicGeometry.Etale.baseChangeMap_app_pullSection", "AlgebraicGeometry.Etale.derivedUpperStarLowerStarAdjunctionPlus", "AlgebraicGeometry.Etale.baseChange_naturality", "AlgebraicGeometry.Etale.baseChange_eq_derivedBaseChangeMapPlus", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_eq_termwise"]
 uses = ["sk-def-conv", "sk-def-pbc-conventions"]
 tags = ["sketch"]

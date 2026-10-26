@@ -2,7 +2,7 @@
 id = "det-def-sfb-base-change-morphism-comparison"
 kind = "definition"
 title = "The pullback comparison of a commutative square"
-order = 2587
+order = 2568
 uses = ["def-sfb-dc-upper-star", "def-sfb-dc-upper-star-comp", "sk-def-sfb-dc-setting"]
 +++
 Work in the setting of [sk-def-sfb-dc-setting] with a commutative condensed ring $\Lambda$, and

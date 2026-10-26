@@ -3,7 +3,7 @@ id = "def-wf-lie-algebra"
 kind = "definition"
 title = "Lie algebras, ideals, solvability and Lie representations"
 lean = ["LieAlgebra.isSolvable_iff_exists_derivedSeries_eq_bot"]
-order = 3691
+order = 3673
 +++
 Let $k$ be a field. A *Lie algebra* over $k$ is a $k$-vector space $L$
 with a bilinear map $[\,\cdot,\cdot\,]:L\times L\to L$ (the *bracket*)

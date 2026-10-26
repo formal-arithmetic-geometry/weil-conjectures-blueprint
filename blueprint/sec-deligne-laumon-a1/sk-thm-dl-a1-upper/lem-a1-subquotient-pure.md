@@ -3,7 +3,7 @@ id = "lem-a1-subquotient-pure"
 kind = "lemma"
 title = "Irreducible lisse subquotients of a pure lisse sheaf are pure of the same weight"
 lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.of_subquotient"]
-order = 4019
+order = 4027
 uses = ["sk-lem-coefficient-heart", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes", "lem-a1-spectrum-exact-sequence"]
 +++
 Let $X_0$ be a separated

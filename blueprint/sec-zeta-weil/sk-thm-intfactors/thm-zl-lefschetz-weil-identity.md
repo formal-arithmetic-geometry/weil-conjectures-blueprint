@@ -3,7 +3,7 @@ id = "thm-zl-lefschetz-weil-identity"
 kind = "theorem"
 title = "Trace-to-determinant identity"
 lean = ["AlgebraicGeometry.Scheme.map_zetaSeries_mul_evenFrobeniusProduct"]
-order = 4122
+order = 4130
 uses = ["cor-trf-point-counting", "det-def-sfb-pulled-back-coefficients", "sk-def-sf-weil-complexes", "sk-prop-sfb-finite-extension-compatibility", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "lem-zl-log-det-identity"]
 +++
 Fix the finite-field datum

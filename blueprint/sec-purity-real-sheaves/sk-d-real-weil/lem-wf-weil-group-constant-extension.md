@@ -3,7 +3,7 @@ id = "lem-wf-weil-group-constant-extension"
 kind = "lemma"
 title = "Weil group after a finite constant-field extension"
 lean = ["AlgebraicGeometry.WeilGroup.constantExtensionMap", "AlgebraicGeometry.WeilGroup.constantExtension", "AlgebraicGeometry.WeilGroup.exists_constantExtensionMap_eq_pow", "AlgebraicGeometry.Scheme.FiniteEtale.mem_weilGroup_constantExtension_iff", "AlgebraicGeometry.Scheme.FiniteEtale.dvd_of_mem_weilGroup_constantExtension", "AlgebraicGeometry.Scheme.FiniteEtale.mem_range_of_mem_weilGroup_constantExtension"]
-order = 3791
+order = 3773
 uses = ["def-tw-frobenius-action", "def-weil-finite-field-fiber", "def-weil-pbc-scheme-conventions", "def-wf-weil-group", "lem-wf-weil-group-exact-sequence"]
 +++
 Let $X_0$ be a

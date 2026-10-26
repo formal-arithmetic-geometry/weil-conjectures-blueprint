@@ -2,7 +2,7 @@
 id = "sk-prop-sfb-cartesian-coefficients"
 kind = "lemma"
 title = "Inverse image of the coefficient sheaves"
-order = 1248
+order = 1217
 uses = ["sk-prop-sfb-qlbar-colimit-x", "sk-def-sp-tate-twist"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom", "AlgebraicGeometry.ProEtale.condensedPushforwardHom_id", "AlgebraicGeometry.ProEtale.condensedPushforwardHom_comp"]
 tags = ["sketch"]

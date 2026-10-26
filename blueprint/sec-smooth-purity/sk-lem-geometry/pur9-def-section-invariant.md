@@ -2,7 +2,7 @@
 id = "pur9-def-section-invariant"
 kind = "definition"
 title = "Section invariant"
-order = 3255
+order = 3237
 uses = ["det-sp-dualizing-complex", "sk-def-purity-conv", "det-def-sf-operations", "sk-def-smooth"]
 +++
 Let $g:V\to B$ be a smooth (in the sense of §[sk-def-smooth]) separated morphism of separated $k$-schemes of finite type, and $s:B\to V$ a section. Under Input “Finite-coefficient proper-adjoint input” (`pur713-input-proper-adjoint`, in [det-def-sf-operations]), the section invariant is

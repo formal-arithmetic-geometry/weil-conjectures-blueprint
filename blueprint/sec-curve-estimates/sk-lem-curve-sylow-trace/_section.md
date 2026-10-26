@@ -2,9 +2,9 @@
 id = "sk-lem-curve-sylow-trace"
 kind = "lemma"
 title = "Reduction to a unipotent local system"
-order = 1523
+order = 1502
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.exists_finite_etale_reduction"]
-uses = ["sk-def-curve", "sk-prop-pe-finite-local-systems"]
+uses = ["sk-prop-pe-finite-local-systems"]
 tags = ["sketch"]
 +++
 Let $r$ be a prime, let $U$ be an irreducible scheme, and let $G$ be a

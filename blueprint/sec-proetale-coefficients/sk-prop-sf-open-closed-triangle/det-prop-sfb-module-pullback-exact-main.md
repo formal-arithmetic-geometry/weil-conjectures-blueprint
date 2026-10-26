@@ -3,7 +3,7 @@ id = "det-prop-sfb-module-pullback-exact-main"
 kind = "proposition"
 title = "Exactness of $f^*$ on module objects"
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.upperStar_additive", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_upperStar", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteColimits_upperStar", "AlgebraicGeometry.ProEtale.CondensedRing.preservesHomology_upperStar", "CategoryTheory.Functor.preservesFiniteLimits_mapMod", "CategoryTheory.Functor.preservesFiniteColimits_mapMod", "CategoryTheory.Mod.extendScalarsIsoComapInv"]
-order = 1202
+order = 1168
 uses = ["det-prop-sfb-module-pullback-exact-lifted", "def-sfb-module-upper-star", "def-sfb-modobj-transport", "def-sfb-modobj-extension-along-iso", "lem-sfb-alpha-iso", "lem-sfb-finite-upper-star-exact"]
 +++
 Let $\Lambda$ be a commutative condensed ring and $f\colon X\to Y$ any morphism of schemes. The

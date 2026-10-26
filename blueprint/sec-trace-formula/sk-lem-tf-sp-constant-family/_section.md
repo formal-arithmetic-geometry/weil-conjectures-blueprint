@@ -2,7 +2,7 @@
 id = "sk-lem-tf-sp-constant-family"
 kind = "lemma"
 title = "Nearby cycles of a constant family"
-order = 3567
+order = 3549
 uses = ["sk-thm-pe-constructible-comparison"]
 tags = ["sketch"]
 +++

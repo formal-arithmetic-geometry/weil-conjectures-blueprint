@@ -3,7 +3,7 @@ id = "det-pe-continuous-cohomology-milnor"
 kind = "corollary"
 title = "The Milnor sequence for continuous cohomology"
 lean = ["DerivedCategory.shortExact_milnor_of_isHomotopyLimit", "CategoryTheory.Pretriangulated.IsHomotopyLimit.bijective_milnorMap"]
-order = 1089
+order = 1055
 uses = ["det-pe-continuous-cohomology-limit", "det-pe-milnor-sequence"]
 +++
 In the situation of [det-pe-continuous-cohomology-limit], for every $q$ there is

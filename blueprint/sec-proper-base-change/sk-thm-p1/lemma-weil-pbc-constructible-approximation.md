@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-constructible-approximation"
 kind = "lemma"
 title = "Constructible approximation for effacement"
 lean = ["AlgebraicGeometry.Etale.exists_isConstructibleSheaf_hom_of_henselianRing"]
-order = 1605
+order = 1584
 uses = ["def-weil-pbc-constructible-complexes"]
 +++
 Let $\Lambda$ be a finite ring, let $(A,I)$ be a henselian pair with

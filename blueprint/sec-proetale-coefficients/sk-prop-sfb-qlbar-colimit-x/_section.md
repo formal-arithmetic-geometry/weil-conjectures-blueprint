@@ -2,7 +2,7 @@
 id = "sk-prop-sfb-qlbar-colimit-x"
 kind = "lemma"
 title = "Comparison with completed coefficients"
-order = 1216
+order = 1182
 uses = ["sk-prop-sf-open-closed-triangle", "sk-prop-pe-condensed-point"]
 lean = ["AlgebraicGeometry.ProEtale.padicSubfieldRingObj", "AlgebraicGeometry.ProEtale.padicAlgClRingObj", "AlgebraicGeometry.ProEtale.padicAlgClRingObjCocone", "AlgebraicGeometry.ProEtale.isColimitPadicAlgClRingObjCocone"]
 tags = ["sketch"]

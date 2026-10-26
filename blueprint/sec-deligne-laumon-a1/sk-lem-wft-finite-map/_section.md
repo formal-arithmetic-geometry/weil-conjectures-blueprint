@@ -2,8 +2,8 @@
 id = "sk-lem-wft-finite-map"
 kind = "lemma"
 title = "A finite generically étale map to the line"
-order = 4028
-uses = ["sk-prop-av-pqf-finite", "sk-thm-picard-rr", "sk-thm-sf-package"]
+order = 4036
+uses = ["sk-prop-av-isogeny", "sk-thm-picard-rr", "sk-thm-sf-package"]
 tags = ["sketch"]
 +++
 Let $C_0$ be a smooth geometrically connected affine curve. There

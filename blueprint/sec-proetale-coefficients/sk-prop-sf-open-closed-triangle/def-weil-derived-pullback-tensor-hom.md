@@ -2,7 +2,7 @@
 id = "def-weil-derived-pullback-tensor-hom"
 kind = "definition"
 title = "Derived pullback, tensor product, and internal Hom"
-order = 1203
+order = 1169
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.upperStar", "CategoryTheory.Functor.leftDerivedFunctor", "AlgebraicGeometry.ProEtale.CondensedRing.leftDerivedUpperStarIsoMapDerivedCategory", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensor", "AlgebraicGeometry.ProEtale.CondensedRing.derivedHom", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensorHomAdjunction₂"]
 uses = ["def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-module-pushforward-pullback", "det-prop-sfb-module-pullback-exact-main", "det-def-sfb-derived-tensor-hom"]
 +++

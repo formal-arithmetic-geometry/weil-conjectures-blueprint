@@ -2,7 +2,7 @@
 id = "def-weil-full-cohomological-dimension"
 kind = "definition"
 title = "Full cohomological dimension"
-order = 2315
+order = 2295
 lean = ["AlgebraicGeometry.ProEtale.HasUniformCohomologicalDimensionLE"]
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++

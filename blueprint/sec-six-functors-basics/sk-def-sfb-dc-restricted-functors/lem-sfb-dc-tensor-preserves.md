@@ -2,7 +2,7 @@
 id = "lem-sfb-dc-tensor-preserves"
 kind = "lemma"
 title = "$\\otimes^{\\mathrm L}$ preserves bounded constructible complexes ($\\ell$-adic $\\Lambda$)"
-order = 2633
+order = 2614
 uses = ["det-def-sfb-bounded-constructible", "det-def-sfb-condensed-ring", "sk-def-sfb-dc-setting", "det-def-sfb-derived-tensor-hom", "det-def-sfb-qlbar-condensed"]
 +++
 Let $\Lambda$ be one of $\underline{\cO}_E$, $\underline E$ ($E/\mathbf Q_\ell$ finite;

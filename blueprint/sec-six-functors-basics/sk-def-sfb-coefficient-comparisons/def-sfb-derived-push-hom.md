@@ -2,7 +2,7 @@
 id = "def-sfb-derived-push-hom"
 kind = "definition"
 title = "(Push)"
-order = 2616
+order = 2597
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-pushpull", "det-def-sfb-derived-extension-of-scalars", "def-sfb-mate-push-hom", "def-sfb-derived-comap-lower-star-iso"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom"]
 +++

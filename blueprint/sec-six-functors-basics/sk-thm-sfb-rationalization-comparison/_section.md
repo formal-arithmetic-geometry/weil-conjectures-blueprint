@@ -2,7 +2,7 @@
 id = "sk-thm-sfb-rationalization-comparison"
 kind = "proposition"
 title = "Rationalization"
-order = 2193
+order = 2172
 uses = ["sk-prop-sfb-module-derived-factorization", "sk-prop-sf-open-closed-triangle", "sk-prop-sfb-qlbar-colimit-x", "sk-lem-integral-models"]
 lean = ["AlgebraicGeometry.ProEtale.padicIntegersRingObjToContinuousMapRingObj", "AlgebraicGeometry.ProEtale.padicIntegersToPadicSubfield", "AlgebraicGeometry.ProEtale.boundedConstructible_derivedExtendScalars_obj", "AlgebraicGeometry.ProEtale.boundedConstructibleExtendScalars", "AlgebraicGeometry.ProEtale.boundedConstructibleExtendScalarsCompatibility", "AlgebraicGeometry.ProEtale.isLocalization_boundedConstructibleExtendScalars", "AlgebraicGeometry.ProEtale.rationalizationEquivalence", "AlgebraicGeometry.ProEtale.rationalizationQCompEquivalenceIso", "CategoryTheory.Rationalization.tensorHomEquiv"]
 tags = ["sketch"]

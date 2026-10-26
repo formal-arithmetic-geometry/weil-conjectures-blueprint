@@ -3,7 +3,7 @@ id = "det-pe-stonean-projective"
 kind = "lemma"
 title = "Gleason: extremally disconnected equals projective"
 lean = ["CompactT2.projective_iff_extremallyDisconnected", "CompactT2.Projective", "ExtremallyDisconnected", "CompHaus.Gleason"]
-order = 930
+order = 895
 +++
 Let $S$ be a compact Hausdorff space. The following are equivalent.
 

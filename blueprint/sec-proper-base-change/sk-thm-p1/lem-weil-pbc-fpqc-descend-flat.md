@@ -4,6 +4,6 @@ kind = "lemma"
 title = "Being flat descends along fpqc coverings (Stacks 02L2)"
 uses = ["def-pc-scheme"]
 lean = ["AlgebraicGeometry.flat_of_fpqc_cover"]
-order = 1812
+order = 1791
 +++
 Let $f:X\to S$ be a morphism of schemes [def-pc-scheme] and let $\{g_i:S_i\to S\}_{i\in I}$ be an fpqc covering of $S$. For $i\in I$ let $f_i:X\times_SS_i\to S_i$ be the base change of $f$ along $g_i$, the second projection of the fibre product. If $f_i$ is flat for every $i\in I$, then $f$ is flat.

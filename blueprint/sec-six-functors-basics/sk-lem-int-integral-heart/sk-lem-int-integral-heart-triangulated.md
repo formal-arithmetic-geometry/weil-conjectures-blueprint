@@ -2,8 +2,8 @@
 id = "det-lem-int-integral-heart-triangulated"
 kind = "lemma"
 title = "The integral constructible category and its heart"
-order = 2456
-uses = ["det-lem-int-integral-heart-local-model", "sk-def-sfb-constructible"]
+order = 2436
+uses = ["det-lem-int-integral-heart-local-model", "sk-def-sfb-constructible", "sk-prop-integral-criterion"]
 +++
 1. $\Dbc(X,\mathcal O_E)$ is a triangulated subcategory of
    $D(X_{\mathrm{proét}},\mathcal O_E)$ whose objects are bounded, stable under

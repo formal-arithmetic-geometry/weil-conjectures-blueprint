@@ -2,8 +2,7 @@
 id = "lem-trf-global-operator-perfect"
 kind = "lemma"
 title = "The global operator is an endomorphism of a perfect complex"
-lean = ["AlgebraicGeometry.ProEtale.Correspondence.ctf_globalOperator"]
-order = 3643
+order = 3625
 uses = ["def-compact-support-direct-image-detailed", "def-trf-admissibility", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-global-operator", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "prop-trf-compact-support-perfectness"]
 +++
 Fix the coefficient

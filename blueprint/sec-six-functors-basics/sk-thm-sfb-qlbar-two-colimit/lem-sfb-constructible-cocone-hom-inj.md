@@ -2,7 +2,7 @@
 id = "lem-sfb-constructible-cocone-hom-inj"
 kind = "lemma"
 title = "(Hom-inj) for the constructible cocone"
-order = 2177
+order = 2156
 uses = ["def-sfb-constructible-cocone", "sk-def-sfb-filtered-two-colimit"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleCocone_homInj"]
 +++

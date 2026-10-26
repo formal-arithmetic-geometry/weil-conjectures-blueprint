@@ -2,7 +2,7 @@
 id = "det-sfb-coefficient-comparisons-hom"
 kind = "lemma"
 title = "Coefficient comparison for tensor product and internal Hom"
-order = 3010
+order = 2992
 uses = ["det-sfb-coefficient-comparisons-direct-image", "det-sfb-coefficient-comparisons-exceptional", "thm-coef-finite-hom"]
 +++
 For a listed map $\Lambda\to\Lambda'$ and $K,M\in\Dctf(X,\Lambda)$, the natural maps

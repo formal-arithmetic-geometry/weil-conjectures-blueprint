@@ -2,7 +2,7 @@
 id = "det-thm-picard-descent"
 kind = "theorem"
 title = "Descent"
-order = 621
+order = 567
 lean = ["AlgebraicGeometry.bijective_toDescentData_map", "AlgebraicGeometry.exists_isQuasicoherent_toDescentData_iso", "AlgebraicGeometry.isFinitePresentation_of_toDescentData_iso", "AlgebraicGeometry.isLocallyFree_of_toDescentData_iso", "AlgebraicGeometry.isFiniteLocallyFreeOfRank_of_toDescentData_iso", "AlgebraicGeometry.isInvertible_of_toDescentData_iso", "AlgebraicGeometry.isSheaf_fpqc_finiteLocallyFreeSubscheme"]
 +++
 Let $\{T_i\to T\}_{i\in I}$ be an fpqc covering.

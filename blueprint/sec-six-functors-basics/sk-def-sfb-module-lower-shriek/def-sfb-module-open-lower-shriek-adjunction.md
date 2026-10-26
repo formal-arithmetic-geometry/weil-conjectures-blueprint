@@ -2,7 +2,7 @@
 id = "def-sfb-module-open-lower-shriek-adjunction"
 kind = "definition"
 title = "The adjunction $j_!\\dashv j^*$ on module objects"
-order = 2539
+order = 2520
 uses = ["def-sfb-module-open-lower-shriek", "def-sfb-module-upper-star", "def-sfb-module-linear-open-lower-shriek", "det-def-sfb-change-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.openImmersionLowerShriekUpperStarAdjunction"]
 +++

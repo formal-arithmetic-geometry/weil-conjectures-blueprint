@@ -2,7 +2,7 @@
 id = "det-sp-tower-exceptional-bc"
 kind = "lemma"
 title = "Exceptional base change for towers and integral coefficients"
-order = 3049
+order = 3031
 uses = ["det-sp-mixed-base-change", "det-sp-tower-gluing", "det-sp-tower-shriek-levels", "det-sp-integral-adjunction-bijection"]
 +++
 In a Cartesian square as in the sketch, for a finite extension $E/\Ql$:

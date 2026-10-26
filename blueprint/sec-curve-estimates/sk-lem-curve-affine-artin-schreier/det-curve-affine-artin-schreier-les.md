@@ -3,7 +3,7 @@ id = "det-curve-affine-artin-schreier-les"
 kind = "lemma"
 title = "Artin–Schreier cohomology of an affine scheme"
 lean = ["AlgebraicGeometry.Scheme.subsingleton_sheafH_constantZMod_of_isAffine", "AlgebraicGeometry.Scheme.artinSchreierSequence_shortExact", "AlgebraicGeometry.Scheme.constantZModIsoKernelGaArtinSchreier", "AlgebraicGeometry.Scheme.subsingleton_sheafH_gaSheaf_of_isAffine"]
-order = 1461
+order = 1440
 uses = ["lem-sc-as-sequence", "lem-sc-etale-affine-qcoherent", "def-sc-etale-qcoherent-module"]
 +++
 Let $p$ be a prime and $U=\operatorname{Spec}A$ an affine scheme with $p=0$

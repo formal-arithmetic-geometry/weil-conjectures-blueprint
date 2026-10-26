@@ -3,7 +3,7 @@ id = "lem-weil-extension-by-zero-exact"
 kind = "lemma"
 title = "Exactness of extension by zero"
 lean = ["AlgebraicGeometry.ProEtale.shortExact_map_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_and_preservesFiniteColimits_openImmersionLowerShriek"]
-order = 1117
+order = 1083
 uses = ["def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-weil-extension-by-zero-adjunction"]
 +++
 Let $\mathcal A$ be a Grothendieck abelian category, for instance modules

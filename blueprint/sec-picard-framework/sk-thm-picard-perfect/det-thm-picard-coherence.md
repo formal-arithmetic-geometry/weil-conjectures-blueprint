@@ -2,7 +2,7 @@
 id = "det-thm-picard-coherence"
 kind = "theorem"
 title = "Coherence of the higher direct images"
-order = 792
+order = 751
 uses = ["lem-pc-universal-finite-free-complex"]
 lean = ["AlgebraicGeometry.Scheme.Modules.isQuasicoherent_higherDirectImage", "AlgebraicGeometry.Scheme.Modules.isFinitePresentation_higherDirectImage", "AlgebraicGeometry.Scheme.Modules.exists_isZero_higherDirectImage_restrict", "AlgebraicGeometry.Scheme.Modules.exists_isZero_higherDirectImage", "AlgebraicGeometry.exists_isIso_canonicalModuleBaseChange_of_isFlatOver", "AlgebraicGeometry.noetherian_perfect_directImage"]
 +++

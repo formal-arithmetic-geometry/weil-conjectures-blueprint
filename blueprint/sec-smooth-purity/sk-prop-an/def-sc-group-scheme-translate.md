@@ -3,7 +3,7 @@ id = "def-sc-group-scheme-translate"
 kind = "definition"
 title = "Translations and conjugation"
 lean = ["AlgebraicGeometry.GrpObj.mulRight", "AlgebraicGeometry.GrpObj.conjBy", "AlgebraicGeometry.GrpObj.translate"]
-order = 2920
+order = 2901
 uses = ["def-sc-group-scheme", "def-sc-group-scheme-subgroup"]
 +++
 Let $G$ be a group scheme over a field

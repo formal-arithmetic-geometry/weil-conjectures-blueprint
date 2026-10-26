@@ -2,7 +2,7 @@
 id = "sk-def-wrp-l2-definition"
 kind = "definition"
 title = "Growth of squared traces"
-order = 3908
+order = 3892
 uses = ["sk-d-real-weil"]
 tags = ["sketch"]
 +++

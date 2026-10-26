@@ -2,7 +2,7 @@
 id = "def-pc-zariski-sheaf-property"
 kind = "definition"
 title = "Zariski sheaf property of a functor"
-order = 853
+order = 818
 lean = ["CategoryTheory.Presheaf.IsSheaf", "AlgebraicGeometry.Scheme.zariskiTopology", "CategoryTheory.GrothendieckTopology.over"]
 uses = ["def-pc-scheme"]
 +++

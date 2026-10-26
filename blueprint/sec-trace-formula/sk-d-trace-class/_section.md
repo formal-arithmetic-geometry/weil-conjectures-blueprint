@@ -2,9 +2,8 @@
 id = "sk-d-trace-class"
 kind = "definition"
 title = "Trace class and local terms"
-order = 3473
+order = 3455
 uses = ["sk-d-corr", "sk-d-pairing", "sk-thm-sf-kunneth-verdier"]
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.traceClass"]
 tags = ["sketch"]
 +++
 Recall that a correspondence on $X$ is a morphism of $k$-schemes

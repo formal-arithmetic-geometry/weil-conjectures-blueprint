@@ -2,8 +2,8 @@
 id = "sk-prop-sp-integral-adjunction"
 kind = "proposition"
 title = "The normalized model of the integral adjunction"
-order = 3023
-uses = ["sk-prop-sp-tower-geometric", "sk-lem-sp-tower", "sk-prop-sf-existence", "sk-prop-sp-unique-adjoint"]
+order = 3005
+uses = ["sk-prop-sp-tower-geometric", "sk-lem-sp-tower", "sk-prop-sf-existence", "sk-prop-sp-unique-adjoint", "sk-lem-int-tensor", "sk-prop-sp-integral-towers"]
 tags = ["sketch"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$ and $E/\Ql$ finite.

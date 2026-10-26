@@ -2,7 +2,7 @@
 id = "thm-pc-criterion"
 kind = "theorem"
 title = "The representability criterion"
-order = 856
+order = 821
 uses = ["def-pc-cover", "def-pc-open-subfunctor", "def-pc-representable-functor", "def-pc-subfunctor", "def-pc-zariski-sheaf-property"]
 lean = ["AlgebraicGeometry.isRepresentable_of_representable_open_subfunctor"]
 +++

@@ -3,7 +3,7 @@ id = "cor-galois-open-subgroups"
 kind = "theorem"
 title = "Open subgroups and finite etale covers"
 lean = ["AlgebraicGeometry.Scheme.FiniteEtale.galois_openSubgroups", "AlgebraicGeometry.Scheme.FiniteEtale.exists_iso_fiber_map_eq_iff"]
-order = 2792
+order = 2773
 tags = ["latex:corollary"]
 uses = ["def-galois-fibre-functor", "def-galois-object", "lem-galois-transitive", "thm-galois-fundamental"]
 +++

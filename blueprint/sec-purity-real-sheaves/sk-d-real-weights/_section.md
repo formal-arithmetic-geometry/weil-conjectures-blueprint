@@ -2,7 +2,7 @@
 id = "sk-d-real-weights"
 kind = "definition"
 title = "Weights"
-order = 3795
+order = 3777
 uses = ["sk-d-real-weil"]
 lean = ["AlgebraicGeometry.WeilGroup.IsPunctuallyPure", "AlgebraicGeometry.WeilGroup.frobeniusWeight", "AlgebraicGeometry.WeilGroup.localPolynomial", "AlgebraicGeometry.WeilGroup.HasWeightsAtMost", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost"]
 tags = ["sketch"]

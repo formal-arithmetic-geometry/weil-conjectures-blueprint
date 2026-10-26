@@ -3,7 +3,7 @@ id = "det-pe-replete-epimorphism"
 kind = "lemma"
 title = "The pro-étale topos is replete"
 lean = ["AlgebraicGeometry.Scheme.isReplete_proEtale"]
-order = 977
+order = 942
 uses = ["det-pe-replete-on-contractible", "det-pe-replete-definition", "det-pe-wcb-cover", "det-pe-weak-contractible-equivalences"]
 +++
 For every scheme $X$ and every inverse sequence $(F_n,t_n)$ of sheaves of sets on

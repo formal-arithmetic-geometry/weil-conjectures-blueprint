@@ -3,7 +3,7 @@ id = "def-weil-pbc-symmetric-product-morphism"
 kind = "definition"
 title = "Symmetric-product coordinate morphism"
 lean = ["AlgebraicGeometry.ProjectiveSpace.symmetricProduct"]
-order = 1953
+order = 1932
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-symmetric-product-properties"]
 +++
 For $n\geq0$ and a scheme $S$, write $(\mathbf P^1_S)^n$ for the $n$-fold fibre

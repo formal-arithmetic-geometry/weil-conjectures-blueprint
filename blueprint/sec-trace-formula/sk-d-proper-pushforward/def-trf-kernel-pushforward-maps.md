@@ -2,8 +2,7 @@
 id = "def-trf-kernel-pushforward-maps"
 kind = "definition"
 title = "Kernel, evaluation and support maps of a proper pushforward diagram"
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.externalKernel", "AlgebraicGeometry.ProEtale.GeometricOperations.pushforwardTrace", "AlgebraicGeometry.ProEtale.GeometricOperations.lowerStarTensorMap", "AlgebraicGeometry.ProEtale.GeometricOperations.lowerStarVerdierDualMap", "AlgebraicGeometry.ProEtale.GeometricOperations.lowerShriekTensorUpperStarIso", "AlgebraicGeometry.ProEtale.GeometricOperations.lowerShriekKunnethIso", "AlgebraicGeometry.ProEtale.GeometricOperations.lowerStarKunnethIso", "AlgebraicGeometry.ProEtale.GeometricOperations.kernelPushforward", "AlgebraicGeometry.ProEtale.GeometricOperations.kernelClassOf", "AlgebraicGeometry.ProEtale.GeometricOperations.supportIso", "AlgebraicGeometry.ProEtale.GeometricOperations.lowerStarLowerShriekCompIso", "AlgebraicGeometry.ProEtale.GeometricOperations.lowerStarUpperShriekExchange", "AlgebraicGeometry.ProEtale.Correspondence.kernelClass", "AlgebraicGeometry.ProEtale.ProperPushforwardDiagram.prodMap", "AlgebraicGeometry.ProEtale.ProperPushforwardDiagram.lowerStarUpperShriekExchange", "AlgebraicGeometry.ProEtale.GeometricOperations.evaluationKernel"]
-order = 3488
+order = 3470
 uses = ["def-sf-kv-maps", "def-trf-coefficient-pushforward", "def-trf-dualizing-complex", "def-trf-external-product", "def-trf-trace-class-source", "fix-prop-adjunctions", "lem-trf-fixed-map-proper", "lem-trf-trace-map-from-external-duality", "prop-functor-package", "thm-sf-comp-composition", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change", "thm-trf-verdier-duality"]
 +++
 Let $(f,g):(C,c)\to(D,b)$ be a proper pushforward diagram of

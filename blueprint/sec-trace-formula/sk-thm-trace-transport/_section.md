@@ -2,9 +2,8 @@
 id = "sk-thm-trace-transport"
 kind = "theorem"
 title = "Euler-product form of the trace formula"
-order = 3552
+order = 3534
 uses = ["sk-d-setup", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-def-sf-weil-complexes", "sk-i-curve-zero", "sk-p-trace-coeff", "sk-thm-curveestimate", "sk-prop-logdet", "sk-thm-sf-ctf-stability", "sk-thm-trace-formula", "sk-thm-tf-uniform-formula", "sk-thm-nagata-compactification"]
-lean = ["AlgebraicGeometry.ProEtale.hasProd_inv_alternatingCharpolyRevProd"]
 tags = ["sketch"]
 +++
 A closed point $x\in|X_0|$ of degree $d$ over $\mathbf F_q$

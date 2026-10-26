@@ -2,8 +2,8 @@
 id = "lem-weil-pbc-cech-criterion"
 kind = "lemma"
 title = "Injectives and the Cech acyclicity criterion"
-order = 1005
-lean = ["CategoryTheory.Sheaf.ext_free_eq_zero_of_cech", "CategoryTheory.cechFree_exact_zero", "CategoryTheory.cechFree_exact_succ", "CategoryTheory.epi_cechFreeAug"]
+order = 970
+lean = ["CategoryTheory.Presheaf.exact_cechFreeAug", "CategoryTheory.Presheaf.exact_cechFreeD", "CategoryTheory.Sheaf.exactAt_cechComplex_of_injective"]
 uses = ["def-weil-pbc-cover-cech", "def-weil-pbc-etale-cohomology"]
 +++
 Let $(\mathcal C,J)$ be a site with finite fibre products, and for an object

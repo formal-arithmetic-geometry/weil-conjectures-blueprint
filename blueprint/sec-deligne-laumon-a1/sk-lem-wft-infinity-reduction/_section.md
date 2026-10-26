@@ -2,7 +2,7 @@
 id = "sk-lem-wft-infinity-reduction"
 kind = "lemma"
 title = "Constant extensions and a regular point"
-order = 4026
+order = 4034
 uses = ["sk-prop-sf-open-closed-triangle"]
 tags = ["sketch"]
 +++

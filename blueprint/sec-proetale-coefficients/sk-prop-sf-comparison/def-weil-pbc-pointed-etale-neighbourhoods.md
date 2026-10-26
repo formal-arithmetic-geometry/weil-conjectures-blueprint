@@ -3,7 +3,7 @@ id = "def-weil-pbc-pointed-etale-neighbourhoods"
 kind = "definition"
 title = "Pointed etale neighbourhood category"
 lean = ["AlgebraicGeometry.Scheme.PointedEtaleNeighborhood"]
-order = 1015
+order = 980
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++
 Let $\bar s:\operatorname{Spec}\Omega\to S$ be a geometric point

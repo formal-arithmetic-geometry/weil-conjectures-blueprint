@@ -2,7 +2,7 @@
 id = "sk-prop-pbc-p1-henselian"
 kind = "proposition"
 title = "Henselian comparison for the projective line"
-order = 1585
+order = 1564
 lean = ["AlgebraicGeometry.Etale.bijective_cohomologyMap_projectiveLine_residueField"]
 uses = ["sk-lem-pbc-p1-injective-fibre", "sk-thm-pbc-henselian-h0"]
 tags = ["sketch"]

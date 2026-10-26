@@ -2,7 +2,7 @@
 id = "sk-lem-geo-smooth-generic"
 kind = "lemma"
 title = "Smooth morphisms and locally constant sheaves"
-order = 2373
+order = 2353
 uses = ["sk-prop-cohsm"]
 tags = ["sketch"]
 +++

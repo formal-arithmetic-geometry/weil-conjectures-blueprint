@@ -3,7 +3,7 @@ id = "lem-pc-flat-complex-derived-pullback"
 kind = "lemma"
 title = "Termwise derived pullback of a bounded above flat complex"
 lean = ["AlgebraicGeometry.Scheme.Modules.isIso_derivedPullbackCounit_app", "AlgebraicGeometry.Scheme.Modules.derivedPullbackObjIsoOfFlat"]
-order = 767
+order = 726
 uses = ["def-pc-derived-pullback", "def-pc-scheme"]
 +++
 Let $g:T\to S$ be a morphism of schemes and let $E$ be a bounded above

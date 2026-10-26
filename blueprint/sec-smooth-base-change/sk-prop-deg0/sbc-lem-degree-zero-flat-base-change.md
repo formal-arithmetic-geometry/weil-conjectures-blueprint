@@ -3,7 +3,7 @@ id = "sbc-lem-degree-zero-flat-base-change"
 kind = "lemma"
 title = "Degree-zero flat base change"
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeMap_app_of_flat"]
-order = 2055
+order = 2034
 uses = ["def-sbc-normal-dominant-galois", "def-weil-pbc-direct-image", "sbc-def-base-change-square"]
 +++
 Consider a base-change square

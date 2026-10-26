@@ -2,7 +2,7 @@
 id = "det-constructible-compactness-devissage"
 kind = "lemma"
 title = "From constructible sheaves to bounded constructible complexes"
-order = 2245
+order = 2225
 uses = ["det-constructible-compactness-sheaf", "sk-cor-ambient-ind-derived", "sk-def-localizing-closure"]
 +++
 Let $\Lambda=E$ or $\Qlb$ and fix a family $(K_\lambda)$ in $\Dic(X,\Lambda)$. The full subcategory of

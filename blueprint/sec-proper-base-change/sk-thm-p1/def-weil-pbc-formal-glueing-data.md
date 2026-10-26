@@ -3,7 +3,7 @@ id = "def-weil-pbc-formal-glueing-data"
 kind = "definition"
 title = "The category of formal glueing data Glue(R -> S, f_1, ..., f_t)"
 lean = ["FormalGlueing.Data", "FormalGlueing.Hom", "FormalGlueing.swap", "FormalGlueing.compare"]
-order = 1647
+order = 1626
 +++
 Let $\varphi:R\to S$ be a homomorphism of commutative rings and $f_1,\dots,f_t\in R$. Notation: for an $R$-module $P$ and $f\in R$, $P_f$ is the localization of $P$ at $f$ and $h_f:P_f\to Q_f$, $p/f^e\mapsto h(p)/f^e$, the localization of an $R$-linear map $h:P\to Q$ (for the multiplicative set $\{1,f,f^2,\dots\}$); $R_f$ is the localized ring. For an $S$-module $P$, $P_f$ is its localization as an $R$-module, made an $S$-module by the localizations $(s\cdot)_f$ of the multiplications by the elements $s\in S$. $P\otimes_RS$ and $h\otimes_RS$ are the base changes. For an $R$-module $P$ and $f,g\in R$ two canonical $R$-linear maps are used: $\sigma^P_{f,g}:(P_f)_g\to(P_g)_f$, $(p/f^a)/g^b\mapsto(p/g^b)/f^a$, and $c^P_f:(P\otimes_RS)_f\to P_f\otimes_RS$, $(p\otimes s)/f^e\mapsto(p/f^e)\otimes s$ (an $S$-linear map); $\sigma^P_{f,g}$ is the $R$-linear map with $(p/1)/1\mapsto(p/1)/1$ and $c^P_f$ the $R$-linear map with $(p\otimes s)/1\mapsto(p/1)\otimes s$.
 

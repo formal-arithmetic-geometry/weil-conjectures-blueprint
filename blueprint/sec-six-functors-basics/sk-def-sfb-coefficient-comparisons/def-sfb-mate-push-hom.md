@@ -2,7 +2,7 @@
 id = "def-sfb-mate-push-hom"
 kind = "definition"
 title = "The mate comparison in a square of adjunctions"
-order = 2604
+order = 2585
 uses = ["def-sfb-conjugate-pull-iso"]
 lean = ["CategoryTheory.Adjunction.pushHomOfComapIso"]
 +++

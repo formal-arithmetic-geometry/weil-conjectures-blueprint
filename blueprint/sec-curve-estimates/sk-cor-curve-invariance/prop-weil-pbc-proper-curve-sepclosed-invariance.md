@@ -3,7 +3,7 @@ id = "prop-weil-pbc-proper-curve-sepclosed-invariance"
 kind = "theorem"
 title = "Proper curve invariance over separably closed fields"
 lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isSepClosed"]
-order = 1345
+order = 1316
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-curve-separably-closed-passage", "prop-weil-pbc-algebraically-closed-extension"]
 +++

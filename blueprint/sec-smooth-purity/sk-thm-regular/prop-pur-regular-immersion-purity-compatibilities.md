@@ -3,7 +3,7 @@ id = "prop-pur-regular-immersion-purity-compatibilities"
 kind = "theorem"
 title = "Compatibilities of purity for regular immersions"
 lean = ["AlgebraicGeometry.Etale.fundamentalClass_eq_cupWithSupportsTateObject_of_isPullback", "AlgebraicGeometry.Etale.restrictSupportedClass_fundamentalClass_of_flat", "AlgebraicGeometry.Etale.restrictSupportedClass_fundamentalClass_of_smooth", "AlgebraicGeometry.Etale.isIso_reductionModIdeal_map_fundamentalClassMap", "AlgebraicGeometry.Etale.supportedClassMap_fundamentalClass_reductionModIdealUnit", "AlgebraicGeometry.Etale.reductionModIdealUnit_app_comp_fundamentalClassMapModIdeal"]
-order = 3276
+order = 3258
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-frame-class", "def-pur-regular-immersion", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-frame-independence", "lem-pur-kunneth-supported", "thm-pur-diagonal-dualizing-object", "thm-pur-regular-immersion-purity"]
 +++

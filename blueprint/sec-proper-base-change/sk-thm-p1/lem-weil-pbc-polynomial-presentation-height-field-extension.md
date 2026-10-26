@@ -3,7 +3,7 @@ id = "lem-weil-pbc-polynomial-presentation-height-field-extension"
 kind = "lemma"
 title = "Height difference in a polynomial presentation after field extension"
 lean = ["AlgebraicGeometry.polynomial_presentation_height_field_extension"]
-order = 1916
+order = 1895
 +++
 Let $K/k$ be a field extension, $S$ a commutative $k$-algebra, and
 $f\colon k[x_1,\dots,x_n]\to S$ a surjective homomorphism of $k$-algebras. Then there is a

@@ -3,7 +3,7 @@ id = "lem-wf-solvable-common-eigenvector"
 kind = "lemma"
 title = "Common eigenvector for a solvable Lie algebra"
 lean = ["LieModule.exists_ne_zero_forall_lie_eq_smul_of_isSolvable"]
-order = 3715
+order = 3697
 +++
 Let a finite-dimensional solvable Lie algebra $\mathfrak r$ over
 $\Qlb$ act on a nonzero finite-dimensional vector space $M$.

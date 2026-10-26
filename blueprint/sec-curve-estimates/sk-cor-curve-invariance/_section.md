@@ -2,9 +2,9 @@
 id = "sk-cor-curve-invariance"
 kind = "corollary"
 title = "Proper curves over separably closed fields"
-order = 1343
+order = 1314
 lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isSepClosed"]
-uses = ["sk-thm-curve-package", "sk-def-curve"]
+uses = ["sk-thm-curve-package"]
 tags = ["sketch"]
 +++
 Let $k\subseteq k'$ be separably closed fields, let $C$ be proper of

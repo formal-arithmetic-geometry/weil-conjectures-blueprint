@@ -4,7 +4,7 @@ kind = "definition"
 title = "Module objects over a monoid object"
 uses = ["det-def-sfb-ring-object-monoid"]
 lean = ["CategoryTheory.ModObj", "CategoryTheory.IsModHom", "CategoryTheory.Mod", "CategoryTheory.Mod.Hom", "CategoryTheory.Mod.regular", "CategoryTheory.Mod.forget"]
-order = 1129
+order = 1095
 +++
 Let $(\mathcal C,\otimes,\mathbf 1)$ be a monoidal category with associator $\alpha$ and left
 unitor $\lambda$, and let $(\mathcal R,\mu,\eta)$ be a monoid object of $\mathcal C$

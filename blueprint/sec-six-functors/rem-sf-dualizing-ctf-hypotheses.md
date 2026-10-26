@@ -2,7 +2,7 @@
 id = "rem-sf-dualizing-ctf-hypotheses"
 kind = "remark"
 title = "Geometric duality and its coefficient comparisons"
-order = 3416
+order = 3398
 uses = ["cor-coef-integral-internal-hom", "lem-coef-finite-dualizing", "lem-weil-verdier-preservation-strata", "prop-coef-integral-dualizing", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-fix-general-biduality", "thm-sf-hom-ctf", "sk-thm-pd-verdier-duality", "sk-prop-scalar-six"]
 +++
 At finite coefficients, $\omega_{X,A}=Ra_X^!A$ is finite-Tor

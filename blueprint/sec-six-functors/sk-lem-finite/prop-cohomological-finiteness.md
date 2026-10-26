@@ -3,7 +3,7 @@ id = "prop-cohomological-finiteness"
 kind = "theorem"
 title = "Compact-support finiteness and Frobenius"
 lean = ["AlgebraicGeometry.WeilComplex.exists_subsingleton_compactlySupportedCohomology", "AlgebraicGeometry.WeilComplex.exists_subsingleton_cohomology", "AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_adicConstant", "AlgebraicGeometry.WeilSheaf.finrank_cohomology_zero_adicConstant", "AlgebraicGeometry.WeilSheaf.frobenius_cohomology_zero_adicConstant", "AlgebraicGeometry.WeilComplex.nonempty_equiv_compactlySupportedCohomology_cohomology", "AlgebraicGeometry.WeilSheaf.subsingleton_cohomology_adicConstant_of_isProper", "AlgebraicGeometry.WeilSheaf.exists_linearEquiv_cohomology_zero_adicConstant", "AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_cohomology"]
-order = 3283
+order = 3265
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "sk-lem-finite", "sk-prop-sfb-qlbar-colimit-x", "det-lem-coefficient-finite-descent-sections"]
 +++

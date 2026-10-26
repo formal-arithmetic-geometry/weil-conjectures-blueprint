@@ -4,7 +4,7 @@ kind = "definition"
 title = "The explicit two-open section short complex"
 uses = ["def-pc-scheme"]
 lean = ["AlgebraicGeometry.Etale.etaleSectionShortComplex", "AlgebraicGeometry.Etale.etaleSectionFunctor", "AlgebraicGeometry.Etale.etaleSectionMap"]
-order = 1641
+order = 1620
 +++
 Let $X$ be a scheme [def-pc-scheme], $U,V\subseteq X$ opens, and $I$ a cochain complex of abelian etale sheaves on $X$ concentrated in degrees $\ge0$. For an etale object $W$ of $X$ let $\mathrm{Sec}(I,W)$ be the complex of abelian groups obtained by evaluating $I$ at $W$ degreewise; a morphism $W'\to W$ of etale objects induces the restriction map $\mathrm{Sec}(I,W)\to\mathrm{Sec}(I,W')$, a map of complexes since restriction commutes with the differentials. The *two-open section short complex* is
 $$

@@ -3,7 +3,7 @@ id = "def-wf-iota-real"
 kind = "definition"
 title = "$\\iota$-real and $\\iota$-realizable Weil sheaves"
 lean = ["AlgebraicGeometry.WeilSheaf.IsRealizable"]
-order = 3872
+order = 3854
 uses = ["def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes", "sk-lem-coefficient-heart"]
 +++
 Let $X_0$ be a separated finite-type $k_0$-scheme, fix

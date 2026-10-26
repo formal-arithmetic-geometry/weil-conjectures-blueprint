@@ -3,7 +3,7 @@ id = "lem-wf-euler-product-middle-extension"
 kind = "theorem"
 title = "Graded Euler-product identity for a middle extension"
 lean = ["AlgebraicGeometry.WeilSheaf.coeff_prod_inv_localPolynomial_stalk_directImage"]
-order = 3900
+order = 3884
 tags = ["latex:corollary"]
 uses = ["d-real-cohom", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-wf-boundary-stalk-invariants", "prop-wf-weil-sheaf-representation-equivalence", "det-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "det-thm-tf-uniform-formula-weil", "thm-trf-l-function-euler-product"]
 +++

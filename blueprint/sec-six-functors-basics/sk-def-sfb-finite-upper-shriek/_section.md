@@ -2,34 +2,30 @@
 id = "sk-def-sfb-finite-upper-shriek"
 kind = "definition"
 title = "Exceptional pullback $Rf^!$ (finite coefficients)"
-order = 2525
-uses = ["sk-def-nagata-sketch-data", "sk-def-sfb-finite-derived-lower-shriek"]
-lean = ["AlgebraicGeometry.ProEtale.isLeftAdjoint_rightDerivedLowerStar_of_isProper", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekOfCompactification", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriek", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekOfCompactificationAdjunction", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekAdjunction", "AlgebraicGeometry.ProEtale.isLeftAdjoint_rightDerivedLowerShriek"]
+order = 2506
+uses = ["sk-def-nagata-sketch-data", "sk-def-sfb-finite-derived-lower-shriek", "sk-prop-ctf-finite-proper", "sec-proper-base-change"]
+lean = ["AlgebraicGeometry.ProEtale.rightDerivedUpperShriek", "AlgebraicGeometry.ProEtale.rightDerivedUpperShriekAdjunction"]
 tags = ["sketch"]
 +++
-Let $\mathcal A$ be a Grothendieck abelian category. For a proper morphism $g$, the derived
-pushforward $Rg_*$ of [sk-def-sfb-finite-derived-functors] on unbounded derived categories
-has a right adjoint; fix one and call it $Rg^!$.
+Let $\Lambda$ be a finite ring and let $f\colon X\to Y$ admit a compactification
+[sk-def-nagata-sketch-data], with chosen compactification
+$X\xrightarrow{i}\bar X\xrightarrow{g}Y$.
 
-Let $f\colon X\to Y$ admit a compactification [sk-def-nagata-sketch-data], with chosen
-compactification $X\xrightarrow{i}\bar X\xrightarrow{g}Y$ as in
-[sk-def-sfb-finite-derived-lower-shriek]. The *exceptional pullback* is
+*Étale site.* For proper $g$ the derived pushforward $Rg_*$ on the unbounded derived
+categories of étale sheaves of $\Lambda$-modules commutes with direct sums, so it has a right
+adjoint $Rg^!$. The étale exceptional inverse image is $f^\times:=D(i^*)\circ Rg^!$, and the
+étale $Rf_!=Rg_*\circ D(i_!)$ is left adjoint to $f^\times$.
+
+*Pro-étale site.* Here $Rg_*$ need not commute with direct sums, and the pro-étale $Rf_!$
+([sk-def-sfb-finite-derived-lower-shriek]) is in general not a left adjoint, not even on
+$D^+$; this already fails for the structure morphism of an elliptic curve. The exceptional
+pullback is instead transported from the étale site along the comparison morphism $\nu$:
 
 $$
-Rf^!:=D(i^*)\circ Rg^!\colon D(Y_{\mathrm{proét}},\mathcal A)\to D(X_{\mathrm{proét}},\mathcal A),
+Rf^!:=\nu_X^*\circ f^\times\circ R\nu_{Y,*}\colon D(Y_{\mathrm{proét}},\Lambda)\to D(X_{\mathrm{proét}},\Lambda).
 $$
 
-with $D(i^*)$ induced levelwise by the exact pullback $i^*$
-([sk-def-sfb-finite-pushforward-pullback]). The functor $Rg^!$ enters only through the
-adjunction $Rg_*\dashv Rg^!$.
-
-Assume moreover that $\mathcal A$ satisfies the monoidal hypotheses of
-[sk-def-sfb-finite-derived-functors]. Then:
-
-1. $Rf_!\dashv Rf^!$, the composite of the adjunctions $D(i_!)\dashv D(i^*)$ and
-   $Rg_*\dashv Rg^!$. In particular $Rf_!$ ([sk-def-sfb-finite-derived-lower-shriek]) is
-   a left adjoint; this is a theorem, not an assumption.
-2. Suppose that $Rg_*$ has finite cohomological amplitude. Then $Rf^!$ preserves bounded
-   below objects, so it restricts to $Rf^{!,+}\colon D^+(Y_{\mathrm{proét}},\mathcal A)\to
-   D^+(X_{\mathrm{proét}},\mathcal A)$, and the adjunction restricts to
-   $Rf_!^+\dashv Rf^{!,+}$.
+For $Y$ quasi-compact it sends bounded below objects to bounded below objects of étale origin,
+and for $K$ bounded below of étale origin and $L$ bounded below,
+$\Hom(Rf_!K,L)\simeq\Hom(K,Rf^!L)$ naturally. In particular $Rf_!\dashv Rf^!$ on the bounded
+constructible objects of finite Tor amplitude.

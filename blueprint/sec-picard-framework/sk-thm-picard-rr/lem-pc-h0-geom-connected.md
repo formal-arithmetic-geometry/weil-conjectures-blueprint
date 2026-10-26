@@ -3,7 +3,7 @@ id = "lem-pc-h0-geom-connected"
 kind = "lemma"
 title = "$H^0=k$ is equivalent to geometric connectedness"
 lean = ["AlgebraicGeometry.Scheme.globalSectionsBijective_iff_geometricallyConnected"]
-order = 728
+order = 686
 uses = ["def-pc-geometrically-irreducible", "def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-coherent-hi", "lem-pc-finite-extension-alg-closed", "lem-pc-flat-base-change-cohom"]
 +++
 Let $k$ be a field and $X$ a proper

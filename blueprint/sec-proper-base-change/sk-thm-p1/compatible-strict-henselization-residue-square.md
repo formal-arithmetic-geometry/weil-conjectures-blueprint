@@ -3,7 +3,7 @@ id = "compatible-strict-henselization-residue-square"
 kind = "lemma"
 title = "Residue maps commute for compatible strict henselizations"
 lean = ["AlgebraicGeometry.Etale.compatibleStrictHenselization_residue_square"]
-order = 1621
+order = 1600
 uses = ["compatible-strict-henselization-core-data"]
 +++
 Let $g:T\to S$, the separably closed fields $k,k'$, the algebraically closed field $\Omega$, and

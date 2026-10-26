@@ -2,9 +2,9 @@
 id = "sk-thm-sf-pf-finite"
 kind = "theorem"
 title = "Projection formula, finite coefficients"
-order = 2764
+order = 2745
 uses = ["sk-def-sf-exchanges"]
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_derivedTensor_rightDerivedLowerShriek"]
+lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_of_boundedConstructible"]
 tags = ["sketch"]
 +++
 Let $\Lambda=A_{E,n}$, let $f:X\to Y$ be separated of finite type, and let

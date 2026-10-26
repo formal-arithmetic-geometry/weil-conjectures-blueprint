@@ -2,7 +2,7 @@
 id = "det-pe-unbounded-classical-direct-image"
 kind = "proposition"
 title = "The unbounded direct-image comparison for finite coefficients"
-order = 2134
+order = 2113
 uses = ["det-pe-unbounded-classical-bounds", "det-pe-unbounded-classical-truncation", "prop-weil-pbc-comparison-direct-image", "lem-weil-pbc-basis-derived-detection"]
 +++
 Let $X,Y$ be of finite type over a finite or algebraically closed field $k$, let

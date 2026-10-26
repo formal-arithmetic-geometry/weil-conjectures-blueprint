@@ -2,7 +2,7 @@
 id = "pur456-def-preservation"
 kind = "definition"
 title = "Preservation of the finite-Tor constructible categories, finite coefficients"
-order = 2877
+order = 2858
 uses = ["pur456-def-adjoint-datum", "pur713-def-ctf"]
 +++
 The adjunction of Definition [pur456-def-adjoint-datum] preserves the finite-Tor constructible categories if

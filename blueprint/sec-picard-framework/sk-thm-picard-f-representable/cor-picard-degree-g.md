@@ -2,7 +2,7 @@
 id = "cor-picard-degree-g"
 kind = "theorem"
 title = "The degree of the dictionary"
-order = 824
+order = 787
 uses = ["def-pc-degree-line-bundle", "def-pc-euler-characteristic", "def-pc-smooth-projective-curve", "lem-pc-curves-are-sc", "lem-pc-genus-base-change"]
 tags = ["latex:corollary"]
 lean = ["AlgebraicGeometry.Scheme.degree_eq_genus"]

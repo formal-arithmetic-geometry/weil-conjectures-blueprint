@@ -2,9 +2,8 @@
 id = "sk-i-curve-zero"
 kind = "corollary"
 title = "Frobenius local vanishing"
-order = 3527
+order = 3509
 uses = ["sk-d-corr", "sk-d-curve-pieces", "sk-d-local-term", "sk-d-trace-class", "sk-p-pairing", "sk-thm-sf-package", "sk-lem-tf-curve-supported-pairing", "sk-lem-tf-curve-restriction-zero", "sk-lem-tf-fixed-points"]
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.localTerm_traceClass_eq_zero_of_isZero"]
 tags = ["sketch"]
 +++
 In the situation of [sk-lem-tf-curve-supported-pairing], for any finite commutative

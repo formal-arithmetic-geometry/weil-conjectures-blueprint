@@ -2,7 +2,7 @@
 id = "def-fourier-set"
 kind = "definition"
 title = "The coefficient setting of the Fourier transform"
-order = 3923
+order = 3931
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible"]
 uses = ["def-sf-setting", "det-def-sfb-bounded-constructible", "sk-prop-sfb-finite-extension-compatibility", "sk-prop-ctf-finite-comparison", "prop-functor-package"]
 +++

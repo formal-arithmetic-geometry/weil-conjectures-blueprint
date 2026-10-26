@@ -2,7 +2,7 @@
 id = "lem-trf-trace-class-diagonal-pairing"
 kind = "lemma"
 title = "The trace class is the diagonal supported pairing"
-order = 3478
+order = 3460
 uses = ["def-sf-kv-maps", "def-trf-admissibility", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-supported-pairing", "def-trf-trace-class", "def-trf-trace-class-source", "def-weil-derived-pullback-tensor-hom", "lem-trf-correspondence-class", "lem-trf-exceptional-internal-hom-exchange", "lem-trf-trace-map-from-external-duality", "prop-functor-package", "prop-trf-exceptional-kunneth", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change", "thm-trf-kunneth-verdier", "thm-trf-verdier-duality"]
 +++
 Fix the coefficient conventions, $A=A_{E,n}$, $s=\Spec k$, let

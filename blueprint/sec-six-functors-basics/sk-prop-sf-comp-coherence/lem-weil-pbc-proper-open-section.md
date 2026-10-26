@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proper-open-section"
 kind = "lemma"
 title = "The section of the comparison square and the open it fixes"
-order = 2276
+order = 2256
 lean = ["AlgebraicGeometry.ProperOpenDatum.section_spec"]
 uses = ["def-weil-pbc-proper-open-comparison", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-open-section-clopen", "lem-weil-pbc-proper-open-p-proper"]
 +++

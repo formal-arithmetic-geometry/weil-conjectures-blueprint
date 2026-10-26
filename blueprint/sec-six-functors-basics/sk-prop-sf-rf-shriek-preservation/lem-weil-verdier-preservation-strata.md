@@ -3,7 +3,7 @@ id = "lem-weil-verdier-preservation-strata"
 kind = "lemma"
 title = "Constructible preservation before biduality"
 lean = ["AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_verdierDual_rightDerivedLowerShriek_of_smooth", "AlgebraicGeometry.Etale.verdierDual_rightDerivedLowerShriek_of_isClosedImmersion", "AlgebraicGeometry.Etale.constructibleFiniteTor_and_torAmplitudeIn_verdierDual_of_perfectField", "AlgebraicGeometry.Etale.constructibleFiniteTor_verdierDual", "AlgebraicGeometry.Etale.torAmplitudeIn_verdierDual"]
-order = 2412
+order = 2392
 uses = ["def-weil-finite-torsion-constructibility", "def-weil-open-closed-recollement", "def-weil-site-perfect-complex", "lem-sf-etale-direct-image-vanishing", "lem-weil-bounded-finite-tor-perfect", "lem-weil-stratum-ambient-hom", "thm-asd-smooth-tensor", "thm-sf-direct-image-tor-amplitude"]
 +++
 Let $X$ be separated of finite type over $k$.

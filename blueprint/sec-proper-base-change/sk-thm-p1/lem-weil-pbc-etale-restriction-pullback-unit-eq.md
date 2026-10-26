@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Pullback of sections along an étale base change agrees with restriction"
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-inverse-image", "def-weil-pbc-direct-image", "lem-weil-pbc-etale-inverse-image-restriction", "lem-weil-pbc-inverse-image-composition"]
 lean = ["AlgebraicGeometry.etale_restriction_pullback_unit_eq"]
-order = 1855
+order = 1834
 +++
 Let
 $$\begin{array}{ccc}W'&\xrightarrow{\;g'\;}&W\\ {\scriptstyle p'}\big\downarrow&&\big\downarrow{\scriptstyle p}\\ Y&\xrightarrow{\;g\;}&X\end{array}$$

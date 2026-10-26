@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-finite-pushforward-extension-zero"
 kind = "lemma"
 title = "Finite pushforward and extension by zero"
 lean = ["AlgebraicGeometry.Etale.isIso_finiteOpenComparison", "AlgebraicGeometry.Etale.isIso_finiteOpenComparison_app"]
-order = 1506
+order = 1485
 uses = ["def-weil-pbc-finite-open-comparison"]
 +++
 Consider a Cartesian square as in [def-weil-pbc-finite-open-comparison],

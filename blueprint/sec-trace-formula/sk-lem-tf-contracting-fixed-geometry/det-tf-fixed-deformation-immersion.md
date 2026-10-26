@@ -2,7 +2,7 @@
 id = "det-tf-fixed-deformation-immersion"
 kind = "lemma"
 title = "The deformed fixed component"
-order = 3612
+order = 3594
 uses = ["det-tf-fixed-ideal-nilpotent", "det-tf-cone-leg-lifts"]
 +++
 In the setting of [det-tf-fixed-ideal-nilpotent], assume moreover $L\subset J$, let $E=V(J)$,

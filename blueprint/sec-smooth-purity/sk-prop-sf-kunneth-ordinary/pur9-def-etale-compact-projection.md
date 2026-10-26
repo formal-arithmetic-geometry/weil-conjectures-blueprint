@@ -2,7 +2,7 @@
 id = "pur9-def-etale-compact-projection"
 kind = "definition"
 title = "Étale compact-support projection map"
-order = 3095
+order = 3077
 uses = ["pur7710-def-etale-projection", "pur9-def-etale-unbounded-candidate", "sk-thm-sf-comp-composition", "sk-thm-sf-pf-finite"]
 +++
 Under Input “Unbounded étale derived inverse-image adjunction” (`pur713-input-etale-unbounded-adjunction`), for $K\in D(X_{\Et},\mathcal O_E/\pi_E^n)$ and $L\in D(Y_{\Et},\mathcal O_E/\pi_E^n)$, let

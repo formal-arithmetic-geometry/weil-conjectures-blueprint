@@ -2,7 +2,7 @@
 id = "det-sf-comp-coherence-single"
 kind = "lemma"
 title = "Compact support along one compactification on the localizing category"
-order = 2284
+order = 2264
 uses = ["sk-prop-proper-image-localizing", "sk-prop-ctf-finite-proper", "sk-thm-sfb-proper-base-change"]
 +++
 Let $\Lambda$ be admissible, $f:X\to Y$ separated of finite type with $Y$

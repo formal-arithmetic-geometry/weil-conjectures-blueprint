@@ -2,7 +2,7 @@
 id = "def-cbc-open-immersion-square"
 kind = "definition"
 title = "Open-immersion square"
-order = 1101
+order = 1067
 lean = ["AlgebraicGeometry.IsOpenImmersionSquare"]
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-scheme-conventions"]
 +++

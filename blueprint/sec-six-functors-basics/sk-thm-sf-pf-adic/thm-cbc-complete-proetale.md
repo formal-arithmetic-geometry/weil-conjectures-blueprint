@@ -2,7 +2,7 @@
 id = "thm-cbc-complete-proetale"
 kind = "theorem"
 title = "Integral compact-support base change"
-order = 2475
+order = 2455
 uses = ["sk-def-sfb-dc-setting", "det-def-sfb-condensed-ring", "det-def-sfb-pulled-back-coefficients", "sk-def-sfb-dc-lower-shriek", "sk-def-sfb-shriek-base-change-morphism", "def-pe-derived-complete", "sk-prop-integral-criterion"]
 +++
 Work in the setting of [sk-def-sfb-dc-setting]. Let $E/\Ql$ be a finite

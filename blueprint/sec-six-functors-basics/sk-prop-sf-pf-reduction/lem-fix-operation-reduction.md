@@ -2,7 +2,7 @@
 id = "lem-fix-operation-reduction"
 kind = "lemma"
 title = "Basic operations and coefficient reduction"
-order = 2772
+order = 2753
 uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-site-perfect-complex", "lem-fix-compact-support-coefficient-change", "lem-weil-pbc-standard-quotients-perfect", "lemma-weil-pbc-perfect-projection-formula", "def-pe-derived-complete", "sk-prop-integral-criterion", "sk-def-sfb-coefficient-comparisons", "sk-prop-scalar-six", "det-prop-scalar-six-compact-support"]
 +++
 For the condensed integral categories $\Dbc(-,\mathcal O_E)$, whose objects

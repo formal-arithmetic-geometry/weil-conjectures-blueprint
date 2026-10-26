@@ -2,7 +2,7 @@
 id = "prop-pur-affine-space-composition-law"
 kind = "theorem"
 title = "Affine-space composition law"
-order = 3053
+order = 3035
 tags = ["latex:proposition"]
 uses = ["def-coefficient-twists-detailed", "def-pur-affine-space-comparison", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-exceptional-inverse-image", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++

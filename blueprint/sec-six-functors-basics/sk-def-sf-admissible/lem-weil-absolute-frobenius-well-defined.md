@@ -2,7 +2,7 @@
 id = "lem-weil-absolute-frobenius-well-defined"
 kind = "lemma"
 title = "The Frobenius of the structure sheaf is a morphism of locally ringed spaces; affine case"
-order = 2662
+order = 2643
 uses = ["def-weil-ring-frobenius", "def-weil-scheme-characteristic-p", "def-weil-locally-ringed-space-morphism", "def-weil-affine-spectrum", "def-pc-scheme"]
 tags = ["stacks-0CC6"]
 +++

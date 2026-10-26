@@ -2,8 +2,7 @@
 id = "prop-trf-graph-operator"
 kind = "theorem"
 title = "Graph construction of the global operator"
-lean = ["AlgebraicGeometry.ProEtale.Correspondence.globalOperator_ofGraph", "AlgebraicGeometry.ProEtale.Correspondence.globalOperator_ofGraph_naturality", "AlgebraicGeometry.ProEtale.Correspondence.globalOperator_ofGraph_comp", "AlgebraicGeometry.ProEtale.Correspondence.exists_triangleHom_globalOperator_ofGraph"]
-order = 3646
+order = 3628
 tags = ["latex:proposition"]
 uses = ["def-compact-support-direct-image-detailed", "def-trf-global-operator", "def-weil-derived-direct-image"]
 +++

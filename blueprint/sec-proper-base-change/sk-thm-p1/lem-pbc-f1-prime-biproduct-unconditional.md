@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Finite biproduct equivalence for unconditional curve assertions"
 uses = ["def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-constructible-sheaf"]
 lean = ["AlgebraicGeometry.IsCurve.prime_biproduct_unconditional_iff"]
-order = 1670
+order = 1649
 +++
 Let $\Lambda$ be a commutative ring, $k$ a field, $X$ a scheme and $f:X\to\operatorname{Spec}k$.
 Let $I$ be a finite index set and $G_a$ module sheaves on the small etale site of $X$.

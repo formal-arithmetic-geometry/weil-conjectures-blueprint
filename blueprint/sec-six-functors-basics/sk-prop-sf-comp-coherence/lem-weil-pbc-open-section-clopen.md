@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-open-section-clopen"
 kind = "lemma"
 title = "An open section is also closed"
-order = 2275
+order = 2255
 lean = ["AlgebraicGeometry.Scheme.Hom.isClopen_range_of_comp_eq_id"]
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-closed-immersion-from-composite"]
 +++

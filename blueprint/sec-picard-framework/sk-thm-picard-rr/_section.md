@@ -2,8 +2,8 @@
 id = "sk-thm-picard-rr"
 kind = "theorem"
 title = "Riemann–Roch and coherent Serre duality"
-order = 675
-uses = ["sk-def-av-jacobian", "sk-def-av-pic", "sec-abelian-varieties", "sec-nagata-compactification", "sk-def-picard-pic", "sk-prop-picard-pic-split"]
+order = 633
+uses = ["sk-prop-picard-pic-split", "sk-lem-abelian-seesaw", "sk-prop-av-isogeny", "sk-def-picard-pic", "sec-abelian-varieties", "sec-nagata-compactification"]
 lean = ["AlgebraicGeometry.Scheme.eulerChar_unit_eq", "AlgebraicGeometry.Scheme.Modules.eulerChar_eq_degree_add", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.degree_dual_toModules", "AlgebraicGeometry.Scheme.Modules.degree_tensorObj", "AlgebraicGeometry.Scheme.Modules.exists_tensorObj_dual_toModules_iso", "AlgebraicGeometry.Scheme.serreDuality", "AlgebraicGeometry.Scheme.degree_relativeDifferentials", "AlgebraicGeometry.Scheme.Modules.degree_pullback", "AlgebraicGeometry.Scheme.arithmeticGenus_pullback", "AlgebraicGeometry.Scheme.Modules.finrankH_one_eq_zero_of_degree", "AlgebraicGeometry.Scheme.finrankH_zero_eq", "AlgebraicGeometry.Scheme.Modules.eulerChar_eq_coherentDegree_add", "AlgebraicGeometry.Scheme.isAmple_of_degree_pos", "AlgebraicGeometry.Scheme.isAffine_compl_of_isAmple"]
 tags = ["sketch"]
 +++

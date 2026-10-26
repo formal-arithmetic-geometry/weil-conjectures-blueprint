@@ -2,7 +2,7 @@
 id = "lem-sc-etale-qcoherent-descent"
 kind = "lemma"
 title = "Descent for quasi-coherent modules"
-order = 1381
+order = 1356
 lean = ["AlgebraicGeometry.Scheme.Modules.isSheaf_etaleTensorSectionsPresheaf"]
 uses = ["def-weil-pbc-etale-site"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sfb-module-lower-star"
 kind = "definition"
 title = "Pushforward of module objects"
-order = 1187
+order = 1153
 uses = ["def-sfb-finite-lower-star", "def-sfb-finite-lower-star-lax-monoidal", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-coefficient-morphisms", "det-def-sfb-module-objects", "det-def-sfb-change-of-scalars", "det-def-sfb-transport"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.lowerStar"]
 +++

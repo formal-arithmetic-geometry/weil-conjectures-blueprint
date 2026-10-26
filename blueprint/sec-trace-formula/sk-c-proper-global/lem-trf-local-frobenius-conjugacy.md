@@ -2,8 +2,7 @@
 id = "lem-trf-local-frobenius-conjugacy"
 kind = "lemma"
 title = "Conjugacy of the local Frobenius along the Frobenius orbit"
-lean = ["AlgebraicGeometry.ProEtale.WeilComplex.stalkTransport", "AlgebraicGeometry.ProEtale.WeilComplex.stalkTransport_comp", "AlgebraicGeometry.ProEtale.WeilComplex.stalkTransport_comp_stalkFrobenius", "AlgebraicGeometry.ProEtale.WeilComplex.stalkTransport_comp_stalkFrobenius_pow", "AlgebraicGeometry.ProEtale.WeilComplex.trace_stalkFrobenius_eq_of_comp_frobeniusIterate", "AlgebraicGeometry.ProEtale.WeilComplex.frobeniusTransport", "AlgebraicGeometry.ProEtale.WeilComplex.frobeniusTransport_comp_stalkFrobenius", "AlgebraicGeometry.ProEtale.WeilComplex.trace_stalkFrobenius_comp_frobenius", "AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.comp_frobeniusIterate_degreeOver", "AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.bijective_comp_frobeniusIterate", "AlgebraicGeometry.ProEtale.WeilComplex.IsModelFrobenius.exists_eq_comp_frobeniusIterate"]
-order = 3659
+order = 3641
 uses = ["def-trf-coefficient-conventions", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "lem-trf-iterated-weil-cocycle", "prop-trf-compact-support-perfectness", "prop-trf-scheme-galois-comparison", "prop-trf-trace-formal-laws", "thm-trf-frobenius-fixed-points"]
 +++
 Fix the coefficient

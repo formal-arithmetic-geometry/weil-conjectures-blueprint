@@ -2,7 +2,7 @@
 id = "det-pe-classical-sheaves-modules"
 kind = "lemma"
 title = "The module form of the classical equivalence"
-order = 997
+order = 962
 uses = ["det-pe-classical-sheaves-unit", "prop-weil-pbc-site-comparison-finite-level"]
 +++
 Let $\Lambda$ be a discrete commutative ring, $\Lambda_{X,\Et}$ its constant

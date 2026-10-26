@@ -5,7 +5,8 @@ of = "det-lem-int-ext-bound"
 Write $N_n=N\otimes^{\mathbf L}\mathcal O_{E,X}/\pi_E^n$. By the length one
 resolution of $\mathcal O_E/\pi_E^n$, $N_n$ is the cone of $\pi_E^n$ on $N$, a
 constructible torsion complex in degrees $[-1,0]$, and
-$N\simeq R\varprojlim_nN_n$ by derived completeness (Stacks, Tag 099Q). The
+$N\simeq R\varprojlim_nN_n$, since $N$ is derived complete
+([sk-prop-integral-criterion]). The
 cohomological dimensions $\operatorname{cd}_\ell(j)$ and
 $\operatorname{cd}_\ell(S)$ of [sk-def-cd] are finite and depend only on $j$
 and $S$. Apply the formula of [det-lem-int-ext-formula](2) to $N_n$:

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-underived-exchange-sectionwise"
 kind = "lemma"
 title = "The underived exchange map on pulled-back sections"
-order = 1319
+order = 1290
 lean = ["AlgebraicGeometry.Etale.baseChangeMap_app_pullSection", "AlgebraicGeometry.Etale.baseChangeSectionMap"]
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-underived-exchange"]
 +++

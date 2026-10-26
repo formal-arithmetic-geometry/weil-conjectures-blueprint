@@ -2,7 +2,7 @@
 id = "det-sfb-dc-restricted-functors-completed-pullback"
 kind = "lemma"
 title = "Integral inverse image agrees with the completed inverse image"
-order = 2639
+order = 2620
 uses = ["det-sfb-dc-restricted-functors-closed-image", "lem-sfb-dc-upper-star-preserves"]
 +++
 Let $g\colon X\to Y$ be a morphism. For $K\in\Dbc(Y,\mathcal O_E)$ the inverse image $g^*K$ lies in

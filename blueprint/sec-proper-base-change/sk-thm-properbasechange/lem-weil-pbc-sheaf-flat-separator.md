@@ -3,7 +3,7 @@ id = "lem-weil-pbc-sheaf-flat-separator"
 kind = "lemma"
 title = "Sheaves on an essentially small site have a flat separator (Lean split)"
 lean = ["CategoryTheory.GrothendieckTopology.exists_flat_separator_sheaf_of_essentiallySmall"]
-order = 2020
+order = 1999
 uses = ["lem-weil-pbc-sheaf-tensor-closed"]
 tags = ["stacks-03EV"]
 +++

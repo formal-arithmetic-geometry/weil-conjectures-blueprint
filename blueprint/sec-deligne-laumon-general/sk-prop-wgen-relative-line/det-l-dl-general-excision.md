@@ -3,7 +3,7 @@ id = "det-l-dl-general-excision"
 kind = "lemma"
 title = "Open–closed reduction"
 lean = ["AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed"]
-order = 4072
+order = 4080
 uses = ["sk-d-real-weights", "sk-r-real-linear", "sk-prop-sf-open-closed-triangle", "sk-prop-sf-cbc", "sk-thm-sf-comp-composition", "lem-zl-morphism-open-closed-reduction"]
 +++
 Let $f_0:X_0\to Y_0$ be a separated finite-type morphism of

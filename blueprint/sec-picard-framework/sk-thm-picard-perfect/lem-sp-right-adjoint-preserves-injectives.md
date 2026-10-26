@@ -3,7 +3,7 @@ id = "lem-sp-right-adjoint-preserves-injectives"
 kind = "lemma"
 title = "Right adjoints of exact functors preserve injectives"
 lean = ["CategoryTheory.Adjunction.preservesInjectiveObjects_of_preservesFiniteLimits"]
-order = 752
+order = 711
 uses = ["def-sp-abelian", "def-sp-injective-resolutions"]
 +++
 Let $u:\mathcal A\to\mathcal B$ be a functor which preserves finite

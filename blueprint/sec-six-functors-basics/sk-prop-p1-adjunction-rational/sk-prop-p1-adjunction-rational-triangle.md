@@ -2,7 +2,7 @@
 id = "det-prop-p1-adjunction-rational-triangle"
 kind = "lemma"
 title = "Triangle identities for the rational projective line"
-order = 2441
+order = 2421
 uses = ["det-prop-p1-adjunction-rational-unit-counit", "sk-prop-diagonal-tower", "sk-prop-geo-p1-adjunction", "sk-thm-sf-pf-field", "sk-prop-sf-existence"]
 +++
 With $\eta$ and $\varepsilon$ as in

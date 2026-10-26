@@ -3,7 +3,7 @@ id = "lem-sc-translation-automorphism"
 kind = "lemma"
 title = "Translations are automorphisms"
 lean = ["AlgebraicGeometry.GrpObj.mulLeftIso", "AlgebraicGeometry.GrpObj.mulRightIso", "AlgebraicGeometry.GrpObj.isMonHom_conjBy"]
-order = 2921
+order = 2902
 uses = ["def-sc-group-scheme", "def-sc-group-scheme-translate"]
 +++
 In the situation of [def-sc-group-scheme-translate], for every

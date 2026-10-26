@@ -3,7 +3,7 @@ id = "lem-rp-determinant-weights-agree"
 kind = "lemma"
 title = "Rank-one purity discharges the finite-determinant hypotheses"
 lean = ["AlgebraicGeometry.WeilGroup.hasFiniteGeometricDet_and_detWeight_eq"]
-order = 3862
+order = 3844
 uses = ["cor-wf-rank-one-punctual-purity-curve", "d-weights", "def-mg-determinant-line", "def-real-weil-representation-operations", "def-wf-determinantal-weight", "lem-wf-determinantal-weight-exists", "thm-wf-rank-one-finite-geometric-image-curve"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, put

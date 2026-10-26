@@ -2,7 +2,7 @@
 id = "det-thm-sf-pf-field-tensor"
 kind = "lemma"
 title = "Tensor closure of the rational localizing categories"
-order = 2437
+order = 2417
 uses = ["sk-cor-coefficient-heart-ii", "sk-lem-integral-models"]
 +++
 Let $\Lambda=E$ or $\Qlb$.

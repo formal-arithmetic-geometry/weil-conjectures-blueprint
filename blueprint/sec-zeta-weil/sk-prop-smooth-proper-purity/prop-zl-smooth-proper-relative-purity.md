@@ -3,7 +3,7 @@ id = "prop-zl-smooth-proper-relative-purity"
 kind = "theorem"
 title = "Relative smooth-proper purity"
 lean = ["AlgebraicGeometry.WeilComplex.derivedLowerShriekObjIsoDerivedLowerStarOfIsProper", "AlgebraicGeometry.WeilSheaf.smooth_proper_relative_purity"]
-order = 4089
+order = 4097
 tags = ["latex:proposition"]
 uses = ["cor-cbc-proper-coincidence", "cor-weil-pbc-geometric-fiber-finite", "cor-weil-pbc-geometric-fiber-qbar", "thm-weil-pbc-qbar", "cor-zl-rfshriek-sheaf", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-wf-tate-twist-frobenius", "prop-weil-operations", "prop-weil-proet-finite-proper-base-change", "sbc-thm-smooth-base-change", "thm-fin-proper-constructibility-complete", "sk-lem-coefficient-heart", "sk-def-sf-weil-complexes"]
 +++

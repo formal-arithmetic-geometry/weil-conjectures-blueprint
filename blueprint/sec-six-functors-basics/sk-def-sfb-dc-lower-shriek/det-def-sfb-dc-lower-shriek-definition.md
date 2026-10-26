@@ -2,7 +2,7 @@
 id = "det-def-sfb-dc-lower-shriek-definition"
 kind = "definition"
 title = "The lower shriek on $D_{\\mathrm{cons}}$ for a compactification"
-order = 2584
+order = 2565
 uses = ["def-sfb-dc-open-lower-shriek", "def-sfb-dc-lower-star", "sk-def-sfb-dc-setting", "def-sfb-compactification-over-field", "sk-def-nagata-sketch-data"]
 +++
 Work in the setting of [sk-def-sfb-dc-setting]: schemes separated and of finite type over a field

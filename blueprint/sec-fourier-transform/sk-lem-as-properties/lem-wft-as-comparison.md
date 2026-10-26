@@ -2,7 +2,7 @@
 id = "lem-wft-as-comparison"
 kind = "lemma"
 title = "The two Artin–Schreier models of $\\mathcal L_\\psi$"
-order = 3930
+order = 3938
 uses = ["def-fd-additive-character", "def-fd-artin-schreier-sheaf", "lem-fd-as-cover"]
 +++
 Let $k_0=\mathbf F_q$ with $m=[k_0:\mathbf F_p]$, let $\Lambda$ be a

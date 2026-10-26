@@ -2,7 +2,7 @@
 id = "thm-trf-internal-hom-pullback"
 kind = "theorem"
 title = "Internal Hom versus pullback for a site-perfect first variable"
-order = 3359
+order = 3341
 uses = ["def-trf-coefficient-conventions", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "def-weil-site-perfect-complex"]
 +++
 Use the finite coefficient ring

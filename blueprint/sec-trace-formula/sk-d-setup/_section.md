@@ -2,8 +2,8 @@
 id = "sk-d-setup"
 kind = "definition"
 title = "Coefficients and geometric categories"
-order = 3621
-lean = ["AlgebraicGeometry.ProEtale.GeometricCoefficients"]
+order = 3603
+lean = ["AlgebraicGeometry.ProEtale.IsCoefficientSetup", "AlgebraicGeometry.ProEtale.isCoefficientSetup_constructibleFiniteTor"]
 tags = ["sketch"]
 +++
 Fix $q=p^r$, $k=\overline{\mathbf F}_q$, $s=\operatorname{Spec}k$, a prime

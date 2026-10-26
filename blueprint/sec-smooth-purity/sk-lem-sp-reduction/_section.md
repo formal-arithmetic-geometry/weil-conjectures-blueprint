@@ -2,7 +2,7 @@
 id = "sk-lem-sp-reduction"
 kind = "lemma"
 title = "Coefficient comparison"
-order = 2970
+order = 2951
 uses = ["sk-def-sp-scalar-extension", "sk-lem-sp-finite-existence", "sk-lem-sf-flat-model", "sk-prop-scalar-six", "sk-prop-geo-p1-adjunction"]
 tags = ["sketch"]
 +++

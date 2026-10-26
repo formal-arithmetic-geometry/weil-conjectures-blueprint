@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-tower-compatibility"
 kind = "lemma"
 title = "Projection formulas form a coefficient tower"
-order = 1981
+order = 1960
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.properProjectionMorphism", "AlgebraicGeometry.ProEtale.CondensedRing.properProjectionMorphism_natural_right"]
 uses = ["def-weil-pbc-projection-formula-map"]
 +++

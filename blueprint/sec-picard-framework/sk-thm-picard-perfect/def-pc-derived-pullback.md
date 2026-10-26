@@ -3,7 +3,7 @@ id = "def-pc-derived-pullback"
 kind = "definition"
 title = "Derived pullback of modules on schemes"
 lean = ["AlgebraicGeometry.Scheme.Modules.derivedPullback"]
-order = 766
+order = 725
 uses = ["def-pc-derived-category", "def-pc-scheme"]
 +++
 For a morphism $g:T\to S$ of schemes,

@@ -3,7 +3,7 @@ id = "prop-a1-curve-boundary-sequence"
 kind = "theorem"
 title = "Boundary localization triangle for a curve"
 lean = ["AlgebraicGeometry.exists_exact_compactlySupportedCohomology_boundary"]
-order = 3976
+order = 3984
 tags = ["latex:proposition"]
 uses = ["def-weil-open-closed-recollement", "def-weil-ordinary-compact-cohomology", "def-wf-middle-extension", "lem-a1-finite-boundary-cohomology", "lem-fin-boundary-sheaf", "prop-sf-open-closed-triangle-all-stages"]
 +++

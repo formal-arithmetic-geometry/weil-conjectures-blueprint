@@ -2,9 +2,9 @@
 id = "sk-d-relative-frob"
 kind = "definition"
 title = "The relative Frobenius factorization"
-order = 3668
+order = 3650
 uses = ["sk-d-setup", "sk-d-weil"]
-lean = ["AlgebraicGeometry.ProEtale.relativeFrobenius"]
+lean = ["AlgebraicGeometry.relativeFrobenius"]
 tags = ["sketch"]
 +++
 Let $f:X\to Y$ be a morphism of schemes and let $\Phi_{X,m}:X\to X$,

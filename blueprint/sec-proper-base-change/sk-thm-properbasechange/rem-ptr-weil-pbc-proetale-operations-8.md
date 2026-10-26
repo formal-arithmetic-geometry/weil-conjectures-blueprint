@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-pbc-proetale-operations-8"
 kind = "remark"
 title = "Pointer to the properties of the pro-etale operations"
-order = 1975
+order = 1954
 uses = ["def-weil-pbc-proetale-operations", "det-prop-sfb-module-pullback-exact-main", "lem-sfb-finite-upper-star-unit"]
 +++
 In the notation of [def-weil-pbc-proetale-operations], the following holds.

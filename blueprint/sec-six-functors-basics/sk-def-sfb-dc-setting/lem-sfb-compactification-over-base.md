@@ -2,7 +2,7 @@
 id = "lem-sfb-compactification-over-base"
 kind = "lemma"
 title = "Compactifications of morphisms over a qcqs base"
-order = 2581
+order = 2562
 uses = ["sk-def-nagata-sketch-data"]
 +++
 Let $S$ be a quasi-compact and quasi-separated scheme. Let $X$ be an $S$-scheme that is separated

@@ -2,7 +2,7 @@
 id = "det-tf-nearby-duality-slice"
 kind = "lemma"
 title = "Nearby duality in a generic slice"
-order = 3599
+order = 3581
 uses = ["det-tf-nearby-duality-proper", "det-tf-invariants-duality", "det-pd-generic-dualizing-twist", "det-pd-generic-closed-hom"]
 +++
 In the setting of [det-tf-nearby-duality-proper], let $b:X\to\mathbf A^1_S$ be a

@@ -2,7 +2,7 @@
 id = "sk-lem-pbc-composition-cancellation"
 kind = "lemma"
 title = "Composition and cancellation"
-order = 1943
+order = 1922
 lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange.comp", "AlgebraicGeometry.Etale.HasTorsionBaseChange.of_comp", "AlgebraicGeometry.Etale.HasInjectiveAcyclicity.comp", "AlgebraicGeometry.Etale.HasInjectiveAcyclicity.of_comp"]
 uses = ["sk-def-pbc", "sk-thm-iff", "sk-prop-pbc-degree-zero", "sk-thm-picard-perfect"]
 tags = ["sketch"]

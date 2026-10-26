@@ -3,7 +3,7 @@ id = "def-sc-zariski-cohomology"
 kind = "definition"
 title = "Zariski sheaf cohomology"
 lean = ["AlgebraicGeometry.Scheme.zariskiH"]
-order = 2688
+order = 2669
 uses = ["def-sc-zariski-site", "def-sp-kinjective-bridge"]
 +++
 For an abelian sheaf $F$ on the

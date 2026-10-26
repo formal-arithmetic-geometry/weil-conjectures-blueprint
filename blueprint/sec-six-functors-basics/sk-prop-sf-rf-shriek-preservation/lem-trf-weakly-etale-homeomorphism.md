@@ -2,7 +2,7 @@
 id = "lem-trf-weakly-etale-homeomorphism"
 kind = "lemma"
 title = "A weakly etale universal homeomorphism is an isomorphism"
-order = 2415
+order = 2395
 uses = ["def-weil-scheme-morphism-properties"]
 +++
 Let $f:V\to W$ be a

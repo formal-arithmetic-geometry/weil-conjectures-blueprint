@@ -2,7 +2,7 @@
 id = "sk-rem-pbc-proof-division"
 kind = "remark"
 title = "Division of the proof"
-order = 1574
+order = 1553
 tags = ["sketch"]
 +++
 [sk-thm-iff] reduces higher proper base change to a vanishing statement, and

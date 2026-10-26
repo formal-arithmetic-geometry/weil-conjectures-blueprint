@@ -2,7 +2,7 @@
 id = "sk-lem-wrp-positive-euler"
 kind = "lemma"
 title = "Positivity and convergence"
-order = 3873
+order = 3855
 uses = ["sk-def-wrp-real-definition"]
 tags = ["sketch"]
 +++

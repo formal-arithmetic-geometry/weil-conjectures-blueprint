@@ -10,11 +10,9 @@ complete. Reduction modulo $\pi_E$ is exact, monoidal and commutes with $p^*$
 and $Rp_*$, so it carries the map to the torsion projection formula map for
 $K/\pi_E$ and $L/\pi_E$ in $D(Y_{\mathrm{proét}},\mathbf F_E)$, an isomorphism by
 Stacks, Tag 0F0G. The cone $C$ of the map is derived complete with
-$C\otimes^{\mathbf L}\mathbf F_E=0$, so $\pi_E$ acts invertibly on $C$.
-Derived completeness says
-$R\varprojlim(\cdots\xrightarrow{\pi_E}C\xrightarrow{\pi_E}C)=0$, while for
-invertible $\pi_E$ this limit is $C$; hence $C=0$ (derived Nakayama, Stacks,
-Tag 099I).
+$C\otimes^{\mathbf L}\mathbf F_E=0$, hence $C=0$ by derived Nakayama
+([sk-lem-pe-derived-nakayama]). This is the integral case of
+[sk-thm-sfb-proper-base-change].
 
 (2) *Tensor closure.* Fix $B\in\Dbc(X,\mathcal O_E)$; the objects $A$ of
 $\Loc(\Dbc(X,\mathcal O_E))$ with $A\otimes^{\mathbf L}B\in\Loc(\Dbc(X,\mathcal O_E))$

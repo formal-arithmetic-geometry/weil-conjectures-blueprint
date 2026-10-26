@@ -2,7 +2,7 @@
 id = "det-base-field-cd-cochains"
 kind = "lemma"
 title = "Continuous cochains compute Galois cohomology"
-order = 2124
+order = 2103
 uses = ["def-exc-continuous-cohomology"]
 +++
 Let $G$ be a profinite group and let $\mathcal C_G$ be the abelian category of

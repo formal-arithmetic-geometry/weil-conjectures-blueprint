@@ -2,7 +2,7 @@
 id = "pur9-def-derived-stalk"
 kind = "definition"
 title = "Derived geometric stalk"
-order = 3215
+order = 3197
 uses = ["pur7710-def-derived-sections"]
 +++
 For a scheme $X$, a geometric point $\bar x:\operatorname{Spec}\Omega\to X$ with $\Omega$ separably closed, and $K\in D(X_{\Proet},\mathcal O_E/\pi_E^n)$, put

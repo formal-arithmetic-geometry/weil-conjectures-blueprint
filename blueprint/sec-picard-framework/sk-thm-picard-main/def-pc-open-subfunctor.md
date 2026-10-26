@@ -3,7 +3,7 @@ id = "def-pc-open-subfunctor"
 kind = "definition"
 title = "Subfunctors representable by open immersions"
 lean = ["AlgebraicGeometry.exists_opens_of_relative_isOpenImmersion", "AlgebraicGeometry.relative_isOpenImmersion_of_exists_opens"]
-order = 854
+order = 819
 uses = ["def-pc-scheme", "def-pc-subfunctor"]
 +++
 Let $S$ be a scheme, let

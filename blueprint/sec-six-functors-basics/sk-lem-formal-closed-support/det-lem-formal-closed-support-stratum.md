@@ -2,7 +2,7 @@
 id = "det-lem-formal-closed-support-stratum"
 kind = "lemma"
 title = "Hom out of an extension by zero from a stratum"
-order = 2156
+order = 2135
 uses = ["det-lem-formal-closed-support-derived", "sk-lem-coefficient-heart"]
 +++
 In the situation of [det-lem-formal-closed-support-derived], let

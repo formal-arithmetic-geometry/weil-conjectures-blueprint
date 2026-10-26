@@ -3,6 +3,6 @@ id = "lem-weil-pbc-popescu-height-zero-auxiliary-algebra-localizations"
 kind = "lemma"
 title = "Localizations of the auxiliary algebra of the height-zero delocalization"
 lean = ["Algebra.popescu_auxiliaryAlgebra_localizations"]
-order = 1919
+order = 1898
 +++
 Let $A$ be a commutative ring, $n,m\ge0$, $r\ge1$, $P=A[x_1,\dots,x_n]$ the polynomial ring, $f_1,\dots,f_m\in P$ and $C=P/(f_1,\dots,f_m)$, with $\bar x_k$ the class of $x_k$. Let $$B=A[x_1,\dots,x_n,y_1,\dots,y_r,z,t_{ij}\,(1\le i\le r,\ 1\le j\le m)]\big/\big(f_j-\textstyle\sum_{i=1}^ry_it_{ij}\ (1\le j\le m),\ zy_i\ (1\le i\le r)\big),$$ an $A$-algebra; write $x_k,y_i,z,t_{ij}$ also for their classes in $B$, and for $g\in B$ let $B_g$ be the localization of $B$ at $\{1,g,g^2,\dots\}$. (1) The homomorphism of $A$-algebras $B\to C[t_{ij},z]_z$ (polynomial ring over $C$ in the $rm+1$ variables $t_{ij},z$, localized at $z$) with $x_k\mapsto\bar x_k$, $y_i\mapsto0$, $z\mapsto z$, $t_{ij}\mapsto t_{ij}$ is well defined and induces an isomorphism of $A$-algebras $B_z\cong C[t_{ij},z]_z$. (2) For each $\ell\in\{1,\dots,r\}$ let $Q_\ell=A[x_1,\dots,x_n,y_1,\dots,y_r,t_{ij}\,(i\ne\ell)]$ be the polynomial ring in the variables other than $z$ and the $t_{\ell j}$. The homomorphism of $A$-algebras $Q_\ell\to B$ sending each variable to its class induces an isomorphism of $A$-algebras $(Q_\ell)_{y_\ell}\cong B_{y_\ell}$; its inverse sends $z\mapsto0$ and $t_{\ell j}\mapsto y_\ell^{-1}\big(f_j-\sum_{i\ne\ell}y_it_{ij}\big)$.

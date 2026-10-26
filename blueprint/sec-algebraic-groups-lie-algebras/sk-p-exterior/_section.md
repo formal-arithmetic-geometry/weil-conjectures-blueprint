@@ -3,7 +3,7 @@ id = "sk-p-exterior"
 kind = "proposition"
 title = "Exterior determinant weights"
 lean = ["Representation.CompositionSeries.exteriorPower_detWeight"]
-order = 3776
+order = 3758
 uses = ["sk-d-weights", "sk-i-restriction", "sk-p-central", "sk-p-readout", "sk-r-linear-library"]
 tags = ["sketch"]
 +++

@@ -3,7 +3,7 @@ id = "lem-weil-pbc-triangle-morphism-extension"
 kind = "lemma"
 title = "Extending a morphism of the middle terms to distinguished triangles; uniqueness when Hom(X[1],Z')=0"
 lean = ["CategoryTheory.Pretriangulated.triangle_morphism_extension"]
-order = 2023
+order = 2002
 uses = ["def-weil-triangulated-category", "def-weil-pbc-triangles-with-shift"]
 tags = ["stacks-0146"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-cor-tf-functional-equation"
 kind = "corollary"
 title = "Functional equation"
-order = 3558
+order = 3540
 uses = ["sk-cor-tf-point-counting", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-poincare-duality"]
 tags = ["sketch"]
 +++

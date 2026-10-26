@@ -2,8 +2,8 @@
 id = "prop-trf-fixed-square-cartesian"
 kind = "theorem"
 title = "The fixed square is Cartesian"
-lean = ["AlgebraicGeometry.ProEtale.Correspondence.fix\u03b9_snd", "AlgebraicGeometry.ProEtale.Correspondence.fix\u03b9_fst_diagonal", "AlgebraicGeometry.ProEtale.Correspondence.fixUpperShriekIso"]
-order = 3632
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.isPullback", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.ι_c₁", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.FixedLocus.ι_c₂"]
+order = 3614
 tags = ["latex:proposition"]
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-fixed-scheme", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "thm-sf-comp-composition"]
 +++

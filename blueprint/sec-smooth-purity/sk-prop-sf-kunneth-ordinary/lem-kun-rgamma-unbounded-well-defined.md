@@ -2,7 +2,7 @@
 id = "lem-kun-rgamma-unbounded-well-defined"
 kind = "lemma"
 title = "Independence of the K-injective resolution"
-order = 3102
+order = 3084
 uses = ["def-kun-rgamma-unbounded", "def-sp-kinjective-bridge", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $T$ be a scheme, $\Lambda$ a commutative ring and

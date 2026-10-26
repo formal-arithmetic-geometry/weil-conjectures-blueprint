@@ -2,7 +2,7 @@
 id = "sk-prop-normal-form"
 kind = "proposition"
 title = "Étale-local normal form and slicing"
-order = 2101
+order = 2080
 uses = ["sk-def-smooth"]
 lean = ["AlgebraicGeometry.Smooth.exists_etale_to_affineSpace", "AlgebraicGeometry.exists_etaleCover_factorization"]
 tags = ["sketch"]

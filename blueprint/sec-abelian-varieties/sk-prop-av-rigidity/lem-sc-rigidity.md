@@ -3,8 +3,7 @@ id = "lem-sc-rigidity"
 kind = "lemma"
 title = "The rigidity lemma"
 lean = ["AlgebraicGeometry.exists_eq_snd_comp"]
-order = 512
-uses = ["lem-sc-finite-image-locus-open"]
+order = 455
 +++
 Let $k$ be a field and $X,Y,Z$ schemes over $k$ with $X$ proper,
 geometrically connected and geometrically reduced over $k$, $Y$

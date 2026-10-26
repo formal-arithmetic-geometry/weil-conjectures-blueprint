@@ -20,4 +20,4 @@ module sheaves preserve classical sheaves by the functor comparisons
 extensions ([sk-cor-pe-classical-derived]); see
 [lem-sf-proetale-constructible-origin]. The derived statement follows from
 [sk-cor-pe-classical-derived] and bounded truncation. These comparisons are recorded
-in Stacks Project, Tag 09AI.
+in Stacks Project, Tags 09AK (sheaves) and 09AL (bounded-below complexes).

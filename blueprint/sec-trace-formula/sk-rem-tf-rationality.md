@@ -2,7 +2,7 @@
 id = "sk-rem-tf-rationality"
 kind = "remark"
 title = "Rationality, the functional equation and weights"
-order = 3566
+order = 3548
 tags = ["sketch"]
 +++
 For smooth, proper and geometrically connected $X_0$,

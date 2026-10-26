@@ -2,7 +2,7 @@
 id = "det-pe-injective-acyclicity-reduction"
 kind = "lemma"
 title = "Reduction of the acyclicity to affine étale objects"
-order = 1007
+order = 972
 uses = ["def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-comparison-injective-acyclicity", "lem-weil-pbc-etale-restriction-injectives", "lem-weil-pbc-proetale-restriction-injectives", "det-pe-classical-sheaves-modules"]
 +++
 Let $X$ be a scheme and $\Lambda$ a discrete commutative ring.

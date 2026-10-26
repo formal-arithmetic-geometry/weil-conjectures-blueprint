@@ -2,7 +2,7 @@
 id = "sk-prop-pe-replete"
 kind = "proposition"
 title = "Repleteness of the pro-étale topos"
-order = 975
+order = 940
 lean = ["AlgebraicGeometry.Scheme.isReplete_proEtale"]
 uses = ["sk-def-pe-replete", "sk-thm-pe-weakly-contractible-basis", "sk-def-pe-weak-contractible"]
 tags = ["sketch"]

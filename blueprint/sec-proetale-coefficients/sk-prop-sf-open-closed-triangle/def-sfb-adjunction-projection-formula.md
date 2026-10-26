@@ -2,7 +2,7 @@
 id = "def-sfb-adjunction-projection-formula"
 kind = "definition"
 title = "The projection formula of an adjunction"
-order = 1105
+order = 1071
 uses = ["def-sfb-adjunction-has-projection-formula", "def-sfb-projection-formula"]
 lean = ["CategoryTheory.Adjunction.projectionFormula"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-lem-int-tensor"
 kind = "lemma"
 title = "Inverse image and tensor product"
-order = 2457
+order = 2437
 uses = ["sk-def-sfb-dc-setting", "sk-prop-sf-open-closed-triangle", "sk-thm-sfb-rationalization-comparison", "sk-thm-sfb-qlbar-two-colimit", "sk-lem-int-integral-heart"]
 tags = ["sketch"]
 +++

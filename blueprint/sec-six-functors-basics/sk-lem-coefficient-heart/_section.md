@@ -2,7 +2,7 @@
 id = "sk-lem-coefficient-heart"
 kind = "lemma"
 title = "Constructible sheaves"
-order = 2144
+order = 2123
 uses = ["sk-def-sfb-constructible", "sk-prop-sfb-qlbar-colimit-x"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "det-def-sfb-rationalization"
 kind = "definition"
 title = "Rationalization of a linear triangulated category"
-order = 2200
+order = 2179
 lean = ["CategoryTheory.Rationalization.torsion", "CategoryTheory.Rationalization.instIsTriangulatedTorsion", "CategoryTheory.Rationalization.W", "CategoryTheory.Rationalization.W_smul_id", "CategoryTheory.Rationalization", "CategoryTheory.Rationalization.Q", "CategoryTheory.Rationalization.isIso_smul_id", "CategoryTheory.Rationalization.linear", "CategoryTheory.Rationalization.algebraMap_smul"]
 +++
 Let $\mathcal T$ be a triangulated category that is linear over a commutative ring $R$,

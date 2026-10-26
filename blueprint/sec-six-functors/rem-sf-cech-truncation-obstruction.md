@@ -2,7 +2,7 @@
 id = "rem-sf-cech-truncation-obstruction"
 kind = "remark"
 title = "The Čech complex of a single weakly contractible covering: what its truncation is missing, and what does not supply it"
-order = 3338
+order = 3320
 uses = ["def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site"]
 +++
 Let $T$ be a scheme, let $U\to T$ be a nonempty object of the

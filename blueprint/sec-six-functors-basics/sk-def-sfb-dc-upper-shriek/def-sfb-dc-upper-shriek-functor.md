@@ -2,7 +2,7 @@
 id = "def-sfb-dc-upper-shriek-functor"
 kind = "definition"
 title = "$Rf^!$ for the chosen compactification"
-order = 2643
+order = 2624
 uses = ["def-sfb-compactification-over-field", "def-sfb-dc-upper-shriek-of-compactification"]
 +++
 Let $\Lambda$ and $f\colon X\to Y$ be as in [def-sfb-dc-upper-shriek-of-compactification], and let

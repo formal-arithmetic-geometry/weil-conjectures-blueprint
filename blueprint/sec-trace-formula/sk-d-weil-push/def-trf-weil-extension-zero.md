@@ -2,8 +2,7 @@
 id = "def-trf-weil-extension-zero"
 kind = "definition"
 title = "Weil extension by zero"
-lean = ["AlgebraicGeometry.ProEtale.StrictWeilComplex.extensionByZero"]
-order = 3676
+order = 3658
 uses = ["def-trf-strict-weil-complex", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "lem-trf-frobenius-open-square", "lem-trf-open-square-exchange"]
 +++
 Let $j_0:X_0\hookrightarrow Y_0$ be an

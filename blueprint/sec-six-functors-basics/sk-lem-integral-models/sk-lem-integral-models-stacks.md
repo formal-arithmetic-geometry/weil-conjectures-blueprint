@@ -2,7 +2,7 @@
 id = "det-lem-integral-models-stacks"
 kind = "lemma"
 title = "Comparison with the Stacks Project adic constructible category"
-order = 2192
+order = 2171
 uses = ["det-prop-integral-criterion-constant-coefficients", "sk-prop-integral-criterion"]
 +++
 Let $X$ be a Noetherian scheme, $E/\mathbf Q_\ell$ finite, and let

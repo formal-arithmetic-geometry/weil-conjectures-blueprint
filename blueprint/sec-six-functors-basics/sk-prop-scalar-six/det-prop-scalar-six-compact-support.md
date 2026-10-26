@@ -2,7 +2,7 @@
 id = "det-prop-scalar-six-compact-support"
 kind = "lemma"
 title = "Coefficient comparison for compactly supported direct image"
-order = 2493
+order = 2473
 uses = ["det-prop-scalar-six-direct-image", "det-prop-scalar-six-pullback", "sk-thm-existence"]
 +++
 Let $f\colon X\to Y$ be a morphism of standing schemes, $f=p\circ j$ a

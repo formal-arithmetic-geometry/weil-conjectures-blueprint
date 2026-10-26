@@ -3,7 +3,7 @@ id = "def-weil-pbc-etale-constructible-sheaf"
 kind = "definition"
 title = "Constructible sheaf of modules on the small etale site"
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf", "AlgebraicGeometry.Scheme.Stratification", "AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf", "AlgebraicGeometry.Scheme.IsLocallyConstantSheaf", "AlgebraicGeometry.Scheme.IsFiniteSheaf"]
-order = 1637
+order = 1616
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-etale-sheaves", "def-constructible-stratification", "def-weil-constructible-subset", "def-weil-pbc-inverse-image", "def-constructible-locally-constant"]
 tags = ["stacks-095E"]
 +++

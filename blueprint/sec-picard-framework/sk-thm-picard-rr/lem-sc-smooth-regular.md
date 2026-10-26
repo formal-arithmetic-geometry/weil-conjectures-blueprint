@@ -3,7 +3,7 @@ id = "lem-sc-smooth-regular"
 kind = "lemma"
 title = "Smoothness implies regularity"
 lean = ["AlgebraicGeometry.IsRegular.of_smooth"]
-order = 703
+order = 661
 uses = ["def-sc-curves", "lem-sc-regular-local-domain"]
 +++
 Let $X$ be a scheme smooth over a field $k$, for instance a smooth

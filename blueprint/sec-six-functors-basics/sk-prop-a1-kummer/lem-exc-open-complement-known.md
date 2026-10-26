@@ -2,7 +2,7 @@
 id = "lem-exc-open-complement-known"
 kind = "lemma"
 title = "The open-complement condition from the direct-image input"
-order = 2813
+order = 2794
 uses = ["def-exc-open-complement-bound", "def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-strict-henselization-stalk-formula", "thm-exc-curve-open-constructible-general", "thm-exc-curve-open-dimension-general", "thm-exc-direct-image-input-holds"]
 +++
 Let $k$ be the algebraic closure of a finite field, let $T$ be a

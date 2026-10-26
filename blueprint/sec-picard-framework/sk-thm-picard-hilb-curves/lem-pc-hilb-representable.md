@@ -2,7 +2,7 @@
 id = "lem-pc-hilb-representable"
 kind = "lemma"
 title = "Hilbert schemes of points are representable"
-order = 808
+order = 769
 uses = ["def-pc-finite-locally-free", "def-pc-fppf-site", "def-sc-ample"]
 lean = ["AlgebraicGeometry.isRepresentable_hilbertPresheaf"]
 +++

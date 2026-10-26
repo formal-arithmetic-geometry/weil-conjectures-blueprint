@@ -3,7 +3,7 @@ id = "sk-cor-trace"
 kind = "theorem"
 title = "Top-degree trace"
 lean = ["AlgebraicGeometry.WeilSheaf.exists_traceCup_isPerfect"]
-order = 3427
+order = 3409
 uses = ["sk-def-trace-cup", "sk-lem-finite", "sk-lem-geo-cartier", "sk-prop-an", "sk-thm-purity-transport", "sk-thm-regular", "sk-thm-sf-identification", "sk-thm-smooth-purity", "sk-def-sp-trace", "sk-prop-scalar-six", "sk-def-ops", "sk-thm-derived-duality"]
 tags = ["sketch"]
 +++

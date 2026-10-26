@@ -4,7 +4,7 @@ kind = "theorem"
 tags = ["latex:proposition"]
 title = "Simple perverse sheaves on a smooth curve"
 lean = ["AlgebraicGeometry.WeilComplex.simple_iff", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.simple_middleExtension"]
-order = 3973
+order = 3981
 uses = ["def-wf-middle-extension", "lem-weil-heart-short-exact-triangles", "lem-wf-dense-open-pi1-surjective", "thm-a1-curve-perverse-heart"]
 +++
 In the setting and with the conventions of [thm-a1-curve-perverse-heart],

@@ -2,7 +2,7 @@
 id = "sk-lem-pd-preservation"
 kind = "lemma"
 title = "Verdier duality preserves constructibility"
-order = 3290
+order = 3272
 uses = ["sk-def-ops", "sk-lem-sf-flat-model", "sk-thm-sf-ctf-stability"]
 tags = ["sketch"]
 +++

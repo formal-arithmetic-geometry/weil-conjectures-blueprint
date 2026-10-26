@@ -2,9 +2,9 @@
 id = "sk-lem-pbc-symmetric-product"
 kind = "lemma"
 title = "A finite cover of projective space"
-order = 1951
+order = 1930
 lean = ["AlgebraicGeometry.ProjectiveSpace.exists_isFinite_surjective_projectiveLinePow", "AlgebraicGeometry.ProjectiveSpace.symmetricProduct", "AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveSpace"]
-uses = ["sk-def-pbc", "sk-lem-pbc-finite", "sk-lem-pbc-composition-cancellation", "sk-prop-av-pqf-finite"]
+uses = ["sk-def-pbc", "sk-lem-pbc-finite", "sk-lem-pbc-composition-cancellation", "sk-prop-av-isogeny", "sec-picard-framework"]
 tags = ["sketch"]
 +++
 For every scheme $S$ and every $n\geq1$ there is a finite surjective

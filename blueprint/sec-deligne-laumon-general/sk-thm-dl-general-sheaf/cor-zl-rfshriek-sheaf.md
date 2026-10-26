@@ -2,7 +2,7 @@
 id = "cor-zl-rfshriek-sheaf"
 kind = "theorem"
 title = "Cohomology-sheaf form of the direct-image theorem"
-order = 4084
+order = 4092
 lean = ["AlgebraicGeometry.hasDirectImageWeightBound_over_finiteField"]
 uses = ["def-weil-complex-weights", "def-weil-weil-sheaf-complex", "def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "lem-zl-finite-pushforward", "lem-zl-quasi-finite", "lem-zl-morphism-open-closed-reduction", "lem-zl-open-closed-weight", "lem-zl-shriek-composition", "thm-zl-relative-line-step", "sk-lem-coefficient-heart", "thm-zl-relative-noether"]
 +++

@@ -54,7 +54,7 @@ datum on $J_s$ relative to $\Spec k_s\to\Spec k_0$, defined without
 choosing a Galois action. Now $k_s=\bigcup k_1$ over the finite Galois
 subextensions $k_1/k_0$, so $\Spec k_s=\varprojlim\Spec k_1$ with
 affine transition maps. The abelian variety $J_s$ is projective
-([sk-prop-av-projective]) and of finite presentation over $k_s$, and
+([lem-sc-abelian-variety-projective]) and of finite presentation over $k_s$, and
 the descent datum consists of finitely many morphisms and identities
 between schemes of finite presentation; by finite-presentation descent
 along the limit (Stacks

@@ -2,7 +2,7 @@
 id = "det-prop-closed-adjoint-constructible-yoneda"
 kind = "lemma"
 title = "Identification of $i^!$ with sections with support"
-order = 2448
+order = 2428
 uses = ["det-prop-closed-adjoint-constructible-support", "sk-lem-formal-closed-support", "sk-prop-sf-existence"]
 +++
 Let $\Lambda=E$ or $\Qlb$, $i:Z\hookrightarrow X$ a closed immersion and $i^!$

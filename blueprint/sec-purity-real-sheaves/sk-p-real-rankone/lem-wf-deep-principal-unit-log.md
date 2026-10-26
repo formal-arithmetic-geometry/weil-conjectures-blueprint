@@ -3,7 +3,7 @@ id = "lem-wf-deep-principal-unit-log"
 kind = "lemma"
 title = "The logarithm on sufficiently deep principal units"
 lean = ["PadicAlgCl.smallExp", "PadicAlgCl.summable_expSeries", "PadicAlgCl.norm_smallLog_eq", "PadicAlgCl.norm_smallExp_sub_one_eq", "PadicAlgCl.smallExp_add", "PadicAlgCl.smallLog_add_add_mul", "PadicAlgCl.norm_smallLog_sub_smallLog", "PadicAlgCl.norm_smallExp_sub_smallExp", "PadicAlgCl.smallLog_smallExp_sub_one", "PadicAlgCl.smallExp_smallLog", "PadicAlgCl.smallLog_smallExp_deep", "PadicAlgCl.exists_pow_norm_sub_one_le", "PadicAlgCl.deep_principal_unit_log"]
-order = 3845
+order = 3827
 +++
 Let $E/\mathbf Q_\ell$ be finite, with valuation ring
 $\mathcal O_E$, maximal ideal $\mathfrak m_E$, and normalized valuation

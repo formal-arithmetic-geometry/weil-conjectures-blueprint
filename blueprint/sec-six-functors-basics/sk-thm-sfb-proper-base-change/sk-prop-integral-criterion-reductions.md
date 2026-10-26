@@ -2,7 +2,7 @@
 id = "det-prop-integral-criterion-reductions"
 kind = "lemma"
 title = "Constructibility of all reductions from the first one"
-order = 2209
+order = 2189
 uses = ["def-pe-derived-complete"]
 +++
 Let $X$ be Noetherian, $E/\mathbf Q_\ell$ finite and $K\in D(X_{\mathrm{proét}},\cO_E)$ derived

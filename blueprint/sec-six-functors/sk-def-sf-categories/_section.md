@@ -2,7 +2,7 @@
 id = "sk-def-sf-categories"
 kind = "definition"
 title = "Ambient categories and small subcategories"
-order = 3325
+order = 3307
 uses = ["sk-def-purity-conv", "sk-prop-sf-open-closed-triangle", "sk-def-sfb-constructible", "sk-prop-integral-criterion"]
 tags = ["sketch"]
 +++

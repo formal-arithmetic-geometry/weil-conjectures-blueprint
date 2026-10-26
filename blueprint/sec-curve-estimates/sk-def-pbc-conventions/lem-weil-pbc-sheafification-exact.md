@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-sheafification-exact"
 kind = "lemma"
 title = "Sheafification of abelian presheaves is exact; limits of abelian sheaves are sectionwise"
-order = 1294
+order = 1265
 uses = ["def-weil-pbc-sheafification"]
 lean = ["CategoryTheory.presheafToSheaf", "CategoryTheory.HasSheafify", "CategoryTheory.sheafificationAdjunction", "CategoryTheory.Sheaf.createsLimits"]
 tags = ["mathlib", "stacks-00WJ"]

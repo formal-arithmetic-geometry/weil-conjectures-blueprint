@@ -20,5 +20,5 @@ image (Stacks, Tag 09A6). The latter is bounded constructible by
 field of characteristic $\ell$ (a finite free extension of $\mathbf F_\ell$).
 
 *Conclusion.* $Rj_*K$ is derived complete with bounded constructible reduction
-modulo $\pi_E$, so the residue criterion (Stacks, Tag 09C1; compare
-[sk-prop-integral-criterion]) gives $Rj_*K\in\Dbc(X,\mathcal O_E)$.
+modulo $\pi_E$, so the integral criterion [sk-prop-integral-criterion] gives
+$Rj_*K\in\Dbc(X,\mathcal O_E)$.

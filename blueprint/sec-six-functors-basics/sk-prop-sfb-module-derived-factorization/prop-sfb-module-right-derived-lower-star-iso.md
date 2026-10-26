@@ -2,7 +2,7 @@
 id = "prop-sfb-module-right-derived-lower-star-iso"
 kind = "proposition"
 title = "$Rf_*$ is $D(\\operatorname{Res}_{\\eta_f})\\circ R\\operatorname{mapMod}(f_*)$"
-order = 2553
+order = 2534
 uses = ["sk-def-sfb-module-derived-pushpull", "def-sfb-module-lower-star", "det-def-sfb-change-of-scalars", "det-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerStarIso"]
 +++

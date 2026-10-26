@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-pullback-preserves-bounded-constructible"
 kind = "lemma"
 title = "Pullback preserves bounded constructibility"
-order = 1054
+order = 1020
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_leftDerivedFunctor_upperStar_obj", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructible.mapDerivedCategory_upperStar", "AlgebraicGeometry.Etale.boundedConstructible_leftDerivedUpperStar"]
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-inverse-image-exact"]
 +++

@@ -2,7 +2,7 @@
 id = "def-fix-six-functor-datum"
 kind = "definition"
 title = "Six-functor datum"
-order = 2342
+order = 2322
 uses = ["def-compact-support-direct-image-detailed", "def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-compactification-coherence-detailed", "det-def-sfb-bounded-constructible", "sk-def-sfb-dc-lower-shriek", "sk-def-sfb-dc-upper-shriek", "sk-thm-existence", "sk-thm-sf-comp-composition"]
 +++
 Fix the global finite-field datum

@@ -3,7 +3,7 @@ id = "lem-weil-pbc-strict-henselization-triples"
 kind = "lemma"
 title = "The colimit over etale algebras with a point and a residue embedding is strictly henselian"
 lean = ["AlgebraicGeometry.Scheme.strictHenselization_triples"]
-order = 1933
+order = 1912
 uses = ["def-pc-separably-closed", "def-weil-etale-morphism", "def-weil-pbc-category-colimit", "def-weil-pbc-henselian-terminology"]
 tags = ["stacks-04GW"]
 +++

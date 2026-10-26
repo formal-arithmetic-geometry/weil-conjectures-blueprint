@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-curve-filtered-cohomology"
 kind = "lemma"
 title = "Filtered cohomology continuity on a curve"
 lean = ["AlgebraicGeometry.Scheme.H_map_isColimit_of_isFiltered"]
-order = 1339
+order = 1310
 uses = ["def-weil-pbc-etale-sheaves", "lem-weil-pbc-cohomology-filtered-colimit"]
 +++
 Let $X$ be a quasi-compact and quasi-separated scheme and let

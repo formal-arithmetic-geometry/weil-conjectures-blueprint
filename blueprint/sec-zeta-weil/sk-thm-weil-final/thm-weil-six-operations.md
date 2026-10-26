@@ -2,7 +2,7 @@
 id = "thm-weil-six-operations"
 kind = "theorem"
 title = "The assembled operations on their proved domains"
-order = 4144
+order = 4152
 uses = ["prop-functor-package", "thm-sf-biduality-class", "def-sf-setting", "det-def-sfb-bounded-constructible"]
 +++
 The seven clauses of [prop-functor-package] apply to the global

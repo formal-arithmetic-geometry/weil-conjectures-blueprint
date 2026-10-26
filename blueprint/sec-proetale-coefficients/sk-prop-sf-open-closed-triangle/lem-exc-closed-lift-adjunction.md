@@ -3,7 +3,7 @@ id = "lem-exc-closed-lift-adjunction"
 kind = "lemma"
 title = "Adjunction for the ind-etale closed lift"
 lean = ["Algebra.ClosedLift.exists_natural_homEquiv"]
-order = 1122
+order = 1088
 uses = ["def-exc-ind-etale-closed-lift", "def-weil-pbc-ind-etale-algebra", "lem-exc-closed-lift-filtered", "lem-exc-closed-lift-reduction"]
 +++
 Let $I\subset A$ be an ideal and $\overline C$ an ind-etale $A/I$-algebra.

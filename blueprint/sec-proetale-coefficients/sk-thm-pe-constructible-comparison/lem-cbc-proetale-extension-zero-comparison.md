@@ -3,7 +3,7 @@ id = "lem-cbc-proetale-extension-zero-comparison"
 kind = "lemma"
 title = "Comparison of extension by zero with the site morphism"
 lean = ["AlgebraicGeometry.ProEtale.openImmersionLowerShriekComparisonUpperStarIso", "AlgebraicGeometry.ProEtale.plusEtaleOrigin_mapDerivedCategory_openImmersionLowerShriek"]
-order = 1051
+order = 1017
 uses = ["def-weil-extension-by-zero", "def-weil-pbc-extension-by-zero", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-cbc-proetale-extension-zero"]
 +++
 Let $\nu_X:X_{\Proet}\to X_{\Et}$ be the comparison morphism of

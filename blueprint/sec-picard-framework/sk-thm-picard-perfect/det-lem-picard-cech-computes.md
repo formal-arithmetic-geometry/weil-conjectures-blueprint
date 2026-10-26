@@ -2,7 +2,7 @@
 id = "det-lem-picard-cech-computes"
 kind = "lemma"
 title = "Leray's theorem for quasi-coherent sheaves"
-order = 788
+order = 747
 uses = ["det-lem-picard-affine", "det-thm-picard-cech"]
 lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_cechComplex_linearEquiv_H_of_isSeparated"]
 +++

@@ -2,7 +2,7 @@
 id = "def-exc-open-complement-bound"
 kind = "definition"
 title = "Open-complement cohomological-dimension condition"
-order = 2804
+order = 2785
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lem-exc-closed-amplitude", "prop-exc-closed-tor"]
 +++
 Let $A$ be a finite ring, let $j:V\hookrightarrow T$ be a

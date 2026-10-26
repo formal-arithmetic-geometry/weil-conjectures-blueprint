@@ -2,7 +2,7 @@
 id = "ex-weil-multiplicative-group"
 kind = "remark"
 title = "Multiplicative-group compact-support normalization"
-order = 4127
+order = 4135
 tags = ["latex:example"]
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-coefficient-twists", "def-weil-frobenius-detailed", "def-weil-ordinary-compact-cohomology"]
 +++

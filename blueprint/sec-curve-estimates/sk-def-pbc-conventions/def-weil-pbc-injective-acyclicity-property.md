@@ -3,7 +3,7 @@ id = "def-weil-pbc-injective-acyclicity-property"
 kind = "definition"
 title = "Injective-acyclicity property"
 lean = ["AlgebraicGeometry.Etale.HasPrimeInjectiveAcyclicity", "AlgebraicGeometry.Etale.HasAllPrimeInjectiveAcyclicity"]
-order = 1296
+order = 1267
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions"]
 +++
 For a morphism of schemes [def-weil-pbc-scheme-conventions] $f:X\to Y$ (in the

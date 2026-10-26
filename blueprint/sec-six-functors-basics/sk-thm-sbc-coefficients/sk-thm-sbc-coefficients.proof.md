@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-thm-sbc-coefficients"
-uses = ["sk-thm-sf-ctf-stability", "sk-thm-pe-constructible-comparison", "sk-thm-sbc-derived", "sk-def-pe-derived-completion", "sk-prop-integral-criterion", "sk-lem-sbc-exchange-compatibility", "sk-lem-pe-derived-nakayama", "sk-lem-integral-models", "sk-cor-pe-bounded-continuity", "sk-prop-scalar-six", "sk-thm-sfb-qlbar-two-colimit"]
+uses = ["sk-thm-sf-ctf-stability", "sk-thm-pe-constructible-comparison", "sk-thm-sbc-derived", "sk-def-pe-derived-completion", "sk-prop-integral-criterion", "sk-lem-sbc-exchange-compatibility", "sk-lem-pe-derived-nakayama", "sk-lem-integral-models", "sk-cor-pe-bounded-continuity", "sk-prop-scalar-six", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-reduction-to-finite"]
 +++
 By Proposition [sk-thm-sf-ctf-stability] both sides lie in
 $\Dctf(Y',\Lambda)$; it remains to show that the canonical exchange map
@@ -17,6 +17,13 @@ integer invertible on $Y$. Finite Tor amplitude enters only through
 Proposition [sk-thm-sf-ctf-stability], which places both sides in
 $\Dctf(Y',A)$, so every finite admissible ring $A$ is allowed, regular
 or not.
+
+*Other rings.* The base change map is built from units and counits, so it
+commutes with change of coefficients
+([sk-lem-sbc-exchange-compatibility]).
+Proposition [sk-prop-reduction-to-finite] therefore extends the finite case
+to every admissible $\Lambda$. We spell out its three steps for the exchange
+map.
 
 *Integral coefficients.* Let $\pi_E$ be the uniformizer of
 $\mathcal O_E$ and

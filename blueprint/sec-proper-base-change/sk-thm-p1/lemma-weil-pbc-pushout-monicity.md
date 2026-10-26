@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-pushout-monicity"
 kind = "lemma"
 title = "Pushout preserves monomorphisms"
-order = 1601
+order = 1580
 lean = ["CategoryTheory.Abelian.mono_pushout_of_mono_f"]
 +++
 In an abelian category (for instance abelian sheaves, or sheaves of

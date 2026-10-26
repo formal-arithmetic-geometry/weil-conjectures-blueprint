@@ -3,7 +3,7 @@ id = "lem-sc-canonical-sheaf"
 kind = "lemma"
 title = "The canonical sheaf of a smooth curve"
 lean = ["AlgebraicGeometry.Scheme.Hom.isInvertible_relativeDifferentials"]
-order = 680
+order = 638
 uses = ["def-sc-curves", "def-sc-invertible-module", "def-sc-kahler-differentials"]
 +++
 Let $f:X\to S$ be a morphism of schemes which is smooth of relative

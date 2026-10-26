@@ -2,7 +2,7 @@
 id = "def-weil-ordinary-compact-cohomology"
 kind = "definition"
 title = "Ordinary and compactly supported cohomology"
-order = 2653
+order = 2634
 uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, where

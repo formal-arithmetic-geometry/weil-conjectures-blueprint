@@ -2,7 +2,7 @@
 id = "sk-rem-split"
 kind = "remark"
 title = "What sits where"
-order = 3277
+order = 3259
 tags = ["sketch"]
 +++
 The five moves are the whole proof. Conveniently located: the

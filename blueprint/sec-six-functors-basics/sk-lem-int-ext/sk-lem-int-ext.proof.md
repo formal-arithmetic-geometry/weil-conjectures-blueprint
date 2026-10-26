@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-lem-int-ext"
-uses = ["sk-lem-int-integral-heart", "sk-lem-formal-closed-support", "sk-cor-pe-bounded-continuity", "sk-lem-constructible-ext-continuity", "sk-def-cd"]
+uses = ["sk-lem-int-integral-heart", "sk-lem-formal-closed-support", "sk-cor-pe-bounded-continuity", "sk-lem-constructible-ext-continuity", "sk-def-cd", "sk-prop-integral-criterion"]
 +++
 Both statements reduce, by the long exact Ext sequences of a finite
 filtration of $C$, to $C=a_!L$, where $a=i\circ u:S\hookrightarrow X$ is the
@@ -32,8 +32,8 @@ particular for $\Hom$ and $\Ext^1$ between constructible sheaves.
 (2) Let $N\in\Cons(X,\mathcal O_E)$. Its reductions
 $N\otimes^{\mathbf L}\mathcal O_{E,X}/\pi_E^n$ are constructible torsion
 complexes in degrees $[-1,0]$, by the length one resolution, and
-$N\simeq R\varprojlim_n(N\otimes^{\mathbf L}\mathcal O_{E,X}/\pi_E^n)$ by
-derived completeness (Stacks, Tag 099Q). The cohomological dimensions
+$N\simeq R\varprojlim_n(N\otimes^{\mathbf L}\mathcal O_{E,X}/\pi_E^n)$, since $N$
+is derived complete ([sk-prop-integral-criterion]). The cohomological dimensions
 $\operatorname{cd}_\ell(j)$ and $\operatorname{cd}_\ell(S)$ of [sk-def-cd] are
 finite and depend only on $j$ and $S$. We bound the degrees of the formula
 above, applied to each reduction of $N$:

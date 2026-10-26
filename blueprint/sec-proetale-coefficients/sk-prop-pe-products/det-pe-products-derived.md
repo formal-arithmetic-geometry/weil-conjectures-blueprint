@@ -3,7 +3,7 @@ id = "det-pe-products-derived"
 kind = "lemma"
 title = "Products in the derived category are termwise"
 lean = ["DerivedCategory.isLimitFanQ", "HomologicalComplex.quasiIso_limMap"]
-order = 980
+order = 945
 uses = ["det-pe-products-exact"]
 +++
 Let $\mathcal C$ be an abelian category with K-injective resolutions, and let $I$ be a set

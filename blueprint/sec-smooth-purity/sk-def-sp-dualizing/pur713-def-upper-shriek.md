@@ -2,7 +2,7 @@
 id = "pur713-def-upper-shriek"
 kind = "definition"
 title = "Finite-coefficient exceptional inverse image"
-order = 2867
+order = 2848
 uses = ["det-def-sf-operations"]
 +++
 For $f:X\to Y$ with chosen compactification $c_f=(j_f,p_f)$ and the adjoint of Input “Finite-coefficient proper-adjoint input” (`pur713-input-proper-adjoint`, in [det-def-sf-operations]) for $p_f$, define

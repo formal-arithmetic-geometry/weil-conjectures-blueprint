@@ -2,7 +2,7 @@
 id = "def-sf-pairing"
 kind = "definition"
 title = "Derived Poincare pairing"
-order = 3312
+order = 3294
 uses = ["def-sf-cup", "def-sf-datum", "def-sf-orientation", "def-sf-pf", "def-weil-exceptional-inverse-image"]
 +++
 In the setting of [def-sf-datum] and [def-sf-orientation], assume that $k$

@@ -2,7 +2,7 @@
 id = "det-sbc-open-immersion-square"
 kind = "lemma"
 title = "Base change of an open immersion along a smooth morphism"
-order = 2499
+order = 2480
 +++
 Let $j:U\hookrightarrow Y$ be an open immersion of schemes of finite type over $k$ and let
 $g:Y'\to Y$ be smooth. Put $U'=g^{-1}(U)$, let $j':U'\hookrightarrow Y'$ be the inclusion and

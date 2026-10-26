@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-categorical-trace-4"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-categorical-trace]"
-order = 3466
+order = 3448
 uses = ["def-trf-categorical-trace", "lem-trf-chain-supertrace"]
 +++
 In the notation of [def-trf-categorical-trace], the

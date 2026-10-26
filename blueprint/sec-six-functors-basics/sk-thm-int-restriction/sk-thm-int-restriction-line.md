@@ -2,7 +2,7 @@
 id = "det-thm-int-restriction-line"
 kind = "lemma"
 title = "Integral exceptional inverse image along the projective line and affine space"
-order = 2482
+order = 2462
 uses = ["sk-prop-int-brown", "sk-prop-diagonal-tower", "sk-thm-sf-pf-adic", "det-prop-p1-adjunction-rational-unit-counit", "det-prop-p1-adjunction-rational-triangle", "det-cor-affine-space-rational-line", "det-cor-affine-space-rational-induction", "sk-lem-int-tensor", "sk-cor-int-compactness-ii"]
 +++
 On the localizing categories $\Loc(\Dbc(-,\mathcal O_E))$, with $f^!$ the

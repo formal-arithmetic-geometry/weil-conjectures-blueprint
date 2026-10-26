@@ -2,7 +2,7 @@
 id = "det-lem-integral-models-operations"
 kind = "lemma"
 title = "Inverse image, tensor product and extension by zero preserve $D^b_c(-,\\mathcal O_E)$"
-order = 2189
+order = 2168
 uses = ["sk-prop-integral-criterion", "det-prop-sfb-cartesian-coefficients-finite-free", "sk-prop-sfb-cartesian-coefficients"]
 +++
 Let $E/\mathbf Q_\ell$ be finite and all schemes Noetherian.

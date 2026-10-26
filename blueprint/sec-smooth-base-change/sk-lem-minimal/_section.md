@@ -2,7 +2,7 @@
 id = "sk-lem-minimal"
 kind = "lemma"
 title = "Minimal counterexamples occur over a point"
-order = 2099
+order = 2078
 uses = ["sk-def-bc"]
 lean = ["AlgebraicGeometry.Scheme.IsQcqsLocalProperty", "AlgebraicGeometry.exists_spec_field_of_isQcqsLocalProperty"]
 tags = ["sketch"]

@@ -3,7 +3,7 @@ id = "det-prop-sfb-module-pullback-exact-lifted"
 kind = "lemma"
 title = "Transport of module objects along an exact functor is exact"
 lean = ["CategoryTheory.Functor.preservesFiniteLimits_mapMod", "CategoryTheory.Functor.preservesFiniteColimits_mapMod"]
-order = 1201
+order = 1167
 uses = ["lem-sfb-modobj-abelian", "def-sfb-modobj-transport"]
 +++
 Let $\mathcal C$ and $\mathcal D$ be abelian monoidal categories whose tensor products are additive in

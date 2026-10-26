@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-finite-locally-constant-etale-equivalence"
 kind = "lemma"
 title = "Finite locally constant sheaves and finite-etale schemes"
 lean = ["AlgebraicGeometry.Scheme.isFiniteLocallyConstant_yoneda_and_exists_iso", "AlgebraicGeometry.Scheme.EtaleTorsor.exists_toSheafTorsor_equiv"]
-order = 1602
+order = 1581
 +++
 Let $T$ be a scheme.
 

@@ -2,7 +2,7 @@
 id = "def-pod-derived-poincare-pairing"
 kind = "definition"
 title = "Derived Poincare pairing"
-order = 3404
+order = 3386
 uses = ["def-pod-coefficient-dual-on-x"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), let $\Lambda\in\{A,\mathcal O_E,E,\overline{\mathbf Q}_{\ell}\}$ be an admissible coefficient ring, regarded as a condensed ring, and let $K\in D^b_{ctf}(X,\Lambda)$ be perfect over $\Lambda_X$. The *derived Poincare pairing* is the composite

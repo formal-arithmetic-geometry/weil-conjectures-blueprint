@@ -2,7 +2,7 @@
 id = "sec-six-functors"
 kind = "section"
 title = "Six Functors"
-order = 3279
+order = 3261
 uses = ["sec-curve-estimates", "sec-nagata-compactification", "sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sk-thm-br"]
 +++
 **Content.** For separated finite-type morphisms of finite-type schemes over

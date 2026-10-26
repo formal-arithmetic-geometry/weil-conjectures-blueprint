@@ -3,7 +3,7 @@ id = "sbc-lem-finite-range-comparison"
 kind = "lemma"
 title = "Finite-range comparison"
 lean = ["DerivedCategory.Plus.isIso_app_of_isGE_of_isLE", "DerivedCategory.Plus.isIso_app_of_bounded", "AlgebraicGeometry.Etale.isIso_baseChange_app_of_isGE_of_isLE"]
-order = 2076
+order = 2055
 uses = ["def-weil-pbc-derived-categories", "thm-sp-truncation-e2"]
 +++
 If $H^q(K)=0$ outside $[a,b]$ and the comparison of the two

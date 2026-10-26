@@ -2,7 +2,7 @@
 id = "rem-ptr-pc-derived-pullback-10"
 kind = "remark"
 title = "Pointer to the properties of [def-pc-derived-pullback]"
-order = 768
+order = 727
 uses = ["def-pc-derived-pullback", "lem-pc-flat-complex-derived-pullback"]
 +++
 In the notation of [def-pc-derived-pullback], the following holds. That a bounded above complex of

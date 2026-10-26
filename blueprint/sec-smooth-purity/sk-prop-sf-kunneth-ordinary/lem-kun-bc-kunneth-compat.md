@@ -2,7 +2,7 @@
 id = "lem-kun-bc-kunneth-compat"
 kind = "lemma"
 title = "Cohomology of the base change map through the Kunneth identification"
-order = 3195
+order = 3177
 uses = ["def-kun-kunneth-map", "def-kun-projective", "def-kun-unbounded-exchange", "lem-kun-0f14b", "lem-kun-leray-bdd", "lem-kun-open-immersion-restriction", "lem-kun-tensor-unit"]
 +++
 Let $K$ be a separably closed field, let $j:U\to X$ be an open

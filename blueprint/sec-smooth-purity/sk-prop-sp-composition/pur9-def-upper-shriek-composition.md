@@ -2,7 +2,7 @@
 id = "pur9-def-upper-shriek-composition"
 kind = "definition"
 title = "Composition comparison for standing exceptional inverse images"
-order = 3052
+order = 3034
 +++
 Assume Input “Composition of standing compact-support direct images” (`pur9-input-ambient-composition`). For composable $f:X\to Y$ and $g:Y\to S$ as in Definition “Standing choices” (`pur9-def-standing-choices`) and $L\in D(S_{\Proet},\mathcal O_E/\pi_E^n)$, let
 

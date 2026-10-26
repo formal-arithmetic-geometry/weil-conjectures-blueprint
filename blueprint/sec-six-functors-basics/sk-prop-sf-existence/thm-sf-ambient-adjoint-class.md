@@ -2,7 +2,7 @@
 id = "thm-sf-ambient-adjoint-class"
 kind = "theorem"
 title = "The exceptional adjoint on the bounded comparison class"
-order = 2324
+order = 2304
 uses = ["def-sf-fullcd-class", "def-weil-pbc-site-comparison-morphism", "lem-amb-etale-compact-comparisons", "lem-sf-class-compact-support-comparison", "thm-amb-etale-exceptional-adjoint", "thm-sf-fullcd-class", "thm-weil-pbc-site-comparison"]
 +++
 Let $f:X\to Y$ be separated of finite type over $\Fbar$, with a

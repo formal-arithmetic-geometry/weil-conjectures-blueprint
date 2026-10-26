@@ -3,7 +3,7 @@ id = "lem-pc-degree-base-change"
 kind = "lemma"
 title = "Degree: base change and tensor products"
 lean = ["AlgebraicGeometry.Scheme.Modules.degree_pullback", "AlgebraicGeometry.Scheme.Modules.degree_pullback_of_isPullback", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.eulerChar_cokernel_whiskerRight", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.eulerChar_tensorObj_dual_toModules", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.degree_dual_toModules", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.degree_dual_toModules_eq_one", "AlgebraicGeometry.Scheme.Modules.degree_tensorObj", "AlgebraicGeometry.Scheme.degree_tensorObj_pullback_fst"]
-order = 738
+order = 696
 uses = ["def-pc-base-change", "def-pc-degree-line-bundle", "def-pc-divisor-line-bundle", "def-pc-euler-characteristic", "def-nagata-invertible-ideal", "def-sc-invertible-module", "pqf-lem-affine-vanishing", "lem-pc-euler-additive", "lem-pc-euler-characteristic-well-defined", "lem-pc-flat-base-change-cohom", "lem-pc-proper-base-change", "lem-sc-point-cartier", "lem-sc-smooth-regular", "lem-sc-regular-dim1-dvr"]
 +++
 Let $k$ be a field and $X$ a proper scheme over $k$.

@@ -3,7 +3,7 @@ id = "lem-weil-pbc-module-sheaves-grothendieck-abelian"
 kind = "lemma"
 title = "Sheaves of Lambda-modules on the small etale site form a Grothendieck abelian category"
 lean = ["AlgebraicGeometry.Scheme.isGrothendieckAbelian_sheaf_smallEtaleTopology_moduleCat"]
-order = 1968
+order = 1947
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site", "def-weil-pbc-constant-sheaf", "def-weil-sheaf-of-modules-category", "def-sp-grothendieck-abelian", "def-weil-pbc-abelian-etale-sheaves"]
 tags = ["stacks-03DA"]
 +++

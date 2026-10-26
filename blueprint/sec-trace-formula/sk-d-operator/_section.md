@@ -2,9 +2,8 @@
 id = "sk-d-operator"
 kind = "definition"
 title = "Global operators"
-order = 3640
+order = 3622
 uses = ["sk-d-corr", "sk-d-six"]
-lean = ["AlgebraicGeometry.ProEtale.Correspondence.globalOperator"]
 tags = ["sketch"]
 +++
 For an endocorrespondence with $c_2$ proper, the

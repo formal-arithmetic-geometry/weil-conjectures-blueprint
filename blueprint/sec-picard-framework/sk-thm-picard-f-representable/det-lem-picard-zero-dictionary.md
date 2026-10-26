@@ -2,7 +2,7 @@
 id = "det-lem-picard-zero-dictionary"
 kind = "lemma"
 title = "The zero-scheme dictionary"
-order = 823
+order = 786
 uses = ["det-cor-picard-degree-g"]
 lean = ["AlgebraicGeometry.exists_isEffectiveCartierCenter_hilbertPresheaf", "AlgebraicGeometry.exists_isEffectiveCartierCenter_hilbertPresheaf_zeroLocus_adjointSection"]
 +++

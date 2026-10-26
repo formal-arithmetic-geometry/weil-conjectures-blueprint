@@ -2,12 +2,12 @@
 id = "sk-cor-pe-finite-tor-comparison"
 kind = "corollary"
 title = "Finite Tor amplitude under comparison"
-order = 1052
+order = 1018
 lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.torAmplitudeIn_mapDerivedCategory_iff", "AlgebraicGeometry.ProEtale.DerivedCategory.constructibleFiniteTor_mapDerivedCategory", "DerivedCategory.torAmplitudeIn_mapDerivedCategory_obj_iff", "AlgebraicGeometry.ProEtale.preservesFlat_comparisonUpperStar"]
 uses = ["sk-thm-pe-constructible-comparison"]
 tags = ["sketch"]
 +++
-For a qcqs scheme $X$ and a finite ring $\Lambda$, the equivalence
+For a qcqs scheme $X$ and a discrete Noetherian ring $\Lambda$, the equivalence
 $\nu_X^*\colon D^b_c(X_{\Et},\Lambda)\to\Dbc(X,\Lambda)$ of
 [sk-thm-pe-constructible-comparison] restricts to
 

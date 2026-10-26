@@ -3,7 +3,7 @@ id = "thm-sf-dual-perfect"
 kind = "theorem"
 title = "The dual of a perfect complex"
 lean = ["CategoryTheory.MonoidalClosed.ihomCurry_comp_map_ihomIsoIhomUnitTensor_hom", "CategoryTheory.MonoidalClosed.map_ihomIsoIhomUnitTensor_hom", "AlgebraicGeometry.ProEtale.verdierDualIsoDerivedDualTensor", "AlgebraicGeometry.ProEtale.whiskerLeft_verdierDualIsoDerivedDualTensor_hom_app_comp", "AlgebraicGeometry.ProEtale.isDualizable_verdierDual", "AlgebraicGeometry.ProEtale.isIso_toIhomIhomUnit", "AlgebraicGeometry.ProEtale.toIhomIhom_comp_verdierDualVerdierDualIso_hom", "AlgebraicGeometry.ProEtale.isIso_toIhomIhom_dualizingComplex", "AlgebraicGeometry.ProEtale.verdierDualEquivalenceOfIso"]
-order = 3367
+order = 3349
 uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "cor-pur-finite-stage-smooth-dualizing-complex", "thm-pur-finite-reduction-of-purity", "def-pod-conventions", "def-sf-datum", "def-sf-orientation", "def-weil-derived-pullback-tensor-hom", "lem-sf-hom-finite-projective", "lem-sf-twist-interchange", "prop-sf-dualizable", "prop-sf-dualizable-hom"]
 +++
 In the Poincare duality conventions of [def-pod-conventions] (an

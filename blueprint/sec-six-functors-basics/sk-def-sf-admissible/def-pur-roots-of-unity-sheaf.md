@@ -2,7 +2,7 @@
 id = "def-pur-roots-of-unity-sheaf"
 kind = "definition"
 title = "The pro-etale sheaf of roots of unity"
-order = 2661
+order = 2642
 uses = ["def-weil-pbc-proetale-site", "def-pur-proetale-structure-sheaf", "def-pur-proetale-units-sheaf", "def-pur-abelian-sheaf-kernel", "def-weil-sheaf-of-modules-category", "def-weil-pbc-constant-sheaf", "lem-pur-torsion-sheaf-constant-module"]
 tags = ["stacks-03PK"]
 +++

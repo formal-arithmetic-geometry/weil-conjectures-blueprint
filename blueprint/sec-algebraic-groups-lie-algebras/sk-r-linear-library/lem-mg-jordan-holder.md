@@ -3,7 +3,7 @@ id = "lem-mg-jordan-holder"
 kind = "lemma"
 title = "Elementary Jordan–Holder lemma"
 lean = ["Representation.CompositionSeries.jordanHolder"]
-order = 3755
+order = 3737
 uses = ["def-mg-weil-composition-series", "lem-mg-composition-series-exists"]
 +++
 Any two composition series of a finite-dimensional Weil representation

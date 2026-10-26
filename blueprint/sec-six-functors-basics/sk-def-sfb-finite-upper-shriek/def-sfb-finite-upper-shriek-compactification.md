@@ -1,20 +1,18 @@
 +++
 id = "def-sfb-finite-upper-shriek-compactification"
 kind = "definition"
-title = "Exceptional pullback along a compactification"
-order = 2527
-uses = ["def-sfb-finite-upper-star", "lem-sfb-finite-upper-star-exact", "sk-def-nagata-sketch-data", "thm-sfb-finite-proper-pushforward-left-adjoint"]
-lean = ["AlgebraicGeometry.ProEtale.rightDerivedUpperShriekOfCompactification"]
+title = "Étale exceptional pullback along a compactification"
+lean = ["AlgebraicGeometry.Etale.rightDerivedUpperShriekOfCompactification"]
+order = 2508
+uses = ["def-weil-pbc-inverse-image", "sk-def-nagata-sketch-data", "thm-sfb-finite-proper-pushforward-left-adjoint"]
 +++
-Let $\mathcal A$ be a Grothendieck abelian category and
-$c=(X\xrightarrow{i}\bar X\xrightarrow{g}Y)$ a compactification of $f$
-[sk-def-nagata-sketch-data]. The *exceptional pullback along $c$* is
+Let $\Lambda$ be a finite ring and $c=(X\xrightarrow{i}\bar X\xrightarrow{g}Y)$ a
+compactification of $f$ [sk-def-nagata-sketch-data]. The *étale exceptional pullback along $c$* is
 
 $$
-Rf^!_c:=D(i^*)\circ Rg^!\colon D(Y_{\mathrm{proét}},\mathcal A)\to D(X_{\mathrm{proét}},\mathcal A),
+Rf^!_c:=D(i^*)\circ Rg^!\colon D(Y_{\et},\Lambda)\to D(X_{\et},\Lambda),
 $$
 
-where $Rg^!$ is a chosen right adjoint of $Rg_*$
-([thm-sfb-finite-proper-pushforward-left-adjoint], $g$ being proper) and $D(i^*)$ applies
-the exact pullback $i^*$ ([def-sfb-finite-upper-star], [lem-sfb-finite-upper-star-exact])
-levelwise.
+where $Rg^!$ is a chosen right adjoint of the étale $Rg_*$
+([thm-sfb-finite-proper-pushforward-left-adjoint], $g$ being proper) and $D(i^*)$ applies the
+exact étale pullback $i^*$ ([def-weil-pbc-inverse-image]) levelwise.

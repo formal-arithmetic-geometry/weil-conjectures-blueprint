@@ -2,7 +2,7 @@
 id = "sk-thm-pd-verdier-duality"
 kind = "theorem"
 title = "Verdier biduality"
-order = 3298
+order = 3280
 uses = ["sk-def-ops", "sk-lem-finite", "sk-lem-pd-preservation", "sk-lem-pd-generic-restriction", "sk-thm-sf-tensor-hom", "sk-prop-scalar-six", "sk-lem-pe-derived-nakayama", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 tags = ["sketch"]
 +++

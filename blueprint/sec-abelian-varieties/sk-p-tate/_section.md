@@ -2,9 +2,9 @@
 id = "sk-p-tate"
 kind = "proposition"
 title = "No Frobenius-fixed vector"
-lean = ["AlgebraicGeometry.IsAbelianVariety.eq_zero_of_mem_tateModule_of_forall_geometricFrobenius_fixed", "AlgebraicGeometry.IsAbelianVariety.eq_zero_of_map_geometricFrobenius_eq_self"]
-order = 614
-uses = ["sk-d-ab-field", "sk-d-ab-tate", "sk-prop-av-tate-rank"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.eq_zero_of_mem_tateModule_of_forall_geometricFrobenius_fixed", "AlgebraicGeometry.IsAbelianVariety.eq_zero_of_map_geometricFrobenius_eq_self", "AlgebraicGeometry.IsAbelianVariety.frobeniusSubOneLinearEquiv"]
+order = 551
+uses = ["sk-prop-av-tate-rank", "sk-def-av"]
 tags = ["sketch"]
 +++
 Let $A_0/\mathbf F_q$ be an abelian variety, let
@@ -18,4 +18,5 @@ $$
 $$
 
 Consequently $F^m-1$ is an automorphism of the finite-dimensional
-$\mathbf Q_\ell$-vector space $V_\ell A$.
+$\mathbf Q_\ell$-vector space $V_\ell A$, and hence of $V_\ell A\otimes_{\mathbf Q_\ell}E$ for every
+field extension $E$ of $\mathbf Q_\ell$.

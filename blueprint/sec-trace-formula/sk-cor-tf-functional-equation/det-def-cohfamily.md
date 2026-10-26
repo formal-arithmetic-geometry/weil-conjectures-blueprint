@@ -3,7 +3,7 @@ id = "det-def-cohfamily"
 kind = "definition"
 title = "The smooth-proper cohomological family"
 lean = ["TraceDatum", "TraceDatum.P"]
-order = 3560
+order = 3542
 uses = ["def-weil-smooth-proper-cohomological-family"]
 +++
 Let $X_0/k_0$ be smooth and proper of pure dimension

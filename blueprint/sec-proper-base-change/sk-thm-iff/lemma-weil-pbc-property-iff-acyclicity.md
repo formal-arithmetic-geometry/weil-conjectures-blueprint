@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-property-iff-acyclicity"
 kind = "lemma"
 title = "Equivalence of PBC and IA"
 lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange.quotient", "AlgebraicGeometry.Etale.HasTorsionBaseChange.hasInjectiveAcyclicity", "AlgebraicGeometry.Etale.HasInjectiveAcyclicity.hasTorsionBaseChange_of_isIso_baseChangeMap", "AlgebraicGeometry.Etale.HasInjectiveAcyclicity.hasTorsionBaseChange", "AlgebraicGeometry.Etale.hasTorsionBaseChange_of_hasInjectiveAcyclicity"]
-order = 1570
+order = 1549
 uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-injective-acyclicity-property", "def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "def-weil-pbc-cartesian-square", "def-weil-pbc-torsion-etale-sheaf"]
 +++
 For a proper morphism [def-weil-pbc-scheme-conventions] $f$, the following

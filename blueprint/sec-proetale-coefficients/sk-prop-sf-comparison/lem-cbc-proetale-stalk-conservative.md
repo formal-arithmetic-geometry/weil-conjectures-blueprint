@@ -2,7 +2,7 @@
 id = "lem-cbc-proetale-stalk-conservative"
 kind = "lemma"
 title = "Detecting isomorphisms on the pro-etale site"
-order = 1035
+order = 1000
 lean = ["CategoryTheory.Sheaf.isIso_iff_of_coversTop", "AlgebraicGeometry.ProEtale.upperStarIsoLocalizationRestriction", "AlgebraicGeometry.ProEtale.isIso_of_isIso_app_affineProEt", "AlgebraicGeometry.ProEtale.ShortComplex.exact_of_exact_sectionsFunctor", "AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar", "AlgebraicGeometry.Scheme.isIso_of_isIso_sheafFiber_map", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map"]
 uses = ["def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-ind-etale-basis", "lem-weil-pbc-proetale-restriction-injectives", "lemma-weil-pbc-geometric-stalk-conservative", "thm-weil-pbc-site-comparison"]
 +++

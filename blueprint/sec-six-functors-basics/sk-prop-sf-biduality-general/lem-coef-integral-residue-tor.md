@@ -2,7 +2,7 @@
 id = "lem-coef-integral-residue-tor"
 kind = "lemma"
 title = "The residue reduction controls integral Tor amplitude"
-order = 2854
+order = 2835
 uses = ["det-def-sfb-bounded-constructible", "det-prop-integral-criterion-reductions", "def-weil-finite-tor-amplitude", "lem-exc-residue-tor-test", "sk-thm-existence"]
 +++
 Let $R=\mathcal O_E$, regarded as a condensed ring, and let

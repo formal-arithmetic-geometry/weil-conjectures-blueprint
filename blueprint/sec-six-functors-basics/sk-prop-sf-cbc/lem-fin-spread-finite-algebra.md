@@ -3,7 +3,7 @@ id = "lem-fin-spread-finite-algebra"
 kind = "lemma"
 title = "Spreading a finite algebra from the generic fibre"
 lean = ["AlgebraicGeometry.ProjectiveSpace.exists_isFinite_spread"]
-order = 2721
+order = 2702
 uses = ["def-weil-pbc-scheme-conventions", "lem-pc-section-clearing-denominators", "pqf-def-coherent"]
 +++
 Let $A$ be a Noetherian domain with fraction field $K$, and let

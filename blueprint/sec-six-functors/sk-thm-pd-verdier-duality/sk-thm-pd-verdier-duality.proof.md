@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-thm-pd-verdier-duality"
-uses = ["sk-lem-finite", "sk-lem-pd-preservation", "sk-lem-pd-generic-restriction", "sk-thm-sf-tensor-hom", "sk-prop-scalar-six", "sk-lem-pe-derived-nakayama", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
+uses = ["sk-lem-finite", "sk-lem-pd-preservation", "sk-lem-pd-generic-restriction", "sk-thm-sf-tensor-hom", "sk-prop-scalar-six", "sk-lem-pe-derived-nakayama", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-reduction-to-finite"]
 +++
 The key case is finite $A$ over an algebraically closed field; the
 other coefficient rings and the finite base field follow by formal
@@ -64,6 +64,11 @@ same continuity and evaluation calculation as in
 [sk-lem-pd-generic-restriction] commutes duality with that
 pullback. It is conservative on constructible classical complexes,
 so the finite result descends.
+
+The double-dual map $\delta:\mathrm{id}\to\mathbb D_X\mathbb D_X$ is a natural transformation of
+exact functors, built from $a_X^!$, internal Hom and evaluation, and [sk-prop-scalar-six]
+identifies its extensions of scalars. [sk-prop-reduction-to-finite] therefore extends the finite
+case to every admissible $\Lambda$. In detail:
 
 For $\mathcal O_E$, [sk-prop-scalar-six] identifies
 the reduction of $\delta_K$ modulo a uniformizer with the

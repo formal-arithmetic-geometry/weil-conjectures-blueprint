@@ -2,7 +2,7 @@
 id = "lem-sfb-modobj-grothendieck"
 kind = "lemma"
 title = "Module objects form a Grothendieck abelian category"
-order = 1142
+order = 1108
 uses = ["lem-sfb-modobj-abelian", "lem-sfb-modobj-forget-faithful", "lem-sfb-modobj-forget-left-exact", "lem-sfb-modobj-forget-right-exact"]
 lean = ["CategoryTheory.Mod.isGrothendieckAbelian"]
 +++

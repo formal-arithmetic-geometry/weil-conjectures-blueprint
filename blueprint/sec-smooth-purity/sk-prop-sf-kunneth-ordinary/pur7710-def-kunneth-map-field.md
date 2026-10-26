@@ -2,7 +2,7 @@
 id = "pur7710-def-kunneth-map-field"
 kind = "definition"
 title = "The ordinary Künneth morphism with finite-field coefficients"
-order = 3088
+order = 3070
 uses = ["pur7710-def-constant-complex-field", "pur7710-def-derived-sections-field", "pur7710-def-exterior-product-field", "pur7710-def-finite-field-functors", "pur7710-def-kunneth-map"]
 +++
 For $r\geq1$ and $K,L$ as in Definition [pur7710-def-exterior-product-field], the morphism

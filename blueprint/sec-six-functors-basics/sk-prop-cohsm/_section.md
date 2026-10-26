@@ -2,7 +2,7 @@
 id = "sk-prop-cohsm"
 kind = "proposition"
 title = "The exceptional inverse image of a smooth morphism"
-order = 2365
+order = 2345
 uses = ["sk-prop-a1", "sk-prop-sf-cbc"]
 lean = ["AlgebraicGeometry.Etale.isInvertible_dualizingComplex", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_obj_derivedTensor", "AlgebraicGeometry.Etale.nonempty_iso_leftDerivedUpperStar_comp_rightDerivedUpperShriek"]
 tags = ["sketch"]

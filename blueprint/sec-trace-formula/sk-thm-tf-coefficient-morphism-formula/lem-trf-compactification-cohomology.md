@@ -3,7 +3,7 @@ id = "lem-trf-compactification-cohomology"
 kind = "lemma"
 title = "Cohomology on a chosen compactification"
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerShriekCompactificationIso"]
-order = 3537
+order = 3519
 uses = ["def-compact-support-direct-image-detailed", "def-trf-coefficient-conventions", "def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-extension-by-zero", "def-weil-finite-coefficient-point", "def-weil-finite-torsion-constructibility", "def-weil-ordinary-compact-cohomology", "def-weil-pbc-etale-origin-witness", "prop-compactification-coherence-detailed"]
 +++
 Use the finite coefficient

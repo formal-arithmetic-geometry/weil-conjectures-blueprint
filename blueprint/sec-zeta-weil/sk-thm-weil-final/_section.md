@@ -2,7 +2,7 @@
 id = "sk-thm-weil-final"
 kind = "theorem"
 title = "The Weil conjectures for smooth proper schemes"
-order = 4143
+order = 4151
 uses = ["sk-cor-tf-point-counting", "sk-thm-intfactors", "sk-cor-tf-functional-equation", "sk-cor-trace"]
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures"]
 tags = ["sketch"]

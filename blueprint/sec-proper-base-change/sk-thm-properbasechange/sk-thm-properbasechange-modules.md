@@ -3,7 +3,7 @@ id = "det-properbasechange-modules"
 kind = "lemma"
 title = "Étale proper base change for module coefficients"
 lean = ["AlgebraicGeometry.Etale.isIso_derivedBaseChangeMapPlus_app_restrictScalars_iff", "AlgebraicGeometry.Etale.isIso_baseChange_of_isProper_of_torsionHomology"]
-order = 2033
+order = 2012
 uses = ["thm-weil-pbc-bounded-below", "det-pbc-conventions-module-cohomology", "def-weil-pbc-derived-exchange", "lemma-weil-pbc-derived-exchange-replacement", "lemma-weil-pbc-leray-acyclicity"]
 +++
 Let $f:X\to Y$ and $g:Y'\to Y$ be morphisms of schemes, and let $f',g'$ be

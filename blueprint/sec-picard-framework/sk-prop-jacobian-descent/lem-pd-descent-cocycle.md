@@ -3,7 +3,7 @@ id = "lem-pd-descent-cocycle"
 kind = "lemma"
 title = "The cocycle condition for the canonical transport"
 lean = ["CategoryTheory.Functor.RepresentableBy.overTransport_overTransport"]
-order = 889
+order = 854
 uses = ["def-pd-descent-datum"]
 +++
 Let $p:X\to Y$ be a morphism of schemes, $F$ a presheaf of sets on the

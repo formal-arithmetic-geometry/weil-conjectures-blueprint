@@ -2,7 +2,7 @@
 id = "def-kun-truncations"
 kind = "definition"
 title = "Truncations and homotopy colimits"
-order = 2394
+order = 2374
 uses = ["def-sp-truncation-couple", "thm-sp-truncation-e2"]
 +++
 For a complex $\mathcal E^\bullet$ of etale sheaves, the

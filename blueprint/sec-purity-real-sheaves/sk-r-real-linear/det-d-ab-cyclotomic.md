@@ -3,8 +3,8 @@ id = "det-d-ab-cyclotomic"
 kind = "definition"
 title = "The cyclotomic Tate module"
 lean = ["cyclotomicTateModule"]
-order = 3821
-uses = ["sk-d-ab-field", "sk-d-ab-tate"]
+order = 3803
+uses = ["d-ab-field", "def-tate-module-abelian-group"]
 +++
 The multiplicative group scheme $\mathbf G_m$ has
 $\mathbf G_m(R)=R^\times$ for each commutative

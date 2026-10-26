@@ -3,7 +3,7 @@ id = "def-pc-finite-locally-free"
 kind = "definition"
 title = "Finite locally free morphisms"
 lean = ["AlgebraicGeometry.Scheme.Hom.IsFiniteLocallyFree", "AlgebraicGeometry.Scheme.Hom.IsFiniteLocallyFreeOfDegree"]
-order = 620
+order = 566
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-weil-pbc-scheme-conventions"]
 +++
 Let $f:X\to S$ be a morphism of schemes. Then $f$ is *finite locally

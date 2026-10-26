@@ -2,7 +2,7 @@
 id = "sk-prop-ind-heart"
 kind = "proposition"
 title = "Ind-constructible sheaves"
-order = 2225
+order = 2205
 uses = ["sk-lem-coefficient-heart", "sk-lem-constructible-ext-continuity"]
 tags = ["sketch"]
 +++

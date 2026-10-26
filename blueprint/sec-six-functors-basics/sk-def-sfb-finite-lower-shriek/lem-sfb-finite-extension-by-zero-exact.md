@@ -2,7 +2,7 @@
 id = "lem-sfb-finite-extension-by-zero-exact"
 kind = "lemma"
 title = "$j_!$ is exact"
-order = 2506
+order = 2487
 uses = ["def-weil-extension-by-zero"]
 lean = ["AlgebraicGeometry.ProEtale.preservesFiniteLimits_openImmersionLowerShriek"]
 +++

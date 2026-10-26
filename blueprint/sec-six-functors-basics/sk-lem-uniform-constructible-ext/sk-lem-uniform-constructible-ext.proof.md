@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-lem-uniform-constructible-ext"
-uses = ["sk-lem-coefficient-heart", "sk-lem-formal-closed-support", "sk-lem-formal-closed-support-ii", "sk-lem-stratified-lattice", "sk-lem-constructible-ext-continuity", "sk-thm-sfb-qlbar-two-colimit", "sk-lem-base-field-cd", "sk-def-cd"]
+uses = ["sk-lem-coefficient-heart", "sk-lem-formal-closed-support", "sk-lem-formal-closed-support-ii", "sk-lem-stratified-lattice", "sk-lem-integral-models", "sk-lem-constructible-ext-continuity", "sk-thm-sfb-qlbar-two-colimit", "sk-lem-base-field-cd", "sk-def-cd"]
 +++
 By the long exact Ext sequences, a bound that holds for every subquotient of a finite filtration of
 the source holds for the source (take the maximum), and a bound that holds for every subquotient of a
@@ -19,21 +19,21 @@ $j\colon X\setminus Z\hookrightarrow X$ is the open complement of $Z$ ([det-unif
 Both cohomological dimensions are finite by Stacks, Tag 0F10 and [sk-lem-base-field-cd], and the bound
 depends only on $a$.
 
-*Lattices.* Take first $\Lambda=E$. After refining the stratifications ([sk-lem-stratified-lattice])
-and enlarging $E$, $L$ and $M$ contain lisse $\mathcal O_E$-lattices $L_0$ and $M_0$. Enlarging $E$ is
-harmless: if $E'/E$ is finite, then $E'_X$ is finite free over $E_X$, so $\Ext^q_{E'}$ of the extended
-sheaves is a finite direct sum of copies of $\Ext^q_E$, and a bound over $E'$ gives the same bound over
-$E$. The functor $b_!$ is the composite of an extension by zero, which is exact and preserves limits
-(Stacks, Tag 09BP), and a closed direct image, which is exact (Stacks, Tag 09BM) and preserves limits as a
-right adjoint. Hence $b_!M_0$ is a $\pi_E$-torsion free, derived complete sheaf, and its reductions are
+*Lattices.* Take first $\Lambda=E$. After refining the stratifications ([sk-lem-stratified-lattice]),
+$L$ and $M$ contain lisse $\mathcal O_E$-lattices $L_0$ and $M_0$. The refinement of the source stratum
+depends only on $L$, and that of the target only on $M$, so the bound obtained for the refined source
+strata is still independent of $N$.
+
+By parts (3) and (4) of [sk-lem-integral-models], $b_!M_0$ lies in $\Dbc(X,\mathcal O_E)$, so it is
+derived complete, and its reductions
 
 $$
-b_!M_0\otimes^{\mathbf L}_{\mathcal O_{E,X}}\mathcal O_{E,X}/\pi_E^n=b_!(M_0/\pi_E^n).
+b_!M_0\otimes^{\mathbf L}_{\mathcal O_{E,X}}\mathcal O_{E,X}/\pi_E^n=b_!(M_0/\pi_E^n)
 $$
 
-These are constructible torsion sheaves pulled back from $X_{\mathrm{ét}}$: lisse torsion sheaves descend
-(Stacks, Tag 099Y), and extension by zero and closed direct image commute with this pullback
-(Stacks, Tags 09AF, 09A6).
+are constructible torsion sheaves, pulled back from $X_{\mathrm{ét}}$ because extension by zero and closed
+direct image commute with this pullback (Stacks, Tags 09AF, 09A6). The equality holds because $b_!$ is
+exact and $M_0$ is $\pi_E$-torsion free.
 
 *Torsion targets.* By Stacks, Tag 09A6, $Rj_*$ in $\D(X_{\mathrm{proét}},\mathcal O_E/\pi_E^n)$ of a sheaf
 pulled back from the étale site is the pullback of its direct image in
@@ -91,8 +91,16 @@ and by part (2) of [sk-lem-constructible-ext-continuity] the cohomology of the r
 colimit of the groups $\Ext^q_{\mathcal O_E}(a_!L_0,b_!M_0)$. So the integral bound gives the bound for
 $E$.
 
-*The case $\Lambda=\Qlb$.* By [sk-thm-sfb-qlbar-two-colimit], $a_!L$ and $b_!M$ are extensions of
-scalars of sheaves defined over a common finite $E$. Since $\overline{\mathbf Q}_{\ell,X}=\varinjlim_{E'}E'_X$
-is flat over $E_X$, extension and restriction of scalars and [sk-lem-constructible-ext-continuity]
-identify $\Ext^q_{\Qlb}(a_!L,b_!M)$ with the colimit of the corresponding groups over finite
-extensions $E'$ of $E$, which vanish in the same range ([det-uniform-constructible-ext-rational]).
+*The case $\Lambda=\Qlb$.* By [sk-thm-sfb-qlbar-two-colimit], there are a finite $E$ and lisse
+$E$-sheaves $L'$, $M'$ with $L=L'_{\Qlb}$ and $M=M'_{\Qlb}$, so that $a_!L=(a_!L')_{\Qlb}$ and
+$b_!M=(b_!M')_{\Qlb}$, and
+
+$$
+\Ext^q_{\Qlb}(a_!L,b_!M)=\varinjlim_{E'\supset E}\Ext^q_{E'}\bigl((a_!L')_{E'},(b_!M')_{E'}\bigr).
+$$
+
+The groups on the right vanish for $q$ above a bound independent of $E'$. Indeed, after refining the
+strata, $L'$ contains a lisse $\mathcal O_E$-lattice $L'_0$, and $L'_0\otimes_{\mathcal O_E}\mathcal O_{E'}$
+is a lisse $\mathcal O_{E'}$-lattice in $(L')_{E'}$ on the same strata. The case $\Lambda=E'$ therefore
+gives the bound $\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$ for each refined stratum $S$,
+which does not depend on $E'$ ([det-uniform-constructible-ext-rational]).

@@ -2,7 +2,7 @@
 id = "def-sfb-dc-open-lower-shriek-adjunction"
 kind = "definition"
 title = "The adjunction $j_!\\dashv Lj^*$ on $D_{\\mathrm{cons}}$"
-order = 2632
+order = 2613
 uses = ["def-sfb-dc-open-lower-shriek", "def-sfb-dc-upper-star"]
 +++
 For a commutative condensed ring $\Lambda$ and an open immersion $j\colon U\to X$ of the setting,

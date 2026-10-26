@@ -3,7 +3,7 @@ id = "lem-weil-pbc-normal-constant-generic"
 kind = "lemma"
 title = "Constant sheaves on a normal scheme and the generic point"
 lean = ["AlgebraicGeometry.Etale.isIso_unit_constantSheaf_of_isIntegrallyClosed"]
-order = 1607
+order = 1586
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "def-weil-pbc-strict-henselization-limit", "lemma-weil-pbc-etale-cohomology-continuity", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $Y$ be an integral scheme all of whose local rings are integrally

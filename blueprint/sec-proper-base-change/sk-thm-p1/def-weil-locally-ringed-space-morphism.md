@@ -2,7 +2,7 @@
 id = "def-weil-locally-ringed-space-morphism"
 kind = "definition"
 title = "Morphism of locally ringed spaces (continuous map and map of structure sheaves)"
-order = 1593
+order = 1572
 uses = ["def-pc-scheme"]
 lean = ["AlgebraicGeometry.LocallyRingedSpace.Hom"]
 tags = ["mathlib", "stacks-0091"]

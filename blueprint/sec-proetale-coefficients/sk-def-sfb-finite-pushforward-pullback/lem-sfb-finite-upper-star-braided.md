@@ -2,7 +2,7 @@
 id = "lem-sfb-finite-upper-star-braided"
 kind = "lemma"
 title = "$g^*$ is braided monoidal"
-order = 923
+order = 888
 uses = ["def-sfb-finite-lower-star-lax-monoidal", "def-sfb-finite-upper-star-monoidal"]
 lean = ["AlgebraicGeometry.ProEtale.laxBraided_upperStar"]
 +++

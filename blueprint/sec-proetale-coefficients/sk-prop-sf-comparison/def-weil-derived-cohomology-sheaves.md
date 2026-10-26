@@ -2,7 +2,7 @@
 id = "def-weil-derived-cohomology-sheaves"
 kind = "definition"
 title = "Cohomology sheaves of a derived complex"
-order = 1029
+order = 994
 lean = ["AlgebraicGeometry.ProEtale.cohomologySheaf", "AlgebraicGeometry.ProEtale.cohomologySheafQIso", "AlgebraicGeometry.ProEtale.isLE_iff_isZero_cohomologySheaf", "AlgebraicGeometry.ProEtale.isGE_iff_isZero_cohomologySheaf"]
 uses = ["def-weil-pbc-proetale-site"]
 +++

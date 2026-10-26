@@ -2,7 +2,7 @@
 id = "det-sp-trace-basic"
 kind = "lemma"
 title = "Basic properties of the smooth trace"
-order = 3059
+order = 3041
 uses = ["def-pur-smooth-trace", "det-sp-orientation-charts", "lem-amb-cartier-kummer-map", "lem-pur-divisor-class"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$ and $\Lambda$

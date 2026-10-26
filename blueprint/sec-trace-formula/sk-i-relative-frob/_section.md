@@ -2,9 +2,9 @@
 id = "sk-i-relative-frob"
 kind = "lemma"
 title = "Relative Frobenius comparison"
-order = 3532
+order = 3514
 uses = ["sk-d-relative-frob", "sk-d-setup", "sk-d-weil"]
-lean = ["AlgebraicGeometry.ProEtale.isFinite_relativeFrobenius", "AlgebraicGeometry.ProEtale.isUniversalHomeomorphism_relativeFrobenius"]
+lean = ["AlgebraicGeometry.isFinite_relativeFrobenius", "AlgebraicGeometry.isUniversalHomeomorphism_relativeFrobenius"]
 tags = ["sketch"]
 +++
 Here $k_0=\mathbf F_q$, $k=\overline{\mathbf F}_q$, $A$ is a finite

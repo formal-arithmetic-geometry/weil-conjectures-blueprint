@@ -3,7 +3,7 @@ id = "def-weil-betti-numbers"
 kind = "definition"
 title = "Betti numbers"
 lean = ["AlgebraicGeometry.weilBettiNumber"]
-order = 3562
+order = 3544
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-smooth-proper-cohomological-family"]
 +++
 Let $p$ be prime, let $a\in\mathbf Z_{\geq1}$, put $q=p^a$ and

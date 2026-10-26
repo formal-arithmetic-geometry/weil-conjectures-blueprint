@@ -2,7 +2,7 @@
 id = "the-subsheaf-ff-and-its-representability--remark-1"
 kind = "proposition"
 title = "$F$ is a subfunctor of the Hilbert functor"
-order = 839
+order = 802
 uses = ["def-pc-f-subfunctor", "def-pc-hilb-functor", "lem-pc-zero-scheme-recd"]
 lean = ["AlgebraicGeometry.exists_injective_natTrans_hilbertPresheaf", "AlgebraicGeometry.invertibleDirectImageToHilbert", "AlgebraicGeometry.hilbertToPicardNormalized_invertibleDirectImageToHilbert", "AlgebraicGeometry.exists_representableBy_invertibleDirectImageToHilbert"]
 +++

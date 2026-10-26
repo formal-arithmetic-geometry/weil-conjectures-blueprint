@@ -2,7 +2,7 @@
 id = "sk-thm-existence"
 kind = "theorem"
 title = "The exceptional inverse image"
-order = 2136
+order = 2115
 uses = ["sk-def-sfb-dc-lower-shriek", "sk-def-localizing-closure", "sk-def-sfb-constructible", "sk-def-sfb-dc-setting"]
 tags = ["sketch"]
 +++

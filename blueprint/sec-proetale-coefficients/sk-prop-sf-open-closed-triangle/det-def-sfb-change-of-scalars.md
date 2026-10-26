@@ -2,7 +2,7 @@
 id = "det-def-sfb-change-of-scalars"
 kind = "definition"
 title = "Restriction, extension and coextension of scalars"
-order = 1174
+order = 1140
 uses = ["det-prop-sfb-module-category", "det-def-sfb-ring-object", "det-def-sfb-module-objects"]
 lean = ["CategoryTheory.Mod.comap", "CategoryTheory.Mod.extendScalars", "CategoryTheory.Mod.extendRestrictAdjunction", "CategoryTheory.Mod.preservesFiniteColimits_extendScalars", "CategoryTheory.Adjunction.rightAdjoint_preservesLimits", "CategoryTheory.Mod.coextendScalars", "CategoryTheory.Mod.restrictCoextendAdjunction", "CategoryTheory.Adjunction.leftAdjoint_preservesColimits", "CategoryTheory.Mod.comapEquivalenceOfIsIso", "CategoryTheory.Mod.extendScalarsIsoComapInv", "CategoryTheory.Mod.coextendScalarsIsoComapInv", "CategoryTheory.Mod.extendScalarsIsoCoextendScalars"]
 +++

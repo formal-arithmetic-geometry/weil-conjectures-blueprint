@@ -3,7 +3,7 @@ id = "prop-pur-a1-invariance"
 kind = "theorem"
 title = "Invariance along the affine line"
 lean = ["AlgebraicGeometry.Etale.existsUnique_iso_leftDerivedUpperStar_of_etale"]
-order = 3253
+order = 3235
 tags = ["latex:proposition"]
 uses = ["def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-pur-a1-components", "lem-pur-lisse-uniqueness"]
 +++

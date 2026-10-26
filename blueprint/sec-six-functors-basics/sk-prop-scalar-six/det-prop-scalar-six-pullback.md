@@ -2,7 +2,7 @@
 id = "det-prop-scalar-six-pullback"
 kind = "lemma"
 title = "Coefficient change commutes with inverse image and extension by zero"
-order = 2490
+order = 2470
 uses = ["sk-def-sfb-coefficient-change", "sk-prop-sfb-cartesian-coefficients", "det-lem-int-tensor-projection"]
 +++
 Let $\Lambda\to\Lambda'$ be a map of condensed rings and write

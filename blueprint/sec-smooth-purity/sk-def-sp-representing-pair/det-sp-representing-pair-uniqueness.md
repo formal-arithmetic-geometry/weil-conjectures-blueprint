@@ -2,7 +2,7 @@
 id = "det-sp-representing-pair-uniqueness"
 kind = "lemma"
 title = "Representing pairs are unique and given by the Brown adjoint"
-order = 2870
+order = 2851
 uses = ["det-sf-existence-brown", "sk-lem-sp-finite-existence"]
 +++
 Let $f:X\to Y$ be smooth (separated, of finite type), $\Lambda_n=\mathbf Z/\ell^n\mathbf Z$,

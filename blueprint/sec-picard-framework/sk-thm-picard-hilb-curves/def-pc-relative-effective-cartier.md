@@ -3,7 +3,7 @@ id = "def-pc-relative-effective-cartier"
 kind = "definition"
 title = "Relative effective Cartier divisors"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsRelativeEffectiveCartier"]
-order = 809
+order = 770
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "def-nagata-invertible-ideal"]
 +++
 Let $f:X\to S$ be a morphism of schemes. A *relative effective

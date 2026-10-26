@@ -3,7 +3,7 @@ id = "lem-fin-coefficients-forgetful-direct-image"
 kind = "lemma"
 title = "Changing finite coefficient rings in a direct image"
 lean = ["AlgebraicGeometry.Etale.rightDerivedLowerStarCompDerivedRestrictScalarsIso"]
-order = 2740
+order = 2721
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image"]
 +++
 Let $\ell$ be a prime, let $A$ be a finite $\mathbf F_\ell$-algebra,

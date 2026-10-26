@@ -3,7 +3,7 @@ id = "lem-weil-pbc-inverse-image-stalk-germ"
 kind = "lemma"
 title = "Stalk of an inverse image, compatible with germs of pulled-back sections"
 lean = ["AlgebraicGeometry.inverseImage_stalk_germ"]
-order = 1861
+order = 1840
 uses = ["def-pc-scheme", "def-weil-geometric-point", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-inverse-image", "def-weil-pbc-direct-image", "def-weil-pbc-geometric-stalks"]
 tags = ["stacks-03Q1"]
 +++

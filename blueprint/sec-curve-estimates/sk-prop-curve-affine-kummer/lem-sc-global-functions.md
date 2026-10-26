@@ -3,7 +3,7 @@ id = "lem-sc-global-functions"
 kind = "lemma"
 title = "Global functions on a proper reduced connected scheme"
 lean = ["AlgebraicGeometry.Scheme.GlobalSectionsBijective.of_isAlgClosed"]
-order = 1446
+order = 1421
 uses = ["def-sc-curves"]
 +++
 Let $k$ be algebraically closed and let $X$ be a

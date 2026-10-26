@@ -8,7 +8,7 @@ sequence its image is $\operatorname{Pic}(C)[\ell^n]$, and its kernel
 is $k^\times/(k^\times)^{\ell^n}=0$ (see [sk-thm-curveestimate] and
 [sk-prop-jacobian-descent]). Torsion line bundles have
 degree zero, and the Jacobian represents the Picard functor of degree
-zero ([sk-def-av-jacobian], [sk-prop-jacobian-descent]), which gives the first
+zero ([def-sc-jacobian], [sk-prop-jacobian-descent]), which gives the first
 identification ([lem-wf-curve-kummer-jacobian-tate-module]). All these maps
 are natural under automorphisms of $k/k_0$
 ([lem-wf-geometric-jacobian-galois-action]). The map

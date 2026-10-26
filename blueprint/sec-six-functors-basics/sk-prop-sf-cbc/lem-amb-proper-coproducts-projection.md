@@ -3,7 +3,7 @@ id = "lem-amb-proper-coproducts-projection"
 kind = "lemma"
 title = "The proper projection formula on the ambient category"
 lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedLowerStarProjectionMap_of_finite"]
-order = 2694
+order = 2675
 uses = ["def-weil-derived-tensor", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-projection-formula-map", "def-weil-scheme-morphism-properties", "lem-amb-proper-coproducts", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $r:V\to T$ be a proper

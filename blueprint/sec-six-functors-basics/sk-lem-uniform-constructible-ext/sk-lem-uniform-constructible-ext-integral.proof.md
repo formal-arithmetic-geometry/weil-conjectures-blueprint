@@ -2,11 +2,9 @@
 kind = "proof"
 of = "det-uniform-constructible-ext-integral"
 +++
-*Completeness of the target.* $b=i_T\circ j_T$ with $j_T$ a quasi-compact open immersion into a closed
-subscheme. Extension by zero is exact and preserves limits (Stacks, Tag 09BP), and closed direct image
-is exact (Stacks, Tag 09BM) and preserves limits as a right adjoint. Since $M_0$ is derived
-$\pi_E$-complete and $\pi_E$-torsion free, so is $b_!M_0$, and
-$b_!M_0\otimes^{\mathbf L}\mathcal O_E/\pi_E^n=b_!(M_0/\pi_E^n)$; thus
+*Completeness of the target.* By parts (3) and (4) of [sk-lem-integral-models], $b_!M_0$ lies in
+$\Dbc(X,\mathcal O_E)$, so it is derived complete. Since $b_!$ is exact and $M_0$ is $\pi_E$-torsion
+free, $b_!M_0\otimes^{\mathbf L}\mathcal O_E/\pi_E^n=b_!(M_0/\pi_E^n)$; thus
 $b_!M_0=R\varprojlim_nb_!(M_0/\pi_E^n)$.
 
 *Completeness of $F$.* Put $F=L_0^\vee\otimes u^*R\underline\Gamma_Z\,b_!M_0$. By

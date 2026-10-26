@@ -3,7 +3,7 @@ id = "thm-sc-hilbert-90"
 kind = "theorem"
 title = "Hilbert 90 for a scheme"
 lean = ["AlgebraicGeometry.Scheme.Pic.instCommGroup", "AlgebraicGeometry.Scheme.Pic.toH1Units", "AlgebraicGeometry.Scheme.Pic.toH1Units_mul", "AlgebraicGeometry.Scheme.Pic.toH1UnitsAddEquiv", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroup", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroup_mul", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroupAddEquiv", "AlgebraicGeometry.Scheme.nonempty_equiv_H_one_unitsSheaf", "CategoryTheory.Sheaf.Torsor.classH1_eq_add_of_equivariant"]
-order = 1351
+order = 1326
 uses = ["def-sc-curves", "def-sc-gm-torsor", "def-sc-invertible-module", "def-sc-picard-group", "lem-sc-line-bundle-torsor", "lem-sc-torsor-h1"]
 +++
 Let $X$ be a scheme (for instance a curve $C$ as in

@@ -2,7 +2,7 @@
 id = "sec-proetale-coefficients"
 kind = "section"
 title = "The Pro-étale Site and Coefficients"
-order = 900
+order = 865
 uses = ["sec-nagata-compactification", "sec-picard-framework"]
 +++
 **Content.** The pro-étale site of a scheme and the coefficient categories built on it, as in

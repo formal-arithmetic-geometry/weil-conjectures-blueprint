@@ -2,7 +2,7 @@
 id = "det-existence-restriction"
 kind = "proposition"
 title = "The exceptional inverse image preserves $\\Dctf$"
-order = 2138
+order = 2117
 uses = ["det-existence-localizing", "sk-prop-sf-rf-shriek-preservation", "sk-thm-restriction", "sk-thm-int-restriction", "sk-prop-int-brown"]
 +++
 Let $\Lambda$ and $f\colon X\to Y$ be as in [det-existence-localizing]. The right adjoint

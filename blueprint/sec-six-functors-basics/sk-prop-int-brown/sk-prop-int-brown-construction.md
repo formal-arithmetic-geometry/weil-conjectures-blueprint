@@ -2,7 +2,7 @@
 id = "det-prop-int-brown-construction"
 kind = "lemma"
 title = "The integral compactly supported direct image on localizing categories"
-order = 2472
+order = 2452
 uses = ["sk-prop-sf-existence", "sk-lem-brown-hypotheses", "sk-thm-sfb-proper-base-change", "sk-prop-int-compactness", "sk-cor-int-compactness-ii"]
 +++
 For a separated morphism of finite type $f:X\to Y$ with compactification

@@ -2,7 +2,7 @@
 id = "lem-cbc-exact-functor-rlim"
 kind = "lemma"
 title = "Exact functors commute with derived limits of towers"
-order = 2702
+order = 2683
 uses = ["def-weil-derived-limit"]
 +++
 Let $F:\mathcal D\to\mathcal D'$ be a triangulated functor between

@@ -2,7 +2,7 @@
 id = "sk-thm-chow"
 kind = "lemma"
 title = "Chow's lemma"
-order = 1958
+order = 1937
 lean = ["AlgebraicGeometry.ProjectiveDomination", "AlgebraicGeometry.ProjectiveDomination.nonempty_of_isAffine", "AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_liftBaseChange"]
 uses = ["sk-thm-chow-projective", "sec-nagata-compactification"]
 tags = ["sketch"]

@@ -1,9 +1,9 @@
 +++
 kind  = "proof"
 of    = "det-cor-jacobian-torsion-structure"
-uses = ["det-cor-jacobian-torsion-kernel", "sk-cor-av-commutative", "sk-prop-av-divisible-structure", "sk-thm-picard-main"]
+uses = ["det-cor-jacobian-torsion-kernel", "lem-sc-av-commutative", "lem-sc-divisible-group-structure", "sk-thm-picard-main"]
 +++
-The group $A(k)$ is commutative ([sk-cor-av-commutative]), so every
+The group $A(k)$ is commutative ([lem-sc-av-commutative]), so every
 $A(k)[m]$ is a finite abelian group, of order $m^{2g}$ for $m$ invertible
 in $k$ by [det-cor-jacobian-torsion-kernel] (2).
 
@@ -17,7 +17,7 @@ is $\bigoplus_i q^{e_i-1}\Z/q^{e_i}\Z\simeq(\Z/q\Z)^s$, of order $q^s$.
 Hence $s=2g$. Comparing orders, $\sum_{i=1}^{2g}e_i=2ga$ with every
 $e_i\le a$, which forces $e_i=a$ for all $i$. Thus
 $A(k)[q^a]\simeq(\Z/q^a\Z)^{2g}$. (Equivalently, since $A(k)$ is
-divisible, this is [sk-prop-av-divisible-structure] with $r=2g$.)
+divisible, this is [lem-sc-divisible-group-structure] with $r=2g$.)
 
 *Combining primes.* Write $n=\prod_qq^{a_q}$. A finite abelian group killed
 by $n$ is the direct sum of its $q$-primary parts, and the $q$-primary part

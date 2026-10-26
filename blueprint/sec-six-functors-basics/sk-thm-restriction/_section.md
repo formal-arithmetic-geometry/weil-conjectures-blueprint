@@ -2,7 +2,7 @@
 id = "sk-thm-restriction"
 kind = "theorem"
 title = "$f^!$ with rational coefficients"
-order = 2449
+order = 2429
 uses = ["sk-lem-sf-mate", "sk-cor-affine-space-rational", "sk-prop-closed-adjoint-constructible", "sk-prop-sf-comp-coherence", "sk-prop-sf-existence"]
 tags = ["sketch"]
 +++

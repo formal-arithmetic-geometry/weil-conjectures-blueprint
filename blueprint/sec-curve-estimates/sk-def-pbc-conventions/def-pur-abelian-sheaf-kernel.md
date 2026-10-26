@@ -2,7 +2,7 @@
 id = "def-pur-abelian-sheaf-kernel"
 kind = "definition"
 title = "Kernel of a morphism of sheaves of abelian groups on a site"
-order = 1278
+order = 1249
 lean = ["CategoryTheory.sheafIsAbelian", "CategoryTheory.Limits.kernel", "CategoryTheory.Sheaf.createsLimits"]
 tags = ["mathlib", "stacks-03CO"]
 +++

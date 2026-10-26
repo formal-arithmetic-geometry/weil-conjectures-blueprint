@@ -3,7 +3,7 @@ id = "cor-fin-deligne-open-finite-coefficients"
 kind = "theorem"
 title = "Open direct images with arbitrary finite allowable coefficients"
 lean = ["AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar_of_isOpenImmersion"]
-order = 2385
+order = 2365
 tags = ["latex:corollary"]
 uses = ["cor-fin-deligne-open-over-field", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions", "lem-fin-coefficients-forgetful-direct-image", "sbc-def-coefficient-conventions", "thm-constructible-serre", "thm-sp-truncation-e2"]
 +++

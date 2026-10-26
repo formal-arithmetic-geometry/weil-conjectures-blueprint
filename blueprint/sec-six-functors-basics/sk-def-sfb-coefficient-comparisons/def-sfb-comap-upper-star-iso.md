@@ -2,7 +2,7 @@
 id = "def-sfb-comap-upper-star-iso"
 kind = "definition"
 title = "Restriction of scalars commutes with $f^*$"
-order = 2610
+order = 2591
 uses = ["sk-def-sfb-coefficient-change", "det-def-sfb-module-pushforward-pullback", "det-def-sfb-change-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.comapUpperStarIso"]
 +++

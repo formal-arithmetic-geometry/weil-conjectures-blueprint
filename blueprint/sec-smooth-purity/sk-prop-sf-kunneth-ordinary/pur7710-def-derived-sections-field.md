@@ -2,7 +2,7 @@
 id = "pur7710-def-derived-sections-field"
 kind = "definition"
 title = "Derived sections with finite-field coefficients"
-order = 3081
+order = 3063
 uses = ["pur7710-def-derived-sections"]
 +++
 For a scheme $W$ and $r\geq1$, let

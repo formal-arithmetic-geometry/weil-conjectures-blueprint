@@ -2,7 +2,7 @@
 id = "fix-lem-exchanges"
 kind = "lemma"
 title = "Exchange functoriality: naturality, identities, and pasting"
-order = 2745
+order = 2726
 uses = ["def-cbc-exchange-map", "def-exchange-projection", "def-fix-six-functor-datum", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-pbc-cartesian-square", "def-weil-scheme-morphism-properties", "lem-weil-pbc-exchange-identity-pasting", "prop-compactification-coherence-detailed", "sbc-def-base-change-map", "sbc-lem-identity-and-base-change-composition", "sbc-thm-bounded-below-derived-smooth-base-change", "sk-thm-sbc-coefficients", "thm-cbc-finite-torsion", "sk-def-sfb-shriek-base-change-morphism", "sk-thm-sfb-shriek-base-change", "thm-cbc-complete-proetale", "thm-sf-comp-composition"]
 +++
 In the six-functor datum of

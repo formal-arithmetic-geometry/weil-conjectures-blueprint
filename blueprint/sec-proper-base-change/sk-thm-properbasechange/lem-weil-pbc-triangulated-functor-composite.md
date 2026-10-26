@@ -4,7 +4,7 @@ kind = "lemma"
 title = "A composite of triangulated functors, with the composite shift isomorphism, is triangulated"
 uses = ["def-weil-triangulated-category"]
 lean = ["CategoryTheory.Functor.IsTriangulated", "CategoryTheory.Functor.CommShift.comp", "CategoryTheory.Functor.mapTriangleCompIso"]
-order = 2024
+order = 2003
 tags = ["mathlib", "stacks-014Y"]
 +++
 Let $\mathcal D,\mathcal D',\mathcal D''$ be pre-triangulated categories [def-weil-triangulated-category] with shifts $[1 ]$, and let $(F,\varphi):\mathcal D\to\mathcal D'$ and $(G,\psi):\mathcal D'\to\mathcal D''$ be triangulated (exact) functors, $\varphi_X:F(X[1 ])\xrightarrow{\sim}F(X)[1 ]$ and $\psi_Y:G(Y[1 ])\xrightarrow{\sim}G(Y)[1 ]$ their natural shift-commutation isomorphisms. Equip $G\circ F$ with the composite isomorphism

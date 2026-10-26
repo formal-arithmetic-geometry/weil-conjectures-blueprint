@@ -3,7 +3,7 @@ id = "lem-ag-homomorphism-image-closed"
 kind = "lemma"
 title = "The image of a homomorphism of algebraic groups is closed"
 lean = ["AlgebraicGeometry.isClosed_range_of_isMonHom", "AlgebraicGeometry.isClosed_range_of_isMonHom_of_isAlgClosed", "AlgebraicGeometry.GeneralLinearGroup.RationalHom.mem_range_points_iff", "AlgebraicGeometry.GeneralLinearGroup.mem_of_mem_closure_of_isConstructible"]
-order = 3705
+order = 3687
 uses = ["lem-sc-translation-automorphism", "lem-wf-affine-constructible-open", "lem-wf-affine-nullstellensatz-vanishing", "lem-wf-affine-product-reduced"]
 +++
 Let $f:G\to K$ be a homomorphism of group schemes over an algebraically

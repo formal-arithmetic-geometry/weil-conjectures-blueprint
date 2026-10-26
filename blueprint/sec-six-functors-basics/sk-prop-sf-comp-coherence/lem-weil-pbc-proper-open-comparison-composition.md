@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proper-open-comparison-composition"
 kind = "lemma"
 title = "Composition of proper-open comparison maps"
-order = 2281
+order = 2261
 lean = ["AlgebraicGeometry.ProperOpenDatum.comparison_comp", "AlgebraicGeometry.ProperOpenDatum.comparison_id"]
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-proper-open-comparison", "lem-weil-pbc-derived-open-restriction", "lem-weil-pbc-proper-open-identification", "lem-weil-pbc-proper-open-section"]
 +++

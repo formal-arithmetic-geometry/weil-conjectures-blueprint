@@ -3,7 +3,7 @@ id = "def-weil-open-closed-recollement"
 kind = "definition"
 title = "Open--closed recollement"
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionLowerShriekUpperStarAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarLowerStarAdjunction"]
-order = 1205
+order = 1171
 uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible"]
 +++
 Fix a prime $\ell$ and an admissible coefficient ring

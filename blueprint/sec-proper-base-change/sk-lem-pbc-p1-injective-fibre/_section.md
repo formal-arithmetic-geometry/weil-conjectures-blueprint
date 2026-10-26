@@ -2,7 +2,7 @@
 id = "sk-lem-pbc-p1-injective-fibre"
 kind = "lemma"
 title = "Acyclicity on the closed projective line"
-order = 1575
+order = 1554
 lean = ["AlgebraicGeometry.Etale.subsingleton_H_projectiveLine_closedFibre_of_injective"]
 uses = ["sk-thm-pbc-henselian-h0", "sk-lem-pbc-finite"]
 tags = ["sketch"]

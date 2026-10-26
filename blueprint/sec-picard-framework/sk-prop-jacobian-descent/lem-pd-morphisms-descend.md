@@ -3,7 +3,7 @@ id = "lem-pd-morphisms-descend"
 kind = "lemma"
 title = "Morphisms, and hence the group law, descend"
 lean = ["CategoryTheory.Over.DescentDatum.existsUnique_hom_of_isPullback"]
-order = 894
+order = 859
 uses = ["def-pc-base-change", "def-pd-descent-datum"]
 +++
 Let $X\to Y$ be a faithfully flat (flat and surjective) and quasi-compact

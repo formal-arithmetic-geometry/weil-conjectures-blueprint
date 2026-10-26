@@ -3,7 +3,7 @@ id = "lem-tw-dual-negation"
 kind = "lemma"
 title = "Weight of the linear dual"
 lean = ["AlgebraicGeometry.WeilGroup.IsPunctuallyPure.dual"]
-order = 3808
+order = 3790
 uses = ["def-real-weil-representation-operations", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-tw-multiplicativity", "p-linear-spectra", "sk-def-sf-weil-complexes"]
 +++
 In the setting of [def-weil-punctual-weights], if a lisse

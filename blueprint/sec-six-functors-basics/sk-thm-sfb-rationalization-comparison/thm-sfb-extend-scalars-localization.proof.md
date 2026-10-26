@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "thm-sfb-extend-scalars-localization"
-uses = ["lem-sfb-extend-scalars-bounded-constructible", "det-def-sfb-derived-extension-of-scalars"]
+uses = ["lem-sfb-extend-scalars-bounded-constructible", "det-def-sfb-derived-extension-of-scalars", "sk-lem-integral-models"]
 +++
 Write $F=E\otimes^{\mathrm L}_{\cO_E}-$, $\mathcal T=D_{\mathrm{cons}}(X_{\mathrm{proét}},\cO_E)$
 and $\mathcal T'=D_{\mathrm{cons}}(X_{\mathrm{proét}},E)$. By the proof of
@@ -40,12 +40,14 @@ computed by pro-étale cohomology on a quasi-compact quasi-separated scheme (a
 topologically Noetherian scheme is such), which commutes with filtered colimits
 (Bhatt–Scholze, §6.8).
 
-*Essential surjectivity.* The essential image of the fully faithful triangulated functor
-$\bar F$ is closed under extensions and shifts. Every object of $\mathcal T'$ is an
-iterated extension of shifts of its constructible cohomology sheaves. So it suffices that
-every constructible $E_X$-module is $E_X\otimes N$ for a bounded constructible
-$\cO_{E,X}$-complex $N$. This is the existence of $\cO_E$-lattices: scale a local
-presentation by a power of $\ell$ to make it integral, and glue over the finitely many
-strata and a finite subcover (Bhatt–Scholze, §6.8).
+*Essential surjectivity.* By [sk-lem-integral-models] (4), every object of $\mathcal T'$
+is obtained by finitely many cones and shifts from objects $F(a_!L_0)=(a_!L_0)[1/\ell]$
+with $a_!L_0\in\mathcal T$. The essential image of $\bar F$ is closed under shifts, and it
+is closed under cones by the description of the Hom groups: a morphism
+$u\colon F(A)\to F(B)$ with $A,B\in\mathcal T$ is $\ell^{-c}F(v)$ for some $c\ge0$ and some
+$v\colon A\to B$, and since $\ell^{-c}$ is an automorphism of $F(A)$, the cone of $u$ is
+isomorphic to $F(\operatorname{cone}(v))$. So a connecting morphism between integral
+generators lifts to an integral one after multiplication by a power of $\ell$, and
+finite cones of the generators have integral models.
 
 So $\bar F$ is an equivalence, i.e. $F$ is a localization at $W_{\ell^{\mathbf N}}$.

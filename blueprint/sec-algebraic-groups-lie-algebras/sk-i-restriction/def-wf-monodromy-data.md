@@ -2,7 +2,7 @@
 id = "def-wf-monodromy-data"
 kind = "definition"
 title = "Monodromy data"
-order = 3743
+order = 3725
 uses = ["d-monodromy", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "lem-wf-degree-components-grading"]
 +++
 For a represented degree datum $\rho$ ([d-monodromy]), the tuple

@@ -2,7 +2,7 @@
 id = "sk-lem-wft-compact-kunneth"
 kind = "lemma"
 title = "Compact-support Künneth"
-order = 3936
+order = 3944
 uses = ["sk-prop-sf-cbc", "sk-thm-sf-package", "sk-thm-sf-kunneth-relative", "sk-def-sf-weil-complexes", "sk-def-sp-trace", "sk-prop-sp-trace-composition", "sk-prop-sp-purity-bc"]
 tags = ["sketch"]
 +++
