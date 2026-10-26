@@ -132,6 +132,7 @@ the cited theorem, while the unrestricted datum itself is false. Second, the gen
 quantified over arbitrary pro-étale module sheaves and uniformly over the
 base changes, is by
 [lem-sf-fullcd-detection-equivalence] the uniform bound on the
-pro-étale cohomology of the base-changed sources, and it is refuted by
+pro-étale cohomology of the sources $\overline X\times_YW$ base-changed to
+the affine weakly contractible objects $W$, and it is refuted by
 [rem-sf-fullcd-counterexample], as
 [rem-sf-fullcd-general-form] records.
