@@ -2,7 +2,7 @@
 id = "sec-deligne-laumon-general"
 kind = "section"
 title = "Deligne–Laumon: Reduction to the Affine Line"
-order = 4044
+order = 4052
 uses = ["sec-abelian-varieties", "sec-algebraic-groups-lie-algebras", "sec-curve-estimates", "sec-deligne-laumon-a1", "sec-nagata-compactification", "sec-proetale-coefficients", "sec-proper-base-change", "sec-purity-real-sheaves", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula"]
 +++
 **Content.** This section proves that $Rf_!$ does not increase

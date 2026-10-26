@@ -37,7 +37,7 @@ of them, so they may be checked on geometric stalks, where they become the
 corresponding statements for $\Aaf^1_k$ and $\mathbf G_{m,k}$ over the
 algebraically closed $k$; geometric stalks are conservative. Then
 $\Aaf^1_k$ and $\mathbf G_{m,k}$ are affine curves in the sense of
-[sk-def-curve]. The twist $\Lambda(1)$ is pulled back from $Y$, so by the
+[def-sc-curves]. The twist $\Lambda(1)$ is pulled back from $Y$, so by the
 projection formula the twisted and untwisted statements determine one
 another.
 

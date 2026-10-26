@@ -3,7 +3,7 @@ id = "det-def-sfb-sheaf-tensor-local-iso"
 kind = "lemma"
 title = "Objectwise tensoring preserves sheafification-isomorphisms"
 lean = ["CategoryTheory.GrothendieckTopology.W", "CategoryTheory.GrothendieckTopology.W_iff", "CategoryTheory.GrothendieckTopology.W.whiskerLeft", "CategoryTheory.GrothendieckTopology.W.whiskerRight", "CategoryTheory.GrothendieckTopology.W.monoidal"]
-order = 1169
+order = 1135
 uses = ["det-def-sfb-sheaf-tensor-hom-sheaf", "det-def-sfb-sheaf-tensor-presheaf"]
 +++
 In the situation of [det-def-sfb-sheaf-tensor-presheaf], let $a$ be sheafification of

@@ -3,7 +3,7 @@ id = "def-weil-determinant-constants"
 kind = "definition"
 title = "Determinant constants and Euler characteristic"
 lean = ["AlgebraicGeometry.Scheme.map_weilDeterminantConstant_eq_det", "AlgebraicGeometry.weilDeterminantConstant", "AlgebraicGeometry.weilDeterminantScalar", "AlgebraicGeometry.weilDeterminantConstant_ne_zero", "AlgebraicGeometry.weilDeterminantScalar_ne_zero"]
-order = 3563
+order = 3545
 uses = ["def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-smooth-proper-cohomological-family"]
 +++
 Let $p$ be prime, let $a\in\mathbf Z_{\geq1}$, put $q=p^a$, and set

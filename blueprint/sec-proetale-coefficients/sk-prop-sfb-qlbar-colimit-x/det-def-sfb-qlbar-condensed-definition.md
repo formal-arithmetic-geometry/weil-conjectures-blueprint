@@ -3,7 +3,7 @@ id = "det-def-sfb-qlbar-condensed-definition"
 kind = "definition"
 title = "The presheaf of rings $\\underline{\\overline{\\mathbf Q}}_\\ell$"
 lean = ["PadicAlgCl.finiteIntermediateFieldValued", "Profinite.padicAlgClSubfunctor", "Profinite.padicAlgClRingPresheaf"]
-order = 1222
+order = 1188
 uses = ["det-def-sfb-qlbar-condensed-subextensions", "def-sfb-continuous-map-condensed-ring"]
 +++
 Let $\ell$ and $\Qlb$ be as in [det-def-sfb-qlbar-condensed-subextensions], and give $\Qlb$ the

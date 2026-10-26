@@ -2,7 +2,7 @@
 id = "det-pe-derived-nakayama-first-reduction"
 kind = "lemma"
 title = "Derived Nakayama from the first reduction"
-order = 1215
+order = 1181
 uses = ["det-pe-derived-nakayama-resolution", "def-pe-derived-complete", "det-pe-products-exact", "det-pe-products-derived"]
 +++
 Let $K\in D(X_{\Proet},\mathcal O_E)$ be derived complete in the sense of

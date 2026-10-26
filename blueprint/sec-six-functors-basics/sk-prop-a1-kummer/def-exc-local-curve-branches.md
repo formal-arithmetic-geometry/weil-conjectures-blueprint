@@ -2,7 +2,7 @@
 id = "def-exc-local-curve-branches"
 kind = "definition"
 title = "The normalization algebra of local curve branches"
-order = 2807
+order = 2788
 uses = ["def-fin-normalization-extension", "def-sc-normalization"]
 +++
 For a reduced one-dimensional Noetherian local ring $R$,

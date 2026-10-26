@@ -3,7 +3,7 @@ id = "def-wf-geometric-semisimplicity"
 kind = "definition"
 title = "Geometric semisimplicity"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsGeometricallySemisimple"]
-order = 3733
+order = 3715
 uses = ["d-monodromy"]
 +++
 A represented degree datum $\rho:W\to\operatorname{GL}(V)$ ([d-monodromy])

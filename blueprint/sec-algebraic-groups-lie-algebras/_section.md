@@ -2,7 +2,7 @@
 id = "sec-algebraic-groups-lie-algebras"
 kind = "section"
 title = "Algebraic Groups and Lie Algebras"
-order = 3687
+order = 3669
 uses = ["sec-picard-framework", "sec-smooth-purity", "sec-trace-formula"]
 +++
 **Content.** This section supplies the group theory and linear algebra behind

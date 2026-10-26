@@ -2,9 +2,8 @@
 id = "det-pbc-complete-exchange-map"
 kind = "definition"
 title = "The completed exchange map"
-order = 2043
-lean = ["AlgebraicGeometry.ProEtale.derivedBaseChangeMap", "AlgebraicGeometry.ProEtale.completedDerivedBaseChangeMap"]
-uses = ["det-pbc-complete-derived-completion", "lemma-weil-pbc-completed-pullback-reduction", "prop-weil-pbc-direct-image-limits"]
+order = 2022
+uses = ["det-pbc-complete-derived-completion", "lemma-weil-pbc-completed-pullback-reduction", "prop-weil-pbc-direct-image-limits", "def-weil-derived-direct-image", "det-prop-sfb-module-pullback-exact-main"]
 +++
 Consider a commutative square of schemes
 
@@ -16,31 +15,52 @@ Y' & \xrightarrow{\;g\;} & Y
 \end{array}
 $$
 
-and use the notation of [det-pbc-complete-derived-completion] (for instance
-$R=\mathcal O_E$, $\varpi=\pi_E$).
+and fix $E/\Ql$ finite; use the notation of [det-pbc-complete-derived-completion].
 
-1. *Base change morphism.* For $M\in D(X)$, the base change morphism
-   $\operatorname{Ex}_M\colon g^*Rp_*M\to Rp'_*g'^*M$ is the mate of the
-   pullback comparison $p'^*g^*\simeq g'^*p^*$ of the square under the
-   adjunctions $p^*\dashv Rp_*$ and $p'^*\dashv Rp'_*$ of derived inverse and
-   direct images: the composite of the unit of $p'^*\dashv Rp'_*$, the pullback
-   comparison and the counit of $p^*\dashv Rp_*$.
-2. *Completed exchange map.* For $K\in D(X)$, the *completed exchange map*
+1. *Base change morphism over $\mathcal O_E$.* For
+   $M\in D(X_{\mathrm{proét}},\mathcal O_E)$, the base change morphism
+   $\operatorname{Ex}_M\colon g^*Rp_*M\to Rp'_*g'^*M$ is the mate of the pullback
+   comparison $p'^*g^*\simeq g'^*p^*$ of the square under the adjunctions
+   $p^*\dashv Rp_*$ and $p'^*\dashv Rp'_*$ of [def-weil-derived-direct-image]: the
+   composite of the unit of $p'^*\dashv Rp'_*$, the pullback comparison and the
+   counit of $p^*\dashv Rp_*$. Here the module pullbacks are exact
+   ([det-prop-sfb-module-pullback-exact-main]) and need no deriving. The same formula with
+   the levelwise functors of [det-pbc-complete-derived-completion] (notation 2) defines
+   $\operatorname{Ex}^{\operatorname{Tow}}\colon g^*_{\operatorname{Tow}}Rp^{\operatorname{Tow}}_*
+   \to Rp'^{\operatorname{Tow}}_*g'^*_{\operatorname{Tow}}$, and
+   $\operatorname{ev}_n\operatorname{Ex}^{\operatorname{Tow}}_{M_\bullet}=
+   \operatorname{Ex}_{\operatorname{ev}_nM_\bullet}$ by
+   [det-pbc-complete-derived-completion] (3).
+2. *Completed exchange map.* For $K\in D(X_{\mathrm{proét}},\mathcal O_E)$ with
+   reductions $K_n=K\otimes^{\mathbf L}_{\mathcal O_{E,X}}(\mathcal O_E/\pi_E^n)_X$,
+   the *completed exchange map*
    $$
    \operatorname{Ex}^{\mathrm{comp}}_K\colon g^*_{\mathrm{comp}}Rp_*K\longrightarrow
    Rp'_*g'^*_{\mathrm{comp}}K
    $$
    between the completed inverse images of
-   [lemma-weil-pbc-completed-pullback-reduction] is the unique morphism whose
-   composite with the completion map $g^*Rp_*K\to g^*_{\mathrm{comp}}Rp_*K$ is
+   [lemma-weil-pbc-completed-pullback-reduction] is the composite
    $$
-   g^*Rp_*K\xrightarrow{\operatorname{Ex}_K}Rp'_*g'^*K
-   \xrightarrow{Rp'_*(\kappa_{g'^*K})}Rp'_*g'^*_{\mathrm{comp}}K;
+   \begin{aligned}
+   g^*_{\mathrm{comp}}Rp_*K
+   &=R\varprojlim g^*_{\operatorname{Tow}}\operatorname{red}(Rp_*K)
+   \xrightarrow{\ \sim\ }R\varprojlim g^*_{\operatorname{Tow}}Rp^{\operatorname{Tow}}_*\operatorname{red}(K)\\
+   &\xrightarrow{\ R\varprojlim\operatorname{Ex}^{\operatorname{Tow}}_{\operatorname{red}(K)}\ }
+   R\varprojlim Rp'^{\operatorname{Tow}}_*g'^*_{\operatorname{Tow}}\operatorname{red}(K)
+   \xrightarrow{\ \sim\ }Rp'_*R\varprojlim g'^*_{\operatorname{Tow}}\operatorname{red}(K)
+   =Rp'_*g'^*_{\mathrm{comp}}K,
+   \end{aligned}
    $$
-   it exists and is unique because $Rp'_*g'^*_{\mathrm{comp}}K$ is derived
-   complete [prop-weil-pbc-direct-image-limits] and the derived completion is
-   left adjoint to the inclusion of derived complete objects
-   [det-pbc-complete-derived-completion].
+   where the first isomorphism is [prop-weil-pbc-direct-image-limits] (2) for $p$
+   and the last is the inverse of [prop-weil-pbc-direct-image-limits] (1) for
+   $p'$. Its level-$n$ ingredient is the exchange map
+   $\operatorname{Ex}_{K_n}\colon g^*Rp_*K_n\to Rp'_*g'^*K_n$, conjugated by
+   the projection-formula isomorphism $(Rp_*K)_n\simeq Rp_*K_n$; the
+   $\operatorname{Ex}_{K_n}$ are compatible with the transitions $K_{n+1}\to K_n$
+   because they are the levels of one morphism of towers.
 
 The completed exchange map is natural in $K$, being built from natural
-transformations, and it is defined for every $K\in D(X)$.
+transformations. It is defined for every $K$. When $K$ is derived complete,
+$K\simeq R\varprojlim_nK_n$ and, by
+[lemma-weil-pbc-completed-pullback-reduction], $g'^*_{\mathrm{comp}}K$ is the
+derived completion of $g'^*K$.

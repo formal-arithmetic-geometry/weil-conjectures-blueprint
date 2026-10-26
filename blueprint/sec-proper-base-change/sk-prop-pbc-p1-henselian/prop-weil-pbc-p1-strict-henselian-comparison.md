@@ -3,7 +3,7 @@ id = "prop-weil-pbc-p1-strict-henselian-comparison"
 kind = "theorem"
 title = "Strictly henselian $\\mathbf P^1$ comparison"
 lean = ["AlgebraicGeometry.Etale.bijective_cohomologyMap_projectiveLine_residueField"]
-order = 1587
+order = 1566
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-strict-henselian-setup", "lemma-weil-pbc-etale-degree-zero", "prop-weil-pbc-p1-acyclicity", "def-weil-pbc-torsion-etale-sheaf"]
 +++

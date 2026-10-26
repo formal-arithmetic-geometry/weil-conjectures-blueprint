@@ -2,9 +2,8 @@
 id = "sk-d-proper-pushforward"
 kind = "definition"
 title = "Pushforward of a correspondence"
-order = 3485
+order = 3467
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-d-trace-class"]
-lean = ["AlgebraicGeometry.ProEtale.ProperPushforwardDiagram"]
 tags = ["sketch"]
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be a correspondence on $X$, with fixed locus

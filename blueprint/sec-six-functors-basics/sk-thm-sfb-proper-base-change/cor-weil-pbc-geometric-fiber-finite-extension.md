@@ -2,7 +2,7 @@
 id = "cor-weil-pbc-geometric-fiber-finite-extension"
 kind = "theorem"
 title = "Finite-extension geometric-fiber formula"
-order = 2214
+order = 2194
 uses = ["det-def-sfb-bounded-constructible", "sk-def-sfb-base-change-morphism"]
 tags = ["latex:corollary"]
 +++

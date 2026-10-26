@@ -2,10 +2,11 @@
 kind  = "proof"
 of    = "det-thm-sfb-proper-base-change-integral"
 +++
-(1) $Rp_*$ is a right adjoint, so it commutes with $\operatorname{R\lim}$; derived completeness of
-$K$ means $K\simeq\operatorname{R\lim}_nK\otimes^{\mathbf L}\cO/\pi_E^n$, and $Rp_*$ of each
-reduction is the reduction of $Rp_*K$ by the cone argument below, so $Rp_*K$ is complete
-(\stacks{099L}). Reduction: $K\otimes^{\mathbf L}\cO_{E,X}/\pi_E=\operatorname{cone}(K\xrightarrow{\pi_E}K)$
+(1) $K$ is derived complete if and only if
+$\operatorname{R\lim}(\cdots\xrightarrow{\pi_E}K\xrightarrow{\pi_E}K)=0$. The functor $Rp_*$ is
+a right adjoint, so it commutes with $\operatorname{R\lim}$, and it is $\cO_E$-linear, so it
+carries this tower to the tower of multiplication by $\pi_E$ on $Rp_*K$; hence $Rp_*K$ is
+derived complete. Reduction: $K\otimes^{\mathbf L}\cO_{E,X}/\pi_E=\operatorname{cone}(K\xrightarrow{\pi_E}K)$
 since $\cO_{E,X}$ is $\pi_E$-torsion free, and the exact functor $Rp_*$ preserves cones and is
 $\cO_E$-linear. The reduction $\bar K$ has torsion coefficients and is classical
 (\stacks{09B1}), so $Rp_*\bar K$ is $\nu^*$ of the étale direct image (\stacks{09A6}), which is

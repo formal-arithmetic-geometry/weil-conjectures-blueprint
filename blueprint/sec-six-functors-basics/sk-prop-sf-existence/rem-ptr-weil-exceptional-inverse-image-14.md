@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-exceptional-inverse-image-14"
 kind = "remark"
 title = "Pointer to the properties of [def-weil-exceptional-inverse-image]"
-order = 2328
+order = 2308
 uses = ["def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-inverse-image", "thm-sf-ambient-adjoint-class"]
 +++
 In the notation of [def-weil-exceptional-inverse-image], the following holds. The

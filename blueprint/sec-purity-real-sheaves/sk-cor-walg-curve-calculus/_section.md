@@ -2,7 +2,7 @@
 id = "sk-cor-walg-curve-calculus"
 kind = "corollary"
 title = "Application on a curve"
-order = 3864
+order = 3846
 uses = ["sk-d-real-detweights", "sk-p-exterior", "sk-p-tensor"]
 tags = ["sketch"]
 +++

@@ -3,7 +3,7 @@ id = "lem-weil-pbc-truncation-descends"
 kind = "lemma"
 title = "Canonical truncations and H^q(-)[-q] descend to functors on D(A), with i_q, j_q natural"
 lean = ["CochainComplex.quasiIso_truncLEMap_iff", "DerivedCategory.isIso_Q_map_iff_quasiIso", "CategoryTheory.Localization.lift", "CategoryTheory.Localization.fac", "CategoryTheory.Localization.liftNatTrans", "CategoryTheory.Localization.liftNatTrans_app", "DerivedCategory.truncation_triangle"]
-order = 2029
+order = 2008
 uses = ["def-weil-abstract-derived-category"]
 tags = ["stacks-08J5"]
 +++

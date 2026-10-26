@@ -2,7 +2,7 @@
 id = "sk-rem-pd-integral-corrections"
 kind = "remark"
 title = "Integral corrections and finite rings"
-order = 3426
+order = 3408
 tags = ["sketch"]
 +++
 Let $X$, $K$ and $K^\vee=\cHom_X(K,\Lambda_X)$ be as in

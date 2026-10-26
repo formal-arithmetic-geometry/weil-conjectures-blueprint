@@ -12,4 +12,9 @@ $A$. A finite surjection whose Zariski-local pieces factor through the étale
 covering, followed by descent on its self-intersection, upgrades the Zariski
 comparison to étale sheaves (Stacks Project, Tag 09ZF). Over a general affine
 base the integral form of Stein factorization, whose algebra need not be
-finite, suffices for this argument.
+finite, suffices for this argument. This is Stacks Project, Tag 0A0C.
+
+For sheaves of abelian groups or of $\Lambda$-modules, apply the statement to the
+underlying sheaf of sets. Forgetting the algebraic structure commutes with
+$\Gamma$ and with $i^{-1}$, since it preserves finite limits and filtered
+colimits, and it reflects isomorphisms.

@@ -2,7 +2,7 @@
 id = "lem-wf-internal-hom-weil"
 kind = "lemma"
 title = "Internal Hom of Weil complexes"
-order = 3814
+order = 3796
 uses = ["def-wf-internal-hom", "def-weil-weil-sheaf-complex", "lem-wf-tensor-weil"]
 +++
 Let $\Lambda\in\{E,\Qlb\}$. The construction of [def-wf-internal-hom] defines a

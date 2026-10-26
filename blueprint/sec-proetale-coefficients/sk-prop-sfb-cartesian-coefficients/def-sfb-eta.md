@@ -2,7 +2,7 @@
 id = "def-sfb-eta"
 kind = "definition"
 title = "The coefficient morphism $\\eta_f$"
-order = 1254
+order = 1223
 uses = ["def-sfb-alpha", "def-sfb-finite-upper-lower-star-adjunction"]
 lean = ["AlgebraicGeometry.ProEtale.condensedPushforwardHom"]
 +++

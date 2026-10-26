@@ -2,7 +2,7 @@
 id = "def-sfb-finite-lower-star-comp"
 kind = "definition"
 title = "Composition isomorphism for pushforwards"
-order = 915
+order = 880
 uses = ["def-sfb-finite-lower-star"]
 lean = ["AlgebraicGeometry.ProEtale.lowerStarComp"]
 +++

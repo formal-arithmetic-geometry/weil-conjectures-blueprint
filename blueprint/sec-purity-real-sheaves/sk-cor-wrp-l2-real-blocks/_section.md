@@ -2,7 +2,7 @@
 id = "sk-cor-wrp-l2-real-blocks"
 kind = "corollary"
 title = "Growth of real sheaves and of extensions across points"
-order = 3919
+order = 3903
 uses = ["sk-lem-wrp-l2-growth", "sk-p-real-purity", "sk-p-real-semi", "sk-thm-wrp-l2-dictionary"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-thm-derived-duality"
 kind = "corollary"
 title = "Degreewise duality over fields"
-order = 3420
+order = 3402
 uses = ["sk-def-pairing", "sk-lem-finite", "sk-thm-sf-identification"]
 tags = ["sketch"]
 +++

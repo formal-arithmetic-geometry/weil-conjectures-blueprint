@@ -2,7 +2,7 @@
 id = "det-uniform-constructible-ext-torsion"
 kind = "lemma"
 title = "The torsion stratum bound"
-order = 2222
+order = 2202
 uses = ["sk-lem-formal-closed-support", "sk-def-cd"]
 +++
 Let $a=i\circ u\colon S\hookrightarrow Z\hookrightarrow X$ with $i$ closed, $u$ open, and let

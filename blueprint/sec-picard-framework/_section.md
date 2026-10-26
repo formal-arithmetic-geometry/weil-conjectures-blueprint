@@ -2,8 +2,8 @@
 id = "sec-picard-framework"
 kind = "section"
 title = "Picard Framework"
-order = 618
-uses = ["sec-nagata-compactification", "sec-abelian-varieties", "sk-def-av-jacobian", "sk-def-av-pic"]
+order = 556
+uses = ["sec-nagata-compactification", "sec-abelian-varieties", "sk-lem-abelian-seesaw", "sk-prop-av-isogeny", "sk-lem-nagata-sketch-elimination"]
 +++
 **Content.** This section constructs the Jacobian of a smooth projective
 curve as the identity component of its Picard scheme, along two strands.

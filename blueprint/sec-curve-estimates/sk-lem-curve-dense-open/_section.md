@@ -2,9 +2,9 @@
 id = "sk-lem-curve-dense-open"
 kind = "lemma"
 title = "Removing finitely many points"
-order = 1510
+order = 1489
 lean = ["AlgebraicGeometry.Etale.shortExact_openClosedShortComplex", "AlgebraicGeometry.IsCurve.assertions_iff_dense_open_prime"]
-uses = ["sk-def-curve", "sk-lem-curve-finite-support"]
+uses = ["sk-lem-curve-finite-support"]
 tags = ["sketch"]
 +++
 Let $j\colon U\hookrightarrow C$ be a dense open in a reduced curve and

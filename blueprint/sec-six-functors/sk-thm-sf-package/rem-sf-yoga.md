@@ -2,7 +2,7 @@
 id = "rem-sf-yoga"
 kind = "remark"
 title = "The yoga: which classical theorem is which"
-order = 3389
+order = 3371
 +++
 The point of the axiomatization is the following dictionary, each entry of
 which is proved, as listed in the right-hand column, from

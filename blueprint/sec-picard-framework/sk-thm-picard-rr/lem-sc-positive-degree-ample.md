@@ -3,7 +3,7 @@ id = "lem-sc-positive-degree-ample"
 kind = "lemma"
 title = "Positive degree implies ample"
 lean = ["AlgebraicGeometry.Scheme.isAmple_of_degree_pos_of_isAlgClosed"]
-order = 743
+order = 701
 uses = ["def-sc-ample", "def-sc-curves", "def-sc-pic0", "lem-sc-degree-2g1-very-ample"]
 +++
 Let $C$ be a proper smooth connected curve of

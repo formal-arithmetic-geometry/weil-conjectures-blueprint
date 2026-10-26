@@ -2,7 +2,7 @@
 id = "det-def-sfb-module-objects"
 kind = "definition"
 title = "Module objects and the category $\\Mod_{\\Lambda_X}$"
-order = 1172
+order = 1138
 uses = ["def-weil-pbc-proetale-site", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-ring-object", "lem-weil-pbc-sheaf-tensor-closed"]
 lean = ["CategoryTheory.ModObj", "CategoryTheory.IsModHom", "CategoryTheory.Mod", "CategoryTheory.Mod.Hom", "CategoryTheory.Mod.forget", "CategoryTheory.Mod.regular", "AlgebraicGeometry.ProEtale.condensedRingObj"]
 +++

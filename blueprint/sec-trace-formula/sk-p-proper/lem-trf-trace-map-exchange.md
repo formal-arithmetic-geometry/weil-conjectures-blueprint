@@ -2,7 +2,7 @@
 id = "lem-trf-trace-map-exchange"
 kind = "lemma"
 title = "Exchange of the trace maps: evaluation and support"
-order = 3491
+order = 3473
 uses = ["def-exchange-projection", "def-sf-kv-maps", "def-trf-coefficient-pushforward", "def-trf-kernel-pushforward-maps", "fix-lem-exchanges", "fix-prop-adjunctions", "fix-prop-projection-formula", "lem-sf-kunneth-coherence", "lem-sf-mate", "lem-trf-fixed-map-proper", "prop-trf-fixed-square-cartesian", "thm-sf-comp-composition", "thm-sf-kunneth-relative", "thm-trf-dualizing-complex-composition", "thm-trf-fixed-point-base-change"]
 +++
 Let $(f,g):(C,c)\to(D,b)$ be a proper pushforward diagram of

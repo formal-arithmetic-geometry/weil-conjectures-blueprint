@@ -3,8 +3,8 @@ id = "det-cor-jacobian-torsion-pic"
 kind = "lemma"
 title = "Divisibility of $J(C)(k)$ and the $n$-torsion of $\\operatorname{Pic}(C)$"
 lean = ["AlgebraicGeometry.surjective_npow_points", "AlgebraicGeometry.Scheme.surjective_pow_picardZero", "AlgebraicGeometry.Scheme.ker_picDegreeMod", "AlgebraicGeometry.Scheme.Hom.pic_proper_ntorsion_coker"]
-order = 878
-uses = ["sk-prop-av-mult-surjective", "sk-prop-av-isogeny", "sk-prop-av-divisible", "sk-cor-picard-degree", "sk-thm-picard-main"]
+order = 843
+uses = ["lem-sc-mult-n-isogeny", "sk-prop-av-isogeny", "lem-sc-isogeny-surjective", "sk-cor-picard-degree", "sk-thm-picard-main"]
 +++
 Let $k$ be algebraically closed and let $C/k$ be a smooth proper connected
 curve of genus $g$, with Jacobian $J(C)$.

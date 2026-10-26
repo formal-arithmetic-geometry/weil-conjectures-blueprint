@@ -2,7 +2,7 @@
 id = "sk-input-weights"
 kind = "corollary"
 title = "Purity of smooth proper cohomology"
-order = 4090
+order = 4098
 lean = ["Polynomial.IsMixedOfWeightLE", "TraceDatum.norm_eq_of_mem_roots_charpoly_map_of_pairing", "TraceDatum.isPureOfWeight_map_P_of_pairing"]
 uses = ["sk-d-real-weights", "sk-prop-smooth-proper-purity", "sk-cor-dl-general-complex", "sk-prop-sf-comp-proper"]
 tags = ["sketch"]

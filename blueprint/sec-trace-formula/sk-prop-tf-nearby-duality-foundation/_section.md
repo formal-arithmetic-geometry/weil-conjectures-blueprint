@@ -2,7 +2,7 @@
 id = "sk-prop-tf-nearby-duality-foundation"
 kind = "proposition"
 title = "Nearby cycles commute with Verdier duality"
-order = 3596
+order = 3578
 uses = ["sk-prop-tf-nearby-external-kunneth", "sk-lem-tf-nearby-mate-coherences", "sk-lem-pd-generic-restriction"]
 tags = ["sketch"]
 +++

@@ -3,7 +3,7 @@ id = "lem-wf-degree-component-image"
 kind = "lemma"
 title = "Matrix image of a degree component"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.image_degreeComponent_eq_closure"]
-order = 3738
+order = 3720
 uses = ["d-monodromy", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components"]
 +++
 In the situation of [def-wf-degree-components], for every

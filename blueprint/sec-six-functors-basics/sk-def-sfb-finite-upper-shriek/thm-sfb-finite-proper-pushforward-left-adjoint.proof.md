@@ -2,12 +2,9 @@
 kind  = "proof"
 of    = "thm-sfb-finite-proper-pushforward-left-adjoint"
 +++
-The derived category of a Grothendieck abelian category is well generated, and by Brown
-representability (Neeman) a triangulated functor out of a well generated triangulated
-category has a right adjoint as soon as it preserves arbitrary coproducts. $Rg_*$ is
-triangulated, so it remains to show that it commutes with arbitrary direct sums. This is
-where properness, more precisely quasi-compactness and quasi-separatedness of $g$, enters.
-We have $(Rg_*K)(V)=R\Gamma(V\times_YZ,K)$, and on quasi-compact quasi-separated objects
-of the pro-étale site cohomology commutes with filtered colimits of sheaves. This gives the
-claim for bounded below complexes. The extension to unbounded complexes is the remaining
-input.
+The ring $\Lambda$ is killed by some $n\ge1$, and for a proper morphism $Rg_*$ on unbounded
+complexes of étale $\Lambda$-modules commutes with arbitrary direct sums
+([lem-amb-proper-coproducts]; [0F0D](https://stacks.math.columbia.edu/tag/0F0D)). The derived
+category of a Grothendieck abelian category is well generated, and an exact functor out of it
+that commutes with direct sums has a right adjoint
+([0F5Y](https://stacks.math.columbia.edu/tag/0F5Y)). No condition on $Z$ or $Y$ is needed.

@@ -3,7 +3,7 @@ id = "sbc-thm-universal-test-vanishing"
 kind = "theorem"
 title = "Vanishing in the universal curve test"
 lean = ["AlgebraicGeometry.Etale.exists_etaleTorsor_cohomologyMap_eq_zero", "AlgebraicGeometry.Etale.CurveTestDatum.exists_cover_cohomologyMap_eq_zero"]
-order = 2072
+order = 2051
 uses = ["def-sbc-normal-dominant-galois", "def-sbc-smooth-morphisms", "def-weil-pbc-scheme-conventions", "sbc-def-base-change-square", "sbc-lem-etale-over-normal", "sbc-lem-higher-direct-image-presheaf", "sbc-lem-slicing", "sbc-prop-torsors-h1", "sbc-thm-algebraically-closed-invariance", "sbc-thm-cohomological-dimension-of-an-affine-curve", "sbc-thm-spreading-finite-etale-galois"]
 +++
 Let

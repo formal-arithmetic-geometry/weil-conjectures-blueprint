@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-pointed-etale-neighbourhoods-cofiltered"
 kind = "lemma"
 title = "Pointed etale neighbourhoods of a geometric point form a cofiltered category"
-order = 1537
+order = 1516
 uses = ["def-pc-scheme", "def-weil-geometric-point", "def-weil-etale-morphism", "def-weil-pbc-pointed-etale-neighbourhoods"]
 lean = ["CategoryTheory.Functor.isCofiltered_elements"]
 tags = ["mathlib", "stacks-03PQ"]

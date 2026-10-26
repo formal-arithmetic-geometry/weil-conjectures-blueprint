@@ -3,7 +3,7 @@ id = "lem-sc-normalization-properties"
 kind = "lemma"
 title = "Properties of the normalization"
 lean = ["AlgebraicGeometry.Scheme.normalization_properties", "AlgebraicGeometry.Scheme.exists_isIso_fromNormalization_restrict"]
-order = 1372
+order = 1347
 uses = ["def-sc-normalization", "lem-sc-normalization-exists", "lem-sc-normalization-over-normal-locus", "lem-sc-normalized-curve-smooth"]
 +++
 Let $X$ be an integral scheme of finite type over a field $k$

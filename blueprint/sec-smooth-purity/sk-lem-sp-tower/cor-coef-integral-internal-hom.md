@@ -2,8 +2,7 @@
 id = "cor-coef-integral-internal-hom"
 kind = "theorem"
 title = "Integral constructible internal Hom"
-lean = ["AlgebraicGeometry.Etale.boundedConstructibleIntegral_derivedHom"]
-order = 3000
+order = 2982
 tags = ["latex:corollary"]
 uses = ["cor-weil-finite-constructible-hom", "lem-coef-integral-hom-reduction", "lem-coef-integral-residue-tor"]
 +++

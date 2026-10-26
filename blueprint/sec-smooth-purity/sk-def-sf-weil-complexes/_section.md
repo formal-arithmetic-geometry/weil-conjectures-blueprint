@@ -2,7 +2,7 @@
 id = "sk-def-sf-weil-complexes"
 kind = "definition"
 title = "Weil structure"
-order = 3067
+order = 3049
 uses = ["def-weil-weil-sheaf-complex"]
 tags = ["sketch"]
 +++
@@ -13,7 +13,10 @@ $\operatorname{Fr}_T:T\to T$ be the semilinear automorphism induced by the
 geometric Frobenius $\sigma=\sigma_{\mathrm{ar}}^{-1}\in\operatorname{Gal}(k/k_0)$,
 and for an admissible coefficient ring $\Lambda$ let
 $\operatorname{Fr}_T^*:\Dctf(T,\Lambda)\to\Dctf(T,\Lambda)$ be the induced
-pullback.
+pullback. Since $\operatorname{Fr}_T$ is an automorphism of schemes, pullback of
+sheaves of modules along it is exact and preserves derived completeness, so
+$\operatorname{Fr}_T^*$ is an autoequivalence of $\Dctf(T,\Lambda)$ for every admissible
+$\Lambda$, which agrees with the derived inverse image along $\operatorname{Fr}_T$.
 
 For $K\in\Dctf(Y,\Lambda)$, a *Weil structure* is an isomorphism in
 $\Dctf(Y,\Lambda)$

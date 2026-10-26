@@ -2,7 +2,7 @@
 id = "rem-pc-regularity-sc"
 kind = "remark"
 title = "Local regularity theory: already in file 06"
-order = 714
+order = 672
 uses = ["def-pc-smooth-projective-curve", "def-sc-curves", "lem-sc-point-cartier", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
 The local regularity facts needed here are [lem-sc-smooth-regular] (a smooth curve over a field has

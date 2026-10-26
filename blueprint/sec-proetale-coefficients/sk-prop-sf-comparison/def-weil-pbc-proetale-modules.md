@@ -2,7 +2,7 @@
 id = "def-weil-pbc-proetale-modules"
 kind = "definition"
 title = "Finite coefficients on the pro-etale site"
-order = 1030
+order = 995
 lean = ["AlgebraicGeometry.Scheme.ProEt.topology", "DerivedCategory", "DerivedCategory.Plus", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructible"]
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-proetale-site"]
 +++

@@ -2,7 +2,7 @@
 id = "pur7710-def-kunneth-map"
 kind = "definition"
 title = "The ordinary Künneth morphism at finite level"
-order = 3087
+order = 3069
 uses = ["pur7710-def-exterior-product", "sk-thm-sf-comp-composition"]
 +++
 For $X,Y,Z,K,L$ as in Definition [pur7710-def-exterior-product], let

@@ -3,7 +3,7 @@ id = "thm-pur-affine-line-purity"
 kind = "theorem"
 title = "Affine-line purity"
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineLine"]
-order = 2931
+order = 2912
 uses = ["cor-amb-affine-space-adjunction", "def-amb-p1-trace", "def-pur-affine-line-datum", "def-pur-affine-line-purity-comparison", "def-pur-conventions", "prop-asd-smooth-base-change", "thm-sf-ambient-adjoint-class", "thm-weil-pbc-site-comparison"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting), let $Y$ be the scheme of the

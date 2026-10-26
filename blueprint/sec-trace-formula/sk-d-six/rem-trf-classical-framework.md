@@ -2,7 +2,7 @@
 id = "rem-trf-classical-framework"
 kind = "definition"
 title = "Classical framework convention: no $\\infty$-categories"
-order = 3627
+order = 3609
 uses = ["def-exchange-projection", "def-trf-categorical-trace", "def-weil-finite-coefficient-point", "def-weil-pbc-proetale-site", "prop-functor-package", "def-sf-setting", "det-def-sfb-bounded-constructible", "sk-prop-scalar-six", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Throughout this chapter, and in every statement below, the framework is

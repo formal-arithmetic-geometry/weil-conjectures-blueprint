@@ -2,7 +2,7 @@
 id = "sk-lem-pe-weakly-etale-stability"
 kind = "lemma"
 title = "Stability"
-order = 905
+order = 870
 lean = ["AlgebraicGeometry.WeaklyEtale", "AlgebraicGeometry.WeaklyEtale.of_comp", "AlgebraicGeometry.proAffineEtale", "RingHom.IndEtale.comp", "RingHom.IndEtale.isStableUnderBaseChange", "RingHom.IndEtale.weaklyEtale"]
 uses = ["sk-def-pe-morphisms"]
 tags = ["sketch"]

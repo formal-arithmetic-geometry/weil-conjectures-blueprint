@@ -3,7 +3,7 @@ id = "lem-pc-flat-base-change-cohom"
 kind = "lemma"
 title = "Cohomology and flat base change"
 lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_derivedGlobalSectionsOver_baseChange_iso", "AlgebraicGeometry.Scheme.Modules.derivedGlobalSectionsOver", "AlgebraicGeometry.Scheme.Modules.homologyDerivedGlobalSectionsOverLinearEquiv", "AlgebraicGeometry.Scheme.Modules.nonempty_H_baseChange_linearEquiv", "AlgebraicGeometry.Scheme.Modules.finrankH_pullback", "AlgebraicGeometry.Scheme.Modules.nonempty_H_pullback_linearEquiv"]
-order = 663
+order = 621
 uses = ["def-pc-base-change", "def-pc-derived-category", "def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-morphism-hi", "lem-pc-cech-computes", "lem-sc-cech-spectral"]
 +++
 Let

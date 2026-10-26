@@ -2,7 +2,7 @@
 id = "def-sfb-profinite-to-proetale"
 kind = "definition"
 title = "Profinite sets as pro-étale $\\Spec\\Z$-schemes"
-order = 1070
+order = 1036
 uses = ["def-weil-pbc-proetale-site", "lem-sfb-lc-weakly-etale", "det-def-sfb-condensed-ring"]
 lean = ["AlgebraicGeometry.ProEtale.profiniteToProEt"]
 +++

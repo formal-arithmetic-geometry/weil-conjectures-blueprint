@@ -3,7 +3,7 @@ id = "det-pe-milnor-sequence"
 kind = "lemma"
 title = "Cohomology of the sequential derived limit"
 lean = ["DerivedCategory.shortExact_milnor_of_isHomotopyLimit", "DerivedCategory.isLE_of_isHomotopyLimit"]
-order = 982
+order = 947
 uses = ["det-pe-products-exact", "det-pe-products-derived"]
 +++
 Let $\mathcal C$ be an abelian category with K-injective resolutions in which countable

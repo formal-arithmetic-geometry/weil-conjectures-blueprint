@@ -2,7 +2,7 @@
 id = "def-sc-etale-qcoherent-module"
 kind = "definition"
 title = "The etale sheaf associated with a quasi-coherent module"
-order = 1382
+order = 1357
 lean = ["AlgebraicGeometry.Scheme.Modules.etaleTensorSectionsSheaf", "AlgebraicGeometry.Scheme.Modules.etaleTensorSectionsPresheaf"]
 uses = ["def-weil-pbc-etale-site", "lem-sc-etale-qcoherent-descent"]
 +++

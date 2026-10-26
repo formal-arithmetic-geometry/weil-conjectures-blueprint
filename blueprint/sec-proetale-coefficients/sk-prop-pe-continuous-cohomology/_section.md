@@ -2,9 +2,9 @@
 id = "sk-prop-pe-continuous-cohomology"
 kind = "proposition"
 title = "Continuous cohomology as pro-étale cohomology"
-order = 1086
+order = 1052
 lean = ["AlgebraicGeometry.ProEtale.isHomotopyLimit_mapCone_Q_of_epi", "CategoryTheory.Pretriangulated.IsHomotopyLimit.map", "DerivedCategory.shortExact_milnor_of_isHomotopyLimit"]
-uses = ["sk-prop-pe-replete", "sk-prop-pe-milnor"]
+uses = ["sk-prop-pe-replete", "sk-prop-pe-milnor", "sk-prop-sf-comparison"]
 tags = ["sketch"]
 +++
 Let $X$ be a scheme and $(F_n)$ an inverse system of abelian sheaves on

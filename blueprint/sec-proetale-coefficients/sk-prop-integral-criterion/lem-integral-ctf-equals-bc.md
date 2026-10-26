@@ -2,7 +2,7 @@
 id = "lem-integral-ctf-equals-bc"
 kind = "lemma"
 title = "$\\Dctf=\\Dbc$ for integral and rational coefficients"
-order = 1245
+order = 1214
 uses = ["def-weil-finite-tor-amplitude", "det-def-sfb-bounded-constructible", "def-sfb-constructible-module"]
 +++
 Let $X$ be a qcqs scheme and $\Lambda\in\{\cO_E,E,\Qlb\}$, regarded as a condensed ring, with $E/\mathbf Q_\ell$

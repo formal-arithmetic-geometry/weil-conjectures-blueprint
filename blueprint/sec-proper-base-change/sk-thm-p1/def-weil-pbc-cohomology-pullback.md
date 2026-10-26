@@ -3,7 +3,7 @@ id = "def-weil-pbc-cohomology-pullback"
 kind = "definition"
 title = "Pullback map on etale cohomology"
 lean = ["AlgebraicGeometry.Etale.cohomologyMap", "AlgebraicGeometry.Etale.derivedCohomologyPullback_eq_derivedUnit"]
-order = 1628
+order = 1607
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-sp-kinjective-bridge", "prop-weil-pbc-kinjective-resolutions-exist", "prop-weil-pbc-inverse-image-exact", "def-weil-pbc-etale-cohomology", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-inverse-image", "def-weil-abstract-derived-category", "prop-weil-pbc-cohomology-resolution-independent"]
 tags = ["stacks-01F7"]
 +++

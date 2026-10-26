@@ -2,7 +2,7 @@
 id = "det-def-sfb-pullback-from-point-comp"
 kind = "definition"
 title = "$f^*\\circ p_Y^*\\cong p_X^*$"
-order = 1217
+order = 1183
 uses = ["def-sfb-finite-upper-star", "def-sfb-finite-upper-star-comp", "def-sfb-finite-upper-star-monoidal", "det-def-sfb-pullback-from-point", "lem-weil-pbc-sheaf-tensor-closed"]
 lean = ["AlgebraicGeometry.ProEtale.upperStarFromPointComp", "AlgebraicGeometry.ProEtale.isMonoidal_upperStarFromPointComp"]
 +++

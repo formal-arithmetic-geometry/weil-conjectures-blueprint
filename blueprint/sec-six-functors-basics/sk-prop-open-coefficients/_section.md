@@ -2,8 +2,8 @@
 id = "sk-prop-open-coefficients"
 kind = "proposition"
 title = "Direct image along an open immersion"
-order = 2428
-uses = ["sk-thm-sfb-proper-base-change", "sk-cor-geo-open-finiteness", "sk-lem-integral-models", "sk-cor-pe-bounded-continuity", "sk-cor-coefficient-heart-ii"]
+order = 2408
+uses = ["sk-thm-sfb-proper-base-change", "sk-cor-geo-open-finiteness", "sk-lem-integral-models", "sk-cor-pe-bounded-continuity", "sk-cor-coefficient-heart-ii", "sk-prop-integral-criterion"]
 tags = ["sketch"]
 +++
 Let $j:U\hookrightarrow X$ be a quasi-compact open immersion. Then

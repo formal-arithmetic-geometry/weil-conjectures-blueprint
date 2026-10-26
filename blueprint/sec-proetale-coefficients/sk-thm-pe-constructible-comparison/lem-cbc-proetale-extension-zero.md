@@ -3,7 +3,7 @@ id = "lem-cbc-proetale-extension-zero"
 kind = "lemma"
 title = "Extension by zero on the pro-etale site"
 lean = ["AlgebraicGeometry.ProEtale.openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.openImmersionLowerShriekUpperStarAdjunction", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.nonempty_iso_mapDerivedCategory_upperStar_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.isZero_mapDerivedCategory_upperStar_openImmersionLowerShriek"]
-order = 1050
+order = 1016
 uses = ["def-weil-extension-by-zero", "def-weil-pbc-derived-categories", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions"]
 +++
 For an open immersion

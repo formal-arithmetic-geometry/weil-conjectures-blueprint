@@ -3,7 +3,7 @@ id = "det-pe-stonean-cover"
 kind = "lemma"
 title = "Stonean covers of compact Hausdorff spaces"
 lean = ["CompHaus.projectivePresentation", "ultrafilterBasis_is_basis", "ultrafilter_compact", "Ultrafilter.t2Space", "denseRange_pure", "CompHaus.projective_ultrafilter", "continuous_ultrafilter_extend", "ultrafilter_extend_extends"]
-order = 931
+order = 896
 uses = ["det-pe-stonean-projective"]
 +++
 Let $T$ be a compact Hausdorff space (for instance profinite) and let $D$ be its underlying

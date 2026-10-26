@@ -2,7 +2,7 @@
 id = "det-sp-constant-family-vanishing"
 kind = "lemma"
 title = "The specialization unit of a constant family is invertible"
-order = 3570
+order = 3552
 uses = ["det-sp-nearby-cycles-exchanges"]
 +++
 Let $k$ be algebraically closed, $A$ a finite commutative ring annihilated by a power of a prime

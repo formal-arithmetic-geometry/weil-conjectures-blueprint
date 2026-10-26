@@ -3,7 +3,7 @@ id = "lem-weil-pbc-injective-acyclicity-bounded-below"
 kind = "lemma"
 title = "Injective acyclicity gives bounded-below base change (torsion coefficient ring)"
 lean = ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity.hasTorsionBaseChange", "AlgebraicGeometry.Etale.HasInjectiveAcyclicity.hasTorsionBaseChange_of_isIso_baseChangeMap"]
-order = 1571
+order = 1550
 uses = ["def-weil-proper-morphism", "def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-derived-exchange"]
 tags = ["stacks-0A4B"]
 +++

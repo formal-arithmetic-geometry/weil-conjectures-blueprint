@@ -3,7 +3,7 @@ id = "def-weil-frobenius-coefficient-twists"
 kind = "definition"
 title = "Frobenius on coefficient twists"
 lean = ["AlgebraicGeometry.WeilSheaf.nonempty_equiv_cohomology_tateTwistSheaf", "AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_tateTwistSheaf"]
-order = 2777
+order = 2758
 uses = ["def-coefficient-twists-detailed", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties"]
 +++
 Fix the finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$, where

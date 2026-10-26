@@ -2,7 +2,7 @@
 id = "lem-sfb-dc-lower-star-preserves"
 kind = "lemma"
 title = "$Rf_*$ preserves bounded constructible complexes ($\\ell$-adic $\\Lambda$)"
-order = 2429
+order = 2409
 uses = ["det-def-sfb-bounded-constructible", "det-def-sfb-condensed-ring", "sk-def-sfb-dc-setting", "sk-def-sfb-module-derived-pushpull", "det-def-sfb-qlbar-condensed"]
 +++
 Let $\Lambda$ be one of the $\ell$-adic condensed rings $\underline{\cO}_E$, $\underline E$

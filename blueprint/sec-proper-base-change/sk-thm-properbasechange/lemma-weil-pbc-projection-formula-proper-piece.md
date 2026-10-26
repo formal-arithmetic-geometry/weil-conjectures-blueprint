@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-proper-piece"
 kind = "lemma"
 title = "Proper compactification piece"
-order = 1979
+order = 1958
 lean = ["AlgebraicGeometry.Etale.rightDerivedLowerStarProjectionMap", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerStarProjectionMap_app_app_of_isDualizable"]
 uses = ["def-weil-pbc-projection-compactification"]
 +++

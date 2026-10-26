@@ -2,7 +2,7 @@
 id = "lem-pc-f-open-subfunctor"
 kind = "lemma"
 title = "$F$ is an open subfunctor"
-order = 833
+order = 796
 uses = ["def-pc-derived-category", "def-pc-f-subfunctor", "def-pc-pic-sigma-functor", "def-pc-subfunctor", "def-sc-invertible-module", "lem-pc-flat-rf-open", "lem-pc-smooth-flat"]
 lean = ["AlgebraicGeometry.isOpenImmersion_picardFunctorInvertibleDirectImage_ι", "AlgebraicGeometry.exists_opens_isInvertibleDirectImage_map_iff", "AlgebraicGeometry.IsInvertibleDirectImage.map_of_isProper"]
 +++

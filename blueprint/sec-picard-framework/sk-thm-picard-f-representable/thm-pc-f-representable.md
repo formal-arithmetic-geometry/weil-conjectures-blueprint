@@ -2,7 +2,7 @@
 id = "thm-pc-f-representable"
 kind = "theorem"
 title = "$F$ is representable by an open subscheme of $\\underline{\\operatorname{Hilb}}^g_{X/k}$"
-order = 838
+order = 801
 uses = ["def-pc-derived-category", "def-pc-f-subfunctor", "def-pc-finite-locally-free", "def-pc-genus", "def-pc-hilb-functor", "def-pc-pic-sigma-functor", "def-pc-rational-point", "def-pc-relative-effective-cartier", "def-pc-representable-functor", "def-pc-smooth-projective-curve", "def-pc-subfunctor", "def-nagata-invertible-ideal", "def-sc-invertible-module", "lem-pc-cartier-criterion", "lem-pc-hilb-representable", "lem-pc-recd-pullback", "lem-pc-universal-adjoint-section", "lem-pc-universal-divisor", "thm-pc-hilb-curves"]
 lean = ["AlgebraicGeometry.isRepresentable_picardFunctorInvertibleDirectImage"]
 +++

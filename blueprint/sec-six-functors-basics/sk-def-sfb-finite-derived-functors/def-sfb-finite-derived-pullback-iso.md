@@ -2,7 +2,7 @@
 id = "def-sfb-finite-derived-pullback-iso"
 kind = "definition"
 title = "$Lg^*\\cong D(g^*)$"
-order = 2513
+order = 2494
 uses = ["def-sfb-finite-upper-star", "lem-sfb-finite-upper-star-exact", "det-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.leftDerivedUpperStarIsoMapDerivedCategory"]
 +++

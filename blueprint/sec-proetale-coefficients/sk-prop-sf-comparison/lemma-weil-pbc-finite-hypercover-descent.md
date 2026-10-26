@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-hypercover-descent"
 kind = "lemma"
 title = "Finite etale hypercover skeleta descend"
-order = 1024
+order = 989
 lean = ["AlgebraicGeometry.finite_hypercover_descent", "AlgebraicGeometry.FiniteSplitEtaleHypercover.exists_truncated_refinement"]
 uses = ["def-weil-pbc-finite-split-hypercover", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-etale-finite-data-descent", "lemma-weil-pbc-fibre-product-limit"]
 +++

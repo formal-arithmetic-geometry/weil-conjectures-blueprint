@@ -2,7 +2,7 @@
 id = "det-tf-contracting-vanishing"
 kind = "lemma"
 title = "Vanishing of the trace class off the contracted subscheme"
-order = 3617
+order = 3599
 uses = ["det-tf-cone-zero-sections", "det-tf-fixed-deformation-points", "det-tf-sp-trace-morphism", "det-tf-sp-theta-open-constant", "det-sp-zero-section-vanishing"]
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be a correspondence of separated finite-type schemes over an

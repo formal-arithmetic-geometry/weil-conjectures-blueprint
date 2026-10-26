@@ -2,7 +2,7 @@
 id = "pur9-def-deformation-space"
 kind = "definition"
 title = "Deformation space of a section"
-order = 3256
+order = 3238
 uses = ["pur9-def-section-invariant"]
 +++
 Let $g,s$ be as in Definition [pur9-def-section-invariant], and let $\mathcal I\subseteq\mathcal O_V$ be the ideal of $s(B)$. Put $\mathcal I^r:=\mathcal O_V$ for $r\leq0$, and let

@@ -2,7 +2,7 @@
 id = "sk-def-sfb-coefficient-comparisons"
 kind = "definition"
 title = "Comparison maps for a change of coefficients"
-order = 2600
+order = 2581
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-lower-shriek"]
 lean = ["CategoryTheory.Mod.comapMapModComapIso", "CategoryTheory.Mod.comapMapModComapIso_hom_app_hom", "CategoryTheory.Adjunction.pullIsoOfComapIso", "CategoryTheory.Adjunction.pushHomOfComapIso", "CategoryTheory.Mod.extendScalarsComapIsoOfIsIso", "CategoryTheory.Functor.ProjectionFormula.mapModLeftComapIso", "AlgebraicGeometry.ProEtale.CondensedRing.comapLowerStarIso", "AlgebraicGeometry.ProEtale.CondensedRing.pullIso", "AlgebraicGeometry.ProEtale.CondensedRing.pushHom", "AlgebraicGeometry.ProEtale.CondensedRing.comapUpperStarIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedComapUpperStarIso", "AlgebraicGeometry.ProEtale.CondensedRing.preservesHomology_extendScalars_coefficientMap", "AlgebraicGeometry.ProEtale.CondensedRing.preservesKInjectiveComplexes_comap_coefficientMap", "AlgebraicGeometry.ProEtale.CondensedRing.derivedComapLowerStarIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPullIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedPushHom", "AlgebraicGeometry.ProEtale.CondensedRing.comapOpenImmersionLowerShriekIso", "AlgebraicGeometry.ProEtale.CondensedRing.openImmersionShriekIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedOpenImmersionShriekIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedLowerShriekHom", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedLowerShriekHom"]
 tags = ["sketch"]

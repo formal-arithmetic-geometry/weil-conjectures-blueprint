@@ -2,7 +2,7 @@
 id = "sk-lem-tf-rational-model"
 kind = "lemma"
 title = "Integral models for rational Frobenius correspondences"
-order = 3545
+order = 3527
 uses = ["sk-d-weil", "sk-thm-sfb-rationalization-comparison", "sk-lem-integral-models"]
 tags = ["sketch"]
 +++

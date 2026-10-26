@@ -3,7 +3,7 @@ id = "lem-wf-conjugation-geometric-monodromy"
 kind = "lemma"
 title = "Conjugation preserves the geometric monodromy group"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobeniusConjIso", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.zeroLocusMulEquiv_comp_frobeniusConjIso_hom"]
-order = 3735
+order = 3717
 uses = ["d-monodromy", "lem-wf-zariski-closure-subgroup"]
 +++
 Let $\rho:W\to\operatorname{GL}_n(k)$ be a represented degree datum

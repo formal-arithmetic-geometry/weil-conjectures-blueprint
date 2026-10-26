@@ -3,7 +3,7 @@ id = "prop-av-tate-rank"
 kind = "theorem"
 title = "The $\\ell$-adic Tate module is free of rank $2g$"
 lean = ["AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule", "AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_rationalTateModule"]
-order = 609
+order = 546
 uses = ["def-sc-abelian-variety", "def-wf-abelian-tate-module"]
 tags = ["latex:proposition"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-galois-axioms"
 kind = "lemma"
 title = "Consequences of the axioms"
-order = 1404
+order = 1379
 lean = ["CategoryTheory.PreGaloisCategory.FiberFunctor", "CategoryTheory.PreGaloisCategory.initial_iff_fiber_empty", "CategoryTheory.PreGaloisCategory.surjective_on_fiber_of_epi", "CategoryTheory.PreGaloisCategory.epi_of_nonempty_of_isConnected", "CategoryTheory.PreGaloisCategory.evaluation_injective_of_isConnected", "CategoryTheory.PreGaloisCategory.evaluation_aut_injective_of_isConnected", "CategoryTheory.PreGaloisCategory.card_aut_le_card_fiber_of_connected", "CategoryTheory.PreGaloisCategory.IsGalois", "CategoryTheory.PreGaloisCategory.isGalois_iff_pretransitive", "CategoryTheory.PreGaloisCategory.has_decomp_connected_components"]
 uses = ["def-galois-category"]
 +++

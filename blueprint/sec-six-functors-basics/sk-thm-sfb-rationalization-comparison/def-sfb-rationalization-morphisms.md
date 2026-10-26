@@ -2,7 +2,7 @@
 id = "def-sfb-rationalization-morphisms"
 kind = "definition"
 title = "Morphisms with torsion cone"
-order = 2196
+order = 2175
 uses = ["lem-sfb-torsion-triangulated"]
 lean = ["CategoryTheory.Rationalization.W"]
 +++

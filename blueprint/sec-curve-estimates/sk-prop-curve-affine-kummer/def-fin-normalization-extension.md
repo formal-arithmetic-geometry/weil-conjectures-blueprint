@@ -3,7 +3,7 @@ id = "def-fin-normalization-extension"
 kind = "definition"
 title = "Normalization in a finite extension"
 lean = ["AlgebraicGeometry.Scheme.normalizationIn", "AlgebraicGeometry.Scheme.fromNormalizationIn"]
-order = 1443
+order = 1418
 uses = ["def-sc-normalization", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be an

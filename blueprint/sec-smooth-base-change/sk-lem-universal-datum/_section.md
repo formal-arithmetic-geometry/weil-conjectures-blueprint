@@ -2,7 +2,7 @@
 id = "sk-lem-universal-datum"
 kind = "lemma"
 title = "Reduction to a curve over a normal base"
-order = 2067
+order = 2046
 uses = ["sk-def-bc", "sk-def-smooth", "sk-lem-failure-field", "sk-lem-sbc-integral-tests", "sk-prop-injectivity"]
 lean = ["AlgebraicGeometry.Etale.CurveTestDatum", "AlgebraicGeometry.Etale.exists_curveTestDatum"]
 tags = ["sketch"]

@@ -3,7 +3,7 @@ id = "def-pc-picard-presheaf"
 kind = "definition"
 title = "The Picard presheaf"
 lean = ["AlgebraicGeometry.picardPresheaf", "AlgebraicGeometry.Scheme.Pic.map", "AlgebraicGeometry.Scheme.Pic.map_id", "AlgebraicGeometry.Scheme.Pic.map_comp"]
-order = 622
+order = 568
 uses = ["def-pc-base-change", "def-sc-picard-group", "def-sc-invertible-module"]
 +++
 Let $f:X\to S$ be a morphism of schemes. The *Picard presheaf* is

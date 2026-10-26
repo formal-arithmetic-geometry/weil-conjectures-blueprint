@@ -24,8 +24,8 @@ $[a,b]$. Since $\nu_X^*$ is exact and faithful on module sheaves,
 $H^q(K\otimes^{\mathrm L}N)=0$ whenever $\nu_X^*H^q(K\otimes^{\mathrm L}N)=0$.
 So $K$ has Tor amplitude in $[a,b]$.
 
-*The equivalence.* If $\nu_X^*$ is an equivalence
-$D^b_c(X_{\Et},\Lambda)\to\Dbc(X,\Lambda)$, as it is for finite $\Lambda$ by
-[lem-sf-proetale-constructible-origin], then by the two previous paragraphs an object has finite Tor amplitude if and only if its image does, so
+*The equivalence.* The functor $\nu_X^*$ is an equivalence
+$D^b_c(X_{\Et},\Lambda)\to\Dbc(X,\Lambda)$ by
+[lem-sf-proetale-constructible-origin], so by the two previous paragraphs an object has finite Tor amplitude if and only if its image does, so
 the equivalence restricts to the full subcategories of objects of finite Tor
 amplitude.

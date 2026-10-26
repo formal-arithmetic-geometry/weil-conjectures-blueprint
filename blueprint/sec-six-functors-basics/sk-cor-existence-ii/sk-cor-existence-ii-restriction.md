@@ -2,7 +2,7 @@
 id = "det-cor-existence-ii-restriction"
 kind = "lemma"
 title = "Restricting the Brown adjoint along a proper map to $D^b_{ctf}$"
-order = 2143
+order = 2122
 uses = ["sk-thm-existence", "det-def-localizing-closure-existence", "sk-prop-sf-comp-coherence"]
 +++
 Let $\Lambda$ be admissible and $p\colon X\to Y$ a proper morphism of standing schemes. Then:

@@ -3,7 +3,7 @@ id = "lem-weil-coefficient-frobenius"
 kind = "lemma"
 title = "Coefficient biduality at finite and integral stages"
 lean = ["IsDiscreteValuationRing.injective_quotient_pow", "IsDiscreteValuationRing.isReflexive_quotient_pow", "IsDiscreteValuationRing.dual_quotient_eq_zero", "IsDiscreteValuationRing.not_isReflexive_quotient"]
-order = 2842
+order = 2823
 uses = ["det-def-sfb-condensed-ring"]
 +++
 Consider the coefficient rings $A_{E,n}=\mathcal O_E/\pi_E^n$, $\mathcal O_E$,

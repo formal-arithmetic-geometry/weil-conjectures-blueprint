@@ -1,11 +1,11 @@
 +++
 kind  = "proof"
 of    = "det-cor-jacobian-torsion-pic"
-uses = ["sk-prop-av-mult-surjective", "sk-prop-av-isogeny", "sk-prop-av-divisible", "sk-cor-picard-degree", "sk-thm-picard-main"]
+uses = ["lem-sc-mult-n-isogeny", "sk-prop-av-isogeny", "lem-sc-isogeny-surjective", "sk-cor-picard-degree", "sk-thm-picard-main"]
 +++
 Write $J=J(C)$; it is an abelian variety over $k$ by [sk-thm-picard-main].
 
-*(1)* By [sk-prop-av-mult-surjective] and [sk-prop-av-isogeny],
+*(1)* By [lem-sc-mult-n-isogeny] and [sk-prop-av-isogeny],
 $[n]\colon J\to J$ is finite and surjective. Let $y\in J(k)$, viewed as a
 closed point $y\colon\Spec k\to J$. The fibre
 $F=J\times_{[n],J,y}\Spec k$ is finite over $\Spec k$ because $[n]$ is
@@ -15,7 +15,7 @@ $k$-algebra. For a maximal ideal $\mathfrak m\subset B$, the field
 $B/\mathfrak m$ is a finite extension of $k$, hence equal to $k$ since $k$
 is algebraically closed. The resulting $k$-point of $F$ is a point
 $x\in J(k)$ with $[n](x)=y$, that is $nx=y$ in the group $J(k)$. Thus $J(k)$
-is divisible ([sk-prop-av-divisible]).
+is divisible ([lem-sc-isogeny-surjective]).
 
 *(2)* The identity $J[n](k)=J(k)[n]$ holds because $J[n](k)$ is the kernel
 of $[n]$ on $J(k)$ (universal property of the kernel). By

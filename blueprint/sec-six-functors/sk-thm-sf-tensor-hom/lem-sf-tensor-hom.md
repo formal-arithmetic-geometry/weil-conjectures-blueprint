@@ -3,7 +3,7 @@ id = "lem-sf-tensor-hom"
 kind = "lemma"
 title = "Tensor–Hom form of the exchange"
 lean = ["AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIso", "AlgebraicGeometry.Etale.commShift_derivedHomRightDerivedLowerShriekIso_app_hom", "AlgebraicGeometry.Etale.whiskerTop_derivedHomRightDerivedLowerShriekIso_hom", "AlgebraicGeometry.Etale.derivedHomRightDerivedLowerShriekIso_hom_app_comp_mateEquiv"]
-order = 3289
+order = 3271
 uses = ["def-sf-datum", "def-sf-pf", "def-trf-admissibility", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "fix-lem-tensor-adjunction", "fix-prop-adjunctions"]
 +++
 In the setting of [def-sf-datum], let $f:X\to Y$ be a separated

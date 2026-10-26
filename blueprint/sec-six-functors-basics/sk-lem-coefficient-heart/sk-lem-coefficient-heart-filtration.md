@@ -2,7 +2,7 @@
 id = "det-lem-coefficient-heart-filtration"
 kind = "lemma"
 title = "Filtration of a constructible sheaf by extensions by zero of lisse sheaves"
-order = 2147
+order = 2126
 uses = ["det-lem-coefficient-heart-common-stratification", "det-lem-coefficient-heart-closure"]
 +++
 Let $X$ be a Noetherian scheme, $\Lambda=E$ or $\Qlb$, and $F\in\Cons(X,\Lambda)$. Let

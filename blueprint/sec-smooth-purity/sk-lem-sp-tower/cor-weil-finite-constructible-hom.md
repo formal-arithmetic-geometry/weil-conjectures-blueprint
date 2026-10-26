@@ -3,7 +3,7 @@ id = "cor-weil-finite-constructible-hom"
 kind = "theorem"
 title = "Internal Hom for arbitrary finite-stage constructible complexes"
 lean = ["AlgebraicGeometry.Etale.constructibleFiniteTor_derivedHom_of_isSeparated"]
-order = 2992
+order = 2974
 tags = ["latex:corollary"]
 uses = ["def-weil-derived-pullback-tensor-hom", "lem-sf-tensor-ctf", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata", "thm-fix-general-biduality"]
 +++

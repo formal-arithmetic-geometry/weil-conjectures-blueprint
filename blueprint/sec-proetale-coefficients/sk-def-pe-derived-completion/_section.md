@@ -2,10 +2,16 @@
 id = "sk-def-pe-derived-completion"
 kind = "definition"
 title = "Derived adic completeness"
-order = 1208
+order = 1174
 uses = ["sk-prop-sf-open-closed-triangle"]
 tags = ["sketch"]
 +++
+We treat integral coefficients through their reductions modulo powers of $\pi_E$. This is
+possible for complexes that are recovered from their reductions, the derived complete ones.
+Derived completeness is the analogue for complexes of the condition
+$M=\varprojlim_nM/\pi_E^nM$ on a module. For example, $\mathcal O_{E,X}$ itself is derived
+complete, while $E_X$ is not, since all its reductions vanish.
+
 Let $E/\Ql$ be finite, with uniformizer $\pi_E$, and let
 $\mathcal O_{E,X}=p_X^*\underline{\mathcal O_E}$ and $(\mathcal O_E/\pi_E^n)_X$ be
 the integral and finite coefficient sheaves of

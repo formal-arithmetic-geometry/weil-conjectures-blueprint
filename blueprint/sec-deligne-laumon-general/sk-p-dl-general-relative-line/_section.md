@@ -2,7 +2,7 @@
 id = "sk-p-dl-general-relative-line"
 kind = "theorem"
 title = "Pure lisse sheaves over relative affine curves"
-order = 4059
+order = 4067
 lean = ["AlgebraicGeometry.isMixedOfWeightsAtMost_higherLowerShriek_of_affineLine"]
 uses = ["sk-d-real-weights", "sk-def-wrp-real-definition", "sk-thm-sf-comp-composition", "sk-prop-sf-cbc", "sk-cor-wft-curve-upper", "sk-prop-wrp-real-envelope", "sk-l-dl-a1-endpoints", "sk-thm-trace-transport", "sk-thm-sf-ctf-stability", "sk-i-dl-general-real", "sk-lem-wgen-punctual-cutoff"]
 tags = ["sketch"]

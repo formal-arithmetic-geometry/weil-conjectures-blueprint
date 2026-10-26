@@ -2,8 +2,8 @@
 id = "sec-six-functors-basics"
 kind = "section"
 title = "Six Functors: Basic Constructions"
-order = 2118
-uses = ["sec-abelian-varieties", "sec-curve-estimates", "sec-nagata-compactification", "sec-picard-framework", "sec-proetale-coefficients", "sec-proper-base-change", "sec-smooth-base-change", "sk-def-exchange", "sk-def-pbc-conventions", "sk-lem-curve-normalization", "sk-lem-pbc-finite", "sk-prop-curve-affine-kummer", "sk-thm-br", "sk-thm-curveestimate"]
+order = 2097
+uses = ["sec-abelian-varieties", "sec-curve-estimates", "sec-nagata-compactification", "sec-picard-framework", "sec-proetale-coefficients", "sec-proper-base-change", "sec-smooth-base-change", "sk-def-exchange", "sk-def-pbc-conventions", "sk-lem-curve-normalization", "sk-lem-pbc-finite", "sk-prop-curve-affine-kummer", "sk-thm-br", "sk-thm-curveestimate", "sk-prop-integral-local-structure"]
 +++
 **Content.** This section sets up the pro-étale derived categories and the six
 functors on which the later six-functor sections rest, following

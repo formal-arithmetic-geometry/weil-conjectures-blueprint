@@ -2,7 +2,7 @@
 id = "det-tf-sp-theta-proper-constant"
 kind = "lemma"
 title = "The dualizing map of a proper constant family"
-order = 3605
+order = 3587
 uses = ["det-sp-constant-family-vanishing"]
 +++
 Let $S$ be the strict henselization of $\operatorname{Spec}k[t]_{(t)}$, $k$ algebraically

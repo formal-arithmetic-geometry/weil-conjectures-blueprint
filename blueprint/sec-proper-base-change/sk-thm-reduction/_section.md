@@ -2,7 +2,7 @@
 id = "sk-thm-reduction"
 kind = "proposition"
 title = "Reduction to the projective line"
-order = 1961
+order = 1940
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_of_projectiveLine_of_isProper"]
 uses = ["sk-def-conv", "sk-def-pbc", "sk-thm-chow", "sk-thm-picard-perfect", "sk-thm-iff", "sk-thm-p1", "sk-lem-pbc-finite", "sk-lem-pbc-symmetric-product", "sk-lem-pbc-composition-cancellation"]
 tags = ["sketch"]

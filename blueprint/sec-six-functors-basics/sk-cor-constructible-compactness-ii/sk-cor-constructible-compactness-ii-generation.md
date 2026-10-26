@@ -2,7 +2,7 @@
 id = "det-constructible-compactness-ii-generation"
 kind = "lemma"
 title = "A skeleton of $\\Dbc$ generates its localizing closure"
-order = 2247
+order = 2227
 uses = ["sk-thm-constructible-compactness", "sk-def-localizing-closure", "sk-lem-coefficient-heart"]
 +++
 Let $\Lambda=E$ or $\Qlb$ and let $G$ be a set of representatives of the isomorphism classes of

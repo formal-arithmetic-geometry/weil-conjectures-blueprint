@@ -2,7 +2,7 @@
 id = "sk-thm-sf-kunneth-verdier"
 kind = "lemma"
 title = "External duality and the trace morphism"
-order = 3319
+order = 3301
 uses = ["sk-def-ops", "sk-lem-sf-kunneth-star", "sk-thm-pd-verdier-duality", "sk-thm-sf-ctf-stability", "sk-def-sf-kv-maps", "sk-prop-sf-open-closed-triangle", "sk-lem-sf-flat-model", "sk-lem-sf-mate", "sk-prop-sf-biduality-general", "sk-prop-sf-closed-unit", "sk-prop-sf-dualizable-biduality", "sk-prop-sf-localization", "sk-thm-regular", "sk-thm-sf-tensor-hom", "sk-thm-smooth-purity", "sk-prop-integral-criterion"]
 lean = ["AlgebraicGeometry.Etale.hasKunnethComparisons"]
 tags = ["sketch"]

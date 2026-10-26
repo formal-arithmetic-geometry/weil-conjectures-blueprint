@@ -2,7 +2,7 @@
 id = "lem-sc-point-z-cohomology"
 kind = "lemma"
 title = "Cohomology of the constant sheaf $\\mathbf Z$ on a point"
-order = 1361
+order = 1336
 lean = ["AlgebraicGeometry.Scheme.subsingleton_H_constantSheaf_of_isSepClosed"]
 +++
 Let $k$ be a separably closed field (for instance an algebraically

@@ -3,7 +3,7 @@ id = "det-def-localizing-closure-existence"
 kind = "lemma"
 title = "The localizing closure exists"
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.hasCoproducts_derivedCategory", "CategoryTheory.ObjectProperty.localizingClosure", "CategoryTheory.ObjectProperty.isLocalizing_localizingClosure", "CategoryTheory.ObjectProperty.le_localizingClosure", "CategoryTheory.ObjectProperty.localizingClosure_le", "CategoryTheory.ObjectProperty.localizingClosure_monotone", "CategoryTheory.ObjectProperty.isIdempotentComplete_localizingClosure"]
-order = 1247
+order = 1216
 uses = ["def-weil-finite-tor-amplitude", "det-prop-sfb-module-category"]
 +++
 Let $\Lambda$ be a condensed ring, $X$ a scheme and $\mathcal S$ a class of objects of

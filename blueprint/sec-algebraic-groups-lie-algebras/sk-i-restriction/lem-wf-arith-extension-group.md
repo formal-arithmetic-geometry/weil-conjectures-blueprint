@@ -2,7 +2,7 @@
 id = "lem-wf-arith-extension-group"
 kind = "lemma"
 title = "The arithmetic monodromy extension is a group"
-order = 3739
+order = 3721
 uses = ["d-monodromy", "def-wf-arithmetic-monodromy-extension", "lem-wf-conjugation-geometric-monodromy"]
 +++
 In the situation of [def-wf-arithmetic-monodromy-extension], the

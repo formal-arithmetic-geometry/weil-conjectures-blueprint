@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Functoriality of the maps between direct images of constant module sheaves"
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lemma-constructible-pullback-constant"]
 lean = ["AlgebraicGeometry.Etale.constantModulePushforwardMap", "AlgebraicGeometry.Etale.constantModulePushforwardMap_id_comp"]
-order = 1849
+order = 1828
 +++
 Let $\Lambda$ be a commutative ring (in the coefficient universe one above that of the schemes [def-weil-pbc-scheme-conventions]) and $M$ a $\Lambda$-module; write $\underline M_T$ for the constant sheaf of $\Lambda$-modules with value $M$ on $T_{\Et}$ [def-weil-pbc-etale-sheaves]. For morphisms $f_1:Y_1\to X$, $f_2:Y_2\to X$ and $g:Y_2\to Y_1$ with $f_1\circ g=f_2$, let
 $$c_g:f_{1*}\underline M_{Y_1}\longrightarrow f_{2*}\underline M_{Y_2}$$

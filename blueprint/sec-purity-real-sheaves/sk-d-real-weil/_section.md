@@ -2,7 +2,7 @@
 id = "sk-d-real-weil"
 kind = "definition"
 title = "Weil structures and the weight convention"
-order = 3784
+order = 3766
 uses = ["sk-d-weil", "sk-def-sf-weil-complexes", "sk-lem-tf-frobenius-convention", "sk-p-real-integral"]
 lean = ["AlgebraicGeometry.WeilGroup", "AlgebraicGeometry.WeilGroup.IsLisse"]
 tags = ["sketch"]

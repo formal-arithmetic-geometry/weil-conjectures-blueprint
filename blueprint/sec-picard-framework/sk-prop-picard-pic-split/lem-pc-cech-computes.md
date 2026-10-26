@@ -2,7 +2,7 @@
 id = "lem-pc-cech-computes"
 kind = "lemma"
 title = "The Cech complex computes cohomology"
-order = 643
+order = 601
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "pqf-lem-affine-vanishing", "lem-sc-cech-spectral"]
 lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_cechComplex_linearEquiv_H"]
 +++

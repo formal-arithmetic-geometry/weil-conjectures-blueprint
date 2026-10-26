@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Inverse image along an etale morphism is restriction"
 uses = ["def-weil-etale-morphism", "def-weil-pbc-etale-site", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-inverse-image", "def-weil-pbc-direct-image", "def-pc-fibre-product"]
 lean = ["AlgebraicGeometry.Etale.localizationRestriction", "AlgebraicGeometry.Etale.upperStarIsoLocalizationRestriction", "AlgebraicGeometry.Etale.localizationRestrictionLowerStarAdjunction", "AlgebraicGeometry.Etale.localizationRestrictionLowerStarAdjunction_unit_app_hom_app", "CategoryTheory.Adjunction.unit_leftAdjointUniq_hom_app"]
-order = 1728
+order = 1707
 tags = ["stacks-03S2"]
 +++
 Let $j:Y\to X$ be an etale morphism of schemes [def-weil-etale-morphism], with small etale sites [def-weil-pbc-etale-site]. An object $V\to Y$ of $Y_{\Et}$ gives the object $V\to Y\xrightarrow{j}X$ of $X_{\Et}$ (a composite of etale morphisms is etale), and a morphism over $Y$ is a morphism over $X$; write $\iota_j:Y_{\Et}\to X_{\Et}$ for this functor. For an abelian sheaf $G$ on $X_{\Et}$ [def-weil-pbc-abelian-etale-sheaves] let $G|_Y=G\circ\iota_j$, i.e. $G|_Y(V\to Y)=G(V\to X)$ with the restriction maps of $G$. Let $j^{-1}$, $j_*$ and $\eta_j:\mathrm{id}\to j_*j^{-1}$ be the inverse image, the direct image $(j_*F)(W)=F(W\times_XY)$ and the unit of $j^{-1}\dashv j_*$ [def-weil-pbc-inverse-image], [def-weil-pbc-direct-image]. Then:

@@ -2,8 +2,7 @@
 id = "lem-coef-integral-hom-reduction"
 kind = "lemma"
 title = "Integral internal Hom and reduction"
-lean = ["AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_derivedHom", "AlgebraicGeometry.Etale.derivedComplete_derivedHom"]
-order = 2855
+order = 2836
 uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-derived-tensor-hom", "def-pe-derived-complete"]
 +++
 Let $E/\Ql$ be finite with uniformizer $\pi=\pi_E$, let

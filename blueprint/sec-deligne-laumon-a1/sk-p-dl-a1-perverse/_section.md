@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-perverse"
 kind = "proposition"
 title = "Fourier transform and the perverse heart"
-order = 3983
+order = 3991
 uses = ["sk-l-dl-a1-endpoints", "sk-lem-wft-character-integral", "sk-lem-wft-curve-heart", "sk-thm-inversion"]
 lean = ["AlgebraicGeometry.isCurvePerverse_fourierTransform_obj_iff"]
 tags = ["sketch"]

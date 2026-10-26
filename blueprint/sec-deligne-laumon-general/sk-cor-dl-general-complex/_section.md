@@ -2,7 +2,7 @@
 id = "sk-cor-dl-general-complex"
 kind = "theorem"
 title = "Weights of $Rf_!$"
-order = 4085
+order = 4093
 lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
 uses = ["sk-d-real-weights", "sk-thm-dl-general-sheaf", "sk-prop-sf-cbc"]
 tags = ["sketch"]

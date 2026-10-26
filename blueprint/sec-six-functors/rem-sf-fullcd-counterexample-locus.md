@@ -2,7 +2,7 @@
 id = "rem-sf-fullcd-counterexample-locus"
 kind = "remark"
 title = "Where the counterexample lives, and which restricted statements survive it"
-order = 3340
+order = 3322
 uses = ["def-sf-fullcd-class", "def-sf-fullcd-used-class", "def-weil-full-cohomological-dimension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-sf-proetale-constructible-origin", "prop-sf-comparison-bound-zero", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class", "thm-sf-fullcd-etale-origin", "thm-sf-fullcd-used-class", "thm-sp-grothendieck"]
 +++
 The three items of the refutation ([prop-sf-comparison-bound-zero], [rem-sf-fullcd-counterexample]) leave the following picture

@@ -2,7 +2,7 @@
 id = "sk-lem-proper-heart-bound"
 kind = "lemma"
 title = "A uniform bound for proper direct image"
-order = 2248
+order = 2228
 uses = ["sk-prop-ind-heart", "sk-cor-pe-bounded-continuity"]
 tags = ["sketch"]
 +++

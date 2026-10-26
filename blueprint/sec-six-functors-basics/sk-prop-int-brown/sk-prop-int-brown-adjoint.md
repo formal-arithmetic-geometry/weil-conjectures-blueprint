@@ -2,7 +2,7 @@
 id = "det-prop-int-brown-adjoint"
 kind = "lemma"
 title = "Existence of the integral exceptional inverse image"
-order = 2473
+order = 2453
 uses = ["det-prop-int-brown-construction", "sk-prop-int-compactness", "sk-lem-int-integral-heart", "sk-prop-sf-existence"]
 +++
 For $f:X\to Y$ separated of finite type, the functor

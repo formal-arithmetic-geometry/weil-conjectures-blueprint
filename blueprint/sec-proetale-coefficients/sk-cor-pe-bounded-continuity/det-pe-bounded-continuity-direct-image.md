@@ -3,7 +3,7 @@ id = "det-pe-bounded-continuity-direct-image"
 kind = "lemma"
 title = "Higher direct images commute with filtered colimits and direct sums"
 lean = ["AlgebraicGeometry.ProEtale.preservesColimitsOfShape_rightDerived_lowerStar", "AlgebraicGeometry.ProEtale.preservesColimitsOfShape_discrete_rightDerived_lowerStar"]
-order = 989
+order = 954
 uses = ["def-sfb-finite-lower-star", "det-pe-wcb-cover", "det-pe-wc-sections-exact"]
 +++
 Let $f\colon X\to Y$ be quasi-compact and quasi-separated, and let $q\geq0$.

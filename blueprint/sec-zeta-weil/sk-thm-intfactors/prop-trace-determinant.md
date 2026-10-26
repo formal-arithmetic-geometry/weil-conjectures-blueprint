@@ -3,7 +3,7 @@ id = "prop-trace-determinant"
 kind = "theorem"
 title = "Trace-to-determinant factorization"
 lean = ["LinearMap.inv_alternatingCharpolyRevProd_eq_exp", "AlgebraicGeometry.Scheme.trace_determinant"]
-order = 4125
+order = 4133
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-every-iterate-trace"]
 +++

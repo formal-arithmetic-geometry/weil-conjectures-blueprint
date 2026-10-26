@@ -2,7 +2,7 @@
 id = "det-d-geometry"
 kind = "definition"
 title = "Affine geometry and matrix groups"
-order = 3692
+order = 3674
 uses = ["det-d-linear"]
 lean = ["Matrix.GeneralLinearGroup.CoordinateRing", "AlgebraicGeometry.GeneralLinearGroup", "AlgebraicGeometry.GeneralLinearGroup.homMulEquiv", "Matrix.GeneralLinearGroup.zeroLocus", "AlgebraicGeometry.GeneralLinearGroup.subgroupScheme", "Matrix.GeneralLinearGroup.identityComponent", "Matrix.GeneralLinearGroup.center", "AlgebraicGeometry.GeneralLinearGroup.RationalHom"]
 +++

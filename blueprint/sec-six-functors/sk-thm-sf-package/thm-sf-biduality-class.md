@@ -2,7 +2,7 @@
 id = "thm-sf-biduality-class"
 kind = "theorem"
 title = "Verdier biduality on the coefficient class"
-order = 3381
+order = 3363
 uses = ["lem-coef-integral-residue-tor", "lem-weil-verdier-preservation-strata", "thm-coef-integral-verdier", "thm-fix-general-biduality", "def-sf-setting", "sk-thm-pd-verdier-duality", "det-pd-biduality-coefficients", "sk-prop-scalar-six", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Let $X$ be separated of finite type over $\Fbar$, and let

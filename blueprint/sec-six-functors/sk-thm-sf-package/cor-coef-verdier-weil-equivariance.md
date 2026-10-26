@@ -2,7 +2,7 @@
 id = "cor-coef-verdier-weil-equivariance"
 kind = "theorem"
 title = "Weil equivariance of duality at field coefficients"
-order = 3394
+order = 3376
 tags = ["latex:corollary"]
 uses = ["def-weil-weil-sheaf-complex", "sk-def-sf-weil-complexes", "lem-coef-integral-finite-extension", "lem-fix-weil-operations", "sk-thm-pd-verdier-duality", "sk-thm-existence", "sk-thm-sf-ctf-stability", "sk-prop-scalar-six", "sk-thm-sfb-qlbar-two-colimit"]
 +++

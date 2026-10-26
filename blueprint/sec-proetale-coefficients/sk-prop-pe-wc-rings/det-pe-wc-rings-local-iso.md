@@ -3,7 +3,7 @@ id = "det-pe-wc-rings-local-iso"
 kind = "lemma"
 title = "Local rings of a weakly étale algebra over a strictly henselian point"
 lean = ["Algebra.WeaklyEtale.bijective_localRingHom_of_isStrictlyHenselianLocalRing"]
-order = 933
+order = 898
 uses = ["thm-weil-pbc-weak-etale-strict-local", "lem-weil-pbc-ind-etale-stability"]
 +++
 Let $R\to B$ be weakly étale (for instance ind-étale), and let $\mathfrak n\subset B$ be a

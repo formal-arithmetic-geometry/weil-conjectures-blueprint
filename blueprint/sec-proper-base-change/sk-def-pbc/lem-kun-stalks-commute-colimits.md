@@ -2,7 +2,7 @@
 id = "lem-kun-stalks-commute-colimits"
 kind = "lemma"
 title = "Geometric stalks commute with colimits"
-order = 1534
+order = 1513
 lean = ["AlgebraicGeometry.Scheme.geometricStalk_preservesColimits"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks", "prop-weil-pbc-geometric-stalks-exact"]
 +++

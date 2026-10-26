@@ -3,7 +3,7 @@ id = "det-def-sfb-ring-object-transport"
 kind = "lemma"
 title = "Strong monoidal functors preserve ring objects"
 lean = ["CategoryTheory.Functor.monObjObj", "CategoryTheory.Functor.map.instIsMonHom", "CategoryTheory.Functor.mapMon", "CategoryTheory.Functor.isCommMonObj_obj", "CategoryTheory.Functor.mapMonNatTrans"]
-order = 1163
+order = 1129
 uses = ["det-def-sfb-ring-object-monoid"]
 +++
 Let $F\colon\mathcal C\to\mathcal D$ be a lax monoidal functor between monoidal categories, with

@@ -3,7 +3,7 @@ id = "prop-every-iterate-trace"
 kind = "theorem"
 title = "Every-iterate Grothendieck–Lefschetz identity"
 lean = ["AlgebraicGeometry.WeilSheaf.pointCount_eq_sum_trace_cohomology", "AlgebraicGeometry.WeilComplex.finsum_traceFunction_eq_and_pointCount_eq"]
-order = 4124
+order = 4132
 tags = ["latex:proposition"]
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "prop-cohomological-finiteness", "sk-def-sf-weil-complexes", "det-def-sfb-bounded-constructible", "det-def-sfb-pulled-back-coefficients", "thm-weil-grothendieck-lefschetz-trace"]
 +++

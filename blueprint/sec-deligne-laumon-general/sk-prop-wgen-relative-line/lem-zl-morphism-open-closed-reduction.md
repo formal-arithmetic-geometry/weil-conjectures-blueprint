@@ -3,7 +3,7 @@ id = "lem-zl-morphism-open-closed-reduction"
 kind = "lemma"
 title = "Open–closed reduction for the direct-image assertion"
 lean = ["AlgebraicGeometry.WeilSheaf.HasWeightsAtMost.of_exact", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.upperStar", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.upperStar", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek_of_isOpenImmersion", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_openClosed", "AlgebraicGeometry.WeilSheaf.exists_exact_higherLowerShriek_of_openClosed", "AlgebraicGeometry.HasDirectImageComplexWeightBound.of_openClosed", "AlgebraicGeometry.HasDirectImageComplexWeightBound.of_openClosed_target", "AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed_target", "AlgebraicGeometry.WeilSheaf.isMixedOfWeightsAtMost_higherLowerShriek_of_shortExact", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_exact", "AlgebraicGeometry.HasDirectImageComplexWeightBound"]
-order = 4071
+order = 4079
 uses = ["def-weil-complex-weights", "def-weil-open-closed-recollement", "def-weil-punctual-weights", "lem-a1-mixed-direct-summand", "lem-sp-long-exact-of-triangle", "lem-weil-heart-short-exact-triangles", "lem-zl-complex-extension", "lem-zl-finite-pushforward", "lem-zl-open-closed-weight", "prop-functor-package", "prop-sf-open-closed-triangle-all-stages"]
 +++
 For a separated finite-type morphism $f_0:X_0\to Y_0$ of separated

@@ -2,7 +2,7 @@
 id = "det-lem-stratified-lattice-trace"
 kind = "lemma"
 title = "Pushing a lattice down a finite étale cover by the trace"
-order = 2187
+order = 2166
 uses = ["det-lem-stratified-lattice-scheme", "det-lem-coefficient-heart-common-stratification"]
 +++
 Let $S$ be a Noetherian scheme, $L$ a lisse $E_S$-module of rank $r$, $p\colon V\to S$ finite

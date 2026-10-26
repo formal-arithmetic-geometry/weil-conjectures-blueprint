@@ -3,7 +3,7 @@ id = "lem-sc-four-lemma"
 kind = "lemma"
 title = "The four lemma for exact hexagons"
 lean = ["AddMonoidHom.bijective_of_exact_hexagon"]
-order = 706
+order = 664
 +++
 Let
 $0\to X_1\to X_2\to X_3\to X_4\to X_5\to X_6$ and

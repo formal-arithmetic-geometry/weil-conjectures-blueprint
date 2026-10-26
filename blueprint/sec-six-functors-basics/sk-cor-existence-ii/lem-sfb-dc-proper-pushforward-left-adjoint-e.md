@@ -2,7 +2,7 @@
 id = "lem-sfb-dc-proper-pushforward-left-adjoint-e"
 kind = "lemma"
 title = "$Rp_*$ on $D_{\\mathrm{cons}}(-,E)$ is a left adjoint for proper $p$"
-order = 2140
+order = 2119
 uses = ["def-sfb-dc-lower-star", "det-def-sfb-condensed-ring"]
 +++
 Let $E$ be a finite extension of $\mathbf Q_\ell$, let $\Lambda=\underline E$

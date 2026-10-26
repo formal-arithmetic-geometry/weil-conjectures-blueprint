@@ -3,7 +3,7 @@ id = "lem-weil-pbc-etale-inverse-image-algebraic-structures"
 kind = "lemma"
 title = "Inverse image of etale sheaves of sets, abelian groups and rings"
 lean = ["AlgebraicGeometry.etaleInverseImageAlgebraicStructures", "AlgebraicGeometry.Scheme.etaleSetPullback"]
-order = 1311
+order = 1282
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site", "def-weil-pbc-sheafification", "def-weil-pbc-inverse-image", "def-weil-pbc-direct-image", "def-weil-pbc-abelian-etale-sheaves"]
 tags = ["stacks-00X6"]
 +++

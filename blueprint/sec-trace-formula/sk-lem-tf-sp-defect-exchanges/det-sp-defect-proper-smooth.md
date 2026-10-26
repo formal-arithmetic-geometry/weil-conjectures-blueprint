@@ -2,7 +2,7 @@
 id = "det-sp-defect-proper-smooth"
 kind = "lemma"
 title = "Proper and smooth exchange for the defect"
-order = 3576
+order = 3558
 uses = ["det-sp-defect-definition"]
 +++
 Let $f\colon X'\to X$ be a morphism of separated finite-type $k$-schemes, let $Z\subset X$ be a

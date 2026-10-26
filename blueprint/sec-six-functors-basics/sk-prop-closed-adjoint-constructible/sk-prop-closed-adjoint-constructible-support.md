@@ -2,7 +2,7 @@
 id = "det-prop-closed-adjoint-constructible-support"
 kind = "lemma"
 title = "Sections with support of a constructible complex are constructible"
-order = 2447
+order = 2427
 uses = ["sk-lem-formal-closed-support", "sk-prop-open-coefficients"]
 +++
 Let $\Lambda=E$ or $\Qlb$, $i:Z\hookrightarrow X$ a closed immersion with open

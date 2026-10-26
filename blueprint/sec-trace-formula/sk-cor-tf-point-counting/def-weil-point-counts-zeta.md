@@ -2,7 +2,7 @@
 id = "def-weil-point-counts-zeta"
 kind = "definition"
 title = "Point counts and zeta function"
-order = 3556
+order = 3538
 lean = ["AlgebraicGeometry.Scheme.Hom.X_mul_derivative_zetaSeries", "AlgebraicGeometry.Scheme.Hom.degreeOver", "AlgebraicGeometry.Scheme.Hom.pointCount", "AlgebraicGeometry.Scheme.Hom.zetaSeries"]
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties"]
 +++

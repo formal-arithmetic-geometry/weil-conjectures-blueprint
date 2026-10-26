@@ -3,7 +3,7 @@ id = "lem-weil-pbc-constructible-finite-pushforward-approximation"
 kind = "lemma"
 title = "Noetherian approximation for finite-pushforward embeddings"
 lean = ["AlgebraicGeometry.Etale.exists_isNoetherian_mono_biproduct_lowerStar"]
-order = 1640
+order = 1619
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-constructible-sheaf", "def-weil-pbc-etale-sheaves", "def-weil-pbc-inverse-image"]
 +++
 Let $\Lambda$ be a Noetherian commutative ring, let $U$ be a quasi-compact and

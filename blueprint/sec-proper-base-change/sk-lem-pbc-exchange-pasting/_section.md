@@ -2,7 +2,7 @@
 id = "sk-lem-pbc-exchange-pasting"
 kind = "lemma"
 title = "Identity and pasting"
-order = 1530
+order = 1509
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_id", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
 uses = ["sk-def-exchange"]
 tags = ["sketch"]

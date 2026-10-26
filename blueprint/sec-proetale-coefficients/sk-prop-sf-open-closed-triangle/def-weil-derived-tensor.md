@@ -3,7 +3,7 @@ id = "def-weil-derived-tensor"
 kind = "definition"
 title = "Derived tensor product of pro-étale sheaves"
 lean = ["AlgebraicGeometry.ProEtale.derivedTensor"]
-order = 1194
+order = 1160
 uses = ["def-weil-pbc-proetale-site", "det-def-sfb-sheaf-tensor-structure", "lem-sfb-derived-monoidal"]
 +++
 Let $\mathcal A$ be a closed symmetric monoidal Grothendieck abelian category whose tensor

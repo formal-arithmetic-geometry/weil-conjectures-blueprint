@@ -22,7 +22,7 @@ inverse images. Finally, $\mathcal H^i(K[r])=\mathcal H^{i+r}(K)$, and the
 local eigenvalue of $\mathcal B_b$ at $x$ is $b^{d(x)}$
 ([lem-wf-constant-twist-weight]). For the Tate sheaf, recall that arithmetic
 Frobenius acts on roots of unity by raising to the $q$th power
-([sk-d-ab-field]), and geometric Frobenius is its inverse
+([d-ab-field]), and geometric Frobenius is its inverse
 ([det-p-cyclotomic], [lem-wf-tate-twist-frobenius],
 [lem-tw-tate-twist-weight-shift]).
 

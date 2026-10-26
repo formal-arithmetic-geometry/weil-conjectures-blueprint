@@ -2,7 +2,7 @@
 id = "open-sf-preservation-gaps"
 kind = "remark"
 title = "Scope beyond the constructible coefficient category"
-order = 3386
+order = 3368
 tags = ["latex:openproblem"]
 uses = ["cor-weil-boundary-duality-discharge", "thm-fix-general-biduality", "thm-sf-biduality-class", "sk-thm-pd-verdier-duality"]
 +++

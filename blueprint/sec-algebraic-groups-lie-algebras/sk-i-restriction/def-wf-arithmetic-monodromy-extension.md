@@ -3,7 +3,7 @@ id = "def-wf-arithmetic-monodromy-extension"
 kind = "definition"
 title = "Arithmetic monodromy extension"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobeniusConj", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.frobeniusAction", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.ArithmeticMonodromyExtension", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.arithmeticMonodromyExtensionHom"]
-order = 3736
+order = 3718
 uses = ["d-monodromy", "lem-wf-conjugation-geometric-monodromy"]
 +++
 Let $\rho$ be a represented degree datum ([d-monodromy]) with geometric

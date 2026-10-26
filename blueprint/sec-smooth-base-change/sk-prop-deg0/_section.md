@@ -2,7 +2,7 @@
 id = "sk-prop-deg0"
 kind = "lemma"
 title = "The degree-zero calculation"
-order = 2054
+order = 2033
 uses = ["sk-def-bc", "sk-def-exchange"]
 lean = ["AlgebraicGeometry.Etale.baseChangeProperty_zero", "AlgebraicGeometry.Etale.baseChangeProperty_zero_of_smooth"]
 tags = ["sketch"]

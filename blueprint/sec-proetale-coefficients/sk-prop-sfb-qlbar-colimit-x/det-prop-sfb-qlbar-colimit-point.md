@@ -2,7 +2,7 @@
 id = "det-prop-sfb-qlbar-colimit-point"
 kind = "proposition"
 title = "$\\underline{\\overline{\\mathbf Q}}_\\ell=\\operatorname{colim}_E\\underline E$ on the point"
-order = 1230
+order = 1196
 uses = ["det-def-sfb-qlbar-condensed", "det-def-sfb-condensed-ring", "def-sfb-qlbar-subextension-map", "def-sfb-qlbar-subextension-to-qlbar"]
 lean = ["Profinite.padicSubfieldRingObjMap", "Profinite.padicSubfieldRingObjToPadicAlgCl", "Profinite.padicSubfieldRingObjFunctor", "Profinite.padicAlgClRingObjCocone", "Profinite.isColimitPadicAlgClRingObjCocone"]
 +++

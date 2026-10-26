@@ -12,30 +12,41 @@ has finite Tor dimension over it, so this is the description of $\Dbc(X,\cO_E)$ 
 [sk-prop-integral-criterion]; together with (1) this gives (2). Details:
 [det-lem-integral-models-stacks].
 
-(3) By \stacks{09C2} and \stacks{09C7}, every $K\in\Dbc(X,\cO_E)$ is bounded, and on each stratum
-of a finite stratification it is pro-étale locally a bounded complex of finite free
-$\cO_{E,X}$-modules.
+(3) By [sk-prop-integral-criterion], an object of $D(X_{\mathrm{proét}},\cO_E)$ lies in
+$\Dbc(X,\cO_E)$ if and only if it is derived complete with constructible reduction modulo
+$\pi_E$ (condition (2)), and if and only if it admits a finite stratification such that on each
+stratum $S$, pro-étale locally, $K|_S\simeq\cO_{E,S}\otimes_{\cO_E}P^\bullet$ for a bounded
+complex $P^\bullet$ of finite free $\cO_E$-modules (condition (3)). The implication from (2) to
+(3) is [sk-prop-integral-local-structure]. For each of the three operations we check one of
+these two conditions.
 
 *Inverse image.* By [sk-prop-sfb-cartesian-coefficients], $f^*$ sends finite free
 $\cO_{E,Y}$-modules to finite free $\cO_{E,X}$-modules, so the local description is preserved.
 
-*Tensor product.* Tensoring with a complex that is locally a bounded complex of finite free
-modules preserves derived completeness, and its reduction modulo $\pi_E$ is the tensor product
-of the reductions, which is constructible. To globalize, use the finite open–closed
-dévissage along the strata, and the identity
-$$
-(a_!L)\otimes^{\mathbf L}M\simeq a_!(L\otimes^{\mathbf L}a^*M)
-$$
-in $D(X_{\mathrm{proét}},\cO_E)$, for a locally closed immersion $a$ and
-$L\in D(S_{\mathrm{proét}},\cO_E)$, $M\in D(X_{\mathrm{proét}},\cO_E)$. To prove it, compare
-restrictions: on the stratum both sides restrict to $L\otimes^{\mathbf L}a^*M$, and on the
-complementary strata both restrict to $0$, by the exactness of open and closed restriction.
-These restrictions are jointly conservative by \stacks{09AD}.
-
 *Extension by zero.* The functor $a_!=i_*u_!$ preserves derived completeness: $u_!$ for a
 quasi-compact open immersion $u$ preserves limits by \stacks{09BP}, and $i_*$ is exact and
 preserves limits by \stacks{09AA} and \stacks{09BM}. Both functors commute with reduction
-modulo $\pi_E$ and preserve constructibility of the reductions. Details:
+modulo $\pi_E$ and preserve constructibility of the reductions.
+
+*Tensor product.* Let $K,M\in\Dbc(X,\cO_E)$, and choose a stratification for $K$ as above.
+Derived completeness and constructibility of the reduction modulo $\pi_E$ are both preserved
+by cones, so $\Dbc(X,\cO_E)$ is closed under cones. The localization triangles along the
+strata exhibit $K$ as a finite iterated extension of the objects $a_!a^*K$, for the strata
+$a\colon S\hookrightarrow X$, and $-\otimes^{\mathbf L}M$ preserves these triangles. Hence it
+suffices to show that $(a_!a^*K)\otimes^{\mathbf L}M$ lies in $\Dbc(X,\cO_E)$. For this we use
+the projection formula for a locally closed immersion: for $L\in D(S_{\mathrm{proét}},\cO_E)$
+and $M\in D(X_{\mathrm{proét}},\cO_E)$ the canonical map
+$$
+(a_!L)\otimes^{\mathbf L}M\longrightarrow a_!(L\otimes^{\mathbf L}a^*M)
+$$
+is an isomorphism. To see this, write $a=i\circ u$ with $u$ open and $i$ closed, so that
+$a_!=i_*u_!$. On $S$ the map restricts to the identity of $L\otimes^{\mathbf L}a^*M$, and on
+every complementary stratum both sides restrict to zero. Restriction to the strata is exact,
+and these restrictions are jointly conservative by \stacks{09AD}. By the parts on inverse image
+and extension by zero, it therefore remains to see that $a^*K\otimes^{\mathbf L}a^*M$ lies in
+$\Dbc(S,\cO_E)$. Since $a^*K$ is pro-étale locally a bounded complex of finite free modules,
+tensoring with it preserves derived completeness. The reduction modulo $\pi_E$ of the tensor
+product is the tensor product of the reductions, which is constructible. Details:
 [det-lem-integral-models-operations]; compare the preservation statements of
 [sk-def-sfb-dc-restricted-functors].
 

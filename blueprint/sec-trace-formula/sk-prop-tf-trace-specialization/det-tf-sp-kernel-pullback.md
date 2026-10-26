@@ -2,7 +2,7 @@
 id = "det-tf-sp-kernel-pullback"
 kind = "lemma"
 title = "The specialized coefficient as a section of the kernel"
-order = 3602
+order = 3584
 uses = ["det-tf-sp-universal-kernel", "thm-trf-verdier-duality"]
 +++
 In the setting of [det-tf-sp-universal-kernel], let $c=(c_1,c_2):C\to X\times_SX$ be a

@@ -2,7 +2,7 @@
 id = "det-sp-tower-evaluation-adjoint"
 kind = "lemma"
 title = "Evaluation of towers has an exact right adjoint"
-order = 3013
+order = 2995
 uses = ["det-sp-coefficient-towers-abelian"]
 +++
 For $n\geq1$ and an $\mathcal O_{E,T}/\ell^n$-module sheaf $J$ on $T_{\mathrm{proét}}$,

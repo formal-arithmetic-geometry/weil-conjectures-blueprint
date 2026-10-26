@@ -2,7 +2,7 @@
 id = "pur7710-def-constant-projection"
 kind = "definition"
 title = "The constant-tensor comparison"
-order = 3084
+order = 3066
 +++
 For a scheme $W$, $K\in D(W_{\Et},\mathcal O_E/\pi_E^n)$ and $M\in D(\mathsf{Mod}_{\mathcal O_E/\pi_E^n})$, define
 

@@ -2,7 +2,7 @@
 id = "sk-lem-wft-curve-simples"
 kind = "lemma"
 title = "The simple objects"
-order = 3972
+order = 3980
 uses = ["sk-lem-wft-curve-heart"]
 tags = ["sketch"]
 +++

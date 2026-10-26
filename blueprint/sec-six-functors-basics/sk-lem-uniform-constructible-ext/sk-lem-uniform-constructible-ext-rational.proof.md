@@ -4,11 +4,9 @@ of = "det-uniform-constructible-ext-rational"
 +++
 *Coefficients $E$.* By [sk-lem-stratified-lattice], after refining the strata (which replaces
 $a_!L$, $b_!M$ by finite extensions of sheaves of the same form, harmless by
-[det-uniform-constructible-ext-devissage]) and after a finite extension $E'/E$, $L$ and $M$ contain
-lisse lattices $L_0$, $M_0$ with $L_0[1/\pi_E]=L$, $M_0[1/\pi_E]=M$. Enlarging $E$ is harmless: $E'_X$
-is finite free over $E_X$, so the restriction of scalars of the extended sheaves is a finite direct
-sum of copies of the original ones, and $\Ext^q_{E'}((a_!L)_{E'},(b_!M)_{E'})=\Ext^q_E(a_!L,(b_!M)^{\oplus[E':E]})$,
-a finite direct sum of the $\Ext^q_E(a_!L,b_!M)$. So a bound over $E'$ yields the same bound over $E$.
+[det-uniform-constructible-ext-devissage]), $L$ and $M$ contain lisse $\mathcal O_E$-lattices $L_0$,
+$M_0$ with $L_0[1/\pi_E]=L$, $M_0[1/\pi_E]=M$. The refinement of $S$ depends only on $L$ and that of
+$T$ only on $M$.
 
 Now $a_!L=(a_!L_0)\otimes_{\mathcal O_E}E$ and
 
@@ -41,5 +39,8 @@ R\operatorname{Hom}_{\Qlb}((C_E)_{\Qlb},(N_E)_{\Qlb})=R\operatorname{Hom}_E\bigl
 $$
 
 and [sk-lem-constructible-ext-continuity] identifies its $H^q$ with
-$\varinjlim_{E'}\Ext^q_E(C_E,(N_E)_{E'})=\varinjlim_{E'}\Ext^q_{E'}((C_E)_{E'},(N_E)_{E'})$. Each term
-vanishes for $q>c_a$ by the case of $E'$, so the colimit vanishes.
+$\varinjlim_{E'}\Ext^q_E(C_E,(N_E)_{E'})=\varinjlim_{E'}\Ext^q_{E'}((C_E)_{E'},(N_E)_{E'})$. After
+refining the strata, $L_E$ contains a lisse $\mathcal O_E$-lattice $L_{E,0}$, and
+$L_{E,0}\otimes_{\mathcal O_E}\mathcal O_{E'}$ is a lisse $\mathcal O_{E'}$-lattice in $(L_E)_{E'}$ on the
+same strata. So the case of $E'$ applies on these strata with the bound $c_a$, which does not depend
+on $E'$, and each term vanishes for $q>c_a$; hence so does the colimit.

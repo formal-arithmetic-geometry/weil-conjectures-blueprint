@@ -3,7 +3,7 @@ id = "lem-pc-cech-resolution"
 kind = "lemma"
 title = "The Cech resolution and derived direct image"
 lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_homology_cechModuleComplex_linearEquiv", "AlgebraicGeometry.Scheme.Modules.quasiIso_cechResolution\u03b9", "AlgebraicGeometry.Scheme.Modules.rightAcyclic_cechResolution_X", "AlgebraicGeometry.Scheme.Modules.higherDirectImageIsoCechResolution"]
-order = 770
+order = 729
 uses = ["def-pc-derived-direct-image", "def-pc-morphism-conventions", "def-pc-scheme", "lem-pc-affine-morphism-hi", "pqf-lem-affine-vanishing"]
 +++
 Let $S=\operatorname{Spec}(A)$, let $f:X\to S$ be a separated morphism,

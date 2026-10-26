@@ -2,7 +2,7 @@
 id = "det-def-sfb-shriek-base-change-morphism-definition"
 kind = "definition"
 title = "The compact-support base change morphism $\\mathrm{Ex}_!^c$"
-order = 2596
+order = 2577
 uses = ["det-def-sfb-shriek-base-change-morphism-compactification", "det-def-sfb-base-change-morphism-bc", "def-sfb-dc-open-base-change-inverse", "thm-sfb-dc-open-base-change-iso", "det-def-sfb-dc-lower-shriek-definition"]
 +++
 In the situation of [det-def-sfb-shriek-base-change-morphism-compactification], let $\Lambda$ be a

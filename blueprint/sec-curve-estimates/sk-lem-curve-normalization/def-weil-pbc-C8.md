@@ -3,7 +3,7 @@ id = "def-weil-pbc-C8"
 kind = "definition"
 title = "Assertion (C8): surjectivity of restriction to an open curve"
 lean = ["AlgebraicGeometry.IsCurve.SurjectiveRestrictionTwo"]
-order = 1473
+order = 1452
 uses = ["def-weil-pbc-curve-setting"]
 +++
 For every curve coefficient pair [def-weil-pbc-curve-setting] $(C,F)$ and

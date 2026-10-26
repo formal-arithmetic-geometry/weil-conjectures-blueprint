@@ -2,7 +2,7 @@
 id = "sk-lem-pe-torsor-comparison"
 kind = "lemma"
 title = "Descent of classical-group torsors"
-order = 1046
+order = 1012
 uses = ["sk-thm-pe-classical-sheaves", "sk-thm-pe-indetale-refinement"]
 tags = ["sketch"]
 +++

@@ -1,21 +1,15 @@
 +++
 id = "sk-prop-av-cube"
-kind = "proposition"
-title = "The theorem of the cube"
-lean = ["AlgebraicGeometry.nonempty_iso_cube"]
-order = 501
-uses = ["sk-def-av", "sk-def-av-pic"]
+kind = "theorem"
+title = "Theorem of the cube"
+lean = ["AlgebraicGeometry.nonempty_iso_of_nonempty_iso_overPullback_slices"]
+order = 448
+uses = ["sk-lem-abelian-seesaw", "sk-lem-abelian-cube-open"]
 tags = ["sketch"]
 +++
-Let $A$ be an abelian variety over a field $k$ and let $\cL$ be an
-invertible $\cO_A$-module. For $1\le i_1<\dots<i_t\le3$ let
-$m_{i_1\dots i_t}:A\times_kA\times_kA\to A$ be the partial sum map
-$(x_1,x_2,x_3)\mapsto x_{i_1}+\dots+x_{i_t}$. Then
-
-$$
-m_{123}^*\cL\otimes m_1^*\cL\otimes m_2^*\cL\otimes m_3^*\cL
-\;\cong\;
-m_{12}^*\cL\otimes m_{13}^*\cL\otimes m_{23}^*\cL
-$$
-
-on $A\times_kA\times_kA$.
+Let $X$ and $Y$ be proper geometrically integral $k$-schemes with points
+$x\in X(k)$ and $y\in Y(k)$, let $Z$ be a connected $k$-scheme of finite
+type with a point $z\in Z(k)$, and let $\mathcal L$ be an invertible
+sheaf on $X\times Y\times Z$. If the restrictions of $\mathcal L$ to
+$x\times Y\times Z$, $X\times y\times Z$ and $X\times Y\times z$ are
+trivial, then $\mathcal L$ is trivial.

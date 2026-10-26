@@ -2,7 +2,7 @@
 id = "sk-lem-tf-frobenius-convention"
 kind = "lemma"
 title = "Agreement with geometric Weil Frobenius"
-order = 3503
+order = 3485
 uses = ["sk-d-weil", "sk-def-sf-weil-complexes"]
 tags = ["sketch"]
 +++

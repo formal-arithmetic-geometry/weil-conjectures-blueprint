@@ -2,7 +2,7 @@
 id = "cor-pur-dualizing-object-purity"
 kind = "theorem"
 title = "Smooth purity"
-order = 2961
+order = 2942
 tags = ["latex:corollary"]
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object"]
 +++

@@ -2,7 +2,7 @@
 id = "def-sfb-alpha"
 kind = "definition"
 title = "The coefficient morphism $\\alpha_f$"
-order = 1251
+order = 1220
 uses = ["def-sfb-pullback-from-point-comp-iso", "det-def-sfb-pulled-back-coefficients"]
 lean = ["AlgebraicGeometry.ProEtale.condensedPullbackHom"]
 +++

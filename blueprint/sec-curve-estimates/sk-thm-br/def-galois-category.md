@@ -2,7 +2,7 @@
 id = "def-galois-category"
 kind = "definition"
 title = "Galois category"
-order = 1401
+order = 1376
 lean = ["CategoryTheory.PreGaloisCategory", "CategoryTheory.PreGaloisCategory.FiberFunctor", "CategoryTheory.GaloisCategory", "CategoryTheory.PreGaloisCategory.IsConnected", "CategoryTheory.PreGaloisCategory.autEmbedding"]
 uses = ["def-galois-fibre-functor"]
 +++

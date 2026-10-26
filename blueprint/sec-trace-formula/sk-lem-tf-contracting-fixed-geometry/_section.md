@@ -2,7 +2,7 @@
 id = "sk-lem-tf-contracting-fixed-geometry"
 kind = "lemma"
 title = "The fixed component and its deformation"
-order = 3610
+order = 3592
 uses = ["sk-lem-tf-contracting-cone-geometry", "sk-prop-tf-trace-specialization"]
 tags = ["sketch"]
 +++

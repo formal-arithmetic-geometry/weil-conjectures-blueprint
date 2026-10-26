@@ -2,7 +2,7 @@
 id = "lem-sfb-point-upper-star-braided"
 kind = "lemma"
 title = "$p^*$ is braided"
-order = 1081
+order = 1047
 uses = ["def-sfb-point-adjunction", "lem-sfb-point-upper-star-tensor", "lem-sfb-point-upper-star-unit"]
 lean = ["AlgebraicGeometry.ProEtale.monoidal_pointUpperStar", "AlgebraicGeometry.ProEtale.laxBraided_pointUpperStar"]
 +++

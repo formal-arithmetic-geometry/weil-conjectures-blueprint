@@ -2,7 +2,7 @@
 id = "det-existence-localizing"
 kind = "proposition"
 title = "Compact generation, $Rf_!$ and the Brown adjoint on $\\Loc(\\Dctf)$"
-order = 2137
+order = 2116
 uses = ["sk-def-localizing-closure", "sk-lem-brown-hypotheses", "sk-prop-ctf-finite-compact", "sk-thm-constructible-compactness", "sk-cor-constructible-compactness-ii", "sk-prop-int-compactness", "sk-prop-sf-comp-coherence", "sk-prop-proper-image-localizing", "sk-prop-sf-existence"]
 +++
 Let $\Lambda\in\{A,\mathbf Z_\ell,\cO_E,\mathbf Q_\ell,E,\Qlb\}$ be admissible and let

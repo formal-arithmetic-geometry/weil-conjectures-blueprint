@@ -2,7 +2,7 @@
 id = "det-thm-sfb-proper-base-change-integral"
 kind = "lemma"
 title = "Proper direct image, base change and projection formula for $\\mathcal O_E$"
-order = 2211
+order = 2191
 uses = ["det-thm-sfb-proper-base-change-finite", "sk-lem-integral-models", "sk-prop-integral-criterion", "sk-lem-pe-derived-nakayama"]
 +++
 Let $E/\mathbf Q_\ell$ be finite and $p\colon X\to Y$ proper between standing schemes.

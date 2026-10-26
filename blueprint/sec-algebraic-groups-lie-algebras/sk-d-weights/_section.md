@@ -3,7 +3,7 @@ id = "sk-d-weights"
 kind = "definition"
 title = "Determinant weight"
 lean = ["Representation.RealCharacter", "Representation.detCharacter", "Representation.HasFiniteGeometricDet", "Representation.detWeight"]
-order = 3770
+order = 3752
 uses = ["sk-i-restriction", "sk-r-linear-library"]
 tags = ["sketch"]
 +++

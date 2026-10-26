@@ -1,16 +1,16 @@
 +++
 id = "sk-prop-av-mult-n-pullback"
 kind = "proposition"
-title = "Pullback of symmetric modules under multiplication by $n$"
-lean = ["AlgebraicGeometry.nonempty_iso_overPullback_npow_id"]
-order = 503
-uses = ["sk-def-av", "sk-def-av-mult-n", "sk-prop-av-symmetric-ample"]
+title = "Commutativity, projectivity and the cube"
+lean = ["AlgebraicGeometry.IsAbelianVariety.isCommMonObj", "AlgebraicGeometry.IsAbelianVariety.exists_isClosedImmersion_projectiveSpace", "AlgebraicGeometry.IsAbelianVariety.isAmple_symmetrisation", "AlgebraicGeometry.IsAbelianVariety.nonempty_iso_overPullback_inv_symmetrisation", "AlgebraicGeometry.nonempty_iso_overPullback_npow_id"]
+order = 467
+uses = ["sk-def-av", "sk-lem-abelian-seesaw"]
 tags = ["sketch"]
 +++
-Let $A$ be an abelian variety over $k$, let $\cN$ be an invertible
-$\cO_A$-module with $[-1]^*\cN\cong\cN$, and let $n\ge0$. Then, with
-$[n]$ as in [sk-def-av-mult-n],
+An abelian variety $A$ is commutative and projective. It admits a
+symmetric ample invertible sheaf $\mathcal N$, and for every $n>0$
 
 $$
-[n]^*\cN\cong\cN^{\otimes n^2}.
+ [-1]^*\mathcal N\simeq\mathcal N,
+ \qquad [n]^*\mathcal N\simeq\mathcal N^{\otimes n^2}.
 $$

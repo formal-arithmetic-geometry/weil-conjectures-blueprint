@@ -2,7 +2,7 @@
 id = "sk-def-sfb-open-base-change"
 kind = "definition"
 title = "Base change for extension by zero on $D_{\\mathrm{cons}}$"
-order = 2590
+order = 2571
 uses = ["sk-def-sfb-base-change-morphism"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekBaseChange", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekBaseChange", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekBaseChangeIso"]
 tags = ["sketch"]

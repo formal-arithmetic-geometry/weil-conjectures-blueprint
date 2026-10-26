@@ -2,7 +2,7 @@
 id = "det-lem-int-tensor-product"
 kind = "lemma"
 title = "The integral tensor product preserves $\\Dbc(-,\\mathcal O_E)$"
-order = 2461
+order = 2441
 uses = ["det-lem-int-tensor-shriek", "det-lem-int-tensor-pullback", "det-lem-int-tensor-projection", "sk-prop-integral-criterion"]
 +++
 Let $X$ be a standing scheme and $K,L\in\Dbc(X,\mathcal O_E)$. Then the derived

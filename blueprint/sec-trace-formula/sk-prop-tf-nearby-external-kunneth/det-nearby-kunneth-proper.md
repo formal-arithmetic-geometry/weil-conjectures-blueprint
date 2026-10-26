@@ -2,7 +2,7 @@
 id = "det-nearby-kunneth-proper"
 kind = "lemma"
 title = "The nearby-cycle Künneth map and proper direct images"
-order = 3591
+order = 3573
 uses = ["det-sp-nearby-cycles-exchanges", "lem-trf-ordinary-kunneth"]
 +++
 Let $S$ be a strictly henselian trait with separably closed residue field $k$ and geometric generic

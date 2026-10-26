@@ -2,7 +2,7 @@
 id = "sk-def-sp-representing-pair"
 kind = "definition"
 title = "Representing objects"
-order = 2869
+order = 2850
 uses = ["sk-prop-sf-existence"]
 tags = ["sketch"]
 +++

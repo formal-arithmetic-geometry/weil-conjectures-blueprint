@@ -2,7 +2,7 @@
 id = "det-prop-int-compactness-compact"
 kind = "lemma"
 title = "Integral constructible complexes are compact"
-order = 2467
+order = 2447
 uses = ["sk-lem-int-integral-heart", "sk-lem-int-ext", "sk-prop-ind-heart", "sk-cor-ind-heart-ii", "sk-lem-finite-window", "sk-prop-pe-products", "sk-prop-pe-left-complete"]
 +++
 1. $\IndCons(X,\mathcal O_E)=\operatorname{Ind}(\Cons(X,\mathcal O_E))$ admits an

@@ -2,7 +2,7 @@
 id = "sk-prop-pe-hypercover"
 kind = "proposition"
 title = "Weakly contractible hypercovers"
-order = 987
+order = 952
 uses = ["sk-thm-pe-weakly-contractible-basis", "sk-cor-pe-wc-sections", "sk-prop-pe-left-complete"]
 tags = ["sketch"]
 +++

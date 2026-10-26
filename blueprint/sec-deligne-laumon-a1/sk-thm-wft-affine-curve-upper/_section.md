@@ -3,7 +3,7 @@ id = "sk-thm-wft-affine-curve-upper"
 kind = "theorem"
 title = "The weight bound on an affine curve"
 lean = ["AlgebraicGeometry.hasWeightsAtMostOver_compactlySupportedCohomology_of_isAffine_of_isLisse"]
-order = 4034
+order = 4042
 uses = ["sk-l-dl-a1-endpoints", "sk-lem-wft-finite-map", "sk-lem-wft-infinity-reduction", "sk-p-real-semi", "sk-prop-sf-open-closed-triangle", "sk-thm-dl-a1-upper"]
 tags = ["sketch"]
 +++

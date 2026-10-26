@@ -2,7 +2,7 @@
 id = "def-sfb-module-derived-lower-shriek-compactification-plus"
 kind = "definition"
 title = "Bounded below derived lower shriek for a compactification"
-order = 2562
+order = 2543
 uses = ["def-sfb-module-open-lower-shriek", "sk-def-sfb-module-derived-pushpull", "det-def-sfb-derived-categories", "sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekOfCompactificationPlus"]
 +++

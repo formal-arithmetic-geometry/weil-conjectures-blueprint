@@ -3,7 +3,7 @@ id = "prop-sf-closed-immersion-unit"
 kind = "theorem"
 title = "The closed-immersion exceptional unit"
 lean = ["AlgebraicGeometry.ProEtale.isIso_rightDerivedUpperShriekHomEquiv_id_of_isClosedImmersion", "AlgebraicGeometry.ProEtale.isIso_derivedLowerStarClosedUpperShriekAdjunction_unit_app"]
-order = 3224
+order = 3206
 tags = ["latex:proposition"]
 uses = ["def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-inverse-image", "def-weil-open-closed-recollement", "def-weil-scheme-morphism-properties", "lem-exc-proetale-closed-exact", "lem-exc-proetale-closed-support", "prop-weil-open-closed-recollement-adjunctions", "thm-sf-ambient-adjoint-class"]
 +++

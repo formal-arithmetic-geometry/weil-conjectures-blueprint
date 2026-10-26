@@ -2,7 +2,7 @@
 id = "sk-prop-sp-tower-geometric"
 kind = "proposition"
 title = "The tower model of the smooth adjunction"
-order = 3018
+order = 3000
 uses = ["sk-def-sp-normalized-towers", "sk-lem-sp-tower-levels", "sk-lem-sp-tower-bound", "sk-lem-sp-reduction", "sk-prop-geo-p1-adjunction", "sk-lem-sp-finite-existence", "sk-prop-an", "sk-thm-dnc"]
 tags = ["sketch"]
 +++

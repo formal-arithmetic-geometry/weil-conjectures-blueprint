@@ -2,7 +2,7 @@
 id = "sk-cor-wrp-unramified-purity"
 kind = "corollary"
 title = "An unramified boundary point"
-order = 3902
+order = 3886
 uses = ["sk-i-real-boundary", "sk-p-real-semi", "sk-r-real-linear"]
 lean = ["AlgebraicGeometry.BoundaryDatum.isPunctuallyPure_of_isPunctuallyPure_restrict"]
 tags = ["sketch"]

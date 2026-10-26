@@ -2,7 +2,7 @@
 id = "thm-pod-point-perfectness"
 kind = "theorem"
 title = "Point perfectness of global sections"
-order = 3402
+order = 3384
 uses = ["cor-sf-direct-image-ctf-proetale", "def-compact-support-direct-image-detailed", "def-pod-perfect-point-complex", "def-weil-derived-direct-image", "def-weil-finite-coefficient-point", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-ordinary-compact-cohomology", "lem-coef-integral-residue-tor", "lem-trf-finite-tor-amplitude-perfect", "prop-trf-compact-support-perfectness", "def-sf-setting", "sk-lem-finite", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Fix the finite-field datum and the admissible coefficient rings

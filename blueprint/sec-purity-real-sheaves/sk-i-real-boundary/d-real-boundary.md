@@ -3,7 +3,7 @@ id = "d-real-boundary"
 kind = "definition"
 title = "Boundary extension and inertia"
 lean = ["AlgebraicGeometry.BoundaryDatum.conj", "AlgebraicGeometry.BoundaryDatum.boundaryStalk_conj", "AlgebraicGeometry.BoundaryDatum.boundaryStalkConjEquiv", "AlgebraicGeometry.BoundaryDatum", "AlgebraicGeometry.BoundaryDatum.boundaryStalk"]
-order = 3890
+order = 3872
 uses = ["d-real-setup", "def-real-weil-representation-operations", "def-wf-fundamental-representation", "def-wf-weil-group"]
 +++
 Let $j:U_0\hookrightarrow C_0$ be a nonempty open in a

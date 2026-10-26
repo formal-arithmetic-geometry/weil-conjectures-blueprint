@@ -2,7 +2,7 @@
 id = "det-sp-generic-divisor-constant"
 kind = "lemma"
 title = "Generic vanishing for constant coefficients off a divisor"
-order = 3582
+order = 3564
 uses = ["det-sp-defect-definition"]
 +++
 Let $X$ be a normal separated finite-type $k$-scheme, $Z\subset X$ an effective principal Cartier

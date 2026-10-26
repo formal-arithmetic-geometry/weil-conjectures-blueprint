@@ -3,7 +3,7 @@ id = "lem-pc-affine-cech-complex"
 kind = "lemma"
 title = "The Cech complex of a standard affine covering"
 lean = ["AlgebraicGeometry.Scheme.Modules.exactAt_cechComplex_basicOpen"]
-order = 756
+order = 715
 uses = ["def-pc-scheme", "lem-pc-cech-exact"]
 +++
 Let $X$ be a scheme, $\mathcal F$ a quasi-coherent $\mathcal O_X$-module,

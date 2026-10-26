@@ -2,7 +2,7 @@
 id = "def-sfb-coefficient-map"
 kind = "definition"
 title = "The coefficient change $a_X$"
-order = 1260
+order = 1229
 uses = ["det-def-sfb-condensed-ring", "det-def-sfb-pullback-from-point", "det-def-sfb-pulled-back-coefficients"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientMap"]
 +++

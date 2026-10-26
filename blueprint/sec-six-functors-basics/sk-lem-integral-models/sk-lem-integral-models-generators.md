@@ -2,7 +2,7 @@
 id = "det-lem-integral-models-generators"
 kind = "lemma"
 title = "Integral generators of $D^b_c(X,E)$ and $D^b_c(X,\\overline{\\mathbf Q}_\\ell)$"
-order = 2190
+order = 2169
 uses = ["det-cor-coefficient-heart-ii-generation", "det-lem-stratified-lattice-trace", "det-lem-coefficient-finite-descent-objects", "det-lem-integral-models-operations", "det-lem-coefficient-heart-filtration", "det-lem-coefficient-heart-common-stratification", "sk-prop-integral-criterion"]
 +++
 Let $X$ be a standing scheme and $E/\mathbf Q_\ell$ finite. Let $\mathcal G_E$ be the class of

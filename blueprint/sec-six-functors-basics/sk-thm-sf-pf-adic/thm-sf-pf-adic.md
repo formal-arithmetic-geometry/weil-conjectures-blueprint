@@ -2,7 +2,7 @@
 id = "thm-sf-pf-adic"
 kind = "theorem"
 title = "Projection formula over $\\mathcal O_E$"
-order = 2476
+order = 2456
 uses = ["def-sf-datum", "def-sf-pf", "def-pe-derived-complete", "sk-prop-integral-criterion", "sk-lem-pe-derived-nakayama", "sk-lem-int-tensor", "sk-prop-scalar-six", "thm-sf-pf-finite"]
 +++
 In the setting of [def-sf-datum], regard $\mathcal O_E$ as a condensed ring and

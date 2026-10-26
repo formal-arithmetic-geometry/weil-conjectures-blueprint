@@ -2,7 +2,7 @@
 id = "def-weil-pbc-retained-localization"
 kind = "definition"
 title = "Retaining a closed subset"
-order = 941
+order = 906
 lean = ["Ideal.WLocalization", "WLocalization.Generalization"]
 uses = ["def-weil-pbc-w-localization"]
 +++

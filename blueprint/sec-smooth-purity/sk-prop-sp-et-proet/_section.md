@@ -2,7 +2,7 @@
 id = "sk-prop-sp-et-proet"
 kind = "proposition"
 title = "Étale and pro-étale finite coefficients"
-order = 2872
+order = 2853
 uses = ["sk-prop-sf-existence", "sk-prop-sf-comparison", "sk-prop-integral-criterion"]
 tags = ["sketch"]
 +++

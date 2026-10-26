@@ -2,7 +2,7 @@
 id = "det-tf-fixed-point-equations"
 kind = "lemma"
 title = "Equations of the Frobenius fixed scheme"
-order = 3508
+order = 3490
 uses = ["def-trf-fixed-scheme", "def-trf-scheme-frobenius"]
 +++
 Let $X_0=\operatorname{Spec}A_0$ with $A_0=k_0[t_1,\ldots,t_r]/\mathfrak a$, put

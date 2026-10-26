@@ -2,7 +2,7 @@
 id = "det-pe-derived-nakayama-resolution"
 kind = "lemma"
 title = "The two-term resolution of the finite coefficient sheaves"
-order = 1214
+order = 1180
 uses = ["det-def-sfb-pulled-back-coefficients", "det-prop-sfb-module-pullback-exact-main", "det-def-sfb-condensed-ring", "lem-weil-pbc-standard-quotients-perfect"]
 +++
 Let $E/\Ql$ be finite with uniformizer $\pi_E$ and $n\geq1$. For every scheme $X$

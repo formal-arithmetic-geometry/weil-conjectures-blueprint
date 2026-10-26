@@ -3,7 +3,7 @@ id = "det-nagata-density-normalization-pushforward"
 kind = "lemma"
 title = "Proper direct image through the schematic closure"
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekRefinementIso"]
-order = 1273
+order = 1242
 uses = ["det-nagata-density-normalization-sheaves"]
 +++
 In the situation of [det-nagata-density-normalization-sheaves], assume also

@@ -2,7 +2,7 @@
 id = "prop-exc-ambient-dual-base-change"
 kind = "theorem"
 title = "Dual base change for the ambient right adjoint is formal"
-order = 2330
+order = 2310
 tags = ["latex:proposition"]
 uses = ["def-cbc-exchange-map", "def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-pbc-derived-categories", "lem-weil-pbc-comparison-pullback", "prop-weil-pbc-comparison-direct-image", "thm-sf-ambient-adjoint-class"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sfb-subfield-flat"
 kind = "lemma"
 title = "$F_X$ is flat over $E_X$"
-order = 1262
+order = 1231
 uses = ["def-sfb-subfield-coefficient-map", "det-def-sfb-change-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_extendScalars_padicSubfieldRingObjMap"]
 +++

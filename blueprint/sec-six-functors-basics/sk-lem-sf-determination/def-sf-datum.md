@@ -2,7 +2,7 @@
 id = "def-sf-datum"
 kind = "definition"
 title = "Six-functor datum at a finite coefficient ring"
-order = 2265
+order = 2245
 lean = ["AlgebraicGeometry.Etale.SixOperationsPackage", "AlgebraicGeometry.Etale.HasTateTwist", "AlgebraicGeometry.Etale.HasProjectionFormula", "AlgebraicGeometry.Etale.Orientation", "AlgebraicGeometry.Etale.HasKunnethComparisons"]
 uses = ["def-weil-pbc-scheme-conventions", "def-sbc-smooth-morphisms", "def-nagata-compactification", "def-nagata-compactifiable", "def-weil-pbc-derived-categories", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-direct-image", "def-amb-etale-compact-support", "thm-amb-etale-exceptional-adjoint", "def-constructible-constructible", "def-weil-finite-tor-amplitude", "def-exchange-projection"]
 +++

@@ -2,7 +2,7 @@
 id = "det-sp-comparison-brown-unique"
 kind = "lemma"
 title = "Identification of the explicit adjoint with the restricted Brown adjoint"
-order = 2864
+order = 2845
 uses = ["det-sp-comparison-brown-explicit", "det-sp-unique-right-adjoint"]
 +++
 In the situation of [det-sp-comparison-brown-explicit], let $f^!$ be the right

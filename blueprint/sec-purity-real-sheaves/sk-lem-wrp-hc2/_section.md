@@ -2,7 +2,7 @@
 id = "sk-lem-wrp-hc2"
 kind = "lemma"
 title = "Degree zero and top cohomology"
-order = 3867
+order = 3849
 uses = ["sk-d-real-weights", "sk-d-real-weil", "sk-i-real-compactification", "sk-r-real-linear", "sk-thm-curve-package", "sk-thm-derived-duality"]
 tags = ["sketch"]
 +++

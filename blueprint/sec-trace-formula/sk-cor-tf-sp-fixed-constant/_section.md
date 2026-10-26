@@ -2,7 +2,7 @@
 id = "sk-cor-tf-sp-fixed-constant"
 kind = "corollary"
 title = "Specialization for a constant fixed scheme"
-order = 3604
+order = 3586
 uses = ["sk-prop-tf-trace-specialization", "sk-lem-tf-sp-constant-family", "sk-lem-tf-nearby-mate-coherences"]
 tags = ["sketch"]
 +++

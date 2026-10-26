@@ -8,9 +8,10 @@ $R\varprojlim(\cdots\xrightarrow{\pi_E}K\xrightarrow{\pi_E}K)=0$, and this
 derived limit is an exact functor of $K$. Reduction modulo $\pi_E$ is exact, so constructibility of the
 reduction is stable under shifts and cones because bounded constructible
 complexes on the étale site form a triangulated subcategory. Hence
-$\Dbc(X,\mathcal O_E)$ is triangulated. Its objects are bounded: our schemes
-are quasi-compact, and a derived complete complex whose reduction is bounded
-is bounded (Stacks, Tag 09C2). Stability under truncation is
+$\Dbc(X,\mathcal O_E)$ is triangulated. Its objects are bounded: by
+[det-lem-int-integral-heart-local-model](1) each of the finitely many strata,
+being quasi-compact, is covered by finitely many charts on which the object is a
+bounded complex of finite free modules. Stability under truncation is
 [det-lem-int-integral-heart-local-model](3).
 
 (2) Let $\varphi:C\to C'$ be a morphism in $\Cons(X,\mathcal O_E)$ with cone

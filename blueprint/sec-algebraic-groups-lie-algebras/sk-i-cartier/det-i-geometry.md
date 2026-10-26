@@ -2,7 +2,7 @@
 id = "det-i-geometry"
 kind = "proposition"
 title = "Basic affine geometry"
-order = 3697
+order = 3679
 uses = ["det-d-geometry", "def-wf-lie-algebra-derivation"]
 lean = ["iInf_ker_algHom_eq_nilradical", "exists_algHom_ker_eq_of_isMaximal", "exists_isOpen_inter_subset_of_isConstructible", "ringKrullDim_quotient_lt_of_finiteType", "IsRegularLocalRing.isDomain", "isReduced_tensorProduct_of_perfectField"]
 +++

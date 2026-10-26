@@ -3,7 +3,7 @@ id = "def-wf-constant-weil-twist"
 kind = "definition"
 title = "Constant Weil twist"
 lean = ["AlgebraicGeometry.WeilSheaf.constantTwist", "AlgebraicGeometry.WeilSheaf.nonempty_equiv_stalk_constantTwist", "AlgebraicGeometry.WeilGroup.constLine", "AlgebraicGeometry.WeilGroup.tateLine"]
-order = 3804
+order = 3786
 uses = ["def-weil-weil-sheaf-complex", "def-wf-weil-group", "sk-def-sf-weil-complexes", "det-def-sfb-pulled-back-coefficients"]
 +++
 For $b\in\Qlb^\times$, let $\mathcal B_b$ be the rank-one

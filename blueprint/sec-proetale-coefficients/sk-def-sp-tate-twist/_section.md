@@ -2,7 +2,7 @@
 id = "sk-def-sp-tate-twist"
 kind = "definition"
 title = "Tate twists"
-order = 1236
+order = 1202
 uses = ["sk-prop-sfb-qlbar-colimit-x", "sk-prop-sf-open-closed-triangle"]
 lean = ["AlgebraicGeometry.ProEtale.rootsOfUnitySheaf", "AlgebraicGeometry.ProEtale.tateModule", "AlgebraicGeometry.ProEtale.tateTwistOne", "AlgebraicGeometry.ProEtale.tateTwist", "AlgebraicGeometry.ProEtale.tateTwistFunctor"]
 tags = ["sketch"]

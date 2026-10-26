@@ -2,9 +2,8 @@
 id = "sk-i-additivity"
 kind = "proposition"
 title = "Filtered trace-class additivity"
-order = 3495
+order = 3477
 uses = ["sk-d-curve-pieces", "sk-d-integral", "sk-d-local-term", "sk-d-trace-class", "sk-thm-sf-kunneth-verdier"]
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.traceClass_graph_eq_traceClass_add_traceClass"]
 tags = ["sketch"]
 +++
 Let $c:C\to X\times X$ be a correspondence and let $\mathcal K$ be a finitely

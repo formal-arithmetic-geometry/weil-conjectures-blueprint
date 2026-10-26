@@ -2,8 +2,7 @@
 id = "lem-trf-integration-as-pushforward"
 kind = "lemma"
 title = "Integration is pushforward to the point"
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.integration_eq_integral"]
-order = 3637
+order = 3619
 uses = ["def-trf-borel-moore-pushforward", "def-trf-dualizing-complex", "def-trf-integration", "thm-trf-dualizing-complex-composition"]
 +++
 Fix the global finite-field datum

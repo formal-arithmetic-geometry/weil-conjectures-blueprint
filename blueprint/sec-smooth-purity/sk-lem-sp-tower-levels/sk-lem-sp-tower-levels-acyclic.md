@@ -2,7 +2,7 @@
 id = "det-sp-tower-injective-components"
 kind = "lemma"
 title = "Components of injective towers are acyclic"
-order = 3014
+order = 2996
 uses = ["det-sp-tower-evaluation-adjoint"]
 +++
 Let $I_\bullet$ be an injective object of $\operatorname{Tow}(T,\mathcal O_E)$. Then for

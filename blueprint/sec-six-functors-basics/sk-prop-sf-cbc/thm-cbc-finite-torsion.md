@@ -3,7 +3,7 @@ id = "thm-cbc-finite-torsion"
 kind = "theorem"
 title = "Compact-support base change at finite coefficients"
 lean = ["AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekOfCompactificationPlusBaseChangeMap", "AlgebraicGeometry.CompactSupportFormalism.isIso_shriekBaseChange", "AlgebraicGeometry.CompactSupportFormalism.shriekBaseChange_id", "AlgebraicGeometry.CompactSupportFormalism.shriekBaseChange_paste_horiz", "AlgebraicGeometry.CompactSupportFormalism.shriekBaseChange_refinementComparison", "AlgebraicGeometry.CompactSupportFormalism.lowerShriekBaseChange_eq", "AlgebraicGeometry.CompactSupportFormalism.lowerShriekBaseChange_paste_vert"]
-order = 2678
+order = 2659
 uses = ["cor-cbc-derived-extension-zero-base-change", "def-cbc-compact-support-square", "def-cbc-exchange-map", "def-compact-support-direct-image-detailed", "def-weil-compactifications-refinements", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "prop-compactification-coherence-detailed", "thm-nagata-compactification", "thm-weil-pbc-bounded-below"]
 +++
 Let $\square$ be a

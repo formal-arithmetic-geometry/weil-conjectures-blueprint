@@ -2,7 +2,7 @@
 id = "def-sfb-finite-derived-adjunction"
 kind = "definition"
 title = "The derived adjunction $Lg^*\\dashv Rg_*$"
-order = 2514
+order = 2495
 uses = ["def-sfb-finite-derived-pullback-iso", "def-sfb-finite-upper-lower-star-adjunction", "det-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.derivedUpperStarLowerStarAdjunction"]
 +++

@@ -2,9 +2,8 @@
 id = "sk-p-pairing"
 kind = "lemma"
 title = "Local terms on the point"
-order = 3479
+order = 3461
 uses = ["sk-d-corr", "sk-d-pairing", "sk-d-setup", "sk-d-six", "sk-d-trace", "sk-d-trace-class", "sk-p-trace", "sk-thm-sf-kunneth-verdier", "sk-thm-sf-package"]
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.integral_traceClass_eq_trace"]
 tags = ["sketch"]
 +++
 Let $P\in\operatorname{Perf}(A)$, viewed as an object of $\Dctf(s,A)$, and let

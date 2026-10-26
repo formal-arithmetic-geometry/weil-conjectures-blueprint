@@ -3,7 +3,7 @@ id = "def-weil-finite-coefficient-point"
 kind = "definition"
 title = "Finite coefficient categories over a point"
 lean = ["AlgebraicGeometry.ProEtale.geometricStalk"]
-order = 2651
+order = 2632
 uses = ["def-weil-finite-field-fiber", "def-weil-finite-torsion-constructibility", "det-def-sfb-condensed-ring", "det-def-sfb-qlbar-condensed", "det-def-sfb-pulled-back-coefficients", "sk-def-sfb-constructible", "det-def-sfb-bounded-constructible", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Fix the global finite-field datum [def-weil-finite-field-fiber] $p,a,q,k_0,k$,

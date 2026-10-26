@@ -3,7 +3,7 @@ id = "def-wf-simple-module"
 kind = "definition"
 title = "Simple algebraic-group module"
 lean = ["Representation.isIrreducible_iff", "AlgebraicGeometry.GeneralLinearGroup.RationalHom.IsSimple", "AlgebraicGeometry.GeneralLinearGroup.RationalHom.isSimple_iff"]
-order = 3728
+order = 3710
 uses = ["def-wf-algebraic-representations"]
 +++
 An algebraic-group module

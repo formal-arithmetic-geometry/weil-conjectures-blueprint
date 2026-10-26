@@ -1,7 +1,12 @@
 +++
 kind = "proof"
 of    = "sk-lem-int-tensor"
+uses = ["sk-lem-integral-models"]
 +++
+This follows from [sk-lem-integral-models] (3), since closed direct image is exact and preserves
+limits (Stacks, Tags 09AA, 09BM); the comparison with the completed inverse image holds on local
+models. We recall the argument.
+
 *Extension by zero and closed direct image.* For a quasi-compact open immersion $j$, $j_!$ is exact and
 preserves all limits (Stacks, Tag 09BP). For a closed immersion $i$, the complementary open immersion is
 quasi-compact since our schemes are Noetherian, and $i_*$ is exact (Stacks, Tag 09BM) and preserves limits

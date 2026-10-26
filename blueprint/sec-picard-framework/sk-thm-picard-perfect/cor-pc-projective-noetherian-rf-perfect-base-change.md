@@ -3,7 +3,7 @@ id = "cor-pc-projective-noetherian-rf-perfect-base-change"
 kind = "theorem"
 title = "Arbitrary base change for a projective Noetherian family"
 lean = ["AlgebraicGeometry.Scheme.Modules.isPerfect_Q_cechModuleComplex_baseChange_of_isClosedImmersion"]
-order = 774
+order = 733
 tags = ["latex:corollary"]
 uses = ["def-pc-base-change", "def-pc-derived-direct-image", "def-pc-derived-pullback", "def-pc-morphism-conventions", "def-pc-perfect-complex", "def-pc-projective-morphism", "lem-pc-projective-noetherian-rf-perfect", "lem-pc-rf-base-change-flat-module", "pqf-def-coherent"]
 +++

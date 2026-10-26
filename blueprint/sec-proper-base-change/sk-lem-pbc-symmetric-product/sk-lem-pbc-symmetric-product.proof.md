@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-lem-pbc-symmetric-product"
-uses = ["sk-lem-pbc-finite", "sk-lem-pbc-composition-cancellation", "sk-prop-av-pqf-finite"]
+uses = ["sk-lem-pbc-finite", "sk-lem-pbc-composition-cancellation", "sk-prop-av-isogeny"]
 +++
 Use the coefficients of a product of binary linear forms:
 
@@ -42,7 +42,7 @@ to nonzero scalars. Its fibre therefore has at most $n!$ geometric points,
 given by their orderings. The fibres are of finite type over fields; having
 finitely many geometric points makes them zero dimensional. Thus $\sigma_n$
 is quasi-finite, and a proper quasi-finite morphism is finite
-([sk-prop-av-pqf-finite]; Stacks Project, Tag 02LS). Factorization of binary
+([cor-pqf-proper-quasifinite-finite]; Stacks Project, Tag 02LS). Factorization of binary
 forms also shows that every geometric fibre is nonempty, so $\sigma_n$ is
 surjective. This argument includes forms with a root at infinity.
 

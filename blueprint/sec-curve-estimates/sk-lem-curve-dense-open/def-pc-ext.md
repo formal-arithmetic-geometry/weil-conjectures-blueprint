@@ -2,7 +2,7 @@
 id = "def-pc-ext"
 kind = "definition"
 title = "Extensions"
-order = 1515
+order = 1494
 lean = ["CategoryTheory.Abelian.Ext", "CategoryTheory.ProjectiveResolution.isoExt", "isZero_Ext_succ_of_projective"]
 uses = ["def-pc-derived-category"]
 +++

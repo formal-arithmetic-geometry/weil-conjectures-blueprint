@@ -3,8 +3,8 @@ id = "thm-a1-fourier-t-exact"
 kind = "theorem"
 title = "The Fourier transform is perverse t-exact on the line"
 lean = ["AlgebraicGeometry.isCurvePerverseLE_fourierTransform_obj", "AlgebraicGeometry.isCurvePerverseLE_fourierTransform_inv_obj"]
-order = 3988
-uses = ["def-per-perverse-subcategories", "def-per-support-condition", "def-fd-transform", "def-wf-tate-twist", "rem-dl-a1-conventions", "thm-a1-curve-perverse-heart", "thm-fd-fourier-perverse", "thm-fd-transform-well-defined", "lem-fd-base-change", "lem-fd-stalk-formula", "lem-zl-affine-curve-range", "lem-a1-affine-hc2", "lem-fd-as-characters", "lem-fd-cohomology-affine-line-character", "lem-fd-inversion", "prop-base-linear"]
+order = 3996
+uses = ["def-per-perverse-subcategories", "def-per-support-condition", "def-fd-transform", "def-wf-tate-twist", "rem-dl-a1-conventions", "thm-a1-curve-perverse-heart", "thm-fd-transform-well-defined", "lem-fd-base-change", "lem-fd-stalk-formula", "lem-zl-affine-curve-range", "lem-a1-affine-hc2", "lem-fd-as-characters", "lem-fd-cohomology-affine-line-character", "lem-fd-inversion", "prop-base-linear"]
 +++
 In the conventions of [rem-dl-a1-conventions], let
 $\operatorname{FT}_\psi$ be the Fourier–Deligne transform of
@@ -23,9 +23,7 @@ $$
 
 so it sends $\mathrm{Perv}(A_0)$ into $\mathrm{Perv}(A'_0)$, and
 likewise $\operatorname{FT}_{\psi^{-1}}$ (from $A'_0$ to $A_0$) is
-t-exact and sends $\mathrm{Perv}(A'_0)$ into $\mathrm{Perv}(A_0)$. This
-sharpens the amplitude bound $[-1,1]$ of [thm-fd-fourier-perverse] to
-amplitude $0$. Moreover, with the Tate twist of [def-wf-tate-twist],
+t-exact and sends $\mathrm{Perv}(A'_0)$ into $\mathrm{Perv}(A_0)$. Moreover, with the Tate twist of [def-wf-tate-twist],
 the functors
 
 $$

@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-symmetric-product-p1"
 kind = "lemma"
 title = "Symmetric product map"
 lean = ["AlgebraicGeometry.ProjectiveSpace.exists_isFinite_surjective_projectiveLinePow"]
-order = 1956
+order = 1935
 uses = ["def-weil-pbc-symmetric-product-morphism", "lem-weil-pbc-symmetric-product-finite", "lem-weil-pbc-symmetric-product-surjective"]
 +++
 Let $S$ be a scheme and $N$ a finite nonempty set with $n+1$ elements, indexing

@@ -2,7 +2,7 @@
 id = "sk-cor-pe-sections"
 kind = "corollary"
 title = "A conservative family preserving all module colimits"
-order = 969
+order = 934
 lean = ["CategoryTheory.GrothendieckTopology.exact_iff_of_forall_exists", "CategoryTheory.GrothendieckTopology.epi_iff_of_forall_exists", "AlgebraicGeometry.ProEtale.isZero_iff_forall_isWeaklyContractible", "AlgebraicGeometry.ProEtale.acyclic_iff_forall_isWeaklyContractible"]
 uses = ["sk-thm-pe-weakly-contractible-basis", "sk-cor-pe-wc-sections", "sk-def-pe-weak-contractible"]
 tags = ["sketch"]

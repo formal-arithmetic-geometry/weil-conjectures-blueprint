@@ -2,7 +2,7 @@
 id = "def-sfb-compactification-over-field"
 kind = "definition"
 title = "The chosen compactification over a field"
-order = 2582
+order = 2563
 uses = ["lem-sfb-compactification-over-base", "sk-def-nagata-sketch-data"]
 +++
 Let $k$ be a field. Let $X$ be separated and of finite type over $k$, let $Y$ be separated and

@@ -2,7 +2,7 @@
 id = "det-sp-zero-section-vanishing"
 kind = "lemma"
 title = "The zero-section map is invertible on the étale site"
-order = 3587
+order = 3569
 uses = ["det-sp-defect-definition"]
 +++
 For every separated finite-type $k$-scheme $X$, every closed subscheme $i\colon Z\hookrightarrow X$

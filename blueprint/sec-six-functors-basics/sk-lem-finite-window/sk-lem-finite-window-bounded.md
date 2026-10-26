@@ -2,7 +2,7 @@
 id = "det-finite-window-bounded"
 kind = "lemma"
 title = "Lower tail vanishing for bounded complexes"
-order = 2239
+order = 2219
 uses = ["sk-cor-ind-heart-ii"]
 +++
 Let $\Lambda=E$ or $\Qlb$, $C\in\Cons(X,\Lambda)$, and let $L\in\Dic(X,\Lambda)$ be bounded with

@@ -2,7 +2,7 @@
 id = "det-def-sfb-filtered-two-colimit-conditions"
 kind = "definition"
 title = "Filtered 2-colimit conditions"
-order = 2577
+order = 2558
 uses = ["det-def-sfb-filtered-two-colimit-cocone"]
 +++
 A cocone of categories $(T_{ij},\Phi_i,\theta_{ij})$ with vertex $\mathcal D$

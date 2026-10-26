@@ -2,7 +2,7 @@
 id = "det-compact-trace-point-objects"
 kind = "lemma"
 title = "Compact cohomology and stalks of a finite-Tor constructible complex"
-order = 3471
+order = 3453
 uses = ["det-thm-sf-ctf-stability-direct-images"]
 +++
 Let $k$ be algebraically closed, $s=\operatorname{Spec}k$, let $X$ be a

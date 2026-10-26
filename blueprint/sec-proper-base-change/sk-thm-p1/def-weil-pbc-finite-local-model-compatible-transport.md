@@ -4,7 +4,7 @@ kind = "definition"
 title = "Natural section-compatible transport"
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site"]
 lean = ["AlgebraicGeometry.Scheme.FiniteLocalModelCompatibleTransport"]
-order = 1646
+order = 1625
 +++
 Let $T$ be a scheme [def-pc-scheme], $E$ a sheaf of sets on the small etale site $T_{\Et}$ [def-weil-pbc-etale-site], $U\to T$ an etale $T$-scheme, $Q\to U$ a finite etale $U$-scheme, and $e:E|_U\xrightarrow{\sim}h_Q$ an isomorphism of $E$ restricted to $U_{\Et}$ with the functor of points of $Q$ over $U$. A *compatible transport* for $(E,U,Q,e)$ consists of maps
 $$

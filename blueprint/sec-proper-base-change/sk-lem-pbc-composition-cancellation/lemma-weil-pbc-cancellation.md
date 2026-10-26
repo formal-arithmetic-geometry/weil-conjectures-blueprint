@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-cancellation"
 kind = "lemma"
 title = "Cancellation along a proper surjection"
 lean = ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity.of_comp", "AlgebraicGeometry.Etale.HasTorsionBaseChange.of_comp"]
-order = 1948
+order = 1927
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "def-weil-pbc-torsion-etale-sheaf"]
 +++
 Let $\Lambda$ be a commutative ring which is torsion as an abelian group (every

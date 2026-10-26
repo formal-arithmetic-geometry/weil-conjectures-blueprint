@@ -2,7 +2,7 @@
 id = "sk-lem-sf-flat-model"
 kind = "lemma"
 title = "Flat models and generators"
-order = 2291
+order = 2271
 lean = ["AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatModel", "AlgebraicGeometry.Etale.ctf_generated_by_rightDerivedLowerStar_rightDerivedLowerShriek"]
 uses = ["sk-lem-sf-determination", "sk-prop-sf-open-closed-triangle"]
 tags = ["sketch"]

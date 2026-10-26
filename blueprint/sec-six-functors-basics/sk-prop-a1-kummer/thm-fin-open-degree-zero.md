@@ -2,7 +2,7 @@
 id = "thm-fin-open-degree-zero"
 kind = "theorem"
 title = "Constructibility of the degree-zero open direct image"
-order = 2799
+order = 2780
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lem-fin-closed-immersion", "lem-fin-dense-normal-open", "lem-fin-normal-open-lisse-image", "lem-weil-pbc-constructible-subobjects-noetherian", "lem-weil-pbc-noetherian-finite-components", "lemma-weil-pbc-finite-stalk-formula", "lemma-weil-pbc-geometric-stalk-conservative", "thm-constructible-serre", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $X$ be of finite type over a field, let

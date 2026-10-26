@@ -3,7 +3,7 @@ id = "lem-weil-pbc-derived-functor-truncation-iso"
 kind = "lemma"
 title = "Low-degree cohomology of a right derived functor sees only low degrees"
 lean = ["CategoryTheory.Functor.isIso_homologyFunctor_rightDerivedFunctorPlus_map", "CategoryTheory.Functor.isIso_homologyFunctor_rightDerivedFunctorPlus_truncLEι"]
-order = 2027
+order = 2006
 uses = ["def-sp-left-exact-additive", "def-sp-grothendieck-abelian", "def-sp-kinjective-bridge", "def-weil-pbc-bounded-derived-subcategories", "def-weil-abstract-derived-category", "def-sbc-standard-tstructure-derived-category"]
 tags = ["stacks-05TC"]
 +++

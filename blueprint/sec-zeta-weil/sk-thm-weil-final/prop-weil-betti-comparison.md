@@ -3,7 +3,7 @@ id = "prop-weil-betti-comparison"
 kind = "theorem"
 title = "Betti-number comparison"
 lean = ["AlgebraicGeometry.Scheme.weilBettiNumber_eq_finrank"]
-order = 4147
+order = 4155
 tags = ["latex:proposition"]
 uses = ["def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-smooth-proper-cohomological-family", "prop-cohomological-finiteness", "prop-integral-recovery"]
 +++

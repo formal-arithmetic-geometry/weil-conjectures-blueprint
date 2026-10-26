@@ -2,7 +2,7 @@
 id = "thm-pur-projective-bundle-formula"
 kind = "theorem"
 title = "Projective-bundle formula without purity"
-order = 2940
+order = 2921
 uses = ["cor-kun-compact-kunneth", "cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-pur-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-open-closed-recollement", "def-weil-scheme-morphism-properties", "lem-pur-divisor-class", "lem-pur-frame-independence", "lem-pur-kummer-additivity", "lem-pur-kunneth-supported", "prop-weil-proet-finite-proper-base-change", "thm-pur-rank-one-local-calculation", "thm-pur-rank-one-thom"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

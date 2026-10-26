@@ -3,7 +3,7 @@ id = "def-mg-weil-composition-series"
 kind = "definition"
 title = "Composition series of a Weil representation"
 lean = ["Representation.CompositionSeries", "Representation.CompositionSeries.factor"]
-order = 3752
+order = 3734
 uses = ["d-monodromy"]
 +++
 Let $V$ be a Weil representation of a degree datum ([d-monodromy]),

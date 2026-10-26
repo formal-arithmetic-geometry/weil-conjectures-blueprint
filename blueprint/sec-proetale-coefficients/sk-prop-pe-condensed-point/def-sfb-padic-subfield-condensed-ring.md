@@ -2,7 +2,7 @@
 id = "def-sfb-padic-subfield-condensed-ring"
 kind = "definition"
 title = "The condensed ring $\\underline E$ of a subfield $E\\subseteq\\overline{\\mathbf Q}_\\ell$"
-order = 1066
+order = 1032
 uses = ["def-sfb-continuous-map-condensed-ring", "def-sfb-continuous-map-condensed-ring-map", "def-sfb-padic-condensed-ring"]
 lean = ["Profinite.padicSubfieldCondensedRing", "PadicAlgCl.normedFieldOfAlgebra", "Profinite.padicCondensedRingToPadicSubfieldCondensedRing"]
 +++

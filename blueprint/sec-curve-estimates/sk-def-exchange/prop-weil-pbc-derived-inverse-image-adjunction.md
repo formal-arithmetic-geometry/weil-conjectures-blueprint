@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Derived adjunction of inverse and direct image on D^+"
 uses = ["def-pc-scheme", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-inverse-image", "def-weil-pbc-derived-inverse-image", "def-weil-pbc-direct-image", "def-sp-kinjective-bridge", "lem-weil-pbc-derived-direct-image-triangulated", "def-weil-pbc-derived-categories"]
 lean = ["AlgebraicGeometry.Etale.derivedUpperStarLowerStarAdjunctionPlus", "CategoryTheory.Adjunction.derivedAdjunctionPlus", "CategoryTheory.Adjunction.derivedAdjunctionPlus_eq_derivedPlus", "CategoryTheory.Adjunction.derivedPlus_unit_app_fac", "CategoryTheory.Adjunction.derivedPlus_counit_app_fac", "CategoryTheory.Adjunction.derivedPlus_unit_eq"]
-order = 1331
+order = 1302
 tags = ["stacks-0DVC"]
 +++
 Let $u:U\to V$ be a morphism of schemes [def-pc-scheme], with the adjunction $u^{-1}\dashv u_*$ on the abelian sheaves on the small etale sites [def-weil-pbc-abelian-etale-sheaves], unit $\eta_u$ and counit $\varepsilon_u$ [def-weil-pbc-inverse-image], the inverse image $u^{-1}:\Dplus(V_{\Et})\to\Dplus(U_{\Et})$ on bounded below derived categories [def-weil-pbc-derived-inverse-image] and the derived direct image $Ru_*:\Dplus(U_{\Et})\to\Dplus(V_{\Et})$, $Ru_*K=u_*I(K)$ for a K-injective resolution $K\to I(K)$ [def-weil-pbc-direct-image], [def-sp-kinjective-bridge], on morphisms through the homotopy classes of the induced maps of resolutions [lem-weil-pbc-derived-direct-image-triangulated]. Then $u^{-1}\dashv Ru_*$: there is an adjunction, with unit $\eta^D_u:\mathrm{id}\to Ru_*u^{-1}$ and counit $\varepsilon^D_u:u^{-1}Ru_*\to\mathrm{id}$, uniquely determined by the following two properties.

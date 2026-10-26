@@ -2,7 +2,7 @@
 id = "thm-zl-relative-noether"
 kind = "theorem"
 title = "Relative Noether normalization"
-order = 4080
+order = 4088
 lean = ["AlgebraicGeometry.exists_partition_isFinite_toIteratedAffineLine"]
 uses = ["def-sbc-affine-space", "def-weil-pbc-scheme-conventions"]
 +++

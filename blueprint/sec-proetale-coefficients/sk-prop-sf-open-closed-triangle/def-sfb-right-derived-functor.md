@@ -2,7 +2,7 @@
 id = "def-sfb-right-derived-functor"
 kind = "definition"
 title = "Right derived functor on the unbounded derived category"
-order = 1107
+order = 1073
 uses = ["def-weil-abstract-derived-category"]
 lean = ["CategoryTheory.Functor.rightDerivedFunctor", "CategoryTheory.Functor.rightDerivedFunctorUnit"]
 +++

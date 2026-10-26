@@ -2,7 +2,7 @@
 id = "def-weil-absolute-frobenius-scheme"
 kind = "definition"
 title = "Absolute q-power Frobenius of a scheme in characteristic p"
-order = 2663
+order = 2644
 uses = ["def-pc-scheme", "def-weil-scheme-characteristic-p", "def-weil-locally-ringed-space-morphism", "def-weil-ring-frobenius", "lem-weil-absolute-frobenius-well-defined", "def-weil-affine-spectrum"]
 tags = ["stacks-0CC6"]
 +++

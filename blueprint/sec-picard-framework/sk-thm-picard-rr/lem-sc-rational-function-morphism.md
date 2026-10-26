@@ -3,7 +3,7 @@ id = "lem-sc-rational-function-morphism"
 kind = "lemma"
 title = "Rational functions define morphisms to $\\mathbf P^1$"
 lean = ["AlgebraicGeometry.Scheme.exists_hom_projectiveLine_of_functionField"]
-order = 709
+order = 667
 uses = ["def-sc-curves", "def-sc-function-field", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
 Let $k$ be a field, $C$ an integral scheme, smooth of relative

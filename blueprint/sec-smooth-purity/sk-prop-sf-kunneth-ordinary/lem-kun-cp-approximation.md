@@ -2,7 +2,7 @@
 id = "lem-kun-cp-approximation"
 kind = "lemma"
 title = "Approximation of a sheaf supported at closed points"
-order = 3190
+order = 3172
 uses = ["def-pc-separably-closed", "def-kun-support", "def-weil-pbc-etale-sheaves", "lem-kun-04ca", "lem-kun-finite-closed-subscheme", "lem-kun-support-geometric-point-independent"]
 +++
 Let $K$ be a separably closed

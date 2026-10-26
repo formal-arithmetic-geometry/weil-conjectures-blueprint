@@ -2,7 +2,7 @@
 id = "pur9-def-family-object"
 kind = "definition"
 title = "Family object"
-order = 3257
+order = 3239
 uses = ["pur9-def-deformation-space", "pur9-def-section-invariant"]
 +++
 For $g,s$ as in Definition [pur9-def-section-invariant], the family object is

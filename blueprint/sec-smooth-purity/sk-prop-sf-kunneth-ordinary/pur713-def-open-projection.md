@@ -2,7 +2,7 @@
 id = "pur713-def-open-projection"
 kind = "definition"
 title = "Open-extension projection map, finite coefficients"
-order = 3074
+order = 3056
 uses = ["sk-def-sf-exchanges"]
 +++
 Assume Input “Fixed-coefficient inverse image preserves K-flat complexes” (`pur713-input-kflat-fixed`). For an open immersion $j:U\hookrightarrow X$, $K\in D(U_{\Proet},\mathcal O_E/\pi_E^n)$ and $N\in D(X_{\Proet},\mathcal O_E/\pi_E^n)$, define

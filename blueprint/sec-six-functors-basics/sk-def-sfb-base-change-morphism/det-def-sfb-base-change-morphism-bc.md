@@ -2,7 +2,7 @@
 id = "det-def-sfb-base-change-morphism-bc"
 kind = "definition"
 title = "The base change morphism $\\mathrm{BC}_{sq}$ on $D_{\\mathrm{cons}}$"
-order = 2588
+order = 2569
 uses = ["det-def-sfb-base-change-morphism-comparison", "def-sfb-dc-upper-lower-adjunction", "def-sfb-dc-lower-star"]
 +++
 In the situation of [det-def-sfb-base-change-morphism-comparison], assume moreover that the

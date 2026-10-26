@@ -2,7 +2,7 @@
 id = "lem-sfb-qlbar-push-iso-proper"
 kind = "lemma"
 title = "(Push) is an isomorphism for $E\\subseteq\\Qlb$ and $f$ proper"
-order = 2574
+order = 2555
 uses = ["def-sfb-subfield-to-qlbar-coefficient-map", "lem-sfb-qlbar-flat", "def-sfb-derived-push-hom"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_derivedPushHom_padicSubfieldRingObjToPadicAlgCl_of_isProper"]
 +++

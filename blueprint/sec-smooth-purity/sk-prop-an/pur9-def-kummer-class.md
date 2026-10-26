@@ -2,7 +2,7 @@
 id = "pur9-def-kummer-class"
 kind = "definition"
 title = "Kummer classes"
-order = 2899
+order = 2880
 uses = ["pur7710-def-derived-sections", "def-sc-kummer-sequence", "sk-def-purity-conv", "lem-sc-kummer-exact", "sk-thm-sf-comp-composition"]
 +++
 Let $W$ be a $k$-scheme and $t\in\Gamma(W,\mathcal O_W^\times)$. For $N\geq1$, the Kummer sequence $0\to\mu_{\ell^N,W}\to\mathbb G_{m,W}\xrightarrow{\omega\mapsto\omega^{\ell^N}}\mathbb G_{m,W}\to0$ on $W_{\Et}$ (the sequence of §[def-sc-kummer-sequence], written on $W$) is exact by §[lem-sc-kummer-exact], since $\ell^N$ is invertible on $W$. Let $\kappa_N(t)\in H^1(W_{\Et},\mu_{\ell^N,W})$ be the image of $t\in H^0(W_{\Et},\mathbb G_{m,W})$ under its connecting homomorphism, cohomology being that of abelian sheaves. For admissible $N$, the *Kummer class* of $t$ is

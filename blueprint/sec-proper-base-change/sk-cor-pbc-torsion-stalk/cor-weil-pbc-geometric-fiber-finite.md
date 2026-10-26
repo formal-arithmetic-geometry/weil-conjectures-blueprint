@@ -2,7 +2,7 @@
 id = "cor-weil-pbc-geometric-fiber-finite"
 kind = "theorem"
 title = "Finite-coefficient geometric-fiber formula"
-order = 2035
+order = 2014
 lean = ["AlgebraicGeometry.Etale.isIso_baseChange_of_isProper_of_isAddTorsion_ring", "AlgebraicGeometry.Etale.nonempty_addEquiv_sheafFiber_homology_rightDerivedLowerStar_of_isProper"]
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-scheme-conventions", "prop-weil-proet-finite-proper-base-change"]
 tags = ["latex:corollary"]

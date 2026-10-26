@@ -2,7 +2,7 @@
 id = "sk-def-sfb-finite-lower-shriek"
 kind = "definition"
 title = "Extension by zero and lower shriek (finite coefficients)"
-order = 2504
+order = 2485
 uses = ["def-weil-pbc-proetale-site", "sk-def-nagata-sketch-data", "sk-def-sfb-finite-pushforward-pullback"]
 lean = ["AlgebraicGeometry.ProEtale.openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.openImmersionLowerShriekUpperStarAdjunction", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.fullyFaithfulOpenImmersionLowerShriek", "AlgebraicGeometry.ProEtale.Compactification.lowerShriek", "AlgebraicGeometry.ProEtale.lowerShriek", "AlgebraicGeometry.ProEtale.lowerShriekToLowerStar", "AlgebraicGeometry.ProEtale.isIso_lowerShriekToLowerStar"]
 tags = ["sketch"]

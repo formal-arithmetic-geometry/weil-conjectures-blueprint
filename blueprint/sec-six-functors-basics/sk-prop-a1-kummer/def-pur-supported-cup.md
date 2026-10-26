@@ -2,7 +2,7 @@
 id = "def-pur-supported-cup"
 kind = "definition"
 title = "Cup product with closed supports"
-order = 2828
+order = 2809
 uses = ["def-pur-support-cohomology", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "lem-pur-supported-hom"]
 +++
 Let $i:Z\hookrightarrow X$ and $j:W\hookrightarrow X$ be

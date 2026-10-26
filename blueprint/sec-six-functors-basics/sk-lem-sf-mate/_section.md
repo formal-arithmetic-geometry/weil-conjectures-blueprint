@@ -2,7 +2,7 @@
 id = "sk-lem-sf-mate"
 kind = "proposition"
 title = "Composition, open restriction and compactifications for $f^!$"
-order = 2341
+order = 2321
 uses = ["sk-def-sf-admissible", "sk-prop-sf-open-closed-triangle", "sk-prop-sf-comparison", "sk-prop-sf-existence", "sk-thm-sf-comp-composition", "sk-def-localizing-closure"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_comp"]
 tags = ["sketch"]

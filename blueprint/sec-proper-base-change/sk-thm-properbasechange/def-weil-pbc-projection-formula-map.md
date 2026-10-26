@@ -2,7 +2,7 @@
 id = "def-weil-pbc-projection-formula-map"
 kind = "definition"
 title = "Projection-formula map"
-order = 1976
+order = 1955
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerStarProjectionMap"]
 uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-module-pushforward-pullback", "def-weil-pbc-proetale-operations"]
 +++

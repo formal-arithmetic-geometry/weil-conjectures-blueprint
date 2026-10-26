@@ -1,14 +1,17 @@
 +++
 kind  = "proof"
 of    = "sk-p-tate"
+uses = ["sk-prop-av-tate-rank"]
 +++
 Since an automorphism and its inverse have the same fixed vectors, we
 may use arithmetic Frobenius instead. On $A(\overline{\mathbf F}_q)$
 its $m$th power fixes exactly $A_0(\mathbf F_{q^m})$. This group is
 finite, because on each affine open of a finite affine cover a rational
-point is determined by finitely many coordinates in the finite field
-([sk-d-ab-field]). Hence the $\ell$-primary part of $A_0(\mathbf F_{q^m})$ is killed by
-some $\ell^e$, and a fixed compatible sequence $(t_n)$ in [sk-d-ab-tate] satisfies
+point is determined by finitely many coordinates in the finite field.
+Hence the $\ell$-primary part of $A_0(\mathbf F_{q^m})$ is killed by
+some $\ell^e$. If $(t_n)$ is a fixed compatible sequence, then each
+$t_{n+e}$ lies in this $\ell$-primary part, and since the transition maps
+are $[\ell]$,
 
 $$
  t_n=\ell^e t_{n+e}=0

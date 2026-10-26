@@ -2,7 +2,7 @@
 id = "det-def-sfb-filtered-two-colimit-cocone"
 kind = "definition"
 title = "Cocones of categories"
-order = 2576
+order = 2557
 +++
 Let $I$ be a preordered set and $(\mathcal C_i)_{i\in I}$ a family of categories. A *cocone of
 categories* over $(\mathcal C_i)$ with *vertex* a category $\mathcal D$ consists of

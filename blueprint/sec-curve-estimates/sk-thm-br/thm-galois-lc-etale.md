@@ -3,7 +3,7 @@ id = "thm-galois-lc-etale"
 kind = "theorem"
 title = "Finite locally constant sheaves and finite etale schemes"
 lean = ["AlgebraicGeometry.Scheme.FiniteEtale.toFLC", "AlgebraicGeometry.Scheme.exists_finiteEtale_flc_equivalence", "AlgebraicGeometry.Scheme.finiteEtale_flc_preserves_torsors", "AlgebraicGeometry.Scheme.EtaleTorsor.exists_toSheafTorsor_equiv_of_iso"]
-order = 1399
+order = 1374
 uses = ["def-galois-categories", "def-weil-pbc-finite-torsors", "lem-fet-locally-trivial", "lem-galois-descent"]
 +++
 In the situation of [def-galois-categories], the functor

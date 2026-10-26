@@ -2,7 +2,7 @@
 id = "rem-asd-vector-bundle-comparison"
 kind = "remark"
 title = "Relation to the purity chapter's vector bundles"
-order = 2925
+order = 2906
 uses = ["def-amb-finite-locally-free-module", "def-asd-vector-bundle-zero-section", "def-weil-scheme-morphism-properties"]
 +++
 The purity chapter of this blueprint introduces the same notion under

@@ -2,9 +2,9 @@
 id = "sk-d-weil"
 kind = "definition"
 title = "Frobenius correspondences and their operators"
-order = 3499
+order = 3481
 uses = ["sk-d-corr", "sk-d-operator", "sk-d-setup", "sk-d-six", "sk-d-trace-class"]
-lean = ["AlgebraicGeometry.ProEtale.WeilComplex"]
+lean = ["AlgebraicGeometry.ProEtale.weilDatumIterate", "AlgebraicGeometry.ProEtale.stalkFrobenius"]
 tags = ["sketch"]
 +++
 Throughout, $k_0=\mathbf F_q$, $k=\overline{\mathbf F}_q$ and $s=\operatorname{Spec}k$, and $A$

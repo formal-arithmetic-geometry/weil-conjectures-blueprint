@@ -2,7 +2,7 @@
 id = "def-sfb-comap-open-immersion-shriek-iso"
 kind = "definition"
 title = "Restriction of scalars commutes with $j_!$"
-order = 2617
+order = 2598
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-lower-shriek", "det-def-sfb-change-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.comapOpenImmersionLowerShriekIso"]
 +++

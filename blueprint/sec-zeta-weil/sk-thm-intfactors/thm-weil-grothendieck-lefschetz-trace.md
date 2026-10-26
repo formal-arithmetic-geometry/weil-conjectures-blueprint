@@ -3,7 +3,7 @@ id = "thm-weil-grothendieck-lefschetz-trace"
 kind = "theorem"
 title = "Grothendieck–Lefschetz trace formula"
 lean = ["AlgebraicGeometry.WeilComplex.finsum_traceFunction_eq_and_pointCount_eq"]
-order = 4123
+order = 4131
 uses = ["cor-trf-point-counting", "def-trf-frobenius-operators", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "prop-weil-proper-compact-coincidence", "det-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes", "sk-thm-sfb-qlbar-two-colimit", "det-thm-tf-uniform-formula-weil", "thm-zl-lefschetz-weil-identity"]
 +++
 Fix the finite-field datum

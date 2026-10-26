@@ -3,7 +3,7 @@ id = "cor-fin-deligne-open-over-field"
 kind = "theorem"
 title = "Higher open direct images over a field"
 lean = ["AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar_of_isOpenImmersion_of_field"]
-order = 2384
+order = 2364
 tags = ["latex:corollary"]
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "def-weil-pbc-scheme-conventions", "thm-fin-deligne-generic-open"]
 +++

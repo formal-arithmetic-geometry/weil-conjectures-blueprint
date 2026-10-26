@@ -3,7 +3,7 @@ id = "thm-sc-theorem-of-the-base"
 kind = "theorem"
 title = "The theorem of the base"
 lean = ["AlgebraicGeometry.exists_picardDegree_equiv_picardFunctorDegree", "AlgebraicGeometry.theorem_of_the_base", "AlgebraicGeometry.exists_abelClass_eq", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctorDegree_genus", "AlgebraicGeometry.exists_surjective_of_representableBy_picardFunctorDegree_genus", "AlgebraicGeometry.isProper_of_representableBy_picardFunctorDegree_genus", "AlgebraicGeometry.isProper_of_representableBy_picardFunctorDegree", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctorDegree", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctor"]
-order = 868
+order = 833
 uses = ["def-pc-genus", "def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-picard-functor", "lem-sc-riemann-roch", "prop-pd-picard-degree-decomposition", "thm-pc-picard-representable"]
 +++
 Let $k$ be a separably closed field and let $C$ be a

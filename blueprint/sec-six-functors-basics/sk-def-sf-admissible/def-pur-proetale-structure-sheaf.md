@@ -2,7 +2,7 @@
 id = "def-pur-proetale-structure-sheaf"
 kind = "definition"
 title = "The structure sheaf of rings on the small pro-etale site"
-order = 2656
+order = 2637
 uses = ["def-weil-pbc-proetale-site"]
 tags = ["stacks-03P4"]
 +++

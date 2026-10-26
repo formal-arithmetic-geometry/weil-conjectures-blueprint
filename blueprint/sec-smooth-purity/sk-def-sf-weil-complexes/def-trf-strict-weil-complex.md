@@ -3,7 +3,7 @@ id = "def-trf-strict-weil-complex"
 kind = "definition"
 title = "Strict Weil complex at finite coefficients"
 lean = ["AlgebraicGeometry.ProEtale.StrictWeilComplex", "AlgebraicGeometry.ProEtale.StrictWeilComplex.Hom", "AlgebraicGeometry.ProEtale.StrictWeilComplex.hom_ext", "AlgebraicGeometry.ProEtale.StrictWeilComplex.forget", "AlgebraicGeometry.ProEtale.GeometricFiberStrictWeilComplex", "AlgebraicGeometry.ProEtale.StrictWeilComplex.map_hom_eq_zero_of_iso_unit", "AlgebraicGeometry.ProEtale.GeometricFiberStrictWeilComplex.map_hom_eq_zero_of_iso_unit"]
-order = 3068
+order = 3050
 uses = ["def-trf-coefficient-conventions", "def-trf-scheme-frobenius", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "sk-def-sf-weil-complexes"]
 +++
 Fix the global finite-field datum

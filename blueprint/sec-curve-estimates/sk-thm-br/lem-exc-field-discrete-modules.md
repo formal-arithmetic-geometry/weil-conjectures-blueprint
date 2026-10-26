@@ -2,7 +2,7 @@
 id = "lem-exc-field-discrete-modules"
 kind = "lemma"
 title = "Etale sheaves on a field and discrete Galois modules"
-order = 1410
+order = 1385
 lean = ["AlgebraicGeometry.Scheme.etaleSheafEquivDiscreteModule", "AlgebraicGeometry.Scheme.sheafHZeroAddEquivInvariants", "AlgebraicGeometry.Scheme.sheafHAddEquivGaloisH"]
 uses = ["def-exc-continuous-cohomology", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "prop-weil-pbc-geometric-stalks-exact", "thm-galois-fundamental"]
 +++

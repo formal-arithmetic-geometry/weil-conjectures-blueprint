@@ -2,7 +2,7 @@
 id = "def-weil-sheaf-of-modules-category"
 kind = "definition"
 title = "Category of sheaves of modules over a sheaf of rings"
-order = 1283
+order = 1254
 lean = ["SheafOfModules"]
 tags = ["mathlib", "stacks-03CV"]
 +++

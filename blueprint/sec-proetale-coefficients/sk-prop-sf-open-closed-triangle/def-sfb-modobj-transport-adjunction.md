@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-transport-adjunction"
 kind = "definition"
 title = "Monoidal adjunctions lift to module objects"
-order = 1157
+order = 1123
 uses = ["def-sfb-modobj-restriction", "def-sfb-modobj-transport"]
 lean = ["CategoryTheory.Adjunction.mapModAdjunction", "CategoryTheory.Adjunction.isMonHom_unitAlgHom"]
 +++

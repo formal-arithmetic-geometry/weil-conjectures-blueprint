@@ -2,7 +2,7 @@
 id = "sk-cor-ind-heart-ii"
 kind = "corollary"
 title = "Ext out of a constructible sheaf into ind-constructible sheaves"
-order = 2232
+order = 2212
 uses = ["sk-prop-ind-heart", "sk-lem-uniform-constructible-ext", "sk-lem-constructible-ext-continuity"]
 tags = ["sketch"]
 +++

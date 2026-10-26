@@ -3,7 +3,7 @@ id = "lem-wf-affine-product-reduced"
 kind = "lemma"
 title = "Products of reduced affine varieties are reduced"
 lean = ["Algebra.TensorProduct.eq_zero_of_forall_lift_algHom_eq_zero"]
-order = 3696
+order = 3678
 uses = ["lem-wf-affine-nullstellensatz-vanishing"]
 +++
 Let $k$ be algebraically closed and let $X,Y$ be affine varieties over

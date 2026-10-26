@@ -2,7 +2,7 @@
 id = "def-sfb-module-derived-pushpull-adjunction"
 kind = "definition"
 title = "The derived adjunction $Lf^*\\dashv Rf_*$ on module objects"
-order = 2544
+order = 2525
 uses = ["def-sfb-module-upper-lower-adjunction", "lem-sfb-module-upper-star-kflat-quasi-iso", "det-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarLowerStarAdjunction"]
 +++

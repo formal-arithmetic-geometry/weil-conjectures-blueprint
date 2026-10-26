@@ -2,7 +2,7 @@
 id = "sk-rem-sf-typing"
 kind = "remark"
 title = "Typing table: ambient definition, small-category theorem"
-order = 3328
+order = 3310
 tags = ["sketch"]
 +++
 For each operation the second column is where it is *defined*, the third

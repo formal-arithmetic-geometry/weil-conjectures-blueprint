@@ -2,7 +2,7 @@
 id = "def-sfb-push-hom"
 kind = "definition"
 title = "Underived (Push)"
-order = 2609
+order = 2590
 uses = ["sk-def-sfb-coefficient-change", "det-def-sfb-module-pushforward-pullback", "det-def-sfb-change-of-scalars", "def-sfb-mate-push-hom", "def-sfb-comap-lower-star-iso"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.pushHom"]
 +++

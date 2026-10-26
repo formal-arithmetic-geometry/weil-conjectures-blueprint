@@ -3,7 +3,7 @@ id = "def-weil-pbc-C7"
 kind = "definition"
 title = "Assertion (C7): invariance under algebraically closed extension for a proper curve"
 lean = ["AlgebraicGeometry.IsCurve.BaseChangeOfIsProper"]
-order = 1472
+order = 1451
 uses = ["def-weil-pbc-curve-setting", "def-sc-field-extension"]
 +++
 For every curve coefficient pair [def-weil-pbc-curve-setting] $(C,F)$ with $C$

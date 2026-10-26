@@ -2,7 +2,7 @@
 id = "sk-thm-sf-tensor-hom"
 kind = "lemma"
 title = "Internal adjunction and the formal exchanges"
-order = 3288
+order = 3270
 uses = ["sk-def-ops", "sk-def-sf-exchanges", "sk-prop-sf-open-closed-triangle", "sk-lem-sf-mate", "sk-prop-sf-comparison", "sk-prop-sf-existence", "sk-rem-sf-pf-done", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale"]
 tags = ["sketch"]
 +++

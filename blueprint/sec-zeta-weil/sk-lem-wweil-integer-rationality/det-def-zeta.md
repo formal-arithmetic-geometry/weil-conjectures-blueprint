@@ -3,7 +3,7 @@ id = "det-def-zeta"
 kind = "definition"
 title = "The point-count zeta series"
 lean = ["AlgebraicGeometry.Scheme.Hom.pointCount", "AlgebraicGeometry.Scheme.Hom.zetaSeries"]
-order = 4110
+order = 4118
 +++
 Let $k_0=\Fq$ be a finite field of characteristic $p$, with algebraic closure
 $k=\Fbar$, and let $X_0$ be a $k_0$-scheme. For $n\ge1$ let $\Fqn$ be the

@@ -2,7 +2,7 @@
 id = "lem-a1-finite-boundary-cohomology"
 kind = "lemma"
 title = "Cohomology of a finite boundary"
-order = 3975
+order = 3983
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights"]
 lean = ["AlgebraicGeometry.WeilSheaf.subsingleton_compactlySupportedCohomology_of_isFinite"]
 +++

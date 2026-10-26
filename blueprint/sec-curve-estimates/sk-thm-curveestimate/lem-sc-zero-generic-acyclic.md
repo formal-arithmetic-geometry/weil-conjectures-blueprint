@@ -3,7 +3,7 @@ id = "lem-sc-zero-generic-acyclic"
 kind = "lemma"
 title = "Acyclicity of a sheaf with generically vanishing sections"
 lean = ["AlgebraicGeometry.IsCurve.subsingleton_H_of_genericVanishing"]
-order = 1429
+order = 1404
 uses = ["def-sc-curves", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "lem-weil-pbc-cohomology-filtered-colimit", "lem-weil-pbc-zero-dimensional-cohomology", "lemma-weil-pbc-finite-direct-image-exact"]
 +++
 Let $C$ be an integral separated

@@ -2,7 +2,7 @@
 id = "def-sfb-symmetric-bimod-module-iso"
 kind = "definition"
 title = "Symmetric bimodules come from module objects"
-order = 1137
+order = 1103
 uses = ["lem-sfb-modobj-symmetric-bimodules"]
 lean = ["Bimod.IsSymmetric.iso"]
 +++

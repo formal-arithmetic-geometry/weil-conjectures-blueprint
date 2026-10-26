@@ -2,7 +2,7 @@
 id = "det-sf-existence-brown"
 kind = "lemma"
 title = "The Brown adjoint of $Rf_!$ on the localizing category"
-order = 2339
+order = 2319
 uses = ["det-sf-comp-coherence-single", "det-sf-comp-coherence-cocycle", "sk-lem-brown-hypotheses"]
 +++
 Let $\Lambda$ be admissible and $f:X\to Y$ separated of finite type. Assume

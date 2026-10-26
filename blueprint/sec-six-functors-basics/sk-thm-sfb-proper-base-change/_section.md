@@ -2,7 +2,7 @@
 id = "sk-thm-sfb-proper-base-change"
 kind = "proposition"
 title = "Proper direct image of constructible complexes"
-order = 2205
+order = 2185
 uses = ["sk-def-sfb-base-change-morphism", "sk-def-sfb-constructible", "sk-lem-integral-models", "sk-prop-ctf-finite-proper", "sk-thm-properbasechange"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleBaseChange_of_isProper_padicAlgCl"]
 tags = ["sketch"]

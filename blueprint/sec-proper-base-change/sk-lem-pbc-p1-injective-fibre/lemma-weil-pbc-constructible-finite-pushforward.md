@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-constructible-finite-pushforward"
 kind = "lemma"
 title = "Constructible sheaves reduce to finite pushforwards"
 lean = ["AlgebraicGeometry.Etale.exists_mono_biproduct_lowerStar"]
-order = 1579
+order = 1558
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++
 Let $\Lambda$ be a Noetherian commutative ring, let $U$ be a quasi-compact and

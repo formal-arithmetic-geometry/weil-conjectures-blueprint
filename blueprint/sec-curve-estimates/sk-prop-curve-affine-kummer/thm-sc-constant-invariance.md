@@ -3,7 +3,7 @@ id = "thm-sc-constant-invariance"
 kind = "theorem"
 title = "Base-change invariance for constant sheaves"
 lean = ["AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap_of_isAffine", "AlgebraicGeometry.IsConnectedCurve.natCard_sheafH_one_constantZMod_mul", "AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap", "AlgebraicGeometry.IsConnectedCurve.bijective_fieldExtensionCohomologyMap_of_isProper"]
-order = 1454
+order = 1429
 uses = ["def-sc-curves", "def-sc-field-extension", "def-sc-genus", "lem-sc-compactification"]
 +++
 Let $k\subseteq k'$ be algebraically closed, let $C$ be a

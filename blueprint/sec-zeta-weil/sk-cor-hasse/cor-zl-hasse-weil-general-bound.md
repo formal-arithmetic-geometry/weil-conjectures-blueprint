@@ -3,7 +3,7 @@ id = "cor-zl-hasse-weil-general-bound"
 kind = "theorem"
 title = "Hasse–Weil bound in every dimension"
 lean = ["AlgebraicGeometry.Scheme.abs_pointCount_sub_le_sum_finrank"]
-order = 4158
+order = 4166
 tags = ["latex:corollary"]
 uses = ["cor-trf-point-counting", "cor-zl-hasse-bound", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible", "def-weil-betti-numbers", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-reciprocal-roots", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-endpoints", "prop-weight-purity-roots"]
 +++

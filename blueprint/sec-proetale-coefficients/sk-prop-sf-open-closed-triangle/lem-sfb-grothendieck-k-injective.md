@@ -2,7 +2,7 @@
 id = "lem-sfb-grothendieck-k-injective"
 kind = "lemma"
 title = "Grothendieck abelian categories have K-injective resolutions"
-order = 1106
+order = 1072
 uses = ["def-weil-abstract-derived-category"]
 lean = ["CategoryTheory.Abelian.hasKInjectiveResolutions_of_isGrothendieckAbelian"]
 +++

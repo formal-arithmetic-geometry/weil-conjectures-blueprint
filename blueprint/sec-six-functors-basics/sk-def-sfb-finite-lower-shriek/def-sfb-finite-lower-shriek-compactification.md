@@ -2,7 +2,7 @@
 id = "def-sfb-finite-lower-shriek-compactification"
 kind = "definition"
 title = "Lower shriek along a compactification"
-order = 2508
+order = 2489
 uses = ["def-weil-extension-by-zero", "def-sfb-finite-lower-star", "sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.ProEtale.Compactification.lowerShriek"]
 +++

@@ -2,7 +2,7 @@
 id = "thm-sfb-dc-open-base-change-iso"
 kind = "theorem"
 title = "Base change for extension by zero"
-order = 2592
+order = 2573
 uses = ["def-sfb-dc-open-base-change-morphism"]
 +++
 In the situation of [def-sfb-dc-open-base-change-morphism], assume that the square is

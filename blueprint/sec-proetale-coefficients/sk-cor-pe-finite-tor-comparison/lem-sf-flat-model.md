@@ -2,7 +2,7 @@
 id = "lem-sf-flat-model"
 kind = "lemma"
 title = "Bounded flat model of finite Tor amplitude"
-order = 1056
+order = 1022
 lean = ["DerivedCategory.torAmplitudeIn_iff_exists_iso_Q_obj_flat", "AlgebraicGeometry.ProEtale.DerivedCategory.torAmplitudeIn_iff_exists_flatModel", "AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatModel", "AlgebraicGeometry.Etale.hasTorAmplitudeIn_iff_exists_flatConstructibleModel"]
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-pbc-constructible-complexes", "def-weil-pbc-proetale-site", "lem-exc-constant-inverse-image-flat"]
 +++

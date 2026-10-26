@@ -2,7 +2,7 @@
 id = "lem-kun-descent-limit-open"
 kind = "lemma"
 title = "Descent of a quasi-compact open in an affine limit"
-order = 3099
+order = 3081
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $X=\varprojlim_iX_i$ be a directed inverse limit of

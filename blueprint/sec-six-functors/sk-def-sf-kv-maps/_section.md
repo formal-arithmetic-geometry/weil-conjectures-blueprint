@@ -2,7 +2,7 @@
 id = "sk-def-sf-kv-maps"
 kind = "definition"
 title = "The product comparison maps"
-order = 3371
+order = 3353
 uses = ["sec-smooth-purity", "sk-def-sf-admissible", "sk-def-sf-exchanges", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-kunneth-relative"]
 lean = ["AlgebraicGeometry.Etale.HasKunnethComparisons"]
 tags = ["sketch"]

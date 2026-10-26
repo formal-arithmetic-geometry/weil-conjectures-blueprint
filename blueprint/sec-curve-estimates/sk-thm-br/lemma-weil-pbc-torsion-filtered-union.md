@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-torsion-filtered-union"
 kind = "lemma"
 title = "Filtered torsion union"
 lean = ["AlgebraicGeometry.Scheme.IsTorsionModuleSheaf.exists_isColimit", "AlgebraicGeometry.Scheme.IsTorsionSheafOfInvertibleOrder.exists_isColimit"]
-order = 1380
+order = 1355
 uses = ["def-weil-pbc-etale-sheaves"]
 +++
 Let $\Lambda$ be a commutative ring and $F$ an etale sheaf of

@@ -3,7 +3,7 @@ id = "cor-trf-point-counting"
 kind = "theorem"
 title = "Point-counting trace formula"
 lean = ["AlgebraicGeometry.WeilSheaf.pointCount_eq_finsum_trace_compactlySupportedCohomology", "AlgebraicGeometry.WeilSheaf.pointCount_eq_finsum_trace_cohomology"]
-order = 3557
+order = 3539
 tags = ["latex:corollary"]
 uses = ["cor-trf-constant-stalk-trace", "def-weil-finite-field-fiber", "def-weil-ordinary-compact-cohomology", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "det-thm-tf-uniform-formula-weil"]
 +++

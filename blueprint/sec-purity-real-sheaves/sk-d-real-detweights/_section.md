@@ -2,7 +2,7 @@
 id = "sk-d-real-detweights"
 kind = "corollary"
 title = "Determinant weights"
-order = 3858
+order = 3840
 uses = ["sk-cor-wrp-rankone-pure", "sk-d-weights", "sk-p-real-rankone"]
 lean = ["AlgebraicGeometry.WeilGroup.HasDetWeight"]
 tags = ["sketch"]

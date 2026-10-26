@@ -3,7 +3,7 @@ id = "lem-pod-perfect-point-complex-field"
 kind = "lemma"
 title = "Perfect point complexes over a field"
 lean = ["DerivedCategory.isPerfect_iff"]
-order = 3447
+order = 3429
 uses = ["def-pod-conventions", "def-pod-perfect-point-complex", "def-weil-finite-coefficient-point"]
 +++
 In the Poincare duality conventions of

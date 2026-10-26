@@ -2,7 +2,7 @@
 id = "det-proper-unbounded-window-iso"
 kind = "lemma"
 title = "The window isomorphism for proper direct image"
-order = 2257
+order = 2237
 uses = ["det-proper-unbounded-window-arbitrary"]
 +++
 Let $\Lambda$, $p$, $d$ be as above and $K\in\Dic(X,\Lambda)$, $q\in\mathbf Z$. The maps

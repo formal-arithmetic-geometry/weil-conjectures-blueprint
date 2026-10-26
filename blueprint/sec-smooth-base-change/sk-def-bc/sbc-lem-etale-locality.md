@@ -3,7 +3,7 @@ id = "sbc-lem-etale-locality"
 kind = "lemma"
 title = "Etale locality of the base-change map"
 lean = ["AlgebraicGeometry.Etale.isIso_homologyFunctor_map_baseChange_app_of_etale_cover", "AlgebraicGeometry.Etale.isIso_baseChange_app_of_etale_cover", "AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_etale_cover", "AlgebraicGeometry.Etale.isIso_baseChangeMap_app_of_etale_cover", "AlgebraicGeometry.Etale.BaseChangeProperty.of_etale_cover", "AlgebraicGeometry.Etale.isIso_derivedBaseChangeMapPlus_of_etale"]
-order = 2091
+order = 2070
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "sbc-def-base-change-map", "sbc-def-base-change-square"]
 +++
 Consider a base-change square

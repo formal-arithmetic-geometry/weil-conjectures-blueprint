@@ -3,7 +3,7 @@ id = "lem-fd-finite-pushforward-cohomology"
 kind = "lemma"
 title = "Cohomology of a finite pushforward"
 lean = ["AlgebraicGeometry.Etale.mapDerivedCategoryLowerStarCompRightDerivedGlobalSectionsIso"]
-order = 3939
+order = 3947
 uses = ["def-fd-artin-schreier-sheaf", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-finite-direct-image-exact", "sk-def-sfb-module-derived-pushpull"]
 +++
 1. For a finite morphism $\pi:Y\to X_0$ and a torsion etale sheaf $\mathcal F$ on $Y$,

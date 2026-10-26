@@ -1,6 +1,7 @@
 +++
 kind = "proof"
 of = "det-pbc-complete-exchange-iso"
+uses = ["det-pbc-complete-exchange-map", "det-pbc-complete-derived-completion", "thm-weil-pbc-finite-level-proetale"]
 +++
 By [det-pbc-complete-exchange-map] (1), level $n$ of
 $\operatorname{Ex}^{\operatorname{Tow}}_{\operatorname{red}(K)}$ is the exchange map
@@ -26,6 +27,8 @@ the exchange maps. The latter exchange map is an isomorphism by
 [thm-weil-pbc-finite-level-proetale] with $\Lambda=\mathcal O_E/\pi_E^n$, since $p$ is
 proper and $K_n\in D^+_{\mathrm{class}}$, i.e. $K_n$ is bounded below of étale origin. So every level of
 $\operatorname{Ex}^{\operatorname{Tow}}_{\operatorname{red}(K)}$ is an isomorphism, and
-$\operatorname{Ex}^{\operatorname{Tow}}_{\operatorname{red}(K)}$ is an isomorphism: its cone has zero cohomology at every level, and a complex of towers with zero cohomology at every level is zero. Applying $R\varprojlim$, and composing with the two isomorphisms of
+$\operatorname{Ex}^{\operatorname{Tow}}_{\operatorname{red}(K)}$ is an isomorphism by
+[det-pbc-complete-derived-completion] (2): its cone has zero cohomology at every
+level. Applying $R\varprojlim$, and composing with the two isomorphisms of
 [det-pbc-complete-exchange-map] (2), shows that $\operatorname{Ex}^{\mathrm{comp}}_K$
 is an isomorphism.

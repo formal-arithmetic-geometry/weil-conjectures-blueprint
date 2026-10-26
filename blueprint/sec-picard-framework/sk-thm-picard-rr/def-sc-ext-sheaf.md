@@ -3,7 +3,7 @@ id = "def-sc-ext-sheaf"
 kind = "definition"
 title = "Ext groups of $\\mathcal O_X$-modules"
 lean = ["AlgebraicGeometry.Scheme.Modules.Ext"]
-order = 699
+order = 657
 +++
 Let $X$ be a scheme and $\mathcal F,\mathcal G$ be
 $\mathcal O_X$-modules. The *Ext groups* are the morphism groups

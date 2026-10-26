@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-restriction-equivalence"
 kind = "definition"
 title = "Restriction along an isomorphism is an equivalence"
-order = 1152
+order = 1118
 uses = ["def-sfb-modobj-restriction"]
 lean = ["CategoryTheory.Mod.comapEquivalenceOfIsIso"]
 +++

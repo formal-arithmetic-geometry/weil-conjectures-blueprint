@@ -2,7 +2,7 @@
 id = "def-sfb-module-upper-lower-adjunction"
 kind = "definition"
 title = "The adjunction $f^*\\dashv f_*$ on module objects"
-order = 1189
+order = 1155
 uses = ["def-sfb-module-lower-star", "def-sfb-module-upper-star", "def-sfb-finite-upper-lower-star-adjunction", "lem-sfb-finite-monoidal-adjunction", "det-def-sfb-coefficient-morphisms", "det-def-sfb-change-of-scalars", "det-def-sfb-transport"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.upperStarLowerStarAdjunction"]
 +++

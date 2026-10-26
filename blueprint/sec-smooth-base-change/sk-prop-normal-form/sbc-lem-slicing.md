@@ -3,7 +3,7 @@ id = "sbc-lem-slicing"
 kind = "lemma"
 title = "Slicing a smooth morphism"
 lean = ["AlgebraicGeometry.Smooth.exists_etaleCover_factorization"]
-order = 2103
+order = 2082
 uses = ["def-sbc-normal-dominant-galois", "def-sbc-smooth-morphisms"]
 +++
 Let $f:X\to S$ be a

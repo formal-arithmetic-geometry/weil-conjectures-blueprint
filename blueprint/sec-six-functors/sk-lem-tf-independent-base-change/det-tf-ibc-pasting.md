@@ -2,7 +2,7 @@
 id = "det-tf-ibc-pasting"
 kind = "lemma"
 title = "Base change along a product projection through a compactification"
-order = 3316
+order = 3298
 uses = ["det-tf-ibc-proper-step", "det-geo-open-finiteness-base-change", "cor-fin-deligne-open-finite-coefficients", "lemma-weil-pbc-derived-exchange-coherence", "thm-nagata-compactification"]
 +++
 Let $A$, $f:X\to Y$, $T$, $M\in\Dbc(X,A)$, $h=f\times\operatorname{id}_T$, $p_X$ and

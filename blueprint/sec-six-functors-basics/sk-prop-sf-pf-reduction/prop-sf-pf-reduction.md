@@ -2,7 +2,7 @@
 id = "prop-sf-pf-reduction"
 kind = "theorem"
 title = "Compatibility with finite reduction"
-order = 2773
+order = 2754
 tags = ["latex:proposition"]
 lean = ["AlgebraicGeometry.Etale.projectionMapOfCompactification_constantSingle", "AlgebraicGeometry.Etale.isIso_reductionModIdeal_map_projectionMapOfCompactification_iff", "AlgebraicGeometry.Etale.hasProjectionFormula_iff_reductionModIdeal"]
 uses = ["def-sf-datum", "def-sf-pf", "lem-sf-reduction-compatibility", "lemma-weil-pbc-projection-formula-compactified", "lemma-weil-pbc-projection-formula-open-piece", "lemma-weil-pbc-projection-formula-proper-piece", "lem-amb-proper-coproducts-projection"]

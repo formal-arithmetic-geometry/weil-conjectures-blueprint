@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-sc-rigidity"
-uses = ["lem-sc-constant-locus-closed"]
+uses = ["lem-sc-constant-locus-closed", "lem-av-rigidity-local"]
 +++
 *Classical references: Milne, Abelian Varieties, Ch. I (the
 rigidity lemma); Mumford, Abelian Varieties, II.6 (both over an
@@ -38,7 +38,7 @@ Varieties, Lemma 33.9.3
 ([Tag 0BUG](https://stacks.math.columbia.edu/tag/0BUG)), since $X$ is
 proper, geometrically connected and geometrically reduced over $k$.
 
-*Step 1: local factorization.* Let $y\in Y$ be a point such that
+*Step 1: local factorization* ([lem-av-rigidity-local]). Let $y\in Y$ be a point such that
 $f(\operatorname{pr}_2^{-1}(y))$ is contained in an affine open
 $V\subseteq Z$; this holds in particular when
 $f(\operatorname{pr}_2^{-1}(y))$ is a single point. We show that there

@@ -3,7 +3,7 @@ id = "det-pe-morphisms-etale-comparison"
 kind = "lemma"
 title = "Étale, affine pro-étale and weakly étale morphisms"
 lean = ["AlgebraicGeometry.etale_le_weaklyEtale", "AlgebraicGeometry.proAffineEtale.weaklyEtale", "AlgebraicGeometry.proAffineEtale_Spec_iff", "AlgebraicGeometry.WeaklyEtale.etale", "AlgebraicGeometry.WeaklyEtale.hasRingHomProperty"]
-order = 904
+order = 869
 uses = ["def-weil-weakly-etale-morphism", "def-weil-pbc-ind-etale-algebra", "lem-weil-pbc-ind-etale-stability"]
 +++
 Let $u\colon U\to X$ be a morphism of schemes.

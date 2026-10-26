@@ -2,9 +2,8 @@
 id = "sk-d-corr"
 kind = "definition"
 title = "Correspondences and supported classes"
-order = 3628
+order = 3610
 uses = ["sk-d-setup", "sk-d-six", "sk-thm-sf-comp-composition"]
-lean = ["AlgebraicGeometry.ProEtale.Correspondence"]
 tags = ["sketch"]
 +++
 Let $X,Y$ be schemes over $s$, with

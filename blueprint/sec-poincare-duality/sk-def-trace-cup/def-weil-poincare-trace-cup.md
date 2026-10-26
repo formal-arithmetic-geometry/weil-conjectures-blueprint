@@ -2,7 +2,7 @@
 id = "def-weil-poincare-trace-cup"
 kind = "definition"
 title = "Poincare trace and cup-product pairing"
-order = 3453
+order = 3435
 uses = ["def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-ordinary-compact-cohomology"]
 +++
 Let $p$ be prime, let $a\in\mathbf Z_{\geq1}$, put $q=p^a$, and set

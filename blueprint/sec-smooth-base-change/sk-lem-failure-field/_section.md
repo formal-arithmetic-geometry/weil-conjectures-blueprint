@@ -2,7 +2,7 @@
 id = "sk-lem-failure-field"
 kind = "lemma"
 title = "Reduction to a field"
-order = 2058
+order = 2037
 uses = ["sk-def-bc", "sk-prop-injectivity", "sk-lem-minimal"]
 lean = ["AlgebraicGeometry.Etale.FieldFailure", "AlgebraicGeometry.Etale.nonempty_fieldFailure"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "det-def-sp-tate-twist-locally-free"
 kind = "lemma"
 title = "Tate twists are well defined and locally free of rank one"
-order = 2946
+order = 2927
 uses = ["def-pur-roots-of-unity-sheaf", "lem-pur-finite-kummer-level", "def-coefficient-twists-detailed", "det-prop-sfb-qlbar-colimit-x-integral-limit", "det-prop-sfb-qlbar-colimit-x-invert-ell"]
 +++
 Let $X$ be a scheme on which $\ell$ is invertible, and let $\mu_{\ell^n,X}$ be the sheaf of

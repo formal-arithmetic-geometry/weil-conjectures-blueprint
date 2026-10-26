@@ -2,7 +2,7 @@
 id = "sk-cor-ambient-ind-derived"
 kind = "corollary"
 title = "The ind-constructible derived category"
-order = 2235
+order = 2215
 uses = ["sk-prop-ind-heart", "sk-def-localizing-closure"]
 tags = ["sketch"]
 +++

@@ -3,7 +3,7 @@ id = "lem-wf-finite-field-curve-quasi-projective"
 kind = "lemma"
 title = "Finite-field curves admit a projective closure"
 lean = ["AlgebraicGeometry.IsCurve.exists_projectiveClosure"]
-order = 3824
+order = 3806
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $k_0$ be a field and let $U_0$ be an integral separated scheme of

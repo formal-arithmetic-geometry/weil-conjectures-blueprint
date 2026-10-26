@@ -2,7 +2,7 @@
 id = "sk-thm-sf-ctf-stability"
 kind = "proposition"
 title = "The six functors on $\\Dctf$"
-order = 2484
+order = 2464
 uses = ["sk-cor-sf-direct-image-ctf", "sk-prop-sf-open-closed-triangle", "sk-def-purity-conv", "sk-prop-sf-comparison", "sk-thm-sf-direct-image-tor-amplitude", "sk-thm-sf-hom-ctf", "sk-prop-sf-existence", "sk-thm-existence"]
 tags = ["sketch"]
 +++

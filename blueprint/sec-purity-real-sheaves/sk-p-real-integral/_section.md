@@ -2,7 +2,7 @@
 id = "sk-p-real-integral"
 kind = "proposition"
 title = "Lattices and representations on a regular scheme"
-order = 3782
+order = 3764
 uses = ["sk-lem-finite", "sk-lem-stratified-lattice", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-pe-constructible-comparison"]
 lean = ["AlgebraicGeometry.ProEtale.exists_lisseMonodromy"]
 tags = ["sketch"]

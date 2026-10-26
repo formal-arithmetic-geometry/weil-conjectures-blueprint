@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-ind-etale-stability"
 kind = "lemma"
 title = "Stability and diagonal of an ind-etale algebra"
-order = 906
+order = 871
 lean = ["RingHom.IndEtale.isStableUnderBaseChange", "RingHom.IndEtale.comp", "RingHom.IndEtale.of_isColimit", "RingHom.IndZariski.comp", "RingHom.IndZariski.of_isColimit", "RingHom.IndZariski.indEtale", "RingHom.IndEtale.weaklyEtale", "RingHom.IndEtale.of_comp", "Algebra.WeaklyEtale.trans", "RingHom.WeaklyEtale.comp", "Algebra.WeaklyEtale"]
 uses = ["def-weil-pbc-ind-etale-algebra", "lem-weil-pbc-etale-finite-data-descent"]
 +++

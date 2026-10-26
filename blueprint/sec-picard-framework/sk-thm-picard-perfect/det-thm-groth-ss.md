@@ -2,7 +2,7 @@
 id = "det-thm-groth-ss"
 kind = "theorem"
 title = "Grothendieck spectral sequence and its Leray specialization"
-order = 786
+order = 745
 uses = ["det-def-groth-ss"]
 lean = ["CategoryTheory.Functor.exists_grothendieckSpectralSequence", "CategoryTheory.Adjunction.isAcyclicComposablePair", "AlgebraicGeometry.Scheme.Modules.exists_leraySpectralSequence"]
 +++

@@ -2,7 +2,7 @@
 id = "det-def-picard-f"
 kind = "definition"
 title = "The subfunctor $F$"
-order = 821
+order = 784
 lean = ["AlgebraicGeometry.picardFunctorInvertibleDirectImage"]
 +++
 Let $k$ be a field, $X$ a proper $k$-scheme with a $k$-rational point $\sigma$,

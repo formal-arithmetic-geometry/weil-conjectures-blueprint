@@ -2,8 +2,8 @@
 id = "det-sfb-dc-restricted-functors-closed-image"
 kind = "lemma"
 title = "Extension by zero and closed direct image preserve integral constructible complexes"
-order = 2638
-uses = ["sk-lem-int-integral-heart"]
+order = 2619
+uses = ["sk-lem-int-integral-heart", "sk-prop-integral-criterion"]
 +++
 Let $j\colon U\to X$ be a quasi-compact open immersion and $i\colon Z\to X$ a closed immersion (of Noetherian
 schemes of the setting). Then $j_!\colon\D(U_{\mathrm{proét}},\mathcal O_E)\to\D(X_{\mathrm{proét}},\mathcal O_E)$ and

@@ -3,7 +3,7 @@ id = "sk-lem-walg-trace-criterion"
 kind = "lemma"
 title = "Cartan's trace criterion"
 lean = ["LieSubalgebra.isSolvable_of_trace_mul_eq_zero"]
-order = 3718
+order = 3700
 uses = ["sk-lem-walg-engel"]
 tags = ["sketch"]
 +++

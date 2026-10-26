@@ -2,7 +2,7 @@
 id = "sk-cor-sf-direct-image-ctf"
 kind = "proposition"
 title = "Open direct image preserves finite Tor amplitude"
-order = 2389
+order = 2369
 uses = ["sk-prop-sf-comparison", "sk-thm-sf-direct-image-tor-amplitude", "sk-cor-geo-open-finiteness", "sk-cor-geo-open-finiteness-ii", "sk-def-cd"]
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerStar", "AlgebraicGeometry.ProEtale.torAmplitudeIn_rightDerivedLowerStar"]
 tags = ["sketch"]

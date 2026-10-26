@@ -2,7 +2,7 @@
 id = "sk-def-pe-weak-contractible"
 kind = "definition"
 title = "Weak contractibility"
-order = 967
+order = 932
 lean = ["CategoryTheory.GrothendieckTopology.IsWeaklyContractible"]
 uses = ["sk-def-pe-site", "sk-def-sfb-finite-pushforward-pullback"]
 tags = ["sketch"]

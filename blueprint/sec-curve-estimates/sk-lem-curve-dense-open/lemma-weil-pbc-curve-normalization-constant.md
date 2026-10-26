@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-curve-normalization-constant"
 kind = "lemma"
 title = "Normalization and smooth constant case"
 lean = ["AlgebraicGeometry.IsCurve.reducedConstantLowerShriekAssertions", "AlgebraicGeometry.IsCurve.Assertions.lowerShriek_constantModSheaf_of_finite_coefficients"]
-order = 1522
+order = 1501
 uses = ["lemma-weil-pbc-curve-dense-open-reduction", "lemma-weil-pbc-normalization-exact-sequence", "lemma-weil-pbc-smooth-curve-artin-schreier", "lemma-weil-pbc-smooth-curve-kummer-localization"]
 +++
 Let $X$ be a reduced separated curve of finite type over an algebraically

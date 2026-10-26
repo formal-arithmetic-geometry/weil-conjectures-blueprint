@@ -2,7 +2,7 @@
 id = "det-sp-integral-adjunction-bijection"
 kind = "lemma"
 title = "The derived limit of the tower adjunction is an integral adjunction"
-order = 3025
+order = 3007
 uses = ["det-sp-integral-direct-image-tower", "det-sp-normalized-equivalence", "det-sp-tower-gluing", "det-sp-tower-gamma"]
 +++
 For $K\in\Dbc(Y,\mathcal O_E)$ the tower $f_\bullet^!\operatorname{red}_YK$ is normalized

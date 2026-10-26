@@ -2,7 +2,7 @@
 id = "def-constructible-finite"
 kind = "definition"
 title = "Finite sheaves"
-order = 1493
+order = 1472
 lean = ["AlgebraicGeometry.Scheme.IsFiniteSheaf"]
 uses = ["def-pc-separably-closed"]
 +++

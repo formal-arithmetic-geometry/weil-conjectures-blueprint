@@ -2,7 +2,7 @@
 id = "d-ab-rankone"
 kind = "definition"
 title = "A split cyclic extension and rank-one characters"
-order = 3850
+order = 3832
 uses = ["d-monodromy"]
 lean = ["SemidirectProduct.inrOfAddOne", "SemidirectProduct.degreeCharacter", "SemidirectProduct.finitePart"]
 +++

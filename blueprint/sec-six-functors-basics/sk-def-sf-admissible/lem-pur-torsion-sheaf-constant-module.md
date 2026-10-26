@@ -2,7 +2,7 @@
 id = "lem-pur-torsion-sheaf-constant-module"
 kind = "lemma"
 title = "An abelian sheaf killed by N is a module over the constant sheaf Z/N"
-order = 2660
+order = 2641
 uses = ["def-weil-pbc-constant-sheaf", "def-weil-sheaf-of-modules-category"]
 tags = ["stacks-03CY"]
 +++

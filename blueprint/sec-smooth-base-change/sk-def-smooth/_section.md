@@ -2,8 +2,8 @@
 id = "sk-def-smooth"
 kind = "definition"
 title = "Smooth and allowed coefficients"
-order = 2094
-lean = ["AlgebraicGeometry.Smooth", "AlgebraicGeometry.Scheme.IsTorsionModuleSheafOfInvertibleOrder", "AlgebraicGeometry.Scheme.IsTorsionModuleSheafOfInvertibleOrder.exists_isColimit"]
+order = 2073
+lean = ["AlgebraicGeometry.Smooth", "AlgebraicGeometry.Scheme.IsTorsionSheafOfInvertibleOrder", "AlgebraicGeometry.Scheme.IsTorsionSheafOfInvertibleOrder.exists_isColimit"]
 tags = ["sketch"]
 +++
 A morphism is *smooth* if it is flat, locally of finite

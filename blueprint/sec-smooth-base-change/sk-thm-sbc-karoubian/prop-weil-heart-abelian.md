@@ -3,7 +3,7 @@ id = "prop-weil-heart-abelian"
 kind = "theorem"
 title = "The heart is abelian"
 lean = ["CategoryTheory.Triangulated.TStructure.abelianHeart", "CategoryTheory.Triangulated.TStructure.isIdempotentComplete_heart"]
-order = 2114
+order = 2093
 uses = ["def-weil-t-structure"]
 tags = ["latex:proposition"]
 +++

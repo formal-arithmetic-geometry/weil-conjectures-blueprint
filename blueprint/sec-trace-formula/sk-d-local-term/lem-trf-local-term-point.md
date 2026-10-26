@@ -2,7 +2,7 @@
 id = "lem-trf-local-term-point"
 kind = "lemma"
 title = "The local term at a point component"
-order = 3654
+order = 3636
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-integration", "def-trf-local-term", "def-trf-trace-class", "def-weil-scheme-morphism-properties", "lem-trf-integration-linear", "prop-functor-package", "prop-trf-trace-class-unconditional"]
 +++
 Fix the coefficient

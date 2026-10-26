@@ -2,8 +2,8 @@
 id = "sk-lem-curve-normalization"
 kind = "lemma"
 title = "Normalization of a constant sheaf"
-order = 1463
-uses = ["sk-def-curve", "sk-lem-curve-finite-support"]
+order = 1442
+uses = ["sk-prop-av-isogeny", "sk-lem-curve-finite-support"]
 tags = ["sketch"]
 +++
 Let $C$ be a reduced curve of finite type over an algebraically closed field

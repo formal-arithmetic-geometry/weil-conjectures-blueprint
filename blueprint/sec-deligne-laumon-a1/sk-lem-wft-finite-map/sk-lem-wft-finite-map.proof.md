@@ -15,7 +15,7 @@ Hence there is a function $f$ whose only pole is at $s$, of exact
 order $m$. The sections $1,f$ define a nonconstant map
 $\overline C_0\to\mathbf P^1$ whose inverse image of infinity
 is $\{s\}$. This map is proper with finite fibres, hence finite
-([sk-prop-av-pqf-finite]).
+([cor-pqf-proper-quasifinite-finite]).
 To see that it is generically étale, choose a uniformizer $t$ at $s$
 and write $f=t^{-m}u$ with $u$ a unit. Since $\kappa(s)/k_0$ is
 separable and the curve is smooth, $dt$ generates the module of

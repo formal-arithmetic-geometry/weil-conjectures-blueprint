@@ -3,7 +3,7 @@ id = "def-weil-pbc-primary-torsion"
 kind = "definition"
 title = "$p$-primary and prime-to-$p$ torsion sheaves"
 lean = ["AlgebraicGeometry.Scheme.IsPrimaryTorsionSheaf", "AlgebraicGeometry.Scheme.IsTorsionSheafOfInvertibleOrder"]
-order = 1465
+order = 1444
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-geometric-stalks"]
 +++
 Let $(C,F)$ be a curve coefficient pair [def-weil-pbc-curve-setting], and let

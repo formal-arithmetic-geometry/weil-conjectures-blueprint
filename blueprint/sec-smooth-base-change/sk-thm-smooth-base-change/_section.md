@@ -2,7 +2,7 @@
 id = "sk-thm-smooth-base-change"
 kind = "theorem"
 title = "Smooth base change for classical torsion sheaves"
-order = 2052
+order = 2031
 uses = ["sk-def-bc", "sk-def-smooth", "sk-prop-input-spreading", "sk-prop-input-torsors", "sk-lem-sbc-exchange-compatibility", "sk-thm-pe-direct-image-comparison", "sk-prop-deg0", "sk-lem-universal-datum", "sk-thm-vanishing", "sk-lem-induction", "sk-prop-normal-form"]
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_smooth"]
 tags = ["sketch"]

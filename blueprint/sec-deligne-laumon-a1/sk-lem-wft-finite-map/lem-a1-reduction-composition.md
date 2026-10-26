@@ -3,7 +3,7 @@ id = "lem-a1-reduction-composition"
 kind = "lemma"
 title = "Cohomology transport under the finite-map reduction"
 lean = ["AlgebraicGeometry.WeilSheaf.nonempty_equiv_compactlySupportedCohomology_lowerStar_extensionByZero"]
-order = 4032
+order = 4040
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "lem-a1-finite-map-cohomology", "lemma-weil-pbc-finite-direct-image-exact", "prop-functor-package"]
 +++
 Let $C_0$ be a smooth geometrically connected affine curve, let

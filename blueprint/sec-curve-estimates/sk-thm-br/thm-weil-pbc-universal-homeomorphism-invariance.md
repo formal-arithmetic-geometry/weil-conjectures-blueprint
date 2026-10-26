@@ -3,7 +3,7 @@ id = "thm-weil-pbc-universal-homeomorphism-invariance"
 kind = "theorem"
 title = "Universal-homeomorphism invariance"
 lean = ["AlgebraicGeometry.Etale.universalHomeomorphism_invariance"]
-order = 1392
+order = 1367
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image", "def-sp-kinjective-bridge", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-universal-homeomorphism-base-change", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 If $u:X'\to X$ is a universal homeomorphism

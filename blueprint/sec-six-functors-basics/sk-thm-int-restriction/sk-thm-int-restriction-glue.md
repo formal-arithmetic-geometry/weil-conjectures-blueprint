@@ -2,7 +2,7 @@
 id = "det-thm-int-restriction-glue"
 kind = "lemma"
 title = "Gluing integral constructibility of $f^!K$"
-order = 2483
+order = 2463
 uses = ["det-thm-int-restriction-line", "det-thm-int-restriction-closed", "det-thm-restriction-local", "det-thm-restriction-glue", "sk-prop-int-brown"]
 +++
 1. Let $M\in D(X_{\mathrm{proét}},\mathcal O_E)$ and let $(U_\alpha)$ be a finite

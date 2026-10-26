@@ -3,7 +3,7 @@ id = "sbc-lem-bounded-below-truncation-criterion"
 kind = "lemma"
 title = "Bounded-below truncation criterion"
 lean = ["DerivedCategory.Plus.isIso_homologyFunctor_map_map_truncLE\u03b9_app", "AlgebraicGeometry.Etale.isIso_homologyFunctor_map_rightDerivedFunctorPlus_map_truncLE\u03b9_app", "AlgebraicGeometry.Etale.isIso_homologyFunctor_map_baseChangeSource_map_truncLE\u03b9_app", "AlgebraicGeometry.Etale.isIso_homologyFunctor_map_baseChangeTarget_map_truncLE\u03b9_app"]
-order = 2009
+order = 1988
 uses = ["thm-sp-truncation-e2", "sbc-def-derived-categories-with-allowable-torsion"]
 +++
 Let $K\in D^+_{\mathcal P\text{-tor}}(T_{\Et})$. For fixed $n$, only

@@ -2,7 +2,7 @@
 id = "sk-thm-p1"
 kind = "proposition"
 title = "Proper base change for the projective line"
-order = 1588
+order = 1567
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine", "AlgebraicGeometry.Etale.hasInjectiveAcyclicity_projectiveLine"]
 uses = ["sk-thm-br", "sk-def-pbc", "sk-thm-curveestimate", "sk-def-exchange", "sk-def-ia", "sk-prop-pbc-p1-henselian", "sk-lem-pbc-curve-field-extension"]
 tags = ["sketch"]

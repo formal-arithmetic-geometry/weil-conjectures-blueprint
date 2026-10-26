@@ -2,7 +2,7 @@
 id = "lemma-openclosed-vanishing-lowershriek"
 kind = "lemma"
 title = "$i^*j_!$ vanishes"
-order = 1476
+order = 1455
 lean = ["AlgebraicGeometry.Etale.isZero_upperStar_openImmersionLowerShriek_of_disjoint_range"]
 +++
 In the situation of [lemma-openclosed-vanishing-lowerstar],

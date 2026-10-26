@@ -2,17 +2,13 @@
 id = "sk-prop-integral-criterion"
 kind = "proposition"
 title = "The integral constructibility criterion"
-order = 1244
-uses = ["sk-def-sfb-constructible", "sk-def-pe-derived-completion"]
+order = 1213
+uses = ["sk-def-sfb-constructible", "sk-def-pe-derived-completion", "sk-prop-integral-local-structure", "sk-prop-sf-open-closed-triangle"]
 tags = ["sketch"]
 +++
 For $\Lambda=\cO_E$ torsion is allowed: locally on a stratum, a constructible
 $\cO_{E,X}$-module is $P\otimes_{\cO_E}\cO_{E,X}$ for a finitely generated $\cO_E$-module $P$
-([sk-def-sfb-constructible]); for example $\cO_{E,X}/\pi_E$ is constructible. In most proofs
-it is more convenient to use the following criterion, in terms of the reductions
-$K_n=K\otimes^{\mathbf L}_{\cO_{E,X}}(\cO_E/\pi_E^n)_X$ of
-[sk-def-pe-derived-completion]. Write $\mathbf F_E=\cO_E/\pi_E$ for the residue field, so that
-$K_1\in D(X_{\mathrm{proét}},\mathbf F_E)$.
+([sk-def-sfb-constructible]); for example $\cO_{E,X}/\pi_E$ is constructible.
 
 Let $X$ be Noetherian. The following conditions on $K\in D(X_{\mathrm{proét}},\cO_E)$ are
 equivalent:

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proper-open-identification"
 kind = "lemma"
 title = "The specified comparison isomorphism"
-order = 2279
+order = 2259
 lean = ["AlgebraicGeometry.ProperOpenDatum.restrictionIso_hom_app_eq", "AlgebraicGeometry.ProperOpenDatum.upperStarBLowerShriekIso", "AlgebraicGeometry.Etale.derivedOpenRestrictionIso", "AlgebraicGeometry.Etale.clopenSectionDirectImageIso"]
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-proper-open-comparison", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-clopen-section-direct-image", "lem-weil-pbc-derived-open-restriction", "lem-weil-pbc-proper-open-section"]
 +++

@@ -3,7 +3,7 @@ id = "lem-weil-pbc-inverse-image-module-adjunction"
 kind = "lemma"
 title = "Inverse image of modules is left adjoint to direct image (etale sites)"
 lean = ["AlgebraicGeometry.etaleInverseImageModuleAdjunction"]
-order = 1312
+order = 1283
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site", "def-weil-sheaf-of-modules-category", "lem-weil-pbc-etale-inverse-image-algebraic-structures"]
 tags = ["stacks-03D3"]
 +++

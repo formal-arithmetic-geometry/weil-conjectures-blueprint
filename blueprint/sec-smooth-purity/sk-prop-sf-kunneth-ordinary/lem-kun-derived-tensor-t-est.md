@@ -3,7 +3,7 @@ id = "lem-kun-derived-tensor-t-est"
 kind = "lemma"
 title = "Connectivity of the derived tensor product"
 lean = ["DerivedCategory.isGE_tensor_of_torAmplitudeGE"]
-order = 3156
+order = 3138
 uses = ["def-kun-derived-tensor", "def-kun-tor-amplitude", "def-kun-truncations", "def-weil-pbc-derived-categories", "lem-kun-0f1m"]
 +++
 Let $T$ be a scheme, $\Lambda$ a commutative ring, $a,b\in\mathbf Z$,

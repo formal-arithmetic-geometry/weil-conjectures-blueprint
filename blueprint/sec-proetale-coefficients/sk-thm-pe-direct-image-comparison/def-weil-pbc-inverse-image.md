@@ -2,7 +2,7 @@
 id = "def-weil-pbc-inverse-image"
 kind = "definition"
 title = "Inverse image and the derived adjunction"
-order = 1040
+order = 1006
 lean = ["AlgebraicGeometry.Etale.upperStar", "AlgebraicGeometry.Etale.upperStarLowerStarAdjunction"]
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 +++

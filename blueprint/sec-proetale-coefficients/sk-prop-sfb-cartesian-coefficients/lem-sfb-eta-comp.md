@@ -2,7 +2,7 @@
 id = "lem-sfb-eta-comp"
 kind = "lemma"
 title = "$\\eta$ is compatible with composition"
-order = 1259
+order = 1228
 uses = ["def-sfb-eta", "def-sfb-finite-lower-star-comp"]
 lean = ["AlgebraicGeometry.ProEtale.condensedPushforwardHom_comp"]
 +++

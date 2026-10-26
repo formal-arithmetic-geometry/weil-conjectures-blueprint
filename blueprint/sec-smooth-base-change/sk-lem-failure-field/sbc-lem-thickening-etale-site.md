@@ -3,7 +3,7 @@ id = "sbc-lem-thickening-etale-site"
 kind = "lemma"
 title = "The etale site of a thickening"
 lean = ["AlgebraicGeometry.Etale.isEquivalence_upperStar_of_thickening"]
-order = 2061
+order = 2040
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++
 If $T''\to T'$ is a thickening of schemes (a closed immersion

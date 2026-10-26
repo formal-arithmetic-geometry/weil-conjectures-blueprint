@@ -3,7 +3,7 @@ id = "sk-prop-smooth-proper-purity"
 kind = "theorem"
 title = "Relative smooth proper purity"
 lean = ["AlgebraicGeometry.WeilSheaf.smooth_proper_relative_purity"]
-order = 4088
+order = 4096
 uses = ["sk-d-real-weights", "sk-prop-sf-comp-proper", "sk-thm-dl-general-sheaf", "sk-thm-sfb-proper-base-change", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-smooth-base-change"]
 tags = ["sketch"]
 +++

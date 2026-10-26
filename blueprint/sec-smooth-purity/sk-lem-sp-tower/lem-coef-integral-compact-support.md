@@ -2,7 +2,7 @@
 id = "lem-coef-integral-compact-support"
 kind = "lemma"
 title = "Integral compact supports have the prescribed reductions"
-order = 2989
+order = 2971
 uses = ["det-def-sf-operations", "sk-def-sfb-module-derived-lower-shriek", "sk-thm-existence", "sk-prop-scalar-six", "sk-prop-integral-criterion", "lem-coef-integral-residue-tor", "lem-fix-compact-support-coefficient-change", "lem-sf-etale-direct-image-vanishing", "thm-cbc-finite-level-proetale", "thm-sf-direct-image-tor-amplitude"]
 +++
 Let $R=\mathcal O_E$, $A_n=A_{E,n}=\mathcal O_E/\pi_E^n$, and write

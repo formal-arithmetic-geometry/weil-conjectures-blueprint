@@ -2,8 +2,8 @@
 id = "sec-curve-estimates"
 kind = "section"
 title = "Curve Estimates"
-order = 1274
-uses = ["sec-abelian-varieties", "sec-nagata-compactification", "sec-picard-framework", "sec-proetale-coefficients", "sk-def-av-jacobian", "sk-def-av-pic", "sk-thm-av-final"]
+order = 1243
+uses = ["sec-abelian-varieties", "sec-nagata-compactification", "sec-picard-framework", "sec-proetale-coefficients", "sk-thm-picard-main", "sk-lem-abelian-seesaw", "sk-prop-av-isogeny", "sk-def-picard-pic", "sk-prop-av-tate-rank"]
 +++
 **Content.** For a smooth proper connected curve $C$ of genus $g$ over an
 algebraically closed field $k$ and $n$ prime to $\operatorname{char}k$, this

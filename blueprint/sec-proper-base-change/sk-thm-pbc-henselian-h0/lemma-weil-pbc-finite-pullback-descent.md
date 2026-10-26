@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-pullback-descent"
 kind = "lemma"
 title = "Finite descent compatibility"
-order = 1549
+order = 1528
 lean = ["AlgebraicGeometry.Etale.globalSectionsUpperStarMap_descent"]
 uses = ["def-weil-pbc-finite-section-pullback", "lemma-weil-pbc-finite-pullback-composition"]
 +++

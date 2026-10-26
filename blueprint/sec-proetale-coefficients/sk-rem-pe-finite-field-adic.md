@@ -2,7 +2,7 @@
 id = "sk-rem-pe-finite-field-adic"
 kind = "remark"
 title = "The first cohomology of a finite field"
-order = 1090
+order = 1056
 tags = ["sketch"]
 +++
 For $X=\Spec\mathbb F_q$ and $\ell\nmid q$,

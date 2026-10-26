@@ -2,7 +2,7 @@
 id = "sk-prop-tf-transport-integral"
 kind = "proposition"
 title = "Integral trace formula"
-order = 3544
+order = 3526
 uses = ["sk-def-pe-derived-completion", "sk-d-weil", "sk-thm-tf-coefficient-morphism-formula", "sk-lem-finite", "sk-prop-scalar-six", "sk-p-trace"]
 tags = ["sketch"]
 +++

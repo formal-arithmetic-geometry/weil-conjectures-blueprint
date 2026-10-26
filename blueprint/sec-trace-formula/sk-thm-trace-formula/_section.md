@@ -2,9 +2,8 @@
 id = "sk-thm-trace-formula"
 kind = "corollary"
 title = "Finite-ring Grothendieck–Lefschetz formula"
-order = 3541
+order = 3523
 uses = ["sk-c-proper-global", "sk-d-lines", "sk-d-operator", "sk-d-relative-frob", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-d-weil-push", "sk-i-global-additivity", "sk-i-relative-frob", "sk-i-topology", "sk-p-frob", "sk-p-local", "sk-p-trace", "sk-thm-sf-package", "sk-def-sf-weil-complexes", "sk-thm-tf-coefficient-morphism-formula", "sk-lem-tf-frobenius-convention", "sk-lem-tf-fixed-points"]
-lean = ["AlgebraicGeometry.ProEtale.trace_globalOperator_eq_sum_trace_stalkFrobenius"]
 tags = ["sketch"]
 +++
 Let $X_0/\mathbf F_q$ be separated and of finite type, and put

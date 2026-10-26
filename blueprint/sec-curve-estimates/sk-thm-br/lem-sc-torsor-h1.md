@@ -3,7 +3,7 @@ id = "lem-sc-torsor-h1"
 kind = "lemma"
 title = "First cohomology classifies torsors"
 lean = ["CategoryTheory.Sheaf.nonempty_equiv_H_one_torsor", "CategoryTheory.Sheaf.nonempty_equiv_ext_torsor", "CategoryTheory.Sheaf.Torsor.classH1", "CategoryTheory.Sheaf.Torsor.classH1_eq_zero_iff", "CategoryTheory.Sheaf.Torsor.classH1_eq_add_of_equivariant"]
-order = 1349
+order = 1324
 uses = ["def-sc-curves", "def-sc-gm-torsor"]
 +++
 Let $\mathcal C$ be a site with a terminal object (for instance the

@@ -10,14 +10,14 @@ $\epsilon^{-1}$ defines an equivalence of categories between the
 constructible sheaves of $\Lambda$-modules on $X_{\Et}$ and the
 constructible sheaves of $\Lambda$-modules on
 $X_{\mathrm{proet}}$, constructibility being the finite-partition notion
-on both sides. The finite coefficient ring $A$ is Noetherian, so the quoted
-statement applies with $\Lambda=A$ and
+on both sides. The quoted statement applies with
 $\epsilon^{-1}=\nu_T^*$, the comparison pullback of
 [def-weil-pbc-site-comparison-morphism]; on the étale side the
 finite-partition notion is the one of
 [def-weil-pbc-constructible-complexes], and on the pro-étale side it
-is the one of [def-weil-finite-torsion-constructibility].
-*(ii).* Let $K$ be a bounded complex of $A$-module sheaves on
+is the intrinsic one of the statement (that of
+[def-weil-finite-torsion-constructibility] for $\Lambda=A_{E,n}$).
+*(ii).* Let $K$ be a bounded complex of $\Lambda$-module sheaves on
 $T_{\Proet}$ with constructible cohomology sheaves, say
 $\mathcal H^q(K)=0$ for $q\notin[a,b]$, and argue by induction on
 $b-a$. If $a=b$, then $K\cong\mathcal H^a(K)[-a]$, and by (i) the

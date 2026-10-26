@@ -2,8 +2,8 @@
 id = "def-trf-frobenius-coefficient-morphism"
 kind = "definition"
 title = "Frobenius coefficient morphisms"
-lean = ["AlgebraicGeometry.ProEtale.WeilComplex.globalFrobenius", "AlgebraicGeometry.ProEtale.WeilComplex.iterate"]
-order = 3501
+lean = ["AlgebraicGeometry.ProEtale.weilDatumIterate"]
+order = 3483
 uses = ["def-trf-coefficient-conventions", "def-trf-global-operator", "def-trf-graph-correspondence", "def-trf-iterated-weil-map", "def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "def-weil-scheme-morphism-properties"]
 +++
 Fix the global finite-field datum and the coefficient conventions of

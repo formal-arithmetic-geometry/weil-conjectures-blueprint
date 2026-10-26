@@ -2,7 +2,7 @@
 id = "def-sf-setting"
 kind = "definition"
 title = "Coefficients and sites"
-order = 2776
+order = 2757
 uses = ["det-def-sfb-condensed-ring", "det-def-sfb-qlbar-condensed", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-derived-categories", "def-sfb-constructible-module", "det-def-sfb-bounded-constructible", "def-weil-finite-tor-amplitude", "def-coefficient-twists-detailed", "thm-weil-pbc-site-comparison", "lem-sf-proetale-constructible-origin", "det-pe-finite-tor-comparison-noetherian", "det-prop-sfb-qlbar-colimit-x-integral-limit", "det-prop-sfb-qlbar-colimit-x-invert-ell", "def-sfb-qlbar-x-cocone", "det-prop-integral-criterion-reductions", "thm-sfb-extend-scalars-localization", "def-sfb-rationalization-equivalence", "thm-sfb-constructible-cocone-two-colimit", "det-lem-int-integral-heart-dualizable"]
 lean = ["AlgebraicGeometry.ProEtale.condensedRingObj", "AlgebraicGeometry.ProEtale.boundedConstructible", "DerivedCategory.finiteTorAmplitude", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructible", "AlgebraicGeometry.ProEtale.DerivedCategory.constructibleFiniteTor"]
 +++

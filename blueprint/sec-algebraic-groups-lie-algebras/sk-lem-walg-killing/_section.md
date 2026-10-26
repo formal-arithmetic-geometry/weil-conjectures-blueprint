@@ -2,7 +2,7 @@
 id = "sk-lem-walg-killing"
 kind = "lemma"
 title = "The Killing form when the radical vanishes"
-order = 3720
+order = 3702
 uses = ["sk-i-cartier", "sk-lem-walg-trace-criterion"]
 tags = ["sketch"]
 +++

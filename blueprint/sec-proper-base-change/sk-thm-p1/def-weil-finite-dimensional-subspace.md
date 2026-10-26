@@ -2,7 +2,7 @@
 id = "def-weil-finite-dimensional-subspace"
 kind = "definition"
 title = "Finite-dimensional vector subspaces"
-order = 1592
+order = 1571
 lean = ["FiniteDimensional", "Submodule.FG"]
 +++
 A vector subspace $V$ over

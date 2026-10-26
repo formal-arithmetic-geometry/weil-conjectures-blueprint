@@ -2,7 +2,7 @@
 id = "sbc-def-base-change-square"
 kind = "definition"
 title = "Base-change square"
-order = 2087
+order = 2066
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-scheme-conventions"]
 +++
 A *base-change square* is a diagram of schemes

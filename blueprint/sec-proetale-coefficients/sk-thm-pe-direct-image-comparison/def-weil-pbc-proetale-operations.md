@@ -2,7 +2,7 @@
 id = "def-weil-pbc-proetale-operations"
 kind = "definition"
 title = "Derived operations on ringed pro-etale topoi"
-order = 1043
+order = 1009
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.upperStar", "AlgebraicGeometry.ProEtale.CondensedRing.lowerStar", "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarLowerStarAdjunction"]
 uses = ["def-sp-kinjective-bridge", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-site"]
 +++

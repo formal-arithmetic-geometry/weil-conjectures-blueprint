@@ -2,7 +2,7 @@
 id = "def-sfb-dc-upper-star"
 kind = "definition"
 title = "$Lf^*$ on $D_{\\mathrm{cons}}$"
-order = 2626
+order = 2607
 uses = ["lem-sfb-dc-upper-star-preserves", "sk-def-sfb-dc-setting", "sk-def-sfb-module-derived-pushpull"]
 +++
 Let $\Lambda$ be a commutative condensed ring and let $f\colon X\to Y$ be a morphism of the

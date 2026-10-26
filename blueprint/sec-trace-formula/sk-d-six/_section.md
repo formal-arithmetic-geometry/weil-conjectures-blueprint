@@ -2,9 +2,8 @@
 id = "sk-d-six"
 kind = "definition"
 title = "The geometric operation package"
-order = 3623
+order = 3605
 uses = ["sk-d-setup"]
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations"]
 tags = ["sketch"]
 +++
 Over a base scheme $s$, use the pro-étale functors

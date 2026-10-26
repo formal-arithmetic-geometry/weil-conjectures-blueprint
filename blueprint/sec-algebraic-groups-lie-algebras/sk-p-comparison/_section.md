@@ -3,7 +3,7 @@ id = "sk-p-comparison"
 kind = "lemma"
 title = "Stable subspaces and the center"
 lean = ["AlgebraicGeometry.GeneralLinearGroup.invariant_iff_differential_invariant", "AlgebraicGeometry.GeneralLinearGroup.range_lieAlgebraMap_identityComponent_center"]
-order = 3708
+order = 3690
 uses = ["sk-i-cartier", "sk-p-geometry"]
 tags = ["sketch"]
 +++

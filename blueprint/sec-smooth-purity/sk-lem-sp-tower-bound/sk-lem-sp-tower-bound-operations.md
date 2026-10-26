@@ -2,7 +2,7 @@
 id = "det-sp-tower-shriek-levels"
 kind = "lemma"
 title = "Compactly supported direct image of towers is computed levelwise"
-order = 3016
+order = 2998
 uses = ["det-sp-tower-injective-components"]
 +++
 Let $f=\bar f\circ j:X\to Y$ be a compactification. Put

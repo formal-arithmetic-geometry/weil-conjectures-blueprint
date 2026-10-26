@@ -3,7 +3,7 @@ id = "lem-sc-genus-invariant"
 kind = "lemma"
 title = "The genus is invariant under extension"
 lean = ["AlgebraicGeometry.Scheme.Hom.genus_baseChangeField"]
-order = 1453
+order = 1428
 uses = ["def-sc-curves", "def-sc-genus", "lem-pc-flat-base-change-cohom"]
 +++
 Let $C$ be a proper curve over a field

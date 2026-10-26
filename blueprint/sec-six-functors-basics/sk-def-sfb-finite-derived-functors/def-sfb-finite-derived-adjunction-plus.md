@@ -2,7 +2,7 @@
 id = "def-sfb-finite-derived-adjunction-plus"
 kind = "definition"
 title = "The derived adjunction on $D^+$"
-order = 2515
+order = 2496
 uses = ["def-sfb-finite-derived-pullback-iso", "def-sfb-finite-upper-lower-star-adjunction", "lem-sfb-finite-upper-star-exact", "det-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.derivedUpperStarLowerStarAdjunctionPlus"]
 +++

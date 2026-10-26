@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-qbar"
 kind = "theorem"
 title = "Proper base change for Weil complexes"
-order = 2216
+order = 2196
 lean = ["AlgebraicGeometry.WeilComplex.nonempty_upperStar_derivedLowerStar_iso_of_isProper", "AlgebraicGeometry.WeilSheaf.nonempty_upperStar_higherLowerStar_iso_of_isProper"]
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "det-def-sfb-module-pushforward-pullback", "sk-def-sfb-base-change-morphism"]
 +++

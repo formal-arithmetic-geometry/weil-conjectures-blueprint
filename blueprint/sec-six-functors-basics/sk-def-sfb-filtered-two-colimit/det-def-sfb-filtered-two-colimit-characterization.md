@@ -2,7 +2,7 @@
 id = "det-def-sfb-filtered-two-colimit-characterization"
 kind = "lemma"
 title = "Filtered 2-colimits are equivalences with $\\mathcal C_\\infty$"
-order = 2579
+order = 2560
 uses = ["det-def-sfb-filtered-two-colimit-conditions", "det-def-sfb-filtered-two-colimit-model"]
 +++
 In the situation of [det-def-sfb-filtered-two-colimit-model] (directed $I$, coherent normalized

@@ -3,8 +3,8 @@ id = "det-cor-jacobian-torsion-structure"
 kind = "lemma"
 title = "The group structure of $A(k)[n]$"
 lean = ["AlgebraicGeometry.nonempty_addEquiv_torsionBy", "AlgebraicGeometry.Scheme.Hom.pic_proper_ntorsion_torsion"]
-order = 879
-uses = ["det-cor-jacobian-torsion-kernel", "sk-cor-av-commutative", "sk-prop-av-divisible-structure"]
+order = 844
+uses = ["det-cor-jacobian-torsion-kernel", "lem-sc-av-commutative", "lem-sc-divisible-group-structure"]
 +++
 Let $k$ be algebraically closed, let $A/k$ be an abelian variety of
 dimension $g$, and let $n>0$ be invertible in $k$. Then there is an

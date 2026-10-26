@@ -3,7 +3,7 @@ id = "lem-sf-mate"
 kind = "lemma"
 title = "Mate calculus for a pasted adjunction"
 lean = ["AlgebraicGeometry.Etale.DerivedCategoryFiniteTor.exists_rightDerivedLowerShriekAdjunction_comp_eq"]
-order = 2347
+order = 2327
 uses = ["def-sf-datum", "def-weil-exceptional-adjoint-admissibility", "fix-prop-adjunctions", "thm-sf-comp-composition"]
 +++
 In the setting of [def-sf-datum], let

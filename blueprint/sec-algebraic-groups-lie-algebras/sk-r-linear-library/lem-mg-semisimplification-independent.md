@@ -3,7 +3,7 @@ id = "lem-mg-semisimplification-independent"
 kind = "lemma"
 title = "Semisimplification is independent of the composition series"
 lean = ["Representation.CompositionSeries.nonempty_semisimplification_equiv"]
-order = 3757
+order = 3739
 uses = ["def-mg-weil-composition-series", "def-mg-weil-semisimplification", "lem-mg-jordan-holder"]
 +++
 Let $V$ be a finite-dimensional Weil representation carrying two

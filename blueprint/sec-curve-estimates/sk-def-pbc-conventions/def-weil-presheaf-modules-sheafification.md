@@ -2,7 +2,7 @@
 id = "def-weil-presheaf-modules-sheafification"
 kind = "definition"
 title = "Sheafification of a presheaf of modules over a sheaf of rings"
-order = 1284
+order = 1255
 uses = ["def-weil-pbc-sheafification", "def-weil-sheaf-of-modules-category"]
 lean = ["PresheafOfModules.sheafification", "PresheafOfModules.sheafificationAdjunction"]
 tags = ["mathlib", "stacks-03CX"]

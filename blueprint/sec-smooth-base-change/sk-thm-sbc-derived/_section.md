@@ -2,7 +2,7 @@
 id = "sk-thm-sbc-derived"
 kind = "theorem"
 title = "Smooth base change for classical torsion complexes"
-order = 2073
+order = 2052
 uses = ["sk-def-bc", "sk-thm-smooth-base-change", "sk-lem-sbc-exchange-compatibility", "sk-thm-pe-direct-image-comparison", "sk-cor-pe-classical-derived"]
 tags = ["sketch"]
 +++

@@ -2,9 +2,9 @@
 id = "sk-prop-av-tate-rank"
 kind = "proposition"
 title = "The integral Tate module"
-lean = ["AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule", "AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_rationalTateModule"]
-order = 608
-uses = ["sk-def-av", "sk-def-av-tate", "sk-prop-av-divisible", "sk-prop-av-ntorsion-etale"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.natCard_torsionBy_geometricPoints", "AlgebraicGeometry.IsAbelianVariety.nonempty_addEquiv_torsionBy_points", "AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule_of_natCast_ne_zero", "AlgebraicGeometry.IsAbelianVariety.galoisRepresentation"]
+order = 539
+uses = ["sk-def-av", "sk-prop-av-isogeny", "sk-prop-av-mult-n-pullback"]
 tags = ["sketch"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over a field $k$, and let $\ell$
@@ -22,5 +22,3 @@ The groups $A[\ell^n](\bar k)$, the transition maps and the projections
 from $T_\ell A$ are $\operatorname{Gal}(\bar k/k)$-equivariant, and they
 do not change when $\bar k$ is replaced by a larger algebraically
 closed field.
-
-*Complement.* Consequently $V_\ell A=T_\ell A\otimes_{\Z_\ell}\Q_\ell\simeq\Q_\ell^{2g}$.

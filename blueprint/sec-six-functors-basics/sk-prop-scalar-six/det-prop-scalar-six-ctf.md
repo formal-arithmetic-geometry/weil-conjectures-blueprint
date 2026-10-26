@@ -2,7 +2,7 @@
 id = "det-prop-scalar-six-ctf"
 kind = "lemma"
 title = "Extension of scalars preserves $\\Dctf$"
-order = 2491
+order = 2471
 uses = ["det-prop-scalar-six-pullback", "sk-lem-sf-flat-model", "det-lem-int-tensor-shriek", "sk-cor-coefficient-heart-ii", "sk-thm-sf-ctf-stability"]
 +++
 Let $\Lambda\to\Lambda'$ be one of the listed coefficient maps of

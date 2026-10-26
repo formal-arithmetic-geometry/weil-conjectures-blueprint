@@ -2,7 +2,7 @@
 id = "def-weil-compact-support-candidate"
 kind = "definition"
 title = "Compact-support candidate attached to a compactification"
-order = 1987
+order = 1966
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerShriekOfCompactification", "AlgebraicGeometry.ProEtale.rightDerivedLowerShriekOfCompactificationEtaleOrigin"]
 uses = ["def-weil-compactifications-refinements", "def-weil-derived-direct-image", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-origin-witness"]
 +++

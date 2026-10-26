@@ -6,16 +6,16 @@ We use the criterion of [sk-prop-integral-criterion]: membership in $\Dbc(-,\cO_
 derived $\pi_E$-completeness plus bounded constructibility of the reduction modulo $\pi_E$.
 Write $\bar K=K\otimes^{\mathbf L}\cO_E/\pi_E$, the cone of $\pi_E$ on $K$.
 
-*Local form.* By \stacks{09C2} and \stacks{09C7}, every $K\in\Dbc(X,\cO_E)$ is bounded, and
-there is a finite stratification of $X$ such that on each stratum $K$ is pro-étale locally a
-bounded complex of finite free $\cO_{E}$-modules (pulled back to $\cO_{E,X}$).
+*Local form.* By the equivalence of conditions (1) and (3) of [sk-prop-integral-criterion],
+every $K\in\Dbc(X,\cO_E)$ admits a finite stratification of $X$ such that on each stratum $S$,
+pro-étale locally, $K|_S\simeq\cO_{E,S}\otimes_{\cO_E}P^\bullet$ for a bounded complex
+$P^\bullet$ of finite free $\cO_E$-modules; conversely such a complex lies in
+$\Dbc(X,\cO_E)$.
 
 (1) $f^*$ is exact and $f^*\cO_{E,Y}=\cO_{E,X}$ ([sk-prop-sfb-cartesian-coefficients]); it sends
 finite free modules to finite free modules, and strata and covers pull back to strata and
-covers. So $f^*K$ has, on the pulled-back strata, the same local form; such a complex is
-derived complete (it is complete locally, being a bounded complex of finite free
-$\cO_{E,X}$-modules, and completeness is local) and its reduction $f^*\bar K$ is bounded
-constructible by the classical torsion theory. Hence $f^*K\in\Dbc(X,\cO_E)$.
+covers. So $f^*K$ has, on the pulled-back strata, the same local form, and
+$f^*K\in\Dbc(X,\cO_E)$ by the local form.
 
 (4) Both sides are computed by flat resolutions and $a_!$, $a^*$ are exact; there is a natural
 map $a_!(L\otimes^{\mathbf L}a^*M)\to a_!L\otimes^{\mathbf L}M$ (adjoint, for $u_!$, to the

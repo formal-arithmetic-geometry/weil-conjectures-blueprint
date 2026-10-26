@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-extension-iso-coextension"
 kind = "definition"
 title = "Extension and coextension agree along an isomorphism"
-order = 1155
+order = 1121
 uses = ["def-sfb-modobj-coextension-along-iso", "def-sfb-modobj-extension-along-iso", "def-sfb-modobj-restriction-equivalence"]
 lean = ["CategoryTheory.Mod.extendScalarsIsoCoextendScalars"]
 +++

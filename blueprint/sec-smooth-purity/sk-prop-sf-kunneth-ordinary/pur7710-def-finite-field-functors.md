@@ -2,7 +2,7 @@
 id = "pur7710-def-finite-field-functors"
 kind = "definition"
 title = "Functors with finite-field coefficients"
-order = 3080
+order = 3062
 uses = ["sk-thm-sf-comp-composition"]
 +++
 For $r\geq1$ and a morphism $g:W\to V$, the functors

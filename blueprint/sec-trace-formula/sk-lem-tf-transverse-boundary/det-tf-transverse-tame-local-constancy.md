@@ -2,7 +2,7 @@
 id = "det-tf-transverse-tame-local-constancy"
 kind = "lemma"
 title = "Local constancy along the boundary divisor"
-order = 3521
+order = 3503
 +++
 Let $Z$ be a regular smooth surface over an algebraically closed field
 of characteristic $p$, or an étale limit with affine transition maps of

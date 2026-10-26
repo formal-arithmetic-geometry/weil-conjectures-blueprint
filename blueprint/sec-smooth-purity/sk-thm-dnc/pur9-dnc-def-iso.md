@@ -2,7 +2,7 @@
 id = "pur9-dnc-def-iso"
 kind = "definition"
 title = "The DNC isomorphism"
-order = 2950
+order = 2931
 uses = ["sk-lem-geometry"]
 +++
 Define $\delta_{g,s}:\mathcal C(g,s)\xrightarrow{\sim}\mathcal C(\pi_N,0_N)$ as the composite

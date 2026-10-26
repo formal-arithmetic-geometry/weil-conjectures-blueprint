@@ -2,7 +2,7 @@
 id = "det-cor-affine-space-rational-line"
 kind = "lemma"
 title = "The affine line"
-order = 2443
+order = 2423
 uses = ["sk-prop-p1-adjunction-rational", "sk-prop-sf-existence", "cor-amb-affine-space-adjunction"]
 +++
 Let $\Lambda=E$ or $\Qlb$, let $p:\mathbf A^1_V\to V$ be the projection,

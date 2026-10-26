@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-hypercover-cohomology"
 kind = "theorem"
 title = "Cohomology is computed after hypercover refinement"
-order = 1021
+order = 986
 lean = ["AlgebraicGeometry.hypercover_cohomology", "AlgebraicGeometry.FiniteSplitEtaleHypercover.IsCohomologyColimit"]
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-finite-split-hypercover", "lem-weil-pbc-hypercover-free-resolution", "lem-weil-pbc-hypercover-refinement"]
 +++

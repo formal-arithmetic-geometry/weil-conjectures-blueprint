@@ -3,7 +3,7 @@ id = "det-pe-wc-sections-derived"
 kind = "lemma"
 title = "Free sheaves on weakly contractible objects are projective"
 lean = ["AlgebraicGeometry.ProEtale.freeSheafHomEquiv", "AlgebraicGeometry.ProEtale.projective_freeSheaf", "CategoryTheory.Abelian.Ext.eq_zero_of_hasProjectiveDimensionLT"]
-order = 965
+order = 930
 uses = ["det-pe-weak-contractible-equivalences"]
 +++
 Let $\Lambda$ be a commutative ring and $U$ an object of $X_{\mathrm{proét}}$. Let

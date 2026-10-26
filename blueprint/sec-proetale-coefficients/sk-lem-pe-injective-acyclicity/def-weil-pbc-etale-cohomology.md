@@ -2,7 +2,7 @@
 id = "def-weil-pbc-etale-cohomology"
 kind = "definition"
 title = "Etale cohomology of sheaves"
-order = 1000
+order = 965
 lean = ["AlgebraicGeometry.Etale.rightDerivedGlobalSections", "AlgebraicGeometry.Etale.cohomology"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-sp-kinjective-bridge"]
 +++

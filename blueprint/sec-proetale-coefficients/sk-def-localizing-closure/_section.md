@@ -2,7 +2,7 @@
 id = "sk-def-localizing-closure"
 kind = "definition"
 title = "The localizing closure"
-order = 1246
+order = 1215
 uses = ["sk-def-sfb-constructible", "sk-prop-integral-criterion"]
 lean = ["CategoryTheory.ObjectProperty.localizingClosure", "AlgebraicGeometry.ProEtale.DerivedCategory.localizingConstructibleFiniteTor", "AlgebraicGeometry.ProEtale.CondensedRing.localizingBoundedConstructible"]
 tags = ["sketch"]

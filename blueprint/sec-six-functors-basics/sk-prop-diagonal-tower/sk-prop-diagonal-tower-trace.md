@@ -2,7 +2,7 @@
 id = "det-prop-diagonal-tower-trace"
 kind = "lemma"
 title = "The $\\ell$-adic trace of the projective line and the integration identities"
-order = 2433
+order = 2413
 uses = ["det-prop-diagonal-tower-limit", "sk-lem-geo-p1-cohomology", "sk-prop-geo-p1-adjunction", "thm-amb-p1-decomposition", "def-amb-p1-trace", "lem-amb-p1-diagonal-integrals"]
 +++
 Let $q:\mathbf P^1_Y\to Y$ be the projection, let $p_1,p_2$ be the two

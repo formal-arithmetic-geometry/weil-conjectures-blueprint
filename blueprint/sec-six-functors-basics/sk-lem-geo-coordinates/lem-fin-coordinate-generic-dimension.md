@@ -3,7 +3,7 @@ id = "lem-fin-coordinate-generic-dimension"
 kind = "lemma"
 title = "Coordinate projections lower generic dimension"
 lean = ["AlgebraicGeometry.topologicalKrullDim_fiber_genericPoint_add_one_le"]
-order = 2379
+order = 2359
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $S$ be integral with function field $K$, let

@@ -2,7 +2,7 @@
 id = "rem-ptr-pod-conventions-3"
 kind = "remark"
 title = "Pointer to the properties of [def-pod-conventions]"
-order = 3445
+order = 3427
 uses = ["def-pod-conventions", "sk-prop-scalar-six"]
 +++
 In the notation of [def-pod-conventions], the following holds. What this assumption still supplies is

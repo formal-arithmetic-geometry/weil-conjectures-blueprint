@@ -3,7 +3,7 @@ id = "def-wf-degree-components"
 kind = "definition"
 title = "Degree components and algebraic-monodromy elements"
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.degreeComponent", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.degreeComponent_eq_range"]
-order = 3737
+order = 3719
 uses = ["d-monodromy", "def-wf-arithmetic-monodromy-extension"]
 +++
 For a represented degree datum ([d-monodromy]) with geometric monodromy

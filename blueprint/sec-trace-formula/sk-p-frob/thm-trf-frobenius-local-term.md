@@ -2,8 +2,7 @@
 id = "thm-trf-frobenius-local-term"
 kind = "theorem"
 title = "Local term of the Frobenius correspondence"
-lean = ["AlgebraicGeometry.ProEtale.GeometricOperations.localTerm_traceClass_eq_trace"]
-order = 3530
+order = 3512
 uses = ["d-curve-pieces", "def-trf-borel-moore-pushforward", "def-trf-coefficient-conventions", "def-trf-coefficient-pushforward", "def-trf-frobenius-coefficient-morphism", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "def-trf-local-term", "def-weil-extension-by-zero", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "fix-lem-finite-tor-perfect", "lem-trf-frobenius-degree-formula", "lem-trf-local-term-locality", "lem-trf-local-term-point", "prop-trf-pairing-local-decomposition", "prop-trf-trace-class-additivity", "def-trf-admissibility", "thm-sf-ambient-adjoint-class", "thm-sf-preservation-class", "thm-trf-frobenius-fixed-points", "thm-trf-trace-proper-compatibility"]
 +++
 Fix the global finite-field datum

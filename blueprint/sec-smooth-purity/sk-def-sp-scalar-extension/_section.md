@@ -2,7 +2,7 @@
 id = "sk-def-sp-scalar-extension"
 kind = "definition"
 title = "Extension of coefficients"
-order = 2968
+order = 2949
 uses = ["sk-lem-sf-flat-model", "sk-prop-scalar-six"]
 tags = ["sketch"]
 +++

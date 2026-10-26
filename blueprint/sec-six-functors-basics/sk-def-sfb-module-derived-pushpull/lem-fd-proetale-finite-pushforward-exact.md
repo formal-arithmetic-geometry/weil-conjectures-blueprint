@@ -2,7 +2,7 @@
 id = "lem-fd-proetale-finite-pushforward-exact"
 kind = "lemma"
 title = "Exactness of finite pushforward on the pro-étale site"
-order = 2545
+order = 2526
 lean = ["AlgebraicGeometry.ProEtale.preservesFiniteColimits_lowerStar_of_isFinite"]
 uses = ["def-weil-pbc-proetale-site", "sk-def-sfb-finite-pushforward-pullback", "det-def-sfb-module-objects", "det-def-sfb-module-pushforward-pullback", "sk-def-sfb-module-derived-pushpull"]
 +++

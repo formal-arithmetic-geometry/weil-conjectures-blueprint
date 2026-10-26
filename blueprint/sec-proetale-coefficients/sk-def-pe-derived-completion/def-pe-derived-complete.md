@@ -2,9 +2,8 @@
 id = "def-pe-derived-complete"
 kind = "definition"
 title = "Derived complete complexes and normalized towers"
-order = 1210
+order = 1176
 uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-derived-categories", "def-sfb-derived-tensor-modules", "def-weil-derived-limit"]
-lean = ["DerivedCategory.derivedComplete", "DerivedCategory.derivedCompleteIntegral"]
 +++
 Let $E/\Ql$ be finite, with uniformizer $\pi_E$, let $X$ be a scheme, and let
 $\mathcal O_{E,X}=p_X^*\underline{\mathcal O_E}$ and $(\mathcal O_E/\pi_E^n)_X$ be the

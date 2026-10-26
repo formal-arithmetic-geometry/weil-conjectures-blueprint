@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Cohomology of a shifted object of the derived category"
 uses = ["def-weil-abstract-derived-category", "def-weil-pbc-bounded-derived-subcategories"]
 lean = ["CategoryTheory.Functor.shiftIso", "CategoryTheory.Functor.shiftIso_zero", "CategoryTheory.Functor.shiftIso_add"]
-order = 1994
+order = 1973
 tags = ["mathlib", "stacks-011G"]
 +++
 Let $\mathcal B$ be an abelian category with derived category $D(\mathcal B)$ and cohomology functors $H^n:D(\mathcal B)\to\mathcal B$ [def-weil-abstract-derived-category], and let $D^+(\mathcal B)\subset D(\mathcal B)$ be the bounded below derived category [def-weil-pbc-bounded-derived-subcategories]. For $k,a,a'\in\mathbf Z$ with $k+a=a'$ there is a canonical isomorphism

@@ -2,7 +2,7 @@
 id = "sk-rem-running"
 kind = "remark"
 title = "A running example"
-order = 2149
+order = 2128
 tags = ["sketch"]
 +++
 We use the same few schemes throughout:

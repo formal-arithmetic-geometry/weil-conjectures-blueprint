@@ -3,7 +3,7 @@ id = "def-pc-representable-functor"
 kind = "definition"
 title = "Representable functors"
 lean = ["CategoryTheory.Functor.isRepresentable_iff_exists_nonempty_iso"]
-order = 626
+order = 572
 uses = ["def-pc-scheme"]
 +++
 Let $F:(\mathit{Sch}/S)^{\mathrm{op}}\to\textit{Sets}$ be a functor. The

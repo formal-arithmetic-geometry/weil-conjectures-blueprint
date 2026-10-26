@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-picard-main"
-uses = ["sk-prop-picard-pic-split", "sk-thm-picard-f-representable", "sk-thm-picard-twist", "sk-thm-picard-rr", "sk-thm-picard-hilb-curves", "sk-thm-picard-perfect", "sk-def-av-jacobian", "det-picard-main-degree", "det-picard-main-jacobian"]
+uses = ["sk-prop-picard-pic-split", "sk-thm-picard-f-representable", "sk-thm-picard-twist", "sk-thm-picard-rr", "sk-thm-picard-hilb-curves", "sk-thm-picard-perfect", "sk-def-picard-pic", "det-picard-main-degree", "det-picard-main-jacobian"]
 +++
 *Representability.* Choose $P\in C(k)$, so that
 $\operatorname{Pic}_{C/k}$ is the functor of rigidified invertible
@@ -67,7 +67,7 @@ is smooth over the separably closed field $k$, it has a $k$-point $P$.
 By [det-picard-main-degree] the subfunctor $\Pic^0_{C/k}$ is
 represented by the open and closed subgroup scheme
 $\underline{\Pic}^0_{C/k}$. A representing object is unique up to unique
-isomorphism, so a Jacobian in the sense of [sk-def-av-jacobian] exists
+isomorphism, so a Jacobian in the sense of [def-sc-jacobian] exists
 exactly when $\underline{\Pic}^0_{C/k}$ is an abelian variety of dimension
 $g$, and then it is $\underline{\Pic}^0_{C/k}$ with its representing
 isomorphism. By [det-picard-main-degree],

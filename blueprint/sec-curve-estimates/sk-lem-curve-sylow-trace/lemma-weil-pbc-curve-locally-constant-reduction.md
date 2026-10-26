@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-curve-locally-constant-reduction"
 kind = "lemma"
 title = "Locally constant sheaf reduction"
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.exists_finite_etale_reduction"]
-order = 1525
+order = 1504
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-exchange", "lemma-weil-pbc-finite-l-group-filtration", "lemma-weil-pbc-finite-stalk-formula", "thm-galois-lc-etale"]
 +++
 Let $\ell$ be a prime, $U$ an irreducible scheme and $G$ a finite locally

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proetale-restriction-injectives"
 kind = "lemma"
 title = "Pro-etale localization preserves injectives"
-order = 1003
+order = 968
 lean = ["AlgebraicGeometry.ProEtale.localizationRestriction", "AlgebraicGeometry.ProEtale.upperStarIsoLocalizationRestriction", "AlgebraicGeometry.ProEtale.preservesInjectiveObjects_localizationRestriction", "AlgebraicGeometry.ProEtale.injective_upperStar_obj_of_weaklyEtale", "CategoryTheory.Functor.rightDerivedCompIsoOfExact", "AlgebraicGeometry.ProEtale.isZero_rightDerived_sectionsFunctor_of_upperStar"]
 uses = ["def-weil-pbc-etale-sum-extension", "def-weil-pbc-proetale-modules", "def-weil-pbc-proetale-operations", "def-weil-pbc-proetale-site", "lem-weil-pbc-ind-etale-stability", "lem-sfb-finite-upper-star-exact"]
 +++

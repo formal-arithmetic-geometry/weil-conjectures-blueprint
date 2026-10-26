@@ -2,7 +2,7 @@
 id = "pur9-def-thom-class-affine"
 kind = "definition"
 title = "Thom class of affine space"
-order = 2907
+order = 2888
 uses = ["pur9-def-orientation", "sk-def-purity-conv"]
 +++
 Define $\mathrm{th}_c:(\mathcal O_E/\pi_E^n)_B\to Rz^!_{c,\mathcal O_E/\pi_E^n}\bigl((\mathcal O_E/\pi_E^n)_{\Aaf^c_B}(c)\bigr)[2c]$ recursively: $\mathrm{th}_0=\mathrm{id}$, $\mathrm{th}_1=\mathrm{pur}_{z_1}$ of Definition [pur9-def-orientation], and for $c\geq2$ $\mathrm{th}_c$ is the composite

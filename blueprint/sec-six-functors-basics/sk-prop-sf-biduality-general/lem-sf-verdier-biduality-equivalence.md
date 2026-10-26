@@ -3,7 +3,7 @@ id = "lem-sf-verdier-biduality-equivalence"
 kind = "lemma"
 title = "Verdier biduality and the duality anti-equivalence"
 lean = ["AlgebraicGeometry.Etale.isIso_verdierDualDoubleDual_app", "AlgebraicGeometry.Etale.nonempty_iso_verdierDual_verdierDual", "AlgebraicGeometry.Etale.verdierDualEquivalence"]
-order = 2853
+order = 2834
 uses = ["def-nagata-compactifiable", "thm-amb-etale-exceptional-adjoint", "def-weil-derived-pullback-tensor-hom", "def-constructible-constructible", "def-weil-finite-tor-amplitude", "lem-weil-duality-pairing", "lem-weil-verdier-preservation-strata", "thm-weil-etale-geometric-biduality"]
 +++
 Let $k$ be an algebraically closed field and let $\Lambda$ be a finite

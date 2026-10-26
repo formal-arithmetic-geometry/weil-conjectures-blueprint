@@ -2,7 +2,7 @@
 id = "sk-lem-finite-window"
 kind = "lemma"
 title = "Reduction to finitely many degrees"
-order = 2238
+order = 2218
 uses = ["sk-cor-ind-heart-ii", "sk-cor-ambient-ind-derived", "sk-lem-uniform-constructible-ext"]
 tags = ["sketch"]
 +++

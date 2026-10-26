@@ -2,7 +2,7 @@
 id = "sk-def-sp-coefficient-towers"
 kind = "definition"
 title = "Coefficient towers"
-order = 2977
+order = 2958
 uses = ["sk-prop-sfb-qlbar-colimit-x"]
 tags = ["sketch"]
 +++

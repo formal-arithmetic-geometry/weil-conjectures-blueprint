@@ -2,7 +2,7 @@
 id = "det-lem-coefficient-finite-descent-lisse"
 kind = "lemma"
 title = "Descent of lisse $\\overline{\\mathbf Q}_\\ell$-sheaves and their morphisms"
-order = 2182
+order = 2161
 uses = ["det-lem-coefficient-finite-descent-sections"]
 +++
 Let $X$ be a qcqs scheme.

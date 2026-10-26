@@ -2,7 +2,7 @@
 id = "sk-rationality-the-criterion-and-the-descent--remark-1"
 kind = "remark"
 title = "Remark"
-order = 4120
+order = 4128
 tags = ["sketch"]
 +++
 *Why the descent is needed.* The determinant formula of

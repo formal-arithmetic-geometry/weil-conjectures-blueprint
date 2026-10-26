@@ -2,7 +2,7 @@
 id = "det-lem-constructible-ext-continuity-devissage"
 kind = "lemma"
 title = "Continuity of Hom out of $C$ is closed under extensions and shifts"
-order = 2158
+order = 2137
 uses = ["det-cor-coefficient-heart-ii-generation"]
 +++
 Let $\mathcal T=D(X_{\mathrm{proét}},\Lambda)$ for a condensed ring $\Lambda$, and fix a filtered

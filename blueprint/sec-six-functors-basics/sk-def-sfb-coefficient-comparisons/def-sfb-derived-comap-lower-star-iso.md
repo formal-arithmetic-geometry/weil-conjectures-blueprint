@@ -2,7 +2,7 @@
 id = "def-sfb-derived-comap-lower-star-iso"
 kind = "definition"
 title = "Derived restriction of scalars commutes with $Rf_*$"
-order = 2614
+order = 2595
 uses = ["sk-def-sfb-coefficient-change", "sk-def-sfb-module-derived-pushpull", "det-def-sfb-derived-categories"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.derivedComapLowerStarIso"]
 +++

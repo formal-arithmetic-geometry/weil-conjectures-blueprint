@@ -3,7 +3,7 @@ id = "lem-weil-pbc-grothendieck-spectral-sequence"
 kind = "lemma"
 title = "Grothendieck spectral sequence for a composite"
 lean = ["AlgebraicGeometry.Etale.exists_grothendieckSpectralSequence_lowerStar"]
-order = 1945
+order = 1924
 uses = ["def-sp-composite-acyclicity", "def-sp-etale-dictionary", "def-weil-pbc-direct-image", "lem-weil-pbc-direct-image-preserves-injectives", "thm-sp-grothendieck"]
 +++
 Let $X\xrightarrow{f}Y\xrightarrow{h}Z$ be morphisms of schemes, let $\Lambda$ be

@@ -2,7 +2,7 @@
 id = "lem-sc-pic-tangent-space"
 kind = "lemma"
 title = "The tangent space of the Picard scheme"
-order = 867
+order = 832
 uses = ["def-pc-geometrically-irreducible", "def-pc-smooth-projective-curve", "def-sc-picard-functor", "lem-sc-cech-spectral", "thm-pc-picard-representable"]
 lean = ["AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one"]
 +++

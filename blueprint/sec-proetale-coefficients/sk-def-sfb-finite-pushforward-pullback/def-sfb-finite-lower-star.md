@@ -2,7 +2,7 @@
 id = "def-sfb-finite-lower-star"
 kind = "definition"
 title = "Pushforward $g_*$ along base change"
-order = 911
+order = 876
 uses = ["def-weil-pbc-proetale-site"]
 lean = ["AlgebraicGeometry.ProEtale.lowerStar", "AlgebraicGeometry.Scheme.ProEt.isContinuous_overPullback"]
 +++

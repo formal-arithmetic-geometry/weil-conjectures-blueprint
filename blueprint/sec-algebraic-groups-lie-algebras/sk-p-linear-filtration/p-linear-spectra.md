@@ -2,7 +2,7 @@
 id = "p-linear-spectra"
 kind = "theorem"
 title = "Spectra of the operations"
-order = 3750
+order = 3732
 uses = ["p-linear-triangular"]
 tags = ["latex:proposition"]
 lean = ["LinearMap.charpoly_roots_tensorProduct", "LinearMap.charpoly_roots_exteriorPower", "LinearMap.charpoly_roots_dualMap_symm"]

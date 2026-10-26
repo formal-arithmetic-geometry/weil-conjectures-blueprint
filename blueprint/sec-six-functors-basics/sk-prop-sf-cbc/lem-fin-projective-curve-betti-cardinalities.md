@@ -3,7 +3,7 @@ id = "lem-fin-projective-curve-betti-cardinalities"
 kind = "lemma"
 title = "Betti cardinalities in a smooth projective curve family"
 lean = ["AlgebraicGeometry.Etale.natCard_sheafH_constantZMod_geometricFibre"]
-order = 2719
+order = 2700
 uses = ["def-pc-projective-morphism", "def-sbc-smooth-morphisms", "def-sc-curves", "def-sc-genus", "def-sc-mu-trivialization", "def-weil-pbc-etale-cohomology", "def-weil-pbc-scheme-conventions", "lem-fin-projective-flat-coherent-ranks", "lem-sc-cohomological-dimension", "lem-sc-global-functions", "thm-sc-proper-cohomology"]
 +++
 Let $S$ be Noetherian

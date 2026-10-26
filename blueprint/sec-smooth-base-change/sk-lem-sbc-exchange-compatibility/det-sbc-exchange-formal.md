@@ -2,7 +2,7 @@
 id = "det-sbc-exchange-formal"
 kind = "lemma"
 title = "Exchange maps of adjunctions: naturality, identity and pasting"
-order = 2050
+order = 2029
 uses = ["def-weil-pbc-proetale-operations"]
 +++
 For every cartesian square $X'\xrightarrow{u}X$, $f':X'\to Y'$, $f:X\to Y$,

@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-projection-formula-open-piece"
 kind = "lemma"
 title = "Open-immersion tensor piece"
-order = 1978
+order = 1957
 lean = ["AlgebraicGeometry.Etale.derivedOpenImmersionLowerShriekProjectionMap", "AlgebraicGeometry.Etale.isIso_derivedOpenImmersionLowerShriekProjectionMap"]
 uses = ["def-weil-pbc-projection-compactification"]
 +++

@@ -2,7 +2,7 @@
 id = "prop-kernel-lisse"
 kind = "theorem"
 title = "The kernel is a lisse rank-one character sheaf"
-order = 3946
+order = 3954
 uses = ["def-fd-kernel", "def-weil-finite-tor-amplitude", "lem-fd-as-lisse"]
 tags = ["latex:proposition"]
 +++

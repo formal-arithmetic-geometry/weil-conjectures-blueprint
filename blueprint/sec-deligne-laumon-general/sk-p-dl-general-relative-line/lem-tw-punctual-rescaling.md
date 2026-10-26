@@ -2,7 +2,7 @@
 id = "lem-tw-punctual-rescaling"
 kind = "lemma"
 title = "Punctual purity on a closed fibre"
-order = 4060
+order = 4068
 lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.upperStar"]
 uses = ["def-weil-finite-field-fiber", "def-weil-punctual-weights", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "sk-lem-coefficient-heart"]
 +++

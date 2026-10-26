@@ -3,7 +3,7 @@ id = "lem-sc-cartier-divisor-points"
 kind = "lemma"
 title = "Effective Cartier divisors on a smooth curve"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.exists_eq_idealSheaf"]
-order = 716
+order = 674
 uses = ["def-nagata-invertible-ideal", "lem-sc-dim0-finite", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++
 Let $k$ be a field, $C$ a Noetherian integral scheme which is smooth of

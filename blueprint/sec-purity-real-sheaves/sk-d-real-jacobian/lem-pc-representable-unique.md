@@ -2,7 +2,7 @@
 id = "lem-pc-representable-unique"
 kind = "lemma"
 title = "Uniqueness of the representing scheme"
-order = 3828
+order = 3810
 uses = ["def-pc-scheme", "lem-pc-yoneda"]
 +++
 Let $S$ be a scheme and

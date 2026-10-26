@@ -2,7 +2,7 @@
 id = "sk-def-pe-wlocal"
 kind = "definition"
 title = "The local hierarchy"
-order = 925
+order = 890
 lean = ["WLocalSpace", "IsWLocalRing", "IsWStrictlyLocalRing", "IsWContractibleRing", "WLocalSpace.isHomeomorph_connectedComponents_closedPoints"]
 tags = ["sketch"]
 +++

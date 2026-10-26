@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-spectral-restriction"
 kind = "lemma"
 title = "Zariski restriction on a spectral space"
 lean = ["TopCat.Sheaf.bijective_unit_app_top", "SpectralSpace.exists_shrink_of_isConnected_inter"]
-order = 1547
+order = 1526
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $T$ be spectral [def-weil-pbc-scheme-conventions], let $T_0\subset T$ be

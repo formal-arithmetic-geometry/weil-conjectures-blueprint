@@ -2,7 +2,7 @@
 id = "thm-sc-serre-duality-curve"
 kind = "theorem"
 title = "Serre duality for smooth proper curves"
-order = 713
+order = 671
 uses = ["def-sc-curves", "def-sc-function-field", "def-sc-kahler-differentials", "lem-sc-canonical-sheaf", "lem-sc-deg-principal-zero", "lem-sc-finite-duality", "lem-pc-tensor-dual-invertible", "lem-sc-morphism-from-function", "lem-sc-p1-hi-vanishing", "lem-sc-smooth-regular", "lem-weil-pbc-finite-proper", "pqf-def-coherent", "pqf-lem-affine-vanishing", "pqf-lem-fff-vanishing", "pqf-lem-finite-qf", "pqf-lem-leray", "pqf-lem-leray-lowdegree", "pqf-lem-qf-finitefibres", "pqf-lem-sheaf-zero-stalks", "thm-pqf-finite-iff-proper-finite-fibres", "thm-sc-p1-duality"]
 lean = ["AlgebraicGeometry.Scheme.serreDuality"]
 +++

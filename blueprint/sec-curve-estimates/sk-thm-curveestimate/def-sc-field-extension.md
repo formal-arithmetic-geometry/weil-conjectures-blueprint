@@ -3,7 +3,7 @@ id = "def-sc-field-extension"
 kind = "definition"
 title = "Field extensions, base change, pullback maps"
 lean = ["AlgebraicGeometry.Scheme.Hom.baseChangeField", "AlgebraicGeometry.Scheme.Hom.fieldExtensionCohomologyMap"]
-order = 1435
+order = 1410
 uses = ["def-sc-curves"]
 +++
 Let $k\subseteq k'$ be a field extension and let $C$ be a scheme over $k$

@@ -2,7 +2,7 @@
 id = "det-ctf-finite-comparison-localizing"
 kind = "lemma"
 title = "$\\nu_X^*$ identifies the localizing closures"
-order = 2301
+order = 2281
 uses = ["sk-cor-pe-finite-tor-comparison", "sk-prop-pe-unbounded-classical", "sk-def-localizing-closure"]
 +++
 Let $A$ be a finite admissible ring. The functor $\nu_X^*$ restricts to an exact equivalence

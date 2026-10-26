@@ -3,7 +3,7 @@ id = "lem-sc-tsen"
 kind = "lemma"
 title = "Tsen's theorem"
 lean = ["RatFunc.isQuasiAlgClosed", "IsQuasiAlgClosed.of_trdeg_le_one", "IsQuasiAlgClosed.of_isAlgebraic", "AlgebraicGeometry.IsCurve.isQuasiAlgClosed_functionField", "AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup_functionField"]
-order = 1358
+order = 1333
 uses = ["def-sc-cr-field", "def-sc-curves", "def-sc-function-field", "lem-sc-c1-brauer-trivial", "lem-sc-c1-finite-extension"]
 +++
 Let $k$ be an algebraically closed field. Then the rational function

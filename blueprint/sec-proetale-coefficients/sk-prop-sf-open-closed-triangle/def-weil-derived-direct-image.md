@@ -2,7 +2,7 @@
 id = "def-weil-derived-direct-image"
 kind = "definition"
 title = "Derived direct image"
-order = 1204
+order = 1170
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.lowerStar", "CategoryTheory.Functor.rightDerivedFunctor", "AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerStarIso", "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarLowerStarAdjunction"]
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "det-def-sfb-module-pushforward-pullback", "det-def-sfb-derived-categories"]
 +++

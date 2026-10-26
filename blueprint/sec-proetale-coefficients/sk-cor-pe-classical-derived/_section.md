@@ -2,7 +2,7 @@
 id = "sk-cor-pe-classical-derived"
 kind = "corollary"
 title = "The derived classical part"
-order = 1037
+order = 1003
 uses = ["sk-def-pe-classical-definition", "sk-thm-pe-classical-sheaves", "sk-prop-sf-comparison"]
 tags = ["sketch"]
 +++

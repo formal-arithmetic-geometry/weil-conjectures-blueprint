@@ -3,7 +3,7 @@ id = "det-def-sfb-sheaf-tensor-closed"
 kind = "lemma"
 title = "The tensor product of sheaves is closed and right exact"
 lean = ["CategoryTheory.GrothendieckTopology.monoidalClosed_sheaf_of_essentiallySmall", "CategoryTheory.Monoidal.Reflective.monoidalClosed", "CategoryTheory.GrothendieckTopology.preservesColimitsOfSize_tensorLeft_sheaf_of_essentiallySmall", "CategoryTheory.GrothendieckTopology.preservesColimitsOfSize_tensorRight_sheaf_of_essentiallySmall"]
-order = 1193
+order = 1159
 uses = ["det-def-sfb-sheaf-tensor-structure", "det-def-sfb-sheaf-tensor-hom-sheaf", "det-def-sfb-sheaf-tensor-presheaf"]
 +++
 In the situation of [det-def-sfb-sheaf-tensor-structure], for sheaves $\mathcal F,\mathcal G$ put

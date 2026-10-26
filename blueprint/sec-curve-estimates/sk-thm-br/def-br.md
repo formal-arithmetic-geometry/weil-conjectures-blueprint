@@ -2,7 +2,7 @@
 id = "def-br"
 kind = "definition"
 title = "Brauer group"
-order = 1354
+order = 1329
 uses = ["def-sc-curves", "def-sc-gm-torsor", "def-weil-pbc-etale-site"]
 lean = ["AlgebraicGeometry.Scheme.CohomologicalBrauerGroup"]
 +++

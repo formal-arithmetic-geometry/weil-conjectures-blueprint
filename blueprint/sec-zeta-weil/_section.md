@@ -2,7 +2,7 @@
 id = "sec-zeta-weil"
 kind = "section"
 title = "Zeta Functions and the Weil Conjectures"
-order = 4087
+order = 4095
 uses = ["sec-abelian-varieties", "sec-curve-estimates", "sec-deligne-laumon-general", "sec-nagata-compactification", "sec-picard-framework", "sec-poincare-duality", "sec-proetale-coefficients", "sec-proper-base-change", "sec-purity-real-sheaves", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula", "sk-thm-br", "sk-thm-curveestimate"]
 +++
 **Content.** For a smooth proper $X_0/\Fq$ of pure dimension $d$, this

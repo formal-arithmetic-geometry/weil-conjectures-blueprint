@@ -3,7 +3,7 @@ id = "lem-sf-reduction-compatibility"
 kind = "lemma"
 title = "Finite reduction commutes with pullback and compact-support direct image"
 lean = ["AlgebraicGeometry.Etale.reductionModIdeal", "AlgebraicGeometry.Etale.leftDerivedUpperStarReductionModIdealIso", "AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_leftDerivedUpperStar", "AlgebraicGeometry.Etale.rightDerivedLowerShriekReductionModIdealMap", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerShriekReductionModIdealMap", "AlgebraicGeometry.Etale.nonempty_iso_reductionModIdeal_rightDerivedLowerShriek_of_finite"]
-order = 2771
+order = 2752
 uses = ["def-weil-pbc-derived-categories", "def-weil-derived-pullback-tensor-hom", "def-nagata-compactification", "def-amb-etale-compact-support", "lemma-weil-pbc-projection-formula-compactified", "lemma-weil-pbc-projection-formula-open-piece", "lemma-weil-pbc-projection-formula-proper-piece", "lem-amb-proper-coproducts-projection"]
 +++
 Let $\Lambda$ be a commutative ring and $J\subseteq\Lambda$ an ideal. For a

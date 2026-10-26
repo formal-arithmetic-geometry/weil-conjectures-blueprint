@@ -4,7 +4,7 @@ kind = "lemma"
 title = "The derived couple of an exact couple is exact"
 uses = ["def-sp-abelian", "def-sp-exact-couple"]
 lean = ["CategoryTheory.BigradedExactCouple.derived_couple_exact", "CategoryTheory.BigradedExactCouple.pageCouple_image"]
-order = 1995
+order = 1974
 tags = ["stacks-011R"]
 +++
 Let $\mathcal A$ be an abelian category [def-sp-abelian] and $s\geq0$ an integer. An *exact couple of type $s$* $(D,E,\alpha,f,g)$ in $\mathcal A$ consists of objects $D^{p,q},E^{p,q}$ ($p,q\in\mathbf Z$) and morphisms $\alpha:D^{p,q}\to D^{p-1,q+1}$, $f:E^{p,q}\to D^{p+2,q-1}$, $g:D^{p,q}\to E^{p+s,q-s}$ such that at every $(p,q)$ the three sequences

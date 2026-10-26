@@ -3,7 +3,7 @@ id = "lem-weil-pbc-qcqs-higher-direct-image"
 kind = "lemma"
 title = "Higher direct images for quasi-compact quasi-separated morphisms"
 lean = ["AlgebraicGeometry.Etale.isIso_higherDirectImagePresheafToSheaf", "AlgebraicGeometry.Etale.isIso_higherDirectImagePresheafToSheaf_singleFunctor"]
-order = 1560
+order = 1539
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-etale-sum-extension", "def-sp-kinjective-bridge", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-etale-restriction-injectives", "prop-weil-pbc-cohomology-resolution-independent", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $u:U\to V$ be a quasi-compact and quasi-separated morphism

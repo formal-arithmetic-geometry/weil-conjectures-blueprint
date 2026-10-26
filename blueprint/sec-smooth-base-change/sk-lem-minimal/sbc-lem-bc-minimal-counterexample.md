@@ -2,7 +2,7 @@
 id = "sbc-lem-bc-minimal-counterexample"
 kind = "lemma"
 title = "Minimal counterexamples occur over a point"
-order = 2100
+order = 2079
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $T$ be a

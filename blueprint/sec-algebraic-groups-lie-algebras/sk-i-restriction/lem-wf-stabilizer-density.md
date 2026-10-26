@@ -3,7 +3,7 @@ id = "lem-wf-stabilizer-density"
 kind = "lemma"
 title = "Closed stabilizers and density"
 lean = ["Matrix.GeneralLinearGroup.mulVec_mem_of_mem_zeroLocus_vanishingIdeal", "Matrix.GeneralLinearGroup.forall_mulVec_mem_iff_forall_mem_zeroLocus_vanishingIdeal"]
-order = 3744
+order = 3726
 uses = ["d-monodromy"]
 +++
 Let $S\subseteq V=k^n$ be a vector subspace. The stabilizer

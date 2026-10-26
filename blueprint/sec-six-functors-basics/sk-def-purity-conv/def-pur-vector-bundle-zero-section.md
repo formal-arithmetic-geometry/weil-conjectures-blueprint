@@ -2,7 +2,7 @@
 id = "def-pur-vector-bundle-zero-section"
 kind = "definition"
 title = "Vector bundle with zero section"
-order = 2784
+order = 2765
 uses = ["def-pur-conventions", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions] fixed setting),

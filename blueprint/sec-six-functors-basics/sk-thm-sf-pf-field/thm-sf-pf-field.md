@@ -2,7 +2,7 @@
 id = "thm-sf-pf-field"
 kind = "theorem"
 title = "Projection formula over $E$ and $\\Qlb$"
-order = 2436
+order = 2416
 uses = ["def-sf-datum", "def-sf-pf", "det-def-sfb-bounded-constructible", "sk-lem-integral-models", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-scalar-six", "sk-prop-sfb-finite-extension-compatibility", "thm-sf-pf-adic"]
 +++
 In the setting of [def-sf-datum], let $\Lambda\in\{E,\Qlb\}$, regarded as a

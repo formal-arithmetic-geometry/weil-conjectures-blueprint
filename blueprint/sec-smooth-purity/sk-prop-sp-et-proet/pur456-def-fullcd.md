@@ -2,7 +2,7 @@
 id = "pur456-def-fullcd"
 kind = "definition"
 title = "A separate uniform proper-direct-image bound, finite coefficients"
-order = 2879
+order = 2860
 +++
 For a proper $p:\overline X\to Y$ of $k$-schemes of finite type and an integer $N\geq0$, the condition $\mathrm{FullCD}(p,\mathcal O_E/\pi_E^n;N)$ means: for every morphism $v:Y'\to Y$ of $k$-schemes of finite type, with base change $p':\overline X\times_YY'\to Y'$, and every sheaf $M$ of $\mathcal O_E/\pi_E^n$-modules on $(\overline X\times_YY')_{\Proet}$ placed in degree zero,
 

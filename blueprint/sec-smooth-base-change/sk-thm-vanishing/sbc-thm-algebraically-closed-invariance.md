@@ -3,7 +3,7 @@ id = "sbc-thm-algebraically-closed-invariance"
 kind = "theorem"
 title = "Invariance under extension of algebraically closed fields"
 lean = ["AlgebraicGeometry.bijective_cohomologyMap_constantZMod_of_smoothOfRelativeDimension", "AlgebraicGeometry.bijective_cohomologyMap_constantZMod", "AlgebraicGeometry.IsConnectedCurve.constant_cohomology_baseChange_compatible"]
-order = 2071
+order = 2050
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-scheme-conventions", "thm-sc-constant-invariance", "thm-sc-proper-cohomology"]
 +++
 Let $k\subseteq k'$ be algebraically closed, let $C$ be a

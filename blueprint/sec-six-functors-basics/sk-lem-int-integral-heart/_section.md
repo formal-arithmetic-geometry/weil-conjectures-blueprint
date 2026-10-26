@@ -2,8 +2,8 @@
 id = "sk-lem-int-integral-heart"
 kind = "lemma"
 title = "Structure of integral constructible complexes"
-order = 2453
-uses = ["sk-def-sfb-constructible", "sk-lem-integral-models"]
+order = 2433
+uses = ["sk-def-sfb-constructible", "sk-prop-integral-criterion", "sk-prop-integral-local-structure"]
 tags = ["sketch"]
 +++
 1. $\Dbc(X,\mathcal O_E)$ is a triangulated subcategory of

@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-etale-cover-geometric-point-lift"
 kind = "lemma"
 title = "A geometric point lifts to some member of a jointly surjective etale family"
-order = 1536
+order = 1515
 uses = ["def-pc-scheme", "def-weil-etale-morphism", "def-weil-geometric-point"]
 lean = ["AlgebraicGeometry.Scheme.exists_fac_of_etale_of_isSepClosed"]
 tags = ["mathlib", "stacks-03PR"]

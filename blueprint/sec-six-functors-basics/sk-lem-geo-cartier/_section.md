@@ -2,7 +2,7 @@
 id = "sk-lem-geo-cartier"
 kind = "lemma"
 title = "The cycle class of a Cartier divisor"
-order = 2350
+order = 2330
 tags = ["sketch"]
 +++
 Let $i:D\hookrightarrow Z$ be an effective Cartier divisor on a scheme $Z$ on

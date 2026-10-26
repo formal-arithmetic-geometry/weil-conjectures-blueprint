@@ -2,7 +2,7 @@
 id = "sk-thm-sf-verdier-exchange"
 kind = "corollary"
 title = "Verdier exchange formulas"
-order = 3302
+order = 3284
 uses = ["sk-prop-sf-open-closed-triangle", "sk-lem-sf-mate", "sk-thm-sf-comp-composition", "sk-thm-sf-tensor-hom", "sk-def-ops", "sk-thm-pd-verdier-duality"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_verdierDual_rightDerivedLowerShriek", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_dualizingComplex"]
 tags = ["sketch"]

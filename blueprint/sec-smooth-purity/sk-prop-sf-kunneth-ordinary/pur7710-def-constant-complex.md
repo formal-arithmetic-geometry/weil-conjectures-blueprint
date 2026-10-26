@@ -2,7 +2,7 @@
 id = "pur7710-def-constant-complex"
 kind = "definition"
 title = "Constant complexes of finite $\\mathcal O_E/\\pi_E^n$-modules"
-order = 3082
+order = 3064
 +++
 For a scheme $W$, let $(-)_W:\mathsf{Mod}_{\mathcal O_E/\pi_E^n}\to\mathsf{Sh}(W_{\Et},\mathsf{Mod}_{\mathcal O_E/\pi_E^n})$ send a module $M$ to the sheafification $M_W$ of the constant presheaf with value $M$. By Lemma “Exactness of constant sheaves” (`pur7710-lem-constant-exact`) it is exact; define
 

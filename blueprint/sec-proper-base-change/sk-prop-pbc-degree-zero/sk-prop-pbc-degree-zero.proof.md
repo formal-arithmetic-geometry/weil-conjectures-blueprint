@@ -46,3 +46,8 @@ $X\times_YV$ maps under underived exchange to its restriction over the
 base-changed neighbourhood, and hence to its restriction on this same fibre.
 The stalk map is therefore the identity under the displayed identifications.
 Geometric stalks detect isomorphisms, proving the assertion.
+
+For sheaves of abelian groups or of $\Lambda$-modules, apply this to the
+underlying sheaf of sets. Forgetting the algebraic structure commutes with
+inverse and direct images and with stalks, since it preserves finite limits and
+filtered colimits, and it reflects isomorphisms.

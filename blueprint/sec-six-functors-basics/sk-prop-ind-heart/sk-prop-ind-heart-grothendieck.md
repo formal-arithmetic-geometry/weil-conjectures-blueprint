@@ -2,7 +2,7 @@
 id = "det-ind-heart-grothendieck"
 kind = "lemma"
 title = "$\\IndCons(X,\\Lambda)$ is a Grothendieck abelian category"
-order = 2231
+order = 2211
 uses = ["det-ind-heart-filtered-colimits", "det-ind-heart-kernels-cokernels", "det-ind-heart-extensions", "det-ind-heart-canonical-presentation"]
 +++
 Let $\Lambda=E$ or $\Qlb$. $\IndCons(X,\Lambda)$ is an abelian category, its inclusion into

@@ -2,7 +2,7 @@
 id = "det-sf-comp-coherence-refinement"
 kind = "lemma"
 title = "The refinement map on the localizing category"
-order = 2285
+order = 2265
 uses = ["lem-weil-pbc-proper-open-comparison-iso", "det-sf-comp-coherence-single", "det-sf-determination-localizing"]
 +++
 Let $\Lambda$ be admissible, $f:X\to Y$ separated of finite type, and let

@@ -2,7 +2,7 @@
 id = "def-sfb-projection-formula-comap"
 kind = "definition"
 title = "Restriction of scalars and linearized functors"
-order = 2606
+order = 2587
 uses = ["det-def-sfb-transport", "det-def-sfb-change-of-scalars"]
 lean = ["CategoryTheory.Functor.ProjectionFormula.mapModLeftComapIso"]
 +++

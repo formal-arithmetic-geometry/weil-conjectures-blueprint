@@ -2,7 +2,7 @@
 id = "def-sfb-comap-mapmod-square"
 kind = "definition"
 title = "Restriction of scalars along a square of ring objects"
-order = 2601
+order = 2582
 uses = ["det-def-sfb-transport", "det-def-sfb-change-of-scalars"]
 lean = ["CategoryTheory.Mod.comapMapModComapIso"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sc-second-kummer-divisors"
 kind = "lemma"
 title = "Second Kummer cohomology of a curve"
-order = 1441
+order = 1416
 lean = ["AlgebraicGeometry.IsCurve.nonempty_addEquiv_sheafH_rootsOfUnitySheaf_two", "AlgebraicGeometry.Scheme.exact_sheafH_rootsOfUnitySheaf_two", "AlgebraicGeometry.Scheme.exists_exact_sheafH_rootsOfUnitySheaf_two", "AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup"]
 uses = ["def-br", "def-sc-curves", "def-sc-kummer-sequence", "def-sc-picard-group", "def-weil-pbc-etale-cohomology", "lem-sc-brauer-zero-all-curves", "lem-sc-h1-gm-pic", "lem-sc-kummer-les"]
 +++

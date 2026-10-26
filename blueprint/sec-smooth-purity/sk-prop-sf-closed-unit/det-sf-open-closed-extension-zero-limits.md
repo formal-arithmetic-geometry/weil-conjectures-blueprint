@@ -2,7 +2,7 @@
 id = "det-sf-open-closed-extension-zero-limits"
 kind = "lemma"
 title = "Extension by zero preserves products and derived limits"
-order = 3228
+order = 3210
 uses = ["det-sf-open-closed-pullback-limits", "det-sf-open-closed-sequence-ring-sheaf"]
 +++
 In the situation of [sk-prop-sf-open-closed-triangle], let $j:U\hookrightarrow X$

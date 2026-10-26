@@ -2,7 +2,7 @@
 id = "lem-sp-shift-identification"
 kind = "lemma"
 title = "Shift rule for derived functors"
-order = 2007
+order = 1986
 lean = ["CategoryTheory.Functor.exists_rightDerived_shift_identification", "CategoryTheory.Functor.exists_rightDerived_shift_identification_nonneg", "CategoryTheory.Functor.isZero_rightDerived_shift_identification"]
 uses = ["def-sp-kinjective-bridge", "def-sp-left-exact-additive", "lem-sp-kinjective-computes", "lem-weil-pbc-derived-functor-negative-vanishing"]
 +++

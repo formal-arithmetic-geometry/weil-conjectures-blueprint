@@ -2,7 +2,7 @@
 id = "sk-prop-sf-rf-shriek-preservation"
 kind = "theorem"
 title = "$f^!$ with finite coefficients"
-order = 2405
+order = 2385
 uses = ["sk-def-sf-admissible", "sk-prop-sf-open-closed-triangle", "sk-def-purity-conv", "sk-lem-sf-mate", "sk-prop-sf-existence"]
 lean = ["AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_rightDerivedUpperShriek_of_isOpenImmersion", "AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_rightDerivedUpperShriek_of_isFinite_of_etale", "AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_rightDerivedUpperShriek_of_isClosedImmersion", "AlgebraicGeometry.Etale.constructibleTorAmplitudeIn_rightDerivedUpperShriek_of_smoothOfRelativeDimension", "AlgebraicGeometry.Etale.exists_shift_constructibleTorAmplitudeIn_rightDerivedUpperShriek"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-quasifinite"
 kind = "lemma"
 title = "Finite and quasi-finite direct images"
-order = 4045
+order = 4053
 lean = ["AlgebraicGeometry.isZero_higherLowerShriek_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.HasWeightsAtMost.higherLowerShriek_zero_of_quasiFinite"]
 uses = ["sk-d-real-weights", "sk-lem-pbc-finite", "sk-thm-sf-comp-composition"]
 tags = ["sketch"]

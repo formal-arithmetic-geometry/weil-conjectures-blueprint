@@ -2,7 +2,7 @@
 id = "thm-fd-transform-well-defined"
 kind = "theorem"
 title = "Well-definedness of the Fourier–Deligne transform"
-order = 3947
+order = 3955
 uses = ["def-fd-kernel", "def-fd-transform", "def-weil-pbc-scheme-conventions", "prop-functor-package", "prop-kernel-lisse", "det-def-sfb-bounded-constructible", "sk-thm-sf-ctf-stability", "sk-prop-ctf-finite-comparison"]
 +++
 Let $\pi:V\to S$, $\pi':V'\to S$, $b$, $\Psi$, $r\in\mathbf Z$ and the

@@ -3,7 +3,7 @@ id = "thm-a1-curve-upper"
 kind = "theorem"
 title = "Compact-support upper bound on a curve"
 lean = ["AlgebraicGeometry.hasWeightsAtMostOver_compactlySupportedCohomology_of_isCurve"]
-order = 4042
+order = 4050
 uses = ["def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "prop-a1-middle-extension-curve-upper"]
 +++
 Let $C_0$ be a smooth geometrically connected curve and let

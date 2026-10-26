@@ -4,7 +4,7 @@ of = "det-sfb-dc-restricted-functors-closed-image"
 +++
 Recall that $K\in\D(X_{\mathrm{proét}},\mathcal O_E)$ lies in $\Dbc(X,\mathcal O_E)$ iff it is derived $\pi_E$-complete and
 $K\otimes^{\mathbf L}\mathcal O_E/\pi_E$ is bounded with constructible cohomology (the integral constructibility
-criterion; boundedness of $K$ follows by derived Nakayama).
+criterion [sk-prop-integral-criterion]).
 
 *Exactness and limits.* $j_!$ is exact on sheaves and preserves all limits (Stacks, Tag 09BP; this uses that
 $j$ is quasi-compact). $i_*$ is exact (Stacks, Tag 09BM) and preserves limits (Stacks, Tag 09AA, and it is a

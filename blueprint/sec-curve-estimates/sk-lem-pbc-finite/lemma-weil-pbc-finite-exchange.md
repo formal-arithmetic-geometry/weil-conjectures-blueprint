@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-exchange"
 kind = "lemma"
 title = "Finite exchange isomorphism"
-order = 1335
+order = 1306
 lean = ["AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite", "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite"]
 uses = ["def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "def-weil-pbc-underived-exchange"]
 +++

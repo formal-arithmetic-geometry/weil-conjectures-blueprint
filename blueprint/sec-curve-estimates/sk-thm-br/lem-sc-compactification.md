@@ -3,7 +3,7 @@ id = "lem-sc-compactification"
 kind = "lemma"
 title = "Compactification of a smooth curve"
 lean = ["AlgebraicGeometry.IsConnectedCurve.exists_smooth_properCompactification"]
-order = 1376
+order = 1351
 uses = ["def-sc-curves", "def-sc-normalization", "def-sc-quasi-projective", "lem-sc-curves-quasi-projective", "lem-sc-dim0-finite", "lem-sc-normalization-properties", "lem-sc-smooth-normal"]
 +++
 Let $k$ be algebraically closed and let $C$ be a

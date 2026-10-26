@@ -2,7 +2,7 @@
 id = "det-ind-heart-canonical-presentation"
 kind = "lemma"
 title = "Canonical presentation of an ind-constructible sheaf"
-order = 2227
+order = 2207
 uses = ["det-ind-heart-full-faithfulness", "sk-lem-coefficient-heart"]
 +++
 Let $\Lambda=E$ or $\Qlb$ and $B\in\IndCons(X,\Lambda)$. Let $J(B)$ be the category whose objects are pairs

@@ -2,7 +2,7 @@
 id = "det-def-sfb-pulled-back-coefficients"
 kind = "definition"
 title = "Coefficients pulled back from the point"
-order = 1166
+order = 1132
 uses = ["det-def-sfb-ring-object", "det-def-sfb-pullback-from-point"]
 lean = ["AlgebraicGeometry.ProEtale.condensedRingObj", "AlgebraicGeometry.ProEtale.coefficientRing", "AlgebraicGeometry.ProEtale.isCommMonObj_condensedRingObj", "CategoryTheory.Functor.mapMon"]
 +++

@@ -2,7 +2,7 @@
 id = "prop-exc-finite-etale-adjoint"
 kind = "theorem"
 title = "The right adjoint for a finite etale morphism"
-order = 2407
+order = 2387
 tags = ["latex:proposition"]
 uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-fet-locally-trivial"]
 +++

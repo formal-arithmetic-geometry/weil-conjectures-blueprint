@@ -2,7 +2,7 @@
 id = "det-tf-punctured-restriction-factorization"
 kind = "lemma"
 title = "Restriction to a punctured curve through the boundary stalk"
-order = 3523
+order = 3505
 +++
 Let $Z$ be a scheme, $Y\subset Z$ a closed subscheme with open
 complement $j:Z-Y\hookrightarrow Z$, let $A$ be a ring, let $F$ be a
