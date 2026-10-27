@@ -105,18 +105,16 @@ jobs:
       # shared packages directory is harmless while the two manifests agree on
       # the packages they share.
       #
-      # LAKE_CACHE_DIR is set for this step and the ones below, because
-      # without it the directory depends on how Lake was started: through
-      # elan, as the build is, it is the toolchain's own
-      # (~/.elan/toolchains/<toolchain>/lake/cache); the toolchain's binary
-      # with ELAN_TOOLCHAIN unset, as `cache get` is here, uses ~/.cache/lake.
-      # The build then looked where nothing had been fetched, and compiled.
-      #
-      # Only LAKE_CONFIG and LAKE_CACHE_DIR are set for the steps below, not
-      # LAKE_ARTIFACT_CACHE:
-      # reading the cache is Lake's default, and writing to it would make
-      # every Mathlib olean in this kept workspace read-only, which the next
-      # Mathlib bump's `lake exe cache get` then cannot overwrite. The service
+      # LAKE_CONFIG and LAKE_CACHE_DIR are set for this step and the ones
+      # below. LAKE_CACHE_DIR because without it the directory depends on how
+      # Lake was started: through elan, as the build is, it is the
+      # toolchain's own (~/.elan/toolchains/<toolchain>/lake/cache); the
+      # toolchain's binary outside elan (no ELAN_HOME), as `cache get` is
+      # here, uses ~/.cache/lake, and the build then looks where nothing was
+      # fetched. LAKE_ARTIFACT_CACHE stays unset: reading the cache is Lake's
+      # default, and writing to it would make every Mathlib olean in this kept
+      # workspace read-only, which the next Mathlib bump's `lake exe cache
+      # get` then cannot overwrite. The service
       # is a copy of modules/lake-config.nix in nixos-config, kuafu's address
       # included: if that changes, update it here too.
       - name: Fetch the project's build from the cluster's Lake cache
