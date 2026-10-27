@@ -105,7 +105,15 @@ jobs:
       # shared packages directory is harmless while the two manifests agree on
       # the packages they share.
       #
-      # Only LAKE_CONFIG is set for the steps below, not LAKE_ARTIFACT_CACHE:
+      # LAKE_CACHE_DIR is set for this step and the ones below, because
+      # without it the directory depends on how Lake was started: through
+      # elan, as the build is, it is the toolchain's own
+      # (~/.elan/toolchains/<toolchain>/lake/cache); the toolchain's binary
+      # with ELAN_TOOLCHAIN unset, as `cache get` is here, uses ~/.cache/lake.
+      # The build then looked where nothing had been fetched, and compiled.
+      #
+      # Only LAKE_CONFIG and LAKE_CACHE_DIR are set for the steps below, not
+      # LAKE_ARTIFACT_CACHE:
       # reading the cache is Lake's default, and writing to it would make
       # every Mathlib olean in this kept workspace read-only, which the next
       # Mathlib bump's `lake exe cache get` then cannot overwrite. The service
@@ -126,9 +134,10 @@ jobs:
           revisionEndpoint = "http://13.140.132.28:3900/lake-cache/r"
           TOML
           echo "LAKE_CONFIG=$config" >> "$GITHUB_ENV"
-          export LAKE_CONFIG="$config"
+          echo "LAKE_CACHE_DIR=$HOME/.cache/lake" >> "$GITHUB_ENV"
+          export LAKE_CONFIG="$config" LAKE_CACHE_DIR="$HOME/.cache/lake"
           # Downloads older than two weeks: what is still needed comes again.
-          find ~/.cache/lake -type f -mtime +14 -delete 2>/dev/null || true
+          find "$LAKE_CACHE_DIR" -type f -mtime +14 -delete 2>/dev/null || true
           cd .lake/packages/weil-conjectures
           mkdir -p .lake
           ln -sfn ../.. .lake/packages
