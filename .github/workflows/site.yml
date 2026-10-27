@@ -100,7 +100,17 @@ jobs:
       # directory pointing at this workspace's, where its dependencies already
       # are. Through the toolchain's own `lake` with ELAN_TOOLCHAIN unset:
       # through elan the remote scope is named differently and nothing is
-      # found. A cache that cannot be reached only makes the build slow.
+      # found. A cache that cannot be reached only makes the build slow. That
+      # `lake cache get` materialises the project's own manifest into the
+      # shared packages directory is harmless while the two manifests agree on
+      # the packages they share.
+      #
+      # Only LAKE_CONFIG is set for the steps below, not LAKE_ARTIFACT_CACHE:
+      # reading the cache is Lake's default, and writing to it would make
+      # every Mathlib olean in this kept workspace read-only, which the next
+      # Mathlib bump's `lake exe cache get` then cannot overwrite. The service
+      # is a copy of modules/lake-config.nix in nixos-config, kuafu's address
+      # included: if that changes, update it here too.
       - name: Fetch the project's build from the cluster's Lake cache
         continue-on-error: true
         run: |
@@ -116,13 +126,12 @@ jobs:
           revisionEndpoint = "http://13.140.132.28:3900/lake-cache/r"
           TOML
           echo "LAKE_CONFIG=$config" >> "$GITHUB_ENV"
-          echo "LAKE_ARTIFACT_CACHE=true" >> "$GITHUB_ENV"
           export LAKE_CONFIG="$config"
-          # Outputs this workspace no longer links, untouched for two weeks.
-          find ~/.cache/lake -type f -links 1 -mtime +14 -delete 2>/dev/null || true
+          # Downloads older than two weeks: what is still needed comes again.
+          find ~/.cache/lake -type f -mtime +14 -delete 2>/dev/null || true
           cd .lake/packages/weil-conjectures
           mkdir -p .lake
-          [ -e .lake/packages ] || ln -s ../.. .lake/packages
+          ln -sfn ../.. .lake/packages
           env -u ELAN_TOOLCHAIN "$(elan which lake)" cache get \
             --repo formal-arithmetic-geometry/weil-conjectures --max-revs 30
 
