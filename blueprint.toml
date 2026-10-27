@@ -9,7 +9,7 @@ dir = "blueprint"
 modules = ["WeilConjectures"]
 
 [site]
-theme = "outline"                   # the style the website opens in (Zulip poll)
+theme = "outline" # the style the website opens in
 
 [katex.macros]
 "\\Aaf" = "\\mathbf A"
