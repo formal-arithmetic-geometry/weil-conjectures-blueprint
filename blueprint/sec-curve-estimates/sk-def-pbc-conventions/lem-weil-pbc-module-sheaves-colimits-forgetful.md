@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-module-sheaves-colimits-forgetful"
 kind = "lemma"
 title = "Colimits of sheaves of modules and the forgetful functor to abelian sheaves"
-order = 1266
+order = 1378
 lean = ["CategoryTheory.moduleSheaves_colimits_forgetful", "SheafOfModules.preservesColimitsOfShape_toSheaf"]
 uses = ["def-weil-pbc-sheafification", "def-weil-sheaf-of-modules-category", "def-weil-presheaf-modules-sheafification", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-category-colimit"]
 tags = ["stacks-03DA"]

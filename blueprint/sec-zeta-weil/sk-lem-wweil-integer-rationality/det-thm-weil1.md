@@ -3,7 +3,7 @@ id = "det-thm-weil1"
 kind = "theorem"
 title = "Weil conjectures I: rationality and Euler product"
 lean = ["AlgebraicGeometry.Scheme.zetaSeries_rational", "AlgebraicGeometry.Scheme.Hom.zetaSeries_eq_tprod"]
-order = 4127
+order = 4361
 uses = ["det-def-zeta", "det-thm-rationality", "det-prop-euler"]
 +++
 Let $X_0$ be a scheme of finite type (quasi-compact and locally of finite

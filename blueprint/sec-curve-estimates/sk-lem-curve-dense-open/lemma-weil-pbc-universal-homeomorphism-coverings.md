@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-universal-homeomorphism-coverings"
 kind = "lemma"
 title = "Covering compatibility for universal homeomorphisms"
-order = 1491
+order = 1600
 lean = ["AlgebraicGeometry.Scheme.Hom.functorPushforward_mem_smallEtaleTopology_iff"]
 +++
 Let $u:X_0\to X$ be universally injective and surjective (for instance a

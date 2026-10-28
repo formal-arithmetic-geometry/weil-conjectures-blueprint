@@ -3,7 +3,7 @@ id = "pqf-lem-qf-finitefibres"
 kind = "lemma"
 title = "Quasi-finite = finite type + quasi-compact + finite fibres"
 lean = ["AlgebraicGeometry.locallyQuasiFinite_and_quasiCompact_iff_finite_preimage_singleton"]
-order = 510
+order = 529
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-quasifinite"]
 +++
 Let $f:X\to S$ be a morphism of schemes. Then $f$ is

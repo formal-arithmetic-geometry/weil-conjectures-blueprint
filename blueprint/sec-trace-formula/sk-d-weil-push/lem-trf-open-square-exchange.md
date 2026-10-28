@@ -2,7 +2,7 @@
 id = "lem-trf-open-square-exchange"
 kind = "lemma"
 title = "Open-square exchange from restriction of direct image"
-order = 3656
+order = 3836
 uses = ["def-trf-coefficient-conventions", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-extension-by-zero", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 Use the finite coefficient ring

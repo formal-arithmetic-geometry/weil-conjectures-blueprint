@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of   = "det-existence-localizing"
-uses = ["sk-lem-brown-hypotheses", "sk-prop-ctf-finite-compact", "sk-thm-constructible-compactness", "sk-cor-constructible-compactness-ii", "sk-prop-int-compactness", "sk-prop-sf-comp-coherence", "sk-prop-proper-image-localizing", "sk-prop-sf-existence"]
+uses = ["sk-lem-brown-hypotheses", "sk-prop-ctf-finite-compact", "sk-thm-constructible-compactness", "det-brown-hypotheses-generation", "sk-prop-int-compactness", "sk-prop-sf-comp-coherence", "sk-prop-proper-image-localizing", "sk-prop-sf-existence"]
 +++
 The cases $\Lambda=\mathbf Z_\ell$ and $\Lambda=\mathbf Q_\ell$ are the cases $\cO_E$ and $E$
 with $E=\mathbf Q_\ell$, so it suffices to treat $A$, $\cO_E$, $E$ and $\Qlb$.
@@ -22,7 +22,7 @@ cones and direct sums, since $\Hom(\bigoplus_i M_i,K)=\prod_i\Hom(M_i,K)$). It c
 $\mathcal S$, hence every object of $\Dctf(X,\Lambda)$, each being isomorphic to an object of
 $\mathcal S$; so it contains $\Loc(\Dctf(X,\Lambda))\supseteq\mathcal K$. Every $K\in\mathcal K$
 therefore satisfies $\Hom(K,K)=0$, i.e. $K=0$. Hence $\mathcal S$ is a set of compact
-generators; for the field coefficients this is also [sk-cor-constructible-compactness-ii].
+generators; for the field coefficients this is also [det-brown-hypotheses-generation].
 
 (2) This is [sk-prop-sf-comp-coherence]: $j_!$ and $Rp_*$ restrict to exact, sum-preserving
 functors between the localizing categories by [sk-prop-proper-image-localizing], they preserve

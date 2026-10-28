@@ -1,12 +1,12 @@
 +++
 kind  = "proof"
 of    = "sk-rem-sf-pf-done"
-uses = ["sk-thm-sf-pf-finite", "sk-prop-sf-pf-reduction", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-proetale", "sk-prop-sf-pf-coherence"]
+uses = ["sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-proetale", "sk-prop-sf-pf-coherence"]
 +++
 The obligations of the interface are discharged one coefficient ring at a
 time. At the finite stages $A_{E,n}$ the projection formula is
-[sk-thm-sf-pf-finite], and it is compatible with finite reduction by
-[sk-prop-sf-pf-reduction]. At the derived-complete stage $\mathcal O_E$ it is
+[det-thm-sf-pf-finite], and it is compatible with finite reduction by
+[det-prop-sf-pf-reduction]. At the derived-complete stage $\mathcal O_E$ it is
 [sk-thm-sf-pf-adic], obtained from the finite stages by that compatibility.
 At $E$ and $\Qlb$ it is [sk-thm-sf-pf-field]. On the pro-étale realization it
 is [sk-thm-sf-pf-proetale]. The naturality, unit, associativity and

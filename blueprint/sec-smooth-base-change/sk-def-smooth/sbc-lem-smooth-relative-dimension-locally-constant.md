@@ -3,7 +3,7 @@ id = "sbc-lem-smooth-relative-dimension-locally-constant"
 kind = "lemma"
 title = "Local constancy of the relative dimension"
 lean = ["AlgebraicGeometry.Smooth.isLocallyConstant_topologicalKrullDimAt_asFiber"]
-order = 2074
+order = 2177
 uses = ["def-sbc-smooth-morphisms"]
 +++
 Let $f:X\to Y$ be a smooth

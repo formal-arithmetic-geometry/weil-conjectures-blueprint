@@ -33,7 +33,7 @@ cohomological dimension estimate $\operatorname{cd}_\ell\le2\dim$ of
 fibres. For $G\in\Cons(X,\Qlb)$ it is deduced from the torsion case as
 follows. The sheaf $R^af_!G$ is constructible ([sk-thm-sf-ctf-stability]),
 so it vanishes once its geometric stalks do ([sk-lem-coefficient-heart](3));
-by compact-support base change ([sk-thm-sfb-shriek-base-change]) the stalk at
+by compact-support base change ([det-thm-sfb-shriek-base-change]) the stalk at
 $\bar y$ is $H^a_c(X_{\bar y},G|_{X_{\bar y}})$. As in
 [lem-zl-affine-curve-range], $G$ is the extension of scalars of a
 constructible $E$-sheaf for a finite $E/\Ql$

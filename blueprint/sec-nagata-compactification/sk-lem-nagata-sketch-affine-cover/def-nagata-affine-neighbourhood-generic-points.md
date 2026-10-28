@@ -3,7 +3,7 @@ id = "def-nagata-affine-neighbourhood-generic-points"
 kind = "definition"
 title = "Affine neighbourhood containing selected generic points"
 lean = ["AlgebraicGeometry.Scheme.affineOpenGenericPoints"]
-order = 413
+order = 324
 uses = ["lem-chow-affine-through-generic-points"]
 +++
 Let $X$ be quasi-separated, let $x\in X$, and let

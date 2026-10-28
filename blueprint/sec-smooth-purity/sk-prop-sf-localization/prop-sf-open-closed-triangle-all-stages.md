@@ -3,7 +3,7 @@ id = "prop-sf-open-closed-triangle-all-stages"
 kind = "theorem"
 title = "The open–closed triangle for every admissible coefficient ring"
 lean = ["AlgebraicGeometry.WeilComplex.exists_distTriang_openClosed"]
-order = 3214
+order = 3196
 tags = ["latex:proposition"]
 uses = ["def-sf-setting", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible", "det-def-sf-operations", "sk-prop-sf-open-closed-triangle", "sk-thm-existence", "sk-lem-integral-models", "sk-def-sf-weil-complexes", "def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-frobenius-detailed", "def-weil-open-closed-recollement", "def-weil-weil-sheaf-complex", "fix-lem-exchanges", "lem-cbc-open-closed-recollement", "lem-cbc-proetale-extension-zero-comparison", "lem-sf-proetale-constructible-origin", "lem-weil-pbc-comparison-pullback", "prop-weil-open-closed-recollement-adjunctions", "prop-weil-pbc-comparison-direct-image", "prop-weil-pbc-site-comparison-finite-level"]
 +++

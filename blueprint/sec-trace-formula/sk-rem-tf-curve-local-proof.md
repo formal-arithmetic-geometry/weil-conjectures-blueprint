@@ -2,7 +2,7 @@
 id = "sk-rem-tf-curve-local-proof"
 kind = "remark"
 title = "Route of the local calculation"
-order = 3492
+order = 3624
 tags = ["sketch"]
 +++
 Let $X_0$ be a smooth curve and $y\in X_0(\mathbf F_{q^m})$. The goal

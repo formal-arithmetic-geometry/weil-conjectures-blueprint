@@ -3,7 +3,7 @@ id = "sk-lem-wrp-point-count"
 kind = "lemma"
 title = "A point-count bound"
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_pointCount_le_mul_pow"]
-order = 3876
+order = 4109
 tags = ["sketch"]
 +++
 For a smooth affine curve $U_0/k_0$ there is a constant $D$ such that

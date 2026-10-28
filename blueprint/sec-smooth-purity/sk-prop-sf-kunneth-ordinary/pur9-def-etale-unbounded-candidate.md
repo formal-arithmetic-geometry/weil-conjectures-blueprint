@@ -2,7 +2,7 @@
 id = "pur9-def-etale-unbounded-candidate"
 kind = "definition"
 title = "Unbounded étale compactification candidate"
-order = 3075
+order = 3051
 uses = ["pur7710-def-unbounded-etale-push", "sk-thm-sf-comp-composition"]
 +++
 For a separated morphism of finite type $f:X\to Y$ of $k$-schemes of finite type with chosen compactification $c_f=(j,p)$, put

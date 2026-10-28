@@ -3,7 +3,7 @@ id = "lem-weil-pbc-root-lifting-etale-retraction"
 kind = "lemma"
 title = "Over a local ring in which simple roots of monic polynomials lift, etale algebras with a rational point over the closed point retract"
 lean = ["IsLocalRing.existsUnique_algHom_of_monic_simple_root_lifting_etale"]
-order = 1905
+order = 2027
 uses = ["def-weil-etale-morphism", "def-weil-residue-field"]
 tags = ["stacks-04GG"]
 +++

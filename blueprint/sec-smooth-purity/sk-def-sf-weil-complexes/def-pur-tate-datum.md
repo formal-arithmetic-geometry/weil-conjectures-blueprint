@@ -2,7 +2,7 @@
 id = "def-pur-tate-datum"
 kind = "definition"
 title = "Strict Weil data and the Tate datum"
-order = 3052
+order = 3024
 uses = ["sk-def-sf-weil-complexes", "def-sf-setting", "sk-def-sp-tate-twist", "def-coefficient-twists-detailed", "def-pur-conventions", "def-pur-scheme-geometric-frobenius", "def-pur-smooth-pullback-exchange", "def-sbc-smooth-morphisms", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 In the purity conventions of this chapter ([def-pur-conventions]), fix the

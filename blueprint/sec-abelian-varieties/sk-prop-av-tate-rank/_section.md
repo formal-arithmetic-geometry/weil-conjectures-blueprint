@@ -3,7 +3,7 @@ id = "sk-prop-av-tate-rank"
 kind = "proposition"
 title = "The integral Tate module"
 lean = ["AlgebraicGeometry.IsAbelianVariety.natCard_torsionBy_geometricPoints", "AlgebraicGeometry.IsAbelianVariety.nonempty_addEquiv_torsionBy_points", "AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule_of_natCast_ne_zero", "AlgebraicGeometry.IsAbelianVariety.galoisRepresentation"]
-order = 539
+order = 559
 uses = ["sk-def-av", "sk-prop-av-isogeny", "sk-prop-av-mult-n-pullback"]
 tags = ["sketch"]
 +++

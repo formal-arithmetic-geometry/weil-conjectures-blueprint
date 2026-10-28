@@ -2,7 +2,7 @@
 id = "thm-amb-p1-decomposition"
 kind = "theorem"
 title = "The projective-line calculation before purity"
-order = 2334
+order = 2610
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-coefficient-twists-detailed", "def-sc-p1-standard", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "lem-amb-cartier-kummer-map", "lem-amb-proper-coproducts-projection", "lemma-weil-pbc-geometric-stalk-conservative", "thm-sc-proper-cohomology"]
 +++
 Let $q:P=\mathbf P^1_S\to S$, with $S$ Noetherian.

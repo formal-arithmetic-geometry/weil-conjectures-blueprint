@@ -2,7 +2,7 @@
 id = "def-weil-pbc-constructible-direct-image-finiteness"
 kind = "definition"
 title = "Constructible direct-image finiteness condition"
-order = 2186
+order = 2386
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-proetale-modules", "def-weil-pbc-site-comparison-morphism"]
 +++
 Let $\Lambda$ be a finite torsion ring, for example

@@ -2,7 +2,7 @@
 id = "rem-ptr-kun-kunneth-map-9"
 kind = "remark"
 title = "Pointer to the properties of [def-kun-kunneth-map]"
-order = 3149
+order = 3125
 uses = ["def-kun-kunneth-map", "def-weil-pbc-cartesian-square", "lem-kun-kunneth-map-natural"]
 +++
 In the notation of [def-kun-kunneth-map], the following holds. The naturality of $\kappa_{E,K}$

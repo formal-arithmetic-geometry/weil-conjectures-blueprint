@@ -2,7 +2,7 @@
 id = "det-sp-composition-factors"
 kind = "lemma"
 title = "Composition of orientations and of tensor maps"
-order = 3038
+order = 3377
 uses = ["det-sp-composition-comparisons", "det-sp-orientation-charts", "prop-pur-affine-space-composition-law"]
 +++
 Let $X\xrightarrow{f}Y\xrightarrow{g}Z$ be smooth of pure relative dimensions $d$

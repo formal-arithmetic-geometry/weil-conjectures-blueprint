@@ -2,7 +2,7 @@
 id = "sk-lem-sf-kunneth-star"
 kind = "proposition"
 title = "Ordinary external Künneth"
-order = 3299
+order = 3438
 uses = ["sk-lem-tf-independent-base-change", "sk-thm-pe-constructible-comparison", "sk-thm-pe-direct-image-comparison", "sk-thm-sf-ctf-stability", "sk-prop-scalar-six", "sk-lem-sf-flat-model", "sk-prop-sf-comparison", "sk-prop-sf-kunneth-ordinary"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_externalProduct_rightDerivedLowerStar"]
 tags = ["sketch"]

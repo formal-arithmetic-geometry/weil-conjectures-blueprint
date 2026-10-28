@@ -2,7 +2,7 @@
 id = "lem-cbc-extension-zero-composition"
 kind = "lemma"
 title = "Composition of open immersions"
-order = 1015
+order = 1263
 lean = ["AlgebraicGeometry.Etale.openImmersionLowerShriekComp", "AlgebraicGeometry.Etale.openImmersionLowerShriekId"]
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
 +++

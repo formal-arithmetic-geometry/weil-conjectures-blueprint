@@ -2,8 +2,8 @@
 id = "lem-fd-character-integral"
 kind = "lemma"
 title = "The integral of a linear character"
-order = 3950
-uses = ["def-fd-artin-schreier-sheaf", "lem-wft-as-comparison", "lem-fd-as-cover-affine-line", "lem-fd-as-characters", "lem-fd-finite-pushforward-cohomology", "thm-pur-vector-bundle-thom", "lem-wft-kunneth-compatibilities", "sk-prop-sfb-finite-extension-compatibility"]
+order = 4162
+uses = ["def-fd-artin-schreier-sheaf", "lem-wft-as-comparison", "lem-fd-as-cover-affine-line", "lem-fd-as-characters", "lem-fd-finite-pushforward-cohomology", "thm-pur-vector-bundle-thom", "lem-wft-kunneth-compatibilities", "det-prop-sfb-finite-extension-compatibility"]
 +++
 Let $\psi:k_0\to\Lambda^\times$ be a nontrivial additive character, with
 $\Lambda=E\supset\mu_p$ or $\Lambda=\overline{\mathbf Q}_\ell$, let $\Omega$ be

@@ -2,7 +2,7 @@
 id = "sk-p-pairing"
 kind = "lemma"
 title = "Local terms on the point"
-order = 3461
+order = 3733
 uses = ["sk-d-corr", "sk-d-pairing", "sk-d-setup", "sk-d-six", "sk-d-trace", "sk-d-trace-class", "sk-p-trace", "sk-thm-sf-kunneth-verdier", "sk-thm-sf-package"]
 tags = ["sketch"]
 +++

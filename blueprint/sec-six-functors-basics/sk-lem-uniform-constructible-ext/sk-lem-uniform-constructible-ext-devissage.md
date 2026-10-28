@@ -2,7 +2,7 @@
 id = "det-uniform-constructible-ext-devissage"
 kind = "lemma"
 title = "Ext bounds pass through finite filtrations"
-order = 2201
+order = 2417
 uses = ["sk-lem-coefficient-heart"]
 +++
 Let $\mathcal A$ be an abelian category of sheaves of $\Lambda_X$-modules and $c\in\mathbf Z$.

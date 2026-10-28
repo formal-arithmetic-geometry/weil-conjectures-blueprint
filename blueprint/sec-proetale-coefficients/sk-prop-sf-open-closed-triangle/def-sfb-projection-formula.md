@@ -2,7 +2,7 @@
 id = "def-sfb-projection-formula"
 kind = "definition"
 title = "Projection formula"
-order = 1069
+order = 1113
 lean = ["CategoryTheory.Functor.ProjectionFormula"]
 +++
 Let $S\colon\mathcal D\to\mathcal C$ be a strong monoidal functor between monoidal

@@ -2,7 +2,7 @@
 id = "sk-prop-integral-local-structure"
 kind = "proposition"
 title = "Integral local models"
-order = 1212
+order = 1276
 uses = ["sk-lem-integral-finite-levels", "sk-lem-integral-scalar-towers", "sk-prop-sf-open-closed-triangle", "sk-prop-pe-milnor", "sk-lem-pe-derived-nakayama"]
 tags = ["sketch"]
 +++

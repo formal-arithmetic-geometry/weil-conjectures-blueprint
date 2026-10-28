@@ -2,7 +2,7 @@
 id = "def-nagata-global-blowup"
 kind = "definition"
 title = "Global blow-up"
-order = 197
+order = 100
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowup"]
 uses = ["def-nagata-global-blowup-glue-data"]
 +++

@@ -3,7 +3,7 @@ id = "lem-pc-section-clearing-denominators"
 kind = "lemma"
 title = "Clearing denominators for a section of an invertible module"
 lean = ["AlgebraicGeometry.Scheme.Modules.exists_tensorPowSection_eq_restrict"]
-order = 610
+order = 632
 uses = ["def-pc-morphism-conventions", "def-pc-zero-scheme", "def-sc-invertible-module", "pqf-def-coherent"]
 +++
 Let $X$ be a quasi-compact scheme

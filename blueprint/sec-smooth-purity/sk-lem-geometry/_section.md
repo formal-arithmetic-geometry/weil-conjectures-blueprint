@@ -2,12 +2,12 @@
 id = "sk-lem-geometry"
 kind = "lemma"
 title = "Geometry of the deformation of a section"
-order = 3236
-uses = ["sk-def-purity-conv", "sk-prop-an"]
+order = 3289
+uses = ["sk-prop-cohsm", "sk-prop-an", "sk-thm-existence"]
 lean = ["AlgebraicGeometry.Scheme.Hom.nonempty_deformationToNormalConeData"]
 tags = ["sketch"]
 +++
-In the conventions of [sk-def-purity-conv] let $g:V\to B$ be smooth of pure
+In the conventions of [det-def-purity-conv] let $g:V\to B$ be smooth of pure
 relative dimension $d$ with closed section $s$, and let $N_s\to B$ be the
 normal bundle of $s$ with zero section $0_N$ and projection $\pi_N$. Then:
 

@@ -2,7 +2,7 @@
 id = "sk-p-real-rankone"
 kind = "theorem"
 title = "Finite geometric image in rank one"
-order = 3826
+order = 4015
 uses = ["sk-d-real-weil", "sk-lem-wrp-additive"]
 lean = ["AlgebraicGeometry.WeilGroup.IsLisse.finite_geometric_image"]
 tags = ["sketch"]

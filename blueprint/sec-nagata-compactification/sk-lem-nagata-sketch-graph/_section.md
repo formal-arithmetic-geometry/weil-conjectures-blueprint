@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-graph"
 kind = "lemma"
 title = "Graph extension from a compactification"
-order = 333
+order = 240
 uses = ["lemma-nagata-scheme-image-strict-transform", "sk-def-nagata-admissible"]
 lean = ["AlgebraicGeometry.Compactification.nonempty_properExtension"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-inverse-image-exact"
 kind = "theorem"
 title = "Exactness of inverse image"
-order = 1008
+order = 1059
 lean = ["AlgebraicGeometry.Etale.upperStar_abelian_exact"]
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions"]
 tags = ["latex:proposition"]

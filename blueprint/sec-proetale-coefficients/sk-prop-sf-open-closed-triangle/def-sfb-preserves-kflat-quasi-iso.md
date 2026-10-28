@@ -2,7 +2,7 @@
 id = "def-sfb-preserves-kflat-quasi-iso"
 kind = "definition"
 title = "K-flat complexes; functors preserving K-flat quasi-isomorphisms"
-order = 1075
+order = 1119
 uses = ["def-weil-abstract-derived-category"]
 lean = ["CategoryTheory.MorphismProperty.kFlat", "CategoryTheory.Functor.PreservesKFlatQuasiIso"]
 +++

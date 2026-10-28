@@ -2,7 +2,7 @@
 id = "det-sp-mixed-base-change"
 kind = "lemma"
 title = "Base change commutes with change of finite coefficients"
-order = 3030
+order = 3368
 uses = ["det-sp-reduction-direct-image", "det-sp-reduction-exceptional"]
 +++
 In a Cartesian square $f\circ u=v\circ f'$ as in the sketch, with $f$ smooth of

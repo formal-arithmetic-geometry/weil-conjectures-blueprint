@@ -20,7 +20,7 @@ u^*f^!\simeq u^!f^!\simeq(fu)^!=(vpi)^!\simeq i^!p^!v^!\simeq i^!p^!v^*.
 $$
 
 *Constructibility.* Let $K\in\Dbc(Y,\Lambda)$. Then $v^*K\in\Dbc(V,\Lambda)$.
-By [sk-cor-affine-space-rational], $p^!v^*K\simeq p^*v^*K(d)[2d]$ lies in
-$\Dbc(\mathbf A^d_V,\Lambda)$. By [sk-prop-closed-adjoint-constructible],
+By [det-cor-affine-space-rational], $p^!v^*K\simeq p^*v^*K(d)[2d]$ lies in
+$\Dbc(\mathbf A^d_V,\Lambda)$. By [det-prop-closed-adjoint-constructible],
 $i^!$ maps $\Dbc(\mathbf A^d_V,\Lambda)$ into $\Dbc(U,\Lambda)$. Hence
 $u^*f^!K\in\Dbc(U,\Lambda)$.

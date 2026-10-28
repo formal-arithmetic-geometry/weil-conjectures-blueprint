@@ -2,7 +2,7 @@
 id = "sk-def-pe-derived-completion"
 kind = "definition"
 title = "Derived adic completeness"
-order = 1174
+order = 1219
 uses = ["sk-prop-sf-open-closed-triangle"]
 tags = ["sketch"]
 +++

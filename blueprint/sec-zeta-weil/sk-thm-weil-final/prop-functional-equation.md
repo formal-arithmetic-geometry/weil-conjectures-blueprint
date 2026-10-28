@@ -3,7 +3,7 @@ id = "prop-functional-equation"
 kind = "theorem"
 title = "Functional equation"
 lean = ["AlgebraicGeometry.WeilFunctionalEquation.prod_determinant_sq", "AlgebraicGeometry.weilSign_eq_one_or_eq_neg_one", "AlgebraicGeometry.WeilFunctionalEquation.alternatingProdEval_eq_prod_determinant", "AlgebraicGeometry.WeilFunctionalEquation.alternatingProdEval_eq"]
-order = 4160
+order = 4395
 tags = ["latex:proposition"]
 uses = ["def-weil-determinant-constants", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-functional-equation-sign", "def-weil-geometric-hypotheses", "def-weil-integral-frobenius-factor", "def-weil-ordinary-compact-cohomology", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-duality-reciprocity", "prop-trace-determinant"]
 +++

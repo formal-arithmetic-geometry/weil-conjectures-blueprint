@@ -2,7 +2,7 @@
 id = "lemma-nagata-two-open-density-transport"
 kind = "lemma"
 title = "Density of $U$ in the intermediate schemes and the final modification"
-order = 398
+order = 308
 lean = ["AlgebraicGeometry.TwoOpenSide.dense_range_intermediateU", "AlgebraicGeometry.CommonModification.dense_range_j"]
 uses = ["def-nagata-two-open-graph-extensions", "def-nagata-two-open-intermediate-schemes", "lemma-nagata-admissible-blowup-preserves-density", "lemma-nagata-two-open-final-modification"]
 +++

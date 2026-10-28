@@ -3,7 +3,7 @@ id = "lem-wf-algebraic-component-cosets"
 kind = "lemma"
 title = "Identity component, cosets, and the finite component group"
 lean = ["AlgebraicGeometry.finite_connectedComponents", "AlgebraicGeometry.GrpObj.isClopen_connectedComponent_onePoint", "AlgebraicGeometry.GrpObj.irreducibleSpace_identityComponent", "AlgebraicGeometry.GrpObj.finiteIndex_range_identityComponentι", "AlgebraicGeometry.GrpObj.image_mulLeft_connectedComponent_onePoint", "Matrix.GeneralLinearGroup.isClopen_connectedComponent_zeroLocus"]
-order = 3686
+order = 3896
 uses = ["def-sc-group-scheme-translate", "def-wf-algebraic-components", "lem-ag-cartier-reduced", "lem-sc-translation-automorphism", "lem-wf-affine-noetherian-components", "lem-wf-affine-nullstellensatz-vanishing", "lem-wf-smooth-components-disjoint"]
 +++
 Let $G$ be a group scheme of finite type over an algebraically closed

@@ -2,7 +2,7 @@
 id = "rem-ptr-kun-unbounded-exchange-7"
 kind = "remark"
 title = "Pointer to the properties of [def-kun-unbounded-exchange]"
-order = 3088
+order = 3064
 uses = ["def-kun-unbounded-exchange", "lem-kun-unbounded-exchange-natural"]
 +++
 In the notation of [def-kun-unbounded-exchange], the following holds. That

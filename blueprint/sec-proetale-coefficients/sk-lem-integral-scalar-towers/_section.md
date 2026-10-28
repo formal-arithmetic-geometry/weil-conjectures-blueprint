@@ -2,7 +2,7 @@
 id = "sk-lem-integral-scalar-towers"
 kind = "lemma"
 title = "Perfect complexes over $\\cO_E$"
-order = 1211
+order = 1275
 tags = ["sketch"]
 +++
 To make the local models of the $K_n$ compatible, we need two facts about complexes over

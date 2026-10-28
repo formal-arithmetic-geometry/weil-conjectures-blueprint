@@ -3,7 +3,7 @@ id = "lem-wf-determinantal-weight-exists"
 kind = "lemma"
 title = "Purity of the determinant line"
 lean = ["AlgebraicGeometry.WeilGroup.existsUnique_isPunctuallyPure_detLine"]
-order = 3841
+order = 4030
 uses = ["cor-wf-rank-one-punctual-purity-curve", "def-mg-determinant-line", "def-real-weil-representation-operations", "def-weil-local-frobenius-trace", "def-weil-punctual-weights", "def-wf-fundamental-representation", "thm-wf-rank-one-finite-geometric-image-curve"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, let

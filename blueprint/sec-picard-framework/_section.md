@@ -2,8 +2,7 @@
 id = "sec-picard-framework"
 kind = "section"
 title = "Picard Framework"
-order = 556
-uses = ["sec-nagata-compactification", "sec-abelian-varieties", "sk-lem-abelian-seesaw", "sk-prop-av-isogeny", "sk-lem-nagata-sketch-elimination"]
+order = 576
 +++
 **Content.** This section constructs the Jacobian of a smooth projective
 curve as the identity component of its Picard scheme, along two strands.
@@ -33,10 +32,11 @@ dimension $g$, which descends to any base field.
   dimension $g$ with $T_eJ(C)\cong H^1(C,\mathcal O_C)$ and
   $J(C)(k)\cong\mathrm{Pic}^0(C)$. Used in §[sec-curve-estimates],
   §[sec-purity-real-sheaves].
-- Prop [sk-prop-jacobian-descent] (Jacobian over a general field): for a
-  proper smooth geometrically connected curve $C_0/k_0$ the Jacobian descends
-  to $J_0/k_0$ with $J_0[\ell^n](\bar k_0)\cong\mathrm{Pic}^0(C)[\ell^n]$
-  Galois-equivariantly. Used in §[sec-purity-real-sheaves].
+- Prop [sk-prop-jacobian-descent] (Jacobian over the ground field): for a
+  proper smooth geometrically connected curve $C_0/k$ an abelian variety
+  $J_0/k$ represents the degree-zero Picard sheaf, compatibly with field
+  extension, and $J_0(\bar k)=\mathrm{Pic}^0(C)$ Galois-equivariantly. Used in
+  §[sec-purity-real-sheaves].
 - Thm [det-thm-picard-semicon] (semicontinuity and base change): for $f$
   proper and $\mathcal F$ flat of finite presentation,
   $t\mapsto\dim H^q(X_t,\mathcal F_t)$ is upper semicontinuous, and over a

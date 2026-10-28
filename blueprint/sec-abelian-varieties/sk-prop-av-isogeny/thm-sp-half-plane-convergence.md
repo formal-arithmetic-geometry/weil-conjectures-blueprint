@@ -3,7 +3,7 @@ id = "thm-sp-half-plane-convergence"
 kind = "theorem"
 title = "Half-plane convergence"
 lean = ["CategoryTheory.Functor.truncationCouple_isHalfPlane", "CategoryTheory.Functor.convergesTo_truncationCouple", "CategoryTheory.Functor.truncationCoupleAbutmentIso", "CategoryTheory.ExactCouple.IsHalfPlane", "CategoryTheory.ExactCouple.halfPlaneFiltration", "CategoryTheory.ExactCouple.isFiniteSeparated_halfPlaneFiltration", "CategoryTheory.ExactCouple.halfPlaneConvergenceData", "CategoryTheory.ExactCouple.convergesTo_halfPlaneFiltration", "CategoryTheory.ExactCouple.isRegular_of_isHalfPlane", "CategoryTheory.ExactCouple.isComplete_of_isHalfPlane", "CategoryTheory.ExactCouple.derivedIter_d_eq_zero_of_isHalfPlane", "CategoryTheory.ExactCouple.halfPlaneDerivedIterEIsoGr"]
-order = 496
+order = 515
 uses = ["def-sp-convergence", "def-sp-exact-couple", "def-sp-filtration"]
 +++
 Let $(D,E_2,\alpha,f,g)$ be the exact couple of

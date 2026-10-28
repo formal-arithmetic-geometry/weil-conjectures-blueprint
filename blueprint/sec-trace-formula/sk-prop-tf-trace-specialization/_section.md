@@ -2,7 +2,7 @@
 id = "sk-prop-tf-trace-specialization"
 kind = "proposition"
 title = "Specialization of the trace class"
-order = 3582
+order = 3772
 uses = ["sk-prop-tf-nearby-duality-foundation", "sk-lem-tf-nearby-mate-coherences", "sk-d-trace-class", "sk-thm-sf-kunneth-verdier", "sk-prop-tf-nearby-external-kunneth"]
 tags = ["sketch"]
 +++

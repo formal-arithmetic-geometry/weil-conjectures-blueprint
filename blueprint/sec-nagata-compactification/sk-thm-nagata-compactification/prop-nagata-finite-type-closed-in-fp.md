@@ -2,7 +2,7 @@
 id = "prop-nagata-finite-type-closed-in-fp"
 kind = "theorem"
 title = "Separated finite-presentation envelope"
-order = 93
+order = 401
 lean = ["AlgebraicGeometry.Scheme.Hom.separatedFPEnvelope_spec", "AlgebraicGeometry.Scheme.Hom.exists_isClosedImmersion_isSeparated_locallyOfFinitePresentation"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-finite-type-closed-in-fp"]

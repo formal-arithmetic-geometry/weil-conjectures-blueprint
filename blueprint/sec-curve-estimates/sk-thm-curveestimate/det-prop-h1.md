@@ -2,7 +2,7 @@
 id = "det-prop-h1"
 kind = "proposition"
 title = "$H^1$ via Kummer"
-order = 1402
+order = 1507
 uses = ["def-sc-kummer-sequence", "det-def-pic"]
 lean = ["AlgebraicGeometry.Scheme.exists_exact_sheafH_rootsOfUnitySheaf_one", "AlgebraicGeometry.Scheme.nonempty_addEquiv_sheafH_rootsOfUnitySheaf_one", "AlgebraicGeometry.nonempty_addEquiv_sheafH_rootsOfUnitySheaf_one_of_isProper", "IsAlgClosed.exists_pow_eq_of_finite"]
 +++

@@ -3,7 +3,7 @@ id = "lem-weil-pbc-module-sheaves-enough-injectives"
 kind = "lemma"
 title = "Sheaves of modules on the small etale site have enough injectives"
 lean = ["AlgebraicGeometry.Scheme.enoughInjectives_sheaf_smallEtaleTopology_moduleCat", "AlgebraicGeometry.Scheme.enoughInjectives_sheaf_smallEtaleTopology_addCommGrpCat"]
-order = 1948
+order = 2070
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site", "def-weil-pbc-constant-sheaf", "def-weil-sheaf-of-modules-category", "def-sp-injective-resolutions", "def-weil-pbc-abelian-etale-sheaves"]
 tags = ["stacks-079H"]
 +++

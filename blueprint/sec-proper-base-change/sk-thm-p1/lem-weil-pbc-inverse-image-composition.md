@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Inverse images along a composite: the canonical isomorphism compatible with the units"
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-pc-fibre-product"]
 lean = ["AlgebraicGeometry.Etale.lowerStarComp", "AlgebraicGeometry.Etale.lowerStarComp_hom_app_hom_app", "AlgebraicGeometry.Etale.upperStarComp", "AlgebraicGeometry.Etale.conjugateIsoEquiv_upperStarComp", "AlgebraicGeometry.Etale.upperStarComp_hom_app_unit_app", "AlgebraicGeometry.Etale.lowerStarId", "AlgebraicGeometry.Etale.upperStarId", "AlgebraicGeometry.Etale.upperStarId_hom_app_unit_app"]
-order = 1824
+order = 1947
 tags = ["stacks-03CB"]
 +++
 Let $u:Y\to X$ and $v:Z\to Y$ be morphisms of schemes [def-pc-scheme], with small etale sites [def-weil-pbc-etale-site], categories of abelian sheaves $\Ab(-_{\Et})$ [def-weil-pbc-abelian-etale-sheaves], direct images $u_*,v_*,(u\circ v)_*$ given by $(u_*F)(W)=F(W\times_XY)$ [def-weil-pbc-direct-image], and inverse images $u^{-1},v^{-1},(u\circ v)^{-1}$ with the units $\eta_u,\eta_v,\eta_{u\circ v}$ of the adjunctions $u^{-1}\dashv u_*$, $v^{-1}\dashv v_*$, $(u\circ v)^{-1}\dashv(u\circ v)_*$ [def-weil-pbc-inverse-image].

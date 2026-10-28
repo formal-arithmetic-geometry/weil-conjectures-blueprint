@@ -2,7 +2,7 @@
 id = "thm-trf-lefschetz-verdier"
 kind = "theorem"
 title = "Lefschetz–Verdier trace comparison"
-order = 3647
+order = 3812
 uses = ["def-trf-admissibility", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-fixed-scheme", "def-trf-global-operator", "def-trf-local-term", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "lem-trf-global-operator-perfect", "lem-trf-integration-component-sum", "thm-trf-fixed-point-localization"]
 +++
 Fix the global finite-field datum

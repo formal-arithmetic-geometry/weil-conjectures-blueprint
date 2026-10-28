@@ -2,7 +2,7 @@
 id = "sk-lem-curve-finite-support"
 kind = "lemma"
 title = "Finite-support sheaves and finite maps"
-order = 1441
+order = 1549
 lean = ["AlgebraicGeometry.zero_dimensional_etale_cohomology", "AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_topologicalKrullDim_le_zero", "AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite", "AlgebraicGeometry.Etale.rightDerivedFunctorLowerStarIsoMapDerivedCategory", "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite"]
 uses = ["sk-prop-sf-comparison"]
 tags = ["sketch"]

@@ -2,8 +2,8 @@
 id = "sec-zeta-weil"
 kind = "section"
 title = "Zeta Functions and the Weil Conjectures"
-order = 4095
-uses = ["sec-abelian-varieties", "sec-curve-estimates", "sec-deligne-laumon-general", "sec-nagata-compactification", "sec-picard-framework", "sec-poincare-duality", "sec-proetale-coefficients", "sec-proper-base-change", "sec-purity-real-sheaves", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula", "sk-thm-br", "sk-thm-curveestimate"]
+order = 4327
+uses = ["sec-deligne-laumon-general", "sec-trace-formula"]
 +++
 **Content.** For a smooth proper $X_0/\Fq$ of pure dimension $d$, this
 section proves the purity of its cohomology and the Weil conjectures. For
@@ -19,7 +19,7 @@ fraction of integral polynomials with constant coefficients one
 ([sk-prop-criterion], [sk-lem-wweil-integer-rationality]), and purity
 separates the cohomological factors by degree, which yields integral,
 $\ell$-independent factors $P_i\in\Z[T]$ whose reciprocal roots are
-$q$-Weil numbers ([sk-thm-intfactors]).
+$q$-Weil numbers ([sk-thm-weil-final]).
 
 **Key theorem.**
 

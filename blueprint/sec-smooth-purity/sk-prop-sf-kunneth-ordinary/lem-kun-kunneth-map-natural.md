@@ -3,7 +3,7 @@ id = "lem-kun-kunneth-map-natural"
 kind = "lemma"
 title = "Naturality of the Kunneth map"
 lean = ["AlgebraicGeometry.Etale.kunnethMap_naturality"]
-order = 3148
+order = 3124
 uses = ["def-kun-kunneth-map", "def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image"]
 +++
 Let

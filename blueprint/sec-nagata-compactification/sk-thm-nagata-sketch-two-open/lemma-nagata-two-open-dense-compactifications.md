@@ -2,7 +2,7 @@
 id = "lemma-nagata-two-open-dense-compactifications"
 kind = "lemma"
 title = "Properties of the chosen dense compactifications"
-order = 365
+order = 275
 lean = ["AlgebraicGeometry.exists_compactification_isSchemeTheoreticallyDominant"]
 uses = ["def-nagata-compactifiable", "def-nagata-compactification", "def-nagata-dense-compactification", "def-nagata-two-open-dense-compactifications"]
 +++

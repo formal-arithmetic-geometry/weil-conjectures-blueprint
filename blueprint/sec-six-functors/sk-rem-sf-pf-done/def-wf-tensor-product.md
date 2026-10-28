@@ -2,7 +2,7 @@
 id = "def-wf-tensor-product"
 kind = "definition"
 title = "Derived tensor product"
-order = 3330
+order = 3470
 uses = ["def-weil-weil-sheaf-complex", "det-def-sfb-derived-tensor-hom"]
 +++
 For $\Lambda\in\{E,\Qlb\}$, regarded as a condensed ring, the derived

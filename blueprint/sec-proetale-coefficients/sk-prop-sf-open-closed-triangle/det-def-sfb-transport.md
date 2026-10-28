@@ -2,7 +2,7 @@
 id = "det-def-sfb-transport"
 kind = "definition"
 title = "Transport of module objects and projection formulas"
-order = 1141
+order = 1185
 uses = ["det-def-sfb-change-of-scalars", "det-def-sfb-ring-object", "det-def-sfb-module-objects"]
 lean = ["CategoryTheory.Functor.mapMod", "CategoryTheory.Adjunction.mapModAdjunction", "CategoryTheory.Functor.ProjectionFormula", "CategoryTheory.Functor.ProjectionFormula.mapModLeft", "CategoryTheory.Functor.ProjectionFormula.mapModRight", "CategoryTheory.Functor.ProjectionFormula.mapModAdjunction", "CategoryTheory.Adjunction.HasProjectionFormula", "CategoryTheory.Adjunction.projectionFormula", "CategoryTheory.Adjunction.mapModLeftAdjunction"]
 +++

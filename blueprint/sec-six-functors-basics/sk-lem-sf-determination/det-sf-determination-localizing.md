@@ -2,7 +2,7 @@
 id = "det-sf-determination-localizing"
 kind = "lemma"
 title = "Invertibility propagates to the localizing closure"
-order = 2248
+order = 2493
 uses = ["lem-sf-triangle-two-out-of-three", "lem-sf-generating-class-determination"]
 +++
 Let $\mathcal T,\mathcal T'$ be triangulated categories with arbitrary direct

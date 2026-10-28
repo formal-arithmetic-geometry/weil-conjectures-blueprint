@@ -6,8 +6,12 @@ The stalk of $j_*\mathcal F$ is the group of sections over the
 punctured spectrum of the strict henselization at $\bar s$. Finite
 locally constant sheaves there correspond to finite continuous
 representations of the inertia group ([sk-lem-finite]), and their sections
-are the invariant vectors. Applying this to the finite reductions of a stable
-lattice ([sk-p-real-integral]) and passing to the inverse limit, we obtain
+are the invariant vectors. By [sk-p-real-integral],
+$\mathcal F$, restricted to the connected component of $U$ whose closure
+contains $\bar s$, corresponds to a continuous representation $V$ of the
+fundamental group of that component; the compact group $I_s$ stabilizes an
+$\mathcal O_E$-lattice in $V$ for a finite $E$, and applying this to the
+finite reductions of that lattice and passing to the inverse limit, we obtain
 the formula with integral coefficients. Rationalization commutes with taking
 invariants, since a power of the uniformizer carries an invariant
 rational vector into the lattice. A finite extension of scalars also

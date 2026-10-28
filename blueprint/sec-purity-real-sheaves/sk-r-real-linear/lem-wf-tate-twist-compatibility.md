@@ -3,7 +3,7 @@ id = "lem-wf-tate-twist-compatibility"
 kind = "lemma"
 title = "Compatibility of the Tate twists"
 lean = ["AlgebraicGeometry.WeilSheaf.tateTwistSheafIso"]
-order = 3797
+order = 3985
 uses = ["def-weil-pbc-proetale-site", "sk-def-sp-tate-twist", "def-wf-tate-twist", "lem-wf-internal-hom-weil", "lem-wf-tensor-weil"]
 +++
 For every $m\in\mathbf Z$, the functorial pullback of roots of unity

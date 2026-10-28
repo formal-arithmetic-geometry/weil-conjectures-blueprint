@@ -2,7 +2,7 @@
 id = "pur713-def-star-exchange"
 kind = "definition"
 title = "Direct-image exchange, finite coefficients"
-order = 3021
+order = 3359
 uses = ["pur713-def-pullback-comparison"]
 +++
 The finite-coefficient direct-image exchange for $\square$ is the natural transformation

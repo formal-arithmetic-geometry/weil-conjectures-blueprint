@@ -3,7 +3,7 @@ id = "lem-sf-point"
 kind = "lemma"
 title = "The point, evaluated"
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedGlobalSections_of_isPerfectPairing", "AlgebraicGeometry.Etale.homSingleShiftEquivOfIsSepClosed", "AlgebraicGeometry.Etale.isEquivalence_rightDerivedGlobalSections_of_isSepClosed", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedGlobalSections_coefficientDual", "AlgebraicGeometry.Etale.rightDerivedLowerShriekIdIso", "AlgebraicGeometry.Etale.rightDerivedUpperShriekIdIso", "AlgebraicGeometry.Etale.dualizingComplexIdIso"]
-order = 3287
+order = 3488
 uses = ["def-sf-datum", "def-weil-finite-coefficient-point", "def-weil-ordinary-compact-cohomology"]
 +++
 In the setting of [def-sf-datum], assume that $k$ is separably closed,

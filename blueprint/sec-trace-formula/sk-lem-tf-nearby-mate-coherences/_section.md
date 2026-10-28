@@ -2,7 +2,7 @@
 id = "sk-lem-tf-nearby-mate-coherences"
 kind = "lemma"
 title = "Coherences of the exchange maps"
-order = 3574
+order = 3671
 uses = ["sk-thm-nagata-compactification"]
 tags = ["sketch"]
 +++

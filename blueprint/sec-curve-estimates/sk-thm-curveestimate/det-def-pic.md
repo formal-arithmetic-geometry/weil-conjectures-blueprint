@@ -2,7 +2,7 @@
 id = "det-def-pic"
 kind = "definition"
 title = "Picard group, degree, $\\Pic^0$"
-order = 1401
+order = 1506
 uses = ["def-sc-curves", "def-sc-divisor", "def-sc-picard-group"]
 lean = ["AlgebraicGeometry.Scheme.CohomologicalPicardGroup", "AlgebraicGeometry.Scheme.picDegreeHom", "AlgebraicGeometry.Scheme.nonempty_equiv_H_one_and_surjective_picDegreeHom", "AlgebraicGeometry.Scheme.Pic.toCohomologicalPicardGroupAddEquiv", "AlgebraicGeometry.Scheme.exists_divisorClassGroup_addEquiv_pic"]
 +++

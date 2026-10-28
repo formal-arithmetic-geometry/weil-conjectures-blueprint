@@ -2,7 +2,7 @@
 id = "lem-sc-kummer-exact"
 kind = "lemma"
 title = "Exactness of the Kummer sequence"
-order = 1392
+order = 1497
 uses = ["def-sc-curves", "def-sc-kummer-sequence"]
 lean = ["AlgebraicGeometry.Scheme.kummerSequence_shortExact"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sfb-modobj-symmetric-bimodules"
 kind = "lemma"
 title = "Module objects over a commutative monoid are symmetric bimodules"
-order = 1102
+order = 1146
 uses = ["det-def-sfb-module-objects-definition"]
 lean = ["CategoryTheory.Mod.toBimodObj", "CategoryTheory.Mod.toBimod", "CategoryTheory.Mod.fullyFaithfulToBimod", "Bimod.IsSymmetric", "Bimod.isSymmetric_toBimodObj"]
 +++

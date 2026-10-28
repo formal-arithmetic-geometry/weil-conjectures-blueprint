@@ -2,7 +2,7 @@
 id = "sk-thm-sbc-karoubian"
 kind = "theorem"
 title = "Bounded t-structures on the condensed constructible categories"
-order = 2092
+order = 2222
 uses = ["sk-prop-sf-open-closed-triangle", "sk-prop-sfb-qlbar-colimit-x", "prop-weil-heart-abelian", "lem-weil-heart-short-exact-triangles"]
 tags = ["sketch"]
 +++

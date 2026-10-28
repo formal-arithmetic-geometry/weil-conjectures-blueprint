@@ -2,7 +2,7 @@
 id = "sk-i-real-compactification"
 kind = "lemma"
 title = "A proper smooth model"
-order = 3805
+order = 3993
 uses = ["sk-thm-nagata-compactification", "sk-thm-picard-rr"]
 lean = ["AlgebraicGeometry.exists_smooth_properCompactification"]
 tags = ["sketch"]

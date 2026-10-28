@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-cohomology-resolution-independent"
 kind = "theorem"
 title = "Resolution independence of etale cohomology"
-order = 1538
+order = 1661
 lean = ["CochainComplex.IsKInjective.nonempty_homology_iso"]
 uses = ["def-weil-pbc-etale-cohomology", "def-weil-pbc-etale-site", "def-sp-kinjective-bridge", "prop-weil-pbc-kinjective-resolutions-exist"]
 tags = ["latex:proposition"]

@@ -2,7 +2,7 @@
 id = "det-base-field-cd-finite-field"
 kind = "proposition"
 title = "A finite field has cohomological dimension at most one"
-order = 2106
+order = 2238
 uses = ["det-base-field-cd-galois-group", "det-base-field-cd-cochains", "det-base-field-cd-inflation", "lem-exc-field-discrete-modules", "def-sc-etale-torsion-cd", "det-cd-etale-comparison", "lem-sf-separably-closed-torsion-cd"]
 +++
 Let $K$ be a finite field. Then $H^s(\widehat{\mathbf Z},M)=0$ for every $s\geq2$

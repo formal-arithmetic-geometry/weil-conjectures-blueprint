@@ -2,7 +2,7 @@
 id = "def-weil-pbc-category-colimit"
 kind = "definition"
 title = "Colimit of a diagram in a category"
-order = 1253
+order = 1365
 lean = ["CategoryTheory.Limits.colimit", "CategoryTheory.Limits.Cocone", "CategoryTheory.Limits.IsColimit", "CategoryTheory.IsFiltered"]
 tags = ["mathlib", "stacks-002D"]
 +++

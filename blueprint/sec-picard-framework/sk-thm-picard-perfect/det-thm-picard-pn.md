@@ -2,7 +2,7 @@
 id = "det-thm-picard-pn"
 kind = "theorem"
 title = "Cohomology of $\\PP^n$, Serre 1954"
-order = 748
+order = 773
 lean = ["AlgebraicGeometry.ProjectiveSpace.nonempty_H_zero_twist_equiv", "AlgebraicGeometry.ProjectiveSpace.subsingleton_H_twist_of_ne", "AlgebraicGeometry.ProjectiveSpace.subsingleton_H_twist_top", "AlgebraicGeometry.ProjectiveSpace.nonempty_H_twist_top_equiv_dual", "AlgebraicGeometry.ProjectiveSpace.nonempty_H_zero_twist_linearEquiv_of_card_eq_one", "AlgebraicGeometry.ProjectiveSpace.canonicalModuleIsoTwist"]
 +++
 Let $k$ be a field, $X=\PP^n_k$, $\cO(m):=\cO_X(m)$, and

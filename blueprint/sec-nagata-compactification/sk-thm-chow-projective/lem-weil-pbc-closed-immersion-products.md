@@ -3,7 +3,7 @@ id = "lem-weil-pbc-closed-immersion-products"
 kind = "lemma"
 title = "Closure of the closed-immersion and finite-type properties"
 lean = ["AlgebraicGeometry.IsClosedImmersion.comp'", "AlgebraicGeometry.IsClosedImmersion.pullback_map", "AlgebraicGeometry.IsOpenImmersion.locallyOfFiniteType"]
-order = 419
+order = 434
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 The composite of closed immersions [def-weil-pbc-scheme-conventions] is a

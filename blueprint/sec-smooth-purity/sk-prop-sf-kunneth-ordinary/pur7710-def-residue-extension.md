@@ -2,7 +2,7 @@
 id = "pur7710-def-residue-extension"
 kind = "definition"
 title = "Residue scalar extension of sheaf complexes"
-order = 3071
+order = 3047
 +++
 Let $\rho:\mathcal O_E/\pi_E^n\to\mathcal O_E/\pi_E$ be the reduction homomorphism and $W$ a scheme. Residue scalar extension
 

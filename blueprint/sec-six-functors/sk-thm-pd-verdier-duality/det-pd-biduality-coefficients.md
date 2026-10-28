@@ -2,7 +2,7 @@
 id = "det-pd-biduality-coefficients"
 kind = "proposition"
 title = "Biduality: reduction to finite coefficients over an algebraically closed field"
-order = 3283
+order = 3483
 uses = ["det-pd-biduality-finite-algclosed"]
 +++
 Assume the finite-coefficient biduality of [det-pd-biduality-finite-algclosed].

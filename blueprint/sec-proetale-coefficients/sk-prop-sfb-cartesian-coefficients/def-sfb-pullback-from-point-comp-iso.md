@@ -2,7 +2,7 @@
 id = "def-sfb-pullback-from-point-comp-iso"
 kind = "definition"
 title = "The comparison $f^*\\circ p_Y^*\\cong p_X^*$"
-order = 1218
+order = 1286
 uses = ["def-sfb-upper-star-from-point", "def-sfb-finite-upper-star-comp"]
 lean = ["AlgebraicGeometry.ProEtale.upperStarFromPointComp"]
 +++

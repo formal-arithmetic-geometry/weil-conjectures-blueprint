@@ -2,7 +2,7 @@
 id = "det-thm-picard-duality"
 kind = "theorem"
 title = "Serre duality"
-order = 681
+order = 704
 uses = ["def-sc-curves"]
 lean = ["AlgebraicGeometry.Scheme.serreDuality", "AlgebraicGeometry.Scheme.serreDuality_residueTrace", "AlgebraicGeometry.Scheme.residueTrace", "AlgebraicGeometry.Scheme.residueTrace_symm_mk", "AlgebraicGeometry.Scheme.residueSum_differentialsPrincipalPartsMap", "AlgebraicGeometry.Scheme.Modules.cupPairing", "AlgebraicGeometry.Scheme.Modules.cupH0_naturality", "AlgebraicGeometry.Scheme.serreDuality_zero", "AlgebraicGeometry.Scheme.exists_serreDuality_zero_iso_trace", "AlgebraicGeometry.Scheme.subsingleton_H_and_dual_of_smoothOfRelativeDimension_zero", "AlgebraicGeometry.Scheme.genus_eq_arithmeticGenus"]
 +++

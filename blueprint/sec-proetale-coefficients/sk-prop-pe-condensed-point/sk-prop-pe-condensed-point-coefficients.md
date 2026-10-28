@@ -3,7 +3,7 @@ id = "det-pe-condensed-point-coefficients"
 kind = "lemma"
 title = "Coefficient sheaves of continuous functions"
 lean = ["AlgebraicGeometry.ProEtale.continuousMapAddSheaf", "AlgebraicGeometry.ProEtale.constantSheafIsoContinuousMapAddSheaf", "AlgebraicGeometry.ProEtale.constantSheafCompComparisonUpperStarIso", "AlgebraicGeometry.ProEtale.comparisonUpperStarConstantSheafIsoContinuousMapRingSheaf"]
-order = 1051
+order = 1092
 uses = ["def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism"]
 +++
 Let $X$ be a scheme and $M$ a topological abelian group. The presheaf

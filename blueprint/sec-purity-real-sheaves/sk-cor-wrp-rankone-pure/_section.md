@@ -2,7 +2,7 @@
 id = "sk-cor-wrp-rankone-pure"
 kind = "corollary"
 title = "Rank-one weights"
-order = 3831
+order = 4020
 uses = ["sk-d-real-weights", "sk-p-real-rankone"]
 lean = ["AlgebraicGeometry.WeilGroup.IsLisse.isPunctuallyPure_of_finrank_eq_one"]
 tags = ["sketch"]

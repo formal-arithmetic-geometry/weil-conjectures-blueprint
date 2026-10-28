@@ -2,7 +2,7 @@
 id = "def-nagata-two-open-comparison-space"
 kind = "definition"
 title = "The two-open comparison space"
-order = 371
+order = 281
 lean = ["AlgebraicGeometry.TwoOpenSide.comparisonMap", "AlgebraicGeometry.TwoOpenSide.comparisonSpace", "AlgebraicGeometry.TwoOpenSide.comparisonFst", "AlgebraicGeometry.TwoOpenSide.comparisonSnd", "AlgebraicGeometry.TwoOpenSide.isImmersion_comparisonMap"]
 uses = ["def-nagata-scheme-theoretic-image", "def-nagata-two-open-graph-extensions", "def-nagata-two-open-prepared-boundaries", "lemma-nagata-scheme-image-ideal-qc"]
 +++

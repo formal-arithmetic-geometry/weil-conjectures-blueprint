@@ -2,7 +2,7 @@
 id = "sk-thm-pbc-henselian-h0"
 kind = "theorem"
 title = "Henselian-pair comparison in degree zero"
-order = 1523
+order = 1644
 lean = ["AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_of_henselianRing", "AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_of_henselianRing", "AlgebraicGeometry.Etale.globalSectionsUpperStarMap_naturality"]
 uses = ["sk-def-conv", "sk-def-pbc-conventions"]
 tags = ["sketch"]

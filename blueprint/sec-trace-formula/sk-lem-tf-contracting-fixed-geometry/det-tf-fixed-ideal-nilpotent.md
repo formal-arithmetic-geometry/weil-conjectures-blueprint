@@ -2,7 +2,7 @@
 id = "det-tf-fixed-ideal-nilpotent"
 kind = "lemma"
 title = "The pulled-back ideal is nilpotent on a fixed component"
-order = 3593
+order = 3781
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be a correspondence of noetherian schemes, let $Z\subset X$
 have ideal $I$, and put $J=c_1^\cdot I\,\mathcal O_C$ and $L=c_2^\cdot I\,\mathcal O_C$ with

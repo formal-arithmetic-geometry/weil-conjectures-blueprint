@@ -3,7 +3,7 @@ id = "def-kun-kunneth-map"
 kind = "definition"
 title = "The Kunneth map"
 lean = ["AlgebraicGeometry.Etale.kunnethMap"]
-order = 3147
+order = 3123
 uses = ["def-kun-derived-tensor", "def-weil-pbc-cartesian-square", "def-weil-pbc-inverse-image", "lem-kun-inverse-image-monoidal", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Consider a

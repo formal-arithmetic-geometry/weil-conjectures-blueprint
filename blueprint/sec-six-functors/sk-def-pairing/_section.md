@@ -2,7 +2,7 @@
 id = "sk-def-pairing"
 kind = "definition"
 title = "Perfect pairing"
-order = 3289
+order = 3432
 uses = ["sk-def-sp-trace"]
 tags = ["sketch"]
 +++

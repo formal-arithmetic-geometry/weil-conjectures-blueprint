@@ -3,7 +3,7 @@ id = "prop-weil-pbc-composition-stability"
 kind = "theorem"
 title = "Composition stability"
 lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange.comp", "AlgebraicGeometry.Etale.HasInjectiveAcyclicity.comp"]
-order = 1928
+order = 2050
 uses = ["def-weil-pbc-scheme-conventions", "lemma-weil-pbc-cancellation"]
 tags = ["latex:proposition"]
 +++

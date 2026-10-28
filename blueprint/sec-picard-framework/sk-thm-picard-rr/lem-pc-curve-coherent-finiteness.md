@@ -3,7 +3,7 @@ id = "lem-pc-curve-coherent-finiteness"
 kind = "lemma"
 title = "Coherent cohomology of a smooth projective curve over an algebraically closed field"
 lean = ["AlgebraicGeometry.finiteDimensional_H_of_isCurve"]
-order = 653
+order = 676
 uses = ["def-pc-smooth-projective-curve", "lem-pc-projective-curve-finite-projection", "lem-sc-p1-coherent-finite", "lem-sc-p1-hi-vanishing", "pqf-def-coherent", "pqf-lem-affine-vanishing", "pqf-lem-coherent-ft-locnoeth", "pqf-lem-leray"]
 +++
 Let $k$ be an algebraically closed field, let

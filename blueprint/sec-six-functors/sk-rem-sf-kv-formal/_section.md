@@ -2,10 +2,10 @@
 id = "sk-rem-sf-kv-formal"
 kind = "proposition"
 title = "What is formal and what is not"
-order = 3355
+order = 3527
 tags = ["sketch"]
 +++
-Given biduality [sk-prop-sf-biduality-general], the Verdier exchange
+Given biduality [det-prop-sf-biduality-general], the Verdier exchange
 [sk-thm-sf-verdier-exchange] has as its adjoint
 $Rf^!\cong\mathbb D_X\,Lf^*\,\mathbb D_Y$, and the internal adjunction
 $\RHom(A,\mathbb D C)\cong\mathbb D(A\otimes^LC)$ then rewrites

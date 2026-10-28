@@ -3,7 +3,7 @@ id = "thm-pod-proper-poincare-duality"
 kind = "theorem"
 title = "Proper Poincare duality"
 lean = ["AlgebraicGeometry.Etale.TateOrientation.isPerfectPairing_properPoincarePairing", "AlgebraicGeometry.Etale.TateOrientation.degreewise_duality_of_isProper", "AlgebraicGeometry.Etale.isPerfectPairing_properPoincarePairing"]
-order = 3407
+order = 3580
 uses = ["cor-cbc-proper-coincidence", "def-pod-derived-poincare-pairing", "prop-pod-degree-of-the-pairing", "thm-pod-degreewise-perfectness-over-a-field", "thm-pod-derived-poincare-duality"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), assume in addition that $X_0$ is proper, let $\Lambda \in \{ A,\mathcal O_E,E,\overline{\mathbf Q}_{\ell }\}$ with $A=A_{E,n}$, let $K\in D^b_{ctf}(X,\Lambda )$ be perfect over $\Lambda _X$, let $K^\vee$ be the coefficient dual with Tate twist $K^\vee (d)$, and let $\beta _K$ be the derived Poincare pairing (mixed-support cup product, evaluation, normalized smooth trace). Since $X$ is proper, the canonical comparison $R\Gamma _c(X,K)\cong R\Gamma (X,K)$ of proper compact-support comparison (the proper case of $Rf_!\cong Rf_*$, $f=a_X$) identifies $\beta _K$ with a perfect pairing

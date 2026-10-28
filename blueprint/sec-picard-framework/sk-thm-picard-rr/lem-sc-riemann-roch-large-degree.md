@@ -2,7 +2,7 @@
 id = "lem-sc-riemann-roch-large-degree"
 kind = "lemma"
 title = "Sections of line bundles of degree at least $2g-1$"
-order = 699
+order = 722
 lean = ["AlgebraicGeometry.Scheme.Modules.finrankH_one_eq_zero_of_degree", "AlgebraicGeometry.Scheme.finrankH_zero_eq"]
 uses = ["def-sc-pic0", "lem-pc-degree-base-change", "lem-sc-canonical-degree", "lem-sc-negative-degree-no-sections", "lem-sc-riemann-roch", "thm-sc-serre-duality-curve"]
 +++

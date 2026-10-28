@@ -2,7 +2,7 @@
 id = "def-sp-acyclic"
 kind = "definition"
 title = "Acyclic objects for a left exact functor"
-order = 489
+order = 508
 lean = ["CategoryTheory.Functor.rightAcyclic"]
 uses = ["def-sp-left-exact-additive"]
 +++

@@ -14,7 +14,7 @@ counits and with $j_!$, together with naturality and
 prop:compactification-coherence. Compatibility with base change: choose
 a compactification $f=p\circ j$ and base change it along $g$ to
 $f'=p'\circ j'$, with $\bar g':\overline X'\to\overline X$ over $g$; by
-[sk-def-sf-exchanges] and [sk-prop-sf-comp-proper], $\operatorname{Ex}_!$
+[det-def-sf-exchanges] and [sk-prop-sf-comp-proper], $\operatorname{Ex}_!$
 is the identification $L\bar g'^*j_!\cong j'_!Lg'^*$ followed by the
 proper-base-change exchange $\operatorname{Ex}_*$ for $p$. On the $j_!$
 factor both composites take values in the essential image of $j'_!$, where a
@@ -36,5 +36,5 @@ $\operatorname{PF}_{p'}\circ(\operatorname{Ex}_*\otimes1):
 Lg^*Rp_*M\otimes^LL'\to Rp'_*(L\bar g'^*M\otimes^LLp'^*L')$ with the
 transpose of $L\bar g'^*\varepsilon_p\otimes1$; this is the form used for the
 symmetry of the relative product in [sk-thm-sf-kunneth-relative].) The
-last clause is [sk-prop-sf-pf-reduction], [sk-thm-sf-pf-field] and
+last clause is [det-prop-sf-pf-reduction], [sk-thm-sf-pf-field] and
 [sk-thm-sf-pf-proetale].

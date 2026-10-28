@@ -3,7 +3,7 @@ id = "lem-av-tate-transition-surjective"
 kind = "lemma"
 title = "The transition maps of the Tate module are surjective"
 lean = ["AlgebraicGeometry.surjective_comp_torsionSubgroupSchemeMul"]
-order = 545
+order = 565
 uses = ["def-sc-mult-n", "lem-sc-isogeny-facts", "lem-sc-mult-n-isogeny", "lem-sc-finite-flat-surj-points"]
 +++
 Let $A$ be an abelian variety over a field $k$ with algebraic closure $\bar k$, and let

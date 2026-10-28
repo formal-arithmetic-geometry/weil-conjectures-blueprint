@@ -2,8 +2,8 @@
 id = "det-existence-localizing"
 kind = "proposition"
 title = "Compact generation, $Rf_!$ and the Brown adjoint on $\\Loc(\\Dctf)$"
-order = 2116
-uses = ["sk-def-localizing-closure", "sk-lem-brown-hypotheses", "sk-prop-ctf-finite-compact", "sk-thm-constructible-compactness", "sk-cor-constructible-compactness-ii", "sk-prop-int-compactness", "sk-prop-sf-comp-coherence", "sk-prop-proper-image-localizing", "sk-prop-sf-existence"]
+order = 2785
+uses = ["sk-def-localizing-closure", "sk-lem-brown-hypotheses", "sk-prop-ctf-finite-compact", "sk-thm-constructible-compactness", "det-brown-hypotheses-generation", "sk-prop-int-compactness", "sk-prop-sf-comp-coherence", "sk-prop-proper-image-localizing", "sk-prop-sf-existence"]
 +++
 Let $\Lambda\in\{A,\mathbf Z_\ell,\cO_E,\mathbf Q_\ell,E,\Qlb\}$ be admissible and let
 $f\colon X\to Y$ be a separated morphism of finite type between standing schemes.

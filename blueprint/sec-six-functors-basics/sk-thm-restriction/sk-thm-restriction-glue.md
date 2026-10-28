@@ -2,7 +2,7 @@
 id = "det-thm-restriction-glue"
 kind = "lemma"
 title = "Gluing constructibility of $f^!K$ and restricting the adjunction"
-order = 2431
+order = 2774
 uses = ["det-thm-restriction-local", "sk-prop-sf-comp-coherence", "sk-prop-sf-existence"]
 +++
 Let $\Lambda=E$ or $\Qlb$ and $f:X\to Y$ separated of finite type.

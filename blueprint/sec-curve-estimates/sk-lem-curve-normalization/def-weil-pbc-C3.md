@@ -3,7 +3,7 @@ id = "def-weil-pbc-C3"
 kind = "definition"
 title = "Assertion (C3): vanishing for a $p$-primary coefficient"
 lean = ["AlgebraicGeometry.IsCurve.VanishingAboveOneOfIsPrimaryTorsionSheaf"]
-order = 1447
+order = 1555
 uses = ["def-weil-pbc-curve-setting", "def-weil-pbc-primary-torsion"]
 +++
 For every curve coefficient pair [def-weil-pbc-curve-setting] $(C,F)$ with

@@ -3,7 +3,7 @@ id = "cor-pd-finite-level"
 kind = "theorem"
 title = "The descent datum is defined at a finite separable level"
 lean = ["AlgebraicGeometry.exists_isClosedImmersion_projectiveSpace_of_isPullback", "AlgebraicGeometry.exists_intermediateField_descentDatum", "AlgebraicGeometry.exists_intermediateField_descentDatum_isClosedImmersion"]
-order = 857
+order = 887
 tags = ["latex:corollary"]
 uses = ["def-pc-base-change", "def-pc-geometrically-irreducible", "def-pc-morphism-conventions", "def-pc-projective-morphism", "def-pc-smooth-projective-curve", "def-pd-descent-datum", "def-pd-separable-closure", "lem-pd-canonical-descent-datum", "lem-pd-descent-cocycle", "lem-sc-abelian-variety-projective", "thm-pd-geometric-pic0", "thm-pd-spreading-out"]
 +++

@@ -3,7 +3,7 @@ id = "det-pe-wlocal-components"
 kind = "lemma"
 title = "Components of a w-local space"
 lean = ["WLocalSpace.spectralSpace_closedPoints", "WLocalSpace.t1Space_closedPoints", "WLocalSpace.CompactSpace_closedPoints", "SpectralSpace.totallySeparatedSpace", "WLocalSpace.isHomeomorph_connectedComponents_closedPoints", "WLocalSpace.closedPoints_eq_of_mk_eq"]
-order = 892
+order = 930
 uses = ["def-weil-pbc-w-local"]
 +++
 Let $T$ be a w-local spectral space [def-weil-pbc-w-local], with set $T^c$ of closed

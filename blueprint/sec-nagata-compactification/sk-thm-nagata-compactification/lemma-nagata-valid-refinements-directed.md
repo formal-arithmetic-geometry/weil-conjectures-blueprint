@@ -2,7 +2,7 @@
 id = "lemma-nagata-valid-refinements-directed"
 kind = "lemma"
 title = "Valid finite coefficient refinements form a directed set"
-order = 42
+order = 350
 lean = ["AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.nonempty_and_isDirected_stage", "AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.Stage.transition", "AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.Stage.transition_refl", "AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.Stage.transition_trans"]
 uses = ["def-nagata-noetherian-stage", "lemma-nagata-affine-gluing-identities-eventually", "lemma-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++

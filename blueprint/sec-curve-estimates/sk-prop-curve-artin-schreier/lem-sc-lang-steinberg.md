@@ -3,7 +3,7 @@ id = "lem-sc-lang-steinberg"
 kind = "lemma"
 title = "Lang–Steinberg for vector spaces"
 lean = ["LinearMap.Frobenius.surjective_sub_id"]
-order = 1432
+order = 1539
 +++
 Let $k$ be an algebraically closed field of characteristic
 $p>0$, $V$ a finite-dimensional $k$-vector space and

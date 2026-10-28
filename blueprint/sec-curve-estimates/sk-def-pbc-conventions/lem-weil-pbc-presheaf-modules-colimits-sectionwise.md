@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-presheaf-modules-colimits-sectionwise"
 kind = "lemma"
 title = "Colimits of presheaves of modules are computed sectionwise"
-order = 1264
+order = 1376
 uses = ["def-weil-presheaf-modules-sheafification"]
 lean = ["PresheafOfModules.hasColimitsOfSize", "PresheafOfModules.evaluation_preservesColimitsOfSize", "PresheafOfModules.toPresheaf_preservesColimitsOfSize"]
 tags = ["mathlib", "stacks-03DB"]

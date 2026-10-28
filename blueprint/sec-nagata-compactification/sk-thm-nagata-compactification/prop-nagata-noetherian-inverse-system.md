@@ -2,7 +2,7 @@
 id = "prop-nagata-noetherian-inverse-system"
 kind = "theorem"
 title = "[stacks-project]"
-order = 38
+order = 346
 lean = ["AlgebraicGeometry.Scheme.nonempty_noetherianApproximation"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-noetherian-inverse-system"]

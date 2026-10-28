@@ -2,8 +2,8 @@
 id = "sk-r-real-linear"
 kind = "proposition"
 title = "Elementary weight operations"
-order = 3781
-uses = ["sk-p-tate", "sk-d-real-weights", "sk-d-real-weil", "sk-def-sp-tate-twist", "sk-p-linear-filtration", "sk-r-linear-library"]
+order = 3966
+uses = ["sk-p-tate", "sk-d-real-weights", "sk-d-real-weil", "sk-def-sp-tate-twist", "sk-p-linear-filtration"]
 lean = ["AlgebraicGeometry.WeilGroup.frobeniusWeight_inv", "AlgebraicGeometry.WeilGroup.IsPunctuallyPure.dual"]
 tags = ["sketch"]
 +++

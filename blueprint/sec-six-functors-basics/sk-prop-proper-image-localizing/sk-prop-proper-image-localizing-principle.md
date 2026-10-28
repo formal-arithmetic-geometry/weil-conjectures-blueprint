@@ -2,7 +2,7 @@
 id = "det-proper-image-localizing-principle"
 kind = "lemma"
 title = "Functors preserving sums and generators preserve the localizing closures"
-order = 2242
+order = 2484
 uses = ["sk-def-localizing-closure"]
 +++
 Let $\mathcal T,\mathcal T'$ be triangulated categories with arbitrary direct sums, $\mathcal G\subset\mathcal T$ and

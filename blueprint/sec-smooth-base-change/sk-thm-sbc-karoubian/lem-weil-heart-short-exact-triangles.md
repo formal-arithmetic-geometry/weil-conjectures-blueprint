@@ -3,7 +3,7 @@ id = "lem-weil-heart-short-exact-triangles"
 kind = "lemma"
 title = "Short exact sequences in the heart are triangles"
 lean = ["CategoryTheory.Triangulated.TStructure.triangle_hom_ext_of_isLE_of_isGE", "CategoryTheory.Triangulated.TStructure.exists_iso_triangleLEGE", "CategoryTheory.Triangulated.TStructure.truncLEFunctor", "CategoryTheory.Triangulated.TStructure.truncGEFunctor", "CategoryTheory.Triangulated.TStructure.truncLEAdjunction", "CategoryTheory.Triangulated.TStructure.truncGEAdjunction", "CategoryTheory.Triangulated.TStructure.heart\u2082", "CategoryTheory.Triangulated.TStructure.exists_isLimit_kernelFork_of_distTriang", "CategoryTheory.Triangulated.TStructure.exists_isColimit_cokernelCofork_of_distTriang", "CategoryTheory.Triangulated.TStructure.eq_of_distTriang_of_heart", "CategoryTheory.Triangulated.TStructure.shortExact_iff_exists_distTriang", "CategoryTheory.Triangulated.TStructure.homology\u2080", "CategoryTheory.Triangulated.TStructure.homology\u2080_exact", "CategoryTheory.Triangulated.TStructure.isHomological_homology\u2080", "AlgebraicGeometry.WeilSheaf.exact_map_higherLowerShriek"]
-order = 2094
+order = 2224
 uses = ["def-weil-t-structure", "prop-weil-heart-abelian"]
 +++
 Let $(\mathcal T^{\le0},\mathcal T^{\ge0})$ be a t-structure on a

@@ -2,7 +2,7 @@
 id = "rem-sf-ctf-descent"
 kind = "remark"
 title = "How the verified domains enter the formal framework"
-order = 3369
+order = 3542
 uses = ["cor-coef-integral-internal-hom", "def-sf-datum", "lem-coef-finite-exceptional", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-fix-general-biduality", "thm-sf-ctf-stability", "sk-thm-existence", "sk-thm-pd-verdier-duality", "sk-prop-scalar-six"]
 +++
 The clauses of [thm-sf-ctf-stability] may be substituted into

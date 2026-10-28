@@ -3,7 +3,7 @@ id = "det-def-sfb-qlbar-condensed-subextensions"
 kind = "lemma"
 title = "Finite subextensions of $\\overline{\\mathbf Q}_\\ell$ form a directed poset"
 lean = ["PadicAlgCl.FiniteIntermediateField", "IntermediateField.finiteDimensional_sup", "IntermediateField.finrank_sup_le", "IntermediateField.finiteDimensional_iSup_of_finite", "IntermediateField.finiteDimensional_adjoin"]
-order = 1187
+order = 1234
 +++
 Let $\ell$ be a prime and $\Qlb$ an algebraic closure of $\mathbf Q_\ell$. A *finite subextension*
 is an intermediate field $\mathbf Q_\ell\subseteq E\subseteq\Qlb$ with $[E:\mathbf Q_\ell]<\infty$.

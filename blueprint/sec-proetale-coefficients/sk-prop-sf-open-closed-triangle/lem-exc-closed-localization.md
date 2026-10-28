@@ -3,7 +3,7 @@ id = "lem-exc-closed-localization"
 kind = "lemma"
 title = "Closed-site operations under weakly etale localization"
 lean = ["AlgebraicGeometry.ProEtale.squareLowerStarIso", "AlgebraicGeometry.ProEtale.localizationRestrictionBaseChangeMap", "AlgebraicGeometry.ProEtale.isIso_localizationRestrictionBaseChangeMap_of_isPullback", "AlgebraicGeometry.ProEtale.mateEquiv_localizationRestrictionBaseChangeMap", "AlgebraicGeometry.ProEtale.isIso_baseChangeMap_of_isPullback", "AlgebraicGeometry.ProEtale.upperStarComp"]
-order = 1091
+order = 1135
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-proetale-operations", "lem-weil-pbc-proetale-restriction-injectives"]
 +++
 Consider a cartesian square [def-weil-pbc-cartesian-square]

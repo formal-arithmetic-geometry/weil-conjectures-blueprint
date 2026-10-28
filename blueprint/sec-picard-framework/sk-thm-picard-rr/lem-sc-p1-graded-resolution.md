@@ -3,7 +3,7 @@ id = "lem-sc-p1-graded-resolution"
 kind = "lemma"
 title = "Resolutions by twists on $\\mathbf P^1_k$"
 lean = ["AlgebraicGeometry.ProjectiveLine.exists_shortExact_sigma_twist", "AlgebraicGeometry.ProjectiveLine.exists_exact_sigma_twist"]
-order = 660
+order = 683
 uses = ["def-sc-p1-standard", "lem-sc-p1-twist-exists"]
 +++
 Let $k$ be a field and $\mathcal G$ a coherent

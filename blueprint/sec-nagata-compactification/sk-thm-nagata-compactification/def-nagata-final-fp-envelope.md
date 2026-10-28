@@ -3,7 +3,7 @@ id = "def-nagata-final-fp-envelope"
 kind = "definition"
 title = "Finite-presentation envelope used in the final assembly"
 lean = ["AlgebraicGeometry.Scheme.Hom.fpEnvelope", "AlgebraicGeometry.Scheme.Hom.toFpEnvelope", "AlgebraicGeometry.Scheme.Hom.fpEnvelopeHom"]
-order = 94
+order = 402
 uses = ["def-nagata-finite-type-closed-in-fp"]
 +++
 Define

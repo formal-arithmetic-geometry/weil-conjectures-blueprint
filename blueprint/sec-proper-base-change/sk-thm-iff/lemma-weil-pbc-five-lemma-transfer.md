@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-five-lemma-transfer"
 kind = "lemma"
 title = "Five-lemma transfer for exchange"
-order = 1546
+order = 1669
 lean = ["AlgebraicGeometry.Etale.exists_connecting_baseChangeHomologyMap", "AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_X₂_of_shortExact"]
 uses = ["def-weil-pbc-derived-exchange", "def-weil-pbc-etale-sheaves", "lemma-weil-pbc-derived-exchange-replacement"]
 +++

@@ -3,7 +3,7 @@ id = "lem-sc-connected-finite-order"
 kind = "lemma"
 title = "Order of connected finite group schemes"
 lean = ["AlgebraicGeometry.exists_finrankΓ_eq_pow"]
-order = 536
+order = 555
 uses = ["def-sc-group-scheme"]
 +++
 Let $G$ be a finite flat group

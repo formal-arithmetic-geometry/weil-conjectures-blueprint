@@ -2,7 +2,7 @@
 id = "lem-chow-tuple-immersion"
 kind = "lemma"
 title = "Tuples of morphisms with one immersion"
-order = 430
+order = 445
 lean = ["AlgebraicGeometry.isImmersion_left_pi_lift"]
 +++
 Let $S$ be a scheme, let $(Y_i)_{i\in I}$ be a family of schemes over $S$ whose

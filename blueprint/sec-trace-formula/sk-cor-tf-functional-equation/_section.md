@@ -2,7 +2,8 @@
 id = "sk-cor-tf-functional-equation"
 kind = "corollary"
 title = "Functional equation"
-order = 3540
+lean = ["AlgebraicGeometry.Scheme.duality_reciprocity", "AlgebraicGeometry.Scheme.reciprocity", "AlgebraicGeometry.Scheme.even_finrank_cohomology_middle"]
+order = 3870
 uses = ["sk-cor-tf-point-counting", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-poincare-duality"]
 tags = ["sketch"]
 +++
@@ -18,15 +19,10 @@ $$
  D=\prod_i\det(F_i)^{(-1)^i}.
 $$
 
-Then $D^2=q^{d\chi}$, and in $\Ql(T)$ we have
+Then $b_{2d-i}=b_i$, $d\chi$ is even, $D^2=q^{d\chi}$, and in $\Ql(T)$
 
 $$
- Z\!\left(X_0,\frac1{q^dT}\right)=(-1)^{\chi}D\,T^{\chi}\,Z(X_0,T).
+ Z\!\left(X_0,\frac1{q^dT}\right)=(-1)^{\chi}D\,T^{\chi}\,Z(X_0,T)
+ =\varepsilon q^{d\chi/2}T^{\chi}Z(X_0,T),
+ \qquad \varepsilon=(-1)^\chi Dq^{-d\chi/2}\in\{1,-1\}.
 $$
-
-*Complement.* The proof gives $b_{2d-i}=b_i$, the eigenvalues of $F_{2d-i}$
-are the $q^d/\alpha$ for the eigenvalues $\alpha$ of $F_i$, with
-multiplicities, and $\det F_i\cdot\det F_{2d-i}=q^{db_i}$. Moreover $d\chi$
-is even, so that $D=\varepsilon q^{d\chi/2}$ with $\varepsilon=\pm1$: for odd
-$d$ the middle pairing on $H^d$ is perfect and alternating, so $b_d$ is
-even, and $\chi\equiv b_d\pmod 2$ because $b_{2d-i}=b_i$.

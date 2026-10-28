@@ -2,7 +2,7 @@
 id = "det-sp-reduction-exceptional"
 kind = "lemma"
 title = "Exceptional inverse image of a smooth morphism commutes with extension of coefficients"
-order = 2956
+order = 2923
 uses = ["det-sp-reduction-direct-image", "det-sp-scalar-extension-functor"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$ and $A\to B$ a map of

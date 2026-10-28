@@ -3,7 +3,7 @@ id = "lem-sc-sylow-module-filtration"
 kind = "lemma"
 title = "Sylow reduction of a finite torsion module"
 lean = ["DiscreteModule.exists_isOpen_not_dvd_index_filtration", "Rep.exists_openSubgroup_primary_module_filtration"]
-order = 1362
+order = 1467
 uses = ["def-exc-continuous-cohomology"]
 +++
 Let $G$ be a compact topological group (for instance a profinite group),

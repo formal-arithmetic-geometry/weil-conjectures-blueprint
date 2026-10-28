@@ -3,7 +3,7 @@ id = "lemma-nagata-conrad-quasi-domination-proper-target"
 kind = "lemma"
 title = "A quasi-domination over a proper target is everywhere defined (Conrad)"
 lean = ["AlgebraicGeometry.QuasiDomination.U_eq_top"]
-order = 330
+order = 237
 uses = ["def-nagata-conrad-quasi-domination"]
 +++
 Let $Y\to S$ be separated and universally closed (for instance proper),

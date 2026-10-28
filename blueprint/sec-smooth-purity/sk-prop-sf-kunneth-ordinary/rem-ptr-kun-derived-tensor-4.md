@@ -2,7 +2,7 @@
 id = "rem-ptr-kun-derived-tensor-4"
 kind = "remark"
 title = "Pointer to the properties of [def-kun-derived-tensor]"
-order = 3136
+order = 3112
 uses = ["def-kun-derived-tensor"]
 +++
 In the notation of [def-kun-derived-tensor], the following holds. Every complex admits a

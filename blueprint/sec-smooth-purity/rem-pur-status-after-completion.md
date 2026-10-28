@@ -2,7 +2,7 @@
 id = "rem-pur-status-after-completion"
 kind = "remark"
 title = "Dependency order of the smooth-purity proof"
-order = 3260
+order = 3411
 uses = ["cor-amb-affine-space-adjunction", "cor-pur-vector-bundle-purity", "lem-pur-smb-extraordinary", "prop-asd-smooth-base-change", "thm-amb-p1-adjunction", "thm-amb-vector-bundle-purity", "thm-asd-smooth-tensor", "thm-pur-cohomological-smoothness", "thm-pur-diagonal-dualizing-object", "thm-pur-dnc-invariance", "thm-pur-finite-coefficient-smooth-purity", "thm-pur-smooth-base-change-coherence"]
 +++
 The independent starting point is the projective-line adjunction

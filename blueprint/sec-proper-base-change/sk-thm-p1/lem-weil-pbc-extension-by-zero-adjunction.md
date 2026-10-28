@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Extension by zero is left adjoint to restriction (étale site)"
 uses = ["def-weil-pbc-extension-by-zero", "def-weil-pbc-inverse-image"]
 lean = ["AlgebraicGeometry.Etale.openImmersionLowerShriekUpperStarAdjunction"]
-order = 1732
+order = 1857
 +++
 Let $\Lambda$ be a commutative ring ($\Lambda=\mathbf Z$ gives abelian sheaves), let $j:U\hookrightarrow X$ be an open immersion of schemes, and let $j_!:\Mod(U_{\Et},\Lambda)\to\Mod(X_{\Et},\Lambda)$ be extension by zero on sheaves of $\Lambda$-modules on the small etale sites [def-weil-pbc-extension-by-zero] and $j^{-1}:\Mod(X_{\Et},\Lambda)\to\Mod(U_{\Et},\Lambda)$ the inverse image [def-weil-pbc-inverse-image]. Then $j_!$ is left adjoint to $j^{-1}$: there are bijections
 $$

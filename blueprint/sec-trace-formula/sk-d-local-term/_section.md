@@ -2,7 +2,7 @@
 id = "sk-d-local-term"
 kind = "definition"
 title = "Local terms"
-order = 3634
+order = 3785
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-pairing", "sk-d-six", "sk-d-trace-class"]
 tags = ["sketch"]
 +++

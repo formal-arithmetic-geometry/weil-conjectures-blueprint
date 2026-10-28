@@ -3,7 +3,7 @@ id = "def-nagata-strict-chart-to-extended-blowup-chart"
 kind = "definition"
 title = "Map to the blow-up chart of the extended ideal"
 lean = ["AlgebraicGeometry.AffineBlowup.strictChartMap", "AlgebraicGeometry.AffineBlowup.coe_strictChartMap_tmul"]
-order = 265
+order = 170
 uses = ["def-nagata-blowup-chart-ring", "def-nagata-strict-transform-basechange-chart-ring"]
 +++
 Let $J=IB\subseteq B$, let $b$ be the image of $a$ in $B$, and write

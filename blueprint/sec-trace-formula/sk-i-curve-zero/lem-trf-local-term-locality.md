@@ -2,7 +2,7 @@
 id = "lem-trf-local-term-locality"
 kind = "lemma"
 title = "Locality and zero-stalk vanishing of the local term"
-order = 3510
+order = 3797
 uses = ["d-curve-pieces", "def-trf-correspondence", "def-trf-frobenius-coefficient-morphism", "def-trf-graph-correspondence", "def-trf-iterated-weil-map", "def-trf-local-term", "def-trf-trace-class-source", "lem-trf-local-term-point", "lem-trf-trace-map-from-external-duality", "thm-trf-frobenius-fixed-points"]
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be an admissible correspondence with

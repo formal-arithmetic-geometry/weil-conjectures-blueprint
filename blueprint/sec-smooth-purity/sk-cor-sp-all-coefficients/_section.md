@@ -2,7 +2,7 @@
 id = "sk-cor-sp-all-coefficients"
 kind = "corollary"
 title = "The dualizing complex of a smooth scheme"
-order = 3045
+order = 3386
 uses = ["sk-thm-purity-transport", "sk-thm-smooth-purity", "sk-prop-integral-criterion"]
 tags = ["sketch"]
 +++

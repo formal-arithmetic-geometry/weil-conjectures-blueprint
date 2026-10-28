@@ -3,7 +3,7 @@ id = "lemma-nagata-final-compactification-spec"
 kind = "lemma"
 title = "Components of the final compactification candidate"
 lean = ["AlgebraicGeometry.constructedCompactification_spec"]
-order = 98
+order = 406
 uses = ["def-nagata-closed-subscheme-compactification", "def-nagata-final-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image", "lemma-nagata-scheme-image-universal"]
 +++
 The ambient scheme $\overline X^{\mathrm{cl}}_f$ is the scheme-theoretic image of the

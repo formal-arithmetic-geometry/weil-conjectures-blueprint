@@ -2,7 +2,7 @@
 id = "def-nagata-two-open-boundary-loci"
 kind = "definition"
 title = "The four boundary loci"
-order = 367
+order = 277
 lean = ["AlgebraicGeometry.TwoOpenSide.forbiddenBoundary", "AlgebraicGeometry.TwoOpenSide.selfBoundary"]
 uses = ["def-nagata-two-open-graph-extensions"]
 +++

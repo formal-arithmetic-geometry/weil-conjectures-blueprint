@@ -2,7 +2,7 @@
 id = "rem-ptr-sc-isogeny-2"
 kind = "remark"
 title = "Pointer to the properties of [def-sc-isogeny]"
-order = 465
+order = 484
 uses = ["def-sc-isogeny"]
 +++
 In the notation of [def-sc-isogeny]: that such

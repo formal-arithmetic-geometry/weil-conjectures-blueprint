@@ -2,7 +2,7 @@
 id = "def-weil-finite-tor-amplitude"
 kind = "definition"
 title = "Finite Tor amplitude"
-order = 1165
+order = 1209
 lean = ["DerivedCategory.torAmplitudeIn", "DerivedCategory.finiteTorAmplitude", "AlgebraicGeometry.ProEtale.boundedConstructible", "AlgebraicGeometry.ProEtale.DerivedCategory.torAmplitudeIn", "AlgebraicGeometry.ProEtale.DerivedCategory.constructibleFiniteTor", "DerivedCategory.torAmplitudeIn.mono", "AlgebraicGeometry.ProEtale.DerivedCategory.torAmplitudeIn.mono", "AlgebraicGeometry.ProEtale.DerivedCategory.finiteTorAmplitude"]
 uses = ["def-sfb-bounded-constructible-complexes", "def-weil-derived-cohomology-sheaves", "def-weil-derived-tensor", "def-weil-finite-torsion-constructibility", "det-def-sfb-bounded-constructible", "det-def-sfb-derived-tensor-hom"]
 +++

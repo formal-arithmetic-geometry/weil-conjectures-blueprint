@@ -2,7 +2,7 @@
 id = "sk-prop-curve-artin-schreier"
 kind = "proposition"
 title = "Characteristic torsion on a smooth proper curve"
-order = 1430
+order = 1537
 lean = ["AlgebraicGeometry.Scheme.nonempty_addEquiv_sheafH_zero_constantZMod", "AlgebraicGeometry.IsCurve.exists_constantZMod_one_frobenius_baseChange_model", "AlgebraicGeometry.isZero_etaleCohomology_constantZMod_of_one_lt_of_charP", "AlgebraicGeometry.IsCurve.finite_sheafH_constantModSheaf_of_isProper", "AlgebraicGeometry.IsCurve.bijective_cohomologyMap_constantModSheaf_of_isProper"]
 uses = ["sk-prop-av-isogeny", "sk-prop-sf-comparison"]
 tags = ["sketch"]

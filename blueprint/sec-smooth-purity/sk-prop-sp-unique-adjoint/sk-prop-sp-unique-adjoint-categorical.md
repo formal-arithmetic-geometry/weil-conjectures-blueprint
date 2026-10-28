@@ -2,7 +2,7 @@
 id = "det-sp-unique-right-adjoint"
 kind = "lemma"
 title = "Right adjoints are unique up to a unique counit-compatible isomorphism"
-order = 3009
+order = 3012
 +++
 Let $F:\mathcal C\to\mathcal D$ be a functor with two right adjoints $G,J:\mathcal D\to\mathcal C$,
 with counits $\varepsilon^G:FG\to\mathrm{id}$ and $\varepsilon^J:FJ\to\mathrm{id}$. For

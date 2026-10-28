@@ -3,7 +3,7 @@ id = "det-pe-milnor-epimorphic"
 kind = "lemma"
 title = "Towers with epimorphic transitions have no derived limit terms"
 lean = ["CategoryTheory.GrothendieckTopology.epi_one_sub_of_forall_exists", "DerivedCategory.isHomotopyLimit_mapCone_Q_of_epi_one_sub", "AlgebraicGeometry.ProEtale.isHomotopyLimit_mapCone_Q_of_epi"]
-order = 948
+order = 992
 uses = ["det-pe-milnor-sequence", "det-pe-sections-conservative", "det-pe-wc-sections-exact", "det-pe-products-exact"]
 +++
 Let $\Lambda$ be a commutative ring.

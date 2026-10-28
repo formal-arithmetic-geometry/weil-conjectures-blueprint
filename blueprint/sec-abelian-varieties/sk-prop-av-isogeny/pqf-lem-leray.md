@@ -3,7 +3,7 @@ id = "pqf-lem-leray"
 kind = "lemma"
 title = "Leray spectral sequence"
 lean = ["AlgebraicGeometry.Scheme.Modules.exists_leraySpectralSequence"]
-order = 515
+order = 534
 uses = ["pqf-def-cohomology", "thm-sp-grothendieck"]
 +++
 Let $f:X\to Y$ be a morphism of schemes and $\mathcal F$ an

@@ -2,7 +2,7 @@
 id = "def-nagata-finite-affine-gluing-presentation"
 kind = "definition"
 title = "Selected finite affine gluing presentation"
-order = 31
+order = 339
 lean = ["AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation", "AlgebraicGeometry.Scheme.nonempty_finiteAffineGluingPresentation", "AlgebraicGeometry.Scheme.finiteAffineGluingPresentation"]
 +++
 A *finite affine gluing presentation* of a scheme $S$ consists of a finite

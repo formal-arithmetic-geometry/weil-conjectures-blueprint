@@ -2,7 +2,7 @@
 id = "def-sbc-smooth-morphisms"
 kind = "definition"
 title = "Smooth morphisms"
-order = 1569
+order = 1698
 lean = ["AlgebraicGeometry.Smooth", "Algebra.Smooth", "Algebra.FormallySmooth", "AlgebraicGeometry.SmoothOfRelativeDimension", "Algebra.IsStandardSmoothOfRelativeDimension", "AlgebraicGeometry.Etale", "AlgebraicGeometry.Etale.iff_smoothOfRelativeDimension_zero", "AlgebraicGeometry.smooth_iff_flat_and_smooth_fiber", "AlgebraicGeometry.Smooth.exists_smoothOfRelativeDimension_resLE", "AlgebraicGeometry.Smooth.isLocallyConstant_topologicalKrullDimAt_asFiber", "AlgebraicGeometry.topologicalKrullDimAt_eq_of_smoothOfRelativeDimension"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

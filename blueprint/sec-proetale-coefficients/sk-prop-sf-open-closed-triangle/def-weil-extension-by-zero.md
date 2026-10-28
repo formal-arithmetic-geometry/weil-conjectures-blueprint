@@ -2,7 +2,7 @@
 id = "def-weil-extension-by-zero"
 kind = "definition"
 title = "Extension by zero"
-order = 1080
+order = 1124
 lean = ["AlgebraicGeometry.ProEtale.openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.mem_essImage_or_isEmpty_costructuredArrow_op_overMap"]
 uses = ["def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++

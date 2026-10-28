@@ -2,8 +2,8 @@
 id = "def-fd-transform"
 kind = "definition"
 title = "The Fourier–Deligne transform"
-order = 3953
-uses = ["def-fd-kernel", "def-weil-pbc-scheme-conventions", "def-sf-setting", "det-def-sfb-derived-categories", "sk-def-sfb-module-derived-pushpull", "det-def-sfb-derived-tensor-hom", "sk-def-sfb-module-derived-lower-shriek", "det-def-sfb-bounded-constructible", "sk-prop-sf-comp-coherence", "sk-prop-ctf-finite-comparison"]
+order = 4166
+uses = ["def-fd-kernel", "def-weil-pbc-scheme-conventions", "def-sf-setting", "det-def-sfb-derived-categories", "det-def-sfb-module-derived-pushpull", "det-def-sfb-derived-tensor-hom", "det-def-sfb-module-derived-lower-shriek", "det-def-sfb-bounded-constructible", "sk-prop-sf-comp-coherence", "sk-prop-ctf-finite-comparison"]
 +++
 Let $\Lambda$, $p$, $\pi:V\to S$, $\pi':V'\to S$, the pairing $b$, the
 character $\Psi$ and the Fourier kernel $\mathcal K_\psi$ on
@@ -22,12 +22,12 @@ $$
 
 between the derived categories of $\Lambda$-modules on the pro-étale sites
 ([det-def-sfb-derived-categories]). Here $Lp_1^*$ is the derived pullback of
-module objects ([sk-def-sfb-module-derived-pushpull]), $\otimes^L_\Lambda$
+module objects ([det-def-sfb-module-derived-pushpull]), $\otimes^L_\Lambda$
 is the derived tensor product over $\Lambda_{V\times_SV'}$
 ([det-def-sfb-derived-tensor-hom]), $\mathcal K_\psi$ is regarded as a
 complex concentrated in degree $0$, and $Rp_{2,!}=Rg_*\circ D(i_!)$ is the
 derived lower shriek attached to the compactification
-([sk-def-sfb-module-derived-lower-shriek]). On the bounded constructible
+([det-def-sfb-module-derived-lower-shriek]). On the bounded constructible
 categories $\Dbc(-,\Lambda)\subset D(-_{\mathrm{proét}},\Lambda)$
 ([det-def-sfb-bounded-constructible]; for finite $\Lambda$ on
 $\Dctf(-,\Lambda)$) the functor $Rp_{2,!}$ is independent of the

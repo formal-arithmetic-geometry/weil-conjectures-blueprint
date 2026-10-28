@@ -2,7 +2,7 @@
 id = "det-tf-restriction-zero-covers"
 kind = "lemma"
 title = "Prime-to-ell covers separating graph and diagonal"
-order = 3498
+order = 3768
 uses = ["det-tf-restriction-zero-localization"]
 +++
 In the situation of [det-tf-restriction-zero-localization], there are finite covers

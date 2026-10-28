@@ -2,7 +2,7 @@
 id = "def-sfb-rationalization-linear"
 kind = "definition"
 title = "Linear structure of the rationalization"
-order = 2178
+order = 2322
 uses = ["def-sfb-rationalization-quotient", "lem-sfb-smul-id-in-w"]
 lean = ["CategoryTheory.Rationalization.isIso_smul_id", "CategoryTheory.Rationalization.toCatCenter", "CategoryTheory.Rationalization.linear", "CategoryTheory.Rationalization.algebraMap_smul"]
 +++

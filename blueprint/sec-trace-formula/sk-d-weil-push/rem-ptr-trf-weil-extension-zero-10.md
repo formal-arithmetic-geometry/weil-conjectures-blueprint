@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-weil-extension-zero-10"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-weil-extension-zero]"
-order = 3659
+order = 3839
 uses = ["def-trf-weil-extension-zero", "lem-trf-frobenius-open-square", "lem-trf-open-square-exchange"]
 +++
 In the notation of [def-trf-weil-extension-zero], $b_{g_Y}$ is the comparison isomorphism of

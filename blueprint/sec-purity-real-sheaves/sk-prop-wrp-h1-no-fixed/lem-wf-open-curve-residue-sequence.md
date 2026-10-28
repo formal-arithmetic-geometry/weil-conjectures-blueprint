@@ -3,7 +3,7 @@ id = "lem-wf-open-curve-residue-sequence"
 kind = "lemma"
 title = "Finite-level residue sequences on an open curve"
 lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_natCast_sub_one_mul_monodromy_eq_zero", "AlgebraicGeometry.Scheme.EtaleTorsor.exists_pow_mul_monodromy_eq_zero", "AlgebraicGeometry.Scheme.EtaleTorsor.exists_pullback_iso_of_isIsomorphic_mapIso", "AlgebraicGeometry.Scheme.EtaleTorsor.exists_extension_of_isIsomorphic_mapIso"]
-order = 3818
+order = 4006
 uses = ["def-coefficient-twists-detailed", "def-tw-frobenius-action", "def-weil-frobenius-coefficient-twists", "lem-pur-support-localization-triangle", "lem-sc-point-cartier", "prop-pur-regular-immersion-purity-compatibilities", "thm-pur-regular-immersion-purity"]
 +++
 Let $C_0/\mathbf F_q$ be a smooth projective geometrically connected

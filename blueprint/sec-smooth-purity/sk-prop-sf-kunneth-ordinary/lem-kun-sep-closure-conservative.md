@@ -2,7 +2,7 @@
 id = "lem-kun-sep-closure-conservative"
 kind = "lemma"
 title = "Conservativity of base change to a separable closure"
-order = 3151
+order = 3127
 uses = ["def-pc-separably-closed", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions", "lem-kun-stalk-as-pullback", "lem-kun-stalk-faithful-derived", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $X$ be a scheme over a field $K$. Every geometric point of

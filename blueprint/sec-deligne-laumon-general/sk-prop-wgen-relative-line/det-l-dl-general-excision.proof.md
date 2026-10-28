@@ -15,7 +15,7 @@ Frobenius-equivariant cohomology sequence, the term of degree $n$ is an
 extension of subquotients of the two outer terms in the same degree;
 both have the required bound, since restrictions preserve weights.
 
-*Target.* Compact-support base change [sk-prop-sf-cbc] identifies the
+*Target.* Compact-support base change [det-prop-sf-cbc] identifies the
 restrictions of $Rf_{0!}K$ to $V_0$ and $T_0$ with the direct images
 of the restricted complexes. Extension by zero and closed direct image
 preserve pure weights, so the same triangle on $Y_0$ gives the bound.

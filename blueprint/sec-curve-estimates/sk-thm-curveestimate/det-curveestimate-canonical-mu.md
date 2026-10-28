@@ -3,7 +3,7 @@ id = "det-curveestimate-canonical-mu"
 kind = "proposition"
 title = "Canonical $\\mu_n$-cohomology of a smooth proper curve"
 lean = ["AlgebraicGeometry.IsConnectedCurve.sheafH_rootsOfUnitySheaf_of_isProper", "AlgebraicGeometry.IsConnectedCurve.exists_addEquiv_sheafH_rootsOfUnitySheaf_one_jacobian", "AlgebraicGeometry.IsConnectedCurve.rootsOfUnityCohomologyMap_baseChangeField"]
-order = 1412
+order = 1517
 uses = ["def-sc-kummer-sequence", "lem-sc-kummer-exact", "lem-sc-kummer-les", "lem-sc-brauer-zero", "det-thm-br-higher-vanishing", "lem-sc-pic-proper-decomposition", "thm-sc-jacobian-representability", "thm-av-final", "lem-sc-base-change-curve", "def-sc-field-extension"]
 +++
 Let $k$ be algebraically closed, $C$ a smooth proper connected curve of

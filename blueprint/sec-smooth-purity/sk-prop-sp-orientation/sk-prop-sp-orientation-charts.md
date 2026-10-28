@@ -2,7 +2,7 @@
 id = "det-sp-orientation-charts"
 kind = "lemma"
 title = "Diagonal orientation on a coordinate chart"
-order = 2939
+order = 3340
 uses = ["thm-pur-diagonal-dualizing-object", "det-sp-orientation-vector-bundle"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$ and let $U\subset X$

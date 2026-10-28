@@ -4,7 +4,7 @@ kind = "definition"
 title = "Explicit splitting data, splitting presieve, and local sum"
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-scheme-conventions"]
 lean = ["AlgebraicGeometry.Etale.FiniteEtaleTraceSplitting", "AlgebraicGeometry.Etale.finiteEtaleTraceSplitPresieve", "AlgebraicGeometry.Etale.FiniteEtaleTraceSplitting.sectionMap", "AlgebraicGeometry.Etale.FiniteEtaleTraceSplitting.sum"]
-order = 1505
+order = 1615
 +++
 Let $f:Y\to X$ be a morphism of schemes [def-weil-pbc-scheme-conventions] and
 $T\to X$ an object of the small etale site [def-weil-pbc-etale-site], with

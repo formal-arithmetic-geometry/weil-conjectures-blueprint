@@ -2,7 +2,7 @@
 id = "pur456-def-adjoint-datum"
 kind = "definition"
 title = "Specified ambient exceptional adjunction, finite coefficients"
-order = 2856
+order = 2891
 uses = ["pur713-def-upper-shriek", "det-def-sf-operations"]
 +++
 Under Input “Finite-coefficient proper-adjoint input” (`pur713-input-proper-adjoint`, in [det-def-sf-operations]), the finite-coefficient ambient exceptional adjunction for $f$ is the adjunction

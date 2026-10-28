@@ -3,7 +3,7 @@ id = "def-real-weil-representation-operations"
 kind = "definition"
 title = "Operations on Weil representations"
 lean = ["AlgebraicGeometry.WeilGroup.detLine", "AlgebraicGeometry.WeilGroup.semisimplification", "Representation.IsIrreducible", "Representation.IsConstituent"]
-order = 3785
+order = 3973
 uses = ["def-mg-determinant-line", "def-mg-weil-composition-series", "def-mg-weil-semisimplification", "def-wf-fundamental-representation", "def-wf-weil-group", "prop-wf-weil-sheaf-representation-equivalence"]
 +++
 Let $X_0$ be as in [def-wf-fundamental-representation], with Weil group

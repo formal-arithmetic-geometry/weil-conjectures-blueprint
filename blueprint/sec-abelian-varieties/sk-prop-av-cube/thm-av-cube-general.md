@@ -3,7 +3,7 @@ id = "thm-av-cube-general"
 kind = "theorem"
 title = "The theorem of the cube for invertible modules on a triple product"
 lean = ["AlgebraicGeometry.nonempty_iso_of_nonempty_iso_overPullback_slices"]
-order = 450
+order = 469
 uses = ["def-sc-invertible-module", "lem-av-seesaw-closed", "lem-av-cube-open", "lem-av-cube-globalise"]
 +++
 Let $X$ and $Y$ be proper and geometrically integral over a field $k$, let $Z$ be a

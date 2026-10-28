@@ -2,8 +2,8 @@
 id = "sk-lem-regular-smooth"
 kind = "lemma"
 title = "A regular immersion of smooth schemes over a perfect field"
-order = 3250
-uses = ["sk-def-purity-conv"]
+order = 3401
+uses = ["sk-prop-cohsm", "sk-thm-existence"]
 lean = ["AlgebraicGeometry.IsRegularImmersion.smooth_comp", "AlgebraicGeometry.IsRegularImmersion.ringKrullDim_stalk_add"]
 tags = ["sketch"]
 +++

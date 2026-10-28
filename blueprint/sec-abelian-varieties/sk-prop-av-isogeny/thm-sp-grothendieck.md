@@ -2,7 +2,7 @@
 id = "thm-sp-grothendieck"
 kind = "theorem"
 title = "Grothendieck spectral sequence"
-order = 505
+order = 524
 lean = ["CategoryTheory.Functor.exists_grothendieckSpectralSequence", "CategoryTheory.Functor.grothendieckSpectralSequence", "CategoryTheory.Functor.nonempty_grothendieckSpectralSequence_page_two_iso", "CategoryTheory.Functor.grothendieckSpectralSequence_abutsTo", "CategoryTheory.Functor.grothendieckSpectralObjectFunctor", "CategoryTheory.Functor.grothendieckBottomEdgeMap", "CategoryTheory.Functor.grothendieckLeftEdgeMap"]
 uses = ["def-sp-composite-acyclicity", "def-sp-convergence", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-left-exact-additive", "def-sp-truncation-couple", "lem-sp-couple-morphism", "lem-sp-edge-collapse", "lem-sp-kinjective-computes", "thm-sp-half-plane-convergence", "thm-sp-if-e1"]
 +++

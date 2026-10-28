@@ -2,7 +2,7 @@
 id = "det-sp-thick-origin-homotopy"
 kind = "lemma"
 title = "The contraction of the thickened origin acts trivially"
-order = 3561
+order = 3656
 uses = ["det-sp-defect-definition", "det-sp-dnc-base-change"]
 +++
 Let $X=\mathbf A^1_k$, $Z=V(x^m)$ with $m\geq1$, $M$ a finite $A$-module, and

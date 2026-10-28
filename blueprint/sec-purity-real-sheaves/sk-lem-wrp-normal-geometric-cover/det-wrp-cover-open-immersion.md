@@ -2,7 +2,7 @@
 id = "det-wrp-cover-open-immersion"
 kind = "lemma"
 title = "An étale component is open in the normalization"
-order = 3763
+order = 3927
 +++
 Let $X$ be a nonempty connected normal scheme of finite type over a field,
 and let $Y_1\to X$ be a separated étale morphism from a nonempty connected,

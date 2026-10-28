@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-linearized-adjunction"
 kind = "definition"
 title = "The linearized adjunction $P_{\\mathcal B}\\dashv G_{\\mathcal B}$"
-order = 1126
+order = 1170
 uses = ["def-sfb-modobj-linearization", "def-sfb-modobj-linearization-right-adjoint"]
 lean = ["CategoryTheory.Functor.ProjectionFormula.mapModAdjunction"]
 +++

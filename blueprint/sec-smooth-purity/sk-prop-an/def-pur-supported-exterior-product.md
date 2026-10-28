@@ -2,7 +2,7 @@
 id = "def-pur-supported-exterior-product"
 kind = "definition"
 title = "Exterior product in cohomology with closed support"
-order = 2896
+order = 3255
 uses = ["def-kun-derived-tensor", "def-kun-kunneth-map", "def-pur-support-cohomology", "def-weil-scheme-morphism-properties"]
 +++
 Let $Z\subset X,W\subset Y$ be closed subschemes of

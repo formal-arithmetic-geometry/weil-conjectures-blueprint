@@ -2,7 +2,7 @@
 id = "sk-lem-tf-contracting-cone-geometry"
 kind = "lemma"
 title = "Normal cones and contracting ideals"
-order = 3589
+order = 3681
 tags = ["sketch"]
 +++
 Here $k$ is algebraically closed, a correspondence $c=(c_1,c_2):C\to X\times X$ is a pair

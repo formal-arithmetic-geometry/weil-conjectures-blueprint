@@ -3,7 +3,7 @@ id = "lem-fd-realified-kernel-real"
 kind = "lemma"
 title = "The realified kernel is $\\iota$-real"
 lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.realifiedKernel", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.map_trace_frobeniusEnd_pow_stalk_extensionByZero_twistedDual", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isReal_realifiedKernel"]
-order = 4009
+order = 4227
 uses = ["def-fd-kernel", "def-fd-nonexceptional", "def-fd-transform", "sk-lem-coefficient-heart", "def-weil-punctual-weights", "def-wf-constant-weil-twist", "def-wf-fundamental-representation", "def-wf-iota-real", "def-wf-middle-extension", "lem-fd-as-characters", "lem-fd-as-lisse", "lem-fd-as-purity", "lem-trf-frobenius-degree-formula", "lem-wf-pure-realizable", "prop-kernel-lisse"]
 +++
 Let $j:U_0\hookrightarrow\mathbf A^1_{k_0}$ be a dense open immersion with

@@ -2,7 +2,7 @@
 id = "pqf-def-affine-morphism"
 kind = "definition"
 title = "Affine morphisms"
-order = 11
+order = 14
 lean = ["AlgebraicGeometry.IsAffineHom", "AlgebraicGeometry.isAffineHom_of_isAffine"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

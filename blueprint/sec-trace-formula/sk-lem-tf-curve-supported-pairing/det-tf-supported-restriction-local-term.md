@@ -2,7 +2,7 @@
 id = "det-tf-supported-restriction-local-term"
 kind = "lemma"
 title = "The local term through the supported restriction"
-order = 3495
+order = 3765
 uses = ["det-tf-supported-restriction", "def-trf-local-term"]
 +++
 In the situation of [det-tf-supported-restriction], let

@@ -3,7 +3,7 @@ id = "lem-av-seesaw-closed"
 kind = "lemma"
 title = "The seesaw principle: the locus of triviality on the fibres is closed"
 lean = ["AlgebraicGeometry.Scheme.Modules.isClosed_setOf_nonempty_iso_fiber", "AlgebraicGeometry.isClosed_setOf_nonempty_iso_fiber"]
-order = 445
+order = 461
 uses = ["def-sc-invertible-module", "lem-av-seesaw-criterion"]
 +++
 Let $f:P\to T$ be proper, flat, locally of finite presentation and with

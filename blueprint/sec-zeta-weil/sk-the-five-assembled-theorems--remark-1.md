@@ -2,7 +2,7 @@
 id = "sk-the-five-assembled-theorems--remark-1"
 kind = "remark"
 title = "Where the final layer feeds"
-order = 4163
+order = 4399
 tags = ["sketch"]
 +++
 *Where this feeds.* This layer is the last one of the blueprint: its
@@ -17,7 +17,7 @@ is $\ell$-adic *by construction* (one chosen $\ell$, again
 [sk-cor-tf-point-counting]). The two meet exactly twice: in the rationality
 descent, where integrality of the coefficients propagates the Hankel rank
 bound from $\Ql$ to $\Q$ ([sk-prop-criterion]), and in the
-realization-independence of [sk-thm-intfactors], where integrality of the
+realization-independence of [sk-thm-weil-final], where integrality of the
 coefficients enters once more through the integral reduced fraction
 [sk-lem-wweil-integer-rationality], which produces the integral presentation
 $Z=A/B$ and with it the integrality of the reciprocal roots.

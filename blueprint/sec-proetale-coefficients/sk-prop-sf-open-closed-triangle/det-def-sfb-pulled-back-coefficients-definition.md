@@ -4,7 +4,7 @@ kind = "definition"
 title = "The coefficient ring $\\Lambda_X=p_X^*\\Lambda$"
 uses = ["def-sfb-upper-star-from-point", "det-def-sfb-ring-object-transport", "det-def-sfb-ring-object"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientRing", "AlgebraicGeometry.ProEtale.condensedRingObj"]
-order = 1130
+order = 1174
 +++
 Let $(\Lambda,\mu,\eta)$ be a ring object of $\Sh(*_{\mathrm{proét}},\Ab)$, for instance the
 underlying ring object of a condensed ring ([det-def-sfb-ring-object]). Let $X$ be a scheme and let

@@ -2,7 +2,7 @@
 id = "sk-lem-sbc-integral-tests"
 kind = "lemma"
 title = "Integral changes of source and base"
-order = 2042
+order = 2172
 uses = ["sk-prop-injectivity"]
 tags = ["sketch"]
 +++

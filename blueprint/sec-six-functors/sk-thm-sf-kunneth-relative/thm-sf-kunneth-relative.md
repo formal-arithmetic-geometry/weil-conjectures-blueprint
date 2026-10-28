@@ -2,7 +2,7 @@
 id = "thm-sf-kunneth-relative"
 kind = "theorem"
 title = "Relative product theorem"
-order = 3351
+order = 3511
 uses = ["def-pur-support-cohomology", "def-sf-datum", "def-sf-pf"]
 +++
 In the setting of [def-sf-datum], let $B$ be a separated finite-type

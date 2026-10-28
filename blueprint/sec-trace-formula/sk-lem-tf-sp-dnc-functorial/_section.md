@@ -2,7 +2,7 @@
 id = "sk-lem-tf-sp-dnc-functorial"
 kind = "lemma"
 title = "Functoriality of the deformation"
-order = 3553
+order = 3646
 tags = ["sketch"]
 +++
 Let $k$ be algebraically closed and $S$ the strict henselization of

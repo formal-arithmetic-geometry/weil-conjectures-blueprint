@@ -7,8 +7,8 @@ $R^qp_*M'\to R^qp_*M\to R^qp_*M''$ shows that vanishing for $q>c$ for $M'$ and $
 By induction the vanishing passes to finite extensions.
 
 *Strata.* By part (3) of [sk-lem-coefficient-heart], $M$ is a finite extension of sheaves $a_!L$ with
-$a\colon S\hookrightarrow X$ locally closed and $L$ a lisse $\Lambda_S$-module. For $\Lambda=\Qlb$, by part
-(1) of [sk-thm-sfb-qlbar-two-colimit], $L\cong\overline{\mathbf Q}_{\ell,S}\otimes_{E_S}L_E$ for a lisse
+$a\colon S\hookrightarrow X$ locally closed and $L$ a lisse $\Lambda_S$-module. For $\Lambda=\Qlb$, by
+[sk-lem-lisse-finite-descent], $L\cong\overline{\mathbf Q}_{\ell,S}\otimes_{E_S}L_E$ for a lisse
 $E_S$-module $L_E$ and some finite $E$; for $\Lambda=E$ put $L_E=L$.
 
 *Lattices.* By [sk-lem-stratified-lattice] there is a finite stratification $S=\coprod_kS_k$ such that

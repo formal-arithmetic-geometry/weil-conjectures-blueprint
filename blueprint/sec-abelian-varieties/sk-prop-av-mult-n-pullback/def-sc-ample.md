@@ -3,7 +3,7 @@ id = "def-sc-ample"
 kind = "definition"
 title = "Very ample and ample line bundles"
 lean = ["AlgebraicGeometry.IsVeryAmple", "AlgebraicGeometry.IsAmple"]
-order = 468
+order = 487
 +++
 Let $X$ be a scheme over a field $k$ and $\mathcal L$ an
 $\mathcal O_X$-module. $\mathcal L$ is *very ample* if there are an

@@ -2,7 +2,7 @@
 id = "lemma-nagata-quasi-affine-immersion-affine-space-exists"
 kind = "lemma"
 title = "Existence of an affine-space immersion for a quasi-affine scheme, [stacks-project]"
-order = 295
+order = 201
 lean = ["AlgebraicGeometry.exists_immersion_affineSpace_of_quasiAffine"]
 uses = ["def-nagata-relative-affine-space"]
 +++

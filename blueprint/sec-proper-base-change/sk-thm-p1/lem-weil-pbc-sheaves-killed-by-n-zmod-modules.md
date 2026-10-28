@@ -3,7 +3,7 @@ id = "lem-weil-pbc-sheaves-killed-by-n-zmod-modules"
 kind = "lemma"
 title = "Abelian sheaves killed by n are the sheaves of Z/n-modules"
 lean = ["CategoryTheory.Sheaf.nsmul_eq_zero_of_constantZMod", "CategoryTheory.Sheaf.constantZModUnit_smul", "CategoryTheory.Sheaf.torsionSheaf_constantModule", "CategoryTheory.Sheaf.exists_constantZModModule_iff", "CategoryTheory.Sheaf.fullyFaithfulToSheafConstantZMod"]
-order = 1916
+order = 2038
 uses = ["def-weil-pbc-etale-site", "def-weil-pbc-constant-sheaf", "def-weil-sheaf-of-modules-category", "def-weil-pbc-etale-sheaves", "def-weil-pbc-abelian-etale-sheaves"]
 tags = ["stacks-03RW"]
 +++

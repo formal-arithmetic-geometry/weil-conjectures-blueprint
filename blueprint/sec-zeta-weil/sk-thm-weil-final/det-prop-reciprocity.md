@@ -3,10 +3,10 @@ id = "det-prop-reciprocity"
 kind = "proposition"
 title = "Duality reciprocity of the factors"
 lean = ["TraceDatum.det_mul_det_rev_of_pairing", "LinearMap.C_det_mul_charpolyRev_of_similitude"]
-order = 4159
-uses = ["det-def-cohfamily", "det-def-roots", "sk-thm-intfactors", "sk-cor-tf-functional-equation"]
+order = 4394
+uses = ["det-def-cohfamily", "det-def-roots", "thm-wweil-integral-factors", "sk-cor-tf-functional-equation"]
 +++
-With $P_i\in\Z[T]$ of [sk-thm-intfactors], $b_i=\deg P_i$ and
+With $P_i\in\Z[T]$ of [thm-wweil-integral-factors], $b_i=\deg P_i$ and
 $D_i=(-1)^{b_i}[T^{b_i}]P_i(T)$ one has, for every $0\le i\le2d$,
 
 $$

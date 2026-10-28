@@ -2,13 +2,11 @@
 id = "sec-algebraic-groups-lie-algebras"
 kind = "section"
 title = "Algebraic Groups and Lie Algebras"
-order = 3669
-uses = ["sec-picard-framework", "sec-smooth-purity", "sec-trace-formula"]
+order = 3878
 +++
 **Content.** This section supplies the group theory and linear algebra behind
 the weight arguments of the purity and Deligne–Laumon sections. It follows
-the appendix on algebraic groups and Lie algebras in characteristic zero,
-then the section on monodromy and determinant weights.
+the appendix on algebraic groups and Lie algebras in characteristic zero.
 
 Over an algebraically closed field of characteristic zero, every algebraic
 group is smooth and reduced [sk-i-cartier]. Its identity component is an
@@ -23,34 +21,17 @@ form [sk-lem-walg-killing] give $\rad\mathfrak l=Z(\mathfrak l)$ and
 $\mathfrak l=Z(\mathfrak l)+[\mathfrak l,\mathfrak l]$ for a Lie algebra
 with a faithful semisimple representation [sk-p-lie].
 
-For a Weil group $W=P\rtimes\langle s\rangle$, semisimplicity passes to
-normal subgroups [sk-i-restriction]. Characteristic polynomials
-factor along filtrations, with the spectra of duals, tensor products and
-exterior powers [sk-p-linear-filtration], and tensor and exterior powers of
-filtered representations are filtered by the constructions on the
-composition factors [sk-r-linear-library]. For a semisimple representation
-the monodromy groups $G\supseteq H$ satisfy
-$G^\circ=Z(G^\circ)^\circ H^\circ$ [sk-p-product], which gives a central
-element $z=hF^N$ of positive degree [sk-p-central]. The determinant weight
-[sk-d-weights] of a subquotient on which $z$ acts by a scalar is read off
-from that scalar [sk-p-readout]. This yields the determinant weights of the
-simple factors of tensor products [sk-p-tensor] and exterior powers
-[sk-p-exterior], also for representations that are not semisimple
-[sk-rem-walg-nonsemisimple].
+The section of the tex on monodromy and determinant weights, which applies
+these facts to the monodromy groups of a lisse Weil sheaf on a curve, sits in
+the section on purity of real sheaves, after the determinant weights of
+lisse Weil sheaves. The lemma on filtrations and spectra (`walg:filtration-spectra`) sits there
+too, after the definition of weights, as in the tex.
 
 **Key theorem.**
 
-- Lemma [sk-p-readout] (weight readout): if the central element $z=hF^N$
-  acts on a nonzero subquotient $Q$ with finite geometric determinant by a
-  scalar $c_Q$ (automatic for $Q$ simple), then
-  $\dw_\iota(Q)=\lambda_\iota(c_Q)/N$.
-- Propositions [sk-p-tensor], [sk-p-exterior]: the determinant weights of
-  the simple factors of $V\otimes V'$ are the sums
-  $\dw_\iota(A_a)+\dw_\iota(B_b)$, and those of $\bigwedge^rV$ are the sums
-  $\sum_an_a\dw_\iota(A_a)$ with $0\le n_a\le\dim A_a$, $\sum_an_a=r$.
-- Lemma [sk-p-linear-filtration] (filtrations and spectra):
-  $\det(1-Tu\mid V)=\prod_a\det(1-Tu\mid\operatorname{gr}_aV)$, so
-  eigenvalues on subquotients occur on $V$.
+- Proposition [sk-p-lie]: a Lie algebra $\mathfrak l$ with a faithful
+  semisimple representation satisfies $\rad\mathfrak l=Z(\mathfrak l)$
+  and $\mathfrak l=Z(\mathfrak l)+[\mathfrak l,\mathfrak l]$.
 
 **References.**
 

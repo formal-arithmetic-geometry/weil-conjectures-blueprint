@@ -3,7 +3,7 @@ id = "det-p-rankone"
 kind = "proposition"
 title = "Rank-one factorization"
 lean = ["SemidirectProduct.eq_finitePart_mul_degreeCharacter", "SemidirectProduct.finitePart_inrOfAddOne", "SemidirectProduct.range_finitePart", "SemidirectProduct.finite_range_finitePart"]
-order = 3839
+order = 4028
 uses = ["d-ab-rankone"]
 +++
 Let $\chi:W\to A$ be a homomorphism into a commutative group $A$ (for a

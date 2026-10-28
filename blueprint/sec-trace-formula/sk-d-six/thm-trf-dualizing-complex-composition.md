@@ -2,7 +2,7 @@
 id = "thm-trf-dualizing-complex-composition"
 kind = "theorem"
 title = "Composition for the dualizing complex"
-order = 3607
+order = 3699
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-dualizing-complex", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "prop-functor-package"]
 +++
 Fix the global finite-field datum

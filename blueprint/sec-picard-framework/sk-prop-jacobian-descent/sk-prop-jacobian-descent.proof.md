@@ -1,127 +1,65 @@
 +++
 kind  = "proof"
 of    = "sk-prop-jacobian-descent"
-uses = ["sk-thm-picard-main"]
+uses = ["sk-thm-picard-main", "sk-def-picard-pic", "sk-thm-picard-twist", "sk-prop-av-mult-n-pullback", "sk-prop-picard-pic-split"]
 +++
-Write $C_s=C_0\times_{k_0}k_s$ and
-$F:=\Pic^0_{C_0/k_0}\subseteq\Pic_{C_0/k_0}$ for the subsheaf of classes
-of fibrewise degree $0$ ([sk-def-picard-pic]). The Picard functor
-commutes with base change, so the restriction of $F$ to $(\Sch/k_s)$ is
-$\Pic^0_{C_s/k_s}$ and its restriction to $(\Sch/\bar k_0)$ is
-$\Pic^0_{C/\bar k_0}$.
+Write $\Pic^0_{C_0/k}$ for the degree-zero part of the fppf
+Picard sheaf of $C_0$ ([sk-def-picard-pic]); it is an open and closed
+subsheaf, because the degree is locally constant in families, which can
+be checked after base change to $\bar k$. Over $k_s$ the curve
+$C_{k_s}$ has a $k_s$-point, and indeed infinitely many, since a smooth
+curve over a separably closed field has a dense set of rational points
+(Stacks [056U](https://stacks.math.columbia.edu/tag/056U)). The proof
+of [sk-thm-picard-main] uses algebraic closedness of the ground field
+only through a rational point and the infinitude of the rational points
+(in [sk-thm-picard-twist]), so it applies over $k_s$ and gives an
+abelian variety $J_s$ of dimension $g$ representing
+$\Pic^0_{C_{k_s}/k_s}$. Since $\Pic^0_{C_0/k}$ is a functor on
+$k$-schemes, the two pullbacks of $J_s$ to $k_s\otimes_kk_s$ represent
+the same functor, and Yoneda gives a canonical descent datum on $J_s$
+relative to $k_s/k$. $J_s$ is projective ([sk-prop-av-mult-n-pullback]) and of
+finite presentation, so by limit arguments (Stacks
+[01ZM](https://stacks.math.columbia.edu/tag/01ZM)) the datum is
+already defined on a projective $J_1$ over a finite Galois extension
+$k_1/k$. Descent along the finite locally free $k_1/k$ is effective for
+projective schemes (Stacks
+[0CCJ](https://stacks.math.columbia.edu/tag/0CCJ)), which gives $J_0$
+over $k$.
 
-*Step 1 (the geometric case, carried out over the separable
-closure).* Over $\bar k_0$ the functor $\Pic^0_{C/\bar k_0}$ is
-represented by the abelian variety $J(C)$ of dimension $g$, with
-$J(C)(\bar k_0)=\Pic^0(C)$: this is [sk-thm-picard-main]. The
-construction is available already over $k_s$: [sk-thm-picard-main]
-is stated for a separably closed field, so $\Pic_{C_s/k_s}$ is
-represented by a group scheme $P_s$ over $k_s$. The
-degree-decomposition argument of [det-prop-picard-degree-decomposition]
-applies over $k_s$ (its inputs are the derived coherent base change of
-[det-thm-picard-coherence], Riemann–Roch with $H^0(C_s,\cO)=k_s$, which
-holds because $C_s$ is smooth and geometrically connected, and a
-$k_s$-point of $C_s$ from [det-prop-picard-dense-points]), so the
-degree-zero locus $J_s:=P_s^0$ is an open and closed subgroup scheme of
-$P_s$ representing $\Pic^0_{C_s/k_s}$, and
-$J_s\times_{k_s}\bar k_0\cong J(C)$ since both represent
-$\Pic^0_{C/\bar k_0}$. Properness, smoothness, geometric connectedness
-and the dimension descend along the faithfully flat $k_s\to\bar k_0$, so
-$J_s$ is an abelian variety of dimension $g$ over $k_s$.
+The multiplication and unit of $J_s$ are compatible with the descent
+datum, since they come from the group structure of the functor
+$\Pic^0_{C_0/k}$. For a faithfully flat quasi-compact $X\to Y$, a group
+scheme over $X$ with an effective descent datum compatible with
+multiplication and unit carries a unique group scheme structure over
+$Y$ on the descended scheme whose base change is the given one;
+compatibility with the inverse is automatic, and commutativity
+descends. Hence $J_0$ is a commutative group scheme over $k$.
+Properness, smoothness, geometric connectedness and the dimension
+descend along $k_s/k$, so $J_0$ is an abelian variety of dimension $g$.
+Because $\Pic^0_{C_0/k}$ is limit preserving and an fppf sheaf, the
+representing isomorphism over $k_s$ descends to
+$h_{J_0}\simeq\Pic^0_{C_0/k}$.
 
-*Why a rational point over a finite extension is not enough.* One
-cannot instead pass to a finite Galois extension $k_1/k_0$ over which
-$C_0$ acquires a rational point and run the rigidified construction of
-[sk-thm-picard-main] over $k_1$: that construction verifies the
-criterion of [det-thm-picard-criterion] with the twist lemma
-[sk-thm-picard-twist], which needs the dense set of rational points of
-a separably closed field. Over $\mathbf F_2$ the genus-$2$ curve
-$y^2+y=x^5+x^3+1$ has a rational point $P$, but every degree-zero line
-bundle on it is trivial (its only effective divisors of degree $2$ are
-$2P$ and the fibres over $x=0$ and $x=1$, all linearly equivalent via
-$x$ and $x+1$), so $\omega_C$ admits no twist $\omega_C\otimes\cL_0$ with
-$h^0=1$ and $h^1=0$. Likewise, finitely many equations over $\bar k_0$
-need not be defined over a separable extension of an imperfect $k_0$.
-The spreading out below is therefore done from $k_s$, where Step 1 holds.
-
-*Step 2 (the canonical descent datum and its finite level).*
-Since $F$ is a functor on $(\Sch/k_0)$ and $J_s$ represents its
-restriction to $(\Sch/k_s)$, the two pullbacks of $J_s$ to
-$\Spec(k_s\otimes_{k_0}k_s)$ both represent the restriction of $F$
-there; Yoneda gives a canonical isomorphism between them satisfying
-the cocycle condition on the triple tensor product, i.e. a descent
-datum on $J_s$ relative to $\Spec k_s\to\Spec k_0$, defined without
-choosing a Galois action. Now $k_s=\bigcup k_1$ over the finite Galois
-subextensions $k_1/k_0$, so $\Spec k_s=\varprojlim\Spec k_1$ with
-affine transition maps. The abelian variety $J_s$ is projective
-([lem-sc-abelian-variety-projective]) and of finite presentation over $k_s$, and
-the descent datum consists of finitely many morphisms and identities
-between schemes of finite presentation; by finite-presentation descent
-along the limit (Stacks
-[01ZM](https://stacks.math.columbia.edu/tag/01ZM)) there
-are a finite Galois extension $k_1/k_0$, a projective $k_1$-scheme
-$J_1$ with $J_1\times_{k_1}k_s\cong J_s$, and a descent datum on $J_1$
-relative to $k_1/k_0$ whose base change to $k_s$ is the canonical one.
-Nothing is claimed at this point about $J_1$ representing $\Pic^0$ of
-$C_0\times_{k_0}k_1$; that follows only in Step 4.
-
-*Step 3 (effective descent).* $\Spec k_1\to\Spec k_0$ is finite
-locally free and surjective and $J_1$ is projective, so the descent
-datum is effective (Stacks
-[0CCJ](https://stacks.math.columbia.edu/tag/0CCJ)): there
-is a $k_0$-scheme $J_0$ with $J_0\times_{k_0}k_1\cong J_1$, hence
-$J_0\times_{k_0}k_s\cong J_s$ compatibly with the canonical descent
-datum, and $J_0\times_{k_0}\bar k_0\cong J(C)$. Properness, smoothness,
-geometric connectedness and the dimension descend along the faithfully
-flat $k_0\to k_s$. This is the step that dispenses with a rational
-point of $C_0$.
-
-*Step 4 (the representing isomorphism descends).* The sheaf $F$
-is limit preserving: an invertible module on $C_0\times_{k_0}T$ for
-$T=\varprojlim T_i$ ($T_i$ quasi-compact and quasi-separated, affine
-transition maps) is pulled back from some $C_0\times_{k_0}T_i$, and two
-such modules that become isomorphic on the limit do so at a finite
-stage (EGA IV$_3$ 8.5.2), and fppf sheafification preserves this. Hence
-for a $k_0$-scheme $T$, writing $T_{k_s}=\varprojlim_{k_1}T_{k_1}$,
-
-$$
-F(T)=\varinjlim_{k_1}\operatorname{Eq}\bigl(F(T_{k_1})\rightrightarrows
-F(T_{k_1\otimes_{k_0}k_1})\bigr)
-=\operatorname{Eq}\bigl(F(T_{k_s})\rightrightarrows
-F(T_{k_s\otimes_{k_0}k_s})\bigr),
-$$
-
-the first equality being the fppf sheaf property for the covers
-$T_{k_1}\to T$. The representable functor $h_{J_0}$ satisfies the same
-equalizer formula, being an fpqc sheaf. The isomorphism
-$h_{J_s}\cong F|_{(\Sch/k_s)}$ is compatible with the two descent data
-(the datum on $J_s$ was defined from it), so it identifies the two
-equalizers: $h_{J_0}\cong F$. Thus $J_0$ represents $\Pic^0_{C_0/k_0}$;
-in particular it is a group scheme, hence an abelian variety of
-dimension $g$ over $k_0$, and $J_0\times_{k_0}K$ represents
-$\Pic^0_{C_K/K}$ for every field extension $K/k_0$ (base-change
-compatibility of $F$). For $K=\bar k_0$ this recovers $J(C)$ with its
-representing isomorphism, and
-$J_0(\bar k_0)=F(\bar k_0)=\Pic^0(C)$ by [sk-prop-picard-pic-split]
-(with $\Pic(\Spec\bar k_0)=0$).
-
-*Step 5 (equivariance).* For
-$\tau\in\operatorname{Gal}(k_s/k_0)$, extended uniquely to $\bar k_0$,
-the automorphism $\Spec\tau$ of the $k_0$-scheme $\Spec\bar k_0$ induces
-an endomorphism of $h_{J_0}(\bar k_0)$ (the action through the
-$k_0$-structure of $J_0$) and of $F(\bar k_0)=\Pic^0(C)$ (pullback along
-$\id_{C_0}\times\Spec\tau$, the action through the $k_0$-structure of
-$C_0$). The isomorphism $h_{J_0}\cong F$ of Step 4 is a natural
-transformation of functors on $(\Sch/k_0)$, so it commutes with both:
-$J_0(\bar k_0)=\Pic^0(C)$ is $\operatorname{Gal}$-equivariant, and so is
-its restriction to $\ell^n$-torsion.
+The fppf Picard sheaf and the fibrewise degree commute with field
+extension. Hence, for every field extension $k'/k$, the base change
+$J_0\times_kk'$ represents the degree-zero Picard sheaf of
+$C_0\times_kk'$. Evaluating at $\Spec\bar k$ gives the displayed
+identification, since over $\bar k$ the Picard presheaf already gives
+the Picard group, by rigidification ([sk-prop-picard-pic-split]) and
+$\Pic(\bar k)=0$. For $\gamma\in\operatorname{Gal}(\bar k/k)$,
+naturality with respect to $\Spec(\gamma)$ says precisely that this
+identification intertwines the Galois action on points with the
+pullback action on invertible sheaves. Restriction identifies
+$\operatorname{Gal}(\bar k/k)$ with $\operatorname{Gal}(k_s/k)$, so the
+identification is $\operatorname{Gal}(k_s/k)$-equivariant. It is an
+isomorphism of groups, and hence it restricts to an equivariant
+isomorphism $J_0[\ell^n](\bar k)\simeq\Pic^0(C)[\ell^n]$.
 
 The detailed form, stated over an arbitrary base field, is
-[thm-pd-jacobian-general-field] (Steps 1–4 are
-[thm-pd-geometric-pic0], [lem-pd-canonical-descent-datum],
-[cor-pd-finite-level] and [thm-pd-effective-descent]);
-the rigidified construction over separably closed fields is
-[thm-pc-picard-representable] (Stacks
-[0B9Z](https://stacks.math.columbia.edu/tag/0B9Z), which
-keeps the separably closed hypothesis), and the passage from $k_s$ to a
-general base is exactly Steps 2–4.
+[thm-pd-jacobian-general-field]. Its steps are
+[thm-pd-geometric-pic0] (the case of $k_s$),
+[lem-pd-canonical-descent-datum], [cor-pd-finite-level],
+[thm-pd-effective-descent] and [lem-pd-group-scheme-descent]; the
+rigidified construction over separably closed fields is
+[thm-pc-picard-representable], and [rem-pd-scope] explains why a
+rational point over a finite extension would not suffice.

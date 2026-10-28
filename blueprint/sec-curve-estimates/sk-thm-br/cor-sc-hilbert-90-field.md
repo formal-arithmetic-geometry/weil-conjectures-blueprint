@@ -2,7 +2,7 @@
 id = "cor-sc-hilbert-90-field"
 kind = "theorem"
 title = "Hilbert 90 for a field"
-order = 1327
+order = 1432
 uses = ["def-sc-gm-torsor", "lem-sc-torsor-h1"]
 lean = ["AlgebraicGeometry.Scheme.subsingleton_cohomologicalPicardGroup_of_field", "AlgebraicGeometry.Scheme.surjective_app_of_shortExact_gmSheaf"]
 +++

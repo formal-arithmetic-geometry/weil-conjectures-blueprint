@@ -2,7 +2,7 @@
 id = "sk-lem-curve-sylow-trace"
 kind = "lemma"
 title = "Reduction to a unipotent local system"
-order = 1502
+order = 1612
 lean = ["AlgebraicGeometry.Scheme.IsFiniteLocallyConstantSheaf.exists_finite_etale_reduction"]
 uses = ["sk-prop-pe-finite-local-systems"]
 tags = ["sketch"]

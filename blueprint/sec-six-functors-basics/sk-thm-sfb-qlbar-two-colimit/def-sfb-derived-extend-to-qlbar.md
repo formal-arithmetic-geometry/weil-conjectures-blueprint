@@ -2,7 +2,7 @@
 id = "def-sfb-derived-extend-to-qlbar"
 kind = "definition"
 title = "The derived extension of scalars $T_{E,\\Qlb}$"
-order = 2144
+order = 2296
 uses = ["def-sfb-subfield-to-qlbar-coefficient-map", "det-def-sfb-derived-extension-of-scalars"]
 lean = ["AlgebraicGeometry.ProEtale.derivedExtendScalarsToPadicAlgCl"]
 +++

@@ -3,7 +3,7 @@ id = "det-pbc-conventions-module-cohomology"
 kind = "lemma"
 title = "Module cohomology is abelian cohomology"
 lean = ["AlgebraicGeometry.Scheme.isZero_rightDerived_etale_toSheaf_of_injective", "AlgebraicGeometry.Etale.rightAcyclic_lowerStar_restrictScalars_obj", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerStarRestrictScalars", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerStarForget₂", "AlgebraicGeometry.Etale.forget₂HomologyRightDerivedFunctorPlusIso"]
-order = 1271
+order = 1383
 uses = ["def-weil-pbc-etale-sheaves", "lemma-weil-pbc-leray-acyclicity"]
 +++
 Let $\Lambda$ be a commutative ring, let $T$ be a scheme and write

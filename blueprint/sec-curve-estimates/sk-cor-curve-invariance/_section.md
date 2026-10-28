@@ -2,7 +2,7 @@
 id = "sk-cor-curve-invariance"
 kind = "corollary"
 title = "Proper curves over separably closed fields"
-order = 1314
+order = 1621
 lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isSepClosed"]
 uses = ["sk-thm-curve-package"]
 tags = ["sketch"]

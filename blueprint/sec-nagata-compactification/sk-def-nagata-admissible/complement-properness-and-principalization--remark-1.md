@@ -2,7 +2,7 @@
 id = "complement-properness-and-principalization--remark-1"
 kind = "remark"
 title = "Formalization route"
-order = 203
+order = 106
 +++
 The proof of properness follows this target-local
 reduction and settles the affine case

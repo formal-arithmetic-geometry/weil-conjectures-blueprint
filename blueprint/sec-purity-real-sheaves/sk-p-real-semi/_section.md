@@ -2,8 +2,8 @@
 id = "sk-p-real-semi"
 kind = "proposition"
 title = "Boundary semicontinuity"
-order = 3883
-uses = ["sk-d-real-weights", "sk-i-real-boundary", "sk-lem-wrp-hc2", "sk-lem-wrp-point-count", "sk-thm-trace-transport"]
+order = 4116
+uses = ["sk-d-real-weights", "sk-i-real-boundary", "sk-lem-wrp-hc2", "sk-lem-wrp-point-count", "sk-thm-trace-transport", "sk-p-linear-filtration"]
 lean = ["AlgebraicGeometry.BoundaryDatum.frobeniusWeight_le_of_hasWeightsAtMost"]
 tags = ["sketch"]
 +++

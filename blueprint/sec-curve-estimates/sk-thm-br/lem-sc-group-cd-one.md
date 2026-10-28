@@ -2,7 +2,7 @@
 id = "lem-sc-group-cd-one"
 kind = "lemma"
 title = "A degree-two criterion for continuous cohomology"
-order = 1363
+order = 1468
 lean = ["DiscreteModule.subsingleton_H_of_two_le"]
 uses = ["def-exc-continuous-cohomology", "lem-sc-sylow-module-filtration"]
 +++

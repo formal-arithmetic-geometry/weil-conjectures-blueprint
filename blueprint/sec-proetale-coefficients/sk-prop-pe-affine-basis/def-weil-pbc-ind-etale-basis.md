@@ -2,7 +2,7 @@
 id = "def-weil-pbc-ind-etale-basis"
 kind = "definition"
 title = "The affine ind-etale subsite"
-order = 922
+order = 962
 lean = ["AlgebraicGeometry.Scheme.AffineProEt", "AlgebraicGeometry.Scheme.AffineProEt.toProEt", "AlgebraicGeometry.Scheme.AffineProEt.topology", "AlgebraicGeometry.proAffineEtale_Spec_iff"]
 uses = ["def-weil-pbc-ind-etale-algebra", "def-weil-pbc-proetale-site"]
 +++

@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sf-package"
-uses = ["sk-thm-existence", "sk-thm-sfb-proper-base-change", "sk-thm-sbc-coefficients", "sk-prop-scalar-six", "sk-def-sf-kv-maps", "sk-prop-sf-biduality-general", "sk-prop-sf-existence", "sk-prop-sf-pf-coherence", "sk-thm-sf-comp-composition", "sk-thm-sf-ctf-stability", "sk-thm-sf-kunneth-verdier", "sk-thm-sf-verdier-exchange"]
+uses = ["sk-thm-existence", "sk-thm-sfb-proper-base-change", "sk-thm-sbc-coefficients", "sk-prop-scalar-six", "sk-def-sf-kv-maps", "sk-thm-sf-ctf-stability", "sk-prop-sf-existence", "sk-prop-sf-pf-coherence", "sk-thm-sf-comp-composition", "sk-thm-sf-kunneth-verdier", "sk-thm-sf-verdier-exchange"]
 +++
 Every clause is one of the propositions of §§ *What the earlier chapters prove* or
 §§ *What this section proves*, with the following assembly.
@@ -14,7 +14,7 @@ agrees with the étale adjoint transported along the comparison, the
 preservation being [sk-prop-sf-rf-shriek-preservation] — enough for every clause
 below, all of which are typed on the small categories
 ([sk-rem-sf-fullcd-scope]); the ambient half of (1) is conditional on the
-ambient datum and is consumed by nothing. Clause (2) is [sk-prop-sf-cbc], [sk-thm-properbasechange] and
+ambient datum and is consumed by nothing. Clause (2) is [det-prop-sf-cbc], [sk-thm-properbasechange] and
 [sk-thm-smooth-base-change] respectively: the first is proved in Chapter 17, the second
 in §[sec-proper-base-change], the third in §[sec-smooth-base-change],
 and none of them uses anything proved
@@ -29,10 +29,10 @@ case by reduction modulo $\pi_E$ ([sk-prop-scalar-six]) and derived
 Nakayama, the rational case by integral models, and $\Qlb$ by descent to a
 finite $E$. The coherence of $\operatorname{Ex}_!$ is
 fix-lem-exchanges. Clause (3) is the projection-formula
-chain of §§ *What this section proves*: the finite case [sk-thm-sf-pf-finite] reduces to
+chain of §§ *What this section proves*: the finite case [det-thm-sf-pf-finite] reduces to
 the compact-support projection formula of the framework chapter,
 [sk-thm-sf-pf-proetale] carries it from the étale to the pro-étale site for
-finite $\Lambda$, and [sk-prop-sf-pf-reduction], [sk-thm-sf-pf-adic] and
+finite $\Lambda$, and [det-prop-sf-pf-reduction], [sk-thm-sf-pf-adic] and
 [sk-thm-sf-pf-field] give it on $X_{\mathrm{pro\acute et}}$ for
 $\mathcal O_E$, $E$ and $\Qlb$, with
 [sk-prop-sf-pf-coherence] for the coherence. Clause (4) is
@@ -49,7 +49,7 @@ with $\operatorname{Ex}_!$ is the composition and base-change compatibility
 of [sk-thm-smooth-purity] and [sk-prop-cohsm] (G12), read through
 [sk-lem-sf-mate]; its compatibility with $\alpha$ is the smooth step of the
 proof of [sk-thm-sf-kunneth-verdier]. Clause (6) is
-[sk-prop-sf-biduality-general] (Chapter 1), [sk-thm-sf-verdier-exchange]
+[det-prop-sf-biduality-general] (Chapter 1), [sk-thm-sf-verdier-exchange]
 and [sk-thm-sf-global-duality] and [sk-thm-sf-identification]
 (§§ *What this section proves*, using [sk-thm-sf-tensor-hom]), with
 [sk-prop-sf-dualizable-biduality], [sk-lem-sf-twist-interchange] and
@@ -62,12 +62,12 @@ of [sk-prop-sf-pf-coherence] and [sk-lem-sf-mate]
 (with the base-change clause of [sk-prop-sf-pf-coherence] for its
 coherence), clause (4) and, for the typing of $\operatorname{PF}_g$, clause
 (8)(iv). Clause (8) is [sk-thm-sf-ctf-stability], whose proof uses
-[sk-lem-sf-flat-model], [sk-thm-sf-direct-image-tor-amplitude],
-[sk-cor-sf-direct-image-ctf], [sk-thm-sf-hom-ctf],
-[sk-prop-sf-finiteness], [sk-prop-sf-comparison] and
+[sk-lem-sf-flat-model], [det-thm-sf-direct-image-tor-amplitude],
+[sk-cor-sf-direct-image-ctf], [det-thm-sf-hom-ctf],
+[det-prop-sf-finiteness], [sk-prop-sf-comparison] and
 [sk-prop-sf-rf-shriek-preservation]. No clause assumes a property that is
 not proved in the blueprint: the *Conditional on* lines of
-[sk-prop-sf-existence], [sk-prop-sf-biduality-general] and
+[sk-prop-sf-existence], [det-prop-sf-biduality-general] and
 [sk-thm-sf-ctf-stability] are the
 complete list of what is conditional, and they are restated in the ledger
 below.

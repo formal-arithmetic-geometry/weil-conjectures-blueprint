@@ -2,7 +2,7 @@
 id = "def-sfb-finitely-presented-module"
 kind = "definition"
 title = "Finitely presented module objects"
-order = 1206
+order = 1255
 uses = ["det-def-sfb-module-objects", "det-prop-sfb-module-category"]
 lean = ["CategoryTheory.Mod.IsFinitelyPresented"]
 +++

@@ -2,8 +2,8 @@
 id = "sk-thm-sf-kunneth-relative"
 kind = "theorem"
 title = "Relative product theorem"
-order = 3350
-uses = ["sk-lem-sf-mate", "sk-prop-sf-cbc", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition"]
+order = 3510
+uses = ["sk-lem-sf-mate", "sk-prop-cohsm", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition", "sk-prop-sf-comp-coherence", "sk-thm-sbc-coefficients"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_externalProduct", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_externalProduct_closedImmersion", "AlgebraicGeometry.Etale.nonempty_iso_compactlySupported_externalProduct_closedImmersion"]
 tags = ["sketch"]
 +++
@@ -33,12 +33,12 @@ $$
 where $\alpha_{g,q}$ is the composition isomorphism of
 [sk-thm-sf-comp-composition], $\operatorname{PF}$ the projection
 transformation and $\operatorname{Ex}_!:Lg^*Rf_!\to Rq_!Lp^*$ the exchange
-transformation of [sk-def-sf-exchanges] for the Cartesian square
+transformation of [det-def-sf-exchanges] for the Cartesian square
 $(p,q,f,g)$, and $\sigma$ the symmetry of $\otimes^L$; the second variable
 $Rf_!K$ of $\operatorname{PF}_{g,L,Rf_!K}$ lies in $\Dctf(B,\Lambda)$, as the
-typing of [sk-def-sf-exchanges] requires, by [sk-thm-sf-ctf-stability]. Then every arrow is an isomorphism
+typing of [det-def-sf-exchanges] requires, by [sk-thm-sf-ctf-stability]. Then every arrow is an isomorphism
 ([sk-thm-sf-comp-composition], [sk-rem-sf-pf-done],
-[sk-prop-sf-cbc]), so
+[det-prop-sf-cbc]), so
 
 $$
 \kappa^{\mathrm{rel}}_{K,L}:R(f\times_Bg)_!\bigl(K\boxtimes L\bigr)\xrightarrow{\ \sim\ }

@@ -3,7 +3,7 @@ id = "lem-zl-finite-pushforward"
 kind = "lemma"
 title = "Finite pushforward preserves upper weights"
 lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerStar_of_isFinite", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerStar_of_isClosedImmersion"]
-order = 4026
+order = 4246
 uses = ["def-weil-complex-weights", "det-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes", "def-weil-pbc-scheme-conventions", "prop-functor-package"]
 +++
 If $g:Z_0\to Y_0$ is finite and

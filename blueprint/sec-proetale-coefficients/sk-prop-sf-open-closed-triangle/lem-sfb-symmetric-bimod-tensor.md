@@ -2,7 +2,7 @@
 id = "lem-sfb-symmetric-bimod-tensor"
 kind = "lemma"
 title = "Tensor products of symmetric bimodules are symmetric"
-order = 1104
+order = 1148
 uses = ["lem-sfb-modobj-symmetric-bimodules"]
 lean = ["Bimod.IsSymmetric.tensorBimod"]
 +++

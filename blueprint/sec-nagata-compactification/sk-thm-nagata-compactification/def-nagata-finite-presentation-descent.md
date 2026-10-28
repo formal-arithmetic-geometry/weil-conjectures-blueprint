@@ -2,7 +2,7 @@
 id = "def-nagata-finite-presentation-descent"
 kind = "definition"
 title = "Finite-presentation descent construction"
-order = 61
+order = 369
 lean = ["AlgebraicGeometry.finitePresentationDescent", "AlgebraicGeometry.finitePresentationDescentHom", "AlgebraicGeometry.finitePresentationDescentIso"]
 uses = ["def-nagata-relative-gluing-valid-stage"]
 +++

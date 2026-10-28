@@ -3,7 +3,7 @@ id = "det-p-cyclotomic"
 kind = "proposition"
 title = "Cyclotomic Frobenius"
 lean = ["cyclotomicCharacter_frobeniusEquiv_pow", "cyclotomicCharacter_frobeniusEquiv_pow_inv_mul"]
-order = 3804
+order = 3991
 uses = ["det-d-ab-cyclotomic", "d-ab-field", "def-tate-module-abelian-group"]
 +++
 Let $\bar k$ be an algebraically closed field of characteristic $p$,

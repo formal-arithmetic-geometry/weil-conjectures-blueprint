@@ -2,7 +2,7 @@
 id = "cor-pc-dense-points-curves-sections"
 kind = "theorem"
 title = "Consequences of the density of rational points"
-order = 811
+order = 838
 tags = ["latex:corollary"]
 uses = ["def-pc-curve", "def-pc-separably-closed", "def-pc-smooth-projective-curve", "def-sc-invertible-module"]
 lean = ["AlgebraicGeometry.Scheme.Hom.denseRange_baseChangeFieldPoint", "AlgebraicGeometry.Scheme.Hom.exists_baseChangeFieldPoint_notMem_support_zeroLocus", "AlgebraicGeometry.Scheme.Hom.exists_fieldPoints_notMem_support_zeroLocus", "AlgebraicGeometry.Scheme.Hom.infinite_fieldPoints"]

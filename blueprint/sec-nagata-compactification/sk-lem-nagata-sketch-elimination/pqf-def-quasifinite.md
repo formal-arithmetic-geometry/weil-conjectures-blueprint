@@ -2,7 +2,7 @@
 id = "pqf-def-quasifinite"
 kind = "definition"
 title = "Quasi-finite morphisms and finite fibres"
-order = 300
+order = 206
 lean = ["AlgebraicGeometry.Scheme.Hom.IsQuasiFiniteAtPoint", "AlgebraicGeometry.Scheme.Hom.IsLocallyQuasiFinite", "AlgebraicGeometry.Scheme.Hom.IsQuasiFinite", "AlgebraicGeometry.Scheme.Hom.HasFiniteFibres", "AlgebraicGeometry.Scheme.Hom.fiber"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

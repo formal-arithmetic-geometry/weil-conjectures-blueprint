@@ -1,0 +1,32 @@
++++
+kind  = "proof"
+of    = "det-thm-sf-hom-ctf"
++++
+The sharper interval fails for general $K$: for
+the origin $i:\{0\}\hookrightarrow\mathbf A^1$ the complexes $i_*A$ and $A$
+have Tor amplitude $[0,0]$, but $\RHom_A(i_*A,A)=i_*A(-1)[-2]$.
+
+Constructibility: every cohomology sheaf of $\RHom_A(K,M)$ is constructible,
+because the $\mathcal Ext$-sheaves of two constructible complexes are
+constructible on a common stratification. Dualizable case (no duality
+theory is needed for it): a dualizable $K$ is perfect, and a perfect complex
+with Tor amplitude in $[a,b]$ is locally a bounded complex $P$ of finite
+projective $A$-modules in degrees $[a,b]$, so
+$\RHom_A(K,M)=P^\vee\otimes^L_AM$ locally, $P^\vee$ being finite projective
+in degrees $[-b,-a]$; tensoring with $M$ of Tor amplitude $[c,d]$ gives Tor
+amplitude in $[c-b,d-a]$, and since stalks are exact and conservative on the
+étale site the interval holds globally. General case: the stalk of $\RHom$ is *not*
+$\RHom$ of the stalks (the example above), and one argues geometrically. No
+admissibility datum on the structure morphism $a_X$ is assumed: the general
+interval rests on [det-prop-sf-biduality-general], whose dualizing complex is
+formed with the unconditional constructible adjoint $Ra_X^!$ of
+[det-def-sf-operations] (vi) — Brown representability gives the étale
+adjoint of $Ra_{X!}$ for the compactifiable $a_X$ between Noetherian schemes
+([def-weil-exceptional-inverse-image]), [thm-sf-ambient-adjoint-class] transports it to $\Dctf$, and the preservation clauses are
+[sk-prop-sf-rf-shriek-preservation]. By
+[det-prop-sf-biduality-general] — applied to $a_X$, with the
+unconditional $Ra_X^!$ — and the tensor–Hom adjunction,
+$\RHom_A(K,M)\cong\mathbb D_X(K\otimes^L_A\mathbb D_XM)$, and $\mathbb D_X$
+carries Tor amplitude $[c,d]$ into $[-d-2m,-c]$ (the dualizing complex has
+cohomology in $[-2m,0]$). Applying this twice, with the additivity of Tor
+amplitude for $\otimes^L$, gives $[c-b-2m,d-a+2m]$.

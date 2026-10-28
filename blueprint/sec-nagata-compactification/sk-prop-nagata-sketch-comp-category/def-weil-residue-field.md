@@ -2,7 +2,7 @@
 id = "def-weil-residue-field"
 kind = "definition"
 title = "Residue field of a point of a scheme"
-order = 132
+order = 415
 lean = ["AlgebraicGeometry.Scheme.residueField"]
 tags = ["mathlib"]
 +++

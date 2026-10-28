@@ -2,7 +2,7 @@
 id = "lem-wft-as-unit-trivialization"
 kind = "lemma"
 title = "The trivialization of $\\mathcal L_\\psi$ at zero"
-order = 3941
+order = 4152
 uses = ["def-fd-artin-schreier-sheaf", "lem-wft-as-comparison", "lem-fd-as-characters", "lem-fd-as-lisse"]
 +++
 Let $\psi:k_0\to\Lambda^\times$ be a nontrivial additive character, with

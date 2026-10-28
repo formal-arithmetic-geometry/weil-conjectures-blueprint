@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-ind-etale-basis"
 kind = "lemma"
 title = "The ind-etale subsite is a basis"
-order = 923
+order = 963
 lean = ["AlgebraicGeometry.Scheme.AffineProEt.isCoverDense_toProEt", "AlgebraicGeometry.Scheme.AffineProEt.exists_finite_jointly_surjective_of_mem_topology", "AlgebraicGeometry.Scheme.AffineProEt.isEquivalence_sheafPushforwardContinuous_toProEt"]
 uses = ["def-weil-pbc-ind-etale-basis", "def-weil-pbc-proetale-site", "lem-weil-pbc-ind-etale-stability", "thm-weil-pbc-weak-etale-refinement"]
 +++

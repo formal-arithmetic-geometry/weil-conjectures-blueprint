@@ -3,7 +3,7 @@ id = "det-def-cohfamily"
 kind = "definition"
 title = "The smooth-proper cohomological family"
 lean = ["TraceDatum", "TraceDatum.P"]
-order = 3542
+order = 3872
 uses = ["def-weil-smooth-proper-cohomological-family"]
 +++
 Let $X_0/k_0$ be smooth and proper of pure dimension
@@ -24,5 +24,5 @@ polynomial of $F_{i,\ell}$; this is what a field embedding
 $\iota:\Qlb\hookrightarrow\mathbf C$ is applied to.
 
 Notation: $P_i\in\Z[T]$ denotes the integral Frobenius factor produced later
-by [sk-thm-intfactors], and $P_i^{(\ell)}$ its coefficientwise extension
+by [thm-wweil-integral-factors], and $P_i^{(\ell)}$ its coefficientwise extension
 $\Z[T]\to\Ql[T]$; nothing in this definition depends on $P_i$.

@@ -3,7 +3,7 @@ id = "sbc-lem-rel-dim-one-induction"
 kind = "lemma"
 title = "The induction step in relative dimension one"
 lean = ["AlgebraicGeometry.Etale.UniversalBaseChangeProperty.forall_le_of_forall_le_sub_one"]
-order = 2090
+order = 2207
 uses = ["def-sbc-smooth-morphisms", "sbc-def-base-change-property", "sbc-lem-bc-universal-test", "sbc-thm-universal-test-vanishing"]
 +++
 Let $f:X\to S$ be an affine smooth morphism of relative dimension one

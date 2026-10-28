@@ -3,7 +3,7 @@ id = "det-def-sfb-ring-object-sheaf"
 kind = "lemma"
 title = "Sheaves of rings are ring objects of abelian sheaves"
 lean = ["CategoryTheory.Sheaf.sheafifyRingPresheafIso", "CategoryTheory.Sheaf.monObj_sheafCompose_obj", "CategoryTheory.Sheaf.isMonHom_sheafifyRingPresheafIso_hom", "CategoryTheory.Sheaf.isCommMonObj_sheafCompose_obj", "CategoryTheory.Sheaf.isMonHom_sheafCompose_map"]
-order = 1191
+order = 1238
 uses = ["det-def-sfb-ring-object-presheaf"]
 +++
 In the situation of [det-def-sfb-ring-object-presheaf], let $\mathcal R$ be a sheaf of rings on

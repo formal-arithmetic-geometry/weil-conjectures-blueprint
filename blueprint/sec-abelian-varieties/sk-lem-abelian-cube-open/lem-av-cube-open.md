@@ -3,7 +3,7 @@ id = "lem-av-cube-open"
 kind = "lemma"
 title = "Triviality on a fibre spreads out"
 lean = ["AlgebraicGeometry.exists_mem_nonempty_iso_preimageSnd_of_nonempty_iso_fiber", "AlgebraicGeometry.exists_mem_nonempty_iso_preimageSnd"]
-order = 447
+order = 466
 uses = ["def-sc-invertible-module", "lem-av-seesaw-criterion"]
 +++
 Let $X$ and $Y$ be proper and geometrically integral over a field $k$, with points

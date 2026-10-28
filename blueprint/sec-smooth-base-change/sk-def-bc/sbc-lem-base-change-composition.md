@@ -3,7 +3,7 @@ id = "sbc-lem-base-change-composition"
 kind = "lemma"
 title = "Base change for a composite square"
 lean = ["AlgebraicGeometry.Etale.isIso_baseChange_app_of_paste_horiz", "AlgebraicGeometry.Etale.isIso_homologyFunctor_map_baseChange_app_of_paste_horiz", "AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_paste_horiz", "AlgebraicGeometry.Etale.BaseChangeProperty.comp"]
-order = 2071
+order = 2164
 uses = ["lem-weil-pbc-exchange-identity-pasting", "sbc-def-base-change-map", "sbc-def-base-change-square"]
 +++
 Consider a tower of Cartesian diagrams of schemes

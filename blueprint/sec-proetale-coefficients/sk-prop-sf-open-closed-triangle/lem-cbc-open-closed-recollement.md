@@ -3,7 +3,7 @@ id = "lem-cbc-open-closed-recollement"
 kind = "lemma"
 title = "Open-closed recollement"
 lean = ["AlgebraicGeometry.Etale.openClosedShortComplex", "AlgebraicGeometry.Etale.shortExact_openClosedShortComplex", "AlgebraicGeometry.Etale.exists_distTriang_openClosed"]
-order = 1173
+order = 1217
 uses = ["def-weil-open-closed-recollement", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-finite-direct-image-exact", "prop-weil-open-closed-recollement-adjunctions"]
 +++
 Let $i:Z\hookrightarrow X$ be a closed immersion with complementary open

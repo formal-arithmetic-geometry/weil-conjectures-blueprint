@@ -3,7 +3,7 @@ id = "lem-trf-correspondence-class"
 kind = "lemma"
 title = "The class of a correspondence"
 lean = ["CategoryTheory.Verdier.correspondenceClassEquiv", "CategoryTheory.Verdier.correspondenceClassEquiv_naturality_right", "CategoryTheory.Verdier.correspondenceClassEquiv_naturality_left"]
-order = 3613
+order = 3705
 uses = ["def-trf-admissibility", "def-trf-correspondence-between-pairs", "def-trf-supported-class", "def-weil-derived-pullback-tensor-hom", "prop-functor-package"]
 +++
 In the setting of [def-trf-correspondence-between-pairs], let

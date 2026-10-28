@@ -2,8 +2,8 @@
 id = "lem-wft-kunneth-compatibilities"
 kind = "lemma"
 title = "Compact-support Künneth: Weil structures and traces"
-order = 3945
-uses = ["thm-sf-kunneth-relative", "fix-prop-projection-formula", "sk-prop-sf-cbc", "sk-def-sf-weil-complexes", "prop-pur-weil-equivariance-compatibilities", "sk-def-sp-trace", "sk-prop-sp-trace-composition", "sk-prop-sp-purity-bc"]
+order = 4157
+uses = ["thm-sf-kunneth-relative", "fix-prop-projection-formula", "det-prop-sf-cbc", "sk-def-sf-weil-complexes", "prop-pur-weil-equivariance-compatibilities", "sk-def-sp-trace", "sk-prop-sp-trace-composition", "sk-prop-sp-purity-bc"]
 +++
 Let $S$ be a separated finite-type $k$-scheme, $a:X\to S$ and $b:Y\to S$
 separated of finite type, $u,v$ the projections of $X\times_SY$ and
@@ -21,7 +21,7 @@ $L\in\Dbc(Y,\Lambda)$, $K\boxtimes_SL=u^*K\otimes^Lv^*L$.
 
    of the composition isomorphism, the projection formula for $u$ (in
    the form of [fix-prop-projection-formula]), compact-support base change
-   ([sk-prop-sf-cbc]) for the square $(u,v,a,b)$ and the projection formula
+   ([det-prop-sf-cbc]) for the square $(u,v,a,b)$ and the projection formula
    for $a$ is an isomorphism, natural in $K,L$. It agrees with the
    relative Künneth isomorphism $\kappa^{\mathrm{rel}}_{K,L}$ of
    [thm-sf-kunneth-relative] for $B=S$, after the symmetry of $\otimes^L$.

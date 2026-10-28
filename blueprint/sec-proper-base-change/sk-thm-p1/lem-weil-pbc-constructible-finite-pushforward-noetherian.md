@@ -3,7 +3,7 @@ id = "lem-weil-pbc-constructible-finite-pushforward-noetherian"
 kind = "lemma"
 title = "Noetherian finite-pushforward embedding"
 lean = ["AlgebraicGeometry.Etale.exists_mono_biproduct_lowerStar_of_isNoetherian"]
-order = 1618
+order = 1746
 uses = ["def-weil-pbc-direct-image", "def-weil-pbc-etale-constructible-sheaf", "def-weil-pbc-etale-sheaves"]
 +++
 Let $\Lambda$ be a Noetherian commutative ring, let $U$ be a Noetherian scheme

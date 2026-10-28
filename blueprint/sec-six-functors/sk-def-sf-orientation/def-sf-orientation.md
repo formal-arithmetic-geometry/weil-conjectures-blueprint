@@ -3,7 +3,7 @@ id = "def-sf-orientation"
 kind = "definition"
 title = "Orientation datum"
 lean = ["AlgebraicGeometry.Etale.OrientationComparisonData", "AlgebraicGeometry.Etale.OrientationComparisonData.compIso", "AlgebraicGeometry.Etale.OrientationComparisonData.baseChangeIso", "AlgebraicGeometry.Etale.OrientationDatum", "AlgebraicGeometry.Etale.OrientationDatum.nonempty_iso_dualizingComplex", "AlgebraicGeometry.Etale.CoefficientChange", "AlgebraicGeometry.Etale.OrientationDatum.IsCompatibleCoefficientChange", "AlgebraicGeometry.Etale.ProEtaleRealization", "AlgebraicGeometry.Etale.OrientationDatum.IsCompatibleProEtaleRealization"]
-order = 3312
+order = 3445
 uses = ["def-sf-datum", "thm-weil-pbc-site-comparison", "def-sfb-finite-upper-shriek"]
 +++
 In the setting of [def-sf-datum], an *orientation datum* consists

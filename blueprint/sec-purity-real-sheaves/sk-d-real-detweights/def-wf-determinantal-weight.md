@@ -3,7 +3,7 @@ id = "def-wf-determinantal-weight"
 kind = "definition"
 title = "Determinantal weight"
 lean = ["AlgebraicGeometry.WeilGroup.detWeight"]
-order = 3843
+order = 4032
 uses = ["def-mg-determinant-line", "def-real-weil-representation-operations", "def-weil-punctual-weights", "lem-wf-determinantal-weight-coefficient-field", "lem-wf-determinantal-weight-exists"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, fix

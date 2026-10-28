@@ -3,7 +3,7 @@ id = "cor-sf-hom-ctf-proetale-unconditional"
 kind = "theorem"
 title = "The pro-'etale internal Hom for a site-perfect first variable"
 lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructible_derivedHom_mapDerivedCategory_of_isDualizable"]
-order = 2987
+order = 2997
 tags = ["latex:corollary"]
 uses = ["lem-exc-comparison-tor-interval", "thm-sf-hom-comparison-constructible", "thm-sf-hom-ctf"]
 +++

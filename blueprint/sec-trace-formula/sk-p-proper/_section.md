@@ -2,7 +2,7 @@
 id = "sk-p-proper"
 kind = "theorem"
 title = "Proper pushforward and Lefschetz–Verdier"
-order = 3471
+order = 3744
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-proper-pushforward", "sk-d-trace-class", "sk-def-sf-kv-maps", "sk-p-pairing", "sk-thm-sf-comp-composition", "sk-thm-sf-kunneth-verdier", "sk-thm-sf-package"]
 tags = ["sketch"]
 +++

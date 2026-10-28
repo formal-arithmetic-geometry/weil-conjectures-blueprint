@@ -3,7 +3,7 @@ id = "sk-p-tate"
 kind = "proposition"
 title = "No Frobenius-fixed vector"
 lean = ["AlgebraicGeometry.IsAbelianVariety.eq_zero_of_mem_tateModule_of_forall_geometricFrobenius_fixed", "AlgebraicGeometry.IsAbelianVariety.eq_zero_of_map_geometricFrobenius_eq_self", "AlgebraicGeometry.IsAbelianVariety.frobeniusSubOneLinearEquiv"]
-order = 551
+order = 571
 uses = ["sk-prop-av-tate-rank", "sk-def-av"]
 tags = ["sketch"]
 +++

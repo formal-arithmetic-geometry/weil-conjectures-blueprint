@@ -2,8 +2,8 @@
 id = "sk-lem-wrp-positive-euler"
 kind = "lemma"
 title = "Positivity and convergence"
-order = 3855
-uses = ["sk-def-wrp-real-definition"]
+order = 4085
+uses = ["sk-def-wrp-real-definition", "sk-p-linear-filtration"]
 tags = ["sketch"]
 +++
 If $\mathcal G$ is $\iota$-real ([sk-def-wrp-real-definition]) and $k\ge1$,

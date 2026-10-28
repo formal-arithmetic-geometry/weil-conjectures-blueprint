@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-etale-base-change-finite-limits"
 kind = "lemma"
 title = "The base-change functor between small etale sites commutes with finite limits"
-order = 1260
+order = 1372
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site"]
 lean = ["AlgebraicGeometry.Scheme.Hom.Etale", "CategoryTheory.MorphismProperty.Over.pullback", "CategoryTheory.MorphismProperty.Over.hasFiniteLimits", "CategoryTheory.Limits.PreservesFiniteLimits", "AlgebraicGeometry.Scheme.Hom.representablyFlat_etale"]
 tags = ["mathlib", "stacks-021D"]

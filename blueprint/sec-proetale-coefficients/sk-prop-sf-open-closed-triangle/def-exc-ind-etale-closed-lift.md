@@ -3,7 +3,7 @@ id = "def-exc-ind-etale-closed-lift"
 kind = "definition"
 title = "The ind-etale lift along a closed subscheme"
 lean = ["Algebra.ClosedLift.Index", "Algebra.ClosedLift", "Algebra.ClosedLift.toAlgHom", "Algebra.ClosedLift.map", "Algebra.ClosedLift.reduction"]
-order = 1084
+order = 1128
 uses = ["def-weil-pbc-ind-etale-algebra"]
 +++
 For a ring $A$ and an $A$-algebra $\overline C$, let

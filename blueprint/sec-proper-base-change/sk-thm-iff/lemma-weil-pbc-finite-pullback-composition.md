@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-finite-pullback-composition"
 kind = "lemma"
 title = "Finite pullback composition"
-order = 1542
+order = 1665
 lean = ["AlgebraicGeometry.Etale.globalSectionsUpperStarMap_comp"]
 uses = ["def-weil-pbc-finite-section-pullback", "lemma-weil-pbc-finite-pullback-identity"]
 +++

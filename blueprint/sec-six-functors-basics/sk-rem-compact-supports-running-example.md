@@ -2,16 +2,19 @@
 id = "sk-rem-compact-supports-running-example"
 kind = "remark"
 title = "Compact supports on the running example"
-order = 2336
+order = 2613
 tags = ["sketch"]
 +++
-Let $j:\mathbf A^1_{\bar k}\hookrightarrow\mathbf P^1_{\bar k}$ with complement
-the point $\infty$. By definition
-$R\Gamma_c(\mathbf A^1,\Lambda)=R\Gamma(\mathbf P^1,j_!\Lambda)$. The
-localization triangle $j_!\Lambda\to\Lambda_{\mathbf P^1}\to i_{\infty*}\Lambda$
-in $D((\mathbf P^1_{\bar k})_{\mathrm{proét}},\Lambda)$ and the decomposition
-(G2) of the cohomology of the projective line,
-$R\Gamma(\mathbf P^1_{\bar k},\Lambda)\simeq\Lambda\oplus\Lambda(-1)[-2]$, give
+We use the open immersion $j_\infty:\mathbf A^1\to\mathbf P^1$ of
+[sk-rem-running], base changed to $\bar k$, and we let
+$i_\infty:\{\infty\}\to\mathbf P^1_{\bar k}$ be the inclusion of the
+complementary point.
+
+By definition,
+$R\Gamma_c(\mathbf A^1,\Lambda)=R\Gamma(\mathbf P^1,j_{\infty!}\Lambda)$. The
+localization triangle
+$j_{\infty!}\Lambda\to\Lambda_{\mathbf P^1}\to i_{\infty*}\Lambda$ and (G2) of
+[sk-lem-geo-p1-cohomology] show that
 
 $$
 R\Gamma_c(\mathbf A^1_{\bar k},\Lambda)
@@ -19,6 +22,6 @@ R\Gamma_c(\mathbf A^1_{\bar k},\Lambda)
 \simeq\Lambda(-1)[-2],
 $$
 
-since restriction to $\infty$ is an isomorphism on $H^0$. So
-$H^2_c(\mathbf A^1)=\Lambda(-1)$ is the only compactly supported cohomology,
-and the trace on it is the same projective-line trace $\operatorname{Tr}_p$.
+since restriction to $\infty$ is an isomorphism on $H^0$. Hence
+$H^2_c(\mathbf A^1)=\Lambda(-1)$ is the only nonzero compactly supported
+cohomology group, and the trace on it is the same $\operatorname{Tr}_p$.

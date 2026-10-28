@@ -2,7 +2,7 @@
 id = "def-sf-cup"
 kind = "definition"
 title = "Mixed-support cup product"
-order = 3293
+order = 3505
 uses = ["def-sf-datum", "def-weil-derived-tensor"]
 +++
 In the setting of [def-sf-datum], let $\Lambda$ be an admissible coefficient

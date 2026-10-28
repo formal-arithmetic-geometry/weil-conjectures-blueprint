@@ -3,7 +3,7 @@ id = "det-thm-br-field-units"
 kind = "lemma"
 title = "Units over an algebraic extension of a curve function field"
 lean = ["AlgebraicGeometry.IsCurve.subsingleton_sheafH_gmSheaf_of_isAlgebraic_functionField"]
-order = 1388
+order = 1493
 uses = ["cor-sc-hilbert-90-field", "lem-sc-tsen", "lem-sc-c1-finite-extension", "lem-sc-c1-brauer-trivial", "lem-sc-function-field-cd-one"]
 +++
 Let $k$ be algebraically closed, let $C$ be an integral curve over $k$

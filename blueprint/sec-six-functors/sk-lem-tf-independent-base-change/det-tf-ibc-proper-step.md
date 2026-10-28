@@ -2,7 +2,7 @@
 id = "det-tf-ibc-proper-step"
 kind = "lemma"
 title = "Proper direct image and base change along a product projection"
-order = 3297
+order = 3436
 uses = ["lem-fin-proper-bounded-constructible", "thm-weil-pbc-bounded-below", "prop-weil-pbc-comparison-direct-image", "lem-weil-pbc-comparison-pullback"]
 +++
 Let $A$ be a finite commutative $\ell$-primary ring with $\ell\ne\operatorname{char}k$,

@@ -2,7 +2,7 @@
 id = "rem-ptr-pur-td-datum-6"
 kind = "remark"
 title = "Pointer to the properties of [def-pur-td-datum]"
-order = 2317
+order = 2590
 uses = ["def-weil-ambient-exceptional-adjoint", "thm-sf-ambient-adjoint-class"]
 +++
 In the notation of [def-pur-td-datum], the following holds. The

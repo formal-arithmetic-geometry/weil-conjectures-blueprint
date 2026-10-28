@@ -2,8 +2,8 @@
 id = "sk-lem-wft-character-integral"
 kind = "lemma"
 title = "The integral of a linear character"
-order = 3946
-uses = ["sk-lem-as-properties", "sk-lem-wft-compact-kunneth", "sk-prop-an", "sk-def-sp-trace", "sk-prop-sp-trace-composition", "sk-prop-sfb-finite-extension-compatibility"]
+order = 4158
+uses = ["sk-lem-as-properties", "sk-lem-wft-compact-kunneth", "sk-prop-an", "sk-def-sp-trace", "sk-prop-sp-trace-composition", "sk-thm-sfb-proper-base-change"]
 tags = ["sketch"]
 +++
 Over an algebraically closed field of characteristic $p$, for a

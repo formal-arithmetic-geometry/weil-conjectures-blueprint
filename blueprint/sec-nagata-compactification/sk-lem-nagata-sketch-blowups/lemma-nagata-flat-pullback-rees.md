@@ -2,7 +2,7 @@
 id = "lemma-nagata-flat-pullback-rees"
 kind = "lemma"
 title = "Flat pullback of the Rees algebra"
-order = 238
+order = 143
 lean = ["AlgebraicGeometry.reesGrading.isGradedBaseChangeAlong_hom"]
 uses = ["def-nagata-flat-pullback-rees-map", "lemma-nagata-flat-pullback-ideal-pow"]
 +++

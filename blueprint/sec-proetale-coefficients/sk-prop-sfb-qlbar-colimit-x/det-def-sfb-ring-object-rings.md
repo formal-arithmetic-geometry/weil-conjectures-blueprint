@@ -3,7 +3,7 @@ id = "det-def-sfb-ring-object-rings"
 kind = "lemma"
 title = "Rings are ring objects of $\\Ab$"
 lean = ["AddCommGrpCat.monoidalCategory", "AddCommGrpCat.ringMonObj", "AddCommGrpCat.isMonHom_ofHom_ringHom", "CategoryTheory.RingCat.toMonAb", "AddCommGrpCat.isCommMonObj_of_mul_comm"]
-order = 1189
+order = 1236
 uses = ["det-def-sfb-ring-object-monoid"]
 +++
 Give $\Ab$ the monoidal structure $\otimes_{\mathbf Z}$ with unit $\mathbf Z$ and its usual

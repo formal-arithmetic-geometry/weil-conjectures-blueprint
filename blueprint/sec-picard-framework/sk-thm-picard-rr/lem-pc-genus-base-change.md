@@ -3,7 +3,7 @@ id = "lem-pc-genus-base-change"
 kind = "lemma"
 title = "The genus is invariant under base change"
 lean = ["AlgebraicGeometry.Scheme.arithmeticGenus_pullback"]
-order = 693
+order = 716
 uses = ["def-pc-base-change", "def-pc-smooth-projective-curve", "lem-pc-flat-base-change-cohom"]
 +++
 Let $k$ be a field, $X$ a quasi-compact and quasi-separated scheme over

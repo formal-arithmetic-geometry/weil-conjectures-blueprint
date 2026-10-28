@@ -3,7 +3,7 @@ id = "def-sp-kinjective-bridge"
 kind = "definition"
 title = "The K-injective bridge"
 lean = ["CochainComplex.IsKInjective", "CochainComplex.KInjectiveResolution.homologyRightDerivedFunctorPlusObjIso", "CochainComplex.KInjectiveResolution.rightDerivedFunctorObjIso", "CochainComplex.KInjectiveResolution.homologyRightDerivedFunctorObjIso", "CochainComplex.KInjectiveResolution", "CochainComplex.KInjectiveResolution.rightDerived", "CochainComplex.KInjectiveResolution.rightDerivedHomology", "CochainComplex.KInjectiveResolution.exists_of_isStrictlyGE", "CochainComplex.KInjectiveResolution.nonempty_of_isGE"]
-order = 499
+order = 518
 uses = ["def-sp-grothendieck-abelian", "def-sp-left-exact-additive"]
 +++
 A cochain complex $I$ in an abelian category (for instance of sheaves on an

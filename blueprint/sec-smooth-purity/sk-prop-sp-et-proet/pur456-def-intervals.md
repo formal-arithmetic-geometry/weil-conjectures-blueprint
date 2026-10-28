@@ -2,7 +2,7 @@
 id = "pur456-def-intervals"
 kind = "definition"
 title = "Constructible cohomology intervals, finite coefficients"
-order = 2855
+order = 2890
 uses = ["pur713-def-constructible-category"]
 +++
 For a $k$-scheme $W$ of finite type and integers $a\leq b$, let

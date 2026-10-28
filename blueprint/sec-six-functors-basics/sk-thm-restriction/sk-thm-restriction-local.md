@@ -2,8 +2,8 @@
 id = "det-thm-restriction-local"
 kind = "lemma"
 title = "Local factorization of $f^!$ on an affine chart"
-order = 2430
-uses = ["sk-lem-sf-mate", "sk-cor-affine-space-rational", "sk-prop-closed-adjoint-constructible"]
+order = 2773
+uses = ["sk-lem-sf-mate", "det-cor-affine-space-rational", "det-prop-closed-adjoint-constructible"]
 +++
 Let $\Lambda=E$ or $\Qlb$ and let $f:X\to Y$ be separated of finite type. Let
 $v:V\hookrightarrow Y$ be an affine open, $u:U\hookrightarrow X$ an affine

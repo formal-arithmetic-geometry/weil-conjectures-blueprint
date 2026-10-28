@@ -2,7 +2,7 @@
 id = "det-pbc-complete-exchange-map"
 kind = "definition"
 title = "The completed exchange map"
-order = 2022
+order = 2144
 uses = ["det-pbc-complete-derived-completion", "lemma-weil-pbc-completed-pullback-reduction", "prop-weil-pbc-direct-image-limits", "def-weil-derived-direct-image", "det-prop-sfb-module-pullback-exact-main"]
 +++
 Consider a commutative square of schemes

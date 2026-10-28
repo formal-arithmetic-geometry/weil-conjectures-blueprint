@@ -2,7 +2,7 @@
 id = "det-nearby-structural-product"
 kind = "lemma"
 title = "The exceptional exchange and external duality"
-order = 3577
+order = 3674
 uses = ["det-nearby-exchange-maps"]
 +++
 In the notation of [det-nearby-exchange-maps], let $X$ be separated of finite type over $S$, with

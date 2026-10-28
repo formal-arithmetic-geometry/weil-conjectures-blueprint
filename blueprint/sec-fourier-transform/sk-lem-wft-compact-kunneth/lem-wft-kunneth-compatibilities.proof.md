@@ -5,7 +5,7 @@ of    = "lem-wft-kunneth-compatibilities"
 *(1).* Each arrow is an isomorphism: the composition isomorphism and the
 projection formula by [fix-prop-projection-formula] (the second variable
 $v^*L$, resp. $Rb_!L$, lies in $\Dbc$ over a field, hence has finite Tor
-amplitude), and the base change $a^*Rb_!L\cong Ru_!v^*L$ by [sk-prop-sf-cbc].
+amplitude), and the base change $a^*Rb_!L\cong Ru_!v^*L$ by [det-prop-sf-cbc].
 The relative Künneth map of [thm-sf-kunneth-relative] is the composite of
 the same three kinds of arrows, applied in the other order of the factors
 (first to $q=u$ with the variable $K$, then to $g$); the two composites

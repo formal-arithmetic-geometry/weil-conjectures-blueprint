@@ -3,7 +3,7 @@ id = "lem-wf-l2-radius"
 kind = "lemma"
 title = "Radius of the $L^2$-series"
 lean = ["AlgebraicGeometry.WeilSheaf.lt_l2Weight_iff"]
-order = 3896
+order = 4131
 uses = ["def-wf-l2-norm", "def-wf-l2-series"]
 +++
 In the setting of [def-wf-l2-norm], [def-wf-l2-series], the radius of

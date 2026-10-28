@@ -2,7 +2,7 @@
 id = "lem-sfb-pushforward-comp-monoidal"
 kind = "lemma"
 title = "The composition isomorphism of pushforwards is monoidal"
-order = 1078
+order = 1122
 uses = ["lem-weil-pbc-sheaf-tensor-closed", "def-sfb-finite-lower-star-comp", "def-sfb-finite-lower-star-lax-monoidal"]
 lean = ["AlgebraicGeometry.ProEtale.isMonoidal_lowerStarComp"]
 +++

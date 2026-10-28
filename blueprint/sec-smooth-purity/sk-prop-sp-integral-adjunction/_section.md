@@ -2,7 +2,7 @@
 id = "sk-prop-sp-integral-adjunction"
 kind = "proposition"
 title = "The normalized model of the integral adjunction"
-order = 3005
+order = 3315
 uses = ["sk-prop-sp-tower-geometric", "sk-lem-sp-tower", "sk-prop-sf-existence", "sk-prop-sp-unique-adjoint", "sk-lem-int-tensor", "sk-prop-sp-integral-towers"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-nagata-admissible-blowup-over-open"
 kind = "lemma"
 title = "An admissible blow-up is unchanged over the preserved open"
-order = 204
+order = 107
 lean = ["AlgebraicGeometry.IsAdmissible.isIso_blowupMap_restrict"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent", "thm-nagata-global-blowup-complement"]
 +++

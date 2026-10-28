@@ -1,0 +1,26 @@
++++
+id = "def-pur-proetale-units-sheaf"
+kind = "definition"
+title = "The multiplicative group sheaf G_m on the small pro-etale site"
+order = 3222
+uses = ["def-weil-pbc-proetale-site", "def-pur-proetale-structure-sheaf"]
+tags = ["stacks-03P4"]
++++
+Let $S$ be a scheme, $S_{\mathrm{proet}}$ its small pro-etale site
+[def-weil-pbc-proetale-site] and $\mathcal O_S$ its structure sheaf of rings
+[def-pur-proetale-structure-sheaf]. The *multiplicative group*
+$\mathbf G_{m,S}=\mathcal O_S^\times$ is the presheaf of abelian groups (written
+multiplicatively)
+
+$$
+ \mathbf G_{m,S}(U)=\Gamma(U,\mathcal O_U)^\times\qquad(U\to S\text{ weakly etale}),
+$$
+
+the group of units of the ring $\mathcal O_S(U)$, with the restriction maps of
+$\mathcal O_S$ (a ring map sends units to units). It is a sheaf of abelian groups on
+$S_{\mathrm{proet}}$: let $\{U_i\to U\}$ be a covering and $u_i\in\mathbf G_{m,S}(U_i)$
+agree on the overlaps $U_i\times_UU_j$; since $\mathcal O_S$ is a sheaf, the $u_i$ glue
+to a unique $u\in\mathcal O_S(U)$ and the inverses $u_i^{-1}$, which also agree on the
+overlaps, glue to a unique $v\in\mathcal O_S(U)$; then $uv$ restricts to $1$ on every
+$U_i$, so $uv=1$ by the uniqueness of gluing, and $u$ is a unit. Uniqueness of the
+glued unit is that in $\mathcal O_S$.

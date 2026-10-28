@@ -2,7 +2,7 @@
 id = "rem-ptr-pur-conventions-5"
 kind = "remark"
 title = "Pointer to the properties of [def-pur-conventions]"
-order = 2318
+order = 2591
 uses = ["cor-sf-ambient-adjoint-discharge", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class"]
 +++
 In the notation of [def-pur-conventions], the following holds. Let $Y$ be a

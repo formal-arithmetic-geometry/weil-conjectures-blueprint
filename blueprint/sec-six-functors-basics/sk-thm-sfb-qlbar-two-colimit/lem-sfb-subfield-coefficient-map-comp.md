@@ -2,7 +2,7 @@
 id = "lem-sfb-subfield-coefficient-map-comp"
 kind = "lemma"
 title = "Compatibility of the inclusions $E_X\\to F_X\\to\\overline{\\mathbf Q}_{\\ell,X}$"
-order = 2141
+order = 2289
 uses = ["def-sfb-subfield-coefficient-map", "def-sfb-subfield-to-qlbar-coefficient-map"]
 lean = ["AlgebraicGeometry.ProEtale.padicSubfieldRingObjMap_comp_toPadicAlgCl"]
 +++

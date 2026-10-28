@@ -2,7 +2,7 @@
 id = "sk-prop-pe-wc-rings"
 kind = "proposition"
 title = "Splitting ind-étale covers"
-order = 897
+order = 936
 lean = ["IsWContractibleRing.exists_retraction"]
 uses = ["sk-def-pe-wlocal", "sk-def-pe-morphisms", "sk-prop-pe-stonean"]
 tags = ["sketch"]

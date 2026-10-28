@@ -2,7 +2,7 @@
 id = "det-def-sfb-qlbar-condensed"
 kind = "definition"
 title = "The condensed ring $\\underline{\\overline{\\mathbf Q}}_\\ell$"
-order = 1193
+order = 1240
 uses = ["det-def-sfb-condensed-ring", "det-def-sfb-ring-object"]
 lean = ["PadicAlgCl.FiniteIntermediateField", "PadicAlgCl.finiteIntermediateFieldValued", "Profinite.padicAlgClCondensedRing", "Profinite.padicAlgClRingObj", "Profinite.isCommMonObj_padicAlgClRingObj"]
 +++

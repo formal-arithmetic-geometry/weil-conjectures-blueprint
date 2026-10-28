@@ -3,7 +3,7 @@ id = "pqf-lem-image-proper"
 kind = "lemma"
 title = "Image of a proper morphism into a separated finite-type target"
 lean = ["AlgebraicGeometry.isProper_image\u03b9_comp"]
-order = 1340
+order = 1445
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-base-change", "lem-weil-pbc-proper-closed-image", "lem-weil-pbc-proper-to-separated", "lem-weil-pbc-surjective-nonempty-fibres", "pqf-lem-proper-closed-map"]
 +++
 Let $p:X\to S$ be

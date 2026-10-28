@@ -3,7 +3,7 @@ id = "sbc-thm-bounded-allowable-torsion"
 kind = "theorem"
 title = "Bounded allowable-torsion derived theorem"
 lean = ["AlgebraicGeometry.Etale.isIso_baseChange_app_of_bounded_of_smooth"]
-order = 2057
+order = 2218
 uses = ["thm-sp-truncation-e2", "lemma-weil-pbc-geometric-stalk-conservative", "sbc-def-base-change-map", "sbc-def-base-change-square", "sbc-def-derived-categories-with-allowable-torsion", "sbc-lem-finite-range-comparison", "sbc-thm-smooth-base-change"]
 +++
 In the square of

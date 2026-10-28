@@ -2,7 +2,7 @@
 id = "def-sf-categories"
 kind = "definition"
 title = "Ambient categories and small subcategories"
-order = 3308
+order = 3441
 uses = ["def-sf-setting", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-derived-categories", "sk-def-sfb-constructible", "det-def-sfb-bounded-constructible", "lem-integral-ctf-equals-bc"]
 +++
 Fix a scheme $T$ and an admissible coefficient ring

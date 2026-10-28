@@ -3,7 +3,7 @@ id = "sk-lem-walg-engel"
 kind = "lemma"
 title = "Engel's matrix theorem"
 lean = ["LieSubalgebra.exists_forall_apply_eq_zero_and_isNilpotent"]
-order = 3698
+order = 3910
 tags = ["sketch"]
 +++
 Let $\mathfrak n\subseteq\operatorname{End}(M)$ be a Lie algebra consisting

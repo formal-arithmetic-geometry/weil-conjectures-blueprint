@@ -2,7 +2,7 @@
 id = "det-pd-dual-stratum-extension"
 kind = "lemma"
 title = "Verdier dual of an extension by zero from a smooth stratum"
-order = 3274
+order = 3425
 uses = ["cor-pur-dualizing-object-purity", "det-pd-dualizing-complex-ctf", "det-sf-flat-model-generation", "det-thm-sf-ctf-stability-direct-images", "lem-pod-coefficient-dual-perfect", "lem-sf-tensor-hom"]
 +++
 Let $\Lambda=A$ be a finite admissible coefficient ring and let $X$ be

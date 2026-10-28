@@ -1,16 +1,12 @@
 +++
 id = "sk-thm-sf-pf-field"
 kind = "proposition"
-title = "Projection formula and proper base change with rational coefficients"
-order = 2415
-uses = ["sk-prop-proper-base-change-unbounded"]
+title = "Projection formula with rational coefficients"
+order = 2753
+uses = ["sk-def-localizing-closure", "sk-def-sfb-constructible"]
 tags = ["sketch"]
 +++
-For $\Lambda=E$ or $\Qlb$, the category $\Loc(\Dctf(X,\Lambda))$ is closed
-under $\otimes^{\mathbf L}$. For a proper $p:X\to Y$, the projection formula
-map $(Rp_*A)\otimes^{\mathbf L}B\to Rp_*(A\otimes^{\mathbf L}p^*B)$ is an
-isomorphism in $\Loc(\Dctf(Y,\Lambda))$ for $A\in\Loc(\Dctf(X,\Lambda))$ and
-$B\in\Loc(\Dctf(Y,\Lambda))$, and for a cartesian square as in
-[sk-prop-proper-base-change-unbounded] the base change map
-$g^*Rp_*\to Rp'_*g'^*$ is an isomorphism of functors
-$\Loc(\Dctf(X,\Lambda))\to\Loc(\Dctf(Y',\Lambda))$.
+For $\Lambda=E$ or $\Qlb$, $\Loc(\Dctf(X,\Lambda))$ ([sk-def-localizing-closure],
+[sk-def-sfb-constructible]) is closed under $\otimes^{\mathbf L}$, and for proper
+$p:X\to Y$ the map $(Rp_*M)\otimes^{\mathbf L}N\to Rp_*(M\otimes^{\mathbf L}p^*N)$ is an
+isomorphism for $M\in\Loc(\Dctf(X,\Lambda))$ and $N\in\Loc(\Dctf(Y,\Lambda))$.

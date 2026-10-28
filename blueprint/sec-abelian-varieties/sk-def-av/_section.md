@@ -3,7 +3,7 @@ id = "sk-def-av"
 kind = "definition"
 title = "Abelian varieties"
 lean = ["AlgebraicGeometry.IsAbelianVariety", "AlgebraicGeometry.IsAbelianVariety.dim", "AlgebraicGeometry.isAbelianVariety_iff_geometricallyConnected", "AlgebraicGeometry.IsIsogeny", "AlgebraicGeometry.torsionSubgroupScheme"]
-order = 456
+order = 475
 tags = ["sketch"]
 +++
 An abelian variety over $k$ is a smooth proper geometrically connected

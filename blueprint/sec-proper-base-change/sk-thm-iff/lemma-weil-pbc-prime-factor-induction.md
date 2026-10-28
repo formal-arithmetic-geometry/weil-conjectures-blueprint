@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-prime-factor-induction"
 kind = "lemma"
 title = "Prime-factor induction"
-order = 1547
+order = 1670
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeHomologyMap_of_nsmul_id_eq_zero"]
 uses = ["def-weil-pbc-derived-exchange"]
 +++

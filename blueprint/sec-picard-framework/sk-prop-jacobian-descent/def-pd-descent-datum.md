@@ -3,7 +3,7 @@ id = "def-pd-descent-datum"
 kind = "definition"
 title = "Descent datum for a scheme along a morphism"
 lean = ["CategoryTheory.Over.DescentDatum", "CategoryTheory.Over.DescentDatum.IsEffective"]
-order = 853
+order = 883
 uses = ["def-pc-base-change", "def-pc-morphism-conventions"]
 +++
 Let $X\to Y$ be a morphism of schemes and let $V$ be a scheme over $X$. Write

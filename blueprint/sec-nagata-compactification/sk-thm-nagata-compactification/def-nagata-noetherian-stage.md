@@ -2,7 +2,7 @@
 id = "def-nagata-noetherian-stage"
 kind = "definition"
 title = "Finite-type Noetherian stage"
-order = 41
+order = 349
 lean = ["AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.Stage.scheme"]
 uses = ["def-nagata-affine-gluing-valid-stage"]
 +++

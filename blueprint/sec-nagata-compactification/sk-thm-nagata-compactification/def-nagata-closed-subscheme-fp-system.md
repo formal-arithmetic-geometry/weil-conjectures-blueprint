@@ -2,7 +2,7 @@
 id = "def-nagata-closed-subscheme-fp-system"
 kind = "definition"
 title = "Finite-presentation closed-subscheme system"
-order = 84
+order = 392
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.FGSub", "AlgebraicGeometry.Scheme.IdealSheafData.fgSubCone", "AlgebraicGeometry.Scheme.IdealSheafData.fgSubDiagram"]
 +++
 Let $X=V(\mathcal I)\hookrightarrow Y$ be a closed subscheme. Let

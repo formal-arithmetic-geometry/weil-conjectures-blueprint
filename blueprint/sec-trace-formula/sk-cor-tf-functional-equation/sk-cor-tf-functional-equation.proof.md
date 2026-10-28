@@ -16,6 +16,13 @@ $$
  =q^{d\chi}.
 $$
 
+Since $b_{2d-i}=b_i$, we have $\chi\equiv b_d\pmod 2$. If $d$ is odd, the
+pairing on $H^d$ is perfect and alternating, $X$ being connected
+([sk-thm-poincare-duality] (3)); a nondegenerate alternating form over a
+field of characteristic $\neq2$ lives on a space of even dimension, so $b_d$
+is even. Hence $d\chi$ is even, and $\varepsilon^2=1$ because
+$D^2=q^{d\chi}$.
+
 Since $F_i$ is invertible, its eigenvalues $\alpha$ are nonzero, and
 
 $$
@@ -35,12 +42,5 @@ $$
  (-1)^{\chi}D^{-1}(q^dT)^{\chi}=(-1)^{\chi}D\,T^{\chi},
 $$
 
-by $D^2=q^{d\chi}$.
-
-For the complement, the first three assertions were shown above. For odd
-$d$, graded commutativity of the cup product makes the perfect pairing on
-$H^d$ alternating ([sk-thm-poincare-duality] (3)). A nondegenerate
-alternating form over a field of characteristic $\neq2$ lives on a space of even dimension, so $b_d$ is even.
-Pairing $i$ with $2d-i$ gives $\chi=2\sum_{i<d}(-1)^ib_i+(-1)^db_d$, hence
-$\chi\equiv b_d\pmod2$ and $d\chi$ is even in both cases. Then
-$\varepsilon=Dq^{-d\chi/2}$ satisfies $\varepsilon^2=1$.
+by $D^2=q^{d\chi}$. The second form of the equation is the definition of
+$\varepsilon$.

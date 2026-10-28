@@ -3,7 +3,7 @@ id = "lemma-nagata-strict-transform-chart-closed"
 kind = "lemma"
 title = "Closedness of the strict-transform chart"
 lean = ["AlgebraicGeometry.AffineBlowup.isClosedImmersion_specMap_strictChart"]
-order = 264
+order = 169
 uses = ["def-nagata-strict-transform-chart-ring", "def-nagata-power-torsion"]
 +++
 The quotient map

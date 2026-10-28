@@ -2,7 +2,7 @@
 id = "lemma-nagata-glue-noetherian-stage"
 kind = "lemma"
 title = "Properties of the finite-type stages"
-order = 43
+order = 351
 lean = ["AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.stage_finiteType_isAffineHom", "AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.isLimitStageCone", "AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.noetherianApproximation"]
 uses = ["def-nagata-glued-limit-comparison", "def-nagata-noetherian-inverse-system", "lemma-nagata-affine-gluing-identities-eventually", "lemma-nagata-valid-refinements-directed"]
 +++

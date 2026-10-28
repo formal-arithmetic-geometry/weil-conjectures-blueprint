@@ -1,11 +1,11 @@
 +++
 kind  = "proof"
 of    = "det-prop-scalar-six-pullback"
-uses = ["sk-def-sfb-coefficient-change", "sk-prop-sfb-cartesian-coefficients", "det-lem-int-tensor-projection"]
+uses = ["det-def-sfb-coefficient-change", "sk-prop-sfb-cartesian-coefficients", "det-lem-int-tensor-projection"]
 +++
 *(1)* By [sk-prop-sfb-cartesian-coefficients], $f^{-1}\Lambda_Y=\Lambda_X$ and
 $f^{-1}\Lambda'_Y=\Lambda'_X$, compatibly with the coefficient change
-([sk-def-sfb-coefficient-change]); hence $f^*=f^{-1}$ is exact on module sheaves for
+([det-def-sfb-coefficient-change]); hence $f^*=f^{-1}$ is exact on module sheaves for
 both rings and commutes with restriction of scalars. Represent $K$ by a K-flat
 complex $Q$ of $\Lambda_Y$-modules. Then $f^{-1}Q$ is K-flat over $\Lambda_X$
 (Stacks, Tag 06YV: inverse image preserves K-flat complexes, and here it needs no
@@ -31,6 +31,6 @@ corresponding compatibility of the projection formula.
 
 *(3)* $\Lambda''_X\otimes^{\mathbf L}_{\Lambda'_X}(\Lambda'_X\otimes^{\mathbf L}_{\Lambda_X}K)\simeq\Lambda''_X\otimes^{\mathbf L}_{\Lambda_X}K$
 by associativity of the derived tensor product, and $(\Lambda\to\Lambda'')_X$ is the
-composite of the coefficient changes ([sk-def-sfb-coefficient-change]). The
+composite of the coefficient changes ([det-def-sfb-coefficient-change]). The
 isomorphisms in (1), (2) are built from canonical isomorphisms of tensor products,
 so they are compatible with this one.

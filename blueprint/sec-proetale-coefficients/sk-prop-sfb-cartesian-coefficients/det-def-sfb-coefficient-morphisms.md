@@ -2,7 +2,7 @@
 id = "det-def-sfb-coefficient-morphisms"
 kind = "definition"
 title = "The canonical coefficient morphisms $\\alpha_f$, $\\eta_f$"
-order = 1225
+order = 1293
 uses = ["det-def-sfb-pullback-from-point-comp", "det-def-sfb-pulled-back-coefficients", "def-sfb-finite-upper-star-monoidal", "def-sfb-finite-lower-star-lax-monoidal", "def-sfb-finite-upper-lower-star-adjunction"]
 lean = ["AlgebraicGeometry.ProEtale.condensedPullbackHom", "AlgebraicGeometry.ProEtale.isMonHom_condensedPullbackHom", "AlgebraicGeometry.ProEtale.coefficientPullbackIso", "AlgebraicGeometry.ProEtale.condensedPushforwardHom", "AlgebraicGeometry.ProEtale.isMonHom_condensedPushforwardHom"]
 +++

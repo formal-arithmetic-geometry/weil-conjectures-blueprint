@@ -1,9 +1,9 @@
 +++
 kind  = "proof"
 of    = "sk-rem-sf-kv-formal"
-uses = ["sk-prop-sf-biduality-general", "sk-thm-sf-verdier-exchange", "sk-thm-sf-dual-perfect", "sk-prop-sf-dualizable-biduality"]
+uses = ["sk-thm-sf-ctf-stability", "sk-thm-sf-verdier-exchange", "sk-thm-sf-dual-perfect", "sk-prop-sf-dualizable-biduality"]
 +++
-By biduality [sk-prop-sf-biduality-general], $\mathbb D$ is an
+By biduality [det-prop-sf-biduality-general], $\mathbb D$ is an
 anti-equivalence of $\Dctf$ with $\mathbb D\mathbb D\cong\mathrm{id}$. So the
 Verdier exchange $\mathbb D_XRf^!\cong Lf^*\mathbb D_Y$ of
 [sk-thm-sf-verdier-exchange] can be rewritten as

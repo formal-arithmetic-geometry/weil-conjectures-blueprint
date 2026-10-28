@@ -2,7 +2,7 @@
 id = "def-weil-pbc-ambient-ringed-exchange"
 kind = "definition"
 title = "Ambient ringed exchange"
-order = 1963
+order = 2087
 lean = ["AlgebraicGeometry.ProEtale.derivedBaseChangeMap"]
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-proetale-operations"]
 +++

@@ -13,7 +13,7 @@ conservative (Stacks, Tag 09AD). Also $Rp_{2*}\Delta_*=R(p_2\Delta)_*=\mathrm{id
 (2) $Rp_{2*}$ is proper direct image, so all objects lie in the localizing
 categories, and the proper base change map for the square
 $q\circ p_1=q\circ p_2$ is an isomorphism on $\Loc(\Dbc(-,\Lambda))$ by
-[sk-thm-sf-pf-field]. (3) The projection formula on the localizing
+[sk-prop-proper-base-change-unbounded]. (3) The projection formula on the localizing
 categories is [sk-thm-sf-pf-field]; it is natural in $K$, and
 $1\otimes\operatorname{Tr}_q$ is natural in $K$. The construction is the one
 used for torsion coefficients (compare [def-amb-p1-trace]), now with the

@@ -2,7 +2,7 @@
 id = "sk-def-pe-site"
 kind = "definition"
 title = "The small pro-étale site"
-order = 873
+order = 906
 lean = ["AlgebraicGeometry.Scheme.ProEt", "AlgebraicGeometry.Scheme.ProEt.topology", "AlgebraicGeometry.Scheme.proetalePrecoverage", "AlgebraicGeometry.Scheme.etalePrecoverage_le_proetalePrecoverage"]
 uses = ["sk-def-pe-morphisms", "sk-lem-pe-weakly-etale-stability"]
 tags = ["sketch"]

@@ -3,7 +3,7 @@ id = "sk-lem-abelian-cube-open"
 kind = "lemma"
 title = "Triviality near a fibre"
 lean = ["AlgebraicGeometry.exists_mem_nonempty_iso_preimageSnd_of_nonempty_iso_fiber"]
-order = 446
+order = 465
 uses = ["sk-lem-abelian-seesaw"]
 tags = ["sketch"]
 +++

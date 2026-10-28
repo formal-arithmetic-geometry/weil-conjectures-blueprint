@@ -2,7 +2,7 @@
 id = "lem-a1-spectrum-exact-sequence"
 kind = "lemma"
 title = "Spectrum of an exact Frobenius sequence"
-order = 3783
+order = 3968
 uses = ["def-weil-frobenius-module-weights", "p-linear-filtration"]
 +++
 For a short exact sequence $0\to V'\to V\to V''\to0$ of finite

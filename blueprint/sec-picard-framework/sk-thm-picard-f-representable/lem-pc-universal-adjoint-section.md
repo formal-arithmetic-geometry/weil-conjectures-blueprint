@@ -3,7 +3,7 @@ id = "lem-pc-universal-adjoint-section"
 kind = "lemma"
 title = "The adjoint section of the normalized universal module"
 lean = ["AlgebraicGeometry.zeroLocus_directImageCounit_eq_of_iso", "AlgebraicGeometry.Scheme.Modules.nonempty_tensorObj_dual_pullback_pushforward_iso", "AlgebraicGeometry.isQuasicoherent_pushforward_dual_toModules", "AlgebraicGeometry.zeroLocus_adjointSection_eq_of_iso"]
-order = 800
+order = 826
 uses = ["def-pc-f-subfunctor", "def-pc-finite-locally-free", "def-pc-genus", "def-pc-hilb-functor", "def-pc-rational-point", "def-pc-zero-scheme", "def-nagata-invertible-ideal", "lem-pc-projection-formula", "lem-pc-universal-divisor", "lem-pc-zero-scheme-recd"]
 +++
 Let $k$ be a field and let $X$ be a $k$-scheme which is proper, smooth of

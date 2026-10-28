@@ -2,7 +2,7 @@
 id = "det-tf-contracting-closed-piece"
 kind = "lemma"
 title = "The trace class is carried by the closed piece"
-order = 3600
+order = 3801
 uses = ["det-tf-contracting-restricted-morphism", "det-tf-contracting-vanishing", "det-tf-fixed-ideal-nilpotent", "prop-trf-trace-class-additivity", "thm-trf-trace-proper-compatibility"]
 +++
 In the setting of [det-tf-contracting-vanishing], drop the hypothesis $i^*K=0$, and let

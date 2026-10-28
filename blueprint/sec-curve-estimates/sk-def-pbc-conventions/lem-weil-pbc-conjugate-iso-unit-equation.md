@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-conjugate-iso-unit-equation"
 kind = "lemma"
 title = "An isomorphism of right adjoints determines a unique isomorphism of left adjoints compatible with the units"
-order = 1259
+order = 1371
 lean = ["CategoryTheory.unit_conjugateEquiv_symm", "CategoryTheory.conjugateEquiv", "CategoryTheory.conjugateIsoEquiv"]
 tags = ["mathlib", "stacks-0B65"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-nagata-proper-valuative-criterion-existence-api"
 kind = "lemma"
 title = "Existence part of the proper valuative criterion"
-order = 393
+order = 303
 lean = ["AlgebraicGeometry.UniversallyClosed.eq_valuativeCriterion"]
 uses = ["lemma-nagata-local-domain-valuation-dominates", "lemma-nagata-valuation-intersection"]
 +++

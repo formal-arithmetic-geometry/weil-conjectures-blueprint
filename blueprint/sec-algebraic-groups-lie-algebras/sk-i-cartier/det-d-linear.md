@@ -2,7 +2,7 @@
 id = "det-d-linear"
 kind = "definition"
 title = "Coefficients and representations"
-order = 3671
+order = 3881
 lean = ["Representation", "Subrepresentation", "Representation.IsIrreducible", "Representation.IsSemisimpleRepresentation", "exteriorPower.map", "CompositionSeries"]
 +++
 Until the finite-field subsection, $k$ is an algebraically closed field of

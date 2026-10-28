@@ -3,7 +3,7 @@ id = "def-nagata-blowup-flat-base-change-map"
 kind = "definition"
 title = "Flat base-change comparison for blow-ups"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.blowupFlatBaseChange"]
-order = 239
+order = 144
 uses = ["def-nagata-extended-ideal", "def-nagata-flat-pullback-rees-map", "def-nagata-global-blowup", "lemma-nagata-flat-pullback-rees", "prop-nagata-relative-proj-functoriality"]
 +++
 Let $g\colon Y\to X$ be flat and let

@@ -2,7 +2,7 @@
 id = "det-base-field-cd-galois-group"
 kind = "lemma"
 title = "The absolute Galois group of a finite field"
-order = 2104
+order = 2236
 +++
 Let $K$ be a finite field with $q$ elements and $K^{\rm sep}$ a separable
 closure. For every $n\geq1$ there is exactly one subextension

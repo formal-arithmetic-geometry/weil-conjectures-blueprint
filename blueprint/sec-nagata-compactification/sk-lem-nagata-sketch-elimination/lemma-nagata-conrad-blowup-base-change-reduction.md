@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-blowup-base-change-reduction"
 kind = "lemma"
 title = "Reduction by base change along an admissible blow-up"
-order = 322
+order = 228
 lean = ["AlgebraicGeometry.exists_isAdmissible_extend_partialSection_of_blowup"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-conrad-quasi-domination", "def-nagata-global-blowup", "prop-nagata-global-blowup-cover-independent"]
 +++

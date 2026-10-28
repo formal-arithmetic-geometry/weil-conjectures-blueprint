@@ -3,7 +3,7 @@ id = "prop-weil-pbc-reduction-to-projective-line"
 kind = "theorem"
 title = "Reduction of proper base change to $\\mathbf P^1$"
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_of_projectiveLine_of_isProper_of_isAddTorsion"]
-order = 1945
+order = 2067
 tags = ["latex:proposition"]
 uses = ["def-weil-pbc-scheme-conventions", "lemma-weil-pbc-chow-factorization", "lemma-weil-pbc-target-locality"]
 +++

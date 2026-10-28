@@ -2,7 +2,7 @@
 id = "def-nagata-extended-admissible-blowup"
 kind = "definition"
 title = "Extension construction for an admissible blow-up"
-order = 285
+order = 190
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_comap_eq_of_disjoint", "AlgebraicGeometry.IsAdmissible.exists_extend_of_disjoint"]
 uses = ["def-nagata-admissible-blowup", "def-nagata-qc-open-complement-ideal", "def-nagata-invertible-ideal", "def-nagata-extended-ideal", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-finite-type-ideal-extension-exists", "lemma-nagata-glue-finite-type-ideals", "prop-nagata-global-blowup-cover-independent", "thm-nagata-blowup-principalizes-center", "thm-nagata-blowup-universal-property"]
 +++

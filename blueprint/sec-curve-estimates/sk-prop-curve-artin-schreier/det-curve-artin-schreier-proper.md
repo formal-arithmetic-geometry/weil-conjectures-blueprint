@@ -3,7 +3,7 @@ id = "det-curve-artin-schreier-proper"
 kind = "proposition"
 title = "Artin–Schreier computation on a smooth proper curve"
 lean = ["AlgebraicGeometry.Scheme.nonempty_addEquiv_sheafH_zero_constantZMod", "AlgebraicGeometry.IsCurve.exists_constantZMod_one_frobenius_baseChange_model", "AlgebraicGeometry.isZero_etaleCohomology_constantZMod_of_one_lt_of_charP", "AlgebraicGeometry.IsCurve.bijective_cohomologyMap_constantModSheaf_of_isProper", "LinearMap.Frobenius.finite_fixedPoints", "LinearMap.Frobenius.natCard_fixedPoints_le"]
-order = 1438
+order = 1545
 uses = ["def-sc-field-extension"]
 +++
 Let $k$ be algebraically closed of characteristic $p>0$ and $C$ a smooth

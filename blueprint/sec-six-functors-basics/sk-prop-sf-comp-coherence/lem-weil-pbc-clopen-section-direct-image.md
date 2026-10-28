@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-clopen-section-direct-image"
 kind = "lemma"
 title = "Direct image from an open and closed section"
-order = 2258
+order = 2505
 lean = ["AlgebraicGeometry.Etale.clopenSectionDirectImageIso", "AlgebraicGeometry.Etale.isIso_openImmersionLowerShriekToLowerStarPlus_app_of_isClosed_range"]
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++

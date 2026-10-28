@@ -2,8 +2,8 @@
 id = "sk-thm-sf-compatibility"
 kind = "theorem"
 title = "Compatibility of the six operations"
-order = 3392
-uses = ["sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sk-def-sf-exchanges", "sk-prop-sf-open-closed-triangle", "sk-def-purity-conv", "sk-def-sf-categories", "sk-prop-scalar-six", "sk-def-sf-orientation", "sk-lem-sf-mate", "sk-prop-cohsm", "sk-prop-sf-biduality-general", "sk-prop-sf-cbc", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-prop-sfb-module-derived-factorization", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange"]
+order = 3565
+uses = ["sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sk-prop-cohsm", "sk-prop-sf-open-closed-triangle", "sk-def-sf-categories", "sk-prop-scalar-six", "sk-def-sf-orientation", "sk-lem-sf-mate", "sk-thm-sf-ctf-stability", "sk-prop-sf-comp-coherence", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-coherence", "sk-thm-sfb-qlbar-two-colimit", "sk-rem-sf-pf-done", "sk-thm-sf-comp-composition", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange"]
 tags = ["sketch"]
 +++
 Fix an admissible coefficient ring $\Lambda$ of [def-sf-setting],
@@ -19,7 +19,7 @@ exchanges and the orientation — are compatible with each other, on the
 categories on which [sk-thm-sf-package] types each of them:
 
 1. **(1)** *Composition.* The composition isomorphisms
-$L(gf)^*\cong Lf^*Lg^*$ ([sk-prop-sfb-module-derived-factorization]),
+$L(gf)^*\cong Lf^*Lg^*$ ([det-prop-sfb-module-derived-factorization]),
 $R(gf)_*\cong Rg_*Rf_*$ (its mate under $Lf^*\dashv Rf_*$),
 $R(gf)_!\cong Rg_!Rf_!$ ([sk-thm-sf-comp-composition]) and
 $R(gf)^!\cong Rf^!Rg^!$ ([sk-lem-sf-mate] (1)) are associative and
@@ -30,11 +30,11 @@ independent of the compactification, with comparison isomorphisms satisfying
 the cocycle condition and compatible with the composition law
 ([sk-prop-sf-comp-coherence]).
 1. **(2)** *Base change.* The exchange transformations
-$\operatorname{Ex}_*$ and $\operatorname{Ex}_!$ of [sk-def-sf-exchanges]
+$\operatorname{Ex}_*$ and $\operatorname{Ex}_!$ of [det-def-sf-exchanges]
 are natural in the square, the identity for the identity square and
 compatible with horizontal and vertical pasting; $\operatorname{Ex}_!$ is
 compatible with the refinement comparisons and the composition law of (1)
-([sk-prop-sf-cbc]), and for proper $f$ it is $\operatorname{Ex}_*$ under
+([det-prop-sf-cbc]), and for proper $f$ it is $\operatorname{Ex}_*$ under
 $Rf_!\cong Rf_*$ ([sk-prop-sf-comp-proper]). Its mate is the dual base
 change isomorphism $Rf^!Rg_*\cong Rg'_*Rf'^!$, natural in the square and
 compatible with pasting ([thm-sf-dual-base-change]), and for smooth $f$ the
@@ -52,7 +52,7 @@ $Rf_*\RHom_X(M,Rf^!N)\cong\RHom_Y(Rf_!M,N)$ of
 [sk-thm-sf-tensor-hom] is built from the adjunctions and the inverse of
 $\operatorname{PF}$, and is natural in $M$ and $N$. With
 $\mathbb D=\RHom(-,\omega)$ and biduality
-([sk-prop-sf-biduality-general]), the Verdier exchange
+([det-prop-sf-biduality-general]), the Verdier exchange
 $\mathbb D_YRf_!\cong Rf_*\mathbb D_X$ ([sk-thm-sf-verdier-exchange])
 is compatible with composition ([sk-thm-sf-package] (6)), and its mate is
 the isomorphism $\mathbb D_XLf^*\cong Rf^!\mathbb D_Y$, natural in $f$

@@ -2,7 +2,7 @@
 id = "sk-prop-sp-orientation"
 kind = "proposition"
 title = "The relative dualizing complex"
-order = 2935
+order = 3336
 uses = ["sk-def-sp-dualizing", "sk-prop-cohsm", "sk-thm-dnc", "sk-prop-an", "sk-lem-diag-reg"]
 tags = ["sketch"]
 +++

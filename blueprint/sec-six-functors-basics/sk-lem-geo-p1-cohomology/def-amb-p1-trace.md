@@ -2,7 +2,7 @@
 id = "def-amb-p1-trace"
 kind = "definition"
 title = "Projective-line trace before an exceptional adjoint"
-order = 2335
+order = 2611
 uses = ["def-coefficient-twists-detailed", "lem-amb-proper-coproducts-projection", "thm-amb-p1-decomposition"]
 +++
 For $q:\mathbf P^1_S\to S$, define

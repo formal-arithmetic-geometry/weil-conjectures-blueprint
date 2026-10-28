@@ -2,7 +2,7 @@
 id = "def-weil-pbc-stein-factorization"
 kind = "definition"
 title = "Stein factorization"
-order = 1524
+order = 1645
 lean = ["AlgebraicGeometry.Scheme.Hom.steinFactorizationBase", "AlgebraicGeometry.Scheme.toSpecΓ_steinFactorizationBase"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

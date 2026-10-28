@@ -2,7 +2,7 @@
 id = "det-sf-existence-direct-sums"
 kind = "lemma"
 title = "The exceptional inverse image preserves direct sums"
-order = 2320
+order = 2545
 uses = ["det-sf-existence-brown", "det-sf-comp-coherence-single"]
 +++
 In the situation of [det-sf-existence-brown], for every family $(N_\alpha)$ in

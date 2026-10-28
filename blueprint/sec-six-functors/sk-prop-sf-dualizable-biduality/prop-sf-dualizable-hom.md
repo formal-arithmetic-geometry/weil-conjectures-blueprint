@@ -2,7 +2,7 @@
 id = "prop-sf-dualizable-hom"
 kind = "theorem"
 title = "Internal Hom through the coefficient dual"
-order = 3345
+order = 3499
 tags = ["latex:proposition"]
 uses = ["def-sf-datum", "def-weil-derived-pullback-tensor-hom", "lem-sf-hom-finite-projective"]
 +++

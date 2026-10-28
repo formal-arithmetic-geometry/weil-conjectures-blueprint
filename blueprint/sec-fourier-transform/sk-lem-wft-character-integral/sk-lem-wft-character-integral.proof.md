@@ -19,4 +19,4 @@ $\lambda$ is the first coordinate and apply the Künneth isomorphism of
 isomorphism $r$ times, and it identifies the top class with the
 product of the traces. All these calculations take place with
 coefficients in $E$ and commute with extension of scalars
-([sk-prop-sfb-finite-extension-compatibility]).
+([det-prop-sfb-finite-extension-compatibility]).

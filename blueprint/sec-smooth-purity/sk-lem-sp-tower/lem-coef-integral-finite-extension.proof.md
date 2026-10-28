@@ -5,7 +5,7 @@ uses = ["def-pe-derived-complete"]
 +++
 The $R$-module $S$ is finite free, so $\mathcal O_{L,X}=S\otimes_R\mathcal O_{E,X}$
 is a finite free $\mathcal O_{E,X}$-module
-([sk-prop-sfb-finite-extension-compatibility]); its tensor functor is
+([det-prop-sfb-finite-extension-compatibility]); its tensor functor is
 exact and commutes with derived inverse limits. In particular
 $T_{S/R}$ preserves derived completeness [def-pe-derived-complete], and no completion is needed. If $e$
 is the ramification index, the ideals

@@ -1,9 +1,9 @@
 +++
 kind = "proof"
 of = "sk-thm-sp-qbar"
-uses = ["sk-thm-sfb-qlbar-two-colimit", "sk-prop-sp-rational", "sk-lem-sp-field-extension", "sk-prop-sf-comp-coherence"]
+uses = ["sk-prop-qlbar-two-colimit", "sk-prop-sp-rational", "sk-lem-sp-field-extension", "sk-prop-sf-comp-coherence"]
 +++
-By [sk-thm-sfb-qlbar-two-colimit], $\Dbc(T,\Qlb)$ is the $2$-colimit of the
+By [sk-prop-qlbar-two-colimit], $\Dbc(T,\Qlb)$ is the $2$-colimit of the
 categories $\Dbc(T,E)$; in particular, for $K,L\in\Dbc(T,E)$,
 $\varinjlim_{F\supset E}\Hom(K_F,L_F[q])\xrightarrow{\sim}\Hom(K_{\Qlb},L_{\Qlb}[q])$,
 with Hom groups in $\Dbc(T,F)$ and $\Dbc(T,\Qlb)$. Hence any finite diagram of

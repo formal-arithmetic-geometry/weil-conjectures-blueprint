@@ -3,7 +3,7 @@ kind  = "proof"
 of    = "sk-lem-wft-compact-kunneth"
 +++
 Let $u:X\times_SY\to X$ and $v:X\times_SY\to Y$ be the projections.
-By proper base change ([sk-prop-sf-cbc]), $Ru_!v^*L\simeq a^*Rb_!L$. Applying
+By proper base change ([det-prop-sf-cbc]), $Ru_!v^*L\simeq a^*Rb_!L$. Applying
 the projection formula ([sk-thm-sf-package]) first to $u$ and then to $a$, we
 get
 

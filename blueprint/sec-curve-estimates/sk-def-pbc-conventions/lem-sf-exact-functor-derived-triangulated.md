@@ -2,7 +2,7 @@
 id = "lem-sf-exact-functor-derived-triangulated"
 kind = "lemma"
 title = "An exact functor of abelian categories induces a triangulated functor on derived categories"
-order = 1257
+order = 1369
 uses = ["def-weil-abstract-derived-category", "def-weil-triangulated-category"]
 lean = ["CategoryTheory.Functor.mapDerivedCategory", "CategoryTheory.Functor.IsTriangulated", "CategoryTheory.Functor.mapDerivedCategorySingleFunctor"]
 tags = ["mathlib", "stacks-015F"]

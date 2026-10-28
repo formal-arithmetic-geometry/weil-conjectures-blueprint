@@ -2,8 +2,8 @@
 id = "det-uniform-constructible-ext-rational"
 kind = "lemma"
 title = "The stratum bound with rational coefficients"
-order = 2204
-uses = ["det-uniform-constructible-ext-integral", "sk-lem-stratified-lattice", "sk-lem-constructible-ext-continuity", "sk-thm-sfb-qlbar-two-colimit"]
+order = 2420
+uses = ["det-uniform-constructible-ext-integral", "sk-lem-stratified-lattice", "sk-lem-constructible-ext-continuity", "sk-lem-lisse-finite-descent"]
 +++
 Let $a\colon S\hookrightarrow X$, $j$ be as in [det-uniform-constructible-ext-torsion] and put
 $c_a=\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$. For $\Lambda=E$ or $\Qlb$, every lisse

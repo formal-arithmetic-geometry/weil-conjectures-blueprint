@@ -2,7 +2,7 @@
 id = "lemma-nagata-separated-valuation-lift-unique"
 kind = "lemma"
 title = "Uniqueness of a valuation lift for a separated morphism"
-order = 394
+order = 304
 lean = ["AlgebraicGeometry.IsSeparated.valuativeCriterion"]
 +++
 Let $f\colon Y\to S$ be separated, let $A$ be a valuation ring with

@@ -2,7 +2,7 @@
 id = "det-sp-finite-existence-chart"
 kind = "lemma"
 title = "The finite Brown adjoint on a coordinate chart"
-order = 2876
+order = 2913
 uses = ["cor-pur-affine-space-purity", "lem-pur-co-smooth-etale-locality", "lem-amb-etale-adjoint-locality", "cor-amb-affine-space-adjunction", "det-sf-mate-open-restriction"]
 +++
 Let $\Lambda_n=\mathbf Z/\ell^n\mathbf Z$, let $f:X\to Y$ be smooth of pure relative

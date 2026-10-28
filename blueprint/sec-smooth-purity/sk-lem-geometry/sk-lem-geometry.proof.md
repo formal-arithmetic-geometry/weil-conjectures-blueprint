@@ -2,7 +2,7 @@
 kind  = "proof"
 of    = "sk-lem-geometry"
 +++
-*Rees description.* The blow-up of [sk-def-purity-conv] with the
+*Rees description.* The blow-up of [det-def-purity-conv] with the
 strict transform of the closed fibre deleted is
 $\Spec_V\bigl(\bigoplus_{r\in\Z}\mathcal I_s^{\,r}t^{-r}\bigr)$, with
 $\mathcal I_s^{\,r}=\mathcal O_V$ for $r\le0$ and $\widetilde g$ induced by

@@ -2,7 +2,7 @@
 id = "def-sfb-module-upper-star"
 kind = "definition"
 title = "Pullback of module objects"
-order = 1154
+order = 1198
 uses = ["def-sfb-finite-upper-star", "def-sfb-finite-upper-star-monoidal", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-coefficient-morphisms", "det-def-sfb-module-objects", "det-def-sfb-change-of-scalars", "det-def-sfb-transport"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.upperStar"]
 +++

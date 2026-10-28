@@ -2,7 +2,7 @@
 id = "lem-trf-trace-triangle-compatibility"
 kind = "lemma"
 title = "Triangle compatibility of the trace class"
-order = 3479
+order = 3794
 uses = ["d-curve-pieces", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-supported-pairing", "def-trf-trace-class", "def-trf-trace-class-source", "def-weil-derived-pullback-tensor-hom", "lem-trf-global-operator-triangulated", "lem-trf-local-term-locality", "lem-trf-trace-class-diagonal-pairing", "prop-trf-trace-formal-laws", "thm-trf-dualizing-complex-composition", "thm-trf-kunneth-verdier"]
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be an admissible correspondence with

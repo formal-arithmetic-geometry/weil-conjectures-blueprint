@@ -1,13 +1,13 @@
 +++
 kind  = "proof"
 of    = "lem-fd-first-formula"
-uses = ["lem-fd-character-integral", "lem-wft-as-unit-trivialization", "sk-prop-sf-open-closed-triangle", "sk-thm-sfb-shriek-base-change", "thm-pur-vector-bundle-thom"]
+uses = ["lem-fd-character-integral", "lem-wft-as-unit-trivialization", "sk-prop-sf-open-closed-triangle", "det-thm-sfb-shriek-base-change", "thm-pur-vector-bundle-thom"]
 +++
 All sheaves are $E$-sheaves: $\mu_p\subset E$, so the exponential sheaves and
 the kernel are lisse $E$-sheaves of rank one; the formulas with
 $\overline{\mathbf Q}_\ell$-coefficients follow by the extension of scalars
 $\overline{\mathbf Q}_{\ell,X}\otimes_{E_X}-$, which is exact and commutes with
-the operations used ([sk-prop-sfb-finite-extension-compatibility]).
+the operations used ([det-prop-sfb-finite-extension-compatibility]).
 
 *The constant sheaf.* For a geometric point
 $\bar\xi:\operatorname{Spec}\Omega\to V^\vee$, [lem-fd-stalk-formula] identifies
@@ -19,7 +19,7 @@ the open complement of the origin $i_0:\{0\}\hookrightarrow V^\vee$ has zero
 stalks, hence is zero, and the localization triangle of
 [sk-prop-sf-open-closed-triangle] gives
 $\operatorname{FT}_\psi(\underline E)\cong i_{0*}i_0^*\operatorname{FT}_\psi(\underline E)$.
-By compact-support base change along $i_0$ ([sk-thm-sfb-shriek-base-change]),
+By compact-support base change along $i_0$ ([det-thm-sfb-shriek-base-change]),
 $i_0^*\operatorname{FT}_\psi(\underline E)\cong
 R\Gamma_c(\mathbf A^1,\mathcal L_{\psi,0})[1]$, and the unit trivialization
 $\mathcal L_{\psi,0}\cong\underline E$ ([lem-wft-as-unit-trivialization]) and

@@ -2,7 +2,7 @@
 id = "sk-d-relative-frob"
 kind = "definition"
 title = "The relative Frobenius factorization"
-order = 3650
+order = 3817
 uses = ["sk-d-setup", "sk-d-weil"]
 lean = ["AlgebraicGeometry.relativeFrobenius"]
 tags = ["sketch"]

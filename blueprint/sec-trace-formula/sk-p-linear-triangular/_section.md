@@ -2,7 +2,7 @@
 id = "sk-p-linear-triangular"
 kind = "proposition"
 title = "Triangularization"
-order = 3667
+order = 3853
 lean = ["Module.End.exists_complete_invariant_flag"]
 tags = ["sketch"]
 +++

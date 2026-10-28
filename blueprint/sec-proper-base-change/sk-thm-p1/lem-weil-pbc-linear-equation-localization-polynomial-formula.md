@@ -3,7 +3,7 @@ id = "lem-weil-pbc-linear-equation-localization-polynomial-formula"
 kind = "lemma"
 title = "Eliminated variable formula"
 lean = ["MvPolynomial.linearEquationLocalizationPolynomialFormula"]
-order = 1860
+order = 1983
 +++
 Let $A$ be a commutative ring, $r\ge1$, $f_1,\dots,f_r\in A$ and $1\le i\le r$. Put
 $$

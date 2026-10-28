@@ -3,7 +3,7 @@ id = "lem-weil-pbc-curve-constructible-reduction"
 kind = "lemma"
 title = "Reduction to constructible prime torsion"
 lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_forall_isReduced"]
-order = 1311
+order = 1618
 uses = ["def-weil-pbc-eight-curve-assertions", "def-weil-pbc-etale-sheaves", "lemma-weil-pbc-curve-filtered-cohomology", "lemma-weil-pbc-eight-curve-devissage", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $k$ be an algebraically closed field. Suppose that for every reduced

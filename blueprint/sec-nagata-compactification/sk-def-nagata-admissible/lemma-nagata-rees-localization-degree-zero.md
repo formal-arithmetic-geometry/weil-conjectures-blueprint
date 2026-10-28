@@ -3,7 +3,7 @@ id = "lemma-nagata-rees-localization-degree-zero"
 kind = "lemma"
 title = "Compatibility with degree zero"
 lean = ["AlgebraicGeometry.gradeZeroRingHom_comp_reesGradingZero"]
-order = 183
+order = 86
 uses = ["lemma-nagata-rees-degree-zero", "prop-nagata-rees-localization"]
 +++
 Let $\varphi\colon A\to B$ be a ring homomorphism and let $J=\varphi(I)B$.

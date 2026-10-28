@@ -2,7 +2,7 @@
 id = "def-pe-derived-complete"
 kind = "definition"
 title = "Derived complete complexes and normalized towers"
-order = 1176
+order = 1221
 uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-derived-categories", "def-sfb-derived-tensor-modules", "def-weil-derived-limit"]
 +++
 Let $E/\Ql$ be finite, with uniformizer $\pi_E$, let $X$ be a scheme, and let

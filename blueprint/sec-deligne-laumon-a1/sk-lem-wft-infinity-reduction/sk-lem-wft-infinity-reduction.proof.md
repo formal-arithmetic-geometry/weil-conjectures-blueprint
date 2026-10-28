@@ -3,10 +3,10 @@ kind  = "proof"
 of    = "sk-lem-wft-infinity-reduction"
 +++
 An extension of degree $m$ leaves the geometric scheme and its
-cohomology unchanged and replaces Frobenius by $F_q^m$. For every
-eigenvalue $\alpha$ of $F_q$, $\alpha^m$ is an eigenvalue of $F_q^m$,
-and the absolute-value inequality for $\alpha^m$ relative to $q^m$
-implies that for $\alpha$ relative to $q$.
+cohomology unchanged and replaces the Frobenius of $k_0$ by its $m$th power. The first
+assertion follows, because the inequality for $|\iota\alpha^m|$
+relative to $q^m$ is equivalent to that for $|\iota\alpha|$ relative
+to $q$.
 For the second assertion, choose a closed point of $W_0$ and a finite
 extension of the constant field over which it has a rational point
 $s$. Some element of $\mathrm{PGL}_2$ sends $s$ to infinity, and we

@@ -2,7 +2,7 @@
 id = "sk-lem-sp-tower-bound"
 kind = "lemma"
 title = "Direct image preserves constructible towers"
-order = 2997
+order = 3007
 uses = ["sk-def-sp-normalized-towers", "sk-lem-sp-tower-levels", "sk-thm-sf-ctf-stability"]
 tags = ["sketch"]
 +++

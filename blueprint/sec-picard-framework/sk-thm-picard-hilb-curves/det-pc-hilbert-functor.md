@@ -2,7 +2,7 @@
 id = "det-pc-hilbert-functor"
 kind = "definition"
 title = "Hilbert functor"
-order = 759
+order = 785
 lean = ["AlgebraicGeometry.hilbertPresheaf"]
 +++
 For $X\to S$ and $d\ge0$,

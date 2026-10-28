@@ -2,7 +2,7 @@
 id = "sk-thm-br"
 kind = "lemma"
 title = "Cohomology of the multiplicative group"
-order = 1318
+order = 1423
 uses = ["sk-lem-abelian-seesaw", "sk-prop-av-isogeny", "sk-def-picard-pic", "sk-prop-sf-comparison"]
 lean = ["AlgebraicGeometry.IsCurve.sheafH_gmSheaf_of_smooth", "AlgebraicGeometry.IsCurve.rightDerived_globalSections_comparisonUpperStar_gmSheaf", "AlgebraicGeometry.IsCurve.subsingleton_cohomologicalBrauerGroup_of_smooth"]
 tags = ["sketch"]

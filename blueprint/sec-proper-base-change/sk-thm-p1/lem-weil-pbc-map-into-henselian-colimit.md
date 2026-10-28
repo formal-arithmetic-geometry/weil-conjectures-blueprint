@@ -3,7 +3,7 @@ id = "lem-weil-pbc-map-into-henselian-colimit"
 kind = "lemma"
 title = "Maps from an ind-etale algebra into a henselian local ring are determined by the residue map"
 lean = ["Algebra.map_into_henselian_colimit"]
-order = 1911
+order = 2033
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-category-colimit", "def-weil-etale-morphism", "def-weil-residue-field"]
 tags = ["stacks-08HQ"]
 +++

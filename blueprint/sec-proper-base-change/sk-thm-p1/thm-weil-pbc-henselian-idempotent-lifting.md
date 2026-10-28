@@ -3,7 +3,7 @@ id = "thm-weil-pbc-henselian-idempotent-lifting"
 kind = "theorem"
 title = "Idempotent lifting for the structure sheaf over a henselian pair"
 lean = ["AlgebraicGeometry.Scheme.bijective_appTop_idempotent_of_henselianRing", "AlgebraicGeometry.Scheme.henselian_clopen_restriction"]
-order = 1587
+order = 1715
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions"]
 +++
 Let $(A,I)$ be a henselian pair [def-weil-pbc-henselian-terminology] and let

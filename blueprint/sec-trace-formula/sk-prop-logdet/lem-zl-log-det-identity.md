@@ -3,7 +3,7 @@ id = "lem-zl-log-det-identity"
 kind = "lemma"
 title = "Logarithm of the Frobenius determinant"
 lean = ["LinearMap.logOf_charpolyRev"]
-order = 3532
+order = 3858
 uses = ["def-zl-frobenius-trace-series", "p-linear-triangular"]
 +++
 Let $(V,F)$ be a Frobenius module, as in

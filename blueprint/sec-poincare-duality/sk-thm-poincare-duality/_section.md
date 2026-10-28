@@ -3,8 +3,8 @@ id = "sk-thm-poincare-duality"
 kind = "theorem"
 title = "Poincaré duality"
 lean = ["AlgebraicGeometry.WeilSheaf.poincareDuality"]
-order = 3437
-uses = ["sk-cor-trace", "sk-def-pairing", "sk-def-set", "sk-prop-sf-open-closed-triangle", "sk-def-trace-cup", "sk-def-sf-weil-complexes", "sk-lem-finite", "sk-prop-sf-biduality-general", "sk-prop-sf-dualizable-biduality", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-purity-transport", "sk-thm-sf-global-duality", "sk-thm-sf-identification", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange", "sk-thm-transport"]
+order = 3614
+uses = ["sk-cor-trace", "sk-def-pairing", "sk-def-set", "sk-prop-sf-open-closed-triangle", "sk-def-trace-cup", "sk-def-sf-weil-complexes", "sk-lem-finite", "sk-thm-sf-ctf-stability", "sk-prop-sf-dualizable-biduality", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-purity-transport", "sk-thm-sf-global-duality", "sk-thm-sf-identification", "sk-thm-sf-kunneth-relative", "sk-thm-sf-package", "sk-thm-sf-tensor-hom", "sk-thm-sf-verdier-exchange", "sk-thm-transport"]
 tags = ["sketch"]
 +++
 Let $p$ be prime, $a\ge1$, $q=p^a$, $k_0=\Fq$, $k=\overline{\mathbf F}_q$, $\ell\ne p$. Let $X_0/k_0$ be smooth, proper and geometrically

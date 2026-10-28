@@ -2,7 +2,7 @@
 id = "sk-prop-pbc-degree-zero"
 kind = "proposition"
 title = "Proper base change in degree zero"
-order = 1532
+order = 1653
 lean = ["AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isProper", "AlgebraicGeometry.Etale.bijective_stalkToFibreSections_of_isProper"]
 uses = ["sk-def-exchange", "sk-thm-pbc-henselian-h0"]
 tags = ["sketch"]

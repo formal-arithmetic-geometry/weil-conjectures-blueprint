@@ -2,7 +2,7 @@
 id = "sk-prop-sf-open-closed-triangle"
 kind = "proposition"
 title = "Open–closed operations on module sheaves"
-order = 1057
+order = 1101
 uses = []
 lean = ["AlgebraicGeometry.ProEtale.isIso_upperStarLowerStarAdjunction_counit", "AlgebraicGeometry.ProEtale.preservesFiniteColimits_lowerStar_of_isCompl", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_upperStar", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_and_preservesFiniteColimits_openImmersionLowerShriek", "AlgebraicGeometry.ProEtale.isIso_of_isIso_upperStar_of_isCompl", "AlgebraicGeometry.ProEtale.isIso_openImmersionLowerShriekBaseChangeMap"]
 tags = ["sketch"]

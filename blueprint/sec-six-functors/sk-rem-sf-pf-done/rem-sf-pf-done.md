@@ -2,7 +2,7 @@
 id = "rem-sf-pf-done"
 kind = "remark"
 title = "The interface is discharged"
-order = 3335
+order = 3475
 uses = ["sk-prop-integral-criterion", "sk-lem-integral-models"]
 +++
 By [thm-sf-pf-finite], [prop-sf-pf-reduction],

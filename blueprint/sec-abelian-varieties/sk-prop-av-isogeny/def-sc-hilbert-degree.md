@@ -3,7 +3,7 @@ id = "def-sc-hilbert-degree"
 kind = "definition"
 title = "The Hilbert degree of an ample line bundle"
 lean = ["AlgebraicGeometry.Scheme.Hom.degree", "AlgebraicGeometry.Scheme.Hom.degree_eq_sum", "AlgebraicGeometry.Scheme.Hom.exists_polynomial_degree_eq_factorial_mul_coeff"]
-order = 481
+order = 500
 uses = ["def-sc-ample"]
 +++
 Let $X$ be a scheme over a field $k$ and $\mathcal M$ an

@@ -2,7 +2,7 @@
 id = "prop-trf-trace-class-unconditional"
 kind = "theorem"
 title = "The Verdier trace class is unconditionally defined"
-order = 3466
+order = 3738
 tags = ["latex:proposition"]
 uses = ["def-trf-coefficient-conventions", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-fixed-scheme", "def-trf-supported-pairing", "def-trf-trace-class", "def-trf-trace-class-source", "lem-trf-trace-map-from-external-duality", "thm-trf-kunneth-verdier", "thm-trf-verdier-duality"]
 +++

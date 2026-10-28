@@ -3,7 +3,7 @@ id = "cor-rp-euler-product"
 kind = "theorem"
 title = "Euler product of the $L$-function of a lisse sheaf"
 lean = ["AlgebraicGeometry.WeilSheaf.coeff_prod_inv_localPolynomial_stalk_eq", "AlgebraicGeometry.WeilGroup.map_eq_one_of_map_frobenius_eq_one", "AlgebraicGeometry.WeilGroup.exists_eulerSeries_mul_eq_coe"]
-order = 3861
+order = 4091
 tags = ["latex:corollary"]
 uses = ["d-real-cohom", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-a1-affine-hc0", "sk-lem-coefficient-heart", "det-thm-tf-uniform-formula-weil", "thm-trf-l-function-euler-product"]
 +++

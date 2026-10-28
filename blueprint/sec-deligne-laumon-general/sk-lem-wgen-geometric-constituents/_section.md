@@ -3,7 +3,7 @@ id = "sk-lem-wgen-geometric-constituents"
 kind = "lemma"
 title = "Geometric constituents after a constant extension"
 lean = ["Representation.exists_filtration_isIrreducible_restrict"]
-order = 4061
+order = 4286
 uses = ["sk-i-restriction"]
 tags = ["sketch"]
 +++

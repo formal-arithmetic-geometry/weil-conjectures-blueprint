@@ -3,7 +3,7 @@ id = "d-real-series"
 kind = "definition"
 title = "Radius of a formal series"
 lean = ["PowerSeries.radius", "PowerSeries.HasNonnegCoeffs"]
-order = 3856
+order = 4086
 +++
 For $f(T)=\sum_{n\ge0}a_nT^n\in\mathbf C[[T]]$, let $R(f)$ be the
 supremum of $r\ge0$ such that $\sum_n|a_n|t^n$ converges for every

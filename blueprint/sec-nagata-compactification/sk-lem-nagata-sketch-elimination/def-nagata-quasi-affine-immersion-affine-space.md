@@ -3,7 +3,7 @@ id = "def-nagata-quasi-affine-immersion-affine-space"
 kind = "definition"
 title = "Affine-space immersion attached to a quasi-affine scheme"
 lean = ["AlgebraicGeometry.Scheme.Hom.affineSpaceImmersionDim", "AlgebraicGeometry.Scheme.Hom.affineSpaceImmersion"]
-order = 298
+order = 204
 uses = ["def-nagata-relative-affine-space", "lemma-nagata-quasi-affine-immersion-affine-space-exists"]
 +++
 Under the hypotheses of

@@ -3,7 +3,7 @@ id = "lem-fin-projective-coordinate-boundary"
 kind = "lemma"
 title = "A projective coordinate complement is finite"
 lean = ["AlgebraicGeometry.exists_isFinite_morphismRestrict_of_range_subset"]
-order = 2360
+order = 2652
 uses = ["def-weil-pbc-scheme-conventions", "lem-fin-projective-finite-fibres"]
 +++
 Let $S=\operatorname{Spec}A$ be integral Noetherian and let

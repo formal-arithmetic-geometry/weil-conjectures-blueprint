@@ -93,8 +93,8 @@ $\alpha:\underline{\Hilb}^g_{C/k}\to\underline{\Pic}^g_{C/k}$,
 $D\mapsto\cO_C(D)$. It is surjective: over an algebraically closed field
 $K$, a class $\cL$ of degree $g$ has $h^0(\cL)\ge\chi(\cL)=1$ by
 [sk-thm-picard-rr], so $\cL\cong\cO_{C_K}(D)$ for the zero divisor $D$ of a
-nonzero section, a $K$-point of $\underline{\Hilb}^g_{C/k}$ (complements of
-[sk-thm-picard-hilb-curves]). So $\underline{\Pic}^g_{C/k}$ is
+nonzero section, a $K$-point of $\underline{\Hilb}^g_{C/k}$ (the $T$-points of
+[sk-thm-picard-hilb-curves] for $T=\Spec K$). So $\underline{\Pic}^g_{C/k}$ is
 quasi-compact, hence of finite type; it is separated, being a group scheme
 over a field whose unit section is a closed immersion; and as the surjective
 image of the proper $\underline{\Hilb}^g_{C/k}$ it is proper (Stacks, Tag

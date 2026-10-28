@@ -2,7 +2,7 @@
 id = "sk-cor-picard-degree"
 kind = "corollary"
 title = "The degree sequence"
-order = 838
+order = 866
 lean = ["AlgebraicGeometry.Scheme.picDegreeHom", "AlgebraicGeometry.Scheme.surjective_picDegreeHom", "AlgebraicGeometry.Scheme.coe_ker_picDegreeHom", "AlgebraicGeometry.Scheme.exists_mulEquiv_prod_ker_picDegreeHom", "AlgebraicGeometry.exists_jacobian"]
 uses = ["sk-thm-picard-main", "sec-abelian-varieties", "sk-def-picard-pic"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "lemma-nagata-valuation-open-closed-point"
 kind = "lemma"
 title = "An open containing the closed point of a local spectrum is total"
-order = 391
+order = 301
 lean = ["IsLocalRing.closedPoint_mem_iff"]
 +++
 Let $A$ be a local ring with maximal ideal $\mathfrak m_A$ and let

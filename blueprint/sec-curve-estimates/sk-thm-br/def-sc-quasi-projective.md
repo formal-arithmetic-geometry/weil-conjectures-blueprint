@@ -3,7 +3,7 @@ id = "def-sc-quasi-projective"
 kind = "definition"
 title = "Quasi-projective curves"
 lean = ["AlgebraicGeometry.IsQuasiProjective"]
-order = 1341
+order = 1446
 uses = ["def-sc-curves"]
 +++
 A scheme $C$ over a field $k$ (for instance a curve) is

@@ -3,7 +3,7 @@ id = "sk-lem-wgen-punctual-cutoff"
 kind = "lemma"
 title = "Bounding the weights of a mixed sheaf"
 lean = ["AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.of_hasWeightsAtMost"]
-order = 4065
+order = 4291
 uses = ["sk-d-real-weights"]
 tags = ["sketch"]
 +++

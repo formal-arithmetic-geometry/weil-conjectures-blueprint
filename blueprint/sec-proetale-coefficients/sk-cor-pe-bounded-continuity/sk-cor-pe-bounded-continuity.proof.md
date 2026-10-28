@@ -9,4 +9,4 @@ does the finite sum in each total degree of the hypercover complex. Since filter
 modules are exact, the first assertion follows. For direct images, evaluate the cohomology
 presheaves on affine objects $V$ of $Y_{\mathrm{proét}}$. Each $X\times_YV$ is quasi-compact
 and quasi-separated, so that the first assertion applies, and sheafification commutes with
-colimits ([det-pe-bounded-continuity-direct-image]).
+colimits.

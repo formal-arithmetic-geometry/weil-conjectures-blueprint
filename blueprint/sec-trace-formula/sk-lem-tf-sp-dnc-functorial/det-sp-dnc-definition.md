@@ -2,7 +2,7 @@
 id = "det-sp-dnc-definition"
 kind = "definition"
 title = "Deformation to the normal cone over the trait"
-order = 3554
+order = 3647
 uses = ["pur9-def-normal-cone"]
 +++
 Let $k$ be algebraically closed and $S$ the strict henselization of

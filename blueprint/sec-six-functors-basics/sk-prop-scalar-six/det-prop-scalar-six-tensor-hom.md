@@ -2,7 +2,7 @@
 id = "det-prop-scalar-six-tensor-hom"
 kind = "lemma"
 title = "Coefficient comparison for tensor product and internal Hom"
-order = 2475
+order = 2821
 uses = ["det-prop-scalar-six-ctf", "det-prop-scalar-six-direct-image", "det-prop-scalar-six-exceptional", "sk-thm-sf-ctf-stability"]
 +++
 Let $\Lambda\to\Lambda'$ be a listed coefficient map and $X$ a standing scheme.

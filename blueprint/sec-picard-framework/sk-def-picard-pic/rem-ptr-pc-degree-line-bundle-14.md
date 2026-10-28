@@ -2,7 +2,7 @@
 id = "rem-ptr-pc-degree-line-bundle-14"
 kind = "remark"
 title = "Pointer to the properties of [def-pc-degree-line-bundle]"
-order = 565
+order = 586
 uses = ["def-sc-pic0"]
 +++
 In the notation of [def-pc-degree-line-bundle]: the relation with the degree of

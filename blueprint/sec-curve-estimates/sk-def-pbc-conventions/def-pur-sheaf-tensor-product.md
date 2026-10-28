@@ -2,7 +2,7 @@
 id = "def-pur-sheaf-tensor-product"
 kind = "definition"
 title = "Tensor product of sheaves of modules on a site"
-order = 1250
+order = 1362
 lean = ["SheafOfModules.monoidalCategory", "SheafOfModules.tensorObjIsoSheafification", "PresheafOfModules.Monoidal.tensorObj", "SheafOfModules.changeOfRings", "SheafOfModules.positiveTensorPower"]
 tags = ["stacks-03EK"]
 +++

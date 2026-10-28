@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-zl-affine-curve-range"
-uses = ["def-compact-support-direct-image-detailed", "sk-lem-coefficient-heart", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-sfb-finite-extension-compatibility", "sk-lem-stratified-lattice", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-thm-sf-ctf-stability", "def-pe-derived-complete", "lem-sc-cohomological-dimension", "lem-sc-compactification", "lem-weil-pbc-mittag-leffler", "sbc-thm-finiteness-finite-type"]
+uses = ["def-compact-support-direct-image-detailed", "sk-lem-coefficient-heart", "sk-thm-sfb-qlbar-two-colimit", "det-prop-sfb-finite-extension-compatibility", "sk-lem-stratified-lattice", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-thm-sf-ctf-stability", "def-pe-derived-complete", "lem-sc-cohomological-dimension", "lem-sc-compactification", "lem-weil-pbc-mittag-leffler", "sbc-thm-finiteness-finite-type"]
 +++
 The Weil structure plays no role; we bound the cohomology of the underlying
 $\Qlb$-sheaf. Choose a smooth proper completion $j:C\hookrightarrow\overline C$
@@ -22,10 +22,10 @@ and the groups $H^r(\overline C,j_{U!}\mathcal G)$ are finite by
 [sbc-thm-finiteness-finite-type] applied to the proper structure morphism of
 $\overline C$.
 
-*Reduction to $E$-coefficients.* By [sk-thm-sfb-qlbar-two-colimit](3) there are
+*Reduction to $E$-coefficients.* By [sk-thm-sfb-qlbar-two-colimit] (2) there are
 a finite $E/\Ql$ and $K\in\Dbc(C,E)$ with $K_{\Qlb}\simeq\mathcal F$. Extension of
 scalars along $E_C\to\overline{\mathbf Q}_{\ell,C}$ is exact
-([sk-prop-sfb-finite-extension-compatibility]), so $\mathcal F_E:=H^0(K)$ is a
+([det-prop-sfb-finite-extension-compatibility]), so $\mathcal F_E:=H^0(K)$ is a
 constructible $E_C$-module with $(\mathcal F_E)_{\Qlb}\simeq\mathcal F$. Since
 $R\Gamma_c$ commutes with extension of scalars ([sk-prop-scalar-six]) and
 $\Qlb$ is flat over $E$,

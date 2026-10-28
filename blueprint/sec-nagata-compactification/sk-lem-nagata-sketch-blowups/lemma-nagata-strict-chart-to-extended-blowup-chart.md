@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-chart-to-extended-blowup-chart"
 kind = "lemma"
 title = "Well-definedness of the extended-ideal chart map"
-order = 266
+order = 171
 lean = ["AlgebraicGeometry.AffineBlowup.baseChangeChartToAway", "AlgebraicGeometry.AffineBlowup.baseChangeChartToAway_mem_chartRing"]
 uses = ["def-nagata-strict-chart-to-extended-blowup-chart"]
 +++

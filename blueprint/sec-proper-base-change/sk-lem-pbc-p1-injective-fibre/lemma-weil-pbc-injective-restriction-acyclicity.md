@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-injective-restriction-acyclicity"
 kind = "lemma"
 title = "Injective restriction acyclicity bound"
 lean = ["AlgebraicGeometry.Etale.subsingleton_H_upperStar_of_injective_of_iSup_eq_top"]
-order = 1561
+order = 1689
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-gabber-affine-comparison", "def-weil-pbc-torsion-etale-sheaf"]
 +++
 Let $(A,J)$ be a henselian pair [def-weil-pbc-henselian-terminology], let

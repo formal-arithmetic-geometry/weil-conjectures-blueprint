@@ -2,7 +2,7 @@
 id = "sk-thm-dl-general-sheaf"
 kind = "theorem"
 title = "Direct image of a mixed sheaf"
-order = 4089
+order = 4318
 lean = ["AlgebraicGeometry.hasDirectImageWeightBound_over_finiteField"]
 uses = ["sk-d-real-weights", "sk-thm-sf-comp-composition", "sk-thm-sf-ctf-stability", "sk-l-dl-general-normalization", "sk-l-dl-general-quasifinite", "sk-prop-wgen-relative-line"]
 tags = ["sketch"]

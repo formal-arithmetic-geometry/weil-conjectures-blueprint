@@ -3,7 +3,7 @@ id = "cor-wf-rank-one-punctual-purity-curve"
 kind = "theorem"
 title = "Punctual purity of a rank-one Weil character on a curve"
 lean = ["AlgebraicGeometry.WeilGroup.frobeniusWeight_eq_of_continuous", "AlgebraicGeometry.WeilGroup.frobeniusWeight_eq_of_deg_eq_one"]
-order = 3838
+order = 4027
 tags = ["latex:corollary"]
 uses = ["cor-wf-rank-one-degree-factorization-curve", "def-weil-local-frobenius-trace", "def-weil-punctual-weights", "def-wf-fundamental-representation", "def-wf-weil-group", "lem-tw-root-of-unity-modulus", "p-real-operations", "thm-wf-rank-one-finite-geometric-image-curve"]
 +++

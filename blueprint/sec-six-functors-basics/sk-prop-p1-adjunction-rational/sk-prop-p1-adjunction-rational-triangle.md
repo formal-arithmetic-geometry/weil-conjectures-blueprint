@@ -2,8 +2,8 @@
 id = "det-prop-p1-adjunction-rational-triangle"
 kind = "lemma"
 title = "Triangle identities for the rational projective line"
-order = 2421
-uses = ["det-prop-p1-adjunction-rational-unit-counit", "sk-prop-diagonal-tower", "sk-prop-geo-p1-adjunction", "sk-thm-sf-pf-field", "sk-prop-sf-existence"]
+order = 2758
+uses = ["det-prop-p1-adjunction-rational-unit-counit", "sk-prop-diagonal-tower", "sk-prop-geo-p1-adjunction", "sk-thm-sf-pf-field", "sk-prop-proper-base-change-unbounded", "sk-prop-sf-existence"]
 +++
 With $\eta$ and $\varepsilon$ as in
 [det-prop-p1-adjunction-rational-unit-counit], for

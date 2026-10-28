@@ -2,7 +2,7 @@
 id = "rem-sc-cd-standard-inputs"
 kind = "remark"
 title = "The standard inputs used above"
-order = 1407
+order = 1512
 uses = ["lemma-weil-pbc-finite-direct-image-exact", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Four standard facts are used in the proofs above; we record them here so

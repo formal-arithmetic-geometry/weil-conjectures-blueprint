@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-mittag-leffler"
 kind = "lemma"
 title = "Mittag--Leffler vanishing"
-order = 3986
+order = 4204
 uses = ["sk-prop-pe-milnor", "det-pe-milnor-sequence"]
 +++
 A tower of finite abelian groups satisfies the Mittag--Leffler condition and

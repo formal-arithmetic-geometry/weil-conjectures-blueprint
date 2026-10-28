@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-derived-direct-image-triangulated"
 kind = "lemma"
 title = "The derived direct image on bounded below derived categories is a triangulated functor"
-order = 1288
+order = 1400
 uses = ["def-weil-pbc-direct-image", "def-sp-kinjective-bridge", "def-weil-triangulated-category", "def-weil-pbc-derived-categories"]
 lean = ["CategoryTheory.Functor.rightDerivedFunctorPlus", "CategoryTheory.Functor.rightDerivedFunctorPlusIsoInjectiveObject", "CategoryTheory.Functor.commShift_rightDerivedFunctorPlusUnit", "CategoryTheory.Functor.IsTriangulated"]
 tags = ["stacks-05SE"]

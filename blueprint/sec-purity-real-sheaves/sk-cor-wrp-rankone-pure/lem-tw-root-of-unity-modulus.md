@@ -3,7 +3,7 @@ id = "lem-tw-root-of-unity-modulus"
 kind = "lemma"
 title = "Modulus of a root of unity"
 lean = ["norm_eq_one_of_pow_eq_one", "AlgebraicGeometry.WeilGroup.frobeniusWeight_eq_zero_of_pow_eq_one"]
-order = 3837
+order = 4026
 uses = ["def-tw-eigenvalue"]
 +++
 Every root of unity $\zeta\in\overline{\mathbf Q}_\ell^\times$ has

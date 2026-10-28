@@ -2,7 +2,7 @@
 id = "det-tf-sp-trace-morphism"
 kind = "lemma"
 title = "Nearby cycles of the trace morphism"
-order = 3585
+order = 3775
 uses = ["det-tf-sp-universal-kernel", "det-tf-sp-kernel-pullback", "def-trf-trace-class", "prop-trf-fixed-square-cartesian"]
 +++
 In the setting of [det-tf-sp-kernel-pullback], let $F=F_c$ be the fixed scheme with

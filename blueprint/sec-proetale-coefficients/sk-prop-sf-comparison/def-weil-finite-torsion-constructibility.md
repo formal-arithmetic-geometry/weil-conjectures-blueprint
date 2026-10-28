@@ -3,7 +3,7 @@ id = "def-weil-finite-torsion-constructibility"
 kind = "definition"
 title = "Finite-torsion constructibility"
 lean = ["AlgebraicGeometry.ProEtale.IsFiniteLocallyConstant", "AlgebraicGeometry.ProEtale.IsConstructible", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructibleIntrinsic"]
-order = 999
+order = 1047
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-finite-field-fiber", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
 For the global finite-field datum [def-weil-finite-field-fiber], fix a prime

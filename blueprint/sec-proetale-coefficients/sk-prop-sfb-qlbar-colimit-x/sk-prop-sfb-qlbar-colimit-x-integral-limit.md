@@ -2,7 +2,7 @@
 id = "det-prop-sfb-qlbar-colimit-x-integral-limit"
 kind = "lemma"
 title = "$\\mathcal O_{E,X}$ is the limit of its finite levels"
-order = 1199
+order = 1246
 uses = ["det-def-sfb-pullback-from-point", "det-def-sfb-condensed-ring", "det-def-sfb-pulled-back-coefficients"]
 +++
 Let $E/\mathbf Q_\ell$ be finite with ring of integers $\cO_E$ and uniformizer $\pi_E$, and

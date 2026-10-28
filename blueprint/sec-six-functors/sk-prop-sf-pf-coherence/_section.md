@@ -2,8 +2,8 @@
 id = "sk-prop-sf-pf-coherence"
 kind = "proposition"
 title = "Coherence of the projection formula"
-order = 3325
-uses = ["sk-lem-sf-mate", "sk-prop-sf-comp-proper", "sk-prop-sf-pf-reduction", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale"]
+order = 3463
+uses = ["sk-lem-sf-mate", "sk-prop-sf-comp-proper", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-proetale", "sk-thm-sbc-coefficients"]
 lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_id", "AlgebraicGeometry.Etale.nonempty_iso_rightDerivedLowerShriek_comp", "AlgebraicGeometry.Etale.hasProjectionFormula_comp", "AlgebraicGeometry.Etale.hasProjectionFormulaOfCompactification_iff"]
 tags = ["sketch"]
 +++
@@ -14,7 +14,7 @@ the composition law of def:compact-support-direct-image; the
 transformation is independent of the chosen compactification; for proper $f$
 it agrees with the direct-image projection formula through $Rf_!\cong Rf_*$;
 it is *compatible with base change*: for a Cartesian square
-$(f',g',f,g)$ as in [sk-def-sf-exchanges], $K\in\Dbc(X,\Lambda)$ and
+$(f',g',f,g)$ as in [det-def-sf-exchanges], $K\in\Dbc(X,\Lambda)$ and
 $L\in\Dctf(Y,\Lambda)$ (pullback preserves both classes) the square
 
 $$
@@ -34,4 +34,4 @@ change; SGA 4, XVII, §5.2);
 and it is compatible with finite reduction, scalar extension and the
 pro-étale realization. Every one of these assertions is an identity between
 natural transformations of the functors typed in [det-def-sf-operations] and
-[sk-def-sf-exchanges], at the categories written there.
+[det-def-sf-exchanges], at the categories written there.

@@ -2,7 +2,7 @@
 id = "det-prop-integral-criterion-constant-coefficients"
 kind = "lemma"
 title = "Constant versus completed integral coefficients"
-order = 2170
+order = 2313
 uses = ["det-def-sfb-pulled-back-coefficients", "det-prop-sfb-qlbar-colimit-x-integral-limit", "def-pe-derived-complete"]
 +++
 Let $X$ be a scheme, $E/\mathbf Q_\ell$ finite, and let

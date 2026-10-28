@@ -2,7 +2,7 @@
 id = "det-prop-picard-schemes-criterion"
 kind = "proposition"
 title = "The general representability criterion"
-order = 816
+order = 844
 lean = ["AlgebraicGeometry.isRepresentable_of_isSheaf_of_zariskiCovers"]
 +++
 Let $S$ be a scheme, $G:(\Sch/S)^{\mathrm{op}}\to\mathsf{Set}$ a Zariski sheaf on the category of

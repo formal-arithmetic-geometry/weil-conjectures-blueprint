@@ -2,7 +2,7 @@
 id = "sk-i-global-additivity"
 kind = "lemma"
 title = "Open–closed trace additivity"
-order = 3516
+order = 3823
 uses = ["sk-d-operator", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-p-trace", "sk-prop-sf-open-closed-triangle", "sk-thm-sf-package", "sk-i-relative-frob"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-correction"
 kind = "lemma"
 title = "Fourier transform of the boundary sequence"
-order = 4004
+order = 4222
 uses = ["sk-l-dl-a1-endpoints", "sk-lem-as-properties", "sk-p-dl-a1-middle", "sk-p-real-semi", "sk-thm-inversion"]
 lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_fourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.isLisse", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.hasWeightsAtMost"]
 tags = ["sketch"]

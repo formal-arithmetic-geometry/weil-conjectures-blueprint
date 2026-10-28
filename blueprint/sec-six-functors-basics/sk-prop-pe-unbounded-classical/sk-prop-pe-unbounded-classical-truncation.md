@@ -2,7 +2,7 @@
 id = "det-pe-unbounded-classical-truncation"
 kind = "lemma"
 title = "Fixed-degree truncation for pro-étale sections"
-order = 2112
+order = 2242
 uses = ["sk-prop-pe-left-complete", "sk-prop-pe-milnor", "sk-def-pe-classical-definition"]
 +++
 Let $X$ be a scheme, $A$ a finite ring, $W$ an object of $X_{\Proet}$ and $e\geq0$

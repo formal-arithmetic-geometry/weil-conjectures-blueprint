@@ -3,7 +3,7 @@ id = "def-tw-eigenvalue"
 kind = "definition"
 title = "Eigenvalues and their weights"
 lean = ["AlgebraicGeometry.WeilGroup.IsOfWeight"]
-order = 3787
+order = 3975
 uses = ["def-tw-conventions", "def-tw-frobenius-action"]
 +++
 Fix a field embedding $\iota:\overline{\mathbf Q}_\ell\hookrightarrow\mathbf C$.

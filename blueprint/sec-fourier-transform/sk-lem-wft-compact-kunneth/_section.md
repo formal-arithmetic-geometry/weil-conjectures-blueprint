@@ -2,8 +2,8 @@
 id = "sk-lem-wft-compact-kunneth"
 kind = "lemma"
 title = "Compact-support Künneth"
-order = 3944
-uses = ["sk-prop-sf-cbc", "sk-thm-sf-package", "sk-thm-sf-kunneth-relative", "sk-def-sf-weil-complexes", "sk-def-sp-trace", "sk-prop-sp-trace-composition", "sk-prop-sp-purity-bc"]
+order = 4156
+uses = ["sk-prop-cohsm", "sk-thm-sf-package", "sk-thm-sf-kunneth-relative", "sk-def-sf-weil-complexes", "sk-def-sp-trace", "sk-prop-sp-trace-composition", "sk-prop-sp-purity-bc"]
 tags = ["sketch"]
 +++
 For separated finite-type maps $a:X\to S$ and $b:Y\to S$,

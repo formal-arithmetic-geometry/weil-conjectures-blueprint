@@ -3,7 +3,7 @@ id = "lem-sc-image-subgroup"
 kind = "lemma"
 title = "The image of a homomorphism is a closed subgroup scheme"
 lean = ["AlgebraicGeometry.exists_isMonHom_image\u03b9", "AlgebraicGeometry.exists_isClosedSubgroupScheme_image\u03b9"]
-order = 528
+order = 547
 uses = ["def-sc-group-scheme", "def-sc-group-scheme-subgroup"]
 +++
 Let $f:G\to H$ be a homomorphism of

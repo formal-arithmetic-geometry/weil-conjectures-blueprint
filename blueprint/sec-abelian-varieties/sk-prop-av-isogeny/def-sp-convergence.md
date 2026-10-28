@@ -3,7 +3,7 @@ id = "def-sp-convergence"
 kind = "definition"
 title = "Convergence of a couple"
 lean = ["CategoryTheory.ExactCouple.IsRegular", "CategoryTheory.ExactCouple.IsComplete", "CategoryTheory.ExactCouple.ConvergenceData", "CategoryTheory.ExactCouple.ConvergesTo", "CategoryTheory.ExactCouple.abutmentConvergenceData", "CategoryTheory.ExactCouple.convergesTo_abutmentFiltration"]
-order = 495
+order = 514
 uses = ["def-sp-exact-couple", "def-sp-filtration"]
 +++
 In the situation of [def-sp-exact-couple], regard all cycle and boundary

@@ -2,7 +2,7 @@
 id = "det-lem-coefficient-heart-common-stratification"
 kind = "lemma"
 title = "Common refinement of stratifications and restriction to strata"
-order = 2124
+order = 2269
 uses = ["sk-def-sfb-constructible", "def-constructible-stratification", "sk-prop-sfb-cartesian-coefficients"]
 +++
 Let $X$ be a Noetherian scheme and $\Lambda=E$ or $\Qlb$.

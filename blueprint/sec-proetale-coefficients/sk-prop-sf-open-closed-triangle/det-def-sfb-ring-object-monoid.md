@@ -3,7 +3,7 @@ id = "det-def-sfb-ring-object-monoid"
 kind = "definition"
 title = "Ring objects of a monoidal category"
 lean = ["CategoryTheory.MonObj", "CategoryTheory.IsMonHom", "CategoryTheory.Mon", "CategoryTheory.Mon.forget", "CategoryTheory.IsCommMonObj"]
-order = 1094
+order = 1138
 +++
 Let $(\mathcal C,\otimes,\mathbf 1)$ be a monoidal category with associator $\alpha$, left unitor
 $\lambda$ and right unitor $\rho$.

@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-exceptional-adjoint-admissibility-8"
 kind = "remark"
 title = "Pointer to the properties of [def-weil-exceptional-adjoint-admissibility]"
-order = 2871
+order = 2906
 uses = ["def-sf-fullcd-used-class", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "lem-exc-open-complement-known", "thm-sf-ambient-adjoint-class", "thm-sf-fullcd-class", "thm-sf-preservation-class"]
 +++
 In the notation of [def-weil-exceptional-adjoint-admissibility]: in

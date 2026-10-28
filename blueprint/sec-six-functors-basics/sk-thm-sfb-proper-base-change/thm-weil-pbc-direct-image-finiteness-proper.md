@@ -2,7 +2,7 @@
 id = "thm-weil-pbc-direct-image-finiteness-proper"
 kind = "theorem"
 title = "Finiteness of proper direct images"
-order = 2188
+order = 2388
 uses = ["def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-comparison-direct-image"]
 +++
 Let $\Lambda=P_n$ be as in

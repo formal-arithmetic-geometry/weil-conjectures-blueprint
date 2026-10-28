@@ -2,7 +2,7 @@
 id = "det-def-sfb-derived-tensor-hom"
 kind = "definition"
 title = "Derived tensor product and derived internal hom"
-order = 1164
+order = 1208
 uses = ["det-def-sfb-derived-categories", "det-def-sfb-condensed-ring", "det-def-sfb-pulled-back-coefficients", "lem-weil-pbc-sheaf-tensor-closed", "det-prop-sfb-module-category"]
 lean = ["DerivedCategory.hasDerivedMonoidalCategory", "DerivedCategory.monoidalClosed", "AlgebraicGeometry.ProEtale.derivedTensor", "AlgebraicGeometry.ProEtale.isLeftDerivedFunctor₂_derivedTensor", "AlgebraicGeometry.ProEtale.derivedHom", "AlgebraicGeometry.ProEtale.derivedTensorHomAdjunction", "AlgebraicGeometry.ProEtale.derivedTensorHomAdjunction₂", "CategoryTheory.Mod.derivedMonoidalCategory", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensor", "AlgebraicGeometry.ProEtale.CondensedRing.isLeftDerivedFunctor₂_derivedTensor", "CategoryTheory.Mod.isLeftDerivedFunctor₂_curriedTensor", "AlgebraicGeometry.ProEtale.CondensedRing.derivedHom", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensorHomAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.derivedTensorHomAdjunction₂"]
 +++

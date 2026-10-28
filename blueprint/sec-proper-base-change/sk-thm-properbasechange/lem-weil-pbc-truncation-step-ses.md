@@ -3,7 +3,7 @@ id = "lem-weil-pbc-truncation-step-ses"
 kind = "lemma"
 title = "The step tau_{<=q-1}K -> tau_{<=q}K of canonical truncations: short exact sequence and quasi-isomorphism of the cokernel to H^q(K)[-q]"
 lean = ["CochainComplex.exists_upperTruncationStepSES"]
-order = 2007
+order = 2129
 uses = ["def-weil-abstract-derived-category"]
 tags = ["stacks-08J5"]
 +++

@@ -2,7 +2,7 @@
 id = "det-pd-generic-direct-image"
 kind = "lemma"
 title = "Geometric generic restriction commutes with direct image"
-order = 3277
+order = 3429
 uses = ["sbc-thm-bounded-below-derived-smooth-base-change", "lem-weil-pbc-derived-cohomology-continuity", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $B$ be a smooth integral curve over $k$, let

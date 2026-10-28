@@ -2,7 +2,7 @@
 id = "sk-cor-tf-point-counting"
 kind = "corollary"
 title = "Point counting and the zeta function"
-order = 3537
+order = 3865
 uses = ["sk-def-sf-weil-complexes", "sk-thm-tf-uniform-formula", "sk-thm-trace-transport"]
 tags = ["sketch"]
 +++

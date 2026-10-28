@@ -3,7 +3,7 @@ id = "def-pc-dimension"
 kind = "definition"
 title = "Dimension"
 lean = ["AlgebraicGeometry.Scheme.Hom.relativeDimension", "AlgebraicGeometry.Scheme.Hom.IsOfRelativeDimension", "AlgebraicGeometry.Scheme.dim", "AlgebraicGeometry.Scheme.dim_eq_topologicalKrullDim"]
-order = 594
+order = 616
 uses = ["def-pc-base-change", "def-pc-scheme"]
 +++
 The *dimension* $\dim X$ of a nonempty scheme $X$ is the supremum

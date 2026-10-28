@@ -2,7 +2,7 @@
 id = "sk-lem-tf-curve-supported-pairing"
 kind = "lemma"
 title = "The supported restriction giving the Frobenius local term"
-order = 3493
+order = 3763
 uses = ["sk-d-trace-class", "sk-d-weil", "sk-thm-sf-kunneth-verdier"]
 tags = ["sketch"]
 +++

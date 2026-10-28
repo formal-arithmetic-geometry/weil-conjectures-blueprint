@@ -2,7 +2,7 @@
 id = "lem-trf-compactification-graph-operator"
 kind = "lemma"
 title = "Extension by zero of a Frobenius coefficient morphism"
-order = 3520
+order = 3828
 uses = ["def-trf-frobenius-coefficient-morphism", "def-trf-global-operator", "def-trf-graph-correspondence", "def-trf-scheme-frobenius", "def-weil-extension-by-zero", "lem-trf-adjoint-mate", "lem-trf-compactification-cohomology", "lem-trf-frobenius-open-square", "lem-trf-open-ctf", "lem-trf-open-square-exchange", "lem-weil-pbc-comparison-pullback", "prop-compactification-coherence-detailed", "prop-functor-package", "prop-trf-graph-operator"]
 +++
 Fix the global finite-field datum and the coefficient ring

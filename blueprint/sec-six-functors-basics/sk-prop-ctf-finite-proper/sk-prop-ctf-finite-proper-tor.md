@@ -2,7 +2,7 @@
 id = "det-ctf-finite-proper-tor"
 kind = "lemma"
 title = "Proper direct image preserves finite Tor amplitude"
-order = 2287
+order = 2382
 uses = ["lem-fin-proper-bounded-constructible", "sk-thm-properbasechange"]
 +++
 Let $A$ be a finite $\ell$-primary ring, $p\colon X\to Y$ proper, and $d$ a uniform bound for the

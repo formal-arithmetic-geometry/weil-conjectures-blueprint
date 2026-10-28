@@ -3,7 +3,7 @@ id = "thm-sp-grothendieck-base-change"
 kind = "theorem"
 title = "Base-change naturality of the Grothendieck spectral sequence"
 lean = ["CategoryTheory.Functor.exists_grothendieckSpectralObject_baseChange"]
-order = 713
+order = 738
 uses = ["def-sp-composite-acyclicity", "def-sp-injective-resolutions", "lem-sp-couple-morphism", "thm-sp-grothendieck", "thm-sp-spectral-object-yields"]
 +++
 Let $F:\mathcal A\to\mathcal B$, $G:\mathcal B\to\mathcal C$ and

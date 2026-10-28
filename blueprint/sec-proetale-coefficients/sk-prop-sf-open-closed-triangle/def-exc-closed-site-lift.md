@@ -3,7 +3,7 @@ id = "def-exc-closed-site-lift"
 kind = "definition"
 title = "Lifting affine objects of the closed site"
 lean = ["AlgebraicGeometry.Scheme.AffineProEt.closedSiteBaseChange", "AlgebraicGeometry.Scheme.AffineProEt.closedSiteLift"]
-order = 1089
+order = 1133
 uses = ["def-exc-ind-etale-closed-lift", "def-weil-pbc-ind-etale-basis"]
 +++
 For $X=\operatorname{Spec}A$, $Z=\operatorname{Spec}(A/I)$, write

@@ -2,9 +2,9 @@
 id = "thm-weil-pbc-qbar"
 kind = "theorem"
 title = "Proper base change for Weil complexes"
-order = 2196
+order = 2411
 lean = ["AlgebraicGeometry.WeilComplex.nonempty_upperStar_derivedLowerStar_iso_of_isProper", "AlgebraicGeometry.WeilSheaf.nonempty_upperStar_higherLowerStar_iso_of_isProper"]
-uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "det-def-sfb-module-pushforward-pullback", "sk-def-sfb-base-change-morphism"]
+uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "det-def-sfb-module-pushforward-pullback", "det-def-sfb-base-change-morphism"]
 +++
 Fix the finite-field datum $(p,a,q,k_0,k)$ of [def-weil-finite-field-fiber]
 and a prime $\ell\neq p$, and use Weil sheaves and Weil complexes with
@@ -41,7 +41,7 @@ of the pushforward.
    $$
    \mathrm{BC}_K\colon h^*Rf_*K\xrightarrow{\ \sim\ }Rf'_*h'^*K,
    $$
-   formed by the formula of [sk-def-sfb-base-change-morphism] from the
+   formed by the formula of [det-def-sfb-base-change-morphism] from the
    derived adjunctions $f^*\dashv Rf_*$ and $f'^*\dashv Rf'_*$ of Weil modules
    and the pullback comparison $f'^*h^*\cong h'^*f^*$, is an isomorphism of
    Weil complexes.

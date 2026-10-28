@@ -3,7 +3,7 @@ id = "def-nagata-relative-proj"
 kind = "definition"
 title = "Relative Proj"
 lean = ["AlgebraicGeometry.Scheme.GradedAlgebraData.relProj", "AlgebraicGeometry.Scheme.GradedAlgebraData.relProjHom", "AlgebraicGeometry.Scheme.GradedAlgebraData.relProj\u03b9"]
-order = 155
+order = 58
 uses = ["def-nagata-affine-proj"]
 +++
 Let $X$ be a scheme. A *quasi-coherent graded $\mathcal O_X$-algebra*

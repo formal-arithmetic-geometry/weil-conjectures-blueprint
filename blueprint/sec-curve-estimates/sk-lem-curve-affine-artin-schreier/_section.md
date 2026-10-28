@@ -2,7 +2,7 @@
 id = "sk-lem-curve-affine-artin-schreier"
 kind = "lemma"
 title = "Characteristic torsion on an affine curve"
-order = 1439
+order = 1546
 lean = ["AlgebraicGeometry.Scheme.artinSchreierSequence_shortExact", "AlgebraicGeometry.Scheme.constantZModIsoKernelGaArtinSchreier", "AlgebraicGeometry.Scheme.subsingleton_sheafH_gaSheaf_of_isAffine", "AlgebraicGeometry.Scheme.subsingleton_sheafH_constantZMod_of_isAffine"]
 uses = ["sk-prop-sf-comparison"]
 tags = ["sketch"]

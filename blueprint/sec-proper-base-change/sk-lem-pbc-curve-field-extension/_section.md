@@ -2,7 +2,7 @@
 id = "sk-lem-pbc-curve-field-extension"
 kind = "lemma"
 title = "Extension of a separably closed ground field"
-order = 1552
+order = 1678
 lean = ["AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_isSepClosed"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "det-tf-blowup-strict-transform"
 kind = "lemma"
 title = "Strict transform of the test curve"
-order = 3508
+order = 3635
 uses = ["det-tf-blowup-configuration"]
 +++
 In the situation of [det-tf-blowup-configuration], let $B$ be a reduced

@@ -2,7 +2,7 @@
 id = "lem-sfb-bounded-constructible-iff"
 kind = "lemma"
 title = "Bounded constructible complexes via cohomology"
-order = 1150
+order = 1194
 uses = ["def-sfb-bounded-constructible-complexes"]
 lean = ["AlgebraicGeometry.ProEtale.mem_boundedConstructible_iff"]
 +++

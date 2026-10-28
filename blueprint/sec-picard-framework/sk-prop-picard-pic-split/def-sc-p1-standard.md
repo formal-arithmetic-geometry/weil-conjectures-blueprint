@@ -3,7 +3,7 @@ id = "def-sc-p1-standard"
 kind = "definition"
 title = "The standard affine cover and the twists on $\\mathbf P^1_k$"
 lean = ["AlgebraicGeometry.ProjectiveLine.twistData", "AlgebraicGeometry.ProjectiveLine.TwistData"]
-order = 602
+order = 624
 +++
 Let $k$ be a field and
 $\mathbf P^1_k=\operatorname{Proj}k[x_0,x_1]$. The

@@ -3,7 +3,7 @@ id = "cor-pur-affine-space-purity"
 kind = "theorem"
 title = "Affine-space purity"
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpace", "AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_affineSpace"]
-order = 2875
+order = 2912
 tags = ["latex:corollary"]
 uses = ["def-coefficient-twists-detailed", "def-pur-affine-space-comparison", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "prop-pur-affine-space-composition-law", "thm-pur-affine-line-purity"]
 +++

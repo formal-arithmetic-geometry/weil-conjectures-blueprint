@@ -29,7 +29,7 @@ $$
 
 which vanishes for $q>c_a$ by [det-uniform-constructible-ext-integral].
 
-*Coefficients $\Qlb$.* By [sk-thm-sfb-qlbar-two-colimit], there is a finite $E$ and constructible
+*Coefficients $\Qlb$.* By [sk-lem-lisse-finite-descent], there is a finite $E$ and constructible
 $E$-sheaves $C_E$, $N_E$ (of the same form $a_!L_E$, $b_!M_E$) with $a_!L=(C_E)_{\Qlb}$ and
 $b_!M=(N_E)_{\Qlb}$. Since $\overline{\mathbf Q}_{\ell,X}=\varinjlim_{E'}E'_X$ (filtered over finite
 $E'\supset E$) is flat over $E_X$, adjunction gives

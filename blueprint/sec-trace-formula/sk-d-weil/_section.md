@@ -2,7 +2,7 @@
 id = "sk-d-weil"
 kind = "definition"
 title = "Frobenius correspondences and their operators"
-order = 3481
+order = 3751
 uses = ["sk-d-corr", "sk-d-operator", "sk-d-setup", "sk-d-six", "sk-d-trace-class"]
 lean = ["AlgebraicGeometry.ProEtale.weilDatumIterate", "AlgebraicGeometry.ProEtale.stalkFrobenius"]
 tags = ["sketch"]

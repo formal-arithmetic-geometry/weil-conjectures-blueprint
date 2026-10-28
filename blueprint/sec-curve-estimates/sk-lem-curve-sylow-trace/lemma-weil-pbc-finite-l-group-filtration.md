@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-finite-l-group-filtration"
 kind = "lemma"
 title = "Finite $\\ell$-group representation filtration"
 lean = ["Representation.invariants_ne_bot_and_exists_filtration_of_isPGroup"]
-order = 1503
+order = 1613
 +++
 Let $H$ be an $\ell$-group (every element has $\ell$-power order; $H$ need
 not be finite) and $V$ a finite-dimensional $\mathbf F_\ell$-linear

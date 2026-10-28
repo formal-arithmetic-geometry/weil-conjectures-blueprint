@@ -2,7 +2,7 @@
 id = "pur713-def-open-exchange"
 kind = "definition"
 title = "Open-extension base-change map, finite coefficients"
-order = 3023
+order = 3361
 uses = ["pur713-def-base-changed-compactification"]
 +++
 In Definition [pur713-def-base-changed-compactification], for $K\in D(X_{\Proet},\mathcal O_E/\pi_E^n)$, define

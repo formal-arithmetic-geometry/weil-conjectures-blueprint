@@ -2,7 +2,7 @@
 id = "det-tf-supported-restriction"
 kind = "definition"
 title = "Supported class and supported restriction"
-order = 3494
+order = 3764
 uses = ["thm-trf-kunneth-verdier", "lem-trf-exceptional-internal-hom-exchange"]
 +++
 Let $X_0$ be a smooth curve over $k_0$, $X=X_0\times_{k_0}k$ with $k$-linear Frobenius $\Phi_X$,

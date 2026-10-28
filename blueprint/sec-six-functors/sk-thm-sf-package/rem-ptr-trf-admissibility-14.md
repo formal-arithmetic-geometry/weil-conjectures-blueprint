@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-admissibility-14"
 kind = "remark"
 title = "Coefficient clauses in trace admissibility"
-order = 3366
+order = 3539
 uses = ["def-trf-admissibility", "lem-coef-finite-exceptional", "sk-prop-scalar-six"]
 +++
 The coefficient comparisons in [def-trf-admissibility] on the

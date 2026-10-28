@@ -3,9 +3,9 @@ id = "prop-weight-purity"
 kind = "theorem"
 title = "Smooth-proper purity of the constant Weil sheaf"
 lean = ["AlgebraicGeometry.WeilSheaf.isMixedOfWeightsAtMost_toComplex_adicConstant", "AlgebraicGeometry.WeilSheaf.weightPurity_adicConstant"]
-order = 4104
+order = 4337
 tags = ["latex:proposition"]
-uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes", "sk-prop-sfb-finite-extension-compatibility", "def-weil-complex-weights", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-ordinary-reciprocal-roots", "def-weil-pbc-proetale-site", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "thm-weil-deligne-purity"]
+uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes", "det-prop-sfb-finite-extension-compatibility", "def-weil-complex-weights", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-ordinary-compact-cohomology", "def-weil-ordinary-reciprocal-roots", "def-weil-pbc-proetale-site", "def-weil-smooth-proper-cohomological-family", "def-weil-weil-sheaf-complex", "thm-weil-deligne-purity"]
 +++
 Fix the global finite-field datum
 $(p,a,q,k_0,k)$, where $p$ is prime and $a\in\mathbf Z_{\geq1}$ with
@@ -37,7 +37,7 @@ H_c^\bullet(X,\Lambda):=\bigoplus_{i\in\mathbf Z}H_c^i(X,\Lambda)
 $$
 
 Use the scalar-extension identifications
-([sk-prop-sfb-finite-extension-compatibility])
+([det-prop-sfb-finite-extension-compatibility])
 
 $$
 H^\bullet(X,\Ql)\otimes_{\Ql}\Qlb\simeq H^\bullet(X,\Qlb),\qquad

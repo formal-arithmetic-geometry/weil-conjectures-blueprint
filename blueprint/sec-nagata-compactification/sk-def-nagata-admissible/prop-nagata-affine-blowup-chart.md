@@ -2,7 +2,7 @@
 id = "prop-nagata-affine-blowup-chart"
 kind = "theorem"
 title = "Affine chart identification"
-order = 176
+order = 79
 lean = ["AlgebraicGeometry.AffineBlowup.opensRange_chart", "AlgebraicGeometry.AffineBlowup.chart_toSpec", "AlgebraicGeometry.AffineBlowup.homogeneousAwayEquivChart"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-homogeneous-away-to-chart-injective", "lemma-nagata-homogeneous-away-to-chart-surjective", "prop-nagata-rees-graded"]

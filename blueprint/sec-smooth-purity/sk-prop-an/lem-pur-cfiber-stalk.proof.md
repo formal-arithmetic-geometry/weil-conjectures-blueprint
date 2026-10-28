@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-pur-cfiber-stalk"
-uses = ["sk-def-sfb-shriek-base-change-morphism", "sk-thm-sfb-shriek-base-change", "thm-cbc-complete-proetale"]
+uses = ["det-def-sfb-shriek-base-change-morphism", "det-thm-sfb-shriek-base-change", "thm-cbc-complete-proetale"]
 +++
 *At $\Lambda=A$.* The stalk is the filtered-neighborhood fiber of [def-weil-pbc-geometric-stalks].
 Choose a compactification $c=(j,p)$ of $\pi$
@@ -19,7 +19,7 @@ Here $K$ lies in the condensed category $\Dbc(E,\Lambda)$. The stalk at $\bar b$
 $\bar b\to B$, and $R\Gamma_c(E_{\bar b},-)$ is the compact-support direct
 image along the base change $E_{\bar b}\to\bar b$ of $\pi$. The displayed map
 is therefore the compact-support base change morphism of
-[sk-def-sfb-shriek-base-change-morphism] for the cartesian square formed by
+[det-def-sfb-shriek-base-change-morphism] for the cartesian square formed by
 $\pi$ and $\bar b\to B$, with the base-changed compactification. It is an
-isomorphism by [sk-thm-sfb-shriek-base-change] for the rational rings and by
+isomorphism by [det-thm-sfb-shriek-base-change] for the rational rings and by
 [thm-cbc-complete-proetale] for the ring of integers.

@@ -2,7 +2,7 @@
 id = "det-formal-closed-support-ii-left-exact"
 kind = "lemma"
 title = "Left $t$-exactness of sections with closed support"
-order = 2198
+order = 2414
 uses = ["sk-lem-formal-closed-support"]
 +++
 Let $\Lambda$ be admissible, $i\colon Z\hookrightarrow X$ a closed immersion and $u\colon S\hookrightarrow Z$ an

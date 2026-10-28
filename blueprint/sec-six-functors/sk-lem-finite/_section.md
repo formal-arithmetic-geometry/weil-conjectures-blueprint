@@ -3,8 +3,8 @@ id = "sk-lem-finite"
 kind = "lemma"
 title = "Perfect complexes at the geometric point"
 lean = ["AlgebraicGeometry.WeilSheaf.subsingleton_cohomology_adicConstant", "DerivedCategory.IsPerfect.tensor_homology", "DerivedCategory.isPerfect_of_finiteTorAmplitude", "DerivedCategory.IsPerfect.ihom_unit", "AlgebraicGeometry.ProEtale.isPerfect_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_rightDerivedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_compactlySupportedGlobalSections_adic", "AlgebraicGeometry.ProEtale.isPerfect_ihom_rightDerivedGlobalSections_adic"]
-order = 3262
-uses = ["sk-prop-sf-trace-perfectness", "sk-thm-sf-ctf-stability", "sk-thm-sf-direct-image-tor-amplitude"]
+order = 3414
+uses = ["sk-prop-sf-trace-perfectness", "sk-thm-sf-ctf-stability", "sk-cor-sf-direct-image-ctf"]
 tags = ["sketch"]
 +++
 Let $\Lambda$ be an admissible coefficient ring, and for a scheme $X$ let

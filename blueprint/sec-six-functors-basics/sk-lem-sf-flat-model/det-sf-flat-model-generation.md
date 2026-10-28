@@ -2,7 +2,7 @@
 id = "det-sf-flat-model-generation"
 kind = "lemma"
 title = "Strata of a flat constructible sheaf and generation by $a_!L$"
-order = 2275
+order = 2334
 uses = ["lem-sf-flat-model"]
 +++
 Let $A$ be a finite commutative ring and $X$ a Noetherian scheme (for

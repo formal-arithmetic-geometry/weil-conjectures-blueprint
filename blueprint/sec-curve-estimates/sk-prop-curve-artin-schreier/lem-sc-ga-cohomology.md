@@ -3,7 +3,7 @@ id = "lem-sc-ga-cohomology"
 kind = "lemma"
 title = "Etale and Zariski cohomology agree for quasi-coherent sheaves"
 lean = ["AlgebraicGeometry.etale_zariski_cohomology_agree", "AlgebraicGeometry.etale_ga_cohomology_agree", "AlgebraicGeometry.subsingleton_etale_ga_and_structure_cohomology"]
-order = 1435
+order = 1542
 uses = ["def-sc-curves", "def-sc-etale-qcoherent-module", "pqf-lem-affine-vanishing", "lem-sc-affine-open-proper", "lem-sc-cech-spectral", "lem-sc-compactification", "lem-sc-etale-affine-qcoherent"]
 +++
 Let $C$ be a curve and $\mathcal F$ a

@@ -2,7 +2,7 @@
 id = "ex-weil-finite-field-zeta"
 kind = "remark"
 title = "Finite-field zeta normalization"
-order = 4119
+order = 4353
 uses = ["def-weil-finite-field-fiber", "def-weil-point-counts-zeta"]
 tags = ["latex:example"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-prop-integral-criterion"
 kind = "proposition"
 title = "The integral constructibility criterion"
-order = 1213
+order = 1277
 uses = ["sk-def-sfb-constructible", "sk-def-pe-derived-completion", "sk-prop-integral-local-structure", "sk-prop-sf-open-closed-triangle"]
 tags = ["sketch"]
 +++

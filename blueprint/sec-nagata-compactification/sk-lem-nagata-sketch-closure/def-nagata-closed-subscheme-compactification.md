@@ -2,7 +2,7 @@
 id = "def-nagata-closed-subscheme-compactification"
 kind = "definition"
 title = "Closed-subscheme compactification construction"
-order = 123
+order = 43
 lean = ["AlgebraicGeometry.Compactification.ofIsClosedImmersion"]
 uses = ["def-nagata-compactification", "def-nagata-immersion-compactification", "def-nagata-scheme-image-factor", "def-nagata-scheme-theoretic-image", "lemma-nagata-open-immersion-qc-over-separated-target"]
 +++

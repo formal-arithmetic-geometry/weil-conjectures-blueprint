@@ -2,7 +2,7 @@
 id = "lem-kun-leray-finite"
 kind = "lemma"
 title = "Leray through a finite morphism"
-order = 3112
+order = 3088
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-grothendieck-spectral-sequence", "lemma-weil-pbc-finite-direct-image-exact"]
 +++
 Let $\pi:X'\to X$ and $h:Z\to X'$ be morphisms of schemes with

@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-theoretic-closure-minimal"
 kind = "lemma"
 title = "Minimality of the scheme-theoretic closure"
-order = 112
+order = 32
 lean = ["AlgebraicGeometry.Scheme.Hom.ker_le_ker_iff_existsUnique_fac"]
 uses = ["lemma-nagata-scheme-image-universal"]
 +++

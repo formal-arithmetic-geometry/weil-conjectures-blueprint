@@ -2,7 +2,7 @@
 id = "lemma-nagata-separated-stage-exists-absolute"
 kind = "lemma"
 title = "Existence of a separated stage, absolute case, [stacks-project]"
-order = 88
+order = 396
 lean = ["AlgebraicGeometry.Scheme.exists_isSeparated_of_isLimit"]
 +++
 Let $Y=\varprojlim_\alpha Y_\alpha$ be a cofiltered limit of qcqs schemes with

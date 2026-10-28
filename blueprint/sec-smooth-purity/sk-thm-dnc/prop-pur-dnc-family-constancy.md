@@ -3,7 +3,7 @@ id = "prop-pur-dnc-family-constancy"
 kind = "theorem"
 title = "The deformation family is constant along the affine line"
 lean = ["AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData.exists_nonempty_iso_sectionInvariant_twistShift", "AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData.exists_nonempty_iso_familyObject_twistShift", "AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData.nonempty_iso_familyObject_leftDerivedUpperStar", "AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData.existsUnique_familyObject_iso", "AlgebraicGeometry.Scheme.Hom.DeformationToNormalConeData.leftDerivedUpperStar_familyObject_iso_baseChange"]
-order = 2933
+order = 3305
 tags = ["latex:proposition"]
 uses = ["cor-pur-vector-bundle-purity", "def-pur-co-smoothness", "def-pur-conventions", "def-pur-dnc-section-family", "def-weil-derived-tensor", "lem-pur-concentrated-complex-shift", "lem-pur-dnc-section-geometry", "prop-pur-a1-invariance", "thm-pur-cohomological-smoothness"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-sfb-torsion-triangulated"
 kind = "lemma"
 title = "Torsion objects form a triangulated subcategory"
-order = 2174
+order = 2318
 uses = ["def-sfb-torsion-objects"]
 lean = ["CategoryTheory.Rationalization.instIsTriangulatedTorsion", "CategoryTheory.Rationalization.smul_id_obj₂_eq_zero"]
 +++

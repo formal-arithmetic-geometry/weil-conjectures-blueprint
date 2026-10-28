@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-density-normalization"
 kind = "lemma"
 title = "Passing to the schematic closure"
-order = 1233
+order = 1344
 uses = ["sk-def-nagata-sketch-data", "sk-lem-nagata-sketch-closure", "sk-prop-sf-open-closed-triangle"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinement", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward_padicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekRefinementIso"]
 tags = ["sketch"]

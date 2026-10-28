@@ -2,7 +2,7 @@
 id = "det-lem-bounded-continuity-sections"
 kind = "lemma"
 title = "Hypercohomology on a qcqs scheme commutes with bounded-below filtered colimits"
-order = 3218
+order = 3200
 uses = ["sk-prop-pe-hypercover", "sk-cor-pe-sections", "sk-thm-pe-weakly-contractible-basis"]
 +++
 Let $Y$ be a qcqs scheme, $A$ a sheaf of rings on $Y_{\mathrm{proét}}$, and let

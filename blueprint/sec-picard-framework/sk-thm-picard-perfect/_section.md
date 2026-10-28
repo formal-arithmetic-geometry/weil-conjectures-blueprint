@@ -2,7 +2,7 @@
 id = "sk-thm-picard-perfect"
 kind = "lemma"
 title = "Coherent base change for invertible sheaves"
-order = 709
+order = 734
 uses = ["sk-lem-abelian-seesaw", "sk-def-picard-pic", "sec-abelian-varieties", "sec-nagata-compactification", "sk-thm-picard-rr", "sk-prop-picard-pic-split"]
 lean = ["AlgebraicGeometry.Scheme.Modules.isOpen_setOf_hFiber_le", "AlgebraicGeometry.Scheme.Modules.isZero_higherDirectImage_restrict", "AlgebraicGeometry.Scheme.Modules.isFiniteLocallyFreeOfRank_higherDirectImage_restrict", "AlgebraicGeometry.Scheme.Modules.nonempty_higherDirectImage_iso_pullback_of_isPullback", "AlgebraicGeometry.Scheme.Modules.exists_opens_range_subset_iff_isFiniteLocallyFreeInDegree", "AlgebraicGeometry.exists_isIso_canonicalModuleBaseChange_of_isFlatOver", "AlgebraicGeometry.noetherian_perfect_directImage"]
 tags = ["sketch"]

@@ -3,7 +3,7 @@ id = "det-pe-products-exact"
 kind = "lemma"
 title = "Products of pro-étale module sheaves are exact"
 lean = ["AlgebraicGeometry.Scheme.ProEt.epi_pi_map", "AlgebraicGeometry.Scheme.ProEt.countableAB4Star", "AlgebraicGeometry.ProEtale.CondensedRing.countableAB4Star_mod"]
-order = 944
+order = 988
 uses = ["det-pe-sections-conservative", "det-pe-wc-sections-exact"]
 +++
 1. For every (small) set $I$ and every family of epimorphisms $\varphi_i\colon A_i\to B_i$

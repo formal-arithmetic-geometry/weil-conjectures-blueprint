@@ -3,7 +3,7 @@ id = "def-wf-l2-norm"
 kind = "definition"
 title = "The $L^2$-weight parameter"
 lean = ["AlgebraicGeometry.WeilComplex.traceEnergy", "AlgebraicGeometry.WeilSheaf.l2Weight", "AlgebraicGeometry.WeilComplex.l2Weight"]
-order = 3893
+order = 4127
 uses = ["def-weil-ordinary-compact-cohomology", "det-def-sfb-bounded-constructible", "sk-def-sf-weil-complexes", "def-weil-pbc-scheme-conventions"]
 +++
 Let $X_0$ be a smooth geometrically connected affine curve over

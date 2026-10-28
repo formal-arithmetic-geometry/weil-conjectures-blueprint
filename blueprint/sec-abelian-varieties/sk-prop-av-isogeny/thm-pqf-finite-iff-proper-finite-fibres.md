@@ -3,7 +3,7 @@ id = "thm-pqf-finite-iff-proper-finite-fibres"
 kind = "theorem"
 title = "Finite = proper with finite fibres; Stacks Lemma 30.21.1"
 lean = ["AlgebraicGeometry.IsFinite.iff_isProper_and_finite_preimage_singleton"]
-order = 525
+order = 544
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-proper", "pqf-def-affine-morphism", "pqf-def-locnoeth", "pqf-def-quasifinite", "pqf-lem-affine-local-target", "pqf-lem-affine-vanishing", "pqf-lem-coherent-ft-locnoeth", "pqf-lem-fff-vanishing", "pqf-lem-finite-qf", "pqf-lem-integral-lft-finite", "pqf-lem-integral-univclosed", "pqf-lem-leray", "pqf-lem-leray-lowdegree", "pqf-lem-locnoeth-lft", "pqf-lem-proper-basic", "pqf-lem-pushforward-qcoh", "pqf-lem-qf-finitefibres", "pqf-lem-qf-locqf-qc", "pqf-lem-serre-criterion", "pqf-lem-sheaf-zero-stalks", "thm-pqf-zmt-factorization"]
 +++
 Let $f:X\to S$ be a morphism of schemes (no hypothesis on $S$). The

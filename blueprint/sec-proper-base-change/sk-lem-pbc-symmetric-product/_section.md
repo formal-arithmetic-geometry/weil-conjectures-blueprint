@@ -2,9 +2,9 @@
 id = "sk-lem-pbc-symmetric-product"
 kind = "lemma"
 title = "A finite cover of projective space"
-order = 1930
+order = 2052
 lean = ["AlgebraicGeometry.ProjectiveSpace.exists_isFinite_surjective_projectiveLinePow", "AlgebraicGeometry.ProjectiveSpace.symmetricProduct", "AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveSpace"]
-uses = ["sk-def-pbc", "sk-lem-pbc-finite", "sk-lem-pbc-composition-cancellation", "sk-prop-av-isogeny", "sec-picard-framework"]
+uses = ["sk-def-pbc", "sk-thm-p1", "sk-lem-pbc-finite", "sk-lem-pbc-composition-cancellation", "sk-prop-av-isogeny", "sec-picard-framework"]
 tags = ["sketch"]
 +++
 For every scheme $S$ and every $n\geq1$ there is a finite surjective
@@ -14,6 +14,7 @@ $$
 \sigma_n:(\mathbf P^1_S)^n\longrightarrow\mathbf P^n_S.
 $$
 
-Let $\Lambda$ be a commutative ring which is torsion as an abelian group. If
-$\mathrm{PBC}_\Lambda(\mathbf P^1_T\to T)$ holds for every scheme $T$, then
-$\mathrm{PBC}_\Lambda(\mathbf P^n_S\to S)$ holds for every $S$ and $n\geq0$.
+Consequently, for a commutative ring $\Lambda$ which is torsion as an abelian
+group, $\mathrm{PBC}_\Lambda(\mathbf P^n_S\to S)$ holds for every scheme $S$
+and every $n\geq0$, provided $\mathrm{PBC}_\Lambda(\mathbf P^1_S\to S)$ holds
+for every scheme $S$; by [sk-thm-p1] it does.

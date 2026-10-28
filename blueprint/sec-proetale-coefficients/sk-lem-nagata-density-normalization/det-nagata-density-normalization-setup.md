@@ -3,7 +3,7 @@ id = "det-nagata-density-normalization-setup"
 kind = "lemma"
 title = "The schematic closure inside a Noetherian compactification"
 lean = ["AlgebraicGeometry.Scheme.Hom.image", "AlgebraicGeometry.Scheme.Hom.imageι", "AlgebraicGeometry.Scheme.Hom.toImage", "AlgebraicGeometry.Scheme.Hom.toImage_imageι", "AlgebraicGeometry.Scheme.Hom.ker_toImage"]
-order = 1240
+order = 1351
 uses = ["def-nagata-compactification", "lemma-nagata-immersion-open-in-scheme-image"]
 +++
 Let $X\xrightarrow{j}\overline X\xrightarrow{p}S$ be a compactification with

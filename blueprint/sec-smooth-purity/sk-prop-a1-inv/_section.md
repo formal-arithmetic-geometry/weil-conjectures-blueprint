@@ -2,12 +2,12 @@
 id = "sk-prop-a1-inv"
 kind = "proposition"
 title = "Weak $\\Aaf^1$-invariance"
-order = 3225
-uses = ["sk-def-purity-conv"]
+order = 3207
+uses = ["sk-prop-cohsm", "sk-thm-existence"]
 lean = ["AlgebraicGeometry.Etale.injective_upperStar_map_of_isFiniteLocallyConstantSheaf", "AlgebraicGeometry.Etale.injective_upperStar_oneSection_map_of_isFiniteLocallyConstantSheaf", "AlgebraicGeometry.Etale.eq_of_leftDerivedUpperStar_oneSection_eq"]
 tags = ["sketch"]
 +++
-In the conventions of [sk-def-purity-conv] write $a:\Aaf^1_Y\to Y$ and
+In the conventions of [det-def-purity-conv] write $a:\Aaf^1_Y\to Y$ and
 $j:\mathbf G_{m,Y}\hookrightarrow\Aaf^1_Y$, and let $i_0,i_1:Y\to\Aaf^1_Y$ be
 the sections $t=0$ and $t=1$.
 

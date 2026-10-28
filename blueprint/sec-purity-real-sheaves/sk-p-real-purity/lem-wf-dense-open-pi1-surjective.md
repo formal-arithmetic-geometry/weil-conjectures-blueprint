@@ -3,7 +3,7 @@ id = "lem-wf-dense-open-pi1-surjective"
 kind = "lemma"
 title = "Fundamental groups of a dense open surject"
 lean = ["AlgebraicGeometry.WeilSheaf.IsIrreducibleLisse.upperStar_of_isDominant", "AlgebraicGeometry.WeilGroup.restrictionMap_surjective", "AlgebraicGeometry.Etale.isIso_unit_upperStarLowerStarAdjunction_of_isDomain_stalk", "AlgebraicGeometry.Scheme.FiniteEtale.isConnected_pullback_of_isRegular", "AlgebraicGeometry.Scheme.FiniteEtale.fundamentalGroupMap_surjective_of_isRegular"]
-order = 3867
+order = 4098
 uses = ["cor-galois-lisse-representations", "d-real-setup", "def-galois-fibre-functor", "def-wf-fundamental-representation", "def-wf-weil-group", "lem-fet-galois-category", "lem-fin-etale-normal-components", "lem-galois-transitive", "lem-wf-weil-group-exact-sequence", "prop-wf-weil-sheaf-representation-equivalence", "thm-galois-fundamental", "thm-lisse-qlbar-representations"]
 +++
 Let $V$ be a connected normal Noetherian scheme, let

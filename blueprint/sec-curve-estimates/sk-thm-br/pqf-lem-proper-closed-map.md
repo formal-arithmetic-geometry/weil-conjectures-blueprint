@@ -3,7 +3,7 @@ id = "pqf-lem-proper-closed-map"
 kind = "lemma"
 title = "Proper morphisms are closed"
 lean = ["AlgebraicGeometry.IsProper.isClosedMap"]
-order = 1339
+order = 1444
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-closed-image"]
 +++
 Let $f:X\to S$ be a

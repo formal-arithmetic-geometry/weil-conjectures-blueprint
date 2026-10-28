@@ -2,7 +2,7 @@
 id = "lem-kun-0f1g"
 kind = "lemma"
 title = "Detection of objects supported at closed points"
-order = 3175
+order = 3151
 uses = ["def-kun-global-generated", "def-kun-rgamma-unbounded", "def-pc-separably-closed", "def-kun-support", "lem-kun-0bkz", "lem-kun-0f1f-gen", "lem-kun-0f1f-vanish", "lem-kun-d-zero-cohomology", "lem-kun-etale-lfp", "lem-kun-minimal-cohomology", "lem-kun-stalks-of-cohomology"]
 +++
 Let $K$ be a separably closed

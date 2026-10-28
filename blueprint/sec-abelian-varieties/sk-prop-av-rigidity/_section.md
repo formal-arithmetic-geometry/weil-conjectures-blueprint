@@ -3,7 +3,7 @@ id = "sk-prop-av-rigidity"
 kind = "lemma"
 title = "Rigidity"
 lean = ["AlgebraicGeometry.exists_mem_and_comp_eq_of_subsingleton_image"]
-order = 451
+order = 471
 tags = ["sketch"]
 +++
 Let $X$ be a proper geometrically integral $k$-scheme, let $Y$ be a

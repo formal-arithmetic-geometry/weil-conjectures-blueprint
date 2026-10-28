@@ -2,7 +2,7 @@
 id = "def-weil-triangulated-category"
 kind = "definition"
 title = "Triangulated category and exact functor"
-order = 1256
+order = 1368
 lean = ["CategoryTheory.Pretriangulated", "CategoryTheory.IsTriangulated", "CategoryTheory.Functor.CommShift", "CategoryTheory.Functor.IsTriangulated"]
 tags = ["mathlib", "stacks-0145"]
 +++

@@ -2,7 +2,7 @@
 id = "det-pe-unbounded-classical-bounds"
 kind = "lemma"
 title = "Uniform cohomological bounds in the finite-type range"
-order = 2111
+order = 2258
 uses = ["thm-sc-finite-type-torsion-cd", "lem-sc-cd-affine-limit", "det-base-field-cd-finite-field", "sk-prop-sf-comparison", "def-sc-etale-torsion-cd"]
 +++
 Let $k$ be a finite or algebraically closed field, $X$ and $Y$ schemes of finite

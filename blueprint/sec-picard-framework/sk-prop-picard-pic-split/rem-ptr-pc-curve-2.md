@@ -2,7 +2,7 @@
 id = "rem-ptr-pc-curve-2"
 kind = "remark"
 title = "Pointer to the properties of [def-pc-curve]"
-order = 598
+order = 620
 uses = ["def-pc-curve"]
 +++
 In the notation of [def-pc-curve]: the two curve notions are compared in

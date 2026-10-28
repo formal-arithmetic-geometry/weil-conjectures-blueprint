@@ -2,8 +2,8 @@
 id = "sk-p-real-purity"
 kind = "theorem"
 title = "Purity of real sheaves on curves"
-order = 3863
-uses = ["sk-cor-walg-curve-calculus", "sk-cor-wrp-rankone-pure", "sk-d-real-detweights", "sk-d-real-weights", "sk-d-real-weil", "sk-def-wrp-real-definition", "sk-p-exterior", "sk-p-real-rankin", "sk-r-real-linear"]
+order = 4094
+uses = ["sk-cor-wrp-rankone-pure", "sk-d-real-detweights", "sk-d-real-weights", "sk-d-real-weil", "sk-def-wrp-real-definition", "sk-p-real-rankin", "sk-prop-walg-determinant-weights", "sk-r-linear-library", "sk-r-real-linear", "sk-p-linear-filtration"]
 lean = ["AlgebraicGeometry.WeilGroup.isPunctuallyPure_of_isConstituent_of_isReal"]
 tags = ["sketch"]
 +++

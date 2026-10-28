@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-projective-embedding"
 kind = "lemma"
 title = "Projective embedding over the source"
-order = 439
+order = 454
 lean = ["AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_liftBaseChange", "AlgebraicGeometry.ProjectiveSpace.liftBaseChange", "AlgebraicGeometry.ChowModification.isClosedImmersion_toProjectiveSpaceSource", "AlgebraicGeometry.ChowModification.toProjectiveSpaceSource"]
 uses = ["cor-chow-lemma-proper", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-immersion-closed", "lem-weil-pbc-proper-to-separated"]
 +++

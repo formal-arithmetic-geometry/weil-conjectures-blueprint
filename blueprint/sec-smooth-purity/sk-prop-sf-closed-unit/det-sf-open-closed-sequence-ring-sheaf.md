@@ -2,7 +2,7 @@
 id = "det-sf-open-closed-sequence-ring-sheaf"
 kind = "lemma"
 title = "The open–closed sequence for module sheaves over a sheaf of rings"
-order = 3209
+order = 3190
 uses = ["lem-exc-proetale-closed-exact", "lem-exc-proetale-closed-fully-faithful", "lem-exc-proetale-open-unit", "lem-weil-extension-by-zero-exact", "lem-weil-extension-by-zero-adjunction", "lem-exc-closed-localization", "lem-exc-closed-cover-extension", "det-sf-open-closed-pullback-limits"]
 +++
 Let $X$ be quasi-compact and quasi-separated, $j:U\hookrightarrow X$ a

@@ -2,7 +2,7 @@
 id = "sk-i-dl-a1-local"
 kind = "lemma"
 title = "Local boundary duality"
-order = 4020
+order = 4240
 uses = ["sk-prop-sf-closed-unit", "sk-prop-sf-open-closed-triangle", "sk-thm-pd-verdier-duality", "sk-thm-purity-transport", "sk-thm-sf-verdier-exchange"]
 lean = ["AlgebraicGeometry.exists_linearEquiv_dual_stalk_higherDirectImage"]
 tags = ["sketch"]

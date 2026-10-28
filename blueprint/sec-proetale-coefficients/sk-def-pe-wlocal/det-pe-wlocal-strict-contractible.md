@@ -3,7 +3,7 @@ id = "det-pe-wlocal-strict-contractible"
 kind = "definition"
 title = "w-strictly local and w-contractible rings"
 lean = ["IsWLocalRing", "IsWStrictlyLocalRing", "IsWContractibleRing", "IsStrictlyHenselianLocalRing", "ExtremallyDisconnected"]
-order = 893
+order = 931
 uses = ["def-weil-pbc-w-local", "def-weil-pbc-henselian-terminology", "det-pe-wlocal-components"]
 +++
 Let $R$ be a ring and $T=\operatorname{Spec}R$, a spectral space with set $T^c$ of closed

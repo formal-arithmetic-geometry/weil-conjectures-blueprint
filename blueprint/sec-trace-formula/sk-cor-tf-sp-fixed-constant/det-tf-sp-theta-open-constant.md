@@ -2,7 +2,7 @@
 id = "det-tf-sp-theta-open-constant"
 kind = "lemma"
 title = "The dualizing map of a constant family"
-order = 3588
+order = 3778
 uses = ["det-tf-sp-theta-proper-constant"]
 +++
 In the setting of [det-tf-sp-theta-proper-constant], let $B$ be separated and of finite type

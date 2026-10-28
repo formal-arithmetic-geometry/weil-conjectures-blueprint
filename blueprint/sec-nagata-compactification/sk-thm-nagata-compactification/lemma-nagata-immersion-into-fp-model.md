@@ -2,7 +2,7 @@
 id = "lemma-nagata-immersion-into-fp-model"
 kind = "lemma"
 title = "Immersion into a finite-presentation model, [stacks-project]"
-order = 80
+order = 388
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isImmersion_locallyOfFinitePresentation"]
 +++
 Let $S$ be quasi-compact and quasi-separated and let $f\colon X\to S$ be

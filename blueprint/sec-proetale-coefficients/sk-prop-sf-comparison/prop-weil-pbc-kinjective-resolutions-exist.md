@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-kinjective-resolutions-exist"
 kind = "theorem"
 title = "Existence of K-injective resolutions"
-order = 991
+order = 1039
 lean = ["AlgebraicGeometry.Etale.kInjectiveResolutions_exist"]
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-sp-kinjective-bridge"]
 tags = ["latex:proposition"]

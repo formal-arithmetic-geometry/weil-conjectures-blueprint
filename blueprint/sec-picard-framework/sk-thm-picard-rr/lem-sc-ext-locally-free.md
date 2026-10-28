@@ -3,7 +3,7 @@ id = "lem-sc-ext-locally-free"
 kind = "lemma"
 title = "Ext of a finite locally free module"
 lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_ext_addEquiv_H", "AlgebraicGeometry.Scheme.Modules.extAddEquivH"]
-order = 658
+order = 681
 uses = ["def-sc-ext-sheaf"]
 +++
 Let $X$ be a scheme, $\mathcal F$ a finite locally free

@@ -2,7 +2,7 @@
 id = "def-weil-affine-spectrum"
 kind = "definition"
 title = "The spectrum of a commutative ring as a scheme"
-order = 6
+order = 9
 uses = ["def-pc-scheme"]
 lean = ["AlgebraicGeometry.Spec"]
 tags = ["mathlib", "stacks-00DZ"]

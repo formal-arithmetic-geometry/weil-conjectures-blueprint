@@ -3,7 +3,7 @@ id = "def-nagata-separate-constructible-closed"
 kind = "definition"
 title = "Constructible-boundary separation blow-up"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.constructibleClosedExtension", "AlgebraicGeometry.constructibleSeparationBlowup"]
-order = 345
+order = 253
 uses = ["def-nagata-admissible-blowup", "def-nagata-qc-open-complement-ideal", "def-nagata-extended-ideal", "def-nagata-finite-type-ideal-extension", "def-nagata-global-blowup", "def-nagata-scheme-image-factor", "def-nagata-separate-closed-subschemes", "def-nagata-strict-transform", "lemma-nagata-qc-open-complement-ideal-exists", "lemma-nagata-finite-type-ideal-extension-exists", "lemma-nagata-separate-closed-subschemes", "prop-nagata-global-blowup-cover-independent"]
 +++
 Let $X$ be qcqs, let $U\subseteq X$ be a quasi-compact open, and let

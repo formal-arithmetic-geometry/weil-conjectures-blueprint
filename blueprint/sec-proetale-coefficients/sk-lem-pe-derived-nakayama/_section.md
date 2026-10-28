@@ -2,7 +2,7 @@
 id = "sk-lem-pe-derived-nakayama"
 kind = "lemma"
 title = "Reduction and derived Nakayama"
-order = 1177
+order = 1222
 uses = ["sk-def-pe-derived-completion", "sk-prop-sf-open-closed-triangle"]
 tags = ["sketch"]
 +++

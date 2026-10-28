@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-presheaf-finite-limits-objectwise"
 kind = "lemma"
 title = "Finite limits of A-valued presheaves are objectwise; the inclusion of sheaves preserves them; the sheafification counit is an isomorphism"
-order = 1263
+order = 1375
 lean = ["CategoryTheory.preservesFiniteLimits_of_evaluation", "CategoryTheory.Limits.evaluation_preservesLimitsOfShape", "CategoryTheory.Sheaf.createsLimits", "CategoryTheory.isIso_sheafificationAdjunction_counit"]
 tags = ["mathlib", "stacks-03CO"]
 +++

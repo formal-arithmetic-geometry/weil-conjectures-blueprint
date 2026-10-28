@@ -2,7 +2,7 @@
 id = "lem-fd-inversion"
 kind = "theorem"
 title = "Fourier inversion"
-order = 3961
+order = 4174
 uses = ["def-fd-transform", "def-wf-tate-twist", "lem-fd-convolution-kernel", "lem-fd-kernel-composition", "prop-functor-package"]
 +++
 Let $S$ be a separated finite-type $k_0$-scheme, $V\to S$ a vector bundle

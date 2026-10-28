@@ -2,7 +2,7 @@
 id = "sk-rem-sf-typing-rule"
 kind = "remark"
 title = "The typing rule of this section"
-order = 3309
+order = 3442
 tags = ["sketch"]
 +++
 An operation is introduced in this section *only on the ambient
@@ -14,7 +14,7 @@ the small subcategory, so that it *restricts* to a functor there; and for
 the exceptional right adjoint, whose existence is itself a hypothesis, the
 assertion that this restriction to the small subcategories is a functor at all.
 Every such statement is enumerated operation by operation in
-[sk-rem-sf-typing] and proved in [sk-prop-sf-finiteness],
+[sk-rem-sf-typing] and proved in [det-prop-sf-finiteness],
 [sk-prop-sf-existence], [sk-prop-sf-rf-shriek-preservation] and
 [sk-thm-sf-ctf-stability].
 Consequently every functor below is written together with its source and

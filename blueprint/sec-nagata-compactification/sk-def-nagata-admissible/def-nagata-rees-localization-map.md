@@ -2,7 +2,7 @@
 id = "def-nagata-rees-localization-map"
 kind = "definition"
 title = "Coefficientwise Rees-localization map"
-order = 181
+order = 84
 lean = ["AlgebraicGeometry.reesGrading.hom"]
 uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece", "lemma-nagata-localization-ideal-pow"]
 +++

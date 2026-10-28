@@ -2,7 +2,7 @@
 id = "def-weil-exceptional-adjoint-admissibility"
 kind = "definition"
 title = "Exceptional-adjoint admissibility"
-order = 2296
+order = 2536
 lean = ["AlgebraicGeometry.ProEtale.IsExceptionalAdjointAdmissible", "AlgebraicGeometry.ProEtale.HasAmbientExceptionalRightAdjoint"]
 uses = ["def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-scheme-morphism-properties"]
 +++

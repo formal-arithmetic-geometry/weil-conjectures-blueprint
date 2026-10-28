@@ -3,7 +3,7 @@ id = "lem-weil-pbc-symmetric-product-properties"
 kind = "lemma"
 title = "No common zero of the product coefficients"
 lean = ["AlgebraicGeometry.ProjectiveSpace.span_range_bilinearChartSection_mulForm"]
-order = 1931
+order = 2053
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $n\geq0$ and consider, over $\mathbf Z$, the product $\mathbf P^1\times\mathbf P^n$

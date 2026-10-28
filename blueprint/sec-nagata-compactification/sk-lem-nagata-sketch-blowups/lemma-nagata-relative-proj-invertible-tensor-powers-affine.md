@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-proj-invertible-tensor-powers-affine"
 kind = "lemma"
 title = "Affine chart calculation for an invertible tensor algebra"
-order = 231
+order = 136
 lean = ["AlgebraicGeometry.AffineBlowup.isIso_toSpec_of_eq_span", "AlgebraicGeometry.AffineBlowup.bijective_awayAlgebraMap_of_eq_span", "AlgebraicGeometry.AffineBlowup.basicOpen_reesX_eq_top_of_eq_span"]
 uses = ["def-nagata-invertible-ideal", "def-nagata-relative-proj", "prop-nagata-proj-standard-open"]
 +++

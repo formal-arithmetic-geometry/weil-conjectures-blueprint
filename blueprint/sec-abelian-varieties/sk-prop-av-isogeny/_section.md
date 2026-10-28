@@ -3,7 +3,7 @@ id = "sk-prop-av-isogeny"
 kind = "proposition"
 title = "Multiplication by $n$"
 lean = ["AlgebraicGeometry.surjective_npow_id", "AlgebraicGeometry.isIsogeny_npow_id", "AlgebraicGeometry.isogenyDegree_npow_id", "AlgebraicGeometry.isFiniteLocallyFreeOfDegree_npow_id", "AlgebraicGeometry.flat_torsionSubgroupScheme", "AlgebraicGeometry.finrankΓ_torsionSubgroupScheme", "AlgebraicGeometry.etale_npow_id", "AlgebraicGeometry.etale_torsionSubgroupScheme"]
-order = 476
+order = 495
 uses = ["sk-def-av", "sk-prop-av-mult-n-pullback"]
 tags = ["sketch"]
 +++

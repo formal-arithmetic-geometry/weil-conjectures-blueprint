@@ -3,7 +3,7 @@ id = "lem-weil-pbc-symmetric-product-finite"
 kind = "lemma"
 title = "Finiteness of the symmetric-product morphism"
 lean = ["AlgebraicGeometry.ProjectiveSpace.isFinite_symmetricProduct"]
-order = 1933
+order = 2055
 uses = ["def-weil-pbc-scheme-conventions", "def-weil-pbc-symmetric-product-morphism"]
 +++
 For every scheme $S$ and every $n\geq0$, the symmetric-product morphism

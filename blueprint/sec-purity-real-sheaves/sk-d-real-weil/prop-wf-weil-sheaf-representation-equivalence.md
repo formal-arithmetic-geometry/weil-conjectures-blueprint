@@ -3,7 +3,7 @@ id = "prop-wf-weil-sheaf-representation-equivalence"
 kind = "theorem"
 title = "The lisse sheaf–representation equivalence"
 lean = ["AlgebraicGeometry.WeilGroup.exists_equivalence_isLisse", "AlgebraicGeometry.WeilGroup.exists_equivalence_fundamentalRep", "AlgebraicGeometry.WeilGroup.isLisseRep_shortExact_iff", "AlgebraicGeometry.WeilGroup.isLisseRep"]
-order = 3776
+order = 3955
 uses = ["d-real-setup", "def-galois-fibre-functor", "def-wf-fundamental-representation", "def-wf-weil-group", "lem-wf-weil-fundamental-representation", "sk-lem-coefficient-heart", "thm-lisse-qlbar-representations"]
 tags = ["latex:proposition"]
 +++

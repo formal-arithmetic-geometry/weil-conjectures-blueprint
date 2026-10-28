@@ -3,7 +3,7 @@ id = "lem-pc-projective-noetherian-rf-perfect"
 kind = "lemma"
 title = "Perfect direct image for a projective Noetherian family"
 lean = ["AlgebraicGeometry.Scheme.Modules.isPerfect_Q_cechModuleComplex_of_isClosedImmersion"]
-order = 732
+order = 757
 uses = ["def-pc-derived-direct-image", "def-pc-morphism-conventions", "def-pc-perfect-complex", "def-pc-projective-morphism", "lem-pc-cech-resolution", "lem-pc-noetherian-flat-complex-perfect", "lem-pc-projective-coherent-finiteness", "lem-pc-rf-base-change-flat-module", "pqf-def-coherent"]
 +++
 Let $S=\operatorname{Spec}(A)$ be an affine scheme with $A$ Noetherian,

@@ -3,7 +3,7 @@ id = "sk-prop-av-cube"
 kind = "theorem"
 title = "Theorem of the cube"
 lean = ["AlgebraicGeometry.nonempty_iso_of_nonempty_iso_overPullback_slices"]
-order = 448
+order = 467
 uses = ["sk-lem-abelian-seesaw", "sk-lem-abelian-cube-open"]
 tags = ["sketch"]
 +++

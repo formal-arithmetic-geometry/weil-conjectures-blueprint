@@ -10,4 +10,4 @@ So $\mathcal S$ is localizing and equals $\Loc(\Dctf(X,\Lambda))$.
 
 For $\Lambda=E,\Qlb$: $\Dctf=\Dbc$, $Rp_*$ preserves $\Dbc$ by [sk-thm-sfb-proper-base-change], and since
 $\Loc(\Dbc(X,\Lambda))\subset\Dic(X,\Lambda)$ ([sk-cor-ambient-ind-derived]),
-[sk-lem-proper-unbounded-window-ii] gives preservation of sums. The other cases are quoted.
+[det-lem-proper-unbounded-window-ii] gives preservation of sums. The other cases are quoted.

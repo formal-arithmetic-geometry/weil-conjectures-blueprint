@@ -3,7 +3,7 @@ id = "det-pe-left-complete-iso"
 kind = "lemma"
 title = "Postnikov convergence in the pro-étale derived category"
 lean = ["DerivedCategory.isHomotopyLimit_truncGECone"]
-order = 951
+order = 996
 uses = ["det-pe-left-complete-truncation-tower", "det-pe-milnor-sequence"]
 +++
 Let $\mathcal C$ be an abelian category with K-injective resolutions in which countable

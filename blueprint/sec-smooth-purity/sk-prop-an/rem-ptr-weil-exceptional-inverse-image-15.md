@@ -2,7 +2,7 @@
 id = "rem-ptr-weil-exceptional-inverse-image-15"
 kind = "remark"
 title = "Pointer to the properties of [def-weil-exceptional-inverse-image]"
-order = 2926
+order = 3285
 uses = ["def-weil-exceptional-inverse-image", "thm-sf-preservation-class"]
 +++
 In the notation of [def-weil-exceptional-inverse-image], what the two displayed typings use

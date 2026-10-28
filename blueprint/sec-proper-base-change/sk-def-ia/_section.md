@@ -2,8 +2,8 @@
 id = "sk-def-ia"
 kind = "definition"
 title = "Injective acyclicity"
-order = 1535
-lean = ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity", "AlgebraicGeometry.Etale.HasPrimeInjectiveAcyclicity", "AlgebraicGeometry.Etale.HasAllPrimeInjectiveAcyclicity"]
+order = 1657
+lean = ["AlgebraicGeometry.Etale.HasInjectiveAcyclicity"]
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-pbc"]
 tags = ["sketch"]
 +++
@@ -14,10 +14,6 @@ $\Lambda$-modules on $X_{\Et}$ which is torsion [sk-def-pbc], one has
 $$
 R^qf'_*g'^{-1}I=0\qquad(q>0).
 $$
-
-For a prime $r$, abbreviate $\mathrm{IA}_r(f)=\mathrm{IA}_{\mathbf Z/r\mathbf Z}(f)$;
-every $\mathbf Z/r\mathbf Z$-module sheaf is torsion. Write $\mathrm{IA}(f)$ if
-$\mathrm{IA}_r(f)$ holds for every prime $r$.
 
 The pullback $g'^{-1}I$ of an injective sheaf is in general not injective.
 Injective acyclicity asks only that it be $f'_*$-acyclic. By

@@ -2,7 +2,7 @@
 id = "def-tw-frobenius-action"
 kind = "definition"
 title = "Geometric Frobenius action"
-order = 3329
+order = 3469
 uses = ["def-tw-conventions"]
 +++
 Let $\Phi_X$ be the geometric Frobenius endomorphism of

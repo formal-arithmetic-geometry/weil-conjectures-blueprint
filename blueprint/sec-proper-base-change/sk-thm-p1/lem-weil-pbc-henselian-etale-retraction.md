@@ -3,7 +3,7 @@ id = "lem-weil-pbc-henselian-etale-retraction"
 kind = "lemma"
 title = "Etale algebras over a henselian local ring have unique sections through rational points of the closed fibre"
 lean = ["existsUnique_algHom_of_henselianLocalRing_etale", "IsLocalRing.idempotent_lifting_iff_monic_simple_root_lifting"]
-order = 1909
+order = 2031
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-etale-morphism", "def-weil-residue-field"]
 tags = ["stacks-04GG"]
 +++

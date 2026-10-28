@@ -2,7 +2,7 @@
 id = "lemma-nagata-affine-blowup-complement"
 kind = "lemma"
 title = "Affine complement-of-center isomorphism"
-order = 200
+order = 103
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.isIso_blowupMap_restrict_of_ideal_eq_top"]
 uses = ["def-nagata-global-blowup", "def-nagata-global-blowup-overlap-basic-map", "lemma-nagata-affine-blowup-restrict-cocycle", "prop-nagata-affine-blowup-restrict", "prop-nagata-global-blowup-cover-independent"]
 +++

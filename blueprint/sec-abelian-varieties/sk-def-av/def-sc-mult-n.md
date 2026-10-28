@@ -3,7 +3,7 @@ id = "def-sc-mult-n"
 kind = "definition"
 title = "Multiplication by $n$ and $n$-torsion"
 lean = ["AlgebraicGeometry.torsionSubgroupScheme", "AlgebraicGeometry.isMonHom_npow_id", "AlgebraicGeometry.isClosedSubgroupScheme_torsionSubgroupScheme_ι"]
-order = 466
+order = 485
 uses = ["def-sc-abelian-variety", "def-sc-group-scheme", "lem-sc-kernel-subgroup"]
 +++
 Let $A$ be a group scheme

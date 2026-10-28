@@ -2,8 +2,8 @@
 id = "sk-p-real-rankin"
 kind = "proposition"
 title = "The determinant upper bound"
-order = 3859
-uses = ["sk-cor-walg-curve-calculus", "sk-d-real-detweights", "sk-def-wrp-real-definition", "sk-i-restriction", "sk-lem-wrp-hc2", "sk-lem-wrp-positive-euler", "sk-p-linear-filtration", "sk-p-tensor", "sk-thm-trace-transport"]
+order = 4089
+uses = ["sk-d-real-detweights", "sk-def-wrp-real-definition", "sk-i-restriction", "sk-lem-wrp-hc2", "sk-lem-wrp-positive-euler", "sk-p-linear-filtration", "sk-prop-walg-determinant-weights", "sk-thm-trace-transport", "sk-r-linear-library"]
 lean = ["AlgebraicGeometry.WeilGroup.hasWeightsAtMost_of_isReal"]
 tags = ["sketch"]
 +++

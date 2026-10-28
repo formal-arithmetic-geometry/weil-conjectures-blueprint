@@ -3,7 +3,7 @@ id = "pqf-lem-qs-intersection-qc"
 kind = "lemma"
 title = "Intersections of quasi-compact opens"
 lean = ["AlgebraicGeometry.Scheme.isCompact_inf_of_quasiSeparatedSpace"]
-order = 303
+order = 209
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $X$ be a

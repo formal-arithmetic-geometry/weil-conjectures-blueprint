@@ -2,7 +2,7 @@
 id = "sk-def-sp-dualizing"
 kind = "definition"
 title = "Relative dualizing complex"
-order = 2847
+order = 2876
 uses = ["sk-prop-sf-existence", "sk-thm-existence"]
 tags = ["sketch"]
 +++

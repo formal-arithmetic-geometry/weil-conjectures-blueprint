@@ -2,7 +2,7 @@
 id = "thm-nagata-strict-transform-is-blowup"
 kind = "theorem"
 title = "[stacks-project]"
-order = 279
+order = 184
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_blowup_comap_iso_strictTransform"]
 uses = ["def-nagata-extended-ideal", "def-nagata-global-blowup", "def-nagata-scheme-theoretic-image", "def-nagata-strict-transform", "prop-nagata-global-blowup-cover-independent"]
 +++

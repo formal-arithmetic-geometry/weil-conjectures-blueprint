@@ -3,7 +3,7 @@ id = "det-thm-rationality"
 kind = "theorem"
 title = "Rationality of the zeta series"
 lean = ["AlgebraicGeometry.Scheme.zetaSeries_rational"]
-order = 4125
+order = 4359
 uses = ["det-def-zeta", "det-prop-euler", "sk-cor-tf-point-counting", "prop-weil-integral-rational-series"]
 +++
 Let $X_0$ be a scheme of finite type (quasi-compact and locally of finite

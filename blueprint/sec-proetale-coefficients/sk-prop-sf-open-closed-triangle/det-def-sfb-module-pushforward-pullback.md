@@ -2,7 +2,7 @@
 id = "det-def-sfb-module-pushforward-pullback"
 kind = "definition"
 title = "Pushforward and pullback of module objects"
-order = 1158
+order = 1202
 uses = ["det-def-sfb-transport", "det-def-sfb-condensed-ring", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-module-objects", "det-def-sfb-coefficient-morphisms", "det-def-sfb-change-of-scalars", "def-sfb-finite-lower-star", "def-sfb-finite-upper-star", "def-sfb-finite-lower-star-lax-monoidal", "def-sfb-finite-upper-star-monoidal", "lem-sfb-finite-monoidal-adjunction", "def-sfb-finite-lower-star-comp"]
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.lowerStar", "AlgebraicGeometry.ProEtale.CondensedRing.preservesFiniteLimits_lowerStar", "AlgebraicGeometry.ProEtale.CondensedRing.upperStar", "AlgebraicGeometry.ProEtale.CondensedRing.upperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.isMonoidal_lowerStarComp", "AlgebraicGeometry.ProEtale.CondensedRing.lowerStarComp", "AlgebraicGeometry.ProEtale.CondensedRing.upperStarComp"]
 +++

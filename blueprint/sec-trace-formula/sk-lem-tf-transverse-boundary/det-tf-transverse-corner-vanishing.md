@@ -2,7 +2,7 @@
 id = "det-tf-transverse-corner-vanishing"
 kind = "lemma"
 title = "Vanishing at the transverse corner"
-order = 3502
+order = 3628
 uses = ["det-tf-transverse-corner-constant"]
 +++
 Let $Z$ be a regular smooth surface over an algebraically closed field

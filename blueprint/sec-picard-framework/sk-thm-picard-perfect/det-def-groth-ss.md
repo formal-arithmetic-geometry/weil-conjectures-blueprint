@@ -2,7 +2,7 @@
 id = "det-def-groth-ss"
 kind = "definition"
 title = "Composable pair with acyclicity; the couple of a double complex"
-order = 743
+order = 768
 lean = ["CategoryTheory.Functor.IsAcyclicComposablePair", "CategoryTheory.SpectralSequence.pageInfinity", "CategoryTheory.SpectralSequence.Abutment", "HomologicalComplex\u2082.columnFiltration", "HomologicalComplex\u2082.firstSpectralSequenceAbutment", "HomologicalComplex\u2082.firstSpectralSequenceAbutment_filtration", "HomologicalComplex\u2082.flipFirstSpectralSequenceAbutment", "HomologicalComplex\u2082.flipFirstSpectralSequenceAbutment_filtration"]
 +++
 Let $\mathcal A\xrightarrow{\,F\,}\mathcal B\xrightarrow{\,G\,}\mathcal C$

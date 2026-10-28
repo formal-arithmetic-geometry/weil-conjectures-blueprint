@@ -2,7 +2,7 @@
 id = "thm-nagata-compactification"
 kind = "theorem"
 title = "Nagata compactification, [stacks-project]"
-order = 102
+order = 410
 lean = ["AlgebraicGeometry.NagataCompactification"]
 uses = ["def-nagata-compactification", "def-nagata-final-compactification", "lemma-nagata-final-ambient-proper", "lemma-nagata-final-factorization", "lemma-nagata-final-open-immersion"]
 +++

@@ -3,8 +3,8 @@ id = "det-l-dl-general-excision"
 kind = "lemma"
 title = "Open–closed reduction"
 lean = ["AlgebraicGeometry.HasDirectImageWeightBound.of_openClosed"]
-order = 4080
-uses = ["sk-d-real-weights", "sk-r-real-linear", "sk-prop-sf-open-closed-triangle", "sk-prop-sf-cbc", "sk-thm-sf-comp-composition", "lem-zl-morphism-open-closed-reduction"]
+order = 4308
+uses = ["sk-d-real-weights", "sk-r-real-linear", "sk-prop-sf-open-closed-triangle", "det-prop-sf-cbc", "sk-thm-sf-comp-composition", "lem-zl-morphism-open-closed-reduction"]
 +++
 Let $f_0:X_0\to Y_0$ be a separated finite-type morphism of
 $k_0$-schemes, with $Y_0$ quasi-separated of finite type over $k_0$.

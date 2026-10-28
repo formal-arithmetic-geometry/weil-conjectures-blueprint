@@ -3,7 +3,7 @@ id = "lem-sp-couple-morphism"
 kind = "lemma"
 title = "Morphisms of couples give morphisms of spectral sequences"
 lean = ["CategoryTheory.ExactCouple.Hom", "CategoryTheory.ExactCouple.Hom.spectralSequenceMap", "CategoryTheory.ExactCouple.Hom.derived", "CategoryTheory.ExactCouple.Hom.derivedIter", "CategoryTheory.ExactCouple.halfPlaneFiltration_F_eq"]
-order = 497
+order = 516
 uses = ["def-sp-exact-couple", "def-sp-filtration", "thm-sp-half-plane-convergence"]
 +++
 A morphism $(t_D,t_E):(D,E,\alpha,f,g)\to(D',E',\alpha',f',g')$ of exact

@@ -3,7 +3,7 @@ id = "def-weil-punctual-weights"
 kind = "definition"
 title = "Punctual weights"
 lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight"]
-order = 3778
+order = 3959
 uses = ["def-weil-finite-field-fiber", "def-weil-local-frobenius-trace", "def-weil-point-counts-zeta", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "lem-weil-local-frobenius-conjugacy-class", "sk-def-sf-weil-complexes", "sk-lem-coefficient-heart"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, put $q=p^a$, $k_0=\Fq$,

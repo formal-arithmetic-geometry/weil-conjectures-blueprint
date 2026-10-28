@@ -3,7 +3,7 @@ id = "det-def-sfb-sheaf-tensor-structure"
 kind = "definition"
 title = "The symmetric monoidal structure on $\\mathcal A$-valued sheaves"
 lean = ["CategoryTheory.Sheaf.monoidalCategory", "CategoryTheory.Sheaf.braidedCategory", "CategoryTheory.Sheaf.symmetricCategory", "CategoryTheory.GrothendieckTopology.monoidalCategory_sheaf_of_essentiallySmall", "CategoryTheory.GrothendieckTopology.symmetricCategory_sheaf_of_essentiallySmall", "AddCommGrpCat.monoidalCategory"]
-order = 1136
+order = 1180
 uses = ["det-def-sfb-sheaf-tensor-local-iso", "def-weil-pbc-proetale-site", "det-def-sfb-sheaf-tensor-presheaf"]
 +++
 Let $\mathcal A$ and $C$ be as in [det-def-sfb-sheaf-tensor-presheaf]; for instance $C$ is the

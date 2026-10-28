@@ -2,7 +2,7 @@
 id = "det-sp-p1-adjunction"
 kind = "lemma"
 title = "Triangle identities for the projective-line adjunction"
-order = 2341
+order = 2619
 uses = ["det-sp-p1-trace", "thm-amb-p1-adjunction", "sk-prop-pe-unbounded-classical"]
 +++
 With the notation of [det-sp-p1-trace], let $\varepsilon_K$ and $\eta_M$ be the

@@ -2,7 +2,7 @@
 id = "det-brown-hypotheses-generation"
 kind = "lemma"
 title = "A skeleton of $\\Dctf$ is a set of compact generators"
-order = 2292
+order = 2532
 uses = ["det-brown-hypotheses-small", "sk-prop-ctf-finite-compact", "sk-thm-constructible-compactness", "sk-prop-int-compactness", "sk-def-localizing-closure"]
 +++
 Let $\Lambda$ be admissible and $G$ a small skeleton of $\Dctf(X,\Lambda)$. Every object of $G$ is compact in

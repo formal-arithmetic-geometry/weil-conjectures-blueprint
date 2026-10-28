@@ -16,13 +16,13 @@ degrees $\le2d+1$. It has no cohomology in negative degrees because $N$ is a
 sheaf in degree $0$ and $p_*$ is left exact. For
 $N=\varinjlim_iN_i$ with $N_i$ constructible, the family is bounded below
 uniformly, so by continuity of direct image for bounded below systems
-(as in [sk-lem-int-ext](1)) $H^qRp_*N=\varinjlim_iH^qRp_*N_i$, a filtered
+(as in [det-lem-int-ext](1)) $H^qRp_*N=\varinjlim_iH^qRp_*N_i$, a filtered
 colimit of constructible sheaves, i.e. an object of $\IndCons(Y,\mathcal O_E)$,
 vanishing outside $[0,2d+1]$.
 
 (2) By (1), each cohomology object of $K$ contributes to $H^qRp_*K$ only from
 degrees $[q-2d-1,q]$. The proofs of [sk-lem-proper-unbounded-window] and
-[sk-lem-proper-unbounded-window-ii], which use only this uniform bound, the
+[det-lem-proper-unbounded-window-ii], which use only this uniform bound, the
 left completeness of the pro-étale derived category and the Milnor sequence,
 show that $H^qRp_*K=H^qRp_*\tau_{[q-2d-1,q]}K$. On complexes with cohomology in
 a finite range, $Rp_*$ commutes with direct sums by induction on the length of

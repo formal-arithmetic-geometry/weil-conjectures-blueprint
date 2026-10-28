@@ -2,8 +2,8 @@
 id = "det-prop-int-compactness-direct-sums"
 kind = "lemma"
 title = "Integral proper direct image on the localizing categories"
-order = 2448
-uses = ["det-prop-int-compactness-compact", "sk-thm-sfb-proper-base-change", "sk-lem-proper-unbounded-window", "sk-lem-proper-unbounded-window-ii", "sk-lem-int-ext"]
+order = 2481
+uses = ["det-prop-int-compactness-compact", "sk-thm-sfb-proper-base-change", "sk-lem-proper-unbounded-window", "det-lem-proper-unbounded-window-ii", "det-lem-int-ext"]
 +++
 Let $p:X\to Y$ be proper, with fibres of dimension $\le d$.
 

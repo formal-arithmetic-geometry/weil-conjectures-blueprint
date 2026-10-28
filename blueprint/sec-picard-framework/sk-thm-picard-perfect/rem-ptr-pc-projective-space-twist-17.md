@@ -2,7 +2,7 @@
 id = "rem-ptr-pc-projective-space-twist-17"
 kind = "remark"
 title = "Pointer to the properties of [def-pc-projective-space-twist]"
-order = 716
+order = 741
 uses = ["def-pc-projective-space-twist", "lem-pc-twist-cocycle", "lem-pc-twist-tensor"]
 +++
 In the notation of [def-pc-projective-space-twist], the well-definedness of this gluing,

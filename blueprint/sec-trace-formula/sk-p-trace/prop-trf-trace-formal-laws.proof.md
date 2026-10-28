@@ -136,7 +136,7 @@ The same argument applies to the scalar extensions
 $A\to A_{E'\!,n'}$, $A\to\mathcal O_E$, $\mathcal O_E\to E$, and
 $E\to\Qlb$ between the coefficient rings: on perfect complexes over the
 point these are the derived extensions of scalars along maps of condensed
-rings of [sk-def-sfb-coefficient-change], which are monoidal.
+rings of [det-def-sfb-coefficient-change], which are monoidal.
 
 *(4) Supertrace over a field.* Let $\Lambda\in\{E,\Qlb\}$ (for
 $\Lambda=E$, $D^b_{\mathrm{fin}}(E)$ is the bounded derived category

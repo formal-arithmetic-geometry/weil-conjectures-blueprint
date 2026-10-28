@@ -2,7 +2,7 @@
 id = "sk-prop-pe-comparison-morphism"
 kind = "proposition"
 title = "The comparison morphism and its inverse image"
-order = 956
+order = 1003
 lean = ["AlgebraicGeometry.Scheme.toProEt", "AlgebraicGeometry.ProEtale.comparisonLowerStar", "AlgebraicGeometry.ProEtale.comparisonUpperStar", "AlgebraicGeometry.ProEtale.comparisonAdjunction", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_comparisonUpperStar", "AlgebraicGeometry.ProEtale.preservesFiniteColimits_comparisonUpperStar", "AlgebraicGeometry.ProEtale.isColimit_comparisonUpperStar_mapCocone"]
 uses = ["sk-def-pe-site", "sk-prop-pe-affine-basis", "sk-def-pe-classical-definition"]
 tags = ["sketch"]

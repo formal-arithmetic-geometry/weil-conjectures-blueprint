@@ -3,7 +3,7 @@ id = "det-pe-continuous-cohomology-limit"
 kind = "lemma"
 title = "Sections of a limit with epimorphic transitions"
 lean = ["AlgebraicGeometry.ProEtale.isHomotopyLimit_mapCone_Q_of_epi", "CategoryTheory.Pretriangulated.IsHomotopyLimit.map"]
-order = 1053
+order = 1095
 uses = ["det-pe-replete-epimorphism", "det-pe-milnor-epimorphic"]
 +++
 Let $X$ be a scheme and $(F_n)_{n\geq1}$ an inverse system of abelian sheaves on

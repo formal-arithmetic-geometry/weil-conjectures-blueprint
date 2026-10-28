@@ -3,7 +3,7 @@ id = "lem-wf-curve-finite-level-pd"
 kind = "lemma"
 title = "Finite-level degree-one Poincare pairing on a curve"
 lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.bijective_curvePairing"]
-order = 3813
+order = 4001
 uses = ["def-coefficient-twists-detailed", "def-weil-pbc-etale-cohomology", "lem-sc-cohomological-dimension", "lem-wf-curve-kummer-jacobian-tate-module", "thm-av-final", "thm-pod-equivariance-of-the-twisted-pairing", "thm-pod-point-perfectness", "thm-pod-proper-poincare-duality", "thm-sc-proper-cohomology"]
 +++
 Let $C_0/k_0$ be a smooth projective geometrically connected curve,

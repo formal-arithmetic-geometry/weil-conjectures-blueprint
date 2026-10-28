@@ -2,7 +2,7 @@
 id = "lem-kun-closed-points-of-product"
 kind = "lemma"
 title = "Closed points of a product"
-order = 3152
+order = 3128
 uses = ["def-kun-support", "def-weil-pbc-scheme-conventions", "lem-kun-closed-point-field"]
 +++
 Let $X$ and $Y$ be schemes of finite type over a field $K$ and

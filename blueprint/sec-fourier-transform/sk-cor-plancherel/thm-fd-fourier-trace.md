@@ -3,7 +3,7 @@ id = "thm-fd-fourier-trace"
 kind = "theorem"
 title = "Fourier trace formula on the line"
 lean = ["AlgebraicGeometry.WeilComplex.traceFunction_fourierTransform"]
-order = 3967
+order = 4181
 uses = ["cor-trf-point-counting", "def-fd-additive-character", "def-fd-trace-function", "def-fd-transform", "lem-fd-as-trace", "lem-fd-stalk-formula", "det-thm-tf-uniform-formula-weil"]
 +++
 For $y\in\mathbf F_{q^n}$ and a Weil complex $K$ on $\mathbf A^1$,

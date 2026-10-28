@@ -3,7 +3,7 @@ id = "lem-sc-finite-constant-length-flat"
 kind = "lemma"
 title = "Finite morphisms with constant fibre length are flat"
 lean = ["Module.projective_of_finrank_fiber_eq", "Module.rankAtStalk_eq_of_finrank_fiber_eq", "AlgebraicGeometry.Scheme.Hom.finrank_residueField_genericPoint_of_fiberDegree_eq", "AlgebraicGeometry.Scheme.Hom.flat_of_fiberDegree_eq", "AlgebraicGeometry.Scheme.Hom.finrank_eq_of_fiberDegree_eq", "AlgebraicGeometry.Scheme.Hom.flat_of_fiberDegree_eq_of_isClosed", "AlgebraicGeometry.Scheme.Hom.finrank_eq_of_fiberDegree_eq_of_isClosed", "AlgebraicGeometry.Scheme.Hom.finrank_residueField_genericPoint_of_fiberDegree_eq_of_isClosed"]
-order = 530
+order = 549
 uses = ["def-sc-function-field"]
 +++
 Let $f:X\to Y$ be a finite morphism of schemes which is locally of

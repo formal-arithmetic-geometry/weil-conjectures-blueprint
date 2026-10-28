@@ -2,7 +2,7 @@
 id = "lemma-nagata-elimination-indeterminacy"
 kind = "lemma"
 title = "Elimination of indeterminacy, [stacks-project]"
-order = 328
+order = 234
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_isOpenImmersion_strictTransformMap"]
 uses = ["cor-nagata-blowup-product-common-refinement", "def-nagata-admissible-blowup", "def-nagata-elimination-indeterminacy", "def-nagata-global-blowup", "def-nagata-strict-transform", "lemma-nagata-admissible-blowup-comp", "prop-nagata-global-blowup-cover-independent"]
 +++

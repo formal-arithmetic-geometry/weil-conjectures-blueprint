@@ -9,7 +9,7 @@ $R(gh)_*\simeq Rg_*Rh_*$, each applied to the canonical maps and used with
 their standard compatibilities (naturality, compatibility with composition
 of squares, and compatibility of the projection formula with the base change
 map). On the categories $\Loc(\Dbc(-,\Lambda))$ these hold by
-[sk-thm-sf-pf-field], and composition of direct images holds on the ambient
+[sk-thm-sf-pf-field] and [sk-prop-proper-base-change-unbounded], and composition of direct images holds on the ambient
 derived categories. So the calculation goes through verbatim; we recall its
 shape.
 
