@@ -8,6 +8,9 @@ dir = "blueprint"
 [lean]
 modules = ["WeilConjectures"]
 
+[site]
+theme = "outline" # the style the website opens in
+
 [katex.macros]
 "\\Aaf" = "\\mathbf A"
 "\\AEn" = "A_{E,n}"

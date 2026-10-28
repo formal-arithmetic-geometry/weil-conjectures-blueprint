@@ -29,6 +29,10 @@ concurrency:
 jobs:
   site:
     runs-on: self-hosted
+    # Only for a build from scratch, when the cluster's Lake cache (below) is
+    # out of reach: on three threads that takes longer than the default six
+    # hours. With the cache a run takes minutes.
+    timeout-minutes: 1440
     steps:
       # Before the checkout, because the runner's global git config persists
       # between jobs and carries the rewrite below that sends the project's URL
@@ -41,7 +45,18 @@ jobs:
             url."https://github.com/formal-arithmetic-geometry/weil-conjectures-blueprint".insteadOf \
             "https://github.com/formal-arithmetic-geometry/weil-conjectures-blueprint"
 
+      # `clean: false`, because the default `git clean -ffdx` deletes `.lake`,
+      # and with it every olean of the previous run: each run then rebuilt the
+      # whole project, and outgrew the job's time limit. Everything else the
+      # previous run left behind is removed in the next step.
       - uses: actions/checkout@v5
+        with:
+          clean: false
+
+      # `-e .lake` still applies under `-x`: the build outputs stay, while a
+      # stale snapshot.json, _site/ or history/ cannot be published again.
+      - name: Remove what the previous run left, except the build
+        run: git clean -ffdx -e .lake
 
       - name: Reach the project repository over ssh
         uses: webfactory/ssh-agent@v0.9.1
@@ -71,6 +86,61 @@ jobs:
           test: false
           lint: false
           use-mathlib-cache: true
+
+      # The project's own build, from the cluster's Lake cache: the Garage
+      # bucket on kuafu that the merge builds of weil-conjectures upload to
+      # under each commit they push (chrisflav/nixos-config: kuafu and
+      # fuxi/lake-cache.nix). Downloads need no key; kuafu admits fuxi's
+      # address, which this runner's VM leaves through.
+      #
+      # `lake cache get` fetches for the root package only, and writes the
+      # mappings under that package's name in the local cache, which is where
+      # the build below looks them up for the dependency of the same name. So
+      # it runs inside the project's checkout, with that checkout's packages
+      # directory pointing at this workspace's, where its dependencies already
+      # are. Through the toolchain's own `lake` with ELAN_TOOLCHAIN unset:
+      # through elan the remote scope is named differently and nothing is
+      # found. A cache that cannot be reached only makes the build slow. That
+      # `lake cache get` materialises the project's own manifest into the
+      # shared packages directory is harmless while the two manifests agree on
+      # the packages they share.
+      #
+      # LAKE_CONFIG and LAKE_CACHE_DIR are set for this step and the ones
+      # below. LAKE_CACHE_DIR because without it the directory depends on how
+      # Lake was started: through elan, as the build is, it is the
+      # toolchain's own (~/.elan/toolchains/<toolchain>/lake/cache); the
+      # toolchain's binary outside elan (no ELAN_HOME), as `cache get` is
+      # here, uses ~/.cache/lake, and the build then looks where nothing was
+      # fetched. LAKE_ARTIFACT_CACHE stays unset: reading the cache is Lake's
+      # default, and writing to it would make every Mathlib olean in this kept
+      # workspace read-only, which the next Mathlib bump's `lake exe cache
+      # get` then cannot overwrite. The service
+      # is a copy of modules/lake-config.nix in nixos-config, kuafu's address
+      # included: if that changes, update it here too.
+      - name: Fetch the project's build from the cluster's Lake cache
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          config="$GITHUB_WORKSPACE/.lake/lake-config.toml"
+          cat > "$config" <<'TOML'
+          cache.defaultService = "garage"
+
+          [[cache.service]]
+          name = "garage"
+          kind = "s3"
+          artifactEndpoint = "http://13.140.132.28:3900/lake-cache/a"
+          revisionEndpoint = "http://13.140.132.28:3900/lake-cache/r"
+          TOML
+          echo "LAKE_CONFIG=$config" >> "$GITHUB_ENV"
+          echo "LAKE_CACHE_DIR=$HOME/.cache/lake" >> "$GITHUB_ENV"
+          export LAKE_CONFIG="$config" LAKE_CACHE_DIR="$HOME/.cache/lake"
+          # Downloads older than two weeks: what is still needed comes again.
+          find "$LAKE_CACHE_DIR" -type f -mtime +14 -delete 2>/dev/null || true
+          cd .lake/packages/weil-conjectures
+          mkdir -p .lake
+          ln -sfn ../.. .lake/packages
+          env -u ELAN_TOOLCHAIN "$(elan which lake)" cache get \
+            --repo formal-arithmetic-geometry/weil-conjectures --max-revs 30
 
       # Three concurrent jobs rather than one per vCPU: the algebraic-geometry
       # files here peak at a few GiB each, and four at once exhausted the

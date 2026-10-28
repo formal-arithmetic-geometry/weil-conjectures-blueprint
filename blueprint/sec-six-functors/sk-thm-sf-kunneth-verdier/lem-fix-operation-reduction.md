@@ -28,3 +28,19 @@ condensed categories ([det-def-sfb-coefficient-comparisons],
 [sk-prop-scalar-six]). All the displayed comparisons preserve the tensor
 associativity maps, evaluations, units and counits used to construct
 the projection and exchange transformations.
+
+*Formalisation status (the statement is unchanged).* One clause is not yet
+formalised: in the pro-étale model, that reduction modulo $\mathfrak m_E$
+(that is, $\mathcal O_E\to A_{E,n}$) carries the projection map
+$\mathrm{PF}_{f,K,L}$ to the projection map of the reductions
+$\mathrm{PF}_{f,K_n,L_n}$. The étale projection map and the pro-étale
+compact-support exchange map are covered, but the pro-étale projection map
+needs that the pro-étale pullback preserves flat objects for a general
+coefficient ring, which is not yet available. The completed pro-étale
+projection formula for the scalar extensions $\mathcal O_E\to\mathcal O_{E'}$
+depends on this clause (or on a comparison of the pullback from the étale to
+the pro-étale site with derived completion), and is formalised so far only for
+pro-étale realizations $K=\nu^*K_0$, $L=\nu^*L_0$ of étale complexes and
+under the additional hypothesis that both sides of the étale projection map
+$Rf_!K_0\otimes^{\mathbf L}L_0\to Rf_!(K_0\otimes^{\mathbf L}Lf^*L_0)$ are derived
+complete.

@@ -17,9 +17,11 @@ X&\xleftarrow{\;p\;}&X'&\xleftarrow{\;h\;}&Y\\
 \end{array}
 $$
 
-of schemes with $X'=X\times_{\Spec(K)}S'$ and
-$Y=X'\times_{S'}T$ and with $g$ quasi-compact and
-quasi-separated. The canonical map
+of schemes with $X$ of finite type over $K$, with $X'=X\times_{\Spec(K)}S'$ and
+$Y=X'\times_{S'}T$, and with $g$ quasi-compact and
+quasi-separated. (The finite-type hypothesis on $X$ is used in the proof,
+which applies [lem-kun-0f1i], stated for schemes of finite type over $K$,
+to the finite $X$-schemes $X_i$.) The canonical map
 
 $$
 p^{-1}E\kunotimes{\kunZn}(f')^{-1}Rg_*F

@@ -44,8 +44,10 @@ is carried along. This gives $Rj_*:\Dbc(X,\Lambda)\to\Dbc(Y,\Lambda)$
 (cor:fin-deligne-open-finite-coefficients).
 
 *Ordinary direct image, $f$ not necessarily separated*
-(thm:dg-finite-type-constructibility). The assertion is local on $Y$, so
-take $Y$ affine; then $X$ is quasi-compact because $f$ is, and of finite type
+(thm:dg-finite-type-constructibility). Since $Y$ is quasi-compact it is covered by
+finitely many affine opens, and a complex on $Y$ is bounded constructible as
+soon as its restriction to each of them is (the finitely many degree bounds
+combine; this is where quasi-compactness of $Y$ is used), so take $Y$ affine; then $X$ is quasi-compact because $f$ is, and of finite type
 over $Y$, so cover $X$ by finitely many affine opens
 $X_1,\dots,X_r$. For $\emptyset\neq I\subseteq\{1,\dots,r\}$ the intersection
 $X_I=\bigcap_{i\in I}X_i$ is a quasi-compact open of an affine $X_i$, hence

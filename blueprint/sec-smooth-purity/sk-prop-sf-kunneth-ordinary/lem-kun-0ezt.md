@@ -20,7 +20,8 @@ be an inverse system of
 cartesian squares with affine
 transition morphisms, where every $g_i$ is
 quasi-compact and
-quasi-separated. Write
+quasi-separated and every $S_i$ and every $X_i$ is a quasi-compact and
+quasi-separated scheme. Write
 
 $$
 \begin{array}{ccc}
@@ -43,3 +44,9 @@ is an isomorphism, then so is
 $$
 f^{-1}R^qg_*F\longrightarrow R^qh_*e^{-1}F.
 $$
+
+*On the quasi-compactness hypotheses.* The hypothesis that the $S_i$ and
+$X_i$ are quasi-compact and quasi-separated is not in Stacks 0EZT; it is
+expected to be removable by localising on $S_{i_0}$ and $X_{i_0}$ for one
+index $i_0$. Every use of the lemma in this blueprint satisfies it (the
+smooth-limit base change, Stacks 0F09, after localising on its base).
