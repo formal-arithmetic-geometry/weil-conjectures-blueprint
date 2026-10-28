@@ -56,7 +56,9 @@ jobs:
       # `-e .lake` still applies under `-x`: the build outputs stay, while a
       # stale snapshot.json, _site/ or history/ cannot be published again.
       - name: Remove what the previous run left, except the build
-        run: git clean -ffdx -e .lake
+        run: |
+          git clean -ffdx -e .lake
+          find .lake -path '*/.lake/build/ir/*' -name '*.setup.json' -delete
 
       - name: Reach the project repository over ssh
         uses: webfactory/ssh-agent@v0.9.1
@@ -150,6 +152,16 @@ jobs:
         env:
           LEAN_NUM_THREADS: "3"
         run: lake build weil-conjectures/WeilConjectures blueprint/blueprint
+
+      # Lake writes a module's `.setup.json` (its import closure, as absolute
+      # paths) just before compiling it and never reads it again; no trace
+      # refers to it. Here they come to about 2 MB a module, 23 GB for the
+      # whole project, and filled the runner's 50 GiB disk during a build from
+      # scratch. The start of the next run removes them as well, in case this
+      # step did not get to run.
+      - name: Drop the compiler's setup files
+        if: always()
+        run: find .lake -path '*/.lake/build/ir/*' -name '*.setup.json' -delete
 
       # Proof status and the actual dependency graph, read out of the oleans.
       # Modules come from `[lean] modules` in blueprint.toml.
