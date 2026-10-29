@@ -2,7 +2,7 @@
 id = "det-compact-trace-perfect-at-point"
 kind = "lemma"
 title = "Finite Tor amplitude gives perfectness at the point"
-order = 3454
+order = 3623
 uses = ["det-compact-trace-point-objects"]
 +++
 Let $A$ be a finite commutative ring and let $C$ be a bounded complex of

@@ -2,7 +2,7 @@
 id = "sk-l-dl-general-normalization"
 kind = "lemma"
 title = "Relative Noether normalization on finite strata"
-order = 4085
+order = 4314
 lean = ["AlgebraicGeometry.exists_dense_isFinite_toIteratedAffineLine"]
 tags = ["sketch"]
 +++

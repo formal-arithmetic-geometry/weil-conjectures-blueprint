@@ -2,13 +2,14 @@
 id = "sk-cor-hasse"
 kind = "corollary"
 title = "Point-count estimates"
-order = 4164
-lean = ["AlgebraicGeometry.Scheme.Hom.abs_pointCount_one_sub_le"]
+order = 4400
+lean = ["AlgebraicGeometry.Scheme.abs_pointCount_sub_le_sum_finrank", "AlgebraicGeometry.Scheme.Hom.abs_pointCount_sub_le_two_mul_genus", "AlgebraicGeometry.Scheme.Hom.abs_pointCount_one_sub_le"]
 uses = ["sk-cor-tf-point-counting", "sk-input-weights", "sk-thm-weil-final", "sk-thm-curveestimate", "sk-prop-av-tate-rank"]
 tags = ["sketch"]
 +++
-Let $X_0/\mathbf F_q$ be smooth proper of pure dimension $d$. If $X_0$ is
-geometrically connected and $d\geq1$, then for every $m\geq1$,
+Let $X_0/\mathbf F_q$ be smooth, proper and geometrically connected
+of dimension $d\geq1$, and let $b_i$ be as in
+[sk-thm-weil-final]. Then for every $m\geq1$,
 
 $$
  \left|\#X_0(\mathbf F_{q^m})-(1+q^{dm})\right|

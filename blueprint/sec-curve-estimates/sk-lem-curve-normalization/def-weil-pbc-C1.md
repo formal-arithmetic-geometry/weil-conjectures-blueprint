@@ -3,7 +3,7 @@ id = "def-weil-pbc-C1"
 kind = "definition"
 title = "Assertion (C1): vanishing above the dimension"
 lean = ["AlgebraicGeometry.IsCurve.VanishingAboveTwo"]
-order = 1445
+order = 1553
 uses = ["def-weil-pbc-curve-setting"]
 +++
 For every curve coefficient pair [def-weil-pbc-curve-setting] $(C,F)$: for

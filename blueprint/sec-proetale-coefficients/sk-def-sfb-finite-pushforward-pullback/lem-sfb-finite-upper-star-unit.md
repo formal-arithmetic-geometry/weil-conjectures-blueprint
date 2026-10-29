@@ -2,7 +2,7 @@
 id = "lem-sfb-finite-upper-star-unit"
 kind = "lemma"
 title = "$g^*$ preserves the unit"
-order = 885
+order = 919
 uses = ["def-sfb-finite-lower-star-lax-monoidal", "def-sfb-finite-upper-lower-star-adjunction", "def-weil-pbc-proetale-modules", "lem-weil-pbc-sheaf-tensor-closed"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_η_upperStar"]
 +++

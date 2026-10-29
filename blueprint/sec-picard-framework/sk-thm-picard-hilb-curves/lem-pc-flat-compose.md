@@ -2,7 +2,7 @@
 id = "lem-pc-flat-compose"
 kind = "lemma"
 title = "Flatness is transitive"
-order = 777
+order = 803
 lean = ["AlgebraicGeometry.Flat.comp"]
 uses = ["def-pc-morphism-conventions"]
 +++

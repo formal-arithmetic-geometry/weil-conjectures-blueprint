@@ -3,7 +3,7 @@ id = "pqf-lem-proper-basic"
 kind = "lemma"
 title = "Basic consequences of properness"
 lean = ["AlgebraicGeometry.IsProper.isSeparated_and_universallyClosed"]
-order = 509
+order = 528
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $f:X\to S$ be a

@@ -2,7 +2,7 @@
 id = "lem-sc-canonical-degree"
 kind = "lemma"
 title = "Degree of the canonical bundle"
-order = 679
+order = 702
 lean = ["AlgebraicGeometry.Scheme.degree_relativeDifferentials", "AlgebraicGeometry.Scheme.finrankH_relativeDifferentials_zero_eq_arithmeticGenus", "AlgebraicGeometry.Scheme.serreDuality", "AlgebraicGeometry.Scheme.Hom.isInvertible_relativeDifferentials"]
 uses = ["def-sc-pic0", "lem-sc-canonical-sheaf", "thm-sc-serre-duality-curve"]
 +++

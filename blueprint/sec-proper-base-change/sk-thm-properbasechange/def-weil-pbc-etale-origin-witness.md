@@ -2,7 +2,7 @@
 id = "def-weil-pbc-etale-origin-witness"
 kind = "definition"
 title = "Explicit etale-origin witness"
-order = 1961
+order = 2085
 lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.plusEtaleOrigin"]
 uses = ["def-weil-pbc-site-comparison-morphism"]
 +++

@@ -2,7 +2,7 @@
 id = "def-weil-open-immersion"
 kind = "definition"
 title = "Open immersion of schemes"
-order = 9
+order = 12
 uses = ["def-pc-scheme"]
 lean = ["AlgebraicGeometry.IsOpenImmersion"]
 tags = ["mathlib", "stacks-01HE"]

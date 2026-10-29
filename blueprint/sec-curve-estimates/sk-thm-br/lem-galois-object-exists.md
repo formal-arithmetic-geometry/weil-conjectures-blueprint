@@ -2,7 +2,7 @@
 id = "lem-galois-object-exists"
 kind = "lemma"
 title = "Galois objects dominate connected objects"
-order = 1380
+order = 1485
 lean = ["CategoryTheory.PreGaloisCategory.exists_hom_from_galois_of_connected"]
 uses = ["def-galois-category", "lem-galois-axioms"]
 +++

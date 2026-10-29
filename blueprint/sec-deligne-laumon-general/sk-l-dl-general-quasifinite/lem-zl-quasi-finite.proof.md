@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lem-zl-quasi-finite"
-uses = ["def-weil-complex-weights", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-fd-proetale-finite-pushforward-exact", "lem-zl-finite-pushforward", "prop-functor-package", "sk-def-sfb-module-lower-shriek", "sk-lem-coefficient-heart", "sk-thm-sf-ctf-stability", "thm-pqf-zmt-factorization", "thm-sf-comp-composition", "sk-lem-pbc-finite"]
+uses = ["def-weil-complex-weights", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "lem-fd-proetale-finite-pushforward-exact", "lem-zl-finite-pushforward", "prop-functor-package", "det-def-sfb-module-lower-shriek", "sk-lem-coefficient-heart", "sk-thm-sf-ctf-stability", "thm-pqf-zmt-factorization", "thm-sf-comp-composition", "sk-lem-pbc-finite"]
 +++
 Since $Y_0$ is of finite type over a field, it is quasi-compact and
 quasi-separated, so Zariski's main theorem in the form of the
@@ -27,7 +27,7 @@ Rg_!\simeq R\bar g_!\,j_{0!}\simeq R\bar g_*\,j_{0!}.
 $$
 
 *(1).* We work with $\QbarX$-modules on the pro-étale sites. Extension
-by zero [sk-def-sfb-module-lower-shriek] along the open immersion $j_0$ is
+by zero [det-def-sfb-module-lower-shriek] along the open immersion $j_0$ is
 exact on $\Mod(Z_{\mathrm{proét}},\Qlb)$ and preserves constructible
 sheaves ([sk-lem-coefficient-heart]); its stalk at a geometric point of
 $Z$ is the stalk of the input, and at a geometric point of the

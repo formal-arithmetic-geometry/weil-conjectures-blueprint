@@ -2,7 +2,7 @@
 id = "det-def-sfb-pullback-from-point"
 kind = "definition"
 title = "Pulling back from the point"
-order = 1050
+order = 1091
 uses = ["def-weil-pbc-proetale-site", "det-def-sfb-condensed-ring", "lem-weil-pbc-sheaf-tensor-closed", "def-sfb-finite-upper-star", "def-sfb-finite-upper-star-monoidal", "lem-sfb-finite-upper-star-braided"]
 lean = ["AlgebraicGeometry.ProEtale.weaklyEtale_toSpecZ_profiniteToScheme", "AlgebraicGeometry.ProEtale.profiniteToProEt", "AlgebraicGeometry.ProEtale.preservesFiniteLimits_profiniteToProEt", "AlgebraicGeometry.ProEtale.coverPreserving_profiniteToProEt", "AlgebraicGeometry.ProEtale.isContinuous_profiniteToProEt", "AlgebraicGeometry.ProEtale.profiniteToProEtOf", "AlgebraicGeometry.ProEtale.pointLowerStar", "AlgebraicGeometry.ProEtale.hasLeftKanExtension_op_profiniteToProEt", "AlgebraicGeometry.ProEtale.pointUpperStar", "AlgebraicGeometry.ProEtale.pointUpperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.isIso_η_pointUpperStar", "AlgebraicGeometry.ProEtale.isIso_δ_pointUpperStar", "AlgebraicGeometry.ProEtale.monoidal_pointUpperStar", "AlgebraicGeometry.ProEtale.laxBraided_pointUpperStar", "AlgebraicGeometry.ProEtale.upperStarFromPoint", "AlgebraicGeometry.ProEtale.monoidal_upperStarFromPoint", "AlgebraicGeometry.ProEtale.laxBraided_upperStarFromPoint", "AlgebraicGeometry.ProEtale.isLeftAdjoint_upperStarFromPoint"]
 +++

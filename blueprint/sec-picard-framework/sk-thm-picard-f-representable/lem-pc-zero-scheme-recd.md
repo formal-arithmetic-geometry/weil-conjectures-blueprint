@@ -2,7 +2,7 @@
 id = "lem-pc-zero-scheme-recd"
 kind = "lemma"
 title = "The zero scheme of the adjoint section"
-order = 798
+order = 824
 lean = ["AlgebraicGeometry.isInvertible_zeroLocus_directImageCounit", "AlgebraicGeometry.exists_isEffectiveCartierCenter_hilbertPresheaf_zeroLocus_adjointSection", "AlgebraicGeometry.Scheme.Modules.Hom.zeroLocus_adjointSection_comp_whiskerLeft"]
 uses = ["cor-picard-degree-g", "def-pc-curve", "def-pc-degree-line-bundle", "def-pc-euler-characteristic", "def-pc-f-subfunctor", "def-pc-finite-locally-free", "def-pc-genus", "def-pc-rational-point", "def-pc-relative-effective-cartier", "def-pc-smooth-projective-curve", "def-pc-zero-scheme", "def-nagata-invertible-ideal", "def-sc-invertible-module", "lem-pc-cartier-criterion", "lem-pc-cech-resolution", "lem-pc-coherent-hi", "lem-pc-degree-base-change", "lem-pc-dim-base-change", "lem-pc-f-open-subfunctor", "lem-pc-flat-base-change-cohom", "lem-pc-proper-base-change", "lem-pc-rational-hyp", "lem-pc-recd-locally-principal", "lem-pc-rf-base-change-flat-module", "lem-pc-smooth-flat", "lem-pc-vanishing-above-dim", "lem-sc-regular-dim1-dvr", "lem-sc-smooth-regular"]
 +++

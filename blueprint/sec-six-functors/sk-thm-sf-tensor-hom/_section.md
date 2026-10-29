@@ -2,8 +2,8 @@
 id = "sk-thm-sf-tensor-hom"
 kind = "lemma"
 title = "Internal adjunction and the formal exchanges"
-order = 3270
-uses = ["sk-def-ops", "sk-def-sf-exchanges", "sk-prop-sf-open-closed-triangle", "sk-lem-sf-mate", "sk-prop-sf-comparison", "sk-prop-sf-existence", "sk-rem-sf-pf-done", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale"]
+order = 3477
+uses = ["sk-def-ops", "sk-prop-cohsm", "sk-prop-sf-open-closed-triangle", "sk-prop-sf-comparison", "sk-prop-sf-existence", "sk-rem-sf-pf-done", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-proetale", "sk-thm-sbc-coefficients"]
 tags = ["sketch"]
 +++
 Let $\Lambda$ be an admissible coefficient ring, and let $\omega$, $\mathbb D$

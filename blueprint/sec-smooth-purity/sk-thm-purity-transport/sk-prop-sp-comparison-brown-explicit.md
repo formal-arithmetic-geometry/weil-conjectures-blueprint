@@ -2,7 +2,7 @@
 id = "det-sp-comparison-brown-explicit"
 kind = "lemma"
 title = "The twisted inverse image is right adjoint to $Rf_!$ for every admissible coefficient ring"
-order = 2844
+order = 3352
 uses = ["thm-pur-finite-coefficient-smooth-purity", "det-sp-finite-general-ring", "det-sp-integral-adjunction-bijection", "det-sp-rational-adjunction", "det-sp-qbar-adjunction"]
 +++
 Let $f:X\to Y$ be smooth of pure relative dimension $d$, with a

@@ -2,7 +2,7 @@
 id = "thm-pod-global-verdier-duality"
 kind = "theorem"
 title = "Global Verdier duality at the point"
-order = 3383
+order = 3556
 uses = ["def-pod-conventions", "def-weil-finite-coefficient-point", "def-weil-ordinary-compact-cohomology", "def-weil-site-perfect-complex", "fix-cor-verdier-exchange", "lem-fix-operation-reduction", "lem-pod-point-dualizing-complex", "thm-pur-finite-reduction-of-purity", "thm-sf-global-duality"]
 +++
 Use the Poincare duality conventions of [def-pod-conventions] (so $X_0$

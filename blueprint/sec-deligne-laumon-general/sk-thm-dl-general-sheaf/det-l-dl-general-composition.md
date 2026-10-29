@@ -3,7 +3,7 @@ id = "det-l-dl-general-composition"
 kind = "lemma"
 title = "Composition"
 lean = ["AlgebraicGeometry.HasDirectImageWeightBound.comp"]
-order = 4091
+order = 4320
 uses = ["sk-d-real-weights", "sk-thm-sf-comp-composition", "lem-zl-composition-weight-bound"]
 +++
 Let $h_0:X_0\to Z_0$ and $g_0:Z_0\to Y_0$ be separated finite-type

@@ -2,8 +2,8 @@
 id = "sk-thm-regular"
 kind = "theorem"
 title = "Purity for regular closed immersions"
-order = 3252
-uses = ["sk-def-purity-conv", "sk-lem-coprojection", "sk-lem-regular-smooth", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-an", "sk-thm-dnc", "sk-thm-smooth-purity"]
+order = 3403
+uses = ["sk-prop-cohsm", "sk-lem-coprojection", "sk-lem-regular-smooth", "sk-prop-a1-inv", "sk-prop-an", "sk-thm-dnc", "sk-thm-smooth-purity", "sk-thm-existence"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_dualizingComplex_of_isRegularImmersion"]
 tags = ["sketch"]
 +++
@@ -14,7 +14,7 @@ $c$, with $X$ smooth over the perfect field $k$ and $Z$ regular.
 $U\to X$ together with $f_1,\dots,f_c\in\Gamma(U,\mathcal O_U)$ generating
 the ideal of $Z_U=Z\times_XU$. Each $f_j$ is a unit on $U\setminus V(f_j)$,
 so it has a Kummer class $\kappa(f_j)\in H^1(U\setminus V(f_j),\Lambda(1))$
-as in [sk-def-purity-conv], and the boundary of the localization sequence
+as in [det-def-purity-conv], and the boundary of the localization sequence
 of $V(f_j)\subset U$ gives
 $\partial\kappa(f_j)\in H^2_{V(f_j)}(U,\Lambda(1))$. The *class of
 the frame* is the cup product with supports
@@ -41,7 +41,7 @@ $$
 which generates $\mathcal H^0$ at every geometric point. (The frame
 classes and their gluing make sense for every regular closed immersion;
 for the zero section of $\Aaf^1_Y$ the class so defined is
-$\mathrm{pur}_s$ of [sk-prop-a1], and for the zero section of $\Aaf^c_B$
+$\mathrm{pur}_s$ of [det-prop-a1], and for the zero section of $\Aaf^c_B$
 it is the generator $\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$
 of [cor-pur-affine-space-zero-section-purity], by the definition of those classes; these pairs are
 in the situation of the theorem when $Y$, resp. $B$, is smooth over $k$.)

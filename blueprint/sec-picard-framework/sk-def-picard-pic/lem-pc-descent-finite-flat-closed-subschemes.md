@@ -2,7 +2,7 @@
 id = "lem-pc-descent-finite-flat-closed-subschemes"
 kind = "lemma"
 title = "Effective descent of finite flat closed subschemes"
-order = 571
+order = 592
 uses = ["def-pc-finite-locally-free", "lem-pc-fpqc-descent"]
 lean = ["AlgebraicGeometry.isSheaf_fpqc_finiteLocallyFreeSubscheme"]
 +++

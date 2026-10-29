@@ -2,8 +2,8 @@
 id = "sk-lem-sf-twist-interchange"
 kind = "lemma"
 title = "Internal Hom with an invertible twist"
-order = 3346
-uses = ["sk-lem-sf-determination", "sk-prop-sf-dualizable-biduality"]
+order = 3500
+uses = ["sk-lem-sf-determination", "sk-prop-sf-dualizable-biduality", "sk-prop-sf-existence", "sk-prop-sf-rf-shriek-preservation"]
 lean = ["AlgebraicGeometry.Etale.DerivedCategory.nonempty_iso_derivedHom_tensor"]
 tags = ["sketch"]
 +++

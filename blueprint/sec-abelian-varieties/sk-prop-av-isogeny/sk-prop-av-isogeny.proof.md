@@ -15,9 +15,10 @@ $[n]^*\mathcal N$ to it is trivial, whereas the restriction of
 $\mathcal N^{\otimes n^2}$ has positive degree. Hence every fibre has
 dimension zero, and since $[n]$ is proper, it is finite. Its image is a
 closed subset of dimension $g$, hence equal to the integral variety $A$.
-Because source and target are smooth of dimension $g$ and the fibres
-are zero-dimensional, miracle flatness (Stacks [00R4](https://stacks.math.columbia.edu/tag/00R4)) shows that this
-finite morphism is locally free.
+Every fibre of $[n]$ over a point $y$ becomes, after an extension of
+$\kappa(y)$, a translate of $A[n]$, so all fibres have the same degree
+$\dim_k\Gamma(A[n],\mathcal O)$; since $A$ is reduced, a finite morphism
+to $A$ with constant fibre degree is locally free.
 
 Recall that for a locally free sheaf $\mathcal E$ of rank $r$ on $A$,
 the function $m\mapsto\chi(A,\mathcal E\otimes\mathcal N^{\otimes m})$

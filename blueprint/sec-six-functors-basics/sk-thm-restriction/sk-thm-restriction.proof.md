@@ -1,38 +1,30 @@
 +++
 kind = "proof"
 of = "sk-thm-restriction"
-uses = ["sk-lem-sf-mate", "sk-cor-affine-space-rational", "sk-prop-closed-adjoint-constructible", "sk-prop-sf-comp-coherence", "sk-prop-sf-existence"]
+uses = ["sk-lem-sf-mate", "sk-prop-p1-adjunction-rational", "sk-lem-formal-closed-support", "sk-prop-open-coefficients", "sk-prop-diagonal-tower", "sk-thm-sf-pf-adic", "sk-lem-int-tensor", "sk-prop-proper-base-change-unbounded", "sk-prop-sf-comp-coherence"]
 +++
-Let $K\in\Dbc(Y,\Lambda)$. Cover $Y$ by finitely many affine opens
-$V_\beta$, and each $f^{-1}(V_\beta)$ by finitely many affine opens
-$U_{\beta\alpha}$. Since $f$ is of finite type, each $U_{\beta\alpha}$ admits a
-closed immersion $i:U_{\beta\alpha}\hookrightarrow\mathbf A^d_{V_\beta}$ over
-$V_\beta$. With $p:\mathbf A^d_{V_\beta}\to V_\beta$ the projection and
-$u:U_{\beta\alpha}\hookrightarrow X$, $v:V_\beta\hookrightarrow Y$ the
-inclusions, we have $f\circ u=v\circ p\circ i$. By [sk-lem-sf-mate], as
-functors $\Loc(\Dbc(Y,\Lambda))\to\Loc(\Dbc(U_{\beta\alpha},\Lambda))$,
+Recall that $\Dctf=\Dbc$ for these $\Lambda$. Choose finite affine covers of $X$ and $Y$ and
+closed immersions $U\hookrightarrow\mathbf A^d_V$; then $u^*f^!\simeq i^!p^!v^*$
+([sk-lem-sf-mate]), and being in $\Dbc$ is local on $X$.
+
+For $E$ and $\Qlb$, $p^!$ and $i^!$ preserve $\Dbc$. Indeed, for a projection
+$p:\mathbf A^d_V\to V$, [sk-prop-p1-adjunction-rational], the adjunction $j_!\dashv j^*$ for
+$\mathbf A^1_V\subset\mathbf P^1_V$ and [sk-lem-sf-mate] applied $d$ times give
+$p^!\simeq p^*(d)[2d]$, which preserves $\Dbc$. For a closed immersion $i:Z\hookrightarrow X$
+with complement $j$, the local cohomology functor $R\underline\Gamma_Z$ is right adjoint to
+$i_*=Ri_!$ ([sk-lem-formal-closed-support] (1)), so $i^!\simeq R\underline\Gamma_Z$, and the
+localization triangle
 
 $$
-u^*f^!\simeq(fu)^!=(vpi)^!\simeq i^!p^!v^*.
+i_*R\underline\Gamma_ZK\longrightarrow K\longrightarrow Rj_*j^*K
+\longrightarrow i_*R\underline\Gamma_ZK[1]
 $$
 
-Now $v^*K$ is bounded constructible, so $p^!v^*K$ is bounded constructible by
-[sk-cor-affine-space-rational], and $u^*f^!K\simeq i^!p^!v^*K$ is bounded
-constructible by [sk-prop-closed-adjoint-constructible].
+shows that $i^!K\in\Dbc(Z,\Lambda)$ for $K\in\Dbc(X,\Lambda)$, since the third term is in
+$\Dbc$ by [sk-prop-open-coefficients] and $i^*i_*=\mathrm{id}$.
 
-Both conditions defining $\Dbc$ are local for a finite open cover. The
-cohomology of $f^!K$ vanishes outside the union of the finitely many bounded
-intervals found on the $U_{\beta\alpha}$. For constructibility, each locally
-closed stratum of $U_{\beta\alpha}$ is locally closed in $X$, and a common
-refinement of the finitely many resulting finite partitions of $X$ into
-locally closed subsets is a stratification on whose strata all cohomology
-sheaves of $f^!K$ are lisse. Hence $f^!K\in\Dbc(X,\Lambda)$.
-
-Finally, $Rf_!$ maps $\Dbc(X,\Lambda)$ into $\Dbc(Y,\Lambda)$
-([sk-prop-sf-comp-coherence]), and $\Dbc(-,\Lambda)\subset\Loc(\Dbc(-,\Lambda))$
-is full. So for $A\in\Dbc(X,\Lambda)$ the bijection of [sk-prop-sf-existence]
-reads
-
-$$
-\Hom_{\Dbc(Y,\Lambda)}(Rf_!A,K)\simeq\Hom_{\Dbc(X,\Lambda)}(A,f^!K).
-$$
+For $\mathcal O_E$ the same argument applies, with [sk-prop-diagonal-tower] for the projective
+line, [sk-thm-sf-pf-adic] and [sk-lem-int-tensor] for the projection formula and inverse image,
+and [sk-prop-open-coefficients] and [sk-prop-proper-base-change-unbounded]; derived completeness
+is local on $X$. The adjunction restricts because $Rf_!$ preserves $\Dbc$
+([sk-prop-sf-comp-coherence]).

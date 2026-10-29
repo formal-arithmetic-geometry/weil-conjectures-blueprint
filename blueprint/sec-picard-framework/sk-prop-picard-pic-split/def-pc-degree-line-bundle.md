@@ -3,7 +3,7 @@ id = "def-pc-degree-line-bundle"
 kind = "definition"
 title = "The degree of an invertible module"
 lean = ["AlgebraicGeometry.Scheme.Modules.degree"]
-order = 624
+order = 646
 uses = ["def-sc-divisor", "def-sc-pic0"]
 +++
 Let $k$ be a field, $X$ a proper scheme over $k$ and $\mathcal{L}$ an

@@ -2,7 +2,7 @@
 id = "sk-thm-pbc-curve-input"
 kind = "theorem"
 title = "Cohomology of curves"
-order = 1551
+order = 1676
 tags = ["sketch"]
 +++
 Let $k$ be algebraically closed, let $C$ be a separated scheme of finite type

@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-categorical-trace-3"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-categorical-trace]"
-order = 3444
+order = 3690
 uses = ["def-trf-categorical-trace", "lem-trf-finite-tor-amplitude-perfect"]
 +++
 In the notation of [def-trf-categorical-trace], the

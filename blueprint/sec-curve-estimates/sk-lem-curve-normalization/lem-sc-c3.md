@@ -3,7 +3,7 @@ id = "lem-sc-c3"
 kind = "lemma"
 title = "C3: vanishing of p-primary torsion"
 lean = ["AlgebraicGeometry.IsCurve.subsingleton_sheafH_constantModSheaf_of_one_lt_of_charP"]
-order = 1459
+order = 1567
 uses = ["def-sc-curves", "def-weil-pbc-eight-curve-assertions", "lem-sc-artin-schreier-dimension", "lem-sc-as-sequence", "lem-sc-lang-steinberg"]
 +++
 Let $k$ be algebraically closed with

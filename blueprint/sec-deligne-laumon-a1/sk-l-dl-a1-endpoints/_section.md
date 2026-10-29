@@ -2,7 +2,7 @@
 id = "sk-l-dl-a1-endpoints"
 kind = "lemma"
 title = "The extreme degrees on an affine curve"
-order = 3982
+order = 4199
 uses = ["sk-lem-wft-curve-heart", "sk-lem-wrp-hc2", "sk-p-linear-filtration", "sk-prop-sf-open-closed-triangle", "sk-thm-derived-duality", "sk-thm-sf-dual-perfect", "sk-thm-sf-global-duality"]
 lean = ["AlgebraicGeometry.subsingleton_compactlySupportedCohomology_directImage", "AlgebraicGeometry.subsingleton_compactlySupportedCohomology_directImage_zero", "AlgebraicGeometry.nonempty_equiv_compactlySupportedCohomology_directImage_two", "AlgebraicGeometry.isPureOfWeightOver_compactlySupportedCohomology_directImage_two"]
 tags = ["sketch"]

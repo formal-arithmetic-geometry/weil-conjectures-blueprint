@@ -18,7 +18,7 @@ We use this on both sides of a morphism $f$. On the source we use the
 triangle $j_!j^*K\to K\to i_*i^*K\to$ for an open subscheme and its
 closed complement ([sk-prop-sf-open-closed-triangle]), together with
 the composition isomorphism for $Rf_!$ ([sk-thm-sf-comp-composition]).
-On the target we use compact-support base change ([sk-prop-sf-cbc])
+On the target we use compact-support base change ([det-prop-sf-cbc])
 followed by the same triangle. Restrictions preserve weights, and
 extension by zero and closed direct image preserve pure weights.
 Applying these localization triangles successively, we reassemble a

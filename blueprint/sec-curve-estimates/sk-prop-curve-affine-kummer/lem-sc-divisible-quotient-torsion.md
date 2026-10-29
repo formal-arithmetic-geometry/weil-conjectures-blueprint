@@ -3,7 +3,7 @@ id = "lem-sc-divisible-quotient-torsion"
 kind = "lemma"
 title = "Torsion in a quotient of a divisible group"
 lean = ["AddSubgroup.exists_exact_torsionBy_quotient"]
-order = 1417
+order = 1523
 +++
 Let $G$ be an abelian group, $\Lambda\subseteq G$ a subgroup,
 and $n\in\mathbf Z$. Assume multiplication by $n$ on $G$ is

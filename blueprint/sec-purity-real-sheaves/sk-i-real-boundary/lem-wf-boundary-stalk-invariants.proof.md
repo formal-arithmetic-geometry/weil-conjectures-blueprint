@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-wf-boundary-stalk-invariants"
-uses = ["d-real-boundary", "def-pe-derived-complete", "def-weil-derived-pullback-tensor-hom", "def-wf-fundamental-representation", "p-real-integral", "prop-weil-pbc-strict-henselization-stalk-formula", "sk-lem-integral-models", "sk-prop-integral-criterion", "sk-prop-pe-milnor", "sk-prop-scalar-six", "sk-prop-sfb-finite-extension-compatibility", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-pe-direct-image-comparison", "sk-thm-sf-ctf-stability"]
+uses = ["d-real-boundary", "def-pe-derived-complete", "def-weil-derived-pullback-tensor-hom", "def-wf-fundamental-representation", "p-real-integral", "prop-weil-pbc-strict-henselization-stalk-formula", "sk-lem-integral-models", "sk-prop-integral-criterion", "sk-prop-pe-milnor", "sk-prop-scalar-six", "det-prop-sfb-finite-extension-compatibility", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-pe-direct-image-comparison", "sk-thm-sf-ctf-stability"]
 +++
 Write $\mathcal F$ also for the underlying lisse $\overline{\mathbf Q}_{\ell,U}$-module
 and $V=\mathcal F_{\bar\eta}$. The strict-henselization stalk formula of
@@ -46,7 +46,7 @@ $(j_*\mathcal F_0)_{\bar x}=\varprojlim_nM_n^{I_x}=M^{I_x}$, since invariants co
 with inverse limits; the tower $(M_n^{I_x})_n$ need not be adic, but only its limit
 enters.
 
-*Scalars.* As $\overline{\mathbf Q}_{\ell,C}$ is flat over $\cO_{E,C}$ ([sk-prop-sfb-qlbar-colimit-x], [sk-prop-sfb-finite-extension-compatibility]) and stalks are exact,
+*Scalars.* As $\overline{\mathbf Q}_{\ell,C}$ is flat over $\cO_{E,C}$ ([sk-prop-sfb-qlbar-colimit-x], [det-prop-sfb-finite-extension-compatibility]) and stalks are exact,
 $(j_*\mathcal F)_{\bar x}=\mathcal H^0(Rj_*\mathcal F)_{\bar x}
 =M^{I_x}\otimes_{\cO_E}\Qlb$. Invariants commute with inverting $\ell$ (an invariant
 vector of $M[1/\ell]$ has an invariant multiple in $M$) and with the base change

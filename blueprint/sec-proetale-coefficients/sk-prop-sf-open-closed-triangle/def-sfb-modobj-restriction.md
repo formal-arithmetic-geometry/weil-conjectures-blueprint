@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-restriction"
 kind = "definition"
 title = "Restriction of scalars"
-order = 1110
+order = 1154
 uses = ["det-def-sfb-module-objects-definition"]
 lean = ["CategoryTheory.Mod.comap"]
 +++

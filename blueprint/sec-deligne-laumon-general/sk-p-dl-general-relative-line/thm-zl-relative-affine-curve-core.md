@@ -2,7 +2,7 @@
 id = "thm-zl-relative-affine-curve-core"
 kind = "theorem"
 title = "Pure lisse relative affine-curve step"
-order = 4075
+order = 4301
 lean = ["AlgebraicGeometry.isMixedOfWeightsAtMost_higherLowerShriek_of_isAffine_fiber"]
 uses = ["def-weil-pbc-scheme-conventions", "def-weil-punctual-weights", "def-weil-scheme-morphism-properties", "sk-lem-coefficient-heart"]
 +++

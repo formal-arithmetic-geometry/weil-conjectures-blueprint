@@ -2,8 +2,8 @@
 id = "def-sf-kv-maps"
 kind = "definition"
 title = "The product comparison maps"
-order = 3354
-uses = ["def-compact-support-direct-image-detailed", "def-sf-datum", "def-sf-pf", "def-trf-admissibility", "def-weil-exceptional-inverse-image", "sk-def-sfb-dc-lower-shriek", "sk-prop-sfb-finite-extension-compatibility", "thm-sf-kunneth-relative"]
+order = 3514
+uses = ["def-compact-support-direct-image-detailed", "def-sf-datum", "def-sf-pf", "def-trf-admissibility", "def-weil-exceptional-inverse-image", "det-def-sfb-dc-lower-shriek", "det-prop-sfb-finite-extension-compatibility", "thm-sf-kunneth-relative"]
 +++
 For $i=1,2$ let $f_i:X_i\to Y_i$ be separated of finite type between
 finite-type $k$-schemes, exceptionally admissible in the sense of
@@ -13,8 +13,8 @@ inverse image of [def-weil-exceptional-inverse-image] and $Rf_!$ the
 compact-support direct image of [def-compact-support-direct-image-detailed],
 on $\Dctf(-,\Lambda)\subseteq D(-_{\mathrm{pro\acute et}},\Lambda)$ for the
 condensed rings $\Lambda=\mathcal O_E,E,\Qlb$ that of
-[sk-def-sfb-dc-lower-shriek], compatible with extension of scalars by
-[sk-prop-sfb-finite-extension-compatibility]), put $f=f_1\times f_2$, and let
+[det-def-sfb-dc-lower-shriek], compatible with extension of scalars by
+[det-prop-sfb-finite-extension-compatibility]), put $f=f_1\times f_2$, and let
 $L_i\in\Dctf(Y_i,\Lambda)$, $B_i\in\Dctf(X_i,\Lambda)$.
 
 1. **(i)** The $!$-Künneth

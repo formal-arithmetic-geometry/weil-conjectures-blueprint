@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-lem-finite"
-uses = ["sk-thm-sf-ctf-stability", "sk-thm-sf-direct-image-tor-amplitude", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
+uses = ["sk-thm-sf-ctf-stability", "sk-cor-sf-direct-image-ctf", "sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 At a geometric point a constructible finite-coefficient complex has
 bounded finite cohomology; its finite Tor amplitude makes it perfect.

@@ -1,19 +1,16 @@
 +++
 id = "sk-prop-p1-adjunction-rational"
 kind = "proposition"
-title = "The projective line"
-order = 2419
-uses = ["sk-prop-sf-existence", "sk-prop-diagonal-tower", "sk-thm-sf-pf-field"]
+title = "The projective line, rational coefficients"
+order = 2756
+uses = ["sk-prop-sf-existence", "sk-def-localizing-closure", "sk-def-sfb-constructible"]
 tags = ["sketch"]
 +++
-For $\Lambda=E$ or $\Qlb$ and $q:\mathbf P^1_Y\to Y$, the functor
+For $\Lambda=E$ or $\Qlb$, the functor
 
 $$
 q^*(1)[2]\colon\Loc(\Dctf(Y,\Lambda))\to\Loc(\Dctf(\mathbf P^1_Y,\Lambda))
 $$
 
-is right adjoint to
-$Rq_*:\Loc(\Dctf(\mathbf P^1_Y,\Lambda))\to\Loc(\Dctf(Y,\Lambda))$. Hence
-$q^!\simeq q^*(1)[2]$ as functors
-$\Loc(\Dctf(Y,\Lambda))\to\Loc(\Dctf(\mathbf P^1_Y,\Lambda))$, where $q^!$ is
-the right adjoint of [sk-prop-sf-existence].
+([sk-def-localizing-closure], [sk-def-sfb-constructible]) is right adjoint to $Rq_*$.
+Hence $q^!\simeq q^*(1)[2]$ for the right adjoint $q^!$ of [sk-prop-sf-existence].

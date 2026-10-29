@@ -3,7 +3,7 @@ id = "pqf-def-coherent"
 kind = "definition"
 title = "Coherent and quasi-coherent modules"
 lean = ["AlgebraicGeometry.Scheme.Modules.IsFiniteTypeWithFiniteTypeKernels", "SheafOfModules.IsQuasicoherent", "SheafOfModules.IsFiniteType"]
-order = 507
+order = 526
 +++
 Let $X$ be a scheme and $\mathcal F$ an $\mathcal O_X$-module.
 

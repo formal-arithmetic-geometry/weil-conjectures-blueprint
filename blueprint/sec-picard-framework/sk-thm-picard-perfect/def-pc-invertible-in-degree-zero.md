@@ -3,7 +3,7 @@ id = "def-pc-invertible-in-degree-zero"
 kind = "definition"
 title = "Objects placed in degree $0$"
 lean = ["AlgebraicGeometry.Scheme.Modules.IsFiniteLocallyFreeInDegree", "AlgebraicGeometry.Scheme.Modules.isFiniteLocallyFreeInDegree_zero_one_iff"]
-order = 737
+order = 762
 uses = ["def-pc-derived-category", "def-pc-finite-locally-free", "def-sc-invertible-module"]
 +++
 Let $X$ be a scheme and let $(\mathcal{M}^q)_{q\ge0}$ be a family of

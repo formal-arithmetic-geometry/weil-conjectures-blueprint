@@ -2,7 +2,7 @@
 id = "rem-sf-direct-image-proof-status"
 kind = "remark"
 title = "Status of the recorded argument for clause (iii)"
-order = 3201
+order = 3182
 uses = ["cor-sf-direct-image-ctf-etale-origin", "cor-sf-direct-image-ctf-nonproper", "cor-sf-direct-image-ctf-proetale", "def-exchange-projection", "def-sf-pf", "def-sf-uniform-direct-image-vanishing", "def-weil-finite-tor-amplitude", "lem-exc-residue-tor-test", "lem-exc-comparison-tor-interval", "lem-sf-etale-direct-image-vanishing", "lem-sf-flat-model", "lem-sf-proetale-constructible-origin", "lem-sf-proetale-residue-tor-test", "lem-sf-projection-finite-constant"]
 +++
 The proof of clause (iii) of the finite-Tor preservation summary bounds

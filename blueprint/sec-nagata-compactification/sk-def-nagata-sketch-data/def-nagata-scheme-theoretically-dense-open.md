@@ -3,7 +3,7 @@ id = "def-nagata-scheme-theoretically-dense-open"
 kind = "definition"
 title = "Scheme-theoretically dense open immersion"
 lean = ["AlgebraicGeometry.isSchemeTheoreticallyDominant_iff_app_injective"]
-order = 18
+order = 21
 +++
 For a quasi-compact open immersion $j\colon U\hookrightarrow X$, say that
 $U$ is scheme-theoretically dense in $X$ if the sheaf morphism

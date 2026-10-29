@@ -1,8 +1,8 @@
 +++
 id = "sk-thm-chow-projective"
 kind = "theorem"
-title = "Projective domination of a proper morphism"
-order = 418
+title = "Chow's lemma, projective form"
+order = 433
 lean = ["AlgebraicGeometry.exists_chow_finite_type", "AlgebraicGeometry.IsClosedImmersion.of_universallyClosed", "AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_liftBaseChange"]
 uses = ["thm-chow-lemma", "sk-def-conv"]
 tags = ["sketch"]

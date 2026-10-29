@@ -2,7 +2,7 @@
 id = "lem-sfb-point-upper-star-tensor"
 kind = "lemma"
 title = "$p^*$ preserves tensor products"
-order = 1046
+order = 1087
 uses = ["def-sfb-point-adjunction", "lem-sfb-point-upper-star-unit", "lem-sfb-profinite-to-proetale-finite-limits", "lem-weil-pbc-sheaf-tensor-closed"]
 lean = ["AlgebraicGeometry.ProEtale.isIso_δ_pointUpperStar"]
 +++

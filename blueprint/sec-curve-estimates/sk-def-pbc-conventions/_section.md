@@ -2,7 +2,7 @@
 id = "sk-def-pbc-conventions"
 kind = "definition"
 title = "Conventions for proper base change"
-order = 1244
+order = 1356
 lean = ["AlgebraicGeometry.Etale.upperStar", "AlgebraicGeometry.Etale.preservesFiniteLimits_upperStar", "AlgebraicGeometry.Etale.upperStarLowerStarAdjunction", "CategoryTheory.Functor.mapDerivedCategoryPlus", "CategoryTheory.Functor.rightDerivedFunctorPlus", "AlgebraicGeometry.Scheme.isZero_rightDerived_etale_toSheaf_of_injective", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerStarRestrictScalars", "AlgebraicGeometry.Etale.isIso_rightDerivedLowerStarForget₂"]
 uses = ["sk-def-conv"]
 tags = ["sketch"]

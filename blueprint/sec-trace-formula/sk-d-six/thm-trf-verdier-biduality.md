@@ -2,7 +2,7 @@
 id = "thm-trf-verdier-biduality"
 kind = "theorem"
 title = "Verdier biduality for the dualizing complex"
-order = 3606
+order = 3698
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-dualizing-complex", "def-weil-derived-tensor", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-scheme-morphism-properties", "lem-weil-duality-pairing", "thm-fix-general-biduality"]
 +++
 Fix the global finite-field datum

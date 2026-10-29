@@ -2,7 +2,7 @@
 id = "def-fd-kernel"
 kind = "definition"
 title = "The Fourier kernel and integrand"
-order = 3952
+order = 4165
 uses = ["def-fd-artin-schreier-sheaf", "lem-wft-as-comparison", "def-weil-pbc-scheme-conventions", "def-sf-setting", "det-def-sfb-module-pushforward-pullback"]
 +++
 Let $\Lambda$ be a coefficient ring in which the prime $p$ is invertible:

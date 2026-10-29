@@ -2,7 +2,7 @@
 id = "def-sfb-finite-upper-star"
 kind = "definition"
 title = "Pullback $g^*$ along base change"
-order = 877
+order = 911
 uses = ["def-sfb-finite-lower-star", "def-weil-pbc-proetale-site"]
 lean = ["AlgebraicGeometry.ProEtale.upperStar"]
 +++

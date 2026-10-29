@@ -3,9 +3,9 @@ id = "prop-constructible-truncations"
 kind = "theorem"
 title = "Construction of constructible truncations"
 lean = ["AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_truncLE", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_truncGE", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedAdicConstructible_mapDerivedCategory_upperStar", "AlgebraicGeometry.ProEtale.nonempty_truncLE_comp_mapDerivedCategory_upperStar_iso", "AlgebraicGeometry.ProEtale.nonempty_truncGE_comp_mapDerivedCategory_upperStar_iso", "AlgebraicGeometry.ProEtale.nonempty_mapDerivedCategory_upperStar_comp_homologyFunctor_iso"]
-order = 3417
+order = 3589
 tags = ["latex:proposition"]
-uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "def-weil-t-structure", "det-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "sk-prop-sfb-finite-extension-compatibility"]
+uses = ["def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "def-weil-t-structure", "det-def-sfb-bounded-constructible", "sk-lem-coefficient-heart", "det-prop-sfb-finite-extension-compatibility"]
 +++
 Fix the finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$. Fix a prime $\ell\neq p$, write

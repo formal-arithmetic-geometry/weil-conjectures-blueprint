@@ -2,7 +2,7 @@
 id = "det-proper-unbounded-window-bounded-below"
 kind = "lemma"
 title = "Proper direct image of bounded-below ind-constructible complexes"
-order = 2235
+order = 2456
 uses = ["sk-lem-proper-heart-bound", "sk-prop-ind-heart"]
 +++
 Let $\Lambda=E$ or $\Qlb$, $p\colon X\to Y$ proper with geometric fibres of dimension $\leq d$, and

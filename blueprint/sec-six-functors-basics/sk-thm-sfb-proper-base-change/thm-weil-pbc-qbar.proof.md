@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "thm-weil-pbc-qbar"
-uses = ["det-thm-sfb-proper-base-change-rational", "sk-def-sfb-dc-restricted-functors"]
+uses = ["det-thm-sfb-proper-base-change-rational", "det-def-sfb-dc-restricted-functors"]
 +++
 *Forgetting the Weil structure.* Let $\operatorname{For}$ denote the forgetful
 functor from Weil modules to modules, and also the induced functor on derived
@@ -18,7 +18,7 @@ $\operatorname{For}\circ Rf_*\cong Rf_*\circ\operatorname{For}$, compatibly
 with units and counits, and trivially $\operatorname{For}\circ h^*=
 h^*\circ\operatorname{For}$. Hence
 $\operatorname{For}(\mathrm{BC}_K)$ is the base change morphism
-$\mathrm{BC}_{\operatorname{For}K}$ of [sk-def-sfb-base-change-morphism] for
+$\mathrm{BC}_{\operatorname{For}K}$ of [det-def-sfb-base-change-morphism] for
 the square $X',X,Y',Y$ over $k$ and $\operatorname{For}K\in\Dbc(X,\Qlb)$.
 
 *Constructibility and the isomorphism.* The schemes $X,X',Y,Y'$ are of finite
@@ -31,7 +31,7 @@ $V$, and $Y'$ by finitely many affine opens $V'$ each mapping into some
 affine open $V$ of $Y$; then $V,V'$, and $f^{-1}V$,
 $f'^{-1}V'$ (proper over them), are separated and of finite type over $k$.
 Inverse images and, for $\Lambda=\Qlb$, direct images preserve bounded
-constructible complexes between such schemes ([sk-def-sfb-dc-restricted-functors];
+constructible complexes between such schemes ([det-def-sfb-dc-restricted-functors];
 for the proper direct images also [det-thm-sfb-proper-base-change-rational]
 (2)). Applying this on the finitely many affine opens involved,
 $Rf_*\operatorname{For}K$, $h^*Rf_*\operatorname{For}K$ and

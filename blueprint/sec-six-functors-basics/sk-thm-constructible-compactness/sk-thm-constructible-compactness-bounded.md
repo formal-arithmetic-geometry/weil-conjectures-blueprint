@@ -2,7 +2,7 @@
 id = "det-constructible-compactness-bounded"
 kind = "lemma"
 title = "Compactness of a constructible sheaf against uniformly bounded families"
-order = 2223
+order = 2442
 uses = ["sk-cor-ind-heart-ii", "sk-cor-ambient-ind-derived"]
 +++
 Let $\Lambda=E$ or $\Qlb$, $C\in\Cons(X,\Lambda)$, $a\leq b$ integers, and $(K_\lambda)$ a family in

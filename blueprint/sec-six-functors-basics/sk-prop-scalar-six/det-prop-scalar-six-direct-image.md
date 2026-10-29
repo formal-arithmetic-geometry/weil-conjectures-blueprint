@@ -2,7 +2,7 @@
 id = "det-prop-scalar-six-direct-image"
 kind = "lemma"
 title = "Coefficient comparison for ordinary direct image"
-order = 2472
+order = 2818
 uses = ["det-prop-scalar-six-pullback", "det-prop-scalar-six-ctf", "sk-prop-ctf-finite-comparison", "sk-cor-pe-bounded-continuity", "sk-prop-sfb-qlbar-colimit-x", "sk-thm-sf-ctf-stability"]
 +++
 Let $f\colon X\to Y$ be a morphism of standing schemes and $\Lambda\to\Lambda'$ a listed

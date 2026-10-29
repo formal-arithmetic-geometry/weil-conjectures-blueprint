@@ -2,7 +2,7 @@
 id = "pur9-def-transported-adjoint"
 kind = "definition"
 title = "The transported étale exceptional functor"
-order = 2861
+order = 2896
 uses = ["pur9-def-etale-unbounded-candidate", "sk-prop-sf-comp-coherence", "sk-prop-sf-existence"]
 +++
 Under Input “An étale right adjoint of the compactification candidate” (`pur9-input-etale-exceptional-adjoint`, in [sk-prop-sf-existence]), for $f$ as in Definition [pur9-def-etale-unbounded-candidate], define

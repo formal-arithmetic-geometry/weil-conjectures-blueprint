@@ -2,7 +2,7 @@
 id = "det-prop-sfb-qlbar-colimit-x-pullback"
 kind = "lemma"
 title = "The coefficient comparisons commute with inverse image"
-order = 1201
+order = 1248
 uses = ["det-prop-sfb-qlbar-colimit-x-integral-limit", "det-prop-sfb-qlbar-colimit-x-invert-ell", "det-def-sfb-pullback-from-point-comp"]
 +++
 Let $f\colon X\to Y$ be a morphism of schemes and let

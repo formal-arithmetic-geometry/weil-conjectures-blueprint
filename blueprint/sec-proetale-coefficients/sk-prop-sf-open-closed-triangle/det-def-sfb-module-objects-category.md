@@ -4,7 +4,7 @@ kind = "lemma"
 title = "$\\Mod_{\\mathcal R}(\\mathcal C)$ is a category with a faithful forgetful functor"
 uses = ["det-def-sfb-module-objects-definition"]
 lean = ["CategoryTheory.Mod.id", "CategoryTheory.Mod.comp", "CategoryTheory.Mod.hom_ext", "CategoryTheory.Mod.forget", "CategoryTheory.Mod.regular"]
-order = 1128
+order = 1172
 +++
 In the situation of [det-def-sfb-module-objects-definition]:
 

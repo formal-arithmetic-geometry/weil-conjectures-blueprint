@@ -3,9 +3,9 @@ id = "prop-functor-package"
 kind = "theorem"
 title = "Coefficient and functor package on the proved domains"
 lean = ["AlgebraicGeometry.WeilComplex.derivedLowerShriekObjIsoDerivedLowerStar", "AlgebraicGeometry.WeilComplex.nonempty_derivedLowerShriek_toComplex_iso_of_isOpenImmersion", "AlgebraicGeometry.WeilComplex.nonempty_derivedLowerShriek_comp_iso", "AlgebraicGeometry.WeilComplex.exists_distTriang_derivedLowerShriek_openClosed", "AlgebraicGeometry.WeilComplex.nonempty_upperStar_derivedLowerShriek_iso", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.upperStar_derivedLowerShriek_of_isPullback", "AlgebraicGeometry.WeilSheaf.higherLowerShriekZeroObjIsoLowerStar"]
-order = 3390
+order = 3563
 tags = ["latex:proposition"]
-uses = ["cor-cbc-proper-coincidence", "cor-weil-boundary-duality-discharge", "cor-weil-finite-constructible-hom", "def-fix-six-functor-datum", "fix-cor-verdier-exchange", "fix-lem-exchanges", "fix-prop-coherence", "fix-prop-projection-formula", "lem-cbc-open-closed-recollement", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-compact-support-direct-image-triangulated", "lem-fix-compact-support-coefficient-change", "lem-fix-operation-reduction", "lem-weil-coefficient-frobenius", "prop-compactification-coherence-detailed", "sbc-thm-bounded-below-derived-smooth-base-change", "def-sf-setting", "sk-def-sf-categories", "sk-def-sfb-coefficient-change", "sk-prop-sfb-finite-extension-compatibility", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-scalar-six", "sk-thm-existence", "sk-thm-sf-ctf-stability", "sk-thm-pd-verdier-duality", "sk-thm-sfb-proper-base-change", "sk-thm-sbc-coefficients", "sk-prop-sf-cbc", "sk-thm-purity-transport", "thm-cbc-finite-torsion", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-fix-general-biduality", "thm-pur-finite-coefficient-smooth-purity", "thm-sf-comp-composition", "thm-sf-dual-perfect", "thm-weil-pbc-bounded-below"]
+uses = ["cor-cbc-proper-coincidence", "cor-weil-boundary-duality-discharge", "cor-weil-finite-constructible-hom", "def-fix-six-functor-datum", "fix-cor-verdier-exchange", "fix-lem-exchanges", "fix-prop-coherence", "fix-prop-projection-formula", "lem-cbc-open-closed-recollement", "lem-coef-finite-direct-image", "lem-coef-finite-exceptional", "lem-compact-support-direct-image-triangulated", "lem-fix-compact-support-coefficient-change", "lem-fix-operation-reduction", "lem-weil-coefficient-frobenius", "prop-compactification-coherence-detailed", "sbc-thm-bounded-below-derived-smooth-base-change", "def-sf-setting", "sk-def-sf-categories", "det-def-sfb-coefficient-change", "det-prop-sfb-finite-extension-compatibility", "sk-thm-sfb-qlbar-two-colimit", "sk-prop-scalar-six", "sk-thm-existence", "sk-thm-sf-ctf-stability", "sk-thm-pd-verdier-duality", "sk-thm-sfb-proper-base-change", "sk-thm-sbc-coefficients", "det-prop-sf-cbc", "sk-thm-purity-transport", "thm-cbc-finite-torsion", "thm-coef-finite-hom", "thm-coef-integral-verdier", "thm-fix-general-biduality", "thm-pur-finite-coefficient-smooth-purity", "thm-sf-comp-composition", "thm-sf-dual-perfect", "thm-weil-pbc-bounded-below"]
 +++
 Use the admissible coefficient rings $A_{E,n},\mathcal O_E,E,\Qlb$ of
 [def-sf-setting], regarded as condensed rings, finite-type
@@ -33,7 +33,7 @@ The following seven clauses collect the preceding results.
 
 1. Extension of scalars along $E_X\to F_X\to\Qlb_X$, for finite extensions
 $F/E$, is exact, because these rings are flat over $E_X$, and commutes with
-the operations ([sk-prop-sfb-finite-extension-compatibility]). Every object
+the operations ([det-prop-sfb-finite-extension-compatibility]). Every object
 and morphism of $\Dbc(X,\Qlb)$ descends to some finite $E$
 ([sk-thm-sfb-qlbar-two-colimit]); this is a consequence about the condensed
 category, not its definition.
@@ -61,7 +61,7 @@ $g^*Rf_!\simeq Rf'_!g'^*$ for arbitrary base change, on the stated
 bounded coefficient domains: at the finite stages for $g^*Rf_*$ on
 bounded-below complexes with torsion cohomology, and for every admissible
 $\Lambda$ on $\Dctf(X,\Lambda)$ ([sk-thm-sfb-proper-base-change],
-[sk-thm-sbc-coefficients], [sk-prop-sf-cbc]); no claim is made for discrete
+[sk-thm-sbc-coefficients], [det-prop-sf-cbc]); no claim is made for discrete
 non-torsion coefficients on the small étale site.
 1. For $K\in D^b_c(X,\Lambda)$ and $L\in D^b_{ctf}(Y,\Lambda)$,
 the compact-support projection map is an isomorphism:

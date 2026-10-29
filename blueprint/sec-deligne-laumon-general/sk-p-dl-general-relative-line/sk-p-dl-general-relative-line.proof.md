@@ -5,7 +5,7 @@ of    = "sk-p-dl-general-relative-line"
 The assertion is immediate if $F=0$. Suppose that $F\ne0$, and fix a
 closed point $y$ of $Y_0$. We first bound the stalks. Compact-support
 base change ([sk-thm-sf-comp-composition], in the form
-[sk-prop-sf-cbc]) identifies
+[det-prop-sf-cbc]) identifies
 
 $$
  (R^ih_!F)_{\bar y}=H_c^i(U_{\bar y},F)

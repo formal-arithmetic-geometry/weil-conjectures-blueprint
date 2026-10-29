@@ -2,9 +2,9 @@
 id = "lem-zl-quasi-finite"
 kind = "lemma"
 title = "Quasi-finite direct images: exactness, weight bounds and purity"
-order = 4054
+order = 4277
 lean = ["AlgebraicGeometry.isZero_higherLowerShriek_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.isZero_higherLowerShriek_and_isMixedOfWeightsAtMost_of_quasiFinite", "AlgebraicGeometry.HasDirectImageWeightBound.of_locallyQuasiFinite", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.HasWeightsAtMost.higherLowerShriek_zero_of_quasiFinite", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.higherLowerShriek_zero_of_quasiFinite"]
-uses = ["def-weil-complex-weights", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "det-def-sfb-bounded-constructible", "prop-functor-package", "sk-def-sf-weil-complexes", "sk-def-sfb-module-lower-shriek", "sk-lem-coefficient-heart", "sk-d-real-weights"]
+uses = ["def-weil-complex-weights", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "det-def-sfb-bounded-constructible", "prop-functor-package", "sk-def-sf-weil-complexes", "det-def-sfb-module-lower-shriek", "sk-lem-coefficient-heart", "sk-d-real-weights"]
 +++
 Let $g:Z_0\to Y_0$ be a separated, quasi-finite morphism of finite type
 of $k_0$-schemes, with $Y_0$ quasi-separated of finite type over $k_0$.

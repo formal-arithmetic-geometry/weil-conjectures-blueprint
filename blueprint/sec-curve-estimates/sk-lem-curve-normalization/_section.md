@@ -2,7 +2,7 @@
 id = "sk-lem-curve-normalization"
 kind = "lemma"
 title = "Normalization of a constant sheaf"
-order = 1442
+order = 1550
 uses = ["sk-prop-av-isogeny", "sk-lem-curve-finite-support"]
 tags = ["sketch"]
 +++

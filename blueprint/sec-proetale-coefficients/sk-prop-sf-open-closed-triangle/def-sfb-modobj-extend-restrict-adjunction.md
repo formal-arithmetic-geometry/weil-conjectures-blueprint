@@ -2,7 +2,7 @@
 id = "def-sfb-modobj-extend-restrict-adjunction"
 kind = "definition"
 title = "Extension of scalars is left adjoint to restriction"
-order = 1112
+order = 1156
 uses = ["def-sfb-modobj-extension", "def-sfb-modobj-restriction"]
 lean = ["CategoryTheory.Mod.extendRestrictAdjunction"]
 +++

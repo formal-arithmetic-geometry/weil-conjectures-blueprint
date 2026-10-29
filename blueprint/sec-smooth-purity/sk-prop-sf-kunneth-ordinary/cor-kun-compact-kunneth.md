@@ -3,7 +3,7 @@ id = "cor-kun-compact-kunneth"
 kind = "theorem"
 title = "Künneth formula for compactly supported cohomology"
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_kunneth_compactSupport_of_isSepClosed"]
-order = 3193
+order = 3169
 tags = ["latex:corollary"]
 uses = ["def-compact-support-direct-image-detailed", "def-kun-kunneth-map", "def-weil-extension-by-zero", "thm-kun-0f1p"]
 +++

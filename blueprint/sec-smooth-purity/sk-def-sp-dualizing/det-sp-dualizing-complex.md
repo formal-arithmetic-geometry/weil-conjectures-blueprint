@@ -2,7 +2,7 @@
 id = "det-sp-dualizing-complex"
 kind = "definition"
 title = "Relative dualizing complex"
-order = 2849
+order = 2878
 uses = ["pur713-def-upper-shriek"]
 +++
 For a separated morphism of finite type $f:X\to Y$ of separated $k$-schemes of finite type, the relative dualizing complex is

@@ -14,5 +14,4 @@ their pullbacks along $\sigma$ agree with a fixed generator of
 $\sigma^*\mathcal L\simeq\mathcal O$. Two such generators differ by a unit of
 $\Gamma(\pi^{-1}(V\cap V'),\mathcal O)=\Gamma(V\cap V',\mathcal O)$ that is $1$ after
 pulling back along $\sigma$, hence equal to $1$; so they agree on overlaps and glue to a
-global generator. This is the tex's [sk-lem-abelian-seesaw] (3) followed by the
-pullback along the section.
+global generator.

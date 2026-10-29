@@ -2,7 +2,7 @@
 id = "thm-nagata-noetherian"
 kind = "theorem"
 title = "Nagata compactification over a Noetherian base"
-order = 25
+order = 333
 lean = ["AlgebraicGeometry.nagataCompactification_of_isNoetherian"]
 uses = ["def-nagata-compactifiable"]
 +++

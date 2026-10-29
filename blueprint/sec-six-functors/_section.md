@@ -2,8 +2,8 @@
 id = "sec-six-functors"
 kind = "section"
 title = "Six Functors"
-order = 3261
-uses = ["sec-curve-estimates", "sec-nagata-compactification", "sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sk-thm-br"]
+order = 3412
+uses = ["sec-six-functors-basics", "sec-smooth-purity"]
 +++
 **Content.** For separated finite-type morphisms of finite-type schemes over
 $k=\overline{\mathbf F}_q$ and every admissible coefficient ring ($A_{E,n}$,
@@ -16,7 +16,7 @@ This section then proves the projection formula at every stage
 ([sk-prop-sf-pf-coherence]) and the stability of $\Dctf$ under all six
 operations ([sk-thm-sf-ctf-stability]). Duality comes next: the dualizing
 complex $\omega_X=Ra_X^!\Lambda$ gives biduality
-([sk-prop-sf-biduality-general]), the tensor–Hom exchange
+([det-prop-sf-biduality-general]), the tensor–Hom exchange
 ([sk-thm-sf-tensor-hom]) gives the Verdier exchange
 $\mathbb D_Y Rf_!\cong Rf_*\mathbb D_X$ ([sk-thm-sf-verdier-exchange]),
 and global duality follows ([sk-thm-sf-global-duality]). Last comes the
@@ -37,7 +37,7 @@ gathered into [sk-thm-sf-package].
   constructible finite-Tor categories, with explicit Tor-amplitude bounds.
   Used in §[sec-trace-formula], §[sec-poincare-duality],
   §[sec-deligne-laumon-a1], §[sec-deligne-laumon-general].
-- Prop [sk-prop-sf-biduality-general] (general Verdier biduality):
+- Prop [det-prop-sf-biduality-general] (general Verdier biduality):
   $\mathbb D_Y=\RHom(-,Ra_Y^!\Lambda)$ is an anti-equivalence of
   $\Dctf(Y,\Lambda)$ with $\mathbb D_Y\mathbb D_Y\cong\mathrm{id}$. Used in
   §[sec-trace-formula], §[sec-poincare-duality], §[sec-purity-real-sheaves],

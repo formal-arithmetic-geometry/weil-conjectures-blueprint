@@ -3,7 +3,7 @@ id = "thm-sc-theorem-of-cube"
 kind = "theorem"
 title = "The theorem of the cube"
 lean = ["AlgebraicGeometry.nonempty_iso_cube"]
-order = 473
+order = 492
 uses = ["def-sc-abelian-variety", "def-sc-invertible-module"]
 +++
 Let $A$ be an abelian variety

@@ -3,7 +3,7 @@ id = "cor-pod-constant-coefficients"
 kind = "theorem"
 title = "Constant coefficients"
 lean = ["AlgebraicGeometry.WeilSheaf.poincareDuality_compactlySupportedCohomology_adicConstant"]
-order = 3410
+order = 3609
 tags = ["latex:corollary"]
 uses = ["def-pod-coefficient-dual-on-x", "def-pod-derived-poincare-pairing", "def-pur-smooth-trace", "def-weil-poincare-trace-cup", "prop-cohomological-finiteness", "prop-pod-cup-product-coherence", "prop-pod-degree-of-the-pairing", "thm-pod-degreewise-perfectness-over-a-field", "thm-pod-derived-poincare-duality", "thm-pod-proper-poincare-duality"]
 +++

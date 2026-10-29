@@ -2,7 +2,7 @@
 id = "lemma-nagata-proper-separated-valuation-extension"
 kind = "lemma"
 title = "Valuative extension to a proper separated morphism"
-order = 395
+order = 305
 lean = ["AlgebraicGeometry.IsProper.eq_valuativeCriterion"]
 uses = ["lemma-nagata-separated-valuation-lift-unique"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-coef-normalized-dvr-effectivity"
 kind = "lemma"
 title = "Effectivity of a normalized tower"
-order = 2970
+order = 2980
 uses = ["sk-def-sp-normalized-towers", "det-sp-coefficient-towers-abelian", "def-pe-derived-complete", "sk-prop-pe-milnor", "sk-prop-sfb-qlbar-colimit-x"]
 +++
 Let $E/\Ql$ be finite, $T$ a scheme, and $\pi_E\in\{\pi_E,\ell\}$; put

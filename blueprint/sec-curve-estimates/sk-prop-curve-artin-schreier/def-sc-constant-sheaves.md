@@ -3,7 +3,7 @@ id = "def-sc-constant-sheaves"
 kind = "definition"
 title = "Constant etale sheaves on a curve"
 lean = ["AlgebraicGeometry.Scheme.constantZMod"]
-order = 1436
+order = 1543
 uses = ["def-sc-curves", "def-weil-pbc-etale-sheaves"]
 +++
 Let $C$ be a curve and let $n\geq1$.

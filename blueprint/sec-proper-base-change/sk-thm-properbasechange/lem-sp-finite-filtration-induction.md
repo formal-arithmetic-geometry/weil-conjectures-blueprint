@@ -2,7 +2,7 @@
 id = "lem-sp-finite-filtration-induction"
 kind = "lemma"
 title = "Finite filtration induction"
-order = 1952
+order = 2076
 lean = ["CategoryTheory.PBCFilteredObject.finite_filtration_induction", "CategoryTheory.FilteredObject.finite_filtration_induction"]
 uses = ["def-sp-filtration"]
 +++

@@ -2,7 +2,7 @@
 id = "def-weil-karoubi-envelope"
 kind = "definition"
 title = "Karoubi envelope"
-order = 1951
+order = 2075
 lean = ["CategoryTheory.Idempotents.Karoubi", "CategoryTheory.Idempotents.Karoubi.Hom", "CategoryTheory.Idempotents.toKaroubi"]
 +++
 For a category $\mathcal T$ (in the applications an additive category), the *Karoubi envelope*

@@ -3,7 +3,7 @@ id = "lem-weil-pbc-derived-exchange-termwise"
 kind = "lemma"
 title = "The termwise construction of the derived exchange morphism"
 lean = ["AlgebraicGeometry.Etale.existsUnique_derivedBaseChangeMapPlus_comparison", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_eq_termwise"]
-order = 1294
+order = 1406
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-sp-kinjective-bridge", "def-weil-pbc-underived-exchange", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 Let $\square$ be a commutative square of schemes as in

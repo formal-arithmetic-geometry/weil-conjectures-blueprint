@@ -2,7 +2,7 @@
 id = "lemma-nagata-ideal-invertible-product-factor"
 kind = "lemma"
 title = "Factors of an invertible product ideal"
-order = 242
+order = 147
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.of_mul_left", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.of_mul_right"]
 uses = ["def-nagata-invertible-ideal"]
 +++

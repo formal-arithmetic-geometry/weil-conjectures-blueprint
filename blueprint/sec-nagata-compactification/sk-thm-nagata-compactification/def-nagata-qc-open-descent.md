@@ -2,7 +2,7 @@
 id = "def-nagata-qc-open-descent"
 kind = "definition"
 title = "Finite-stage model of a quasi-compact open"
-order = 46
+order = 354
 lean = ["AlgebraicGeometry.baseChangeQcOpenDescentStage", "AlgebraicGeometry.baseChangeQcOpenDescent"]
 uses = ["def-nagata-basechanged-system", "def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++

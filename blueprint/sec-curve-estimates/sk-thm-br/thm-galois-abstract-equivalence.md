@@ -2,7 +2,7 @@
 id = "thm-galois-abstract-equivalence"
 kind = "theorem"
 title = "The abstract equivalence theorem"
-order = 1382
+order = 1487
 lean = ["CategoryTheory.PreGaloisCategory.functorToContAction", "CategoryTheory.PreGaloisCategory.functorToAction_full", "CategoryTheory.PreGaloisCategory.exists_lift_of_continuous"]
 uses = ["def-galois-category", "lem-galois-action-continuous", "lem-galois-aut-profinite", "lem-galois-axioms", "lem-galois-object-exists", "lem-galois-transitive"]
 +++

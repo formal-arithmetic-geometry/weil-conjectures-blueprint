@@ -3,7 +3,7 @@ id = "lem-wf-engel-matrix"
 kind = "lemma"
 title = "Engel's matrix lemma"
 lean = ["LieSubalgebra.exists_forall_apply_eq_zero_and_isNilpotent"]
-order = 3699
+order = 3911
 +++
 Let $M\ne0$ be a finite-dimensional vector space over $\Qlb$, and let
 $\mathfrak n\subseteq\operatorname{End}(M)$ be a

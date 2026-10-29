@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-basechanged-compactification"
 kind = "lemma"
 title = "Property of the base-changed compactification"
-order = 76
+order = 384
 lean = ["AlgebraicGeometry.nagataCompactification_of_locallyOfFinitePresentation"]
 uses = ["def-nagata-compactifiable", "def-nagata-final-basechanged-compactification", "lemma-nagata-final-descended-model", "lemma-nagata-final-noetherian-compactification"]
 +++

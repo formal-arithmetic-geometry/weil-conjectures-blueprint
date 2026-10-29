@@ -2,7 +2,7 @@
 id = "det-def-sfb-ring-object"
 kind = "definition"
 title = "Ring objects of abelian sheaves"
-order = 1027
+order = 1068
 uses = ["lem-weil-pbc-sheaf-tensor-closed"]
 lean = ["CategoryTheory.MonObj", "CategoryTheory.IsMonHom", "CategoryTheory.IsCommMonObj", "AddCommGrpCat.ringMonObj", "AddCommGrpCat.isMonHom_ofHom_ringHom", "CategoryTheory.Functor.monObjCompForget₂", "CategoryTheory.Sheaf.sheafifyRingPresheaf", "CategoryTheory.Sheaf.monObj_presheafToSheaf_obj", "CategoryTheory.Sheaf.monObj_sheafCompose_obj", "CategoryTheory.Sheaf.isMonHom_sheafCompose_map"]
 +++

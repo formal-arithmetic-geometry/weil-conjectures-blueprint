@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proper-immersion-closed"
 kind = "lemma"
 title = "Proper immersions are closed immersions"
-order = 435
+order = 450
 lean = ["AlgebraicGeometry.IsClosedImmersion.of_universallyClosed", "AlgebraicGeometry.IsProper.isClosed_range"]
 uses = ["def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-closed-image"]
 +++

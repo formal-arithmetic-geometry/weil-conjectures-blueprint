@@ -2,7 +2,7 @@
 id = "det-tf-restriction-zero-localization"
 kind = "lemma"
 title = "Reduction to a punctured restriction"
-order = 3497
+order = 3767
 uses = ["det-tf-supported-restriction"]
 +++
 In the situation of [det-tf-supported-restriction], work on the classical étale models:

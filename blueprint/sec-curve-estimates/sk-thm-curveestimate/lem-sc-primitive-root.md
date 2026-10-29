@@ -3,7 +3,7 @@ id = "lem-sc-primitive-root"
 kind = "lemma"
 title = "Primitive roots of unity"
 lean = ["IsSepClosed.exists_isPrimitiveRoot", "IsPrimitiveRoot.zmodAddEquivRootsOfUnity"]
-order = 1395
+order = 1500
 uses = ["def-sc-curves", "def-sc-mu-trivialization"]
 +++
 Let $k$ be a separably closed field (for instance an algebraically

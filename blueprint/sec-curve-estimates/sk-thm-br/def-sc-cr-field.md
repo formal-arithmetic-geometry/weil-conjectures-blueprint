@@ -2,7 +2,7 @@
 id = "def-sc-cr-field"
 kind = "definition"
 title = "$C_r$ fields"
-order = 1330
+order = 1435
 lean = ["IsCField", "IsQuasiAlgClosed", "IsCField.mono", "IsAlgClosed.isCField_zero"]
 +++
 Let $r\geq0$. A field $K$ is *$C_r$* if every

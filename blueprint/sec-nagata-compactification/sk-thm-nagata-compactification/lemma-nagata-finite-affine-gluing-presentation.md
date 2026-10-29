@@ -2,7 +2,7 @@
 id = "lemma-nagata-finite-affine-gluing-presentation"
 kind = "lemma"
 title = "Properties of the selected finite affine presentation"
-order = 32
+order = 340
 lean = ["AlgebraicGeometry.Scheme.FiniteAffineGluingPresentation.isCompact_inf_and_isIso_fromGlued"]
 uses = ["def-nagata-finite-affine-gluing-presentation"]
 +++

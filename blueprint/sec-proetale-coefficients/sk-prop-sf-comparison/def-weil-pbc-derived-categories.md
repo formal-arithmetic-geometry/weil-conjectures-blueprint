@@ -2,7 +2,7 @@
 id = "def-weil-pbc-derived-categories"
 kind = "definition"
 title = "Derived categories of etale sheaves"
-order = 976
+order = 1024
 lean = ["AlgebraicGeometry.Etale.DerivedCategoryModule", "DerivedCategory.Plus", "DerivedCategory.Bounded", "AlgebraicGeometry.Etale.DerivedCategory.torsionCohomology"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-geometric-stalks"]
 +++

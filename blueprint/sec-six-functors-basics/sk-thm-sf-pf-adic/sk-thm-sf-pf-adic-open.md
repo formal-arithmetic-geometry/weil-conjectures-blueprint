@@ -2,7 +2,7 @@
 id = "det-thm-sf-pf-adic-open"
 kind = "lemma"
 title = "Integral open direct image preserves constructibility"
-order = 2458
+order = 2763
 uses = ["sk-cor-geo-open-finiteness", "sk-prop-integral-criterion"]
 +++
 Let $j:U\hookrightarrow X$ be a quasi-compact open immersion and

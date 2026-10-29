@@ -2,7 +2,7 @@
 id = "i-topology"
 kind = "theorem"
 title = "Topological invariance"
-order = 3649
+order = 3816
 uses = ["def-trf-coefficient-conventions", "prop-functor-package"]
 tags = ["latex:proposition"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-lem-integral-finite-levels"
 kind = "lemma"
 title = "Bounds for the finite reductions"
-order = 1210
+order = 1274
 uses = ["sk-def-pe-derived-completion", "sk-thm-pe-constructible-comparison", "sk-cor-pe-finite-tor-comparison", "sk-prop-pe-milnor"]
 tags = ["sketch"]
 +++

@@ -3,7 +3,7 @@ id = "lemma-nagata-strict-transform-chart-cocycle"
 kind = "lemma"
 title = "Cocycle for strict-transform charts"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.StrictTransformChart.comap_ker_strictι_fst_eq"]
-order = 274
+order = 179
 +++
 Let $f\colon Y\to X$ be a morphism, let $\mathcal I$ be a quasi-coherent
 ideal on $X$, and put $X'=\operatorname{Bl}_{\mathcal I}(X)$. Let

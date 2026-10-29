@@ -26,8 +26,9 @@ Frobenius acts on roots of unity by raising to the $q$th power
 ([det-p-cyclotomic], [lem-wf-tate-twist-frobenius],
 [lem-tw-tate-twist-weight-shift]).
 
-*Complement.* By Jordan–Hölder ([sk-r-linear-library]) and the
-multiplicativity of characteristic polynomials along a filtration, a
-semisimplification has the same local polynomials; the weight of
+*Complement.* A semisimplification is the direct sum of the graded pieces
+of a composition series ([def-mg-weil-semisimplification]), so by the
+multiplicativity of characteristic polynomials along a filtration
+([sk-p-linear-filtration]) it has the same local polynomials; the weight of
 $\alpha^{-1}$ is the negative of that of $\alpha$ because
 $|\iota(\alpha^{-1})|=|\iota(\alpha)|^{-1}$.

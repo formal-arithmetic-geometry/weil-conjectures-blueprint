@@ -2,7 +2,7 @@
 id = "def-weil-t-structure"
 kind = "definition"
 title = "t-structure"
-order = 1247
+order = 1359
 lean = ["CategoryTheory.Triangulated.TStructure", "CategoryTheory.Triangulated.TStructure.heart", "CategoryTheory.Triangulated.TStructure.bounded", "CategoryTheory.Triangulated.TStructure.truncLE", "CategoryTheory.Triangulated.TStructure.truncGE", "CategoryTheory.Triangulated.TStructure.triangleLEGE"]
 +++
 A *t-structure* on a triangulated category $\mathcal T$ is a pair $(\mathcal

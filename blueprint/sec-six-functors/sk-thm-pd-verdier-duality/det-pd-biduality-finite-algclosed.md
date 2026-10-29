@@ -2,7 +2,7 @@
 id = "det-pd-biduality-finite-algclosed"
 kind = "theorem"
 title = "Biduality with finite coefficients over an algebraically closed field"
-order = 3282
+order = 3482
 uses = ["lem-weil-duality-pairing"]
 +++
 Let $A$ be a finite coefficient ring, $k$ an algebraically closed field of

@@ -3,7 +3,7 @@ id = "cor-wf-unramified-boundary-purity"
 kind = "theorem"
 title = "Purity at an unramified boundary point"
 lean = ["AlgebraicGeometry.WeilSheaf.IsLisse.isPunctuallyPureOfWeight_of_upperStar", "AlgebraicGeometry.WeilGroup.isPunctuallyPure_of_forall_mem_range"]
-order = 3887
+order = 4120
 tags = ["latex:corollary"]
 uses = ["d-real-setup", "def-weil-frobenius-module-weights", "def-weil-punctual-weights", "lem-a1-lisse-middle-extension", "lem-wf-boundary-semicontinuity", "lem-wf-boundary-stalk-invariants"]
 +++

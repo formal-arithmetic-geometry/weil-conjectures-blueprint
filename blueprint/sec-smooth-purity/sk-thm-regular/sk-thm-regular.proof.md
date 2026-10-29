@@ -83,7 +83,7 @@ $\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$ to $(-1)^c$, each
 $\partial\kappa(t_j)$ being minus the Cartier class of $V(t_j)$, which the
 projective-line trace normalizes to $1$. Hence
 $\Phi_{i_0}(1)=(-1)^c\,\partial\kappa(t_1)\cup\cdots\cup\partial\kappa(t_c)$
-([cor-pur-affine-space-zero-section-purity], with [sk-prop-a1]): $(-1)^c$
+([cor-pur-affine-space-zero-section-purity], with [det-prop-a1]): $(-1)^c$
 times the class of the coordinate frame.
 (iv) Kummer classes, boundaries and cup products with supports commute with
 pullback and $u^{*}t_j=f_j$, so $\Phi_i(1)|_{Z_U}=u'^{*}\Phi_{i_0}(1)

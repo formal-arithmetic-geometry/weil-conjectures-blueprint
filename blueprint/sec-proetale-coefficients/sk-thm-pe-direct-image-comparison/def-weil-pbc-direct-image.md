@@ -2,7 +2,7 @@
 id = "def-weil-pbc-direct-image"
 kind = "definition"
 title = "Direct image and its derived functor"
-order = 1005
+order = 1056
 lean = ["AlgebraicGeometry.Etale.lowerStar", "AlgebraicGeometry.Etale.lowerStar_obj_val_obj", "AlgebraicGeometry.Etale.rightDerivedLowerStarPlus"]
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-sp-kinjective-bridge", "def-weil-pbc-scheme-conventions"]
 +++

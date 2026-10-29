@@ -3,7 +3,7 @@ id = "det-cor-jacobian-torsion-structure"
 kind = "lemma"
 title = "The group structure of $A(k)[n]$"
 lean = ["AlgebraicGeometry.nonempty_addEquiv_torsionBy", "AlgebraicGeometry.Scheme.Hom.pic_proper_ntorsion_torsion"]
-order = 844
+order = 873
 uses = ["det-cor-jacobian-torsion-kernel", "lem-sc-av-commutative", "lem-sc-divisible-group-structure"]
 +++
 Let $k$ be algebraically closed, let $A/k$ be an abelian variety of

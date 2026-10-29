@@ -2,8 +2,8 @@
 id = "sk-d-real-detweights"
 kind = "corollary"
 title = "Determinant weights"
-order = 3840
-uses = ["sk-cor-wrp-rankone-pure", "sk-d-weights", "sk-p-real-rankone"]
+order = 4029
+uses = ["sk-d-real-weil", "sk-r-real-linear", "sk-p-real-rankone", "sk-cor-wrp-rankone-pure"]
 lean = ["AlgebraicGeometry.WeilGroup.HasDetWeight"]
 tags = ["sketch"]
 +++
@@ -16,16 +16,16 @@ $$
    =\frac{\lambda_\iota(\det\rho(s))}{r}.
 $$
 
-This number is independent of $s$ and of a finite coefficient model, and
+Here $\rho$ is the representation of $W(U_0)$ corresponding to
+$\mathcal V$ and $s$ is a lift of degree one. This number is independent
+of $s$ and of a finite coefficient model, and
 $\det\mathcal V$ is pure of weight $r\operatorname{dw}_\iota(\mathcal V)$.
-In particular every irreducible constituent, including every constituent
-of a tensor or exterior construction, satisfies the finite geometric
-determinant condition used in [sec-algebraic-groups-lie-algebras].
+This applies in particular to every irreducible constituent of
+$\mathcal V$ and of every tensor or exterior construction on
+$\mathcal V$, since these are again nonzero lisse Weil sheaves on the
+curve.
 
 *Complement.* For a lisse Weil sheaf, its constituent determinant weights are
 the numbers $\operatorname{dw}_\iota(V_a)$ of its irreducible constituents
 $V_a$; the rank-counted list repeats $\operatorname{dw}_\iota(V_a)$ exactly
-$\operatorname{rank}V_a$ times ([def-mg-determinantal-weight-multiset]). For
-these constituents $\operatorname{dw}_\iota$ agrees with the determinant
-weight $\operatorname{dw}_{\lambda_\iota}$ of [sk-d-weights]
-([lem-rp-determinant-weights-agree]).
+$\operatorname{rank}V_a$ times ([def-mg-determinantal-weight-multiset]).

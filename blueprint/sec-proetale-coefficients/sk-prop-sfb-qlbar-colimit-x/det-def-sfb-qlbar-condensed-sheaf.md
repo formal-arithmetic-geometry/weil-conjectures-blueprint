@@ -3,7 +3,7 @@ id = "det-def-sfb-qlbar-condensed-sheaf"
 kind = "lemma"
 title = "$\\underline{\\overline{\\mathbf Q}}_\\ell$ is a condensed ring"
 lean = ["Profinite.isSheaf_padicAlgClSubfunctor", "Profinite.isSheaf_padicAlgClRingPresheaf", "Profinite.padicAlgClCondensedRing", "Profinite.padicAlgClRingObj", "Profinite.isCommMonObj_padicAlgClRingObj"]
-order = 1192
+order = 1239
 uses = ["det-def-sfb-qlbar-condensed-definition", "def-sfb-continuous-map-condensed-ring", "det-def-sfb-ring-object-sheaf", "det-def-sfb-condensed-ring", "det-def-sfb-qlbar-condensed-subextensions"]
 +++
 The presheaf of rings $\underline{\Qlb}$ of [det-def-sfb-qlbar-condensed-definition] is a sheaf on

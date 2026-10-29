@@ -2,7 +2,7 @@
 id = "det-sfb-coefficient-comparisons-compact-support"
 kind = "lemma"
 title = "Coefficient comparison for $Rf_!$"
-order = 2990
+order = 3000
 uses = ["det-sfb-coefficient-comparisons-direct-image", "lem-coef-finite-direct-image", "lem-fix-compact-support-coefficient-change"]
 +++
 Let $f\colon X\to Y$ be separated of finite type with compactification $f=p\circ j$, and $\Lambda\to\Lambda'$ a listed

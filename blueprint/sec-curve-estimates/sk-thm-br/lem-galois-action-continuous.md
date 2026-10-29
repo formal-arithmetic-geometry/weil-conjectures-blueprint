@@ -2,7 +2,7 @@
 id = "lem-galois-action-continuous"
 kind = "lemma"
 title = "Continuity of the action of $\\operatorname{Aut}(F)$"
-order = 1377
+order = 1482
 lean = ["CategoryTheory.PreGaloisCategory.continuousSMul_aut_fiber"]
 uses = ["def-galois-category"]
 +++

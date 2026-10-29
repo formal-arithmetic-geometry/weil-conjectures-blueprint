@@ -2,7 +2,7 @@
 id = "sk-rem-tf-contracting-neighbourhood"
 kind = "remark"
 title = "Reduction to a single fixed component"
-order = 3596
+order = 3684
 tags = ["sketch"]
 +++
 Here $c:C\to X\times X$ is a correspondence with fixed scheme $F_c$, $K$ is its coefficient

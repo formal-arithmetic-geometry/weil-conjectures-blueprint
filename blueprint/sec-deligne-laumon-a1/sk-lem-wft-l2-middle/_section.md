@@ -3,7 +3,7 @@ id = "sk-lem-wft-l2-middle"
 kind = "lemma"
 title = "Boundary correction for squared traces"
 lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.l2Weight_directImage"]
-order = 4012
+order = 4231
 uses = ["sk-def-wrp-l2-definition", "sk-p-real-semi", "sk-thm-wrp-l2-dictionary"]
 tags = ["sketch"]
 +++

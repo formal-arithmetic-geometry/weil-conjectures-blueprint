@@ -3,7 +3,7 @@ id = "prop-fd-zero-extension-comparison"
 kind = "theorem"
 tags = ["latex:proposition"]
 title = "The zero-extension comparison"
-order = 4005
+order = 4223
 uses = ["def-a1-constituent-nonexceptional", "def-fd-artin-schreier-sheaf", "def-fd-kernel", "def-fd-transform", "def-weil-punctual-weights", "def-wf-middle-extension", "lem-fd-as-trace", "lem-fd-first-formula", "lem-wf-boundary-semicontinuity", "prop-a1-fourier-middle-extension", "rem-dl-a1-conventions", "thm-fd-transform-well-defined"]
 lean = ["AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.nonempty_fourierCorrection", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.isLisse", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.FourierCorrection.hasWeightsAtMost"]
 +++

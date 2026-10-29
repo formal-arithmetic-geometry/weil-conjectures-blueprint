@@ -2,7 +2,7 @@
 id = "sk-thm-pe-constructible-comparison"
 kind = "theorem"
 title = "Constructible comparison"
-order = 1014
+order = 1262
 lean = ["AlgebraicGeometry.ProEtale.IsConstructible", "AlgebraicGeometry.ProEtale.isConstructible_comparisonUpperStar_obj", "AlgebraicGeometry.ProEtale.isConstructible_iff_exists_isConstructibleSheaf_iso_comparisonUpperStar_obj", "AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructible", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map", "AlgebraicGeometry.ProEtale.openImmersionLowerShriekComparisonUpperStarIso"]
 uses = ["sk-prop-pe-finite-local-systems", "sk-cor-pe-classical-derived", "sk-thm-pe-direct-image-comparison", "sk-prop-sf-open-closed-triangle", "sk-def-sfb-constructible"]
 tags = ["sketch"]

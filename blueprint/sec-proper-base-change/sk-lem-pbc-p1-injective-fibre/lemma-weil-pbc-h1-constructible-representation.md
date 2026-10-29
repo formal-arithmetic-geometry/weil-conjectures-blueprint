@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-h1-constructible-representation"
 kind = "lemma"
 title = "Constructible representation of an $H^1$ class"
 lean = ["AlgebraicGeometry.Etale.exists_sum_eq_of_injective_projectiveLine"]
-order = 1562
+order = 1690
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-constructible-approximation", "lemma-weil-pbc-constructible-finite-pushforward", "def-weil-pbc-strict-henselian-setup"]
 +++
 Let $A$ be a strictly henselian local ring with residue field $\kappa$, and in the

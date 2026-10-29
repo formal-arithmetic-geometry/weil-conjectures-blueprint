@@ -2,7 +2,7 @@
 id = "sk-thm-trace-transport"
 kind = "theorem"
 title = "Euler-product form of the trace formula"
-order = 3534
+order = 3861
 uses = ["sk-d-setup", "sk-d-six", "sk-d-trace", "sk-d-weil", "sk-def-sf-weil-complexes", "sk-i-curve-zero", "sk-p-trace-coeff", "sk-thm-curveestimate", "sk-prop-logdet", "sk-thm-sf-ctf-stability", "sk-thm-trace-formula", "sk-thm-tf-uniform-formula", "sk-thm-nagata-compactification"]
 tags = ["sketch"]
 +++

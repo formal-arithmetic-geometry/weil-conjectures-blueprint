@@ -3,7 +3,7 @@ id = "def-pc-perfect-complex"
 kind = "definition"
 title = "Perfect complexes"
 lean = ["AlgebraicGeometry.Scheme.Modules.IsPerfectComplex"]
-order = 724
+order = 749
 uses = ["def-pc-derived-category", "def-sc-invertible-module"]
 +++
 Let $X$ be a scheme and $E\in D(\mathcal{O}_X)$. $E$ is *perfect* if it is

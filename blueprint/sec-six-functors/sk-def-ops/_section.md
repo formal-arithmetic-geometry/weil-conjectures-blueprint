@@ -2,7 +2,7 @@
 id = "sk-def-ops"
 kind = "definition"
 title = "Verdier dual and evaluation"
-order = 3266
+order = 3418
 uses = ["sk-prop-sf-open-closed-triangle", "sk-lem-finite"]
 lean = ["AlgebraicGeometry.ProEtale.dualizingComplex", "AlgebraicGeometry.ProEtale.verdierDual", "AlgebraicGeometry.ProEtale.derivedDual", "AlgebraicGeometry.ProEtale.cohomology"]
 tags = ["sketch"]

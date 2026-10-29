@@ -3,7 +3,7 @@ id = "aux-directed-colimit-map"
 kind = "lemma"
 title = "Canonical section maps for directed colimits"
 lean = ["CategoryTheory.Limits.colimit.post", "CategoryTheory.Limits.colimit.ι_post"]
-order = 1598
+order = 1726
 +++
 Let $D:J\to\mathcal C$ be a diagram admitting a colimit and let $G:\mathcal C\to\mathcal D$ be a functor such that
 $G\circ D$ admits a colimit. There is a canonical morphism

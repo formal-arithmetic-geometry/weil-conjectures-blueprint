@@ -2,7 +2,7 @@
 id = "prop-weil-pbc-direct-image-limits"
 kind = "theorem"
 title = "Direct image, derived limits, and completeness"
-order = 2021
+order = 2143
 uses = ["det-pbc-complete-derived-completion", "def-weil-derived-limit", "def-weil-derived-direct-image", "def-weil-pbc-projection-formula-map", "def-pe-derived-complete"]
 tags = ["latex:proposition"]
 +++

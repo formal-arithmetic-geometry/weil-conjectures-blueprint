@@ -3,7 +3,7 @@ id = "lemma-nagata-glue-finite-type-ideals"
 kind = "lemma"
 title = "Gluing compatible finite-type ideals on two qc opens"
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_ofFiniteTypeOn_sup_comap_eq"]
-order = 282
+order = 187
 +++
 Let $U,W\subseteq X$ be quasi-compact opens of a quasi-separated scheme. If
 $\mathcal I_U\subseteq\mathcal O_U$ and

@@ -3,7 +3,7 @@ id = "def-kun-constant-sheaf"
 kind = "definition"
 title = "Constant sheaves and constant complexes"
 lean = ["AlgebraicGeometry.Etale.constantFunctor"]
-order = 2370
+order = 2696
 uses = ["def-weil-pbc-etale-site"]
 +++
 For a scheme $T$, a commutative ring $\Lambda$ and a

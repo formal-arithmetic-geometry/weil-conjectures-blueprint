@@ -3,7 +3,7 @@ id = "lem-weil-pbc-sheaf-algebraic-structures-objects"
 kind = "lemma"
 title = "Sheaves of abelian groups and of commutative rings are group and ring objects in sheaves of sets"
 lean = ["CategoryTheory.sheaves_algebraicStructures_objects"]
-order = 1280
+order = 1392
 uses = ["def-weil-category-product"]
 tags = ["stacks-00YR"]
 +++

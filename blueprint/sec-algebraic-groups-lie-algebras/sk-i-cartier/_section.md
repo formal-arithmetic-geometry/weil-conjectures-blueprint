@@ -3,7 +3,7 @@ id = "sk-i-cartier"
 kind = "proposition"
 title = "Cartier's theorem"
 lean = ["AlgebraicGeometry.isReduced_of_grpObj", "AlgebraicGeometry.smooth_of_grpObj_of_charZero", "AlgebraicGeometry.GrpObj.finrank_lie_eq_topologicalKrullDim", "AlgebraicGeometry.GeneralLinearGroup.finrank_lie_eq_ringKrullDim", "AlgebraicGeometry.GrpObj.lieEquivIdentityComponent", "AlgebraicGeometry.GeneralLinearGroup.lieAlgebraEquivIdentityComponent", "AlgebraicGeometry.GrpObj.lieEquiv_mul"]
-order = 3670
+order = 3880
 tags = ["sketch"]
 +++
 Throughout this appendix, $L$ is an algebraically closed field of

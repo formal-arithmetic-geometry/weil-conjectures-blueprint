@@ -2,7 +2,7 @@
 id = "lem-chow-disjoint-affines"
 kind = "lemma"
 title = "Disjoint affine neighbourhoods of generic points"
-order = 405
+order = 316
 lean = ["AlgebraicGeometry.exists_isAffineOpen_of_subset_genericPoints", "AlgebraicGeometry.exists_isAffineOpen_pairwise_disjoint"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

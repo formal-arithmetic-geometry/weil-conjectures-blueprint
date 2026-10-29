@@ -3,7 +3,7 @@ id = "def-weil-pbc-proetale-site"
 kind = "definition"
 title = "Small pro-etale site"
 lean = ["AlgebraicGeometry.Scheme.ProEt", "AlgebraicGeometry.Scheme.ProEt.topology", "AlgebraicGeometry.ProEtale.ModuleDerivedCategory"]
-order = 723
+order = 748
 uses = ["def-weil-abstract-derived-category", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties", "def-weil-size-convention"]
 +++
 Fix universes $\mathcal U\in\mathcal V$ as in the size convention

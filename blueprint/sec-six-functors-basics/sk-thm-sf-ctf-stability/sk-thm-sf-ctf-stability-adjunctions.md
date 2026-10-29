@@ -2,7 +2,7 @@
 id = "det-thm-sf-ctf-stability-adjunctions"
 kind = "lemma"
 title = "Restricted adjunctions on $\\Dctf$"
-order = 2468
+order = 2809
 uses = ["det-thm-sf-ctf-stability-direct-images", "det-thm-sf-ctf-stability-internal-hom", "sk-prop-sf-existence"]
 +++
 Let $\Lambda$ be admissible and $f:X\to Y$ separated of finite type. On the

@@ -2,7 +2,7 @@
 id = "det-lem-bounded-continuity-direct-image"
 kind = "lemma"
 title = "Higher direct images commute with bounded-below filtered colimits"
-order = 3219
+order = 3201
 uses = ["det-lem-bounded-continuity-sections"]
 +++
 Let $g\colon Y\to Z$ be a quasi-compact quasi-separated morphism of schemes, $A$ a sheaf of

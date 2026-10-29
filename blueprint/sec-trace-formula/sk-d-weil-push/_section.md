@@ -2,7 +2,7 @@
 id = "sk-d-weil-push"
 kind = "definition"
 title = "Weil $!$-pushforward"
-order = 3652
+order = 3832
 uses = ["sk-d-operator", "sk-d-relative-frob", "sk-d-six", "sk-d-weil", "sk-i-relative-frob", "sk-i-topology"]
 tags = ["sketch"]
 +++

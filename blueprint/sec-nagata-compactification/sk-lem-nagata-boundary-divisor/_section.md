@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-boundary-divisor"
 kind = "lemma"
 title = "Making an open schematically dense"
-order = 218
+order = 122
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_cartierBoundary", "AlgebraicGeometry.Scheme.IdealSheafData.IsInvertible.isSchemeTheoreticallyDominant_compl_support"]
 uses = ["sk-def-nagata-admissible"]
 tags = ["sketch"]

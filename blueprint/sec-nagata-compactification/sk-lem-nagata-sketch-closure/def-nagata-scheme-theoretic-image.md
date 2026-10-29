@@ -2,7 +2,7 @@
 id = "def-nagata-scheme-theoretic-image"
 kind = "definition"
 title = "Scheme-theoretic image"
-order = 106
+order = 26
 lean = ["AlgebraicGeometry.Scheme.Hom.image", "AlgebraicGeometry.IsSchemeTheoreticallyDominant"]
 uses = ["def-weil-pbc-scheme-conventions", "lemma-nagata-scheme-image-ideal-qc"]
 +++

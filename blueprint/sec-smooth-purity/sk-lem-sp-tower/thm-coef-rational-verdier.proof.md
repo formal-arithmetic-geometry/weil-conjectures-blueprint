@@ -33,7 +33,7 @@ an internal Hom into a fixed object. With $D_{X,E}^2\cong\operatorname{id}$ via
 $\delta$, it is an anti-equivalence.
 
 For $E\subset L$, extension of scalars along $E_X\to L_X$ is flat
-([sk-prop-sfb-finite-extension-compatibility]), and [sk-prop-scalar-six]
+([det-prop-sfb-finite-extension-compatibility]), and [sk-prop-scalar-six]
 gives the comparisons $(\omega_{X,E})_L\cong\omega_{X,L}$ and the internal Hom
 comparison. Their composite is the stated comparison. Compatibility with
 evaluation and $\delta$ follows by transposition as above. The unit and

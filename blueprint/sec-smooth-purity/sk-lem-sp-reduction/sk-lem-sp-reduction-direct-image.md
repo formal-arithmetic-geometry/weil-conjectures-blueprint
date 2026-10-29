@@ -2,7 +2,7 @@
 id = "det-sp-reduction-direct-image"
 kind = "lemma"
 title = "Compactly supported direct image commutes with extension of coefficients"
-order = 2955
+order = 2922
 uses = ["det-sp-scalar-extension-functor", "lem-sf-flat-model"]
 +++
 Let $f:X\to Y$ be a separated morphism of finite type with a compactification

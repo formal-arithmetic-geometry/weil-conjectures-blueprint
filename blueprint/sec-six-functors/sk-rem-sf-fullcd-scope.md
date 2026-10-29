@@ -2,13 +2,13 @@
 id = "sk-rem-sf-fullcd-scope"
 kind = "remark"
 title = "What this does and does not discharge"
-order = 3315
-uses = ["sk-def-sf-admissible", "det-def-sf-operations", "sk-thm-existence", "sk-prop-sf-existence", "thm-sf-ambient-adjoint-class"]
+order = 3448
+uses = ["det-def-sf-admissible", "det-def-sf-operations", "sk-thm-existence", "sk-prop-sf-existence", "thm-sf-ambient-adjoint-class"]
 tags = ["sketch"]
 +++
-[sk-prop-sf-fullcd-etale-origin] is the form of
+[det-prop-sf-fullcd-etale-origin] is the form of
 $\operatorname{FullCD}$ that every consumer downstream actually uses: all of
-[sk-prop-sf-rf-shriek-preservation], [sk-prop-sf-biduality-general],
+[sk-prop-sf-rf-shriek-preservation], [det-prop-sf-biduality-general],
 [sk-thm-sf-tensor-hom], [sk-def-sf-kv-maps] and the duality and trace
 chapters work inside $\Dctf$, where [09AK](https://stacks.math.columbia.edu/tag/09AK) puts every object in the
 étale-origin class, and there the exceptional adjoint is the unconditional
@@ -50,7 +50,7 @@ H^n(E_{\Proet},\mathcal F)\cong H^n(H,\Lambda)\ne0\qquad(n\ge1),
 $$
 because $\mathbf Z^n$ is a retract of $H$. Consequences: (i)
 $\operatorname{FullCD}(f,\Lambda;c)$ fails for every $c$, so clause (1) of
-[sk-def-sf-admissible] fails for this smooth proper $f$. (ii) With
+[det-def-sf-admissible] fails for this smooth proper $f$. (ii) With
 $K_n=\mathcal F[n]$, exactness of products and coproducts of pro-étale
 sheaves makes $\bigoplus_nK_n\to\prod_nK_n$ an isomorphism, while on $H^0$ the
 coproduct comparison for $R\Gamma=Rf_*=Rf_!$ is the non-surjective map

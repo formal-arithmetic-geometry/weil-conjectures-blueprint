@@ -2,7 +2,7 @@
 id = "sk-thm-sf-internal-hom-pullback"
 kind = "theorem"
 title = "Internal Hom versus pullback for a site-perfect first variable"
-order = 3340
+order = 3494
 uses = ["sk-prop-sf-open-closed-triangle"]
 lean = ["AlgebraicGeometry.Etale.DerivedCategory.nonempty_iso_leftDerivedUpperStar_derivedHom"]
 tags = ["sketch"]

@@ -2,7 +2,7 @@
 id = "sk-prop-pe-affine-basis"
 kind = "proposition"
 title = "Pro-étale affines form a basis"
-order = 921
+order = 961
 lean = ["AlgebraicGeometry.Scheme.AffineProEt", "AlgebraicGeometry.Scheme.AffineProEt.isCoverDense_toProEt", "AlgebraicGeometry.Scheme.AffineProEt.isEquivalence_sheafPushforwardContinuous_toProEt"]
 uses = ["sk-def-pe-site", "sk-def-pe-morphisms", "sk-thm-pe-indetale-refinement"]
 tags = ["sketch"]

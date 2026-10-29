@@ -2,7 +2,7 @@
 id = "det-thm-picard-serre-b"
 kind = "theorem"
 title = "Serre's theorem B: vanishing after a twist"
-order = 749
+order = 774
 lean = ["AlgebraicGeometry.Scheme.Modules.exists_subsingleton_H_tensor_twist"]
 +++
 Let $X\subseteq\PP^n_k$ be a closed subscheme and $\cF$ coherent on

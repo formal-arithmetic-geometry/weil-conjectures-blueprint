@@ -3,7 +3,7 @@ id = "lem-weil-pbc-short-five-lemma"
 kind = "lemma"
 title = "Short five lemma in an abelian category"
 lean = ["CategoryTheory.ShortComplex.isIso₂_of_shortExact_of_isIso₁₃"]
-order = 2000
+order = 2122
 tags = ["mathlib", "stacks-05QB"]
 +++
 Let $\mathcal A$ be an abelian category and consider a commutative diagram in $\mathcal A$

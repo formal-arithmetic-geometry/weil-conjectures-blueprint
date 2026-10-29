@@ -3,7 +3,7 @@ id = "lem-sf-proetale-residue-tor-test"
 kind = "lemma"
 title = "The residue test on the pro-étale site"
 lean = ["DerivedCategory.torAmplitudeIn_iff_homologyConcentratedIn_tensor_singleFunctor", "AlgebraicGeometry.ProEtale.DerivedCategory.torAmplitudeIn_iff_homologyConcentratedIn_tensor"]
-order = 3216
+order = 3198
 uses = ["def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility"]
 +++
 Fix the global finite-field datum, a prime $\ell\ne p$, an integer

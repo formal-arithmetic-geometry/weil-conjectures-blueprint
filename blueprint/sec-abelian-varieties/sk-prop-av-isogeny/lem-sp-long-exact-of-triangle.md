@@ -3,7 +3,7 @@ id = "lem-sp-long-exact-of-triangle"
 kind = "lemma"
 title = "Long exact sequences of distinguished triangles"
 lean = ["CategoryTheory.Functor.homologySequence_exact₁", "CategoryTheory.Functor.homologySequence_exact₂", "CategoryTheory.Functor.homologySequence_exact₃", "CategoryTheory.Functor.homologySequenceδ", "CategoryTheory.Functor.homologySequenceδ_naturality"]
-order = 491
+order = 510
 uses = ["def-sp-abelian", "def-sp-homological-functor"]
 +++
 Let $\Phi:\mathcal C\to\mathcal D$ be a homological functor

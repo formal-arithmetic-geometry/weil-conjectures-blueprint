@@ -3,7 +3,7 @@ id = "compatible-strict-henselization-core-data"
 kind = "lemma"
 title = "Compatible strict henselization core data without final residue square"
 lean = ["AlgebraicGeometry.Etale.exists_compatibleStrictHenselizationCoreData"]
-order = 1599
+order = 1727
 +++
 Let $g:T\to S$ be a morphism of schemes, let $k,k'$ be separably closed fields and $\Omega$ an algebraically closed
 field. Let $\sigma:\operatorname{Spec}k\to S$, $\tau:\operatorname{Spec}k'\to T$ and

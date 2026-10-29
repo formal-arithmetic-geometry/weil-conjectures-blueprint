@@ -2,7 +2,7 @@
 id = "pur456-def-amplitude"
 kind = "definition"
 title = "Uniform constructible cohomological amplitude, finite coefficients"
-order = 2857
+order = 2892
 uses = ["pur456-def-adjoint-datum", "pur456-def-intervals"]
 +++
 The adjunction of Definition [pur456-def-adjoint-datum] has uniform constructible cohomological amplitude with bounds $c_f^-\leq c_f^+$, integers, if for all integers $a\leq b$,

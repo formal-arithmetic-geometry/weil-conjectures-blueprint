@@ -2,7 +2,7 @@
 id = "pur7710-def-derived-sections"
 kind = "definition"
 title = "Derived sections"
-order = 3059
+order = 3035
 uses = ["pur7710-def-ind-etale-tests", "sk-thm-sf-comp-composition"]
 +++
 For a scheme $W$ and $\tau\in\{\Et,\Proet\}$, the derived sections functor

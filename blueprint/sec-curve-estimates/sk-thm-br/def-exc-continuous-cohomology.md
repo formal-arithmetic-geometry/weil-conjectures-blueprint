@@ -2,7 +2,7 @@
 id = "def-exc-continuous-cohomology"
 kind = "definition"
 title = "Discrete modules and continuous group cohomology"
-order = 1359
+order = 1464
 lean = ["Action.IsDiscreteModule", "DiscreteModule", "DiscreteModule.invariants", "DiscreteModule.H"]
 uses = ["def-weil-abstract-derived-category"]
 +++

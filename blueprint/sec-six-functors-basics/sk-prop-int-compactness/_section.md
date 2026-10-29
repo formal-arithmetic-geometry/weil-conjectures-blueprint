@@ -2,13 +2,11 @@
 id = "sk-prop-int-compactness"
 kind = "proposition"
 title = "Compactness and proper direct image"
-order = 2446
-uses = ["sk-lem-int-integral-heart", "sk-lem-int-ext", "sk-thm-sfb-proper-base-change"]
+order = 2475
+uses = ["sk-def-sfb-constructible", "sk-def-localizing-closure"]
 tags = ["sketch"]
 +++
-Every object of $\Dctf(X,\mathcal O_E)=\Dbc(X,\mathcal O_E)$ is compact in
-$\Loc(\Dctf(X,\mathcal O_E))$. For proper $p:X\to Y$,
-$Rp_*\colon D(X_{\mathrm{proét}},\mathcal O_E)\to D(Y_{\mathrm{proét}},\mathcal O_E)$
-maps $\Dctf(X,\mathcal O_E)$ into $\Dctf(Y,\mathcal O_E)$, maps
-$\Loc(\Dctf(X,\mathcal O_E))$ into $\Loc(\Dctf(Y,\mathcal O_E))$ and preserves
-direct sums there.
+Every object of $\Dctf(X,\mathcal O_E)=\Dbc(X,\mathcal O_E)$ ([sk-def-sfb-constructible]) is
+compact in $\Loc(\Dctf(X,\mathcal O_E))$ ([sk-def-localizing-closure]), and for proper
+$p:X\to Y$ the functor $Rp_*$ preserves direct sums of objects of
+$\Loc(\Dctf(X,\mathcal O_E))$.

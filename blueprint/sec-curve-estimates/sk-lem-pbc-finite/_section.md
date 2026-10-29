@@ -2,7 +2,7 @@
 id = "sk-lem-pbc-finite"
 kind = "lemma"
 title = "Finite morphisms"
-order = 1303
+order = 1415
 lean = ["AlgebraicGeometry.Etale.lowerStarSheafFiberIsoPi", "AlgebraicGeometry.Etale.preservesFiniteColimits_lowerStar_of_isFinite", "AlgebraicGeometry.Etale.isIso_baseChangeMap_of_isFinite", "AlgebraicGeometry.Etale.isBaseChangeIso_of_isFinite"]
 uses = ["sk-def-exchange", "sk-def-conv", "sec-abelian-varieties", "sec-picard-framework"]
 tags = ["sketch"]

@@ -3,7 +3,7 @@ id = "lem-av-cube-globalise"
 kind = "lemma"
 title = "Invertible modules isomorphic locally over the base are isomorphic"
 lean = ["AlgebraicGeometry.nonempty_iso_of_forall_exists_nonempty_iso_preimageSnd"]
-order = 449
+order = 468
 uses = ["def-sc-invertible-module"]
 +++
 Let $X$ and $Y$ be proper and geometrically integral over a field $k$, let $x\in X(k)$

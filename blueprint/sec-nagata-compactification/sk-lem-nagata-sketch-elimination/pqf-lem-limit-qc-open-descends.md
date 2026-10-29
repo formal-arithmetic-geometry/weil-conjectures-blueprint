@@ -3,7 +3,7 @@ id = "pqf-lem-limit-qc-open-descends"
 kind = "lemma"
 title = "Quasi-compact opens of a filtered limit descend"
 lean = ["AlgebraicGeometry.Scheme.exists_preimage_eq_and_isLimit_opensCone", "AlgebraicGeometry.Scheme.exists_map_preimage_eq_map_preimage_of_isLimit"]
-order = 304
+order = 210
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $S=\varprojlim_{i\in I}S_i$ be a filtered limit of

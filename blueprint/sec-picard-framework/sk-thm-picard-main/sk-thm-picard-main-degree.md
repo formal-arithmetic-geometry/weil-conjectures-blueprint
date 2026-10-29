@@ -3,7 +3,7 @@ id = "det-picard-main-degree"
 kind = "lemma"
 title = "Degree decomposition of the Picard scheme of a geometric curve"
 lean = ["AlgebraicGeometry.exists_decomposition_picardFunctor", "AlgebraicGeometry.isLocallyConstant_picardDegree", "AlgebraicGeometry.exists_picardDegree_equiv_picardFunctorDegree", "AlgebraicGeometry.exists_decomposition_picardFunctor_isMonHom", "AlgebraicGeometry.exists_iso_representableBy_picardFunctorDegree_zero"]
-order = 835
+order = 863
 uses = ["thm-pc-picard-representable", "rem-pc-group-structure", "det-thm-picard-coherence", "lem-sc-riemann-roch", "lem-pc-degree-base-change"]
 +++
 Let $k$ be algebraically closed, $C/k$ a smooth proper connected curve of

@@ -2,7 +2,7 @@
 id = "def-nagata-rees-piece"
 kind = "definition"
 title = "Homogeneous piece of the Rees algebra"
-order = 158
+order = 61
 lean = ["AlgebraicGeometry.reesGrading"]
 uses = ["def-nagata-rees-algebra"]
 +++

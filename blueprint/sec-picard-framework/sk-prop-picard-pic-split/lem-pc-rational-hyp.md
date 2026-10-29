@@ -3,7 +3,7 @@ id = "lem-pc-rational-hyp"
 kind = "lemma"
 title = "Curves with a rational point satisfy the hypotheses"
 lean = ["AlgebraicGeometry.Scheme.GlobalSectionsBijective.of_section", "AlgebraicGeometry.isIso_pushforwardUnitMap_pullback_snd_of_geometricallyIntegral", "AlgebraicGeometry.isIso_pushforwardUnitMap_pullback_snd_of_section"]
-order = 631
+order = 653
 uses = ["def-pc-rational-point", "def-pc-smooth-projective-curve", "lem-pc-h0-proper-variety", "lem-pc-structure-pushforward", "thm-pc-pic-split"]
 +++
 Let $k$ be a field and let $X$ be a

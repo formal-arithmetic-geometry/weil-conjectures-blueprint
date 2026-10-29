@@ -2,8 +2,7 @@
 id = "sec-fourier-transform"
 kind = "section"
 title = "Fourier Transform"
-order = 3929
-uses = ["sec-abelian-varieties", "sec-curve-estimates", "sec-nagata-compactification", "sec-poincare-duality", "sec-proetale-coefficients", "sec-proper-base-change", "sec-purity-real-sheaves", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula", "sk-prop-curve-affine-kummer", "sk-thm-br"]
+order = 4139
 +++
 The Fourier transform expresses the compactly supported cohomology of
 a twisted sheaf on the affine line as a stalk of a sheaf on the dual

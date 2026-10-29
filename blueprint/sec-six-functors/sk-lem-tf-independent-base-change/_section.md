@@ -2,7 +2,7 @@
 id = "sk-lem-tf-independent-base-change"
 kind = "lemma"
 title = "Base change along a product projection"
-order = 3296
+order = 3435
 uses = ["sk-thm-nagata-compactification", "sk-cor-geo-open-finiteness", "sk-thm-properbasechange"]
 tags = ["sketch"]
 +++

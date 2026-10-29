@@ -3,7 +3,7 @@ id = "lem-weil-pbc-surjective-nonempty-fibres"
 kind = "lemma"
 title = "Surjectivity criterion via nonempty geometric fibres"
 lean = ["AlgebraicGeometry.Surjective.of_forall_nonempty_pullback"]
-order = 1338
+order = 1443
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 A morphism of schemes $f:X\to Y$ whose geometric fibres

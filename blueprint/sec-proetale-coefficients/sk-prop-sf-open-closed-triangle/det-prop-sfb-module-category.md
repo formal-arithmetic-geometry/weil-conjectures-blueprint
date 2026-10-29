@@ -2,7 +2,7 @@
 id = "det-prop-sfb-module-category"
 kind = "proposition"
 title = "Structure of $\\Mod_{\\mathcal R}(\\mathcal C)$"
-order = 1139
+order = 1183
 uses = ["det-def-sfb-module-objects"]
 lean = ["CategoryTheory.Mod.hom_ext", "CategoryTheory.Mod.isLimitKernelFork", "CategoryTheory.Mod.isColimitCokernelCofork", "CategoryTheory.Mod.instAbelian", "CategoryTheory.Mod.createsLimit", "CategoryTheory.Mod.createsColimit", "CategoryTheory.Mod.toBimod", "CategoryTheory.Mod.fullyFaithfulToBimod", "Bimod.IsSymmetric.iso", "Bimod.IsSymmetric.tensorBimod", "CategoryTheory.Mod.monoidalCategory", "CategoryTheory.Mod.symmetricCategory", "CategoryTheory.Mod.braidedCategory", "CategoryTheory.Mod.monoidalClosed", "CategoryTheory.Mod.isGrothendieckAbelian", "CategoryTheory.Mod.hasFunctorialFlatResolution", "CategoryTheory.GrothendieckTopology.isGrothendieckAbelian_sheaf_proEtTopology", "AlgebraicGeometry.ProEtale.sheafMonoidalClosed", "AlgebraicGeometry.ProEtale.hasFunctorialFlatResolution_sheaf", "AddCommGrpCat.hasFunctorialFlatResolution", "AlgebraicGeometry.ProEtale.isCommMonObj_condensedRingObj"]
 +++

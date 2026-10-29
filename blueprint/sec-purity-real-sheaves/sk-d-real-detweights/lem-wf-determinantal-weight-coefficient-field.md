@@ -3,7 +3,7 @@ id = "lem-wf-determinantal-weight-coefficient-field"
 kind = "lemma"
 title = "The determinant weight does not depend on the coefficient field"
 lean = ["AlgebraicGeometry.WeilGroup.isPunctuallyPure_det_baseChange_iff"]
-order = 3842
+order = 4031
 uses = ["def-mg-determinant-line", "def-real-weil-representation-operations", "def-weil-punctual-weights"]
 +++
 Let $X_0$ be a normal geometrically connected curve over $k_0$, fix

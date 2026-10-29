@@ -2,7 +2,7 @@
 id = "def-weil-pbc-proper-open-comparison"
 kind = "definition"
 title = "Comparison map for a proper map fixing an open"
-order = 2253
+order = 2500
 lean = ["AlgebraicGeometry.ProperOpenDatum", "AlgebraicGeometry.ProperOpenDatum.comparison", "AlgebraicGeometry.ProperOpenDatum.restrictionIso", "AlgebraicGeometry.ProperOpenDatum.homEquiv_comparison_app"]
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
 +++

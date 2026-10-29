@@ -2,7 +2,7 @@
 id = "det-lem-formal-closed-support-adjunction"
 kind = "lemma"
 title = "Sections with closed support: adjunction and fiber triangle for all coefficients"
-order = 3220
+order = 3202
 uses = ["def-exc-proetale-sections-with-support", "lem-exc-proetale-closed-support", "lem-exc-proetale-support-triangle", "sk-prop-sf-open-closed-triangle"]
 +++
 Let $\Lambda$ be a condensed ring (in particular any admissible one), $i\colon Z\hookrightarrow X$

@@ -2,7 +2,7 @@
 id = "lem-wft-fourier-weil"
 kind = "lemma"
 title = "The Fourier transform of a Weil complex"
-order = 3963
+order = 4176
 uses = ["sk-def-sf-weil-complexes", "def-fd-kernel", "def-fd-transform", "lem-fd-stalk-formula", "lem-fd-base-change", "prop-base-linear", "lem-fd-inversion", "lem-fd-first-formula", "prop-pur-weil-equivariance-compatibilities", "thm-pur-vector-bundle-thom", "lem-wft-as-unit-trivialization"]
 +++
 Let $S_0$ be a separated finite-type $k_0$-scheme, $V_0\to S_0$ a vector

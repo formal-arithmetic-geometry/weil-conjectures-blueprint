@@ -2,7 +2,7 @@
 id = "det-lem-formal-closed-support-sheaves"
 kind = "lemma"
 title = "Sections with support: the sheaf-level adjunction"
-order = 2133
+order = 2280
 uses = ["sk-prop-sf-open-closed-triangle", "sk-prop-sfb-cartesian-coefficients"]
 +++
 Let $\Lambda$ be admissible, let $X$ be a standing scheme, and let

@@ -2,7 +2,7 @@
 id = "def-nagata-finite-type-ideal-extension"
 kind = "definition"
 title = "Finite-type extension of an ideal from a quasi-compact open"
-order = 283
+order = 188
 lean = ["AlgebraicGeometry.Scheme.IdealSheafData.exists_finiteType_comap_eq"]
 uses = ["def-nagata-extended-ideal", "lemma-nagata-dense-flat-pullback", "lemma-nagata-finite-type-ideal-extension-exists"]
 +++

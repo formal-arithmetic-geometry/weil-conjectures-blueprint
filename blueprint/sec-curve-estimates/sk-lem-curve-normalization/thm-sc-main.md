@@ -3,7 +3,7 @@ id = "thm-sc-main"
 kind = "theorem"
 title = "Smooth-curve calculations"
 lean = ["AlgebraicGeometry.IsCurve.constantModSheaf_curveCalculations", "AlgebraicGeometry.Scheme.nonempty_addEquiv_sheafH_zero_constantZMod", "AlgebraicGeometry.Scheme.exists_exact_sheafH_rootsOfUnitySheaf_one", "AlgebraicGeometry.Scheme.nonempty_addEquiv_sheafH_constantZMod_rootsOfUnitySheaf", "AlgebraicGeometry.Scheme.nonempty_addEquiv_cohomologicalPicardGroup", "AlgebraicGeometry.IsConnectedCurve.sheafH_constantZMod_of_isProper", "AlgebraicGeometry.bijective_cohomologyMap_constantZMod"]
-order = 1465
+order = 1573
 uses = ["def-sc-constant-sheaves", "def-sc-curves", "def-sc-field-extension", "def-weil-pbc-eight-curve-assertions", "lem-sc-c1", "lem-sc-c2", "lem-sc-c3", "lem-sc-c4", "lem-sc-c5", "lem-sc-c6", "lem-sc-c7", "lem-sc-c8", "thm-sc-affine-cohomology", "thm-sc-constant-invariance", "thm-sc-proper-cohomology"]
 +++
 Let $k$ be algebraically closed and let $C$ be a

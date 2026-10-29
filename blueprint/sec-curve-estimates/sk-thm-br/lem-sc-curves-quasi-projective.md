@@ -3,7 +3,7 @@ id = "lem-sc-curves-quasi-projective"
 kind = "lemma"
 title = "Curves are quasi-projective"
 lean = ["AlgebraicGeometry.IsCurve.isQuasiProjective"]
-order = 1350
+order = 1455
 uses = ["def-sc-curves", "def-sc-quasi-projective", "lem-chow-segre", "lem-sc-dim0-finite", "lem-sc-positive-degree-ample"]
 +++
 Every smooth separated curve over a field

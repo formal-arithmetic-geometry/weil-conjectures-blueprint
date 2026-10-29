@@ -3,7 +3,7 @@ id = "cor-fd-l2-plancherel-middle-extension"
 kind = "theorem"
 title = "Plancherel for a middle extension: the transform shifts the weight of a pure lisse sheaf by exactly one"
 lean = ["AlgebraicGeometry.eq_add_one_of_isFourierPartner", "AlgebraicGeometry.isPunctuallyPureOfWeight_add_one_of_isFourierPartner", "AlgebraicGeometry.exists_isFourierPartner_isPunctuallyPureOfWeight_add_one", "AlgebraicGeometry.le_add_one_of_isFourierPartner"]
-order = 4015
+order = 4234
 tags = ["latex:corollary"]
 uses = ["def-fd-trace-function", "def-fd-transform", "def-weil-punctual-weights", "def-wf-l2-norm", "def-wf-middle-extension", "lem-fd-l2-middle-extension", "lem-fd-l2-plancherel-shift", "lem-wf-l2-purity-rigidity", "prop-a1-fourier-middle-extension", "thm-fd-generic-fourier-sheaf-pure"]
 +++

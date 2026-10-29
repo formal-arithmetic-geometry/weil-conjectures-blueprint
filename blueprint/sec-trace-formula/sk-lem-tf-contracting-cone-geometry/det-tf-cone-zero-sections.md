@@ -2,7 +2,7 @@
 id = "det-tf-cone-zero-sections"
 kind = "lemma"
 title = "The two legs and the zero sections"
-order = 3591
+order = 3683
 uses = ["det-tf-cone-leg-lifts", "pur9-def-normal-cone"]
 +++
 Let $c=(c_1,c_2):C\to X\times X$, let $Z\subset X$ have ideal $I$, and put

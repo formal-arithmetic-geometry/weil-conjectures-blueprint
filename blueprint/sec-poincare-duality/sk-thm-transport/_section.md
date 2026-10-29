@@ -2,7 +2,7 @@
 id = "sk-thm-transport"
 kind = "proposition"
 title = "Duality and change of coefficients"
-order = 3422
+order = 3611
 uses = ["sk-cor-trace", "sk-def-ops", "sk-def-set", "sk-thm-derived-duality", "sk-thm-frobenius", "sk-thm-sf-identification", "sk-thm-sf-package", "sk-prop-scalar-six", "sk-thm-purity-transport"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "rem-sf-class-adjoint-residue"
 kind = "remark"
 title = "Ambient and constructible adjunction domains"
-order = 2315
+order = 2589
 uses = ["thm-sf-ambient-adjoint-class"]
 +++
 The theorem [thm-sf-ambient-adjoint-class] constructs the finite
@@ -16,10 +16,10 @@ comparison is [lem-coef-finite-exceptional]. At the
 coefficient rings $\mathcal O_E,E,\Qlb$, regarded as condensed rings, the
 exceptional inverse image and its adjunction on the condensed categories
 $\Dbc(-,\Lambda)$ are [sk-thm-existence] (3)–(4), equivalently
-[sk-def-sfb-dc-upper-shriek]; their compatibility with reduction,
+[det-def-sfb-dc-upper-shriek]; their compatibility with reduction,
 localization and extension of scalars is [sk-prop-scalar-six].
 General Verdier biduality is proved for the finite coefficient rings in
 [thm-fix-general-biduality] and for all admissible coefficients in
-[sk-prop-sf-biduality-general].
+[det-prop-sf-biduality-general].
 These later constructible results preserve the distinction between
 the bounded comparison adjunction and an unrestricted ambient one.

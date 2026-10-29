@@ -44,7 +44,7 @@ $F^m$. The proper case over $\mathbf F_Q$ shows that they vanish
 
 It remains to pass to rational coefficients. By
 [sk-prop-pe-continuous-cohomology], [sk-prop-sfb-qlbar-colimit-x] and the
-localization assertion of [sk-cor-pe-bounded-continuity], $H^1(U,\Ql)$ is the
+localization assertion of [sk-lem-proper-heart-continuity], $H^1(U,\Ql)$ is the
 rationalization of this inverse limit ([d-real-cohom]); the
 $\varprojlim^1$-term in degree one vanishes because the groups
 $H^0(U,A_n)=A_n$ have surjective transition maps. The inverse limit of the

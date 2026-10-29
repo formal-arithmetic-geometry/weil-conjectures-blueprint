@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-exchange-identity-pasting"
 kind = "lemma"
 title = "Identity and pasting equations for exchange"
-order = 1510
+order = 1629
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_id", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "lemma-weil-pbc-derived-exchange-replacement"]
 +++

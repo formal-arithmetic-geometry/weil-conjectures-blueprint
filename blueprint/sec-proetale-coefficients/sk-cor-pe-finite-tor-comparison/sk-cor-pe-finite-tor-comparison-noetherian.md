@@ -3,7 +3,7 @@ id = "det-pe-finite-tor-comparison-noetherian"
 kind = "lemma"
 title = "Tor amplitude under comparison for Noetherian coefficients"
 lean = ["DerivedCategory.torAmplitudeIn_mapDerivedCategory_obj_iff", "AlgebraicGeometry.ProEtale.preservesFlat_comparisonUpperStar", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map"]
-order = 1025
+order = 1273
 uses = ["lem-exc-constant-inverse-image-flat", "lem-exc-comparison-tor-interval", "lem-sf-proetale-constructible-origin", "def-weil-finite-tor-amplitude"]
 +++
 Let $X$ be quasi-compact and quasi-separated, $\Lambda$ a discrete Noetherian

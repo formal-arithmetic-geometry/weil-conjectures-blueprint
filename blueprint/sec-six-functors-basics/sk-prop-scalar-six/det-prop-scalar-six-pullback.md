@@ -2,11 +2,11 @@
 id = "det-prop-scalar-six-pullback"
 kind = "lemma"
 title = "Coefficient change commutes with inverse image and extension by zero"
-order = 2470
-uses = ["sk-def-sfb-coefficient-change", "sk-prop-sfb-cartesian-coefficients", "det-lem-int-tensor-projection"]
+order = 2816
+uses = ["det-def-sfb-coefficient-change", "sk-prop-sfb-cartesian-coefficients", "det-lem-int-tensor-projection"]
 +++
 Let $\Lambda\to\Lambda'$ be a map of condensed rings and write
-$K_{\Lambda'}=\Lambda'_X\otimes^{\mathbf L}_{\Lambda_X}K$ ([sk-def-sfb-coefficient-change]).
+$K_{\Lambda'}=\Lambda'_X\otimes^{\mathbf L}_{\Lambda_X}K$ ([det-def-sfb-coefficient-change]).
 
 1. For a morphism $f\colon X\to Y$ and $K\in\D(Y_{\mathrm{proét}},\Lambda)$ there is a
    natural isomorphism $(f^*K)_{\Lambda'}\simeq f^*(K_{\Lambda'})$ in

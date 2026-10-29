@@ -2,7 +2,7 @@
 id = "sk-audit-what-is-elementary-in-this-layer-and-what-is-not--remark-1"
 kind = "remark"
 title = "Remark"
-order = 4167
+order = 4403
 tags = ["sketch"]
 +++
 *What is elementary in this layer.* Once the trace formula

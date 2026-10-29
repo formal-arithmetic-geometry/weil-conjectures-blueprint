@@ -2,7 +2,7 @@
 id = "thm-weil-final-rh"
 kind = "theorem"
 title = "Weil conjectures III: Riemann hypothesis"
-order = 4156
+order = 4391
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.WeilRiemannHypothesis", "AlgebraicGeometry.Scheme.riemann_hypothesis"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-integral-frobenius-factor", "def-weil-numbers", "def-weil-ordinary-compact-cohomology", "def-weil-ordinary-reciprocal-roots", "lem-embedding-extension", "prop-arithmetic-roots", "prop-integral-recovery", "prop-weight-purity-roots", "prop-weil-realization-independent-degrees", "thm-weil-deligne-purity", "thm-weil-final-integrality"]
 +++

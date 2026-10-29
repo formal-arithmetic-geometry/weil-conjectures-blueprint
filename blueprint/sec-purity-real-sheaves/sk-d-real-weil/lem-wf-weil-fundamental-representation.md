@@ -3,7 +3,7 @@ id = "lem-wf-weil-fundamental-representation"
 kind = "lemma"
 title = "The Weil fundamental representation is a continuous representation"
 lean = ["AlgebraicGeometry.Monodromy.DegreeDatum.lift", "AlgebraicGeometry.Monodromy.DegreeDatum.lift_apply_of_mem_ker", "AlgebraicGeometry.Monodromy.DegreeDatum.lift_degreeOneElement", "AlgebraicGeometry.Monodromy.DegreeDatum.continuous_lift"]
-order = 3771
+order = 3950
 uses = ["d-monodromy", "def-tw-frobenius-action", "def-wf-fundamental-representation", "lem-wf-weil-group-exact-sequence", "thm-lisse-qlbar-representations"]
 +++
 Let $(W,\deg,s)$ be a degree datum ([d-monodromy]) with $P=\ker(\deg)$,

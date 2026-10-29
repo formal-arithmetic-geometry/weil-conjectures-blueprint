@@ -2,7 +2,7 @@
 id = "sk-lem-tf-blowup-restriction"
 kind = "lemma"
 title = "Blowup restriction vanishing"
-order = 3506
+order = 3633
 uses = ["sk-lem-tf-punctured-restriction"]
 tags = ["sketch"]
 +++

@@ -3,7 +3,7 @@ id = "lem-pc-finite-support-hi"
 kind = "lemma"
 title = "Finite support of higher direct images"
 lean = ["AlgebraicGeometry.Scheme.Modules.isQuasicoherent_higherDirectImage", "AlgebraicGeometry.Scheme.Modules.exists_isZero_higherDirectImage_of_isPullback"]
-order = 614
+order = 636
 uses = ["def-pc-morphism-conventions", "def-pc-scheme", "pqf-lem-affine-vanishing", "lem-pc-cech-computes"]
 +++
 Let $f:X\to S$ be a quasi-compact, quasi-separated morphism of schemes.

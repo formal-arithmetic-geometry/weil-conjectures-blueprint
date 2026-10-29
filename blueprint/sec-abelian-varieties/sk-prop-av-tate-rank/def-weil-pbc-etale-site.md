@@ -2,7 +2,7 @@
 id = "def-weil-pbc-etale-site"
 kind = "definition"
 title = "Small etale site"
-order = 549
+order = 569
 lean = ["AlgebraicGeometry.Scheme.Etale", "AlgebraicGeometry.Scheme.smallEtaleTopology", "AlgebraicGeometry.Scheme.ofArrows_mem_smallEtaleTopology_iff"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

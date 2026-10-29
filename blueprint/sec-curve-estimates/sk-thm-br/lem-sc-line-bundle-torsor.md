@@ -3,7 +3,7 @@ id = "lem-sc-line-bundle-torsor"
 kind = "lemma"
 title = "Line bundles and $\\mathbf G_m$-torsors"
 lean = ["AlgebraicGeometry.Scheme.picEquivQuotientTorsorGmSheaf", "AlgebraicGeometry.Scheme.Pic.etaleTorsorClass", "AlgebraicGeometry.Scheme.Pic.injective_etaleTorsorClass", "AlgebraicGeometry.Scheme.Pic.surjective_etaleTorsorClass", "AlgebraicGeometry.Scheme.Pic.bijective_torsorClass", "AlgebraicGeometry.Scheme.picEquivQuotientTorsorUnitsSheaf_symm_mk", "AlgebraicGeometry.Scheme.nonempty_equiv_quotient_torsor"]
-order = 1325
+order = 1430
 uses = ["def-sc-gm-torsor", "def-sc-invertible-module", "def-sc-picard-group", "lem-pc-fpqc-descent"]
 +++
 Let $X$ be a scheme (the left-hand side below is the Picard group of

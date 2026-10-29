@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-gabber-effacement"
 kind = "lemma"
 title = "Affine Gabber effacement"
 lean = ["AlgebraicGeometry.Etale.exists_mono_map_eq_zero_of_henselianRing"]
-order = 1559
+order = 1687
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-torsion-etale-sheaf"]
 +++
 Let $(A,I)$ be a henselian pair [def-weil-pbc-henselian-terminology], $T=\operatorname{Spec}A$,

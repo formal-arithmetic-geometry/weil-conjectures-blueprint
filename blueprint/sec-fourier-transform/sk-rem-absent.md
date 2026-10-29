@@ -2,7 +2,7 @@
 id = "sk-rem-absent"
 kind = "remark"
 title = "What is deliberately absent, and why"
-order = 3972
+order = 4186
 tags = ["sketch"]
 +++
 Two things that a reader might expect in this section are *not* here, on

@@ -3,7 +3,7 @@ id = "det-d-ab-cyclotomic"
 kind = "definition"
 title = "The cyclotomic Tate module"
 lean = ["cyclotomicTateModule"]
-order = 3803
+order = 3990
 uses = ["d-ab-field", "def-tate-module-abelian-group"]
 +++
 The multiplicative group scheme $\mathbf G_m$ has

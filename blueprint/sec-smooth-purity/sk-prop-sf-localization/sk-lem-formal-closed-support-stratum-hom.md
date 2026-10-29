@@ -2,7 +2,7 @@
 id = "det-lem-formal-closed-support-stratum-hom"
 kind = "lemma"
 title = "Hom out of an extension by zero from a stratum"
-order = 3221
+order = 3203
 uses = ["det-lem-formal-closed-support-adjunction"]
 +++
 Let $\Lambda$ be admissible, $i\colon Z\hookrightarrow X$ closed, $u\colon S\hookrightarrow Z$ open,

@@ -2,7 +2,7 @@
 id = "lem-wf-tensor-weil"
 kind = "lemma"
 title = "Tensor product of Weil complexes"
-order = 3794
+order = 3982
 uses = ["def-wf-tensor-product", "def-weil-weil-sheaf-complex"]
 +++
 Let $\Lambda\in\{E,\Qlb\}$. The construction of [def-wf-tensor-product] defines a

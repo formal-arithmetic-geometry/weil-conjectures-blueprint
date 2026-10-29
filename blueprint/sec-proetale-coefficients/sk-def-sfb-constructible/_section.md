@@ -2,7 +2,7 @@
 id = "sk-def-sfb-constructible"
 kind = "definition"
 title = "Local models and constructible sheaves"
-order = 1204
+order = 1253
 uses = ["def-weil-pbc-proetale-site", "def-constructible-stratification", "sk-prop-sf-open-closed-triangle"]
 lean = ["CategoryTheory.Mod.IsFinitelyPresented", "AlgebraicGeometry.ProEtale.IsLocallyFinitelyPresented", "AlgebraicGeometry.ProEtale.IsConstructibleModuleObject"]
 tags = ["sketch"]

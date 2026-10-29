@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-underived-exchange-naturality"
 kind = "lemma"
 title = "Sectionwise exchange is natural"
-order = 1292
+order = 1404
 lean = ["AlgebraicGeometry.Etale.baseChangeMap_naturality"]
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-underived-exchange", "lem-weil-pbc-underived-exchange-sectionwise"]
 +++

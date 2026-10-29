@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Base change of an etale ring map is etale"
 uses = ["def-weil-etale-morphism"]
 lean = ["Algebra.Etale.baseChange"]
-order = 1721
+order = 1846
 tags = ["mathlib", "stacks-00U2"]
 +++
 Let $R\to A$ and $R\to S$ be homomorphisms of commutative rings such that $\operatorname{Spec}A\to\operatorname{Spec}R$ is etale [def-weil-etale-morphism]. Then $\operatorname{Spec}(S\otimes_RA)\to\operatorname{Spec}S$, induced by $s\mapsto s\otimes1$, is etale.

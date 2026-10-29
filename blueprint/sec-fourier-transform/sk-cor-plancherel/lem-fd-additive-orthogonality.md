@@ -2,7 +2,7 @@
 id = "lem-fd-additive-orthogonality"
 kind = "lemma"
 title = "Additive orthogonality over $\\mathbf F_{q^n}$"
-order = 3966
+order = 4180
 lean = ["AddChar.sum_mulShift"]
 uses = ["def-fd-additive-character"]
 +++

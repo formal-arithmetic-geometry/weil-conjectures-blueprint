@@ -2,7 +2,7 @@
 id = "sk-prop-pe-continuous-cohomology"
 kind = "proposition"
 title = "Continuous cohomology as pro-étale cohomology"
-order = 1052
+order = 1094
 lean = ["AlgebraicGeometry.ProEtale.isHomotopyLimit_mapCone_Q_of_epi", "CategoryTheory.Pretriangulated.IsHomotopyLimit.map", "DerivedCategory.shortExact_milnor_of_isHomotopyLimit"]
 uses = ["sk-prop-pe-replete", "sk-prop-pe-milnor", "sk-prop-sf-comparison"]
 tags = ["sketch"]

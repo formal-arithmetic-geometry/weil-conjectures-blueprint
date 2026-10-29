@@ -2,7 +2,7 @@
 id = "lem-weil-derived-direct-image-composition"
 kind = "lemma"
 title = "Composition of derived direct images"
-order = 1929
+order = 2051
 lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerStarComp", "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComp_id_left", "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComp_id_right", "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComp_assoc", "AlgebraicGeometry.Etale.rightDerivedLowerStarComp", "AlgebraicGeometry.ProEtale.CondensedRing.leftDerivedUpperStarComp", "AlgebraicGeometry.ProEtale.CondensedRing.leftDerivedUpperStarComp_assoc_app", "AlgebraicGeometry.ProEtale.CondensedRing.derivedUpperStarLowerStarAdjunction", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerStarComp"]
 uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-sp-kinjective-bridge", "lem-sp-kinjective-computes", "lem-weil-pbc-direct-image-preserves-injectives", "def-sfb-module-upper-lower-adjunction", "det-prop-sfb-module-pullback-exact-main", "def-sfb-module-lower-star-comp"]
 +++

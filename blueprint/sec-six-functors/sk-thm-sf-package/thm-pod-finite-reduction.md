@@ -2,7 +2,7 @@
 id = "thm-pod-finite-reduction"
 kind = "theorem"
 title = "Finite reduction of the Poincare pairing"
-order = 3389
+order = 3562
 uses = ["def-pod-coefficient-dual-on-x", "def-pod-conventions", "def-pod-derived-poincare-pairing", "def-pur-smooth-trace", "def-weil-site-perfect-complex", "lem-fix-operation-reduction", "thm-pod-identification-of-the-comparison", "thm-pod-point-perfectness", "thm-pur-finite-reduction-of-purity", "thm-sf-dual-perfect"]
 +++
 Use the smooth Poincare setting, with

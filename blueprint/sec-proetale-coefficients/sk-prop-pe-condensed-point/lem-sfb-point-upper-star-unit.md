@@ -2,7 +2,7 @@
 id = "lem-sfb-point-upper-star-unit"
 kind = "lemma"
 title = "$p^*$ preserves the unit"
-order = 1045
+order = 1086
 uses = ["def-sfb-point-adjunction", "lem-sfb-profinite-to-proetale-finite-limits", "lem-weil-pbc-sheaf-tensor-closed"]
 lean = ["AlgebraicGeometry.ProEtale.laxMonoidal_pointLowerStar", "AlgebraicGeometry.ProEtale.oplaxMonoidal_pointUpperStar", "AlgebraicGeometry.ProEtale.isIso_η_pointUpperStar"]
 +++

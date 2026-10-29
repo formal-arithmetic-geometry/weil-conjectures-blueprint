@@ -2,7 +2,7 @@
 id = "sk-prop-sf-comparison"
 kind = "theorem"
 title = "Bounded-below cohomology comparison"
-order = 973
+order = 1021
 uses = []
 lean = ["AlgebraicGeometry.ProEtale.derivedComparisonAdjunction", "AlgebraicGeometry.ProEtale.isIso_derivedComparisonAdjunction_unit_app", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map", "AlgebraicGeometry.ProEtale.comparisonLowerStarCompRightDerivedGlobalSectionsIso"]
 tags = ["sketch"]

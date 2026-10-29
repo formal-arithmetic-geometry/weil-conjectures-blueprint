@@ -2,7 +2,7 @@
 id = "lem-amb-p1-diagonal-integrals"
 kind = "lemma"
 title = "The two integrals of the diagonal class"
-order = 2338
+order = 2616
 uses = ["cor-weil-pbc-geometric-fiber-finite", "def-amb-p1-trace", "def-coefficient-twists-detailed", "def-sc-p1-standard", "lem-amb-cartier-kummer-map", "thm-amb-p1-decomposition"]
 +++
 Put $W=P\times_SP$, let $p_1,p_2:W\to P$ be

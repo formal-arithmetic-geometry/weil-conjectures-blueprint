@@ -19,7 +19,7 @@ defined with the sign $(-1)^{b_i}$; hence
 $c_i=(-1)^{b_i}q^{db_i}D_i^{-1}$. Substituting $T\mapsto q^{-d}T^{-1}$ in the
 resulting identity gives the first displayed formula, and putting $2d-i$ in
 place of $i$ and comparing leading coefficients gives
-$D_{2d-i}=q^{db_i}D_i^{-1}$, which is the second. By [sk-thm-intfactors]
+$D_{2d-i}=q^{db_i}D_i^{-1}$, which is the second. By [thm-wweil-integral-factors]
 the polynomials on both sides are the coefficientwise extensions of the
 integral factors, so the identity holds in $\Q(T)$ and hence in $\Z[T]$ after
 clearing.

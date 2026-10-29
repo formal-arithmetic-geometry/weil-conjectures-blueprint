@@ -3,7 +3,7 @@ id = "prop-weil-pbc-inverse-image-modules-exact"
 kind = "proposition"
 title = "Inverse image of etale sheaves of modules over a constant ring is exact"
 lean = ["AlgebraicGeometry.etaleInverseImageModulesExact"]
-order = 1285
+order = 1397
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site", "def-weil-pbc-constant-sheaf", "def-weil-sheaf-of-modules-category", "def-weil-pbc-inverse-image", "def-weil-pbc-abelian-etale-sheaves", "lem-weil-pbc-etale-inverse-image-algebraic-structures", "def-pur-sheaf-tensor-product", "def-weil-pbc-direct-image"]
 tags = ["stacks-04JC"]
 +++

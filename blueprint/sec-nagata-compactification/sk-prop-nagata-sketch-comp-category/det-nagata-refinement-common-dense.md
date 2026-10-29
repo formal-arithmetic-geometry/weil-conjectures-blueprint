@@ -3,7 +3,7 @@ id = "det-nagata-refinement-common-dense"
 kind = "lemma"
 title = "The closure of the diagonal is a common dense refinement"
 lean = ["AlgebraicGeometry.Compactification.inf", "AlgebraicGeometry.Compactification.refinement_common_dense", "AlgebraicGeometry.Compactification.exists_isDense_isStrict_refinement"]
-order = 146
+order = 429
 uses = ["det-nagata-definition-refinement", "def-nagata-dense-compactification"]
 +++
 Let $f:X\to S$ be a quasi-compact morphism, and let

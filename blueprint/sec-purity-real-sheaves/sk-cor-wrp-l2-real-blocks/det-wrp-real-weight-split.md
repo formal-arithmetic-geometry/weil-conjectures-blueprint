@@ -2,7 +2,7 @@
 id = "det-wrp-real-weight-split"
 kind = "lemma"
 title = "A real semisimple sheaf splits into real pure summands"
-order = 3904
+order = 4138
 uses = ["def-wf-iota-real", "thm-rp-real-lisse-purity-affine"]
 +++
 Let $\mathcal G$ be a nonzero semisimple $\iota$-real lisse Weil sheaf

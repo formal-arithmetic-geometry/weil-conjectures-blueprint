@@ -2,7 +2,7 @@
 id = "sk-lem-wrp-normal-geometric-cover"
 kind = "lemma"
 title = "Geometric coverings of a normal scheme"
-order = 3762
+order = 3926
 tags = ["sketch"]
 +++
 Let $X$ be a nonempty connected normal scheme of finite type over a

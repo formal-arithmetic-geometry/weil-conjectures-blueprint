@@ -2,7 +2,7 @@
 id = "def-weil-pbc-scheme-conventions"
 kind = "definition"
 title = "Scheme and morphism conventions"
-order = 10
+order = 13
 lean = ["AlgebraicGeometry.QuasiCompact", "AlgebraicGeometry.QuasiSeparated", "AlgebraicGeometry.IsAffine", "AlgebraicGeometry.IsSeparated", "AlgebraicGeometry.LocallyOfFiniteType", "AlgebraicGeometry.LocallyOfFinitePresentation", "AlgebraicGeometry.Surjective", "AlgebraicGeometry.IsOpenImmersion", "AlgebraicGeometry.IsClosedImmersion", "AlgebraicGeometry.IsImmersion", "AlgebraicGeometry.UniversallyClosed", "AlgebraicGeometry.IsProper", "AlgebraicGeometry.IsFinite", "AlgebraicGeometry.IsIntegralHom", "AlgebraicGeometry.UniversallyInjective", "AlgebraicGeometry.IsUniversalHomeomorphism", "AlgebraicGeometry.Flat", "AlgebraicGeometry.FormallyUnramified", "AlgebraicGeometry.Etale", "AlgebraicGeometry.WeaklyEtale", "IsLocallyClosed", "Topology.IsConstructible", "SpectralSpace"]
 +++
 Let $f:X\to Y$ be a morphism of schemes. It is *quasi-compact* if the

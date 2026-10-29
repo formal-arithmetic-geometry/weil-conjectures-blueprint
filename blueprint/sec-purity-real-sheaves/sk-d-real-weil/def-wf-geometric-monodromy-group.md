@@ -3,7 +3,7 @@ id = "def-wf-geometric-monodromy-group"
 kind = "definition"
 title = "Monodromy groups of a lisse Weil sheaf"
 lean = ["AlgebraicGeometry.WeilGroup.toLinearAut"]
-order = 3772
+order = 3951
 uses = ["d-central", "d-monodromy", "def-sc-general-linear-group", "def-wf-fundamental-representation", "def-wf-geometric-semisimplicity", "def-wf-monodromy-data", "def-wf-weil-group", "lem-wf-weil-fundamental-representation", "lem-wf-weil-group-exact-sequence"]
 +++
 Let $\mathcal F_0$ be a lisse Weil sheaf as in

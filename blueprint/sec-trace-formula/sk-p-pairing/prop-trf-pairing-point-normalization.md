@@ -2,7 +2,7 @@
 id = "prop-trf-pairing-point-normalization"
 kind = "theorem"
 title = "Pairing and its point normalization"
-order = 3462
+order = 3734
 tags = ["latex:proposition"]
 uses = ["def-trf-categorical-trace", "def-trf-correspondence", "def-trf-dualizing-complex", "def-trf-supported-pairing", "prop-trf-trace-formal-laws", "thm-trf-kunneth-verdier", "thm-trf-verdier-biduality"]
 +++

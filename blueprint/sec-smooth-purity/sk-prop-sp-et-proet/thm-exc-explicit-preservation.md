@@ -2,7 +2,7 @@
 id = "thm-exc-explicit-preservation"
 kind = "theorem"
 title = "Preservation in the open and finite etale cases"
-order = 2865
+order = 2900
 uses = ["def-weil-constructible-intervals", "def-weil-derived-tensor", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "prop-exc-finite-etale-adjoint", "prop-exc-open-adjoint"]
 +++
 Let $A=A_{E,n}$, and let $f:V\to X$ be an

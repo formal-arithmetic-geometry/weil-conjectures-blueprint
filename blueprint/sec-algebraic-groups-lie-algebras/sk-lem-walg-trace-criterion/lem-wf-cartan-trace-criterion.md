@@ -3,7 +3,7 @@ id = "lem-wf-cartan-trace-criterion"
 kind = "lemma"
 title = "Cartan's trace criterion"
 lean = ["LieSubalgebra.isSolvable_of_trace_mul_eq_zero"]
-order = 3701
+order = 3914
 uses = ["lem-wf-engel-matrix"]
 +++
 Let $M$ be a finite-dimensional vector space over $\Qlb$, and let

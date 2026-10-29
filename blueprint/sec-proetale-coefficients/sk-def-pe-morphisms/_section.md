@@ -2,7 +2,7 @@
 id = "sk-def-pe-morphisms"
 kind = "definition"
 title = "Ind-étale, pro-étale and weakly étale morphisms"
-order = 866
+order = 897
 lean = ["Algebra.IndEtale", "AlgebraicGeometry.proAffineEtale", "AlgebraicGeometry.proAffineEtale_Spec_iff", "AlgebraicGeometry.WeaklyEtale", "AlgebraicGeometry.WeaklyEtale.hasRingHomProperty", "AlgebraicGeometry.etale_le_weaklyEtale", "AlgebraicGeometry.proAffineEtale_le_weaklyEtale", "AlgebraicGeometry.WeaklyEtale.etale"]
 tags = ["sketch"]
 +++

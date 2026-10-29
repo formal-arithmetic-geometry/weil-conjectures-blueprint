@@ -2,7 +2,7 @@
 id = "lemma-nagata-relative-affine-space-charts"
 kind = "lemma"
 title = "Relative affine-space charts and base change"
-order = 408
+order = 319
 lean = ["AlgebraicGeometry.AffineSpace.chart", "AlgebraicGeometry.AffineSpace.opensRange_chart", "AlgebraicGeometry.AffineSpace.iSup_opensRange_chart", "AlgebraicGeometry.AffineSpace.chartTransition", "AlgebraicGeometry.AffineSpace.chartTransition_chart", "AlgebraicGeometry.AffineSpace.chartTransition_comp", "AlgebraicGeometry.AffineSpace.pullbackIso", "AlgebraicGeometry.AffineSpace.chart_pullbackIso_inv"]
 uses = ["def-nagata-relative-affine-space"]
 +++

@@ -3,7 +3,7 @@ id = "lem-sc-normalization-over-normal-locus"
 kind = "lemma"
 title = "The normalization over the normal locus"
 lean = ["AlgebraicGeometry.Scheme.isIso_fromNormalization_restrict"]
-order = 1344
+order = 1449
 uses = ["def-sc-normalization"]
 +++
 Let $X$ be an integral scheme of finite type over a field $k$

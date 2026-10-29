@@ -3,7 +3,7 @@ id = "def-sc-group-scheme"
 kind = "definition"
 title = "Group schemes over a field"
 lean = ["CategoryTheory.GrpObj", "CategoryTheory.IsCommMonObj", "CategoryTheory.IsMonHom", "CategoryTheory.GrpObj.ker", "AlgebraicGeometry.Scheme.Hom.finrankΓ"]
-order = 457
+order = 476
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be a field. A $k$-*group scheme* is a $k$-scheme

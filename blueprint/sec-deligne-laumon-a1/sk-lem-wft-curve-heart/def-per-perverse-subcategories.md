@@ -2,7 +2,7 @@
 id = "def-per-perverse-subcategories"
 kind = "definition"
 title = "Perverse subcategories of the first kind"
-order = 3977
+order = 4192
 uses = ["def-per-support-condition", "det-def-sfb-bounded-constructible"]
 +++
 In the setting of [def-per-support-condition], inside $\Dbc(X,\Qlb)$

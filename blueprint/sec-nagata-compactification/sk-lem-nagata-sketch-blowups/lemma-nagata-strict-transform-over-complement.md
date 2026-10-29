@@ -2,7 +2,7 @@
 id = "lemma-nagata-strict-transform-over-complement"
 kind = "lemma"
 title = "Strict transform on the preserved open"
-order = 278
+order = 183
 lean = ["AlgebraicGeometry.isPullback_strictTransformOpen"]
 uses = ["def-nagata-strict-transform"]
 +++

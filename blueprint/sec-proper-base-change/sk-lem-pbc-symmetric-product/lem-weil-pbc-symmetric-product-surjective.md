@@ -3,7 +3,7 @@ id = "lem-weil-pbc-symmetric-product-surjective"
 kind = "lemma"
 title = "Surjectivity of the symmetric-product morphism"
 lean = ["AlgebraicGeometry.ProjectiveSpace.surjective_symmetricProduct"]
-order = 1934
+order = 2056
 uses = ["def-weil-pbc-scheme-conventions", "def-weil-pbc-symmetric-product-morphism", "lem-weil-pbc-surjective-nonempty-fibres"]
 +++
 For every scheme $S$ and every $n\geq0$, the symmetric-product morphism

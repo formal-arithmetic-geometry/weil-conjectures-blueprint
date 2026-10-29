@@ -3,7 +3,7 @@ id = "lem-a1-affine-hc2-pure"
 kind = "lemma"
 title = "Purity of $H_c^2$ on an affine curve"
 lean = ["AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight.isPureOfWeightOver_compactlySupportedCohomology_two"]
-order = 3990
+order = 4208
 uses = ["def-weil-frobenius-module-weights", "def-weil-ordinary-compact-cohomology", "def-weil-punctual-weights", "lem-a1-affine-hc2", "lem-a1-geometric-coinvariants-pure", "lem-wf-tate-twist-frobenius"]
 +++
 Let $U_0$ be a smooth geometrically connected affine curve and let

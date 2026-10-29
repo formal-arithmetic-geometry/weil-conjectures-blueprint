@@ -2,7 +2,7 @@
 id = "sk-thm-pe-direct-image-comparison"
 kind = "theorem"
 title = "Direct-image comparison"
-order = 1004
+order = 1055
 lean = ["AlgebraicGeometry.ProEtale.comparisonUpperStarCompUpperStarIso", "AlgebraicGeometry.ProEtale.mapDerivedCategoryComparisonUpperStarCompUpperStarIso", "AlgebraicGeometry.ProEtale.lowerStarComparisonUpperStarBaseChange", "AlgebraicGeometry.ProEtale.isIso_lowerStarComparisonUpperStarBaseChange", "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComparisonPlusIso", "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComparisonIso'"]
 uses = ["sk-prop-pe-comparison-morphism", "sk-cor-pe-classical-derived", "sk-prop-sf-comparison"]
 tags = ["sketch"]

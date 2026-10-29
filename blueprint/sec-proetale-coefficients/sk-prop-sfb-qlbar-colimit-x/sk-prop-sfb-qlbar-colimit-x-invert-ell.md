@@ -2,7 +2,7 @@
 id = "det-prop-sfb-qlbar-colimit-x-invert-ell"
 kind = "lemma"
 title = "$E_X$ is $\\mathcal O_{E,X}$ with $\\ell$ inverted"
-order = 1200
+order = 1247
 uses = ["def-sfb-integers-to-subfield", "def-sfb-integers-to-subfield-point", "det-def-sfb-condensed-ring", "det-def-sfb-pullback-from-point"]
 +++
 Let $E/\mathbf Q_\ell$ be finite and $X$ a scheme. Let $\cO_{E,X}[1/\ell]$ denote the colimit,

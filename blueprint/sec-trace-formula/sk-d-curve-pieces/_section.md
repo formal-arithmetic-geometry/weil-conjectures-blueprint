@@ -2,7 +2,7 @@
 id = "sk-d-curve-pieces"
 kind = "definition"
 title = "Curve coefficient pieces"
-order = 3638
+order = 3789
 uses = ["sk-d-proper-pushforward", "sk-d-setup", "sk-d-six", "sk-d-weil"]
 tags = ["sketch"]
 +++

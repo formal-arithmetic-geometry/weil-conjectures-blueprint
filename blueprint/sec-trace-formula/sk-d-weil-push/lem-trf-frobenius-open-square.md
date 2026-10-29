@@ -3,7 +3,7 @@ id = "lem-trf-frobenius-open-square"
 kind = "lemma"
 title = "Frobenius preserves an open subscheme defined over the finite field"
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isPullback_frobeniusIterate_of_isOpenImmersion"]
-order = 3657
+order = 3837
 uses = ["def-trf-scheme-frobenius", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
 Fix the finite-field datum.

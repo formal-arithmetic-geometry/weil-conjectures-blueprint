@@ -2,7 +2,7 @@
 id = "det-sp-zero-section-affine-space"
 kind = "lemma"
 title = "Vanishing of the defect for a coordinate hyperplane"
-order = 3567
+order = 3662
 uses = ["det-sp-defect-definition"]
 +++
 For every $n\geq1$, with $X=\mathbf A^n_k$ and $Z=\mathbf A^{n-1}\times\{0\}$ the coordinate

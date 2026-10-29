@@ -2,7 +2,7 @@
 id = "def-weil-pbc-cover-cech"
 kind = "definition"
 title = "Covering Cech complexes"
-order = 969
+order = 1017
 lean = ["CategoryTheory.cechComplexFunctor"]
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-proetale-modules"]
 +++

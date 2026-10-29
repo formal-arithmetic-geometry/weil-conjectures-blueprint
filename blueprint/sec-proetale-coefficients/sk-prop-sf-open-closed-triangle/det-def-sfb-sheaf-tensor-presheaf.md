@@ -3,7 +3,7 @@ id = "det-def-sfb-sheaf-tensor-presheaf"
 kind = "definition"
 title = "Objectwise tensor product and internal hom of presheaves"
 lean = ["CategoryTheory.Monoidal.functorCategoryMonoidal", "CategoryTheory.Monoidal.functorCategorySymmetric", "CategoryTheory.Enriched.FunctorCategory.functorEnrichedHom", "CategoryTheory.MonoidalClosed.FunctorCategory.monoidalClosed", "CategoryTheory.Presheaf.functorEnrichedHomCoyonedaObjEquiv"]
-order = 1133
+order = 1177
 +++
 Let $\mathcal A$ be a Grothendieck abelian category with a closed symmetric monoidal structure
 $(\otimes,\mathbf 1)$, additive in each variable, with internal hom $\underline{\Hom}_{\mathcal A}$,

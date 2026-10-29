@@ -2,7 +2,7 @@
 id = "def-pod-perfect-derived-pairing"
 kind = "definition"
 title = "Perfect derived pairing"
-order = 3387
+order = 3560
 uses = ["def-pod-perfect-point-complex"]
 +++
 In the Poincare duality conventions of this chapter, let

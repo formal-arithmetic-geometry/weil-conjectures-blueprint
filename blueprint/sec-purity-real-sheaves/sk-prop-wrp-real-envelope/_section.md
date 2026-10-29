@@ -2,7 +2,7 @@
 id = "sk-prop-wrp-real-envelope"
 kind = "proposition"
 title = "The real envelope"
-order = 3888
+order = 4122
 uses = ["sk-d-real-weights", "sk-def-wrp-real-definition", "sk-r-real-linear"]
 tags = ["sketch"]
 +++

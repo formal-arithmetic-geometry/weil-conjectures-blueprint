@@ -3,7 +3,7 @@ id = "def-nagata-relative-stage-morphism-data"
 kind = "definition"
 title = "Finite-stage data for a morphism"
 lean = ["AlgebraicGeometry.Scheme.Hom.NoetherianStageData", "AlgebraicGeometry.Scheme.Hom.noetherianStageData"]
-order = 77
+order = 385
 uses = ["def-nagata-noetherian-inverse-system"]
 +++
 Let $f\colon X\to S$ be a morphism and let $\mathsf N(X)$ and

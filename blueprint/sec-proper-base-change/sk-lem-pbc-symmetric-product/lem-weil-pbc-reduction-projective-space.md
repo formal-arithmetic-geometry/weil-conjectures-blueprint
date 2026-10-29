@@ -3,7 +3,7 @@ id = "lem-weil-pbc-reduction-projective-space"
 kind = "lemma"
 title = "Reduction of projective space to products of lines"
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveSpace"]
-order = 1936
+order = 2058
 uses = ["def-weil-pbc-symmetric-product-morphism", "lem-weil-pbc-symmetric-product-finite", "lem-weil-pbc-symmetric-product-surjective", "lemma-weil-pbc-cancellation", "prop-weil-pbc-composition-stability", "prop-weil-pbc-finite-morphism"]
 +++
 Let $\Lambda$ be a commutative ring which is torsion as an abelian group, and use

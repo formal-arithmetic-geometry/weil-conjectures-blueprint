@@ -2,7 +2,7 @@
 id = "det-tf-fixed-point-algebra"
 kind = "lemma"
 title = "The coordinate ring of the Frobenius fixed scheme"
-order = 3491
+order = 3762
 uses = ["det-tf-fixed-point-equations"]
 +++
 Let $\mathfrak a\subset k_0[t_1,\ldots,t_r]$ be an ideal, $X_0=\operatorname{Spec}k_0[t]/\mathfrak a$,

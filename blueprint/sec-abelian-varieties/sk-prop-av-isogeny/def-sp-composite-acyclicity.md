@@ -2,7 +2,7 @@
 id = "def-sp-composite-acyclicity"
 kind = "definition"
 title = "Composable pairs with an acyclicity condition"
-order = 504
+order = 523
 lean = ["CategoryTheory.GrothendieckComposablePair", "CategoryTheory.GrothendieckComposablePair.SendsInjectivesToAcyclics", "CategoryTheory.Functor.IsAcyclicComposablePair"]
 uses = ["def-sp-acyclic", "def-sp-grothendieck-abelian", "def-sp-injective-resolutions", "def-sp-left-exact-additive"]
 +++

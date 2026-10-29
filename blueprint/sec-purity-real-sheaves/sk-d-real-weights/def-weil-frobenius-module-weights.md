@@ -3,7 +3,7 @@ id = "def-weil-frobenius-module-weights"
 kind = "definition"
 title = "Weights of finite-dimensional Frobenius modules"
 lean = ["AlgebraicGeometry.WeilGroup.IsPureFrobeniusModule", "AlgebraicGeometry.WeilGroup.IsMixedFrobeniusModule"]
-order = 3780
+order = 3961
 uses = ["def-weil-finite-field-fiber"]
 +++
 Fix a prime $p$, an integer $a\in\mathbf Z_{\geq1}$, and let $q=p^a$ be the

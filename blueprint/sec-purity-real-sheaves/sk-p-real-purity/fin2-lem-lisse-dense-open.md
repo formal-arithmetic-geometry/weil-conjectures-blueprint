@@ -3,7 +3,7 @@ id = "fin2-lem-lisse-dense-open"
 kind = "lemma"
 title = "A lisse locus for a constructible sheaf"
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.exists_open_topologicalKrullDim_compl_lt"]
-order = 3868
+order = 4099
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-noetherian-finite-components", "sk-lem-coefficient-heart"]
 +++
 Let $X$ be of finite type over $k$ and let $F$ be either a

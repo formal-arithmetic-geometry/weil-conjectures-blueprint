@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-piece-mul"
 kind = "lemma"
 title = "Multiplication of Rees pieces"
-order = 160
+order = 63
 lean = ["AlgebraicGeometry.reesGrading.instGradedMonoid"]
 uses = ["def-nagata-rees-algebra", "def-nagata-rees-piece"]
 +++

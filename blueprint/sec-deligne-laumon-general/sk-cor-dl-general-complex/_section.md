@@ -2,9 +2,9 @@
 id = "sk-cor-dl-general-complex"
 kind = "theorem"
 title = "Weights of $Rf_!$"
-order = 4093
+order = 4324
 lean = ["AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost.derivedLowerShriek"]
-uses = ["sk-d-real-weights", "sk-thm-dl-general-sheaf", "sk-prop-sf-cbc"]
+uses = ["sk-d-real-weights", "sk-thm-dl-general-sheaf", "sk-prop-cohsm"]
 tags = ["sketch"]
 +++
 For every separated morphism of finite type $f:X_0\to Y_0$,

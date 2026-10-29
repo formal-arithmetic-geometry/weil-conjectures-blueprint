@@ -2,7 +2,7 @@
 id = "det-thm-picard-semicon"
 kind = "theorem"
 title = "Semicontinuity and base change"
-order = 752
+order = 777
 lean = ["AlgebraicGeometry.Scheme.Modules.upperSemicontinuous_hFiber", "AlgebraicGeometry.Scheme.Modules.cechBaseChangeMap", "AlgebraicGeometry.Scheme.Modules.exists_isFiniteLocallyFreeOfRank_higherDirectImage_of_isLocallyConstant", "AlgebraicGeometry.Scheme.Modules.bijective_cechBaseChangeMap_of_forall_specializes"]
 +++
 Let $f:X\to T$ be a proper morphism of finite presentation and $\cF$ an

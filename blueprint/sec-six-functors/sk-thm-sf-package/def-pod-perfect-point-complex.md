@@ -2,7 +2,7 @@
 id = "def-pod-perfect-point-complex"
 kind = "definition"
 title = "Perfect point complex"
-order = 3378
+order = 3551
 uses = ["def-pod-conventions", "def-weil-finite-coefficient-point", "def-weil-geometric-hypotheses"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), an

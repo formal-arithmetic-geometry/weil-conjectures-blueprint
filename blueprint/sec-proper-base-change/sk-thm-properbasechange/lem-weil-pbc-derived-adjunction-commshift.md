@@ -3,7 +3,7 @@ id = "lem-weil-pbc-derived-adjunction-commshift"
 kind = "lemma"
 title = "The unit and counit of the derived adjunction u^{-1} -| Ru_* commute with the shift isomorphisms"
 lean = ["AlgebraicGeometry.Etale.derivedPlus_upperStarLowerStar_commShift"]
-order = 2004
+order = 2126
 uses = ["def-pc-scheme", "def-weil-pbc-derived-inverse-image", "def-weil-pbc-direct-image", "def-weil-pbc-derived-categories", "prop-weil-pbc-derived-inverse-image-adjunction", "lem-weil-pbc-derived-direct-image-triangulated", "def-sp-kinjective-bridge", "lem-weil-pbc-triangulated-functor-composite"]
 tags = ["stacks-0A8D"]
 +++

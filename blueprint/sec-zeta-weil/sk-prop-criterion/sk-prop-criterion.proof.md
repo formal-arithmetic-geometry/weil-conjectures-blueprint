@@ -2,12 +2,14 @@
 kind  = "proof"
 of    = "sk-prop-criterion"
 +++
-A finite-dimensional space of sequences is detected by finitely many
-coordinates. Indeed, the coordinate functionals have common kernel
-zero and therefore span its dual, and a finite subset of them already
-spans it. Thus independent rows have a nonzero minor on finitely many
-columns, and conversely a nonzero minor gives independent rows. This
-proves the equivalence of (2) and (3).
+We first show that (2) and (3) are equivalent. For
+(3)$\Rightarrow$(2), a nonzero $k\times k$ minor of a finite submatrix
+gives $k$ linearly independent rows, so every finite submatrix has
+rank at most the dimension of the row span. For (2)$\Rightarrow$(3),
+let $R_{j_1},\ldots,R_{j_m}$ be linearly independent. On their span
+the coordinate functionals have common kernel zero, so they span its
+dual, and $m$ of them already do. The corresponding $m\times m$ minor
+is then nonzero, and hence $m$ is at most the bound in (2).
 
 Suppose that $QC=P$ with $Q(0)=1$. Comparing coefficients, we obtain a
 fixed linear recurrence for all sufficiently large indices, and the
@@ -27,6 +29,8 @@ Here the denominator has constant coefficient one, and the identity
 follows coefficient by coefficient from the geometric series of the
 matrix $TM$. This proves (1).
 
-Finally, each finite minor has its entries in $K$, so if all minors of
-some size vanish in $K'$, they already vanish in $K$. Applying
-(2)$\Rightarrow$(1) over $K$, we obtain the descent of rationality.
+Finally, condition (2) involves only the coefficients $c_n\in K$, and
+the rank of a matrix with entries in $K$ does not change when we pass
+to $K'$. Hence (2) holds over $K$ if and only if it holds over $K'$.
+Applying (1)$\Rightarrow$(2) over $K'$ and (2)$\Rightarrow$(1) over
+$K$, we obtain the descent of rationality.

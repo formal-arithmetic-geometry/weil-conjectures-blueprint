@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-proper-open-p-proper"
 kind = "lemma"
 title = "Properness of the projection of the comparison square"
-order = 2254
+order = 2501
 lean = ["AlgebraicGeometry.isProper_pullback_snd_of_isProper"]
 uses = ["def-weil-pbc-proper-open-comparison", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-proper-base-change"]
 +++

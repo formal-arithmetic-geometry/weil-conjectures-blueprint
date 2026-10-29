@@ -2,8 +2,8 @@
 id = "sk-def-set"
 kind = "definition"
 title = "The fixed setting"
-order = 3424
-uses = ["sk-prop-sf-open-closed-triangle", "sk-def-purity-conv", "sk-thm-existence", "sk-prop-sf-existence", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-ctf-stability"]
+order = 3594
+uses = ["sk-prop-sf-open-closed-triangle", "sk-prop-cohsm", "sk-thm-existence", "sk-prop-sf-existence", "sk-prop-sf-rf-shriek-preservation", "sk-thm-sf-ctf-stability"]
 lean = ["AlgebraicGeometry.PoincareDualitySetting"]
 tags = ["sketch"]
 +++
@@ -27,7 +27,7 @@ $\Dctf$ given by [sk-thm-existence], which exists and preserves
 $\Dctf$ for every admissible $\Lambda$ and every separated finite-type morphism
 ([thm-sf-ambient-adjoint-class], [sk-prop-sf-rf-shriek-preservation],
 [sk-thm-sf-ctf-stability]); the
-ambient datum of [sk-def-sf-admissible], which fails for smooth proper
+ambient datum of [det-def-sf-admissible], which fails for smooth proper
 curves ([sk-rem-sf-fullcd-scope]), is not used. Properness of $X_0$ is *not* part of this setting: the
 duality results [sk-thm-sf-global-duality], [sk-thm-sf-identification]
 and [sk-thm-derived-duality]

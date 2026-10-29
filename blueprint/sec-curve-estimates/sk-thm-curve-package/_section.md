@@ -2,7 +2,7 @@
 id = "sk-thm-curve-package"
 kind = "theorem"
 title = "Cohomology of curves over an algebraically closed field"
-order = 1309
+order = 1616
 uses = ["sk-lem-curve-dense-open", "sk-prop-sf-comparison", "sk-thm-pe-classical-sheaves"]
 tags = ["sketch"]
 +++

@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-proper-strict-henselian-h0"
 kind = "lemma"
 title = "Degree-zero comparison over a strictly henselian base"
 lean = ["AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_geometricFibre", "AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_geometricFibre"]
-order = 1533
+order = 1654
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-finite-section-pullback", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-universal-homeomorphism-base-change", "lemma-weil-pbc-etale-degree-zero", "lemma-weil-pbc-finite-pullback-composition", "thm-weil-pbc-universal-homeomorphism-invariance"]
 +++
 Let $A$ be strictly henselian local

@@ -2,7 +2,7 @@
 id = "lem-fet-finite-limits"
 kind = "theorem"
 title = "Finite limits, coproducts and quotients of finite etale covers"
-order = 1361
+order = 1466
 lean = ["AlgebraicGeometry.Scheme.FiniteEtale.toFiniteEtaleOver", "AlgebraicGeometry.Scheme.FiniteEtale.isInitialEmpty", "AlgebraicGeometry.Scheme.FiniteEtale.isColimitCoprodCofan", "AlgebraicGeometry.Scheme.FiniteEtale.hasColimitsOfShape_singleObj", "AlgebraicGeometry.Scheme.FiniteEtale.monoInducesIsoOnDirectSummand"]
 uses = ["def-galois-categories", "def-weil-pbc-scheme-conventions"]
 +++

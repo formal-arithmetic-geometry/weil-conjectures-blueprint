@@ -3,7 +3,7 @@ id = "sbc-thm-spreading-finite-etale-galois"
 kind = "theorem"
 title = "Spreading a finite etale Galois cover"
 lean = ["AlgebraicGeometry.Scheme.GaloisCover.exists_isPullback_of_genericFibre"]
-order = 2063
+order = 2182
 uses = ["def-sbc-normal-dominant-galois", "def-sbc-smooth-morphisms", "def-weil-pbc-scheme-conventions"]
 +++
 Let $S$ be a

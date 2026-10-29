@@ -2,7 +2,7 @@
 id = "def-coefficient-twists-detailed"
 kind = "definition"
 title = "Coefficient Tate twists"
-order = 1203
+order = 1251
 uses = ["det-def-sfb-pulled-back-coefficients", "det-prop-sfb-qlbar-colimit-x-invert-ell", "def-weil-derived-tensor", "def-weil-pbc-proetale-site"]
 lean = ["AlgebraicGeometry.ProEtale.rootsOfUnitySheaf", "AlgebraicGeometry.ProEtale.tateModule", "AlgebraicGeometry.ProEtale.tateTwistOne", "AlgebraicGeometry.ProEtale.tateTwist", "AlgebraicGeometry.ProEtale.tateTwistDerived", "AlgebraicGeometry.ProEtale.tateTwistFunctor"]
 +++

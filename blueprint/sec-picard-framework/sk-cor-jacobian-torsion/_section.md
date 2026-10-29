@@ -2,7 +2,7 @@
 id = "sk-cor-jacobian-torsion"
 kind = "corollary"
 title = "Jacobian torsion and geometric extension"
-order = 841
+order = 870
 lean = ["AlgebraicGeometry.Scheme.Hom.pic_proper_ntorsion", "AlgebraicGeometry.nonempty_addEquiv_torsionBy", "AlgebraicGeometry.bijective_toUnit_comp_torsionSubgroupScheme", "AlgebraicGeometry.jacobian_compatibility", "AlgebraicGeometry.Scheme.surjective_pow_picardZero", "AlgebraicGeometry.Scheme.ker_picDegreeMod"]
 uses = ["sk-def-av", "sk-prop-av-isogeny", "sk-prop-av-tate-rank", "sk-thm-picard-main", "sk-cor-picard-degree", "sec-abelian-varieties"]
 tags = ["sketch"]

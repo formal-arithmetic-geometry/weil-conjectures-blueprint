@@ -2,7 +2,7 @@
 id = "sk-thm-tf-uniform-formula"
 kind = "theorem"
 title = "Grothendieck–Lefschetz trace formula"
-order = 3529
+order = 3847
 uses = ["sk-def-sf-weil-complexes", "sk-prop-scalar-six", "sk-lem-tf-frobenius-convention", "sk-def-pe-derived-completion", "sk-thm-trace-formula", "sk-prop-tf-transport-integral", "sk-lem-tf-rational-model", "sk-p-trace", "sk-thm-sfb-qlbar-two-colimit", "sk-lem-finite"]
 tags = ["sketch"]
 +++

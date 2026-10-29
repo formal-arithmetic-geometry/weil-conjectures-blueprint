@@ -2,7 +2,7 @@
 id = "sk-def-pbc"
 kind = "definition"
 title = "Torsion and the PBC property"
-order = 1512
+order = 1632
 lean = ["AlgebraicGeometry.Etale.HasTorsionBaseChange", "AlgebraicGeometry.Scheme.IsTorsionSheaf", "AlgebraicGeometry.Scheme.IsTorsionModuleSheaf", "AlgebraicGeometry.Scheme.isTorsionAbelianSheaf_characterizations", "AlgebraicGeometry.Scheme.constant_ratModIntSheaf_sections_not_torsion"]
 uses = ["sk-def-conv", "sk-def-exchange", "sk-def-pbc-conventions"]
 tags = ["sketch"]
@@ -22,9 +22,14 @@ For a morphism $f:X\to Y$, write $\mathrm{PBC}_\Lambda(f)$ if the exchange
 morphism $\Ex_{\square,K}:g^{-1}Rf_*K\to Rf'_*g'^{-1}K$ of [sk-def-exchange]
 is an isomorphism in $D^+(Y'_{\Et},\Lambda)$ for every base change
 $g:Y'\to Y$ and every $K\in D^+(X_{\Et},\Lambda)$ with torsion cohomology
-sheaves. Put $\mathrm{PBC}(f)=\mathrm{PBC}_{\mathbf Z}(f)$. The definition
-makes sense for any $f$; for proper $f$ the property is proved in
-[sk-thm-p1] and [sk-thm-reduction].
+sheaves. If the ring $\Lambda$ is torsion as an abelian group, then $1$ has
+finite additive order, so $\Lambda$ is annihilated by a positive integer and
+every sheaf of $\Lambda$-modules is torsion.
+
+For proper $f$ and a coefficient ring $\Lambda$ which is torsion as an abelian
+group, $\mathrm{PBC}_\Lambda(f)$ is proved in [sk-thm-p1] and
+[sk-thm-reduction]. Arbitrary coefficient rings are treated in
+[sk-thm-properbasechange].
 
 Torsion is a local condition on sections: every section is killed by an
 integer after an étale covering, with the integer allowed to vary between

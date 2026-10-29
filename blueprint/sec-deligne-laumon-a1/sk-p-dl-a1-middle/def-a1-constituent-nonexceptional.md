@@ -2,7 +2,7 @@
 id = "def-a1-constituent-nonexceptional"
 kind = "definition"
 title = "Nonexceptional irreducible lisse sheaf (constituent form)"
-order = 4000
+order = 4217
 uses = ["def-fd-artin-schreier-sheaf", "def-wf-fundamental-representation", "rem-dl-a1-conventions"]
 lean = ["AlgebraicGeometry.WeilSheaf.IsNonexceptional"]
 +++

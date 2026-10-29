@@ -2,7 +2,7 @@
 id = "lem-sfb-profinite-to-proetale-cover-preserving"
 kind = "lemma"
 title = "$S\\mapsto\\Spec LC(S,\\Z)$ preserves coverings"
-order = 1038
+order = 1079
 uses = ["def-sfb-profinite-to-proetale", "def-weil-pbc-proetale-site"]
 lean = ["AlgebraicGeometry.ProEtale.coverPreserving_profiniteToProEt"]
 +++

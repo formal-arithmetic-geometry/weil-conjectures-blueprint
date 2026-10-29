@@ -3,7 +3,7 @@ id = "def-wf-algebraic-components"
 kind = "definition"
 title = "Identity component and component group"
 lean = ["Matrix.GeneralLinearGroup.identityComponentSubgroup"]
-order = 3675
+order = 3885
 +++
 For a closed algebraic subgroup $H\subseteq\operatorname{GL}(V)$, its
 identity component $H^\circ$ is the connected component containing the

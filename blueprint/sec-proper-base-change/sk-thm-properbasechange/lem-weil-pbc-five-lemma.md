@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Five lemma in an abelian category"
 uses = ["def-sp-abelian"]
 lean = ["CategoryTheory.Abelian.isIso_of_epi_of_isIso_of_isIso_of_mono"]
-order = 1991
+order = 2115
 tags = ["mathlib", "stacks-05QB"]
 +++
 Let $\mathcal A$ be an abelian category [def-sp-abelian] and consider a commutative diagram in $\mathcal A$

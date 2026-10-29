@@ -3,7 +3,7 @@ id = "sk-prop-av-mult-n-pullback"
 kind = "proposition"
 title = "Commutativity, projectivity and the cube"
 lean = ["AlgebraicGeometry.IsAbelianVariety.isCommMonObj", "AlgebraicGeometry.IsAbelianVariety.exists_isClosedImmersion_projectiveSpace", "AlgebraicGeometry.IsAbelianVariety.isAmple_symmetrisation", "AlgebraicGeometry.IsAbelianVariety.nonempty_iso_overPullback_inv_symmetrisation", "AlgebraicGeometry.nonempty_iso_overPullback_npow_id"]
-order = 467
+order = 486
 uses = ["sk-def-av", "sk-lem-abelian-seesaw"]
 tags = ["sketch"]
 +++

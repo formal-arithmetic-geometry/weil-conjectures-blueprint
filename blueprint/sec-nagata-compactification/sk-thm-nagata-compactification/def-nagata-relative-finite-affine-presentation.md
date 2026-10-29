@@ -2,7 +2,7 @@
 id = "def-nagata-relative-finite-affine-presentation"
 kind = "definition"
 title = "Selected finite relative affine presentation"
-order = 56
+order = 364
 lean = ["AlgebraicGeometry.RelativeAffinePresentation", "AlgebraicGeometry.relativeAffinePresentation", "AlgebraicGeometry.RelativeAffinePresentation.glueData"]
 +++
 Let $(S_\lambda)$ be a nonempty cofiltered inverse system of schemes with

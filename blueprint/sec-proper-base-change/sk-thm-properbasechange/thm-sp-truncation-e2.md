@@ -2,7 +2,7 @@
 id = "thm-sp-truncation-e2"
 kind = "theorem"
 title = "The truncation hypercohomology spectral sequence"
-order = 1987
+order = 2111
 lean = ["CategoryTheory.exists_truncationHypercohomology"]
 uses = ["def-sp-convergence", "def-sp-etale-dictionary", "def-sp-exact-couple", "def-sp-image-filtration", "def-sp-injective-resolutions", "def-sp-truncation-couple", "def-weil-pbc-derived-categories", "def-weil-pbc-derived-exchange", "def-weil-pbc-direct-image", "lem-sp-shift-identification", "lem-sp-truncation-couple-exact", "thm-sp-half-plane-convergence"]
 +++

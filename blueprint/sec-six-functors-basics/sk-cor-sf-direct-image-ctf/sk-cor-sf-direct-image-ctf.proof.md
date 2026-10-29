@@ -1,49 +1,48 @@
 +++
 kind = "proof"
 of = "sk-cor-sf-direct-image-ctf"
-uses = ["sk-cor-geo-open-finiteness", "sk-cor-geo-open-finiteness-ii", "sk-cor-pe-finite-tor-comparison", "sk-prop-pe-unbounded-classical"]
+uses = ["sk-cor-geo-open-finiteness", "sk-prop-classical-inputs", "sk-cor-pe-finite-tor-comparison", "sk-prop-pe-unbounded-classical"]
 +++
-Bounded constructibility is [sk-cor-geo-open-finiteness], and
-$\operatorname{cd}_\ell(j)$ is finite by [sk-cor-geo-open-finiteness-ii]. For
-the Tor amplitude we work on the étale site, where geometric points are
-conservative. Write $K=\nu_U^*K_{\mathrm{ét}}$ by
-[sk-cor-pe-finite-tor-comparison]; the pro-étale pullback of
-$Rj_{\mathrm{ét},*}K_{\mathrm{ét}}\in D(X_{\mathrm{ét}},A)$ is $Rj_*K$, computed
-by $Rj_*\colon D(U_{\mathrm{proét}},A)\to D(X_{\mathrm{proét}},A)$, by
+The complex $Rj_*K$ is bounded constructible by [sk-cor-geo-open-finiteness], and
+$\operatorname{cd}_\ell(j)$ is finite by [Stacks, Tag 0F10](https://stacks.math.columbia.edu/tag/0F10)
+([sk-prop-classical-inputs]). To bound the Tor amplitude, we work on the étale site, where
+geometric points are conservative. By [sk-cor-pe-finite-tor-comparison],
+$K\simeq\nu_U^*K_{\mathrm{ét}}$ for some $K_{\mathrm{ét}}\in D^b_{\mathrm{ctf}}(U_{\mathrm{ét}},A)$,
+and the pro-étale pullback of $Rj_{\mathrm{ét},*}K_{\mathrm{ét}}$ is $Rj_*K$ by
 [sk-prop-pe-unbounded-classical].
 
-The main step is the scalar projection formula: for every $A$-module $M$, of
-arbitrary projective dimension and viewed as a constant sheaf, the projection
-morphism is an isomorphism in $D(X_{\mathrm{proét}},A)$
+We first prove the projection formula for constant coefficients: for every $A$-module $M$, viewed
+as a constant sheaf, the projection morphism
 
 $$
 (Rj_*K)\otimes_A^{\mathbf L}\underline M_X
   \xrightarrow{\ \sim\ }
-Rj_*\bigl(K\otimes_A^{\mathbf L}\underline M_U\bigr).
+Rj_*\bigl(K\otimes_A^{\mathbf L}\underline M_U\bigr)
 \qquad(\ast)
 $$
 
-Its étale version, the projection morphism for
-$Rj_{\mathrm{ét},*}\colon D(U_{\mathrm{ét}},A)\to D(X_{\mathrm{ét}},A)$, follows
-by applying the projection formula of Stacks, Tag
-[0F12](https://stacks.math.columbia.edu/tag/0F12) to every quasi-compact étale
-$V\to X$ and to $V\times_XU$, both of finite $\ell$-cohomological dimension; the
-resulting isomorphisms identify the derived sections of the two sides,
-compatibly with the projection morphism. Since inverse image is exact and
-symmetric monoidal and commutes with unbounded direct image, the pullback of the
-étale isomorphism is $(\ast)$.
+is an isomorphism. Recall that for a scheme $V$ with $\operatorname{cd}_\ell(V)<\infty$, the
+projection formula of [Stacks, Tag 0F12](https://stacks.math.columbia.edu/tag/0F12) identifies
+$R\Gamma(V,K)\otimes^{\mathbf L}_AM$ with $R\Gamma(V,K\otimes^{\mathbf L}_A\underline M)$. Applying
+it to every quasi-compact étale $V\to X$ and to $V\times_XU$, we obtain isomorphisms between the
+derived sections of the two sides of the étale version of $(\ast)$, compatibly with the projection
+morphism. Hence the étale version holds. Since inverse image is exact and symmetric monoidal and
+commutes with unbounded direct image, the pullback of the étale isomorphism is $(\ast)$.
 
-The complex $K\otimes_A^{\mathbf L}\underline M_U$ has cohomology in $[a,b]$, so
-the étale version of the right side of $(\ast)$ lies in $[a,b+d]$. Taking
-geometric stalks gives this Tor bound for every stalk of
-$Rj_{\mathrm{ét},*}K_{\mathrm{ét}}$. On the étale site, testing against
-constant $A$-modules suffices: tensor product and cohomology commute with the
-conservative geometric stalks, and the stalk of any étale module sheaf is an
-$A$-module. Hence $Rj_{\mathrm{ét},*}K_{\mathrm{ét}}$ has Tor amplitude in
-$[a,b+d]$.
+On the étale site it suffices to bound Tor against constant $A$-modules. Indeed, for an étale
+sheaf of $A$-modules $G$ and a geometric point $\bar x$, the stalk of
+$Rj_{\mathrm{ét},*}K_{\mathrm{ét}}\otimes^{\mathbf L}_AG$ at $\bar x$ is that of
+$Rj_{\mathrm{ét},*}K_{\mathrm{ét}}\otimes^{\mathbf L}_A\underline M$ with $M=G_{\bar x}$, and
+geometric stalks are conservative. Now $K\otimes_A^{\mathbf L}\underline M_U$ has cohomology in
+$[a,b]$, and hence the étale version of the right-hand side of $(\ast)$ lies in $[a,b+d]$. By the
+projection formula, so does $Rj_{\mathrm{ét},*}K_{\mathrm{ét}}\otimes^{\mathbf L}_A\underline M$,
+and therefore $Rj_{\mathrm{ét},*}K_{\mathrm{ét}}$ has Tor amplitude in $[a,b+d]$.
 
-To pass to $X_{\mathrm{proét}}$, pull back a bounded flat constructible model of
-$Rj_{\mathrm{ét},*}K_{\mathrm{ét}}$ in degrees $[a,b+d]$ (Stacks, Tag
-[0F4M](https://stacks.math.columbia.edu/tag/0F4M)). This gives the same
-interval against every pro-étale module sheaf, including nonclassical ones,
-for which geometric stalks are not available as a test.
+To pass to $X_{\mathrm{proét}}$, we pull back a bounded flat constructible model of
+$Rj_{\mathrm{ét},*}K_{\mathrm{ét}}$ in degrees $[a,b+d]$
+([Stacks, Tag 0F4M](https://stacks.math.columbia.edu/tag/0F4M)). Its pullback to
+$X_{\mathrm{proét}}$ is again a complex of flat sheaves in degrees $[a,b+d]$, since pullback
+preserves flatness. Hence its tensor product with any sheaf of $A$-modules on $X_{\mathrm{proét}}$
+is computed termwise and lies in degrees $[a,b+d]$. This covers also the sheaves that are not
+pulled back from $X_{\mathrm{ét}}$, for which the Tor amplitude cannot be read off from geometric
+stalks.

@@ -2,7 +2,7 @@
 id = "sk-def-cd"
 kind = "definition"
 title = "Cohomological dimension"
-order = 2098
+order = 2229
 uses = ["sk-def-pe-classical-definition", "sk-prop-sf-comparison", "sk-thm-pe-direct-image-comparison"]
 tags = ["sketch"]
 +++
@@ -18,11 +18,11 @@ $$
 \end{aligned}
 $$
 
-For a field $K$ we write $\operatorname{cd}_\ell(K)=\operatorname{cd}_\ell(\Spec K)$.
+Here classical sheaves are those of [sk-def-pe-classical-definition]. For a field $k'$ we write
+$\operatorname{cd}_\ell(k')=\operatorname{cd}_\ell(\Spec k')$.
 
-By the cohomology comparison and the direct-image comparison these are the usual
-$\ell$-cohomological dimensions computed on the étale sites, so the classical
-bounds apply. If $K$ is a field with $\operatorname{cd}_\ell(K)<\infty$, then
-$\operatorname{cd}_\ell(S)$ and $\operatorname{cd}_\ell(g)$ are finite for all
-schemes $S$ and morphisms $g$ of finite type over $K$ (Stacks Project, Tag
-0F10).
+By [sk-prop-sf-comparison] and [sk-thm-pe-direct-image-comparison], these are the usual
+$\ell$-cohomological dimensions computed on the étale sites, so the classical bounds apply. If $k'$
+is a field with $\operatorname{cd}_\ell(k')<\infty$, then $\operatorname{cd}_\ell(S)$ and
+$\operatorname{cd}_\ell(g)$ are finite for all schemes $S$ and morphisms $g$ of finite type over $k'$
+([Stacks, Tag 0F10](https://stacks.math.columbia.edu/tag/0F10)).

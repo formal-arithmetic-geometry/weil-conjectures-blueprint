@@ -2,7 +2,7 @@
 id = "det-ind-heart-filtered-colimits"
 kind = "lemma"
 title = "Ind-constructible sheaves are closed under filtered colimits and sums"
-order = 2208
+order = 2425
 uses = ["det-ind-heart-canonical-presentation"]
 +++
 Let $\Lambda=E$ or $\Qlb$. If $(B_\lambda)_{\lambda\in I}$ is a filtered diagram in $\IndCons(X,\Lambda)$,

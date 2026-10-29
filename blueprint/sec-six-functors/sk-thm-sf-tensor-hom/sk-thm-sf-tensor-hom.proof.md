@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sf-tensor-hom"
-uses = ["sk-rem-sf-pf-done", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-finite", "sk-thm-sf-pf-proetale"]
+uses = ["sk-rem-sf-pf-done", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-proetale"]
 +++
 The first formula is checked by the Yoneda lemma, localizing the
 exceptional adjunction. For $N\in D(Y_{\mathrm{pro\acute et}},\Lambda)$,
@@ -34,7 +34,7 @@ $Rf_*\delta_K$ with $\delta_{Rf_*K}$. This
 proves the last assertion.
 
 The projection formula used here holds for every admissible $\Lambda$ on
-$D(Y_{\mathrm{pro\acute et}},\Lambda)$: [sk-thm-sf-pf-finite] and
+$D(Y_{\mathrm{pro\acute et}},\Lambda)$: [det-thm-sf-pf-finite] and
 [sk-thm-sf-pf-proetale] for finite $\Lambda$, [sk-thm-sf-pf-adic] and
 [sk-thm-sf-pf-field] for $\mathcal O_E$, $E$ and $\Qlb$ ([sk-rem-sf-pf-done]).
 The Yoneda argument therefore applies to every admissible condensed

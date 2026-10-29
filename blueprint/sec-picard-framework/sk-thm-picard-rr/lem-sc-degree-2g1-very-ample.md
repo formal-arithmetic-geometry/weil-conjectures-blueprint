@@ -3,7 +3,7 @@ id = "lem-sc-degree-2g1-very-ample"
 kind = "lemma"
 title = "Line bundles of large degree are very ample"
 lean = ["AlgebraicGeometry.Scheme.isVeryAmple_of_finrankH_zero_tensorObj_toModules_ker", "AlgebraicGeometry.Scheme.isVeryAmple_of_degree"]
-order = 700
+order = 723
 uses = ["def-sc-ample", "def-sc-curves", "def-sc-genus", "def-sc-pic0", "lem-sc-dim0-finite", "lem-sc-riemann-roch-large-degree", "thm-pqf-finite-iff-proper-finite-fibres"]
 +++
 Let $C$ be a proper smooth connected curve of

@@ -2,8 +2,7 @@
 id = "sec-abelian-varieties"
 kind = "section"
 title = "Abelian Varieties"
-order = 441
-uses = ["sec-nagata-compactification"]
+order = 456
 +++
 **Content.** This section is the tex appendix "Abelian varieties and Tate
 modules". All group schemes are of finite type over a field $k$. For an
@@ -13,7 +12,9 @@ free of rank $2g$, and that over a finite field Frobenius has no nonzero
 fixed vector on $T_\ell A$. The theorem of the cube
 ([sk-prop-av-cube]) is proved from triviality on fibres
 ([sk-lem-abelian-seesaw]) and triviality near a fibre
-([sk-lem-abelian-cube-open]). With the rigidity lemma
+([sk-lem-abelian-cube-open]), by gluing along a section; the descent
+form of triviality over an open cover ([sk-cor-abelian-seesaw-descent]) is
+recorded but not formalized. With the rigidity lemma
 ([sk-prop-av-rigidity]) it gives commutativity, projectivity and
 $[n]^*\mathcal N\simeq\mathcal N^{\otimes n^2}$ for a symmetric ample
 $\mathcal N$ ([sk-prop-av-mult-n-pullback]). This forces $[n]$ to have
@@ -47,7 +48,7 @@ Picard group, Pic⁰, the genus and the Jacobian moved to
 - Stacks Project, the theorem of the cube and abelian varieties: `0BEZ`,
   `0BDN`, `0E0L`, `0B91`, `0BCD`, `0BED` (cube); `0B7R`, `056D`, `01RH`
   (commutativity); `0BF7`, `0B45` (projectivity); `0BFF` ($[n]^*$ of
-  symmetric modules); `00R4`, `0BFG` ($[n]$ is finite locally free of
+  symmetric modules); `0BFG` ($[n]$ is finite locally free of
   degree $n^{2g}$).
 - Stacks Project, general inputs: `0BUG` (global functions on proper
   geometrically integral schemes), `05P3` (products of geometrically

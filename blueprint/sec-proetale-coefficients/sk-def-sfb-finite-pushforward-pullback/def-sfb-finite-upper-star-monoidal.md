@@ -2,7 +2,7 @@
 id = "def-sfb-finite-upper-star-monoidal"
 kind = "definition"
 title = "Strong monoidal structure on $g^*$"
-order = 887
+order = 921
 uses = ["def-sfb-finite-lower-star-lax-monoidal", "def-sfb-finite-upper-lower-star-adjunction", "lem-sfb-finite-upper-star-tensor", "lem-sfb-finite-upper-star-unit"]
 lean = ["AlgebraicGeometry.ProEtale.oplaxMonoidal_upperStar", "AlgebraicGeometry.ProEtale.isIso_upperStar_η", "AlgebraicGeometry.ProEtale.isIso_upperStar_δ", "AlgebraicGeometry.ProEtale.monoidal_upperStar"]
 +++

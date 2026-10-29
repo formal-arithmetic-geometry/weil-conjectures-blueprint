@@ -3,7 +3,7 @@ id = "pqf-lem-qf-locqf-qc"
 kind = "lemma"
 title = "Quasi-finite = locally quasi-finite + quasi-compact"
 lean = ["AlgebraicGeometry.Scheme.Hom.isQuasiFinite_iff_isLocallyQuasiFinite_and_quasiCompact", "AlgebraicGeometry.Scheme.Hom.locallyQuasiFinite_and_quasiCompact_iff"]
-order = 309
+order = 215
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-quasifinite"]
 +++
 Let $f:X\to S$ be a morphism of schemes. Then $f$ is quasi-finite if

@@ -2,7 +2,7 @@
 id = "def-nagata-partial-affine-unions"
 kind = "definition"
 title = "Partial unions of the selected affine cover"
-order = 22
+order = 330
 lean = ["AlgebraicGeometry.Scheme.partialAffineOpenUnions"]
 uses = ["def-nagata-dense-affine-cover"]
 +++

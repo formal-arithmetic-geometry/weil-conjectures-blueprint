@@ -2,7 +2,7 @@
 id = "cor-sf-duality-pullback"
 kind = "theorem"
 title = "Duality against pullback"
-order = 3356
+order = 3528
 tags = ["latex:corollary"]
 uses = ["def-sf-datum", "def-sf-orientation", "fix-prop-adjunctions", "lem-sf-mate", "lem-sf-verdier-biduality-equivalence", "thm-sf-verdier-exchange"]
 +++

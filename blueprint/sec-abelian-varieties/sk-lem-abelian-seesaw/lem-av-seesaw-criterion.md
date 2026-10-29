@@ -3,7 +3,7 @@ id = "lem-av-seesaw-criterion"
 kind = "lemma"
 title = "Triviality on a fibre through $h^0$"
 lean = ["AlgebraicGeometry.Scheme.Modules.nonempty_iso_unit_fiber_iff", "AlgebraicGeometry.Scheme.Modules.nonempty_iso_fiber_iff"]
-order = 444
+order = 460
 uses = ["def-sc-invertible-module"]
 +++
 Let $f:P\to T$ be a proper morphism with geometrically integral fibres, and for

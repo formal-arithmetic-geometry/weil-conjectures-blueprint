@@ -2,7 +2,7 @@
 id = "rem-sf-preservation-matrix"
 kind = "remark"
 title = "Preservation results and their actual hypotheses"
-order = 3370
+order = 3543
 uses = ["cor-coef-integral-internal-hom", "cor-sf-direct-image-ctf-proetale", "cor-sf-hom-ctf-proetale-unconditional", "cor-weil-boundary-duality-discharge", "lem-coef-integral-hom-reduction", "lem-sf-pullback-tor-amplitude", "lem-sf-tensor-ctf", "thm-sf-biduality-class", "thm-sf-hom-ctf", "thm-sf-preservation-class", "sk-thm-existence", "sk-prop-scalar-six"]
 +++
 The finite-coefficient results used in the assembly have these scopes:

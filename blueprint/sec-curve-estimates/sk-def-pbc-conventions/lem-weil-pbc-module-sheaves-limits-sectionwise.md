@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-module-sheaves-limits-sectionwise"
 kind = "lemma"
 title = "Limits of sheaves of modules exist and are computed sectionwise"
-order = 1262
+order = 1374
 uses = ["def-weil-sheaf-of-modules-category"]
 lean = ["SheafOfModules.hasLimitsOfSize", "SheafOfModules.evaluationPreservesLimitsOfSize"]
 tags = ["mathlib", "stacks-03DB"]

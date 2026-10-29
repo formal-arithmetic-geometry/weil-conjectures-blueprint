@@ -3,7 +3,7 @@ id = "def-nagata-fixed-base-separated-stage"
 kind = "definition"
 title = "Selected stage for fixed-base separatedness"
 lean = ["AlgebraicGeometry.Scheme.separatedStage"]
-order = 90
+order = 398
 uses = ["lemma-nagata-fixed-base-separated-stage-exists"]
 +++
 Under the hypotheses of

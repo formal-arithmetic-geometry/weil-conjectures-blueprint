@@ -3,7 +3,7 @@ id = "cor-zl-purity-smooth-proper"
 kind = "theorem"
 title = "Purity of smooth proper cohomology"
 lean = ["AlgebraicGeometry.WeilSheaf.purity_smoothProper", "AlgebraicGeometry.WeilSheaf.isPureOfWeightOver_cohomology_of_isLisse", "AlgebraicGeometry.WeilSheaf.isLisse_adicConstant", "AlgebraicGeometry.WeilSheaf.isPunctuallyPureOfWeight_adicConstant", "AlgebraicGeometry.WeilSheaf.hasWeightsAtMostOver_compactlySupportedCohomology_adicConstant"]
-order = 4101
+order = 4334
 tags = ["latex:corollary"]
 uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-frobenius-module-weights", "def-weil-geometric-hypotheses", "def-weil-global-geometric-frobenius", "def-weil-local-frobenius-trace", "def-weil-punctual-weights", "prop-weil-operations", "prop-zl-smooth-proper-relative-purity"]
 +++

@@ -3,7 +3,7 @@ id = "det-pe-wcb-clopen-partition"
 kind = "lemma"
 title = "Coverings of a w-contractible affine are refined by clopen partitions"
 lean = ["AlgebraicGeometry.exists_comp_eq_id_of_isWContractibleRing", "AlgebraicGeometry.Scheme.ProEt.exists_disjoint_cover_of_comp_sigmaDesc_eq_id"]
-order = 927
+order = 967
 uses = ["det-pe-wcb-split-cover", "def-weil-pbc-proetale-covering", "lem-trf-weakly-etale-between-objects", "det-pe-morphisms-etale-comparison"]
 +++
 Let $U=\operatorname{Spec}D$ with $D$ w-contractible be an object of $X_{\mathrm{proét}}$,

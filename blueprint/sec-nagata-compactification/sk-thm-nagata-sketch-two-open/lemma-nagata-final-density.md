@@ -2,7 +2,7 @@
 id = "lemma-nagata-final-density"
 kind = "lemma"
 title = "Density after the final common modification"
-order = 400
+order = 310
 lean = ["AlgebraicGeometry.TwoOpenPreparation.FinalModification.isDominant"]
 uses = ["def-nagata-two-open-compactification-candidate", "def-nagata-two-open-final-modification", "lemma-nagata-two-open-final-modification"]
 +++

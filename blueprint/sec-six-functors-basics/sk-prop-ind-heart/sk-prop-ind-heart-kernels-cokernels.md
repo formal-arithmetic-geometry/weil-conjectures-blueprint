@@ -2,7 +2,7 @@
 id = "det-ind-heart-kernels-cokernels"
 kind = "lemma"
 title = "Kernels and cokernels of ind-constructible sheaves"
-order = 2210
+order = 2427
 uses = ["det-ind-heart-canonical-presentation", "det-ind-heart-full-faithfulness", "sk-lem-coefficient-heart"]
 +++
 Let $\Lambda=E$ or $\Qlb$ and $f\colon B\to B'$ a morphism in $\IndCons(X,\Lambda)$. Let $P_f$ be the

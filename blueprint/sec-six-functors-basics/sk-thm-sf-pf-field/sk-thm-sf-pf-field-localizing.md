@@ -2,7 +2,7 @@
 id = "det-thm-sf-pf-field-localizing"
 kind = "lemma"
 title = "The proper projection formula on the rational localizing categories"
-order = 2418
+order = 2755
 uses = ["det-thm-sf-pf-field-tensor", "sk-thm-sfb-proper-base-change", "sk-lem-sf-determination"]
 +++
 Let $\Lambda=E$ or $\Qlb$ and let $p:X\to Y$ be proper. For

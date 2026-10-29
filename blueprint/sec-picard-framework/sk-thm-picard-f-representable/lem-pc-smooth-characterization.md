@@ -3,7 +3,7 @@ id = "lem-pc-smooth-characterization"
 kind = "lemma"
 title = "Smoothness versus flatness"
 lean = ["AlgebraicGeometry.smooth_iff_flat_and_smooth_fiber", "AlgebraicGeometry.smooth_iff_flat_locallyOfFinitePresentation_smooth_fiberToSpecResidueField"]
-order = 794
+order = 820
 uses = ["def-pc-base-change", "def-pc-morphism-conventions", "def-weil-scheme-morphism-properties"]
 +++
 Let $f:X\to S$ be a morphism of

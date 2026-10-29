@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-completed-pullback-reduction"
 kind = "lemma"
 title = "Reduction commutes with completed pullback"
-order = 2020
+order = 2142
 uses = ["det-pbc-complete-derived-completion", "def-pe-derived-complete"]
 +++
 Let $g\colon T'\to T$ be a morphism of schemes and

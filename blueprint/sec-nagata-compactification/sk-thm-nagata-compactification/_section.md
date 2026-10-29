@@ -2,7 +2,7 @@
 id = "sk-thm-nagata-compactification"
 kind = "theorem"
 title = "Nagata compactification"
-order = 21
+order = 329
 uses = ["sk-lem-nagata-sketch-closure", "sk-def-nagata-sketch-data"]
 lean = ["AlgebraicGeometry.exists_isDense_compactification", "AlgebraicGeometry.denseCompactification"]
 tags = ["sketch"]

@@ -2,9 +2,9 @@
 id = "def-fourier-set"
 kind = "definition"
 title = "The coefficient setting of the Fourier transform"
-order = 3931
+order = 4142
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible"]
-uses = ["def-sf-setting", "det-def-sfb-bounded-constructible", "sk-prop-sfb-finite-extension-compatibility", "sk-prop-ctf-finite-comparison", "prop-functor-package"]
+uses = ["def-sf-setting", "det-def-sfb-bounded-constructible", "det-prop-sfb-finite-extension-compatibility", "sk-prop-ctf-finite-comparison", "prop-functor-package"]
 +++
 Fix a prime $p$, a power $q=p^a$, the fields $k_0=\Fq$ and $k=\bar k_0$, a
 prime $\ell\ne p$, and a finite extension $E/\Ql$ with algebraic closure
@@ -18,7 +18,7 @@ discrete sheaves of $E$-modules on the small étale site, on which the
 base-change isomorphisms fail — and likewise
 $D^b_c(X,\Qlb)\subset D(X_{\mathrm{proét}},\Qlb)$, which receives
 $D^b_c(X,E)$ by the flat extension of scalars $\QbarX\otimes_{E_X}-$
-([sk-prop-sfb-finite-extension-compatibility]); with the six operations
+([det-prop-sfb-finite-extension-compatibility]); with the six operations
 $Lf^*,Rf_*,Rf_!,Rf^!,\otimes^L, R\mathcal H om$ of the six-functor package
 on these categories, the compact-support direct image
 $Rf_!=Rf_*\circ j_!$ read through a compactification, ordinary and

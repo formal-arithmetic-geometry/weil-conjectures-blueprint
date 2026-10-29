@@ -3,7 +3,7 @@ id = "def-weil-ordinary-reciprocal-roots"
 kind = "definition"
 title = "Ordinary roots and reciprocal roots"
 lean = ["Polynomial.ordinary_reciprocal_roots"]
-order = 4103
+order = 4336
 uses = ["def-weil-finite-field-fiber", "def-weil-frobenius-detailed", "def-weil-geometric-hypotheses", "def-weil-ordinary-compact-cohomology", "def-weil-smooth-proper-cohomological-family"]
 +++
 Fix the finite-field datum $p$, $a\geq1$, $q=p^a$, $k_0=\Fq$, and let

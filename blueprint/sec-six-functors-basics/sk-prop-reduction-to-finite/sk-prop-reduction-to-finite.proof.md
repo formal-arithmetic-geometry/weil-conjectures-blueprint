@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-prop-reduction-to-finite"
-uses = ["sk-prop-scalar-six", "sk-prop-integral-criterion", "sk-lem-pe-derived-nakayama", "sk-lem-integral-models", "sk-thm-sfb-qlbar-two-colimit"]
+uses = ["sk-prop-integral-criterion", "sk-lem-pe-derived-nakayama", "sk-lem-integral-models", "sk-prop-qlbar-two-colimit"]
 +++
 For $\Lambda=\mathcal O_E$, both $F(K)$ and $G(K)$ lie in $\Dbc(Y,\mathcal O_E)$, hence are derived
 $\pi_E$-complete ([sk-prop-integral-criterion]), and so is $\operatorname{Cone}(\theta(K))$.
@@ -12,9 +12,9 @@ by derived Nakayama ([sk-lem-pe-derived-nakayama]). The case $E=\mathbf Q_\ell$ 
 $\Lambda=\mathbf Z_\ell$.
 
 For $\Lambda=E$, the objects $K$ for which $\theta(K)$ is an isomorphism form a triangulated
-subcategory, so by part (4) of [sk-lem-integral-models] it suffices to treat $K=K_0[1/\ell]$
-with $K_0\in\Dbc(X,\mathcal O_E)$. Inverting $\ell$ is a coefficient comparison, so
+subcategory, so by [sk-lem-integral-models](4) it suffices to treat $K=K_0[1/\ell]$
+with $K_0\in\Dbc(X,\mathcal O_E)$. Inverting $\ell$ is a change of coefficients, so
 $\theta_E(K_0[1/\ell])$ is $\theta_{\mathcal O_E}(K_0)[1/\ell]$, an isomorphism by the integral
 case. For $\Lambda=\Qlb$, every $K$ is $K_E\otimes_E\Qlb$ for a finite $E$
-([sk-thm-sfb-qlbar-two-colimit]), and $\theta_{\Qlb}(K)$ is $\theta_E(K_E)\otimes_E\Qlb$. Again
+([sk-prop-qlbar-two-colimit]), and $\theta_{\Qlb}(K)$ is $\theta_E(K_E)\otimes_E\Qlb$. Again
 $E=\mathbf Q_\ell$ is included.

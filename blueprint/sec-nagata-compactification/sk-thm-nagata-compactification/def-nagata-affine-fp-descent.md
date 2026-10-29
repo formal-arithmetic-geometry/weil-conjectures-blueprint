@@ -2,7 +2,7 @@
 id = "def-nagata-affine-fp-descent"
 kind = "definition"
 title = "Finite-stage model of a finitely presented affine algebra"
-order = 50
+order = 358
 lean = ["CommRingCat.fpDescentStage", "CommRingCat.fpDescentRelations", "CommRingCat.FPDescent", "CommRingCat.fpDescentEquiv"]
 uses = ["def-nagata-directed-finite-upper-bound", "lemma-nagata-filtered-colimit-finite-data"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-nagata-separated-two-open-cover"
 kind = "lemma"
 title = "[stacks-project]"
-order = 358
+order = 268
 lean = ["AlgebraicGeometry.IsSeparated.of_two_open_cover"]
 +++
 Let $X=U\cup V$ be an open cover over $S$. Assume that $U\to S$ and

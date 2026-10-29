@@ -9,11 +9,10 @@ constituents ([sk-p-linear-filtration]). We may therefore
 assume that $\mathcal G$ is semisimple; then its restriction to the
 geometric fundamental group is semisimple by [sk-i-restriction].
 
-Fix $k\ge1$ and put $\mathcal T=\mathcal G^{\otimes2k}$. Iterating the
-tensor formula of [sk-p-tensor] $2k$ times, we see that every constituent of
-$\mathcal T$ has determinant weight at most $2k\beta$; the hypotheses on
-finite geometric determinants hold for all constituents involved by
-[sk-d-real-detweights] (this is [sk-cor-walg-curve-calculus]).
+Fix $k\ge1$ and put $\mathcal T=\mathcal G^{\otimes2k}$. By the tensor
+formula (1) of [sk-prop-walg-determinant-weights], every constituent of
+$\mathcal T$ has determinant weight at most $2k\beta$
+([cor-mg-det-weight-finite-tensor]).
 
 By [sk-lem-wrp-hc2], $H_c^2(U,\mathcal T)=T_P(-1)$, where $T$ is
 the generic fibre of $\mathcal T$. The geometric group acts trivially

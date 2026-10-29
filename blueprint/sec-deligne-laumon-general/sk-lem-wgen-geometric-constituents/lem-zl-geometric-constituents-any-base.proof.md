@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "lem-zl-geometric-constituents-any-base"
-uses = ["thm-lisse-qlbar-representations", "sk-thm-sfb-qlbar-two-colimit", "def-wf-weil-group", "lem-mg-normal-restriction-semisimple", "lem-wf-finite-index-restriction-semisimple", "lem-wf-schur-scalar", "lem-wf-weil-group-constant-extension"]
+uses = ["thm-lisse-qlbar-representations", "sk-lem-lisse-finite-descent", "def-wf-weil-group", "lem-mg-normal-restriction-semisimple", "lem-wf-finite-index-restriction-semisimple", "lem-wf-schur-scalar", "lem-wf-weil-group-constant-extension"]
 +++
 The rank gives finite length for representations of the Weil group
 of [def-wf-weil-group]. Treat an irreducible factor $V$ and
@@ -28,7 +28,7 @@ many original factors and refining their filtration proves the claim.
 In the application $V$ is the geometric representation of a lisse
 $\Qlb$-Weil sheaf, and the subrepresentations are again defined over a
 finite coefficient field. Indeed, by [thm-lisse-qlbar-representations]
-(a consequence of [sk-thm-sfb-qlbar-two-colimit] (1)) the original
+(a consequence of [sk-lem-lisse-finite-descent]) the original
 representation and its Frobenius map are defined over some finite
 extension $E/\mathbf Q_\ell$ inside $\Qlb$. Choose bases for the finitely
 many subspaces in the resulting filtration. Their finitely many

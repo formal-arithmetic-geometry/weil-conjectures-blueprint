@@ -3,7 +3,7 @@ id = "def-galois-fibre-functor"
 kind = "definition"
 title = "The fibre functor"
 lean = ["AlgebraicGeometry.Scheme.FiniteEtale.fiber", "CategoryTheory.PreGaloisCategory.IsFundamentalGroup", "AlgebraicGeometry.Scheme.FiniteEtale.exists_isFundamentalGroup", "CategoryTheory.PreGaloisCategory.toAutHomeo", "ContAction"]
-order = 1375
+order = 1480
 uses = ["def-galois-categories", "thm-galois-lc-etale"]
 +++
 In the situation of [def-galois-categories], let the geometric point be

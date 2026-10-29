@@ -2,7 +2,7 @@
 id = "lemma-nagata-qc-open-eq-eventually"
 kind = "lemma"
 title = "Eventual equality of descended quasi-compact opens"
-order = 49
+order = 357
 lean = ["AlgebraicGeometry.pullback_fst_preimage_eq_of_baseChangeQcOpenEqStage"]
 uses = ["def-nagata-qc-open-equality-stage"]
 +++

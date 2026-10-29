@@ -3,7 +3,7 @@ id = "thm-trf-l-function-euler-product"
 kind = "theorem"
 title = "Euler-product form of the trace formula"
 lean = ["AlgebraicGeometry.WeilComplex.coeff_prod_inv_alternatingCharpolyRevProd_stalk"]
-order = 3535
+order = 3862
 uses = ["def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "det-thm-tf-uniform-formula-weil", "sk-thm-tf-uniform-formula", "sk-prop-logdet", "sk-lem-finite", "lem-trf-frobenius-degree-formula", "lem-trf-iterated-weil-cocycle", "lem-trf-local-frobenius-conjugacy", "lem-zl-euler-product-identity", "prop-trf-trace-formal-laws", "sk-thm-sfb-qlbar-two-colimit"]
 +++
 Fix the global finite-field datum

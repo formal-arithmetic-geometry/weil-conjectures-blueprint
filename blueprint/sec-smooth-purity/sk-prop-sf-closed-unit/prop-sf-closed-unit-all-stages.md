@@ -3,7 +3,7 @@ id = "prop-sf-closed-unit-all-stages"
 kind = "theorem"
 title = "Closed direct image is fully faithful for every admissible coefficient ring"
 lean = ["AlgebraicGeometry.ProEtale.full_boundedConstructible_\u03b9_comp_rightDerivedLowerStar", "AlgebraicGeometry.ProEtale.isIso_unit_app_boundedConstructible", "AlgebraicGeometry.ProEtale.full_boundedConstructibleAdic_\u03b9_comp_rightDerivedLowerStar", "AlgebraicGeometry.ProEtale.isIso_unit_app_boundedConstructibleAdic", "AlgebraicGeometry.ProEtale.fullyFaithfulBoundedConstructibleAdicRightDerivedLowerStar"]
-order = 3207
+order = 3188
 tags = ["latex:proposition"]
 uses = ["def-sf-setting", "det-def-sfb-pulled-back-coefficients", "sk-prop-sf-open-closed-triangle", "sk-thm-existence", "def-weil-derived-direct-image", "def-weil-exceptional-inverse-image", "prop-sf-closed-immersion-unit", "prop-weil-open-closed-recollement-adjunctions"]
 +++

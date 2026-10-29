@@ -2,7 +2,7 @@
 id = "sk-thm-picard-f-representable"
 kind = "proposition"
 title = "Divisors of degree $g$ as an open chart"
-order = 780
+order = 806
 uses = ["sk-prop-picard-pic-split", "sk-lem-abelian-seesaw", "sk-prop-av-isogeny", "sk-def-picard-pic", "sk-thm-picard-perfect", "sk-thm-picard-hilb-curves", "sec-nagata-compactification", "sec-abelian-varieties"]
 lean = ["AlgebraicGeometry.isRepresentable_picardFunctorInvertibleDirectImage", "AlgebraicGeometry.exists_representableBy_invertibleDirectImageToHilbert", "AlgebraicGeometry.hilbertPresheaf_curve_representable"]
 tags = ["sketch"]

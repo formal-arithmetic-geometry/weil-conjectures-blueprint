@@ -3,7 +3,7 @@ id = "lem-pc-projective-space-serre-pairing"
 kind = "lemma"
 title = "Top cohomology of twists on projective space as a dual"
 lean = ["AlgebraicGeometry.ProjectiveSpace.cechComplexFunctor_map_twistMulHom_monomialCechToCechFun", "AlgebraicGeometry.ProjectiveSpace.twistMulPairing", "AlgebraicGeometry.ProjectiveSpace.twistHTopLinearEquivDual", "AlgebraicGeometry.ProjectiveSpace.twistHTopLinearEquivDual_apply", "AlgebraicGeometry.ProjectiveSpace.twistSerrePairing", "AlgebraicGeometry.ProjectiveSpace.isPerfPair_twistSerrePairing", "AlgebraicGeometry.ProjectiveSpace.twistSerrePairing_basis", "AlgebraicGeometry.ProjectiveSpace.monomialCechPairing", "AlgebraicGeometry.ProjectiveSpace.monomialCechComplexHomologyTopLinearEquivDual_apply", "AlgebraicGeometry.ProjectiveSpace.twistMulHom"]
-order = 635
+order = 658
 uses = ["def-pc-projective-space-twist", "lem-pc-cech-computes", "lem-pc-projective-space-twist-cohomology", "lem-pc-twist-tensor", "pqf-def-cohomology"]
 +++
 Let $A$ be a commutative ring, $n\ge1$, $P=\mathbf P^n_A$ with the

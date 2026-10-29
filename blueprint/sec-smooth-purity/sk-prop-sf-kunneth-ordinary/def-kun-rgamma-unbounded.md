@@ -2,7 +2,7 @@
 id = "def-kun-rgamma-unbounded"
 kind = "definition"
 title = "Unbounded derived global sections"
-order = 3083
+order = 3059
 uses = ["def-weil-pbc-etale-cohomology", "def-sp-kinjective-bridge", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
 For a scheme $T$, a commutative ring $\Lambda$ and

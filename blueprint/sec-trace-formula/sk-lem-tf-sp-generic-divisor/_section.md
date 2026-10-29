@@ -2,7 +2,7 @@
 id = "sk-lem-tf-sp-generic-divisor"
 kind = "lemma"
 title = "Generic vanishing along a principal divisor"
-order = 3563
+order = 3658
 uses = ["sk-lem-tf-sp-defect-exchanges", "sk-lem-tf-sp-thick-origin"]
 tags = ["sketch"]
 +++

@@ -2,7 +2,7 @@
 id = "lemma-nagata-conrad-case3-smaller-base"
 kind = "lemma"
 title = "The smaller base in Case 3 (Conrad)"
-order = 319
+order = 225
 lean = ["AlgebraicGeometry.exists_isCompact_opens_inf_eq_of_disjoint_closure_sdiff"]
 +++
 Let $U\subseteq V$ be open subschemes of a scheme $X$ with $U$ quasi-compact,

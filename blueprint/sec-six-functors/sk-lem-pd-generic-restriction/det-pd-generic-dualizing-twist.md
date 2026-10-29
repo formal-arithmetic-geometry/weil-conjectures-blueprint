@@ -2,7 +2,7 @@
 id = "det-pd-generic-dualizing-twist"
 kind = "lemma"
 title = "The dualizing complex and the double dual on a geometric generic fibre"
-order = 3279
+order = 3431
 uses = ["det-pd-generic-direct-image", "det-pd-generic-closed-hom", "lem-weil-duality-pairing", "thm-amb-etale-exceptional-adjoint"]
 +++
 In the setting of [det-pd-generic-direct-image] take $B=\mathbf A^1_k$, so

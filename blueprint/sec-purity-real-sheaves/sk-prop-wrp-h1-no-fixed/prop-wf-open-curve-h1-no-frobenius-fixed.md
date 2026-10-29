@@ -3,7 +3,7 @@ id = "prop-wf-open-curve-h1-no-frobenius-fixed"
 kind = "theorem"
 title = "No Frobenius-fixed compatible class on an open normal curve"
 lean = ["AlgebraicGeometry.Scheme.EtaleTorsor.exists_section_of_isIsomorphic_mapIso"]
-order = 3819
+order = 4007
 tags = ["latex:proposition"]
 uses = ["def-tw-frobenius-action", "def-weil-pbc-scheme-conventions", "lem-wf-curve-normal-smooth-compactification", "lem-wf-open-curve-residue-sequence", "lem-wf-proper-curve-compatible-h1-no-fixed"]
 +++

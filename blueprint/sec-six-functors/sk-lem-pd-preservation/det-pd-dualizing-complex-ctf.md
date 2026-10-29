@@ -2,7 +2,7 @@
 id = "det-pd-dualizing-complex-ctf"
 kind = "lemma"
 title = "The dualizing complex lies in $\\Dctf$"
-order = 3273
+order = 3424
 uses = ["det-existence-restriction", "lem-sf-mate"]
 +++
 Let $\Lambda$ be an admissible coefficient ring and let $X$ be separated of

@@ -3,7 +3,7 @@ id = "lem-fd-cohomology-affine-line-character"
 kind = "lemma"
 title = "Cohomology of an affine line with an exponential sheaf"
 lean = ["AlgebraicGeometry.WeilComplex.isZero_derivedLowerShriek_tensorLisse_artinSchreierOf_upperStar"]
-order = 3949
+order = 4161
 uses = ["lem-fd-affine-line-constant-cohomology", "lem-fd-as-characters", "lem-fd-as-cover-affine-line", "lem-fd-as-lisse", "lem-fd-finite-pushforward-cohomology"]
 +++
 Let $k$ be finite or algebraically closed, let $a\in k$, and let $\psi_a(x)=\psi(ax)$. Over $\mathbf A^1_k$,

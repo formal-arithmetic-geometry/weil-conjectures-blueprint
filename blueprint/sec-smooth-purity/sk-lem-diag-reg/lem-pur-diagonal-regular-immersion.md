@@ -2,7 +2,7 @@
 id = "lem-pur-diagonal-regular-immersion"
 kind = "lemma"
 title = "The diagonal is a regular immersion"
-order = 3245
+order = 3334
 uses = ["def-pur-conventions", "def-pur-regular-immersion", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "sbc-thm-etale-local-normal-form"]
 lean = ["AlgebraicGeometry.isRegularImmersion_diagonal"]
 +++

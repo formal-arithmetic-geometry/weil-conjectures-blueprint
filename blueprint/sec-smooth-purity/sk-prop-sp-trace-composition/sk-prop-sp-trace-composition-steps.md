@@ -2,7 +2,7 @@
 id = "det-sp-trace-transitivity-steps"
 kind = "lemma"
 title = "Transitivity of the smooth trace, step by step"
-order = 3044
+order = 3384
 uses = ["det-sp-composition-comparisons", "det-sp-composition-factors", "det-sp-trace-basic"]
 +++
 In the situation of the sketch, write $L=g^*K(e)[2e]$. Then, after the

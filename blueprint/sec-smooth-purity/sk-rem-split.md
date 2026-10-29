@@ -2,14 +2,14 @@
 id = "sk-rem-split"
 kind = "remark"
 title = "What sits where"
-order = 3259
+order = 3410
 tags = ["sketch"]
 +++
 The five moves are the whole proof. Conveniently located: the
 rank-one computation (Kummer $c_1$, excision, Gysin identification of
-$Rs^{!}(1)[2]$ with $H^2_s$) — inside [sk-prop-a1-kummer], proved from
+$Rs^{!}(1)[2]$ with $H^2_s$) — inside [det-prop-a1-kummer], proved from
 the Kummer sequence and the cohomological-dimension bound of §[sec-curve-estimates], with the
-orientation itself derived in [sk-prop-a1]; the Künneth and
+orientation itself derived in [det-prop-a1]; the Künneth and
 frame-independence arguments (the Thom class is the $\Aaf^1$-class written in
 coordinates) — inside [sk-prop-an]; the geometry of the deformation of a
 *section* — [sk-lem-geometry]. Purity for regular closed immersions

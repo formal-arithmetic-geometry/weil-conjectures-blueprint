@@ -2,8 +2,8 @@
 id = "sk-lem-as-properties"
 kind = "lemma"
 title = "The Artin–Schreier character sheaf"
-order = 3930
-uses = ["sk-def-purity-conv", "sk-prop-sfb-finite-extension-compatibility", "sk-prop-ctf-finite-comparison", "sk-def-sfb-constructible", "sk-thm-frobenius", "sec-curve-estimates"]
+order = 4141
+uses = ["sk-prop-cohsm", "sk-thm-sfb-proper-base-change", "sk-prop-ctf-finite-comparison", "sk-def-sfb-constructible", "sk-thm-frobenius", "sec-curve-estimates", "sk-thm-existence"]
 tags = ["sketch"]
 +++
 Let $\psi:k_0\to E^\times$ be a nontrivial additive character.

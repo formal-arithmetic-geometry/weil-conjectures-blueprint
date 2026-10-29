@@ -2,7 +2,7 @@
 id = "def-weil-pbc-w-localization"
 kind = "definition"
 title = "The affine w-localization"
-order = 904
+order = 943
 lean = ["WLocalization", "WLocalization.Generalization", "WLocalization.ProdStrata", "WLocalization.ideal"]
 uses = ["def-weil-pbc-ind-etale-algebra", "def-weil-pbc-w-local"]
 +++

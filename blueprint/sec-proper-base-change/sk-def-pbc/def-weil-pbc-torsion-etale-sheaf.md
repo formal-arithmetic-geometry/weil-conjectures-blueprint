@@ -3,7 +3,7 @@ id = "def-weil-pbc-torsion-etale-sheaf"
 kind = "definition"
 title = "Torsion abelian sheaf on the small etale site"
 lean = ["AlgebraicGeometry.Scheme.IsTorsionAbelianSheaf"]
-order = 1517
+order = 1637
 uses = ["def-weil-pbc-abelian-etale-sheaves", "def-pur-abelian-sheaf-kernel", "def-weil-pbc-category-colimit"]
 tags = ["stacks-0DDB"]
 +++

@@ -2,7 +2,7 @@
 id = "lem-trf-finite-tor-amplitude-perfect"
 kind = "lemma"
 title = "Finite Tor amplitude and perfectness over the finite coefficient ring"
-order = 3199
+order = 3180
 uses = ["def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-weil-finite-coefficient-point", "def-weil-finite-tor-amplitude"]
 +++
 Let $A=A_{E,n}=\mathcal O_E/\pi_E^n$ be the

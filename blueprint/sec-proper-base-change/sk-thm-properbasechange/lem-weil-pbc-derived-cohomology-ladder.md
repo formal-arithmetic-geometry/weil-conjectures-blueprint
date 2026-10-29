@@ -4,7 +4,7 @@ kind = "lemma"
 title = "A morphism of distinguished triangles gives a morphism of the long exact cohomology sequences"
 uses = ["def-weil-abstract-derived-category", "def-weil-triangulated-category", "lem-sf-derived-homology-long-exact", "def-weil-pbc-triangles-with-shift"]
 lean = ["CategoryTheory.Functor.homologySequenceδ_naturality"]
-order = 1983
+order = 2107
 tags = ["mathlib", "stacks-0147"]
 +++
 Let $\mathcal C$ be an abelian category, $D(\mathcal C)$ its derived category [def-weil-abstract-derived-category], a triangulated category [def-weil-triangulated-category], with cohomology functors $H^n:D(\mathcal C)\to\mathcal C$, and for a distinguished triangle $T=(X\xrightarrow{u}Y\xrightarrow{v}Z\xrightarrow{w}X[1 ])$ let

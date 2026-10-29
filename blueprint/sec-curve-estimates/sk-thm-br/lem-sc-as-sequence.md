@@ -3,7 +3,7 @@ id = "lem-sc-as-sequence"
 kind = "lemma"
 title = "The Artin–Schreier sequence"
 lean = ["AlgebraicGeometry.Scheme.artinSchreierSequence_shortExact", "AlgebraicGeometry.Scheme.constantZModIsoKernelGaArtinSchreier", "AlgebraicGeometry.Scheme.isLocallySurjective_gaArtinSchreier"]
-order = 1364
+order = 1469
 uses = ["def-sc-curves"]
 +++
 Let $p$ be a prime and $X$ a scheme with $p=0$ in $\Gamma(X,\mathcal O_X)$

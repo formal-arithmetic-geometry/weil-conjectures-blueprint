@@ -3,7 +3,7 @@ id = "lem-wf-lisse-stalk-vanishing"
 kind = "lemma"
 title = "Lisse sheaves with vanishing geometric stalks"
 lean = ["AlgebraicGeometry.ProEtale.IsAdicLisseSheaf.isZero_of_forall_subsingleton_stalk", "AlgebraicGeometry.ProEtale.isZero_adicUpperStar_of_forall_subsingleton_stalk"]
-order = 3775
+order = 3954
 uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-qlbar-condensed", "det-def-sfb-module-pushforward-pullback", "sk-lem-coefficient-heart"]
 +++
 Let $X$ be a scheme and $\overline{\mathbf Q}_{\ell,X}=p_X^*\underline{\Qlb}$ the coefficient

@@ -2,7 +2,7 @@
 id = "det-thm-sf-ctf-stability-internal-hom"
 kind = "lemma"
 title = "Internal Hom on $\\Dctf$ for all admissible coefficient rings"
-order = 2467
+order = 2808
 uses = ["det-thm-sf-ctf-stability-direct-images", "sk-lem-sf-flat-model", "sk-lem-int-tensor"]
 +++
 Let $\Lambda$ be admissible. For $K,L\in\Dctf(X,\Lambda)$,

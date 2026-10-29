@@ -2,7 +2,7 @@
 id = "rem-pc-relation-sc"
 kind = "remark"
 title = "Relation to the curves of file 06"
-order = 478
+order = 497
 uses = ["def-sc-curves"]
 +++
 The curve-calculation chapter uses a slightly coarser notion: for a field $k$, a *curve

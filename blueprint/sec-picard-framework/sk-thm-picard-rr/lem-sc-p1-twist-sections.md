@@ -3,7 +3,7 @@ id = "lem-sc-p1-twist-sections"
 kind = "lemma"
 title = "Sections of the twists"
 lean = ["AlgebraicGeometry.ProjectiveLine.nonempty_H_zero_twist_equiv_twistSectionPairs"]
-order = 640
+order = 663
 uses = ["def-sc-p1-standard"]
 +++
 Let $k$ be a field, $d\in\mathbf Z$, and let $\mathcal O(d)$

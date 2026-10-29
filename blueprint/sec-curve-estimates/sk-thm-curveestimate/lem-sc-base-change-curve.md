@@ -3,7 +3,7 @@ id = "lem-sc-base-change-curve"
 kind = "lemma"
 title = "Base change of a curve"
 lean = ["AlgebraicGeometry.IsConnectedCurve.baseChangeField_of_compactification", "AlgebraicGeometry.Scheme.Hom.baseChangeField_isCurve", "AlgebraicGeometry.IsConnectedCurve.baseChangeField"]
-order = 1411
+order = 1516
 uses = ["def-sc-curves", "def-weil-pbc-scheme-conventions"]
 +++
 Let $k\subseteq k'$ be a field extension and let $C$ be a separated,

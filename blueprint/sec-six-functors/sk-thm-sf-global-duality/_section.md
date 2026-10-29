@@ -2,7 +2,7 @@
 id = "sk-thm-sf-global-duality"
 kind = "theorem"
 title = "Global Verdier duality"
-order = 3286
+order = 3487
 uses = ["sk-prop-sf-open-closed-triangle", "sk-thm-sf-verdier-exchange", "sk-def-ops"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_coefficientDual_rightDerivedLowerShriek"]
 tags = ["sketch"]

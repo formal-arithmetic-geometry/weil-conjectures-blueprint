@@ -2,7 +2,7 @@
 id = "lemma-nagata-dense-source-valuative"
 kind = "lemma"
 title = "Dense-source valuative criterion"
-order = 381
+order = 291
 lean = ["AlgebraicGeometry.IsProper.of_valuativeCriterion_of_isDominant", "AlgebraicGeometry.IsSeparated.of_valuativeCriterion_of_isDominant", "AlgebraicGeometry.UniversallyClosed.of_valuativeCriterion_of_isDominant"]
 +++
 Let $f\colon X\to S$ be a morphism of schemes, let

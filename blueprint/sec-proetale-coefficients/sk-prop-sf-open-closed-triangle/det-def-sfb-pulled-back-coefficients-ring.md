@@ -4,7 +4,7 @@ kind = "lemma"
 title = "$\\Lambda_X$ is a ring object, functorially and preserving commutativity"
 uses = ["det-def-sfb-pulled-back-coefficients-definition", "det-def-sfb-ring-object-transport", "def-sfb-upper-star-from-point"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientRing", "CategoryTheory.Functor.mapMon", "AlgebraicGeometry.ProEtale.isCommMonObj_condensedRingObj"]
-order = 1131
+order = 1175
 +++
 In the situation of [det-def-sfb-pulled-back-coefficients-definition]:
 

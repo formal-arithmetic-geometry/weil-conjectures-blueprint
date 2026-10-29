@@ -2,7 +2,7 @@
 id = "det-def-sfb-condensed-ring"
 kind = "definition"
 title = "Condensed coefficient rings $\\underline T$"
-order = 1034
+order = 1075
 uses = ["det-def-sfb-ring-object"]
 lean = ["Profinite.continuousMapRingSheaf", "Profinite.continuousMapRingObj", "Profinite.continuousMapRingSheafMap", "Profinite.padicIntCondensedRing", "Profinite.padicCondensedRing", "Profinite.padicSubfieldCondensedRing", "Profinite.padicIntegersCondensedRing", "Profinite.isCommMonObj_continuousMapRingObj", "Profinite.padicIntCondensedRingToPadicCondensedRing", "Profinite.padicCondensedRingToPadicSubfieldCondensedRing", "Profinite.padicIntegersCondensedRingToPadicSubfieldCondensedRing", "Profinite.padicIntCondensedRingToPadicIntegersCondensedRing"]
 +++

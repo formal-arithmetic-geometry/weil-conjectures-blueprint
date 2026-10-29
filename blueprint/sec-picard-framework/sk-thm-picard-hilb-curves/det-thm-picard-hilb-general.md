@@ -2,7 +2,7 @@
 id = "det-thm-picard-hilb-general"
 kind = "theorem"
 title = "Representability of $\\Hilb^d$ — general case"
-order = 761
+order = 787
 lean = ["AlgebraicGeometry.isRepresentable_hilbertPresheaf"]
 +++
 Let $X\to S$ be a *separated* morphism and $d\ge0$. Assume that

@@ -73,6 +73,6 @@ sheaves. It follows that exchange is an isomorphism in every degree for $K$.
 
 *Injective acyclicity.* Finally, if $I$ is a torsion injective sheaf of
 $\Lambda$-modules, then $R^qp_*I=0$ for $q>0$. The sheaf case of the theorem
-gives $R^qp'_*g'^{-1}I\simeq g^{-1}R^qp_*I=0$. For $\Lambda=\mathbf F_r$ this
-is $\mathrm{IA}_r(p)$ of [sk-def-ia], which is condition 3 of [sk-thm-iff]
-for $p$.
+gives $R^qp'_*g'^{-1}I\simeq g^{-1}R^qp_*I=0$. This is
+$\mathrm{IA}_\Lambda(p)$ of [sk-def-ia], which is condition 3 of [sk-thm-iff]
+for $p$ when $\Lambda$ is torsion as an abelian group.

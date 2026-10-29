@@ -2,7 +2,7 @@
 id = "thm-pc-pic-split"
 kind = "theorem"
 title = "The split exact sequence for the Picard functor"
-order = 630
+order = 652
 uses = ["def-pc-pic-sigma-functor", "def-pc-picard-functor", "def-pc-subfunctor", "lem-pc-pic-exact"]
 lean = ["AlgebraicGeometry.injective_pic_map_snd", "AlgebraicGeometry.pic_map_sectionBaseChange_snd", "AlgebraicGeometry.bijective_toPicardFunctor_picardFunctorNormalized", "AlgebraicGeometry.bijective_pic_split", "AlgebraicGeometry.range_pic_mapHom_snd_eq_ker_toPicardFunctorHom", "AlgebraicGeometry.surjective_toPicardFunctorHom", "AlgebraicGeometry.picMulEquivProdPicardFunctorNormalized", "AlgebraicGeometry.sheafifyPicardFunctorNormalizedIso"]
 +++

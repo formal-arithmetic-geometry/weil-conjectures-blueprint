@@ -2,7 +2,7 @@
 id = "def-kun-bc-property"
 kind = "definition"
 title = "The base-change property $BC(f,n,q_0)$"
-order = 3091
+order = 3067
 uses = ["def-kun-cd", "def-kun-unbounded-exchange", "def-weil-pbc-scheme-conventions", "sbc-def-base-change-map", "sbc-def-base-change-property"]
 +++
 Let $f:X\to S$ be a morphism of schemes, $n\ge1$, and

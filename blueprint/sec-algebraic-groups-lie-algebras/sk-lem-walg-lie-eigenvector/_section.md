@@ -3,7 +3,7 @@ id = "sk-lem-walg-lie-eigenvector"
 kind = "lemma"
 title = "Lie's eigenvector theorem"
 lean = ["LieModule.exists_ne_zero_forall_lie_eq_smul_of_isSolvable"]
-order = 3696
+order = 3907
 tags = ["sketch"]
 +++
 The derived series of a Lie algebra is $D^0\mathfrak l=\mathfrak l$,

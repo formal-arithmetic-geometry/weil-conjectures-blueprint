@@ -2,7 +2,7 @@
 id = "det-nearby-kunneth-finite-support"
 kind = "lemma"
 title = "Global sections detect complexes with finite support"
-order = 3571
+order = 3667
 +++
 Let $V$ be a scheme of finite type over a separably closed field $k$, let $A$ be a finite
 commutative ring annihilated by an integer invertible in $k$, and let

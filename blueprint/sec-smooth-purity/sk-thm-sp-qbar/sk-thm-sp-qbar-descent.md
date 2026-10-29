@@ -2,10 +2,10 @@
 id = "det-sp-qbar-finite-descent"
 kind = "lemma"
 title = "Finite diagrams of $\\overline{\\mathbf Q}_\\ell$-complexes descend to a finite extension"
-order = 3017
-uses = ["sk-thm-sfb-qlbar-two-colimit", "sk-prop-scalar-six"]
+order = 3327
+uses = ["sk-prop-qlbar-two-colimit", "sk-prop-scalar-six"]
 +++
-Let $T$ be a scheme and $E/\Ql$ finite. By [sk-thm-sfb-qlbar-two-colimit] the
+Let $T$ be a scheme and $E/\Ql$ finite. By [sk-prop-qlbar-two-colimit] the
 condensed category $\Dbc(T,\Qlb)$ is the $2$-colimit of the categories
 $\Dbc(T,F)$ over finite extensions $F\supset E$ inside $\Qlb$, along the
 extension-of-scalars functors; this is a theorem, not a definition. Then:

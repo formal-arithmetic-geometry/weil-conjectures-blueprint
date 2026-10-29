@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-geometric-stalks-detect-mono"
 kind = "lemma"
 title = "Monomorphisms of etale sheaves are detected on a covering family of geometric stalks"
-order = 1576
+order = 1705
 uses = ["def-pc-scheme", "def-pc-separably-closed", "def-weil-geometric-point", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-geometric-stalks"]
 lean = ["AlgebraicGeometry.Scheme.isConservative_pointSmallEtale", "CategoryTheory.ObjectProperty.IsConservativeFamilyOfPoints.jointlyReflectMonomorphisms", "CategoryTheory.JointlyReflectMonomorphisms.mono_iff", "AddCommGrpCat.mono_iff_injective"]
 tags = ["mathlib", "stacks-03PU"]

@@ -3,7 +3,7 @@ id = "def-sc-normalization"
 kind = "definition"
 title = "Normalization in the function field"
 lean = ["AlgebraicGeometry.Scheme.normalization", "AlgebraicGeometry.Scheme.fromNormalization"]
-order = 1342
+order = 1447
 uses = ["def-sc-function-field"]
 +++
 Let $X$ be an integral scheme with function field

@@ -3,7 +3,7 @@ id = "thm-weil-pbc-stein-inputs"
 kind = "theorem"
 title = "The two classical inputs of Stein connectedness"
 lean = ["AlgebraicGeometry.Scheme.Hom.isFinite_steinFactorizationBase", "AlgebraicGeometry.Scheme.Hom.isConnected_inter_preimage_zeroLocus"]
-order = 1529
+order = 1650
 uses = ["def-weil-pbc-henselian-terminology", "def-weil-pbc-stein-factorization", "def-weil-pbc-scheme-conventions"]
 tags = ["latex:openproblem"]
 +++

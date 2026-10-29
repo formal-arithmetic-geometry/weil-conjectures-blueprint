@@ -8,8 +8,8 @@ is [thm-coef-finite-hom]. For every admissible $\Lambda$, preservation of
 $\Dctf$ by the operations is [sk-thm-sf-ctf-stability] and the existence of
 the exceptional adjoint is [sk-thm-existence], and their coefficient comparisons are
 [sk-prop-scalar-six].
-Clause (1) is [sk-prop-sfb-finite-extension-compatibility] together with
-[sk-def-sfb-coefficient-change] and the descent statement
+Clause (1) is [det-prop-sfb-finite-extension-compatibility] together with
+[det-def-sfb-coefficient-change] and the descent statement
 [sk-thm-sfb-qlbar-two-colimit].
 For (2), use [prop-compactification-coherence-detailed], the
 reduction comparisons of [sk-prop-scalar-six] and the independently
@@ -23,7 +23,7 @@ Clause (4) is [thm-weil-pbc-bounded-below],
 [sbc-thm-bounded-below-derived-smooth-base-change] and
 [thm-cbc-finite-torsion] at the finite stages, and
 [sk-thm-sfb-proper-base-change], [sk-thm-sbc-coefficients] and
-[sk-prop-sf-cbc] for every admissible $\Lambda$.
+[det-prop-sf-cbc] for every admissible $\Lambda$.
 Clause (5) is [fix-prop-projection-formula].
 Clause (6) is [thm-pur-finite-coefficient-smooth-purity] at the finite
 stages and [sk-thm-purity-transport] for every admissible $\Lambda$.

@@ -3,7 +3,7 @@ id = "prop-pod-cup-product-coherence"
 kind = "theorem"
 title = "Coherence of the mixed-support cup product"
 lean = ["AlgebraicGeometry.Etale.rightDerivedLowerStarCupProduct", "AlgebraicGeometry.Etale.rightDerivedLowerStarUnit", "AlgebraicGeometry.Etale.mixedSupportCupProduct_naturality_left", "AlgebraicGeometry.Etale.mixedSupportCupProduct_naturality_right", "AlgebraicGeometry.Etale.mixedSupportCupProduct_naturality", "AlgebraicGeometry.Etale.mixedSupportCupProduct_associativity", "AlgebraicGeometry.Etale.mixedSupportCupProduct_rightUnitality", "AlgebraicGeometry.Etale.mixedSupportCupProduct_comp_forgetSupports", "AlgebraicGeometry.Etale.mixedSupportCupProduct_comp_lowerShriekIsoLowerStar", "AlgebraicGeometry.Etale.rightDerivedLowerStarCupProduct_associativity"]
-order = 3433
+order = 3603
 tags = ["latex:proposition"]
 uses = ["cor-cbc-proper-coincidence", "def-exchange-projection", "def-weil-derived-direct-image", "def-weil-derived-tensor", "fix-prop-adjunctions", "fix-prop-projection-formula"]
 +++

@@ -2,7 +2,7 @@
 id = "sk-d-pairing"
 kind = "definition"
 title = "The supported pairing recipe"
-order = 3629
+order = 3721
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-thm-sf-kunneth-verdier"]
 tags = ["sketch"]
 +++

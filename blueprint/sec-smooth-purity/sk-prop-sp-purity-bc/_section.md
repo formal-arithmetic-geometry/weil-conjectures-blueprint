@@ -2,8 +2,8 @@
 id = "sk-prop-sp-purity-bc"
 kind = "proposition"
 title = "Base change of purity"
-order = 3019
-uses = ["sk-prop-cohsm", "sk-thm-smooth-purity", "sk-prop-sp-tower-geometric", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-lem-sp-reduction"]
+order = 3356
+uses = ["sk-prop-cohsm", "sk-thm-smooth-purity", "sk-prop-sp-tower-geometric", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-lem-sp-reduction", "sk-thm-existence"]
 tags = ["sketch"]
 +++
 Fix a Cartesian square

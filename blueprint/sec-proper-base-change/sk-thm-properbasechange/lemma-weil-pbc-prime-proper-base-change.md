@@ -2,7 +2,7 @@
 id = "lemma-weil-pbc-prime-proper-base-change"
 kind = "lemma"
 title = "Proper base change with torsion coefficient rings"
-order = 1962
+order = 2086
 lean = ["AlgebraicGeometry.Etale.isIso_baseChange_of_isProper_of_isAddTorsion_ring", "AlgebraicGeometry.Etale.hasTorsionBaseChange_of_projectiveLine_of_isProper_of_isAddTorsion", "AlgebraicGeometry.Etale.hasTorsionBaseChange_projectiveLine"]
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "def-weil-pbc-property", "def-weil-pbc-scheme-conventions", "prop-weil-pbc-projective-line", "prop-weil-pbc-reduction-to-projective-line"]
 +++

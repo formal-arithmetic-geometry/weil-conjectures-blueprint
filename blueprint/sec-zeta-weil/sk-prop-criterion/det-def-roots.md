@@ -3,9 +3,9 @@ id = "det-def-roots"
 kind = "definition"
 title = "Reciprocal roots, weights and integrality"
 lean = ["Polynomial.IsPureOfWeight", "Polynomial.IsUniversallyPureOfWeight", "Polynomial.alternatingNatDegreeSum", "shiftSpan"]
-order = 4109
+order = 4343
 +++
-With $P_i\in\Z[T]$ the integral factor that [sk-thm-intfactors] produces
+With $P_i\in\Z[T]$ the integral factor that [thm-wweil-integral-factors] produces
 later put $b_i=\deg P_i$ and $P_i^{\#}(U)=U^{b_i}P_i(U^{-1})$. (Nothing here
 depends on that theorem: wherever these notions are used before it, they are
 applied to the $\ell$-adic factors $P_{i,\ell}$, whose roots in $\Qlb$ are

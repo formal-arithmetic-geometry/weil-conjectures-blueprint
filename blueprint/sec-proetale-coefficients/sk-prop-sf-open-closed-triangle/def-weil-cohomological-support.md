@@ -2,7 +2,7 @@
 id = "def-weil-cohomological-support"
 kind = "definition"
 title = "Cohomological support"
-order = 1079
+order = 1123
 lean = ["DerivedCategory.cohomologicalSupport"]
 uses = ["def-weil-derived-cohomology-sheaves", "def-weil-pbc-proetale-site"]
 +++

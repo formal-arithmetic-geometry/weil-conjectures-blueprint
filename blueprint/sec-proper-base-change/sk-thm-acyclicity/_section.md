@@ -2,7 +2,7 @@
 id = "sk-thm-acyclicity"
 kind = "lemma"
 title = "Acyclic resolutions"
-order = 1536
+order = 1658
 lean = ["CategoryTheory.Functor.nonempty_rightDerivedObjIso_homology_of_acyclic", "CategoryTheory.Functor.isIso_rightDerivedFunctorPlusUnit_app_of_rightAcyclic"]
 tags = ["sketch"]
 +++

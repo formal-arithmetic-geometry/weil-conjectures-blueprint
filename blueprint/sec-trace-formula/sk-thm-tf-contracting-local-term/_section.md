@@ -2,7 +2,7 @@
 id = "sk-thm-tf-contracting-local-term"
 kind = "theorem"
 title = "Contracting correspondences and local terms"
-order = 3597
+order = 3798
 uses = ["sk-i-additivity", "sk-d-trace-class", "sk-lem-tf-contracting-fixed-geometry", "sk-cor-tf-sp-fixed-constant", "sk-thm-tf-sp-zero-section", "sk-lem-tf-contracting-cone-geometry", "sk-prop-tf-trace-specialization", "sk-p-proper"]
 tags = ["sketch"]
 +++

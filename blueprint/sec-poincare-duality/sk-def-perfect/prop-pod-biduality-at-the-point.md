@@ -3,7 +3,7 @@ id = "prop-pod-biduality-at-the-point"
 kind = "theorem"
 title = "Biduality at the point"
 lean = ["DerivedCategory.IsPerfect.isDualizable", "DerivedCategory.IsPerfect.isIso_toIhomIhomUnit", "DerivedCategory.IsPerfect.isIso_ihomUnitTensorToIhom"]
-order = 3431
+order = 3601
 tags = ["latex:proposition"]
 uses = ["def-pod-conventions", "def-pod-perfect-point-complex", "def-weil-derived-pullback-tensor-hom", "def-weil-finite-coefficient-point", "def-weil-geometric-hypotheses", "lem-pod-finite-projective-tensor-hom"]
 +++

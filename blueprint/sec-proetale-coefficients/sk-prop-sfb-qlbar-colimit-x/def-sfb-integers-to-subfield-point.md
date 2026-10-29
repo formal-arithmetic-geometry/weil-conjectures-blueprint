@@ -2,7 +2,7 @@
 id = "def-sfb-integers-to-subfield-point"
 kind = "definition"
 title = "The inclusion of condensed rings $\\underline{\\mathcal O}_E\\to\\underline E$"
-order = 1185
+order = 1232
 uses = ["det-def-sfb-condensed-ring", "det-def-sfb-ring-object"]
 lean = ["AlgebraicGeometry.ProEtale.padicIntegersRingObjToContinuousMapRingObj"]
 +++

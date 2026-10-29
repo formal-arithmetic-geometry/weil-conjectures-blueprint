@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-etale-composition-cancellation"
 kind = "lemma"
 title = "Open immersions are etale; etale morphisms compose and cancel"
-order = 1514
+order = 1634
 uses = ["def-pc-scheme", "def-weil-open-immersion", "def-weil-etale-morphism"]
 lean = ["AlgebraicGeometry.HasRingHomProperty.of_isOpenImmersion", "AlgebraicGeometry.Etale.etale_comp", "AlgebraicGeometry.Etale.of_comp"]
 tags = ["mathlib", "stacks-02GP"]

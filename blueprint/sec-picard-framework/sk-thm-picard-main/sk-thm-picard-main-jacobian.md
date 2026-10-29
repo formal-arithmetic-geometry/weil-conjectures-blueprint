@@ -3,7 +3,7 @@ id = "det-picard-main-jacobian"
 kind = "lemma"
 title = "The Jacobian of a geometric curve: points, tangent space, base change"
 lean = ["AlgebraicGeometry.exists_jacobian", "AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one", "AlgebraicGeometry.nonempty_picardFunctor_iso_of_isPullback", "AlgebraicGeometry.nonempty_representableBy_picardFunctorDegree_baseChange", "AlgebraicGeometry.exists_jacobian_baseChange"]
-order = 837
+order = 865
 uses = ["det-picard-main-degree", "det-picard-main-geometry", "def-pc-picard-functor"]
 +++
 In the situation of [det-picard-main-geometry], put

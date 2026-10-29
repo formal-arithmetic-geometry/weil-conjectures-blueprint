@@ -3,7 +3,7 @@ id = "def-pc-field-tower"
 kind = "definition"
 title = "Field extensions"
 lean = ["FiniteDimensional", "Algebra.IsAlgebraic", "Algebra.IsSeparable", "IsPurelyInseparable", "isPurelyInseparable_iff_exists_algebraMap_eq_pow", "IsAlgClosure"]
-order = 622
+order = 644
 uses = ["def-pc-scheme"]
 +++
 Let $K/k$ be a field extension. It is *finite* if $[K:k]<\infty$,

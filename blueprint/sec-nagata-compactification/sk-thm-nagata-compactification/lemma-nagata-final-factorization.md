@@ -3,7 +3,7 @@ id = "lemma-nagata-final-factorization"
 kind = "lemma"
 title = "Factorization equality for the final candidate"
 lean = ["AlgebraicGeometry.constructedCompactification_i_g"]
-order = 101
+order = 409
 uses = ["def-nagata-final-compactification", "def-nagata-scheme-image-factor", "lemma-nagata-final-compactification-spec", "lemma-nagata-final-fp-envelope", "lemma-nagata-scheme-image-universal"]
 +++
 The constructed maps in

@@ -2,7 +2,7 @@
 id = "pur9-def-normal-cone"
 kind = "definition"
 title = "Normal cone"
-order = 2930
+order = 3302
 +++
 For a closed immersion $i:Z\hookrightarrow X$ with ideal sheaf $\mathcal I$, the normal cone is
 

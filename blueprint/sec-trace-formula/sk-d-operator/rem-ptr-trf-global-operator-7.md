@@ -2,7 +2,7 @@
 id = "rem-ptr-trf-global-operator-7"
 kind = "remark"
 title = "Pointer to the properties of [def-trf-global-operator]"
-order = 3627
+order = 3719
 uses = ["def-trf-global-operator", "lem-trf-global-operator-naturality"]
 +++
 In the notation of [def-trf-global-operator], the naturality of $T_c(u)$ in

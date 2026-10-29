@@ -2,7 +2,7 @@
 id = "rem-galois-uses"
 kind = "remark"
 title = "Where the compiled blueprint used this without citation"
-order = 1365
+order = 1470
 +++
 The material above replaces three uncited invocations in the compiled
 blueprint. (1) The definition of the geometric fundamental representation

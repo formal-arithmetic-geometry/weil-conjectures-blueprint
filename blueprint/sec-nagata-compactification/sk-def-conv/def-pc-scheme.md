@@ -2,7 +2,7 @@
 id = "def-pc-scheme"
 kind = "definition"
 title = "Schemes"
-order = 3
+order = 6
 lean = ["AlgebraicGeometry.Scheme", "AlgebraicGeometry.Scheme.Hom", "AlgebraicGeometry.IsAffine", "AlgebraicGeometry.Scheme.Opens"]
 +++
 A *scheme* is a locally ringed space which is locally isomorphic to

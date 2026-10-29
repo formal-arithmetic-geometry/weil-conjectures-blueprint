@@ -2,7 +2,7 @@
 id = "lemma-nagata-dense-flat-pullback"
 kind = "lemma"
 title = "Flat base change of scheme-theoretic images and dense pullbacks"
-order = 124
+order = 44
 lean = ["AlgebraicGeometry.IsSchemeTheoreticallyDominant.of_isPullback", "AlgebraicGeometry.Scheme.Hom.ker_pullback_snd"]
 uses = ["def-nagata-dense-compactification", "def-nagata-extended-ideal"]
 +++

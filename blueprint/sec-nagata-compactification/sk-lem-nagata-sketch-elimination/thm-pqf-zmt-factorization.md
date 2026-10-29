@@ -3,7 +3,7 @@ id = "thm-pqf-zmt-factorization"
 kind = "theorem"
 title = "Zariski's main theorem: the quasi-finite factorization"
 lean = ["AlgebraicGeometry.Scheme.Hom.exists_isOpenImmersion_isFinite_of_locallyQuasiFinite", "AlgebraicGeometry.Scheme.Hom.FiniteApproximation", "AlgebraicGeometry.Scheme.Hom.nonempty_finiteApproximation_of_isIntegralHom", "AlgebraicGeometry.Scheme.Hom.exists_finiteApproximation_of_isIntegralHom", "AlgebraicGeometry.Scheme.Hom.exists_isOpenImmersion_isFinite_locallyOfFinitePresentation"]
-order = 310
+order = 216
 uses = ["def-weil-pbc-scheme-conventions", "pqf-def-quasifinite", "thm-pqf-immersion-descent"]
 +++
 Let $f:X\to S$ be a

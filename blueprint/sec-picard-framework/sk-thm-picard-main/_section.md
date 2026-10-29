@@ -2,7 +2,7 @@
 id = "sk-thm-picard-main"
 kind = "theorem"
 title = "The Picard scheme and Jacobian of a geometric curve"
-order = 813
+order = 841
 uses = ["sk-def-picard-pic", "sk-prop-picard-pic-split", "sk-thm-picard-f-representable", "sk-thm-picard-twist", "sk-lem-abelian-seesaw", "sk-thm-picard-hilb-curves", "sk-thm-picard-rr", "sec-abelian-varieties", "sec-nagata-compactification"]
 lean = ["AlgebraicGeometry.isRepresentable_picardFunctor", "AlgebraicGeometry.exists_jacobian", "AlgebraicGeometry.theorem_of_the_base", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctor", "AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one", "AlgebraicGeometry.exists_jacobian_baseChange"]
 tags = ["sketch"]
@@ -19,14 +19,15 @@ $$
 Each component is a smooth proper geometrically connected variety of
 dimension $g$, parametrizing invertible sheaves of degree $d$. The
 identity component $J(C)=\operatorname{Pic}^0_{C/k}$ is an abelian
-variety, and
+variety of dimension $g$ representing $\operatorname{Pic}^0_{C/k}$, that
+is, a Jacobian of $C$, and
 
 $$
 J(C)(k)=\operatorname{Pic}^0(C),
 \qquad T_0J(C)=H^1(C,\cO_C).
 $$
 
-The formation of this representing functor, its degree components and
+The formation of this representing scheme, its degree components and
 $J(C)$ commutes with extension of the ground field.
 
 *Complement (separably closed ground field).* More generally, let $k$ be

@@ -3,7 +3,7 @@ id = "lem-galois-aut-profinite"
 kind = "lemma"
 title = "$\\operatorname{Aut}(F)$ is profinite"
 lean = ["CategoryTheory.PreGaloisCategory.autEmbedding", "CategoryTheory.PreGaloisCategory.autEmbedding_range", "CategoryTheory.PreGaloisCategory.autEmbedding_range_isClosed", "CategoryTheory.PreGaloisCategory.autEmbedding_isClosedEmbedding"]
-order = 1378
+order = 1483
 uses = ["def-galois-category", "def-galois-fibre-functor"]
 +++
 Let $\mathcal C$ be a category and $F:\mathcal C\to(\text{finite sets})$

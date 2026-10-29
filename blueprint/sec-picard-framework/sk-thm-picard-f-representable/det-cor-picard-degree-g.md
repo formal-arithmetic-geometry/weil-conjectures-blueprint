@@ -2,7 +2,7 @@
 id = "det-cor-picard-degree-g"
 kind = "corollary"
 title = "The degree of the dictionary"
-order = 783
+order = 809
 lean = ["AlgebraicGeometry.Scheme.degree_eq_genus"]
 +++
 Let $X$ be a proper smooth curve over a field $k$ (smooth of relative

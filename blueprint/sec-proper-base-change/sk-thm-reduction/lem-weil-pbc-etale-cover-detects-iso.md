@@ -3,7 +3,7 @@ id = "lem-weil-pbc-etale-cover-detects-iso"
 kind = "lemma"
 title = "A morphism of etale sheaves is an isomorphism iff it is one on a jointly surjective family"
 lean = ["AlgebraicGeometry.Etale.isIso_iff_forall_isIso_upperStar_map_of_jointlySurjective"]
-order = 1943
+order = 2065
 uses = ["def-pc-scheme", "def-weil-etale-morphism", "def-weil-pbc-abelian-etale-sheaves", "def-weil-pbc-inverse-image"]
 tags = ["stacks-0EZR"]
 +++

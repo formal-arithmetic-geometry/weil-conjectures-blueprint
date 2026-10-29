@@ -2,7 +2,7 @@
 id = "det-cd-etale-comparison"
 kind = "lemma"
 title = "Pro-étale and étale ℓ-cohomological dimensions agree"
-order = 2100
+order = 2231
 uses = ["det-pe-classical-sheaves-modules", "sk-prop-sf-comparison", "prop-weil-pbc-comparison-direct-image", "def-sc-etale-torsion-cd"]
 +++
 Let $S$ be a qcqs scheme and $g\colon X\to Y$ a qcqs morphism. A sheaf of abelian

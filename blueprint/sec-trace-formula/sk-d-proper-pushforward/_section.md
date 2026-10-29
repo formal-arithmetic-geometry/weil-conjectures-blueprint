@@ -2,7 +2,7 @@
 id = "sk-d-proper-pushforward"
 kind = "definition"
 title = "Pushforward of a correspondence"
-order = 3467
+order = 3740
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-six", "sk-d-trace-class"]
 tags = ["sketch"]
 +++

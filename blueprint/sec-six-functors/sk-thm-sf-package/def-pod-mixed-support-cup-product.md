@@ -2,7 +2,7 @@
 id = "def-pod-mixed-support-cup-product"
 kind = "definition"
 title = "Mixed-support cup product"
-order = 3385
+order = 3558
 uses = ["sk-prop-scalar-six"]
 +++
 In the Poincare duality conventions of this chapter (the fixed setting), let $\Lambda\in\{A,\mathcal O_E,E,\overline{\mathbf Q}_{\ell}\}$ be an admissible coefficient ring, regarded as a condensed ring, and let $K,L\in D^b_{ctf}(X,\Lambda)\subseteq D(X_{\mathrm{pro\acute et}},\Lambda)$. The *mixed-support cup product* is the canonical map

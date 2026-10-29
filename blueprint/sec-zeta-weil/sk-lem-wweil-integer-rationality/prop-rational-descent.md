@@ -3,7 +3,7 @@ id = "prop-rational-descent"
 kind = "theorem"
 title = "Rational descent of the zeta series"
 lean = ["AlgebraicGeometry.Scheme.Hom.finiteDimensional_shiftSpan_zetaSeries_and_exists_rat"]
-order = 4122
+order = 4356
 tags = ["latex:proposition"]
 uses = ["def-weil-finite-field-fiber", "def-weil-geometric-hypotheses", "def-weil-hankel-matrix", "def-weil-normalized-integral-fraction", "def-weil-point-counts-zeta", "def-weil-smooth-proper-cohomological-family", "prop-weil-rationality-criterion"]
 +++

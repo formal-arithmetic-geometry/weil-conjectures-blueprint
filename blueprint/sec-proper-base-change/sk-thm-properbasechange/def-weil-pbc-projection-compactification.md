@@ -2,7 +2,7 @@
 id = "def-weil-pbc-projection-compactification"
 kind = "definition"
 title = "Chosen compactification and compact-support image"
-order = 1956
+order = 2080
 lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactification", "AlgebraicGeometry.Compactification.ofIsProper"]
 uses = ["def-nagata-compactification"]
 +++

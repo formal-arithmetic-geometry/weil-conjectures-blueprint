@@ -3,7 +3,7 @@ id = "def-kun-global-generated"
 kind = "definition"
 title = "Globally generated sheaves"
 lean = ["AlgebraicGeometry.Etale.IsGloballyGenerated"]
-order = 3105
+order = 3081
 uses = ["def-kun-constant-sheaf", "def-weil-pbc-etale-sheaves"]
 +++
 Let $T$ be a scheme and $F$ a sheaf of $\Lambda_T$-modules on

@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-etale-degree-zero"
 kind = "lemma"
 title = "Etale henselian restriction in degree zero"
 lean = ["AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_of_henselianRing", "AlgebraicGeometry.Etale.isIso_globalSectionsUpperStarMap_addCommGrpCat_of_henselianRing", "AlgebraicGeometry.Etale.globalSectionsUpperStarMap_naturality"]
-order = 1531
+order = 1652
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site", "def-weil-pbc-finite-section-pullback", "def-weil-pbc-henselian-terminology", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-finite-proper", "lemma-weil-pbc-finite-pullback-composition", "lemma-weil-pbc-finite-refinement-etale-cover", "lemma-weil-pbc-spectral-restriction", "lemma-weil-pbc-stein-connectedness"]
 +++
 Let $(A,I)$ be a henselian pair [def-weil-pbc-henselian-terminology], let

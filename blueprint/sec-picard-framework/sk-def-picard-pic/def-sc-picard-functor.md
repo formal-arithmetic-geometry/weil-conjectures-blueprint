@@ -3,7 +3,7 @@ id = "def-sc-picard-functor"
 kind = "definition"
 title = "The Picard functor of a proper curve"
 lean = ["AlgebraicGeometry.algPicardFunctor", "AlgebraicGeometry.picardSubfunctorDegree", "AlgebraicGeometry.picardFunctorDegree"]
-order = 562
+order = 583
 uses = ["def-sc-curves", "def-sc-invertible-module", "def-sc-pic0", "def-sc-picard-group"]
 +++
 Let $C$ be a proper smooth connected curve over a

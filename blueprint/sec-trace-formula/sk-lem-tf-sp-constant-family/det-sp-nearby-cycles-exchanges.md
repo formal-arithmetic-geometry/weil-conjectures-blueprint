@@ -2,7 +2,7 @@
 id = "det-sp-nearby-cycles-exchanges"
 kind = "lemma"
 title = "Pullback and proper exchanges for nearby cycles"
-order = 3551
+order = 3643
 +++
 Let $S$ be a strictly henselian trait with a chosen geometric generic point $\bar\eta$ (for
 instance the strict henselization of $\operatorname{Spec}k[t]_{(t)}$ for an algebraically closed

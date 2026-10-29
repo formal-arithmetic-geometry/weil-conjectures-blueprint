@@ -2,8 +2,8 @@
 id = "sk-prop-an"
 kind = "proposition"
 title = "Vector-bundle purity"
-order = 2877
-uses = ["sk-def-purity-conv", "sk-lem-sf-mate", "sk-prop-a1", "sk-prop-a1-inv", "sk-prop-a1-kummer", "sk-thm-curveestimate", "sk-prop-sf-cbc", "sk-prop-sf-open-closed-triangle", "sk-thm-properbasechange", "sk-prop-geo-p1-adjunction", "sk-lem-sp-finite-existence"]
+order = 3220
+uses = ["sk-prop-cohsm", "sk-lem-sf-mate", "sk-prop-a1-inv", "sk-thm-curveestimate", "sk-prop-sf-open-closed-triangle", "sk-thm-properbasechange", "sk-prop-geo-p1-adjunction", "sk-lem-sp-finite-existence", "sk-thm-existence", "sk-prop-sf-existence", "sk-lem-geo-cartier", "sk-lem-geo-p1-cohomology", "sk-lem-geo-smooth-generic", "sk-thm-sbc-coefficients", "sk-prop-sf-comp-coherence"]
 lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_affineSpaceZero"]
 tags = ["sketch"]
 +++

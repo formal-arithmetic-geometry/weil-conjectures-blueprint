@@ -28,4 +28,4 @@ each factor preserves $\Dctf$ by the above and (2).
 [sk-thm-existence], proved for finite $A$, for $E$, $\Qlb$, and for
 $\mathcal O_E$ by the three restriction theorems
 [sk-prop-sf-rf-shriek-preservation], [sk-thm-restriction] and
-[sk-thm-int-restriction].
+[det-thm-int-restriction].

@@ -2,8 +2,8 @@
 id = "sec-purity-real-sheaves"
 kind = "section"
 title = "Purity of Real Sheaves on Curves"
-order = 3761
-uses = ["sec-abelian-varieties", "sec-algebraic-groups-lie-algebras", "sec-curve-estimates", "sec-nagata-compactification", "sec-picard-framework", "sec-poincare-duality", "sec-proetale-coefficients", "sec-proper-base-change", "sec-six-functors", "sec-six-functors-basics", "sec-smooth-base-change", "sec-smooth-purity", "sec-trace-formula", "sk-def-picard-pic", "sk-thm-picard-main", "sk-prop-av-tate-rank", "sk-lem-curve-normalization", "sk-prop-curve-affine-kummer", "sk-thm-br", "sk-thm-curveestimate"]
+order = 3924
+uses = ["sec-algebraic-groups-lie-algebras"]
 +++
 **Content.** For a smooth geometrically connected curve $C_0/\mathbf F_q$ and
 an $\iota$-real lisse Weil $\overline{\mathbf Q}_\ell$-sheaf $\mathcal F$
@@ -11,15 +11,28 @@ an $\iota$-real lisse Weil $\overline{\mathbf Q}_\ell$-sheaf $\mathcal F$
 constituent is punctually $\iota$-pure, of weight its determinant weight
 $\operatorname{wt}_\iota(\det V)/\operatorname{rank}V$. This is Deligne's key
 estimate from Weil II, here following Kiehl–Weissauer and the tex chapters
-"Weil sheaves, weights and rank-one characters" and "Real sheaves and the first
-weight estimate". After lattices and representations on a regular scheme
+"Weil sheaves, weights and rank-one characters", "Monodromy and determinant
+weights" and "Real sheaves and the first weight estimate". After lisse sheaves and representations on a normal scheme
 [sk-p-real-integral], the Weil-sheaf convention [sk-d-real-weil], weights
-[sk-d-real-weights] and their elementary operations [sk-r-real-linear], the
+[sk-d-real-weights], filtrations and spectra [sk-p-linear-filtration], and the
+elementary operations on weights [sk-r-real-linear], the
 route is: (1) the Jacobian shows that Frobenius has no fixed class in $H^1$
 [sk-prop-wrp-h1-no-fixed], so invariant additive characters vanish
 [sk-lem-wrp-additive], a rank-one character has finite geometric image
 [sk-p-real-rankone] and is pure [sk-cor-wrp-rankone-pure], and determinants
-have weights [sk-d-real-detweights], [sk-cor-walg-curve-calculus]; (2) the
+have weights [sk-d-real-detweights]; then, following the tex section
+"Monodromy and determinant weights" on a curve $U_0$, semisimplicity passes
+to normal subgroups [sk-i-restriction], tensor and exterior powers of
+filtered representations are filtered by the constructions on the
+composition factors [sk-r-linear-library], the monodromy groups
+$H\trianglelefteq G$ have their commutators in $H$
+[sk-lem-walg-normal-commutator], for a semisimple representation
+$G^\circ=Z(G^\circ)^\circ H^\circ$ [sk-p-product], which gives a central
+element $z=h\rho(s)^N$ of positive degree [sk-p-central], and the
+determinant weight [sk-d-weights] of a subquotient on which $z$ acts by a
+scalar is read off from that scalar [sk-p-readout]; this yields the
+determinant weights of the simple factors of tensor and exterior powers
+[sk-prop-walg-determinant-weights]; (2) the
 determinant upper bound [sk-p-real-rankin]: the $L$-functions of even tensor
 powers, controlled by $H^2_c$ as coinvariants [sk-lem-wrp-hc2] and by positive
 Euler factors [sk-lem-wrp-positive-euler], bound all local weights by the
@@ -39,6 +52,13 @@ the Fourier argument.
 - Thm [sk-p-real-rankone] and Cor [sk-cor-wrp-rankone-pure] (rank one): a
   rank-one lisse Weil sheaf has finite geometric image and is punctually
   $\iota$-pure of weight $2\log_q|\iota\chi(s)|$.
+- Prop [sk-p-central] (central element): for semisimple Weil
+  representations $V_1,\ldots,V_n$ with monodromy groups $H\subseteq G$ of
+  $V=\bigoplus_iV_i$ there are $N>0$ and $h\in H(\overline{\mathbf Q}_\ell)$
+  with $z=h\rho(s)^N\in Z(G)(\overline{\mathbf Q}_\ell)$; $z$ is scalar on
+  every simple subquotient of a tensor construction on $V$, and
+  $\dw_\iota(Q)=\lambda_\iota(c_Q)/N$ when it acts on $Q$ by $c_Q$
+  [sk-p-readout].
 - Prop [sk-p-real-semi] (boundary semicontinuity): a punctual bound on $U_0$
   passes to $j_*\mathcal F$ on $X_0$; Cor [sk-cor-wrp-unramified-purity]: a
   lisse sheaf pure on a dense open is pure everywhere.

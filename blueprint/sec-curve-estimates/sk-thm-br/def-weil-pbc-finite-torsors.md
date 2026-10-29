@@ -2,7 +2,7 @@
 id = "def-weil-pbc-finite-torsors"
 kind = "definition"
 title = "Finite torsors"
-order = 1319
+order = 1424
 lean = ["CategoryTheory.Sheaf.Torsor", "CategoryTheory.Sheaf.Torsor.Iso", "CategoryTheory.Sheaf.Torsor.setoid", "CategoryTheory.Sheaf.Torsor.trivial", "AlgebraicGeometry.Scheme.EtaleTorsor.isFiniteLocallyConstantSheafOfTypes_sheaf"]
 uses = ["def-weil-pbc-etale-sheaves"]
 +++

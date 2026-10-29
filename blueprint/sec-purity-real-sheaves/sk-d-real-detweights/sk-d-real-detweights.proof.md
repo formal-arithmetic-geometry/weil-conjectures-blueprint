@@ -14,4 +14,4 @@ representation has a composition series, and each factor is again
 lisse and defined over a finite extension of $\Ql$, because after
 enlarging $E$ the invariant subspaces and quotients have bases defined
 over $E$. Hence the same argument applies to all the constituents in
-the statement ([lem-rp-determinant-weights-agree]).
+the statement.

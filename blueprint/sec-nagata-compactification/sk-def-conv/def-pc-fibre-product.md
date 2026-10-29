@@ -2,7 +2,7 @@
 id = "def-pc-fibre-product"
 kind = "definition"
 title = "Fibre product of schemes"
-order = 4
+order = 7
 uses = ["def-pc-scheme"]
 lean = ["CategoryTheory.Limits.pullback", "CategoryTheory.Limits.pullback.map"]
 tags = ["mathlib", "stacks-01JP"]

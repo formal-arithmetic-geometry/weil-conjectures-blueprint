@@ -2,7 +2,7 @@
 id = "lem-weil-pbc-left-adjoint-preserves-colimits"
 kind = "lemma"
 title = "Left adjoints preserve colimits"
-order = 1261
+order = 1373
 uses = ["def-weil-pbc-category-colimit"]
 lean = ["CategoryTheory.Adjunction.leftAdjoint_preservesColimits"]
 tags = ["mathlib", "stacks-0038"]

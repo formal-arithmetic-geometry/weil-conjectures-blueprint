@@ -6,7 +6,7 @@ of = "det-prop-int-compactness-compact"
 the heart is an essentially small abelian subcategory closed under
 extensions, that Hom and $\Ext^1$ out of its objects commute with filtered
 colimits, and the uniform Ext bound. For $\mathcal O_E$ these are
-[sk-lem-int-integral-heart](1) and [sk-lem-int-ext](1),(2). So those proofs
+[sk-lem-int-integral-heart](1) and [det-lem-int-ext](1),(2). So those proofs
 give the realization and the vanishing $\Ext^q(C,B)=0$ for $q>d_C$, first for
 $B$ constructible and then for filtered colimits $B$ by continuity.
 
@@ -33,7 +33,7 @@ $\bigoplus\Hom(C,K_\alpha[m])$ only involve the truncations to the window
 $[m-d_C,m]$, which commute with direct sums. On complexes with cohomology in a
 finite range, $\Hom(C,-)$ commutes with direct sums by induction on the length
 of the range, using the five lemma and continuity of Ext for sheaves
-([sk-lem-int-ext](1)) in each degree. So $\Hom(C,-)$ commutes with direct
+([det-lem-int-ext](1)) in each degree. So $\Hom(C,-)$ commutes with direct
 sums. For general $C\in\Dbc(X,\mathcal O_E)$, $C$ is a finite extension of
 shifts of constructible sheaves ([sk-lem-int-integral-heart](1)), and
 compactness is stable under shifts and extensions by the five lemma.

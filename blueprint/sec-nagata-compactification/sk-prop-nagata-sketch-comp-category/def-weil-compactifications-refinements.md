@@ -2,7 +2,7 @@
 id = "def-weil-compactifications-refinements"
 kind = "definition"
 title = "Compactifications and refinements"
-order = 138
+order = 421
 lean = ["AlgebraicGeometry.Compactification", "AlgebraicGeometry.Compactification.Refinement", "AlgebraicGeometry.Compactification.category"]
 uses = ["def-weil-scheme-morphism-properties"]
 +++

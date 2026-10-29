@@ -2,7 +2,7 @@
 id = "prop-exc-base-change-proper"
 kind = "theorem"
 title = "Base change for a proper morphism, against an open immersion"
-order = 2311
+order = 2585
 tags = ["latex:proposition"]
 uses = ["def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-pbc-derived-categories", "lem-compact-support-direct-image-triangulated", "lem-exc-closed-support-triangle", "lem-exc-open-fully-faithful", "prop-exc-ambient-dual-base-change", "thm-sf-ambient-adjoint-class"]
 +++

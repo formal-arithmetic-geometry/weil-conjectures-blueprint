@@ -2,8 +2,8 @@
 id = "sk-def-sf-categories"
 kind = "definition"
 title = "Ambient categories and small subcategories"
-order = 3307
-uses = ["sk-def-purity-conv", "sk-prop-sf-open-closed-triangle", "sk-def-sfb-constructible", "sk-prop-integral-criterion"]
+order = 3440
+uses = ["sk-prop-cohsm", "sk-prop-sf-open-closed-triangle", "sk-def-sfb-constructible", "sk-prop-integral-criterion", "sk-thm-existence"]
 tags = ["sketch"]
 +++
 Fix a scheme $T$ and an admissible coefficient ring

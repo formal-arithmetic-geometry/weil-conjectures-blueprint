@@ -3,7 +3,7 @@ id = "lemma-weil-pbc-normalization-exact-sequence"
 kind = "lemma"
 title = "Normalization comparison exact sequence"
 lean = ["AlgebraicGeometry.exists_mono_lowerShriek_constantModSheaf_lowerStar"]
-order = 1488
+order = 1596
 uses = ["def-weil-pbc-constructible-complexes", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be an algebraically closed field, $X$ a reduced curve over $k$, and

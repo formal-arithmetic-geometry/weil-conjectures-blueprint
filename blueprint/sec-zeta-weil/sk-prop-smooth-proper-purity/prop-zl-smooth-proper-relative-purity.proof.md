@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "prop-zl-smooth-proper-relative-purity"
-uses = ["cor-zl-rfshriek-sheaf", "cor-cbc-proper-coincidence", "prop-weil-operations", "sk-thm-sfb-qlbar-two-colimit", "thm-lisse-qlbar-representations", "sk-lem-stratified-lattice", "det-lem-stratified-lattice-scheme", "sk-prop-pbc-degree-zero", "cor-galois-lisse-representations", "thm-galois-fundamental", "sk-prop-pe-condensed-point", "sk-prop-sfb-qlbar-colimit-x", "sk-def-sfb-constructible", "thm-fin-proper-constructibility-complete", "prop-weil-proet-finite-proper-base-change", "cor-weil-pbc-geometric-fiber-finite", "sbc-thm-smooth-base-change", "sk-thm-sfb-proper-base-change", "sk-prop-scalar-six", "sk-prop-pe-milnor", "sk-prop-sfb-finite-extension-compatibility", "cor-weil-pbc-geometric-fiber-qbar", "thm-weil-pbc-qbar", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-wf-tate-twist-frobenius", "thm-pod-degreewise-perfectness-over-a-field", "thm-pod-equivariance-of-the-twisted-pairing"]
+uses = ["cor-zl-rfshriek-sheaf", "cor-cbc-proper-coincidence", "prop-weil-operations", "sk-lem-lisse-finite-descent", "thm-lisse-qlbar-representations", "sk-lem-stratified-lattice", "det-lem-stratified-lattice-scheme", "sk-prop-pbc-degree-zero", "cor-galois-lisse-representations", "thm-galois-fundamental", "sk-prop-pe-condensed-point", "sk-prop-sfb-qlbar-colimit-x", "sk-def-sfb-constructible", "thm-fin-proper-constructibility-complete", "prop-weil-proet-finite-proper-base-change", "cor-weil-pbc-geometric-fiber-finite", "sbc-thm-smooth-base-change", "sk-thm-sfb-proper-base-change", "sk-prop-scalar-six", "sk-prop-pe-milnor", "det-prop-sfb-finite-extension-compatibility", "cor-weil-pbc-geometric-fiber-qbar", "thm-weil-pbc-qbar", "def-weil-punctual-weights", "lem-sf-hom-finite-projective", "lem-wf-tate-twist-frobenius", "thm-pod-degreewise-perfectness-over-a-field", "thm-pod-equivariance-of-the-twisted-pairing"]
 +++
 Write $f:X\to Y$ for the geometric fiber of $f_0$ and $\mathcal F$ for the
 underlying sheaf of $\mathcal F_0$. The upper bound on weights is the
@@ -23,7 +23,7 @@ Weil sheaves for every $i$; this is the first half of (a).
 étale $V\to Y$ the base change $f_V:X_V=X\times_YV\to V$ is again smooth and
 proper, and proper base change ([sk-thm-sfb-proper-base-change]) identifies
 $(R^{i}f_*\mathcal F)|_V$ with $R^{i}f_{V*}(\mathcal F|_{X_V})$, restriction
-along $V\to Y$ being exact. By [sk-thm-sfb-qlbar-two-colimit] (1),
+along $V\to Y$ being exact. By [sk-lem-lisse-finite-descent],
 $\mathcal F\cong\QbarX\otimes_{E_X}\mathcal F_E$ for a lisse $E_X$-module
 $\mathcal F_E$ and a finite extension $E/\Ql$. Treating the finitely many
 connected components of $X$ separately, we may assume that $\mathcal F_E$ has
@@ -154,7 +154,7 @@ So $R^{i}f_*L_0$ has a finite constant local model
 ([sk-def-sfb-constructible] (1)): it is a lisse $\mathcal O_{E,Y}$-module,
 possibly with torsion. Extension of scalars along
 the flat maps $\mathcal O_E\to E\to\Qlb$ is exact and commutes with $Rf_*$
-([sk-prop-scalar-six], [sk-prop-sfb-finite-extension-compatibility]), so
+([sk-prop-scalar-six], [det-prop-sfb-finite-extension-compatibility]), so
 $R^{i}f_*\mathcal F\cong\Qlb\otimes_{\mathcal O_E}R^{i}f_*L_0$ is a lisse
 $\overline{\mathbf Q}_{\ell,Y}$-module. Its stalks at geometric points over
 closed points are computed by [cor-weil-pbc-geometric-fiber-qbar], and

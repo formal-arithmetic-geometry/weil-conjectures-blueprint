@@ -3,7 +3,7 @@ id = "def-sc-pic0"
 kind = "definition"
 title = "Degree and $\\operatorname{Pic}^0$"
 lean = ["AlgebraicGeometry.Scheme.Hom.picZero", "AlgebraicGeometry.Scheme.Hom.picDegree", "AlgebraicGeometry.Scheme.picDegreeHom", "AlgebraicGeometry.Scheme.coe_ker_picDegreeHom", "AlgebraicGeometry.Scheme.picDegreeHom_toPic", "AlgebraicGeometry.Scheme.picDegreeHom_ofClosedPoint", "AlgebraicGeometry.Scheme.degree_div_eq_zero"]
-order = 561
+order = 582
 uses = ["def-sc-curves", "def-sc-divisor", "def-sc-picard-group"]
 +++
 Let $C$ be a scheme over a field $k$, and for an $\mathcal O_C$-module

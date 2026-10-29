@@ -3,7 +3,7 @@ id = "def-pc-base-change"
 kind = "definition"
 title = "Base change along $T$, geometric fibres"
 lean = ["CategoryTheory.Over.pullback", "AlgebraicGeometry.Scheme.Modules.moduleBaseChange", "AlgebraicGeometry.Scheme.Hom.fiber", "AlgebraicGeometry.Scheme.Hom.geometricFiberAt", "AlgebraicGeometry.sectionBaseChange", "AlgebraicGeometry.Scheme.baseChangeField"]
-order = 135
+order = 418
 uses = ["def-pc-morphism-conventions", "def-pc-scheme"]
 +++
 Let $f:X\to S$ be a morphism of schemes and let $T$ be a scheme over

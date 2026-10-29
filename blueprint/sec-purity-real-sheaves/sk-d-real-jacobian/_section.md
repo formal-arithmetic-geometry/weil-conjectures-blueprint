@@ -2,7 +2,7 @@
 id = "sk-d-real-jacobian"
 kind = "proposition"
 title = "Kummer, duality and the integral Tate module"
-order = 3808
+order = 3996
 uses = ["sk-cor-jacobian-torsion", "sk-def-picard-pic", "sk-thm-picard-main", "sk-prop-av-tate-rank", "sk-prop-jacobian-descent", "sk-thm-curveestimate", "sk-thm-sf-identification"]
 lean = ["AlgebraicGeometry.JacobianTorsionDatum", "AlgebraicGeometry.JacobianTorsionDatum.tateModule"]
 tags = ["sketch"]

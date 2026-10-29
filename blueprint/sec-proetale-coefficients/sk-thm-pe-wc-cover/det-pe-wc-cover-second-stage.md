@@ -3,7 +3,7 @@ id = "det-pe-wc-cover-second-stage"
 kind = "lemma"
 title = "Realizing a Stonean cover of the components"
 lean = ["WContractification.PullbackProfinite", "WContractification.Restriction", "LocallyConstant.homeomorphPrimeSpectrum", "WContractification.PullbackProfinite.indZariski", "WContractification.PullbackProfinite.isPullback", "WContractification.PullbackProfinite.faithfullyFlat", "RingHom.IndZariski.bijectiveOnStalks", "ConnectedComponents.wlocalSpace_of_isPullback", "ConnectedComponents.preimage_closedPoints_eq_closedPoints_of_isPullback", "ConnectedComponents.isHomeomorph_lift_of_isPullback", "exists_isWContractibleRing_of_isWStrictlyLocal"]
-order = 912
+order = 951
 uses = ["det-pe-wlocal-strict-contractible", "det-pe-wlocal-components", "det-pe-stonean-cover", "def-weil-pbc-ind-etale-algebra", "lem-weil-pbc-ind-etale-stability"]
 +++
 Let $C$ be a w-strictly local ring [det-pe-wlocal-strict-contractible], let

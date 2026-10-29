@@ -2,7 +2,7 @@
 id = "def-sfb-constructible-extend-subfield"
 kind = "definition"
 title = "$T_{E,F}$ on bounded constructible complexes"
-order = 2151
+order = 2300
 uses = ["def-sfb-derived-extend-subfield", "def-sfb-dcons-subfield", "lem-sfb-extend-subfield-constructible"]
 lean = ["AlgebraicGeometry.ProEtale.constructibleExtendScalars"]
 +++

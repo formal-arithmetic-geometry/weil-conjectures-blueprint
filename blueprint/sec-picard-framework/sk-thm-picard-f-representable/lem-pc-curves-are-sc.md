@@ -3,7 +3,7 @@ id = "lem-pc-curves-are-sc"
 kind = "lemma"
 title = "Curves in the sense of file 06"
 lean = ["AlgebraicGeometry.IsSmoothProjectiveCurve.isConnectedCurve_and_smooth"]
-order = 781
+order = 807
 uses = ["def-pc-curve", "def-pc-dimension", "def-pc-smooth-projective-curve", "def-sc-curves"]
 +++
 Let $k$ be a field and let $X$ be a

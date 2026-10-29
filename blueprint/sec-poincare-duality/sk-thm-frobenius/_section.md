@@ -3,7 +3,7 @@ id = "sk-thm-frobenius"
 kind = "theorem"
 title = "Equivariance and reciprocal eigenvalues"
 lean = ["AlgebraicGeometry.Etale.TateOrientation.isWeilPairing_poincarePairing", "AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing_frobeniusOperator", "AlgebraicGeometry.Etale.TateOrientation.degreewisePoincarePairing_frobeniusOperator_eq", "AlgebraicGeometry.Etale.TateOrientation.isWeilPairing_untwistedPoincarePairing", "AlgebraicGeometry.Etale.isWeilPairing_poincarePairing"]
-order = 3412
+order = 3584
 uses = ["sk-def-pairing", "sk-def-sf-orientation", "sk-def-sf-weil-complexes", "sk-thm-derived-duality", "sk-thm-sf-identification"]
 tags = ["sketch"]
 +++

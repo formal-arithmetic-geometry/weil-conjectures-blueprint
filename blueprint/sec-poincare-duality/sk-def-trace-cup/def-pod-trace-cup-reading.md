@@ -3,7 +3,7 @@ id = "def-pod-trace-cup-reading"
 kind = "definition"
 title = "Poincare duality conventions: trace and trace-cup pairing"
 lean = ["AlgebraicGeometry.Etale.cohomologyAddEquivCompactSupport", "AlgebraicGeometry.Etale.TateOrientation.untwistedSmoothTrace", "AlgebraicGeometry.Etale.TateOrientation.untwistedTraceMap"]
-order = 3436
+order = 3606
 uses = ["cor-cbc-proper-coincidence", "def-pod-conventions", "def-pur-smooth-trace", "def-weil-poincare-trace-cup"]
 +++
 In the conventions of [def-pod-conventions] ($X_0$ not necessarily

@@ -2,7 +2,7 @@
 id = "lemma-nagata-scheme-image-affine-saturation"
 kind = "lemma"
 title = "Affine scheme-image saturation"
-order = 334
+order = 241
 lean = ["IsLocalization.Away.ker_lift_comp_algebraMap_eq_comap_powTorsion"]
 uses = ["def-nagata-power-torsion", "lemma-nagata-power-torsion-kernel-localization", "def-nagata-strict-transform"]
 +++

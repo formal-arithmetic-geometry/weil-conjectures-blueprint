@@ -2,7 +2,7 @@
 id = "lem-sc-etale-affine-qcoherent"
 kind = "lemma"
 title = "Etale acyclicity of a quasi-coherent module on an affine"
-order = 1358
+order = 1463
 lean = ["AlgebraicGeometry.Etale.etale_affine_qcoherent"]
 uses = ["def-sc-etale-qcoherent-module", "lem-pc-cech-exact", "lem-sc-cech-spectral"]
 +++

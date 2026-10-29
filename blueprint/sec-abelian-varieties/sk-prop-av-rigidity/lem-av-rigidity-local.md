@@ -3,7 +3,7 @@ id = "lem-av-rigidity-local"
 kind = "lemma"
 title = "Local rigidity"
 lean = ["AlgebraicGeometry.exists_mem_and_comp_eq_of_subsingleton_image"]
-order = 454
+order = 473
 +++
 Let $k$ be a field, let $X$ be proper, geometrically connected and geometrically reduced
 over $k$, let $Y$ and $Z$ be $k$-schemes, and let $f:X\times_kY\to Z$ be a morphism of

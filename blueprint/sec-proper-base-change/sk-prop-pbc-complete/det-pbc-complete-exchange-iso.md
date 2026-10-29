@@ -2,7 +2,7 @@
 id = "det-pbc-complete-exchange-iso"
 kind = "lemma"
 title = "The completed exchange map is an isomorphism"
-order = 2023
+order = 2145
 uses = ["det-pbc-complete-exchange-map", "thm-weil-pbc-finite-level-proetale"]
 +++
 In the cartesian square of [det-pbc-complete-exchange-map], assume $p$ proper,

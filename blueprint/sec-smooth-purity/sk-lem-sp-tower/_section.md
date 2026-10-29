@@ -2,7 +2,7 @@
 id = "sk-lem-sp-tower"
 kind = "lemma"
 title = "Integral complexes as normalized towers"
-order = 2967
+order = 2955
 uses = ["sk-def-sp-coefficient-towers", "sk-def-sp-normalized-towers", "sk-def-pe-derived-completion", "sk-prop-pe-replete", "sk-prop-integral-criterion", "sk-prop-sp-integral-towers"]
 tags = ["sketch"]
 +++

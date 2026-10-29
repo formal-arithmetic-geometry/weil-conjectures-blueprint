@@ -2,7 +2,7 @@
 id = "lemma-nagata-rees-localization-mul"
 kind = "lemma"
 title = "Iterated localization coherence"
-order = 185
+order = 88
 lean = ["AlgebraicGeometry.reesGrading.hom_localization_mul", "AlgebraicGeometry.AffineBlowup.hom_localization_mul"]
 uses = ["prop-nagata-rees-localization"]
 +++

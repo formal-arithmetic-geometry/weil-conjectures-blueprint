@@ -2,7 +2,7 @@
 id = "sk-thm-sf-dual-perfect"
 kind = "theorem"
 title = "The dual of a perfect complex"
-order = 3348
+order = 3508
 uses = ["sk-def-sf-orientation", "sk-lem-sf-twist-interchange", "sk-prop-sf-dualizable-biduality"]
 lean = ["AlgebraicGeometry.Etale.Orientation.nonempty_iso_verdierDual_coefficientDual", "AlgebraicGeometry.Etale.Orientation.isDualizable_verdierDual"]
 tags = ["sketch"]

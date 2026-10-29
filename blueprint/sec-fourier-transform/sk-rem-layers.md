@@ -2,7 +2,7 @@
 id = "sk-rem-layers"
 kind = "remark"
 title = "The three layers, and why the order matters"
-order = 3971
+order = 4185
 tags = ["sketch"]
 +++
 *Layer 1 (this section).* The transform and everything that follows from

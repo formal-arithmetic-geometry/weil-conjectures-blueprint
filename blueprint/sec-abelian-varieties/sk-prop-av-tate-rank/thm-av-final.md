@@ -3,7 +3,7 @@ id = "thm-av-final"
 kind = "theorem"
 title = "Abelian-variety estimate"
 lean = ["AlgebraicGeometry.abelianVariety_estimate", "AlgebraicGeometry.abelianVariety_estimate_of_isAlgClosed", "AlgebraicGeometry.IsIsogeny.isFinite", "AlgebraicGeometry.IsIsogeny.flat"]
-order = 547
+order = 567
 uses = ["def-sc-abelian-variety", "def-sc-isogeny", "def-sc-mult-n", "def-wf-abelian-tate-module", "lem-sc-connected-finite-order", "lem-sc-divisible-group-structure", "lem-sc-fg-order-prime-etale", "lem-sc-finite-flat-surj-points", "lem-sc-finite-nonempty-point", "lem-sc-abelian-variety-characterization", "lem-sc-isogeny-degree"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over a field $k$, let

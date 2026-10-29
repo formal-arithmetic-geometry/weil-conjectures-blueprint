@@ -3,7 +3,7 @@ id = "lem-weil-pbc-comparison-pullback"
 kind = "lemma"
 title = "Comparison inverse image commutes with scheme pullback"
 lean = ["AlgebraicGeometry.ProEtale.comparisonUpperStarCompUpperStarIso", "AlgebraicGeometry.ProEtale.mapDerivedCategoryComparisonUpperStarCompUpperStarIso", "AlgebraicGeometry.ProEtale.leftDerivedUpperStarComparisonIso"]
-order = 1010
+order = 1061
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "def-weil-pbc-site-comparison-morphism", "prop-weil-pbc-inverse-image-exact", "lem-sfb-finite-upper-star-exact"]
 +++
 For a morphism $u:U\to V$ there is a natural isomorphism

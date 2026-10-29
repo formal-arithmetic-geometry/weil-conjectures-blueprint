@@ -3,7 +3,7 @@ id = "lem-weil-pbc-constant-sheaf-geometric-stalk"
 kind = "lemma"
 title = "Geometric stalks of a constant etale sheaf"
 lean = ["AlgebraicGeometry.Scheme.constantSheaf_geometricStalk_isIso"]
-order = 1521
+order = 1641
 uses = ["def-pc-scheme", "def-weil-pbc-etale-site", "def-weil-pbc-sheafification", "def-weil-pbc-constant-sheaf", "def-weil-pbc-abelian-etale-sheaves", "def-weil-geometric-point", "def-weil-pbc-geometric-stalks", "def-weil-pbc-pointed-etale-neighbourhoods"]
 tags = ["stacks-03PT"]
 +++

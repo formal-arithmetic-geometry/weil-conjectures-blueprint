@@ -2,8 +2,8 @@
 id = "sk-thm-purity-transport"
 kind = "theorem"
 title = "Smooth purity for all admissible coefficients"
-order = 2843
-uses = ["sk-def-purity-conv", "sk-lem-sf-flat-model", "sk-prop-a1", "sk-prop-cohsm", "sk-thm-smooth-purity", "sk-prop-sf-existence", "sk-thm-existence", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-prop-sp-unique-adjoint"]
+order = 3351
+uses = ["sk-prop-cohsm", "sk-lem-sf-flat-model", "sk-thm-smooth-purity", "sk-prop-sf-existence", "sk-thm-existence", "sk-prop-sp-integral-adjunction", "sk-prop-sp-rational", "sk-thm-sp-qbar", "sk-prop-sp-unique-adjoint"]
 tags = ["sketch"]
 +++
 Let $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\Qlb\}$ be any admissible coefficient

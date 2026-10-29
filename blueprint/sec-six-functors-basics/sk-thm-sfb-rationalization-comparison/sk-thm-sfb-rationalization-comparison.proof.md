@@ -1,17 +1,16 @@
 +++
 kind  = "proof"
 of    = "sk-thm-sfb-rationalization-comparison"
+uses = ["sk-lem-integral-models"]
 +++
-The map $\varphi\colon\cO_{E,X}\to E_X$ is
-[def-sfb-integers-to-subfield], built from the inclusion on the point
-[def-sfb-integers-to-subfield-point]. Extension of scalars preserves bounded constructible
-complexes [lem-sfb-extend-scalars-bounded-constructible], and the restricted functor is
-[def-sfb-bounded-constructible-extend-scalars]. For topologically Noetherian $X$, the
-category $\Dbc(X,\cO_E)$ is triangulated and $\mathbf Z$-linear
-[det-def-sfb-bounded-constructible], so its rationalization at the powers of $\ell$ is
-defined [det-def-sfb-rationalization]. The localization property is
-[thm-sfb-extend-scalars-localization], and the equivalence follows from it by the
-uniqueness of localizations [def-sfb-rationalization-equivalence]. The Hom groups of the
-rationalization are those of $\Dbc(X,\cO_E)$ with $\ell$ inverted, i.e. tensored with $E$,
-because the multiplications by powers of $\ell$ are cofinal among the morphisms with
-$\ell$-power-torsion cone (proof of [thm-sfb-extend-scalars-localization]).
+Both assertions are Bhatt–Scholze, Proposition 6.8.14(2). What we use from
+the equivalence is that for $K,L\in\Dbc(X,\cO_E)$ every morphism
+$E_X\otimes K\to E_X\otimes L$ is $\ell^{-c}$ times the image of a
+morphism $K\to L$ for some $c\geq0$, and that a morphism $K\to L$ becomes
+zero after extension of scalars only if some power of $\ell$ kills it.
+For essential
+surjectivity, [sk-lem-integral-models](4) provides
+generators that come from $\Dbc(X,\cO_E)$. By the description of the Hom groups, a connecting
+morphism between them lifts to an integral one after multiplication by a
+power of $\ell$, so finite cones of the generators also have integral
+models.

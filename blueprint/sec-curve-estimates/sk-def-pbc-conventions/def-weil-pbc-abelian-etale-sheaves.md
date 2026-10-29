@@ -2,7 +2,7 @@
 id = "def-weil-pbc-abelian-etale-sheaves"
 kind = "definition"
 title = "The category of abelian sheaves on the small etale site"
-order = 1252
+order = 1364
 uses = ["def-weil-pbc-etale-site"]
 lean = ["CategoryTheory.Sheaf", "AlgebraicGeometry.Scheme.smallEtaleTopology", "CategoryTheory.sheafIsAbelian"]
 tags = ["mathlib", "stacks-095S"]

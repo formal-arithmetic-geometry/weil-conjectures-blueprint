@@ -2,7 +2,7 @@
 id = "def-weil-category-product"
 kind = "definition"
 title = "Products of families of objects in a category; countable products"
-order = 1251
+order = 1363
 lean = ["CategoryTheory.Limits.piObj", "CategoryTheory.Limits.Pi.π", "CategoryTheory.Limits.Pi.lift", "CategoryTheory.Limits.Pi.map", "CategoryTheory.Limits.HasCountableProducts"]
 tags = ["mathlib", "stacks-002I"]
 +++

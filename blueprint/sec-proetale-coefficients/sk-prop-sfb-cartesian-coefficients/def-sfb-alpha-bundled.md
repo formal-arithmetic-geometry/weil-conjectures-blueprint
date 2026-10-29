@@ -2,7 +2,7 @@
 id = "def-sfb-alpha-bundled"
 kind = "definition"
 title = "$\\alpha_f$ as an isomorphism of ring objects"
-order = 1222
+order = 1290
 uses = ["def-sfb-pullback-from-point-comp-iso", "lem-sfb-pullback-from-point-comp-monoidal", "det-def-sfb-pulled-back-coefficients"]
 lean = ["AlgebraicGeometry.ProEtale.coefficientPullbackIso"]
 +++

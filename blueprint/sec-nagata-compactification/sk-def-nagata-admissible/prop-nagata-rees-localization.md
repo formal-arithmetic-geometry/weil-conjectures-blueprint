@@ -2,7 +2,7 @@
 id = "prop-nagata-rees-localization"
 kind = "theorem"
 title = "Graded localization of the Rees algebra"
-order = 182
+order = 85
 lean = ["AlgebraicGeometry.AffineBlowup.isLocalization_away_map"]
 tags = ["latex:proposition"]
 uses = ["def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-localization-rees-piece", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-piece-mul", "prop-nagata-rees-graded"]

@@ -3,7 +3,7 @@ id = "lem-weil-pbc-linear-equation-localization-polynomial-core"
 kind = "lemma"
 title = "Core localization polynomial equivalence"
 lean = ["MvPolynomial.linearEquationLocalizationPolynomialCore"]
-order = 1859
+order = 1982
 +++
 Let $A$ be a commutative ring, $r\ge1$, $f_1,\dots,f_r\in A$ and $1\le i\le r$. Put
 $$

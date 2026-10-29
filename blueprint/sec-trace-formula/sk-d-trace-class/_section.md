@@ -2,7 +2,7 @@
 id = "sk-d-trace-class"
 kind = "definition"
 title = "Trace class and local terms"
-order = 3455
+order = 3726
 uses = ["sk-d-corr", "sk-d-pairing", "sk-thm-sf-kunneth-verdier"]
 tags = ["sketch"]
 +++

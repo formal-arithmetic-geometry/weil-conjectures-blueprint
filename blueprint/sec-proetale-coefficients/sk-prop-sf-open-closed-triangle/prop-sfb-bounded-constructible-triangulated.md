@@ -2,7 +2,7 @@
 id = "prop-sfb-bounded-constructible-triangulated"
 kind = "proposition"
 title = "Bounded constructible complexes form a triangulated subcategory"
-order = 1151
+order = 1195
 uses = ["def-sfb-bounded-constructible-complexes", "det-def-sfb-pulled-back-coefficients-definition", "def-sfb-continuous-map-condensed-ring", "def-sfb-padic-subfield-condensed-ring", "def-sfb-padic-integers-condensed-ring"]
 lean = ["AlgebraicGeometry.ProEtale.isTriangulated_boundedConstructible"]
 +++

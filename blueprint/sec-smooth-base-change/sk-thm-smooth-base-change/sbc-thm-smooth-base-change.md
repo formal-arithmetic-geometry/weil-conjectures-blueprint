@@ -2,7 +2,7 @@
 id = "sbc-thm-smooth-base-change"
 kind = "theorem"
 title = "Smooth base change"
-order = 2032
+order = 2210
 uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-direct-image-filtered-colimit", "lemma-weil-pbc-torsion-filtered-union", "sbc-def-base-change-map", "sbc-def-base-change-property", "sbc-def-base-change-square", "sbc-lem-base-change-composition", "sbc-lem-degree-zero-flat-base-change", "sbc-lem-etale-locality", "sbc-lem-rel-dim-one-induction", "lem-pc-smooth-characterization", "sbc-lem-smooth-geometrically-reduced", "sbc-thm-etale-local-normal-form"]
 +++
 Consider a cartesian diagram of

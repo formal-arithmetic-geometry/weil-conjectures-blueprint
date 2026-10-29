@@ -2,7 +2,7 @@
 id = "det-finite-window-reduction"
 kind = "lemma"
 title = "The finite window from the lower tail vanishing"
-order = 2221
+order = 2440
 uses = ["det-finite-window-unbounded", "sk-cor-ambient-ind-derived"]
 +++
 Let $\Lambda=E$ or $\Qlb$, $C\in\Cons(X,\Lambda)$ and $K\in\Dic(X,\Lambda)$. Assume that $\Hom(C,L)=0$ for

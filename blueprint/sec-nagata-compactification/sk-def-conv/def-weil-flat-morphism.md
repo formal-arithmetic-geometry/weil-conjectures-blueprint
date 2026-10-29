@@ -2,7 +2,7 @@
 id = "def-weil-flat-morphism"
 kind = "definition"
 title = "Flat morphism of schemes"
-order = 8
+order = 11
 uses = ["def-pc-scheme"]
 lean = ["AlgebraicGeometry.Flat"]
 tags = ["mathlib", "stacks-01U3"]

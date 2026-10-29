@@ -2,7 +2,7 @@
 id = "det-ctf-finite-compact-generators"
 kind = "lemma"
 title = "The compact objects of $\\Loc(\\Dctf(X,A))$"
-order = 2279
+order = 2338
 uses = ["det-ctf-finite-compact-proetale", "sk-def-localizing-closure"]
 +++
 Let $A$ be a finite $\ell$-primary ring. $\Dctf(X,A)$ is a thick, essentially small subcategory of

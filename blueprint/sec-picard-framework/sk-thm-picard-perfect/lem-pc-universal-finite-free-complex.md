@@ -2,7 +2,7 @@
 id = "lem-pc-universal-finite-free-complex"
 kind = "lemma"
 title = "Local finite free models for higher direct images"
-order = 742
+order = 767
 lean = ["AlgebraicGeometry.Scheme.Modules.exists_isFiniteFreeComplex_higherDirectImage"]
 uses = ["def-pc-base-change", "lem-pc-rf-perfect-base-change"]
 +++

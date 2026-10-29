@@ -2,7 +2,7 @@
 id = "thm-trf-grothendieck-lefschetz-finite-ring"
 kind = "theorem"
 title = "Grothendieck–Lefschetz formula over a finite ring"
-order = 3524
+order = 3844
 uses = ["def-trf-admissibility", "def-trf-coefficient-conventions", "def-trf-frobenius-coefficient-morphism", "def-trf-frobenius-operators", "def-trf-iterated-weil-map", "def-weil-compactifications-refinements", "def-weil-finite-field-fiber", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties", "def-weil-weil-sheaf-complex", "lem-trf-frobenius-degree-formula", "lem-trf-iterated-weil-cocycle", "lem-trf-local-frobenius-conjugacy", "prop-trf-graph-frobenius-operator", "prop-trf-scheme-galois-comparison", "thm-trf-coefficient-morphism-trace-formula", "thm-trf-frobenius-fixed-points"]
 +++
 Fix the global finite-field datum

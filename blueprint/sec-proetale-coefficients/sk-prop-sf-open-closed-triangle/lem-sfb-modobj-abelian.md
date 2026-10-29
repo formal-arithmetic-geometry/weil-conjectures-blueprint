@@ -2,7 +2,7 @@
 id = "lem-sfb-modobj-abelian"
 kind = "lemma"
 title = "Module objects form an abelian category"
-order = 1099
+order = 1143
 uses = ["det-def-sfb-module-objects-definition", "lem-sfb-modobj-cokernels", "lem-sfb-modobj-kernels"]
 lean = ["CategoryTheory.Mod.instAbelian"]
 +++

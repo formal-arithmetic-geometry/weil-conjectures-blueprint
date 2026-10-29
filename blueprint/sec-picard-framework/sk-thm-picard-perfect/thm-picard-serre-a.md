@@ -2,7 +2,7 @@
 id = "thm-picard-serre-a"
 kind = "theorem"
 title = "Serre's theorem A: global generation after a twist"
-order = 719
+order = 744
 uses = ["def-pc-projective-space-twist", "def-sc-invertible-module", "lem-pc-closed-immersion-coherent-cohomology", "lem-pc-projective-space-twist-quotient", "lem-pc-twist-tensor", "pqf-def-coherent"]
 lean = ["AlgebraicGeometry.Scheme.Modules.exists_generatingSections_tensor_twist"]
 +++

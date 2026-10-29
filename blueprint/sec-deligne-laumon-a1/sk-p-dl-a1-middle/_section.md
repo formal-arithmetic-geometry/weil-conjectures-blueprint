@@ -2,7 +2,7 @@
 id = "sk-p-dl-a1-middle"
 kind = "proposition"
 title = "The Fourier partner"
-order = 3997
+order = 4214
 uses = ["sk-i-restriction", "sk-lem-as-properties", "sk-lem-wft-curve-simples", "sk-p-dl-a1-perverse", "sk-thm-inversion"]
 lean = ["AlgebraicGeometry.WeilSheaf.IsNonexceptional", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.IsFourierPartner", "AlgebraicGeometry.exists_middleExtension_fourierTransform", "AlgebraicGeometry.isNonexceptional_of_isUnramifiedAtInfinity"]
 tags = ["sketch"]

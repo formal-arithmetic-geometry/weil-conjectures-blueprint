@@ -2,7 +2,7 @@
 id = "lem-fin-extension-by-zero"
 kind = "lemma"
 title = "Extension by zero preserves constructibility"
-order = 1482
+order = 1590
 lean = ["AlgebraicGeometry.Scheme.IsConstructibleSheaf.openImmersionLowerShriek_of_quasiCompact", "AlgebraicGeometry.Scheme.IsConstructibleSheaf.openImmersionLowerShriek"]
 uses = ["def-constructible-constructible", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions"]
 +++

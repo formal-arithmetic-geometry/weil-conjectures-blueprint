@@ -2,7 +2,7 @@
 id = "lem-galois-descent"
 kind = "lemma"
 title = "Effective etale descent for finite etale morphisms"
-order = 1373
+order = 1478
 lean = ["AlgebraicGeometry.finiteEtaleDescent", "AlgebraicGeometry.FiniteEtaleDescentData"]
 uses = ["def-galois-categories", "def-pd-descent-datum", "def-weil-pbc-scheme-conventions", "lem-weil-pbc-fpqc-descend-finite", "lem-weil-pbc-fpqc-finer-than-etale"]
 +++

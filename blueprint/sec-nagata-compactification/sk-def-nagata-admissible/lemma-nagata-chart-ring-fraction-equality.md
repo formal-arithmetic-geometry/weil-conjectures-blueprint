@@ -3,7 +3,7 @@ id = "lemma-nagata-chart-ring-fraction-equality"
 kind = "lemma"
 title = "Equality criterion for chart fractions"
 lean = ["AlgebraicGeometry.AffineBlowup.chartFraction_eq_iff"]
-order = 171
+order = 74
 uses = ["lemma-nagata-chart-ring-normal-form"]
 +++
 Two representatives $x/a^m$ and $y/a^n$ define the same element of

@@ -2,7 +2,7 @@
 id = "lem-pur-regular-immersion-smooth-structure"
 kind = "lemma"
 title = "A regular immersion of smooth schemes over a perfect field"
-order = 3251
+order = 3402
 uses = ["def-pur-conventions", "def-pur-regular-immersion", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties", "lem-sc-smooth-regular"]
 lean = ["AlgebraicGeometry.IsRegularImmersion.smooth_comp", "AlgebraicGeometry.IsRegularImmersion.ringKrullDim_stalk_add"]
 +++

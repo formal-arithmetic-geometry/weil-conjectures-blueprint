@@ -2,7 +2,7 @@
 id = "def-sp-homological-functor"
 kind = "definition"
 title = "Homological functors of triangulated categories"
-order = 490
+order = 509
 lean = ["CategoryTheory.Functor.IsHomological"]
 uses = ["def-sp-abelian"]
 +++

@@ -2,7 +2,7 @@
 id = "def-weil-pbc-strict-w-cover"
 kind = "definition"
 title = "The strict w-local cover"
-order = 910
+order = 949
 lean = ["WStrictLocalization", "WStrictLocalization.closedIdeal", "WStrictLocalization.contractionIdeal"]
 uses = ["def-weil-pbc-etale-contraction", "def-weil-pbc-retained-localization", "def-weil-pbc-w-localization", "lem-weil-pbc-w-localization-points"]
 +++

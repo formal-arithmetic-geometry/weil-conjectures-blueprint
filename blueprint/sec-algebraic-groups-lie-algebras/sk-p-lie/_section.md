@@ -3,7 +3,7 @@ id = "sk-p-lie"
 kind = "proposition"
 title = "Lie algebras with a faithful semisimple representation"
 lean = ["LieAlgebra.hasCentralRadical_of_isFaithful", "LieAlgebra.center_sup_derivedSeries_eq_top"]
-order = 3705
+order = 3920
 uses = ["sk-i-cartier", "sk-lem-walg-killing", "sk-lem-walg-lie-eigenvector", "sk-p-comparison"]
 tags = ["sketch"]
 +++

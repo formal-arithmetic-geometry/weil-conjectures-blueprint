@@ -2,7 +2,7 @@
 id = "det-sp-representing-pair-gluing"
 kind = "lemma"
 title = "Representing pairs glue along open covers"
-order = 2852
+order = 2885
 uses = ["det-sp-representing-pair-uniqueness", "det-sf-mate-open-restriction"]
 +++
 Let $f:X\to Y$ be smooth, $\Lambda_n=\mathbf Z/\ell^n\mathbf Z$, $K\in\Dctf(Y,\Lambda_n)$, and

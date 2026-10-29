@@ -2,8 +2,8 @@
 id = "thm-a1-curve-perverse-heart"
 kind = "theorem"
 title = "The perverse t-structure on a smooth curve and its heart"
-lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseLE", "AlgebraicGeometry.WeilComplex.isCurvePerverseLower_iff_forall_hom_eq_zero", "AlgebraicGeometry.WeilComplex.isCurvePerverse_toComplex_obj", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isCurvePerverse_middleExtension"]
-order = 3979
+lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseUpper", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.WeilComplex.IsCurvePerverse", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLE", "AlgebraicGeometry.WeilComplex.isCurvePerverseLower_iff_forall_hom_eq_zero", "AlgebraicGeometry.WeilComplex.isCurvePerverse_toComplex_obj", "AlgebraicGeometry.WeilSheaf.LisseOnDenseOpen.isCurvePerverse_middleExtension"]
+order = 4194
 uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "def-per-perverse-subcategories", "def-per-support-condition", "def-weil-t-structure", "def-wf-middle-extension", "lem-exc-closed-support-triangle", "lem-per-dual-lisse-tensor", "lem-weil-closed-costalk-duality", "lem-weil-heart-short-exact-triangles", "p-real-integral", "prop-constructible-truncations", "prop-sf-localization-all-stages", "prop-weil-heart-abelian", "rem-dl-a1-conventions", "sk-thm-pd-verdier-duality", "sk-thm-sf-ctf-stability"]
 +++
 In the setting of [def-per-support-condition], let the base field $k$ be

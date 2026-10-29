@@ -2,7 +2,7 @@
 id = "sk-lem-nagata-sketch-boundary"
 kind = "lemma"
 title = "Separation of closures"
-order = 339
+order = 247
 uses = ["sk-def-nagata-admissible"]
 lean = ["AlgebraicGeometry.exists_admissibleBlowup_disjoint_closures"]
 tags = ["sketch"]

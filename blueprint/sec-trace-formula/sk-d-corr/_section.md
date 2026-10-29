@@ -2,7 +2,7 @@
 id = "sk-d-corr"
 kind = "definition"
 title = "Correspondences and supported classes"
-order = 3610
+order = 3702
 uses = ["sk-d-setup", "sk-d-six", "sk-thm-sf-comp-composition"]
 tags = ["sketch"]
 +++

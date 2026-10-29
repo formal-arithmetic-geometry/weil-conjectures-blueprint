@@ -3,7 +3,7 @@ id = "thm-sp-spectral-object-yields"
 kind = "theorem"
 title = "The spectral sequence of a filtered complex"
 lean = ["CategoryTheory.DecreasingFiltration.exactCouple", "CategoryTheory.DecreasingFiltration.exactCouple_d", "CategoryTheory.DecreasingFiltration.homologyFiltration", "CategoryTheory.DecreasingFiltration.convergesTo_exactCouple", "CategoryTheory.ExactCouple.spectralSequence", "CategoryTheory.ExactCouple.Hom.spectralSequenceMap", "HomologicalComplex.HomologySequence.δ_naturality", "CategoryTheory.ExactCouple.IsFirstQuadrant", "CategoryTheory.ExactCouple.firstQuadrantSpectralSequence", "CategoryTheory.ExactCouple.firstQuadrantAbutment"]
-order = 590
+order = 612
 uses = ["def-sp-convergence", "def-sp-exact-couple", "def-sp-filtration", "def-sp-image-filtration", "def-sp-spectral-sequence", "lem-sp-couple-morphism", "lem-sp-long-exact-of-triangle", "lem-sp-page-induction"]
 +++
 Let $\mathcal A$ be an abelian category and let $K^\bullet$ be a complex in

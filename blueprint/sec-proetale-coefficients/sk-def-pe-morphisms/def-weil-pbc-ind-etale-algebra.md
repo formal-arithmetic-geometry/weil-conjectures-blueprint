@@ -2,7 +2,7 @@
 id = "def-weil-pbc-ind-etale-algebra"
 kind = "definition"
 title = "Ind-etale and ind-Zariski algebras"
-order = 867
+order = 898
 lean = ["Algebra.IndEtale", "RingHom.IndEtale", "Algebra.IndZariski", "Algebra.IsLocalIso", "Algebra.WeaklyEtale", "RingHom.WeaklyEtale", "AlgebraicGeometry.proAffineEtale_Spec_iff", "AlgebraicGeometry.WeaklyEtale.Spec_iff"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

@@ -3,7 +3,7 @@ id = "def-wf-semisimple-lie-algebra"
 kind = "definition"
 title = "Semisimple Lie algebra"
 lean = ["LieAlgebra.hasTrivialRadical_iff_forall_isSolvable_eq_bot"]
-order = 3703
+order = 3917
 uses = ["def-wf-lie-algebra"]
 +++
 A finite-dimensional Lie algebra in characteristic zero is

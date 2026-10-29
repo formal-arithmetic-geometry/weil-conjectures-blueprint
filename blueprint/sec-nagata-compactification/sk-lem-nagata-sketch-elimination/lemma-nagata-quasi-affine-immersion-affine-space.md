@@ -3,7 +3,7 @@ id = "lemma-nagata-quasi-affine-immersion-affine-space"
 kind = "lemma"
 title = "Property of the quasi-affine affine-space map, [stacks-project]"
 lean = ["AlgebraicGeometry.Scheme.Hom.affineSpaceImmersion_spec"]
-order = 299
+order = 205
 uses = ["def-nagata-quasi-affine-immersion-affine-space", "lemma-nagata-quasi-affine-immersion-affine-space-exists"]
 +++
 The constructed morphism

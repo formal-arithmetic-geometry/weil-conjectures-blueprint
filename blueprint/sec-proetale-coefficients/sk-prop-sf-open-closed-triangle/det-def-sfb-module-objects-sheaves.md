@@ -4,7 +4,7 @@ kind = "definition"
 title = "Sheaves of $\\Lambda_X$-modules"
 uses = ["det-def-sfb-module-objects-definition", "det-def-sfb-module-objects-category", "det-def-sfb-pulled-back-coefficients-ring", "det-def-sfb-sheaf-tensor-structure", "def-weil-pbc-proetale-site"]
 lean = ["CategoryTheory.Mod", "AlgebraicGeometry.ProEtale.condensedRingObj", "AlgebraicGeometry.ProEtale.sheafMonoidalCategory"]
-order = 1137
+order = 1181
 +++
 Let $X$ be a scheme with small pro-étale site $X_{\mathrm{proét}}$ ([def-weil-pbc-proetale-site]),
 and give $\Sh(X_{\mathrm{proét}},\Ab)$ the tensor product of [det-def-sfb-sheaf-tensor-structure]

@@ -2,7 +2,7 @@
 id = "det-lem-formal-closed-support-derived"
 kind = "lemma"
 title = "Sections with support: derived adjunction and fiber formula"
-order = 2134
+order = 2281
 uses = ["det-lem-formal-closed-support-sheaves", "sk-prop-sf-open-closed-triangle"]
 +++
 In the situation of [det-lem-formal-closed-support-sheaves], let

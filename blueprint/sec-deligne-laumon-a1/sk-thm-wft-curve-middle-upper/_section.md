@@ -3,7 +3,7 @@ id = "sk-thm-wft-curve-middle-upper"
 kind = "theorem"
 title = "The weight bound for middle extensions on a curve"
 lean = ["AlgebraicGeometry.hasWeightsAtMostOver_compactlySupportedCohomology_directImage_of_isCurve"]
-order = 4046
+order = 4268
 uses = ["sk-i-real-boundary", "sk-p-real-semi", "sk-prop-sf-open-closed-triangle", "sk-thm-wft-affine-curve-upper"]
 tags = ["sketch"]
 +++

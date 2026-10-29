@@ -3,7 +3,7 @@ id = "def-sp-image-filtration"
 kind = "definition"
 title = "Image filtrations"
 lean = ["CategoryTheory.DecreasingFiltration.image"]
-order = 493
+order = 512
 uses = ["def-sp-abelian", "def-sp-filtration"]
 +++
 Let $(A,F)$ be a filtered object [def-sp-filtration] and let $A\to B$ be a

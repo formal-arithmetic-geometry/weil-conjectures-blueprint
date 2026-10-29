@@ -2,7 +2,7 @@
 id = "def-sp-grothendieck-abelian"
 kind = "definition"
 title = "Grothendieck abelian categories"
-order = 486
+order = 505
 lean = ["CategoryTheory.IsGrothendieckAbelian"]
 uses = ["def-sp-abelian"]
 +++

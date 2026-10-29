@@ -1,7 +1,7 @@
 +++
 kind  = "proof"
 of    = "lem-fd-convolution-kernel"
-uses = ["sk-thm-sfb-shriek-base-change"]
+uses = ["det-thm-sfb-shriek-base-change"]
 +++
 *Step 1 (the integrand).* On $V\times_SV^\vee\times_SV$, with points
 $(x,y,z)$, the multiplicativity and the inverse formula of
@@ -16,7 +16,7 @@ $$
 *Step 2 (vanishing off the diagonal).* Let $(\bar x,\bar z)$ be a geometric
 point of $V\times_SV$ over the geometric point $\bar s$ of $S$, with values in
 an algebraically closed field $\Omega$. By compact-support base change
-([sk-thm-sfb-shriek-base-change]), as in [lem-fd-stalk-formula], the stalk
+([det-thm-sfb-shriek-base-change]), as in [lem-fd-stalk-formula], the stalk
 $C_{(\bar x,\bar z)}$ is
 $R\Gamma_c(V^\vee_{\bar s},\lambda^*\mathcal L_\psi)$ for the linear form
 $\lambda=\langle x-z,\ \cdot\ \rangle$ on the fibre

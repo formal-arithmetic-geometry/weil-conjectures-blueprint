@@ -2,7 +2,7 @@
 id = "sk-prop-logdet"
 kind = "lemma"
 title = "Logarithm of a determinant"
-order = 3531
+order = 3857
 uses = ["sk-def-frobmod", "sk-p-linear-triangular", "sk-p-trace"]
 lean = ["LinearMap.inv_charpolyRev_eq_exp"]
 tags = ["sketch"]

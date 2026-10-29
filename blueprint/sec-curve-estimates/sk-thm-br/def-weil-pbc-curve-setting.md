@@ -3,7 +3,7 @@ id = "def-weil-pbc-curve-setting"
 kind = "definition"
 title = "The curve setting of the eight assertions"
 lean = ["AlgebraicGeometry.CurveCoefficientPair"]
-order = 1368
+order = 1473
 uses = ["def-weil-pbc-etale-sheaves", "def-weil-pbc-scheme-conventions"]
 +++
 Let $k$ be algebraically closed, let $C$ be separated of finite type over $k$

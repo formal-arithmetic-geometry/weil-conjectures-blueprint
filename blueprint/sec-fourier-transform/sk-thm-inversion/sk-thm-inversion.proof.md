@@ -2,7 +2,7 @@
 kind  = "proof"
 of    = "sk-thm-inversion"
 +++
-Proper base change for $Rp_{2!}$ ([sk-prop-sf-cbc]) gives the compatibility
+Proper base change for $Rp_{2!}$ ([det-prop-sf-cbc]) gives the compatibility
 with base change and the formula for the stalks, and the projection formula
 ([sk-thm-sf-package]) gives the isomorphism for tensor products with
 complexes from $S$. Both are natural in $K$ and respect its Weil structure.

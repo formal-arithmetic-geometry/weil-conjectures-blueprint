@@ -2,7 +2,7 @@
 id = "lem-sfb-eta-id"
 kind = "lemma"
 title = "$\\eta$ is compatible with identities"
-order = 1227
+order = 1295
 uses = ["def-sfb-eta", "def-sfb-finite-lower-star"]
 lean = ["AlgebraicGeometry.ProEtale.condensedPushforwardHom_id"]
 +++

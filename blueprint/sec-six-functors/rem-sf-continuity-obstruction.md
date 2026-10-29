@@ -2,7 +2,7 @@
 id = "rem-sf-continuity-obstruction"
 kind = "remark"
 title = "What the recorded proof of the comparison theorem uses, and why it does not extend to arbitrary sheaves"
-order = 3319
+order = 3452
 uses = ["cor-sf-fullcd-weakly-contractible-test", "def-sf-fullcd-used-class", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "lem-cbc-proetale-stalk-conservative", "lem-sf-etale-direct-image-vanishing", "lem-sf-proetale-vanishing-detection", "prop-sf-comparison-bound-zero", "thm-sf-fullcd-etale-origin"]
 +++
 The continuity statement $(\mathrm{C}_q)$ of

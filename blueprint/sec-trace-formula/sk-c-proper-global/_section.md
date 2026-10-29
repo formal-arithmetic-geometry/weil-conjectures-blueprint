@@ -2,7 +2,7 @@
 id = "sk-c-proper-global"
 kind = "corollary"
 title = "Proper global trace comparison"
-order = 3640
+order = 3805
 uses = ["sk-d-corr", "sk-d-integral", "sk-d-operator", "sk-d-proper-pushforward", "sk-d-six", "sk-d-trace", "sk-d-trace-class", "sk-p-pairing", "sk-p-proper", "sk-thm-sf-package"]
 tags = ["sketch"]
 +++

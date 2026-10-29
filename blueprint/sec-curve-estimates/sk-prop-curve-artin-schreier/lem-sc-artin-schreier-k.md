@@ -3,7 +3,7 @@ id = "lem-sc-artin-schreier-k"
 kind = "lemma"
 title = "Artin–Schreier on algebraically closed fields"
 lean = ["IsAlgClosed.surjective_pow_sub_self", "Subfield.mem_bot_iff_pow_eq_self"]
-order = 1433
+order = 1540
 +++
 Let $k$ be an algebraically closed field of characteristic
 $p>0$. Then the Artin–Schreier map

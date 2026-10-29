@@ -2,7 +2,7 @@
 id = "det-pd-verdier-dual-ctf"
 kind = "lemma"
 title = "The Verdier dual of a $\\Dctf$ complex lies in $\\Dctf$"
-order = 3275
+order = 3426
 uses = ["det-pd-dualizing-complex-ctf", "det-thm-sf-ctf-stability-internal-hom"]
 +++
 Let $\Lambda$ be an admissible coefficient ring and let $X$ be separated of

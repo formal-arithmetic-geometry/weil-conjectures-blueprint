@@ -2,8 +2,8 @@
 id = "det-prop-p1-adjunction-rational-unit-counit"
 kind = "definition"
 title = "Unit and counit for the rational projective line"
-order = 2420
-uses = ["sk-prop-diagonal-tower", "sk-thm-sf-pf-field", "def-amb-p1-trace"]
+order = 2757
+uses = ["sk-prop-diagonal-tower", "sk-thm-sf-pf-field", "sk-prop-proper-base-change-unbounded", "def-amb-p1-trace"]
 +++
 Let $\Lambda=E$ or $\Qlb$, $q:P=\mathbf P^1_Y\to Y$, $W=P\times_YP$ with
 projections $p_1,p_2:W\to P$ and diagonal $\Delta:P\to W$, and let

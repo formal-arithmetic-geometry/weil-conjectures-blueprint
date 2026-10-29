@@ -3,7 +3,7 @@ id = "def-weil-normalized-integral-fraction"
 kind = "definition"
 title = "Normalized reduced integral fraction"
 lean = ["PowerSeries.IsNormalizedIntegralFraction"]
-order = 4116
+order = 4350
 uses = ["def-weil-formal-power-series"]
 +++
 Fix an indeterminate $T$, and let

@@ -2,7 +2,7 @@
 id = "lem-pc-hilb-sheaf"
 kind = "lemma"
 title = "$\\operatorname{Hilb}^d$ is an fppf sheaf"
-order = 767
+order = 793
 uses = ["def-pc-finite-locally-free", "def-pc-fppf-site", "def-pc-hilb-functor", "lem-pc-descent-finite-flat-closed-subschemes", "lem-pc-hilb-functorial"]
 lean = ["AlgebraicGeometry.isSheaf_hilbertPresheaf"]
 +++

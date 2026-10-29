@@ -2,9 +2,9 @@
 id = "sk-thm-picard-hilb-curves"
 kind = "theorem"
 title = "Hilbert schemes of points on a smooth curve"
-order = 756
+order = 782
 uses = ["sk-prop-picard-pic-split", "sk-def-picard-pic", "sec-abelian-varieties", "sec-nagata-compactification"]
-lean = ["AlgebraicGeometry.hilbertPresheaf_curve_representable", "AlgebraicGeometry.hilbertPresheaf_curve_points", "AlgebraicGeometry.hilbertPresheaf_curve_add", "AlgebraicGeometry.isIso_of_representableBy_hilbertPresheaf_zero"]
+lean = ["AlgebraicGeometry.hilbertPresheaf_curve_representable", "AlgebraicGeometry.isIso_of_representableBy_hilbertPresheaf_zero"]
 tags = ["sketch"]
 +++
 Let $C/k$ be a smooth projective geometrically connected curve. For
@@ -17,11 +17,3 @@ precisely the relative effective Cartier divisors which are finite
 locally free of degree $d$. It has a universal divisor
 $D_d\subset C\times_kH_d$ and an associated invertible sheaf
 $\cO(D_d)$.
-
-*Complements* (proved in this sketch). For a field extension $k'/k$ the
-$k'$-points of $H_d$ are the effective Cartier divisors of degree $d$ on
-$C_{k'}$, and $\cO(D_d)|_{C\times\{[D]\}}\cong\cO_C(D)$; there is an
-addition morphism $H_{d_1}\times_kH_{d_2}\to H_{d_1+d_2}$, given on
-points by $(D_1,D_2)\mapsto D_1+D_2$ (product of the ideal sheaves),
-finite locally free of degree $\binom{d_1+d_2}{d_1}$; in particular the
-iterated addition $C^d\to H_d$ is finite locally free and surjective.

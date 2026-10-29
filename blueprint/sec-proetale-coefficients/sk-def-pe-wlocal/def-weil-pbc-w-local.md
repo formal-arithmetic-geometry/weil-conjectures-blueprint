@@ -2,7 +2,7 @@
 id = "def-weil-pbc-w-local"
 kind = "definition"
 title = "Patch topology and w-local affine schemes"
-order = 891
+order = 928
 lean = ["constructibleTopology", "Topology.IsConstructible", "WLocalSpace", "IsWLocalRing"]
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

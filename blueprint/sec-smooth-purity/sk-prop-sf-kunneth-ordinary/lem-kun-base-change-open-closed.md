@@ -2,7 +2,7 @@
 id = "lem-kun-base-change-open-closed"
 kind = "lemma"
 title = "Base change for open-closed immersions"
-order = 3157
+order = 3133
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-underived-exchange", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++
 Let $j:U\to X$ be both an open and a closed immersion of schemes

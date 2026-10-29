@@ -20,4 +20,4 @@ quotients of weights at most $w+n$, and so
 $\mathcal H^n(Rf_!K)$ is mixed of weights at most $w+n$.
 For the structure map, the geometric fibre of the direct image is
 the compactly supported cohomology with its Frobenius operator
-([sk-prop-sf-cbc]), which gives the last assertion.
+([det-prop-sf-cbc]), which gives the last assertion.

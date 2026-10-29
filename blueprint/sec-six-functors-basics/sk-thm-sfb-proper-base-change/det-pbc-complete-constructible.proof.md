@@ -37,4 +37,4 @@ $p'^*\dashv Rp'_*$, the pullback comparison of the square and the counit of
 $p^*\dashv Rp_*$ ([det-pbc-complete-exchange-map] (1)); on bounded
 constructible complexes these are the unit, comparison and counit of the
 restricted functors, so $\operatorname{Ex}_K$ is $\mathrm{BC}$ of
-[sk-def-sfb-base-change-morphism].
+[det-def-sfb-base-change-morphism].

@@ -2,7 +2,7 @@
 id = "rem-ptr-fd-artin-schreier-sheaf-1"
 kind = "remark"
 title = "Pointer to the properties of [def-fd-artin-schreier-sheaf]"
-order = 3935
+order = 4146
 uses = ["def-fd-artin-schreier-sheaf"]
 +++
 In the notation of [def-fd-artin-schreier-sheaf], $\mathcal L_{\psi,f}$ is

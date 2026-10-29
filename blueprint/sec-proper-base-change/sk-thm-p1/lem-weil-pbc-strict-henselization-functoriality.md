@@ -3,7 +3,7 @@ id = "lem-weil-pbc-strict-henselization-functoriality"
 kind = "lemma"
 title = "Strict henselizations at a geometric point and their functoriality"
 lean = ["AlgebraicGeometry.strictHenselizationResidue", "AlgebraicGeometry.strictHenselizationFunctoriality"]
-order = 1913
+order = 2035
 uses = ["def-pc-scheme", "def-weil-geometric-point", "def-weil-pbc-strict-henselization-limit", "def-weil-pbc-pointed-etale-neighbourhoods", "def-weil-pbc-relative-separable-closure", "def-weil-residue-field", "def-weil-pbc-henselian-terminology", "def-weil-locally-ringed-space-morphism", "def-pc-fibre-product"]
 tags = ["stacks-04HX"]
 +++

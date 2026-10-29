@@ -59,5 +59,5 @@ product of the $r$ traces of the line is the trace of $\mathbf A^r_\Omega$.
 
 *Coefficients.* The computation is made with $\Lambda=E$; extension of
 scalars to $\overline{\mathbf Q}_\ell$ commutes with $R\Gamma_c$ and with the
-traces ([sk-prop-sfb-finite-extension-compatibility]), which gives the case
+traces ([det-prop-sfb-finite-extension-compatibility]), which gives the case
 $\Lambda=\overline{\mathbf Q}_\ell$.
