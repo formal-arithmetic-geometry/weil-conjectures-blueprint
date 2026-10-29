@@ -161,7 +161,9 @@ export function render(root, app) {
       .map((n) => el('option', { value: String(n), selected: n === levels }, String(n))),
     el('option', { value: 'all', selected: levels === Infinity }, 'all')),
     levels === 1 ? ' level.' : ' levels.',
-    ' ', app.proofToggle()));
+    ' ', app.proofToggle(),
+    // This page's part, as a PDF: the dialog opens on it.
+    app.exportButton ? [' ', app.exportButton('Export PDF')] : null));
   const pagerTop = pager(app, outline, pageEntry, href);
   if (pagerTop) body.appendChild(pagerTop);
   body.appendChild(flow);
@@ -189,7 +191,7 @@ export function render(root, app) {
       const text = el('section', { class: 'doc-entry is-text kind-' + o.kind, id: 'doc-' + cssId(o.id) });
       const prose = text.appendChild(el('div.prose.body-prose'));
       defer(prose, () => app.renderBody(prose, o.body, known, refs));
-      for (const step of outline.steps.get(o.id) || []) text.appendChild(stepBlock(app, step, known, refs));
+      for (const step of outline.steps.get(o.id) || []) text.appendChild(stepBlock(app, step, outline, known, refs));
       flow.appendChild(text);
       return;
     }
@@ -202,7 +204,7 @@ export function render(root, app) {
 
     const anchor = entry.duplicate ? null : 'doc-' + cssId(o.id);
     const hLevel = isHead ? 1 : Math.min(5, 2 + rel);
-    const status = M.statusOf(m, o.id);
+    const status = M.badgeStatusOf(m, o.id);
     const prog = M.progressMixOf(m, kind, o.id);
 
     // Sections are headings; everything else is a numbered statement in the
@@ -264,15 +266,13 @@ export function render(root, app) {
         section.appendChild(proofBlock(app, proof, outline, known, refs));
       }
       for (const step of outline.steps.get(o.id) || []) {
-        section.appendChild(stepBlock(app, step, known, refs));
+        section.appendChild(stepBlock(app, step, outline, known, refs));
       }
     }
 
     if (leadsOn) {
-      const n = entry.children.length;
       section.appendChild(el('p.doc-open',
-        el('a', { href: href(o.id) }, 'Read ', num, ' →'),
-        el('span.muted.small', ` ${n} ${n === 1 ? 'entry' : 'entries'}`)));
+        el('a', { href: href(o.id) }, 'Read ', num, ' →')));
     }
 
     flow.appendChild(section);
@@ -492,11 +492,14 @@ function scrollTo(anchor) {
   };
 }
 
-function stepBlock(app, o, known, refs) {
+/** A step, and the steps filed under it in turn: a relation between two
+ *  relations ("the fine dependency generalises the coarse one") is read with
+ *  the relation it starts from. */
+function stepBlock(app, o, outline, known, refs, seen = new Set()) {
   const { el } = app;
   const m = app.model;
   const tgt = M.boundaryEntry(o, 'tgt');
-  const status = M.statusOf(m, o.id);
+  const status = M.badgeStatusOf(m, o.id);
   // An id, so `?focus=` on a step lands on it.
   const block = el('div.step', { id: 'doc-' + cssId(o.id) },
     el('div.step-head',
@@ -509,6 +512,10 @@ function stepBlock(app, o, known, refs) {
     const prose = el('div.body-prose.step-prose');
     block.appendChild(prose);
     defer(prose, () => app.renderBody(prose, o.body, known, refs));
+  }
+  seen.add(o.id);
+  for (const step of outline.steps.get(o.id) || []) {
+    if (!seen.has(step.id)) block.appendChild(stepBlock(app, step, outline, known, refs, seen));
   }
   return block;
 }
@@ -531,7 +538,7 @@ function proofBlock(app, o, outline, known, refs) {
     defer(prose, () => app.renderBody(prose, o.body, known, refs));
   }
   for (const step of outline.steps.get(o.id) || []) {
-    body.appendChild(stepBlock(app, step, known, refs));
+    body.appendChild(stepBlock(app, step, outline, known, refs));
   }
   const block = app.proofDisclosure(head, body);
   // An id, so `?focus=` on a proof lands on it.
