@@ -1,0 +1,12 @@
++++
+id = "sk-lem-int-tensor"
+kind = "lemma"
+title = "Inverse image and tensor product"
+order = 367
+uses = ["sk-def-sfb-constructible"]
+tags = ["sketch"]
++++
+Inverse image, $\otimes^{\mathbf L}_{\mathcal O_{E,X}}$ without completion,
+extension by zero along a quasi-compact open immersion and direct image
+along a closed immersion preserve $\Dbc(-,\mathcal O_E)$; on $\Dbc$ inverse
+image agrees with the completed inverse image of the Stacks Project.

@@ -1,0 +1,16 @@
++++
+id = "sk-thm-pe-constructible-comparison"
+kind = "theorem"
+title = "Comparison for constructible sheaves"
+order = 100
+lean = ["AlgebraicGeometry.ProEtale.IsConstructible", "AlgebraicGeometry.ProEtale.isConstructible_comparisonUpperStar_obj", "AlgebraicGeometry.ProEtale.isConstructible_iff_exists_isConstructibleSheaf_iso_comparisonUpperStar_obj", "AlgebraicGeometry.ProEtale.full_comparisonUpperStar", "AlgebraicGeometry.ProEtale.faithful_comparisonUpperStar", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructible", "AlgebraicGeometry.ProEtale.bijective_comparisonUpperStar_mapDerivedCategory_map", "AlgebraicGeometry.ProEtale.openImmersionLowerShriekComparisonUpperStarIso"]
+uses = ["sk-prop-pe-finite-local-systems", "sk-cor-pe-classical-derived", "sk-thm-pe-direct-image-comparison", "sk-prop-sf-open-closed-triangle", "sk-def-sfb-constructible"]
+tags = ["sketch"]
++++
+Let $X$ be quasi-compact and quasi-separated. For a discrete
+Noetherian $\Lambda$, every constructible
+pro-étale $\Lambda_X$-module sheaf is classical. The functor
+$\nu_X^*$ gives an equivalence from constructible étale sheaves of
+$\Lambda$-modules to $\Cons(X,\Lambda)$, and an equivalence
+$D^b_c(X_{\acute{e}t},\Lambda)\to\Dbc(X,\Lambda)$ of bounded constructible
+derived categories.

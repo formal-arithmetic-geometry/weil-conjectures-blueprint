@@ -10,18 +10,18 @@ derived from the project's oleans rather than written here.
 The content was imported from the project's leanblueprint LaTeX sources
 (`blueprint/src/version/` in the project) and is edited here from now on.
 
-## Updated source notes
+## Lecture notes
 
-*Condensed Coefficients, Proper Base Change and Six Functors in Ordinary Derived Categories*
-(14 October 2026) is a newer standalone account of the coefficient and
-derived-category foundations, proper base change, the construction of the
-exceptional inverse image, and smooth purity with its trace and Frobenius
-compatibility. Its proper base change chapter follows the blueprint's
-injective acyclicity criterion, projective-line argument, and reduction
-through finite morphisms, symmetric powers, and Chow's lemma, then connects
-the torsion theorem to pro-étale and completed integral coefficients. It
-uses condensed rings to define coefficients uniformly. The sketch layer of
-the blueprint is aligned with it (see `TEX-ALIGNMENT.md`).
+The blueprint follows the lecture notes *The Weil Conjectures: Six
+operations, the trace formula and Deligne's theorem on weights*
+(`Readable Lecture Notes.tex`). Its sections are the parts, sections and
+subsections of the notes; its sketch layer is the notes' theorems, lemmas,
+propositions, corollaries, definitions, remarks and examples, one node each;
+and the text between them is kept as nodes of kind `hidden`, which the
+document shows in place and the graph leaves out. The Lean-backed detail
+nodes sit below the sketch nodes. `TEX-ALIGNMENT.md` records how each
+declaration of the notes was matched, and where the nodes the notes do not
+state went.
 
 ## Working locally
 
