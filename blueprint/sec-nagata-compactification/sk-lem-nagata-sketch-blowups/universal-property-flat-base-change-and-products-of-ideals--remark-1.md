@@ -3,6 +3,7 @@ id = "universal-property-flat-base-change-and-products-of-ideals--remark-1"
 kind = "remark"
 title = "Formalization route"
 order = 139
+uses = ["thm-nagata-blowup-universal-property"]
 +++
 The universal property can be proved under the Stacks-style hypothesis that
 the inverse image ideal sheaf of the center is effective Cartier, entirely

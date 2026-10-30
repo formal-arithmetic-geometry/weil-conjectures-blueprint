@@ -3,6 +3,7 @@ id = "sk-rem-nagata-density-normalization-lean"
 kind = "remark"
 title = "Scope in the formalization"
 order = 50
+uses = ["sk-lem-nagata-density-normalization"]
 tags = ["sketch"]
 +++
 The Lean formalization proves [sk-lem-nagata-density-normalization], and with

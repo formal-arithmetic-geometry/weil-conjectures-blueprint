@@ -3,6 +3,7 @@ id = "sk-the-final-theorem--remark-1"
 kind = "remark"
 title = "Remark"
 order = 2149
+uses = ["sk-thm-properbasechange"]
 tags = ["sketch"]
 +++
 Only the six theorems of §§ *The six theorems* are statements; every other fact used

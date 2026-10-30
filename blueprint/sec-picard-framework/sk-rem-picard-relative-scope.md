@@ -3,6 +3,7 @@ id = "sk-rem-picard-relative-scope"
 kind = "remark"
 title = "Ground fields and relative representability"
 order = 868
+uses = ["sk-prop-jacobian-descent"]
 tags = ["sketch"]
 +++
 For a smooth proper geometrically connected curve $C/k$ over an

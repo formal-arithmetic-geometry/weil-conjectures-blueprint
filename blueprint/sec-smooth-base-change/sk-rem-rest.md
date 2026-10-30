@@ -3,6 +3,7 @@ id = "sk-rem-rest"
 kind = "remark"
 title = "Classical form and the following sections"
 order = 2221
+uses = ["sk-thm-smooth-base-change"]
 tags = ["sketch"]
 +++
 *Classical form* ([sk-def-bc] with the roles of $f$ and $g$

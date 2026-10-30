@@ -3,6 +3,7 @@ id = "sk-rem-sf-typing"
 kind = "remark"
 title = "Typing table: ambient definition, small-category theorem"
 order = 3443
+uses = ["sk-def-sf-categories"]
 tags = ["sketch"]
 +++
 For each operation the second column is where it is *defined*, the third

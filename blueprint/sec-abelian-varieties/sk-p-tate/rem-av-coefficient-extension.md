@@ -3,6 +3,7 @@ id = "rem-av-coefficient-extension"
 kind = "remark"
 title = "Coefficient extension"
 order = 575
+uses = ["sk-p-tate"]
 +++
 By [sk-p-tate], the automorphism $F^m-1$ remains invertible after extension of scalars
 to a finite extension $E/\Q_\ell$ or to $\overline{\mathbf Q}_\ell$, and the integral

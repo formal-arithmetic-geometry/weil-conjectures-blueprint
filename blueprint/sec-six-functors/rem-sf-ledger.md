@@ -3,6 +3,7 @@ id = "rem-sf-ledger"
 kind = "remark"
 title = "What this chapter settles, and what remains"
 order = 3568
+uses = ["sk-thm-sf-package"]
 +++
 The dependency structure of the duality material after this chapter is as
 follows. *Proved here*: the formal core (mate calculus, tensor–Hom

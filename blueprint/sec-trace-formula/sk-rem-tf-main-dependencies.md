@@ -3,6 +3,7 @@ id = "sk-rem-tf-main-dependencies"
 kind = "remark"
 title = "Non-lisse coefficients in the local calculation"
 order = 3637
+uses = ["sk-p-frob"]
 tags = ["sketch"]
 +++
 The case of the affine line in the proof of

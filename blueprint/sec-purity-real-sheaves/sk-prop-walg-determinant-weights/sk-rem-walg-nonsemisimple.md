@@ -3,6 +3,7 @@ id = "sk-rem-walg-nonsemisimple"
 kind = "remark"
 title = "Representations that are not semisimple"
 order = 4073
+uses = ["sk-prop-walg-determinant-weights"]
 +++
 For a representation that is not semisimple, the central element in these
 proofs acts on the tensor constructions of its semisimplification, and

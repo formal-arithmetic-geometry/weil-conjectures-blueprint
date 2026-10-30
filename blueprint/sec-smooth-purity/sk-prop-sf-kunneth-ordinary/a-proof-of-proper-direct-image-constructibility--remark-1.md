@@ -2,6 +2,7 @@
 id = "a-proof-of-proper-direct-image-constructibility--remark-1"
 kind = "remark"
 order = 3166
+uses = ["sk-prop-sf-kunneth-ordinary"]
 +++
 The conclusion is a finite stratification, not local constancy on all
 of $X$. For a closed point $i:Z\hookrightarrow X$ of an

@@ -3,6 +3,7 @@ id = "rem-seams"
 kind = "remark"
 title = "The seams"
 order = 2226
+uses = ["sk-thm-smooth-base-change"]
 +++
 *(i) The two lanes contradict (this is the whole proof):* a
 first failure in degree $q$ produces a universal curve-test datum

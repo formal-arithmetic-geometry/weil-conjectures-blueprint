@@ -3,6 +3,7 @@ id = "rem-feeds"
 kind = "remark"
 title = "Where this feeds, and what remains"
 order = 3618
+uses = ["sk-thm-poincare-duality"]
 +++
 Global duality and the pairing
 identification are cited directly as [thm-sf-global-duality] and

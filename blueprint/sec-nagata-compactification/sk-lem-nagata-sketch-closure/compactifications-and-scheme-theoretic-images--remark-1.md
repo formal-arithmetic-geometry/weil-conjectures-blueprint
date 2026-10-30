@@ -3,6 +3,7 @@ id = "compactifications-and-scheme-theoretic-images--remark-1"
 kind = "remark"
 title = "Formalization route"
 order = 27
+uses = ["lemma-nagata-dense-flat-pullback"]
 +++
 One need not run the affine kernel computations in the proof of
 [lemma-nagata-dense-flat-pullback]: one can factor the base-changed

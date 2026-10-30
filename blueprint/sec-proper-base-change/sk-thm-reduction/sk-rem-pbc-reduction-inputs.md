@@ -3,6 +3,7 @@ id = "sk-rem-pbc-reduction-inputs"
 kind = "remark"
 title = "The role of properness"
 order = 2071
+uses = ["sk-thm-reduction"]
 +++
 The reduction in [sk-thm-reduction] uses Chow's lemma [sk-thm-chow], the
 stalk formula for finite morphisms [sk-lem-pbc-finite], the proper

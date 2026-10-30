@@ -3,6 +3,7 @@ id = "sk-rem-seams"
 kind = "remark"
 title = "The seams"
 order = 2225
+uses = ["sk-thm-smooth-base-change"]
 tags = ["sketch"]
 +++
 *(i) The two lanes contradict (this is the whole proof):* a

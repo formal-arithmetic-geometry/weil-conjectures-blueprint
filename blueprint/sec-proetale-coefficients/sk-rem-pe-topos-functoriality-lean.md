@@ -3,6 +3,7 @@ id = "sk-rem-pe-topos-functoriality-lean"
 kind = "remark"
 title = "Coefficients in the formalization"
 order = 925
+uses = ["sk-def-sfb-finite-pushforward-pullback"]
 tags = ["sketch"]
 +++
 The Lean formalization treats only the case of Grothendieck abelian

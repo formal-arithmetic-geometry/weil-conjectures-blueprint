@@ -3,6 +3,7 @@ id = "sk-rem-running"
 kind = "remark"
 title = "A running example"
 order = 2273
+uses = ["sk-lem-coefficient-heart"]
 tags = ["sketch"]
 +++
 We use the same few schemes throughout:

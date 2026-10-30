@@ -3,6 +3,7 @@ id = "rem-sf-kv-formal"
 kind = "remark"
 title = "Künneth–Verdier is formally duality of external products"
 order = 3529
+uses = ["sk-rem-sf-kv-formal"]
 +++
 Given biduality [thm-sf-biduality-class], the Verdier exchange
 [thm-sf-verdier-exchange] has as its adjoint

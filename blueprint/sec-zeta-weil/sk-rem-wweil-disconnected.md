@@ -3,6 +3,7 @@ id = "sk-rem-wweil-disconnected"
 kind = "remark"
 title = "Disconnected $X_0$"
 order = 4398
+uses = ["sk-thm-weil-final"]
 tags = ["sketch"]
 +++
 The theorem [sk-thm-weil-final] extends to every smooth proper $X_0$ of pure

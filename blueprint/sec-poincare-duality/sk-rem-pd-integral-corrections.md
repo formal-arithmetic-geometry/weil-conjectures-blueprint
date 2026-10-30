@@ -3,6 +3,7 @@ id = "sk-rem-pd-integral-corrections"
 kind = "remark"
 title = "Integral corrections and finite rings"
 order = 3581
+uses = ["sk-thm-derived-duality"]
 tags = ["sketch"]
 +++
 Let $X$, $K$ and $K^\vee=\cHom_X(K,\Lambda_X)$ be as in

@@ -3,6 +3,7 @@ id = "admissible-blow-ups-and-strict-transforms--remark-1"
 kind = "remark"
 title = "Formalization route"
 order = 162
+uses = ["def-nagata-strict-transform"]
 +++
 The strict transform can be handled directly through this
 scheme-theoretic-closure definition: the identification over the preserved

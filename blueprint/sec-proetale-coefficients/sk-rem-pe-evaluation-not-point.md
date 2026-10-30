@@ -3,6 +3,7 @@ id = "sk-rem-pe-evaluation-not-point"
 kind = "remark"
 title = "Evaluation is not generally a point"
 order = 980
+uses = ["sk-cor-pe-sections"]
 tags = ["sketch"]
 +++
 For modules, sections over a quasi-compact weakly contractible $W$ preserve all colimits

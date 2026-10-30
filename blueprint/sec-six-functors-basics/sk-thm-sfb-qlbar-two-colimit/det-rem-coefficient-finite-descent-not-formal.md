@@ -3,6 +3,7 @@ id = "det-rem-coefficient-finite-descent-not-formal"
 kind = "remark"
 title = "Descent to a finite coefficient field is not formal"
 order = 2306
+uses = ["sk-thm-sfb-qlbar-two-colimit"]
 +++
 Neither part of [sk-thm-sfb-qlbar-two-colimit] is a formal consequence of
 $\QbarX=\varinjlim_EE_X$ ([sk-prop-sfb-qlbar-colimit-x]). The proof needs the continuity of

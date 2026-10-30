@@ -3,6 +3,7 @@ id = "sk-rationality-the-criterion-and-the-descent--remark-1"
 kind = "remark"
 title = "Remark"
 order = 4362
+uses = ["sk-lem-wweil-integer-rationality"]
 tags = ["sketch"]
 +++
 *Why the descent is needed.* The determinant formula of

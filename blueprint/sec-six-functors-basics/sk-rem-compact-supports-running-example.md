@@ -3,6 +3,7 @@ id = "sk-rem-compact-supports-running-example"
 kind = "remark"
 title = "Compact supports on the running example"
 order = 2613
+uses = ["sk-lem-geo-p1-cohomology"]
 tags = ["sketch"]
 +++
 We use the open immersion $j_\infty:\mathbf A^1\to\mathbf P^1$ of

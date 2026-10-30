@@ -3,6 +3,7 @@ id = "sk-rem-curve-twists"
 kind = "remark"
 title = "Twists and the projective line"
 order = 1518
+uses = ["sk-thm-curveestimate"]
 tags = ["sketch"]
 +++
 The canonical formula is $H^2(C,\mu_n)=\Z/n$, with $\mu_n=(\Z/n)(1)$.

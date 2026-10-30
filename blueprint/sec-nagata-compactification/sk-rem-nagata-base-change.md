@@ -3,6 +3,7 @@ id = "sk-rem-nagata-base-change"
 kind = "remark"
 title = "Base change of a compactification"
 order = 51
+uses = ["sk-def-nagata-sketch-data"]
 tags = ["sketch"]
 +++
 For every $S'\to S$, the base change of a compactification is an open

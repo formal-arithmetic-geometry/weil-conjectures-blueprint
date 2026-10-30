@@ -3,6 +3,7 @@ id = "sk-rem-pe-finite-field-adic"
 kind = "remark"
 title = "The first cohomology of a finite field"
 order = 1099
+uses = ["sk-cor-pe-continuous-etale"]
 tags = ["sketch"]
 +++
 For $X=\Spec\mathbb F_q$ and $\ell\nmid q$,

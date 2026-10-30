@@ -3,6 +3,7 @@ id = "sk-rem-tf-rationality"
 kind = "remark"
 title = "The sign of the functional equation and weights"
 order = 3639
+uses = ["sk-cor-tf-functional-equation"]
 tags = ["sketch"]
 +++
 The functional equation [sk-cor-tf-functional-equation] is an

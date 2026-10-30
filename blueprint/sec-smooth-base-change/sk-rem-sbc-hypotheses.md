@@ -3,6 +3,7 @@ id = "sk-rem-sbc-hypotheses"
 kind = "remark"
 title = "The invertibility and boundedness hypotheses"
 order = 2155
+uses = ["sk-thm-sbc-derived"]
 tags = ["sketch"]
 +++
 The sheaf argument also allows torsion sections of varying orders,

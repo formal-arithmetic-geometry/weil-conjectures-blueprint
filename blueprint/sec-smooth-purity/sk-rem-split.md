@@ -3,6 +3,7 @@ id = "sk-rem-split"
 kind = "remark"
 title = "What sits where"
 order = 3410
+uses = ["sk-thm-smooth-purity"]
 tags = ["sketch"]
 +++
 The five moves are the whole proof. Conveniently located: the

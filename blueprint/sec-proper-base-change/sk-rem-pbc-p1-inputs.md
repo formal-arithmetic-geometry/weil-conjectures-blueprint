@@ -3,6 +3,7 @@ id = "sk-rem-pbc-p1-inputs"
 kind = "remark"
 title = "Inputs of the projective-line proof"
 order = 2042
+uses = ["sk-thm-p1"]
 tags = ["sketch"]
 +++
 In the proof of [sk-thm-p1] the henselian comparison

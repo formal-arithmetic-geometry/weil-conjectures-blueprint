@@ -3,6 +3,7 @@ id = "sk-rem-tf-weil-lattices"
 kind = "remark"
 title = "Weil maps without invariant lattices"
 order = 3638
+uses = ["sk-lem-tf-rational-model"]
 tags = ["sketch"]
 +++
 In [sk-lem-tf-rational-model], $K_0$ is an arbitrary object of

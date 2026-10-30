@@ -3,6 +3,7 @@ id = "sk-rem-compactifications"
 kind = "remark"
 title = "Compactifications"
 order = 2498
+uses = ["sk-prop-sf-comp-coherence"]
 tags = ["sketch"]
 +++
 1. By Nagata's theorem ([sk-thm-nagata-compactification]), every separated morphism of finite type

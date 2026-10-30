@@ -3,6 +3,7 @@ id = "sk-rem-curve-wild-example"
 kind = "remark"
 title = "The affine line in characteristic $p$"
 order = 1421
+uses = ["sk-lem-curve-affine-artin-schreier"]
 tags = ["sketch"]
 +++
 For $U=\A^1_k$ in characteristic $p$ one obtains

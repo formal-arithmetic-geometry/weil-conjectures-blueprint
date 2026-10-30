@@ -3,6 +3,7 @@ id = "sk-rem-sbc-scope"
 kind = "remark"
 title = "Smooth base change, proper base change and purity"
 order = 2156
+uses = ["sk-thm-smooth-base-change"]
 tags = ["sketch"]
 +++
 In a cartesian square with $u:X'\to X$, $f':X'\to Y'$, $f:X\to Y$ and $g:Y'\to Y$, smooth base

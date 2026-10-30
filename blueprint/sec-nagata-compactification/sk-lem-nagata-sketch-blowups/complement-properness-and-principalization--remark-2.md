@@ -3,6 +3,7 @@ id = "complement-properness-and-principalization--remark-2"
 kind = "remark"
 title = "Formalization route"
 order = 131
+uses = ["thm-nagata-blowup-principalizes-center"]
 +++
 The principalization of the center can be proved in its effective-Cartier
 form directly from [lemma-nagata-chart-extended-ideal-principal] and

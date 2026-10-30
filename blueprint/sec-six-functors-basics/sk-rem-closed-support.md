@@ -3,6 +3,7 @@ id = "sk-rem-closed-support"
 kind = "remark"
 title = "Sections with support at the origin of the affine line"
 order = 2759
+uses = ["sk-thm-purity-transport"]
 tags = ["sketch"]
 +++
 Let $X=\mathbf A^1_k$, $k$ algebraically closed, $Z$ the origin and

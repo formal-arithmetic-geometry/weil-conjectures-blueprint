@@ -3,6 +3,7 @@ id = "sk-rem-tf-locality-warning"
 kind = "remark"
 title = "Local terms and internal Hom"
 order = 3636
+uses = ["sk-p-frob"]
 tags = ["sketch"]
 +++
 The vanishing for $K_{\bar y}=0$ is a geometric fact about the
