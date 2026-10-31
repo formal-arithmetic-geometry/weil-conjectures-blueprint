@@ -2,6 +2,7 @@
 id = "det-def-sfb-constructible-local-model"
 kind = "definition"
 title = "Finite constant local models"
+lean = ["AlgebraicGeometry.ProEtale.finiteConstantLocalModel_iff_exists_cover"]
 order = 1258
 uses = ["def-sfb-locally-finitely-presented", "def-sfb-finitely-presented-module", "det-def-sfb-pulled-back-coefficients", "def-weil-pbc-proetale-site"]
 +++
