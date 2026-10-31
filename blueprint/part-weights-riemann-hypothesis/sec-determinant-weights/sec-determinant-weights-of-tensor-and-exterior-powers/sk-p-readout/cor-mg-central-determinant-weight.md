@@ -2,6 +2,7 @@
 id = "cor-mg-central-determinant-weight"
 kind = "theorem"
 title = "Central element determines the determinant weight"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_detWeight_eq_of_isPositiveCentralPair_of_isIrreducible"]
 order = 4067
 tags = ["latex:corollary"]
 uses = ["d-monodromy", "d-weights", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "def-wf-monodromy-data", "lem-mg-degree-component-functoriality", "lem-mg-determinant-monodromy-morphism", "lem-wf-schur-scalar"]
