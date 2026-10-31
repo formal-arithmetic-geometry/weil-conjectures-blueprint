@@ -16,6 +16,10 @@
 // A page has breadcrumbs up its chain, its previous and next siblings, and a
 // contents list of what it shows.
 //
+// The top of the document is its contents: a row per top-level entry, each
+// leading to that entry's page, and only the text at the top level written
+// out.  A `depth=` on the top page writes the top levels out instead.
+//
 // `?focus=<id>` scrolls to an entry.  A focus the page does not show — every
 // link written before the split, `#/document?focus=x` — is redirected to the
 // page the entry is read on (`documentPageOf`), replacing the history entry so
@@ -41,9 +45,6 @@ import * as M from './model.js';
 // How much is built before the first paint, and how much per frame afterwards.
 const FIRST_CHUNK = 40;
 const CHUNK = 120;
-// Above this many entries the contents list is restricted to objects that
-// actually contain something; a thousand-line table of contents helps nobody.
-const TOC_STRUCTURE_ONLY = 400;
 // Levels written out below a page when the route does not say.
 const DEFAULT_LEVELS = 1;
 // The choices offered by the depth control, besides "all".
@@ -72,9 +73,17 @@ export function render(root, app) {
   const pageId = app.route.id || null;
   const focus = app.route.params.get('focus');
   const href = (page, target) => docHref(kind, levels, page, target);
+  // The page that writes out the level an entry is on, scrolled to it: its
+  // parent's page, or the top level written out, which says its depth (the
+  // top page without one is the contents).
+  const levelHref = (e) => (e.parent ? href(e.parent.id, e.id)
+    : '#/document?' + docQuery(kind, levels, e.id, true).toString());
+  // The top page with no `depth=` is the contents, which write out no level.
+  const contents = pageId === null && !app.route.params.has('depth');
+  const shown = contents ? 0 : levels;
 
   // An entry this page does not write out is read somewhere else: go there.
-  if (focus && !M.documentPageShows(outline, pageId, levels, focus)) {
+  if (focus && !M.documentPageShows(outline, pageId, shown, focus)) {
     const home = M.documentPageOf(outline, focus);
     if (home !== undefined) {
       app.go('document', home, docQuery(kind, levels, focus), { replace: true });
@@ -100,28 +109,34 @@ export function render(root, app) {
   resetDeferred();
 
   const known = app.knownIds();
-  const entries = M.documentPageEntries(outline, pageId, levels);
+  const entries = M.documentPageEntries(outline, pageId, shown);
 
   // Cross references in the prose read "Lemma 2.3.1" in this order's numbers,
-  // and stay in the paper: they lead to where the entry is written out, on
-  // this page if it is here and on its own page otherwise.  A reader who wants
+  // and stay in the paper: they lead to the level of the entry, its own page
+  // when it has entries below it, and otherwise where it is written out, on
+  // this page if it is here.  A reader who wants
   // the object page has the entry's title for that.  Objects the document
   // does not number keep their slug and their object-page link.
+  const refPage = (slug) => {
+    const own = M.documentPageOf(outline, slug);
+    if (own === slug) return own;
+    return M.documentPageShows(outline, pageId, shown, slug) ? pageId : own;
+  };
   const refs = (slug) => {
     const ref = M.referenceOf(outline, slug);
     if (!ref) return null;
-    const here = M.documentPageShows(outline, pageId, levels, slug);
-    return { ...ref, href: href(here ? pageId : M.documentPageOf(outline, slug), slug) };
+    return { ...ref, href: href(refPage(slug), slug) };
   };
   // Depths on this page count from the first level below the page's own
   // entry, which is set as the page's title.
   const base = pageEntry ? pageEntry.depth + 1 : 0;
 
-  const page = el('div.page.wide');
+  // The contents need no sidebar: they are one.
+  const page = el(contents ? 'div.page' : 'div.page.wide');
   const body = el('div');
   const flow = el('div.doc-flow');
   const toc = el('nav.toc');
-  page.appendChild(el('div.doc-layout', toc, body));
+  page.appendChild(contents ? body : el('div.doc-layout', toc, body));
   root.appendChild(page);
 
   // A reference to an entry already built on this page jumps to it instead of
@@ -130,7 +145,7 @@ export function render(root, app) {
   // and a smooth scroll in Chromium then ends wherever the target used to be.
   flow.addEventListener('click', (ev) => {
     const a = ev.target && ev.target.closest ? ev.target.closest('a.ref[data-ref]') : null;
-    if (!a || !M.documentPageShows(outline, pageId, levels, a.getAttribute('data-ref'))) return;
+    if (!a || refPage(a.getAttribute('data-ref')) !== pageId) return;
     const target = document.getElementById('doc-' + cssId(a.getAttribute('data-ref')));
     if (!target) return; // not built yet: let the route build the page to it
     ev.preventDefault();
@@ -154,28 +169,31 @@ export function render(root, app) {
     ' order, showing ',
     el('select', {
       title: 'how many levels below this page are written out on it',
-      onchange: (e) => app.setParams({ depth: e.target.value === String(DEFAULT_LEVELS) ? null : e.target.value }),
+      // On the top page no `depth=` is the contents, so a depth is always
+      // said there; elsewhere the default goes without saying.
+      onchange: (e) => app.setParams({
+        depth: e.target.value === 'contents' ? null
+          : pageId !== null && e.target.value === String(DEFAULT_LEVELS) ? null : e.target.value,
+      }),
     },
+    pageId === null ? el('option', { value: 'contents', selected: contents }, 'contents') : null,
     // A depth typed into the URL is offered too, so the control shows it.
     ...[...new Set([...LEVEL_CHOICES, levels])].filter(Number.isFinite).sort((a, b) => a - b)
-      .map((n) => el('option', { value: String(n), selected: n === levels }, String(n))),
-    el('option', { value: 'all', selected: levels === Infinity }, 'all')),
-    levels === 1 ? ' level.' : ' levels.',
-    ' ', app.proofToggle(),
+      .map((n) => el('option', { value: String(n), selected: !contents && n === levels }, String(n))),
+    el('option', { value: 'all', selected: !contents && levels === Infinity }, 'all')),
+    contents ? ' only.' : levels === 1 ? ' level.' : ' levels.',
+    // The contents set out no proofs to fold.
+    contents ? null : [' ', app.proofToggle()],
     // This page's part, as a PDF: the dialog opens on it.
     app.exportButton ? [' ', app.exportButton('Export PDF')] : null));
   const pagerTop = pager(app, outline, pageEntry, href);
   if (pagerTop) body.appendChild(pagerTop);
   body.appendChild(flow);
 
-  if (!entries.length) {
+  if (!(contents ? outline.roots : entries).length) {
     body.appendChild(el('p.empty', 'Nothing to read: no object carries prose.'));
     return;
   }
-
-  // -------------------------------------------------------------------- toc
-  const tocList = el('ul');
-  const tocStructureOnly = entries.length > TOC_STRUCTURE_ONLY;
 
   // ------------------------------------------------------------------ body
   //
@@ -205,7 +223,7 @@ export function render(root, app) {
     const anchor = entry.duplicate ? null : 'doc-' + cssId(o.id);
     const hLevel = isHead ? 1 : Math.min(5, 2 + rel);
     const status = M.badgeStatusOf(m, o.id);
-    const prog = M.progressMixOf(m, kind, o.id);
+    const prog = app.showProgress ? M.progressMixOf(m, kind, o.id) : null;
 
     // Sections are headings; everything else is a numbered statement in the
     // way a paper sets one: "Definition 1.2.14 (Title)." with the kind as the
@@ -219,6 +237,9 @@ export function render(root, app) {
       isSection ? null : el('span.kindword', M.kindWord(o.kind)),
       numNode,
       el('h' + hLevel, el('a.objlink', { href: app.objectHref(o.id) }, M.titleOf(o))),
+      // An entry whose children are on a page of their own leads on there,
+      // beside its title.
+      leadsOn ? el('a.doc-open', { href: href(o.id) }, 'Read ', num, ' →') : null,
       // Its Lean names, in a card of their own, so the heading keeps one word.
       // Before the badges: themes set the last of them apart.
       app.leanMark(o),
@@ -270,31 +291,38 @@ export function render(root, app) {
       }
     }
 
-    if (leadsOn) {
-      section.appendChild(el('p.doc-open',
-        el('a', { href: href(o.id) }, 'Read ', num, ' →')));
-    }
-
     flow.appendChild(section);
-
-    if (!isHead && rel <= 2 && !entry.duplicate && !(tocStructureOnly && !entry.children.length)) {
-      const item = el('li', { class: 'lvl-' + rel },
-        el('a', {
-          // A real route, so the link survives middle-click and reload; the
-          // click handler just scrolls without a re-render.
-          href: href(pageId, o.id),
-          onclick: scrollTo(anchor),
-        }, el('span.muted', num + ' '), M.titleOf(o)));
-      app.renderMath(item); // titles carry maths too
-      tocList.appendChild(item);
-    }
   };
+
+  // --------------------------------------------------------------- contents
+  //
+  // The top of the document: a row per top-level entry, each leading to its
+  // page, and the text at the top level read where it stands between them.
+  if (contents) {
+    flow.appendChild(el('h2.toc-head', 'Contents'));
+    let list = null;
+    for (const entry of outline.roots) {
+      if (entry.text) {
+        list = null;
+        build(entry);
+        continue;
+      }
+      if (!list) {
+        list = el('ol.doc-contents');
+        flow.appendChild(list);
+      }
+      list.appendChild(contentsRow(app, outline, entry, href, levelHref));
+    }
+    const target = focus && document.getElementById('doc-' + cssId(focus));
+    if (target) land(target);
+    return;
+  }
 
   let tocShown = false;
   const showToc = () => {
     if (tocShown) return;
     // The whole document's outline, opened along the way to this page, when
-    // the site asks for it; else what this page writes out.
+    // the site asks for it; else the contents one level at a time.
     if (sidebarMode() === 'outline') {
       tocShown = true;
       toc.classList.add('toc-outline');
@@ -311,10 +339,8 @@ export function render(root, app) {
       }
       return;
     }
-    if (!tocList.firstChild) return;
     tocShown = true;
-    toc.appendChild(el('h3', { class: 'toc-head' }, 'Contents'));
-    toc.appendChild(tocList);
+    levelSidebar(app, outline, pageEntry, focus, levelHref, toc);
   };
 
   const eager = Math.min(entries.length, FIRST_CHUNK);
@@ -331,9 +357,7 @@ export function render(root, app) {
     const target = document.getElementById('doc-' + cssId(wanted));
     if (!target) return;
     wanted = null;
-    pin(target);
-    flash(target);
-    requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+    land(target);
   };
   tryScroll();
 
@@ -358,6 +382,40 @@ export function render(root, app) {
   }
 }
 
+/** Take the reader to the entry a link led to, and hold it there. */
+function land(target) {
+  pin(target);
+  flash(target);
+  requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+}
+
+/**
+ * One row of the contents: the entry's number and title, its progress (or,
+ * for a statement, its status), all a link to its level: the top level
+ * written out, scrolled to it.  An entry repeated at the top level leads to
+ * where it is written out.
+ */
+function contentsRow(app, outline, entry, href, levelHref) {
+  const { el } = app;
+  const m = app.model;
+  const o = entry.object;
+  const page = M.documentPageOf(outline, o.id);
+  const isSection = M.isSectionKind(o.kind);
+  const prog = M.progressMixOf(m, outline.kind, o.id);
+  const status = M.badgeStatusOf(m, o.id);
+  const row = el('li', { class: 'kind-' + o.kind + (entry.duplicate ? ' dup' : '') },
+    el('a', { href: entry.duplicate ? href(page, page === o.id ? null : o.id) : levelHref(entry) },
+      el('span.num', entry.number),
+      el('span.doc-contents-title',
+        isSection ? null : el('span.kindword', M.kindWord(o.kind), ' '),
+        M.titleOf(o)),
+      el('span.doc-contents-meta',
+        prog && prog.total > 1 ? app.progressBar(prog)
+          : status === null ? null : app.statusBadge(status))));
+  app.renderMath(row); // titles carry maths too
+  return row;
+}
+
 /** Mark the entry a link led to, briefly. */
 function flash(target) {
   target.classList.remove('flash');
@@ -366,10 +424,11 @@ function flash(target) {
   target.classList.add('flash');
 }
 
-/** `?collapse=…&depth=…&focus=…` for a document route. */
-function docQuery(kind, levels, focus) {
+/** `?collapse=…&depth=…&focus=…` for a document route; the depth only when
+ *  it is not the default, or when `sayDepth`. */
+function docQuery(kind, levels, focus, sayDepth = false) {
   const q = new URLSearchParams({ collapse: kind });
-  if (levels !== DEFAULT_LEVELS) q.set('depth', levels === Infinity ? 'all' : String(levels));
+  if (sayDepth || levels !== DEFAULT_LEVELS) q.set('depth', levels === Infinity ? 'all' : String(levels));
   if (focus) q.set('focus', focus);
   return q;
 }
@@ -544,6 +603,100 @@ function proofBlock(app, o, outline, known, refs) {
   // An id, so `?focus=` on a proof lands on it.
   block.setAttribute('id', 'doc-' + cssId(o.id));
   return block;
+}
+
+/**
+ * The sidebar, the contents one level at a time, kept with the page: the page
+ * writes out a level (an entry's entries, or the top level), and the sidebar
+ * lists that level under the chain down to it, as headings, with the entry
+ * the reader went to (`?focus=`) opened on its own entries.  So after a click
+ * on chapter 1 the page is the chapters, 1, 2, 3, …, and the sidebar 1 with
+ * 1.1, 1.2, … under it, then 2, 3, …; after a click on 1.1 the page is 1.1,
+ * 1.2, …, and the sidebar 1 as a heading over 1.1, with 1.1.1, 1.1.2, … under
+ * it, then 1.2, ….
+ *
+ * Every entry, in the list or in the chain, leads to its level that way
+ * (`levelHref`): the page of its parent, scrolled to it, and opened.  When
+ * that is this page the sidebar only scrolls the page there and opens it.
+ * The opened entry, clicked again, folds its entries away.
+ */
+function levelSidebar(app, outline, pageEntry, focus, levelHref, toc) {
+  const { el, clear } = app;
+  const pageId = pageEntry ? pageEntry.id : null;
+  const kids = (e) => (e ? e.children : outline.roots).filter((c) => !c.duplicate && !c.text);
+  const listed = (e) => !!e && !e.duplicate && !e.text;
+  // What the page is scrolled to: an entry below it opens there; a step or
+  // a proof stands for what it is filed under.
+  const fid = focus && outline.stepOf.has(focus) ? outline.stepOf.get(focus) : focus;
+  const f = fid ? outline.byId.get(fid) : null;
+  const below = (e) => {
+    for (let p = e.parent; p; p = p.parent) if (p === pageEntry) return true;
+    return pageEntry === null;
+  };
+  let level = pageEntry;
+  let opened = null;
+  if (listed(f) && f !== pageEntry && below(f)) {
+    level = f.parent;
+    opened = f;
+  } else if (pageEntry && !kids(pageEntry).length) {
+    // A page with no entries of its own is read among its siblings.
+    level = pageEntry.parent;
+    opened = pageEntry;
+  }
+
+  const redraw = (e, focusId) => {
+    draw();
+    // The link says so too, for a reload or a copy of it.
+    app.setParams({ focus: focusId }, { silent: true });
+    const a = toc.querySelector('a[data-id="' + e.id + '"]');
+    if (a && typeof a.focus === 'function') a.focus({ preventScroll: true });
+  };
+  const go = (e) => (ev) => {
+    if (ev.button || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return; // a new tab or window
+    if (e === opened && kids(e).length) {
+      // Clicked again: fold it, and leave the page where it is.
+      ev.preventDefault();
+      opened = null;
+      redraw(e, null);
+      return;
+    }
+    // Its level is this page: scroll there and open it, without a rebuild.
+    const t = (e.parent ? e.parent.id : null) === pageId && document.getElementById('doc-' + cssId(e.id));
+    if (!t) return; // the link goes to its level
+    ev.preventDefault();
+    t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    level = e.parent;
+    opened = e;
+    redraw(e, e.id);
+  };
+  const item = (e, cls) => el('li', {
+    class: cls + (kids(e).length ? ' has-kids' : '') + (e === pageEntry ? ' current' : '') +
+      (e === opened ? ' open' : ''),
+  }, el('a', { href: levelHref(e), 'data-id': e.id, onclick: go(e) },
+    el('span.num', e.number), ' ', M.titleOf(e.object)));
+
+  const draw = () => {
+    clear(toc);
+    toc.appendChild(el('h3', { class: 'toc-head' }, 'Contents'));
+    const top = el('ul.toc-levels');
+    let into = top;
+    const chain = [];
+    for (let e = level; e; e = e.parent) chain.unshift(e);
+    for (const e of chain) {
+      const li = into.appendChild(item(e, 'toc-up'));
+      into = li.appendChild(el('ul'));
+    }
+    for (const e of kids(level)) {
+      const li = into.appendChild(item(e, 'toc-entry'));
+      if (e === opened && kids(e).length) {
+        const sub = li.appendChild(el('ul'));
+        for (const c of kids(e)) sub.appendChild(item(c, 'toc-entry'));
+      }
+    }
+    app.renderMath(top); // titles carry maths
+    toc.appendChild(top);
+  };
+  draw();
 }
 
 /** Which sidebar the site asks for: `outline` when its page says

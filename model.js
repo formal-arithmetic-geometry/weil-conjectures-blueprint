@@ -1244,11 +1244,14 @@ export function outOfGraph(model, { hideOptional = false } = {}) {
     const g = graphHint(model, o.kind);
     if (g === 'never' || (g === 'optional' && hideOptional)) stack.push(o.id);
   }
-  const orders = model.collapseKinds.map((k) => collapseOrder(model, k));
+  // Built only when something is left out: most snapshots leave nothing, and
+  // the graph and object pages then need no order but the one they show.
+  let orders = null;
   while (stack.length) {
     const id = stack.pop();
     if (out.has(id)) continue;
     out.add(id);
+    if (!orders) orders = model.collapseKinds.map((k) => collapseOrder(model, k));
     for (const order of orders) for (const c of childrenOf(order, id)) stack.push(c);
     for (const { object } of incidentTo(model, id)) stack.push(object.id);
   }
@@ -1565,9 +1568,11 @@ export function mathRegExp() {
 
 /**
  * The page of the split document an object is read on: its own page if it has
- * entries under it, otherwise its parent's, which shows it among its siblings
- * (`null` is the top-level page).  A step is read wherever its source is, a
- * proof wherever its statement is.
+ * entries under it, otherwise its parent's, which shows it among its siblings.
+ * The top of the document is its contents, so a top-level entry with nothing
+ * under it is read on its own page too; only text at the top level is read on
+ * the top page (`null`).  A step is read wherever its source is, a proof
+ * wherever its statement is.
  * `undefined` when the object is not in the document at all.
  */
 export function documentPageOf(outline, id) {
@@ -1575,18 +1580,20 @@ export function documentPageOf(outline, id) {
   const entry = outline.byId.get(id);
   if (!entry) return undefined;
   if (entry.children.length) return entry.id;
-  return entry.parent ? entry.parent.id : null;
+  if (entry.parent) return entry.parent.id;
+  return entry.text ? null : entry.id;
 }
 
 /**
  * Whether the page of `pageId` (null for the top level), inlining `levels`
- * levels below itself, writes out `id`.
+ * levels below itself, writes out `id`.  `levels` 0 on the top page is its
+ * contents alone, which write out only the text at the top level.
  */
 export function documentPageShows(outline, pageId, levels, id) {
   if (outline.stepOf.has(id)) id = outline.stepOf.get(id);
   const entry = outline.byId.get(id);
   if (!entry) return false;
-  if (pageId === null) return entry.depth < levels;
+  if (pageId === null) return entry.depth < levels || (entry.depth === 0 && entry.text);
   if (entry.id === pageId) return true;
   for (let p = entry.parent; p; p = p.parent) {
     if (p.id === pageId) return entry.depth - p.depth <= levels;

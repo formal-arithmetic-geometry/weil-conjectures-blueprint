@@ -208,6 +208,15 @@ label.chk input { margin: 0; }
 .topbar-aside .theme-select { font-size: .8rem; padding: .15em .3em; max-width: 7.5rem; }
 .topbar-aside { display: flex; align-items: center; gap: .5rem; font-size: .85rem; color: var(--muted); }
 
+/* Each item keeps its one line ("46%" under its bar read as a second row),
+   and the search box and the title give way instead; on a phone the items
+   wrap as wholes (below). */
+.topbar-aside, .topbar-aside > * { flex: none; white-space: nowrap; }
+
+/* Hide progress / Show progress (app.js): with the progress hidden, so is its tab. */
+.topbar-aside .progress-toggle { font-size: .8rem; padding: .15em .45em; }
+:root[data-progress="hidden"] .tabs a[data-view="progress"] { display: none; }
+
 /* Export PDF: the one filled button of the top bar, so it is found without
    looking for it (pdf.js).  Text and icon, never the icon alone. */
 .export-pdf {
@@ -502,6 +511,25 @@ table.grid tr:last-child td { border-bottom: 0; }
    covered nodes and ran off the bottom of the stage. */
 .graph-stage > svg { display: block; width: 100%; height: 100%; touch-action: none; }
 
+/* Inside a section, the level the reader came from cannot be read until they
+   go back up (graph.js, `applyLevel`). */
+.glayer .gnode.outside, .glayer .gtitle.outside, .glayer .gedge.outside {
+  opacity: .35;
+  filter: blur(3px);
+  pointer-events: none;
+}
+.graph-back {
+  position: absolute;
+  top: .6rem;
+  left: .75rem;
+  max-width: calc(100% - 1.5rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: .85rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+}
+.graph-back[hidden] { display: none; }
 .graph-status {
   position: absolute;
   left: .75rem;
@@ -750,9 +778,9 @@ a.objlink.broken { color: var(--lv-missing, var(--st-missing)); text-decoration:
 .preview-id { font-family: var(--mono); font-size: .8rem; overflow-wrap: anywhere; }
 .preview-open { margin-left: auto; white-space: nowrap; }
 
-/* The document's "Lean" mark beside a heading, and the card of Lean names it
-   opens (preview.js). */
-button.lean-mark {
+/* The document's "Lean" mark beside a heading, a link to the object page,
+   and the card of Lean names it opens (preview.js). */
+a.lean-mark {
   display: inline-block;
   align-self: center;
   margin: 0;
@@ -763,10 +791,9 @@ button.lean-mark {
   background: var(--accent-soft);
   border: 1px solid transparent;
   border-radius: var(--radius);
-  cursor: help;
   vertical-align: .15em;
 }
-button.lean-mark:hover, button.lean-mark:focus-visible { border-color: var(--accent); background: var(--accent-soft); }
+a.lean-mark:hover, a.lean-mark:focus-visible { border-color: var(--accent); background: var(--accent-soft); text-decoration: none; }
 .lean-count { margin-left: .3em; font-weight: 400; color: var(--muted); }
 .preview.lean-card { width: max-content; min-width: min(18rem, calc(100vw - 16px)); max-width: min(32rem, calc(100vw - 16px)); }
 ul.lean-names { list-style: none; margin: 0; padding: 0; }
@@ -780,6 +807,7 @@ ul.lean-names li {
 }
 ul.lean-names li:last-child { border-bottom: 0; }
 ul.lean-names code { font-family: var(--mono); font-size: .85rem; overflow-wrap: anywhere; }
+ul.lean-names .lean-docs { margin-left: auto; font-size: .78rem; white-space: nowrap; }
 
 .lean-decl { margin: .7rem 0; }
 .lean-decl pre { margin: .25em 0; white-space: pre-wrap; }
@@ -860,8 +888,21 @@ a.proof-word { font-style: italic; font-weight: 700; color: inherit; }
 }
 .toc ul { list-style: none; margin: 0; padding: 0; }
 .toc li { margin: .15em 0; }
-.toc li.lvl-1 { padding-left: .9rem; }
-.toc li.lvl-2 { padding-left: 1.8rem; }
+/* The sidebar one level at a time (`levelSidebar` in document.js): the chain
+   above the opened entry as headings, each the way back up, and the opened
+   entry among its siblings with its own entries under it; an entry with
+   entries of its own says so, and the opened one points down. */
+.toc-levels .num { color: var(--muted); font-variant-numeric: tabular-nums; }
+/* The whole row is the link, wrapped lines and the gap between them too. */
+.toc-levels li > a { display: block; }
+.toc-levels ul { list-style: none; margin: .15em 0 .3em .3rem; padding-left: .6rem; border-left: 1px solid var(--border); }
+.toc-levels li.toc-up > a { font-weight: 600; }
+.toc-levels li.toc-up > a::before { content: '‹'; color: var(--faint); margin-right: .35em; font-weight: 400; }
+.toc-levels li.has-kids > a::after { content: '›'; display: inline-block; color: var(--faint); margin-left: .35em; }
+.toc-levels li.toc-entry.open.has-kids > a::after { transform: rotate(90deg); }
+.toc-levels li.toc-up.has-kids > a::after { content: none; }
+.toc-levels li.on-path > a { font-weight: 600; }
+.toc-levels li.current > a { color: var(--fg); }
 /* The outline sidebar (`data-sidebar="outline"` on the page): every top-level
    entry, the ones on the way to this page opened, this page marked. */
 .toc-outline ul { list-style: none; margin: 0; padding: 0; }
@@ -893,7 +934,28 @@ a.proof-word { font-style: italic; font-weight: 700; color: inherit; }
 .doc-entry.depth-0.is-statement { border-top: 0; padding-top: 0; margin-top: 1.1rem; }
 .doc-entry .head a.num { text-decoration: none; }
 .doc-entry .head a.num:hover { text-decoration: underline; }
-.doc-open { margin: .5rem 0 0; font-size: .9rem; }
+.doc-entry .head a.doc-open { font-size: .9rem; font-weight: 400; white-space: nowrap; }
+
+/* The top of the document: its contents, a row per top-level entry, each a
+   link to the entry's page. */
+.doc-contents { list-style: none; margin: .4rem 0 1.6rem; padding: 0; border-top: 1px solid var(--border); }
+.doc-contents > li { border-bottom: 1px solid var(--border); }
+.doc-contents > li > a {
+  display: grid; grid-template-columns: 2.6rem minmax(0, 1fr) minmax(0, 14rem);
+  gap: .9rem; align-items: baseline; padding: .65rem .5rem; color: var(--fg);
+}
+.doc-contents > li > a:hover { background: var(--panel-2); text-decoration: none; }
+.doc-contents .num { color: var(--faint); font-family: var(--mono); font-size: .85em; text-align: right; }
+.doc-contents-title { font-size: 1.08rem; color: var(--accent); }
+.doc-contents-title .kindword { font-weight: 700; }
+.doc-contents-meta { justify-self: end; width: 100%; display: flex; justify-content: flex-end; }
+.doc-contents-meta .bar-row { width: 100%; }
+.doc-contents-meta:empty { display: none; }
+.doc-contents > li.dup { opacity: .75; }
+@media (max-width: 640px) {
+  .doc-contents > li > a { grid-template-columns: 2.2rem minmax(0, 1fr); }
+  .doc-contents-meta { grid-column: 2; justify-content: flex-start; }
+}
 
 /* -------------------------------------------------------- progress page */
 
@@ -1155,6 +1217,7 @@ a.proof-word { font-style: italic; font-weight: 700; color: inherit; }
      there; anchored right it ran off the left of a phone screen. */
   .gsearch { flex: 1 1 12rem; margin-left: 0; }
   .gsearch-panel { left: 0; right: auto; }
+  .topbar-aside { flex: 0 1 auto; flex-wrap: wrap; row-gap: .3rem; }
   :root { --topbar-h: 86px; }
   .legend { display: none; }
 }
