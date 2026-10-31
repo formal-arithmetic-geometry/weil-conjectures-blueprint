@@ -2,6 +2,7 @@
 id = "lem-amb-kummer-any-base"
 kind = "lemma"
 title = "The Kummer sequence on an arbitrary base"
+lean = ["AlgebraicGeometry.Scheme.kummerSequence_shortExact"]
 order = 2605
 uses = ["def-sc-kummer-sequence", "def-weil-pbc-etale-sheaves"]
 +++

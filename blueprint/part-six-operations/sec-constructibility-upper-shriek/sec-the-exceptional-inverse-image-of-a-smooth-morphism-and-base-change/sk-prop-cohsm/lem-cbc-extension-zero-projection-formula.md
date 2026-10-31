@@ -2,6 +2,7 @@
 id = "lem-cbc-extension-zero-projection-formula"
 kind = "lemma"
 title = "Projection formula for extension by zero"
+lean = ["AlgebraicGeometry.ProEtale.derivedOpenImmersionLowerShriekProjectionIso"]
 order = 2630
 uses = ["def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-extension-by-zero", "def-weil-pbc-scheme-conventions", "lem-cbc-proetale-extension-zero"]
 +++

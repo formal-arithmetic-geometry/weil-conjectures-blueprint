@@ -2,6 +2,7 @@
 id = "def-sfb-dc-upper-star-comp"
 kind = "definition"
 title = "Composition isomorphism for $Lf^*$ on $D_{\\mathrm{cons}}$"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStarComp"]
 order = 2730
 uses = ["def-sfb-dc-upper-star"]
 +++

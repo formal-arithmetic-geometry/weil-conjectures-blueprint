@@ -2,6 +2,7 @@
 id = "thm-cbc-complete-proetale"
 kind = "theorem"
 title = "Integral compact-support base change"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleLowerShriekOfCompactificationBaseChangePasting_padicIntegers"]
 order = 2632
 uses = ["det-def-sfb-dc-setting", "det-def-sfb-condensed-ring", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-dc-lower-shriek", "det-def-sfb-shriek-base-change-morphism", "def-pe-derived-complete", "sk-prop-integral-criterion"]
 +++

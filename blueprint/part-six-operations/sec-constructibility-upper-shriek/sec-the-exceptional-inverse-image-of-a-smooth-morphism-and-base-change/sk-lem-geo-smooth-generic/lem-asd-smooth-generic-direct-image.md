@@ -2,6 +2,7 @@
 id = "lem-asd-smooth-generic-direct-image"
 kind = "lemma"
 title = "A smooth source with locally constant coefficients"
+lean = ["AlgebraicGeometry.Etale.exists_nonempty_open_smooth_directImage_lisse_baseChange"]
 order = 2641
 uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-constructible-complexes", "def-weil-pbc-derived-categories", "lem-fin-compact-bounded-and-base-change", "lem-fin-lisse-field-dual", "prop-asd-internal-adjunction", "prop-asd-smooth-base-change", "sbc-def-base-change-map", "sbc-lem-smooth-relative-dimension-locally-constant", "thm-asd-smooth-tensor"]
 +++

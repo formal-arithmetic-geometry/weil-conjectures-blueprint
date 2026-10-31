@@ -2,6 +2,7 @@
 id = "def-sfb-dc-open-base-change-morphism"
 kind = "definition"
 title = "The extension-by-zero exchange morphism"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekBaseChange'"]
 order = 2740
 uses = ["def-sfb-dc-open-lower-shriek-adjunction", "det-def-sfb-base-change-morphism"]
 +++

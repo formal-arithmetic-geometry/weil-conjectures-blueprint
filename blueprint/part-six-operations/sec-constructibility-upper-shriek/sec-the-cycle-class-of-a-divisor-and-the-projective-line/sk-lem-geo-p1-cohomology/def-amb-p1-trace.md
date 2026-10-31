@@ -2,6 +2,7 @@
 id = "def-amb-p1-trace"
 kind = "definition"
 title = "Projective-line trace before an exceptional adjoint"
+lean = ["AlgebraicGeometry.Etale.projectiveLineTrace"]
 order = 2611
 uses = ["def-coefficient-twists-detailed", "lem-amb-proper-coproducts-projection", "thm-amb-p1-decomposition"]
 +++

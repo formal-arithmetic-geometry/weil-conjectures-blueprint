@@ -2,6 +2,7 @@
 id = "lem-sfb-dc-upper-star-preserves"
 kind = "lemma"
 title = "$Lf^*$ preserves bounded constructible complexes"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_leftDerivedUpperStar_obj"]
 order = 2467
 uses = ["det-def-sfb-bounded-constructible", "det-def-sfb-dc-setting", "det-def-sfb-module-derived-pushpull"]
 +++

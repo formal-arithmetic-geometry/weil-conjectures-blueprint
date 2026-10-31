@@ -2,6 +2,7 @@
 id = "def-sfb-dc-open-base-change-inverse"
 kind = "definition"
 title = "The extension-by-zero base change isomorphism"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriekBaseChangeIso'"]
 order = 2742
 uses = ["thm-sfb-dc-open-base-change-iso"]
 +++
