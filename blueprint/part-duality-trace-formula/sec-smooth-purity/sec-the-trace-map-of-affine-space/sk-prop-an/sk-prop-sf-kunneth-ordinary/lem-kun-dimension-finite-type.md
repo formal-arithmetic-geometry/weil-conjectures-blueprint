@@ -2,6 +2,7 @@
 id = "lem-kun-dimension-finite-type"
 kind = "lemma"
 title = "Finiteness of the dimension of a finite type scheme"
+lean = ["AlgebraicGeometry.exists_topologicalKrullDim_le"]
 order = 3072
 uses = ["def-kun-dimension", "lem-kun-dimension-formula"]
 +++

@@ -2,6 +2,7 @@
 id = "def-pur-support-cohomology"
 kind = "definition"
 title = "Cohomology with support"
+lean = ["AlgebraicGeometry.Etale.globalSectionsWithSupport"]
 order = 2925
 uses = ["def-coefficient-twists-detailed", "def-sbc-smooth-morphisms", "def-weil-pbc-derived-categories", "def-weil-pbc-etale-site", "def-weil-pbc-proetale-site", "def-weil-pbc-scheme-conventions", "def-weil-scheme-morphism-properties"]
 +++

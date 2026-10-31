@@ -2,6 +2,7 @@
 id = "lem-kun-tensor-unit"
 kind = "lemma"
 title = "Tensor unit"
+lean = ["AlgebraicGeometry.Etale.derivedTensorRightUnitor"]
 order = 3101
 uses = ["def-kun-constant-sheaf", "def-weil-pbc-etale-sheaves"]
 +++

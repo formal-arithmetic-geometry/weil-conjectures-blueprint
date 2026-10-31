@@ -2,6 +2,7 @@
 id = "lem-kun-fp-algebra-descent"
 kind = "lemma"
 title = "Descent of finitely presented algebras"
+lean = ["CommRingCat.exists_isPushout_of_finitePresentation"]
 order = 3054
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

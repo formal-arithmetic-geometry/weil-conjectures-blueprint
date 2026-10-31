@@ -2,6 +2,7 @@
 id = "lem-kun-leray-unbdd"
 kind = "lemma"
 title = "Unbounded Leray for finite cohomological dimension"
+lean = ["AlgebraicGeometry.Etale.rightDerivedLowerStarCompRightDerivedGlobalSectionsIso"]
 order = 3087
 uses = ["def-kun-cd", "def-kun-rgamma-unbounded", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "thm-sp-truncation-e2", "def-weil-pbc-scheme-conventions", "lem-kun-leray-bdd"]
 +++

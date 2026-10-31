@@ -2,6 +2,7 @@
 id = "pur713-def-base-changed-compactification"
 kind = "definition"
 title = "Base change of a compactification"
+lean = ["AlgebraicGeometry.Compactification.ofIsPullback"]
 order = 3360
 uses = ["sk-thm-sf-comp-composition"]
 +++

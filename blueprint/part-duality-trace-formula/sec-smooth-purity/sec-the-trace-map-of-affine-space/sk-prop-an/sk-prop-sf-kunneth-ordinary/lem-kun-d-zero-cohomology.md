@@ -2,6 +2,7 @@
 id = "lem-kun-d-zero-cohomology"
 kind = "lemma"
 title = "Objects with vanishing cohomology"
+lean = ["DerivedCategory.isZero_iff"]
 order = 3091
 uses = ["def-weil-pbc-derived-categories"]
 +++

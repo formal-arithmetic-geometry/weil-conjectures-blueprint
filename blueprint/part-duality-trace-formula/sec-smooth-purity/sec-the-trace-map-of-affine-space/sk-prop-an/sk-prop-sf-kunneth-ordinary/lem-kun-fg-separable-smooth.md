@@ -2,6 +2,7 @@
 id = "lem-kun-fg-separable-smooth"
 kind = "lemma"
 title = "Finitely generated separable extensions are filtered colimits of smooth algebras"
+lean = ["FieldTheory.fg_separable_extension_is_filtered_colimit_smooth"]
 order = 3138
 +++
 Let $L/K$ be a finitely generated separable extension of fields. Then $L$

@@ -2,6 +2,7 @@
 id = "lem-kun-separable-smooth-colimit"
 kind = "lemma"
 title = "Separable extensions are filtered colimits of smooth algebras"
+lean = ["FieldTheory.separable_extension_is_filtered_colimit_smooth"]
 order = 3140
 uses = ["lem-kun-algebraic-separable-smooth", "lem-kun-fg-separable-smooth"]
 +++

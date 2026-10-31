@@ -2,6 +2,7 @@
 id = "lem-kun-flat-bounded-tor-amplitude"
 kind = "lemma"
 title = "Bounded complexes of flat sheaves have tor amplitude"
+lean = ["DerivedCategory.torAmplitudeIn_Q_obj_of_flat"]
 order = 3104
 uses = ["def-kun-derived-tensor", "def-kun-tor-amplitude", "lem-kun-kflat-criteria"]
 +++
