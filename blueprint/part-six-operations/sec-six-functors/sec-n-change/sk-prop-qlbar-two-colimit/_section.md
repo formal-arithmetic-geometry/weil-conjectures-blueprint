@@ -1,0 +1,25 @@
++++
+id = "sk-prop-qlbar-two-colimit"
+kind = "proposition"
+title = "$D^b_{\\mathrm{ctf}}(X,\\overline{\\mathbf Q}_\\ell)$ as a $2$-colimit"
+order = 383
+lean = ["AlgebraicGeometry.ProEtale.constructibleCocone", "AlgebraicGeometry.ProEtale.constructibleCocone_homSurj", "AlgebraicGeometry.ProEtale.constructibleCocone_homInj", "AlgebraicGeometry.ProEtale.constructibleCocone_essSurjObj", "AlgebraicGeometry.ProEtale.constructibleCocone_isFilteredTwoColimit"]
+uses = ["sk-def-sfb-constructible"]
+tags = ["sketch"]
++++
+Extension of scalars identifies
+
+$$
+D^b_{\mathrm{ctf}}(X,\overline{\mathbf Q}_\ell)\simeq\mathop{\text{2-colim}}_{E\subset \overline{\mathbf Q}_\ell}D^b_{\mathrm{ctf}}(X,E)
+$$
+
+as ordinary categories. In other words, every object of $D^b_{\mathrm{ctf}}(X,\overline{\mathbf Q}_\ell)$ is isomorphic to
+$K_{\overline{\mathbf Q}_\ell}$ for some finite $E$ and some $K\in D^b_{\mathrm{ctf}}(X,E)$, and for
+$K,L\in D^b_{\mathrm{ctf}}(X,E)$ extension of scalars induces a bijection
+
+$$
+\varinjlim_{F\supset E}\Hom_{D^b_{\mathrm{ctf}}(X,F)}(K_F,L_F)
+\xrightarrow{\sim}\Hom_{D^b_{\mathrm{ctf}}(X,\overline{\mathbf Q}_\ell)}(K_{\overline{\mathbf Q}_\ell},L_{\overline{\mathbf Q}_\ell}),
+$$
+
+the colimit running over finite extensions $F$ of $E$ in $\overline{\mathbf Q}_\ell$.

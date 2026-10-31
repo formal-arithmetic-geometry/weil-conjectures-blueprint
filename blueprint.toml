@@ -175,3 +175,4 @@ file = "intro.md"  # shown in the middle of the screen as the site opens, then t
 "\\A" = "\\mathbf A"
 "\\dt" = "\\mathbin{\\otimes^{\\mathbf L}}"
 "\\Qb" = "\\overline{\\mathbf Q}_{\\ell}"
+"\\Cone" = "\\operatorname{Cone}"
