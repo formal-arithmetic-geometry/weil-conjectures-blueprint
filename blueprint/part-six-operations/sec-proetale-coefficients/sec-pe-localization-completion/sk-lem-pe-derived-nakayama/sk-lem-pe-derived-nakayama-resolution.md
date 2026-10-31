@@ -2,6 +2,7 @@
 id = "det-pe-derived-nakayama-resolution"
 kind = "lemma"
 title = "The two-term resolution of the finite coefficient sheaves"
+lean = ["AlgebraicGeometry.ProEtale.DerivedNakayama.derived_nakayama_resolution"]
 order = 1225
 uses = ["det-def-sfb-pulled-back-coefficients", "det-prop-sfb-module-pullback-exact-main", "det-def-sfb-condensed-ring", "lem-weil-pbc-standard-quotients-perfect"]
 +++

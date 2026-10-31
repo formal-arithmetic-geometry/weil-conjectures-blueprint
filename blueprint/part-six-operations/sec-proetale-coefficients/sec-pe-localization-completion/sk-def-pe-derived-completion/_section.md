@@ -2,6 +2,7 @@
 id = "sk-def-pe-derived-completion"
 kind = "definition"
 title = "Derived adic completeness"
+lean = ["AlgebraicGeometry.ProEtale.IsDerivedComplete"]
 order = 121
 uses = ["sk-prop-sf-open-closed-triangle"]
 tags = ["sketch"]
