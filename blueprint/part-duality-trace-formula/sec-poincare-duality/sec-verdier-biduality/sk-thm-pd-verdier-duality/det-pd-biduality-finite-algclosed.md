@@ -2,6 +2,7 @@
 id = "det-pd-biduality-finite-algclosed"
 kind = "theorem"
 title = "Biduality with finite coefficients over an algebraically closed field"
+lean = ["AlgebraicGeometry.Etale.isIso_verdierDualDoubleDual_app_of_isAlgClosed"]
 order = 3482
 uses = ["lem-weil-duality-pairing"]
 +++

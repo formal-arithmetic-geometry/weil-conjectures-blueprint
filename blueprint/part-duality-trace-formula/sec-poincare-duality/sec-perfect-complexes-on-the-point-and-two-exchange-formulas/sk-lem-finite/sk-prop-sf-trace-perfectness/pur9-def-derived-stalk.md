@@ -2,6 +2,7 @@
 id = "pur9-def-derived-stalk"
 kind = "definition"
 title = "Derived geometric stalk"
+lean = ["AlgebraicGeometry.ProEtale.derivedGeometricStalk"]
 order = 3178
 uses = ["pur7710-def-derived-sections"]
 +++

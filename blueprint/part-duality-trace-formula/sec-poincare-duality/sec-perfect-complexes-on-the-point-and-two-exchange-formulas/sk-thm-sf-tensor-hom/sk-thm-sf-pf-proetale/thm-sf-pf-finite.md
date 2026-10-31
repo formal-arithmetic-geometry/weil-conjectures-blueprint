@@ -2,6 +2,7 @@
 id = "thm-sf-pf-finite"
 kind = "theorem"
 title = "Finite coefficients on the étale site"
+lean = ["AlgebraicGeometry.Etale.hasProjectionFormula_of_finite"]
 order = 3459
 uses = ["def-sf-datum", "def-sf-pf", "lem-weil-finite-compact-projection-formula"]
 +++
