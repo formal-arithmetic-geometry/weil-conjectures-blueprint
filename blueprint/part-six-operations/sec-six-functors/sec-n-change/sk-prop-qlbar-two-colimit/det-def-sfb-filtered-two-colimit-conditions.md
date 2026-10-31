@@ -2,6 +2,7 @@
 id = "det-def-sfb-filtered-two-colimit-conditions"
 kind = "definition"
 title = "Filtered 2-colimit conditions"
+lean = ["CategoryTheory.CategoryCocone.IsFilteredTwoColimit"]
 order = 2850
 uses = ["det-def-sfb-filtered-two-colimit-cocone"]
 +++

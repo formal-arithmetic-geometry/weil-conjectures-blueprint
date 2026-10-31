@@ -2,6 +2,7 @@
 id = "det-def-sfb-filtered-two-colimit-characterization"
 kind = "lemma"
 title = "Filtered 2-colimits are equivalences with $\\mathcal C_\\infty$"
+lean = ["CategoryTheory.FilteredTwoColimit.comparison_characterization"]
 order = 2852
 uses = ["det-def-sfb-filtered-two-colimit-conditions", "det-def-sfb-filtered-two-colimit-model"]
 +++
