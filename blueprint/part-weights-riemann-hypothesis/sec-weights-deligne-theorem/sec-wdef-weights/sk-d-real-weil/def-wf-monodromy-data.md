@@ -2,6 +2,7 @@
 id = "def-wf-monodromy-data"
 kind = "definition"
 title = "Monodromy data"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum"]
 order = 3948
 uses = ["d-monodromy", "def-wf-arithmetic-monodromy-extension", "def-wf-degree-components", "lem-wf-degree-components-grading"]
 +++
