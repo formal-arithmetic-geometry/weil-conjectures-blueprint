@@ -2,6 +2,7 @@
 id = "def-kun-support"
 kind = "definition"
 title = "Closed points, transcendence degree, support"
+lean = ["AlgebraicGeometry.Scheme.etaleSheafSupport"]
 order = 2568
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-geometric-stalks", "def-weil-pbc-scheme-conventions"]
 +++
