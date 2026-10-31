@@ -23,7 +23,7 @@
   try {
     (function () {
       var view = (location.hash.match(/^#\/([a-z]+)/) || [])[1];
-      if (['object', 'document', 'progress', 'checks'].indexOf(view) < 0) view = 'graph';
+      if (['object', 'document', 'progress', 'checks', 'search'].indexOf(view) < 0) view = 'graph';
       var link = document.createElement('link');
       link.rel = 'modulepreload';
       link.href = view + '.js';
@@ -41,6 +41,29 @@
       }
     })();
   } catch (e) { /* app.js imports it anyway; graph.js starts its own worker */ }
+  // The intro, which `blueprint site` writes to intro.json beside the
+  // snapshot, so that it can play while a large snapshot is still on its way
+  // (`earlyIntro` in intro.js).  Only on the landing page, the bare graph,
+  // and not with ?intro=0 (`wantsIntro`).  Until it is known, the page shows
+  // nothing rather than the top bar the intro would then take away.
+  try {
+    (function () {
+      var h = location.hash;
+      if (new URLSearchParams(location.search).get('intro') === '0') return;
+      if (!(h === '' || h === '#' || h === '#/' || h === '#/graph')) return;
+      var root = document.documentElement;
+      var base = window.blueprintSnapshot ? window.blueprintSnapshot.url : './blueprint.json';
+      var url = new URL('intro.json', new URL(base, location.href)).href;
+      root.classList.add('intro-pending');
+      var intro = fetch(url, { cache: 'no-cache' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .catch(function () { return null; });
+      var shown = function () { root.classList.remove('intro-pending'); };
+      intro.then(function (j) { if (!j || !j.intro) shown(); });
+      setTimeout(shown, 4000); // whatever happens to the scripts below
+      window.blueprintIntro = intro;
+    })();
+  } catch (e) { /* the intro plays once the snapshot is in */ }
 </script>
 <!-- What app.js imports, so it is not found only once app.js has arrived.
      Only a hint: a module missing here is still loaded, a little later. -->
@@ -88,16 +111,17 @@
       <a href="#/checks"   data-view="checks">Checks</a>
     </nav>
   </div>
-  <div class="gsearch" id="gsearch" role="search">
-    <input type="search" id="gsearch-input" placeholder="Search the blueprint"
-           aria-label="Search the blueprint (press / to focus)" autocomplete="off" spellcheck="false"
-           role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="gsearch-results">
+  <!-- The Stacks project's quick search: Enter opens the search page, or the
+       object whose id is in the box (app.js, `quickSearch`). -->
+  <form class="gsearch" id="gsearch" role="search" action="#/search">
+    <svg class="gsearch-icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false">
+      <circle cx="6.8" cy="6.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M10.3 10.3 14 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </svg>
+    <input type="search" id="gsearch-input" name="query" placeholder="keywords or an id"
+           aria-label="Search the blueprint (press / to focus)" autocomplete="off" spellcheck="false">
     <kbd class="gsearch-key" aria-hidden="true">/</kbd>
-    <div class="gsearch-panel" id="gsearch-panel" hidden>
-      <div class="gsearch-results" id="gsearch-results" role="listbox" aria-label="Search results"></div>
-      <div class="gsearch-foot" id="gsearch-foot"></div>
-    </div>
-  </div>
+  </form>
   <button type="button" class="export-pdf" id="export-pdf" disabled aria-haspopup="dialog"
           title="Export the blueprint, or the part you are reading, as a PDF">
     <svg class="export-icon" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true" focusable="false">

@@ -183,8 +183,11 @@ function mount(root, app) {
   stage.appendChild(back);
 
   // `folded`: the side panel's listings the reader has opened (see `fold`).
+  // `toolbarOpen`, `sideShown`: the reader's choices (`shownPref`).
   ui = { page, toolbar, stage, svg, layer, side, back, transform: { x: 40, y: 40, k: 1 }, fitted: false,
-    folded: new Set(), entered: null, legend: key, legendProgress: app.showProgress };
+    folded: new Set(), entered: null, legend: key, legendProgress: app.showProgress,
+    toolbarOpen: shownPref(TOOLS_KEY), sideShown: shownPref(SIDE_KEY) };
+  page.classList.toggle('side-hidden', !ui.sideShown);
   installPanZoom(app);
   prevPos = new Map();
   lastSignature = null;
@@ -252,14 +255,39 @@ function legend(app, progress) {
 // toolbar
 // ---------------------------------------------------------------------------
 
+// The graph opens on the graph alone: of the toolbar only Collapse all, the
+// search and the zoom, the rest folded behind the Filters button, and no side
+// panel beside it.  Whether the reader has unfolded either is theirs to keep,
+// in localStorage, as the top bar keeps the progress (app.js).
+const TOOLS_KEY = 'blueprint.graph.tools';
+const SIDE_KEY = 'blueprint.graph.side';
+
+/** Whether the reader asked for this to be shown: no, unless they did. */
+function shownPref(key) {
+  try {
+    const store = layoutStore();
+    return !!store && store.getItem(key) === 'shown';
+  } catch (e) {
+    return false;
+  }
+}
+
+function savePref(key, shown) {
+  try {
+    const store = layoutStore();
+    if (store) store.setItem(key, shown ? 'shown' : 'hidden');
+  } catch (e) { /* private mode */ }
+}
+
 function renderToolbar(app, st) {
   const { el, clear } = app;
   const m = drawnModel(app, st);
   const bar = clear(ui.toolbar);
 
-  // On a phone the filters would fill half the screen, so they fold behind a
-  // button there (style.css); on a wide screen the wrapper is `display:
-  // contents` and the toolbar is the one row it always was.
+  // Everything but Collapse all, the search and the zoom folds behind a
+  // button (style.css): unfolded, on a wide screen the wrapper is `display:
+  // contents` and the toolbar is the one row it always was, and on a phone it
+  // is a second row.
   const filtered = !!(st.ekinds || st.status || !st.reduce || !st.appendix);
   bar.classList.toggle('open', !!ui.toolbarOpen);
   const toggle = bar.appendChild(el('button.tb-toggle', {
@@ -269,10 +297,13 @@ function renderToolbar(app, st) {
     title: filtered ? 'some edges, statuses or appendices are filtered out' : null,
     onclick: () => {
       ui.toolbarOpen = !ui.toolbarOpen;
+      savePref(TOOLS_KEY, ui.toolbarOpen);
       bar.classList.toggle('open', ui.toolbarOpen);
       toggle.setAttribute('aria-expanded', ui.toolbarOpen ? 'true' : 'false');
     },
   }, 'Filters'));
+  bar.appendChild(el('div.group.tb-collapse',
+    el('button', { onclick: () => writeState(app, { expand: [] }) }, 'Collapse all')));
   const filters = bar.appendChild(el('div.tb-filters'));
 
   // collapse kind
@@ -291,8 +322,7 @@ function renderToolbar(app, st) {
     el('button', {
       onclick: () => writeState(app, { expand: [...order.expandable] }),
       title: `lay out all ${whenExpanded.toLocaleString()} objects at once`,
-    }, big ? `Expand all (${whenExpanded.toLocaleString()})` : 'Expand all'),
-    el('button', { onclick: () => writeState(app, { expand: [] }) }, 'Collapse all')));
+    }, big ? `Expand all (${whenExpanded.toLocaleString()})` : 'Expand all')));
 
   filters.appendChild(el('div.sep'));
 
@@ -367,6 +397,33 @@ function renderToolbar(app, st) {
     el('button', { onclick: () => fitToView(app) , title: 'fit the graph into the viewport' }, 'Fit'),
     el('button', { onclick: () => zoomBy(app, 1.25) }, '+'),
     el('button', { onclick: () => zoomBy(app, 1 / 1.25) }, '\u2212')));
+  bar.appendChild(sideToggle(app));
+}
+
+/** Show or hide the side panel; on a phone it is a sheet of its own and this is not offered. */
+function sideToggle(app) {
+  const { el } = app;
+  const label = () => (ui.sideShown ? 'Hide sidebar' : 'Show sidebar');
+  const button = el('button.tb-side', {
+    type: 'button',
+    'aria-expanded': ui.sideShown ? 'true' : 'false',
+    title: 'the details of the selected object, beside the graph',
+    onclick: () => {
+      ui.sideShown = !ui.sideShown;
+      savePref(SIDE_KEY, ui.sideShown);
+      // The stage widens or narrows on its right: keep what was in its middle there.
+      const before = ui.stage.getBoundingClientRect().width;
+      ui.page.classList.toggle('side-hidden', !ui.sideShown);
+      const after = ui.stage.getBoundingClientRect().width;
+      if (after !== before) {
+        ui.transform.x += (after - before) / 2;
+        applyTransform(false);
+      }
+      button.setAttribute('aria-expanded', ui.sideShown ? 'true' : 'false');
+      button.textContent = label();
+    },
+  }, label());
+  return button;
 }
 
 /** Is there anything the "hide appendix" checkbox would hide? */
@@ -1512,6 +1569,11 @@ function draw(app, st, view, quot, laid, nodes, edgeMeta, animate) {
   applyLevel(app, view);
   applyHighlight(app, st.q);
   applySelection(app, st.sel);
+  // For the intro (intro.js), which zooms into the graph once it is drawn.
+  ui.stage.classList.add('drawn');
+  if (typeof ui.stage.dispatchEvent === 'function' && typeof CustomEvent === 'function') {
+    ui.stage.dispatchEvent(new CustomEvent('graphdrawn', { bubbles: true }));
+  }
 }
 
 function cssEscape(s) {
@@ -1638,6 +1700,97 @@ function drawNode(app, box, meta, st, view) {
       .map((s) => `\n  ${M.STATUS_LABEL[s]}: ${prog.mix[s]}`).join('') : '');
   g.appendChild(svgEl('title', title2));
   wireNode(app, g, o.id, view);
+  return g;
+}
+
+// --- pictures of the intro ---------------------------------------------------
+
+// The intro (intro.js) zooms through a few small pictures on its way to the
+// graph: `{nodes: [{id, title, kind}], arrows: [[from, to]]}`.  They are laid
+// out by ELK with the graph's own options and drawn with its own shapes and
+// classes, so that a box in them is a box of the graph: a node of a section
+// kind as a collapsed section, with its expander, and every other as an
+// object of its kind.  Nothing in them is a link.
+
+/**
+ * One picture as an `<svg>` whose viewBox is the drawing, and that box as
+ * `{x, y, w, h}`.  Layouts are remembered as the graph's are.
+ */
+export async function sketch(app, layer) {
+  const { svgEl } = app;
+  const types = { _types: new Map() };
+  const nodes = (layer.nodes || []).map((n) => {
+    const type = M.nodeType(types, { id: n.id, kind: n.kind || 'section' });
+    const expandable = type.shape === 'section';
+    const node = { id: n.id, bp: { wrap: titleWrap(n.title, false), prog: null } };
+    sizeLeaf(node, expandable, false);
+    return { ...n, type, expandable, node };
+  });
+  const graph = {
+    id: 'root',
+    layoutOptions: layoutOptions(0),
+    children: nodes.map((n) => ({ id: n.id, width: n.node.width, height: n.node.height })),
+    edges: (layer.arrows || []).map(([a, b], i) => ({ id: 'a' + i, sources: [a], targets: [b] })),
+  };
+  const inputText = JSON.stringify(graph);
+  let laid = rememberedLayout(inputText);
+  if (!laid) {
+    laid = await layoutGraph(graph);
+    rememberLayout(inputText, JSON.stringify(laid));
+  }
+  const { abs } = absolutePositions(laid);
+  const box = bboxOf(abs);
+  const pad = 4; // the stroke, outside the boxes
+  const svg = svgEl('svg', {
+    xmlns: 'http://www.w3.org/2000/svg', class: 'sketch',
+    viewBox: `${box.x - pad} ${box.y - pad} ${box.w + 2 * pad} ${box.h + 2 * pad}`,
+    width: box.w + 2 * pad, height: box.h + 2 * pad,
+  });
+  // Arrowheads of its own: an id shared with the graph's would resolve to
+  // the graph's, which the intro keeps hidden.
+  const head = svgEl('marker', {
+    id: 'bp-sketch-arrow', viewBox: '0 0 10 10', refX: 9, refY: 5,
+    markerWidth: 7, markerHeight: 7, orient: 'auto-start-reverse',
+  }, svgEl('path', { d: 'M 0 0.8 L 10 5 L 0 9.2 z', class: 'arrowhead' }));
+  svg.appendChild(svgEl('defs', head));
+  const gEdges = svgEl('g', { class: 'edges' });
+  const gNodes = svgEl('g', { class: 'nodes' });
+  svg.appendChild(gEdges);
+  svg.appendChild(gNodes);
+  for (const e of laid.edges || []) {
+    const a = abs.get(e.sources[0]);
+    const b = abs.get(e.targets[0]);
+    if (!a || !b) continue;
+    const pts = pathPoints(e, a, b, { x: 0, y: 0 });
+    gEdges.appendChild(svgEl('g', { class: 'gedge kind-uses' },
+      svgEl('path', { d: pathD(pts), 'marker-end': 'url(#bp-sketch-arrow)' })));
+  }
+  for (const n of nodes) {
+    const b = abs.get(n.id);
+    if (b) gNodes.appendChild(sketchNode(app, b, n));
+  }
+  return { svg, box: { x: box.x - pad, y: box.y - pad, w: box.w + 2 * pad, h: box.h + 2 * pad } };
+}
+
+/** A box of a picture, drawn as `drawNode` draws a leaf without progress. */
+function sketchNode(app, box, n) {
+  const { svgEl } = app;
+  const { type, expandable } = n;
+  const g = svgEl('g', {
+    class: 'gnode kind-' + (n.kind || 'section') + ' type-' + type.shape + ' status-none',
+    transform: `translate(${box.x},${box.y})`,
+  });
+  for (const s of nodeShape(svgEl, type.shape, box.w, box.h, false)) g.appendChild(s);
+  const wrap = n.node.bp.wrap;
+  const tx = box.w / 2 + (expandable ? 5 : 0);
+  const ty = box.h / 2 - wrap.height / 2 + LINE_H / 2 + 4;
+  g.appendChild(svgEl('text', { class: 'label', 'text-anchor': 'middle' },
+    ...wrap.lines.map((line, i) => svgEl('tspan', { x: tx, y: ty + i * LINE_H }, line))));
+  g.appendChild(svgEl('text', {
+    class: 'kindmark', y: 12, 'text-anchor': 'end',
+    x: box.w - (type.shape === 'remark' ? 6 + FOLD : type.shape === 'statement' ? 11 : 6),
+  }, type.mark));
+  if (expandable) g.appendChild(svgEl('text', { class: 'expander', x: 8, y: box.h / 2 + 4 }, '+'));
   return g;
 }
 
