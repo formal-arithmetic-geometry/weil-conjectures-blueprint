@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "sk-thm-sf-tensor-hom"
-uses = ["sk-rem-sf-pf-done", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-proetale", "sk-thm-sf-ctf-stability", "sk-prop-ctf-finite-comparison"]
+uses = ["sk-rem-sf-pf-done", "sk-thm-sf-pf-adic", "sk-thm-sf-pf-field", "sk-thm-sf-pf-proetale", "sk-thm-sf-ctf-stability", "sk-prop-ctf-finite-comparison", "sk-prop-scalar-six", "det-prop-scalar-six-exceptional"]
 +++
 We check each isomorphism by Yoneda: after applying
 $\Hom(N,-)$, the adjunctions and the projection formula turn both sides
@@ -91,3 +91,16 @@ $K$ carries evaluation on $Y$ to the pairing. For
 $Rf_*\delta_K$ it holds because $\delta_K$ is adjoint to evaluation
 on $X$ and (11.2) for $\mathbb D_XK$ is adjoint
 to the analogous pairing. Hence the two maps agree.
+
+It remains to prove the complement. The comparison map of (11.1) is a
+composite of evaluation, the units and counits of $Rf_!\dashv f^!$ and
+$f^*\dashv Rf_*$, and the projection formula; each of these is natural in
+$K$ and $L$, hence so is (11.1). Each of them is also compatible with
+extension of scalars along the coefficient maps, finite reduction
+$\mathcal O_E\to A_{E,n}$ included, by the change-of-coefficients
+comparisons of Proposition [sk-prop-scalar-six], which respect the units,
+counits and evaluation maps, and for the exceptional adjoint by
+[det-prop-scalar-six-exceptional]; hence (11.1) is compatible with finite
+reduction and scalar extension. Finally all functors involved are
+triangulated and (11.1) is a natural transformation between triangulated
+functors, so it commutes with the shift isomorphisms.
