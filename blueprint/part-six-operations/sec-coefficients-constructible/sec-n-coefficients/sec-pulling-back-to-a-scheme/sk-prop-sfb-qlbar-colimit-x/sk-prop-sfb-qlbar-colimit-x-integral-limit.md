@@ -2,6 +2,7 @@
 id = "det-prop-sfb-qlbar-colimit-x-integral-limit"
 kind = "lemma"
 title = "$\\mathcal O_{E,X}$ is the limit of its finite levels"
+lean = ["AlgebraicGeometry.ProEtale.sfb_integral_coefficient_limit"]
 order = 1246
 uses = ["det-def-sfb-pullback-from-point", "det-def-sfb-condensed-ring", "det-def-sfb-pulled-back-coefficients"]
 +++
