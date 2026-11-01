@@ -9,7 +9,9 @@ lean = ["AlgebraicGeometry.ProEtale.condensedRingObj", "AlgebraicGeometry.ProEta
 Fix the global finite-field datum $(p,a,q,k_0,k)$ with $k=\overline{\mathbf F}_q$, a prime $\ell\neq p$, a finite extension $E/\Ql$ inside $\Qlb$ with valuation ring
 $\mathcal O_E$ and uniformizer $\pi_E$ ([det-def-sfb-condensed-ring]), an integer $n\ge1$, and put
 $A_{E,n}=\mathcal O_E/\pi_E^n$. The admissible coefficient rings are
-$\Lambda\in\{A_{E,n},\mathcal O_E,E,\Qlb\}$, regarded as condensed rings: $A_{E,n}$ with its
+$\Lambda\in\{A,\mathcal O_E,E,\Qlb\}$, where $A$ is an arbitrary finite commutative
+$\ell$-primary ring; the rings $A_{E,n}$ are the distinguished family of finite coefficients
+used for integral reduction. They are regarded as condensed rings: $A$ with its
 discrete topology, $\underline{\mathcal O}_E$ and $\underline E$ ([det-def-sfb-condensed-ring]), and
 $\underline{\Qlb}$ ([det-def-sfb-qlbar-condensed]). For a scheme $X$ the coefficient sheaf is
 $\Lambda_X=p_X^*\Lambda$ on $X_{\mathrm{proét}}$ ([det-def-sfb-pulled-back-coefficients]); it is the
@@ -21,7 +23,7 @@ $D^b_{ctf}(X,\Lambda)\subseteq D^b_c(X,\Lambda)$ of those of finite Tor amplitud
 $\Lambda_X$ ([def-weil-finite-tor-amplitude]). These categories come with constructible
 intervals and the Tate twists of [def-coefficient-twists-detailed]. Morphisms are separated of finite type.
 
-*Finite coefficients.* For $\Lambda=A=A_{E,n}$ the sheaf $A_X$ is the classical constant sheaf, and
+*Finite coefficients.* For $\Lambda=A$ the sheaf $A_X$ is the classical constant sheaf, and
 $\nu_X^*$ identifies the étale categories with the pro-étale ones: $D^b_c(X_{\mathrm{ét}},A)$,
 the bounded complexes of sheaves of $A$-modules on the small étale site with constructible
 cohomology sheaves, and its subcategory $D^b_{ctf}(X_{\mathrm{ét}},A)$, are carried
