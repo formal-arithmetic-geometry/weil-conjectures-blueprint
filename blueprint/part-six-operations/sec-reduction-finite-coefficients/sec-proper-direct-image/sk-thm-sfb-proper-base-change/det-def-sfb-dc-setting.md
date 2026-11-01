@@ -6,9 +6,12 @@ order = 2400
 uses = ["sk-def-nagata-sketch-data", "sk-prop-sf-open-closed-triangle"]
 lean = ["AlgebraicGeometry.HasCompactification.of_isOver", "AlgebraicGeometry.ProEtale.CondensedRing.compactificationOverField"]
 +++
-Fix a prime $\ell$ and a field $k$ of characteristic $p>0$ with $p\neq\ell$. In this
-setting all schemes are separated and of finite type over $k$, and all morphisms are
-morphisms of $k$-schemes. No further hypothesis is imposed. For a commutative condensed
+Fix a prime $\ell$ and a field $k$ of characteristic $p>0$ with $p\neq\ell$ that is finite or
+algebraically closed. In this setting all schemes are separated and of finite type over $k$,
+and all morphisms are morphisms of $k$-schemes. This is the domain of the Brown construction
+([sk-thm-existence]), whose compact-generation argument needs the cohomological-dimension
+bounds of such fields; results valid over an arbitrary base with torsion coefficients are
+stated separately. For a commutative condensed
 ring $\Lambda$ ([det-def-sfb-condensed-ring]) and a scheme $X$ of the setting, write
 
 $$

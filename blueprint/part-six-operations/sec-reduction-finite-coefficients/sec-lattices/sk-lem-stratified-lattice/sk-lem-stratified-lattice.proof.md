@@ -1,10 +1,14 @@
 +++
 kind = "proof"
 of = "sk-lem-stratified-lattice"
-uses = ["sk-lem-lattice-atlas"]
+uses = ["sk-lem-lattice-atlas", "det-lem-stratified-lattice-scheme"]
 +++
 Let $Y\to X$ be the étale $X$-scheme representing lattices in $L$
-(Lemma [sk-lem-lattice-atlas]), with its universal lattice.
+(Lemma [sk-lem-lattice-atlas]), with its universal lattice; it exists for
+every qcqs $X$ ([det-lem-stratified-lattice-scheme]). The argument below is
+about local systems only, so it needs neither finite type over a field nor
+$\ell$ invertible on $X$; the finite stratification of a quasi-finite étale
+map uses only that $X$ is Noetherian.
 
 *Pushing down by the trace.* Choose finitely many quasi-compact
 affine opens of this scheme whose images cover $X$, and let
