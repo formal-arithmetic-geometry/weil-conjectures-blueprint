@@ -3,11 +3,13 @@ id = "def-trf-admissibility"
 kind = "definition"
 title = "Exceptional-adjoint admissibility datum"
 order = 2794
-uses = ["def-trf-coefficient-conventions", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
+uses = ["def-trf-coefficient-conventions", "def-weil-exceptional-adjoint-admissibility", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties", "sk-thm-existence"]
 +++
 Fix the global finite-field datum
 and the coefficient
-conventions, $A=A_{E,n}$, and let $f:X\to Y$ be a
+conventions, let $A$ be a finite commutative $\ell$-primary ring, regarded
+as a discrete condensed ring (the rings $A=A_{E,n}$ of the conventions
+being particular cases), and let $f:X\to Y$ be a
 separated finite-type
 morphism of finite-type $k$-schemes. Say that $f$ is
 *exceptionally admissible at $A$* when the compact-support direct image
@@ -16,10 +18,12 @@ $Rf^!:D^b_{ctf}(Y,A)\to D^b_{ctf}(X,A)$, with unit
 $\operatorname{id}\to Rf^!Rf_!$ and counit
 $Rf_!Rf^!\to\operatorname{id}$ (i.e. the adjunction $Rf_!\dashv Rf^!$),
 and the composition and base-change exchange isomorphisms used below; and
-*exceptionally admissible* when this holds for every finite coefficient ring
-$A=A_{E,n}$ with constants independent of $n$. The functor in question is
-the constructible exceptional inverse image of
-[def-weil-exceptional-inverse-image].
+*exceptionally admissible* when this holds for every finite commutative
+$\ell$-primary ring $A$, with constants independent of $A$ (in particular of
+$n$ for $A=A_{E,n}$). The functor in question is the constructible
+exceptional inverse image: for general finite $A$ the adjunction
+$Rf_!\dashv Rf^!$ on $D^b_{ctf}(-,A)$ of [sk-thm-existence], and for
+$A=A_{E,n}$ that of [def-weil-exceptional-inverse-image].
 
 The condition is a *theorem*, not a restriction: every separated finite-type
 morphism of finite-type $k$-schemes is exceptionally admissible, the
