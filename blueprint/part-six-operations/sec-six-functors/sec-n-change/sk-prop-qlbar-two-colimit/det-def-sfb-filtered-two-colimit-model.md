@@ -2,6 +2,7 @@
 id = "det-def-sfb-filtered-two-colimit-model"
 kind = "definition"
 title = "The category $\\mathcal C_\\infty$ of a directed pseudofunctor and its comparison functor"
+lean = ["CategoryTheory.FilteredTwoColimit.comparison"]
 order = 2851
 uses = ["det-def-sfb-filtered-two-colimit-cocone"]
 +++
