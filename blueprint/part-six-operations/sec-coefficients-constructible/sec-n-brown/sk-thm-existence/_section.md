@@ -6,7 +6,8 @@ order = 164
 uses = ["sk-def-sfb-constructible", "sk-def-localizing-closure", "lem-integral-ctf-equals-bc"]
 tags = ["sketch"]
 +++
-Let $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\overline{\mathbf Q}_\ell\}$ be an admissible
+Let $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\overline{\mathbf Q}_\ell\}$, with $A$ an arbitrary
+finite commutative $\ell$-primary ring, be an admissible
 coefficient ring and $f:X\to Y$ a morphism of separated schemes of
 finite type over $k$.
 

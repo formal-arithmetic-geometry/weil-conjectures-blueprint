@@ -6,7 +6,8 @@ order = 378
 uses = ["sk-def-sfb-constructible", "sk-prop-sf-existence"]
 tags = ["sketch"]
 +++
-For every admissible $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\overline{\mathbf Q}_\ell\}$, the
+For every admissible $\Lambda\in\{A,\Zl,\mathcal O_E,\Ql,E,\overline{\mathbf Q}_\ell\}$, with $A$ an arbitrary
+finite commutative $\ell$-primary ring,, the
 operations $f^*$, $Rf_*$, $Rf_!$, $f^!$, $\otimes^{\mathbf L}$ and
 $\cHom$ preserve $D^b_{\mathrm{ctf}}(-,\Lambda)$ for morphisms of schemes of finite
 type over $k$. Their adjunctions are the restrictions of the adjunctions

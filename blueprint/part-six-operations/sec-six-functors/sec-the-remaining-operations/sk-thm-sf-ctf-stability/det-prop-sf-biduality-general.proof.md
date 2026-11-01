@@ -7,8 +7,10 @@ As in Deligne, *SGA $4\frac12$*, Ch. 5 (Dualité) 1.1–1.2 and Ch. 7
 stratification, the locally-free case on a stratum, and the restriction to a
 stratum; the algebraic half of the coefficient hypothesis is coefficient
 biduality at a geometric point, which holds stage by stage for different
-reasons: at the finite stages $A_{E,n}$ (Artinian and self-injective, hence
-quasi-Frobenius) finite modules are reflexive; at the integral stage
+reasons: at a finite stage $A$, an arbitrary finite commutative $\ell$-primary
+ring, one uses biduality of perfect complexes over $A$ (the stalks of a
+$D^b_{\mathrm{ctf}}$ complex are perfect), and self-injectivity of $A$ is
+neither available nor needed; at the integral stage
 $\mathcal O_E$ is *not* quasi-Frobenius — for
 $M=\mathcal O_E/(\pi_E)$ one has $\operatorname{Hom}(M,\mathcal O_E)=0$,
 so $M^{**}=0\neq M$ although $M$ is perfect — and one uses instead derived
@@ -19,7 +21,6 @@ $\operatorname{Ext}^1$ term being essential
 finite cohomology over the regular ring $\mathcal O_E$ is perfect, and derived
 evaluation is an isomorphism for every perfect complex); at the field stages
 $E$, $\Qlb$ it is vector-space duality (lem-weil-coefficient-frobenius,
-rem-weil-biduality-coefficients). The Artinian-stage argument is therefore in
-scope only at $A_{E,n}$; the derived-complete integral stage and the field
+rem-weil-biduality-coefficients). The derived-complete integral stage and the field
 stages are reached from it by the coefficient transports
 thm-coef-integral-verdier, thm-coef-rational-verdier, thm-coef-qbar-verdier.
