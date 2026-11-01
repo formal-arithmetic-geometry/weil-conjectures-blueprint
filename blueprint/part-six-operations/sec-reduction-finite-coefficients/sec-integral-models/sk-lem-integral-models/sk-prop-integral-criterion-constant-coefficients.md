@@ -2,6 +2,7 @@
 id = "det-prop-integral-criterion-constant-coefficients"
 kind = "lemma"
 title = "Constant versus completed integral coefficients"
+lean = ["AlgebraicGeometry.ProEtale.IntegralConstantCompletion.integral_constant_completion"]
 order = 2313
 uses = ["det-def-sfb-pulled-back-coefficients", "det-prop-sfb-qlbar-colimit-x-integral-limit", "def-pe-derived-complete"]
 +++
