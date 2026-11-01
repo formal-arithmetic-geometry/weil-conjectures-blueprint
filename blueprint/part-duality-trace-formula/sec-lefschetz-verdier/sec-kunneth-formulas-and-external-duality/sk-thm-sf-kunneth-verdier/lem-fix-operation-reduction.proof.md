@@ -40,10 +40,17 @@ comparison, which is [det-prop-scalar-six-compact-support] for the map
 $\mathcal O_E\to A_{E,n}$.
 Between finite levels use
 [lem-fix-compact-support-coefficient-change]. The corresponding
-comparison for an exceptional right adjoint is precisely the
-coefficient compatibility in
-[def-weil-exceptional-adjoint-admissibility]; it is invoked only
-under that explicit hypothesis.
+comparison for the exceptional inverse image, along every finite-ring
+map $A\to B$ (hence $A_{E,n}\to A_{E,m}$) and along
+$\mathcal O_E\to A_{E,n}$, is [det-prop-scalar-six-exceptional]. Its proof
+is independent of general smooth purity and biduality: the comparison is
+defined by transposing the extended exceptional counit, proved for closed
+immersions using localization and the coefficient comparison for $Rj_*$, for
+$\mathbf P^1$-projections using the diagonal class and the normalized trace,
+and in general by open restriction, composition and local affine
+factorization. If an admissible ambient adjoint is used, its constructible
+restriction is identified with the Brown adjoint by uniqueness of adjoints,
+preserving the counit.
 
 At the field coefficients, the comparisons along $\mathcal O_E\to E$ and
 $E\to F\to\Qlb$ are the coefficient comparisons of

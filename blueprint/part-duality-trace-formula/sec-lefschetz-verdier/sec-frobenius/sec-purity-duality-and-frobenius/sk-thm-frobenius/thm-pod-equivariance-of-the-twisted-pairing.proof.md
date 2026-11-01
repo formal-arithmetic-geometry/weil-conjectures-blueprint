@@ -2,13 +2,13 @@
 kind  = "proof"
 of    = "thm-pod-equivariance-of-the-twisted-pairing"
 +++
-Step 1: the derived pairing $\beta _K$ of [def-pod-derived-poincare-pairing] is the composite of the mixed-support cup product, the evaluation, and the smooth trace. The mixed-support cup product is induced by the tensor product of sheaves and its $\Gamma _c$-realization, both equivariantly lifted to Weil complexes by [lem-fix-weil-operations], and the same statement applies to the global-sections functors $R\Gamma _c$ and $R\Gamma$ with the data of [def-trf-frobenius-operators]. The evaluation is a morphism of Weil objects by [prop-pod-dual-tate-data-compatibility]. The trace $\operatorname {Tr}^{\mathrm{sm}}_{a_X,A}$ is equivariant by the trace square of [thm-pur-weil-equivariance-of-purity-and-trace], whose source datum carries the twist normalization of the Tate line, [def-pur-tate-datum], and the target datum on $A$ is the canonical datum of [def-weil-weil-sheaf-complex]. Step 2: composing, the tuple
+Step 1: the derived pairing $\beta _K$ of [def-pod-derived-poincare-pairing] is the composite of the mixed-support cup product, the evaluation, and the smooth trace. The mixed-support cup product is induced by the tensor product of sheaves and its $\Gamma _c$-realization, both equivariantly lifted to Weil complexes by [lem-fix-weil-operations-finite], and the same statement applies to the global-sections functors $R\Gamma _c$ and $R\Gamma$ with the data of [def-trf-frobenius-operators]. The evaluation is a morphism of Weil objects by [prop-pod-dual-tate-data-compatibility]. The trace $\operatorname {Tr}^{\mathrm{sm}}_{a_X,A}$ is equivariant by the trace square of [thm-pur-weil-equivariance-of-purity-and-trace], whose source datum carries the twist normalization of the Tate line, [def-pur-tate-datum], and the target datum on $A$ is the canonical datum of [def-weil-weil-sheaf-complex]. Step 2: composing, the tuple
 
 $$
 \bigl(R\Gamma _c(X,K),\  R\Gamma (X,K^\vee (d))[2d],\  A\bigr)
 $$
 
-carries the Weil data $\varphi _{c,K},\  \varphi _{K^\vee (d)}$, and the canonical datum, and the pairing $\beta _K$ is a morphism of Weil objects from the tensor of the first two to the last, by Step 1 and the compatibility of the tensor product with the data in [lem-fix-weil-operations]. Step 3: on cohomology, in the degree-zero part
+carries the Weil data $\varphi _{c,K},\  \varphi _{K^\vee (d)}$, and the canonical datum, and the pairing $\beta _K$ is a morphism of Weil objects from the tensor of the first two to the last, by Step 1 and the compatibility of the tensor product with the data in [lem-fix-weil-operations-finite]. Step 3: on cohomology, in the degree-zero part
 
 $$
 \beta _K:\  H_c^i(X,K)\otimes H^{2d-i}\bigl(X,K^\vee (d)\bigr)\to A
@@ -20,4 +20,4 @@ $$
 \bigl\langle F_{c,K}x,\; F_{K^\vee (d)}y\bigr\rangle _i =F\bigl(\langle x,y\rangle _i\bigr)
 $$
 
-with $F$ the global geometric Frobenius of [def-weil-global-geometric-frobenius]; but the target datum is the canonical one, so $F$ acts on $A$ as the identity, by [def-weil-frobenius-detailed] and [def-weil-weil-sheaf-complex], giving the displayed identity.
+with $F$ the global geometric Frobenius of [lem-fix-weil-operations-finite]; but the target datum is the canonical one, so $F$ acts on $A$ as the identity, by [def-weil-frobenius-detailed] and [def-weil-weil-sheaf-complex], giving the displayed identity.
