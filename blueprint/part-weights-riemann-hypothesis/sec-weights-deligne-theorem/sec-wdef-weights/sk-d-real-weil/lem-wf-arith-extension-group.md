@@ -2,6 +2,7 @@
 id = "lem-wf-arith-extension-group"
 kind = "lemma"
 title = "The arithmetic monodromy extension is a group"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.ArithmeticMonodromyExtension"]
 order = 3944
 uses = ["d-monodromy", "def-wf-arithmetic-monodromy-extension", "lem-wf-conjugation-geometric-monodromy"]
 +++
