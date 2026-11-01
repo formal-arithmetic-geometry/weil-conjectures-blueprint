@@ -19,7 +19,8 @@ $(P\otimes\mathcal O_{E,T}/\ell^n)\otimes_{\mathcal O_{E,T}/\ell^n}\mathcal O_{E
 tensor product, $P\otimes\mathcal O_{E,T}/\ell^n$ being K-flat over
 $\mathcal O_{E,T}/\ell^n$), hence an isomorphism.
 
-*Constructibility.* Let $M\in\Dbc(T,\mathcal O_E)$. By [sk-lem-int-integral-heart],
+*Constructibility.* Let $T$ be separated of finite type over $k$ and
+$M\in\Dbc(T,\mathcal O_E)$. By [sk-lem-int-integral-heart],
 $M$ is a finite extension of shifted sheaves $a_!C$ with $C$ of Tor amplitude
 $[-1,0]$ on a stratum. Tor amplitude and constructibility of the reductions are
 preserved by extensions and shifts, and the number of steps and the shifts do
