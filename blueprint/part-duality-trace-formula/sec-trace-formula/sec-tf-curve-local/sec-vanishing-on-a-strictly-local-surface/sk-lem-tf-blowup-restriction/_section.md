@@ -2,6 +2,7 @@
 id = "sk-lem-tf-blowup-restriction"
 kind = "lemma"
 title = "Vanishing of restrictions after blowing up"
+lean = ["AlgebraicGeometry.Etale.blowupRestriction_eq_zero"]
 order = 588
 uses = ["sk-lem-tf-punctured-restriction"]
 tags = ["sketch"]

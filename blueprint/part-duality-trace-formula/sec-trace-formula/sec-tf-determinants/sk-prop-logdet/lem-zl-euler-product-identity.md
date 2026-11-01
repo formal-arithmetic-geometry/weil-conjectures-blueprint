@@ -2,6 +2,7 @@
 id = "lem-zl-euler-product-identity"
 kind = "lemma"
 title = "Euler-product identity for a Frobenius module"
+lean = ["LinearMap.inv_charpolyRev_eq_exp"]
 order = 3859
 uses = ["def-zl-frobenius-trace-series", "lem-zl-log-det-identity"]
 +++
