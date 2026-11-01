@@ -13,9 +13,8 @@ cohomology groups agree naturally.
 
 For smooth $C$, choose a compactification $\overline C$ by
 [lem-sc-compactification]. Choose distinct closed points
-$P,Q\in\overline C$, which exist because a positive-dimensional
-variety over an algebraically closed field has infinitely many
-closed points. Both $C\setminus\{P\}$ and $C\setminus\{Q\}$
+$P,Q\in C$, which exist because a curve of finite type over any
+field has infinitely many closed points. Both $C\setminus\{P\}$ and $C\setminus\{Q\}$
 are proper open subschemes of $\overline C$, hence affine by
 [lem-sc-affine-open-proper]. They cover $C$, and their
 intersection is affine for the same reason. The alternating

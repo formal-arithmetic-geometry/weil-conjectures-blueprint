@@ -12,5 +12,5 @@ $U=\{\gamma:\gamma(x)=\gamma_X(x)\}\subseteq\operatorname{Aut}(F(X))$ and
 $U'=\{\gamma':\gamma'(F(f)(x))=\gamma_{X'}(F(f)(x))\} \subseteq\operatorname{Aut}(F(X'))$ give the open neighbourhood
 $U\times U'\times\prod_{X''\neq X,X'}\operatorname{Aut}(F(X''))$ of
 $\xi$, which misses $\operatorname{Aut}(F)$; hence
-$\operatorname{Aut}(F)$ is closed. If all $F(X)$ are finite the product
+$\operatorname{Aut}(F)$ is closed. Since all $F(X)$ are finite, the product
 is profinite, and closed subgroups of profinite groups are profinite.
