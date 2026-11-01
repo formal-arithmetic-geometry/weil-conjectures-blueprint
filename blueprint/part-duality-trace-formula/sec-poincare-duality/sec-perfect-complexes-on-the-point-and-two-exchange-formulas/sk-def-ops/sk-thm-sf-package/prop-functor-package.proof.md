@@ -27,7 +27,9 @@ Clause (4) is [thm-weil-pbc-bounded-below],
 Clause (5) is [fix-prop-projection-formula].
 Clause (6) is [thm-pur-finite-coefficient-smooth-purity] at the finite
 stages and [sk-thm-purity-transport] for every admissible $\Lambda$.
-For (7), the exchange is [fix-cor-verdier-exchange];
+For (7), the exchange is the unconditional Brown/Yoneda proof of
+[sk-thm-sf-tensor-hom], not the conditional ambient exchange result
+[fix-cor-verdier-exchange];
 [lem-weil-coefficient-frobenius] proves the required point duality,
 and [thm-sf-dual-perfect] reduces the smooth site-perfect
 case to local perfect-complex biduality. General finite-stage biduality is
