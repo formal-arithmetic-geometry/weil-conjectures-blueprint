@@ -2,6 +2,7 @@
 id = "def-compact-support-direct-image-detailed"
 kind = "definition"
 title = "Compactification-independent finite-level direct image"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.rightDerivedLowerShriekOfCompactification"]
 order = 2523
 uses = ["def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-finite-torsion-constructibility", "def-weil-pbc-etale-origin-witness", "def-weil-scheme-morphism-properties", "prop-compactification-coherence-detailed"]
 +++
