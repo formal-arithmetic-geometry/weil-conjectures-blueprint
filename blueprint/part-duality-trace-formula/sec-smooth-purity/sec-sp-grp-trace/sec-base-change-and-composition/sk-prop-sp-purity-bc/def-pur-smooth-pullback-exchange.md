@@ -6,8 +6,8 @@ lean = ["AlgebraicGeometry.Etale.smoothPullbackExchange"]
 order = 3366
 uses = ["def-coefficient-twists-detailed", "def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
-Work in the purity conventions of [def-pur-conventions], let
-$A=A_{E,n}$, and let
+Work in the purity conventions of [def-pur-conventions], with
+$\Lambda$ as there, and let
 
 $$
 \begin{array}{ccc}

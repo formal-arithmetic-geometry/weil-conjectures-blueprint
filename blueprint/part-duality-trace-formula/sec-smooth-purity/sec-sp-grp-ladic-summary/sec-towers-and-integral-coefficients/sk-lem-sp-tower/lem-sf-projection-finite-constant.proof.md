@@ -34,9 +34,14 @@ Choose a free resolution $P\to M$ in nonpositive degrees, with each
 $P^i$ finite free; Noetherianity supplies the finite syzygies. Put
 $P_m=\sigma_{\geq-m}P$, the brutal truncation. The cone $C_m$ of
 $P_m\to M$ belongs to $D^{\leq-m-1}(A)$. Choose $b$ with
-$K\in D^{\leq b}$. The assumed bound on all sheaves, applied by the
-truncation spectral sequence of [thm-sp-truncation-e2], gives
-$Rf_*D^{\leq t}\subseteq D^{\leq t+N}$ on bounded-above complexes.
+$K\in D^{\leq b}$. The assumed bound on all sheaves is a finite cohomological dimension
+$\le N$ of $f_*$, so $\mathcal H^r(Rf_*L)\cong\mathcal H^r(Rf_*\tau_{\geq r-N-1}L)$
+for every complex $L$ and every $r$ (Stacks Project, Derived Categories,
+Lemma 13.32.2). For $L\in D^{\leq t}$ and $r>t+N$ the truncation
+$\tau_{\geq r-N-1}L$ is bounded, and the truncation spectral sequence of
+[thm-sp-truncation-e2] gives $\mathcal H^r(Rf_*\tau_{\geq r-N-1}L)=0$.
+Hence $Rf_*D^{\leq t}\subseteq D^{\leq t+N}$, with no lower bound on the
+complexes.
 Consequently both
 
 $$

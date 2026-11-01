@@ -49,15 +49,14 @@ $$
 
 with the first isomorphism carrying the class of $t$ to its boundary
 $\kappa(t)$. The vanishing in degrees $q>2$ is
-[lem-sc-cohomological-dimension] (a), and for the affine curve
-$\mathbf A^1_k$ the stronger bound (b) applies; for
-$\mathbf G_{m,k}$ the bound (b) applies as well since it is affine.
+[lem-sc-cohomological-dimension]; the vanishing of $H^2$ was computed
+above from the Kummer sequence.
 The $H^0$-terms are identified with $\mu_{\ell^N}(k)=\mathbf Z/\ell^N\mathbf Z$
 via a primitive $\ell^N$-th root of unity, the trivialization
 [def-sc-mu-trivialization] and [lem-sc-primitive-root]. The
 $A$-coefficient form follows from
 [lem-pur-kummer-coefficient-base-change], the finiteness of the
-groups from the finiteness of the $\mathbf Z/\ell^N\mathbf Z$-coefficient
-groups of [lem-sc-cohomological-dimension] and of the stalks, and the
+groups from the explicit groups computed above (each $0$ or
+$\mathbf Z/\ell^N\mathbf Z$), and the
 coefficient base-change compatibility from
 [lem-pur-kummer-coefficient-base-change].

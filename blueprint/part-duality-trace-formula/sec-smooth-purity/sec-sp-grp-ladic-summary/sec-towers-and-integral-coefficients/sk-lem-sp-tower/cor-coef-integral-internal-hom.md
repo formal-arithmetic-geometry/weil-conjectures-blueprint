@@ -6,6 +6,10 @@ order = 2992
 tags = ["latex:corollary"]
 uses = ["cor-weil-finite-constructible-hom", "lem-coef-integral-hom-reduction", "lem-coef-integral-residue-tor"]
 +++
+Let $R=\mathcal O_E$, regarded as a condensed ring, with
+$R_X=\mathcal O_{E,X}$ and reductions
+$K_n=K\otimes^L_{\mathcal O_{E,X}}(A_{E,n})_X$, as in
+[lem-coef-integral-hom-reduction] and [lem-coef-integral-residue-tor].
 For $K,L\in D^b_c(X,R)$, the ambient
 $R\mathcal Hom_R(K,L)$ lies in $D^b_c(X,R)$ and its
 reductions are the corresponding finite internal Homs. If the

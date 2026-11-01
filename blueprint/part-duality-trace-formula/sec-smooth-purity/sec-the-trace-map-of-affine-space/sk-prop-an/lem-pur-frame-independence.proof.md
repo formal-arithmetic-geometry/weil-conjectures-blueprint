@@ -9,19 +9,21 @@ cup products of [def-pur-support-cohomology], both of which are defined
 sheaf-theoretically. Two sections of a sheaf which agree after an étale
 base change agree, so we may replace $U$ by an affine strictly local
 étale neighbourhood of a geometric point of $U$. There
-$\mathcal O(U)=R$ is a local ring, the two frames are defined over $R$,
-and $f'=Mf$ for an invertible $M\in\mathrm{GL}_c(R)$. Over a local ring
-an invertible matrix has Smith normal form with unit diagonal entries:
-there are elementary matrices $E_1,E_2$ and an invertible diagonal $D$
-with
+$\mathcal O(U)=R$ is a local ring, the strictly henselian local ring at
+the geometric point, the two frames are defined over $R$,
+and $f'=Mf$ for an invertible $M\in\mathrm{GL}_c(R)$. Over the local
+ring $R$ there are elementary matrices $E_1,E_2$ and an invertible
+diagonal $D$ with
 
 $$
 M=E_1DE_2 ,
 $$
 
-because row and column operations bring $M$ to a diagonal matrix whose
-entries are the invariant factors, and these are units as soon as
-$\det M$ is. Applying the frame change in the order $E_2$, then $D$,
+by Gaussian elimination: each column of an invertible matrix over $R$
+has a unit entry (otherwise all its entries lie in the maximal ideal
+$\mathfrak m$ and $\det M\in\mathfrak m$), so one may pivot on it,
+clear the rest of its row and column by elementary operations, and
+proceed by induction on $c$. Applying the frame change in the order $E_2$, then $D$,
 then $E_1$, it suffices to check the invariance of
 $\operatorname{cl}$ under each of the three kinds of operation.
 *Unit multiples*: for

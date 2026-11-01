@@ -16,8 +16,10 @@ s_*Rs^!K\longrightarrow K\longrightarrow Rj_*j^*K
 \longrightarrow s_*Rs^!K[1]
 $$
 
-in $D(X,\Lambda)$, with $Rs^!$ the
-exceptional inverse image
-when that adjoint is defined. It has the canonicality, functoriality
+in $D(X,\Lambda)$, with $Rs^!:D^+(X,\Lambda)\to D^+(Z,\Lambda)$ the
+right derived functor of the sections-with-support functor $s^!$ of
+[def-pur-flasque-support]; on the domain of the exceptional inverse image
+of [def-weil-exceptional-inverse-image] it agrees with that functor by
+uniqueness of adjoints. It has the canonicality, functoriality
 and etale base-change compatibility of
 the preceding definition.

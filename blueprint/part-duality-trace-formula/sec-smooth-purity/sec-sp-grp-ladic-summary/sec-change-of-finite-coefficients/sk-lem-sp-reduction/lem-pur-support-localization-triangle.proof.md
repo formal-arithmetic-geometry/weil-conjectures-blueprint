@@ -11,10 +11,11 @@ The sheaf functor $s^!$ of [def-pur-flasque-support] is right
 adjoint to $s_*$: every map $s_*N\to M$ has image supported on
 $Z$, hence factors uniquely through $\mathcal G_ZM$, giving
 $\operatorname{Hom}_X(s_*N,M)=\operatorname{Hom}_Z(N,s^!M)$.
-Since $s_*$ is exact for a closed immersion, its derived right
-adjoint is computed on injective resolutions by $s^!I(K)$, and
-uniqueness of right adjoints identifies it with the exceptional
-inverse image of [def-weil-exceptional-inverse-image].
+Since $s_*$ is exact for a closed immersion, the right derived
+functor $Rs^!$ of $s^!$ on $D^+$, computed on injective resolutions by
+$s^!I(K)$, is right adjoint to $s_*$ on $D^+$; on the domain of the
+exceptional inverse image of [def-weil-exceptional-inverse-image],
+uniqueness of right adjoints identifies the two.
 The restriction $j^*$ preserves injectives because its left adjoint
 $j_!$ is exact by [def-weil-open-closed-recollement].
 Thus $j_*j^*I(K)$ computes $Rj_*j^*K$.
