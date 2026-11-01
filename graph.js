@@ -188,7 +188,7 @@ function mount(root, app) {
   // `folded`: the side panel's listings the reader has opened (see `fold`).
   // `toolbarOpen`, `sideShown`: the reader's choices (`shownPref`).
   ui = { page, toolbar, stage, svg, layer, side, back, transform: { x: 40, y: 40, k: 1 }, fitted: false,
-    folded: new Set(), entered: null, legend: key, legendProgress: app.showProgress,
+    folded: new Map(), entered: null, legend: key, legendProgress: app.showProgress,
     toolbarOpen: shownPref(TOOLS_KEY), sideShown: shownPref(SIDE_KEY) };
   page.classList.toggle('side-hidden', !ui.sideShown);
   installPanZoom(app);
@@ -243,6 +243,10 @@ function legend(app, progress) {
     el('div.row', sample(line('hollow'), head(true)), 'declared, unwitnessed'),
     // Only the contents of collapsed objects draw these (`arcs of contents`).
     el('div.row.lg-derived', sample(line('dashed'), head(false)), 'derived, undeclared'),
+    // Only while the graph is searched (`applyHighlight`).
+    el('b.lg-search', { style: { marginTop: '.3em' } }, 'search'),
+    el('div.row.lg-search', el('span.shp.hit'), el('span', 'matches')),
+    el('div.row.lg-search', el('span.lg-badge', '2'), el('span', 'matches inside')),
     progress ? [
       el('b', { style: { marginTop: '.3em' } }, 'fill'),
       swatch('proved', 'proved'),
@@ -309,13 +313,8 @@ function renderToolbar(app, st) {
     el('button', { onclick: () => writeState(app, { expand: [] }) }, 'Collapse all')));
   const filters = bar.appendChild(el('div.tb-filters'));
 
-  // collapse kind
-  const kindSel = el('select', {
-    title: 'collapse kind driving the view',
-    onchange: (e) => writeState(app, { collapse: e.target.value, expand: [], sel: null }),
-  }, ...m.collapseKinds.map((k) => el('option', { value: k, selected: k === st.collapse }, k)));
-  filters.appendChild(el('div.group', el('span.lbl', 'collapse'), kindSel));
-
+  // The collapse order has no control: the snapshot's default, or the one
+  // the link says (`collapse=`).
   const order = M.collapseOrder(m, st.collapse);
   // Expanding everything is the one action that can put thousands of nodes on
   // screen, so the button says so rather than springing it on the reader.
@@ -384,7 +383,7 @@ function renderToolbar(app, st) {
   bar.appendChild(el('div.spacer'));
 
   const search = el('input', {
-    type: 'search', placeholder: 'search id, title, body\u2026', value: st.q,
+    type: 'search', placeholder: 'search the graph', value: st.q,
     oninput: (e) => {
       clearTimeout(ui.searchTimer);
       const v = e.target.value;
@@ -1609,6 +1608,9 @@ function draw(app, st, view, quot, laid, nodes, edgeMeta, animate) {
 
   ui.bbox = bboxOf(abs);
   if (!ui.fitted) { fitToView(app); ui.fitted = true; } else applyTransform();
+  // The view this drawing is of: `render` moves `ui.view` on as soon as the
+  // state changes, before the new layout is drawn.
+  ui.drawnView = view;
   applyLevel(app, view);
   applyHighlight(app, st.q);
   applySelection(app, st.sel);
@@ -2197,18 +2199,38 @@ function focusArrowhead(g, on) {
   p.setAttribute('marker-end', on ? base.replace(/\)$/, '-focus)') : base);
 }
 
+// A box's own match is its outline; matches hidden inside it (in a collapsed
+// object, or in the proof of a statement) are the count in the badge on its
+// top left corner, so that a box that does both shows both.
 function applyHighlight(app, q) {
   const hasQ = !!(q && q.trim());
   const ids = hasQ ? M.searchIds(app.model, q) : null;
+  const view = ui.drawnView || ui.view;
+  const inside = hasQ && view ? M.hiddenHits(view, ids) : new Map();
   ui.layer.classList.toggle('searching', hasQ);
+  ui.stage.classList.toggle('searching', hasQ);
+  for (const b of ui.layer.querySelectorAll('.search-inside')) b.remove();
   for (const g of ui.layer.querySelectorAll('.gnode')) {
     const hit = hasQ && ids.has(g.dataset.id);
+    const n = hasQ && !g.classList.contains('junction') ? inside.get(g.dataset.id) || 0 : 0;
     g.classList.toggle('match', !!hit);
-    g.classList.toggle('dim', hasQ && !hit);
+    g.classList.toggle('match-inside', n > 0);
+    g.classList.toggle('dim', hasQ && !hit && !n);
+    if (n) g.appendChild(insideBadge(app, n));
   }
   for (const g of ui.layer.querySelectorAll('.gedge')) {
     g.classList.toggle('dim', hasQ);
   }
+}
+
+function insideBadge(app, n) {
+  const { svgEl } = app;
+  const text = n > 99 ? '99+' : String(n);
+  const w = 10 + 7 * text.length;
+  return svgEl('g', { class: 'search-inside' },
+    svgEl('rect', { x: -w / 2 + 2, y: -8, width: w, height: 16, rx: 8 }),
+    svgEl('text', { x: 2, y: 4, 'text-anchor': 'middle' }, text),
+    svgEl('title', n === 1 ? '1 match of the search inside' : `${n} matches of the search inside`));
 }
 
 // --- pan / zoom ------------------------------------------------------------
@@ -2246,13 +2268,26 @@ function fitToView(app) {
   if (!bb) return;
   const rect = ui.stage.getBoundingClientRect();
   const pad = 40;
-  const k = Math.max(0.08, Math.min(1.6,
-    Math.min((rect.width - pad * 2) / bb.w, (rect.height - pad * 2) / bb.h)));
-  ui.transform = {
-    k,
-    x: (rect.width - bb.w * k) / 2 - bb.x * k,
-    y: (rect.height - bb.h * k) / 2 - bb.y * k,
+  const fit = (w, h) => {
+    const k = Math.max(0.08, Math.min(1.6, Math.min((w - pad * 2) / bb.w, (h - pad * 2) / bb.h)));
+    return { k, x: (w - bb.w * k) / 2 - bb.x * k, y: (h - bb.h * k) / 2 - bb.y * k };
   };
+  let t = fit(rect.width, rect.height);
+  // The legend sits in the stage's corner, over whatever is drawn there.  A
+  // graph that would reach under it is fitted beside it or above it instead,
+  // whichever leaves the graph larger.
+  const lg = ui.legend && ui.legend.isConnected ? ui.legend.getBoundingClientRect() : null;
+  if (lg && lg.width && lg.height) {
+    const L = { left: lg.left - rect.left, top: lg.top - rect.top };
+    const right = t.x + (bb.x + bb.w) * t.k;
+    const bottom = t.y + (bb.y + bb.h) * t.k;
+    if (right > L.left && bottom > L.top) {
+      const beside = fit(L.left, rect.height);
+      const above = fit(rect.width, L.top);
+      t = beside.k >= above.k ? beside : above;
+    }
+  }
+  ui.transform = t;
   applyTransform(false);
 }
 
@@ -2444,10 +2479,13 @@ function renderSide(app, st, view, quot) {
       onclick: () => select(app, null),
     }, '\u2715')));
 
+  // The title, and beside it the way to the object's own page.
   const status = M.badgeStatusOf(m, id);
-  const heading = side.appendChild(el('h2', M.titleOf(o)));
+  const heading = el('h2', M.titleOf(o));
+  side.appendChild(el('div.side-head', { 'data-id': id },
+    heading,
+    el('a.side-open', { href: app.objectHref(id) }, 'Open object page \u2192')));
   side.appendChild(el('div.meta', app.kindBadge(o.kind), status === null ? null : app.statusBadge(status)));
-  side.appendChild(el('div.obj-id', id));
 
   const prog = st.progress ? M.progressMixOf(app.model, st.collapse, id) : null;
   if (prog) {
@@ -2461,19 +2499,13 @@ function renderSide(app, st, view, quot) {
         ' (', String(M.childrenOf(view.order, id).length), ' children)')));
   }
 
-  // What the object says comes first, then what is wrong with it; only then
-  // its neighbourhood, which on a real project easily runs to dozens of rows.
+  // What the object says comes first, open, though the reader may fold it
+  // away; only then its neighbourhood, which on a real project easily runs to
+  // dozens of rows.
   if (o.body && o.body.trim()) {
     const box = el('div.excerpt.body-prose');
-    side.appendChild(el('section', el('h3', 'Prose'), box));
+    side.appendChild(fold(el, 'prose', 'Prose', box));
     app.renderBody(box, excerpt(o.body, 700), app.knownIds());
-  }
-
-  const checks = M.checksFor(m, id);
-  if (checks.length) {
-    side.appendChild(el('section', el('h3', 'Checks'),
-      el('ul', ...checks.map((c) =>
-        el('li', app.levelBadge(c.level), ' ', el('span.small', c.message))))));
   }
 
   // A relation's boundary is what the relation is, and only a few rows long,
@@ -2501,27 +2533,24 @@ function renderSide(app, st, view, quot) {
         hidden.length > 10 ? el('li.muted.small', `+${hidden.length - 10} more`) : null)));
   }
 
-  side.appendChild(el('section',
-    el('a', { href: app.objectHref(id) }, 'Open object page \u2192')));
-
   // Titles carry maths, the heading's and the listed objects' alike.  After
   // the prose, which `renderBody` has rendered already.
   app.renderMath(heading);
   for (const list of side.querySelectorAll('ul.objlist')) app.renderMath(list);
 }
 
-// A listing behind a disclosure: shut until the reader opens it, the count in
-// the summary saying what is there. The panel is rebuilt on every route change
-// (a checkbox, an expand, the next selection), so whether it is open is kept in
-// `ui.folded` under `key` rather than snapping shut each time.
+// A section behind a disclosure: the long listings shut until the reader opens
+// them, the count in the summary saying what is there, and the prose open until
+// the reader folds it (`FOLD_STARTS_OPEN`). The panel is rebuilt on every route
+// change (a checkbox, an expand, the next selection), so whether it is open is
+// kept in `ui.folded` under `key` rather than snapping back each time.
+const FOLD_STARTS_OPEN = new Set(['prose']);
+
 function fold(el, key, title, ...children) {
-  return el('section.fold',
+  return el('section.fold', { 'data-fold': key },
     el('details', {
-      open: ui.folded.has(key),
-      ontoggle: (ev) => {
-        if (ev.target.open) ui.folded.add(key);
-        else ui.folded.delete(key);
-      },
+      open: ui.folded.has(key) ? ui.folded.get(key) : FOLD_STARTS_OPEN.has(key),
+      ontoggle: (ev) => { ui.folded.set(key, ev.target.open); },
     }, el('summary', title), ...children));
 }
 
