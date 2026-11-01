@@ -83,5 +83,14 @@ $$
 
 in $\mathbf Q(T)$. Hence all assertions of (v) follow.
 
-The five independently verified clauses are exactly the conjunction stated
-in the theorem.
+*Assembly.* The three assertions of the theorem follow from these clauses
+as follows. (*Factorization.*) The polynomials $P_i\in\mathbf Z[T]$ with
+$P_i(0)=1$ and the displayed identity in $\mathbf Q[[T]]$ are given by
+clauses (i) and (ii), and $P_0(T)=1-T$, $P_{2d}(T)=1-q^dT$ are the
+endpoints in (iv). (*Functional equation.*) The degreewise reciprocity of
+Proposition `prop-duality-reciprocity` used in (v) says that
+$\alpha\mapsto q^d/\alpha$ maps the reciprocal roots of $P_i$ bijectively,
+with multiplicity, onto those of $P_{2d-i}$. (*Riemann hypothesis.*) This is
+(iii). The remaining results proved above (the Betti numbers and their
+symmetry, the poles of $Z(X_0,T)$, and the functional equation of
+$Z(X_0,T)$) are not asserted by the theorem.
