@@ -10,8 +10,9 @@ operation. Adjunction (A1) is [fix-prop-adjunctions], with the
 explicit exceptional-adjoint hypothesis of
 [def-weil-exceptional-adjoint-admissibility]. Base change (A2)
 is the independent base-change theorems collected in
-[fix-lem-exchanges] and [cor-cbc-proper-coincidence]. Projection (A3) is the proved
-[fix-prop-projection-formula]. Composition and proper coincidence
+[fix-lem-exchanges] and [cor-cbc-proper-coincidence]. Projection (A3), on its unbounded finite-coefficient étale domain, is the
+finite projection formula [`hasProjectionFormula_of_finite`](https://github.com/formal-arithmetic-geometry/weil-conjectures/blob/b04b998e53abc72b9702488ed2540905b21d614c/WeilConjectures/SixFunctors/Etale/Derived/ProjectionFormula.lean#L287-L311); the bounded condensed
+[fix-prop-projection-formula] does not cover that domain. Composition and proper coincidence
 (A4) are [def-compact-support-direct-image-detailed],
 [prop-compactification-coherence-detailed] and
 [cor-cbc-proper-coincidence].
