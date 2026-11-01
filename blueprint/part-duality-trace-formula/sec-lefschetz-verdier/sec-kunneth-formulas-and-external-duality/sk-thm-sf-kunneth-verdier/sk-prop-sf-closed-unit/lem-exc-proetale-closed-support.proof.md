@@ -17,7 +17,9 @@ $j^*i_*M=0$. Full faithfulness of $i_*$ gives
 $\operatorname{Hom}(i_*M,N)=\operatorname{Hom}(M,i^!N)$.
 
 Choose a K-injective complex $I$ with injective terms resolving
-$K$, by [prop-weil-pbc-kinjective-resolutions-exist].
+$K$; it exists by
+[Stacks 079P](https://stacks.math.columbia.edu/tag/079P), applied to the
+Grothendieck abelian category of pro-étale module sheaves.
 Since $i_*$ and the $j_!$ of [prop-exc-open-adjoint] are
 exact, the adjunction shows that $i^!I$ and $j^*I$ are
 K-injective, so the right derived functor of the sheaf-level $i^!$

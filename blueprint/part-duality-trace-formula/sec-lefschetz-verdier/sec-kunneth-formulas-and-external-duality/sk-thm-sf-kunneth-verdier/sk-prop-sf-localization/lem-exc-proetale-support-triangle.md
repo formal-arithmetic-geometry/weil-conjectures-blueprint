@@ -4,11 +4,11 @@ kind = "lemma"
 title = "Pro-etale closed-support triangle before constructible restriction"
 lean = ["AlgebraicGeometry.ProEtale.subsingleton_hom_shift_rightDerivedFunctor_lowerStar", "AlgebraicGeometry.ProEtale.exists_distTriang_derivedLowerStarClosedUpperShriekAdjunction_counit", "AlgebraicGeometry.ProEtale.existsUnique_distTriang_closedSupportTriangle", "AlgebraicGeometry.ProEtale.existsUnique_triangleHom_closedSupportTriangle"]
 order = 3197
-uses = ["def-weil-derived-direct-image", "def-weil-open-closed-recollement", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-exc-proetale-closed-essential-image", "lem-exc-proetale-closed-support", "prop-exc-open-adjoint", "prop-weil-pbc-kinjective-resolutions-exist"]
+uses = ["def-weil-derived-direct-image", "def-weil-open-closed-recollement", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties", "lem-exc-proetale-closed-essential-image", "lem-exc-proetale-closed-support", "prop-exc-open-adjoint"]
 +++
 Let $T$ be Noetherian, let $i:Z\hookrightarrow T$ be a
 closed immersion, and
-let $j$ be its open complement. For a finite ring $A$, let
+let $j$ be its open complement. For a finite commutative ring $A$, let
 $Ri^!$ denote the right adjoint of the
 direct image $i_*$ on the
 pro-etale sites, taken on

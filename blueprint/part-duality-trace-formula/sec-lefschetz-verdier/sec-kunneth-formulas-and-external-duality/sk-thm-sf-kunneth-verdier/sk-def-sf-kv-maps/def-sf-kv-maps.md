@@ -5,8 +5,8 @@ title = "The product comparison maps"
 order = 3514
 uses = ["def-compact-support-direct-image-detailed", "def-sf-datum", "def-sf-pf", "def-trf-admissibility", "def-weil-exceptional-inverse-image", "det-def-sfb-dc-lower-shriek", "det-prop-sfb-finite-extension-compatibility", "thm-sf-kunneth-relative"]
 +++
-For $i=1,2$ let $f_i:X_i\to Y_i$ be separated of finite type between
-finite-type $k$-schemes, exceptionally admissible in the sense of
+For $i=1,2$ let $f_i:X_i\to Y_i$ be a morphism between separated
+finite-type $k$-schemes (so that $Y_1\times_kY_2$ is separated), exceptionally admissible in the sense of
 [def-trf-admissibility] where $Rf^!$ occurs — which every such morphism is,
 no ambient datum being assumed — (with $Rf^!$ the exceptional
 inverse image of [def-weil-exceptional-inverse-image] and $Rf_!$ the

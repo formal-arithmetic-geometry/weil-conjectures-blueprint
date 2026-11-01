@@ -3,7 +3,9 @@ kind  = "proof"
 of    = "lem-exc-proetale-support-triangle"
 +++
 Choose a K-injective complex $I$ with injective terms resolving
-$K$, by [prop-weil-pbc-kinjective-resolutions-exist]; by
+$K$; it exists by
+[Stacks 079P](https://stacks.math.columbia.edu/tag/079P), applied to the
+Grothendieck abelian category of pro-étale module sheaves; by
 [lem-exc-proetale-closed-support] this resolution computes the
 ambient right adjoint, so $Ri^!K=i^!I$ for the sheaf-level $i^!$
 constructed there. Exactness of the left adjoint $j_!$

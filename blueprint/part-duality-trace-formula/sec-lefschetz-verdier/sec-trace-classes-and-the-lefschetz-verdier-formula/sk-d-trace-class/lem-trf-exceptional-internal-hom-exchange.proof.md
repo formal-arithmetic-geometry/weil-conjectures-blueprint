@@ -2,26 +2,27 @@
 kind  = "proof"
 of    = "lem-trf-exceptional-internal-hom-exchange"
 +++
-Let $P\in D^b_{ctf}(C,A)$ be a test object. The exceptional adjunction
-of [def-trf-admissibility] and the tensor–internal-Hom adjunction of
-[def-weil-derived-pullback-tensor-hom] give the chain
+By the stratified internal-Hom preservation
+[det-thm-sf-ctf-stability-internal-hom], whose proof does not use biduality,
+$R\mathcal Hom_A(c^*M,c^!N)$ and $R\mathcal Hom_A(M,N)$ lie in
+$D^b_{ctf}$, so $c^!R\mathcal Hom_A(M,N)$ is defined by the constructible
+Brown adjunction $c_!\dashv c^!$ of [sk-thm-existence]. Test only against
+$P\in D^b_{ctf}(C,A)$, or the established localizing category. The
+tensor–internal-Hom adjunction of [def-weil-derived-pullback-tensor-hom], the
+Brown adjunction and the earlier projection formula [sk-thm-sf-pf-proetale]
+give the chain
 
 $$
 \begin{aligned}
 \operatorname{Hom}_C\bigl(P,R\mathcal Hom_A(c^*M,c^!N)\bigr)
-&\cong\operatorname{Hom}_C\bigl(P\otimes_A^Lc^*M,c^!N\bigr)\\
 &\cong\operatorname{Hom}_Z\bigl(c_!\bigl(P\otimes_A^Lc^*M\bigr),N\bigr)\\
 &\cong\operatorname{Hom}_Z\bigl(c_!P\otimes_A^LM,N\bigr)\\
-&\cong\operatorname{Hom}_Z\bigl(c_!P,R\mathcal Hom_A(M,N)\bigr)\\
-&\cong\operatorname{Hom}_C\bigl(P,c^!R\mathcal Hom_A(M,N)\bigr),
+&\cong\operatorname{Hom}_C\bigl(P,c^!R\mathcal Hom_A(M,N)\bigr).
 \end{aligned}
 $$
 
-in which the third arrow is the projection formula of
-[prop-functor-package] for the admissible $c$, applied to the
-first tensor factor, and the remaining arrows are the two adjunctions.
-Every arrow is natural in $P$, so the Yoneda lemma identifies the two
-representable functors of $P$ and produces the canonical comparison of
-the statement. Naturality in $M$ and $N$, and compatibility with
-shifts and distinguished triangles, are the corresponding properties of
-the adjunctions and of the projection formula.
+Every arrow is natural in $P$, so the Yoneda lemma gives an isomorphism, and
+it is the canonical comparison defined by evaluation and the counit.
+Naturality in $M$ and $N$, and compatibility with shifts and distinguished
+triangles, are the corresponding properties of the adjunctions and of the
+projection formula.

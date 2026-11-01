@@ -3,7 +3,7 @@ id = "lem-fix-operation-reduction"
 kind = "lemma"
 title = "Basic operations and coefficient reduction"
 order = 3521
-uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-adjoint-admissibility", "def-weil-site-perfect-complex", "lem-fix-compact-support-coefficient-change", "lem-weil-pbc-standard-quotients-perfect", "lemma-weil-pbc-perfect-projection-formula", "def-pe-derived-complete", "sk-prop-integral-criterion", "det-def-sfb-coefficient-comparisons", "sk-prop-scalar-six", "det-prop-scalar-six-compact-support"]
+uses = ["def-weil-derived-direct-image", "def-weil-derived-pullback-tensor-hom", "det-prop-scalar-six-exceptional", "def-weil-site-perfect-complex", "lem-fix-compact-support-coefficient-change", "lem-weil-pbc-standard-quotients-perfect", "lemma-weil-pbc-perfect-projection-formula", "def-pe-derived-complete", "sk-prop-integral-criterion", "det-def-sfb-coefficient-comparisons", "sk-prop-scalar-six", "det-prop-scalar-six-compact-support"]
 +++
 For the condensed integral categories $\Dbc(-,\mathcal O_E)$, whose objects
 are derived $\pi_E$-complete $\mathcal O_{E,X}$-complexes
@@ -19,9 +19,10 @@ domains. Between finite quotient rings, the elementary comparison
 proved here assumes that the first variable is
 site-perfect; this includes
 the coefficient dual of a perfect complex at a point.
-For admissible exceptional adjoints at the finite levels, use the
-coefficient comparisons required in that admissibility hypothesis; at
-$\mathcal O_E$ the comparison for $Rf^!$ is that of [sk-prop-scalar-six].
+For the exceptional inverse image, the comparison
+$(Rf^!K)_{\Lambda'}\cong Rf^!(K_{\Lambda'})$ along every finite-ring map
+$A\to B$, in particular $A_{E,n}\to A_{E,m}$, and along
+$\mathcal O_E\to A_{E,n}$, is that of [det-prop-scalar-six-exceptional].
 The same operations and comparisons commute with localization
 $\mathcal O_E\to E$ and with extension of scalars $E\to F\to\Qlb$ on the
 condensed categories ([det-def-sfb-coefficient-comparisons],

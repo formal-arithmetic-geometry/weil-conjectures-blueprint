@@ -47,7 +47,9 @@ c^!\cHom_A(P,Q)\simeq\cHom_A(c^*P,c^!Q),
 $$
 
 applied to $P=p_2^*K$ and $Q=p_1^!K$. To prove the exchange, we
-test against an object $M$ of $D(C_{\mathrm{pro}\acute{e}t},A)$ and apply
+test against an object $M$ of $D^b_{\mathrm{ctf}}(C,A)$ (or of the established
+localizing category $\Loc(D^b_{\mathrm{ctf}}(C,A))$), not an arbitrary ambient
+object, and apply
 $c_!\dashv c^!$, the projection formula for $c_!$, and the tensor–Hom
 adjunction, in that order.
 
@@ -63,3 +65,21 @@ c^!P_X\xrightarrow{c^!e_K}c^!R\Delta_{X*}\omega_X
 $$
 
 The final isomorphism comes from the composition of exceptional inverse images.
+
+*General coefficients.* The *General form* asserts that $\alpha$, $\beta$ and
+$\kappa$ are isomorphisms for every admissible $\Lambda$; the argument above is
+at finite coefficients. First, these specified maps are compatible with change
+of coefficients: $\alpha$ is defined using $\mathrm{Ku}_!$ and the exceptional
+counits, $\beta$ using evaluation and symmetry, and $\kappa$ is their specified
+composite, so the canonical six-operation coefficient comparisons, including
+those for the exceptional counits, evaluation and the dualizing object
+([lem-fix-operation-reduction]), identify each of them after change of
+coefficients with the corresponding map for the new ring. For
+$\Lambda=\mathcal O_E$, source and target are constructible and derived
+complete; reduction modulo $\pi_E$ identifies each map with its
+finite-coefficient counterpart, which is invertible, so derived Nakayama
+applied to its cone proves invertibility. For $\Lambda=E$, use integral models
+and exactness in each variable, contravariantly where appropriate. For
+$\Lambda=\Qlb$, descend the finitely many inputs to one common finite $E$.
+Equality modulo $\pi_E$ alone does not identify morphisms; the argument uses
+that the maps are the specified compatible ones.
