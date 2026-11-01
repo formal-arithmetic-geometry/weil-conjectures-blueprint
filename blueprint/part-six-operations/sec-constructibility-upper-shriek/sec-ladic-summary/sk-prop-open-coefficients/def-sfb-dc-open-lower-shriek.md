@@ -2,6 +2,7 @@
 id = "def-sfb-dc-open-lower-shriek"
 kind = "definition"
 title = "$j_!$ on $D_{\\mathrm{cons}}$"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleOpenImmersionLowerShriek"]
 order = 2736
 uses = ["lem-sfb-dc-open-lower-shriek-preserves", "det-def-sfb-module-lower-shriek"]
 +++

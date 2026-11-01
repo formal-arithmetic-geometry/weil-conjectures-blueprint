@@ -2,6 +2,7 @@
 id = "det-def-sfb-base-change-morphism-comparison"
 kind = "definition"
 title = "The pullback comparison of a commutative square"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructiblePullbackSquareComparison"]
 order = 2731
 uses = ["def-sfb-dc-upper-star", "def-sfb-dc-upper-star-comp", "det-def-sfb-dc-setting"]
 +++

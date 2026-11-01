@@ -2,6 +2,7 @@
 id = "def-sfb-dc-upper-star"
 kind = "definition"
 title = "$Lf^*$ on $D_{\\mathrm{cons}}$"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleUpperStar"]
 order = 2729
 uses = ["lem-sfb-dc-upper-star-preserves", "det-def-sfb-dc-setting", "det-def-sfb-module-derived-pushpull"]
 +++

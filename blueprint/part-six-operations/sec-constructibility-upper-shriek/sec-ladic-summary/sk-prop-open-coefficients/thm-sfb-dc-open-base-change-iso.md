@@ -2,6 +2,7 @@
 id = "thm-sfb-dc-open-base-change-iso"
 kind = "theorem"
 title = "Base change for extension by zero"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekBaseChange'"]
 order = 2741
 uses = ["def-sfb-dc-open-base-change-morphism"]
 +++

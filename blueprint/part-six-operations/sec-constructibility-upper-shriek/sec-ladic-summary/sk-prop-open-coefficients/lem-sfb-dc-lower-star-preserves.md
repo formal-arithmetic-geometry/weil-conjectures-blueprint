@@ -2,6 +2,7 @@
 id = "lem-sfb-dc-lower-star-preserves"
 kind = "lemma"
 title = "$Rf_*$ preserves bounded constructible complexes ($\\ell$-adic $\\Lambda$)"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_rightDerivedLowerStar_obj"]
 order = 2725
 uses = ["det-def-sfb-bounded-constructible", "det-def-sfb-condensed-ring", "det-def-sfb-dc-setting", "det-def-sfb-module-derived-pushpull", "det-def-sfb-qlbar-condensed"]
 +++

@@ -2,6 +2,7 @@
 id = "def-kun-derived-tensor"
 kind = "definition"
 title = "Derived tensor product of etale sheaves"
+lean = ["AlgebraicGeometry.Etale.derivedTensor"]
 order = 2697
 uses = ["def-kun-constant-sheaf", "def-weil-pbc-etale-site"]
 +++
