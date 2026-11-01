@@ -10,10 +10,11 @@ Fix a scheme $Y$, a commutative ring $A$, and complexes $K_1,K_2$ of
 $A_Y$-modules on the small pro-etale site
 [def-weil-pbc-proetale-site] $Y_{\mathrm{proet}}$. Let $P\to K_1$
 and $P'\to K_1$ be quasi-isomorphisms of complexes of $A_Y$-modules whose
-sources are K-flat [def-weil-derived-tensor]. Then the induced map
+sources are K-flat [def-weil-derived-tensor], and let $u:P\to P'$ be any
+morphism of complexes over $K_1$. Then the induced map
 
 $$
- P\otimes_AK_2\longrightarrow P'\otimes_AK_2
+ u\otimes\operatorname{id}:P\otimes_AK_2\longrightarrow P'\otimes_AK_2
 $$
 
 is a quasi-isomorphism. Consequently the object $K_1\otimes_A^LK_2$ of

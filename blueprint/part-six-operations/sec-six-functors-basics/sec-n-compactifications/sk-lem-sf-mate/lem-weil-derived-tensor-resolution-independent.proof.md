@@ -18,12 +18,16 @@ $A_Y$-modules on the small pro-etale site
 products, total complexes and truncations are formed termwise in the abelian
 category of sheaves of $A_Y$-modules, in which filtered colimits are exact,
 and K-flat resolutions exist by the functorial flat-resolution construction.
-Since $P$ and $P'$ are both K-flat resolutions of $K_1$, the identity of
-$K_1$ lifts to a morphism $P\to P'$ in the homotopy category of complexes
-(Tag [0G6M](https://stacks.math.columbia.edu/tag/0G6M)), and the resulting
-map $P\otimes_AK_2\to P'\otimes_AK_2$ is a quasi-isomorphism by the first
-part. This is the assertion recorded for modules in Definition 15.60.13 of
-the Stacks Project, Tag
-[064M](https://stacks.math.columbia.edu/tag/064M) (the category of K-flat
-resolutions of $K_1$ is cofiltered and Lemma 15.60.12 shows that the functor
-obtained is independent of the choice).
+A morphism $u:P\to P'$ over $K_1$ is a quasi-isomorphism between K-flat
+complexes (two out of three), so $u\otimes\operatorname{id}$ is a
+quasi-isomorphism by the first part. For the independence, the K-flat
+resolutions of $K_1$ form a cofiltered category (Stacks Project,
+Definition 15.60.13, Tag
+[064M](https://stacks.math.columbia.edu/tag/064M)): any two of them,
+$P$ and $P'$, are connected by a roof $P\leftarrow P''\rightarrow P'$ of
+K-flat resolutions over $K_1$, and two parallel morphisms of resolutions
+are equalized after composing with a further resolution. By the first part
+(Tag [064L](https://stacks.math.columbia.edu/tag/064L)) both legs of a roof
+become quasi-isomorphisms after $-\otimes_AK_2$, which gives an
+isomorphism $P\otimes_AK_2\cong P'\otimes_AK_2$ in $D(Y_{\mathrm{proet}},A)$,
+independent of the roof by cofilteredness.
