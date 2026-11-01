@@ -2,6 +2,7 @@
 id = "def-sf-pf"
 kind = "definition"
 title = "Coefficient dual, Verdier dual, and the projection formula"
+lean = ["AlgebraicGeometry.Etale.verdierDual"]
 order = 3175
 uses = ["def-exchange-projection", "def-sf-datum", "def-weil-derived-pullback-tensor-hom"]
 +++
