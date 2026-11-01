@@ -3,15 +3,15 @@ id = "def-weil-exceptional-inverse-image"
 kind = "definition"
 title = "Exceptional inverse image notation"
 order = 2792
-uses = ["def-compact-support-direct-image-detailed", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "sk-thm-existence", "det-def-sfb-dc-upper-shriek"]
+uses = ["def-compact-support-direct-image-detailed", "def-weil-ambient-exceptional-adjoint", "def-weil-exceptional-adjoint-admissibility", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-pbc-proetale-site", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "sk-thm-existence", "det-def-sfb-dc-upper-shriek", "det-def-sfb-dc-setting"]
 +++
 Fix a prime $\ell$, a finite extension $E/\Ql$ with valuation ring $\mathcal
 O_E$ and uniformizer $\pi_E$, and an integer $n\in\mathbf Z_{\geq1}$, with
-$A=A_{E,n}=\mathcal O_E/\pi_E^n$. Let $S$ be a scheme on which $\ell$ is
-invertible, let $X,Y$ be finite-type
-[def-weil-scheme-morphism-properties] $S$-schemes, and let $f:X\to Y$ be a
-separated finite-type $S$-morphism; in every use $S=\Spec k$
-with $k$ a field, so that $X$ and $Y$ are Noetherian. Let
+$A=A_{E,n}=\mathcal O_E/\pi_E^n$. Let $k$ be a finite or algebraically closed
+field of characteristic $p\neq\ell$, let $X,Y$ be separated finite-type
+[def-weil-scheme-morphism-properties] $k$-schemes, and let $f:X\to Y$ be a
+$k$-morphism; this is the domain of the Brown construction cited below
+([det-def-sfb-dc-setting]), and $X$ and $Y$ are Noetherian. Let
 $f^{\times}:D(Y_{\mathrm{et}},A)\to D(X_{\mathrm{et}},A)$ be the
 right adjoint of the etale compact-support functor
 $Rf^{\mathrm{et}}_!=Rp_{\mathrm{et},*}j^{\mathrm{et}}_!$ attached to a
