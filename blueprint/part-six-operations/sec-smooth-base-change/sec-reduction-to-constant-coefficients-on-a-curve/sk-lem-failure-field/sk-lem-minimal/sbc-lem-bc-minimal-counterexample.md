@@ -2,6 +2,7 @@
 id = "sbc-lem-bc-minimal-counterexample"
 kind = "lemma"
 title = "Minimal counterexamples occur over a point"
+lean = ["AlgebraicGeometry.exists_spec_field_of_isQcqsLocalProperty"]
 order = 2184
 uses = ["def-weil-pbc-scheme-conventions"]
 +++
