@@ -8,7 +8,9 @@ uses = ["def-sbc-smooth-morphisms", "def-weil-pbc-proetale-modules", "def-weil-p
 +++
 In the square of
 [sbc-thm-smooth-base-change], assume $f$ smooth, $g$ quasi-compact
-and quasi-separated, and all schemes noetherian. For
+and quasi-separated, $\ell$ invertible on $S$, and all schemes noetherian;
+$\Lambda$ is $\ell$-adic, so that the finite-level reductions $K_n$ are
+$\ell$-power torsion, as the cited theorem requires. For
 $K\in\Dbc(T_{\Proet},\Lambda)$ (constructed over the
 pro-etale site of
 [def-weil-pbc-proetale-modules]) whose finite-level reductions
