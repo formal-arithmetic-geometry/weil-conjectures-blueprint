@@ -2,6 +2,7 @@
 id = "def-amb-finite-locally-free-module"
 kind = "definition"
 title = "Locally free modules of constant finite rank"
+lean = ["SheafOfModules.IsFiniteLocallyFreeOfRank"]
 order = 3263
 uses = ["pqf-def-coherent"]
 +++

@@ -2,6 +2,7 @@
 id = "def-kun-projective"
 kind = "definition"
 title = "Projective morphisms and projective schemes"
+lean = ["AlgebraicGeometry.IsHProjective"]
 order = 3097
 uses = ["def-weil-pbc-scheme-conventions"]
 +++

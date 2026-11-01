@@ -2,6 +2,7 @@
 id = "def-kun-projection-formula-map"
 kind = "definition"
 title = "The projection-formula morphism"
+lean = ["AlgebraicGeometry.Etale.rightDerivedLowerStarProjectionMap"]
 order = 3118
 uses = ["def-kun-derived-tensor", "def-weil-pbc-inverse-image", "lem-kun-inverse-image-monoidal"]
 +++

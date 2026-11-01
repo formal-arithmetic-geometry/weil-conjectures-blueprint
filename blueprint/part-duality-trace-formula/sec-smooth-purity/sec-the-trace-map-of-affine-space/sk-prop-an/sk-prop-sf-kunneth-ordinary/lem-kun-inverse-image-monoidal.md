@@ -2,6 +2,7 @@
 id = "lem-kun-inverse-image-monoidal"
 kind = "lemma"
 title = "Monoidality of the derived inverse image"
+lean = ["AlgebraicGeometry.Etale.leftDerivedUpperStarTensorNatIso"]
 order = 3117
 uses = ["def-kun-derived-tensor", "def-weil-pbc-inverse-image"]
 +++

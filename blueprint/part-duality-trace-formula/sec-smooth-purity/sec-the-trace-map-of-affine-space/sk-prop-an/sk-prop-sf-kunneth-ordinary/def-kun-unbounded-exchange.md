@@ -2,6 +2,7 @@
 id = "def-kun-unbounded-exchange"
 kind = "definition"
 title = "Unbounded derived exchange morphism"
+lean = ["AlgebraicGeometry.Etale.exactDerivedBaseChangeMap"]
 order = 3062
 uses = ["def-weil-pbc-cartesian-square", "def-weil-pbc-derived-exchange", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++

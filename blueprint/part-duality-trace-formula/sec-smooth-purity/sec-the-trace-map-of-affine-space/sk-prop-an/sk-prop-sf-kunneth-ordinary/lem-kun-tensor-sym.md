@@ -2,6 +2,7 @@
 id = "lem-kun-tensor-sym"
 kind = "lemma"
 title = "Symmetry of the derived tensor product"
+lean = ["AlgebraicGeometry.Etale.derivedTensorSymmetry"]
 order = 3100
 uses = ["def-kun-derived-tensor", "def-weil-pbc-derived-categories"]
 +++

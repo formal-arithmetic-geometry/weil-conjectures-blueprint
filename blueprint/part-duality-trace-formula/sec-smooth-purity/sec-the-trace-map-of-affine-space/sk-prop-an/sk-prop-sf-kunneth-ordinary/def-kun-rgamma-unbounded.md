@@ -2,6 +2,7 @@
 id = "def-kun-rgamma-unbounded"
 kind = "definition"
 title = "Unbounded derived global sections"
+lean = ["AlgebraicGeometry.Etale.rightDerivedGlobalSections"]
 order = 3059
 uses = ["def-weil-pbc-etale-cohomology", "def-sp-kinjective-bridge", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++
