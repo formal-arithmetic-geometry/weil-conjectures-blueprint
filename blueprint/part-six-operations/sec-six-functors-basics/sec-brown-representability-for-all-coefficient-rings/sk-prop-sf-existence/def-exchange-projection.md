@@ -60,8 +60,26 @@ $$
 is represented by $\operatorname{Ex}_*$ for $\bar f$, followed by the
 canonical identification $L\bar g'^*j_!\cong j'_!Lg'^*$, where $\bar f':\bar
 X'\to Y'$ and $\bar g':\bar X'\to\bar X$ are the base changes of $\bar f$,
-and $j':X'\hookrightarrow\bar X'$ is the base change of $j$; this map is
-independent of the compactification by [prop-compactification-coherence-detailed].
+and $j':X'\hookrightarrow\bar X'$ is the base change of $j$. This map is
+independent of the compactification. The functors $R\bar f_*j_!$ of two
+compactifications are compared by [prop-compactification-coherence-detailed];
+it remains to show that these comparisons commute with $\operatorname{Ex}_!$,
+and this is proved directly with the coefficient ring $\Lambda$. For a
+refinement $h:\bar X_2\to\bar X_1$ with $j_1=h\circ j_2$, the refinement
+morphism
+
+$$
+ e_h:j_{1!}K\longrightarrow Rh_*j_{2!}K
+$$
+
+is uniquely characterized by restricting to the identity on the common open $X$,
+by the adjunction $j_{1!}\dashv j_1^*$. After base change along $g$, the
+pulled-back refinement morphism followed by exchange, and the refinement
+morphism of the pulled-back compactification, both restrict to the identity on
+$X'$, so they are equal by the adjunction $j'_{1!}\dashv j'^*_1$. Applying the
+remaining proper direct image $R\bar f'_{1*}$ gives the compatibility of the
+two maps $\operatorname{Ex}_!$; since any two compactifications are dominated by
+a third, $\operatorname{Ex}_!$ does not depend on the choice.
 
 For $K\in D^b_c(X,\Lambda)$ and $L\in D^b_{ctf}(Y,\Lambda)$, the projection
 transformation is
