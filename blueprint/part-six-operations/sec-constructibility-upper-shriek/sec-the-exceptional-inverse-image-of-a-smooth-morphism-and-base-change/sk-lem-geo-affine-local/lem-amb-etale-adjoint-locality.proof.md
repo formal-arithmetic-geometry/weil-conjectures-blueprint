@@ -18,7 +18,8 @@ termwise to ordinary derived categories.
 
 For any complex $M$ on $U$, use the ambient adjunction
 of [thm-amb-etale-exceptional-adjoint] and the composition
-of compact supports in [lem-amb-etale-compact-comparisons]:
+of compact supports in [lem-amb-etale-compact-comparisons], which holds on
+the full unbounded derived categories because $A$ is torsion:
 
 $$
 \begin{split}

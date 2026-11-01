@@ -6,7 +6,10 @@ lean = ["AlgebraicGeometry.Etale.nonempty_iso_rightDerivedUpperShriek_comp_leftD
 order = 2622
 uses = ["def-amb-etale-compact-support", "def-nagata-compactifiable", "def-weil-pbc-derived-categories", "def-weil-scheme-morphism-properties", "lem-amb-etale-compact-comparisons", "thm-amb-etale-exceptional-adjoint"]
 +++
-For a separated etale morphism $u:U\to X$ of finite type,
+Let $A$ be a torsion commutative ring; finite commutative rings suffice for
+the applications, and integral and rational coefficients are reached from the
+finite étale result by the constructible pro-étale coefficient comparisons, not
+from this lemma. For a separated etale morphism $u:U\to X$ of finite type,
 $u_!$ is exact and is left adjoint to $u^*$ on the whole
 ordinary derived categories. If $f$ and $fu$ are
 compactifiable, there is a canonical isomorphism

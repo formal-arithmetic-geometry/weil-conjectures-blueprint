@@ -4,10 +4,12 @@ kind = "theorem"
 title = "Base change for a proper morphism, against an open immersion"
 order = 2585
 tags = ["latex:proposition"]
-uses = ["def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-pbc-derived-categories", "lem-compact-support-direct-image-triangulated", "lem-exc-closed-support-triangle", "lem-exc-open-fully-faithful", "prop-exc-ambient-dual-base-change", "thm-sf-ambient-adjoint-class"]
+uses = ["def-sf-fullcd-used-class", "def-weil-ambient-exceptional-adjoint", "def-weil-pbc-derived-categories", "lem-compact-support-direct-image-triangulated", "thm-sf-ambient-adjoint-class", "sk-thm-existence"]
 +++
-Let $f:X\to Y$ be proper, carrying the ambient exceptional right adjoint
-datum of [def-weil-ambient-exceptional-adjoint], let
+Let $f:X\to Y$ be proper, with $Rf^{\times}$ the right adjoint of $Rf_!$ on
+$\Loc(\Dctf)$ of [sk-thm-existence] (3), or the ambient exceptional right
+adjoint when $f$ and its restriction $f'$ below carry the datum of
+[def-weil-ambient-exceptional-adjoint], let
 $g:Y'\hookrightarrow Y$ be an open immersion with closed complement
 $i:Z\hookrightarrow Y$, and form the Cartesian squares with
 $X'=f^{-1}(Y')$, $g':X'\hookrightarrow X$, $f'=f|_{X'}$ and

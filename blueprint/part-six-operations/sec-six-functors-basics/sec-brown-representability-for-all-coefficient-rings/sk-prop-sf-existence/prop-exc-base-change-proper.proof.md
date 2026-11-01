@@ -2,41 +2,26 @@
 kind  = "proof"
 of    = "prop-exc-base-change-proper"
 +++
-Step 1: the target triangle. The closed-support triangle of
-[lem-exc-closed-support-triangle] for the pair $(i,g)$ on $Y$ is
+The open-restriction argument; it needs neither the datum for $f_Z$ nor the
+ambient localization triangle. Since $g$ and $g'$ are open immersions,
+compact-support composition for $fg'=gf'$ gives
 
 $$
-i_*Ri^!K\longrightarrow K\longrightarrow Rg_*Lg^*K\xrightarrow{+1}.
+Rf_!\,g'_!\simeq g_!\,Rf'_!.
 $$
 
-Step 2: applying the exact right adjoint. The compact-support direct
-image is exact by [lem-compact-support-direct-image-triangulated]; a right adjoint of an exact functor
-is exact, so $Rf^{\times}$ carries the triangle into
+The functors $g_!$ and $g'_!$ are left adjoint to $g^*$ and $g'^*$, and
+$Rf_!$, $Rf'_!$ are left adjoint to $Rf^{\times}$, $Rf'^{\times}$ on the
+established constructible or localizing categories ([sk-thm-existence] (3)),
+or on the ambient categories when $f$ and $f'$ carry the datum of
+[def-weil-ambient-exceptional-adjoint]. Taking right adjoints of the displayed
+isomorphism yields
 
 $$
-Rf^{\times}i_*Ri^!K\longrightarrow Rf^{\times}K
-\longrightarrow Rf^{\times}Rg_*Lg^*K\xrightarrow{+1}.
+g'^*\,Rf^{\times}\simeq Rf'^{\times}\,g^*.
 $$
 
-Step 3: dual base change in the two squares. The dual base-change
-isomorphism [prop-exc-ambient-dual-base-change], applied to the
-Cartesian squares of $i$ and of $g$ along $f$, identifies the outer
-terms with
-
-$$
-i'_*Rf^{\times}_{Z}Ri^!K,
-\qquad
-Rg'_*Rf'^{\times}Lg^*K,
-$$
-
-where $f_Z:f^{-1}(Z)\to Z$ is the restriction of $f$.
-Step 4: restriction to the open. Apply $Lg'^*$ to the resulting
-triangle. By [lem-exc-open-fully-faithful] the first term is killed
-($Lg'^*i'_*=0$, the images of $g'$ and $i'$ being complementary)
-and the last term becomes $Rf'^{\times}Lg^*K$
-($Lg'^*Rg'_*\cong\operatorname{id}$). A distinguished triangle whose
-first term vanishes exhibits its second-to-third map as an isomorphism;
-that map is $Lg'^*Rf^{\times}K\to Rf'^{\times}Lg^*K$, the pullback of the
-restriction map of the triangle, which is the base-change comparison
-$\beta$ (its adjoint under $Rf'_!\dashv Rf'^{\times}$ is the composite
-with the counit). Hence $\beta$ is an isomorphism.
+Its transpose under $Rf'_!\dashv Rf'^{\times}$ is the composite of the
+compact-support exchange with the counit of $Rf_!\dashv Rf^{\times}$, which is
+the transpose of the canonical comparison $\beta$; hence this isomorphism is
+$\beta$.
