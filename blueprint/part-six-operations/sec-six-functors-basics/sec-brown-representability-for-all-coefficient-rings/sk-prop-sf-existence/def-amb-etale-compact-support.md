@@ -2,6 +2,7 @@
 id = "def-amb-etale-compact-support"
 kind = "definition"
 title = "Compact supports on the ordinary etale category"
+lean = ["AlgebraicGeometry.Etale.rightDerivedLowerShriekOfCompactification"]
 order = 2563
 uses = ["def-weil-compactifications-refinements", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-extension-by-zero"]
 +++
