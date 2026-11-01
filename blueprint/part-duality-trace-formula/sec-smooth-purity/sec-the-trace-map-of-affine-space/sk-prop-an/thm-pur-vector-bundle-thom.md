@@ -17,7 +17,12 @@ $$
 \operatorname{tr}_\pi:R\pi_!\Lambda_E(r)[2r]\longrightarrow\Lambda_B.
 $$
 
-It differs from the integration $t_\pi$ of [def-amb-vector-integration],
-which is normalized by the projective-line trace, by a sign:
+The integration $t_\pi$ of [def-amb-vector-integration] is defined at the
+finite coefficient rings. For $\Lambda=\mathcal O_E$ define
+$t_\pi:R\pi_!\mathcal O_{E,E}(r)[2r]\to\mathcal O_{E,B}$ as the limit of the
+compatible finite maps $t_\pi$ at $A_{E,n}$, and for $\Lambda=E,\Qlb$ obtain
+it by scalar extension; since the finite maps are normalized by the
+projective-line trace, so are these. With this definition, for every
+admissible $\Lambda$, $\operatorname{tr}_\pi$ differs from $t_\pi$ by a sign:
 $\operatorname{tr}_\pi=(-1)^rt_\pi$. For $r=1$, $\operatorname{tr}_\pi$ is
 the rank-one trace of [thm-pur-rank-one-thom], so that one is $-t_\pi$.

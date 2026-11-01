@@ -8,7 +8,10 @@ tags = ["latex:proposition"]
 uses = ["cor-pur-vector-bundle-purity", "def-pur-co-smoothness", "def-pur-conventions", "def-pur-dnc-section-family", "def-weil-derived-tensor", "lem-pur-concentrated-complex-shift", "lem-pur-dnc-section-geometry", "prop-pur-a1-invariance", "thm-pur-cohomological-smoothness"]
 +++
 In the purity conventions of [def-pur-conventions], in the situation of
-[def-pur-dnc-section-family] with family object $F$, let
+[def-pur-dnc-section-family] with family object $F$, assume that $g$ has
+constant relative dimension $d$ near the section $s$ (smoothness alone does
+not supply a single $d$; in general the statements below hold componentwise
+on $B$, with $d$ the locally constant rank of the normal bundle of $s$), let
 $a:\mathbf A^1_B\to B$ be the projection and let
 $i_1:B\to\mathbf A^1_B$ be the section $t=1$.
 

@@ -5,9 +5,11 @@ title = "Supported sections and flasque objects"
 order = 2929
 uses = ["def-pur-conventions", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
-Let $s:Z\hookrightarrow X$ be a
+Let $X$ be a separated scheme of finite type over $k$, as in the standing
+conventions, let $s:Z\hookrightarrow X$ be a
 closed immersion, and
-let $j:U\hookrightarrow X$ be its open complement. Work with
+let $j:U\hookrightarrow X$ be its open complement; since $X$ is Noetherian,
+$j$ is quasi-compact. Work with
 $\Lambda$-module sheaves on the
 small pro-etale sites in the
 finite coefficient conventions.

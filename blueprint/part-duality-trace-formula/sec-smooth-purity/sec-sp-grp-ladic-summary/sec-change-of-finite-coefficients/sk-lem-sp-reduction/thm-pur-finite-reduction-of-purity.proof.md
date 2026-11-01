@@ -2,21 +2,23 @@
 kind  = "proof"
 of    = "thm-pur-finite-reduction-of-purity"
 +++
-Step 1: the purity map is determined fibrewise, so the comparison may be
-made on the geometric fibres. The value of the smooth purity map
-[def-pur-smooth-purity-map] over a geometric point $\bar y\to Y$
-is prescribed by the purity of the geometric fibre $X_{\bar y}$, which
-is the affine-space case [cor-pur-affine-space-zero-section-purity]
-together with the rank-one computation
-[thm-pur-affine-line-orientation]. Two natural transformations
-between the same pair of exact functors of $K$ that agree on every
-geometric fibre agree: the strict henselizations of $Y$ at its
-geometric points are pro-etale over $Y$ and jointly surjective, hence
-form a pro-etale covering family, and isomorphy of a morphism of
-complexes of pro-etale sheaves is local for covering families, clause
-(1) of [lem-cbc-proetale-stalk-conservative]; it is
-therefore enough to compare the two composites of the square fibrewise,
-which the compatibilities below do.
+Step 1: reduction to the unit object. Agreement on geometric fibres does
+not by itself give equality of morphisms (the Kummer class of $t$ on
+$\mathbf G_{m,\bar k}$ is a nonzero map $A_X\to A_X[1]$ that vanishes on
+every stalk), so the comparison is made through the unit object. By the
+tensor formula, $\gamma_{f,K}$ is $\gamma_{f,A_Y}$ tensored with
+$Lf^*K$ ([def-pur-smooth-purity-map], [pur9-cs-def-phi]), and the
+reduction compatibilities of Step 2 are compatible with this tensor
+decomposition. It therefore suffices to compare the two composites of the
+square for $K=A_Y$, using the independently established unit-object
+computation [thm-pur-diagonal-dualizing-object]. There both composites are
+maps $A_X(d)[2d]\to Rf^!A_{E,m}$, that is, degree-zero sections of the
+locally constant rank-one sheaf $\mathcal H^{-2d}(Rf^!A_{E,m})(-d)$. Such
+sections are determined by their stalks, and on stalks the two composites
+agree by the fibrewise description of the purity map: the affine-space case
+[cor-pur-affine-space-zero-section-purity] together with the rank-one
+computation [thm-pur-affine-line-orientation], whose reductions are
+treated below. The identity then extends to every $K$ by the tensor formula.
 Step 2: the reduction compatibilities of the operations. All these
 constructions are built from the operations of the six-operations
 package, whose finite-reduction compatibilities
