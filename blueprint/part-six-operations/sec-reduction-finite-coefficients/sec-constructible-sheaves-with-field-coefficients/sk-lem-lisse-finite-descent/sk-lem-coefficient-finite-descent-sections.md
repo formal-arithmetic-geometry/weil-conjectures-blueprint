@@ -5,7 +5,7 @@ title = "Finitely many sections of $\\overline{\\mathbf Q}_{\\ell,X}$ lie in one
 order = 2266
 uses = ["sk-prop-sfb-qlbar-colimit-x", "det-prop-sfb-qlbar-colimit-x-invert-ell"]
 +++
-Let $X$ be a scheme and $V\in X_{\mathrm{proét}}$ quasi-compact.
+Let $X$ be a scheme and $V\in X_{\mathrm{proét}}$ quasi-compact and quasi-separated.
 
 1. For a filtered diagram of sheaves of sets (or abelian groups) $(\mathcal F_\alpha)$ on
    $X_{\mathrm{proét}}$, the natural map $\varinjlim_\alpha\mathcal F_\alpha(V)\to(\varinjlim_\alpha\mathcal F_\alpha)(V)$
