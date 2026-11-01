@@ -15,7 +15,14 @@ is an isomorphism by
 [lemma-weil-pbc-direct-image-filtered-colimit] (and the same argument
 with $f$ the structure morphism gives the statement for
 $\RGamma(X_{\Et},-)$).
-*Step 2 (complexes).* For $K_i\in D(X_{\Et},\kunZn)$ ([def-weil-pbc-derived-categories]) the
+*Step 2 (complexes).* Let $d=\kuncd(f)<\infty$. For every
+$K\in D(X_{\Et},\kunZn)$ and $n\in\mathbf Z$ the canonical map
+$\mathcal H^n(Rf_*K)\to\mathcal H^n(Rf_*\tau_{\geq n-d-1}K)$ is an
+isomorphism (Stacks Project, Derived Categories, Lemma 13.32.2), naturally
+in $K$, and $\tau_{\geq n-d-1}$ commutes with direct sums. As in
+[Stacks, Tag 0F11], it therefore suffices to treat complexes $K_i$ that are
+bounded below by a common bound. For such
+$K_i\in D(X_{\Et},\kunZn)$ ([def-weil-pbc-derived-categories]) the
 hypercohomology spectral sequences of
 [thm-sp-truncation-e2] for the $K_i$ and for
 $\bigoplus_iK_i$ have $E_2$-pages $R^pf_*\mathcal H^q(K_i)$
@@ -35,6 +42,6 @@ $$
 \qquad(n\in\mathbf Z),
 $$
 
-which is the direct-sum statement; the finite-dimensionality hypothesis
-$\kuncd(f)<\infty$ of [def-kun-cd] is not needed for the argument
-and is retained only to match the classical formulation.
+which is the direct-sum statement for uniformly bounded-below complexes,
+and by the reduction above for all complexes; the reduction uses the
+hypothesis $\kuncd(f)<\infty$ of [def-kun-cd] (for (2), $\kuncd(X)<\infty$).
