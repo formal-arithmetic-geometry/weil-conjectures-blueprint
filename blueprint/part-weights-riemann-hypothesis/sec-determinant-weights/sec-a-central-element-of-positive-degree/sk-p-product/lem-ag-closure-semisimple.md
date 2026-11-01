@@ -2,6 +2,7 @@
 id = "lem-ag-closure-semisimple"
 kind = "lemma"
 title = "A semisimple datum is semisimple for its closure and identity component"
+lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.isSemisimpleRepresentation_arithmeticMonodromy"]
 order = 4055
 uses = ["d-monodromy", "def-wf-semisimple-module", "def-wf-simple-module", "lem-wf-algebraic-component-cosets", "lem-wf-finite-index-restriction-semisimple", "lem-wf-stabilizer-density"]
 +++
