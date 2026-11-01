@@ -20,10 +20,11 @@ Now $\mathcal O^{sh}_{Y,\bar y}$ is a normal domain: it is a strict
 henselization of the local ring of the normal scheme $Y$ at $y$, and the
 strict henselization of an integrally closed local domain is an integrally closed domain (Stacks Project, More on
 Algebra, Lemma 15.46.6, Tag
-[06DI](https://stacks.math.columbia.edu/tag/06DI)). Its fraction field is a
-finite extension of $K$, so $K\otimes_{\mathcal O_{Y,y}}\mathcal
-O^{sh}_{Y,\bar y}$, the localization of that domain at the nonzero elements of
-$\mathcal O_{Y,y}$, is a domain as well. Hence $\operatorname{Spec}K\times_YY_{(\bar
+[06DI](https://stacks.math.columbia.edu/tag/06DI)). Since $\mathcal O_{Y,y}\to\mathcal O^{sh}_{Y,\bar y}$ is injective,
+$K\otimes_{\mathcal O_{Y,y}}\mathcal
+O^{sh}_{Y,\bar y}$ is the localization of the domain $\mathcal O^{sh}_{Y,\bar y}$
+at the image of the nonzero elements of $\mathcal O_{Y,y}$, which does not
+contain $0$; hence it is a domain as well. Hence $\operatorname{Spec}K\times_YY_{(\bar
 y)}$ is irreducible, and a locally constant function on an irreducible (hence connected) scheme
 with values in the discrete set $M$ is constant, by the description of the constant
 sheaf in [def-weil-pbc-etale-sheaves]; therefore $\underline
