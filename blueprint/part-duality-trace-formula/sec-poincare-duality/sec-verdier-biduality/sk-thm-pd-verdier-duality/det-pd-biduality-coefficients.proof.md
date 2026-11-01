@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of = "det-pd-biduality-coefficients"
-uses = ["det-pd-biduality-finite-algclosed", "det-ctf-finite-comparison-localizing", "lem-weil-pbc-derived-cohomology-continuity", "lem-weil-duality-pairing", "lemma-weil-pbc-geometric-stalk-conservative", "det-prop-scalar-six-exceptional", "det-prop-scalar-six-tensor-hom", "det-pe-derived-nakayama-first-reduction", "det-lem-integral-models-generators", "det-lem-coefficient-finite-descent-objects", "det-lem-coefficient-finite-descent-hom"]
+uses = ["det-pd-biduality-finite-algclosed", "det-pd-biduality-field-extension", "det-ctf-finite-comparison-localizing", "lem-weil-pbc-derived-cohomology-continuity", "lem-weil-duality-pairing", "lemma-weil-pbc-geometric-stalk-conservative", "det-prop-scalar-six-exceptional", "det-prop-scalar-six-tensor-hom", "det-pe-derived-nakayama-first-reduction", "det-lem-integral-models-generators", "det-lem-coefficient-finite-descent-objects", "det-lem-coefficient-finite-descent-hom"]
 +++
 *(i) Finite coefficients.* With finite coefficients the comparison functor
 $\nu_X^*$ identifies $\Dctf(X,A)$ with its classical étale counterpart,
@@ -12,13 +12,10 @@ adjoints $a_X^!$ and internal Hom, hence with $\mathbb D_X$, evaluation and
 $\delta$. Over an algebraically closed field the claim is therefore
 [det-pd-biduality-finite-algclosed]. Over a finite base field, let $X$ be of finite type over a finite field $k_0$
 and let $\bar X$ be its base change to an algebraic closure $\bar k_0$. The
-extension $\bar k_0/k_0$ is a filtered limit of finite étale extensions. As in
-the first comparison of the geometric generic restriction, continuity of
-finite-coefficient étale cohomology along this limit
-([lem-weil-pbc-derived-cohomology-continuity]) commutes direct images,
-exceptional restriction and internal Hom with the pullback to $\bar X$; the
-comparisons are formed from evaluation, so they carry $\delta_K$ to
-$\delta_{K|_{\bar X}}$ ([lem-weil-duality-pairing]). The latter is an
+extension $\bar k_0/k_0$ is separable algebraic, so the zero-dimensional
+companion of the geometric-generic-fibre argument,
+[det-pd-biduality-field-extension], shows that pullback to $\bar X$ carries
+$\delta_K$ to $\delta_{K|_{\bar X}}$. The latter is an
 isomorphism by [det-pd-biduality-finite-algclosed]. Pullback to $\bar X$ is
 conservative on constructible classical complexes, since every geometric point
 of $X$ factors through $\bar X$ ([lemma-weil-pbc-geometric-stalk-conservative]);
