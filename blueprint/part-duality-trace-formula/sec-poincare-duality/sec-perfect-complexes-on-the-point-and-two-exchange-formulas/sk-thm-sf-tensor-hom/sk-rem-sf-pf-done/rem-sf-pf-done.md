@@ -9,9 +9,9 @@ By [thm-sf-pf-finite], [prop-sf-pf-reduction],
 [thm-sf-pf-adic], [thm-sf-pf-field],
 [thm-sf-pf-proetale] and [prop-sf-pf-coherence], every obligation
 listed in the interface [fix-prop-projection-formula] is discharged, so that interface is an unconditional
-statement of this manuscript whose proof is the sequence above, and
-axiom (A3) of [def-sf-datum] is verified for the concrete
-compact-support direct image. The inputs consumed are the finite-level
+statement of this manuscript whose proof is the sequence above. Axiom (A3)
+of [def-sf-datum], which lives on the unbounded finite-coefficient étale
+domain, is instead the finite projection formula. The inputs consumed are the finite-level
 statement [lem-weil-finite-compact-projection-formula], the reduction
 and scalar-extension compatibilities of [lem-fix-operation-reduction],
 the site and compact-support comparisons, derived Nakayama and the integral

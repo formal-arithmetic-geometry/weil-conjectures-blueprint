@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.Etale.SixOperationsPackage", "AlgebraicGeometry.Etale
 uses = ["def-weil-pbc-scheme-conventions", "def-sbc-smooth-morphisms", "def-nagata-compactification", "def-nagata-compactifiable", "def-weil-pbc-derived-categories", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-direct-image", "def-amb-etale-compact-support", "thm-amb-etale-exceptional-adjoint", "def-constructible-constructible", "def-weil-finite-tor-amplitude", "def-exchange-projection"]
 +++
 *Coefficients.* Let $k$ be a field and let $\Lambda$ be a finite commutative
-ring equipped with a *Tate twist datum*: for every scheme $X$ on which the
+ring whose exponent is invertible in $k$, equipped with a *Tate twist datum*: for every scheme $X$ on which the
 exponent of $\Lambda$ is invertible and every $m\in\mathbf Z$, an object
 $\Lambda_X(m)$ of the derived category $D(X_{\Et},\Lambda)$ of sheaves of
 $\Lambda$-modules on the small étale site [def-weil-pbc-derived-categories],
@@ -76,7 +76,9 @@ $$
 \operatorname{PF}_{f,K,L}:Rf_!K\otimes^L_\Lambda L\longrightarrow
 Rf_!\bigl(K\otimes^L_\Lambda Lf^*L\bigr)
 $$
-of [def-exchange-projection] is an isomorphism.
+of [def-exchange-projection] is an isomorphism. This clause is on the
+unbounded finite-coefficient étale domain; there the projection formula is
+the finite one, [`hasProjectionFormula_of_finite`](https://github.com/formal-arithmetic-geometry/weil-conjectures/blob/b04b998e53abc72b9702488ed2540905b21d614c/WeilConjectures/SixFunctors/Etale/Derived/ProjectionFormula.lean#L287-L311), and not the bounded condensed one.
 1. **(A4)** *Compactifications and composition.* For any two
 compactifications $c,c'$ of $f$ there is an isomorphism
 $Rf_!^c\cong Rf_!^{c'}$; for every compactifiable $h:Y\to Z$ with $h\circ f$
