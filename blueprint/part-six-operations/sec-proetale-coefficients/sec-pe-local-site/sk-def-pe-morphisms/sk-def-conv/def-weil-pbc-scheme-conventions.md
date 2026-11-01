@@ -13,8 +13,11 @@ morphism $f$ is *separated* if its diagonal is a closed immersion, of *finite
 type* if it is quasi-compact and every affine open of $Y$ is covered by
 finitely many affine opens of $X$ whose coordinate rings are finitely
 generated over the coordinate ring of the corresponding affine open of $Y$,
-and of *finite presentation* if the same holds with finitely presented
-algebras. It is *surjective* if it is surjective on underlying topological
+*locally of finite presentation* if every affine open of $Y$ has preimage
+covered by affine opens of $X$ whose coordinate rings are finitely
+presented over the coordinate ring of the affine open of $Y$, and of
+*finite presentation* if it is locally of finite presentation,
+quasi-compact and quasi-separated ([Stacks, Tag 01TO]). It is *surjective* if it is surjective on underlying topological
 spaces, an *open immersion* if it identifies $X$ with an open subscheme of
 $Y$, and a *closed immersion* if it is affine and is induced locally by a
 surjective ring homomorphism. It is an *immersion* if it factors as a closed

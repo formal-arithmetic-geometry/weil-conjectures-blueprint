@@ -42,7 +42,10 @@ amplitude in $[a,b]$, so does $K$; and a direct summand of a complex with Tor
 amplitude in $[a,b]$ has Tor amplitude in $[a,b]$. Hence the complexes of
 finite Tor amplitude form a thick subcategory of $D(Y_{\mathrm{proét}},\Lambda)$,
 and $D^b_{ctf}(Y,\Lambda)$ is the intersection of this thick subcategory with
-$D^b_c(Y,\Lambda)$; it is a full triangulated subcategory.
+$D^b_c(Y,\Lambda)$; it is a full subcategory, and a full triangulated
+subcategory when $Y$ is topologically noetherian, the hypothesis under
+which [det-def-sfb-bounded-constructible] makes $D^b_c(Y,\Lambda)$
+triangulated.
 
 For $A_{E,n}$, finite Tor amplitude is an additional condition and does not
 follow from bounded constructibility. For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$ it is automatic,
