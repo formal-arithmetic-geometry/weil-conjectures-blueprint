@@ -2,6 +2,7 @@
 id = "lem-trf-finite-tor-amplitude-perfect"
 kind = "lemma"
 title = "Finite Tor amplitude and perfectness over the finite coefficient ring"
+lean = ["DerivedCategory.finiteTorAmplitude_iff_exists_free"]
 order = 3180
 uses = ["def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-weil-finite-coefficient-point", "def-weil-finite-tor-amplitude"]
 +++
