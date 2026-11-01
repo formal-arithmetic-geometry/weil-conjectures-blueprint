@@ -2,6 +2,7 @@
 id = "lem-ag-central-radical-quotient"
 kind = "lemma"
 title = "Central radical gives centre plus derived algebra"
+lean = ["LieAlgebra.center_sup_derivedSeries_eq_top"]
 order = 3922
 uses = ["def-wf-lie-radical-centre", "def-wf-semisimple-lie-algebra", "lem-ag-killing-nondegenerate"]
 +++
