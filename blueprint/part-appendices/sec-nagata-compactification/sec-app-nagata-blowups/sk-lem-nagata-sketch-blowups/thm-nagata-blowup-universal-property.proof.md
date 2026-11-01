@@ -3,9 +3,10 @@ kind  = "proof"
 of    = "thm-nagata-blowup-universal-property"
 uses = ["def-nagata-affine-blowup", "def-nagata-affine-blowup-chart-map", "def-nagata-affine-blowup-restriction-map", "def-nagata-affine-proj", "def-nagata-global-blowup-glue-data", "def-nagata-global-blowup-local-model", "def-nagata-homogeneous-localization-degree-zero", "def-nagata-rees-algebra", "def-nagata-rees-localization-map", "def-nagata-rees-piece", "lemma-nagata-chart-extended-ideal-principal", "lemma-nagata-global-blowup-overlap-basic", "lemma-nagata-localization-ideal-pow", "lemma-nagata-rees-degree-one-element", "lemma-nagata-rees-degree-zero", "lemma-nagata-rees-generators-cover-proj", "lemma-nagata-rees-piece-membership", "lemma-nagata-rees-piece-mul", "prop-nagata-affine-blowup-chart", "prop-nagata-rees-graded"]
 +++
-Existence is [thm-nagata-blowup-universal-property], and uniqueness
-among $X$-morphisms inducing the specified quotient is
-[thm-nagata-blowup-universal-property]. Together these are exactly the
+Existence is the paragraphs *Universal lift construction* and *The
+constructed lift lies over $X$* below, and uniqueness among $X$-morphisms
+inducing the specified quotient is the paragraph *Uniqueness of the
+universal lift* below. Together these are exactly the
 asserted final-object property.
 
 **Graded map induced by an invertible quotient.**
