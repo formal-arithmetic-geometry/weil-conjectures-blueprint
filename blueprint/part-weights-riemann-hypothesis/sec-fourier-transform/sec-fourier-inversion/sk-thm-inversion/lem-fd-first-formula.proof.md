@@ -3,7 +3,9 @@ kind  = "proof"
 of    = "lem-fd-first-formula"
 uses = ["lem-fd-character-integral", "lem-wft-as-unit-trivialization", "sk-prop-sf-open-closed-triangle", "det-thm-sfb-shriek-base-change", "thm-pur-vector-bundle-thom"]
 +++
-All sheaves are $E$-sheaves: $\mu_p\subset E$, so the exponential sheaves and
+All sheaves are $E$-sheaves: $\mu_p\subset E$, since the nontrivial
+character $\Psi$ takes values in $E^\times$ and its image is $\mu_p$ (the
+characteristic $p$ comes from [def-fd-kernel]), so the exponential sheaves and
 the kernel are lisse $E$-sheaves of rank one; the formulas with
 $\overline{\mathbf Q}_\ell$-coefficients follow by the extension of scalars
 $\overline{\mathbf Q}_{\ell,X}\otimes_{E_X}-$, which is exact and commutes with
