@@ -6,7 +6,8 @@ of = "det-tf-punctured-restriction-factorization"
 $R\Gamma(Z,-)\circ Rj_*=R\Gamma(Z-Y,-)$. Since $s\in Y$, the stalk
 of $M|_Y$ at $s$ is $M_s$. The stalk
 formula for an open direct image
-([Stacks, Tag 03Q7](https://stacks.math.columbia.edu/tag/03Q7)), with
+([Stacks, Tag 03Q7](https://stacks.math.columbia.edu/tag/03Q7)), whose
+hypotheses ($j$ quasi-compact and quasi-separated, $F\in D^+$) hold, with
 the commutation of cohomology with the limit of étale neighbourhoods,
 gives $M_s=R\Gamma(Z_{(s)}-Y,F)$, where $Z_{(s)}-Y$ is the inverse image
 of $Z-Y$ in $Z_{(s)}$. The strict localization $C_{(s)}$ maps to

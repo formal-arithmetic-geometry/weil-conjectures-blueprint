@@ -5,8 +5,10 @@ title = "Restriction to a punctured curve through the boundary stalk"
 order = 3632
 +++
 Let $Z$ be a scheme, $Y\subset Z$ a closed subscheme with open
-complement $j:Z-Y\hookrightarrow Z$, let $A$ be a ring, let $F$ be a
-complex of $A$-module sheaves on the étale site of $Z-Y$, and put
+complement $j:Z-Y\hookrightarrow Z$, assume $j$ quasi-compact and
+quasi-separated (e.g. $Z$ noetherian), let $A$ be a ring, let $F$ be a
+bounded-below complex of $A$-module sheaves on the étale site of $Z-Y$
+($F\in D^+$), and put
 $M=Rj_*F$. Let $C\subset Z$ be a closed curve with $C\cap Y=\{s\}$ for
 a closed point $s$, let $C_{(s)}$ and $Z_{(s)}$ be the strict
 localizations at a geometric point over $s$, and let
