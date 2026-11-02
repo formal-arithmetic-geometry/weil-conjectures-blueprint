@@ -2,6 +2,7 @@
 id = "def-pur-conventions"
 kind = "definition"
 title = "Purity coefficient conventions"
+lean = ["WeilConjectures.PurityFiniteSetting"]
 order = 2856
 uses = ["def-sf-setting", "lem-integral-ctf-equals-bc", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-bounded-constructible", "sk-def-sp-tate-twist", "det-def-sf-operations", "sk-thm-existence", "def-coefficient-twists-detailed", "def-compact-support-direct-image-detailed", "def-exchange-projection", "def-sbc-smooth-morphisms", "def-weil-derived-cohomology-sheaves", "def-weil-derived-pullback-tensor-hom", "def-weil-exceptional-inverse-image", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-frobenius-coefficient-twists", "def-weil-pbc-proetale-site", "def-weil-scheme-morphism-properties"]
 +++
