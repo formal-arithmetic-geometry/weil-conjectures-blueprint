@@ -12,9 +12,9 @@ $$
 Z_0\xrightarrow{\ j_0\ }\overline Z_0\xrightarrow{\ \bar g\ }Y_0
 $$
 
-with $j_0$ a quasi-compact open immersion and $\bar g$ finite; in
-particular $\overline Z_0$ is again a separated finite-type
-$k_0$-scheme. The factorization is defined over $k_0$, so it base
+with $j_0$ a quasi-compact open immersion and $\bar g$ finite, hence
+separated; as $Y_0$ is separated over $k_0$, $\overline Z_0$ is again a
+separated finite-type $k_0$-scheme. The factorization is defined over $k_0$, so it base
 changes to $k$ and is compatible with the geometric Frobenius
 automorphisms; all functors below therefore carry Weil structures. By
 the composition isomorphism and the properness law of

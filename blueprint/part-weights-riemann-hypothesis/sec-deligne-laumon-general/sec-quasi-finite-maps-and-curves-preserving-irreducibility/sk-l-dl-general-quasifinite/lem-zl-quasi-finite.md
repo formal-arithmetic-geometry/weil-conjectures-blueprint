@@ -7,7 +7,7 @@ lean = ["AlgebraicGeometry.isZero_higherLowerShriek_of_quasiFinite", "AlgebraicG
 uses = ["def-weil-complex-weights", "def-weil-punctual-weights", "def-weil-weil-sheaf-complex", "det-def-sfb-bounded-constructible", "prop-functor-package", "sk-def-sf-weil-complexes", "det-def-sfb-module-lower-shriek", "sk-lem-coefficient-heart", "sk-d-real-weights"]
 +++
 Let $g:Z_0\to Y_0$ be a separated, quasi-finite morphism of finite type
-of $k_0$-schemes, with $Y_0$ quasi-separated of finite type over $k_0$.
+of $k_0$-schemes, with $Y_0$ separated of finite type over $k_0$.
 Let $\mathcal F$ be a constructible $\Qlb$-Weil sheaf on $Z_0$, i.e. an
 object of $\Cons(Z,\Qlb)$ ([sk-lem-coefficient-heart]) with a Weil
 structure ([def-weil-weil-sheaf-complex]), and let $w\in\mathbf R$.
