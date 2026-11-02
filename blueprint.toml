@@ -2,17 +2,37 @@
 
 [project]
 name = "weil-conjectures"
-title = "The Weil conjectures"
+title = "Weil Conjectures"
 dir = "blueprint"
 
 [lean]
 modules = ["WeilConjectures"]
 
 [site]
-theme = "outline" # the style the website opens in
+theme = "outline"        # the style the website opens in
+assets = "site-assets"   # copied into the site as assets/
+logo = "assets/R1b-W-mirror-sigma-ink.svg"   # left of the title in the top bar
+logoInk = true           # drawn in the title's colour, so it follows the style and dark mode
 
+# The opening film: the title over a faded manuscript, flying into the top bar,
+# then a zoom through the pictures below into the graph.  See [site.intro] in
+# docs/cli.md of the blueprint tool.
 [site.intro]
-file = "intro.md"  # shown in the middle of the screen as the site opens, then the graph
+file = "intro.md"                        # the title
+background = "assets/galois-letter-1832.jpg"   # Galois to Chevalier, 1832 (public domain)
+hold = 0.5                               # seconds the title stays before the zoom
+step = 1                                 # seconds per step of the zoom
+
+[[site.intro.zoom]]
+nodes = ["Weil Conjecture"]
+
+[[site.intro.zoom]]
+nodes = [
+  { id = "pre", title = "Preliminaries" },
+  { id = "six", title = "Part I: Six Operations" },
+  { id = "weight", title = "Part II: Weight Theory" },
+]
+arrows = [["pre", "six"], ["six", "weight"], ["pre", "weight"]]
 
 [katex.macros]
 "\\Aaf" = "\\mathbf A"
