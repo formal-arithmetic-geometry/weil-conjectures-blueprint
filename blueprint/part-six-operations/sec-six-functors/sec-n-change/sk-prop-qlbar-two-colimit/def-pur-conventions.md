@@ -9,7 +9,13 @@ Fix the global finite-field datum
 $p,a,q,k_0,k$, where $q=p^a$, a prime $\ell\neq p$, a finite
 extension $E/\Ql$ contained in a fixed algebraic closure $\Qlb$, with
 valuation ring $\mathcal O_E$, a uniformizer $\pi_E$, and an
-integer $n\in\mathbf Z_{\geq1}$. Put $A=A_{E,n}=\mathcal O_E/\pi_E^n$.
+integer $n\in\mathbf Z_{\geq1}$. Let $A$ be an arbitrary finite commutative
+$\ell$-primary ring, regarded as a discrete condensed ring; the rings
+$A_{E,n}=\mathcal O_E/\pi_E^n$ are the distinguished family used for
+integral reduction, and the theory is not restricted to them. The geometric
+statements of the purity chapter are made over a base field $k$ that is
+finite or algebraically closed, of characteristic different from $\ell$;
+the finite-field datum is used only where Frobenius is needed.
 
 *Coefficients.* The coefficient rings are
 $\Lambda\in\{A,\mathcal O_E,E,\Qlb\}$, regarded as condensed rings as in
@@ -48,7 +54,17 @@ $\ell^NA=0$, and $\mathcal O_{E,Y}(1)$, $E_Y(1)$, $\Qlb_Y(1)$ as there. Use the
 terminology smooth of relative dimension $d\in\mathbf Z_{\geq0}$.
 
 *What is proved where.* For $\Lambda=A$ all statements and constructions
-of the purity chapter are made directly. For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$
+of the purity chapter are made directly, as follows for general $A$. Choose
+$R=\mathbf Z/\ell^N$ with $\ell^NA=0$. The geometric data (Kummer classes,
+diagonal classes, the projective-line decomposition and the normalized
+trace) are extended along $R\to A$ by derived scalar extension; with these
+data the projective-line adjunction and its triangle identities are verified
+directly for arbitrary $A$-coefficient inputs, by the torsion projection
+formula ([0GL5](https://stacks.math.columbia.edu/tag/0GL5)), which needs
+neither flatness nor finite projective dimension of $A$ over $R$; affine-space
+and smooth purity then follow by the chart argument. An input $K$ is never
+restricted to $R$: an $A$-perfect complex need not be $R$-perfect
+($\mathbf F_\ell$ over $\mathbf Z/\ell^2$). For $\Lambda\in\{\mathcal O_E,E,\Qlb\}$
 they are obtained in [sk-thm-purity-transport] and the nodes it cites. There
 the comparisons $\mathcal O_{E,Y}\cong\varprojlim_n(A_{E,n})_Y$,
 $E_Y\cong\mathcal O_{E,Y}[1/\ell]$ and $\Qlb_Y\cong\varinjlim_EE_Y$

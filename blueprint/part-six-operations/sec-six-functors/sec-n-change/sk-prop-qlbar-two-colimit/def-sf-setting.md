@@ -6,7 +6,7 @@ order = 2854
 uses = ["det-def-sfb-condensed-ring", "det-def-sfb-qlbar-condensed", "det-def-sfb-pulled-back-coefficients", "det-def-sfb-derived-categories", "def-sfb-constructible-module", "det-def-sfb-bounded-constructible", "def-weil-finite-tor-amplitude", "def-coefficient-twists-detailed", "thm-weil-pbc-site-comparison", "lem-sf-proetale-constructible-origin", "det-pe-finite-tor-comparison-noetherian", "det-prop-sfb-qlbar-colimit-x-integral-limit", "det-prop-sfb-qlbar-colimit-x-invert-ell", "def-sfb-qlbar-x-cocone", "det-prop-integral-criterion-reductions", "thm-sfb-extend-scalars-localization", "def-sfb-rationalization-equivalence", "thm-sfb-constructible-cocone-two-colimit", "det-lem-int-integral-heart-dualizable"]
 lean = ["AlgebraicGeometry.ProEtale.condensedRingObj", "AlgebraicGeometry.ProEtale.boundedConstructible", "DerivedCategory.finiteTorAmplitude", "AlgebraicGeometry.ProEtale.DerivedCategory.boundedConstructible", "AlgebraicGeometry.ProEtale.DerivedCategory.constructibleFiniteTor"]
 +++
-Fix the global finite-field datum $(p,a,q,k_0,k)$ with $k=\overline{\mathbf F}_q$, a prime $\ell\neq p$, a finite extension $E/\Ql$ inside $\Qlb$ with valuation ring
+Fix a base field $k$ that is finite or algebraically closed, a prime $\ell$ different from the characteristic of $k$, a finite extension $E/\Ql$ inside $\Qlb$ with valuation ring
 $\mathcal O_E$ and uniformizer $\pi_E$ ([det-def-sfb-condensed-ring]), an integer $n\ge1$, and put
 $A_{E,n}=\mathcal O_E/\pi_E^n$. The admissible coefficient rings are
 $\Lambda\in\{A,\mathcal O_E,E,\Qlb\}$, where $A$ is an arbitrary finite commutative
@@ -22,6 +22,12 @@ sheaves ([def-sfb-constructible-module], [det-def-sfb-bounded-constructible]), a
 $D^b_{ctf}(X,\Lambda)\subseteq D^b_c(X,\Lambda)$ of those of finite Tor amplitude over
 $\Lambda_X$ ([def-weil-finite-tor-amplitude]). These categories come with constructible
 intervals and the Tate twists of [def-coefficient-twists-detailed]. Morphisms are separated of finite type.
+
+*Finite-field datum.* The global finite-field datum $(p,a,q,k_0,k)$ with $k=\overline{\mathbf F}_q$ is
+introduced only where Frobenius is needed; the six operations and purity are stated in the geometric
+setting above. Statements over a finite field are deduced from $\bar k$ by conservative pullback only
+after the canonical separable-extension comparisons for exceptional restriction, internal Hom and
+evaluation, which precede any biduality theorem being descended.
 
 *Finite coefficients.* For $\Lambda=A$ the sheaf $A_X$ is the classical constant sheaf, and
 $\nu_X^*$ identifies the étale categories with the pro-étale ones: $D^b_c(X_{\mathrm{ét}},A)$,
