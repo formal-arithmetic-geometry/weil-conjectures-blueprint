@@ -2,6 +2,7 @@
 id = "def-pod-perfect-point-complex"
 kind = "definition"
 title = "Perfect point complex"
+lean = ["DerivedCategory.IsPerfect"]
 order = 3551
 uses = ["def-pod-conventions", "def-weil-finite-coefficient-point", "def-weil-geometric-hypotheses"]
 +++
