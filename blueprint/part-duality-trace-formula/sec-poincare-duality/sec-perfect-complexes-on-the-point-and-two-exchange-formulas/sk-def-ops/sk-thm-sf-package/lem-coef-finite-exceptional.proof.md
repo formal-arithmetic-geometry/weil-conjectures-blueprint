@@ -25,10 +25,12 @@ by derived global sections, gives the corresponding canonical
 isomorphism of derived mapping complexes. This supplies the enriched
 adjunction independently of taking degree-zero Hom groups.
 
-Apply the coherent duality comparisons
-[cor-coef-finite-verdier] to the two duals in this formula;
-coefficient tensor commutes with ordinary pullback. This constructs
-the stated coefficient isomorphism and its cocycle. To identify
+The stated coefficient isomorphism is the general exceptional
+coefficient comparison [det-prop-scalar-six-exceptional], whose
+canonical map is defined by the extended counit; its cocycle is the one
+proved there. The identification $Rf^!\simeq D_Xf^*D_Y$ of the first
+paragraph is a consequence of finite biduality and exchange, which are
+established independently; it is not used to construct the comparison. To identify
 its adjunction maps, transpose under the displayed bijections.
 Every arrow is either evaluation, a tensor associativity map, or
 an adjunction counit. The duality comparison preserves evaluation,

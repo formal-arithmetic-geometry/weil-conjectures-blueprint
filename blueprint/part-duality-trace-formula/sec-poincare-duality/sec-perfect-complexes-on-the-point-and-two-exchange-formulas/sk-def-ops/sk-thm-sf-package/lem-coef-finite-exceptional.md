@@ -3,7 +3,7 @@ id = "lem-coef-finite-exceptional"
 kind = "lemma"
 title = "Finite exceptional adjoints and coefficient change"
 order = 3534
-uses = ["cor-coef-finite-verdier", "fix-cor-verdier-exchange", "fix-lem-tensor-adjunction", "lem-fix-compact-support-coefficient-change", "thm-fix-general-biduality", "thm-sf-preservation-class"]
+uses = ["cor-coef-finite-verdier", "fix-cor-verdier-exchange", "fix-lem-tensor-adjunction", "lem-fix-compact-support-coefficient-change", "thm-fix-general-biduality", "thm-sf-preservation-class", "det-prop-scalar-six-exceptional"]
 +++
 For a separated finite-type $f:X\to Y$, on the finite-Tor
 constructible categories one has canonically
