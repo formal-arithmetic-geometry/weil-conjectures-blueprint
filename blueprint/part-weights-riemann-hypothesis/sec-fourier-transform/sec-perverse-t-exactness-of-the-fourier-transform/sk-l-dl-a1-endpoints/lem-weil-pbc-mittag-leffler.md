@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-mittag-leffler"
 kind = "lemma"
 title = "Mittag--Leffler vanishing"
+lean = ["CategoryTheory.finiteTower_mittagLeffler_vanishing"]
 order = 4204
 uses = ["sk-prop-pe-milnor", "det-pe-milnor-sequence"]
 +++
