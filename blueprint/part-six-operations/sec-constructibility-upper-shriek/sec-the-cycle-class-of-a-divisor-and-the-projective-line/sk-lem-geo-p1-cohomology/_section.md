@@ -2,6 +2,7 @@
 id = "sk-lem-geo-p1-cohomology"
 kind = "lemma"
 title = "Cohomology of the projective line and the trace"
+lean = ["AlgebraicGeometry.ProEtale.geoP1Cohomology"]
 order = 328
 tags = ["sketch"]
 +++

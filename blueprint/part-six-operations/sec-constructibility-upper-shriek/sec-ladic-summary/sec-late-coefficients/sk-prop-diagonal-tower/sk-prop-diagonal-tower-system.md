@@ -2,6 +2,7 @@
 id = "det-prop-diagonal-tower-system"
 kind = "lemma"
 title = "The torsion diagonal classes as one morphism of inverse systems"
+lean = ["AlgebraicGeometry.ProEtale.exists_diagonalTowerSystem"]
 order = 2749
 uses = ["lem-amb-cartier-kummer-map", "sk-lem-geo-cartier"]
 +++
