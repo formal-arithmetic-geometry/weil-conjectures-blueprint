@@ -16,9 +16,13 @@ integrations and fibre sums, as maps of towers.
 
 *Gluing.* For an open cover $X=U\cup V$ with the representing pairs on $U$,
 $V$, $U\cap V$, the restriction maps between them are determined by
-uniqueness of representing pairs; form the cone of
-$G_U\oplus G_V\to G_{U\cap V}$ (pushed forward by extension along the open
-immersions, i.e. the open-cover triangle for $M_\bullet$:
+uniqueness of representing pairs; form the fibre (the cone shifted by $[-1]$) of
+the difference map
+$Rj_{U,*}G_U\oplus Rj_{V,*}G_V\to Rj_{U\cap V,*}G_{U\cap V}$, whose components are the
+restriction units $G\to Rj_*j^*G$ followed by the identifications
+$G_U|_{U\cap V}\simeq G_{U\cap V}\simeq G_V|_{U\cap V}$ (pushed forward along the open
+immersions by $Rj_*$, the right adjoint of $j^*$, not by extension by zero; it is
+the dual of the open-cover triangle for $M_\bullet$:
 $j_{U\cap V,!}M\to j_{U,!}M\oplus j_{V,!}M\to M$). Applying
 $\operatorname{Hom}(Rf_{!,\bullet}(-),K_\bullet)$ to this triangle gives a long exact Hom
 sequence; the compatible local counits define an element of the fibre product
