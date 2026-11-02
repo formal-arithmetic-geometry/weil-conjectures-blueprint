@@ -2,6 +2,7 @@
 id = "det-proper-image-localizing-open"
 kind = "lemma"
 title = "Extension by zero on the localizing categories"
+lean = ["AlgebraicGeometry.ProEtale.openImmersionLowerShriek_localizing"]
 order = 3493
 uses = ["det-proper-image-localizing-principle", "lem-trf-open-ctf", "det-def-sfb-dc-restricted-functors"]
 +++
