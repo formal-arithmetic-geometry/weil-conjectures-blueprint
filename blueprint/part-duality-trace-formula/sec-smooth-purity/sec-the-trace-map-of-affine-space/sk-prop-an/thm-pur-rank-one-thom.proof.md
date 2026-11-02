@@ -29,17 +29,49 @@ H^2_0\bigl(\mathbf A^1_{\bar b},\Lambda(1)\bigr)
 \;\cong\;\Lambda,
 $$
 
-and all other supported cohomology vanishes, so the map on the
-cohomology sheaves is the
-def:coefficient-twists-canonical identification
+and all other supported cohomology vanishes. This supported calculation
+does not by itself identify $R\Gamma_c$; the compact-support identification
+is obtained on the projective line. Let
+$j:\mathbf A^1_{\bar b}\hookrightarrow\mathbf P^1_{\bar b}$, with complement
+the point $\infty$. Localization gives the triangle
 
 $$
-R\Gamma_c(\mathbf A^1_{\bar b},\Lambda(1)[2])
-\cong \Lambda_b\cdot(\text{the class of the origin})
-\cong\Lambda
+C:=R\Gamma_c(\mathbf A^1_{\bar b},\Lambda(1)[2])
+\longrightarrow R\Gamma(\mathbf P^1_{\bar b},\Lambda(1)[2])
+\longrightarrow \Lambda(1)[2]\longrightarrow,
 $$
 
-(the shift and twist being the ones of the boundary). Hence
+the second map being restriction to $\infty$. The projective-line
+decomposition given by the unit and $h=c_1(\mathcal O(1))$,
+
+$$
+R\Gamma(\mathbf P^1_{\bar b},\Lambda(1)[2])\simeq\Lambda(1)[2]\oplus\Lambda,
+$$
+
+precedes this theorem: it follows from the Kummer sequence, the degree on
+the Picard group and the cohomology of curves
+([03RQ](https://stacks.math.columbia.edu/tag/03RQ)), and uses neither
+smooth purity nor Poincar\'e duality. Restriction to $\infty$ is
+$(\mathrm{id},0)$, so $C\simeq\Lambda$ and
+$H^2_c(\mathbf A^1_{\bar b},\Lambda(1))\to H^2(\mathbf P^1_{\bar b},\Lambda(1))$
+is an isomorphism. The divisor morphism is identified by applying $j_!$
+to the supported class and mapping to ordinary cohomology on
+$\mathbf P^1_{\bar b}$: by naturality of the Cartier construction and
+$j_!\dashv j^*$ the composite is the global class of the divisor $0$.
+With the convention of [lem-pur-divisor-class], $\operatorname{cl}(0)=-c_0$,
+this global class is $-h$, a generator. Hence the map on cohomology sheaves
+is an isomorphism $\Lambda\cong R\Gamma_c(\mathbf A^1_{\bar b},\Lambda(1)[2])$,
+and for the trace $t_c$ normalized by $t(h)=1$,
+
+$$
+t_c\circ\tau_E=-\mathrm{id},\qquad \tau_E^{-1}=-t_c ;
+$$
+
+the sign convention of [lem-pur-divisor-class] is kept. This is the
+argument at a finite coefficient ring $\Lambda=A$; for integral
+coefficients use the canonical reduction comparison and derived Nakayama
+on the cone, completeness coming from the earlier constructibility
+results, and for $E,\Qlb$ rationalization and descent. Hence
 $\tau_E$ is an isomorphism at every geometric point; the cone is a
 bounded constructible complex with zero geometric stalks, so it is
 zero (the standard truncation argument of

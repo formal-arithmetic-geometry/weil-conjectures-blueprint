@@ -22,13 +22,15 @@ The full faithfulness of $i_*$, as in
 [def-weil-open-closed-recollement], shows that $b_{i,M}$
 is an isomorphism.
 
-All the finite-Tor domains used here are justified: the previously
-proved finite boundary exchange
-[cor-weil-boundary-duality-discharge] and finite biduality
-[thm-fix-general-biduality] identify
-$Ri_A^!M\cong D_Zi^*D_XM$, so it is finite-Tor constructible.
-The assertion on the $B$-side is the same finite theorem.
-This use of finite biduality introduces no integral-duality input.
+All the finite-Tor domains used here are justified without any
+duality input: by localization,
+$i_*Ri_A^!M\simeq\operatorname{fib}\bigl(M\to Rj_*j^*M\bigr)$, and
+$Rj_*j^*M$ is finite-Tor constructible by the ordinary direct-image
+comparison [lem-coef-finite-direct-image] and the pre-duality
+constructibility results, so $Ri_A^!M$ is finite-Tor constructible.
+The assertion on the $B$-side is the same. No biduality theorem is used
+here: general biduality depends, through integral biduality and the
+integral and finite dualizing comparisons, on this lemma.
 For composition or successive coefficient changes, transpose
 both composites to the same composite of exceptional counits.
 Their equality proves the required coherence. Open exceptional

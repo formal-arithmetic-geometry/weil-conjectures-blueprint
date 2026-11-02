@@ -5,8 +5,9 @@ title = "Finite-stage Verdier biduality"
 order = 2982
 uses = ["lem-exc-comparison-tor-interval", "lem-sf-proetale-constructible-origin", "lem-weil-finite-duality-site-comparison", "lem-weil-verdier-preservation-strata", "thm-weil-etale-geometric-biduality"]
 +++
-Let $Y$ be a separated finite-type scheme over
-$k=\overline{\mathbf F}_q$, and let $A=A_{E,n}$.
+Let $Y$ be a separated finite-type scheme over a field $k$ that is
+finite or algebraically closed, of characteristic different from $\ell$,
+and let $A=A_{E,n}$. For finite $k$ the statement is deduced from $\bar k$ by conservative pullback, using the canonical separable-extension comparisons for exceptional restriction, internal Hom and evaluation, which are established before (and independently of) this statement.
 On either the small etale site or the small pro-etale site,
 
 $$
