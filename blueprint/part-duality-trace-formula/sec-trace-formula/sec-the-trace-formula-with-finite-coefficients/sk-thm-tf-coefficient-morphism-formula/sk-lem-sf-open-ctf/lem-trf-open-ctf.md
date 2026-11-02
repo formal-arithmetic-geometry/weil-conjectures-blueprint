@@ -2,6 +2,7 @@
 id = "lem-trf-open-ctf"
 kind = "lemma"
 title = "Extension by zero preserves constructibility and Tor amplitude"
+lean = ["AlgebraicGeometry.Scheme.finiteStageDerivedExtensionByZero_constructibleFiniteTor"]
 order = 3492
 uses = ["def-trf-coefficient-conventions", "def-weil-derived-cohomology-sheaves", "def-weil-extension-by-zero", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-scheme-morphism-properties", "lem-trf-open-tensor"]
 +++
