@@ -2,6 +2,7 @@
 id = "det-pe-classical-sheaves-modules"
 kind = "lemma"
 title = "The module form of the classical equivalence"
+lean = ["AlgebraicGeometry.ProEtale.proEtaleClassicalSheavesModules"]
 order = 1009
 uses = ["det-pe-classical-sheaves-unit", "prop-weil-pbc-site-comparison-finite-level"]
 +++
