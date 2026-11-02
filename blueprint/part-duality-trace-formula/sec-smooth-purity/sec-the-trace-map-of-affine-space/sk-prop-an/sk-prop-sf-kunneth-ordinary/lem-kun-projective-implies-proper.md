@@ -2,6 +2,7 @@
 id = "lem-kun-projective-implies-proper"
 kind = "lemma"
 title = "Projective morphisms are proper"
+lean = ["AlgebraicGeometry.hProjective_properness"]
 order = 3098
 uses = ["def-kun-projective", "def-weil-pbc-scheme-conventions", "lem-chow-closed-model", "lem-weil-pbc-closed-immersion-proper", "lem-weil-pbc-proper-composition"]
 +++

@@ -2,6 +2,7 @@
 id = "def-pur-regular-immersion"
 kind = "definition"
 title = "Regular closed immersion of pure codimension"
+lean = ["AlgebraicGeometry.IsRegularImmersionOfPureCodimension"]
 order = 3331
 uses = ["def-pur-conventions", "def-sbc-smooth-morphisms", "def-weil-scheme-morphism-properties"]
 +++

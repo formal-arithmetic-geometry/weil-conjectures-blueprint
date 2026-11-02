@@ -2,6 +2,7 @@
 id = "lem-pur-affine-punctured-line-algebra"
 kind = "lemma"
 title = "Units and Picard groups of the line and the punctured line"
+lean = ["AlgebraicGeometry.AffinePuncturedLine.affine_punctured_line_algebra"]
 order = 2932
 uses = ["def-sc-curves", "def-sc-picard-group", "def-weil-pbc-etale-sheaves", "def-weil-pbc-etale-site"]
 +++
