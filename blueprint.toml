@@ -22,7 +22,7 @@ logoInk = true           # drawn in the title's colour, so it follows the style 
 [site.intro]
 file = "intro.md"                        # the title, an animated SVG
 background = "assets/galois-letter-1832.jpg"   # Galois to Chevalier, 1832 (public domain)
-hold = 4.8                               # writing 1.6 s, still 0.6 s, wiping 2 x 0.8 s, the mirror 1 s
+hold = 4.55                              # writing 1.6 s, still 0.6 s, wiping 2 x 0.8 s, the mirror 0.75 s
 step = [1.2, 1.8, 1.8]                   # seconds per step of the zoom, at one speed
 
 [[site.intro.zoom]]
