@@ -21,5 +21,6 @@ are finite.
 
 *Complement.* For $\psi$ nontrivial, applying (17.3) twice with $\psi$ and $\psi^{-1}$
 gives the trace-level inversion
-$t_{\operatorname{FT}_{\psi^{-1}}\operatorname{FT}_\psi K,n}=q^n\,t_{K,n}$,
-the trace function of $K(-1)$.
+$t_{\operatorname{FT}_{\psi^{-1}}\operatorname{FT}_\psi K,n}=q^{nr}\,t_{K,n}$,
+the trace function of $K(-r)$. (Applying $\operatorname{FT}_\psi$ twice instead
+introduces $[-1]^*$.)

@@ -7,8 +7,9 @@ order = 4194
 uses = ["cor-pur-adic-and-rational-smooth-dualizing-complexes", "def-per-perverse-subcategories", "def-per-support-condition", "def-weil-t-structure", "def-wf-middle-extension", "lem-exc-closed-support-triangle", "lem-per-dual-lisse-tensor", "lem-weil-closed-costalk-duality", "lem-weil-heart-short-exact-triangles", "p-real-integral", "prop-constructible-truncations", "prop-sf-localization-all-stages", "prop-weil-heart-abelian", "rem-dl-a1-conventions", "sk-thm-pd-verdier-duality", "sk-thm-sf-ctf-stability"]
 +++
 In the setting of [def-per-support-condition], let the base field $k$ be
-perfect (in the applications $k=k_0=\mathbf F_q$ or its algebraic
-closure) and let $X=C$ be a smooth separated $k$-scheme of pure dimension
+finite or algebraically closed (in the applications $k=k_0=\mathbf F_q$ or its algebraic
+closure; the residue fields of the finitely many points of $Z$ are then
+finite fields or $k$) and let $X=C$ be a smooth separated $k$-scheme of pure dimension
 one, for instance $C=A_0$ or a dense open of it. For $k=k_0$ the objects
 may equally be Weil complexes on $C_0$, in the conventions of
 [rem-dl-a1-conventions]. All conditions below concern cohomology sheaves,
