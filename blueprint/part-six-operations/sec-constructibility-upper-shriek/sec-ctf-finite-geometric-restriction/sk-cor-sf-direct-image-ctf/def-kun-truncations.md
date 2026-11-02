@@ -2,6 +2,7 @@
 id = "def-kun-truncations"
 kind = "definition"
 title = "Truncations and homotopy colimits"
+lean = ["CategoryTheory.IsSequentialHomotopyColimit"]
 order = 2700
 uses = ["def-sp-truncation-couple", "thm-sp-truncation-e2"]
 +++
