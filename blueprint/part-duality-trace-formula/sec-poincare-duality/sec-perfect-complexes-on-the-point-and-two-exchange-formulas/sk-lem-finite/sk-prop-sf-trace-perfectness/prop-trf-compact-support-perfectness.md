@@ -5,7 +5,7 @@ title = "Compact-support perfectness"
 lean = ["AlgebraicGeometry.Etale.isPerfect_compactlySupportedGlobalSections", "AlgebraicGeometry.Etale.isPerfect_geometricStalk"]
 order = 3181
 tags = ["latex:proposition"]
-uses = ["def-compact-support-direct-image-detailed", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-scheme-morphism-properties", "lem-exc-residue-tor-test", "lem-fix-compact-support-coefficient-change", "lem-trf-finite-tor-amplitude-perfect", "prop-finite-compact-support-constructibility", "prop-weil-pbc-inverse-image-exact"]
+uses = ["def-compact-support-direct-image-detailed", "def-trf-categorical-trace", "def-trf-coefficient-conventions", "def-weil-finite-coefficient-point", "def-weil-finite-field-fiber", "def-weil-finite-tor-amplitude", "def-weil-finite-torsion-constructibility", "def-weil-full-cohomological-dimension", "def-weil-scheme-morphism-properties", "lem-trf-finite-tor-amplitude-perfect", "prop-finite-compact-support-constructibility", "prop-weil-pbc-inverse-image-exact", "lem-sf-projection-finite-constant"]
 +++
 Fix the global finite-field datum
 and the coefficient

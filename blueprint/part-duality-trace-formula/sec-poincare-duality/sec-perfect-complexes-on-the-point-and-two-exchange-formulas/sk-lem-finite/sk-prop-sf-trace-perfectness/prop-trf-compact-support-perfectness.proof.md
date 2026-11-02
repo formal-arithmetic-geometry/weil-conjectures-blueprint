@@ -9,30 +9,30 @@ The finite-level constructibility theorem
 complex on $\operatorname{Spec}k$ with finite cohomology modules,
 using the point identification of
 [def-weil-finite-coefficient-point]. This assertion alone does
-not give perfectness over the finite local ring $A$.
+not give perfectness over the finite ring $A$.
 
-Put $\kappa=A/(\pi_E)$. The narrow coefficient-change result
-[lem-fix-compact-support-coefficient-change], applied to
-$A_{E,n}\to A_{E,1}=\kappa$, identifies
+Here $A$ is an arbitrary finite commutative $\ell$-primary ring, so no
+residue field of a distinguished uniformizer is available; the Tor amplitude
+is bounded directly. Choose a compactification $X\xrightarrow{j}\overline X\xrightarrow{\bar a}\Spec k$
+as in [def-compact-support-direct-image-detailed], so $C=R\bar a_*j_!K$, and let
+$\overline X$ have dimension $d$; then $R^q\bar a_*F=0$ for $q>2d$ and every sheaf of
+$A$-modules $F$ ([def-weil-full-cohomological-dimension]). For a finite
+$A$-module $M$, the projection formula with a finitely presented constant coefficient
+[lem-sf-projection-finite-constant], applied to $\bar a$ and $j_!K$, together with
+$j_!K\otimes^L_AM_{\overline X}\cong j_!(K\otimes^L_AM_X)$, gives
 
 $$
-C\otimes_A^L\kappa
-\xrightarrow{\sim}R\Gamma_c(X,K\otimes_A^L\kappa).
+C\otimes_A^LM\xrightarrow{\sim}R\Gamma_c(X,K\otimes_A^LM_X).
 $$
 
-The input on the right is bounded constructible: finite Tor amplitude
-gives boundedness, and its cohomology is constructible by restricting
-to a finite constructible stratification and taking the derived
-tensor of the finite coefficient modules, as in
-[def-weil-finite-tor-amplitude], [def-weil-finite-torsion-constructibility].
-Hence the right side is bounded by
-[prop-finite-compact-support-constructibility] at the residue
-admissible coefficient ring. The residue-field criterion of
-[lem-exc-residue-tor-test], applied on the point, now proves
-that $C$ has finite Tor amplitude. Together with its finite
+If $K$ has Tor amplitude in $[a,b]$ ([def-weil-finite-tor-amplitude]), then
+$K\otimes^L_AM_X$ has cohomology sheaves in $[a,b]$, so the right side has cohomology in
+$[a,b+2d]$. Derived tensor products commute with filtered colimits and every
+$A$-module is a filtered colimit of finite ones, so $C$ has Tor amplitude in
+$[a,b+2d]$. Together with its finite
 cohomology, [lem-trf-finite-tor-amplitude-perfect] shows that
-$C$ is represented by a bounded complex of finite free
-$A$-modules.
+$C$ is represented by a bounded complex of finite projective
+$A$-modules (finite free when $A$ is local, e.g. $A=A_{E,n}$).
 
 For $K_{\bar x}$, the exact inverse-image property
 [prop-weil-pbc-inverse-image-exact] and the finite-stalk

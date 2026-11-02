@@ -7,7 +7,8 @@ uses = ["def-trf-coefficient-conventions", "def-weil-derived-tensor", "def-weil-
 +++
 Fix the global finite-field datum
 and the coefficient
-conventions, with $A=A_{E,n}$, and define
+conventions, with $A$ the finite coefficient ring of [def-trf-coefficient-conventions]
+(an arbitrary finite commutative $\ell$-primary ring, for instance $A_{E,n}$), and define
 $D^b_{\mathrm{fin}}(A)$ to be the category of *perfect*
 $A$-complexes, realized explicitly as the category of bounded
 complexes of finitely generated projective $A$-modules.

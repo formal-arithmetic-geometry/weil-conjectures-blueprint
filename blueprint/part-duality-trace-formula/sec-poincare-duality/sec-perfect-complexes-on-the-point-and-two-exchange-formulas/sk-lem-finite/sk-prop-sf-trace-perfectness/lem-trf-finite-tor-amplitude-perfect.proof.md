@@ -2,12 +2,11 @@
 kind  = "proof"
 of    = "lem-trf-finite-tor-amplitude-perfect"
 +++
-Write $A=A_{E,n}$ for the finite coefficient ring of
-[def-trf-coefficient-conventions]: it is a local ring with
-maximal ideal $(\pi_E)$.
+Let $A$ be the finite coefficient ring of
+[def-trf-coefficient-conventions].
 
 *(If.)* Suppose that $C$ is quasi-isomorphic to a bounded
-complex $P^\bullet$ of finite free $A$-modules with $P^i=0$ for
+complex $P^\bullet$ of finite projective $A$-modules with $P^i=0$ for
 $i\notin[a,b]$. For every $A$-module $M$ the derived tensor
 $C\otimes_A^LM\cong P^\bullet\otimes_AM$ is concentrated in degrees
 $[a,b]$, so that $\operatorname{Tor}_i^A(C,M)=0$ for
@@ -29,20 +28,20 @@ shows that the complex $C$ itself is pseudo-coherent. By
 pseudo-coherent complex of finite tor dimension over a ring is
 perfect, and if it has tor amplitude in $[a,b]$ it is
 quasi-isomorphic to a complex $E^\bullet$ of finite projective
-$A$-modules with $E^i=0$ for $i\notin[a,b]$. Since $A$ is a
+$A$-modules with $E^i=0$ for $i\notin[a,b]$, so $C$ lies in
+$D^b_{\mathrm{fin}}(A)$. If moreover $A$ is a
 local ring, a finite projective $A$-module is free
 ([Stacks, Tag 00NZ](https://stacks.math.columbia.edu/tag/00NZ),
 Lemma 10.78.5: a finite flat module over a local ring is finite free;
 equivalently
 [Tag 00NX](https://stacks.math.columbia.edu/tag/00NX), Lemma 10.78.2,
 parts (2) and (5), together with Nakayama's lemma), so that
-$E^\bullet$ is a bounded
+$E^\bullet$ is then a bounded
 complex of finitely generated free $A$-modules quasi-isomorphic to
-$C$: $C$ lies in the category $D^b_{\mathrm{fin}}(A)$ of
-[def-trf-categorical-trace].
+$C$.
 
 The finite-Tor-amplitude hypothesis cannot be dropped in the second
-direction: the module $A/(\pi_E)$, viewed as a complex
+direction: for $A=A_{E,n}$ with $n\geq2$, the module $A/(\pi_E)$, viewed as a complex
 concentrated in degree $0$, has finite cohomology modules, while its
 minimal free resolution
 
