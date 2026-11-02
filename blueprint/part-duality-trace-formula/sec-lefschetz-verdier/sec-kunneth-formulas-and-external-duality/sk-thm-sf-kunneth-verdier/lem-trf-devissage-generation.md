@@ -19,4 +19,8 @@ where $U$ is a locally closed stratum of $X$,
 $j:U\hookrightarrow\overline U$ is the open immersion into its closure,
 $g:\overline U\hookrightarrow X$ is the closed immersion, and $L$ is a lisse
 sheaf of $A$-modules on $U$ with flat stalks. Constant coefficients
-$L=A_U$ do not suffice in general.
+$L=A_U$ do not suffice in general. Here $A$ is an arbitrary finite
+commutative $\ell$-primary ring: after trivialization the stalks of $L$ are
+finite projective, not necessarily free, $A$-modules, and they are handled as
+direct summands of finite free modules; the proof (bounded flat constructible
+models, stupid truncations, stratification) uses no self-injectivity of $A$.
