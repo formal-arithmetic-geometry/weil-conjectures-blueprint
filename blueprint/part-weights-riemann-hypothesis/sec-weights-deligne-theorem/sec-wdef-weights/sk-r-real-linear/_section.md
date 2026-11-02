@@ -4,7 +4,7 @@ kind = "proposition"
 title = "Weights under the usual operations"
 order = 637
 lean = ["AlgebraicGeometry.WeilGroup.frobeniusWeight_inv", "AlgebraicGeometry.WeilGroup.IsPunctuallyPure.dual"]
-uses = ["sk-p-tate", "sk-d-real-weights", "sk-d-real-weil", "sk-def-sp-tate-twist", "sk-p-linear-filtration"]
+uses = ["det-p-cyclotomic", "sk-d-real-weights", "sk-d-real-weil", "sk-def-sp-tate-twist", "sk-p-linear-filtration"]
 tags = ["sketch"]
 +++
 Subobjects and quotients of a pure Weil sheaf of weight $w$ are pure of
@@ -14,8 +14,13 @@ bound. Tensor products of pure sheaves of weights $a$ and $b$ are pure
 of weight $a+b$, and the dual of a pure lisse sheaf of weight $a$ is
 pure of weight $-a$. A tensor product of mixed sheaves of weights at
 most $a$ and at most $b$ is mixed of weights at most $a+b$, and the dual
-of a mixed lisse sheaf is mixed, with graded pieces the duals of the
-given ones, of the negated weights. Inverse image preserves purity,
+of a mixed lisse sheaf is mixed; for a filtration with lisse graded
+pieces, the duals of the graded pieces are the graded pieces of the dual
+(annihilator) filtration, of the negated weights. (Mixedness of the dual
+in general: on a Weil-stable dense open where the graded pieces are lisse
+use this; on the closed complement use $i^*(G^\vee)\simeq(i^*G)^\vee$ and
+Noetherian induction, and glue by
+$0\to j_!j^*(G^\vee)\to G^\vee\to i_*i^*(G^\vee)\to0$.) Inverse image preserves purity,
 mixedness and their upper bounds. If a complex $K$ has weights at most
 $w$, then $K[r]$ has weights at most $w+r$.
 
