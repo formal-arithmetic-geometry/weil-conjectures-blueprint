@@ -2,6 +2,7 @@
 id = "lem-exc-direct-image-coproducts"
 kind = "lemma"
 title = "Finite cohomological dimension gives derived coproduct compatibility"
+lean = ["AlgebraicGeometry.Etale.rightDerivedLowerStar_preservesCoproducts_of_finite_dimension"]
 order = 2349
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-direct-image-filtered-colimit"]
 +++
