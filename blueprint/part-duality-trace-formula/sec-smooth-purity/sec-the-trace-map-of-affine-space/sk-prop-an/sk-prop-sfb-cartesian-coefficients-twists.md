@@ -2,6 +2,7 @@
 id = "det-prop-sfb-cartesian-coefficients-twists"
 kind = "lemma"
 title = "Inverse image of Tate twists"
+lean = ["AlgebraicGeometry.ProEtale.spTwists_cartesian"]
 order = 3287
 uses = ["sk-def-sp-tate-twist", "def-pur-roots-of-unity-sheaf", "det-def-sp-tate-twist-locally-free", "det-prop-sfb-qlbar-colimit-x-pullback", "lem-sfb-alpha-iso"]
 +++

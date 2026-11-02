@@ -2,6 +2,7 @@
 id = "lem-kun-dimension-extension"
 kind = "lemma"
 title = "Dimension after extension and restriction"
+lean = ["AlgebraicGeometry.topologicalKrullDim_fieldExtension_and_denseOpen"]
 order = 3115
 uses = ["def-kun-dimension", "def-weil-pbc-scheme-conventions", "lem-kun-dimension-formula"]
 +++

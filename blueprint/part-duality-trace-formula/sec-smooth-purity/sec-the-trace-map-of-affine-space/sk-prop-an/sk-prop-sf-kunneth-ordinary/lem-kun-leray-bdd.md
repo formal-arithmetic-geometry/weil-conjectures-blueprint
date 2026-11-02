@@ -2,6 +2,7 @@
 id = "lem-kun-leray-bdd"
 kind = "lemma"
 title = "Leray: composition of derived functors"
+lean = ["AlgebraicGeometry.Etale.etaleLerayPlus"]
 order = 3086
 uses = ["def-kun-rgamma-unbounded", "def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-cohomology", "lem-kun-rgamma-unbounded-bounded", "lem-kun-rgamma-unbounded-well-defined", "lem-weil-pbc-grothendieck-spectral-sequence", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++

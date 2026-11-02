@@ -2,6 +2,7 @@
 id = "sk-def-sp-coefficient-towers"
 kind = "definition"
 title = "Coefficient towers"
+lean = ["AlgebraicGeometry.ProEtale.spCoefficientTowers"]
 order = 2944
 uses = ["sk-prop-sfb-qlbar-colimit-x"]
 +++

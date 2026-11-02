@@ -2,6 +2,7 @@
 id = "def-kun-tor-amplitude"
 kind = "definition"
 title = "Tor amplitude"
+lean = ["AlgebraicGeometry.Etale.DerivedCategory.hasTorAmplitudeGE"]
 order = 3078
 +++
 Let $T$ be a scheme, $\Lambda$ a commutative ring, and

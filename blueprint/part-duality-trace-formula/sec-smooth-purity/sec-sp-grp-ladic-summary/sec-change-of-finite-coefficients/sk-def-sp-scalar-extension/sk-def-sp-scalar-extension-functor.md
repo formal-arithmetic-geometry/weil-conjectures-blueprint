@@ -2,6 +2,7 @@
 id = "det-sp-scalar-extension-functor"
 kind = "definition"
 title = "The derived extension-of-coefficients functor and its associativity"
+lean = ["AlgebraicGeometry.ProEtale.scalarExtensionFunctor"]
 order = 2916
 uses = ["lem-sf-flat-model"]
 +++

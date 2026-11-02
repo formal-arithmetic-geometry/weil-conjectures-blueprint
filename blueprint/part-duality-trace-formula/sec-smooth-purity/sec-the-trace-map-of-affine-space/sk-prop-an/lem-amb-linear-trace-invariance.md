@@ -2,6 +2,7 @@
 id = "lem-amb-linear-trace-invariance"
 kind = "lemma"
 title = "Linear changes of coordinates preserve integration"
+lean = ["AlgebraicGeometry.Etale.affineSpaceLinearTraceInvariance"]
 order = 3267
 uses = ["def-amb-etale-compact-support", "def-coefficient-twists-detailed", "def-sbc-affine-space", "def-weil-pbc-derived-categories", "lem-amb-affine-space-top-trace", "lemma-weil-pbc-geometric-stalk-conservative"]
 +++

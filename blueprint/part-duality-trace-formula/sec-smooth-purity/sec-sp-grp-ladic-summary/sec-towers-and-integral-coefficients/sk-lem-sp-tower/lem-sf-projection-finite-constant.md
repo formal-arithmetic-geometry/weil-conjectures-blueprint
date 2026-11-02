@@ -2,6 +2,7 @@
 id = "lem-sf-projection-finite-constant"
 kind = "lemma"
 title = "The projection formula with a finitely presented constant coefficient"
+lean = ["AlgebraicGeometry.Etale.isIso_finiteConstantProjectionMap"]
 order = 2956
 uses = ["def-sf-uniform-direct-image-vanishing", "def-weil-derived-pullback-tensor-hom", "def-weil-derived-tensor", "def-weil-pbc-direct-image", "def-weil-pbc-inverse-image", "thm-sp-truncation-e2"]
 +++
