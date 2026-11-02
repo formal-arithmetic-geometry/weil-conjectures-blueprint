@@ -14,14 +14,16 @@ assets = "site-assets"   # copied into the site as assets/
 logo = "assets/R1b-W-mirror-sigma-ink.svg"   # left of the title in the top bar
 logoInk = true           # drawn in the title's colour, so it follows the style and dark mode
 
-# The opening film: the title over a faded manuscript, flying into the top bar,
-# then a zoom through the pictures below into the graph.  See [site.intro] in
-# docs/cli.md of the blueprint tool.
+# The opening film: the title, handwritten over a faded manuscript, is wiped
+# down to its W, which turns into the logo; the logo flies onto the top bar's,
+# and the view zooms through the pictures below into the graph.  intro.md is
+# written by scripts/intro_title.py.  See [site.intro] in docs/cli.md of the
+# blueprint tool.
 [site.intro]
-file = "intro.md"                        # the title
+file = "intro.md"                        # the title, an animated SVG
 background = "assets/galois-letter-1832.jpg"   # Galois to Chevalier, 1832 (public domain)
-hold = 0.5                               # seconds the title stays before the zoom
-step = 1                                 # seconds per step of the zoom
+hold = 1.8                               # still 0.5 s, wiping 0.8 s, the mirror 0.5 s
+step = [1, 1.5, 1.5]                     # seconds per step of the zoom, at one speed
 
 [[site.intro.zoom]]
 nodes = ["Weil Conjecture"]
