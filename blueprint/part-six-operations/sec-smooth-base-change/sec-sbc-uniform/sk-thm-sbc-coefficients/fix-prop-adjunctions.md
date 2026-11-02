@@ -42,9 +42,10 @@ D^b_{ctf}(Y,\Lambda):Rf^!;
 $$
 1. for composable separated finite-type morphisms
 $X\xrightarrow{f}Y\xrightarrow{g}Z$, the unit of
-$L(gf)^*\dashv R(gf)_*$ is the composite
-$Lf^*\eta_gLf^*\circ\eta_f$ and the counit is the composite of the
-counits; for the exceptional pair the unit and counit of
+$L(gf)^*\dashv R(gf)_*$ is, under the composition identifications
+$R(gf)_*\cong Rg_*Rf_*$ and $L(gf)^*\cong Lf^*Lg^*$, the composite
+$\eta_{gf}=(Rg_*\,\eta_f\,Lg^*)\circ\eta_g$, and the counit is
+$\varepsilon_{gf}=\varepsilon_f\circ(Lf^*\,\varepsilon_g\,Rf_*)$; for the exceptional pair the unit and counit of
 $R(gf)_!\dashv R(gf)^!$ are the pasted units and counits of
 $Rf_!\dashv Rf^!$ and $Rg_!\dashv Rg^!$ under the composition
 law of [thm-sf-comp-composition], i.e. the mate of

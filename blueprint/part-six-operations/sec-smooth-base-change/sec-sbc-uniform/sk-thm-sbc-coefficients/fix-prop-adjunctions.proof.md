@@ -24,7 +24,12 @@ adjunction $Rf_!\dashv Rf^!$, its unit and counit, and the
 triangle identities are, at the finite level, the datum of
 [def-weil-exceptional-adjoint-admissibility]; the agreement of
 the units and the counits with the refinement comparisons is
-condition (1) of that definition, and the restriction to the
+the finite-level refinement clause of [def-weil-exceptional-inverse-image]
+(condition (1) of the admissibility definition only gives $\mathrm{FullCD}$
+and an ambient right adjoint; for general finite coefficients, where that
+clause is not stated, transport the constructible adjunction along the
+canonical compactification comparison, adjoint uniqueness supplying the
+unit and counit identities), and the restriction to the
 finite-Tor subcategories is condition (3) of the same definition. At
 $\Lambda=\mathcal O_E,E,\Qlb$ the adjunction $Rf_!\dashv Rf^!$ on the
 condensed categories is that of [sk-thm-existence] (3), it restricts to
