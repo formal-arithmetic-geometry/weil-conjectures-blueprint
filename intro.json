@@ -1,1 +1,1 @@
-{"intro":{"body":"# Weil Conjectures\n"},"title":"The Weil conjectures"}
+{"intro":{"background":"assets/galois-letter-1832.jpg","body":"# Weil Conjectures\n","holdMs":500,"stepMs":1000,"zoom":[{"arrows":[],"nodes":[{"id":"Weil Conjecture","kind":"section","title":"Weil Conjecture"}]},{"arrows":[["pre","six"],["six","weight"],["pre","weight"]],"nodes":[{"id":"pre","kind":"section","title":"Preliminaries"},{"id":"six","kind":"section","title":"Part I: Six Operations"},{"id":"weight","kind":"section","title":"Part II: Weight Theory"}]}]},"title":"Weil Conjectures"}

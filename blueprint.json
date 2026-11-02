@@ -177,9 +177,11 @@
     "attrs": ["title", "lean", "review", "tags", "order", "aliases", "owner"]}},
   "defaultCollapse": "refines"},
  "project":
- {"title": "The Weil conjectures",
+ {"title": "Weil Conjectures",
   "theme": "outline",
   "name": "weil-conjectures",
+  "logoInk": true,
+  "logo": "assets/R1b-W-mirror-sigma-ink.svg",
   "katexMacros":
   {"\\wt": "\\operatorname{wt}",
    "\\tr": "\\operatorname{tr}",
@@ -347,7 +349,20 @@
    "\\Aaf": "\\mathbf A",
    "\\AEn": "A_{E,n}",
    "\\A": "\\mathbf A"},
-  "intro": {"body": "# Weil Conjectures\n"},
+  "intro":
+  {"zoom":
+   [{"nodes":
+     [{"title": "Weil Conjecture", "kind": "section", "id": "Weil Conjecture"}],
+     "arrows": []},
+    {"nodes":
+     [{"title": "Preliminaries", "kind": "section", "id": "pre"},
+      {"title": "Part I: Six Operations", "kind": "section", "id": "six"},
+      {"title": "Part II: Weight Theory", "kind": "section", "id": "weight"}],
+     "arrows": [["pre", "six"], ["six", "weight"], ["pre", "weight"]]}],
+   "stepMs": 1000,
+   "holdMs": 500,
+   "body": "# Weil Conjectures\n",
+   "background": "assets/galois-letter-1832.jpg"},
   "dir": "blueprint"},
  "objects":
  [{"source":
