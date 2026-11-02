@@ -2,6 +2,7 @@
 id = "det-prop-sfb-cartesian-coefficients-finite-free"
 kind = "lemma"
 title = "$\\mathcal O_{F,X}$ is finite free over $\\mathcal O_{E,X}$"
+lean = ["AlgebraicGeometry.ProEtale.cartesianCoefficients_finiteFree"]
 order = 1300
 uses = ["det-def-sfb-condensed-ring", "det-def-sfb-pullback-from-point", "det-prop-sfb-qlbar-colimit-x-invert-ell", "lem-sfb-subfield-flat"]
 +++

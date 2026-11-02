@@ -2,6 +2,7 @@
 id = "det-lem-coefficient-heart-closure"
 kind = "lemma"
 title = "Lisse sheaves on a stratum are closed under kernels, cokernels, extensions"
+lean = ["AlgebraicGeometry.ProEtale.coefficientHeart_closure"]
 order = 2270
 uses = ["det-lem-coefficient-heart-common-stratification", "sk-prop-sfb-qlbar-colimit-x", "det-def-sfb-constructible-local-model"]
 +++

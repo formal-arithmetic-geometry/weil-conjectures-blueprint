@@ -2,6 +2,7 @@
 id = "det-lem-coefficient-heart-common-stratification"
 kind = "lemma"
 title = "Common refinement of stratifications and restriction to strata"
+lean = ["AlgebraicGeometry.ProEtale.coefficientHeart_commonStratification"]
 order = 2269
 uses = ["sk-def-sfb-constructible", "def-constructible-stratification", "sk-prop-sfb-cartesian-coefficients"]
 +++

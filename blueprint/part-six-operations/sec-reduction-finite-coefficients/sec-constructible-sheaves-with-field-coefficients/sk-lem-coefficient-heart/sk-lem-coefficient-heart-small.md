@@ -2,6 +2,7 @@
 id = "det-lem-coefficient-heart-small"
 kind = "lemma"
 title = "$\\mathrm{Cons}(X,\\Lambda)$ is essentially small"
+lean = ["AlgebraicGeometry.ProEtale.coefficientHeart_essentiallySmall"]
 order = 2272
 uses = ["det-lem-coefficient-heart-closure", "def-weil-pbc-proetale-site"]
 +++

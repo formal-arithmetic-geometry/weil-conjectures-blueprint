@@ -2,6 +2,7 @@
 id = "det-lem-coefficient-heart-filtration"
 kind = "lemma"
 title = "Filtration of a constructible sheaf by extensions by zero of lisse sheaves"
+lean = ["AlgebraicGeometry.ProEtale.coefficientHeart_filtration"]
 order = 2271
 uses = ["det-lem-coefficient-heart-common-stratification", "det-lem-coefficient-heart-closure"]
 +++

@@ -2,6 +2,7 @@
 id = "def-weil-frobenius-detailed"
 kind = "definition"
 title = "Arithmetic and geometric Frobenius"
+lean = ["WeilConjectures.FiniteFieldDatum.geometricFrobenius"]
 order = 2408
 uses = ["def-weil-finite-field-fiber", "def-weil-scheme-morphism-properties"]
 +++
