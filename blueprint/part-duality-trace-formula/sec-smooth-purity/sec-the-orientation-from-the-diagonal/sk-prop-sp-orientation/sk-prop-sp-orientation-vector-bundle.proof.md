@@ -7,9 +7,9 @@ factor, with projection $p_1$. The automorphism $\tau:(v,w)\mapsto(v,w-v)$ of
 $V\times_SV$ over the first factor takes the diagonal to the zero section.
 It preserves integration in the second factor: let the translation vector
 vary over $V$; its effect on the top compactly supported direct image
-$R^{2d}p_{1!}(\mathbf Z/\ell^n)(d)$, identified with the constant sheaf by
+$R^{2d}p_{1!}\Lambda(d)$, identified with the constant sheaf by
 integration, is multiplication by a section of the locally constant sheaf of
-units of $\mathbf Z/\ell^n\mathbf Z$ on $V$. The locus where this unit is $1$
+units of $\Lambda$ on $V$. The locus where this unit is $1$
 is open and closed. It contains the zero section, where the translation is
 the identity, and every geometric fibre of $V\to S$ is connected, so it is
 all of $V$. Hence $\tau$ identifies the pair $(p_1,\Delta)$, together with the
