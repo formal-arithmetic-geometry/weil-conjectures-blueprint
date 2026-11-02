@@ -2,6 +2,7 @@
 id = "det-lem-formal-closed-support-adjunction"
 kind = "lemma"
 title = "Sections with closed support: adjunction and fiber triangle for all coefficients"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.closedSupport_triangle"]
 order = 3202
 uses = ["def-exc-proetale-sections-with-support", "lem-exc-proetale-closed-support", "lem-exc-proetale-support-triangle", "sk-prop-sf-open-closed-triangle"]
 +++
