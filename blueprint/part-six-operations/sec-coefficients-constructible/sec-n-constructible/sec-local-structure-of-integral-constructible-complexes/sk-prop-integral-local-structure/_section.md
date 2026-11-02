@@ -2,6 +2,7 @@
 id = "sk-prop-integral-local-structure"
 kind = "proposition"
 title = "Local structure of integral constructible complexes"
+lean = ["AlgebraicGeometry.ProEtale.integral_local_structure"]
 order = 154
 uses = ["sk-lem-integral-finite-levels", "sk-lem-integral-scalar-towers", "sk-prop-sf-open-closed-triangle", "sk-prop-pe-milnor", "sk-lem-pe-derived-nakayama"]
 tags = ["sketch"]

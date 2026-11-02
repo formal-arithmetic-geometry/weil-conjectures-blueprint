@@ -2,6 +2,7 @@
 id = "det-prop-sfb-qlbar-colimit-x-invert-ell"
 kind = "lemma"
 title = "$E_X$ is $\\mathcal O_{E,X}$ with $\\ell$ inverted"
+lean = ["AlgebraicGeometry.ProEtale.padicIntegers_invertEll"]
 order = 1247
 uses = ["def-sfb-integers-to-subfield", "def-sfb-integers-to-subfield-point", "det-def-sfb-condensed-ring", "det-def-sfb-pullback-from-point"]
 +++
