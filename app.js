@@ -9,7 +9,8 @@ import { setupPreviews, closePreviews } from './preview.js';
 import { setupExport, closeExport } from './pdf.js';
 import { sha256 } from './export/sha256.js';
 import { setupPrefetch, pausePrefetch, resumePrefetch, prefetchModule } from './prefetch.js';
-import { introOf, wantsIntro, showIntro, replayIntro, earlyIntro, introDecided, proseReady } from './intro.js';
+import { introOf, wantsIntro, showIntro, replayIntro, earlyIntro, introDecided, proseReady,
+  resolveUrl, snapshotBase } from './intro.js';
 
 // The pages, each loaded the first time it is shown: a reader who opens an
 // object page never downloads the graph.  `prepare`, where a page has one, is
@@ -652,6 +653,7 @@ const app = {
   /** How a reference to `id` reads here: {word, number, href}, or null. */
   referenceFor: pageReferences,
   documentLevelHref,
+  introButton,
   /**
    * SHA-256 of the bytes of the snapshot on screen (a Promise), which its
    * prepared PDFs are filed under.  Worked out the first time it is asked
@@ -924,8 +926,13 @@ function progressToggle() {
   }, shown ? 'Hide progress' : 'Show progress');
 }
 
-/** See the project's intro again, on the landing page where it ends. */
+/**
+ * See the project's intro again, on the landing page where it ends.  In the
+ * graph's toolbar, beside Show sidebar (graph.js); null when the project has
+ * no intro.
+ */
 function introButton() {
+  if (!app.model || !introOf(app.model.project)) return null;
   return el('button.intro-replay', {
     type: 'button',
     title: 'Play the introduction again',
@@ -964,14 +971,39 @@ function watchTopbar() {
   else if (typeof window.addEventListener === 'function') window.addEventListener('resize', set);
 }
 
+/**
+ * The project's logo left of the title (`project.logo`) in place of the
+ * website's own mark.  With `logoInk` it is a mask filled with the title's
+ * colour, so a one-colour logo follows the style and dark mode; otherwise the
+ * picture as it is.  The address is resolved as the intro's pictures are.
+ */
+function brandLogo(project) {
+  const brand = document.querySelector('.brand');
+  const holder = brand && brand.querySelector('.brand-logo');
+  if (!holder) return;
+  const logo = project && typeof project.logo === 'string' ? project.logo : '';
+  const href = logo ? resolveUrl(logo, snapshotBase(app)) : '';
+  const ink = !!(project && project.logoInk);
+  if (holder.dataset.href === href && holder.classList.contains('ink') === ink) return;
+  holder.dataset.href = href;
+  clear(holder);
+  holder.hidden = !href;
+  brand.classList.toggle('has-logo', !!href);
+  holder.classList.toggle('ink', !!href && ink);
+  holder.style.removeProperty('--brand-logo');
+  if (!href) return;
+  if (ink) holder.style.setProperty('--brand-logo', `url(${JSON.stringify(href)})`);
+  else holder.appendChild(el('img', { src: href, alt: '', decoding: 'async' }));
+}
+
 function updateChrome() {
   const title = (app.model && (app.model.project.title || app.model.project.name)) || 'Blueprint';
   document.getElementById('project-title').textContent = title;
   document.title = title;
+  brandLogo(app.model && app.model.project);
 
   const aside = document.getElementById('topbar-aside');
   clear(aside);
-  if (app.model && introOf(app.model.project)) aside.appendChild(introButton());
   aside.appendChild(themeMenu());
   aside.appendChild(progressToggle());
   if (app.model && app.showProgress) {
@@ -1030,13 +1062,16 @@ function setupGlobalSearch() {
     input.blur();
   });
 
-  // `/` from anywhere that is not itself taking text.
+  // `/` from anywhere that is not itself taking text.  The graph has no such
+  // box in the top bar (style.css): there it is the graph's own search.
   document.addEventListener('keydown', (ev) => {
     if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey || ev.defaultPrevented) return;
     if (takesText(ev.target)) return;
+    const box = (app.route && document.documentElement.getAttribute('data-view') === 'graph'
+      && document.querySelector('.toolbar .tb-search input')) || input;
     ev.preventDefault();
-    input.focus();
-    if (typeof input.select === 'function') input.select();
+    box.focus();
+    if (typeof box.select === 'function') box.select();
   });
 }
 
@@ -1111,6 +1146,9 @@ function render() {
     if (typeof window.scrollTo === 'function') window.scrollTo(0, 0);
   }
   const view = PAGES[app.route.view] ? app.route.view : 'graph';
+  // What the top bar shows depends on the page: the graph has its toolbar
+  // where the others have the search and Export PDF (style.css).
+  document.documentElement.setAttribute('data-view', view);
   const token = ++renderToken;
   // Nothing is fetched in the background while a page is being opened; it
   // goes on once that page is drawn (the graph: laid out), when idle.

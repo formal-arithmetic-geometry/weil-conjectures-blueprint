@@ -80,11 +80,14 @@ function readState(app) {
     status: app.showProgress && p.has('status') ? split('status') : null, // null = all
     q: p.get('q') || '',
     sel: p.get('sel') || null,
-    // Hide arcs implied by a longer path of their kind: on unless turned off,
-    // since on a real blueprint those arcs are most of the ink.
-    reduce: p.get('reduce') !== '0',
+    // Off unless asked for, as every option that changes which arcs are
+    // drawn: by default the graph draws A -> B for two nodes exactly when A,
+    // or something inside A, has an arc to B itself, or A itself has an arc
+    // to B or to something inside B (`M.ownEdges`).
+    // Hide arcs implied by a longer path of their kind.
+    reduce: p.get('reduce') === '1',
     // Draw a collapsed object's contents' arcs on it as well (DESIGN 3's
-    // derived arcs): off unless asked for, so each object shows its own.
+    // derived arcs).
     inner: p.get('inner') === '1',
     // Draw the appendices (objects of a kind with `graph = "optional"`): on
     // unless the reader hides them.
@@ -241,7 +244,8 @@ function legend(app, progress) {
     el('b', { style: { marginTop: '.3em' } }, 'lines'),
     el('div.row', sample(line(), head(false)), 'declared + derived'),
     el('div.row', sample(line('hollow'), head(true)), 'declared, unwitnessed'),
-    // Only the contents of collapsed objects draw these (`arcs of contents`).
+    // Only arcs into the contents of collapsed objects are drawn so (`arcs of
+    // contents`, or out of an expanded section into a collapsed one).
     el('div.row.lg-derived', sample(line('dashed'), head(false)), 'derived, undeclared'),
     // Only while the graph is searched (`applyHighlight`).
     el('b.lg-search', { style: { marginTop: '.3em' } }, 'search'),
@@ -295,7 +299,7 @@ function renderToolbar(app, st) {
   // button (style.css): unfolded, on a wide screen the wrapper is `display:
   // contents` and the toolbar is the one row it always was, and on a phone it
   // is a second row.
-  const filtered = !!(st.ekinds || st.status || !st.reduce || !st.appendix);
+  const filtered = !!(st.ekinds || st.status || st.reduce || st.inner || !st.appendix);
   bar.classList.toggle('open', !!ui.toolbarOpen);
   const toggle = bar.appendChild(el('button.tb-toggle', {
     type: 'button',
@@ -348,7 +352,7 @@ function renderToolbar(app, st) {
     el('label.chk', { title: 'hide arcs already implied by a longer path of the same kind' },
       el('input', {
         type: 'checkbox', checked: st.reduce,
-        onchange: (e) => writeState(app, { reduce: e.target.checked ? null : '0' }),
+        onchange: (e) => writeState(app, { reduce: e.target.checked ? '1' : null }),
       }), 'hide implied'),
     el('label.chk', { title: 'also draw, on a collapsed object, the arcs of what is hidden inside it' },
       el('input', {
@@ -399,6 +403,9 @@ function renderToolbar(app, st) {
     el('button', { onclick: () => fitToView(app) , title: 'fit the graph into the viewport' }, 'Fit'),
     el('button', { onclick: () => zoomBy(app, 1.25) }, '+'),
     el('button', { onclick: () => zoomBy(app, 1 / 1.25) }, '\u2212')));
+  // Replay intro is the graph's alone, where the intro lands (app.js).
+  const intro = app.introButton ? app.introButton() : null;
+  if (intro) bar.appendChild(intro);
   bar.appendChild(sideToggle(app));
 }
 
@@ -1611,6 +1618,9 @@ function draw(app, st, view, quot, laid, nodes, edgeMeta, animate) {
   // The view this drawing is of: `render` moves `ui.view` on as soon as the
   // state changes, before the new layout is drawn.
   ui.drawnView = view;
+  // The key's dashed row, for as long as a dashed arc is drawn: the arcs of
+  // contents, or an expanded section's arcs to a collapsed one.
+  ui.stage.classList.toggle('derived-arcs', !!ui.layer.querySelector('.gedge.state-derived-only'));
   applyLevel(app, view);
   applyHighlight(app, st.q);
   applySelection(app, st.sel);
@@ -2001,9 +2011,9 @@ function drawEdge(app, meta, pts, a, b) {
   const hit = svgEl('path', { class: 'hit', d: pathD(pts) });
   g.appendChild(hit);
 
-  let label = null;
-  if (isSpoke) label = meta.role;
-  else if (entity.members.length > 1) label = '\u00d7' + entity.members.length;
+  // An arc stands for every relation between its two ends, however many: the
+  // tooltip names them, the arc carries no count.
+  const label = isSpoke ? meta.role : null;
   if (label) {
     const mid = midpoint(pts);
     g.appendChild(svgEl('text', { class: 'elabel', x: round(mid.x) + 4, y: round(mid.y) - 3 }, label));
@@ -2479,12 +2489,17 @@ function renderSide(app, st, view, quot) {
       onclick: () => select(app, null),
     }, '\u2715')));
 
-  // The title, and beside it the way to the object's own page.
+  // The title, and beside it the way into the document: the page with the
+  // object's level, scrolled to it, as every link to it there leads.  What the
+  // document leaves out (a plain sugar edge, say) has its object page instead.
   const status = M.badgeStatusOf(m, id);
   const heading = el('h2', M.titleOf(o));
+  const inDoc = app.documentLevelHref(M.documentOutline(app.model, st.collapse), st.collapse, id);
   side.appendChild(el('div.side-head', { 'data-id': id },
     heading,
-    el('a.side-open', { href: app.objectHref(id) }, 'Open object page \u2192')));
+    inDoc
+      ? el('a.side-open', { href: inDoc }, 'Open in document \u2192')
+      : el('a.side-open', { href: app.objectHref(id) }, 'Open object page \u2192')));
   side.appendChild(el('div.meta', app.kindBadge(o.kind), status === null ? null : app.statusBadge(status)));
 
   const prog = st.progress ? M.progressMixOf(app.model, st.collapse, id) : null;
