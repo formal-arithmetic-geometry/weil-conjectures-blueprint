@@ -11,6 +11,8 @@ modules = ["WeilConjectures"]
 [site]
 theme = "outline"        # the style the website opens in
 assets = "site-assets"   # copied into the site as assets/
+logo = "assets/R1b-W-mirror-sigma-ink.svg"   # left of the title in the top bar
+logoInk = true           # drawn in the title's colour, so it follows the style and dark mode
 
 # The opening film: the title over a faded manuscript, flying into the top bar,
 # then a zoom through the pictures below into the graph.  See [site.intro] in
