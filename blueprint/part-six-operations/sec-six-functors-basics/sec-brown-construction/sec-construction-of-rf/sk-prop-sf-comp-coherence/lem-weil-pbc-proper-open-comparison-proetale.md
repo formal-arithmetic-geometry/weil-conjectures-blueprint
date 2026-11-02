@@ -2,6 +2,7 @@
 id = "lem-weil-pbc-proper-open-comparison-proetale"
 kind = "lemma"
 title = "Proper-open comparison for complexes from the etale site"
+lean = ["AlgebraicGeometry.ProEtale.properOpenProEtaleIso"]
 order = 2509
 uses = ["def-weil-extension-by-zero", "def-weil-pbc-derived-categories", "def-weil-pbc-extension-by-zero", "def-weil-pbc-proetale-operations", "def-weil-pbc-scheme-conventions", "def-weil-pbc-site-comparison-morphism", "lem-weil-pbc-proper-open-comparison-composition", "lem-weil-pbc-proper-open-comparison-iso", "prop-weil-pbc-comparison-direct-image", "thm-weil-pbc-site-comparison"]
 +++

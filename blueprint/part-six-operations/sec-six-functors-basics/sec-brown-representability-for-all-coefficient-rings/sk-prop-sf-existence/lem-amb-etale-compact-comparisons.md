@@ -2,6 +2,7 @@
 id = "lem-amb-etale-compact-comparisons"
 kind = "lemma"
 title = "The etale compact-support comparisons"
+lean = ["AlgebraicGeometry.Etale.etaleCompactSupport_refinementComparison_eq"]
 order = 2565
 uses = ["def-amb-etale-compact-support", "def-nagata-compactifiable", "def-weil-compactifications-refinements", "lem-weil-derived-direct-image-composition", "lem-weil-pbc-proper-open-comparison-composition", "lem-weil-pbc-proper-open-comparison-iso", "prop-weil-proet-finite-proper-base-change", "thm-nagata-compactification"]
 +++
