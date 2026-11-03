@@ -14,6 +14,15 @@ assets = "site-assets"   # copied into the site as assets/
 logo = "assets/R1b-W-mirror-sigma-ink.svg"   # left of the title in the top bar
 logoInk = false          # its own colours: black, and light grey in dark mode (the SVG says so)
 
+# Comments go to Zulip, one topic per object; public ones are also shown below
+# the page. The bot comes from BLUEPRINT_ZULIP_EMAIL and BLUEPRINT_ZULIP_KEY
+# when the site is built: the site workflow sets them from the repository's
+# secrets, and for a local `lake exe blueprint serve` you export them yourself.
+# Without them the site keeps its comments with the comment server of `serve`.
+[site.comments]
+zulip   = "https://weil.zulip.merten.dev"
+channel = "Blueprint Comments"
+
 # The opening film: the title is written by hand over a faded letter, wiped
 # down to its W, which turns into the logo; the logo flies onto the top bar's,
 # and the view zooms through the pictures below into the graph.  intro.md is
