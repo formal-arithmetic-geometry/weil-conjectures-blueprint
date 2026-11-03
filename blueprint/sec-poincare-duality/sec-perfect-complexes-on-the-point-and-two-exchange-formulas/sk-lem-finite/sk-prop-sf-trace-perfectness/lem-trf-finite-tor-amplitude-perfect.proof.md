@@ -43,14 +43,19 @@ $C$.
 The finite-Tor-amplitude hypothesis cannot be dropped in the second
 direction: for $A=A_{E,n}$ with $n\geq2$, the module $A/(\pi_E)$, viewed as a complex
 concentrated in degree $0$, has finite cohomology modules, while its
-minimal free resolution
+minimal free resolution, whose differentials alternate between $\pi_E$
+and $\pi_E^{n-1}$ (in $A$ one has $\ker(\pi_E)=(\pi_E^{n-1})$ and
+$\ker(\pi_E^{n-1})=(\pi_E)$),
 
 $$
-\cdots\to A\xrightarrow{\pi_E}A\xrightarrow{\pi_E}A\to
-A/(\pi_E)\to0
+\cdots\xrightarrow{\pi_E}A\xrightarrow{\pi_E^{n-1}}A\xrightarrow{\pi_E}A\to
+A/(\pi_E)\to0,
 $$
 
-is infinite, so that $\operatorname{Tor}_i^A(A/(\pi_E), A/(\pi_E))\cong A/(\pi_E)\neq0$ for all $i\geq0$ and
+is infinite. For $n=2$ every differential is $\pi_E$; for instance
+$A_{E,2}=\mathbf F_\ell[\varepsilon]/(\varepsilon^2)$, the dual numbers, for
+$E=\Ql(\sqrt\ell)$. Since $n\geq2$, both $\pi_E$ and
+$\pi_E^{n-1}$ vanish modulo $\pi_E$, so that $\operatorname{Tor}_i^A(A/(\pi_E), A/(\pi_E))\cong A/(\pi_E)\neq0$ for all $i\geq0$ and
 $A/(\pi_E)$ is not quasi-isomorphic to a bounded complex of
 finite free $A$-modules.
 

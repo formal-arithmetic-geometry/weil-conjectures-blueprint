@@ -63,3 +63,17 @@ triangulated on the bounded constructible categories, and it commutes
 with finite coefficient reduction because the finite-level direct image
 does, the reduction being compatible with the comparison morphisms that
 enter the definition ([def-compact-support-direct-image-detailed]).
+
+*Step 6 (general finite coefficients).* For the clause on an arbitrary finite
+ring $A$ annihilated by $\ell^N$, first pass to an étale model. Pro-étale
+objects are handled through the comparison: by
+[lem-sf-proetale-constructible-origin] they are of étale origin, and Step 2
+applies. Then forget the $A$-module structure to $\mathbf Z/\ell^N$. Forgetting
+is exact and commutes with $j_!$ and with the derived direct image. A sheaf of
+$A$-modules is constructible with finite stalks exactly when the underlying
+$\mathbf Z/\ell^N$-sheaf is, since $A$ is finite. The classical proper
+finiteness theorem with $\mathbf Z/\ell^N$-coefficients (Step 3,
+[obl-fin-comparison]) therefore gives constructibility and the bound
+$[a,b+2e]$ for the underlying complex, hence for $R\bar f_*j_!K$. Over a
+separably closed point a constructible sheaf has finite sections, which are
+finite $A$-modules. Only bounded constructibility enters.

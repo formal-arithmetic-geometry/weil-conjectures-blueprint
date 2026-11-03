@@ -5,7 +5,7 @@ title = "Finite-level bounded constructibility for proper support"
 lean = ["AlgebraicGeometry.ProEtale.boundedConstructible_rightDerivedLowerShriek", "AlgebraicGeometry.ProEtale.constructibleIn_rightDerivedLowerShriek"]
 order = 3171
 tags = ["latex:proposition"]
-uses = ["def-compact-support-direct-image-detailed", "def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-fin-extension-by-zero", "obl-fin-comparison", "prop-weil-pbc-comparison-direct-image", "sbc-thm-finiteness-finite-type", "thm-constructible-serre"]
+uses = ["def-compact-support-direct-image-detailed", "def-weil-compact-support-candidate", "def-weil-compactifications-refinements", "def-weil-constructible-intervals", "def-weil-derived-cohomology-sheaves", "def-weil-derived-direct-image", "def-weil-extension-by-zero", "def-weil-finite-torsion-constructibility", "def-weil-pbc-constructible-direct-image-finiteness", "def-weil-pbc-site-comparison-morphism", "def-weil-scheme-morphism-properties", "lem-fin-extension-by-zero", "obl-fin-comparison", "prop-weil-pbc-comparison-direct-image", "sbc-thm-finiteness-finite-type", "thm-constructible-serre", "lem-sf-proetale-constructible-origin"]
 +++
 Let $K_0$ be a field, let $X,Y$ be
 finite-type $K_0$-schemes, and let
@@ -55,3 +55,15 @@ $$
 
 The restriction and its amplitude bound commute with finite coefficient
 reduction.
+
+*General finite coefficients.* The finiteness part does not need
+$A=A_{E,n}$. Let $A$ be any finite commutative ring annihilated by $\ell^N$
+for some $N\geq1$. Let $K$ be a bounded complex of $A$-modules on $X$ (on
+$X_{\Et}$, or on $X_{\mathrm{proet}}$ through an étale model) whose cohomology
+sheaves lie in $[a,b]$ and are constructible with finite stalks. Then for
+every compactification $f=\bar f\circ j$ the complex $R\bar f_*j_!K$ has
+constructible cohomology sheaves in $[a,b+2e]$. In particular, for
+$Y=\Spec k$ with $k$ separably closed, its cohomology modules are finite
+$A$-modules. This uses only bounded constructibility. It does not assert that
+restriction of scalars from $A$ to $\mathbf Z/\ell^N$ preserves finite Tor
+amplitude.
