@@ -2,6 +2,7 @@
 id = "lem-sfb-compactification-over-base"
 kind = "lemma"
 title = "Compactifications of morphisms over a qcqs base"
+lean = ["AlgebraicGeometry.compactification_over_base"]
 order = 2726
 uses = ["sk-def-nagata-sketch-data"]
 +++

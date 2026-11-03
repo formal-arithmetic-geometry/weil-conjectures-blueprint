@@ -2,6 +2,7 @@
 id = "def-sfb-compactification-over-field"
 kind = "definition"
 title = "The chosen compactification over a field"
+lean = ["AlgebraicGeometry.compactificationOverField"]
 order = 2727
 uses = ["lem-sfb-compactification-over-base", "sk-def-nagata-sketch-data"]
 +++
