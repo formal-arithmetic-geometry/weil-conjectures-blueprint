@@ -36,12 +36,16 @@ lake exe blueprint serve        # the site on localhost
 The site at https://blueprint.fuxi.merten.dev is rebuilt by CI on every push.
 
 Comments on the site go to the Zulip channel #Blueprint Comments
-(`[site.comments]` in `blueprint.toml`), posted by a bot. For a local site
-to post them too, give `site` or `serve` the bot in the environment; without
-it, `serve` keeps the comments locally in `comments/`:
+(`[site.comments]` in `blueprint.toml`). A comment is public, listed below
+its page, or private, for the blueprint's authors alone. The page never talks
+to Zulip: it posts to the comment server, which relays to Zulip as a bot whose
+email and key only the server holds. On the website that is the server fuxi
+runs (`deploy/fuxi-comments.nix`); locally it is the one `serve` starts. Give
+it the bot in its environment; without it, `serve` keeps the comments locally
+in `comments/`:
 
 ```
 export BLUEPRINT_ZULIP_EMAIL=<the bot's email>
 read -s BLUEPRINT_ZULIP_KEY && export BLUEPRINT_ZULIP_KEY   # paste the bot's API key
-lake exe blueprint serve
+lake exe blueprint serve            # --port 8001 if 8000 is taken
 ```
