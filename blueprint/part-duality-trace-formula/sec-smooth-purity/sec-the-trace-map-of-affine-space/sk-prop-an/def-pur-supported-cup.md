@@ -2,6 +2,7 @@
 id = "def-pur-supported-cup"
 kind = "definition"
 title = "Cup product with closed supports"
+lean = ["AlgebraicGeometry.ProEtale.supportedCup"]
 order = 3231
 uses = ["def-pur-support-cohomology", "def-weil-derived-tensor", "def-weil-scheme-morphism-properties", "lem-pur-supported-hom"]
 +++
