@@ -4,7 +4,7 @@ kind = "theorem"
 title = "Graph construction of the global Frobenius operator"
 order = 3758
 tags = ["latex:proposition"]
-uses = ["def-exchange-projection", "def-trf-coefficient-conventions", "def-trf-frobenius-operators", "def-trf-global-operator", "def-trf-graph-correspondence", "def-trf-iterated-weil-map", "def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "def-weil-finite-field-fiber", "def-weil-global-geometric-frobenius", "def-weil-scheme-morphism-properties", "lem-trf-adjoint-mate", "lem-trf-frobenius-operator-compact-description", "lem-trf-iterated-weil-cocycle", "prop-functor-package", "prop-trf-graph-operator", "prop-trf-scheme-galois-comparison"]
+uses = ["def-exchange-projection", "def-trf-coefficient-conventions", "def-trf-frobenius-operators", "def-trf-global-operator", "def-trf-graph-correspondence", "def-trf-iterated-weil-map", "def-trf-scheme-frobenius", "def-trf-strict-weil-complex", "def-weil-finite-field-fiber", "def-weil-global-geometric-frobenius", "def-weil-scheme-morphism-properties", "lem-trf-adjoint-mate", "lem-trf-frobenius-operator-compact-description", "lem-trf-iterated-weil-cocycle", "prop-functor-package", "prop-trf-graph-operator", "prop-trf-scheme-galois-comparison", "lem-trf-absolute-frobenius-site", "prop-trf-frobenius-factorization", "lem-sfb-compactification-over-base", "def-weil-compactifications-refinements", "def-weil-extension-by-zero", "prop-compactification-coherence-detailed"]
 +++
 Fix the global finite-field datum
 and the coefficient
