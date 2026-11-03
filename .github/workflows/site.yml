@@ -252,6 +252,33 @@ jobs:
       - name: The site must be complete, whatever the checks said
         run: test -s _site/index.html && test -s _site/blueprint.json && test -s _site/data/index.json
 
+      # The tool's comment section talks to the comment server of `blueprint
+      # serve`, which fuxi does not run. site-overrides/comments.js replaces it
+      # with one that posts every comment to Zulip and shows the public ones
+      # below the page, reading where from comments-config.json. The bot's key
+      # ends up in the site, which only readers with the site's password see.
+      # Without the two secrets there is no config and the section says that
+      # comments are not set up.
+      - name: Keep the comments on Zulip
+        env:
+          ZULIP_SITE: https://weil.zulip.merten.dev
+          ZULIP_CHANNEL: blueprint comment
+          ZULIP_BOT_EMAIL: ${{ secrets.ZULIP_BOT_EMAIL }}
+          ZULIP_BOT_API_KEY: ${{ secrets.ZULIP_BOT_API_KEY }}
+        run: |
+          set -euo pipefail
+          cp site-overrides/comments.js _site/comments.js
+          if [ -n "$ZULIP_BOT_EMAIL" ] && [ -n "$ZULIP_BOT_API_KEY" ]; then
+            node -e '
+              const e = process.env;
+              const zulip = { site: e.ZULIP_SITE, channel: e.ZULIP_CHANNEL,
+                              email: e.ZULIP_BOT_EMAIL, key: e.ZULIP_BOT_API_KEY };
+              require("fs").writeFileSync("_site/comments-config.json", JSON.stringify({ zulip }) + "\n");
+            '
+          else
+            echo "::warning::ZULIP_BOT_EMAIL or ZULIP_BOT_API_KEY is not set; comments are off"
+          fi
+
       - name: Publish to the site branch
         run: |
           set -euo pipefail
