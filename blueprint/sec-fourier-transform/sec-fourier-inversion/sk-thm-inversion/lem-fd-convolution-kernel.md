@@ -5,7 +5,9 @@ title = "The convolution of the Fourier kernels is the delta kernel"
 order = 4173
 uses = ["def-wf-tate-twist", "def-fd-kernel", "lem-fd-kernel-composition", "prop-kernel-lisse", "lem-fd-as-lisse", "lem-wft-as-unit-trivialization", "lem-fd-character-integral", "lem-fd-stalk-formula", "sk-prop-sf-open-closed-triangle", "thm-pur-vector-bundle-thom", "def-sf-setting"]
 +++
-Let $S$ be a separated finite-type $k_0$-scheme and $V\to S$ a vector bundle
+Let $S$ be a separated scheme of finite type over $k$ (for instance
+$S=S_0\times_{k_0}k$ for a separated finite-type $k_0$-scheme $S_0$, the
+setting of [lem-wft-fourier-weil], or $S=\Spec k$) and $V\to S$ a vector bundle
 of rank $r$, identified with $V^{\vee\vee}$, and let $\Lambda=E$ or
 $\overline{\mathbf Q}_\ell$ ([def-sf-setting]). Let $r_{ij}$ be the
 projections of $V\times_SV^\vee\times_SV$ and put
