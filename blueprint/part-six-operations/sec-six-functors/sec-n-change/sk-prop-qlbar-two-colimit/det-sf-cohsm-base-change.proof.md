@@ -21,7 +21,7 @@ $\beta_N$ is again the ordinary inverse-image identification.
 *Step 2: composition.* For composable $h_1,h_2$, the counit of
 $R(h_2h_1)_!\dashv(h_2h_1)^!$ is the composite of the counits under the
 composition isomorphism, and base change for $R(-)_!$ is compatible with
-composition (Stacks, Tag 0F7L). Substituting into the definition, $\beta$ for
+composition ([Stacks, Tag 0F7L](https://stacks.math.columbia.edu/tag/0F7L)). Substituting into the definition, $\beta$ for
 $h_2h_1$ is the composite of $h_1^*$-shifted $\beta$ for $h_2$ and $\beta$ for
 $h_1$, under the composition isomorphisms; so if the $\beta$'s of $h_1$ and
 $h_2$ are isomorphisms, so is that of $h_2h_1$ (compare

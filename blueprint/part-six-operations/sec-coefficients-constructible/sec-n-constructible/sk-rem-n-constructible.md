@@ -15,7 +15,7 @@ tags = ["sketch"]
    satisfying the condition of (1) is locally free of finite rank. In other
    words, a constructible $E$- or $\overline{\mathbf Q}_\ell$-sheaf is one that is
    *lisse*, that is, locally free of finite rank, on the strata of a
-   finite stratification (BS, Definition 6.8.6).
+   finite stratification [bhatt-scholze15, Definition 6.8.6].
 4. If $\Lambda=\mathcal O_E$, locally on a stratum a constructible
    $\mathcal O_{E,X}$-module is $P\otimes_{\mathcal O_E}\mathcal O_{E,X}$
    for a finitely generated $\mathcal O_E$-module $P$. For example,

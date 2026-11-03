@@ -10,4 +10,4 @@ cover $\operatorname{Spec}(B')\to\operatorname{Spec}(B)$ such that
 $\operatorname{Spec}(B')$ is a limit of
 affine schemes étale over $\operatorname{Spec}(R)$, hence over
 $X$. The equivalence of categories of sheaves follows from the comparison
-lemma for sites. This is (BS, Lemma 4.2.4).
+lemma for sites. This is [bhatt-scholze15, Lemma 4.2.4].

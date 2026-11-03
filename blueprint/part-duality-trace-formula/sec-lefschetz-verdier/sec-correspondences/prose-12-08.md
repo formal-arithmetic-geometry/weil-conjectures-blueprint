@@ -44,7 +44,7 @@ u:c_2^*K\longrightarrow c_1^!K.
 $$
 
 Here $c_2$ is the leg along which $K$ is pulled back and $c_1$ is the
-leg along which we take $c_1^!$; in (SGA5, III, §3) the two names are
+leg along which we take $c_1^!$; in [sga5, III, §3] the two names are
 interchanged. The *fixed locus* of $c$ is the closed subscheme
 
 $$

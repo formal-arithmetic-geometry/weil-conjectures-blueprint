@@ -29,7 +29,7 @@ This idea is Rankin's. In 1939 he improved the bound for Ramanujan's
 function $\tau(n)$ to $O(n^{29/5})$ by studying the Dirichlet series
 $\sum_n\tau(n)^2n^{-s}$, whose coefficients are nonnegative, and its
 analytic continuation. Deligne used the same device in his first
-proof (De1), and in this Part it is what turns the trace
+proof [deligne74], and in this Part it is what turns the trace
 formula into an upper bound on eigenvalues. To make Euler factors positive we need real traces. We
 call a lisse Weil sheaf $\mathcal G$ real if its local characteristic
 polynomials have real coefficients under $\iota$

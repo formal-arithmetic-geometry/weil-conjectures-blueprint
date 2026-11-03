@@ -69,4 +69,4 @@ H^q(C,\eta_*\mathbf G_{m,\eta}).
 $$
 
 For $q\geq2$ the left term vanishes by Step 1 and the right term by Step 3,
-so $H^q(C_{\mathrm{ét}},\mathbf G_m)=0$. This is (Stacks, Tag 03RM).
+so $H^q(C_{\mathrm{ét}},\mathbf G_m)=0$. This is ([Stacks, Tag 03RM](https://stacks.math.columbia.edu/tag/03RM)).

@@ -46,7 +46,7 @@ theorem of the cube (Theorem [sk-prop-av-cube]): an invertible
 sheaf on a product of three complete varieties that is trivial on three
 slices through a point is trivial. We prove the theorem of the cube
 following [Stacks, Tag 0BEZ](https://stacks.math.columbia.edu/tag/0BEZ), together with the rigidity lemma that makes $A$
-commutative; see also (Milne AV). We quote
+commutative; see also [milne-av]. We quote
 semicontinuity, the Künneth formula and minimal complexes for coherent
 cohomology, and the theorem that a group scheme of finite type over a
 field is quasi-projective.

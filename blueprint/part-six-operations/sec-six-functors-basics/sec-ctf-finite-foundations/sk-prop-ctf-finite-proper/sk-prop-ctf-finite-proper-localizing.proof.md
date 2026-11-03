@@ -9,7 +9,7 @@ Stacks, Tag 0F0D). Proper base change $g^*Rp_*K\to Rp'_*g'^*K$ holds for bounded
 bound $R^qp_*=0$ for $q>2d$ (and likewise for $p'$), $\mathcal H^q$ of either side only depends on
 $\tau_{\geq q-2d-1}K$, which is bounded below, so the map is an isomorphism in each degree (equivalently
 Stacks, Tag 0F0C). These $A$-linear statements follow from the abelian-group statements by forgetting
-coefficients (Stacks, Tag 0D6J).
+coefficients ([Stacks, Tag 0D6J](https://stacks.math.columbia.edu/tag/0D6J)).
 
 *Transfer.* By [sk-prop-ctf-finite-comparison], $\nu^*$ identifies $\D(X_{\mathrm{ét}},A)=\Loc(\Dctf(X_{\mathrm{ét}},A))$ with
 $\Loc(\Dctf(X,A))$, compatibly with $Rp_*$, $g^*$ and $j_!$ and with sums. So (1) and (2) hold on

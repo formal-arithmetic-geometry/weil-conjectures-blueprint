@@ -10,7 +10,7 @@ $X_{\mathrm{pro}\acute{e}t}$ have this property. The affine weakly contractible 
 are quasi-compact, quasi-separated and projective, and they cover every
 object. Bhatt and Scholze express this by saying that
 $\Sh(X_{\mathrm{pro}\acute{e}t})$ is a *locally weakly contractible*
-topos (BS, §3.2); see also (Proet).
+topos [bhatt-scholze15, §3.2]; see also [proet].
 
 Cohomology on other objects need not vanish, since such an object is in general not
 weakly contractible. For instance, a fibre product of two such affines

@@ -64,7 +64,7 @@ $H^0(D,E(-1))$, on which a power of Frobenius acts by a power of
 $q\ne1$. For $\mathbf G_m$ this is the computation above: there
 $H^1(\mathbf G_{m,k},\Ql)=\Ql(-1)$, with Frobenius acting by $q$.
 
-In Weil II, 1.3.4 (De2), Deligne deduces the finiteness
+In Weil II, 1.3.4 [deligne80], Deligne deduces the finiteness
 of geometric monodromy in rank one from class field theory. On a curve the argument
 with the Jacobian is self-contained given
 Appendices [sec-abelian-varieties] and [sec-picard-framework], and curves are all

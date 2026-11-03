@@ -80,7 +80,7 @@ $$
 To take the $i_{c'}^*$-adjoint, we use the identity of composite units
 $Rg_*\eta_{i_c}\,\eta_g=Ri_{c'*}\eta_h\,\eta_{i_{c'}}$.
 This proves the first formula (compare
-(SGA5, III, Theorem 4.4 and Corollary 4.7)).
+[sga5, III, Theorem 4.4 and Corollary 4.7]).
 
 For proper $X$ and $C$, we push forward to the identity correspondence on $s$, using
 $f=a_X$ and $g=a_C$. The pushed cohomological correspondence is $T_c(u)$.

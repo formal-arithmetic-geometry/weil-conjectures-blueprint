@@ -6,7 +6,7 @@ order = 23
 +++
 With torsion coefficients the étale site does everything we want: SGA 4
 proves the finiteness and base change theorems for sheaves of
-$\mathbf Z/\ell^n$-modules (SGA4), and these are the results on which
+$\mathbf Z/\ell^n$-modules [sga4], and these are the results on which
 the geometry of these notes rests. The trouble begins when we pass to the
 limit over $n$. As recalled in Section [sec-n-pro-etale-why], an $\ell$-adic
 sheaf is classically a compatible system $(F_n)$ rather than a sheaf, and
@@ -30,8 +30,8 @@ The first is wrong because the étale topology only sees the discrete
 group $\Zl$, and the sheaf it produces has forgotten that $\Zl$ is
 profinite. Jannsen (1988) repaired this by defining continuous étale cohomology
 as a derived functor on inverse systems, and Ekedahl built the derived
-category of $\ell$-adic systems by hand (Eke). The pro-étale
-site of Bhatt and Scholze (BS) repairs it at the level of the site.
+category of $\ell$-adic systems by hand [ekedahl90]. The pro-étale
+site of Bhatt and Scholze [bhatt-scholze15] repairs it at the level of the site.
 
 We need a site with three properties. Inverse limits of sheaves along
 towers of surjections should be well behaved, so that $\Zl$ can be a sheaf
@@ -122,7 +122,7 @@ finite coefficients is what Brown representability needs
 completion of Section [sec-pe-localization-completion] let us restrict integral
 complexes to strata and recover them from their reductions, which is the
 basis of the constructibility criterion of Section [sec-coefficients-constructible]. Our
-account follows (BS) and the pro-étale chapter of the Stacks
+account follows [bhatt-scholze15] and the pro-étale chapter of the Stacks
 Project (Stacks).
 
 Throughout this section, schemes are arbitrary unless a result states a

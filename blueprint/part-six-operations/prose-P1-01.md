@@ -24,12 +24,12 @@ compatibly with every change of coefficients between them
 
 For torsion coefficients much of this is classical: SGA 4 constructs
 $Rf_!$ and $f^!$ on the étale site and proves the finiteness theorems
-for $\mathbf Z/\ell^n$ (SGA4, SGA4.5). Two things are missing for
+for $\mathbf Z/\ell^n$ [sga4, SGA4.5]. Two things are missing for
 the Weil conjectures. First, the eigenvalues of Frobenius live in
 characteristic zero, so we need the same operations for $\Zl$, $\Ql$ and
 $\overline{\mathbf Q}_\ell$, compatibly with reduction modulo $\ell^n$; on the étale site
 an $\ell$-adic sheaf is a system $(F_n)$, and every derived construction
-has to be made by hand on such systems (Eke). Second, the
+has to be made by hand on such systems [ekedahl90]. Second, the
 exceptional inverse image $f^!$ is a right adjoint, so its existence is a
 question about all of $D$, not only about constructible objects, and
 finiteness of $f^!$ is a separate and genuinely geometric theorem. We

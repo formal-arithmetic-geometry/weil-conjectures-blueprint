@@ -15,7 +15,7 @@ functor $\Delta_*$ is exact and preserves limits, which gives the first
 formula. In general, a derived direct image $Rg_*$ and $R\varprojlim$ are
 both right adjoints of exact functors (inverse image and the constant-system
 functor), so both preserve K-injective complexes, and their derived functors
-commute (Stacks, Tag 099L). Evaluation of an inverse system at one level is
+commute ([Stacks, Tag 099L](https://stacks.math.columbia.edu/tag/099L)). Evaluation of an inverse system at one level is
 right adjoint to an exact functor too, so it preserves injectives, and the
 derived direct image of a system is computed levelwise.
 

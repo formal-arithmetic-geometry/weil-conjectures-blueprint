@@ -87,7 +87,7 @@ then invert $\ell$ and pass to finite extensions (Theorem [sk-thm-sp-qbar]).
 In each case we construct an explicit right adjoint of $Rf_!$ and
 compare it with $f^!$ by the uniqueness of adjoints
 (Proposition [sk-prop-sp-unique-adjoint]). The statement is
-Deligne's (SGA4, XVIII), where it is called Poincaré duality.
+Deligne's [sga4, XVIII], where it is called Poincaré duality.
 
 The uses of smooth purity named in the opening of Part “Duality and the trace formula”
 go through Corollary [sk-cor-sp-all-coefficients], which gives

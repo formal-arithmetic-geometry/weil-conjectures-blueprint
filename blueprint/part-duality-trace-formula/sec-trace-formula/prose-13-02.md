@@ -48,7 +48,7 @@ the fibres (Corollary [sk-cor-tf-trace-function-pushforward]), is the
 entry of Grothendieck's dictionary in Section [sec-n-dictionary] on which these
 arguments rest.
 
-Following (SGA5, III), we apply the Lefschetz–Verdier formula
+Following [sga5, III], we apply the Lefschetz–Verdier formula
 (Theorem [sk-p-proper]) to the graph of Frobenius, and two
 problems arise. The first is that the formula requires $X$ to be
 proper. If we compactify, the new fixed points at the boundary have
@@ -83,10 +83,10 @@ sides are additive along an open subscheme and its complement
 (Lemma [sk-i-relative-frob]), which reduces finite coefficients
 to $\mathbf A^1\subset\mathbf P^1$
 (Theorem [sk-thm-tf-coefficient-morphism-formula]). This is
-Grothendieck's argument, as in (SGA5, XV, §3) and
-(TFBP). Appendix [sec-specialization-contracting] computes the
+Grothendieck's argument, as in [sga5, XV, §3] and
+[tfbp]. Appendix [sec-specialization-contracting] computes the
 local terms of contracting correspondences in another way, by
-specialization to the normal cone, following (Var).
+specialization to the normal cone, following [varshavsky05].
 
 The other coefficient rings follow by reduction modulo $\pi_E^n$,
 inverting $\ell$ and finite extensions of $E$. Since an integral model of

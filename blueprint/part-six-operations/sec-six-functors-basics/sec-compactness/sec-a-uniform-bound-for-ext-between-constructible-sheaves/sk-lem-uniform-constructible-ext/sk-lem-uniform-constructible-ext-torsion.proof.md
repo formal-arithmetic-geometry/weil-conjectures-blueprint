@@ -3,7 +3,7 @@ kind = "proof"
 of = "det-uniform-constructible-ext-torsion"
 +++
 Put $N=b_!(M_0/\pi_E^n)$. It is a torsion sheaf pulled back from $X_{\mathrm{ét}}$: the lisse torsion
-sheaf $M_0/\pi_E^n$ descends to $T_{\mathrm{ét}}$ (Stacks, Tag 099Y), and extension by zero and closed
+sheaf $M_0/\pi_E^n$ descends to $T_{\mathrm{ét}}$ ([Stacks, Tag 099Y](https://stacks.math.columbia.edu/tag/099Y)), and extension by zero and closed
 direct image commute with the pullback from the étale site (Stacks, Tags 09AF, 09A6).
 
 (1) $j^*N$ is again pulled back from the étale site, and by Stacks, Tag 09A6 the pro-étale $Rj_*j^*N$ is

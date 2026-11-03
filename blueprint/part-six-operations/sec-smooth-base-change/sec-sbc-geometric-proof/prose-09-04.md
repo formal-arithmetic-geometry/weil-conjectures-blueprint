@@ -15,7 +15,7 @@ We may therefore work on the étale sites in the proof below, where $g^{-1}$
 denotes inverse image of étale sheaves.
 
 We follow the second
-proof of [Stacks, Tag 0EYU](https://stacks.math.columbia.edu/tag/0EYU) (see also (SBCBP)), which is
+proof of [Stacks, Tag 0EYU](https://stacks.math.columbia.edu/tag/0EYU) (see also [sbcbp]), which is
 an induction on the cohomological degree $q$. In degree zero the base
 change map can be computed on sections. Since base change may be checked
 étale locally and is stable under composition, étale coordinates then

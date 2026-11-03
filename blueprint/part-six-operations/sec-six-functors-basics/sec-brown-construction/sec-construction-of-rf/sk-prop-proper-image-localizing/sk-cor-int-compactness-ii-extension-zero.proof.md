@@ -3,7 +3,7 @@ kind = "proof"
 of = "det-cor-int-compactness-ii-extension-zero"
 +++
 (1) $j_!$ is left adjoint to $j^*$, hence preserves direct sums (colimits).
-It is exact and preserves all limits (Stacks, Tag 09BP); in particular it
+It is exact and preserves all limits ([Stacks, Tag 09BP](https://stacks.math.columbia.edu/tag/09BP)); in particular it
 commutes with $R\varprojlim$. Being exact and $\mathcal O_E$-linear, it
 commutes with the cone of multiplication by $\pi_E^n$, i.e. with reduction
 modulo $\pi_E^n$.

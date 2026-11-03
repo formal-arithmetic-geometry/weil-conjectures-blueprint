@@ -10,7 +10,7 @@ models. The scalar ring $\Lambda(*)$ is the discrete valuation ring $\cO_E$ or t
 *Local models.* A finitely presented $\Lambda(*)$-module $P$ has a finite projective resolution
 $0\to\Lambda(*)^m\xrightarrow{A}\Lambda(*)^n\to P\to0$, of length at most one over the discrete valuation
 ring and of length zero over a field. Pulling it back along $\Lambda(*)\to\Lambda_U$ is exact: over a field
-every module is flat, and $\cO_{E,U}$ is flat over the constant sheaf $(\cO_E)_U$ \stacks{099L}. So a module
+every module is flat, and $\cO_{E,U}$ is flat over the constant sheaf $(\cO_E)_U$ [Stacks, Tag 099L](https://stacks.math.columbia.edu/tag/099L). So a module
 with a finite constant local model ([det-def-sfb-constructible-local-model]) is, on each member $U_i$ of the
 cover, quasi-isomorphic to $[\Lambda_{U_i}^m\to\Lambda_{U_i}^n]$ in degrees $[-1,0]$, a complex of flat
 modules; its derived tensor product with any $N$ is $[N^m\to N^n]$, with cohomology in $[-1,0]$; over a

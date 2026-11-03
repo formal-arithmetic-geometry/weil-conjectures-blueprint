@@ -41,4 +41,4 @@ uses the Künneth formula for ordinary direct images
 (Proposition [sk-lem-sf-kunneth-star]) and the corresponding
 formula for Verdier duals (Lemma [sk-thm-sf-kunneth-verdier]). For an ordinary direct image along one
 factor, the Künneth formula is a statement about base change
-(TFBP+).
+[tfbp-plus].

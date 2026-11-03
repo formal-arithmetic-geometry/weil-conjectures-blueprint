@@ -7,7 +7,7 @@ $K\otimes^{\mathbf L}\mathcal O_E/\pi_E$ is bounded with constructible cohomolog
 criterion [sk-prop-integral-criterion]).
 
 *Exactness and limits.* $j_!$ is exact on sheaves and preserves all limits (Stacks, Tag 09BP; this uses that
-$j$ is quasi-compact). $i_*$ is exact (Stacks, Tag 09BM) and preserves limits (Stacks, Tag 09AA, and it is a
+$j$ is quasi-compact). $i_*$ is exact ([Stacks, Tag 09BM](https://stacks.math.columbia.edu/tag/09BM)) and preserves limits (Stacks, Tag 09AA, and it is a
 right adjoint). So both are computed termwise, preserve products of complexes and cones, hence derived
 limits of sequences.
 

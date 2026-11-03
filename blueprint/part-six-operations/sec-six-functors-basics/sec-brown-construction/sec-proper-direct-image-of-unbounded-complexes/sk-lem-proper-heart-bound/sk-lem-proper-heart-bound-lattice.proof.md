@@ -4,8 +4,8 @@ of = "det-proper-heart-bound-lattice"
 +++
 *Completeness.* $L_0$ is finite free locally over $\mathcal O_{E,S}$, hence derived $\pi_E$-complete:
 $L_0=R\varprojlim_nL_0/\pi_E^n$. Write $a=i\circ u$ with $u$ a quasi-compact open immersion and $i$ a closed
-immersion. Closed pushforward is exact and preserves products (Stacks, Tag 09BM); extension by zero is
-exact and preserves limits (Stacks, Tag 09BP). An exact functor preserving products preserves derived
+immersion. Closed pushforward is exact and preserves products ([Stacks, Tag 09BM](https://stacks.math.columbia.edu/tag/09BM)); extension by zero is
+exact and preserves limits ([Stacks, Tag 09BP](https://stacks.math.columbia.edu/tag/09BP)). An exact functor preserving products preserves derived
 inverse limits of sequences (fiber of $1-\mathrm{shift}$ on a product), so
 $a_!L_0=R\varprojlim_na_!(L_0/\pi_E^n)$. Restriction to $X_V$ is exact and preserves products, so the same
 holds after restriction.

@@ -9,7 +9,7 @@ $K\boxtimes \mathbb DK$, and hence we need to know that the comparison
 map from the external product of nearby cycles to the nearby cycles of
 the external product is an isomorphism. We prove this by the dimension
 argument of
-(Ill, Theorem 4.7, pp. 51–53), on the classical
+[illusie94, Theorem 4.7, pp. 51–53], on the classical
 étale site.
 
 From now on, $S$ is an excellent strictly henselian trait, with separably
@@ -22,7 +22,7 @@ Proposition [sk-lem-sf-kunneth-star]. It applies over the
 separably closed field $k$, since passing to an algebraic closure is a
 purely inseparable extension and does not change the étale topos.
 
-We use two further facts about traits, both from (SGA4.5),
+We use two further facts about traits, both from [sga4-5],
 *Théorèmes de finitude*, §§3.4 and 3.7.
 First, geometric nearby cycles are invariant under extension of
 traits, with the corresponding restriction of the inertia action

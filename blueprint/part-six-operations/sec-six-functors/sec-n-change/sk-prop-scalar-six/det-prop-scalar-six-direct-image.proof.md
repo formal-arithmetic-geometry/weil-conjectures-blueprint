@@ -26,7 +26,7 @@ with extension of scalars by the argument of [det-prop-scalar-six-pullback] (1)
 (it is the pullback of a morphism of ringed topoi with $\nu^{-1}A=A$). So it
 suffices to show that the étale comparison $(Rf_*K')_B\to Rf_*(K'_B)$ is an
 isomorphism in $\D(Y_{\mathrm{ét}},B)$. Let $V\to Y$ be a quasi-compact étale test object and
-$X_V=X\times_YV$. The scalar projection formula (Stacks, Tag 0F12), which only needs
+$X_V=X\times_YV$. The scalar projection formula ([Stacks, Tag 0F12](https://stacks.math.columbia.edu/tag/0F12)), which only needs
 the cohomological dimension bounds for $\ell$-primary coefficients valid on the
 standing schemes and therefore applies to every $B$ regardless of its projective
 dimension over $A$, gives on $V$ and on $X_V$

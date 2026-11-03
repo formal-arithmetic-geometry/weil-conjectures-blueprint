@@ -7,7 +7,7 @@ order = 941
 Specialization to the normal cone is defined by nearby cycles on the
 deformation to the normal cone, so for Verdier's theorem
 (Theorem [sk-thm-tf-sp-zero-section]; see
-(Var, §§1.3–1.4 and 3)) we first recall the facts about
+[varshavsky05, §§1.3–1.4 and 3]) we first recall the facts about
 nearby cycles that we need.
 
 Nearby cycles move a complex from the generic fibre of a family to its
@@ -46,8 +46,8 @@ where invariants under the wild inertia group of a finite extension of
 traits are taken below.
 
 By the finiteness theorem for nearby cycles with torsion coefficients
-((SGA4.5), *Théorèmes de finitude*, §3;
-(Ill, §4.1, pp. 44–45)), $R\Psi_{\mathcal Y}$ takes
+([sga4-5], *Théorèmes de finitude*, §3;
+[illusie94, §4.1, pp. 44–45]), $R\Psi_{\mathcal Y}$ takes
 bounded constructible complexes of finite Tor dimension to bounded
 constructible complexes of finite Tor dimension. We need the
 preservation of finite Tor dimension for traces. We deduce that
@@ -92,7 +92,7 @@ If $g$ is smooth, we apply smooth base change to $R\bar j_*$, which is
 direct image along a qcqs morphism, and restrict to the special fibre.
 This is allowed because the coefficients are annihilated by a power of $\ell$, which is
 invertible on $S$. The same base change maps appear in
-(SGA7II), Exposé XIII, (2.1.7.1)–(2.1.7.3).
+[sga7-2], Exposé XIII, (2.1.7.1)–(2.1.7.3).
 
 We also use two calculations for a finite $A$-module $M$. The first is
 $R\Psi_S(M_{\eta})=M$. To see this, note that the integral closure

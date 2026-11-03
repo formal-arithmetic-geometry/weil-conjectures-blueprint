@@ -17,8 +17,7 @@ $$
 The complex $M|_{X_{\bar y}}\otimes^{\mathbf L}_AN$ has cohomology sheaves in
 degrees $[a,b]$, by the Tor amplitude of $M$. The functor $R\Gamma_c$ on a
 separated finite type scheme of dimension $\leq d$ over a separably closed
-field has cohomological amplitude $[0,2d]$ on torsion sheaves (Stacks, Tag
-0F10). By the hypercohomology spectral sequence the right-hand side has
+field has cohomological amplitude $[0,2d]$ on torsion sheaves ([Stacks, Tag 0F10](https://stacks.math.columbia.edu/tag/0F10)). By the hypercohomology spectral sequence the right-hand side has
 cohomology in $[a,b+2d]$. The interval does not depend on $n$ when applied to
 the levels $C_n$ (with $A=\mathcal O_E/\ell^n$), and by
 [det-sp-tower-shriek-levels] these levels compute $Rf_{!,\bullet}C_\bullet$; the

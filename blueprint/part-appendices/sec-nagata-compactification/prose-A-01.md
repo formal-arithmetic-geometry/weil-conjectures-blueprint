@@ -49,11 +49,11 @@ proper base change is proved over arbitrary qcqs bases.
 
 Nagata proved the theorem for Noetherian schemes in two papers of 1962
 and 1963, in the language of his time. The scheme-theoretic proof by blow-ups that we
-follow is due to Deligne and was written up by Conrad (Con);
+follow is due to Deligne and was written up by Conrad [conrad07];
 the Stacks Project gives the same argument. Besides elementary facts on
 blow-ups and Noetherian approximation, we quote Deligne's theorem that a
 partial section extends after a blow-up
-(Con, Theorem 2.4), and we deduce the projective form of
+[conrad07, Theorem 2.4], and we deduce the projective form of
 Chow's lemma from the version in [Stacks, Tag 0202](https://stacks.math.columbia.edu/tag/0202). The only result from the
 main text that we use is Proposition [sk-prop-sf-open-closed-triangle], in the proof
 of Lemma [sk-lem-nagata-density-normalization].

@@ -17,7 +17,7 @@ is an isomorphism for every bounded below classical complex $K$ with
 torsion cohomology sheaves (Theorem [sk-thm-properbasechange]), and taking for
 $g$ a geometric point gives the stalk formula
 (Corollary [sk-cor-pbc-torsion-stalk]). The theorem is due to
-Artin (SGA4, XII–XIII). Beware that properness cannot be dropped: for
+Artin [sga4, XII–XIII]. Beware that properness cannot be dropped: for
 $j:\mathbf G_m\hookrightarrow\mathbf A^1$ and the origin
 $i:\{0\}\hookrightarrow\mathbf A^1$, the sheaf $i^*j_*A$ is nonzero while
 the base change of $\mathbf G_m$ to the origin is empty. Unlike smooth
@@ -52,7 +52,7 @@ Chow's lemma (Theorem [sk-thm-chow-projective]) for every proper
 morphism (Proposition [sk-thm-reduction]).
 
 These calculations are made on the étale site, where the classical
-tools are available (compare (BP)), and the comparison
+tools are available (compare [bp]), and the comparison
 theorems of Section [sec-proetale-coefficients] transport them to
 classical complexes on the pro-étale site. For $\mathcal O_E$ the
 theorem follows by passing to the limit over the reductions modulo

@@ -17,9 +17,8 @@ inductively the quasi-compact, quasi-separated matching objects, by finitely man
 the form of [det-pe-wcb-cover], and take finite disjoint unions, a finite product of
 w-contractible rings being w-contractible; Stacks, Tag 09A1). Sections
 over each $W_r$ are exact ([det-pe-wc-sections-exact]), so $H^q(Z,N)$ is the $q$-th
-cohomology of $N(W_0)\to N(W_1)\to\cdots$, naturally in $N$ (Stacks, Tag 09A2). Each $W_r$ is
-affine, hence quasi-compact, so $N\mapsto N(W_r)$ commutes with direct sums (Stacks, Tag
-0935); being exact, it commutes with all colimits, a colimit being a cokernel of a map between
+cohomology of $N(W_0)\to N(W_1)\to\cdots$, naturally in $N$ ([Stacks, Tag 09A2](https://stacks.math.columbia.edu/tag/09A2)). Each $W_r$ is
+affine, hence quasi-compact, so $N\mapsto N(W_r)$ commutes with direct sums ([Stacks, Tag 0935](https://stacks.math.columbia.edu/tag/0935)); being exact, it commutes with all colimits, a colimit being a cokernel of a map between
 direct sums. Filtered colimits of abelian groups are exact, so $\varphi(V)$ is an isomorphism.
 Every object of $Y_{\mathrm{proét}}$ has a covering by affine objects ([det-pe-wcb-cover]), so
 $\varphi$ is locally injective and locally surjective and $\varphi^{\#}$ is an isomorphism.

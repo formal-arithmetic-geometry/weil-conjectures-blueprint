@@ -86,7 +86,7 @@ Mittag–Leffler argument, whose uniform rate comes from the fact that the
 torsion in the cohomology of $P^\bullet$ is killed by a fixed power of
 $\pi_E$ (Proposition [sk-prop-integral-local-structure]). This description
 of the integral constructible category is due to Bhatt and
-Scholze (BS).
+Scholze [bhatt-scholze15].
 
 With the categories in place we can state the main theorem of
 Part “The six operations” (Theorem [sk-thm-existence]): for every

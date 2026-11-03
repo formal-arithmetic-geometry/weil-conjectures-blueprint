@@ -11,7 +11,7 @@ than $c_1$, as measured by powers of ideals. Then the trace class near
 a connected component of the fixed point scheme meeting $Z$ can be
 computed by restricting the correspondence to $Z$. With our convention
 $u:c_2^*K\to c_1^!K$ for the legs, the leg that contracts is $c_2$,
-whereas in (Var) it is the first leg. In the first lemma we
+whereas in [varshavsky05] it is the first leg. In the first lemma we
 deform $c$ to the normal cones. By the hypothesis $I_2^n\subset I_1^{n+1}$
 of that lemma, the special fibre of $c_2$ then
 maps into the zero section, while the inverse image of the zero section

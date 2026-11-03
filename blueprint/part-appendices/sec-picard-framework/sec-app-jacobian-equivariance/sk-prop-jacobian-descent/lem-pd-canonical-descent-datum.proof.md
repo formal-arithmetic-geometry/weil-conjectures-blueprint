@@ -12,7 +12,7 @@ condition is [lem-pd-descent-cocycle]. So the transports form a descent
 datum in transport form. By the Yoneda lemma this is the same as an
 isomorphism $\varphi:\mathrm{pr}_0^*V\to\mathrm{pr}_1^*V$ over
 $X\times_YX$ satisfying the cocycle condition of [def-pd-descent-datum]
-(Stacks, Tag 023V): $\varphi$ is the transport for the universal pair
+([Stacks, Tag 023V](https://stacks.math.columbia.edu/tag/023V)): $\varphi$ is the transport for the universal pair
 $\mathrm{pr}_0,\mathrm{pr}_1$.
 
 For the special case, take $X=\Spec(k_s)$, $Y=\Spec(k)$ and

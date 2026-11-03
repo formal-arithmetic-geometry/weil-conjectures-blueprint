@@ -44,5 +44,5 @@ $$
 Its last two terms preserve products and derived inverse limits, and hence
 so does their fibre $j_!$. Since $j_!$ is exact and products are exact, we get the
 corresponding statements about limits of sheaves of modules.
-The argument with the functor $v$ is (BS, §6.1); see also
+The argument with the functor $v$ is [bhatt-scholze15, §6.1]; see also
 [Stacks, Tag 09AA](https://stacks.math.columbia.edu/tag/09AA), [Stacks, Tag 09AH](https://stacks.math.columbia.edu/tag/09AH), [Stacks, Tag 09BM](https://stacks.math.columbia.edu/tag/09BM) and [Stacks, Tag 09BP](https://stacks.math.columbia.edu/tag/09BP).

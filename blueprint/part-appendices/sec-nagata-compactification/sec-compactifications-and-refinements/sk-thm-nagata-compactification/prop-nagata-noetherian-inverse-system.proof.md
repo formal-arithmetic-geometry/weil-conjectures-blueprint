@@ -9,7 +9,7 @@ $S_{\leq m}=V_1\cup\dots\cup V_m$ admits a Noetherian approximation; the
 case $m=n$ is the claim. The empty open is affine, and affine schemes
 admit Noetherian approximations by
 [lemma-nagata-noetherian-inverse-system-affine]. For the induction step
-(Stacks, Tag 07RN) put $X=S_{\leq m+1}$, $U=S_{\leq m}$ and $V=V_{m+1}$,
+([Stacks, Tag 07RN](https://stacks.math.columbia.edu/tag/07RN)) put $X=S_{\leq m+1}$, $U=S_{\leq m}$ and $V=V_{m+1}$,
 so that $X=U\cup V$ is quasi-separated, $U$ is quasi-compact with a
 Noetherian approximation $U=\varprojlim_{i}U_i$, and $V$ is affine.
 

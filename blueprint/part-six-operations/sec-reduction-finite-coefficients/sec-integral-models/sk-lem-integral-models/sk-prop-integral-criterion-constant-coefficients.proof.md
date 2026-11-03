@@ -2,7 +2,7 @@
 kind  = "proof"
 of    = "det-prop-integral-criterion-constant-coefficients"
 +++
-(1) This is \stacks{099L}. Concretely: $\cO_{E,X}$ is $\pi_E$-torsion free, being a limit of
+(1) This is [Stacks, Tag 099L](https://stacks.math.columbia.edu/tag/099L). Concretely: $\cO_{E,X}$ is $\pi_E$-torsion free, being a limit of
 the sheaves $(\cO_E/\pi_E^n)_X$ along which multiplication by $\pi_E$ is compatible with
 the injections $\cO_E/\pi_E^{n-1}\xrightarrow{\pi_E}\cO_E/\pi_E^n$. On the pro-étale site
 the limit along the surjections $(\cO_E/\pi_E^{n+1})_X\to(\cO_E/\pi_E^n)_X$ has
@@ -21,7 +21,7 @@ so $\cO_{E,X}(U)\otimes_{\cO_E}N'(U)\to\cO_{E,X}(U)\otimes_{\cO_E}N(U)$ is injec
 $U$, and sheafification preserves injectivity. Hence $\cO_{E,X}\otimes_{(\cO_E)_X}-$ is exact.
 
 (2) and (3). A ring map $c$ which is flat and an isomorphism modulo $\pi_E^n$ for all $n$
-induces, by \stacks{099I}, an equivalence between derived complete objects as stated. The
+induces, by [Stacks, Tag 099I](https://stacks.math.columbia.edu/tag/099I), an equivalence between derived complete objects as stated. The
 reason: for $K$ over $\cO_{E,X}$, flatness gives
 $K\otimes^{\mathbf L}_{(\cO_E)_X}(\cO_E)_X/\pi_E^n=K\otimes^{\mathbf L}_{\cO_{E,X}}\cO_{E,X}/\pi_E^n$
 by (1), which is (3); derived completeness is the condition

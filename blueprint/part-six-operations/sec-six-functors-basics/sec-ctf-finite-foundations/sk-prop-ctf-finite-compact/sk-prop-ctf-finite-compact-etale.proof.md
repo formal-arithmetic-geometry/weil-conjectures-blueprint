@@ -22,9 +22,8 @@ $$
 *Sums.* Each functor in $K\mapsto R\Gamma(S,L^\vee\otimes u^*i^*\fib(K\to Rj_*j^*K))$ preserves arbitrary
 direct sums of unbounded complexes: $j^*$, $i^*$, $u^*$ are left adjoints; $L^\vee\otimes-$ is a left adjoint;
 fibers commute with sums; and $Rj_*$, $R\Gamma(S,-)$ have finite cohomological dimension on $\ell$-primary
-torsion sheaves in our setting, so they commute with direct sums of unbounded complexes (Stacks, Tag
-0F11), for $A$-modules because derived direct image and global sections commute with forgetting the
-coefficient ring (Stacks, Tag 0D6J). Hence
+torsion sheaves in our setting, so they commute with direct sums of unbounded complexes ([Stacks, Tag 0F11](https://stacks.math.columbia.edu/tag/0F11)), for $A$-modules because derived direct image and global sections commute with forgetting the
+coefficient ring ([Stacks, Tag 0D6J](https://stacks.math.columbia.edu/tag/0D6J)). Hence
 $R\operatorname{Hom}(a_!L,\bigoplus K_s)=\bigoplus R\operatorname{Hom}(a_!L,K_s)$, and taking $H^0$ gives
 $\Hom(a_!L,\bigoplus K_s)=\bigoplus\Hom(a_!L,K_s)$ (cohomology of complexes of abelian groups commutes with
 sums).

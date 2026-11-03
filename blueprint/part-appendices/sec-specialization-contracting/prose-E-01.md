@@ -21,7 +21,7 @@ possible sense, because its differential is zero.
 The algebraic notion of contraction is measured by powers of ideals. Let
 $c=(c_1,c_2):C\to X\times X$ be a correspondence, $Z\subset X$ a closed
 subscheme with ideal $I$, and put $I_i=c_i^{-1}(I)\mathcal O_C$. We say,
-as in (Var), that $c$ contracts towards $Z$ if
+as in [varshavsky05], that $c$ contracts towards $Z$ if
 $I_2\subset I_1$ and $I_2^n\subset I_1^{n+1}$ for some $n\geq1$. For the
 Frobenius correspondence $c=(\mathrm{id},\Phi_X^m)$ and $Z$ a point
 $y\in X_0(\mathbf F_{q^m})$, choose coordinates $x_i$ of an affine
@@ -34,7 +34,7 @@ fixed locus that meets $Z$ can be computed on $Z$ alone, from the
 correspondence restricted to $Z$. For $Z$ a point, the local term at an
 isolated fixed point is the trace on the stalk
 (Corollary [sk-cor-tf-contracting-input]); here $X$ may be singular. The theorem
-and its proof are due to Varshavsky (Var). They generalize
+and its proof are due to Varshavsky [varshavsky05]. They generalize
 the theorem, conjectured by Deligne, that the local terms of a
 correspondence composed with a sufficiently high power of Frobenius are
 the naive ones; Pink proved it in 1992 assuming resolution of
@@ -57,7 +57,7 @@ Verdier's theorem (Theorem [sk-thm-tf-sp-zero-section]). To specialize a
 trace class at all, we need nearby cycles to commute with external
 products and with Verdier duality, since a trace class is built from
 $K\boxtimes\mathbb DK$; we prove both by a dimension argument of
-Illusie (Ill) (Propositions [sk-prop-tf-nearby-external-kunneth]
+Illusie [illusie94] (Propositions [sk-prop-tf-nearby-external-kunneth]
 and [sk-prop-tf-nearby-duality-foundation]). This machinery, which the main
 text never needs, is why the result is an appendix.
 

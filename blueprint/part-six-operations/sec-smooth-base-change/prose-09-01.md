@@ -17,7 +17,7 @@ quasi-compact quasi-separated $f$: when $g:Y'\to Y$ is smooth and $F$ is a
 torsion sheaf whose torsion orders are invertible on $Y$, the base change
 map $g^*R^qf_*F\to R^qf'_*g'^*F$ is an isomorphism
 (Theorem [sk-thm-smooth-base-change]). The theorem is due to Artin
-(SGA 4, Exposé XVI (SGA4)).
+(SGA 4, Exposé XVI [sga4]).
 
 In topology the corresponding statement is close to obvious. If $g$ is a
 local homeomorphism, base change along $g$ is restriction to open

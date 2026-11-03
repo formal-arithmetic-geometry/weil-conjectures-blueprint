@@ -4,7 +4,7 @@ of = "det-formal-closed-support-ii-left-exact"
 +++
 By part (1) of [sk-lem-formal-closed-support], $R\underline\Gamma_Z$ is right adjoint to
 $i_*\colon\D(Z_{\mathrm{proét}},\Lambda)\to\D(X_{\mathrm{proét}},\Lambda)$. The functor $i_*$ on sheaves is exact
-(Stacks, Tag 09BM), so its derived functor is $i_*$ applied termwise and carries
+([Stacks, Tag 09BM](https://stacks.math.columbia.edu/tag/09BM)), so its derived functor is $i_*$ applied termwise and carries
 $\D^{\leq -1}(Z_{\mathrm{proét}},\Lambda)$ into $\D^{\leq-1}(X_{\mathrm{proét}},\Lambda)$.
 
 Let $K\in\D^{\geq0}(X_{\mathrm{proét}},\Lambda)$. For every $A\in\D^{\leq-1}(Z_{\mathrm{proét}},\Lambda)$,

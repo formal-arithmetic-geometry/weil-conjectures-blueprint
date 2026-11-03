@@ -5,7 +5,7 @@ title = "Global duality and the Poincaré pairing"
 order = 515
 +++
 For $f=a_X$, the exchange formulas become dualities between
-compactly supported and ordinary cohomology (compare (PDBP)).
+compactly supported and ordinary cohomology (compare [pdbp]).
 Over an algebraically closed field the target of $a_X$ is the category
 of perfect $\Lambda$-complexes, where $\mathbb D_s$ is
 $R\!\operatorname{Hom}_\Lambda(-,\Lambda)$, and the first two Verdier exchange formulas

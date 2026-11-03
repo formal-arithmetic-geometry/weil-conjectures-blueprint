@@ -48,8 +48,7 @@ component, and the one extending $f$ must be $(Ri_!Ri^!f,f,Rj_*Lj^*f)$, as
 these components commute with $\varepsilon$ and $\eta$ by naturality. For
 $L=L'$, $f=\mathrm{id}$ and two choices $\delta_L$, $\delta'_L$ of connecting
 map, the morphism of triangles is $(\mathrm{id},\mathrm{id},\mathrm{id})$, and
-compatibility with the connecting maps gives $\delta_L=\delta'_L$ (BBD,
-1.1.9–1.1.10).
+compatibility with the connecting maps gives $\delta_L=\delta'_L$ [bbd82, 1.1.9–1.1.10].
 
 Source: open–closed localization in SGA 4, XVII–XVIII; used in SGA 5, III,
 proof of 1.7.4.

@@ -43,7 +43,7 @@ $\operatorname{tr}(\operatorname{ad}x\operatorname{ad}y)$ is identically
 zero. The proof of Proposition [sk-p-lie]
 divides by the dimension of a vector space. Since the monodromy groups are defined over $\overline{\mathbf Q}_\ell$, this
 is no restriction. For the classical theorems of Lie, Engel and Cartan we
-refer to Humphreys (Hum) and sketch only the step where the
+refer to Humphreys [humphreys72] and sketch only the step where the
 characteristic matters.
 
 Throughout, $\Omega$ is an algebraically closed

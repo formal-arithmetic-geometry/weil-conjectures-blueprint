@@ -15,10 +15,10 @@ independence of $\ell$ (Theorem [sk-thm-weil-final]).
 For curves this goes back to Weil, who used the Jacobian and the
 positivity of the Rosati involution. In higher dimension no such
 structure is available, and Deligne found two different arguments. In
-his first proof (De1) he fibred $X_0$ by a Lefschetz pencil
+his first proof [deligne74] he fibred $X_0$ by a Lefschetz pencil
 and bounded the eigenvalues on the cohomology of the fibres, using the
 monodromy of the pencil and an argument of Rankin's from the theory of
-modular forms. In his second paper (De2) he proved much
+modular forms. In his second paper [deligne80] he proved much
 more, a theorem about all sheaves:
 
 > if $K$ has weights at most $w$, then so does $Rf_!K$
@@ -30,7 +30,7 @@ $\mathcal H^i$ is mixed with weights at most $w+i$. Applied to the constant shea
 on a smooth proper $X_0$, the theorem gives the upper bound
 $|\iota(\alpha)|\le q^{i/2}$ on $H^i$, and Poincaré duality, which pairs
 $\alpha$ with $q^d/\alpha$ on $H^{2d-i}$, gives the lower bound. We follow
-Laumon's proof of Deligne's theorem (Lau), which replaces the
+Laumon's proof of Deligne's theorem [laumon87], which replaces the
 Lefschetz pencil by the $\ell$-adic Fourier transform.
 
 The theorem is stated for sheaves because the proof needs sheaves.

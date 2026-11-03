@@ -4,7 +4,7 @@ of    = "det-lem-formal-closed-support-derived"
 uses = ["det-lem-formal-closed-support-sheaves", "sk-prop-sf-open-closed-triangle"]
 +++
 K-injective resolutions with injective terms exist in
-$\Mod(X_{\mathrm{proét}},\Lambda)$, a Grothendieck abelian category (Stacks, Tag 079P).
+$\Mod(X_{\mathrm{proét}},\Lambda)$, a Grothendieck abelian category ([Stacks, Tag 079P](https://stacks.math.columbia.edu/tag/079P)).
 
 *(1)* Represent $K$ by a K-injective complex $I^\bullet$. Then
 $R\underline\Gamma_ZK=\underline\Gamma_ZI^\bullet$, which is K-injective by
