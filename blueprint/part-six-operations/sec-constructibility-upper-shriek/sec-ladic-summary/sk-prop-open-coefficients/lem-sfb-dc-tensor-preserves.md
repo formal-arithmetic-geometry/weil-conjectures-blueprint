@@ -2,6 +2,7 @@
 id = "lem-sfb-dc-tensor-preserves"
 kind = "lemma"
 title = "$\\otimes^{\\mathrm L}$ preserves bounded constructible complexes ($\\ell$-adic $\\Lambda$)"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructible_tensor_closure"]
 order = 2720
 uses = ["det-def-sfb-bounded-constructible", "det-def-sfb-condensed-ring", "det-def-sfb-dc-setting", "det-def-sfb-derived-tensor-hom", "det-def-sfb-qlbar-condensed"]
 +++
