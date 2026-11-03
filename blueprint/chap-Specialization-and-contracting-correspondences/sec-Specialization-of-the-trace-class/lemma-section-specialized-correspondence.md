@@ -1,0 +1,20 @@
++++
+id = "lemma-section-specialized-correspondence"
+kind = "lemma"
+title = "The section defined by the specialized correspondence"
+order = 1683
++++
+In the setting above,
+
+$$
+\mathfrak h_c\Psi_C(\lambda_{c_\eta,K})
+=\lambda_{c_s,K'}\,c_s^!\rho\,\beta_c(P_X).
+\tag{E.20}
+$$
+
+Consequently, if $k_u:A_{C_\eta}\to c_\eta^!P_X$ is the section
+corresponding to $u$, then the section corresponding to $u_s$ is
+
+$$
+k_{u_s}=c_s^!\rho\,\beta_c\,\Psi_C(k_u)\,\sigma_C.
+$$

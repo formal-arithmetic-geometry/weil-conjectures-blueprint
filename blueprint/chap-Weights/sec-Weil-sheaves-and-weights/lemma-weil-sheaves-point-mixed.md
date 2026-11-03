@@ -1,0 +1,10 @@
++++
+id = "lemma-weil-sheaves-point-mixed"
+kind = "lemma"
+title = "Weil sheaves on a point are mixed"
+order = 1053
++++
+Every constructible Weil $\overline{\mathbf Q}_\ell$-sheaf on $\operatorname{Spec}k_0$ is
+mixed. A constructible Weil $E$-sheaf on $\operatorname{Spec}k_0$
+becomes mixed after extending scalars to a finite extension of $E$
+containing the eigenvalues of Frobenius.
