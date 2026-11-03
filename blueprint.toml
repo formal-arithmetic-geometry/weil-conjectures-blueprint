@@ -2,17 +2,39 @@
 
 [project]
 name = "weil-conjectures"
-title = "The Weil conjectures"
+title = "Weil Conjectures"
 dir = "blueprint"
 
 [lean]
 modules = ["WeilConjectures"]
 
 [site]
-theme = "outline" # the style the website opens in
+theme = "outline"        # the style the website opens in
+assets = "site-assets"   # copied into the site as assets/
+logo = "assets/R1b-W-mirror-sigma-ink.svg"   # left of the title in the top bar
+logoInk = false          # its own colours: black, and light grey in dark mode (the SVG says so)
 
+# The opening film: the title is written by hand over a faded letter, wiped
+# down to its W, which turns into the logo; the logo flies onto the top bar's,
+# and the view zooms through the pictures below into the graph.  intro.md is
+# written by scripts/intro_title.py.  See [site.intro] in docs/cli.md of the
+# blueprint tool.
 [site.intro]
-file = "intro.md"  # shown in the middle of the screen as the site opens, then the graph
+file = "intro.md"                        # the title, an animated SVG
+background = "assets/deligne-letter-1969.jpg"   # Deligne to Weil, 1 July 1969 (see site-assets/CREDITS.md)
+hold = 5.35                              # writing 1.6, still 0.6, wiping 2 x 0.8, the W 0.8, the mirror 0.75 s
+step = [1.2, 1.8, 1.8]                   # seconds per step of the zoom, at one speed
+
+[[site.intro.zoom]]
+nodes = ["Weil Conjecture"]
+
+[[site.intro.zoom]]
+nodes = [
+  { id = "pre", title = "Preliminaries" },
+  { id = "six", title = "Part I: Six Operations" },
+  { id = "weight", title = "Part II: Weight Theory" },
+]
+arrows = [["pre", "six"], ["six", "weight"], ["pre", "weight"]]
 
 [katex.macros]
 "\\Aaf" = "\\mathbf A"
