@@ -8,16 +8,16 @@ own clock, which the website starts as the title appears:
 
   0.00-1.60 s  the title is written, stroke by stroke;
   1.60-2.20 s  still;
-  2.20-3.00 s  a blackboard eraser wipes from right to left, all but the tops
-               of the letters on the left, as an eraser leaves them;
-  3.00-3.80 s  and from left to right over those tops, wiping them too, while
-               the W turns into the W of the logo;
-  3.80-4.55 s  the logo's diagonal is drawn from lower left to upper right; it
+  2.20-3.00 s  a blackboard eraser wipes the upper two thirds of every letter
+               but the W, from right to left;
+  3.00-3.80 s  and then the lower third, from left to right;
+  3.80-4.60 s  the W, alone now, turns into the W of the logo;
+  4.60-5.35 s  the logo's diagonal is drawn from lower left to upper right; it
                is a mirror, and the part of the Sigma (the W's reflection) on
                the lower left of the perpendicular through its tip shows.
 
 The website then flies the frame marked `data-intro-logo` onto the top bar's
-logo (`[site.intro] hold` is the 4.55 s).  Usage, from the repository's root,
+logo (`[site.intro] hold` is the 5.35 s).  Usage, from the repository's root,
 with the font file beside it:
 
   nix-shell -p "python3.withPackages (ps: with ps; [ fonttools numpy scikit-image ])" \\
@@ -49,13 +49,14 @@ DIAG = ((4, 60), (60, 4))
 T_WRITE, T_STILL = 1.6, 0.6
 PEN_LIFT = 0.02  # between two strokes
 T_PASS = 0.8  # each pass of the eraser
+T_MORPH = 0.8  # the W turning into the logo's
 T_MIRROR = 0.75
-LEFT_SHARE = 0.45  # of the letters after the W, where the first pass leaves the tops
-TOP_LEFT = 40  # above this the first pass leaves the letters there (SVG units)
+UPPER = 2 / 3  # of the letters' height, wiped by the first pass
 
 T_E1 = T_WRITE + T_STILL
 T_E2 = T_E1 + T_PASS
-T_M = T_E2 + T_PASS
+T_W = T_E2 + T_PASS
+T_M = T_W + T_MORPH
 T_END = T_M + T_MIRROR
 
 
@@ -399,16 +400,15 @@ def main(font_path):
         bodies.append(f'<path d="{d}" mask="url(#wc-pen{li})"/>')
     w_body, rest_bodies = bodies[0], "".join(bodies[1:])
 
-    # The eraser.  First right to left over everything but the tops of the
-    # letters on the left; then left to right over those tops.
+    # The eraser.  First right to left over the upper two thirds of the
+    # letters; then left to right over the lower third.
     first_x = min(p[0] for _, _, cs in rest for c in cs for p in c)
-    split = first_x + LEFT_SHARE * (x_max - first_x)
-    band = 70
-    ramp = lambda x: min(1.0, max(0.0, (x - split) / 60))  # noqa: E731
-    low_top = TOP_LEFT + band / 2  # the band's top edge at TOP_LEFT
-    e1 = zigzag(x_max + 10, first_x - 6,
-                lambda x: low_top + (y_min + 6 - low_top) * ramp(x), lambda x: y_max - 6, 34, 0.0)
-    e2 = zigzag(first_x - 6, split + 40, lambda x: y_min - 2, lambda x: TOP_LEFT + 14, 30, 1.3)
+    cut = y_min + UPPER * (y_max - y_min)
+    # A zigzag covers the whole strip between its turns, so the turns lie on
+    # the strip's edges, and the second strip overlaps the first a little.
+    band1, band2 = 40, 32
+    e1 = zigzag(x_max + 16, first_x - 10, lambda x: y_min - 10, lambda x: cut + 10, 24, 0.0)
+    e2 = zigzag(first_x - 10, x_max + 16, lambda x: cut - 10, lambda x: y_max + 12, 24, 1.3)
 
     def eraser(i, ps, width, begin):
         e = n(length(ps))
@@ -424,26 +424,23 @@ def main(font_path):
 
     ease = 'calcMode="spline" keyTimes="0;1" keySplines=".5 0 .3 1"'
     m, dm = f"{n(T_M)}s", f"{T_MIRROR}s"
-    e2s = f"{n(T_E2)}s"
+    ws = f"{n(T_W)}s"
 
     svg = f'''<svg class="wc-title" xmlns="http://www.w3.org/2000/svg" viewBox="{" ".join(n(v) for v in vb)}" role="img" aria-label="Weil Conjectures" style="display:block;width:8.2em;max-width:94vw;height:auto;overflow:visible;color:{COLOR}" fill="currentColor">
 <defs>
 <filter id="wc-chalk" {box} filterUnits="userSpaceOnUse"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="7" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2 1.95" result="g"/><feComposite in="SourceGraphic" in2="g" operator="in"/></filter>
-<filter id="wc-rag" {box} filterUnits="userSpaceOnUse"><feTurbulence type="fractalNoise" baseFrequency=".05" numOctaves="2" seed="3" result="t"/><feDisplacementMap in="SourceGraphic" in2="t" scale="18" xChannelSelector="R" yChannelSelector="G"/><feGaussianBlur stdDeviation="2.5"/></filter>
-<filter id="wc-dust-blur" {box} filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="5"/></filter>
+<filter id="wc-rag" {box} filterUnits="userSpaceOnUse"><feTurbulence type="fractalNoise" baseFrequency=".05" numOctaves="2" seed="3" result="t"/><feDisplacementMap in="SourceGraphic" in2="t" scale="12" xChannelSelector="R" yChannelSelector="G"/><feGaussianBlur stdDeviation="2.5"/></filter>
 {"".join(masks)}
-{eraser(1, e1, band, T_E1)}
-{eraser(2, e2, 46, T_E2)}
+{eraser(1, e1, band1, T_E1)}
+{eraser(2, e2, band2, T_E2)}
 <mask id="wc-erased" maskUnits="userSpaceOnUse" {box}><rect {box} fill="white"/><use href="#wc-eraser1" stroke="black" filter="url(#wc-rag)"/><use href="#wc-eraser2" stroke="black" filter="url(#wc-rag)"/></mask>
-<mask id="wc-dust" maskUnits="userSpaceOnUse" {box}><use href="#wc-eraser1" stroke="white" filter="url(#wc-rag)"/><use href="#wc-eraser2" stroke="white" filter="url(#wc-rag)"/></mask>
 <clipPath id="wc-mirror" clipPathUnits="userSpaceOnUse"><polygon points="{clip(-56)}"><animate attributeName="points" from="{clip(-56)}" to="{clip(56)}" begin="{m}" dur="{dm}" fill="freeze"/></polygon></clipPath>
 <g id="wc-rest">{rest_bodies}</g>
 </defs>
 <g filter="url(#wc-chalk)">
-<g mask="url(#wc-erased)"><use href="#wc-rest"/></g>
-<g mask="url(#wc-dust)" opacity="0"><use href="#wc-rest" filter="url(#wc-dust-blur)"/><animate attributeName="opacity" values="0;.05;.03;.05;0" keyTimes="0;.25;.5;.75;1" begin="{n(T_E1)}s" dur="{n(2 * T_PASS + 0.2)}s" fill="freeze"/></g>
-<g>{w_body}<animate attributeName="opacity" from="1" to="0" begin="{e2s}" dur=".15s" fill="freeze"/></g>
-<polyline points="{pts(main)}" fill="none" stroke="currentColor" stroke-width="{n(w_line)}" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="{e2s}" dur=".15s" fill="freeze"/><animate attributeName="points" from="{pts(main)}" to="{pts(targets)}" begin="{e2s}" dur="{n(T_PASS)}s" fill="freeze" {ease}/><animate attributeName="stroke-width" from="{n(w_line)}" to="{n(LOGO_STROKE * k)}" begin="{e2s}" dur="{n(T_PASS)}s" fill="freeze" {ease}/></polyline>
+<g mask="url(#wc-erased)"><use href="#wc-rest"/><animate attributeName="opacity" from="1" to="0" begin="{n(T_W - 0.2)}s" dur=".2s" fill="freeze"/></g>
+<g>{w_body}<animate attributeName="opacity" from="1" to="0" begin="{ws}" dur=".15s" fill="freeze"/></g>
+<polyline points="{pts(main)}" fill="none" stroke="currentColor" stroke-width="{n(w_line)}" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="{ws}" dur=".15s" fill="freeze"/><animate attributeName="points" from="{pts(main)}" to="{pts(targets)}" begin="{ws}" dur="{n(T_MORPH)}s" fill="freeze" {ease}/><animate attributeName="stroke-width" from="{n(w_line)}" to="{n(LOGO_STROKE * k)}" begin="{ws}" dur="{n(T_MORPH)}s" fill="freeze" {ease}/></polyline>
 <g transform="translate({n(lx)} {n(ly)}) scale({n(k)})" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
 <rect data-intro-logo="" width="64" height="64" stroke="none"/>
 <line x1="{DIAG[0][0]}" y1="{DIAG[0][1]}" x2="{DIAG[0][0]}" y2="{DIAG[0][1]}" stroke-width="{LOGO_DIAG_STROKE}" visibility="hidden"><set attributeName="visibility" to="visible" begin="{m}" fill="freeze"/><animate attributeName="x2" from="{DIAG[0][0]}" to="{DIAG[1][0]}" begin="{m}" dur="{dm}" fill="freeze"/><animate attributeName="y2" from="{DIAG[0][1]}" to="{DIAG[1][1]}" begin="{m}" dur="{dm}" fill="freeze"/></line>
