@@ -2,6 +2,7 @@
 id = "det-proper-unbounded-window-bounded-below"
 kind = "lemma"
 title = "Proper direct image of bounded-below ind-constructible complexes"
+lean = ["AlgebraicGeometry.ProEtale.proper_indConstructible_boundedBelow"]
 order = 2456
 uses = ["sk-lem-proper-heart-bound", "sk-prop-ind-heart"]
 +++

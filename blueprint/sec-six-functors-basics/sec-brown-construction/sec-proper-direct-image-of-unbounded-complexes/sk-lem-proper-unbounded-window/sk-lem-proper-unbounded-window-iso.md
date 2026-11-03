@@ -2,6 +2,7 @@
 id = "det-proper-unbounded-window-iso"
 kind = "lemma"
 title = "The window isomorphism for proper direct image"
+lean = ["AlgebraicGeometry.ProEtale.proper_unbounded_window_iso"]
 order = 2458
 uses = ["det-proper-unbounded-window-arbitrary"]
 +++

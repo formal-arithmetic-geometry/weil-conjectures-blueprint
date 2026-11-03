@@ -2,6 +2,7 @@
 id = "det-brown-hypotheses-small"
 kind = "lemma"
 title = "$\\Dctf(X,\\Lambda)$ is thick and essentially small"
+lean = ["AlgebraicGeometry.ProEtale.det_brown_hypotheses_small"]
 order = 2531
 uses = ["sk-def-sfb-constructible"]
 +++

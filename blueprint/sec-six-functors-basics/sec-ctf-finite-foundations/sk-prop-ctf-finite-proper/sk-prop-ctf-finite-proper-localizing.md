@@ -2,6 +2,7 @@
 id = "det-ctf-finite-proper-localizing"
 kind = "lemma"
 title = "Finite-coefficient proper direct image on the localizing categories"
+lean = ["AlgebraicGeometry.ProEtale.finiteProperLocalizing"]
 order = 2383
 uses = ["det-ctf-finite-proper-tor", "lem-amb-proper-coproducts", "sk-prop-ctf-finite-comparison", "sk-thm-properbasechange"]
 +++

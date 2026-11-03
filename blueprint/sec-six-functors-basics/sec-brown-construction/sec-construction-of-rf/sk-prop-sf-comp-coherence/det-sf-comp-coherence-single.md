@@ -2,6 +2,7 @@
 id = "det-sf-comp-coherence-single"
 kind = "lemma"
 title = "Compact support along one compactification on the localizing category"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.compactification_localizing"]
 order = 2511
 uses = ["sk-prop-proper-image-localizing", "sk-prop-ctf-finite-proper", "sk-thm-sfb-proper-base-change"]
 +++

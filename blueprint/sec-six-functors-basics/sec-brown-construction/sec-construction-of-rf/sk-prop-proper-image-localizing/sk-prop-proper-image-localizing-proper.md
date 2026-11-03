@@ -2,6 +2,7 @@
 id = "det-proper-image-localizing-proper"
 kind = "lemma"
 title = "Proper direct image on the localizing categories"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.proper_image_localizing_proper"]
 order = 2485
 uses = ["det-proper-image-localizing-principle", "sk-thm-sfb-proper-base-change", "det-lem-proper-unbounded-window-ii", "sk-prop-ctf-finite-proper", "sk-prop-int-compactness", "sk-cor-ambient-ind-derived"]
 +++

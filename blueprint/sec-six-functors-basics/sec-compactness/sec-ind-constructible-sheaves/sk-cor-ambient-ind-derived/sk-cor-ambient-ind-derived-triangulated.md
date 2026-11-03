@@ -2,6 +2,7 @@
 id = "det-ambient-ind-derived-triangulated"
 kind = "lemma"
 title = "$\\Dic(X,\\Lambda)$ is a triangulated subcategory"
+lean = ["AlgebraicGeometry.ProEtale.indConstructibleDerived_isTriangulated"]
 order = 2434
 uses = ["sk-prop-ind-heart"]
 +++

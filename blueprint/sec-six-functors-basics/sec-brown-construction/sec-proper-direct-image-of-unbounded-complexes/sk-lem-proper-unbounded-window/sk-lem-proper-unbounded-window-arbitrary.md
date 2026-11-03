@@ -2,6 +2,7 @@
 id = "det-proper-unbounded-window-arbitrary"
 kind = "lemma"
 title = "Proper direct image of unbounded ind-constructible complexes"
+lean = ["AlgebraicGeometry.ProEtale.proper_indConstructible_unbounded"]
 order = 2457
 uses = ["det-proper-unbounded-window-bounded-below", "sk-prop-pe-left-complete", "sk-prop-pe-milnor"]
 +++

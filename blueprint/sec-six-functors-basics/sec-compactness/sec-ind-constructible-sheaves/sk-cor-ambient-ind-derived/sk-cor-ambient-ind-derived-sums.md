@@ -2,6 +2,7 @@
 id = "det-ambient-ind-derived-sums"
 kind = "lemma"
 title = "Sums and truncations in $\\Dic(X,\\Lambda)$; the localizing closure"
+lean = ["AlgebraicGeometry.ProEtale.indConstructibleDerived_sums_and_truncations"]
 order = 2435
 uses = ["det-ambient-ind-derived-triangulated", "sk-def-localizing-closure", "sk-prop-ind-heart"]
 +++
