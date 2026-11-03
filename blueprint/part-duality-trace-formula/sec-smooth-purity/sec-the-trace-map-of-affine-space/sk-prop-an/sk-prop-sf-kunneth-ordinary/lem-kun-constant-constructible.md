@@ -2,6 +2,7 @@
 id = "lem-kun-constant-constructible"
 kind = "lemma"
 title = "Constant sheaves are constructible"
+lean = ["AlgebraicGeometry.Scheme.isConstructibleSheaf_constantSheaf"]
 order = 3158
 uses = ["def-kun-constant-sheaf", "def-weil-pbc-constructible-complexes", "def-weil-pbc-scheme-conventions"]
 +++
