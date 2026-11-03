@@ -16,8 +16,10 @@ base change), and its Tor amplitude over $B_T$ lies in $[a,b]$ since for every
 $B_T$-module $N$, $K_B\otimes^{\mathbf L}_{B_T}N\simeq P\otimes_{A_T}N$ is computed by
 the complex $P\otimes_{A_T}N$ in degrees $[a,b]$.
 
-*Constructibility.* Since $A$ is Noetherian and $B$ is a finite $A$-module, choose a
-resolution $F\to B$ by finite free $A$-modules $F^{-i}=A^{n_i}$, and let
+*Constructibility.* Since $A$ is a finite ring (hence Noetherian) and $B$ is a
+finite $A$-module, choose a bounded-above resolution $F\to B$ whose terms are
+finite free $A$-modules $F^{-i}=A^{n_i}$, $i\ge0$; it may be infinite to the left
+($B$ need not have finite projective dimension over $A$). Let
 $F_{\geq-N}$ be its stupid truncation. The cone of $F_{\geq-N}\to F$ is
 concentrated in degrees $\leq-N-1$, so, $K$ having Tor amplitude in $[a,b]$,
 $K\otimes^{\mathbf L}_A F_{\geq-N}\to K\otimes^{\mathbf L}_AF\simeq K_B$ induces
@@ -25,7 +27,14 @@ isomorphisms on $\mathcal H^r$ for $r>b-N$. The left side is a finite iterated
 cone of the objects $K^{\oplus n_i}[i]$, $0\le i\le N$, of
 $D^b_c(T_{\mathrm{proét}},A)$, hence has constructible cohomology sheaves. Taking
 $N$ large for each $r\in[a,b]$ shows that the cohomology sheaves of $K_B$ are
-constructible, so $K_B\in\Dctf(T_{\mathrm{proét}},B)$.
+constructible as sheaves of $A_T$-modules. Finally, since $A\to B$ is a map of
+finite rings, a sheaf of $B_T$-modules whose underlying $A_T$-module is
+constructible is constructible as a $B_T$-module: on a stratum where it is
+locally constant with finite value $M$, the action of each of the finitely many
+elements of $B$ is a section of the locally constant sheaf of endomorphisms of $M$,
+hence becomes constant after refining the cover. With the Tor amplitude bound
+this gives $K_B\in\Dctf(T_{\mathrm{proét}},B)$; no Noetherian hypothesis on $T$ is
+used.
 
 (3) A locally free module is flat, so the derived tensor product is the
 ordinary one, which is locally $A_T\otimes_{A_T}B_T=B_T$. The Tate sheaf
