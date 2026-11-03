@@ -246,23 +246,16 @@ jobs:
       # copies its data/ back into history/, and `site` copies history/ into
       # _site/data/, where an export whose TeX did not change is reused.
       #
-      # No bot here: the website's comments go through the comment server
-      # (below), which alone holds the Zulip bot; `site` writes only the
-      # Zulip and the channel of [site.comments] into comments-config.json.
+      # No bot here: the website's comments go through the comment server on
+      # fuxi (deploy/comments-relay.sh), which alone holds the Zulip bot;
+      # `site` writes only the Zulip and the channel of [site.comments] into
+      # comments-config.json.
       - name: Assemble the site, with its PDFs
         continue-on-error: true
         run: lake exe blueprint site --root . --facts lean-facts.json --history history -o _site --pdf
 
       - name: The site must be complete, whatever the checks said
         run: test -s _site/index.html && test -s _site/blueprint.json && test -s _site/data/index.json
-
-      # The website posts and reads its comments at api/comments/ on its own
-      # address. fuxi forwards that to a comment server it runs with the Zulip
-      # bot in its environment (deploy/fuxi-comments.nix), from the site
-      # branch: so the server is shipped with the site, the same version as
-      # the comments.js it answers.
-      - name: Ship the comment server with the site
-        run: cp .lake/packages/blueprint/web/comments-server.py _site/comments-server.py
 
       - name: Publish to the site branch
         run: |

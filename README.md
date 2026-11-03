@@ -39,8 +39,8 @@ Comments on the site go to the Zulip channel #Blueprint Comments
 (`[site.comments]` in `blueprint.toml`). A comment is public, listed below
 its page, or private, for the blueprint's authors alone. The page never talks
 to Zulip: it posts to the comment server, which relays to Zulip as a bot whose
-email and key only the server holds. On the website that is the server fuxi
-runs (`deploy/fuxi-comments.nix`); locally it is the one `serve` starts. Give
+email and key only the server holds. On the website that is the relay on
+fuxi (`deploy/comments-relay.sh`); locally it is the one `serve` starts. Give
 it the bot in its environment; without it, `serve` keeps the comments locally
 in `comments/`:
 
