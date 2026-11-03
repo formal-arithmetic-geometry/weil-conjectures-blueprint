@@ -81,11 +81,11 @@ coefficients in $\Ql$.
 
 Grothendieck constructed such a theory: $\ell$-adic cohomology, for a
 prime $\ell$ not dividing $q$. He and his collaborators proved (a), (b) and (c) in
-SGA 4 and SGA 5 (SGA4, SGA5), and this proves rationality and the
+SGA 4 and SGA 5 [sga4, SGA5], and this proves rationality and the
 functional equation (Section [sec-tf-determinants]). Purity (d) is the hard
-part. It was proved by Deligne (De1), and later in a
-more general form (De2). We follow the proof of Deligne's
-theorem on weights by the Fourier transform, due to Laumon (Lau). Its main idea is to
+part. It was proved by Deligne [deligne74], and later in a
+more general form [deligne80]. We follow the proof of Deligne's
+theorem on weights by the Fourier transform, due to Laumon [laumon87]. Its main idea is to
 prove an upper bound for the absolute values of the Frobenius
 eigenvalues (the *weights*) on the cohomology with compact supports
 of the fibres of every morphism $f$, with coefficients in every mixed

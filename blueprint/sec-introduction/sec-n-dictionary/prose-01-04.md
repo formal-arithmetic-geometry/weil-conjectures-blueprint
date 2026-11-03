@@ -23,7 +23,7 @@ takes their Fourier transforms.
 
 For cohomology to follow these manipulations, functions have to be
 replaced by sheaves. This is Grothendieck's dictionary between functions
-and sheaves (SGA4.5, Sommes trig.). A constructible complex $K$ on
+and sheaves [sga4-5, Sommes trig.]. A constructible complex $K$ on
 $X$ with a Frobenius structure (a Weil complex,
 Section [sec-frobenius]) has a *trace function*
 $t_K:X_0(\mathbf F_{q^m})\to\Ql$, whose value at $x$ is the trace of
