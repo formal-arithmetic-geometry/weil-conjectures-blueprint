@@ -7,10 +7,12 @@ that record is in the history of this file. Line numbers below refer to `Readabl
 
 ## Structure
 
-- **Sections.** The section objects are the headings of the tex, nested as in the tex: the
-  introduction, the three parts (*The six operations*, *Duality and the trace formula*, *Weights and
-  the Riemann hypothesis*) and the appendices are the top level, and every `\section`, `\subsection` and
-  `\subsubsection` is a section inside its parent, one directory each (202 section objects).
+- **Sections.** The section objects are the headings of the tex, nested as in the tex, except that the
+  three parts (*The six operations*, *Duality and the trace formula*, *Weights and the Riemann
+  hypothesis*) and the appendices have no section of their own: the introduction and every `\section`
+  are the top level, and every `\subsection` and `\subsubsection` is a section inside its parent, one
+  directory each (198 section objects). The opening text of each part stays, as a top-level text node
+  before the part's first section.
   The eighteen blocks of the previous blueprint are gone. Each block's id now names the tex section
   that took its place, so that links and history carry over:
 
@@ -69,8 +71,7 @@ that record is in the history of this file. Line numbers below refer to `Readabl
   are not edges: `sk-def-ops` → `sk-lem-pd-preservation`, `sk-lem-curve-dense-open` → `sk-thm-curve-package`, `sk-lem-pd-preservation` → `sk-lem-pd-generic-restriction`, `sk-lem-tf-independent-base-change` → `sk-lem-sf-kunneth-star`.
   The sketch-level graph has no cycle.
 - **Section arrows.** A section uses a sibling section when a sketch node inside it uses one inside the
-  other, in the direction with more such edges. So the top level reads *Duality* → *Six operations* →
-  *Appendices* → *Duality*, and *Weights* → all three: Part I needs Appendices A–D, and Appendix E needs Part II.
+  other, in the direction with more such edges; arrows the blueprint already had between two sections are kept.
 - **Cross references.** `Theorem~\ref{x}` is `Theorem [id]`, which the site reads as "Theorem 2.3.4" in its
   own numbering; `\S\ref{x}` is `Section [id]`; a reference to a part is its title in quotes; `\eqref{e}` is
   the tex number, "(4.3)", and the display carries `\tag{4.3}`. `\stacks{T}` links the Stacks Project tag
@@ -241,7 +242,7 @@ block nearest to it.
 | Algebraic groups and Lie algebras in characteristic zero | 8 | 8 | 0 | 9 | 0 |
 | **Total** | **410** | **372** | **38** | **383** | **117** |
 
-The text nodes of the parts, the abstract and the bibliography are outside the sections.
+The opening texts of the parts, the abstract and the bibliography are outside the sections.
 
 ## Tex declaration → sketch node
 

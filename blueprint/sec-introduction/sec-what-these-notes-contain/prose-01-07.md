@@ -52,7 +52,7 @@ In more detail, the parts are as follows.
   preserves $D^b_{\mathrm{ctf}}$ (Part “The six operations”), and they vanish outside
   $[0,2\dim X]$ for smooth proper $X$ (Theorem [sk-cor-trace]).
 - Part “Weights and the Riemann hypothesis” (Sections [sec-weights-deligne-theorem]–[sec-zeta-weil])
-  proves purity (d) and the Weil conjectures, following (WBP).
+  proves purity (d) and the Weil conjectures, following [wbp].
   Section [sec-weights-deligne-theorem] explains how the argument is organized.
 
 The appendices prove results from algebraic geometry that we use.
