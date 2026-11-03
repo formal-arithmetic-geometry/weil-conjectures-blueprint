@@ -2,6 +2,7 @@
 id = "def-amb-vector-integration"
 kind = "definition"
 title = "Integration along a vector bundle"
+lean = ["AlgebraicGeometry.Etale.vectorBundleIntegration"]
 order = 3268
 uses = ["def-asd-vector-bundle-zero-section", "def-coefficient-twists-detailed", "lem-amb-affine-space-top-trace", "lem-amb-linear-trace-invariance"]
 +++
