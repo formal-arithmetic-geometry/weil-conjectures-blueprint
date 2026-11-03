@@ -24,7 +24,7 @@ compatibly with every change of coefficients between them
 
 For torsion coefficients much of this is classical: SGA 4 constructs
 $Rf_!$ and $f^!$ on the étale site and proves the finiteness theorems
-for $\mathbf Z/\ell^n$ [sga4, SGA4.5]. Two things are missing for
+for $\mathbf Z/\ell^n$ [sga4, sga4-5]. Two things are missing for
 the Weil conjectures. First, the eigenvalues of Frobenius live in
 characteristic zero, so we need the same operations for $\Zl$, $\Ql$ and
 $\overline{\mathbf Q}_\ell$, compatibly with reduction modulo $\ell^n$; on the étale site
