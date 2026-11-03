@@ -2,6 +2,7 @@
 id = "det-ind-heart-filtered-colimits"
 kind = "lemma"
 title = "Ind-constructible sheaves are closed under filtered colimits and sums"
+lean = ["AlgebraicGeometry.ProEtale.indConstructible_filteredColimits_and_sums"]
 order = 2425
 uses = ["det-ind-heart-canonical-presentation"]
 +++

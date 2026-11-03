@@ -2,6 +2,7 @@
 id = "det-ind-heart-full-faithfulness"
 kind = "lemma"
 title = "Constructible sheaves are finitely presented; full faithfulness"
+lean = ["AlgebraicGeometry.ProEtale.indHeart_fullFaithfulness"]
 order = 2423
 uses = ["sk-lem-constructible-ext-continuity"]
 +++

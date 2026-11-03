@@ -2,6 +2,7 @@
 id = "lem-exc-closed-ambient"
 kind = "lemma"
 title = "Closed-immersion right adjoint before restriction"
+lean = ["AlgebraicGeometry.Etale.isLeftAdjoint_rightDerivedLowerStar_of_isClosedImmersion"]
 order = 2539
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lemma-weil-pbc-geometric-stalk-conservative", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++

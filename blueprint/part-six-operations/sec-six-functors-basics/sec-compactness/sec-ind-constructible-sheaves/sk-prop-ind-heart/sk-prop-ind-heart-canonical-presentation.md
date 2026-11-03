@@ -2,6 +2,7 @@
 id = "det-ind-heart-canonical-presentation"
 kind = "lemma"
 title = "Canonical presentation of an ind-constructible sheaf"
+lean = ["AlgebraicGeometry.ProEtale.indHeart_canonicalPresentation"]
 order = 2424
 uses = ["det-ind-heart-full-faithfulness", "sk-lem-coefficient-heart"]
 +++

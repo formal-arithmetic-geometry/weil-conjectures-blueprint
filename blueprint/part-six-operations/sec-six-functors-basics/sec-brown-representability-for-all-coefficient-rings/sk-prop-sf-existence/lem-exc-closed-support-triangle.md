@@ -2,6 +2,7 @@
 id = "lem-exc-closed-support-triangle"
 kind = "lemma"
 title = "Closed-support triangle before restriction"
+lean = ["AlgebraicGeometry.Etale.exists_etale_closedSupportTriangle"]
 order = 2540
 uses = ["def-weil-pbc-derived-categories", "def-weil-pbc-direct-image", "def-weil-pbc-etale-site", "def-weil-pbc-inverse-image", "def-weil-pbc-scheme-conventions", "lem-exc-closed-ambient", "prop-weil-pbc-kinjective-resolutions-exist"]
 +++

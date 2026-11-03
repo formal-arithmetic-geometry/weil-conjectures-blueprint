@@ -2,6 +2,7 @@
 id = "det-ind-heart-extensions"
 kind = "lemma"
 title = "Ind-constructible sheaves are closed under extensions"
+lean = ["AlgebraicGeometry.ProEtale.indConstructible_of_shortExact"]
 order = 2426
 uses = ["det-ind-heart-filtered-colimits", "sk-lem-constructible-ext-continuity", "sk-lem-coefficient-heart"]
 +++

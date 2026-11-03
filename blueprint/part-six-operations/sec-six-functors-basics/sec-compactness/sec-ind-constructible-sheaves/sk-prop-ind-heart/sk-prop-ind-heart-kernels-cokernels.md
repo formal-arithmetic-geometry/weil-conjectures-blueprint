@@ -2,6 +2,7 @@
 id = "det-ind-heart-kernels-cokernels"
 kind = "lemma"
 title = "Kernels and cokernels of ind-constructible sheaves"
+lean = ["AlgebraicGeometry.ProEtale.indHeart_kernelsCokernels"]
 order = 2427
 uses = ["det-ind-heart-canonical-presentation", "det-ind-heart-full-faithfulness", "sk-lem-coefficient-heart"]
 +++

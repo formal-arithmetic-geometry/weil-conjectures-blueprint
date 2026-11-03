@@ -2,6 +2,7 @@
 id = "det-proper-base-change-unbounded-pullback"
 kind = "lemma"
 title = "Inverse image on the localizing categories"
+lean = ["AlgebraicGeometry.ProEtale.unboundedLocalizingPullback"]
 order = 2496
 uses = ["sk-prop-sfb-cartesian-coefficients", "det-def-sfb-dc-restricted-functors", "sk-lem-sf-flat-model", "det-proper-image-localizing-principle"]
 +++

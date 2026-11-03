@@ -2,6 +2,7 @@
 id = "det-sf-determination-localizing"
 kind = "lemma"
 title = "Invertibility propagates to the localizing closure"
+lean = ["CategoryTheory.NatTrans.isoLocus_localizing"]
 order = 2493
 uses = ["lem-sf-triangle-two-out-of-three", "lem-sf-generating-class-determination"]
 +++
