@@ -2,6 +2,7 @@
 id = "det-lem-constructible-ext-continuity-stratum"
 kind = "lemma"
 title = "Continuity of Hom out of $a_!L$"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.constructibleExtContinuityStratum"]
 order = 3204
 uses = ["det-lem-formal-closed-support-stratum-hom", "det-lem-formal-closed-support-adjunction", "det-lem-bounded-continuity-sections", "det-lem-bounded-continuity-direct-image"]
 +++
