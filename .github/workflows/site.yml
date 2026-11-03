@@ -262,7 +262,7 @@ jobs:
       - name: Keep the comments on Zulip
         env:
           ZULIP_SITE: https://weil.zulip.merten.dev
-          ZULIP_CHANNEL: blueprint comment
+          ZULIP_CHANNEL: Blueprint Comments
           ZULIP_BOT_EMAIL: ${{ secrets.ZULIP_BOT_EMAIL }}
           ZULIP_BOT_API_KEY: ${{ secrets.ZULIP_BOT_API_KEY }}
         run: |
