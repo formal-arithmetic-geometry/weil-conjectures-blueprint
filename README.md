@@ -14,8 +14,8 @@ The content was imported from the project's leanblueprint LaTeX sources
 
 The blueprint follows the lecture notes *The Weil Conjectures: Six
 operations, the trace formula and Deligne's theorem on weights*
-(`Readable Lecture Notes.tex`). Its sections are the parts, sections and
-subsections of the notes; its sketch layer is the notes' theorems, lemmas,
+(`Readable Lecture Notes.tex`). Its sections are the sections and
+subsections of the notes, with the notes' sections at the top level; its sketch layer is the notes' theorems, lemmas,
 propositions, corollaries, definitions, remarks and examples, one node each;
 and the text between them is kept as nodes of kind `hidden`, which the
 document shows in place and the graph leaves out. The Lean-backed detail
