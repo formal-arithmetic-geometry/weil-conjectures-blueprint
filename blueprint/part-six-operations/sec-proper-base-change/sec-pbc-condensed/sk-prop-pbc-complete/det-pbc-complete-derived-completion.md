@@ -2,6 +2,7 @@
 id = "det-pbc-complete-derived-completion"
 kind = "lemma"
 title = "Towers of $\\mathcal O_E$-modules and the derived completion"
+lean = ["AlgebraicGeometry.ProEtale.completeDerivedCompletion"]
 order = 2141
 uses = ["det-def-sfb-pulled-back-coefficients", "det-def-sfb-module-pushforward-pullback", "def-weil-derived-direct-image", "def-pe-derived-complete", "det-pe-derived-nakayama-resolution", "def-weil-derived-limit"]
 +++
