@@ -123,4 +123,7 @@ $\mathcal O_E$-lattice $L'_0$, and $L'_0\otimes_{\mathcal O_E}\mathcal O_{E'}$
 is a lisse $\mathcal O_{E'}$-lattice in $(L')_{E'}$ on the same strata. The
 case $\Lambda=E'$ therefore gives the bound
 $\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$ for each refined
-stratum $S$, which does not depend on $E'$.
+stratum $S$, which does not depend on $E'$. Here the source data are fixed before $M$: descend $L$
+alone to a lisse $E_0$-sheaf $L'_{E_0}$ for a finite $E_0$, refine $S$ and choose the lattice there; only then enlarge to a finite
+$E\supset E_0$ over which $M$ descends, and take $L'=(L'_{E_0})_E$ with the extended lattice
+$L'_{E_0,0}\otimes_{\mathcal O_{E_0}}\mathcal O_E$. So the bound depends only on $(a,L)$.
