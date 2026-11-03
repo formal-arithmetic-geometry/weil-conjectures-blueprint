@@ -6,16 +6,16 @@ order = 13
 +++
 The trace formula and duality are easiest to prove with torsion
 coefficients $\mathbf Z/\ell^n$, where the classical theory of
-SGA 4 (SGA4) applies, but the eigenvalues of Frobenius live in
+SGA 4 [sga4] applies, but the eigenvalues of Frobenius live in
 characteristic zero. One therefore needs the six operations for
 $\Zl$, $\Ql$ and $\overline{\mathbf Q}_\ell$ as well, compatibly with reduction modulo
 $\ell^n$. Classically an $\ell$-adic sheaf is a compatible system
 $(F_n)$ of sheaves of $\mathbf Z/\ell^n$-modules; this works well for
 sheaves, but on the level of derived categories one has to construct the
-$\ell$-adic theory by hand, as Ekedahl did (Eke).
+$\ell$-adic theory by hand, as Ekedahl did [ekedahl90].
 
 We avoid this by working on the pro-étale site of Bhatt and
-Scholze (BS). There $\Zl$ is a sheaf of rings, an $\ell$-adic sheaf
+Scholze [bhatt-scholze15]. There $\Zl$ is a sheaf of rings, an $\ell$-adic sheaf
 is a sheaf of modules over it, and the derived category is the ordinary
 one. All coefficient rings are obtained in one way, by pulling back a
 *condensed ring* (a sheaf of rings on the category of profinite
