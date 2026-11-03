@@ -7,7 +7,7 @@ order = 17
 We assume a first course in algebraic geometry: schemes, quasi-coherent
 sheaves and their cohomology, and étale morphisms. Some familiarity
 with étale cohomology with torsion coefficients, at the level of the
-statements in SGA 4$\tfrac12$ (SGA4.5), helps, but the results we use are
+statements in SGA 4$\tfrac12$ [sga4-5], helps, but the results we use are
 stated where they are needed. Derived categories are used throughout;
 the reader should know what a triangulated category and a derived
 functor are.
