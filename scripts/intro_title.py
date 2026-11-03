@@ -430,18 +430,15 @@ def main(font_path):
 <defs>
 <filter id="wc-chalk" {box} filterUnits="userSpaceOnUse"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="7" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2 1.95" result="g"/><feComposite in="SourceGraphic" in2="g" operator="in"/></filter>
 <filter id="wc-rag" {box} filterUnits="userSpaceOnUse"><feTurbulence type="fractalNoise" baseFrequency=".05" numOctaves="2" seed="3" result="t"/><feDisplacementMap in="SourceGraphic" in2="t" scale="12" xChannelSelector="R" yChannelSelector="G"/><feGaussianBlur stdDeviation="2.5"/></filter>
-<filter id="wc-dust-blur" {box} filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="5"/></filter>
 {"".join(masks)}
 {eraser(1, e1, band1, T_E1)}
 {eraser(2, e2, band2, T_E2)}
 <mask id="wc-erased" maskUnits="userSpaceOnUse" {box}><rect {box} fill="white"/><use href="#wc-eraser1" stroke="black" filter="url(#wc-rag)"/><use href="#wc-eraser2" stroke="black" filter="url(#wc-rag)"/></mask>
-<mask id="wc-dust" maskUnits="userSpaceOnUse" {box}><use href="#wc-eraser1" stroke="white" filter="url(#wc-rag)"/><use href="#wc-eraser2" stroke="white" filter="url(#wc-rag)"/></mask>
 <clipPath id="wc-mirror" clipPathUnits="userSpaceOnUse"><polygon points="{clip(-56)}"><animate attributeName="points" from="{clip(-56)}" to="{clip(56)}" begin="{m}" dur="{dm}" fill="freeze"/></polygon></clipPath>
 <g id="wc-rest">{rest_bodies}</g>
 </defs>
 <g filter="url(#wc-chalk)">
 <g mask="url(#wc-erased)"><use href="#wc-rest"/><animate attributeName="opacity" from="1" to="0" begin="{n(T_W - 0.2)}s" dur=".2s" fill="freeze"/></g>
-<g mask="url(#wc-dust)" opacity="0"><use href="#wc-rest" filter="url(#wc-dust-blur)"/><animate attributeName="opacity" values="0;.05;.03;.05;0" keyTimes="0;.25;.5;.75;1" begin="{n(T_E1)}s" dur="{n(2 * T_PASS + 0.2)}s" fill="freeze"/></g>
 <g>{w_body}<animate attributeName="opacity" from="1" to="0" begin="{ws}" dur=".15s" fill="freeze"/></g>
 <polyline points="{pts(main)}" fill="none" stroke="currentColor" stroke-width="{n(w_line)}" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="{ws}" dur=".15s" fill="freeze"/><animate attributeName="points" from="{pts(main)}" to="{pts(targets)}" begin="{ws}" dur="{n(T_MORPH)}s" fill="freeze" {ease}/><animate attributeName="stroke-width" from="{n(w_line)}" to="{n(LOGO_STROKE * k)}" begin="{ws}" dur="{n(T_MORPH)}s" fill="freeze" {ease}/></polyline>
 <g transform="translate({n(lx)} {n(ly)}) scale({n(k)})" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">

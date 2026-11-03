@@ -1,10 +1,10 @@
 # Credits
 
-`galois-letter-1832.jpg`: the last page of Évariste Galois's letter to
-Auguste Chevalier, 29 May 1832. Public domain. Source:
-[Wikimedia Commons, File:E. Galois Letter.jpg](https://commons.wikimedia.org/wiki/File:E._Galois_Letter.jpg)
-(reproduced from S. Iyanaga, *ガロアの時代 ガロアの数学*, Springer Tokyo, 1999).
-Cropped and converted to greyscale for the site's opening.
+`deligne-letter-1969.jpg`: from Pierre Deligne's letter to André Weil,
+Bures-sur-Yvette, 1 July 1969 (the part after the heading "1. Représentations
+λ-adiques, d'après Serre et Grothendieck"), supplied by the project as
+`background.pdf`. Cropped, converted to greyscale, its paper whitened and its
+ink lightened for the site's opening.
 
 The handwritten title of the opening (`intro.md`, written by
 `scripts/intro_title.py`) is set in Naija Easy Handwritting (Regular,

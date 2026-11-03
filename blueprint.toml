@@ -14,14 +14,14 @@ assets = "site-assets"   # copied into the site as assets/
 logo = "assets/R1b-W-mirror-sigma-ink.svg"   # left of the title in the top bar
 logoInk = true           # drawn in the title's colour, so it follows the style and dark mode
 
-# The opening film: the title is written by hand over a faded manuscript, wiped
+# The opening film: the title is written by hand over a faded letter, wiped
 # down to its W, which turns into the logo; the logo flies onto the top bar's,
 # and the view zooms through the pictures below into the graph.  intro.md is
 # written by scripts/intro_title.py.  See [site.intro] in docs/cli.md of the
 # blueprint tool.
 [site.intro]
 file = "intro.md"                        # the title, an animated SVG
-background = "assets/galois-letter-1832.jpg"   # Galois to Chevalier, 1832 (public domain)
+background = "assets/deligne-letter-1969.jpg"   # Deligne to Weil, 1 July 1969 (see site-assets/CREDITS.md)
 hold = 5.35                              # writing 1.6, still 0.6, wiping 2 x 0.8, the W 0.8, the mirror 0.75 s
 step = [1.2, 1.8, 1.8]                   # seconds per step of the zoom, at one speed
 
