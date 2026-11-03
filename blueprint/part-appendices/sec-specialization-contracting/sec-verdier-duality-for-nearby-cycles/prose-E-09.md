@@ -7,7 +7,7 @@ order = 959
 The second factor of $K\boxtimes \mathbb DK$ is a Verdier dual. Hence,
 to specialize the trace class of $K\boxtimes\mathbb DK$, we need that
 nearby cycles commute with Verdier duality, by an explicit map
-$\delta_{X,M}$ defined below (Ill, Theorem 4.2).
+$\delta_{X,M}$ defined below [illusie94, Theorem 4.2].
 
 The trait $S$ and the coefficient ring $A$ are those of
 Proposition [sk-prop-tf-nearby-external-kunneth], and

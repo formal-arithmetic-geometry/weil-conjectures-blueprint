@@ -4,7 +4,7 @@ kind = "hidden"
 title = "Solvable Lie algebras and Cartan's criterion (4)"
 order = 995
 +++
-See (Hum, §4.3). By
+See [humphreys72, §4.3]. By
 Lemma [sk-lem-walg-engel] it suffices to show that every element $X$ of
 $[\mathfrak a,\mathfrak a]$ is nilpotent. Pairing $X$ with operators
 that are polynomials in its semisimple part, the hypothesis gives

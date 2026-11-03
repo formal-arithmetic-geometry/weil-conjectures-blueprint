@@ -64,7 +64,7 @@ we obtain a lisse $E$-sheaf of rank one with no lattice (see the
 discussion before Lemma [sk-lem-stratified-lattice]). It comes from
 the character $n\mapsto\ell^n$ of $\mathbf Z$, which does not extend
 continuously to $\widehat{\mathbf Z}$, so it has no classical counterpart
-as a system $(F_n)$; this example is discussed in (BS). On a
+as a system $(F_n)$; this example is discussed in [bhatt-scholze15]. On a
 connected normal scheme the lattice
 exists globally, and lisse $E$-sheaves are then the continuous
 representations of the profinite group $\pi_1(X,\bar x)$

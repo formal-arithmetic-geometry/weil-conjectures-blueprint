@@ -16,7 +16,7 @@ by the finite étale $Y$-scheme of $\cO_E/\ell^n$-linear combinations, i.e. by
 $\mu_{\ell^n,Y}^{\,\oplus ef}$ after choosing a $\mathbf Z_\ell$-basis of $\cO_E$ (here $ef=[E:\mathbf Q_\ell]$);
 the inverse limit over $n$ is represented by the inverse limit of these schemes, a
 pro-étale $Y$-scheme, and its inverse image is represented by its base change to $X$
-(\stacks{09A5}). Since base change commutes with limits, the base change is the
+([Stacks, Tag 09A5](https://stacks.math.columbia.edu/tag/09A5)). Since base change commutes with limits, the base change is the
 corresponding limit over $X$, which represents $\cO_E(1)_X$. The module structure over
 $\cO_{E,Y}$ is matched with that over $\cO_{E,X}$ via
 [det-prop-sfb-qlbar-colimit-x-pullback] (1).

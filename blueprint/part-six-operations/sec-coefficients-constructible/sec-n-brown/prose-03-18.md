@@ -5,7 +5,7 @@ title = "Existence and finiteness of $f^!$"
 order = 163
 +++
 Classically $f^!$ is constructed as a right adjoint for torsion
-coefficients (SGA4), and for $\ell$-adic coefficients by passing to
+coefficients [sga4], and for $\ell$-adic coefficients by passing to
 the limit over the reductions, which requires the finiteness theorems
 first. Here we obtain it for all admissible $\Lambda$ at once as a right
 adjoint. A right adjoint produced by Brown representability lives on a

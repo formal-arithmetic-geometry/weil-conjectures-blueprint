@@ -64,14 +64,14 @@ $N_f\to T_{\lambda_0}$ is an $S$-morphism, $p\circ j=\nu_f\circ\iota_f=f$.
 is locally of finite presentation, and let $X\xrightarrow{j_0}T_0\xrightarrow{p_0}S$
 be the factorization just constructed. Write the finite $S$-scheme $T_0$ as
 a filtered limit of $S$-schemes of finite presentation with closed
-immersions as transition morphisms (Stacks, Tag 09ZQ); since the limit $T_0$ is
+immersions as transition morphisms ([Stacks, Tag 09ZQ](https://stacks.math.columbia.edu/tag/09ZQ)); since the limit $T_0$ is
 finite over $S$, finiteness descends to some stage $Y$, which is then finite
 and of finite presentation over $S$. The composite $X\to T_0\to Y$ is a
 quasi-compact immersion, so $X$ is a closed subscheme of a quasi-compact open
 $U\subseteq Y$, and since $X$ and $U$ are of finite presentation over $S$
 its ideal sheaf on $U$ is of finite type. Extend this ideal sheaf to a
 quasi-coherent ideal sheaf $\mathcal J\subseteq\mathcal O_Y$ of finite type
-(Stacks, Tag 01PF). Then $V(\mathcal J)$ is a closed subscheme of the finite, finitely
+([Stacks, Tag 01PF](https://stacks.math.columbia.edu/tag/01PF)). Then $V(\mathcal J)$ is a closed subscheme of the finite, finitely
 presented $S$-scheme $Y$ cut out by a finite-type ideal, hence finite and of
 finite presentation over $S$,
 and $X=V(\mathcal J)\cap U$ is a quasi-compact open subscheme of it; this

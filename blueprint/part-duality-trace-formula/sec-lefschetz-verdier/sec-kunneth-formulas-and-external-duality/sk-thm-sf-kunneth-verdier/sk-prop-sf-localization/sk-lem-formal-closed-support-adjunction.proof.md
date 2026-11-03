@@ -17,7 +17,7 @@ right adjoint is left exact.
 
 (2) Since $i_*$ is exact, its right adjoint $\underline\Gamma_Z$ sends K-injective complexes to
 K-injective complexes: $\Hom_{K}(C,\underline\Gamma_ZI)=\Hom_K(i_*C,I)=0$ for acyclic $C$. Choose
-K-injective resolutions (\stacks{079P}); then
+K-injective resolutions ([Stacks, Tag 079P](https://stacks.math.columbia.edu/tag/079P)); then
 $\Hom_{D}(i_*A,K)=\Hom_K(i_*A,I)=\Hom_K(A,\underline\Gamma_ZI)=\Hom_D(A,R\underline\Gamma_ZK)$,
 and the same with shifts and internal Hom complexes gives the $R\operatorname{Hom}$ form.
 

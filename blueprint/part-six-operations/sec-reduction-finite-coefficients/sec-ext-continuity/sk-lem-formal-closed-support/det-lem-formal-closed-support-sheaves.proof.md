@@ -7,7 +7,7 @@ Since $X$ is Noetherian, $j$ is quasi-compact, and [sk-prop-sf-open-closed-trian
 gives: $i^*$ is exact and preserves limits; $i_*$ is exact and fully faithful,
 so $i^*i_*=\mathrm{id}$ (Stacks, Tags 09AA, 09BM); $j^*$ and $j_!$ are exact;
 and every module $M$ sits in the exact sequence
-$0\to j_!j^*M\to M\to i_*i^*M\to0$ (Stacks, Tag 09AH). Moreover $j^*j_*=\mathrm{id}$,
+$0\to j_!j^*M\to M\to i_*i^*M\to0$ ([Stacks, Tag 09AH](https://stacks.math.columbia.edu/tag/09AH)). Moreover $j^*j_*=\mathrm{id}$,
 because $V_{\mathrm{proét}}$ is the localization of $X_{\mathrm{proét}}$ at $V$, so
 $j_*$ is fully faithful; and $j^*i_*=0$ since $Z\times_XV=\emptyset$.
 

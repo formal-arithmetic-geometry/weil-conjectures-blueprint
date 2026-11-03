@@ -59,7 +59,7 @@ predicts (Example [sk-rem-closed-support]). Thus $i^!$ is not $i^*$: it
 records the cohomology of a punctured neighbourhood of $Z$.
 
 Over a field, $Rj_*$ preserves constructibility; this is Deligne's
-finiteness theorem in SGA 4$\tfrac12$ (SGA4.5). His proof, which we
+finiteness theorem in SGA 4$\tfrac12$ [sga4-5]. His proof, which we
 follow, is indirect: it proves a statement in families over a base $S$,
 because an induction on dimension leads to fibrations over bases of
 positive dimension. In families, however, the formation of $Rj_*$ does

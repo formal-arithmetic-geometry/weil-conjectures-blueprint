@@ -25,8 +25,7 @@ closed complement. Over $X$, $e_{h,K}$ restricts to the identity. Over
 $Z\setminus X$: since $h^{-1}(Z\setminus X)=Z'\setminus X$ and the restriction
 of $j'_!K$ to $Z'\setminus X$ vanishes, proper base change for $h$ along $i$
 (the localizing form, valid on $\Dctf$) gives $i^*Rh_*j'_!K\simeq0$; also
-$i^*j_!K=0$. By the open–closed exact sequence applied in each degree (Stacks,
-Tag 09AH), the pair $(j^*,i^*)$ detects isomorphisms of complexes, so
+$i^*j_!K=0$. By the open–closed exact sequence applied in each degree ([Stacks, Tag 09AH](https://stacks.math.columbia.edu/tag/09AH)), the pair $(j^*,i^*)$ detects isomorphisms of complexes, so
 $e_{h,K}$ is an isomorphism. (For finite coefficients and étale-origin $K$
 this is the stalkwise argument of [lem-weil-pbc-proper-open-comparison-iso].)
 

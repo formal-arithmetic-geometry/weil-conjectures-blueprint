@@ -22,7 +22,7 @@ and $S$. Apply the formula of [det-lem-int-ext-formula](2) to $N_n$:
 So $R\operatorname{Hom}_X(a_!L,N_n)$ has cohomology in degrees
 $\le\operatorname{cd}_\ell(j)+\operatorname{cd}_\ell(S)+2$. All functors
 involved ($R\underline\Gamma_Z$, i.e. $Rj_*$, $j^*$ and closed inverse image
-(Stacks, Tag 09AA), open restriction, derived sections, and tensoring with the
+([Stacks, Tag 09AA](https://stacks.math.columbia.edu/tag/09AA)), open restriction, derived sections, and tensoring with the
 dualizable $L^\vee$) commute with derived inverse limits, so
 $R\operatorname{Hom}_X(a_!L,N)\simeq R\varprojlim_nR\operatorname{Hom}_X(a_!L,N_n)$.
 The derived limit of a countable tower raises the upper bound by at most one

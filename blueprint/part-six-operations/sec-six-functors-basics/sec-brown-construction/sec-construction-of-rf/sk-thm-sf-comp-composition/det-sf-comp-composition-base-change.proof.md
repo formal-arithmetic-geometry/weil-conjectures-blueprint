@@ -7,8 +7,7 @@ uses = ["det-sf-comp-coherence-single", "det-sf-comp-coherence-cocycle", "sk-pro
 $u_*j'^*\simeq j^*v'_*$ (restriction to an open commutes with direct image, as
 in [det-sf-comp-coherence-single]); hence they are canonically isomorphic.
 Concretely, both restrict to $u^*$ on the open $X'\subset\overline X'$ and vanish
-on its closed complement, which characterizes extensions by zero (Stacks, Tag
-09AH). Both functors are exact on sheaves, so the isomorphism passes to
+on its closed complement, which characterizes extensions by zero ([Stacks, Tag 09AH](https://stacks.math.columbia.edu/tag/09AH)). Both functors are exact on sheaves, so the isomorphism passes to
 derived categories termwise.
 
 *(2)* The functor $v^*$ is exact, preserves direct sums and carries

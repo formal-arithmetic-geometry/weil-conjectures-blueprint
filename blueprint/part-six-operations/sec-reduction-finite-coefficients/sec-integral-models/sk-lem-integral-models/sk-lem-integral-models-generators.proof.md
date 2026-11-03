@@ -21,7 +21,7 @@ and shifts and sends $E_X\otimes a_!L_0$ to $\QbarX\otimes_{\cO_{E,X}}a_!L_0$.
 
 (3) $L_0$ is locally $\cO_{E,S}^r$; its reductions $L_0/\pi_E^n$ are locally constant sheaves of
 finite free $\cO_E/\pi_E^n$-modules, i.e. finitely presented, so they come from the étale site
-(\stacks{099Y}) and are constructible; $L_0$ is derived complete (locally finite free over the
+([Stacks, Tag 099Y](https://stacks.math.columbia.edu/tag/099Y)) and are constructible; $L_0$ is derived complete (locally finite free over the
 complete $\cO_{E,S}$). So $L_0\in\Dbc(S,\cO_E)$ by [sk-prop-integral-criterion], hence
 $a_!L_0\in\Dbc(X,\cO_E)$ by [det-lem-integral-models-operations] (3). $L_0$ is flat, so
 $a_!L_0\otimes^{\mathbf L}\cO_E/\pi_E^n=a_!(L_0/\pi_E^n)$, which is the extension by zero of a

@@ -7,7 +7,7 @@ We read off the top degree from Poincaré duality in degree zero
 over $\mathbf Z/\ell^n$, and then change coefficients. With finite coefficients, étale cohomology of a $d$-dimensional
 scheme of finite type over an algebraically closed field vanishes above
 degree $2d$, that is, $\operatorname{cd}_\ell(X)\le2d$ in the
-notation of Definition [sk-def-cd] (SGA4, X, Cor. 4.3).
+notation of Definition [sk-def-cd] [sga4, X, Cor. 4.3].
 Since $X$ is connected, $H^0=\Lambda$. First let
 $\Lambda=\mathbf Z/\ell^n$. This ring is injective as a module over
 itself, so

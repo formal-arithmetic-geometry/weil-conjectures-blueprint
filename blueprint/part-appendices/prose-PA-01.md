@@ -46,7 +46,7 @@ about abelian varieties, Appendix [sec-picard-framework] constructs the
 Jacobian, and Appendix [sec-curve-estimates] combines the two, with the
 Artin–Schreier sequence for torsion divisible by the characteristic,
 into a proof of Theorem [sk-thm-curve-package]; see
-also (GeoBP).
+also [geobp].
 
 *Contracting correspondences.* The main text computes the local
 term of Frobenius at a fixed point by a calculation on a smooth curve
@@ -54,7 +54,7 @@ term of Frobenius at a fixed point by a calculation on a smooth curve
 formula to that case. Appendix [sec-specialization-contracting] computes
 the local terms of every contracting correspondence at once, by
 deforming the correspondence to a normal cone, following
-Varshavsky (Var), whose theorem generalizes one of Fujiwara.
+Varshavsky [varshavsky05], whose theorem generalizes one of Fujiwara.
 This route needs nearby cycles, which the
 main text never uses, and Section [sec-trace-formula] does not depend
 on it.

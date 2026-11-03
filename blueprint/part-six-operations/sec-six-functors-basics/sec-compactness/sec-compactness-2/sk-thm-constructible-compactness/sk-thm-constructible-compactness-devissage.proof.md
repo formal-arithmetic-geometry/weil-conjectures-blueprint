@@ -8,7 +8,7 @@ $\lambda$ (sums of abelian groups are exact), map to that of $\Hom(-,\bigoplus K
 lemma gives the claim for $C$.
 
 *Thick.* If $C=C_1\oplus C_2$, the comparison map for $C$ is the direct sum of those for $C_1$ and $C_2$,
-so if it is an isomorphism, so are its summands (Stacks, Tag 09QH).
+so if it is an isomorphism, so are its summands ([Stacks, Tag 09QH](https://stacks.math.columbia.edu/tag/09QH)).
 
 *Constructible sheaves.* They belong to the subcategory by [det-constructible-compactness-sheaf].
 

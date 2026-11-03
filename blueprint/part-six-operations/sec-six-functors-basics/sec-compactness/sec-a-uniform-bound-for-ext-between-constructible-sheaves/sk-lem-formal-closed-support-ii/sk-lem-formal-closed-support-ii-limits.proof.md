@@ -17,7 +17,7 @@ suffices to show that each listed functor is exact and preserves products.
 they preserve products of sheaves; products in $\D(X_{\mathrm{proét}},\Lambda)$ are termwise
 ([sk-prop-pe-products]), hence $j^*$, $u^*$ preserve derived products.
 
-*Closed restriction.* $i^*$ is exact and preserves products (Stacks, Tag 09AA); again since derived
+*Closed restriction.* $i^*$ is exact and preserves products ([Stacks, Tag 09AA](https://stacks.math.columbia.edu/tag/09AA)); again since derived
 products are termwise products, it preserves derived products.
 
 *Open direct image.* $Rj_*$ is right adjoint to $j^*$, hence preserves all products that exist.

@@ -78,8 +78,8 @@ is zero, and global sections of a complex supported on finitely many
 points are the sum of its stalks. This is the reason we work over all
 algebraically closed fields at once, since the induction passes from $k$
 to $\overline{k(t)}$. Global duality was announced by Verdier and proved
-by Deligne (SGA4, XVIII); biduality for constructible complexes over
-a field is due to Deligne (SGA4.5, Th. finitude).
+by Deligne [sga4, XVIII]; biduality for constructible complexes over
+a field is due to Deligne [sga4-5, Th. finitude].
 
 A perfect pairing of complexes need not give perfect
 pairings on cohomology modules. Over a field it does

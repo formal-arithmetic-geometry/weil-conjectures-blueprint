@@ -15,7 +15,7 @@ $(Rj_*K)\otimes^{\mathbf L}\mathbf F_{E,X}$.
 *Constructibility of the reduction.* $K\otimes^{\mathbf L}\mathbf F_{E,U}$ is
 a bounded constructible complex of $\mathbf F_E$-modules pulled back from the
 étale site, and its pro-étale direct image is the pullback of the étale direct
-image (Stacks, Tag 09A6). The latter is bounded constructible by
+image ([Stacks, Tag 09A6](https://stacks.math.columbia.edu/tag/09A6)). The latter is bounded constructible by
 [sk-cor-geo-open-finiteness], applicable because $\mathbf F_E$ is a finite
 field of characteristic $\ell$ (a finite free extension of $\mathbf F_\ell$).
 

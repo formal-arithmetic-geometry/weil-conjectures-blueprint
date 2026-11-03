@@ -9,7 +9,7 @@ carries this tower to the tower of multiplication by $\pi_E$ on $Rp_*K$; hence $
 derived complete. Reduction: $K\otimes^{\mathbf L}\cO_{E,X}/\pi_E=\operatorname{cone}(K\xrightarrow{\pi_E}K)$
 since $\cO_{E,X}$ is $\pi_E$-torsion free, and the exact functor $Rp_*$ preserves cones and is
 $\cO_E$-linear. The reduction $\bar K$ has torsion coefficients and is classical
-(\stacks{09B1}), so $Rp_*\bar K$ is $\nu^*$ of the étale direct image (\stacks{09A6}), which is
+([Stacks, Tag 09B1](https://stacks.math.columbia.edu/tag/09B1)), so $Rp_*\bar K$ is $\nu^*$ of the étale direct image ([Stacks, Tag 09A6](https://stacks.math.columbia.edu/tag/09A6)), which is
 bounded constructible by [det-thm-sfb-proper-base-change-finite] (1) with $A=\cO_E/\pi_E$. By
 [sk-prop-integral-criterion] (equivalently [sk-lem-integral-models] (2)),
 $Rp_*K\in\Dbc(Y,\cO_E)$.

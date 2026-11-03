@@ -4,7 +4,7 @@ kind = "hidden"
 title = "The Weil conjectures"
 order = 5
 +++
-The Weil conjectures, formulated by Weil in 1949 (Wei), are
+The Weil conjectures, formulated by Weil in 1949 [weil49], are
 statements about the number of solutions of polynomial equations over
 finite fields. The simplest case already shows what is at stake. Let
 $X_0$ be a smooth projective geometrically connected curve of genus

@@ -8,7 +8,7 @@ To see the equivalence, pull an epimorphism $F\to G$ back along a section
 $h_W\to G$. The resulting epimorphism onto $h_W$ splits. Conversely,
 if every epimorphism is surjective on sections, then $\mathrm{id}_{h_W}$
 lifts along any epimorphism onto $h_W$. This is the categorical definition
-of (BS, §3.2).
+of [bhatt-scholze15, §3.2].
 
 The splitting condition concerns a covering family as a whole: if $W$
 is disconnected, a lift of $\mathrm{id}_{h_W}$ along a covering family

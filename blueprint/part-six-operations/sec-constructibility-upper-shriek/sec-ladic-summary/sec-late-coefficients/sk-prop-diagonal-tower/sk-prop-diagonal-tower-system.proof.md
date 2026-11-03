@@ -30,13 +30,13 @@ at a level is exact and the evaluations jointly detect acyclicity). Hence $T$
 is independent of the resolution up to unique isomorphism and defines an
 exact functor on derived categories. The composite with $R\varprojlim$ sends
 $K$ to $R\varprojlim_n(K\otimes^{\mathbf L}\mathbf Z/\ell^n)$, which is the
-derived $\ell$-completion $\widehat K$ (Stacks, Tag 099M).
+derived $\ell$-completion $\widehat K$ ([Stacks, Tag 099M](https://stacks.math.columbia.edu/tag/099M)).
 
 (3) *Source.* For a sheaf $F$, the map
 $(\Delta_*\mathbf Z)\otimes F\to\Delta_*\Delta^{-1}F$ is an isomorphism: after
 restriction to the open complement both sides vanish, and after
 $\Delta^{-1}$ both become $\Delta^{-1}F$; these two restrictions are jointly
-conservative (Stacks, Tag 09AD). The right side is exact in $F$, so
+conservative ([Stacks, Tag 09AD](https://stacks.math.columbia.edu/tag/09AD)). The right side is exact in $F$, so
 $\Delta_*\mathbf Z$ is flat and $T(\Delta_*\mathbf Z)$ is the system
 $\Delta_*\mathbf Z/\ell^\bullet$ with reduction maps as transitions.
 

@@ -24,7 +24,7 @@ adjoint $\nu_U^*$ is exact).
 affine transition maps, and $K_U$ is the inverse image of $K_{i_0}$ for any
 $i_0$. For a sheaf $F$ on $(U_{i_0})_{\mathrm{ét}}$ the restriction maps induce
 $\varinjlim_iH^n((U_i)_{\mathrm{ét}},F|_{U_i})\simeq H^n(U_{\mathrm{ét}},F|_U)$
-(Stacks, Tag 03Q6). For a bounded-below complex this is
+([Stacks, Tag 03Q6](https://stacks.math.columbia.edu/tag/03Q6)). For a bounded-below complex this is
 [lem-weil-pbc-derived-cohomology-continuity]: in the hypercohomology spectral
 sequence $E_2^{p,q}=H^p(-,\mathcal H^q)$ only finitely many terms contribute
 to each total degree because $K$ is bounded below, filtered colimits are

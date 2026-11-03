@@ -13,4 +13,4 @@ An arbitrary $U$ is covered by affine weakly contractible objects, so
 every section of $F_m$ over $U$ lifts to $\varprojlim_nF_n$ on each
 member of such a cover. Hence the projection is an epimorphism of
 sheaves; see
-(BS, §§3.1–3.2).
+[bhatt-scholze15, §§3.1–3.2].

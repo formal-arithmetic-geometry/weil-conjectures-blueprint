@@ -28,5 +28,5 @@ solvable: if the quotient of $\mathfrak l$ by a solvable ideal is
 solvable, the derived series of $\mathfrak l$ enters that ideal after
 finitely many steps and then reaches zero. Hence the sum of two solvable ideals is
 solvable, and $\operatorname{rad}\mathfrak l$ is the largest solvable
-ideal of $\mathfrak l$ (Hum, §3.1). We use three classical theorems
+ideal of $\mathfrak l$ [humphreys72, §3.1]. We use three classical theorems
 from the same book, whose proofs we do not repeat.

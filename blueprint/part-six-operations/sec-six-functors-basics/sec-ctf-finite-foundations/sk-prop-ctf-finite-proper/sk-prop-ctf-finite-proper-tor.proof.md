@@ -5,7 +5,7 @@ of = "det-ctf-finite-proper-tor"
 *Constructibility.* $Rp_*C\in\Dbc(Y_{\mathrm{ét}},A)$ by [lem-fin-proper-bounded-constructible].
 
 *Stalks of tensor products.* Let $N$ be an $A$-module and $\bar y$ a geometric point of $Y$. The projection
-formula for a constant module (Stacks, Tag 0F12) gives $(Rp_*C)\otimes^{\mathbf L}_AN_Y\simeq Rp_*(C\otimes^{\mathbf L}_AN_X)$,
+formula for a constant module ([Stacks, Tag 0F12](https://stacks.math.columbia.edu/tag/0F12)) gives $(Rp_*C)\otimes^{\mathbf L}_AN_Y\simeq Rp_*(C\otimes^{\mathbf L}_AN_X)$,
 and proper base change ([sk-thm-properbasechange]) identifies its stalk at $\bar y$ with
 
 $$

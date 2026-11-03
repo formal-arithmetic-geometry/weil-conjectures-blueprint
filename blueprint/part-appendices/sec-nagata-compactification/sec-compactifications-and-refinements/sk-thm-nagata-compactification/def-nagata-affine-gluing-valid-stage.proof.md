@@ -10,7 +10,7 @@ affine charts whose overlaps are quasi-compact
 [prop-nagata-noetherian-inverse-system] choose a Noetherian approximation
 $S=\varprojlim_k S_k$. By [pqf-lem-limit-qc-open-descends] each chart
 $U_a$ is the preimage of a quasi-compact open of some stage, which becomes
-affine after passing to a later stage (Stacks, Tag 01Z6); as there are
+affine after passing to a later stage ([Stacks, Tag 01Z6](https://stacks.math.columbia.edu/tag/01Z6)); as there are
 finitely many charts, there are one stage $k_0$ and affine opens
 $V_a\subseteq S_{k_0}$ with preimage $U_a$. Since $U_a$ is the limit of
 the affine preimages of $V_a$ in the later stages, $\Gamma(S,U_a)$ is the

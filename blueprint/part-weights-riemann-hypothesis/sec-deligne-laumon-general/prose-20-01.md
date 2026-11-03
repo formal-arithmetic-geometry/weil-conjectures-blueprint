@@ -12,7 +12,7 @@ surface fibred over a curve. If $f:X_0\to Y_0$ has curves as fibres,
 the Leray spectral sequence $H^a_c(Y,R^bf_!\overline{\mathbf Q}_\ell)\Rightarrow H^{a+b}_c(X,\overline{\mathbf Q}_\ell)$ reduces a bound on $X$ to the curve case twice: once
 for the fibres, which bounds the stalks of $R^bf_!\overline{\mathbf Q}_\ell$ by $b$, and once
 on the base, applied to the sheaves $R^bf_!\overline{\mathbf Q}_\ell$. In his first
-proof (De1) Deligne used this with a Lefschetz pencil,
+proof [deligne74] Deligne used this with a Lefschetz pencil,
 where the direct image in the middle degree is controlled by the
 Picard–Lefschetz formula. Here the base can be arbitrary and the
 sheaves on it are not explicit, so the argument has to work for every

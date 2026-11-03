@@ -20,6 +20,6 @@ coefficient rings then becomes a comparison theorem instead of a
 construction by limits.
 
 The notes are adapted from the blueprint of a Lean formalization of the
-Weil conjectures (Blue); we follow the constructions of
-the Lean project at the revision cited in (Lean), and
+Weil conjectures [blue]; we follow the constructions of
+the Lean project at the revision cited in [lean], and
 include arguments not yet formalized there.

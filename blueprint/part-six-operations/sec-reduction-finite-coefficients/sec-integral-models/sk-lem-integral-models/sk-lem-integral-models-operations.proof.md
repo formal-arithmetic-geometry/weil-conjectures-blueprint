@@ -22,7 +22,7 @@ map $a_!(L\otimes^{\mathbf L}a^*M)\to a_!L\otimes^{\mathbf L}M$ (adjoint, for $u
 identification on $S$, and for $i_*$ the projection formula map). On the stratum $S$ both sides
 restrict to $L\otimes^{\mathbf L}a^*M$ (as $a^*a_!=\mathrm{id}$ and $a^*$ is monoidal), and on
 $X\smallsetminus S$ (the open complement of $\overline S$ and the closed $\overline S\smallsetminus S$)
-both restrict to $0$. These restrictions are jointly conservative (\stacks{09AD}), so the map
+both restrict to $0$. These restrictions are jointly conservative ([Stacks, Tag 09AD](https://stacks.math.columbia.edu/tag/09AD)), so the map
 is an isomorphism.
 
 (2) First suppose $M$ is, on a pro-étale cover, a bounded complex of finite free modules.
@@ -37,7 +37,7 @@ closed under extensions (completeness and constructibility of reductions are), s
 term does.
 
 (3) For a quasi-compact open immersion $u$, $u_!$ is exact and preserves limits
-(\stacks{09BP}); $i_*$ is exact and preserves limits (\stacks{09AA}, \stacks{09BM}). So both
+([Stacks, Tag 09BP](https://stacks.math.columbia.edu/tag/09BP)); $i_*$ is exact and preserves limits ([Stacks, Tag 09AA](https://stacks.math.columbia.edu/tag/09AA), [Stacks, Tag 09BM](https://stacks.math.columbia.edu/tag/09BM)). So both
 commute with $\operatorname{R\lim}$ and with the cone of $\pi_E$, hence preserve derived
 completeness and commute with reduction. On reductions they are the extension by zero and the
 closed direct image of torsion sheaves, which preserve bounded constructibility. (All open

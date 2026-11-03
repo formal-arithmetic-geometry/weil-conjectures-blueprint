@@ -4,11 +4,10 @@ of    = "det-prop-closed-adjoint-constructible"
 uses = ["sk-lem-formal-closed-support", "sk-prop-open-coefficients", "sk-prop-sf-existence"]
 +++
 Let $K\in\Dbc(X,\Lambda)$. The triangle above comes from the localization
-sequence (Stacks, Tag 09AH) and exactness of $i_*$ (Stacks, Tag 09BM). Its
+sequence ([Stacks, Tag 09AH](https://stacks.math.columbia.edu/tag/09AH)) and exactness of $i_*$ ([Stacks, Tag 09BM](https://stacks.math.columbia.edu/tag/09BM)). Its
 third term $Rj_*j^*K$ is bounded constructible by
 [sk-prop-open-coefficients], so $i_*R\underline\Gamma_ZK$ is bounded
-constructible. Applying $i^*$, and using $i^*i_*\simeq\mathrm{id}$ (Stacks, Tag
-09AA), gives $R\underline\Gamma_ZK\in\Dbc(Z,\Lambda)$.
+constructible. Applying $i^*$, and using $i^*i_*\simeq\mathrm{id}$ ([Stacks, Tag 09AA](https://stacks.math.columbia.edu/tag/09AA)), gives $R\underline\Gamma_ZK\in\Dbc(Z,\Lambda)$.
 
 Both $i^!K$ and $R\underline\Gamma_ZK$ now lie in $\Loc(\Dbc(Z,\Lambda))$. For
 $A$ in this category, $Ri_!=i_*$ and [sk-prop-sf-existence] give

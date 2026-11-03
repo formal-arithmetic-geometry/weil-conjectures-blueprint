@@ -4,12 +4,12 @@ kind = "hidden"
 title = "Blow-ups, strict transforms and elimination (6)"
 order = 831
 +++
-This is (Con, Theorem 2.4), with the auxiliary base
+This is [conrad07, Theorem 2.4], with the auxiliary base
 equal to $T$; note that $Y$ is qcqs, since $p$ is separated and of
 finite type and $T$ is qcqs. The hypothesis on $f$ says that
 $f$ is a quasi-domination of $V$ over $Y$. When $V=U$ it holds
 automatically, because a section of a separated morphism is a closed
-immersion; this case is (Con, Remark 2.5), and later
+immersion; this case is [conrad07, Remark 2.5], and later
 sections apply the theorem only in this case.
 
 We explain how the proof reduces to a quasi-affine $Y\to T$, since this

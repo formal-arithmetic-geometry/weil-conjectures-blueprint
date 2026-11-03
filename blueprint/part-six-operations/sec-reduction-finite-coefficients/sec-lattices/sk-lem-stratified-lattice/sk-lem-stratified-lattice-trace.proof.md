@@ -18,7 +18,7 @@ sheaves is formed locally, these local descriptions glue: $L_0$ is lisse over $\
 $L_0[1/\ell]=L$ (inverting $\ell$ is exact and commutes with restriction).
 
 *Stratification.* Let $p\colon V\to X$ be quasi-compact, separated, étale and surjective, $X$
-Noetherian. By \stacks{07RY} and \stacks{07RZ} (generic finiteness of a quasi-finite separated
+Noetherian. By [Stacks, Tag 07RY](https://stacks.math.columbia.edu/tag/07RY) and [Stacks, Tag 07RZ](https://stacks.math.columbia.edu/tag/07RZ) (generic finiteness of a quasi-finite separated
 morphism, applied with Noetherian induction), there is a finite stratification of $X$ by
 locally closed subschemes $S$ such that $p_S\colon V\times_XS\to S$ is finite; it is étale and
 surjective by base change. On each stratum apply the first part to $L|_S$, the finite étale

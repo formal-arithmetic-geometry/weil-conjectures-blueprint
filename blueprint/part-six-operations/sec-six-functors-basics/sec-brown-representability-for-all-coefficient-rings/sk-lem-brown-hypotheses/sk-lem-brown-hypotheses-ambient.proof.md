@@ -10,7 +10,6 @@ resolutions, which exist in a Grothendieck category). A full subcategory has the
 triangulated subcategory closed under the direct sums of $\D(X_{\mathrm{proét}},\Lambda)$, which exist (termwise
 sums of complexes); so it has arbitrary direct sums, computed in the ambient category.
 
-*Idempotents.* A triangulated category with countable direct sums is idempotent complete (Stacks, Tag
-05QW): for $e\colon K\to K$ idempotent, the homotopy colimit of $K\xrightarrow{e}K\xrightarrow{e}\cdots$, the cone
+*Idempotents.* A triangulated category with countable direct sums is idempotent complete ([Stacks, Tag 05QW](https://stacks.math.columbia.edu/tag/05QW)): for $e\colon K\to K$ idempotent, the homotopy colimit of $K\xrightarrow{e}K\xrightarrow{e}\cdots$, the cone
 of $1-\mathrm{shift}$ on $\bigoplus_{\mathbf N}K$, is an image of $e$. This homotopy colimit is built from sums
 and a cone, hence lies in $\Loc(\Dctf(X,\Lambda))$.

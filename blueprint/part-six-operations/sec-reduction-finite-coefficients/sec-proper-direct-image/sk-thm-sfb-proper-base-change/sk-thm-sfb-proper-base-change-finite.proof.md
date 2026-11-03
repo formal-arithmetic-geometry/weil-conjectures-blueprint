@@ -10,7 +10,7 @@ classical complexes ([sk-thm-pe-constructible-comparison]). So (1)–(3) may be 
 étale sites, for the étale counterparts of $K$ and $M$.
 
 (1) is [sk-prop-ctf-finite-proper]. Proper direct image of a constructible complex is
-constructible and bounded (on the étale sites \stacks{0GL0}, \stacks{0F10}). Directly on the
+constructible and bounded (on the étale sites [Stacks, Tag 0GL0](https://stacks.math.columbia.edu/tag/0GL0), [Stacks, Tag 0F10](https://stacks.math.columbia.edu/tag/0F10)). Directly on the
 pro-étale sites: let $e$ bound the dimensions of the geometric fibres of $p$ and put $c=2e$. The
 order of $A$ is a power of $\ell$, invertible on the standing schemes, so
 $\mathrm{FIN}(p,A;c)$ holds by [thm-weil-pbc-direct-image-finiteness-proper], and
@@ -30,6 +30,6 @@ the proper base change theorem [sk-thm-properbasechange]; [sk-cor-pbc-proet-fini
 it to the pro-étale sites.
 
 (3) For bounded below $K$ and $M$ of finite Tor amplitude with torsion coefficients, the
-projection formula map on the étale site is an isomorphism (\stacks{0F0G}); pulling back by
+projection formula map on the étale site is an isomorphism ([Stacks, Tag 0F0G](https://stacks.math.columbia.edu/tag/0F0G)); pulling back by
 $\nu^*$, which is exact and monoidal and commutes with $Rp_*$ on these classical complexes,
 gives the pro-étale statement.

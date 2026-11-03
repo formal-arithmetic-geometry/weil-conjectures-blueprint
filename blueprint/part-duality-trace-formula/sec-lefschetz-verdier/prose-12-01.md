@@ -32,7 +32,7 @@ Theorem [sk-thm-frobenius]). This is the form of duality behind the
 relation $\alpha\leftrightarrow q^d/\alpha$ of Weil's axiom (c).
 
 The second need is met by Grothendieck's formalism of cohomological
-correspondences, written up by Illusie in (SGA5, III). A correspondence on $X$ is a map
+correspondences, written up by Illusie in [sga5, III]. A correspondence on $X$ is a map
 $c=(c_1,c_2):C\to X\times X$, and a cohomological correspondence on $K$
 is a morphism $u:c_2^*K\to c_1^!K$. For the graph of an endomorphism
 $\varphi$ this is just a map $\varphi^*K\to K$, and for Frobenius it is

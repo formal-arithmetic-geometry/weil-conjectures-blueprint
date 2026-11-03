@@ -12,7 +12,7 @@ complex $Q$ of $\Lambda_Y$-modules. Then $f^{-1}Q$ is K-flat over $\Lambda_X$
 deriving), and inverse image of sheaves commutes with tensor products,
 $f^{-1}(\Lambda'_Y\otimes_{\Lambda_Y}Q)=f^{-1}\Lambda'_Y\otimes_{f^{-1}\Lambda_Y}f^{-1}Q=\Lambda'_X\otimes_{\Lambda_X}f^{-1}Q$.
 The left side represents $f^*(K_{\Lambda'})$ and the right side $(f^*K)_{\Lambda'}$; this is
-the associativity of derived pullback for ringed topoi (Stacks, Tag 06YV). The
+the associativity of derived pullback for ringed topoi ([Stacks, Tag 06YV](https://stacks.math.columbia.edu/tag/06YV)). The
 identification is termwise the canonical isomorphism of sheaves, so it is natural
 in $K$ and compatible with $(gf)^{-1}=f^{-1}g^{-1}$.
 

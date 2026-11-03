@@ -10,7 +10,7 @@ $M^\bullet\otimes_{\mathcal O_E}\mathcal O_{E,S}$ of a bounded complex of finite
 termwise a finite sum of copies of $\mathcal O_{E,S}$, with differentials given by the matrices
 of $M^\bullet$.
 
-(2) *Local form.* Since $\underline{\mathcal O_E}\to\mathcal O_{E,S}$ is flat (\stacks{099L}), on
+(2) *Local form.* Since $\underline{\mathcal O_E}\to\mathcal O_{E,S}$ is flat ([Stacks, Tag 099L](https://stacks.math.columbia.edu/tag/099L)), on
 a local chart of (1) we have $H^q(K)=H^q(M^\bullet)\otimes_{\mathcal O_E}\mathcal O_{E,S}$, the
 completion of the finitely generated $\mathcal O_E$-module $H^q(M^\bullet)$. *Membership in
 $\Dbc$.* A finitely generated $\mathcal O_E$-module $N$ has a free resolution

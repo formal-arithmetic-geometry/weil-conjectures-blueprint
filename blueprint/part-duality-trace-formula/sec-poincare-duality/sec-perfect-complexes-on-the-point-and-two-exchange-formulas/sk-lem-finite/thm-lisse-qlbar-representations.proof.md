@@ -113,9 +113,9 @@ surjectivity. A representation defined over $E$ is $\Qlb\otimes_EV_E$ with
 $V_E$ continuous, and (2) gives an integral $L'$ with fibre $V_E$.
 
 *(4) Normality.* A regular $X$ is normal, since its local rings are regular
-and a regular ring is normal (\stacks{0567}). Let $X$ be normal, and let $L$
+and a regular ring is normal ([Stacks, Tag 0567](https://stacks.math.columbia.edu/tag/0567)). Let $X$ be normal, and let $L$
 be a lisse $E_X$-module of rank $r$. Since $X$ is Noetherian, normal and
-connected, it is integral (\stacks{033M}); let $\eta$ be its generic point. By [sk-lem-stratified-lattice] there is a finite
+connected, it is integral ([Stacks, Tag 033M](https://stacks.math.columbia.edu/tag/033M)); let $\eta$ be its generic point. By [sk-lem-stratified-lattice] there is a finite
 stratification of $X$ with a lattice on each stratum. The stratum containing
 $\eta$ is locally closed and contains the generic point, so it contains a
 dense open $U$, and $L|_U$ has a lattice. Let $q:T=\mathrm{Lat}(L)\to X$ be the
@@ -123,10 +123,10 @@ separated étale scheme of lattices of [det-lem-stratified-lattice-scheme];
 the lattice on $U$ is a section $s:U\to T_U=T\times_XU$.
 
 The scheme $T$ is étale over the Noetherian normal $X$, so it is locally
-Noetherian and normal, an étale ring map being smooth (\stacks{033C}). Hence
-$T$ is a disjoint union of normal integral schemes (\stacks{033N}), and its
+Noetherian and normal, an étale ring map being smooth ([Stacks, Tag 033C](https://stacks.math.columbia.edu/tag/033C)). Hence
+$T$ is a disjoint union of normal integral schemes ([Stacks, Tag 033N](https://stacks.math.columbia.edu/tag/033N)), and its
 connected components are open, closed and irreducible. A section of a
-separated étale morphism is an open and closed immersion (\stacks{024T}), so
+separated étale morphism is an open and closed immersion ([Stacks, Tag 024T](https://stacks.math.columbia.edu/tag/024T)), so
 $s(U)$ is open and closed in $T_U$. Let $T'$ be the connected
 component of $T$ containing the connected set $s(U)$. The open subset
 $T'_U$ of the irreducible $T'$ is irreducible, hence connected, and contains
@@ -136,13 +136,13 @@ isomorphism $T'_U\cong U$.
 Let $\bar y$ be a geometric point of $X$ and $X^{\mathrm{sh}}$ the spectrum
 of the strict henselization at $\bar y$. Since $X$ is normal, its local
 ring at the image of $\bar y$ is a normal domain, so the strict henselization
-is a normal domain (\stacks{06DI}): $X^{\mathrm{sh}}=\Spec R$ is irreducible,
+is a normal domain ([Stacks, Tag 06DI](https://stacks.math.columbia.edu/tag/06DI)): $X^{\mathrm{sh}}=\Spec R$ is irreducible,
 and its generic point lies over $\eta\in U$. The étale surjective
 $T\times_XX^{\mathrm{sh}}\to X^{\mathrm{sh}}$ has a point $t$ over the closed
 point, and its residue field is a finite separable extension of the separably
 closed residue field $\kappa$ of $R$, hence equal to $\kappa$. An affine open
 neighbourhood $\Spec S$ of $t$ is étale over the henselian $R$, so there is a
-retraction $S\to R$ of $R\to S$ (\stacks{04GG}, condition (8)), that is, a
+retraction $S\to R$ of $R\to S$ ([Stacks, Tag 04GG](https://stacks.math.columbia.edu/tag/04GG), condition (8)), that is, a
 section of $T\times_XX^{\mathrm{sh}}\to X^{\mathrm{sh}}$. Hence
 $L|_{X^{\mathrm{sh}}}$ has a lattice $N$. Since
 $X^{\mathrm{sh}}$ is strictly henselian, every finite étale cover of it splits,
@@ -159,7 +159,7 @@ X^{\mathrm{sh}}$.
 
 Thus the étale morphism $T'\to X$ is surjective and each geometric fibre is a
 single point, so it is universally injective. An étale universally injective
-morphism is an open immersion (\stacks{025G}), and being surjective, $T'\to X$
+morphism is an open immersion ([Stacks, Tag 025G](https://stacks.math.columbia.edu/tag/025G)), and being surjective, $T'\to X$
 is an isomorphism. Its inverse $X\to T'\subseteq T$ is a lattice $L_0\subseteq L$
 on all of $X$. Normality was used three times: to make $X$ and the components
 of $T$ irreducible, so that $T'_U=s(U)$, and to make $X^{\mathrm{sh}}$

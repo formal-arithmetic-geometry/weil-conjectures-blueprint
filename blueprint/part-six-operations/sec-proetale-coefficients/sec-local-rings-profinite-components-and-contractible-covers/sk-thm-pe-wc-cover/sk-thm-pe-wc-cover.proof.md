@@ -2,7 +2,7 @@
 kind = "proof"
 of = "sk-thm-pe-wc-cover"
 +++
-The construction is that of (BS, Theorem 2.4.9) and
+The construction is that of [bhatt-scholze15, Theorem 2.4.9] and
 [Stacks, Tag 0983](https://stacks.math.columbia.edu/tag/0983). We first make the local rings strictly henselian, and
 then replace the profinite space of components by an extremally
 disconnected one surjecting onto it, which does not change the local

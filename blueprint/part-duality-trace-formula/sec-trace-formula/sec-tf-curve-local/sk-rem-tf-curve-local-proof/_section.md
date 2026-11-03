@@ -17,7 +17,7 @@ $K_{\bar y}=0$, where we must show that the local term vanishes. This
 second case needs a geometric argument, because the local term is defined on a
 neighbourhood of $(y,y)$ in $X\times X$, where the Frobenius graph
 meets the diagonal, and the vanishing of the stalk at $y$ does not
-by itself control it. The argument is that of (SGA5, III B, §§2–4). The local term is a restriction
+by itself control it. The argument is that of [sga5, III B, §§2–4]. The local term is a restriction
 map from the graph to the diagonal, and blowing up $(y,y)$ separates
 the two curves, so that it becomes a restriction to punctured curves
 near the point where two transverse divisors meet; there it vanishes when the monodromy is an

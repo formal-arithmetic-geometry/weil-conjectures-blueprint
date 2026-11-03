@@ -5,7 +5,7 @@ of = "det-prop-int-compactness-direct-sums"
 (1) $Rp_*N\in\Dbc(Y,\mathcal O_E)$ by the integral case of
 [sk-thm-sfb-proper-base-change]. On a weakly contractible affine $V\to Y$,
 proper direct image of a torsion sheaf has cohomology in degrees $\le2d$
-(Stacks, Tag 095U), and $\Gamma(V,-)$ is exact, so this bounds the cohomology of
+([Stacks, Tag 095U](https://stacks.math.columbia.edu/tag/095U)), and $\Gamma(V,-)$ is exact, so this bounds the cohomology of
 sections. The reductions $N\otimes^{\mathbf L}\mathcal O_E/\pi_E^n$ are torsion
 complexes in degrees $[-1,0]$, so their direct images have cohomology in
 degrees $\le2d$. Direct image commutes with derived limits, so

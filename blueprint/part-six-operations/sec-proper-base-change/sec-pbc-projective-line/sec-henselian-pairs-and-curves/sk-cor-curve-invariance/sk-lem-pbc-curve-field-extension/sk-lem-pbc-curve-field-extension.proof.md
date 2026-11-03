@@ -11,6 +11,6 @@ cohomology of $\nu^*G$ is étale cohomology of $G$ [sk-prop-sf-comparison]. Choo
 algebraic closures $\bar k\subseteq\bar k'$. Since $\bar k/k$ and
 $\bar k'/k'$ are purely inseparable, $C_{\bar k}\to C$ and
 $C_{\bar k'}\to C_{k'}$ are universal homeomorphisms, so they induce
-equivalences of small étale topoi (Stacks, Tag 03SI). This reduces the claim
+equivalences of small étale topoi ([Stacks, Tag 03SI](https://stacks.math.columbia.edu/tag/03SI)). This reduces the claim
 to the pullback from $C_{\bar k}$ to $C_{\bar k'}$, which is an isomorphism by
 $(C_7)$ of [sk-thm-pbc-curve-input].

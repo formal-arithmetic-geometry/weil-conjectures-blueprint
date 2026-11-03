@@ -26,7 +26,7 @@ compact perfect complexes and $Rf_*$ preserves direct sums, Brown
 representability gives the adjoint with no formula at all. We follow
 Neeman's route. For torsion
 coefficients on the étale site, $f^!$ was constructed by Deligne in
-SGA 4, Exposé XVIII (SGA4).
+SGA 4, Exposé XVIII [sga4].
 
 The theorem we use is the following. Let $\mathcal T$ be a triangulated
 category with arbitrary direct sums, and suppose that $\mathcal T$ is

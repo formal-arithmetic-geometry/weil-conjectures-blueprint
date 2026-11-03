@@ -28,7 +28,7 @@ weight $i$. The name comes from Hodge theory, where $H^i$ of a compact
 Kähler manifold carries a Hodge structure of weight $i$, and the idea
 that the cohomology of every variety should be built from pure pieces
 of different weights is Grothendieck's; Deligne made it precise, in the
-$\ell$-adic setting, in (De2). For a variety that is not
+$\ell$-adic setting, in [deligne80]. For a variety that is not
 smooth and proper, cohomology need not be pure. If
 $\mathbf G_m=\mathbf P^1\setminus\{0,\infty\}$, the localization
 sequence gives $H^1_c(\mathbf G_m,\overline{\mathbf Q}_\ell)=\overline{\mathbf Q}_\ell$ with trivial Frobenius

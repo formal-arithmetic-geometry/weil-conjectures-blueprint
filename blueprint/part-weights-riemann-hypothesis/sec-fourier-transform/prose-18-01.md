@@ -47,7 +47,7 @@ $\sum_x\psi(x)=0$, and Plancherel (Corollary [sk-cor-plancherel]) is an
 identity of trace functions which raises by one the growth rate of
 the sums of squared traces; for a pure sheaf this growth rate is the
 weight (Theorem [sk-thm-wrp-l2-dictionary]). The $\ell$-adic transform is due to Deligne, and Laumon's proof of
-Deligne's theorem (Lau) is built on it. Example [sk-ex-ex-gauss-sum]
+Deligne's theorem [laumon87] is built on it. Example [sk-ex-ex-gauss-sum]
 works out the Gauss sum over $\mathbf F_3$ in this language.
 
 Beware that the transform of a sheaf need not be a sheaf. The transform

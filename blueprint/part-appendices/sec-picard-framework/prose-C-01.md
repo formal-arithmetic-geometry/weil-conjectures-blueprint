@@ -51,6 +51,6 @@ invertible sheaves trivialized along that point
 comes from the Abel map $H_g\to\operatorname{Pic}^g$, which is surjective.
 
 The construction uses only coherent cohomology, Riemann–Roch and
-descent; see also (Milne JV). Over an arbitrary field the Jacobian is
+descent; see also [milne-jv]. Over an arbitrary field the Jacobian is
 obtained from the one over a separable closure by descent along a finite
 separable extension.

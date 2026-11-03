@@ -50,7 +50,7 @@ The t-structure is bounded because the ordinary one is.
 
 *The heart.* The heart of any t-structure is abelian, with kernels
 and cokernels computed from the perverse cohomology of a cone
-(BBD, Théorème 1.3.6); the proof uses only the octahedral axiom and
+[bbd82, Théorème 1.3.6]; the proof uses only the octahedral axiom and
 orthogonality. Its objects have
 the stated form by definition. Punctual sheaves belong to the heart,
 and so does $(j_*M)[1]$, since $j_*M$ has no punctual subsheaf.

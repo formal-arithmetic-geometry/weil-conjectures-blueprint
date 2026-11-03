@@ -22,9 +22,9 @@ made with torsion coefficients and the eigenvalues of Frobenius live in
 $\overline{\mathbf Q}_\ell$.
 
 For torsion coefficients on the étale site, the finiteness theorems of
-SGA 4 and SGA 4$\tfrac12$ (SGA4, SGA4.5) say that all six operations
+SGA 4 and SGA 4$\tfrac12$ [sga4, SGA4.5] say that all six operations
 preserve bounded constructible complexes of finite Tor amplitude. With
-$\ell$-adic coefficients, Ekedahl (Eke) obtained the same
+$\ell$-adic coefficients, Ekedahl [ekedahl90] obtained the same
 statements by working with inverse systems $(K_n)$ and passing to a
 quotient category, and each operation had to be defined on systems by
 hand. On the pro-étale site the operations are the ordinary derived

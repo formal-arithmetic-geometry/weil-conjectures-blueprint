@@ -12,7 +12,7 @@ back from the étale site. Now $Rf_*$ commutes with $\operatorname{R\lim}$, bein
 and with cones, so it preserves derived completeness. It commutes with reduction modulo $\pi_E$,
 because $K_1$ is the cone of multiplication by $\pi_E$ on $K$ and $Rf_*$ is exact. Since $K_1$
 comes from the étale site, its pro-étale direct image is the pullback of its étale direct image
-(\stacks{09A6}). Since $\ell$ is invertible on the finite type $k$-schemes $X$ and $Y$,
+([Stacks, Tag 09A6](https://stacks.math.columbia.edu/tag/09A6)). Since $\ell$ is invertible on the finite type $k$-schemes $X$ and $Y$,
 Deligne's theorem shows that this étale direct image is bounded with constructible cohomology.
 Hence $Rf_*K$ is bounded constructible, by [sk-prop-integral-criterion] again.
 

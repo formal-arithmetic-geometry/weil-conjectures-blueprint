@@ -9,7 +9,7 @@ $\Delta^{-1}\Delta_*\Lambda_P=\Lambda_P$. The natural map
 $p_1^*M\otimes^{\mathbf L}\Delta_*\Lambda_P\to\Delta_*\Delta^{-1}(p_1^*M\otimes^{\mathbf L}\Delta_*\Lambda_P)=\Delta_*M$
 (unit of $\Delta^{-1}\dashv\Delta_*$) therefore restricts to isomorphisms on
 the diagonal and on its complement, and these restrictions are jointly
-conservative (Stacks, Tag 09AD). Also $Rp_{2*}\Delta_*=R(p_2\Delta)_*=\mathrm{id}$.
+conservative ([Stacks, Tag 09AD](https://stacks.math.columbia.edu/tag/09AD)). Also $Rp_{2*}\Delta_*=R(p_2\Delta)_*=\mathrm{id}$.
 (2) $Rp_{2*}$ is proper direct image, so all objects lie in the localizing
 categories, and the proper base change map for the square
 $q\circ p_1=q\circ p_2$ is an isomorphism on $\Loc(\Dbc(-,\Lambda))$ by

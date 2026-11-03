@@ -18,7 +18,7 @@ closed point lies in the connected component of $x$, as $\overline{\{x\}}$ is co
 so $T^c\to\pi_0(T)$ is surjective. For injectivity let $c\neq c'$ in $T^c$. By 1 there is
 a clopen $U_0\subset T^c$ with $c\in U_0$, $c'\notin U_0$. Let $U$ and $V$ be the sets of
 generalizations of points of $U_0$ and of $T^c\setminus U_0$. In a w-local space the set of
-generalizations of a closed subset of $T^c$ is closed (Stacks, Tag 096A), so $U$ and $V$
+generalizations of a closed subset of $T^c$ is closed ([Stacks, Tag 096A](https://stacks.math.columbia.edu/tag/096A)), so $U$ and $V$
 are closed. They cover $T$ because every point has a closed specialization, and they are
 disjoint because closed specializations are unique. So $U$ is clopen, contains $c$ and
 not $c'$, and $c,c'$ lie in different components. The map $T^c\to\pi_0(T)$ is continuous,
