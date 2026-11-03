@@ -2,6 +2,7 @@
 id = "sk-def-cd"
 kind = "definition"
 title = "Cohomological dimension"
+lean = ["AlgebraicGeometry.ProEtale.cohomologicalDimension"]
 order = 105
 uses = ["sk-def-pe-classical-definition", "sk-prop-sf-comparison", "sk-thm-pe-direct-image-comparison"]
 tags = ["sketch"]

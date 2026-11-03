@@ -2,6 +2,7 @@
 id = "sk-def-pe-classical-definition"
 kind = "definition"
 title = "Classical pro-étale sheaves"
+lean = ["AlgebraicGeometry.ProEtale.IsClassicalModuleSheaf"]
 order = 78
 uses = ["sk-def-pe-site", "sk-prop-pe-affine-basis"]
 tags = ["sketch"]

@@ -2,6 +2,7 @@
 id = "det-cd-etale-comparison"
 kind = "lemma"
 title = "Pro-étale and étale ℓ-cohomological dimensions agree"
+lean = ["AlgebraicGeometry.ProEtale.ellCohomologicalDimension_etale_comparison"]
 order = 2231
 uses = ["det-pe-classical-sheaves-modules", "sk-prop-sf-comparison", "prop-weil-pbc-comparison-direct-image", "def-sc-etale-torsion-cd"]
 +++
