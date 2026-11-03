@@ -12,7 +12,7 @@ modules = ["WeilConjectures"]
 theme = "outline"        # the style the website opens in
 assets = "site-assets"   # copied into the site as assets/
 logo = "assets/R1b-W-mirror-sigma-ink.svg"   # left of the title in the top bar
-logoInk = true           # drawn in the title's colour, so it follows the style and dark mode
+logoInk = false          # its own colours: black, and light grey in dark mode (the SVG says so)
 
 # The opening film: the title is written by hand over a faded letter, wiped
 # down to its W, which turns into the logo; the logo flies onto the top bar's,
