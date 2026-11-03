@@ -2,6 +2,7 @@
 id = "det-thm-sfb-proper-base-change-integral"
 kind = "lemma"
 title = "Proper direct image, base change and projection formula for $\\mathcal O_E$"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.integralProperDirectImageAndFormulas"]
 order = 2391
 uses = ["det-thm-sfb-proper-base-change-finite", "sk-lem-integral-models", "sk-prop-integral-criterion", "sk-lem-pe-derived-nakayama"]
 +++

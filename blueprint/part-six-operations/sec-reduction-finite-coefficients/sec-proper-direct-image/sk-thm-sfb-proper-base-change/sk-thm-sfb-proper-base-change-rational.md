@@ -2,6 +2,7 @@
 id = "det-thm-sfb-proper-base-change-rational"
 kind = "lemma"
 title = "Proper direct image, base change and projection formula for $E$ and $\\overline{\\mathbf Q}_\\ell$"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_rationalizationPushHom_boundedBelow"]
 order = 2392
 uses = ["det-thm-sfb-proper-base-change-integral", "sk-cor-pe-bounded-continuity", "det-lem-integral-models-generators", "det-cor-coefficient-heart-ii-triangulated", "det-prop-sfb-cartesian-coefficients-finite-free"]
 +++

@@ -2,6 +2,7 @@
 id = "det-cor-coefficient-heart-ii-triangulated"
 kind = "lemma"
 title = "Bounded constructible complexes with field coefficients form a triangulated subcategory"
+lean = ["AlgebraicGeometry.ProEtale.constantModelBoundedConstructible_field_triangulated"]
 order = 2276
 uses = ["det-lem-coefficient-heart-closure", "def-sfb-bounded-constructible-complexes"]
 +++

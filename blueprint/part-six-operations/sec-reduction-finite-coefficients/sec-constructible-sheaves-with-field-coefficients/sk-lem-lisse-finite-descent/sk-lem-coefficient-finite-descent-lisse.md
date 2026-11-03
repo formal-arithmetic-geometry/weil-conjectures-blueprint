@@ -2,6 +2,7 @@
 id = "det-lem-coefficient-finite-descent-lisse"
 kind = "lemma"
 title = "Descent of lisse $\\overline{\\mathbf Q}_\\ell$-sheaves and their morphisms"
+lean = ["AlgebraicGeometry.ProEtale.coefficient_finite_descent_lisse"]
 order = 2267
 uses = ["det-lem-coefficient-finite-descent-sections"]
 +++

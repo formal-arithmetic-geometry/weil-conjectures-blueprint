@@ -2,6 +2,7 @@
 id = "det-lem-constructible-ext-continuity-devissage"
 kind = "lemma"
 title = "Continuity of Hom out of $C$ is closed under extensions and shifts"
+lean = ["AlgebraicGeometry.ProEtale.constructibleHomContinuity_devissage"]
 order = 2284
 uses = ["det-cor-coefficient-heart-ii-generation"]
 +++

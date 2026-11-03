@@ -2,6 +2,7 @@
 id = "det-thm-sfb-proper-base-change-finite"
 kind = "lemma"
 title = "Proper direct image, base change and projection formula for finite coefficients"
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.finiteProperBaseChange"]
 order = 2390
 uses = ["sk-prop-ctf-finite-proper", "sk-thm-properbasechange", "sk-cor-pbc-proet-finite", "sk-thm-pe-constructible-comparison"]
 +++
