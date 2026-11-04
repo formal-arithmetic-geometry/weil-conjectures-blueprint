@@ -3,7 +3,7 @@ id = "lemma-passing-schematic-closure"
 kind = "lemma"
 title = "Passing to the schematic closure"
 order = 1406
-lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinement", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward_padicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekRefinementIso"]
+lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_boundedConstructibleOpenImmersionLowerShriekRefinementPushforward_padicAlgCl", "AlgebraicGeometry.ProEtale.CondensedRing.boundedConstructibleLowerShriekRefinementIso", "AlgebraicGeometry.ProEtale.CondensedRing.ContinuousMapRingObj.boundedConstructibleLowerShriekRefinementIso"]
 +++
 Let $X\xrightarrow{j}\overline X\xrightarrow{p}S$ be any
 compactification with $\overline X$ Noetherian, and let

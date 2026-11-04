@@ -3,7 +3,7 @@ id = "corollary-torsion-jacobian-field-extension"
 kind = "corollary"
 title = "Torsion of the Jacobian and field extension"
 order = 1552
-lean = ["AlgebraicGeometry.Scheme.Hom.pic_proper_ntorsion", "AlgebraicGeometry.jacobian_compatibility", "AlgebraicGeometry.Scheme.surjective_pow_picardZero", "AlgebraicGeometry.Scheme.ker_picDegreeMod"]
+lean = ["AlgebraicGeometry.Scheme.Hom.pic_proper_ntorsion", "AlgebraicGeometry.jacobian_compatibility", "AlgebraicGeometry.bijective_toUnit_comp_torsionSubgroupScheme", "AlgebraicGeometry.Scheme.ker_picDegreeMod"]
 +++
 Let $k$ be algebraically closed, let $C/k$ be a smooth proper
 connected curve of genus $g$, and let $n>0$ be invertible in $k$.

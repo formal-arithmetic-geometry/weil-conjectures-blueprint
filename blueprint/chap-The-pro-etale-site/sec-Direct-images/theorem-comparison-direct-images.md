@@ -3,7 +3,7 @@ id = "theorem-comparison-direct-images"
 kind = "theorem"
 title = "Comparison of direct images"
 order = 133
-lean = ["AlgebraicGeometry.ProEtale.directImageComparisonAmbient", "AlgebraicGeometry.ProEtale.directImageComparisonAmbient_isIso", "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComparisonPlusIso"]
+lean = ["AlgebraicGeometry.ProEtale.rightDerivedLowerStarComparisonPlusBaseChange", "AlgebraicGeometry.ProEtale.isIso_rightDerivedLowerStarComparisonPlusBaseChange", "AlgebraicGeometry.ProEtale.rightDerivedLowerStarComparisonPlusIso"]
 +++
 If $g$ is quasi-compact and quasi-separated, the canonical natural
 transformation

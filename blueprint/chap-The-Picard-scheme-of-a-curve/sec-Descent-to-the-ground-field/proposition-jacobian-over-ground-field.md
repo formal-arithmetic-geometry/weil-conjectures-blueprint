@@ -3,7 +3,7 @@ id = "proposition-jacobian-over-ground-field"
 kind = "proposition"
 title = "The Jacobian over the ground field"
 order = 1556
-lean = ["AlgebraicGeometry.exists_jacobian_descent", "AlgebraicGeometry.nonempty_representableBy_picardFunctorDegree_baseChange", "AlgebraicGeometry.exists_jacobian_galoisAction"]
+lean = ["AlgebraicGeometry.exists_jacobian_descent", "AlgebraicGeometry.nonempty_representableBy_picardFunctorDegree_baseChange"]
 +++
 Let $C_0/k$ be a smooth proper geometrically connected curve of genus
 $g$, and put $C=C_0\times_k\bar k$.

@@ -3,7 +3,7 @@ id = "definition-strict-transform"
 kind = "definition"
 title = "Strict transform"
 order = 1422
-lean = ["AlgebraicGeometry.strictTransform"]
+lean = ["AlgebraicGeometry.strictTransform", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransform", "AlgebraicGeometry.Scheme.IdealSheafData.strictTransformι"]
 +++
 Let $b:T'\to T$ be the blow-up of $T$ in a quasi-coherent ideal of
 finite type, with exceptional divisor $E\subseteq T'$, and let $W\to T$

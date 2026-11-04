@@ -3,7 +3,7 @@ id = "lemma-sheaves-finite-support-finite-morphisms"
 kind = "lemma"
 title = "Sheaves with finite support"
 order = 1591
-lean = ["AlgebraicGeometry.zero_dimensional_etale_cohomology", "AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_topologicalKrullDim_le_zero"]
+lean = ["AlgebraicGeometry.Etale.isZero_homology_rightDerivedGlobalSections_of_isZero_sheafFiber", "AlgebraicGeometry.zero_dimensional_etale_cohomology", "AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_topologicalKrullDim_le_zero"]
 +++
 Let $F$ be a classical abelian sheaf supported on finitely many closed
 points of a scheme $C$ of finite type over an algebraically closed field

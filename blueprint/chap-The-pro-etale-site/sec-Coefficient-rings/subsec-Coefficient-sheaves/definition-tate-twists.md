@@ -3,7 +3,7 @@ id = "definition-tate-twists"
 kind = "definition"
 title = "Tate twists"
 order = 184
-lean = ["AlgebraicGeometry.ProEtale.rootsOfUnitySheaf", "AlgebraicGeometry.ProEtale.tateModule", "AlgebraicGeometry.ProEtale.tateTwistOne", "AlgebraicGeometry.ProEtale.tateTwist", "AlgebraicGeometry.ProEtale.tateTwistFunctor", "AlgebraicGeometry.ProEtale.spTwists_locallyFree"]
+lean = ["AlgebraicGeometry.Scheme.proEtaleRootsOfUnitySheaf", "AlgebraicGeometry.Scheme.tateTwist_finite_locallyFree", "AlgebraicGeometry.ProEtale.spFiniteTwist", "AlgebraicGeometry.ProEtale.spIntegralTwist", "AlgebraicGeometry.ProEtale.spRationalTwist", "AlgebraicGeometry.ProEtale.spQbarTwist", "AlgebraicGeometry.ProEtale.spSignedTwist", "AlgebraicGeometry.ProEtale.spInternalComplexTwist", "AlgebraicGeometry.ProEtale.spTwists_locallyFree", "AlgebraicGeometry.ProEtale.tateModule", "AlgebraicGeometry.ProEtale.tateTwistOne"]
 +++
 Let $X$ be a scheme on which $\ell$ is invertible, and let $\mu_{\ell^n,X}$
 be the sheaf of $\ell^n$th roots of unity on $X_{\mathrm{pro}\acute{e}t}$. Then it is locally isomorphic to

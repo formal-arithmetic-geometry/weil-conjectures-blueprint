@@ -3,6 +3,7 @@ id = "lemma-comparison-direct-images-compatibilities"
 kind = "lemma"
 title = "Compatibilities of the comparison of direct images"
 order = 136
+lean = ["AlgebraicGeometry.ProEtale.fixedComparisonDirectImageMatePlus_counit", "AlgebraicGeometry.ProEtale.comparisonDirectImagePlus_comp"]
 +++
 Let $g:X\to Y$ be a morphism of schemes.
 

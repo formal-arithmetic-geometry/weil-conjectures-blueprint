@@ -3,7 +3,7 @@ id = "proposition-integral-tate-module"
 kind = "proposition"
 title = "The integral Tate module"
 order = 1503
-lean = ["AlgebraicGeometry.IsAbelianVariety.natCard_torsionBy_geometricPoints", "AlgebraicGeometry.IsAbelianVariety.nonempty_addEquiv_torsionBy_points", "AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule_of_natCast_ne_zero", "AlgebraicGeometry.IsAbelianVariety.galoisRepresentation"]
+lean = ["AlgebraicGeometry.IsAbelianVariety.nonempty_addEquiv_torsionBy_points", "AlgebraicGeometry.IsAbelianVariety.nonempty_linearEquiv_tateModule_of_natCast_ne_zero", "AlgebraicGeometry.IsAbelianVariety.galoisRepresentation"]
 +++
 Let $A$ be an abelian variety of dimension $g$ over $k$, and let $\ell$
 be a prime invertible in $k$. There are noncanonical isomorphisms

@@ -3,7 +3,7 @@ id = "lemma-engel-s-theorem"
 kind = "lemma"
 title = "Engel's theorem"
 order = 1724
-lean = ["LieSubalgebra.exists_forall_apply_eq_zero_and_isNilpotent"]
+lean = ["LieSubalgebra.exists_forall_apply_eq_zero_and_isNilpotent", "LieModule.isNilpotent_iff_forall'"]
 +++
 Let $\mathfrak n\subseteq\operatorname{End}(M)$ be a Lie algebra
 consisting of nilpotent endomorphisms. If $M\ne0$, then the common

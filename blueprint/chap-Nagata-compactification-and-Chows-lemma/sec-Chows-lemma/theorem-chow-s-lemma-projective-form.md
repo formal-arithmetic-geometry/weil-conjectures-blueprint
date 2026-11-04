@@ -3,7 +3,7 @@ id = "theorem-chow-s-lemma-projective-form"
 kind = "theorem"
 title = "Chow's lemma, projective form"
 order = 1462
-lean = ["AlgebraicGeometry.exists_chow_finite_type", "AlgebraicGeometry.IsClosedImmersion.of_universallyClosed", "AlgebraicGeometry.ProjectiveSpace.isClosedImmersion_liftBaseChange"]
+lean = ["AlgebraicGeometry.exists_chow_finite_type", "AlgebraicGeometry.chow_relative_ample"]
 +++
 Let $f:X\to S$ be proper with $S$ qcqs. There are a proper
 surjection $\pi:\widetilde X\to X$ and a closed immersion

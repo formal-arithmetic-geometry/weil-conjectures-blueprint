@@ -3,6 +3,7 @@ id = "remark-base-change-compactification"
 kind = "remark"
 title = "Base change of a compactification"
 order = 1413
+lean = ["AlgebraicGeometry.Compactification.baseChange", "AlgebraicGeometry.Compactification.isSchemeTheoreticallyDominant_i_baseChange", "AlgebraicGeometry.Scheme.Hom.ker_pullback_snd"]
 uses = ["lemma-passing-schematic-closure"]
 +++
 For every $S'\to S$, the base change of a compactification is an open
