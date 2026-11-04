@@ -1,6 +1,6 @@
 +++
 id = "chap-Specialization-and-contracting-correspondences"
-kind = "chapter"
+kind = "appendix"
 title = "Specialization and contracting correspondences"
 order = 1610
 +++
