@@ -4,7 +4,7 @@ kind = "corollary"
 title = "Finite Tor amplitude under comparison"
 order = 152
 lean = ["AlgebraicGeometry.ProEtale.finiteTorComparisonNoetherian"]
-uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
+uses = ["theorem-comparison-constructible-sheaves"]
 +++
 Let $X$ be quasi-compact and quasi-separated and let $\Lambda$ be a discrete
 Noetherian ring. The equivalence

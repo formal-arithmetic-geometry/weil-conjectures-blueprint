@@ -4,7 +4,6 @@ kind = "proposition"
 title = "Ind-constructible sheaves"
 order = 448
 lean = ["AlgebraicGeometry.ProEtale.indHeart_fullFaithfulness", "AlgebraicGeometry.ProEtale.IsIndConstructibleHeart", "AlgebraicGeometry.ProEtale.CondensedRing.isIndConstructibleHeart_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.isIndConstructibleHeart_padicAlgClRingObj"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves"]
 +++
 1. The functor $\operatorname{Ind}(\Cons(X,\Lambda))\to\operatorname{Mod}(X_{\mathrm{pro}\acute{e}t},\Lambda)$
    sending a formal filtered colimit to the actual colimit is fully

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-punctured-surface-punctured-curve"
 order = 965
+uses = ["proposition-cohomology-smooth-affine-curve"]
 +++
 Both complexes have cohomology $\mathbf F_\ell$ in degree zero,
 $\mathbf F_\ell(-1)$ in degree one, and zero in all other degrees.

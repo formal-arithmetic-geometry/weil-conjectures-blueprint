@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Weil sheaves on a point are mixed"
 order = 1053
 lean = ["AlgebraicGeometry.WeilSheaf.isMixed_of_locallyQuasiFinite"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 Every constructible Weil $\overline{\mathbf Q}_\ell$-sheaf on $\operatorname{Spec}k_0$ is
 mixed. A constructible Weil $E$-sheaf on $\operatorname{Spec}k_0$

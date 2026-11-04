@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-mixedness-open-closed"
 order = 1334
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-w-local-components", "theorem-existence-contractible-covers", "proposition-pro-etale-affines-form-basis", "lemma-w-contractible-affines-projective", "theorem-enough-affine-weakly-contractible-objects", "definition-weak-contractibility", "lemma-finite-quasi-finite-direct-images", "lemma-weights-exact-sequence", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["proposition-weights-under-usual-operations", "lemma-finite-quasi-finite-direct-images"]
 +++
 The sheaf $G$ is an extension
 

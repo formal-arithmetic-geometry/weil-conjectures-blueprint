@@ -4,7 +4,6 @@ kind = "theorem"
 title = "The Picard scheme and the Jacobian over a separably closed field"
 order = 1543
 lean = ["AlgebraicGeometry.exists_jacobian", "AlgebraicGeometry.exists_decomposition_picardFunctor", "AlgebraicGeometry.theorem_of_the_base", "AlgebraicGeometry.smoothOfRelativeDimension_of_representableBy_picardFunctor", "AlgebraicGeometry.nonempty_tangentSpaceAt_linearEquiv_H_one", "AlgebraicGeometry.exists_jacobian_baseChange"]
-uses = ["definition-relative-picard-functor", "corollary-degree-jacobian"]
 +++
 Let $k$ be separably closed and let $C/k$ be a smooth proper
 connected curve of genus $g$. The fppf Picard functor is represented

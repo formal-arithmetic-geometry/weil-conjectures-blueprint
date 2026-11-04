@@ -4,7 +4,6 @@ kind = "theorem"
 title = "Contracting correspondences and local terms"
 order = 1700
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.restrict_traceClass_eq_pushforward_of_isContractingAt"]
-uses = ["definition-correspondence", "definition-pushforward-correspondence"]
 +++
 Let $c=(c_1,c_2):C\to X\times X$ be a correspondence, and let
 $Z\hookrightarrow X$ have ideal $I$. Let $F_0$ be a connected component

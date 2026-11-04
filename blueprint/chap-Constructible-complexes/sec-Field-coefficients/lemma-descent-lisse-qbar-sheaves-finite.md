@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Descent of lisse $\\Qbar$-sheaves"
 order = 265
 lean = ["AlgebraicGeometry.ProEtale.coefficient_finite_descent_lisse"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-lisse-sheaves"]
 +++
 A finite collection of lisse $\QbarX$-modules and morphisms between
 them is obtained by extension of scalars from lisse $E_X$-modules

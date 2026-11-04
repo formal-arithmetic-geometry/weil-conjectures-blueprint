@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-composition-cancellation"
 order = 385
-uses = ["definition-underived-base-change-map", "definition-derived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "definition-injective-acyclicity", "lemma-acyclic-resolutions"]
+uses = ["proposition-proper-base-change-degree-zero", "theorem-pbc-injective-acyclicity"]
 +++
 Theorem [theorem-pbc-injective-acyclicity] reduces both parts to the
 condition $\mathrm{IA}_\Lambda$ of injective acyclicity. We read off

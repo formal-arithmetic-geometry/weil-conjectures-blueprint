@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-compactness-rational-coefficients"
 order = 462
-uses = ["lemma-uniform-ext-bound", "proposition-ind-constructible-sheaves", "lemma-reduction-finitely-many-degrees"]
+uses = ["corollary-ind-heart-b", "corollary-ambient-ind-derived", "lemma-reduction-finitely-many-degrees"]
 +++
 The idea is that, by Lemma [lemma-reduction-finitely-many-degrees], maps out of a
 constructible sheaf depend only on the cohomology of the target in $d_C+1$

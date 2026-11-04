@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-extreme-degrees-affine-curve"
 order = 1181
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "lemma-degree-zero-top-cohomology", "lemma-cohomological-range-curve", "lemma-finite-quasi-finite-direct-images"]
+uses = ["lemma-degree-zero-top-cohomology"]
 +++
 The vanishing of $H^0_c$ was shown in the proof of
 Proposition [proposition-weights-j-boundary-points]. Let $i$ be the inclusion of $C_0-U_0$. Sheaves with finite support

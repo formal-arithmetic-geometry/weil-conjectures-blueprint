@@ -3,7 +3,7 @@ id = "remark-results-from-etale-theory"
 kind = "remark"
 title = "Results from the étale theory"
 order = 532
-uses = ["definition-cohomological-dimension", "theorem-proper-base-change-classical-pro"]
+uses = ["theorem-proper-base-change-classical-pro"]
 +++
 - *Proper base change*: let $p:X\to S$ be proper, let $g:S'\to S$ be
   a morphism, and let $p':X'\to S'$, $g':X'\to X$ be the projections of

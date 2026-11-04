@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Abelian category of constructible sheaves"
 order = 268
 lean = ["AlgebraicGeometry.ProEtale.coefficientHeart", "AlgebraicGeometry.ProEtale.coefficientHeart_closure", "AlgebraicGeometry.ProEtale.coefficientHeart_essentiallySmall", "AlgebraicGeometry.ProEtale.coefficientHeart_filtration"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 Let $\Lambda=E$ or $\overline{\mathbf Q}_\ell$.
 

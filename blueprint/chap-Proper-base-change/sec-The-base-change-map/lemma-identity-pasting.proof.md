@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-identity-pasting"
 order = 319
-uses = ["definition-underived-base-change-map"]
 +++
 Each base change map is a unit followed by a square isomorphism and a
 counit. The square isomorphisms compose, and the triangle identities

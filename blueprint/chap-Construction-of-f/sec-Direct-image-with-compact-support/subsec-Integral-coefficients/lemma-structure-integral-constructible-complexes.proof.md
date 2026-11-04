@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-structure-integral-constructible-complexes"
 order = 487
+uses = ["proposition-local-structure-integral-constructible-complexes", "proposition-integral-constructibility-criterion"]
 +++
 The conditions of Proposition [proposition-integral-constructibility-criterion], derived
 completeness and constructible reduction, are stable under shifts and

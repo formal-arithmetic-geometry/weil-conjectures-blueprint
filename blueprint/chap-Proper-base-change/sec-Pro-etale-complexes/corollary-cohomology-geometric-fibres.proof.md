@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-cohomology-geometric-fibres"
 order = 402
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-underived-base-change-map", "definition-derived-base-change-map", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-proper-base-change-classical-pro"]
+uses = ["proposition-pro-etale-site-separably-closed"]
 +++
 We apply the theorem to $g=\bar y$ and take global sections over the
 point. The right side becomes the cohomology of the fibre, and we

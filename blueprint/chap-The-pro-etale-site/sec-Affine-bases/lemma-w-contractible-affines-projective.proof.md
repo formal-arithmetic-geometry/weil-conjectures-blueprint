@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-w-contractible-affines-projective"
 order = 70
-uses = ["proposition-pro-etale-coverings", "proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale"]
+uses = ["proposition-splitting-ind-etale-covers", "theorem-pro-etale-refinements-weakly-etale"]
 +++
 To see that covers of $U$ split, note that by
 Theorem [theorem-pro-etale-refinements-weakly-etale] a

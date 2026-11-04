@@ -4,7 +4,6 @@ kind = "corollary"
 title = "Contracting local terms at a point"
 order = 1704
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_eq_integral_of_isContractingAt", "AlgebraicGeometry.ProEtale.CondensedRing.Correspondence.localTerm_traceClass_ofGraph_eq_trace_of_isContractingAt"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes", "definition-correspondence", "definition-frobenius-correspondences-their-operators"]
 +++
 Let $y\in X(k)$, and suppose that $c_1^{-1}(y)$ is a single reduced point
 $z$, with $c_2(z)=y$. Suppose that $F_0=\{z\}$ is an isolated reduced

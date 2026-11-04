@@ -4,7 +4,6 @@ kind = "proposition"
 title = "A central element of the arithmetic monodromy group"
 order = 1132
 lean = ["AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.exists_isPositiveCentralPair", "AlgebraicGeometry.Monodromy.RepresentedDegreeDatum.IsPositiveCentralPair.map"]
-uses = ["definition-monodromy-groups", "lemma-normality-geometric-monodromy"]
 +++
 Let $V_1,\ldots,V_n$ be semisimple Weil representations and form the
 monodromy groups $H\subseteq G$ of $V=\bigoplus_iV_i$, and let $s\in W(U_0)$

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-cohomology-projective-line-trace"
 order = 540
+uses = ["theorem-bounded-below-cohomology-comparison", "theorem-comparison-direct-images", "lemma-cycle-class-cartier-divisor", "proposition-smooth-proper-curves-torsion-prime"]
 +++
 By the comparison theorems for the cohomology and the proper direct image
 of bounded below complexes

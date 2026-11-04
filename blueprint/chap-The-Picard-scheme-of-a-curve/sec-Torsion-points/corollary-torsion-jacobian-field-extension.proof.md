@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-torsion-jacobian-field-extension"
 order = 1553
-uses = ["definition-small-pro-etale-site", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "lemma-uniqueness-maps-dense-open", "theorem-chow-s-lemma-projective-form", "lemma-abelian-variety-commutative", "lemma-symmetric-ample-sheaf", "proposition-pullback-multiplication-n", "proposition-multiplication-n", "definition-tate-module", "corollary-serre-duality-field-extension", "theorem-picard-scheme-jacobian-over-separably"]
+uses = ["proposition-multiplication-n", "proposition-integral-tate-module", "theorem-picard-scheme-jacobian-over-separably", "corollary-degree-jacobian"]
 +++
 The assertions about $J(C)$ are those of Appendix [chap-Abelian-varieties]
 for this abelian variety, and the degree sequence carries them over to

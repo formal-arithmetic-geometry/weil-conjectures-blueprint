@@ -4,7 +4,6 @@ kind = "lemma"
 title = "The boundary stalk"
 order = 1167
 lean = ["AlgebraicGeometry.WeilGroup.exists_equivalence_isLisse_stalk_directImage_boundaryStalk_eq_invariants", "AlgebraicGeometry.WeilSheaf.IsLisse.isIso_upperStarLowerStarAdjunction_unit_app", "AlgebraicGeometry.Scheme.isIso_unit_upperStarLowerStarAdjunction"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 Let $j:U_0\hookrightarrow X_0$ be a dense open in a smooth curve, let
 $\mathcal F$ be a lisse Weil sheaf on $U_0$, and let $j_*$ be the

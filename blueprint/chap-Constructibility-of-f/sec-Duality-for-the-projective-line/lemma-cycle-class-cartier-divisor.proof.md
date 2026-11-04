@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-cycle-class-cartier-divisor"
 order = 537
-uses = ["definition-underived-base-change-map", "lemma-finite-morphisms"]
 +++
 The map $c_D$ will be the boundary map of the extension of
 $i_*\mathbf Z_D$ by $\mathbf G_m$ formed by meromorphic functions

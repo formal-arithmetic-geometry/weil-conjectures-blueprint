@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-products-composites-u-admissible-blow"
 order = 1425
-uses = ["lemma-schematic-closure-uniqueness"]
 +++
 All three assertions are statements about ideals. Products of ideals
 dominate blow-ups, composites are computed by products of ideals, and

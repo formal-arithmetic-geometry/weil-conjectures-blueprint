@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-reduction-field"
 order = 670
-uses = ["definition-small-pro-etale-site", "definition-underived-base-change-map", "lemma-identity-pasting", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "lemma-injectivity-base-change-map-degree", "lemma-schematic-closure-uniqueness"]
+uses = ["lemma-injectivity-base-change-map-degree"]
 +++
 We shrink the source of the direct image, keeping a fixed
 nonzero element of the cokernel, until it becomes the spectrum of a field. A

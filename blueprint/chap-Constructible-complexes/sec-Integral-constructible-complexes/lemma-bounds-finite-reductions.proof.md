@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-bounds-finite-reductions"
 order = 229
-uses = ["corollary-finite-quotients-their-transition-maps"]
+uses = ["proposition-milnor-sequence", "theorem-comparison-constructible-sheaves", "corollary-finite-tor-amplitude-under-comparison"]
 +++
 Everything about $K_n$ is obtained from $K_1$ by induction on $n$, using
 that $K_n$ is an extension of $K_{n-1}$ by $K_1$. The Tor bound needs an

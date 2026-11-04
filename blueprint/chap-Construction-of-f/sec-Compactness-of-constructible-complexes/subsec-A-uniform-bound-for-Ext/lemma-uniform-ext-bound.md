@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Uniform Ext bound"
 order = 441
 lean = ["AlgebraicGeometry.ProEtale.HasUniformConstructibleExtBound", "AlgebraicGeometry.ProEtale.CondensedRing.hasUniformConstructibleExtBound_continuousMapRingObj", "AlgebraicGeometry.ProEtale.CondensedRing.hasUniformConstructibleExtBound_padicAlgClRingObj"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site"]
 +++
 For every $C\in\Cons(X,\Lambda)$ there is an integer $d_C\geq0$ such that
 

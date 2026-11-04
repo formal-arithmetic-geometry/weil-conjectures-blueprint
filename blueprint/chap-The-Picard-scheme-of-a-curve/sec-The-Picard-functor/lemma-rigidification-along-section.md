@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Rigidification along a section"
 order = 1514
 lean = ["AlgebraicGeometry.injective_pic_map_snd", "AlgebraicGeometry.pic_map_sectionBaseChange_snd", "AlgebraicGeometry.bijective_toPicardFunctor_picardFunctorNormalized", "AlgebraicGeometry.bijective_pic_split", "AlgebraicGeometry.range_pic_mapHom_snd_eq_ker_toPicardFunctorHom", "AlgebraicGeometry.picMulEquivProdPicardFunctorNormalized", "AlgebraicGeometry.isIso_picardFunctorNormalized_ι_comp_toPicardFunctor", "AlgebraicGeometry.Scheme.Modules.eq_of_pullback_map_eq"]
-uses = ["definition-relative-picard-functor"]
 +++
 Suppose that $f$ has a section $\sigma:S\to C$ and that
 

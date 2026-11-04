@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-specialization-trace-class"
 order = 1685
+uses = ["lemma-composition-exceptional-base-change-maps", "lemma-base-change-maps-fixed-point-scheme", "lemma-nearby-cycles-universal-kernel", "lemma-section-specialized-correspondence"]
 +++
 We compare the trace morphisms on the two fibres and then evaluate
 them on the sections of

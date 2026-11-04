@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Inverse image of the coefficient sheaves"
 order = 187
 lean = ["AlgebraicGeometry.ProEtale.cartesianCoefficients", "AlgebraicGeometry.ProEtale.cartesianCoefficients_finiteFree", "AlgebraicGeometry.ProEtale.isIso_condensedPullbackHom"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 Let $f:X\to Y$ be a morphism of schemes.
 

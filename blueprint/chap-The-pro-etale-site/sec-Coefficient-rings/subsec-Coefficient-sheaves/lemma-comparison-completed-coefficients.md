@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Comparison with completed coefficients"
 order = 178
 lean = ["AlgebraicGeometry.ProEtale.sfb_completed_coefficients"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 Write $\mathcal O_{E,X}$, $E_X$ and $\QbarX$ for the pullbacks to
 $X_{\mathrm{pro}\acute{e}t}$ of $\underline{\mathcal O_E}$, $\underline E$ and

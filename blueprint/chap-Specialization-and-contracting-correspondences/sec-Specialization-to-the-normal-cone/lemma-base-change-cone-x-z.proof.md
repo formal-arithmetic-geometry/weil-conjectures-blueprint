@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-base-change-cone-x-z"
 order = 1625
-uses = ["definition-pro-etale-base-change-map", "theorem-proper-base-change-classical-pro", "lemma-nearby-cycles-constant-family", "lemma-functoriality-deformation"]
+uses = ["lemma-nearby-cycles-constant-family", "lemma-functoriality-deformation"]
 +++
 Both the source and the target of $\tau$ are compatible with proper
 direct image and smooth pullback, so the cone is as well. To prove the

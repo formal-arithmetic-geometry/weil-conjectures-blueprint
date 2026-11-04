@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-projection-formula-integral-coefficients"
 order = 607
-uses = ["lemma-stability", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-lisse-sheaves", "definition-pro-etale-base-change-map", "lemma-proper-direct-image-unbounded-complexes", "lemma-inverse-image-tensor-product", "proposition-proper-direct-image-extension-zero", "lemma-checking-isomorphisms-constructible-complexes"]
+uses = ["proposition-proper-direct-image-constructible-complexes", "lemma-inverse-image-tensor-product", "proposition-compactness-proper-direct-image", "lemma-checking-isomorphisms-constructible-complexes"]
 +++
 On $\Dbc$ this is Proposition [proposition-proper-direct-image-constructible-complexes], and we
 extend it by checking one variable at a time. Both sides make sense, since

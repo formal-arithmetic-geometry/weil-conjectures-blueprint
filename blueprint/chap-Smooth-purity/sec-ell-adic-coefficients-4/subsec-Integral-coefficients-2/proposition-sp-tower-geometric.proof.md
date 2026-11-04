@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-sp-tower-geometric"
 order = 774
-uses = ["definition-representing-objects"]
 +++
 We repeat the construction of Section [sec-The-trace-map-of-affine-space] in the topos of towers. The construction
 has two parts: on a chart we write down an explicit adjunction, built from

@@ -4,7 +4,6 @@ kind = "theorem"
 title = "Verdier biduality"
 order = 838
 lean = ["AlgebraicGeometry.Etale.isIso_verdierDualDoubleDual_app", "AlgebraicGeometry.Etale.verdierDualEquivalence", "AlgebraicGeometry.ProEtale.CondensedRing.isIso_verdierBiduality", "AlgebraicGeometry.ProEtale.CondensedRing.PadicIntegersRingObj.isIso_verdierBiduality"]
-uses = ["definition-constructible-sheaves", "definition-relative-dualizing-complex", "definition-verdier-dual-evaluation", "definition-compactification-refinement"]
 +++
 For every admissible coefficient ring $\Lambda$ and every scheme $X$,
 

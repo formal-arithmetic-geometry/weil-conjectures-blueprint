@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-logarithm-determinant"
 order = 1028
+uses = ["proposition-properties-trace"]
 +++
 For a single eigenvalue $\alpha$ the identity is
 $-\log(1-\alpha T)=\sum_m\alpha^mT^m/m$, and the general case could be

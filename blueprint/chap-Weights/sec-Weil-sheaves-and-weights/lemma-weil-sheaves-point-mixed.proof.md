@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-weil-sheaves-point-mixed"
 order = 1054
-uses = ["proposition-pro-etale-coverings"]
 +++
 A constructible Weil sheaf on $\operatorname{Spec}k_0$ is a
 finite-dimensional vector space $V$ with an automorphism $F$, the

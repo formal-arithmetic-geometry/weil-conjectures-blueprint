@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Integral models for rational Frobenius correspondences"
 order = 1007
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.exists_integralModel_frobeniusCorrespondence", "AlgebraicGeometry.ProEtale.CondensedRing.pow_smul_frobeniusCoefficientIterate_eq", "AlgebraicGeometry.ProEtale.CondensedRing.pow_smul_upperStar_map_frobeniusCoefficientIterate_eq"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes", "definition-change-of-coefficients-maps", "lemma-extension-scalars-preserves-dctf", "definition-frobenius-correspondences-their-operators"]
 +++
 Let $K_E\in\Dbc(X,E)$ and let
 $\psi_E:\Phi_X^*K_E\to K_E$ be any morphism. There

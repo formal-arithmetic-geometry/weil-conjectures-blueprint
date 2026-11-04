@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-continuity-ext-out-constructible-complex"
 order = 282
-uses = ["definition-lisse-sheaves", "corollary-coefficient-heart-b"]
+uses = ["corollary-continuity-cohomology", "corollary-coefficient-heart-b", "lemma-sections-support-closed-subscheme"]
 +++
 We reduce to a single generator $a_!L$ and then use
 (3.1) to turn Hom into cohomology on the stratum $S$,

@@ -4,7 +4,6 @@ kind = "corollary"
 title = "Open direct image over a field"
 order = 579
 lean = ["AlgebraicGeometry.Etale.boundedConstructible_rightDerivedLowerStar_of_isOpenImmersion", "AlgebraicGeometry.Etale.isIso_baseChange_app_of_isOpenImmersion_of_field", "AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isOpenImmersion_of_field"]
-uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "definition-pro-etale-base-change-map"]
 +++
 Let $j:X\hookrightarrow Y$ be an open immersion. Then
 

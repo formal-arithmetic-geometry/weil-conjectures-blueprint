@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Identity and pasting"
 order = 318
 lean = ["AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_id", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_horiz", "AlgebraicGeometry.Etale.derivedBaseChangeMapPlus_paste_vert"]
-uses = ["definition-derived-base-change-map"]
 +++
 Let $K\in D^+(X_{\acute{e}t},\Lambda)$. The base change map is the identity for an
 identity square, and is compatible with horizontal and vertical pasting

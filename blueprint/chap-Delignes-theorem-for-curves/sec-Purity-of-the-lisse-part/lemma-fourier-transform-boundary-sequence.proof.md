@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-fourier-transform-boundary-sequence"
 order = 1268
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis", "theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "proposition-function-sheaf-dictionary", "theorem-trace-formula-euler-product", "lemma-point-count-bound", "lemma-extreme-degrees-affine-curve", "lemma-artin-schreier-character-sheaf", "lemma-finite-quasi-finite-direct-images"]
+uses = ["proposition-weights-j-boundary-points", "lemma-extreme-degrees-affine-curve", "proposition-base-change-fourier-inversion", "proposition-fourier-transform-middle-extension"]
 +++
 The three assertions are of different kinds. That the transform
 of $j_!M$ is a single sheaf is a vanishing statement for the

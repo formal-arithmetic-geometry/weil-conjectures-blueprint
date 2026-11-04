@@ -4,7 +4,6 @@ kind = "proposition"
 title = "Isomorphisms reduce to finite coefficients"
 order = 647
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.isIso_of_isIso_etaleReduction_map"]
-uses = ["definition-small-pro-etale-site"]
 +++
 For each admissible $\Lambda$ let
 $F_\Lambda,G_\Lambda:D^b_{\mathrm{ctf}}(X,\Lambda)\to D^b_{\mathrm{ctf}}(Y,\Lambda)$ be exact

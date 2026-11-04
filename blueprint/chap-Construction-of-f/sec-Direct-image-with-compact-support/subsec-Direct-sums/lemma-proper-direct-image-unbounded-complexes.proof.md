@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-proper-direct-image-unbounded-complexes"
 order = 483
+uses = ["proposition-milnor-sequence", "proposition-left-completeness", "proposition-ind-constructible-sheaves", "lemma-uniform-bound-proper-direct-image"]
 +++
 For bounded below $K$ everything is read off from the hypercohomology
 spectral sequence, which has only $2d+2$ nonzero columns. A general $K$

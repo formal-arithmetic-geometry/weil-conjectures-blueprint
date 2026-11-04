@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-extension-zero-restriction-closed-subscheme"
 order = 202
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "proposition-pro-etale-affines-form-basis"]
 +++
 The special feature of the pro-étale site is that $i^*$ preserves
 limits; we prove this first, deduce exactness of $j_!$ from the

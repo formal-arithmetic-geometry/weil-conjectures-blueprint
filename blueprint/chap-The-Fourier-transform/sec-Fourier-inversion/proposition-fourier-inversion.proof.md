@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-fourier-inversion"
 order = 1226
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-artin-schreier-character-sheaf", "lemma-integral-linear-character", "definition-compactification-refinement", "lemma-schematic-closure-uniqueness", "proposition-compactifying-union-two-opens", "lemma-affine-covers-dense-intersection"]
+uses = ["lemma-integral-linear-character"]
 +++
 The composite of two transforms is again an integral
 transform, and we compute its kernel. It will turn out to be the

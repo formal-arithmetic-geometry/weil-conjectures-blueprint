@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-nearby-cycles-universal-kernel"
 order = 1681
+uses = ["lemma-base-change-maps-external-duality"]
 +++
 For the first equality, we precompose with $\Pi_{K,\mathbb DK}$ and take
 tensor–Hom adjoints. Both maps then have source

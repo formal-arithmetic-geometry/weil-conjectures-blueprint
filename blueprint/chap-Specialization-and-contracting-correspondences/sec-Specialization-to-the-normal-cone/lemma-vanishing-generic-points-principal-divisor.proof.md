@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-vanishing-generic-points-principal-divisor"
 order = 1631
+uses = ["lemma-base-change-cone-x-z", "lemma-case-z-v-x-m"]
 +++
 For a constant sheaf extended by zero, a smooth map
 $X\to\mathbf A^1$ near the generic point reduces the claim to

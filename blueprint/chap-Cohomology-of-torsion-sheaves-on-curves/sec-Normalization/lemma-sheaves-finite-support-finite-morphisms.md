@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Sheaves with finite support"
 order = 1591
 lean = ["AlgebraicGeometry.zero_dimensional_etale_cohomology", "AlgebraicGeometry.IsCurve.bijective_cohomologyMap_of_topologicalKrullDim_le_zero"]
-uses = ["definition-torsion-sheaves"]
 +++
 Let $F$ be a classical abelian sheaf supported on finitely many closed
 points of a scheme $C$ of finite type over an algebraically closed field

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-case-z-v-x-m"
 order = 1628
+uses = ["lemma-functoriality-deformation"]
 +++
 We give a homotopy argument. The contraction $x\mapsto ax$ joins the identity
 ($a=1$) to a map that factors through $Z$ ($a=0$), and the endomorphisms of

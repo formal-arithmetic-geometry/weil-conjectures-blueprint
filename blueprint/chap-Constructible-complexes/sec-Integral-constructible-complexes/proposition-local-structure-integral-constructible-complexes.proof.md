@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-local-structure-integral-constructible-complexes"
 order = 244
-uses = ["lemma-perfect-complexes-over-oe", "lemma-local-constancy-finite-level", "lemma-integral-model-weakly-contractible"]
+uses = ["proposition-extension-zero-restriction-closed-subscheme", "lemma-bounds-finite-reductions", "lemma-perfect-complexes-over-oe", "lemma-local-constancy-finite-level", "lemma-integral-model-weakly-contractible"]
 +++
 We first trivialize each $K_n$ locally, separately for each $n$, and then make
 the trivializations compatible. Choose a finite stratification on which all cohomology sheaves of

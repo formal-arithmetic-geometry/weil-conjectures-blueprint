@@ -5,7 +5,6 @@ title = "Weights, purity and mixedness"
 name_showing = false
 order = 1051
 lean = ["AlgebraicGeometry.WeilGroup.IsOfWeight", "AlgebraicGeometry.WeilSheaf.IsPunctuallyPureOfWeight", "AlgebraicGeometry.WeilSheaf.HasWeightsAtMost", "AlgebraicGeometry.WeilSheaf.IsMixedOfWeightsAtMost", "AlgebraicGeometry.WeilSheaf.IsMixed", "AlgebraicGeometry.WeilComplex.IsMixedOfWeightsAtMost"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 Let $K$ be a constructible Weil sheaf on $X$, let $x$ be a closed point of
 $X_0$, and let $\alpha$ be an eigenvalue of $\operatorname{Frob}_x$ on

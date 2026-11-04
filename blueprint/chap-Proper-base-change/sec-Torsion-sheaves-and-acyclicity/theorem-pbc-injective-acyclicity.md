@@ -4,7 +4,6 @@ kind = "theorem"
 title = "PBC and injective acyclicity"
 order = 348
 lean = ["AlgebraicGeometry.Etale.hasTorsionBaseChange_iff_hasInjectiveAcyclicity"]
-uses = ["definition-torsion-pbc-property", "definition-injective-acyclicity"]
 +++
 Let $f:X\to Y$ be proper. The following are equivalent:
 

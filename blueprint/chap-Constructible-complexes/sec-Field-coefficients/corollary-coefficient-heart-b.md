@@ -5,7 +5,6 @@ title = "Generators of $D^b_c$ with field coefficients"
 name_showing = false
 order = 273
 lean = ["AlgebraicGeometry.ProEtale.constantModelBoundedConstructible_field_triangulated", "AlgebraicGeometry.ProEtale.coefficientHeart_generation"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "definition-constructible-sheaves", "definition-lisse-sheaves"]
 +++
 Let $\Lambda=E$ or $\overline{\mathbf Q}_\ell$. Then $\Dbc(X,\Lambda)$ is a triangulated
 subcategory of $D(X_{\mathrm{pro}\acute{e}t},\Lambda)$, and every object of $\Dbc(X,\Lambda)$

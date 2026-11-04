@@ -3,7 +3,7 @@ id = "lemma-naturality-under-base-change-etale"
 kind = "lemma"
 title = "Naturality under base change and étale maps"
 order = 745
-uses = ["lemma-section-normal-bundle"]
+uses = ["proposition-exceptional-inverse-image-smooth-morphism", "lemma-section-normal-bundle"]
 +++
 Write $\alpha_{g,s}:s^*\omega_g\xrightarrow{\sim}z^*\omega_\pi$
 for the comparison of Lemma [lemma-section-normal-bundle].

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-smooth-purity-all-admissible-coefficients"
 order = 809
-uses = ["proposition-ell-adic-cycle-class-diagonal", "proposition-sp-integral-adjunction", "proposition-sp-rational"]
+uses = ["lemma-reduction-derived-nakayama", "proposition-ell-adic-cycle-class-diagonal", "proposition-relative-dualizing-complex", "proposition-smooth-purity-finite-coefficients", "proposition-sp-unique-adjoint", "proposition-sp-integral-adjunction", "proposition-sp-rational", "theorem-sp-qbar", "proposition-compatibility-purity-base-change", "proposition-compatibility-purity-composition", "proposition-compatibility-purity-change-coefficients"]
 +++
 We recall $\gamma_f$ for each kind of coefficient ring, prove the trace
 normalization (1) first with finite and then with integral coefficients,

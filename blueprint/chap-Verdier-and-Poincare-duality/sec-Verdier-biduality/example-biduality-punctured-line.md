@@ -3,7 +3,7 @@ id = "example-biduality-punctured-line"
 kind = "example"
 title = "The dual of $j_!\\Lambda$ on the line"
 order = 827
-uses = ["example-closed-support"]
+uses = ["example-closed-support", "lemma-internal-adjunction-two-exchange-formulas"]
 +++
 Let $k$ be algebraically closed, $X=\mathbf A^1_k$, $i:0\to X$ the origin and
 $j:U=\mathbf G_{m,k}\to X$ its complement, and take $\Lambda$ finite. The

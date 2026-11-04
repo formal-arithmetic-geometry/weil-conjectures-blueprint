@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-dualizing-complex-smooth-scheme"
 order = 812
-uses = ["proposition-relative-dualizing-complex"]
+uses = ["theorem-smooth-purity-all-admissible-coefficients"]
 +++
 Apply Theorem [theorem-smooth-purity-all-admissible-coefficients] with coefficients $\Lambda$ to
 $K=\Lambda_{\operatorname{Spec}k}$, and use

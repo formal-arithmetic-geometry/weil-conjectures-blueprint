@@ -3,6 +3,7 @@ id = "example-nonzero-rlim-one"
 kind = "example"
 title = "A nonzero $R^1\\varprojlim$"
 order = 93
+uses = ["proposition-milnor-sequence"]
 +++
 Without surjective transition maps the derived limit can be nonzero in
 degree one. Over a geometric point, evaluate on the final object, which is weakly

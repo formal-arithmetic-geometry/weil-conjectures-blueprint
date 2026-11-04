@@ -3,7 +3,6 @@ id = "example-deformation-origin-line"
 kind = "example"
 title = "The origin in the affine line"
 order = 741
-uses = ["lemma-section-normal-bundle"]
 +++
 Let $S=\operatorname{Spec}k$, $V=\mathbf A^1_k$ with coordinate $x$, and let
 $s$ be the origin. The blowup of $V\times\mathbf A^1=\mathbf A^2$, with

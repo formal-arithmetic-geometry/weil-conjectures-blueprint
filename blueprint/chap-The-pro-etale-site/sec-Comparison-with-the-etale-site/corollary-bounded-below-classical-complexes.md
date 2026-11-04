@@ -4,7 +4,6 @@ kind = "corollary"
 title = "Bounded-below classical complexes"
 order = 129
 lean = ["AlgebraicGeometry.ProEtale.classicalDerivedEquivalence"]
-uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
 +++
 Classical module sheaves form a weak Serre subcategory, closed under
 kernels, cokernels and extensions. There is an equivalence

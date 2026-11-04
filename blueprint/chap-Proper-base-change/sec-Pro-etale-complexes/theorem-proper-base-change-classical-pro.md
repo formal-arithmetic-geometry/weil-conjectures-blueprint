@@ -4,7 +4,6 @@ kind = "theorem"
 title = "Pro-étale proper base change"
 order = 397
 lean = ["AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_isProper", "AlgebraicGeometry.Etale.isIso_baseChange_of_isProper_of_torsionHomology"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "definition-pro-etale-base-change-map", "definition-torsion-sheaves"]
 +++
 Let $\Lambda$ be a commutative ring, let $f:X\to Y$ be a proper
 morphism of schemes, and let $g:Y'\to Y$ be arbitrary. Set

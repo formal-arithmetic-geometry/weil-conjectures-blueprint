@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-function-sheaf-dictionary"
 order = 1023
-uses = ["definition-trace-function"]
+uses = ["lemma-perfect-complexes-geometric-point", "proposition-properties-trace", "theorem-grothendieck-lefschetz-trace-formula", "corollary-trace-functions-direct-image-compact"]
 +++
 Part (5) is Theorem [theorem-grothendieck-lefschetz-trace-formula] and part (3)
 is Corollary [corollary-trace-functions-direct-image-compact].

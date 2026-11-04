@@ -4,7 +4,6 @@ kind = "remark"
 title = "Non-Noetherian compactifications"
 name_showing = false
 order = 1408
-uses = ["proposition-extension-zero-restriction-closed-subscheme", "theorem-nagata-s-compactification-theorem"]
 +++
 The same proof works for qcqs $\overline X$ whenever
 $\overline X\setminus Z$ is quasi-compact. For a non-Noetherian

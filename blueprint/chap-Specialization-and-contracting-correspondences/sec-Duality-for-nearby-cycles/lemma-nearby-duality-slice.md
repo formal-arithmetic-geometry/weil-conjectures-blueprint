@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Duality for nearby cycles on a slice"
 order = 1673
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.NearbyCyclesModel.isIso_map_sliceSpecialMap_nearbyDualityMapOfGenericBase"]
-uses = ["definition-verdier-dual-evaluation"]
+uses = ["lemma-duality-invariants-pro-p"]
 +++
 In the situation just described, suppose that $X$ is affine, and let
 $i:X\hookrightarrow\mathbf A^r_{\mathbf A^1_S}$ be a closed immersion over

@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-repleteness-pro-etale-topos"
 order = 86
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-w-local-w-strictly-local", "lemma-w-contractible-affines-projective", "theorem-enough-affine-weakly-contractible-objects", "definition-weak-contractibility"]
 +++
 Evaluate the sequence on a weakly contractible $W$. Since every
 epimorphism of sheaves is surjective on sections over $W$, the transition

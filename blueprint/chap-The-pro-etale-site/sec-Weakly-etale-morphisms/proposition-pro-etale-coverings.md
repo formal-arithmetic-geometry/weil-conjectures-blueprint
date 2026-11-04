@@ -5,7 +5,6 @@ title = "Coverings in the pro-étale site"
 name_showing = false
 order = 36
 lean = ["AlgebraicGeometry.Scheme.ProEt.exists_finite_affine_of_mem_topology", "AlgebraicGeometry.Scheme.etalePrecoverage_le_proetalePrecoverage", "AlgebraicGeometry.Scheme.zariskiPrecoverage_le_proetalePrecoverage"]
-uses = ["definition-small-pro-etale-site", "proposition-pro-etale-affines-form-basis"]
 +++
 Let $U$ be an object of $X_{\mathrm{pro}\acute{e}t}$.
 

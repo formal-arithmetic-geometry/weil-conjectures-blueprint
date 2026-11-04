@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Bounds for squared traces"
 order = 1196
 lean = ["AlgebraicGeometry.WeilSheaf.exists_traceEnergy_le_of_hasWeightsAtMost", "AlgebraicGeometry.WeilSheaf.l2Weight_le_of_hasWeightsAtMost", "AlgebraicGeometry.WeilSheaf.l2Weight_le_of_traceEnergy_le", "AlgebraicGeometry.WeilSheaf.traceEnergy_constantTwist", "AlgebraicGeometry.WeilSheaf.l2Weight_eq_sub_of_traceEnergy_eq"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-growth-squared-traces"]
+uses = ["lemma-point-count-bound"]
 +++
 Let $X_0$ be a smooth affine curve over $k_0$, and let $a$ be a real
 number.

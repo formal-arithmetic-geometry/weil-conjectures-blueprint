@@ -2,6 +2,7 @@
 kind = "proof"
 of = "proposition-divisors-degree-g-open-chart"
 order = 1532
+uses = ["lemma-coherent-base-change-invertible-sheaves"]
 +++
 We construct mutually inverse maps: a divisor gives its invertible sheaf,
 normalized along $P$, and a family in $F$ has, up to units on $T$, a

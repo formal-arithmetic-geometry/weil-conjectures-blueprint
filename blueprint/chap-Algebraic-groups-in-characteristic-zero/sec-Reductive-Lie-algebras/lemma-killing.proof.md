@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-killing"
 order = 1732
+uses = ["lemma-cartan-s-criterion"]
 +++
 By Cartan's criterion, the kernel of $B$ is a solvable ideal, hence
 zero. Then nondegeneracy identifies the orthogonal of the derived

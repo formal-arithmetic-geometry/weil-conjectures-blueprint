@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-smooth-purity-finite-coefficients"
 order = 753
-uses = ["proposition-exceptional-inverse-image-smooth-morphism", "proposition-relative-dualizing-complex"]
 +++
 The calculation so far was made with coefficients $\mathbf Z/\ell^n\mathbf Z$,
 and every ingredient in it extends along $\mathbf Z/\ell^n\mathbf Z\to A$,

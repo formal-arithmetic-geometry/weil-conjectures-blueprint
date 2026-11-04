@@ -4,7 +4,6 @@ kind = "definition"
 title = "Perverse sheaves on a curve"
 order = 1241
 lean = ["AlgebraicGeometry.WeilComplex.IsCurvePerverseUpper", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLower", "AlgebraicGeometry.WeilComplex.IsCurvePerverse", "AlgebraicGeometry.WeilComplex.IsCurvePerverseLE"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 Let $\Lambda$ be $E$ or $\overline{\mathbf Q}_\ell$. Define two classes of objects of $D^b_c(C_{\mathrm{pro}\acute{e}t},\Lambda)$ by
 

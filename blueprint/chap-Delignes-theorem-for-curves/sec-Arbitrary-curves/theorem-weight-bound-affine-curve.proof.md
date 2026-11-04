@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-weight-bound-affine-curve"
 order = 1307
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "theorem-pro-etale-refinements-weakly-etale", "proposition-pro-etale-affines-form-basis", "theorem-grothendieck-lefschetz-trace-formula", "theorem-trace-formula-euler-product", "proposition-weights-under-usual-operations", "lemma-degree-zero-top-cohomology", "lemma-boundary-stalk", "lemma-point-count-bound", "lemma-extreme-degrees-affine-curve", "lemma-cohomological-range-curve", "lemma-unramified-at-infinity-no-linear-characters", "corollary-h-1-c-stalk-fourier", "proposition-exactness-fixed-pure-weight", "lemma-finite-extension-base-field-moving", "lemma-finite-quasi-finite-direct-images"]
+uses = ["proposition-weights-j-boundary-points", "theorem-weight-bound-affine-line", "lemma-weight-bound-constant-extension", "lemma-finite-extension-base-field-moving", "lemma-finite-generically-etale-map-line"]
 +++
 We push the sheaf forward to the line and realize $H^1_c$ as a
 quotient of a group bounded by

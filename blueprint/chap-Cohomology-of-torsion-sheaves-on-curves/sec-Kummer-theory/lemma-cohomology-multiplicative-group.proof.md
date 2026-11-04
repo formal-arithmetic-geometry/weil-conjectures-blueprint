@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-cohomology-multiplicative-group"
 order = 1566
-uses = ["theorem-classical-sheaves-essential-image", "lemma-acyclicity-pulled-back-injectives", "lemma-acyclic-resolutions", "lemma-finite-morphisms", "definition-compactification-refinement", "lemma-p-torsion-affine-curve-characteristic"]
+uses = ["theorem-bounded-below-cohomology-comparison", "theorem-riemann-roch-coherent-serre-duality"]
 +++
 We compute on $C_{\acute{e}t}$. In degree one, descent for invertible modules
 identifies $\mathbf G_m$-torsors with line bundles. In degrees at least

@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-abelian-variety-commutative"
 order = 1490
+uses = ["lemma-uniqueness-maps-dense-open", "lemma-rigidity"]
 +++
 An abelian variety is geometrically reduced because it is smooth, and
 geometrically irreducible because the identity component of a group

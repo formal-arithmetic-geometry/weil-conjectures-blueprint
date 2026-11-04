@@ -4,7 +4,6 @@ kind = "theorem"
 title = "Smooth base change for classical torsion complexes"
 order = 687
 lean = ["AlgebraicGeometry.ProEtale.isIso_derivedBaseChangeMap_app_of_smooth_of_torsion", "AlgebraicGeometry.Etale.isIso_baseChange_app_of_smooth"]
-uses = ["definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image", "definition-derived-base-change-map", "definition-pro-etale-base-change-map"]
 +++
 In (8.1), let $g$ be smooth and $f$ quasi-compact and
 quasi-separated. Let $\Lambda$ be a discrete commutative ring

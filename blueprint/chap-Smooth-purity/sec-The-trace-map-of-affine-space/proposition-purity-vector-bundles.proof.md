@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-purity-vector-bundles"
 order = 735
-uses = ["proposition-forgetting-supports-composition", "proposition-composition-open-restriction-compactifications-f", "lemma-affine-space-etale-localization"]
+uses = ["proposition-exceptional-inverse-image-smooth-morphism"]
 +++
 We transport the trace map of affine space along local trivializations,
 show that the result does not depend on the trivialization, so that the

@@ -4,7 +4,6 @@ kind = "proposition"
 title = "Determinant weights of tensor operations"
 order = 1139
 lean = ["Representation.exists_detWeight_eq_add_of_subquotient_tprod", "Representation.exists_isIrreducible_subquotient_tprod_detWeight_eq_add", "Representation.CompositionSeries.exteriorPower_detWeight", "AlgebraicGeometry.WeilGroup.detWeight_subquotient_exteriorPower"]
-uses = ["definition-determinant-weight", "definition-weil-representation"]
 +++
 Let $V$ and $V'$ be nonzero Weil representations, let $A_1,\ldots,A_t$ be
 the composition factors of $V$, and put $\gamma_a=\operatorname{dw}_\iota(A_a)$.

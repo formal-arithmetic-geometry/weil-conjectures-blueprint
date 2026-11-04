@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-covers-degree-prime-to-ell"
 order = 977
-uses = ["definition-small-pro-etale-site"]
 +++
 We take the fixed field of an $\ell$-Sylow subgroup of the monodromy, adjust
 the degree by an Eisenstein extension, and descend to curves.

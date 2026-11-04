@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-exceptional-external-kunneth"
 order = 902
-uses = ["proposition-composition-open-restriction-compactifications-f", "definition-exceptional-base-change-map"]
+uses = ["lemma-flat-models-generators", "proposition-six-operations-dctf", "theorem-smooth-purity-all-admissible-coefficients", "corollary-verdier-exchange-formulas"]
 +++
 Both sides of $\alpha$ are exact in each variable, so by dévissage it is
 enough to check $\alpha$ on generators.

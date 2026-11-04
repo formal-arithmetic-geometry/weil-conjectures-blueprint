@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-descent-finite-coefficient-field"
 order = 286
-uses = ["proposition-ctf-equals-bc", "lemma-descent-lisse-qbar-sheaves-finite"]
+uses = ["lemma-descent-lisse-qbar-sheaves-finite", "lemma-constructible-sheaves", "lemma-continuity-ext-out-constructible-complex"]
 +++
 Morphisms descend because $\QbarX$ is the filtered colimit of the $E'_X$
 and Hom out of a constructible complex commutes with this colimit

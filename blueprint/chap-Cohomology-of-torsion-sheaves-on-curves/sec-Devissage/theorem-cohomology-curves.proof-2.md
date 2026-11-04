@@ -3,6 +3,7 @@ id = "proof/theorem-cohomology-curves/2"
 kind = "proof"
 of = "theorem-cohomology-curves"
 order = 1609
+uses = ["theorem-bounded-below-cohomology-comparison", "lemma-finite-morphisms-cohomology", "lemma-sheaves-finite-support-finite-morphisms", "lemma-removing-finitely-many-points", "lemma-reduction-unipotent-local-system"]
 +++
 For constructible sheaves we reduce to the explicit calculations, and
 arbitrary torsion sheaves are filtered colimits of these. The reduction

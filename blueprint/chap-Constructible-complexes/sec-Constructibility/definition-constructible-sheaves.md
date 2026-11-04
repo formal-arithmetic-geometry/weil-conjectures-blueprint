@@ -4,7 +4,6 @@ kind = "definition"
 title = "Constructible sheaves"
 order = 219
 lean = ["AlgebraicGeometry.ProEtale.HasFiniteConstantLocalModel", "AlgebraicGeometry.ProEtale.IsFiniteConstantStratified", "AlgebraicGeometry.ProEtale.IsConstantModelConstructible", "AlgebraicGeometry.ProEtale.constantModelBoundedConstructible", "DerivedCategory.torAmplitudeIn", "DerivedCategory.finiteTorAmplitude", "AlgebraicGeometry.ProEtale.IsConstructibleModuleObject", "CategoryTheory.Mod.IsFinitelyPresented"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 Let $\Lambda$ be a commutative condensed ring.
 

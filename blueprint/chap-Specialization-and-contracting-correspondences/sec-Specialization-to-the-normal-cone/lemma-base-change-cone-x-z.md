@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Base change for the cone of $\\tau_{X,Z}$"
 order = 1624
 lean = ["AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerStar_iso", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_upperStar_iso", "AlgebraicGeometry.ProEtale.CondensedRing.isZero_specializationDefect_lowerStar_centreι", "AlgebraicGeometry.ProEtale.CondensedRing.nonempty_specializationDefect_lowerShriek_upperStar_iso"]
-uses = ["definition-ind-etale-pro-etale-weakly", "lemma-stability", "definition-small-pro-etale-site", "proposition-topos-functoriality", "lemma-inverse-image-coefficient-sheaves", "definition-constructible-sheaves", "definition-lisse-sheaves", "lemma-proper-direct-image-unbounded-complexes"]
 +++
 Let $f:X'\to X$ be a morphism of separated $k$-schemes of finite type,
 let $Z'=f^{-1}Z$ schematically, and let $f_Z:Z'\to Z$ be the

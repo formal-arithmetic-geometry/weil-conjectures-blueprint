@@ -5,7 +5,6 @@ title = "Connected components of w-local spaces and rings"
 name_showing = false
 order = 45
 lean = ["WLocalSpace.isHomeomorph_connectedComponents_closedPoints", "IsStrictlyHenselianLocalRing.isWContractibleRing"]
-uses = ["definition-w-local-w-strictly-local"]
 +++
 1. If $T$ is a w-local spectral space, the natural map
    $T^c\to\pi_0(T)$ is a homeomorphism.

@@ -4,7 +4,6 @@ kind = "lemma"
 title = "Extension across a finite subset"
 order = 570
 lean = ["AlgebraicGeometry.Etale.HasDirectImageBaseChangeOnPlus.of_finite_boundary"]
-uses = ["definition-derived-base-change-map"]
 +++
 Let $S$ be integral and affine, let $b:Y\to S$ be projective, and let
 $j:X\hookrightarrow Y$ be an open immersion with $X$ smooth over $S$. Let

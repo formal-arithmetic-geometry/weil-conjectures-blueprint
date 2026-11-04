@@ -4,7 +4,7 @@ kind = "lemma"
 title = "Double duals on the geometric generic fibre"
 order = 835
 lean = ["AlgebraicGeometry.Etale.exists_iso_leftDerivedUpperStar_dualizingComplex_of_generic", "AlgebraicGeometry.Etale.isIso_leftDerivedUpperStar_map_verdierDualDoubleDual_app_iff_of_generic"]
-uses = ["definition-constructible-sheaves", "definition-relative-dualizing-complex", "definition-verdier-dual-evaluation", "definition-compactification-refinement"]
+uses = ["lemma-restriction-geometric-generic-fibre"]
 +++
 In the setting of Lemma [lemma-restriction-geometric-generic-fibre],
 let $B=\mathbf A^1_k$ and $K\in D^b_{\mathrm{ctf}}(X,A)$. For every affine open $V$

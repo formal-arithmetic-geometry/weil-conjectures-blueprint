@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-external-kunneth-formula-nearby-cycles"
 order = 1650
-uses = ["lemma-quasi-finite-coordinates", "lemma-kunneth-map-slice"]
+uses = ["lemma-kunneth-map-proper-direct-image", "lemma-finite-support-global-sections", "lemma-quasi-finite-coordinates", "lemma-kunneth-map-slice"]
 +++
 We argue by induction on
 $n=\dim(X_{\bar\eta}\times_{\bar\eta}Y_{\bar\eta})$, simultaneously for

@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-poincare-duality"
 order = 851
-uses = ["proposition-proper-base-change-degree-zero", "definition-torsion-pbc-property", "definition-injective-acyclicity", "proposition-proper-base-change-etale-site", "theorem-global-verdier-duality"]
+uses = ["corollary-dualizing-complex-smooth-scheme", "lemma-perfect-complexes-geometric-point", "theorem-global-verdier-duality"]
 +++
 The theorem is global duality rewritten by means of smooth purity: once
 $\omega_X$ and $\mathbb D_XK$ are identified, the pairing of

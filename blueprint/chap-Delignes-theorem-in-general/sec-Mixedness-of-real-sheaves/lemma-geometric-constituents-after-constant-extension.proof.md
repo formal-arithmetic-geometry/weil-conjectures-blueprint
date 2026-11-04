@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-geometric-constituents-after-constant-extension"
 order = 1329
+uses = ["lemma-restriction-normal-subgroup"]
 +++
 An irreducible Weil representation is geometrically semisimple. A
 power of Frobenius fixes each isotypic component, and on it we can

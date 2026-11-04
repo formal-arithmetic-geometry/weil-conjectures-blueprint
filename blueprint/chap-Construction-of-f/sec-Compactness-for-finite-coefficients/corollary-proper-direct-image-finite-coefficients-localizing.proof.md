@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-proper-direct-image-finite-coefficients-localizing"
 order = 473
-uses = ["theorem-comparison-direct-images", "proposition-comparison-etale-derived-category"]
+uses = ["proposition-proper-direct-image-finite-coefficients", "proposition-comparison-etale-derived-category"]
 +++
 On unbounded étale derived categories, proper direct image preserves
 arbitrary direct sums by [Stacks, [0F0D](https://stacks.math.columbia.edu/tag/0F0D)]. Forgetting coefficients gives

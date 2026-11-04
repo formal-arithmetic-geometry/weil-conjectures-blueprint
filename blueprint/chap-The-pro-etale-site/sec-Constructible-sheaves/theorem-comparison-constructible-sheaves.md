@@ -4,7 +4,6 @@ kind = "theorem"
 title = "Comparison for constructible sheaves"
 order = 149
 lean = ["AlgebraicGeometry.ProEtale.constructibleComparison"]
-uses = ["definition-small-pro-etale-site", "definition-classical-pro-etale-sheaves", "proposition-comparison-morphism-inverse-image"]
 +++
 Let $X$ be quasi-compact and quasi-separated. For a discrete
 Noetherian $\Lambda$, every constructible

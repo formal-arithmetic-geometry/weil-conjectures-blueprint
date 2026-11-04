@@ -2,7 +2,6 @@
 kind = "proof"
 of = "lemma-sections-support-closed-subscheme"
 order = 278
-uses = ["definition-local-cohomology", "lemma-local-cohomology-right-adjoint", "lemma-proper-direct-image-unbounded-complexes", "proposition-sp-unique-adjoint"]
 +++
 Lemma [lemma-local-cohomology-right-adjoint] gives the adjunction
 between $i_*$ and $R\underline\Gamma_Z$ on derived categories. What is new

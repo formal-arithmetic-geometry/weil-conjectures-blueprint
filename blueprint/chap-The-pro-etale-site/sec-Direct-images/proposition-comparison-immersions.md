@@ -4,7 +4,6 @@ kind = "proposition"
 title = "Comparison for immersions"
 order = 139
 lean = ["AlgebraicGeometry.ProEtale.openImmersionLowerShriekComparisonUpperStarIso"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-comparison-morphism-inverse-image"]
 +++
 1. For an open immersion $j:U\hookrightarrow X$, there is a canonical
    isomorphism

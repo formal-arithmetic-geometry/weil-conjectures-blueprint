@@ -4,7 +4,6 @@ kind = "corollary"
 title = "A curve preserving geometric irreducibility"
 order = 1324
 lean = ["AlgebraicGeometry.WeilSheaf.exists_isClosedImmersion_isIrreducibleLocalSystem_upperStar"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality"]
 +++
 Let $X_0$ be a smooth geometrically connected affine scheme of positive
 dimension. Given finitely many geometrically irreducible lisse Weil

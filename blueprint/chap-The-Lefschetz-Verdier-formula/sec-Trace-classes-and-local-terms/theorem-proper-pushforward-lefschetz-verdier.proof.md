@@ -2,7 +2,7 @@
 kind = "proof"
 of = "theorem-proper-pushforward-lefschetz-verdier"
 order = 920
-uses = ["proposition-properties-trace", "definition-correspondence", "definition-trace-class-local-terms", "lemma-local-terms-point", "definition-action-correspondence", "definition-pushforward-correspondence"]
+uses = ["lemma-local-terms-point"]
 +++
 The trace class of $u$ is built in three steps: $u$ becomes a map into
 $P_X=K\boxtimes\mathbb D_XK$, evaluation maps $P_X$ to the

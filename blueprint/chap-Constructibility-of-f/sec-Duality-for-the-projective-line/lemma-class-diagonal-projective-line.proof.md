@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-class-diagonal-projective-line"
 order = 545
+uses = ["lemma-cohomology-projective-line-trace"]
 +++
 Let $x_0,x_1$ and $y_0,y_1$ be the pullbacks along $p_1$
 and $p_2$ of the homogeneous coordinates of $\mathbf P^1_S$. Then

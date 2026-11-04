@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-purity-lisse-part-fourier-transform"
 order = 1275
-uses = ["proposition-etale-implications", "lemma-stability", "proposition-pro-etale-coverings", "theorem-pro-etale-refinements-weakly-etale", "theorem-grothendieck-lefschetz-trace-formula", "definition-trace-function", "proposition-weights-under-usual-operations", "theorem-purity-real-sheaves-curves", "lemma-boundary-stalk", "corollary-unramified-boundary-point", "lemma-artin-schreier-character-sheaf", "lemma-fourier-transform-boundary-sequence", "lemma-twisted-envelope", "lemma-finite-quasi-finite-direct-images"]
+uses = ["corollary-trace-functions-direct-image-compact", "theorem-purity-real-sheaves-curves", "corollary-unramified-boundary-point", "proposition-twisting-weight-zero-adding-dual", "lemma-simple-objects", "lemma-fourier-transform-boundary-sequence", "lemma-twisted-envelope"]
 +++
 We twist to weight zero and add the dual, as in
 Proposition [proposition-twisting-weight-zero-adding-dual], before taking the transform, so

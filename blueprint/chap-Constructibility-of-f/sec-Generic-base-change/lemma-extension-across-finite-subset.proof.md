@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-extension-across-finite-subset"
 order = 571
-uses = ["definition-underived-base-change-map", "lemma-identity-pasting", "definition-torsion-sheaves", "lemma-acyclic-resolutions", "theorem-proper-base-change-classical-pro", "lemma-detection-proper-direct-image"]
+uses = ["lemma-smooth-morphisms-locally-constant-sheaves", "lemma-detection-proper-direct-image"]
 +++
 Lemma [lemma-smooth-morphisms-locally-constant-sheaves] controls the
 direct image $R(bj)_*F$ of $Rj_*F$ to $S$.

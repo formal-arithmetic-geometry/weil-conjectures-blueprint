@@ -4,7 +4,6 @@ kind = "lemma"
 title = "A proper smooth model"
 order = 1085
 lean = ["AlgebraicGeometry.exists_smooth_properCompactification", "AlgebraicGeometry.exists_smooth_projectiveCompactification"]
-uses = ["definition-compactification-refinement"]
 +++
 A smooth geometrically connected curve $U_0/k_0$ has a smooth
 projective geometrically connected compactification

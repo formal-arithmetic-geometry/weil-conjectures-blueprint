@@ -4,7 +4,6 @@ kind = "theorem"
 title = "The Weil conjectures for smooth proper schemes"
 order = 1382
 lean = ["AlgebraicGeometry.Scheme.weil_conjectures", "AlgebraicGeometry.Scheme.exists_isWeilFactorization_of_smoothProper", "AlgebraicGeometry.Scheme.weil_integral_factors", "AlgebraicGeometry.Scheme.riemann_hypothesis", "AlgebraicGeometry.Scheme.weil_betti", "AlgebraicGeometry.Scheme.weil_functional_equation"]
-uses = ["definition-ind-etale-pro-etale-weakly", "definition-small-pro-etale-site", "proposition-topos-functoriality", "definition-compactification-refinement"]
 +++
 Let $X_0/\mathbf F_q$ be smooth proper of pure dimension $d$, and let
 $P_{i,\ell}$ be as above.

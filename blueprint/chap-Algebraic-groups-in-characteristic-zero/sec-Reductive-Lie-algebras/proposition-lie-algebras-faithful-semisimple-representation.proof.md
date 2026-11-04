@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-lie-algebras-faithful-semisimple-representation"
 order = 1735
-uses = ["lemma-lie-s-theorem"]
+uses = ["lemma-lie-s-theorem", "lemma-killing"]
 +++
 We follow the two halves described at the start of this subsection:
 first the radical is central, and then the quotient by the center

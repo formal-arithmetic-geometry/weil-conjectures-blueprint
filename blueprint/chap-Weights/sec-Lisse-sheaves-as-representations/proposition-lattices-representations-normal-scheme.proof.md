@@ -2,7 +2,6 @@
 kind = "proof"
 of = "proposition-lattices-representations-normal-scheme"
 order = 1075
-uses = ["proposition-etale-implications", "lemma-stability", "theorem-pro-etale-refinements-weakly-etale"]
 +++
 Let $M\subset L$ be as in the statement, with reductions $M_n=M/\pi_E^nM$.
 Their fibres define a continuous action of

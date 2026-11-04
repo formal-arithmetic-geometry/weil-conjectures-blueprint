@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-global-lattice-normal-scheme"
 order = 1072
-uses = ["definition-small-pro-etale-site", "lemma-geometric-coverings-normal-scheme"]
+uses = ["theorem-comparison-constructible-sheaves", "lemma-comparison-completed-coefficients", "lemma-lattices-lisse-e-sheaves", "lemma-geometric-coverings-normal-scheme"]
 +++
 The scheme of lattices satisfies the valuative condition of
 Lemma [lemma-geometric-coverings-normal-scheme], so it has a finite étale

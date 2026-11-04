@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-local-terms-point"
 order = 913
-uses = ["definition-verdier-dual-evaluation", "definition-categorical-trace", "lemma-external-duality-trace-morphism", "definition-trace-morphism", "definition-trace-class-local-terms"]
+uses = ["lemma-external-duality-trace-morphism"]
 +++
 On the point each step of the construction of the trace class is a
 step of the categorical trace. Here $\omega_s=A_s$, so $\mathbb D_sP=P^\vee$, and $P_s=P\boxtimes

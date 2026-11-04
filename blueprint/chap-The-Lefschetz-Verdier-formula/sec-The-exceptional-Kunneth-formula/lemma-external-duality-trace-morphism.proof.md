@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-external-duality-trace-morphism"
 order = 905
-uses = ["lemma-flat-models-generators", "proposition-composition-base-change-rf-shriek", "proposition-exceptional-inverse-image-smooth-morphism", "theorem-f-shriek-finite-coefficients", "lemma-base-change-along-product-projection", "definition-exceptional-base-change-map", "theorem-sp-qbar", "proposition-exceptional-external-kunneth"]
+uses = ["lemma-flat-models-generators", "proposition-exceptional-external-kunneth"]
 +++
 The exceptional Künneth formula
 (Proposition [proposition-exceptional-external-kunneth]) and the ordinary one

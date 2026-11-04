@@ -3,6 +3,7 @@ id = "proposition-comparison-etale-derived-category"
 kind = "proposition"
 title = "Comparison with the étale derived category"
 order = 469
+uses = ["proposition-comparison-immersions"]
 +++
 For a finite admissible ring $A$, the comparison functor
 $\nu_X^*:D(X_{\acute{e}t},A)\to D(X_{\mathrm{pro}\acute{e}t},A)$ identifies

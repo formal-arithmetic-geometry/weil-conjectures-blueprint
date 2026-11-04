@@ -2,6 +2,7 @@
 kind = "proof"
 of = "lemma-cohomology-near-two-transverse-divisors"
 order = 967
+uses = ["lemma-punctured-surface-punctured-curve"]
 +++
 The idea is that, since the monodromy is an $\ell$-group, we may filter
 the coefficients until they become the constant sheaf $\mathbf F_\ell$.

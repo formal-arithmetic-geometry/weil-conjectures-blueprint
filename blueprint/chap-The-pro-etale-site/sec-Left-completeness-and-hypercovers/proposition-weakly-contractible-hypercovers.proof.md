@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-weakly-contractible-hypercovers"
 order = 104
-uses = ["proposition-etale-implications", "lemma-stability", "theorem-existence-contractible-covers", "definition-weak-contractibility"]
+uses = ["corollary-evaluation-weakly-contractible-objects"]
 +++
 We build a hypercover whose terms have no higher cohomology, so that
 the hypercover spectral sequence collapses to the complex of sections.

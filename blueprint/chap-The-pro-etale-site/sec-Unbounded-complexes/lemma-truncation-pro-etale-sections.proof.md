@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-truncation-pro-etale-sections"
 order = 165
-uses = ["proposition-milnor-sequence", "proposition-left-completeness"]
+uses = ["proposition-left-completeness"]
 +++
 By left completeness (Proposition [proposition-left-completeness]),
 $L\simeq R\varprojlim_n\tau_{\geq-n}L$, and derived sections preserve

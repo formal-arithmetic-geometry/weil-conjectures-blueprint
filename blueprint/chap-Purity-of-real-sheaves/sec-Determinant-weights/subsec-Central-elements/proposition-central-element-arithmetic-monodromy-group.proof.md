@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-central-element-arithmetic-monodromy-group"
 order = 1133
-uses = ["lemma-identity-component"]
+uses = ["lemma-identity-component", "lemma-connected-components-images-homomorphisms"]
 +++
 We write a power of $\rho(s)$ as a central torus element times an
 element of $H$, by Lemma [lemma-identity-component], and average

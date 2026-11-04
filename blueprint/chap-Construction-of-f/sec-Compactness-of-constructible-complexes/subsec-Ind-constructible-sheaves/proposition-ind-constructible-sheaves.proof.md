@@ -2,7 +2,7 @@
 kind = "proof"
 of = "proposition-ind-constructible-sheaves"
 order = 449
-uses = ["definition-lisse-sheaves", "lemma-constructible-sheaves", "lemma-continuity-ext-out-constructible-complex", "definition-ind-constructible-sheaves"]
+uses = ["lemma-constructible-sheaves", "lemma-continuity-ext-out-constructible-complex"]
 +++
 The proof uses one property of constructible sheaves: maps out of them
 commute with filtered colimits. Because of this, the formal colimits of

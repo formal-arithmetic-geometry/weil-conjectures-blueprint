@@ -5,7 +5,6 @@ title = "Étale, ind-étale and weakly étale ring maps"
 name_showing = false
 order = 29
 lean = ["RingHom.IndEtale.weaklyEtale", "Algebra.IndEtale.weaklyEtale", "AlgebraicGeometry.etale_le_weaklyEtale", "AlgebraicGeometry.WeaklyEtale.etale"]
-uses = ["definition-ind-etale-pro-etale-weakly"]
 +++
 Let $R\to B$ be a ring map.
 

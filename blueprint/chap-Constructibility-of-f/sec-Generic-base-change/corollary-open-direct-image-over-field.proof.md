@@ -2,7 +2,7 @@
 kind = "proof"
 of = "corollary-open-direct-image-over-field"
 order = 580
-uses = ["definition-ind-etale-pro-etale-weakly", "proposition-etale-implications", "proposition-topos-functoriality", "theorem-comparison-direct-images", "definition-underived-base-change-map", "lemma-naturality-pasting-comparison", "theorem-generic-constructibility-base-change-rj", "definition-compactification-refinement"]
+uses = ["theorem-generic-constructibility-base-change-rj"]
 +++
 We argue on the étale site. The theorem gives the case of
 $\Fell$-sheaves, and we pass to $\mathbf Z/\ell^r$-sheaves by

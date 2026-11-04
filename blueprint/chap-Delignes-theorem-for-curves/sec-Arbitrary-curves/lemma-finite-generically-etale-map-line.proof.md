@@ -2,7 +2,7 @@
 kind = "proof"
 of = "lemma-finite-generically-etale-map-line"
 order = 1304
-uses = ["proposition-etale-implications", "proposition-pro-etale-coverings", "definition-w-local-w-strictly-local", "proposition-w-local-components", "theorem-existence-contractible-covers", "lemma-w-contractible-affines-projective", "theorem-enough-affine-weakly-contractible-objects", "definition-weak-contractibility", "lemma-finite-quasi-finite-direct-images"]
+uses = ["theorem-riemann-roch-coherent-serre-duality"]
 +++
 The map is given by a function with a single pole, at a point at
 infinity, and we choose the order of this pole prime to $p$ so that
