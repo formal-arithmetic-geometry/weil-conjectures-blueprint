@@ -1,6 +1,6 @@
 +++
 id = "chap-Abelian-varieties"
-kind = "chapter"
+kind = "appendix"
 title = "Abelian varieties"
 order = 1464
 +++
